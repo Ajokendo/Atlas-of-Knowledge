@@ -116,3 +116,15 @@ This checkpoint preserves the working context for continuation after a session i
 - Resume by checking the branch and current files before editing; then continue the systematic content and source audit, prioritising real gaps in the Kyrgyzstan chapters and preserving full Russian/English parity. Re-fetch every edited file after committing and record the evidence here.
 - **Progress-report rule:** do not provide an interim percentage or progress report before the user-requested 85% milestone. Do not invent a percentage; report only after a documented reassessment.
 - This checkpoint records the verified state and next actions; it is not a claim that all historical lost material has been recovered or that the atlas is complete.
+
+
+## Follow-up audit — Chapter 24 population comparability (1 November 2026)
+
+- Added a bilingual warning beside the seven-region population comparison table explaining the discontinuity in the National Statistical Committee's regional population series between 2023 and 2024.
+- The NSC open-data table reports a decline in the published totals for Osh and Chuy regions between 2023 and 2024, alongside sharp increases for Osh and Bishkek cities. These shifts are not evidence, by themselves, of mass migration.
+- Cross-checked the NSC's official population news item, which states that the 2024 administrative-territorial reform changed the urban/rural population shares. The chapter now explains that territorial reclassification and changed boundaries can affect comparisons, and instructs readers to check harmonised boundaries/methodological notes before calculating growth rates across the reform.
+- The note explicitly avoids claiming an exact quantity of population transferred between administrative units, because the cited public series alone does not establish that decomposition.
+- Added the NSC source to Chapter 24 references: https://www.stat.gov.kg/ru/news/cifry--fakty-vsemirnyj-den-naseleniya/
+- Updated Chapter 24 was fetched again from `workspace/geography`; both Russian and English warnings, the source link and chapter structure were verified.
+
+**Chapter 24 update commit:** `2a880dbe431ed9cfa24b400be87177fd06bccf1a`
