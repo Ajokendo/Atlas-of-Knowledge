@@ -207,3 +207,12 @@ This checkpoint preserves the working context for continuation after a session i
 - Added the English version of the spatial-planning and regional-policy discussion in section 24.12, including the place-based planning workflow and evaluation criteria.
 - Preserved distinctions between absolute and relative indicators, urban centres and oblast totals, and hazard probability versus exposure and vulnerability.
 - Chapter 24 remains subject to further bilingual review of its remaining sections; this update does not declare the whole chapter complete.
+
+
+## Follow-up bilingual development — Chapter 24, learning materials (1 November 2026)
+
+- Added English versions of all 12 map and visual-material briefs in section 24.13.
+- Added English counterparts for all eight practical assignments in section 24.14.
+- Added English versions of the ten review questions in section 24.16.
+- Expanded the key-terms table in section 24.15 so that definitions are provided in both Russian and English, rather than translating terminology alone.
+- The additions preserve the chapter's methodological cautions on official boundaries, data dates, uncertainty, accessibility and environmental risk.
