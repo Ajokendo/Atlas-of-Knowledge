@@ -65,8 +65,6 @@ The extreme points and their coordinates should be shown on maps using one offic
 Горный рельеф создаёт множество локальных климатических условий. Две долины на близкой высоте могут различаться по увлажнению, инсоляции и температурному режиму из-за ориентации, высоты окружающих хребтов и открытости воздушным массам.
 
 
-Mountain relief creates a wide range of local climatic conditions. Two valleys at similar elevations may differ in moisture, solar exposure and temperature because of their orientation, the height of surrounding ranges and their exposure to prevailing air masses.
-
 Relief is a defining characteristic of Kyrgyzstan. Most of the territory belongs to mountain systems, while plains and low mountain areas are concentrated mainly in intermontane valleys and basins, especially in the north and south-west.
 
 The elevation range extends from low valleys to peaks above 7,000 m. The country's highest summits are associated with the eastern part of the Central Tien Shan and the Kakshaal-Too Range. Jengish Chokusu (Victory Peak) reaches approximately 7,439 m. The rocky summit of Khan Tengri is about 6,995 m high, while some sources give approximately 7,010 m when the ice cap is included. An atlas should state the measurement convention and must not confuse the rock summit with the elevation of the ice surface.
@@ -78,6 +76,8 @@ Elevation affects:
 - snow accumulation, glaciers and river runoff;
 - access to pastures, settlements and transport routes; and
 - natural hazards and engineering conditions.
+
+Mountain relief creates a wide range of local climatic conditions. Two valleys at similar elevations may differ in moisture, solar exposure and temperature because of their orientation, the height of surrounding ranges and their exposure to prevailing air masses.
 
 ## 17.4. Тянь-Шань и Памиро-Алай: крупные горные системы / Tien Shan and Pamir–Alay: Major Mountain Systems
 
