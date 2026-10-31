@@ -227,6 +227,32 @@ try {
       if (await page.locator(".tile").count() !== 10) errors.push(file + ": expected ten organic-compound family cards");
     }
 
+    if (file === "chapters/redox.html") {
+      if (!(await page.locator("[data-i=anodeText]").innerText()).includes("анод отрицателен") ||
+          !(await page.locator("[data-i=cathodeText]").innerText()).includes("катод положителен")) {
+        errors.push(file + ": Russian galvanic-cell electrode signs are incorrect or missing");
+      }
+      if (!(await page.locator("[data-i=electrodeRule]").innerText()).includes("электролизёре анод положителен") ||
+          !(await page.locator("[data-i=gibbsPotential]").innerText()).includes("ΔᵣG° = −nFE°cell")) {
+        errors.push(file + ": Russian electrolytic-cell sign distinction or Gibbs relation is missing");
+      }
+      if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1,10 В")) {
+        errors.push(file + ": Daniell-cell standard potential is missing in Russian");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=anodeText]").innerText()).includes("anode is negative") ||
+          !(await page.locator("[data-i=cathodeText]").innerText()).includes("cathode is positive")) {
+        errors.push(file + ": English galvanic-cell electrode signs are incorrect or missing");
+      }
+      if (!(await page.locator("[data-i=electrodeRule]").innerText()).includes("anode is positive") ||
+          !(await page.locator("[data-i=gibbsPotential]").innerText()).includes("Faraday constant")) {
+        errors.push(file + ": English electrolytic-cell sign distinction or Gibbs relation is missing");
+      }
+      if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1.10 V")) {
+        errors.push(file + ": Daniell-cell standard potential is missing in English");
+      }
+    }
+
     if (file === "chapters/chemistry-of-life.html") {
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("полимеры нуклеотидов") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("синтезе белка")) {
