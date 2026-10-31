@@ -382,3 +382,13 @@ This checkpoint preserves the working context for continuation after a session i
 - README was also fetched and confirmed to contain the recent Chapter 26 work summary. Current README blob SHA: `208ac5952918e13e358693c3019ab85ce02a3b99`.
 - This checkpoint records the current recoverable state; it does not certify the whole Atlas as complete or claim that every source and every chapter has passed final audit.
 - Resume by fetching the latest files from `workspace/geography`, continuing the Chapter 26 final structural/source audit, then proceeding through the remaining open audit tasks. Maintain the user's savepoint rule: save after each genuine five-percentage-point increase; do not report intermediate percentages before the 85% milestone.
+
+
+## Chapter 26 completion pass — bilingual parity and reference integrity (1 November 2026)
+
+- Completed the missing English counterpart to section 26.1, making the chapter's introductory framing bilingual.
+- Added a complete English version of the twelve review questions in section 26.18.
+- Added English scientific and editorial notes in section 26.19, matching the Russian methodological cautions.
+- Reordered the 16 bibliography entries in section 26.20 into a consecutive numerical sequence (1–16); the official UNFCCC NDC 3.0 submission record remains included as reference 16.
+- Re-fetched the chapter after each saved change. Current saved file must be checked for the English introduction, questions and notes, and sequential references before this pass is considered verified.
+- Remaining chapter-level work: source-by-source link and date validation; check whether 26.1–26.20 contain any further untranslated explanatory blocks; review the whole chapter for repeated claims, consistent units and internal cross-references. This is not a declaration of final chapter approval.
