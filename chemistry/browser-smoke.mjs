@@ -370,7 +370,7 @@ try {
       if (!(await page.locator("[data-i=familyNote]").innerText()).includes("фенолы") || !(await page.locator("[data-i=alcp]").innerText()).includes("насыщенным атомом углерода")) {
         errors.push(file + ": Russian alcohol definition must distinguish phenols and carboxylic acids");
       }
-      for (const [key, term] of [["acidp","карбоксильную группу"],["aldehydp","альдегидную группу"],["aminep","производные аммиака"]]) {
+      for (const [key, term] of [["acidp","карбоксильную группу"],["aldehydp","альдегидную группу"],["aminep","Производные аммиака"]]) {
         if (!(await page.locator("[data-i="+key+"]").innerText()).includes(term)) errors.push(file + ": Russian functional-group definition missing for " + key);
       }
       await page.locator("#lang").click();
