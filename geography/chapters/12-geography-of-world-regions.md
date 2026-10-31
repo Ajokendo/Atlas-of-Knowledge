@@ -254,6 +254,28 @@ Analysis requires more than a map of political boundaries. A basin diagram shoul
 
 Для сравнения регионов полезно сочетать тематические карты, временные ряды, диаграммы и качественные описания. Не следует сравнивать показатели, рассчитанные по несовместимым определениям или разным временным периодам, без явного пояснения.
 
+### 12.13.1. Как сравнивать регионы без ложных обобщений / Comparing Regions Without Overgeneralisation
+
+Региональное сравнение начинается с вопроса: что именно сравнивается и для какой цели? Континенты, субрегионы и отдельные государства — разные уровни анализа. Среднее значение по крупному региону может скрывать различия между городами и сельской местностью, побережьем и внутренними районами, богатыми и уязвимыми группами.
+
+**Порядок сравнения:** определить единицы сравнения и их границы; выбрать показатель, соответствующий вопросу; проверить одинаковость определений и периодов; указать абсолютные значения и показатели на душу населения там, где это уместно; показать внутригрупповые различия; обозначить пробелы и неопределённость данных.
+
+**Пример.** Два региона имеют одинаковый ВВП, но различаются численностью населения: при одинаковом общем выпуске показатель на душу населения будет выше в менее населённом регионе. Однако и он не отражает автоматически распределение доходов, неформальную экономику, стоимость жизни или доступность услуг.
+
+**Осторожность с культурными и политическими характеристиками.** Нельзя приписывать всему населению региона единые взгляды, традиции или уровень развития. Такие утверждения требуют конкретных источников, времени и контекста, а внутреннее разнообразие следует показывать явно.
+
+**Задание.** Выберите два субрегиона мира и сравните их по трём показателям. Для каждого укажите определение, год, источник и одно ограничение интерпретации. Сформулируйте вывод, который не выходит за пределы данных.
+
+Regional comparison begins with a question: what exactly is being compared, and for what purpose? Continents, subregions and individual states are different levels of analysis. An average for a large region may conceal differences between urban and rural areas, coastal and inland districts, and advantaged and vulnerable groups.
+
+**A comparison sequence:** define the units and their boundaries; select indicators that fit the question; check that definitions and periods match; report absolute values and per-capita measures where appropriate; show variation within groups; and identify data gaps and uncertainty.
+
+**Example.** Two regions have the same total GDP but different population sizes. With equal total output, GDP per capita will be higher in the less populated region. Yet this measure does not automatically describe income distribution, informal activity, living costs or access to services.
+
+**Be cautious with cultural and political descriptions.** Do not attribute uniform views, traditions or levels of development to an entire region's population. Such claims require specific sources, dates and context, and internal diversity should be made visible.
+
+**Activity.** Select two world subregions and compare them using three indicators. For each, state its definition, year, source and one interpretive limitation. Draw a conclusion that does not go beyond the evidence.
+
 ## 12.14. Итоги главы / Chapter Summary
 
 1. Регион — аналитическая территориальная единица, границы которой зависят от цели исследования.
