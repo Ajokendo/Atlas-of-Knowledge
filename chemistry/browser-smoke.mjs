@@ -455,6 +455,25 @@ try {
       }
     }
 
+    if (file === "chapters/chemical-reactions.html") {
+      const kineticText = page.locator("main");
+      for (const phrase of ["Скорость реакции", "Динамическое равновесие", "энергией активации"]) {
+        if (!(await kineticText.innerText()).includes(phrase)) {
+          errors.push(file + ": Russian kinetics/equilibrium explanation is missing: " + phrase);
+        }
+      }
+      await page.locator("#lang").click();
+      for (const phrase of ["Reaction rate", "Dynamic equilibrium", "activation energy"]) {
+        if (!(await kineticText.innerText()).includes(phrase)) {
+          errors.push(file + ": English kinetics/equilibrium explanation is missing: " + phrase);
+        }
+      }
+      if (!(await page.locator('[data-i="catalystNote"]').innerText()).includes("equilibrium constant")) {
+        errors.push(file + ": English catalyst note must state that a catalyst does not change the equilibrium constant");
+      }
+      await page.locator("#lang").click();
+    }
+
     if (file === "chapters/redox.html") {
       if (!(await page.locator("[data-i=lead]").innerText()).includes("перераспределение электронной плотности")) {
         errors.push(file + ": Russian redox introduction must distinguish ionic electron transfer from covalent electron-density redistribution");
