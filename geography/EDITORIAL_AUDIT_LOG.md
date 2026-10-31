@@ -370,3 +370,15 @@ This checkpoint preserves the working context for continuation after a session i
 3. Continue the systematic content, scientific-source and Russian/English parity audit, especially Chapters 17–26 and unresolved issues already recorded in this log.
 4. At each genuine five-percentage-point progress milestone, save a checkpoint, re-fetch changed files and verify the saved content. Report percentage milestones only at 85%, 90%, 95% and 100%; do not invent progress values.
 5. This is a recovery checkpoint, not a declaration that the atlas is complete or that all historical unsaved work has been recovered.
+
+
+## Recovery checkpoint — 1 November 2026 (Chapter 26 bilingual expansion)
+
+- Active repository: `Ajokendo/Atlas-of-Knowledge`; working branch: `workspace/geography`; scope remains `geography/` only.
+- Latest verified Chapter 26 file: `geography/chapters/26-environmental-challenges-and-future-of-kyrgyzstan.md`, blob SHA `ce2c8dcd454b578eef502cd09ec20acc84366fb2`, 71,826 characters.
+- The saved chapter now includes English explanatory counterparts across sections 26.2–26.13, English future scenarios, practical exercises, visual-production briefs, review questions and bilingual key-term definitions. The English climate section explains the NDC 3.0 baseline-year methodology and WM/WAM scenario distinction.
+- Quality checks on the saved chapter confirmed the corrected NDC baseline wording, exact 2025 NSC water-flow figures, the distinction between domestic wastewater indicator coverage and the broader national indicator, and valid LaTeX delimiters for the disaster-risk equation.
+- Chapter 26 additions were committed incrementally. The current chapter blob was fetched again from GitHub before recording this checkpoint.
+- README was also fetched and confirmed to contain the recent Chapter 26 work summary. Current README blob SHA: `208ac5952918e13e358693c3019ab85ce02a3b99`.
+- This checkpoint records the current recoverable state; it does not certify the whole Atlas as complete or claim that every source and every chapter has passed final audit.
+- Resume by fetching the latest files from `workspace/geography`, continuing the Chapter 26 final structural/source audit, then proceeding through the remaining open audit tasks. Maintain the user's savepoint rule: save after each genuine five-percentage-point increase; do not report intermediate percentages before the 85% milestone.
