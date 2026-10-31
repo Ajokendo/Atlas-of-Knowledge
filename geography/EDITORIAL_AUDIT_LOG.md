@@ -188,3 +188,13 @@ This checkpoint preserves the working context for continuation after a session i
 - The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
 
 **Chapter 24 bilingual expansion commit:** `b9a581e539e10f4db0ea092df824f8005fba001d`
+
+
+## Follow-up bilingual development — Chapter 24, Batken Region (1 November 2026)
+
+- Added a complete English-language counterpart to the Russian regional profile in section 24.9.
+- The translation covers the region's borderland geography, relief and climate, water-dependent agriculture, population, industrial and mining legacy, transport and cross-border connections, cultural landscapes, and development priorities.
+- The border section uses neutral wording and explicitly requires current official boundary sources and legal verification for sensitive local areas; it does not attempt to redraw or interpret individual boundary segments.
+- The updated Chapter 24 was fetched again from `workspace/geography`; the English profile and adjacent bilingual comparative-method section were verified in the saved file.
+
+**Chapter 24 bilingual expansion commit:** `d013926e39945836ac02144f8f239690ae832443`
