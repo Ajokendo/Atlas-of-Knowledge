@@ -634,8 +634,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 39) {
-        errors.push(file + ": expected 39 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 42) {
+        errors.push(file + ": expected 42 bilingual chemistry glossary entries");
       }
       await page.locator("#search").fill("лимитирующий реагент");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Реагент")) {
@@ -649,6 +649,15 @@ try {
       await page.locator("#category").selectOption("solution");
       if (await page.locator(".term").count() !== 1) {
         errors.push(file + ": glossary topic filter did not isolate the equivalence-point entry");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#search").fill("relative atomic mass");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
+        errors.push(file + ": English glossary is missing the relative atomic mass definition");
+      }
+      await page.locator("#search").fill("массовое число");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("протонов и нейтронов")) {
+        errors.push(file + ": Russian glossary is missing the mass-number definition");
       }
       await page.locator("#lang").click();
     }
