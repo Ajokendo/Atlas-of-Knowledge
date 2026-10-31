@@ -233,6 +233,7 @@ try {
         errors.push(file + ": Russian galvanic-cell electrode signs are incorrect or missing");
       }
       if (!(await page.locator("[data-i=electrodeRule]").innerText()).includes("электролизёре анод положителен") ||
+          !(await page.locator("[data-i=electrodeRule]").innerText()).includes("внешнее напряжение") ||
           !(await page.locator("[data-i=gibbsPotential]").innerText()).includes("ΔᵣG° = −nFE°cell")) {
         errors.push(file + ": Russian electrolytic-cell sign distinction or Gibbs relation is missing");
       }
@@ -245,6 +246,7 @@ try {
         errors.push(file + ": English galvanic-cell electrode signs are incorrect or missing");
       }
       if (!(await page.locator("[data-i=electrodeRule]").innerText()).includes("anode is positive") ||
+          !(await page.locator("[data-i=electrodeRule]").innerText()).includes("external voltage") ||
           !(await page.locator("[data-i=gibbsPotential]").innerText()).includes("Faraday constant")) {
         errors.push(file + ": English electrolytic-cell sign distinction or Gibbs relation is missing");
       }
