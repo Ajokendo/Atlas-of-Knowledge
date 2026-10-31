@@ -111,6 +111,33 @@ This chapter introduces spatial data, coordinate reference systems, geographic d
 
 В ГИС слои могут отображаться совместно благодаря перепроецированию «на лету», однако это не устраняет ошибок исходных координат. При экспорте и анализе необходимо проверять, в какой CRS реально сохранены данные.
 
+
+### 14.5.1. Практический пример: почему перед буферным анализом проверяют CRS / Worked Example: Why CRS Must Be Checked Before Buffer Analysis
+
+Предположим, координаты объекта записаны как широта 42° и долгота 74°. Это угловые координаты в географической системе, а не расстояния в метрах. Если программное обеспечение построит буфер радиусом «500» непосредственно в такой системе, значение может быть интерпретировано как градусы, а не как 500 м, что даст бессмысленный результат для задачи локальной доступности.
+
+Правильный рабочий порядок:
+
+1. Проверить метаданные исходного слоя и подтвердить его систему координат, включая порядок осей.
+2. Выбрать подходящую местную или региональную проецированную CRS, единицы которой — метры и искажения которой приемлемы для исследуемой территории.
+3. Создать перепроецированную копию данных, не подменяя сведения об исходной CRS простым изменением подписи.
+4. Построить буфер радиусом 500 м и проверить результат на карте и по контрольным расстояниям.
+5. Сохранить в проекте информацию об исходной и целевой CRS и параметрах операции.
+
+Числа 42° и 74° здесь условны и не обозначают точный адрес. Важно не запоминать одну CRS для всех задач, а проверять область применения, единицы, точность и требования анализа.
+
+Assume a feature is stored at latitude 42° and longitude 74°. These are angular coordinates in a geographic coordinate reference system, not distances in metres. If software creates a buffer with a radius of “500” directly in that system, the value may be interpreted as degrees rather than 500 m, producing a meaningless result for a local accessibility study.
+
+A sound workflow is:
+
+1. Inspect the source layer metadata and confirm its coordinate reference system, including axis order.
+2. Choose an appropriate local or regional projected CRS whose units are metres and whose distortion is acceptable for the study area.
+3. Create a reprojected copy of the data; do not replace the source CRS definition merely by changing its label.
+4. Create the 500 m buffer and check it on the map and against known distances.
+5. Record both the source and target CRS and the operation parameters in the project metadata.
+
+The coordinates 42° and 74° are illustrative and do not identify an exact address. The important lesson is not to memorise one CRS for every task, but to check its area of use, units, accuracy and suitability for the analysis.
+
 ## 14.6. Сбор пространственных данных / Spatial Data Acquisition
 
 Источники пространственных данных:
