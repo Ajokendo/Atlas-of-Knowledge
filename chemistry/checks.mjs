@@ -25,7 +25,9 @@ for (const file of htmlFiles) {
   if (!/<html\b[^>]*lang=["'][^"']+["']/i.test(source)) errors.push(relativeFile + ": missing html lang attribute");
   if (!/<meta\s+name=["']viewport["']/i.test(source)) errors.push(relativeFile + ": missing viewport meta tag");
 
-  const ids = new Set([...source.matchAll(/\bid=["']([^"']+)["']/gi)].map(m => m[1]));
+  const idValues = [...source.matchAll(/\bid=["']([^"']+)["']/gi)].map(m => m[1]);
+  const ids = new Set(idValues);
+  if (ids.size !== idValues.length) errors.push(relativeFile + ": duplicate id attributes found");
   for (const match of source.matchAll(/<(?:a|img|script|link|source)[^>]*?\b(href|src)=["']([^"']+)["'][^>]*>/gi)) {
     const attribute = match[1].toLowerCase();
     const value = match[2].trim();
