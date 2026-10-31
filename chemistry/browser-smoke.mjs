@@ -633,6 +633,26 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "glossary.html") {
+      if (await page.locator(".term").count() !== 38) {
+        errors.push(file + ": expected 38 bilingual chemistry glossary entries");
+      }
+      await page.locator("#search").fill("лимитирующий реагент");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Реагент")) {
+        errors.push(file + ": Russian glossary search did not find the limiting-reactant definition");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#search").fill("equivalence point");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Equivalence point")) {
+        errors.push(file + ": English glossary search did not find the equivalence-point definition");
+      }
+      await page.locator("#category").selectOption("solution");
+      if (await page.locator(".term").count() !== 1) {
+        errors.push(file + ": glossary topic filter did not isolate the equivalence-point entry");
+      }
+      await page.locator("#lang").click();
+    }
+
     if (file === "knowledge-check.html") {
       const questionCount = await page.locator("#quiz .question").count();
       if (questionCount !== 10) {
