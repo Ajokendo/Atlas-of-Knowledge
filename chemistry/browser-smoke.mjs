@@ -481,7 +481,7 @@ try {
       if (!(await page.locator("#detail").innerText()).toLowerCase().includes("oxygen")) {
         errors.push(file + ": selecting oxygen did not update element details");
       }
-      await page.locator("#lanth button[data-id="58"]").click();
+      await page.locator('#lanth button[data-id="58"]').click();
       if (!(await page.locator("#detail").innerText()).includes("f-блок")) {
         errors.push(file + ": cerium must be identified as an f-block element, not assigned a misleading group number");
       }
