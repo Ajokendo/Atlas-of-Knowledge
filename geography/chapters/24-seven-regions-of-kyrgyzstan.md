@@ -197,6 +197,28 @@
 
 **Вызовы и перспективы.** Ключевые задачи — повышение продуктивности пастбищ без их истощения, ветеринарные услуги, переработка мяса и молока, холодильная логистика, доступ к образованию и медицине, устойчивость дорог и связь. Потенциал — экологически чувствительный туризм, высокогорное животноводство, возобновляемая энергетика и развитие трансграничной торговли при соблюдении природоохранных требований.
 
+
+### Expanded English profile
+
+**Location and administrative centre.** Naryn Region lies in the central part of Kyrgyzstan, within the Inner Tien Shan. It borders the Issyk-Kul, Chuy, Jalal-Abad and Osh regions, and China to the south. Its area is approximately 45,200 km², and its administrative centre is Naryn. It is the country's largest region by area and also its most sparsely populated.
+
+**Relief and elevation.** The region is characterised by high mountain plateaus, intermontane basins and broad valleys enclosed by mountain ranges. Large areas lie at elevations where the short growing season limits crop farming. Mountain passes and valleys form natural corridors for seasonal movement of people, livestock and transport.
+
+**Climate and water.** The climate is sharply continental, with cold winters, short summers and substantial daily temperature ranges. The Naryn river system is one of the country's most important water systems and a major part of the Syr Darya basin. High mountain lakes include Song-Kul and Chatyr-Kul. Snow, glaciers and seasonal melt sustain river flow, while the water regime is vulnerable to warming and changes in precipitation.
+
+**Natural landscapes.** Mountain steppes, high-altitude meadows, pastures, patches of semi-desert vegetation and nival landscapes are widespread. Summer *jailoo* pastures are important for livestock husbandry and the region's cultural geography. Ecosystems are sensitive to overgrazing, erosion, drought and disruption of water regimes.
+
+**Population.** On 1 January 2026, the region had approximately 316,200 residents. Population is concentrated in the Naryn, At-Bashy, Kochkor, Jumgal and other intermontane valleys. Many rural settlements are distant from major markets and specialised social services.
+
+**Economy.** Livestock husbandry forms the basis of agriculture, including sheep and horse breeding, yak husbandry in suitable high-altitude areas, and meat and dairy production. Climate and elevation constrain crop farming, although potatoes, cereals and fodder crops are grown in the valleys. Hydropower and transport-logistics functions are also important. Hydropower projects must account for environmental flows, biodiversity, dam safety and the interests of local communities.
+
+**Transport and tourism.** The region links the north and south of the country through mountain roads; the Torugart corridor is important for trade with China. High-altitude routes to Song-Kul, Tash-Rabat and At-Bashy attract cultural and adventure tourism. Accessibility depends on the season, road conditions, and exposure to avalanches and debris flows.
+
+**Cultural heritage.** Tash-Rabat caravanserai is one of the best-known monuments along historic routes across the Tien Shan. Yurt camps, pasture-based livelihoods, horse culture and traditional hospitality form an important part of the region's cultural identity.
+
+**Challenges and prospects.** Priorities include improving pasture productivity without degrading rangelands, strengthening veterinary services, processing meat and dairy products, developing cold-chain logistics, improving access to education and healthcare, and making roads and communications more resilient. Opportunities include environmentally responsible tourism, high-altitude livestock production, renewable energy and cross-border trade developed in accordance with conservation requirements.
+
+
 ## 24.7. Джалал-Абадская область / Jalal-Abad Region
 
 **Название и административный центр.** Область расположена на юго-западе страны, граничит с Узбекистаном, Таласской, Нарынской и Ошской областями. Площадь — около 33,7 тыс. км². После переименования города Джалал-Абад в Манас в 2025 году в атласе следует использовать название **город Манас** для современного административного центра, а прежнее название приводить только как историческое или пояснительное. Название самой области не изменилось.
