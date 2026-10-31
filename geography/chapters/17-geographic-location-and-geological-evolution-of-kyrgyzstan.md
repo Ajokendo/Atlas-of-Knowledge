@@ -740,6 +740,18 @@ A geographical name is more than a map label. A feature may have an official for
 9. Геологическое строение связано с разнообразием полезных ископаемых, однако ресурсный потенциал необходимо оценивать вместе с экологическими и социальными ограничениями.
 10. Административные границы, природные регионы и бассейны рек представляют разные системы территориального деления.
 
+
+1. Kyrgyzstan is located in north-eastern Central Asia and is landlocked.
+2. The country borders Kazakhstan, Uzbekistan, Tajikistan and China.
+3. The Tien Shan and Pamir–Alay form the main physical-geographical framework of its territory.
+4. Mountain relief determines altitudinal zonation, catchments, climatic contrasts and settlement patterns.
+5. Intermontane basins and valleys are key corridors for natural and human connections.
+6. The geological basement reflects a long history of Precambrian blocks and Palaeozoic oceanic and orogenic processes.
+7. Modern uplift of the Tien Shan is associated with intracontinental deformation resulting from the convergence of India and Eurasia.
+8. Tectonic activity creates seismic hazard but does not make it possible to predict individual earthquakes precisely.
+9. Geological structure is related to mineral diversity, but resource potential must be assessed together with environmental and social constraints.
+10. Administrative boundaries, natural regions and river basins are different systems of territorial division.
+
 ## 17.16. Ключевые понятия / Key Terms
 
 Центральная Азия — Central Asia; Тянь-Шань — Tien Shan; Памиро-Алай — Pamir–Alay; межгорная впадина — Intermontane basin; высотная поясность — Altitudinal zonation; тектонический блок — Tectonic block; микроконтинент — Microcontinent; субдукция — Subduction; аккреция — Accretion; складчатость — Folding; надвиг — Thrust fault; сдвиговый разлом — Strike-slip fault; орогенез — Orogeny; внутриконтинентальная деформация — Intracontinental deformation; сейсмическая опасность — Seismic hazard; сейсмический риск — Seismic risk; денудация — Denudation; аллювий — Alluvium; морена — Moraine; межгорная котловина — Intermontane depression.
