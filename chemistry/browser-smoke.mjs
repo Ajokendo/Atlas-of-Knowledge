@@ -124,6 +124,14 @@ try {
     }
 
     if (file === "chapters/chemical-bonding.html") {
+      if (!(await page.locator("[data-i=lead]").innerText()).includes("энергия системы") || !(await page.locator("[data-i=lead]").innerText()).includes("атомы или ионы")) {
+        errors.push(file + ": Russian introduction should explain bonds between atoms or ions through system energy");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=lead]").innerText()).includes("system's energy") || !(await page.locator("[data-i=lead]").innerText()).includes("atoms or ions")) {
+        errors.push(file + ": English introduction should explain bonds between atoms or ions through system energy");
+      }
+      await page.locator("#lang").click();
       const detail = page.locator(".detail");
       if (await detail.getAttribute("aria-live") !== "polite") {
         errors.push(file + ": dynamic bond explanation is not announced to assistive technology");
