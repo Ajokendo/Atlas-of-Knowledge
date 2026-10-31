@@ -640,6 +640,34 @@ Priority should be given to projects that both reduce emissions and strengthen r
 | Города | Доступность транспорта, зелёных зон, канализации и питьевой воды |
 | Устойчивость | Ущерб от бедствий, время восстановления услуг, защищённость инфраструктуры |
 
+
+Scenarios are planning tools, not predictions. Their purpose is to show how different decisions may change environmental security and quality of life.
+
+### Scenario A. Business as usual
+
+Economic growth continues, but infrastructure is modernised slowly. Water losses, land degradation, air pollution and waste are not reduced quickly enough. Natural hazards increasingly affect roads, agriculture and settlements. Spending on disaster recovery may crowd out investment in education, healthcare and development.
+
+### Scenario B. Adaptation and restoration of natural capital
+
+The country systematically modernises water management, pasture governance, early-warning systems, wastewater treatment and forest conservation. Cities invest in clean heating and public transport. The risk of damage from climatic and geological hazards decreases, while rural communities gain more resilient sources of income.
+
+### Scenario C. Green and innovative modernisation
+
+Adaptation is combined with low-carbon energy, energy efficiency, digital monitoring, a circular economy and sustainable transport. Environmental data become open and comparable, while investments are assessed across their full life cycle and social impacts.
+
+### Scenario assessment criteria
+
+| Area | Indicators |
+|---|---|
+| Climate | Greenhouse-gas emissions, adaptation losses, population covered by warning systems |
+| Water | Water abstraction per unit of output, network losses, water quality and environmental flows |
+| Land | Pasture condition, erosion, soil organic matter and rehabilitated land |
+| Forests and biodiversity | Forest area and condition, habitat connectivity and status of key species |
+| Air | PM2.5, NO₂, days above standards and access to clean heating |
+| Waste | Waste generated per capita, recycling rate and safe disposal |
+| Cities | Access to transport, green spaces, sewerage and drinking water |
+| Resilience | Disaster losses, time needed to restore services and infrastructure protection |
+
 ### 26.14.1. Разобранный пример: оценка потерь воды в системе водоснабжения / Worked Example: Estimating Water Losses in a Supply System
 
 Предположим, что условный населённый пункт с населением 10 000 человек получает в систему водоснабжения 1 250 м³ воды в сутки. По расчётам потребителей и учёту отпуска полезно используется 1 000 м³ в сутки. Разница — вода, которая не была учтена как полезное потребление:
