@@ -257,6 +257,42 @@ A seismic station records ground motion as a seismogram. The record usually make
 
 **Learning activity.** Draw a hypothetical map with three seismic stations. Plot circles using given distances and mark their intersection area. Then change one radius by several kilometres and explain why the estimated epicentre shifts. State why this diagram cannot determine focal depth.
 
+
+
+### 3.6.6. Как читать сейсмограмму и оценивать неопределённость / Reading a Seismogram and Understanding Uncertainty
+
+Сейсмограмма показывает движение грунта во времени, зарегистрированное конкретным прибором в конкретном месте. По горизонтальной оси обычно откладывают время, по вертикальной — амплитуду сигнала или её инструментальную характеристику. Перед сравнением записей необходимо проверить единицы, масштаб времени, частотную характеристику прибора и то, была ли запись скорректирована.
+
+**Основные шаги чтения:**
+
+1. Найдите начало записи и оцените фоновый шум до события.
+2. Определите наиболее ранний уверенный приход P-волны; не принимайте случайный шум за начало сигнала.
+3. Найдите приход S-волны, учитывая, что он может быть менее отчётливым.
+4. Измерьте интервал S–P и используйте подходящую региональную кривую времени пробега, а не универсальную формулу для всех районов.
+5. Сравните результат с данными других станций. Несогласованность может указывать на ошибку чтения, сложное строение земной коры или недостаточную точность модели.
+
+**Амплитуда — не магнитуда сама по себе.** Большая амплитуда на одной записи не означает автоматически более сильное землетрясение: на неё влияют расстояние до очага, глубина, направление распространения волн, местные грунты, тип прибора и настройки регистрации. Магнитуду рассчитывают по стандартизованным методикам с поправками на эти факторы.
+
+**Неопределённость результата.** В каталогах землетрясений положение эпицентра, глубина и магнитуда могут сопровождаться оценками погрешности. Первоначальная автоматическая оценка иногда уточняется после поступления данных дополнительных станций. Поэтому для научного анализа важно указывать версию каталога и время его обновления, а не представлять предварительные координаты как абсолютно точные.
+
+**Практическое задание.** Сравните две учебные сейсмограммы с разными расстояниями S–P. Определите, на какой станции интервал больше, и объясните, почему это обычно указывает на большее расстояние до очага. Затем перечислите не менее трёх причин, по которым амплитуды двух записей нельзя сравнивать напрямую.
+
+A seismogram shows ground motion over time as recorded by a particular instrument at a particular location. Time is usually shown on the horizontal axis and signal amplitude, or an instrument-related measure, on the vertical axis. Before comparing records, check the units, time scale, instrument response and whether the record has been corrected.
+
+**A basic reading sequence:**
+
+1. Identify the beginning of the record and assess background noise before the event.
+2. Mark the earliest reliable P-wave arrival; do not mistake random noise for the signal onset.
+3. Identify the S-wave arrival, which may be less distinct.
+4. Measure the S–P interval and use an appropriate regional travel-time curve rather than a universal formula for every region.
+5. Compare the result with observations from other stations. Disagreement may indicate reading errors, complex crustal structure or limitations in the model.
+
+**Amplitude is not magnitude by itself.** A large amplitude on one record does not automatically mean a stronger earthquake. It is affected by source distance, focal depth, wave-propagation direction, local ground conditions, instrument type and recording settings. Magnitude is calculated using standardised methods that account for these factors.
+
+**Uncertainty in the result.** Earthquake catalogues may include uncertainty estimates for epicentre location, depth and magnitude. An initial automatic estimate may be revised when data from additional stations become available. Scientific analysis should therefore identify the catalogue version and its update time instead of presenting preliminary coordinates as perfectly exact.
+
+**Practical activity.** Compare two teaching seismograms with different S–P intervals. Identify the station with the longer interval and explain why this generally indicates a greater distance from the source. Then list at least three reasons why the amplitudes of the two records cannot be compared directly.
+
 ## 3.7. Вулканизм / Volcanism
 
 Вулканизм — совокупность процессов подъёма магмы, выделения газов и выхода расплавленного вещества на поверхность.
