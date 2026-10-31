@@ -799,14 +799,6 @@ try {
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
         errors.push(file + ": English glossary is missing the relative atomic mass definition");
       }
-      await page.locator("#search").fill("energy barrier");
-      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("energy barrier")) {
-        errors.push(file + ": English glossary is missing the activation-energy definition");
-      }
-      await page.locator("#search").fill("chemical equilibrium");
-      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("forward and reverse reaction rates are equal")) {
-        errors.push(file + ": English glossary is missing the dynamic-equilibrium definition");
-      }
       await page.locator("#search").fill("буферный раствор");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("изменению pH")) {
         errors.push(file + ": Russian glossary is missing the buffer-solution definition");
@@ -823,6 +815,14 @@ try {
       await page.locator("#search").fill("catalyst");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("lower activation energy")) {
         errors.push(file + ": English catalyst definition does not explain its alternative reaction pathway");
+      }
+      await page.locator("#search").fill("energy barrier");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("energy barrier")) {
+        errors.push(file + ": English glossary is missing the activation-energy definition");
+      }
+      await page.locator("#search").fill("chemical equilibrium");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("forward and reverse reaction rates are equal")) {
+        errors.push(file + ": English glossary is missing the dynamic-equilibrium definition");
       }
       await page.locator("#search").fill("electron density away");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("electron density away")) {
