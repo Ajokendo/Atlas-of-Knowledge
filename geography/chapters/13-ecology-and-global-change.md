@@ -222,6 +222,35 @@ When interpreting maps and assessments, ask separately:
 
 Меры должны оцениваться с учётом побочных эффектов, справедливости, стоимости, доступности технологий и долгосрочной эффективности. Непродуманная адаптация может создавать новые риски или переносить их на другие группы и территории.
 
+
+### 13.12.1. Практический пример: различение смягчения и адаптации / Worked Example: Distinguishing Mitigation from Adaptation
+
+Представим горный муниципалитет, который одновременно стремится сократить выбросы и уменьшить ущерб от климатических опасностей. Он рассматривает четыре меры:
+
+| Мера | Основная категория | Почему |
+|---|---|---|
+| Утепление общественных зданий и установка эффективного отопления | Смягчение | Снижается потребление энергии и, при соответствующем источнике тепла, выбросы парниковых газов |
+| Система раннего предупреждения о селях и паводках | Адаптация | Помогает заранее подготовиться к опасному явлению и уменьшить ущерб |
+| Восстановление деградированных лесных участков | Может сочетать обе цели | Экосистемы могут поглощать углерод и одновременно снижать эрозию и стабилизировать склоны; результат зависит от места и качества восстановления |
+| Пересмотр строительных ограничений в зонах высокого риска | Адаптация | Снижает будущую подверженность людей и объектов опасным процессам |
+
+Классификация зависит от реального механизма и измеряемого результата. Например, утепление здания является мерой смягчения только в той мере, в какой оно действительно сокращает совокупные выбросы с учётом используемого топлива и электроэнергии. Лесовосстановление не гарантирует одинакового климатического и защитного эффекта на любом участке.
+
+**Вывод:** смягчение воздействует прежде всего на причины изменения климата, а адаптация — на уязвимость и последствия. На практике эти подходы дополняют друг друга, но один не заменяет другой.
+
+Imagine a mountain municipality seeking both to reduce emissions and to limit damage from climate-related hazards. It considers four measures:
+
+| Measure | Main category | Why |
+|---|---|---|
+| Insulating public buildings and installing efficient heating | Mitigation | It reduces energy use and, depending on the energy source, greenhouse-gas emissions |
+| An early-warning system for debris flows and floods | Adaptation | It helps people prepare for hazardous events and reduce losses |
+| Restoring degraded forest areas | Can serve both purposes | Ecosystems may absorb carbon while also reducing erosion and stabilising slopes; results depend on location and restoration quality |
+| Revising construction restrictions in high-risk zones | Adaptation | It reduces the future exposure of people and assets to hazardous processes |
+
+Classification depends on the actual mechanism and measured outcome. For example, building insulation is a mitigation measure only to the extent that it genuinely reduces total emissions, taking account of the fuels and electricity used. Forest restoration does not guarantee the same climate or protective benefit at every site.
+
+**Conclusion:** mitigation primarily addresses the causes of climate change, while adaptation addresses vulnerability and impacts. In practice, the approaches complement one another, but neither replaces the other.
+
 ## 13.13. Экологическая оценка и мониторинг / Environmental Assessment and Monitoring
 
 Экологический мониторинг — систематическое наблюдение за состоянием природных компонентов и воздействиями на них. Он включает полевые измерения, лабораторные анализы, спутниковые наблюдения, датчики, статистику и общественные наблюдения.
