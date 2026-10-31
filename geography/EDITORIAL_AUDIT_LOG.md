@@ -320,3 +320,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Preserved the warning that UNEP's forest-cover series (2000–2023) and the UN SDG forest-area series (1990–2025) use different methods and must not be joined without harmonisation.
 - Translated the Kyrgyzhydromet August 2026 air-quality figures with the correct caveat that the stationary-post data covered only the first ten days during modernisation; they are not annual averages or a measure of the winter pollution peak.
 - Defined MPC in English as maximum permissible concentration and retained the emphasis on calibrated monitoring and vulnerable groups.
+
+
+## Follow-up bilingual development — Chapter 26, sanitation and waste (1 November 2026)
+
+- Added English counterparts to sections 26.7 (water, wastewater and sanitation) and 26.8 (waste and circular economy).
+- Refined the wastewater-statistics caveat: the UN SDG figure of 21.9% for 2024 refers specifically to safely treated domestic wastewater flows, while the national statistical series reports a broader domestic-and-industrial wastewater indicator (97.8% for 2024). The chapter now explains that the different coverage and methods must be checked before comparison; the values are not presented as competing estimates of the same flow.
+- Preserved the waste hierarchy and the warning that incineration without effective flue-gas cleaning and feedstock controls can transfer pollution to the atmosphere.
+- Sources checked: UN Statistics Division SDG Country Profile for Kyrgyzstan and the SDG 6 Data country page.
