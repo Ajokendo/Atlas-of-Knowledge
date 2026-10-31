@@ -154,6 +154,9 @@ if (!faunaKyrgyzstanFile.includes("stat.gov.kg/kg/opendata/category/138/") || !f
 if (!faunaKyrgyzstanFile.includes("четыре полевых сезона 2016–2019 годов") || !faunaKyrgyzstanFile.includes("пяти взрослых барсов") || !faunaKyrgyzstanFile.includes("five cubs or subadults") || !faunaKyrgyzstanFile.includes("cannot be directly compared with CAMCA")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Naryn snow leopard local camera-trap study must remain distinct from wider regional estimate");
 }
+if (!faunaKyrgyzstanFile.includes("Ursus arctos isabellinus") || !faunaKyrgyzstanFile.includes("Mammal Diversity Database") || !faunaKyrgyzstanFile.includes("not treat Central Asian brown bear forms uniformly")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Tian Shan brown bear subspecies designation must remain qualified");
+}
 if (!faunaKyrgyzstanFile.includes("Cervus canadensis songaricus") || !faunaKyrgyzstanFile.includes("Cervus elaphus songaricus") || !faunaKyrgyzstanFile.includes("C. c. sibiricus") || !faunaKyrgyzstanFile.includes("NCBI Taxonomy")) {
   errors.push("chapters/fauna-kyrgyzstan.html: maral nomenclature must document the NCBI synonym and the competing IUCN/CAMCA subspecies treatment");
 }
