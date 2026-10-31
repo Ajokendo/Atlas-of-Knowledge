@@ -365,6 +365,22 @@ Waste incineration is not a universal solution. Without flue-gas cleaning and co
 
 Для старых промышленных объектов необходимы инвентаризация загрязнённых площадок, оценка путей миграции загрязнителей, приоритизация объектов по риску, безопасная изоляция или очистка и долгосрочный мониторинг. Нельзя предполагать, что прекращение добычи автоматически устраняет риск.
 
+
+The mining sector creates jobs, export earnings and tax revenue, but it can also leave environmental risks that persist for decades. Tailings storage facilities, waste dumps, mine water, acid drainage, dust, land disturbance and the safety of old industrial sites require particular attention.
+
+### Principles of responsible management
+
+- comprehensive impact assessment before permits are issued;
+- public information about licences and obligations;
+- independent monitoring of water, soil and air;
+- financial guarantees for land rehabilitation;
+- safe design and operation of tailings storage facilities;
+- mine-closure plans and post-closure monitoring;
+- participation by local communities; and
+- public access to information about emergencies and pollution.
+
+For legacy industrial sites, priorities include inventories of contaminated locations, assessment of contaminant pathways, risk-based ranking of sites, safe containment or remediation, and long-term monitoring. The end of mining does not automatically eliminate environmental risk.
+
 ## 26.10. Природные опасности и снижение риска бедствий / Natural Hazards and Disaster Risk Reduction
 
 Горная география Кыргызстана формирует широкий спектр природных опасностей:
@@ -401,6 +417,42 @@ R = f(H, E, V)
 6. Безопасные маршруты эвакуации и подготовка населения.
 7. Резервные фонды и механизмы быстрого финансирования восстановления.
 8. Учёт потребностей детей, пожилых людей и людей с инвалидностью.
+
+
+Kyrgyzstan's mountain geography creates a wide range of natural hazards:
+- earthquakes;
+- debris flows and floods;
+- landslides and rockfalls;
+- snow avalanches;
+- glacial lake outburst floods;
+- droughts and heatwaves;
+- forest and steppe fires; and
+- extreme cold and heavy snowfall.
+
+UNEP reported an average of about 200 emergency events per year, approximately 90% of which were of natural origin. This is an aggregated estimate for a particular period and reporting method; it should not be compared automatically with operational counts from other agencies without checking how an emergency event is defined.
+
+### From hazard to risk
+
+Disaster risk results from the interaction of three components:
+
+\[
+R = f(H, E, V)
+\]
+
+where (H) is the hazard, (E) is exposure and (V) is vulnerability. Practical assessments also consider the capacity to respond and recover.
+
+For example, an intense rainstorm in an uninhabited mountain gorge does not necessarily cause a major disaster. The same storm in a built-up floodplain without a warning system or safe evacuation routes may cause casualties and substantial losses.
+
+### A disaster-risk reduction system
+
+1. Hazard and vulnerability maps at settlement level.
+2. Hydrometeorological and geological monitoring.
+3. Early-warning systems and clear alert protocols.
+4. Resilient building standards and enforcement.
+5. Land-use zoning and restrictions on construction in hazardous locations.
+6. Safe evacuation routes and public preparedness.
+7. Reserve funds and mechanisms for rapid recovery financing.
+8. Consideration of the needs of children, older people and persons with disabilities.
 
 ### 26.10.1. Как расставлять приоритеты при снижении риска бедствий / Prioritising Disaster Risk Reduction Measures
 
