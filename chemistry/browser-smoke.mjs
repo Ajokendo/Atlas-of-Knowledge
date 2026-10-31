@@ -541,6 +541,11 @@ try {
         errors.push(file + ": trace quantities expected limiting A and 9.99e-10 mol B remaining; got " + traceLimit + " / " + traceRemainder);
       }
 
+      await page.locator("#na").fill("");
+      await page.locator("#na").dispatchEvent("input");
+      if (!(await page.locator("#explain").innerText()).includes("количества")) {
+        errors.push(file + ": empty reactant amount was silently treated as zero");
+      }
       await page.locator("#na").fill("0");
       await page.locator("#nb").fill("2");
       await page.locator("#na").dispatchEvent("input");
