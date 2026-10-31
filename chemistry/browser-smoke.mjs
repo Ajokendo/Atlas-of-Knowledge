@@ -367,6 +367,14 @@ try {
     }
 
     if (file === "chapters/organic-chemistry.html") {
+      if (!(await page.locator("[data-i=familyNote]").innerText()).includes("фенолы") || !(await page.locator("[data-i=alcp]").innerText()).includes("насыщенным атомом углерода")) {
+        errors.push(file + ": Russian alcohol definition must distinguish phenols and carboxylic acids");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=familyNote]").innerText()).includes("phenols") || !(await page.locator("[data-i=alcp]").innerText()).includes("saturated carbon atom")) {
+        errors.push(file + ": English alcohol definition must distinguish phenols and carboxylic acids");
+      }
+      await page.locator("#lang").click();
       await page.locator("#n").fill("0");
       await page.locator("#calc").click();
       if ((await page.locator("#result").innerText()).trim() !== "—" || !(await page.locator("#feedback").innerText()).includes("от 1 до 20")) {
