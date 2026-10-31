@@ -309,9 +309,11 @@ try {
         errors.push(file + ": English enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       if (await page.locator(".tile").count() !== 6) errors.push(file + ": expected six biomolecule/water/enzyme topic cards");
+      if (!(await page.locator("[data-i=proteinNote]").innerText()).includes("peptide bonds") || !(await page.locator("[data-i=proteinNote]").innerText()).includes("primary structure")) errors.push(file + ": English protein note must explain peptide bonds and primary structure");
       if (!(await page.locator("[data-i=waterNote]").innerText()).includes("covalent O–H bonds")) errors.push(file + ": English water note must distinguish hydrogen bonds from covalent O-H bonds");
       if (!(await page.locator("[data-i=waterText]").innerText()).includes("molecule is bent") || !(await page.locator("[data-i=waterText]").innerText()).includes("dipole moments do not cancel")) errors.push(file + ": English water explanation must connect bent geometry with molecular polarity");
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=proteinNote]").innerText()).includes("пептидными связями") || !(await page.locator("[data-i=proteinNote]").innerText()).includes("первичная структура")) errors.push(file + ": Russian protein note must explain peptide bonds and primary structure");
       if (!(await page.locator("[data-i=waterNote]").innerText()).includes("ковалентными связями O–H")) errors.push(file + ": Russian water note must distinguish hydrogen bonds from covalent O-H bonds");
       if (!(await page.locator("[data-i=waterText]").innerText()).includes("угловой формы") || !(await page.locator("[data-i=waterText]").innerText()).includes("дипольные моменты не компенсируются")) errors.push(file + ": Russian water explanation must connect bent geometry with molecular polarity");
     }
