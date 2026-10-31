@@ -195,6 +195,17 @@ if (!faunaKyrgyzstanFile.includes("Cervus canadensis songaricus") || !faunaKyrgy
   errors.push("chapters/fauna-kyrgyzstan.html: maral nomenclature must document the NCBI synonym and the competing IUCN/CAMCA subspecies treatment");
 }
 
+const cellBiologyAuditFile = fs.readFileSync(path.join(root, "chapters/cell-biology.html"), "utf8");
+if (!cellBiologyAuditFile.includes("Клеточный цикл и митоз: последовательность") || !cellBiologyAuditFile.includes("The cell cycle and mitosis: sequence of events")) errors.push("chapters/cell-biology.html: cell-cycle heading must not label interphase as mitosis");
+if ((cellBiologyAuditFile.match(/data-stage="[^"]+"/g) || []).length !== 6 || !cellBiologyAuditFile.includes('data-stage="cytokinesis" aria-pressed="false"')) errors.push("chapters/cell-biology.html: cell-cycle explorer must include a separate cytokinesis control");
+if (!cellBiologyAuditFile.includes("клеточная пластинка") || !cellBiologyAuditFile.includes("cell plate") || !cellBiologyAuditFile.includes("cleavage furrow")) errors.push("chapters/cell-biology.html: cytokinesis must distinguish plant cell plate from animal cleavage furrow");
+if (!cellBiologyAuditFile.includes("10-3-control-of-the-cell-cycle")) errors.push("chapters/cell-biology.html: cell-cycle checkpoint explanation requires a topic-matched reference");
+
+const zoologyAuditFile = fs.readFileSync(path.join(root, "chapters/zoology.html"), "utf8");
+if (!zoologyAuditFile.includes("«Рыбы» — общее название нескольких линий позвоночных") || !zoologyAuditFile.includes("“Fish” is a collective label for several vertebrate lineages")) errors.push("chapters/zoology.html: fish must not be presented as a single monophyletic clade");
+if (!zoologyAuditFile.includes("птицы...в состав рептилий") || !zoologyAuditFile.includes("birds...are included within reptiles")) errors.push("chapters/zoology.html: phylogenetic classification must place birds within reptiles");
+if (!zoologyAuditFile.includes("29-4-reptiles") || !zoologyAuditFile.includes("29-1-chordates")) errors.push("chapters/zoology.html: chordate and reptile evolution references are required");
+
 const anatomyFile = fs.readFileSync(path.join(root, "chapters/anatomy.html"), "utf8");
 if (!anatomyFile.includes("pages/19-introduction") || !anatomyFile.includes("pages/20-5-circulatory-pathways") || !anatomyFile.includes("pages/22-introduction")) errors.push("chapters/anatomy.html: heart, circulatory pathways and respiratory-system references are required");
 if (!anatomyFile.includes("артерии определяются направлением кровотока от сердца") || !anatomyFile.includes("arteries are defined by blood flow away from the heart")) errors.push("chapters/anatomy.html: artery definition must distinguish direction of flow from oxygen content");
