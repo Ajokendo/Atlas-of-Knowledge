@@ -196,6 +196,40 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 
 Интенсивные осадки способны вызывать быстрый поверхностный сток, размыв склонов, паводки и селевые потоки. Риск повышается в бассейнах с крутыми склонами, рыхлыми отложениями и нарушенным растительным покровом. Системы раннего предупреждения должны сочетать метеопрогноз, измерения осадков и уровня воды, наблюдение за селевыми руслами и информирование населения.
 
+### 19.10.4. Как наблюдают и оценивают засуху / Monitoring and Assessing Drought
+
+Засуху нельзя надёжно определить по одному жаркому дню или одному месяцу с малым количеством осадков. Для оценки важно установить, какой именно дефицит развивается, как долго он продолжается и какие системы затрагивает.
+
+**Основные показатели:**
+
+- **Осадки относительно нормы.** Сравнивают сумму осадков за выбранный период с климатической нормой для той же местности и сезона. Само по себе процентное отклонение не учитывает, насколько осадки обычно изменчивы.
+- **Стандартизированный индекс осадков (SPI).** Показывает, насколько необычным является дефицит или избыток осадков для выбранного временного масштаба. SPI рассчитывают отдельно для разных интервалов, например 1, 3, 6 или 12 месяцев. Короткие интервалы полезны для наблюдения за быстрым развитием метеорологической засухи, более длинные — для оценки накопленного дефицита.
+- **Стандартизированный индекс осадков и испаряемости (SPEI).** Учитывает не только осадки, но и потенциальную испаряемость, поэтому может отражать дополнительное воздействие высокой температуры. Результат зависит от метода расчёта испаряемости и качества исходных данных.
+- **Влажность почвы.** Помогает оценить сельскохозяйственную засуху и доступность воды для растений. Важно учитывать тип почвы, глубину корнеобитаемого слоя и фазу развития культуры.
+- **Расход рек и запасы водохранилищ.** Используются для оценки гидрологической засухи и последствий для водоснабжения, орошения и энергетики.
+
+Для SPI часто применяют ориентировочные пороги: около −1 — умеренно сухие условия, −1,5 — сильная засуха, −2 и ниже — экстремальная засуха. Это статистические категории, а не универсальные пороги ущерба: национальные службы и исследования могут использовать несколько отличающиеся классификации. Отрицательное значение индекса не означает автоматически нехватку питьевой воды или потерю урожая.
+
+**Как интерпретировать данные в Кыргызстане.** Сравнивать следует сопоставимые сезоны и периоды, учитывать высоту и экспозицию станции, пространственную неоднородность осадков, температуру и состояние снежного покрова. Для горных бассейнов дополнительно важны снегозапасы, ледниковое питание и сроки снеготаяния. Один и тот же дефицит осадков может иметь разные последствия в орошаемой долине, на богарных землях и на высокогорном пастбище.
+
+**Учебное задание.** Найдите месячные осадки выбранной метеостанции и её климатическую норму. Рассчитайте отклонение в миллиметрах и процентах, затем объясните, почему этого недостаточно для объявления засухи. Составьте перечень дополнительных данных, необходимых для оценки сельскохозяйственных и гидрологических последствий.
+
+Drought cannot be assessed reliably from one hot day or one month with little rainfall. An assessment must identify the type of deficit, its duration and the systems affected.
+
+**Key indicators include:**
+
+- **Precipitation relative to normal.** The total for a selected period is compared with the local seasonal climate normal. A percentage departure alone does not show how unusual the deficit is within the local range of variability.
+- **Standardized Precipitation Index (SPI).** This indicates how unusual a precipitation deficit or surplus is for a selected time scale. SPI is calculated separately for periods such as 1, 3, 6 or 12 months. Short periods help monitor developing meteorological drought; longer periods show accumulated deficits.
+- **Standardized Precipitation Evapotranspiration Index (SPEI).** This considers precipitation and potential evapotranspiration, and can therefore reflect the additional influence of high temperatures. Results depend on the evapotranspiration method and the quality of input data.
+- **Soil moisture.** This helps assess agricultural drought and water availability to plants. Soil type, rooting depth and crop growth stage must be considered.
+- **River discharge and reservoir storage.** These indicators help assess hydrological drought and its implications for water supply, irrigation and energy generation.
+
+SPI thresholds often used as a guide are approximately −1 for moderately dry conditions, −1.5 for severe drought and −2 or below for extreme drought. These are statistical categories, not universal thresholds of damage; national services and studies may use slightly different classifications. A negative index does not automatically mean that drinking water is unavailable or that crops have failed.
+
+**Interpreting data in Kyrgyzstan.** Comparisons should use consistent seasons and periods and account for station elevation and aspect, spatial differences in precipitation, temperature and snow conditions. In mountain catchments, snow storage, glacier contribution and the timing of snowmelt are also important. The same precipitation deficit may have different effects in an irrigated valley, rain-fed farmland and a high-mountain pasture.
+
+**Learning activity.** Obtain monthly precipitation data for a selected weather station and its climate normal. Calculate the departure in millimetres and as a percentage, then explain why this alone is insufficient to declare a drought. List additional data needed to assess agricultural and hydrological impacts.
+
 ## 19.11. Изменение климата: наблюдения и последствия / Climate Change: Observations and Impacts
 
 Кыргызстан относится к горным странам, уязвимым к изменению климата. По данным Атласа экологических изменений Программы ООН по окружающей среде, среднегодовая температура в стране выросла примерно на **1,2 °C в период 1960–2023 годов**, что превышает приведённую в том же источнике глобальную оценку за сопоставимый период. Эти значения относятся к конкретному набору данных и периоду; другие исследования могут давать отличающиеся оценки из-за различий в базовом периоде, методе и пространственном покрытии.
