@@ -119,6 +119,26 @@
 
 **Вызовы и перспективы.** Ключевые задачи — устойчивое водопользование, защита почв от эрозии и деградации, развитие кооперации фермеров, повышение качества фасоли и других культур, доступ к лабораториям и сертификации, холодильным цепям и рынкам. Потенциал области — в переработке сельхозпродукции, брендинге региональных продуктов, агротуризме и трансграничной торговле.
 
+
+### Expanded English profile
+
+**Location and administrative centre.** Talas Region is in the north-west of Kyrgyzstan. It borders Kazakhstan and the Chuy and Jalal-Abad regions. Its area is approximately 11,400 km², and its administrative centre is the city of Talas. It is the smallest of Kyrgyzstan's seven regions by area.
+
+**Relief and climate.** The region is centred on the Talas Valley, which is surrounded by mountain ranges. The valley floor provides land for settlement and agriculture, while the surrounding mountains are used extensively as pasture. The climate is continental. Farming conditions vary with elevation, slope aspect, water availability and the length of the frost-free growing season.
+
+**Water and landscapes.** The Talas River is the region's principal watercourse and an important geographical axis. Its flow is seasonal, and irrigation supports crop production and fodder cultivation. Mountain areas contain meadow, shrub and woodland communities, while the valley includes agricultural landscapes and pastureland.
+
+**Population.** At the beginning of 2026, the region had approximately 282,900 residents. Settlement is predominantly rural and concentrated in the Talas Valley. The city of Talas provides administrative, commercial, educational and healthcare services. The region's distance from the country's largest markets affects transport costs and access to services.
+
+**Economy.** Crop farming, livestock husbandry and agricultural processing are important. Talas is widely known for bean production, but its economy should not be reduced to a single crop: cereals, fodder crops, potatoes, dairy and meat production also matter. Farm incomes depend on yields and prices, seed quality, and access to storage, drying, processing and export channels.
+
+**Transport.** Connections with the Chuy Valley pass through mountain passes and road corridors, making seasonal accessibility sensitive to weather and road conditions. Cross-border links with Kazakhstan are important for trade and the movement of agricultural products.
+
+**Culture and natural heritage.** The Talas Valley is closely associated with the cultural heritage of the Manas epic and landscapes that hold an important place in national identity. Memorial and cultural sites, together with mountain routes, can support educational and domestic tourism.
+
+**Challenges and prospects.** Key priorities include sustainable water use, protecting soils from erosion and degradation, strengthening farmer cooperation, improving the quality of beans and other crops, and expanding access to laboratories, certification, cold chains and markets. The region's opportunities include agricultural processing, branding of regional products, agrotourism and cross-border trade.
+
+
 ## 24.5. Иссык-Кульская область / Issyk-Kul Region
 
 **Положение и центр.** Область расположена на северо-востоке Кыргызстана и граничит с Казахстаном, Китаем, Чуйской и Нарынской областями. Площадь — около 43,1 тыс. км². Административный центр — Каракол. Важнейший природный объект — озеро Иссык-Куль, окружённое хребтами Күнгөй-Ала-Тоо на севере и Тескей-Ала-Тоо на юге.
