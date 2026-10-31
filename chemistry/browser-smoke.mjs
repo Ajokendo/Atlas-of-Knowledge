@@ -341,6 +341,19 @@ try {
     }
 
     if (file === "chapters/chemical-formulae.html") {
+      if (!(await page.locator("[data-i=formulaTypes]").innerText()).includes("простейшее целочисленное соотношение") ||
+          !(await page.locator("[data-i=formulaTypes]").innerText()).includes("формульной единице")) {
+        errors.push(file + ": Russian note must distinguish empirical, molecular and ionic formula representations");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=formulaTypes]").innerText()).includes("simplest whole-number ratio") ||
+          !(await page.locator("[data-i=formulaTypes]").innerText()).includes("formula unit")) {
+        errors.push(file + ": English note must distinguish empirical, molecular and ionic formula representations");
+      }
+      await page.locator("#lang").click();
+    }
+
+    if (file === "chapters/chemical-formulae.html") {
       const formula = page.locator("#formula");
       const calculate = page.locator("#calc");
       const rows = page.locator("#rows tr");
