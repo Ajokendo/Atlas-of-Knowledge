@@ -273,3 +273,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Added the English counterpart to section 17.13 on the geographic factors behind regional contrasts, including valley, high-mountain, lake-basin and borderland settings.
 - Added the English counterpart to section 17.14 on official geographical names, original Kyrgyz orthography and consistent Latin transliteration.
 - The detailed border-law subsection 17.12.1 and the worked accessibility example 17.13.1 already have English counterparts and were retained.
+
+
+## Follow-up bilingual development — Chapter 17, learning and editorial materials (1 November 2026)
+
+- Added an English version of the ten-point chapter summary in section 17.15.
+- Added English versions of the self-check questions and all six practical activities in section 17.17.
+- Added English counterparts to the scientific editorial notes, including requirements for geodetic sources, tectonic classification, geological-age distinctions, seismic-risk wording, mineral-resource categories and legal review of border maps.
+- The existing bilingual key-term list, worked examples and illustration briefs were retained.
