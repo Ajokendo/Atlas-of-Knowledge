@@ -217,6 +217,21 @@ Regional geography studies major parts of the world as complex territorial syste
 
 Для управления такими системами нужны совместимые данные, согласованные стандарты, обмен информацией, научное сотрудничество и механизмы урегулирования разногласий. Государственные границы остаются важными правовыми рубежами, но природные и экономические потоки часто пересекают их.
 
+
+### 12.11.1. Разобранный пример: анализ трансграничного речного бассейна / Worked Example: Analysing a Transboundary River Basin
+
+Рассмотрим условный речной бассейн, расположенный в трёх странах. В верховьях находятся водохранилище и гидроэлектростанция, в средней части — города и промышленность, а ниже по течению — орошаемые сельскохозяйственные земли. Изменение режима сброса воды в верхней части бассейна может повлиять на выработку электроэнергии, сезонное водоснабжение, сельское хозяйство и состояние экосистем в других странах.
+
+Для анализа необходимо составить не только карту границ, но и схему водосбора: определить притоки, водохранилища, точки водозабора, возвратные сбросы и уязвимые экосистемы. Затем сравнить сезонные потребности и доступность воды, качество данных наблюдений, действующие соглашения и механизмы обмена информацией.
+
+**Главный вывод:** речной бассейн — функциональная природная система, которая не совпадает с государственными границами. Поэтому управление водой требует координации между странами и секторами. Одна схема не позволяет автоматически определить справедливое распределение: для этого нужны гидрологические измерения, оценка экологических потребностей, правовые договорённости и участие заинтересованных сообществ.
+
+Consider a fictional river basin shared by three countries. A reservoir and hydropower plant are located upstream, cities and industry occupy the middle reaches, and irrigated farmland lies downstream. Changes in the timing of water releases upstream may affect electricity generation, seasonal water supply, agriculture, and ecosystems in other countries.
+
+Analysis requires more than a map of political boundaries. A basin diagram should identify tributaries, reservoirs, abstraction points, return flows, and vulnerable ecosystems. Researchers should then compare seasonal water needs and availability, the quality of monitoring data, existing agreements, and mechanisms for sharing information.
+
+**Key point:** a river basin is a functional physical system that does not coincide with state borders. Water management therefore requires coordination across countries and sectors. A diagram alone cannot determine a fair allocation; that requires hydrological measurements, assessment of environmental needs, legal agreements, and participation by affected communities.
+
 ## 12.12. Глобальные контрасты и взаимозависимость регионов / Global Contrasts and Interdependence
 
 Региональные различия проявляются в доходах, структуре занятости, демографии, доступе к образованию и здравоохранению, инфраструктуре и экологической уязвимости. Однако деление мира на «развитые» и «развивающиеся» территории не должно превращаться в жёсткую бинарную схему.
