@@ -472,3 +472,9 @@ The score should increase only when evidence for the relevant checklist items is
 - Added explicit, dynamically updated `aria-pressed` states to the DNA-template and mutation selectors. The selected mutation remains visible to assistive technology and is retained when switching RU/EN; the template selector exposes its default and current selection.
 - Added NCBI references for genetic-code variants and translation. The chapter's statement that the code is nearly universal remains qualified; mitochondrial and other lineage-specific variants are not collapsed into a single universal table.
 - Added regression assertions for the sequence example, bilingual source links and accessible selected states. This is a bounded Genetics correction and verification pass, not independent genetics peer review or whole-atlas sign-off.
+
+
+## Anatomy and physiology source-traceability audit — 1 November 2026
+- Expanded the bilingual selected-reference section beyond general body organisation and homeostasis to include OpenStax Anatomy & Physiology 2e chapters on heart structure and cardiac circuits, pulmonary/systemic circulatory pathways, and the respiratory system.
+- Added an explicit note that arteries are defined by carrying blood away from the heart, not by oxygen content; pulmonary arteries carry oxygen-poor blood, while pulmonary veins carry oxygen-rich blood. This prevents a common introductory misconception and aligns the wording with the two-circuit model.
+- Added regression assertions for the three topic-matched references and the artery-direction distinction in both languages. This closes a focused traceability gap in Anatomy & Physiology; it is not a full medical/anatomical expert review or a substitute for independent bilingual proofreading and live accessibility QA.
