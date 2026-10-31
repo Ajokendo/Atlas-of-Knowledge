@@ -427,3 +427,5 @@ This checkpoint preserves the working context for continuation after a session i
 - Confirmed the corresponding regional administrative-centre statements in the NSC profiles, including Bishkek as Chuy Region's centre and Osh as Osh Region's centre, while the cities' populations are counted separately in the NSC open-data series.
 - The regional profile pages were last updated 12 October 2026 in the retrieved pages. Their current administrative-unit counts should not be copied into the chapter without an explicit reference date because the second-stage reform remains a proposal and the first-stage changes affect municipal composition.
 - The seven area values and seven 1 January 2026 population values now have direct official NSC source coverage. Density values remain author calculations and are labelled accordingly.
+
+- Final parity correction: the English version of section 24.1 was updated to match the verified 27 October 2026 announcement and explicitly states that the second-stage reform remains a proposal, not enacted law.
