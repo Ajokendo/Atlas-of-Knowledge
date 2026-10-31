@@ -281,3 +281,15 @@ This checkpoint preserves the working context for continuation after a session i
 - Added English versions of the self-check questions and all six practical activities in section 17.17.
 - Added English counterparts to the scientific editorial notes, including requirements for geodetic sources, tectonic classification, geological-age distinctions, seismic-risk wording, mineral-resource categories and legal review of border maps.
 - The existing bilingual key-term list, worked examples and illustration briefs were retained.
+
+
+## Working checkpoint — 1 November 2026 (after Chapters 17 and 24 bilingual expansion)
+
+- Confirmed working branch: `workspace/geography`; all edits remain inside `geography/`.
+- Chapter 24 now contains full English regional profiles for all seven oblasts (Chuy, Talas, Issyk-Kul, Naryn, Jalal-Abad, Osh and Batken), a bilingual warning about the 2023–2024 population-series discontinuity after administrative-territorial reform, and expanded English versions of cross-regional analysis, climate-risk material, spatial planning, map briefs, practical assignments, review questions, key-term definitions and scientific notes.
+- Chapter 17 now has expanded English explanations across sections 17.1–17.14, including mountain systems, geological history, tectonics, seismicity, relief, administrative geography, toponymy and border geography; its summary, learning activities and scientific notes also have English counterparts.
+- Chapter 17 area is aligned with the State Portal figure of 199,951 km² and the commonly rounded 199.9 thousand km². Its bibliography is consecutively numbered (14 entries). Extreme-point coordinates remain pending an authoritative national geodetic source and were not invented.
+- Chapter 24's population comparison warning and all seven English regional-profile markers were checked after fetching the saved file. Chapter 17's English section markers, area statement and sequential bibliography were checked after fetching the saved file. README and this audit log were also re-fetched.
+- The README records the recent additions. The detailed commit history is preserved in the preceding entries.
+- Remaining work includes continued scientific/source verification across Chapters 17–26, completing any remaining language gaps, checking administrative and statistical comparability, and auditing the rest of the world-geography chapters. No claim of final editorial readiness or 100% completion is made here.
+- Resume from the current HEAD of `workspace/geography`; do not recreate or overwrite existing chapters. Continue recording verified changes and create a durable savepoint at each genuine five-percentage-point milestone, with no estimated or invented progress values.
