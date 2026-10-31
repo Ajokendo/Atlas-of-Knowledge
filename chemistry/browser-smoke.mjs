@@ -594,6 +594,18 @@ try {
       }
     }
 
+    if (file === "chemistry-constants.html") {
+      const regions = page.locator(".panel[role=region]");
+      if (await regions.count() !== 3 || await regions.first().getAttribute("tabindex") !== "0" || !(await regions.first().getAttribute("aria-label")).includes("Прокручиваемая")) {
+        errors.push(file + ": reference tables are not keyboard-scrollable labeled regions in Russian");
+      }
+      await page.locator("#lang").click();
+      if (!(await regions.first().getAttribute("aria-label")).includes("Scrollable")) {
+        errors.push(file + ": reference-table region label did not switch to English");
+      }
+      await page.locator("#lang").click();
+    }
+
     if (file === "knowledge-check.html") {
       const questionCount = await page.locator("#quiz .question").count();
       if (questionCount !== 10) {
