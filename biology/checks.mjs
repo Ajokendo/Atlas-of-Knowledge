@@ -318,6 +318,17 @@ for (const rel of imagePages) {
 if (new Set(imageBriefIds).size !== imageBriefIds.length) errors.push("Image-generation brief IDs must be unique across all Biology pages");
 if (imageBriefCount !== 52) errors.push("Expected 52 in-page image-generation briefs, found " + imageBriefCount);
 const imageChecklistCount = (imagePlanFile.match(/^- \[ \] \*\*/gm) || []).length;
+const priorityCounts = {
+  P1: (imagePlanFile.match(/^- \[ \] \*\*\[P1\]/gm) || []).length,
+  P2: (imagePlanFile.match(/^- \[ \] \*\*\[P2\]/gm) || []).length,
+  P3: (imagePlanFile.match(/^- \[ \] \*\*\[P3\]/gm) || []).length
+};
+if (priorityCounts.P1 !== 13 || priorityCounts.P2 !== 26 || priorityCounts.P3 !== 13) {
+  errors.push("IMAGE_GENERATION_PLAN.md priority allocation must remain 13 P1, 26 P2 and 13 P3; found " + JSON.stringify(priorityCounts));
+}
+if (!imagePlanFile.includes("P1 — highest value") || !imagePlanFile.includes("P2 — useful complement") || !imagePlanFile.includes("P3 — lower priority")) {
+  errors.push("IMAGE_GENERATION_PLAN.md must define all three image-production priority levels");
+}
 if (imageChecklistCount !== 52) errors.push("IMAGE_GENERATION_PLAN.md must contain 52 planned checklist items, found " + imageChecklistCount);
 if (!imagePlanFile.includes("Change `[ ]` to `[x]` only after scientific review") || !imagePlanFile.includes("Do not ask the image model to invent species")) {
   errors.push("IMAGE_GENERATION_PLAN.md must retain the scientific-review and no-invented-species production rules");
