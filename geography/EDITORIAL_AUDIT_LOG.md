@@ -489,3 +489,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Chapter 22 English parity commit: `0cf27fd2bc590c52fdc710c5ddf3476c3a3d092f`.
 
 - Дополнительно завершён английский вводный блок главы 22.8 об экологических коридорах: определение, роль связности ландшафтов, осторожная формулировка статуса коридора «Ак-Илбирс» и принципы проектирования. Изменение повторно проверено в целевой ветке. Commit: `f8b7f9872d0842f178ad12572415a2fd16f3cde2`.
+
+
+## Chapter 22 2025 protected-area management evidence — 1 November 2026
+
+- Added a bilingual, source-attributed case study using the Ministry of Natural Resources' 16 March 2026 report on 2025 protected-area work: 139 recorded violations; assessed damage KGS 1,105,789; fine and claim figures; recovered amounts; 25,236 seedlings planted over 39.09 ha; and nursery stock of 359,316, of which 106,825 were assessed as plantable.
+- Added explicit methodological safeguards: enforcement-material counts are not automatically unique incidents; planted seedlings are not equivalent to surviving trees; enforcement and planting outputs alone do not measure ecological effectiveness. Follow-up indicators are required.
+- Verified the source page and all inserted bilingual figures after re-fetching the chapter. Source: https://mnr.gov.kg/en/posts/news/itogi-raboty-na-osobo-oxranyaemyx-prirodnyx-territoriyax-kyrgyzstana-za-2025-god
+- Chapter 22 commit: `e93aed611fec3f27bc7cb8f25a6ad9676e3c8107`.
