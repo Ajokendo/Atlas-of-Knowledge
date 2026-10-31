@@ -1095,8 +1095,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 84) {
-        errors.push(file + ": expected 84 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 85) {
+        errors.push(file + ": expected 85 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1159,6 +1159,10 @@ try {
       await page.locator("#search").fill("amount of substance");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Amount of substance")) {
         errors.push(file + ": glossary search did not find the amount-of-substance definition");
+      }
+      await page.locator("#search").fill("formula unit");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Formula unit")) {
+        errors.push(file + ": glossary search did not find the formula-unit definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
