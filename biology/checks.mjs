@@ -176,6 +176,12 @@ if (!faunaKyrgyzstanFile.includes("Cervus canadensis songaricus") || !faunaKyrgy
   errors.push("chapters/fauna-kyrgyzstan.html: maral nomenclature must document the NCBI synonym and the competing IUCN/CAMCA subspecies treatment");
 }
 
+const geneticsAuditFile = fs.readFileSync(path.join(root, "chapters/genetics.html"), "utf8");
+if (!/data-template="TAC" aria-pressed="true"/.test(geneticsAuditFile) || !geneticsAuditFile.includes('x.setAttribute("aria-pressed",String(x.dataset.template===t))')) errors.push("chapters/genetics.html: transcription-template controls must expose and update selected state");
+if (!/data-mutation="insertion" aria-pressed="false"/.test(geneticsAuditFile) || !geneticsAuditFile.includes('b.setAttribute("aria-pressed",String(b.dataset.mutation===selectedMutation))')) errors.push("chapters/genetics.html: mutation controls must expose selected state to assistive technology");
+if (!geneticsAuditFile.includes("AUG · AGC · UUU · UGG · A…")) errors.push("chapters/genetics.html: insertion example must display the shifted reading frame accurately");
+if (!geneticsAuditFile.includes("ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi") || !geneticsAuditFile.includes("ncbi.nlm.nih.gov/books/NBK9849/")) errors.push("chapters/genetics.html: authoritative genetic-code and translation references are required");
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
