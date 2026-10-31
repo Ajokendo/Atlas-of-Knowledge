@@ -191,6 +191,54 @@
 
 **Вызовы и перспективы.** Приоритеты — устойчивое управление водными ресурсами, снижение рисков конфликтов вокруг доступа к воде и дорогам, укрепление местной инфраструктуры, диверсификация экономики, повышение добавленной стоимости фруктов, модернизация горнодобывающих объектов и восстановление нарушенных земель. Развитие области должно опираться на международное право, межгосударственные договорённости и интересы местных сообществ.
 
+### 24.9.1. Как корректно сравнивать семь областей / How to Compare the Seven Regions Fairly
+
+Региональное сравнение требует сопоставимых показателей. Большая область не обязательно богаче, более населённая область не обязательно имеет более высокий уровень благосостояния, а высокий объём производства не всегда означает высокую производительность или качество жизни.
+
+**Выбор показателя зависит от вопроса:**
+
+- Для оценки масштаба экономики используют общий объём выпуска или валовой региональный продукт (ВРП).
+- Для сравнения среднего экономического результата на одного жителя рассчитывают ВРП на душу населения, но не трактуют его как личный доход каждого человека.
+- Для оценки обеспеченности услугами используют показатели на 1 000 или 10 000 жителей, например число врачей или мест в школах.
+- Для анализа доступности рассчитывают время поездки или долю населения, достигающую услуги за заданный срок, а не только число объектов на территории.
+- Для сравнения сельского хозяйства учитывают площадь угодий, структуру посевов, водообеспеченность, поголовье и производительность, а не только общий выпуск.
+- Для оценки экологического состояния используют показатели с учётом площади, населения, водосборов или интенсивности хозяйственной деятельности — в зависимости от исследуемого воздействия.
+
+**Правила сопоставимости:**
+1. Использовать одинаковые годы и определения показателей.
+2. Указывать, выражены ли экономические данные в текущих или постоянных ценах.
+3. Проверять, совпадают ли административные границы и статистические единицы.
+4. Различать абсолютные значения, доли, показатели на душу населения и плотности.
+5. Учитывать внутригородские и внутриобластные различия, которые скрываются средними значениями.
+6. Не выводить причинно-следственную связь из простой корреляции между двумя региональными показателями.
+
+**Условный пример.** Область А производит товаров и услуг на 120 млрд сомов при населении 600 тыс. человек; область Б — на 90 млрд сомов при населении 300 тыс. человек. Общий выпуск выше в области А, но условный выпуск на одного жителя составляет соответственно 200 тыс. и 300 тыс. сомов. Ни один показатель сам по себе не доказывает, что жители области Б имеют более высокие доходы: ВРП включает деятельность предприятий и государства, а распределение доходов может быть неравномерным.
+
+**Учебное задание.** Составьте сравнительную таблицу семи областей по трём показателям: одному абсолютному, одному на душу населения и одному показателю доступности услуги. Для каждого укажите год, единицу измерения и источник. Отдельно напишите, на какие вопросы этот набор данных ответить не позволяет.
+
+Regional comparisons require comparable indicators. A larger region is not necessarily wealthier, a more populous region does not necessarily have higher well-being, and a higher volume of production does not always indicate greater productivity or quality of life.
+
+**The indicator should match the question:**
+
+- Use total output or gross regional product (GRP) to assess the scale of an economy.
+- Calculate GRP per capita to compare average economic output per resident, but do not interpret it as each person’s personal income.
+- Use rates per 1,000 or 10,000 residents to assess service provision, such as the number of doctors or school places.
+- Assess accessibility through travel time or the share of residents able to reach a service within a specified period, not merely the number of facilities in a region.
+- Compare agriculture using cultivated area, crop structure, water availability, livestock numbers and productivity, rather than total output alone.
+- Select environmental indicators relative to area, population, catchments or the intensity of economic activity, depending on the impact being studied.
+
+**Rules for valid comparison:**
+1. Use the same years and indicator definitions.
+2. State whether economic data are in current or constant prices.
+3. Check that administrative boundaries and statistical units match.
+4. Distinguish absolute values, shares, per-capita rates and densities.
+5. Consider within-city and within-region differences hidden by averages.
+6. Do not infer causation from a simple correlation between two regional indicators.
+
+**Hypothetical example.** Region A produces goods and services worth 120 billion soms and has a population of 600,000; Region B produces 90 billion soms and has a population of 300,000. Total output is higher in Region A, but hypothetical output per resident is 200,000 soms in A and 300,000 soms in B. Neither figure alone proves that residents of Region B have higher incomes: GRP includes business and government activity, and income distribution may be unequal.
+
+**Learning activity.** Prepare a comparative table for all seven regions using three indicators: one absolute measure, one per-capita measure and one service-accessibility measure. For each, state the year, unit and source. Explain separately which questions this dataset cannot answer.
+
 ## 24.10. Межрегиональные закономерности и пространственные контрасты / Cross-Regional Patterns
 
 ### Долины и высокогорья
