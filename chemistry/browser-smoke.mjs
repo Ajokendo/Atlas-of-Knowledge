@@ -1107,9 +1107,11 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 102) {
-        errors.push(file + ": expected 102 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 101) {
+        errors.push(file + ": expected 101 bilingual chemistry glossary entries");
       }
+      const allTermTitles = await page.locator(".term h2").allInnerTexts();
+      if (new Set(allTermTitles).size !== allTermTitles.length) errors.push(file + ": glossary contains duplicate displayed term titles");
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
       }
