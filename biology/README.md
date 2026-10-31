@@ -300,6 +300,8 @@ The score should increase only when evidence for the relevant checklist items is
 - Reported the study's result narrowly: no clustering corresponding to discrete subspecies was detected within the sampled population. The chapter explicitly notes that this sample does not cover every Kyrgyz population and does not settle all regional taxonomic hypotheses.
 - Added a regression assertion to preserve the sample size, marker count and geographic-scope caveat. The species-level name remains *Ovis ammon*; subspecies assignments remain qualified rather than silently treated as settled.
 - Editorial readiness remains 70/100: this strengthens one species dossier but does not replace the broader seven-oblast source audit, independent bilingual editing or live browser/accessibility QA.
+- Refined the genetics summary after checking the full 2026 paper: 88 samples were initially collected in Kyrgyzstan, 72 passed quality control, and the analysis found no genomic support for separating *O. a. polii* and *O. a. karelini* in the sampled Kyrgyz region. The study did not include Pamir Plateau samples, so its conclusion is explicitly bounded.
+- Added the Kyrgyz National Statistics Committee's ungulate series as a separate evidence stream: 47 maral in 2024 and 61 in 2023. These official statistical figures differ markedly from CAMCA's 400–600 Naryn-valley extrapolation; the atlas now flags the differing scopes/methods rather than combining or silently choosing one series.
 
 
 ## Maral estimate comparability note — 1 November 2026
