@@ -343,3 +343,30 @@ This checkpoint preserves the working context for continuation after a session i
 - Added English counterparts to sections 26.11–26.13 on urban green infrastructure, biodiversity and protected areas, and the low-carbon transition and climate finance.
 - Preserved the distinction between protected-area coverage and management effectiveness, and between national protected-area categories and UNESCO/Ramsar/World Heritage designations.
 - Retained the life-cycle and social-equity principles for energy transition and climate finance, including the need for measurable results and long-term operation and maintenance.
+
+
+## Recovery checkpoint — 1 November 2026 (after Chapter 26 bilingual audit)
+
+**Repository:** `Ajokendo/Atlas-of-Knowledge`  
+**Branch:** `workspace/geography`  
+**Working directory:** `geography/`
+
+### Verified saved files at checkpoint creation
+- `geography/README.md` — blob `208ac5952918e13e358693c3019ab85ce02a3b99`; 8,069 characters.
+- `geography/EDITORIAL_AUDIT_LOG.md` before this checkpoint — blob `5402466764331f43f784e1f77f2c4263a169488c`; 33,958 characters.
+- Chapter 17 — blob `a5236ce77c30ad8bfc6a45d03110cab8ec2073ef`; 84,920 characters.
+- Chapter 24 — blob `373e45926399e4ed0e85a7211c57c7afc8c46867`; 93,400 characters.
+- Chapter 26 — blob `ce2c8dcd454b578eef502cd09ec20acc84366fb2`; 71,826 characters.
+
+### Work included
+- Chapter 17: expanded English coverage of administrative geography, regional contrasts, toponymy, chapter summary, review questions, practical activities and scientific editorial notes.
+- Chapter 24: expanded English profiles for all seven oblasts and bilingual treatment of population-series comparability and regional geography.
+- Chapter 26: corrected NDC 3.0 baseline/scenario explanation; added English text on climate impacts, glaciers and water, pastures, forests and biodiversity, air quality, sanitation, waste, mining legacy and disaster-risk reduction; corrected the notation of the risk equation; clarified the different scopes of international and national wastewater indicators.
+- README and audit log contain records of the work above.
+
+### Resume instructions
+1. Continue from the current HEAD of `workspace/geography`; do not recreate existing material.
+2. Keep all edits within `geography/`; do not touch other disciplines, the portal, catalogue, publication settings or `main`.
+3. Continue the systematic content, scientific-source and Russian/English parity audit, especially Chapters 17–26 and unresolved issues already recorded in this log.
+4. At each genuine five-percentage-point progress milestone, save a checkpoint, re-fetch changed files and verify the saved content. Report percentage milestones only at 85%, 90%, 95% and 100%; do not invent progress values.
+5. This is a recovery checkpoint, not a declaration that the atlas is complete or that all historical unsaved work has been recovered.
