@@ -264,6 +264,8 @@ try {
       if ((await page.locator("#result").innerText()).trim() !== "c = —") {
         errors.push(file + ": zero solution volume was accepted");
       }
+      await page.locator("#n").fill("1");
+      await page.locator("#v").fill("2");
       let result = (await page.locator("#result").innerText()).trim();
       if (!result.endsWith("моль/л")) {
         errors.push(file + ": Russian molar-concentration unit is not localized");
