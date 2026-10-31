@@ -481,6 +481,24 @@ try {
       if (!(await page.locator("#detail").innerText()).toLowerCase().includes("oxygen")) {
         errors.push(file + ": selecting oxygen did not update element details");
       }
+      await page.locator("#lanth button[data-id="58"]").click();
+      if (!(await page.locator("#detail").innerText()).includes("f-блок")) {
+        errors.push(file + ": cerium must be identified as an f-block element, not assigned a misleading group number");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("#detail").innerText()).includes("f-block")) {
+        errors.push(file + ": f-block designation is missing in English");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#group").selectOption("4");
+      if (await page.locator("#lanth button[data-id]").count() !== 0 || await page.locator("#act button[data-id]").count() !== 0) {
+        errors.push(file + ": group filter incorrectly assigns f-block elements to numbered groups");
+      }
+      await page.locator("#group").selectOption("all");
+      await page.locator("#lanth button[data-id="58"]").click();
+      if (!(await page.locator("#detail").innerText()).includes("наиболее долгоживущего известного изотопа")) {
+        errors.push(file + ": bracketed isotope mass-number explanation is missing");
+      }
     }
 
     if (file === "molecule-lab.html") {
