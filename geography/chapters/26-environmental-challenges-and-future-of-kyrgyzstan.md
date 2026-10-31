@@ -840,6 +840,22 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 11. Почему зелёная инфраструктура — это не только посадка деревьев?
 12. Какие показатели позволяют оценить справедливость и результативность зелёного перехода?
 
+
+### Review Questions
+
+1. Why does Kyrgyzstan's mountain geography increase its vulnerability to climate change?
+2. How does climate-change adaptation differ from mitigation?
+3. Why does an increase in glacier runoff during a particular period not necessarily mean that long-term water security is improving?
+4. Which measures can reduce pasture degradation?
+5. Why may forest-cover indicators published by different organisations differ?
+6. Which sources of air pollution are most important in cities, and why does their contribution vary by season?
+7. How does the national wastewater indicator differ from the UN SDG wastewater-treatment indicator?
+8. Why must the construction of wastewater treatment plants be accompanied by funding for their operation and maintenance?
+9. What environmental obligations are necessary for a mining project?
+10. How do hazard, exposure and vulnerability differ in disaster-risk assessment?
+11. Why is green infrastructure more than tree planting?
+12. Which indicators can be used to assess the fairness and effectiveness of the green transition?
+
 ## 26.19. Научные и редакционные примечания / Scientific and Editorial Notes
 
 - Температурный тренд UNEP (1960–2023) относится к национальной оценке и не должен переноситься на каждую метеостанцию или область.
@@ -854,6 +870,22 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 - Статус охраняемых территорий и видов проверять по действующим национальным и международным реестрам.
 - Визуализации экологических рисков должны различать наблюдения, модельные оценки и прогнозы.
 - Все меры должны оцениваться с учётом социальной справедливости, местных сообществ, доступности услуг и долгосрочных эксплуатационных затрат.
+
+
+### English scientific and editorial notes
+
+- The UNEP temperature trend for 1960–2023 is a national assessment and must not be applied uniformly to every weather station or oblast.
+- NDC 3.0 targets must be presented with their projected baseline scenario, the conditional nature of international support and the document date.
+- Water abstraction and water consumption are annual flows. They must not be added to glacier or lake volumes, which are stocks.
+- The estimate that approximately 70% of pastures are degraded is an aggregated UNEP estimate; caution is required when applying it to individual locations.
+- UNEP and UN forest-cover indicators differ in period and methodology; do not merge them without harmonisation.
+- Air-quality indicators must identify the pollutant, monitoring station, averaging period, applicable standard and completeness of observations.
+- The UN SDG share of safely treated domestic wastewater is not equivalent to the share of wastewater that has undergone any form of treatment in national statistics.
+- Counts of registered emergencies depend on event definitions, reporting thresholds and agency methodology.
+- Do not claim that climate change is the sole cause of a particular debris flow, landslide or flood without an attribution study.
+- The status of protected areas and species must be checked against current national and international registers.
+- Environmental-risk visualisations must distinguish observations, modelled estimates and projections.
+- All measures should be assessed in terms of social equity, local communities, service accessibility and long-term operating costs.
 
 ## 26.20. Источники и литература / References
 
