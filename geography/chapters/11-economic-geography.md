@@ -330,6 +330,32 @@ This is a simplified example for one production stage. A full global value-chain
 
 При (LQ>1) доля отрасли в региональной занятости выше её доли в национальной занятости. Это указывает на относительную специализацию, но само по себе не доказывает конкурентоспособность, высокую производительность или экспортную ориентацию.
 
+### 11.17.1. Как интерпретировать коэффициент локализации / Interpreting a Location Quotient
+
+Коэффициент локализации (Location Quotient, LQ) сравнивает долю отрасли в экономике территории с долей той же отрасли в выбранной базовой экономике:
+
+`LQ = (занятость отрасли в регионе / вся занятость региона) ÷ (занятость отрасли в базе / вся занятость базы)`
+
+При одинаковых определениях отрасли и занятости значение выше 1 указывает на относительную концентрацию отрасли в регионе по сравнению с базой; значение ниже 1 — на относительную недопредставленность. Это описательный показатель структуры, а не доказательство конкурентоспособности, производительности или экспортного успеха.
+
+**Условный пример.** В регионе отрасль обеспечивает 12% занятости, а в стране в целом — 8%. LQ = 0,12 / 0,08 = 1,5. Отраслевая доля в регионе в полтора раза выше национальной доли. Но это может быть связано как с сильной специализацией, так и с малым размером других секторов, сезонной занятостью или особенностями классификации.
+
+**Проверки перед выводом:** совпадают ли годы и территориальные границы; одинаково ли определена занятость (рабочие места или занятые жители); сопоставимы ли отраслевые классификаторы; не искажают ли результат маятниковая миграция и неформальная занятость; насколько устойчив результат при смене базовой территории. Для малых регионов небольшое изменение числа рабочих мест может заметно изменить коэффициент.
+
+**Учебное задание.** Рассчитайте LQ для двух отраслей по условным долям занятости. Для каждой сформулируйте один обоснованный вывод и два вывода, которые по одному LQ делать нельзя.
+
+A Location Quotient (LQ) compares an industry's share of employment in a region with the share of the same industry in a chosen reference economy:
+
+`LQ = (regional industry employment / total regional employment) ÷ (reference industry employment / total reference employment)`
+
+With consistent definitions of industry and employment, a value above 1 indicates that the industry is relatively concentrated in the region compared with the reference economy; a value below 1 indicates relative under-representation. It is a descriptive structural indicator, not proof of competitiveness, productivity or export success.
+
+**Hypothetical example.** An industry accounts for 12% of regional employment and 8% of national employment. LQ = 0.12 / 0.08 = 1.5. The industry's employment share is one and a half times the national share. This may reflect genuine specialisation, but it may also result from a small size of other sectors, seasonal employment or classification choices.
+
+**Checks before drawing conclusions:** Are years and territorial boundaries consistent? Is employment defined in the same way (jobs or employed residents)? Are industry classifications comparable? Do commuting and informal work distort the result? Is the finding robust if the reference area changes? In small regions, a modest change in jobs can substantially alter the quotient.
+
+**Activity.** Calculate LQ for two industries using hypothetical employment shares. For each, formulate one justified conclusion and two conclusions that cannot be drawn from LQ alone.
+
 ## 11.18. Итоги главы / Chapter Summary
 
 1. Экономическая география изучает пространственную организацию хозяйства и территориальные различия развития.
