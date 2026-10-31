@@ -38,7 +38,7 @@ The administrative system includes several distinct units:
 
 The 2024 administrative-territorial reform changed the boundaries and composition of a number of cities and rural municipalities. Law No. 128 of 18 July 2024 established new administrative units and boundaries at the level of rural municipalities and cities. Lists of districts, cities and rural units in older atlases should therefore not automatically be treated as current. In September 2025, the city of Jalal-Abad was renamed **Manas**; the region itself retained the name Jalal-Abad Region. Older sources may use Jalal-Abad as the historical name of the city.
 
-In October 2026, a further stage of administrative reform is being discussed publicly. Proposed arrangements must not be shown as already effective until the relevant legal acts enter into force. Every map should state its boundary reference date and cite the legislation currently in force.
+On 27 October 2026, the head of the State Agency for Civil Service and Local Self-Government described a proposed second stage of administrative-territorial reform in an interview with the state news agency Kabar. The proposal envisages replacing the current oblast-and-rayon structure with more than 20 enlarged aymaqs. As of this update, this is a publicly announced plan, not an enacted legal act; final timelines and the legal model have not been established. This chapter therefore continues to describe the seven-region system currently in force. Every map and table should state its boundary reference date and cite the legislation currently in force.
 
 ### A consistent regional profile
 
