@@ -311,3 +311,9 @@ The score should increase only when evidence for the relevant checklist items is
 - Cross-checked the detailed CAMCA October 2024 survey report against its 2025 Kyrgyzstan concept note. The detailed report records 160 animals and extrapolates 400–600 for the Naryn River valley and tributaries; the concept note separately lists 689 for Kyrgyzstan in 2024.
 - The chapter now displays this difference and explains that the brief concept-note table does not document method and spatial coverage at the same level. The two figures are not treated as directly comparable or silently merged.
 - Added the concept note to the bilingual source list and a regression assertion preserving the comparability caveat. Readiness remains 70/100.
+
+
+## Naryn snow leopard survey-scope update — 1 November 2026
+- Added the peer-reviewed 2021 camera-trap study from Naryn State Nature Reserve (four field seasons, 2016–2019): a minimum of five adult snow leopards were identified, together with five cubs or subadults from three litters of two females.
+- Distinguished this local, minimum-detection result from CAMCA's approximately 62-individual estimate for the wider Naryn region. The two figures refer to different spatial scopes and study designs and must not be interpreted as a population trend or direct cross-check.
+- Added a regression assertion preserving the local-study period, minimum adult count, evidence of reproduction and the geographic-scope caveat. Editorial readiness remains 70/100; one stronger species account does not close the seven-oblast evidence audit or outstanding independent and live QA.
