@@ -21,6 +21,29 @@
 
 В октябре 2026 года в публичном поле обсуждается следующий этап административной реформы. До вступления в силу конкретных нормативных актов нельзя изображать предполагаемую новую систему как уже действующую. В атласе следует указывать дату состояния границ и ссылаться на действующую редакцию законодательства.
 
+
+### English overview
+
+Kyrgyzstan is divided into seven regions: Batken, Jalal-Abad, Issyk-Kul, Naryn, Osh, Talas and Chuy. Bishkek and Osh have the status of cities of republican significance and are counted separately from the regions. This distinction is essential: the city of Osh is not included in the population of Osh Region, and Bishkek is not included in Chuy Region, although both cities perform important administrative, economic and transport functions for their wider macro-regions.
+
+An administrative unit and a physical-geographical region are different concepts. An oblast is a territory of public administration; a valley, basin, mountain range or river catchment is defined by natural processes and may cross administrative boundaries.
+
+The administrative system includes several distinct units:
+- **oblast (region)** — a regional level of public administration;
+- **rayon (district)** — an administrative unit within a region;
+- **city of regional or district significance** — an urban administrative unit at the corresponding level;
+- **city of republican significance** — Bishkek or Osh, counted separately from the regions;
+- **aiyl aimak (rural municipality)** — a local self-government unit comprising one or more rural settlements; and
+- **village (aiyl)** — a settlement, not a synonym for a rural municipality.
+
+The 2024 administrative-territorial reform changed the boundaries and composition of a number of cities and rural municipalities. Law No. 128 of 18 July 2024 established new administrative units and boundaries at the level of rural municipalities and cities. Lists of districts, cities and rural units in older atlases should therefore not automatically be treated as current. In September 2025, the city of Jalal-Abad was renamed **Manas**; the region itself retained the name Jalal-Abad Region. Older sources may use Jalal-Abad as the historical name of the city.
+
+In October 2026, a further stage of administrative reform is being discussed publicly. Proposed arrangements must not be shown as already effective until the relevant legal acts enter into force. Every map should state its boundary reference date and cite the legislation currently in force.
+
+### A consistent regional profile
+
+Each region is examined using the same framework: location and neighbouring territories; relief and geology; climate and water; landscapes and biodiversity; population and settlement; economy; transport; cultural heritage; protected areas; natural hazards; and opportunities for sustainable development. This framework supports comparison without reducing regional differences to a single indicator.
+
 ### Единый паспорт области
 
 Каждая область рассматривается по одинаковой схеме: положение и соседство; рельеф и геология; климат и воды; ландшафты и биоразнообразие; население и расселение; хозяйство; транспорт; культурное наследие; охраняемые территории; риски и возможности устойчивого развития. Такой подход позволяет сравнивать регионы, не сводя их различия к одному показателю.
@@ -47,6 +70,23 @@
 
 **Интерпретация.** По площади крупнейшая область — Нарынская, но она имеет наименьшую плотность населения. По численности населения крупнейшая — Ошская, за ней следует Джалал-Абадская. Высокие средние значения плотности в Ошской и Чуйской областях связаны с концентрацией населения в долинных и предгорных зонах; они не означают равномерного заселения горных территорий.
 
+
+### English comparison: population, area and calculated density
+
+| Region | Area, thousand km² | Population on 1 Jan 2026, thousand | Calculated density, persons/km² | Administrative centre |
+|---|---:|---:|---:|---|
+| Batken | 17.0 | 605.3 | 35.6 | Batken |
+| Jalal-Abad | 33.7 | 1,379.9 | 40.9 | Manas (formerly Jalal-Abad) |
+| Issyk-Kul | 43.1 | 554.3 | 12.9 | Karakol |
+| Naryn | 45.2 | 316.2 | 7.0 | Naryn |
+| Osh | 29.0 | 1,438.5 | 49.6 | Osh* |
+| Talas | 11.4 | 282.9 | 24.8 | Talas |
+| Chuy | 20.2 | 983.7 | 48.7 | Bishkek* |
+
+* Bishkek and Osh are cities of republican significance and are not part of Chuy and Osh regions respectively. They perform the functions of regional administrative centres, but their populations are excluded from the regional totals. Density is calculated by dividing regional population by the published area. It is a rounded comparative indicator, not a measure of the density of inhabited or habitable land.
+
+**Interpretation.** Naryn is the largest region by area but has the lowest population density. Osh is the most populous region, followed by Jalal-Abad. The higher average densities in Osh and Chuy reflect population concentration in valleys and foothills; they do not imply uniform settlement across mountainous terrain.
+
 ### Функциональные профили
 
 | Область | Преобладающие пространственные особенности | Важные направления хозяйства |
@@ -58,6 +98,19 @@
 | Ошская | Ферганская долина, Алайская и Чон-Алайская долины, высокогорные хребты | Земледелие, животноводство, торговля, переработка, туризм |
 | Таласская | Компактная межгорная долина, окружённая хребтами | Фасоль и другие полевые культуры, животноводство, переработка, торговля |
 | Чуйская | Чуйская долина и северные склоны Кыргызского Ала-Тоо | Интенсивное земледелие, пищевая промышленность, производство, логистика и услуги |
+
+
+### English functional profiles
+
+| Region | Main spatial characteristics | Important economic activities |
+|---|---|---|
+| Batken | Fergana foothills, intermontane valleys and complex border geography | Horticulture, vegetables, livestock, extractive industries and trade |
+| Jalal-Abad | Western Tien Shan, Naryn Valley, Fergana foothills and walnut-fruit forests | Hydropower, agriculture, forest resources, industry and tourism |
+| Issyk-Kul | Lake basin between the Kungey Ala-Too and Terskey Ala-Too ranges | Tourism, livestock, crop farming, mining and logistics |
+| Naryn | High plateaus, intermontane valleys and pastures of the Inner Tien Shan | Livestock, hydropower, transport and logistics, mountain tourism |
+| Osh | Fergana Valley, Alay and Chon-Alay valleys, and high mountain ranges | Crop farming, livestock, trade, processing and tourism |
+| Talas | Compact intermontane valley surrounded by mountain ranges | Beans and other field crops, livestock, processing and trade |
+| Chuy | Chuy Valley and northern slopes of the Kyrgyz Ala-Too | Intensive agriculture, food processing, manufacturing, logistics and services |
 
 ## 24.3. Чуйская область / Chuy Region
 
