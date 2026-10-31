@@ -35,6 +35,17 @@
 
 Границы этих комплексов динамичны и локальны. Одна и та же высота может соответствовать лесу на влажном склоне и степи на сухом. Поэтому карта природных зон должна показывать региональные различия, а не проводить универсальные высотные линии через всю страну.
 
+
+### English explanation
+
+Kyrgyzstan lies in the central Tien Shan and along the northern margin of the Pamir-Alay. Its mountainous relief creates a fine-grained mosaic of ecosystems: dry foothills and intermontane basins occur alongside forested gorges, mountain steppes, alpine meadows, rocky terrain and glacial environments.
+
+**Altitudinal zonation** is especially important. The distribution of ecosystems depends not only on elevation, but also on slope aspect and steepness, precipitation and its seasonality, temperature, wind, snow-cover duration, geology, soils and land use. Grazing, cultivation, forestry and infrastructure can modify natural patterns.
+
+The main landscape groups include dry foothills and basins; foothill and middle-mountain steppes; mountain forests, including spruce, juniper, walnut-fruit and riparian communities; subalpine and alpine meadows; high-mountain steppes and cold deserts; rocky and nival environments; and wetlands, lake shores, river deltas and floodplains.
+
+These boundaries are local and dynamic. At the same elevation, a moist slope may support forest while a dry slope supports steppe. A national vegetation map should therefore represent regional variation rather than impose one universal set of elevation bands across the country.
+
 ## 22.2. Что такое особо охраняемая природная территория
 ## What Is a Protected Area?
 
@@ -59,6 +70,25 @@
 - **Биосферный резерват UNESCO MAB:** территория в международной программе «Человек и биосфера», организованная по функциональным зонам для сочетания охраны, устойчивого развития и исследований. Статус MAB сам по себе не заменяет национальный правовой режим ООПТ.
 - **Водно-болотное угодье Ramsar:** территория международного значения для сохранения водно-болотных экосистем. Рамсарский статус не равен категории национального заповедника.
 
+
+### English explanation
+
+A **specially protected natural area (protected area, PA)** is a land or water area assigned a specific conservation and use regime to protect ecosystems, biodiversity, geological features, water systems or natural heritage.
+
+Protected areas can conserve habitats and species, maintain ecological processes, protect watersheds and soils, support research and long-term monitoring, provide environmental education and—where the applicable rules allow it—host regulated recreation and sustainable nature-based activities.
+
+A state nature reserve, a state nature park and a UNESCO biosphere reserve are not interchangeable terms. They differ in purpose, legal basis, zoning and permitted activities. The rules for each site are determined by Kyrgyz legislation and the site's approved regulations.
+
+The main types described in this chapter are:
+
+- **State nature reserve:** generally the strictest national conservation category, prioritising natural processes and scientific research.
+- **State nature park:** combines conservation with regulated recreation, ecotourism and environmental education.
+- **State nature sanctuary (zakaznik):** protects specified species, habitats or natural components; restrictions may be seasonal or targeted.
+- **Natural monument:** protects an individual outstanding geological, hydrological, botanical or other natural feature.
+- **UNESCO Man and the Biosphere (MAB) biosphere reserve:** an internationally recognised area organised around core, buffer and transition functions. MAB designation does not replace national law or automatically impose one uniform prohibition regime.
+- **Ramsar Site:** a wetland recognised as internationally important. Ramsar status is not itself the same as a national nature-reserve category.
+
+
 ## 22.3. Система ООПТ Кыргызстана: масштабы и статистика
 ## Kyrgyzstan’s Protected-Area System: Coverage and Statistics
 
@@ -72,9 +102,29 @@
 - площадь биосферных резерватов и объектов международного признания;
 - долю территории страны, фактически покрытую режимом охраны.
 
-Национальный статистический комитет публикует показатель **23 государственных заповедника и природных парка** в 2021–2025 годах. Отдельная статистическая серия указывает суммарную площадь государственных заповедников и природных парков около **1,305 млн га** в 2025 году. Эти показатели относятся именно к указанной статистической категории, а не ко всем возможным формам ООПТ.
+Национальный статистический комитет публикует показатель **23 государственных заповедника и природных парка** в 2021–2025 годах. Отдельная статистическая серия указывает суммарную площадь государственных заповедников и природных парков **1 305,5 тыс. га (1,3055 млн га)** в 2025 году. Эти показатели относятся именно к указанной статистической категории, а не ко всем возможным формам ООПТ.
 
 В публикации ПРООН 2025 года сообщалось, что доля особо охраняемых природных территорий выросла с 3,8% в 2010 году до 7,4% в 2025 году. В других официальных и международных источниках встречаются отличающиеся значения из-за разных дат, категорий и методик подсчёта. Поэтому в атласе процент охраняемой территории всегда должен сопровождаться годом, определением категории и ссылкой на источник.
+
+
+### English explanation
+
+Kyrgyzstan's protected-area network includes state nature reserves, state nature parks, sanctuaries, natural monuments and sites recognised through international conservation programmes.
+
+Statistics must be read by category. The number of state reserves and parks is not the same as the number of all protected areas. Likewise, the area of legally designated reserves and parks must not be confused with forest-fund land, UNESCO biosphere-reserve boundaries or Ramsar sites. International designations can overlap with national protected areas, so their areas must not simply be added together.
+
+The National Statistical Committee's open-data series records **23 state nature reserves and state nature parks** in each year from 2021 to 2025. Its separate area series reports **1,305.5 thousand hectares (1.3055 million ha) in 2025** for the combined category “state nature reserves and natural parks”. This is a category-specific indicator, not the total area of every form of protected area in the country. The two series should be cited with their year and exact category.
+
+A UNDP publication in 2025 reported that the share of specially protected natural areas increased from 3.8% in 2010 to 7.4% in 2025. This percentage uses a broader or otherwise different accounting basis from the NSC area series for reserves and parks alone. It should not be calculated by dividing 1.3055 million ha by the country's total area, nor combined with other international figures without checking definitions, dates and overlaps.
+
+| Indicator | What it measures | What it does not establish by itself |
+|---|---|---|
+| Number of reserves and parks | Count of sites in specified national categories | Whether all ecosystems are adequately protected |
+| Protected-area extent | Spatial area under the stated designation | Management quality or enforcement |
+| Share of national territory | Ratio of a defined PA area to the national area | Ecological connectivity or conservation outcomes |
+| Number of protected species | Species included in a specified list | Population size or population trend |
+| Budget and staffing | Resources available for management | Conservation results without ecological indicators |
+
 
 ### Как читать статистику ООПТ
 
