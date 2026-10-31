@@ -457,6 +457,20 @@ The country's geographic position encouraged cultural exchange, trade, migration
 
 Административные границы предназначены для управления и статистического учёта. Они не всегда совпадают с границами природных бассейнов, ландшафтов, этнокультурных районов или рынков труда. Для географического анализа важно выбирать территориальные единицы в соответствии с исследовательским вопросом.
 
+
+The current administrative structure includes **seven regions**:
+1. Batken Region;
+2. Jalal-Abad Region;
+3. Issyk-Kul Region;
+4. Naryn Region;
+5. Osh Region;
+6. Talas Region; and
+7. Chuy Region.
+
+The cities of Bishkek and Osh have the special status of cities of republican significance and are not part of the regions in the same way as ordinary regional centres. The administrative structure and the number of districts, cities and rural municipalities may change as a result of reforms. Detailed lists of administrative units must therefore be dated and checked against the current legislation and official statistics.
+
+Administrative boundaries are designed for governance and statistical reporting. They do not necessarily coincide with the boundaries of natural catchments, landscapes, ethnocultural areas or labour markets. Geographic analysis should select territorial units that match the research question.
+
 ### 17.12.1. Государственная граница как географическая система: делимитация, демаркация и приграничные связи / The State Border as a Geographic System: Delimitation, Demarcation and Cross-Border Connections
 
 Государственная граница — это юридически установленная линия, отделяющая территорию одного государства от территории другого. В географии важно рассматривать её не только как линию на карте, но и как систему пространственных отношений: по разные стороны границы могут находиться связанные долины, пастбища, дороги, рынки, водные объекты и родственные сообщества. При этом государственная граница сохраняет юридическое значение и регулирует пересечение территории, перемещение людей и товаров и использование отдельных ресурсов.
@@ -578,6 +592,18 @@ Do not independently determine or “correct” an international border using a 
 
 Это общие географические характеристики, а не исчерпывающие описания областей. Подробный анализ каждой области, районов, городов и местных природных комплексов будет представлен в отдельной региональной главе.
 
+
+Regional differences in Kyrgyzstan result from the combined influence of geographic location, elevation, relief, climate, water resources, soils, transport accessibility and historically established settlement patterns.
+
+Examples of spatial contrasts include:
+- northern valleys, which have closer connections with Kazakhstan and major transport corridors;
+- the Issyk-Kul Basin, distinguished by the climatic influence of the lake and by tourism and recreation resources;
+- the high mountain areas of Naryn, where pastoral livestock husbandry is important and winters are severe;
+- south-western districts, which are connected with the Fergana Valley and a complex mosaic of borders, valleys and foothills; and
+- high mountain areas in the east, which are important for glaciers, river headwaters and transboundary water systems.
+
+These are broad geographic characteristics, not complete descriptions of the regions. A detailed analysis of each region, its districts and cities, and its local natural complexes is provided in the dedicated regional chapter.
+
 ### 17.13.1. Практический пример: географическая близость и реальная доступность / Worked Example: Geographic Proximity and Actual Accessibility
 
 Представим два условных населённых пункта в горной местности. По прямой между ними 25 км. Однако горный хребет разделяет их, а автомобильная дорога проходит через перевал и долину; длина маршрута составляет 70 км. При средней фактической скорости движения 35 км/ч расчётное время пути без остановок равно:
@@ -617,6 +643,19 @@ Accessibility in mountain regions varies by season. Snow, avalanche danger, land
 - фиксировать исторические варианты в пояснительном тексте, если они важны.
 
 Особое внимание следует уделять названиям хребтов, перевалов, ледников, рек, озёр и населённых пунктов. Ошибки транслитерации могут приводить к появлению на карте несуществующих объектов или дублированию одного и того же названия.
+
+
+Kyrgyzstan uses geographical names in Kyrgyz, Russian-language forms and international Latin transliterations. The same feature may have historical, colloquial and official forms of its name.
+
+For an atlas:
+- select the official form of each name using national sources;
+- provide the Kyrgyz name in its original orthography;
+- use one consistent Latin transliteration system;
+- do not mix spelling variants on the same map;
+- distinguish the name of a natural feature from that of an administrative unit; and
+- record historical variants in explanatory text when they are relevant.
+
+Particular care is needed with the names of mountain ranges, passes, glaciers, rivers, lakes and settlements. Transliteration errors can create non-existent features on a map or cause the same feature to be labelled more than once.
 
 ## 17.14а. Разобранный пример: абсолютная и относительная высота / Worked Example: Absolute and Relative Elevation
 
