@@ -242,3 +242,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Expanded section 17.3 in English to match the Russian account of elevation structure, mountain distribution, the country's highest summits and the factors controlled by elevation.
 - Preserved the distinction between Khan Tengri's rocky summit (about 6,995 m) and values that include the ice cap (about 7,010 m); the text requires the measurement convention to be stated.
 - The English text in 17.3 was reordered to follow the same conceptual sequence as the Russian explanation.
+
+
+## Follow-up bilingual development — Chapter 17, mountain systems and geological history (1 November 2026)
+
+- Added English explanatory counterparts to section 17.4 on the Tien Shan and Pamir–Alay, including the Northern, Central and Southern Tien Shan and the warning that regional classification boundaries vary by discipline and scheme.
+- Added an English counterpart to section 17.5 on intermontane basins, valleys and plateaus, retaining the distinction between geographic regions and administrative units.
+- Added a complete English counterpart to section 17.6 on Precambrian basement, Palaeozoic ocean basins and accretion, Mesozoic sedimentation and Cenozoic renewed mountain building.
+- The translations preserve the scientific distinction between the age of a rock and the age of its later deformation, and avoid presenting the Tien Shan as a geologically uniform block.
