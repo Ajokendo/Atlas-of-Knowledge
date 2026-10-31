@@ -444,7 +444,19 @@ For Kyrgyzstan, it is particularly important not to confuse permanent rural-to-u
 
 Бишкек и Ош в таблице показаны отдельно от областей, поскольку являются городами республиканского значения. Национальное значение равно сумме региональных значений, приведённых в таблице.
 
-В отдельной таблице НСК за 2025 год указано 17 965 иммигрантов и 2 539 эмигрантов; разность этих величин составляет 15 426 человек. Это помогает понять арифметику баланса, но не означает, что зарегистрированная международная миграция охватывает все формы трудовой мобильности, временного отсутствия или повторных поездок. Для любого вывода следует сохранять определение показателя и методологию НСК.
+В таблице НСК за 2025 год внешняя миграция показана отдельно от внутриреспубликанской. В страну на постоянное место жительства прибыло 17 965 человек, выбыло 2 539; внешний миграционный прирост составил 15 426 человек. Одновременно внутри страны было зарегистрировано 72 574 прибытия и столько же выбытий: 54 853 межобластных и 17 721 внутриобластное перемещение в каждом направлении.
+
+| Показатель миграции в 2025 году | Прибыло | Выбыло | Баланс |
+|---|---:|---:|---:|
+| Вся зарегистрированная миграция | 90 539 | 75 113 | +15 426 |
+| Внешняя миграция | 17 965 | 2 539 | +15 426 |
+| Внутриреспубликанская миграция | 72 574 | 72 574 | 0 |
+| Межобластная миграция (часть внутренней) | 54 853 | 54 853 | 0 |
+| Внутриобластная миграция (часть внутренней) | 17 721 | 17 721 | 0 |
+
+Таким образом, на национальном уровне итоговое сальдо всей зарегистрированной миграции совпало с внешним миграционным сальдо, поскольку внутренние перемещения внутри страны в сумме дают равное число прибытий и выбытий. Это **не означает**, что внутренняя миграция отсутствует или несущественна: она влияет на распределение населения между областями, районами и городами. Региональная таблица выше показывает именно внешнее миграционное сальдо, а не полное сальдо внутренней и внешней миграции по каждому региону.
+
+Данные относятся к зарегистрированным перемещениям на постоянное место жительства и не охватывают автоматически все формы трудовой мобильности, временного отсутствия или повторных поездок. Для любого вывода следует сохранять определение показателя и методологию НСК.
 
 **Как интерпретировать данные.** Положительный миграционный баланс в официальном ряду не доказывает, что трудовая эмиграция перестала иметь большое значение. В стране могут одновременно находиться многочисленные граждане, работающие за рубежом, возвращаться ранее выехавшие жители и прибывать иностранные граждане. Баланс — разность потоков за период; он не показывает полный запас мигрантов за границей и не раскрывает индивидуальные причины переезда.
 
@@ -492,7 +504,19 @@ According to the NSC series, the country's migration balance was −769 people i
 
 Bishkek and Osh City are shown separately because they have republican-level status and are not included in the oblast totals. The national figure equals the sum of the regional values shown in the table.
 
-A separate NSC table for 2025 reports 17,965 immigrants and 2,539 emigrants; their difference is 15,426 people. This illustrates how the balance is calculated, but it does not mean that registered international migration captures every form of labour mobility, temporary absence or repeated travel. The indicator's definition and the NSC methodology must always be retained.
+The NSC's 2025 table separates external migration from internal migration. There were 17,965 arrivals into the country for permanent residence and 2,539 departures abroad, producing a net international migration gain of 15,426. At the same time, 72,574 arrivals and an equal number of departures were registered within the country: 54,853 inter-oblast moves and 17,721 moves within oblasts in each direction.
+
+| Migration indicator in 2025 | Arrivals | Departures | Net balance |
+|---|---:|---:|---:|
+| All registered migration | 90,539 | 75,113 | +15,426 |
+| International migration | 17,965 | 2,539 | +15,426 |
+| Internal migration | 72,574 | 72,574 | 0 |
+| Inter-oblast migration (part of internal) | 54,853 | 54,853 | 0 |
+| Intra-oblast migration (part of internal) | 17,721 | 17,721 | 0 |
+
+At the national level, the net balance of all registered migration therefore equals the international migration balance because internal moves produce equal numbers of arrivals and departures within the country. This **does not mean** that internal migration is absent or insignificant: it changes the distribution of population among regions, districts and cities. The regional table above reports the international migration balance only, not the combined internal and international balance for each region.
+
+These figures refer to registered moves for permanent residence and do not automatically capture all forms of labour mobility, temporary absence or repeated travel. The indicator's definition and the NSC methodology must always be retained.
 
 **How to interpret the data.** A positive migration balance in the official series does not prove that labour emigration has ceased to be important. Many citizens may continue to work abroad while previous migrants return and foreign citizens arrive. A balance is the difference between flows during a period; it does not show the total stock of citizens living abroad or the individual reasons for moving.
 
@@ -1034,6 +1058,7 @@ The overall average therefore hides a strong contrast between a densely populate
 
 
 - Национальный статистический комитет Кыргызской Республики. **Миграционный прирост, отток по внешней миграции** (открытые данные, 2021–2025). https://stat.gov.kg/ru/opendata/category/41/
+- Национальный статистический комитет Кыргызской Республики. **Социально-экономическое положение Кыргызской Республики, январь 2026 года**, таблица 75 «Показатели миграции населения» (данные за 2024–2025 годы). https://stat.gov.kg/media/publicationarchive/0a378f38-836c-4859-892a-6bef0f14133b.pdf
 - National Statistical Committee of the Kyrgyz Republic. **Migration inflow, outflow** (open data, 2021–2025). https://stat.gov.kg/en/opendata/category/6277/
 - Национальный статистический комитет Кыргызской Республики. **Население: официальная статистика**. https://www.stat.gov.kg/ru/statistics/naselenie/
 - Закон Кыргызской Республики от 17 сентября 2025 года № 200 о переименовании города Джалал-Абад в Манас. https://cbd.minjust.gov.kg/4-5636/edition/36959/ru
