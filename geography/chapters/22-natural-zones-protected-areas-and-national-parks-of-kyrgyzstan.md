@@ -488,6 +488,24 @@ The combined area, without double counting, is therefore **170 km²**, or **17%*
 9. **Площадь и эффективность.** Большая площадь ООПТ не гарантирует хорошего состояния экосистем. Нужны данные о популяциях, угрозах, управлении и результатах.
 10. **Карты.** Юридические границы должны быть получены из официальных пространственных данных. Для схем без точной геометрии обязательно указывать «схематично».
 
+### 22.17.1. Как оценивать эффективность охраняемой территории / Evaluating the Effectiveness of a Protected Area
+
+Сам факт учреждения национального парка или заповедника не гарантирует сохранения биоразнообразия. Эффективность зависит от ясности целей, соблюдения режима охраны, финансирования, кадров, мониторинга, взаимодействия с местными сообществами и реального состояния местообитаний.
+
+**Оценка включает несколько уровней:** правовой статус и ясность границ; достаточность персонала и ресурсов; угрозы и давление на территорию; состояние ключевых местообитаний и видов; соблюдение правил; участие местных жителей и распределение выгод и ограничений. Площадь охраняемой территории — важный, но недостаточный показатель.
+
+**Сравнение во времени.** Нужны исходные данные и повторные измерения по сопоставимой методике. Увеличение числа зарегистрированных нарушений может означать как рост давления, так и улучшение патрулирования. Увеличение числа наблюдений редкого вида может отражать восстановление популяции, но также и рост усилий наблюдения.
+
+**Учебное задание.** Выберите условную охраняемую территорию и предложите пять показателей её эффективности: по управлению, состоянию экосистем, угрозам и взаимодействию с населением. Для каждого укажите источник данных, периодичность измерения и возможное альтернативное объяснение наблюдаемого изменения.
+
+Establishing a national park or nature reserve does not by itself guarantee biodiversity conservation. Effectiveness depends on clear objectives, enforcement, funding, staffing, monitoring, relationships with local communities and the actual condition of habitats.
+
+**Assessment has several levels:** legal status and clarity of boundaries; adequacy of staff and resources; threats and pressures; condition of key habitats and species; compliance with rules; local participation; and distribution of benefits and restrictions. Protected-area size is important but insufficient as a measure.
+
+**Comparing over time.** Baseline data and repeated measurements using comparable methods are needed. An increase in recorded violations may indicate rising pressure or improved patrol coverage. More observations of a rare species may reflect population recovery or greater survey effort. These alternatives must be distinguished.
+
+**Activity.** Select a hypothetical protected area and propose five indicators of effectiveness covering management, ecosystem condition, threats and community relations. For each, state the data source, measurement frequency and a possible alternative explanation for an observed change.
+
 ## 22.18. Основные источники и литература
 ## Selected References and Further Reading
 
