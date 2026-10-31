@@ -444,6 +444,42 @@ These values describe the annual cycles of temperature and precipitation, but th
 
 **Место для иллюстрации 5.17-A — Climate Diagram Exercise.** Две климатограммы контрастных климатов, единая методика построения, подписи осей и период наблюдений.
 
+### 5.16.2. Как сравнивать климатические аномалии / Comparing Climate Anomalies
+
+
+Абсолютные значения температуры и осадков не всегда подходят для сравнения разных мест. Температура +5 °C может быть обычной для одного месяца и необычно высокой для другого района или сезона. Поэтому климатологи используют **аномалию** — отклонение наблюдаемого значения от выбранной климатической нормы.
+
+Для температуры простая аномалия рассчитывается так:
+
+`Аномалия = наблюдаемая температура − климатическая норма`
+
+Если средняя температура месяца составила +8 °C, а норма для того же месяца и станции равна +5 °C, аномалия составляет +3 °C. Это не означает, что весь месяц был на 3 °C теплее в каждый день: речь идёт о разнице месячных средних.
+
+**Сопоставимость обязательна.** Норма должна относиться к той же станции или корректно сопоставимой территории, тому же календарному периоду и явно указанному базовому интервалу. При изменении расположения станции, прибора или окружающей застройки ряд может содержать неоднородности; для долгосрочного анализа применяют контроль качества и процедуры гомогенизации.
+
+Для осадков часто полезны не только абсолютные миллиметры, но и процент от нормы. Однако относительное отклонение становится неустойчивым там, где обычное количество осадков очень мало. В таких случаях лучше приводить абсолютную разницу и пояснять сезонный контекст.
+
+**Почему это важно для гор Кыргызстана.** Нельзя напрямую сравнивать аномалию в высокогорной станции с абсолютной температурой в долине и делать вывод о пространственной картине потепления. Нужны сопоставимые периоды, высотный контекст, качество наблюдений и достаточная сеть станций. Межгодовая изменчивость также не равна долгосрочному тренду.
+
+**Учебное задание.** Для трёх станций рассчитайте температурные аномалии одного и того же месяца относительно одной и той же базовой нормы. Сравните знаки и величины отклонений. Затем объясните, почему один месяц не доказывает климатический тренд и какие данные нужны для оценки многолетнего изменения.
+
+Absolute temperature and precipitation values are not always suitable for comparing different places. A temperature of +5 °C may be normal in one month but unusually high in another region or season. Climatologists therefore use an **anomaly**: the difference between an observed value and a selected climate normal.
+
+For temperature, a simple anomaly is:
+
+`Anomaly = observed temperature − climate normal`
+
+If a month's mean temperature is +8 °C and the normal for the same month and station is +5 °C, the anomaly is +3 °C. This does not mean every day was 3 °C warmer; it is the difference between monthly means.
+
+**Comparability is essential.** The normal should refer to the same station, or a properly comparable area, the same calendar period and a clearly stated baseline interval. Changes in station location, instruments or surrounding development can introduce inhomogeneities; long-term analysis therefore uses quality control and homogenisation procedures.
+
+For precipitation, both absolute millimetres and the percentage of normal can be useful. However, relative departures become unstable where the normal precipitation amount is very small. In such cases, report the absolute difference and explain the seasonal context.
+
+**Why this matters in the mountains of Kyrgyzstan.** An anomaly at a high-elevation station cannot be directly compared with an absolute temperature in a valley to infer the spatial pattern of warming. Comparable periods, elevation context, observation quality and a sufficiently dense station network are needed. Year-to-year variability is not the same as a long-term trend.
+
+**Learning activity.** Calculate temperature anomalies for three stations for the same month using the same baseline normal. Compare the signs and sizes of the departures. Then explain why one month cannot establish a climate trend and identify the data needed to assess long-term change.
+
+
 ## Итоги главы / Chapter Summary
 
 1. Атмосфера состоит преимущественно из азота и кислорода; водяной пар и малые газы имеют важное климатическое значение.
