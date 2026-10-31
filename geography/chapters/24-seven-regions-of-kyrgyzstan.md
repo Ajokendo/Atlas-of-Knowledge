@@ -505,6 +505,21 @@ The risk assessment must consider not only the probability of a hazardous event 
 
 Необходимо оценивать не только объём инвестиций, но и их пространственное распределение, создание устойчивых рабочих мест, доступность базовых услуг, воздействие на экосистемы и устойчивость инфраструктуры к климатическим и геологическим рискам.
 
+
+The assessment should consider not only the volume of investment but also its spatial distribution, the creation of durable jobs, access to essential services, impacts on ecosystems and the resilience of infrastructure to climatic and geological hazards.
+
+The State Programme for Comprehensive Socio-Economic Development of Regions for 2025–2030 provides a framework for regional policy. Its priorities include industrialisation, agriculture, tourism, digitalisation, infrastructure, environmental protection and spatial planning. Regional policy should translate national objectives into place-based projects with measurable outcomes.
+
+A practical planning system includes:
+1. analysing natural constraints and resources;
+2. mapping population, employment and social infrastructure;
+3. assessing transport accessibility;
+4. analysing water and energy balances;
+5. identifying natural-hazard zones and areas requiring nature protection;
+6. consulting residents and local businesses;
+7. comparing alternative development scenarios; and
+8. monitoring indicators and publishing results openly.
+
 ## 24.13. Карты и визуальные материалы / Maps and Visual Briefs
 
 Все карты должны иметь масштаб, легенду, дату данных, систему координат, источник границ и пояснение к спорным или изменявшимся административным единицам. Географические подписи проверяются по официальным топонимическим и картографическим источникам. Генеративная графика не должна самостоятельно создавать государственные границы, названия или статистические числа.
