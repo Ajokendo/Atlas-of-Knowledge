@@ -601,6 +601,14 @@ try {
       const fields = page.locator('#equation input[type="number"]');
       if (await fields.count() < 2) errors.push(file + ": coefficient inputs were not rendered");
       else {
+        if (await fields.first().getAttribute("aria-label") !== "Коэффициент 1" || await page.locator("#progress").getAttribute("role") !== "progressbar" || await page.locator("#progress").getAttribute("aria-valuenow") !== "0") {
+          errors.push(file + ": Russian coefficient labels or progressbar semantics are missing");
+        }
+        await page.locator("#lang").click();
+        if (await page.locator('#equation input[type="number"]').first().getAttribute("aria-label") !== "Coefficient 1" || await page.locator("#progress").getAttribute("aria-label") !== "Tasks completed") {
+          errors.push(file + ": English coefficient labels or progressbar label are missing");
+        }
+        await page.locator("#lang").click();
         await fields.first().fill("1");
         await page.locator("#check").click();
         if (!(await page.locator("#feedback").innerText()).trim()) errors.push(file + ": answer feedback was not shown");
@@ -617,6 +625,9 @@ try {
             await currentFields.nth(j).fill(String(solutions[i][j]));
           }
           await page.locator("#check").click();
+          if (await page.locator("#progress").getAttribute("aria-valuenow") !== String(i+1)) {
+            errors.push(file + ": progressbar did not advance after task " + (i + 1));
+          }
           if (!(await page.locator("#feedback").innerText()).includes("Верно")) {
             errors.push(file + ": correct solution was rejected in task " + (i + 1));
             break;
