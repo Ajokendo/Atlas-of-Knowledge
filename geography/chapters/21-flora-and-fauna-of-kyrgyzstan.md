@@ -599,6 +599,24 @@ That is approximately 78.4%. This is a teaching model, not a universal value for
 11. **Охрана чувствительных видов.** Точные координаты гнёзд, логовищ и малочисленных популяций не публиковать, если это может облегчить незаконное преследование.
 12. **Таксономия.** Латинские названия сверять с актуальными ботаническими и зоологическими базами непосредственно перед выпуском печатной версии.
 
+### 21.18.1. Как оценивать воздействие инвазивных видов / Assessing the Impact of Invasive Species
+
+Чужеродный вид не обязательно является инвазивным. Инвазивным называют чужеродный вид, который закрепился и распространяется за пределами естественного ареала и вызывает или способен вызывать экологический, экономический либо социальный ущерб. Сам факт появления нового вида ещё не доказывает вреда.
+
+**Что необходимо установить:** происхождение вида и путь заноса; подтверждённое размножение и распространение; воздействие на местные виды, местообитания и экосистемные функции; экономические последствия; возможные риски для здоровья. Наблюдения следует подтверждать надёжной идентификацией, поскольку похожие местные виды могут быть ошибочно отмечены как чужеродные.
+
+**Мониторинг и реакция.** На ранней стадии важны оперативное сообщение, проверка находки и оценка возможности локального контроля. При широком распространении меры могут быть дорогими и малоэффективными. Способ управления выбирают с учётом экологии вида, риска для нецелевых организмов и последующего мониторинга.
+
+**Учебное задание.** Разберите условный случай появления нового растения вдоль оросительного канала. Составьте план подтверждения вида, картирования распространения и оценки воздействия. Отделите установленные факты от гипотез и предложите, какие данные следует собрать до начала мер контроля.
+
+A non-native species is not necessarily invasive. An invasive alien species is a non-native species that becomes established and spreads beyond its natural range and causes, or is likely to cause, ecological, economic or social harm. The arrival of a new species alone does not prove that it is harmful.
+
+**What must be established:** the species' origin and introduction pathway; confirmed reproduction and spread; impacts on native species, habitats and ecosystem functions; economic consequences; and possible health risks. Observations require reliable identification because similar native species may be misreported as alien.
+
+**Monitoring and response.** At an early stage, rapid reporting, confirmation and assessment of local control options are important. Once a species is widespread, control may become expensive and less effective. Management methods should account for the species' ecology, risks to non-target organisms and follow-up monitoring.
+
+**Activity.** Examine a hypothetical case of a newly observed plant spreading along an irrigation canal. Design a plan to confirm its identity, map its spread and assess its impacts. Separate established facts from hypotheses and identify the data needed before control measures begin.
+
 ## 21.19. Основные источники и литература
 ## Selected References and Further Reading
 
