@@ -346,3 +346,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Corrected a geographic error: Kok-Jerty is the river flowing out of Son-Kul, not a tributary flowing into the lake. The four osman/loach/minnow taxa recorded in September 2023 are now explicitly assigned to this outlet river, separate from the lake fish discussed in the paper.
 - Added the Kyrgyz Ministry's 15 July 2026 notice. It gives the Naryn State Nature Reserve area as 112,363.5 ha and repeats the inventory of 26 mammal, 104 bird, 3 fish, 4 reptile and 1 amphibian species. The older 105,519 ha figure is retained only as the area reported in the 25 August 2025 notice; the newer official figure is identified as the latest available.
 - Added the official Ministry source and recorded these source-scope corrections. Editorial readiness remains **72/100**: this is a precision correction to the preceding Naryn evidence update, not an additional breadth point. Independent bilingual editing and live browser/device/accessibility QA remain outstanding.
+
+
+## National Red Data Book scope clarification — 1 November 2026
+- Added a dated bilingual note based on the Ministry's 2 September 2026 notice: revision of the Red Data Book was still under way, while the then-current list was described as covering 23 mammals, 57 birds, 7 fish, 10 amphibians and reptiles combined, and 18 arthropods.
+- Clarified that the combined figure of 10 does not mean ten species in each of the two groups, and that national Red Data Book totals are not directly comparable with an inventory for an individual protected area.
+- Added the primary government source. The counts are explicitly dated and are not presented as the result of the unfinished revision.
+- Editorial readiness: **73/100**. One point added for a traceable improvement in conservation-status interpretation and numerical comparability. This remains a staged editorial-readiness score, not a completion percentage or external certification. Independent bilingual copy-editing and live browser, mobile, keyboard and screen-reader QA remain outstanding.
