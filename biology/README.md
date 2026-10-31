@@ -412,3 +412,11 @@ The score should increase only when evidence for the relevant checklist items is
 - Consolidated five duplicated bibliography URLs into single bilingual entries with combined annotations. The bibliography now contains 91 entries with no repeated URLs.
 - Revalidated the fauna HTML after the additions: 320 Russian and 320 English language blocks; balanced counts for section (16), article (62), div (38), span (700), paragraph (112), list item (101), h2 (15), h3 (64), ordered list (1) and unordered list (2); no duplicate HTML IDs.
 - Editorial readiness: **98/100**. Three points since 95/100 reflect: a new regional mammal-taxonomy cross-check; explicit treatment of three fish-name/identification discrepancies without overstating certainty; and a deduplicated, bilingual bibliography with structural validation. This is a staged editorial-readiness score, not a completion percentage or external certification. Independent specialist review of the fish identifications, bilingual copy-editing, and live browser, mobile, keyboard and screen-reader QA remain outstanding.
+
+## Bird nomenclature reference framework — 1 November 2026
+- Added a bilingual editorial note establishing AviList (first version, 2025) as the international reference framework for comparing bird names in the regional fauna chapter.
+- Explicitly separated nomenclatural reference from evidence of occurrence in Kyrgyzstan and from conservation-status assessments by IUCN or BirdLife International.
+- Preserved the existing source-attributed approach for mammals, fishes, amphibians and reptiles; disputed names remain qualified rather than silently normalised.
+- Added AviList to the bilingual bibliography and checked that the source is described as a taxonomic checklist, not as a local field inventory.
+- Editorial readiness: **99/100**. One point since 98/100 reflects a documented improvement in the bird-taxonomy reference framework and clearer separation of taxonomy, occurrence evidence and conservation assessment. This is a staged editorial-readiness score, not a completion percentage or external certification. A full species-by-species comparison of every bird name against AviList, independent specialist review of disputed fish identifications, independent bilingual copy-editing, and live browser, mobile, keyboard and screen-reader QA remain outstanding.
+
