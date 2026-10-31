@@ -156,6 +156,18 @@ try {
         errors.push(file + ": English introduction should explain bonds between atoms or ions through system energy");
       }
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=molecularPolarityNote]").innerText()).includes("CO₂") ||
+          !(await page.locator("[data-i=molecularPolarityNote]").innerText()).includes("H₂O") ||
+          !(await page.locator("[data-i=molecularPolarityNote]").innerText()).includes("не задаёт универсальную")) {
+        errors.push(file + ": Russian explanation must distinguish bond and molecular polarity and avoid a rigid electronegativity cutoff");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=molecularPolarityNote]").innerText()).includes("linear CO₂") ||
+          !(await page.locator("[data-i=molecularPolarityNote]").innerText()).includes("bent H₂O") ||
+          !(await page.locator("[data-i=molecularPolarityNote]").innerText()).includes("universal sharp boundary")) {
+        errors.push(file + ": English explanation must distinguish bond and molecular polarity and avoid a rigid electronegativity cutoff");
+      }
+      await page.locator("#lang").click();
       const detail = page.locator(".detail");
       if (await detail.getAttribute("aria-live") !== "polite") {
         errors.push(file + ": dynamic bond explanation is not announced to assistive technology");
