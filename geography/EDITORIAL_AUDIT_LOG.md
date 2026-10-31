@@ -66,3 +66,16 @@
 5. Only after text and source audits, complete illustration production and web-navigation/accessibility checks.
 
 **Status:** Initial targeted audit recorded. No chapter text was rewritten in this audit. No other discipline, portal, catalogue, publication setting or main branch was changed.
+
+
+## Follow-up work — Chapter 23 (1 November 2026)
+
+- Added a bilingual subsection **23.8.2, Recent Migration Patterns: Official Statistics and Mobility Estimates** to `chapters/23-population-and-settlement-of-kyrgyzstan.md`.
+- Included the NSC migration balance series for 2021–2025 and the 2025 breakdown for seven oblasts plus Bishkek and Osh city; verified that the regional/city values sum to the national balance of 15,426.
+- Added the NSC 2025 immigrant and emigrant counts (17,965 and 2,539) and explained that net balance, annual flows and the stock of citizens abroad are different measures.
+- Added IOM DTM Baseline Mobility Assessment Round 7 (April 2026) estimates: 30,073 international migrant workers hosted in assessed communities, 70,340 internal migrants, 110,354 Kyrgyz nationals still abroad, and 85,197 return migrants. The text states the 1,151-community / 1,939-key-informant methodology and warns against summing these categories or treating them as census/register totals.
+- The new material is bilingual and inserted into the existing migration section; no duplicate chapter was created.
+- Sources: NSC open data https://stat.gov.kg/ru/opendata/category/6209/ and https://stat.gov.kg/ru/opendata/category/316/; IOM DTM https://dtm.iom.int/reports/kyrgyzstan-baseline-mobility-assessment-round-7-april-2026.
+- The revised Chapter 23 was fetched again from `workspace/geography`; the new subsection, both language versions, tables and bibliography entry were checked.
+
+**Chapter 23 update commit:** `a078b650d3eec23b0dc98c89ae98e29c33767eab`.
