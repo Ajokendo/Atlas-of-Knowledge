@@ -381,6 +381,24 @@ This is a hypothetical example, not a measurement of a specific Kyrgyz pass. Whe
 
 **Check your understanding:** if a summit has an absolute elevation of 4,100 m and the neighbouring valley is at 2,650 m, what is the summit's elevation above the valley?
 
+### 17.14.1. Как читать геологическую карту Кыргызстана / Reading a Geological Map of Kyrgyzstan
+
+Геологическая карта показывает распространение пород и структур на поверхности или под тонким покровом рыхлых отложений. Цвета обычно обозначают возраст или тип пород, линии — границы геологических тел, разломы и другие структуры. Значение символов проверяют по легенде конкретной карты.
+
+Следует различать возраст породы и возраст формы рельефа: древняя порода может входить в молодой горный хребет, поднятый тектоническими движениями. Разлом на карте не означает, что вся его длина одинаково активна сегодня. Геологическая карта общего масштаба не заменяет инженерно-геологическое обследование конкретной площадки.
+
+Для гор Кыргызстана геологическую карту сопоставляют с рельефом, сейсмичностью, речной сетью и полевыми наблюдениями. Это помогает выявлять сложное строение и условия, важные для склоновых процессов.
+
+**Задание.** По учебной геологической карте найдите три типа пород и один разлом. Объясните, какие сведения даёт карта и какие выводы требуют дополнительных данных.
+
+A geological map shows the distribution of rocks and structures at the surface or beneath a thin cover of loose deposits. Colours commonly represent rock age or type; lines show geological boundaries, faults and other structures. Check the legend of the specific map.
+
+Distinguish the age of a rock from the age of a landform: ancient rock may form part of a young mountain range uplifted by tectonic movements. A mapped fault does not mean that its entire length is equally active today. A regional geological map cannot replace an engineering-geological investigation of a specific site.
+
+In the mountains of Kyrgyzstan, geological maps are compared with relief, seismicity, river networks and field observations. This helps identify complex structures and conditions relevant to slope processes.
+
+**Activity.** Use a teaching geological map to identify three rock units and one fault. Explain what the map tells you and which conclusions require additional evidence.
+
 ## 17.15. Итоги главы / Chapter Summary
 
 1. Кыргызстан расположен в северо-восточной части Центральной Азии и не имеет выхода к Мировому океану.
