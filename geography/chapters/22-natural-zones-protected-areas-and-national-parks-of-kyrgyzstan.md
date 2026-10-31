@@ -79,6 +79,8 @@ Protected areas can conserve habitats and species, maintain ecological processes
 
 A state nature reserve, a state nature park and a UNESCO biosphere reserve are not interchangeable terms. They differ in purpose, legal basis, zoning and permitted activities. The rules for each site are determined by Kyrgyz legislation and the site's approved regulations.
 
+The Protected Areas Law also recognises additional categories, including state botanical gardens, dendrological and zoological parks, and biosphere territories or reserves. This chapter focuses on the principal landscape-scale categories and international designations; it does not imply that the list below exhausts every legal category.
+
 The main types described in this chapter are:
 
 - **State nature reserve:** generally the strictest national conservation category, prioritising natural processes and scientific research.
@@ -104,7 +106,7 @@ The main types described in this chapter are:
 
 Национальный статистический комитет публикует показатель **23 государственных заповедника и природных парка** в 2021–2025 годах. Отдельная статистическая серия указывает суммарную площадь государственных заповедников и природных парков **1 305,5 тыс. га (1,3055 млн га)** в 2025 году. Эти показатели относятся именно к указанной статистической категории, а не ко всем возможным формам ООПТ.
 
-В публикации ПРООН 2025 года сообщалось, что доля особо охраняемых природных территорий выросла с 3,8% в 2010 году до 7,4% в 2025 году. В других официальных и международных источниках встречаются отличающиеся значения из-за разных дат, категорий и методик подсчёта. Поэтому в атласе процент охраняемой территории всегда должен сопровождаться годом, определением категории и ссылкой на источник.
+В публикации ПРООН 2025 года сообщалось, что доля особо охраняемых природных территорий выросла с 3,8% в 2010 году до 7,4% в 2025 году. Ранее Министерство природных ресурсов в публикации от 9 апреля 2024 года приводило оценку 7,38% и отдельную разбивку по заповедникам, паркам и заказникам. Эти значения близки, но относятся к разным датам и публикациям; для точного сопоставления необходимы единые определения и реестр границ. В других официальных и международных источниках встречаются отличающиеся значения из-за разных дат, категорий и методик подсчёта. Поэтому в атласе процент охраняемой территории всегда должен сопровождаться годом, определением категории и ссылкой на источник.
 
 
 ### English explanation
@@ -114,6 +116,8 @@ Kyrgyzstan's protected-area network includes state nature reserves, state nature
 Statistics must be read by category. The number of state reserves and parks is not the same as the number of all protected areas. Likewise, the area of legally designated reserves and parks must not be confused with forest-fund land, UNESCO biosphere-reserve boundaries or Ramsar sites. International designations can overlap with national protected areas, so their areas must not simply be added together.
 
 The National Statistical Committee's open-data series records **23 state nature reserves and state nature parks** in each year from 2021 to 2025. Its separate area series reports **1,305.5 thousand hectares (1.3055 million ha) in 2025** for the combined category “state nature reserves and natural parks”. This is a category-specific indicator, not the total area of every form of protected area in the country. The two series should be cited with their year and exact category.
+
+A separate Ministry of Natural Resources release dated 9 April 2024 reported 10 state nature reserves (509,952.7 ha), 13 state nature parks (724,670.2 ha) and 64 state nature sanctuaries (241,398.7 ha), with a stated total protected-area share of 7.38%. The reserve-and-park area in that release (1,234,622.9 ha) does not equal the NSC's 2025 figure of 1,305,500 ha. The available summary pages do not explain the difference. These figures must therefore remain separately attributed and dated; do not silently merge them or present the discrepancy as resolved. The Ministry's current public overview page is a site list, not a complete cadastral register, and its displayed list should not be used to infer a definitive national count.
 
 A UNDP publication in 2025 reported that the share of specially protected natural areas increased from 3.8% in 2010 to 7.4% in 2025. This percentage uses a broader or otherwise different accounting basis from the NSC area series for reserves and parks alone. It should not be calculated by dividing 1.3055 million ha by the country's total area, nor combined with other international figures without checking definitions, dates and overlaps.
 
@@ -140,6 +144,12 @@ A UNDP publication in 2025 reported that the share of specially protected natura
 ## State Nature Reserves
 
 Заповедники предназначены прежде всего для строгой охраны природных комплексов. Они особенно важны для сохранения эталонных экосистем, научного наблюдения и защиты видов, чувствительных к беспокойству.
+
+
+### English overview
+
+State nature reserves are national protected-area institutions whose primary purpose is the strict conservation of natural complexes and ecological processes. They provide reference sites for scientific research and long-term monitoring, and protect habitats where disturbance can be especially damaging.
+
 
 ### Сары-Челекский государственный биосферный заповедник
 
@@ -171,10 +181,34 @@ A UNDP publication in 2025 reported that the share of specially protected natura
 
 В официальных перечнях Министерства природных ресурсов также указаны Кулун-Атинский и Сурматашский государственные природные заповедники. Их значение связано с сохранением горных экосистем южной части страны. При выпуске карты и справочника необходимо сверить актуальные официальные границы, площади и режимы каждой территории.
 
+
+### English site profiles
+
+**Sary-Chelek State Biosphere Nature Reserve.** Located in the Western Tien Shan in the Jalal-Abad region, on the southern slopes of the Chatkal Range. Its landscape includes Lake Sary-Chelek, mountain forests, meadows, steppes, cliffs and scree habitats. UNESCO's biosphere-reserve profile gives an approximate elevation range of 1,200–4,247 metres. The site joined the UNESCO World Network of Biosphere Reserves in 1978. The boundaries of the national nature reserve must be distinguished from those of the wider biosphere reserve.
+
+**Besh-Aral State Nature Reserve.** Located in the Western Tien Shan in the Jalal-Abad region. Its conservation importance is associated with mountain ecosystems, rare plants and animals, and the transboundary Western Tien-Shan natural complex. It contributes to the protection of habitats and landscape connectivity.
+
+**Padysha-Ata State Nature Reserve.** Located in the Jalal-Abad region and known for the protection of juniper woodlands and mountain ecosystems. Juniper communities help protect slopes and soils and provide habitats for wildlife.
+
+**Naryn State Nature Reserve.** Represents ecosystems of the Inner Tien Shan, including forest and high-mountain environments. It is important for mountain forests, watersheds and wildlife habitats.
+
+**Issyk-Kul State Nature Reserve.** Established to protect wetlands and bird habitats around Lake Issyk-Kul. Seasonal concentrations of waterbirds, coastal habitats and islands are especially important. The reserve's protected sites are not identical to the much larger Issyk-Kul Biosphere Reserve.
+
+**Karatal-Zhapyryk State Nature Reserve.** Protects high-mountain lakes and wetland habitats, including areas around Son-Kul and Chatyr-Kul. These sites provide breeding and stopover habitat for migratory birds, including the bar-headed goose and other waterbirds.
+
+**Other state nature reserves.** The Ministry's public overview also lists Kulun-Ata and Surmatash state nature reserves. Their importance is associated with the conservation of mountain ecosystems in the south of the country. Exact boundaries, areas and legal regimes should be checked against the current official register before publication or map production.
+
+
 ## 22.5. Государственные природные парки и национальные парки
 ## State Nature Parks and National Parks
 
 Природные парки обеспечивают охрану ландшафтов и одновременно могут допускать регулируемую рекреацию, экологический туризм, просвещение и традиционное использование отдельных ресурсов в соответствии с установленным режимом.
+
+
+### English overview
+
+State nature parks combine the conservation of landscapes and biodiversity with regulated recreation, environmental education and, where their management rules permit, sustainable local use. The existence of a park does not mean that every activity is allowed throughout its territory: zoning and site-specific regulations determine what visitors and residents may do.
+
 
 ### Ала-Арча
 
@@ -208,6 +242,26 @@ A UNDP publication in 2025 reported that the share of specially protected natura
 
 В перечнях природных парков также встречаются Салкын-Тор и другие территории. Для окончательного справочника необходимо использовать действующий реестр Министерства природных ресурсов: названия, категория, площадь и статус отдельных объектов могут изменяться.
 
+
+### English site profiles
+
+**Ala-Archa.** A state nature park in the Kyrgyz Range near Bishkek. Its characteristic features include mountain gorges, rivers, coniferous forests, alpine meadows, cliffs and glacial landforms. It is important for environmental education and recreation. High visitor numbers make trail management, waste control, transport planning and fire prevention essential.
+
+**Kyrgyz-Ata.** A nature park in Osh Region associated with mountain landscapes and juniper communities. Conservation priorities include protecting wooded slopes, regulating recreation and preventing erosion.
+
+**Karakol.** Located in the Terskey Ala-Too area. Its natural complex includes mountain gorges, forest patches, meadows, rivers and high-mountain landscapes. Visitor management should consider trail condition, water quality and wildlife habitats.
+
+**Besh-Tash.** Located in Talas Region. It combines mountain forests and meadows, river valleys and lake landscapes, and is important for protecting watersheds and the natural complexes of the Talas Ala-Too.
+
+**Chon-Kemin.** The mountain valley and surrounding ranges form a complex of forest, meadow and high-mountain habitats. The park is important for landscape connectivity, traditional land use and sustainable tourism.
+
+**Saimaluu-Tash.** A nature park in Jalal-Abad Region, known for high-mountain landscapes and archaeological petroglyphs. It illustrates the need to coordinate nature conservation and cultural-heritage management. Access to some sites depends on season and applicable rules.
+
+**Khan-Tengiri.** A nature park in eastern Kyrgyzstan in the high-mountain Central Tien Shan. Its significance is linked to exceptional mountain landscapes, glaciers, high-mountain wildlife and mountaineering. Visitor management must address safety, waste, sanitation and the vulnerability of high-altitude ecosystems.
+
+**Other parks.** Salkyn-Tor and other sites appear in historical and sectoral lists. The current official register should be used to verify names, legal categories, areas and status; older tourism lists are not a substitute for a legal inventory.
+
+
 ## 22.6. Биосферные территории UNESCO
 ## UNESCO Biosphere Reserves
 
@@ -220,6 +274,12 @@ A UNDP publication in 2025 reported that the share of specially protected natura
 
 Функциональные зоны MAB не следует автоматически приравнивать к юридическим категориям национального законодательства.
 
+
+### English overview
+
+UNESCO's Man and the Biosphere Programme (MAB) seeks to reconcile biodiversity conservation, sustainable development and scientific monitoring. Biosphere reserves are commonly organised through three complementary functions: a **core area** for long-term conservation; a **buffer zone** where compatible activities, research and education may take place; and a **transition area** where communities pursue sustainable livelihoods. MAB functional zoning should not automatically be treated as identical to the legal categories or boundaries established under Kyrgyz national law.
+
+
 ### Сары-Челек
 
 Номинирован в сеть MAB в 1978 году. Резерват включает лесные, луговые, степные, скальные и водные местообитания Западного Тянь-Шаня. По данным UNESCO, площадь биосферной территории составляет около 44 891 га. Эти данные относятся к биосферному резервату, а не обязательно к площади строгого заповедного ядра.
@@ -227,6 +287,14 @@ A UNDP publication in 2025 reported that the share of specially protected natura
 ### Иссык-Куль
 
 Биосферная территория Иссык-Куль включена в сеть MAB в 2001 году. Она охватывает обширный горно-озёрный ландшафт, где природные экосистемы соседствуют с населёнными пунктами, сельским хозяйством, туризмом и традиционным природопользованием. По данным UNESCO MAB, её площадь составляет около 4,314 млн га. Поэтому её нельзя изображать как небольшой участок вокруг берега озера.
+
+
+### English site profiles
+
+**Sary-Chelek.** Nominated to the UNESCO MAB network in 1978. The biosphere reserve includes forest, meadow, steppe, rocky and aquatic habitats of the Western Tien Shan. UNESCO reports an area of approximately 44,891 hectares. This figure refers to the biosphere reserve and should not be presented as the area of the strict national nature-reserve core.
+
+**Issyk-Kul.** The Issyk-Kul Biosphere Territory joined the MAB network in 2001. It covers a large mountain-and-lake landscape where natural ecosystems coexist with settlements, agriculture, tourism and traditional land use. UNESCO MAB reports an area of approximately 4.314 million hectares. It must therefore not be depicted as a small strip around the lake shore.
+
 
 ## 22.7. Международное признание природного наследия
 ## International Recognition of Natural Heritage
@@ -242,6 +310,14 @@ A UNDP publication in 2025 reported that the share of specially protected natura
 Иссык-Куль, Сон-Куль и Чатыр-Куль включены в международную систему охраны водно-болотных угодий Рамсарской конвенции. Их значение связано с водоплавающими птицами, сезонными миграциями, местами гнездования, линьки и зимовки, а также с сохранением водных экосистем.
 
 Рамсарский статус предполагает разумное использование водно-болотных угодий и поддержание их экологического характера. Он не означает, что любое хозяйственное использование автоматически запрещено.
+
+
+### English overview
+
+The transboundary **Western Tien-Shan** property was inscribed on the UNESCO World Heritage List in 2016. It comprises component parts in Kyrgyzstan, Kazakhstan and Uzbekistan. Its outstanding value is associated with exceptional biodiversity, the combination of forest and mountain ecosystems, endemic and rare species, and wild relatives of cultivated fruit plants. In Kyrgyzstan, the property includes components associated with Sary-Chelek, Besh-Aral and Padysha-Ata. World Heritage status does not replace national law or the management plans applicable to each component.
+
+**Ramsar wetlands.** Issyk-Kul, Son-Kul and Chatyr-Kul are listed under the Ramsar Convention as wetlands of international importance. They support waterbirds during migration, breeding, moulting and wintering, and conserve important aquatic ecosystems. Ramsar recognition promotes the conservation and wise use of wetlands; it does not mean that all economic activity is automatically prohibited.
+
 
 ## 22.8. Экологические коридоры и связность ландшафтов
 ## Ecological Corridors and Landscape Connectivity
