@@ -1103,8 +1103,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 90) {
-        errors.push(file + ": expected 90 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 91) {
+        errors.push(file + ": expected 91 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1183,6 +1183,10 @@ try {
       await page.locator("#search").fill("Hückel rule");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Hückel rule")) {
         errors.push(file + ": glossary search did not find the Hückel-rule definition");
+      }
+      await page.locator("#search").fill("homologous series");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Homologous series")) {
+        errors.push(file + ": glossary search did not find the homologous-series definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
