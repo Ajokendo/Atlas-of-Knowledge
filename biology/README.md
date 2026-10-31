@@ -353,3 +353,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Clarified that the combined figure of 10 does not mean ten species in each of the two groups, and that national Red Data Book totals are not directly comparable with an inventory for an individual protected area.
 - Added the primary government source. The counts are explicitly dated and are not presented as the result of the unfinished revision.
 - Editorial readiness: **73/100**. One point added for a traceable improvement in conservation-status interpretation and numerical comparability. This remains a staged editorial-readiness score, not a completion percentage or external certification. Independent bilingual copy-editing and live browser, mobile, keyboard and screen-reader QA remain outstanding.
+
+
+## Naryn reserve mammal coverage — 1 November 2026
+- Expanded the Naryn regional dossier with three additional species explicitly named by the Ministry in its 15 July 2026 reserve update: Pallas's cat (*Otocolobus manul*), Eurasian lynx (*Lynx lynx*) and argali (*Ovis ammon*).
+- Cross-checked scientific names against the American Society of Mammalogists' Mammal Diversity Database and the CMS Central Asian Mammals Initiative. The entry distinguishes official presence records from population estimates: the Ministry notice gives no counts or trend data for these species.
+- Added direct taxonomy and conservation references and synchronized Russian and English wording.
+- Editorial readiness: **74/100**. One point added for a documented increase in species-level coverage of the Naryn fauna. Remaining work includes the wider seven-oblast claim audit, independent bilingual copy-editing and live browser, mobile, keyboard and screen-reader QA.
