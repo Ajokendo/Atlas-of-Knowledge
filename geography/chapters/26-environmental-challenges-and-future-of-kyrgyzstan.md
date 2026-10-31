@@ -75,7 +75,7 @@ NDC 3.0 treats adaptation as a strategic priority and identifies water resources
 
 ### Эффективность водопользования
 
-По данным открытой статистики НСК, забор воды из природных источников в 2025 году составил около 8,94 млрд м³, а водопотребление — около 6,22 млрд м³. На орошение и сельскохозяйственное водоснабжение приходилось около 5,82 млрд м³ водопотребления. Эти величины характеризуют статистически учтённые годовые потоки и не являются оценкой полного возобновляемого запаса воды страны.
+По данным открытой статистики НСК за 2025 год, забор воды из природных источников составил **8 938,4 млн м³**, водопотребление — **6 224,9 млн м³**, в том числе на орошение и сельскохозяйственное водоснабжение — **5 821,1 млн м³**. Это статистически учтённые годовые потоки в миллионах кубических метров, а не оценка полного возобновляемого запаса воды страны.
 
 Для управления водным спросом необходимы:
 - учёт воды на водозаборах и в распределительных сетях;
@@ -87,6 +87,35 @@ NDC 3.0 treats adaptation as a strategic priority and identifies water resources
 - трансграничный обмен гидрологическими данными.
 
 Технологии водосбережения должны оцениваться на уровне бассейна: повышение эффективности на одном участке может привести к расширению орошаемых площадей и не уменьшить общий водозабор, если отсутствуют лимиты и учёт.
+
+
+Glaciers in Kyrgyzstan are a vital part of the natural capital of the Tien Shan and Pamir–Alay. They store water during cold periods and release it in warmer seasons. However, glacial runoff should not be treated as a constant or guaranteed source: its contribution varies between river basins, years and stages of deglaciation.
+
+### Main risks
+
+- reduction in glacier area and volume;
+- changes in the timing of seasonal peak runoff;
+- increasing instability of moraine-dammed glacial lakes;
+- glacial lake outburst floods and the flood waves associated with them;
+- changes in water availability in high mountain and foothill areas; and
+- deterioration of water quality due to erosion, sedimentation and pollution.
+
+Water policy should therefore include inventories of glaciers and lakes, hydrological stations, remote sensing, runoff modelling, monitoring of moraine dams, early-warning systems and evacuation plans.
+
+### Water-use efficiency
+
+According to the National Statistical Committee's open data for 2025, water abstraction from natural sources amounted to **8,938.4 million m³**, while water consumption was **6,224.9 million m³**. Of the latter, **5,821.1 million m³** was used for irrigation and agricultural water supply. These figures are statistically recorded annual flows in million cubic metres; they are not an estimate of the country's total renewable water resources.
+
+Managing water demand requires:
+- measuring water at abstraction points and throughout distribution networks;
+- repairing canals and reducing seepage losses where they do not provide useful groundwater recharge;
+- using drip and sprinkler irrigation where economically and agronomically appropriate;
+- selecting crops with the water balance in mind;
+- maintaining environmental flows;
+- protecting drinking-water sources; and
+- exchanging hydrological data across borders.
+
+Water-saving technologies should be assessed at the river-basin scale. Improving efficiency at one location may encourage the expansion of irrigated areas and fail to reduce total abstraction if limits and accounting systems are absent.
 
 ## 26.4. Земли, почвы и пастбища / Land, Soils and Pastures
 
@@ -115,6 +144,33 @@ UNEP в 2025 году сообщал, что около 70% пастбищ ст�
 7. Поддержка пастбищных комитетов и местных сообществ.
 
 Нельзя сводить восстановление пастбищ к массовому посеву одного вида травы. Важны местные экологические условия, биоразнообразие и долгосрочная устойчивость растительного сообщества.
+
+
+Soils and pastures are the foundation of the rural economy and an important part of catchment ecosystems. Land degradation may take the form of water and wind erosion, soil compaction, loss of organic matter, salinisation, desertification and reduced vegetation cover.
+
+In 2025, UNEP reported that about 70% of the country's pastures were estimated to be degraded. This figure should be presented as an aggregated international estimate, not as the result of a single field survey covering every pasture parcel. Local management decisions require data on productivity, vegetation composition, livestock pressure, soil condition and seasonal use.
+
+### Drivers of degradation
+
+- concentration of livestock around villages, watering points and accessible roads;
+- insufficient rotation between pastures;
+- damage to vegetation cover and soil compaction;
+- slope erosion and gully formation;
+- climate change and recurrent droughts;
+- inadequate infrastructure for remote pastures; and
+- poorly regulated land use and insufficient monitoring.
+
+### Restoration priorities
+
+1. Pasture-management plans based on the actual carrying capacity of grazing land.
+2. Seasonal rotation and distribution of grazing pressure.
+3. Restoration of watering points and safe livestock-movement routes.
+4. Protection of slopes and riparian areas from erosion.
+5. Restoration of native vegetation using suitable local species.
+6. Monitoring through field plots, satellite imagery and land-use data.
+7. Support for pasture committees and local communities.
+
+Pasture restoration should not be reduced to large-scale sowing of a single grass species. Local ecological conditions, biodiversity and the long-term resilience of plant communities are essential.
 
 ## 26.5. Леса и биоразнообразие / Forests and Biodiversity
 
