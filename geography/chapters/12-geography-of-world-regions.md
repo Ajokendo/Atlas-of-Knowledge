@@ -276,6 +276,28 @@ Regional comparison begins with a question: what exactly is being compared, and 
 
 **Activity.** Select two world subregions and compare them using three indicators. For each, state its definition, year, source and one interpretive limitation. Draw a conclusion that does not go beyond the evidence.
 
+### 12.13.1. Как сравнивать страны с разным уровнем дохода и цен / Comparing Countries with Different Income Levels and Prices
+
+Сравнение стран по номинальному ВВП на душу населения не показывает само по себе, сколько товаров и услуг люди могут приобрести внутри каждой страны. Номинальные показатели переводят в общую валюту по рыночному обменному курсу, который меняется и может резко колебаться. Для сравнения материального уровня жизни часто используют показатели по паритету покупательной способности (ППС), учитывающие различия в уровнях цен.
+
+**Два вопроса — два показателя.** Номинальный ВВП удобен для анализа международных финансовых потоков и способности покупать товары на мировом рынке. ВВП на душу населения по ППС лучше подходит для приблизительного сравнения объёма внутреннего производства и покупательной способности в разных странах. Ни один из этих показателей не описывает распределение доходов, качество государственных услуг, неоплачиваемый труд или экологические издержки.
+
+**Условный пример.** Если номинальный ВВП на душу населения страны А равен 4 000 долларов, а показатель по ППС — 9 000 международных долларов, эти числа не противоречат друг другу: они отвечают на разные вопросы и выражены в разных единицах. Нельзя называть международный доллар обычной валютой или обменивать его по банковскому курсу.
+
+**Проверка сопоставимости.** Указывайте год, источник, метод расчёта, тип показателя (на душу населения или общий), текущие или постоянные цены и единицу измерения. Сравнение средних значений следует дополнять показателями бедности и неравенства, а также социальными и экологическими индикаторами.
+
+**Учебное задание.** Возьмите две страны и сравните их номинальный ВВП на душу населения и ВВП на душу населения по ППС за один год. Объясните, почему порядок стран может измениться и какие аспекты благополучия остаются за пределами этих показателей.
+
+Comparing countries by nominal GDP per capita alone does not show how much people can buy within each country. Nominal values are converted into a common currency using market exchange rates, which change and may fluctuate sharply. For comparisons of material living standards, purchasing power parity (PPP) measures are often used to account for differences in price levels.
+
+**Two questions, two indicators.** Nominal GDP is useful for analysing international financial flows and the ability to purchase goods on world markets. GDP per capita at PPP is more suitable for an approximate comparison of domestic output and purchasing power across countries. Neither indicator describes income distribution, the quality of public services, unpaid work or environmental costs.
+
+**Hypothetical example.** If country A has nominal GDP per capita of 4,000 US dollars and GDP per capita at PPP of 9,000 international dollars, the figures do not contradict each other: they answer different questions and use different units. An international dollar is not an ordinary currency and cannot be exchanged at a bank rate.
+
+**Check comparability.** State the year, source, calculation method, type of indicator (per capita or total), current or constant prices and unit. Comparisons of averages should be supplemented with poverty and inequality measures and with social and environmental indicators.
+
+**Activity.** Select two countries and compare nominal GDP per capita with GDP per capita at PPP for the same year. Explain why their ranking may change and which aspects of well-being remain outside these indicators.
+
 ## 12.14. Итоги главы / Chapter Summary
 
 1. Регион — аналитическая территориальная единица, границы которой зависят от цели исследования.
