@@ -299,6 +299,28 @@ This means that about half of the sample's total volume consists of pores. It is
 
 Полевые и лабораторные данные должны сопровождаться координатами, датой, глубиной отбора, методикой, единицами измерения и сведениями о качестве. Спутниковые индексы растительности не являются прямым измерением плодородия почвы: их интерпретация требует наземной проверки и учёта сезонности.
 
+### 8.15.1. Как выявлять и оценивать засоление почв / Identifying and Assessing Soil Salinity
+
+Засоление — накопление растворимых солей в почве до уровня, который может ухудшать рост растений и свойства почвенной среды. Оно часто связано с сочетанием природных условий и управления водой: испарением, слабым дренажом, близким залеганием минерализованных грунтовых вод и неправильным орошением. Белая корка на поверхности может быть признаком, но не является достаточным подтверждением и не показывает степень засоления.
+
+**Как проводят обследование:** описывают рельеф, землепользование, полив и дренаж; отбирают почвенные пробы на нескольких глубинах и в повторностях; измеряют электропроводность почвенной вытяжки по установленному протоколу; при необходимости определяют состав солей, pH и свойства грунтовых вод. Значения электропроводности нельзя сравнивать без указания метода приготовления вытяжки, температуры и единиц.
+
+**Пространственная неоднородность.** Засоление может резко меняться на небольшом расстоянии — например, вдоль оросительного канала, в понижении или у края поля. Поэтому одна проба не характеризует весь участок. Схема отбора должна учитывать рельеф, тип почвы, режим полива и видимые различия растительности.
+
+**Не путать засоление и осолонцевание.** Засоление связано с избытком растворимых солей; осолонцевание — с повышенной долей обменного натрия и изменением структуры почвы. Эти процессы могут сочетаться, но требуют разных диагностических показателей и мер управления.
+
+**Учебное задание.** Разработайте схему отбора проб для орошаемого участка: обозначьте не менее трёх типов микроположений и две глубины. Укажите, какие данные о поливе и дренаже нужно собрать, прежде чем рекомендовать меры по улучшению почвы.
+
+Soil salinisation is the accumulation of soluble salts to levels that can impair plant growth and soil conditions. It often results from an interaction of natural conditions and water management: evaporation, poor drainage, shallow saline groundwater and inappropriate irrigation. A white surface crust may be an indicator, but it is not sufficient confirmation and does not show the degree of salinity.
+
+**How assessment is carried out:** describe topography, land use, irrigation and drainage; collect replicated soil samples at several depths; measure the electrical conductivity of a soil extract using a specified protocol; and, where needed, analyse salt composition, pH and groundwater properties. Conductivity values cannot be compared without stating the extraction method, temperature and units.
+
+**Spatial variability.** Salinity can change sharply over short distances, for example along an irrigation canal, in a depression or near a field edge. One sample therefore cannot represent an entire field. Sampling design should account for topography, soil type, irrigation regime and visible vegetation differences.
+
+**Do not confuse salinity with sodicity.** Salinity involves excess soluble salts; sodicity involves a high proportion of exchangeable sodium and changes in soil structure. The processes may occur together, but they require different diagnostic indicators and management measures.
+
+**Activity.** Design a sampling plan for an irrigated field: identify at least three micro-landscape positions and two sampling depths. State which irrigation and drainage data should be collected before recommending soil-improvement measures.
+
 ## 8.16. Итоги главы / Chapter Summary
 
 1. Почва — самостоятельное природное тело, возникающее при взаимодействии минерального материала, органики, воды, воздуха и организмов.
