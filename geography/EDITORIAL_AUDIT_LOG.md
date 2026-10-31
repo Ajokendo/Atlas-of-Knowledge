@@ -466,3 +466,13 @@ This checkpoint preserves the working context for continuation after a session i
 - Source for the city renaming: https://cbd.minjust.gov.kg/4-5636/edition/36959/ru . Demographic source series and census references remain listed in section 23.19.
 
 **Chapter 23 commits:** `3062d8a2b75e6fa045df37cc4500669fa3648beb`, `0bec30c3a0aa4d7384cd222ed965673acc7fda8f`.
+
+
+## Chapter 23 English parity: migration, settlement, methods and learning materials — 1 November 2026
+
+- Completed English explanatory text for sections 23.9–23.13: urbanisation and the Bishkek/Osh urban systems; rural settlement and jailoo mobility; population exposure to natural and climate risks; demographic scenarios and sustainable-development conditions; and demographic/geographic methods with their core formulas.
+- Expanded the English counterpart of section 23.9.1 with the worked agglomeration example, planning implications and learning activity.
+- Added English instructions for all seven practical activities, the full review-question set, and the scientific/editorial notes. Added English descriptions for all ten map, chart and infographic briefs.
+- Preserved the already bilingual migration section 23.8, including the distinction between NSC registered migration flows and IOM community-level mobility estimates. No attempt was made to combine unlike migrant categories or treat IOM estimates as a census.
+- Re-fetched the Chapter 23 file after the update and verified the new English section markers and content. The chapter now has English counterparts through the main narrative, methods, practical work, review and editorial guidance; the remaining task is a detailed source/methodology audit and final bilingual line-by-line proofread.
+- Chapter 23 update commits: `4b0a1a00ff2b15c32d488baad3365a75312238f1` and `[visual-brief commit recorded after verification]`.
