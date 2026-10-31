@@ -728,7 +728,7 @@ try {
       await page.locator("#lang").click();
       await page.locator("#fraction").fill("0.05");
       await page.locator("#fraction").dispatchEvent("input");
-      if ((await page.locator("#ppm").innerText()).replace(/\\s/g, "") !== "500ppm" ||
+      if ((await page.locator("#ppm").innerText()).replace(/\s/g, "") !== "500ppm" ||
           await page.locator("#ppm").getAttribute("aria-live") !== "polite") {
         errors.push(file + ": 0.05 percent must produce an accessible 500 ppm result");
       }
