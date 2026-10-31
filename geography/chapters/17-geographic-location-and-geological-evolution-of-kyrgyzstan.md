@@ -637,19 +637,19 @@ A geographical name is more than a map label. A feature may have an official for
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
 1. Государственный портал Кыргызской Республики. **О Кыргызстане** — официальная справочная информация, включая площадь территории (199 951 км²): https://egov.kg/ru/about-country
-3. Президент Кыргызской Республики. **Кыргызская Республика** — официальный обзор страны: https://president.kg/ru/about
-4. Кыргызский геологический портал. **Geology of Kyrgyzstan** — обзор геологического строения и тектонического районирования: https://geoportal-kg.org/about-geology/
-5. Геологическая информационная система Кыргызстана. **Главный геолог** — региональные геологические комплексы и структурные подразделения: https://gis.kg/geokg/
-6. Buslov, M. M., De Grave, J., Bataleva, E. A. V., Batalev, V. Yu. (2007). **Cenozoic tectonic and geodynamic evolution of the Kyrgyz Tien Shan Mountains: A review of geological, thermochronological and geophysical data.** Journal of Asian Earth Sciences, 29(2–3), 205–214. https://doi.org/10.1016/j.jseaes.2006.07.001
-7. Maksumova, R. A., Dzhenchuraeva, A. V., Berezanskii, A. V. (2001). **Structure and Evolution of the Tien Shan Nappe-Folded Orogen.** Russian Geology and Geophysics, 42(10), 1367–1374.
-8. Stuart, F. M. et al. (2014). **Cenozoic deformation and exhumation history of the Central Kyrgyz Tien Shan.** Tectonics. https://doi.org/10.1002/2013TC003376
-9. United Nations and national statistical publications — актуальные административные и социально-экономические данные Кыргызской Республики.
-10. Президент Кыргызской Республики. **По итогам переговоров 13 марта 2025 года подписан Договор между Кыргызской Республикой и Республикой Таджикистан о государственной границе**: https://president.kg/ru/news/all/38919
-11. Централизованный банк данных правовой информации КР. **Постановление Жогорку Кенеша от 19 марта 2025 года № 2912-VII о ратификации Договора о кыргызско-таджикской государственной границе**: https://cbd.minjust.gov.kg/230024463/edition/29362/ru
-12. Кабинет Министров Кыргызской Республики. **Начало установки первых пограничных столбов в рамках демаркации кыргызско-таджикской границы**, 14 июля 2026 года: https://www.gov.kg/index.php/ru/post/s/26456-kyrgyzstan-menen-tazikstandyn-mamlekettik-cek-arasyn-demarkaciyaloo-isterinin-alkagynda-algacky-cek-ara-mamycalaryn-ornotuu-bastaldy
-13. Президент Кыргызской Республики. **Закон о ратификации договора об отдельных участках кыргызско-узбекской государственной границы**, 29 ноября 2022 года: https://president.kg/en/news/21/38167
-14. Government of Uzbekistan. **Uzbekistan and Kyrgyzstan elevate relations to the level of an alliance**, 30 July 2026: https://gov.uz/en/digital/news/view/199682
-15. Government of the Kyrgyz Republic. **Digital Border — official information on border crossing points and border regimes**: https://digitalborder.gps.gov.kg/ru/home/news
+2. Президент Кыргызской Республики. **Кыргызская Республика** — официальный обзор страны: https://president.kg/ru/about
+3. Кыргызский геологический портал. **Geology of Kyrgyzstan** — обзор геологического строения и тектонического районирования: https://geoportal-kg.org/about-geology/
+4. Геологическая информационная система Кыргызстана. **Главный геолог** — региональные геологические комплексы и структурные подразделения: https://gis.kg/geokg/
+5. Buslov, M. M., De Grave, J., Bataleva, E. A. V., Batalev, V. Yu. (2007). **Cenozoic tectonic and geodynamic evolution of the Kyrgyz Tien Shan Mountains: A review of geological, thermochronological and geophysical data.** Journal of Asian Earth Sciences, 29(2–3), 205–214. https://doi.org/10.1016/j.jseaes.2006.07.001
+6. Maksumova, R. A., Dzhenchuraeva, A. V., Berezanskii, A. V. (2001). **Structure and Evolution of the Tien Shan Nappe-Folded Orogen.** Russian Geology and Geophysics, 42(10), 1367–1374.
+7. Stuart, F. M. et al. (2014). **Cenozoic deformation and exhumation history of the Central Kyrgyz Tien Shan.** Tectonics. https://doi.org/10.1002/2013TC003376
+8. United Nations and national statistical publications — актуальные административные и социально-экономические данные Кыргызской Республики.
+9. Президент Кыргызской Республики. **По итогам переговоров 13 марта 2025 года подписан Договор между Кыргызской Республикой и Республикой Таджикистан о государственной границе**: https://president.kg/ru/news/all/38919
+10. Централизованный банк данных правовой информации КР. **Постановление Жогорку Кенеша от 19 марта 2025 года № 2912-VII о ратификации Договора о кыргызско-таджикской государственной границе**: https://cbd.minjust.gov.kg/230024463/edition/29362/ru
+11. Кабинет Министров Кыргызской Республики. **Начало установки первых пограничных столбов в рамках демаркации кыргызско-таджикской границы**, 14 июля 2026 года: https://www.gov.kg/index.php/ru/post/s/26456-kyrgyzstan-menen-tazikstandyn-mamlekettik-cek-arasyn-demarkaciyaloo-isterinin-alkagynda-algacky-cek-ara-mamycalaryn-ornotuu-bastaldy
+12. Президент Кыргызской Республики. **Закон о ратификации договора об отдельных участках кыргызско-узбекской государственной границы**, 29 ноября 2022 года: https://president.kg/en/news/21/38167
+13. Government of Uzbekistan. **Uzbekistan and Kyrgyzstan elevate relations to the level of an alliance**, 30 July 2026: https://gov.uz/en/digital/news/view/199682
+14. Government of the Kyrgyz Republic. **Digital Border — official information on border crossing points and border regimes**: https://digitalborder.gps.gov.kg/ru/home/news
 
 ---
 **Конец главы 17 / End of Chapter 17**
