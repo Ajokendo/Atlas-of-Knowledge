@@ -537,6 +537,22 @@ A practical planning system includes:
 11. **Транспортно-экономические коридоры.** Основные дороги, железнодорожные связи, пункты пропуска и логистические узлы; действующие и планируемые объекты визуально различать.
 12. **Карта экологической уязвимости.** Сели, оползни, засухи, деградация пастбищ, водный стресс, загрязнение и ледниковые риски; легенда должна показывать тип и уровень уверенности данных.
 
+
+### English visual briefs
+
+1. **Administrative map of the seven regions.** Show the seven regions in distinct but restrained shades; Bishkek and Osh as separate cities of republican significance; regional centres, neighbouring countries, the boundary reference date and the source.
+2. **Physical-geography map.** Show the main mountain ranges, valleys, basins, glaciers, major rivers and lakes; administrative boundaries should be a secondary layer.
+3. **Comparative infographic.** Include area, population on 1 January 2026, calculated population density, elevation range and leading economic activities; label all units.
+4. **Chuy Valley.** Show relief, irrigation systems, the Chuy River and tributaries, urban centres, metropolitan expansion and main transport axes.
+5. **Talas Valley.** Show the Talas River basin, agricultural land, pasture zones, the city of Talas and directions of cross-border connections.
+6. **Issyk-Kul Basin.** Show the lake, major tributaries, coastal settlements, tourism zones, protected areas and sensitive wetland sites.
+7. **Naryn and the high mountain valleys.** Show the Inner Tien Shan, Naryn river system, Song-Kul, Chatyr-Kul, mountain passes, pastures and Tash-Rabat.
+8. **Jalal-Abad Region.** Show the Naryn Valley, Toktogul Reservoir, Chatkal, Arslanbob and Sary-Chelek; use the current name Manas for the city, with a note explaining the renaming.
+9. **Osh Region and the Fergana Valley.** Show the contrast between valley agricultural landscapes, the Alay and Chon-Alay valleys and mountain areas; mark the city of Osh with a separate symbol.
+10. **Batken Region.** Show relief, settlements, roads and water features; draw boundaries only from a verified official source and do not simplify complex local sections.
+11. **Transport and economic corridors.** Show major roads, railway connections, border-crossing points and logistics hubs; distinguish operating facilities from planned projects.
+12. **Environmental vulnerability map.** Show debris flows, landslides, drought, pasture degradation, water stress, pollution and glacier-related hazards; the legend should identify both hazard type and data confidence.
+
 ### 24.13.1. Разобранный пример: сравнение регионов по относительному показателю / Worked Example: Comparing Regions Using a Rate
 
 Предположим, что два условных региона хотят сравнить по числу медицинских учреждений. В регионе А проживает 120 000 человек и работает 12 учреждений; в регионе Б — 300 000 человек и 20 учреждений.
