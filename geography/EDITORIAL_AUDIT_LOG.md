@@ -168,3 +168,13 @@ This checkpoint preserves the working context for continuation after a session i
 - The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
 
 **Chapter 24 bilingual expansion commit:** `c04debf1922c460fec90b514458e248afc152ba8`
+
+
+## Follow-up bilingual development — Chapter 24, Jalal-Abad Region (1 November 2026)
+
+- Added a complete English-language counterpart to the Russian regional profile in section 24.7.
+- The translation covers the region's varied relief, Naryn/Syr Darya water and hydropower systems, walnut-fruit forests, population and settlement, industrial legacy, transport, cultural and nature tourism, and environmental priorities.
+- Used **Manas** as the current name of the administrative-centre city, while preserving Jalal-Abad as the unchanged name of the region and explaining the former city name historically.
+- The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
+
+**Chapter 24 bilingual expansion commit:** `39af8b932ebf8fb042a0e5245d8be397997730ac`
