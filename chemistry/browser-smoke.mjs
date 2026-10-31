@@ -179,6 +179,27 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/chemistry-of-life.html") {
+      if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("полимеры нуклеотидов") ||
+          !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("синтезе белка")) {
+        errors.push(file + ": Russian nucleic-acid explanation is incomplete");
+      }
+      if (!(await page.locator("[data-i=enzymesText]").innerText()).includes("энергию активации") ||
+          !(await page.locator("[data-i=enzymeNote]").innerText()).includes("температуру и pH")) {
+        errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("polymers of nucleotides") ||
+          !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("protein synthesis")) {
+        errors.push(file + ": English nucleic-acid explanation is incomplete");
+      }
+      if (!(await page.locator("[data-i=enzymesText]").innerText()).includes("activation energy") ||
+          !(await page.locator("[data-i=enzymeNote]").innerText()).includes("temperature and pH")) {
+        errors.push(file + ": English enzyme explanation lacks catalytic mechanism or condition caveat");
+      }
+      if (await page.locator(".tile").count() !== 5) errors.push(file + ": expected five biomolecule/enzyme topic cards");
+    }
+
     if (file === "chapters/redox.html") {
       const rules = page.locator(".panel li");
       if (await rules.count() !== 5) errors.push(file + ": expected five oxidation-state assignment rules");
