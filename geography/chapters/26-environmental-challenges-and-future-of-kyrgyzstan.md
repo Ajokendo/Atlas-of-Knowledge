@@ -34,7 +34,7 @@
 
 ### Климатические обязательства
 
-В 2025 году Кыргызская Республика представила третий определяемый на национальном уровне вклад — NDC 3.0. В документе обозначены цели по сокращению чистых выбросов парниковых газов к 2030 году на 18% безусловно и до 30% при международной поддержке; к 2035 году — на 16% безусловно и до 39% при международной поддержке. Эти проценты следует цитировать вместе с базовым сценарием и методологией NDC, а не трактовать как абсолютное сокращение относительно произвольного года.
+В 2025 году Кыргызская Республика представила третий определяемый на национальном уровне вклад — NDC 3.0. В документе установлены цели по сокращению чистых выбросов парниковых газов относительно **прогнозного базового сценария** соответствующего целевого года: к 2030 году — на 18% безусловно и на 30% при международной поддержке; к 2035 году — на 16% безусловно и на 39% при международной поддержке. В NDC также указан 2017 год как базовый (reference) год, однако проценты целевых сокращений рассчитываются не как простое уменьшение выбросов относительно фактического уровня 2017 года: методика сопоставляет чистые выбросы в 2030 и 2035 годах с прогнозными уровнями базового сценария для этих же лет. Безусловный сценарий обозначен в документе как With Measures (WM), условный — With Additional Measures (WAM); дополнительные меры зависят от получения международной поддержки. Поэтому проценты необходимо цитировать вместе с типом сценария и методом расчёта, не трактуя их как абсолютное сокращение относительно произвольно выбранного исторического года.
 
 NDC 3.0 рассматривает адаптацию как стратегический приоритет и выделяет водные ресурсы, энергетику, сельское хозяйство, леса и биоразнообразие, снижение риска бедствий, города и здоровье. Документ предусматривает водосберегающие технологии, климатически устойчивое сельское хозяйство, возобновляемую энергетику, энергоэффективное строительство, укрепление мониторинга и институционального потенциала.
 
@@ -518,6 +518,7 @@ This is a substantial volume, but it should not automatically be described entir
 1. UNEP. Climate change is reshaping the Kyrgyz Republic, finds new UNEP Atlas. 26 March 2025. https://www.unep.org/news-and-stories/press-release/climate-change-reshaping-kyrgyz-republic-finds-new-unep-atlas
 2. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. Climate action and NDC 3.0. https://climate.mnr.gov.kg/en/klimattyk-araketter
 3. Kyrgyz Republic. Third Nationally Determined Contribution (NDC 3.0), submitted 2025. UNFCCC. https://www.unfccc.int/sites/default/files/2025-10/NDC3.0_Kyrgyzstan_English_30-09-2025%20%282%29.pdf
+16. UNFCCC. Kyrgyzstan NDC 3.0 — official submission record and attachments. https://unfccc.int/node/650219
 4. World Bank. Kyrgyz Republic Country Climate and Development Report. https://www.worldbank.org/en/country/kyrgyzrepublic/publication/ccdr
 5. National Statistical Committee of the Kyrgyz Republic. Environment in the Kyrgyz Republic 2020–2024: Statistical Collection, 2026. https://stat.gov.kg/
 6. National Statistical Committee of the Kyrgyz Republic. Protection and rational use of water resources: open data. https://stat.gov.kg/en/opendata/category/3216/
