@@ -237,7 +237,7 @@ try {
           !(await page.locator("[data-i=gibbsPotential]").innerText()).includes("ΔᵣG° = −nFE°cell")) {
         errors.push(file + ": Russian electrolytic-cell sign distinction or Gibbs relation is missing");
       }
-      if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1,10 В")) {
+      if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1,10 В") || !(await page.locator("[data-i=cellPotential]").innerText()).includes("активность растворённых ионов равна 1")) {
         errors.push(file + ": Daniell-cell standard potential is missing in Russian");
       }
       await page.locator("#lang").click();
@@ -250,7 +250,7 @@ try {
           !(await page.locator("[data-i=gibbsPotential]").innerText()).includes("Faraday constant")) {
         errors.push(file + ": English electrolytic-cell sign distinction or Gibbs relation is missing");
       }
-      if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1.10 V")) {
+      if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1.10 V") || !(await page.locator("[data-i=cellPotential]").innerText()).includes("unit activity for dissolved ions")) {
         errors.push(file + ": Daniell-cell standard potential is missing in English");
       }
     }
