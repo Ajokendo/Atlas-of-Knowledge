@@ -79,3 +79,25 @@
 - The revised Chapter 23 was fetched again from `workspace/geography`; the new subsection, both language versions, tables and bibliography entry were checked.
 
 **Chapter 23 update commit:** `a078b650d3eec23b0dc98c89ae98e29c33767eab`.
+
+
+## Follow-up work — Chapters 17 and 20 (1 November 2026)
+
+### Chapter 17 — State borders and borderland geography
+
+- Added bilingual subsection 17.12.1 on the legal and geographic meaning of state borders, delimitation versus demarcation, borderland connections and map-reading checks.
+- Incorporated the Kyrgyz–Tajik State Border Treaty signed on 13 March 2025 and the Jogorku Kenesh ratification act of 19 March 2025.
+- Added the dated update that demarcation fieldwork and installation of boundary markers began in July 2026; the text explicitly avoids claiming that demarcation is complete.
+- Added the 2026 Uzbekistan-government notice on a treaty concerning certain Kyrgyz–Uzbek border sections and related cross-border arrangements. The text does not imply that this treaty settles the entire border.
+- Added official government and legal references. The chapter was fetched again from `workspace/geography`; the inserted section and English counterpart were verified.
+
+### Chapter 20 — Transboundary water cooperation and the water–energy nexus
+
+- Expanded section 20.9 with bilingual case studies of the Chu–Talas water-management agreement, the Naryn–Syr Darya water–energy nexus and the planned Kambarata-1 HPP.
+- Added the 2025 Chu–Talas irrigation-season schedule (580 million m³: 400 million m³ from the Talas and 180 million m³ from the Chu) and the 2026 work-plan topics, while identifying the values as a season-specific agreed schedule rather than a permanent quota.
+- Added Kambarata-1 project parameters (planned 1,860 MW and estimated average annual generation of about 5,600 GWh) and clearly labelled them as design estimates for a project not yet in operation. The text notes that the intergovernmental agreement is still described by the World Bank as being prepared.
+- Added a bilingual learning model about seasonal water/energy trade-offs and clarified that it is not an operational recommendation.
+- Added UNECE, CAWater-Info and World Bank sources. Chapter 20 was fetched again from `workspace/geography`; the Russian and English sections and source additions were checked.
+
+**Chapter 17 update commit:** `e85045e39c4a111c68366802c138b07993b3a397`  
+**Chapter 20 update commits:** `48653aa7528217f9c3956b0f75403b0b69c38aa2`, `69ee325381ea582845a16591aa5afd2df242be27`.
