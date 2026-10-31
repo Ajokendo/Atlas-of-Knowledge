@@ -338,6 +338,24 @@ GNSS — общее название спутниковых навигацион
 
 Воспроизводимый проект должен позволять другому специалисту понять, какие данные, параметры и операции привели к результату.
 
+### 14.17.1. Как оценивать качество пространственных данных / Assessing Spatial Data Quality
+
+Перед анализом в ГИС проверяют не только формат слоя, но и происхождение, точность, полноту и актуальность данных. Пять основных вопросов: кто создал данные и каким методом; насколько точно определены координаты; правильно ли классифицированы объекты; какие объекты или значения отсутствуют; когда данные собраны и подходят ли они для текущей задачи.
+
+Дополнительно проверяют систему координат, единицы измерения, топологические ошибки, метаданные и лицензионные ограничения. Высокое пространственное разрешение не гарантирует высокой точности: детальный слой может содержать смещения или устаревшие объекты.
+
+**Пример.** Для расчёта времени поездки к больнице дорожная сеть должна учитывать проходимость, ограничения движения, сезонные закрытия и реалистичные скорости. Если горные перевалы отмечены как доступные круглый год, расчёт доступности будет завышен.
+
+**Задание.** Составьте карточку качества дорожного слоя: источник, дата, масштаб или разрешение, система координат, атрибуты, пробелы и допустимые способы использования.
+
+Before GIS analysis, assess not only a layer's format but also its lineage, accuracy, completeness and currency. Ask five questions: who created the data and how; how accurate are feature coordinates; are features classified correctly; what features or values are missing; and when were the data collected?
+
+Also check the coordinate reference system, units, topological errors, metadata and licence restrictions. High spatial resolution does not guarantee high accuracy: a detailed layer may still contain positional errors or outdated features.
+
+**Example.** A road network used to calculate travel time to a hospital should account for passability, traffic restrictions, seasonal closures and realistic speeds. If mountain passes are shown as accessible all year, calculated accessibility will be overstated.
+
+**Activity.** Prepare a road-layer quality record with source, date, scale or resolution, coordinate system, attributes, gaps and appropriate uses.
+
 ## 14.18. Итоги главы / Chapter Summary
 
 1. ГИС объединяет пространственные данные, программные средства, методы, инфраструктуру и пользователей.
