@@ -299,10 +299,40 @@ try {
       if (!(await page.locator("#moles").innerText()).startsWith("2")) {
         errors.push(file + ": custom molar-mass calculation is incorrect");
       }
+      await page.locator("#mass").fill("1e308");
+      await page.locator("#molar").fill("1e-100");
+      if ((await page.locator("#moles").innerText()).trim() !== "—" || (await page.locator("#count").innerText()).trim() !== "—" || !(await page.locator("#calcFeedback").innerText()).includes("диапазон")) {
+        errors.push(file + ": particle-count overflow was not rejected with a clear message");
+      }
+      await page.locator("#mass").fill("");
+      if ((await page.locator("#moles").innerText()).trim() !== "—" || !(await page.locator("#calcFeedback").innerText()).includes("Введите")) {
+        errors.push(file + ": empty mass input retained or displayed a misleading result");
+      }
+      await page.locator("#mass").fill("20");
       await page.locator("#lang").click();
       if (!(await page.locator("#moles").innerText()).endsWith("mol")) {
         errors.push(file + ": amount-of-substance unit did not switch to English");
       }
+    }
+
+    if (file === "chapters/organic-chemistry.html") {
+      await page.locator("#n").fill("0");
+      await page.locator("#calc").click();
+      if ((await page.locator("#result").innerText()).trim() !== "—" || !(await page.locator("#feedback").innerText()).includes("от 1 до 20")) {
+        errors.push(file + ": invalid alkane carbon count left a stale formula visible");
+      }
+      await page.locator("#n").fill("4");
+      await page.locator("#calc").click();
+      if ((await page.locator("#result").innerText()).trim() !== "C₄H₁₀") {
+        errors.push(file + ": valid butane formula was not restored after invalid input");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#n").fill("");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#feedback").innerText()).includes("Enter an integer")) {
+        errors.push(file + ": empty alkane input did not receive English validation feedback");
+      }
+      await page.locator("#lang").click();
     }
 
     if (file === "chapters/chemical-reactions.html") {
