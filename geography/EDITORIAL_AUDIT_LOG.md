@@ -258,3 +258,10 @@ This checkpoint preserves the working context for continuation after a session i
 - Added the English counterpart to section 17.8 on active intracontinental deformation, earthquake mechanisms, seismic hazard and seismic risk.
 - Preserved the distinction between hazard and risk and the warning that hazard maps do not predict the date or location of a future earthquake.
 - The English explanations complement the existing bilingual worked example in section 17.8.1.
+
+
+## Follow-up bilingual development — Chapter 17, relief processes and historical routes (1 November 2026)
+
+- Added the English counterpart to section 17.9 on endogenic and exogenic processes shaping the modern relief, including glacial, fluvial, slope, aeolian and karst processes.
+- Added the English counterpart to section 17.11 on historical mountain corridors, trade routes and the dual role of relief as both a connector and a barrier.
+- Preserved the distinction between geomorphic processes and the landforms they create, and avoided presenting historical routes as continuously accessible in all periods.
