@@ -158,3 +158,13 @@ This checkpoint preserves the working context for continuation after a session i
 - The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
 
 **Chapter 24 bilingual expansion commit:** `d48a32ed66708c70258bf27d204721bc809fb8b4`
+
+
+## Follow-up bilingual development — Chapter 24, Naryn Region (1 November 2026)
+
+- Added a complete English-language counterpart to the Russian regional profile in section 24.6.
+- The translation covers high-altitude relief and climate, the Naryn/Syr Darya water system, mountain lakes and ecosystems, settlement, pastoral and hydropower activities, transport corridors, tourism, Tash-Rabat heritage, and sustainability priorities.
+- Preserved caveats on high-altitude accessibility and the environmental and social requirements for hydropower development.
+- The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
+
+**Chapter 24 bilingual expansion commit:** `c04debf1922c460fec90b514458e248afc152ba8`
