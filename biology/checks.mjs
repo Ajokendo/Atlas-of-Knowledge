@@ -230,6 +230,29 @@ if (!faunaKyrgyzstanFile.includes("ibnaskr.org/laboratoriya-entomologii-i-parazi
   errors.push("chapters/fauna-kyrgyzstan.html: primary institutional, national review, World Bank, peer-reviewed and Red Data Book project sources are required");
 }
 
+
+if (!faunaKyrgyzstanFile.includes("Why there is no single uncontested fish-species total") || !faunaKyrgyzstanFile.includes("Почему нельзя назвать одно бесспорное число видов рыб")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: freshwater fish inventory must explain dated, non-final species totals in both languages");
+}
+if (!faunaKyrgyzstanFile.includes("73 fish species") || !faunaKyrgyzstanFile.includes("49 аборигенных и 24 интродуцированных") || !faunaKyrgyzstanFile.includes("not an immutable modern checklist")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: 2013 FAO fish inventory must retain native/introduced breakdown and historical scope");
+}
+if (!faunaKyrgyzstanFile.includes("seven major zoogeographic basins") || !faunaKyrgyzstanFile.includes("Балхашского, Чуйского, Иссык-Кульского") || !faunaKyrgyzstanFile.includes("Talas-Ters")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: fish distribution must be explained through the seven zoogeographic basins");
+}
+if (!faunaKyrgyzstanFile.includes("72 экземпляра трёх видов") || !faunaKyrgyzstanFile.includes("55 Issyk-Kul chebak") || !faunaKyrgyzstanFile.includes("not a complete inventory of the lake fauna")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: FAO 2024 Issyk-Kul sample must not be misrepresented as a full species inventory");
+}
+if (!faunaKyrgyzstanFile.includes("Toru-Aygyr") || !faunaKyrgyzstanFile.includes("Chok-Tal") || !faunaKyrgyzstanFile.includes("Cholpon-Ata")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Issyk-Kul survey locations must be retained accurately");
+}
+if (!faunaKyrgyzstanFile.includes("American Museum of Natural History") || !faunaKyrgyzstanFile.includes("preliminary fish identification") || !faunaKyrgyzstanFile.includes("laboratory processing and analysis were continuing")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: 2026 NAS KR–AMNH fieldwork must be described as ongoing, not as a final checklist");
+}
+if (!faunaKyrgyzstanFile.includes("FAO Fisheries and Aquaculture Technical Paper No. 584") || !faunaKyrgyzstanFile.includes("fao.org/countryprofiles/news-archive/detail-news/en/c/1730494/") || !faunaKyrgyzstanFile.includes("amnh-fish-research-kyrgyzstan-2026/") || !faunaKyrgyzstanFile.includes("10.1080/14634988.2015.1028309")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: FAO, NAS KR–AMNH and peer-reviewed basin review sources are required");
+}
+
 const cellBiologyAuditFile = fs.readFileSync(path.join(root, "chapters/cell-biology.html"), "utf8");
 if (!cellBiologyAuditFile.includes("Клеточный цикл и митоз: последовательность") || !cellBiologyAuditFile.includes("The cell cycle and mitosis: sequence of events")) errors.push("chapters/cell-biology.html: cell-cycle heading must not label interphase as mitosis");
 if ((cellBiologyAuditFile.match(/data-stage="[^"]+"/g) || []).length !== 6 || !cellBiologyAuditFile.includes('data-stage="cytokinesis" aria-pressed="false"')) errors.push("chapters/cell-biology.html: cell-cycle explorer must include a separate cytokinesis control");
