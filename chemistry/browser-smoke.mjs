@@ -634,8 +634,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 38) {
-        errors.push(file + ": expected 38 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 39) {
+        errors.push(file + ": expected 39 bilingual chemistry glossary entries");
       }
       await page.locator("#search").fill("лимитирующий реагент");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Реагент")) {
