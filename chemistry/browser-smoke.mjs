@@ -700,7 +700,7 @@ try {
         errors.push(file + ": actual yield far above a tiny theoretical yield was not rejected using a product-scaled tolerance");
       }
       await page.locator("#a").fill("1000");
-      await page.locator("#na").fill("1e-320");
+      await page.locator("#na").fill("1e-323");
       await page.locator("#actual").fill("");
       await page.locator("#na").dispatchEvent("input");
       if ((await page.locator("#theory").innerText()).trim() !== "—" || !(await page.locator("#explain").innerText()).includes("числовой диапазон")) {
