@@ -138,3 +138,13 @@ This checkpoint preserves the working context for continuation after a session i
 - The updated chapter was fetched again from `workspace/geography`; the English section and its placement before section 24.4 were verified.
 
 **Chapter 24 bilingual expansion commit:** `2107be66afd8771200ac160ad9eadeae5e7b07bc`
+
+
+## Follow-up bilingual development — Chapter 24, Talas Region (1 November 2026)
+
+- Added a complete English-language counterpart to the Russian regional profile in section 24.4.
+- The translation covers location and administrative centre, relief and climate, water and landscapes, population, economy, transport, cultural heritage, and challenges and prospects.
+- Preserved the distinction between the region's well-known bean production and its broader mixed agricultural economy; the text does not describe Talas as a monoculture region.
+- The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
+
+**Chapter 24 bilingual expansion commit:** `2bd2ded42565183458f1002504c295e3b63263d1`
