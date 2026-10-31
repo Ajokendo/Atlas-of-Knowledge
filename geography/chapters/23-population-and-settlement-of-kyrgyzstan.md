@@ -256,6 +256,60 @@ D = \frac{P}{A}
 
 Число зарегистрированных пересечений границы не равно числу мигрантов: один человек может пересекать границу многократно.
 
+### 23.8.1. Как измеряют миграцию и почему статистика различается / Measuring Migration and Understanding Statistical Differences
+
+Миграция — изменение обычного места жительства человека. Для географического анализа важно отличать постоянное или длительное переселение от ежедневных поездок на работу, сезонного выпаса скота, временной учёбы и краткосрочных визитов. Разные статистические системы используют разные определения продолжительности проживания и периода учёта, поэтому показатели нельзя сопоставлять без проверки методики.
+
+**Основные показатели:**
+
+- **Число прибывших** — количество людей, переехавших на территорию за выбранный период.
+- **Число выбывших** — количество людей, сменивших место жительства и покинувших территорию.
+- **Миграционное сальдо** — разность прибывших и выбывших. Положительное значение означает чистый приток, отрицательное — чистый отток.
+- **Коэффициент миграционного прироста** — миграционное сальдо, отнесённое к среднегодовой численности населения и обычно выраженное на 1 000 жителей.
+- **Валовая миграция** — сумма прибывших и выбывших; показывает масштаб перемещений, но не направление чистого изменения численности.
+
+Формула коэффициента миграционного прироста:
+
+\[
+K_m=\frac{I-O}{P_{ср}}\times1000
+\]
+
+где (I) — число прибывших, (O) — число выбывших, (P_{ср}) — среднегодовая численность населения.
+
+**Условный пример.** За год в район с населением 100 000 человек прибыло 2 400 человек, а выбыло 1 900. Миграционное сальдо составляет +500 человек, валовая миграция — 4 300 человек, коэффициент миграционного прироста — +5‰. Это не означает, что все 4 300 человек изменили численность района на эту величину: валовой показатель учитывает оба потока.
+
+**Почему источники могут расходиться.** Перепись фиксирует население по правилам конкретного переписного момента; регистрация места жительства отражает административные действия; обследования домохозяйств могут учитывать фактическое проживание и временное отсутствие. Часть перемещений не регистрируется, а один человек может менять место жительства несколько раз. Внутренняя миграция также может быть сезонной и циркулярной.
+
+Для Кыргызстана особенно важно не смешивать постоянную миграцию из села в город с сезонной мобильностью, связанной с сельским хозяйством, пастбищами, строительством, учёбой и временной занятостью. При анализе следует указывать определение мигранта, период, территориальный уровень и источник данных.
+
+**Учебное задание.** Найдите данные о прибывших и выбывших для одной области или города за несколько лет. Рассчитайте миграционное сальдо и коэффициент на 1 000 жителей. Сопоставьте результаты с изменением общей численности населения и объясните, почему миграция — лишь один из компонентов демографической динамики.
+
+Migration is a change in a person’s usual place of residence. Geographic analysis must distinguish permanent or long-term relocation from daily commuting, seasonal livestock movement, temporary study and short visits. Statistical systems use different definitions of residence duration and reference periods, so indicators should not be compared without checking the methodology.
+
+**Key indicators:**
+
+- **Immigrants or in-migrants** — people who move into an area during a selected period.
+- **Emigrants or out-migrants** — people who change their usual residence and leave the area.
+- **Net migration** — in-migrants minus out-migrants. A positive value indicates net inflow; a negative value indicates net outflow.
+- **Net migration rate** — net migration relative to the mid-year population, usually expressed per 1,000 residents.
+- **Gross migration** — the sum of in-migration and out-migration; it describes the scale of movement, not the net population change.
+
+The net migration rate is calculated as:
+
+\[
+K_m=\frac{I-O}{P_{mid}}\times1000
+\]
+
+where (I) is the number of in-migrants, (O) is the number of out-migrants and (P_{mid}) is the mid-year population.
+
+**Hypothetical example.** During one year, 2,400 people move into a district with a population of 100,000, while 1,900 move out. Net migration is +500 people, gross migration is 4,300 people, and the net migration rate is +5‰. The gross figure does not mean that the district’s population changed by 4,300: it counts both directions of movement.
+
+**Why sources may differ.** A census records population according to the rules applied on a specific census date; residence registration records administrative procedures; household surveys may measure actual residence and temporary absence. Some moves are not registered, and one person may change residence more than once. Internal migration may also be seasonal or circular.
+
+For Kyrgyzstan, it is particularly important not to confuse permanent rural-to-urban migration with seasonal mobility related to agriculture, pastures, construction, education and temporary employment. Analyses should state the definition of a migrant, the reference period, geographic scale and data source.
+
+**Learning activity.** Find data on in-migration and out-migration for one region or city over several years. Calculate net migration and the rate per 1,000 residents. Compare the results with the change in total population and explain why migration is only one component of demographic change.
+
 ## 23.9. Урбанизация и развитие агломераций
 ## Urbanization and Metropolitan Development
 
