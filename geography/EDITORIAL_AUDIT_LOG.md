@@ -148,3 +148,13 @@ This checkpoint preserves the working context for continuation after a session i
 - The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
 
 **Chapter 24 bilingual expansion commit:** `2bd2ded42565183458f1002504c295e3b63263d1`
+
+
+## Follow-up bilingual development — Chapter 24, Issyk-Kul Region (1 November 2026)
+
+- Added a complete English-language counterpart to the Russian regional profile in section 24.5.
+- The English text covers the lake basin's relief and climate, endorheic lake hydrology, wetlands and river deltas, settlement and tourism pressures, economic activities, transport, cultural heritage and conservation categories, and environmental priorities.
+- Clarified the distinction between UNESCO biosphere-reserve designation, Ramsar wetland status and national protected-area categories.
+- The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
+
+**Chapter 24 bilingual expansion commit:** `d48a32ed66708c70258bf27d204721bc809fb8b4`
