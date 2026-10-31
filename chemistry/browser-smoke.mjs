@@ -406,7 +406,7 @@ try {
     if (file === "periodic-table.html") {
       const elementButtons = page.locator("#table button[data-id], #lanth button[data-id], #act button[data-id]");
       const elementIds = await elementButtons.evaluateAll(items => items.map(button => Number(button.dataset.id)));
-      if (elementIds.length !== 118 || new Set(elementIds).size !== 118 || elementIds.some((id, index) => id !== index + 1)) {
+      if (elementIds.length !== 118 || new Set(elementIds).size !== 118 || Array.from({length:118}, (_, index) => index + 1).some(id => !elementIds.includes(id))) {
         errors.push(file + ": periodic table must render each atomic number 1–118 exactly once across all blocks");
       }
       if (await page.locator("#table button[data-id]").evaluateAll(items => items.some(button => !button.querySelector(".sym")?.textContent.trim() || !button.querySelector(".mass")?.textContent.trim()))) {
