@@ -2,7 +2,7 @@ name: Physics engine checks
 
 on:
   push:
-    branches: [main]
+    branches: [main, workspace/physics]
   workflow_dispatch:
 
 permissions:
