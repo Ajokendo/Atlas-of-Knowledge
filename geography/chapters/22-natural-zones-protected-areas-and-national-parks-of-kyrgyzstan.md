@@ -202,12 +202,13 @@ State nature reserves are national protected-area institutions whose primary pur
 ## 22.5. Государственные природные парки и национальные парки
 ## State Nature Parks and National Parks
 
-Природные парки обеспечивают охрану ландшафтов и одновременно могут допускать регулируемую рекреацию, экологический туризм, просвещение и традиционное использование отдельных ресурсов в соответствии с установленным режимом.
-
-
 ### English overview
 
 State nature parks combine the conservation of landscapes and biodiversity with regulated recreation, environmental education and, where their management rules permit, sustainable local use. The existence of a park does not mean that every activity is allowed throughout its territory: zoning and site-specific regulations determine what visitors and residents may do.
+
+
+Природные парки обеспечивают охрану ландшафтов и одновременно могут допускать регулируемую рекреацию, экологический туризм, просвещение и традиционное использование отдельных ресурсов в соответствии с установленным режимом.
+
 
 
 ### Ала-Арча
