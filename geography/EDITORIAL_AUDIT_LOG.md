@@ -392,3 +392,12 @@ This checkpoint preserves the working context for continuation after a session i
 - Reordered the 16 bibliography entries in section 26.20 into a consecutive numerical sequence (1–16); the official UNFCCC NDC 3.0 submission record remains included as reference 16.
 - Re-fetched the chapter after each saved change. Current saved file must be checked for the English introduction, questions and notes, and sequential references before this pass is considered verified.
 - Remaining chapter-level work: source-by-source link and date validation; check whether 26.1–26.20 contain any further untranslated explanatory blocks; review the whole chapter for repeated claims, consistent units and internal cross-references. This is not a declaration of final chapter approval.
+
+
+## Chapter 25 bilingual expansion — second pass (1 November 2026)
+
+- Added English explanatory counterparts to sections 25.1–25.9 in the preceding pass, then completed sections 25.10–25.17 in this pass.
+- The new English material covers regional accessibility, development scenarios to 2035, the worked transport-route calculation, eight practical exercises, twelve visual-production briefs, the key-term table, review questions, scientific/editorial cautions and the references list.
+- Section 25.10 now has an English overview in addition to its previously existing English travel-time methodology subsection.
+- Chapter 25 is now structurally bilingual across sections 25.1–25.17 at the heading/block level. This does not by itself certify line-by-line equivalence, source validity, or factual currency.
+- Re-fetch the chapter and verify every numbered section has an English counterpart. Next audit: check dated macroeconomic claims and named administrative changes; verify reference links; inspect consistency of the English and Russian tables and terminology; then move to the next chapter with the largest bilingual gap.
