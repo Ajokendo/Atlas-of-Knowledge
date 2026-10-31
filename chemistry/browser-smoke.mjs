@@ -268,11 +268,11 @@ try {
     }
 
     if (file === "chapters/acids-and-bases.html") {
-      if (!(await page.locator("[data-i=note]").innerText()).includes("при 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("другой температуре")) {
+      if (!(await page.locator("[data-i=note]").innerText()).includes("при 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("другой температуре") || !(await page.locator("[data-i=note]").innerText()).includes("не ограничены строго интервалом 0–14")) {
         errors.push(file + ": Russian pH note must qualify the neutral point by temperature");
       }
       await page.locator("#lang").click();
-      if (!(await page.locator("[data-i=note]").innerText()).includes("at 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("other temperatures")) {
+      if (!(await page.locator("[data-i=note]").innerText()).includes("at 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("other temperatures") || !(await page.locator("[data-i=note]").innerText()).includes("not strictly limited to the 0–14 interval")) {
         errors.push(file + ": English pH note must qualify the neutral point by temperature");
       }
       await page.locator("#lang").click();
