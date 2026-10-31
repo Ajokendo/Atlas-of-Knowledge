@@ -293,3 +293,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Added bilingual source annotations and regression assertions for taxonomy, dated survey scopes, the 2024/2025 maral chronology and the Besh-Tash introduction history.
 - This remains a targeted evidence audit, not a completed expert review of every mammal record. Editorial readiness remains 70/100 pending broader claim-level source mapping, independent bilingual editing and live accessibility/browser QA.
 
+
+
+## Argali genetic evidence update — 1 November 2026
+- Added the March 2026 Kyrgyz argali population-genetics study (72 samples, 135,242 SNP markers) to the regional dossier and source list.
+- Reported the study's result narrowly: no clustering corresponding to discrete subspecies was detected within the sampled population. The chapter explicitly notes that this sample does not cover every Kyrgyz population and does not settle all regional taxonomic hypotheses.
+- Added a regression assertion to preserve the sample size, marker count and geographic-scope caveat. The species-level name remains *Ovis ammon*; subspecies assignments remain qualified rather than silently treated as settled.
+- Editorial readiness remains 70/100: this strengthens one species dossier but does not replace the broader seven-oblast source audit, independent bilingual editing or live browser/accessibility QA.
