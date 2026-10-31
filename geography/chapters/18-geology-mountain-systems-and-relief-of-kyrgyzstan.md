@@ -450,6 +450,24 @@ This means that the land rises by 20 m for every 100 m of horizontal distance. T
 6. **Геологические опасности.** Не обозначать населённые пункты как «безопасные» только на основании отсутствия зарегистрированных событий. Отсутствие данных не равно отсутствию опасности.
 7. **Границы и топонимы.** Все пограничные линии, официальные названия и транслитерации сверять с государственными картографическими материалами и редакционным стандартом атласа.
 
+### 18.11.2. Как различать оползни, обвалы и сели / Distinguishing Landslides, Rockfalls and Debris Flows
+
+В горах опасные склоновые и русловые процессы могут иметь сходные последствия, но различаются механизмом движения и необходимыми мерами защиты. **Оползень** — смещение грунта или пород по поверхности скольжения. **Обвал или камнепад** — быстрое отделение и падение блоков или камней. **Сель** — быстрый поток воды, насыщенный обломочным материалом, движущийся по руслу.
+
+Для оценки опасности изучают источник материала, возможную траекторию, скорость и дальность распространения, сезонность, осадки и снеготаяние, состояние склонов и русел. Один участок может подвергаться нескольким процессам одновременно или последовательно.
+
+Защитная стена от камнепада не обязательно защитит от селя; укрепление склона не решит проблему паводка в русле. Выбор мер требует правильного определения процесса и инженерной оценки. При признаках активного движения нельзя приближаться к склону, руслу или зоне накопления обломков.
+
+**Задание.** Для трёх ситуаций — трещины и смещение грунта, свежие следы падения камней, грязекаменный поток в русле — определите вероятный процесс, необходимые наблюдения и подходящие категории защитных мер.
+
+In mountain terrain, slope and channel hazards may have similar consequences but differ in their movement mechanisms and required protection. A **landslide** is the movement of soil or rock along a slip surface. A **rockfall** is the rapid detachment and fall of blocks or stones. A **debris flow** is a rapid flow of water mixed with sediment and rock fragments moving through a channel.
+
+Assessment examines source material, possible path, speed and runout distance, seasonality, rainfall and snowmelt, and the condition of slopes and channels. One location may be exposed to several processes at once or in sequence.
+
+A rockfall barrier will not necessarily protect against a debris flow; slope stabilisation will not solve a flood-channel problem. Measures require correct process identification and engineering assessment. If active movement is suspected, do not approach the slope, channel or debris accumulation zone.
+
+**Activity.** For three situations—ground cracks and displacement, fresh rockfall deposits, and a muddy debris flow—identify the likely process, observations needed and suitable categories of protective measures.
+
 ## 18.19. Итоги главы / Chapter Summary
 
 Кыргызстан — горная страна, геологический и геоморфологический облик которой сформировался в результате длительной палеозойской эволюции, кайнозойской реактивации тектонических структур и продолжающегося взаимодействия эндогенных и экзогенных процессов. Тянь-Шань и Памиро-Алай объединяют разнообразные горные пояса, межгорные впадины, высокогорные плато и ледниковые массивы.
