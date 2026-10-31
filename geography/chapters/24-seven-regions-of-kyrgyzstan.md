@@ -678,6 +678,18 @@ Prepare two scenarios for the next 10–15 years: a continuation scenario and a 
 9. Почему статистические данные разных лет могут быть несопоставимы после административной реформы?
 10. Какие показатели следует использовать для оценки устойчивого развития области?
 
+
+1. Why should Bishkek and Osh be counted separately from the regions?
+2. How does an administrative region differ from a physical-geographical area?
+3. Why does Naryn Region have a low average population density?
+4. Which natural and economic factors shape the specialisation of the Chuy Valley?
+5. How does Lake Issyk-Kul influence the climate and economy of the surrounding basin?
+6. Why is water management especially important for Batken Region?
+7. What roles do the Talas and Alay valleys play in settlement and economic activity?
+8. How is hydropower connected with the geography of Jalal-Abad Region?
+9. Why may population statistics from different years become incomparable after an administrative reform?
+10. Which indicators should be used to assess the sustainable development of a region?
+
 ## 24.17. Научные и редакционные примечания / Scientific and Editorial Notes
 
 - Население в сравнительной таблице приведено на 1 января 2026 года по открытой базе НСК. Эти значения относятся к постоянному населению и не равны численности фактически присутствующих жителей.
