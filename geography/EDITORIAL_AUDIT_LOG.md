@@ -487,3 +487,5 @@ This checkpoint preserves the working context for continuation after a session i
 - Preserved existing bilingual work on ecological corridors, reserve and park profiles, UNESCO MAB, Western Tien-Shan, Ramsar sites, the worked example on overlapping protected-area polygons and the effectiveness-assessment exercise.
 - Re-fetched Chapter 22 after the update and verified the English section markers and content. The remaining editorial stage is a detailed source and legal-status audit, terminology consistency check and full bilingual proofread.
 - Chapter 22 English parity commit: `0cf27fd2bc590c52fdc710c5ddf3476c3a3d092f`.
+
+- Дополнительно завершён английский вводный блок главы 22.8 об экологических коридорах: определение, роль связности ландшафтов, осторожная формулировка статуса коридора «Ак-Илбирс» и принципы проектирования. Изменение повторно проверено в целевой ветке. Commit: `f8b7f9872d0842f178ad12572415a2fd16f3cde2`.
