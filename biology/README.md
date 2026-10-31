@@ -317,3 +317,9 @@ The score should increase only when evidence for the relevant checklist items is
 - Added the peer-reviewed 2021 camera-trap study from Naryn State Nature Reserve (four field seasons, 2016–2019): a minimum of five adult snow leopards were identified, together with five cubs or subadults from three litters of two females.
 - Distinguished this local, minimum-detection result from CAMCA's approximately 62-individual estimate for the wider Naryn region. The two figures refer to different spatial scopes and study designs and must not be interpreted as a population trend or direct cross-check.
 - Added a regression assertion preserving the local-study period, minimum adult count, evidence of reproduction and the geographic-scope caveat. Editorial readiness remains 70/100; one stronger species account does not close the seven-oblast evidence audit or outstanding independent and live QA.
+
+
+## Tian Shan brown bear taxonomy note — 1 November 2026
+- Reviewed the regional name *Tian Shan brown bear* against CAMCA's use of *Ursus arctos isabellinus*, the Mammal Diversity Database's species-level treatment of *Ursus arctos* and nomenclatural history, and the 2019 Central Asian brown-bear phylogeography paper.
+- Kept *Ursus arctos* as the unambiguous species-level heading and qualified *U. a. isabellinus* as a regional subspecies designation used by conservation sources, rather than implying that all taxonomic frameworks treat Central Asian forms identically.
+- Added source references and a regression assertion to preserve this qualification. Editorial readiness remains 70/100 pending broader review, independent bilingual editing and live QA.
