@@ -300,3 +300,9 @@ The score should increase only when evidence for the relevant checklist items is
 - Reported the study's result narrowly: no clustering corresponding to discrete subspecies was detected within the sampled population. The chapter explicitly notes that this sample does not cover every Kyrgyz population and does not settle all regional taxonomic hypotheses.
 - Added a regression assertion to preserve the sample size, marker count and geographic-scope caveat. The species-level name remains *Ovis ammon*; subspecies assignments remain qualified rather than silently treated as settled.
 - Editorial readiness remains 70/100: this strengthens one species dossier but does not replace the broader seven-oblast source audit, independent bilingual editing or live browser/accessibility QA.
+
+
+## Maral estimate comparability note — 1 November 2026
+- Cross-checked the detailed CAMCA October 2024 survey report against its 2025 Kyrgyzstan concept note. The detailed report records 160 animals and extrapolates 400–600 for the Naryn River valley and tributaries; the concept note separately lists 689 for Kyrgyzstan in 2024.
+- The chapter now displays this difference and explains that the brief concept-note table does not document method and spatial coverage at the same level. The two figures are not treated as directly comparable or silently merged.
+- Added the concept note to the bilingual source list and a regression assertion preserving the comparability caveat. Readiness remains 70/100.
