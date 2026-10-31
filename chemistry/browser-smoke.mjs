@@ -42,6 +42,15 @@ try {
       continue;
     }
 
+    for (const width of [390, 768, 1280]) {
+      await page.setViewportSize({ width, height: 844 });
+      const dimensions = await page.evaluate(() => ({ document: document.documentElement.scrollWidth, viewport: document.documentElement.clientWidth }));
+      if (dimensions.document > dimensions.viewport + 1) {
+        errors.push(file + ": horizontal page overflow at " + width + "px (" + dimensions.document + "px > " + dimensions.viewport + "px)");
+      }
+    }
+    await page.setViewportSize({ width: 390, height: 844 });
+
     if (file === "index.html") {
       const chapterCount = await page.locator(".chapter").count();
       if (chapterCount !== 12) errors.push(file + ": expected 12 visible chapter cards, found " + chapterCount);
