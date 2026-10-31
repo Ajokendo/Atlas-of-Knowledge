@@ -1105,8 +1105,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 97) {
-        errors.push(file + ": expected 97 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 99) {
+        errors.push(file + ": expected 99 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1201,6 +1201,10 @@ try {
       await page.locator("#search").fill("standard state");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Standard state")) {
         errors.push(file + ": glossary search did not find the standard-state definition");
+      }
+      await page.locator("#search").fill("supersaturated solution");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Supersaturated solution")) {
+        errors.push(file + ": glossary search did not find the supersaturated-solution definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
