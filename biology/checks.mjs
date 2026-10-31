@@ -80,6 +80,13 @@ if (!biochemistryFile.includes("actual ΔG in a cell depends") || !biochemistryF
   errors.push("chapters/biochemistry.html: ATP hydrolysis explanation must qualify cellular ΔG");
 }
 
+for (const url of ["7-1-energy-in-living-systems", "7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle", "7-4-oxidative-phosphorylation"]) {
+  if (!biochemistryFile.includes("openstax.org/books/biology-2e/pages/" + url)) errors.push("chapters/biochemistry.html: missing topic-matched OpenStax reference " + url);
+}
+for (const phrase of ["протонный градиент", "proton gradient", "хемиосмос", "chemiosmosis"]) {
+  if (!biochemistryFile.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/biochemistry.html: oxidative-phosphorylation explanation must cover " + phrase);
+}
+
 const botanyFile = fs.readFileSync(path.join(root, "chapters", "botany.html"), "utf8");
 if (!botanyFile.includes("function updateOrgan()") || !botanyFile.includes("updateOrgan();updatePhoto();updateConditionLabels()")) {
   errors.push("chapters/botany.html: language switching must refresh organ and photosynthesis model outputs");
