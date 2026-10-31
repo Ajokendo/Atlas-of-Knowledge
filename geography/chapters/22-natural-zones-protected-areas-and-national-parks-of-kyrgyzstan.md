@@ -537,7 +537,8 @@ Cumulative impacts are particularly important: several individually moderate pre
 | Сумма штрафов | 399 500 сомов |
 | Материалы, по которым предъявлены иски | 119 |
 | Сумма предъявленных исков | 706 289 сомов |
-| Взыскано по рассмотренным делам | 578 224 сома |
+| Взыскано по 78 рассмотренным делам | 578 224 сома |
+| 61 дело/материал находится на рассмотрении | 527 565 сомов |
 | Саженцы, высаженные на территориях ООПТ в рамках «Жашыл Мурас» | 25 236 |
 | Площадь посадок | 39,09 га |
 | Саженцы и сеянцы в питомниках государственных природных парков осенью 2025 года | 359 316 |
@@ -578,7 +579,8 @@ A Ministry of Natural Resources release dated 16 March 2026 reported the followi
 | Amount of fines | KGS 399,500 |
 | Cases/materials for which claims were filed | 119 |
 | Amount claimed | KGS 706,289 |
-| Recovered through cases already considered | KGS 578,224 |
+| Recovered through 78 cases already considered | KGS 578,224 |
+| 61 cases/materials still under consideration | KGS 527,565 |
 | Seedlings planted in protected areas under the Zhashyl Muras campaign | 25,236 |
 | Area planted | 39.09 ha |
 | Seedlings and saplings grown in state nature park nurseries in autumn 2025 | 359,316 |
