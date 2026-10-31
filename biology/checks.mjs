@@ -136,6 +136,9 @@ if (!faunaKyrgyzstanFile.includes("7–12 октября 2024 года") || !fau
 if (!faunaKyrgyzstanFile.includes("35 животных были завезены из Алтая в 2022 году") || !faunaKyrgyzstanFile.includes("отличать от естественных популяций")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Besh-Tash introduced maral group must be distinguished from natural populations");
 }
+if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркеров") || !faunaKyrgyzstanFile.includes("72 образца архара") || !faunaKyrgyzstanFile.includes("does not cover every population")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: 2026 argali genetics evidence must retain sample size and scope caveat");
+}
 if (!faunaKyrgyzstanFile.includes("Cervus canadensis songaricus") || !faunaKyrgyzstanFile.includes("Cervus elaphus songaricus") || !faunaKyrgyzstanFile.includes("NCBI Taxonomy")) {
   errors.push("chapters/fauna-kyrgyzstan.html: maral subspecies name and synonym must both be documented");
 }
