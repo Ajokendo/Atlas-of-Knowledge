@@ -240,11 +240,13 @@ try {
       if (!(await page.locator("[data-i=aromaticityNote]").innerText()).includes("4n + 2 π-электронов") || !(await page.locator("[data-i=aromaticityNote]").innerText()).includes("антиароматичны")) {
         errors.push(file + ": Russian aromaticity note must state the Hückel electron-count rule and its antiaromatic counterpart");
       }
+      if (!(await page.locator("[data-i=isomerismNote]").innerText()).includes("одинаковую молекулярную формулу") || !(await page.locator("[data-i=isomerismNote]").innerText()).includes("C₂H₆O")) errors.push(file + ": Russian note must explain structural isomerism with an example");
       await page.locator("#lang").click();
       if (!(await page.locator("[data-i=carbonylNote]").innerText()).includes("at the end of the chain") ||
           !(await page.locator("[data-i=carbonylNote]").innerText()).includes("within the chain")) {
         errors.push(file + ": English explanation does not distinguish aldehydes from ketones");
       }
+      if (!(await page.locator("[data-i=isomerismNote]").innerText()).includes("same molecular formula") || !(await page.locator("[data-i=isomerismNote]").innerText()).includes("C₂H₆O")) errors.push(file + ": English note must explain structural isomerism with an example");
       if (!(await page.locator("[data-i=aromaticityNote]").innerText()).includes("4n + 2 π electrons") || !(await page.locator("[data-i=aromaticityNote]").innerText()).includes("antiaromatic")) {
         errors.push(file + ": English aromaticity note must state the Hückel electron-count rule and its antiaromatic counterpart");
       }
