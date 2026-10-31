@@ -198,6 +198,52 @@ P = ET + Q + \Delta S
 
 Термины «половодье» и «паводок» не взаимозаменяемы. Половодье — относительно регулярная сезонная фаза повышения водности; паводок — кратковременный подъём уровня и расхода воды, часто вызванный дождём или интенсивным таянием.
 
+### 20.5.1. Как читать сезонный гидрограф горной реки / Reading the Seasonal Hydrograph of a Mountain River
+
+Гидрограф — график изменения расхода воды в реке во времени. Для горных рек Кыргызстана он помогает понять, когда формируется основной сток, насколько важны снеговое и ледниковое питание и в какой сезон могут возникать периоды повышенной водности или дефицита воды.
+
+**Типичные элементы годового режима:**
+
+- **Зимняя межень.** В холодный период значительная часть осадков накапливается в виде снега, а поверхностный сток часто уменьшается. Подземное питание может поддерживать течение, но его доля различается между бассейнами.
+- **Весенний подъём.** Потепление вызывает таяние снега на низких и средних высотах. Срок начала подъёма зависит от высоты бассейна, экспозиции склонов, температуры и осадков.
+- **Летний максимум.** В бассейнах с существенным высокогорным снеговым и ледниковым питанием расход может оставаться высоким или возрастать в тёплые месяцы. В других реках максимум наступает раньше, во время интенсивного снеготаяния.
+- **Осенний спад.** По мере охлаждения и уменьшения таяния расход обычно снижается, хотя осенние дожди и особенности подземного питания могут менять форму гидрографа.
+
+Это не универсальная схема для каждой реки. Высота и площадь бассейна, доля оледенения, экспозиция, геология, водохранилища, водозабор и межгодовые погодные различия могут существенно менять режим.
+
+**Как отличать источники питания.** Снеговое питание часто проявляется выраженным сезонным подъёмом после весеннего потепления. Ледниковое питание может поддерживать летний сток в периоды интенсивного таяния. Дождевое питание вызывает более быстрые реакции на осадки, особенно в небольших крутых водосборах. Подземное питание способно сглаживать колебания, поддерживая расход в периоды малых осадков. На практике эти компоненты действуют одновременно, поэтому один пик на графике не доказывает единственный источник воды.
+
+**Что нужно проверить перед интерпретацией:**
+1. Представляет ли график среднесуточные, среднемесячные или мгновенные значения расхода.
+2. Где расположен гидропост и какова площадь водосбора выше него.
+3. Были ли в рассматриваемый период изменения водозабора, режима водохранилища или русла.
+4. Есть ли пропуски наблюдений и насколько длинен ряд.
+5. Сопоставимы ли годы по температуре, осадкам и снежным запасам.
+
+**Учебное задание.** Возьмите многолетний ряд среднемесячного расхода одной реки. Постройте график по месяцам для нескольких лет, найдите месяц среднего максимума и минимума, а затем сравните годы с ранней и поздней весной. Не называйте причину различий установленной, пока не проверите температурные, осадочные и эксплуатационные данные.
+
+A hydrograph is a graph showing how river discharge changes over time. For Kyrgyzstan’s mountain rivers, it helps identify when most flow is generated and how snowmelt, glacier melt and other sources contribute to seasonal discharge.
+
+**Typical elements of an annual regime include:**
+
+- **Winter low flow.** During the cold season, much precipitation is stored as snow and surface runoff often decreases. Groundwater may sustain river flow, although its contribution varies among catchments.
+- **Spring rise.** Warming melts snow at lower and middle elevations. The timing depends on catchment elevation, slope aspect, temperature and precipitation.
+- **Summer high flow.** In catchments with substantial high-altitude snow and glacier contributions, discharge may remain high or increase during warm months. Other rivers reach their peak earlier, during intense seasonal snowmelt.
+- **Autumn recession.** As temperatures fall and melt decreases, discharge usually declines, although autumn rainfall and groundwater contributions can alter the hydrograph.
+
+This is not a universal pattern for every river. Catchment elevation and area, glacier coverage, aspect, geology, reservoirs, water abstraction and year-to-year weather variability can substantially change the regime.
+
+**Distinguishing flow sources.** Snowmelt often produces a seasonal rise after spring warming. Glacier melt can sustain summer flow during periods of intense ablation. Rainfall produces a faster response to precipitation, especially in small, steep catchments. Groundwater can smooth fluctuations and sustain flow during dry periods. In reality, these sources operate together, so a single peak does not prove that only one source controls the river.
+
+**Checks before interpreting a hydrograph:**
+1. Does the graph show instantaneous, daily mean or monthly mean discharge?
+2. Where is the gauging station, and what is the upstream catchment area?
+3. Did water abstraction, reservoir operation or channel conditions change during the period?
+4. Are there gaps in the observations, and how long is the record?
+5. Are the compared years similar in temperature, precipitation and snow storage?
+
+**Learning activity.** Obtain a multi-year series of monthly mean discharge for one river. Plot the monthly values for several years, identify the average maximum and minimum months, and compare years with early and late springs. Do not treat a proposed explanation as established until temperature, precipitation and operational data have been checked.
+
 ## 20.6. Озёра Кыргызстана / Lakes of Kyrgyzstan
 
 В Кыргызстане представлены озёра тектонического, ледникового, завального, карстового и смешанного происхождения. Они различаются по глубине, минерализации, площади, высоте расположения и степени связи с речной сетью.
