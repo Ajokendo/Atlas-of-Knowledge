@@ -101,6 +101,27 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 
 Названия «Северный», «Срединный» и «Южный Тянь-Шань» могут использоваться в физической географии, тектонике и региональной геологии с неодинаковыми границами. В атласе необходимо обозначать, какая именно схема применяется на конкретной карте.
 
+
+The territory of Kyrgyzstan includes parts of several major mountain regions.
+
+### Tien Shan
+
+The Tien Shan is an extensive mountain system of Central Asia, stretching eastward from the western parts of the region towards Xinjiang. In Kyrgyzstan, the Northern, Central and Southern Tien Shan are commonly distinguished as major physical-geographical and tectonic subdivisions. Their boundaries may differ between scientific classification schemes.
+
+**The Northern Tien Shan** includes mountain ranges and intermontane areas in the northern part of the country, including the Kyrgyz, Talas, Kungey Ala-Too and Terskey Ala-Too ranges. The Chuy, Talas and Issyk-Kul basins and valleys are important features of this area.
+
+**The Central Tien Shan** covers high mountain areas in the central and eastern parts of the country. It contains major ranges, high plateaus, glacier centres and the headwaters of large rivers. The Central Tien Shan is characterised by complex geology and high seismicity.
+
+**The Southern Tien Shan** includes mountain areas in the south and south-east, where folded and thrust structures, intermontane valleys and transition zones towards the Pamir–Alay are widespread.
+
+### Pamir–Alay
+
+The Pamir–Alay occupies a south-western position within the mountain system of Central Asia. In Kyrgyzstan, it is associated with the Alay Valley, the Alay and Trans-Alay ranges and adjoining high mountain areas. The Trans-Alay Range forms the northern margin of the Pamir mountain region; its geological and geomorphological setting should be considered separately from the Tien Shan proper.
+
+### Why classifications may differ
+
+The terms Northern, Central and Southern Tien Shan are used in physical geography, tectonics and regional geology, but their boundaries are not always identical. An atlas map should identify the specific classification scheme being used.
+
 ## 17.5. Межгорные впадины, долины и плато / Intermontane Basins, Valleys and Plateaus
 
 Межгорные впадины — важнейшие элементы географической структуры Кыргызстана. Они разделяют горные хребты, формируют местные климатические условия и концентрируют население, сельское хозяйство и транспортные связи.
