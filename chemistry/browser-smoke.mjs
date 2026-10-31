@@ -411,6 +411,14 @@ try {
     }
 
     if (file === "chapters/redox.html") {
+      if (!(await page.locator("[data-i=lead]").innerText()).includes("перераспределение электронной плотности")) {
+        errors.push(file + ": Russian redox introduction must distinguish ionic electron transfer from covalent electron-density redistribution");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=lead]").innerText()).includes("redistribution of electron density")) {
+        errors.push(file + ": English redox introduction must distinguish ionic electron transfer from covalent electron-density redistribution");
+      }
+      await page.locator("#lang").click();
       if (!(await page.locator("[data-i=stateNote]").innerText()).includes("условный заряд") || !(await page.locator("[data-i=stateNote]").innerText()).includes("реальному электрическому заряду")) {
         errors.push(file + ": Russian explanation must distinguish oxidation state from actual charge");
       }
