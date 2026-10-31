@@ -305,8 +305,8 @@ try {
       if (!(await page.locator("#moles").innerText()).startsWith("2")) {
         errors.push(file + ": custom molar-mass calculation is incorrect");
       }
-      await page.locator("#mass").fill("1e308");
-      await page.locator("#molar").fill("1e-100");
+      await page.locator("#mass").fill("1e300");
+      await page.locator("#molar").fill("1");
       if ((await page.locator("#moles").innerText()).trim() !== "—" || (await page.locator("#count").innerText()).trim() !== "—" || !(await page.locator("#calcFeedback").innerText()).includes("диапазон")) {
         errors.push(file + ": particle-count overflow was not rejected with a clear message");
       }
