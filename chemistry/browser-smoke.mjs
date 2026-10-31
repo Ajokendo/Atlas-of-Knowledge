@@ -1034,8 +1034,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 50) {
-        errors.push(file + ": expected 50 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 65) {
+        errors.push(file + ": expected 65 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1059,6 +1059,18 @@ try {
       await page.locator("#lang").click();
       await page.locator("#category").selectOption("all");
       await page.locator("#lang").click();
+      await page.locator("#search").fill("Henderson–Hasselbalch");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Henderson")) {
+        errors.push(file + ": glossary search did not find the Henderson–Hasselbalch equation");
+      }
+      await page.locator("#search").fill("galvanic cell");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Galvanic cell")) {
+        errors.push(file + ": glossary search did not find the galvanic-cell definition");
+      }
+      await page.locator("#search").fill("enzyme");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Enzyme")) {
+        errors.push(file + ": glossary search did not find the enzyme definition");
+      }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
         errors.push(file + ": English glossary is missing the relative atomic mass definition");
