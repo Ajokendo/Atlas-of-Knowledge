@@ -401,3 +401,12 @@ This checkpoint preserves the working context for continuation after a session i
 - Section 25.10 now has an English overview in addition to its previously existing English travel-time methodology subsection.
 - Chapter 25 is now structurally bilingual across sections 25.1–25.17 at the heading/block level. This does not by itself certify line-by-line equivalence, source validity, or factual currency.
 - Re-fetch the chapter and verify every numbered section has an English counterpart. Next audit: check dated macroeconomic claims and named administrative changes; verify reference links; inspect consistency of the English and Russian tables and terminology; then move to the next chapter with the largest bilingual gap.
+
+
+## Chapter 24 bilingual comparison framework — 1 November 2026
+
+- Added a complete English explanatory counterpart to section 24.1, including the distinction between administrative and physical-geographical units, the 2024 administrative-territorial reform, the 2025 renaming of Jalal-Abad city to Manas, and the need to date boundary references.
+- Added English versions of the comparative population/area/density table and the functional profiles of all seven regions in section 24.2.
+- Preserved the existing methodological warning about the 2023–2024 statistical discontinuity and the exclusion of Bishkek and Osh city populations from oblast totals.
+- Chapters 24.3–24.9 already contain expanded English regional profiles; sections 24.10–24.18 contain English comparative analysis, risk/planning content, visual briefs, practical exercises, key terms, review questions and editorial notes.
+- This pass improves structural bilingual parity; it does not certify the accuracy of every regional fact or source. Next audit should check the population and area figures against the exact NSC release, verify current administrative boundaries and regional centres, and inspect regional profiles for source dates and unsupported superlatives.
