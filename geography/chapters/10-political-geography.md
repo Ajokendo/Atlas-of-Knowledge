@@ -77,6 +77,23 @@ After studying this chapter, readers will be able to explain the scope of politi
 **Рисунок 10.2 / Figure 10.2 — Морские зоны по Конвенции ООН по морскому праву / Maritime zones under UNCLOS.**  
 Техническое задание: поперечная схема от побережья к открытому морю с исходной линией, внутренними водами, территориальным морем (до 12 морских миль), прилежащей зоной (до 24 морских миль от исходных линий), ИЭЗ (до 200 морских миль) и континентальным шельфом; отдельно показать, что ИЭЗ и континентальный шельф имеют разные правовые основания и что расстояния отсчитываются от исходных линий. Не изображать зоны как равные по ширине.
 
+
+### 10.5.1. Разобранный пример: перевод морских миль в километры / Worked Example: Converting Nautical Miles to Kilometres
+
+Одна морская миля равна ровно 1,852 км. Если для учебной задачи принять исходную линию за условную точку отсчёта и рассчитать предельную ширину морских зон:
+
+- территориальное море шириной до 12 морских миль: 12 × 1,852 = **22,224 км**;
+- исключительная экономическая зона, предел которой может достигать 200 морских миль от исходных линий: 200 × 1,852 = **370,4 км**.
+
+Это перевод единиц, а не способ самостоятельно провести юридическую границу на карте. В реальности расстояния измеряются от установленных исходных линий, учитываются географические особенности побережья, острова, возможное перекрытие зон соседних или противолежащих государств и применимые международные соглашения. ИЭЗ не означает, что всё пространство до 200 морских миль становится государственной территорией.
+
+One nautical mile is exactly 1.852 km. For a classroom calculation, if the baseline is treated as the reference point, the maximum breadths can be converted as follows:
+
+- territorial sea, up to 12 nautical miles: 12 × 1.852 = **22.224 km**;
+- exclusive economic zone, whose outer limit may extend up to 200 nautical miles from the baselines: 200 × 1.852 = **370.4 km**.
+
+This is a unit conversion, not a method for independently drawing a legally valid boundary on a map. In practice, distances are measured from established baselines; coastal geography, islands, overlapping claims involving neighbouring or opposite states, and applicable international agreements must also be considered. An EEZ does not mean that all waters out to 200 nautical miles become the state's territory.
+
 ## 10.6. Административно-территориальное устройство / Administrative and Territorial Organisation
 
 Государства организуют территорию для управления, представительства, предоставления услуг и распределения ресурсов. Административно-территориальные единицы могут называться областями, провинциями, штатами, землями, регионами, округами, районами или муниципалитетами.
