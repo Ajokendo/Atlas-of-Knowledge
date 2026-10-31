@@ -552,3 +552,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Added the Institute of Biology NAS KR–American Museum of Natural History collaboration reported on 14 October 2026: field material from the Issyk-Kul, Chu and Talas basins; preliminary identification completed, laboratory processing and analysis ongoing. It is not presented as a published final checklist.
 - Added four traceable references (FAO 2013 technical paper, FAO 2024 survey report, NAS KR 2026 institutional update, and the 2015 peer-reviewed basin review) and regression assertions for figures, localities, bilingual treatment, historical scope and ongoing-study caveats.
 - Static re-read from the committed branch confirmed the new section, all four source links and every new regression assertion. These are content-presence checks only: `checks.mjs` was not executed in a local checkout, and no CI pass is claimed. Overall Biology editorial readiness remains **80/100**; this is a second bounded regional-fauna improvement, not yet sufficient to raise the whole-atlas score to 85/100.
+
+## Scientific illustration generation plan — 1 November 2026
+- Added bilingual, in-context image-generation markers to the Biology landing page and all 12 chapter pages. Each marker gives a specific illustration title and a scientifically constrained brief in Russian and English.
+- The markers cover the ten global subject chapters and the two Kyrgyzstan regional biodiversity chapters, including habitat and oblast-level visuals. Existing SVG diagrams and interactive models were not counted as missing images.
+- Added `IMAGE_GENERATION_PLAN.md` as the central 52-item production checklist. It records each image's placement and subject, plus scientific review, taxonomic verification, accessibility and integration rules.
+- The Issyk-Kul and mountain-river freshwater illustration is explicitly marked; its fish must be limited to verified local taxa and must not contain invented labels or unsupported species.
+- All markers currently have status `planned`. No images are claimed as generated or integrated in this update.
