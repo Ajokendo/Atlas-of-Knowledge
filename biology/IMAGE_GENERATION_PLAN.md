@@ -10,7 +10,7 @@ This register mirrors the in-page illustration markers. Each marker is placed be
 - **P2 — useful complement:** visuals that deepen explanation or connect concepts, but are not essential before the main scientific content is usable.
 - **P3 — lower priority:** concepts already substantially represented by an SVG plate or interactive model. Generate only if a different visual mode adds a clear benefit; do not recreate the existing diagram as a near-duplicate.
 
-Priorities are editorial sequencing, not scientific approval. The audit counted 16 existing SVG elements across the 13 pages carrying planned briefs. It did not treat every SVG as a complete substitute: the comparison is topic-specific. Priority labels are mirrored in the in-page markers. Current allocation: **13 P1, 26 P2 and 13 P3**.
+Priorities are editorial sequencing, not scientific approval. The audit counted 16 existing SVG elements across the 13 pages carrying planned briefs. It did not treat every SVG as a complete substitute: the comparison is topic-specific. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 52 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 26 P2 and 13 P3**.
 
 
 ## Landing page
@@ -102,4 +102,5 @@ Priorities are editorial sequencing, not scientific approval. The audit counted 
 3. For species portraits, verify taxonomy, diagnostic morphology and Kyrgyzstan occurrence before generation.
 4. Review anatomy, proportions, ecological context and any text in the generated image; correct errors before publication.
 5. Integrate approved assets with responsive sizing, descriptive RU/EN alt text, captions and source/credit metadata where applicable.
-6. Change `[ ]` to `[x]` only after scientific review and successful integration. The presence of a generated image alone does not mean the task is complete.
+6. Every in-page note names the exact WebP target file and aspect ratio. Replace the matching note at its current location with a semantic `<figure>`; do not place the image elsewhere or duplicate it.
+7. Change `[ ]` to `[x]` only after scientific review and successful integration. The presence of a generated image alone does not mean the task is complete.
