@@ -137,6 +137,20 @@ The terms Northern, Central and Southern Tien Shan are used in physical geograph
 
 Плато и высокогорные поверхности, включая районы Ак-Сая и Арпа, отличаются суровым климатом, коротким вегетационным периодом и значительной ролью сезонных пастбищ. Они имеют большое значение для водосбора, биоразнообразия и традиционного природопользования.
 
+
+Intermontane basins are among the most important elements of Kyrgyzstan's geographical structure. They separate mountain ranges, shape local climatic conditions and concentrate population, agriculture and transport connections.
+
+Some of the best-known examples are:
+- **The Chuy Valley** — a northern intermontane plain containing Bishkek and a large share of the agricultural land of Chuy Region;
+- **The Talas Valley** — an intermontane area in the north-west of the country;
+- **The Issyk-Kul Basin** — a large high-altitude depression containing Lake Issyk-Kul and enclosed by the Kungey Ala-Too and Terskey Ala-Too ranges;
+- **The Naryn Valley and the system of internal basins** — a chain of high mountain valleys and intermontane areas in the Central Tien Shan;
+- **The Suusamyr Valley** — a high-altitude basin known for its pasture landscapes;
+- **The Fergana Valley** — a major intermontane region whose north-eastern periphery extends into Kyrgyzstan; and
+- **The Alay Valley** — a high mountain valley in the south of the country, between the Alay and Trans-Alay ranges.
+
+Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a harsh climate, a short growing season and an important role in seasonal grazing. They are also significant for catchment processes, biodiversity and traditional land use.
+
 ## 17.6. Геологическая летопись территории / Geological History of the Territory
 
 Геологическая история Кыргызстана охватывает миллиарды лет и включает несколько крупных этапов. Возраст отдельных пород, время их образования и время последующей деформации — разные характеристики. Например, древняя порода могла быть поднята, метаморфизована или включена в складчатый пояс значительно позднее своего первоначального формирования.
