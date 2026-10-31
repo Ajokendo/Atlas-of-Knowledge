@@ -79,6 +79,28 @@
 
 **Вызовы и перспективы.** Приоритеты — защита плодородных земель от хаотичной застройки, модернизация ирригации, очистка сточных вод, снижение загрязнения воздуха в агломерации Бишкек–Чуй, развитие общественного транспорта, переработка отходов и повышение энергоэффективности. Область имеет потенциал для агропромышленных кластеров, логистики, технологических услуг и рекреации при условии рационального землепользования.
 
+
+### Expanded English profile
+
+**Location and administrative structure.** Chuy Region lies in northern Kyrgyzstan. It borders Kazakhstan and the Talas, Jalal-Abad, Naryn and Issyk-Kul regions. Its area is approximately 20,200 km². Bishkek serves as the region's administrative centre but has the separate legal status of a city of republican significance; its population is therefore excluded from the region's demographic totals.
+
+**Relief and natural conditions.** The main settlement and economic zone is the Chuy Valley, bounded to the south by the Kyrgyz Ala-Too range. Eastward, the landscape rises towards the Kemin Valley and adjoining mountain areas; westward, it grades into foothill plains and valley landscapes. The marked elevation range creates a transition from dry lowlands to mountain forest, meadow and nival belts.
+
+**Climate and water.** The valley has a continental climate, with hot summers, relatively cold winters and strongly seasonal precipitation. Irrigation is essential to crop production. The principal waterways are the Chuy River and its tributaries, together with rivers descending from the Kyrgyz Ala-Too. Water use is connected to the transboundary Chuy basin and its interstate management arrangements.
+
+**Landscapes and biodiversity.** The plains include steppe, semi-desert and human-modified agricultural landscapes. Mountain areas support shrub communities, spruce and juniper woodlands, and subalpine and alpine meadows. Mountain gorges and valleys are important both for recreation and for the conservation of natural habitats.
+
+**Population and settlement.** On 1 January 2026, the region had approximately 983,700 residents. Population is concentrated in the Chuy Valley, along roads and around irrigation networks. Bishkek provides the country's largest labour and services market, but it must be treated separately in regional statistics. The capital's suburban expansion increases commuting and pressure on roads, water supply, housing and agricultural land.
+
+**Economy.** Chuy is one of the country's most diversified agricultural and industrial regions. Its agriculture includes cereals, sugar beet, vegetables, potatoes and fruit, alongside dairy and meat production. Important activities also include food processing, construction-material manufacturing, warehousing, logistics and trade. The scale of industrial activity should be assessed through enterprise statistics and value added, not simply by counting facilities.
+
+**Transport and connections.** Major road and rail links connect the region with Kazakhstan, Bishkek, the Issyk-Kul basin and other parts of the country. Good road access supports the concentration of warehouses, markets and production facilities. Key constraints include congestion on suburban roads, road safety, the condition of local roads and seasonal restrictions on mountain routes.
+
+**Heritage and tourism.** The historical sites of the Chuy Valley, archaeological remains of ancient settlements, Burana Tower, the Ala-Archa and Alamedin gorges, and routes across the Kyrgyz Ala-Too combine cultural and nature-based tourism. The formal protection status of each monument or protected area should be stated separately from its popularity as a visitor attraction.
+
+**Challenges and prospects.** Priorities include protecting fertile land from uncontrolled construction, modernising irrigation, treating wastewater, reducing air pollution in the Bishkek–Chuy urban area, improving public transport, managing waste and increasing energy efficiency. With sound land-use planning, the region has potential for agro-industrial clusters, logistics, technology-related services and recreation.
+
+
 ## 24.4. Таласская область / Talas Region
 
 **Положение и центр.** Таласская область находится на северо-западе страны, граничит с Казахстаном, Чуйской и Джалал-Абадской областями. Площадь — около 11,4 тыс. км²; административный центр — город Талас. Это наименьшая по площади область Кыргызстана.
