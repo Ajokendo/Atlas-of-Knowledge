@@ -403,6 +403,14 @@ try {
     }
 
     if (file === "chapters/redox.html") {
+      if (!(await page.locator("[data-i=stateNote]").innerText()).includes("условный заряд") || !(await page.locator("[data-i=stateNote]").innerText()).includes("реальному электрическому заряду")) {
+        errors.push(file + ": Russian explanation must distinguish oxidation state from actual charge");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=stateNote]").innerText()).includes("formal charge") || !(await page.locator("[data-i=stateNote]").innerText()).includes("actual electrical charge")) {
+        errors.push(file + ": English explanation must distinguish oxidation state from actual charge");
+      }
+      await page.locator("#lang").click();
       await page.locator("#ans").selectOption("zn");
       await page.locator("#check").click();
       if (!(await page.locator("#feedback").innerText()).includes("Верно")) {
