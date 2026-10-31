@@ -291,6 +291,7 @@ try {
     }
 
     if (file === "chapters/chemistry-of-life.html") {
+      if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("снижает pH морской воды") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("парниковый эффект")) errors.push(file + ": Russian environment note must connect carbon emissions, greenhouse effect and ocean acidification");
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("полимеры нуклеотидов") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("пентозу") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("дезоксирибоза") ||
@@ -302,6 +303,7 @@ try {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("seawater pH decreases") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("greenhouse effect")) errors.push(file + ": English environment note must connect carbon emissions, greenhouse effect and ocean acidification");
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("nucleotide polymers") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("pentose sugar") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("deoxyribose") ||
