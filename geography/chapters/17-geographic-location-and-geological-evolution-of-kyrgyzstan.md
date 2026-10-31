@@ -879,6 +879,18 @@ Compare the administrative map of the seven regions with maps of mountain system
 - Административные данные датировать; реформы могут менять число районов и айылных аймаков.
 - Все карты государственной границы, спорных и делимитированных участков подвергать отдельной правовой и картографической проверке.
 
+
+- Verify the country's area, border length, extreme-point coordinates and summit elevations against current national geodetic and statistical sources; state the date and measurement method.
+- For Khan Tengri, always distinguish the rocky summit from the elevation that includes the ice cap.
+- Do not confuse the physical-geographical, geomorphological and tectonic regionalisation schemes of the Tien Shan.
+- In the geological timescale, distinguish the age of a rock from the ages of metamorphism, intrusion, folding and later reactivation.
+- Explain modern uplift of the Tien Shan as a far-field intracontinental effect of the India–Eurasia collision; do not depict it as a simple plate boundary directly beneath Kyrgyzstan.
+- Represent the Talas–Fergana Fault as a complex regional zone and do not assign it one simplistic kinematic history.
+- Do not present seismic hazard as a prediction of a specific earthquake.
+- For mineral deposits, distinguish geological occurrence, explored reserves, resources, extraction and current industrial status.
+- Date administrative data; reforms may change the number of districts and rural municipalities.
+- Subject all maps of state borders, disputed areas and delimited sections to separate legal and cartographic review.
+
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
 1. Государственный портал Кыргызской Республики. **О Кыргызстане** — официальная справочная информация, включая площадь территории (199 951 км²): https://egov.kg/ru/about-country
