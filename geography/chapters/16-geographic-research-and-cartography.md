@@ -352,6 +352,36 @@ Keep original data separate from cleaned and derived layers. For every processin
 
 **Activity.** Prepare a one-page protocol for a hypothetical landslide-hazard study: question, data, period, methods, software versions, limitations, sensitive-data safeguards and steps needed to repeat the key analysis.
 
+### 16.18.1. Как проверить, не вводит ли карта в заблуждение / Checking Whether a Map Misleads
+
+Карта может быть технически аккуратной и при этом создавать неверное впечатление. Перед публикацией проверяют не только орфографию и качество изображения, но и то, соответствует ли способ визуализации данным и вопросу исследования.
+
+**Пять проверок перед выпуском:**
+
+1. **Знаменатель и нормирование.** Абсолютные числа часто отражают размер населения или территории. Для сравнения интенсивности могут понадобиться показатели на душу населения, площадь или число объектов риска — с ясным объяснением выбора знаменателя.
+2. **Классы легенды.** Интервалы должны быть понятны и не создавать искусственные скачки. Метод классификации (равные интервалы, квантиль, естественные разрывы и др.) указывают явно.
+3. **Цветовая шкала.** Последовательная шкала подходит для величин от малого к большому; расходящаяся — для отклонений вокруг осмысленного нуля или базового значения. Категории нельзя кодировать так, чтобы цвет создавал ложный порядок.
+4. **Площадные искажения.** На карте мира большие по площади страны визуально доминируют. Для показателей населения или экономики могут быть уместны картограммы, но их геометрическое искажение должно быть очевидно читателю.
+5. **Неопределённость и пропуски.** Отсутствие данных нельзя окрашивать как нулевое значение. Покажите пропуски, границы доверия или ограничения пространственного разрешения, если они влияют на вывод.
+
+**Практическая проверка.** Попросите читателя без пояснений ответить на вопрос, который должна раскрывать карта. Если он делает вывод, не поддерживаемый данными, проверьте легенду, заголовок, классификацию, подписи и масштаб. Альтернативная версия карты может показать, насколько результат зависит от выбранного метода.
+
+**Учебное задание.** Выберите карту с региональными показателями и подготовьте две версии: абсолютные значения и нормированные значения. Сравните, какие территории визуально выходят на первый план, и объясните, почему обе карты могут быть корректными, но отвечать на разные вопросы.
+
+A map can be technically polished and still create a misleading impression. Before publication, check not only spelling and image quality but also whether the visualisation matches the data and the research question.
+
+**Five checks before release:**
+
+1. **Denominator and normalisation.** Absolute counts often reflect population or area size. Comparing intensity may require rates per person, per unit area or per exposed asset, with the choice of denominator explained.
+2. **Legend classes.** Class intervals should be understandable and should not create artificial jumps. State the classification method (equal interval, quantile, natural breaks, etc.).
+3. **Colour scheme.** A sequential scheme suits values from low to high; a diverging scheme suits departures around a meaningful zero or baseline. Categories should not be coloured in a way that implies a false order.
+4. **Area distortion.** Large countries dominate world maps visually. Cartograms may be appropriate for population or economic indicators, but their geometric distortion must be clear to readers.
+5. **Uncertainty and missing data.** Missing data must not be coloured as zero. Show gaps, confidence limits or spatial-resolution constraints where they affect interpretation.
+
+**Practical check.** Ask a reader to answer the question the map is intended to address without additional explanation. If the reader draws a conclusion unsupported by the data, review the legend, title, classification, labels and scale. An alternative map can reveal how much the result depends on the selected method.
+
+**Activity.** Select a map with regional indicators and prepare two versions: absolute values and normalised values. Compare which areas become visually prominent and explain why both maps may be valid while answering different questions.
+
 ## 16.19. Итоги главы / Chapter Summary
 
 1. Географическое исследование проходит от постановки вопроса и сбора данных до анализа, интерпретации и представления результатов.
