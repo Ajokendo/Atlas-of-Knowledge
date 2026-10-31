@@ -457,12 +457,21 @@ try {
 
     if (file === "chapters/chemical-reactions.html") {
       const kineticText = page.locator("main");
+      if (!(await page.locator(".formula").filter({hasText:"Δ[A]"}).count())) {
+        errors.push(file + ": reaction-rate formula must account for stoichiometric coefficients");
+      }
+      if (!(await page.locator("[data-i=rateText]").innerText()).includes("стехиометрическими коэффициентами")) {
+        errors.push(file + ": Russian reaction-rate definition must account for stoichiometric coefficients");
+      }
       for (const phrase of ["Скорость реакции", "Динамическое равновесие", "энергией активации"]) {
         if (!(await kineticText.innerText()).includes(phrase)) {
           errors.push(file + ": Russian kinetics/equilibrium explanation is missing: " + phrase);
         }
       }
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=rateText]").innerText()).includes("stoichiometric coefficients")) {
+        errors.push(file + ": English reaction-rate definition must account for stoichiometric coefficients");
+      }
       for (const phrase of ["Reaction rate", "Dynamic equilibrium", "activation energy"]) {
         if (!(await kineticText.innerText()).includes(phrase)) {
           errors.push(file + ": English kinetics/equilibrium explanation is missing: " + phrase);
