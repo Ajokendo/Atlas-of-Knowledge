@@ -271,6 +271,8 @@ try {
 
     if (file === "chapters/chemistry-of-life.html") {
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("полимеры нуклеотидов") ||
+          !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("пентозу") ||
+          !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("дезоксирибоза") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("синтезе белка")) {
         errors.push(file + ": Russian nucleic-acid explanation is incomplete");
       }
@@ -279,7 +281,9 @@ try {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       await page.locator("#lang").click();
-      if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("polymers of nucleotides") ||
+      if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("nucleotide polymers") ||
+          !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("pentose sugar") ||
+          !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("deoxyribose") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("protein synthesis")) {
         errors.push(file + ": English nucleic-acid explanation is incomplete");
       }
