@@ -250,3 +250,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Added an English counterpart to section 17.5 on intermontane basins, valleys and plateaus, retaining the distinction between geographic regions and administrative units.
 - Added a complete English counterpart to section 17.6 on Precambrian basement, Palaeozoic ocean basins and accretion, Mesozoic sedimentation and Cenozoic renewed mountain building.
 - The translations preserve the scientific distinction between the age of a rock and the age of its later deformation, and avoid presenting the Tien Shan as a geologically uniform block.
+
+
+## Follow-up bilingual development — Chapter 17, tectonics and seismicity (1 November 2026)
+
+- Added full English explanatory counterparts to section 17.7 on the tectonic mosaic of Kyrgyzstan, structural blocks and the Talas–Fergana Fault.
+- Added the English counterpart to section 17.8 on active intracontinental deformation, earthquake mechanisms, seismic hazard and seismic risk.
+- Preserved the distinction between hazard and risk and the warning that hazard maps do not predict the date or location of a future earthquake.
+- The English explanations complement the existing bilingual worked example in section 17.8.1.
