@@ -423,6 +423,7 @@ The score should increase only when evidence for the relevant checklist items is
 ### AviList version currency correction — 1 November 2026
 - Replaced the v2025 reference with AviList v2026, published on 20 October 2026, the first major revision and the current checklist at the time of this audit.
 - Updated the fauna chapter's bilingual methodology note and bibliography to the v2026 checklist page.
+- Added the checklist's recommended formal citation DOI: https://doi.org/10.2173/avilist.v2026 (resolves to the official v2026 checklist page).
 - The v2026 release includes taxonomic decisions, a major review of taxonomic sequence, revised range statements (including species-level statements for polytypic species), and updated links to BirdLife v10 and eBird/Clements v2026.
 - Clarified that global range information is context for checking distribution, not independent evidence of occurrence at a particular Kyrgyz locality. National and site-level records still require their own sources.
 - A full species-by-species comparison of all bird names and local records remains in progress; the editorial-readiness score therefore remains **99/100**, not 100/100.
