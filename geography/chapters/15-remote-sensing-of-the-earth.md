@@ -326,6 +326,28 @@ When different seasons are compared, describe the result as a seasonal differenc
 
 Коммерческая доступность снимка не отменяет требований законодательства, лицензии и ответственного обращения с данными. Для публикации чувствительных координат следует оценивать возможный вред.
 
+### 15.13.1. Как отличать реальное изменение от различий съёмки / Separating Real Change from Image Differences
+
+Разность двух спутниковых изображений не всегда означает изменение земной поверхности. Снимки могли быть получены в разные сезоны, при разной облачности, освещённости, влажности почвы, угле наблюдения или разными сенсорами.
+
+Перед сравнением проверяют геометрическую регистрацию, сопоставимость сезонов и дат, маски облаков и теней, атмосферную коррекцию, разрешение, спектральные диапазоны и радиометрическую калибровку. Необходимо документировать алгоритм и порог обнаружения изменений.
+
+В горах интерпретацию усложняют снег, тени склонов и различия сезонного развития растительности по высотным поясам. Например, снижение растительного индекса летом по сравнению с весной может отражать сезонную фенологию, а не деградацию пастбища.
+
+**Проверка.** Выборочные полевые наблюдения, геопривязанные фотографии и независимые данные помогают подтвердить интерпретацию. Для классификации используют матрицу ошибок по независимой выборке; общая точность может скрывать слабое распознавание редких классов.
+
+**Задание.** Сравните два условных снимка одного водосбора, сделанных весной и летом. Перечислите факторы, которые нужно контролировать, прежде чем объявлять снижение растительного индекса деградацией, и предложите способ проверки на местности.
+
+A difference between two satellite images does not always indicate a change on the Earth's surface. Images may have been acquired in different seasons, under different cloud, illumination, soil-moisture or viewing-angle conditions, or by different sensors.
+
+Before comparison, check geometric registration, comparable seasons and dates, cloud and shadow masks, atmospheric correction, resolution, spectral bands and radiometric calibration. Document the change-detection algorithm and threshold.
+
+In mountain areas, snow, slope shadows and seasonal vegetation differences across elevation belts complicate interpretation. For example, a lower vegetation index in summer than in spring may reflect seasonal phenology rather than pasture degradation.
+
+**Validation.** Sample field observations, georeferenced photographs and independent data help confirm an interpretation. Classification should be assessed with an error matrix based on an independent sample; overall accuracy may conceal poor detection of rare classes.
+
+**Activity.** Compare two hypothetical images of the same catchment acquired in spring and summer. List the factors to control before interpreting a lower vegetation index as degradation, and propose a field-validation method.
+
 ## 15.16. Итоги главы / Chapter Summary
 
 1. ДЗЗ позволяет получать информацию о поверхности и атмосфере без непосредственного контакта с объектом.
