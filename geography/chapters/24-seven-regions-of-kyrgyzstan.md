@@ -281,6 +281,28 @@
 
 **Вызовы и перспективы.** Основные проблемы — водный стресс в орошаемых районах, деградация почв, давление на городскую инфраструктуру Оша, сезонная миграция, доступность социальных услуг в удалённых горных районах и природные опасности. Приоритеты — эффективное орошение, агрологистика, переработка, безопасные дороги, развитие горного туризма и укрепление связей между долинными рынками и высокогорными районами.
 
+
+### Expanded English profile
+
+**Location and administrative centre.** Osh Region is in southern Kyrgyzstan. It borders Batken, Jalal-Abad and Naryn regions, as well as China, Tajikistan and Uzbekistan. Its area is approximately 29,000 km². The city of Osh is the region's administrative centre, but it has a separate status as a city of republican significance and is excluded from the region's population total.
+
+**Relief.** The region includes part of the Fergana Valley and its foothills, the Alay Valley, and the Alay and Trans-Alay mountain areas. Its elevation range is exceptionally wide, extending from low foothills to high peaks of the Pamir-Alay system. This diversity drives sharp changes in climate, vegetation and economic activity.
+
+**Climate and water.** Summers in the Fergana part are hot and dry, and agriculture depends heavily on irrigation. The Alay Valley is cooler, while high mountain areas have a severe climate. Water resources are associated with the Kara Darya, Ak-Buura and numerous mountain-river basins. Seasonal river flow and competing demands for irrigation, household supply and ecological needs require integrated water management.
+
+**Landscapes.** Lower elevation belts include agricultural landscapes, dry steppes and foothill shrub communities. Higher areas contain open juniper woodland, mountain meadows, rocky terrain and nival environments. Pastures are especially important in the Alay and Chon-Alay valleys.
+
+**Population.** At the beginning of 2026, the region had approximately 1,438,500 residents, making it the most populous of the seven regions. Population is concentrated in the Fergana part and the larger valleys. The city of Osh is a separate urban centre that provides services, education, healthcare, trade and transport connections to the wider region.
+
+**Economy.** The valley zone supports vegetable growing, horticulture, cotton in suitable areas, cereals and livestock husbandry. Kara-Suu is an important trade and logistics hub. Livestock, pasture-based activities and tourism services are more prominent in the mountain areas. Processing, storage, grading and export of agricultural products can increase the value retained within the region.
+
+**Transport.** Osh is a key transport hub in southern Kyrgyzstan. Roads through the region connect with Batken, Jalal-Abad, the Alay Valley and the Irkeshtam border crossing on the route towards China. The Taldyk Pass and high-altitude road sections require attention to weather, avalanches, landslides and debris flows.
+
+**Culture and heritage.** The region is connected with the history of the Fergana Valley, ancient settlements, crafts, trade and cultural routes. Sulayman-Too is located within the city of Osh and is a UNESCO World Heritage property; it should not be counted statistically as part of the region's territory, although it is a central cultural landmark for the wider southern macro-region.
+
+**Challenges and prospects.** Key issues include water stress in irrigated areas, soil degradation, pressure on Osh's urban infrastructure, seasonal migration, access to social services in remote mountain communities and natural hazards. Priorities include efficient irrigation, agricultural logistics, processing, safer roads, mountain tourism and stronger connections between valley markets and high-altitude areas.
+
+
 ## 24.9. Баткенская область / Batken Region
 
 **Положение и центр.** Баткенская область расположена на юго-западе страны и граничит с Ошской областью, Таджикистаном и Узбекистаном. Площадь — около 17,0 тыс. км²; административный центр — город Баткен. Регион включает Ферганские предгорья, межгорные долины и горные территории.
