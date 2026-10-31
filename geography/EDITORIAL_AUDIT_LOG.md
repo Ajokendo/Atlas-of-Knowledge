@@ -303,3 +303,12 @@ This checkpoint preserves the working context for continuation after a session i
 - Defined the NDC scenario labels used in the source: With Measures (WM) for unconditional measures and With Additional Measures (WAM) for measures dependent on international support.
 - Added a full English counterpart to section 26.2, including climate impacts and the corrected NDC methodology.
 - Sources checked: UNFCCC NDC 3.0 submission and the Kyrgyz Ministry of Natural Resources climate-policy page. Chapter 26 source list now includes the official UNFCCC submission record.
+
+
+## Follow-up bilingual development — Chapter 26, water security and land degradation (1 November 2026)
+
+- Added complete English counterparts to sections 26.3 (glaciers, snow and water security) and 26.4 (land, soils and pastures).
+- Updated the 2025 National Statistical Committee water figures to their exact published values: abstraction from natural sources 8,938.4 million m³; water consumption 6,224.9 million m³; irrigation and agricultural water supply 5,821.1 million m³.
+- Clarified that these are recorded annual flows, not an estimate of the country's total renewable water resources.
+- Preserved UNEP's 70% pasture-degradation figure as an aggregated international estimate, not a parcel-by-parcel national field survey.
+- Source: NSC open data, Protection and Rational Use of Water Resources: https://stat.gov.kg/en/opendata/category/3216/
