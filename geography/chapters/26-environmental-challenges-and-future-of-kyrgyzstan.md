@@ -744,6 +744,39 @@ This is a substantial volume, but it should not automatically be described entir
 ### Работа 8. Сценарий климатически устойчивого села
 Разработайте план адаптации для сельского населённого пункта с учётом воды, пастбищ, дорог, жилья, здоровья, раннего предупреждения и доходов домохозяйств.
 
+
+### Practical work 1. Climate trend
+
+Select a weather station and obtain the longest available time series of temperature and precipitation. Calculate a linear trend, compare seasonal changes and explain the limitations of a short record.
+
+### Practical work 2. Basin water balance
+
+Prepare a simplified water balance for a selected river basin: precipitation, evaporation, surface and groundwater runoff, abstraction and return flows. Distinguish water stocks from flows measured over a period.
+
+### Practical work 3. Pasture monitoring
+
+Use satellite images from different years and field observations to assess changes in vegetation cover. Do not interpret NDVI as a direct measurement of degradation without checking precipitation, seasonality and vegetation type.
+
+### Practical work 4. Air-pollution map
+
+Collect data from official monitoring stations. Compare them with roads, heating sources, building density and relief. State the spatial and temporal limitations of the measurements.
+
+### Practical work 5. Debris-flow risk assessment
+
+Identify a hazardous catchment, settlements, roads and social facilities within the area of potential impact. Prepare a hazard, exposure and vulnerability map and propose warning and prevention measures.
+
+### Practical work 6. Settlement waste audit
+
+Assess the sources, composition, collection, transport, recycling and disposal of waste. Propose a system for waste prevention and separate collection.
+
+### Practical work 7. Environmental assessment of an industrial site
+
+Identify potential pollutants, migration pathways, sensitive receptors, control measures and obligations for closure and land rehabilitation.
+
+### Practical work 8. Climate-resilient village scenario
+
+Develop an adaptation plan for a rural settlement that addresses water, pastures, roads, housing, health, early warning and household incomes.
+
 ## 26.16. Технические задания для визуалов / Visual Production Briefs
 
 1. **Климатические изменения Кыргызстана.** Карта температурных трендов по метеостанциям с периодом наблюдения, единицами и доверительными интервалами; не интерполировать данные без методики.
