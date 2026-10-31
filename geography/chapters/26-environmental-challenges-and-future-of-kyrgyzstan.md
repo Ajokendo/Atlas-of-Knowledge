@@ -38,6 +38,26 @@
 
 NDC 3.0 рассматривает адаптацию как стратегический приоритет и выделяет водные ресурсы, энергетику, сельское хозяйство, леса и биоразнообразие, снижение риска бедствий, города и здоровье. Документ предусматривает водосберегающие технологии, климатически устойчивое сельское хозяйство, возобновляемую энергетику, энергоэффективное строительство, укрепление мониторинга и институционального потенциала.
 
+
+According to UNEP, the average annual temperature in Kyrgyzstan increased by approximately 1.2°C between 1960 and 2023—about twice the global figure cited in the same assessment. This is a national estimate for a defined period, not a universal description of every district: local trends vary by elevation, season and geographic location.
+
+Warming is reflected in changes to the length of the snow season, the timing of spring melt, the frequency of hot periods, evaporation and the conditions under which river runoff forms. Precipitation does not necessarily change in the same way in every region. Annual totals matter, but so do seasonal distribution, rainfall intensity, the share of precipitation falling as snow or rain, and the sequence of dry and wet periods.
+
+### Main climate impacts
+
+1. **Cryosphere.** Warming changes glacier mass balance and the area of seasonal snow cover. In the short term, increased melting may raise runoff in some rivers; over the long term, loss of glacier storage reduces the natural buffer that supports water supply.
+2. **Water resources.** The seasonality and reliability of river flow change, while competition increases among drinking-water supply, irrigation, energy production and ecological needs.
+3. **Agriculture.** Higher temperatures and evaporation increase water demand, alter planting and harvesting dates, and raise the risk of heat stress for crops and livestock.
+4. **Pastures.** Drought, changes in snow conditions and excessive grazing pressure can reduce pasture productivity and alter vegetation composition.
+5. **Natural hazards.** More intense precipitation and unstable mountain slopes may increase the risk of particular floods, debris flows and landslides. Causal links must be assessed separately for each hazard type.
+6. **Health.** Heat, air pollution, changes in the distribution of disease vectors and interruptions to water supply may affect health, particularly among children, older people and rural communities.
+
+### Climate commitments
+
+In 2025, the Kyrgyz Republic submitted its third Nationally Determined Contribution, NDC 3.0. It sets targets for reducing net greenhouse-gas emissions relative to the **projected baseline scenario** for each target year: by 2030, 18% unconditionally and 30% with international support; by 2035, 16% unconditionally and 39% with international support. NDC 3.0 also identifies 2017 as the reference year. However, the target percentages are not simple reductions from the observed emissions level in 2017: the accounting method compares net emissions in 2030 and 2035 with the projected baseline levels for those same years. The unconditional scenario is called **With Measures (WM)**, while the conditional scenario is called **With Additional Measures (WAM)**; the additional measures depend on international support. The percentages should therefore always be quoted together with the scenario type and accounting method, and must not be described as absolute reductions from an arbitrarily selected historical year.
+
+NDC 3.0 treats adaptation as a strategic priority and identifies water resources, energy, agriculture, forests and biodiversity, disaster-risk reduction, cities and health as key areas. It provides for water-saving technologies, climate-resilient agriculture, renewable energy, energy-efficient buildings, and stronger monitoring and institutional capacity.
+
 ## 26.3. Ледники, снег и водная безопасность / Glaciers, Snow and Water Security
 
 Ледники Кыргызстана — важнейший элемент природного капитала Тянь-Шаня и Памиро-Алая. Они накапливают воду в холодный период и высвобождают её в тёплый сезон. Однако ледниковый сток нельзя считать постоянным и гарантированным источником: его вклад меняется между бассейнами, годами и стадиями дегляциации.
