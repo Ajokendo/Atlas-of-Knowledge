@@ -684,6 +684,17 @@ try {
       await page.locator("#a").fill("1");
       await page.locator("#b").fill("1");
       await page.locator("#c").fill("1");
+      await page.locator("#na").fill("1");
+      await page.locator("#nb").fill("1");
+      await page.locator("#actual").fill("");
+      await page.locator("#na").dispatchEvent("input");
+      if (!(await page.locator("#left").innerText()).includes("Избытка реагента нет")) {
+        errors.push(file + ": exact stoichiometric proportions must report that no excess reactant remains");
+      }
+
+      await page.locator("#a").fill("1");
+      await page.locator("#b").fill("1");
+      await page.locator("#c").fill("1");
       await page.locator("#na").fill("0.000000000001");
       await page.locator("#nb").fill("0.000000001");
       await page.locator("#actual").fill("");
