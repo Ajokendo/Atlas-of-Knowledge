@@ -322,7 +322,7 @@ try {
       }
       await page.locator("#lang").click();
       await page.locator("#n").fill("1");
-      await page.locator("#v").fill("1e-320");
+      await page.locator("#v").fill("1e-323");
       if ((await page.locator("#result").innerText()).trim() !== "c = —" ||
           !(await page.locator("#feedback").innerText()).includes("числовой диапазон")) {
         errors.push(file + ": numeric overflow was displayed as a valid molar concentration");
