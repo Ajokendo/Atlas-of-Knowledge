@@ -216,3 +216,10 @@ This checkpoint preserves the working context for continuation after a session i
 - Added English versions of the ten review questions in section 24.16.
 - Expanded the key-terms table in section 24.15 so that definitions are provided in both Russian and English, rather than translating terminology alone.
 - The additions preserve the chapter's methodological cautions on official boundaries, data dates, uncertainty, accessibility and environmental risk.
+
+
+## Follow-up bilingual development — Chapter 24, scientific notes (1 November 2026)
+
+- Added English counterparts to the scientific and editorial notes in section 24.17.
+- The notes preserve the data date and resident-population definition, the calculated (non-official) nature of density values, separate treatment of Bishkek and Osh, current city/region naming, dated administrative-unit counts, infrastructure status distinctions, evidence requirements for economic specialisation, neutral border terminology, protected-area category distinctions and source requirements for resource statistics.
+- This closes an important language gap in the chapter's publication caveats; the references and full chapter still require final source and editorial review.
