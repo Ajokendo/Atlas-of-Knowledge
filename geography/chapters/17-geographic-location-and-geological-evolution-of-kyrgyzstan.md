@@ -294,6 +294,114 @@ Impact assessment should cover the entire life cycle, not just the extraction pe
 
 Административные границы предназначены для управления и статистического учёта. Они не всегда совпадают с границами природных бассейнов, ландшафтов, этнокультурных районов или рынков труда. Для географического анализа важно выбирать территориальные единицы в соответствии с исследовательским вопросом.
 
+### 17.12.1. Государственная граница как географическая система: делимитация, демаркация и приграничные связи / The State Border as a Geographic System: Delimitation, Demarcation and Cross-Border Connections
+
+Государственная граница — это юридически установленная линия, отделяющая территорию одного государства от территории другого. В географии важно рассматривать её не только как линию на карте, но и как систему пространственных отношений: по разные стороны границы могут находиться связанные долины, пастбища, дороги, рынки, водные объекты и родственные сообщества. При этом государственная граница сохраняет юридическое значение и регулирует пересечение территории, перемещение людей и товаров и использование отдельных ресурсов.
+
+#### Делимитация и демаркация: два разных этапа
+
+**Делимитация** — согласование прохождения государственной границы и её юридическое описание в договоре, протоколах и картографических приложениях. На этом этапе государства определяют, где должна проходить линия границы на картах и в правовых документах.
+
+**Демаркация** — перенос согласованной линии на местность: совместные полевые работы, установка пограничных знаков, определение координат и подготовка демаркационных документов.
+
+Подписание договора, его ратификация, вступление в силу и завершение демаркации — не одно и то же. Поэтому карта должна указывать, какое именно состояние отражено: согласованная договорная линия, линия с установленными пограничными знаками или граница, по которой ещё продолжаются технические работы.
+
+#### Кыргызско-таджикская граница: соглашение и практическая демаркация
+
+13 марта 2025 года президенты Кыргызстана и Таджикистана подписали Договор о государственной границе. Жогорку Кенеш принял закон о его ратификации 19 марта 2025 года. В рамках того же визита были подписаны отдельные соглашения о доступе к водохозяйственным и энергетическим объектам и о строительстве и использовании автомобильных дорог и дорожных пересечений.
+
+В июле 2026 года Кабинет Министров Кыргызстана сообщил о начале установки первых пограничных столбов в рамках демаркационных работ. 14 июля представители двух стран совместно установили четыре знака на участке, начинающемся от точки стыка границ Кыргызстана, Таджикистана и Узбекистана. В официальном сообщении указана общая протяжённость кыргызско-таджикской границы 1 008,14 км и периметр участков земель с нейтральным статусом 14,07 км.
+
+Эти сведения показывают разницу между политико-правовым согласованием линии и её последовательным обозначением на местности. Сам факт установки первых знаков не означает, что все демаркационные работы уже завершены.
+
+#### Кыргызско-узбекская граница: договорные участки и совместное использование объектов
+
+Работа по согласованию и демаркации кыргызско-узбекской границы проходила поэтапно. В 2022 году был подписан договор об отдельных участках границы общей протяжённостью 302,29 км, который был ратифицирован Кыргызстаном в ноябре 2022 года. В июле 2026 года официальное сообщение правительства Узбекистана подтвердило подписание нового договора об отдельных участках кыргызско-узбекской государственной границы. В числе документов того же обмена были соглашение о совместном использовании источника Чашма и протоколы, связанные с пунктами пропуска и взаимными поездками граждан.
+
+При описании этих событий важно не делать вывод, что один договор об отдельных участках автоматически описывает всю государственную границу. Юридический охват каждого соглашения определяется его текстом и приложениями. Дату подписания также нельзя автоматически считать датой завершения демаркации.
+
+#### Приграничные территории как зоны взаимодействия
+
+Приграничье — не только территория контроля и охраны. Это также пространство ежедневных хозяйственных и социальных связей. Для жителей приграничных районов большое значение имеют:
+- доступ к дорогам, рынкам, школам и медицинским учреждениям;
+- режим работы пунктов пропуска и время пересечения границы;
+- сезонный выпас скота и доступ к пастбищам;
+- использование каналов, водозаборов и иных водохозяйственных сооружений;
+- торговля, трудовая мобильность и семейные связи;
+- совместная профилактика паводков, селей, пожаров и других природных рисков.
+
+Географический анализ приграничья должен учитывать одновременно юридический режим, транспортную доступность, природные бассейны и реальные потребности местного населения. Административная близость к пункту пропуска сама по себе не гарантирует лёгкого пересечения границы: значение имеют его статус, режим работы, инфраструктура, документы и действующие правила.
+
+#### Как читать карту государственной границы Кыргызстана
+
+Перед использованием карты проверьте пять элементов:
+
+1. **Дату и источник.** Кто подготовил карту и на какую дату отражено состояние границы?
+2. **Правовой статус линии.** Показывает ли карта государственную границу, согласованный участок, административную границу или условную линию?
+3. **Легенду.** Различаются ли государственная граница, участки демаркации, пункты пропуска, дороги и водные объекты?
+4. **Масштаб и точность.** Подходит ли масштаб для анализа конкретного участка? Обзорная карта страны не предназначена для определения положения пограничного знака на местности.
+5. **Оговорки и приложения.** Есть ли ссылка на договор, протокол или официальный геодезический набор данных?
+
+Не следует самостоятельно уточнять или «исправлять» прохождение международной границы по спутниковому снимку, бытовой карте или изображению из социальных сетей. Для юридического положения линии нужны официальные договорные и геодезические материалы. Спутниковые снимки помогают анализировать дороги, застройку и ландшафт, но сами по себе не устанавливают государственную границу.
+
+**Практический пример.** На обзорной карте показаны государственная граница, автомобильная дорога и пункт пропуска. Дорога пересекает границу в одной точке, но это не означает, что пересечь её можно в любом месте вдоль дороги. Разрешённое пересечение связано с официальным пунктом пропуска и действующим режимом.
+
+**Учебное задание.** Найдите официальную карту Кыргызстана и отдельно отметьте государственные границы, пункты пропуска, крупные долины и трансграничные речные бассейны. Составьте краткое пояснение, какие элементы являются юридическими, какие — физико-географическими, а какие — транспортными. Не выводите правовой статус участка только по цвету линии на карте.
+
+#### 17.12.1. The State Border as a Geographic System: Delimitation, Demarcation and Cross-Border Connections
+
+A state border is a legally established line separating the territory of one country from that of another. Geography treats it not only as a line on a map but also as a system of spatial relationships: valleys, pastures, roads, markets, water bodies and communities on opposite sides may remain closely connected. The border nevertheless retains its legal force and regulates territorial access, the movement of people and goods, and the use of certain resources.
+
+##### Delimitation and demarcation: two different stages
+
+**Delimitation** is the agreement on the course of a state border and its legal description in a treaty, protocols and cartographic annexes. At this stage, states determine where the border line is to run on maps and in legal documents.
+
+**Demarcation** transfers the agreed line to the ground. It involves joint fieldwork, the installation of boundary markers, the determination of coordinates and the preparation of demarcation records.
+
+Signing a treaty, ratifying it, bringing it into force and completing demarcation are not the same event. A map must therefore state which situation it represents: an agreed treaty line, a line marked by boundary pillars, or a border where technical work is still continuing.
+
+##### The Kyrgyz–Tajik border: agreement and practical demarcation
+
+On 13 March 2025, the presidents of Kyrgyzstan and Tajikistan signed a Treaty on the State Border. The Jogorku Kenesh adopted the ratification law on 19 March 2025. During the same state visit, the parties also signed separate agreements on access to water-management and energy facilities and on the construction and use of roads and road intersections.
+
+In July 2026, the Cabinet of Ministers of Kyrgyzstan reported the start of installing the first boundary pillars as part of demarcation work. On 14 July, representatives of the two countries jointly installed four markers at a section beginning at the tripoint of Kyrgyzstan, Tajikistan and Uzbekistan. The official statement gives the total length of the Kyrgyz–Tajik border as 1,008.14 km and the perimeter of land plots with neutral status as 14.07 km.
+
+These facts illustrate the difference between political and legal agreement on a border line and its gradual marking on the ground. The installation of the first markers does not mean that all demarcation work has been completed.
+
+##### The Kyrgyz–Uzbek border: treaty sections and shared facilities
+
+Work on the agreement and demarcation of the Kyrgyz–Uzbek border has proceeded in stages. In 2022, a treaty was signed on certain border sections with a combined length of 302.29 km; Kyrgyzstan ratified it in November 2022. In July 2026, an official statement by the Government of Uzbekistan confirmed the signing of a new treaty on certain sections of the Kyrgyz–Uzbek state border. The same exchange of documents included an agreement on the joint use of the Chashma spring and protocols related to border checkpoints and mutual travel by citizens.
+
+These developments should not be interpreted as meaning that one treaty on selected sections automatically describes the entire state border. The legal scope of each agreement is determined by its text and annexes. The date of signature must also not be treated automatically as the date when demarcation is complete.
+
+##### Borderlands as areas of interaction
+
+A borderland is not only an area of control and security. It is also a space of everyday economic and social connections. For residents of border districts, important factors include:
+- access to roads, markets, schools and medical services;
+- checkpoint operating hours and border-crossing time;
+- seasonal livestock movement and access to pastures;
+- the use of canals, water intakes and other water-management facilities;
+- trade, labour mobility and family connections;
+- joint prevention of floods, debris flows, fires and other natural hazards.
+
+Geographic analysis of borderlands must consider the legal regime, transport accessibility, natural catchments and the real needs of local communities. Being geographically close to a checkpoint does not by itself guarantee easy border crossing: its status, operating hours, infrastructure, required documents and applicable rules all matter.
+
+##### How to read a map of Kyrgyzstan’s state borders
+
+Before using a map, check five elements:
+
+1. **Date and source.** Who prepared the map, and as of what date does it show the border situation?
+2. **Legal status of the line.** Does the map show a state border, an agreed section, an administrative boundary or a schematic line?
+3. **Legend.** Are the state border, demarcated sections, checkpoints, roads and water bodies distinguished?
+4. **Scale and accuracy.** Is the scale suitable for analysing the specific section? A country overview map is not designed to locate an individual boundary marker on the ground.
+5. **Notes and annexes.** Does the map refer to a treaty, protocol or official geodetic dataset?
+
+Do not independently determine or “correct” an international border using a satellite image, a general-purpose map or a social-media image. The legal position of a border line requires official treaty and geodetic materials. Satellite imagery can help analyse roads, settlement and landscape, but it does not establish a state border by itself.
+
+**Worked example.** An overview map shows a state border, a road and a checkpoint. The road crosses the border at one point, but this does not mean that the border can be crossed anywhere along the road. Permitted crossing is linked to an official checkpoint and the applicable border regime.
+
+**Learning activity.** Find an official map of Kyrgyzstan and separately mark state borders, checkpoints, major valleys and transboundary river basins. Write a short explanation identifying which elements are legal, which are physical-geographical and which are transport-related. Do not infer the legal status of a border section from the colour of a line on a map alone.
+
 ## 17.13. Географическое положение как фактор региональных различий / Location as a Driver of Regional Differences
 
 Различия между регионами страны обусловлены сочетанием положения, высоты, рельефа, климата, водных ресурсов, почв, транспортной доступности и исторически сложившегося расселения.
@@ -518,6 +626,14 @@ A geographical name is more than a map label. A feature may have an official for
 - Все карты государственной границы, спорных и делимитированных участков подвергать отдельной правовой и картографической проверке.
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
+
+9. Президент Кыргызской Республики. **По итогам переговоров 13 марта 2025 года подписан Договор между Кыргызской Республикой и Республикой Таджикистан о государственной границе**: https://president.kg/ru/news/all/38919
+10. Централизованный банк данных правовой информации КР. **Постановление Жогорку Кенеша от 19 марта 2025 года № 2912-VII о ратификации Договора о кыргызско-таджикской государственной границе**: https://cbd.minjust.gov.kg/230024463/edition/29362/ru
+11. Кабинет Министров Кыргызской Республики. **Начало установки первых пограничных столбов в рамках демаркации кыргызско-таджикской границы**, 14 июля 2026 года: https://www.gov.kg/index.php/ru/post/s/26456-kyrgyzstan-menen-tazikstandyn-mamlekettik-cek-arasyn-demarkaciyaloo-isterinin-alkagynda-algacky-cek-ara-mamycalaryn-ornotuu-bastaldy
+12. Президент Кыргызской Республики. **Закон о ратификации договора об отдельных участках кыргызско-узбекской государственной границы**, 29 ноября 2022 года: https://president.kg/en/news/21/38167
+13. Government of Uzbekistan. **Uzbekistan and Kyrgyzstan elevate relations to the level of an alliance**, 30 July 2026: https://gov.uz/en/digital/news/view/199682
+14. Government of the Kyrgyz Republic. **Digital Border — official information on border crossing points and border regimes**: https://digitalborder.gps.gov.kg/ru/home/news
+
 
 1. Кыргызский государственный портал. **О Кыргызстане** — географическое положение и государственное устройство: https://egov.kg/ru/about-country
 2. Президент Кыргызской Республики. **Кыргызская Республика** — официальный обзор страны: https://president.kg/ru/about
