@@ -822,12 +822,12 @@ try {
         errors.push(file + ": Russian glossary is missing the buffer-solution definition");
       }
       await page.locator("#lang").click();
-      await page.locator("#search").fill("activation energy");
+      await page.locator("#search").fill("energy barrier");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("energy barrier")) {
         errors.push(file + ": English glossary is missing the activation-energy definition");
       }
       await page.locator("#lang").click();
-      await page.locator("#search").fill("энергия активации");
+      await page.locator("#search").fill("энергетический барьер");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Энергетический барьер")) {
         errors.push(file + ": Russian glossary is missing the activation-energy definition");
       }
