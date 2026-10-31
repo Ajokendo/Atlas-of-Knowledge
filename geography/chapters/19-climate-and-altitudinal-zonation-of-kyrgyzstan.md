@@ -418,6 +418,24 @@ The estimated temperature at the higher location is therefore about +11.5 °C.
 6. **Климатические классификации.** Карты Кёппена—Гейгера и физико-географические схемы отвечают на разные вопросы и должны иметь отдельные легенды.
 7. **Высокогорные наблюдения.** Редкая сеть станций и сложные условия измерений повышают неопределённость интерполяции и климатических трендов в высокогорье.
 
+### 19.10.5. Почему высотные климатические пояса меняются по склонам / Why Altitudinal Climate Belts Vary Across Slopes
+
+Высотная поясность не представляет собой одинаковый набор горизонтальных полос вокруг каждой горы. Положение климатических и растительных поясов зависит от высоты, широты, экспозиции склона, солнечной радиации, направления влажных воздушных потоков, затенения хребтами и местной циркуляции воздуха.
+
+На наветренных склонах подъём воздуха может усиливать облачность и осадки; подветренные территории могут быть суше. Южные и северные склоны одной долины различаются по нагреву, испарению, срокам снеготаяния и продолжительности вегетационного периода. В узких долинах холодный воздух может скапливаться в понижениях, вызывая температурные инверсии.
+
+Границы поясов на схематической карте — обобщение, а не точные линии для каждого склона. Для локального анализа нужны наблюдения на разных высотах и экспозициях, сведения о почвах и растительности и многолетние климатические данные.
+
+**Задание.** Сравните условные северный и южный склоны одного хребта. Предложите показатели, которые помогут объяснить различия снежного покрова и растительности, не сводя их только к высоте.
+
+Altitudinal zonation is not an identical set of horizontal belts around every mountain. Climate and vegetation belts depend on elevation, latitude, slope aspect, solar radiation, moisture-bearing airflow, rain shadows and local air circulation.
+
+Rising air on windward slopes can increase cloud formation and precipitation; leeward areas may be drier. South- and north-facing slopes in the same valley can differ in heating, evaporation, snowmelt timing and growing-season length. Cold air may accumulate in valley depressions, producing temperature inversions.
+
+Belt boundaries on a schematic map are generalisations, not exact lines for every slope. Local analysis requires observations across elevations and aspects, information on soils and vegetation, and long-term climate data.
+
+**Activity.** Compare hypothetical north- and south-facing slopes on the same mountain range. Propose measurements that could explain differences in snow cover and vegetation without attributing them to elevation alone.
+
 ## 19.19. Итоги главы / Chapter Summary
 
 Климат Кыргызстана определяется континентальным положением в центре Евразии, сложной атмосферной циркуляцией и мощным орографическим влиянием Тянь-Шаня и Памиро-Алая. Высота, экспозиция склонов и положение относительно горных барьеров создают резкие различия температуры, осадков и продолжительности снежного покрова на небольших расстояниях.
