@@ -35,6 +35,23 @@
 
 При анализе необходимо проверять, какой именно показатель опубликован: численность на дату, среднегодовая численность, оценка, переписной итог или административный регистр.
 
+
+### English explanation
+
+Population geography studies the size, composition, distribution and movement of people, as well as the relationships between population, the natural environment, the economy, infrastructure and settlement. Demographic processes have a spatial dimension: fertility, mortality, migration and ageing vary between regions, cities and rural districts.
+
+Key features of Kyrgyzstan include rapid population growth in recent decades; a relatively young age structure; a still predominantly rural population alongside gradual urbanisation; concentration in the Chuy, Fergana and other intermontane valleys; internal movement towards Bishkek, Osh and their suburban zones; and international labour migration.
+
+Core concepts:
+- **Usually resident population:** people who normally live in a territory, including temporary absentees according to statistical rules.
+- **Present population:** people physically present in a territory at the reference time.
+- **Natural increase:** births minus deaths during a period.
+- **Net migration:** arrivals minus departures.
+- **Total population change:** the combined effect of natural change, migration and statistical adjustments.
+
+Always identify whether a published figure is a population count on a specific date, an annual average, an estimate, a census result or an administrative-register figure.
+
+
 ## 23.2. Численность населения и её динамика
 ## Population Size and Dynamics
 
@@ -66,6 +83,23 @@
 Естественный прирост остаётся важным компонентом роста населения. Однако абсолютное число рождений зависит не только от уровня рождаемости на одну женщину, но и от численности женщин соответствующих возрастов. Поэтому для корректного анализа используют коэффициенты рождаемости, возрастные коэффициенты и суммарный коэффициент рождаемости, а не только количество рождений.
 
 Смертность анализируют с учётом возрастной структуры. Грубый коэффициент смертности может быть выше в более старом населении даже при хорошем состоянии здравоохранения; для сравнения регионов и стран важны возрастные и стандартизованные показатели.
+
+
+### English explanation
+
+According to the National Statistical Committee (NSC), Kyrgyzstan's permanent population was approximately **7.404 million on 1 January 2026**. The NSC open-data series records 7.162 million at the beginning of 2024, 7.282 million at the beginning of 2025 and 7.404 million at the beginning of 2026. About 140,500 births and 33,400 deaths were registered in 2025. These figures describe recent demographic change but should not be used alone to construct a long-term forecast.
+
+| Reference date | Population, million | Source / note |
+|---|---:|---|
+| 25 March 2022 | 6.936 | 2022 Population and Housing Census |
+| Beginning of 2024 | 7.162 | NSC annual/operational series |
+| Beginning of 2025 | 7.282 | NSC official series |
+| 1 January 2026 | 7.404 | NSC official series |
+
+The difference between the 2022 census result and later annual estimates reflects natural change, migration and statistical updating. Comparisons between census rounds must also account for territorial and methodological changes.
+
+Population growth is influenced by fertility, the size of cohorts entering reproductive ages, long-term mortality trends, migration and statistical adjustments. Natural increase remains an important component. However, the absolute number of births depends both on fertility rates and on the number of women in relevant age groups. Sound analysis therefore uses age-specific and total fertility rates, not births alone. Mortality comparisons should account for age structure: crude death rates can be higher in older populations even where health services are effective.
+
 
 ## 23.3. Размещение населения и плотность
 ## Population Distribution and Density
@@ -102,6 +136,24 @@ D = \frac{P}{A}
 
 **Инфраструктурные:** дороги, железнодорожные узлы, водоснабжение, энергетика, школы, больницы и связь.
 
+
+### English explanation
+
+Kyrgyzstan's population is distributed very unevenly. Much of the national territory consists of high mountains, glaciers, steep slopes and high-altitude pastures. Permanent settlements are concentrated in valleys, intermontane basins, foothills and along transport corridors.
+
+Major population-concentration zones include the Chuy Valley around Bishkek and its suburbs; the Kyrgyz part of the Fergana Valley across Osh, Jalal-Abad and Batken regions; the Issyk-Kul basin; the Talas Valley; and the intermontane valleys of Naryn Region. These areas differ in agricultural specialisation, accessibility, urban functions and exposure to natural hazards.
+
+Population density is calculated as:
+
+\[
+D = \frac{P}{A}
+\]
+
+where (D) is population density, (P) is population and (A) is land area. For a mountainous country, average density per square kilometre does not show where people actually live. Density calculated for permanently habitable land, valley floors or built-up areas can be more informative, provided the denominator is clearly defined.
+
+Settlement patterns are shaped by natural factors (elevation, climate, relief, water, soils and hazards), historical factors (agricultural oases, trade routes and seasonal pastoral routes), economic factors (jobs, farming, industry, trade, services and tourism) and infrastructure (roads, railways, water supply, energy, schools, health care and communications).
+
+
 ## 23.4. Городское и сельское население
 ## Urban and Rural Population
 
@@ -133,6 +185,18 @@ D = \frac{P}{A}
 - сезонной мобильности населения.
 
 В долинах распространены более крупные и плотные сёла, связанные с орошаемым земледелием. В высокогорных районах поселения часто меньше, удалённее и сильнее зависят от транспортной доступности и сезонных условий.
+
+
+### English explanation
+
+Kyrgyzstan retains a predominantly rural settlement pattern, although the urban share is gradually increasing. According to the NSC, at the beginning of 2026 approximately **42.3%** of the population was classified as urban and **57.7%** as rural. These categories follow the official administrative classification; the functional urbanisation of suburban settlements may not be fully reflected in formal statistics.
+
+Urban growth is associated with natural increase, internal migration, suburban expansion and changes in the administrative status of settlements.
+
+The principal urban centres include Bishkek (the capital and the country's main administrative, educational, financial and service hub); Osh (the major centre of the south); Manas (formerly Jalal-Abad); Karakol; Tokmok; Kara-Balta; Uzgen; Kyzyl-Kiya; Sulukta; Batken; Naryn and Talas. Names, population counts and administrative status must be checked for the date represented, because territorial reforms can change the composition of cities and districts.
+
+Rural settlements vary in size, density, elevation, accessibility, agricultural specialisation, proximity to markets and access to schools, health care, water and the internet. Larger and denser villages are common in irrigated valleys; high-mountain settlements are often smaller, more remote and more exposed to seasonal transport constraints.
+
 
 ## 23.5. Административно-территориальная структура и население регионов
 ## Administrative Structure and Regional Population
@@ -176,6 +240,29 @@ D = \frac{P}{A}
 
 **Ош.** Главный городской центр юга страны, расположенный в Ферганской долине. Город обслуживает обширную зону торговли, образования, здравоохранения, транспорта и культурных связей.
 
+
+### English explanation
+
+Kyrgyzstan comprises seven regions and two cities of republican significance, Bishkek and Osh. The NSC population distribution on **1 January 2026** was:
+
+| Region / city | Population, thousand |
+|---|---:|
+| Osh Region | 1,438.5 |
+| Jalal-Abad Region | 1,379.9 |
+| Bishkek | 1,358.6 |
+| Chuy Region | 983.7 |
+| Batken Region | 605.3 |
+| Issyk-Kul Region | 554.3 |
+| Osh city | 484.9 |
+| Naryn Region | 316.2 |
+| Talas Region | 282.9 |
+| **Total** | **7,404.3** |
+
+Regional time series may reflect changes in administrative accounting and boundaries. In particular, comparisons of Osh and Chuy regions with earlier years require a territorial-comparability check. A sharp rise or decline must not be interpreted as mass migration without examining the statistical methodology.
+
+Regional settlement patterns differ. Batken's population is concentrated in valleys and foothills, where farming, trade and cross-border links are important. Jalal-Abad is one of the most populous regions, with settlement concentrated in valleys and foothills. Issyk-Kul's population is distributed around the lake basin and valleys, while tourism creates seasonal employment and infrastructure demand. Naryn is characterised by long distances, severe winters, high elevation and extensive livestock farming. Osh Region has dense settlement in the Fergana Valley and foothills, alongside sparsely populated mountain districts. Talas settlement is concentrated in the Talas Valley. Chuy has complex urban-rural and suburban patterns around Bishkek. Bishkek is the principal national centre for government, higher education, health care, finance and business services; Osh is the main urban hub of the south.
+
+
 ## 23.6. Демографическая структура: возраст и пол
 ## Demographic Structure: Age and Sex
 
@@ -204,6 +291,18 @@ D = \frac{P}{A}
 
 Большая доля молодого и трудоспособного населения может стать преимуществом, если экономика создаёт продуктивные рабочие места, а система образования развивает востребованные навыки. Без инвестиций в человеческий капитал быстрый рост молодёжных когорт способен усиливать безработицу, неформальную занятость и эмиграционное давление.
 
+
+### English explanation
+
+Age-and-sex structure describes the distribution of a population across age groups and sex. It influences demand for schools, jobs, health services, housing and pension systems. Compared with many European and East Asian countries, Kyrgyzstan has a relatively young population, reflecting historically higher fertility and demographic momentum.
+
+Educational analysis often distinguishes children and adolescents, the working-age population and older people. The age limits used for working age must be stated and matched to the relevant statistical or legal definition. The demographic dependency ratio compares younger and older age groups with the population of conventionally working age. It is useful for assessing potential pressure on education, health care, social protection and labour markets.
+
+At the beginning of 2026, the NSC reported approximately **49.5% men and 50.5% women** in the national population. Sex ratios vary by age and region. Slightly more boys are usually born than girls, while women may form a larger share of older age groups because of differences in mortality and life expectancy.
+
+A large young and working-age population can become a demographic dividend if education develops relevant skills and the economy creates productive jobs. Without investment in human capital, large youth cohorts may intensify unemployment, informal work and pressure to emigrate.
+
+
 ## 23.7. Этническое и языковое разнообразие
 ## Ethnic and Linguistic Diversity
 
@@ -222,6 +321,16 @@ D = \frac{P}{A}
 Кыргызский язык — государственный язык Кыргызской Республики. Русский язык имеет статус официального. В повседневной жизни используются также узбекский, таджикский, дунганский, уйгурский и другие языки.
 
 Языковая практика зависит от семьи, образования, места работы, поколения и городской или сельской среды. Перепись может учитывать владение языками и самооценку языковых навыков; эти показатели не равнозначны родному языку или языку повседневного общения.
+
+
+### English explanation
+
+Kyrgyzstan is a multi-ethnic country. The 2022 Population and Housing Census recorded many ethnic communities. The largest groups included Kyrgyz, Uzbeks, Russians, Dungans, Tajiks, Uyghurs, Kazakhs and others. At the census date, Kyrgyz accounted for approximately **77.6%**, Uzbeks **14.2%** and Russians **4.1%** of the population. These are 2022 census shares and must not be automatically projected to 2026.
+
+Ethnic composition varies geographically. Uzbeks form a significant share of the population in several southern districts and settlements of the Fergana Valley. Russian-speaking communities are more visible in Bishkek and some cities of Chuy and Issyk-Kul regions. Dungan and Uyghur communities have historical settlement centres in parts of the Chuy Valley and in certain towns. These general patterns do not replace district-level census data, and a person's ethnicity must never be inferred from their place of residence, surname, language or appearance.
+
+Kyrgyz is the state language and Russian has official-language status. Uzbek, Tajik, Dungan, Uyghur and other languages are also used in everyday life. Language practices vary with family, education, employment, generation and urban or rural setting. Mother tongue, language proficiency and language used in daily communication are different statistical variables and should not be treated as interchangeable.
+
 
 ## 23.8. Миграция: внутренняя и внешняя
 ## Migration: Internal and International
