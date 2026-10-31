@@ -797,6 +797,46 @@ A geographical name is more than a map label. A feature may have an official for
 
 Сравните административную карту семи областей с картой горных систем и речных бассейнов. Объясните, почему природные процессы часто пересекают административные границы.
 
+
+### Self-check questions
+
+1. Where is Kyrgyzstan located within the regions of Central Asia?
+2. Which countries share a border with the Kyrgyz Republic?
+3. Why does mountain relief determine not only natural but also socio-economic characteristics of the country?
+4. How does the Tien Shan differ from the Pamir–Alay in the regional geographic context?
+5. What roles do intermontane basins and valleys play?
+6. Which geological processes occurred in the Palaeozoic in the area of the present-day Tien Shan?
+7. Why is the modern Tien Shan an active mountain system even though it lies far from the Himalayas?
+8. What is the Talas–Fergana Fault, and why is it important?
+9. How does seismic hazard differ from seismic risk?
+10. Which exogenic processes shape the modern mountain relief?
+11. Why does the presence of a mineral deposit not mean that its development is necessarily economically and environmentally justified?
+12. How does administrative regionalisation differ from physical-geographical regionalisation?
+
+### Practical Activity 1. Geographic location
+
+On an outline map, mark the state borders, neighbouring countries, the capital, major mountain systems, principal valleys and lake basins. Write a short description of the country's location using compass directions and regional reference points.
+
+### Practical Activity 2. Elevation profile
+
+Construct an elevation profile across a selected part of the country. Mark mountain ranges, passes, valleys, rivers and settlements. Explain how elevation affects climate and accessibility.
+
+### Practical Activity 3. Geological timeline
+
+Prepare a timeline from the Precambrian to the Quaternary. Show the age of rocks, major orogenic episodes and late Cenozoic uplift separately. Do not confuse the age of a rock's formation with the age of its deformation.
+
+### Practical Activity 4. Tectonic map
+
+Use a geological map to identify major tectonic subdivisions, large faults and intermontane basins. Compare two scientific regionalisation schemes and explain why their boundaries may differ.
+
+### Practical Activity 5. Geography and settlement
+
+Compare maps of relief, transport networks and settlements. Identify which landforms encourage population concentration and which create barriers to connectivity.
+
+### Practical Activity 6. Administrative and physical regionalisation
+
+Compare the administrative map of the seven regions with maps of mountain systems and river basins. Explain why natural processes often cross administrative boundaries.
+
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
 **Иллюстрация 17.1 / Figure 17.1 — Кыргызстан на карте Центральной Азии / Kyrgyzstan in Central Asia.**  
