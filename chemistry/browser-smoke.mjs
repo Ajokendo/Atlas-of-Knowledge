@@ -90,8 +90,14 @@ try {
           errors.push(file + ": incorrect proton, neutron or electron count for " + symbol + " (got " + actual.join("/") + ")");
         }
       }
+      if (!(await page.locator("[data-t=modelLimit]").innerText()).includes("круговым дорожкам")) {
+        errors.push(file + ": simplified shell diagram does not explain that electrons do not follow fixed circular paths");
+      }
       await page.locator("#element").selectOption("O");
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-t=modelLimit]").innerText()).includes("fixed circular tracks")) {
+        errors.push(file + ": atomic model limitation is missing in English");
+      }
       if (await page.locator("#element").inputValue() !== "O" ||
           (await page.locator("#p").innerText()).trim() !== "8" ||
           (await page.locator("#e").innerText()).trim() !== "8") {
