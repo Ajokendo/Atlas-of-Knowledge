@@ -314,6 +314,46 @@ This allocation preserves the proportions of the three zones in the sample, but 
 
 Открытая наука предполагает доступность материалов настолько, насколько это допускают закон, лицензии, конфиденциальность и безопасность. Открытость не означает безусловную публикацию персональных, уязвимых или стратегически чувствительных геоданных.
 
+### 16.17.1. Как сделать картографический анализ воспроизводимым / Making a Mapping Analysis Reproducible
+
+
+Результат ГИС-анализа должен быть не только наглядным, но и проверяемым. Карта без описания исходных данных и операций не позволяет понять, можно ли повторить расчёт и насколько ему можно доверять.
+
+**Минимальный паспорт анализа:**
+1. исследовательский вопрос и территория;
+2. дата или период наблюдений;
+3. источники, версии, лицензии и даты загрузки слоёв;
+4. система координат и единицы измерения;
+5. правила очистки, преобразования и исключения записей;
+6. параметры операций (например, радиус буфера, алгоритм маршрутизации, порог классификации);
+7. программное обеспечение и его версия;
+8. контрольные проверки, известные ограничения и дата подготовки карты.
+
+**Условный пример.** Два исследователя оценивают число жителей в пределах 15 минут пути от медицинского учреждения. Первый использует расстояние по прямой, второй — дорожную сеть с учётом рек и мостов. Различие результатов не обязательно означает ошибку: исследователи измеряли разные виды доступности. Чтобы сравнение было осмысленным, нужно согласовать определение доступности, сеть, скорость движения, сезон и исходные данные о населении и учреждениях.
+
+**Практика контроля.** Сохраните исходные слои без изменений, а обработанные версии — отдельно. Запишите порядок операций и параметры; проверьте несколько объектов вручную; повторите расчёт после закрытия и повторного открытия проекта. Если данные нельзя распространять, опубликуйте описание, агрегированные результаты и безопасный воспроизводимый пример, не раскрывающий чувствительные координаты.
+
+**Учебное задание.** Подготовьте паспорт для анализа доступности школы или клиники. Другой учащийся должен суметь понять по нему, какие данные и параметры нужны для повторения работы, а также определить, какие результаты нельзя считать точными из-за ограничений исходных данных.
+
+A GIS result should be not only clear but also verifiable. A map without documentation of its source data and processing steps does not show whether the analysis can be reproduced or how much confidence it deserves.
+
+**Minimum analysis record:**
+1. research question and study area;
+2. observation date or period;
+3. data sources, versions, licences and download dates;
+4. coordinate reference system and measurement units;
+5. rules for cleaning, transforming and excluding records;
+6. operation parameters (for example, buffer radius, routing algorithm or classification threshold);
+7. software and version;
+8. validation checks, known limitations and map-production date.
+
+**Hypothetical example.** Two researchers estimate the population living within a 15-minute journey of a health facility. The first uses straight-line distance; the second uses a road network that accounts for rivers and bridges. Different results do not necessarily indicate an error: the researchers measured different forms of accessibility. Meaningful comparison requires an agreed definition of access, network, travel speed, season and source data for population and facilities.
+
+**Quality-control practice.** Preserve original layers unchanged and store processed versions separately. Record the sequence of operations and parameters; manually inspect several features; and repeat the analysis after closing and reopening the project. If data cannot be shared, publish the method, aggregated results and a safe reproducible example that does not expose sensitive coordinates.
+
+**Activity.** Prepare an analysis record for measuring access to a school or clinic. Another learner should be able to identify the data and parameters needed to repeat the work and determine which results cannot be considered precise because of source-data limitations.
+
+
 ## 16.18. Географическая коммуникация и научная добросовестность / Geographic Communication and Research Integrity
 
 Географические результаты представляют в научных статьях, атласах, отчётах, публичных картах, презентациях и цифровых панелях. Формат должен соответствовать аудитории и задаче.
