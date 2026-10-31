@@ -179,6 +179,25 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/organic-chemistry.html") {
+      for (const key of ["ketonesText", "estersText", "ethersText", "arenesText", "carbonylNote"]) {
+        if (!(await page.locator('[data-i="' + key + '"]').count())) errors.push(file + ": missing organic chemistry topic " + key);
+      }
+      if (!(await page.locator("[data-i=carbonylNote]").innerText()).includes("на конце цепи") ||
+          !(await page.locator("[data-i=carbonylNote]").innerText()).includes("внутри цепи")) {
+        errors.push(file + ": Russian explanation does not distinguish aldehydes from ketones");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=carbonylNote]").innerText()).includes("at the end of the chain") ||
+          !(await page.locator("[data-i=carbonylNote]").innerText()).includes("within the chain")) {
+        errors.push(file + ": English explanation does not distinguish aldehydes from ketones");
+      }
+      if (!(await page.locator("[data-i=arenesText]").innerText()).includes("delocalised")) {
+        errors.push(file + ": English aromaticity note must refer to a delocalised pi system");
+      }
+      if (await page.locator(".tile").count() !== 10) errors.push(file + ": expected ten organic-compound family cards");
+    }
+
     if (file === "chapters/chemistry-of-life.html") {
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("полимеры нуклеотидов") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("синтезе белка")) {
