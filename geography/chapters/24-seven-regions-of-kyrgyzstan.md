@@ -239,6 +239,28 @@
 
 **Вызовы и перспективы.** Среди приоритетов — охрана орехоплодовых лесов, устойчивое управление лесными ресурсами, предотвращение эрозии и оползней, безопасность промышленных объектов, качество воды, повышение эффективности ирригации и улучшение транспортной доступности горных районов. Потенциал — экологически ответственная переработка сельхозпродукции, лесные продукты, гидроэнергетика с экологическими гарантиями и природный туризм.
 
+
+### Expanded English profile
+
+**Name and administrative centre.** Jalal-Abad Region is in the south-west of Kyrgyzstan. It borders Uzbekistan and the Talas, Naryn and Osh regions. Its area is approximately 33,700 km². Following the renaming of the city of Jalal-Abad to Manas in 2025, the modern administrative centre should be called **Manas**; the former city name should be used only as a historical or explanatory reference. The name of the region itself has not changed.
+
+**Relief.** The region has exceptionally varied terrain: the western and south-western ranges of the Tien Shan, the Naryn Valley, the Toktogul Basin, the Chatkal Range, the Fergana foothills and deep river gorges. This diversity creates substantial contrasts in climate, land use and transport accessibility.
+
+**Climate and water resources.** The lower foothills are warmer and drier than the high mountain areas. The Naryn River and its tributaries are strategically important for hydropower and the water regime of the Syr Darya. Major water infrastructure includes the Toktogul Reservoir. Mountain rivers in the Chatkal and other basins sustain local ecosystems and livelihoods.
+
+**Landscapes and biodiversity.** The region contains dry foothill communities, walnut-fruit and other fruit forests, juniper and spruce woodlands, mountain meadows and high-altitude landscapes. The walnut-fruit forests of Arslanbob are a distinctive natural and cultural complex, important for biodiversity, local incomes and nature-based tourism. Sary-Chelek and the Chatkal area have high conservation value.
+
+**Population.** At the beginning of 2026, the region had approximately 1,379,900 residents, making it one of the country's most populous regions. Settlement includes towns, densely populated rural communities in the Fergana foothills, valley centres and more isolated mountain areas. The rural population plays a major role in the agricultural economy.
+
+**Economy.** Important activities include agriculture, horticulture, cotton cultivation in suitable areas, vegetable growing, livestock husbandry, food processing, extractive industries and hydropower. The cities of Kara-Kul, Tash-Kumyr and Mailuu-Suu are associated with the region's energy and industrial history. Assessments of industrial potential must also consider the environmental liabilities of former industrial sites and the need for safe waste management.
+
+**Transport.** The Naryn Valley and road corridors connect the region with northern Kyrgyzstan and the Fergana Valley. Mountain roads in the Chatkal and Toguz-Toro districts can be vulnerable to landslides, debris flows and heavy snowfall. Transport and trade links with Uzbekistan are important to the border economy.
+
+**Culture and tourism.** Arslanbob, Sary-Chelek, historic sites in the valleys, reservoirs, mountain gorges and traditional agricultural landscapes support nature-based, cultural and rural tourism. The official boundaries of protected areas should be distinguished from broader tourism destinations.
+
+**Challenges and prospects.** Priorities include conserving walnut-fruit forests, managing forest resources sustainably, preventing erosion and landslides, improving industrial safety and water quality, increasing irrigation efficiency and improving access to mountain districts. Opportunities include environmentally responsible agricultural processing, non-timber forest products, hydropower with effective environmental safeguards and nature-based tourism.
+
+
 ## 24.8. Ошская область / Osh Region
 
 **Положение и административный центр.** Ошская область находится на юге Кыргызстана, граничит с Баткенской, Джалал-Абадской, Нарынской областями, Китаем, Таджикистаном и Узбекистаном. Площадь — около 29,0 тыс. км². Административным центром является город Ош, но сам город имеет отдельный статус республиканского значения и не входит в население области.
