@@ -475,6 +475,22 @@ For Kyrgyzstan, it is particularly useful to model separate summer and winter sc
 
 **Learning activity.** Select a district and one service, such as a hospital or secondary school. Compare travel times from several villages in summer and winter using the road network. Show the share of the population within a chosen threshold and identify missing information about service quality.
 
+### English overview
+
+Access to jobs, schools, hospitals, markets and public services depends on travel time, not distance alone. In mountainous areas, practical accessibility can deteriorate sharply in winter or during natural emergencies.
+
+Territorial inequality can be assessed using:
+- travel time to the nearest hospital, school, market and district centre;
+- the share of the population within a defined travel-time threshold;
+- seasonal reliability of routes;
+- access to the internet and mobile communications;
+- access to drinking water and sanitation;
+- availability of public transport;
+- the cost of transporting agricultural products to market; and
+- the spatial distribution of jobs and vocational education.
+
+An accessibility index should consider not only whether a facility exists, but also service quality, staffing, opening hours, cost and capacity to accommodate additional demand.
+
 ## 25.11. Сценарии экономического и пространственного развития до 2035 года / Development Scenarios to 2035
 
 ### Сценарий 1. Инерционный рост
@@ -566,6 +582,60 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 
 **Check your understanding:** if a 210 km route is travelled at an average speed of 35 km/h, how long will driving take without stops? What additional information is needed to estimate actual delivery time?
 
+### English overview: alternative development pathways
+
+**Scenario 1. Business-as-usual growth.** Investment remains concentrated in the largest cities and selected infrastructure projects. The economy continues to depend on trade, construction, extractive industries and remittances. Regional disparities may persist or widen if new jobs and services do not spread beyond a limited number of centres.
+
+**Scenario 2. A diversified economy.** Agricultural processing, industrial services, tourism, digital services, vocational education, logistics and small businesses expand. Regional centres develop stable economic functions, while local producers gain better access to finance, standards and markets.
+
+**Scenario 3. Green and climate-resilient modernisation.** The energy system becomes more diversified; buildings and enterprises improve energy efficiency; cities expand public transport; irrigation reduces water losses; mining projects comply with environmental safeguards; and infrastructure is designed for seismic, debris-flow and climate risks.
+
+These scenarios are not forecasts. They are analytical frameworks for comparing policy choices and should be assessed against measurable indicators.
+
+| Dimension | Possible indicators towards 2035 |
+|---|---|
+| Productivity | Real value added per employed person |
+| Diversification | Share of non-resource exports and new industries |
+| Regional balance | Income and service-access gaps between oblasts |
+| Energy | Supply reliability, grid losses and GDP energy intensity |
+| Water | Irrigation losses, water quality and compliance with environmental flows |
+| Transport | Travel time and freight cost between major nodes |
+| Cities | Public-transport access, air quality and sewerage coverage |
+| Natural capital | Condition of pastures, forests, rivers and disturbed land |
+
+### 25.11.1. Worked example: comparing transport routes
+
+A company transports 12 tonnes of cargo from City A to City B. Two hypothetical routes are available:
+
+- Route 1: 180 km, average travel speed 45 km/h.
+- Route 2: 150 km, average travel speed 30 km/h.
+
+Estimate driving time without stops, border procedures, traffic or weather delays:
+
+\[
+t_1=\frac{180}{45}=4\text{ hours}
+\]
+
+\[
+t_2=\frac{150}{30}=5\text{ hours}
+\]
+
+Although Route 2 is 30 km shorter, its estimated driving time is one hour longer. Route choice should therefore not be based on distance alone.
+
+Suppose the hypothetical operating costs are 50 soms per kilometre for Route 1 and 65 soms per kilometre for Route 2:
+
+\[
+C_1=180\times50=9,000\text{ soms}
+\]
+
+\[
+C_2=150\times65=9,750\text{ soms}
+\]
+
+In this hypothetical example, Route 1 is both faster and less expensive. A real decision must also consider road conditions, mountain passes, freight restrictions, fuel consumption, seasonality, safety and possible delays.
+
+**Check your understanding:** if a 210 km route is travelled at an average speed of 35 km/h, how long will driving take without stops? What additional information is needed to estimate actual delivery time?
+
 ## 25.12. Практические работы / Practical Exercises
 
 ### Работа 1. Функциональная классификация городов
@@ -592,6 +662,24 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 ### Работа 8. Сценарии города
 Разработайте два сценария развития выбранного города на 10 лет: расширение застройки по инерции и компактное развитие с общественным транспортом. Сравните землепользование, выбросы, расходы домохозяйств и доступность услуг.
 
+### English instructions
+
+**Exercise 1. Functional classification of cities.** Select 10–15 Kyrgyz cities. Classify them as capital, regional, industrial, transport, tourism or border centres. Allow more than one function per city and support each classification with sources.
+
+**Exercise 2. Urban agglomeration.** For Bishkek or Osh, map administrative boundaries, settlements in the suburban zone, main roads, workplaces and public services. Identify commuting zones and potential land-use conflicts.
+
+**Exercise 3. Economic structure.** Create a chart of GDP by economic activity for a selected year. Compare sector shares and growth rates separately, and explain why a sector with a small share may record a high growth rate.
+
+**Exercise 4. Transport accessibility.** Calculate driving times from selected rural settlements to the nearest hospital, market and oblast centre. Repeat the analysis for a winter scenario, taking seasonal restrictions into account.
+
+**Exercise 5. Supply chain.** Trace a product—such as beans, milk, apricots or construction material—from producer to final market. Identify transport, storage, processing, intermediaries, standards and locations where value is added.
+
+**Exercise 6. Resource conflict.** Select a basin or district where water, energy, agriculture and ecosystem needs compete. Map stakeholders and propose a coordination mechanism.
+
+**Exercise 7. Environmental assessment.** Select a hypothetical or real road, hydropower, quarry or tourism project. List direct, indirect and cumulative impacts and propose mitigation and monitoring measures.
+
+**Exercise 8. Urban scenarios.** Develop two ten-year scenarios for a selected city: business-as-usual outward expansion and compact development supported by public transport. Compare land use, emissions, household costs and service accessibility.
+
 ## 25.13. Технические задания для карт, схем и инфографики / Visual Production Briefs
 
 Все визуалы создаются на основе проверенных геоданных и статистики. Генеративные инструменты допустимы для художественной стилизации, но не для самостоятельного нанесения границ, названий, чисел и маршрутов.
@@ -608,6 +696,23 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 10. **Карта минеральных ресурсов.** Типы месторождений и промышленные районы; отделить действующую добычу, разведанные объекты и перспективные участки.
 11. **Природный капитал и экологические риски.** Водосборы, пастбища, леса, ООПТ, горнодобывающие площадки и зоны уязвимости.
 12. **Сценарии пространственного развития.** Сравнение инерционного, диверсифицированного и зелёного сценариев с измеримыми индикаторами.
+
+### English visual-production briefs
+
+All visual materials must be based on verified geospatial data and statistics. Generative tools may be used for artistic styling, but must not independently create administrative boundaries, place names, numerical data or routes.
+
+1. **Urban hierarchy of Kyrgyzstan.** Map Bishkek, Osh, oblast centres and important functional towns; distinguish cities of republican significance.
+2. **Functional city map.** Use symbols for administrative, industrial, transport, tourism and border functions; one city may have several functions.
+3. **Bishkek–Chuy agglomeration.** Show administrative boundaries, suburban settlements, commuting flows, main roads, industrial zones and agricultural land.
+4. **Southern urban system.** Map Osh, Kara-Suu, Uzgen, Nookat and centres in Batken and Jalal-Abad; show trade and transport links without confusing administrative statuses.
+5. **Economic structure.** Chart GDP by sector for a specified period; show sector shares and growth rates separately and label preliminary data where applicable.
+6. **Agri-food value chains.** Trace products from fields and farms through storage, sorting, processing and logistics to markets; include regional examples.
+7. **Transport network.** Show international, national and local roads, railway sections, airports and border crossings, with a dated status legend.
+8. **International corridors.** Illustrate China–Kyrgyzstan–Uzbekistan, north–south and regional connections; distinguish operating routes from proposed projects.
+9. **Energy system.** Map hydropower stations, thermal plants, reservoirs, transmission lines and major consumption centres; do not include unverified capacities.
+10. **Mineral resources.** Map deposit types and mining areas; distinguish operating mines, explored deposits and prospective areas.
+11. **Natural capital and environmental risks.** Show catchments, pastures, forests, protected areas, mining sites and vulnerability zones.
+12. **Spatial-development scenarios.** Compare business-as-usual, diversified and green scenarios using measurable indicators.
 
 ## 25.14. Основные понятия / Key Terms
 
@@ -626,6 +731,23 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 | Энергоёмкость | Energy intensity | Энергия, затрачиваемая на единицу выпуска или ВВП |
 | Добавленная стоимость на месте | Local value added | Часть стоимости, созданная внутри рассматриваемой территории |
 
+### English key terms
+
+| Russian term | English term | Definition |
+|---|---|---|
+| Городская агломерация | Urban agglomeration | A city and the functionally connected system of settlements around it |
+| Валовой внутренний продукт | Gross Domestic Product (GDP) | The value of final goods and services produced within a territory during a period |
+| Добавленная стоимость | Value added | The value of output minus intermediate consumption |
+| Пространственная специализация | Spatial specialization | The concentration of particular functions and economic activities in a territory |
+| Транспортный коридор | Transport corridor | A route and associated infrastructure supporting regular transport flows |
+| Транзит | Transit | Transport across a territory between points outside that territory |
+| Логистический узел | Logistics hub | A place where transport, warehousing and distribution functions are concentrated |
+| Природный капитал | Natural capital | The stock of natural assets and ecosystems that provides flows of benefits and services |
+| Экологический сток | Environmental flow | The water regime needed to sustain river ecosystems |
+| Рекультивация | Land reclamation | Restoration of land disturbed by economic activity |
+| Энергоёмкость | Energy intensity | Energy used per unit of output or GDP |
+| Добавленная стоимость на месте | Local value added | The share of value created within the territory being analysed |
+
 ## 25.15. Контрольные вопросы / Review Questions
 
 1. Какие факторы определяют пространственную концентрацию населения и предприятий в Кыргызстане?
@@ -640,6 +762,21 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 10. Как оценить вклад туризма в местную экономику, не игнорируя нагрузку на экосистемы?
 11. Какие показатели лучше отражают транспортную доступность сельских районов?
 12. Какие направления могут повысить устойчивость экономики Кыргызстана к внешним шокам?
+
+### English review questions
+
+1. Which factors determine the spatial concentration of population and enterprises in Kyrgyzstan?
+2. Why should Bishkek and Osh be analysed as separate cities of republican significance?
+3. How does gross output differ from value added?
+4. Why does GDP growth not necessarily reduce regional inequality?
+5. How does mountainous relief affect transport accessibility and freight costs?
+6. Why should a planned railway not be mapped as operating infrastructure?
+7. How does seasonal river flow affect hydropower and irrigation?
+8. How do geological resources differ from economically recoverable reserves?
+9. Which environmental obligations should accompany a mining project?
+10. How can tourism's contribution to the local economy be assessed without ignoring ecosystem pressures?
+11. Which indicators best reflect transport accessibility in rural areas?
+12. Which policy directions could make Kyrgyzstan's economy more resilient to external shocks?
 
 ## 25.16. Научные и редакционные примечания / Scientific and Editorial Notes
 
@@ -656,6 +793,22 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 - Железную дорогу Китай–Кыргызстан–Узбекистан показывать как проект до официального подтверждения ввода соответствующих участков в эксплуатацию.
 - Любые оценки экологического воздействия должны учитывать кумулятивные последствия, альтернативы и участие местных сообществ.
 - Экономическая специализация области — аналитическая характеристика, а не исключительное описание её экономики.
+
+### English scientific and editorial notes
+
+- All macroeconomic indicators for January–September 2026 are preliminary and may be revised by the National Statistical Committee.
+- Growth rates in the table are volume indices against the corresponding period of the previous year; they are not sector shares of GDP.
+- Sector shares may not sum to exactly 100% because of rounding.
+- Do not conflate GDP, gross output, gross value added and trade turnover.
+- Use official administrative boundaries for cities and identify wider agglomeration zones separately; an agglomeration may not have a single administrative status.
+- Do not include Bishkek and Osh in oblast population or economic indicators when the source reports them separately as cities of republican significance.
+- Use the current name Manas for the administrative centre of Jalal-Abad Oblast; add the historical name in parentheses where needed.
+- Published road-network lengths may differ by date and network coverage. The final layout should use one dated, clearly defined series.
+- Do not state exact generating capacities, mineral reserves or extraction volumes without a dated official primary source.
+- Hydropower potential, installed capacity, actual generation and electricity exports are different indicators.
+- Show the China–Kyrgyzstan–Uzbekistan railway as a project until the relevant sections are officially confirmed to be in operation.
+- Environmental impact assessments should consider cumulative effects, alternatives and local-community participation.
+- An oblast's economic specialisation is an analytical description, not an exclusive definition of its economy.
 
 ## 25.17. Источники и литература / References
 
@@ -674,6 +827,24 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 13. International Energy Agency. Energy system analysis and energy statistics. https://www.iea.org/
 14. UNESCO World Heritage Centre. Sulayman-Too Sacred Mountain. https://whc.unesco.org/en/list/1230/
 15. UN Tourism. Sustainable tourism and destination management resources. https://www.unwto.org/
+
+### English references
+
+1. National Statistical Committee of the Kyrgyz Republic. Macroeconomic indicators and preliminary GDP estimate, January–September 2026. https://stat.gov.kg/ru/news/v-yanvare-sentyabre-2026-goda-obespechen-rost-valovogo-vnutrennego-produkta/
+2. National Statistical Committee of the Kyrgyz Republic. *Statistical Yearbook of the Kyrgyz Republic 2025* (data for 2020–2024). https://stat.gov.kg/en/publications/statisticheskij-ezhegodnik-kyrgyzskoj-respubliki/
+3. Cabinet of Ministers of the Kyrgyz Republic. 2026 Action Plan for implementing the National Development Programme to 2030. https://www.gov.kg/ru/post/s/25958-ministrler-kabinetinin-2026-zylga-is-araketter-plany-bekitildi
+4. Cabinet of Ministers of the Kyrgyz Republic. Results of socio-economic development for the first seven months of 2026, 17 August 2026. https://www.gov.kg/ru/post/s/26531-minkab-toragasy-adylbek-kasymaliev-2026-zyldyn-7-aiynyn-zyiyntygyn-cygardy
+5. Ministry of Transport and Communications of the Kyrgyz Republic. Road network and transport infrastructure. https://mtd.gov.kg/dorogi/
+6. Ministry of Transport and Communications of the Kyrgyz Republic. Medium-Term Budget Expenditure Strategy for the Transport and Roads Sector, 2025–2029. https://mtd.gov.kg/
+7. National Investment Agency of the Kyrgyz Republic. *Invest Compass: Mining Industry* (information as of June 2026). https://invest.gov.kg/en/invest-compass/sectors/mining
+8. National Investment Agency of the Kyrgyz Republic. *Why Kyrgyzstan? Priority sectors and investment environment.* https://invest.gov.kg/en/why-kyrgyzstan
+9. Cabinet of Ministers of the Kyrgyz Republic. Meeting on preparations for the 2026–2027 autumn–winter period, 9 October 2026. https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-tapsyrmalardy-berdi
+10. International Monetary Fund. *Kyrgyz Republic: 2026 Article IV Consultation*, IMF Country Report No. 26/163, 2 July 2026. https://www.imf.org/
+11. World Bank. Kyrgyz Republic: country overview and analytical work. https://www.worldbank.org/en/country/kyrgyzrepublic
+12. Asian Development Bank. Kyrgyz Republic: country partnership and sector assessments. https://www.adb.org/where-we-work/kyrgyz-republic
+13. International Energy Agency. Energy system analysis and energy statistics. https://www.iea.org/
+14. UNESCO World Heritage Centre. *Sulayman-Too Sacred Mountain.* https://whc.unesco.org/en/list/1230/
+15. UN Tourism. Sustainable tourism and destination-management resources. https://www.unwto.org/
 
 ---
 **Конец главы 25 / End of Chapter 25**
