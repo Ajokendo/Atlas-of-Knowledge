@@ -617,6 +617,39 @@ Region A therefore has 1 facility per 10,000 residents, while Region B has about
 ### Работа 8. Сценарий устойчивого развития
 Подготовьте два сценария на 10–15 лет: инерционный и устойчивый. Сравните их по занятости, водопотреблению, состоянию земель, доступности услуг, транспортным выбросам и сохранению биоразнообразия.
 
+
+### Practical work 1. Comparative regional profile
+
+Use official NSC data on population, area, employment, industry and agriculture. Calculate population density, population growth rates and the rural population share. Explain why a high average density does not mean that settlement is evenly distributed.
+
+### Practical work 2. Thematic map of the seven regions
+
+Create a map of the regions using one quantitative variable, such as population or area. Apply an appropriate classification and include a legend, data date and boundary source. Show Bishkek and Osh separately.
+
+### Practical work 3. Regional profile
+
+Select one region and prepare a profile using a consistent structure: natural conditions, population, economy, transport, cultural heritage, natural hazards and development priorities. Cite a source for every factual statement.
+
+### Practical work 4. Accessibility of social services
+
+Use open data and the road network to estimate travel time from rural settlements to the nearest hospital, school or district centre. Explain why straight-line distance differs from actual accessibility.
+
+### Practical work 5. Regional SWOT analysis
+
+Identify the strengths, weaknesses, opportunities and threats for one region. Separate internal territorial characteristics from external factors; do not replace analysis with a list of general wishes.
+
+### Practical work 6. Natural-hazard map
+
+Prepare a map of one hazard: debris flow, landslide, drought or flood. Compare the hazard, population exposure and infrastructure vulnerability. Do not call the map a forecast if it is based only on historical events.
+
+### Practical work 7. Tourism network
+
+Design a route linking natural and cultural sites within one region. Assess seasonality, transport, water supply, waste management, acceptable visitor pressure and benefits for local communities.
+
+### Practical work 8. Sustainable-development scenario
+
+Prepare two scenarios for the next 10–15 years: a continuation scenario and a sustainability-oriented scenario. Compare them in terms of employment, water use, land condition, service accessibility, transport emissions and biodiversity conservation.
+
 ## 24.15. Основные понятия / Key Terms
 
 | Русский термин | English term | Значение |
