@@ -157,6 +157,26 @@
 
 **Вызовы и перспективы.** Основные риски — загрязнение озера неочищенными стоками, чрезмерная застройка береговой полосы, дефицит сезонной инфраструктуры, деградация пастбищ, изменение ледникового и речного стока, природные опасности в горных районах. Приоритеты — полноценная канализация и очистка сточных вод, лимиты застройки, мониторинг качества воды, управление отходами, развитие круглогодичного туризма и диверсификация занятости.
 
+
+### Expanded English profile
+
+**Location and administrative centre.** Issyk-Kul Region is in north-eastern Kyrgyzstan. It borders Kazakhstan, China, and the Chuy and Naryn regions. Its area is approximately 43,100 km², and its administrative centre is Karakol. Its defining natural feature is Lake Issyk-Kul, enclosed by the Kungey Ala-Too range to the north and the Terskey Ala-Too range to the south.
+
+**Relief and climate.** The Issyk-Kul Basin is a large intermontane depression with pronounced differences in elevation and slope aspect. The lake moderates the climate of nearby shores, but does not remove the region's continental character or strong mountain contrasts. The western part of the basin is generally drier than the east; precipitation increases on windward slopes and in mountain areas.
+
+**Water and ecosystems.** Issyk-Kul is a high-altitude endorheic lake, meaning that it has no surface outlet, and it receives inflow from numerous rivers. Its water balance is sensitive to river inflow, evaporation, climate and water abstraction throughout the basin. Mountain rivers and glaciers of the Terskey Ala-Too are important for water supply, irrigation and ecosystems. Coastal wetlands and river deltas provide valuable bird habitats.
+
+**Population and settlement.** At the beginning of 2026, the region had approximately 554,300 residents. The main urban centres are Karakol, Balykchy and Cholpon-Ata, alongside rural settlements along the shore and in mountain valleys. Seasonal tourism places substantial pressure on transport, water supply, sewerage and waste management.
+
+**Economy.** The regional economy combines tourism, livestock husbandry, crop farming, food processing, trade and extractive industries. Tourism includes beach holidays, mountain trekking, ski routes, cultural travel and ecotourism. Agriculture focuses on potatoes, cereals, vegetables, fodder crops and livestock. Extractive projects require rigorous environmental impact assessment, particularly where they may affect the lake's catchment.
+
+**Transport.** Balykchy is an important transport hub at the western entrance to the basin. A ring road connects the principal settlements along the shore. Routes to Karkyra, San-Tash, Jeti-Oguz and high mountain valleys are subject to seasonal restrictions. Tourism development should be accompanied by safe road infrastructure and visitor-flow management.
+
+**Culture and nature protection.** The region contains petroglyphs, burial mounds, historical monuments, traditional settlements and cultural landscapes associated with nomadic pastoralism. Issyk-Kul has international conservation significance; the UNESCO biosphere reserve designation, Ramsar wetland status and national protected-area categories must be distinguished from one another.
+
+**Challenges and prospects.** Major risks include pollution from inadequately treated wastewater, excessive construction along the shoreline, shortages of seasonal infrastructure, pasture degradation, changes in glacier and river runoff, and natural hazards in mountain areas. Priorities include comprehensive sewerage and wastewater treatment, development controls along the shore, water-quality monitoring, waste management, year-round tourism and more diverse employment opportunities.
+
+
 ## 24.6. Нарынская область / Naryn Region
 
 **Положение и центр.** Нарынская область расположена в центральной части страны, в пределах Внутреннего Тянь-Шаня. Она граничит с Иссык-Кульской, Чуйской, Джалал-Абадской и Ошской областями, а на юге — с Китаем. Площадь — около 45,2 тыс. км²; административный центр — Нарын. По площади область крупнейшая в стране и одновременно наиболее разреженно заселённая.
