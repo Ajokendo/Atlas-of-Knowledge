@@ -145,11 +145,14 @@ if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркеров") || !faunaKyrgy
 if (!faunaKyrgyzstanFile.includes("689 маралов") || !faunaKyrgyzstanFile.includes("нельзя напрямую приравнивать") || !faunaKyrgyzstanFile.includes("cannot be directly equated")) {
   errors.push("chapters/fauna-kyrgyzstan.html: distinct 2024 CAMCA maral estimate must be disclosed with comparability caveat");
 }
+if (!faunaKyrgyzstanFile.includes("689 маралов для Кыргызстана за 2024 год") || !faunaKyrgyzstanFile.includes("47 голов за 2024 год") || !faunaKyrgyzstanFile.includes("must not be added, averaged")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: conflicting 2024 maral counts must remain explicitly unreconciled");
+}
 if (!faunaKyrgyzstanFile.includes("stat.gov.kg/kg/opendata/category/138/") || !faunaKyrgyzstanFile.includes("47 маралов за 2024 год") || !faunaKyrgyzstanFile.includes("61 за 2023 год") || !faunaKyrgyzstanFile.includes("should not be directly combined")) {
   errors.push("chapters/fauna-kyrgyzstan.html: official maral statistical series must remain distinct from CAMCA Naryn estimate");
 }
-if (!faunaKyrgyzstanFile.includes("Cervus canadensis songaricus") || !faunaKyrgyzstanFile.includes("Cervus elaphus songaricus") || !faunaKyrgyzstanFile.includes("NCBI Taxonomy")) {
-  errors.push("chapters/fauna-kyrgyzstan.html: maral subspecies name and synonym must both be documented");
+if (!faunaKyrgyzstanFile.includes("Cervus canadensis songaricus") || !faunaKyrgyzstanFile.includes("Cervus elaphus songaricus") || !faunaKyrgyzstanFile.includes("C. c. sibiricus") || !faunaKyrgyzstanFile.includes("NCBI Taxonomy")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: maral nomenclature must document the NCBI synonym and the competing IUCN/CAMCA subspecies treatment");
 }
 
 if (errors.length) {
