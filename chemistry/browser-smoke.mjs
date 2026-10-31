@@ -1036,8 +1036,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 65) {
-        errors.push(file + ": expected 65 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 68) {
+        errors.push(file + ": expected 68 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1072,6 +1072,10 @@ try {
       await page.locator("#search").fill("enzyme");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Enzyme")) {
         errors.push(file + ": glossary search did not find the enzyme definition");
+      }
+      await page.locator("#search").fill("electrolysis");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Electrolysis")) {
+        errors.push(file + ": glossary search did not find the electrolysis definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
