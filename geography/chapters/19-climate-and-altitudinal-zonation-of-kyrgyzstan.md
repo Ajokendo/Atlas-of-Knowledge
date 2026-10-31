@@ -436,6 +436,24 @@ Belt boundaries on a schematic map are generalisations, not exact lines for ever
 
 **Activity.** Compare hypothetical north- and south-facing slopes on the same mountain range. Propose measurements that could explain differences in snow cover and vegetation without attributing them to elevation alone.
 
+### 19.18.1. Как учитывать высоту при сравнении климатических станций / Accounting for Elevation When Comparing Climate Stations
+
+Климатические различия между станциями Кыргызстана связаны не только с широтой и расстоянием, но и с высотой, экспозицией склонов, формой долины, температурными инверсиями и воздушными массами. Сравнение станций без учёта их положения может привести к ошибочным выводам.
+
+**Что сопоставить:** высоту и координаты станции; положение в долине, на склоне или водоразделе; экспозицию; окружение и препятствия для ветра; период наблюдений; приборы и возможное перемещение станции. Вертикальный температурный градиент нельзя автоматически считать одинаковым для всех сезонов и участков горной системы.
+
+**Инверсия и локальные условия.** В ясные тихие ночи холодный воздух может стекать в понижения и накапливаться в долинах. Нижняя станция тогда временно оказывается холоднее станции выше по склону. Это не опровергает общий температурный градиент, а показывает роль локальной циркуляции.
+
+**Учебное задание.** Сравните данные двух условных станций: одна расположена на дне долины, другая — выше на склоне. Укажите дополнительные сведения, необходимые, чтобы понять, связана ли разница температур с высотой, инверсией или размещением станции.
+
+Climate differences among stations in Kyrgyzstan reflect not only latitude and distance but also elevation, slope aspect, valley shape, temperature inversions and air masses. Comparing stations without considering their settings can lead to incorrect conclusions.
+
+**Compare:** station elevation and coordinates; whether it is in a valley, on a slope or on a divide; aspect; surroundings and wind obstructions; observation period; instruments; and possible station relocation. A vertical temperature gradient should not be assumed to be the same in every season and mountain location.
+
+**Inversions and local conditions.** On clear, calm nights, cold air can drain into depressions and accumulate in valleys. A lower station may temporarily be colder than one higher on the slope. This does not disprove the general temperature gradient; it demonstrates the role of local circulation.
+
+**Activity.** Compare hypothetical data from two stations, one on a valley floor and the other higher on a slope. Identify the additional information needed to determine whether the temperature difference is related to elevation, an inversion or station siting.
+
 ## 19.19. Итоги главы / Chapter Summary
 
 Климат Кыргызстана определяется континентальным положением в центре Евразии, сложной атмосферной циркуляцией и мощным орографическим влиянием Тянь-Шаня и Памиро-Алая. Высота, экспозиция склонов и положение относительно горных барьеров создают резкие различия температуры, осадков и продолжительности снежного покрова на небольших расстояниях.
