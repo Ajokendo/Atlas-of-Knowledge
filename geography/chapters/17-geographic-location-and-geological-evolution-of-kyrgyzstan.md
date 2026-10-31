@@ -232,6 +232,32 @@ The territory is the outcome of a long geological history. Ancient continental b
 
 Это общие географические характеристики, а не исчерпывающие описания областей. Подробный анализ каждой области, районов, городов и местных природных комплексов будет представлен в отдельной региональной главе.
 
+### 17.13.1. Практический пример: географическая близость и реальная доступность / Worked Example: Geographic Proximity and Actual Accessibility
+
+Представим два условных населённых пункта в горной местности. По прямой между ними 25 км. Однако горный хребет разделяет их, а автомобильная дорога проходит через перевал и долину; длина маршрута составляет 70 км. При средней фактической скорости движения 35 км/ч расчётное время пути без остановок равно:
+
+\\[
+70\\text{ км} \\div 35\\text{ км/ч}=2\\text{ ч}
+\\]
+
+Если ошибочно оценивать доступность только по прямому расстоянию, можно получить неверное представление о времени поездки и связях между поселениями. Для географического анализа необходимо различать **расстояние по прямой**, **длину маршрута по транспортной сети** и **время в пути**.
+
+В горах доступность меняется по сезонам. Снег, лавинная опасность, оползни, паводки, состояние покрытия, ограничения на перевалах и ремонт дорог могут увеличить время поездки или временно прервать сообщение. Поэтому корректное сравнение требует данных о маршруте и дате наблюдения, а для сезонного анализа — нескольких периодов года. Указанная скорость и все расстояния в примере условны и не относятся к конкретной дороге Кыргызстана.
+
+**Задание:** выберите два населённых пункта Кыргызстана. Сравните расстояние между ними по прямой с длиной автомобильного маршрута на карте. Объясните, какие элементы рельефа и сезонные условия могут создавать разницу. Не считайте расчётное время навигационного сервиса гарантией фактического времени поездки.
+
+Consider two hypothetical settlements in mountainous terrain. They are 25 km apart in a straight line. A mountain range separates them, however, and the road follows a pass and a valley; the road distance is 70 km. At an actual average travelling speed of 35 km/h, the estimated journey time without stops is:
+
+\\[
+70\\text{ km} \\div 35\\text{ km/h}=2\\text{ h}
+\\]
+
+If accessibility is assessed using straight-line distance alone, the result may give a misleading picture of journey time and connections between settlements. Geographic analysis should distinguish **straight-line distance**, **distance along the transport network**, and **travel time**.
+
+Accessibility in mountain regions varies by season. Snow, avalanche danger, landslides, floods, road-surface conditions, pass restrictions and roadworks can increase journey times or temporarily interrupt connections. A sound comparison therefore requires route information and the date of observation; seasonal analysis requires data from several periods of the year. All distances and the speed in this example are hypothetical and do not describe a specific road in Kyrgyzstan.
+
+**Activity:** choose two settlements in Kyrgyzstan. Compare their straight-line distance with the length of the road route shown on a map. Explain which landforms and seasonal conditions may account for the difference. Do not treat a navigation service's estimated journey time as a guarantee of the actual travel time.
+
 ## 17.14. Географические названия и картографические стандарты / Geographical Names and Cartographic Standards
 
 В Кыргызстане используются кыргызские географические названия, русскоязычные формы и международные варианты латинской транслитерации. Один и тот же объект может иметь исторические, разговорные и официальные формы названия.
