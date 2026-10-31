@@ -497,3 +497,16 @@ This checkpoint preserves the working context for continuation after a session i
 - Added explicit methodological safeguards: enforcement-material counts are not automatically unique incidents; planted seedlings are not equivalent to surviving trees; enforcement and planting outputs alone do not measure ecological effectiveness. Follow-up indicators are required.
 - Verified the source page and all inserted bilingual figures after re-fetching the chapter. Source: https://mnr.gov.kg/en/posts/news/itogi-raboty-na-osobo-oxranyaemyx-prirodnyx-territoriyax-kyrgyzstana-za-2025-god
 - Chapter 22 commit: `e93aed611fec3f27bc7cb8f25a6ad9676e3c8107`.
+
+
+## Chapter 23 2025 migration-flow reconciliation — 1 November 2026
+
+- Reconciled the NSC's 2025 migration indicators using Table 75 in the January 2026 socio-economic report. Added a bilingual table distinguishing all registered migration (90,539 arrivals; 75,113 departures; +15,426 net), external migration (17,965; 2,539; +15,426), and internal migration (72,574 arrivals and departures; net zero nationally), including inter-oblast (54,853 each way) and intra-oblast (17,721 each way) flows.
+- Clarified that the regional series presented in the chapter is specifically external migration. The national equality of the total and external net balances occurs because internal arrivals and departures balance nationally; internal migration nevertheless substantially redistributes population among regions and cities.
+- Added the direct NSC publication link and checked figures against Table 75. Source: https://stat.gov.kg/media/publicationarchive/0a378f38-836c-4859-892a-6bef0f14133b.pdf
+- Chapter 23 update commit: `ddea3b15d40640724c8e970e8bf0159cc9305db1`.
+
+## Chapter 22 2025 enforcement-case status clarification — 1 November 2026
+
+- Refined the bilingual 2025 protected-area case study to distinguish 78 cases with recovered amounts (KGS 578,224) from 61 cases/materials still under consideration (KGS 527,565), following the Ministry's release. This avoids implying that the assessed damage was fully recovered.
+- Chapter 22 update commit: `04f35febdec174b4844b8217fc8bf595beb3a877`.
