@@ -579,3 +579,5 @@ A first-pass review of the 13 pages carrying the 52 planned illustration briefs 
 - Added `IMAGE_INSERTION_MAP.md`, a bilingual production hand-off listing all 52 anchor IDs, page locations, priorities, target files, aspect ratios and concise image briefs. The instruction is to replace each note at that exact location with a semantic figure after approval.
 - Updated `checks.mjs` to verify the per-page asset path/ratio and priority, and to check all 52 unique anchors against the central insertion map.
 - These are planning placeholders, not generated assets. No image has been claimed as created, scientifically reviewed or integrated. The local checks script and CI have not been run in this session.
+
+Remote structural re-audit after the insertion-map update: 52 markers across 13 pages; 52 unique IDs; all 52 include a priority, WebP asset path, aspect ratio and bilingual brief; all 52 IDs match the insertion map exactly; the central plan contains 52 prioritized items. This audit inspected GitHub file contents and did not execute `checks.mjs` locally or establish a CI pass.
