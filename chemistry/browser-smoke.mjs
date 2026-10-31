@@ -796,11 +796,18 @@ try {
 
     if (file === "gas-laws.html") {
       const before = (await page.locator("#pressureValue").innerText()).trim();
+      if (Math.abs(parseFloat(before.replace(",", ".")) - 101.56) > 0.01) {
+        errors.push(file + ": default pressure must match PV=nRT at 1.00 mol, 24.0 L and 20 °C");
+      }
       const particle = page.locator(".particle").first();
       const initialParticleTransform = await particle.evaluate(el => getComputedStyle(el).transform);
       await page.locator("#t").fill("100");
       await page.locator("#t").dispatchEvent("input");
       const after = (await page.locator("#pressureValue").innerText()).trim();
+      const expectedHeatedPressure = 8.314462618 * 373.15 / 24;
+      if (Math.abs(parseFloat(after.replace(",", ".")) - expectedHeatedPressure) > 0.01) {
+        errors.push(file + ": pressure at 100 °C must use absolute temperature in kelvin");
+      }
       const heatedParticleTransform = await particle.evaluate(el => getComputedStyle(el).transform);
       if (before === after) errors.push(file + ": temperature change did not update pressure");
       if (initialParticleTransform !== heatedParticleTransform) {
