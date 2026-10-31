@@ -348,6 +348,24 @@ In mountain areas, snow, slope shadows and seasonal vegetation differences acros
 
 **Activity.** Compare two hypothetical images of the same catchment acquired in spring and summer. List the factors to control before interpreting a lower vegetation index as degradation, and propose a field-validation method.
 
+### 15.15.1. Как отличить реальное изменение от различий съёмки / Separating Real Change from Acquisition Differences
+
+Разница между двумя спутниковыми изображениями не всегда означает изменение на местности. Её могут вызвать разные сезоны, угол освещения и наблюдения, облачность, атмосферные условия, сенсор, пространственное разрешение, геометрическая коррекция или обработка. Прежде чем классифицировать участок как изменившийся, необходимо проверить сопоставимость изображений.
+
+**Минимальные условия сравнения:** одинаковая или близкая сезонная фаза; облачные и теневые участки исключены или обработаны; изображения приведены к сопоставимой геометрии и системе координат; радиометрические значения откалиброваны и, если требуется, скорректированы на атмосферу; выбран единый алгоритм классификации или расчёта индекса. Для растительности важно учитывать фенологию: естественное сезонное пожелтение не равно деградации.
+
+**Проверка результата.** Используйте независимые контрольные участки или данные более высокого разрешения, изучайте матрицу ошибок и отдельно оценивайте классы изменений. Сопоставляйте результат с полевыми наблюдениями, метеорологическими данными и сведениями о землепользовании. Для малых объектов результат может быть искажён смешанными пикселями, в которых объединены несколько типов поверхности.
+
+**Учебное задание.** Представьте два изображения одной долины, полученные в разные месяцы. Составьте список факторов, которые могут объяснить различия растительного индекса без долгосрочного изменения земного покрова. Предложите план проверки, прежде чем делать вывод о деградации пастбища.
+
+A difference between two satellite images does not always represent a change on the ground. It may result from different seasons, illumination and viewing angles, cloud cover, atmospheric conditions, sensors, spatial resolution, geometric correction or processing. Before classifying an area as changed, check whether the images are comparable.
+
+**Minimum comparison conditions:** the same or a similar seasonal phase; cloud and shadow areas masked or treated; images aligned to comparable geometry and a common coordinate reference system; radiometric values calibrated and, where needed, atmospherically corrected; and a consistent classification or index method. For vegetation, account for phenology: natural seasonal browning is not the same as degradation.
+
+**Validate the result.** Use independent reference sites or higher-resolution data, examine the error matrix and assess change classes separately. Compare the result with field observations, meteorological data and land-use information. Small features may be distorted by mixed pixels containing several surface types.
+
+**Activity.** Imagine two images of the same valley acquired in different months. List factors that could explain differences in a vegetation index without long-term land-cover change. Propose a validation plan before concluding that a pasture has degraded.
+
 ## 15.16. Итоги главы / Chapter Summary
 
 1. ДЗЗ позволяет получать информацию о поверхности и атмосфере без непосредственного контакта с объектом.
