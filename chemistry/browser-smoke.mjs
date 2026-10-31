@@ -56,6 +56,9 @@ try {
     const imagesWithoutAlt = await page.locator("img:not([alt])").count();
     if (imagesWithoutAlt) errors.push(file + ": " + imagesWithoutAlt + " image(s) lack an alt attribute");
 
+    const unnamedActions = await page.locator("a, button").evaluateAll(items => items.filter(el => !el.innerText.trim() && !el.getAttribute("aria-label") && !el.getAttribute("title") && !el.querySelector("[aria-label], title, img[alt]")).map(el => el.outerHTML.slice(0, 100)));
+    if (unnamedActions.length) errors.push(file + ": links or buttons lack an accessible name: " + unnamedActions.join(" | "));
+
     if (file === "index.html") {
       const chapterCount = await page.locator(".chapter").count();
       if (chapterCount !== 12) errors.push(file + ": expected 12 visible chapter cards, found " + chapterCount);
