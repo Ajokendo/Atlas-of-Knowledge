@@ -234,3 +234,11 @@ This checkpoint preserves the working context for continuation after a session i
 - The revised Chapter 17 was fetched again from `workspace/geography`; the updated area statement, English counterpart and sequential reference numbering were checked.
 
 **Chapter 17 update commits:** `ebd5c39b23611461dfe41cd1d70b4bab06fa7867`, `f1a3b4f74e906592d90242b0a98f430e124cd791`, `a110986c541a125d874cd144df95e56825404760`, `7a1b8e9b8f8d32c003cbcf2f86d45cdc1eb17b57`.
+
+
+## Follow-up bilingual development — Chapter 17, location and elevation (1 November 2026)
+
+- Added full English explanatory text to section 17.1 on Kyrgyzstan's landlocked position, neighbouring countries, regional geographic connections and the interaction of continentality with mountain relief.
+- Expanded section 17.3 in English to match the Russian account of elevation structure, mountain distribution, the country's highest summits and the factors controlled by elevation.
+- Preserved the distinction between Khan Tengri's rocky summit (about 6,995 m) and values that include the ice cap (about 7,010 m); the text requires the measurement convention to be stated.
+- The English text in 17.3 was reordered to follow the same conceptual sequence as the Russian explanation.
