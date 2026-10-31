@@ -54,6 +54,27 @@ Economic geography studies the spatial organisation of economic activity, the lo
 **Рисунок 11.1 / Figure 11.1 — Сектора экономики и межотраслевые связи / Economic sectors and intersectoral links.**  
 Техническое задание: схема первичного, вторичного и третичного секторов с потоками сырья, полуфабрикатов, готовой продукции, услуг и информации; показать, что границы между секторами условны и цепочки создания стоимости пересекают их.
 
+
+### 11.3.1. Разобранный пример: сравнение отраслевой структуры занятости и выпуска / Worked Example: Comparing the Sectoral Structure of Employment and Output
+
+В условной экономике заняты 120 000 человек: 18 000 работают в первичном секторе, 30 000 — во вторичном и 72 000 — в третичном.
+
+Доли занятых рассчитываются делением числа работников сектора на общую занятость:
+- первичный сектор: 18 000 / 120 000 × 100 = **15%**;
+- вторичный сектор: 30 000 / 120 000 × 100 = **25%**;
+- третичный сектор: 72 000 / 120 000 × 100 = **60%**.
+
+Предположим также, что доли этих секторов в общей добавленной стоимости составляют соответственно 8%, 32% и 60%. Тогда доля занятости и доля выпуска заметно различаются в первичном и вторичном секторах. Это может быть связано с различиями в капиталоёмкости, технологиях, ценах, организации производства и составе видов деятельности. По одним этим долям нельзя заключить, что работники одного сектора «лучше» или «хуже» работают: для оценки производительности нужны сопоставимые данные о реальном выпуске и затратах труда, а также корректная отраслевая классификация.
+
+In a hypothetical economy, 120,000 people are employed: 18,000 in the primary sector, 30,000 in the secondary sector, and 72,000 in the tertiary sector.
+
+Each employment share is calculated by dividing the number employed in a sector by total employment:
+- primary sector: 18,000 / 120,000 × 100 = **15%**;
+- secondary sector: 30,000 / 120,000 × 100 = **25%**;
+- tertiary sector: 72,000 / 120,000 × 100 = **60%**.
+
+Assume that the sectors account for 8%, 32%, and 60% of total value added, respectively. The employment and output shares therefore differ notably in the primary and secondary sectors. Possible reasons include differences in capital intensity, technology, prices, production organisation, and the mix of activities. These shares alone do not show that workers in one sector are more or less productive: assessing productivity requires comparable data on real output and labour input, as well as a consistent industry classification.
+
 ## 11.4. Валовой внутренний продукт и другие экономические показатели / GDP and Other Economic Indicators
 
 **Валовой внутренний продукт (ВВП)** — денежная оценка конечных товаров и услуг, произведённых на экономической территории страны за определённый период. ВВП можно рассчитывать производственным, распределительным (по доходам) и методом конечного использования (по расходам); при согласованной системе национальных счетов результаты должны быть согласованы.
