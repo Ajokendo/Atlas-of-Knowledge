@@ -328,3 +328,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Refined the wastewater-statistics caveat: the UN SDG figure of 21.9% for 2024 refers specifically to safely treated domestic wastewater flows, while the national statistical series reports a broader domestic-and-industrial wastewater indicator (97.8% for 2024). The chapter now explains that the different coverage and methods must be checked before comparison; the values are not presented as competing estimates of the same flow.
 - Preserved the waste hierarchy and the warning that incineration without effective flue-gas cleaning and feedstock controls can transfer pollution to the atmosphere.
 - Sources checked: UN Statistics Division SDG Country Profile for Kyrgyzstan and the SDG 6 Data country page.
+
+
+## Follow-up bilingual development — Chapter 26, mining legacy and disaster risk (1 November 2026)
+
+- Added English counterparts to section 26.9 on mining-sector environmental liabilities and responsible management, and to the main explanatory text in section 26.10 on natural hazards and disaster-risk reduction.
+- Preserved the caveat that UNEP's estimate of approximately 200 emergency events per year (about 90% natural-origin) is tied to a specific period and reporting method.
+- Corrected the risk-model notation in both languages so the equation uses valid LaTeX delimiters and the variables are identified consistently.
+- The detailed worked prioritisation subsection 26.10.1 already includes an English counterpart and was retained.
