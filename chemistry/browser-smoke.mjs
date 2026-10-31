@@ -667,9 +667,13 @@ try {
         errors.push(file + ": Russian glossary is missing the mass-number definition");
       }
       await page.locator("#search").fill("catalyst");
-      const catalystDefinition = await page.locator(".term").first().innerText();
-      if (await page.locator(".term").count() !== 1 || !catalystDefinition.includes("alternative reaction pathway") || !catalystDefinition.includes("альтернативный путь")) {
-        errors.push(file + ": bilingual catalyst definition does not explain its alternative reaction pathway");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("альтернативный путь")) {
+        errors.push(file + ": Russian catalyst definition does not explain its alternative reaction pathway");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#search").fill("catalyst");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("alternative reaction pathway")) {
+        errors.push(file + ": English catalyst definition does not explain its alternative reaction pathway");
       }
       await page.locator("#lang").click();
     }
