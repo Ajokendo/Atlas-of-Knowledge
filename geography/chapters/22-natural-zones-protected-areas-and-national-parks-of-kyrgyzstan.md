@@ -397,6 +397,15 @@ An ecological corridor cannot be identified simply because two protected areas a
 
 Природоохранные ограничения должны быть понятными, справедливыми и сопровождаться механизмами участия и, где это предусмотрено, альтернативными источниками дохода.
 
+### English explanation
+
+Protected-area designation alone does not guarantee conservation. Effectiveness depends on management, funding, staffing, scientific information, infrastructure, enforcement of rules and cooperation with local residents.
+
+**Core management components** include a management plan with measurable conservation objectives; zoning and clear visitor rules; protection and anti-poaching measures; monitoring of species, habitats and threats; management of fires, waste and visitor flows; regulation of grazing and other uses; environmental education; transparent funding and reporting; and participation of local residents in decision-making.
+
+**Local communities.** People living near protected areas can be partners in conservation. Their participation is especially important in pasture management, ecotourism, reducing conflicts between predators and livestock, monitoring and preserving traditional knowledge. Conservation restrictions should be understandable and fair, supported by participation mechanisms and, where provided for, alternative livelihood opportunities.
+
+
 ## 22.10. Экологический туризм и рекреационная нагрузка
 ## Ecotourism and Recreational Pressure
 
@@ -425,6 +434,17 @@ An ecological corridor cannot be identified simply because two protected areas a
 
 Не существует единой «безопасной нормы посетителей» для всех парков. Она зависит от типа экосистемы, сезона, маршрута, инфраструктуры и целей охраны.
 
+### English explanation
+
+Ecotourism can support local economies and increase the value placed on natural heritage. Without effective management, however, it can damage the ecosystems it is intended to help conserve.
+
+**Potential impacts** include trampling and trail widening; disturbance of wildlife and breeding sites; litter and water pollution; noise and artificial light; uncontrolled campfires; off-road vehicle use; and construction in vulnerable landscapes.
+
+**Visitor management measures** may include directing visitors along durable trails; seasonal restrictions during breeding periods; marking closed and sensitive zones; providing waste collection and removal; setting environmental standards for guides and tour operators; monitoring trail erosion and vegetation; and assessing the recreational carrying capacity of individual sites.
+
+There is no single safe visitor quota for every park. Appropriate levels depend on ecosystem type, season, route, infrastructure and conservation objectives.
+
+
 ## 22.11. Угрозы природным территориям
 ## Threats to Protected Landscapes
 
@@ -441,6 +461,23 @@ An ecological corridor cannot be identified simply because two protected areas a
 | Недостаток финансирования | Слабый мониторинг и охрана | Долгосрочные механизмы финансирования |
 
 Особенно важно учитывать кумулятивное воздействие: несколько умеренных факторов могут совместно привести к существенной деградации территории.
+
+### English explanation
+
+| Threat | Potential impact on protected areas | Possible responses |
+|---|---|---|
+| Climate change | Shifting habitats and altered snow and water regimes | Climate monitoring and ecological connectivity |
+| Poaching | Declining wildlife populations | Patrols, community engagement and law enforcement |
+| Overgrazing | Meadow degradation, erosion and soil compaction | Seasonal grazing plans and carrying-capacity management |
+| Fires | Loss of forests and habitats | Prevention, early detection and restoration |
+| Roads and infrastructure | Habitat fragmentation and wildlife disturbance | Impact assessment, wildlife crossings and zoning |
+| Mineral extraction | Damage to land and water systems | Rigorous risk assessment and legal compliance |
+| Tourism pressure | Erosion, litter and disturbance of fauna | Management of visitor flows and routes |
+| Invasive species | Changes in ecosystem composition | Early detection and control |
+| Insufficient funding | Weak monitoring and protection | Long-term funding mechanisms |
+
+Cumulative impacts are particularly important: several individually moderate pressures can combine to cause substantial degradation.
+
 
 ## 22.12. Научный мониторинг и оценка эффективности
 ## Scientific Monitoring and Effectiveness Assessment
@@ -470,6 +507,23 @@ An ecological corridor cannot be identified simply because two protected areas a
 - общественный мониторинг и проверенные наблюдения граждан.
 
 Данные должны храниться в сопоставимом формате, иметь дату, методику и оценку неопределённости.
+
+### English explanation
+
+Monitoring should assess not only administrative activity—such as the number of patrols or visitors—but also the actual condition of nature.
+
+**Indicator groups**
+
+- **Biodiversity:** abundance and occurrence of target species, population condition and breeding success.
+- **Ecosystems:** area and condition of forests, pastures, wetlands, snowfields and glaciers.
+- **Pressures:** poaching, fires, grazing, pollution, tourism and illegal construction.
+- **Management:** staffing, budget, implementation of the management plan and community participation.
+- **Connectivity:** permeability of ecological corridors, continuity of migration routes and absence of critical barriers.
+
+**Methods** include field surveys and permanent sample plots; camera traps and acoustic monitoring; satellite imagery and GIS; GPS/GNSS tracking of animal movements; water and soil analysis; visitor counts and trail-condition surveys; and community monitoring using verified observations.
+
+Data should be stored in comparable formats and accompanied by a date, method and estimate of uncertainty.
+
 
 ### 22.12.1. Разобранный пример: расчёт общей площади ООПТ без двойного учёта / Worked Example: Calculating Protected Area without Double Counting
 
@@ -552,6 +606,16 @@ The combined area, without double counting, is therefore **170 km²**, or **17%*
 
 **Результат:** карта изменений и перечень возможных причин, которые следует проверить на местности.
 
+### English instructions
+
+1. **Compare protected-area categories.** Compare a strict nature reserve, nature park, sanctuary, natural monument, UNESCO MAB biosphere reserve and Ramsar site. For each, state its purpose, management regime and a relevant example in Kyrgyzstan. **Output:** a comparison table explaining why international recognition does not necessarily correspond to a national legal category.
+2. **Analyse the natural complexes of a protected area.** Select one protected area and use official sources to describe its elevation range, main ecosystems, target species and major threats. **Output:** a concise geographic profile.
+3. **Map ecological connectivity.** Mark several protected areas and potential wildlife movement zones. Identify possible barriers such as roads, settlements and intensive land use. **Output:** a connectivity diagram noting that corridors require field validation.
+4. **Assess recreational pressure.** Select a popular trail or natural site. Describe trail width, erosion, litter, wildlife disturbance and vegetation vulnerability. **Output:** a map of problem areas and visitor-management proposals.
+5. **Protected-area statistics.** Use NSC data to calculate changes in the area of state nature reserves and natural parks over an available period. Check which categories are included. **Output:** a time-series graph with its source and methodological limitations.
+6. **Monitor landscape condition.** Compare satellite images from two dates for a selected area. Identify changes in vegetation cover, water features or infrastructure footprints. **Output:** a change map and a list of possible causes to verify in the field.
+
+
 ## 22.14. Контрольные вопросы
 ## Review Questions
 
@@ -565,6 +629,20 @@ The combined area, without double counting, is therefore **170 km²**, or **17%*
 8. Какие меры помогают снизить туристическую нагрузку?
 9. Почему участие местных сообществ важно для устойчивого управления ООПТ?
 10. Какие индикаторы показывают реальное состояние природной территории?
+
+### English review questions
+
+1. Why do Kyrgyzstan's natural zones have a complex altitudinal and regional structure?
+2. How does a strict nature reserve differ from a natural park?
+3. Why is a UNESCO MAB biosphere reserve not automatically a national protected-area category?
+4. Which ecosystems are protected in Sary-Chelek and the Issyk-Kul region?
+5. What is the international significance of the Western Tien-Shan?
+6. Why is the area of protected land insufficient as a measure of conservation effectiveness?
+7. What role do ecological corridors play?
+8. Which measures can reduce tourism pressure?
+9. Why is local-community participation important for sustainable protected-area management?
+10. Which indicators show the actual condition of a natural area?
+
 
 ## 22.15. Ключевые понятия / Key Terms
 
@@ -601,6 +679,22 @@ The combined area, without double counting, is therefore **170 km²**, or **17%*
 9. **Управление туристическим потоком.** Схема устойчивой тропы, зон ограничения доступа, мест сбора отходов и мониторинга эрозии.
 10. **Эффективность управления ООПТ.** Инфографика «площадь — состояние природы — угрозы — управление — результаты», показывающая, почему один процент охраняемой территории не описывает качество охраны.
 
+### English visual briefs
+
+**Overall standard:** scientific accuracy, a consistent map projection and legend, dark-blue backgrounds or accents, a white data field and restrained gold elements. Protected-area boundaries must come from official geospatial data; schematic boundaries must never be presented as legal boundaries.
+
+1. **Natural landscape map of Kyrgyzstan.** Show dry foothills, steppes, forests, subalpine and alpine meadows, high-mountain and wetland complexes. Distinguish natural types from anthropogenic land.
+2. **Altitudinal zonation profile.** A cross-section of northern and southwestern mountain slopes showing regional differences at comparable elevations.
+3. **National protected-area network.** Map reserves, natural parks, sanctuaries and natural monuments using official boundaries; state each site's category and data date.
+4. **Nature reserves of Kyrgyzstan.** Compare Sary-Chelek, Besh-Aral, Padysha-Ata, Naryn, Issyk-Kul and Karatal-Zhapyryk by region, ecosystems and conservation purpose.
+5. **Natural parks.** Map and profile Ala-Archa, Kyrgyz-Ata, Karakol, Besh-Tash, Chon-Kemin, Saimaluu-Tash and Khan-Tengiri. Do not add tourism rankings without sources.
+6. **Biosphere-reserve zoning.** Show core, buffer and transition zones in a hypothetical example, explaining their functions and differences in legal regime.
+7. **International conservation designations.** Show UNESCO World Heritage, UNESCO MAB and Ramsar sites as separate layers; do not conflate them with national protected-area categories.
+8. **Ecological corridors.** A conceptual diagram linking protected cores through valleys and mountain passes, with examples of barriers and mitigation measures. Corridor geometry must be research-based, not decorative guesswork.
+9. **Visitor-flow management.** Show a sustainable trail, restricted-access zones, waste-collection points and erosion monitoring.
+10. **Protected-area management effectiveness.** An infographic linking area, ecological condition, threats, management and outcomes to show why the percentage of protected land alone cannot describe conservation quality.
+
+
 ## 22.17. Научные и редакционные примечания
 ## Scientific and Editorial Notes
 
@@ -614,6 +708,21 @@ The combined area, without double counting, is therefore **170 km²**, or **17%*
 8. **Туризм.** Не рекомендовать посещение закрытых зон и не публиковать точные местоположения уязвимых видов.
 9. **Площадь и эффективность.** Большая площадь ООПТ не гарантирует хорошего состояния экосистем. Нужны данные о популяциях, угрозах, управлении и результатах.
 10. **Карты.** Юридические границы должны быть получены из официальных пространственных данных. Для схем без точной геометрии обязательно указывать «схематично».
+
+ 
+### English scientific and editorial notes
+
+1. **Area statistics.** Always state the year and exact category when reporting the number and area of protected areas. Do not combine reserve and park areas with biosphere-reserve or Ramsar areas without checking overlaps.
+2. **Differences between sources.** Protected-area shares may differ because of methodology, reference dates and included categories. Do not average incompatible values.
+3. **Official inventory.** Verify names, categories, areas and boundaries against the current register of the Ministry of Natural Resources of the Kyrgyz Republic.
+4. **MAB.** A biosphere reserve is a designation under UNESCO's international programme; it does not replace national legislation or establish one uniform restrictive regime.
+5. **Ramsar.** A Ramsar site is internationally recognised for its wetland importance; its boundaries do not necessarily coincide with those of a state nature reserve.
+6. **World Heritage.** The transboundary Western Tien-Shan property includes components in three countries. Do not depict the entire property as belonging only to Kyrgyzstan.
+7. **Ak-Ilbirs ecological corridor.** State the date, source and status of the initiative; do not present its announcement as proof that ecological connectivity has already been achieved.
+8. **Tourism.** Do not recommend entry into closed zones or publish precise locations of vulnerable species.
+9. **Area and effectiveness.** A large protected area does not guarantee healthy ecosystems. Population, threat, management and outcome data are also needed.
+10. **Maps.** Legal boundaries must come from official spatial data. Schematic maps must be clearly labelled as schematic.
+
 
 ### 22.17.1. Как оценивать эффективность охраняемой территории / Evaluating the Effectiveness of a Protected Area
 
