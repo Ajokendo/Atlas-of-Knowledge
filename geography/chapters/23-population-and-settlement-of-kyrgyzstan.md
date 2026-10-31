@@ -310,6 +310,98 @@ For Kyrgyzstan, it is particularly important not to confuse permanent rural-to-u
 
 **Learning activity.** Find data on in-migration and out-migration for one region or city over several years. Calculate net migration and the rate per 1,000 residents. Compare the results with the change in total population and explain why migration is only one component of demographic change.
 
+### 23.8.2. Современная картина миграции: официальная статистика и оценки мобильности / Recent Migration Patterns: Official Statistics and Mobility Estimates
+
+Для Кыргызстана важно сопоставлять несколько источников, но не смешивать их показатели. Национальный статистический комитет (НСК) публикует ежегодные данные о миграционном приросте или оттоке. Международная организация по миграции (МОМ) через систему Displacement Tracking Matrix (DTM) проводит оценку мобильности на уровне сообществ. Эти источники отвечают на разные вопросы и используют разные методы.
+
+#### Зарегистрированный миграционный баланс по данным НСК
+
+По опубликованному НСК ряду миграционный прирост страны составил −769 человек в 2021 году, затем стал положительным: 5 917 в 2022 году, 9 843 в 2023 году, 11 208 в 2024 году и 15 426 в 2025 году. В таблице за 2025 год отражён именно баланс прибывших и выбывших, а не общее количество людей, которые перемещались.
+
+| Территория | Миграционный прирост / отток в 2025 году, человек |
+|---|---:|
+| Баткенская область | +1 739 |
+| Джалал-Абадская область | +2 844 |
+| Иссык-Кульская область | +359 |
+| Нарынская область | +102 |
+| Ошская область | +2 992 |
+| Таласская область | +285 |
+| Чуйская область | +2 298 |
+| Бишкек | +3 221 |
+| Ош | +1 586 |
+| **Кыргызская Республика** | **+15 426** |
+
+Бишкек и Ош в таблице показаны отдельно от областей, поскольку являются городами республиканского значения. Национальное значение равно сумме региональных значений, приведённых в таблице.
+
+В отдельной таблице НСК за 2025 год указано 17 965 иммигрантов и 2 539 эмигрантов; разность этих величин составляет 15 426 человек. Это помогает понять арифметику баланса, но не означает, что зарегистрированная международная миграция охватывает все формы трудовой мобильности, временного отсутствия или повторных поездок. Для любого вывода следует сохранять определение показателя и методологию НСК.
+
+**Как интерпретировать данные.** Положительный миграционный баланс в официальном ряду не доказывает, что трудовая эмиграция перестала иметь большое значение. В стране могут одновременно находиться многочисленные граждане, работающие за рубежом, возвращаться ранее выехавшие жители и прибывать иностранные граждане. Баланс — разность потоков за период; он не показывает полный запас мигрантов за границей и не раскрывает индивидуальные причины переезда.
+
+#### Оценка мобильности МОМ на уровне сообществ
+
+В седьмом раунде Baseline Mobility Assessment, проведённом МОМ в Кыргызстане в феврале–апреле 2026 года, были охвачены 1 151 сообщество во всех семи областях и двух городах республиканского значения. Информация собиралась через интервью с 1 939 ключевыми информантами и непосредственные наблюдения. В отчёте приведены оценки людей, переместившихся в период с января по декабрь 2025 года и остававшихся в соответствующих местах на момент сбора данных в апреле 2026 года.
+
+| Категория, отражённая в оценке МОМ | Оценка |
+|---|---:|
+| Международные трудовые мигранты, находившиеся в обследованных сообществах Кыргызстана | 30 073 |
+| Внутренние мигранты, находившиеся в обследованных сообществах | 70 340 |
+| Граждане Кыргызстана, продолжавшие жить за рубежом | 110 354 |
+| Вернувшиеся из-за рубежа граждане, находившиеся в сообществах возвращения | 85 197 |
+
+Эти числа нельзя складывать в единый показатель мигрантов страны или напрямую вычитать одно из другого. Они описывают разные категории мобильности и основаны на оценках ключевых информантов в обследованных сообществах, а не на сплошной переписи каждого человека или административном регистре. Они также не являются прямой заменой ежегодной статистики НСК. Их ценность — в более подробном представлении о типах мобильности, местах проживания и возвращения мигрантов.
+
+#### Что показывают два источника вместе
+
+Официальная статистика НСК позволяет проследить зарегистрированный баланс по годам и административным территориям. Оценка МОМ помогает увидеть группы, которые могут быть недостаточно заметны в обычной регистрации: внутренне перемещающихся жителей, трудовых мигрантов, остающихся за границей, и вернувшихся граждан. Совместное использование этих данных возможно только при явном указании различий в определениях, периодах, охвате и методах сбора.
+
+**Учебное задание.** Сравните миграционный баланс НСК за 2021 и 2025 годы. Затем объясните, почему оценки МОМ о гражданах, продолжающих жить за рубежом, нельзя приравнять к отрицательному миграционному балансу за один год. В ответе используйте понятия «поток», «запас населения», «миграционное сальдо» и «метод сбора данных».
+
+#### 23.8.2. Recent Migration Patterns: Official Statistics and Mobility Estimates
+
+For Kyrgyzstan, several sources should be compared without treating their indicators as interchangeable. The National Statistical Committee (NSC) publishes annual net migration or outflow data. The International Organization for Migration (IOM), through its Displacement Tracking Matrix (DTM), conducts community-level mobility assessments. These sources answer different questions and use different methods.
+
+##### Registered migration balance in NSC statistics
+
+According to the NSC series, the country's migration balance was −769 people in 2021, then became positive: 5,917 in 2022, 9,843 in 2023, 11,208 in 2024 and 15,426 in 2025. The 2025 table below shows the net balance of arrivals and departures, not the total number of people who moved.
+
+| Territory | Net migration / outflow in 2025, people |
+|---|---:|
+| Batken Region | +1,739 |
+| Jalal-Abad Region | +2,844 |
+| Issyk-Kul Region | +359 |
+| Naryn Region | +102 |
+| Osh Region | +2,992 |
+| Talas Region | +285 |
+| Chuy Region | +2,298 |
+| Bishkek | +3,221 |
+| Osh City | +1,586 |
+| **Kyrgyz Republic** | **+15,426** |
+
+Bishkek and Osh City are shown separately because they have republican-level status and are not included in the oblast totals. The national figure equals the sum of the regional values shown in the table.
+
+A separate NSC table for 2025 reports 17,965 immigrants and 2,539 emigrants; their difference is 15,426 people. This illustrates how the balance is calculated, but it does not mean that registered international migration captures every form of labour mobility, temporary absence or repeated travel. The indicator's definition and the NSC methodology must always be retained.
+
+**How to interpret the data.** A positive migration balance in the official series does not prove that labour emigration has ceased to be important. Many citizens may continue to work abroad while previous migrants return and foreign citizens arrive. A balance is the difference between flows during a period; it does not show the total stock of citizens living abroad or the individual reasons for moving.
+
+##### IOM community-level mobility assessment
+
+In the seventh round of the IOM Baseline Mobility Assessment, conducted in Kyrgyzstan in February–April 2026, 1,151 communities across all seven regions and the two republican-level cities were covered. Information was collected through interviews with 1,939 key informants and direct observation. The report presents estimates for people who moved between January and December 2025 and remained in the relevant destination or return locations at the time of data collection in April 2026.
+
+| Category reported in the IOM assessment | Estimate |
+|---|---:|
+| International migrant workers hosted in assessed communities in Kyrgyzstan | 30,073 |
+| Internal migrants hosted in assessed communities | 70,340 |
+| Kyrgyz nationals still living abroad | 110,354 |
+| Return migrants who had returned from abroad and remained in their communities | 85,197 |
+
+These figures must not be added into one national migrant total or directly subtracted from one another. They describe different mobility categories and are based on key-informant estimates in assessed communities, not a census of every individual or an administrative register. They are not a direct replacement for annual NSC statistics. Their value lies in providing a more detailed picture of mobility types, places of residence and return.
+
+##### What the two sources show together
+
+NSC statistics help track the registered balance over time and across administrative territories. The IOM assessment helps identify groups that may be less visible in routine registration: internally mobile residents, labour migrants still abroad and returning citizens. The datasets can be used together only when differences in definitions, reference periods, coverage and collection methods are clearly stated.
+
+**Learning activity.** Compare the NSC migration balance in 2021 and 2025. Then explain why the IOM estimate of citizens still living abroad cannot be equated with a negative migration balance for a single year. Use the terms “flow”, “population stock”, “net migration” and “data-collection method”.
+ 
 ## 23.9. Урбанизация и развитие агломераций
 ## Urbanization and Metropolitan Development
 
@@ -679,6 +771,9 @@ The overall average therefore hides a strong contrast between a densely populate
 
 ## 23.19. Основные источники и литература
 ## Selected References and Further Reading
+
+- International Organization for Migration (IOM), Displacement Tracking Matrix (DTM). **Kyrgyzstan — Baseline Mobility Assessment — Round 7 (April 2026)**. https://dtm.iom.int/reports/kyrgyzstan-baseline-mobility-assessment-round-7-april-2026
+
 
 - Национальный статистический комитет Кыргызской Республики. **Население: официальная статистика**. https://www.stat.gov.kg/ru/statistics/naselenie/
 - Национальный статистический комитет Кыргызской Республики. **Численность постоянного населения на начало года** (открытые данные). https://www.stat.gov.kg/ru/opendata/category/39/
