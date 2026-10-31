@@ -240,6 +240,58 @@ R = f(H, E, V)
 7. Резервные фонды и механизмы быстрого финансирования восстановления.
 8. Учёт потребностей детей, пожилых людей и людей с инвалидностью.
 
+### 26.10.1. Как расставлять приоритеты при снижении риска бедствий / Prioritising Disaster Risk Reduction Measures
+
+Органы местного управления и специалисты часто сталкиваются с несколькими опасностями одновременно, но ресурсы на защиту ограничены. Поэтому важно не просто составить перечень опасностей, а прозрачно объяснить, какие меры следует реализовать в первую очередь.
+
+**Первичный анализ риска** может включать следующие вопросы:
+
+- Какое опасное явление возможно и какова его вероятная интенсивность?
+- Какие люди, здания, дороги, мосты, школы, больницы и инженерные сети могут оказаться в зоне воздействия?
+- Насколько уязвимы эти объекты и люди: учитываются качество строительства, возраст зданий, доступ к информации, мобильность и социальные условия?
+- Какие возможности предупреждения, эвакуации, реагирования и восстановления уже существуют?
+- Какова неопределённость данных и какие сведения необходимо собрать дополнительно?
+
+**Матрица приоритетов.** Для предварительного сравнения можно использовать качественную матрицу с категориями низкого, среднего и высокого уровня опасности, экспозиции и уязвимости. Она помогает организовать обсуждение, но не заменяет инженерную оценку, вероятностный анализ или официальную карту опасности. Нельзя механически перемножать порядковые категории и выдавать результат за точную вероятность или денежный ущерб.
+
+**Пример.** В условном горном районе рассматриваются два объекта. Первый — мост, единственный круглогодичный путь к нескольким сёлам; второй — сезонная дорога, используемая ограниченным числом хозяйств. Даже если вероятность повреждения обоих объектов оценивается одинаково, последствия потери моста могут быть существенно выше из-за изоляции населения и нарушения доступа к медицине и снабжению. Приоритет определяется не только вероятностью события, но и последствиями, уязвимостью и наличием альтернативных маршрутов.
+
+**Портфель мер.** Эффективная стратегия обычно сочетает:
+1. предотвращение нового риска — запрет или ограничение строительства в опасных зонах;
+2. снижение существующего риска — укрепление зданий, мостов, склонов и защитных сооружений;
+3. готовность — мониторинг, оповещение, планы эвакуации и обучение;
+4. финансовую защиту — резервы, страховые механизмы и планы восстановления;
+5. восстановление с учётом риска — не воспроизводить прежнюю уязвимость при ремонте и строительстве.
+
+Приоритеты необходимо пересматривать после новых обследований, изменения землепользования, строительства инфраструктуры и крупных событий. Важно консультироваться с населением, включая группы, которым сложнее получить предупреждение или самостоятельно эвакуироваться.
+
+**Учебное задание.** Выберите два условных объекта в горной долине и сравните последствия их повреждения при паводке или оползне. Составьте качественную матрицу опасности, экспозиции и уязвимости, укажите неопределённость и предложите по две меры предотвращения, готовности и восстановления. Не присваивайте объектам точные вероятности без исходных данных.
+
+Local authorities and specialists often face several hazards at once, while resources for protection are limited. It is therefore important not merely to list hazards, but to explain transparently which measures should be implemented first.
+
+**A preliminary risk assessment** may address the following questions:
+
+- What hazardous event is possible, and how intense could it be?
+- Which people, buildings, roads, bridges, schools, hospitals and utility networks may be exposed?
+- How vulnerable are these people and assets? Consider construction quality, building age, access to information, mobility and social conditions.
+- What warning, evacuation, response and recovery capacities already exist?
+- How uncertain are the data, and what additional information is needed?
+
+**A prioritisation matrix.** A qualitative matrix using low, medium and high categories for hazard, exposure and vulnerability can support preliminary comparison. It helps structure discussion but does not replace engineering assessment, probabilistic analysis or an official hazard map. Ordinal categories must not be multiplied mechanically and presented as an exact probability or monetary loss.
+
+**Example.** Consider two assets in a hypothetical mountain district. The first is a bridge serving as the only year-round route to several villages. The second is a seasonal road used by a limited number of households. Even if the likelihood of damage is assessed as similar, losing the bridge may have much greater consequences because it could isolate residents and interrupt access to healthcare and supplies. Priority depends not only on event likelihood but also on consequences, vulnerability and alternative routes.
+
+**A portfolio of measures.** An effective strategy usually combines:
+1. preventing new risk by prohibiting or limiting construction in hazardous areas;
+2. reducing existing risk by strengthening buildings, bridges, slopes and protective infrastructure;
+3. preparedness through monitoring, warnings, evacuation plans and training;
+4. financial protection through reserves, insurance mechanisms and recovery plans;
+5. risk-informed recovery that avoids reproducing previous vulnerabilities during repair and reconstruction.
+
+Priorities should be reviewed after new surveys, land-use changes, infrastructure development and major events. Consultation with residents is essential, including groups who may have difficulty receiving warnings or evacuating independently.
+
+**Learning activity.** Select two hypothetical assets in a mountain valley and compare the consequences of their damage during a flood or landslide. Prepare a qualitative hazard, exposure and vulnerability matrix, state uncertainties and propose two measures each for prevention, preparedness and recovery. Do not assign precise probabilities without supporting data.
+
 ## 26.11. Города, зелёная инфраструктура и качество жизни / Cities, Green Infrastructure and Quality of Life
 
 Устойчивые города должны снижать воздействие на природу и одновременно повышать качество жизни. В Кыргызстане это особенно важно для Бишкека, Оша и быстро растущих районных центров.
