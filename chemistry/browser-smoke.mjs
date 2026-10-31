@@ -179,6 +179,28 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/chemical-reactions.html") {
+      if (!(await page.locator("[data-i=exoText]").innerText()).includes("тепло передаётся") ||
+          !(await page.locator("[data-i=endoText]").innerText()).includes("поглощает тепло")) {
+        errors.push(file + ": Russian exothermic/endothermic definitions are incomplete");
+      }
+      if (!(await page.locator("[data-i=hessNote]").innerText()).includes("начального и конечного состояний") ||
+          !(await page.locator("[data-i=thermoCaution]").innerText()).includes("не определяет скорость")) {
+        errors.push(file + ": Russian Hess's law or enthalpy limitation is missing");
+      }
+      if (!(await page.locator("[data-i=methaneEnthalpy]").innerText()).includes("−890,3")) {
+        errors.push(file + ": methane combustion enthalpy example is missing");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=hessNote]").innerText()).includes("initial and final states") ||
+          !(await page.locator("[data-i=thermoCaution]").innerText()).includes("does not determine reaction rate")) {
+        errors.push(file + ": English Hess's law or enthalpy limitation is missing");
+      }
+      if (!(await page.locator("[data-i=methaneEnthalpy]").innerText()).includes("−890.3")) {
+        errors.push(file + ": English methane combustion enthalpy example is missing");
+      }
+    }
+
     if (file === "chapters/organic-chemistry.html") {
       for (const key of ["ketonesText", "estersText", "ethersText", "arenesText", "carbonylNote"]) {
         if (!(await page.locator('[data-i="' + key + '"]').count())) errors.push(file + ": missing organic chemistry topic " + key);
