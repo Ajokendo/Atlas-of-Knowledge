@@ -371,6 +371,18 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 **Географический вывод.** Бассейн реки — более подходящая природная единица для анализа водных потоков, чем административная граница. Но управление бассейном требует одновременно правовых соглашений, совместного мониторинга, инженерного обслуживания и обмена данными.
 
+#### 20.9.1. Basin Cooperation: The Chu and Talas Rivers
+
+The Chu and Talas rivers show why water management cannot stop at state borders. Much of their water-management infrastructure—regulation structures, reservoirs and canals—is located upstream in Kyrgyzstan. Kazakhstan also depends on how these facilities are operated and on agreed water allocations for irrigation.
+
+In January 2000, Kyrgyzstan and Kazakhstan signed an agreement on the use of intergovernmental water-management facilities on the Chu and Talas rivers. The parties agreed to share the operation and maintenance costs of the facilities covered by the agreement in proportion to the volume of water received by each party. A bilateral commission supports implementation of the agreement.
+
+According to the CAWater-Info regional water yearbook, the protocol of the commission's 35th meeting, held in April 2025, agreed on a transfer of 580 million m³ of water to Kazakhstan for the 2025 irrigation season: 400 million m³ from the Talas River and 180 million m³ from the Chu River. At the 36th meeting in September 2025, the parties reviewed the irrigation season and the condition of intergovernmental facilities. The 2026 work plan includes seasonal water sampling, hydrodynamic flood modelling and environmental monitoring.
+
+These figures refer to an agreed schedule for one irrigation season, not a permanent annual quota. Actual allocation depends on annual water availability, facility conditions, seasonal demand and agreed protocols. Published tables should therefore state the year, source, units and whether a value is planned, agreed or measured.
+
+**Geographic conclusion.** A river basin is a more suitable natural unit for analysing water flows than an administrative boundary. Basin management nevertheless requires legal agreements, joint monitoring, infrastructure maintenance and data exchange.
+
 ### 20.9.2. Нарын–Сырдарья: взаимосвязь воды и энергетики / The Naryn–Syr Darya Basin: The Water–Energy Nexus
 
 Нарын является одним из главных истоков Сырдарьи. Токтогульское водохранилище и каскад гидроэлектростанций позволяют регулировать сток и вырабатывать электроэнергию. Однако режим работы водохранилища влияет не только на Кыргызстан: ниже по течению вода используется для орошения в Узбекистане и Казахстане.
@@ -385,6 +397,21 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 - координации водного режима с импортом, экспортом и сезонной торговлей электроэнергией;
 - оценки последствий для ирригации, экосистем, паводковой безопасности и местных сообществ;
 - механизмов компенсации услуг по регулированию стока и эксплуатации инфраструктуры.
+
+#### 20.9.2. The Naryn–Syr Darya Basin: The Water–Energy Nexus
+
+The Naryn is one of the main headwater rivers of the Syr Darya. The Toktogul Reservoir and the cascade of hydropower plants make it possible to regulate river flow and generate electricity. Their operating regime affects not only Kyrgyzstan: downstream water is also used for irrigation in Uzbekistan and Kazakhstan.
+
+The **water–energy nexus** describes a situation in which decisions in one sector change conditions in another. Releasing water through turbines in winter helps Kyrgyzstan generate electricity during a period of high demand for heating and lighting. However, reducing summer releases may make it harder to supply irrigation water downstream. Storing more water in winter and releasing it in summer may better match irrigation demand, but would require other ways of meeting winter electricity needs.
+
+Historically, the Toktogul Reservoir was designed as a multi-year flow regulator important for irrigation downstream in the Syr Darya basin. After the dissolution of the integrated Soviet water and energy system, coordination became more difficult: Kyrgyzstan needs reliable winter electricity, while downstream countries need predictable summer water volumes. This is not a simple conflict between “upstream” and “downstream” countries; it is a problem of distributing benefits, costs and risks among interdependent users.
+
+Sustainable solutions require:
+- agreed seasonal release schedules;
+- transparent exchange of inflow forecasts and reservoir-storage data;
+- coordination of water operations with electricity imports, exports and seasonal trade;
+- assessment of impacts on irrigation, ecosystems, flood safety and local communities;
+- mechanisms to compensate for flow-regulation services and infrastructure operation.
 
 ### 20.9.3. Камбаратинская ГЭС-1: региональный проект и оценка последствий / Kambarata-1 HPP: A Regional Project and Impact Assessment
 
