@@ -179,6 +179,30 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/redox.html") {
+      const rules = page.locator(".panel li");
+      if (await rules.count() !== 5) errors.push(file + ": expected five oxidation-state assignment rules");
+      if (!(await page.locator("[data-i=workedConclusion]").innerText()).includes("не утверждение о заряде")) {
+        errors.push(file + ": Russian worked example must distinguish formal oxidation state from actual atomic charge");
+      }
+      if (!(await page.locator(".formula").filter({ hasText: "2(+1)" }).count())) {
+        errors.push(file + ": sulfur oxidation-state calculation is missing");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=workedConclusion]").innerText()).includes("not a claim")) {
+        errors.push(file + ": English worked example must distinguish formal oxidation state from actual atomic charge");
+      }
+      if (!(await page.locator("[data-i=ruleOH]").innerText()).includes("peroxides") ||
+          !(await page.locator("[data-i=ruleOH]").innerText()).includes("metal hydrides")) {
+        errors.push(file + ": English oxidation-state exceptions are incomplete");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=ruleOH]").innerText()).includes("пероксидах") ||
+          !(await page.locator("[data-i=ruleOH]").innerText()).includes("гидридах металлов")) {
+        errors.push(file + ": Russian oxidation-state exceptions are incomplete");
+      }
+    }
+
     if (file === "chapters/chemical-formulae.html") {
       const formula = page.locator("#formula");
       const calculate = page.locator("#calc");
