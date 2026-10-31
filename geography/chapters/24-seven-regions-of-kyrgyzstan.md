@@ -652,18 +652,18 @@ Prepare two scenarios for the next 10–15 years: a continuation scenario and a 
 
 ## 24.15. Основные понятия / Key Terms
 
-| Русский термин | English term | Значение |
+| Русский термин | English term | Значение / Meaning |
 |---|---|---|
-| Область | Region / Oblast | Региональная административная единица |
-| Район | District / Rayon | Административная единица внутри области |
-| Айылный аймак | Rural municipality | Единица местного самоуправления |
-| Межгорная котловина | Intermontane basin | Понижение рельефа между горными системами |
-| Долинный агроландшафт | Valley agro-landscape | Сельскохозяйственный ландшафт речной долины |
-| Пастбищная ёмкость | Grazing capacity | Допустимая нагрузка скота на пастбище |
-| Трансграничный бассейн | Transboundary basin | Речной бассейн, разделяемый несколькими государствами |
-| Агломерация | Urban agglomeration | Город и связанная с ним система поселений |
-| Пространственное планирование | Spatial planning | Организация использования территории и инфраструктуры |
-| Экспозиция риска | Risk exposure | Наличие людей и объектов в зоне опасного воздействия |
+| Область | Region / Oblast | Региональная административная единица / A regional administrative unit |
+| Район | District / Rayon | Административная единица внутри области / An administrative unit within a region |
+| Айылный аймак | Rural municipality | Единица местного самоуправления / A local self-government unit |
+| Межгорная котловина | Intermontane basin | Понижение рельефа между горными системами / A low-lying area between mountain systems |
+| Долинный агроландшафт | Valley agro-landscape | Сельскохозяйственный ландшафт речной долины / An agricultural landscape in a river valley |
+| Пастбищная ёмкость | Grazing capacity | Допустимая нагрузка скота на пастбище / The livestock pressure a pasture can sustain without unacceptable degradation |
+| Трансграничный бассейн | Transboundary basin | Речной бассейн, разделяемый несколькими государствами / A river basin shared by two or more countries |
+| Агломерация | Urban agglomeration | Город и связанная с ним система поселений / A city and its functionally connected settlements |
+| Пространственное планирование | Spatial planning | Организация использования территории и инфраструктуры / The organisation of land use and infrastructure across a territory |
+| Экспозиция риска | Risk exposure | Наличие людей и объектов в зоне опасного воздействия / The presence of people and assets in areas that may be affected by a hazard |
 
 ## 24.16. Контрольные вопросы / Review Questions
 
