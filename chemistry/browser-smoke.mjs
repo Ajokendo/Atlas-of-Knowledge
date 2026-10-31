@@ -480,6 +480,16 @@ try {
       if (!(await page.locator('[data-i="catalystNote"]').innerText()).includes("equilibrium constant")) {
         errors.push(file + ": English catalyst note must state that a catalyst does not change the equilibrium constant");
       }
+      if (!(await page.locator('[data-i="quotientNote"]').innerText()).includes("Q < K") ||
+          !(await page.locator('[data-i="leChatelierNote"]').innerText()).includes("частично ослабить")) {
+        errors.push(file + ": Russian equilibrium notes must explain Q versus K and the qualitative nature of Le Chatelier's principle");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator('[data-i="quotientNote"]').innerText()).includes("Q < K") ||
+          !(await page.locator('[data-i="leChatelierNote"]').innerText()).includes("partly opposes")) {
+        errors.push(file + ": English equilibrium notes must explain Q versus K and the qualitative nature of Le Chatelier's principle");
+      }
+      await page.locator("#lang").click();
       await page.locator("#lang").click();
     }
 
