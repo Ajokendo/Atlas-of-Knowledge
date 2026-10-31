@@ -477,6 +477,18 @@ Comparing regions requires indicators that address the same question and are cal
 
 Оценка риска должна учитывать не только вероятность природного явления, но и экспозицию населения, уязвимость зданий и инфраструктуры, доступность предупреждения и способность местных институтов реагировать.
 
+
+The risk assessment must consider not only the probability of a hazardous event but also the exposure of people, the vulnerability of buildings and infrastructure, access to warnings and the capacity of local institutions to respond.
+
+| Hazard | Most exposed types of area | Geographic mechanism | Adaptation priority |
+|---|---|---|---|
+| Debris flows and floods | Foothills, alluvial fans and river valleys | Intense rainfall, rapid snowmelt and lake outbursts | Early warning, land-use zoning and engineering protection |
+| Landslides and rockfalls | Slopes above roads and settlements | Geology, soil saturation, slope cutting and earthquakes | Geomonitoring and safe road design |
+| Drought and water scarcity | Fergana foothills and irrigated valley lands | High evaporation, seasonal river flow and competition for water | Water conservation, measurement, canal maintenance and basin management |
+| Pasture degradation | High-mountain and foothill pastures | Overgrazing, livestock concentration and climate change | Rotational grazing and assessment of pasture carrying capacity |
+| Water pollution | Lakeshores, urban areas and industrial sites | Inadequate wastewater treatment, waste and mining activities | Monitoring, treatment facilities and source control |
+| Glacier- and snow-related hazards | High-mountain catchments | Glacier change and unstable glacial-moraine lakes | Inventories, monitoring and evacuation plans |
+
 ## 24.12. Пространственное планирование и региональная политика / Spatial Planning and Regional Policy
 
 Государственная программа комплексного социально-экономического развития регионов на 2025–2030 годы задаёт рамку для региональной политики. В ней важны индустриализация, сельское хозяйство, туризм, цифровизация, инфраструктура, охрана окружающей среды и развитие пространственного планирования. Региональная политика должна переводить национальные цели в конкретные проекты, привязанные к территории и измеримым результатам.
