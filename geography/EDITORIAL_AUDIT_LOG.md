@@ -429,3 +429,16 @@ This checkpoint preserves the working context for continuation after a session i
 - The seven area values and seven 1 January 2026 population values now have direct official NSC source coverage. Density values remain author calculations and are labelled accordingly.
 
 - Final parity correction: the English version of section 24.1 was updated to match the verified 27 October 2026 announcement and explicitly states that the second-stage reform remains a proposal, not enacted law.
+
+
+## Chapter 22 bilingual and statistical audit — 1 November 2026
+
+- Added substantial English explanatory counterparts to sections 22.1 (mountain ecosystem and altitudinal zonation), 22.2 (protected-area concept and national/international designation types), and 22.3 (network structure, statistical categories and interpretation).
+- Updated the Russian section 22.3 to reproduce the NSC 2025 area figure at its published precision: **1,305.5 thousand hectares (1.3055 million ha)**, rather than rounding it to 1.305 million ha.
+- Rechecked the NSC open-data series: 23 state nature reserves and natural parks in each year 2021–2025; combined area 1,305.5 thousand ha in 2025. These are category-specific figures for state reserves and natural parks, not a count or area total for every form of protected area.
+- Added an explicit English methodological explanation that the 7.4% protected-area share reported in a 2025 UNDP publication must not be conflated with the NSC reserves-and-parks area series; differing categories, dates and overlapping international designations require separate treatment.
+- Confirmed the current Ministry of Natural Resources protected-area page lists eight state nature reserves and seven state nature parks in its displayed list; this web page should be treated as a public overview, not a complete legal register. The chapter retains its instruction to verify current official legal boundaries, categories and areas before map production.
+- The updated Chapter 22 was fetched again from `workspace/geography`; the new English sections, exact Russian statistical value, preserved Chapter 22.4 structure and reference links were checked.
+- Sources checked: NSC count series https://stat.gov.kg/ru/opendata/category/854/ ; NSC area series https://stat.gov.kg/ru/opendata/category/302/ ; Ministry overview https://mnr.gov.kg/ru/page/gosudarstvennye-prirodnye-parki-zapovedniki-i-biosfernye-territorii-mpretn-kr ; UNDP 2025 biodiversity publication https://www.undp.org/kyrgyzstan/news/biodiversity-basis-sustainable-development-country .
+
+**Chapter 22 update commit:** `fe759d7e7a9a4e12799c56c32972c744ceb516db`.
