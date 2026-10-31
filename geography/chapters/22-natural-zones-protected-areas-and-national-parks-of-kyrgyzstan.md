@@ -213,6 +213,40 @@
 5. Согласовать меры охраны и устойчивого природопользования.
 6. Создать систему мониторинга эффективности коридора.
 
+### 22.8.1. Как выявляют потенциальные экологические коридоры / Identifying Potential Ecological Corridors
+
+Экологический коридор нельзя определить только по тому, что две охраняемые территории расположены сравнительно близко друг к другу. Для животных важна не геометрическая дистанция, а возможность безопасного перемещения через конкретные типы местообитаний и ландшафтные барьеры.
+
+**Основные этапы пространственного анализа:**
+
+1. **Выбор целевых видов и процессов.** Указывают, для каких животных, растений или экологических процессов требуется связность. Разные виды используют разные высоты, укрытия, кормовые территории и сезонные маршруты.
+2. **Картирование местообитаний.** Объединяют полевые наблюдения, спутниковые данные, карты растительности, рельефа, водных объектов и землепользования. Данные должны иметь сопоставимые даты и пространственное разрешение.
+3. **Выявление барьеров и угроз.** Учитывают дороги, ограждения, населённые пункты, освещённые участки, интенсивное пастбищное использование, добычу ресурсов и другие факторы. Значимость каждого барьера зависит от вида и сезона.
+4. **Оценка сопротивления ландшафта.** В моделях каждому типу поверхности присваивают условную стоимость перемещения. Благоприятное местообитание получает меньшую стоимость, сильный барьер — большую. Эти значения являются гипотезой, которую необходимо обосновывать биологическими данными.
+5. **Моделирование возможных маршрутов.** Анализ наименьшей стоимости или теория электрических цепей помогают выявить вероятные направления движения и участки, где потоки могут концентрироваться. Результат показывает потенциальную связность, а не доказывает, что животные действительно используют маршрут.
+6. **Полевое подтверждение и обсуждение.** Модель проверяют фотоловушками, следами, генетическими данными, наблюдениями и, если это допустимо, телеметрией. С местными сообществами обсуждают сезонное использование пастбищ, безопасность скота и возможные меры снижения конфликтов.
+7. **Мониторинг результата.** После создания переходов или изменения режима землепользования проверяют, изменилось ли использование маршрута, снизилось ли число конфликтов и сохраняется ли качество местообитаний.
+
+**Пример интерпретации.** Если модель показывает узкий участок между двумя горными массивами, это может быть потенциальным «узким местом» связности. Но прежде чем предлагать там охранные ограничения или строительство перехода, нужно проверить фактические перемещения целевого вида, сезонность, наличие альтернативных маршрутов и последствия для местных жителей.
+
+**Учебное задание.** На карте выберите две природные территории и нанесите возможные барьеры между ними. Составьте два варианта маршрута для условного вида: один по кратчайшему расстоянию, другой — с учётом качества местообитаний и препятствий. Объясните, какие полевые данные потребуются, чтобы проверить оба варианта. Не публикуйте точные координаты мест размножения редких видов.
+
+An ecological corridor cannot be identified simply because two protected areas are relatively close to each other. For wildlife, geometric distance is less important than the possibility of moving safely through particular habitats and across landscape barriers.
+
+**Main stages of spatial analysis:**
+
+1. **Select target species and processes.** Specify which animals, plants or ecological processes require connectivity. Different species use different elevations, cover, feeding areas and seasonal routes.
+2. **Map habitats.** Combine field observations, satellite data, vegetation maps, terrain, water features and land-use information. Data should have compatible dates and spatial resolution.
+3. **Identify barriers and pressures.** Consider roads, fences, settlements, illuminated areas, intensive grazing, resource extraction and other factors. The importance of each barrier depends on the species and season.
+4. **Estimate landscape resistance.** Models assign an assumed movement cost to each land-cover type. Suitable habitat receives a lower cost, while a major barrier receives a higher one. These values are hypotheses that must be supported by biological evidence.
+5. **Model potential routes.** Least-cost path analysis and circuit theory can help identify likely movement directions and locations where flows may concentrate. The output indicates potential connectivity; it does not prove that animals use the route.
+6. **Validate in the field and consult communities.** Models can be checked using camera traps, tracks, genetic data, observations and, where appropriate, telemetry. Local communities can clarify seasonal pasture use, livestock safety and ways to reduce conflict.
+7. **Monitor outcomes.** After crossings are built or land-use practices change, assess whether route use has changed, conflicts have declined and habitat quality is maintained.
+
+**Interpreting an example.** If a model identifies a narrow passage between two mountain ranges, it may represent a potential connectivity bottleneck. Before proposing restrictions or constructing a wildlife crossing, researchers must verify actual movements of the target species, seasonality, alternative routes and effects on local residents.
+
+**Learning activity.** Select two natural areas on a map and mark possible barriers between them. Design two hypothetical routes for a species: one based on shortest distance and another accounting for habitat quality and obstacles. Explain what field evidence would be needed to test both routes. Do not publish precise locations of breeding sites of rare species.
+
 ## 22.9. Управление ООПТ и участие местных сообществ
 ## Protected-Area Management and Community Participation
 
