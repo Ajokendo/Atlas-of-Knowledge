@@ -439,7 +439,7 @@ Disaster risk results from the interaction of three components:
 R = f(H, E, V)
 \]
 
-where (H) is the hazard, (E) is exposure and (V) is vulnerability. Practical assessments also consider the capacity to respond and recover.
+where \(H\) is the hazard, \(E\) is exposure and \(V\) is vulnerability. Practical assessments also consider the capacity to respond and recover.
 
 For example, an intense rainstorm in an uninhabited mountain gorge does not necessarily cause a major disaster. The same storm in a built-up floodplain without a warning system or safe evacuation routes may cause casualties and substantial losses.
 
