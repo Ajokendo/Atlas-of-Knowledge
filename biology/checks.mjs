@@ -93,6 +93,10 @@ if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.include
 }
 
 const evolutionFile = fs.readFileSync(path.join(root, "chapters", "evolution.html"), "utf8");
+for (const url of ["19-2-population-genetics", "19-3-adaptive-evolution"]) {
+  if (!evolutionFile.includes("openstax.org/books/biology-2e/pages/" + url)) errors.push("chapters/evolution.html: missing topic-matched OpenStax reference " + url);
+}
+if (!evolutionFile.includes("Illustrative frequencies after several generations") || !evolutionFile.includes("not a prediction for a real population")) errors.push("chapters/evolution.html: selection model must be labelled illustrative, not predictive");
 if (!evolutionFile.includes("function localizeControls()") || !evolutionFile.includes("localizeControls();updateModules()")) errors.push("chapters/evolution.html: interactive controls must relabel when the language changes");
 if (!/data-selection="high" aria-pressed="false"/.test(evolutionFile) || !/data-era="human" aria-pressed="false"/.test(evolutionFile)) errors.push("chapters/evolution.html: toggle controls must expose initial pressed states");
 const microbiologyFile = fs.readFileSync(path.join(root, "chapters", "microbiology.html"), "utf8");
