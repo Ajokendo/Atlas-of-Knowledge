@@ -230,6 +230,28 @@ This is a unit conversion, not a method for independently drawing a legally vali
 - защите персональных данных;
 - политической нейтральности классификаций и визуализаций.
 
+### 10.15.1. Как читать карту государственной границы / Reading a Map of an International Boundary
+
+Линия на политической карте может обозначать границу с разным юридическим и картографическим статусом. Для корректного чтения необходимо различать **делимитацию** — описание прохождения границы в договоре или ином правовом документе, **демаркацию** — обозначение линии на местности, и её последующее обслуживание и совместное управление.
+
+**Что проверять на карте:** дату издания и источник; масштаб и точность исходных данных; легенду; тип линии и поясняющие примечания; наличие спорных или неурегулированных участков; соответствие карты действующим официальным документам. Условная линия на обзорной карте не заменяет договор, протокол или официальную координатную документацию.
+
+**Границы и повседневная жизнь.** Пограничная линия может пересекать транспортные, водные, пастбищные и родственные связи. Для анализа доступности услуг и хозяйственных маршрутов важно отдельно учитывать официальные пункты пропуска, режим их работы, разрешённые виды пересечения и сезонные ограничения. Нельзя выводить фактическую доступность из одной лишь геометрической близости к границе.
+
+**Нейтральность и точность.** При описании участков, статус которых оспаривается или трактуется сторонами по-разному, следует ясно обозначать, чью позицию отражает источник, приводить дату и избегать представления спорной линии как бесспорного факта. Карта должна показывать неопределённость и статус данных, а не скрывать их.
+
+**Учебное задание.** Сравните две карты одной приграничной территории, изданные в разные годы. Найдите различия в легенде, источниках, масштабе и обозначении линии. Составьте список документов и официальных данных, которые понадобились бы для проверки каждого различия.
+
+A line on a political map may represent a boundary with a particular legal and cartographic status. Correct interpretation requires distinguishing **delimitation**—the description of a boundary in a treaty or other legal document—from **demarcation**—marking the line on the ground—and from subsequent maintenance and joint management.
+
+**What to check on a map:** publication date and source; scale and accuracy of source data; legend; line type and explanatory notes; any disputed or unsettled segments; and consistency with current official documents. A line on a general reference map does not replace a treaty, protocol or official coordinate documentation.
+
+**Boundaries and everyday life.** A boundary may intersect transport, water, pasture and family networks. Analysis of service access and livelihood routes should separately consider official crossing points, operating schedules, permitted crossing types and seasonal restrictions. Actual accessibility cannot be inferred from geometric proximity to a border alone.
+
+**Neutrality and accuracy.** When describing segments whose status is disputed or interpreted differently by parties, identify whose position the source represents, give the date and avoid presenting a contested line as an undisputed fact. A map should communicate uncertainty and data status rather than conceal them.
+
+**Activity.** Compare two maps of the same border area published in different years. Identify differences in legend, sources, scale and boundary depiction. List the documents and official data needed to verify each difference.
+
 ## 10.16. Итоги главы / Chapter Summary
 
 1. Политическая география изучает пространственную организацию власти и политических процессов.
