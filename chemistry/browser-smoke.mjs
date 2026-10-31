@@ -256,6 +256,7 @@ try {
     }
 
     if (file === "chapters/redox.html") {
+      if (!(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("число отданных электронов должно равняться числу принятых") || !(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("суммарного заряда")) errors.push(file + ": Russian redox balancing note must conserve electrons, atoms and charge");
       if (!(await page.locator("[data-i=electronFlow]").innerText()).includes("одна вертикальная черта") || !(await page.locator("[data-i=electronFlow]").innerText()).includes("двойная") ||
           !(await page.locator("[data-i=anodeText]").innerText()).includes("анод отрицателен") ||
           !(await page.locator("[data-i=cathodeText]").innerText()).includes("катод положителен")) {
@@ -270,6 +271,7 @@ try {
         errors.push(file + ": Daniell-cell standard potential is missing in Russian");
       }
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("number of electrons lost must equal the number gained") || !(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("total charge")) errors.push(file + ": English redox balancing note must conserve electrons, atoms and charge");
       if (!(await page.locator("[data-i=electronFlow]").innerText()).includes("single vertical line") || !(await page.locator("[data-i=electronFlow]").innerText()).includes("double line") ||
           !(await page.locator("[data-i=anodeText]").innerText()).includes("anode is negative") ||
           !(await page.locator("[data-i=cathodeText]").innerText()).includes("cathode is positive")) {
