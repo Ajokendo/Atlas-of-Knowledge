@@ -419,3 +419,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Confirmed the current legal references: Law No. 128 of 18 July 2024 on administrative-territorial units at the level of rural municipalities and cities; Law No. 200 of 17 September 2025 renaming Jalal-Abad city as Manas. Exact Ministry of Justice legal-database URLs have been added to the bibliography.
 - Updated the discussion of the proposed second reform stage: on 27 October 2026, the head of the State Agency publicly described a plan for more than 20 enlarged aymaqs in place of the current oblast/rayon structure. This is explicitly labelled a proposal, not enacted law; the chapter continues to describe the seven-region system currently in force. Reference added: Radio Azattyk, 27 October 2026.
 - Population values were verified against the official NSC open-data page. Area values and calculated densities still require a separate check against the dated NSC regional profiles; density values are author-calculated from area and population, not official NSC indicators.
+
+
+## Chapter 24 source check — regional areas completed (1 November 2026)
+
+- Checked the published areas in the seven NSC regional profiles: Batken 17.0 thousand km²; Jalal-Abad 33.7; Issyk-Kul 43.1; Naryn 45.2; Osh 29.0; Talas 11.4; Chuy 20.2. All seven figures match the values used in section 24.2.
+- Confirmed the corresponding regional administrative-centre statements in the NSC profiles, including Bishkek as Chuy Region's centre and Osh as Osh Region's centre, while the cities' populations are counted separately in the NSC open-data series.
+- The regional profile pages were last updated 12 October 2026 in the retrieved pages. Their current administrative-unit counts should not be copied into the chapter without an explicit reference date because the second-stage reform remains a proposal and the first-stage changes affect municipal composition.
+- The seven area values and seven 1 January 2026 population values now have direct official NSC source coverage. Density values remain author calculations and are labelled accordingly.
