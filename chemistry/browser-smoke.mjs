@@ -191,6 +191,10 @@ try {
       if (!(await page.locator("[data-i=methaneEnthalpy]").innerText()).includes("−890,3")) {
         errors.push(file + ": methane combustion enthalpy example is missing");
       }
+      if (!(await page.locator("[data-i=thermoIntro]").innerText()).includes("работа расширения") ||
+          !(await page.locator(".formula").filter({ hasText: "qₚ = ΔH" }).count())) {
+        errors.push(file + ": constant-pressure heat/enthalpy condition or relation is missing in Russian");
+      }
       await page.locator("#lang").click();
       if (!(await page.locator("[data-i=hessNote]").innerText()).includes("initial and final states") ||
           !(await page.locator("[data-i=thermoCaution]").innerText()).includes("does not determine reaction rate")) {
@@ -198,6 +202,9 @@ try {
       }
       if (!(await page.locator("[data-i=methaneEnthalpy]").innerText()).includes("−890.3")) {
         errors.push(file + ": English methane combustion enthalpy example is missing");
+      }
+      if (!(await page.locator("[data-i=thermoIntro]").innerText()).includes("pressure–volume work")) {
+        errors.push(file + ": English constant-pressure heat/enthalpy condition is missing");
       }
     }
 
