@@ -651,6 +651,7 @@ try {
         errors.push(file + ": glossary topic filter did not isolate the equivalence-point entry");
       }
       await page.locator("#lang").click();
+      await page.locator("#category").selectOption("all");
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
         errors.push(file + ": English glossary is missing the relative atomic mass definition");
