@@ -191,6 +191,45 @@ Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a
 
 Современный рельеф — результат наложения позднекайнозойского поднятия на гораздо более древний и сложный геологический фундамент.
 
+
+Kyrgyzstan's geological history spans billions of years and includes several major stages. The age of a rock, the time when it formed and the time when it was later deformed are different characteristics. For example, an ancient rock may have been uplifted, metamorphosed or incorporated into a fold belt long after its original formation.
+
+### Precambrian: ancient basement
+
+Precambrian complexes consist of ancient metamorphic and igneous rocks that form parts of separate basement blocks. Their history is connected with early stages in the formation of continental crust. These rocks do not form one continuous, uniform basement beneath the whole country: they belong to different tectonic blocks and are exposed in particular structural zones.
+
+### Palaeozoic: oceans, island arcs and continental assembly
+
+During the Palaeozoic, the area of the present-day Tien Shan was part of a complex system of continental margins, ocean basins, island arcs and microcontinents. Different areas experienced:
+- opening and closure of ocean basins;
+- subduction of oceanic lithosphere;
+- volcanism and the formation of magmatic arcs;
+- accretion of island arcs and fragments of oceanic crust;
+- collision between continental blocks;
+- folding, thrusting and metamorphism; and
+- emplacement of granitoid intrusions.
+
+Regional geology commonly distinguishes the Caledonian and Hercynian (Variscan) orogenic episodes. These terms describe major mountain-building events; they do not mean that the entire territory of Kyrgyzstan experienced an identical sequence of deformation. The Northern, Central and Southern Tien Shan have different geological histories.
+
+### Mesozoic: relative stabilisation and sedimentation
+
+After the main Palaeozoic stages of fold-belt assembly, intraplate processes, weathering, denudation and sediment accumulation in low-lying areas played an important role during the Mesozoic. Some areas experienced renewed tectonic activity and magmatism. The geological record of this period is more complete in some districts than in others.
+
+### Cenozoic: renewed mountain building
+
+The convergence of the Indian and Eurasian lithospheric plates transferred deformation far into the interior of Eurasia. Although the Tien Shan lies far from the principal collision zone, it again became an area of active compression and uplift.
+
+From the late Palaeogene, and especially during the Neogene and Quaternary, the region experienced:
+- reactivation of ancient faults;
+- formation and movement of thrusts;
+- uplift of mountain ranges;
+- development of intermontane basins;
+- accumulation of thick continental sedimentary sequences;
+- intensified erosion and incision of river valleys; and
+- mountain glaciation during cold periods.
+
+The modern landscape is the result of late Cenozoic uplift superimposed on a much older and geologically complex basement.
+
 ## 17.7. Тектоническое строение и крупные структурные блоки / Tectonic Structure and Major Structural Blocks
 
 Тектоническое строение Кыргызстана мозаично. В региональных схемах выделяются крупные структурные элементы Северного, Срединного и Южного Тянь-Шаня, Северного Памира и северной окраины Таримской платформы. Некоторые схемы отдельно выделяют Таласский регион и другие блоки.
