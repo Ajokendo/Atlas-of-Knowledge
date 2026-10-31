@@ -525,6 +525,31 @@ Cumulative impacts are particularly important: several individually moderate pre
 
 Данные должны храниться в сопоставимом формате, иметь дату, методику и оценку неопределённости.
 
+### Практический пример: официальные итоги работы ООПТ за 2025 год
+
+В сообщении Министерства природных ресурсов Кыргызской Республики от 16 марта 2026 года приведены административные и восстановительные показатели работы ООПТ за 2025 год:
+
+| Показатель | Значение |
+|---|---:|
+| Выявленные нарушения природоохранного законодательства | 139 |
+| Общий размер рассчитанного ущерба | 1 105 789 сомов |
+| Материалы, по которым наложены штрафы | 54 |
+| Сумма штрафов | 399 500 сомов |
+| Материалы, по которым предъявлены иски | 119 |
+| Сумма предъявленных исков | 706 289 сомов |
+| Взыскано по рассмотренным делам | 578 224 сома |
+| Саженцы, высаженные на территориях ООПТ в рамках «Жашыл Мурас» | 25 236 |
+| Площадь посадок | 39,09 га |
+| Саженцы и сеянцы в питомниках государственных природных парков осенью 2025 года | 359 316 |
+| Из них признаны пригодными для высадки | 106 825 |
+
+Эти показатели иллюстрируют работу по контролю, привлечению к ответственности и восстановительным мероприятиям, но **не являются самостоятельной оценкой экологической эффективности**. Число выявленных нарушений может зависеть от интенсивности патрулирования и выявления; количество высаженных саженцев не равно количеству прижившихся деревьев. Для оценки результата необходимы последующие данные о взыскании ущерба, повторных нарушениях, выживаемости посадок, восстановлении местообитаний и динамике видов.
+
+В отчёте отдельно указаны 139 выявленных фактов нарушений, 54 материала со штрафами и 119 материалов с исками. Число материалов по видам правоприменения не следует складывать как число уникальных нарушений: один эпизод может сопровождаться несколькими процессуальными действиями. Суммы и статусы взысканий также нужно приводить раздельно.
+
+**Источник:** Министерство природных ресурсов, экологии и технического надзора Кыргызской Республики, «Итоги работы на особо охраняемых природных территориях Кыргызстана за 2025 год», 16 марта 2026 года: https://mnr.gov.kg/en/posts/news/itogi-raboty-na-osobo-oxranyaemyx-prirodnyx-territoriyax-kyrgyzstana-za-2025-god
+
+
 ### English explanation
 
 Monitoring should assess not only administrative activity—such as the number of patrols or visitors—but also the actual condition of nature.
@@ -540,6 +565,31 @@ Monitoring should assess not only administrative activity—such as the number o
 **Methods** include field surveys and permanent sample plots; camera traps and acoustic monitoring; satellite imagery and GIS; GPS/GNSS tracking of animal movements; water and soil analysis; visitor counts and trail-condition surveys; and community monitoring using verified observations.
 
 Data should be stored in comparable formats and accompanied by a date, method and estimate of uncertainty.
+
+### Practical example: official results of protected-area work in 2025
+
+A Ministry of Natural Resources release dated 16 March 2026 reported the following administrative and restoration indicators for protected areas in 2025:
+
+| Indicator | Value |
+|---|---:|
+| Recorded violations of environmental legislation | 139 |
+| Total assessed damage | KGS 1,105,789 |
+| Cases/materials resulting in fines | 54 |
+| Amount of fines | KGS 399,500 |
+| Cases/materials for which claims were filed | 119 |
+| Amount claimed | KGS 706,289 |
+| Recovered through cases already considered | KGS 578,224 |
+| Seedlings planted in protected areas under the Zhashyl Muras campaign | 25,236 |
+| Area planted | 39.09 ha |
+| Seedlings and saplings grown in state nature park nurseries in autumn 2025 | 359,316 |
+| Of these, assessed as suitable for planting | 106,825 |
+
+These indicators illustrate enforcement and restoration activities, but they are **not, by themselves, a measure of ecological effectiveness**. The number of recorded violations may depend on patrol and detection intensity; the number of seedlings planted is not the same as the number of trees that survive. Evaluating outcomes requires follow-up data on compensation recovered, repeat offences, seedling survival, habitat recovery and species trends.
+
+The release separately reports 139 recorded violations, 54 materials resulting in fines and 119 materials for which claims were filed. Counts of enforcement materials should not be added as if they represented unique violations: one incident may involve several legal or procedural actions. The amounts and recovery statuses must also be reported separately.
+
+**Source:** Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic, “Results of work in protected natural areas of Kyrgyzstan for 2025”, 16 March 2026: https://mnr.gov.kg/en/posts/news/itogi-raboty-na-osobo-oxranyaemyx-prirodnyx-territoriyax-kyrgyzstana-za-2025-god
+
 
 
 ### 22.12.1. Разобранный пример: расчёт общей площади ООПТ без двойного учёта / Worked Example: Calculating Protected Area without Double Counting
