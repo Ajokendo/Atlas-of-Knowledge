@@ -316,6 +316,16 @@ try {
     }
 
     if (file === "chapters/solutions.html") {
+      if (!(await page.locator("[data-i=pressurep]").innerText()).includes("парциального давления") ||
+          !(await page.locator("[data-i=pressurep]").innerText()).includes("закон Генри")) {
+        errors.push(file + ": Russian gas-solubility statement must specify partial pressure and Henry's law");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=pressurep]").innerText()).includes("partial pressure") ||
+          !(await page.locator("[data-i=pressurep]").innerText()).includes("Henry")) {
+        errors.push(file + ": English gas-solubility statement must specify partial pressure and Henry's law");
+      }
+      await page.locator("#lang").click();
       await page.locator("#n").fill("1");
       await page.locator("#v").fill("2");
       await page.locator("#n").fill("0");
