@@ -360,3 +360,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Cross-checked scientific names against the American Society of Mammalogists' Mammal Diversity Database and the CMS Central Asian Mammals Initiative. The entry distinguishes official presence records from population estimates: the Ministry notice gives no counts or trend data for these species.
 - Added direct taxonomy and conservation references and synchronized Russian and English wording.
 - Editorial readiness: **74/100**. One point added for a documented increase in species-level coverage of the Naryn fauna. Remaining work includes the wider seven-oblast claim audit, independent bilingual copy-editing and live browser, mobile, keyboard and screen-reader QA.
+
+
+## Naryn maral conservation measures — 1 November 2026
+- Added a bilingual species-conservation profile documenting the Naryn Reserve maral breeding centre: the Ministry reported that its fenced area had reached 82 ha by 15 July 2026 after a 32 ha expansion, and that nine captive-raised deer were transferred to Avletim Forestry in 2018.
+- Explicitly distinguished a documented transfer between institutions from proof of successful wild-population recovery. The text identifies the survival, reproduction and follow-up monitoring evidence that would be needed to make that stronger claim.
+- Linked the profile to the existing primary Ministry source and synchronized Russian and English wording.
+- Editorial readiness: **75/100**. One point added for a traceable improvement in species-conservation history and interpretation of management outcomes. This is a staged editorial-readiness score, not a completion percentage or external certification. Independent bilingual copy-editing and live browser, mobile, keyboard and screen-reader QA remain outstanding.
