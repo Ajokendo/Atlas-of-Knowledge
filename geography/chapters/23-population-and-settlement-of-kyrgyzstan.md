@@ -336,6 +336,36 @@ For Kyrgyzstan, it is particularly important not to confuse permanent rural-to-u
 
 Региональные центры и малые города важны для сбалансированного развития. Их укрепление может уменьшить чрезмерную концентрацию функций в Бишкеке и Оше. Для этого необходимы рабочие места, качественные услуги, транспортная доступность, цифровая инфраструктура и инвестиции.
 
+### 23.9.1. Как определить границы городской агломерации / Delineating an Urban Agglomeration
+
+Административная граница города не всегда совпадает с фактической городской территорией. Застроенные кварталы могут выходить за неё, а жители пригородных сёл ежедневно ездить в центральный город на работу, учёбу, лечение и за услугами. Поэтому для анализа урбанизации важно различать административный город, непрерывную застроенную территорию и функциональную городскую зону.
+
+**Три подхода к определению территории:**
+
+- **Административный подход.** Используются официальные границы города и муниципалитетов. Он удобен для бюджетной и управленческой статистики, но может исключать тесно связанные пригороды.
+- **Морфологический подход.** Выделяется непрерывная или почти непрерывная застройка по спутниковым снимкам и картам землепользования. Результат зависит от разрешения снимков и выбранного допустимого расстояния между застроенными участками.
+- **Функциональный подход.** Учитываются ежедневные поездки на работу и учёбу, транспортные связи и доступность услуг. Пригороды включаются в функциональную зону, если их население тесно связано с городским ядром. Конкретные пороги маятниковой миграции должны быть указаны и обоснованы; единого универсального порога для всех стран нет.
+
+**Пример.** Представим, что официальный город имеет население 500 000 человек, а прилегающие поселения, тесно связанные с ним ежедневными поездками, — ещё 150 000. В административной статистике города остаётся 500 000 жителей, тогда как функциональная городская зона в рамках принятого определения охватывает 650 000. Эти цифры нельзя смешивать: они отвечают на разные вопросы.
+
+**Почему границы важны для планирования.** Если транспорт, водоснабжение, канализация, управление отходами и защита от паводков планируются только внутри административной границы, инфраструктура пригородов может отставать от фактического роста населения. В то же время расширение функциональной зоны не означает автоматического изменения юридических границ или статуса поселений.
+
+**Учебное задание.** Сравните административную карту Бишкека с картой застроенной территории и доступными данными о поездках жителей пригородов. Отметьте, какие поселения функционально связаны с городом, и перечислите данные, которых не хватает для точного определения агломерации. Не делайте вывод о численности населения по одной спутниковой карте.
+
+An administrative city boundary does not always match the actual urban area. Built-up neighbourhoods may extend beyond it, while residents of nearby villages commute daily to the central city for work, education, healthcare and services. Urban analysis should therefore distinguish an administrative city, a continuous built-up area and a functional urban area.
+
+**Three approaches to delineation:**
+
+- **Administrative approach.** Uses official city and municipal boundaries. It is useful for budgets and governance statistics but may exclude closely connected suburbs.
+- **Morphological approach.** Identifies continuous or nearly continuous built-up land using satellite imagery and land-use maps. The result depends on image resolution and the chosen maximum gap between built-up areas.
+- **Functional approach.** Considers daily commuting, transport links and access to services. Suburbs are included in a functional area when their residents are closely connected to the urban core. Any commuting threshold must be stated and justified; there is no single universal threshold for every country.
+
+**Example.** Assume an official city has 500,000 residents and nearby settlements closely connected through daily commuting have another 150,000. The administrative city population remains 500,000, while the functional urban area, under the chosen definition, includes 650,000 people. These figures must not be mixed because they answer different questions.
+
+**Why boundaries matter for planning.** If transport, water supply, sewerage, waste management and flood protection are planned only within the administrative boundary, suburban infrastructure may lag behind actual population growth. Expanding a functional urban area does not, however, automatically change legal boundaries or settlement status.
+
+**Learning activity.** Compare an administrative map of Bishkek with a map of its built-up area and any available data on commuting from surrounding settlements. Identify settlements functionally connected to the city and list the data needed for a precise delineation of the agglomeration. Do not infer population totals from a satellite image alone.
+
 ## 23.10. Сельское расселение, сезонная мобильность и джайлоо
 ## Rural Settlement, Seasonal Mobility and Jailoo
 
