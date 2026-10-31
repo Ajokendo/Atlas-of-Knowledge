@@ -1059,8 +1059,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 80) {
-        errors.push(file + ": expected 80 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 83) {
+        errors.push(file + ": expected 83 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1115,6 +1115,10 @@ try {
       await page.locator("#search").fill("nucleotide");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Nucleotide")) {
         errors.push(file + ": glossary search did not find the nucleotide definition");
+      }
+      await page.locator("#search").fill("carbonyl group");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Carbonyl group")) {
+        errors.push(file + ": glossary search did not find the carbonyl-group definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
