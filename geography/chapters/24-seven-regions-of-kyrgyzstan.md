@@ -257,6 +257,42 @@ Regional comparisons require comparable indicators. A larger region is not neces
 
 Бишкек и Ош — отдельные города республиканского значения. Их включение в областные суммы приводит к двойному счёту и искажает сравнения. Аналогично переименование города не означает автоматического изменения названия области или её границ.
 
+### 24.10.1. Как корректно сравнивать области / How to Compare Regions Fairly
+
+Сравнение областей требует выбора показателей, которые отвечают на один и тот же вопрос и рассчитаны по сопоставимой методике. Абсолютные величины — например, общий объём производства или число медицинских учреждений — часто отражают прежде всего размер населения и территории. Для оценки обеспеченности и интенсивности процессов нужны относительные показатели.
+
+**Основные правила сопоставления:**
+
+1. **Согласуйте территориальные границы.** Проверьте, включены ли города республиканского значения, как учитываются изменения административных границ и к какой дате относятся данные.
+2. **Выберите подходящий знаменатель.** Число врачей можно выразить на 10 000 жителей, урожайность — в тоннах с гектара, плотность населения — на квадратный километр пригодной или общей территории. Знаменатель должен соответствовать смыслу показателя.
+3. **Сопоставьте периоды.** Нельзя напрямую сравнивать данные одной области за текущий год с данными другой за несколько лет назад. Для сезонных и быстро меняющихся показателей важны одинаковые сезоны и даты.
+4. **Проверьте определение показателя.** Например, число больниц не равно доступности медицинской помощи: важны персонал, специализация, пропускная способность, время поездки и качество услуг.
+5. **Учитывайте внутреннюю неоднородность.** Областное среднее может скрывать разницу между долинами, городами, удалёнными сёлами и высокогорными районами.
+6. **Показывайте неопределённость и ограничения.** Неполные данные, малые выборки, неформальная занятость и различия в учёте могут влиять на выводы.
+
+**Пример.** В области A проживает 200 000 человек и зарегистрировано 20 медицинских учреждений; в области B — 600 000 человек и 45 учреждений. По абсолютному числу объектов область B имеет преимущество. Но на 10 000 жителей показатель равен соответственно 1,0 и 0,75 учреждения. Даже этот относительный показатель не доказывает, что медицинская помощь в области A доступнее или качественнее: без данных о врачах, койках, специализации, состоянии дорог и времени поездки вывод будет неполным.
+
+**Почему осторожно с рейтингами.** Сводный индекс, объединяющий доходы, образование, здоровье, транспорт и экологию, зависит от выбора переменных, нормирования и весов. Изменение весов может изменить места областей. Поэтому следует публиковать методику, исходные показатели и анализ чувствительности, а не представлять один рейтинг как объективную и окончательную оценку развития.
+
+**Учебное задание.** Выберите три области и сравните их по двум абсолютным и двум относительным показателям за один и тот же год. Для каждого показателя объясните, что он измеряет, какой знаменатель использован и какие выводы делать нельзя. Отдельно укажите, какие внут­риобластные различия могут быть скрыты средними значениями.
+
+Comparing regions requires indicators that address the same question and are calculated using comparable methods. Absolute values—such as total output or the number of health facilities—often reflect population and territorial size. Relative indicators are needed to assess provision and the intensity of processes.
+
+**Main rules for fair comparison:**
+
+1. **Align territorial boundaries.** Check whether cities of national significance are included, how administrative changes are treated and the reference date of the data.
+2. **Choose an appropriate denominator.** The number of doctors may be expressed per 10,000 residents, crop yield per hectare, and population density per square kilometre of total or usable land. The denominator must match the meaning of the indicator.
+3. **Use comparable periods.** Data for one region in the current year should not be directly compared with data for another region from several years earlier. Seasonal indicators require matching seasons and dates.
+4. **Check indicator definitions.** The number of hospitals is not the same as access to healthcare: staffing, specialisation, capacity, travel time and service quality also matter.
+5. **Account for internal diversity.** A regional average may hide differences between valleys, cities, remote villages and high-mountain areas.
+6. **Show uncertainty and limitations.** Incomplete data, small samples, informal employment and differences in statistical coverage can affect conclusions.
+
+**Example.** Region A has 200,000 residents and 20 registered health facilities; Region B has 600,000 residents and 45 facilities. Region B has more facilities in absolute terms. However, the rate per 10,000 residents is 1.0 in Region A and 0.75 in Region B. Even this relative indicator does not prove that healthcare is more accessible or better in Region A: without data on doctors, beds, specialisation, road conditions and travel time, the conclusion remains incomplete.
+
+**Why rankings require caution.** A composite index combining income, education, health, transport and environment depends on variable selection, normalisation and weighting. Changing the weights can change regional positions. The methodology, source indicators and sensitivity analysis should therefore be published rather than presenting a single ranking as an objective and final measure of development.
+
+**Learning activity.** Select three regions and compare them using two absolute and two relative indicators for the same year. For each indicator, explain what it measures, which denominator is used and what conclusions cannot be drawn. Identify internal regional differences that may be hidden by averages.
+
 ## 24.11. Региональные риски и климатическая устойчивость / Regional Risks and Climate Resilience
 
 | Риск | Наиболее уязвимые типы территорий | Географический механизм | Приоритет адаптации |
