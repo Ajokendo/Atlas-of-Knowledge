@@ -704,6 +704,19 @@ Prepare two scenarios for the next 10–15 years: a continuation scenario and a 
 - Статус объекта Всемирного наследия, биосферного резервата, Рамсарского угодья и национальной особо охраняемой природной территории — разные правовые и институциональные категории.
 - Все показатели природных ресурсов, добычи и запасов полезных ископаемых требуют первичного отраслевого источника и даты оценки.
 
+
+- Population in the comparative table is reported as of 1 January 2026 using the NSC open-data series. These figures refer to the resident population and are not the same as the number of people physically present.
+- Areas are rounded to 0.1 thousand km² using NSC regional pages. Small differences may occur across statistical publications because of methodology, boundary definitions and the treatment of water surfaces.
+- Population density is calculated from area and population and rounded to 0.1 person per km²; it is not a separate official NSC series.
+- Bishkek and Osh serve as the administrative centres of Chuy and Osh regions respectively, but both are cities of republican significance and are excluded from regional population totals.
+- The name Manas is used for the city renamed from Jalal-Abad in 2025. The name Jalal-Abad Region remains unchanged.
+- Counts of districts, cities and rural municipalities should always be dated because the 2024 administrative reform and subsequent decisions changed the composition of these units.
+- Distinguish existing infrastructure from facilities under construction and projects that are only proposed.
+- Economic specialisation does not mean that a region has a single-industry economy. Claims about specialisation should be supported by the sectoral structure of gross regional product, employment and production.
+- Border issues in Batken Region should be described neutrally and based on current official maps and international legal documents.
+- UNESCO World Heritage status, biosphere-reserve designation, Ramsar wetland status and national protected-area status are different legal and institutional categories.
+- All figures on natural resources, extraction and mineral reserves require a primary sectoral source and a date of assessment.
+
 ## 24.18. Источники и литература / References
 
 1. Национальный статистический комитет Кыргызской Республики. Открытые данные: численность постоянного населения по областям на начало года. https://stat.gov.kg/en/opendata/category/39/
