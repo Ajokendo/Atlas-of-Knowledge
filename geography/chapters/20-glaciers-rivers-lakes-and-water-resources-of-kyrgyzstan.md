@@ -585,6 +585,24 @@ Thus, the monthly flow volume is equivalent to a runoff layer of 32.4 mm across 
 7. **Гидрологическая терминология.** Половодье, паводок, межень, расход и объём стока использовать в строгом соответствии с гидрологическими определениями.
 8. **Трансграничный контекст.** Положение реки в бассейне не определяет автоматически права на воду. Юридические и институциональные вопросы следует освещать на основе действующих соглашений и официальных данных.
 
+### 20.18.1. Как оценивать сезонную надёжность водоснабжения / Assessing Seasonal Reliability of Water Supply
+
+Годовой объём водных ресурсов не показывает, достаточно ли воды в конкретный месяц и в конкретном месте. В горных бассейнах Кыргызстана сток часто меняется по сезонам: периоды снеготаяния и интенсивного таяния ледников могут сменяться зимней меженью, а засушливые годы — менять привычный график водности.
+
+**Оценка надёжности требует сопоставить:** помесячный приток и доступные запасы; график спроса населения, сельского хозяйства и промышленности; пропускную способность водозаборов и каналов; потери при транспортировке; экологические потребности реки; правила работы водохранилищ и межгосударственные договорённости. Отдельно учитывают качество воды: физически доступный объём не всегда пригоден для питья или орошения.
+
+**Сценарный подход.** Рассматривают обычный, маловодный и экстремально маловодный годы, а также перебои инфраструктуры. Среднее значение за много лет не гарантирует обеспечение потребностей в каждом сезоне. При распределении воды необходимо указывать временной шаг, приоритеты потребителей и неопределённость прогноза.
+
+**Учебное задание.** Составьте условный помесячный баланс для небольшого водохозяйственного района. Отметьте месяцы, когда спрос превышает доступное предложение, и предложите меры: хранение воды, снижение потерь, изменение графика полива или управление спросом. Объясните, какие меры требуют экологической и социальной оценки.
+
+Annual water availability does not show whether enough water is available in a particular month and place. In mountain basins of Kyrgyzstan, river flow often varies seasonally: snowmelt and intensive glacier melt periods may be followed by winter low flow, while drought years can shift familiar patterns.
+
+**Reliability assessment compares:** monthly inflow and available storage; demand schedules for households, agriculture and industry; intake and canal capacity; transport losses; river environmental needs; reservoir operating rules; and transboundary agreements. Water quality must also be considered: a physically available volume is not necessarily suitable for drinking or irrigation.
+
+**Scenario approach.** Consider normal, low-flow and extremely dry years, as well as infrastructure disruptions. A long-term average does not guarantee that needs can be met in every season. Water allocation should state the time step, user priorities and forecast uncertainty.
+
+**Activity.** Prepare a hypothetical monthly water balance for a small water-management area. Identify months when demand exceeds available supply and propose measures such as storage, loss reduction, irrigation scheduling or demand management. Explain which measures require environmental and social assessment.
+
 ## 20.19. Итоги главы / Chapter Summary
 
 Водная система Кыргызстана формируется под влиянием высокогорного рельефа, атмосферных осадков, сезонного снега, ледников, подземных вод и озёр. Реки страны относятся к нескольким крупным бассейнам Центральной Азии и имеют большое значение для водоснабжения, орошения и энергетики как внутри страны, так и за её пределами.
