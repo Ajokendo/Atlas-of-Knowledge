@@ -200,6 +200,33 @@ Pasture restoration should not be reduced to large-scale sowing of a single gras
 
 Охрана биоразнообразия не ограничивается границами заповедников. Необходима связность природных территорий, устойчивое землепользование за пределами ООПТ и снижение конфликтов между человеком и дикой природой.
 
+
+Forests cover a relatively small share of Kyrgyzstan's territory but have ecological importance far beyond their area. Tien Shan spruce forests, open juniper woodlands, walnut-fruit forests of the Western Tien Shan, riparian forests and shrub communities provide habitats, protect soils, regulate runoff, store carbon and support local livelihoods.
+
+According to UNEP, forest cover increased from 6.2% of the country's area in 2000 to 6.9% in 2023. The UN Sustainable Development Goals portal reports a different series using a different methodology: forest area increased from 5.9% in 1990 to 6.5% in 2025. These figures should not be combined into one time series without comparing forest definitions, source maps and methods.
+
+### Main threats
+
+- illegal logging and excessive fuelwood collection;
+- fires and drought;
+- livestock grazing within forest ecosystems;
+- pests and diseases;
+- habitat fragmentation caused by roads and construction;
+- changing climatic conditions; and
+- poaching and reduced food availability for wild animals.
+
+### Conservation priorities
+
+- conserving natural forest communities;
+- restoring degraded areas with native species;
+- protecting walnut-fruit forests and their genetic diversity;
+- maintaining ecological corridors between habitats;
+- fire planning and early detection;
+- monitoring rare species and invasive organisms; and
+- supporting community forestry while maintaining ecological functions.
+
+Biodiversity conservation cannot be limited to the boundaries of nature reserves. It requires connectivity between natural areas, sustainable land use outside protected areas and measures to reduce conflict between people and wildlife.
+
 ## 26.6. Воздух и здоровье населения / Air Quality and Public Health
 
 Загрязнение воздуха — один из наиболее заметных экологических вызовов городов Кыргызстана, особенно в отопительный сезон. В Бишкеке на концентрацию загрязнителей влияют бытовое отопление, транспорт, пыль, промышленные источники, рельеф и зимние температурные инверсии. В других городах источники могут отличаться по структуре и масштабу.
@@ -219,6 +246,25 @@ Pasture restoration should not be reduced to large-scale sowing of a single gras
 Эффективная политика качества воздуха должна сочетать мониторинг PM2.5 и других загрязнителей, инвентаризацию выбросов, проверку эффективности мер, доступные данные для населения и медицинскую оценку воздействия. Нельзя оценивать качество воздуха только по одному индексу или одному датчику: необходимы калиброванные станции, репрезентативное размещение и прозрачная методика.
 
 Особое внимание требуется детям, беременным женщинам, пожилым людям и людям с хроническими заболеваниями. Информирование населения о загрязнении должно быть понятным и сопровождаться рекомендациями по снижению экспозиции.
+
+
+Air pollution is one of the most visible environmental challenges in Kyrgyzstan's cities, particularly during the heating season. In Bishkek, pollutant concentrations are influenced by household heating, transport, dust, industrial sources, relief and winter temperature inversions. The mix and scale of sources may differ in other cities.
+
+According to Kyrgyzhydromet data for August 2026, the monthly average concentration at Bishkek's stationary monitoring posts was about 2.0 times the maximum permissible concentration (MPC) for nitrogen dioxide, 1.3 times the MPC for nitric oxide and 0.08 times the MPC for sulphur dioxide. The publication notes that the August readings from stationary posts covered only the first ten days because the posts were being modernised. These figures must therefore not be presented as annual average concentrations or used to describe the winter pollution peak.
+
+### Main sources and responses
+
+| Source | Typical pollutants or impacts | Policy directions |
+|---|---|---|
+| Household heating with coal and low-quality fuels | PM2.5, PM10, CO and other combustion products | Clean heating, home insulation and fuel-quality controls |
+| Road transport | NOx, particulate matter, CO and volatile organic compounds | Public transport, vehicle inspection, fuel quality and traffic management |
+| Industry and energy production | Particles, SO₂, NOx and sector-specific pollutants | Filters, monitoring, modernisation and emissions control |
+| Construction and road dust | Suspended particulate matter | Dust control, street cleaning and urban greening |
+| Open waste burning | Toxic products of incomplete combustion | Waste collection, bans on open burning and enforcement |
+
+Effective air-quality policy should combine monitoring of PM2.5 and other pollutants, emissions inventories, evaluation of policy measures, accessible public data and health-impact assessment. Air quality should not be judged using a single index or sensor: calibrated stations, representative siting and transparent methods are essential.
+
+Children, pregnant women, older people and people with chronic illnesses require particular attention. Public information about pollution should be clear and accompanied by practical advice on reducing exposure.
 
 ## 26.7. Вода, сточные воды и санитарная безопасность / Water, Wastewater and Sanitation
 
