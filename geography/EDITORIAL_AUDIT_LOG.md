@@ -478,3 +478,12 @@ This checkpoint preserves the working context for continuation after a session i
 - Chapter 23 update commits: `4b0a1a00ff2b15c32d488baad3365a75312238f1` and `5093a4a5383ae3e7437680fa13800c209f1f192f`.
 
 - Source-methodology correction after checking current NSC open-data tables: explicitly labelled the 2021–2025 NSC series and 2025 regional table as **external/international migration**, not a combined internal-plus-international migration balance. Added an explicit warning in Russian and English that domestic moves are recorded separately and must not be added without checking definitions and double counting. Added direct NSC source links for the external-migration balance and inflow/outflow series. Verified against NSC tables https://stat.gov.kg/ru/opendata/category/41/ and https://stat.gov.kg/ru/opendata/category/316/ and IOM Round 7 methodology/results https://dtm.iom.int/reports/kyrgyzstan-baseline-mobility-assessment-round-7-april-2026 . Chapter 23 correction commit: `d269a496f74aee6ff5fccb317e83c3cf37f5fe8f`.
+
+
+## Chapter 22 English parity: management, threats, monitoring and learning materials — 1 November 2026
+
+- Added English explanations for protected-area management and community participation (22.9), ecotourism and visitor pressure (22.10), threats and responses (22.11), and scientific monitoring and indicators (22.12).
+- Added English versions of all six practical activities and all ten review questions; translated all ten visual/map/infographic briefs and the scientific/editorial notes in 22.17.
+- Preserved existing bilingual work on ecological corridors, reserve and park profiles, UNESCO MAB, Western Tien-Shan, Ramsar sites, the worked example on overlapping protected-area polygons and the effectiveness-assessment exercise.
+- Re-fetched Chapter 22 after the update and verified the English section markers and content. The remaining editorial stage is a detailed source and legal-status audit, terminology consistency check and full bilingual proofread.
+- Chapter 22 English parity commit: `0cf27fd2bc590c52fdc710c5ddf3476c3a3d092f`.
