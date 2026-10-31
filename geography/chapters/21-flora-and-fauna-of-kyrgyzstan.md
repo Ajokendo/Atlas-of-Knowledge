@@ -420,6 +420,64 @@ The estimated plant cover is **60%**. This means that, under the chosen observat
 
 **Check your understanding:** if vegetation is present in 18 of 30 equal cells, what is the estimated cover?
 
+### 21.13.2. Почему отсутствие наблюдений не доказывает отсутствие вида / Why a Lack of Sightings Does Not Prove a Species Is Absent
+
+При полевых исследованиях важно различать два утверждения: «вид не обнаружен во время обследования» и «вид отсутствует на территории». Первое описывает результат конкретного наблюдения; второе требует гораздо более сильных доказательств. Животное может быть активным ночью, скрываться в густой растительности, избегать человека или находиться вне обследованного участка. Растение может быть незаметно вне периода цветения или в неблагоприятный сезон.
+
+**Обнаруживаемость** — вероятность зарегистрировать вид при условии, что он действительно присутствует на обследуемом участке. Она зависит от метода, продолжительности наблюдения, погоды, сезона, опыта наблюдателя, плотности растительности и поведения вида. Поэтому простое сравнение числа встреч за один выезд может вводить в заблуждение.
+
+**Пример повторных наблюдений.** Допустим, вероятность обнаружить присутствующий вид за один стандартизированный выезд условно равна 0,4. Если обследования независимы и вероятность обнаружения остаётся одинаковой, вероятность не заметить вид за три выезда составит:
+
+\[
+P(\text{не обнаружен})=(1-0{,}4)^3=0{,}216
+\]
+
+Следовательно, вероятность обнаружить его хотя бы один раз за три выезда равна:
+
+\[
+1-0{,}216=0{,}784
+\]
+
+То есть около 78,4%. Это учебная модель, а не универсальная характеристика реальных видов. Независимость наблюдений и постоянство обнаруживаемости часто нарушаются: погода и сезон меняются, а повторные наблюдения могут быть связаны между собой.
+
+**Как повысить надёжность обследования:**
+1. Повторять наблюдения по единому протоколу в сопоставимые сезоны и временные интервалы.
+2. Фиксировать не только наличие вида, но и продолжительность поиска, площадь обследования и условия.
+3. Использовать подходящий методу видовой группы инструмент: фотоловушки, акустические регистраторы, трансекты, следы и другие признаки присутствия.
+4. Разделять подтверждённые регистрации, вероятные определения и неподтверждённые сообщения.
+5. При сравнении территорий учитывать различия в усилии наблюдения и вероятности обнаружения.
+6. Для редких и уязвимых видов соблюдать разрешительные и этические требования, не раскрывать чувствительные координаты.
+
+**Учебное задание.** Составьте протокол наблюдения за птицами или млекопитающими на двух участках. Установите одинаковую продолжительность и число выездов, запишите погоду, время, маршрут и признаки присутствия. Объясните, почему большее число регистраций на одном участке ещё не обязательно означает более высокую численность животных.
+
+In field studies, it is important to distinguish between two statements: “the species was not detected during the survey” and “the species is absent from the area.” The first describes the result of a particular observation; the second requires much stronger evidence. An animal may be nocturnal, hidden in dense vegetation, avoid people or remain outside the surveyed area. A plant may be difficult to identify outside its flowering period or in an unsuitable season.
+
+**Detectability** is the probability of recording a species when it is actually present at the surveyed site. It depends on the method, survey duration, weather, season, observer experience, vegetation density and species behaviour. A simple comparison of sightings from a single visit can therefore be misleading.
+
+**Example of repeated surveys.** Assume that the probability of detecting a species during one standardized visit, given that it is present, is 0.4. If surveys are independent and detection probability remains constant, the probability of missing the species on all three visits is:
+
+\[
+P(\text{not detected})=(1-0.4)^3=0.216
+\]
+
+The probability of detecting it at least once during the three visits is therefore:
+
+\[
+1-0.216=0.784
+\]
+
+That is approximately 78.4%. This is a teaching model, not a universal value for real species. Independence and constant detectability are often violated because weather and seasons change and repeated observations may be correlated.
+
+**Ways to improve survey reliability:**
+1. Repeat observations using a consistent protocol during comparable seasons and time intervals.
+2. Record search duration, survey area and conditions, not just whether the species was found.
+3. Choose methods suitable for the taxonomic group, such as camera traps, acoustic recorders, transects, tracks and other signs of presence.
+4. Distinguish confirmed records from probable identifications and unverified reports.
+5. Account for differences in survey effort and detectability when comparing sites.
+6. Follow permit and ethical requirements for rare or vulnerable species, and avoid publishing sensitive coordinates.
+
+**Learning activity.** Design a bird or mammal survey protocol for two sites. Set the same survey duration and number of visits, and record weather, time, route and signs of presence. Explain why a higher number of records at one site does not necessarily mean that animal abundance is higher there.
+
 ## 21.14. Практические работы
 ## Practical Activities
 
