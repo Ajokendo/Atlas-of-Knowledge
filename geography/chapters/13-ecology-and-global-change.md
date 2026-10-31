@@ -343,6 +343,28 @@ When reading a report, check baseline-data quality, seasonal coverage, alternati
 
 **Activity.** For a hypothetical road in a mountain valley, prepare a table with project stage, impact, affected feature, measure and monitoring indicator. Identify seasonal risks and population groups whose interests must be considered.
 
+### 13.13.1. Как оценивать жизненный цикл экологического воздействия / Assessing Environmental Impacts Across a Life Cycle
+
+Экологическое воздействие продукта или инфраструктурного объекта не ограничивается местом его использования. Оно может возникать при добыче сырья, производстве материалов, строительстве, перевозке, эксплуатации и утилизации. Оценка жизненного цикла (ОЖЦ, life-cycle assessment) помогает системно учитывать эти этапы, но её результат зависит от границ исследования и исходных допущений.
+
+**Сначала задают цель и функциональную единицу.** Сравнивать следует одинаковую услугу или функцию: например, воздействие на производство и доставку одного кубометра очищенной воды, а не просто «одного сооружения». Затем определяют границы системы: от добычи сырья до выхода с завода, до конца срока службы или полный жизненный цикл.
+
+**Что включают в инвентаризацию:** расход энергии и воды, сырьё, выбросы в воздух и воду, отходы, транспортные операции и изменения землепользования. Для каждого потока указывают источник данных, период, географический охват и способ расчёта. Воздействия могут оцениваться по нескольким категориям — например, изменение климата, закисление, эвтрофикация, использование воды и токсичность; один углеродный показатель не описывает весь экологический след.
+
+**Осторожность при сравнении.** Результаты двух исследований нельзя сопоставлять напрямую, если различаются функциональная единица, границы системы, качество данных или методы оценки воздействия. Следует также указывать распределение нагрузок между совместными продуктами и анализировать чувствительность результата к ключевым предположениям.
+
+**Учебное задание.** Сравните два способа обеспечения населённого пункта питьевой водой. Определите функциональную единицу, перечислите этапы жизненного цикла и не менее пяти потоков ресурсов или воздействий. Объясните, почему вариант с меньшими эксплуатационными выбросами не обязательно имеет меньший суммарный след.
+
+The environmental impact of a product or infrastructure asset is not limited to the place where it is used. Impacts may arise during raw-material extraction, material production, construction, transport, operation and disposal. Life-cycle assessment (LCA) helps account for these stages systematically, but its results depend on the study boundaries and assumptions.
+
+**Start with a goal and a functional unit.** Compare the same service or function, such as the impacts associated with producing and delivering one cubic metre of treated water, rather than simply comparing “one facility” with another. Then define the system boundary: from raw-material extraction to the factory gate, to the end of service, or across the full life cycle.
+
+**What the inventory includes:** energy and water use, raw materials, emissions to air and water, waste, transport operations and land-use change. For each flow, state the data source, period, geographic coverage and calculation method. Impacts may be assessed across several categories, such as climate change, acidification, eutrophication, water use and toxicity; a single carbon indicator does not describe the entire environmental footprint.
+
+**Use caution when comparing.** Results from two studies cannot be compared directly if their functional units, system boundaries, data quality or impact-assessment methods differ. Allocation of burdens among co-products should also be stated, and sensitivity to key assumptions should be examined.
+
+**Activity.** Compare two ways of supplying drinking water to a settlement. Define the functional unit, list life-cycle stages and at least five resource or impact flows. Explain why an option with lower operational emissions may not have a lower total footprint.
+
 ## 13.16. Итоги главы / Chapter Summary
 
 1. Экология изучает взаимодействия организмов и среды, а экологическая география раскрывает пространственную сторону этих взаимодействий.
