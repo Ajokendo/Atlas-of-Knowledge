@@ -327,6 +327,18 @@ try {
     }
 
     if (file === "chapters/solutions.html") {
+      if (!(await page.locator("[data-i=solubilityIntro]").innerText()).includes("не равна скорости растворения") ||
+          !(await page.locator("[data-i=saturatedText]").innerText()).includes("скорости растворения и кристаллизации равны") ||
+          !(await page.locator("[data-i=kspCaution]").innerText()).includes("Qₛₚ < Kₛₚ")) {
+        errors.push(file + ": Russian solution section must distinguish solubility from rate and explain saturation and Qsp/Ksp");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=solubilityIntro]").innerText()).includes("not the same as the rate") ||
+          !(await page.locator("[data-i=saturatedText]").innerText()).includes("rates of dissolution and crystallisation are equal") ||
+          !(await page.locator("[data-i=kspCaution]").innerText()).includes("Qₛₚ < Kₛₚ")) {
+        errors.push(file + ": English solution section must distinguish solubility from rate and explain saturation and Qsp/Ksp");
+      }
+      await page.locator("#lang").click();
       if (!(await page.locator("[data-i=pressurep]").innerText()).includes("парциального давления") ||
           !(await page.locator("[data-i=pressurep]").innerText()).includes("закон Генри")) {
         errors.push(file + ": Russian gas-solubility statement must specify partial pressure and Henry's law");
