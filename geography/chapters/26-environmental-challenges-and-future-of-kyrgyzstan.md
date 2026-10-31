@@ -270,7 +270,7 @@ Children, pregnant women, older people and people with chronic illnesses require
 
 Безопасность воды включает доступ к питьевой воде, санитарные услуги, очистку сточных вод, защиту водосборов и управление промышленными сбросами. В горной стране загрязнение в верхней части бассейна может воздействовать на населённые пункты и сельскохозяйственные территории ниже по течению.
 
-По данным ЦУР ООН, доля безопасно очищенных бытовых сточных вод в Кыргызстане составляла около 21,9% в 2024 году. Это индикатор именно безопасной очистки бытовых стоков по методологии ООН; его нельзя напрямую сопоставлять с долей сточных вод, прошедших отдельную технологическую ступень по национальной отчётности.
+По данным ЦУР ООН, доля безопасно очищенных потоков **бытовых сточных вод** в Кыргызстане составляла около **21,9% в 2024 году**. Это международный индикатор 6.3.1 для бытовых стоков. В национальных статистических материалах может публиковаться иной показатель, например доля безопасно очищаемых потоков бытовых и промышленных сточных вод вместе (в национальном ряду за 2024 год — 97,8%). Эти значения имеют разный охват и методологическую основу; их нельзя трактовать как взаимоисключающие оценки одного и того же потока или сравнивать без проверки метаданных и знаменателя.
 
 Основные проблемы:
 - изношенные или недостаточные канализационные сети;
@@ -282,6 +282,22 @@ Children, pregnant women, older people and people with chronic illnesses require
 - недостаточная защита санитарных зон источников питьевой воды.
 
 Приоритетные меры — строительство и модернизация очистных сооружений, энергоэффективные технологии, контроль качества сбросов, лабораторный мониторинг, управление осадком сточных вод, защита водозаборов и устойчивое финансирование эксплуатации систем. Строительство объекта без бюджета на обслуживание не гарантирует долгосрочного результата.
+
+
+Water security includes access to drinking water, sanitation services, wastewater treatment, catchment protection and the management of industrial discharges. In a mountainous country, pollution in the upper part of a basin can affect settlements and agricultural areas downstream.
+
+According to the UN Sustainable Development Goals data, the share of **domestic wastewater flows** safely treated in Kyrgyzstan was about **21.9% in 2024**. This is international SDG indicator 6.3.1 for domestic wastewater. National statistical publications may report a different measure, such as the share of domestic and industrial wastewater flows safely treated together (the national series reports 97.8% for 2024). These figures have different coverage and methodological bases; they should not be treated as contradictory estimates of the same wastewater flow or compared without checking the metadata and denominator.
+
+Main challenges include:
+- worn-out or insufficient sewerage networks;
+- inadequate capacity of wastewater treatment plants;
+- discharge of untreated wastewater into water bodies;
+- insufficient treatment of stormwater;
+- pollution from agriculture and livestock;
+- pollutants from mining and industry; and
+- inadequate protection of sanitary zones around drinking-water sources.
+
+Priority measures include building and modernising treatment facilities, adopting energy-efficient technologies, controlling discharge quality, laboratory monitoring, managing sewage sludge, protecting water intakes and ensuring sustainable financing for system operation. Constructing a facility without an operating and maintenance budget does not guarantee a lasting result.
 
 ## 26.8. Отходы и циркулярная экономика / Waste and Circular Economy
 
@@ -307,6 +323,30 @@ Children, pregnant women, older people and people with chronic illnesses require
 - развитие рынка вторичного сырья.
 
 Сжигание отходов не является универсальным решением: без очистки газов и контроля состава сырья оно может переносить загрязнение из твёрдой фазы в атмосферу.
+
+
+Growth in cities, consumption and construction increases the volume of household, industrial, construction and agricultural waste. A waste-management system should cover the entire cycle: prevention, separate collection, reuse, recycling, safe treatment and disposal of residual waste.
+
+### Waste-management hierarchy
+
+1. Prevent waste generation.
+2. Reduce the use of materials and packaging.
+3. Reuse and repair products.
+4. Collect materials separately and recycle them.
+5. Compost organic waste where sanitary requirements can be met.
+6. Recover energy only under strict emissions control and where environmental benefits have been demonstrated.
+7. Dispose of residual waste safely at engineered landfills.
+
+Priority actions include:
+- closing or upgrading unauthorised dumpsites;
+- preventing waste from entering rivers and lakes;
+- establishing regional sorting systems;
+- separately collecting paper, glass, metals, plastics and organic waste;
+- applying producer and importer responsibility to selected product categories;
+- safely managing medical, electronic and hazardous waste; and
+- developing markets for secondary raw materials.
+
+Waste incineration is not a universal solution. Without flue-gas cleaning and control of the waste composition, it can transfer pollution from the solid phase into the atmosphere.
 
 ## 26.9. Горнодобывающая промышленность и экологическое наследие / Mining and Environmental Legacy
 
