@@ -243,6 +243,24 @@ The 2 km is a straight-line distance, not the length of a road or travel time. T
 
 ---
 
+### 1.10.2. Как масштаб анализа меняет географический вывод / How the Scale of Analysis Changes a Geographic Conclusion
+
+Один и тот же процесс может выглядеть по-разному на уровне дома, квартала, города, региона и страны. При переходе между масштабами меняются не только детализация карты, но и единицы наблюдения, средние значения и видимые связи.
+
+**Пример.** Средний доход по городу может расти, хотя в отдельных районах он снижается. Общегородское среднее скрывает различия между районами и группами населения. Обратная ошибка — переносить вывод об одном квартале на весь город. Это связано с проблемой изменяемых пространственных единиц (modifiable areal unit problem, MAUP): статистическая связь может меняться при изменении границ и размера территориальных единиц.
+
+**Как избежать ошибки:** формулировать вывод на том же уровне, на котором собраны данные; сравнивать несколько вариантов территориального деления; показывать распределение, а не только среднее; не делать выводы об отдельных людях по агрегированной статистике районов (экологическая ошибка).
+
+**Задание.** Представьте данные о среднем времени поездки до школы по районам города. Объясните, какие выводы допустимы для районов и города, и почему районное среднее не определяет время поездки конкретного ученика.
+
+The same process may look different at the scale of a household, neighbourhood, city, region or country. When scale changes, not only map detail but also units of observation, averages and visible relationships may change.
+
+**Example.** Average city income may rise even while income falls in some neighbourhoods. The citywide average hides differences between areas and population groups. The opposite error is to generalise from one neighbourhood to the whole city. This relates to the modifiable areal unit problem (MAUP): a statistical relationship may change when territorial boundaries or unit sizes change.
+
+**How to avoid the error:** state conclusions at the same level at which data were collected; compare alternative zoning schemes; show distributions rather than averages alone; and do not infer individual characteristics from area-level statistics (the ecological fallacy).
+
+**Activity.** Imagine data on average travel time to school by city district. Explain which conclusions are valid for districts and the city, and why a district average cannot determine an individual student's travel time.
+
 ## 1.11. Практические задания / Practical Activities
 
 ### Задание 1. География одного места
