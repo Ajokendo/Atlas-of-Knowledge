@@ -428,3 +428,8 @@ The score should increase only when evidence for the relevant checklist items is
 - Clarified that global range information is context for checking distribution, not independent evidence of occurrence at a particular Kyrgyz locality. National and site-level records still require their own sources.
 - A full species-by-species comparison of all bird names and local records remains in progress; the editorial-readiness score therefore remains **99/100**, not 100/100.
 
+## Bird-record scope clarification — 1 November 2026
+- Clarified the snowcock entry in the Kyrgyzstan fauna chapter: `Tetraogallus spp.` is explicitly identified as a genus-level record, not a species-level determination or a complete local species list. The broader label is retained because the cited regional evidence does not support naming a particular species.
+- Clarified the flamingo/waterbird entry: `Phoenicopterus roseus` identifies the Greater Flamingo only, while “other waterbirds” is an ecological grouping rather than an implied list of additional taxa. Site- and season-specific occurrence still requires dated records.
+- Added matching Russian and English explanations. These changes improve taxonomic scope transparency without silently upgrading uncertain records or claiming completion of the full AviList v2026 comparison.
+- Editorial readiness remains **99/100**; this is a precision improvement within the existing bird-audit stage, not a new completion point. The full species-by-species comparison, independent specialist review, bilingual copy-editing and live browser/device/accessibility QA remain outstanding.
