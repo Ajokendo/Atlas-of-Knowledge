@@ -464,16 +464,6 @@ try {
       }
     }
 
-    if (file === "chapters/chemistry-of-life.html") {
-      await page.locator("#fraction").fill("0.05");
-      if ((await page.locator("#ppm").innerText()).trim() !== "500 ppm") {
-        errors.push(file + ": CO2 percent-to-ppm conversion is incorrect");
-      }
-      if (await page.locator("#ppm").getAttribute("aria-live") !== "polite") {
-        errors.push(file + ": changing CO2 model result is not announced to assistive technology");
-      }
-    }
-
     if (["chapters/amount-of-substance.html", "chapters/chemical-reactions.html", "chapters/redox.html", "chapters/organic-chemistry.html", "chapters/chemistry-of-life.html"].includes(file)) {
       if (await page.locator("button").evaluateAll(items => items.some(button => button.type !== "button"))) {
         errors.push(file + ": a button is missing an explicit button type");
@@ -734,6 +724,12 @@ try {
         errors.push(file + ": English CO2 fraction conversion or disclaimer is incorrect");
       }
       await page.locator("#lang").click();
+      await page.locator("#fraction").fill("0.05");
+      await page.locator("#fraction").dispatchEvent("input");
+      if ((await page.locator("#ppm").innerText()).replace(/\\s/g, "") !== "500ppm" ||
+          await page.locator("#ppm").getAttribute("aria-live") !== "polite") {
+        errors.push(file + ": 0.05 percent must produce an accessible 500 ppm result");
+      }
     }
 
     if (file === "gas-laws.html") {
