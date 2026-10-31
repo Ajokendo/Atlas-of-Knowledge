@@ -68,6 +68,9 @@ if (!ecologyFile.includes("else if(i===selected.length)") || !ecologyFile.includ
   errors.push("chapters/ecology.html: food-chain builder must enforce sequential trophic choices");
 }
 if (!ecologyFile.includes('role="status" aria-live="polite"')) errors.push("chapters/ecology.html: food-chain feedback must be announced accessibly");
+if (!/data-nitrogen="ammonification"/.test(ecologyFile) || !ecologyFile.includes("Аммонификация") || !ecologyFile.includes("Ammonification")) errors.push("chapters/ecology.html: nitrogen cycle must include bilingual ammonification control");
+if (!ecologyFile.includes("NH₄⁺") || !ecologyFile.includes("N₂O и N₂") || !ecologyFile.includes("N₂O and N₂")) errors.push("chapters/ecology.html: nitrogen-cycle explanations must identify ammonium and gaseous denitrification products");
+if ((ecologyFile.match(/data-nitrogen="[^"]+" aria-pressed="(?:true|false)"/g) || []).length !== 5) errors.push("chapters/ecology.html: all five nitrogen-cycle controls must expose initial pressed states");
 
 const biochemistryFile = fs.readFileSync(path.join(root, "chapters", "biochemistry.html"), "utf8");
 if (!biochemistryFile.includes("does not shift the equilibrium position") || !biochemistryFile.includes("не меняет его положение")) {
