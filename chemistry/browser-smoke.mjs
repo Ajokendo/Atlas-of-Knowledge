@@ -53,6 +53,9 @@ try {
     const unlabeledControls = await page.locator("input:not([type=hidden]), select, textarea").evaluateAll(items => items.filter(el => !(el.labels && el.labels.length) && !el.getAttribute("aria-label") && !el.getAttribute("aria-labelledby")).map(el => el.id || el.outerHTML.slice(0, 80)));
     if (unlabeledControls.length) errors.push(file + ": form controls lack accessible labels: " + unlabeledControls.join(", "));
 
+    const imagesWithoutAlt = await page.locator("img:not([alt])").count();
+    if (imagesWithoutAlt) errors.push(file + ": " + imagesWithoutAlt + " image(s) lack an alt attribute");
+
     if (file === "index.html") {
       const chapterCount = await page.locator(".chapter").count();
       if (chapterCount !== 12) errors.push(file + ": expected 12 visible chapter cards, found " + chapterCount);
