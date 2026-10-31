@@ -241,6 +241,28 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 Данные о малых группах могут позволить косвенно идентифицировать людей. Поэтому публикация детализированной статистики должна учитывать приватность, согласие, агрегирование и правила статистической тайны. Географическая точность не должна достигаться ценой раскрытия персональных данных.
 
+### 9.16.1. Как измерять миграцию и не путать разные показатели / Measuring Migration Without Confusing Indicators
+
+Миграция — изменение обычного места жительства человека. Поездка, ежедневная маятниковая поездка на работу и смена места жительства — разные явления, поэтому их нельзя автоматически объединять в одну статистику.
+
+**Основные показатели.** Число прибывших и выбывших за период — абсолютные потоки. Миграционный прирост (сальдо) равен прибытию минус выбытию. Коэффициенты обычно рассчитывают на 1 000 человек среднегодового населения, чтобы сравнивать территории разного размера. Важно указывать, используется ли регистрация по месту жительства, перепись, выборочное обследование или административные данные.
+
+**Условный пример.** В регионе с населением 100 000 человек за год зарегистрировано 2 400 прибывших и 1 900 выбывших. Сальдо составляет +500 человек, а коэффициент миграционного прироста — 5 на 1 000 жителей при использовании среднегодового населения 100 000. Это не означает, что все прибывшие остались навсегда: показатель зависит от определения мигранта и полноты регистрации.
+
+**Ограничения данных.** Незарегистрированная, сезонная, вынужденная и повторная миграция могут учитываться неполно. Изменение правил регистрации или границ территории создаёт разрывы временного ряда. Среднее сальдо скрывает различия по возрасту, полу, квалификации и причинам перемещения; при публикации важно защищать персональные данные и не раскрывать малые группы, позволяющие идентифицировать людей.
+
+**Учебное задание.** Для двух регионов рассчитайте миграционное сальдо и коэффициент на 1 000 жителей. Затем объясните, почему одинаковое сальдо может иметь разные последствия для возрастной структуры и рынка труда.
+
+Migration is a change in a person's usual place of residence. A trip, daily commuting and a change of residence are different phenomena and should not automatically be combined in one statistic.
+
+**Core indicators.** The numbers of arrivals and departures during a period are absolute flows. Net migration equals arrivals minus departures. Rates are commonly calculated per 1,000 people using the mid-year population, allowing comparison between areas of different sizes. Always state whether the data come from residence registration, a census, a sample survey or administrative records.
+
+**Hypothetical example.** A region with a population of 100,000 records 2,400 arrivals and 1,900 departures in one year. Net migration is +500 people, and the net migration rate is 5 per 1,000 when the mid-year population is 100,000. This does not mean every arrival stayed permanently: the indicator depends on the definition of a migrant and the completeness of registration.
+
+**Data limitations.** Unregistered, seasonal, forced and repeat migration may be incompletely recorded. Changes in registration rules or territorial boundaries can create breaks in a time series. A net figure hides differences by age, sex, skills and reasons for moving; publication must protect personal data and avoid disclosing small groups that could identify individuals.
+
+**Activity.** Calculate net migration and the rate per 1,000 residents for two regions. Explain why the same net balance can have different effects on age structure and the labour market.
+
 ## 9.17. Итоги главы / Chapter Summary
 
 1. Демография изучает численность, состав и воспроизводство населения, а география населения раскрывает пространственные различия этих процессов.
