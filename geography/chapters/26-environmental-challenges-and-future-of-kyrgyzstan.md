@@ -810,20 +810,20 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 
 ## 26.17. Основные понятия / Key Terms
 
-| Русский термин | English term | Определение |
+| Русский термин | English term | Определение / Definition |
 |---|---|---|
-| Адаптация к изменению климата | Climate change adaptation | Снижение уязвимости и использование возможностей, связанных с климатическими изменениями |
-| Смягчение изменения климата | Climate change mitigation | Сокращение источников или увеличение поглотителей парниковых газов |
-| Определяемый на национальном уровне вклад | Nationally Determined Contribution (NDC) | Национальные цели и меры в рамках Парижского соглашения |
-| Криосфера | Cryosphere | Совокупность замёрзших компонентов Земли |
-| Деградация земель | Land degradation | Долгосрочное снижение экологической и хозяйственной продуктивности земель |
-| Экологический сток | Environmental flow | Количество, качество и сезонный режим воды, необходимые экосистемам |
-| Природная опасность | Natural hazard | Потенциально разрушительное природное явление |
-| Экспозиция | Exposure | Наличие людей, инфраструктуры и активов в зоне опасности |
-| Уязвимость | Vulnerability | Склонность системы к ущербу при воздействии опасности |
-| Раннее предупреждение | Early warning | Система обнаружения опасности, оценки риска и своевременного оповещения |
-| Циркулярная экономика | Circular economy | Экономическая модель сокращения отходов и повторного использования ресурсов |
-| Природный капитал | Natural capital | Природные активы и экосистемные функции, обеспечивающие общественные блага |
+| Адаптация к изменению климата | Climate change adaptation | Снижение уязвимости и использование возможностей, связанных с климатическими изменениями / Reducing vulnerability to climate impacts and making use of potential opportunities |
+| Смягчение изменения климата | Climate change mitigation | Сокращение источников или увеличение поглотителей парниковых газов / Reducing sources or increasing sinks of greenhouse gases |
+| Определяемый на национальном уровне вклад | Nationally Determined Contribution (NDC) | Национальные цели и меры в рамках Парижского соглашения / A country's targets and measures under the Paris Agreement |
+| Криосфера | Cryosphere | Совокупность замёрзших компонентов Земли / The frozen-water components of the Earth system |
+| Деградация земель | Land degradation | Долгосрочное снижение экологической и хозяйственной продуктивности земель / A long-term decline in the ecological and economic productivity of land |
+| Экологический сток | Environmental flow | Количество, качество и сезонный режим воды, необходимые экосистемам / The quantity, quality and timing of water flows needed to sustain ecosystems |
+| Природная опасность | Natural hazard | Потенциально разрушительное природное явление / A natural process or event with the potential to cause harm |
+| Экспозиция | Exposure | Наличие людей, инфраструктуры и активов в зоне опасности / The presence of people, infrastructure and assets in areas that may be affected by a hazard |
+| Уязвимость | Vulnerability | Склонность системы к ущербу при воздействии опасности / The tendency of a system or exposed element to suffer harm when affected by a hazard |
+| Раннее предупреждение | Early warning | Система обнаружения опасности, оценки риска и своевременного оповещения / A system for detecting hazards, assessing risk and issuing timely warnings |
+| Циркулярная экономика | Circular economy | Экономическая модель сокращения отходов и повторного использования ресурсов / An economic model that reduces waste and keeps materials and resources in use |
+| Природный капитал | Natural capital | Природные активы и экосистемные функции, обеспечивающие общественные блага / Natural assets and ecosystem functions that provide benefits to society |
 
 ## 26.18. Контрольные вопросы / Review Questions
 
