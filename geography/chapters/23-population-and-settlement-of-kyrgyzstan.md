@@ -537,6 +537,17 @@ NSC statistics help track the registered balance over time and across administra
 
 Региональные центры и малые города важны для сбалансированного развития. Их укрепление может уменьшить чрезмерную концентрацию функций в Бишкеке и Оше. Для этого необходимы рабочие места, качественные услуги, транспортная доступность, цифровая инфраструктура и инвестиции.
 
+### English explanation
+
+Urbanisation is the growth of the urban population, the expansion of urban functions and the spread of urban ways of life. It involves not only population growth within officially designated cities but also the functional integration of cities with their suburbs.
+
+**The Bishkek agglomeration.** Bishkek is the country's main centre of attraction for people, capital, education, healthcare and administration. Growth in surrounding settlements creates a functional urban area extending beyond the capital's administrative boundary. Key planning tasks include coordinating land use and construction, improving public transport, extending water supply and sewerage, managing waste, protecting agricultural land, reducing air pollution, and providing schools, hospitals and public spaces.
+
+**The Osh urban system.** Osh is the principal urban centre of southern Kyrgyzstan. It is linked to surrounding settlements and to Osh and Jalal-Abad regions through commuting, education, trade and transport.
+
+**Secondary cities.** Regional centres and smaller towns are important for balanced territorial development. Strengthening them can reduce excessive concentration of functions in Bishkek and Osh. This requires employment opportunities, reliable services, transport access, digital infrastructure and investment.
+
+
 ### 23.9.1. Как определить границы городской агломерации / Delineating an Urban Agglomeration
 
 Административная граница города не всегда совпадает с фактической городской территорией. Застроенные кварталы могут выходить за неё, а жители пригородных сёл ежедневно ездить в центральный город на работу, учёбу, лечение и за услугами. Поэтому для анализа урбанизации важно различать административный город, непрерывную застроенную территорию и функциональную городскую зону.
@@ -552,6 +563,13 @@ NSC statistics help track the registered balance over time and across administra
 **Почему границы важны для планирования.** Если транспорт, водоснабжение, канализация, управление отходами и защита от паводков планируются только внутри административной границы, инфраструктура пригородов может отставать от фактического роста населения. В то же время расширение функциональной зоны не означает автоматического изменения юридических границ или статуса поселений.
 
 **Учебное задание.** Сравните административную карту Бишкека с картой застроенной территории и доступными данными о поездках жителей пригородов. Отметьте, какие поселения функционально связаны с городом, и перечислите данные, которых не хватает для точного определения агломерации. Не делайте вывод о численности населения по одной спутниковой карте.
+
+**Example.** Suppose an official city has 500,000 residents and nearby settlements closely connected to it by daily commuting have another 150,000. The city's administrative population remains 500,000, while the functional urban area, under the chosen definition, includes 650,000 people. These figures must not be mixed because they answer different questions.
+
+**Why boundaries matter for planning.** If transport, water supply, sewerage, waste management and flood protection are planned only within the administrative boundary, suburban infrastructure may lag behind actual population growth. Expanding a functional urban area does not automatically change legal boundaries or settlement status.
+
+**Learning activity.** Compare Bishkek's administrative map with a built-up-area map and available commuting data. Identify settlements functionally connected to the city and list the data needed to delineate the agglomeration accurately. Do not infer population size from a satellite image alone.
+
 
 An administrative city boundary does not always match the actual urban area. Built-up neighbourhoods may extend beyond it, while residents of nearby villages commute daily to the central city for work, education, healthcare and services. Urban analysis should therefore distinguish an administrative city, a continuous built-up area and a functional urban area.
 
@@ -598,6 +616,17 @@ An administrative city boundary does not always match the actual urban area. Bui
 
 Географический анализ доступности должен учитывать время поездки, сезонную проходимость и качество инфраструктуры, а не только расстояние по прямой.
 
+### English explanation
+
+Rural settlement in Kyrgyzstan is closely linked to valley agriculture and mountain livestock raising. Villages are commonly located near water sources, irrigated land, roads and relatively safe sites.
+
+**Types of rural settlement** include large villages in irrigated valleys; linear settlements along rivers and roads; small mountain villages; settlements associated with industrial or transport facilities; and seasonal camps and pasture complexes.
+
+**Seasonal mobility.** Moving livestock to summer pastures (jailoo) and returning to winter pastures is an important form of seasonal mobility. It reflects the differing productivity of altitudinal zones and the traditional organisation of pastoral livelihoods. A jailoo should not be classified as a permanent settlement in statistical terms unless the relevant definition explicitly provides for this. Seasonal camps, temporarily occupied households and permanent villages are distinct categories.
+
+**Infrastructure challenges.** Remote settlements may have limited access to all-season roads, healthcare and emergency evacuation, secondary and vocational education, safe drinking water and sanitation, reliable electricity, mobile networks and the internet. Accessibility analysis should consider actual travel time, seasonal road conditions and infrastructure quality—not straight-line distance alone.
+
+
 ## 23.11. Население, природная среда и климатические риски
 ## Population, Environment and Climate Risks
 
@@ -626,6 +655,17 @@ An administrative city boundary does not always match the actual urban area. Bui
 
 Рост населения не должен автоматически вести к освоению опасных территорий. Пространственное планирование должно учитывать природные ограничения.
 
+### English explanation
+
+In a mountainous country, settlement patterns are closely connected with natural hazards. Villages, roads and agricultural land may lie in areas exposed to earthquakes, debris flows, floods, landslides, avalanches and rockfalls.
+
+**Major spatial risks** include earthquakes and secondary effects; debris flows and floods in valleys; landslides and slope failures; mountain avalanches; drought and local water scarcity; extreme heat in cities and foothills; pasture degradation and soil erosion.
+
+**Climate adaptation and risk reduction** require hazard and vulnerability mapping; prohibiting or restricting construction in dangerous areas; early-warning systems; resilient roads, bridges and drainage; evacuation plans and prepared local services; protection of water and energy infrastructure; and green spaces that reduce the urban heat-island effect.
+
+Population growth should not automatically lead to settlement in hazardous locations. Spatial planning must respect natural constraints.
+
+
 ## 23.12. Демографическое будущее Кыргызстана
 ## Kyrgyzstan’s Demographic Future
 
@@ -653,6 +693,21 @@ An administrative city boundary does not always match the actual urban area. Bui
 - гендерное равенство и репродуктивное здоровье;
 - устойчивое управление водными, земельными и энергетическими ресурсами.
 
+### English explanation
+
+Kyrgyzstan's demographic future will be shaped by fertility, mortality, migration, education, employment and changes in age structure. Any population projection is a conditional scenario, not an exact prediction.
+
+**Possible developments**
+
+- **Demographic dividend.** A young population can support economic growth if quality education, decent jobs, healthcare and equal opportunities for women and men are available.
+- **Urban growth.** Continued movement towards major centres will increase demand for housing, transport, water supply and municipal services.
+- **Rural change.** Some villages may expand because of their proximity to cities and roads, while others may lose young residents and economic activity.
+- **Changing migration patterns.** Return migration, new destinations for labour mobility and digital employment may reshape households and labour markets.
+- **Gradual population ageing.** Changes in fertility and longer life expectancy will increase the importance of healthcare, social protection and infrastructure suited to older people.
+
+**Conditions for sustainable development** include investment in education and vocational skills; productive employment in the regions; affordable housing and public transport; stronger small and medium-sized cities; accessible healthcare and social services; gender equality and reproductive health; and sustainable management of water, land and energy resources.
+
+
 ## 23.13. Методы демографического и географического анализа
 ## Methods of Demographic and Geographical Analysis
 
@@ -668,6 +723,34 @@ An administrative city boundary does not always match the actual urban area. Bui
 | Сетевой анализ | Оценка доступности школ, больниц, рынков и рабочих мест | Нужны реальные данные дорог и времени поездки |
 | Дистанционное зондирование | Анализ застройки и расширения городов | Нельзя напрямую определить число жителей по одному снимку |
 | Сценарное прогнозирование | Оценка возможных демографических траекторий | Результат зависит от предположений о рождаемости, смертности и миграции |
+
+### English explanation
+
+| Method | Purpose | Limitations |
+|---|---|---|
+| Population census | Detailed information about people and households | Conducted periodically; depends on coverage and response quality |
+| Current statistical registration | Records births, deaths and migration | Some events may be under-recorded |
+| Demographic rates | Compares processes between territories | Requires an appropriate denominator and, where needed, standardisation |
+| Population pyramid | Analyses age and sex structure | Depends on the quality of age data |
+| Cohort analysis | Studies generations over time | Requires comparable time series |
+| Migration surveys | Examines causes, routes and consequences of migration | Samples may miss highly mobile groups |
+| GIS mapping | Spatial analysis of population and accessibility | Depends on the currency and quality of geographic data |
+| Network analysis | Assesses access to schools, hospitals, markets and jobs | Requires reliable road and travel-time data |
+| Remote sensing | Analyses built-up areas and urban expansion | A single image cannot directly establish the number of residents |
+| Scenario forecasting | Assesses possible demographic trajectories | Results depend on assumptions about fertility, mortality and migration |
+
+**Main formulas**
+
+Natural increase: \(N=B-D\), where (B) is births and (D) is deaths during the period.
+
+Net migration: \(M=I-E\), where (I) is arrivals and (E) is departures.
+
+Simplified total population change: \(\Delta P=(B-D)+(I-E)\). Actual statistics may also include adjustments, boundary changes and differences in coverage.
+
+Crude birth rate: \(CBR=\frac{B}{P_{mid}}\times1000\), where (P_{mid}) is the mid-year population.
+
+Population density: \(D=\frac{P}{A}\).
+
 
 ### Основные формулы
 
@@ -807,6 +890,18 @@ The overall average therefore hides a strong contrast between a densely populate
 Выберите несколько сёл и оцените время поездки до ближайших школ, больниц и районных центров по дорожной сети. Учитывайте сезонные ограничения.
 
 **Результат:** карта доступности и список территорий с повышенной транспортной уязвимостью.
+ 
+### English instructions
+
+1. **Population dynamics.** Use NSC open data to plot Kyrgyzstan's population over a selected period. Mark census dates separately from annual estimates. **Output:** a graph explaining sources and methodological differences.
+2. **Regional distribution.** Create a bar chart for the nine administrative units as of 1 January 2026 and calculate each unit's share of the national population. **Output:** a table and chart; identify Bishkek and Osh as cities of republican significance, not oblasts.
+3. **Population-density map.** Calculate the density of each oblast and map the results. Compare average density with the actual concentration of settlements in valleys. **Output:** a thematic map and a comment on mountainous relief.
+4. **Age-sex pyramid.** Use census data to construct a population pyramid and identify the shares of children, working-age people and older people. **Output:** a chart and a conclusion about age dependency.
+5. **Migration flows.** Compare internal and international movements using the 2022 census and available migration statistics. Distinguish temporary labour mobility from a change of usual residence. **Output:** a flow diagram with methodological notes.
+6. **Urbanisation of Bishkek.** Compare satellite images from two periods to identify expansion of the built-up area. Compare the changes with administrative boundaries and population statistics. **Output:** a map of urban expansion; do not equate built-up area with population size.
+7. **Access to social services.** Select several villages and estimate travel time by road to the nearest schools, hospitals and district centres, taking seasonal restrictions into account. **Output:** an accessibility map and a list of areas with high transport vulnerability.
+
+
 
 ## 23.15. Контрольные вопросы
 ## Review Questions
@@ -823,6 +918,23 @@ The overall average therefore hides a strong contrast between a densely populate
 10. Как природные опасности должны учитываться при планировании новых поселений?
 11. Почему административная статистика городского населения может отличаться от фактической урбанизированности?
 12. Какие данные нужны для построения обоснованного демографического прогноза?
+
+ 
+### English review questions
+
+1. How does the usually resident population differ from the present population?
+2. Which factors influence population growth in Kyrgyzstan?
+3. Why does average population density fail to show the actual settlement pattern in a mountainous country?
+4. Where are the main areas of high population density?
+5. How does urbanisation differ from the formation of an urban agglomeration?
+6. Which factors influence internal migration?
+7. How does labour migration affect households and regional economies?
+8. Why must ethnic and language data be analysed with reference to the census date and methodology?
+9. What opportunities and risks are associated with a young age structure?
+10. How should natural hazards be considered when planning new settlements?
+11. Why can official urban-population statistics differ from the actual extent of urbanisation?
+12. What data are needed for a well-founded demographic projection?
+
 
 ## 23.16. Ключевые понятия / Key Terms
 
@@ -877,6 +989,23 @@ The overall average therefore hides a strong contrast between a densely populate
 10. **Прогнозы.** Любой прогноз должен сопровождаться сценарными предположениями и датой базовых данных.
 11. **Чувствительные темы.** Этническую принадлежность, религию и миграционный статус не следует приписывать отдельным людям по географическому месту или внешним признакам.
 12. **Административные границы.** Для финальной карты использовать официальный набор геоданных и указывать дату его актуальности.
+
+ 
+### English scientific and editorial notes
+
+1. **Population reference date.** The figure of 7.404 million refers to the permanent population on 1 January 2026 according to the NSC. Do not present it as the population on another date.
+2. **Census and estimate.** The 2022 census result (6.936 million on 25 March) and subsequent annual estimates are different statistical products and must be labelled separately.
+3. **Regional time series.** Comparisons between regions over time must account for changes in administrative-territorial organisation and statistical methods. A sharp change in a series does not necessarily indicate actual population movement.
+4. **Urban population.** The urban share depends on the official status of settlements; functional suburban urbanisation may not be fully reflected in official statistics.
+5. **Ethnic data.** Shares of ethnic groups are based on the 2022 census. Do not extrapolate them to 2026 without new data.
+6. **Language data.** Mother tongue, state or official language, language proficiency and language used in everyday life are different variables.
+7. **Migration.** Border crossings, labour contracts and numbers of migrants are different indicators.
+8. **Fertility.** The absolute number of births must not be substituted for the total fertility rate.
+9. **Density.** In a mountainous country, average density calculated for an entire oblast does not show the distribution of people across valleys and habitable areas.
+10. **Projections.** Every projection should state its scenario assumptions and the date of its baseline data.
+11. **Sensitive topics.** A person's ethnicity, religion or migration status must not be inferred from their place of residence or physical appearance.
+12. **Administrative boundaries.** Final maps should use an official geospatial dataset and state the date to which the boundaries are current.
+
 
 ## 23.19. Основные источники и литература
 ## Selected References and Further Reading
