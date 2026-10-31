@@ -416,6 +416,21 @@ try {
         errors.push(file + ": English acid-base section must distinguish strength from concentration and explain conjugate pairs and Ka");
       }
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=bufferIntro]").innerText()).includes("сопряжённое основание") ||
+          !(await page.locator("[data-i=bufferCapacity]").innerText()).includes("конечна") ||
+          !(await page.locator("[data-i=bufferFormulaNote]").innerText()).includes("разбавленных растворов")) {
+        errors.push(file + ": Russian buffer definition, approximation conditions or finite capacity is missing");
+      }
+      if (!(await page.locator(".formula").filter({ hasText: "pH ≈ pKₐ" }).count())) {
+        errors.push(file + ": Henderson–Hasselbalch relation is missing");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=bufferIntro]").innerText()).includes("conjugate base") ||
+          !(await page.locator("[data-i=bufferCapacity]").innerText()).includes("finite") ||
+          !(await page.locator("[data-i=bufferFormulaNote]").innerText()).includes("dilute solutions")) {
+        errors.push(file + ": English buffer definition, approximation conditions or finite capacity is missing");
+      }
+      await page.locator("#lang").click();
       const ph = page.locator("#ph");
       const value = page.locator("#value");
       if (await ph.getAttribute("min") !== "0" || await ph.getAttribute("max") !== "14" ||
