@@ -892,7 +892,6 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 1. UNEP. Climate change is reshaping the Kyrgyz Republic, finds new UNEP Atlas. 26 March 2025. https://www.unep.org/news-and-stories/press-release/climate-change-reshaping-kyrgyz-republic-finds-new-unep-atlas
 2. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. Climate action and NDC 3.0. https://climate.mnr.gov.kg/en/klimattyk-araketter
 3. Kyrgyz Republic. Third Nationally Determined Contribution (NDC 3.0), submitted 2025. UNFCCC. https://www.unfccc.int/sites/default/files/2025-10/NDC3.0_Kyrgyzstan_English_30-09-2025%20%282%29.pdf
-16. UNFCCC. Kyrgyzstan NDC 3.0 — official submission record and attachments. https://unfccc.int/node/650219
 4. World Bank. Kyrgyz Republic Country Climate and Development Report. https://www.worldbank.org/en/country/kyrgyzrepublic/publication/ccdr
 5. National Statistical Committee of the Kyrgyz Republic. Environment in the Kyrgyz Republic 2020–2024: Statistical Collection, 2026. https://stat.gov.kg/
 6. National Statistical Committee of the Kyrgyz Republic. Protection and rational use of water resources: open data. https://stat.gov.kg/en/opendata/category/3216/
@@ -905,6 +904,7 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 13. Convention on Biological Diversity. Kunming-Montreal Global Biodiversity Framework. https://www.cbd.int/gbf
 14. Ramsar Convention on Wetlands. Country profile and wetland conservation resources. https://www.ramsar.org/
 15. UNESCO. Man and the Biosphere Programme and World Heritage resources. https://www.unesco.org/
+16. UNFCCC. Kyrgyzstan NDC 3.0 — official submission record and attachments. https://unfccc.int/node/650219
 
 ---
 **Конец главы 26 / End of Chapter 26**
