@@ -411,6 +411,23 @@ Regional comparisons require comparable indicators. A larger region is not neces
 
 Бишкек и Ош — отдельные города республиканского значения. Их включение в областные суммы приводит к двойному счёту и искажает сравнения. Аналогично переименование города не означает автоматического изменения названия области или её границ.
 
+
+### Valleys and high mountains
+
+The Chuy, Talas and Osh regions, as well as parts of Jalal-Abad and Batken regions, have relatively strong agricultural cores in their valleys. Naryn and Issyk-Kul regions contain extensive high-mountain areas where settlement is sparse and seasonal livestock husbandry and environmental constraints play a particularly important role. No region is uniform, however: each contains several elevation belts and different types of economic activity.
+
+### Population and density
+
+Population size reflects not only territorial area but also water availability, land suitability, historical routes, transport, labour markets and social infrastructure. Average regional density conceals local contrasts: densely populated valleys may lie next to high-mountain areas with very few permanent residents.
+
+### Specialisation and diversification
+
+Regional specialisation develops through the interaction of natural conditions, settlement history, infrastructure and investment. Beans in Talas, tourism in Issyk-Kul, high-altitude livestock husbandry in Naryn, agricultural and trading systems in Osh and Batken, hydropower in Jalal-Abad, and the diversified agro-industrial economy of Chuy are recognisable profiles, but none provides a complete definition of a regional economy.
+
+### Cities and administrative centres
+
+Bishkek and Osh are separate cities of republican significance. Adding their populations to the corresponding regional totals causes double counting and distorts comparisons. Similarly, renaming a city does not automatically change the name or boundaries of its surrounding region.
+
 ### 24.10.1. Как корректно сравнивать области / How to Compare Regions Fairly
 
 Сравнение областей требует выбора показателей, которые отвечают на один и тот же вопрос и рассчитаны по сопоставимой методике. Абсолютные величины — например, общий объём производства или число медицинских учреждений — часто отражают прежде всего размер населения и территории. Для оценки обеспеченности и интенсивности процессов нужны относительные показатели.
