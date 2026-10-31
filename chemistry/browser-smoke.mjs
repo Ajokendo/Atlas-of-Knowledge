@@ -812,7 +812,23 @@ try {
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("lower activation energy")) {
         errors.push(file + ": English catalyst definition does not explain its alternative reaction pathway");
       }
+      await page.locator("#search").fill("oxidation");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("electron density away")) {
+        errors.push(file + ": English oxidation definition must cover covalent electron-density shifts");
+      }
+      await page.locator("#search").fill("reduction");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("electron density towards")) {
+        errors.push(file + ": English reduction definition must cover covalent electron-density shifts");
+      }
       await page.locator("#lang").click();
+      await page.locator("#search").fill("окисление");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("смещение электронной плотности от атома")) {
+        errors.push(file + ": Russian oxidation definition must cover covalent electron-density shifts");
+      }
+      await page.locator("#search").fill("восстановление");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("смещение электронной плотности к атому")) {
+        errors.push(file + ": Russian reduction definition must cover covalent electron-density shifts");
+      }
     }
 
     if (file === "knowledge-check.html") {
