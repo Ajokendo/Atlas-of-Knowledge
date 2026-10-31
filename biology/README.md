@@ -523,3 +523,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Added regression assertions requiring all three topic-matched references and the key proton-gradient/chemiosmosis terms in the chapter's explanatory content.
 - The existing chapter already distinguishes standard biochemical ATP-hydrolysis free-energy language from actual cellular ΔG, and explains that enzymes lower activation energy without shifting reaction equilibrium; those safeguards remain covered by existing checks.
 - This is a bounded source-traceability improvement, not a full independent biochemistry review. Static re-read and the repository's test/CI status must be checked before claiming validation. Overall Biology editorial readiness remains **80/100**; the milestone target is reached, while broader scientific review, regional flora/fauna verification, bilingual copy-editing, specialist review and live accessibility/browser QA remain open.
+
+
+## Kyrgyzstan flora checklist update — 1 November 2026
+- Updated `chapters/flora-kyrgyzstan.html` with the dated national vascular-plant checklist reported by Sennikov et al. (2025): 4,043 species after taxonomic corrections. The bilingual note records the paper’s ten new country records, one confirmed occurrence and two exclusions.
+- Explicitly limits the figure to vascular plants and explains that it is a dated checklist result, not a count of all organisms or an immutable final total; taxonomy, herbarium records and regional checklists continue to be revised.
+- Added the peer-reviewed Nordic Journal of Botany reference (DOI: `10.1002/njb.04731`) and regression assertions for attribution, bilingual wording, scope and revision caveats.
+- Static file updates are committed. The regression suite has not been executed in a local checkout and CI status is not claimed. Overall Biology editorial readiness remains **80/100**: this is a bounded regional-flora evidence improvement, not enough by itself to raise the whole-atlas score.
