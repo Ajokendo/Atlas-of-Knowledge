@@ -381,6 +381,17 @@ try {
         if (!(await page.locator("[data-i="+key+"]").innerText()).includes(term)) errors.push(file + ": English functional-group definition missing for " + key);
       }
       await page.locator("#lang").click();
+      const organicFamilies = ["Карбоновые кислоты","Альдегиды","Амины","карбоксильную группу","альдегидную группу","метиламин"];
+      const organicText = await page.locator("main").innerText();
+      if (!organicFamilies.every(term => organicText.includes(term))) {
+        errors.push(file + ": Russian functional-group overview is missing an organic family or defining group");
+      }
+      await page.locator("#lang").click();
+      const organicEnglish = await page.locator("main").innerText();
+      if (!["Carboxylic acids","Aldehydes","Amines","carboxyl group","aldehyde group","methylamine"].every(term => organicEnglish.includes(term))) {
+        errors.push(file + ": English functional-group overview is missing an organic family or defining group");
+      }
+      await page.locator("#lang").click();
       await page.locator("#n").fill("0");
       await page.locator("#calc").click();
       if ((await page.locator("#result").innerText()).trim() !== "—" || !(await page.locator("#feedback").innerText()).includes("от 1 до 20")) {
