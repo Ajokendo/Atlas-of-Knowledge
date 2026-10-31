@@ -359,6 +359,83 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 Сотрудничество должно основываться на принципах справедливого и разумного использования, предотвращения значительного трансграничного ущерба, обмена информацией и совместного мониторинга. Гидрологические данные и договорённости необходимо рассматривать в контексте действующих межгосударственных соглашений, а не сводить к упрощённой формуле «верховья против низовьев».
 
+### 20.9.1. Бассейновое сотрудничество на примере Чу и Таласа / Basin Cooperation: The Chu and Talas Rivers
+
+Реки Чу и Талас показывают, почему управление водой нельзя ограничивать государственными границами. Их водохозяйственная инфраструктура — регулирующие сооружения, водохранилища и каналы — расположена преимущественно выше по течению, на территории Кыргызстана. Казахстан также зависит от режима работы этих объектов и от согласованного распределения воды для орошения.
+
+В январе 2000 года Кыргызстан и Казахстан заключили соглашение об использовании межгосударственных водохозяйственных сооружений на реках Чу и Талас. Стороны договорились совместно финансировать эксплуатацию и обслуживание указанных сооружений пропорционально объёму воды, получаемому каждой стороной. Для реализации соглашения действует двусторонняя комиссия по водохозяйственному сотрудничеству.
+
+По данным регионального водного ежегодника CAWater-Info, в протоколе 35-го заседания комиссии, прошедшего в апреле 2025 года, для ирригационного сезона 2025 года был согласован объём передачи Казахстану 580 млн м³ воды: 400 млн м³ из реки Талас и 180 млн м³ из реки Чу. На 36-м заседании в сентябре 2025 года обсуждались итоги сезона и состояние межгосударственных сооружений. В плане работы на 2026 год предусмотрены сезонный отбор проб воды, гидродинамическое моделирование паводков и экологический мониторинг.
+
+Эти цифры относятся к согласованному графику конкретного ирригационного сезона, а не к постоянной ежегодной квоте. Фактическое распределение зависит от водности года, состояния сооружений, сезонного спроса и согласованных протоколов. Поэтому при публикации таблиц следует указывать год, источник, единицы измерения и статус величины — план, согласованный график или фактически измеренный объём.
+
+**Географический вывод.** Бассейн реки — более подходящая природная единица для анализа водных потоков, чем административная граница. Но управление бассейном требует одновременно правовых соглашений, совместного мониторинга, инженерного обслуживания и обмена данными.
+
+### 20.9.2. Нарын–Сырдарья: взаимосвязь воды и энергетики / The Naryn–Syr Darya Basin: The Water–Energy Nexus
+
+Нарын является одним из главных истоков Сырдарьи. Токтогульское водохранилище и каскад гидроэлектростанций позволяют регулировать сток и вырабатывать электроэнергию. Однако режим работы водохранилища влияет не только на Кыргызстан: ниже по течению вода используется для орошения в Узбекистане и Казахстане.
+
+**Водно-энергетическая взаимосвязь** (water–energy nexus) — это ситуация, когда решения в одной сфере меняют условия в другой. Если воду сбрасывают через турбины зимой, Кыргызстан получает электроэнергию в период высокого спроса на отопление и освещение. Но уменьшение летних сбросов может осложнить обеспечение орошения в низовьях. Если же воду преимущественно накапливать зимой и сбрасывать летом, это может лучше соответствовать ирригационному спросу, но потребовать иных способов покрытия зимнего дефицита электроэнергии.
+
+Исторически Токтогульское водохранилище создавалось как многолетний регулятор стока, важный для ирригации в нижнем течении Сырдарьи. После распада единой советской энергетической и водохозяйственной системы интересы независимых государств стали согласовываться сложнее: Кыргызстану необходима надёжная зимняя электроэнергия, а странам ниже по течению — предсказуемые летние объёмы воды. Это не простое противостояние «верховьев» и «низовьев», а задача распределения выгод, затрат и рисков между взаимозависимыми пользователями.
+
+Устойчивые решения требуют:
+- согласованных сезонных графиков сбросов;
+- прозрачного обмена прогнозами притока и данными о запасах водохранилищ;
+- координации водного режима с импортом, экспортом и сезонной торговлей электроэнергией;
+- оценки последствий для ирригации, экосистем, паводковой безопасности и местных сообществ;
+- механизмов компенсации услуг по регулированию стока и эксплуатации инфраструктуры.
+
+### 20.9.3. Камбаратинская ГЭС-1: региональный проект и оценка последствий / Kambarata-1 HPP: A Regional Project and Impact Assessment
+
+Камбаратинская ГЭС-1 планируется на реке Нарын. Проект разрабатывается в формате сотрудничества Кыргызстана, Казахстана и Узбекистана; соглашение о совместном развитии проекта было подписано в июне 2024 года. Всемирный банк оказывает техническую поддержку подготовке проекта, включая обновление технико-экономического обоснования и экологические и социальные оценки. Проектная мощность указывается на уровне **1 860 МВт**, а средняя годовая выработка в проектных материалах оценивается примерно в **5 600 ГВт·ч**. Это проектные параметры, а не фактическая выработка действующей станции: объект ещё не эксплуатируется.
+
+Межправительственные договорённости должны определить принципы совместного развития, финансирования, собственности и эксплуатации. В актуальной справочной информации Всемирного банка отмечено, что соответствующее межправительственное соглашение готовится; поэтому не следует описывать совместную проектную компанию или окончательную модель управления как уже полностью действующие.
+
+Для географической оценки важны не только мощность и объём выработки. Следует рассматривать:
+- изменение сезонного режима стока и влияние на пользователей ниже по течению;
+- безопасность плотины, сейсмические условия и аварийные сценарии;
+- воздействие на экосистемы, рыбные ресурсы и перенос наносов;
+- временное и постоянное землепользование, переселение или ограничения доступа;
+- приток работников и нагрузку на местные дороги, жильё и услуги;
+- культурное наследие и участие местных сообществ;
+- распределение выгод и затрат между странами и группами населения.
+
+Оценка воздействия на окружающую и социальную среду должна проводиться до принятия окончательных решений и сопровождать весь жизненный цикл проекта. Региональное сотрудничество может повысить энергетическую и водную безопасность, но только при прозрачных правилах эксплуатации, доступе к данным, независимой экспертизе и работающих механизмах общественного участия.
+
+#### 20.9.3. Kambarata-1 HPP: A Regional Project and Impact Assessment
+
+Kambarata-1 is planned on the Naryn River. The project is being developed through cooperation among the Kyrgyz Republic, Kazakhstan and Uzbekistan; an agreement on joint project development was signed in June 2024. The World Bank provides technical assistance for project preparation, including an updated feasibility study and environmental and social assessments. The planned installed capacity is **1,860 MW**, while project materials estimate average annual generation at about **5,600 GWh**. These are design estimates, not the actual output of an operating station: the facility is not yet in operation.
+
+Intergovernmental arrangements are intended to define the principles for joint development, financing, ownership and operation. The World Bank's current project information states that the relevant intergovernmental agreement is being prepared; the joint project company and final governance model should therefore not be described as fully operational.
+
+A geographic assessment must consider more than capacity and electricity generation. It should examine:
+- changes in seasonal river flow and effects on downstream users;
+- dam safety, seismic conditions and emergency scenarios;
+- impacts on ecosystems, fish resources and sediment transport;
+- temporary and permanent land use, resettlement or access restrictions;
+- worker influx and pressure on local roads, housing and services;
+- cultural heritage and community participation;
+- the distribution of benefits and costs among countries and population groups.
+
+Environmental and social impact assessment should take place before final decisions and continue throughout the project life cycle. Regional cooperation can improve energy and water security, but only with transparent operating rules, access to data, independent review and effective public-participation mechanisms.
+
+#### 20.9.4. Практическая модель: сезонный компромисс / Worked Model: A Seasonal Trade-off
+
+Представьте водохранилище, которое получает больше воды весной и летом, тогда как спрос на электроэнергию в стране особенно высок зимой, а потребность в оросительной воде в низовьях возрастает в тёплый сезон. Единственного решения, максимизирующего все выгоды, может не быть.
+
+Для сравнения двух условных режимов составьте таблицу по четырём критериям: зимняя выработка электроэнергии, летняя доступность воды для орошения, риск паводков и экологический сток. Затем определите, какие данные нужны для обоснованного решения: приток по месяцам, запасы водохранилища, прогноз осадков и снеготаяния, спрос на электроэнергию, графики водозабора и экологические ограничения.
+
+**Важно:** это учебная модель, а не рекомендация по фактическому управлению Токтогульским или другим водохранилищем. Реальные режимы устанавливаются компетентными органами на основе измерений, прогнозов и межгосударственных соглашений.
+
+##### Worked Model: A Seasonal Trade-off
+
+Imagine a reservoir that receives more water in spring and summer, while national electricity demand is especially high in winter and irrigation demand downstream increases during the warm season. There may be no single operating option that maximises every benefit.
+
+To compare two hypothetical operating regimes, prepare a table using four criteria: winter electricity generation, summer water availability for irrigation, flood risk and environmental flows. Then identify the data needed for a sound decision: monthly inflow, reservoir storage, precipitation and snowmelt forecasts, electricity demand, water-diversion schedules and environmental constraints.
+
+**Important:** this is a learning model, not an operating recommendation for Toktogul or any other reservoir. Actual operating regimes are determined by competent authorities using measurements, forecasts and interstate agreements.
+
 ## 20.10. Качество воды и загрязнение / Water Quality and Pollution
 
 Качество воды определяется физическими, химическими и биологическими показателями. Основные параметры мониторинга:
@@ -612,6 +689,13 @@ Annual water availability does not show whether enough water is available in a p
 Kyrgyzstan’s water system is shaped by high mountains, precipitation, seasonal snow, glaciers, groundwater and lakes. Its rivers belong to several major Central Asian basins and support water supply, irrigation and energy production across national borders. Snow and glaciers regulate seasonal and multi-year runoff, while climate change is altering melt timing, glacier mass balance, river regimes and high-mountain lakes. Sustainable management requires basin-scale planning, monitoring, water efficiency, pollution control and transboundary cooperation.
 
 ## Основные источники и литература / Selected References
+
+12. **UNECE.** *Transboundary cooperation in the Chu and Talas river basin.* https://unece.org/environment-policy/water/areas-work-convention/transboundary-cooperation-chu-and-talas-river-basin
+13. **CAWater-Info.** *Cooperation within the Chu-Talas Water Commission*, in *Central Asia and Caucasus Regional Water Information Base: Yearbook 2025.* https://cawater-info.net/yearbook/2025/04_yearbook2025_en.htm
+14. **World Bank.** *Kambarata-1 HPP: Frequently Asked Questions.* https://www.worldbank.org/en/programs/kambarata-1-hpp/faqs
+15. **World Bank.** *World Bank Provides Additional Technical Support for Clean, Hydropower Energy Generation in the Kyrgyz Republic*, 11 July 2024. https://www.worldbank.org/en/news/press-release/2024/07/11/world-bank-provides-additional-technical-support-for-clean-hydropower-energy-generation-in-the-kyrgyz-republic
+16. **World Bank.** *Water Energy Nexus in the Syr Darya Basin.* https://documents1.worldbank.org/curated/en/907281468251378105/pdf/338770v10ENGLISH0REEPS1Main1Report.pdf
+
 
 1. **CAWater-Info.** Central Asia and Caucasus Regional Water Information Base. *Key Water Developments in the Countries of Central Asia, 2025: Kyrgyz Republic.* https://www.cawater-info.net/yearbook/2025/05_yearbook2025_kg_en.htm
 2. **Water Resources Service of the Kyrgyz Republic.** *Water Resources and Water Management Infrastructure of Kyrgyzstan.* https://www.water.gov.kg/index.php?Itemid=1470&catid=127&id=365&lang=en&option=com_content&view=article
