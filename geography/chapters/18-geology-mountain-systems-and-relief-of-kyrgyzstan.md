@@ -468,6 +468,24 @@ A rockfall barrier will not necessarily protect against a debris flow; slope sta
 
 **Activity.** For three situations—ground cracks and displacement, fresh rockfall deposits, and a muddy debris flow—identify the likely process, observations needed and suitable categories of protective measures.
 
+### 18.18.1. Как читать карту геологической опасности / Reading a Geological-Hazard Map
+
+Карта геологической опасности показывает пространственное распределение потенциально опасных процессов или их интенсивности при заданных условиях. Она не является картой гарантированных будущих разрушений. Для правильного прочтения необходимо выяснить, что именно отображено: наличие прошлых событий, восприимчивость территории, расчётная интенсивность или вероятность превышения заданного порога за определённый период.
+
+**Проверьте легенду и основу карты:** тип процесса (оползень, селевой поток, обвал, землетрясение); временной горизонт; масштаб; источник инвентаризации; метод моделирования; единицы и классы; дату данных. Карта, составленная по зарегистрированным событиям, может недооценивать плохо обследованные районы. Модель восприимчивости показывает относительную склонность территории к процессу, но не обязательно задаёт частоту или дату события.
+
+**От опасности к риску.** Чтобы оценить риск, карту опасности сопоставляют с населением, зданиями, дорогами, инженерными сетями и уязвимостью объектов. При этом масштаб слоёв должен быть совместимым: грубая региональная карта не подходит для решения о безопасности конкретного дома или участка дороги без детального обследования.
+
+**Учебное задание.** Представьте карту восприимчивости к оползням и слой населённых пунктов. Определите, какие населённые пункты расположены в зонах повышенной восприимчивости. Затем перечислите данные, необходимые для перехода от такого предварительного наложения к инженерной оценке риска.
+
+A geological-hazard map shows the spatial distribution of potentially hazardous processes or their intensity under specified conditions. It is not a map of guaranteed future damage. To interpret it correctly, establish what it represents: past events, terrain susceptibility, modelled intensity or the probability of exceeding a threshold during a stated period.
+
+**Check the legend and map basis:** process type (landslide, debris flow, rockfall, earthquake); time horizon; scale; inventory source; modelling method; units and classes; and data date. A map based on recorded events may underestimate poorly surveyed areas. A susceptibility model indicates relative terrain propensity but does not necessarily provide event frequency or timing.
+
+**From hazard to risk.** Risk assessment combines the hazard map with population, buildings, roads, utilities and asset vulnerability. Map scales must be compatible: a coarse regional map cannot determine the safety of an individual house or road segment without detailed investigation.
+
+**Activity.** Imagine a landslide-susceptibility map and a settlement layer. Identify settlements in areas of elevated susceptibility. Then list the data needed to move from this preliminary overlay to an engineering risk assessment.
+
 ## 18.19. Итоги главы / Chapter Summary
 
 Кыргызстан — горная страна, геологический и геоморфологический облик которой сформировался в результате длительной палеозойской эволюции, кайнозойской реактивации тектонических структур и продолжающегося взаимодействия эндогенных и экзогенных процессов. Тянь-Шань и Памиро-Алай объединяют разнообразные горные пояса, межгорные впадины, высокогорные плато и ледниковые массивы.
