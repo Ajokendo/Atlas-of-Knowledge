@@ -121,11 +121,19 @@ try {
           errors.push(file + ": incorrect proton, neutron or electron count for " + symbol + " (got " + actual.join("/") + ")");
         }
       }
+      if (!(await page.locator("[data-t=ionNote]").innerText()).includes("одинаковое число протонов") ||
+          !(await page.locator("[data-t=ionNote]").innerText()).includes("теряет либо присоединяет электроны")) {
+        errors.push(file + ": Russian note must distinguish isotopes from ions");
+      }
       if (!(await page.locator("[data-t=modelLimit]").innerText()).includes("круговым дорожкам")) {
         errors.push(file + ": simplified shell diagram does not explain that electrons do not follow fixed circular paths");
       }
       await page.locator("#element").selectOption("O");
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-t=ionNote]").innerText()).includes("same number of protons") ||
+          !(await page.locator("[data-t=ionNote]").innerText()).includes("loses or gains electrons")) {
+        errors.push(file + ": English note must distinguish isotopes from ions");
+      }
       if (!(await page.locator("[data-t=modelLimit]").innerText()).includes("fixed circular tracks")) {
         errors.push(file + ": atomic model limitation is missing in English");
       }
