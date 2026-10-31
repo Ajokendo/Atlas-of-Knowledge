@@ -103,6 +103,33 @@ This chapter concludes the general geography section of the atlas. It brings tog
 
 План выборки следует составлять до сбора данных. Необходимо фиксировать правила исключения наблюдений и причины отсутствия данных.
 
+
+### 16.5.1. Разобранный пример: пропорциональная стратифицированная выборка / Worked Example: Proportionate Stratified Sampling
+
+Предположим, исследователь изучает доступность питьевой воды в 1 000 домохозяйств трёх условных горных зон. В нижней зоне расположено 500 домохозяйств, в средней — 300, в верхней — 200. Планируется опросить 100 домохозяйств, распределив выборку пропорционально численности каждой зоны.
+
+Доля каждой зоны в общей совокупности:
+
+- нижняя: 500 / 1 000 = 50%; выборка — 100 × 0,50 = **50 домохозяйств**;
+- средняя: 300 / 1 000 = 30%; выборка — 100 × 0,30 = **30 домохозяйств**;
+- верхняя: 200 / 1 000 = 20%; выборка — 100 × 0,20 = **20 домохозяйств**.
+
+Итого: 50 + 30 + 20 = **100 домохозяйств**.
+
+Такое распределение сохраняет пропорции трёх зон в выборке, но само по себе не гарантирует репрезентативность. Внутри каждой зоны домохозяйства следует отбирать по прозрачной случайной процедуре, обеспечить охват труднодоступных поселений и учитывать отказы от участия. Если в верхней зоне важно отдельно изучить редкие проблемы водоснабжения, исследователь может намеренно увеличить её выборку, но при объединении результатов потребуется взвешивание.
+
+Assume a researcher is studying drinking-water access among 1,000 households in three hypothetical mountain zones. There are 500 households in the lower zone, 300 in the middle zone and 200 in the upper zone. The planned sample is 100 households, allocated in proportion to each zone's population.
+
+Each zone's share of the population is:
+
+- lower zone: 500 / 1,000 = 50%; sample: 100 × 0.50 = **50 households**;
+- middle zone: 300 / 1,000 = 30%; sample: 100 × 0.30 = **30 households**;
+- upper zone: 200 / 1,000 = 20%; sample: 100 × 0.20 = **20 households**.
+
+Total: 50 + 30 + 20 = **100 households**.
+
+This allocation preserves the proportions of the three zones in the sample, but does not by itself guarantee representativeness. Households within each zone should be selected through a transparent random procedure, hard-to-reach settlements should be covered, and non-response should be considered. If the researcher needs to examine rare water-access problems in the upper zone, that zone may be deliberately oversampled; however, weighting will then be needed when combining results.
+
 ## 16.6. Количественные и качественные методы / Quantitative and Qualitative Methods
 
 **Количественные методы** работают с измеряемыми величинами и числовыми данными. Они применяются для расчёта плотности, темпов изменения, расстояний, корреляций, индексов и пространственных моделей.
