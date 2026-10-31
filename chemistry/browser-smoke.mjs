@@ -426,6 +426,14 @@ try {
       if (await page.locator("#table button[data-id]").evaluateAll(items => items.some(button => !button.querySelector(".sym")?.textContent.trim() || !button.querySelector(".mass")?.textContent.trim()))) {
         errors.push(file + ": a main-table element is missing its symbol or atomic-mass display");
       }
+      if (!(await page.locator("[data-t=classificationNote]").innerText()).includes("границы классификации")) {
+        errors.push(file + ": Russian periodic-table category note is missing");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-t=classificationNote]").innerText()).includes("metalloid")) {
+        errors.push(file + ": English periodic-table category note is missing");
+      }
+      await page.locator("#lang").click();
       if (!await page.locator("#search").getAttribute("aria-label") ||
           !await page.locator("#category").getAttribute("aria-label") ||
           !await page.locator("#group").getAttribute("aria-label")) {
