@@ -356,6 +356,28 @@ Also check the coordinate reference system, units, topological errors, metadata 
 
 **Activity.** Prepare a road-layer quality record with source, date, scale or resolution, coordinate system, attributes, gaps and appropriate uses.
 
+### 14.17.1. Как оценивать точность пространственных данных / Assessing the Accuracy of Spatial Data
+
+Карта или ГИС-слой может выглядеть очень детально, но это не гарантирует точности. Необходимо различать пространственную точность положения объектов, тематическую точность классификации, полноту данных и их актуальность. Эти характеристики отвечают на разные вопросы и не заменяют друг друга.
+
+**Точность положения.** Координаты точек и линий сравнивают с независимыми контрольными измерениями более высокой точности. Ошибки могут выражаться через среднеквадратическое отклонение или другие статистики, соответствующие распределению ошибок и стандарту проекта. Контрольные точки должны быть распределены по территории, а не сосредоточены в одном углу карты.
+
+**Тематическая точность.** Для классифицированной карты (например, типов земного покрова) результаты сравнивают с независимой эталонной выборкой и составляют матрицу ошибок. Общая доля правильных классификаций может скрывать слабое качество редких классов; поэтому полезно отдельно рассматривать ошибки пропуска и ложного отнесения для каждого класса.
+
+**Масштаб, разрешение и дата.** Крупный масштаб отображения не добавляет исходным данным точности. Разрешение растрового пикселя не равно точности положения границы объекта. Указывайте дату съёмки или обследования, масштаб исходной карты, систему координат, метод обработки и ограничения использования.
+
+**Учебное задание.** Для слоя дорог и карты земного покрова составьте отдельные планы контроля качества. Укажите, какие независимые данные нужны, как выбрать контрольные точки или участки и почему одну общую цифру точности нельзя использовать для обоих слоёв.
+
+A map or GIS layer may look highly detailed without being accurate. It is important to distinguish positional accuracy, thematic classification accuracy, data completeness and currency. These characteristics answer different questions and do not replace one another.
+
+**Positional accuracy.** Compare point and line coordinates with independent reference measurements of higher accuracy. Errors may be expressed using root mean square error or other statistics appropriate to the error distribution and project standard. Checkpoints should be distributed across the study area rather than concentrated in one corner of the map.
+
+**Thematic accuracy.** For a classified map, such as land-cover types, compare results with an independent reference sample and build an error matrix. Overall accuracy can conceal poor performance for rare classes; it is therefore useful to examine omission and commission errors for each class separately.
+
+**Scale, resolution and date.** A large display scale does not add accuracy to the source data. Raster pixel size is not the same as the positional accuracy of an object's boundary. State the acquisition or survey date, source-map scale, coordinate reference system, processing method and limitations.
+
+**Activity.** Prepare separate quality-control plans for a road layer and a land-cover map. Identify the independent reference data needed, how checkpoints or sample sites should be selected, and why one overall accuracy figure cannot be used for both layers.
+
 ## 14.18. Итоги главы / Chapter Summary
 
 1. ГИС объединяет пространственные данные, программные средства, методы, инфраструктуру и пользователей.
