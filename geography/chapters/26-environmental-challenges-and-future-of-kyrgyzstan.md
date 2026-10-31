@@ -17,6 +17,19 @@
 
 Природоохранная политика должна рассматривать эти проблемы как единую систему. Например, восстановление лесов и пастбищ помогает снижать эрозию и поддерживать водный режим; эффективное орошение одновременно повышает устойчивость сельского хозяйства и уменьшает давление на водные ресурсы; чистая энергетика может улучшать качество воздуха и снижать выбросы парниковых газов.
 
+
+Kyrgyzstan is a high-mountain country whose environmental security is closely connected with the condition of glaciers, rivers, pastures, forests, soils and mountain ecosystems. A substantial share of the country's water resources forms in mountain areas and is then used for drinking-water supply, agriculture, energy production and ecosystems, both within Kyrgyzstan and in neighbouring states. Changes in mountain natural systems therefore have consequences far beyond the places where they occur.
+
+The country's environmental challenges are interconnected:
+- climate change puts additional pressure on glaciers, snow cover, river regimes and agriculture;
+- pasture and soil degradation reduce land productivity and the resilience of rural livelihoods;
+- urban air pollution is associated with heating, transport, industry and meteorological conditions;
+- inadequate wastewater treatment and inefficient waste management create risks for rivers, lakes and public health;
+- extractive industries leave long-term environmental liabilities; and
+- natural hazards—including earthquakes, debris flows, landslides, avalanches and glacial lake outburst floods—affect people and infrastructure.
+
+Environmental policy should address these issues as one connected system. Forest and pasture restoration, for example, can reduce erosion and support catchment functions. Efficient irrigation can strengthen agricultural resilience while reducing pressure on water resources. Cleaner energy can improve air quality and reduce greenhouse-gas emissions.
+
 ## 26.2. Климатические изменения: наблюдения и последствия / Climate Change: Observations and Impacts
 
 По данным UNEP, средняя годовая температура в Кыргызстане увеличилась примерно на 1,2 °C в период 1960–2023 годов — приблизительно вдвое больше приведённой в той же оценке глобальной величины. Это национальная оценка за конкретный период, а не универсальная характеристика каждого района: локальные тренды различаются по высоте, сезону и географическому положению.
