@@ -420,3 +420,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Added AviList to the bilingual bibliography and checked that the source is described as a taxonomic checklist, not as a local field inventory.
 - Editorial readiness: **99/100**. One point since 98/100 reflects a documented improvement in the bird-taxonomy reference framework and clearer separation of taxonomy, occurrence evidence and conservation assessment. This is a staged editorial-readiness score, not a completion percentage or external certification. A full species-by-species comparison of every bird name against AviList, independent specialist review of disputed fish identifications, independent bilingual copy-editing, and live browser, mobile, keyboard and screen-reader QA remain outstanding.
 
+### AviList version currency correction — 1 November 2026
+- Replaced the v2025 reference with AviList v2026, published on 20 October 2026, the first major revision and the current checklist at the time of this audit.
+- Updated the fauna chapter's bilingual methodology note and bibliography to the v2026 checklist page.
+- The v2026 release includes taxonomic decisions, a major review of taxonomic sequence, revised range statements (including species-level statements for polytypic species), and updated links to BirdLife v10 and eBird/Clements v2026.
+- Clarified that global range information is context for checking distribution, not independent evidence of occurrence at a particular Kyrgyz locality. National and site-level records still require their own sources.
+- A full species-by-species comparison of all bird names and local records remains in progress; the editorial-readiness score therefore remains **99/100**, not 100/100.
+
