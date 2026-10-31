@@ -101,3 +101,18 @@
 
 **Chapter 17 update commit:** `e85045e39c4a111c68366802c138b07993b3a397`  
 **Chapter 20 update commits:** `48653aa7528217f9c3956b0f75403b0b69c38aa2`, `69ee325381ea582845a16591aa5afd2df242be27`.
+
+
+## Recovery checkpoint — 1 November 2026
+
+This checkpoint preserves the working context for continuation after a session interruption.
+
+- Active project: **Atlas of Geography**, repository `Ajokendo/Atlas-of-Knowledge`, branch `workspace/geography`, working directory `geography/`.
+- Scope remains limited to the geography discipline. Do not modify other disciplines, the integration branch, the portal, catalogue, publication settings or `main`; do not merge branches.
+- The atlas structure remains 26 chapters: Chapters 01–16 cover world geography; Chapters 17–26 form the in-depth Kyrgyzstan section, including all seven oblasts and the two republican-level cities where relevant.
+- Latest verified work in this branch includes the bilingual additions to Chapter 23 (migration statistics and IOM mobility estimates), Chapter 17 (state borders, delimitation/demarcation and borderland geography), and Chapter 20 (Chu–Talas, Naryn–Syr Darya and Kambarata-1 water/energy case studies). Their detailed records and commit references are preserved above.
+- The current README and this audit log were fetched again from `workspace/geography` on 1 November 2026. The README contains the 26-chapter structure and the latest Chapter 17/20/23 update notes; this log contains the targeted audit findings and follow-up records.
+- Outstanding audit findings remain active: Chapter 01 is not yet fully bilingual; Chapter 02 has English headings but incomplete English explanatory prose; Chapter 17 still needs authoritative verification of exact area and extreme-point coordinates; Chapter 24 needs a comparability note for historical population series affected by administrative/statistical boundary changes; Chapter 26 climate-trend and NDC 3.0 claims need line-by-line source verification. The systematic inventory and bilingual/scientific audit of Chapters 17–26 and the wider atlas are not complete.
+- Resume by checking the branch and current files before editing; then continue the systematic content and source audit, prioritising real gaps in the Kyrgyzstan chapters and preserving full Russian/English parity. Re-fetch every edited file after committing and record the evidence here.
+- **Progress-report rule:** do not provide an interim percentage or progress report before the user-requested 85% milestone. Do not invent a percentage; report only after a documented reassessment.
+- This checkpoint records the verified state and next actions; it is not a claim that all historical lost material has been recovered or that the atlas is complete.
