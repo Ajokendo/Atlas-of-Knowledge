@@ -566,3 +566,8 @@ The score should increase only when evidence for the relevant checklist items is
 - Added regression assertions to `checks.mjs` for the expected marker count, unique IDs, bilingual title/brief structure, checklist synchronization, and scientific production safeguards.
 - Confirmed the marker stylesheet switches Russian/English text using the same `html[lang="en"]` convention already used by the Biology pages.
 - These were remote content and structural checks only. The local `checks.mjs` script and CI were not executed; no test pass is claimed. All 52 illustrations remain planned and none is represented as generated or integrated.
+
+
+## Image production priority audit (2026-11-01)
+
+A first-pass review of the 13 pages carrying the 52 planned illustration briefs found 16 existing SVG plates. The image register is being prioritized by incremental learning value: P1 for regional biodiversity and organism portraits not already shown; P2 for useful complementary explanatory visuals; P3 where an existing SVG or interactive element already covers much of the same concept. This prioritization does not mean any image has been generated, scientifically approved or integrated. The inventory and priorities require regression validation before the next readiness milestone.
