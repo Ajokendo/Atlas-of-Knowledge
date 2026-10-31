@@ -730,7 +730,7 @@ try {
       await page.locator("#fraction").dispatchEvent("input");
       if ((await page.locator("#ppm").innerText()).replace(/\s/g, "") !== "500ppm" ||
           await page.locator("#ppm").getAttribute("aria-live") !== "polite") {
-        errors.push(file + ": 0.05 percent must produce an accessible 500 ppm result");
+        errors.push(file + ": 0.05 percent must produce an accessible 500 ppm result; got " + (await page.locator("#ppm").innerText()) + "; aria-live=" + (await page.locator("#ppm").getAttribute("aria-live")) + "; language=" + (await page.locator("html").getAttribute("lang")));
       }
     }
 
