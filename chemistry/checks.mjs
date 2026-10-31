@@ -24,6 +24,8 @@ for (const file of htmlFiles) {
 
   if (!/<html\b[^>]*lang=["'][^"']+["']/i.test(source)) errors.push(relativeFile + ": missing html lang attribute");
   if (!/<meta\s+name=["']viewport["']/i.test(source)) errors.push(relativeFile + ": missing viewport meta tag");
+  if (!/<title>\s*[^<]+<\/title>/i.test(source)) errors.push(relativeFile + ": missing or empty document title");
+  if (!/<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(source)) errors.push(relativeFile + ": missing primary page heading");
 
   const idValues = [...source.matchAll(/\bid=["']([^"']+)["']/gi)].map(m => m[1]);
   const ids = new Set(idValues);
