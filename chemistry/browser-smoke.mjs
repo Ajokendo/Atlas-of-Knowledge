@@ -1097,8 +1097,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 85) {
-        errors.push(file + ": expected 85 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 88) {
+        errors.push(file + ": expected 88 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1165,6 +1165,10 @@ try {
       await page.locator("#search").fill("formula unit");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Formula unit")) {
         errors.push(file + ": glossary search did not find the formula-unit definition");
+      }
+      await page.locator("#search").fill("peptide bond");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Peptide bond")) {
+        errors.push(file + ": glossary search did not find the peptide-bond definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
