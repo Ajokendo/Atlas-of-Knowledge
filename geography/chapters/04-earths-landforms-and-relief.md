@@ -406,6 +406,30 @@ This means the ground rises by an average of 20 m for every 100 m of horizontal 
 
 ---
 
+### 4.11.1. Как оценивать устойчивость склона / Assessing Slope Stability
+
+
+Крутизна склона сама по себе не позволяет надёжно предсказать оползень. Для оценки склоновой опасности рассматривают сочетание геометрии склона, свойств пород и грунтов, воды, растительности, нагрузки и возможных внешних воздействий.
+
+**Что изучают:** угол и высоту склона; слоистость и трещиноватость пород; наличие глинистых прослоев; влажность и уровень подземных вод; следы прежних смещений; подрезку склона дорогой или рекой; дополнительные нагрузки у бровки. Осадки и снеготаяние могут повышать давление воды в порах и снижать сопротивление сдвигу, но реакция зависит от геологии и дренажа.
+
+**Признаки для полевого наблюдения:** свежие уступы и трещины, наклон деревьев или столбов, деформация дорог, смещение ограждений, выпучивание грунта у подошвы, необычное просачивание воды. Отдельный признак не является диагнозом; при его обнаружении нужна оценка квалифицированных специалистов. Нельзя приближаться к активному оползню или входить в зону возможного повторного движения.
+
+**От опасности к риску.** Карта потенциально неустойчивых склонов показывает, где процесс может возникнуть, но риск зависит также от людей, зданий, дорог и других объектов в зоне воздействия, их уязвимости и возможностей эвакуации. Карта восприимчивости не заменяет инженерно-геологическое обследование и не является прогнозом даты события.
+
+**Учебная работа.** Сравните два условных склона одинаковой крутизны: на первом — плотная скальная порода и организованный водоотвод; на втором — трещиноватые водонасыщенные отложения и подрезанная подошва. Составьте перечень дополнительных данных, необходимых для сравнения их устойчивости. Не присваивайте численную вероятность без модели и исходных данных.
+
+Slope steepness alone cannot reliably predict a landslide. Slope-hazard assessment considers the combined effects of geometry, rock and soil properties, water, vegetation, loading and possible external triggers.
+
+**What is examined:** slope angle and height; bedding and rock fractures; clay-rich layers; soil moisture and groundwater level; evidence of previous movement; undercutting by a road or river; and additional loads near the slope crest. Rainfall and snowmelt can increase pore-water pressure and reduce resistance to sliding, but the response depends on geology and drainage.
+
+**Field indicators:** fresh scarps and cracks, tilted trees or poles, road deformation, displaced fences, bulging ground near the toe, and unusual seepage. No single indicator is a diagnosis; observations require assessment by qualified specialists. Do not approach an active landslide or enter an area that may move again.
+
+**From hazard to risk.** A map of potentially unstable slopes indicates where a process may occur, but risk also depends on people, buildings, roads and other exposed assets, their vulnerability and evacuation capacity. A susceptibility map does not replace an engineering-geological investigation and does not forecast the date of an event.
+
+**Learning activity.** Compare two hypothetical slopes with the same steepness: one has competent bedrock and managed drainage; the other has fractured water-saturated deposits and an undercut toe. List the additional data needed to compare their stability. Do not assign a numerical probability without a model and supporting data.
+
+
 ## Итоги главы / Chapter Summary
 
 1. Рельеф — результат длительного взаимодействия внутренних и внешних процессов Земли.
