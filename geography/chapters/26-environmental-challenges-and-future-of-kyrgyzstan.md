@@ -792,6 +792,22 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 11. **Зелёный город.** Схема общественного транспорта, зелёной инфраструктуры, чистого отопления, водоотведения и безопасных общественных пространств.
 12. **Сценарии Кыргызстана до 2050 года.** Три сопоставимых сценария с индикаторами климата, воды, земель, биоразнообразия, воздуха и качества жизни.
 
+
+### English visual briefs
+
+1. **Climate change in Kyrgyzstan.** Map temperature trends by weather station, showing observation period, units and confidence intervals; do not interpolate data without a stated method.
+2. **Glaciers and water security.** Diagram of the high-altitude water balance: snow, glaciers, seasonal runoff, reservoirs, irrigation and ecosystems.
+3. **River-basin vulnerability map.** Show the Naryn, Chuy, Talas, Kara Darya and other basins; water abstractions, population, irrigation and transboundary connections.
+4. **Pastures and land degradation.** Show elevation belts, seasonal pastures, grazing pressure zones, erosion areas and restoration measures.
+5. **Forests and ecological corridors.** Show spruce, juniper, walnut-fruit and riparian forests, protected areas and habitat connectivity.
+6. **Urban air quality.** Show emission sources, monitoring stations, seasonality and temperature inversions; every indicator must include a date and averaging period.
+7. **Water and sanitation infrastructure.** Show water intakes, treatment plants, sewerage networks, discharges and sensitive water bodies.
+8. **The waste-management cycle.** Show prevention, separate collection, sorting, recycling, composting and safe disposal of residual waste.
+9. **Natural hazards.** Show earthquakes, debris flows, landslides, avalanches and glacial lake outburst floods; include population and infrastructure exposure.
+10. **Environmental liabilities of mining.** Show open pits, mines, tailings facilities, disturbed land, monitoring and rehabilitation.
+11. **The green city.** Diagram public transport, green infrastructure, clean heating, drainage and safe public spaces.
+12. **Kyrgyzstan scenarios to 2050.** Show three comparable scenarios with indicators for climate, water, land, biodiversity, air and quality of life.
+
 ## 26.17. Основные понятия / Key Terms
 
 | Русский термин | English term | Определение |
