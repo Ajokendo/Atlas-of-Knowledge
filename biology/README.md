@@ -449,3 +449,8 @@ The score should increase only when evidence for the relevant checklist items is
 - The chapter now distinguishes this dated breeding evidence from present-day abundance and retains the separate July 2003 May-Saz observations as historical field records. No contemporary population estimate is inferred from either expedition.
 - The species-level profile remains restricted to Himalayan Snowcock (*Tetraogallus himalayensis*). Aggregated inclusion of Tibetan Snowcock (*T. tibetanus*) remains flagged for primary-record verification rather than being treated as confirmed solely from a checklist.
 - Russian and English descriptions and bibliography were updated together. Editorial readiness remains **99/100**; the remaining bird taxa, locality claims, expert review and browser/device/accessibility QA are still open.
+
+## Pallas's Gull name reconciliation — 1 November 2026
+- The Son-Kul account now explains that the 2019 OSME report uses the older combination `Larus ichthyaetus`, while current taxonomic references use `Ichthyaetus ichthyaetus`. The chapter retains the current combination and makes clear these names refer to the same species, not separate records.
+- Added an ITIS nomenclatural reference and matched the clarification in Russian and English. The local Son-Kul occurrence remains grounded in the dated OSME 2019 survey account; taxonomy is not treated as proof of a current breeding population.
+- Editorial readiness remains **99/100**; other bird records and locality claims still require systematic cross-checking, followed by specialist, bilingual and browser/accessibility review.
