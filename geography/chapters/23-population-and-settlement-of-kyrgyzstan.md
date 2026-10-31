@@ -423,7 +423,9 @@ For Kyrgyzstan, it is particularly important not to confuse permanent rural-to-u
 
 Для Кыргызстана важно сопоставлять несколько источников, но не смешивать их показатели. Национальный статистический комитет (НСК) публикует ежегодные данные о миграционном приросте или оттоке. Международная организация по миграции (МОМ) через систему Displacement Tracking Matrix (DTM) проводит оценку мобильности на уровне сообществ. Эти источники отвечают на разные вопросы и используют разные методы.
 
-#### Зарегистрированный миграционный баланс по данным НСК
+**Важное ограничение:** приведённый ниже ряд НСК относится к **внешней миграции** (прибытие из-за рубежа и выбытие за рубеж). Он не является суммарным показателем внутренней и внешней миграции. Внутренние перемещения между областями и городами учитываются отдельно и не должны прибавляться к этому ряду без проверки методики и устранения двойного счёта.
+
+#### Зарегистрированный баланс внешней миграции по данным НСК
 
 По опубликованному НСК ряду миграционный прирост страны составил −769 человек в 2021 году, затем стал положительным: 5 917 в 2022 году, 9 843 в 2023 году, 11 208 в 2024 году и 15 426 в 2025 году. В таблице за 2025 год отражён именно баланс прибывших и выбывших, а не общее количество людей, которые перемещались.
 
@@ -469,7 +471,9 @@ For Kyrgyzstan, it is particularly important not to confuse permanent rural-to-u
 
 For Kyrgyzstan, several sources should be compared without treating their indicators as interchangeable. The National Statistical Committee (NSC) publishes annual net migration or outflow data. The International Organization for Migration (IOM), through its Displacement Tracking Matrix (DTM), conducts community-level mobility assessments. These sources answer different questions and use different methods.
 
-##### Registered migration balance in NSC statistics
+**Important limitation:** the NSC series below refers to **external (international) migration**—arrivals from abroad and departures abroad. It is not a combined measure of internal and international migration. Moves between regions and cities within Kyrgyzstan are recorded separately and must not be added to this series without checking definitions and avoiding double counting.
+
+##### Registered international migration balance in NSC statistics
 
 According to the NSC series, the country's migration balance was −769 people in 2021, then became positive: 5,917 in 2022, 9,843 in 2023, 11,208 in 2024 and 15,426 in 2025. The 2025 table below shows the net balance of arrivals and departures, not the total number of people who moved.
 
@@ -1029,6 +1033,8 @@ The overall average therefore hides a strong contrast between a densely populate
 - International Organization for Migration (IOM), Displacement Tracking Matrix (DTM). **Kyrgyzstan — Baseline Mobility Assessment — Round 7 (April 2026)**. https://dtm.iom.int/reports/kyrgyzstan-baseline-mobility-assessment-round-7-april-2026
 
 
+- Национальный статистический комитет Кыргызской Республики. **Миграционный прирост, отток по внешней миграции** (открытые данные, 2021–2025). https://stat.gov.kg/ru/opendata/category/41/
+- National Statistical Committee of the Kyrgyz Republic. **Migration inflow, outflow** (open data, 2021–2025). https://stat.gov.kg/en/opendata/category/6277/
 - Национальный статистический комитет Кыргызской Республики. **Население: официальная статистика**. https://www.stat.gov.kg/ru/statistics/naselenie/
 - Закон Кыргызской Республики от 17 сентября 2025 года № 200 о переименовании города Джалал-Абад в Манас. https://cbd.minjust.gov.kg/4-5636/edition/36959/ru
 - Национальный статистический комитет Кыргызской Республики. **Численность постоянного населения на начало года** (открытые данные). https://www.stat.gov.kg/ru/opendata/category/39/
