@@ -210,6 +210,26 @@ if (!faunaKyrgyzstanFile.includes("Cervus canadensis songaricus") || !faunaKyrgy
   errors.push("chapters/fauna-kyrgyzstan.html: maral nomenclature must document the NCBI synonym and the competing IUCN/CAMCA subspecies treatment");
 }
 
+
+if (!faunaKyrgyzstanFile.includes("04B · TERRESTRIAL INVERTEBRATES") || !faunaKyrgyzstanFile.includes("Hidden diversity: insects and other arthropods")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: terrestrial invertebrates require a bilingual dedicated section");
+}
+if (!faunaKyrgyzstanFile.includes("14 600 видов насекомых") || !faunaKyrgyzstanFile.includes("30 000 видов членистоногих") || !faunaKyrgyzstanFile.includes("must not be added, directly compared")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: insect and arthropod estimates must retain their different scopes and non-comparability caveat");
+}
+if (!faunaKyrgyzstanFile.includes("около 150 видов насекомых") || !faunaKyrgyzstanFile.includes("более 30 других видов беспозвоночных") || !faunaKyrgyzstanFile.includes("два вида, подтверждённо исчезнувшие") || !faunaKyrgyzstanFile.includes("not equivalent to the number of taxa")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: 2025 national threat estimates must be distinguished from the 18-species official arthropod list");
+}
+if (!faunaKyrgyzstanFile.includes("Kyrgyzstancampa") || !faunaKyrgyzstanFile.includes("47 видов дневных бабочек") || !faunaKyrgyzstanFile.includes("no local or regional endemics")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: cave discoveries and the bounded Naryn badlands butterfly survey require accurate scope");
+}
+if (!faunaKyrgyzstanFile.includes("2026–2028") || !faunaKyrgyzstanFile.includes("voucher specimen or photograph") || !faunaKyrgyzstanFile.includes("date, and a description of the habitat")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: invertebrate conservation accounts must include Red Data Book revision context and field-record metadata");
+}
+if (!faunaKyrgyzstanFile.includes("ibnaskr.org/laboratoriya-entomologii-i-parazitologii/") || !faunaKyrgyzstanFile.includes("VNR%202025%20Kyrgyz%20Republic%20Report%20EN.pdf") || !faunaKyrgyzstanFile.includes("KG-CARs3-Draft-ESIA-May-16-Final.pdf") || !faunaKyrgyzstanFile.includes("16%282%29_22_Korb.pdf") || !faunaKyrgyzstanFile.includes("red-data-book-kyrgyzstan-project-2026-2028/")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: primary institutional, national review, World Bank, peer-reviewed and Red Data Book project sources are required");
+}
+
 const cellBiologyAuditFile = fs.readFileSync(path.join(root, "chapters/cell-biology.html"), "utf8");
 if (!cellBiologyAuditFile.includes("Клеточный цикл и митоз: последовательность") || !cellBiologyAuditFile.includes("The cell cycle and mitosis: sequence of events")) errors.push("chapters/cell-biology.html: cell-cycle heading must not label interphase as mitosis");
 if ((cellBiologyAuditFile.match(/data-stage="[^"]+"/g) || []).length !== 6 || !cellBiologyAuditFile.includes('data-stage="cytokinesis" aria-pressed="false"')) errors.push("chapters/cell-biology.html: cell-cycle explorer must include a separate cytokinesis control");
