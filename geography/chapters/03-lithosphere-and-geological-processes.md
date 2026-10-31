@@ -231,6 +231,32 @@
 
 **Место для иллюстрации 3.6-A — Anatomy of an Earthquake.** Разрез с разломом, очагом, эпицентром и типами сейсмических волн.
 
+### 3.6.5. Как определяют положение эпицентра / How the Epicentre Is Located
+
+Сейсмостанция регистрирует колебания грунта в виде сейсмограммы. На записи обычно можно различить приход более быстрых P-волн и более медленных S-волн. Чем дальше станция от очага, тем, как правило, больше временной интервал между приходом этих волн.
+
+**От разницы времени к расстоянию.** Специалисты используют кривые времени пробега сейсмических волн или вычислительные модели, чтобы перевести интервал между P- и S-волнами в оценку расстояния до очага. Нельзя применять одну постоянную скорость ко всем волнам и всем глубинам: скорость зависит от свойств и строения пород.
+
+**Триангуляция.** Если известны расстояния от нескольких станций до эпицентра, вокруг каждой станции на карте проводят окружность соответствующего радиуса. В идеализированном случае три окружности пересекаются в одной точке. На практике измерения содержат погрешности, поэтому окружности могут не сходиться точно; положение эпицентра определяют методами совместной обработки данных. Для определения глубины очага и параметров разрыва нужны дополнительные наблюдения и более сложные модели.
+
+**Упрощённый учебный пример.** Пусть три станции расположены в разных частях региона, а анализ сейсмограмм дал условные расстояния до эпицентра 40, 65 и 50 км. На карте строят три окружности с этими радиусами. Область их наиболее близкого пересечения показывает примерное положение эпицентра. Эти условные расстояния иллюстрируют геометрический принцип и не описывают реальное землетрясение.
+
+**Почему важна сеть станций.** Одна станция позволяет оценить расстояние, но не задаёт однозначное направление на эпицентр. Несколько станций дают возможность локализовать событие и проверить согласованность измерений. Чем лучше географическое распределение станций и качество временной синхронизации, тем надёжнее результат. Станции, расположенные почти на одной линии, обычно дают менее устойчивую геометрию определения.
+
+**Учебное задание.** Нарисуйте условную карту с тремя сейсмостанциями. Постройте окружности по заданным расстояниям и отметьте область пересечения. Затем измените один радиус на несколько километров и объясните, почему оценка эпицентра смещается. Укажите, почему эта схема не определяет глубину очага.
+
+A seismic station records ground motion as a seismogram. The record usually makes it possible to identify the arrival of faster P-waves and slower S-waves. The farther a station is from the source, the greater the time interval between the arrivals generally becomes.
+
+**From time difference to distance.** Scientists use seismic travel-time curves or computational models to convert the interval between P- and S-wave arrivals into an estimated distance to the source. A single constant velocity cannot be applied to all waves and depths: velocity depends on the properties and structure of the rocks.
+
+**Triangulation.** If distances from several stations to the epicentre are known, a circle with the corresponding radius is drawn around each station on a map. In an idealised case, three circles intersect at one point. In practice, measurements contain errors, so the circles may not meet exactly; the epicentre is estimated by jointly analysing the observations. Additional measurements and more complex models are needed to determine focal depth and rupture parameters.
+
+**Simplified learning example.** Suppose three stations are located in different parts of a region, and seismogram analysis gives hypothetical distances to the epicentre of 40, 65 and 50 km. Draw three circles with these radii on a map. The area where they come closest to intersecting indicates the approximate epicentre location. These illustrative distances do not describe a real earthquake.
+
+**Why a station network matters.** One station can provide an estimate of distance but cannot uniquely determine the direction to the epicentre. Several stations make it possible to locate the event and check the consistency of measurements. Better geographic distribution and accurate time synchronisation improve reliability. Stations arranged almost along a single line generally provide weaker location geometry.
+
+**Learning activity.** Draw a hypothetical map with three seismic stations. Plot circles using given distances and mark their intersection area. Then change one radius by several kilometres and explain why the estimated epicentre shifts. State why this diagram cannot determine focal depth.
+
 ## 3.7. Вулканизм / Volcanism
 
 Вулканизм — совокупность процессов подъёма магмы, выделения газов и выхода расплавленного вещества на поверхность.
