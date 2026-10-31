@@ -265,3 +265,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Added the English counterpart to section 17.9 on endogenic and exogenic processes shaping the modern relief, including glacial, fluvial, slope, aeolian and karst processes.
 - Added the English counterpart to section 17.11 on historical mountain corridors, trade routes and the dual role of relief as both a connector and a barrier.
 - Preserved the distinction between geomorphic processes and the landforms they create, and avoided presenting historical routes as continuously accessible in all periods.
+
+
+## Follow-up bilingual development — Chapter 17, administrative geography and toponymy (1 November 2026)
+
+- Added an English counterpart to section 17.12 on the seven-region administrative structure, the separate status of Bishkek and Osh, and the distinction between administrative boundaries and natural or functional regions.
+- Added the English counterpart to section 17.13 on the geographic factors behind regional contrasts, including valley, high-mountain, lake-basin and borderland settings.
+- Added the English counterpart to section 17.14 on official geographical names, original Kyrgyz orthography and consistent Latin transliteration.
+- The detailed border-law subsection 17.12.1 and the worked accessibility example 17.13.1 already have English counterparts and were retained.
