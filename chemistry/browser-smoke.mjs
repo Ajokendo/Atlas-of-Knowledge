@@ -549,6 +549,9 @@ try {
       if (!(await page.locator("#moles").innerText()).startsWith("1")) {
         errors.push(file + ": one mole of water was not calculated correctly");
       }
+      if (!(await page.locator("[data-i=note]").innerText()).includes("m — масса образца") || !(await page.locator("[data-i=note]").innerText()).includes("ровно Nₐ")) {
+        errors.push(file + ": Russian note must distinguish mass, molar mass, amount and exact entities per mole");
+      }
       if (await page.locator(".result").getAttribute("aria-live") !== "polite") {
         errors.push(file + ": dynamic amount results are not announced to assistive technology");
       }
@@ -575,6 +578,9 @@ try {
       }
       await page.locator("#mass").fill("20");
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=note]").innerText()).includes("m is sample mass") || !(await page.locator("[data-i=note]").innerText()).includes("exactly Nₐ")) {
+        errors.push(file + ": English note must distinguish mass, molar mass, amount and exact entities per mole");
+      }
       if (!(await page.locator("#moles").innerText()).endsWith("mol")) {
         errors.push(file + ": amount-of-substance unit did not switch to English");
       }
