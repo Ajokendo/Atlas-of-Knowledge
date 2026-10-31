@@ -799,7 +799,7 @@ try {
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
         errors.push(file + ": English glossary is missing the relative atomic mass definition");
       }
-      await page.locator("#search").fill("activation energy");
+      await page.locator("#search").fill("energy barrier");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("energy barrier")) {
         errors.push(file + ": English glossary is missing the activation-energy definition");
       }
@@ -824,11 +824,11 @@ try {
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("lower activation energy")) {
         errors.push(file + ": English catalyst definition does not explain its alternative reaction pathway");
       }
-      await page.locator("#search").fill("oxidation");
+      await page.locator("#search").fill("electron density away");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("electron density away")) {
         errors.push(file + ": English oxidation definition must cover covalent electron-density shifts");
       }
-      await page.locator("#search").fill("reduction");
+      await page.locator("#search").fill("electron density towards");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("electron density towards")) {
         errors.push(file + ": English reduction definition must cover covalent electron-density shifts");
       }
