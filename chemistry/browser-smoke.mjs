@@ -285,6 +285,17 @@ try {
       if (!(await page.locator("[data-i=note]").innerText()).includes("at 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("other temperatures") || !(await page.locator("[data-i=note]").innerText()).includes("not strictly limited to the 0–14 interval")) {
         errors.push(file + ": English pH note must qualify the neutral point by temperature");
       }
+      if (!(await page.locator("[data-i=strengthNote]").innerText()).includes("не то же самое, что концентрация") ||
+          !(await page.locator("[data-i=pairNote]").innerText()).includes("сопряжённое основание") ||
+          !(await page.locator("[data-i=kaNote]").innerText()).includes("Константа кислотности")) {
+        errors.push(file + ": Russian acid-base section must distinguish strength from concentration and explain conjugate pairs and Ka");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=strengthNote]").innerText()).includes("not the same as concentration") ||
+          !(await page.locator("[data-i=pairNote]").innerText()).includes("conjugate base") ||
+          !(await page.locator("[data-i=kaNote]").innerText()).includes("acid-dissociation constant")) {
+        errors.push(file + ": English acid-base section must distinguish strength from concentration and explain conjugate pairs and Ka");
+      }
       await page.locator("#lang").click();
       const ph = page.locator("#ph");
       const value = page.locator("#value");
