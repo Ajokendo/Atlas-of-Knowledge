@@ -433,3 +433,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Clarified the flamingo/waterbird entry: `Phoenicopterus roseus` identifies the Greater Flamingo only, while “other waterbirds” is an ecological grouping rather than an implied list of additional taxa. Site- and season-specific occurrence still requires dated records.
 - Added matching Russian and English explanations. These changes improve taxonomic scope transparency without silently upgrading uncertain records or claiming completion of the full AviList v2026 comparison.
 - Editorial readiness remains **99/100**; this is a precision improvement within the existing bird-audit stage, not a new completion point. The full species-by-species comparison, independent specialist review, bilingual copy-editing and live browser/device/accessibility QA remain outstanding.
+
+## Snowcock species-level verification — 1 November 2026
+- Replaced the broad `Tetraogallus spp.` label with the species-level profile for Himalayan Snowcock (`Tetraogallus himalayensis`) after checking a published Kyrgyzstan bird checklist and the 2003 Miksture field report.
+- The 2003 report records Himalayan Snowcock in May-Saz and describes it as resident in Kyrgyzstan's mountain regions; it explicitly says Altai Snowcock (`T. altaicus`) was not observed in the country. The chapter treats these as dated evidence, not a current abundance estimate.
+- Noted a discrepancy in aggregated lists that also include Tibetan Snowcock (`T. tibetanus`). The chapter does not silently add that species: primary documented country records require separate verification.
+- Added the national checklist, field report and comparison-list references, with matching Russian and English notes. This is a completed taxon-level verification for this profile, not completion of the full AviList v2026 bird audit.
+- Editorial readiness remains **99/100**; the improvement is recorded without adding a score point. Remaining work includes the other bird taxa and locality claims, independent specialist review, bilingual copy-editing and live browser/device/accessibility QA.
