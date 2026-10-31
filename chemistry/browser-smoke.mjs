@@ -495,7 +495,7 @@ try {
         errors.push(file + ": group filter incorrectly assigns f-block elements to numbered groups");
       }
       await page.locator("#group").selectOption("all");
-      await page.locator("#lanth button[data-id="58"]").click();
+      await page.locator('#lanth button[data-id="58"]').click();
       if (!(await page.locator("#detail").innerText()).includes("наиболее долгоживущего известного изотопа")) {
         errors.push(file + ": bracketed isotope mass-number explanation is missing");
       }
