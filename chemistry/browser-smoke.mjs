@@ -510,9 +510,17 @@ try {
       if (!(await page.locator("[data-t=classificationNote]").innerText()).includes("границы классификации")) {
         errors.push(file + ": Russian periodic-table category note is missing");
       }
+      if (!(await page.locator("[data-t=massNote]").innerText()).includes("массовое число") ||
+          !(await page.locator("[data-t=massNote]").innerText()).includes("не средняя относительная атомная масса")) {
+        errors.push(file + ": Russian periodic-table note must explain bracketed isotope mass numbers");
+      }
       await page.locator("#lang").click();
       if (!(await page.locator("[data-t=classificationNote]").innerText()).includes("metalloid")) {
         errors.push(file + ": English periodic-table category note is missing");
+      }
+      if (!(await page.locator("[data-t=massNote]").innerText()).includes("mass number") ||
+          !(await page.locator("[data-t=massNote]").innerText()).includes("not average relative atomic masses")) {
+        errors.push(file + ": English periodic-table note must explain bracketed isotope mass numbers");
       }
       await page.locator("#lang").click();
       if (!await page.locator("#search").getAttribute("aria-label") ||
