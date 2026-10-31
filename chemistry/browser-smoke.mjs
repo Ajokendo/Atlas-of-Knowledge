@@ -577,6 +577,7 @@ try {
       if (!(await page.locator("#moles").innerText()).endsWith("mol")) {
         errors.push(file + ": amount-of-substance unit did not switch to English");
       }
+      await page.locator("#lang").click();
     }
 
     if (file === "chapters/organic-chemistry.html") {
