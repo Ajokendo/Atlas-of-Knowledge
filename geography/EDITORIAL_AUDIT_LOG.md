@@ -293,3 +293,13 @@ This checkpoint preserves the working context for continuation after a session i
 - The README records the recent additions. The detailed commit history is preserved in the preceding entries.
 - Remaining work includes continued scientific/source verification across Chapters 17–26, completing any remaining language gaps, checking administrative and statistical comparability, and auditing the rest of the world-geography chapters. No claim of final editorial readiness or 100% completion is made here.
 - Resume from the current HEAD of `workspace/geography`; do not recreate or overwrite existing chapters. Continue recording verified changes and create a durable savepoint at each genuine five-percentage-point milestone, with no estimated or invented progress values.
+
+
+## Follow-up audit — Chapter 26, NDC 3.0 targets and climate evidence (1 November 2026)
+
+- Checked the NDC 3.0 mitigation targets against the official English submission hosted by UNFCCC and the Kyrgyz Ministry of Natural Resources' climate-policy page.
+- Clarified that the 2030 targets (18% unconditional; 30% conditional) and 2035 targets (16% unconditional; 39% conditional) are reductions relative to the **projected baseline scenario for each target year**.
+- Added the important methodological distinction that 2017 is identified as the reference year, but the target percentages are not simple reductions from observed 2017 emissions. NDC accounting compares the target-year net emissions with the projected baseline for that same target year.
+- Defined the NDC scenario labels used in the source: With Measures (WM) for unconditional measures and With Additional Measures (WAM) for measures dependent on international support.
+- Added a full English counterpart to section 26.2, including climate impacts and the corrected NDC methodology.
+- Sources checked: UNFCCC NDC 3.0 submission and the Kyrgyz Ministry of Natural Resources climate-policy page. Chapter 26 source list now includes the official UNFCCC submission record.
