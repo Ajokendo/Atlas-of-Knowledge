@@ -475,4 +475,4 @@ This checkpoint preserves the working context for continuation after a session i
 - Added English instructions for all seven practical activities, the full review-question set, and the scientific/editorial notes. Added English descriptions for all ten map, chart and infographic briefs.
 - Preserved the already bilingual migration section 23.8, including the distinction between NSC registered migration flows and IOM community-level mobility estimates. No attempt was made to combine unlike migrant categories or treat IOM estimates as a census.
 - Re-fetched the Chapter 23 file after the update and verified the new English section markers and content. The chapter now has English counterparts through the main narrative, methods, practical work, review and editorial guidance; the remaining task is a detailed source/methodology audit and final bilingual line-by-line proofread.
-- Chapter 23 update commits: `4b0a1a00ff2b15c32d488baad3365a75312238f1` and `[visual-brief commit recorded after verification]`.
+- Chapter 23 update commits: `4b0a1a00ff2b15c32d488baad3365a75312238f1` and `5093a4a5383ae3e7437680fa13800c209f1f192f`.
