@@ -136,7 +136,7 @@ export function boxFlux(F, c, h, n = 60) {
 // ======================================================================
 export const RHR = { v: 2.0e5, B: 0.50, T: 16 };
 RHR.Fmax = QE * RHR.v * RHR.B;                                   // 1.6×10⁻¹⁴ N
-export const rhrAngle = t => breathe(t, 0, 180, RHR.T);           // θ between v and B, degrees
+export const rhrAngle = t => { const u = ((t % RHR.T) + RHR.T) % RHR.T / RHR.T; return 180 * (u < 0.5 ? 2 * u : 2 * (1 - u)); }; // uniform sweep 0→180°→0
 export const rhrV = deg => mul([Math.cos(deg * D2R), 0, Math.sin(deg * D2R)], RHR.v);   // B is along +x
 export const rhrForce = (q, deg) => lorentz(q, rhrV(deg), [RHR.B, 0, 0]);
 
