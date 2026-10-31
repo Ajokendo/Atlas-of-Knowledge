@@ -218,6 +218,7 @@ try {
       if (!(await page.locator("[data-i=thermoIntro]").innerText()).includes("pressure–volume work")) {
         errors.push(file + ": English constant-pressure heat/enthalpy condition is missing");
       }
+      await page.locator("#lang").click();
     }
 
     if (file === "chapters/organic-chemistry.html") {
@@ -237,6 +238,7 @@ try {
         errors.push(file + ": English aromaticity note must refer to a delocalised pi system");
       }
       if (await page.locator(".tile").count() !== 10) errors.push(file + ": expected ten organic-compound family cards");
+      await page.locator("#lang").click();
     }
 
     if (file === "chapters/redox.html") {
@@ -267,6 +269,7 @@ try {
       if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1.10 V") || !(await page.locator("[data-i=cellPotential]").innerText()).includes("unit activity for dissolved ions")) {
         errors.push(file + ": Daniell-cell standard potential is missing in English");
       }
+      await page.locator("#lang").click();
     }
 
     if (file === "chapters/chemistry-of-life.html") {
@@ -663,16 +666,14 @@ try {
         errors.push(file + ": English catalyst note must state that a catalyst does not change the equilibrium constant");
       }
       if (!(await page.locator('[data-i="quotientNote"]').innerText()).includes("Q < K") ||
-          !(await page.locator('[data-i="leChatelierNote"]').innerText()).includes("частично ослабить")) {
-        errors.push(file + ": Russian equilibrium notes must explain Q versus K and the qualitative nature of Le Chatelier's principle");
-      }
-      await page.locator("#lang").click();
-      if (!(await page.locator('[data-i="quotientNote"]').innerText()).includes("Q < K") ||
           !(await page.locator('[data-i="leChatelierNote"]').innerText()).includes("partly opposes")) {
         errors.push(file + ": English equilibrium notes must explain Q versus K and the qualitative nature of Le Chatelier's principle");
       }
       await page.locator("#lang").click();
-      await page.locator("#lang").click();
+      if (!(await page.locator('[data-i="quotientNote"]').innerText()).includes("Q < K") ||
+          !(await page.locator('[data-i="leChatelierNote"]').innerText()).includes("частично ослабить")) {
+        errors.push(file + ": Russian equilibrium notes must explain Q versus K and the qualitative nature of Le Chatelier's principle");
+      }
     }
 
     if (file === "chapters/redox.html") {
