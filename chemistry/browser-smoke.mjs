@@ -50,6 +50,8 @@ try {
       }
     }
     await page.setViewportSize({ width: 390, height: 844 });
+    const unlabeledControls = await page.locator("input:not([type=hidden]), select, textarea").evaluateAll(items => items.filter(el => !(el.labels && el.labels.length) && !el.getAttribute("aria-label") && !el.getAttribute("aria-labelledby")).map(el => el.id || el.outerHTML.slice(0, 80)));
+    if (unlabeledControls.length) errors.push(file + ": form controls lack accessible labels: " + unlabeledControls.join(", "));
 
     if (file === "index.html") {
       const chapterCount = await page.locator(".chapter").count();
