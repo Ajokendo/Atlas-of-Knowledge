@@ -160,6 +160,29 @@ This chapter introduces core ecological concepts, the geography of human pressur
 
 Географическая оценка риска сочетает карты опасностей, демографические данные, характеристики инфраструктуры, социальные показатели и сведения о природных системах. Средние значения по стране могут скрывать локальные очаги высокого риска.
 
+
+### 13.10.1. От опасности к бедствию: почему последствия различаются / From Hazard to Disaster: Why Impacts Differ
+
+Опасное явление не всегда приводит к бедствию. Например, сильный дождь над незаселённой территорией может не вызвать значительного ущерба, тогда как дождь меньшей интенсивности в плотной застройке с недостаточным водоотводом способен привести к затоплению домов и нарушению работы транспорта. Значение имеют подверженность воздействию, уязвимость и возможности подготовки и реагирования.
+
+**Бедствие** — серьёзное нарушение функционирования сообщества или общества, возникающее вследствие опасного события и взаимодействия воздействия с условиями подверженности, уязвимости и способности справляться с последствиями. Поэтому карта опасностей показывает, где и с какой вероятностью возможно явление, но сама по себе не является картой полного риска или ожидаемого ущерба.
+
+При чтении карт и оценок следует отдельно спрашивать:
+1. Какое явление рассматривается и какова его вероятность или интенсивность?
+2. Какие люди, здания, дороги и другие объекты находятся в зоне воздействия?
+3. Какие социальные, физические и экономические условия усиливают или уменьшают уязвимость?
+4. Какие системы предупреждения, эвакуации, защиты и восстановления доступны?
+
+A hazardous event does not always become a disaster. For example, intense rainfall over an uninhabited area may cause little direct damage, while less intense rainfall in a densely built-up area with inadequate drainage may flood homes and disrupt transport. Exposure, vulnerability, and the capacity to prepare for and respond to impacts all matter.
+
+A **disaster** is a serious disruption of the functioning of a community or society arising from a hazardous event interacting with exposure, vulnerability, and capacity. A hazard map therefore shows where an event may occur and, where data allow, its likelihood or intensity; by itself, it is not a complete risk map or an estimate of expected damage.
+
+When interpreting maps and assessments, ask separately:
+1. What hazard is being considered, and what are its likelihood or intensity?
+2. Which people, buildings, roads, and other assets are exposed?
+3. Which social, physical, and economic conditions increase or reduce vulnerability?
+4. What warning, evacuation, protection, and recovery systems are available?
+
 ## 13.11. Экологическая политика и международное сотрудничество / Environmental Policy and International Cooperation
 
 Экологические проблемы часто требуют совместных действий государств, муниципалитетов, бизнеса, научных организаций и гражданского общества.
