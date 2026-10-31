@@ -270,6 +270,33 @@ LiDAR (Light Detection and Ranging) измеряет расстояние по �
 
 Изменение спектрального сигнала не всегда означает изменение земного покрова. Оно может быть вызвано влажностью, сезоном, углом наблюдения, атмосферой или различиями сенсоров.
 
+
+### 15.13.1. Практический пример: сезонность или реальное изменение земного покрова? / Worked Example: Seasonality or Actual Land-cover Change?
+
+Предположим, на спутниковом снимке одного участка в июле растительность выглядит значительно зеленее, чем на снимке того же участка в марте. Нельзя сразу заключать, что площадь леса увеличилась или экосистема восстановилась: разница может объясняться сезонным развитием растений, сроками сельскохозяйственных работ, влажностью почвы, облачностью, тенями или различиями обработки изображений.
+
+Для проверки следует:
+
+1. Сопоставить снимки одного и того же сезона в разные годы, если задача — выявить долгосрочное изменение.
+2. Использовать одинаковые или сопоставимые сенсоры, пространственное разрешение и методы атмосферной коррекции.
+3. Проверить геометрическое совмещение снимков: смещение даже на несколько пикселей может создать ложные границы изменений.
+4. Маскировать облака, тени и снег, а также учитывать сезонные особенности территории.
+5. Сравнить результат с полевыми наблюдениями, более детальными изображениями или независимыми данными.
+
+Если сравниваются разные сезоны, вывод следует формулировать как сезонное различие спектрального отклика, пока нет дополнительных доказательств долговременного изменения земного покрова.
+
+Suppose vegetation on a satellite image of a site appears much greener in July than in March. It is not safe to conclude immediately that forest area has increased or that an ecosystem has recovered. The difference may reflect seasonal plant growth, agricultural calendars, soil moisture, cloud cover, shadows or differences in image processing.
+
+To investigate the change:
+
+1. Compare images from the same season in different years when the goal is to detect long-term change.
+2. Use the same or comparable sensors, spatial resolution and atmospheric-correction methods.
+3. Check geometric co-registration: a shift of even a few pixels can create false change boundaries.
+4. Mask clouds, shadows and snow, and account for the seasonal characteristics of the area.
+5. Compare the result with field observations, higher-resolution imagery or independent datasets.
+
+When different seasons are compared, describe the result as a seasonal difference in spectral response unless additional evidence supports a long-term land-cover change.
+
 ## 15.14. ДЗЗ для изучения природных опасностей и чрезвычайных ситуаций / Remote Sensing for Hazards and Disasters
 
 Данные ДЗЗ помогают до, во время и после чрезвычайных ситуаций:
