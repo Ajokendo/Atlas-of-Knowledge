@@ -279,6 +279,38 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Карта опасности показывает вероятность и интенсивность природного процесса; карта риска дополнительно учитывает людей, здания, инфраструктуру и их уязвимость. Эти понятия нельзя использовать как синонимы.
 
+### 18.11.1. Как оценивают опасность прорыва ледникового озера / Assessing the Hazard of a Glacial Lake Outburst Flood
+
+Прорыв ледникового озера (GLOF) — быстрое высвобождение воды из озера, которое удерживается ледяной, моренной или смешанной естественной плотиной. Не каждое высокогорное озеро опасно: оценка требует анализа вероятности разрушения плотины и возможных последствий ниже по долине.
+
+Исследование обычно включает несколько взаимосвязанных шагов:
+
+1. **Инвентаризация озёр.** По спутниковым снимкам и полевым данным определяют местоположение, площадь, высоту, тип озёрной котловины и изменения размеров во времени.
+2. **Оценка удерживающей плотины.** Изучают её материал, высоту, ширину, крутизну откосов, признаки фильтрации, просадки, термокарстовых процессов и возможной ледяной основы.
+3. **Выявление возможных триггеров.** Рассматривают обрушение ледника или склона в озеро, интенсивные осадки, быстрое таяние, внутреннюю эрозию плотины и другие механизмы. Наличие одного фактора само по себе не доказывает неизбежность прорыва.
+4. **Моделирование пути потока.** С учётом рельефа и сценарного объёма воды оценивают возможное направление распространения паводка, затопление долины и зоны отложения наносов. Результат зависит от качества цифровой модели рельефа и исходных предположений.
+5. **Оценка экспозиции и уязвимости.** Учитывают населённые пункты, дороги, мосты, гидротехнические сооружения, пастбища и другие объекты в потенциальной зоне воздействия.
+6. **Мониторинг и готовность.** Используют повторные спутниковые наблюдения, датчики уровня воды, метеоданные и полевые обследования; заранее определяют каналы оповещения, безопасные маршруты и места эвакуации.
+
+Важно различать **опасность** и **риск**. Опасность характеризует потенциальное событие и его интенсивность; риск связан с вероятностью ущерба людям, имуществу и инфраструктуре. Даже подробная модель не даёт гарантии точного времени прорыва. Карты и сценарии должны сопровождаться датой данных, описанием метода и указанием неопределённости.
+
+**Учебное задание.** Выберите на спутниковом снимке одно высокогорное озеро (не приближаясь к нему и не проводя самостоятельных опасных полевых работ). Составьте перечень данных, необходимых для предварительной оценки: тип плотины, изменение площади озера, крутизна окружающих склонов, возможные пути стока и объекты ниже по долине. Отдельно отметьте, какие выводы по одному снимку сделать нельзя.
+
+A glacial lake outburst flood (GLOF) is the rapid release of water from a lake held by an ice, moraine or composite natural dam. Not every high-mountain lake is hazardous. Assessment requires examining both the possibility of dam failure and the potential consequences downstream.
+
+A typical assessment combines several steps:
+
+1. **Lake inventory.** Satellite imagery and field observations are used to identify the lake, measure its area and elevation, classify its basin and track changes over time.
+2. **Assessment of the retaining dam.** Investigators examine its material, height, width, slope angles, signs of seepage or subsidence, thermokarst processes and possible ice-core conditions.
+3. **Identification of potential triggers.** Possible mechanisms include an ice or slope avalanche entering the lake, intense precipitation, rapid melt, internal erosion of the dam and other processes. A single factor does not prove that an outburst is inevitable.
+4. **Flow-path modelling.** Terrain data and scenario-based water volumes are used to estimate possible flood pathways, valley inundation and sediment deposition. Results depend on the quality of the digital elevation model and the assumptions used.
+5. **Exposure and vulnerability assessment.** Settlements, roads, bridges, hydraulic infrastructure, grazing areas and other assets in the potential impact zone are identified.
+6. **Monitoring and preparedness.** Repeat satellite observations, water-level sensors, meteorological data and field inspections are combined with warning channels, safe routes and evacuation locations planned in advance.
+
+It is important to distinguish **hazard** from **risk**. Hazard describes a potentially damaging event and its intensity; risk concerns the likelihood of harm to people, property and infrastructure. Even a detailed model cannot guarantee the exact timing of an outburst. Maps and scenarios should state their data date, method and uncertainty.
+
+**Learning activity.** Select a high-mountain lake on satellite imagery (do not approach it or undertake hazardous fieldwork). List the information needed for a preliminary assessment: dam type, change in lake area, surrounding slope steepness, possible flow paths and downstream assets. Separately identify conclusions that cannot be drawn from a single image.
+
 ## 18.12. Практические методы геологического и геоморфологического исследования / Field and Geomorphological Methods
 
 Геологическое и геоморфологическое исследование горной территории строится как последовательность взаимодополняющих методов.
