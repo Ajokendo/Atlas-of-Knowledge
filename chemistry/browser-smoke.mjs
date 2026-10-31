@@ -208,14 +208,14 @@ try {
           await isotopeButtons.nth(0).getAttribute("aria-pressed") !== "true") {
         errors.push(file + ": isotope statistics or selected state are not exposed to assistive technology");
       }
-      await isotopeButtons.filter({ hasText: "Carbon-14" }).click();
+      await isotopeButtons.nth(2).click();
       if ((await page.locator("#neutrons").innerText()).trim() !== "8" ||
           (await page.locator("#mass").innerText()).trim() !== "14" ||
           await isotopeButtons.nth(2).getAttribute("aria-pressed") !== "true" ||
           await isotopeButtons.nth(0).getAttribute("aria-pressed") !== "false") {
         errors.push(file + ": Carbon-14 model did not show 8 neutrons, mass number 14 and an announced selected state");
       }
-      await isotopeButtons.filter({ hasText: "Carbon-12" }).click();
+      await isotopeButtons.nth(0).click();
       await page.locator("#lang").click();
       if (await isotopeButtons.evaluateAll(items => items.some(button => button.type !== "button"))) {
         errors.push(file + ": isotope selector contains a button without explicit button type");
