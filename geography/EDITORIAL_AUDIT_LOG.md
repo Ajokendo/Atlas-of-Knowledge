@@ -223,3 +223,14 @@ This checkpoint preserves the working context for continuation after a session i
 - Added English counterparts to the scientific and editorial notes in section 24.17.
 - The notes preserve the data date and resident-population definition, the calculated (non-official) nature of density values, separate treatment of Bishkek and Osh, current city/region naming, dated administrative-unit counts, infrastructure status distinctions, evidence requirements for economic specialisation, neutral border terminology, protected-area category distinctions and source requirements for resource statistics.
 - This closes an important language gap in the chapter's publication caveats; the references and full chapter still require final source and editorial review.
+
+
+## Follow-up audit — Chapter 17 area figure and bibliography (1 November 2026)
+
+- Cross-checked the national territory-area figure against the State Portal of the Kyrgyz Republic, which lists **199,951 km²** on its country profile page. The chapter now explains that this rounds to the commonly cited **199.9 thousand km²** and records the access date (1 November 2026).
+- Added a full English counterpart to section 17.2, including the area precision note and the continued requirement to verify extreme-point coordinates against an authoritative national geodetic source.
+- Consolidated the chapter bibliography into one consecutively numbered list (14 entries), removing the previous split ordering in which border references 9–14 appeared before general references 1–8.
+- The exact extreme-point coordinates remain intentionally unpublished pending a reliable national cartographic/geodetic source; no unsupported coordinates were inserted.
+- The revised Chapter 17 was fetched again from `workspace/geography`; the updated area statement, English counterpart and sequential reference numbering were checked.
+
+**Chapter 17 update commits:** `ebd5c39b23611461dfe41cd1d70b4bab06fa7867`, `f1a3b4f74e906592d90242b0a98f430e124cd791`, `a110986c541a125d874cd144df95e56825404760`, `7a1b8e9b8f8d32c003cbcf2f86d45cdc1eb17b57`.
