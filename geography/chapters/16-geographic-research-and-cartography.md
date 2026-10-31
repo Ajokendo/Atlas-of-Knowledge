@@ -330,6 +330,28 @@ This allocation preserves the proportions of the three zones in the sample, but 
 
 При работе с сообществами необходимо ясно объяснять, кто собирает данные, с какой целью, кто получит доступ и какие решения могут быть приняты на их основе.
 
+### 16.18.1. Как оформить воспроизводимое географическое исследование / Making a Geographic Study Reproducible
+
+Воспроизводимое исследование позволяет другому специалисту понять происхождение данных, принятые решения и последовательность получения результата. Это не всегда означает абсолютно идентичные измерения: полевые условия, версии данных и программное обеспечение могут различаться.
+
+Минимальная документация включает исследовательский вопрос; территорию и период; источники и версии данных; критерии отбора наблюдений; методы сбора и обработки; систему координат и преобразования; версии программных инструментов; параметры моделей; оценку неопределённости; ограничения и этические решения.
+
+Исходные данные следует хранить отдельно от очищенных и производных слоёв. Для каждого шага обработки фиксируют, что изменено, почему, каким инструментом и с какими параметрами. Для скриптов и текстов полезен контроль версий; для больших наборов данных — идентификатор версии или контрольная сумма.
+
+**Открытость с ответственностью.** Координаты уязвимых видов, персональные сведения и данные о критической инфраструктуре могут требовать ограничения доступа или пространственного обобщения. Следует объяснить, какие сведения не опубликованы и как это влияет на проверяемость результата.
+
+**Задание.** Подготовьте одностраничный паспорт условного исследования оползневой опасности: вопрос, данные, период, методы, версии инструментов, ограничения, меры защиты чувствительных данных и способ повторить ключевой анализ.
+
+A reproducible study allows another specialist to understand data provenance, decisions and the sequence used to produce a result. It does not always mean absolutely identical measurements: field conditions, data versions and software may differ.
+
+Minimum documentation includes the research question; study area and period; data sources and versions; observation-selection criteria; collection and processing methods; coordinate system and transformations; software versions; model parameters; uncertainty assessment; limitations; and ethical decisions.
+
+Keep original data separate from cleaned and derived layers. For every processing step, record what changed, why, which tool was used and with what parameters. Version control is useful for scripts and text; large datasets can be identified by a version or checksum.
+
+**Openness with responsibility.** Coordinates of vulnerable species, personal information and critical-infrastructure data may require restricted access or spatial aggregation. Explain which information is not published and how this affects verification.
+
+**Activity.** Prepare a one-page protocol for a hypothetical landslide-hazard study: question, data, period, methods, software versions, limitations, sensitive-data safeguards and steps needed to repeat the key analysis.
+
 ## 16.19. Итоги главы / Chapter Summary
 
 1. Географическое исследование проходит от постановки вопроса и сбора данных до анализа, интерпретации и представления результатов.
