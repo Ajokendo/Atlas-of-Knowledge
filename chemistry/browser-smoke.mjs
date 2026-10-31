@@ -709,6 +709,14 @@ try {
     }
 
     if (file === "chapters/chemistry-of-life.html") {
+      if (!(await page.locator("[data-i=lipidNote]").innerText()).includes("не образуют единого класса полимеров")) {
+        errors.push(file + ": Russian lipid note must distinguish lipids from polymer classes");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=lipidNote]").innerText()).includes("not one class of polymers")) {
+        errors.push(file + ": English lipid note must distinguish lipids from polymer classes");
+      }
+      await page.locator("#lang").click();
       await page.locator("#fraction").fill("0.042");
       await page.locator("#fraction").dispatchEvent("input");
       if ((await page.locator("#ppm").innerText()).replace(/\s/g, "") !== "420ppm" || !(await page.locator("[data-i=modelNote]").innerText()).includes("не текущие измерения")) {
