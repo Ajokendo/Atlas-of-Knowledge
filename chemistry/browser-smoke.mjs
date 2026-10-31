@@ -273,7 +273,10 @@ try {
           !(await page.locator("[data-i=enzymeNote]").innerText()).includes("temperature and pH")) {
         errors.push(file + ": English enzyme explanation lacks catalytic mechanism or condition caveat");
       }
-      if (await page.locator(".tile").count() !== 5) errors.push(file + ": expected five biomolecule/enzyme topic cards");
+      if (await page.locator(".tile").count() !== 6) errors.push(file + ": expected six biomolecule/water/enzyme topic cards");
+      if (!(await page.locator("[data-i=waterNote]").innerText()).includes("ковалентными связями O–H")) errors.push(file + ": Russian water note must distinguish hydrogen bonds from covalent O-H bonds");
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=waterNote]").innerText()).includes("covalent O–H bonds")) errors.push(file + ": English water note must distinguish hydrogen bonds from covalent O-H bonds");
     }
 
     if (file === "chapters/redox.html") {
