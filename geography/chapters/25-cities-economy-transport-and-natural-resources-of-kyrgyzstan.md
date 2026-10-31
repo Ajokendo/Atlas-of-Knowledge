@@ -289,6 +289,48 @@
 
 Индекс доступности должен учитывать не только наличие объекта, но и качество услуги, кадровое обеспечение, часы работы, стоимость и способность принять дополнительный спрос.
 
+### 25.10.1. Как измеряют доступность услуг по времени поездки / Measuring Access to Services by Travel Time
+
+Пространственная доступность — это возможность добраться до нужной услуги с учётом расстояния, дорожной сети, скорости движения, расписания транспорта, стоимости поездки и физических барьеров. Для горной страны расстояние по прямой особенно часто вводит в заблуждение: ущелье, река, перевал или отсутствие моста могут значительно удлинить маршрут.
+
+**Метод зоны охвата по времени.** Для каждого населённого пункта рассчитывают время поездки до объекта по транспортной сети. Затем определяют долю жителей, которые могут добраться до услуги, например, за 30, 60 или 90 минут. Порог выбирают исходя из типа услуги и целей исследования; 30 минут до районной больницы и 30 минут до специализированного центра — неравнозначные требования.
+
+**Метод количества возможностей.** Вместо поиска только ближайшего объекта можно подсчитать, сколько школ, медицинских учреждений, рабочих мест или рынков доступно в пределах заданного времени. При необходимости учитывают вместимость объектов и число людей, конкурирующих за услугу. Такой подход помогает отличить наличие одного перегруженного учреждения от реального выбора доступных услуг.
+
+**Пример.** В двух сёлах живёт по 1 000 человек. До ближайшей клиники из села A можно добраться за 20 минут, а из села B — за 55 минут. По показателю расстояния оба села имеют «клинику поблизости», но по времени доступа различаются существенно. Если зимой дорога к селу B закрывается на 20 дней, среднегодовая оценка должна отдельно отразить сезонную ненадёжность маршрута.
+
+**Практические ограничения:**
+- маршрутная сеть должна отражать реальные дороги, мосты, ограничения движения и сезонные закрытия;
+- скорость движения следует задавать по типу дороги и сезону, а не одним значением для всей страны;
+- пешая доступность, общественный транспорт и поездка на автомобиле дают разные результаты;
+- необходимо учитывать часы работы, кадровое обеспечение и пропускную способность услуги;
+- среднее время поездки может скрывать особенно плохую доступность для отдалённых домохозяйств;
+- результаты зависят от точности координат населённых пунктов и объектов.
+
+Для Кыргызстана особенно полезно строить отдельные сценарии для лета и зимы, а также учитывать закрытие перевалов, снежные заносы, сели, оползни и временное повреждение мостов. Карта доступности — модель при заданных условиях, а не гарантия фактического времени поездки в конкретный день.
+
+**Учебное задание.** Выберите район и один тип услуги, например больницу или среднюю школу. Сравните время поездки от нескольких сёл летом и зимой, используя дорожную сеть. Покажите долю населения в пределах выбранного порога и укажите, какие сведения о качестве услуги отсутствуют.
+
+Spatial accessibility is the ability to reach a service, taking account of distance, road networks, travel speed, public transport schedules, travel costs and physical barriers. In a mountainous country, straight-line distance can be particularly misleading: a gorge, river, mountain pass or missing bridge may greatly lengthen a journey.
+
+**Travel-time catchment method.** Calculate travel time from each settlement to a service using the transport network. Then estimate the share of residents who can reach the service within a chosen threshold, such as 30, 60 or 90 minutes. The threshold should reflect the service and research purpose; 30 minutes to a district hospital and 30 minutes to a specialised centre are not equivalent requirements.
+
+**Opportunity-count method.** Instead of considering only the nearest facility, count how many schools, healthcare facilities, jobs or markets can be reached within a specified time. Capacity and the number of people competing for a service can also be considered. This helps distinguish one overloaded facility from a genuine choice of accessible services.
+
+**Example.** Two villages each have 1,000 residents. The nearest clinic can be reached from Village A in 20 minutes and from Village B in 55 minutes. Both villages may appear to have a clinic “nearby” when measured by distance, but their travel-time accessibility differs substantially. If the road to Village B is closed for 20 days in winter, an annual assessment should separately account for seasonal unreliability.
+
+**Practical limitations:**
+- the network must represent actual roads, bridges, traffic restrictions and seasonal closures;
+- travel speeds should reflect road type and season rather than one national average;
+- walking, public transport and car travel produce different results;
+- opening hours, staffing and service capacity must be considered;
+- average travel time may conceal very poor access for remote households;
+- results depend on the accuracy of settlement and facility coordinates.
+
+For Kyrgyzstan, it is particularly useful to model separate summer and winter scenarios and account for pass closures, snowdrifts, debris flows, landslides and temporary bridge damage. An accessibility map is a model under stated conditions, not a guarantee of actual travel time on a particular day.
+
+**Learning activity.** Select a district and one service, such as a hospital or secondary school. Compare travel times from several villages in summer and winter using the road network. Show the share of the population within a chosen threshold and identify missing information about service quality.
+
 ## 25.11. Сценарии экономического и пространственного развития до 2035 года / Development Scenarios to 2035
 
 ### Сценарий 1. Инерционный рост
