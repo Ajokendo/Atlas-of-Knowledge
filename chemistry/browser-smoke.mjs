@@ -138,6 +138,16 @@ try {
     }
 
     if (file === "chapters/chemical-bonding.html") {
+      if (!(await page.locator("[data-i=polarityNote]").innerText()).includes("частичные заряды") ||
+          !(await page.locator("[data-i=polarityNote]").innerText()).includes("полного переноса электрона")) {
+        errors.push(file + ": Russian polarity note must distinguish partial charges from full electron transfer");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=polarityNote]").innerText()).includes("partial charges") ||
+          !(await page.locator("[data-i=polarityNote]").innerText()).includes("complete electron transfer")) {
+        errors.push(file + ": English polarity note must distinguish partial charges from full electron transfer");
+      }
+      await page.locator("#lang").click();
       if (!(await page.locator("[data-i=lead]").innerText()).includes("энергия системы") || !(await page.locator("[data-i=lead]").innerText()).includes("атомы или ионы")) {
         errors.push(file + ": Russian introduction should explain bonds between atoms or ions through system energy");
       }
