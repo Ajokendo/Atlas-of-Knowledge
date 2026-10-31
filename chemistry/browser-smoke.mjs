@@ -335,6 +335,12 @@ try {
       if ((await page.locator("#moles").innerText()).trim() !== "—" || (await page.locator("#count").innerText()).trim() !== "—" || !(await page.locator("#calcFeedback").innerText()).includes("диапазон")) {
         errors.push(file + ": particle-count overflow was not rejected with a clear message");
       }
+      await page.locator("#mass").fill("1e-100");
+      await page.locator("#molar").fill("1e308");
+      if ((await page.locator("#moles").innerText()).trim() !== "—" || !(await page.locator("#calcFeedback").innerText()).includes("диапазон")) {
+        errors.push(file + ": underflowed amount-of-substance result was not rejected");
+      }
+      await page.locator("#molar").fill("10");
       await page.locator("#mass").fill("");
       if ((await page.locator("#moles").innerText()).trim() !== "—" || !(await page.locator("#calcFeedback").innerText()).includes("Введите")) {
         errors.push(file + ": empty mass input retained or displayed a misleading result");
