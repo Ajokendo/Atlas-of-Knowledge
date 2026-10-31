@@ -29,6 +29,8 @@ const pages = [
 const browser = await chromium.launch({ headless: true });
 const errors = [];
 let languageChecks = 0;
+const checkedInternalLinks = new Set();
+const localOrigin = new URL(base).origin;
 try {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   let current = "";
@@ -40,6 +42,18 @@ try {
     if (!response || !response.ok()) {
       errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
       continue;
+    }
+
+    const hrefs = await page.locator("a[href]").evaluateAll(items => items.map(a => a.getAttribute("href")).filter(Boolean));
+    for (const href of hrefs) {
+      let target;
+      try { target = new URL(href, page.url()); } catch { continue; }
+      if (target.origin !== localOrigin || target.protocol !== "http:" && target.protocol !== "https:") continue;
+      target.hash = "";
+      if (checkedInternalLinks.has(target.href)) continue;
+      checkedInternalLinks.add(target.href);
+      const linkResponse = await page.request.get(target.href);
+      if (!linkResponse.ok()) errors.push(file + ": internal link returned HTTP " + linkResponse.status() + " (" + target.pathname + ")");
     }
 
     for (const width of [390, 768, 1280]) {
