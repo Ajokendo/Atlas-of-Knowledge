@@ -325,6 +325,24 @@ This is a simplified estimate of the direct effect of reduced electricity use. A
 
 Технологии сами по себе не гарантируют устойчивости. Их результат зависит от качества управления, доступности, экологической оценки и того, кому достаются выгоды и кто несёт издержки.
 
+### 13.13.1. Как читать экологическую оценку воздействия / Reading an Environmental Impact Assessment
+
+ОВОС выявляет и оценивает вероятные экологические и социальные последствия предлагаемого проекта до принятия решения. Это не гарантия отсутствия ущерба. Анализ должен включать исходное состояние территории, альтернативы (в том числе отказ от проекта), прямые, косвенные и кумулятивные воздействия, их длительность, обратимость и пространственный охват.
+
+**Иерархия мер:** сначала предотвращение воздействия, затем минимизация, восстановление и, если это оправдано и допустимо, компенсация. Компенсация не делает любой ущерб приемлемым, особенно если затронуты незаменимые местообитания или права людей. После мер снижения необходимо отдельно описать остаточное воздействие.
+
+При чтении отчёта проверьте качество исходных данных, сезонность обследований, рассмотрение альтернатив, участие местных сообществ, неопределённость, ответственных за мониторинг и измеримые показатели.
+
+**Задание.** Для условной дороги в горной долине составьте таблицу «этап — воздействие — затронутый объект — мера — показатель мониторинга». Укажите сезонные риски и группы населения, чьи интересы нужно учитывать.
+
+An Environmental Impact Assessment (EIA) identifies and evaluates likely environmental and social consequences of a proposed project before a decision is made. It does not guarantee that harm will be absent. The analysis should cover baseline conditions, alternatives (including the no-project option), direct, indirect and cumulative impacts, their duration, reversibility and spatial extent.
+
+**Mitigation hierarchy:** first avoid impacts, then minimise them, restore affected areas and, where justified and appropriate, compensate. Compensation does not make every impact acceptable, especially where irreplaceable habitats or people's rights are affected. Residual impacts should be described after mitigation.
+
+When reading a report, check baseline-data quality, seasonal coverage, alternatives, community participation, uncertainty, monitoring responsibilities and measurable indicators.
+
+**Activity.** For a hypothetical road in a mountain valley, prepare a table with project stage, impact, affected feature, measure and monitoring indicator. Identify seasonal risks and population groups whose interests must be considered.
+
 ## 13.16. Итоги главы / Chapter Summary
 
 1. Экология изучает взаимодействия организмов и среды, а экологическая география раскрывает пространственную сторону этих взаимодействий.
