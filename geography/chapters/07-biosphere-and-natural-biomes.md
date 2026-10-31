@@ -316,6 +316,28 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 Любое исследование требует корректного дизайна выборки, повторяемости, контроля сезонности и указания неопределённости. Отсутствие наблюдения не всегда доказывает отсутствие вида. Модели потенциального ареала показывают вероятную пригодность условий, а не гарантированное присутствие организма.
 
+### 7.15.1. Как оценивать результат восстановления экосистемы / Evaluating Ecosystem Restoration
+
+Посадка деревьев или восстановление растительного покрова сами по себе ещё не доказывают восстановление экосистемы. Результат оценивают относительно исходного состояния, экологических условий участка и реалистичной цели проекта. Историческое состояние не всегда возможно или желательно полностью восстановить, особенно если климат и землепользование изменились.
+
+**Что следует измерять:** выживаемость и естественное возобновление местных видов; структуру и разнообразие растительности; состояние почвы и водного режима; наличие инвазивных видов; связность местообитаний; признаки возвращения характерных животных. Для пастбищ важны также нагрузка скота, сезонность выпаса и состояние почвенного покрова.
+
+**Нужна исходная точка сравнения.** До начала работ фиксируют состояние участка и выбирают сопоставимые контрольные участки, если это возможно. Повторные наблюдения проводят в одинаковые сезоны и сходными методами. Краткосрочное увеличение зелёной массы не обязательно означает восстановление видового состава, почвенных функций или устойчивости к засухе.
+
+**Участие местных пользователей.** Меры восстановления должны учитывать права и практики пастбищепользователей, доступ к воде, хозяйственные потребности и местные знания. Иначе технически успешная посадка может оказаться нежизнеспособной или вызвать перенос нагрузки на соседние участки.
+
+**Учебное задание.** Предложите три показателя для оценки восстановления деградированного горного пастбища через один, три и пять лет. Для каждого укажите метод измерения, сезон, возможный источник ошибки и критерий, по которому можно судить об улучшении.
+
+Planting trees or increasing vegetation cover does not by itself demonstrate that an ecosystem has been restored. Outcomes must be assessed against the initial condition, the site's ecological context and a realistic project goal. It may not be possible or desirable to recreate a historical state fully, especially where climate and land use have changed.
+
+**What to measure:** survival and natural regeneration of native species; vegetation structure and diversity; soil and water conditions; presence of invasive species; habitat connectivity; and signs that characteristic animal species are returning. For rangelands, livestock pressure, grazing seasonality and ground cover are also important.
+
+**A baseline is essential.** Before work begins, document site conditions and, where possible, select comparable reference sites. Repeat observations in the same seasons using consistent methods. A short-term increase in green biomass does not necessarily indicate recovery of species composition, soil functions or drought resilience.
+
+**Involve local land users.** Restoration measures should account for the rights and practices of pastoral communities, water access, livelihood needs and local knowledge. Otherwise, a technically successful planting effort may fail or shift grazing pressure to neighbouring areas.
+
+**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. For each, state the measurement method, season, possible source of error and criterion that would indicate improvement.
+
 ## 7.16. Итоги главы / Chapter Summary
 
 1. Биосфера — глобальная область существования жизни и взаимодействия организмов с оболочками Земли.
