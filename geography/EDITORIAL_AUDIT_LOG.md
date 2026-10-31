@@ -442,3 +442,16 @@ This checkpoint preserves the working context for continuation after a session i
 - Sources checked: NSC count series https://stat.gov.kg/ru/opendata/category/854/ ; NSC area series https://stat.gov.kg/ru/opendata/category/302/ ; Ministry overview https://mnr.gov.kg/ru/page/gosudarstvennye-prirodnye-parki-zapovedniki-i-biosfernye-territorii-mpretn-kr ; UNDP 2025 biodiversity publication https://www.undp.org/kyrgyzstan/news/biodiversity-basis-sustainable-development-country .
 
 **Chapter 22 update commit:** `fe759d7e7a9a4e12799c56c32972c744ceb516db`.
+
+
+## Chapter 22 reserve, park and international-status profiles — 1 November 2026
+
+- Added English explanatory profiles for the principal state nature reserves: Sary-Chelek, Besh-Aral, Padysha-Ata, Naryn, Issyk-Kul and Karatal-Zhapyryk, with a note on Kulun-Ata and Surmatash.
+- Added English profiles for Ala-Archa, Kyrgyz-Ata, Karakol, Besh-Tash, Chon-Kemin, Saimaluu-Tash and Khan-Tengiri; clarified that older park lists and the Ministry's public overview are not a substitute for a current legal/cadastral register.
+- Added English explanations of UNESCO MAB biosphere-reserve functions and the Sary-Chelek and Issyk-Kul biosphere territories; added English summaries of the transboundary Western Tien-Shan World Heritage property and the three Ramsar wetlands named in the chapter.
+- Expanded the explanation of national legal categories to note state botanical gardens and dendrological/zoological parks, in addition to the landscape-scale categories discussed in the chapter.
+- Added a dated comparison note: the Ministry's 9 April 2024 release reported 10 reserves (509,952.7 ha), 13 parks (724,670.2 ha) and 64 sanctuaries (241,398.7 ha), with a 7.38% protected-area share. Its reserve-plus-park subtotal (1,234,622.9 ha) differs from the NSC 2025 area series (1,305,500 ha). The chapter now preserves the separate dates and attributions and explicitly states that the discrepancy is not reconciled by the public summary sources.
+- Updated the chapter text and re-fetched it from the target branch. Verified the English reserve, park, MAB and World Heritage/Ramsar profiles and the correct placement under their headings.
+- Sources: Ministry protected-area overview https://mnr.gov.kg/ru/page/gosudarstvennye-prirodnye-parki-zapovedniki-i-biosfernye-territorii-mpretn-kr ; Ministry's 9 April 2024 protected-area inventory https://mnr.gov.kg/en/posts/news/minprirody-provodit-rabotu-po-uveliceniyu-seti-osobo-oxranyaemyx-prirodnyx-territorii-do-10 ; Protected Areas Law (Law No. 18 of 3 May 2011, amended) https://prg.kz/document/?doc_id=30983414 ; NSC count series https://stat.gov.kg/ru/opendata/category/854/ ; NSC area series https://stat.gov.kg/en/opendata/category/302/ ; 2026 CBD National Report https://ort.cbd.int/national-reports/nr7/2183E018-5EB6-CF13-E45A-95A7680BA4C5 .
+
+**Chapter 22 profile expansion commits:** `e93136ea8c703c3ee73fc30a757b5eb62238c781`, `bd837269d31026c2d3d1e69531366390cdab686a`.
