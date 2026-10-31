@@ -437,6 +437,28 @@ A reduction in forest area alone does not prove that floods will necessarily bec
 
 ---
 
+### 2.14.2. Как распознавать обратные связи в природной системе / Recognising Feedbacks in a Natural System
+
+Обратная связь возникает, когда изменение одного компонента системы влияет на другие компоненты, а их ответ затем усиливает или ослабляет исходное изменение. **Положительная обратная связь** усиливает первоначальное воздействие; **отрицательная** противодействует ему и может стабилизировать систему. Эти термины описывают направление эффекта, а не оценку «хорошо» или «плохо».
+
+**Пример положительной обратной связи:** потепление уменьшает площадь снежного покрова; более тёмная поверхность отражает меньше солнечной энергии; поглощение энергии возрастает и способствует дальнейшему нагреву. Сила эффекта зависит от сезона, облачности, высоты и свойств поверхности.
+
+**Пример отрицательной обратной связи:** увеличение испарения может способствовать облакообразованию; облака способны уменьшать поступление солнечной радиации к поверхности, но одновременно влияют на удержание тепла. Итог зависит от типа облаков, времени суток и сезона.
+
+При анализе схемы обозначьте переменные и направление причинных связей, отметьте задержки во времени, различайте корреляцию и доказанный механизм, укажите внешние факторы. Схема не заменяет измерения и модель.
+
+**Задание.** Постройте причинную схему «снег — альбедо — поглощение солнечной энергии — температура». Обозначьте знак каждой связи и объясните, какие данные нужны для оценки силы обратной связи в конкретном горном районе.
+
+A feedback occurs when a change in one component of a system affects other components, whose response then amplifies or weakens the initial change. **Positive feedback** amplifies the initial influence; **negative feedback** counteracts it and may stabilise the system. These terms describe the direction of an effect, not whether it is good or bad.
+
+**Positive feedback example:** warming reduces snow cover; the darker surface reflects less solar energy; energy absorption increases and contributes to further warming. The strength depends on season, cloud cover, elevation and surface properties.
+
+**Negative feedback example:** increased evaporation may support cloud formation; clouds can reduce incoming solar radiation at the surface but also affect heat retention. The net effect depends on cloud type, time of day and season.
+
+When analysing a diagram, identify variables and causal links, note time lags, distinguish correlation from an established mechanism, and identify external factors. A diagram does not replace measurements or a model.
+
+**Activity.** Draw a causal diagram linking snow cover, albedo, absorbed solar energy and temperature. Mark the sign of each link and explain what data are needed to estimate feedback strength in a particular mountain area.
+
 ## 2.15. Итоговая модель географической оболочки / Integrated Model
 
 Географическая оболочка — сложная природная система, в которой взаимодействуют вещество, энергия, живые организмы и геологические процессы.
