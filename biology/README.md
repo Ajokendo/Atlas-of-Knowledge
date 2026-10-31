@@ -559,3 +559,10 @@ The score should increase only when evidence for the relevant checklist items is
 - Added `IMAGE_GENERATION_PLAN.md` as the central 52-item production checklist. It records each image's placement and subject, plus scientific review, taxonomic verification, accessibility and integration rules.
 - The Issyk-Kul and mountain-river freshwater illustration is explicitly marked; its fish must be limited to verified local taxa and must not contain invented labels or unsupported species.
 - All markers currently have status `planned`. No images are claimed as generated or integrated in this update.
+
+## Illustration-plan integrity audit — 1 November 2026
+- Audited the in-page image briefs against the central `IMAGE_GENERATION_PLAN.md` checklist across the landing page and all 12 chapter pages.
+- Confirmed 52 planned markers on 13 pages, 52 unique marker IDs, 52 central checklist entries, and a matching Russian title plus bilingual brief for every marker. No missing marker-to-checklist matches were found in the remote file contents.
+- Added regression assertions to `checks.mjs` for the expected marker count, unique IDs, bilingual title/brief structure, checklist synchronization, and scientific production safeguards.
+- Confirmed the marker stylesheet switches Russian/English text using the same `html[lang="en"]` convention already used by the Biology pages.
+- These were remote content and structural checks only. The local `checks.mjs` script and CI were not executed; no test pass is claimed. All 52 illustrations remain planned and none is represented as generated or integrated.
