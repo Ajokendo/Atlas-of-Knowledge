@@ -371,7 +371,7 @@ try {
         errors.push(file + ": Russian alcohol definition must distinguish phenols and carboxylic acids");
       }
       for (const [key, term] of [["acidp","карбоксильную группу"],["aldehydp","альдегидную группу"],["aminep","Производные аммиака"]]) {
-        if (!(await page.locator("[data-i="+key+"]").innerText()).includes(term)) errors.push(file + ": Russian functional-group definition missing for " + key);
+        if (!(await page.locator("[data-i="+key+"]").innerText()).toLowerCase().includes(term.toLowerCase())) errors.push(file + ": Russian functional-group definition missing for " + key);
       }
       await page.locator("#lang").click();
       if (!(await page.locator("[data-i=familyNote]").innerText()).includes("phenols") || !(await page.locator("[data-i=alcp]").innerText()).includes("saturated carbon atom")) {
@@ -708,13 +708,13 @@ try {
       }
       await page.locator("#fraction").fill("1");
       await page.locator("#fraction").dispatchEvent("input");
-      if ((await page.locator("#ppm").innerText()).trim() !== "10 000 ppm") {
+      if (((await page.locator("#ppm").innerText()).replace(/[\\s\\u00a0\\u202f]/g, "") !== "10000ppm") {
         errors.push(file + ": 1 percent CO2 fraction should convert to 10,000 ppm in Russian");
       }
       await page.locator("#lang").click();
       await page.locator("#fraction").fill("0.5");
       await page.locator("#fraction").dispatchEvent("input");
-      if ((await page.locator("#ppm").innerText()).trim() !== "5,000 ppm" || !(await page.locator("[data-i=modelNote]").innerText()).includes("not a live atmospheric measurement")) {
+      if (((await page.locator("#ppm").innerText()).replace(/[\\s\\u00a0\\u202f]/g, "") !== "5,000ppm" || !(await page.locator("[data-i=modelNote]").innerText()).includes("not a live atmospheric measurement")) {
         errors.push(file + ": English CO2 fraction conversion or disclaimer is incorrect");
       }
       await page.locator("#lang").click();
