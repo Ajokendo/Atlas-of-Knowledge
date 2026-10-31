@@ -1107,8 +1107,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 100) {
-        errors.push(file + ": expected 100 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 102) {
+        errors.push(file + ": expected 102 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1211,6 +1211,10 @@ try {
       await page.locator("#search").fill("precipitation");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Precipitation")) {
         errors.push(file + ": glossary search did not find the precipitation definition");
+      }
+      await page.locator("#search").fill("complementary base pairing");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Complementary base pairing")) {
+        errors.push(file + ": glossary search did not find the complementary-base-pairing definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
