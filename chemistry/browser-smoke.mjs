@@ -777,8 +777,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 42) {
-        errors.push(file + ": expected 42 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 50) {
+        errors.push(file + ": expected 50 bilingual chemistry glossary entries");
       }
       await page.locator("#search").fill("лимитирующий реагент");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Реагент")) {
@@ -798,6 +798,18 @@ try {
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
         errors.push(file + ": English glossary is missing the relative atomic mass definition");
+      }
+      await page.locator("#search").fill("activation energy");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("energy barrier")) {
+        errors.push(file + ": English glossary is missing the activation-energy definition");
+      }
+      await page.locator("#search").fill("chemical equilibrium");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("forward and reverse reaction rates are equal")) {
+        errors.push(file + ": English glossary is missing the dynamic-equilibrium definition");
+      }
+      await page.locator("#search").fill("буферный раствор");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("изменению pH")) {
+        errors.push(file + ": Russian glossary is missing the buffer-solution definition");
       }
       await page.locator("#search").fill("массовое число");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("протонов и нейтронов")) {
