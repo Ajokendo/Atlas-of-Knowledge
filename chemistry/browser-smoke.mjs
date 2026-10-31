@@ -387,6 +387,14 @@ try {
     }
 
     if (file === "chapters/chemical-reactions.html") {
+      if (!(await page.locator("[data-i=classificationNote]").innerText()).includes("не полный перечень") || !(await page.locator("[data-i=chargeNote]").innerText()).includes("электрический заряд")) {
+        errors.push(file + ": Russian notes must explain overlapping reaction classes and charge conservation");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=classificationNote]").innerText()).includes("not an exhaustive list") || !(await page.locator("[data-i=chargeNote]").innerText()).includes("total electric charge")) {
+        errors.push(file + ": English notes must explain overlapping reaction classes and charge conservation");
+      }
+      await page.locator("#lang").click();
       await page.locator("#answer").selectOption("2,1,2");
       await page.locator("#check").click();
       if (!(await page.locator("#feedback").innerText()).includes("Верно")) {
