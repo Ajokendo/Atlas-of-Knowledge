@@ -431,8 +431,8 @@ try {
         errors.push(file + ": isotope selector labels are not localized in Russian");
       }
       if (!(await page.locator("[data-i=isotopicAverage]").innerText()).includes("взвешенное среднее") || !(await page.locator("[data-i=isotopicAverage]").innerText()).includes("сумма всех долей равна 1")) errors.push(file + ": Russian isotope-abundance note must describe a weighted mean");
-      if (!(await page.locator("[data-i=isotopicAverage]").innerText()).includes("weighted mean") || !(await page.locator("[data-i=isotopicAverage]").innerText()).includes("sum to 1")) errors.push(file + ": English isotope-abundance note must describe a weighted mean");
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=isotopicAverage]").innerText()).includes("weighted mean") || !(await page.locator("[data-i=isotopicAverage]").innerText()).includes("sum to 1")) errors.push(file + ": English isotope-abundance note must describe a weighted mean");
       const englishLabels = await isotopeButtons.allInnerTexts();
       if (JSON.stringify(englishLabels) !== JSON.stringify(["Carbon-12", "Carbon-13", "Carbon-14"])) {
         errors.push(file + ": isotope selector labels are not localized in English");
