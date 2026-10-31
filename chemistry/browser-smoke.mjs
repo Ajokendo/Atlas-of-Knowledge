@@ -268,6 +268,14 @@ try {
     }
 
     if (file === "chapters/acids-and-bases.html") {
+      if (!(await page.locator("[data-i=note]").innerText()).includes("при 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("другой температуре")) {
+        errors.push(file + ": Russian pH note must qualify the neutral point by temperature");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("[data-i=note]").innerText()).includes("at 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("other temperatures")) {
+        errors.push(file + ": English pH note must qualify the neutral point by temperature");
+      }
+      await page.locator("#lang").click();
       const ph = page.locator("#ph");
       const value = page.locator("#value");
       if (await ph.getAttribute("min") !== "0" || await ph.getAttribute("max") !== "14" ||
