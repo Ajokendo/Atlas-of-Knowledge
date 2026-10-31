@@ -819,6 +819,20 @@ try {
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("изменению pH")) {
         errors.push(file + ": Russian glossary is missing the buffer-solution definition");
       }
+      await page.locator("#search").fill("activation energy");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("energy barrier")) {
+        errors.push(file + ": English glossary is missing the activation-energy definition");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#search").fill("энергия активации");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Энергетический барьер")) {
+        errors.push(file + ": Russian glossary is missing the activation-energy definition");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#search").fill("empirical formula");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("simplest whole-number ratio")) {
+        errors.push(file + ": English glossary is missing the empirical-formula definition");
+      }
       await page.locator("#search").fill("массовое число");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("протонов и нейтронов")) {
         errors.push(file + ": Russian glossary is missing the mass-number definition");
