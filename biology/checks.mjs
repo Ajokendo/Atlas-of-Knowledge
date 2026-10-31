@@ -58,6 +58,11 @@ for (const chapter of coreChapters) {
   if (!/<span\s+class=["'][^"']*\bru\b/i.test(match[1])) errors.push("chapters/" + chapter + ": references missing Russian description");
   if (!/<span\s+class=["'][^"']*\ben\b/i.test(match[1])) errors.push("chapters/" + chapter + ": references missing English description");
 }
+const floraKyrgyzstanFile = fs.readFileSync(path.join(root, "chapters", "flora-kyrgyzstan.html"), "utf8");
+if (!floraKyrgyzstanFile.includes("4 043 видов") || !floraKyrgyzstanFile.includes("4,043 species")) errors.push("chapters/flora-kyrgyzstan.html: the 2025 national vascular-plant total must be stated bilingually and with its scope");
+if (!floraKyrgyzstanFile.includes("Sennikov и соавторов (2025)") || !floraKyrgyzstanFile.includes("Sennikov and colleagues (2025)") || !floraKyrgyzstanFile.includes("doi.org/10.1002/njb.04731")) errors.push("chapters/flora-kyrgyzstan.html: the dated 2025 peer-reviewed vascular-flora checklist must be attributed and linked");
+if (!floraKyrgyzstanFile.includes("не число всех организмов") || !floraKyrgyzstanFile.includes("not a count of all organisms") || !floraKyrgyzstanFile.includes("гербарные находки") || !floraKyrgyzstanFile.includes("herbarium records")) errors.push("chapters/flora-kyrgyzstan.html: the vascular-plant count must retain its scope and revision caveats");
+
 const ecologyFile = fs.readFileSync(path.join(root, "chapters", "ecology.html"), "utf8");
 const chainButtons = [...ecologyFile.matchAll(/<button\b[^>]*data-chain="[^"]+"[^>]*>/gi)];
 if (chainButtons.length !== 5) errors.push("chapters/ecology.html: expected five food-chain controls");
