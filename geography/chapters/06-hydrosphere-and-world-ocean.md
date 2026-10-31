@@ -380,6 +380,32 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 
 **Место для иллюстрации 6.17-A — Climate Change and the Water Cycle.** Причинно-следственная схема влияния потепления на снег, ледники, испарение, осадки, сток и экстремальные гидрологические явления.
 
+### 6.16.1. Как составить простой водный баланс водосбора / Building a Simple Catchment Water Balance
+
+Для водосбора за выбранный период можно представить упрощённый баланс:
+
+`Изменение запасов = осадки − испарение и транспирация − сток`
+
+Все компоненты должны относиться к одной территории, одному периоду и быть выражены в согласованных единицах — например, в миллиметрах слоя воды. Если учитываются подземный приток, водозабор, переброска воды или изменение запасов в водохранилище, их добавляют отдельными членами баланса с правильным знаком.
+
+**Учебный пример.** За год на водосбор выпало 600 мм осадков, оценённое суммарное испарение и транспирация составили 350 мм, а сток на выходе — 220 мм. Остаток баланса равен 30 мм. Его нельзя автоматически объявлять ошибкой измерений или новым запасом воды: он может отражать изменение запасов в почве, снегу, ледниках, озёрах и подземных водах, неучтённые потоки, а также погрешности оценок.
+
+**Практическая последовательность:** очертить границу водосбора; определить период; собрать осадки и расход воды; оценить эвапотранспирацию подходящим методом; учесть снегозапасы, ледники, водохранилища и водозаборы; рассчитать остаток и обсудить неопределённость. В горных районах Кыргызстана особенно важно не считать снег и ледниковый лёд неизменными запасами: их накопление и таяние меняются по сезонам и годам.
+
+**Задание.** Рассчитайте остаток баланса для приведённых данных и перечислите не менее четырёх возможных причин его ненулевого значения. Объясните, почему баланс за один год не обязательно характеризует долгосрочное состояние водосбора.
+
+For a catchment over a selected period, a simplified water balance can be written as:
+
+`Change in storage = precipitation − evapotranspiration − runoff`
+
+All components must refer to the same area and period and use consistent units, such as millimetres of water. If groundwater inflow, water abstraction, transfers or reservoir-storage changes are included, add them as separate terms with the appropriate sign.
+
+**Worked example.** Annual precipitation over a catchment is 600 mm, estimated evapotranspiration is 350 mm, and runoff at the outlet is 220 mm. The balance residual is 30 mm. It should not automatically be labelled a measurement error or a new water store: it may reflect changes in soil moisture, snow, glaciers, lakes and groundwater, unaccounted flows, or uncertainty in the estimates.
+
+**Practical sequence:** delineate the catchment; define the period; collect precipitation and streamflow data; estimate evapotranspiration with an appropriate method; account for snow storage, glaciers, reservoirs and abstractions; calculate the residual and discuss uncertainty. In the mountains of Kyrgyzstan, snow and glacier ice must not be treated as constant stores: accumulation and melting vary by season and year.
+
+**Activity.** Calculate the residual from the data above and list at least four possible reasons why it is not zero. Explain why a one-year balance does not necessarily describe the long-term condition of a catchment.
+
 ## Итоги главы / Chapter Summary
 
 1. Гидросфера включает океанические, поверхностные, подземные, атмосферные и замёрзшие воды.
