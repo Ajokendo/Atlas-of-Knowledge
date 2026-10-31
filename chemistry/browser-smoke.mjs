@@ -229,10 +229,16 @@ try {
           !(await page.locator("[data-i=carbonylNote]").innerText()).includes("внутри цепи")) {
         errors.push(file + ": Russian explanation does not distinguish aldehydes from ketones");
       }
+      if (!(await page.locator("[data-i=aromaticityNote]").innerText()).includes("4n + 2 π-электронов") || !(await page.locator("[data-i=aromaticityNote]").innerText()).includes("антиароматичны")) {
+        errors.push(file + ": Russian aromaticity note must state the Hückel electron-count rule and its antiaromatic counterpart");
+      }
       await page.locator("#lang").click();
       if (!(await page.locator("[data-i=carbonylNote]").innerText()).includes("at the end of the chain") ||
           !(await page.locator("[data-i=carbonylNote]").innerText()).includes("within the chain")) {
         errors.push(file + ": English explanation does not distinguish aldehydes from ketones");
+      }
+      if (!(await page.locator("[data-i=aromaticityNote]").innerText()).includes("4n + 2 π electrons") || !(await page.locator("[data-i=aromaticityNote]").innerText()).includes("antiaromatic")) {
+        errors.push(file + ": English aromaticity note must state the Hückel electron-count rule and its antiaromatic counterpart");
       }
       if (!(await page.locator("[data-i=arenesText]").innerText()).includes("delocalised")) {
         errors.push(file + ": English aromaticity note must refer to a delocalised pi system");
