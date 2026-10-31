@@ -157,6 +157,32 @@ The territory is the outcome of a long geological history. Ancient continental b
 
 Сейсмическая опасность (вероятность сильного сотрясения) и сейсмический риск (возможные потери) — разные понятия. Карта опасности не является точным прогнозом даты и места будущего землетрясения.
 
+### 17.8.1. Практический пример: почему сейсмическая опасность не равна риску / Worked Example: Why Seismic Hazard Is Not the Same as Risk
+
+Рассмотрим два условных населённых пункта, расположенных в районах с одинаковой оценкой вероятности сильного сотрясения. В первом пункте здания в основном рассчитаны на сейсмические нагрузки, население обучено действиям при землетрясении, а больница и основные дороги имеют резервные решения. Во втором пункте много уязвимых зданий, плотная застройка и ограниченные возможности экстренного реагирования.
+
+**Сейсмическая опасность** в этом упрощённом сравнении одинакова, но потенциальные последствия различаются. Во втором пункте ожидаемые потери могут быть выше из-за большей уязвимости зданий, концентрации людей и меньшей готовности инфраструктуры. Следовательно, снижение риска требует не только изучения разломов и вероятных сотрясений, но и укрепления зданий, соблюдения строительных норм, планирования эвакуации, подготовки населения и обеспечения устойчивости критической инфраструктуры.
+
+Для учебного анализа можно использовать качественную схему:
+
+**Риск = опасное воздействие × подверженность × уязвимость.**
+
+Это концептуальная модель, а не универсальная формула для расчёта денежных потерь или вероятности жертв. В профессиональной оценке применяются специальные модели, сценарии, данные о грунтах, зданиях, населении и неопределённостях. Нельзя по этой схеме предсказывать дату землетрясения или утверждать, что конкретное место безопасно.
+
+**Задание:** выберите два условных района с одинаковой сейсмической опасностью. Составьте перечень факторов, которые могут сделать риск в одном районе выше, и предложите три меры его снижения.
+
+Consider two hypothetical settlements located in areas with the same estimated likelihood of strong ground shaking. In the first, most buildings are designed to withstand seismic loads, residents know what to do during an earthquake, and the hospital and main roads have contingency arrangements. In the second, many buildings are vulnerable, development is dense, and emergency response capacity is limited.
+
+**Seismic hazard** is the same in this simplified comparison, but the potential consequences differ. Expected losses may be greater in the second settlement because buildings are more vulnerable, more people are concentrated in the affected area, and infrastructure is less prepared. Reducing risk therefore requires more than studying faults and likely ground motions: it also requires strengthening buildings, enforcing construction standards, planning evacuation, preparing communities and improving the resilience of critical infrastructure.
+
+A qualitative framework for learning is:
+
+**Risk = hazardous event or impact × exposure × vulnerability.**
+
+This is a conceptual model, not a universal formula for calculating monetary losses or the probability of casualties. Professional assessments use specialised models and scenarios, together with information about soils, buildings, population and uncertainty. This framework cannot predict when an earthquake will occur or establish that a particular place is safe.
+
+**Activity:** choose two hypothetical districts with the same seismic hazard. List factors that could make risk higher in one district and suggest three risk-reduction measures.
+
 ## 17.9. Формирование современного рельефа / Formation of the Modern Relief
 
 Современный рельеф создаётся взаимодействием эндогенных и экзогенных процессов.
