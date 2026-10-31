@@ -571,3 +571,11 @@ The score should increase only when evidence for the relevant checklist items is
 ## Image production priority audit (2026-11-01)
 
 A first-pass review of the 13 pages carrying the 52 planned illustration briefs found 16 existing SVG plates. The image register is being prioritized by incremental learning value: P1 for regional biodiversity and organism portraits not already shown; P2 for useful complementary explanatory visuals; P3 where an existing SVG or interactive element already covers much of the same concept. This prioritization does not mean any image has been generated, scientifically approved or integrated. The inventory and priorities require regression validation before the next readiness milestone.
+
+
+## Image placeholders and exact insertion map — 1 November 2026
+
+- All 52 planned illustration notes now show their P1/P2/P3 priority, exact insertion position, target WebP filename under `biology/images/generated/`, and composition ratio (4:3 or 16:9).
+- Added `IMAGE_INSERTION_MAP.md`, a bilingual production hand-off listing all 52 anchor IDs, page locations, priorities, target files, aspect ratios and concise image briefs. The instruction is to replace each note at that exact location with a semantic figure after approval.
+- Updated `checks.mjs` to verify the per-page asset path/ratio and priority, and to check all 52 unique anchors against the central insertion map.
+- These are planning placeholders, not generated assets. No image has been claimed as created, scientifically reviewed or integrated. The local checks script and CI have not been run in this session.
