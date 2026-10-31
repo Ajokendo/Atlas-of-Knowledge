@@ -251,6 +251,33 @@ Classification depends on the actual mechanism and measured outcome. For example
 
 **Conclusion:** mitigation primarily addresses the causes of climate change, while adaptation addresses vulnerability and impacts. In practice, the approaches complement one another, but neither replaces the other.
 
+
+### 13.12.2. Разобранный пример: оценка сокращения выбросов / Worked Example: Estimating an Emissions Reduction
+
+Предположим, муниципальные здания потребляли за год 1 000 МВт·ч электроэнергии. Для учебного расчёта примем условный коэффициент выбросов энергосистемы 0,40 т CO₂-экв. на 1 МВт·ч. Исходные выбросы составят:
+
+1 000 × 0,40 = **400 т CO₂-экв. в год**.
+
+После установки оборудования и управления энергопотреблением расход снизился до 700 МВт·ч. При неизменном коэффициенте выбросов расчётные выбросы равны:
+
+700 × 0,40 = **280 т CO₂-экв. в год**.
+
+Расчётное сокращение — 400 − 280 = **120 т CO₂-экв.**, или 120 / 400 × 100 = **30%**.
+
+Это упрощённая оценка прямого эффекта изменения потребления электроэнергии. Для достоверного отчёта необходимо использовать подходящий коэффициент выбросов и одинаковые границы учёта, учитывать погодные условия, изменения площади и режима использования зданий, а также возможное перемещение выбросов в другие части жизненного цикла. Если меняется структура генерации электроэнергии, коэффициент выбросов также может измениться.
+
+Assume municipal buildings used 1,000 MWh of electricity in one year. For this classroom calculation, use a hypothetical grid emission factor of 0.40 tonnes of CO₂-equivalent per MWh. Baseline emissions are:
+
+1,000 × 0.40 = **400 tonnes of CO₂-equivalent per year**.
+
+After equipment upgrades and energy-management measures, electricity use falls to 700 MWh. If the emission factor remains unchanged, estimated emissions are:
+
+700 × 0.40 = **280 tonnes of CO₂-equivalent per year**.
+
+The estimated reduction is 400 − 280 = **120 tonnes of CO₂-equivalent**, or 120 / 400 × 100 = **30%**.
+
+This is a simplified estimate of the direct effect of reduced electricity use. A reliable report must use an appropriate emission factor and consistent accounting boundaries, account for weather and changes in building area or use, and consider possible shifts in emissions elsewhere in the life cycle. If the electricity-generation mix changes, the emission factor may also change.
+
 ## 13.13. Экологическая оценка и мониторинг / Environmental Assessment and Monitoring
 
 Экологический мониторинг — систематическое наблюдение за состоянием природных компонентов и воздействиями на них. Он включает полевые измерения, лабораторные анализы, спутниковые наблюдения, датчики, статистику и общественные наблюдения.
