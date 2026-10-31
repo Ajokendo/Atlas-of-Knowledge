@@ -455,3 +455,14 @@ This checkpoint preserves the working context for continuation after a session i
 - Sources: Ministry protected-area overview https://mnr.gov.kg/ru/page/gosudarstvennye-prirodnye-parki-zapovedniki-i-biosfernye-territorii-mpretn-kr ; Ministry's 9 April 2024 protected-area inventory https://mnr.gov.kg/en/posts/news/minprirody-provodit-rabotu-po-uveliceniyu-seti-osobo-oxranyaemyx-prirodnyx-territorii-do-10 ; Protected Areas Law (Law No. 18 of 3 May 2011, amended) https://prg.kz/document/?doc_id=30983414 ; NSC count series https://stat.gov.kg/ru/opendata/category/854/ ; NSC area series https://stat.gov.kg/en/opendata/category/302/ ; 2026 CBD National Report https://ort.cbd.int/national-reports/nr7/2183E018-5EB6-CF13-E45A-95A7680BA4C5 .
 
 **Chapter 22 profile expansion commits:** `e93136ea8c703c3ee73fc30a757b5eb62238c781`, `bd837269d31026c2d3d1e69531366390cdab686a`.
+
+
+## Chapter 23 bilingual population and settlement expansion — 1 November 2026
+
+- Added English explanatory counterparts to sections 23.1–23.7: population geography and key definitions; national population dynamics; spatial distribution and density; urban/rural settlement; regional population distribution; age and sex structure; and ethnic and linguistic diversity.
+- Reproduced the chapter's NSC figures in the English text with their reference dates: 7.404 million permanent residents on 1 January 2026; urban/rural shares of 42.3%/57.7%; regional population table totalling 7,404.3 thousand; and sex composition of approximately 49.5% men and 50.5% women. Census ethnic shares are explicitly tied to the 2022 census.
+- Updated the Russian city list to use **Manas (formerly Jalal-Abad)** in accordance with Law No. 200 of 17 September 2025 and added the direct Ministry of Justice legal-database reference. The region continues to be named Jalal-Abad Region; the city and region are not conflated.
+- Re-fetched the chapter after both updates and verified the new English section blocks, regional table, 2022 census caveat, Manas city name and legal reference.
+- Source for the city renaming: https://cbd.minjust.gov.kg/4-5636/edition/36959/ru . Demographic source series and census references remain listed in section 23.19.
+
+**Chapter 23 commits:** `3062d8a2b75e6fa045df37cc4500669fa3648beb`, `0bec30c3a0aa4d7384cd222ed965673acc7fda8f`.
