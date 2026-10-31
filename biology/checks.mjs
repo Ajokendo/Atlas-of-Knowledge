@@ -157,6 +157,21 @@ if (!faunaKyrgyzstanFile.includes("четыре полевых сезона 2016
 if (!faunaKyrgyzstanFile.includes("Ursus arctos isabellinus") || !faunaKyrgyzstanFile.includes("Mammal Diversity Database") || !faunaKyrgyzstanFile.includes("not treat Central Asian brown bear forms uniformly")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Tian Shan brown bear subspecies designation must remain qualified");
 }
+if (!faunaKyrgyzstanFile.includes("Coregonus lavaretus") || !faunaKyrgyzstanFile.includes("Coregonus peled") || !faunaKyrgyzstanFile.includes("Triplophysa stoliczkae")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul fish account must retain the 2021–2023 field-study taxa");
+}
+if (!faunaKyrgyzstanFile.includes("2004–2005 годов") || !faunaKyrgyzstanFile.includes("описан как озеро без рыб") || !faunaKyrgyzstanFile.includes("described as fishless")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: fishless Chatyr-Kul and fish-bearing Son-Kul distinction must remain explicit");
+}
+if (!faunaKyrgyzstanFile.includes("не превращать в актуальную оценку численности") || !faunaKyrgyzstanFile.includes("must not be converted into a current abundance estimate")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul fish-stock findings must retain their historical monitoring scope");
+}
+if (!faunaKyrgyzstanFile.includes("105 519 га") || !faunaKyrgyzstanFile.includes("4 вида пресмыкающихся") || !faunaKyrgyzstanFile.includes("1 вид земноводных") || !faunaKyrgyzstanFile.includes("not as a complete inventory newly verified in 2026")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Naryn reserve taxonomic inventory must retain its source date and completeness caveat");
+}
+if (!faunaKyrgyzstanFile.includes("14 июля 2026 года") || !faunaKyrgyzstanFile.includes("21 сентября 2026 года") || !faunaKyrgyzstanFile.includes("not evidence of an increase in bird numbers")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: 2026 Karatal-Japyryk bird expedition and Son-Kul observation structure must be accurately qualified");
+}
 if (!faunaKyrgyzstanFile.includes("Cervus canadensis songaricus") || !faunaKyrgyzstanFile.includes("Cervus elaphus songaricus") || !faunaKyrgyzstanFile.includes("C. c. sibiricus") || !faunaKyrgyzstanFile.includes("NCBI Taxonomy")) {
   errors.push("chapters/fauna-kyrgyzstan.html: maral nomenclature must document the NCBI synonym and the competing IUCN/CAMCA subspecies treatment");
 }
