@@ -1036,8 +1036,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 68) {
-        errors.push(file + ": expected 68 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 73) {
+        errors.push(file + ": expected 73 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1076,6 +1076,10 @@ try {
       await page.locator("#search").fill("electrolysis");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Electrolysis")) {
         errors.push(file + ": glossary search did not find the electrolysis definition");
+      }
+      await page.locator("#search").fill("solubility product");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Solubility product")) {
+        errors.push(file + ": glossary search did not find the solubility-product definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
