@@ -974,6 +974,22 @@ The overall average therefore hides a strong contrast between a densely populate
 9. **Сельское и сезонное расселение.** Иллюстрация долинного села, горных поселений и сезонной стоянки на джайлоо; не путать сезонную стоянку с постоянным населённым пунктом.
 10. **Демография и природные риски.** Карта наложения поселений на зоны сейсмической, селевой, оползневой и лавинной опасности; источники опасностей и масштабы карт должны быть обозначены.
 
+### English visual briefs
+
+**Overall visual standard:** a premium scientific encyclopaedia style using dark blue, white and restrained gold accents. Every statistical visual must show its reference date, units, source and methodological note. Administrative maps must use the official boundary version for the stated date.
+
+1. **Population-density map of Kyrgyzstan.** Show distribution by district or айылный аймак where comparable data are available; distinguish valleys from sparsely populated high mountains.
+2. **Population dynamics.** A line chart from census dates to 2026, using different markers for censuses and annual estimates.
+3. **Regional distribution on 1 January 2026.** A bar chart for the seven regions and two cities of republican significance, in thousands of people.
+4. **Age-sex pyramid.** Use 2022 census data; age bands and male/female shares must match the source table.
+5. **Urban and rural population.** Compare shares over time and state the administrative definition of urban population.
+6. **Main cities and settlement map.** Include Bishkek, Osh, Manas, Karakol, Tokmok, Kara-Balta, Naryn, Talas, Batken and other regional centres; scale symbols only to verified population values.
+7. **Migration flows.** Map internal movement towards Bishkek and Osh and international labour migration. Use proportional flow widths only when quantitative data support them.
+8. **Bishkek agglomeration.** Show the urban core, suburbs, main transport axes and built-up expansion; define the agglomeration boundary using a stated method.
+9. **Rural and seasonal settlement.** Illustrate a valley village, mountain settlements and a seasonal jailoo camp; do not depict a seasonal camp as a permanent settlement.
+10. **Demography and natural hazards.** Overlay settlements with seismic, debris-flow, landslide and avalanche hazard zones, identifying data sources and map scales.
+
+
 ## 23.18. Научные и редакционные примечания
 ## Scientific and Editorial Notes
 
