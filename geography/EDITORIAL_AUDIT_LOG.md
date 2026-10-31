@@ -312,3 +312,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Clarified that these are recorded annual flows, not an estimate of the country's total renewable water resources.
 - Preserved UNEP's 70% pasture-degradation figure as an aggregated international estimate, not a parcel-by-parcel national field survey.
 - Source: NSC open data, Protection and Rational Use of Water Resources: https://stat.gov.kg/en/opendata/category/3216/
+
+
+## Follow-up bilingual development — Chapter 26, forests and air quality (1 November 2026)
+
+- Added English counterparts to sections 26.5 (forests and biodiversity) and 26.6 (air quality and public health).
+- Preserved the warning that UNEP's forest-cover series (2000–2023) and the UN SDG forest-area series (1990–2025) use different methods and must not be joined without harmonisation.
+- Translated the Kyrgyzhydromet August 2026 air-quality figures with the correct caveat that the stationary-post data covered only the first ten days during modernisation; they are not annual averages or a measure of the winter pollution peak.
+- Defined MPC in English as maximum permissible concentration and retained the emphasis on calibrated monitoring and vulnerable groups.
