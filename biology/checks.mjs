@@ -63,6 +63,9 @@ if (!floraKyrgyzstanFile.includes("4 043 видов") || !floraKyrgyzstanFile.in
 if (!floraKyrgyzstanFile.includes("Sennikov и соавторов (2025)") || !floraKyrgyzstanFile.includes("Sennikov and colleagues (2025)") || !floraKyrgyzstanFile.includes("doi.org/10.1002/njb.04731")) errors.push("chapters/flora-kyrgyzstan.html: the dated 2025 peer-reviewed vascular-flora checklist must be attributed and linked");
 if (!floraKyrgyzstanFile.includes("не число всех организмов") || !floraKyrgyzstanFile.includes("not a count of all organisms") || !floraKyrgyzstanFile.includes("гербарные находки") || !floraKyrgyzstanFile.includes("herbarium records")) errors.push("chapters/flora-kyrgyzstan.html: the vascular-plant count must retain its scope and revision caveats");
 
+if (!floraKyrgyzstanFile.includes("10.1016/j.japb.2023.09.002") || !floraKyrgyzstanFile.includes("Utricularia macrorhiza") || !floraKyrgyzstanFile.includes("Stuckenia amblyphylla")) errors.push("chapters/flora-kyrgyzstan.html: aquatic-plant field study must retain its DOI and key taxonomic findings");
+if (!floraKyrgyzstanFile.includes("северо-восточного Кыргызстана") || !floraKyrgyzstanFile.includes("north-eastern Kyrgyzstan") || !floraKyrgyzstanFile.includes("не является полной инвентаризацией") || !floraKyrgyzstanFile.includes("not a complete inventory")) errors.push("chapters/flora-kyrgyzstan.html: aquatic-plant findings must retain geographic and inventory-scope caveats");
+
 const ecologyFile = fs.readFileSync(path.join(root, "chapters", "ecology.html"), "utf8");
 const chainButtons = [...ecologyFile.matchAll(/<button\b[^>]*data-chain="[^"]+"[^>]*>/gi)];
 if (chainButtons.length !== 5) errors.push("chapters/ecology.html: expected five food-chain controls");
