@@ -105,7 +105,7 @@ if (!/data-group="viruses" aria-pressed="false"/.test(microbiologyFile) || !/dat
 for (const url of ["6-1-viruses", "6-2-the-viral-life-cycle", "14-5-drug-resistance"]) {
   if (!microbiologyFile.includes("openstax.org/books/microbiology/pages/" + url)) errors.push("chapters/microbiology.html: missing topic-matched OpenStax reference " + url);
 }
-for (const phrase of ["Как вирус создаёт новые частицы", "How a virus makes new particles", "литический и лизогенный цикл", "lytic cycle", "lysogenic cycle", "Почему микробы становятся устойчивыми", "Why microbes become resistant", "естественный отбор", "natural selection", "не лечат вирусные инфекции", "not viral infections"]) {
+for (const phrase of ["Как вирус создаёт новые частицы", "How a virus makes new particles", "литический цикл", "лизогенный цикл", "lytic cycle", "lysogenic cycle", "Почему микробы становятся устойчивыми", "Why microbes become resistant", "естественный отбор", "natural selection", "не лечат вирусные инфекции", "not viral infections"]) {
   if (!microbiologyFile.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/microbiology.html: missing bilingual virus/resistance learning content: " + phrase);
 }
 const systematicsFile = fs.readFileSync(path.join(root, "chapters", "systematics.html"), "utf8");
