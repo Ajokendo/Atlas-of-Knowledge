@@ -87,6 +87,12 @@ if (!botanyFile.includes("function updateOrgan()") || !botanyFile.includes("upda
 if (!botanyFile.includes('b.setAttribute("aria-pressed",String(b.dataset.organ===selectedOrgan))')) {
   errors.push("chapters/botany.html: organ selector must expose its selected state");
 }
+if (!botanyFile.includes("32-2-pollination-and-fertilization") || !botanyFile.includes("развитие семени из семязачатка") || !botanyFile.includes("seed development from the ovule")) {
+  errors.push("chapters/botany.html: seed and fruit development require a topic-matched bilingual reference");
+}
+if (!botanyFile.includes("устьица часто закрываются") || !botanyFile.includes("stomata often close")) {
+  errors.push("chapters/botany.html: water-stress explanation must connect stomatal closure with reduced CO₂ uptake");
+}
 const geneticsFile = fs.readFileSync(path.join(root, "chapters", "genetics.html"), "utf8");
 if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.includes("updateDynamic();updateMutation()")) {
   errors.push("chapters/genetics.html: mutation model must preserve and translate selection on language switch");
