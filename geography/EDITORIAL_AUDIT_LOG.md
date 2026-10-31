@@ -336,3 +336,10 @@ This checkpoint preserves the working context for continuation after a session i
 - Preserved the caveat that UNEP's estimate of approximately 200 emergency events per year (about 90% natural-origin) is tied to a specific period and reporting method.
 - Corrected the risk-model notation in both languages so the equation uses valid LaTeX delimiters and the variables are identified consistently.
 - The detailed worked prioritisation subsection 26.10.1 already includes an English counterpart and was retained.
+
+
+## Follow-up bilingual development — Chapter 26, cities, biodiversity and green economy (1 November 2026)
+
+- Added English counterparts to sections 26.11–26.13 on urban green infrastructure, biodiversity and protected areas, and the low-carbon transition and climate finance.
+- Preserved the distinction between protected-area coverage and management effectiveness, and between national protected-area categories and UNESCO/Ramsar/World Heritage designations.
+- Retained the life-cycle and social-equity principles for energy transition and climate finance, including the need for measurable results and long-term operation and maintenance.
