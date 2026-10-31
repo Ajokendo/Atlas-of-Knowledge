@@ -24,13 +24,22 @@ The territory is the outcome of a long geological history. Ancient continental b
 
 ## 17.2. Территория, протяжённость и крайние географические точки / Area, Extent and Geographic Extremes
 
-Площадь Кыргызской Республики обычно приводится примерно как **199,9 тыс. км²**. В справочных и статистических источниках могут встречаться небольшие различия, связанные с методикой округления и используемой базой. Для официальных публикаций площадь следует брать из актуального национального статистического или геодезического источника и указывать дату.
+Площадь Кыргызской Республики в справочных материалах обычно округляется до **199,9 тыс. км²**. Государственный портал Кыргызской Республики на странице «О Кыргызстане» приводит значение **199 951 км²** (проверено 1 ноября 2026 года). Эти две записи не противоречат друг другу: 199 951 км² при округлении до 0,1 тыс. км² составляет 199,9 тыс. км². При публикации численного значения следует сохранять точность исходного источника и указывать дату обращения; не следует создавать впечатление, что округлённое и более точное значения представляют разные территории.
 
 Страна вытянута преимущественно с запада на восток. Однако её географическую форму нельзя сводить к простой прямоугольной фигуре: хребты и долины образуют сложную конфигурацию, а транспортные и природные связи часто ориентированы вдоль межгорных коридоров.
 
 Крайние точки и координаты следует показывать на карте по единой официальной геодезической основе. Перед публикацией численных координат необходимо сверить их с национальным картографическим источником: разные справочники могут использовать разные определения крайних точек, а картографические округления создают расхождения.
 
 **Важно:** площадь государства, длина государственной границы и координаты крайних точек — справочные характеристики, которые необходимо согласовывать между собой и сопровождать указанием источника. Не следует смешивать длину государственной границы с длиной отдельных участков, полученной по картам разного масштаба.
+
+
+The area of the Kyrgyz Republic is commonly rounded to **199.9 thousand km²** in reference publications. The State Portal of the Kyrgyz Republic gives a value of **199,951 km²** on its country profile page (checked on 1 November 2026). These figures are consistent: 199,951 km² rounds to 199.9 thousand km² when expressed to the nearest 0.1 thousand km². When publishing the figure, retain the precision used by the original source and state the access date; do not imply that the rounded and more precise values describe different territories.
+
+The country extends mainly from west to east. Its geographical shape should not, however, be reduced to a simple rectangle: mountain ranges and valleys form a complex configuration, and transport and natural connections often follow intermontane corridors.
+
+The extreme points and their coordinates should be shown on maps using one official geodetic reference framework. Before publishing numerical coordinates, verify them against a national cartographic source. Different reference works may use different definitions of the extreme points, and cartographic rounding can produce discrepancies.
+
+**Important:** the country's area, state-border length and the coordinates of its extreme points are reference characteristics that must be mutually consistent and accompanied by sources. Do not confuse the length of the state border with lengths of individual sections measured from maps at different scales.
 
 ## 17.3. Горная страна: высотный облик территории / A Mountainous Country: Elevation Structure
 
