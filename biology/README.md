@@ -439,4 +439,6 @@ The score should increase only when evidence for the relevant checklist items is
 - The 2003 report records Himalayan Snowcock in May-Saz and describes it as resident in Kyrgyzstan's mountain regions; it explicitly says Altai Snowcock (`T. altaicus`) was not observed in the country. The chapter treats these as dated evidence, not a current abundance estimate.
 - Noted a discrepancy in aggregated lists that also include Tibetan Snowcock (`T. tibetanus`). The chapter does not silently add that species: primary documented country records require separate verification.
 - Added the national checklist, field report and comparison-list references, with matching Russian and English notes. This is a completed taxon-level verification for this profile, not completion of the full AviList v2026 bird audit.
+
+- Refined the Himalayan Snowcock evidence statement to reproduce the field report's dated observations precisely: 3 July 2003 — two birds on the Karakol–May-Saz route; 4 July — two at May-Saz; 5 July — three at May-Saz. These are expedition observations, not a population census.
 - Editorial readiness remains **99/100**; the improvement is recorded without adding a score point. Remaining work includes the other bird taxa and locality claims, independent specialist review, bilingual copy-editing and live browser/device/accessibility QA.
