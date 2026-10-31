@@ -524,6 +524,23 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 
 Посадка деревьев должна учитывать местный климат, доступность воды, устойчивость видов, аллергенность, безопасность инфраструктуры и уход. Количество посаженных саженцев не равно площади восстановленного устойчивого зелёного покрова.
 
+
+Sustainable cities should reduce pressure on the natural environment while improving quality of life. In Kyrgyzstan, this is particularly important for Bishkek, Osh and rapidly growing district centres.
+
+Urban environmental policy includes:
+- compact and mixed-use land development;
+- accessible public transport and safe walking routes;
+- energy-efficient heating and buildings;
+- protection of parks, trees, rivers and natural drainage routes;
+- sewerage and wastewater treatment;
+- management of construction and household waste;
+- control of dust and emissions; and
+- earthquake-resistant construction and adaptation to heat.
+
+Green infrastructure is more than decorative landscaping. It is a connected network of parks, waterways, urban forests, green streets, permeable surfaces and natural areas that support cooling, stormwater retention, biodiversity and public health.
+
+Tree planting should account for local climate, water availability, species resilience, allergenicity, infrastructure safety and long-term maintenance. The number of seedlings planted is not the same as the area of resilient green cover restored.
+
 ## 26.12. Биоразнообразие, охраняемые территории и экологические коридоры / Biodiversity, Protected Areas and Ecological Corridors
 
 Кыргызстан расположен в пределах глобально значимых горных экосистем Тянь-Шаня и Памиро-Алая. Здесь встречаются эндемичные и редкие растения, горные копытные, хищные птицы, снежный барс и другие виды, зависящие от связности местообитаний.
@@ -542,6 +559,23 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 
 Следует различать национальные заповедники и природные парки, биосферные резерваты ЮНЕСКО, Рамсарские угодья и объекты Всемирного наследия. Международное признание не заменяет национальный правовой режим охраны.
 
+
+Kyrgyzstan lies within the globally significant mountain ecosystems of the Tien Shan and Pamir–Alay. The region supports endemic and rare plants, mountain ungulates, birds of prey, the snow leopard and other species that depend on connected habitats.
+
+According to UNEP, the area of protected territories increased from approximately 0.5 million hectares in 2000 to 1.5 million hectares in 2023. This is an area indicator based on the source's methodology; it does not demonstrate that all protected areas are managed with equal effectiveness.
+
+Effective nature conservation requires:
+- adequate funding and staffing for protected areas;
+- scientific monitoring of species and habitats;
+- ecological corridors between protected areas;
+- action against poaching and illegal wildlife trade;
+- management of conflict between predators and livestock husbandry;
+- control of tourism pressure;
+- restoration of degraded ecosystems; and
+- participation by local communities in sharing the benefits of conservation.
+
+National nature reserves and parks, UNESCO biosphere reserves, Ramsar sites and World Heritage properties are different categories. International recognition does not replace the national legal protection regime.
+
 ## 26.13. Зелёная экономика, энергетический переход и климатическое финансирование / Green Economy, Energy Transition and Climate Finance
 
 Переход к низкоуглеродной экономике должен учитывать энергетическую безопасность, доступность энергии, качество воздуха, занятость и конкурентоспособность предприятий. Для Кыргызстана важны модернизация гидроэнергетики и сетей, солнечная и ветровая генерация, энергоэффективность зданий, чистое отопление, общественный транспорт и сокращение потерь в системах.
@@ -559,6 +593,23 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 Климатическое финансирование может включать гранты, льготные кредиты, гарантии, страховые инструменты, смешанное финансирование и частные инвестиции. Для привлечения средств необходимы качественные проекты, измеримые результаты, прозрачная отчётность, оценка рисков и способность обслуживать инвестиции.
 
 Приоритет следует отдавать проектам, которые одновременно уменьшают выбросы и повышают устойчивость: утепление зданий, модернизация ирригации, раннее предупреждение, восстановление пастбищ, очистка стоков и климатически устойчивые дороги.
+
+
+The transition to a low-carbon economy must take account of energy security, affordability, air quality, employment and business competitiveness. For Kyrgyzstan, priorities include modernising hydropower and electricity grids, developing solar and wind generation, improving building energy efficiency, providing clean heating, strengthening public transport and reducing system losses.
+
+### Principles of a just transition
+
+- affordable energy for households;
+- support for workers and regions dependent on coal and older industrial sectors;
+- vocational retraining;
+- transparent decisions on tariffs;
+- targeted support for vulnerable groups;
+- participation by local communities; and
+- life-cycle assessment of technologies and materials.
+
+Climate finance may include grants, concessional loans, guarantees, insurance instruments, blended finance and private investment. Accessing funding requires high-quality projects, measurable results, transparent reporting, risk assessment and the capacity to operate and maintain investments.
+
+Priority should be given to projects that both reduce emissions and strengthen resilience: building insulation, irrigation modernisation, early warning, pasture restoration, wastewater treatment and climate-resilient roads.
 
 ## 26.14. Сценарии будущего Кыргызстана до 2050 года / Future Scenarios to 2050
 
