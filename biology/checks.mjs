@@ -275,6 +275,54 @@ if (!/data-mutation="insertion" aria-pressed="false"/.test(geneticsAuditFile) ||
 if (!geneticsAuditFile.includes("AUG · AGC · UUU · UGG · A…")) errors.push("chapters/genetics.html: insertion example must display the shifted reading frame accurately");
 if (!geneticsAuditFile.includes("ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi") || !geneticsAuditFile.includes("ncbi.nlm.nih.gov/books/NBK9849/")) errors.push("chapters/genetics.html: authoritative genetic-code and translation references are required");
 
+
+// Planned scientific-illustration markers: keep the in-page briefs and the
+// central production checklist in sync. This is a static integrity check;
+// it does not claim that any planned artwork has been generated.
+const imagePlanFile = fs.readFileSync(path.join(root, "IMAGE_GENERATION_PLAN.md"), "utf8");
+const imagePages = [
+  "index.html",
+  "chapters/anatomy.html",
+  "chapters/biochemistry.html",
+  "chapters/botany.html",
+  "chapters/cell-biology.html",
+  "chapters/ecology.html",
+  "chapters/evolution.html",
+  "chapters/genetics.html",
+  "chapters/microbiology.html",
+  "chapters/systematics.html",
+  "chapters/zoology.html",
+  "chapters/flora-kyrgyzstan.html",
+  "chapters/fauna-kyrgyzstan.html"
+];
+const imageBriefIds = [];
+let imageBriefCount = 0;
+for (const rel of imagePages) {
+  const html = fs.readFileSync(path.join(root, rel), "utf8");
+  const briefs = [...html.matchAll(/<aside class="image-generation-note" id="image-brief-([^"]+)" data-image-status="planned"[\s\S]*?<\/aside>/g)];
+  imageBriefCount += briefs.length;
+  for (const brief of briefs) {
+    const id = brief[1], markup = brief[0];
+    imageBriefIds.push(id);
+    if (!markup.includes('class="ru"') || !markup.includes('class="en"') || !markup.includes("IMAGE TO GENERATE")) {
+      errors.push(rel + ": image brief " + id + " must contain bilingual title/description and a visible planning label");
+    }
+    if (!/<strong>[\s\S]*?<\/strong>/.test(markup) || !/<p class="ru">[\s\S]*?<\/p>/.test(markup) || !/<p class="en">[\s\S]*?<\/p>/.test(markup)) {
+      errors.push(rel + ": image brief " + id + " is missing its title or bilingual brief");
+    }
+    const title = (markup.match(/<span class="ru">([\s\S]*?)<\/span>/) || [])[1];
+    if (title && !imagePlanFile.includes(title)) errors.push(rel + ": image brief " + id + " is absent from IMAGE_GENERATION_PLAN.md");
+  }
+  if (briefs.length === 0) errors.push(rel + ": expected planned image-generation markers");
+}
+if (new Set(imageBriefIds).size !== imageBriefIds.length) errors.push("Image-generation brief IDs must be unique across all Biology pages");
+if (imageBriefCount !== 52) errors.push("Expected 52 in-page image-generation briefs, found " + imageBriefCount);
+const imageChecklistCount = (imagePlanFile.match(/^- \[ \] \*\*/gm) || []).length;
+if (imageChecklistCount !== 52) errors.push("IMAGE_GENERATION_PLAN.md must contain 52 planned checklist items, found " + imageChecklistCount);
+if (!imagePlanFile.includes("Change `[ ]` to `[x]` only after scientific review") || !imagePlanFile.includes("Do not ask the image model to invent species")) {
+  errors.push("IMAGE_GENERATION_PLAN.md must retain the scientific-review and no-invented-species production rules");
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
