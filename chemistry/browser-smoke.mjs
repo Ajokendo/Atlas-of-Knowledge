@@ -298,6 +298,7 @@ try {
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("синтезе белка")) {
         errors.push(file + ": Russian nucleic-acid explanation is incomplete");
       }
+      if (!(await page.locator("[data-i=basePairingNote]").innerText()).includes("аденин с тимином") || !(await page.locator("[data-i=basePairingNote]").innerText()).includes("гуанин с цитозином")) errors.push(file + ": Russian DNA base-pairing note is incomplete");
       if (!(await page.locator("[data-i=enzymesText]").innerText()).includes("энергию активации") ||
           !(await page.locator("[data-i=enzymeNote]").innerText()).includes("температуру и pH")) {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
@@ -310,6 +311,7 @@ try {
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("protein synthesis")) {
         errors.push(file + ": English nucleic-acid explanation is incomplete");
       }
+      if (!(await page.locator("[data-i=basePairingNote]").innerText()).includes("adenine with thymine") || !(await page.locator("[data-i=basePairingNote]").innerText()).includes("guanine with cytosine")) errors.push(file + ": English DNA base-pairing note is incomplete");
       if (!(await page.locator("[data-i=enzymesText]").innerText()).includes("activation energy") ||
           !(await page.locator("[data-i=enzymeNote]").innerText()).includes("temperature and pH")) {
         errors.push(file + ": English enzyme explanation lacks catalytic mechanism or condition caveat");
