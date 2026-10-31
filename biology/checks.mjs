@@ -59,7 +59,7 @@ for (const chapter of coreChapters) {
   if (!/<span\s+class=["'][^"']*\ben\b/i.test(match[1])) errors.push("chapters/" + chapter + ": references missing English description");
 }
 const ecologyFile = fs.readFileSync(path.join(root, "chapters", "ecology.html"), "utf8");
-const chainButtons = [...ecologyFile.matchAll(/<button\\b[^>]*data-chain="[^"]+"[^>]*>/gi)];
+const chainButtons = [...ecologyFile.matchAll(/<button\b[^>]*data-chain="[^"]+"[^>]*>/gi)];
 if (chainButtons.length !== 5) errors.push("chapters/ecology.html: expected five food-chain controls");
 if ((ecologyFile.match(/data-chain="[^"]+" aria-pressed="false"><span class="ru">/g) || []).length !== 5) {
   errors.push("chapters/ecology.html: food-chain controls must have bilingual labels and initial pressed state");
