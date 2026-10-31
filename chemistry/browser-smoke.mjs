@@ -1272,6 +1272,28 @@ try {
       if (questionCount !== 15) {
         errors.push(file + ": expected 15 quiz questions, found " + questionCount);
       } else {
+        const newRussianQuestions = [
+          ["#q10 h2", "Q < K"],
+          ["#q11 h2", "Qₛₚ > Kₛₚ"],
+          ["#q12 h2", "правилу Хюккеля"],
+          ["#q13 h2", "структурных изомеров"],
+          ["#q14 h2", "поглощение CO₂ океаном"]
+        ];
+        for (const [selector, phrase] of newRussianQuestions) {
+          if (!(await page.locator(selector).innerText()).includes(phrase)) errors.push(file + ": missing Russian advanced topic " + phrase);
+        }
+        await page.locator("#lang").click();
+        const newEnglishQuestions = [
+          ["#q10 h2", "Q < K"],
+          ["#q11 h2", "Qₛₚ > Kₛₚ"],
+          ["#q12 h2", "Hückel’s rule"],
+          ["#q13 h2", "structural isomers"],
+          ["#q14 h2", "ocean uptake of CO₂"]
+        ];
+        for (const [selector, phrase] of newEnglishQuestions) {
+          if (!(await page.locator(selector).innerText()).includes(phrase)) errors.push(file + ": missing English advanced topic " + phrase);
+        }
+        await page.locator("#lang").click();
         for (let i = 0; i < questionCount; i++) {
           await page.locator("#q" + i + ' input[type="radio"]').first().check();
         }
