@@ -508,9 +508,14 @@ try {
       if (await page.locator("#table button[data-id]").evaluateAll(items => items.some(button => button.type !== "button"))) {
         errors.push(file + ": generated element buttons need explicit button type");
       }
+      if (await page.locator('#table button[data-id="1"]').getAttribute("aria-pressed") !== "true") {
+        errors.push(file + ": initial hydrogen selection is not exposed to assistive technology");
+      }
       await page.locator('#table button[data-id="8"]').click();
-      if (!(await page.locator("#detail").innerText()).toLowerCase().includes("oxygen")) {
-        errors.push(file + ": selecting oxygen did not update element details");
+      if (!(await page.locator("#detail").innerText()).toLowerCase().includes("oxygen") ||
+          await page.locator('#table button[data-id="8"]').getAttribute("aria-pressed") !== "true" ||
+          await page.locator('#table button[data-id="1"]').getAttribute("aria-pressed") !== "false") {
+        errors.push(file + ": selecting oxygen must update details and the accessible selected state");
       }
       await page.locator('#lanth button[data-id="58"]').click();
       if (!(await page.locator("#detail").innerText()).includes("f-блок")) {
