@@ -340,6 +340,23 @@ The transboundary **Western Tien-Shan** property was inscribed on the UNESCO Wor
 5. Согласовать меры охраны и устойчивого природопользования.
 6. Создать систему мониторинга эффективности коридора.
 
+### English explanation
+
+Protected areas are often isolated patches separated by roads, settlements, agricultural land and industrial sites. For many species, conservation depends not only on the protected sites themselves but also on the ability to move safely between them.
+
+An **ecological corridor** is an area or network of habitats that enables organisms to move and maintains ecological connections between core natural areas. For mountain ungulates and the snow leopard, corridors may connect seasonal pastures, breeding areas and feeding grounds. For plants, connectivity may be maintained through seed dispersal by animals, wind and water.
+
+In 2025, UNDP reported progress on the ecological-connectivity approach and the establishment of the Ak-Ilbirs ecological corridor, covering approximately 800,000 hectares. This figure must be accompanied by the date and the status wording used by the original source: an announcement or corridor-design initiative is not equivalent to the creation of a separate legal category of protected area.
+
+**Principles for corridor design**
+
+1. Identify target species and ecological processes.
+2. Use evidence on habitats and seasonal movements.
+3. Identify barriers such as roads, fences, settlements and intensively used areas.
+4. Consider the interests of local communities and land users.
+5. Coordinate conservation measures with sustainable resource use.
+6. Establish a system for monitoring corridor effectiveness.
+
 ### 22.8.1. Как выявляют потенциальные экологические коридоры / Identifying Potential Ecological Corridors
 
 Экологический коридор нельзя определить только по тому, что две охраняемые территории расположены сравнительно близко друг к другу. Для животных важна не геометрическая дистанция, а возможность безопасного перемещения через конкретные типы местообитаний и ландшафтные барьеры.
