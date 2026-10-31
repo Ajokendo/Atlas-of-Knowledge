@@ -246,6 +246,21 @@ The modern landscape is the result of late Cenozoic uplift superimposed on a muc
 
 На картах тектонического строения необходимо различать геологические границы, разломы, современные активные структуры и административные границы. Они не совпадают автоматически.
 
+
+The tectonic structure of Kyrgyzstan is a mosaic. Regional schemes distinguish major structural elements of the Northern, Central and Southern Tien Shan, the Northern Pamir and the northern margin of the Tarim Platform. Some schemes also identify the Talas region and other blocks separately.
+
+Differences between these blocks are reflected in:
+- the age and composition of their basement rocks;
+- the sequence of sedimentary and volcanic units;
+- the character of magmatism;
+- the orientation and intensity of folding;
+- fault and thrust systems; and
+- the deep structure of the crust.
+
+The **Talas–Fergana Fault** is one of the most prominent regional structures of the Central Tien Shan. It is a major strike-slip zone that separates and offsets geological complexes. Its history is complex and reflects long-term tectonic activity; it should not be drawn as a simple straight line or treated as the sole boundary between all mountain subdivisions.
+
+Tectonic maps must distinguish geological boundaries, faults, currently active structures and administrative boundaries. These features do not automatically coincide.
+
 ## 17.8. Современная тектоника и сейсмичность / Active Tectonics and Seismicity
 
 Кыргызстан находится в активном внутриконтинентальном поясе деформаций, связанном с взаимодействием Индийской и Евразийской плит. Сжатие земной коры проявляется в надвигах, обратных разломах, складчатости и локальных сдвиговых движениях.
@@ -261,6 +276,21 @@ The modern landscape is the result of late Cenozoic uplift superimposed on a muc
 - готовностью служб и устойчивостью систем жизнеобеспечения.
 
 Сейсмическая опасность (вероятность сильного сотрясения) и сейсмический риск (возможные потери) — разные понятия. Карта опасности не является точным прогнозом даты и места будущего землетрясения.
+
+
+Kyrgyzstan lies within an active intracontinental deformation belt associated with the interaction of the Indian and Eurasian plates. Crustal compression is expressed through thrusts, reverse faults, folding and local strike-slip movements.
+
+Earthquakes do not occur only at the boundaries of oceanic plates. Large earthquakes within continents may result from the reactivation of ancient faults and the accumulation of stress in a heterogeneous crust.
+
+Seismic risk depends not only on the magnitude of a possible earthquake but also on:
+- the depth of the earthquake's focus;
+- the distance to settlements;
+- ground conditions;
+- the quality of buildings and infrastructure;
+- population density; and
+- the preparedness of emergency services and the resilience of essential systems.
+
+Seismic **hazard** (the likelihood of strong ground shaking) and seismic **risk** (the potential for losses) are different concepts. A hazard map is not an exact prediction of the date and location of a future earthquake.
 
 ### 17.8.1. Практический пример: почему сейсмическая опасность не равна риску / Worked Example: Why Seismic Hazard Is Not the Same as Risk
 
