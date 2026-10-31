@@ -486,6 +486,7 @@ try {
       }
       await page.locator("#lang").click();
       await ph.fill("7");
+      await page.locator("#lang").click();
     }
 
     if (file === "chapters/solutions.html") {
