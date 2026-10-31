@@ -709,6 +709,8 @@ try {
     }
 
     if (file === "chapters/chemistry-of-life.html") {
+      await page.locator("#fraction").fill("0.042");
+      await page.locator("#fraction").dispatchEvent("input");
       if ((await page.locator("#ppm").innerText()).replace(/\s/g, "") !== "420ppm" || !(await page.locator("[data-i=modelNote]").innerText()).includes("не текущие измерения")) {
         errors.push(file + ": initial CO2 output=" + (await page.locator("#ppm").innerText()) + "; disclaimer=" + (await page.locator("[data-i=modelNote]").innerText()));
       }
