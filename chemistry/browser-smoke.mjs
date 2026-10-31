@@ -1269,8 +1269,8 @@ try {
 
     if (file === "knowledge-check.html") {
       const questionCount = await page.locator("#quiz .question").count();
-      if (questionCount !== 10) {
-        errors.push(file + ": expected 10 quiz questions, found " + questionCount);
+      if (questionCount !== 15) {
+        errors.push(file + ": expected 15 quiz questions, found " + questionCount);
       } else {
         for (let i = 0; i < questionCount; i++) {
           await page.locator("#q" + i + ' input[type="radio"]').first().check();
@@ -1279,7 +1279,7 @@ try {
         if (!(await page.locator("#score").innerText()).trim()) errors.push(file + ": quiz score was not produced");
         if (!(await page.locator("#finish").isDisabled())) errors.push(file + ": completed quiz finish button was not locked");
         const history = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
-        if (!Array.isArray(history) || history.length !== 1 || history[0].total !== 10) {
+        if (!Array.isArray(history) || history.length !== 1 || history[0].total !== 15) {
           errors.push(file + ": completed quiz attempt was not saved exactly once");
         }
         await page.locator("#reset").click();
