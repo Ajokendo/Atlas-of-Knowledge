@@ -128,3 +128,13 @@ This checkpoint preserves the working context for continuation after a session i
 - Updated Chapter 24 was fetched again from `workspace/geography`; both Russian and English warnings, the source link and chapter structure were verified.
 
 **Chapter 24 update commit:** `2a880dbe431ed9cfa24b400be87177fd06bccf1a`
+
+
+## Follow-up bilingual development — Chapter 24, Chuy Region (1 November 2026)
+
+- Added a complete English-language counterpart to the Russian regional profile in section 24.3.
+- The English text covers location and administrative status, relief, climate and water, landscapes and biodiversity, population and settlement, economy, transport, heritage and tourism, and development challenges.
+- Preserved the distinction between Bishkek as the region's administrative centre and its separate status as a city of republican significance, excluded from Chuy Region population totals.
+- The updated chapter was fetched again from `workspace/geography`; the English section and its placement before section 24.4 were verified.
+
+**Chapter 24 bilingual expansion commit:** `2107be66afd8771200ac160ad9eadeae5e7b07bc`
