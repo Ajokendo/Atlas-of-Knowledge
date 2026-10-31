@@ -323,6 +323,28 @@
 
 **Вызовы и перспективы.** Приоритеты — устойчивое управление водными ресурсами, снижение рисков конфликтов вокруг доступа к воде и дорогам, укрепление местной инфраструктуры, диверсификация экономики, повышение добавленной стоимости фруктов, модернизация горнодобывающих объектов и восстановление нарушенных земель. Развитие области должно опираться на международное право, межгосударственные договорённости и интересы местных сообществ.
 
+
+### Expanded English profile
+
+**Location and administrative centre.** Batken Region is in the south-west of Kyrgyzstan. It borders Osh Region, Tajikistan and Uzbekistan. Its area is approximately 17,000 km², and its administrative centre is the city of Batken. The region includes the Fergana foothills, intermontane valleys and mountain areas.
+
+**Border geography.** The spatial structure of Batken Region is historically complex. State borders, roads, water infrastructure, settlements and economic connections form an interconnected borderland. Maps must use current official state boundaries, avoid simplifying local sections, and must not depict disputed or historically sensitive areas without legal verification. Enclave and exclave features should be explained separately, with the date and source of the map clearly stated.
+
+**Relief and climate.** Valleys and foothills are relatively warm and dry, with hot summers; conditions become cooler and wetter at higher elevations. The terrain includes valley floors, alluvial fans, foothill plains and mountain ranges. Debris flows, landslides, erosion and drought are significant natural hazards.
+
+**Water and agriculture.** Valley livelihoods depend on rivers, canals and water-distribution infrastructure, some of which has transboundary significance. Water security requires coordinated data exchange, infrastructure maintenance and equitable allocation mechanisms. Important activities include orchards, apricot growing, vegetables, cereals, fodder crops and livestock husbandry.
+
+**Population.** On 1 January 2026, the region had approximately 605,300 residents. Population is concentrated in valleys and along transport corridors. Batken, Kyzyl-Kiya, Sulukta, Kadamjay and other urban centres perform administrative, industrial and commercial functions.
+
+**Economy.** The regional economy combines horticulture, vegetable growing, livestock husbandry, trade, extractive industries and an industrial legacy. Coal and mercury mining, as well as antimony production, historically developed in some districts. Any estimate of reserves or current extraction must be supported by primary geological and statistical sources. Former mining sites require monitoring of tailings facilities and soil and water contamination, as well as land rehabilitation and industrial-safety measures.
+
+**Transport and international connections.** Regional roads connect Batken with Osh and neighbouring countries. Border-crossing points and transport corridors are important for cross-border trade, access to markets and social connections. Transport reliability depends not only on road quality but also on coordinated border-crossing procedures and resilient infrastructure.
+
+**Culture and nature.** The region has diverse cultural landscapes and traditions of horticulture and cross-border trade. Mountain areas and valleys offer potential for nature-based and rural tourism, but projects must account for safety, environmental pressures and access rules in border zones.
+
+**Challenges and prospects.** Priorities include sustainable water management, reducing risks associated with competition over access to water and roads, strengthening local infrastructure, diversifying the economy, increasing the value added to fruit products, modernising mining facilities and rehabilitating disturbed land. Regional development should be grounded in international law, interstate agreements and the interests of local communities.
+
+
 ### 24.9.1. Как корректно сравнивать семь областей / How to Compare the Seven Regions Fairly
 
 Региональное сравнение требует сопоставимых показателей. Большая область не обязательно богаче, более населённая область не обязательно имеет более высокий уровень благосостояния, а высокий объём производства не всегда означает высокую производительность или качество жизни.
