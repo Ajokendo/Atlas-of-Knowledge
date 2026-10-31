@@ -340,6 +340,27 @@ This is a conceptual model, not a universal formula for calculating monetary los
 
 В высокогорьях особенно заметны троговые долины, кары, моренные валы, цирки и острые гребни, сформированные ледниками и морозным выветриванием. В предгорьях распространены конусы выноса, террасы, пролювиальные и аллювиальные равнины.
 
+
+The modern relief of Kyrgyzstan is shaped by the interaction of endogenic and exogenic processes.
+
+**Endogenic processes include:**
+- tectonic uplift and subsidence;
+- folding and thrusting;
+- displacement along faults;
+- magmatism and volcanic processes in earlier geological periods; and
+- earthquakes.
+
+**Exogenic processes include:**
+- river erosion and deposition;
+- glacial erosion and the deposition of moraines;
+- frost weathering;
+- slope processes;
+- landslides, rockfalls and scree formation;
+- aeolian processes in dry valleys; and
+- karst development in soluble rocks.
+
+In high mountain areas, characteristic landforms include U-shaped glacial troughs, cirques, moraines, corries and sharp ridges shaped by glaciers and frost weathering. Foothill areas commonly contain alluvial fans, terraces, proluvial deposits and alluvial plains.
+
 ## 17.10. Геологическое строение и природные ресурсы / Geological Structure and Natural Resources
 
 Геологическое разнообразие Кыргызстана обусловило наличие месторождений металлических и неметаллических полезных ископаемых, угля, строительного сырья и подземных вод. Минеральные ресурсы связаны с магматическими, гидротермальными, осадочными и метаморфическими процессами. Сам факт геологического обнаружения полезного компонента, однако, ещё не означает, что его можно безопасно и рентабельно добывать.
@@ -413,6 +434,13 @@ Impact assessment should cover the entire life cycle, not just the extraction pe
 Горные коридоры не были постоянными и одинаково доступными во все эпохи. Их использование зависело от политической ситуации, состояния дорог, сезонности, безопасности и возможностей преодоления перевалов.
 
 Географическое положение способствовало культурным обменам, торговле, миграциям и формированию разнообразных локальных связей. При этом горный рельеф одновременно создавал барьеры и разделял соседние долины.
+
+
+Mountain passes and valleys in Kyrgyzstan connected the Fergana Valley, the Chuy and Talas valleys, the Issyk-Kul Basin, Kashgaria and the Pamir regions. Branches of historical trade and cultural routes crossed the region, including sections and offshoots of the Silk Roads.
+
+Mountain corridors were not permanently or equally accessible in every historical period. Their use depended on political conditions, the state of roads, seasonality, security and the ability to cross high passes.
+
+The country's geographic position encouraged cultural exchange, trade, migration and the development of diverse local connections. At the same time, mountain relief created barriers and separated neighbouring valleys.
 
 ## 17.12. Административно-территориальное устройство / Administrative and Territorial Organisation
 
