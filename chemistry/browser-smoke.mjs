@@ -700,6 +700,22 @@ try {
       if ((await page.locator("#theory").innerText()).trim() !== "—" || !(await page.locator("#explain").innerText()).includes("числовой диапазон")) {
         errors.push(file + ": overflowed theoretical yield was not rejected");
       }
+      await page.locator("#a").fill("1");
+      await page.locator("#c").fill("1");
+      await page.locator("#na").fill("1e-300");
+      await page.locator("#nb").fill("1e300");
+      await page.locator("#actual").fill("1e-10");
+      await page.locator("#na").dispatchEvent("input");
+      if (!(await page.locator("#yield").innerText()).includes("превышает")) {
+        errors.push(file + ": actual yield far above a tiny theoretical yield was not rejected using a product-scaled tolerance");
+      }
+      await page.locator("#a").fill("1000");
+      await page.locator("#na").fill("1e-320");
+      await page.locator("#actual").fill("");
+      await page.locator("#na").dispatchEvent("input");
+      if ((await page.locator("#theory").innerText()).trim() !== "—" || !(await page.locator("#explain").innerText()).includes("числовой диапазон")) {
+        errors.push(file + ": underflowed reactant ratio was not rejected");
+      }
     }
 
     if (file === "chapters/chemistry-of-life.html") {
