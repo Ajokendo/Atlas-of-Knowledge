@@ -553,6 +553,15 @@ try {
       if (!(await page.locator("#explain").innerText()).includes("коэффициенты")) {
         errors.push(file + ": zero stoichiometric coefficient was not rejected");
       }
+      await page.locator("#a").fill("1001");
+      await page.locator("#na").fill("1e308");
+      await page.locator("#b").fill("1");
+      await page.locator("#c").fill("1000");
+      await page.locator("#nb").fill("1e308");
+      await page.locator("#na").dispatchEvent("input");
+      if ((await page.locator("#theory").innerText()).trim() !== "—" || !(await page.locator("#explain").innerText()).includes("числовой диапазон")) {
+        errors.push(file + ": unsafe coefficient or overflowed theoretical yield was not rejected");
+      }
     }
 
     if (file === "gas-laws.html") {
