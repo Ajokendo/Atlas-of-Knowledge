@@ -22,6 +22,13 @@ The territory is the outcome of a long geological history. Ancient continental b
 
 Кыргызстан расположен в глубине материка, поэтому океаническое влияние ослаблено. Континентальность климата сочетается с сильным воздействием высоты, экспозиции склонов и замкнутости межгорных котловин. Географическое положение не следует рассматривать отдельно от рельефа: именно горная структура существенно модифицирует климатические и гидрологические условия.
 
+
+The Kyrgyz Republic is landlocked and lies within the Eurasian continent. It occupies a strategically important position between major physical-geographical and historical-cultural regions of Central Asia. It borders Kazakhstan to the north, Uzbekistan to the west and south-west, Tajikistan to the south-west, and China to the east and south-east.
+
+The country's location connects it with the Fergana Valley, the Turan Lowlands, the Kazakh Uplands, the Tarim Basin and the high mountain regions of the Pamir and Tien Shan. State borders cross a variety of landscapes, including valleys, foothills, mountain ranges and high-altitude terrain. In mountainous areas, the practical delineation and use of borders are complicated by relief, watersheds, glaciers and difficult access.
+
+Because Kyrgyzstan lies deep within the continent, oceanic influences are weak. Its continental climate is strongly modified by elevation, slope aspect and the enclosure of intermontane basins. Geographic location should not be considered separately from relief: the mountain structure substantially modifies both climatic and hydrological conditions.
+
 ## 17.2. Территория, протяжённость и крайние географические точки / Area, Extent and Geographic Extremes
 
 Площадь Кыргызской Республики в справочных материалах обычно округляется до **199,9 тыс. км²**. Государственный портал Кыргызской Республики на странице «О Кыргызстане» приводит значение **199 951 км²** (проверено 1 ноября 2026 года). Эти две записи не противоречат друг другу: 199 951 км² при округлении до 0,1 тыс. км² составляет 199,9 тыс. км². При публикации численного значения следует сохранять точность исходного источника и указывать дату обращения; не следует создавать впечатление, что округлённое и более точное значения представляют разные территории.
@@ -56,6 +63,21 @@ The extreme points and their coordinates should be shown on maps using one offic
 - природные опасности и инженерные условия.
 
 Горный рельеф создаёт множество локальных климатических условий. Две долины на близкой высоте могут различаться по увлажнению, инсоляции и температурному режиму из-за ориентации, высоты окружающих хребтов и открытости воздушным массам.
+
+
+Mountain relief creates a wide range of local climatic conditions. Two valleys at similar elevations may differ in moisture, solar exposure and temperature because of their orientation, the height of surrounding ranges and their exposure to prevailing air masses.
+
+Relief is a defining characteristic of Kyrgyzstan. Most of the territory belongs to mountain systems, while plains and low mountain areas are concentrated mainly in intermontane valleys and basins, especially in the north and south-west.
+
+The elevation range extends from low valleys to peaks above 7,000 m. The country's highest summits are associated with the eastern part of the Central Tien Shan and the Kakshaal-Too Range. Jengish Chokusu (Victory Peak) reaches approximately 7,439 m. The rocky summit of Khan Tengri is about 6,995 m high, while some sources give approximately 7,010 m when the ice cap is included. An atlas should state the measurement convention and must not confuse the rock summit with the elevation of the ice surface.
+
+Elevation affects:
+- temperature and the length of the growing season;
+- the amount and seasonality of precipitation;
+- soil and vegetation types;
+- snow accumulation, glaciers and river runoff;
+- access to pastures, settlements and transport routes; and
+- natural hazards and engineering conditions.
 
 ## 17.4. Тянь-Шань и Памиро-Алай: крупные горные системы / Tien Shan and Pamir–Alay: Major Mountain Systems
 
