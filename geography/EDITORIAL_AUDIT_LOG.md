@@ -198,3 +198,12 @@ This checkpoint preserves the working context for continuation after a session i
 - The updated Chapter 24 was fetched again from `workspace/geography`; the English profile and adjacent bilingual comparative-method section were verified in the saved file.
 
 **Chapter 24 bilingual expansion commit:** `d013926e39945836ac02144f8f239690ae832443`
+
+
+## Follow-up bilingual development — Chapter 24, cross-regional analysis (1 November 2026)
+
+- Completed English counterparts for the main comparative narrative in section 24.10 (valleys and high mountains, population and density, specialisation and diversification, and cities/administrative centres).
+- Added the English version of the regional climate-risk matrix and its explanatory note in section 24.11.
+- Added the English version of the spatial-planning and regional-policy discussion in section 24.12, including the place-based planning workflow and evaluation criteria.
+- Preserved distinctions between absolute and relative indicators, urban centres and oblast totals, and hazard probability versus exposure and vulnerability.
+- Chapter 24 remains subject to further bilingual review of its remaining sections; this update does not declare the whole chapter complete.
