@@ -399,6 +399,24 @@ In the mountains of Kyrgyzstan, geological maps are compared with relief, seismi
 
 **Activity.** Use a teaching geological map to identify three rock units and one fault. Explain what the map tells you and which conclusions require additional evidence.
 
+### 17.14.1. Как проверять географические названия на карте / Verifying Geographical Names on a Map
+
+Географическое название — не просто подпись на карте. У одного объекта могут существовать официальная форма, варианты на разных языках, исторические названия и местные варианты произношения. Ошибка в названии может привести к путанице при поиске данных, навигации и административном учёте.
+
+**Порядок проверки:** определить тип объекта и его точное местоположение; проверить название в действующем официальном реестре или документе компетентного органа; сверить написание на кыргызском и русском языках с утверждёнными правилами; проверить транслитерацию для латинского алфавита; зафиксировать источник и дату обращения. Названия населённых пунктов, рек, горных хребтов и административных единиц могут регулироваться разными процедурами.
+
+**Не смешивать официальность и распространённость.** Историческое или разговорное название может быть широко известно, но не совпадать с официальным наименованием. В научном тексте допустимо привести вариант, если ясно указать его статус и источник. Нельзя самостоятельно «исправлять» местное название по созвучию или предполагаемой этимологии.
+
+**Учебное задание.** Выберите три географических объекта Кыргызстана разных типов. Для каждого найдите официальную форму, варианты на другом языке и источник. Отдельно отметьте, где требуется дополнительная проверка написания или координат.
+
+A geographical name is more than a map label. A feature may have an official form, variants in different languages, historical names and local pronunciation forms. An error can cause confusion in data retrieval, navigation and administrative records.
+
+**Verification sequence:** identify the feature type and exact location; consult the current official register or competent authority document; check Kyrgyz and Russian spellings against approved rules; verify Latin transliteration; and record the source and access date. Settlement names, rivers, mountain ranges and administrative units may follow different procedures.
+
+**Do not confuse official status with common usage.** A historical or colloquial name may be widely known without being the official name. A scholarly text may include such a variant if its status and source are stated. Do not independently “correct” a local name based on sound similarity or a guessed etymology.
+
+**Activity.** Select three geographical features in Kyrgyzstan of different types. Find the official form, variants in another language and the source. Note separately where spelling or coordinates require further verification.
+
 ## 17.15. Итоги главы / Chapter Summary
 
 1. Кыргызстан расположен в северо-восточной части Центральной Азии и не имеет выхода к Мировому океану.
