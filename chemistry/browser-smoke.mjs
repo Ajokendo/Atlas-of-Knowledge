@@ -1105,8 +1105,8 @@ try {
     }
 
     if (file === "glossary.html") {
-      if (await page.locator(".term").count() !== 93) {
-        errors.push(file + ": expected 93 bilingual chemistry glossary entries");
+      if (await page.locator(".term").count() !== 95) {
+        errors.push(file + ": expected 95 bilingual chemistry glossary entries");
       }
       if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
         errors.push(file + ": Russian glossary category selector needs a localized accessible name");
@@ -1193,6 +1193,10 @@ try {
       await page.locator("#search").fill("ocean acidification");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Ocean acidification")) {
         errors.push(file + ": glossary search did not find the ocean-acidification definition");
+      }
+      await page.locator("#search").fill("reaction quotient");
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Reaction quotient")) {
+        errors.push(file + ": glossary search did not find the reaction-quotient definition");
       }
       await page.locator("#search").fill("relative atomic mass");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Relative atomic mass")) {
