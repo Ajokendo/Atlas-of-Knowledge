@@ -178,3 +178,13 @@ This checkpoint preserves the working context for continuation after a session i
 - The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
 
 **Chapter 24 bilingual expansion commit:** `39af8b932ebf8fb042a0e5245d8be397997730ac`
+
+
+## Follow-up bilingual development — Chapter 24, Osh Region (1 November 2026)
+
+- Added a complete English-language counterpart to the Russian regional profile in section 24.8.
+- The translation covers the Fergana–Alay relief gradient, irrigation and river basins, landscape belts, population distribution, valley and mountain economies, the Irkeshtam corridor, and environmental and infrastructure challenges.
+- Explicitly preserved the statistical distinction between Osh Region and the separately administered city of Osh; clarified that Sulayman-Too is within the city, not the oblast.
+- The updated Chapter 24 was fetched again from `workspace/geography`; the English profile was verified in the saved file.
+
+**Chapter 24 bilingual expansion commit:** `b9a581e539e10f4db0ea092df824f8005fba001d`
