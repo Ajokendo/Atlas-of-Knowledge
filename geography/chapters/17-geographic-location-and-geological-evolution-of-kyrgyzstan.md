@@ -207,7 +207,7 @@ This is a conceptual model, not a universal formula for calculating monetary los
 
 ## 17.10. Геологическое строение и природные ресурсы / Geological Structure and Natural Resources
 
-Геологическое разнообразие Кыргызстана обусловило наличие месторождений металлических и неметаллических полезных ископаемых, угля, строительного сырья и подземных вод. Минеральные ресурсы связаны с магматическими, гидротермальными, осадочными и метаморфическими процессами.
+Геологическое разнообразие Кыргызстана обусловило наличие месторождений металлических и неметаллических полезных ископаемых, угля, строительного сырья и подземных вод. Минеральные ресурсы связаны с магматическими, гидротермальными, осадочными и метаморфическими процессами. Сам факт геологического обнаружения полезного компонента, однако, ещё не означает, что его можно безопасно и рентабельно добывать.
 
 В числе известных видов сырья:
 - золото;
@@ -218,9 +218,58 @@ This is a conceptual model, not a universal formula for calculating monetary los
 - строительные и облицовочные материалы;
 - минеральные и термальные подземные воды.
 
-Примеры известных горнорудных районов и месторождений включают Кумтор, Макмал, Джеруй, Талды-Булак, Кадамжай и Хайдаркан. Их геологическая природа, промышленный статус, запасы и экологические последствия различаются. Указание месторождения на карте не должно создавать впечатления, что оно действует или экономически рентабельно в настоящее время.
+Примеры известных горнорудных районов и месторождений включают Кумтор, Макмал, Джеруй, Талды-Булак, Кадамжай и Хайдаркан. Их геологическая природа, степень изученности, промышленный статус, запасы и экологические последствия различаются. Указание объекта на карте не должно создавать впечатления, что он действует или экономически рентабелен в настоящее время.
 
-Оценка ресурсов должна учитывать не только геологические запасы, но и извлекаемость, экономику, инфраструктуру, экологические ограничения, безопасность труда, водопотребление и интересы местных сообществ.
+### Геологическое проявление, ресурс и запас / Occurrence, Resource and Reserve
+
+Для корректного чтения геологических карт и статистики важно различать несколько понятий:
+
+- **Геологическое проявление** — участок, где обнаружены признаки полезного минерала или геологической структуры, заслуживающие изучения. Проявление может оказаться слишком небольшим, бедным или сложным для разработки.
+- **Минеральный ресурс** — концентрация полезного компонента, оценённая по геологическим данным с определённой степенью изученности. Классификации ресурсов различаются между странами и системами отчётности.
+- **Запас** — часть ресурса, добыча которой признана технически и экономически обоснованной при конкретных условиях и на дату оценки. Запасы могут пересматриваться при изменении цен, технологий, инфраструктуры, законодательства и экологических требований.
+- **Добыча** — фактическое извлечение сырья в определённый период. Наличие запасов не доказывает, что добыча ведётся сейчас.
+
+Эти категории нельзя использовать как синонимы. При публикации цифр необходимо указывать источник, год оценки, единицы измерения, применённую классификацию и то, относится ли показатель к ресурсам, запасам или фактической добыче.
+
+### Жизненный цикл горного проекта и территориальные последствия / Mining Project Life Cycle and Regional Effects
+
+Горный проект обычно проходит несколько стадий: поисковые работы и разведка, технико-экономическая оценка, проектирование и получение разрешений, строительство, эксплуатация, закрытие и рекультивация. На каждой стадии меняются занятость, транспортные потоки, потребление воды и энергии, налоговые поступления и экологическая нагрузка.
+
+Оценка воздействия должна охватывать весь жизненный цикл, а не только период добычи. Важны устойчивость хвостохранилищ и отвалов, качество поверхностных и подземных вод, пылевые выбросы, безопасность работников, восстановление земель, мониторинг после закрытия и участие местных сообществ. В горных водосборах последствия могут затрагивать территории ниже по течению, поэтому границы анализа не должны ограничиваться административной границей лицензии или предприятия.
+
+**Географический вывод:** месторождение — это не только точка на карте. Его значение определяется связью геологического строения с рельефом, водосбором, транспортной доступностью, населением, рынками и природоохранными ограничениями.
+
+Geological diversity in Kyrgyzstan has created deposits of metallic and non-metallic minerals, coal, construction materials and groundwater resources. Mineral resources are associated with igneous, hydrothermal, sedimentary and metamorphic processes. The geological discovery of a potentially useful material, however, does not by itself mean that it can be extracted safely or profitably.
+
+Examples of mineral commodities include:
+- gold;
+- antimony and mercury;
+- tin and tungsten;
+- rare and rare-earth elements;
+- coal;
+- construction and dimension stone;
+- mineral and thermal groundwater.
+
+Well-known mining areas and deposits include Kumtor, Makmal, Jerooy, Taldy-Bulak, Kadamjay and Haidarkan. Their geological settings, level of exploration, operating status, reserves and environmental implications differ. Showing a site on a map must not imply that it is currently operating or economically viable.
+
+### Occurrence, Resource and Reserve
+
+Several terms must be distinguished when reading geological maps and statistics:
+
+- **Mineral occurrence** — a site where evidence of a potentially useful mineral or geological structure has been identified and may warrant further investigation. An occurrence may be too small, low-grade or technically difficult to mine.
+- **Mineral resource** — a concentration of a useful material assessed from geological evidence at a stated level of confidence. Resource classifications vary between countries and reporting systems.
+- **Reserve** — the part of a resource considered technically and economically mineable under specified conditions at the date of assessment. Reserves may change when prices, technology, infrastructure, legislation or environmental requirements change.
+- **Production** — the material actually extracted during a given period. The existence of reserves does not prove that mining is currently taking place.
+
+These categories are not interchangeable. Published figures should identify the source, assessment year, units, classification system and whether the figure refers to resources, reserves or actual production.
+
+### The Mining Project Life Cycle and Regional Effects
+
+A mining project normally passes through several stages: prospecting and exploration, feasibility assessment, design and permitting, construction, operation, closure and rehabilitation. Employment, transport flows, water and energy use, tax revenues and environmental pressures change at each stage.
+
+Impact assessment should cover the entire life cycle, not just the extraction period. Important issues include the stability of tailings storage facilities and waste dumps, surface- and groundwater quality, dust emissions, worker safety, land restoration, post-closure monitoring and participation by local communities. In mountain catchments, impacts may extend downstream; the area of analysis should therefore not be limited to the administrative boundary of a mining licence or company site.
+
+**Geographic conclusion:** a mineral deposit is more than a point on a map. Its significance depends on the interaction of geology with relief, drainage basins, transport access, population, markets and conservation constraints.
 
 ## 17.11. Географическое положение и исторические пути / Geographic Location and Historical Routes
 
