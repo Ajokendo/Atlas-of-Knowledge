@@ -672,7 +672,7 @@ try {
       }
       await page.locator("#lang").click();
       await page.locator("#search").fill("catalyst");
-      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("alternative reaction pathway")) {
+      if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("lower activation energy")) {
         errors.push(file + ": English catalyst definition does not explain its alternative reaction pathway");
       }
       await page.locator("#lang").click();
