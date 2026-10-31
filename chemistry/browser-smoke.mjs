@@ -816,11 +816,17 @@ try {
       if (await page.locator(".term").count() !== 50) {
         errors.push(file + ": expected 50 bilingual chemistry glossary entries");
       }
+      if (await page.locator("#category").getAttribute("aria-label") !== "Категория") {
+        errors.push(file + ": Russian glossary category selector needs a localized accessible name");
+      }
       await page.locator("#search").fill("лимитирующий реагент");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Реагент")) {
         errors.push(file + ": Russian glossary search did not find the limiting-reactant definition");
       }
       await page.locator("#lang").click();
+      if (await page.locator("#category").getAttribute("aria-label") !== "Category") {
+        errors.push(file + ": English glossary category selector needs a localized accessible name");
+      }
       await page.locator("#search").fill("equivalence point");
       if (await page.locator(".term").count() !== 1 || !(await page.locator(".term").first().innerText()).includes("Equivalence point")) {
         errors.push(file + ": English glossary search did not find the equivalence-point definition");
