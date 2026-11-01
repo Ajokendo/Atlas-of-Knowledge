@@ -383,8 +383,9 @@ try {
     }
 
     if (file === "chapters/chemistry-of-life.html") {
-      if (!(await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt")).includes("Схема обмена углеродом")) {
-        errors.push(file + ": Russian carbon-cycle image alternative text is missing");
+      const carbonAltRu = await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt");
+      if (!(carbonAltRu || "").includes("Схема обмена углеродом")) {
+        errors.push(file + ": Russian carbon-cycle image alternative text is missing; actual=" + JSON.stringify(carbonAltRu));
       }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("снижает pH морской воды") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("парниковый эффект")) errors.push(file + ": Russian environment note must connect carbon emissions, greenhouse effect and ocean acidification");
       if (!(await page.locator("[data-i=carbonCycleProcesses]").innerText()).includes("длительные геологические сроки")) errors.push(file + ": Russian carbon-cycle processes note is incomplete");
@@ -401,8 +402,9 @@ try {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       await page.locator("#lang").click();
-      if (!(await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt")).includes("Diagram of carbon exchange")) {
-        errors.push(file + ": English carbon-cycle image alternative text is missing");
+      const carbonAltEn = await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt");
+      if (!(carbonAltEn || "").includes("Diagram of carbon exchange")) {
+        errors.push(file + ": English carbon-cycle image alternative text is missing; actual=" + JSON.stringify(carbonAltEn));
       }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("seawater pH decreases") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("greenhouse effect")) errors.push(file + ": English environment note must connect carbon emissions, greenhouse effect and ocean acidification");
       if (!(await page.locator("[data-i=carbonCycleProcesses]").innerText()).includes("long geological timescales")) errors.push(file + ": English carbon-cycle processes note is incomplete");
