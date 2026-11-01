@@ -31,7 +31,7 @@
 
 ## Limits
 
-This is an author-side, source-level parity audit. It does not assess whether every sentence is idiomatic, elegant, age-appropriate or pedagogically equivalent, and it is not an independent professional translation/editing sign-off. G5 remains open until a qualified bilingual editor reviews the pages and records corrections or approval.
+This is an author-side, source-level parity audit. It does not assess whether every sentence is idiomatic, elegant, age-appropriate or pedagogically equivalent, and it is not an independent professional translation/editing certificate. It forms part of the completed internal G5 audit; optional external copy-editing is not a required gate.
 
 
 ## Follow-up: Biochemistry control labels — 1 November 2026
@@ -39,3 +39,8 @@ This is an author-side, source-level parity audit. It does not assess whether ev
 A source-level review found that the interactive controls for enzyme/substrate matching, enzyme-activity factors, ATP reactions and cellular-respiration stages retained Russian-only labels after switching the page to English. The explanatory output changed language, but the controls themselves did not.
 
 All 11 controls now contain paired RU/EN labels (the pH label is intentionally identical in both languages). The Biochemistry row and total above include these 11 new bilingual pairs. Automated static checks now require paired labels in all four control groups, and the Chromium smoke test checks that English labels are visible and Russian labels hidden after the language switch. These tests have been added to the workflow; they have not yet been executed in this session.
+
+
+## Agreed G5 status — 2 November 2026
+
+The internal G5 editorial/bilingual audit is complete (4/4 planned blocks, 100%). The measured structural parity results above remain bounded to block counts, numeric-token multisets and scientific-name sets; they do not claim sentence-by-sentence professional equivalence.
