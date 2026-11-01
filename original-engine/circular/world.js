@@ -13,14 +13,14 @@ PALETTE.amber = ['#f3d68e', '#e4b552', '#bf9030'];
 
 export const STATIONS = { whirl: 0, double: 9, flatcar: 22, cone: 36, loop: 46, bank: 60, disc: 76, gravity: 86, orbit: 104, kepler: 128, orbitE: 154, well: 178, escape: 206 };
 // real-size scenes (ball, cone, disc)
-export const V_SCALE = 0.2;        // arrow metres per m/s
-export const A_SCALE = 0.06;       // arrow metres per m/s²
+export const V_SCALE = 0.2;        // arrow metres per м/с
+export const A_SCALE = 0.06;       // arrow metres per м/с²
 export const F_SCALE = 0.15;       // arrow metres per newton
 // cars and the coaster are drawn smaller than life; their arrows have their own scales
-export const ROAD = { draw: 0.25, kN: 0.1, v: 0.08 };       // 1:4; per kN; per m/s
+export const ROAD = { draw: 0.25, kN: 0.1, v: 0.08 };       // 1:4; per kN; per м/с
 export const COASTER = { draw: 0.2, kN: 0.035, v: 0.04 };   // 1:5
-export const SPACE = { draw: 1 / 4e6, uN: 0.004, a: 3e6 };  // spheres: per μN; per m/s² (×10⁻⁶ shown)
-export const ORBIT = { draw: 1 / 4e6, v: 0.4, a: 0.8, kN: 1.0, GJ: 0.1 };    // orbits: 1 m per 4000 km; per km/s; per m/s²; per kN; bars per GJ
+export const SPACE = { draw: 1 / 4e6, uN: 0.004, a: 3e6 };  // spheres: per μN; per м/с² (×10⁻⁶ shown)
+export const ORBIT = { draw: 1 / 4e6, v: 0.4, a: 0.8, kN: 1.0, GJ: 0.1 };    // orbits: 1 m per 4000 km; per км/с; per м/с²; per kN; bars per GJ
 export const WELLS = { GJ: 0.1, kN: 0.2 };                  // the U(r) graph: 10 cm per GJ down; force 20 cm per kN
 
 const f1 = x => (x < -1e-9 ? '−' : '') + Math.abs(x).toFixed(1);
@@ -194,7 +194,7 @@ export function buildWorld(E) {
   // ---------- 8 · two spheres pulling on each other ----------
   const X7 = STATIONS.gravity, GY = 0.9, R1 = M.radiusOf(M.SPHERES.m1), R2 = M.radiusOf(M.SPHERES.m2);
   const gG = asm('gravity', root, { title: 'Две железные сферы', sub: 'все массы притягиваются друг к другу' });
-  const s1 = ball(gG, R1, 'm₁ · 1000 kg'), s2 = ball(gG, R2, 'm₂ · 2000 kg');
+  const s1 = ball(gG, R1, 'm₁ · 1000 кг'), s2 = ball(gG, R2, 'm₂ · 2000 кг');
   const F12 = vec(gG, 'ink', 'm'), F21 = vec(gG, 'ink', 'm'), A1 = vec(gG, 'red', 'm'), A2 = vec(gG, 'red', 'm'), rG = seg(root, { dash: 0.06 });
   label('vec', 'F<sub>12</sub>', () => F12.visible ? tip(F12, 0).add(V(-0.16, 0.14, 0)) : null); label('vec', 'F<sub>21</sub>', () => F21.visible ? tip(F21, 0).add(V(0.16, 0.14, 0)) : null);
   label('vec red', 'a<sub>1</sub>', () => tip(A1)); label('vec red', 'a<sub>2</sub>', () => tip(A2));
