@@ -855,3 +855,10 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Chapter 18 bibliography follow-up: corrected the Djamgyr gold-mineralisation article to its verified published title and DOI (`10.1016/j.oregeorev.2017.03.007)); completed the Geological Society Special Publication 427 citation with editors Brunet, McCann and Sobel and DOI `10.1144/SP427`. Verified commit `694f714d54805981591c7dfc8ddb4e86d10c6016`; blob `548c6a2224493ff02513d33d1326edbb2dd238a1`.
+
+
+## README editorial-status refresh — 1 November 2026
+
+- Updated the Geography README to distinguish completed structural/visual inventory work from still-pending full scientific verification, final bilingual proofread, map-data validation, visual production and web-reader development.
+- The README now records the verified 216-asset register and the fact that primary-source verification has been performed selectively for Chapters 17–26, without implying that every claim has been checked.
+- Verified commit `11e00b4e88d3298748ba3db2532b961821f7b856`; blob `403e42bfe0f49edfa38c30166c45ff421a09830e`.
