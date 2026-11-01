@@ -429,3 +429,17 @@
 - Detailed G4 findings and references: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
 - Remaining G4 blocks: (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency.
 - Independent scientific sign-off and G5 bilingual/editorial review remain open. Controlled editorial readiness remains **95/100**; the 52 illustration placements remain Deferred. No publication-readiness increase is claimed.
+
+
+## G4 scientific audit checkpoint — 75% (1 November 2026)
+
+- Completed three of four planned G4 review blocks: (1) regional biodiversity/species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry. Author-side G4 progress: **75%**.
+- Cell biology: verified core cell theory, membrane transport, organelles, cell-cycle checkpoints, mitosis/cytokinesis, apoptosis and signalling. Aligned the English telophase output with the Russian version.
+- Genetics: checked Mendelian ratios with their complete-dominance and probability caveats; checked transcription, translation, codons, non-coding RNA, mutation types, gene regulation and epigenetics. Added a substantive bilingual DNA-replication block because replication was listed as a key topic but had not been explained beyond the diagram/S-phase reference. Covers semiconservative copying, origins, helicase, primase, 5′→3′ polymerase activity, leading/lagging strands, Okazaki fragments and ligase.
+- Microbiology: checked bacterial/archaeal/viral distinctions, growth phases, viral cycles, antimicrobial resistance and transformation/transduction/conjugation. Qualified bacteria as typically unicellular, noting filaments, biofilms and differentiated colonies; added a 2025 review source.
+- Biochemistry: checked enzyme catalysis, ATP, glycolysis, citric-acid cycle and respiratory chain. Aligned the Russian interactive ATP hydrolysis output with the English note that actual cellular ΔG depends on reactant/product concentrations.
+- Block 3 changes: commits `83ba25f09dd57d4d6302c4214e519d6407d0b84b`, `cad935bef4f19c160b2a355ce268778cec3cf9bd`, `8d1686ae1ae51ae15840f7e3a0a3c89ca2840451`, `743086f0fa9757251ab8696fc8ddc79f0c610d27`, `dcaee99498e455c3fe487d024a2e009d5466c793`, `bec689218256aea5d4db5da268c0ece43c15daba`.
+- CI run `41309806986` for commit `bec689218256aea5d4db5da268c0ece43c15daba` completed successfully: static Biology page/link/script validation and Chromium browser smoke tests passed. The browser run covered all Biology HTML pages at configured mobile and desktop viewport sizes, language toggles, keyboard reachability, accessible names and horizontal overflow. This does not replace screen-reader testing, full contrast review or physical-device testing.
+- Detailed findings and references: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
+- Remaining G4 block: (4) anatomy, physiology, ecology and cross-chapter scientific consistency.
+- Independent scientific sign-off and G5 bilingual/editorial review remain open. Controlled editorial readiness remains **95/100**; 52 illustration placements remain Deferred. No publication-readiness increase is claimed.
