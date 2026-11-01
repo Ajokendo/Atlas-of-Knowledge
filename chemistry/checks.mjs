@@ -231,6 +231,18 @@ for (const [label, evidence] of [
   if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
 }
 
+
+for (const [label, evidence] of [
+  ["carbon fixation into biomass", "органические вещества биомассы"],
+  ["bidirectional ocean carbon exchange", "поглощает CO₂ из атмосферы и отдаёт его обратно"],
+  ["geological carbon storage", "длительные геологические сроки"],
+  ["carbon cycle in English", "Photosynthesis transfers carbon from atmospheric CO₂"],
+  ["bidirectional ocean exchange in English", "both absorbs CO₂ from the atmosphere and releases it back"],
+  ["geological carbon storage in English", "long geological timescales"]
+]) {
+  if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
+}
+
 const periodicSource = fs.readFileSync(path.join(root, "periodic-table.html"), "utf8");
 const periodicData = periodicSource.match(/const raw=\`([\s\S]*?)\`\.trim\(\);/);
 if (!periodicData) {
