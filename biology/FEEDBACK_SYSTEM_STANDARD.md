@@ -4,9 +4,11 @@
 **Canonical branch:** `workspace/biology`  
 **Scope:** reusable product and editorial standard for the whole Atlas of Knowledge portal. This file is stored in the Biology work area as the first pilot specification; it does not authorize edits to other subject folders or shared portal files.
 
-## 1. Purpose
+## 1. Purpose and intended rollout
 
-Provide readers with a simple, free way to report factual errors, unclear explanations, translation issues, accessibility barriers, technical faults, and ideas for improvement. Feedback is an editorial input, not an automatic scientific verdict and not a substitute for formal peer review.
+Provide teachers with a guided, low-friction way to report factual errors, unclear explanations, translation issues, accessibility barriers, technical faults, curriculum gaps, and ideas for classroom use. The primary planned rollout is a **post-completion pedagogical pilot with teachers invited by the project owner**. This is not an always-on public feedback channel at the current stage. Feedback is an editorial input, not an automatic scientific verdict and not a substitute for formal peer review.
+
+The Biology pilot questionnaire is in `FEEDBACK_WIDGET_TEMPLATE.html`. It asks about teaching context, curriculum fit, age appropriateness, clarity, scientific accuracy, bilingual quality, visuals, interactive features, classroom usefulness, accessibility/mobile use, specific examples, missing topics, and priorities. Ratings include a “cannot assess” option; open questions prompt the reviewer to identify the exact chapter/claim and explain the reason. This is designed to produce actionable feedback rather than a generic star rating.
 
 ## 2. Two entry points
 
@@ -126,7 +128,7 @@ The endpoint and storage provider must be selected and configured before enablin
 - [ ] Keyboard, screen-reader, contrast, mobile, and bilingual tests pass.
 - [ ] A confirmed correction can be traced to evidence and a published commit.
 
-**Current pilot status:** policy and architecture specified. No live feedback endpoint or moderation database is configured by this document. Do not describe the form as operational until the complete submission path is tested.
+**Current pilot status:** questionnaire and policy prepared for a future teacher pilot after portal completion. No live feedback endpoint or moderation database is configured. The submit button remains disabled and the form explicitly says responses are not submitted or stored. Do not describe the form as operational until the project owner authorizes the pilot and the complete submission path is tested.
 
 
 ## Reusable interface template
