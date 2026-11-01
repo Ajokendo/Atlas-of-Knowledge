@@ -1018,3 +1018,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Generated collage ID `727a305a-0525-40e2-a221-34f9d82156b0`; extracted one new local WebP candidate, a red-orange pendant bell-shaped alpine flower (505×504).
 - Taxonomic hold: do not label as `Petilium eduardii`, `Fritillaria`, or another taxon without botanical review. No Kyrgyzstan locality is established.
 - Candidate remains local-only, uncommitted and unapproved. All 52 insertion markers remain Deferred; readiness remains 95/100. See `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+
+
+## Sixth illustration production attempt — 1 November 2026
+
+- Generated a standalone square alpine-flower concept (ImageGen ID `e4c6a92e-803e-4c4e-9b1f-d9ff6fe68671`) and created local WebP `biology-fritillary-like-flower-standalone-candidate.webp` (1254×1254).
+- It is only visually fritillary-like; no genus/species attribution or Kyrgyzstan locality is claimed. Expert botanical review is required.
+- Local-only, uncommitted and unapproved. Existing 52 image markers remain Deferred. Readiness remains 95/100.
