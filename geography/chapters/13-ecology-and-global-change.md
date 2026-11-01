@@ -65,6 +65,7 @@ This chapter introduces core ecological concepts, the geography of human pressur
 ## 13.4. Изменение климата: причины и механизмы / Climate Change: Causes and Mechanisms
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 13-A / IMAGE PLACEHOLDER 13-A]** Схема естественного и усиленного парникового эффекта с основными парниковыми газами и источниками выбросов.
+> **EN:** Diagram of the natural and enhanced greenhouse effect, showing major greenhouse gases and emission sources.
 
 Климат Земли меняется под действием естественных факторов и антропогенных воздействий. Современное быстрое глобальное потепление преимущественно обусловлено увеличением концентраций парниковых газов в результате деятельности человека.
 
@@ -99,6 +100,7 @@ This chapter introduces core ecological concepts, the geography of human pressur
 ## 13.6. Биоразнообразие и изменение экосистем / Biodiversity and Ecosystem Change
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 13-B / IMAGE PLACEHOLDER 13-B]** Инфографика трёх уровней биоразнообразия и основных драйверов его утраты.
+> **EN:** Infographic showing the three levels of biodiversity and the main drivers of biodiversity loss.
 
 Биоразнообразие включает генетическое, видовое и экосистемное разнообразие. Его утрата связана с преобразованием местообитаний, чрезмерной эксплуатацией ресурсов, загрязнением, климатическими изменениями и инвазивными видами.
 
@@ -154,6 +156,7 @@ This chapter introduces core ecological concepts, the geography of human pressur
 ## 13.10. Экологические риски и уязвимость территорий / Environmental Risks and Territorial Vulnerability
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 13-C / IMAGE PLACEHOLDER 13-C]** Схема экологического риска: опасность, экспозиция, уязвимость и возможные последствия.
+> **EN:** Environmental-risk diagram showing hazard, exposure, vulnerability and potential consequences.
 
 **Экологический риск** возникает при сочетании опасного явления, подверженности людей и активов воздействию и их уязвимости. Опасность сама по себе не равна риску: одинаковое природное явление может иметь разные последствия в зависимости от плотности населения, качества зданий, доступности предупреждения и готовности служб.
 
@@ -287,6 +290,7 @@ This is a simplified estimate of the direct effect of reduced electricity use. A
 ## 13.13. Экологическая оценка и мониторинг / Environmental Assessment and Monitoring
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 13-D / IMAGE PLACEHOLDER 13-D]** Сравнение EIA, SEA и экологического мониторинга: объект оценки, стадия принятия решения и тип данных.
+> **EN:** Comparison of EIA, SEA and environmental monitoring, showing the assessment object, decision-making stage and data type.
 
 Экологический мониторинг — систематическое наблюдение за состоянием природных компонентов и воздействиями на них. Он включает полевые измерения, лабораторные анализы, спутниковые наблюдения, датчики, статистику и общественные наблюдения.
 
