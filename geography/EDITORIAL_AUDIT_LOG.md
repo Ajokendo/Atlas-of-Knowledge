@@ -962,3 +962,6 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Chapter 13 planetary-boundaries update: added the 2023 assessment that six of nine planetary boundaries were transgressed, in both Russian and English, with an explicit methodological caveat. Added Richardson et al. (2023), *Science Advances*, DOI `10.1126/sciadv.adh2458`. Verified commit `53af014922dba2da2ce03539c84d76287ddd9777`; blob `26d8c6c8ca2fdd3450f79650a2d652a68f58824f`.
+
+
+- Chapter 01 bibliography follow-up: replaced the generic ICA homepage with the direct Cartographic Body of Knowledge resource maintained by the ICA Working Group. Verified commit `906afad7fe5fc7ead78d32bbda369f504c9ce36c`; blob `2aa05318866f9d325fd63c8330c53636d727b5f6`.
