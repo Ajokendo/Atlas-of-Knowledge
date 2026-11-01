@@ -446,6 +446,22 @@ if (!faunaKyrgyzstanFile.includes("209 adult males") || !faunaKyrgyzstanFile.inc
 if (!faunaKyrgyzstanFile.includes("B. viridis") || !faunaKyrgyzstanFile.includes("presence as unconfirmed") || !faunaKyrgyzstanFile.includes("A conservation listing and evidence of current occurrence are different things")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Red Data Book inclusion must not be presented as proof of current amphibian occurrence");
 }
+
+if (!faunaKyrgyzstanFile.includes("wingeds.world/species/reptile/kg") || !faunaKyrgyzstanFile.includes("19 October 2026") || !faunaKyrgyzstanFile.includes("43 species") || !faunaKyrgyzstanFile.includes("19 subspecies")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: dated Kyrgyz reptile list must retain its species and subspecies totals");
+}
+if (!faunaKyrgyzstanFile.includes("Tenuidactylus fedtschenkoi") || !faunaKyrgyzstanFile.includes("Varanus griseus") || !faunaKyrgyzstanFile.includes("page header says 44") || !faunaKyrgyzstanFile.includes("summary line reports 43")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: reptile account must distinguish introduced/absent taxa and flag the 44-versus-43 count discrepancy");
+}
+if (!faunaKyrgyzstanFile.includes("central_asia_reptile&amp;v=1.15") || !faunaKyrgyzstanFile.includes("26 October 2026") || !faunaKyrgyzstanFile.includes("including within <i class=\"latin\">Varanus</i>")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: latest GBIF Central Asian reptile checklist must be linked, dated and scoped");
+}
+if (!regionalSpeciesAudit.includes("Kyrgyzstan reptile country list (snapshot 19 October 2026)") || !regionalSpeciesAudit.includes("44-versus-43 count")) {
+  errors.push("Regional species audit must record the dated reptile snapshot and unresolved count discrepancy");
+}
+if (!regionalSpeciesAudit.includes("Central Asian reptile checklist (GBIF dataset, version 1.15, 26 October 2026)")) {
+  errors.push("Regional species audit must record the 2026 Central Asian reptile checklist with its evidence-scope caveat");
+}
 if (!regionalSpeciesAudit.includes("Kyrgyzstan amphibian country list (snapshot 30 September 2026)") || !regionalSpeciesAudit.includes("4 resident, 3 unconfirmed")) {
   errors.push("Regional species audit must retain the dated Kyrgyz amphibian snapshot and distinguish resident from unconfirmed taxa");
 }
