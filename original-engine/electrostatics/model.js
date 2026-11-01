@@ -34,9 +34,9 @@ export const coulomb = (q1, q2, r) => K * Math.abs(q1 * q2) / (r * r);
 
 // ---------- 0 · charge: three carbon atoms (6 protons each) ----------
 export const ATOMS = [
-  { name: 'neutral atom', p: 6, e: 6 },
-  { name: 'negative ion', p: 6, e: 7 },
-  { name: 'positive ion', p: 6, e: 5 },
+  { name: 'Нейтральный атом', p: 6, e: 6 },
+  { name: 'Отрицательный ион', p: 6, e: 7 },
+  { name: 'Положительный ион', p: 6, e: 5 },
 ];
 export const netCharge = a => (a.p - a.e) * QE;
 export const ORBIT_T = 6;           // s per lap of the cartoon electrons
