@@ -652,3 +652,13 @@
 - Common palette tokens and recurring explicit text colors are now mapped for a coordinated correction: `--muted`, `--accent`, `#77736e`, `#71806f`, and `#60765d`. No palette changes have yet been applied to the pages.
 - Feedback form remains disabled; endpoint remains unset. Independent G4 scientific and G5 editorial sign-off remain open. 52 planned visual assets remain deferred.
 - Overall editorial readiness remains 95/100; contrast/accessibility work is still in progress and must not be treated as passed.
+
+
+## 2026-11-01 — first contrast remediation pass
+
+- Applied coordinated contrast overrides to all 13 Biology HTML pages (overview + 10 subject chapters + 2 Kyrgyzstan regional chapters). Changes are limited to the Biology pages in `workspace/biology`.
+- Updated recurring palette colors: muted text `#8c8c90` → `#68686b`; accent text `#557c58` → `#426447`; secondary copy `#77736e` → `#68645f`; wonder kicker `#71806f` → `#52644f`; image-note kicker `#60765d` → `#4d6349`. Overrides preserve the overall light/green visual identity while darkening small text.
+- Changes committed page-by-page; final page commit at this checkpoint: `998960eb56d6f130e242a4748157be9ea553960d`.
+- CI for the latest commit is still running. No claim is made yet that contrast passes. The next required step is to inspect the fresh browser audit results, identify residual failures, and repeat until the sampled text meets WCAG AA or is explicitly documented as outside the sampler's scope.
+- Contrast audit stage estimate: 70% (first coordinated correction pass applied; automated verification and residual-state review pending).
+- Overall editorial readiness remains 95/100. G4/G5 independent review, 52 deferred visual assets, and physical-device/screen-reader checks remain open. Feedback intake remains disabled.
