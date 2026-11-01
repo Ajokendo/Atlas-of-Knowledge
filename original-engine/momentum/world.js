@@ -40,7 +40,7 @@ export function buildWorld(E) {
   const pArrow = (g, s = 1) => arrow(g, 'ink', { r: 0.022 * s, head: 0.12 * s, headR: 0.06 * s, name: 'Импульс тела' });
   const totArrow = (g, s = 1) => arrow(g, 'blue', { r: 0.026 * s, head: 0.14 * s, headR: 0.07 * s, name: 'Полный импульс системы' });
   const fArrow = (g, s = 1) => arrow(g, 'red', { r: 0.022 * s, head: 0.12 * s, headR: 0.06 * s, name: 'Сила' });
-  const gArrow = (g, s = 1, name = 'Velocity') => arrow(g, 'dark', { r: 0.018 * s, head: 0.1 * s, headR: 0.05 * s, name, tone: 'mid' });
+  const gArrow = (g, s = 1, name = 'Скорость') => arrow(g, 'dark', { r: 0.018 * s, head: 0.1 * s, headR: 0.05 * s, name, tone: 'mid' });
   const tip = (a, pad = 0.16) => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + a.userData.arrow.tip.scale.y * a.userData.arrow.head + pad / a.scale.y, 0)) : null;
   const mid = (a, off) => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y / 2, 0)).add(off) : null;
   const ex = g => Math.max(g.userData.explode, 0);
@@ -102,11 +102,11 @@ export function buildWorld(E) {
   part(gE, box(1.0, 0.02, 0.7, 0.005), { tone: 'lo', pal: 'board', pos: [0, 0.01, 0], name: 'Поверхность' });
   const pillow = part(gE, box(0.26, PH, 0.24, 0.06), { tone: 'mid', pal: 'board', pos: [EGX[0], 0.02 + PH / 2, 0], name: 'Подушка' });
   const eggGeo = new THREE.SphereGeometry(ER, 28, 20);
-  const eggs = EGX.map((x, i) => part(gE, eggGeo, { tone: 'hi', name: i ? 'Egg on the floor' : 'Egg on the pillow' }));
-  const fE = eggs.map(() => fArrow(gE, 0.15)), jE = eggs.map(() => gArrow(gE, 0.17, 'Impulse'));
+  const eggs = EGX.map((x, i) => part(gE, eggGeo, { tone: 'hi', name: i ? 'Яйцо на полу' : 'Яйцо на подушке' }));
+  const fE = eggs.map(() => fArrow(gE, 0.15)), jE = eggs.map(() => gArrow(gE, 0.17, 'Импульс силы'));
   fE.forEach(a => label('vec red', '<i>F</i><sub>net</sub>', () => tip(a, 0.03)));
   jE.forEach(a => label('vec', '<i>J</i>', () => ex(gE) > 0.3 ? tip(a, 0.03) : null));
-  label('tick', 'pillow', () => eggRoot.localToWorld(V(EGX[0] + 0.06, 0.02, 0.24))); label('tick', 'floor', () => eggRoot.localToWorld(V(EGX[1] + 0.06, 0.02, 0.24)));
+  label('tick', 'Подушка', () => eggRoot.localToWorld(V(EGX[0] + 0.06, 0.02, 0.24))); label('tick', 'floor', () => eggRoot.localToWorld(V(EGX[1] + 0.06, 0.02, 0.24)));
 
   // ---------- 4–6 · carts on a track ----------
   function collision(key, c, X, meta) {
