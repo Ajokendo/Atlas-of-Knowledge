@@ -221,7 +221,7 @@
 
 ### 3.6.1. Очаг и эпицентр / Focus and Epicentre
 
-- **Очаг (focus, hypocentre):** область в недрах, где начинается разрыв и высвобождение энергии.
+- **Очаг (hypocentre, focus):** точка в недрах, где начинается разрыв и высвобождение энергии; на учебных схемах его иногда условно показывают как небольшую область.
 - **Эпицентр (epicentre):** точка на поверхности Земли непосредственно над очагом.
 - **Разлом (fault):** трещинная зона, вдоль которой происходило или может происходить смещение пород.
 
@@ -648,7 +648,7 @@ The idea of continental drift developed in the early twentieth century. Modern p
 
 An earthquake is ground shaking caused by the rapid release of accumulated elastic energy in the crust or upper mantle. The most common cause is sudden displacement along a fault.
 
-- **Focus (hypocentre):** the subsurface region where rupture and energy release begin.
+- **Focus (hypocentre):** the point within the Earth where rupture and energy release begin; teaching diagrams may represent it as a small area.
 - **Epicentre:** the point on Earth's surface directly above the focus.
 - **Fault:** a fracture zone along which rocks have moved or may move.
 
