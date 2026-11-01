@@ -820,6 +820,7 @@ Using a prepared teaching map excerpt:
 29. U.S. National Park Service. *Karst Landscapes*. https://www.nps.gov/subjects/caves/karst-landscapes.htm
 30. U.S. National Park Service. *Speleothems*. https://www.nps.gov/subjects/caves/speleothems.htm
 31. U.S. Geological Survey. *Karst Aquifers*. https://www.usgs.gov/mission-areas/water-resources/science/karst-aquifers
+32. British Geological Survey. *How to Classify a Landslide*. https://www.bgs.ac.uk/discovering-geology/earth-hazards/landslides/how-to-classify-a-landslide/
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
