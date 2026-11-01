@@ -93,10 +93,10 @@
 
 ### 4.4.1. Происхождение гор / Mountain Building
 
-Основные типы горных областей:
+Основные типы горных областей по строению и происхождению:
 
-- **Складчатые горы:** возникают при сжатии и деформации слоёв земной коры.
-- **Складчато-надвиговые горы:** формируются при укорочении коры, складчатости и надвигах.
+- **Складчатые горы:** возникают при сжатии и складчатой деформации слоёв земной коры.
+- **Складчато-надвиговые горы:** разновидность складчатых гор, формирующаяся при значительном укорочении коры, складчатости и надвигах.
 - **Глыбовые горы:** связаны с разломами и вертикальными перемещениями блоков.
 - **Вулканические горы:** образуются в результате накопления лавы и пирокластического материала.
 - **Эрозионно-денудационные массивы:** представляют собой остаточные формы, преобразованные длительным разрушением и расчленением.
@@ -115,7 +115,7 @@
 
 ### 4.4.3. Высота и относительное превышение / Elevation and Local Relief
 
-Абсолютная высота показывает положение точки относительно принятого уровня отсчёта, обычно среднего уровня моря. Относительная высота — превышение одной точки над другой, например вершины над долиной у подножия.
+Абсолютная высота показывает положение точки относительно принятого уровня отсчёта, обычно среднего уровня моря. Относительное превышение (местный перепад высот) — разница высот между двумя точками, например между вершиной и долиной у подножия.
 
 Высокая абсолютная отметка не всегда означает большую относительную крутизну или расчленённость. Для анализа горного рельефа нужны оба показателя.
 
@@ -503,9 +503,9 @@ Mountains are parts of Earth's surface that rise significantly above their surro
 #### 4.4.1. Mountain Building
 
 
-Major mountain types include:
-- **fold mountains**, formed by compression and deformation of the crust;
-- **fold-and-thrust mountains**, formed by crustal shortening, folding and thrusting;
+Major mountain types, classified by structure and origin, include:
+- **fold mountains**, formed by compression and folding of the crust;
+- **fold-and-thrust belts**, a more specific type of fold mountain system formed by substantial crustal shortening, folding and thrusting;
 - **block mountains**, associated with faults and vertical movement of crustal blocks;
 - **volcanic mountains**, built by accumulated lava and pyroclastic material; and
 - **erosional or denudational massifs**, residual forms shaped by prolonged erosion and dissection.
@@ -520,7 +520,7 @@ Parts of mountain relief include a **summit** (the highest point of a mountain o
 #### 4.4.3. Elevation and Local Relief
 
 
-**Absolute elevation** describes the position of a point relative to a reference surface, usually mean sea level. **Relative elevation** is the height difference between two points, such as a summit and the valley at its foot. A high absolute elevation does not necessarily mean a steep or highly dissected landscape; both measures are needed.
+**Absolute elevation** describes the position of a point relative to a reference surface, usually mean sea level. **Local relief (relative elevation)** is the height difference between two points, such as a summit and the valley at its foot. A high absolute elevation does not necessarily mean a steep or highly dissected landscape; both measures are needed.
 
 **[ILLUSTRATION PLACEHOLDER 4.4-A]** Show a mountain landscape with summit, ridge, pass, slopes, valley, mountain foot and relative relief.
 
@@ -773,7 +773,7 @@ Using a prepared teaching map excerpt:
 
 1. U.S. Geological Survey (USGS). *Geology and Geologic Mapping Resources*. https://www.usgs.gov/programs/national-cooperative-geologic-mapping-program
 2. NASA Earth Observatory. *Blue Marble: Topography and Bathymetry Maps*. https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/topography-bathymetry-maps/
-3. NOAA National Centers for Environmental Information. *ETOPO Global Relief Model*. https://www.ncei.noaa.gov/products/etopo-global-relief-model
+3. NOAA National Centers for Environmental Information. *ETOPO 2022 15 Arc-Second Global Relief Model*. https://www.ncei.noaa.gov/products/etopo-global-relief-model (DOI: https://doi.org/10.25921/fd45-gt74).
 4. OpenTopography. *Access to topographic data and digital elevation models*. https://opentopography.org/
 5. British Geological Survey. *Geological Processes*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
 6. U.S. Geological Survey. *What Is a Digital Elevation Model (DEM)?* https://www.usgs.gov/faqs/what-a-digital-elevation-model-dem
