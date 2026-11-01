@@ -562,6 +562,20 @@ if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/sotrudn
 
 if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/osskim-regionalnym-upravleniem-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-na-territorii-gosudarstvennogo-prirodnogo-zapovednika-kulun-ata-uspesno-provedyon-ocerednoi-kompleks-meropriyatii-po-monitoringu-bioraznoobraziya")) errors.push("Osh Region Kulun-Ata detections must link to the Ministry source");
 
+// The 2026 Kempir-Abad expedition is a dated institutional report, not a complete local checklist.
+if (!faunaKyrgyzstanFile.includes("https://oshsu.kg/public/en/news/4569") ||
+    !faunaKyrgyzstanFile.includes("14 видов рыб") ||
+    !faunaKyrgyzstanFile.includes("14 fish species") ||
+    !faunaKyrgyzstanFile.includes("Diptychus maculatus") ||
+    !faunaKyrgyzstanFile.includes("not a completed reservoir checklist")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Kempir-Abad fish expedition must retain its source, taxonomic follow-up and checklist-scope caveat");
+}
+if (!regionalSpeciesAudit.includes("Kempir-Abad basin fish expedition (30 July–4 August 2026)") ||
+    !regionalSpeciesAudit.includes("not a completed reservoir/oblast checklist") ||
+    !regionalSpeciesAudit.includes("molecular-genetic analysis")) {
+  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Kempir-Abad fish expedition must retain its date, unresolved analysis and evidence limits");
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
