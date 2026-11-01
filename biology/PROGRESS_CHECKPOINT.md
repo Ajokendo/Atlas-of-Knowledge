@@ -602,3 +602,5 @@
 - Added `FEEDBACK_PORTING_GUIDE.md` with copy-ready instructions for the other subject teams and discipline-specific optional metadata examples.
 - The documents are saved in `biology/` on `workspace/biology` only. No other subject folder, root portal file, or shared publishing configuration was changed.
 - **Not yet live:** a secure submission endpoint and private moderation queue have not been selected/configured; the form must not claim successful receipt until the complete path is tested.
+
+- Added `FEEDBACK_WIDGET_TEMPLATE.html`, a reusable bilingual form template with chapter/anchor metadata, optional evidence/contact fields, and explicit publication consent. Its endpoint is intentionally blank; submission is disabled pending a secure service and moderation queue.
