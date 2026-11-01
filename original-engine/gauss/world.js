@@ -86,10 +86,10 @@ export function buildWorld(E) {
   const fE = [0, 1, 2].map(() => fieldArrow(gF, 'Field'));
   label('vec blue', '<b>E</b>', () => tip(fE[2]));
   const plateF = new THREE.Group(); plateF.position.copy(cF); gF.add(plateF);
-  part(plateF, box(0.03, 2, 2, 0.01), { tone: 'hi', name: 'Surface', mat: shadeMat('paper', { opacity: 0.6 }) });
+  part(plateF, box(0.03, 2, 2, 0.01), { tone: 'hi', name: 'Поверхность', mat: shadeMat('paper', { opacity: 0.6 }) });
   const fA = inkArrow(gF, 'Area vector');
   label('vec', '<b>A</b>', () => tip(fA));
-  const pierce = Array.from({ length: 16 }, () => part(gF, new THREE.SphereGeometry(0.05, 12, 8), { tone: 'faint', pal: 'blue', name: 'Field lines through it' }));
+  const pierce = Array.from({ length: 16 }, () => part(gF, new THREE.SphereGeometry(0.05, 12, 8), { tone: 'faint', pal: 'blue', name: 'Линии поля, проходящие через поверхность' }));
   const fPerp = greyArrow(gF, 'E components'), fPar = greyArrow(gF, 'E components'), fEc = fieldArrow(gF, 'Field');
   label('vec', 'E cos θ', () => ex(gF) > 0.3 && Math.abs(Math.cos(plateF.rotation.y)) > 0.25 ? tip(fPerp) : null);
   label('vec', 'E sin θ', () => ex(gF) > 0.3 && Math.sin(plateF.rotation.y) > 0.25 ? tip(fPar) : null);
@@ -109,8 +109,8 @@ export function buildWorld(E) {
     for (const d of fib(30)) polyline(root, M.fieldLine(pf, [d.x * 0.02, d.y * 0.02, d.z * 0.02], { step: 0.005, max: 56 }), cG); }
   const dirsG = fib(14);
   const eG = dirsG.map(() => fieldArrow(gG));
-  const dAG = dirsG.map(() => inkArrow(gG, 'Area elements dA'));
-  const tileG = dirsG.map(() => part(gG, box(0.36, 0.02, 0.36, 0.005), { tone: 'mid', pal: 'base', name: 'Area elements dA' }));
+  const dAG = dirsG.map(() => inkArrow(gG, 'Элементы площади dA'));
+  const tileG = dirsG.map(() => part(gG, box(0.36, 0.02, 0.36, 0.005), { tone: 'mid', pal: 'base', name: 'Элементы площади dA' }));
   const rG = greyArrow(gG, 'Radius');
   label('vec', 'r', () => tip(rG));
   label('vec blue', '<b>E</b>', () => tip(eG[9]));
@@ -139,8 +139,8 @@ export function buildWorld(E) {
   // ======================================================================
   const cL = V(STATIONS.line, Y, 0);
   const gL = asm('line', root, { title: 'Линейный заряд внутри гауссова цилиндра', sub: 'поток проходит только через боковую поверхность' });
-  part(root, xAxis(new THREE.CylinderGeometry(0.06, 0.06, 11, 20)), { tone: 'hi', name: 'Line of charge', pos: cL.toArray() });
-  dots(root, Array.from({ length: 44 }, (_, i) => V(cL.x - 5.375 + i * 0.25, Y, 0.06)), 'Line of charge', 0.035);
+  part(root, xAxis(new THREE.CylinderGeometry(0.06, 0.06, 11, 20)), { tone: 'hi', name: 'Линия заряда', pos: cL.toArray() });
+  dots(root, Array.from({ length: 44 }, (_, i) => V(cL.x - 5.375 + i * 0.25, Y, 0.06)), 'Линия заряда', 0.035);
   label('axis', '−∞', () => V(cL.x - 5.9, Y, 0)); label('axis', '+∞', () => V(cL.x + 6.3, Y, 0));
   label('tick', `λ = ${(M.LINE.lam * 1e9).toFixed(1)} nC/m`, () => V(cL.x + 5.2, Y + 0.3, 0));
   const cylL = new THREE.Group(); cylL.position.copy(cL); gL.add(cylL);
@@ -179,8 +179,8 @@ export function buildWorld(E) {
   // the sheet
   const cS = V(STATIONS.sheet, Y, 0), W2 = 2.2;
   const gS = asm('sheet', root, { title: 'Заряженный лист и гауссов цилиндр', sub: 'поток выходит через обе крышки' });
-  part(gS, box(2 * W2, 0.05, 2 * W2, 0.01), { tone: 'hi', name: 'Sheet', pos: cS.toArray() });
-  dots(gS, scatter(7, 90, cS.x - W2 + 0.1, cS.x + W2 - 0.1, -W2 + 0.1, W2 - 0.1, Y + 0.03), 'Sheet');
+  part(gS, box(2 * W2, 0.05, 2 * W2, 0.01), { tone: 'hi', name: 'Заряженный лист', pos: cS.toArray() });
+  dots(gS, scatter(7, 90, cS.x - W2 + 0.1, cS.x + W2 - 0.1, -W2 + 0.1, W2 - 0.1, Y + 0.03), 'Заряженный лист');
   const pbS = pillbox(gS, cS, M.SHEET.pr * D, -0.8, 0.8, 0.8);
   const eS = []; for (const x of grid3) for (const z of grid3) for (const s of [1, -1]) eS.push({ x, z, s, ar: fieldArrow(gS) });
   label('vec blue', '<b>E</b>', () => tip(eS[0].ar)); label('vec blue', '<b>E</b>', () => tip(eS[1].ar));
@@ -191,7 +191,7 @@ export function buildWorld(E) {
   // the plate
   const cP = V(STATIONS.plate, Y, 0), TP = M.PLATE.t * D;
   const gP = asm('plate', root, { title: 'Заряженная металлическая пластина', sub: 'поток выходит только через одну крышку' });
-  part(gP, box(2 * W2, TP, 2 * W2, 0.02), { tone: 'hi', name: 'Metal plate', pal: 'base', pos: cP.toArray() });
+  part(gP, box(2 * W2, TP, 2 * W2, 0.02), { tone: 'hi', name: 'Металлическая пластина', pal: 'base', pos: cP.toArray() });
   dots(gP, [...scatter(11, 90, cP.x - W2 + 0.1, cP.x + W2 - 0.1, -W2 + 0.1, W2 - 0.1, Y + TP / 2 + 0.02), ...scatter(12, 90, cP.x - W2 + 0.1, cP.x + W2 - 0.1, -W2 + 0.1, W2 - 0.1, Y - TP / 2 - 0.02)], 'Surface charge');
   const pbP = pillbox(gP, cP, M.SHEET.pr * D, 0, TP / 2 + 0.8, 0.8);
   const eP = []; for (const x of grid3) for (const z of grid3) for (const s of [1, -1]) eP.push({ x, z, s, ar: fieldArrow(gP) });
@@ -210,7 +210,7 @@ export function buildWorld(E) {
     const mats = [fadeMat(kind === 'c' ? 'base' : 'paper'), fadeMat(kind === 'c' ? 'dark' : 'base')];
     part(g, new THREE.SphereGeometry(R1, 64, 40, WEDGE[1], 2 * Math.PI - (WEDGE[1] - WEDGE[0])), { tone: 'hi', name: kind === 'c' ? 'Metal sphere' : 'Insulating sphere', mat: mats[0], pos: c.toArray() });
     for (const ph of WEDGE) {
-      for (const f of twoSided(g, new THREE.CircleGeometry(R1, 40, -Math.PI / 2, Math.PI), { tone: 'hi', name: 'Cut face', mat: mats[1], pos: c.toArray() })) f.rotation.y = Math.PI + ph;
+      for (const f of twoSided(g, new THREE.CircleGeometry(R1, 40, -Math.PI / 2, Math.PI), { tone: 'hi', name: 'Сечение', mat: mats[1], pos: c.toArray() })) f.rotation.y = Math.PI + ph;
     }
     // charge marks: on the surface of the metal; through the volume (seen on the cut faces) otherwise
     let pts = [];
@@ -253,11 +253,11 @@ export function buildWorld(E) {
     const mats = [fadeMat(kind === 'c' ? 'base' : 'paper'), fadeMat(kind === 'c' ? 'dark' : 'base')];
     part(g, new THREE.CylinderGeometry(RR, RR, RL, 48, 1, true, TH[1], 2 * Math.PI - (TH[1] - TH[0])), { tone: 'hi', name: kind === 'c' ? 'Metal rod' : 'Insulating rod', mat: mats[0], pos: c.toArray() });
     for (const th of TH) {
-      for (const f of twoSided(g, new THREE.PlaneGeometry(RR, RL).translate(RR / 2, 0, 0), { tone: 'hi', name: 'Cut face', mat: mats[1], pos: c.toArray() })) f.rotation.y = th - Math.PI / 2;
+      for (const f of twoSided(g, new THREE.PlaneGeometry(RR, RL).translate(RR / 2, 0, 0), { tone: 'hi', name: 'Сечение', mat: mats[1], pos: c.toArray() })) f.rotation.y = th - Math.PI / 2;
     }
     const arc = 2 * Math.PI - (TH[1] - TH[0]);
-    part(g, new THREE.CircleGeometry(RR, 36, TH[1] - Math.PI / 2, arc).rotateX(-Math.PI / 2), { tone: 'hi', name: 'Ends', mat: mats[1], pos: [c.x, c.y + RL / 2, c.z] });
-    part(g, new THREE.CircleGeometry(RR, 36, Math.PI / 2 - TH[0], arc).rotateX(Math.PI / 2), { tone: 'hi', name: 'Ends', mat: mats[1], pos: [c.x, c.y - RL / 2, c.z] });
+    part(g, new THREE.CircleGeometry(RR, 36, TH[1] - Math.PI / 2, arc).rotateX(-Math.PI / 2), { tone: 'hi', name: 'Торцы', mat: mats[1], pos: [c.x, c.y + RL / 2, c.z] });
+    part(g, new THREE.CircleGeometry(RR, 36, Math.PI / 2 - TH[0], arc).rotateX(Math.PI / 2), { tone: 'hi', name: 'Торцы', mat: mats[1], pos: [c.x, c.y - RL / 2, c.z] });
     const pts = [], r = rng(kind === 'c' ? 21 : 22);
     if (kind === 'c') { for (let i = 0; i < 150; i++) { const th = TH[1] + r() * (2 * Math.PI - (TH[1] - TH[0])); pts.push(V(c.x + (RR + 0.02) * Math.sin(th), c.y + (r() - 0.5) * RL * 0.96, c.z + (RR + 0.02) * Math.cos(th))); } }
     else for (const th of TH) { const u = V(Math.sin(th), 0, Math.cos(th)), n = V(Math.cos(th), 0, -Math.sin(th)).multiplyScalar(th === TH[0] ? 0.03 : -0.03);
@@ -285,9 +285,9 @@ export function buildWorld(E) {
   const gC = asm('cage', root, { title: 'Полая металлическая оболочка в поле', sub: 'клетка Фарадея' });
   const cmats = [fadeMat('base'), fadeMat('dark'), fadeMat('base')];
   const wedgeLen = 2 * Math.PI - (WEDGE[1] - WEDGE[0]);
-  part(gC, new THREE.SphereGeometry(RC, 64, 40, WEDGE[1], wedgeLen), { tone: 'hi', name: 'Metal shell', mat: cmats[0], pos: cC.toArray() });
-  part(gC, new THREE.SphereGeometry(RCi, 64, 40, WEDGE[1], wedgeLen), { tone: 'mid', name: 'Metal shell', mat: cmats[2], pos: cC.toArray() });
-  for (const ph of WEDGE) for (const f of twoSided(gC, new THREE.RingGeometry(RCi, RC, 40, 1, -Math.PI / 2, Math.PI), { tone: 'hi', name: 'Metal shell', mat: cmats[1], pos: cC.toArray() })) f.rotation.y = Math.PI + ph;
+  part(gC, new THREE.SphereGeometry(RC, 64, 40, WEDGE[1], wedgeLen), { tone: 'hi', name: 'Металлическая оболочка', mat: cmats[0], pos: cC.toArray() });
+  part(gC, new THREE.SphereGeometry(RCi, 64, 40, WEDGE[1], wedgeLen), { tone: 'mid', name: 'Металлическая оболочка', mat: cmats[2], pos: cC.toArray() });
+  for (const ph of WEDGE) for (const f of twoSided(gC, new THREE.RingGeometry(RCi, RC, 40, 1, -Math.PI / 2, Math.PI), { tone: 'hi', name: 'Металлическая оболочка', mat: cmats[1], pos: cC.toArray() })) f.rotation.y = Math.PI + ph;
   { // field lines from the model: from upstream until they end on the shell, and back from downstream
     const R = M.CAGE.R, hit = p => M.len(p) < R, out = p => Math.abs(p[0]) > 0.44 || Math.abs(p[1]) > 0.3 || Math.abs(p[2]) > 0.3;
     for (const [a, b] of [[1, 0], [0, 1]]) for (let i = -5; i <= 5; i++) {
