@@ -641,3 +641,14 @@
 - This is an automated smoke test, not exhaustive manual QA. It does not establish physical-device compatibility, screen-reader usability, measured color contrast, full keyboard traversal, browser/device matrix coverage, or independent scientific/editorial review.
 - G4 independent scientific review and G5 independent bilingual/editorial review remain open. The 52 planned illustration assets remain deferred. Controlled editorial readiness remains **95/100**; do not increase the score solely because CI passed.
 - Feedback collection remains disabled: the form endpoint is blank and no secure submission/moderation pipeline has been commissioned or end-to-end tested.
+
+
+## 2026-11-01 — contrast audit stage
+
+- Confirmed CI run #453 (run ID `41341617884`, commit `1d6f82bcd261dce60d2338547243a1fd5a604e71`) passed after adding forward and reverse keyboard focus traversal checks.
+- Added a preliminary Playwright/WCAG text-contrast sampler to `biology/browser-smoke.mjs`. The sampler examines visible ordinary DOM text at the mobile and desktop viewport sizes and compares against WCAG AA thresholds (4.5:1 normal text; 3:1 large text).
+- First full run with the sampler: CI #456 (run ID `41341933408`) failed as intended because it found repeated below-threshold text colors across all 13 pages. The log contains 26 page/viewport failure groups and 1,160 sampled failing instances across two viewport sizes (not 1,160 distinct page elements; each viewport is counted separately).
+- Representative measured ratios: muted navigation/eyebrow text 2.99:1; secondary subtitle text 4.20:1; explanatory green text 3.45:1 or 3.24:1; image-note kicker 4.38:1. These are preliminary automated measurements; gradients, images, complex translucent layers, SVG text and interactive/focus states are not fully covered.
+- Common palette tokens and recurring explicit text colors are now mapped for a coordinated correction: `--muted`, `--accent`, `#77736e`, `#71806f`, and `#60765d`. No palette changes have yet been applied to the pages.
+- Feedback form remains disabled; endpoint remains unset. Independent G4 scientific and G5 editorial sign-off remain open. 52 planned visual assets remain deferred.
+- Overall editorial readiness remains 95/100; contrast/accessibility work is still in progress and must not be treated as passed.
