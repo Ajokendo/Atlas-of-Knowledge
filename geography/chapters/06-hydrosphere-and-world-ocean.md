@@ -735,10 +735,10 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
 1. USGS Water Science School. *Water Science Basics*. https://www.usgs.gov/special-topics/water-science-school
-2. NOAA National Ocean Service. *Ocean Facts and Ocean Circulation*. https://oceanservice.noaa.gov/
-3. UNESCO. *World Water Development Report*. https://www.unesco.org/reports/wwdr
-4. UNESCO International Hydrographic Organization (IHO). *Standards and Hydrographic Information*. https://iho.int/
-5. National Snow and Ice Data Center (NSIDC). *All About Glaciers and Sea Ice*. https://nsidc.org/
+2. NOAA National Ocean Service. *Ocean Facts*. https://oceanservice.noaa.gov/facts/
+3. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
+4. International Hydrographic Organization (IHO). *Standards and Specifications*. https://iho.int/en/standards-and-specifications
+5. National Snow and Ice Data Center (NSIDC). *Glaciers*. https://nsidc.org/learn/parts-cryosphere/glaciers
 
 При использовании численных данных о запасах воды, океанических глубинах, ледниках и речном стоке следует фиксировать год, пространственный охват, методику оценки и единицы измерения. Данные о запасах (например, км³) нельзя смешивать с потоками за период (например, км³/год).
 
