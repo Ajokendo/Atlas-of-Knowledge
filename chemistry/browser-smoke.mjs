@@ -181,6 +181,16 @@ try {
         errors.push(file + ": dynamic bond explanation is not announced to assistive technology");
       }
       await page.locator('[data-type="ionic"]').click();
+      if (await page.locator('[data-type="ionic"]').getAttribute("aria-pressed") !== "true" ||
+          await page.locator('[data-type="covalent"]').getAttribute("aria-pressed") !== "false") {
+        errors.push(file + ": active ionic bond type is not exposed to assistive technology");
+      }
+      await page.locator('[data-type="covalent"]').click();
+      if (await page.locator('[data-type="covalent"]').getAttribute("aria-pressed") !== "true" ||
+          await page.locator('[data-type="ionic"]').getAttribute("aria-pressed") !== "false") {
+        errors.push(file + ": changing bond type does not update the accessible selected state");
+      }
+      await page.locator('[data-type="ionic"]').click();
       if (!(await page.locator("#detailText").innerText()).includes("кристаллическую решётку")) {
         errors.push(file + ": ionic bonding explanation does not distinguish a crystal lattice from an isolated ion pair");
       }
