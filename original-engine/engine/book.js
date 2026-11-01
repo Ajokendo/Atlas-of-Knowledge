@@ -126,6 +126,32 @@ export function startBook(chapter) {
   scenePicker.addEventListener('change', () => {
     if (scenePicker.value) select(scenePicker.value, true);
   });
+
+  // Dynamic readouts change every frame, so do not put the readout itself in a live region.
+  // Offer an explicit, on-demand announcement instead.
+  const readout = $('readout');
+  readout.setAttribute('aria-label', 'Текущие значения интерактивной модели');
+  const readoutSpeak = document.createElement('button');
+  readoutSpeak.type = 'button';
+  readoutSpeak.className = 'readout-announce';
+  readoutSpeak.textContent = 'Озвучить текущие значения';
+  readoutSpeak.setAttribute('aria-controls', 'readout-announcement');
+  const readoutAnnouncement = document.createElement('div');
+  readoutAnnouncement.id = 'readout-announcement';
+  readoutAnnouncement.className = 'readout-announcement';
+  readoutAnnouncement.setAttribute('role', 'status');
+  readoutAnnouncement.setAttribute('aria-live', 'polite');
+  readoutAnnouncement.setAttribute('aria-atomic', 'true');
+  readoutSpeak.addEventListener('click', () => {
+    const value = readout.textContent.trim();
+    readoutAnnouncement.textContent = '';
+    requestAnimationFrame(() => {
+      readoutAnnouncement.textContent = value
+        ? `Текущие значения: ${value}`
+        : 'Для этой страницы нет отдельных числовых показаний.';
+    });
+  });
+  readout.parentElement.append(readoutSpeak, readoutAnnouncement);
   // the figure's box, read once per resize: reading it every frame forced a layout after each DOM write.
   // Its size is the layout size, so the book zooming open (cover.js) cannot shrink the canvas; cover.js refits after.
   let rect;
