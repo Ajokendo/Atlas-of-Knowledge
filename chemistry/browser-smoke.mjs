@@ -738,10 +738,21 @@ try {
           !(await page.locator('[data-i="leChatelierNote"]').innerText()).includes("partly opposes")) {
         errors.push(file + ": English equilibrium notes must explain Q versus K and the qualitative nature of Le Chatelier's principle");
       }
+      const gibbsNote = page.locator('[data-i="equilibriumThermoNote"]');
+      if (!(await gibbsNote.innerText()).includes("ΔᵣG° = −RT ln K") ||
+          !(await gibbsNote.innerText()).includes("dimensionless thermodynamic") ||
+          !(await gibbsNote.innerText()).includes("standard states")) {
+        errors.push(file + ": English equilibrium note must relate dimensionless K to standard Gibbs energy without implying a mixture direction");
+      }
       await page.locator("#lang").click();
       if (!(await page.locator('[data-i="quotientNote"]').innerText()).includes("Q < K") ||
           !(await page.locator('[data-i="leChatelierNote"]').innerText()).includes("частично ослабить")) {
         errors.push(file + ": Russian equilibrium notes must explain Q versus K and the qualitative nature of Le Chatelier's principle");
+      }
+      if (!(await gibbsNote.innerText()).includes("безразмерной термодинамической константы") ||
+          !(await gibbsNote.innerText()).includes("стандартным состояниям") ||
+          !(await gibbsNote.innerText()).includes("ΔᵣG° = −RT ln K")) {
+        errors.push(file + ": Russian equilibrium note must explain the Gibbs energy relation and its standard-state limitation");
       }
     }
 
