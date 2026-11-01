@@ -1187,3 +1187,14 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Regression assertions are committed but checks.mjs, browser tests and CI have not been run. No test pass is claimed.
 - Repeat-audit coverage is 40%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
 
+
+
+## Repeat-audit milestone — 50% — 1 November 2026
+
+- Corrected the Kyrgyzstan amphibian country-page snapshot date to 12 October 2026 and distinguished it from the five-country GBIF checklist version 1.18 published 26 October 2026.
+- Retained the country-level 7-species / 2-subspecies list and resident / unconfirmed statuses as a compiled checklist, not as field confirmation for each oblast.
+- Clarified that the 2021 green-toad paper's 209 adult males from 14 localities are a combined Kazakhstan–Kyrgyzstan sample; six localities and 117 specimens are from Kyrgyzstan.
+- Updated the regional evidence audit and regression guards; GitHub read-back verified the saved text.
+- The 52 image anchors remain mapped and Deferred. No image was generated or integrated.
+- `checks.mjs`, browser tests, mobile checks and CI were not run. No test pass is claimed.
+- Repeat-audit coverage is 50%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
