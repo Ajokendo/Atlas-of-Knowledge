@@ -84,3 +84,11 @@ These remaining release gates must be tracked and evidenced separately.
 
 - See `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` for specialist role profiles, independence/conflict checks, invitation workflow, deliverables, severity rules and draft invitation letters.
 - Recruitment has not yet occurred; no reviewer is represented as contacted, accepted or approved.
+
+
+## Recruitment readiness — 100% preparation milestone
+
+- The specialist shortlist and outreach package are complete in `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md`.
+- All eight reviewer role slots have a potential lead or institutional nomination route, with scope boundaries and conflict-screening instructions.
+- This milestone means preparation is complete only. No invitation has been sent, no reviewer has accepted, and no external review or G4/G5 sign-off has been received.
+- Do not fill the frozen snapshot record or distribute the review bundle until a candidate accepts and the matching source snapshot and rendered preview are frozen.
