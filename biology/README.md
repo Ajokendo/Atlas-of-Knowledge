@@ -1218,3 +1218,14 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - GitHub read-back verified all changed source and checkpoint files. `checks.mjs`, browser tests, mobile checks and CI were not run; no test pass is claimed.
 - The 52 image insertion anchors remain mapped and Deferred; no image asset was added.
 - Repeat-audit coverage is 70%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
+
+
+## Repeat-audit milestone — 80% — 1 November 2026
+
+- Added the Ministry's dated Zhetim-Bel ridge / Karakol State Nature Park camera-trap records (2 July 2026) and explicitly distinguished presence detections from abundance estimates.
+- Added UNDP's 7 December 2025 account of the Important Bird Area near Bishkek, preserving the difference between its reported year-round species richness and the approximately 40 species observed during a short field visit.
+- Kept the white-tailed eagle nesting superlative attributed to UNDP; exact sensitive nest locations remain undisclosed.
+- Updated the fauna chapter bibliography, regional evidence audit and regression guards; GitHub read-back verified all changed files.
+- `checks.mjs`, browser tests, mobile checks, accessibility tests and CI were not run; no test pass is claimed.
+- The 52 image insertion anchors remain mapped and Deferred; no image asset was added.
+- Repeat-audit coverage is 80%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
