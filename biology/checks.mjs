@@ -401,6 +401,25 @@ if (imageDispositionRows.length !== 52 || new Set(imageDispositionIds).size !== 
   errors.push("IMAGE_DISPOSITION_REGISTER.md must contain 52 unique deferred image decisions; found " + imageDispositionRows.length);
 }
 for (const id of insertionMapIds) if (!imageDispositionIds.includes(id)) errors.push("IMAGE_DISPOSITION_REGISTER.md is missing deferred disposition for " + id);
+const dispositionTableRows = imageDispositionRegister.split("\n").filter(line => line.startsWith("| `image-brief-"));
+const p1DispositionRows = dispositionTableRows.filter(line => line.includes("| P1 |"));
+const p2p3DispositionRows = dispositionTableRows.filter(line => line.includes("| P2 |") || line.includes("| P3 |"));
+if (p1DispositionRows.length !== 13 || p1DispositionRows.some(line => !line.includes("IMAGE_SCIENTIFIC_REVIEW.md"))) {
+  errors.push("IMAGE_DISPOSITION_REGISTER.md: all 13 P1 assets must link to the detailed scientific review");
+}
+if (p2p3DispositionRows.length !== 39 || p2p3DispositionRows.some(line => !line.includes("IMAGE_BRIEF_REVIEW.md"))) {
+  errors.push("IMAGE_DISPOSITION_REGISTER.md: all 39 P2/P3 assets must link to the individual brief review");
+}
+const imageBriefReview = fs.readFileSync(path.join(root, "IMAGE_BRIEF_REVIEW.md"), "utf8");
+const imageBriefReviewIds = [...imageBriefReview.matchAll(/^\| `(image-brief-[^ `]+)` \| P[23] \|/gm)].map(m => m[1]);
+if (imageBriefReviewIds.length !== 39 || new Set(imageBriefReviewIds).size !== 39) {
+  errors.push("IMAGE_BRIEF_REVIEW.md must individually review 39 unique P2/P3 briefs; found " + imageBriefReviewIds.length);
+}
+for (const line of p2p3DispositionRows) {
+  const id = (line.match(/^\| `(image-brief-[^ `]+)`/) || [])[1];
+  if (id && !imageBriefReviewIds.includes(id)) errors.push("IMAGE_BRIEF_REVIEW.md is missing P2/P3 brief " + id);
+}
+
 if (!imageDispositionRegister.includes("G6 disposition:** complete as an explicit, documented deferral") ||
     !imageDispositionRegister.includes("actual image QA is pending") ||
     fs.existsSync(path.join(root, "images/generated"))) {
