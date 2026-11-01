@@ -875,3 +875,12 @@ The current marker additions are production instructions/placeholders only; no g
 - Chapter 14 verified commit: `98d9d914ed4204ccbc0d6f173b03a2df7d8e6064`; blob `c7e35ac9b0064fe0f8359d77764c9c7d7a1389d3`.
 - Chapter 15 verified commits: `756dd5d9e99a2c7f1bcce7f8c7afa19460559034` (bibliography links), `9aedde6c58d8695e02881b308b20a2531d73cbd5` (corrected Sentinel-1 URL); final blob `0dfc5824ba57b6a9d59344b85cddb3df5ae564af`.
 - Chapter 16 verified commit: `44574f3a27cf31045b7b5564529e34a4f54ecf96`; blob `7268c6c833803cf23637fe45c99a849ceb97b794`.
+
+
+## Chapters 02 and 05 atmospheric-composition update — 1 November 2026
+
+- Updated the dry-air CO₂ share in Chapters 02 and 05 from the older rounded 0.04% to approximately 0.0426%, with the corresponding 425.6 ppm global annual mean for 2025.
+- The value is explicitly identified as NOAA's preliminary global annual mean from its marine surface-site network; it is not presented as a timeless fixed atmospheric composition value. Water vapour remains excluded from the dry-air composition table.
+- Added the NOAA Global Monitoring Laboratory annual-mean source to both bibliographies: https://gml.noaa.gov/aggi/aggi.html
+- Chapter 02 verified commit: `bd591174a343f69b5640175b6537b06f286d9f85`; blob `9222a2c6a67fb551e9a405b114c2a0ffe4527b11`.
+- Chapter 05 verified commit: `4b62689df6c5e4781242fcca34766d336f42dc3f`; blob `7b22b0a83c9503c7272a9c937043e0543082e69b`.
