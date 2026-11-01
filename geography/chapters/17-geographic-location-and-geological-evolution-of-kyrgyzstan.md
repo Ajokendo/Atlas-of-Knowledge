@@ -675,6 +675,14 @@ Accessibility in mountain regions varies by season. Snow, avalanche danger, land
 
 Особое внимание следует уделять названиям хребтов, перевалов, ледников, рек, озёр и населённых пунктов. Ошибки транслитерации могут приводить к появлению на карте несуществующих объектов или дублированию одного и того же названия.
 
+Для проверки названий и их написания следует учитывать государственную АИС «Географические названия Кыргызской Республики» (АИС ГН), владельцем и оператором которой в государственном реестре указана «Госкартография». Реестр информационных систем описывает базу как содержащую геопривязанные сведения о 10 281 географическом объекте и указывает портал Kyrgyzmap как точку доступа. При этом в реестровой записи указана дата последней модернизации 31 декабря 2022 года. Поэтому число объектов и статус системы следует цитировать именно как сведения реестра, а актуальность каждого названия, координаты и доступность конкретного слоя проверять непосредственно в Kyrgyzmap и по действующим национальным документам. Эта база является важным национальным справочным источником по топонимам, но сама по себе не подтверждает координаты крайних точек государства или юридическое положение государственной границы.
+
+Закон Кыргызской Республики от 29 апреля 2026 года № 58 «О геодезии, картографии и пространственных данных» устанавливает современную правовую рамку для сбора, хранения, обработки, предоставления и распространения пространственных данных. В нём определены, в частности, понятия атласа, базовых пространственных данных, высотной системы отсчёта, геопортала и геосервисов. При подготовке карт необходимо учитывать не только геометрию объектов, но и их метаданные, систему координат и высот, происхождение, дату и условия использования.
+
+
+For name verification and spelling, the national Automated Information System “Geographical Names of the Kyrgyz Republic” (AIS GN) should be considered. The state information-systems register identifies Goskartografia as the system owner and operator and describes the database as containing georeferenced information on 10,281 geographical features, with Kyrgyzmap listed as the access portal. The registry entry records 31 December 2022 as the date of the last modernisation. The feature count and system status should therefore be cited as registry information; the currentness of an individual name, its coordinates and the availability of a specific layer must be checked directly in Kyrgyzmap and against current national records. This is an important national toponymic reference, but it does not by itself certify the coordinates of the country's extreme points or the legal position of the state border.
+
+The Law of the Kyrgyz Republic No. 58 of 29 April 2026, “On Geodesy, Cartography and Spatial Data”, establishes the contemporary legal framework for the collection, storage, processing, provision and dissemination of spatial data. It defines, among other things, an atlas, basic spatial data, a vertical reference system, a geoportal and geoservices. Map production must therefore document not only feature geometry but also metadata, horizontal and vertical reference systems, provenance, date and conditions of use.
 
 Kyrgyzstan uses geographical names in Kyrgyz, Russian-language forms and international Latin transliterations. The same feature may have historical, colloquial and official forms of its name.
 
@@ -907,6 +915,8 @@ Compare the administrative map of the seven regions with maps of mountain system
 - Таласо-Ферганский разлом показывать как сложную региональную зону, не приписывать ему единственную простую кинематическую историю.
 - Сейсмическую опасность не представлять как прогноз конкретного землетрясения.
 - Для месторождений различать геологическое наличие, разведанные запасы, ресурсы, добычу и текущий промышленный статус.
+- Для топонимов учитывать государственную АИС «Географические названия Кыргызской Республики», но проверять дату и актуальность записи; реестровое число 10 281 относится к описанию базы в государственном реестре, а не к подтверждённому текущему числу проверенных объектов.
+- При создании карт учитывать Закон КР № 58 от 29 апреля 2026 года «О геодезии, картографии и пространственных данных» и документировать метаданные, горизонтальную и вертикальную системы отсчёта, происхождение и условия использования каждого набора данных.
 - Административные данные датировать; реформы могут менять число районов и айылных аймаков.
 - Все карты государственной границы, спорных и делимитированных участков подвергать отдельной правовой и картографической проверке.
 
@@ -919,6 +929,8 @@ Compare the administrative map of the seven regions with maps of mountain system
 - Represent the Talas–Fergana Fault as a complex regional zone and do not assign it one simplistic kinematic history.
 - Do not present seismic hazard as a prediction of a specific earthquake.
 - For mineral deposits, distinguish geological occurrence, explored reserves, resources, extraction and current industrial status.
+- Consult the national AIS “Geographical Names of the Kyrgyz Republic” for toponymic verification, while checking record dates and currentness; the registry's figure of 10,281 describes the database in that register and is not a verified current count of reviewed features.
+- Apply Kyrgyz Republic Law No. 58 of 29 April 2026 on geodesy, cartography and spatial data; document metadata, horizontal and vertical reference systems, provenance and use conditions for each dataset.
 - Date administrative data; reforms may change the number of districts and rural municipalities.
 - Subject all maps of state borders, disputed areas and delimited sections to separate legal and cartographic review.
 
@@ -938,6 +950,8 @@ Compare the administrative map of the seven regions with maps of mountain system
 12. Президент Кыргызской Республики. **Закон о ратификации договора об отдельных участках кыргызско-узбекской государственной границы**, 29 ноября 2022 года: https://president.kg/en/news/21/38167
 13. Government of Uzbekistan. **Uzbekistan and Kyrgyzstan elevate relations to the level of an alliance**, 30 July 2026: https://gov.uz/en/mfa/news/view/199700
 14. Government of the Kyrgyz Republic. **Digital Border — official information on border crossing points and border regimes**: https://digitalborder.gps.gov.kg/ru/home/news
+15. Кыргызская Республика. **Закон от 29 апреля 2026 года № 58 «О геодезии, картографии и пространственных данных»** — правовая основа работы с пространственными данными, базовыми данными, геопорталами и системами высот: https://cbd.minjust.gov.kg/230045410/edition/52293/ru. / Kyrgyz Republic. **Law No. 58 of 29 April 2026, “On Geodesy, Cartography and Spatial Data”** — legal framework for spatial data, base data, geoportals and vertical reference systems.
+16. Государственный реестр информационных систем Кыргызской Республики. **АИС «Географические названия Кыргызской Республики»** — сведения о владельце/операторе, статусе и реестровом составе геопривязанных топонимических данных; запись указывает 10 281 объект и модернизацию 31.12.2022: https://bgir.tunduk.kg/Category/InformationSystem/Details?id=223. / State Register of Information Systems of the Kyrgyz Republic. **AIS “Geographical Names of the Kyrgyz Republic”** — registry metadata for the national georeferenced toponym database; the record reports 10,281 features and a 31 December 2022 modernisation date.
 
 ---
 **Конец главы 17 / End of Chapter 17**
