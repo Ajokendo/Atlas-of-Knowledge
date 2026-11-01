@@ -153,3 +153,56 @@ AIP GEN 2.1 (effective 6 August 2026), sections 3–4: https://ais.ansp.kg/eaip/
 6. The five-zone Kyrg-06 framework established by Resolution No. 235 must be distinguished from the six-degree Gauss–Krüger legacy mapping system. Zone boundaries and the correct EPSG CRS must be selected from the source metadata, not guessed from the location alone.
 
 **Status update:** the broad national vertical-reference family and the existence of legacy SK-42 mapping are now supported by a dated UNESCAP report and cross-checked against the 2026 AIP. Dataset-level vertical realization, benchmark lineage, map-sheet migration and transformation accuracy remain open.
+
+
+## DEM, geological-map and glacier-data availability check — 1 November 2026
+
+### CAIAG GeoNode: a specific 30 m DEM layer
+
+The CAIAG GeoNode catalogue exposes a raster layer titled `Kyrg_AsterTM2_DEM_utm`, described as **ASTER GDEM 30 m**, published 10 December 2021. Its metadata identifies CAIAG and a responsible contact, shows a projected CRS as EPSG:32643 in the detailed metadata, and provides WMS/WCS and GeoTIFF download options. However:
+- the licence is explicitly **Not Specified**;
+- the abstract contains only the short product label;
+- no vertical datum, geoid model, vertical accuracy, processing lineage, source version or validation report is supplied on the public metadata page;
+- the layer is not currently used in any published map in that GeoNode record.
+
+Therefore, treat it as a discoverable candidate for exploratory terrain visualisation, not as a cleared or validated authoritative DEM for quantitative elevation, glacier-change, engineering or hazard analysis. Confirm the CRS against the actual raster's GeoTIFF tags before use; the EPSG entry in the catalogue alone does not establish the vertical reference.
+
+Metadata page: https://geonode.caiag.kg/layers/geonode:Kyrg_AsterTM2_DEM_utm/metadata_detail
+
+### RESILAND: higher-resolution DEM procurement for priority sites
+
+CAREC reported on 16 April 2026 that DEMs had been procured for the Department for Monitoring and Forecasting of Emergency Situations under the Kyrgyz Ministry of Emergency Situations. The report describes coverage of approximately **6,000 hectares across 14 priority sites**, with spatial resolution **up to 3 m**, for debris-flow, flood and landslide modelling.
+
+This is important evidence that high-resolution terrain data are being acquired for operational disaster-risk work. It is not evidence of a seamless national 3 m DEM, nor does the public announcement provide downloadable rasters, site polygons, acquisition dates, sensor/survey method, horizontal CRS, vertical datum, accuracy statistics or licence. Do not extrapolate these 14 sites to countrywide coverage.
+
+Source: CAREC, 16 April 2026, RESILAND Kyrgyz Republic DEM procurement announcement: https://carececo.org/en/main/news/news/proekt-resiland-kyrgyzstan-usilivaet-potentsial-dmpchs-priobreteny-tsifrovye-modeli-relefa/
+
+### National Geological Atlas project — current publication status
+
+The Ministry of Natural Resources announced on 11 March 2026 that it and the M. M. Adyshev Institute of Geology of the National Academy of Sciences were preparing a two-volume **Atlas of Geological, Geophysical and Mineragenic Maps of the Kyrgyz Republic**, in Russian and English. The announcement describes a working meeting and the project objectives; it does not announce completed publication or open GIS data delivery.
+
+This is a promising national reference project. Until the volumes and their map legends/metadata are publicly available and reviewed, it should be cited as a work in preparation, not as an already published atlas or downloadable national geodatabase.
+
+Source: Ministry of Natural Resources, 11 March 2026: https://mnr.gov.kg/ky/posts/news/minprirody-iniciiruet-izdanie-atlasa-geologiceskix-kart-kyrgyzstana
+
+### Glacier inventory and chronology caution
+
+CAIAG's glaciology page notes that the USSR Glacier Catalogue (1968–1982) and the 1:500,000 “Present Glaciation” map based on 1977–1980 satellite imagery remain important historical references, but that the information was rarely updated in later years and only for some glaciers. The page explicitly identifies remote sensing and renewed large-scale observation as necessary for contemporary glacier-dynamics assessment.
+
+Accordingly, the historical catalogue/map may support historical context and baseline comparisons only when dates and inventory definitions are explicit. It must not be represented as a current glacier inventory. For contemporary maps, record imagery date/season, cloud/snow conditions, glacier delineation criteria, debris-covered ice treatment, minimum mapping unit, positional uncertainty and validation method.
+
+Source: CAIAG, Glaciology: https://caiag.kg/en/2/142-glaciology
+
+### Geological-map access route
+
+The Ministry's current website links to the Kyrgyz Geological Survey (https://www.geology.kg/) as its subordinate specialist body. The Kyrgyzstan Geoportal's geological-maps page says maps can be ordered from the Kyrgyz Methodological Expedition of Geological and Economic Research; this is an access route, not proof that the maps are freely downloadable or licensed for republication. The Ministry's March 2026 national-atlas announcement is the stronger current signal of a coordinated geological cartography initiative.
+
+### Editorial and cartographic decisions
+
+1. Use the CAIAG ASTER GDEM layer only as a provisional 30 m candidate, pending licence and raster-level metadata verification.
+2. Describe the RESILAND 3 m DEMs as high-resolution, site-specific datasets (14 priority sites; approx. 6,000 ha), not as national coverage.
+3. Mark the national Geological/Geophysical/Mineragenic Atlas as **in preparation** on the basis of the 11 March 2026 Ministry announcement; do not cite unpublished maps as if consulted.
+4. Treat the 1968–1982 glacier catalogue and 1977–1980 map as historical sources; do not use them alone for present-day glacier counts, areas or change rates.
+5. Every production DEM used in the Atlas must pass a metadata gate: licence, source/edition, acquisition date, spatial resolution, horizontal CRS, vertical datum/height type, geoid model, vertical and horizontal accuracy, processing lineage, and validation against suitable control data.
+
+**Status:** a specific public 30 m candidate and a documented 3 m/14-site operational procurement have been identified. Neither provides sufficient public metadata to clear a DEM for quantitative national Atlas production. The national geological atlas is confirmed as a project, not yet as a published source in the inspected announcement.
