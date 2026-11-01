@@ -314,8 +314,8 @@ export function buildWorld(E) {
     return { g, p, F: force(g), w: curve(gA, 'ink', { R: 0.36 }) }; });
   const aD = comp(pRods[1].g, 'd'), aCm = dyn(gA);
   pRods.forEach(R => { label('vec', 'F', () => tip(R.F)); label('vec', 'ω', () => curveEnd(R.w)); });
-  label('tick', `pinned at the centre · I = ${f2(M.ROD.Icm)} kg·m²`, () => V(AX[0] + 0.45, AY, 1.0));
-  label('tick', `pinned at the end · I = ${f2(M.PAX.list[1].I)} kg·m²`, () => V(AX[1] + 0.2, AY, 1.5));
+  label('tick', `закреплён в центре · I = ${f2(M.ROD.Icm)} кг·м²`, () => V(AX[0] + 0.45, AY, 1.0));
+  label('tick', `закреплён на конце · I = ${f2(M.PAX.list[1].I)} кг·м²`, () => V(AX[1] + 0.2, AY, 1.5));
   label('vec grey', 'd', () => aD.visible ? aD.localToWorld(V(0, aD.userData.arrow.shaft.scale.y / 2, 0)).add(V(0, 0.15, 0)) : null);
   label('tick', 'ось через центр масс', () => ex(gA) > 0.3 ? pRods[1].g.localToWorld(V(RL2 / 2, 0.75, 0)) : null);
 
@@ -372,7 +372,7 @@ export function buildWorld(E) {
     label('vec', 'F', () => tip(m.F));
     label('vec', 'ω', () => curveEnd(m.w));
     label('tick', `${m.p.key}: ${m.p.F} N for ${m.p.dt} s`, () => V(MX[i], MY, -IR - 0.35));
-    label('tick', '', () => V(MX[i], MY - 0.25, IR + 0.45), () => `L = ${M.imp(m.p, mNow).L.toFixed(0)} kg·m²/s`);
+    label('tick', '', () => V(MX[i], MY - 0.25, IR + 0.45), () => `L = ${M.imp(m.p, mNow).L.toFixed(0)} кг·м²/с`);
     label('vec grey', 'r', () => m.r.visible ? V(MX[i] + 0.15, MY + 0.2, IR / 2) : null);
   });
   let mNow = 0;
@@ -392,7 +392,7 @@ export function buildWorld(E) {
   label('vec', 'p = mv', () => tip(qP)); label('vec grey', 'r', () => qR.visible ? qR.localToWorld(V(0, qR.userData.arrow.shaft.scale.y * 0.55, 0)).add(V(-0.12, 0.05, 0)) : null);
   label('vec', 'r<sub>⊥</sub> = d', () => O.clone().add(V(H.d * 0.45, 0.14, -0.12)));
   label('tick', 'O', () => O.clone().add(V(-0.12, 0.05, 0.12))); label('vec', 'ω', () => curveEnd(qW));
-  label('tick', '', () => qBall.position.clone().add(V(0.7, 0.2, 0)), () => `L = ${M.hit(qNow).Lb.toFixed(2)} kg·m²/s`);
+  label('tick', '', () => qBall.position.clone().add(V(0.7, 0.2, 0)), () => `L = ${M.hit(qNow).Lb.toFixed(2)} кг·м²/с`);
   label('vec', 'L<sub>ball</sub>', () => tip(qLb)); label('vec', 'L<sub>rod</sub>', () => tip(qLr)); label('vec blue', 'L', () => tip(qL));
   let qNow = 0;
 
