@@ -144,7 +144,7 @@ export function buildWorld(E) {
   const pP = pArrow(gP), pC = pArrow(gP);
   label('vec', '<i>p</i>', () => tip(pP)); label('vec', '<i>p</i>', () => tip(pC));
   label('tick', '0,2 кг', () => clay.visible && clay.position.x < PIV.x - 0.3 ? clay.position.clone().add(V(0.05, 0.12, 0)) : null);
-  label('tick', '1.0 kg', () => V(PIV.x - 0.18, PIV.y - Pd.L + BH / 2 + 0.12, 0.12));
+  label('tick', '1,0 кг', () => V(PIV.x - 0.18, PIV.y - Pd.L + BH / 2 + 0.12, 0.12));
   // breakdown: the swing's top, its height Δy and angle θ
   const bottomY = PIV.y - Pd.L, topY = bottomY + Pd.dy, topX = PIV.x + Pd.L * Math.sin(Pd.theta);
   const pendGuides = new THREE.Group(); gP.add(pendGuides);
