@@ -65,6 +65,20 @@ try {
       continue;
     }
 
+    await page.keyboard.press("Tab");
+    const firstKeyboardFocus = await page.evaluate(() => {
+      const element = document.activeElement;
+      return {
+        tag: element?.tagName || "",
+        visible: Boolean(element && element.getClientRects().length),
+        disabled: Boolean(element && element.matches(":disabled"))
+      };
+    });
+    if (firstKeyboardFocus.tag === "BODY" || !firstKeyboardFocus.visible || firstKeyboardFocus.disabled) {
+      errors.push(file + ": pressing Tab did not focus a visible, enabled control");
+    }
+    await page.evaluate(() => document.activeElement?.blur());
+
     const contrast = await page.evaluate(() => {
       const css = getComputedStyle(document.documentElement);
       const lead = document.querySelector(".lead");
