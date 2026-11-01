@@ -174,9 +174,10 @@
 | Рентгенофлуоресцентный анализ (XRF) | Элементный химический состав |
 | Масс-спектрометрия | Изотопный и элементный состав |
 | Электронная микроскопия | Микроструктуру и химические особенности |
-| Геохронология | Возраст минералов и геологических событий |
+| Геохронология | Численный возраст минералов и геологических событий по изотопным и другим датирующим системам |
+| Термохронология | История нагревания и охлаждения пород по температурно-зависимому поведению изотопных систем и других геологических индикаторов |
 
-Возраст породы и возраст события, которое её изменило, могут различаться. Поэтому выбор метода датирования зависит от геологического вопроса и типа образца.
+Геохронология и термохронология отвечают на связанные, но разные вопросы: первая помогает определить возраст минерала или события, а вторая — восстановить температурную историю породы, например время её охлаждения и последующего поднятия к поверхности. Возраст породы и возраст события, которое её изменило, могут различаться. Поэтому метод выбирают с учётом геологического вопроса, типа образца и истории породы.
 
 ### 3.4.3. Геофизические методы / Geophysical Methods
 
@@ -663,9 +664,10 @@ Geological research combines field observations, laboratory analysis and geophys
 | X-ray fluorescence (XRF) | Elemental chemical composition |
 | Mass spectrometry | Isotopic and elemental composition |
 | Electron microscopy | Microstructure and chemical features |
-| Geochronology | Ages of minerals and geological events |
+| Geochronology | Numerical ages of minerals and geological events using isotopic and other dating systems |
+| Thermochronology | The heating and cooling history of rocks, inferred from the temperature-dependent behaviour of isotopic systems and other geological indicators |
 
-The age of a rock and the age of an event that altered it may differ. The dating method must therefore be selected according to the geological question and sample type.
+Geochronology and thermochronology address related but different questions: the first helps determine the age of a mineral or event, while the second reconstructs a rock's thermal history, such as when it cooled and was subsequently brought towards the surface. The age of a rock and the age of an event that altered it may differ. A method must therefore be selected according to the geological question, sample type and history of the rock.
 
 ### 3.4.3. Geophysical Methods
 
@@ -930,6 +932,7 @@ On a schematic geological cross-section, identify:
 17. British Geological Survey. *What Causes Earthquakes?* (fault movement and normal, reverse and strike-slip faults). https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/
 18. USGS. *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
 19. Halla, J. et al. (2024). *Ratification of the base of the ICS Geological Time Scale: the Global Standard Stratigraphic Age (GSSA) for the Hadean lower boundary*. Episodes. https://doi.org/10.18814/epiiugs/2024/024002
+20. Thomson, K. D. et al. (2026). *Geochron—A Database of Geochronological and Thermochronological Dates and Data: Technical Documentation*. U.S. Geological Survey Data Report 1227. https://doi.org/10.3133/dr1227
 
 При подготовке окончательной версии следует сверять геологические термины и численные параметры с актуальной международной стратиграфической шкалой и региональными геологическими картами.
 
