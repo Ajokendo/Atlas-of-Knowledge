@@ -1647,7 +1647,7 @@ try {
       await page.locator("#v").fill("12");
       await page.locator("#t").fill("20");
       await page.locator("#n").dispatchEvent("input");
-      const doubledPressure = Number((await page.locator("#pressureValue").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      const doubledPressure = Number((await page.locator("#pressureValue").innerText()).replace(",", ".").match(/[\d.]+/)?.[0]);
       const expectedDoubledPressure = 2 * 8.314462618 * 293.15 / 12;
       if (!Number.isFinite(doubledPressure) || Math.abs(doubledPressure - expectedDoubledPressure) > 0.01) {
         errors.push(file + ": doubling amount and halving volume did not produce the expected pressure");
@@ -1657,7 +1657,7 @@ try {
       }
       await page.locator("#v").fill("60");
       await page.locator("#v").dispatchEvent("input");
-      const expandedPressure = Number((await page.locator("#pressureValue").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      const expandedPressure = Number((await page.locator("#pressureValue").innerText()).replace(",", ".").match(/[\d.]+/)?.[0]);
       if (!Number.isFinite(expandedPressure) || expandedPressure >= doubledPressure) {
         errors.push(file + ": increasing vessel volume did not lower ideal-gas pressure");
       }
