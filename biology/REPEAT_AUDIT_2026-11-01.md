@@ -3,7 +3,7 @@
 **Audit start:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
 **Scope:** all Biology HTML pages, scientific/editorial content, interactive tools, technical checks, vector and raster visuals, image placeholders, bilingual parity, links and release controls.  
-**Audit completion:** **5%** — repository inventory and baseline structure pass completed.  
+**Audit completion:** **15%** — repository inventory and baseline structure pass completed.  
 **Controlled editorial readiness:** **95/100** (separate metric; unchanged).
 
 ## Audit method and boundaries
@@ -92,3 +92,32 @@ Continue technical review by examining each interactive model's state transition
 ### Change log
 
 - 1 November 2026: completed source-level technical/accessibility review of all 13 pages and inspected the committed regression script. No code change made because no confirmed defect was established. Audit completion advanced to 10%; controlled editorial readiness remains 95/100.
+
+
+## 15% milestone — interactive quiz state audit — 1 November 2026
+
+### Completed checks
+
+- Inspected the quiz state model and language-switch handlers in all ten core chapter scripts: Botany, Zoology, Cell Biology, Anatomy and Physiology, Genetics, Microbiology, Ecology, Evolution, Biochemistry and Systematics.
+- Confirmed a repeatable state-transition defect: changing RU/EN after answering a question re-rendered the quiz and cleared `quizAnswered` while retaining the current question index and score. A learner could therefore answer the same question again and potentially score twice before advancing.
+- Corrected all ten chapter scripts. The answered state now persists through a language switch; it is cleared when the learner explicitly advances to the next question. The Next control remains available when the current question has already been answered.
+- Added a regression assertion to `checks.mjs` for all ten core chapters, checking both preservation across re-render and reset on advancement.
+- Read-back of the ten chapter changes and regression assertion is recorded as the source-level verification for this milestone.
+
+### Scientific and model review observations
+
+- The sampled DNA transcription model preserves template direction (3′→5′) and complementary RNA output (5′→3′); the example `TAC` → `AUG` is consistent.
+- The ecology food-chain builder enforces sequential trophic choices and allows correction by returning to an earlier choice. The explanatory text correctly cautions that real food webs are more complex than the five-step teaching example.
+- The microbiology growth-phase model labels the phases as a simplified closed-system pattern and describes the stationary phase as approximate balance between new-cell formation and cell death.
+- The evolution selection visual uses illustrative percentage values (50/50 and 78/22); these are model settings, not measured field data. The text frames the result conditionally and notes drift, mutation and gene flow as additional processes.
+- These are source-level plausibility checks, not independent scientific sign-off. Targeted claim-to-source sampling in the regional flora/fauna chapters remains in progress.
+
+### Limitations
+
+- No Node.js suite, browser automation, mobile rendering, keyboard interaction or assistive-technology test was executed in this milestone. The new regression assertion is committed but has not yet been run.
+- Calculations and state transitions have been inspected in source; real browser behaviour and visual feedback still require execution.
+- G4 independent scientific review and G5 independent bilingual/editorial review remain open. All 52 illustration markers remain unchanged and Deferred.
+
+### Change log
+
+- 1 November 2026: advanced the repeat audit to 15%; corrected the shared quiz answer-state defect in ten core chapters and added a regression assertion. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
