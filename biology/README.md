@@ -600,6 +600,7 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - The audit distinguishes dated event observations, protected-area records, published local studies, national checklists, habitat context and population estimates. It flags the principal scope risks in each oblast without presenting the regional chapters as complete species inventories.
 - Added a claim-level evidence checklist covering accepted names and synonyms, locality precision, dates, evidence type, survey effort, identification confidence, abundance interpretation and conservation-assessment year.
 - Extended `checks.mjs` to require all seven oblast rows in the audit and both chapter headings, and to retain safeguards against national-to-local inference, unsupported population claims and conflation of national Red Data Book and IUCN categories.
+- Added a bilingual evidence-reading guide to both regional chapters, explaining why habitat suitability, national checklists, local detections and population estimates are different kinds of claims; each guide links directly to the shared standard and the seven-oblast audit.
 - This is a repository-content and editorial-structure audit, not independent re-identification of specimens or revalidation of every linked primary source. The check script has not been executed locally; no CI pass is claimed. Overall readiness remains **85/100** until the next broader validation package is complete.
 
 ## Kyrgyzstan biodiversity field methods and evidence standard — 1 November 2026
