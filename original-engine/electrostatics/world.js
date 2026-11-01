@@ -37,10 +37,10 @@ export function buildWorld(E) {
     if (tag) label('tick', tag, () => m.visible && m.parent.visible ? m.getWorldPosition(V()).add(V(-r - 0.08, r + 0.12, 0)) : null);
     return m;
   };
-  const eArrow = (parent, name = 'Field') => arrow(parent, 'blue', { r: 0.028, head: 0.15, headR: 0.075, name });
+  const eArrow = (parent, name = 'Электрическое поле') => arrow(parent, 'blue', { r: 0.028, head: 0.15, headR: 0.075, name });
   const dE = (parent, name = 'dE') => arrow(parent, 'blue', { r: 0.013, head: 0.09, headR: 0.04, name, tone: 'mid' });
-  const force = (parent, red = false) => arrow(parent, red ? 'red' : 'ink', { r: 0.026, head: 0.15, headR: 0.07, name: red ? 'Net force' : 'Forces' });
-  const comp = (parent, name = 'Components') => arrow(parent, 'dark', { r: 0.014, head: 0.09, headR: 0.04, name, tone: 'mid' });
+  const force = (parent, red = false) => arrow(parent, red ? 'red' : 'ink', { r: 0.026, head: 0.15, headR: 0.07, name: red ? 'Равнодействующая сила' : 'Силы' });
+  const comp = (parent, name = 'Составляющие') => arrow(parent, 'dark', { r: 0.014, head: 0.09, headR: 0.04, name, tone: 'mid' });
   const W3 = p => V(p[0], p[1], p[2]);
   const dashed = (parent, n = 40) => {   // a reusable dashed segment, re-aimed each frame
     const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.Float32BufferAttribute(new Float32Array(n * 6), 3));
@@ -85,7 +85,7 @@ export function buildWorld(E) {
     const y = 1 - 2 * (i + 0.5) / NS, r = Math.sqrt(1 - y * y), th = i * Math.PI * (3 - Math.sqrt(5));
     const u = [r * Math.cos(th), y, r * Math.sin(th)];
     if (u[2] < -0.25) continue;                       // the back is never seen
-    const b = bead(gI, 1, 'red', 'Surface charge'); b.position.copy(SC).addScaledVector(W3(u), R1 * 1.01); surf.push({ u, b });
+    const b = bead(gI, 1, 'red', 'Поверхностный заряд'); b.position.copy(SC).addScaledVector(W3(u), R1 * 1.01); surf.push({ u, b });
   }
   const sigRef = Math.abs(M.sigma([-1, 0, 0], M.rodCharges(M.ROD.near), 0));
   const matRed = shadeMat('red'), matBlue = shadeMat('blue');
