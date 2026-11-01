@@ -17,11 +17,11 @@
 | `microbiology.html` | 49 | 49 | 0 |
 | `ecology.html` | 51 | 51 | 0 |
 | `evolution.html` | 43 | 43 | 0 |
-| `biochemistry.html` | 44 | 44 | 0 |
+| `biochemistry.html` | 55 | 55 | 0 |
 | `systematics.html` | 40 | 40 | 0 |
 | `flora-kyrgyzstan.html` | 253 | 253 | 0 |
 | `fauna-kyrgyzstan.html` | 433 | 433 | 0 |
-| **Total** | **1,136** | **1,136** | **0** |
+| **Total** | **1,147** | **1,147** | **0** |
 
 - All 13 pages have matching Russian/English content-block counts.
 - Numeric-token multisets match in all 1,136 paired blocks. One fauna block places the same dates in a different sentence order; the values themselves match.
@@ -32,3 +32,10 @@
 ## Limits
 
 This is an author-side, source-level parity audit. It does not assess whether every sentence is idiomatic, elegant, age-appropriate or pedagogically equivalent, and it is not an independent professional translation/editing sign-off. G5 remains open until a qualified bilingual editor reviews the pages and records corrections or approval.
+
+
+## Follow-up: Biochemistry control labels — 1 November 2026
+
+A source-level review found that the interactive controls for enzyme/substrate matching, enzyme-activity factors, ATP reactions and cellular-respiration stages retained Russian-only labels after switching the page to English. The explanatory output changed language, but the controls themselves did not.
+
+All 11 controls now contain paired RU/EN labels (the pH label is intentionally identical in both languages). The Biochemistry row and total above include these 11 new bilingual pairs. Automated static checks now require paired labels in all four control groups, and the Chromium smoke test checks that English labels are visible and Russian labels hidden after the language switch. These tests have been added to the workflow; they have not yet been executed in this session.
