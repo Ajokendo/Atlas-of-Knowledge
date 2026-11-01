@@ -16,3 +16,4 @@
 - New GIS legal-source addendum: `geography/NATIONAL_SPATIAL_DATA_FRAMEWORK_KG_2026-11-01.md`; records Digital Code No. 178 (31 July 2025), Chapter 12, Articles 92–98, on spatial data, metadata, the National Spatial Data Resource (Georesource) and geosite. Commit: `599a9fd7521a515d919e71e46a205c50f3c1a0a1`.
 - Editorial readiness matrix updated for Chapter 14 to record the Digital Code review and the remaining need to verify actual dataset publication, metadata, CRS, licence and access conditions. Commit: `f62be1c4b9013e22656fe75caa6322f5fb01fc96`.
 - Important limitation: the legal establishment of a national Georesource/geosite is not proof that a specific dataset is currently published, downloadable, current or validated. No map-asset completion status or overall progress percentage is changed by this legal-source review.
+- Geography README updated to point to the Chapter 14 national spatial-data legal audit. Commit: `5b3752695e63f30fc4771f39c9a83a0d0ad39382`.
