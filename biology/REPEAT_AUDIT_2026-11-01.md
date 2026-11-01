@@ -149,3 +149,31 @@ Continue technical review by examining each interactive model's state transition
 ### Change log
 
 - 1 November 2026: advanced the repeat audit to 20%; verified selected national flora and regional biodiversity claims against primary sources; corrected the argali genomic sample-provenance caveat and added a regression guard. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
+
+## 30% milestone — regional flora primary-source and voucher pass — 1 November 2026
+
+### Completed source checks
+
+- Reviewed Seregin, Lyskov & German (2025), *Acta Biologica Sibirica* 11:551–579, DOI 10.5281/zenodo.15253859, against the full article. The publication reports a 2016 expedition across 90 sites over 28 days; it records 945 numbered gatherings / 963 physical specimens, three taxa new to Kyrgyzstan, 31 new records for one of seven floristic provinces and 12 supplementary records. The paper notes that 397 specimens (37%) remained unidentified to species level at the stated processing date.
+- Confirmed a key scale distinction: the seven floristic provinces used by the national vascular-plant checklist are not the seven administrative oblasts used in the regional atlas. The chapter bibliography and the species-evidence audit now state this explicitly; the source is not presented as a seven-oblast checklist.
+- Verified the Talas/Besh-Tash record of *Allium filifolium*: Besh-Tash Gorge, 23 July 2016, 2,170 m, specimen MW0896287. The source discusses the complex taxonomic history of the *A. kokanicum* group. The chapter now reports the name as the 2025 paper's identification and retains that taxonomic caveat, rather than asserting a fully settled taxonomic treatment.
+
+### Saved changes and regression protection
+
+- Added the 2025 regional-record paper to `chapters/flora-kyrgyzstan.html` bibliography in Russian and English, with its expedition date, record counts and explicit floristic-region / administrative-oblast distinction.
+- Added the voucher-backed Besh-Tash *Allium filifolium* record to the Talas dossier in both languages, including date, herbarium accession and taxonomic qualification.
+- Expanded `KYRGYZSTAN_SPECIES_AUDIT.md` with the source's scope, identification limitations and the specific Besh-Tash voucher evidence.
+- Added regression assertions in `checks.mjs` for the source DOI, regional-framework caveat, unresolved-identification caveat and Besh-Tash voucher/taxonomic qualification.
+- Read-back confirmed the edited chapter, audit and regression script contain the new evidence. The image insertion map and disposition register each still contain 52 unique anchor IDs.
+
+### Verification limits
+
+- Source-level verification and GitHub read-back were completed. `checks.mjs`, browser tests and CI were **not** executed in this pass; the new assertions are committed but not reported as passing.
+- No new image was generated or integrated. All 52 illustration anchors and Deferred dispositions remain unchanged.
+- This remains a bounded claim-to-source pass, not a complete verification of all species accounts or locality records.
+- G4 independent scientific review and G5 independent bilingual/editorial review remain open. Controlled editorial readiness remains **95/100**; no publication approval is implied.
+
+### Change log
+
+- 1 November 2026: advanced repeat-audit coverage to 30%; added and checked a primary regional-flora source and a voucher-backed Besh-Tash record, with bilingual caveats and regression guards. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
+
