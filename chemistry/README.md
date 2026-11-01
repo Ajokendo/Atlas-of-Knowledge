@@ -49,3 +49,14 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Submission is intentionally unavailable: the button is disabled, the control is non-submitting (`type=button`), and the template has no endpoint, submit handler, network request or browser storage logic. It must not be enabled before portal completion, a separate security/technical review, and explicit project-owner approval.
 - [x] Added automated safeguards in `checks.mjs` to prevent accidental activation or addition of client-side collection/storage logic and to verify all nine “Cannot assess” choices.
 - [ ] This is preparation only, not a live feedback channel. No real responses have been collected or stored. The portal-wide feedback entry point and shared backend remain outside this subject branch's scope.
+
+
+### Reference provenance and regression checkpoint — 2026-11-02
+
+- [x] Added bilingual source links for fundamental constants to NIST/CODATA 2022.
+- [x] Added IUPAC Gold Book references for standard pressure, standard gas conditions, standard thermodynamic quantities, and the autoprotolysis constant of water.
+- [x] Clarified that IUPAC standard conditions for gases are 273.15 K and 100 kPa, while 298.15 K is a commonly used separately stated temperature for thermodynamic data.
+- [x] Added automated checks for the displayed constants, authoritative source URLs, bilingual qualifications, and the standard-condition distinction.
+- [x] Added browser assertions for all five external source links, safe new-tab attributes, RU/EN labels, and unchanged numerical values after language switching.
+- [x] Full Chemistry CI run [41341078589](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41341078589) completed with `status=completed` and `conclusion=success` on commit `51b373ce6eeccd5ff5f0aac2ddf95547aa170b19`.
+- [ ] Physical-device, assistive-technology, manual zoom/reflow, and independent scientific reviews remain external pending gates. This checkpoint does not change the recorded 85% internal audit milestone.
