@@ -388,6 +388,7 @@ try {
       }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("снижает pH морской воды") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("парниковый эффект")) errors.push(file + ": Russian environment note must connect carbon emissions, greenhouse effect and ocean acidification");
       if (!(await page.locator("[data-i=carbonCycleProcesses]").innerText()).includes("длительные геологические сроки")) errors.push(file + ": Russian carbon-cycle processes note is incomplete");
+      if (!(await page.locator("[data-i=carbonCycleCaption]").innerText()).includes("атмосферой") || !(await page.locator("[data-i=carbonCycleCaption]").innerText()).includes("геологическими резервуарами")) errors.push(file + ": Russian carbon-cycle illustration caption is incomplete");
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("полимеры нуклеотидов") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("пентозу") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("дезоксирибоза") ||
@@ -396,7 +397,7 @@ try {
       }
       if (!(await page.locator("[data-i=basePairingNote]").innerText()).includes("аденин с тимином") || !(await page.locator("[data-i=basePairingNote]").innerText()).includes("гуанин с цитозином")) errors.push(file + ": Russian DNA base-pairing note is incomplete");
       if (!(await page.locator("[data-i=enzymesText]").innerText()).includes("энергию активации") ||
-          !(await page.locator("[data-i=enzymeNote]").innerText()).includes("температуру и pH")) {
+          !(await page.locator("[data-i=enzymeNote]").innerText()).includes("температуру и pH") || !(await page.locator("[data-i=enzymeNote]").innerText()).includes("активным центром")) {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       await page.locator("#lang").click();
@@ -405,6 +406,7 @@ try {
       }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("seawater pH decreases") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("greenhouse effect")) errors.push(file + ": English environment note must connect carbon emissions, greenhouse effect and ocean acidification");
       if (!(await page.locator("[data-i=carbonCycleProcesses]").innerText()).includes("long geological timescales")) errors.push(file + ": English carbon-cycle processes note is incomplete");
+      if (!(await page.locator("[data-i=carbonCycleCaption]").innerText()).includes("atmosphere") || !(await page.locator("[data-i=carbonCycleCaption]").innerText()).includes("geological stores")) errors.push(file + ": English carbon-cycle illustration caption is incomplete");
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("nucleotide polymers") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("pentose sugar") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("deoxyribose") ||
@@ -415,7 +417,7 @@ try {
       if (!(await page.locator("[data-i=nucleicAcidDirectionNote]").innerText()).includes("antiparallel") || !(await page.locator("[data-i=nucleicAcidDirectionNote]").innerText()).includes("5′→3′")) errors.push(file + ": English nucleic-acid direction note is incomplete");
       if (!(await page.locator("[data-i=atpNote]").innerText()).includes("ATP is not energy itself") || !(await page.locator("[data-i=atpNote]").innerText()).includes("hydrolysis")) errors.push(file + ": English ATP coupling note is incomplete");
       if (!(await page.locator("[data-i=enzymesText]").innerText()).includes("activation energy") ||
-          !(await page.locator("[data-i=enzymeNote]").innerText()).includes("temperature and pH")) {
+          !(await page.locator("[data-i=enzymeNote]").innerText()).includes("temperature and pH") || !(await page.locator("[data-i=enzymeNote]").innerText()).includes("active site")) {
         errors.push(file + ": English enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       if (await page.locator(".tile").count() !== 6) errors.push(file + ": expected six biomolecule/water/enzyme topic cards");
