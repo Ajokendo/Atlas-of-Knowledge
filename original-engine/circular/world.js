@@ -110,7 +110,7 @@ export function buildWorld(E) {
     const o = { v, c, b: ball(gD, BR, k ? 'Fast ball' : 'Slow ball'), s: thin(gD), vA: vec(gD, 'blue'), T: vec(gD), N: vec(gD), W: vec(gD), net: vec(gD, 'red') };
     label('vec blue', 'v', () => tip(o.vA)); label('vec', 'T', () => tip(o.T)); label('vec red', 'ΣF', () => tip(o.net));
     label('vec', 'F<sub>N</sub>', () => tip(o.N)); label('vec', '<i>mg</i>', () => tip(o.W));
-    label('tick', `${v.toFixed(1)} m/s`, () => V(c.x + 0.28, TY, M.BALL.r + 0.32));
+    label('tick', `${v.toFixed(1)} м/с`, () => V(c.x + 0.28, TY, M.BALL.r + 0.32));
     return o;
   });
 
@@ -155,7 +155,7 @@ export function buildWorld(E) {
     const o = { phi, at, dot, N: vec(gL, 'ink', 'm'), W: vec(gL, 'ink', 'm'), net: vec(gL, 'red', 'm') };
     const sh = (a, dx) => () => o.N.visible ? tip(a).add(V(phi ? dx : 0, 0, 0)) : null;
     label('vec', 'F<sub>N</sub>', sh(o.N, -0.1)); label('vec', '<i>mg</i>', sh(o.W, 0.1)); label('vec red', 'ΣF', () => tip(o.net));
-    label('board', phi ? 'top' : 'bottom', () => dot.visible ? at.clone().add(phi ? V(-0.1, 0.22, 0) : V(0.25, 0, 0)) : null);
+    label('board', phi ? 'верх' : 'низ', () => dot.visible ? at.clone().add(phi ? V(-0.1, 0.22, 0) : V(0.25, 0, 0)) : null);
     return o;
   });
 
