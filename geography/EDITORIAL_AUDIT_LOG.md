@@ -654,3 +654,13 @@ This checkpoint preserves the working context for continuation after a session i
 - Chapter 3 has a substantial bilingual text structure, worked geological examples in both languages, practical work, review questions, scientific notes and four explicit visual markers (3-A–3-D). Several additional legacy prose briefs use “Место для иллюстрации” labels; they should be reconciled with the numbered production-marker register during the later illustration pass so no visual is lost or duplicated.
 - This was a focused structural check, not a full scientific fact-check or final reference validation. No images are claimed as generated.
 - Chapter 2 numbering correction commit: `74b6061e7990da03a79e7fc2a5f71af1597d2194`; verified blob: `2003de69d604fe173161bf6a371cf769c098d54e`.
+
+
+## World-geography chapter sweep — Chapters 4–13 (1 November 2026)
+
+- Performed a structural sweep of Chapters 4–13, checking the presence of English-language chapter text, numbered teaching sections, practical/review components, source sections and explicit visual markers.
+- Chapters 4–6 each contain a substantial English section and four explicit visual markers (4-A–4-D, 5-A–5-D and 6-A–6-D). Their worked examples and practical activities are present; the repeated subsection patterns such as 4.15/4.15.1 and 5.16/5.16.1 are parent/subsection structures, not duplicate headings.
+- Chapters 7–9 contain English-language text, references and practical/assessment material. Their current explicit visual-marker sets are 07-A–07-C, 08-A–08-C and 09-A–09-C respectively. Scientific notes appropriately flag classification, source-year, uncertainty and statistical-definition requirements.
+- Chapters 10–13 contain English-language text, review/practical components and source lists. Their explicit visual-marker sets are 10-A–10-C, 11-A–11-D, 12-A–12-D and 13-A–13-D. Topics include political boundaries and maritime zones, economic structure and value chains, world-region mapping, climate/biodiversity and environmental assessment.
+- This pass is a structural/production-readiness sweep rather than a line-by-line scientific verification. Visual markers are briefs only; no maps or images are represented as generated. A later global visual-register pass should reconcile all marker IDs with any legacy prose-only illustration notes and ensure no duplicate or missing production assets.
+- No chapter body edits were required during this sweep. Audit record saved in this commit.
