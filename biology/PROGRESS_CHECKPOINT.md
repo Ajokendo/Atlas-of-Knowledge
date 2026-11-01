@@ -688,3 +688,12 @@
 - Automated text contrast corrections now cover all 13 pages. Standard chapter subtitles and regional chapter subtitles are both included.
 - Contrast remediation stage: 100% for the defined preliminary DOM-text sampler and its sampled initial state. This is not a full WCAG conformance certification: SVG text, image/gradient-backed text, complex transparency, all hover/focus/selected/disabled states, screen-reader behavior and physical devices remain outside or only partially covered.
 - Overall editorial readiness remains 95/100. G4 scientific and G5 editorial independent review, 52 planned visual assets, full keyboard traversal, screen-reader and physical-device checks remain open. Feedback intake remains disabled.
+
+
+## 2026-11-01 — expanded keyboard traversal suite started
+
+- Added a full visible-tab-order traversal to `biology/browser-smoke.mjs`: the test now enumerates visible focusable controls, walks them with Tab, checks whether each reached control exposes a detectable focus indicator (outline, shadow or filter), and verifies that the full sequence is reachable.
+- This extends the prior first/next/Shift+Tab check. The expanded test has not yet been validated by CI; next run is #490 (head commit `987e38cc3d28a2e0ea2b6257e474bcbd24cdfb53`).
+- Contrast sampling/remediation is complete for its defined scope: CI #487 passed with 6,683 visible text instances sampled and zero below-threshold instances. This does not cover image/gradient text, all dynamic states, screen readers or physical devices.
+- Contrast audit stage: 100% for the defined sampler. Keyboard accessibility stage: in progress; full traversal and focus-indicator validation pending.
+- Overall editorial readiness remains 95/100; G4/G5 reviews, 52 deferred visual assets, screen-reader and physical-device checks remain open. Feedback intake remains disabled.
