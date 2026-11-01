@@ -76,6 +76,7 @@ P = ET + Q + \Delta S
 
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-A / IMAGE PLACEHOLDER 20-A]** Карта современных ледников Кыргызстана по датированной инвентаризации с раздельным отображением ледниковых районов и границ бассейнов; указать порог учёта и метод.
+> **EN:** Map of Kyrgyzstan's glaciers based on a dated inventory, distinguishing glacier regions from basin boundaries; state the inclusion threshold and method.
 
 ### 20.3.1. Формирование и строение ледников
 
@@ -136,6 +137,7 @@ P = ET + Q + \Delta S
 ## 20.4. Реки и речные бассейны Кыргызстана / Rivers and River Basins of Kyrgyzstan
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-B / IMAGE PLACEHOLDER 20-B]** Гидрографическая карта основных речных бассейнов и направлений трансграничного стока; показать водоразделы, крупные реки и страны-соседи.
+> **EN:** Hydrographic map of the main river basins and transboundary flow directions, showing watershed divides, major rivers and neighbouring countries.
 
 ### 20.4.1. Речная сеть
 
@@ -263,6 +265,7 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 ## 20.6. Озёра Кыргызстана / Lakes of Kyrgyzstan
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-C / IMAGE PLACEHOLDER 20-C]** Сравнительная карта и инфографика основных озёр: происхождение, высота, площадь и глубина с датой и источником морфометрии.
+> **EN:** Comparative map and infographic of major lakes, showing origin, elevation, area and depth with the date and source of morphometric data.
 
 В Кыргызстане представлены озёра тектонического, ледникового, завального, карстового и смешанного происхождения. Они различаются по глубине, минерализации, площади, высоте расположения и степени связи с речной сетью.
 
@@ -334,6 +337,7 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 ## 20.8. Водохранилища и ирригационные системы / Reservoirs and Irrigation Systems
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-D / IMAGE PLACEHOLDER 20-D]** Схема Нарынского каскада ГЭС и основных водохранилищ с направлениями стока и ирригационными системами; различать проектные и фактические параметры.
+> **EN:** Diagram of the Naryn hydropower cascade and major reservoirs, showing flow directions and irrigation systems; distinguish planned from operating parameters.
 
 Водохранилища регулируют сезонный сток, обеспечивают орошение, водоснабжение и выработку электроэнергии. Они изменяют естественный гидрограф реки, задерживают наносы, влияют на температуру воды и экологические условия ниже плотины.
 
@@ -371,6 +375,7 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 ## 20.9. Трансграничные водные системы / Transboundary Water Systems
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-E / IMAGE PLACEHOLDER 20-E]** Схема трансграничного водного управления Чу–Талас и Нарын–Сырдарья с обозначением верховых и низовых пользователей, сезонности и инфраструктуры.
+> **EN:** Diagram of transboundary water management in the Chu–Talas and Naryn–Syr Darya basins, showing upstream and downstream users, seasonality and infrastructure.
 
 Реки Кыргызстана связаны с водными системами Казахстана, Узбекистана, Таджикистана и Китая. Вода пересекает государственные границы, поэтому её использование требует сотрудничества по вопросам:
 - распределения и сезонного графика стока;
@@ -507,6 +512,7 @@ To compare two hypothetical operating regimes, prepare a table using four criter
 ## 20.11. Ледниковые озёра, паводки и селевые риски / Glacial Lakes, Floods and Debris-Flow Hazards
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-F / IMAGE PLACEHOLDER 20-F]** Схема риска прорыва ледникового озера: тип плотины, возможный путь волны, зона затопления, населённые пункты и инфраструктура ниже по течению; не выдавать учебную модель за оперативную карту.
+> **EN:** Glacial-lake outburst risk diagram showing dam type, possible flood-wave path, inundation zone and downstream settlements and infrastructure; do not present a teaching model as an operational hazard map.
 
 Отступание ледников и перестройка морен могут приводить к появлению новых озёр или изменению уже существующих. Некоторые озёра удерживаются ледниковым льдом, другие — моренными валами или скальными порогами. При разрушении естественной плотины вода может быстро устремиться вниз по долине.
 
