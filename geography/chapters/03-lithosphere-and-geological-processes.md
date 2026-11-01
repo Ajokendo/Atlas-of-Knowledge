@@ -255,7 +255,7 @@
 
 **От разницы времени к расстоянию.** Специалисты используют кривые времени пробега сейсмических волн или вычислительные модели, чтобы перевести интервал между P- и S-волнами в оценку расстояния до очага. Нельзя применять одну постоянную скорость ко всем волнам и всем глубинам: скорость зависит от свойств и строения пород.
 
-**Триангуляция.** Если известны расстояния от нескольких станций до эпицентра, вокруг каждой станции на карте проводят окружность соответствующего радиуса. В идеализированном случае три окружности пересекаются в одной точке. На практике измерения содержат погрешности, поэтому окружности могут не сходиться точно; положение эпицентра определяют методами совместной обработки данных. Для определения глубины очага и параметров разрыва нужны дополнительные наблюдения и более сложные модели.
+**Трилатерация (определение по расстояниям).** Если известны расстояния от нескольких станций до эпицентра, вокруг каждой станции на карте проводят окружность соответствующего радиуса. Здесь положение определяют по расстояниям, а не по измеренным углам. В идеализированном случае три окружности пересекаются в одной точке. На практике измерения содержат погрешности, поэтому окружности могут не сходиться точно; положение эпицентра определяют методами совместной обработки данных. Для определения глубины очага и параметров разрыва нужны дополнительные наблюдения и более сложные модели.
 
 **Упрощённый учебный пример.** Пусть три станции расположены в разных частях региона, а анализ сейсмограмм дал условные расстояния до эпицентра 40, 65 и 50 км. На карте строят три окружности с этими радиусами. Область их наиболее близкого пересечения показывает примерное положение эпицентра. Эти условные расстояния иллюстрируют геометрический принцип и не описывают реальное землетрясение.
 
@@ -267,7 +267,7 @@ A seismic station records ground motion as a seismogram. The record usually make
 
 **From time difference to distance.** Scientists use seismic travel-time curves or computational models to convert the interval between P- and S-wave arrivals into an estimated distance to the source. A single constant velocity cannot be applied to all waves and depths: velocity depends on the properties and structure of the rocks.
 
-**Triangulation.** If distances from several stations to the epicentre are known, a circle with the corresponding radius is drawn around each station on a map. In an idealised case, three circles intersect at one point. In practice, measurements contain errors, so the circles may not meet exactly; the epicentre is estimated by jointly analysing the observations. Additional measurements and more complex models are needed to determine focal depth and rupture parameters.
+**Trilateration (location by distance).** If distances from several stations to the epicentre are known, a circle with the corresponding radius is drawn around each station on a map. The location is determined from measured distances, not from measured angles. In an idealised case, three circles intersect at one point. In practice, measurements contain errors, so the circles may not meet exactly; the epicentre is estimated by jointly analysing the observations. Additional measurements and more complex models are needed to determine focal depth and rupture parameters.
 
 **Simplified learning example.** Suppose three stations are located in different parts of a region, and seismogram analysis gives hypothetical distances to the epicentre of 40, 65 and 50 km. Draw three circles with these radii on a map. The area where they come closest to intersecting indicates the approximate epicentre location. These illustrative distances do not describe a real earthquake.
 
@@ -455,7 +455,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 | Группа | Примеры |
 |---|---|
-| Металлические руды | Железо, медь, алюминий, золото |
+| Металлические руды | Железная руда, медная руда, боксит (алюминиевая руда), золотосодержащая руда |
 | Неметаллические | Фосфориты, соли, гипс, известняк |
 | Энергетические | Уголь, нефть, природный газ, уран |
 | Строительные материалы | Песок, гравий, глина, строительный камень |
@@ -845,7 +845,7 @@ Geological resources include mineral deposits, construction materials, groundwat
 
 ### 3.11.1. Mineral Resource Groups
 
-Mineral resources may be grouped as metallic ores (iron, copper, aluminium and gold), non-metallic resources (phosphorites, salts, gypsum and limestone), energy resources (coal, oil, natural gas and uranium), and construction materials (sand, gravel, clay and building stone).
+Mineral resources may be grouped as metallic ores (iron ore, copper ore, bauxite as an aluminium ore, and gold-bearing ore), non-metallic resources (phosphorites, salts, gypsum and limestone), energy resources (coal, oil, natural gas and uranium), and construction materials (sand, gravel, clay and building stone).
 
 A mineral occurrence is not necessarily an economically viable deposit. Development depends on grade, reserve volume, extraction technology, infrastructure, environmental constraints and market conditions.
 
