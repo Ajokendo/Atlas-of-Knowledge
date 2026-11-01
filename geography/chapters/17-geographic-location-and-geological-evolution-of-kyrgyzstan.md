@@ -931,7 +931,7 @@ Compare the administrative map of the seven regions with maps of mountain system
 10. Централизованный банк данных правовой информации КР. **Постановление Жогорку Кенеша от 19 марта 2025 года № 2912-VII о ратификации Договора о кыргызско-таджикской государственной границе**: https://cbd.minjust.gov.kg/230024463/edition/29362/ru
 11. Кабинет Министров Кыргызской Республики. **Начало установки первых пограничных столбов в рамках демаркации кыргызско-таджикской границы**, 14 июля 2026 года: https://www.gov.kg/index.php/ru/post/s/26456-kyrgyzstan-menen-tazikstandyn-mamlekettik-cek-arasyn-demarkaciyaloo-isterinin-alkagynda-algacky-cek-ara-mamycalaryn-ornotuu-bastaldy
 12. Президент Кыргызской Республики. **Закон о ратификации договора об отдельных участках кыргызско-узбекской государственной границы**, 29 ноября 2022 года: https://president.kg/en/news/21/38167
-13. Government of Uzbekistan. **Uzbekistan and Kyrgyzstan elevate relations to the level of an alliance**, 30 July 2026: https://gov.uz/en/digital/news/view/199682
+13. Government of Uzbekistan. **Uzbekistan and Kyrgyzstan elevate relations to the level of an alliance**, 30 July 2026: https://gov.uz/en/mfa/news/view/199700
 14. Government of the Kyrgyz Republic. **Digital Border — official information on border crossing points and border regimes**: https://digitalborder.gps.gov.kg/ru/home/news
 
 ---
