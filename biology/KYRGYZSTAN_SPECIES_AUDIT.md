@@ -192,3 +192,12 @@ Source: [UNDP Kyrgyzstan, 7 December 2025](https://www.undp.org/ru/kyrgyzstan/ne
 - A guided birding visit can document species seen during the event, but cannot by itself establish a full site checklist or annual abundance.
 - A conservation organisation's or ministry's national-superlative claim (for example, “only confirmed nesting site”) must remain attributed unless corroborated by a primary ornithological survey or formal national database.
 - Sensitive nest locations should be generalized in public-facing atlas text.
+
+
+### Issyk-Kul: Demoiselle Crane migration aggregation — August 2026
+
+The Institute of Biology of the National Academy of Sciences of the Kyrgyz Republic reports that an August 2026 expedition recorded approximately 2,000 Demoiselle Cranes (*Grus virgo*) along the Issyk-Kul shore. The expedition was undertaken to collect current evidence for the revised Kyrgyz Red Data Book.
+
+**Evidence classification:** dated institutional expedition report of a large migratory aggregation. The public notice does not provide a counting protocol, observation duration, uncertainty estimate or a full survey dataset. Retain the figure as an approximate, source-attributed observation; do not treat it as a national population estimate or trend. The report refers to the Issyk-Kul shoreline generally and is separate from CAMP Alatoo's event-specific count of nearly 7,000 birds of 31 species at the proposed Kushtar micro-reserve. These two figures describe different observations, sites/scopes and counting contexts and must not be added together.
+
+Source: [Institute of Biology, National Academy of Sciences of the Kyrgyz Republic, August 2026 expedition](https://ibnaskr.org/ekspeditsii/zhuravl-krasavka-issyk-kul-2026/).
