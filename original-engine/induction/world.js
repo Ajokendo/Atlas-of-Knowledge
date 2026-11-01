@@ -44,8 +44,8 @@ export function buildWorld(E) {
 
   // ---------- kit ----------
   const onTop = a => { a.userData.arrow.shaft.material.transparent = true; return a; };
-  const bArrow = (g, r = 0.02, name = 'Magnetic field') => onTop(arrow(g, 'dark', { r, head: 0.11, headR: 0.055, name, tone: 'hi' }));
-  const iArrow = (g, name = 'Induced current') => onTop(arrow(g, 'ink', { r: 0.02, head: 0.11, headR: 0.055, name }));
+  const bArrow = (g, r = 0.02, name = 'Магнитное поле') => onTop(arrow(g, 'dark', { r, head: 0.11, headR: 0.055, name, tone: 'hi' }));
+  const iArrow = (g, name = 'Индукционный ток') => onTop(arrow(g, 'ink', { r: 0.02, head: 0.11, headR: 0.055, name }));
   const flatMat = (pal, opacity) => { const m = shadeMat(pal, { opacity }); m.side = THREE.DoubleSide; return m; };
   const tipOf = (a, k = 0.16) => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + k, 0)) : null;
   const rodGeo = new THREE.CylinderGeometry(1, 1, 1, 12);
@@ -194,7 +194,7 @@ export function buildWorld(E) {
   // 0 · a bar magnet slides toward a loop and back: flux and Faraday's law
   const X0 = STATIONS.flux, D0 = DRAW.flux, CY0 = 1.7, c0 = V(X0, CY0, 0), A0 = M.FLUX.a * D0;
   const g0 = asm('flux', root, { title: 'Магнитный поток через контур', sub: 'Φ = ∫B·dA, сумма по элементарным площадкам dA' });
-  ring(g0, c0, A0, 0.024, 'Wire loop');
+  ring(g0, c0, A0, 0.024, 'Проволочный контур');
   const mag0 = magnet(g0, D0, true);
   const lineMat0 = shadeMat('dark', { opacity: 0.6 });
   magnetLines(mag0, D0, true, { thetas: [18, 40, 70, 110], phis: [0, 90, 180, 270], box: 0.2, mat: lineMat0 });
@@ -221,10 +221,10 @@ export function buildWorld(E) {
   const LZ = M.CASES.map((c, i) => {
     const o = V(X1 + (i % 2 ? 0.9 : -3.3), i < 2 ? 3.15 : 1.05, 0);
     const g = asm(c.key, root, { title: c.name, sub: c.move === 'in' ? 'поток растёт: поле контура противодействует изменению' : 'поток уменьшается: поле контура стремится его сохранить' });
-    ring(g, o, A1, 0.022, 'Wire loop');
+    ring(g, o, A1, 0.022, 'Проволочный контур');
     const mg = magnet(g, D1, c.pole === 'N');
     magnetLines(mg, D1, c.pole === 'N', { thetas: [22, 48, 80, 118], phis: [0, 180], box: 0.16, mat: shadeMat('dark', { opacity: 0.8 }), r: 0.01 });
-    const B = bArrow(g, 0.018, 'Magnet’s field at the loop'), ind = dashArrow(g), cur = ringArrows(g);
+    const B = bArrow(g, 0.018, 'Поле магнита в области контура'), ind = dashArrow(g), cur = ringArrows(g);
     const v = arrow(g, 'ink', { r: 0.014, head: 0.09, headR: 0.042, name: 'Скорость' });
     label('board', c.name, () => o.clone().add(V(-0.75, 0.82, 0)));
     label('vec', grey('<i>B</i>'), () => tipOf(B, 0.14));
@@ -244,8 +244,8 @@ export function buildWorld(E) {
   const X2 = STATIONS.mutual, D2 = DRAW.mutual, A2 = M.COILS.a * D2, y2 = 2.95;
   const c21 = V(X2 - M.COILS.sep * D2 / 2, y2, 0), c22 = V(X2 + M.COILS.sep * D2 / 2, y2, 0);
   const gC = asm('mutual', root, { title: 'Две катушки', sub: 'изменяющееся поле первой катушки пронизывает вторую' });
-  ring(gC, c21, A2, 0.06, 'Coil 1 (100 turns, driven)');
-  ring(gC, c22, A2, 0.06, 'Coil 2 (100 turns)');
+  ring(gC, c21, A2, 0.06, 'Катушка 1 (100 витков, с током)');
+  ring(gC, c22, A2, 0.06, 'Катушка 2 (100 витков)');
   const lineMatC = shadeMat('dark', { opacity: 0.8 });
   const linesC = new THREE.Group(); linesC.position.copy(c21); gC.add(linesC);
   for (const pts of ringLines(M.COILS.a, [0.25, 0.55, 0.8].flatMap(k => [k, -k]).map(k => k * M.COILS.a), 0.13))
