@@ -833,6 +833,31 @@ Priorities include modernising irrigation canals and water accounting; reducing 
 
 **Environmental flow** is the quantity, timing and quality of water needed to sustain river ecosystems and the natural processes that depend on them. Water abstraction and reservoir regulation should consider not only economic demand but also the condition of aquatic habitats.
 
+
+
+### 20.13.2. Национальная статистика водопользования и информационные системы / National Water-Use Statistics and Information Systems
+
+Открытая таблица Национального статистического комитета Кыргызской Республики «Охрана и рациональное использование водных ресурсов» публикует годовые показатели в млн м³. За 2025 год в таблице указаны: забор воды из природных источников — **8 938,4 млн м³**; забор из подземных горизонтов — **326,4 млн м³**; водопотребление — **6 224,9 млн м³**, в том числе на орошение и сельскохозяйственное водоснабжение — **5 821,1 млн м³**. Объём сточных вод указан как **188,5 млн м³**, в том числе сброс нормативно очищенных вод — **185,6 млн м³**, загрязнённых сточных вод без очистки или недостаточно очищенных — **1,4 млн м³**.
+
+Эти показатели характеризуют национальную статистику водопользования и водоотведения, а не естественный речной сток и не полный водный баланс страны. В частности, водозабор, водопотребление и сбросы — разные статистические категории; их нельзя складывать или трактовать как взаимозаменяемые величины. Перед сравнением лет необходимо проверить определения, охват респондентов, методику учёта и возможные пересмотры ряда. Значение забора из подземных горизонтов является частью общего забора, а не дополнительным объёмом сверх него.
+
+Служба водных ресурсов публикует описание **Информационной системы водных ресурсов (WIS)** как распределённой системы текстовых баз и геопривязанных тематических слоёв. В описании перечислены данные о речных расходах, водозаборе и сбросах сточных вод, поступающие от нескольких организаций, включая Кыргызгидромет. На портале также представлены отдельные приложения по количеству воды, использованию оросительной воды, гидротехническим сооружениям и национальному водопользованию. Наличие описания системы и ссылок на приложения не доказывает, что все ряды открыты для скачивания, регулярно обновляются или имеют опубликованные метаданные. Для гидрологических графиков атласу по-прежнему нужны проверенные временные ряды по конкретным постам с периодом, единицами, пропусками, изменениями створа и условиями доступа.
+
+В 2025 году при поддержке Всемирной продовольственной программы ООН и Швейцарского агентства по развитию и сотрудничеству был опубликован **«Атлас селевой и паводковой опасности на территории Кыргызской Республики»**, подготовленный подразделением мониторинга и прогнозирования опасных процессов МЧС. Это тематический источник для пространственного описания селевых и паводковых процессов. Его картографические материалы следует использовать с указанием года издания, масштаба, легенды, методики районирования и административного охвата; классы опасности из атласа нельзя автоматически приравнивать к индивидуальному риску конкретного населённого пункта или объекта.
+
+Дополнительный официальный веб-ресурс МЧС — Единая система комплексного мониторинга и прогнозирования чрезвычайных ситуаций — отображает типы опасных процессов, включая оползни, сели, лавины, паводки и прорывы высокогорных естественных озёр. Карта полезна как источник текущей тематической информации, но её веб-слои не заменяют архивный датированный набор данных и не должны считаться статичной национальной картой без фиксации даты просмотра и происхождения слоя.
+
+The National Statistical Committee's open-data table, “Protection and Rational Use of Water Resources,” publishes annual indicators in million cubic metres. For 2025 it reports **8,938.4 million m³** abstracted from natural sources; **326.4 million m³** abstracted from underground horizons; and **6,224.9 million m³** of water consumption, including **5,821.1 million m³** for irrigation and agricultural water supply. Wastewater is reported at **188.5 million m³**, including **185.6 million m³** discharged as treated to standards and **1.4 million m³** of polluted wastewater discharged untreated or insufficiently treated.
+
+These are national water-use and wastewater statistics, not measurements of natural river runoff or a complete national water balance. Abstraction, consumption and discharge are distinct statistical categories and must not be added together or treated as interchangeable. Before comparing years, check definitions, reporting coverage, accounting methods and possible revisions. Underground abstraction is a component of total abstraction, not an additional volume on top of it.
+
+The Water Resources Service describes its **Water Information System (WIS)** as a distributed system of text databases and georeferenced thematic layers. Its stated data domains include river discharge, water abstraction and wastewater discharge, drawing on several organisations including KyrgyzHydromet. The portal also lists applications for water quantity, irrigation-water use, hydraulic structures and national water use. A system description and application links do not prove that every time series is downloadable, regularly updated or accompanied by public metadata. Atlas hydrographs therefore still require verified station-level records with periods, units, gaps, gauge relocations and access conditions documented.
+
+In 2025, with support from the United Nations World Food Programme and the Swiss Agency for Development and Cooperation, the **Atlas of Mudflow and Flood Hazards in the Kyrgyz Republic** was published by the Ministry of Emergency Situations' monitoring and forecasting unit. It is a thematic source for the spatial distribution of mudflow and flood processes. Any map use should state the publication year, scale, legend, zoning method and administrative coverage; hazard classes in the atlas must not automatically be interpreted as the individual risk to a specific settlement or asset.
+
+The Ministry of Emergency Situations' Unified System of Integrated Monitoring and Forecasting of Emergency Situations is an additional official web resource displaying hazard types such as landslides, mudflows, avalanches, floods and outbursts of high-mountain natural lakes. It can provide current thematic information, but its web layers are not a substitute for a dated archival dataset and should not be treated as a static national map without recording the access date and layer provenance.
+
+
 ## 20.14. Практические работы / Practical Activities
 
 ### English Practical Activities
@@ -961,6 +986,7 @@ Priorities include modernising irrigation canals and water accounting; reducing 
 8. **Инфографика водного баланса.** Разделить атмосферные осадки, эвапотранспирацию, речной сток и изменение запасов; не складывать запас льда с годовым стоком.
 9. **Карта ледниковых озёр и опасных бассейнов.** Показать известные озёра, тип естественной плотины, возможные пути прорыва и расположенные ниже объекты. Классы риска брать только из подтверждённых исследований.
 10. **Схема водопользования и трансграничного управления.** Показать связь верховьев и низовьев, гидроэнергетики, орошения, водоснабжения, экологического стока и межгосударственного обмена данными.
+11. **Инфографика национального водопользования.** Показать показатели НСК за конкретный год в млн м³, отдельно обозначив водозабор, подземный водозабор как его компонент, водопотребление по направлениям и сброс сточных вод. Не смешивать статистику водопользования с речным стоком.
 
 ## 20.18. Научные редакционные примечания / Scientific Editorial Notes
 
@@ -1028,6 +1054,10 @@ Kyrgyzstan’s water system is shaped by high mountains, precipitation, seasonal
 17. **World Bank.** *Water Energy Nexus in the Syr Darya Basin.* https://documents1.worldbank.org/curated/en/907281468251378105/pdf/338770v10ENGLISH0REEPS1Main1Report.pdf
 18. Piroton, V., & Havenith, H.-B. (2025). **National Inventory of Glacial Lakes in Kyrgyzstan: Integrating Remote Sensing for Hazard Assessment and Local-scale Monitoring.** EGU General Assembly 2025, EGU25-19362. https://doi.org/10.5194/egusphere-egu25-19362
 19. **Natural Hazards and Earth System Sciences.** (2026). **Constantly renewing glacial lakes in the Kyrgyz Range, northern Tien Shan.** https://doi.org/10.5194/nhess-26-1001-2026
+20. **National Statistical Committee of the Kyrgyz Republic.** *Protection and Rational Use of Water Resources* (open-data table; annual values, including 2025). https://stat.gov.kg/ru/opendata/category/3216/
+21. **Water Resources Service of the Kyrgyz Republic.** *Water Information System (WIS)*; description of distributed databases and river-flow, abstraction and wastewater data. https://water.gov.kg/index.php?Itemid=1522&id=422&lang=en&option=com_content&view=article
+22. **Ministry of Emergency Situations of the Kyrgyz Republic.** *Atlas of Mudflow and Flood Hazards in the Territory of the Kyrgyz Republic* (2025; prepared with WFP and SDC support). https://glofca.org/wp-content/uploads/ATLAS_mudflow_2025_Eng-1.pdf
+23. **Unified System of Integrated Monitoring and Forecasting of Emergency Situations (ESKMP), Kyrgyz Republic.** Interactive hazard-monitoring portal. https://cmbbs.okm.kg/
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена. Перед финальной публикацией необходимо согласовать гидрологические ряды, морфометрические характеристики озёр, параметры водохранилищ и ледниковые инвентари с датированными национальными и международными наборами данных.
