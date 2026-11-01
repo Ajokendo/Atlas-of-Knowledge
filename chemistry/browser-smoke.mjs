@@ -1525,6 +1525,85 @@ try {
       }
     }
 
+    if (file === "chapters/amount-of-substance.html") {
+      const defaultMoles = Number((await page.locator("#moles").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      if (!Number.isFinite(defaultMoles) || Math.abs(defaultMoles - 2) > 1e-9) {
+        errors.push(file + ": 36.03 g of water at 18.015 g/mol must give 2 mol");
+      }
+      if (!(await page.locator("#count").innerText()).includes("× 10")) {
+        errors.push(file + ": Avogadro particle count must use scientific notation for the default sample");
+      }
+      await page.locator("#substance").selectOption("custom");
+      await page.locator("#mass").fill("25");
+      await page.locator("#molar").fill("10");
+      await page.locator("#mass").dispatchEvent("input");
+      const customMoles = Number((await page.locator("#moles").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      if (!Number.isFinite(customMoles) || Math.abs(customMoles - 2.5) > 1e-9 ||
+          !(await page.locator("#count").innerText()).includes("1.5055")) {
+        errors.push(file + ": custom molar mass calculation must give 2.5 mol and approximately 1.5055 × 10^24 entities");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("#moles").innerText()).includes("mol")) {
+        errors.push(file + ": amount-of-substance output unit did not switch to English");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#mass").fill("0");
+      await page.locator("#mass").dispatchEvent("input");
+      if (!(await page.locator("#moles").innerText()).startsWith("0") ||
+          (await page.locator("#count").innerText()).trim() !== "0") {
+        errors.push(file + ": zero sample mass must produce zero amount and zero entities");
+      }
+      await page.locator("#molar").fill("0");
+      await page.locator("#molar").dispatchEvent("input");
+      if (!(await page.locator("#calcFeedback").innerText()).includes("молярную массу больше нуля") ||
+          (await page.locator("#moles").innerText()).trim() !== "—") {
+        errors.push(file + ": zero custom molar mass must be rejected");
+      }
+      await page.locator("#molar").fill("1e-308");
+      await page.locator("#mass").fill("1e308");
+      await page.locator("#mass").dispatchEvent("input");
+      if (!(await page.locator("#calcFeedback").innerText()).includes("числового диапазона") ||
+          (await page.locator("#moles").innerText()).trim() !== "—") {
+        errors.push(file + ": overflowing amount or particle count must be rejected");
+      }
+    }
+
+    if (file === "chapters/solutions.html") {
+      const defaultConcentration = Number((await page.locator("#result").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      if (!Number.isFinite(defaultConcentration) || Math.abs(defaultConcentration - 0.5) > 1e-9) {
+        errors.push(file + ": 0.5 mol in 1 L must give 0.5 mol/L");
+      }
+      await page.locator("#v").fill("2");
+      await page.locator("#v").dispatchEvent("input");
+      let concentration = Number((await page.locator("#result").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      if (!Number.isFinite(concentration) || Math.abs(concentration - 0.25) > 1e-9) {
+        errors.push(file + ": doubling final solution volume at fixed amount must halve concentration");
+      }
+      await page.locator("#n").fill("0");
+      await page.locator("#n").dispatchEvent("input");
+      if (!(await page.locator("#result").innerText()).includes("0")) {
+        errors.push(file + ": zero solute amount must produce zero molar concentration");
+      }
+      await page.locator("#n").fill("0.5");
+      await page.locator("#v").fill("0");
+      await page.locator("#v").dispatchEvent("input");
+      if ((await page.locator("#result").innerText()).trim() !== "c = —" ||
+          !(await page.locator("#feedback").innerText()).includes("положительный объём")) {
+        errors.push(file + ": zero solution volume must be rejected");
+      }
+      await page.locator("#v").fill("1e-308");
+      await page.locator("#n").fill("1e308");
+      await page.locator("#n").dispatchEvent("input");
+      if ((await page.locator("#result").innerText()).trim() !== "c = —" ||
+          !(await page.locator("#feedback").innerText()).includes("числовой диапазон")) {
+        errors.push(file + ": concentration overflow must be rejected rather than displayed as Infinity");
+      }
+      await page.locator("#lang").click();
+      if (!(await page.locator("#feedback").innerText()).includes("numeric range")) {
+        errors.push(file + ": numeric-range feedback did not switch to English");
+      }
+    }
+
     if (file === "stoichiometry.html") {
       const before = (await page.locator("#theory").innerText()).trim();
       await page.locator("#na").fill("1");
