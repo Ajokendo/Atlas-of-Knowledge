@@ -275,3 +275,14 @@
 ### Change log
 
 - 1 November 2026: advanced the repeat audit to 20%; verified selected national flora and regional biodiversity claims against primary sources; corrected the argali genomic sample-provenance caveat and added a regression guard. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
+
+## 30% repeat-audit milestone — 1 November 2026
+
+- Primary source reviewed: Seregin, Lyskov & German (2025), *Acta Biologica Sibirica* 11:551–579, DOI 10.5281/zenodo.15253859. Its 2016 expedition covered 90 sites / 28 days; the paper reports 945 numbered gatherings / 963 physical specimens, 31 new records across seven floristic provinces, three new country records and 12 supplementary records. It also states that 397 specimens (37%) remained unidentified to species level at the stated processing date.
+- Clarified in the flora chapter and audit that the paper's seven floristic provinces are not the atlas's seven administrative oblasts.
+- Added the Besh-Tash *Allium filifolium* herbarium record (23 July 2016, 2,170 m, MW0896287) to the Talas regional dossier, retaining the source's taxonomic caveat concerning the *A. kokanicum* complex.
+- Added regression assertions for the source DOI, geographic-framework distinction, unresolved identifications and voucher record. GitHub read-back confirmed the chapter, audit and script updates.
+- The image insertion map and disposition register still contain 52 unique anchors each; all remain Deferred. No illustration asset was added.
+- `checks.mjs`, browser tests and CI were not run during this pass; no test success is claimed.
+- Repeat-audit coverage: **30%**. Controlled editorial readiness: **95/100**. G4 scientific sign-off and G5 editorial/language sign-off remain open.
+
