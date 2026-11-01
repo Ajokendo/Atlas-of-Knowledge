@@ -23,7 +23,7 @@
 
 | Ch. | Chapter | Visual IDs | Structure / bilingual pass | Selected source or calculation checks | Priority remaining |
 |---:|---|---:|---|---|---|
-| 01 | Geography as a Science | 3 | Structural pass; English Key Terms table added 2 Nov | Map-scale example; ICA Cartographic Body of Knowledge source | Verify references and complete final bilingual prose proofread |
+| 01 | Geography as a Science | 3 | Initial bilingual pass; English Key Terms table added 2 Nov | Map-scale example; AAG, RGS and UN-GGIM links refreshed; ICA source still to be confirmed | Verify all references and complete final bilingual prose proofread |
 | 02 | Earth's Geographic Envelope | 4 | Complete | Dry-air CO₂ updated to NOAA 2025 mean; NOAA/WMO series distinction; water distribution | Full source and prose proofread |
 | 03 | Lithosphere and Geological Processes | 4 | Complete | USGS, IRIS, ICS and BGS sources linked | Full fact check of geological values |
 | 04 | Earth's Landforms and Relief | 4 | Complete | Slope example recalculated; USGS/NASA/ETOPO/OpenTopography/BGS references | DEM and geomorphology data validation |
@@ -84,3 +84,5 @@
 - Recorded Geography's adoption and chapter-level review criteria in `geography/EDITORIAL_STANDARD_ADOPTION.md`. The shared root files were not copied or modified.
 - Initial Chapter 01 bilingual review found that the glossary table had Russian definitions only. Added an English-language Key Terms table as section 1.12 in the English chapter text. Commit: `8ce1a147f3dfc1b07689355cd84658046501ae61`.
 - Chapter 01 still requires source-by-source verification and final bilingual proofreading; this targeted repair does not imply that the chapter has passed the full audit.
+
+- Chapter 01 references reviewed: AAG, RGS and UN-GGIM links refreshed; ICA site timed out and remains unresolved. Chapter update commit: `80c82d47fdf86d8d0c50da5254787f636c2ed10f`.
