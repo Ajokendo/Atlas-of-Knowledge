@@ -747,7 +747,7 @@ The remaining five percentage points are reserved for evidence, not additional p
 - Review materials for G4/G5: [EXTERNAL_REVIEW_PACKET.md](EXTERNAL_REVIEW_PACKET.md) — prepared scope, priority claims, editorial checklist and reviewer sign-off record. Author-side bilingual parity evidence: [BILINGUAL_PARITY_AUDIT.md](BILINGUAL_PARITY_AUDIT.md) — 1,136 paired RU/EN blocks checked; not a substitute for an independent editor.
 - [x] **G6 — Illustration disposition (deferred):** all 52 assets are explicitly deferred in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md), with rationale, source/licence status and verified placeholder integration. The 13 P1 briefs have detailed review in [IMAGE_SCIENTIFIC_REVIEW.md](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs have individual review in [IMAGE_BRIEF_REVIEW.md](IMAGE_BRIEF_REVIEW.md). No images have been generated or sourced; visual production remains pending.
 
-**Control rule:** keep the readiness score at 95/100 while G4 and G5 remain unchecked. G6 is closed as a documented deferral only; that does not mean the 52 visual assets have been produced. Passing G1–G3 does not certify scientific review or bilingual editorial release. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
+**Control rule:** keep the readiness score evidence-based. G4 and G5 are the internal scientific and editorial/bilingual audits; each is complete at 4/4 planned blocks (100%). G6 is closed as a documented deferral only; the 52 visual assets have not been produced. Portal feedback integration and remaining accessibility/device checks are tracked separately. Save each completed stage and update this plan only with verifiable evidence.
 
 
 ## Source-level structure audit — 1 November 2026
@@ -1253,7 +1253,7 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - The regression script and browser/mobile/accessibility/CI checks have not been run in this save cycle. No test pass is claimed.
 - Controlled editorial-readiness score remains 95/100; it is not increased by completing the author-side repeat audit.
 
-## Independent scientific and bilingual review package
+## Optional external scientific / editorial consultation materials (not a completion gate)
 
 Start with `INDEPENDENT_REVIEW_BUNDLE.md` for the frozen-snapshot instructions and complete reviewer deliverables. The Biology atlas has a dedicated external-review handoff. These documents are working materials for independent reviewers; none is itself an independent approval:
 
@@ -1264,7 +1264,7 @@ Start with `INDEPENDENT_REVIEW_BUNDLE.md` for the frozen-snapshot instructions a
 - `EDITORIAL-AND-SCIENTIFIC-STANDARDS.md` — project-wide evidence, taxonomy, quantitative, bilingual and attribution rules.
 - `G4_SCIENTIFIC_AUDIT_2026-11-01.md`, `G5_EDITORIAL_AUDIT_2026-11-01.md` and `BILINGUAL_PARITY_AUDIT.md` — author-side audit records only; they do not replace independent review.
 
-**Current external-review status:** G4 and G5 remain open; no independent reviewer sign-off has been received. The 52 planned illustration assets remain deferred. Screen-reader testing, measured contrast verification and testing on physical devices remain separate outstanding release gates. Do not describe the Biology atlas as fully publication-ready until these gates are closed with recorded evidence.
+**Current status:** G4 internal scientific audit and G5 internal editorial/bilingual audit are complete (4/4 planned blocks each). The external-review materials below are retained for optional future consultation only; independent reviewer sign-off is not required. The 52 planned illustration assets remain deferred. Further screen-reader, keyboard and physical-device checks, plus shared-portal feedback integration and secure-intake testing, remain separate project tasks.
 
 - `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` — specialist roles, independence checks, invitation sequence, deliverables and draft invitations.
 
@@ -1275,3 +1275,14 @@ Start with `INDEPENDENT_REVIEW_BUNDLE.md` for the frozen-snapshot instructions a
 - The live intake channel is not enabled: a secure HTTPS endpoint and private moderation queue still need to be selected, configured and tested. No submission is claimed to be operational.
 
 - `FEEDBACK_WIDGET_TEMPLATE.html` provides a reusable bilingual form component; submission remains disabled until a secure endpoint and private moderation queue are configured.
+
+
+## Agreed completion model — current status (2 November 2026)
+
+- G4 internal scientific audit: **complete, 4/4 blocks (100%)**. Unresolved source and taxonomy issues remain qualified/deferred; they are not silently converted into confirmed facts.
+- G5 internal editorial and bilingual audit: **complete, 4/4 blocks (100%)**. The separate parity audit records 1,147 RU / 1,147 EN blocks with matching numeric-token and scientific-name sets in its measured scope.
+- Independent external scientific or professional bilingual review: optional consultation only, not a required gate.
+- The feedback standard and reusable bilingual widget are prepared in Biology. Shared-portal integration is a separate cross-project task; feedback intake remains disabled until the portal integration, privacy/security and end-to-end technical checks are complete and the owner is ready to invite teachers.
+- Teacher feedback after portal completion is a pedagogical pilot, not formal independent peer review.
+- All 52 visual assets remain deferred. Automated browser/contrast/name checks have passed within their stated scope; full keyboard traversal, screen-reader and physical-device checks are not claimed complete.
+- Controlled editorial readiness remains **95/100** pending the remaining project tasks above; this is not publication approval.
