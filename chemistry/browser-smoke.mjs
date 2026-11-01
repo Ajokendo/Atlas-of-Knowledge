@@ -183,17 +183,22 @@ try {
         const result = await axe.run(document, {
           runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }
         });
-        return result.violations
-          .filter(violation => violation.impact === "critical" || violation.impact === "serious")
-          .map(violation => ({
-            id: violation.id,
-            impact: violation.impact,
-            help: violation.help,
-            targets: violation.nodes.slice(0, 5).map(node => node.target.join(" "))
-          }));
+        return result.violations.map(violation => ({
+          id: violation.id,
+          impact: violation.impact,
+          help: violation.help,
+          nodes: violation.nodes.slice(0, 5).map(node => ({
+            target: node.target,
+            summary: node.failureSummary?.replace(/\\s+/g, " ").slice(0, 280)
+          })),
+          count: violation.nodes.length
+        }));
       });
       for (const violation of englishAccessibility) {
-        errors.push(file + " (English): axe " + violation.impact + " — " + violation.id + ": " + violation.help + "; " + violation.targets.join(" | "));
+        const message = file + " (English): axe " + violation.impact + " — " + violation.id + " (" + violation.count + " element(s)): " + violation.help + "; " +
+          violation.nodes.map(node => node.target.join(" ") + " " + node.summary).join(" | ");
+        if (violation.impact === "critical" || violation.impact === "serious") errors.push(message);
+        else console.warn("Accessibility review: " + message);
       }
       const switchedDocumentLanguage = await page.locator("html").getAttribute("lang");
       if (before === after) errors.push(file + ": language toggle did not change");
