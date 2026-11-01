@@ -697,3 +697,10 @@
 - Contrast sampling/remediation is complete for its defined scope: CI #487 passed with 6,683 visible text instances sampled and zero below-threshold instances. This does not cover image/gradient text, all dynamic states, screen readers or physical devices.
 - Contrast audit stage: 100% for the defined sampler. Keyboard accessibility stage: in progress; full traversal and focus-indicator validation pending.
 - Overall editorial readiness remains 95/100; G4/G5 reviews, 52 deferred visual assets, screen-reader and physical-device checks remain open. Feedback intake remains disabled.
+
+
+## 2026-11-01 — keyboard traversal test refinement
+
+- First full-tab-order test attempt (CI #490, run ID `41342863346`, commit `987e38cc3d28a2e0ea2b6257e474bcbd24cdfb53`) failed because the test blurred the active element before issuing Tab; in Chromium this reset the sequence in a way that did not reliably advance from the current page focus. The failure is treated as a test-harness issue, not evidence that all page controls are unreachable.
+- Updated the test to preserve the already keyboard-established active element, annotate visible focusable controls, seed the visited set from the current focus, and then continue traversing with Tab. New test commit: `bf8b7d92f21fa3ee8b66ba552ec842bf87966fbf`.
+- CI validation of this corrected test is pending. Do not report full traversal as passed until the next browser run completes.
