@@ -65,7 +65,7 @@
 | Кислород (O₂) | 20,95% |
 | Аргон (Ar) | 0,93% |
 | Углекислый газ (CO₂) | около 0,0426% (425,6 ppm — глобальное среднегодовое значение 2025 года, предварительная оценка NOAA) |
-| Другие газы | около 0,01% |
+| Другие следовые газы (без CO₂) | менее 0,01% |
 
 Значения округлены. Концентрация CO₂ меняется во времени и зависит от места измерения. По данным NOAA, глобальное среднегодовое значение для сухого воздуха на морских станциях составило 425,6 ppm в 2025 году (предварительная оценка). Водяной пар не включён, поскольку его содержание сильно варьируется.
 
@@ -546,7 +546,7 @@ The spheres do not have impermeable boundaries. They overlap and interact: water
 
 Earth's atmosphere is held by gravity. It regulates heat exchange, transports moisture, generates weather and protects the surface from a substantial part of harmful ultraviolet radiation.
 
-**Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and about 0.01% other gases. Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm. Water vapour is excluded because its concentration is highly variable.
+**Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and less than 0.01% other trace gases (excluding CO₂). Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm. Water vapour is excluded because its concentration is highly variable.
 
 Nitrogen is part of the global nitrogen cycle and becomes available to organisms after biological or abiotic fixation. Oxygen is essential for aerobic respiration. Argon is chemically inert. Carbon dioxide is used in photosynthesis and contributes to the natural greenhouse effect. Water vapour forms clouds and precipitation and transports latent heat.
 
@@ -742,6 +742,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 1. NASA Earth Observatory. *The Earth System*. https://earthobservatory.nasa.gov/
 2. NASA Science. *The Water Cycle*. https://science.nasa.gov/earth/earth-observatory/the-water-cycle/
 3. NOAA JetStream. *Layers of the Atmosphere*. https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
+9. NOAA JetStream. *The Atmosphere* (dry-air composition and variable water-vapour content). https://www.noaa.gov/jetstream/atmosphere
 4. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
 5. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
 6. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
