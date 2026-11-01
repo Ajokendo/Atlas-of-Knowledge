@@ -201,3 +201,12 @@ The Institute of Biology of the National Academy of Sciences of the Kyrgyz Repub
 **Evidence classification:** dated institutional expedition report of a large migratory aggregation. The public notice does not provide a counting protocol, observation duration, uncertainty estimate or a full survey dataset. Retain the figure as an approximate, source-attributed observation; do not treat it as a national population estimate or trend. The report refers to the Issyk-Kul shoreline generally and is separate from CAMP Alatoo's event-specific count of nearly 7,000 birds of 31 species at the proposed Kushtar micro-reserve. These two figures describe different observations, sites/scopes and counting contexts and must not be added together.
 
 Source: [Institute of Biology, National Academy of Sciences of the Kyrgyz Republic, August 2026 expedition](https://ibnaskr.org/ekspeditsii/zhuravl-krasavka-issyk-kul-2026/).
+
+
+### Common Crane breeding record on Issyk-Kul — 2026
+
+The Kyrgyz Ministry of Natural Resources reported on 3 June 2026 that a Common Crane (*Grus grus*) nest was found on 19 April in a coastal marsh in the Jety-Oguz section of the Issyk-Kul State Nature Reserve. On 24 May, a pair with two chicks was observed at the same site. The Ministry stated that the only previous nesting record in the country's history was from the Chui Valley in 1958.
+
+**Evidence classification:** dated government conservation-agency notice reporting a nest discovery and a later pair-with-chicks observation. The Ministry said a reserve researcher's scientific paper had been submitted to the Bulletin of the Eurasian Crane Working Group; the audit has not independently verified its publication. The safe interpretation is a first ministry-reported breeding record on Issyk-Kul and, according to the Ministry's historical summary, the second known national nesting record. Do not infer range expansion, successful fledging, a breeding population estimate or a sustained trend. Keep the sensitive nest location at the generalized Jety-Oguz reserve-sector level.
+
+Source: [Ministry of Natural Resources of the Kyrgyz Republic, 3 June 2026](https://mnr.gov.kg/ru/posts/news/pervoe-gnezdovanie-serogo-zuravlya-na-vostocnom-pobereze-ozera-issyk-kul).
