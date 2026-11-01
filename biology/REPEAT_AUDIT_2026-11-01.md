@@ -3,7 +3,7 @@
 **Audit start:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
 **Scope:** all Biology HTML pages, scientific/editorial content, interactive tools, technical checks, vector and raster visuals, image placeholders, bilingual parity, links and release controls.  
-**Audit completion:** **50%** — repository inventory and baseline structure pass completed.  
+**Audit completion:** **60%** — repository inventory and baseline structure pass completed.  
 **Controlled editorial readiness:** **95/100** (separate metric; unchanged).
 
 ## Audit method and boundaries
@@ -220,3 +220,26 @@ Continue technical review by examining each interactive model's state transition
 ### Change log
 
 - 1 November 2026: advanced repeat-audit coverage to 50%; corrected the amphibian snapshot date, clarified the scope of the five-country checklist, and quantified the Kyrgyzstan subset of the 2021 green-toad sample. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
+
+
+## 60% milestone — reptile checklist and sensitive breeding-locality audit — 1 November 2026
+
+### Completed source checks and corrections
+
+- Rechecked the Kyrgyzstan reptile country list against its visible page table. The country selector displays 44, while the numbered species table and summary both report 43 species; the summary separately lists 19 subspecies, including 12 unconfirmed. The discrepancy remains explicit and unresolved. The page separately identifies four unconfirmed species, the introduced/resident status of `Tenuidactylus fedtschenkoi`, and `Varanus griseus` as absent. The compiler's eight Red Data Book entries (six species and two subspecies) are recorded as its mapping to the cited 2006 edition, not as an independent legal verification.
+- Rechecked the GBIF Central Asian reptile checklist, version 1.15 (published 26 October 2026; accessed 29 October). Its metadata confirms a five-country scope and a systematic literature-review method, with official national Red Data Book editions prioritized before monographs, specialist taxonomic papers and institutional checklists. It explicitly states that the checklist is not based on field sampling; GBIF, IUCN and Catalogue of Life are cross-checks.
+- Rechecked Romanovskaya (2015) on Black Stork breeding in Boom Gorge. The primary paper documents one pair and a 2015 nest chronology: four downy chicks on 24 May, three live chicks plus one dead chick on 17 June, and three older chicks on 27 June. The chapter retains this as dated local breeding evidence, not a current population estimate.
+- Generalized the Black Stork nest description in the bilingual chapter to the Boom Gorge / Kok-Moynok area. The paper's road-kilometre marker and precise nest position are deliberately not reproduced, given the species' sensitivity and disturbance documented by the author.
+- Updated `KYRGYZSTAN_SPECIES_AUDIT.md` and strengthened `checks.mjs` guards for reptile count / legal-status limitations, the latest checklist's non-field methodology, the Black Stork chronology and sensitive locality handling.
+
+### Saved-state and verification limits
+
+- GitHub read-back is required for all changed files before this checkpoint is treated as saved.
+- The image insertion map and disposition register remain at 52 unique anchors each; all remain Deferred. No visual asset was generated or integrated.
+- `checks.mjs` was not executed. No test pass is claimed; browser, mobile, accessibility and CI checks remain pending.
+- G4 independent scientific review and G5 independent bilingual/editorial review remain open.
+- Repeat-audit coverage: **60%**. Controlled editorial readiness remains **95/100**; this is not publication approval.
+
+### Change log
+
+- 1 November 2026: advanced repeat-audit coverage to 60%; expanded the reptile checklist's method and count caveats, verified the 2015 Black Stork breeding record, and generalized the sensitive nest locality. No test pass or publication approval is claimed.
