@@ -79,6 +79,10 @@ In 2025, the Kyrgyz Republic submitted its third Nationally Determined Contribut
 NDC 3.0 treats adaptation as a strategic priority and identifies water resources, energy, agriculture, forests and biodiversity, disaster-risk reduction, cities and health as key areas. It provides for water-saving technologies, climate-resilient agriculture, renewable energy, energy-efficient buildings, and stronger monitoring and institutional capacity.
 
 ## 26.3. Ледники, снег и водная безопасность / Glaciers, Snow and Water Security
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-A / IMAGE PLACEHOLDER 26-A]** Карта ледников и основных речных бассейнов Кыргызстана с датой инвентаризации; отдельная схема сравнивает инвентаризации 1940–1970-х и 2013–2016 годов, подчёркивая различия порогов учёта мелких ледников.
+
+Для количественной оценки важно указывать дату и метод инвентаризации. По каталогу, подготовленному ЦАИИЗ на основе спутниковых снимков Landsat 8 за 2013–2016 годы, в Кыргызстане было учтено 9 959 ледников общей площадью 6 683,9 км². Сопоставляемый советский каталог, основанный на материалах аэрофотосъёмки 1940–1970-х годов, содержал 8 164 ледника общей площадью 7 944,2 км². Разница площадей составляет около 16% (примерно 1 260 км²), но сравнение не является идеально однородным: старый каталог в отдельных районах не учитывал ледники менее 0,1 км², тогда как новая инвентаризация включала объекты более 0,01 км². Поэтому увеличение числа учтённых ледников не означает роста ледникового покрова: деградация крупных ледников сопровождается их фрагментацией на более мелкие тела. Данные 2013–2016 годов — важная базовая инвентаризация, но не актуальная оценка площади на 2026 год.
+
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Схема оледенения и водных бассейнов Кыргызстана с датой и версией каталога; не смешивать данные разных инвентаризаций и обозначить зоны потенциального риска прорыва ледниковых озёр.
 
@@ -115,6 +119,8 @@ Quantifying glacier retreat requires identifying the specific inventory used. Th
 
 Технологии водосбережения должны оцениваться на уровне бассейна: повышение эффективности на одном участке может привести к расширению орошаемых площадей и не уменьшить общий водозабор, если отсутствуют лимиты и учёт.
 
+
+Quantitative assessments must state the inventory date and method. A glacier inventory prepared by CAIAG from Landsat 8 satellite imagery for 2013–2016 recorded 9,959 glaciers in Kyrgyzstan with a total area of 6,683.9 km². The comparison Soviet catalogue, based on aerial photography from the 1940s–1970s, listed 8,164 glaciers covering 7,944.2 km². The difference in area is about 16% (approximately 1,260 km²), but the comparison is not fully homogeneous: in some areas the older catalogue omitted glaciers smaller than 0.1 km², whereas the newer inventory included features larger than 0.01 km². An increase in the number of mapped glaciers therefore does not mean that glacier cover has expanded: degradation of larger glaciers can fragment them into smaller ice bodies. The 2013–2016 figures are an important baseline inventory, not a current estimate of glacier area in 2026.
 
 Glaciers in Kyrgyzstan are a vital part of the natural capital of the Tien Shan and Pamir–Alay. They store water during cold periods and release it in warmer seasons. However, glacial runoff should not be treated as a constant or guaranteed source: its contribution varies between river basins, years and stages of deglaciation.
 
@@ -822,6 +828,12 @@ Identify potential pollutants, migration pathways, sensitive receptors, control 
 Develop an adaptation plan for a rural settlement that addresses water, pastures, roads, housing, health, early warning and household incomes.
 
 ## 26.16. Технические задания для визуалов / Visual Production Briefs
+ > **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Климатическая инфографика: изменение среднегодовой температуры за 1960–2023 годы и сценарии/неопределённости будущих изменений; национальные наблюдения отделить от глобального сравнения.
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-C / IMAGE PLACEHOLDER 26-C]** Схема водной безопасности горного бассейна: снег, ледники, моренно-ледниковые озёра, сезонный сток, водохранилища, ирригация и экологический сток.
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-D / IMAGE PLACEHOLDER 26-D]** Карта экологических рисков и биоразнообразия: пастбища, леса, ООПТ, зоны селей и оползней, источники загрязнения; показывать только геоданные с проверенной датой и масштабом.
+
 
 1. **Климатические изменения Кыргызстана.** Карта температурных трендов по метеостанциям с периодом наблюдения, единицами и доверительными интервалами; не интерполировать данные без методики.
 2. **Ледники и водная безопасность.** Схема высотного водного баланса: снег, ледники, сезонный сток, водохранилища, орошение и экосистемы.
@@ -951,6 +963,8 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 16. UNFCCC. Kyrgyzstan NDC 3.0 — official submission record and attachments. https://unfccc.int/node/650219
 17. National Statistical Committee of the Kyrgyz Republic. Protection and rational use of water resources: open data, 2021–2025 series. https://stat.gov.kg/en/opendata/category/3216/
 18. National SDG Indicators of the Kyrgyz Republic. Indicator 6.3.1: Proportion of domestic and industrial wastewater flows safely treated. https://sustainabledevelopment-kyrgyzstan.github.io/en/6-3-1/
+20. Central Asian Institute for Applied Geosciences (CAIAG). Catalogue of Glaciers of Kyrgyzstan: Landsat 8 inventory for 2013–2016 and comparison with the Soviet glacier catalogue. https://www.caiag.kg/en/departments/department-2-climate-water-and-natural-resources/current-activities
+21. United Nations Development Programme. “Glaciers of Kyrgyzstan: How they are disappearing” (glacier inventory, thresholds and comparison caveats). https://www.undp.org/kyrgyzstan/blog/glaciers-kyrgyzstan-how-they-are-disappearing
 19. Kaktus.media, citing Kyrgyzhydromet. Bishkek and surrounding districts recorded air-pollution exceedances, 17 October 2026 (monitoring period 9–15 October 2026). https://kaktus.media/555234
 20. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic; UNEP; UNDP. *First Biennial Transparency Report of the Kyrgyz Republic under the UNFCCC Paris Agreement.* Bishkek, 2025 (including glacier inventory figures and climate-risk assessment). https://unfccc.int/sites/default/files/resource/%2528%25D0%2594%25D0%2594%25D0%25A2%2529%2520Eng_BTR%25201_Final.pdf
 21. Ministry of Justice of the Kyrgyz Republic. Law of 7 July 2026 No. 104 “On Climate Activity” (effective 1 January 2027). https://cbd.minjust.gov.kg/230050082/edition/57539/ru
