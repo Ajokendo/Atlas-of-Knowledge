@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Круговорот углерода: основные резервуары и потоки</title>
+<desc id="desc">Схема обмена углеродом между атмосферой, биосферой, океаном и геологическими резервуарами. Фотосинтез переносит углерод в биомассу; дыхание и разложение возвращают углекислый газ. Океан обменивается CO₂ с атмосферой, а выветривание и вулканизм связывают атмосферу с геологическими резервуарами.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0L10 5L0 10Z" fill="#397f6b"/></marker>
+  <style>
+    .node{stroke-width:3}
+    .heading{font:700 22px Inter,Arial,sans-serif;fill:#214b40;text-anchor:middle}
+    .sub{font:16px Inter,Arial,sans-serif;fill:#526c64;text-anchor:middle}
+    .process{font:600 16px Inter,Arial,sans-serif;fill:#315f51;text-anchor:middle}
+    .flow{fill:none;stroke:#397f6b;stroke-width:4;stroke-linecap:round;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect width="1000" height="560" rx="22" fill="#fbfbfa"/>
+<g class="flow">
+  <path d="M405 135C345 155 285 195 245 245"/>
+  <path d="M245 220C290 155 345 115 405 105"/>
+  <path d="M595 135C655 155 715 195 755 245"/>
+  <path d="M755 220C710 155 655 115 595 105"/>
+  <path d="M470 165C485 240 485 325 470 395"/>
+  <path d="M530 395C515 325 515 240 530 165"/>
+</g>
+<g>
+  <rect class="node" x="365" y="38" width="270" height="112" rx="22" fill="#f0e5d1" stroke="#c9a878"/>
+  <circle cx="500" cy="78" r="19" fill="#d2b17c"/>
+  <path d="M500 49V107M471 78H529" stroke="#a7834d" stroke-width="3" stroke-linecap="round"/>
+  <text class="heading" x="500" y="125">АТМОСФЕРА</text>
+  <rect class="node" x="55" y="225" width="270" height="112" rx="22" fill="#e1eee3" stroke="#9dbca5"/>
+  <path d="M190 285V250M190 266C162 236 146 260 180 278M190 263C220 233 239 258 200 278" fill="none" stroke="#54866c" stroke-width="6" stroke-linecap="round"/>
+  <text class="heading" x="190" y="315">БИОСФЕРА</text>
+  <rect class="node" x="365" y="395" width="270" height="112" rx="22" fill="#e0eef0" stroke="#9bbbc0"/>
+  <path d="M405 455Q435 433 465 455T525 455T585 455" fill="none" stroke="#6599a4" stroke-width="5"/>
+  <text class="heading" x="500" y="485">ОКЕАН</text>
+  <rect class="node" x="675" y="225" width="270" height="112" rx="22" fill="#eee5df" stroke="#c4aa99"/>
+  <path d="M730 294L750 258L772 288L795 250L817 292" fill="none" stroke="#a27c68" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="heading" x="810" y="315">ГЕОЛОГИЧЕСКИЕ РЕЗЕРВУАРЫ</text>
+</g>
+<g>
+  <rect x="205" y="135" width="190" height="34" rx="17" fill="#fbfbfa" stroke="#c9ddd4"/>
+  <text class="process" x="300" y="158">Фотосинтез</text>
+  <rect x="205" y="175" width="210" height="34" rx="17" fill="#fbfbfa" stroke="#c9ddd4"/>
+  <text class="process" x="310" y="198">Дыхание и разложение</text>
+  <rect x="605" y="135" width="220" height="34" rx="17" fill="#fbfbfa" stroke="#c9ddd4"/>
+  <text class="process" x="715" y="158">Выветривание</text>
+  <rect x="605" y="175" width="220" height="34" rx="17" fill="#fbfbfa" stroke="#c9ddd4"/>
+  <text class="process" x="715" y="198">Вулканическое выделение газов</text>
+  <rect x="530" y="235" width="245" height="34" rx="17" fill="#fbfbfa" stroke="#c9ddd4"/>
+  <text class="process" x="652" y="258">Обмен CO₂ между океаном и атмосферой</text>
+</g>
+<text x="500" y="540" font-family="Inter,Arial,sans-serif" font-size="15" fill="#64766f" text-anchor="middle">Упрощённая схема: углерод также циркулирует через почвы, осадки и пищевые сети.</text>
+</svg>
