@@ -509,3 +509,12 @@
 - Detailed report: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
 - Final G5 report update commit: `ef10b36b8aea39e9dcb2894558ecf57de26f8d5c`.
 - This closes the planned **author-side G5 audit**, not independent professional bilingual review. Independent scientific/editorial review, production and review of the 52 deferred images, full screen-reader testing, comprehensive contrast review and physical-device testing remain open release gates.
+
+## Independent reviewer handoff — 1 November 2026
+
+- Added `INDEPENDENT_REVIEW_HANDOFF.md` to make the G4/G5 external-review packet operational.
+- The handoff identifies the exact 13-page review scope and source documents, sets reviewer competence and conflict-of-interest expectations, defines claim-level issue fields and severity, and supplies separate G4/G5 sign-off forms.
+- Added explicit acceptance rules: author-side audits and automated parity do not count as independent approval; P1/P2 scientific claims require documented dispositions; both languages require professional review across all 13 pages.
+- Kept the 52 illustrations, screen-reader testing, contrast measurement and physical-device testing as separate release gates. Current state remains 52 illustrations deferred, with no independent G4/G5 sign-off or accessibility/device certification claimed.
+- Handoff commit: `37f9a6c158e5783f357fbdf829646833464e3cf9`. The new file was read back from `workspace/biology` and verified (14,331 characters; blob `1f2245266815f2d04809f08ef2b18e1195605491`).
+- Controlled editorial readiness remains **95/100**; preparing the handoff does not close G4 or G5 and does not increase publication readiness.
