@@ -235,6 +235,13 @@ const geneticsFile = fs.readFileSync(path.join(root, "chapters", "genetics.html"
 if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.includes("updateDynamic();updateMutation()")) {
   errors.push("chapters/genetics.html: mutation model must preserve and translate selection on language switch");
 }
+const geneRegulationStart = geneticsFile.indexOf('id="gene-expression-regulation"');
+const geneticCodeStart = geneticsFile.indexOf('<section class="detail"><h2 id="detail-title">');
+const geneRegulationBlock = geneticsFile.slice(geneRegulationStart, geneticCodeStart);
+if (geneRegulationStart < 0 || geneticCodeStart <= geneRegulationStart) errors.push("chapters/genetics.html: gene-regulation lesson must appear before the genetic-code detail");
+for (const phrase of ["Регуляция экспрессии генов", "Regulation of gene expression", "Транскрипционные факторы", "transcription factors", "Эпигенетические изменения", "Epigenetic changes", "not automatic"]) {
+  if (!geneRegulationBlock.includes(phrase)) errors.push("chapters/genetics.html: gene-regulation lesson missing bilingual concept or qualification: " + phrase);
+}
 
 const evolutionFile = fs.readFileSync(path.join(root, "chapters", "evolution.html"), "utf8");
 for (const url of ["19-2-population-genetics", "19-3-adaptive-evolution"]) {
