@@ -273,6 +273,17 @@ if (!/<span class="ru">/.test(renalBlock) || !/<span class="en">/.test(renalBloc
 if (!renalBlock.includes('role="img"') || !renalBlock.includes('aria-labelledby="nephron-svg-title nephron-svg-desc"') || !renalBlock.includes('id="nephron-svg-title"') || !renalBlock.includes('id="nephron-svg-desc"')) errors.push("chapters/anatomy.html: nephron diagram must have accessible SVG title and description");
 if (!renalBlock.includes("does not maintain a fixed filtration rate") || !renalBlock.includes("не означает, что скорость фильтрации и объём мочи постоянны")) errors.push("chapters/anatomy.html: renal lesson must explain physiological variation in filtration and urine output");
 
+const cardiovascularStart = anatomyFile.indexOf('id="cardiovascular-physiology"');
+const renalLessonStart = anatomyFile.indexOf('id="renal-physiology"');
+const cardiovascularBlock = anatomyFile.slice(cardiovascularStart, renalLessonStart);
+if (cardiovascularStart < 0 || renalLessonStart <= cardiovascularStart) errors.push("chapters/anatomy.html: cardiovascular physiology lesson must precede renal physiology");
+for (const phrase of ["diastole", "ventricular systole", "stroke volume", "cardiac output", "heart rate", "sinoatrial", "atrioventricular", "Purkinje", "baroreceptors", "carotid sinus", "aortic arch", "total peripheral resistance", "angiotensin II", "aldosterone", "vasopressin", "short-term regulatory mechanism"]) {
+  if (!cardiovascularBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/anatomy.html: cardiovascular lesson missing mechanism or scientific distinction: " + phrase);
+}
+if (!/<span class="ru">/.test(cardiovascularBlock) || !/<span class="en">/.test(cardiovascularBlock)) errors.push("chapters/anatomy.html: cardiovascular lesson must be bilingual");
+if (!cardiovascularBlock.includes('role="img"') || !cardiovascularBlock.includes('aria-labelledby="conduction-svg-title conduction-svg-desc"') || !cardiovascularBlock.includes('id="conduction-svg-title"') || !cardiovascularBlock.includes('id="conduction-svg-desc"')) errors.push("chapters/anatomy.html: cardiac conduction diagram must have accessible SVG title and description");
+if (!cardiovascularBlock.includes("Cardiac output = heart rate × stroke volume") || !cardiovascularBlock.includes("не являются одним и тем же показателем")) errors.push("chapters/anatomy.html: cardiovascular lesson must distinguish cardiac output, heart rate and blood pressure");
+
 const geneticsFile = fs.readFileSync(path.join(root, "chapters", "genetics.html"), "utf8");
 if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.includes("updateDynamic();updateMutation()")) {
   errors.push("chapters/genetics.html: mutation model must preserve and translate selection on language switch");
