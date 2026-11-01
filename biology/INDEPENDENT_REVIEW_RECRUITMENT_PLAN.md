@@ -191,3 +191,49 @@ The following leads extend the shortlist. They remain uncontacted and unconfirme
 - **General scientific coordinator:** still requires a person with demonstrated science-education/scientific-editing coordination and broad biological literacy; do not assign this role solely on seniority or institutional title.
 - **Russian and English editing:** named academic leads are now available for exploratory nomination, but editing samples, workload, language competence, independence and terms remain to be checked.
 - No invitations have been sent and no reviewer has accepted. The 75% recruitment-preparation milestone remains the latest completed milestone until the remaining specialist gaps and outreach-readiness checks are resolved.
+
+
+## 13. Final shortlist completion — 100% recruitment-preparation milestone (2 November 2026)
+
+The remaining specialist gaps have been converted into named exploratory leads. This closes the **preparation** milestone: all eight role slots now have either a named potential lead or a documented nomination route, a scope boundary and a conflict-check instruction. It does not mean that any person has been contacted, accepted or appointed.
+
+| Review role | Primary potential lead / route | Evidence supporting fit | Scope boundary and mandatory checks | Status |
+|---|---|---|---|---|
+| G4-01 General scientific coordinator | **Айгуль Кушчубековна Чалданбаева** — J. Balasagyn Kyrgyz National University / Kyrgyz State University named after I. Arabaev | Public academic records describe her as Doctor of Pedagogical Sciences and Candidate of Biological Sciences, and document leadership of a university zoology / human and animal physiology department. Her publications concern biology teacher competencies and biology education. https://www.knu.kg/ky/en/faculties ; https://pnojournal.org/2020/07/12/chaldanbaeva/ ; https://vestnik.tspu.ru/en//archive?article_id=5633&format=html%2F&issue=12&year=2015 | Potential coordinator for educational suitability, cross-page consistency and review logistics, not sole scientific approver. Verify current appointment, availability, independence and any authorship/departmental involvement in atlas source claims. Any claim or page where she has a direct contribution must be assigned to another reviewer. |
+| G4-02 Ichthyology / freshwater ecology | Шайгул Асылбаева — Institute of Biology NAS KR | Official institute profile documents leadership of the Ichthyology and Hydrobiology Laboratory and work on fish fauna, rare fish, monitoring and aquatic systems. https://ibnaskr.org/laboratoriya-ikhtiologii-i-gidrobiologii/ | Exclude any surveys, records or source papers she or her laboratory produced; verify exact involvement in Son-Kul, Suusamyr and Kempir-Abad evidence. |
+| G4-03 Mammalogy / conservation genetics — genomic methods component | **Salvatore Mastrangelo** — University of Palermo | Official university profile documents animal genomics teaching and publications including runs of homozygosity, sheep genomics, SNP-based population structure and red–sika deer admixture. https://www.unipa.it/persone/docenti/m/salvatore.mastrangelo/en/ | Strong methods lead for SNP/ROH/population-structure interpretation, not a substitute for field mammalogy or argali taxonomy expertise. Confirm no involvement in the 2026 Kyrgyz argali paper or its dataset; disclose any prior editorial/reviewer role on related Kyrgyz sheep-genetics literature; assign taxonomy and sample-provenance field interpretation to a separate expert if needed. |
+| G4-03 backup — animal quantitative genetics / genomics methods | Fabyano Fonseca e Silva — Universidade Federal de Viçosa | Official university profile documents animal breeding, genomics, bioinformatics and quantitative-genetic data analysis. https://mestradoprofissional.posdzo.com.br/equipe/fabyano-fonseca-e-silva/ | Backup methodological lead only. Verify wild-mammal relevance, independence from cited data and ability to assess the specific SNP/relatedness/ROH methods. |
+| G4-04 Ornithology | Сергей Кулагин — Institute of Biology NAS KR | Public expert profile documents ornithological research and bird monitoring in the Issyk-Kul basin. https://map.kg/ru/jeksperty/66-kulagin-sergej-viktorovich.html | Verify current role and exclude any observations, field records or publications he directly contributed to. |
+| G4-05 Herpetology | Татьяна Дуйсебаева — Institute of Zoology, Kazakhstan | Official institutional profile and publications document amphibian/reptile systematics and Central Asian herpetofauna, including a 2023 *Bufotes pewzowi* record in southern Kyrgyzstan. https://zool.kz/sotrudniki-laboratorii-ornitologii-i-gerpetologii/dujsebaeva-tatyana-nikolaevna/ | Exclude her own *Bufotes* record and any co-authored source claims; verify all atlas overlap before assigning other checklist items. |
+| G4-06 Botany / regional floristics | Георгий Лазьков — Institute of Biology NAS KR | Official institute profile documents a Doctor of Biological Sciences and leadership of the Flora Laboratory, with expertise in Kyrgyzstan vascular-plant flora and taxonomy. https://ibnaskr.org/laboratoriya-flory/ | Exclude the 2024 alien-plant inventory he co-authored and any other directly authored source claims; check specimen/project involvement. |
+| G5-RU Russian-language editor | Айнура Абдыкасымова — Bishkek State University | Official Faculty of Russian Philology page identifies her as head of the Department of General and Russian Linguistics. https://bsu.kg/ru/fakultet-russkoj-filologii/ | Verify current position, independent editing portfolio, scientific/educational-text experience, terminology workflow and availability via a sample edit. |
+| G5-EN English-language editor | Ольга Шубина — Kyrgyz-Russian Slavic University | Official department page identifies her as head of the Department of English Theory and Practice and Intercultural Communication, with a philological qualification. https://www.krsu.kg/obrazovanie/kafedry/kafedra-teorii-i-praktiki-anglijskogo-yazyka-i-mezhkulturnoj-kommunikacii/ | Verify scientific/educational English copy-editing portfolio, proficiency, terminology workflow and availability via a sample edit. |
+
+### 13.1 Recruitment readiness checklist
+
+- [x] Eight assignment roles defined, with separate Russian and English editing.
+- [x] A potential lead or institutional nomination route documented for each role.
+- [x] Public evidence and a proposed scope boundary recorded for each named lead.
+- [x] Known authorship conflicts and source-overlap exclusions recorded.
+- [x] Backup methodological lead recorded for animal genomics.
+- [x] Draft scientific and language-editor invitation letters prepared.
+- [x] Required reviewer qualifications, conflict declaration, deliverables, severity rules and sign-off criteria documented.
+- [x] Frozen-snapshot handoff protocol documented; actual snapshot SHA and recipient fields intentionally remain blank until invitations are accepted and a handoff is scheduled.
+- [x] Privacy rule documented: no private CVs or correspondence in the public repository.
+- [ ] Candidate availability, willingness, fee/voluntary terms and conflicts confirmed.
+- [ ] Invitations sent and acceptances received.
+- [ ] External reviews completed and signed.
+
+The first eight items close recruitment **preparation**. The final three are real-world recruitment and review activities and cannot be marked complete before candidates respond and perform the work.
+
+### 13.2 Handoff order recommended
+
+1. Ask the scientific coordinator candidate to confirm interest, role fit and independence; if unavailable or conflicted, request a nomination from KNU/Manas biology faculty.
+2. Request independent nominations for fish, birds, herpetology and botany from the relevant institutions; do not presume that a named laboratory head is the reviewer.
+3. Invite the animal-genomics methods reviewer separately from the field mammalogy reviewer. Require a written conflict declaration and a claim-level exclusion list.
+4. Request Russian and English editing samples separately, using a short representative excerpt and agreed terms before assigning all 13 pages.
+5. Only after acceptance, freeze the exact commit, generate the matching rendered preview, fill the bundle snapshot record and distribute read-only files.
+
+### 13.3 Final status and limitations
+
+**Recruitment-preparation progress: 100%.** The shortlist and outreach package are prepared. This is not 100% recruitment, not completed peer review, not G4/G5 sign-off and not publication readiness. No invitation has been sent; no candidate has accepted. Availability, conflicts and editing samples remain unverified. The controlled editorial-readiness score remains 95/100 until the relevant evidence gates are closed.
