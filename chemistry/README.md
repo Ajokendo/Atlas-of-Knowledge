@@ -101,3 +101,5 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Expanded the bilingual organic-family overview to include alkynes, alongside alkanes and alkenes. The new definition limits the formula CₙH₂ₙ₋₂ to acyclic monoalkynes and gives ethyne (acetylene), C₂H₂, as an example.
 - [x] Added Chromium regression assertions for the C≡C triple bond, the stated formula, and the ethyne example in both Russian and English.
 - [ ] This is an internal content/automated-browser checkpoint only. Independent chemistry-teacher review, manual device checks, screen-reader checks, and independent RU/EN editorial sign-off remain pending.
+
+- [x] Follow-up CI caught a stale browser assertion that still expected ten organic-family cards after adding alkynes. Updated the expected count to eleven; the failure was in the regression assertion, not the chemistry content.
