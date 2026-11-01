@@ -22,6 +22,24 @@ for (const file of pages) {
   if (!/<meta\s+name=["']viewport["']/i.test(html)) errors.push(rel + ": missing viewport");
   const ids = [...html.matchAll(/\bid=["']([^"']+)["']/gi)].map(m => m[1]);
   if (new Set(ids).size !== ids.length) errors.push(rel + ": duplicate HTML id");
+  const ruMarkers = [...html.matchAll(/class=["'][^"']*\bru\b[^"']*["']/gi)].length;
+  const enMarkers = [...html.matchAll(/class=["'][^"']*\ben\b[^"']*["']/gi)].length;
+  if (ruMarkers === 0 || enMarkers === 0 || ruMarkers !== enMarkers) {
+    errors.push(rel + ": Russian and English content markers must be present in balanced pairs");
+  }
+  if (!/(?:document\.documentElement\.lang|setAttribute\(["']lang["'])/.test(html)) {
+    errors.push(rel + ": missing document-language update for the RU/EN switch");
+  }
+  for (const svg of html.matchAll(/<svg\b([^>]*)>/gi)) {
+    if (!/\baria-label\s*=|\baria-labelledby\s*=|\brole=["']img["']/.test(svg[1])) {
+      errors.push(rel + ": SVG must expose an accessible name");
+    }
+  }
+  for (const anchor of html.matchAll(/<a\b([^>]*\bhref=["']https?:\/\/[^"']+["'][^>]*)>/gi)) {
+    if (/\btarget=["']_blank["']/i.test(anchor[1]) && !/\brel=["'][^"']*noopener/i.test(anchor[1])) {
+      errors.push(rel + ": external link opening a new tab must include rel=noopener");
+    }
+  }
   for (const m of html.matchAll(/<button\b([^>]*)>/gi)) {
     buttons++;
     if (!/\btype=["']button["']/i.test(m[1])) errors.push(rel + ": button without explicit type=button");
