@@ -570,15 +570,15 @@ Particular attention should be paid to differences between statistical and admin
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. United Nations. **Charter of the United Nations** (1945).
-2. United Nations. **United Nations Convention on the Law of the Sea** (1982).
-3. United Nations. **Vienna Convention on the Law of Treaties** (1969).
+1. United Nations. **Charter of the United Nations** (1945). https://www.un.org/en/about-us/un-charter/full-text
+2. United Nations. **United Nations Convention on the Law of the Sea** (1982). https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf
+3. United Nations. **Vienna Convention on the Law of Treaties** (1969). https://treaties.un.org/pages/ViewDetailsIII.aspx?chapter=23&mtdsg_no=XXIII-1&src=IND
 4. United Nations. **Declaration on the Granting of Independence to Colonial Countries and Peoples**, General Assembly Resolution 1514 (XV) (1960).
-5. International Court of Justice. **Statute of the International Court of Justice** (1945).
+5. International Court of Justice. **Statute of the International Court of Justice** (1945). https://www.icj-cij.org/statute
 6. Agnew, J. **Geopolitics: Re-Visioning World Politics**. Routledge.
 7. Flint, C. **Introduction to Geopolitics**. Routledge.
 8. Taylor, P. J., Flint, C. **Political Geography: World-Economy, Nation-State and Locality**. Routledge.
-9. United Nations Statistics Division. **Standard Country or Area Codes for Statistical Use (M49)** — для статистической группировки стран и территорий, а не для определения их правового статуса.
+9. United Nations Statistics Division. **Standard Country or Area Codes for Statistical Use (M49)** — for statistical grouping of countries and areas, not for determining their legal status. https://unstats.un.org/unsd/methodology/m49/
 
 ---
 **Конец главы 10 / End of Chapter 10**
