@@ -19,7 +19,7 @@
 | Азот (N₂) | около 78,08% |
 | Кислород (O₂) | около 20,95% |
 | Аргон (Ar) | около 0,93% |
-| Углекислый газ (CO₂) | порядка 0,04%, меняется со временем |
+| Углекислый газ (CO₂) | около 0,0426% (425,6 ppm — глобальное среднегодовое значение 2025 года, предварительная оценка NOAA) |
 | Другие газы | следовые количества |
 
 Водяной пар не включён в таблицу сухого воздуха: его содержание сильно меняется в пространстве и времени — от почти нулевых значений в холодном сухом воздухе до нескольких процентов во влажном тёплом воздухе.
@@ -543,7 +543,7 @@ Climatology studies climate, its spatial differences, formation, variability and
 
 ### 5.1. Composition and Role of the Atmosphere
 
-Dry air near Earth's surface consists mainly of nitrogen and oxygen. Its approximate volume composition is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.04% carbon dioxide (which changes over time) and trace amounts of other gases. Water vapour is not included in the dry-air table because its concentration varies greatly in space and time—from almost zero in cold, dry air to several per cent in warm, humid air.
+Dry air near Earth's surface consists mainly of nitrogen and oxygen. Its approximate volume composition is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean; concentration changes over time) and trace amounts of other gases. Water vapour is not included in the dry-air table because its concentration varies greatly in space and time—from almost zero in cold, dry air to several per cent in warm, humid air.
 
 The atmosphere supplies oxygen for the respiration of most organisms and carbon dioxide for photosynthesis; transports heat and moisture; forms clouds and precipitation; reduces some ultraviolet radiation through the ozone layer; causes many small meteoroids to burn up; and supports the natural greenhouse effect.
 
@@ -780,6 +780,7 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 3. NASA. *The Earth's Energy Budget*. https://earthobservatory.nasa.gov/
 4. IPCC. *Sixth Assessment Report: The Physical Science Basis (AR6 WGI)*. https://www.ipcc.ch/report/ar6/wg1/
 5. Copernicus Climate Change Service. *Climate Data Store*. https://cds.climate.copernicus.eu/
+6. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
