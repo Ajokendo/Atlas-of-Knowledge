@@ -229,13 +229,13 @@ if (!faunaKyrgyzstanFile.includes("7–12 октября 2024 года") || !fau
 if (!faunaKyrgyzstanFile.includes("35 животных были завезены из Алтая в 2022 году") || !faunaKyrgyzstanFile.includes("отличать от естественных популяций")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Besh-Tash introduced maral group must be distinguished from natural populations");
 }
-if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркеров") || !faunaKyrgyzstanFile.includes("88 образцов архара") || !faunaKyrgyzstanFile.includes("O. a. polii") || !faunaKyrgyzstanFile.includes("Pamir Plateau")) {
+if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркера") || !faunaKyrgyzstanFile.includes("88 образцов архара") || !faunaKyrgyzstanFile.includes("O. a. polii") || !faunaKyrgyzstanFile.includes("Pamir Plateau")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2026 argali genetics evidence must retain initial and analysed sample sizes, named subspecies and Pamir scope caveat");
 }
-if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркеров") || !faunaKyrgyzstanFile.includes("72 образца архара") || !faunaKyrgyzstanFile.includes("does not cover every population")) {
+if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркеров") || !faunaKyrgyzstanFile.includes("72 individuals") || !faunaKyrgyzstanFile.includes("cannot automatically be extended to the full range of Marco Polo argali")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2026 argali genetics evidence must retain sample size and scope caveat");
 }
-if (!faunaKyrgyzstanFile.includes("689 маралов") || !faunaKyrgyzstanFile.includes("нельзя напрямую приравнивать") || !faunaKyrgyzstanFile.includes("cannot be directly equated")) {
+if (!faunaKyrgyzstanFile.includes("689 маралов") || !faunaKyrgyzstanFile.includes("нельзя складывать, усреднять или выдавать за одну согласованную оценку") || !faunaKyrgyzstanFile.includes("these figures must not be added, averaged or presented as one reconciled estimate")) {
   errors.push("chapters/fauna-kyrgyzstan.html: distinct 2024 CAMCA maral estimate must be disclosed with comparability caveat");
 }
 if (!faunaKyrgyzstanFile.includes("689 маралов для Кыргызстана за 2024 год") || !faunaKyrgyzstanFile.includes("47 голов за 2024 год") || !faunaKyrgyzstanFile.includes("must not be added, averaged")) {
@@ -256,7 +256,7 @@ if (!faunaKyrgyzstanFile.includes("Coregonus lavaretus") || !faunaKyrgyzstanFile
 if (!faunaKyrgyzstanFile.includes("2004–2005 годов") || !faunaKyrgyzstanFile.includes("описан как озеро без рыб") || !faunaKyrgyzstanFile.includes("described as fishless")) {
   errors.push("chapters/fauna-kyrgyzstan.html: fishless Chatyr-Kul and fish-bearing Son-Kul distinction must remain explicit");
 }
-if (!faunaKyrgyzstanFile.includes("не превращать в актуальную оценку численности") || !faunaKyrgyzstanFile.includes("must not be converted into a current abundance estimate")) {
+if (!faunaKyrgyzstanFile.includes("их нельзя превращать в актуальную оценку численности всех рыб озера") || !faunaKyrgyzstanFile.includes("must not be converted into a current abundance estimate")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul fish-stock findings must retain their historical monitoring scope");
 }
 if (!faunaKyrgyzstanFile.includes("105 519 га") || !faunaKyrgyzstanFile.includes("4 вида пресмыкающихся") || !faunaKyrgyzstanFile.includes("1 вид земноводных") || !faunaKyrgyzstanFile.includes("not as a complete inventory newly verified in 2026")) {
@@ -293,7 +293,7 @@ if (!faunaKyrgyzstanFile.includes("ibnaskr.org/laboratoriya-entomologii-i-parazi
 if (!faunaKyrgyzstanFile.includes("Why there is no single uncontested fish-species total") || !faunaKyrgyzstanFile.includes("Почему нельзя назвать одно бесспорное число видов рыб")) {
   errors.push("chapters/fauna-kyrgyzstan.html: freshwater fish inventory must explain dated, non-final species totals in both languages");
 }
-if (!faunaKyrgyzstanFile.includes("73 fish species") || !faunaKyrgyzstanFile.includes("49 аборигенных и 24 интродуцированных") || !faunaKyrgyzstanFile.includes("not an immutable modern checklist")) {
+if (!faunaKyrgyzstanFile.includes("73 fish species") || !faunaKyrgyzstanFile.includes("49 аборигенных и 24 интродуцированных") || !faunaKyrgyzstanFile.includes("not as a definitive national checklist")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2013 FAO fish inventory must retain native/introduced breakdown and historical scope");
 }
 if (!faunaKyrgyzstanFile.includes("seven major zoogeographic basins") || !faunaKyrgyzstanFile.includes("Балхашского, Чуйского, Иссык-Кульского") || !faunaKyrgyzstanFile.includes("Talas-Ters")) {
@@ -320,7 +320,7 @@ if (!cellBiologyAuditFile.includes("10-3-control-of-the-cell-cycle")) errors.pus
 
 const zoologyAuditFile = fs.readFileSync(path.join(root, "chapters/zoology.html"), "utf8");
 if (!zoologyAuditFile.includes("«Рыбы» — общее название нескольких линий позвоночных") || !zoologyAuditFile.includes("“Fish” is a collective label for several vertebrate lineages")) errors.push("chapters/zoology.html: fish must not be presented as a single monophyletic clade");
-if (!zoologyAuditFile.includes("птицы...в состав рептилий") || !zoologyAuditFile.includes("birds...are included within reptiles")) errors.push("chapters/zoology.html: phylogenetic classification must place birds within reptiles");
+if (!zoologyAuditFile.includes("птицы, в свою очередь, произошли от тероподовых динозавров") || !zoologyAuditFile.includes("are included within reptiles in modern phylogenetic classification")) errors.push("chapters/zoology.html: phylogenetic classification must place birds within reptiles");
 if (!zoologyAuditFile.includes("29-4-reptiles") || !zoologyAuditFile.includes("29-1-chordates")) errors.push("chapters/zoology.html: chordate and reptile evolution references are required");
 
 const anatomyFile = fs.readFileSync(path.join(root, "chapters/anatomy.html"), "utf8");
@@ -486,14 +486,14 @@ if (!floraKyrgyzstanAuditFile.includes("https://scientificjournal.ru/a/107-bio/2
 
 
 if (!regionalSpeciesAudit.includes("Primary-source spot-check") || !regionalSpeciesAudit.includes("page metadata labels the region as Chuy")) errors.push("Regional species audit must record bounded primary-source checks and the Besh-Tash metadata anomaly");
-for (const required of ["400–600", "4,146", "nearly 7,000", "Menzbier", "Kök-Oyrok", "Petilium eduardii"]) {
+for (const required of ["400–600", "4,146", "Nearly 7,000", "Menzbier", "Kök-Oyrok", "Petilium eduardii"]) {
   if (!regionalSpeciesAudit.includes(required)) errors.push("Regional species audit is missing the primary-source spot-check for " + required);
 }
 
 if (!floraKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/v-bes-tasskom-prirodnom-parke-uvelicivaetsya-cislennost-maralov")) errors.push("Besh-Tash flora richness claim must link to the Ministry's park profile");
 if (!regionalSpeciesAudit.includes("separate Ministry notice dated 19 September 2025 explicitly places Besh-Tash in Talas Region")) errors.push("Regional audit must resolve the Besh-Tash administrative metadata discrepancy with corroborating evidence");
 
-if (!faunaKyrgyzstanFile.includes("resource?r=central_asia_amphibians&amp;v=1.18") || !faunaKyrgyzstanFile.includes("version 1.18, 26 October 2026") || !faunaKyrgyzstanFile.includes("Bufotes") || !faunaKyrgyzstanFile.includes("not proof that every included taxon occurs in a particular Kyrgyz oblast")) {
+if (!faunaKyrgyzstanFile.includes("resource?r=central_asia_amphibians&amp;v=1.18") || !faunaKyrgyzstanFile.includes("version 1.18 of the GBIF regional checklist") || !faunaKyrgyzstanFile.includes("Bufotes") || !faunaKyrgyzstanFile.includes("does not replace current surveys in each oblast")) {
   errors.push("chapters/fauna-kyrgyzstan.html: latest GBIF Central Asian amphibian checklist must be linked, dated and scoped as a regional compilation");
 }
 if (!regionalSpeciesAudit.includes("Central Asian amphibian checklist (GBIF dataset, version 1.18, 26 October 2026)") || !regionalSpeciesAudit.includes("not a new Kyrgyz field survey")) {
@@ -506,7 +506,7 @@ if (!regionalSpeciesAudit.includes("Argali genomic sample provenance") || !regio
 if (!faunaKyrgyzstanFile.includes("wingeds.world/species/amphibia/kg") || !faunaKyrgyzstanFile.includes("30 September 2026") || !faunaKyrgyzstanFile.includes("Hynobius turkestanicus") || !faunaKyrgyzstanFile.includes("B. oblongus") || !faunaKyrgyzstanFile.includes("B. viridis")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Kyrgyz amphibian country snapshot must be dated and preserve the three unconfirmed taxa");
 }
-if (!faunaKyrgyzstanFile.includes("209 adult males") || !faunaKyrgyzstanFile.includes("14 localities") || !faunaKyrgyzstanFile.includes("10.20363/BZB-2021.70.2.361") || !faunaKyrgyzstanFile.includes("triploid hybrids")) {
+if (!faunaKyrgyzstanFile.includes("209 adult male green toads") || !faunaKyrgyzstanFile.includes("14 localities") || !faunaKyrgyzstanFile.includes("10.20363/BZB-2021.70.2.361") || !faunaKyrgyzstanFile.includes("triploid hybrids")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2021 peer-reviewed Bufotes study must retain sample scope, direct DOI and hybridization caveat");
 }
 
@@ -543,7 +543,7 @@ if (!regionalSpeciesAudit.includes("Central Asian reptile checklist (GBIF datase
 if (!faunaKyrgyzstanFile.includes("fishbase.se/country/CountryChecklist.php?c_code=417") || !faunaKyrgyzstanFile.includes("31 species currently present") || !faunaKyrgyzstanFile.includes("explicitly labelled the list incomplete") || !faunaKyrgyzstanFile.includes("73 fish species")) {
   errors.push("chapters/fauna-kyrgyzstan.html: fish totals must distinguish the 2013 FAO synthesis from the incomplete current FishBase list");
 }
-if (!faunaKyrgyzstanFile.includes("does not demonstrate a sharp decline") || !faunaKyrgyzstanFile.includes("not as a definitive national checklist")) {
+if (!faunaKyrgyzstanFile.includes("do not demonstrate a sharp decline") || !faunaKyrgyzstanFile.includes("not as a definitive national checklist")) {
   errors.push("chapters/fauna-kyrgyzstan.html: incompatible fish totals must not be interpreted as a population trend or definitive national inventory");
 }
 if (!regionalSpeciesAudit.includes("National fish totals: FAO 2013 versus FishBase (checked 1 November 2026)") || !regionalSpeciesAudit.includes("31 currently present but explicitly labels its country list incomplete")) {
@@ -596,7 +596,7 @@ if (!faunaKyrgyzstanFile.includes("10.36979/1694-500X-2025-25-12-159-166") ||
 }
 if (!regionalSpeciesAudit.includes("Suusamyr Valley fish survey (fieldwork 2024; published 2025)") ||
     !regionalSpeciesAudit.includes("not infer a settled 4+1 total") ||
-    !regionalSpeciesAudit.includes("D. gymnogaster` as a synonym of `D. maculatus") ||
+    !regionalSpeciesAudit.includes("Diptychus gymnogaster` as a synonym of `D. maculatus") ||
     !regionalSpeciesAudit.includes("voucher/specimen review") ||
     !regionalSpeciesAudit.includes("fishcatget.asp?spid=31906")) {
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Suusamyr fish evidence must retain its count discrepancy, osman synonym and specimen-review requirement");
