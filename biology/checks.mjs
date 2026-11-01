@@ -159,6 +159,29 @@ if (!ecologyFile.includes('role="status" aria-live="polite"')) errors.push("chap
 if (!/data-nitrogen="ammonification"/.test(ecologyFile) || !ecologyFile.includes("Аммонификация") || !ecologyFile.includes("Ammonification")) errors.push("chapters/ecology.html: nitrogen cycle must include bilingual ammonification control");
 if (!ecologyFile.includes("NH₄⁺") || !ecologyFile.includes("N₂O и N₂") || !ecologyFile.includes("N₂O and N₂")) errors.push("chapters/ecology.html: nitrogen-cycle explanations must identify ammonium and gaseous denitrification products");
 if ((ecologyFile.match(/data-nitrogen="[^"]+" aria-pressed="(?:true|false)"/g) || []).length !== 5) errors.push("chapters/ecology.html: all five nitrogen-cycle controls must expose initial pressed states");
+const ecologyControlCounts = {
+  "carbon-controls": { attribute: "carbon", count: 5 },
+  "pressure-controls": { attribute: "pressure", count: 4 }
+};
+for (const [group, config] of Object.entries(ecologyControlCounts)) {
+  const section = ecologyFile.match(new RegExp('<div class="controls" id="' + group + '">([\\s\\S]*?)<\\/div>'));
+  if (!section) {
+    errors.push("chapters/ecology.html: missing " + group);
+    continue;
+  }
+  const buttons = [...section[1].matchAll(new RegExp('<button\\\\b[^>]*data-' + config.attribute + '="[^"]+"[^>]*>([\\\\s\\\\S]*?)<\\\\/button>', "gi"))];
+  if (buttons.length !== config.count) {
+    errors.push("chapters/ecology.html: expected " + config.count + " controls in " + group + ", found " + buttons.length);
+  }
+  if (buttons.some(m => !/<span class=["']ru["']>/.test(m[1]) || !/<span class=["']en["']>/.test(m[1]))) {
+    errors.push("chapters/ecology.html: every " + group + " control must have paired Russian and English labels");
+  }
+  const pressed = [...section[1].matchAll(/aria-pressed="(?:true|false)"/g)];
+  if (pressed.length !== config.count || (section[1].match(/aria-pressed="true"/g) || []).length !== 1) {
+    errors.push("chapters/ecology.html: " + group + " must expose one initial pressed selection and pressed state on every control");
+  }
+}
+
 
 const biochemistryFile = fs.readFileSync(path.join(root, "chapters", "biochemistry.html"), "utf8");
 const biochemistryControlCounts = {
