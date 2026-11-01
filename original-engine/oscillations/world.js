@@ -146,7 +146,7 @@ export function buildWorld(E) {
   { const c = []; for (let x = BX - 0.25; x < BX + 1.2; x += 0.1) c.push(x, 0.02 + M.E * BAR, BZ, x + 0.05, 0.02 + M.E * BAR, BZ); lines(root, c, '#8a8a8f'); }
   label('vec', '<i>K</i>', () => V(BX, 0.02 + M.E * BAR + 0.14, BZ)); label('vec', '<i>U</i>', () => V(BX + 0.45, 0.02 + M.E * BAR + 0.14, BZ));
   label('vec', '<i>K</i> + <i>U</i>', () => V(BX + 1.0, 0.02 + M.E * BAR + 0.14, BZ));
-  label('tick', `½<i>kA</i>² = ${M.E.toFixed(1)} J`, () => V(BX - 0.3, 0.02 + M.E * BAR, BZ));
+  label('tick', `½<i>kA</i>² = ${M.E.toFixed(1)} Дж`, () => V(BX - 0.3, 0.02 + M.E * BAR, BZ));
   const v3 = force(g3);
   label('vec', '<i>v</i>', () => tip(v3));
 
@@ -201,7 +201,7 @@ export function buildWorld(E) {
   const pv7a = V(X7 + 0.5, PY7, 0), pv7b = V(X7 + 1.4, PY7, 0), r7b = 0.1 * Math.cbrt(I.m2 / I.m1);
   const p7a = pend(g7p, pv7a, I.L, 0.1, '1.0 kg bob'), p7b = pend(g7p, pv7b, I.L, r7b, '4.0 kg bob');
   swingGhosts(pv7a, I.L, I.th0, 0.1); swingGhosts(pv7b, I.L, I.th0, r7b);
-  label('tick', '1 kg', () => p7a.at(0).add(V(-0.14, -0.22, 0))); label('tick', '4 kg', () => p7b.at(0).add(V(-0.18, -0.28, 0)));
+  label('tick', '1 кг', () => p7a.at(0).add(V(-0.14, -0.22, 0))); label('tick', '4 кг', () => p7b.at(0).add(V(-0.18, -0.28, 0)));
 
 
   // ---------- 9 · the SHM equation: two blocks, same spring, started differently ----------
@@ -254,7 +254,7 @@ export function buildWorld(E) {
   const mg10 = w10('ink'), sin10 = w10('red');
   label('vec', '<i>mg</i>', () => tip(mg10)); label('vec red', '<i>mg</i> sin θ', () => tip(sin10, 0.32));
   label('tick', 'cm', () => rodArm.localToWorld(V(-0.07, -RD.d, 0)));
-  label('tick', `rod, <i>L</i> = ${RD.L.toFixed(1)} m`, () => pv10.clone().add(V(0.62, -1.55, 0)));
+  label('tick', `стержень, <i>L</i> = ${RD.L.toFixed(1)} м`, () => pv10.clone().add(V(0.62, -1.55, 0)));
   label('axis', '2<i>L</i>/3', () => ex(g10) > 0.3 ? rodArm.localToWorld(V(-0.14, -RD.Leq, 0)) : null);
   label('axis', '<i>d</i> = <i>L</i>/2', () => ex(g10) > 0.3 ? rodArm.localToWorld(V(-0.08, -RD.d / 2, 0)) : null);
   const g10h = asm('hoop', root, { title: 'Обруч на гвозде', sub: 'I = mR² + mR² по теореме Штейнера' });
@@ -287,7 +287,7 @@ export function buildWorld(E) {
   label('axis', 'θ = 0', () => V(X11 + TS.R + 0.42, DY + 0.1, 0));
   label('axis', `±${(TS.th0 / M.DEG).toFixed(0)}°`, () => V(X11 + (TS.R + 0.2) * Math.cos(TS.th0) + 0.14, DY + 0.04, -(TS.R + 0.2) * Math.sin(TS.th0)));
   label('tick', `κ = ${TS.kappa} N·m/rad`, () => V(X11 - 0.06, DY + 0.6, 0));
-  label('tick', `${TS.M.toFixed(1)} kg disc, <i>R</i> = ${TS.R.toFixed(2)} m`, () => V(X11 - TS.R - 0.08, DY - 0.12, 0));
+  label('tick', `диск массой ${TS.M.toFixed(1)} кг, <i>R</i> = ${TS.R.toFixed(2)} м`, () => V(X11 - TS.R - 0.08, DY - 0.12, 0));
   // the restoring torque (opened): a red curved arrow round the rim, back toward θ = 0
   const tq = new THREE.Group(); g11.add(tq);
   const tqArc = part(tq, liveTube(24, 0.014), { tone: 'hi', pal: 'red', name: 'Возвращающий момент силы' });
@@ -319,8 +319,8 @@ export function buildWorld(E) {
   part(swingArm, box(0.45, 0.05, 0.7, 0.02), { tone: 'hi', pal: 'dark', pos: [0, -SW.L, 0], name: 'Сиденье' });
   part(swingArm, box(0.32, 0.5, 0.36, 0.06), { tone: 'hi', pos: [0, -SW.L + 0.27, 0], name: 'Ребёнок' });
   swingGhosts(PV8, SW.L, SW.th0, 0.001);
-  label('tick', `${SW.m} kg`, () => swingArm.localToWorld(V(-0.2, -SW.L + 0.62, 0.2)));
-  label('tick', `${C.m} kg`, () => carBody.localToWorld(V(1.3, 0.35, 0.9)));
+  label('tick', `${SW.m} кг`, () => swingArm.localToWorld(V(-0.2, -SW.L + 0.62, 0.2)));
+  label('tick', `${C.m} кг`, () => carBody.localToWorld(V(1.3, 0.35, 0.9)));
 
   // ---------- per-frame ----------
   const shrink = (mesh, g) => mesh.scale.setScalar(1 - 0.85 * Math.max(g.userData.explode, 0));
