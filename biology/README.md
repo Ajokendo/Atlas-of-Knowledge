@@ -1246,6 +1246,8 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 
 - Added the Ministry of Natural Resources' 3 June 2026 notice on the Common Crane (Grus grus) breeding record at Jety-Oguz, Issyk-Kul: nest found 19 April; pair with two chicks observed 24 May. The chapter describes this as the first ministry-reported Issyk-Kul record and the second known national nesting record only according to the Ministry's historical summary (one prior Chui Valley record in 1958). It does not infer range expansion, fledging success or a population trend.
 - Added a bilingual chapter entry, an evidence-classification note in the Kyrgyzstan species audit, an explicit P2 question in the independent scientific-review packet, and source/date/scope regression guards.
+- Evaluated a May 2026 media report of a possible Black-necked Crane (*Grus nigricollis*) observation near Soek Pass. Because the report relays a social-media statement without a verifiable primary field record or diagnostic documentation, the candidate was explicitly excluded from the confirmed chapter checklist and added to the audit and independent-review packet as unresolved.
+
 - Author-side source-led repeat-audit work is marked 100% complete. This does not close G4 independent scientific review or G5 independent bilingual/editorial release review; both remain open and require qualified external sign-off. It is not publication approval.
 - All 52 image anchors remain mapped and all 52 image dispositions remain Deferred; visual production is not complete.
 - The regression script and browser/mobile/accessibility/CI checks have not been run in this save cycle. No test pass is claimed.
