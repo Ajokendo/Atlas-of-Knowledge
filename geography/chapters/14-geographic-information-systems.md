@@ -84,6 +84,7 @@ This chapter introduces spatial data, coordinate reference systems, geographic d
 ## 14.4. Координаты и системы координат / Coordinates and Coordinate Reference Systems
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 14-B / IMAGE PLACEHOLDER 14-B]** Схема географических координат, эллипсоида, геоида и проекции; указать, что градусы не подходят для прямого измерения локальных расстояний.
+> **EN:** Geographic-coordinate diagram showing the ellipsoid, geoid and map projection; explain that angular degrees are not suitable for directly measuring local distances.
 
 Координатная система позволяет определить положение объекта на Земле или на плоскости. Географические координаты обычно задаются широтой и долготой, а проецированные координаты — линейными величинами, например метрами.
 
@@ -178,6 +179,7 @@ GNSS — общее название спутниковых навигацион
 ## 14.8. Пространственные запросы и операции / Spatial Queries and Operations
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 14-C / IMAGE PLACEHOLDER 14-C]** Наглядные схемы буфера, пересечения, объединения, разности и пространственного соединения.
+> **EN:** Illustrations of buffer, intersection, union, difference and spatial-join operations.
 
 Пространственный анализ отвечает на вопросы о взаимном расположении объектов, расстояниях, пересечениях, соседстве и распределении явлений.
 
@@ -276,6 +278,7 @@ GNSS — общее название спутниковых навигацион
 ## 14.13. Картографическая визуализация и дизайн / Cartographic Visualisation and Design
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 14-D / IMAGE PLACEHOLDER 14-D]** Примеры последовательной, расходящейся и качественной цветовых шкал и корректного выбора тематического способа отображения.
+> **EN:** Examples of sequential, diverging and qualitative colour schemes, with appropriate thematic mapping choices.
 
 Карта — средство передачи пространственной информации, а не просто изображение данных. Её оформление должно соответствовать цели, аудитории и масштабу.
 
