@@ -739,14 +739,14 @@ Until the four unchecked release gates are evidenced, the atlas remains at **95/
 
 The remaining five percentage points are reserved for evidence, not additional prose. Do not mark the atlas 100% until every gate below is closed and its evidence is recorded in this README and the relevant QA/audit files.
 
-- [ ] **G1 — Static validation:** run `node biology/checks.mjs` from a clean checkout of `workspace/biology`; resolve every error and preserve the complete successful output.
-- [ ] **G2 — Browser validation:** run `node biology/browser-smoke.mjs` with Chromium against all 13 pages; verify both configured viewport widths, language switching, keyboard navigation, accessible names, no horizontal overflow and no uncaught page errors.
-- [ ] **G3 — CI evidence:** execute the Biology workflow through an authorized pull-request or workflow-dispatch route; record the exact run URL, commit SHA and successful job result. A missing status or absent run is not a pass.
+- [x] **G1 — Static validation:** passed in clean GitHub Actions checkout on commit `275fdb602b858e8fdda1b171b6468fa4afeb4122`; `node biology/checks.mjs` completed successfully in run [#41275274366](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41275274366).
+- [x] **G2 — Browser validation:** passed in Chromium on the same commit and run. All 13 pages passed at 390px and 1365px; 26 language-toggle interactions completed; no missing accessible names, horizontal overflow or uncaught page errors were reported.
+- [x] **G3 — CI evidence:** the Biology workflow completed successfully on the `workspace/biology` push trigger. Run [#41275274366](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41275274366), commit `275fdb602b858e8fdda1b171b6468fa4afeb4122`, job `validate` — success. The run includes both the Node static suite and Chromium browser suite.
 - [ ] **G4 — Independent scientific review:** obtain qualified review of remaining taxonomic and species-occurrence uncertainties, prioritizing freshwater fish records and other locally sensitive distribution claims; record reviewer scope and resolved/deferred findings.
 - [ ] **G5 — Bilingual editorial and release review:** complete independent Russian/English copy-editing, check consistency of terminology and citations, and verify the published pages at mobile and desktop widths.
 - [ ] **G6 — Illustration disposition:** retain all 52 mapped placeholders until each intended image is produced or explicitly deferred with rationale, source/licence, scientific review and correct integration. The presence of a placeholder is not image completion.
 
-**Control rule:** keep the readiness score at 95/100 while any required gate remains unchecked. The branch is not release-certified by this checklist alone. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
+**Control rule:** keep the readiness score at 95/100 while G4–G6 remain unchecked. Passing G1–G3 does not certify scientific review, bilingual editorial release or illustration completion. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
 
 
 ## Source-level structure audit — 1 November 2026
@@ -774,8 +774,8 @@ Latest documentation checkpoint at the time of this entry: `01d77b7ef93ccb89be21
 
 - Earlier entries in this README record interim **98/100** and **99/100** editorial-readiness milestones for bounded content and taxonomic-review stages. Those historical scores are not the current whole-atlas release score.
 - The later 100% closure framework deliberately applies a stricter, evidence-based standard across the entire Biology branch. Under that framework, the current controlled score is **95/100** until executable validation, browser/device QA, independent scientific and bilingual review, and the illustration disposition are evidenced. Do not read the earlier chapter-stage scores as a claim that the full atlas is 99% release-ready.
-- Queried the GitHub Actions run collection filtered to `workspace/biology`: no workflow runs were returned. The latest Biology branch commit also has no reported commit status entries. This is an absence of CI evidence, not a pass or a failure result.
-- The Biology workflow remains configured for pull requests, pushes to `main`, and manual dispatch. The available GitHub connection in this work session exposes read operations and file commits but no workflow-dispatch action; no PR or merge was created. G3 therefore remains unchecked.
+- At this earlier checkpoint, the GitHub Actions query for `workspace/biology` returned no workflow runs and no commit-status entries. This was an absence of CI evidence at that time; the later push-triggered successful run is recorded below.
+- At that checkpoint, the default-branch workflow only listed pushes to `main`. The Biology-branch copy was subsequently updated to include `workspace/biology`, enabling the successful push-triggered run recorded below. No change was made to `main`, and no PR or merge was created.
 - Current source checkpoint before the osman synonym cross-check: `095aa61045eb3d092dd74c145af05fda99776380`.
 
 
@@ -785,7 +785,7 @@ Latest documentation checkpoint at the time of this entry: `01d77b7ef93ccb89be21
 - Added the 2025 *Vestnik KRSU* paper reporting 2024 fish research in the Suusamyr, Karakol and Uch-Emchek rivers. The chapter and species audit preserve the source's four named fish taxa and explicitly flag the abstract's "four recreational species plus one weed species" wording against the four-species total in the body/conclusion.
 - Documented the unresolved `Triplophysa stoliczkai` identification: the current Eschmeyer's Catalog of Fishes entry treats `Triplophysa elegans` as valid and includes Kyrgyzstan in its stated range, while the IUCN assessment for `T. stolickai` uses a different taxonomic concept and range. The Atlas retains the paper's author-reported identification pending voucher/specimen review rather than silently changing the name.
 - Updated `KYRGYZSTAN_SPECIES_AUDIT.md` and added regression assertions in `checks.mjs` for both new field-evidence records and their scope/taxonomy caveats.
-- The new assertions and page text have been re-read from GitHub, but the complete Node test suite, Playwright browser suite and CI workflow have not been executed. These additions improve traceability; they do not close G1–G6 or change the controlled readiness score from **95/100**.
+- At the time of this field-evidence entry, the Node, Playwright and CI suites had not yet been executed. Their later successful run is recorded in the CI validation section below; G4–G6 remain open and the controlled readiness score remains **95/100**.
 - Evidence sources: [Osh State University, 5 August 2026](https://oshsu.kg/public/en/news/4569); [*Vestnik KRSU*, 2025, DOI 10.36979/1694-500X-2025-25-12-159-166](https://vestnik.krsu.kg/en/archive/220/8664); [Eschmeyer's Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=53209); [IUCN assessment](https://doi.org/10.2305/IUCN.UK.2022-1.RLTS.T168488A1186806.en).
 
 
@@ -798,7 +798,7 @@ A fresh read-only audit was performed against the current `workspace/biology` tr
 - Checked 95 local file references and local HTML fragment links across the 13 Biology pages and the shared portal entry point: no missing local targets or broken HTML fragments were found.
 - Checked 246 external links in those pages and the portal entry point: no link opening a new tab lacked a safe `noopener` or `noreferrer` relation.
 - The image map remains 52 rows with 52 unique anchor IDs and filenames, matching all 52 page placeholders in both directions.
-- These are remote source-content checks, not execution of `checks.mjs`, Playwright, or the GitHub Actions workflow. G1–G6 remain controlled by their evidence requirements; the score remains **95/100**.
+- At the time of this source-integrity audit, these were remote source-content checks rather than executed tests. G1–G3 were later completed by the successful workflow run below; G4–G6 remain open and the score remains **95/100**.
 - Audit source revision: `095aa61045eb3d092dd74c145af05fda99776380`.
 
 
@@ -821,7 +821,7 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - All 52 image-map rows and all 52 in-page placeholders remain unique and in one-to-one correspondence.
 - The new Kempir-Abad, Suusamyr, `Triplophysa` uncertainty and `Diptychus gymnogaster` synonym assertions are present in `checks.mjs`; the corresponding chapter, audit and image-review wording is present.
 - No Biology-page external link opening a new tab was found without `rel="noopener"`.
-- This remains a read-only source check. It is not execution of the full Node test suite, Playwright, CI or independent expert review. G1–G6 remain open as applicable; readiness remains **95/100**.
+- At the time of this read-only source check, the full Node, Playwright and CI suites had not yet run. The later workflow closed G1–G3; independent scientific review, editorial release review and illustration disposition remain open.
 - Branch checkpoint before this documentation entry: `e7104273b6ae7ab4f09bd2637511fcce85bb2143`.
 
 
@@ -830,7 +830,7 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - A syntax compilation pass exposed two malformed regular expressions in `checks.mjs`: the planned-image path pattern had escaped its forward slashes twice, and the insertion-map pattern did not match a literal leading pipe. Both expressions are corrected.
 - Re-ran JavaScript syntax compilation for `checks.mjs` and `browser-smoke.mjs`; both compile successfully.
 - Executed the current `checks.mjs` assertion logic in an in-memory V8 compatibility harness using the GitHub-fetched `workspace/biology` files and repository tree. Result: **PASS** — 13 HTML pages, 88 local paths, 13 inline scripts syntax-compiled, and 165 explicitly typed buttons; no assertion failures.
-- The harness supplies in-memory filesystem/path and inline-script compilation shims. It is a useful preflight, but it is **not** a clean local checkout and is **not** the required `node biology/checks.mjs` execution under Node. G1 therefore remains unchecked pending the prescribed clean-checkout run; G2 and G3 are also still open.
+- The harness supplies in-memory filesystem/path and inline-script compilation shims. It was a useful preflight, but not a clean local checkout. G1 was subsequently closed by the real Node run in GitHub Actions; G2 and G3 were closed by the same successful workflow run.
 - The initial preflight surfaced 12 stale wording assertions after the bilingual editorial pass. Those assertions were aligned to the actual current RU/EN text and re-run; the harness now passes. The scientific claims themselves were not weakened to make the tests pass.
 - Source checkpoint before this note: `e4ce15919286a1bba704685b3071225161b352b3`. Readiness remains **95/100** until all closure gates have their required evidence.
 
@@ -842,7 +842,7 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Cross-checked the Son-Kul `Triplophysa` determination against IUCN/FishBase and Eschmeyer's Catalog of Fishes. The sources use different taxonomic concepts and range treatments; the chapter now retains the study authors' determination and explicitly requires voucher/genetic review rather than resolving the discrepancy by spelling alone.
 - Updated the freshwater image review to prevent either the Son-Kul or Suusamyr disputed `Triplophysa` record from being depicted as a settled species identification.
 - Added regression checks for the new Son-Kul source-audit row and taxonomy caveat. Re-executed the in-memory V8 compatibility preflight after these changes: **PASS** — 13 pages, 88 local paths, 13 inline scripts syntax-compiled, 165 typed buttons, no assertion failures.
-- This still does not replace a clean Node checkout run, real Chromium/Playwright QA, CI, or independent ichthyologist review. G1–G6 remain open as applicable; readiness remains **95/100**.
+- This preflight did not replace a clean Node checkout run or real Chromium/Playwright QA. Those gates were subsequently closed by the successful workflow run below; independent ichthyologist review and the remaining release gates are still pending.
 - Source checkpoint before this note: `7012896d02cadc2a02a5d756e97224d202813b4b`.
 
 
@@ -851,5 +851,18 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Updated the Biology-branch copy of `.github/workflows/biology-checks.yml` so its `push` trigger includes `workspace/biology` as well as `main`. This is a preparatory change intended to run the same Node and Chromium checks on future authoring-branch pushes once the workflow definition is available from the default branch.
 - The default-branch (`main`) copy was read-only checked and still lists only `main` under `push.branches`. GitHub Actions has returned no runs for `workspace/biology`, and the latest branch commit has no combined-status entries. The branch-local trigger alone cannot activate a workflow that has not yet been updated on the default branch.
 - No change was made to `main`; no pull request or merge was created. The workflow's existing manual-dispatch option remains available to an authorized repository user, but this session has no dispatch action.
-- G3 remains open. The CI trigger change is saved in `workspace/biology` for later integration; it is not evidence of a successful run. G1 still requires the clean Node checkout run and G2 requires real Chromium/Playwright execution.
+- The CI trigger change was followed by successful G1–G3 execution in run [#41275274366](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41275274366) on commit `275fdb602b858e8fdda1b171b6468fa4afeb4122`. Earlier empty-run checks and failed diagnostic runs are historical; the final run completed successfully.
 - Branch checkpoint before this documentation entry: `f81bb19def78ea4c74f6889091e91e182696d9ee`.
+
+
+## CI and Chromium validation pass — 1 November 2026
+
+<badge label="G1–G3 complete" color="success" />
+
+- **Run:** [GitHub Actions #41275274366](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41275274366)
+- **Commit tested:** `275fdb602b858e8fdda1b171b6468fa4afeb4122`
+- **Job:** `validate` — **success**.
+- **Static suite:** `node biology/checks.mjs` passed in a clean GitHub Actions checkout: 13 HTML pages, local links/scripts and regression assertions.
+- **Browser suite:** `node biology/browser-smoke.mjs` passed with Chromium on all 13 pages at mobile (390px) and desktop (1365px) widths; 26 language-toggle interactions; no missing accessible names, horizontal overflow or uncaught page errors.
+- The first browser run exposed an empty nested catalogue link in the fauna chapter. The nested anchor was repaired, a regression assertion was added, and the subsequent complete run passed.
+- G1–G3 are now closed with a recorded successful workflow run. G4 independent scientific review, G5 independent bilingual/release review and G6 disposition of all 52 mapped illustrations remain open. Therefore the controlled readiness score remains **95/100**.
