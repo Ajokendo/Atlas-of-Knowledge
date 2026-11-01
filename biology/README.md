@@ -715,3 +715,12 @@ The 100% milestone is reserved for a reproducible release-readiness record, not 
 
 Until the four unchecked release gates are evidenced, the atlas remains at **95/100 editorial readiness**. Artwork production remains transparently deferred behind the 52 exact placeholders; no generated, reviewed or integrated image is implied by this checklist.
 
+
+
+## Browser QA harness enhancement — 1 November 2026
+
+- Extended `biology/browser-smoke.mjs` to check horizontal overflow at the 390 px mobile and 1365 px desktop viewports, visible interactive controls without accessible names, and whether keyboard Tab navigation reaches an interactive element.
+- Retained the existing checks for all Biology pages, HTTP responses, main landmarks, language-toggle changes, explicit button types and uncaught page errors.
+- The workflow `.github/workflows/biology-checks.yml` already installs Chromium and runs this browser smoke test after the static check; no workflow outside the Biology scope was changed.
+- Saved the enhanced test harness to `workspace/biology` in commit `e53162accc658938963037b8a5a2945b6f7c9c75`.
+- This is an improvement to test coverage, not a test result. The browser workflow has not yet been run against this commit; the full local check script and independent specialist review also remain outstanding. The overall readiness score therefore remains **95/100** until evidence is available.
