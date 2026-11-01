@@ -251,6 +251,48 @@ if (!quizMatch) {
   }
 }
 
+const assetRoot = path.join(root, "assets");
+const svgFiles = [];
+function walkSvg(dir) {
+  if (!fs.existsSync(dir)) return;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) walkSvg(full);
+    else if (entry.isFile() && entry.name.toLowerCase().endsWith(".svg")) svgFiles.push(full);
+  }
+}
+walkSvg(assetRoot);
+for (const file of svgFiles) {
+  const source = fs.readFileSync(file, "utf8");
+  const relative = path.relative(root, file).replace(/\\\\/g, "/");
+  if (!/<svg\\b[^>]*\\bviewBox=/i.test(source)) errors.push(relative + ": SVG missing viewBox");
+  if (!/<svg\\b[^>]*\\brole=["']img["']/i.test(source)) errors.push(relative + ": SVG missing role=img");
+  if (!/<title\\b[^>]*>[\\s\\S]*?<\\/title>/i.test(source)) errors.push(relative + ": SVG missing accessible title");
+  if (!/<desc\\b[^>]*>[\\s\\S]*?<\\/desc>/i.test(source)) errors.push(relative + ": SVG missing accessible description");
+}
+
+const isotopeSvgPath = path.join(assetRoot, "isotope-abundance.svg");
+if (fs.existsSync(isotopeSvgPath)) {
+  const isotopeSvg = fs.readFileSync(isotopeSvgPath, "utf8");
+  for (const [x, expectedNeutrons] of [[205, 6], [470, 7]]) {
+    const start = isotopeSvg.indexOf('<g transform="translate(' + x + ' 185)">');
+    const end = start < 0 ? -1 : isotopeSvg.indexOf("</g>", start);
+    const nucleus = start < 0 || end < 0 ? "" : isotopeSvg.slice(start, end);
+    const protons = (nucleus.match(/fill="#238b70"/g) || []).length;
+    const neutrons = (nucleus.match(/fill="#e0a64d"/g) || []).length;
+    if (protons !== 6 || neutrons !== expectedNeutrons) {
+      errors.push("assets/isotope-abundance.svg: expected 6 protons and " + expectedNeutrons + " neutrons in nucleus at x=" + x);
+    }
+  }
+}
+const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
+if (fs.existsSync(neutralisationSvgPath)) {
+  const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
+  if (!neutralisationSvg.includes('d="M20 132 C100 132 120 128 150 78 S190 25 210 22 S300 20 350 20"')) {
+    errors.push("assets/acid-base-neutralisation.svg: expected rising pH curve when base is added");
+  }
+}
+
 const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const chapterIds = [...homepage.matchAll(/["'](0[1-9]|1[0-2])["']/g)].map(m => m[1]);
 if (new Set(chapterIds).size < 12) errors.push("index.html: expected all 12 chapter identifiers");
