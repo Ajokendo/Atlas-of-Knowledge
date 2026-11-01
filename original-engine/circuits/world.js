@@ -292,7 +292,7 @@ export function buildWorld(E) {
   const plus = dotPool(capIt.body, 12, 'red', new THREE.SphereGeometry(0.035, 10, 8)), minus = dotPool(capIt.body, 12, 'blue', new THREE.SphereGeometry(0.035, 10, 8));
   const SITES = []; for (let i = 0; i < 4; i++) for (let j = 0; j < 3; j++) SITES.push([(i - 1.5) * 0.14, (j - 1) * 0.13]);
   // the switch: a blade from the pivot to contact a (charge) or b (discharge)
-  const blade = rod(g8, 0.03, 'Switch');
+  const blade = rod(g8, 0.03, 'Выключатель');
   const posts8 = ['pv', 'sa', 'sb'].map(k => ({ k, m: part(g8, new THREE.CylinderGeometry(0.06, 0.06, 0.12, 16), { tone: 'mid', pal: 'dark', name: 'Переключатель' }) }));
   label('tick', 'a', () => cRC.P3.sa.clone().add(V(-0.12, 0.25, -0.2))); label('tick', 'b', () => cRC.P3.sb.clone().add(V(-0.12, 0.25, 0.15)));
 
