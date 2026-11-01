@@ -987,3 +987,6 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Landing-page link verification: all 26 chapter links were compared against the actual `geography/chapters/` directory on the canonical branch; all targets exist, all 26 are unique, and each title/description pair has RU and EN values. This is a static content/path check, not a browser interaction test.
+
+
+- Chapter 15 spectral-index precision check: specified SWIR1 for the standard NDMI/NDBI variants and SWIR2 for the standard Landsat NBR formula in both Russian and English. Added a sensor-specific caveat requiring exact band numbers to be stated for other platforms. Verified commit `535dfaeddb6009b7c05ffda5e615e422375cddd6`; blob `be904dcf430417d02d9b87c8c8a12164eebb4e6c`.
