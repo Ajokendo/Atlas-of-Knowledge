@@ -201,11 +201,11 @@ export function buildWorld(E) {
   const fP = force(gP), dotP = part(gP, new THREE.SphereGeometry(0.045, 16, 10), { tone: 'hi', pal: 'ink', name: 'Кривая F(x)' });
   const dropP = liveDash(gP, 10);
   label('vec', '<i>F</i>(<i>x</i>)', () => fP.visible ? fP.position.clone().add(V(0.25, 0.2, 0)) : null);
-  label('board', small('area = <i>W</i>', 17), () => pushState.x > 0.9 ? V(xP0 + 0.3, GB + 0.32, zP) : null);
+  label('board', small('площадь = <i>W</i>', 17), () => pushState.x > 0.9 ? V(xP0 + 0.3, GB + 0.32, zP) : null);
   const NS = 6, stripsP = Array.from({ length: NS }, (_, i) => { const dx = Lp / NS, xm = (i + 0.5) * dx, hgt = M.pushF(xm) * FP;
     return part(gP, box(dx * 0.92, hgt, 0.04, 0.005), { tone: 'mid', pal: 'dark', pos: [xP0 + xm, GB + hgt / 2, zP + 0.04], ex: [0, 0, 0.55], name: 'Полоски' }); });
   label('board', small('<i>F</i>(<i>x</i><sub>i</sub>) Δ<i>x</i>', 16), () => opened(gP) > 0.3 ? stripsP[1].position.clone().add(V(-0.2, M.pushF(1.5 * Lp / NS) * FP / 2 + 0.14, 0)) : null);
-  label('board', small(`sum of ${NS} strips ≈ ${M.pushStrips(NS).toFixed(1)} J`, 15), () => opened(gP) > 0.3 ? stripsP[4].position.clone().add(V(-0.3, M.pushF(4.5 * Lp / NS) * FP / 2 + 0.55, 0)) : null);
+  label('board', small(`сумма ${NS} полос ≈ ${M.pushStrips(NS).toFixed(1)} Дж`, 15), () => opened(gP) > 0.3 ? stripsP[4].position.clone().add(V(-0.3, M.pushF(4.5 * Lp / NS) * FP / 2 + 0.55, 0)) : null);
   const barsP = bars(gP, xP0 + Lp + M.PUSH.coast + 0.8, 0, 0.02, [['ink', 'W'], ['blue', 'K']], SC.push.E);
   let pushState = M.push(0);
 
@@ -216,7 +216,7 @@ export function buildWorld(E) {
   part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(240, wp, 0, M.BEAD.len)), 480, 0.014, 8, false), { tone: 'hi', pal: 'dark', name: 'Проволока' });
   for (const x of [0, M.BEAD.len]) { const p = wp(x); part(root, cyl(0.025, p.y, 12), { tone: 'mid', pal: 'dark', pos: [p.x, p.y / 2, 0], name: 'Опора' }); }
   dashLine(V(xQ0 - 0.3, 0.006, 0.5), V(xQ0 + M.BEAD.span + 0.3, 0.006, 0.5), 30);
-  label('board', small('<i>U</i> = 0 at the floor', 15), () => V(xQ0 + M.BEAD.span + 0.35, 0.006, 0.5));
+  label('board', small('<i>U</i> = 0 на уровне пола', 15), () => V(xQ0 + M.BEAD.span + 0.35, 0.006, 0.5));
   for (const [x, txt, dy, dx] of [[M.BEAD.stable, 'stable', -0.22, -0.2], [M.BEAD.unstable, 'unstable', 0.22, -0.35], [M.BEAD.neutral, 'neutral', 0.22, -0.3]]) {
     const p = wp(x); part(root, new THREE.SphereGeometry(0.03, 12, 8), { tone: 'hi', pal: 'ink', pos: p.toArray(), name: 'Равновесие' });
     label('board', small(txt, 15), () => p.clone().add(V(dx, dy, 0)));
@@ -229,8 +229,8 @@ export function buildWorld(E) {
   const tangentQ = liveDash(gQ, 18, '#b8343a');
   label('vec', 'F<sub>g</sub>', () => tip(fgQ));
   label('vec', small('<i>F</i> = −d<i>U</i>/d<i>x</i>', 18), () => { if (!alQ.visible) return null; const t = tanQ(beadState.x); return wp(beadState.x).addScaledVector(t, beadState.F * SC.bead.F / 2).add(V(-t.y, t.x, 0).multiplyScalar(0.24)); });
-  label('vec grey', small('across', 15), () => acQ.visible ? tip(acQ).add(V(0, -0.1, 0)) : null);
-  label('board', small('tangent: slope of <i>U</i>', 15), () => opened(gQ) > 0.3 ? wp(beadState.x).add(tanQ(beadState.x).multiplyScalar(0.75)).add(V(0.05, 0.08, 0)) : null);
+  label('vec grey', small('поперечная составляющая', 15), () => acQ.visible ? tip(acQ).add(V(0, -0.1, 0)) : null);
+  label('board', small('касательная: наклон графика <i>U</i>', 15), () => opened(gQ) > 0.3 ? wp(beadState.x).add(tanQ(beadState.x).multiplyScalar(0.75)).add(V(0.05, 0.08, 0)) : null);
   let beadState = M.bead(0);
 
   // ---------- 7c · energy curves and equilibrium: two atoms held by a bond ----------
