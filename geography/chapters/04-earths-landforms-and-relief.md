@@ -684,9 +684,9 @@ Earth's relief includes both the highest mountain peaks and the deepest ocean tr
 - **The Dead Sea** is one of the lowest land areas not covered by the sea; its water level changes over time.
 - **The Tibetan Plateau** is the largest and one of the highest extensive elevated regions on the planet.
 
-Elevation above sea level, depth below the ocean surface and depth relative to the geoid are different measurements.
+Elevation above sea level, depth below the ocean surface and depth relative to the geoid are different measurements. Extreme values should be accompanied by a date and measurement source.
 
-**[ILLUSTRATION PLACEHOLDER 4.13-A]** Show an elevation/depth scale with Everest and Challenger Deep; identify vertical datums, measurement dates and sources. Extreme values should be accompanied by a date and measurement source.
+**[ILLUSTRATION PLACEHOLDER 4.13-A]** Show an elevation/depth scale with Everest and Challenger Deep; identify vertical datums, measurement dates and sources.
 
 ### 4.14. Mapping and Measuring Relief
 
