@@ -575,3 +575,11 @@
 - **Recruitment-preparation progress: 75%.** This is a stage-specific preparation measure, not 75% completion of external review. No invitation has been sent, no reviewer has accepted, and no G4/G5 sign-off exists.
 - Controlled editorial readiness remains **95/100**. G4 and G5 remain open. The 52 visual assets remain deferred; browser/mobile/accessibility release checks remain separate.
 - The recruitment plan was saved on `workspace/biology`; read-after-write verification and branch-head confirmation are required before this checkpoint is considered complete.
+
+
+### Additional recruitment research after the 75% milestone — 1 November 2026
+
+- Identified a regional herpetology lead: Татьяна Дуйсебаева, Institute of Zoology, Kazakhstan, whose institutional profile and 2023–2024 publications document amphibian/reptile research including a southern Kyrgyzstan *Bufotes* record. Her own co-authored records must be excluded from independent adjudication.
+- Identified exploratory language-editor leads: Ольга Шубина (KRSU English philology) and Айнура Абдыкасымова (BSU general/Russian linguistics). Their editing portfolios and availability have not been checked.
+- The independent argali population-genomics reviewer and general scientific coordinator remain unfilled. Do not substitute general genetics for mammalian conservation genomics.
+- Recruitment preparation remains at the last completed milestone, **75%**; this research update does not justify a percentage increase. No invitations sent, no acceptances, no G4/G5 sign-off.
