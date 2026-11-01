@@ -27,7 +27,7 @@ const samples = (n, a, b, fn) => Array.from({ length: n + 1 }, (_, i) => { const
 
 // live energy bars on the left page (the pendulum): heights set in main.js
 export const BARS = { x: 70, w: 64, gap: 46, base: 150, top: 20 };
-const barChart = (key, items, Emax) => `<svg class="chart" viewBox="0 0 ${W} ${H + 10}" role="img" aria-label="Столбчатая диаграмма энергии с обновляемыми значениями">
+const barChart = (key, items, Emax) => `<svg class="chart" viewBox="0 0 ${W} ${H + 10}" role="img" aria-label="Доли кинетической, гравитационной потенциальной и полной механической энергии маятника; полная энергия сохраняется и равна ${f(M.PEND.E)} Дж">
   <line class="zero" x1="${BARS.x - 20}" x2="${BARS.x + items.length * (BARS.w + BARS.gap)}" y1="${BARS.base}" y2="${BARS.base}"/>
   <line class="grid" x1="${BARS.x - 20}" x2="${BARS.x + items.length * (BARS.w + BARS.gap)}" y1="${BARS.top}" y2="${BARS.top}"/>
   <text class="ax" x="${BARS.x - 26}" y="${BARS.top + 4}" text-anchor="end">${f(Emax)} Дж</text><text class="ax" x="${BARS.x - 26}" y="${BARS.base + 4}" text-anchor="end">0</text>
