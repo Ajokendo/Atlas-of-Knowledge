@@ -673,3 +673,15 @@ This checkpoint preserves the working context for continuation after a session i
 - Re-fetched both chapter files and verified the updated notes.
 - Chapter 1 commit: `a5446ddf354c5f700f4a604e11c29902be90f84e`; verified blob: `179f5c80070a1b25d50930cec87389e2eda5d45d`.
 - Chapter 2 commit: `5d33445111570e91b3e1a6e1ab4d5b3b94a2250f`; verified blob: `cf3487702c0e267b5f1c33cc06914b60187570db`.
+
+
+## Geography branch consolidation audit — 1 November 2026
+
+- Audited all 12 repository branches. `workspace/geography` is the only dedicated Geography development branch. `portal-foundation` is a legacy mixed-discipline source branch containing the original Geography chapters 02–26 plus Chemistry/portal work; it is now designated read-only archive/reference, not a second active Geography workspace. `atlas-of-knowledge-integration` is the umbrella platform branch, not a Geography workspace.
+- Compared `workspace/geography` with `portal-foundation`: the legacy branch is 80 commits ahead and 715 behind. Its 80 unique commits include 25 unique Geography chapter-introduction commits (02–26) and 55 unrelated Chemistry/portal commits. All 25 source commit SHAs are recorded in `geography/BRANCH_AUDIT_2026-11-01.md`.
+- Compared all 25 legacy chapter files with the canonical branch. All 25 file blobs differ; the current branch contains expanded/revised versions. A line-level review identified 55 nonblank legacy lines not reproduced verbatim. The only clear practical-work gap was the Chapter 06 catchment/tributary mapping and land-use impact task; it has now been added in both Russian and English. Other unmatched material was already represented in updated form, superseded by more precise current data, or obsolete (including the former Jalal-Abad name and an outdated Chapter 02 language note).
+- Chapter 06 bilingual practical-work update verified: commit `978befef9149cbd2178b331244c3734d96be03d0`; blob `a7e006f9ee0fa86cb7233fc9e5e9e8050537f1c7`.
+- Updated `geography/README.md` to make `workspace/geography` the sole active Geography branch and designate `portal-foundation` as read-only historical source: commit `f9ac0d82c863b55b8d77378cb4642cacb6db974d`; verified blob `ba6edfb694018c81a93ceee3c2838292fcd7d342`.
+- The two commits unique to `atlas-of-knowledge-integration` relative to the Geography branch concern the shared editorial standard/project registry, not Geography chapter content. Draft PR #6 remains an umbrella integration item; it was not merged into the Geography branch.
+- No old source branch was deleted. The shared project registry requires retaining old source branches as source and backup checkpoints. The legacy commits remain reachable through `portal-foundation`; they were not cherry-picked because their content is already carried forward and revised, and the branch also contains unrelated Chemistry/portal history.
+- Full inventory, comparisons, the 25 unique Geography commit SHAs, content review and consolidation decision are documented in `geography/BRANCH_AUDIT_2026-11-01.md`.
