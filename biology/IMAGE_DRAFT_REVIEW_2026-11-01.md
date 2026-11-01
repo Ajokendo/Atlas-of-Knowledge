@@ -144,3 +144,10 @@ This is a local-only draft, not committed as a raster asset, not inserted and no
 Three subsequent generation attempts (ImageGen IDs `d47d7fc1-7ce9-4108-a5b2-76fc715cd928`, `436caa24-f489-4939-8cd8-8e715000758c` and `1977d97b-d046-4eb6-b057-e6d9c2aff276`) returned substantially the same perched bearded-vulture composition despite attempts to move to a different bird subject. They are rejected as near-duplicates and are not counted as new candidates. No new filenames or image markers are assigned. The intended next subject remains Himalayan snowcock (`Tetraogallus himalayensis`), but the current generation sequence has not produced a usable distinct draft. Do not infer completion of the P1 bird plate from these repeated outputs.
 
 No raster asset was committed or inserted. All 52 image markers and Deferred dispositions remain unchanged.
+
+
+## Illustration queue quality-control: gamebird attempts
+
+The latest bird-image attempt (ImageGen ID `491ee4cc-8a17-40c8-8b05-85c6c121b76a`) produced a pheasant-like, monal-like bird rather than a defensible Himalayan snowcock depiction. A subsequent attempt (ID `4dc45b18-d05d-42f7-b441-f61db204b748`) produced a chukar-like partridge form, substantially overlapping the existing partridge-like concept crop. Neither is accepted as a Himalayan snowcock candidate; both are excluded from the new-asset count. Species identification cannot be inferred from prompt intent. No filenames, insertion anchors or dispositions are assigned.
+
+The snowcock illustration remains unfulfilled. All 52 image markers remain Deferred; no raster asset was committed or inserted.
