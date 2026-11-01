@@ -51,10 +51,10 @@ export function buildWorld(E) {
   const block = (parent, s, name = 'Block') => part(parent, box(s, s, s, 0.03), { tone: 'hi', name });
   const ball = (parent, r, name = 'Ball') => part(parent, new THREE.SphereGeometry(r, 40, 24), { tone: 'hi', name });
   const force = (parent, red = false) => arrow(parent, red ? 'red' : 'ink', { r: 0.022, head: 0.12, headR: 0.06, name: 'Силы' });
-  const thinArrow = (parent, name = 'Components') => arrow(parent, 'dark', { r: 0.016, head: 0.1, headR: 0.05, name, tone: 'mid' });
+  const thinArrow = (parent, name = 'Составляющие силы') => arrow(parent, 'dark', { r: 0.016, head: 0.1, headR: 0.05, name, tone: 'mid' });
   const tip = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + 0.16, 0)) : null;
   const ghostBox = s => { const l = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(s, s, s)), new THREE.LineBasicMaterial({ color: '#bdbdc2' })); l.userData = { noEdge: true }; root.add(l); return l; };
-  const rod = (parent, r = 0.008, pal = 'ink', name = 'String') => part(parent, new THREE.CylinderGeometry(r, r, 1, 8), { tone: 'hi', pal, name });
+  const rod = (parent, r = 0.008, pal = 'ink', name = 'Верёвка') => part(parent, new THREE.CylinderGeometry(r, r, 1, 8), { tone: 'hi', pal, name });
   const stretch = (m, a, b) => { m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(1, Math.max(a.distanceTo(b), 1e-4), 1); m.quaternion.setFromUnitVectors(V(0, 1, 0), b.clone().sub(a).normalize()); };
   const dashed = (pts, color = '#9a9aa0') => { const c = []; for (let i = 0; i + 1 < pts.length; i += 2) c.push(...pts[i].toArray(), ...pts[i + 1].toArray()); return lines(root, c, color); };
   const dashLine = (a, b, n = 24) => { const p = []; for (let i = 0; i < n; i++) { p.push(a.clone().lerp(b, i / n), a.clone().lerp(b, (i + 0.5) / n)); } return dashed(p); };
@@ -97,9 +97,9 @@ export function buildWorld(E) {
   const XA = STATIONS.pull, SA = 0.6, xA0 = XA - 1.2;
   smooth(XA - 2.0, XA + 2.8);
   const gA = asm('pull', root, { title: 'Ящик тянут верёвкой', sub: 'работу совершает только составляющая F вдоль Δx' });
-  const bA = block(gA, SA, '4.0 kg box');
+  const bA = block(gA, SA, 'ящик массой 4,0 кг');
   const ropeA = rod(gA, 0.012, 'ink', 'Rope');
-  const FA = force(gA), fgA = force(gA), fnA = force(gA), fxA = thinArrow(gA), fyA = thinArrow(gA), dxA = thinArrow(gA, 'Displacement');
+  const FA = force(gA), fgA = force(gA), fnA = force(gA), fxA = thinArrow(gA), fyA = thinArrow(gA), dxA = thinArrow(gA, 'Перемещение');
   const ghostA = ghostBox(SA); ghostA.position.set(xA0, 0.02 + SA / 2, 0);
   label('vec', 'F', () => tip(FA)?.add(V(-0.12, 0.16, 0))); label('vec', 'F<sub>g</sub>', () => tip(fgA)); label('vec', 'F<sub>N</sub>', () => tip(fnA));
   label('vec', small('F cos θ', 19), () => fxA.visible ? tip(fxA).add(V(0.25, -0.12, 0)) : null); label('vec', small('F sin θ', 19), () => fyA.visible ? tip(fyA).add(V(0.4, 0.02, 0)) : null);
@@ -109,7 +109,7 @@ export function buildWorld(E) {
   const XB = STATIONS.toss, RB = 0.15;
   const gB = asm('toss', root, { title: 'Мяч брошен вверх', sub: 'сила тяжести отнимает и возвращает энергию' });
   const bB = ball(gB, RB, '0.50 kg ball');
-  const vB = force(gB), fgB = force(gB), dyB = thinArrow(gB, 'Displacement');
+  const vB = force(gB), fgB = force(gB), dyB = thinArrow(gB, 'Перемещение');
   label('vec', '<b>v</b>', () => tip(vB)); label('vec', 'F<sub>g</sub>', () => tip(fgB)); label('vec', 'Δ<i>y</i>', () => tip(dyB));
   { const ring = []; for (let i = 0; i < 48; i++) { const a = i / 48 * Math.PI * 2, b = (i + 1) / 48 * Math.PI * 2; ring.push(XB + Math.cos(a) * 0.24, 0.003, Math.sin(a) * 0.24, XB + Math.cos(b) * 0.24, 0.003, Math.sin(b) * 0.24); } lines(root, ring, '#6e6e74'); }
   const barsB = bars(gB, XB + 1.5, 0, 1.45, [['dark', 'K<sub>0</sub>'], ['ink', 'W<sub>g</sub>'], ['blue', 'K']], SC.toss.E, 1.45 - M.toss(0).K * SC.toss.E - 0.2);
@@ -142,7 +142,7 @@ export function buildWorld(E) {
     part(carD, zAxis(new THREE.CylinderGeometry(0.36, 0.36, 0.26, 28)), { tone: 'mid', pal: 'dark', pos: [x, 0.36, z], name: 'Колёса' });
     part(carD, zAxis(new THREE.CylinderGeometry(0.17, 0.17, 0.28, 20)), { tone: 'mid', pos: [x, 0.36, z], name: 'Колёса' });
   }
-  const fD = force(gD), wD = force(gD), nD = force(gD), netD = force(gD, true), dxD = thinArrow(gD, 'Displacement');
+  const fD = force(gD), wD = force(gD), nD = force(gD), netD = force(gD, true), dxD = thinArrow(gD, 'Перемещение');
   label('vec', 'F', () => tip(fD)); label('vec', 'F<sub>g</sub>', () => tip(wD)); label('vec', 'F<sub>N</sub>', () => tip(nD)); label('vec red', 'ΣF', () => tip(netD)); label('vec', 'Δ<i>x</i>', () => tip(dxD));
   const barsD = bars(gD, XD + 10.6, -1.2, 0.02, [['ink', 'W<sub>net</sub>'], ['blue', 'K']], SC.car.E);
 
@@ -302,7 +302,7 @@ export function buildWorld(E) {
   rough(XH - 1.6, XH + 1.3);
   const gH = asm('slide', root, { title: 'Скользящий блок', sub: 'трение превращает K в тепло' });
   const bH = block(gH, SH, '2.0 kg block');
-  const fH = force(gH), fgH = force(gH), fnH = force(gH), netH = force(gH, true), dxH = thinArrow(gH, 'Displacement');
+  const fH = force(gH), fgH = force(gH), fnH = force(gH), netH = force(gH, true), dxH = thinArrow(gH, 'Перемещение');
   label('vec', 'f', () => tip(fH)); label('vec', 'F<sub>g</sub>', () => tip(fgH)); label('vec', 'F<sub>N</sub>', () => tip(fnH)); label('vec red', 'ΣF', () => tip(netH)); label('vec', 'Δ<i>x</i>', () => tip(dxH));
   const ghostH = ghostBox(SH); ghostH.position.set(xH0, 0.02 + SH / 2, 0);
   const barsH = bars(gH, XH + 1.75, 0, 0.02, [['blue', 'K'], ['dark', 'E<sub>th</sub>'], ['paper', 'E']], SC.slide.E);
@@ -313,7 +313,7 @@ export function buildWorld(E) {
   const gI = asm('lift', root, { title: 'Подъём ящика', sub: 'одинаковая работа, разная мощность' });
   const crates = xs.map(x => block(gI, SI, '10 kg crate'));
   const ropesI = xs.map(() => rod(gI, 0.012, 'ink', 'Rope'));
-  const tI = xs.map(() => force(gI)), wI = xs.map(() => force(gI)), dyI = xs.map(() => thinArrow(gI, 'Displacement'));
+  const tI = xs.map(() => force(gI)), wI = xs.map(() => force(gI)), dyI = xs.map(() => thinArrow(gI, 'Перемещение'));
   tI.forEach(a => label('vec', 'T', () => tip(a))); wI.forEach(a => label('vec', 'F<sub>g</sub>', () => tip(a)));
   dyI.forEach(a => label('vec', small('Δ<i>y</i>', 18), () => tip(a)));
   label('tick', small(`fast · ${M.LIFT.vFast.toFixed(1)} m/s`, 13), () => V(xs[0] + 0.45, -0.02, 0.5));
