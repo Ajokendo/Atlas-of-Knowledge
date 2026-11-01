@@ -121,6 +121,12 @@ for (const file of htmlFiles) {
   if (!/<title>\s*[^<]+<\/title>/i.test(source)) errors.push(relativeFile + ": missing or empty document title");
   if (!/<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(source)) errors.push(relativeFile + ": missing primary page heading");
 
+  for (const match of source.matchAll(/<img\\b([^>]*)>/gi)) {
+    if (!/\\balt\\s*=\\s*(?:[\"'][^\"']*[\"']|[^\\s>]+)/i.test(match[1])) {
+      errors.push(relativeFile + ": image missing alt attribute");
+    }
+  }
+
   const idValues = [...source.matchAll(/\bid=["']([^"']+)["']/gi)].map(m => m[1]);
   const ids = new Set(idValues);
   if (ids.size !== idValues.length) errors.push(relativeFile + ": duplicate id attributes found");
