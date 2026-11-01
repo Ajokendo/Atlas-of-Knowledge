@@ -988,3 +988,11 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - The original generated sheet labeled the tulip `Tulipa greigii`; that label was removed. The chapter lists other Batken tulip taxa, so the tulip morphology remains unverified and must not be identified or published without botanical review. Aygul nomenclature must follow the chapter's `Petilium eduardii` usage.
 - Detailed cautions and the decision to keep the marker deferred are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
 - No page markers or disposition statuses changed. Controlled readiness remains 95/100; G4/G5 remain open.
+
+
+## Second illustration production attempt — 1 November 2026
+
+- Generated a six-panel mountain biodiversity concept sheet (ImageGen generation ID `decb1eeb-b86a-4b4c-abc7-9d6e5efcdd66`) and extracted three local square WebP review crops: snow-leopard-like cat (500×500), golden-eagle-like raptor (496×500), and an unidentified horned mountain ram (498×500).
+- These are generated concepts, not field photographs or verified Kyrgyzstan locality records. The ram is deliberately left taxonomically unresolved; no argali/subspecies or regional claim is approved. All three require expert visual review.
+- The local files are not in GitHub and are not integrated into chapters. Full source and caution notes are in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+- All 52 image anchors and Deferred dispositions remain unchanged. Controlled readiness remains 95/100; G4/G5 remain open.
