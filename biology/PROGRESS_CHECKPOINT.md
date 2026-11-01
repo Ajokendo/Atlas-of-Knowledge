@@ -30,7 +30,7 @@
 - The regression assertions are committed. The full Node suite, Chromium smoke suite and CI have **not** yet been rerun against these latest commits.
 - No branch merge, deletion, or change outside `biology/` was made.
 
-**Next milestone:** raise the controlled score only when evidence closes the outstanding gates; do not increase the percentage merely because additional content or commits were added.
+**Next milestone:** continue the remaining accessibility work (keyboard interaction coverage, screen-reader review and physical-device checks), then address the 52 deferred visual assets and shared-portal feedback integration. Keep feedback intake disabled until the portal and security checks are complete. Do not increase the 95/100 score merely because commits were added.
 
 ## Subsequent genetics extension
 
@@ -823,3 +823,8 @@
 - G5's structural parity audit reports 1,147 Russian and 1,147 English blocks, with matching numeric-token multisets and scientific-name sets in its measured scope. This is not a claim that every sentence has been independently professionally translated.
 - Optional independent-review documents are retained as reference material only; no reviewer recruitment or external sign-off is required for project completion.
 - Controlled editorial readiness remains 95/100. Remaining work is tracked separately: 52 deferred visual assets, further accessibility/keyboard/screen-reader/device checks, and shared-portal feedback integration with secure intake disabled until approved.
+
+
+## 2026-11-02 — supersession note
+
+Older checkpoint entries below this note contain historical planning language that treated G4/G5 external review as mandatory. They are retained as an audit trail only and are superseded by the current Gate status at the top of this file and the 2026-11-02 G4/G5 closure record. Current model: G4 and G5 are internal audits and are closed; optional external consultation is not a required gate.
