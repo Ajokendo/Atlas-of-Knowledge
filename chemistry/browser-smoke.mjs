@@ -870,6 +870,11 @@ try {
       if (!(await page.locator("#detail").innerText()).includes("наиболее долгоживущего известного изотопа")) {
         errors.push(file + ": bracketed isotope mass-number explanation is missing");
       }
+      await page.locator('#act button[data-id="92"]').click();
+      if (await page.locator('#act button[data-id="92"]').getAttribute("aria-pressed") !== "true" ||
+          await page.locator('#lanth button[data-id="58"]').getAttribute("aria-pressed") !== "false") {
+        errors.push(file + ": selecting a lanthanide or actinide must expose the selected state consistently");
+      }
     }
 
     if (file === "molecule-lab.html") {
