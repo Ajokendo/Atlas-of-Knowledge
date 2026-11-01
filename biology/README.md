@@ -810,3 +810,16 @@ A fresh read-only audit was performed against the current `workspace/biology` tr
 - This is a source-based nomenclatural cross-check, not specimen identification or independent ichthyologist sign-off. The Suusamyr paper's `Triplophysa stoliczkai` determination and its abstract/body fish-total discrepancy remain open for specialist clarification.
 - Sources: [Eschmeyer's Catalog — `Diptychus gymnogaster`](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=31906); [IUCN — `Diptychus maculatus`](https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T128719071A128719148.en).
 - G4 remains open; no change to the controlled **95/100** readiness score.
+
+
+## Post-synonym source verification — 1 November 2026
+
+After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HTML pages were re-read from GitHub:
+
+- Russian and English marker counts remain balanced on all 13 pages.
+- No duplicate HTML IDs; all 165 Biology-page buttons have explicit `type="button"`; all 16 inline SVGs have accessible names.
+- All 52 image-map rows and all 52 in-page placeholders remain unique and in one-to-one correspondence.
+- The new Kempir-Abad, Suusamyr, `Triplophysa` uncertainty and `Diptychus gymnogaster` synonym assertions are present in `checks.mjs`; the corresponding chapter, audit and image-review wording is present.
+- No Biology-page external link opening a new tab was found without `rel="noopener"`.
+- This remains a read-only source check. It is not execution of the full Node test suite, Playwright, CI or independent expert review. G1–G6 remain open as applicable; readiness remains **95/100**.
+- Branch checkpoint before this documentation entry: `e7104273b6ae7ab4f09bd2637511fcce85bb2143`.
