@@ -582,6 +582,18 @@ try {
           !(await page.locator("#feedback").innerText()).includes("числовой диапазон")) {
         errors.push(file + ": numeric overflow was displayed as a valid molar concentration");
       }
+      await page.locator("#n").fill("1e-300");
+      await page.locator("#v").fill("1e300");
+      if ((await page.locator("#result").innerText()).trim() !== "c = —" ||
+          !(await page.locator("#feedback").innerText()).includes("слишком мал")) {
+        errors.push(file + ": positive concentration underflow was displayed as zero");
+      }
+      await page.locator("#n").fill("1");
+      await page.locator("#v").fill("1e-7");
+      if ((await page.locator("#result").innerText()).trim() === "c = —" ||
+          !(await page.locator("#feedback").innerText()).includes("Расчёт выполнен")) {
+        errors.push(file + ": a positive sub-microlitre-scale solution volume was incorrectly rejected");
+      }
       await page.locator("#v").fill("2");
     }
 
