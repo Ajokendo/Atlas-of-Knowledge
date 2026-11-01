@@ -190,7 +190,7 @@
 
 ### 3.5.1. Движение плит / Plate Motion
 
-Литосферные плиты движутся с разными скоростями — обычно от нескольких миллиметров до нескольких сантиметров в год; скорость зависит от конкретной плиты и участка её границы. Движение связано с тепловой эволюцией Земли и динамикой мантии; важную роль играют тяга погружающейся плиты и силы, действующие в области срединно-океанических хребтов.
+Литосферные плиты движутся с разными скоростями: от менее 1 см/год до более 15 см/год в отдельных районах; многие участки движутся на несколько сантиметров в год. Скорость зависит от конкретной плиты, направления движения и геологического периода. Движение связано с тепловой эволюцией Земли и динамикой мантии; важную роль играют тяга погружающейся плиты и силы, действующие в области срединно-океанических хребтов.
 
 ### 3.5.2. Типы границ плит / Types of Plate Boundaries
 
@@ -320,7 +320,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 - Щитовые вулканы формируются преимущественно текучими лавами.
 - Стратовулканы состоят из чередующихся лавовых и пирокластических отложений.
 - Шлаковые конусы обычно меньше и состоят главным образом из рыхлых пирокластических материалов.
-- Кальдеры возникают при обрушении крупных вулканических структур после опустошения магматической системы.
+- Кальдеры возникают, когда крупная вулканическая структура обрушивается после значительного выхода или перемещения магмы из неглубокого резервуара. Это не означает, что вся магматическая система обязательно полностью опустошена.
 
 Извержения бывают эффузивными и взрывными; реальный характер может сочетать оба типа.
 
@@ -379,7 +379,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 **Место для иллюстрации 3.9-A — Geological Time Scale.** Вертикальная временная шкала от формирования Земли до современности; неравномерный масштаб должен быть явно обозначен.
 
-### Разобранный пример: определение относительного возраста слоёв и интрузии / Worked Example: Establishing the Relative Ages of Layers and an Intrusion
+### 3.9.4. Разобранный пример: определение относительного возраста слоёв и интрузии / Worked Example: Establishing the Relative Ages of Layers and an Intrusion
 
 Представим геологический разрез из трёх осадочных слоёв: A находится внизу, B залегает над ним, C — сверху. Магматическое тело D пересекает слои A и B, но не пересекает слой C.
 
@@ -632,7 +632,7 @@ Geophysical methods—including seismic surveys, gravity, magnetic and electrica
 
 Plate tectonics explains the movement of large lithospheric fragments and many patterns in the distribution of earthquakes, volcanoes, mountain belts and ocean-floor structures.
 
-Lithospheric plates move at different rates, generally from a few millimetres to several centimetres per year; the rate depends on the particular plate and boundary segment. Their motion is linked to Earth's thermal evolution and mantle dynamics. Slab pull and forces associated with mid-ocean ridges are important drivers.
+Lithospheric plates move at different rates, from less than 1 cm per year to more than 15 cm per year in some regions; many plate segments move by a few centimetres per year. The rate depends on the plate, direction of motion and timescale considered. Their motion is linked to Earth's thermal evolution and mantle dynamics. Slab pull and forces associated with mid-ocean ridges are important drivers.
 
 Three main types of plate boundary are recognised:
 
@@ -696,7 +696,7 @@ Volcanism includes the processes by which magma rises, gases are released and mo
 
 **Magma** is molten or partly molten material, with crystals and dissolved volatile components, beneath the surface. **Lava** is magma that has reached the surface and has usually lost some of its gases.
 
-Volcano shape depends on magma viscosity and composition, eruption volume and eruption style. Shield volcanoes are built mainly by fluid lava; stratovolcanoes consist of alternating lava and pyroclastic deposits; cinder cones are generally smaller and made largely of loose pyroclastic material; and calderas form when large volcanic structures collapse after a magma system is partly emptied. Eruptions may be effusive or explosive, and some combine both styles.
+Volcano shape depends on magma viscosity and composition, eruption volume and eruption style. Shield volcanoes are built mainly by fluid lava; stratovolcanoes consist of alternating lava and pyroclastic deposits; cinder cones are generally smaller and made largely of loose pyroclastic material; and calderas form when a large volcanic structure collapses after substantial magma withdrawal or eruption from a shallow reservoir. This does not mean that the entire magmatic system must be completely emptied. Eruptions may be effusive or explosive, and some combine both styles.
 
 Volcanic hazards include lava flows, ash fall, pyroclastic flows, volcanic gases, lahars and landslides on volcanic slopes. Pyroclastic flows are especially dangerous because of their high temperature and speed.
 
@@ -822,9 +822,14 @@ On a schematic geological cross-section, identify:
 2. USGS. *How Fast Do Tectonic Plates Move?* https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move
 3. USGS. *Understanding Plate Motions* (This Dynamic Earth). https://pubs.usgs.gov/gip/dynamic/understanding.html
 4. National Park Service. *Minerals* (mineral properties and Mohs hardness). https://www.nps.gov/subjects/geology/minerals.htm
-5. Incorporated Research Institutions for Seismology (IRIS). *Locating an Earthquake with Seismic Data*. https://www.iris.edu/hq/inclass/lesson/locating_an_earthquake_with_recent_seismic_data
+5. NSF SAGE, EarthScope Consortium (formerly IRIS educational resource). *Locating an Earthquake with Seismic Data*. https://www.iris.edu/hq/inclass/lesson/locating_an_earthquake_with_recent_seismic_data
 6. International Union of Geological Sciences (IUGS), International Commission on Stratigraphy (ICS). *International Chronostratigraphic Chart*, current edition 2026/06. https://stratigraphy.org/chart
 7. British Geological Survey. *Geological Processes*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
+8. U.S. Geological Survey (USGS). *Earthquake Magnitude, Energy Release, and Shaking Intensity*. https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity
+9. USGS Volcano Hazards Program. *Volcano Hazards Program Glossary* (calderas, shield volcanoes, stratovolcanoes, pyroclastic flows and volcanic hazards). https://www.usgs.gov/glossary/volcano-hazards-program-glossary
+10. USGS. *What Is a Landslide and What Causes One?* https://www.usgs.gov/faqs/what-a-landslide-and-what-causes-one/
+11. USGS. *Assessments of Mineral Resources* (definition of mineral resources and assessment scope). https://www.usgs.gov/science/science-explorer/minerals/Assessments-of-Mineral-Resources
+12. British Geological Survey. *Rocks and Minerals* (rock groups and rock cycle). https://www.bgs.ac.uk/discovering-geology/rocks-and-minerals/
 
 При подготовке окончательной версии следует сверять геологические термины и численные параметры с актуальной международной стратиграфической шкалой и региональными геологическими картами.
 
