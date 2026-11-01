@@ -333,6 +333,34 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/amount-of-substance.html") {
+      const illustration = page.locator('img[data-svg-ru="../assets/one-mole-scale-ru.svg"]');
+      if (await illustration.getAttribute("src") !== "../assets/one-mole-scale-ru.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("Один моль")) {
+        errors.push(file + ": Russian one-mole illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+      if (await illustration.getAttribute("src") !== "../assets/one-mole-scale.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("One mole")) {
+        errors.push(file + ": English one-mole illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+    }
+
+    if (file === "chapters/chemical-elements.html") {
+      const illustration = page.locator('img[data-svg-ru="../assets/isotope-abundance-ru.svg"]');
+      if (await illustration.getAttribute("src") !== "../assets/isotope-abundance-ru.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("Изотопы углерода")) {
+        errors.push(file + ": Russian isotope illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+      if (await illustration.getAttribute("src") !== "../assets/isotope-abundance.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("Carbon isotopes")) {
+        errors.push(file + ": English isotope illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+    }
+
     if (file === "chapters/acids-and-bases.html") {
       const illustration = page.locator('img[data-svg-ru="../assets/acid-base-neutralisation-ru.svg"]');
       if (await illustration.getAttribute("src") !== "../assets/acid-base-neutralisation-ru.svg" ||
