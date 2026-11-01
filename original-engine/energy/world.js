@@ -114,8 +114,8 @@ export function buildWorld(E) {
   { const ring = []; for (let i = 0; i < 48; i++) { const a = i / 48 * Math.PI * 2, b = (i + 1) / 48 * Math.PI * 2; ring.push(XB + Math.cos(a) * 0.24, 0.003, Math.sin(a) * 0.24, XB + Math.cos(b) * 0.24, 0.003, Math.sin(b) * 0.24); } lines(root, ring, '#6e6e74'); }
   const barsB = bars(gB, XB + 1.5, 0, 1.45, [['dark', 'K<sub>0</sub>'], ['ink', 'W<sub>g</sub>'], ['blue', 'K']], SC.toss.E, 1.45 - M.toss(0).K * SC.toss.E - 0.2);
   let tossState = M.toss(0);
-  label('board', small('gravity: <b>negative</b> work', 16), () => tossState.v > 0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
-  label('board', small('gravity: <b>positive</b> work', 16), () => tossState.v < -0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
+  label('board', small('сила тяжести: <b>отрицательная</b> работа', 16), () => tossState.v > 0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
+  label('board', small('сила тяжести: <b>положительная</b> работа', 16), () => tossState.v < -0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
 
   // ---------- 3 · no work: a ball whirled on a string over a smooth table ----------
   const XC = STATIONS.whirl, RC = 0.15, R0 = M.WHIRL.r;
@@ -160,7 +160,7 @@ export function buildWorld(E) {
   label('board', small('<i>U</i><sub>g</sub> = 0', 16), () => V(XE + 2.15, 0.006, 0.4));
   const ref2 = new THREE.Group(); root.add(ref2);
   { const p = []; const a = V(XE - 1.2, M.DROP.ref2, 0), b = V(XE + 0.6, M.DROP.ref2, 0); for (let i = 0; i < 18; i++) p.push(...a.clone().lerp(b, i / 18).toArray(), ...a.clone().lerp(b, (i + 0.5) / 18).toArray()); lines(ref2, p, '#2c2c30'); }
-  label('board', small('or <i>U</i><sub>g</sub> = 0 here', 16), () => ref2.visible ? V(XE - 0.5, M.DROP.ref2 + 0.13, 0) : null);
+  label('board', small('здесь также <i>U</i><sub>g</sub> = 0', 16), () => ref2.visible ? V(XE - 0.5, M.DROP.ref2 + 0.13, 0) : null);
   const barsE = bars(gE, XE + 1.0, 0, 0.02, [['amber', 'U<sub>g</sub>'], ['blue', 'K'], ['paper', 'E']], SC.drop.E);
 
   // ---------- 6 · spring PE: a block slides into a spring ----------
