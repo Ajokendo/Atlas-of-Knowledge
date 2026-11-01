@@ -561,6 +561,46 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 
 Сопоставьте крутизну склона, растительный покров, тип поверхности и признаки стока на учебной карте или снимке. Предложите меры противоэрозионной защиты и укажите, какие полевые данные необходимы для проверки выводов.
 
+### English Summary
+
+1. Soil is an independent natural body formed through interactions among mineral material, organic matter, water, air and organisms.
+2. Soil formation depends on climate, organisms, relief, parent material, time and human activity.
+3. Soil profiles contain genetic horizons whose development depends on formation conditions.
+4. Physical, chemical and biological properties jointly determine soil functions and suitability for different uses.
+5. Soil geography is related to latitudinal zonation, altitudinal belts and local conditions.
+6. Erosion, salinisation, compaction, pollution and loss of organic matter are major forms of land degradation.
+7. A landscape is a spatially organised system of interacting natural and human-modified components.
+8. Landscape ecology analyses patches, corridors and matrix, as well as connectivity and edge effects.
+9. Soil conservation and sustainable landscape management are essential for food security, water regulation and biodiversity.
+
+### English Review Questions
+
+1. How does soil differ from its parent rock?
+2. Which soil-forming factors are identified by the classical model?
+3. What do the O, A, E, B, C and R horizons represent?
+4. How does soil texture affect water properties?
+5. How does salinisation differ from sodification?
+6. What are eluviation and illuviation?
+7. Why does soil geography not exactly reproduce climatic zonation?
+8. Which processes cause water and wind erosion?
+9. Why is desertification not a synonym for a natural desert?
+10. What is a landscape, and why should its analytical scale be stated?
+11. How does a facies differ from an urochishche in the adopted landscape classification?
+12. What do patch, corridor and matrix mean in landscape ecology?
+13. What is the difference between structural and functional connectivity?
+14. Why do satellite indices not replace field soil studies?
+15. Which measures help conserve soil fertility and reduce erosion?
+
+### English Practical Activities
+
+**1. Describing a soil profile.** Use a teaching photograph or a safely accessible exposure to identify visible horizons. Describe colour, thickness, structure, roots and inclusions. Do not assign a formal soil-classification name without sufficient diagnostic evidence.
+
+**2. Comparing soil samples.** Compare sandy, loamy and clayey samples by texture, water infiltration rate and aggregate stability. Use small samples, do not taste soil and observe hygiene after handling.
+
+**3. Analysing a landscape mosaic.** On a satellite image, identify patches, corridors and matrix. Locate possible barriers and edge-effect zones. Explain how image scale influences the analysis.
+
+**4. Assessing erosion risk.** Compare slope steepness, vegetation cover, surface type and signs of runoff on a teaching map or image. Suggest erosion-control measures and identify the field data needed to test the conclusions.
+
 ## Научные редакционные примечания / Scientific editorial notes
 
 - При описании почвенных горизонтов использовать принятую международную систему обозначений, поясняя её отличие от национальных классификаций.
