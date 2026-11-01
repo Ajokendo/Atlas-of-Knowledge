@@ -932,3 +932,11 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Focused regression assertions were added to `checks.mjs` for content, bilingual structure, placement and SVG accessibility.
 - Chapter commit: `d7c3c181dc3c5f486d3cabf78ce2fb0da9c496b9`. Regression-check commit: `bd0009d56bace3c1b20f11012ed5d6e61151d6e6`.
 - Full Node.js, Chromium and CI checks have not yet been run for this latest addition. Controlled editorial readiness remains **95/100** pending G4/G5 independent reviews.
+
+## Cell-cycle regulation and apoptosis — 1 November 2026
+
+- Added a bilingual lesson to `chapters/cell-biology.html` on G1/S, G2/M and spindle-assembly checkpoints; cyclin–CDK regulation; DNA-damage responses; apoptosis and necrosis; and the relationship between disrupted control pathways and tumour development.
+- The text distinguishes general mechanisms from oversimplified one-cause explanations and avoids presenting apoptosis/necrosis as an exhaustive classification of all cell-death processes.
+- Added regression assertions for the mechanisms, distinctions, bilingual blocks and section order.
+- Chapter commit: `f96f28c4386afca6e23437d0aedc14bc49233323`. Test commit: `6d680c4e08ea76372b9232bd2b00c6eb58622707`.
+- Focused read-back and complete Node.js/Chromium/CI execution remain pending. Controlled readiness remains 95/100; independent gates G4 and G5 remain open.
