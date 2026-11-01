@@ -37,6 +37,22 @@ function objectLiteralAt(source, start) {
   return null;
 }
 
+function plainText(markup) {
+  return markup
+    .replace(/<[^>]*>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
+    .replace(/&#x([\da-f]+);/gi, (_, code) => String.fromCodePoint(parseInt(code, 16)))
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+
 for (const file of htmlFiles) {
   const source = fs.readFileSync(file, "utf8");
   const relativeFile = path.relative(root, file);
@@ -68,6 +84,16 @@ for (const file of htmlFiles) {
       for (const key of localizedKeys) {
         if (!(key in dictionary.ru)) errors.push(relativeFile + ": missing Russian translation key " + key);
         if (!(key in dictionary.en)) errors.push(relativeFile + ": missing English translation key " + key);
+      }
+      for (const match of source.matchAll(/<([a-z][\w-]*)\b([^>]*\bdata-i=["']([^"']+)["'][^>]*)>([\s\S]*?)<\/\1>/gi)) {
+        const key = match[3];
+        if (key in dictionary.ru) {
+          const initialText = plainText(match[4]);
+          const russianText = plainText(dictionary.ru[key]);
+          if (initialText !== russianText) {
+            errors.push(relativeFile + ": initial Russian text differs from translation dictionary for " + key);
+          }
+        }
       }
     }
   }
