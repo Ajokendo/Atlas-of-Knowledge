@@ -1273,3 +1273,5 @@ Start with `INDEPENDENT_REVIEW_BUNDLE.md` for the frozen-snapshot instructions a
 - The reusable feedback policy and moderation model are defined in `FEEDBACK_SYSTEM_STANDARD.md`.
 - `FEEDBACK_PORTING_GUIDE.md` contains copy-ready instructions for other subject teams. Biology is the pilot; this work does not modify other subjects or the shared portal.
 - The live intake channel is not enabled: a secure HTTPS endpoint and private moderation queue still need to be selected, configured and tested. No submission is claimed to be operational.
+
+- `FEEDBACK_WIDGET_TEMPLATE.html` provides a reusable bilingual form component; submission remains disabled until a secure endpoint and private moderation queue are configured.
