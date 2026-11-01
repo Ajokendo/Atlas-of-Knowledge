@@ -328,3 +328,14 @@
 - GitHub read-back verified the fauna chapter, regional audit, regression-check source and milestone record.
 - The 52 image anchors and 52 Deferred disposition entries remain unchanged; no image was generated or integrated.
 - Repeat-audit coverage: 70%. Controlled editorial readiness: 95/100. G4 and G5 remain open.
+
+
+## Repeat-audit milestone — 80% — 1 November 2026
+
+- Added Ministry-reported camera-trap detections from Zhetim-Bel ridge and Karakol State Nature Park (2 July 2026), preserving the October 2025–June 2026 deployment timeline and the fact that image analysis was still in progress.
+- Added the UNDP-reported Bishkek Important Bird Area (7 December 2025): more than 200 species year-round, around 40 identified during a 3–4-hour event, and the white-tailed eagle nesting claim explicitly attributed to UNDP rather than presented as independently verified.
+- Kept camera-trap and birding-event observations distinct from abundance estimates; no sensitive nest location is disclosed.
+- Updated the regional species audit, bibliography and regression guards. GitHub read-back verified the changed source files and checkpoint documents.
+- `checks.mjs`, browser tests, mobile checks, accessibility tests and CI were not run; no test pass is claimed.
+- The 52 image anchors and 52 Deferred disposition entries remain unchanged; no image asset was added.
+- Repeat-audit coverage: 80%. Controlled editorial readiness: 95/100. G4 and G5 remain open.
