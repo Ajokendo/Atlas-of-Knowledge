@@ -537,3 +537,12 @@
 - Tracking-register commit: `75206a54bce9555bc97bd3c9944df0c2a6b6ded3`; handoff-link commit: `7ff1a193ad8fba9ec6a045b23946bffe6c05757f`.
 - This completes **75% of reviewer-package preparation**: handoff protocol, page matrix and tracking register are in place. Remaining package work is a final consistency/hand-off validation and a clean reviewer bundle/index.
 - Controlled editorial readiness remains **95/100**; G4/G5 remain open. The 52 illustrations remain deferred; screen-reader, contrast and physical-device certification remain uncompleted.
+
+## Independent review package — final handoff validation (100%)
+
+- Added `INDEPENDENT_REVIEW_BUNDLE.md` as the reviewer-facing bundle index: frozen-commit instructions, exact source and audit file list, all 13 page files, required G4/G5 deliverables and explicit non-certification boundaries.
+- Added the reviewer bundle entry point to `biology/README.md`.
+- Bundle-index commit: `4ac6d0a56fc97c766f1d39632cec6308c49485eb`; README entry-point commit: `c19974e7c16d718586672a5a89150d3f7b3b22fd`.
+- Reviewer package preparation is **100% complete**: handoff protocol, page-by-page assignment matrix, 10-claim tracking register, page/cross-page coverage tracker and bundle index are committed.
+- This is completion of preparation only. No reviewer has yet been recruited or signed off; G4/G5 remain open. The 52 illustrations remain deferred, and screen-reader, contrast and physical-device tests remain outstanding.
+- Controlled editorial readiness remains **95/100**. Do not increase it based on completion of reviewer paperwork.
