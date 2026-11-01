@@ -75,19 +75,23 @@ async function checkLab(lab, mobile) {
       axeSerious += serious.length;
       for (const v of [...critical, ...serious]) {
         console.log(`AXE ${v.impact} ${lab}: ${v.id} — ${v.help} (${v.nodes.length} nodes)`);
+        for (const node of v.nodes) console.log(`AXE NODE ${lab}: ${JSON.stringify({ target: node.target, html: node.html, summary: node.failureSummary })}`);
       }
       if (critical.length) throw new Error(`axe found ${critical.length} critical accessibility violation(s)`);
     }
 
-    const next = page.locator('#sheet button[data-turn]').first();
-    if (await next.count()) {
-      const before = state.title;
+    const before = state.title;
+    if (mobile) {
+      const next = page.locator('#sheet button[data-turn]').first();
+      if (!(await next.count())) throw new Error('Mobile next-page button is missing');
       await next.click();
-      await page.waitForFunction(oldTitle =>
-        document.querySelector('#sheet h1')?.textContent?.trim() !== oldTitle, before, { timeout: 15000 });
     } else {
-      throw new Error('Next-page interaction button is missing');
+      const secondDot = page.locator('#dots button').nth(1);
+      if (!(await secondDot.count())) throw new Error('Desktop page-navigation control is missing');
+      await secondDot.click();
     }
+    await page.waitForFunction(oldTitle =>
+      document.querySelector('#sheet h1')?.textContent?.trim() !== oldTitle, before, { timeout: 15000 });
 
     if (!mobile) {
       await page.locator('#dots button').nth(0).click();
