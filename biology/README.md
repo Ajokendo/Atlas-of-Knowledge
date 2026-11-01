@@ -732,4 +732,18 @@ Until the four unchecked release gates are evidenced, the atlas remains at **95/
 - Added a regression check to `biology/checks.mjs` so the 52-row count, unique target filenames, unique placeholder IDs and map-to-page correspondence are checked during the full test run.
 - Re-read the updated check script from GitHub and confirmed the new regression block is present. The one-to-one audit was performed against the remote source contents; the full Node test program has not yet been executed in a repository checkout.
 - The generated-asset directory is not present in the branch. The 52 image briefs remain placeholders, as required until artwork can be produced, scientifically reviewed and integrated. No image asset is claimed as completed.
-- Saved the test enhancement and its correction in `workspace/biology`; latest checkpoint commit: `d53880c6c13cc42ba5d11baa0df80768fc445255`. Overall editorial readiness remains **95/100** pending execution of tests/CI, live browser/device QA, and independent specialist review.
+- Saved the test enhancement and its correction in `workspace/biology`; the illustration-integrity checkpoint was recorded in commit `38cceb5bdd8dfda5b8c206618fdef040c1d386c1`. The full Node test program has not yet been executed in a repository checkout. Overall editorial readiness remains **95/100** pending execution of tests/CI, live browser/device QA, and independent specialist review.
+
+
+## Final 100% closure plan — control markers
+
+The remaining five percentage points are reserved for evidence, not additional prose. Do not mark the atlas 100% until every gate below is closed and its evidence is recorded in this README and the relevant QA/audit files.
+
+- [ ] **G1 — Static validation:** run `node biology/checks.mjs` from a clean checkout of `workspace/biology`; resolve every error and preserve the complete successful output.
+- [ ] **G2 — Browser validation:** run `node biology/browser-smoke.mjs` with Chromium against all 13 pages; verify both configured viewport widths, language switching, keyboard navigation, accessible names, no horizontal overflow and no uncaught page errors.
+- [ ] **G3 — CI evidence:** execute the Biology workflow through an authorized pull-request or workflow-dispatch route; record the exact run URL, commit SHA and successful job result. A missing status or absent run is not a pass.
+- [ ] **G4 — Independent scientific review:** obtain qualified review of remaining taxonomic and species-occurrence uncertainties, prioritizing freshwater fish records and other locally sensitive distribution claims; record reviewer scope and resolved/deferred findings.
+- [ ] **G5 — Bilingual editorial and release review:** complete independent Russian/English copy-editing, check consistency of terminology and citations, and verify the published pages at mobile and desktop widths.
+- [ ] **G6 — Illustration disposition:** retain all 52 mapped placeholders until each intended image is produced or explicitly deferred with rationale, source/licence, scientific review and correct integration. The presence of a placeholder is not image completion.
+
+**Control rule:** keep the readiness score at 95/100 while any required gate remains unchecked. The branch is not release-certified by this checklist alone. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
