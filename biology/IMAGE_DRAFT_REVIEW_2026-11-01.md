@@ -151,3 +151,8 @@ No raster asset was committed or inserted. All 52 image markers and Deferred dis
 The latest bird-image attempt (ImageGen ID `491ee4cc-8a17-40c8-8b05-85c6c121b76a`) produced a pheasant-like, monal-like bird rather than a defensible Himalayan snowcock depiction. A subsequent attempt (ID `4dc45b18-d05d-42f7-b441-f61db204b748`) produced a chukar-like partridge form, substantially overlapping the existing partridge-like concept crop. Neither is accepted as a Himalayan snowcock candidate; both are excluded from the new-asset count. Species identification cannot be inferred from prompt intent. No filenames, insertion anchors or dispositions are assigned.
 
 The snowcock illustration remains unfulfilled. All 52 image markers remain Deferred; no raster asset was committed or inserted.
+
+
+## Further rejected gamebird attempt
+
+ImageGen ID `f4878bf9-3cea-45f2-b522-72c97e52b446` produced another pheasant/monal-like alpine gamebird, not a defensible Himalayan snowcock. It repeats the preceding rejected monal-like output and is excluded as a near-duplicate. No candidate filename, insertion anchor or disposition is assigned.
