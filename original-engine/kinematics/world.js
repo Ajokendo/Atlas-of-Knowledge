@@ -303,7 +303,7 @@ function buildMore(root, asm) {
     bow.scale.set(1, 1, 1.4); bow.rotation.y = Math.PI / 2;   // one corner of the prism points forward
     return g;
   };
-  const boats = [['boatA', 0, RX - 1.4, 'Aimed straight across', 'fastest crossing, but carried downstream'], ['boatB', M.AIM_UP, RX - 5.2, `Aimed ${(M.AIM_UP * 180 / Math.PI).toFixed(1)}° upstream`, 'slower, but lands straight across']].map(([key, phi, x0, title, sub]) => {
+  const boats = [['boatA', 0, RX - 1.4, 'Направлена прямо поперёк реки', 'Самый быстрый переход, но течение сносит лодку вниз по реке'], ['boatB', M.AIM_UP, RX - 5.2, `Направлена вверх против течения на ${(M.AIM_UP * 180 / Math.PI).toFixed(1)}°`, 'Более медленный переход, но лодка достигает противоположного берега напротив точки старта']].map(([key, phi, x0, title, sub]) => {
     const g = asm(key, root, { title, sub });
     const hull = boatModel(g);
     const bw = arrow(g, 'ink', { r: 0.028, head: 0.14, headR: 0.075, name: 'v_BW: скорость лодки относительно воды' });
