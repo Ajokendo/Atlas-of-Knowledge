@@ -694,3 +694,9 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - This was a source-level remote audit. The complete `checks.mjs` program has still not been executed in a local checkout, and no CI or live-browser pass is claimed. Image assets, independent specialist review and real-device/browser accessibility verification remain open publication tasks.
 - **Atlas of Biology editorial readiness: 96/100.** The score reflects completed repository-level editorial and static-source work; it is not production certification. The remaining four points are reserved for executable test/CI evidence, live browser and device checks, specialist validation, and completion or formally approved deferral of the 52 planned illustrations.
 
+## Internal navigation and fragment audit — 1 November 2026
+
+- Followed all local HTML links and fragment targets across the 13 Biology pages and the shared `portal.html` entry point. The remote audit covered 95 local HTML references, including the two links back to the main portal; no missing target pages or element IDs were found.
+- Extended `checks.mjs` so future local test runs verify fragment targets as well as the existence of local files. The check deliberately skips external URLs and non-HTML document fragments, which require separate validation methods.
+- This is a remote source audit, not a claim that all external links resolve or that the test script has been executed. Overall Biology editorial readiness remains **96/100**; no extra score point is assigned for a bounded navigation check. The remaining publication gates are executable tests/CI, live browser and device/accessibility QA, independent specialist validation, and creation/review/integration or explicit editorial deferral of the 52 planned illustrations.
+
