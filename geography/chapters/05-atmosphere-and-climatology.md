@@ -525,6 +525,246 @@ For precipitation, both absolute millimetres and the percentage of normal can be
 
 **Место для иллюстрации 5.18-A — Synoptic Map and Climate Analysis.** Учебная синоптическая карта с фронтами, изобарами, ветровыми стрелками и двумя климатограммами; данные должны быть учебными или снабжёнными проверяемым источником.
 
+## English-language chapter text
+
+### Introduction
+
+The atmosphere is Earth's gaseous envelope, held by gravity. It provides conditions for life, participates in the water and energy cycles, protects the surface from some harmful radiation and regulates the planet's thermal conditions.
+
+Climatology studies climate, its spatial differences, formation, variability and long-term change. Weather describes the short-term state of the atmosphere, while climate characterises the statistical properties of weather over long periods.
+
+### 5.1. Composition and Role of the Atmosphere
+
+Dry air near Earth's surface consists mainly of nitrogen and oxygen. Its approximate volume composition is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.04% carbon dioxide (which changes over time) and trace amounts of other gases. Water vapour is not included in the dry-air table because its concentration varies greatly in space and time—from almost zero in cold, dry air to several per cent in warm, humid air.
+
+The atmosphere supplies oxygen for the respiration of most organisms and carbon dioxide for photosynthesis; transports heat and moisture; forms clouds and precipitation; reduces some ultraviolet radiation through the ozone layer; causes many small meteoroids to burn up; and supports the natural greenhouse effect.
+
+### 5.2. Vertical Structure of the Atmosphere
+
+The atmosphere is divided into layers according to how temperature changes with altitude. Layer boundaries are not fixed: their heights vary with latitude, season and atmospheric conditions.
+
+- **Troposphere:** the lowest layer, containing most of the atmosphere's mass and almost all atmospheric water vapour. Clouds, precipitation, thunderstorms and most weather phenomena develop here. Its height is generally about 8–18 km, lower at high latitudes and higher in the tropics. Temperature usually decreases with altitude, although inversions may occur.
+- **Stratosphere:** extends from the tropopause to about 50 km. Most atmospheric ozone is found here. Absorption of ultraviolet radiation by ozone causes temperature to rise with altitude through much of this layer.
+- **Mesosphere:** lies approximately between 50 and 85 km. Temperature generally decreases with altitude and reaches very low values near the mesopause. Many small meteoroids burn up in this layer.
+- **Thermosphere:** temperature rises sharply because high-energy solar radiation is absorbed. However, the air is extremely thin, so this temperature does not correspond to the familiar sensation of warmth.
+- **Exosphere:** the very sparse outer region of the atmosphere, which gradually merges into outer space. Its lower boundary is defined differently in different models.
+
+### 5.3. Solar Radiation and Earth's Energy Budget
+
+The Sun is the main external energy source for the climate system. The incoming flow of solar energy at the top of the atmosphere is called solar radiation.
+
+Some incoming energy is reflected by clouds, aerosols, the atmosphere and the surface. The rest is absorbed by the atmosphere and Earth's surface, converted into heat and eventually emitted to space as longwave infrared radiation.
+
+**Albedo** is the fraction of incoming radiation reflected by a surface or system. Snow and ice generally have high albedo, while dark water and forests have relatively low albedo. Albedo depends on wavelength, surface condition, the angle of incoming sunlight and other factors.
+
+**The greenhouse effect.** Water vapour, carbon dioxide, methane, nitrous oxide and some other gases absorb and emit infrared radiation. The natural greenhouse effect makes Earth's mean surface temperature substantially warmer than it would be without these atmospheric gases. Human-caused increases in greenhouse-gas concentrations strengthen radiative forcing and lead to long-term global warming.
+
+**Energy transport.** Uneven heating by latitude creates temperature contrasts. Atmospheric circulation and ocean currents redistribute energy from lower to higher latitudes.
+
+### 5.4. Air Temperature and Its Distribution
+
+Air temperature describes the thermal state of the air. It is influenced by latitude and solar angle, elevation, cloud cover and humidity, surface properties, distance from oceans and large water bodies, air-mass transport, relief and slope aspect.
+
+The **daily temperature cycle** is linked to Earth's rotation and changing solar input during the day. The **annual cycle** is related to seasonal changes in solar elevation and day length. Maximum temperature usually occurs after midday and minimum temperature near sunrise, although cloud, wind and surface properties can alter this pattern.
+
+In the troposphere, temperature generally decreases with altitude, but the actual rate varies. The often-quoted mean value of about 6.5°C per kilometre is a standard average lapse rate in a particular atmospheric model, not a universal rule for every slope or day.
+
+A **temperature inversion** occurs when temperature increases with height through a layer. Inversions can contribute to the accumulation of pollutants near the surface.
+
+### 5.5. Atmospheric Pressure and Wind
+
+Atmospheric pressure is the force exerted by a column of air per unit area. It is measured with barometers; common units are the hectopascal (hPa) and millibar (mb), which are numerically equivalent.
+
+Pressure decreases with altitude because less air remains above a given point. Horizontal pressure patterns are influenced by temperature, air density and general atmospheric circulation.
+
+A **cyclone** is a region of relatively low pressure. Near the surface, air generally converges towards its centre and rises. An **anticyclone** is a region of relatively high pressure. Near the surface, air generally diverges from its centre, with subsiding motion on average.
+
+The direction of rotation of cyclones and anticyclones is influenced by the Coriolis effect and differs between hemispheres. Near the equator the Coriolis effect is weak, so large-scale rotating systems develop differently.
+
+**Wind** is the horizontal movement of air relative to the surface. It is influenced by the pressure-gradient force, Earth's rotation, friction and the curvature of air trajectories. Wind speed is measured with an anemometer; direction may be measured with a wind vane or other instruments. Wind direction is named for the direction from which the wind blows.
+
+### 5.6. General Atmospheric Circulation
+
+Global circulation is shaped by uneven heating of Earth, planetary rotation, the distribution of land and ocean, seasonal changes and interactions with the oceans.
+
+An idealised model identifies three circulation cells in each hemisphere:
+- the **Hadley cell** in the tropics and subtropics;
+- the **Ferrel cell** in the middle latitudes; and
+- the **polar cell** at high latitudes.
+
+This three-cell model is a simplification. Real circulation is more complex and includes seasonal shifts in pressure belts, jet streams, cyclones, anticyclones and regional effects.
+
+Planetary and seasonal winds include:
+- **trade winds**, persistent easterlies in the tropics;
+- **westerlies**, prevailing across much of the middle latitudes;
+- **polar easterlies**, characteristic of high latitudes; and
+- **monsoons**, seasonally reversing wind systems associated with contrasts in heating between land and ocean and with regional circulation.
+
+**Jet streams** are narrow bands of strong winds in the upper troposphere and lower stratosphere. They influence cyclone tracks, air-mass transport and weather in the middle latitudes.
+
+### 5.7. Humidity, Clouds and Precipitation
+
+Humidity describes the amount of water vapour in the air. Important measures include absolute humidity, specific humidity, water-vapour partial pressure and relative humidity.
+
+**Relative humidity** is the ratio of the actual amount of water vapour to the maximum possible amount at a given temperature, expressed as a percentage. When air cools to its dew point, condensation may begin.
+
+Clouds form when moist air cools to saturation and water vapour condenses on aerosol particles known as condensation nuclei. Air may rise through convection, frontal interactions between air masses or forced uplift over relief.
+
+Cloud families are commonly described by their appearance and altitude and include cirrus, stratus, cumulus, cumulonimbus and mid-level cloud types.
+
+Precipitation includes rain, drizzle, snow, sleet, freezing rain and hail. The type reaching the surface depends on the temperature and moisture profile through the atmospheric column.
+
+**Orographic precipitation** occurs when moist air is forced to rise over mountains. Rising air cools and may produce clouds and precipitation on windward slopes. Leeward slopes may be drier because of the rain-shadow effect, although the pattern depends on wind direction, moisture supply and local relief.
+
+### 5.8. Air Masses and Fronts
+
+An **air mass** is a large body of air with relatively uniform temperature and humidity characteristics, formed over a particular source region.
+
+Air masses may be classified by source latitude and the underlying surface—for example, Arctic, polar, tropical, continental and maritime. Terminology and classification schemes vary between meteorological traditions.
+
+An **atmospheric front** is a transition zone between air masses with different properties. Main types include cold, warm, occluded and stationary fronts. Fronts are associated with changes in temperature, wind, cloud cover and precipitation, but the actual weather depends on the dynamics of the system and local conditions.
+
+### 5.9. Weather and Climate
+
+**Weather** is the state of the atmosphere at a particular place and time or over a short period. It is described by temperature, pressure, wind, humidity, cloud cover, visibility and precipitation.
+
+**Climate** is the statistical regime of weather characteristic of an area over a long period, including averages, variability, extremes and probabilities.
+
+The World Meteorological Organization recommends standard 30-year periods for climate normals, updated according to an established schedule. Climate data should always identify the specific observation period.
+
+Meteorological observations are collected by land stations, marine platforms, weather radars, radiosondes, aircraft and satellites.
+
+### 5.10. Climate Controls
+
+The climate of an area is shaped by interacting factors:
+
+1. Geographic latitude and solar radiation.
+2. Elevation above sea level.
+3. Distribution of land and ocean.
+4. Ocean currents.
+5. General atmospheric circulation.
+6. Relief, slope aspect and the orientation of mountain ranges.
+7. Snow and ice cover, vegetation and surface properties.
+8. Human-caused changes in atmospheric composition and land use.
+
+No single factor acts in isolation. The climate of a coast, for example, depends not only on latitude but also on ocean currents, winds and the shape of the coastline.
+
+### 5.11. Climate Classification and Climate Types
+
+Climate classifications organise climate conditions according to temperature, precipitation, seasonality and other indicators.
+
+The widely used **Köppen–Geiger classification** identifies five major letter groups:
+- A — tropical;
+- B — arid;
+- C — temperate;
+- D — continental or snow climates; and
+- E — polar.
+
+Subtypes are distinguished by temperature and precipitation regimes. Climate-class boundaries depend on the version of the classification and the period of climate data used.
+
+Other approaches include genetic classifications, water-balance classifications, bioclimatic schemes and regional systems. Applied research should select a method appropriate to its purpose.
+
+### 5.12. Climate Belts and Regional Patterns
+
+Broad geographical climate belts include equatorial, subequatorial, tropical, subtropical, temperate, subpolar and polar belts. Their position and expression depend on atmospheric circulation and the seasonal migration of zones of solar heating.
+
+Climate belts should not be confused with specific climate types: one belt may contain humid, arid, continental and monsoonal climates.
+
+Equatorial regions generally receive substantial solar energy throughout the year. Subtropical areas often include zones of descending air and major deserts. Middle latitudes have pronounced seasonality and frequent changes in air masses. Polar regions receive little solar energy on an annual average and remain cold. Mountain areas show strong climatic differences with elevation and slope aspect.
+
+### 5.13. Microclimates and Urban Climate
+
+A **microclimate** is the climate of a small area shaped by local conditions such as relief, vegetation, soil moisture, water bodies, buildings and shade.
+
+An **urban heat island** occurs when urban surfaces and buildings store and retain heat, while evaporative cooling and ventilation may be limited. Its intensity varies with time of day, season, weather, building density and vegetation cover.
+
+Mitigation measures include increasing green space, creating shaded public areas, using reflective and permeable surfaces, preserving ventilation corridors, and managing water and urban infrastructure effectively.
+
+### 5.14. Atmospheric Hazards
+
+Atmospheric phenomena may threaten health, infrastructure, agriculture and transport.
+
+- **Thunderstorms, lightning and hail:** thunderstorms are associated with strong updrafts and cumulonimbus clouds. Lightning can be dangerous even outside the area of heaviest precipitation. Hail forms when ice particles are repeatedly carried through strong updrafts.
+- **High winds and storms:** storm winds may be associated with cyclones, fronts, thunderstorm systems and local relief effects. Tropical cyclones form over sufficiently warm ocean water under favourable atmospheric conditions; their regional names differ.
+- **Droughts and heatwaves:** drought is a prolonged water deficit relative to local climatic conditions. Meteorological, agricultural, hydrological and socio-economic droughts are distinguished. A heatwave is a period of unusually high temperatures defined relative to local climate and an adopted threshold; there is no single universal temperature threshold for all regions.
+- **Heavy snow, blizzards and ice:** heavy snowfall and blizzards reduce visibility, disrupt transport and increase loads on structures. Glaze ice forms when supercooled droplets freeze on cold surfaces.
+- **Fog and dust storms:** fog reduces visibility and creates transport hazards. Dust and sand storms occur when strong winds lift particles from dry, poorly protected surfaces.
+
+### 5.15. Climate Change
+
+Earth's climate has changed throughout geological history under the influence of natural factors such as orbital and axial variations, solar activity, volcanism, tectonics and internal climate variability.
+
+Modern global warming differs because the main cause of the observed long-term rise in global temperature is human greenhouse-gas emissions, especially from fossil-fuel combustion, land use and some industrial processes.
+
+Observed changes include rising global mean surface temperature, ocean warming, sea-level rise, loss of glacier and ice-sheet mass, changes in snow cover and seasonality, and increased likelihood or intensity of some extreme events in some regions. Changes differ between regions; a global trend cannot automatically be applied to every place or year.
+
+Climate risks depend on the hazardous event, the exposure of people and infrastructure, and the vulnerability of the systems affected.
+
+Adaptation includes early-warning systems, sustainable water management, climate-resilient agriculture, coastal protection, urban cooling and infrastructure planning that accounts for future conditions. **Mitigation** reduces greenhouse-gas emissions or increases removals. **Adaptation** reduces harm and makes use of possible beneficial opportunities.
+
+### 5.16. Meteorology, Climate Data and Forecasting
+
+Meteorology studies atmospheric processes and weather. Forecasts are based on observations, physical equations and numerical atmospheric models.
+
+Data sources include weather stations, radiosondes, meteorological radars, weather satellites, marine buoys and ships, aircraft observations, reanalyses and climate datasets.
+
+**Numerical weather prediction** uses mathematical models describing air motion, thermodynamics, moisture and interactions between the atmosphere and surface. Forecast accuracy depends on initial observations, model resolution, the quality of physical parameterisations and the predictability of the atmospheric process.
+
+Climate models differ from short-term weather forecasts. They examine statistical properties of the climate system and its response to forcing scenarios; they do not attempt to predict the exact weather on a particular day decades in advance.
+
+### 5.17. Reading Climate Graphs
+
+A climate graph usually shows mean monthly temperature and precipitation for a stated period. It helps compare the seasonality of temperature and moisture but does not represent the full range of extreme events.
+
+When analysing a climate graph:
+1. Check the station name, elevation, coordinates and observation period.
+2. Identify the warmest and coldest months.
+3. Determine the seasonal distribution of precipitation.
+4. Calculate the annual temperature range.
+5. Compare annual precipitation totals and seasonal moisture patterns.
+6. Do not infer long-term climate change from one graph without a time series.
+
+### Chapter Summary
+
+1. The atmosphere consists mainly of nitrogen and oxygen; water vapour and trace gases are also important to climate.
+2. Its vertical structure includes the troposphere, stratosphere, mesosphere, thermosphere and exosphere.
+3. The climate system receives energy from the Sun and redistributes it between latitudes.
+4. Pressure, wind, humidity, clouds and precipitation are interconnected.
+5. General atmospheric circulation shapes global wind belts and influences regional climates.
+6. Weather describes the short-term state of the atmosphere; climate describes its long-term statistical characteristics.
+7. Climate controls include latitude, elevation, oceans, relief and circulation.
+8. Modern global warming is primarily caused by human activity.
+9. Meteorological observations and models underpin weather forecasting and climate assessment.
+
+### Review Questions
+
+1. What is the approximate composition of dry air?
+2. How does the troposphere differ from the stratosphere?
+3. What is albedo, and how does it affect the energy budget?
+4. What is the natural greenhouse effect?
+5. Why does atmospheric pressure decrease with altitude?
+6. Which forces influence wind direction and speed?
+7. How does a cyclone differ from an anticyclone?
+8. How do clouds and precipitation form?
+9. What is an air mass, and what is an atmospheric front?
+10. How does weather differ from climate?
+11. Which factors shape the climate of a region?
+12. Why must climate classifications specify their version and data period?
+13. How does adaptation differ from climate-change mitigation?
+14. What data are needed to construct a climate graph?
+
+### Practical Assignment: Comparing Climate Graphs and Atmospheric Circulation
+
+Using two sets of climate data:
+- identify the mean temperature of the warmest and coldest months;
+- calculate the annual temperature range;
+- calculate annual precipitation and identify its seasonal maximum;
+- identify the likely climate type and state the classification used;
+- explain the possible influence of latitude, elevation, continentality and relief; and
+- state the limitations of conclusions based on one weather station.
+
+Additional task: use a synoptic chart to locate a cyclone, anticyclone and fronts, then describe the likely change in weather.
+
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
 1. World Meteorological Organization (WMO). *Guide to Instruments and Methods of Observation* and climate resources. https://wmo.int/
