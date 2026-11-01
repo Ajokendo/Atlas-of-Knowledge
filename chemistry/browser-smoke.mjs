@@ -551,7 +551,7 @@ try {
       if (!(await page.locator("[data-i=arenesText]").innerText()).includes("delocalised")) {
         errors.push(file + ": English aromaticity note must refer to a delocalised pi system");
       }
-      if (await page.locator(".tile").count() !== 10) errors.push(file + ": expected ten organic-compound family cards");
+      if (await page.locator(".tile").count() !== 11) errors.push(file + ": expected eleven organic-compound family cards, including alkynes");
       await page.locator("#lang").click();
       await page.locator("#n").fill("1");
       await page.locator("#calc").click();
