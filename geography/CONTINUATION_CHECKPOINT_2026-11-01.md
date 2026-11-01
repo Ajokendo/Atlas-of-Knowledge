@@ -2,10 +2,13 @@
 
 - Canonical branch: `workspace/geography`.
 - Prior user-supplied checkpoint: `0ed9de0c6a8bc87008ff55f376d006d38903f00d`.
-- New work: created `geography/MAP_DATA_SOURCE_AUDIT_2026-11-01.md`.
-- Audit commit: `92bebdea8551ed3aaf18e255d1241586e4859f03`.
-- Audit file re-fetched from the canonical branch and verified; blob: `b11d0884dbfc7c741df10512923697ffb8309f9f`.
-- Checkpoint file re-fetched and verified; blob before this verification update: `54cd6e38b5cd6074635dfb35edb9473011af33a9`.
-- Scope: verified current Kyrgyzstan geodetic-reference evidence and documented the distinction between WGS 84 geographic coordinates, the national Kyrg-06 projected system, and vertical reference metadata; identified candidate administrative-boundary datasets while explicitly withholding legal-authority claims.
-- Next tasks: continue source validation for official administrative/geological/hydrological layers and Chapter 17 extreme-point coordinates; preserve all 216 bilingual visual IDs and placeholders.
-- Progress accounting: this source audit is a discrete completed work item, not a basis for declaring the atlas at 90% or publication-ready.
+- Prior verified continuation checkpoint: `89635827e394007b84a87d981d2f22555a056951`.
+- New map-data audit addendum: `geography/MAP_DATA_SOURCE_AUDIT_2026-11-01.md`; updated in commit `ac3fd3990547b5a188dca43f8ba1ef4c219e92c0`.
+- Chapter 17 updated with Law No. 58 of 29 April 2026 and the state-register entry for AIS “Geographical Names of the Kyrgyz Republic”; commit `549b6fc6c86da18feee2a8ac8ace58858a182055`.
+- Geography README updated to record the new Chapter 17 sources; commit `05795263ed0d1584b921e2bdac579189cadb10eb`.
+- Editorial readiness matrix updated for Chapter 17; commit `74553ae54122db349e994021c73f8a8e59c9e7f7`.
+- Source distinction: the state register reports 10,281 georeferenced geographical features and records last modernisation on 31 December 2022. This is registry metadata, not proof that all records are current or all data layers are downloadable.
+- Law entry-into-force date is not repeated in this checkpoint because secondary legal reproductions surfaced conflicting dates; use the official consolidated legal record for any effective-date statement.
+- Remaining Chapter 17 cartographic blockers: official extreme-point coordinates, current administrative-boundary geometry and legal metadata, layer-specific horizontal/vertical CRS and source dates.
+- Visual status unchanged: 216 unique bilingual production briefs/placeholders remain indexed; no generated or approved artwork is claimed.
+- Progress accounting: the new source and chapter work is a discrete audited increment, not a basis for claiming the 90% milestone. Continue source-by-source and report the next milestone only when supported by the work matrix.
