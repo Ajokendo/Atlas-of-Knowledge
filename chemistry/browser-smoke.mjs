@@ -383,7 +383,7 @@ try {
     }
 
     if (file === "chapters/chemistry-of-life.html") {
-      for (const [selector, expected] of [["img[data-i=illustrationCaption]", "../assets/biomolecule-overview-ru.svg"], ['img[data-alt-i="carbonCycleAlt"]', "../assets/carbon-cycle-ru.svg"]]) {
+      for (const [selector, expected] of [['img[data-svg-ru="../assets/biomolecule-overview-ru.svg"]', "../assets/biomolecule-overview-ru.svg"], ['img[data-alt-i="carbonCycleAlt"]', "../assets/carbon-cycle-ru.svg"]]) {
         if (await page.locator(selector).getAttribute("src") !== expected) errors.push(file + ": Russian SVG illustration is not selected for " + selector);
       }
       const carbonAltRu = await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt");
@@ -409,7 +409,7 @@ try {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       await page.locator("#lang").click();
-      for (const [selector, expected] of [["img[data-i=illustrationCaption]", "../assets/biomolecule-overview.svg"], ['img[data-alt-i="carbonCycleAlt"]', "../assets/carbon-cycle.svg"]]) {
+      for (const [selector, expected] of [['img[data-svg-ru="../assets/biomolecule-overview-ru.svg"]', "../assets/biomolecule-overview.svg"], ['img[data-alt-i="carbonCycleAlt"]', "../assets/carbon-cycle.svg"]]) {
         if (await page.locator(selector).getAttribute("src") !== expected) errors.push(file + ": English SVG illustration is not selected for " + selector);
       }
       const carbonAltEn = await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt");
