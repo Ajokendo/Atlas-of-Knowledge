@@ -3,7 +3,7 @@
 **Audit start:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
 **Scope:** all Biology HTML pages, scientific/editorial content, interactive tools, technical checks, vector and raster visuals, image placeholders, bilingual parity, links and release controls.  
-**Audit completion:** **20%** — repository inventory and baseline structure pass completed.  
+**Audit completion:** **50%** — repository inventory and baseline structure pass completed.  
 **Controlled editorial readiness:** **95/100** (separate metric; unchanged).
 
 ## Audit method and boundaries
@@ -198,3 +198,25 @@ Continue technical review by examining each interactive model's state transition
 
 - 1 November 2026: advanced repeat-audit coverage to 40%; documented the snow-leopard estimate discrepancy, added scoped Terskey Ala-Too field evidence, and updated Menzbier's marmot population and conservation-status evidence. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
 
+
+
+## 50% milestone — amphibian checklist and locality-evidence audit — 1 November 2026
+
+### Completed source checks and corrections
+
+- Rechecked the Central Asian amphibian checklist at GBIF IPT version 1.18 (published 26 October 2026). It is a five-country literature compilation, not a Kyrgyzstan field survey; its 33 core taxon records cover the region and must not be mistaken for a Kyrgyzstan-only species total.
+- Corrected the Kyrgyzstan amphibian country-page snapshot date: the page itself states that its displayed export was generated on 12 October 2026, not 30 September. It lists 7 species (4 resident, 3 unconfirmed) and 2 subspecies (1 unconfirmed). The resident / unconfirmed categories remain distinct from taxonomy and conservation status.
+- Re-examined Litvinchuk, Svinin & Dujsebayeva (2021), DOI 10.20363/BZB-2021.70.2.361, against the full paper and Table 1. The reported 209 adult males from 14 localities are a combined Kazakhstan–Kyrgyzstan sample collected during 1994–2001. The table contains six Kyrgyzstan localities and 117 specimens; the 14 localities are not all Kyrgyzstan. The audit now states this explicitly and prohibits interpreting the sample as a current population estimate.
+- Updated `KYRGYZSTAN_SPECIES_AUDIT.md` and strengthened `checks.mjs` assertions for the corrected page date, five-country dataset scope, two-country Bufotes sample provenance and Kyrgyzstan subset.
+- Static GitHub read-back verified the updated audit and regression-script text, including assertion placement after `regionalSpeciesAudit` initialization.
+
+### Saved-state and verification limits
+
+- The image insertion map and disposition register still contain 52 unique anchors each; all 52 remain Deferred. No image asset was generated or integrated.
+- `checks.mjs` was not executed. No test pass is claimed; browser, mobile, accessibility and CI checks remain pending.
+- This remains a bounded evidence audit, not a complete verification of every amphibian, reptile, fish or locality record. G4 independent scientific review and G5 independent bilingual/editorial review remain open.
+- Repeat-audit coverage: **50%**. Controlled editorial readiness remains **95/100**; this is not publication approval.
+
+### Change log
+
+- 1 November 2026: advanced repeat-audit coverage to 50%; corrected the amphibian snapshot date, clarified the scope of the five-country checklist, and quantified the Kyrgyzstan subset of the 2021 green-toad sample. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
