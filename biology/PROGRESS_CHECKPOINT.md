@@ -209,3 +209,12 @@
 - All 52 image markers remain mapped and Deferred. No image asset was approved or integrated. G4/G5 remain open.
 - Audit report: `REPEAT_AUDIT_2026-11-01.md`. Audit completion 5%; controlled editorial readiness remains 95/100 and is not recalculated by inventory alone.
 - No chapter content or tool logic changed in this milestone. Fresh Node/Chromium execution is pending.
+
+
+## Full repeat audit — 10% milestone — 1 November 2026
+
+- Completed source-level technical/accessibility review across all 13 HTML pages and inspected the committed `checks.mjs` regression suite.
+- One H1 and populated H2 hierarchy per page; all 22 SVGs have accessible names; no unlabeled inputs or external `_blank` links missing `noopener`; buttons have explicit types and visible labels.
+- Existing bilingual parity audit: 1,147 RU / 1,147 EN blocks, with numeric and scientific-name parity in its measured scope. Not independent editorial approval.
+- No confirmed source defect found; no speculative code edit made. Fresh Node/Chromium tests and browser/manual accessibility tests remain pending; no test pass is claimed.
+- Full report: `REPEAT_AUDIT_2026-11-01.md`. Audit completion 10%; controlled readiness remains 95/100; G4/G5 remain open.
