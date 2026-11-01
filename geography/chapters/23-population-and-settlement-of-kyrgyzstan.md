@@ -1022,12 +1022,16 @@ The overall average therefore hides a strong contrast between a densely populate
 ## Visual, Map and Infographic Briefs
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 23-A / IMAGE PLACEHOLDER 23-A]** Карта плотности населения по районам или айылным аймакам на сопоставимую дату; отдельно выделить долины и высокогорные территории, указать единицы и источник.
+> **EN:** Population-density map by rayon or ayil aimak for a comparable reference date, distinguishing valleys from high-mountain areas and stating units and source.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 23-B / IMAGE PLACEHOLDER 23-B]** Демографическая панель: динамика численности населения, возрастно-половая пирамида переписи 2022 года и региональное распределение на 01.01.2026; переписные данные и годовые оценки маркировать раздельно.
+> **EN:** Demographic dashboard showing population change, the 2022 census age-sex pyramid and regional distribution as of 1 January 2026; label census data and annual estimates separately.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 23-C / IMAGE PLACEHOLDER 23-C]** Карта городской системы и агломераций: Бишкек, Ош, Манас и региональные центры; города республиканского значения отделить от областных итогов.
+> **EN:** Map of the urban system and agglomerations showing Bishkek, Osh, Manas and regional centres; distinguish cities of republican significance from oblast totals.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 23-D / IMAGE PLACEHOLDER 23-D]** Схема миграции и расселения: внутренние перемещения и международная трудовая миграция разными слоями; ширину потоков использовать только при наличии количественных данных.
+> **EN:** Migration and settlement diagram showing internal movements and international labour migration in separate layers; scale flow widths only when quantitative data are available.
 
 
 **Общий визуальный стандарт:** премиальная научная энциклопедия; тёмно-синий, белый и сдержанный золотой акцент. Все статистические визуалы должны иметь дату, единицы измерения, источник и пояснение методики. Карты административного устройства должны соответствовать официальной версии границ на указанную дату.
