@@ -35,7 +35,7 @@ export function buildWorld(E) {
   // ---------- kit ----------
   const UPV = V(0, 1, 0), B4 = new THREE.Matrix4(), M4 = new THREE.Matrix4();
   const rodGeo = new THREE.CylinderGeometry(1, 1, 1, 10);
-  const rod = (g, r = 0.025, name = 'Wires', pal = 'ink') => { const m = part(g, rodGeo, { tone: 'hi', pal, name }); m.scale.set(r, 1, r); m.userData.r = r; return m; };
+  const rod = (g, r = 0.025, name = 'Провода', pal = 'ink') => { const m = part(g, rodGeo, { tone: 'hi', pal, name }); m.scale.set(r, 1, r); m.userData.r = r; return m; };
   const stretch = (m, a, b) => { const r = m.userData.r; m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(r, Math.max(a.distanceTo(b), 1e-4), r); m.quaternion.setFromUnitVectors(UPV, b.clone().sub(a).normalize()); };
   // a body's frame: y along p→q, x across it in the ground plane, z its normal (up when flat)
   const orient = (o, p, q) => { const d = q.clone().sub(p).normalize(), s = d.clone().cross(UPV); if (s.lengthSq() < 1e-6) s.set(1, 0, 0); s.normalize(); B4.makeBasis(s, d, s.clone().cross(d)); o.quaternion.setFromRotationMatrix(B4); o.position.copy(p).add(q).multiplyScalar(0.5); return s; };
