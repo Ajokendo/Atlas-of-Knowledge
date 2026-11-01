@@ -1198,3 +1198,13 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - The 52 image anchors remain mapped and Deferred. No image was generated or integrated.
 - `checks.mjs`, browser tests, mobile checks and CI were not run. No test pass is claimed.
 - Repeat-audit coverage is 50%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
+
+
+## Repeat-audit milestone — 60% — 1 November 2026
+
+- Rechecked the Kyrgyzstan reptile country page: its country selector displays 44 while the numbered species table and summary give 43; 19 subspecies are listed separately, 12 unconfirmed. The count discrepancy remains unresolved.
+- Clarified the scope and method of the GBIF Central Asian reptile checklist v1.15: five-country, literature-based synthesis, not a field survey.
+- Verified the 2015 Black Stork breeding record at Boom Gorge. The chapter retains the dated brood observations but now deliberately generalizes the nest location to avoid disclosing a sensitive site.
+- Updated the regional species audit and source-level regression guards; GitHub changes are saved. `checks.mjs`, browser tests, mobile checks and CI were not run. No test pass is claimed.
+- The 52 image insertion anchors remain mapped and Deferred; no image asset was added.
+- Repeat-audit coverage is 60%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
