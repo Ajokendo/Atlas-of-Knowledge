@@ -751,3 +751,11 @@ The current marker additions are production instructions/placeholders only; no g
 - Chapter 26 commit: `34420a0c73e0a035a995362b8b5d2e783d1aad6b`; blob `040425ddd25e503f546da424d2e59350afd34787`.
 - Visual register commit: `19cad7902dcee4ee0935ac2e754d91fa34cffd8f`; verified blob `7ebdd51f38d2129d5fdf20d54e519ffd0571f275`.
 - All edited chapter files and the register were re-fetched from GitHub. This is a visual-production index and placeholder reconciliation, not a claim that any map or illustration has been generated or approved.
+
+
+## Geography website entry-point status — 1 November 2026
+
+- Inspected `geography/index.html` and the chapter links. The landing page is Russian-language and links directly to Markdown chapter files; it does not provide a RU/EN toggle or a fully rendered chapter-reading interface.
+- Chapter files contain Russian and English material together, but this is not equivalent to two independently navigable published language editions. No separate English site mode is claimed.
+- Updated `geography/README.md` to state this limitation and link the consolidated visual register: commit `a3a02c7582105c5a14fa02184751c4eac008b9e1`; verified blob `d61fb90437be59f71344bb704917bfb7241de7aa`.
+- A bilingual website/reader implementation remains a separate publication task; this audit did not modify the portal or deployment configuration.
