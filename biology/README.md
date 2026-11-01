@@ -833,3 +833,14 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - The harness supplies in-memory filesystem/path and inline-script compilation shims. It is a useful preflight, but it is **not** a clean local checkout and is **not** the required `node biology/checks.mjs` execution under Node. G1 therefore remains unchecked pending the prescribed clean-checkout run; G2 and G3 are also still open.
 - The initial preflight surfaced 12 stale wording assertions after the bilingual editorial pass. Those assertions were aligned to the actual current RU/EN text and re-run; the harness now passes. The scientific claims themselves were not weakened to make the tests pass.
 - Source checkpoint before this note: `e4ce15919286a1bba704685b3071225161b352b3`. Readiness remains **95/100** until all closure gates have their required evidence.
+
+
+## Son-Kul fish taxonomy review and regression re-run — 1 November 2026
+
+- Added the 2023 *Bulletin of KNAU* Son-Kul fisheries paper to the regional source audit, preserving the discrepancy between its abstract's 2021–2023 fieldwork description and the Methods section's 2020, 2021 and 2023 sampling years.
+- Recorded the paper's processed sample counts as study material, not population estimates: 100 `Coregonus lavaretus`, 1 `C. peled`, 13 `Diptychus dybowskii`, 2 `D. dybowskii micromakulatus`, 17 `Triplophysa stoliczkae` and 4 `Phoxinus brachurus`.
+- Cross-checked the Son-Kul `Triplophysa` determination against IUCN/FishBase and Eschmeyer's Catalog of Fishes. The sources use different taxonomic concepts and range treatments; the chapter now retains the study authors' determination and explicitly requires voucher/genetic review rather than resolving the discrepancy by spelling alone.
+- Updated the freshwater image review to prevent either the Son-Kul or Suusamyr disputed `Triplophysa` record from being depicted as a settled species identification.
+- Added regression checks for the new Son-Kul source-audit row and taxonomy caveat. Re-executed the in-memory V8 compatibility preflight after these changes: **PASS** — 13 pages, 88 local paths, 13 inline scripts syntax-compiled, 165 typed buttons, no assertion failures.
+- This still does not replace a clean Node checkout run, real Chromium/Playwright QA, CI, or independent ichthyologist review. G1–G6 remain open as applicable; readiness remains **95/100**.
+- Source checkpoint before this note: `7012896d02cadc2a02a5d756e97224d202813b4b`.
