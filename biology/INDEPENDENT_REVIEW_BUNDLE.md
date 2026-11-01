@@ -3,7 +3,11 @@
 **Subject:** Biology only  
 **Canonical branch:** `workspace/biology`  
 **Repository:** `Ajokendo/Atlas-of-Knowledge`  
-**Status:** reviewer package prepared; external reviews not yet received.
+**Status:** archived optional-consultation package; external reviews were not commissioned and are not required for project completion.
+
+## Optional use only — not an active project gate
+
+The project owner has agreed that G4 and G5 are internal audits performed by the project team. This package is retained only in case optional specialist/editor consultation is useful later. Do not initiate recruitment or describe external sign-off as required unless the owner explicitly changes this decision.
 
 ## Before sending
 
