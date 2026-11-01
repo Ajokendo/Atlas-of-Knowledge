@@ -324,7 +324,7 @@
 
 Рельеф Земли включает как высочайшие горные вершины, так и глубокие океанические впадины. При сравнении экстремумов необходимо уточнять метод измерения и систему высот или глубин.
 
-- **Эверест** — высочайшая вершина Земли по высоте; совместно объявленная Китаем и Непалом высота снежной поверхности составляет 8 848,86 ± 0,06 м по Международной системе высот (IHRS; измерение 2020 года; оценка неопределённости приведена в технической геодезической публикации).
+- **Эверест** — высочайшая вершина суши; совместно объявленная Китаем и Непалом высота снежной поверхности составляет 8 848,86 ± 0,06 м по Международной системе высот (IHRS; измерение 2020 года; оценка неопределённости приведена в технической геодезической публикации).
 - **Челленджер-Дип в Марианской впадине** — наиболее глубокая известная область океанского дна, но её глубина зависит от места, метода съёмки и обработки данных. Исследование 2021 года по измерениям с подводного аппарата сообщило 10 935 ± 6 м (95%-й доверительный интервал относительно среднего уровня моря). Опубликованное в 2026 году исследование многолучевой съёмки, выполненной в 2023 году, дало предпочтительную сеточную оценку 10 927 м для восточной котловины; при использовании альтернативных моделей скорости звука максимальные значения в наборе составили 10 914–10 932 м. Авторы подчёркивают, что значение 10 927 м не является окончательным пересмотром глубочайшей точки.
 - **Побережье Мёртвого моря** включает одни из наиболее низко расположенных участков открытой суши; их высота меняется вместе с уровнем озера.
 - **Тибетское нагорье** — одно из крупнейших и высочайших плато мира.
@@ -674,7 +674,7 @@ Climate influences the intensity of different weathering types, but rock composi
 
 Earth's relief includes both the highest mountain peaks and the deepest ocean trenches. Comparisons of extremes must specify the measurement method and the vertical or depth reference system.
 
-- **Mount Everest** is Earth's highest summit by elevation; its jointly announced snow-surface height is 8,848.86 ± 0.06 m in the International Height Reference System (IHRS; 2020 measurement; uncertainty reported in a technical geodetic study).
+- **Mount Everest** is the highest summit on Earth's land surface; its jointly announced snow-surface height is 8,848.86 ± 0.06 m in the International Height Reference System (IHRS; 2020 measurement; uncertainty reported in a technical geodetic study).
 - **Challenger Deep in the Mariana Trench** is the deepest known area of the ocean floor, but its reported depth depends on location, survey method and data processing. A 2021 submersible-based study reported 10,935 ± 6 m (95% confidence interval relative to mean sea level). A 2026-published multibeam study based on a 2023 survey produced a preferred gridded estimate of 10,927 m for the eastern basin; alternative sound-velocity models yielded maximum values from 10,914 to 10,932 m. The authors explicitly state that 10,927 m is not a definitive redetermination of the deepest point.
 - The **shores of the Dead Sea** include some of the lowest exposed land areas; their elevation changes as the lake level changes.
 - **The Tibetan Plateau** is one of the world's largest and highest plateaus.
