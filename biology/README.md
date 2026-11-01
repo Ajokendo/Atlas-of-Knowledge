@@ -1255,7 +1255,7 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 
 ## Independent scientific and bilingual review package
 
-The Biology atlas has a dedicated external-review handoff. These documents are working materials for independent reviewers; none is itself an independent approval:
+Start with `INDEPENDENT_REVIEW_BUNDLE.md` for the frozen-snapshot instructions and complete reviewer deliverables. The Biology atlas has a dedicated external-review handoff. These documents are working materials for independent reviewers; none is itself an independent approval:
 
 - `INDEPENDENT_REVIEW_HANDOFF.md` — reviewer qualifications, evidence protocol, acceptance criteria and G4/G5 sign-off forms.
 - `INDEPENDENT_REVIEW_PAGE_MATRIX.md` — assignment scope and recommended specialist competence for all 13 bilingual pages, plus cross-page checks.
