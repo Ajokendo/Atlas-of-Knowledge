@@ -104,3 +104,14 @@ Three additional generation attempts during the next work cycle returned substan
 To avoid wasting the illustration queue on near-duplicates, the next distinct target is the P1 bird plate `fauna-birds.webp`. The existing chapter identifies the golden eagle (`Aquila chrysaetos`), bearded vulture (`Gypaetus barbatus`), Himalayan snowcock (`Tetraogallus himalayensis`) and black stork (`Ciconia nigra`), with additional waterbird records in the Son-Kul and Chatyr-Kul sections. A future composition must keep cliff/raptor, alpine ground-bird and wetland/waterbird habitats visually separate, and must not imply that all species share one microhabitat. These names are grounded in the chapter text, but a composite plate still requires final ornithological and bilingual caption review.
 
 No image marker or disposition was changed by this audit.
+
+
+## Eighth production attempt: golden eagle in flight
+
+A standalone horizontal wildlife concept was generated (ImageGen generation ID `95b58769-7232-4b29-bea2-5c2ac391a9c2`) and converted to WebP:
+
+- `biology-golden-eagle-flight-candidate.webp` — 1536×1024, 233,558 bytes.
+
+The composition depicts a large brown eagle in flight over a high-mountain landscape. The visual intent is a golden-eagle concept corresponding to the chapter's `Aquila chrysaetos` entry. However, species-level identification from generated artwork is not guaranteed; feather pattern, proportions, cere/beak and feet require ornithological review. The image is not a field photograph and does not establish an individual, locality, behavior record, season or population. The mountain setting is illustrative.
+
+This is a local-only draft; it has not been committed as a raster asset, inserted into a chapter, or approved for publication. It is a distinct flight composition and is counted as one new candidate. Existing image markers and dispositions remain unchanged.
