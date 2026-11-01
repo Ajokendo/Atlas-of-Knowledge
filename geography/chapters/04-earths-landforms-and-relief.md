@@ -356,7 +356,7 @@
 
 ### 4.14.2. Цифровые модели высот / Digital Elevation Models
 
-**Цифровая модель высот (DEM)** — растровое представление высот поверхности. В одних наборах данных модель описывает рельеф земли без зданий и растительности, в других — верхнюю поверхность, включая растительность, здания или лёд. **Цифровая модель поверхности (DSM)** обычно отражает верх объектов и растительного покрова, а **цифровая модель рельефа (DTM)** стремится описать поверхность земли без таких объектов. Терминология различается между ведомствами и программами, поэтому необходимо проверять определение и метаданные конкретного набора данных.
+**Цифровая модель высот (DEM)** — растровое представление высот поверхности. В одних наборах данных модель описывает рельеф земли без зданий и растительности, в других — верхнюю поверхность, включая растительность, здания или лёд. **Цифровая модель поверхности (DSM)** обычно отражает верх объектов и растительного покрова, а **цифровая модель рельефа (DTM)** стремится описать поверхность земли без таких объектов. Терминология различается между ведомствами и программами, поэтому необходимо проверять определение и метаданные конкретного набора данных. Например, глобальная модель NOAA ETOPO 2022 объединяет топографию суши и батиметрию океана с шагом сетки 15 угловых секунд; для Гренландии и Антарктиды доступны варианты, показывающие поверхность ледникового щита или коренное ложе подо льдом.
 
 DEM используют для расчёта уклонов, экспозиции склонов, водосборов, линий водоразделов, объёмов земляных работ и других параметров. Важно учитывать пространственное разрешение, вертикальную точность, горизонтальную и вертикальную системы отсчёта, источник и дату съёмки, метод обработки, а также наличие растительности или зданий. Более мелкий размер ячейки сам по себе не гарантирует большей точности: разрешение должно соответствовать плотности и качеству исходных данных.
 
@@ -690,7 +690,7 @@ On a standard topographic map, contour lines normally do not cross; overhanging 
 
 #### 4.14.2. Digital Elevation Models
 
-A **digital elevation model (DEM)** is a gridded representation of elevation. Some products represent bare-earth terrain, while other elevation grids represent the top surface, including vegetation, buildings or ice. A **digital surface model (DSM)** generally represents the tops of features and vegetation, while a **digital terrain model (DTM)** generally aims to represent bare ground. Terminology varies between agencies and software, so users must check the dataset definition and metadata rather than infer what is represented from the acronym alone.
+A **digital elevation model (DEM)** is a gridded representation of elevation. Some products represent bare-earth terrain, while other elevation grids represent the top surface, including vegetation, buildings or ice. A **digital surface model (DSM)** generally represents the tops of features and vegetation, while a **digital terrain model (DTM)** generally aims to represent bare ground. Terminology varies between agencies and software, so users must check the dataset definition and metadata rather than infer what is represented from the acronym alone. For example, NOAA's global ETOPO 2022 model integrates land topography and ocean bathymetry at 15-arc-second grid spacing; for Greenland and Antarctica, it provides versions representing either the ice-sheet surface or the bedrock beneath the ice.
 
 DEMs can be used to calculate slope, aspect, catchments, watersheds, earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, horizontal and vertical reference systems, data source, acquisition date, processing method and whether vegetation or buildings are included. A finer grid cell does not automatically mean greater accuracy: resolution must be appropriate to the source-data density and quality.
 
@@ -784,6 +784,9 @@ Using a prepared teaching map excerpt:
 11. U.S. Geological Survey. *Landslide Maps: Where Do Landslides Occur?* https://www.usgs.gov/programs/landslide-hazards/where-do-landslides-occur
 12. U.S. Geological Survey. *27 Ideas for Teaching with Topographic Maps*. https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0
 13. National Geographic Society. *Exploring Topographic Features*. https://education.nationalgeographic.org/resource/exploring-topographic-features/
+14. British Geological Survey. *Landforms*. https://www.bgs.ac.uk/discovering-geology/geological-processes/landforms/
+15. U.S. National Park Service. *Glaciers and Glacial Landforms*. https://www.nps.gov/subjects/geology/glacial-landforms.htm
+16. U.S. Geological Survey. *Geomorphology, Sediment, and Habitat*. https://www.usgs.gov/centers/washington-water-science-center/science/science-topics/geomorphology-sediment-and-habitat
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
