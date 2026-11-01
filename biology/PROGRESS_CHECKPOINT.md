@@ -200,3 +200,12 @@
 - Produced one distinct local horizontal WebP candidate for the wetland component of the P1 bird plate: `biology-black-stork-wetland-candidate.webp` (1672×941), a black-stork-like bird at an alpine lake shore. Generation provenance, visual review and regional habitat references are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
 - The candidate is generated concept art, not a field photograph; species/anatomical review remains open. It is local-only, uncommitted, uninserted and unapproved. The cliff-raptor and alpine-ground-bird components are still required.
 - No image marker, target path or disposition changed. All 52 mapped assets remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests or CI were run in this stage.
+
+
+## Full repeat audit — 5% milestone — 1 November 2026
+
+- Unified editorial, scientific, technical and visual repeat audit started for all 13 Biology HTML pages and the interactive/visual asset system.
+- Inventory pass: 13 pages identified (index, ten core chapters, two Kyrgyzstan regional chapters); balanced RU/EN marker counts; no duplicate HTML IDs in source scan; 22 inline SVG elements; no integrated raster `<img>` elements.
+- All 52 image markers remain mapped and Deferred. No image asset was approved or integrated. G4/G5 remain open.
+- Audit report: `REPEAT_AUDIT_2026-11-01.md`. Audit completion 5%; controlled editorial readiness remains 95/100 and is not recalculated by inventory alone.
+- No chapter content or tool logic changed in this milestone. Fresh Node/Chromium execution is pending.
