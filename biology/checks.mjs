@@ -83,12 +83,12 @@ if (!fs.existsSync(imageMapPath)) {
   errors.push("Missing Biology IMAGE_INSERTION_MAP.md");
 } else {
   const imageMap = fs.readFileSync(imageMapPath, "utf8");
-  const mappedRows = [...imageMap.matchAll(/^\\| `(image-brief-[^\\`]+)` \\| `([^\\`]+)` \\| [^|]*\\| `([^\\`]+)` \\|/gm)];
+  const mappedRows = [...imageMap.matchAll(/^[|] `(image-brief-[^`]+)` [|] `([^`]+)` [|] [^|]*[|] `([^`]+)` [|]/gm)];
   const mappedIds = mappedRows.map(m => m[1]);
   const mappedFiles = mappedRows.map(m => m[3]);
   const pageIds = pages.flatMap(file => {
     const html = fs.readFileSync(file, "utf8");
-    return [...html.matchAll(/\\bid=["'](image-brief-[^"']+)["']/gi)].map(m => m[1]);
+    return [...html.matchAll(/id=["'](image-brief-[^"']+)["']/gi)].map(m => m[1]);
   });
   const mappedSet = new Set(mappedIds);
   const pageSet = new Set(pageIds);
