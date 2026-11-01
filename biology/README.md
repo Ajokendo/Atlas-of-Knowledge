@@ -940,3 +940,12 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Added regression assertions for the mechanisms, distinctions, bilingual blocks and section order.
 - Chapter commit: `f96f28c4386afca6e23437d0aedc14bc49233323`. Test commit: `6d680c4e08ea76372b9232bd2b00c6eb58622707`.
 - Focused read-back and complete Node.js/Chromium/CI execution remain pending. Controlled readiness remains 95/100; independent gates G4 and G5 remain open.
+
+## Homeostatic control and feedback lesson — 1 November 2026
+
+- Expanded `chapters/anatomy.html` with a bilingual explanation of negative-feedback control loops, receptor/integrator/effector roles and physiological ranges.
+- Added applied examples: thermoregulation, insulin/glucagon control of blood glucose, vasopressin and water balance, plus bounded positive-feedback examples in labour and blood clotting.
+- Added an accessible SVG feedback-loop overview with a title, description and bilingual labels. The text distinguishes positive/negative feedback by direction of effect, not by value judgement.
+- Added regression assertions for the mechanisms, examples, bilingual content, section placement and SVG accessibility.
+- Chapter commit: `851d39f57321940c90562b681fd59b7578b2895e`. Test commit: `4cc01025f6066befd783b9b745747392ae14cbab`.
+- Full Node.js, Chromium and CI runs have not yet been executed on these latest commits. Controlled readiness remains **95/100** pending G4/G5 independent review.
