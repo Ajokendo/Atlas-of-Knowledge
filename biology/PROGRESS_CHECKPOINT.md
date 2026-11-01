@@ -415,3 +415,17 @@
 - Detailed findings, sources and unresolved specialist questions: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
 - No evidence was found to justify changing the qualified Common Crane, maral, argali, Son-Kul or Suusamyr numerical claims in this pass. Fish author/voucher questions remain open.
 - This is an author-side source audit, not an independent expert sign-off. G4 remains open; G5 remains open. The controlled editorial readiness score remains **95/100** and is not raised by this partial audit. The 52 illustration dispositions remain Deferred. No full browser/mobile/accessibility or test-suite pass is claimed.
+
+
+## G4 scientific audit checkpoint — 50% (1 November 2026)
+
+- Completed two of four planned G4 review blocks: **regional biodiversity/species evidence** and **taxonomy/systematics/evolution**. Author-side G4 progress: **50%**.
+- Regional block: reviewed priority claims in the Kyrgyzstan flora and fauna chapters; retained appropriate source/date/geographic caveats; corrected the Aygul taxonomic statement by preserving the local-source name `Petilium eduardii` while cross-referencing POWO's accepted `Fritillaria eduardii`.
+- Systematics block: clarified that the three-domain framework is widely used but does not settle all current phylogenomic hypotheses; added a two-domain-model caveat and a 2025 Nature source. The Russian/English explanatory output, rank interaction, learning objective and quiz wording were aligned.
+- Evolution block: corrected the Cambrian start in the interactive timeline from the older rounded 541 Ma to **538.8 ± 0.6 Ma** per ICS chart 2026/06; updated the visible and language-switched control labels. Strengthened the caveat around disputed 3.8–3.7 Ga Isua biosignatures and distinguished them from more robust evidence around 3.5 Ga. Added sources for the Great Oxidation Event and early Homo sapiens fossils, and added an OpenStax source for speciation/reproductive barriers.
+- Block 2 chapter commits: `71f2a9793da72ee950b33d8c68da0ea3c887dd3e`, `52d5b779bb213df685e8073efc3820e06eb1aaa4`, `f9d80c0ca328e9a00ec9ec295729516e502d6f4c`, `e0ee2d99bdd0e5f1b36a0fbbfe987f5a4c3b8a73`, `c1bd97ea5a2c738aa2c1c8827740f9679e8592bf`.
+- During CI inspection, found and fixed a pre-existing missing closing brace in `biology/browser-smoke.mjs` (commit `652e8e798578cd87b8ef714cf6da2e2ca56ecdb7`). This is a technical maintenance fix, not part of the G4 percentage.
+- CI for commit `652e8e798578cd87b8ef714cf6da2e2ca56ecdb7`: Node/static Biology page, link and script validation has passed; Chromium installation/browser smoke tests were still running at checkpoint creation. Do not mark browser tests passed until the workflow concludes successfully.
+- Detailed G4 findings and references: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
+- Remaining G4 blocks: (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency.
+- Independent scientific sign-off and G5 bilingual/editorial review remain open. Controlled editorial readiness remains **95/100**; the 52 illustration placements remain Deferred. No publication-readiness increase is claimed.
