@@ -742,6 +742,7 @@ try {
       if (!(await page.locator("[data-i=basePairingNote]").innerText()).includes("adenine with thymine") || !(await page.locator("[data-i=basePairingNote]").innerText()).includes("guanine with cytosine")) errors.push(file + ": English DNA base-pairing note is incomplete");
       if (!(await page.locator("[data-i=nucleicAcidDirectionNote]").innerText()).includes("antiparallel") || !(await page.locator("[data-i=nucleicAcidDirectionNote]").innerText()).includes("5′→3′")) errors.push(file + ": English nucleic-acid direction note is incomplete");
       if (!(await page.locator("[data-i=atpNote]").innerText()).includes("ATP is not energy itself") || !(await page.locator("[data-i=atpNote]").innerText()).includes("hydrolysis")) errors.push(file + ": English ATP coupling note is incomplete");
+      if (!(await page.locator("[data-i=atpNote]").innerText()).includes("−30.5 kJ/mol") || !(await page.locator(".formula").filter({ hasText: "ATP + H₂O → ADP + Pᵢ" }).count())) errors.push(file + ": English ATP hydrolysis equation or biochemical standard free-energy caveat is missing");
       const proteinEn = await page.locator("[data-i=proteinStructureNote]").innerText();
       if (!proteinEn.includes("denaturation") || !proteinEn.includes("peptide bonds") || !proteinEn.includes("not always")) {
         errors.push(file + ": English protein denaturation explanation is incomplete");
@@ -758,6 +759,7 @@ try {
       if (!(await page.locator("[data-i=proteinNote]").innerText()).includes("пептидными связями") || !(await page.locator("[data-i=proteinNote]").innerText()).includes("первичная структура")) errors.push(file + ": Russian protein note must explain peptide bonds and primary structure");
       if (!(await page.locator("[data-i=nucleicAcidDirectionNote]").innerText()).includes("антипараллельно") || !(await page.locator("[data-i=nucleicAcidDirectionNote]").innerText()).includes("5′→3′")) errors.push(file + ": Russian nucleic-acid direction note is incomplete");
       if (!(await page.locator("[data-i=atpNote]").innerText()).includes("АТФ не является") || !(await page.locator("[data-i=atpNote]").innerText()).includes("гидролиз")) errors.push(file + ": Russian ATP coupling note is incomplete");
+      if (!(await page.locator("[data-i=atpNote]").innerText()).includes("−30,5 кДж/моль") || !(await page.locator(".formula").filter({ hasText: "ATP + H₂O → ADP + Pᵢ" }).count())) errors.push(file + ": Russian ATP hydrolysis equation or biochemical standard free-energy caveat is missing");
       if (!(await page.locator("[data-i=waterNote]").innerText()).includes("ковалентными связями O–H")) errors.push(file + ": Russian water note must distinguish hydrogen bonds from covalent O-H bonds");
       if (!(await page.locator("[data-i=waterText]").innerText()).includes("угловой формы") || !(await page.locator("[data-i=waterText]").innerText()).includes("дипольные моменты не компенсируются")) errors.push(file + ": Russian water explanation must connect bent geometry with molecular polarity");
     }
