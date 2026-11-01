@@ -1301,14 +1301,48 @@ try {
     }
 
     if (file === "molecule-lab.html") {
+      const canvas = page.locator("#molecule");
       await page.locator("#choose").selectOption("co2");
       if (!(await page.locator("#formula").innerText()).includes("CO₂")) errors.push(file + ": molecule selector failed");
+      if (!(await canvas.getAttribute("aria-label")).includes("Углекислый газ")) errors.push(file + ": selected molecule name is missing from the Russian canvas accessible name");
       await page.locator("#reset").click();
       if (await page.locator("#spin").getAttribute("aria-pressed") !== "false") errors.push(file + ": auto-rotation starts in the wrong accessible state");
       await page.locator("#spin").click();
       if (await page.locator("#spin").getAttribute("aria-pressed") !== "true") errors.push(file + ": enabling auto-rotation does not expose the pressed state");
       await page.locator("#spin").click();
       if (await page.locator("#spin").getAttribute("aria-pressed") !== "false") errors.push(file + ": disabling auto-rotation does not clear the pressed state");
+
+      const initialDrawing = await canvas.evaluate(el => el.toDataURL());
+      await canvas.focus();
+      await page.keyboard.press("ArrowRight");
+      const keyboardDrawing = await canvas.evaluate(el => el.toDataURL());
+      if (keyboardDrawing === initialDrawing) errors.push(file + ": arrow-key rotation did not change the molecular model");
+      await page.locator("#reset").click();
+      const resetDrawing = await canvas.evaluate(el => el.toDataURL());
+      if (resetDrawing !== initialDrawing) errors.push(file + ": reset did not restore the initial molecular orientation");
+
+      const bounds = await canvas.boundingBox();
+      if (!bounds) {
+        errors.push(file + ": molecule canvas has no measurable pointer target");
+      } else {
+        await page.mouse.move(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
+        await page.mouse.down();
+        await page.mouse.move(bounds.x + bounds.width / 2 + 45, bounds.y + bounds.height / 2 + 25, { steps: 4 });
+        await page.mouse.up();
+        const pointerDrawing = await canvas.evaluate(el => el.toDataURL());
+        if (pointerDrawing === initialDrawing) errors.push(file + ": pointer drag did not rotate the molecular model");
+        await page.locator("#reset").click();
+      }
+
+      await page.locator("#choose").selectOption("ammonia");
+      const selectedFormula = (await page.locator("#formula").innerText()).trim();
+      await page.locator("#lang").click();
+      if (selectedFormula !== "NH₃" || !(await page.locator("#name").innerText()).includes("Ammonia") ||
+          !(await canvas.getAttribute("aria-label")).includes("Ammonia")) {
+        errors.push(file + ": language switching did not preserve the selected molecule and update its accessible name");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#choose").selectOption("water");
     }
 
     if (file === "molecule-lab.html") {
