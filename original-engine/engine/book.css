@@ -225,6 +225,7 @@
   font: 500 12px var(--mono); letter-spacing: .06em; padding: 8px 12px; border-radius: 999px;
 }
 .practice .reveal:hover { border-color: var(--mid); }
+.practice .feedback { min-height: 1.4em; margin: 8px 0 0; color: var(--hi); font: 12px/1.5 var(--mono); }
 .practice .why { margin-top: 10px; padding: 10px 0 2px 16px; border-left: 1px solid var(--mid); font-size: 15px; }
 .practice .why p { margin: 0 0 8px; }
 .practice .why .eq { font-size: 20px; }
