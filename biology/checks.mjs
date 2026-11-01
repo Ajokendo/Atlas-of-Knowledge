@@ -128,6 +128,14 @@ const coreChapters = [
 for (const chapter of coreChapters) {
   const file = path.join(root, "chapters", chapter);
   const html = fs.readFileSync(file, "utf8");
+  if (!html.includes('document.getElementById("quiz-next").hidden=!quizAnswered;') ||
+      !html.includes('quizAnswered=false;renderQuiz()});')) {
+    errors.push("chapters/" + chapter + ": quiz answer state must persist across language switches and reset only when advancing");
+  }
+}
+for (const chapter of coreChapters) {
+  const file = path.join(root, "chapters", chapter);
+  const html = fs.readFileSync(file, "utf8");
   const match = html.match(/<section\b[^>]*class=["'][^"']*\breferences\b[^"']*["'][^>]*>([\s\S]*?)<\/section>/i);
   if (!match) {
     errors.push("chapters/" + chapter + ": missing selected references section");
