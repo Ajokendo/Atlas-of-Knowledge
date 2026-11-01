@@ -3,7 +3,7 @@
 **Audit start:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
 **Scope:** all Biology HTML pages, scientific/editorial content, interactive tools, technical checks, vector and raster visuals, image placeholders, bilingual parity, links and release controls.  
-**Audit completion:** **70%** — species-checklist currency and bird-list scope audit completed.  
+**Audit completion:** **80%** — dated local bird and mammal evidence reviewed for Issyk-Kul and Bishkek.  
 **Controlled editorial readiness:** **95/100** (separate metric; unchanged).
 
 ## Audit method and boundaries
@@ -267,3 +267,26 @@ Continue technical review by examining each interactive model's state transition
 ### Change log
 
 - 1 November 2026: advanced repeat-audit coverage to 70%; updated the mammal checklist from GBIF v1.11 to v1.12 and documented why public Kyrgyzstan bird-list totals are not directly comparable. No test pass or publication approval is claimed.
+
+
+## 80% milestone — local bird and mammal evidence — 1 November 2026
+
+### Completed source checks and corrections
+
+- Reviewed the Ministry of Natural Resources notice dated 2 July 2026 for camera traps on the Zhetim-Bel ridge and in Karakol State Nature Park. Added the dated detections of snow leopard, lynx, ibex, roe deer and wild boar to the Issyk-Kul regional dossier.
+- Preserved the monitoring timeline: camera traps installed in October 2025, removed 22–28 June 2026, and image analysis still under way at the date of the Ministry notice. The atlas explicitly states that the source does not publish camera-days, independent detection counts, individual identification or a population estimate.
+- Reviewed UNDP Kyrgyzstan's 7 December 2025 report on an Important Bird Area near Bishkek. Added the reported year-round richness of more than 200 species and approximately 40 species identified during a 3–4-hour field visit.
+- Kept the white-tailed eagle “only confirmed nesting site” statement explicitly attributed to UNDP. The source does not provide the complete event checklist or a standardized survey protocol; exact sensitive nest locations are not disclosed.
+- Added the two primary institutional sources to the chapter bibliography, documented the evidence classes and limitations in `KYRGYZSTAN_SPECIES_AUDIT.md`, and added regression guards for dates, taxon names, source links and non-abundance caveats.
+
+### Saved-state and verification limits
+
+- GitHub read-back verified the fauna chapter, regional species audit and `checks.mjs`; the milestone report, progress checkpoint and README are being synchronized and read back in this save cycle.
+- The 52 image insertion anchors and 52 Deferred disposition entries remain unchanged; no image was generated or integrated.
+- `checks.mjs` was not executed. No test pass is claimed; browser, mobile, accessibility and CI checks remain pending.
+- G4 independent scientific review and G5 independent bilingual/editorial review remain open.
+- Repeat-audit coverage: **80%**. Controlled editorial readiness remains **95/100**; this is not publication approval.
+
+### Change log
+
+- 1 November 2026: advanced repeat-audit coverage to 80%; added source-qualified records for Zhetim-Bel/Karakol camera traps and the Bishkek Important Bird Area. No test pass or publication approval is claimed.
