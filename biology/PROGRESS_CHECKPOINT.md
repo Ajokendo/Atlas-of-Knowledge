@@ -711,3 +711,12 @@
 - The attempted full Tab-order enumerator remained unreliable in CI (#492, run ID `41343002191`, commit `bf8b7d92f21fa3ee8b66ba552ec842bf87966fbf`): it could not consistently map Chromium's active element back to the script's candidate list, so its reachability counts were not accepted as valid findings about the pages.
 - Removed that unreliable full-sequence assertion rather than weakening page accessibility requirements. Retained the proven Tab → next Tab → Shift+Tab check and added a direct check that the first keyboard-focused control exposes a detectable outline, shadow or filter.
 - Corrected test commit: `f67b8a66aa974972444b51a5ca794885caae884b`. CI validation pending. Full traversal across every control remains an open manual/automated follow-up; this checkpoint does not claim it passed.
+
+
+## 2026-11-01 — keyboard focus smoke check passed
+
+- CI #494 (run ID `41343123403`, code commit `f67b8a66aa974972444b51a5ca794885caae884b`) completed successfully. It confirms the retained Tab → next Tab → Shift+Tab navigation check and the first keyboard-focused element's visible focus indicator on all 13 pages at both mobile and desktop widths.
+- The same browser run passed preliminary contrast sampling (6,683 text instances; zero below-threshold instances), 26 language-toggle interactions, and no uncaught page errors.
+- The expanded full-tab-order enumerator was deliberately removed after its test harness could not reliably map the browser's active element to all candidate elements. Full keyboard traversal remains open; only the explicitly listed smoke checks are confirmed.
+- Keyboard smoke-check stage: 100% for the defined first-focus / forward / reverse test. Overall keyboard accessibility review remains incomplete pending full traversal, control-specific keyboard activation, screen-reader and device checks.
+- Overall editorial readiness remains 95/100. G4/G5 independent reviews, 52 deferred visual assets and feedback-intake security activation remain open; feedback form remains disabled.
