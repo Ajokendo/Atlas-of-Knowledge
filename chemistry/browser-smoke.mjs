@@ -80,7 +80,7 @@ try {
         help: violation.help,
         nodes: violation.nodes.slice(0, 5).map(node => ({
           target: node.target,
-          summary: node.failureSummary?.replace(/\\s+/g, " ").slice(0, 280)
+          summary: node.failureSummary?.replace(/\s+/g, " ").slice(0, 280)
         })),
         count: violation.nodes.length
       }));
