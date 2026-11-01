@@ -371,6 +371,8 @@ DEM используют для расчёта уклонов, экспозиц�
 
 **Проверьте себя:** как изменится процентный уклон, если при том же превышении 100 м горизонтальное расстояние составит 250 м?
 
+**Ответ для самопроверки:** 100 м / 250 м × 100% = **40%**; угол наклона — примерно **21,8°**.
+
 ## 4.15. Рельеф и жизнь человека / Relief and Human Activities
 
 Рельеф создаёт возможности и ограничения для расселения и хозяйства.
@@ -661,7 +663,7 @@ Climate influences the intensity of different weathering types, but rock composi
 
 Earth's relief includes both the highest mountain peaks and the deepest ocean trenches. Comparisons of extremes must specify the measurement method and the vertical or depth reference system.
 
-- **Mount Everest** is Earth's highest summit above mean sea level; its jointly announced snow-surface elevation is 8,848.86 m in the International Height Reference System (2020 measurement).
+- **Mount Everest** is Earth's highest summit by elevation; its jointly announced snow-surface height is 8,848.86 m in the International Height Reference System (2020 measurement).
 - **Challenger Deep in the Mariana Trench** is the deepest known part of the ocean; a 2021 study reported a depth of about 10,935 m (±6 m; 95% confidence interval, relative to mean sea level). Values depend on the precise location and measurement method.
 - The **shores of the Dead Sea** include some of the lowest exposed land areas; their elevation changes as the lake level changes.
 - **The Tibetan Plateau** is the largest and one of the highest extensive elevated regions on the planet.
@@ -713,6 +715,8 @@ This means the ground rises by an average of 20 m for every 100 m of horizontal 
 **Important:** this is the average slope between the two points, not the slope at every location along the route. If contour spacing varies, local slope may also vary. Use horizontal distance, not the length of a winding line along the ground.
 
 **Check your understanding:** How would the percentage slope change if the horizontal distance were 250 m while the elevation difference remained 100 m?
+
+**Self-check answer:** 100 m / 250 m × 100% = **40%**; the slope angle is approximately **21.8°**.
 
 ---
 
@@ -784,11 +788,12 @@ Using a prepared teaching map excerpt:
 14. British Geological Survey. *Landforms*. https://www.bgs.ac.uk/discovering-geology/geological-processes/landforms/
 15. U.S. National Park Service. *Glaciers and Glacial Landforms*. https://www.nps.gov/subjects/geology/glacial-landforms.htm
 16. U.S. Geological Survey. *Geomorphology, Sediment, and Habitat*. https://www.usgs.gov/centers/washington-water-science-center/science/science-topics/geomorphology-sediment-and-habitat
-17. State Council Information Office of China (2020). *8,848.86 meters — China, Nepal jointly announce new height of Mt. Qomolangma*. https://english.scio.gov.cn/in-depth/2020-12/09/content_76993252.htm
+17. Chinese People's Political Consultative Conference (2020). *Chinese, Nepali presidents exchange letters, jointly announcing Mt. Qomolangma's height*. https://en.cppcc.gov.cn/2020-12/09/c_570579.htm
 18. U.S. Geological Survey. *Landslide Types and Processes*. https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html
 19. U.S. National Park Service. *Mass Wasting*. https://www.nps.gov/subjects/erosion/mass-wasting.htm
 20. National Geographic Society. *Weathering*. https://education.nationalgeographic.org/resource/weathering/
 21. U.S. National Park Service. *Plateaus and Mesas*. https://www.nps.gov/subjects/nnlandmarks/plateaus-and-mesas.htm
+22. Jiang, T. et al. (2022). *Determining the new height of Mount Qomolangma based on the International Height Reference System*. Journal of Geodesy and Geoinformation Science. https://doi.org/10.1080/10095020.2022.2128901
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
