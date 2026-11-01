@@ -36,7 +36,7 @@
 | 11 | Economic Geography | 7 | Complete | Location quotient checked; 2025 SNA added alongside 2008 SNA; core data references linked | Update and verify any country examples |
 | 12 | Geography of World Regions | 10 | Complete | M49 statistical grouping source linked; regional references refreshed | Check regional data dates and map classifications |
 | 13 | Ecology and Global Change | 11 | Complete | 2023 assessment (six of nine planetary boundaries) added in RU/EN; Nature DOI verified | Full environmental-indicator proofread |
-| 14 | Geographic Information Systems | 9 | Complete | OGC, ISO/TC 211, EPSG, QGIS, Esri and UN-GGIM references refreshed | Software-version and workflow validation |
+| 14 | Geographic Information Systems | 9 | Complete | OGC, ISO/TC 211, EPSG, QGIS, Esri and UN-GGIM references refreshed; Digital Code No. 178 (2025), Chapter 12, Articles 92–98 reviewed for national spatial metadata/Georesource framework (see addendum) | Software-version and workflow validation; verify operational publication, metadata and reuse conditions for national datasets |
 | 15 | Remote Sensing of the Earth | 11 | Complete | NASA, USGS, ESA and Copernicus sources linked; broken Sentinel-1 URL replaced | Sensor/product metadata and accuracy review |
 | 16 | Geographic Research and Cartography | 9 | Complete | ICA Cartographic Body of Knowledge and UN census-methodology references linked | Full methodology and assessment review |
 | 17 | Geographic Location and Geological Evolution of Kyrgyzstan | 9 | Complete | Area, border-demarcation and 2026 treaty updates checked; added Law No. 58 (2026) and state-register source for AIS Geographical Names (10,281 features; registry records last modernisation in 2022) | Extreme-point coordinates and official map validation; verify current toponym records and map-layer metadata |
@@ -60,3 +60,9 @@
 6. Run final editorial, scientific, accessibility and deployment checks before describing the atlas as publication-ready.
 
 **Important:** “Complete” in the chapter matrix means the structural and bilingual production pass is complete. It does not mean every scientific claim has been independently verified or that the chapter is ready for final publication.
+
+
+## Additional legal-source review — 1 November 2026
+
+- Chapter 14 cross-check: the Digital Code of the Kyrgyz Republic, 31 July 2025, No. 178, Chapter 12 (Articles 92–98), establishes the national legal framework for spatial data, metadata, the Georesource and geosite. A separate audit note is stored at `geography/NATIONAL_SPATIAL_DATA_FRAMEWORK_KG_2026-11-01.md` (commit `599a9fd7521a515d919e71e46a205c50f3c1a0a1`).
+- This legal framework is not evidence that individual national datasets are already downloadable or validated. Dataset-level source, metadata, CRS, licence, date and access conditions remain to be checked.
