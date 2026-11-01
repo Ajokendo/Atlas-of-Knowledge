@@ -759,7 +759,7 @@ A read-only audit of the 13 HTML pages on `workspace/biology` confirmed:
 - The illustration inventory remains exactly 52 mapped placeholders, with 52 unique anchor IDs and 52 unique target filenames; all 52 page anchors match the central map in both directions.
 - These are source-level checks against the current GitHub file contents. They do **not** replace execution of `checks.mjs`, browser automation, the CI workflow, real-device testing or expert review.
 
-Latest documentation checkpoint: `dc9619cad1c296597b7782c18e14f22175d67ee9`. Keep the readiness score at **95/100** until the remaining release gates have actual evidence.
+Latest documentation checkpoint at the time of this entry: `d7b23408d264f04d133bfa8aa98f2bb5719efddf`. Keep the readiness score at **95/100** until the remaining release gates have actual evidence.
 
 ## Bilingual learning-clarity pass and follow-up source audit — 1 November 2026
 
@@ -768,3 +768,12 @@ Latest documentation checkpoint: `dc9619cad1c296597b7782c18e14f22175d67ee9`. Kee
 - The Russian and English content-marker counts remain balanced on every page. The audit found no duplicate IDs, no buttons missing explicit `type="button"`, and no inline SVG without an accessible name.
 - This is a read-only source audit of the current GitHub branch. It does not establish that the rewritten text has passed independent bilingual copy-editing, that interactive behavior works in a real browser, or that the Node/Playwright test suites have executed.
 - The 100% closure gates remain open until their evidence is recorded. Keep the readiness score at **95/100**; the content-clarity pass is substantive progress but does not replace executable validation, CI, specialist review or release QA.
+
+
+## Readiness-score and CI status clarification — 1 November 2026
+
+- Earlier entries in this README record interim **98/100** and **99/100** editorial-readiness milestones for bounded content and taxonomic-review stages. Those historical scores are not the current whole-atlas release score.
+- The later 100% closure framework deliberately applies a stricter, evidence-based standard across the entire Biology branch. Under that framework, the current controlled score is **95/100** until executable validation, browser/device QA, independent scientific and bilingual review, and the illustration disposition are evidenced. Do not read the earlier chapter-stage scores as a claim that the full atlas is 99% release-ready.
+- Queried the GitHub Actions run collection filtered to `workspace/biology`: no workflow runs were returned. The latest Biology branch commit also has no reported commit status entries. This is an absence of CI evidence, not a pass or a failure result.
+- The Biology workflow remains configured for pull requests, pushes to `main`, and manual dispatch. The available GitHub connection in this work session exposes read operations and file commits but no workflow-dispatch action; no PR or merge was created. G3 therefore remains unchecked.
+- Current documentation checkpoint: `d7b23408d264f04d133bfa8aa98f2bb5719efddf`.
