@@ -744,7 +744,7 @@ The remaining five percentage points are reserved for evidence, not additional p
 - [x] **G3 — CI evidence:** the Biology workflow completed successfully on the `workspace/biology` push trigger. Run [#41275274366](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41275274366), commit `275fdb602b858e8fdda1b171b6468fa4afeb4122`, job `validate` — success. The run includes both the Node static suite and Chromium browser suite.
 - [ ] **G4 — Independent scientific review:** obtain qualified review of remaining taxonomic and species-occurrence uncertainties, prioritizing freshwater fish records and other locally sensitive distribution claims; record reviewer scope and resolved/deferred findings.
 - [ ] **G5 — Bilingual editorial and release review:** complete independent Russian/English copy-editing, check consistency of terminology and citations, and verify the published pages at mobile and desktop widths.
-- Review materials for G4/G5: [EXTERNAL_REVIEW_PACKET.md](EXTERNAL_REVIEW_PACKET.md) — prepared scope, priority claims, editorial checklist and reviewer sign-off record.
+- Review materials for G4/G5: [EXTERNAL_REVIEW_PACKET.md](EXTERNAL_REVIEW_PACKET.md) — prepared scope, priority claims, editorial checklist and reviewer sign-off record. Author-side bilingual parity evidence: [BILINGUAL_PARITY_AUDIT.md](BILINGUAL_PARITY_AUDIT.md) — 1,136 paired RU/EN blocks checked; not a substitute for an independent editor.
 - [x] **G6 — Illustration disposition (deferred):** all 52 assets are explicitly deferred in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md), with rationale, source/licence status and verified placeholder integration. The 13 P1 briefs have detailed review in [IMAGE_SCIENTIFIC_REVIEW.md](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs have individual review in [IMAGE_BRIEF_REVIEW.md](IMAGE_BRIEF_REVIEW.md). No images have been generated or sourced; visual production remains pending.
 
 **Control rule:** keep the readiness score at 95/100 while G4 and G5 remain unchecked. G6 is closed as a documented deferral only; that does not mean the 52 visual assets have been produced. Passing G1–G3 does not certify scientific review or bilingual editorial release. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
@@ -896,3 +896,12 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - All 52 images remain **Deferred**; no image file has been generated, sourced or inserted. The brief reviews are complete, but actual image production and asset-level QA remain pending.
 - G6 remains closed as an explicit deferral decision; G4 and G5 remain open. Readiness remains **95/100**.
 - Source checkpoint before this note: `e5d52491ebc3b219e68bb82203dd96c6c012c9e5`.
+
+
+## Bilingual parity audit added — 1 November 2026
+
+- Created [`BILINGUAL_PARITY_AUDIT.md`](BILINGUAL_PARITY_AUDIT.md): all 13 pages have balanced RU/EN content-block counts, totalling 1,136 paired blocks.
+- Numeric-token multisets match in all 1,136 block pairs. Scientific-name sets match across the Russian and English content blocks on every page; the Kyrgyzstan flora and fauna chapters contain 34 and 69 unique Latin-name strings respectively in each language.
+- The audit found and corrected an English/Russian evidence-scope gap in the Himalayan Snowcock note; it also aligned the OSME 2019 date and two fauna numeric values.
+- These checks are now automated in `checks.mjs`. The CI run [#41275876545](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41275876545) passed after adding the parity assertions.
+- This is author-side structural parity evidence, not independent copy-editing or an idiomatic-language review. G5 remains open until a qualified bilingual editor signs off.
