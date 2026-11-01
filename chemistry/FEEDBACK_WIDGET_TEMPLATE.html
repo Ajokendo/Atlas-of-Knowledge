@@ -1,0 +1,149 @@
+<!--
+Atlas of Knowledge — Chemistry teacher feedback template.
+PREPARATION ONLY: no endpoint, no submit handler, no storage, no network request.
+Do not enable submission before portal completion, security review, and explicit owner approval.
+-->
+<section class="aok-feedback" lang="ru" aria-labelledby="aok-feedback-title">
+  <style>
+    .aok-feedback{max-width:860px;margin:2rem auto;padding:clamp(1rem,3vw,2rem);border:1px solid #deded9;background:#fbfbfa;color:#18181a;font:15px/1.55 system-ui,sans-serif}
+    .aok-feedback h2{font-size:clamp(1.35rem,3vw,1.8rem);line-height:1.2;margin:0 0 .6rem}
+    .aok-feedback h3{font-size:1.08rem;margin:1.3rem 0 .35rem}
+    .aok-feedback p,.aok-feedback .hint{color:#555}
+    .aok-feedback form{display:grid;gap:1rem}
+    .aok-feedback fieldset{min-width:0;border:1px solid #c9c9c3;border-radius:5px;padding:.85rem;display:grid;gap:.75rem}
+    .aok-feedback legend{font-weight:700;padding:0 .3rem}
+    .aok-feedback label{display:grid;gap:.3rem;font-weight:600}
+    .aok-feedback input,.aok-feedback select,.aok-feedback textarea{box-sizing:border-box;width:100%;max-width:100%;padding:.65rem;border:1px solid #999;border-radius:4px;background:#fff;color:#18181a;font:inherit}
+    .aok-feedback textarea{min-height:5.5rem;resize:vertical}
+    .aok-feedback :is(input,select,textarea,button):focus-visible{outline:3px solid #286b56;outline-offset:2px}
+    .aok-feedback .rating{display:grid;grid-template-columns:minmax(0,1fr) minmax(150px,.75fr);gap:.7rem;align-items:center}
+    .aok-feedback .rating label{font-weight:500}
+    .aok-feedback .note{font-size:.92rem}
+    .aok-feedback button{padding:.7rem 1rem;border:0;border-radius:4px;background:#777;color:#fff;font:inherit;font-weight:650}
+    .aok-feedback button:disabled{opacity:1;cursor:not-allowed}
+    .aok-feedback .status{padding:.8rem;border-left:3px solid #777;background:#f0f0ed}
+    @media(max-width:560px){.aok-feedback .rating{grid-template-columns:1fr;gap:.2rem}}
+  </style>
+
+  <h2 id="aok-feedback-title">Отзыв учителя об атласе химии / Chemistry teacher feedback</h2>
+  <p>Эта анкета подготовлена для будущего педагогического пилота. Она поможет указать конкретные главы, формулы, уравнения, расчёты и инструменты, которые стоит проверить или улучшить.</p>
+  <p class="note"><strong>Важно:</strong> сейчас ответы не отправляются и не сохраняются. Кнопка отключена. Не вводите реальные персональные данные в этот демонстрационный макет и не указывайте сведения об учениках. / <strong>Important:</strong> responses are not submitted or stored. The button is disabled. Do not enter real personal data or information about students in this demonstration template.</p>
+
+  <form id="chemistry-feedback-form" data-subject="chemistry" data-page="" data-anchor="">
+    <fieldset>
+      <legend>1. Общая информация / Teaching context</legend>
+      <label>Предмет и направление преподавания / Subject or teaching area
+        <input name="teaching_subject" maxlength="120" autocomplete="off" placeholder="Химия / Chemistry">
+      </label>
+      <label>Преподаваемые классы / Grade levels
+        <input name="grade_levels" maxlength="120" autocomplete="off" placeholder="Например: 8–11 классы / e.g. Grades 8–11">
+      </label>
+      <label>Какие главы, разделы или инструменты вы просмотрели? / Chapters, sections or tools reviewed
+        <textarea name="pages_reviewed" maxlength="1500"></textarea>
+      </label>
+      <label>Формат оценки / Evaluation format
+        <select name="evaluation_context">
+          <option value="">Выберите / Select</option>
+          <option value="independent">Самостоятельное ознакомление / Independent review</option>
+          <option value="lesson-preparation">Подготовка к уроку / Lesson preparation</option>
+          <option value="classroom-use">Использование на уроке / Classroom use</option>
+          <option value="specific-materials">Проверка отдельных материалов / Review of selected materials</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Оценка по критериям / Evaluation criteria</legend>
+      <p class="hint note">1 — очень слабо; 2 — слабо; 3 — удовлетворительно; 4 — хорошо; 5 — отлично. Можно выбрать «Не могу оценить». / 1 — very poor; 2 — poor; 3 — satisfactory; 4 — good; 5 — excellent. Select “Cannot assess” if needed.</p>
+      <div class="rating"><label for="chem-r1">Соответствие школьной программе / Curriculum alignment</label><select id="chem-r1" name="rating_curriculum"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="chem-r2">Соответствие возрасту и уровню учащихся / Age and learner-level appropriateness</label><select id="chem-r2" name="rating_level"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="chem-r3">Понятность объяснений / Clarity of explanations</label><select id="chem-r3" name="rating_clarity"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="chem-r4">Научная и фактическая точность / Scientific and factual accuracy</label><select id="chem-r4" name="rating_accuracy"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="chem-r5">Качество русского и английского языков / Russian and English language quality</label><select id="chem-r5" name="rating_language"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="chem-r6">Иллюстрации и визуальные материалы / Illustrations and visual materials</label><select id="chem-r6" name="rating_visuals"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="chem-r7">Полезность интерактивных инструментов / Usefulness of interactive tools</label><select id="chem-r7" name="rating_interactive"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="chem-r8">Применимость на уроках / Classroom usefulness</label><select id="chem-r8" name="rating_classroom"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="chem-r9">Мобильное использование и доступность / Mobile usability and accessibility</label><select id="chem-r9" name="rating_accessibility"><option value="">Не оценено / Not rated</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Вопросы по химии / Chemistry-specific questions</legend>
+      <label>Корректны ли химические формулы и уравнения реакций? Укажите конкретные примеры. / Are chemical formulae and reaction equations correct? Give exact examples.
+        <textarea name="chemistry_formula_equation" maxlength="3000"></textarea>
+      </label>
+      <label>Верны ли коэффициенты, индексы, заряды и обозначения состояний веществ? / Are coefficients, subscripts, charges and state symbols correct?
+        <textarea name="chemistry_notation" maxlength="2500"></textarea>
+      </label>
+      <label>Корректны ли единицы измерения, расчёты, округление и результаты калькуляторов? / Are units, calculations, rounding and calculator results correct?
+        <textarea name="chemistry_calculations" maxlength="3000"></textarea>
+      </label>
+      <label>Точно ли объяснены химические процессы и условия применимости законов и формул? / Are chemical processes and the conditions for applying laws and formulae explained accurately?
+        <textarea name="chemistry_explanations" maxlength="3000"></textarea>
+      </label>
+      <label>Правильно ли работают модели, виртуальные лаборатории и интерактивные эксперименты? / Do models, virtual labs and interactive experiments represent the chemistry correctly?
+        <textarea name="chemistry_models_labs" maxlength="3000"></textarea>
+      </label>
+      <label>Соответствуют ли задания и глубина материала школьному уровню? / Are tasks and content depth appropriate for school level?
+        <textarea name="chemistry_school_level" maxlength="2500"></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Конкретные замечания и предложения / Specific feedback</legend>
+      <label>Какие разделы наиболее полезны для преподавания и почему? / Which sections are most useful for teaching, and why?
+        <textarea name="most_useful_sections" maxlength="3000"></textarea>
+      </label>
+      <label>Какие объяснения непонятны, слишком сложны или чрезмерно упрощены? / Which explanations are unclear, too difficult or oversimplified?
+        <textarea name="unclear_explanations" maxlength="3000"></textarea>
+      </label>
+      <label>Какие ошибки или методические проблемы вы обнаружили? Укажите точное место. / What scientific, factual or teaching errors did you find? Identify the exact location.
+        <textarea name="errors_found" maxlength="3000"></textarea>
+      </label>
+      <label>Какие темы школьной программы отсутствуют или раскрыты недостаточно? / Which curriculum topics are missing or insufficiently covered?
+        <textarea name="missing_topics" maxlength="3000"></textarea>
+      </label>
+      <label>Какие формулы, уравнения, иллюстрации, графики или инструменты следует улучшить? / Which formulae, equations, visuals, graphs or tools should be improved?
+        <textarea name="materials_to_improve" maxlength="3000"></textarea>
+      </label>
+      <label>Как именно вы могли бы использовать атлас на уроке или для самостоятельной работы? / How would you use the atlas in class or for independent study?
+        <textarea name="classroom_use" maxlength="3000"></textarea>
+      </label>
+      <label>Точное место замечания: глава, подраздел, страница, путь или название инструмента / Exact location: chapter, section, page, path or tool
+        <input name="target_location" maxlength="300" autocomplete="off">
+      </label>
+      <label>Приоритет / Priority
+        <select name="priority">
+          <option value="">Выберите / Select</option>
+          <option value="critical">Критическая ошибка / Critical error</option>
+          <option value="major">Существенная проблема / Major issue</option>
+          <option value="recommendation">Рекомендация по улучшению / Improvement recommendation</option>
+          <option value="suggestion">Дополнительное предложение / Additional suggestion</option>
+        </select>
+      </label>
+      <label>Источник, учебная программа или подтверждение (необязательно) / Source, curriculum or supporting evidence (optional)
+        <textarea name="evidence" maxlength="2500"></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. Контакт и публикация / Contact and publication</legend>
+      <p class="note">Все поля ниже необязательны. Отправка отзыва в будущем не будет означать согласия на публикацию. / All fields below are optional. A future submission will not imply consent to publication.</p>
+      <label>Имя или псевдоним (необязательно) / Name or pseudonym (optional)
+        <input name="display_name" maxlength="120" autocomplete="off">
+      </label>
+      <label>Контакт для ответа (необязательно) / Contact for a reply (optional)
+        <input name="contact" maxlength="200" autocomplete="off" placeholder="Электронная почта — по желанию / Email — optional">
+      </label>
+      <label>Предпочтительный язык ответа / Preferred reply language
+        <select name="reply_language"><option value="">Не указан / Not specified</option><option value="ru">Русский / Russian</option><option value="en">English / Английский</option></select>
+      </label>
+      <label>Публикация отзыва или его фрагмента (отдельное добровольное согласие) / Publication of the review or an excerpt (separate optional consent)
+        <select name="publication_consent"><option value="no">Не согласен(на) / I do not consent</option><option value="yes">Согласен(на) на публикацию текста отзыва / I consent to publication of the review text</option></select>
+      </label>
+      <p class="note">Согласие на публикацию имени должно запрашиваться отдельно при будущем запуске. Контактные данные не публикуются. / Consent to publish a name must be requested separately at launch. Contact details are never published.</p>
+    </fieldset>
+
+    <p class="status" role="status" aria-live="polite">Подготовительный макет: ответы не отправляются и не сохраняются. Кнопка отправки отключена до отдельного разрешения владельца проекта. / Preparation template: responses are not submitted or stored. Submission is disabled pending separate project-owner approval.</p>
+    <button id="chemistry-feedback-submit" type="button" disabled aria-disabled="true">Отправка пока отключена / Submission disabled</button>
+  </form>
+</section>
