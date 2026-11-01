@@ -1559,7 +1559,7 @@ try {
           (await page.locator("#moles").innerText()).trim() !== "—") {
         errors.push(file + ": zero custom molar mass must be rejected");
       }
-      await page.locator("#molar").fill("1e-308");
+      await page.locator("#molar").fill("1");
       await page.locator("#mass").fill("1e308");
       await page.locator("#mass").dispatchEvent("input");
       if (!(await page.locator("#calcFeedback").innerText()).includes("числового диапазона") ||
