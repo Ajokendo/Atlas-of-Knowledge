@@ -32,6 +32,9 @@ Environmental policy should address these issues as one connected system. Forest
 
 ## 26.2. Климатические изменения: наблюдения и последствия / Climate Change: Observations and Impacts
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-A / IMAGE PLACEHOLDER 26-A]** График национального температурного тренда 1960–2023 годов и климатическая карта региональных различий; отдельно обозначить наблюдения и модельные проекции, подписать базовые периоды.
+
+
 По данным UNEP, средняя годовая температура в Кыргызстане увеличилась примерно на 1,2 °C в период 1960–2023 годов — приблизительно вдвое больше приведённой в той же оценке глобальной величины. Это национальная оценка за конкретный период, а не универсальная характеристика каждого района: локальные тренды различаются по высоте, сезону и географическому положению.
 
 Потепление проявляется в изменениях продолжительности снежного сезона, сроков весеннего таяния, частоты жарких периодов, испаряемости и условий формирования речного стока. Осадки не обязательно изменяются одинаково во всех регионах: важны не только годовые суммы, но и сезонное распределение, интенсивность ливней, доля снега и дождя, а также последовательность засушливых и влажных периодов.
@@ -46,6 +49,8 @@ Environmental policy should address these issues as one connected system. Forest
 6. **Здоровье.** Жара, загрязнение воздуха, изменение распространения переносчиков заболеваний и перебои водоснабжения могут влиять на здоровье, особенно детей, пожилых людей и сельских сообществ.
 
 ### Климатические обязательства
+
+Важное изменение правовой базы произошло в 2026 году: Закон Кыргызской Республики от 7 июля 2026 года № 104 «О климатической деятельности» принят и опубликован, но по состоянию на 1 ноября 2026 года ещё не вступил в силу; дата вступления — **1 января 2027 года**. Закон формирует правовые основы климатической политики, включая сокращение выбросов, адаптацию, климатическое финансирование, мониторинг, отчётность и верификацию. В учебном изложении необходимо различать дату принятия и дату вступления в силу.
 
 В 2025 году Кыргызская Республика представила третий определяемый на национальном уровне вклад — NDC 3.0. В документе установлены цели по сокращению чистых выбросов парниковых газов относительно **прогнозного базового сценария** соответствующего целевого года: к 2030 году — на 18% безусловно и на 30% при международной поддержке; к 2035 году — на 16% безусловно и на 39% при международной поддержке. В NDC также указан 2017 год как базовый (reference) год, однако проценты целевых сокращений рассчитываются не как простое уменьшение выбросов относительно фактического уровня 2017 года: методика сопоставляет чистые выбросы в 2030 и 2035 годах с прогнозными уровнями базового сценария для этих же лет. Безусловный сценарий обозначен в документе как With Measures (WM), условный — With Additional Measures (WAM); дополнительные меры зависят от получения международной поддержки. Поэтому проценты необходимо цитировать вместе с типом сценария и методом расчёта, не трактуя их как абсолютное сокращение относительно произвольно выбранного исторического года.
 
@@ -67,11 +72,20 @@ Warming is reflected in changes to the length of the snow season, the timing of 
 
 ### Climate commitments
 
+An important change to the legal framework took place in 2026: Law of the Kyrgyz Republic No. 104 of 7 July 2026, “On Climate Activity”, has been adopted and published, but as of 1 November 2026 it has not yet entered into force; its effective date is **1 January 2027**. The Law establishes the legal foundations for climate policy, including emissions reduction, adaptation, climate finance, monitoring, reporting and verification. Educational materials must distinguish the date of adoption from the date of entry into force.
+
 In 2025, the Kyrgyz Republic submitted its third Nationally Determined Contribution, NDC 3.0. It sets targets for reducing net greenhouse-gas emissions relative to the **projected baseline scenario** for each target year: by 2030, 18% unconditionally and 30% with international support; by 2035, 16% unconditionally and 39% with international support. NDC 3.0 also identifies 2017 as the reference year. However, the target percentages are not simple reductions from the observed emissions level in 2017: the accounting method compares net emissions in 2030 and 2035 with the projected baseline levels for those same years. The unconditional scenario is called **With Measures (WM)**, while the conditional scenario is called **With Additional Measures (WAM)**; the additional measures depend on international support. The percentages should therefore always be quoted together with the scenario type and accounting method, and must not be described as absolute reductions from an arbitrarily selected historical year.
 
 NDC 3.0 treats adaptation as a strategic priority and identifies water resources, energy, agriculture, forests and biodiversity, disaster-risk reduction, cities and health as key areas. It provides for water-saving technologies, climate-resilient agriculture, renewable energy, energy-efficient buildings, and stronger monitoring and institutional capacity.
 
 ## 26.3. Ледники, снег и водная безопасность / Glaciers, Snow and Water Security
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Схема оледенения и водных бассейнов Кыргызстана с датой и версией каталога; не смешивать данные разных инвентаризаций и обозначить зоны потенциального риска прорыва ледниковых озёр.
+
+
+Quantifying glacier retreat requires identifying the specific inventory used. The Kyrgyz Republic's First Biennial Transparency Report (BTR1, 2025), citing the CAIAG Catalogue of Glaciers (Edition 01/2024), reports **9,957 glaciers covering 6,804.8 km²** and estimates an approximately **14% reduction in glacier area over about 70 years** relative to the Soviet-era catalogue. An earlier CAIAG publication based on Landsat-8 imagery from 2013–2016 reported **6,683.9 km²** and a 16% reduction. These estimates refer to different inventory editions and methodological snapshots. They must not be interpreted as direct evidence of glacier-area growth between the dates or combined into one continuous time series without checking mapped boundaries, the minimum glacier size included and the mapping methodology.
+
+Для количественной оценки сокращения оледенения важно указывать конкретную инвентаризацию. Первый Двухгодичный доклад о прозрачности Кыргызской Республики (BTR1, 2025), ссылаясь на Каталог ледников CAIAG (издание 01/2024), приводит **9 957 ледников общей площадью 6 804,8 км²** и оценивает сокращение площади примерно на **14% за около 70 лет** относительно советского каталога. Более ранняя публикация CAIAG на основе снимков Landsat-8 за 2013–2016 годы приводила **6 683,9 км²** и сокращение на 16%. Эти оценки относятся к разным версиям инвентаризации и методическим срезам; их нельзя трактовать как прямое свидетельство увеличения ледников между датами или соединять в один непрерывный ряд без проверки границ, минимального размера учитываемых ледников и методики картографирования.
 
 Ледники Кыргызстана — важнейший элемент природного капитала Тянь-Шаня и Памиро-Алая. Они накапливают воду в холодный период и высвобождают её в тёплый сезон. Однако ледниковый сток нельзя считать постоянным и гарантированным источником: его вклад меняется между бассейнами, годами и стадиями дегляциации.
 
@@ -131,6 +145,9 @@ Managing water demand requires:
 Water-saving technologies should be assessed at the river-basin scale. Improving efficiency at one location may encourage the expansion of irrigated areas and fail to reduce total abstraction if limits and accounting systems are absent.
 
 ## 26.4. Земли, почвы и пастбища / Land, Soils and Pastures
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-C / IMAGE PLACEHOLDER 26-C]** Карта землепользования и состояния пастбищ: отделить национальную агрегированную оценку деградации от локальных обследований и спутниковых индексов.
+
 
 Почвы и пастбища — основа сельской экономики и важный элемент водосборных экосистем. Деградация земель может проявляться как водная и ветровая эрозия, уплотнение, потеря органического вещества, засоление, опустынивание и снижение растительного покрова.
 
@@ -404,6 +421,9 @@ For legacy industrial sites, priorities include inventories of contaminated loca
 
 ## 26.10. Природные опасности и снижение риска бедствий / Natural Hazards and Disaster Risk Reduction
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-D / IMAGE PLACEHOLDER 26-D]** Инфографика «опасность — подверженность — уязвимость — риск» и карта примеров селевых, оползневых, паводковых и сейсмических опасностей; не выдавать схематическую карту за прогноз.
+
+
 Горная география Кыргызстана формирует широкий спектр природных опасностей:
 - землетрясения;
 - сели и паводки;
@@ -528,6 +548,9 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 **Learning activity.** Select two hypothetical assets in a mountain valley and compare the consequences of their damage during a flood or landslide. Prepare a qualitative hazard, exposure and vulnerability matrix, state uncertainties and propose two measures each for prevention, preparedness and recovery. Do not assign precise probabilities without supporting data.
 
 ## 26.11. Города, зелёная инфраструктура и качество жизни / Cities, Green Infrastructure and Quality of Life
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-E / IMAGE PLACEHOLDER 26-E]** Схема зелёной городской инфраструктуры: деревья, парки, водоотвод, прохладные маршруты и общественный транспорт; показать взаимосвязь с жарой и качеством воздуха.
+
 
 Устойчивые города должны снижать воздействие на природу и одновременно повышать качество жизни. В Кыргызстане это особенно важно для Бишкека, Оша и быстро растущих районных центров.
 
@@ -929,6 +952,8 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 17. National Statistical Committee of the Kyrgyz Republic. Protection and rational use of water resources: open data, 2021–2025 series. https://stat.gov.kg/en/opendata/category/3216/
 18. National SDG Indicators of the Kyrgyz Republic. Indicator 6.3.1: Proportion of domestic and industrial wastewater flows safely treated. https://sustainabledevelopment-kyrgyzstan.github.io/en/6-3-1/
 19. Kaktus.media, citing Kyrgyzhydromet. Bishkek and surrounding districts recorded air-pollution exceedances, 17 October 2026 (monitoring period 9–15 October 2026). https://kaktus.media/555234
+20. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic; UNEP; UNDP. *First Biennial Transparency Report of the Kyrgyz Republic under the UNFCCC Paris Agreement.* Bishkek, 2025 (including glacier inventory figures and climate-risk assessment). https://unfccc.int/sites/default/files/resource/%2528%25D0%2594%25D0%2594%25D0%25A2%2529%2520Eng_BTR%25201_Final.pdf
+21. Ministry of Justice of the Kyrgyz Republic. Law of 7 July 2026 No. 104 “On Climate Activity” (effective 1 January 2027). https://cbd.minjust.gov.kg/230050082/edition/57539/ru
 
 ---
 **Конец главы 26 / End of Chapter 26**
