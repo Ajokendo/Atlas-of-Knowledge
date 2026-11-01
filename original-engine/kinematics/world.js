@@ -104,7 +104,7 @@ export function buildWorld(E) {
 
   // ---------- graph boards ----------
   const boards = BOARDS.map(b => {
-    const g = asm(b.key, root, { title: `${b.title[0].toUpperCase() + b.title.slice(1)} – time graph`, sub: b.key === 'boardX' ? 'наклон графика равен скорости' : b.key === 'boardV' ? 'наклон графика равен ускорению; площадь под графиком — перемещению' : 'площадь под графиком равна изменению скорости' });
+    const g = asm(b.key, root, { title: `${b.title[0].toUpperCase() + b.title.slice(1)} — график зависимости от времени`, sub: b.key === 'boardX' ? 'наклон графика равен скорости' : b.key === 'boardV' ? 'наклон графика равен ускорению; площадь под графиком — перемещению' : 'площадь под графиком равна изменению скорости' });
     const cx = b.x0 + BOARD.w / 2;
     part(g, box(BOARD.w, BOARD.h, 0.012, 0.004), { tone: 'faint', pal: 'board', pos: [cx, BOARD.h / 2 + 0.1, BOARD.z], name: 'График' });
     const zf = BOARD.z + 0.008;
