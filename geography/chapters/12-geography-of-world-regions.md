@@ -298,6 +298,154 @@ Comparing countries by nominal GDP per capita alone does not show how much peopl
 
 **Activity.** Select two countries and compare nominal GDP per capita with GDP per capita at PPP for the same year. Explain why their ranking may change and which aspects of well-being remain outside these indicators.
 
+## English-language chapter text
+
+### 12.1. The Concept of a Region and World Regionalisation
+
+A **region** is a territory selected according to one or more characteristics and considered a relatively coherent spatial system. A region may be physical-geographical, historical-cultural, socio-economic, political or functional.
+
+**Regionalisation** is the process of identifying territorial units for research, governance, statistics and planning. There is no single universal division of the world into regions: boundaries depend on the purpose and criteria selected.
+
+Major types include physical-geographical regions (continents, natural zones, mountain systems and river basins); historical-cultural regions; socio-economic regions; political-geographical regions (states, integration organisations and geopolitical spaces); and functional regions connected by flows of people, goods, services, information or daily commuting.
+
+Regional boundaries may be clear, as with a state border, or transitional, as with natural and cultural regions. The same place may belong to different regions depending on the research question.
+
+### 12.2. Principles of Comparative Regional Analysis
+
+A comparative regional analysis should use a consistent set of questions:
+1. geographic location and neighbouring areas;
+2. natural conditions and resources;
+3. population, settlement and migration;
+4. historical processes and cultural diversity;
+5. political institutions and international connections;
+6. economic structure and infrastructure;
+7. environmental challenges and climate risks; and
+8. development prospects and uncertainty.
+
+Comparisons should use comparable indicators and the same reference periods. Differences in census methods, GDP calculation, definitions of urban areas and statistical coverage may create misleading contrasts.
+
+A region should not be reduced to one stereotypical characteristic. Internal differences between urban and rural areas, coastal and inland districts, generations and social groups may be as large as differences between countries.
+
+### 12.3. Africa
+
+Africa is the world's second-largest continent by both area and population and contains exceptionally diverse natural and human systems. Regional classifications commonly distinguish North, West, Central, East and Southern Africa, although the composition of subregions may vary.
+
+**Physical geography.** The Sahara, the world's largest hot desert, extends across the north. South of it lie the Sahel, savannas, the humid tropical forests of the Congo Basin and other natural systems. The East African Rift System creates fault zones, volcanic landscapes, highlands and deep lakes. Southern Africa includes plateaus, the Namib and Kalahari deserts, and mountain and coastal landscapes.
+
+Major river systems include the Nile, Congo, Niger, Zambezi and Orange. Water resources are distributed very unevenly, and seasonal rainfall strongly affects agriculture and water supply.
+
+**Population and economy.** Africa has a young age structure and rapid demographic change, but population growth and composition differ substantially between countries. Large cities and agglomerations are expanding quickly, creating demand for housing, transport, energy, water and jobs.
+
+Economic activities include agriculture, mineral extraction, industry, trade, services, tourism and rapidly developing digital sectors. Export specialisation in minerals and agricultural commodities can make some countries vulnerable to fluctuations in world prices.
+
+**Regional challenges.** Important issues include aridity and rainfall variability, land degradation, access to safe water, food security, energy infrastructure, urban development and the consequences of armed conflict. The continent also has major potential in solar energy, a young workforce, natural and cultural heritage, and regional trade.
+
+### 12.4. Europe
+
+Europe is the western part of the Eurasian landmass, defined as a historical-geographical and cultural region. Its eastern boundary is conventional and is drawn differently in different geographical traditions. Europe contains diverse states, natural zones and economic systems.
+
+**Physical geography.** The Scandinavian Mountains, glacial landscapes and lake districts occur in the north. The Alps, Pyrenees, Carpathians, Apennines and other mountain systems cross central and southern areas. Large plains and river valleys have supported agriculture, industry and transport networks.
+
+Important rivers include the Volga, Danube, Rhine, Dnieper, Elbe, Po and Rhône. Climate ranges from Arctic and subarctic in the north to Mediterranean in the south; western areas are strongly influenced by the Atlantic.
+
+**Population, economy and integration.** Europe has high urbanisation, developed transport networks and a large service sector. Many countries face population ageing, low fertility and dependence on international migration in some industries. Internal contrasts include differences between major agglomerations and peripheral areas and between regions with different histories of industrialisation.
+
+The **European Union** is a political and economic organisation of member states based on treaties and common institutions. It does not cover all of Europe, and Europe is not synonymous with the European Union. Other forms of cooperation include the Council of Europe, the European Free Trade Association and cross-border programmes; their membership and powers differ.
+
+**Regional challenges.** Important issues include energy security, climate adaptation, migration management, regional inequality, demographic ageing, transport-system resilience and transboundary pollution. Europe is also a major global centre of science, education, finance, industry and cultural heritage.
+
+### 12.5. Asia
+
+Asia is the world's largest continent by area and population. It extends from Arctic coasts to equatorial islands and includes an enormous range of climates, landforms, languages, religions, political systems and levels of economic development.
+
+**Physical geography.** Asia contains the Himalayas, Karakoram, Pamir, Tien Shan, Altai, and extensive high plateaus. The Tibetan Plateau is one of the largest and highest highland regions on Earth. Major plains and lowlands are associated with the Ganges, Indus, Yangtze, Huang He, Mekong, Ob–Irtysh and other river basins.
+
+Natural zones range from Arctic deserts and tundra to taiga, steppes, deserts, monsoon forests, humid tropical forests and mountain belts. Major natural hazards include earthquakes, tsunamis, tropical cyclones, floods, droughts and landslides.
+
+**Population and economy.** Asia contains some of the world's largest population concentrations, megacities and industrial regions. Economic systems range from high-technology and financial centres to agricultural regions and areas dependent on resource extraction. Global production chains, seaports, energy corridors and digital technologies are important.
+
+Subregions commonly include East, Southeast, South, Central and West Asia, and in some classifications North Asia. Their composition and boundaries depend on the scheme used.
+
+**Regional challenges.** Key issues include food and water security, air pollution, urbanisation, climate risks, the energy transition, ageing in some countries and rapid growth of young populations in others. Transboundary river basins require coordination among states, while densely populated coastal areas are especially vulnerable to sea-level rise and extreme weather.
+
+### 12.6. North America
+
+North America extends from Arctic islands to Central America, depending on the physical-geographical boundary used. Central America and the Caribbean are often treated separately in regional and statistical classifications.
+
+**Physical geography.** The Cordillera, including the Rocky Mountains and Pacific coastal ranges, extends along the west. The Great Plains and interior lowlands occupy the centre, while the Appalachians lie to the east. The Great Lakes form the largest freshwater lake system and are connected to the St. Lawrence River. Major river systems include the Mississippi–Missouri, Mackenzie, St. Lawrence and Colorado.
+
+Climate ranges from Arctic to subtropical. Plains may experience droughts and severe storms; coasts face hurricanes and sea-level rise; mountain areas are exposed to wildfires and landslides.
+
+**Population and economy.** The region has large urban agglomerations, high car dependence in some countries, major agricultural areas, industry, and financial and technology centres. Economic connections are closely linked through trade, investment, migration and transport networks.
+
+Internal differences are substantial, from high-technology metropolitan areas and industrial corridors to rural territories, remote northern districts and areas with limited access to services.
+
+**Regional challenges.** These include water scarcity in the west, soil degradation, wildfires, hurricanes, socio-spatial inequality, housing affordability and climate adaptation of infrastructure.
+
+### 12.7. Central America and the Caribbean
+
+Central America connects North and South America through a narrow isthmus. The Caribbean includes islands and coastal territories linked by the history of maritime trade, migration and cultural contact.
+
+**Physical geography.** The region has mountain ranges, volcanic arcs, tropical forests, coral reefs and low-lying coasts. It lies in an area of high tectonic and climatic activity. Tropical cyclones, earthquakes, volcanism, floods and landslides create significant risks.
+
+**Population and economy.** Economies combine agriculture, tourism, services, trade, logistics and industry. The Panama Canal is globally important for maritime transport, connecting the Atlantic and Pacific oceans through a system of channels and locks. Caribbean island states differ in size, economic structure, languages and institutions.
+
+**Regional challenges.** Island and coastal areas are particularly vulnerable to sea-level rise, extreme storms, coastal erosion and freshwater scarcity. Dependence on tourism and external food and energy supplies is also important.
+
+### 12.8. South America
+
+South America contains the planet's largest area of humid tropical forest, the high Andes, extensive plains and arid areas. It has high natural and cultural diversity.
+
+**Physical geography.** The Andes extend along the western edge of the continent and form complex altitudinal belts. The Amazon lowlands contain the world's largest tropical forest area and an extensive river system. The south includes the Pampas, Patagonia and cold mountain and glacial landscapes. The Atacama Desert is one of the driest areas on Earth.
+
+The Amazon River and its tributaries are central to the continent's water balance and ecology. Other important systems include the Orinoco, Paraná–Paraguay and São Francisco.
+
+**Population and economy.** Population is concentrated to a large extent in coastal and mountain urban areas. Economic activities include agriculture, mining, energy, industry, services and tourism. The region has substantial freshwater, mineral and renewable-energy potential.
+
+**Regional challenges.** Key issues include deforestation and ecosystem degradation, changing rainfall patterns, fires, pollution from mining waste, land inequality, urban challenges and protection of the rights of local and Indigenous peoples. Amazonia is important to regional and global climate and biogeochemical processes, but it should not be treated as a uniform territory without internal differences.
+
+### 12.9. Australia and Oceania
+
+Australia is both a continent and a state, while **Oceania** is a broader region of Pacific islands, commonly including Melanesia, Micronesia and Polynesia. New Zealand is usually included in Oceania.
+
+**Physical geography.** Australia's interior is predominantly arid, while much of its population is concentrated in coastal cities. The Great Dividing Range and humid forest areas lie in the east; the Great Barrier Reef is off the north-eastern coast. Oceania's islands include volcanic islands, raised limestone formations and low coral atolls.
+
+**Population and economy.** Australia and New Zealand have high urbanisation and developed service, agricultural, extractive and education sectors. Pacific island states differ in resource base, market size, transport connectivity and vulnerability to external shocks. Fisheries, tourism, remittances, marine resources and international assistance are important to many islands.
+
+**Regional challenges.** Low islands and atolls are vulnerable to sea-level rise, saltwater intrusion, storm surges and coastal erosion. Other key issues include coral-reef conservation, sustainable fisheries, freshwater access, transport isolation and protection of cultural heritage.
+
+### 12.10. Antarctica and the Southern Ocean
+
+Antarctica is the polar region around the South Pole, centred on the continent of Antarctica. Most of the continent is covered by a thick ice sheet. There is no permanent Indigenous population; scientific stations and seasonal personnel are present.
+
+The **Antarctic Treaty** of 1959 and the associated treaty system establish a special international legal regime. The Treaty provides for peaceful use, freedom of scientific research and international cooperation; territorial claims are addressed by special provisions. Antarctica is not an ordinary state or a territory divided into recognised national possessions.
+
+The Southern Ocean surrounds Antarctica and plays an important role in global water circulation, the climate system and marine ecosystems. Major environmental issues include changes in ice sheets and sea ice, ocean warming, ocean acidification and the condition of krill and other populations.
+
+### 12.11. Transboundary Regions and Global Connections
+
+Many geographical processes extend beyond state borders. River basins, mountain systems, deserts, marine ecosystems, transport corridors and markets form transboundary regions.
+
+Examples of functional transboundary systems include major international river basins; mountain regions with shared ecosystems and glaciers; coastal marine zones and fishing areas; border cities and trading zones; international transport and energy corridors; and migration and labour spaces.
+
+Managing these systems requires compatible data, agreed standards, information exchange, scientific cooperation and mechanisms for resolving disagreements. State borders remain important legal boundaries, but natural and economic flows often cross them.
+
+### 12.12. Global Contrasts and Interdependence
+
+Regional differences appear in income, employment structure, demography, access to education and health care, infrastructure and environmental vulnerability. However, dividing the world into “developed” and “developing” areas should not become a rigid binary classification.
+
+Development is described using several indicators, including income per capita, the Human Development Index, poverty, life expectancy, educational outcomes, productivity and access to basic services. Each indicator reflects only part of reality.
+
+Global interdependence operates through trade, investment, migration, digital networks, tourism, technology transfer, climate processes and international institutions. Events in one region may affect others through supply chains, financial markets, food prices and environmental systems.
+
+### 12.13. Reading Regional Maps and Statistics
+
+When analysing regional maps, check the geographic coverage and regionalisation scheme; data date and boundary currency; map projection and scale; indicator definition and unit; source and methodology; and missing values, estimates and revisions.
+
+The UN M49 statistical regions are designed to group countries and areas for statistical purposes. They do not determine political status or cultural identity and do not replace physical-geographical regionalisation.
+
+Regional comparisons benefit from combining thematic maps, time series, charts and qualitative descriptions. Indicators based on incompatible definitions or different periods should not be compared without an explicit explanation.
+
 ## 12.14. Итоги главы / Chapter Summary
 
 1. Регион — аналитическая территориальная единица, границы которой зависят от цели исследования.
