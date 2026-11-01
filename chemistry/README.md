@@ -573,3 +573,7 @@ node chemistry/browser-smoke.mjs
 ### Accessibility audit reporting parity
 
 The Chromium smoke test now reports axe-core findings of every impact level in both Russian and English states. Serious and critical findings fail CI in either language; moderate, minor and unclassified findings remain visible as review warnings rather than being silently filtered. The audit scope remains WCAG 2.1 A/AA tags; this does not constitute a WCAG 2.2 claim or replace manual assistive-technology testing.
+
+### Bilingual axe coverage guard
+
+The browser smoke test now requires exactly two axe-core scans per Chemistry page (Russian before the language switch and English after it), and fails if a page no longer exposes a working language toggle. The English violation-summary normalizer was also corrected to collapse whitespace consistently. This makes the expected 42 scans explicit for the current 21-page atlas.
