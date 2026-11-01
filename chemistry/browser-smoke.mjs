@@ -993,6 +993,9 @@ try {
         await fields.first().fill("1");
         await page.locator("#check").click();
         if (!(await page.locator("#feedback").innerText()).trim()) errors.push(file + ": answer feedback was not shown");
+        await page.locator("#lang").click();
+        if (await page.locator('#equation input[type="number"]').first().inputValue() !== "1") errors.push(file + ": switching language must preserve an in-progress coefficient");
+        await page.locator("#lang").click();
 
         const solutions = [[2, 1, 2], [1, 3, 2], [4, 3, 2], [2, 6, 2, 3], [2, 1, 1, 2], [1, 5, 3, 4]];
         for (let i = 0; i < solutions.length; i++) {
@@ -1006,6 +1009,14 @@ try {
             await currentFields.nth(j).fill(String(solutions[i][j]));
           }
           await page.locator("#check").click();
+          if (i === 0) {
+            await page.locator("#lang").click();
+            const preserved = await page.locator('#equation input[type="number"]').evaluateAll(items => ({ values: items.map(el => el.value), disabled: items.every(el => el.disabled) }));
+            if (JSON.stringify(preserved.values) !== JSON.stringify(solutions[i].map(String)) || !preserved.disabled || await page.locator("#next").isHidden() || await page.locator("#progress").getAttribute("aria-valuenow") !== "1") {
+              errors.push(file + ": switching language after a solved task must preserve coefficients, lock state and progress");
+            }
+            await page.locator("#lang").click();
+          }
           if (await page.locator("#progress").getAttribute("aria-valuenow") !== String(i+1)) {
             errors.push(file + ": progressbar did not advance after task " + (i + 1));
           }
