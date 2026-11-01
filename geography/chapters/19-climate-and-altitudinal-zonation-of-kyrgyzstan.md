@@ -586,6 +586,29 @@ A weather record is an extreme value over a defined observation period. It shoul
 13. Какие климатические опасности наиболее важны для горных дорог и поселений?
 14. Как различаются опасность, экспозиция и уязвимость при оценке климатического риска?
 
+### English Review Questions
+
+1. Why is Kyrgyzstan's climate both continental and highly diverse?
+2. How do mountain ranges influence precipitation distribution?
+3. What is a rain shadow, and where may it form?
+4. Why do temperature inversions occur in valleys during winter?
+5. How does the climate of the Issyk-Kul Basin differ from that of interior high-mountain valleys?
+6. Why should one vertical temperature gradient not be applied to every mountain slope?
+7. How does the climatic snowline differ from a glacier's equilibrium-line altitude?
+8. Which data are needed to assess a climate trend?
+9. How does a climate normal differ from a weather record?
+10. Which types of drought are distinguished by climatologists and hydrologists?
+11. How may warming affect the seasonality of river runoff?
+12. Why are climate scenarios not exact weather forecasts?
+13. Which climate hazards are especially important for mountain roads and settlements?
+14. How do hazard, exposure and vulnerability differ in climate-risk assessment?
+
+### English Chapter Summary
+
+Kyrgyzstan's climate is shaped by its continental location in central Eurasia, complex atmospheric circulation and the strong orographic influence of the Tien Shan and Pamir-Alay. Elevation, slope aspect and position relative to mountain barriers create sharp differences in temperature, precipitation and snow-cover duration over short distances.
+
+Altitudinal climatic zonation affects water resources, glaciers, pastures, forests, agriculture, settlement and transport. Observed warming increases the importance of adaptation, monitoring and climate-risk management. Scientifically sound analysis must distinguish weather events, climate normals, long-term trends and model scenarios.
+
 ## 19.17. Технические задания для карт, графиков и иллюстраций / Visual and Cartographic Production Briefs
 
 **Общий визуальный стандарт:** тёмно-синий, белый и золотой как акцентная палитра атласа; климатические поля и графики должны использовать доступные для дальтоников цветовые шкалы. Все карты снабжать периодом данных, источником, проекцией, масштабом и пояснением неопределённости. Подписи и числовые значения добавлять в векторной редактуре, а не доверять генерации текста внутри изображения.
