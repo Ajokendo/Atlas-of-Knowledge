@@ -418,6 +418,17 @@ for (const file of svgFiles) {
   if (!/<desc\b[^>]*>[\s\S]*?<\/desc>/i.test(source)) errors.push(relative + ": SVG missing accessible description");
 }
 
+const lowContrastSvgTextFills = ["#8c8c90", "#64766f", "#888", "#999"];
+for (const file of svgFiles) {
+  const source = fs.readFileSync(file, "utf8");
+  const relative = path.relative(root, file);
+  for (const color of lowContrastSvgTextFills) {
+    if (source.toLowerCase().includes('fill="' + color + '"')) {
+      errors.push(relative + ": replace low-contrast SVG text colour " + color);
+    }
+  }
+}
+
 const russianSvgFiles = svgFiles.filter(file => file.toLowerCase().endsWith("-ru.svg"));
 for (const file of russianSvgFiles) {
   const source = fs.readFileSync(file, "utf8");
