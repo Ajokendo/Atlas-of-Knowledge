@@ -390,6 +390,18 @@ if (imageBriefCount !== 52) errors.push("Expected 52 in-page image-generation br
 const imageInsertionMap = fs.readFileSync(path.join(root, "IMAGE_INSERTION_MAP.md"), "utf8");
 const insertionMapIds = [...imageInsertionMap.matchAll(/^\| `image-brief-([^ `]+)`/gm)].map(m => m[1]);
 if (insertionMapIds.length !== 52 || new Set(insertionMapIds).size !== 52) errors.push("IMAGE_INSERTION_MAP.md must contain 52 unique insertion anchors; found " + insertionMapIds.length);
+const imageDispositionRegister = fs.readFileSync(path.join(root, "IMAGE_DISPOSITION_REGISTER.md"), "utf8");
+const imageDispositionRows = [...imageDispositionRegister.matchAll(/^\| `image-brief-([^ `]+)` \| `([^ `]+)` \| P[123] \| [^|]+ \| Deferred \| No asset selected; no third-party image used\./gm)];
+const imageDispositionIds = imageDispositionRows.map(m => m[1]);
+if (imageDispositionRows.length !== 52 || new Set(imageDispositionIds).size !== 52) {
+  errors.push("IMAGE_DISPOSITION_REGISTER.md must contain 52 unique deferred image decisions; found " + imageDispositionRows.length);
+}
+for (const id of insertionMapIds) if (!imageDispositionIds.includes(id)) errors.push("IMAGE_DISPOSITION_REGISTER.md is missing deferred disposition for " + id);
+if (!imageDispositionRegister.includes("G6 disposition:** complete as an explicit, documented deferral") ||
+    !imageDispositionRegister.includes("actual image QA is pending") ||
+    fs.existsSync(path.join(root, "images/generated"))) {
+  errors.push("IMAGE_DISPOSITION_REGISTER.md must document the no-asset deferral and be revised if image assets are added");
+}
 for (const id of imageBriefIds) if (!insertionMapIds.includes(id)) errors.push("IMAGE_INSERTION_MAP.md is missing insertion anchor " + id);
 const imageChecklistCount = (imagePlanFile.match(/^- \[ \] \*\*/gm) || []).length;
 const priorityCounts = {
