@@ -126,7 +126,6 @@ try {
         errors.push(file + ": Tab key did not reach an interactive control");
       } else {
         await page.keyboard.press("Tab");
-        const secondFocus = await page.evaluate(() => document.activeElement);
         const advanced = await page.evaluate(() => {
           const el = document.activeElement;
           return !!el && el !== document.body && el !== document.documentElement;
