@@ -30,3 +30,11 @@
 - No branch merge, deletion, or change outside `biology/` was made.
 
 **Next milestone:** raise the controlled score only when evidence closes the outstanding gates; do not increase the percentage merely because additional content or commits were added.
+
+## Subsequent genetics extension
+
+- Added a bilingual Mendelian inheritance lesson with genotype/phenotype, allele segregation, a semantic Punnett square for `Aa × Aa`, and explicit limits of simple dominance models.
+- Chapter commits: `58fb4df00485a74db502973bb29b5a4481710fc2`, `ac6f6a937e5dfc8f76b3f96453167d1869e6e5e4`.
+- Regression assertion commit: `0947593055409086a77245a376b5f2302767c665`.
+- Development log updated in README commit: `cd773c5c7ff380cd581aaeab233ccaf6583e936b`.
+- Image anchors remain preserved: 52 mapped, 52 deferred. The controlled score remains 95/100 until G4/G5 independent review is completed.
