@@ -3,7 +3,7 @@
 **Date:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
 **Scope:** `chapters/flora-kyrgyzstan.html` and `chapters/fauna-kyrgyzstan.html`  
-**G4 progress:** **50%** — two of four planned scientific-review blocks completed.  
+**G4 progress:** **75%** — three of four planned scientific-review blocks completed.  
 **Status:** author-side evidence review and targeted correction; not independent expert sign-off.
 
 ## Method
@@ -67,6 +67,34 @@ Reviewed regional occurrence and taxonomic claims against their cited primary/of
 - `biology/browser-smoke.mjs`: while checking CI feedback, found and repaired a pre-existing missing closing brace in the Biochemistry-specific browser test block. This is a separate technical repair and does not count toward G4 progress.
 - Relevant commits: `71f2a9793da72ee950b33d8c68da0ea3c887dd3e`, `52d5b779bb213df685e8073efc3820e06eb1aaa4`, `f9d80c0ca328e9a00ec9ec295729516e502d6f4c`, `e0ee2d99bdd0e5f1b36a0fbbfe987f5a4c3b8a73`, `c1bd97ea5a2c738aa2c1c8827740f9679e8592bf`, `652e8e798578cd87b8ef714cf6da2e2ca56ecdb7`.
 
+## Block 3 — cell biology, genetics, microbiology and biochemistry (completed)
+
+**Scope:** `chapters/cell-biology.html`, `chapters/genetics.html`, `chapters/microbiology.html` and `chapters/biochemistry.html`.
+
+1. **Cell biology — core concepts and mechanisms checked.** The cell-theory summary, prokaryote/eukaryote distinction, organelle functions, passive and active membrane transport, osmosis, cell-cycle phases, G1/S and G2/M controls, spindle checkpoint, mitosis, cytokinesis, apoptosis and cell signalling are consistent with standard teaching references. The cell chapter correctly separates interphase from mitosis and treats prometaphase as a staging convention rather than forcing one universal phase scheme. The English telophase output omitted the Russian sentence that cytokinesis usually divides the cytoplasm; this bilingual scientific-content mismatch is now aligned. Sources: https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells ; https://openstax.org/books/biology-2e/pages/5-2-passive-transport ; https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle
+
+2. **Genetics — inheritance and gene expression checked.** The chapter correctly qualifies the simple Mendelian model (complete dominance, diploid loci, probabilistic ratios), distinguishes genotype and phenotype, and notes polygenic/environmental influences. Transcription, translation, RNA processing, codons, start/stop signals, functional non-coding RNAs, genetic-code exceptions, mutation classes, gene regulation and epigenetic inheritance are presented with appropriate caveats. The DNA-to-RNA-to-protein plate identifies reverse transcription as an exception and does not imply that every gene encodes a protein.
+   - **Coverage gap corrected:** the chapter listed DNA replication among its key topics and diagrammed DNA → DNA, but did not provide a substantive explanation. Added a bilingual learning block covering semiconservative replication, origins, helicase, primase, 5′→3′ DNA polymerase activity, leading and lagging strands, Okazaki fragments and ligase. The text distinguishes many bacterial chromosomes with a single origin from eukaryotic nuclear chromosomes with multiple origins. A direct OpenStax reference was added. Source: https://openstax.org/books/biology-2e/pages/14-chapter-summary
+
+3. **Microbiology — cellular organisation and microbial mechanisms checked.** The chapter distinguishes Bacteria and Archaea from acellular viruses; its treatment of bacterial shapes, binary fission, viral replication, lytic/lysogenic bacteriophage cycles, closed-culture growth phases, antibiotic resistance and the three major horizontal gene-transfer routes (transformation, transduction and conjugation) is scientifically appropriate at the intended level.
+   - **Overgeneralisation corrected:** “bacteria are single-celled” is now “typically single-celled”, with a short note on filaments, biofilms and differentiated colonies. A 2025 review is cited because bacterial multicellularity is diverse and its definition remains an active research topic. The new wording avoids suggesting that all bacterial populations are simply isolated single cells. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC11948493/
+
+4. **Biochemistry — energy and enzyme descriptions checked.** The enzyme model correctly distinguishes activation energy from reaction equilibrium; the temperature, pH and substrate-concentration explanations are appropriately qualitative. The ATP section distinguishes standard biochemical free-energy change from actual cellular ΔG. The Russian interactive ATP-hydrolysis output omitted the explicit concentration dependence already present in English; it has been corrected to match. Glycolysis is correctly described as yielding net 2 ATP and NADH per glucose; the eukaryotic citric-acid-cycle location and mitochondrial electron-transport-chain location are correctly distinguished, and oxygen is identified as the terminal electron acceptor in aerobic respiration.
+
+5. **Bilingual and interaction checks.** Russian/English content was checked for the corrected passages. The cell-cycle telophase description, DNA-replication block, bacterial-cell qualification and ATP ΔG explanation now carry matching scientific meaning in both languages.
+
+### Block 3 changes committed
+
+- `biology/chapters/cell-biology.html`: aligned the English telophase description with the Russian explanation.
+- `biology/chapters/genetics.html`: added the missing bilingual DNA-replication teaching block and a direct reference.
+- `biology/chapters/microbiology.html`: qualified the typical unicellular organisation of bacteria and added a current review on bacterial multicellularity.
+- `biology/chapters/biochemistry.html`: aligned the Russian ATP-hydrolysis output with the English explanation of cellular ΔG.
+- Relevant commits: `83ba25f09dd57d4d6302c4214e519d6407d0b84b`, `cad935bef4f19c160b2a355ce268778cec3cf9bd`, `8d1686ae1ae51ae15840f7e3a0a3c89ca2840451`, `743086f0fa9757251ab8696fc8ddc79f0c610d27`, `dcaee99498e455c3fe487d024a2e009d5466c793`, `bec689218256aea5d4db5da268c0ece43c15daba`.
+
+### Technical verification (separate from G4)
+
+GitHub Actions run `41309806986` on commit `bec689218256aea5d4db5da268c0ece43c15daba` completed successfully. Both the static Biology-page/link/script validation and the Chromium browser smoke test passed. The browser smoke test exercised all Biology HTML pages at the configured mobile and desktop viewport sizes, including language toggles, keyboard reachability, accessible names and horizontal-overflow checks. This is not a complete screen-reader, contrast or device-lab audit and does not close those separate release gates.
+
 ## Open items carried forward
 
 - Obtain author/voucher-level resolution of the Suusamyr `4 + 1` versus four-total discrepancy and the `Triplophysa` identifications.
@@ -76,4 +104,4 @@ Reviewed regional occurrence and taxonomic claims against their cited primary/of
 
 ## Completion accounting
 
-G4 is divided into four review blocks: (1) regional biodiversity and species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency. Blocks 1 and 2 are complete at the author-side evidence-review level: **2/4 = 50%**. No claim is made that the complete Biology Atlas or its independent-review gates are 25% publication-ready.
+G4 is divided into four review blocks: (1) regional biodiversity and species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency. Blocks 1, 2 and 3 are complete at the author-side evidence-review level: **3/4 = 75%**. No claim is made that the complete Biology Atlas or its independent-review gates are 25% publication-ready.
