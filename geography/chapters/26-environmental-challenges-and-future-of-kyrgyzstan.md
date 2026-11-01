@@ -79,12 +79,12 @@ In 2025, the Kyrgyz Republic submitted its third Nationally Determined Contribut
 NDC 3.0 treats adaptation as a strategic priority and identifies water resources, energy, agriculture, forests and biodiversity, disaster-risk reduction, cities and health as key areas. It provides for water-saving technologies, climate-resilient agriculture, renewable energy, energy-efficient buildings, and stronger monitoring and institutional capacity.
 
 ## 26.3. Ледники, снег и водная безопасность / Glaciers, Snow and Water Security
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Карта ледников и основных речных бассейнов Кыргызстана с датой инвентаризации; отдельная схема сравнивает инвентаризации 1940–1970-х и 2013–2016 годов, подчёркивая различия порогов учёта мелких ледников.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Комплексная карта и инфографика водной безопасности Кыргызстана: ледники и основные речные бассейны, сравнение инвентаризаций 1940–1970-х и 2013–2016 годов, снеговое и ледниковое питание, сезонный сток, водохранилища, орошение и зоны потенциального риска прорыва ледниковых озёр; указать даты, версии каталогов и методические различия.
 
 Для количественной оценки важно указывать дату и метод инвентаризации. По каталогу, подготовленному ЦАИИЗ на основе спутниковых снимков Landsat 8 за 2013–2016 годы, в Кыргызстане было учтено 9 959 ледников общей площадью 6 683,9 км². Сопоставляемый советский каталог, основанный на материалах аэрофотосъёмки 1940–1970-х годов, содержал 8 164 ледника общей площадью 7 944,2 км². Разница площадей составляет около 16% (примерно 1 260 км²), но сравнение не является идеально однородным: старый каталог в отдельных районах не учитывал ледники менее 0,1 км², тогда как новая инвентаризация включала объекты более 0,01 км². Поэтому увеличение числа учтённых ледников не означает роста ледникового покрова: деградация крупных ледников сопровождается их фрагментацией на более мелкие тела. Данные 2013–2016 годов — важная базовая инвентаризация, но не актуальная оценка площади на 2026 год.
 
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Схема оледенения и водных бассейнов Кыргызстана с датой и версией каталога; не смешивать данные разных инвентаризаций и обозначить зоны потенциального риска прорыва ледниковых озёр.
+
 
 
 Quantifying glacier retreat requires identifying the specific inventory used. The Kyrgyz Republic's First Biennial Transparency Report (BTR1, 2025), citing the CAIAG Catalogue of Glaciers (Edition 01/2024), reports **9,957 glaciers covering 6,804.8 km²** and estimates an approximately **14% reduction in glacier area over about 70 years** relative to the Soviet-era catalogue. An earlier CAIAG publication based on Landsat-8 imagery from 2013–2016 reported **6,683.9 km²** and a 16% reduction. These estimates refer to different inventory editions and methodological snapshots. They must not be interpreted as direct evidence of glacier-area growth between the dates or combined into one continuous time series without checking mapped boundaries, the minimum glacier size included and the mapping methodology.
@@ -832,11 +832,11 @@ Identify potential pollutants, migration pathways, sensitive receptors, control 
 Develop an adaptation plan for a rural settlement that addresses water, pastures, roads, housing, health, early warning and household incomes.
 
 ## 26.16. Технические задания для визуалов / Visual Production Briefs
- > **[МЕТКА ИЛЛЮСТРАЦИИ 26-A / IMAGE PLACEHOLDER 26-A]** Климатическая инфографика: изменение среднегодовой температуры за 1960–2023 годы и сценарии/неопределённости будущих изменений; национальные наблюдения отделить от глобального сравнения.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-A / IMAGE PLACEHOLDER 26-A]** Комплексная климатическая визуализация: график национального температурного тренда 1960–2023 годов, карта региональных различий и сценарии/неопределённости будущих изменений; национальные наблюдения отделить от глобального сравнения и модельных проекций.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Схема водной безопасности горного бассейна: снег, ледники, моренно-ледниковые озёра, сезонный сток, водохранилища, ирригация и экологический сток.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Та же комплексная карта и инфографика водной безопасности, что отмечена в разделе 26.3: показать снег, ледники, бассейны, сезонный сток, водохранилища, ирригацию, экологический сток и потенциальные ледниково-озёрные опасности.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-I / IMAGE PLACEHOLDER 26-I]** Карта экологических рисков и биоразнообразия: пастбища, леса, ООПТ, зоны селей и оползней, источники загрязнения; показывать только геоданные с проверенной датой и масштабом.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-I / IMAGE PLACEHOLDER 26-I]** Единая карта экологических рисков и природной уязвимости: сейсмические, селевые, оползневые и паводковые опасности, пастбища, леса, ООПТ и источники загрязнения; показывать только проверенные геоданные с датой и масштабом.
 
 
 1. **Климатические изменения Кыргызстана.** Карта температурных трендов по метеостанциям с периодом наблюдения, единицами и доверительными интервалами; не интерполировать данные без методики.
@@ -845,6 +845,9 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 > **EN:** River-basin vulnerability map showing water abstractions, population, irrigation and transboundary connections, with date and source.
 
 3. **Карта уязвимости речных бассейнов.** Бассейны Нарына, Чу, Таласа, Карадарьи и других рек; водозаборы, население, ирригация и трансграничные направления.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-D / IMAGE PLACEHOLDER 26-D]** Карта землепользования и состояния пастбищ: отделить национальную агрегированную оценку деградации от локальных обследований и спутниковых индексов.
+> **EN:** Map of land use and pasture condition, separating national aggregate degradation estimates from local field surveys and satellite indices.
+
 4. **Пастбища и деградация земель.** Высотные пояса, сезонные пастбища, зоны нагрузки, эрозионные участки и восстановительные меры.
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-E / IMAGE PLACEHOLDER 26-E]** Карта лесных экосистем и экологических коридоров с официальными границами ООПТ и датой геоданных.
 > **EN:** Map of forest ecosystems and ecological corridors with official protected-area boundaries and geodata date.
@@ -867,6 +870,9 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 > **EN:** Map of mining-related environmental liabilities showing pits, mines, tailings, disturbed land, monitoring and rehabilitation.
 
 10. **Горнодобывающие экологические обязательства.** Карьеры, шахты, хвостохранилища, нарушенные земли, мониторинг и рекультивация.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-K / IMAGE PLACEHOLDER 26-K]** Схема зелёной городской инфраструктуры: деревья, парки, водоотвод, прохладные маршруты и общественный транспорт; показать взаимосвязь с жарой и качеством воздуха.
+> **EN:** Green urban infrastructure diagram showing trees, parks, drainage, cool routes and public transport, linked to heat and air quality.
+
 11. **Зелёный город.** Схема общественного транспорта, зелёной инфраструктуры, чистого отопления, водоотведения и безопасных общественных пространств.
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-L / IMAGE PLACEHOLDER 26-L]** Сценарный график до 2050 года с тремя вариантами и сопоставимыми индикаторами климата, воды, земель, биоразнообразия, воздуха и качества жизни.
 > **EN:** Three-scenario chart to 2050 with comparable indicators for climate, water, land, biodiversity, air and quality of life.
