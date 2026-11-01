@@ -932,7 +932,7 @@ if (!faunaKyrgyzstanFile.includes("ISSYK-KUL · DEMOISELLE CRANE MIGRATION · AU
     !faunaKyrgyzstanFile.includes("must not be automatically combined") ||
     !faunaKyrgyzstanFile.includes("zhuravl-krasavka-issyk-kul-2026") ||
     !regionalSpeciesAudit.includes("Issyk-Kul: Demoiselle Crane migration aggregation — August 2026") ||
-    !regionalSpeciesAudit.includes("not an estimate of the species' total national population or evidence of a sustained population trend")) {
+    !regionalSpeciesAudit.includes("do not treat it as a national population estimate or trend")) {
   errors.push("2026 Issyk-Kul Demoiselle Crane aggregation must retain its source, approximate count and non-population scope");
 }
 
