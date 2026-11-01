@@ -299,7 +299,7 @@ Road transport dominates Kyrgyzstan's transport system. Mountain relief makes ro
 
 Теплоэлектроцентрали и котельные обеспечивают отопление городов, особенно в холодный период. Уголь остаётся важным топливом для части домохозяйств и энергетических объектов. Его использование связано с выбросами частиц и газов, влиянием на качество воздуха, транспортировкой и безопасностью добычи.
 
-По данным совещания Кабинета Министров в октябре 2026 года, ожидаемое потребление электроэнергии в стране за год оценивалось в 19,6 млрд кВт·ч; плановая внутренняя выработка — 15,5 млрд кВт·ч, а импорт — 4,1 млрд кВт·ч. Это прогнозные показатели на 2026 год, а не окончательный баланс фактической выработки и потребления.
+По данным совещания Кабинета Министров 9 октября 2026 года, ожидаемое потребление электроэнергии в стране за год оценивалось в 19,6 млрд кВт·ч; плановая внутренняя выработка — 15,5 млрд кВт·ч, а предполагаемый импорт — 4,1 млрд кВт·ч. Однако 19 октября 2026 года министр энергетики сообщил в парламентском комитете, что годовой план импорта составляет 4,999 млрд кВт·ч; к 15 октября фактически было импортировано 2,922 млрд кВт·ч. Эти опубликованные плановые значения различаются. Их нельзя механически складывать или считать окончательно согласованным балансом: в учебном анализе необходимо указывать дату и источник каждого показателя и ожидать уточнённого официального баланса. Все приведённые величины являются планами и оперативными данными 2026 года, а не окончательными годовыми итогами.
 
 ### Возобновляемая энергетика и эффективность
 
@@ -313,7 +313,7 @@ Kyrgyzstan's energy system relies on hydropower, thermal generation, electricity
 
 **Hydropower.** Major hydropower facilities are associated with the Naryn River and its cascade of power stations. Toktogul Reservoir is central to flow regulation and electricity generation. Reservoirs serve both energy and water-management functions, so operating rules affect irrigation, ecosystems and transboundary water use. Hydropower is not automatically carbon-free or environmentally neutral. Project assessment should consider river-regime changes, fish migration, sedimentation, land inundation, resettlement, dam safety, glacier and debris-flow hazards, and life-cycle emissions.
 
-**Thermal energy and fuels.** Combined heat and power plants and boiler houses provide urban heating, particularly in winter. Coal remains important for some households and energy facilities. Its use is associated with particulate and gaseous emissions, air-quality impacts, transport and mining safety. At a Cabinet of Ministers meeting in October 2026, expected annual electricity consumption was estimated at 19.6 billion kWh, planned domestic generation at 15.5 billion kWh and imports at 4.1 billion kWh. These are forecasts for 2026, not the final actual energy balance.
+**Thermal energy and fuels.** Combined heat and power plants and boiler houses provide urban heating, particularly in winter. Coal remains important for some households and energy facilities. Its use is associated with particulate and gaseous emissions, air-quality impacts, transport and mining safety. At a Cabinet of Ministers meeting on 9 October 2026, expected annual electricity consumption was estimated at 19.6 billion kWh, planned domestic generation at 15.5 billion kWh and expected imports at 4.1 billion kWh. However, on 19 October 2026 the Minister of Energy told a parliamentary committee that the annual import plan was 4.999 billion kWh; actual imports had reached 2.922 billion kWh by 15 October. These published planning figures differ. They should not be mechanically combined or treated as one reconciled energy balance. Educational analysis should identify the date and source of each figure and await a clarified official balance. All figures are 2026 plans and interim data, not final annual results.
 
 **Renewables and efficiency.** Solar and wind power can complement hydropower where resource conditions and grid connections are suitable. Further opportunities include small hydropower, grid modernisation, storage, demand management, building insulation and efficient heating. Installed capacity alone is not enough to assess a project: capacity factor, seasonal generation profile, grid constraints, storage costs, environmental effects and supply reliability must also be considered.
 
@@ -827,6 +827,8 @@ All visual materials must be based on verified geospatial data and statistics. G
 13. International Energy Agency. Energy system analysis and energy statistics. https://www.iea.org/
 14. UNESCO World Heritage Centre. Sulayman-Too Sacred Mountain. https://whc.unesco.org/en/list/1230/
 15. UN Tourism. Sustainable tourism and destination management resources. https://www.unwto.org/
+16. Cabinet of Ministers of the Kyrgyz Republic. Meeting on preparations for the 2026–2027 autumn–winter period, 9 October 2026 (expected electricity consumption, domestic generation and imports). https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-tapsyrmalardy-berdi
+17. Kabar News Agency. Minister of Energy's report to the parliamentary committee on electricity imports as of 15 October 2026, 19 October 2026. https://kabar.kg/news/kyrgyzstan-29-mlrd-kvtsaat-elektr-energiyasyn-importtodu/
 
 ### English references
 
@@ -845,6 +847,8 @@ All visual materials must be based on verified geospatial data and statistics. G
 13. International Energy Agency. Energy system analysis and energy statistics. https://www.iea.org/
 14. UNESCO World Heritage Centre. *Sulayman-Too Sacred Mountain.* https://whc.unesco.org/en/list/1230/
 15. UN Tourism. Sustainable tourism and destination-management resources. https://www.unwto.org/
+16. Cabinet of Ministers of the Kyrgyz Republic. Meeting on preparations for the 2026–2027 autumn–winter period, 9 October 2026 (expected electricity consumption, domestic generation and imports). https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-taptasyrmalardy-berdi
+17. Kabar News Agency. Minister of Energy's report to the parliamentary committee on electricity imports as of 15 October 2026, 19 October 2026. https://kabar.kg/news/kyrgyzstan-29-mlrd-kvtsaat-elektr-energiyasyn-importtodu/
 
 ---
 **Конец главы 25 / End of Chapter 25**
