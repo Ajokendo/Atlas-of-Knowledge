@@ -75,3 +75,13 @@
 - Regression-check commit: `c3a24ceae7d3b933118ab5f9cdd9a5bb7de7d99c`.
 - README log commit: `9becc8851d4792dbe368e367ad867fb489a012af`.
 - Full Node.js, Chromium and CI checks have not yet been run on these latest commits. Controlled readiness remains 95/100; G4/G5 remain open. Existing 52 image anchors and their Deferred dispositions are unchanged.
+
+
+## Cardiovascular physiology extension
+
+- Added bilingual coverage of the cardiac cycle, stroke volume, cardiac output, electrical conduction, baroreceptor reflex and the interaction of cardiovascular regulation with renal RAAS and vasopressin mechanisms.
+- Added an accessible bilingual SVG diagram of the cardiac conduction pathway.
+- Chapter commit: `af8a0108af71f0c93d10ff2b70dddb1be04cacd1`.
+- Regression-check commit: `55a7262c61db31b4d6d6ea3d5dc14bfe8a30b0dd`.
+- README log commit: `14ec92f2f088447a0383991f59432cb40ab45e7d`.
+- Full Node.js, Chromium and CI checks have not yet been run on these latest commits. Controlled readiness remains 95/100; G4/G5 remain open. Existing 52 image anchors and Deferred dispositions are unchanged.
