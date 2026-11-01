@@ -8,6 +8,8 @@
 ---
 
 ## 21.1. Биогеографическое положение и происхождение биоразнообразия
+
+ > **[МЕТКА ИЛЛЮСТРАЦИИ 21-A / IMAGE PLACEHOLDER 21-A]** Биогеографическая карта Кыргызстана с основными горными системами, высотными поясами и природными комплексами; границы биогеографических областей не подменять административными.
 ## Biogeographical Setting and Origins of Biodiversity
 
 Кыргызстан расположен в пределах Палеарктической биогеографической области, на стыке центральноазиатских пустынно-степных, континентальных горных и западно-тянь-шаньских природных комплексов. Основу горной территории составляют Тянь-Шань и Памиро-Алай. Их хребты, межгорные котловины, ущелья, речные долины и высокогорные плато создают множество экологических ниш.
@@ -60,6 +62,8 @@
 Генетическое разнообразие диких родичей может содержать признаки устойчивости к засухе, холоду, вредителям и болезням. Однако сохранение этих ресурсов требует защиты естественных местообитаний, а не только создания плантаций.
 
 ## 21.3. Высотная поясность растительности
+
+ > **[МЕТКА ИЛЛЮСТРАЦИИ 21-B / IMAGE PLACEHOLDER 21-B]** Профиль высотной поясности растительности от сухих предгорий до нивально-скального пояса; границы показывать как ориентировочные и зависимые от экспозиции.
 ## Altitudinal Zonation of Vegetation
 
 Высотная поясность — закономерная смена природных комплексов с увеличением высоты. В Кыргызстане она выражена особенно отчётливо, но не имеет единой для всей страны схемы. Границы поясов меняются в зависимости от широты, экспозиции склона, осадков, ветра, рельефа, почв и истории землепользования.
@@ -84,6 +88,8 @@
 - Подземные органы (луковицы, корневища, клубни) обеспечивают переживание неблагоприятного периода.
 
 ## 21.4. Лесные экосистемы Кыргызстана
+
+ > **[МЕТКА ИЛЛЮСТРАЦИИ 21-C / IMAGE PLACEHOLDER 21-C]** Сравнительная инфографика еловых, арчовых, орехоплодовых и тугайных лесов с характерными видами, функциями и угрозами.
 ## Forest Ecosystems of Kyrgyzstan
 
 Леса занимают ограниченную долю территории страны, но имеют непропорционально большое экологическое значение. Они регулируют сток, защищают почвы от эрозии, удерживают снег, создают местообитания, накапливают углерод и поддерживают местные источники дохода.
@@ -185,6 +191,8 @@
 Нужны оценка пастбищной ёмкости, ротация, сезонные ограничения, восстановление деградированных участков, защита водопоев от вытаптывания, контроль эрозии и участие местных пастбищных комитетов. Универсальной нормы нагрузки для всей страны нет: она должна рассчитываться для конкретного участка и сезона.
 
 ## 21.7. Фауна: основные группы и местообитания
+
+ > **[МЕТКА ИЛЛЮСТРАЦИИ 21-D / IMAGE PLACEHOLDER 21-D]** Карта местообитаний ключевых групп фауны и экологических коридоров; чувствительные координаты редких видов обобщать.
 ## Fauna: Major Groups and Habitats
 
 Фауна Кыргызстана включает горных млекопитающих, хищников, копытных, многочисленных грызунов, разнообразных птиц, рептилий, амфибий, рыб и беспозвоночных. Полнота национальных списков меняется по мере исследований и уточнения таксономии.
@@ -340,6 +348,8 @@
 Угрозы взаимодействуют. Например, климатический стресс может усиливать последствия чрезмерного выпаса, а дорога — облегчать доступ браконьеров к ранее труднодоступным участкам. Поэтому оценивать воздействие следует на уровне ландшафта и экосистемы.
 
 ## 21.12. Охрана биоразнообразия и природоохранные инструменты
+
+ > **[МЕТКА ИЛЛЮСТРАЦИИ 21-E / IMAGE PLACEHOLDER 21-E]** Карта охраняемых природных территорий и экологических коридоров Кыргызстана с юридически проверенными категориями и датой геоданных.
 ## Biodiversity Conservation and Policy Instruments
 
 ### Национальная Красная книга
@@ -682,6 +692,24 @@ In 2025, Kyrgyzstan presented a national biodiversity conservation programme to 
 Good monitoring practice includes using the same methods in repeat surveys; recording date, coordinates, elevation, observer and conditions; distinguishing absence from non-detection; preserving primary data and photographs with metadata; checking taxonomic identifications with experts; and avoiding publication of precise coordinates of vulnerable populations where this could increase poaching or illegal collection risks.
 
 ## 21.14. Практические работы
+
+### English Practical Activities
+
+**1. Altitudinal vegetation zonation.** Select a mountain transect and describe the sequence of vegetation communities from foothills to the nival zone. Record elevation, aspect, slope, moisture and evidence of land use. Explain why belt boundaries are approximate.
+
+**2. Comparing forest ecosystems.** Compare spruce, juniper and walnut-fruit forest communities. Describe their ecological conditions, dominant species, regeneration, ecosystem functions and main threats. Do not treat all juniper communities as one species or all walnut forests as uniform.
+
+**3. Pasture field description.** Using a safe, permitted site, record vegetation cover, dominant plant groups, bare soil, signs of grazing, erosion and water availability. Use a consistent sampling method and repeat observations.
+
+**4. Habitat assessment for a rare animal.** Select a flagship species and describe its habitat requirements, prey or food resources, movement corridors and threats. Use verified sources and avoid disclosing sensitive coordinates.
+
+**5. Camera-trap monitoring.** Design a monitoring plan that specifies camera placement criteria, survey duration, effort, metadata, species-identification checks and ethical safeguards. Explain why the number of photographs is not automatically the population size.
+
+**6. Satellite assessment of vegetation.** Compare vegetation indices or land-cover products for two dates. Use comparable seasons and explain why spectral change does not always indicate a change in species composition or ecosystem condition.
+
+**7. Checking conservation status.** Select a plant or animal species. Compare its national legal status, Red Book listing, IUCN assessment and CITES status where relevant. State the date and source for each system and explain why the categories are not interchangeable.
+
+
 ## Practical Activities
 
 ### Практическая работа 1. Высотная поясность растительности
@@ -733,6 +761,28 @@ Good monitoring practice includes using the same methods in repeat surveys; reco
 **Результат:** карточка вида с датой проверки, источниками и объяснением различий статусов.
 
 ## 21.15. Контрольные вопросы
+
+### English Review Questions
+
+1. Which biogeographical factors shape the biodiversity of Kyrgyzstan?
+2. How does an endemic species differ from a relict species?
+3. Why are wild relatives of cultivated plants important genetic resources?
+4. Why do altitudinal vegetation belts not have identical elevation boundaries across the country?
+5. Which forest ecosystems are characteristic of Kyrgyzstan?
+6. Why is the term *archa* not the name of one juniper species?
+7. How does seasonal grazing influence pasture condition?
+8. Which major animal groups inhabit the Tien Shan and Pamir-Alay?
+9. Why should historical species records not automatically be treated as evidence of current distribution?
+10. What are the main threats to snow leopards and other mountain mammals?
+11. Why are high-mountain lakes important for waterbirds?
+12. How do pollination and seed dispersal support ecosystem functioning?
+13. How do habitat fragmentation and invasive species affect biodiversity?
+14. How does the national Red Book differ from the IUCN Red List and CITES?
+15. Why is a protected area not sufficient without ecological connectivity?
+16. What is detectability, and why does non-detection not prove absence?
+17. Which ethical and methodological requirements apply to biodiversity monitoring?
+
+
 ## Review Questions
 
 1. Почему биоразнообразие Кыргызстана отличается высокой пространственной мозаичностью?
@@ -819,6 +869,12 @@ A non-native species is not necessarily invasive. An invasive alien species is a
 **Monitoring and response.** At an early stage, rapid reporting, confirmation and assessment of local control options are important. Once a species is widespread, control may become expensive and less effective. Management methods should account for the species' ecology, risks to non-target organisms and follow-up monitoring.
 
 **Activity.** Examine a hypothetical case of a newly observed plant spreading along an irrigation canal. Design a plan to confirm its identity, map its spread and assess its impacts. Separate established facts from hypotheses and identify the data needed before control measures begin.
+
+### English Chapter Summary
+
+Kyrgyzstan's biodiversity reflects the interaction of the Tien Shan and Pamir-Alay, strong altitudinal gradients, contrasting moisture regimes, geological diversity and a complex climate history. The country contains steppe, desert, forest, meadow, alpine and nival habitats, including globally important wild relatives of cultivated fruit and nut plants.
+
+Flora and fauna are connected through pollination, seed dispersal, food webs and ecosystem services. Biodiversity is threatened by climate change, poaching, overgrazing, habitat fragmentation, fires, mining, pollution, illegal plant collection and invasive species. Conservation requires protected areas, ecological corridors, sustainable pasture and forest management, reliable monitoring and community participation.
 
 ## 21.19. Основные источники и литература
 ## Selected References and Further Reading
