@@ -684,6 +684,10 @@ try {
       if (!(await page.locator("#nernstResult").innerText()).includes("1.1296") || !(await page.locator("#nernstFeedback").innerText()).includes("For Zn + Cu²⁺")) errors.push(file + ": English Nernst calculator output or explanation is incorrect");
       await page.locator("#activityZn").fill("1"); await page.locator("#activityCu").fill("0"); await page.locator("#nernstCalc").click();
       if ((await page.locator("#nernstResult").innerText()).trim() !== "E = —" || !(await page.locator("#nernstFeedback").innerText()).includes("positive activities")) errors.push(file + ": zero activity must be rejected with English feedback");
+      await page.locator("#activityZn").fill(""); await page.locator("#nernstCalc").click();
+      if ((await page.locator("#nernstResult").innerText()).trim() !== "E = —" || !(await page.locator("#nernstFeedback").innerText()).includes("positive activities")) errors.push(file + ": blank activity must be rejected with English feedback");
+      await page.locator("#activityZn").fill("1e308"); await page.locator("#activityCu").fill("1e-308"); await page.locator("#nernstCalc").click();
+      if (!(await page.locator("#nernstResult").innerText()).includes("-17.1213")) errors.push(file + ": finite extreme activity ratio must remain numerically stable");
       await page.locator("#activityZn").fill("1"); await page.locator("#activityCu").fill("1");
       await page.locator("#lang").click();
     }
