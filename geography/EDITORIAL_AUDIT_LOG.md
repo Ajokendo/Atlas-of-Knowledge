@@ -1029,3 +1029,15 @@ The current marker additions are production instructions/placeholders only; no g
 - Replaced the generic UNSD homepage with the UN Statistics Division's UN-GGIM page, which is specifically about global geospatial information management.
 - The ICA Cartographic Body of Knowledge site timed out during this check; this is recorded as unresolved, not classified as a dead link.
 - Updated Chapter 01 commit: `80c82d47fdf86d8d0c50da5254787f636c2ed10f`.
+
+
+### Chapter 02 — initial scientific/source check and water-table correction — 2 November 2026
+- Checked the chapter's 2025 atmospheric CO₂ figure against NOAA Global Monitoring Laboratory's Annual Greenhouse Gas Index: 425.62 ppm is the 2025 annual mean for the remote marine boundary layer / marine surface network. The chapter's rounded 425.6 ppm value is consistent with that NOAA series and is explicitly labelled preliminary.
+- Confirmed that the WMO 2025 globally averaged surface concentration is a different metric and dataset: 426.8 ± 0.2 ppm in Greenhouse Gas Bulletin No. 22 (27 October 2026). The chapter correctly keeps the NOAA and WMO series separate; they must not be presented as interchangeable.
+- Checked atmospheric-layer ranges against NOAA JetStream. The chapter's broad approximate ranges (troposphere 8–18 km; stratosphere to about 50 km; mesosphere 50–85 km; thermosphere from about 85 km; exosphere above) are suitable for a school-level overview when clearly labelled approximate.
+- Checked global water-reservoir proportions against the USGS Water Science School distribution table. Found a potential teaching ambiguity: the former 1.7% “groundwater” row represented total groundwater, including both fresh (0.76% of all water) and saline (0.93%) groundwater. It could be misread as freshwater only.
+- Corrected the Russian and English tables to split fresh and saline groundwater, identify 1.69% as total groundwater, and state that about 68.7% of freshwater is in glaciers/permanent snow and 30.1% in fresh groundwater. Rounded values and rounding limits are stated.
+- Replaced generic NASA/NOAA bibliography destinations with specific NASA water-cycle and NOAA atmospheric-layer pages; added the specific USGS global-water-distribution reference.
+- Authoritative checks: NOAA AGGI (https://gml.noaa.gov/aggi/aggi.html); WMO Bulletin No. 22 (https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22); NOAA JetStream (https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere); USGS water distribution (https://www.usgs.gov/water-science-school/science/how-much-water-there-earth); NASA water cycle (https://science.nasa.gov/earth/earth-observatory/the-water-cycle/).
+- Chapter update commit: `b06511d44d224736c832bbd8a781208b6c5880dc`; verified chapter blob: `bdbb095d168312ddcbfbd006613381d0877b719b`.
+- Scope limitation: this is a targeted initial check, not full source-by-source verification or final bilingual proofreading of Chapter 02. Other Earth-system, geological, biogeochemical and planetary-boundary claims remain open.
