@@ -157,7 +157,7 @@
 - дельты;
 - аллювиальные равнины.
 
-**Меандр** — изгиб русла, развивающийся под влиянием неодинаковой скорости течения и боковой эрозии. **Пойма** — часть речной долины, периодически затапливаемая при высоких уровнях воды. **Дельта** формируется там, где река теряет транспортирующую способность при впадении в водоём или другой водоток.
+**Меандр** — изгиб русла, который обычно развивается вследствие неодинакового распределения скоростей потока: на внешнем берегу преобладает размыв, а на внутреннем — накопление наносов. **Пойма** — часть речной долины, периодически затапливаемая при высоких уровнях воды. **Дельта** формируется там, где река теряет транспортирующую способность при впадении в водоём или другой водоток.
 
 **Место для иллюстрации 4.6-A — River Landforms.** План и поперечный профиль реки: меандр, пойма, террасы, конус выноса и дельта.
 
@@ -208,7 +208,7 @@
 
 ## 4.9. Карстовый рельеф / Karst Landforms
 
-Карст развивается при растворении растворимых пород — прежде всего известняков, доломитов, гипса и каменной соли — природными водами. Интенсивность карстообразования зависит от состава пород, трещиноватости, водообмена, температуры и химии воды.
+Карст развивается при растворении растворимых пород — прежде всего известняков, доломитов, гипса и каменной соли — природными водами. Растворённый углекислый газ может повышать способность воды растворять карбонатные породы. Интенсивность карстообразования зависит от состава пород, трещиноватости, водообмена, температуры и химии воды.
 
 Основные поверхностные формы:
 - карры;
@@ -331,8 +331,8 @@
 
 Рельеф Земли включает как высочайшие горные вершины, так и глубокие океанические впадины. При сравнении экстремумов необходимо уточнять метод измерения и систему высот или глубин.
 
-- **Эверест** — высочайшая вершина Земли над средним уровнем моря; официально признанная высота составляет 8 848,86 м.
-- **Марианская впадина** — область наиболее глубоких известных участков океана; конкретные значения глубины зависят от точки и метода измерения.
+- **Эверест** — высочайшая вершина Земли над средним уровнем моря; совместно объявленная Китаем и Непалом высота снежной поверхности составляет 8 848,86 м (измерение 2020 года).
+- **Челленджер-Дип в Марианской впадине** — наиболее глубокий известный участок океана; исследование 2021 года сообщило оценку глубины около 10 935 м (±6 м относительно среднего уровня моря). Значения зависят от точной точки и метода измерения.
 - **Мёртвое море** — один из наиболее низко расположенных участков суши, не покрытых морем; уровень воды меняется со временем.
 - **Тибетское нагорье** — крупнейшая и одна из наиболее высоких обширных возвышенных областей планеты.
 
@@ -352,11 +352,13 @@
 - **Точечные отметки высот:** численные значения отдельных точек.
 - **Профили рельефа:** графическое представление изменения высоты вдоль выбранной линии.
 
-Горизонтали не пересекаются в обычной топографической карте, за исключением специальных случаев отображения нависающих форм или особенностей картографического представления. Чем ближе горизонтали друг к другу, тем круче склон.
+На стандартной топографической карте горизонтали обычно не пересекаются; нависающий рельеф требует особого картографического отображения. Чем ближе горизонтали друг к другу, тем круче склон, если высота сечения рельефа постоянна.
 
 ### 4.14.2. Цифровые модели высот / Digital Elevation Models
 
-Цифровые модели высот (DEM) позволяют рассчитывать уклоны, экспозицию склонов, водосборы, линии водоразделов, объёмы земляных работ и параметры рельефа. При анализе важно учитывать разрешение, вертикальную точность, систему координат, источник данных и наличие растительности или зданий в модели.
+**Цифровая модель высот (DEM)** — растровое представление высот поверхности. В одних наборах данных модель описывает рельеф земли без зданий и растительности, в других — верхнюю поверхность, включая растительность, здания или лёд. **Цифровая модель поверхности (DSM)** обычно отражает верх объектов и растительного покрова, а **цифровая модель рельефа (DTM)** стремится описать поверхность земли без таких объектов. Терминология различается между ведомствами и программами, поэтому необходимо проверять определение и метаданные конкретного набора данных.
+
+DEM используют для расчёта уклонов, экспозиции склонов, водосборов, линий водоразделов, объёмов земляных работ и других параметров. Важно учитывать пространственное разрешение, вертикальную точность, горизонтальную и вертикальную системы отсчёта, источник и дату съёмки, метод обработки, а также наличие растительности или зданий. Более мелкий размер ячейки сам по себе не гарантирует большей точности: разрешение должно соответствовать плотности и качеству исходных данных.
 
 **Место для иллюстрации 4.14-A — Reading a Topographic Map.** Фрагмент топографической карты с горизонталями, отметками высот, водоразделом, долиной и построенным профилем.
 
@@ -556,7 +558,7 @@ River erosion may be **vertical**, deepening the channel; **lateral**, widening 
 
 #### 4.6.2. Major Fluvial Landforms
 
-Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel that develops through differences in flow velocity and lateral erosion. A **floodplain** is the part of a river valley periodically inundated during high water. A **delta** forms where a river loses its capacity to transport sediment as it enters a water body or another river.
+Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel. Flow is generally faster near the outer bank, where erosion dominates, and slower near the inner bank, where sediment is more likely to accumulate. A **floodplain** is the part of a river valley periodically inundated during high water. A **delta** forms where a river loses its capacity to transport sediment as it enters a water body or another river.
 
 **[ILLUSTRATION PLACEHOLDER 4.6-A]** Show a meander, floodplain, terraces, alluvial fan and delta in plan and cross-section; distinguish erosion from deposition.
 
@@ -595,7 +597,7 @@ Typical landforms include dunes, barchans, longitudinal and transverse sand ridg
 
 ### 4.9. Karst Landforms
 
-Karst develops when natural water dissolves soluble rocks, especially limestone, dolomite, gypsum and rock salt. Its intensity depends on rock composition, fracturing, water circulation, temperature and water chemistry.
+Karst develops when natural water dissolves soluble rocks, especially limestone, dolomite, gypsum and rock salt. Dissolved carbon dioxide can make water more effective at dissolving carbonate rocks. Its intensity depends on rock composition, fracturing, water circulation, temperature and water chemistry.
 
 Surface karst features include karren, sinkholes, swallow holes, karst valleys and poljes. Underground features include caves, galleries, shafts, underground rivers and speleothems such as stalactites, stalagmites and columns.
 
@@ -677,8 +679,8 @@ Climate influences the intensity of different weathering types, but rock composi
 
 Earth's relief includes both the highest mountain peaks and the deepest ocean trenches. Comparisons of extremes must specify the measurement method and the vertical or depth reference system.
 
-- **Mount Everest** is Earth's highest summit above mean sea level; its officially recognised elevation is 8,848.86 m.
-- **The Mariana Trench** contains some of the deepest known parts of the ocean; reported depths depend on the precise location and measurement method.
+- **Mount Everest** is Earth's highest summit above mean sea level; its jointly announced snow-surface elevation is 8,848.86 m (2020 measurement).
+- **Challenger Deep in the Mariana Trench** is the deepest known part of the ocean; a 2021 study reported a depth of about 10,935 m (±6 m relative to mean sea level). Values depend on the precise location and measurement method.
 - **The Dead Sea** is one of the lowest land areas not covered by the sea; its water level changes over time.
 - **The Tibetan Plateau** is the largest and one of the highest extensive elevated regions on the planet.
 
@@ -697,9 +699,11 @@ Common representation methods include:
 - **spot heights**, giving numerical elevations at selected points; and
 - **relief profiles**, showing elevation changes along a chosen line.
 
-Contours do not normally cross on a standard topographic map, except in special cases involving overhanging forms or cartographic conventions. The closer the contours, the steeper the slope.
+On a standard topographic map, contour lines normally do not cross; overhanging terrain requires special cartographic treatment. The closer the contours, the steeper the slope, provided the contour interval is constant.
 
-Digital elevation models (DEMs) can be used to calculate slope, aspect, catchments, watersheds, earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, coordinate system, data source and whether vegetation or buildings are included in the model.
+A **digital elevation model (DEM)** is a gridded representation of elevation. Some products represent bare-earth terrain, while other elevation grids represent the top surface, including vegetation, buildings or ice. A **digital surface model (DSM)** generally represents the tops of features and vegetation, while a **digital terrain model (DTM)** generally aims to represent bare ground. Terminology varies between agencies and software, so users must check the dataset definition and metadata rather than infer what is represented from the acronym alone.
+
+DEMs can be used to calculate slope, aspect, catchments, watersheds, earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, horizontal and vertical reference systems, data source, acquisition date, processing method and whether vegetation or buildings are included. A finer grid cell does not automatically mean greater accuracy: resolution must be appropriate to the source-data density and quality.
 
 **[ILLUSTRATION PLACEHOLDER 4.14-A]** Show a topographic map with contours, spot heights, watershed, valley and a relief profile; include legend, scale and contour interval.
 
@@ -779,16 +783,25 @@ Using a prepared teaching map excerpt:
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
 1. U.S. Geological Survey (USGS). *Geology and Geologic Mapping Resources*. https://www.usgs.gov/programs/national-cooperative-geologic-mapping-program
-2. NASA Earth Observatory. *Earth's Surface and Landforms*. https://earthobservatory.nasa.gov/
+2. NASA Earth Observatory. *Blue Marble: Topography and Bathymetry Maps*. https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/topography-bathymetry-maps/
 3. NOAA National Centers for Environmental Information. *ETOPO Global Relief Model*. https://www.ncei.noaa.gov/products/etopo-global-relief-model
 4. OpenTopography. *Access to topographic data and digital elevation models*. https://opentopography.org/
-5. British Geological Survey. *Discovering Geology: Geological Processes and Landforms*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
+5. British Geological Survey. *Geological Processes*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
+6. U.S. Geological Survey. *What Is a Digital Elevation Model (DEM)?* https://www.usgs.gov/faqs/what-a-digital-elevation-model-dem
+7. OpenTopography. *Frequently Asked Questions* (point density, grid resolution, DEM artifacts and smoothing). https://opentopography.org/faq-page
+8. NOAA National Ocean Service. *How Deep Is the Ocean?* https://oceanservice.noaa.gov/facts/oceandepth.html
+9. Greenaway, S. F. et al. (2021). *Revised depth of the Challenger Deep from submersible transects*. Deep-Sea Research Part I, 178, 103644. https://doi.org/10.1016/j.dsr.2021.103644
+10. China and Nepal (2020). *Joint announcement of Mount Qomolangma's snow-surface elevation: 8,848.86 m*. https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/yz_676205/1206_676812/xgxw_676818/202012/t20201208_9301005.shtml
+11. U.S. Geological Survey. *Landslide Maps: Where Do Landslides Occur?* https://www.usgs.gov/programs/landslide-hazards/where-do-landslides-occur
+12. U.S. Geological Survey. *27 Ideas for Teaching with Topographic Maps*. https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0
+13. National Geographic Society. *Exploring Topographic Features*. https://education.nationalgeographic.org/resource/exploring-topographic-features/
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
 ## Редакционные и научные примечания
 
-- Высоты и глубины географических экстремумов должны быть сверены с первичными геодезическими и гидрографическими источниками непосредственно перед выпуском.
-- Для карт рельефа необходимо указывать систему высот, проекцию, разрешение модели и источник данных.
+- Высота Эвереста в тексте относится к снежной поверхности и совместному объявлению Китая и Непала 2020 года; глубина Челленджер-Дип приведена по исследованию 2021 года с указанной неопределённостью и вертикальной системой отсчёта.
+- Для карт рельефа необходимо указывать систему высот, горизонтальную систему координат, проекцию, разрешение, вертикальную точность, дату и источник данных.
+- Термины DEM, DSM и DTM используются не полностью единообразно; определение и тип поверхности необходимо брать из метаданных конкретного набора данных.
 - Термины «низменность», «возвышенность», «плоскогорье» и «плато» могут иметь разные пороговые значения в национальных и научных классификациях; определения в атласе должны быть единообразны.
 - Геоморфологические схемы следует изображать как научные модели, а не как универсальные формы, одинаковые во всех геологических условиях.
