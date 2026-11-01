@@ -55,13 +55,13 @@ export function buildWorld(E) {
   const circle = (c, r, opt) => { const n = 129, l = dyn(root, n, opt); l.set(arcPts(c, r, 0, 2 * Math.PI, n)); return l; };
   const seg = (parent, opt) => { const l = dyn(parent, 2, opt); return l; };
   const ball = (g, r, name = 'Ball', pal = 'paper') => part(g, new THREE.SphereGeometry(r, 32, 20), { tone: 'hi', name, pal });
-  const thin = (g, r = 0.006) => part(g, new THREE.CylinderGeometry(r, r, 1, 8), { tone: 'hi', pal: 'ink', name: 'String' });
+  const thin = (g, r = 0.006) => part(g, new THREE.CylinderGeometry(r, r, 1, 8), { tone: 'hi', pal: 'ink', name: 'Нить' });
   const stringTo = (m, a, b) => { m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(1, a.distanceTo(b), 1); m.quaternion.setFromUnitVectors(V(0, 1, 0), b.clone().sub(a).normalize()); };
   const orient = (obj, f, up) => obj.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f, up, f.clone().cross(up).normalize()));
   const shrink = (mesh, g, s = 1) => mesh.scale.setScalar(s * (1 - 0.85 * Math.max(g.userData.explode, 0)));
   const ex = g => Math.max(g.userData.explode, 0);
   const ghostMat = shadeMat('paper', { opacity: 0.45 });
-  const table = (x, w, d) => part(root, box(w, 0.04, d, 0.01), { tone: 'lo', pal: 'board', pos: [x, 0.02, 0], name: 'Table' });
+  const table = (x, w, d) => part(root, box(w, 0.04, d, 0.01), { tone: 'lo', pal: 'board', pos: [x, 0.02, 0], name: 'Стол' });
 
   // faint graph-paper ground under the earthbound scenes
   const grid = [];
@@ -72,19 +72,19 @@ export function buildWorld(E) {
   // a car, after the one in chapter 2: 4.2 m long, local +x forward, wheels on y = 0
   const car = parent => {
     const c = new THREE.Group(); parent.add(c);
-    part(c, box(4.2, 0.7, 1.8, 0.18), { tone: 'hi', pos: [0, 0.75, 0], name: 'Body' });
-    part(c, box(2.2, 0.6, 1.6, 0.2), { tone: 'hi', pos: [-0.3, 1.38, 0], name: 'Cabin' });
+    part(c, box(4.2, 0.7, 1.8, 0.18), { tone: 'hi', pos: [0, 0.75, 0], name: 'Корпус' });
+    part(c, box(2.2, 0.6, 1.6, 0.2), { tone: 'hi', pos: [-0.3, 1.38, 0], name: 'Салон' });
     for (const [x, z] of [[1.35, 0.85], [1.35, -0.85], [-1.35, 0.85], [-1.35, -0.85]]) {
-      part(c, new THREE.CylinderGeometry(0.36, 0.36, 0.26, 28).rotateX(Math.PI / 2), { tone: 'mid', pal: 'dark', pos: [x, 0.36, z], name: 'Wheels' });
+      part(c, new THREE.CylinderGeometry(0.36, 0.36, 0.26, 28).rotateX(Math.PI / 2), { tone: 'mid', pal: 'dark', pos: [x, 0.36, z], name: 'Колёса' });
     }
     return c;
   };
-  const flatRing = (c, ri, ro, y) => part(root, new THREE.RingGeometry(ri, ro, 128).rotateX(-Math.PI / 2), { tone: 'lo', pal: 'board', pos: [c.x, y, c.z], name: 'Road' });
+  const flatRing = (c, ri, ro, y) => part(root, new THREE.RingGeometry(ri, ro, 128).rotateX(-Math.PI / 2), { tone: 'lo', pal: 'board', pos: [c.x, y, c.z], name: 'Дорога' });
 
   // ---------- 1 · a ball whirled on a string over a smooth table ----------
   const X0 = STATIONS.whirl, TY = 0.04, BR = 0.07, BY = TY + BR;
   table(X0, 2.3, 2.3);
-  part(root, cyl(0.022, 0.16, 16), { tone: 'hi', pal: 'ink', pos: [X0, TY + 0.08, 0], name: 'Pin' });
+  part(root, cyl(0.022, 0.16, 16), { tone: 'hi', pal: 'ink', pos: [X0, TY + 0.08, 0], name: 'Штифт' });
   circle(V(X0, TY + 0.003, 0), M.BALL.r, { dash: 0.05, color: '#a0a0a6' });
   const gW = asm('whirl', root, { title: 'Шар на нити', sub: 'модуль скорости постоянен, направление меняется' });
   const bW = ball(gW, BR), sW = thin(gW);
@@ -105,7 +105,7 @@ export function buildWorld(E) {
   const gD = asm('double', root, { title: 'Скорость вдвое больше', sub: 'сила натяжения вчетверо больше' });
   const D = [M.V1, M.V2].map((v, k) => {
     const c = V(X1 + (k ? DX : -DX), BY, 0);
-    part(root, cyl(0.022, 0.16, 16), { tone: 'hi', pal: 'ink', pos: [c.x, TY + 0.08, 0], name: 'Pin' });
+    part(root, cyl(0.022, 0.16, 16), { tone: 'hi', pal: 'ink', pos: [c.x, TY + 0.08, 0], name: 'Штифт' });
     circle(V(c.x, TY + 0.003, 0), M.BALL.r, { dash: 0.05, color: '#a0a0a6' });
     const o = { v, c, b: ball(gD, BR, k ? 'Fast ball' : 'Slow ball'), s: thin(gD), vA: vec(gD, 'blue'), T: vec(gD), N: vec(gD), W: vec(gD), net: vec(gD, 'red') };
     label('vec blue', 'v', () => tip(o.vA)); label('vec', 'T', () => tip(o.T)); label('vec red', 'ΣF', () => tip(o.net));
@@ -118,7 +118,7 @@ export function buildWorld(E) {
   const X2 = STATIONS.flatcar, RC = M.CAR.r * ROAD.draw, C2 = V(X2, 0, 0);
   flatRing(C2, RC - 0.7, RC + 0.7, 0.012);
   circle(V(X2, 0.03, 0), RC, { dash: 0.18, color: '#9a9aa0' });
-  part(root, cyl(0.05, 0.02, 20), { tone: 'hi', pal: 'ink', pos: [X2, 0.01, 0], name: 'Centre' });
+  part(root, cyl(0.05, 0.02, 20), { tone: 'hi', pal: 'ink', pos: [X2, 0.01, 0], name: 'Центр' });
   const gC = asm('flatcar', root, { title: 'Автомобиль на горизонтальном повороте', sub: 'сила трения покоя обеспечивает поворот' });
   const carC = car(gC), radC = seg(root, { dash: 0.1 }), tanC = seg(gC, { dash: 0.12, color: '#6e6e74' });
   const cW = vec(gC, 'ink', 'm'), cN = vec(gC, 'ink', 'm'), cF = vec(gC, 'ink', 'm'), cNet = vec(gC, 'red', 'm'), cV = vec(gC, 'blue', 'm');
@@ -127,7 +127,7 @@ export function buildWorld(E) {
 
   // ---------- 4 · a ball on a string swept round a cone ----------
   const X3 = STATIONS.cone, CEIL = 2.0, P3 = V(X3, CEIL - 0.03, 0), YC = P3.y - M.CONE.L * Math.cos(M.CONE.th);
-  part(root, box(1.4, 0.06, 0.7, 0.02), { tone: 'mid', pal: 'board', pos: [X3, CEIL, 0], name: 'Ceiling' });
+  part(root, box(1.4, 0.06, 0.7, 0.02), { tone: 'mid', pal: 'board', pos: [X3, CEIL, 0], name: 'Потолок' });
   circle(V(X3, YC, 0), M.CONE.r, { dash: 0.04, color: '#a0a0a6' });
   const axis3 = seg(root, { dash: 0.04 }); axis3.set([P3, V(X3, YC - 0.05, 0)]);
   const gK = asm('cone', root, { title: 'Шар на коническом маятнике', sub: 'сила натяжения разложена на две составляющие' });
@@ -141,11 +141,11 @@ export function buildWorld(E) {
   // ---------- 5 · a coaster cart in a vertical loop ----------
   const X4 = STATIONS.loop, RL = M.LOOP.r * COASTER.draw, RAIL = 0.022, C4 = V(X4, 0.05 + RAIL + RL, 0), CH = 0.14;
   for (const z of [-0.09, 0.09]) {
-    part(root, new THREE.TorusGeometry(RL + RAIL, RAIL, 10, 160), { tone: 'mid', pal: 'dark', pos: [X4, C4.y, z], name: 'Track' });
-    part(root, cyl(RAIL, 5.4, 10).rotateZ(Math.PI / 2), { tone: 'mid', pal: 'dark', pos: [X4, 0.05, z * 1.0 + (z > 0 ? 0.24 : -0.24)], name: 'Track' });
+    part(root, new THREE.TorusGeometry(RL + RAIL, RAIL, 10, 160), { tone: 'mid', pal: 'dark', pos: [X4, C4.y, z], name: 'Трек' });
+    part(root, cyl(RAIL, 5.4, 10).rotateZ(Math.PI / 2), { tone: 'mid', pal: 'dark', pos: [X4, 0.05, z * 1.0 + (z > 0 ? 0.24 : -0.24)], name: 'Трек' });
   }
   const gL = asm('loop', root, { title: 'Тележка в петле', sub: 'реакция опоры максимальна внизу' });
-  const cart = part(gL, box(0.36, CH, 0.24, 0.04), { tone: 'hi', name: 'Cart' });
+  const cart = part(gL, box(0.36, CH, 0.24, 0.04), { tone: 'hi', name: 'Тележка' });
   const lN = vec(gL, 'ink', 'm'), lW = vec(gL, 'ink', 'm'), lNet = vec(gL, 'red', 'm'), lV = vec(gL, 'blue', 'm');
   label('vec', 'F<sub>N</sub>', () => tip(lN)); label('vec', '<i>mg</i>', () => tip(lW)); label('vec red', 'ΣF', () => tip(lNet)); label('vec blue', 'v', () => tip(lV));
   // opened: free-body diagrams at the top and the bottom, beside the loop
@@ -162,10 +162,10 @@ export function buildWorld(E) {
   // ---------- 6 · a car on a banked curve, no friction ----------
   const X5 = STATIONS.bank, RB = M.BANK.r * ROAD.draw, TH = M.BANK.th, RI = RB - 0.7, RO = RB + 0.7, H0 = 0.03;
   const yAt = r => H0 + (r - RI) * Math.tan(TH);
-  part(root, new THREE.LatheGeometry([new THREE.Vector2(RO, yAt(RO)), new THREE.Vector2(RI, H0)], 160), { tone: 'lo', pal: 'board', pos: [X5, 0, 0], name: 'Road' });
-  part(root, new THREE.CylinderGeometry(RO, RO, yAt(RO), 160, 1, true), { tone: 'lo', pal: 'board', pos: [X5, yAt(RO) / 2, 0], name: 'Road' });
+  part(root, new THREE.LatheGeometry([new THREE.Vector2(RO, yAt(RO)), new THREE.Vector2(RI, H0)], 160), { tone: 'lo', pal: 'board', pos: [X5, 0, 0], name: 'Дорога' });
+  part(root, new THREE.CylinderGeometry(RO, RO, yAt(RO), 160, 1, true), { tone: 'lo', pal: 'board', pos: [X5, yAt(RO) / 2, 0], name: 'Дорога' });
   circle(V(X5, yAt(RB) + 0.004, 0), RB, { dash: 0.18, color: '#9a9aa0' });
-  part(root, cyl(0.05, 0.02, 20), { tone: 'hi', pal: 'ink', pos: [X5, 0.01, 0], name: 'Centre' });
+  part(root, cyl(0.05, 0.02, 20), { tone: 'hi', pal: 'ink', pos: [X5, 0.01, 0], name: 'Центр' });
   const axis5 = seg(root, { dash: 0.1 }); axis5.set([V(X5, 0, 0), V(X5, yAt(RB), 0)]);
   const gB = asm('bank', root, { title: 'Автомобиль на вираже', sub: 'реакция дороги наклонена к центру' });
   const carB = car(gB), radB = seg(root, { dash: 0.1 });
@@ -177,11 +177,11 @@ export function buildWorld(E) {
   const X6 = STATIONS.disc, DT = 0.06;
   const gS = asm('disc', root, { title: 'Вращающийся диск', sub: 'одна ω, разные линейные скорости' });
   const disc = new THREE.Group(); disc.position.set(X6, 0, 0); gS.add(disc);
-  part(disc, cyl(M.DISC.R, DT, 96), { tone: 'mid', pal: 'board', pos: [0, DT / 2 + 0.005, 0], name: 'Disc' });
-  part(disc, box(M.DISC.R - 0.04, 0.006, 0.025, 0.002), { tone: 'hi', pal: 'ink', pos: [(M.DISC.R - 0.04) / 2, DT + 0.008, 0], name: 'Marked radius' });
-  part(disc, cyl(0.035, 0.05, 20), { tone: 'hi', pal: 'ink', pos: [0, DT + 0.025, 0], name: 'Axle' });
+  part(disc, cyl(M.DISC.R, DT, 96), { tone: 'mid', pal: 'board', pos: [0, DT / 2 + 0.005, 0], name: 'Диск' });
+  part(disc, box(M.DISC.R - 0.04, 0.006, 0.025, 0.002), { tone: 'hi', pal: 'ink', pos: [(M.DISC.R - 0.04) / 2, DT + 0.008, 0], name: 'Отмеченный радиус' });
+  part(disc, cyl(0.035, 0.05, 20), { tone: 'hi', pal: 'ink', pos: [0, DT + 0.025, 0], name: 'Ось вращения' });
   const BS = 0.11;
-  const blk = [M.DISC.r1, M.DISC.r2].map(r => part(disc, box(BS, BS, BS, 0.015), { tone: 'hi', pos: [r, DT + BS / 2 + 0.006, 0], name: 'Blocks' }));
+  const blk = [M.DISC.r1, M.DISC.r2].map(r => part(disc, box(BS, BS, BS, 0.015), { tone: 'hi', pos: [r, DT + BS / 2 + 0.006, 0], name: 'Блоки' }));
   for (const r of [M.DISC.r1, M.DISC.r2]) circle(V(X6, DT + 0.012, 0), r, { dash: 0.04, color: '#a0a0a6' });
   const sV = [vec(gS, 'blue'), vec(gS, 'blue')];
   const arcs = [dyn(gS, 48, { color: '#26262a' }), dyn(gS, 48, { color: '#26262a' })], back = seg(gS, { dash: 0.04, color: '#6e6e74' });
@@ -212,8 +212,8 @@ export function buildWorld(E) {
   for (const r of RS) circle(C8, r, { dash: 0.12, color: '#a0a0a6' });
   const sat = RS.map((r, k) => {
     const g = new THREE.Group(); gO.add(g);
-    part(g, box(0.16, 0.16, 0.16, 0.02), { tone: 'hi', name: 'Satellites' });
-    part(g, box(0.06, 0.012, 0.62, 0.004), { tone: 'mid', pal: 'dark', name: 'Satellites' });
+    part(g, box(0.16, 0.16, 0.16, 0.02), { tone: 'hi', name: 'Спутники' });
+    part(g, box(0.06, 0.012, 0.62, 0.004), { tone: 'mid', pal: 'dark', name: 'Спутники' });
     return { g, r, R: [M.SAT.r1, M.SAT.r2][k], v: vec(gO, 'blue', 'l'), a: vec(gO, 'red', 'l'), arc: dyn(gO, 64, { color: '#26262a' }), r0: seg(gO, { dash: 0.1 }), r1: seg(gO, { dash: 0.1 }) };
   });
   sat.forEach((s, k) => { label('vec blue', `v<sub>${k + 1}</sub>`, () => tip(s.v, 0.12)); label('vec red', `a<sub>${k + 1}</sub>`, () => tip(s.a, 0.12)); });
@@ -229,8 +229,8 @@ export function buildWorld(E) {
   };
   const satBody = (g, s = 1) => {
     const b = new THREE.Group(); g.add(b);
-    part(b, box(0.16 * s, 0.16 * s, 0.16 * s, 0.02), { tone: 'hi', name: 'Satellite' });
-    part(b, box(0.06 * s, 0.012 * s, 0.62 * s, 0.004), { tone: 'mid', pal: 'dark', name: 'Satellite' });
+    part(b, box(0.16 * s, 0.16 * s, 0.16 * s, 0.02), { tone: 'hi', name: 'Спутник' });
+    part(b, box(0.06 * s, 0.012 * s, 0.62 * s, 0.004), { tone: 'mid', pal: 'dark', name: 'Спутник' });
     return b;
   };
   const W = (c, p) => V(c.x + p.x * DO, c.y, c.z - p.y * DO);              // a model point (x, y) in the plane
@@ -288,7 +288,7 @@ export function buildWorld(E) {
   const BW = 0.5, BG = 1.1, BX = X10 - 3.4, BZ = 0;   // inside the ellipse, between the Earth and apogee
   lines(root, [BX - BW, OY10, BZ, BX + 2 * BG + BW, OY10, BZ], '#6e6e74');
   const barsN = [['blue', 'K'], ['amber', 'U'], ['paper', 'E']].map(([pal, html], i) => {
-    const bx = BX + i * BG, m = part(gN, new THREE.BoxGeometry(BW, 1, BW), { tone: 'hi', pal, name: 'Energy bars' });
+    const bx = BX + i * BG, m = part(gN, new THREE.BoxGeometry(BW, 1, BW), { tone: 'hi', pal, name: 'Столбцы энергии' });
     const o = { m, bx, val: 0 };
     label('vec', html, () => V(bx, OY10 + o.val * ORBIT.GJ / 1e9 + (o.val > 0 ? 0.4 : -0.5), BZ), () => `${html} <span style="font-size:14px">${f1(o.val / 1e9)} ГДж</span>`);
     return o;
@@ -308,12 +308,12 @@ export function buildWorld(E) {
   const uPts = Array.from({ length: 160 }, (_, i) => { const r = M.EARTH.R * Math.pow(RMAX / M.EARTH.R, i / 159); return V(ux(r), uy(M.Ugrav(r)), 0); });
   part(gU, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(uPts), 300, 0.035, 8), { tone: 'hi', pal: 'ink', name: 'U(r)' });
   label('vec', '<i>U</i> = −<i>GMm</i>/<i>r</i>', () => uPts[110].clone().add(V(0.4, -0.45, 0)));
-  const bU = ball(gU, 0.16, 'Satellite'), dotU = ball(gU, 0.07, 'U at r', 'ink'), dropU = seg(gU, { dash: 0.08 }), fU = vec(gU, 'red', 'm');
+  const bU = ball(gU, 0.16, 'Спутник'), dotU = ball(gU, 0.07, 'U at r', 'ink'), dropU = seg(gU, { dash: 0.08 }), fU = vec(gU, 'red', 'm');
   label('vec red', 'F<sub>g</sub>', () => tip(fU, 0.12));
   let rU = M.EARTH.R;
   label('tick', '', () => dotU.position.clone().add(V(0.75, -0.25, 0)), () => `U ${f1(M.Ugrav(rU) / 1e9)} GJ`);
   // opened: the tangent at the surface, U(R) + mgh; it only follows the curve close to the ground
-  const tanU = part(gU, cyl(0.025, 1, 10), { tone: 'hi', pal: 'red', name: 'mgh line' });
+  const tanU = part(gU, cyl(0.025, 1, 10), { tone: 'hi', pal: 'red', name: 'Линия mgh' });
   { const a = V(ux(M.EARTH.R), uy(M.Ugrav(M.EARTH.R)), 0), h = 1.25 * M.EARTH.R, b = V(ux(M.EARTH.R + h), uy(M.Ugrav(M.EARTH.R) + M.SAT_M * M.EARTH.g * h), 0); stringTo(tanU, a, b); tanU.userData.end = b; }
   label('vec red', '<i>U</i>(<i>R</i>) + <i>mgh</i>', () => tanU.visible ? tanU.userData.end.clone().add(V(0.9, -0.1, 0)) : null);
 
@@ -322,7 +322,7 @@ export function buildWorld(E) {
   const gX = asm('escape', root, { title: 'Четыре запуска', sub: 'связанное движение или уход: знак E' });
   gX.userData.focus = () => ({ target: [L12.x + 0.9, OY12, -1.9], radius: 2.6 });
   globe(gX, C12);
-  part(root, cyl(0.06, 0.02, 16), { tone: 'hi', pal: 'ink', pos: [L12.x, OY12 - 0.02, 0], name: 'Launch point' });
+  part(root, cyl(0.06, 0.02, 16), { tone: 'hi', pal: 'ink', pos: [L12.x, OY12 - 0.02, 0], name: 'Точка запуска' });
   const NAMES = ['v<sub>c</sub>', '0.8 v<sub>esc</sub>', 'v<sub>esc</sub>', '1.2 v<sub>esc</sub>'], ESIGN = ['E < 0', 'E < 0', 'E = 0', 'E > 0'];
   const LX = M.LAUNCH.list.map((o, k) => {
     const pts = pathOf(C12, o.track, 300);
