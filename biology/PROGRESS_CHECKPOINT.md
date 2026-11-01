@@ -317,3 +317,14 @@
 - Updated the regional audit and regression guards. GitHub changes are to be read back; `checks.mjs` was not run and no test success is claimed.
 - The 52 image anchors and 52 Deferred disposition entries remain intact; no visual asset was added.
 - Repeat-audit coverage: 60%. Controlled editorial readiness: 95/100. G4 and G5 remain open.
+
+
+## Repeat-audit milestone — 70% — 1 November 2026
+
+- Updated the fauna chapter's mammal checklist reference from GBIF version 1.11 to version 1.12, published 26 October 2026 (DOI 10.15468/hmrvjn); clarified that it is a five-country literature synthesis, not field sampling.
+- Compared public bird checklist totals (407, 327 and 380) with Limosa's 133 regularly recorded open-data species; explicitly preserved their differing scopes and Limosa's incompleteness rather than treating the counts as directly comparable.
+- Added matching Russian and English explanation to the fauna chapter and expanded the regional species-evidence audit.
+- Added regression guards for the checklist version/date, non-field methodology and bird-list scope caveats. `checks.mjs` was not run; no test success is claimed.
+- GitHub read-back verified the fauna chapter, regional audit, regression-check source and milestone record.
+- The 52 image anchors and 52 Deferred disposition entries remain unchanged; no image was generated or integrated.
+- Repeat-audit coverage: 70%. Controlled editorial readiness: 95/100. G4 and G5 remain open.
