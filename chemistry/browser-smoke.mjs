@@ -539,16 +539,22 @@ try {
     }
 
     if (file === "chapters/solutions.html") {
+      const kspNoteRu = await page.locator("[data-i=kspCaution]").innerText();
       if (!(await page.locator("[data-i=solubilityIntro]").innerText()).includes("не равна скорости растворения") ||
           !(await page.locator("[data-i=saturatedText]").innerText()).includes("скорости растворения и кристаллизации равны") ||
-          !(await page.locator("[data-i=kspCaution]").innerText()).includes("Qₛₚ < Kₛₚ")) {
-        errors.push(file + ": Russian solution section must distinguish solubility from rate and explain saturation and Qsp/Ksp");
+          !kspNoteRu.includes("Qₛₚ < Kₛₚ") || !kspNoteRu.includes("Qₛₚ > Kₛₚ") ||
+          !kspNoteRu.includes("Qₛₚ = Kₛₚ") || !kspNoteRu.includes("пересыщен") ||
+          !kspNoteRu.includes("зародышеобразование")) {
+        errors.push(file + ": Russian solution section must distinguish solubility from rate and explain all Qsp/Ksp cases including supersaturation and nucleation");
       }
       await page.locator("#lang").click();
+      const kspNoteEn = await page.locator("[data-i=kspCaution]").innerText();
       if (!(await page.locator("[data-i=solubilityIntro]").innerText()).includes("not the same as the rate") ||
           !(await page.locator("[data-i=saturatedText]").innerText()).includes("rates of dissolution and crystallisation are equal") ||
-          !(await page.locator("[data-i=kspCaution]").innerText()).includes("Qₛₚ < Kₛₚ")) {
-        errors.push(file + ": English solution section must distinguish solubility from rate and explain saturation and Qsp/Ksp");
+          !kspNoteEn.includes("Qₛₚ < Kₛₚ") || !kspNoteEn.includes("Qₛₚ > Kₛₚ") ||
+          !kspNoteEn.includes("Qₛₚ = Kₛₚ") || !kspNoteEn.includes("supersaturated") ||
+          !kspNoteEn.includes("nucleation may delay")) {
+        errors.push(file + ": English solution section must distinguish solubility from rate and explain all Qsp/Ksp cases including supersaturation and nucleation");
       }
       await page.locator("#lang").click();
       if (!(await page.locator("[data-i=pressurep]").innerText()).includes("парциального давления") ||
