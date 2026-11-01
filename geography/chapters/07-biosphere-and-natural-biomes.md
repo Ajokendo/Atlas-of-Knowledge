@@ -628,13 +628,13 @@ Every study requires appropriate sampling design, replication, control of season
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. Convention on Biological Diversity. **Convention on Biological Diversity** (1992) — международная правовая основа сохранения биоразнообразия.
-2. Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). **Global Assessment Report on Biodiversity and Ecosystem Services** (2019) — глобальная оценка состояния природы и факторов изменений.
-3. IPBES. **Thematic Assessment Report on Invasive Alien Species and their Control** (2023) — научная оценка воздействия инвазивных чужеродных видов.
-4. International Union for Conservation of Nature (IUCN). **The IUCN Red List of Threatened Species** — база данных о риске исчезновения видов; при использовании фиксировать дату обращения и версию данных.
-5. UNESCO. **Man and the Biosphere Programme** — материалы о биосферных резерватах и взаимодействии общества с экосистемами.
-6. Olson, D. M. et al. **Terrestrial Ecoregions of the World: A New Map of Life on Earth**. *BioScience*, 2001 — одна из широко используемых основ картирования наземных экорегионов.
-7. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being: Synthesis** (2005) — связь экосистемных процессов и благополучия людей.
+1. Convention on Biological Diversity. **Convention on Biological Diversity** (1992) — international legal framework for biodiversity conservation. https://www.cbd.int/convention/
+2. Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). **Global Assessment Report on Biodiversity and Ecosystem Services** (2019) — global assessment of nature and drivers of change. https://www.ipbes.net/global-assessment
+3. IPBES. **Thematic Assessment Report on Invasive Alien Species and their Control** (2023) — assessment of invasive alien species impacts. https://www.ipbes.net/ias
+4. International Union for Conservation of Nature (IUCN). **The IUCN Red List of Threatened Species** — extinction-risk database; record the access date and data version. https://www.iucnredlist.org/
+5. UNESCO. **Man and the Biosphere Programme** — resources on biosphere reserves and society–ecosystem relations. https://www.unesco.org/en/mab
+6. Olson, D. M. et al. **Terrestrial Ecoregions of the World: A New Map of Life on Earth**. *BioScience*, 2001 — foundational reference for mapping terrestrial ecoregions. https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2
+7. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being: Synthesis** (2005) — links between ecosystem processes and human well-being. https://www.millenniumassessment.org/en/Synthesis.html
 8. Chapin, F. S. et al. **Principles of Terrestrial Ecosystem Ecology**. Springer — учебное изложение процессов и структуры наземных экосистем.
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
