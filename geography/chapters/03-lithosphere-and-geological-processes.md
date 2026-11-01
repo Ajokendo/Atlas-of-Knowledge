@@ -96,8 +96,8 @@
 | Кварц | SiO₂ | Распространён в магматических, осадочных и метаморфических породах |
 | Ортоклаз | KAlSi₃O₈ | Полевой шпат, важный компонент гранитов |
 | Плагиоклаз | NaAlSi₃O₈–CaAl₂Si₂O₈ | Группа полевых шпатов |
-| Биотит | Сложный алюмосиликат K, Mg, Fe | Тёмная слюда |
-| Мусковит | Сложный алюмосиликат K, Al | Светлая слюда |
+| Биотит | K(Mg,Fe)₃AlSi₃O₁₀(OH,F)₂ (обобщённая формула) | Тёмная слюда; состав изменяется |
+| Мусковит | KAl₂(AlSi₃O₁₀)(OH)₂ (упрощённая формула) | Светлая слюда |
 | Кальцит | CaCO₃ | Основной минерал многих известняков |
 | Доломит | CaMg(CO₃)₂ | Характерен для доломитовых пород |
 | Оливин | (Mg,Fe)₂SiO₄ | Типичен для многих основных и ультраосновных пород |
@@ -372,7 +372,11 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 ### 3.9.2. Абсолютная геохронология / Numerical Dating
 
-Радиометрическое датирование использует закономерный распад радиоактивных изотопов. Метод выбирают в зависимости от возраста, минерала и геологической истории образца. Примеры систем: уран-свинцовая, калий-аргоновая/аргон-аргоновая, рубидий-стронциевая.
+Радиометрическое датирование основано на распаде радиоактивного **материнского изотопа** в **дочерний изотоп** с известной скоростью. Важное понятие — период полураспада: время, за которое распадается половина исходных материнских атомов. Измеряя соотношение материнских и дочерних изотопов, специалисты рассчитывают численный возраст образца.
+
+Метод выбирают с учётом возраста, минерала и геологической истории. Для надёжного результата важно учитывать, сохраняла ли минеральная система изотопы после своего образования: нагревание, метаморфизм, выветривание или потеря вещества могут изменить изотопное соотношение. Поэтому полученная дата часто показывает время кристаллизации минерала или последнего важного события, повлиявшего на его изотопную систему, а не автоматически возраст всей породы.
+
+Магматические минералы и вулканический пепел можно датировать подходящими радиометрическими методами. Многие обломочные осадочные породы нельзя напрямую датировать как единое целое: возраст отдельных зёрен может отражать породу-источник, а не время осадконакопления. Их возраст часто ограничивают по датируемым слоям выше и ниже или по вулканическому пеплу внутри последовательности. Примеры изотопных систем: уран-свинцовая, калий-аргоновая/аргон-аргоновая и рубидий-стронциевая.
 
 ### 3.9.3. Геологическая шкала времени / Geologic Time Scale
 
@@ -606,7 +610,7 @@ The Mohs scale is a relative scratch-resistance scale, not a linear scale of abs
 
 A mineral with a higher number will generally scratch one with a lower number. The difference between adjacent steps is not equal.
 
-Common rock-forming minerals include quartz (SiO₂), orthoclase (KAlSi₃O₈), plagioclase feldspars, biotite and muscovite micas, calcite (CaCO₃), dolomite (CaMg(CO₃)₂), olivine ((Mg,Fe)₂SiO₄), gypsum (CaSO₄·2H₂O) and halite (NaCl). Some mineral formulas represent variable solid-solution compositions and are therefore simplified.
+Common rock-forming minerals include quartz (SiO₂), orthoclase (KAlSi₃O₈), plagioclase feldspars (a solid-solution series between NaAlSi₃O₈ and CaAl₂Si₂O₈), biotite (a variable-composition mica, often represented by K(Mg,Fe)₃AlSi₃O₁₀(OH,F)₂), muscovite (KAl₂(AlSi₃O₁₀)(OH)₂), calcite (CaCO₃), dolomite (CaMg(CO₃)₂), olivine ((Mg,Fe)₂SiO₄), gypsum (CaSO₄·2H₂O) and halite (NaCl). These are representative or simplified formulae; some minerals have variable compositions.
 
 ### 3.3. Rocks and the Rock Cycle
 
@@ -739,7 +743,11 @@ Earth's geological history spans about 4.54 billion years. The ICS 2026/06 chart
 - cross-cutting relationships: a geological body or fault that cuts another unit is generally younger than the unit it cuts; and
 - inclusions: fragments contained in a rock are older than the rock that encloses them.
 
-**Numerical dating** uses the predictable decay of radioactive isotopes. The method depends on the age, mineral and geological history of the sample. Examples include uranium–lead, potassium–argon/argon–argon and rubidium–strontium systems.
+**Numerical dating** (often called radiometric dating when radioactive decay is used) is based on the decay of a radioactive **parent isotope** into a **daughter isotope** at a predictable rate. A key concept is the half-life: the time required for half of the original parent atoms in a sample to decay. By measuring the proportions of parent and daughter isotopes, scientists calculate a numerical age.
+
+The method is selected according to the sample's age, mineral and geological history. A reliable interpretation must consider whether the mineral system has remained closed to the relevant isotopes since it formed. Heating, metamorphism, weathering or loss of material can alter isotopic ratios. A measured date may therefore record mineral crystallisation or a later event that reset the isotopic system, rather than automatically giving the age of the entire rock.
+
+Suitable igneous minerals and volcanic ash can be dated using appropriate radiometric methods. Many clastic sedimentary rocks cannot be dated directly as a whole: the ages of individual grains may record their source rocks rather than the time of deposition. Their depositional age is often constrained using datable layers above and below, or volcanic ash within the sequence. Examples of isotope systems include uranium–lead, potassium–argon/argon–argon and rubidium–strontium.
 
 The major eons are the Hadean, when Earth formed and underwent early evolution; the Archean, which contains the oldest known evidence of life and development of early crust; the Proterozoic, marked by rising oxygen levels and the development of complex life; and the Phanerozoic, which has an abundant fossil record and includes the Paleozoic, Mesozoic and Cenozoic eras. Boundaries are defined by the international stratigraphic timescale and are refined as research develops. Numerical boundary ages must be checked against the current International Commission on Stratigraphy chart.
 
@@ -844,7 +852,9 @@ On a schematic geological cross-section, identify:
 11. USGS. *Assessments of Mineral Resources* (definition of mineral resources and assessment scope). https://www.usgs.gov/science/science-explorer/minerals/Assessments-of-Mineral-Resources
 12. British Geological Survey. *Rocks and Minerals* (rock groups and rock cycle). https://www.bgs.ac.uk/discovering-geology/rocks-and-minerals/
 13. USGS. *Fossils, Rocks, and Time: The Laws of Superposition and Cross-Cutting Relations*. https://pubs.usgs.gov/gip/fossils/laws.html
-14. USGS. *A Beginner's Guide to Dating (Rocks)* (radiometric and other geochronological methods). https://www.usgs.gov/observatories/yvo/news/a-beginners-guide-dating-rocks
+14. USGS. *Geologic Age: Using Radioactive Decay to Determine Geologic Age* (parent and daughter isotopes, half-life and age equation). https://www.usgs.gov/educational-resources/geologic-age-using-radioactive-decay-determine-geologic-age
+15. USGS. *Geologic Time: Radiometric Time Scale* (dating igneous minerals and bracketing sedimentary sequences). https://pubs.usgs.gov/gip/geotime/radiometric.html
+16. USGS. *Fossils, Rocks, and Time: The Numeric Time Scale* (isotopes and half-life). https://pubs.usgs.gov/gip/fossils/numeric.html
 15. British Geological Survey. *What Causes Earthquakes?* (fault movement and normal, reverse and strike-slip faults). https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/
 16. USGS. *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
 17. Halla, J. et al. (2024). *Ratification of the base of the ICS Geological Time Scale: the Global Standard Stratigraphic Age (GSSA) for the Hadean lower boundary*. Episodes. https://doi.org/10.18814/epiiugs/2024/024002
