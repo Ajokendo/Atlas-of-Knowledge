@@ -177,3 +177,24 @@ Continue technical review by examining each interactive model's state transition
 
 - 1 November 2026: advanced repeat-audit coverage to 30%; added and checked a primary regional-flora source and a voucher-backed Besh-Tash record, with bilingual caveats and regression guards. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
 
+## 40% milestone — fauna abundance, field-record and conservation-status audit — 1 November 2026
+
+### Completed source checks and corrections
+
+- Compared the 2026 Snow Leopard Reports synthesis of the 2020–2024 PASK assessment with the Ministry's 29 October 2026 estimate. PASK reports approximately 300 adult snow leopards (95% CI 246–366), based on spatial capture–recapture modelling; the Ministry notice gives 450–550 animals but does not state its method, confidence interval or age structure. The chapter now keeps both figures separate, dates and attributes them, and explicitly records the discrepancy as unresolved rather than averaging or conflating them.
+- Added the 2025 Terskey Ala-Too expedition report (Burkhan and Archaly valleys; published on Zenodo in June 2026) to the Issyk-Kul dossier. The bilingual account preserves survey effort (98 cells, 40 days, 93% visited once), separates DNA scat results from camera-trap identifications, limits argali observations to the sampled site, and corrects the report's misspelling Otolobus manul to the current genus spelling Otocolobus manul while retaining the source typo as a note.
+- Expanded the Besh-Aral Menzbier's marmot account using the 2023 FFI/CEPF final report: surveys in June 2021 and June 2022, project estimate of about 16,145 animals (reported by the project as the Kyrgyzstan total), and the warning that the earlier 2002 estimate of about 12,000 is not fully comparable. Added the 2023 IUCN Red List category Vulnerable (VU) and distinguished it from the separate IUCN Green Status result, Critically Depleted / 13% recovery score.
+- Updated KYRGYZSTAN_SPECIES_AUDIT.md with the source scope, methodological limits and status-framework distinctions.
+- Added regression assertions in checks.mjs for the separate snow-leopard estimates, Terskey sampling and method-specific evidence, the Pallas's cat spelling caveat, and the Menzbier abundance / Red List / Green Status distinctions.
+
+### Saved-state and verification limits
+
+- Read-back verified the fauna chapter, species audit and regression script after updates. The audit-script checks were inspected for source strings and initialization order; the Node.js script itself was not executed.
+- No browser, mobile, accessibility or CI tests were run in this pass. No automated test success is claimed.
+- The image insertion map and disposition register still each contain 52 unique illustration anchors. All remain Deferred; no image asset was generated or integrated.
+- This is a bounded primary-source claim audit, not a complete verification of every species, locality or conservation category. G4 independent scientific review and G5 independent bilingual/editorial review remain open. Controlled editorial readiness remains 95/100; no publication approval is implied.
+
+### Change log
+
+- 1 November 2026: advanced repeat-audit coverage to 40%; documented the snow-leopard estimate discrepancy, added scoped Terskey Ala-Too field evidence, and updated Menzbier's marmot population and conservation-status evidence. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
+
