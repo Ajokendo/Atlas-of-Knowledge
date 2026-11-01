@@ -1265,3 +1265,5 @@ Start with `INDEPENDENT_REVIEW_BUNDLE.md` for the frozen-snapshot instructions a
 - `G4_SCIENTIFIC_AUDIT_2026-11-01.md`, `G5_EDITORIAL_AUDIT_2026-11-01.md` and `BILINGUAL_PARITY_AUDIT.md` — author-side audit records only; they do not replace independent review.
 
 **Current external-review status:** G4 and G5 remain open; no independent reviewer sign-off has been received. The 52 planned illustration assets remain deferred. Screen-reader testing, measured contrast verification and testing on physical devices remain separate outstanding release gates. Do not describe the Biology atlas as fully publication-ready until these gates are closed with recorded evidence.
+
+- `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` — specialist roles, independence checks, invitation sequence, deliverables and draft invitations.
