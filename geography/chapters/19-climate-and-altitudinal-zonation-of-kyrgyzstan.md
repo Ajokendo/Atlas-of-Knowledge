@@ -263,6 +263,24 @@ SPI thresholds often used as a guide are approximately −1 for moderately dry c
 
 **Learning activity.** Obtain monthly precipitation data for a selected weather station and its climate normal. Calculate the departure in millimetres and as a percentage, then explain why this alone is insufficient to declare a drought. List additional data needed to assess agricultural and hydrological impacts.
 
+### 19.10.5. Почему высотные климатические пояса меняются по склонам / Why Altitudinal Climate Belts Vary Across Slopes
+
+Высотная поясность не представляет собой одинаковый набор горизонтальных полос вокруг каждой горы. Положение климатических и растительных поясов зависит от высоты, широты, экспозиции склона, солнечной радиации, направления влажных воздушных потоков, затенения хребтами и местной циркуляции воздуха.
+
+На наветренных склонах подъём воздуха может усиливать облачность и осадки; подветренные территории могут быть суше. Южные и северные склоны одной долины различаются по нагреву, испарению, срокам снеготаяния и продолжительности вегетационного периода. В узких долинах холодный воздух может скапливаться в понижениях, вызывая температурные инверсии.
+
+Границы поясов на схематической карте — обобщение, а не точные линии для каждого склона. Для локального анализа нужны наблюдения на разных высотах и экспозициях, сведения о почвах и растительности и многолетние климатические данные.
+
+**Задание.** Сравните условные северный и южный склоны одного хребта. Предложите показатели, которые помогут объяснить различия снежного покрова и растительности, не сводя их только к высоте.
+
+Altitudinal zonation is not an identical set of horizontal belts around every mountain. Climate and vegetation belts depend on elevation, latitude, slope aspect, solar radiation, moisture-bearing airflow, rain shadows and local air circulation.
+
+Rising air on windward slopes can increase cloud formation and precipitation; leeward areas may be drier. South- and north-facing slopes in the same valley can differ in heating, evaporation, snowmelt timing and growing-season length. Cold air may accumulate in valley depressions, producing temperature inversions.
+
+Belt boundaries on a schematic map are generalisations, not exact lines for every slope. Local analysis requires observations across elevations and aspects, information on soils and vegetation, and long-term climate data.
+
+**Activity.** Compare hypothetical north- and south-facing slopes on the same mountain range. Propose measurements that could explain differences in snow cover and vegetation without attributing them to elevation alone.
+
 ## 19.11. Изменение климата: наблюдения и последствия / Climate Change: Observations and Impacts
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-E / IMAGE PLACEHOLDER 19-E]** График наблюдаемого изменения температуры с указанием периода 1960–2023, источника, базового периода и неопределённости; не смешивать разные климатические наборы данных.
@@ -683,24 +701,6 @@ Altitudinal climatic zonation affects water resources, glaciers, pastures, fores
 5. **Атрибуция экстремальных событий.** Нельзя приписывать конкретное наводнение, сель или засуху изменению климата без специального анализа.
 6. **Климатические классификации.** Карты Кёппена—Гейгера и физико-географические схемы отвечают на разные вопросы и должны иметь отдельные легенды.
 7. **Высокогорные наблюдения.** Редкая сеть станций и сложные условия измерений повышают неопределённость интерполяции и климатических трендов в высокогорье.
-
-### 19.10.5. Почему высотные климатические пояса меняются по склонам / Why Altitudinal Climate Belts Vary Across Slopes
-
-Высотная поясность не представляет собой одинаковый набор горизонтальных полос вокруг каждой горы. Положение климатических и растительных поясов зависит от высоты, широты, экспозиции склона, солнечной радиации, направления влажных воздушных потоков, затенения хребтами и местной циркуляции воздуха.
-
-На наветренных склонах подъём воздуха может усиливать облачность и осадки; подветренные территории могут быть суше. Южные и северные склоны одной долины различаются по нагреву, испарению, срокам снеготаяния и продолжительности вегетационного периода. В узких долинах холодный воздух может скапливаться в понижениях, вызывая температурные инверсии.
-
-Границы поясов на схематической карте — обобщение, а не точные линии для каждого склона. Для локального анализа нужны наблюдения на разных высотах и экспозициях, сведения о почвах и растительности и многолетние климатические данные.
-
-**Задание.** Сравните условные северный и южный склоны одного хребта. Предложите показатели, которые помогут объяснить различия снежного покрова и растительности, не сводя их только к высоте.
-
-Altitudinal zonation is not an identical set of horizontal belts around every mountain. Climate and vegetation belts depend on elevation, latitude, slope aspect, solar radiation, moisture-bearing airflow, rain shadows and local air circulation.
-
-Rising air on windward slopes can increase cloud formation and precipitation; leeward areas may be drier. South- and north-facing slopes in the same valley can differ in heating, evaporation, snowmelt timing and growing-season length. Cold air may accumulate in valley depressions, producing temperature inversions.
-
-Belt boundaries on a schematic map are generalisations, not exact lines for every slope. Local analysis requires observations across elevations and aspects, information on soils and vegetation, and long-term climate data.
-
-**Activity.** Compare hypothetical north- and south-facing slopes on the same mountain range. Propose measurements that could explain differences in snow cover and vegetation without attributing them to elevation alone.
 
 ### 19.18.1. Как учитывать высоту при сравнении климатических станций / Accounting for Elevation When Comparing Climate Stations
 
