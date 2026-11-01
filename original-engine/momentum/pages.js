@@ -136,8 +136,8 @@ export const PAGES = [
       <p>Подушка сжимается, и остановка занимает ${f(Eg.tauSoft, 2)} с; на твёрдом полу — ${f(Eg.tauHard, 2)} с. Произведение <i>F</i>Δ<i>t</i> неизменно, поэтому время в шесть раз меньше означает силу в шесть раз больше:</p>
       <table class="data">
         <tr><th></th><th>время остановки</th><th>средняя равнодействующая</th><th>максимум</th></tr>
-        <tr><td>подушка</td><td>${f(Eg.tauSoft, 2)} s</td><td>${f(Eg.J / Eg.tauSoft)} N</td><td>${f(Math.PI * Eg.J / (2 * Eg.tauSoft))} N</td></tr>
-        <tr><td>пол</td><td>${f(Eg.tauHard, 2)} s</td><td>${f(Eg.J / Eg.tauHard)} N</td><td>${f(Math.PI * Eg.J / (2 * Eg.tauHard))} N</td></tr>
+        <tr><td>подушка</td><td>${f(Eg.tauSoft, 2)} с</td><td>${f(Eg.J / Eg.tauSoft)} Н</td><td>${f(Math.PI * Eg.J / (2 * Eg.tauSoft))} Н</td></tr>
+        <tr><td>пол</td><td>${f(Eg.tauHard, 2)} с</td><td>${f(Eg.J / Eg.tauHard)} Н</td><td>${f(Math.PI * Eg.J / (2 * Eg.tauHard))} Н</td></tr>
       </table>
       <div class="charts">${chart({ x0: 0, x1: 0.2, y0: 0, y1: 8, xlabel: 'время после удара (с)', ylabel: 'равнодействующая сила (Н)', cursors: ['eggS', 'eggH'], label: 'Два импульса силы с одинаковой площадью под графиком',
         series: [{ fill: true, pts: samples(0, Eg.tauSoft, 60, t => M.pulse(t, Eg.J, Eg.tauSoft, Eg.m).F).concat([[0.2, 0]]), tag: [0.075, 1.4, 'подушка'] },
