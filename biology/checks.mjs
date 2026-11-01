@@ -417,6 +417,12 @@ for (const url of requiredRegionalClaimSources) {
 }
 if (!floraKyrgyzstanAuditFile.includes("https://scientificjournal.ru/a/107-bio/2480-current-state.html")) errors.push("Aygul-Tash flora profile must link directly to its supporting study");
 
+
+if (!regionalSpeciesAudit.includes("Primary-source spot-check") || !regionalSpeciesAudit.includes("page metadata labels the region as Chuy")) errors.push("Regional species audit must record bounded primary-source checks and the Besh-Tash metadata anomaly");
+for (const required of ["400–600", "4,146", "nearly 7,000", "Menzbier", "Kök-Oyrok", "Petilium eduardii"]) {
+  if (!regionalSpeciesAudit.includes(required)) errors.push("Regional species audit is missing the primary-source spot-check for " + required);
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
