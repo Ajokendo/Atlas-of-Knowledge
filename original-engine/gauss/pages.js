@@ -146,8 +146,8 @@ export const PAGES = [
       <p class="lede">Если ρ зависит от <i>r</i>, суммируем заряды тонких сферических слоёв, каждый из которых содержит ρ(<i>r</i>) · 4π<i>r</i>² d<i>r</i>.</p>
       <div class="eq"><i>q</i><sub>enc</sub> = ∫<sub>0</sub><sup><i>r</i></sup> <i>br</i>′ · 4π<i>r</i>′² d<i>r</i>′ = π<i>br</i>⁴</div>
       <p>Внутри <i>E</i> · 4π<i>r</i>² = π<i>br</i>⁴/ε<sub>0</sub>, откуда <i>E</i> = <i>br</i>²/4ε<sub>0</sub>. Снаружи <i>E</i> = <i>bR</i>⁴/4ε<sub>0</sub><i>r</i>². Здесь <i>b</i> = ${f(M.SPH.b * 1e6, 2)} мкКл/м⁴; полный заряд тот же — ${nC(M.SPH.Q)} нКл.</p>
-      <table class="data"><tr><th>ρ(r)</th><td>const</td><td>br</td><td>br²</td><td>br³</td></tr><tr><th>E внутри ∝</th><td>r</td><td>r²</td><td>r³</td><td>r⁴</td></tr></table>
-      <div class="charts">${sphereChart(M.nSphere.E, 'nsphere', [{ cls: 'trend', pts: curve(kE(M.iSphere.E), 0.001, 10, 40), tag: [3.5, 0.95, 'uniform'] }])}</div>
+      <table class="data"><tr><th>ρ(r)</th><td>постоянная</td><td>br</td><td>br²</td><td>br³</td></tr><tr><th>E внутри ∝</th><td>r</td><td>r²</td><td>r³</td><td>r⁴</td></tr></table>
+      <div class="charts">${sphereChart(M.nSphere.E, 'nsphere', [{ cls: 'trend', pts: curve(kE(M.iSphere.E), 0.001, 10, 40), tag: [3.5, 0.95, 'равномерное распределение'] }])}</div>
       <p class="hintline">К центру сферы точки, обозначающие заряд, становятся реже. ${arrowNote(SC.sphere)}</p>`,
     cam: { target: [STATIONS.nsphere, Y0, 0], az: -24, el: 16, dist: 16 }, lit: 'nsphere', scene: 'nsphere', look: {},
     fig: 'Плотность заряда растёт к поверхности',
@@ -194,5 +194,5 @@ export const PLATES = {
   crod: { text: `Металлический цилиндр становится прозрачным. Цилиндр Гаусса внутри проводника не охватывает заряд. Снаружи он охватывает заряд σ · 2π<i>RL</i> (красная область), и <i>E</i> · 2π<i>rL</i> = σ2π<i>RL</i>/ε<sub>0</sub>.`, facts: rodFacts(M.cRod) },
   irod: { text: `Красная сердцевина — заряд внутри цилиндра Гаусса: ρπ<i>r</i>²<i>L</i> при <i>r</i> &lt; <i>R</i>. Разделив его на ε<sub>0</sub> и площадь боковой поверхности 2π<i>rL</i>, получаем <i>E</i> = ρ<i>r</i>/2ε<sub>0</sub>.`, facts: rodFacts(M.iRod) },
   cage: { text: `Пунктиром показана гауссова сфера внутри металла. На ней <i>E</i> = 0, поэтому охваченный суммарный заряд равен нулю: на внутренней стенке нет заряда, а в полости отсутствует поле. Стрелки у поверхности перпендикулярны ей: направлены внутрь на стороне − и наружу на стороне +.`,
-    facts: () => [['E<sub>0</sub>', `${f(M.CAGE.E0, 0)} Н/Кл`], ['σ на положительном полюсе', `${f(M.cageSigma(1) * 1e9, 2)} нКл/м²`], ['Поле на полюсе: E = σ/ε<sub>0</sub>', `${f(M.cageSigma(1) / M.EPS0, 0)} N/C`], ['Поле внутри полости', '0'], ['суммарный заряд оболочки', '0']] },
+    facts: () => [['E<sub>0</sub>', `${f(M.CAGE.E0, 0)} Н/Кл`], ['σ на положительном полюсе', `${f(M.cageSigma(1) * 1e9, 2)} нКл/м²`], ['Поле на полюсе: E = σ/ε<sub>0</sub>', `${f(M.cageSigma(1) / M.EPS0, 0)} Н/Кл`], ['Поле внутри полости', '0'], ['суммарный заряд оболочки', '0']] },
 };
