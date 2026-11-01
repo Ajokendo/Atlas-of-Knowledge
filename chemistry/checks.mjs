@@ -504,7 +504,8 @@ for (const [label, url] of [
   ["NIST/CODATA constants source", "https://physics.nist.gov/cuu/Constants/"],
   ["IUPAC standard pressure source", "https://goldbook.iupac.org/terms/view/S05921"],
   ["IUPAC standard gas conditions source", "https://goldbook.iupac.org/terms/view/S05910"],
-  ["IUPAC standard thermodynamic quantities source", "https://goldbook.iupac.org/terms/view/S05927"]
+  ["IUPAC standard thermodynamic quantities source", "https://goldbook.iupac.org/terms/view/S05927"],
+  ["IUPAC water autoprotolysis source", "https://goldbook.iupac.org/terms/view/A00532"]
 ]) {
   if (!constantsSource.includes(url)) errors.push("chemistry-constants.html: missing authoritative reference link for " + label);
 }
