@@ -965,3 +965,12 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Chapter 01 bibliography follow-up: replaced the generic ICA homepage with the direct Cartographic Body of Knowledge resource maintained by the ICA Working Group. Verified commit `906afad7fe5fc7ead78d32bbda369f504c9ce36c`; blob `2aa05318866f9d325fd63c8330c53636d727b5f6`.
+
+
+## Editorial readiness matrix created — 1 November 2026
+
+- Created `geography/EDITORIAL_READINESS_MATRIX.md` to consolidate the verified status of all 26 chapters, bilingual structure, 216 visual assets, bibliography checks, source-review coverage and remaining publication work.
+- The matrix deliberately avoids an invented single completion percentage and distinguishes structural completion from scientific verification and publication readiness.
+- Linked the matrix from `geography/README.md`.
+- Matrix commit: `9c86221d34b3ffd410e1f499c794f1a1ebd9a561`; verified blob: `b441f27cbfc78cde5c01d06c5ec2f80bf5851989`.
+- README link commit: `8d631bf1e8747ab22d59fdcfc2746fb4a55d216f`; verified blob: `cfc86cf2b158aa5cfd3546875b47ea498ae2b018`.
