@@ -700,3 +700,18 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - Extended `checks.mjs` so future local test runs verify fragment targets as well as the existence of local files. The check deliberately skips external URLs and non-HTML document fragments, which require separate validation methods.
 - This is a remote source audit, not a claim that all external links resolve or that the test script has been executed. Overall Biology editorial readiness remains **95/100**; no extra score point is assigned for a bounded navigation check. The remaining publication gates are executable tests/CI, live browser and device/accessibility QA, independent specialist validation, and creation/review/integration or explicit editorial deferral of the 52 planned illustrations.
 
+## Final 100% completion gates — control checklist
+
+The 100% milestone is reserved for a reproducible release-readiness record, not for a larger amount of prose or a subjective percentage increase.
+
+- [x] Thirteen bilingual HTML pages are present: the landing page, ten global foundation chapters and two Kyrgyzstan regional chapters.
+- [x] Chapter navigation, local HTML page targets and 95 local HTML link/fragment references have been checked; the current remote audit found no broken local HTML targets.
+- [x] The 52 image placements have unique IDs, bilingual briefs, priorities, target filenames, aspect ratios and a central insertion map. This satisfies the project's instruction to leave exact image placeholders where finished artwork cannot yet be integrated. The 52 visual assets themselves are **not** claimed as generated or approved.
+- [x] Static source review found balanced RU/EN markers on all 13 pages, accessible names on all 16 SVGs, explicit button types on all 165 buttons, no duplicate IDs, and safe `noopener` handling for new-tab external links.
+- [ ] Execute `node biology/checks.mjs` in a real repository checkout and record the complete output; a remote source inspection is not execution.
+- [ ] Obtain a successful CI result for the final commit, or document a reproducible equivalent test run if repository CI is unavailable.
+- [ ] Complete live browser/device QA for both languages, interactive state changes, keyboard-only navigation, screen-reader announcements and narrow mobile layouts. The attempted live GitHub Pages URL was not accessible to the available browser check.
+- [ ] Obtain independent specialist review for the remaining taxonomic and species-identification uncertainties, especially freshwater fish records, and independent Russian–English copy-editing. Editorial caveats and source audits do not substitute for expert sign-off.
+
+Until the four unchecked release gates are evidenced, the atlas remains at **95/100 editorial readiness**. Artwork production remains transparently deferred behind the 52 exact placeholders; no generated, reviewed or integrated image is implied by this checklist.
+
