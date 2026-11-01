@@ -80,7 +80,7 @@ export function buildWorld(E) {
   const pB0 = pArrow(gM), pC0 = pArrow(gM), vB0 = gArrow(gM), vC0 = gArrow(gM);
   label('vec', '<i>p</i>', () => tip(pB0)); label('vec', '<i>p</i>', () => tip(pC0));
   label('vec', '<i>v</i>', () => ex(gM) > 0.3 ? tip(vB0) : null); label('vec', '<i>v</i>', () => ex(gM) > 0.3 ? tip(vC0) : null);
-  label('tick', '0.5 kg', () => V(ball0.position.x - 0.1, 0.42, 0.55)); label('tick', '2.0 kg', () => V(cart0.position.x - cart0.userData.L / 2, cart0.userData.top + 0.4, -0.55));
+  label('tick', '0,5 кг', () => V(ball0.position.x - 0.1, 0.42, 0.55)); label('tick', '2,0 кг', () => V(cart0.position.x - cart0.userData.L / 2, cart0.userData.top + 0.4, -0.55));
   const ghB = Array.from({ length: 5 }, () => ghostCircle(RB)), ghC = Array.from({ length: 5 }, () => ghostBox(cart0.userData.L, cart0.userData.top - 0.1, 0.62 * cart0.userData.L));
 
   // ---------- 2 · impulse: a ball bounces off a wall ----------
@@ -116,7 +116,7 @@ export function buildWorld(E) {
     const cm = cmMark(g), p1 = pArrow(g), p2 = pArrow(g), tot = totArrow(g);
     label('vec', '<i>p</i><sub>1</sub>', () => mid(p1, V(0, 0.17, 0))); label('vec', '<i>p</i><sub>2</sub>', () => mid(p2, V(0, 0.17, 0)));
     label('vec blue', '<i>P</i>', () => tip(tot));
-    label('tick', `${c.m1.toFixed(1)} kg`, () => V(c1.position.x + 0.12, c1.userData.cy, 0.5)); label('tick', `${c.m2.toFixed(1)} kg`, () => V(c2.position.x + 0.15, c2.userData.cy, 0.5));
+    label('tick', `${c.m1.toFixed(1)} кг`, () => V(c1.position.x + 0.12, c1.userData.cy, 0.5)); label('tick', `${c.m2.toFixed(1)} кг`, () => V(c2.position.x + 0.15, c2.userData.cy, 0.5));
     // the breakdown: momenta before and after, laid tip to tail
     const rows = ['before', 'after'].map((name, i) => ({ y: 2.15 - i * 0.6, a: pArrow(g), b: pArrow(g), t: totArrow(g) }));
     rows.forEach((r, i) => {
@@ -143,7 +143,7 @@ export function buildWorld(E) {
   const clay = part(gP, new THREE.SphereGeometry(CR, 24, 16), { tone: 'hi', pal: 'dark', name: 'Пластилин · 0,2 кг' });
   const pP = pArrow(gP), pC = pArrow(gP);
   label('vec', '<i>p</i>', () => tip(pP)); label('vec', '<i>p</i>', () => tip(pC));
-  label('tick', '0.2 kg', () => clay.visible && clay.position.x < PIV.x - 0.3 ? clay.position.clone().add(V(0.05, 0.12, 0)) : null);
+  label('tick', '0,2 кг', () => clay.visible && clay.position.x < PIV.x - 0.3 ? clay.position.clone().add(V(0.05, 0.12, 0)) : null);
   label('tick', '1.0 kg', () => V(PIV.x - 0.18, PIV.y - Pd.L + BH / 2 + 0.12, 0.12));
   // breakdown: the swing's top, its height Δy and angle θ
   const bottomY = PIV.y - Pd.L, topY = bottomY + Pd.dy, topX = PIV.x + Pd.L * Math.sin(Pd.theta);
@@ -185,7 +185,7 @@ export function buildWorld(E) {
   label('vec', '<i>p</i><sub>car</sub>', () => ex(gX) > 0.3 ? mid(addA, V(0, 0, 1.2)) : null);
   label('vec', '<i>p</i><sub>truck</sub>', () => ex(gX) > 0.3 ? mid(addB, V(1.6, 0, 0)) : null);
   label('vec blue', '<i>P</i><sub>total</sub>', () => ex(gX) > 0.3 ? mid(addT, V(-1.8, 0, 0)) : null);
-  label('tick', '1000 kg', () => car.position.clone().add(V(-1, 2.6, 0))); label('tick', '8000 kg', () => truck.position.clone().add(V(-1.4, 4.1, 0)));
+  label('tick', '1000 кг', () => car.position.clone().add(V(-1, 2.6, 0))); label('tick', '8000 кг', () => truck.position.clone().add(V(-1.4, 4.1, 0)));
 
   // ---------- 9 · a shell that bursts at the top ----------
   const S = M.SHELL, SR = 0.16;
@@ -283,8 +283,8 @@ export function buildWorld(E) {
   const armLine = lines(gC, new Array(6 * 12).fill(0), '#6e6e74');
   label('vec', '<i>m</i><sub>A</sub>', () => ex(gC) > 0.3 ? arms[0].mk.getWorldPosition(V()).add(V(0.16, 0.06, 0)) : null);
   label('vec', '<i>m</i><sub>B</sub>', () => ex(gC) > 0.3 ? arms[1].mk.getWorldPosition(V()).add(V(0.02, 0.17, 0)) : null);
-  label('tick', 'string tied here', () => Q.clone().add(V(-0.2, 0.08, 0)));
-  label('tick', 'centre of mass: in the gap', () => hw(L2.cm).add(V(-0.12, -0.02, 0)));
+  label('tick', 'здесь закреплена нить', () => Q.clone().add(V(-0.2, 0.08, 0)));
+  label('tick', 'центр масс: между телами', () => hw(L2.cm).add(V(-0.12, -0.02, 0)));
   label('tick', 'pin', () => w2(Hh.cm, 0.12).add(V(-0.08, 0, 0.1)));
 
   // ---------- per-frame ----------
