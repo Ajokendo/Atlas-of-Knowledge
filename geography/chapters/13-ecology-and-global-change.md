@@ -343,7 +343,7 @@ When reading a report, check baseline-data quality, seasonal coverage, alternati
 
 **Activity.** For a hypothetical road in a mountain valley, prepare a table with project stage, impact, affected feature, measure and monitoring indicator. Identify seasonal risks and population groups whose interests must be considered.
 
-### 13.13.1. Как оценивать жизненный цикл экологического воздействия / Assessing Environmental Impacts Across a Life Cycle
+### 13.13.2. Как оценивать жизненный цикл экологического воздействия / Assessing Environmental Impacts Across a Life Cycle
 
 Экологическое воздействие продукта или инфраструктурного объекта не ограничивается местом его использования. Оно может возникать при добыче сырья, производстве материалов, строительстве, перевозке, эксплуатации и утилизации. Оценка жизненного цикла (ОЖЦ, life-cycle assessment) помогает системно учитывать эти этапы, но её результат зависит от границ исследования и исходных допущений.
 
@@ -612,6 +612,46 @@ Consider a fictional settlement beside a river. For this learning example, the e
 ### Практическая работа 5. Жизненный цикл товара / Practical Activity 5. Product Life-cycle Assessment
 
 Проследите жизненный цикл обычного товара: сырьё, производство, транспорт, использование и утилизация. Укажите, на каких этапах возникают основные воздействия и какие данные нужны для полноценной оценки.
+
+### English Summary
+
+1. Ecology studies interactions between organisms and their environment; environmental geography examines their spatial dimensions.
+2. Global change includes climatic, biospheric, hydrological, chemical and land-use processes.
+3. Modern global warming is primarily driven by human greenhouse-gas emissions.
+4. Climate change affects the cryosphere, oceans, ecosystems, health, infrastructure and food systems.
+5. Biodiversity loss is associated with several interacting pressures.
+6. Environmental risk depends on hazard, exposure and vulnerability.
+7. Climate mitigation and adaptation address different but complementary tasks.
+8. Monitoring, EIA and SEA help account for the consequences of decisions.
+9. Environmental justice requires attention to the distribution of risks, benefits and opportunities to participate.
+10. Sustainable development should be based on scientific evidence and territorial conditions.
+
+### English Review Questions
+
+1. How does ecology differ from environmental geography?
+2. What is ecosystem resilience, and why does it not mean that an ecosystem is unchanging?
+3. Which human pressures can affect soils, water and biodiversity at the same time?
+4. Why is modern global warming attributed primarily to human activity?
+5. How does climate change affect mountain regions and water resources?
+6. How does climate mitigation differ from adaptation?
+7. Why is species count not the only indicator of biodiversity condition?
+8. What is eutrophication, and which sources cause it?
+9. How does a hazard differ from environmental risk?
+10. What are the purposes of EIA and SEA?
+11. What does environmental justice include?
+12. Why is tree planting not always equivalent to restoring a natural forest?
+
+### English Practical Activities
+
+**1. Environmental risk map.** Select an area and map one risk. Show the hazard, exposure of people and infrastructure, and vulnerability factors separately. Explain the limitations of the data used.
+
+**2. Land-use change analysis.** Compare satellite or map materials from two dates. Identify changes in forest cover, agricultural land, built-up areas or water bodies. Do not confuse seasonal differences between images with genuine long-term change.
+
+**3. Watershed environmental profile.** Describe pollution sources, water use, ecosystems, settlements and risks in a selected river basin. Propose measures that consider the entire catchment.
+
+**4. Climate impacts and adaptation.** For a selected region, prepare a table linking climate factor, sector, possible damage, adaptation measure and limitation. Distinguish observed changes from scenario-based projections.
+
+**5. Product life-cycle assessment.** Trace the life cycle of an everyday product: raw materials, production, transport, use and disposal. Identify the stages with the greatest impacts and the data required for a full assessment.
 
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
