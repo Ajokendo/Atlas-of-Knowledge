@@ -403,6 +403,20 @@ for (const [label, html] of [["flora", floraKyrgyzstanAuditFile], ["fauna", faun
   if (!html.includes("Suitable habitat is ecological context") || !html.includes("not population estimates")) errors.push(label + " regional evidence guide must distinguish habitat, detections and population estimates");
 }
 
+
+const requiredRegionalClaimSources = [
+  "https://mnr.gov.kg/ru/posts/news/bes-aralskii-zapovednik-unikalnaya-prirodnaya-zona",
+  "https://camcaproject.org/study-in-tien-shan-maral-in-kyrgyzstan/",
+  "https://www.camp.kg/news/krasnoknizhnye-i-pereletnye.-posmotrite-kakih-ptic-zametili-na-issyk-kule?lang=en",
+  "https://www.mnr.gov.kg/ru/posts/news/v-bes-tasskom-gosudarstvennom-prirodnom-parke-zafiksirovany-dikie-zivotnye",
+  "https://www.mnr.gov.kg/en/posts/news/v-batkenskoi-oblasti-zaversen-vesennii-ucet-surkov-v-regione-nascityvaetsya-bolee-4-tysyac-osobei",
+  "https://www.mnr.gov.kg/ru/posts/news/egeri-i-naucnye-sotrudniki-gosudarstvennogo-prirodnogo-parka-con-kemin-pri-ministerstve-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-kyrgyzskoi-respubliki-sobrali-dannye-s-fotolovusek-ustanovlennyx-na-territorii-zapovednogo-ucastka-kok-oirok"
+];
+for (const url of requiredRegionalClaimSources) {
+  if (!faunaKyrgyzstanAuditFile.includes(url)) errors.push("Fauna regional claim is missing its direct source link: " + url);
+}
+if (!floraKyrgyzstanAuditFile.includes("https://scientificjournal.ru/a/107-bio/2480-current-state.html")) errors.push("Aygul-Tash flora profile must link directly to its supporting study");
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
