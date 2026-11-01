@@ -137,12 +137,20 @@ try {
       if (!(await page.locator("[data-t=modelLimit]").innerText()).includes("fixed circular tracks")) {
         errors.push(file + ": atomic model limitation is missing in English");
       }
+      if (!(await page.locator("#atom").getAttribute("aria-label")).includes("Schematic atom") ||
+          !(await page.locator("#particles").getAttribute("aria-label")).includes("Comparison of proton")) {
+        errors.push(file + ": atomic diagrams do not expose English accessible names");
+      }
       if (await page.locator("#element").inputValue() !== "O" ||
           (await page.locator("#p").innerText()).trim() !== "8" ||
           (await page.locator("#e").innerText()).trim() !== "8") {
         errors.push(file + ": changing language reset the selected atom or its statistics");
       }
       await page.locator("#lang").click();
+      if (!(await page.locator("#atom").getAttribute("aria-label")).includes("Схема атома") ||
+          !(await page.locator("#particles").getAttribute("aria-label")).includes("Сравнение протона")) {
+        errors.push(file + ": atomic diagrams do not restore Russian accessible names");
+      }
     }
 
     if (file === "chapters/chemical-bonding.html") {
