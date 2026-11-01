@@ -200,6 +200,10 @@ try {
     }
 
     if (file === "chapters/chemical-reactions.html") {
+      const quotientRu = await page.locator("[data-i=quotientNote]").innerText();
+      for (const phrase of ["активностям", "стандартной концентрации", "парциальных давлений", "Чистые твёрдые вещества и жидкости"]) {
+        if (!quotientRu.includes(phrase)) errors.push(file + ": Russian reaction-quotient explanation is missing " + phrase);
+      }
       if (!(await page.locator("[data-i=exoText]").innerText()).includes("тепло передаётся") ||
           !(await page.locator("[data-i=endoText]").innerText()).includes("поглощает тепло")) {
         errors.push(file + ": Russian exothermic/endothermic definitions are incomplete");
@@ -216,6 +220,10 @@ try {
         errors.push(file + ": constant-pressure heat/enthalpy condition or relation is missing in Russian");
       }
       await page.locator("#lang").click();
+      const quotientEn = await page.locator("[data-i=quotientNote]").innerText();
+      for (const phrase of ["current activities", "standard concentration", "partial pressure", "Pure solids and liquids"]) {
+        if (!quotientEn.includes(phrase)) errors.push(file + ": English reaction-quotient explanation is missing " + phrase);
+      }
       if (!(await page.locator("[data-i=hessNote]").innerText()).includes("initial and final states") ||
           !(await page.locator("[data-i=thermoCaution]").innerText()).includes("does not determine reaction rate")) {
         errors.push(file + ": English Hess's law or enthalpy limitation is missing");
