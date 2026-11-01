@@ -71,7 +71,7 @@
 
 - Added a bilingual nephron and renal-regulation lesson covering filtration, selective reabsorption, secretion, aldosterone, vasopressin and RAAS.
 - Added an accessible nephron SVG with bilingual title/description and regression assertions for placement, mechanisms, bilingual content and scientific caveats.
-- Chapter commit: `029a51f04974c6e6c1a06065bdec60c8bd1f09c5`.
+- Chapter commit: `029a51f04974c6e6c1a06065bdec60c8bd1f09c5`. Nephron flow-arrow refinement: `a85f987c716a5d71cda01a11bdc99a5b80e53de8`.
 - Regression-check commit: `c3a24ceae7d3b933118ab5f9cdd9a5bb7de7d99c`.
 - README log commit: `9becc8851d4792dbe368e367ad867fb489a012af`.
 - Full Node.js, Chromium and CI checks have not yet been run on these latest commits. Controlled readiness remains 95/100; G4/G5 remain open. Existing 52 image anchors and their Deferred dispositions are unchanged.
