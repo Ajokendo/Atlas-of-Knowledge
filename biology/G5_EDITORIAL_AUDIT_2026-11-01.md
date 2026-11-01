@@ -141,3 +141,66 @@ GitHub Actions run `41313876648` on commit `614caf54dbf689d6a95df47bee7b55c99a4c
 
 - `614caf54dbf689d6a95df47bee7b55c99a4c6f58` — standardise British English in the Anatomy reference description.
 
+
+## Block 4 — cross-chapter consistency and final bilingual sweep (complete)
+
+### Scope
+
+Completed a final consistency sweep across the main index, all ten core chapters and both Kyrgyzstan regional chapters:
+- `index.html`
+- `chapters/cell-biology.html`, `genetics.html`, `microbiology.html`, `biochemistry.html`, `botany.html`, `ecology.html`, `anatomy.html`, `zoology.html`, `systematics.html`, `evolution.html`
+- `chapters/flora-kyrgyzstan.html`, `fauna-kyrgyzstan.html`
+
+### Cross-chapter consistency corrections
+
+1. **Homeostasis glossary unified.** The term appeared in both Cell Biology and Anatomy. Both definitions now use the same concept in Russian and English: maintenance of relatively stable internal conditions in an organism or cell, within viable limits.
+2. **Regional chapter navigation aligned.** The flora chapter now links onward to Fauna of Kyrgyzstan; the fauna chapter links back to Flora of Kyrgyzstan and onward to core Zoology. The English label is “Flora of Kyrgyzstan”, not the less idiomatic “Kyrgyzstan flora”.
+3. **Bilingual accessible names for all 52 planned illustration notes.** Each image-note aside now uses `aria-labelledby` to reference its own bilingual title element. The visible language span therefore determines the accessible name when the reader switches between Russian and English; the previous fixed Russian-only `aria-label` no longer overrides the bilingual title.
+4. **Diagram and control accessible names.** Converted the remaining Russian-only or English-only diagram labels to bilingual names. The regional flora/fauna language-switch buttons now update their accessible name between “Переключить язык” and “Switch language”. The main index cell diagram already updates its accessible name dynamically with the language switch.
+5. **ID/reference integrity.** Checked every `aria-labelledby` and `aria-describedby` reference across all 13 pages. All referenced IDs exist. The title IDs use the separate `brief-title-` prefix so they cannot be mistaken for image insertion anchors by the image-map validator.
+6. **Navigation and terminology.** Rechecked chapter navigation labels against destination chapters, regional sibling navigation, the British-English prose baseline and official source-title exceptions. Repeated glossary term “Homeostasis” is harmonised; other core glossary terms do not have conflicting duplicate definitions in the ten chapter glossaries.
+
+### Final structural bilingual inventory
+
+| Page | Russian spans | English spans |
+|---|---:|---:|
+| Main index | 14 | 14 |
+| Cell Biology | 62 | 62 |
+| Genetics | 85 | 85 |
+| Microbiology | 71 | 71 |
+| Biochemistry | 55 | 55 |
+| Botany | 76 | 76 |
+| Ecology | 102 | 102 |
+| Anatomy and Physiology | 81 | 81 |
+| Zoology | 58 | 58 |
+| Systematics | 41 | 41 |
+| Evolutionary Biology | 58 | 58 |
+| Flora of Kyrgyzstan | 255 | 255 |
+| Fauna of Kyrgyzstan | 450 | 450 |
+| **Total** | **1,408** | **1,408** |
+
+All 13 pages have balanced RU/EN span counts and no duplicate HTML IDs. The automated fragment-length screen did not reveal further high-severity outliers. These are structural checks and editorial screening aids; they are not a semantic certification of every sentence.
+
+### Final technical verification
+
+GitHub Actions run `41314809619` on commit `482559d298ca95ee5a52fb225fdbb961a8b36364` completed successfully:
+- all static Biology page, link, script and bilingual-integrity checks passed;
+- all 52 image anchors and central image registers validated;
+- Chromium installed and the local site started;
+- browser smoke tests for every Biology page passed.
+
+All 52 illustration assets themselves remain deferred; this audit only improves the accessible names of the existing placeholders. The successful run does not constitute a full screen-reader audit, comprehensive colour-contrast certification or physical-device matrix test.
+
+### Block 4 commits
+
+- `7508fc8b8638efbd268ec853943452dfdfdba34e` and `ad54b423439e0f56595bbbcc86e6a284d71293ff` — harmonise Homeostasis glossary.
+- `40c6517dca1c5f04dd620958d6278730746915f0` and `897ab5d2e1324a7a2ef39d1d4962ba40b1403e0b` — regional chapter navigation.
+- Image-note accessible-name updates across all 13 pages: `28edf370d1cc0722672ad12d2f8f98c470cdfb06`, `abecbfc984b167f87dfb41de1c80626e3334f578`, `3ceb757c3e18302067d1e8ea7546900692830c1d`, `0348f7945d0aad2f3b3dca646089c7688ee58959`, `111a74d9283c3000e086070bda914f31d43d3dd6`, `f83ecdc0f77fe62ef04e11bdf24f323b0034e83d`, `d9cf4a6182af8fe36438187aab1597f717c6aae9`, `1065459429647aaa4759a0dc9692243ee47f2e4b`, `388ac8ae753a33b59ad6e29e0b8a11e25ae8f9d7`, `593ace855e1cb7d715328bcea16bbc6626bc0a22`, `db8eaa1a93ef1769e18e61aaf1ba2f47612cf16b`, `c289213c15cc4260fd2eff8af8374606ce047980`, `0b0f3345b9a7c917db241cb93dbc89fdf580480d`.
+- Bilingual diagram and language-switch accessible labels: `5c289b84994e6cde976b0ec46674aaf9dabef6b7`, `9aa6b3a7d2c71174fb6fdeb36484f49cf2d74d93`, `4bf16a765e43f3b8e60dfe130e146698a781bc7b`, `a46236a1d4cce389fcbf6d64adb92072bdc3372b`, `32274f44763283d9d3cf7364e78e9683d0f525f2`, `af0da19eeff0cc42750e93aeb00f060a26e8ac36`.
+- Reserved image-title ID prefix corrected after the validator initially interpreted title IDs as extra image anchors: final title-ID correction commits culminate in `482559d298ca95ee5a52fb225fdbb961a8b36364`.
+
+## G5 conclusion
+
+**G5 author-side editorial and bilingual audit: 100% (4/4 planned blocks complete).**
+
+This means the planned internal audit and its corrections are complete. It does **not** replace an independent professional Russian-English editor/translator review or specialist scientific sign-off. Outstanding release gates from G4 remain unchanged: independent review, actual production/review of the 52 deferred illustrations, full screen-reader testing, comprehensive contrast assessment and physical-device testing.
