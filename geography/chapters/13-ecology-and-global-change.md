@@ -60,7 +60,7 @@ This chapter introduces core ecological concepts, the geography of human pressur
 
 Воздействия часто усиливают друг друга. Например, вырубка лесов может одновременно снижать запас углерода, усиливать эрозию почв, менять водный сток и фрагментировать местообитания.
 
-Концепция **планетарных границ** описывает ряд процессов, для которых человечество должно учитывать риск выхода за пределы безопасного диапазона изменений. Она является научной рамкой для анализа системных рисков, а не набором простых юридических нормативов. Оценки границ и методики продолжают развиваться.
+Концепция **планетарных границ** описывает ряд процессов, для которых человечество должно учитывать риск выхода за пределы безопасного диапазона изменений. Она является научной рамкой для анализа системных рисков, а не набором простых юридических нормативов. Оценки границ и методики продолжают развиваться. В обновлённой оценке 2023 года шесть из девяти границ были признаны пересечёнными; этот результат относится к конкретной версии методики и не должен восприниматься как неизменный юридический порог.
 
 ## 13.4. Изменение климата: причины и механизмы / Climate Change: Causes and Mechanisms
 
@@ -418,7 +418,7 @@ Major pressures include:
 
 Pressures often reinforce one another. Deforestation, for example, can simultaneously reduce carbon storage, increase soil erosion, alter runoff and fragment habitats.
 
-The **planetary boundaries** framework describes Earth-system processes for which humanity should consider the risk of moving beyond a safe range of change. It is a scientific framework for analysing systemic risks, not a set of simple legal limits. Assessments and methods continue to develop.
+The **planetary boundaries** framework describes Earth-system processes for which humanity should consider the risk of moving beyond a safe range of change. It is a scientific framework for analysing systemic risks, not a set of simple legal limits. Assessments and methods continue to develop. The 2023 update assessed six of the nine boundaries as transgressed; this finding belongs to a specific methodological assessment and should not be treated as a fixed legal threshold.
 
 ### 13.4. Climate Change: Causes and Mechanisms
 
@@ -724,6 +724,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 8. United Nations Framework Convention on Climate Change (UNFCCC). **Paris Agreement** and related decisions — international climate policy. https://unfccc.int/process-and-meetings/the-paris-agreement
 9. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being** — systems approach to ecosystem services. https://www.millenniumassessment.org/en/index.html
 10. Rockström, J. et al. **A safe operating space for humanity.** *Nature* (2009) — foundational paper on planetary boundaries; later assessments refine the framework. https://doi.org/10.1038/461472a
+11. Richardson, K. et al. **Earth beyond six of nine planetary boundaries.** *Science Advances*, 9(37), eadh2458 (2023). https://doi.org/10.1126/sciadv.adh2458
 
 ---
 **Конец главы 13 / End of Chapter 13**
