@@ -103,3 +103,5 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [ ] This is an internal content/automated-browser checkpoint only. Independent chemistry-teacher review, manual device checks, screen-reader checks, and independent RU/EN editorial sign-off remain pending.
 
 - [x] Follow-up CI caught a stale browser assertion that still expected ten organic-family cards after adding alkynes. Updated the expected count to eleven; the failure was in the regression assertion, not the chemistry content.
+
+- [x] Scientific wording review of the arene family: narrowed the definition from the overly broad “aromatic compounds” to aromatic hydrocarbons containing one or more benzene rings, in both languages. Added matching RU/EN browser assertions.
