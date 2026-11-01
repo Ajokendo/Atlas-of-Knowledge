@@ -365,6 +365,170 @@ The environmental impact of a product or infrastructure asset is not limited to 
 
 **Activity.** Compare two ways of supplying drinking water to a settlement. Define the functional unit, list life-cycle stages and at least five resource or impact flows. Explain why an option with lower operational emissions may not have a lower total footprint.
 
+## English-language chapter text
+
+### 13.1. Ecology and Environmental Geography
+
+**Ecology** is the science of interactions among organisms and between organisms and their environment. It studies processes at the levels of organisms, populations, communities, ecosystems and the biosphere.
+
+**Environmental geography** examines the spatial organisation of these processes and their relationships with natural and socio-economic conditions. It combines approaches from physical geography, biology, geology, economics, sociology, demography and environmental science.
+
+Major fields include population and community ecology; ecosystem and landscape ecology; biogeochemical cycles; the geography of pollution and environmental risks; nature conservation and ecosystem restoration; environmental assessment of economic activity; and climate adaptation and territorial resilience.
+
+Environmental problems operate at different spatial scales. Local air pollution may affect an urban district, river pollution may spread through an entire basin, and climate change may affect natural and social systems globally.
+
+### 13.2. Ecosystems, Resilience and Ecological Functions
+
+An ecosystem includes living organisms, the physical environment and flows of energy and matter between them. Its functioning depends on productivity, food webs, decomposition of organic matter, water regimes, soil processes and biodiversity.
+
+**Ecosystem resilience** is the ability of a system to absorb disturbances, reorganise and maintain its main functions. It does not mean that the system remains unchanged: ecosystems are dynamic and may shift into another state when certain thresholds are exceeded.
+
+Distinguish:
+- **resistance:** how little a system changes under pressure;
+- **recovery:** how quickly it returns towards its previous state;
+- **adaptive capacity:** the ability to change structure and processes while retaining key functions; and
+- **transformative capacity:** the ability to move into a new viable state when the previous one is no longer sustainable.
+
+**Ecosystem services** are benefits people obtain from nature. They are often grouped into provisioning, regulating, cultural and supporting processes. The IPBES framework also uses the concept of **nature's contributions to people**, which can account for a wider range of worldviews and values.
+
+### 13.3. Human Pressures and Planetary Change
+
+Economic activity transforms natural systems through land use, resource extraction, energy production, transport, construction, agriculture and consumption.
+
+Major pressures include:
+1. conversion of natural ecosystems to agricultural, urban and infrastructure land;
+2. overexploitation of biological and mineral resources;
+3. greenhouse-gas and pollutant emissions;
+4. inputs of nutrients and chemical compounds into soils and water;
+5. spread of invasive alien species;
+6. habitat fragmentation by roads, dams and development; and
+7. waste generation and plastic pollution.
+
+Pressures often reinforce one another. Deforestation, for example, can simultaneously reduce carbon storage, increase soil erosion, alter runoff and fragment habitats.
+
+The **planetary boundaries** framework describes Earth-system processes for which humanity should consider the risk of moving beyond a safe range of change. It is a scientific framework for analysing systemic risks, not a set of simple legal limits. Assessments and methods continue to develop.
+
+### 13.4. Climate Change: Causes and Mechanisms
+
+Earth's climate changes through both natural factors and human influences. Modern rapid global warming is primarily caused by rising greenhouse-gas concentrations resulting from human activity.
+
+Major greenhouse gases include:
+- carbon dioxide (CO₂), mainly from fossil-fuel combustion, cement production and land-use change;
+- methane (CH₄), associated in part with energy, agriculture and waste;
+- nitrous oxide (N₂O), largely associated with agricultural and industrial processes; and
+- fluorinated gases used in some industrial and technical systems.
+
+The **greenhouse effect** is a natural physical process through which the atmosphere retains some outgoing heat radiation. An enhanced greenhouse effect caused by increasing greenhouse-gas concentrations raises the energy imbalance of the climate system.
+
+Climate change is reflected not only in rising average temperature but also in changes to the probability and intensity of extreme events, precipitation regimes, snow cover, glaciers, sea level and ocean circulation. Impacts vary by region and season.
+
+### 13.5. Impacts of Climate Change
+
+**Cryosphere and mountain regions.** Glacier retreat and changes in seasonal snow cover affect river-flow seasonality, water supply, hydropower, agriculture and natural hazards. In high mountains, monitoring of glacial lakes, debris flows, landslides and permafrost degradation becomes increasingly important.
+
+**Oceans and coasts.** The ocean absorbs a substantial share of excess heat in the climate system and part of human-caused CO₂ emissions. This contributes to ocean warming, sea-level rise and ocean acidification. Coastal risks include inundation of low-lying areas, erosion, salinisation of groundwater and damage to infrastructure.
+
+**Extreme events.** Warming changes the conditions in which some extreme events form. Heat and extreme precipitation are intensifying in many regions, but trends in droughts, storms and other events are not uniform. An individual weather event should not automatically be attributed to climate change; event-attribution methods are used for that purpose.
+
+**Food and health.** Changes in temperature and precipitation affect crop yields, pests, water availability and grazing conditions. Heat increases health risks, especially for older people, children, outdoor workers and residents of areas with limited access to cooling and medical care.
+
+### 13.6. Biodiversity and Ecosystem Change
+
+Biodiversity includes genetic, species and ecosystem diversity. Its loss is linked to habitat transformation, overexploitation of resources, pollution, climate change and invasive alien species.
+
+Ecological consequences may include declining population sizes and local extinctions; disruption of ecological corridors; changes in the timing of flowering, reproduction and migration; shifts in species ranges; simplification of food webs; and loss of pollination, pest regulation and other ecosystem functions.
+
+Biodiversity assessment should consider not only the number of species but also their abundance, genetic variation, functional roles, habitat condition and landscape connectivity.
+
+Protected areas are an important conservation tool, but their effectiveness depends on management, funding, ecological connectivity, local-community participation and fair distribution of benefits and restrictions.
+
+### 13.7. Land Use, Forests and Land Degradation
+
+Land-use change is one of the major drivers of landscape transformation. Expansion of agriculture, urbanisation, mining, roads and reservoirs changes ecosystem structure and functions.
+
+**Land degradation** is a decline in biological or economic productivity and/or ecological functions of land. It may appear as erosion, salinisation, compaction, loss of organic matter, pollution and desertification.
+
+Forests perform important functions: they support biodiversity; participate in carbon and water cycles; protect soils from erosion; regulate local microclimates; and provide raw materials and livelihoods.
+
+Forest restoration does not always mean restoration of the original ecosystem. Planting monoculture plantations is not equivalent to restoring a natural forest in species composition, structure and ecological functions.
+
+### 13.8. Water, Pollution and Biogeochemical Cycles
+
+Water pollution may come from point sources, such as industrial and municipal discharges, and diffuse sources, such as agricultural runoff. Excess nitrogen and phosphorus inputs promote eutrophication, algal blooms and reduced oxygen levels.
+
+Major water-quality problems include microbiological contamination; heavy metals and persistent organic pollutants; excess nutrients; petroleum products; plastics and microplastics; and changes in water temperature and oxygen regimes.
+
+The biogeochemical cycles of carbon, nitrogen, phosphorus and water connect the atmosphere, hydrosphere, lithosphere and biosphere. A change in one cycle can affect the others. Intensive nitrogen fertiliser use, for example, affects soils, water bodies, atmospheric emissions and biodiversity.
+
+### 13.9. Geography of Waste and the Circular Economy
+
+Waste has a spatial geography: places of production and consumption are often separate from collection, recycling, disposal and the locations of final impacts. Transboundary waste movements require legal control and environmental responsibility.
+
+The **circular economy** seeks to preserve the value of materials and products for longer through durable design, repair, reuse, recycling and waste prevention. It does not mean that waste or impacts disappear entirely, but it can reduce the use of primary resources.
+
+Assessment of circularity should consider the full life cycle of a product: raw-material extraction, production, transport, use, repair and end-of-life management. Recycling is useful, but preventing waste and reusing products can often avoid a larger share of impacts.
+
+### 13.10. Environmental Risks and Territorial Vulnerability
+
+**Environmental risk** arises from the combination of a hazardous event, the exposure of people and assets, and their vulnerability. A hazard alone is not the same as risk: the same natural event can have different consequences depending on population density, building quality, warning access and emergency preparedness.
+
+Key concepts include:
+- **hazard:** a potentially damaging natural or technological event;
+- **exposure:** the presence of people, infrastructure and assets in an area that may be affected;
+- **vulnerability:** conditions that increase the likelihood of harm;
+- **risk:** the possibility of adverse consequences, taking account of probability and severity; and
+- **disaster resilience:** the ability to prepare for, withstand, recover from and adapt to impacts.
+
+Geographical risk assessment combines hazard maps, demographic data, infrastructure characteristics, social indicators and information about natural systems. National averages may conceal local hotspots of high risk.
+
+### 13.11. Environmental Policy and International Cooperation
+
+Environmental problems often require joint action by states, municipalities, businesses, scientific organisations and civil society.
+
+Important international frameworks include the UN Framework Convention on Climate Change and the Paris Agreement; the Convention on Biological Diversity; the UN Convention to Combat Desertification; the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal; the Ramsar Convention on Wetlands; the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES); and the UN Sustainable Development Goals.
+
+International agreements provide frameworks for cooperation, but practical effectiveness depends on national law, funding, monitoring, transparency and implementation.
+
+Environmental governance should consider scientific evidence, the precautionary principle, intergenerational justice, public participation and the rights of local and Indigenous communities.
+
+### 13.12. Climate Mitigation and Adaptation
+
+**Mitigation** aims to reduce sources of greenhouse gases and increase their removal. **Adaptation** aims to reduce harm and make use of possible beneficial opportunities under current and expected changes.
+
+Mitigation examples include energy efficiency; low-carbon energy; electrification of transport and heating where it reduces total emissions; methane-leak reduction; ecosystem protection and restoration; and changes in production processes and consumption patterns.
+
+Adaptation examples include early-warning systems; climate-resilient water management; agricultural adaptation; coastal protection and restoration of natural buffers; urban greening and heat-action plans; and resilient buildings and transport infrastructure.
+
+Measures should be assessed for side effects, fairness, cost, technology access and long-term effectiveness. Poorly designed adaptation can create new risks or transfer them to other groups and territories.
+
+### 13.13. Environmental Assessment and Monitoring
+
+Environmental monitoring is the systematic observation of natural conditions and pressures. It includes field measurements, laboratory analysis, satellite observations, sensors, statistics and community observations.
+
+Main methods include air- and water-quality measurement; soil and sediment analysis; bioindication and species monitoring; remote sensing and GIS; inventories of emissions and pollution sources; product life-cycle assessment; and modelling of ecosystem and climate processes.
+
+An **Environmental Impact Assessment (EIA)** considers the likely environmental consequences of a proposed activity before a decision is made. A **Strategic Environmental Assessment (SEA)** is applied to plans, programmes and policies at a higher planning level. Specific procedures and legal requirements vary between countries.
+
+A sound assessment describes baseline conditions, alternatives, direct and indirect impacts, cumulative effects, measures to avoid and reduce impacts, and a follow-up monitoring plan.
+
+### 13.14. Environmental Justice and Health
+
+Environmental benefits and risks are distributed unevenly. Low-income communities, residents of industrial areas, rural and remote territories, and groups with limited access to health and utility services may experience disproportionately high burdens.
+
+Environmental justice includes fair distribution of environmental benefits and harm; meaningful participation of affected communities in decision-making; access to environmental information and justice; recognition of historical and cultural relationships with territory; and protection of health and livelihoods.
+
+Human health depends on air and water quality, food safety, temperature conditions, the urban environment, sanitation and access to green space. Environmental geography helps identify places where several risk factors overlap.
+
+### 13.15. Sustainable Development and the Geography of the Future
+
+Sustainable development seeks to reconcile environmental limits, social well-being and economic activity while considering the needs of present and future generations.
+
+A geographical approach matters because decisions have different implications in different places. Solar-energy development, for example, depends on solar exposure, land use, grid infrastructure and local interests. Water management depends on basin structure, seasonal flow and relations between states.
+
+Promising directions include nature-based solutions; restoration of degraded ecosystems; sustainable urban planning; low-carbon transport and energy; water-efficient agriculture; natural-hazard monitoring; and open environmental data and citizen science.
+
+Technology alone does not guarantee sustainability. Outcomes depend on governance quality, accessibility, environmental assessment, and who receives benefits and bears costs.
+
 ## 13.16. Итоги главы / Chapter Summary
 
 1. Экология изучает взаимодействия организмов и среды, а экологическая география раскрывает пространственную сторону этих взаимодействий.
