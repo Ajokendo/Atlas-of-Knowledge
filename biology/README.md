@@ -644,3 +644,14 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - Extended `checks.mjs` to require the dated country list, named resident/unconfirmed taxa, the conservation-status distinction, and the peer-reviewed DOI/sample-scope/hybridization details.
 - Re-read the modified fauna chapter, evidence audit and regression script from `workspace/biology`; all new bilingual evidence, links and audit entries are present. This source-level review is not an execution of the full check script; local checkout tests and CI remain unconfirmed.
 - **Atlas of Biology editorial readiness: 92/100.** This is a conservative content/evidence-readiness estimate, not production certification. Remaining work includes species-by-species taxonomic validation beyond amphibians, resolving source metadata discrepancies, specialist review, full bilingual copy-editing, executing the checks in a checkout, browser/accessibility testing, and producing/reviewing/integrating the 52 planned illustrations.
+
+
+## Kyrgyz reptile evidence review — 1 November 2026
+
+- Expanded the bilingual reptile section in `chapters/fauna-kyrgyzstan.html` using the Kyrgyzstan country-list snapshot dated 19 October 2026: 43 species (4 unconfirmed) and 19 subspecies (12 unconfirmed), with explicit distinctions for an introduced taxon and a taxon marked absent.
+- Flagged a source-level count inconsistency rather than silently choosing a number: the country-page header says 44, while its summary line reports 43 species. The audit records this for clarification.
+- Added the direct link to the GBIF-registered Central Asian reptile checklist, version 1.15 (26 October 2026), and explicitly described it as a literature/observation compilation rather than new fieldwork or oblast-level proof.
+- Extended `KYRGYZSTAN_SPECIES_AUDIT.md` with the country snapshot, its status caveats and the count discrepancy.
+- Extended `checks.mjs` with regression assertions for the dated country list, species/subspecies totals, introduced/absent status distinctions, count discrepancy and the regional GBIF checklist.
+- Re-read the fauna chapter, evidence audit and regression script from `workspace/biology`. All nine targeted source-level assertions passed. This is not execution of the full check script or CI; local checkout tests and CI remain unconfirmed.
+- **Atlas of Biology editorial readiness: 93/100.** This is a conservative content/evidence-readiness estimate, not production certification. Remaining work includes broader species-by-species validation, expert taxonomic review, resolving source metadata discrepancies, bilingual copy-editing, executing checks in a checkout, browser/accessibility testing, and producing/reviewing/integrating the 52 planned illustrations.
