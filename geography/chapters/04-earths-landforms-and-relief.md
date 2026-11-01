@@ -397,6 +397,8 @@ DEM используют для расчёта уклонов, экспозиц�
 
 Человеческая деятельность сама меняет рельеф: карьеры, насыпи, дамбы, террасирование склонов, дорожные выемки, городская застройка и водохранилища создают антропогенные формы.
 
+**Место для иллюстрации 4.15-B — Human Modification of Relief.** Сопоставить природный склон и преобразованный человеком ландшафт: карьер, дорожную выемку, насыпь, террасированное поле, плотину с водохранилищем и городскую застройку; показать возможные изменения стока и эрозии.
+
 ## Итоги главы / Chapter Summary
 
 1. Рельеф — результат длительного взаимодействия внутренних и внешних процессов Земли.
@@ -747,6 +749,8 @@ Relief creates both opportunities and constraints for settlement and economic ac
 | Safety | Landslides, debris flows, rockfalls and earthquakes create natural risks |
 
 Human activity also changes relief. Quarries, embankments, dams, slope terraces, road cuttings, urban construction and reservoirs create anthropogenic landforms.
+
+**[ILLUSTRATION PLACEHOLDER 4.15-B]** Compare a natural slope with a human-modified landscape: open-pit quarry, road cutting, embankment, terraced field, dam/reservoir and urban construction; indicate possible changes to runoff and erosion.
 
 ### Chapter Summary
 
