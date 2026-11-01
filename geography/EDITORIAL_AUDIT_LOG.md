@@ -865,3 +865,13 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Chapter 26 visual-ID follow-up: consolidated repeated B placeholders into one integrated glacier–river-basin–water-security asset; aligned the A and I production briefs with their teaching placeholders; added explicit D and K references in the production list. The chapter now has 12 distinct IDs A–L with consistent cross-references. Verified commit `f8db442498cad8fa8491337b1a63b96bc5ce935a`; blob `762a07d569f7f2bb38ba24946e69f33d5b31cc1e`.
+
+
+## Chapters 14–16 authoritative-methodology bibliography refresh — 1 November 2026
+
+- Added direct links to current primary documentation for OGC standards, ISO/TC 211 catalogue, EPSG Registry, QGIS, Esri GIS Dictionary, UN-GGIM IGIF, NASA Earthdata, USGS Landsat, ESA/Copernicus data access and ICA cartographic knowledge resources.
+- Replaced the obsolete/broken Sentinel-1 user-guide URL with the verified ESA Sentinel-1 mission page, which documents its radar instrument and all-weather/day-night imaging: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1
+- Added a DOI-backed reference for the Cartographic Body of Knowledge and linked the UN census-methodology resource in Chapter 16.
+- Chapter 14 verified commit: `98d9d914ed4204ccbc0d6f173b03a2df7d8e6064`; blob `c7e35ac9b0064fe0f8359d77764c9c7d7a1389d3`.
+- Chapter 15 verified commits: `756dd5d9e99a2c7f1bcce7f8c7afa19460559034` (bibliography links), `9aedde6c58d8695e02881b308b20a2531d73cbd5` (corrected Sentinel-1 URL); final blob `0dfc5824ba57b6a9d59344b85cddb3df5ae564af`.
+- Chapter 16 verified commit: `44574f3a27cf31045b7b5564529e34a4f54ecf96`; blob `7268c6c833803cf23637fe45c99a849ceb97b794`.
