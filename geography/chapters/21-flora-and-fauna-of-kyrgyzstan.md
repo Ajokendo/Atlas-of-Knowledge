@@ -388,7 +388,7 @@
 
 Охраняемая территория не должна рассматриваться как изолированный «остров». Экологические коридоры обеспечивают перемещение животных, распространение растений и обмен между популяциями. Для горных видов важны проходы между хребтами, долинами и сезонными пастбищами.
 
-В 2025 году Кыргызстан представил национальную программу сохранения биоразнообразия до 2040 года (NBSAP), разрабатывавшуюся как ключевая стратегическая рамка по сохранению биоразнообразия и устойчивому управлению экосистемами. При последующем обновлении атласа следует сверить окончательно утверждённый текст программы и её индикаторы.
+В 2025 году был представлен проект Государственной программы Кыргызской Республики по сохранению биоразнообразия до 2040 года, также известный как Национальная стратегия и план действий по сохранению биоразнообразия (NBSAP). На национальном семинаре 18 ноября 2025 года участники согласовали проект и рекомендовали его к утверждению; ПРООН сообщила, что до утверждения Кабинетом министров документ должен пройти дальнейшее рассмотрение. Поэтому в настоящем разделе NBSAP рассматривается как подготовленная стратегическая рамка, а не как доказанно вступивший в силу нормативный акт. Перед публикацией необходимо проверить окончательное решение Кабинета министров и утверждённые индикаторы.
 
 ## 21.13. Методы изучения флоры и фауны
 
@@ -691,7 +691,7 @@ National nature reserves, natural parks, sanctuaries and biosphere territories c
 
 A protected area should not be treated as an isolated island. Ecological corridors support animal movement, plant dispersal and exchange among populations. For mountain species, passages between ranges, valleys and seasonal pastures are important.
 
-In 2025, Kyrgyzstan presented a national biodiversity conservation programme to 2040 (NBSAP), developed as a key strategic framework for biodiversity conservation and sustainable ecosystem management. Future atlas updates should check the final approved text and indicators.
+In 2025, a draft State Programme of the Kyrgyz Republic on Biodiversity Conservation until 2040, also known as the National Biodiversity Strategy and Action Plan (NBSAP), was presented. At the national workshop on 18 November 2025, participants endorsed the draft and recommended it for approval; UNDP reported that the revised draft would undergo further review by the Cabinet of Ministers. This section therefore treats the NBSAP as a prepared strategic framework, not as a legal instrument proven to have entered into force. Before publication, check the Cabinet's final approval decision and the adopted indicators.
 
 ### 21.13. Methods for Studying Flora and Fauna
 
@@ -903,6 +903,7 @@ Flora and fauna are connected through pollination, seed dispersal, food webs and
 - UNESCO World Heritage Centre. **Decision 40 COM 8B.9: Western Tien-Shan**. https://whc.unesco.org/en/decisions/6788/
 - United Nations Development Programme (UNDP) Kyrgyzstan. **Specially Protected Nature Areas of the Western Tian Shan in Kyrgyzstan** (2023). https://www.undp.org/kyrgyzstan/publications/specially-protected-nature-areas-western-tian-shan-kyrgyzstan
 - UNDP Kyrgyzstan. **Kyrgyzstan Presents its National Biodiversity Conservation Programme Until 2040** (18 November 2025). https://www.undp.org/kyrgyzstan/press-releases/kyrgyzstan-presents-its-national-biodiversity-conservation-programme-until-2040
+- Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. **State Programme on Biodiversity Conservation until 2040 presented**, 18 November 2025 (national workshop and draft status). https://www.mnr.gov.kg/ru/posts/news/v-kyrgyzstane-predstavlena-gosudarstvennuyu-programmu-po-soxraneniyu-biologiceskogo-raznoobraziya-do-2040-goda
 - United Nations Kyrgyz Republic. **Voluntary National Review 2025**. Разделы о биоразнообразии и национальном Красном списке. https://kyrgyzstan.un.org/sites/default/files/2025-08/VNR%202025%20Kyrgyz%20Republic%20Report%20EN.pdf
 - IUCN. **The IUCN Red List of Threatened Species**. https://www.iucnredlist.org/
 - CITES. **The CITES Appendices**. https://cites.org/eng/app/appendices.php
