@@ -882,3 +882,11 @@ Older checkpoint entries below this note contain historical planning language th
 
 - CI #553 (ID `41347981230`) passed on checkpoint commit `6145220237cce6a1ddfeb168c742ebe086160b39`. This re-ran all structural checks, the Chromium mobile/desktop and bilingual page checks, axe WCAG audits, contrast sampling and the ArrowLeft/ArrowRight keyboard-scroll regression for overflowed tables.
 - The checkpoint itself is saved on `workspace/biology`; this entry records the successful post-write CI result. Screen-reader testing with actual assistive technology and physical-device/browser matrix checks remain explicitly pending.
+
+
+## 2026-11-02 — manual assistive-technology test protocol prepared
+
+- Added `SCREEN_READER_AND_DEVICE_TEST_PLAN.md`, a bilingual test protocol covering all 13 Biology pages, Russian/English modes, the interactive SVG cell model, chapter controls, dynamic announcements, keyboard scrolling, navigation, zoom/reflow and physical-device checks.
+- The protocol identifies NVDA + Firefox/Chrome on Windows, TalkBack + Chrome on Android, VoiceOver + Safari on iOS, and non-screen-reader mobile checks. It requires exact device/OS/browser/AT versions, reproducible steps, expected/actual announcements and defect closure evidence.
+- All hands-on tests remain **Pending**. The plan is not a claim that screen-reader or physical-device testing has been performed. README links to the protocol.
+- The controlled readiness score remains **95/100**; this preparatory document does not close manual testing.
