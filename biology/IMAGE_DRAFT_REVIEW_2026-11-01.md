@@ -62,3 +62,14 @@ A fourth six-panel collage was generated (ImageGen generation ID `a8488692-9869-
 The flower resembles an edelweiss-type alpine plant, but the generated morphology is not sufficient to identify it as `Leontopodium` or any species. It must remain an unidentified alpine-flower concept pending botanical review. The mountain backdrop does not establish a Kyrgyzstan locality or habitat record. The remaining collage panels substantially repeat previously generated wildlife concepts and were not counted as new assets.
 
 The crop is a local-only draft, not committed to GitHub and not integrated into a chapter. It does not replace any marker; all 52 dispositions remain Deferred.
+
+
+## Fifth production attempt: red bell-shaped alpine flower concept
+
+A fifth six-panel collage was generated (ImageGen generation ID `727a305a-0525-40e2-a221-34f9d82156b0`). The distinct upper-left botanical panel was extracted as a local WebP review candidate:
+
+- `biology-red-bell-alpine-flower-candidate.webp` — 505×504
+
+The flower has a conspicuous red-orange pendant bell-shaped inflorescence and whorled green foliage. It visually suggests a fritillary-type plant, but generated morphology is not enough to assign `Petilium eduardii`, `Fritillaria`, or another taxon. Botanical identification and comparison with the chapter's accepted nomenclature are required. The mountain background is illustrative and does not establish a Kyrgyzstan locality or population record.
+
+This is a local-only draft: it has not been committed as an image asset, inserted into a chapter, or approved for publication. Repeated animal panels in the collage were not counted as new candidates. All 52 image markers and their Deferred dispositions remain unchanged.
