@@ -47,3 +47,11 @@
 - Regression checks commit: `bd0009d56bace3c1b20f11012ed5d6e61151d6e6`.
 - README record commit: `f8d2c893afc4dc31adddd24a330926b8b9b0bc1f`.
 - Focused source-level verification is pending final read-back; full Node.js, Chromium and CI suites have not been rerun. Readiness remains 95/100; G4/G5 are open.
+
+## Further cell-biology coverage
+
+- Added bilingual material on cell-cycle checkpoints (G1/S, G2/M and spindle assembly), cyclin–CDK control, DNA-damage responses, apoptosis and necrosis, and the multifactorial nature of tumour development.
+- Chapter commit: `f96f28c4386afca6e23437d0aedc14bc49233323`.
+- Regression test commit: `6d680c4e08ea76372b9232bd2b00c6eb58622707`.
+- README log commit: `4d02c2b3ba0133f9ebd35b2647de336623582f4f`.
+- Focused source read-back and full test execution are pending. No readiness increase is claimed; G4/G5 remain open.
