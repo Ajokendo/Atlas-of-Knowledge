@@ -1004,3 +1004,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Species identities are intentionally unassigned where the generated morphology is insufficient. These are concept illustrations, not documentary wildlife photographs or verified Kyrgyzstan locality records.
 - All six remain local-only drafts, not committed or integrated. Scientific holds and provenance are documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
 - The 52 illustration markers and Deferred dispositions are unchanged. Readiness remains 95/100; G4/G5 remain open.
+
+
+## Fourth illustration production attempt — 1 November 2026
+
+- Generated a six-panel alpine biodiversity concept collage (ImageGen generation ID `a8488692-9869-4410-bd90-6443aa2631e1`) and extracted one distinct botanical crop: an unidentified edelweiss-like alpine flower (503×507 WebP).
+- The flower is not identified to genus or species; it is not evidence of a Kyrgyzstan locality. Repeated wildlife panels were not counted as new assets.
+- The candidate remains local-only, uncommitted and unapproved. See `IMAGE_DRAFT_REVIEW_2026-11-01.md`. All 52 markers remain Deferred; readiness remains 95/100.
