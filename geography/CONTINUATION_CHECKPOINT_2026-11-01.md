@@ -34,3 +34,6 @@
 - Map-data audit expanded with official climate series, methodology, national research inventory and peer-reviewed lake/glacier change evidence. Commit: `1034c40f72ac648db116fc43a6749c13eced2e61`.
 - Editorial readiness matrix updated for Chapters 19–20. Commit: `464f18cc569cbac72a2c22bee53a8253b6df672c`.
 - Geography README updated with this climate and glacial-lake research checkpoint. Commit: `e760e9d207dfccaf75c5403295f74d5ee58407a1`.
+
+
+- Chapter 20 extended bilingually with NSC 2025 water-use and wastewater indicators, the Water Resources Service's WIS scope, and the 2025 national mudflow/flood hazard atlas plus the ESKMP portal. Distinctions retained between abstraction, consumption, discharge and natural river runoff; the WIS description is not treated as proof of open station-level time series. Added visual brief 20-K for a disaggregated national water-use infographic. Sources and access limitations recorded in the map-data audit. Pending commits: chapter, audit, matrix and README updates in this continuation.
