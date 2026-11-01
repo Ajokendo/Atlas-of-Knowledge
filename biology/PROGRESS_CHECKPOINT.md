@@ -124,3 +124,10 @@
 - One new local candidate extracted: `biology-red-bell-alpine-flower-candidate.webp` (505×504). It is an unidentified red bell-shaped alpine flower concept; species/genus attribution is withheld pending botanical review.
 - Provenance and scientific caveats recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. No asset committed or inserted; no marker changed.
 - Controlled readiness remains **95/100**. G4 independent scientific review and G5 independent bilingual/editorial/release review remain open. All 52 image dispositions remain Deferred. No tests/CI were run or claimed in this stage.
+
+
+## Sixth illustration production attempt — 1 November 2026
+
+- Added one standalone local WebP botanical candidate (1254×1254), a red-orange crown-like alpine flower. It remains taxonomically unidentified pending botanical review; the setting is illustrative.
+- Generation provenance, filename, size and caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+- No raster was committed or inserted; no marker changed. All 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests or CI were run in this stage.
