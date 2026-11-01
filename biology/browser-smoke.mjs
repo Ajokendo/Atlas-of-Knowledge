@@ -151,6 +151,28 @@ try {
           if (!(await page.locator("#carbon-output").innerText()).startsWith("Cellular respiration:")) {
             errors.push(file + ": carbon-cycle output did not update in English after selection");
           }
+          const photoChoice = page.locator('#carbon-controls button[data-carbon="photosynthesis"]');
+          await photoChoice.focus();
+          await page.keyboard.press("Space");
+          if (await photoChoice.getAttribute("aria-pressed") !== "true" ||
+              !(await page.locator("#carbon-output").innerText()).startsWith("Photosynthesis:")) {
+            errors.push(file + ": Space key did not activate the photosynthesis control");
+          }
+        }
+
+        if (file.endsWith("/botany.html")) {
+          const answer = page.locator("#answers button").first();
+          if (await answer.count()) {
+            const beforeAnswer = await page.locator("#result").innerText();
+            await answer.focus();
+            await page.keyboard.press("Enter");
+            const afterAnswer = await page.locator("#result").innerText();
+            if (!afterAnswer || afterAnswer === beforeAnswer) {
+              errors.push(file + ": Enter key did not activate the first quiz answer");
+            }
+          } else {
+            errors.push(file + ": quiz answer control not found for keyboard activation test");
+          }
         }
         await lang.click();
         languageChecks++;
