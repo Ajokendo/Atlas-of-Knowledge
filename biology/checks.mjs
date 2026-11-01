@@ -169,11 +169,11 @@ for (const [group, config] of Object.entries(ecologyControlCounts)) {
     errors.push("chapters/ecology.html: missing " + group);
     continue;
   }
-  const buttons = [...section[1].matchAll(new RegExp('<button\\\\b[^>]*data-' + config.attribute + '="[^"]+"[^>]*>([\\\\s\\\\S]*?)<\\\\/button>', "gi"))];
+  const buttons = [...section[1].matchAll(/<button\b([^>]*)>([\s\S]*?)<\/button>/gi)].filter(m => m[1].includes('data-' + config.attribute + '="'));
   if (buttons.length !== config.count) {
     errors.push("chapters/ecology.html: expected " + config.count + " controls in " + group + ", found " + buttons.length);
   }
-  if (buttons.some(m => !/<span class=["']ru["']>/.test(m[1]) || !/<span class=["']en["']>/.test(m[1]))) {
+  if (buttons.some(m => !/<span class=["']ru["']>/.test(m[2]) || !/<span class=["']en["']>/.test(m[2]))) {
     errors.push("chapters/ecology.html: every " + group + " control must have paired Russian and English labels");
   }
   const pressed = [...section[1].matchAll(/aria-pressed="(?:true|false)"/g)];
