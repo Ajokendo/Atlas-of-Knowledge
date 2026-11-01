@@ -600,10 +600,59 @@ try {
           !(await illustration.getAttribute("alt") || "").includes("Схема чтения химической формулы")) {
         errors.push(file + ": Russian formula-reading illustration or accessible description is missing");
       }
+      const formulaInput = page.locator("#formula");
+      await formulaInput.fill("2H2O");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#total").innerText()).includes("6") ||
+          !(await page.locator("#rows").innerText()).includes("H") ||
+          !(await page.locator("#rows").innerText()).includes("4") ||
+          !(await page.locator("#rows").innerText()).includes("O") ||
+          !(await page.locator("#rows").innerText()).includes("2")) {
+        errors.push(file + ": Russian formula parser miscounted atoms in coefficient formula 2H2O");
+      }
+      await formulaInput.fill("Al2(SO4)3");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#total").innerText()).includes("17") ||
+          !(await page.locator("#rows").innerText()).includes("12")) {
+        errors.push(file + ": Russian formula parser miscounted atoms in Al2(SO4)3");
+      }
+      await formulaInput.fill("Xx2");
+      await page.locator("#calc").click();
+      if ((await page.locator("#total").innerText()).trim() !== "—" ||
+          !(await page.locator("#feedback").innerText()).includes("Неизвестный символ")) {
+        errors.push(file + ": invalid element symbol must produce Russian validation feedback");
+      }
+      await formulaInput.fill("Ca(OH2");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#feedback").innerText()).includes("закрывающая скобка")) {
+        errors.push(file + ": missing bracket must produce Russian validation feedback");
+      }
+      await formulaInput.fill("");
+      await page.locator("#calc").click();
+      if ((await page.locator("#total").innerText()).trim() !== "—" ||
+          !(await page.locator("#feedback").innerText()).includes("Начните с корректного")) {
+        errors.push(file + ": empty formula must produce Russian validation feedback");
+      }
       await page.locator("#lang").click();
       if (await illustration.getAttribute("src") !== "../assets/formula-reading.svg" ||
           !(await illustration.getAttribute("alt") || "").includes("Annotated chemical formula")) {
         errors.push(file + ": English formula-reading illustration or accessible description is missing");
+      }
+      await formulaInput.fill("Xx2");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#feedback").innerText()).includes("Unknown chemical element symbol")) {
+        errors.push(file + ": invalid element symbol must produce English validation feedback");
+      }
+      await formulaInput.fill("Ca(OH2");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#feedback").innerText()).includes("closing bracket")) {
+        errors.push(file + ": missing bracket must produce English validation feedback");
+      }
+      await formulaInput.fill("2H2O");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#total").innerText()).includes("6") ||
+          !(await page.locator("#feedback").innerText()).includes("parsed successfully")) {
+        errors.push(file + ": English formula calculator did not parse coefficient formula 2H2O");
       }
       await page.locator("#lang").click();
     }
