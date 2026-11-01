@@ -914,6 +914,18 @@ if (!regionalSpeciesAudit.includes("Local bird and mammal evidence update — 1 
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: local 2025–2026 evidence and source attribution caveats must be documented");
 }
 
+// Preserve the June 2026 ministry-reported Common Crane breeding record and its historical qualification.
+if (!faunaKyrgyzstanFile.includes("ISSYK-KUL · JETY-OGUZ · COMMON CRANE BREEDING RECORD · 2026") ||
+    !faunaKyrgyzstanFile.includes("Grus grus") ||
+    !faunaKyrgyzstanFile.includes("19 April") ||
+    !faunaKyrgyzstanFile.includes("24 May") ||
+    !faunaKyrgyzstanFile.includes("second known national record") ||
+    !faunaKyrgyzstanFile.includes("pervoe-gnezdovanie-serogo-zuravlya-na-vostocnom-pobereze-ozera-issyk-kul") ||
+    !regionalSpeciesAudit.includes("Common Crane breeding record on Issyk-Kul — 2026") ||
+    !regionalSpeciesAudit.includes("Do not infer range expansion")) {
+  errors.push("2026 Issyk-Kul Common Crane breeding record must retain dates, primary source and cautious national-history interpretation");
+}
+
 // Preserve the August 2026 institutional record of a Demoiselle Crane migration aggregation.
 if (!faunaKyrgyzstanFile.includes("ISSYK-KUL · DEMOISELLE CRANE MIGRATION · AUGUST 2026") ||
     !faunaKyrgyzstanFile.includes("approximately 2,000 Demoiselle Cranes") ||
