@@ -213,6 +213,50 @@ try {
         }
         await lang.click();
         languageChecks++;
+
+        if (file.endsWith("/index.html")) {
+          const verifyOrganelleKeyboard = async (language) => {
+            const controls = page.locator("#cell-diagram [data-org]");
+            const count = await controls.count();
+            if (count !== 6) {
+              errors.push(file + ": expected 6 keyboard-accessible organelle controls, found " + count);
+              return;
+            }
+            for (let i = 0; i < count; i++) {
+              const control = controls.nth(i);
+              const semantics = await control.evaluate(el => ({
+                role: el.getAttribute("role"),
+                tabIndex: el.tabIndex,
+                label: (el.getAttribute("aria-label") || "").trim(),
+                describedBy: el.getAttribute("aria-describedby"),
+                descriptionExists: !!document.getElementById(el.getAttribute("aria-describedby") || "")
+              }));
+              if (semantics.role !== "button" || semantics.tabIndex < 0 || !semantics.label ||
+                  semantics.describedBy !== "org-info" || !semantics.descriptionExists) {
+                errors.push(file + ": organelle control " + i + " has incomplete accessible semantics in " +
+                  language + ": " + JSON.stringify(semantics));
+                continue;
+              }
+              for (const key of ["Enter", "Space"]) {
+                await control.focus();
+                await page.keyboard.press(key);
+                const info = await page.locator("#org-info").innerText();
+                if (!info.includes(semantics.label)) {
+                  errors.push(file + ": " + key + " did not activate " + semantics.label +
+                    " in " + language + " mode; live-region text was: " + info);
+                }
+              }
+            }
+          };
+
+          // Test the complete organelle set with both language labels and both activation keys.
+          await verifyOrganelleKeyboard("English");
+          await lang.click();
+          languageChecks++;
+          await verifyOrganelleKeyboard("Russian");
+          await lang.click();
+          languageChecks++;
+        }
       } else errors.push(file + ": language switch control not found");
       const missingType = await page.locator("button:not([type='button'])").count();
       if (missingType) errors.push(file + ": " + missingType + " button(s) lack type=button");
