@@ -774,3 +774,10 @@
 - This is a successful automated check of visible DOM text in both language states, not a complete WCAG audit. Image/gradient-backed text, SVG text, every focus/hover/disabled state, screen-reader output, full keyboard traversal and physical devices remain open.
 - Contrast stage: 100% for the defined bilingual visible-DOM-text sampler. Keyboard stage: representative keyboard activation and first-focus navigation checks pass; full control inventory and full tab traversal remain incomplete.
 - Overall editorial readiness remains 95/100. G4/G5 independent review and 52 deferred visual assets remain outstanding. Feedback intake remains disabled.
+
+
+## 2026-11-02 — contrast checks after interactive state changes
+
+- Extended the browser suite to resample visible DOM text contrast after keyboard activation of the Ecology carbon-cycle selector (Space) and after the Botany quiz answer is activated with Enter.
+- Test code commit: `0c1c85508ab29c90ee9336a9eb4cedf725c823fd`. CI verification is pending.
+- This adds two representative dynamic states to the existing both-language-state / two-viewport contrast sampling. It does not imply every interactive state across all chapters is sampled.
