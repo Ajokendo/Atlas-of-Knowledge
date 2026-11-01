@@ -105,3 +105,5 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Follow-up CI caught a stale browser assertion that still expected ten organic-family cards after adding alkynes. Updated the expected count to eleven; the failure was in the regression assertion, not the chemistry content.
 
 - [x] Scientific wording review of the arene family: narrowed the definition from the overly broad “aromatic compounds” to aromatic hydrocarbons containing one or more benzene rings, in both languages. Added matching RU/EN browser assertions.
+
+- [x] The first follow-up CI run caught a bilingual synchronization issue: the Russian translation dictionary had the corrected arene definition, but the page's initial HTML text still contained the older wording. Synchronized the initial markup; the repository's translation-consistency check covers this mismatch.
