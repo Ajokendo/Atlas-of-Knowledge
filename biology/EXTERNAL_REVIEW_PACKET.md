@@ -47,7 +47,7 @@ A review is complete only when the reviewer identifies the materials examined, e
 
 ## 2. Bilingual editorial and release review (G5)
 
-Review all 13 pages in both Russian and English. The review must be performed independently of the authoring pass.
+Review all 13 pages in both Russian and English. The review must be performed independently of the authoring pass. The author-side automated parity results are recorded in [`BILINGUAL_PARITY_AUDIT.md`](BILINGUAL_PARITY_AUDIT.md); that audit checks block counts, numeric-token parity and scientific-name sets, but is not an independent editorial sign-off.
 
 ### Editorial checklist
 
