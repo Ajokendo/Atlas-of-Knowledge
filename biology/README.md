@@ -1011,3 +1011,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Generated a six-panel alpine biodiversity concept collage (ImageGen generation ID `a8488692-9869-4410-bd90-6443aa2631e1`) and extracted one distinct botanical crop: an unidentified edelweiss-like alpine flower (503×507 WebP).
 - The flower is not identified to genus or species; it is not evidence of a Kyrgyzstan locality. Repeated wildlife panels were not counted as new assets.
 - The candidate remains local-only, uncommitted and unapproved. See `IMAGE_DRAFT_REVIEW_2026-11-01.md`. All 52 markers remain Deferred; readiness remains 95/100.
+
+
+## Fifth illustration production attempt — 1 November 2026
+
+- Generated collage ID `727a305a-0525-40e2-a221-34f9d82156b0`; extracted one new local WebP candidate, a red-orange pendant bell-shaped alpine flower (505×504).
+- Taxonomic hold: do not label as `Petilium eduardii`, `Fritillaria`, or another taxon without botanical review. No Kyrgyzstan locality is established.
+- Candidate remains local-only, uncommitted and unapproved. All 52 insertion markers remain Deferred; readiness remains 95/100. See `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
