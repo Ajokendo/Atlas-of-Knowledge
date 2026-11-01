@@ -65,3 +65,5 @@
 - Added a disabled HTML template. It has no endpoint, no fetch/network request, no storage, no analytics and no external service. Its only button is disabled and explicitly says intake is off.
 - No portal-wide files, other subject folders, shared publishing settings, or branch merges were changed. No real feedback was received or stored.
 - Files: `geography/FEEDBACK_SYSTEM_STANDARD.md`, `geography/FEEDBACK_QUESTIONNAIRE_RU_EN.md`, `geography/FEEDBACK_REVIEW_WORKFLOW.md`, `geography/FEEDBACK_WIDGET_TEMPLATE.html`, and this checkpoint/README documentation.
+- Final refinement: documented the future atlas-level and chapter-level entry points, while deliberately not adding active/public entry links at this preparation stage. The disabled HTML template reserves inert subject/page/anchor/language metadata fields for a later approved integration; no script reads or transmits them.
+- Final static-template check: zero script tags, zero form action attributes, zero network-call patterns, zero browser-storage calls, one disabled button, zero endpoint assignments, and zero success/receipt messages.
