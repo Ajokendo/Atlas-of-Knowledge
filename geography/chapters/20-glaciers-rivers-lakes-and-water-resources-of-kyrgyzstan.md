@@ -589,6 +589,198 @@ Thus, the monthly flow volume is equivalent to a runoff layer of 32.4 mm across 
 
 **Check your understanding:** what volume of water passes the station in 10 days at a constant discharge of 12 m³/s?
 
+## English-language chapter text
+
+### 20.1. Kyrgyzstan as a Mountain Water-Generating Country
+
+Kyrgyzstan's high-mountain relief gives the country a distinctive position in the hydrology of Central Asia. Much of the river flow forms in mountain areas, where precipitation is stored as seasonal snow, firn and glacier ice. Water then enters rivers through snowmelt, glacier melt, rainfall and groundwater discharge.
+
+Kyrgyzstan is often described as one of the region's important headwater territories. However, the phrase “water tower of Central Asia” does not mean that all water generated within the country is available for use inside its borders or that its distribution is independent of season. Much of the flow belongs to transboundary basins, while water availability depends on timing, infrastructure, water quality and agreements among states.
+
+National and regional water-management sources give different estimates of mean long-term river runoff generated within Kyrgyzstan, approximately 44.5–51.9 km³ per year depending on method and period. A regional water yearbook gives an estimate of renewable water resources of about 46.5 km³ per year. These figures are not fixed annual volumes: actual runoff varies from year to year.
+
+### 20.2. Water Balance and Key Concepts
+
+A water balance describes the relationship between water entering, being stored in and leaving a territory during a selected period.
+
+A simplified catchment water-balance equation is:
+
+P = ET + Q + ΔS
+
+where P is precipitation, ET is evapotranspiration, Q is runoff leaving the catchment and ΔS is the change in water storage in snow, glaciers, soil, lakes and aquifers.
+
+A real basin may require additional terms for inter-basin transfers, water abstraction, return flows, artificial regulation and exchange with adjacent groundwater systems.
+
+Important terms:
+- **water storage:** water present at a particular time in glaciers, lakes, reservoirs, soil and aquifers;
+- **renewable water resources:** water replenished by the hydrological cycle over a defined period;
+- **river runoff:** the volume of water passing through a river cross-section during a specified time;
+- **water availability or flow regime:** the amount of water in a river over a period, expressed as discharge or volume;
+- **discharge:** water volume passing through a channel cross-section per unit time, usually m³/s; and
+- **specific runoff (runoff modulus):** discharge relative to catchment area, commonly expressed as L/(s·km²).
+
+Ice and lake storage must not be added to annual river runoff without making clear that different physical quantities are being compared. Glacier-ice volume is a multi-year stock; river runoff is a flow over time.
+
+### 20.3. Glaciers of Kyrgyzstan
+
+A glacier is a perennial mass of ice formed where snow accumulation over a long period balances or exceeds losses through melting, evaporation and mechanical removal. Snow gradually compacts into firn and then glacial ice.
+
+A glacier includes an accumulation area where snow is stored; an ablation area where mass loss dominates; a firn zone where snow transforms into ice; a glacier tongue where one is developed; and features such as crevasses, icefalls, moraines and proglacial water bodies.
+
+The boundary between accumulation and ablation at the end of a balance year approximately corresponds to the glacier equilibrium-line altitude (ELA). Its elevation changes from year to year and depends on temperature, precipitation, slope aspect, wind redistribution of snow and cloudiness.
+
+Major glacier regions include the Central and Eastern Tien Shan (including Kakshaal-Too, Ak-Shyyrak and Sary-Jaz); the Terskey and Kungey Ala-Too; the Kyrgyz Range and its high massifs; the Alay and Trans-Alay ranges; and high-mountain massifs of the Inner Tien Shan.
+
+Glacier distribution depends not only on absolute elevation. Solid precipitation, slope aspect, glacier-basin shape, shading, wind redistribution of snow and summer temperature are also important.
+
+**Glacier types** include valley glaciers, cirque glaciers, hanging glaciers, complex or branched valley-glacier systems, and ice caps or domes that cover broad surfaces. Their morphology depends on terrain and accumulation conditions.
+
+**Mass balance** is the difference between accumulation and ice loss over a defined period, often expressed in metres water equivalent per year (m w.e./yr). A positive balance means accumulation exceeded losses; a negative balance means the glacier lost mass. A negative balance in one year does not mean immediate disappearance, but repeated negative balances reduce glacier thickness and area.
+
+A study of regional glacier mass balance in the Tien Shan and Pamir for 2000–2022 estimated a mean loss of about −0.39 m water equivalent per year for the glacier population assessed. This is a regional estimate, not a value for every glacier in Kyrgyzstan. Differences among massifs are substantial, and results depend on method and dataset.
+
+Warming changes the balance between accumulation and melting. Many glaciers show area reduction, thinning and retreat of their termini, but rates vary. Some glaciers may show complex short-term behaviour because of avalanche accumulation, shading, terrain and local precipitation.
+
+Consequences include changes in seasonal river-flow distribution; formation and expansion of proglacial lakes; changes in the stability of moraine and ice dams; increased risk of some glacial lake outburst floods; reduction in long-term ice storage; and changes in high-mountain ecosystems and landscapes.
+
+It is essential to distinguish the short-term effect of accelerated melting from long-term water-supply sustainability. In early stages of accelerated melting, runoff from some rivers may increase. As glacier storage is depleted, however, the glacier contribution during dry seasons may decline.
+
+### 20.4. Rivers and River Basins of Kyrgyzstan
+
+Kyrgyzstan's rivers are mountainous, with steep gradients, fast upper reaches, deep valleys, rapids and waterfalls. Snow and glacier melt are important in upper catchments; rainfall and groundwater become more important in foothills and valleys.
+
+National sources give different counts of rivers and watercourses—from several thousand to tens of thousands when small and temporary streams are included. An atlas should state the counting criteria, such as stream length, permanence of flow and mapping scale.
+
+The country's waters belong to several major basin systems:
+1. the Syr Darya basin, primarily through the Naryn and Kara Darya;
+2. the Chu basin;
+3. the Talas basin;
+4. the Ili–Balkhash basin;
+5. the Tarim basin; and
+6. the internal, endorheic Issyk-Kul basin.
+
+Official and research sources may count different numbers of basin units because they use different hierarchical levels and grouping methods. The atlas should show the main drainage directions and identify sub-basins separately.
+
+**Naryn River.** The Naryn is the most important river in Kyrgyzstan's national hydrography and hydropower system. It forms in high-mountain areas of the Inner Tien Shan through the confluence of major headwaters, including the Big and Small Naryn. It flows west and south-west through deep mountain valleys towards the Fergana Valley, where it joins the Kara Darya to form the Syr Darya.
+
+The Naryn is mainly snow-fed and glacier–snow-fed, with substantial seasonal variation. Its regime depends on the elevation distribution of precipitation, temperature, snow and glacier melt, and reservoir regulation.
+
+**Kara Darya and Syr Darya basin.** The Kara Darya forms in the eastern Fergana region and receives water from mountain rivers draining the Alay and Fergana ranges. After the Naryn and Kara Darya join, the Syr Darya begins. It is one of the major rivers of Central Asia and historically a vital water artery for irrigated lands.
+
+The basin regime is connected with transboundary water use, reservoirs, irrigation canals and return flows. A geographical description must therefore consider not only natural runoff but also human modification.
+
+**Chu River.** The Chu originates in mountain areas of northern Kyrgyzstan, crosses the Chuy Valley and then flows towards Kazakhstan. Snow and glacier–snow contributions are important in its upper reaches and tributaries; downstream flow is strongly influenced by abstraction and irrigation regulation. The river is vital to water supply and irrigation in the Chuy Valley and requires coordination between Kyrgyzstan and Kazakhstan.
+
+**Talas River.** The Talas forms through the confluence of mountain rivers draining the Talas Ala-Too and adjacent ranges. It crosses the Talas Valley and flows towards Kazakhstan, where its water is gradually lost in arid areas and water-management systems. The river is important for irrigation and regional water supply; the Kirov Reservoir regulates its basin.
+
+**Sary-Jaz and eastern Tien Shan rivers.** The Sary-Jaz is one of the major rivers in eastern Kyrgyzstan. Its high-mountain basin has a substantial snow and glacier contribution. The river flows towards China and belongs to the Tarim system. Its regime depends on the high-mountain cryosphere and summer melt.
+
+**Chatkal and south-western rivers.** The Chatkal forms in the Western Tien Shan and is connected with the Syr Darya basin. Rivers in south-western Kyrgyzstan, including tributaries of the Kara Darya, are important for irrigation, water supply and hydropower. Their regimes combine snow, glacier, rainfall and groundwater contributions.
+
+### 20.5. River Regimes and Sources of Flow
+
+Mountain rivers receive water from several sources: snowmelt from seasonal snow cover; glacier melt from perennial ice; rainfall; and groundwater discharge from soil, aquifers and fractured rocks.
+
+Most large mountain catchments have mixed sources. The share of each source varies with elevation, season and basin.
+
+Many rivers have higher flow during the warm part of the year, when snow melts and glacier ablation increases. The timing and amplitude of the peak differ. In basins dominated by low- and middle-elevation snowmelt, peak flow may occur earlier than in high-mountain glacier-fed systems.
+
+Main hydrological phases often include winter low flow, spring rise, summer high flow and autumn recession. These phases are not identical in all rivers.
+
+The terms **seasonal high water** and **flood** should not be used interchangeably. Seasonal high water is a relatively regular rise in flow during a particular season; a flood is a shorter-term rise in water level and discharge, often caused by rainfall or rapid melting.
+
+### 20.6. Lakes of Kyrgyzstan
+
+Kyrgyzstan contains lakes of tectonic, glacial, landslide-dammed, karst and mixed origin. They differ in depth, mineralisation, area, elevation and connection to river networks.
+
+**Issyk-Kul** is Kyrgyzstan's largest lake and one of the world's largest high-mountain lakes. It occupies an intermontane tectonic basin between the Kungey and Terskey Ala-Too. Its surface elevation is about 1,607 m above sea level, although the level fluctuates; area is about 6,200 km² and changes with water level; length is about 178 km; maximum width about 60 km; and maximum depth about 668 m. The water is brackish, and the lake is endorheic, with no natural surface outflow.
+
+Many rivers and streams enter the lake, including the Tyup, Jergalan, Karakol, Juku and Barskoon. Groundwater exchange may also contribute to its water balance. The absence of surface outflow promotes the accumulation of dissolved substances.
+
+Issyk-Kul's level has changed in historical and modern times under the influence of climate, river inflow, evaporation and water abstraction. Any description of level change must specify the observation period.
+
+**Son-Kul** is a high-mountain freshwater lake in Naryn Region, located in an intermontane basin at about 3,016 m. It is important for high-mountain pastures, seasonal livestock keeping, waterbirds and nature tourism. It is shallower than Issyk-Kul, and its level and area vary seasonally and over longer periods. Wet shoreline habitats are valuable and require management compatible with wetland conservation.
+
+**Chatyr-Kul** lies in a high-mountain basin near the Chinese border at about 3,530 m. It is a cold, endorheic lake with substantial seasonal variation and is important for waterbirds and protected high-mountain ecosystems.
+
+**Sary-Chelek** is a deep mountain lake in the Western Tien Shan, formed by natural damming of a valley. It lies within the Sary-Chelek Biosphere Reserve and is surrounded by forest and mountain ecosystems. The lake and its surroundings have exceptional conservation and scientific value.
+
+**Merzbacher Lake** is located in the Inylchek glacier region of the Central Tien Shan. It is known for periodic outburst drainage, when stored water escapes from a glacier-dammed lake. The phenomenon is important for glaciology and hazard monitoring.
+
+In addition to major lakes, high mountains contain small cirque, moraine-dammed and glacier-dammed water bodies. Their number, area and stability change as glaciers retreat and moraine complexes are reworked.
+
+Lake elevation and morphometric values may differ among reference sources because of changing water levels, measurement dates and vertical reference systems. Final map values must be tied to a specific source and date.
+
+### 20.7. Groundwater and Springs
+
+Groundwater forms as precipitation, river water and lake water infiltrate into rocks and unconsolidated deposits. Kyrgyzstan contains alluvial aquifers in river valleys; confined groundwater in sedimentary basins; fracture groundwater in mountain rocks; karst groundwater; and mineral and thermal waters.
+
+Groundwater is important for drinking-water supply, agriculture and sustaining river baseflow. Springs are particularly important for mountain settlements where centralised infrastructure is limited.
+
+Groundwater quality depends on geology, depth, contact time with rocks, natural chemical composition and human pressures. Clear water is not necessarily microbiologically or chemically safe. Laboratory testing and sanitary protection are required before drinking use.
+
+### 20.8. Reservoirs and Irrigation Systems
+
+Reservoirs regulate seasonal runoff and provide water for irrigation, public supply and electricity generation. They alter the natural river hydrograph, trap sediment, affect water temperature and change ecological conditions downstream.
+
+**Toktogul Reservoir** on the Naryn is the largest element of hydropower regulation in Kyrgyzstan. It is associated with Toktogul HPP and the Naryn hydropower cascade. It is strategically important for national electricity generation and regional water regimes.
+
+Operation requires balancing electricity generation, seasonal storage and release, irrigation needs downstream and the safety of hydraulic structures.
+
+Other important reservoirs include Kurpsai and Uch-Kurgan in the Naryn system; Orto-Tokoy on the Chu; Kirov in the Talas basin; Papan in the Ak-Buura basin; and smaller reservoirs and irrigation storage facilities.
+
+Reservoir volumes and areas may be reported as design, gross, active or actual values on a particular date. These categories must be labelled separately in atlas tables.
+
+Irrigated agriculture is the largest freshwater user in Kyrgyzstan. Regional water-management sources indicate that agriculture accounts for about 90% of domestic water consumption, although the share varies by year, treatment of return flows and the definition of abstraction.
+
+Irrigation infrastructure includes intakes, main and distribution canals, pumping stations, hydraulic structures, collector–drainage networks, gauging stations and water-accounting systems.
+
+Transport and distribution losses can be substantial. Reducing them requires canal rehabilitation, accurate accounting, modernised gates, delivery schedules and water-saving technologies. Efficiency should not be assessed solely by reducing seepage: some seepage may recharge aquifers and return to the river system.
+
+### 20.9. Transboundary Water Systems
+
+Kyrgyzstan's rivers connect the country with Kazakhstan, Uzbekistan, Tajikistan and China. Transboundary water management must consider natural flow, seasonal variability, hydropower operations, irrigation, water quality, ecological flows and the interests of upstream and downstream communities.
+
+The Chu and Talas basins provide an example of cooperation between Kyrgyzstan and Kazakhstan through joint mechanisms for water facilities of interstate use. The Naryn–Syr Darya system illustrates the water–energy nexus: upstream reservoir operations influence downstream irrigation, while seasonal electricity demand affects release schedules. The Kambarata-1 hydropower project is a regional project whose assessment should consider benefits, financing, environmental and social impacts, dam safety, sediment and downstream flow regimes.
+
+The bilingual case studies and worked model in the Russian section provide detailed analysis of these issues. They should be used together with the principles above rather than treating water allocation as a purely technical calculation.
+
+### 20.10. Water Quality and Pollution
+
+Water quality is determined by physical, chemical and biological indicators. Monitoring parameters include temperature, turbidity, electrical conductivity and mineralisation; pH and dissolved oxygen; nutrients such as nitrogen and phosphorus compounds; organic substances and microbiological indicators; and heavy metals and specific pollutants in industrial-impact areas.
+
+Pollution sources may include inadequately treated municipal wastewater, agricultural runoff, livestock operations, mining, tailings facilities, landfills and transport infrastructure.
+
+In mountain basins, monitoring of tailings facilities and mining sites is especially important. Risk depends not only on the presence of a pollutant but also on its concentration, mobility, pathways and possibility of entering water intakes.
+
+Water quality should be assessed through a representative network of monitoring sites and in different seasons. A single sample does not characterise an entire water body.
+
+### 20.11. Glacial Lakes, Floods and Debris-Flow Hazards
+
+Glacier retreat and moraine reorganisation can create new lakes or change existing ones. Some lakes are held by glacier ice, others by moraine ridges or bedrock thresholds. If a natural dam fails, water may rapidly flow down a valley.
+
+A **glacial lake outburst flood (GLOF)** is the sudden release of water from a glacier or proglacial lake that can cause a flood and debris flow.
+
+Hazard factors include instability of moraine or ice dams; increasing lake volume; ice or slope collapse into the lake; intense precipitation and rapid melting; earthquakes; internal drainage and changes in outflow channels.
+
+Risk assessment requires remote sensing, field surveys, bathymetry, water-level monitoring, geodetic measurements and modelling of the outburst wave. Settlements, roads, bridges, pastures and hydraulic infrastructure downstream must be considered.
+
+### 20.12. Climate Change and the Future of Water Resources
+
+Warming affects all parts of the water cycle: it changes the proportion of precipitation falling as snow or rain; shifts the timing of seasonal snowmelt; alters glacier mass balance; affects evaporation and soil moisture; may change seasonal river-flow regimes; contributes to the development and reorganisation of proglacial lakes; and increases uncertainty in water supply in some basins.
+
+The key risk is not only a possible change in annual runoff volume but also its seasonal redistribution. Water may arrive earlier than the period of peak irrigation demand, while late-summer availability and flow during dry years may decline.
+
+Impacts vary among basins. Important factors include glacier elevation and area within the catchment, precipitation seasonality, snow-cover area, geology and reservoir management. Projections should therefore be basin-specific and presented with uncertainty ranges.
+
+### 20.13. Water Security and Sustainable Management
+
+Water security includes reliable access to sufficient water of acceptable quality for people, the economy and ecosystems, as well as protection from destructive water-related events.
+
+Priorities include modernising irrigation canals and water accounting; reducing losses and improving irrigation efficiency; protecting drinking-water sources; building and upgrading wastewater treatment facilities; monitoring glacial lakes and debris-flow catchments; improving dam and hydraulic-structure safety; conserving wetlands and riparian ecosystems; jointly managing transboundary basins; openly exchanging hydrological and climate data; and developing basin planning and public participation.
+
+**Environmental flow** is the quantity, timing and quality of water needed to sustain river ecosystems and the natural processes that depend on them. Water abstraction and reservoir regulation should consider not only economic demand but also the condition of aquatic habitats.
+
 ## 20.14. Практические работы / Practical Activities
 
 ### Практическая работа 1. Карта речных бассейнов
