@@ -990,3 +990,33 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Chapter 15 spectral-index precision check: specified SWIR1 for the standard NDMI/NDBI variants and SWIR2 for the standard Landsat NBR formula in both Russian and English. Added a sensor-specific caveat requiring exact band numbers to be stated for other platforms. Verified commit `535dfaeddb6009b7c05ffda5e615e422375cddd6`; blob `be904dcf430417d02d9b87c8c8a12164eebb4e6c`.
+
+
+## Shared-standard audit restart — 2 November 2026
+
+### Standard adoption and baseline reconciliation
+- Read the mandatory shared `EDITORIAL_STANDARD.md` from `atlas-of-knowledge-integration` (blob SHA `38294a18c47e8127fdd25669d5d15b10b1887256`) and the current shared `PROJECT_REGISTRY.md` (blob SHA `03537236951f30b0a6f3b79d011bcfd04cd5b652`).
+- Recorded the Geography-specific adoption, audit criteria and progress-accounting rules in `geography/EDITORIAL_STANDARD_ADOPTION.md`; no root-level shared files were copied or modified.
+- Reconciled the visual count to 217 unique IDs. Four SVG assets are created and embedded (18-J, 19-H, 20-I, 20-K), but all four remain pending final scientific/editorial sign-off. The other IDs are not to be described as completed images.
+- Updated README and readiness matrix to reflect the 217-ID count and four existing SVGs.
+
+### Chapter 01 — bilingual terminology
+- Found that the Russian-language Key Terms table included English terms but only Russian definitions. The English-language chapter therefore lacked a self-contained glossary for English readers.
+- Added a separate English Key Terms table under section 1.12, with concise definitions for all 15 terms already present in the Russian table.
+- Verified that the English table appears before English Review Questions and that the 1.1–1.14 numbering remains intact.
+- Chapter 01 commit: `8ce1a147f3dfc1b07689355cd84658046501ae61`.
+- Remaining: verify all seven references and proofread both language versions line by line; the targeted glossary fix is not a full chapter sign-off.
+
+### Chapter 19 — section-order repair
+- Initial heading-order scan found subsection `19.10.5` (“Why Altitudinal Climate Belts Vary Across Slopes”) incorrectly appended under the `19.18` scientific editorial notes instead of being placed within section `19.10` on climate-related hazards.
+- Moved the complete bilingual subsection and its activity to immediately before section `19.11`. Kept subsection `19.18.1` (“Accounting for Elevation When Comparing Climate Stations”) under the scientific editorial notes, where its methodological role belongs.
+- Chapter 19 commit: `b42317caf89390f1953799d5212ea2d99f1c5e80`.
+- No scientific claims or numerical values were changed in this structural repair.
+
+### Initial inventory metrics
+- All 26 chapter files were fetched from `workspace/geography`; chapter sizes range from approximately 41,000 to 108,000 characters. Each contains substantial Russian and English text. This is an inventory metric only, not a parity score.
+- All 26 chapters have a reference section or selected references block; the exact heading names vary and must be normalised during the detailed review. Presence of URLs is not proof that a URL resolves or supports the adjacent claim.
+- Chapter 01 has 3 visual IDs; Chapters 02–06 have 4 each; later chapters have the counts shown in the visual register. Chapter 26 repeats production IDs in the teaching text and production brief by design, so raw marker occurrences are not unique asset counts.
+- Static heading checks found no duplicate heading strings in the first 20 chapters sampled. Chapter 19 had the ordering issue recorded above; its correction is committed. Remaining chapter ordering and bilingual parity checks continue.
+
+**Current scope:** baseline and standards corrected; targeted fixes made in Chapters 01 and 19. Full source-by-source scientific review, line-by-line RU/EN comparison, visual approval, browser testing, mobile testing and accessibility verification remain open.
