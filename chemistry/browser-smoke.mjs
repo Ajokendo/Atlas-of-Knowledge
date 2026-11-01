@@ -1526,6 +1526,8 @@ try {
     }
 
     if (file === "chapters/amount-of-substance.html") {
+      await page.locator("#substance").selectOption("18.015");
+      await page.locator("#mass").fill("36.03");
       const defaultMoles = Number((await page.locator("#moles").innerText()).replace(",", ".").match(/[\d.,]+/)?.[0]);
       if (!Number.isFinite(defaultMoles) || Math.abs(defaultMoles - 2) > 1e-9) {
         errors.push(file + ": 36.03 g of water at 18.015 g/mol must give 2 mol");
@@ -1569,6 +1571,8 @@ try {
     }
 
     if (file === "chapters/solutions.html") {
+      await page.locator("#n").fill("0.5");
+      await page.locator("#v").fill("1");
       const defaultConcentration = Number((await page.locator("#result").innerText()).replace(",", ".").match(/[\d.,]+/)?.[0]);
       if (!Number.isFinite(defaultConcentration) || Math.abs(defaultConcentration - 0.5) > 1e-9) {
         errors.push(file + ": 0.5 mol in 1 L must give 0.5 mol/L");
