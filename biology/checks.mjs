@@ -377,6 +377,25 @@ if (!imageScientificReview.includes("Panthera uncia") || !imageScientificReview.
 if (!imageScientificReview.includes("country-level presence is not") && !imageScientificReview.includes("country-level presence")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must prohibit unsupported oblast/locality inference");
 if (!imageInsertionMap.includes("Fritillaria eduardii") || !imageInsertionMap.includes("синоним") || !imageInsertionMap.includes("вытаптывание")) errors.push("IMAGE_INSERTION_MAP.md must carry the corrected, conservation-safe Aygul illustration brief");
 
+
+// Seven-oblast species-evidence audit: enforce coverage and conservative interpretation.
+const regionalSpeciesAudit = fs.readFileSync(path.join(root, "KYRGYZSTAN_SPECIES_AUDIT.md"), "utf8");
+const requiredOblasts = ["Jalal-Abad", "Issyk-Kul", "Naryn", "Osh", "Batken", "Talas", "Chuy"];
+for (const oblast of requiredOblasts) {
+  if (!regionalSpeciesAudit.includes("| " + oblast + " |")) errors.push("KYRGYZSTAN_SPECIES_AUDIT.md is missing the " + oblast + " oblast row");
+}
+if (!regionalSpeciesAudit.includes("not a national checklist") || !regionalSpeciesAudit.includes("does **not** certify every regional occurrence claim")) errors.push("Regional species audit must state its scope and avoid claiming a verified national checklist");
+if (!regionalSpeciesAudit.includes("national checklist") || !regionalSpeciesAudit.includes("population estimate") || !regionalSpeciesAudit.includes("camera-trap")) errors.push("Regional species audit must distinguish evidence scope, abundance estimates and detection methods");
+if (!regionalSpeciesAudit.includes("Red Data Book") || !regionalSpeciesAudit.includes("IUCN")) errors.push("Regional species audit must keep national and IUCN conservation systems distinct");
+if (!regionalSpeciesAudit.includes("GBIF") || !regionalSpeciesAudit.includes("Occurrence data quality requirements")) errors.push("Regional species audit must retain authoritative occurrence-data methodology links");
+for (const [label, html] of [["flora", floraKyrgyzstanAuditFile], ["fauna", faunaKyrgyzstanAuditFile]]) {
+  const oblastHeadings = [...html.matchAll(/<h[23]\\b[^>]*>([\\s\\S]*?)<\\/h[23]>/gi)].map(m => m[1]);
+  const expected = ["Jalal-Abad", "Issyk-Kul", "Naryn", "Osh", "Batken", "Talas", "Chuy"];
+  for (const oblast of expected) {
+    if (!oblastHeadings.some(h => h.includes(oblast))) errors.push(label + " regional chapter is missing the " + oblast + " oblast section heading");
+  }
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
