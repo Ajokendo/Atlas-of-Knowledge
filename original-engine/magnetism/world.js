@@ -65,7 +65,7 @@ export function buildWorld(E) {
   const fieldCurve = (parent, ptsSI, c, s, n = 2, mat = lineMat, opts) => { const w = ptsSI.map(toW(c, s)); const l = curve(parent, w, mat); heads(parent, w, n, opts); return l; };
   // straight grey field lines from a to b, with heads
   const bLine = (parent, a, b, n = 2) => { curve(parent, [a, b]); heads(parent, [a, b], n); };
-  const bArrow = (parent, name = 'Field B') => arrow(parent, 'dark', { r: 0.026, head: 0.15, headR: 0.07, name, tone: 'mid' });
+  const bArrow = (parent, name = 'Магнитное поле B') => arrow(parent, 'dark', { r: 0.026, head: 0.15, headR: 0.07, name, tone: 'mid' });
   const thinGrey = (parent, name) => arrow(parent, 'dark', { r: 0.014, head: 0.1, headR: 0.045, name, tone: 'mid' });
   const inkArrow = (parent, name, r = 0.022) => arrow(parent, 'ink', { r, head: 0.13, headR: 0.06, name });
   const redArrow = (parent, name) => arrow(parent, 'red', { r: 0.026, head: 0.15, headR: 0.07, name });
@@ -139,7 +139,7 @@ export function buildWorld(E) {
   const gR = asm('rhr', root, { title: 'Движение зарядов в поле B', sub: 'F = qv × B' });
   const rq = [{ q: M.QE, at: V(cR.x - 1.5, cR.y, 0) }, { q: -M.QE, at: V(cR.x + 1.5, cR.y, 0) }].map(o => {
     const m = charge(gR, o.q > 0 ? 1 : -1); m.position.copy(o.at);
-    return { ...o, v: inkArrow(gR, 'Velocity v'), F: redArrow(gR, 'Force F'), B: bArrow(gR), par: thinGrey(gR, 'Parts of v'), perp: thinGrey(gR, 'Parts of v') };
+    return { ...o, v: inkArrow(gR, 'Скорость v'), F: redArrow(gR, 'Сила F'), B: bArrow(gR), par: thinGrey(gR, 'Составляющие скорости v'), perp: thinGrey(gR, 'Составляющие скорости v') };
   });
   rq.forEach(o => {
     label('vec', '<b>v</b>', () => tip(o.v)); label('vec red', '<b>F</b>', () => tip(o.F));
@@ -164,7 +164,7 @@ export function buildWorld(E) {
     const ring = Array.from({ length: 97 }, (_, k) => { const a = k / 96 * 2 * Math.PI; return V(cC.x + r * DP * Math.sin(a), cC.y, startC.z - r * DP + r * DP * Math.cos(a)); });
     curve(root, ring, trailMat);
     const m = charge(gC, 1, 0.13);
-    return { m, v: inkArrow(gC, 'Velocity v'), F: redArrow(gC, 'Force F'), rad: thinGrey(gC, 'Radius r'), centre: V(cC.x, cC.y, startC.z - r * DP) };
+    return { m, v: inkArrow(gC, 'Скорость v'), F: redArrow(gC, 'Сила F'), rad: thinGrey(gC, 'Radius r'), centre: V(cC.x, cC.y, startC.z - r * DP) };
   });
   cyc.forEach((o, i) => { label('vec', '<b>v</b>', () => tip(o.v)); label('vec red', '<b>F</b>', () => ex(gC) > 0.3 ? tip(o.F) : null);
     label('vec grey', `r<sub>${i + 1}</sub>`, () => ex(gC) > 0.3 ? o.centre.clone().lerp(o.m.position, 0.5).add(V(0, 0.25, 0)) : null); });
@@ -198,7 +198,7 @@ export function buildWorld(E) {
     curve(root, w, trailMat);
     s.end = w[w.length - 1];
   });
-  const selQ = selPaths.map(() => ({ m: charge(gS, 1, 0.13), FE: inkArrow(gS, 'Electric force qE'), FB: inkArrow(gS, 'Magnetic force qv × B'), net: redArrow(gS, 'Net force') }));
+  const selQ = selPaths.map(() => ({ m: charge(gS, 1, 0.13), FE: inkArrow(gS, 'Электрическая сила qE'), FB: inkArrow(gS, 'Магнитная сила qv × B'), net: redArrow(gS, 'Равнодействующая сила') }));
   ['0.8 <i>E/B</i>', '<i>E/B</i>', '1.25 <i>E/B</i>'].forEach((t, i) => label('tick', t, () => selPaths[i].end.clone().add(V(1.15, 0, 0))));
   label('vec', 'q<b>E</b>', () => ex(gS) > 0.3 ? tip(selQ[0].FE) : null);
   label('vec', 'q<b>v</b>×<b>B</b>', () => ex(gS) > 0.3 ? tip(selQ[0].FB) : null);
