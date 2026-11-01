@@ -701,15 +701,15 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. United Nations Statistics Division. **International Standard Industrial Classification of All Economic Activities (ISIC), Rev. 4**.
-2. United Nations. **System of National Accounts 2008 (SNA 2008)**.
-3. World Bank. **World Development Indicators** — международные экономические и социальные ряды данных.
-4. International Monetary Fund. **World Economic Outlook Database** — макроэкономические показатели и прогнозы.
-5. International Labour Organization. **ILOSTAT** — статистика труда и занятости.
-6. Food and Agriculture Organization of the United Nations. **FAOSTAT** — данные по сельскому хозяйству, продовольствию и землепользованию.
-7. International Energy Agency. **World Energy Outlook** и тематические энергетические базы данных.
-8. UN Trade and Development (UNCTAD). **UNCTADstat** — торговля, инвестиции и развитие.
-9. OECD. **Regional Statistics and Regional Development Policy** — методики и материалы по региональному развитию.
+1. United Nations Statistics Division. **International Standard Industrial Classification of All Economic Activities (ISIC), Rev. 4** (2008). https://digitallibrary.un.org/record/641645
+2. United Nations. **System of National Accounts 2008 (SNA 2008)**. https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf
+3. World Bank. **World Development Indicators** — international economic and social data series. https://databank.worldbank.org/source/world-development-indicators
+4. International Monetary Fund. **World Economic Outlook Database** — macroeconomic indicators and forecasts. https://www.imf.org/en/Publications/WEO/weo-database
+5. International Labour Organization. **ILOSTAT** — labour and employment statistics. https://ilostat.ilo.org/data/
+6. Food and Agriculture Organization of the United Nations. **FAOSTAT** — agriculture, food and land-use data. https://www.fao.org/faostat/en/#data
+7. International Energy Agency. **World Energy Outlook** and energy datasets. https://www.iea.org/reports/world-energy-outlook-2025
+8. UN Trade and Development (UNCTAD). **UNCTADstat** — trade, investment and development data. https://unctadstat.unctad.org/
+9. OECD. **Regional Statistics and Regional Development Policy** — regional development data and methods. https://www.oecd.org/en/data/datasets/oecd-regional-statistics.html
 10. Coe, N. M., Kelly, P. F., Yeung, H. W. C. **Economic Geography: A Contemporary Introduction**. Wiley.
 
 ---
