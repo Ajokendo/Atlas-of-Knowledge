@@ -67,6 +67,8 @@ P = ET + Q + \Delta S
 
 ## 20.3. Ледники Кыргызстана / Glaciers of Kyrgyzstan
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 20-A / IMAGE PLACEHOLDER 20-A]** Карта современных ледников Кыргызстана по датированной инвентаризации с раздельным отображением ледниковых районов и границ бассейнов; указать порог учёта и метод.
+
 ### 20.3.1. Формирование и строение ледников
 
 Ледник — многолетняя масса льда, образующаяся там, где накопление снега за длительный период компенсирует или превышает потери от таяния, испарения и механического выноса. Снег постепенно уплотняется, превращается в фирн, а затем в ледниковый лёд.
@@ -124,6 +126,8 @@ P = ET + Q + \Delta S
 Важно различать краткосрочный эффект усиленного таяния и долгосрочную устойчивость водоснабжения. На ранних стадиях ускоренного таяния сток некоторых рек может увеличиваться, но по мере истощения ледникового запаса вклад ледников в сухие сезоны может уменьшаться.
 
 ## 20.4. Реки и речные бассейны Кыргызстана / Rivers and River Basins of Kyrgyzstan
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 20-B / IMAGE PLACEHOLDER 20-B]** Гидрографическая карта основных речных бассейнов и направлений трансграничного стока; показать водоразделы, крупные реки и страны-соседи.
 
 ### 20.4.1. Речная сеть
 
@@ -246,6 +250,8 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 ## 20.6. Озёра Кыргызстана / Lakes of Kyrgyzstan
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 20-C / IMAGE PLACEHOLDER 20-C]** Сравнительная карта и инфографика основных озёр: происхождение, высота, площадь и глубина с датой и источником морфометрии.
+
 В Кыргызстане представлены озёра тектонического, ледникового, завального, карстового и смешанного происхождения. Они различаются по глубине, минерализации, площади, высоте расположения и степени связи с речной сетью.
 
 ### 20.6.1. Иссык-Куль
@@ -311,6 +317,8 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 ## 20.8. Водохранилища и ирригационные системы / Reservoirs and Irrigation Systems
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 20-D / IMAGE PLACEHOLDER 20-D]** Схема Нарынского каскада ГЭС и основных водохранилищ с направлениями стока и ирригационными системами; различать проектные и фактические параметры.
+
 Водохранилища регулируют сезонный сток, обеспечивают орошение, водоснабжение и выработку электроэнергии. Они изменяют естественный гидрограф реки, задерживают наносы, влияют на температуру воды и экологические условия ниже плотины.
 
 ### 20.8.1. Токтогульское водохранилище
@@ -345,6 +353,8 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 Потери при транспортировке и распределении воды могут быть значительными. Их сокращение требует ремонта каналов, точного учёта, модернизации затворов, планирования графиков подачи и внедрения водосберегающих технологий. Однако эффективность нельзя оценивать только по сокращению фильтрации: часть инфильтрационной воды может пополнять подземные горизонты и возвращаться в речную систему.
 
 ## 20.9. Трансграничные водные системы / Transboundary Water Systems
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 20-E / IMAGE PLACEHOLDER 20-E]** Схема трансграничного водного управления Чу–Талас и Нарын–Сырдарья с обозначением верховых и низовых пользователей, сезонности и инфраструктуры.
 
 Реки Кыргызстана связаны с водными системами Казахстана, Узбекистана, Таджикистана и Китая. Вода пересекает государственные границы, поэтому её использование требует сотрудничества по вопросам:
 - распределения и сезонного графика стока;
@@ -479,6 +489,8 @@ To compare two hypothetical operating regimes, prepare a table using four criter
 Оценка качества воды должна проводиться по репрезентативной сети пунктов и в разные сезоны. Разовый анализ не характеризует весь водный объект.
 
 ## 20.11. Ледниковые озёра, паводки и селевые риски / Glacial Lakes, Floods and Debris-Flow Hazards
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 20-F / IMAGE PLACEHOLDER 20-F]** Схема риска прорыва ледникового озера: тип плотины, возможный путь волны, зона затопления, населённые пункты и инфраструктура ниже по течению; не выдавать учебную модель за оперативную карту.
 
 Отступание ледников и перестройка морен могут приводить к появлению новых озёр или изменению уже существующих. Некоторые озёра удерживаются ледниковым льдом, другие — моренными валами или скальными порогами. При разрушении естественной плотины вода может быстро устремиться вниз по долине.
 
@@ -783,6 +795,24 @@ Priorities include modernising irrigation canals and water accounting; reducing 
 
 ## 20.14. Практические работы / Practical Activities
 
+### English Practical Activities
+
+**1. River-basin map.** Prepare a map of the main river basins of Kyrgyzstan. Distinguish the Syr Darya, Chu, Talas, Ili–Balkhash, Tarim and internal Issyk-Kul systems. State the source of basin boundaries and the classification level used.
+
+**2. River hydrograph.** Obtain a multi-year monthly discharge series for a selected river. Plot the hydrograph, identify seasonal high and low flows and propose explanations using precipitation, snowmelt, glacier melt and reservoir operations. Separate hypotheses from confirmed causes.
+
+**3. Catchment water balance.** Use precipitation, evapotranspiration, runoff and storage-change data to calculate a simplified water balance. Check units and period consistency and identify missing terms.
+
+**4. Comparing lakes.** Compare Issyk-Kul, Son-Kul, Chatyr-Kul and Sary-Chelek by origin, elevation, area, depth, salinity, inflows/outflows and conservation value. State the source and date for morphometric data.
+
+**5. Glacier change.** Compare glacier outlines from two dated inventories or satellite images. Use consistent mapping thresholds and distinguish area change from changes in glacier number. Explain the limitations of the comparison.
+
+**6. Glacial-lake risk.** Select a glacial lake using satellite imagery. Identify the information required to assess dam stability, possible flow paths, downstream exposure and vulnerability. Do not approach hazardous terrain or present a single image as a risk assessment.
+
+**7. Water use in a basin.** Map settlements, irrigation infrastructure, reservoirs, water intakes and protected ecosystems in a selected basin. Identify possible competing demands and propose measures that consider environmental flows and downstream users.
+
+
+
 ### Практическая работа 1. Карта речных бассейнов
 
 На контурной карте обозначьте основные бассейны Кыргызстана: Сырдарьи, Чу, Таласа, Или, Тарима и Иссык-Куля. Нанесите главные водоразделы, реки и направления трансграничного стока. Отметьте, какие бассейны являются бессточными внутри страны.
@@ -837,6 +867,28 @@ Priorities include modernising irrigation canals and water accounting; reducing 
 | Водная безопасность | Water security | Надёжный доступ к воде и защита от водных рисков / Reliable access to water and protection from water-related risks |
 
 ## 20.16. Контрольные вопросы / Review Questions
+
+### English Review Questions
+
+1. Why is Kyrgyzstan considered an important headwater region of Central Asia?
+2. How do water storage and annual river runoff differ?
+3. What are accumulation, ablation and glacier mass balance?
+4. Why can glacier melt temporarily increase runoff but reduce long-term water security?
+5. Which major transboundary river-basin systems originate or pass through Kyrgyzstan?
+6. How does the Naryn contribute to the Syr Darya system?
+7. Which sources of water feed mountain rivers?
+8. How does a seasonal hydrograph differ between snow-fed and glacier-influenced rivers?
+9. What are the main differences between Issyk-Kul, Son-Kul, Chatyr-Kul and Sary-Chelek?
+10. Why does groundwater require laboratory testing before drinking use?
+11. How do reservoirs change natural river regimes?
+12. Why is irrigation the largest water-use sector in Kyrgyzstan?
+13. Which issues require cooperation in transboundary basins?
+14. What indicators are used to assess water quality?
+15. Which factors influence the risk of a glacial lake outburst flood?
+16. How can climate change alter the seasonal distribution of river flow?
+17. What is an environmental flow, and why should it be considered in water allocation?
+
+
 
 1. Почему Кыргызстан имеет важное значение для водного баланса Центральной Азии?
 2. Чем водные запасы отличаются от возобновляемых водных ресурсов?
@@ -900,6 +952,14 @@ Annual water availability does not show whether enough water is available in a p
 **Activity.** Prepare a hypothetical monthly water balance for a small water-management area. Identify months when demand exceeds available supply and propose measures such as storage, loss reduction, irrigation scheduling or demand management. Explain which measures require environmental and social assessment.
 
 ## 20.19. Итоги главы / Chapter Summary
+
+### English Chapter Summary
+
+Kyrgyzstan's water system is shaped by its high-mountain relief, snow and glaciers, river basins, lakes, groundwater and reservoirs. Snow and glacier melt contribute to the seasonal flow of many rivers, while the country's major drainage systems connect it with neighbouring states and wider Central Asian basins.
+
+Water resources must be understood through both storage and flow, and through their seasonal variability. Reservoirs and irrigation infrastructure support energy and agriculture but also modify natural river regimes. Water quality, glacial-lake hazards, climate change and transboundary cooperation are central to long-term water security.
+
+
 
 Водная система Кыргызстана формируется под влиянием высокогорного рельефа, атмосферных осадков, сезонного снега, ледников, подземных вод и озёр. Реки страны относятся к нескольким крупным бассейнам Центральной Азии и имеют большое значение для водоснабжения, орошения и энергетики как внутри страны, так и за её пределами.
 
