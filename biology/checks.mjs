@@ -231,6 +231,17 @@ if (!botanyFile.includes("32-2-pollination-and-fertilization") || !botanyFile.in
 if (!botanyFile.includes("устьица часто закрываются") || !botanyFile.includes("stomata often close")) {
   errors.push("chapters/botany.html: water-stress explanation must connect stomatal closure with reduced CO₂ uptake");
 }
+const cellBiologyFile = fs.readFileSync(path.join(root, "chapters", "cell-biology.html"), "utf8");
+const cellSignalingStart = cellBiologyFile.indexOf('id="cell-signaling-pathways"');
+const cellMembraneStart = cellBiologyFile.indexOf('<section class="detail"><h2 id="detail-title">Клеточная мембрана</h2>');
+const cellSignalingBlock = cellBiologyFile.slice(cellSignalingStart, cellMembraneStart);
+if (cellSignalingStart < 0 || cellMembraneStart <= cellSignalingStart) errors.push("chapters/cell-biology.html: cell-signalling lesson must precede the membrane detail");
+for (const phrase of ["contact-dependent", "paracrine", "endocrine", "synaptic", "receptor", "second messengers", "feedback", "cross-talk"]) {
+  if (!cellSignalingBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/cell-biology.html: cell-signalling lesson missing pathway concept: " + phrase);
+}
+if (!/<span class="ru">/.test(cellSignalingBlock) || !/<span class="en">/.test(cellSignalingBlock)) errors.push("chapters/cell-biology.html: cell-signalling lesson must be bilingual");
+if (!cellSignalingBlock.includes('role="img"') || !cellSignalingBlock.includes('aria-labelledby="cell-signal-svg-title cell-signal-svg-desc"') || !cellSignalingBlock.includes("<title") || !cellSignalingBlock.includes("<desc")) errors.push("chapters/cell-biology.html: signalling diagram must have accessible SVG title and description");
+
 const geneticsFile = fs.readFileSync(path.join(root, "chapters", "genetics.html"), "utf8");
 if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.includes("updateDynamic();updateMutation()")) {
   errors.push("chapters/genetics.html: mutation model must preserve and translate selection on language switch");
