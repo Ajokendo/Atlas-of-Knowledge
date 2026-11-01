@@ -290,7 +290,13 @@ if (!faunaKyrgyzstanFile.includes("Список OSME v10.1") ||
 if (!faunaKyrgyzstanFile.includes("This disagreement reflects different taxonomic concepts") ||
     !faunaKyrgyzstanFile.includes("fishcatget.asp?spid=53209") ||
     !faunaKyrgyzstanFile.includes("T. stoliczkae") ||
-    !faunaKyrgyzstanFile.includes("T. stolickai")) {
+    !faunaKyrgyzstanFile.includes("T. stolickai") ||
+    !faunaKyrgyzstanFile.includes("Gymnodiptychus dybowskii") ||
+    !faunaKyrgyzstanFile.includes("Diptychus dybowskii micromakulatus") ||
+    !faunaKyrgyzstanFile.includes("fishcatget.asp?spid=55960") ||
+    !faunaKyrgyzstanFile.includes("search_value=689192") ||
+    faunaKyrgyzstanFile.includes("опубликованное в 2023 году исследование") ||
+    faunaKyrgyzstanFile.includes("published in 2023; its abstract")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul Triplophysa determination must retain the IUCN/Catalogue taxonomic-concept conflict");
 }
 if (!faunaKyrgyzstanFile.includes("2004–2005 годов") || !faunaKyrgyzstanFile.includes("описан как озеро без рыб") || !faunaKyrgyzstanFile.includes("described as fishless")) {
@@ -521,6 +527,8 @@ if (!imageScientificReview.includes("does not publish the full taxon list") ||
     !imageScientificReview.includes("Triplophysa stoliczkae") ||
     !imageScientificReview.includes("unpublished 14-taxon Kempir-Abad list") ||
     !imageScientificReview.includes("not as an additional species") ||
+    !imageScientificReview.includes("Gymnodiptychus dybowskii") ||
+    !imageScientificReview.includes("D. dybowskii micromakulatus") ||
     !imageScientificReview.includes("Diptychus gymnogaster") ||
     !imageScientificReview.includes("Diptychus maculatus")) {
   errors.push("IMAGE_SCIENTIFIC_REVIEW.md: freshwater illustration constraints must not invent or prematurely label new fish records or duplicate synonym taxa");
@@ -531,6 +539,8 @@ if (!imageScientificReview.includes("does not publish the full taxon list") ||
 const regionalSpeciesAudit = fs.readFileSync(path.join(root, "KYRGYZSTAN_SPECIES_AUDIT.md"), "utf8");
 if (!regionalSpeciesAudit.includes("Son-Kul fish survey (sampling in 2020, 2021 and 2023; published 2023)") ||
     !regionalSpeciesAudit.includes("abstract/methods date discrepancy") ||
+    !regionalSpeciesAudit.includes("Gymnodiptychus dybowskii") ||
+    !regionalSpeciesAudit.includes("D. dybowskii micromakulatus") ||
     !regionalSpeciesAudit.includes("voucher/genetic review")) {
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Son-Kul fish survey must retain its sampling-date discrepancy and taxonomic evidence limits");
 }
