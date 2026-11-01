@@ -700,9 +700,9 @@ On a standard topographic map, contour lines normally do not cross; overhanging 
 
 A **digital elevation model (DEM)** is a gridded representation of elevation. Some products represent bare-earth terrain, while other elevation grids represent the top surface, including vegetation, buildings or ice. A **digital surface model (DSM)** generally represents the tops of features and vegetation, while a **digital terrain model (DTM)** generally aims to represent bare ground. Terminology varies between agencies and software, so users must check the dataset definition and metadata rather than infer what is represented from the acronym alone. For example, NOAA's global ETOPO 2022 model integrates land topography and ocean bathymetry at 15-arc-second grid spacing; for Greenland and Antarctica, it provides versions representing either the ice-sheet surface or the bedrock beneath the ice. This spacing is roughly 460 m north–south at the equator; the model is suitable for global and regional overviews, not detailed site-scale engineering analysis.
 
-DEMs can be used to calculate slope, aspect, catchments, watersheds, earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, horizontal and vertical reference systems, data source, acquisition date, processing method and whether vegetation or buildings are included. A finer grid cell does not automatically mean greater accuracy: resolution must be appropriate to the source-data density and quality.
+DEMs can be used to calculate slope, aspect, flow direction, drainage networks, catchments (drainage basins), earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, horizontal and vertical reference systems, data source, acquisition date, processing method and whether vegetation or buildings are included. A finer grid cell does not automatically mean greater accuracy: resolution must be appropriate to the source-data density and quality.
 
-**[ILLUSTRATION PLACEHOLDER 4.14-A]** Show a topographic map with contours, spot heights, watershed, valley and a relief profile; include legend, scale and contour interval.
+**[ILLUSTRATION PLACEHOLDER 4.14-A]** Show a topographic map with contours, spot heights, drainage divide, valley and a relief profile; include legend, scale and contour interval.
 
 **[ILLUSTRATION PLACEHOLDER 4.14-B]** Compare a bare-earth terrain model, a surface model including vegetation/buildings, an ice-sheet surface and bedrock beneath ice; show grid cells and essential metadata (resolution, vertical accuracy, vertical datum and acquisition date).
 
@@ -776,7 +776,7 @@ Human activity also changes relief. Quarries, embankments, dams, slope terraces,
 
 Using a prepared teaching map excerpt:
 - determine the elevation of several points;
-- identify a watershed and a river valley;
+- identify a drainage divide and a river valley;
 - estimate the steepness of two slopes;
 - draw a profile line and construct a cross-section, stating the horizontal and vertical scales; if they differ, label the vertical exaggeration. Its factor is the denominator of the horizontal scale divided by the denominator of the vertical scale (for example, 1:25,000 horizontally and 1:5,000 vertically give a 5× exaggeration); and
 - identify areas with potentially higher erosion or slope susceptibility. Do not call this a risk map without additional data on geology, rainfall, vegetation, land use, people and exposed assets.
