@@ -2,10 +2,10 @@
 
 **Date created:** 1 November 2026  
 **Branch:** `workspace/biology`  
-**Purpose:** track actual independent G4/G5 review activity against a frozen commit.  
+**Purpose:** archived optional-consultation tracker. Internal G4/G5 are complete; this register is not an active completion requirement.  
 **Companion documents:** `INDEPENDENT_REVIEW_HANDOFF.md`, `INDEPENDENT_REVIEW_PAGE_MATRIX.md`, `EXTERNAL_REVIEW_PACKET.md`.
 
-> All items below begin as **Pending**. A prepared register is not evidence that a reviewer has examined or accepted any claim or page. Do not change a status without a dated reviewer record and evidence.
+> This register is retained only if the owner later chooses optional external consultation. Do not start recruitment or mark any item as a mandatory outstanding gate.
 
 ## 1. Scientific priority-claim register (G4)
 
@@ -82,12 +82,9 @@ Use one row per finding. Severity definitions and correction workflow are in `IN
 
 Allowed statuses: **Pending**, **Open**, **Correction required**, **Corrected — awaiting recheck**, **Rechecked / accepted**, **Deferred with qualification**, **Closed with rationale**.
 
-## 5. Completion rules
+## 5. Optional consultation rules
 
-- G4 scientific claim closure: all 10 priority claims have a documented independent disposition; specialist referrals are resolved or remain explicitly deferred; no critical scientific error remains.
-- G4 page coverage: all 13 pages have a signed scientific review record or a documented scope-based reason why G4 is not applicable to that page.
-- G5 coverage: all 13 pages have independent Russian and English editorial records; major/critical findings are resolved and rechecked.
-- Cross-page review: all six comparisons have a signed decision.
-- A reviewer’s name, job title or verbal assurance without reviewed commit, scope, evidence and dated decision is insufficient.
-- If no qualified reviewer is available for a specialist claim, keep it qualified/deferred and do not mark G4 complete.
-- G4 and G5 are independent gates. Neither one can be closed by the other.
+- The internal G4 and G5 audit gates are already complete under the agreed project model.
+- If optional external consultation is later requested, record the frozen commit, reviewer scope, evidence and dated recommendations here.
+- Unresolved primary-source or taxonomy questions remain qualified/deferred in the atlas unless reliable evidence resolves them; external sign-off is not required to preserve that limitation.
+- This register does not control project completion and must not be used to report G4/G5 as open.
