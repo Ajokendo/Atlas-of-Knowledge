@@ -182,7 +182,7 @@
 - зандровые равнины;
 - валуны-эрратики.
 
-Морены состоят из несортированного материала, перенесённого и отложенного ледником; они могут образовывать боковые, конечные, срединные и донные гряды или покровы. **Друмлины** — вытянутые сглаженные холмы из ледниковых отложений, часто ориентированные по направлению движения льда. **Озы** — извилистые гряды песка и гравия, отложенные потоками талой воды внутри или под ледником. **Камы** — холмы слоистых песков и гравия, накопленных талыми водами у края или внутри ледника. **Зандровые равнины** формируются перед ледником из осадков талых вод. **Эратические валуны** — крупные обломки, перенесённые ледником далеко от места их происхождения. Эти формы помогают реконструировать положение и динамику древних ледников.
+Морены обычно состоят из несортированного материала, перенесённого и отложенного ледником; они могут образовывать боковые, конечные, срединные и донные гряды или покровы. **Друмлины** — вытянутые сглаженные холмы из ледниковых отложений, часто ориентированные по направлению движения льда. **Озы** — извилистые гряды песка и гравия, отложенные потоками талой воды внутри или под ледником. **Камы** — холмы слоистых песков и гравия, накопленных талыми водами у края или внутри ледника. **Зандровые равнины** формируются перед ледником из осадков талых вод. **Эратические валуны** — крупные обломки, перенесённые ледником далеко от места их происхождения. Эти формы помогают реконструировать положение и динамику древних ледников.
 
 **Место для иллюстрации 4.7-A — Glacial Landforms.** Сравнение каров, троговой долины, моренных валов, оза и друмлина.
 
@@ -255,7 +255,7 @@
 Главные элементы дна океана:
 - **континентальный шельф** — относительно мелководная затопленная окраина материка;
 - **континентальный склон** — более крутой переход от шельфа к глубоководному дну;
-- **континентальное подножие** — область накопления осадков у основания склона;
+- **континентальное подножие** — область накопления осадков у основания склона (там, где оно развито);
 - **абиссальные равнины** — обширные глубоководные участки с небольшими уклонами;
 - **срединно-океанические хребты** — протяжённые подводные горные системы, связанные с образованием новой океанической коры;
 - **глубоководные желоба** — узкие глубокие впадины, часто связанные с субдукцией;
@@ -331,7 +331,7 @@
 Рельеф Земли включает как высочайшие горные вершины, так и глубокие океанические впадины. При сравнении экстремумов необходимо уточнять метод измерения и систему высот или глубин.
 
 - **Эверест** — высочайшая вершина Земли над средним уровнем моря; совместно объявленная Китаем и Непалом высота снежной поверхности составляет 8 848,86 м по Международной системе высот (измерение 2020 года).
-- **Челленджер-Дип в Марианской впадине** — наиболее глубокий известный участок океана; исследование 2021 года сообщило оценку глубины около 10 935 м (±6 м относительно среднего уровня моря). Значения зависят от точной точки и метода измерения.
+- **Челленджер-Дип в Марианской впадине** — наиболее глубокий известный участок океана; исследование 2021 года сообщило оценку глубины около 10 935 м (±6 м; 95%-й доверительный интервал, относительно среднего уровня моря). Значения зависят от точной точки и метода измерения.
 - **Побережье Мёртвого моря** включает одни из наиболее низко расположенных участков открытой суши; их высота меняется вместе с уровнем озера.
 - **Тибетское нагорье** — крупнейшая и одна из наиболее высоких обширных возвышенных областей планеты.
 
@@ -569,7 +569,7 @@ Glaciers move under gravity and transform the surface by erosion, transport and 
 #### 4.7.2. Depositional Landforms
 
 
-**Depositional landforms** include moraines, drumlins, eskers, kames, outwash plains and erratic boulders. Moraines consist of unsorted material transported and deposited by ice; they may form lateral, terminal, medial or ground accumulations. **Drumlins** are elongated, streamlined hills of glacial sediment, commonly aligned with ice flow. **Eskers** are winding ridges of sand and gravel deposited by meltwater streams within or beneath a glacier. **Kames** are mounds of layered sand and gravel deposited by meltwater at or within the ice margin. **Outwash plains** form in front of glaciers from sediment carried by meltwater. **Erratic boulders** are large rocks transported far from their source by moving ice. These landforms help reconstruct former glacier extent and dynamics.
+**Depositional landforms** include moraines, drumlins, eskers, kames, outwash plains and erratic boulders. Moraines commonly consist of unsorted material transported and deposited by ice; they may form lateral, terminal, medial or ground accumulations. **Drumlins** are elongated, streamlined hills of glacial sediment, commonly aligned with ice flow. **Eskers** are winding ridges of sand and gravel deposited by meltwater streams within or beneath a glacier. **Kames** are mounds of layered sand and gravel deposited by meltwater at or within the ice margin. **Outwash plains** form in front of glaciers from sediment carried by meltwater. **Erratic boulders** are large rocks transported far from their source by moving ice. These landforms help reconstruct former glacier extent and dynamics.
 
 **[ILLUSTRATION PLACEHOLDER 4.7-A]** Show a cirque, U-shaped and hanging valleys, arête, horn, moraine, esker and outwash plain; distinguish erosional and depositional forms.
 
@@ -610,7 +610,7 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 #### 4.10.3. Submarine Relief
 
 
-Major submarine features include the **continental shelf**, a relatively shallow submerged margin of a continent; the **continental slope**, a steeper descent towards the deep ocean; the **continental rise**, a sediment accumulation zone near the base of the slope; **abyssal plains**, extensive deep-ocean areas with low gradients; **mid-ocean ridges**, long submarine mountain systems associated with the formation of new oceanic crust; **deep-sea trenches**, narrow deep depressions often associated with subduction; seamounts and volcanic plateaus.
+Major submarine features include the **continental shelf**, a relatively shallow submerged margin of a continent; the **continental slope**, a steeper descent towards the deep ocean; the **continental rise**, a sediment accumulation zone near the base of the slope (where present); **abyssal plains**, extensive deep-ocean areas with low gradients; **mid-ocean ridges**, long submarine mountain systems associated with the formation of new oceanic crust; **deep-sea trenches**, narrow deep depressions often associated with subduction; seamounts and volcanic plateaus.
 
 **[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated coastal and ocean-basin profiles with erosional/depositional coasts, shelf, slope, rise, abyssal plain, ridge and trench.
 
@@ -664,7 +664,7 @@ Climate influences the intensity of different weathering types, but rock composi
 Earth's relief includes both the highest mountain peaks and the deepest ocean trenches. Comparisons of extremes must specify the measurement method and the vertical or depth reference system.
 
 - **Mount Everest** is Earth's highest summit above mean sea level; its jointly announced snow-surface elevation is 8,848.86 m in the International Height Reference System (2020 measurement).
-- **Challenger Deep in the Mariana Trench** is the deepest known part of the ocean; a 2021 study reported a depth of about 10,935 m (±6 m relative to mean sea level). Values depend on the precise location and measurement method.
+- **Challenger Deep in the Mariana Trench** is the deepest known part of the ocean; a 2021 study reported a depth of about 10,935 m (±6 m; 95% confidence interval, relative to mean sea level). Values depend on the precise location and measurement method.
 - The **shores of the Dead Sea** include some of the lowest exposed land areas; their elevation changes as the lake level changes.
 - **The Tibetan Plateau** is the largest and one of the highest extensive elevated regions on the planet.
 
@@ -780,6 +780,7 @@ Using a prepared teaching map excerpt:
 8. NOAA National Ocean Service. *How Deep Is the Ocean?* https://oceanservice.noaa.gov/facts/oceandepth.html
 9. Greenaway, S. F. et al. (2021). *Revised depth of the Challenger Deep from submersible transects*. Deep-Sea Research Part I, 178, 103644. https://doi.org/10.1016/j.dsr.2021.103644
 10. China and Nepal (2020). *Joint announcement of Mount Qomolangma's snow-surface elevation: 8,848.86 m*. https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/yz_676205/1206_676812/xgxw_676818/202012/t20201208_9301005.shtml
+17. State Council Information Office of China (2020). *8,848.86 meters — China, Nepal jointly announce new height of Mt. Qomolangma*. https://english.scio.gov.cn/in-depth/2020-12/09/content_76993252.htm
 11. U.S. Geological Survey. *Landslide Maps: Where Do Landslides Occur?* https://www.usgs.gov/programs/landslide-hazards/where-do-landslides-occur
 12. U.S. Geological Survey. *27 Ideas for Teaching with Topographic Maps*. https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0
 13. National Geographic Society. *Exploring Topographic Features*. https://education.nationalgeographic.org/resource/exploring-topographic-features/
