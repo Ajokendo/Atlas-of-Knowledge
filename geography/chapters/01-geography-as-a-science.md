@@ -516,10 +516,10 @@ The encyclopaedic section gives particular attention to all seven regions of Kyr
 
 ## 1.14. Источники и литература / References
 
-1. American Association of Geographers (AAG). *What Is Geography?* https://www.aag.org/what-is-geography/
-2. Royal Geographical Society (with IBG). *What is geography?* https://www.rgs.org/
+1. American Association of Geographers (AAG). *What Is Geography?* https://www.aag.org/program/geoweek/
+2. Royal Geographical Society (with IBG). *What is geography?* https://www.rgs.org/about-us/what-is-geography
 3. National Geographic Society. *Geography*. https://education.nationalgeographic.org/resource/geography/
-4. United Nations Statistics Division. *Geospatial Information*. https://unstats.un.org/
+4. United Nations Statistics Division. *Geospatial Information*. https://unstats.un.org/unsd/ggim/index.html
 5. International Cartographic Association (ICA) Working Group. *The Cartographic Body of Knowledge*. https://bok.cartography.no/
 6. Longley, P. A., Goodchild, M. F., Maguire, D. J., Rhind, D. W. *Geographic Information Science and Systems*. Wiley.
 7. National Research Council. *Rediscovering Geography: New Relevance for Science and Society*. National Academies Press, 1997. https://doi.org/10.17226/4913
