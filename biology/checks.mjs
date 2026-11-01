@@ -825,11 +825,11 @@ if (!faunaKyrgyzstanFile.includes("ibnaskr.org/amnh-fish-research-kyrgyzstan-202
 if (!regionalSpeciesAudit.includes("Institute of Biology NAS KR fish research with AMNH (14 October 2026)")) {
   errors.push("Regional species audit must record the current Institute and AMNH fish research");
 }
-if (!regionalSpeciesAudit.includes("Kyrgyzstan amphibian country list (snapshot 30 September 2026)") || !regionalSpeciesAudit.includes("4 resident, 3 unconfirmed")) {
-  errors.push("Regional species audit must retain the dated Kyrgyz amphibian snapshot and distinguish resident from unconfirmed taxa");
+if (!regionalSpeciesAudit.includes("Kyrgyzstan amphibian country list (page snapshot generated 12 October 2026; regional dataset version 1.18 published 26 October 2026)") || !regionalSpeciesAudit.includes("4 resident, 3 unconfirmed") || !regionalSpeciesAudit.includes("33 core taxon records") || !regionalSpeciesAudit.includes("must not be quoted as a Kyrgyzstan species total")) {
+  errors.push("Regional species audit must retain the corrected amphibian snapshot date, five-country dataset scope and country presence categories");
 }
-if (!regionalSpeciesAudit.includes("Green-toad morphology and locality study (Litvinchuk, Svinin & Dujsebayeva, 2021)") || !regionalSpeciesAudit.includes("209 adult males from 14 localities")) {
-  errors.push("Regional species audit must retain the primary 2021 Bufotes locality study and its sampling scope");
+if (!regionalSpeciesAudit.includes("Green-toad morphology and locality study (Litvinchuk, Svinin & Dujsebayeva, 2021; DOI 10.20363/BZB-2021.70.2.361)") || !regionalSpeciesAudit.includes("209 adult males from 14 localities across Kazakhstan and Kyrgyzstan combined") || !regionalSpeciesAudit.includes("six Kyrgyzstan localities and 117 specimens") || !regionalSpeciesAudit.includes("not all in Kyrgyzstan")) {
+  errors.push("Regional species audit must retain the primary 2021 Bufotes paper's two-country sample scope and Kyrgyzstan subset");
 }
 
 if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/sotrudnikami-talasskogo-regionalnogo-upravleniya-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-provedeny-raboty-po-ucyotu-cislennosti-obektov-zivotnogo-mira")) errors.push("Talas multi-site marmot survey must link to its Ministry source");
