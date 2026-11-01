@@ -12,7 +12,7 @@ The Digital Code of the Kyrgyz Republic, dated 31 July 2025, No. 178, contains a
 - **Article 92** defines spatial data in the digital environment and clarifies the relationship between the Digital Code and sectoral geodesy/cartography legislation.
 - **Article 93** establishes principles including digitisation, data quality, access and personal privacy.
 - **Article 94** provides for spatial metadata and requires holders of cartographic and geodetic collections to create and publish metadata in open-data format and submit metadata for inclusion in the national resource.
-- **Article 95** defines the National Spatial Data Resource (Georesource) as a national database of digital spatial data, spatial metadata, processing standards and formats. It assigns responsibility for completeness, reliability and currency to the resource owner.
+- **Article 95** defines the National Spatial Data Resource (Georesource) as a national database of digital spatial data, spatial metadata, processing standards and formats. It assigns responsibility for completeness, reliability and currency to the resource owner. The article also provides for access under a licence agreement and sets conditions for use of derived spatial data, including transfer of derived data and its metadata to the resource owner within one year. Therefore, a statement that access is free must not be paraphrased as unrestricted reuse.
 - **Article 96** describes the geosite as a portal for searching spatial records and metadata and accessing open location data and technical standards.
 - **Articles 97–98** address data-subject rights, processing and interoperability/portability.
 
@@ -27,7 +27,7 @@ The special Law of the Kyrgyz Republic No. 58 of 29 April 2026, “On Geodesy, C
 2. A legal provision establishing the Georesource or geosite does **not** prove that a particular dataset is already published, downloadable, current or validated.
 3. Do not treat all spatial data as open: state-secret restrictions, personal privacy, sensitive infrastructure and sensitive biodiversity locations require separate assessment.
 4. For maps of Kyrgyzstan, record whether the layer is an official national dataset, a third-party operational dataset or a research product. Do not describe third-party geometry as legally authoritative without confirmation.
-5. Before producing a map, verify the actual portal endpoint, dataset metadata, version, licence and any applicable reuse obligations.
+5. Before producing a map, verify the actual portal endpoint, dataset metadata, version, licence and any applicable reuse obligations. In particular, review Article 95's terms for derived data; free access does not necessarily mean unrestricted downstream licensing.
 
 ## Source notes
 
