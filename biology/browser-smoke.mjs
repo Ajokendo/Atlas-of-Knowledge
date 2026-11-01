@@ -17,6 +17,8 @@ const errors = [];
 let languageChecks = 0;
 let contrastSamples = 0;
 let contrastFailures = 0;
+let keyboardElementsChecked = 0;
+let keyboardFocusIndicatorFailures = 0;
 try {
   for (const viewport of [{ width: 390, height: 844 }, { width: 1365, height: 900 }]) {
     const page = await browser.newPage({ viewport });
@@ -214,6 +216,51 @@ try {
         }, firstFocus);
         if (!returnedToFirst) errors.push(file + ": Shift+Tab did not return to the previous control");
       }
+
+      // Walk the complete visible tab sequence and check that keyboard focus is perceptible.
+      await page.evaluate(() => {
+        const selector = "a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])";
+        const visible = [...document.querySelectorAll(selector)].filter(el => {
+          const s = getComputedStyle(el);
+          return s.display !== "none" && s.visibility !== "hidden" && Number(s.opacity) !== 0 &&
+            el.getClientRects().length > 0 && !el.disabled;
+        });
+        visible.forEach((el, index) => el.setAttribute("data-a11y-tab-audit", String(index)));
+        if (document.activeElement && document.activeElement !== document.body) document.activeElement.blur();
+        window.scrollTo(0, 0);
+        return visible.length;
+      });
+      const tabTargetCount = await page.locator("[data-a11y-tab-audit]").count();
+      const visitedTabs = new Set();
+      const invisibleFocus = [];
+      for (let step = 0; step < tabTargetCount + 2 && visitedTabs.size < tabTargetCount; step++) {
+        await page.keyboard.press("Tab");
+        const focused = await page.evaluate(() => {
+          const el = document.activeElement;
+          const id = el?.getAttribute("data-a11y-tab-audit");
+          if (id === null || id === undefined) return null;
+          const s = getComputedStyle(el);
+          const outline = s.outlineStyle !== "none" && Number.parseFloat(s.outlineWidth) > 0;
+          const shadow = s.boxShadow !== "none";
+          const filter = s.filter !== "none";
+          return { id, indicator: outline || shadow || filter,
+            tag: el.tagName.toLowerCase(), label: (el.getAttribute("aria-label") || el.innerText || el.value || "").trim().slice(0, 70) };
+        });
+        if (!focused) break;
+        visitedTabs.add(focused.id);
+        if (!focused.indicator) invisibleFocus.push(focused);
+      }
+      keyboardElementsChecked += visitedTabs.size;
+      keyboardFocusIndicatorFailures += invisibleFocus.length;
+      if (visitedTabs.size !== tabTargetCount) {
+        errors.push(file + ": keyboard Tab reached " + visitedTabs.size + " of " + tabTargetCount + " visible focusable elements");
+      }
+      if (invisibleFocus.length) {
+        errors.push(file + ": " + invisibleFocus.length + " keyboard-focused element(s) lack a detected visible focus indicator: " +
+          JSON.stringify(invisibleFocus.slice(0, 6)));
+      }
+      await page.locator("[data-a11y-tab-audit]").evaluateAll(elements =>
+        elements.forEach(el => el.removeAttribute("data-a11y-tab-audit")));
     }
     await page.close();
   }
@@ -222,4 +269,4 @@ if (errors.length) {
   console.error("Biology browser smoke tests failed:\\n" + errors.map(x => " - " + x).join("\\n"));
   process.exit(1);
 }
-console.log("Biology browser smoke tests passed: " + pages.length + " pages at mobile and desktop widths; " + languageChecks + " language-toggle interactions; no uncaught page errors. Preliminary contrast sampling: " + contrastSamples + " text instances, " + contrastFailures + " below-threshold instances.");
+console.log("Biology browser smoke tests passed: " + pages.length + " pages at mobile and desktop widths; " + languageChecks + " language-toggle interactions; no uncaught page errors. Preliminary contrast sampling: " + contrastSamples + " text instances, " + contrastFailures + " below-threshold instances. Full keyboard traversal: " + keyboardElementsChecked + " elements visited; " + keyboardFocusIndicatorFailures + " focus-indicator issues.");
