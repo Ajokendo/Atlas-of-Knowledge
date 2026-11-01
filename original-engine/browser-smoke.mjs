@@ -29,6 +29,9 @@ async function checkLab(lab, mobile) {
   const page = await context.newPage();
   page.setDefaultTimeout(10000);
   const runtimeErrors = [];
+  page.on('response', response => {
+    if (response.status() >= 400) runtimeErrors.push(`HTTP ${response.status()} ${response.url()}`);
+  });
   page.on('pageerror', error => runtimeErrors.push(error.message));
   page.on('console', message => {
     if (message.type() === 'error') runtimeErrors.push(message.text());
@@ -77,7 +80,7 @@ async function checkLab(lab, mobile) {
         console.log(`AXE ${v.impact} ${lab}: ${v.id} — ${v.help} (${v.nodes.length} nodes)`);
         for (const node of v.nodes) console.log(`AXE NODE ${lab}: ${JSON.stringify({ target: node.target, html: node.html, summary: node.failureSummary })}`);
       }
-      if (critical.length) throw new Error(`axe found ${critical.length} critical accessibility violation(s)`);
+      if (critical.length || serious.length) throw new Error(`axe found ${critical.length} critical and ${serious.length} serious accessibility violation group(s)`);
     }
 
     const before = state.title;
