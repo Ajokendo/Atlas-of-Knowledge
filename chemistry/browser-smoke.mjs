@@ -192,7 +192,7 @@ try {
         const focusedIndex = await page.evaluate(selector => {
           const candidates = [...document.querySelectorAll(selector)];
           return candidates.indexOf(document.activeElement);
-        }, "a[href], button, input:not([type=hidden]), select, textarea, [contenteditable=true], [role=button], [role=link]");
+        }, "a[href], area[href], button, input:not([type=hidden]), select, textarea, [contenteditable=true], [role=button], [role=link], [tabindex]");
         if (focusedIndex !== target.index) {
           errors.push(file + ": Tab sequence skipped or reordered expected control " + target.name +
             " (expected DOM index " + target.index + ", focused index " + focusedIndex + ")");
