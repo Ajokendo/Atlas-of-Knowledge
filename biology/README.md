@@ -1177,3 +1177,13 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Regression assertions are committed but `checks.mjs`, browser tests and CI have not been rerun. No test pass is claimed.
 - Repeat-audit coverage is 30%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
 
+## Repeat-audit milestone — 40% — 1 November 2026
+
+- Added the unresolved comparison between the 2020–2024 PASK model estimate for adult snow leopards (about 300; 95% CI 246–366) and the Ministry's October 2026 estimate (450–550, method not stated in the notice).
+- Added site-level Terskey Ala-Too expedition evidence from the 2025 Burkhan / Archaly survey, with limitations on sampling effort, separate DNA and camera-trap evidence, local argali scope and a corrected Pallas's cat scientific-name spelling.
+- Added FFI/CEPF Menzbier's marmot survey estimate (about 16,145, surveys in 2021 and 2022) and distinguished IUCN Red List VU from the IUCN Green Status recovery result.
+- Expanded the regional evidence audit and regression assertions. Read-back confirmed saved changes.
+- The 52 image insertion anchors remain mapped and Deferred; no new visual asset was integrated.
+- Regression assertions are committed but checks.mjs, browser tests and CI have not been run. No test pass is claimed.
+- Repeat-audit coverage is 40%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
+
