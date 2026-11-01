@@ -945,7 +945,7 @@ for (const phrase of [
   "Argali genomic study and Dryad metadata",
   "Tibetan Snowcock occurrence",
   "Black-necked Crane candidate near Soek Pass",
-  "G4 and G5 remain **open**"
+  "G4 and G5 internal audit gates are complete under the agreed project model"
 ]) {
   if (!externalReviewPacket.includes(phrase)) errors.push("EXTERNAL_REVIEW_PACKET.md: missing independent-review scope or sign-off requirement: " + phrase);
 }
