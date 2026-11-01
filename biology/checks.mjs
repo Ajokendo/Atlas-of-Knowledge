@@ -253,6 +253,17 @@ if (!faunaKyrgyzstanFile.includes("Ursus arctos isabellinus") || !faunaKyrgyzsta
 if (!faunaKyrgyzstanFile.includes("Coregonus lavaretus") || !faunaKyrgyzstanFile.includes("Coregonus peled") || !faunaKyrgyzstanFile.includes("Triplophysa stoliczkae")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul fish account must retain the 2021–2023 field-study taxa");
 }
+if (!faunaKyrgyzstanFile.includes("This disagreement reflects different taxonomic concepts") ||
+    !faunaKyrgyzstanFile.includes("fishcatget.asp?spid=53209") ||
+    !faunaKyrgyzstanFile.includes("T. stoliczkae") ||
+    !faunaKyrgyzstanFile.includes("T. stolickai")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul Triplophysa determination must retain the IUCN/Catalogue taxonomic-concept conflict");
+}
+if (!regionalSpeciesAudit.includes("Son-Kul fish survey (sampling in 2020, 2021 and 2023; published 2023)") ||
+    !regionalSpeciesAudit.includes("abstract/methods date discrepancy") ||
+    !regionalSpeciesAudit.includes("voucher/genetic review")) {
+  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Son-Kul fish survey must retain its sampling-date discrepancy and taxonomic evidence limits");
+}
 if (!faunaKyrgyzstanFile.includes("2004–2005 годов") || !faunaKyrgyzstanFile.includes("описан как озеро без рыб") || !faunaKyrgyzstanFile.includes("described as fishless")) {
   errors.push("chapters/fauna-kyrgyzstan.html: fishless Chatyr-Kul and fish-bearing Son-Kul distinction must remain explicit");
 }
