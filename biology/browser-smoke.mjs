@@ -15,6 +15,8 @@ await walk(root);
 const browser = await chromium.launch({ headless: true });
 const errors = [];
 let languageChecks = 0;
+let contrastSamples = 0;
+let contrastFailures = 0;
 try {
   for (const viewport of [{ width: 390, height: 844 }, { width: 1365, height: 900 }]) {
     const page = await browser.newPage({ viewport });
@@ -91,6 +93,8 @@ try {
         }
         return { measured: rows.length, failures: rows.filter(x => !x.pass) };
       });
+      contrastSamples += contrast.measured;
+      contrastFailures += contrast.failures.length;
       if (contrast.failures.length) {
         errors.push(file + ": preliminary text contrast failures " + JSON.stringify(contrast.failures.slice(0, 8)) +
           (contrast.failures.length > 8 ? " (+" + (contrast.failures.length - 8) + " more)" : ""));
@@ -218,4 +222,4 @@ if (errors.length) {
   console.error("Biology browser smoke tests failed:\\n" + errors.map(x => " - " + x).join("\\n"));
   process.exit(1);
 }
-console.log("Biology browser smoke tests passed: " + pages.length + " pages at mobile and desktop widths; " + languageChecks + " language-toggle interactions; no uncaught page errors.");
+console.log("Biology browser smoke tests passed: " + pages.length + " pages at mobile and desktop widths; " + languageChecks + " language-toggle interactions; no uncaught page errors. Preliminary contrast sampling: " + contrastSamples + " text instances, " + contrastFailures + " below-threshold instances.");
