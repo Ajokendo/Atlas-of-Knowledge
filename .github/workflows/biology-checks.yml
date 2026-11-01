@@ -31,7 +31,7 @@ jobs:
         run: node biology/checks.mjs
       - name: Install Chromium for browser smoke tests
         run: |
-          npm install --no-save playwright
+          npm install --no-save playwright axe-core
           npx playwright install --with-deps chromium
       - name: Start local site server
         run: |
