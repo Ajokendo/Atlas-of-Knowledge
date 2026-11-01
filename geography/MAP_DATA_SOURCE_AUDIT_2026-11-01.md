@@ -243,3 +243,22 @@ A 2026 *Natural Hazards and Earth System Sciences* paper analyses the Kyrgyz Ran
 Source: https://doi.org/10.5194/nhess-26-1001-2026
 
 **Cartographic implication:** separate glacier polygons, glacier-moraine complexes and glacial-lake polygons; preserve observation dates and inventory definitions. GLOF risk mapping must additionally consider dam type/stability, drainage pathways, downstream exposure and uncertainty; lake presence or area alone is not a risk classification.
+
+
+## 2026-11-01 addendum — National water-use statistics, WIS and flood/mudflow mapping
+
+### National Statistical Committee: water use and wastewater
+- Source: https://stat.gov.kg/ru/opendata/category/3216/ (open-data category; CC BY-NC-SA 4.0 as stated on the portal).
+- 2025 values displayed: abstraction from natural sources 8,938.4 million m³; underground abstraction 326.4 million m³; water consumption 6,224.9 million m³; irrigation and agricultural water supply 5,821.1 million m³; wastewater 188.5 million m³; discharge of water treated to standards 185.6 million m³; polluted wastewater discharged untreated or insufficiently treated 1.4 million m³.
+- Interpretation: underground abstraction is a component of total abstraction. Abstraction, consumption and discharge are distinct accounting categories. These indicators do not measure natural river runoff and do not constitute a complete hydrological water balance. Before time-series comparison, verify definitions, reporting coverage and revisions. Attribution and non-commercial/share-alike conditions must be respected for reuse.
+
+### Water Resources Service: Water Information System
+- Sources: https://water.gov.kg/index.php?Itemid=1522&id=422&lang=en&option=com_content&view=article and https://www.water.gov.kg/index.php?Itemid=1531&catid=99&id=427&lang=en&option=com_content&view=article
+- The WIS is described as a distributed database and geospatial-layer system; its stated domains include river flows, water abstraction and wastewater discharges, with data from multiple institutions including KyrgyzHydromet. Portal applications are listed for water quantity, irrigation-water use, hydraulic structures and national water use.
+- Access/metadata caveat: the inspected descriptions do not establish that every application exposes downloadable station-level time series, complete metadata, update frequency or unrestricted reuse. Do not claim a verified open national discharge series without direct inspection and station-level provenance.
+
+### Mudflow/flood hazard atlas and operational hazard portal
+- 2025 *Atlas of Mudflow and Flood Hazards in the Territory of the Kyrgyz Republic*, Ministry of Emergency Situations monitoring/forecasting unit, supported by WFP and SDC: https://glofca.org/wp-content/uploads/ATLAS_mudflow_2025_Eng-1.pdf
+- ESKMP hazard portal: https://cmbbs.okm.kg/; visible categories include landslides, mudflows, avalanches, floods and outbursts of high-mountain natural lakes.
+- Use conditions: cite publication date, map scale, legend, method and coverage. An atlas hazard class is not a parcel-level risk assessment. An operational web map is time-dependent; preserve access date and layer provenance and do not assume that its displayed layers are static or downloadable.
+- Chapter 20 was updated with a bilingual evidence subsection and a new visual brief for a properly disaggregated water-use infographic. No river hydrograph or station-level discharge map is marked data-ready; these remain open pending actual series and metadata.
