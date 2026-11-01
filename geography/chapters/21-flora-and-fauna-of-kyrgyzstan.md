@@ -478,6 +478,209 @@ That is approximately 78.4%. This is a teaching model, not a universal value for
 
 **Learning activity.** Design a bird or mammal survey protocol for two sites. Set the same survey duration and number of visits, and record weather, time, route and signs of presence. Explain why a higher number of records at one site does not necessarily mean that animal abundance is higher there.
 
+## English-language chapter text
+
+### 21.1. Biogeographical Setting and Origins of Biodiversity
+
+Kyrgyzstan lies within the Palaearctic biogeographical realm, at the junction of Central Asian desert and steppe systems, continental mountain ecosystems and the Western Tien Shan. The Tien Shan and Pamir-Alay form the country's main mountain systems. Their ranges, intermontane basins, gorges, river valleys and high plateaus create many ecological niches.
+
+The country's biogeographical diversity is shaped by several factors:
+1. **Elevation gradient:** dry foothills, steppes, forests, subalpine meadows, alpine communities and nival habitats occur over short horizontal distances.
+2. **Moisture contrasts:** western and north-western slopes, some gorges and fruit-and-nut forest areas receive and retain more moisture than many interior basins and leeward slopes.
+3. **Geological and soil diversity:** limestone, schist, granite, unconsolidated deposits and different soil types create specific habitats.
+4. **Isolation of mountain massifs:** populations separated by valleys and high ridges may evolve relatively independently over long periods.
+5. **Climate history:** alternating cold and warm, wetter and drier periods changed species ranges and helped preserve relict populations.
+6. **Migration routes:** mountain valleys and passes serve as seasonal routes for animals and dispersal corridors for plants.
+
+The Western Tien Shan has particular international significance. The transboundary UNESCO World Heritage property includes natural areas in Kyrgyzstan, Kazakhstan and Uzbekistan. It contains coniferous and broadleaf forests, wild fruit trees, mountain meadows and habitats of rare animals. UNESCO highlights the region's high species richness and significant share of Central Asian endemics.
+
+Biogeographical boundaries do not coincide with state borders or administrative regions. Ecological processes and species ranges are transboundary.
+
+### 21.2. Flora: Diversity, Endemism and Genetic Resources
+
+Flora is the set of plant species occurring in a defined territory. Assessments of floristic richness must specify which groups are included: vascular plants, mosses, algae, lichens and fungi are not one taxonomic group. Estimates of total species numbers may therefore differ between publications.
+
+Kyrgyzstan has rich mountain vascular-plant diversity, including steppe, desert, meadow, forest, rocky and high-mountain species. A substantial share of this diversity is concentrated in the Western Tien Shan and the Fergana–Alay mountain region. Many local species are associated with particular ranges, gorges, rock outcrops or specialised soils.
+
+An **endemic** is a species whose natural range is restricted to a particular area. Endemism may be local, such as one range or valley, or regional, such as part of the Tien Shan or Central Asia. A species should not be called endemic to Kyrgyzstan merely because it is rare in the country; its natural range must be verified.
+
+A **relict** is a surviving representative of an ancient flora or fauna whose range has contracted or changed since earlier geological periods. Relict status is not the same as endemism.
+
+Assessment of endemism requires verified herbarium specimens and current taxonomy; accurate coordinates and elevation records; information on population size and trends; distinction between native and introduced populations; and comparison of national lists with international databases.
+
+**Wild relatives of cultivated plants.** The Western Tien Shan is an important global centre of diversity and origin for cultivated fruit and nut crops. Natural communities contain wild and crop-related forms of apple, apricot, pear, plum, pistachio, grape, walnut and hawthorn. These populations are part of the genetic resources of agriculture.
+
+Important taxa include Sievers' apple (*Malus sieversii*), a key wild relative of the cultivated apple; apricot (*Prunus armeniaca*; some botanical literature uses the genus name *Armeniaca*); walnut (*Juglans regia*); pistachio (*Pistacia vera*); almond (*Prunus dulcis* and related wild taxa); pears (*Pyrus* spp.); plums (*Prunus* spp.); and grapes (*Vitis* spp.).
+
+Genetic diversity in wild relatives may include traits associated with drought, cold, pests and disease resistance. Conservation requires protecting natural habitats, not merely establishing plantations.
+
+### 21.3. Altitudinal Zonation of Vegetation
+
+Altitudinal zonation is the systematic change in natural communities with increasing elevation. It is particularly pronounced in Kyrgyzstan but does not follow one uniform national scheme. Belt boundaries vary with latitude, slope aspect, precipitation, wind, relief, soils and land-use history.
+
+| Elevation complex | Typical communities | Ecological characteristics |
+|---|---|---|
+| Lower foothills and dry basins | Semi-deserts, ephemeral communities, wormwood and saltwort vegetation | Moisture deficit and strong seasonality |
+| Foothill and middle-mountain slopes | Steppes, mixed-grass communities and shrubs | Strong dependence on slope aspect and grazing |
+| Middle mountains | Broadleaf forests, wild-fruit woodlands, juniper communities and spruce forests where conditions are suitable | Contrasts in moisture and temperature |
+| Upper forest limit and subalpine belt | Tall-herb meadows, dwarf shrubs and open woodland | Short growing season |
+| Alpine belt | Short-grass meadows, sedge and Kobresia turf, cushion plants | Cold, wind and thin soils |
+| Nival and rocky belt | Cliffs, scree, glaciers and sparse specialised vegetation | Extreme conditions and isolated microhabitats |
+
+This is a generalised scheme, not a map of fixed elevation boundaries. Forest may be absent at otherwise suitable elevations because of aridity, avalanches, fires or historical deforestation. A moist gorge may support forest substantially lower or higher than a neighbouring open slope.
+
+Plant adaptations to mountain conditions include low-growing and cushion forms that reduce wind exposure and conserve heat; deep or widely spreading roots that access moisture and anchor plants on slopes; leaf hairs, waxy coatings and reduced leaf area that limit water loss; short life cycles that allow ephemerals to complete growth during favourable seasons; and underground organs such as bulbs, rhizomes and tubers that allow plants to survive unfavourable periods.
+
+### 21.4. Forest Ecosystems of Kyrgyzstan
+
+Forests occupy a limited share of the country's territory but have ecological importance far beyond their area. They regulate runoff, protect soils from erosion, retain snow, provide habitats, store carbon and support local livelihoods.
+
+**Spruce forests.** Schrenk's spruce (*Picea schrenkiana*) is widespread in the Tien Shan. Spruce forests occur on mountain slopes with suitable temperature and moisture conditions and are especially characteristic of some areas of the Northern and Inner Tien Shan. They may form pure or mixed stands; their structure depends on elevation, aspect, snow regime and soil.
+
+Spruce forests are vulnerable to fire, excessive grazing of young growth, logging, pests and changes in hydrothermal conditions. Recovery of a mature spruce forest is slow.
+
+**Juniper open woodlands.** The term *archa* refers to several juniper species in the genus *Juniperus*, not to one species. Juniper communities occur on dry and rocky slopes and often form open woodlands or shrub-like stands. They help stabilise slopes, protect soils and support mountain biodiversity.
+
+Juniper species differ in ecological preferences and altitudinal distribution. Scientific and educational texts should identify species only when the determination is reliable.
+
+**Walnut and fruit forests.** The walnut-fruit forests of the Western Tien Shan, including areas around Arslanbob and Sary-Chelek, have exceptional natural and genetic value. They combine walnut, wild fruit trees, maples, hawthorns, shrubs and herbaceous cover. Composition varies with elevation, moisture and slope aspect.
+
+These are not uniform “walnut forests”: different sites have different structures and tree species. Important components include walnut (*Juglans regia*); apples (*Malus* spp.), including Sievers' apple; wild apricots and plums (*Prunus* spp.); pears (*Pyrus* spp.); hawthorns (*Crataegus* spp.); maples (*Acer* spp.); and pistachio (*Pistacia vera*) in drier habitats.
+
+**Tugai and riparian forests.** River valleys contain floodplain woodland and shrub communities with willows (*Salix* spp.), poplars (*Populus* spp.), sea buckthorn (*Hippophae rhamnoides*) and other moisture-loving plants. Their condition depends on natural flood regimes, groundwater levels and land use in floodplains.
+
+Forest conservation priorities include preventing illegal logging and damage to regeneration; fire prevention and early detection; maintaining natural water regimes; regulating grazing in forest areas and regeneration sites; protecting old trees and genetically valuable populations; restoring with native species and locally appropriate planting material; and monitoring pests, disease and climate impacts.
+
+### 21.5. Regional Patterns of Vegetation
+
+**Northern Kyrgyzstan: Chuy and Talas valleys.** Plains and foothills contain steppe, semi-desert and meadow communities transformed by agriculture and urban development. Mountain gorges and slopes support shrubs, broadleaf forests, juniper areas and spruce forests. The Talas Ala-Too and Kyrgyz Range create strong elevation gradients.
+
+**Issyk-Kul Basin.** Vegetation changes from dry steppe and semi-desert areas near the shore to meadows, shrubs and high-mountain communities. Moisture and slope aspect differ between the northern and southern sides of the basin. Pasture landscapes are particularly important in the eastern part and high valleys.
+
+**Naryn Region and Inner Tien Shan.** High basins and plateaus are dominated by steppe, meadow and alpine pasture communities, with limited forest cover. Short growing seasons and cold winters shape vegetation composition and seasonal grazing.
+
+**Western Kyrgyzstan: Jalal-Abad Region.** The region contains some of the country's most valuable walnut-fruit forests, broadleaf communities, juniper woodlands, riverine forests and mountain meadows. Strong differences in moisture and elevation create a diverse vegetation mosaic.
+
+**Osh Region and Alay.** Vegetation ranges from warm foothill steppes and shrubs to high-mountain meadows and nival communities. The Alay Valley and surrounding ranges support seasonal pastures and specialised mountain plants.
+
+**Batken Region.** Dry foothills and mountain slopes contain semi-desert and steppe communities, shrubs, pistachio and almond habitats in suitable locations, and mountain vegetation at higher elevations. Water availability and land-use pressure are important controls.
+
+### 21.6. Rangelands and Hay Meadows
+
+Pastures and hay meadows are important components of the rural economy and mountain ecosystems. Their productivity depends on plant composition, soil moisture, precipitation, elevation, grazing intensity and seasonal management.
+
+Seasonal grazing is organised around winter pastures, spring and autumn pastures, and high-mountain summer pastures (jailoo). Movement between these areas allows vegetation to recover, but it depends on access routes, water points, weather and local institutions.
+
+Signs of pasture degradation may include reduced vegetation cover; expansion of bare ground; dominance of unpalatable or disturbance-tolerant species; soil compaction; erosion and gully formation; reduced productivity; and loss of plant diversity.
+
+Sustainable management includes regulating livestock numbers and timing; rotating grazing areas; restoring degraded sites; maintaining water points and access routes; protecting steep slopes and riparian zones; monitoring vegetation condition; and involving local pasture-user associations and communities.
+
+### 21.7. Fauna: Major Groups and Habitats
+
+Kyrgyzstan's fauna includes mountain mammals, predators, ungulates, numerous rodents, diverse birds, reptiles, amphibians, fish and invertebrates. National species lists change as research advances and taxonomy is revised.
+
+**Mammals.** Characteristic groups include mountain ungulates such as Siberian ibex (*Capra sibirica*), argali (*Ovis ammon* and intraspecific forms), roe deer (*Capreolus* spp.) and red deer or maral (taxonomic placement and use of the name should be checked against the current national list); predators such as snow leopard (*Panthera uncia*), wolf (*Canis lupus*), Eurasian lynx (*Lynx lynx*), brown bear (*Ursus arctos*), red fox (*Vulpes vulpes*) and Pallas's cat (*Otocolobus manul*) in suitable areas; and small or medium mammals such as marmots (*Marmota* spp.), pikas (*Ochotona* spp.), hares, jerboas, voles, bats and mustelids.
+
+Species composition and abundance differ among regions. A historical record does not mean that a species is currently common throughout the entire area once listed.
+
+**Birds.** Mountain ecosystems support raptors, scavengers, galliform birds, waterbirds and many small passerines. Notable species include the golden eagle (*Aquila chrysaetos*), bearded vulture (*Gypaetus barbatus*), cinereous vulture (*Aegypius monachus*), griffon vulture (*Gyps fulvus*), saker falcon (*Falco cherrug*), snowcocks (*Tetraogallus* spp.), partridges and chukars, and waterbirds associated with lakes and wetlands.
+
+Issyk-Kul, Son-Kul and other water bodies are important for nesting, moulting, wintering and stopovers of migratory birds. The significance of each water body changes seasonally.
+
+**Reptiles and amphibians.** Dry valleys and foothills support lizards and snakes, including species adapted to arid habitats. Amphibians depend on water bodies, wet meadows, springs and floodplains; their distribution is limited by suitable breeding sites and moist refuges. Venomousness or danger associated with one species must not be generalised to all snakes in the region. Identification should be based on reliable field characters or expert confirmation.
+
+**Fish and aquatic invertebrates.** The fish fauna of rivers and lakes is heterogeneous. Water bodies contain native species as well as fish introduced by people. Issyk-Kul has historically supported endemic and locally specialised forms, but community composition has changed through introductions, fishing and habitat modification.
+
+For each water body, distinguish native species; endemic species and subspecies; introduced species; acclimatised and naturalised populations; and species that have disappeared from particular water bodies or experienced major declines.
+
+**Invertebrates.** Insects, spiders, molluscs and other invertebrates provide pollination, decomposition, soil formation and food for vertebrates. Mountain invertebrates often have small ranges and high vulnerability to microclimatic change. Limited study does not mean low conservation value.
+
+### 21.8. Flagship and Protected Species
+
+**Snow leopard (*Panthera uncia*).** The snow leopard is an apex predator of the high-mountain ecosystems of the Tien Shan and Pamir-Alay. It uses rocky terrain, steep slopes and mountain valleys where wild ungulates and other prey are available. Its persistence depends on sufficiently large habitats, connected mountain corridors and healthy prey populations.
+
+The current global IUCN category is **Vulnerable**. National legal status and the international IUCN category are different systems and should be presented separately. Major threats include poaching, conflict with livestock owners, decline in prey, habitat fragmentation and infrastructure impacts.
+
+**Argali (*Ovis ammon*).** Argali are large wild sheep of mountain and high-mountain landscapes. Different populations and forms occur in Kyrgyzstan. The name “Marco Polo sheep” usually refers to a large high-altitude form primarily associated with the Pamir. Not every Kyrgyzstan population should automatically be assigned to that form without checking taxonomic and geographic evidence.
+
+**Siberian ibex (*Capra sibirica*).** Ibex inhabit rocky mountain slopes and steep gorges. They are important prey for snow leopards and are also subject to hunting and conservation monitoring. Conservation requires protection of breeding areas, control of illegal hunting and maintenance of connected mountain habitats.
+
+Other important species include brown bear, lynx, Pallas's cat, red deer and roe deer, marmots, golden eagle, bearded vulture, other vultures, saker falcon and rare high-mountain and steppe birds.
+
+**Rare plants.** Wild tulips and other bulbous plants have special conservation value. Well-known Central Asian species include Greig's tulip (*Tulipa greigii*), Kaufmann's tulip (*Tulipa kaufmanniana*) and Kolpakovsky's tulip (*Tulipa kolpakowskiana*). They must not be collected or dug up in the wild. The conservation status of each species must be checked against the current national Red Book and the IUCN assessment where available.
+
+### 21.9. Lake, River and Riparian Ecosystems
+
+Aquatic ecosystems in Kyrgyzstan include high-mountain lakes, rivers, springs, wetlands, floodplains and artificial water bodies. They support aquatic plants, invertebrates, fish, amphibians and birds.
+
+Issyk-Kul is a large high-mountain lake with distinctive physical and chemical conditions and its own ecological history. Its condition depends on the water balance, pollutant inputs, shoreline condition, fisheries, tourism and species introductions.
+
+Son-Kul and Chatyr-Kul, together with adjacent wetlands, are important for waterbirds and species associated with shorelines. Seasonal ice cover and water-level fluctuations determine the availability of feeding and nesting habitats.
+
+Sary-Chelek is part of the Western Tien Shan natural complex. Its conservation value comes not only from the lake itself but also from surrounding forest and mountain ecosystems.
+
+Major threats to aquatic biodiversity include municipal, agricultural and industrial pollution; changes in natural flow regimes; destruction of shoreline vegetation; excessive or unregulated fishing; introduction of alien species; eutrophication and nutrient accumulation; and climate-driven changes in water temperature, ice cover and runoff.
+
+### 21.10. Ecological Interactions and Ecosystem Function
+
+Biodiversity is not simply a list of species. Ecosystems function through relationships among organisms and the physical environment.
+
+**Pollination.** Bees, bumblebees, butterflies, flies and other animals transfer pollen between flowers. Pollination supports reproduction of many wild and cultivated plants. A decline in pollinator diversity may reduce the resilience of plant communities and crop yields.
+
+**Seed dispersal.** Birds and mammals disperse seeds by eating fruits or carrying them on fur and feet. Wind and water also move seeds. These processes help forests regenerate and support genetic exchange among habitat patches.
+
+**Food webs.** A simplified mountain food web may be represented as solar energy → grasses and shrubs → herbivores (argali, ibex, marmots) → predators (snow leopard, wolf) → scavengers and decomposers. Real food webs are more complex: one species may use several food resources and have several natural enemies. Scavengers and microorganisms return nutrients to ecological cycles.
+
+**Ecosystem services** include regulation of river flow and protection of catchments; erosion prevention and slope stabilisation; pollination and soil fertility; genetic resources for agriculture; carbon storage; forage, medicinal and food resources when used sustainably; and cultural, scientific, educational and recreational values.
+
+### 21.11. Major Threats to Biodiversity
+
+Major threats interact with one another. Climate change can intensify the consequences of overgrazing, while roads may facilitate poaching in previously inaccessible areas. Impacts should therefore be assessed at landscape and ecosystem scales.
+
+| Threat | Mechanism | Possible consequences |
+|---|---|---|
+| Climate change | Shifts in temperature, moisture and snow regime | Range shifts and loss of cold-adapted habitats |
+| Poaching | Direct removal of animals | Population decline and altered age structure |
+| Overgrazing | Trampling, selective feeding and soil compaction | Vegetation degradation and erosion |
+| Habitat fragmentation | Roads, infrastructure and valley development | Population isolation and reduced genetic exchange |
+| Fires and illegal logging | Loss of forest cover and regeneration | Slower recovery and habitat change |
+| Mining | Land disturbance, noise, dust and pollution | Local habitat loss and degradation |
+| Pollution | Wastewater, solid waste and agrochemicals | Toxic impacts and eutrophication |
+| Illegal plant collection | Digging bulbs and collecting rare medicinal plants | Loss of local populations |
+| Invasive species | Competition, predation and disease transmission | Changes in community structure |
+
+### 21.12. Biodiversity Conservation and Policy Instruments
+
+The **Red Book of the Kyrgyz Republic** is a national instrument for recording rare and threatened species. It supports conservation planning, scientific monitoring and regulation of species use.
+
+The Kyrgyz Republic's 2025 Voluntary National Review reports the following numbers of taxa included in the national Red List: 57 bird species, 23 mammal species, 2 amphibian species, 8 reptile species, 7 fish species, 18 arthropod species, and 87 species of higher plants and fungi. These figures should be cited with the source and reporting year. They do not replace checking the current official edition of the Red Book and are not a count of all threatened species in the country.
+
+International instruments include the IUCN Red List, which assesses global extinction risk; CITES, which regulates international trade in species listed in its Appendices; the Convention on Biological Diversity (CBD), which provides a framework for conservation, sustainable use and fair benefit-sharing; UNESCO World Heritage, which recognises natural properties of outstanding universal value, including the Western Tien Shan; and UNESCO's Man and the Biosphere Programme (MAB), which supports approaches combining conservation, sustainable development and scientific monitoring.
+
+National nature reserves, natural parks, sanctuaries and biosphere territories conserve habitats and natural processes. Important protected areas of the Western Tien Shan include the Sary-Chelek Biosphere Reserve, Besh-Aral State Nature Reserve, Padysha-Ata and other protected natural complexes.
+
+A protected area should not be treated as an isolated island. Ecological corridors support animal movement, plant dispersal and exchange among populations. For mountain species, passages between ranges, valleys and seasonal pastures are important.
+
+In 2025, Kyrgyzstan presented a national biodiversity conservation programme to 2040 (NBSAP), developed as a key strategic framework for biodiversity conservation and sustainable ecosystem management. Future atlas updates should check the final approved text and indicators.
+
+### 21.13. Methods for Studying Flora and Fauna
+
+| Method | What it studies | Limitations and requirements |
+|---|---|---|
+| Herbarium collection | Plants, morphology and distribution | Collection requires permits and must not damage rare populations |
+| Vegetation plots | Composition, projected cover and vegetation structure | Repeated surveys should use comparable seasons |
+| Transects | Community changes along elevation or environmental gradients | Aspect, slope and seasonality must be considered |
+| Animal surveys | Abundance and occurrence | Species detectability differs |
+| Camera traps | Elusive mammals, activity and relative occurrence | Do not automatically provide exact population size |
+| GPS/GNSS collars | Movement and habitat use | Require permits, an ethical protocol and assessment of risks to animals |
+| DNA barcoding | Confirmation of specimen identity | Results depend on the quality of reference databases |
+| Environmental DNA (eDNA) | Traces of species DNA in water, soil and other samples | DNA detection does not always prove a living individual is present at the sampling point |
+| Acoustic monitoring | Birds, amphibians and bats | Automated sound classification requires verification |
+| Satellite data and remote sensing | Forest change, fires, vegetation cover and snow regime | A pixel may not identify a species or the condition of an individual population |
+| Citizen science | Public observations and photographs | Coordinates, dates and species identifications require validation |
+
+Good monitoring practice includes using the same methods in repeat surveys; recording date, coordinates, elevation, observer and conditions; distinguishing absence from non-detection; preserving primary data and photographs with metadata; checking taxonomic identifications with experts; and avoiding publication of precise coordinates of vulnerable populations where this could increase poaching or illegal collection risks.
+
 ## 21.14. Практические работы
 ## Practical Activities
 
