@@ -6,12 +6,12 @@
 
 ## Common deferral rationale
 
-The image-generation interface available in this work session returns rendered images but does not provide a verified repository-ready WebP asset path or an integration mechanism into `biology/images/generated/`. No image was therefore represented as created, and no third-party image was inserted without a verified source and license. This follows the user's accepted fallback: preserve a precise insertion marker and state exactly what visual belongs there.
+Several local-only visual concept drafts have been generated during production attempts, but none has passed species/anatomical, scientific, editorial and integration review. Rejected or ambiguous drafts are documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md`; they are not approved assets and are not represented as completed illustrations. No raster asset has been committed to `biology/images/generated/` or inserted into a chapter. No third-party image was inserted without a verified source and license. The accepted fallback remains: preserve each precise insertion marker and state exactly what visual belongs there.
 
 For every deferred item:
 
 - **Source / licence:** no image asset has been selected or used; third-party source, licence and attribution are therefore N/A at this stage. Any future sourced image must have a verified reuse licence and attribution before insertion. Any future original artwork must have its creator and licence recorded.
-- **Scientific review:** P1 briefs are reviewed in `IMAGE_SCIENTIFIC_REVIEW.md`; P2/P3 briefs are reviewed individually in `IMAGE_BRIEF_REVIEW.md`. No rendered asset exists to review. Before activation, the actual image, species identity, locality, scale, caption and bilingual alt text must be checked.
+- **Scientific review:** P1 briefs are reviewed in `IMAGE_SCIENTIFIC_REVIEW.md`; P2/P3 briefs are reviewed individually in `IMAGE_BRIEF_REVIEW.md`. Local concept drafts exist for a subset of subjects, but no draft is accepted for this mapped asset. Before activation, the actual image, species identity, locality, scale, caption and bilingual alt text must be checked.
 - **Integration:** the original `image-brief-*` anchor remains in the page. The central map retains the target filename and composition brief. The source-level regression audit confirms 52 unique map rows and 52 matching page anchors.
 - **Release treatment:** do not display a blank image, broken image path or unlicensed substitute. Keep the text note visible until an approved asset is integrated.
 
