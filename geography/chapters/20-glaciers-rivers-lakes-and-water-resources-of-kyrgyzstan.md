@@ -317,6 +317,24 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 Высоты и морфометрические характеристики озёр могут различаться в справочниках из-за колебаний уровня, времени измерения и используемой системы высот. Перед выпуском картографических материалов значения следует привязать к конкретному источнику и дате.
 
+### 20.6.7. Современная динамика малых ледниковых озёр / Recent Dynamics of Small Glacial Lakes
+
+Национальная инвентаризация ледниковых озёр Кыргызстана, представленная на Генеральной ассамблее EGU в 2025 году, основана на летних снимках Sentinel-2 за 2022–2024 годы. Авторы сообщают о выявлении **более 2 000 озёр** по территории страны; наибольшая концентрация отмечена в районе Терскей Ала-Тоо (1 137 объектов) и Кыргызского хребта (323 объекта). В работе описаны ограничения автоматизированного выделения водоёмов: тени, облачность, остаточный снег, сезонные водные понижения и мутность воды. Авторы подчёркивают необходимость ручной проверки контуров и регулярного обновления инвентаризации.
+
+Эти цифры следует цитировать как результат конкретной исследовательской инвентаризации 2022–2024 годов, представленной в виде конференционного материала, а не как окончательное государственное число озёр или неизменный текущий реестр. Для карт необходимо указывать минимальный размер обнаруживаемого водоёма, даты снимков, сезон, правила классификации и результаты полевой проверки. Публичная запись исследования не означает автоматически, что полный векторный набор доступен для свободного повторного использования.
+
+Исследование в журнале *Natural Hazards and Earth System Sciences* (2026) показывает, что в Кыргызском хребте количество ледниковых озёр увеличилось с **274 в 1968 году до 412 в 2021 году**, а суммарная площадь — с 0,80 до 1,42 км² (+76%). При этом ледниковая площадь в пределах исследованного хребта сократилась с 378,5 до 262,0 км² (−31%). Динамика не сводится к простому расширению одних и тех же озёр: за период многие водоёмы исчезли, а новые возникли на деградирующих моренных комплексах и участках погребённого льда. Поэтому количество озёр может расти одновременно с сокращением площади ледников.
+
+Результаты относятся именно к Кыргызскому хребту и периоду 1968–2021 годов; их нельзя напрямую переносить на весь Тянь-Шань или Кыргызстан. Они показывают также, что риск прорывных паводков требует оценки не только площади озера, но и типа подпруды, состояния морены/погребённого льда, геометрии стока, возможного пути волны и расположенных ниже объектов. Наличие озера само по себе не означает высокий риск GLOF.
+
+A national inventory of glacial lakes in Kyrgyzstan presented at the 2025 EGU General Assembly used summer Sentinel-2 imagery from 2022–2024. The authors report **more than 2,000 lakes** countrywide, with the highest concentration in the Terskey Ala-Too (1,137 features) and Kyrgyz Range (323). The study describes limitations of automated water-body mapping, including shadows, clouds, residual snow, seasonal water-filled depressions and turbidity. Manual review and regular updates are identified as essential.
+
+These figures should be cited as the result of a specific 2022–2024 research inventory presented as a conference contribution, not as a final government count or a permanently current register. Maps should state the minimum detectable lake size, image dates and season, classification rules and field-validation status. A public research record does not automatically mean that the complete vector dataset is openly reusable.
+
+A 2026 study in *Natural Hazards and Earth System Sciences* found that the number of glacial lakes in the Kyrgyz Range increased from **274 in 1968 to 412 in 2021**, while their total area grew from 0.80 to 1.42 km² (+76%). Over the same period, glacier area in the studied range declined from 378.5 to 262.0 km² (−31%). This was not simply the expansion of the same lakes: many disappeared while new lakes formed on degrading moraine complexes and areas of buried ice. Lake numbers can therefore rise even as glacier area declines.
+
+These results apply to the Kyrgyz Range and the 1968–2021 study period; they must not be extrapolated directly to the entire Tien Shan or Kyrgyzstan. They also show why outburst-flood risk assessment must consider more than lake area: dam type and condition, moraine and buried-ice stability, drainage geometry, potential flow paths and downstream exposure all matter. The presence of a lake alone does not establish a high GLOF risk.
+
 ## 20.7. Подземные воды и источники / Groundwater and Springs
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-J / IMAGE PLACEHOLDER 20-J]** Гидрогеологический разрез горной долины с водоносным горизонтом, водоупором, зоной питания и выходом источника; схема концептуальная.
@@ -1008,6 +1026,8 @@ Kyrgyzstan’s water system is shaped by high mountains, precipitation, seasonal
 15. **World Bank.** *Kambarata-1 HPP: Frequently Asked Questions.* https://www.worldbank.org/en/programs/kambarata-1-hpp/faqs
 16. **World Bank.** *World Bank Provides Additional Technical Support for Clean, Hydropower Energy Generation in the Kyrgyz Republic*, 11 July 2024. https://www.worldbank.org/en/news/press-release/2024/07/11/world-bank-provides-additional-technical-support-for-clean-hydropower-energy-generation-in-the-kyrgyz-republic
 17. **World Bank.** *Water Energy Nexus in the Syr Darya Basin.* https://documents1.worldbank.org/curated/en/907281468251378105/pdf/338770v10ENGLISH0REEPS1Main1Report.pdf
+18. Piroton, V., & Havenith, H.-B. (2025). **National Inventory of Glacial Lakes in Kyrgyzstan: Integrating Remote Sensing for Hazard Assessment and Local-scale Monitoring.** EGU General Assembly 2025, EGU25-19362. https://doi.org/10.5194/egusphere-egu25-19362
+19. **Natural Hazards and Earth System Sciences.** (2026). **Constantly renewing glacial lakes in the Kyrgyz Range, northern Tien Shan.** https://doi.org/10.5194/nhess-26-1001-2026
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена. Перед финальной публикацией необходимо согласовать гидрологические ряды, морфометрические характеристики озёр, параметры водохранилищ и ледниковые инвентари с датированными национальными и международными наборами данных.
