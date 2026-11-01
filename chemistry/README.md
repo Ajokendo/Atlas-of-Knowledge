@@ -107,3 +107,10 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Scientific wording review of the arene family: narrowed the definition from the overly broad “aromatic compounds” to aromatic hydrocarbons containing one or more benzene rings, in both languages. Added matching RU/EN browser assertions.
 
 - [x] The first follow-up CI run caught a bilingual synchronization issue: the Russian translation dictionary had the corrected arene definition, but the page's initial HTML text still contained the older wording. Synchronized the initial markup; the repository's translation-consistency check covers this mismatch.
+
+
+### Solution-equilibrium and calculator validation checkpoint — 2026-11-02
+
+- [x] Reviewed the solution chapter's equilibrium-solubility distinction, saturation states, Henry's-law wording, and ionic-product comparison against Kₛₚ in both languages. No production formula correction was indicated in the reviewed passages.
+- [x] Expanded Chromium regression coverage for the concentration calculator to reject negative solute amount, negative final solution volume, and an empty amount field; these cases must not be silently interpreted as valid zero concentration.
+- [ ] Independent chemistry-teacher review and manual device/accessibility checks remain pending.
