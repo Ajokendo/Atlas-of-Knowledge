@@ -88,6 +88,12 @@
 .corner.bl { bottom: 22px; left: 26px; }
 .corner.br { bottom: 20px; right: 26px; text-align: right; color: var(--hi); font-variant-numeric: tabular-nums; white-space: pre; }
 
+/* Stable status for page navigation; animation-driven chart updates stay silent. */
+.page-announcement {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
 /* A screen-reader/keyboard action announces the live model values only on request. */
 .readout-announce, .readout-announcement {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
