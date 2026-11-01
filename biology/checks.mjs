@@ -442,6 +442,10 @@ if (!faunaKyrgyzstanFile.includes("wingeds.world/species/amphibia/kg") || !fauna
 if (!faunaKyrgyzstanFile.includes("209 adult male green toads") || !faunaKyrgyzstanFile.includes("14 localities") || !faunaKyrgyzstanFile.includes("10.20363/BZB-2021.70.2.361") || !faunaKyrgyzstanFile.includes("triploid hybrids")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2021 peer-reviewed Bufotes study must retain sample scope, direct DOI and hybridization caveat");
 }
+
+if (!faunaKyrgyzstanFile.includes("B. viridis") || !faunaKyrgyzstanFile.includes("presence as unconfirmed") || !faunaKyrgyzstanFile.includes("A conservation listing and evidence of current occurrence are different things")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Red Data Book inclusion must not be presented as proof of current amphibian occurrence");
+}
 if (!regionalSpeciesAudit.includes("Kyrgyzstan amphibian country list (snapshot 30 September 2026)") || !regionalSpeciesAudit.includes("4 resident, 3 unconfirmed")) {
   errors.push("Regional species audit must retain the dated Kyrgyz amphibian snapshot and distinguish resident from unconfirmed taxa");
 }
