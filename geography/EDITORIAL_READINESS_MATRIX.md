@@ -16,7 +16,7 @@
 | Bibliography placeholder scan | No explicit TODO/TBD/incomplete DOI/URL instruction found in reference sections | Link availability and source relevance still require review |
 | Numbering integrity | No duplicate numbered section identifiers across 26 chapters | Normalise Chapter 17's distinct label 17.14а during final style pass |
 | Repository structure | One active Geography branch: `workspace/geography` | Keep using this branch only |
-| Website | Russian landing page and chapter links exist | Bilingual reader, language toggle and rendered Markdown interface |
+| Website | Bilingual RU/EN landing-page toggle and 26 chapter links | In-chapter language filter, rendered Markdown reader, accessibility and deployment tests |
 | Generated visuals | No generated/approved artwork claimed | Production batch and scientific review |
 
 ## Chapter-by-chapter matrix
