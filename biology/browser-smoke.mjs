@@ -237,6 +237,16 @@ try {
                   language + ": " + JSON.stringify(semantics));
                 continue;
               }
+              await control.focus();
+              const focusState = await control.evaluate(el => {
+                const style = getComputedStyle(el);
+                return (style.outlineStyle !== "none" && Number.parseFloat(style.outlineWidth) > 0) ||
+                  style.boxShadow !== "none" || style.filter !== "none";
+              });
+              if (!focusState) {
+                errors.push(file + ": organelle control " + semantics.label +
+                  " has no detectable keyboard focus indicator in " + language + " mode");
+              }
               for (const key of ["Enter", "Space"]) {
                 await control.focus();
                 await page.keyboard.press(key);
