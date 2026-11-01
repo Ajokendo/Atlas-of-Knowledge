@@ -137,8 +137,8 @@ export const PAGES = [
       <div class="eq">= (<i>m</i><sub>A</sub><i>x</i><sub>A</sub> + <i>m</i><sub>B</sub><i>x</i><sub>B</sub>) / (<i>m</i><sub>A</sub> + <i>m</i><sub>B</sub>)</div>
       <table class="data">
         <tr><th></th><th><i>x</i><sub>A</sub></th><th><i>x</i><sub>B</sub></th><th><i>x</i><sub>cm</sub></th></tr>
-        <tr><td>в начале</td><td>${f(M.tug(0).xA)} m</td><td>${f(M.tug(0).xB)} m</td><td>0.00 m</td></tr>
-        <tr><td>через ${f(TG.run, 2)} с</td><td>${f(M.tug(TG.run).xA)} m</td><td>${f(M.tug(TG.run).xB)} m</td><td>0.00 m</td></tr>
+        <tr><td>в начале</td><td>${f(M.tug(0).xA)} м</td><td>${f(M.tug(0).xB)} м</td><td>0.00 м</td></tr>
+        <tr><td>через ${f(TG.run, 2)} с</td><td>${f(M.tug(TG.run).xA)} м</td><td>${f(M.tug(TG.run).xB)} м</td><td>0.00 м</td></tr>
       </table>
       <p>Более лёгкий конькобежец проходит большее расстояние: ${f(M.tug(TG.run).xA - TG.xA0, 1)} м против ${f(TG.xB0 - M.tug(TG.run).xB, 1)} м. Их перемещения относятся так, чтобы координата центра масс <i>x</i><sub>cm</sub> оставалась неизменной. Если бы они двигались вместе, центр масс продолжал бы двигаться с постоянной скоростью.</p>
       <div class="charts">${chart({ x0: 0, x1: 1.7, y0: -3, y1: 2, xlabel: 'время (с)', ylabel: 'координата (м)', cursor: 'tug', label: 'Координаты обоих конькобежцев и центра масс во времени',
@@ -170,8 +170,8 @@ export const PAGES = [
     body: `
       <p class="lede">На наклонной плоскости удобно выбрать оси вдоль поверхности и перпендикулярно ей. Тогда сила тяжести раскладывается на две составляющие.</p>
       <table class="data">
-        <tr><td>вдоль наклонной плоскости</td><td><i>mg</i> sin θ = ${f(M.W_PAR)} N</td></tr>
-        <tr><td>перпендикулярно плоскости</td><td><i>mg</i> cos θ = ${f(M.W_PERP)} N</td></tr>
+        <tr><td>вдоль наклонной плоскости</td><td><i>mg</i> sin θ = ${f(M.W_PAR)} Н</td></tr>
+        <tr><td>перпендикулярно плоскости</td><td><i>mg</i> cos θ = ${f(M.W_PERP)} Н</td></tr>
       </table>
       <p>Ускорения перпендикулярно поверхности нет, поэтому реакция опоры компенсирует вторую составляющую: <i>F</i><sub>N</sub> = <i>mg</i> cos θ = ${f(M.FN_INC)} Н. Вдоль плоскости действует первая составляющая, поэтому <i>a</i> = <i>g</i> sin θ = ${f(M.A_INC)} м/с².</p>
       <p>При наличии трения блок движется с постоянной скоростью, если tan θ = μ<sub>k</sub>. При μ<sub>k</sub> = ${f(M.MU_K)} это соответствует углу ${f(M.critical(M.MU_K), 1)}°.</p>
