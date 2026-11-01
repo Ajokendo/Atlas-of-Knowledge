@@ -552,6 +552,8 @@ Geological processes operate over an extremely wide range of timescales—from s
 
 Earth's interior is studied through rock samples, geophysical measurements and, above all, the behaviour of seismic waves. The deep interior cannot be sampled directly, so much of our knowledge is based on physical models.
 
+### 3.1.1. Chemical Structure
+
 **Chemical structure.** Three major compositional layers are recognised:
 
 | Layer | Main characteristics |
@@ -561,6 +563,8 @@ Earth's interior is studied through rock samples, geophysical measurements and, 
 | Core | Mainly metallic iron and nickel; liquid outer core and solid inner core |
 
 The crust and lithosphere are not the same. The crust is a compositional layer, whereas the lithosphere is defined mainly by mechanical properties and includes the crust together with the rigid uppermost mantle.
+
+### 3.1.2. Mechanical Structure
 
 **Mechanical structure.**
 
@@ -574,6 +578,8 @@ The crust and lithosphere are not the same. The crust is a compositional layer, 
 
 The asthenosphere is not a global ocean of magma. Its material is mostly solid but can flow slowly under high temperatures and pressures. The mantle as a whole is also predominantly solid, although long-term convective motion occurs within it.
 
+### 3.1.3. Key Depths and Properties
+
 Earth's mean radius is about 6,371 km. The crust–mantle boundary is the Mohorovičić discontinuity (Moho); the mantle–core boundary is at about 2,900 km depth. The outer core extends approximately from 2,900 to 5,150 km, while the inner core occupies the planet's centre. Temperature and pressure increase with depth; estimates for the deep interior vary among models.
 
 ### 3.2. Minerals and Their Properties
@@ -581,6 +587,8 @@ Earth's mean radius is about 6,371 km. The crust–mantle boundary is the Mohoro
 A mineral is a naturally occurring, usually inorganic solid with a characteristic chemical composition and an ordered internal structure. Mineralogy studies mineral composition, crystal structure, and physical and optical properties.
 
 Not every naturally occurring solid is a mineral in the strict sense. Volcanic glass, for example, lacks an ordered crystalline structure.
+
+### 3.2.1. Diagnostic Properties
 
 Diagnostic properties include:
 
@@ -592,6 +600,8 @@ Diagnostic properties include:
 6. **Streak:** the colour of a mineral in powdered form.
 7. **Density:** mass per unit volume.
 8. **Crystal habit:** the characteristic external shape of crystals.
+
+### 3.2.2. Mohs Hardness Scale
 
 The Mohs scale is a relative scratch-resistance scale, not a linear scale of absolute hardness.
 
@@ -610,17 +620,27 @@ The Mohs scale is a relative scratch-resistance scale, not a linear scale of abs
 
 A mineral with a higher number will generally scratch one with a lower number. The difference between adjacent steps is not equal.
 
+### 3.2.3. Common Rock-Forming Minerals
+
 Common rock-forming minerals include quartz (SiO₂), orthoclase (KAlSi₃O₈), plagioclase feldspars (a solid-solution series between NaAlSi₃O₈ and CaAl₂Si₂O₈), biotite (a variable-composition mica, often represented by K(Mg,Fe)₃AlSi₃O₁₀(OH,F)₂), muscovite (KAl₂(AlSi₃O₁₀)(OH)₂), calcite (CaCO₃), dolomite (CaMg(CO₃)₂), olivine ((Mg,Fe)₂SiO₄), gypsum (CaSO₄·2H₂O) and halite (NaCl). These are representative or simplified formulae; some minerals have variable compositions.
 
 ### 3.3. Rocks and the Rock Cycle
 
 Rocks are natural aggregates of one or more minerals and may also contain glass or organic matter. By origin, they are divided into three main groups: igneous, sedimentary and metamorphic.
 
+### 3.3.1. Igneous Rocks
+
 **Igneous rocks** form when magma or lava cools and crystallises. Intrusive (plutonic) rocks solidify at depth and commonly have larger crystals; examples include granite and gabbro. Extrusive (volcanic) rocks solidify at or near the surface and often have fine-grained or glassy textures; examples include basalt and obsidian. Composition and texture depend on melt chemistry, cooling rate, volatile content and crystallisation history.
+
+### 3.3.2. Sedimentary Rocks
 
 **Sedimentary rocks** form through the accumulation, compaction and cementation of sediments, chemical precipitation or accumulation of organic material. Main types include clastic rocks (conglomerate, sandstone, siltstone and mudstone), chemical rocks (rock salt and some gypsum deposits), and organic or biochemical rocks (many limestones, chalk and coal). Sedimentary rocks often preserve layering, fossils and evidence of ancient depositional environments.
 
+### 3.3.3. Metamorphic Rocks
+
 **Metamorphic rocks** form when pre-existing rocks are transformed by temperature, pressure and chemically active fluids without completely melting. Examples include limestone transformed into marble, granite transformed into gneiss under suitable conditions, clay-rich rocks transformed into slate or phyllite, and sandstone transformed into quartzite.
+
+### 3.3.4. The Rock Cycle
 
 In the **rock cycle**, any rock group may be transformed into another through weathering, erosion, deposition, burial, metamorphism, melting and crystallisation. It is not a closed cycle with one compulsory sequence; geological pathways are diverse.
 
@@ -628,7 +648,11 @@ In the **rock cycle**, any rock group may be transformed into another through we
 
 Geological research combines field observations, laboratory analysis and geophysical methods.
 
+### 3.4.1. Field Methods
+
 **Field methods** include describing outcrops and geological sections, measuring the orientation of layers and fractures, collecting and documenting samples, geological mapping, and analysing relationships between rock units and structures.
+
+### 3.4.2. Laboratory Methods
 
 **Laboratory methods** include:
 
@@ -643,13 +667,19 @@ Geological research combines field observations, laboratory analysis and geophys
 
 The age of a rock and the age of an event that altered it may differ. The dating method must therefore be selected according to the geological question and sample type.
 
+### 3.4.3. Geophysical Methods
+
 Geophysical methods—including seismic surveys, gravity, magnetic and electrical methods—help investigate the subsurface without collecting samples at every depth.
 
 ### 3.5. Plate Tectonics
 
 Plate tectonics explains the movement of large lithospheric fragments and many patterns in the distribution of earthquakes, volcanoes, mountain belts and ocean-floor structures.
 
+### 3.5.1. Plate Motion
+
 Lithospheric plates move at different rates, from less than 1 cm per year to more than 15 cm per year in some regions; many plate segments move by a few centimetres per year. The rate depends on the plate, direction of motion and timescale considered. Their motion is linked to Earth's thermal evolution and mantle dynamics. Slab pull and forces associated with mid-ocean ridges are important drivers.
+
+### 3.5.2. Types of Plate Boundaries
 
 Three main types of plate boundary are recognised:
 
@@ -659,19 +689,29 @@ Three main types of plate boundary are recognised:
 
 School-level classifications describe three main types of plate boundary. In some regions, plate interaction is distributed across a broad deforming boundary zone rather than a narrow line. Not every convergent boundary is associated with volcanism. Collision between two continents, for example, may thicken the crust and form high mountain systems.
 
+### 3.5.3. Continental Drift and Evidence
+
 The idea of continental drift developed in the early twentieth century. Modern plate tectonics explains the mechanism of lithospheric movement and brings together several lines of evidence: matching geological structures across oceans, similar fossils on continents now separated, palaeoclimatic evidence, magnetic stripes on the ocean floor, the age of oceanic crust and modern geodetic measurements of plate motion.
 
 ### 3.6. Earthquakes
 
 An earthquake is ground shaking caused by the rapid release of accumulated elastic energy in the crust or upper mantle. The most common cause is sudden displacement along a fault.
 
+### 3.6.1. Focus and Epicentre
+
 - **Focus (hypocentre):** the point within the Earth where rupture and energy release begin; teaching diagrams may represent it as a small area.
 - **Epicentre:** the point on Earth's surface directly above the focus.
 - **Fault:** a fracture zone along which rocks have moved or may move.
 
+### 3.6.2. Seismic Waves
+
 **Seismic waves** include P-waves, which are the fastest compressional waves and travel through solids and liquids; S-waves, which are shear waves and travel through solids but not through the liquid outer core; and surface waves, which travel along Earth's surface and often cause substantial damage.
 
+### 3.6.3. Magnitude and Intensity
+
 **Magnitude and intensity are different.** Magnitude characterises earthquake size using instrumental measurements. Moment magnitude (Mw) is widely used for large earthquakes. Intensity describes observed effects and damage at a particular location and can vary across the area affected by one event. Magnitude is not a linear scale: an increase of one unit corresponds to about ten times the amplitude on a comparable seismogram and roughly 32 times more released seismic energy.
+
+### 3.6.4. Seismic Risk
 
 Seismic risk depends not only on the probability of an earthquake but also on building vulnerability, population density, infrastructure quality and emergency preparedness. Seismic hazards cannot be eliminated, but their consequences can be reduced through building standards, engineering assessment and public preparedness.
 
@@ -711,9 +751,15 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 Volcanism includes the processes by which magma rises, gases are released and molten material reaches Earth's surface.
 
+### 3.7.1. Magma and Lava
+
 **Magma** is molten or partly molten material, with crystals and dissolved volatile components, beneath the surface. **Lava** is magma that has reached the surface and has usually lost some of its gases.
 
+### 3.7.2. Volcano Types and Eruptions
+
 Volcano shape depends on magma viscosity and composition, eruption volume and eruption style. Shield volcanoes are built mainly by fluid lava; stratovolcanoes consist of alternating lava and pyroclastic deposits; cinder cones are generally smaller and made largely of loose pyroclastic material; and calderas form when a large volcanic structure collapses after substantial magma withdrawal or eruption from a shallow reservoir. This does not mean that the entire magmatic system must be completely emptied. Eruptions may be effusive or explosive, and some combine both styles.
+
+### 3.7.3. Volcanic Hazards
 
 Volcanic hazards include lava flows, ash fall, pyroclastic flows, volcanic gases, lahars and landslides on volcanic slopes. Pyroclastic flows are especially dangerous because of their high temperature and speed.
 
@@ -721,10 +767,14 @@ Volcanic hazards include lava flows, ash fall, pyroclastic flows, volcanic gases
 
 Rocks deform under stress. Deformation may be ductile, bending layers, or brittle, producing fractures and faults.
 
+### 3.8.1. Folds
+
 **Folds** include:
 - **anticlines**, in which layers are generally arched upwards and the oldest rocks often occur in the core if the structure has not been overturned or disrupted;
 - **synclines**, in which layers are generally folded downwards and younger rocks often occur in the core; and
 - **monoclines**, step-like bends in rock layers.
+
+### 3.8.2. Faults
 
 **Faults** are classified by the relative movement of blocks:
 - a **normal fault** has the hanging wall moving down relative to the footwall;
@@ -737,17 +787,23 @@ Fault type is determined by the direction of relative block movement, not merely
 
 Earth's geological history spans about 4.54 billion years. The ICS 2026/06 chart places the base of the Hadean at 4,567.3 ± 0.16 million years ago, based on the age of the oldest calcium–aluminium-rich inclusions (CAIs) in meteorites. This is a formal boundary tied to the earliest solids in the Solar System, not the exact date when Earth finished forming. Relative and numerical dating are used to reconstruct it.
 
+### 3.9.1. Relative Dating
+
 **Relative dating** relies on several principles:
 - the law of superposition: in an undisturbed sequence, lower layers are generally older than upper layers;
 - original horizontality: sediments are generally deposited in near-horizontal layers;
 - cross-cutting relationships: a geological body or fault that cuts another unit is generally younger than the unit it cuts; and
 - inclusions: fragments contained in a rock are older than the rock that encloses them.
 
+### 3.9.2. Numerical Dating
+
 **Numerical dating** (often called radiometric dating when radioactive decay is used) is based on the decay of a radioactive **parent isotope** into a **daughter isotope** at a predictable rate. A key concept is the half-life: the time required for half of the original parent atoms in a sample to decay. By measuring the proportions of parent and daughter isotopes, scientists calculate a numerical age.
 
 The method is selected according to the sample's age, mineral and geological history. A reliable interpretation must consider whether the mineral system has remained closed to the relevant isotopes since it formed. Heating, metamorphism, weathering or loss of material can alter isotopic ratios. A measured date may therefore record mineral crystallisation or a later event that reset the isotopic system, rather than automatically giving the age of the entire rock.
 
 Suitable igneous minerals and volcanic ash can be dated using appropriate radiometric methods. Many clastic sedimentary rocks cannot be dated directly as a whole: the ages of individual grains may record their source rocks rather than the time of deposition. Their depositional age is often constrained using datable layers above and below, or volcanic ash within the sequence. Examples of isotope systems include uranium–lead, potassium–argon/argon–argon and rubidium–strontium.
+
+### 3.9.3. Geologic Time Scale
 
 The major eons are the Hadean, when Earth formed and underwent early evolution; the Archean, which contains the oldest known evidence of life and development of early crust; the Proterozoic, marked by rising oxygen levels and the development of complex life; and the Phanerozoic, which has an abundant fossil record and includes the Paleozoic, Mesozoic and Cenozoic eras. Boundaries are defined by the international stratigraphic timescale and are refined as research develops. Numerical boundary ages must be checked against the current International Commission on Stratigraphy chart.
 
@@ -775,7 +831,11 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 Earth's surface has changed throughout geological history. Continents have grown through the accretion of island arcs, microcontinents and other terranes, while ocean basins have opened and closed through plate movement.
 
+### 3.10.1. Supercontinents
+
 Large continental assemblies known as supercontinents existed in Earth's history. Two well-known examples are Rodinia and Pangaea. Their reconstructions are based on geological, palaeomagnetic and palaeontological evidence and contain scientific uncertainties. Pangaea existed during the late Paleozoic and early Mesozoic; its breakup contributed to the development of the modern Atlantic and Indian Ocean basins.
+
+### 3.10.2. Ocean Opening and Closure
 
 Rifting may stretch and split continental crust, eventually forming a new ocean basin. During subduction, oceanic lithosphere descends into the mantle. When continents collide, an ocean basin may disappear and continental masses may form folded mountain belts.
 
@@ -783,11 +843,17 @@ Rifting may stretch and split continental crust, eventually forming a new ocean 
 
 Geological resources include mineral deposits, construction materials, groundwater and geothermal energy.
 
+### 3.11.1. Mineral Resource Groups
+
 Mineral resources may be grouped as metallic ores (iron, copper, aluminium and gold), non-metallic resources (phosphorites, salts, gypsum and limestone), energy resources (coal, oil, natural gas and uranium), and construction materials (sand, gravel, clay and building stone).
 
 A mineral occurrence is not necessarily an economically viable deposit. Development depends on grade, reserve volume, extraction technology, infrastructure, environmental constraints and market conditions.
 
+### 3.11.2. Ore-Forming Processes
+
 Deposits may form in igneous, hydrothermal, sedimentary, metamorphic and weathering environments. The same metal can become concentrated through different geological processes.
+
+### 3.11.3. Responsible Resource Use
 
 Mining may disturb land, generate waste, pollute water and air, and transform landscapes. Geological assessment should consider not only the potential value of a resource but also the full life cycle of extraction, processing and rehabilitation.
 
@@ -795,9 +861,15 @@ Mining may disturb land, generate waste, pollute water and air, and transform la
 
 Geological hazards include earthquakes, volcanic eruptions, landslides, rockfalls, debris flows, subsidence and some types of tsunami.
 
+### 3.12.1. Landslides and Rockfalls
+
 A **landslide** is the downslope movement of soil, debris or rock under gravity. It may be triggered by water saturation, slope cutting, earthquakes, weathering and changes in vegetation cover. A **rockfall** is the rapid detachment and fall of large rock blocks; risk is elevated on steep slopes with fractured rock.
 
+### 3.12.2. Debris Flows
+
 A **debris flow** is a rapidly moving mixture of water, mud, rock fragments and other material travelling through channels and valleys. It may occur after intense rainfall, rapid snow and ice melt, or the failure of natural or artificial water bodies.
+
+### 3.12.3. Risk Reduction
 
 Risk-reduction measures include geological and engineering-geological mapping, monitoring of seismicity and slope processes, early-warning systems, compliance with building codes, land-use regulation, public information and evacuation plans.
 
