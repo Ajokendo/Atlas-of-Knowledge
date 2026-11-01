@@ -77,7 +77,7 @@ export const PAGES = [
         <tr><td>Σ<i>F</i><sub>x</sub> = <i>ma</i><sub>c</sub></td><td><i>f</i><sub>s</sub> = <i>mv</i>²/<i>r</i> = ${f(M.CAR.f / 1000)} из ${f(M.CAR.fmax / 1000)} кН</td></tr>
       </table>
       <p>μ<sub>s</sub><i>mg</i> = <i>mv</i>²/<i>r</i>; масса сокращается:</p>
-      <div class="eq"><i>v</i><sub>max</sub> = √(μ<sub>s</sub><i>gr</i>) = ${f(M.CAR.vmax)} m/s</div>
+      <div class="eq"><i>v</i><sub>max</sub> = √(μ<sub>s</sub><i>gr</i>) = ${f(M.CAR.vmax)} м/с</div>
       <p>При большей скорости автомобиль начинает скользить по касательной — продолжает движение прямо, а не отбрасывается наружу.</p>
       <div class="charts">${chart({ x0: 0, x1: 12, y0: 0, y1: 16, xlabel: 'скорость v (м/с)', ylabel: 'необходимая сила трения (кН)', cursor: 'flatcar', label: 'Необходимая сила трения и её максимальное значение',
         series: [{ pts: curve(0, 12, v => Math.min(M.CAR.m * v * v / M.CAR.r / 1000, 16)) }, { cls: 'trend', pts: [[0, M.CAR.fmax / 1000], [12, M.CAR.fmax / 1000]], tag: [0.3, M.CAR.fmax / 1000 + 0.3, 'μs·mg'] }],
@@ -209,8 +209,8 @@ export const PAGES = [
       <p>При движении к перигею у силы тяготения появляется составляющая вдоль <i>v</i>. Она совершает положительную работу: потенциальная энергия <i>U</i> = −<i>GMm</i>/<i>r</i> уменьшается, а кинетическая энергия <i>K</i> на столько же увеличивается. При удалении от Земли эта составляющая замедляет спутник.</p>
       <table class="data">
         <tr><th>${M.SAT_M} кг</th><th><i>K</i></th><th><i>U</i></th><th><i>E</i></th></tr>
-        <tr><td>перигей</td><td>${f(Kp / 1e9, 1)} GJ</td><td>${f(M.Ugrav(M.ELL.rp) / 1e9, 1)} GJ</td><td>${f(M.ELL.E / 1e9, 1)} GJ</td></tr>
-        <tr><td>апогей</td><td>${f(Ka / 1e9, 1)} GJ</td><td>${f(M.Ugrav(M.ELL.ra) / 1e9, 1)} GJ</td><td>${f(M.ELL.E / 1e9, 1)} GJ</td></tr>
+        <tr><td>перигей</td><td>${f(Kp / 1e9, 1)} ГДж</td><td>${f(M.Ugrav(M.ELL.rp) / 1e9, 1)} ГДж</td><td>${f(M.ELL.E / 1e9, 1)} ГДж</td></tr>
+        <tr><td>апогей</td><td>${f(Ka / 1e9, 1)} ГДж</td><td>${f(M.Ugrav(M.ELL.ra) / 1e9, 1)} ГДж</td><td>${f(M.ELL.E / 1e9, 1)} ГДж</td></tr>
       </table>
       <div class="charts">${chart({ x0: 0, x1: 360, y0: -35, y1: 25, xlabel: 'угол от перигея (°)', ylabel: 'энергия (ГДж)', label: 'Кинетическая, потенциальная и полная энергия на эллиптической орбите',
         series: [{ pts: curve(0, 360, d => 0.5 * M.SAT_M * M.ellV(d * Math.PI / 180) ** 2 / 1e9, 120), tag: [172, 5, 'K'] },
