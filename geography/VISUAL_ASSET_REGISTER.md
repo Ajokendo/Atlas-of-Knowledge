@@ -32,7 +32,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 | 17 | 17-A–17-I | 9 | Kyrgyzstan location; physical map; mountain systems; valleys; geological evolution; tectonics; relief formation; elevation; resources |
 | 18 | 18-A–18-J | 10 | Relief; tectonics; mountain ranges; peaks; glacial forms; geology; river landforms; mineral districts; hazards |
 | 19 | 19-A–19-J | 10 | Climate regions; precipitation; altitudinal belts; hazards; temperature trends; circulation; temperature; inversions; climate belts; adaptation |
-| 20 | 20-A–20-J | 10 | Glaciers; river basins; lakes; hydropower; transboundary management; glacial-lake hazards; hydrographs; water balance; glacier anatomy; groundwater |
+| 20 | 20-A–20-K | 11 | Glaciers; river basins; lakes; hydropower; transboundary management; glacial-lake hazards; hydrographs; water balance; glacier anatomy; groundwater; 2025 water-use infographic |
 | 21 | 21-A–21-J | 10 | Biogeography; vegetation belts; forests; fauna; protected areas; crop wild relatives; vegetation map; food web; threats; monitoring |
 | 22 | 22-A–22-J | 10 | Natural zones; protected areas; reserves; ecological corridors; parks; biosphere zoning; ecotourism; governance; threats; management effectiveness |
 | 23 | 23-A–23-L | 12 | Population density; demographic panel; urban system; migration; urban/rural settlement; regional population; age-sex structure; agglomeration; seasonal settlement; hazards; scenarios |
@@ -40,7 +40,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 | 25 | 25-A–25-L | 12 | Cities; agglomerations; economy; value chains; transport; energy; spatial development |
 | 26 | 26-A–26-L | 12 | Climate; glaciers and water; river-basin vulnerability; pastures; forests; air; sanitation; waste; hazards; mining; green cities; 2050 scenarios |
 
-**Total indexed assets: 216 unique IDs across 26 chapters.**
+**Total indexed assets: 217 unique IDs across 26 chapters.**
 
 ## Important consistency repairs in this pass
 
@@ -64,5 +64,6 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 - **Indexed:** 216 unique visual IDs.
 - **Briefed:** all 216 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
-- **Generated and approved:** none are claimed by this register.
+- **Created and embedded (pending final scientific/editorial review):** 1 asset — 20-K, `assets/20-K-national-water-use-2025.svg`.
+- **Generated and fully approved:** none are claimed by this register.
 - **Next work:** check the older Chapters 01–06 and all regional/administrative map briefs against authoritative source datasets; then create and review the assets in production batches.
