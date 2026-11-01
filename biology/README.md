@@ -1080,3 +1080,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - A further Himalayan gamebird attempt (ImageGen ID `f4878bf9-3cea-45f2-b522-72c97e52b446`) repeated the rejected monal-like/pheasant appearance and was excluded as a duplicate, not counted as an asset.
 - Clarified `IMAGE_DISPOSITION_REGISTER.md`: local-only concept drafts exist for some subjects, but none has passed scientific/editorial approval or been committed/integrated. This replaces the inaccurate blanket wording that no rendered drafts exist.
 - The 52 mapped publication assets remain Deferred; controlled readiness remains 95/100.
+
+
+## User-provided snowcock visual candidate — 1 November 2026
+
+- Reviewed a user-provided 1536×1024 bird image and created a local WebP review copy (`biology-himalayan-snowcock-user-candidate.webp`, 345,724 bytes; not committed).
+- The overall alpine gamebird form and chestnut neck markings are relevant, but the dark throat/face pattern does not clearly match the regional description of adult `Tetraogallus himalayensis` (white throat/neck bordered by rufous, spotted creamy crop, darker grey belly). Species identity, local subspecies context, source and licence need expert verification.
+- It is a single bird, not the complete mapped 16:9 three-habitat bird plate. No insertion or marker status change; all 52 mapped assets remain Deferred. See `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
