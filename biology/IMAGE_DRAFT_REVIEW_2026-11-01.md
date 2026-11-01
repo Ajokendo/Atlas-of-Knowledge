@@ -73,3 +73,14 @@ A fifth six-panel collage was generated (ImageGen generation ID `727a305a-0525-4
 The flower has a conspicuous red-orange pendant bell-shaped inflorescence and whorled green foliage. It visually suggests a fritillary-type plant, but generated morphology is not enough to assign `Petilium eduardii`, `Fritillaria`, or another taxon. Botanical identification and comparison with the chapter's accepted nomenclature are required. The mountain background is illustrative and does not establish a Kyrgyzstan locality or population record.
 
 This is a local-only draft: it has not been committed as an image asset, inserted into a chapter, or approved for publication. Repeated animal panels in the collage were not counted as new candidates. All 52 image markers and their Deferred dispositions remain unchanged.
+
+
+## Sixth production attempt: standalone fritillary-like flower concept
+
+A standalone square botanical concept was generated (ImageGen generation ID `e4c6a92e-803e-4c4e-9b1f-d9ff6fe68671`) and converted to WebP for review:
+
+- `biology-fritillary-like-flower-standalone-candidate.webp` — 1254×1254, 379,276 bytes.
+
+The image depicts a tall red-orange pendant-flowered plant with a crown-like cluster and whorled foliage. It is visually reminiscent of a fritillary/crown-imperial form, but the generated morphology is not a reliable taxonomic reference. Do not assign `Petilium eduardii`, `Fritillaria`, or any species without expert review against diagnostic characters and the chapter's accepted nomenclature. The alpine setting is illustrative, not a verified Kyrgyzstan locality.
+
+This is a local-only candidate; it is not committed as a raster asset, inserted into a chapter, or approved for publication. Existing insertion markers and dispositions are unchanged.
