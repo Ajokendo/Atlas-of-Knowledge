@@ -70,4 +70,6 @@
 
 ## Completion status
 
-All 52 entries are placeholders only. No image is considered complete until the actual asset exists, its scientific content is checked, its alt text and caption are reviewed in both languages, and the in-page note is replaced at the same anchor. 
+All 52 entries are placeholders only and have an explicit **Deferred** disposition in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). This is a text-first release decision under the user's accepted fallback, not a claim that image production is complete. No third-party image has been inserted without a verified source and licence.
+
+No image is considered produced until the actual asset exists, its scientific content is checked, its alt text and caption are reviewed in both languages, and the in-page note is replaced at the same anchor. The current placeholders remain integrated at the exact mapped positions; the 52-asset disposition is complete, while visual production remains pending. 
