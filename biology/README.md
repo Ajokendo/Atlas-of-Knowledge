@@ -406,7 +406,7 @@ The score should increase only when evidence for the relevant checklist items is
 
 
 ## Taxonomic cross-check and bibliography cleanup — 1 November 2026
-- Added the 19 October 2026 Central Asian mammal checklist (version 1.11) as a regional taxonomic cross-check, while explaining that it is a literature/data synthesis rather than field research and that it explicitly records country-level presence and taxonomy disagreements with the GBIF Backbone.
+- Added the Central Asian mammal checklist as a regional taxonomic cross-check; the current GBIF release is version 1.12, published 26 October 2026 (DOI 10.15468/hmrvjn). It is a five-country literature synthesis, not field research, and records country-level presence and taxonomy disagreements with the GBIF Backbone.
 - Audited the Son-Kul fish names against IUCN, FishBase, GBIF/Catalogue of Life and FAO references. The text now flags the source-paper spelling *Triplophysa stoliczkae* against the accepted spelling *T. stolickai*, and cautions that the IUCN range account does not list Kyrgyzstan; the local identification is therefore attributed to the study pending specimen/genetic confirmation.
 - Clarified that *Diptychus dybowskii* is an earlier combination for *Gymnodiptychus dybowskii* in GBIF/Catalogue of Life. Also flagged the scaled-osman name *Diptychus dybowskii micromakulatus* as taxonomically unresolved across the 2023 local paper, FAO's historical combination *Diptychus gymnogaster micromakulatus*, and FishBase's species-level *Diptychus maculatus* entry; the atlas preserves the source's wording instead of silently rewriting the record.
 - Consolidated five duplicated bibliography URLs into single bilingual entries with combined annotations. The bibliography now contains 91 entries with no repeated URLs.
@@ -1208,3 +1208,13 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Updated the regional species audit and source-level regression guards; GitHub changes are saved. `checks.mjs`, browser tests, mobile checks and CI were not run. No test pass is claimed.
 - The 52 image insertion anchors remain mapped and Deferred; no image asset was added.
 - Repeat-audit coverage is 60%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
+
+
+## Repeat-audit milestone — 70% — 1 November 2026
+
+- Updated the fauna chapter from mammal checklist v1.11 to GBIF v1.12 (published 26 October 2026) and clarified its literature-synthesis / non-field-sampling method.
+- Compared four bird-list references and documented why their reported totals (407, 327, 380 and 133 regular open-data species) have different scopes and must not be combined into a definitive national total.
+- Added bilingual explanatory text, direct links and regression guards; expanded the seven-oblast species-evidence audit.
+- GitHub read-back verified all changed source and checkpoint files. `checks.mjs`, browser tests, mobile checks and CI were not run; no test pass is claimed.
+- The 52 image insertion anchors remain mapped and Deferred; no image asset was added.
+- Repeat-audit coverage is 70%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
