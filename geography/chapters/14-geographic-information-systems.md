@@ -656,6 +656,51 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 Подготовьте небольшой проект с исходными данными, описанием CRS, шагами обработки, итоговой картой, метаданными и перечнем ограничений. Другой участник должен иметь возможность повторить основные операции.
 
+### English Summary
+
+1. GIS combines spatial data, software, methods, infrastructure and users.
+2. Geographic features are described by geometry and attributes.
+3. Vector and raster models are suited to different types of spatial information.
+4. Coordinate systems and projections must match the territory and analytical task.
+5. Spatial operations identify relationships between features and layers.
+6. Network and raster analysis support accessibility studies and spatial modelling.
+7. Data quality includes accuracy, completeness, currency, consistency and lineage.
+8. Metadata and standards support interpretation and interoperability.
+9. Cartographic design influences how data are understood.
+10. Ethics and privacy protection are essential parts of GIS practice.
+11. A reproducible workflow documents data and methods.
+
+### English Review Questions
+
+1. How does GIS differ from an ordinary electronic map?
+2. Which components make up a GIS?
+3. When is a vector model more appropriate, and when is a raster model?
+4. Why is pixel size not automatically the same as data accuracy?
+5. What does a coordinate reference system define, and why should the CRS of every layer be checked?
+6. Why should distances not be measured casually in geographic degrees?
+7. How does geocoding differ from reverse geocoding?
+8. What are buffers, intersections and spatial joins used for?
+9. How does the shortest route differ from the fastest route?
+10. What is topology, and which errors can it help identify?
+11. Which characteristics are included in spatial data quality?
+12. Why are metadata important for reproducibility?
+13. How should a thematic mapping method be selected?
+14. Which privacy risks may arise when geographic data are published?
+
+### English Practical Activities
+
+**1. Creating a thematic map.** Download open population data and administrative boundaries. Check the CRS, join the table to the geometry using an identifier and create a choropleth of a normalised indicator. State the year, source and limitations.
+
+**2. Vector and raster.** Create or download a vector layer of water bodies and a raster elevation model. Compare how discrete features and continuous surfaces are represented. Explain how resolution affects the result.
+
+**3. Service accessibility.** Select settlements and social-service facilities. First calculate simple distance zones, then network-based zones if a reliable road network is available. Compare the results and explain the differences.
+
+**4. Terrain analysis.** Use a digital elevation model to create slope and aspect maps. Check the source raster's resolution and vertical accuracy. Describe possible applications and limitations.
+
+**5. Data quality control.** Check an administrative polygon dataset for gaps, overlaps, self-intersections and missing attributes. Prepare a table of errors found, correction methods and remaining uncertainty.
+
+**6. Reproducible GIS project.** Prepare a small project containing source data, CRS information, processing steps, a final map, metadata and a list of limitations. Another participant should be able to repeat the main operations.
+
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
 **Иллюстрация 14.1 / Figure 14.1 — Архитектура ГИС / GIS architecture.**  
