@@ -14,7 +14,7 @@ let axeSerious = 0;
 
 const browser = await chromium.launch({
   headless: true,
-  args: ['--enable-webgl', '--ignore-gpu-blocklist', '--use-gl=angle', '--use-angle=swiftshader'],
+  args: ['--enable-webgl', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--use-gl=angle', '--use-angle=swiftshader'],
 });
 
 async function checkLab(lab, mobile) {
