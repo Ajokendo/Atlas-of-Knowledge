@@ -185,8 +185,8 @@ export function buildWorld(E) {
   const eS = []; for (const x of grid3) for (const z of grid3) for (const s of [1, -1]) eS.push({ x, z, s, ar: fieldArrow(gS) });
   label('vec blue', '<b>E</b>', () => tip(eS[0].ar)); label('vec blue', '<b>E</b>', () => tip(eS[1].ar));
   label('tick', 'σ', () => V(cS.x - W2 - 0.1, Y + 0.12, W2));
-  label('tick', 'top: EA', () => ex(gS) > 0.3 ? pbS.top.getWorldPosition(V()).add(V(-0.2, 0.25, 0)) : null);
-  label('tick', 'bottom: EA', () => ex(gS) > 0.3 ? pbS.bot.getWorldPosition(V()).add(V(-0.2, -0.3, 0)) : null);
+  label('tick', 'верхняя крышка: EA', () => ex(gS) > 0.3 ? pbS.top.getWorldPosition(V()).add(V(-0.2, 0.25, 0)) : null);
+  label('tick', 'нижняя крышка: EA', () => ex(gS) > 0.3 ? pbS.bot.getWorldPosition(V()).add(V(-0.2, -0.3, 0)) : null);
   label('tick', 'side: 0', () => ex(gS) > 0.3 ? cS.clone().add(V(-0.55, 0.45, 0)) : null);
   // the plate
   const cP = V(STATIONS.plate, Y, 0), TP = M.PLATE.t * D;
@@ -196,7 +196,7 @@ export function buildWorld(E) {
   const pbP = pillbox(gP, cP, M.SHEET.pr * D, 0, TP / 2 + 0.8, 0.8);
   const eP = []; for (const x of grid3) for (const z of grid3) for (const s of [1, -1]) eP.push({ x, z, s, ar: fieldArrow(gP) });
   label('vec blue', '<b>E</b>', () => tip(eP[0].ar)); label('vec blue', '<b>E</b>', () => tip(eP[1].ar));
-  label('tick', 'top: EA', () => ex(gP) > 0.3 ? pbP.top.getWorldPosition(V()).add(V(-0.2, 0.25, 0)) : null);
+  label('tick', 'верхняя крышка: EA', () => ex(gP) > 0.3 ? pbP.top.getWorldPosition(V()).add(V(-0.2, 0.25, 0)) : null);
   label('tick', 'in the metal: E = 0', () => ex(gP) > 0.3 ? pbP.bot.getWorldPosition(V()).add(V(-0.2, -0.3, 0)) : null);
 
   // ======================================================================
