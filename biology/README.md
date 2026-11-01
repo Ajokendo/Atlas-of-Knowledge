@@ -959,3 +959,13 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Chapter commit: `029a51f04974c6e6c1a06065bdec60c8bd1f09c5`. Nephron flow-arrow refinement: `a85f987c716a5d71cda01a11bdc99a5b80e53de8`. Regression-check commit: `c3a24ceae7d3b933118ab5f9cdd9a5bb7de7d99c`.
 - Focused GitHub read-back and assertion review are pending. The full Node.js suite, Chromium smoke suite and CI have not been run on these commits. Controlled readiness remains **95/100**; independent G4/G5 reviews remain open.
 - No new image insertion anchor was added; the existing 52-image map and deferral register are to remain unchanged.
+
+
+## Cardiovascular physiology and cardiac conduction — 1 November 2026
+
+- Added a bilingual cardiovascular physiology lesson to `chapters/anatomy.html`: cardiac cycle (diastole and ventricular systole), stroke volume and cardiac output, the electrical conduction sequence (SA node → atria → AV node → His bundle and branches → Purkinje fibres), baroreceptor reflex, and integration with renal RAAS and vasopressin regulation.
+- Added an accessible SVG flow diagram for cardiac electrical conduction with bilingual title and description.
+- Included the cardiac-output relationship and explicit distinctions between heart rate, cardiac output and arterial pressure; clarified rapid baroreflex versus longer-term renal/hormonal regulation.
+- Chapter commit: `af8a0108af71f0c93d10ff2b70dddb1be04cacd1`. Regression-check commit: `55a7262c61db31b4d6d6ea3d5dc14bfe8a30b0dd`.
+- Focused read-back verification is pending. Full Node.js, Chromium and CI checks have not yet been run on these commits. Controlled readiness remains **95/100**; independent G4/G5 reviews remain open.
+- Existing 52 image anchors and all Deferred dispositions are to remain unchanged.
