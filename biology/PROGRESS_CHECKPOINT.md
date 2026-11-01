@@ -554,3 +554,13 @@
 - Linked the plan from `biology/README.md` and `biology/INDEPENDENT_REVIEW_BUNDLE.md`.
 - This is **25% of recruitment-readiness preparation**, not evidence that candidates have been identified, contacted or accepted. No independent review has taken place; G4/G5 remain open.
 - The 52 planned illustrations remain deferred. Screen-reader, contrast, keyboard and physical-device release checks remain outstanding. Controlled editorial readiness remains **95/100**; no publication-readiness increase is claimed.
+
+## Independent reviewer recruitment readiness — 50% milestone
+
+- Researched and recorded publicly documented institutional routes in `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md`: Institute of Biology NAS KR (ichthyology/hydrobiology, vertebrate zoology and flora research units), KNU Faculty of Biology, Kyrgyz-Turkish Manas University Biology Department, E. Gareev Botanical Garden, Ilbirs Foundation and the official NAS institutional directory.
+- Matched each route to plausible specialist nomination needs and recorded official pages/public contact channels where available. These are candidate-sourcing routes, not endorsements or proof that any named person is available or independent.
+- Identified the Institute of Biology as the strongest initial nomination route for regional Kyrgyzstan biodiversity expertise, with KNU and Manas as important independent academic cross-check channels.
+- Explicitly flagged conflict screening: anyone who authored or participated in a dataset/source under review must not independently validate that same source without a documented conflict assessment.
+- No invitation has been sent and no reviewer has accepted. No reviewer names are classified as confirmed candidates. G4/G5 remain open and every claim/page status remains Pending.
+- This completes **50% of recruitment-readiness preparation**: reviewer roles and criteria are defined, and a sourced institutional outreach map is documented. Remaining work is candidate-level qualification screening, direct invitations and agreement on scope/availability.
+- The 52 planned illustrations remain deferred. Screen-reader, measured contrast, keyboard and physical-device checks remain separate outstanding release gates. Controlled editorial readiness remains **95/100**; no publication-readiness increase is claimed.
