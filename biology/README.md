@@ -969,3 +969,14 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Chapter commit: `af8a0108af71f0c93d10ff2b70dddb1be04cacd1`. Regression-check commit: `55a7262c61db31b4d6d6ea3d5dc14bfe8a30b0dd`. Boundary correction in regression assertions: `3ca37b077b4cd0ab829394e1b562843f6f495b48`.
 - Focused read-back verification is pending. Full Node.js, Chromium and CI checks have not yet been run on these commits. Controlled readiness remains **95/100**; independent G4/G5 reviews remain open.
 - Existing 52 image anchors and all Deferred dispositions are to remain unchanged.
+
+
+## Illustration marker readiness audit — 1 November 2026
+
+- Audited all 52 mapped illustration markers against the actual 13 page files: 52/52 anchors exist, IDs are unique, descriptions are non-empty and all markers contain Russian and English brief text.
+- The insertion map and disposition register match 52/52; all 52 remain intentionally deferred. Priority allocation is 13 P1, 26 P2 and 13 P3. All 13 P1 briefs match the detailed scientific review; all 39 P2/P3 briefs match the individual brief review.
+- Actual asset inventory: the Biology root has no `images/` directory, `images/generated/` is absent, and the 13 marker-bearing pages contain 22 inline SVGs but zero HTML raster-image elements. No WebP asset is claimed as generated.
+- Corrected the stale SVG inventory count in `IMAGE_GENERATION_PLAN.md` from 16 to 22.
+- Added `IMAGE_READINESS_AUDIT_2026-11-01.md` with the full marker audit, asset-pipeline limitation, production sequence and scientific holds (especially freshwater fish taxonomy and Batken Aygul/wild tulips).
+- Audit commit: `1cc58a7da6c13c53c8693452fa3f975739b5a906`. Plan update commit: `5591bf5f4089eef983a282269777e1154afe9623`.
+- No marker IDs, positions, filenames, priorities or page anchors were changed. No image was generated or marked complete. A verified binary-image ingestion route is still required before a rendered image can be committed at its exact WebP path.
