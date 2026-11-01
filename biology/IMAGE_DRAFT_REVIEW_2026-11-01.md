@@ -156,3 +156,12 @@ The snowcock illustration remains unfulfilled. All 52 image markers remain Defer
 ## Further rejected gamebird attempt
 
 ImageGen ID `f4878bf9-3cea-45f2-b522-72c97e52b446` produced another pheasant/monal-like alpine gamebird, not a defensible Himalayan snowcock. It repeats the preceding rejected monal-like output and is excluded as a near-duplicate. No candidate filename, insertion anchor or disposition is assigned.
+
+
+## User-provided Himalayan snowcock visual candidate
+
+A user-provided image was received and reviewed as a possible visual study for the P1 bird plate. The source file was `a_crisp_high_resolution_wildlife_photograph_of_a.png` (1536×1024); a local WebP review copy was created at `/mnt/data/biology-himalayan-snowcock-user-candidate.webp` (1536×1024, 345,724 bytes). This is a user-provided candidate; its creation method, original author, licence and photographic provenance are not established by the file name or appearance.
+
+The bird has a robust high-altitude gamebird silhouette, grey-brown patterned upperparts, pale facial area, chestnut neck markings and reddish legs. These features make it a more relevant snowcock study than the rejected monal-like and chukar-like attempts. However, the visible dark throat/face pattern and the underpart pattern do not clearly match the regional field description for adult `Tetraogallus himalayensis`: the Kyrgyzstan birding reference describes an ash-grey head, white throat and neck bordered by a brownish-rufous stripe, a creamy crop with dark spots, and a darker grey belly. The image therefore remains an unverified concept, not an accepted species depiction. It must not be captioned as a confirmed Himalayan snowcock or as a Kyrgyzstan field photograph until an ornithologist checks the diagnostic pattern, local subspecies context and provenance/licence.
+
+The image is portrait-ish landscape (3:2), while the mapped plate is 16:9 and requires three ecological groups (cliff raptor, high-altitude ground bird, and lake/wetland waterbirds). This single-bird candidate cannot fulfil the complete plate. It remains local-only, uncommitted and uninserted. No image marker or disposition changed.
