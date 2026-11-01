@@ -350,3 +350,15 @@
 - GitHub read-back verified the saved files in this save cycle. The 52 image anchors and 52 Deferred dispositions remain unchanged; no image asset is claimed as generated or integrated.
 - The regression script, browser, mobile, accessibility and CI checks have not been run; no test pass is claimed. G4 independent scientific review and G5 independent bilingual/editorial review remain open.
 - Repeat-audit coverage: **90%**. Controlled editorial readiness remains **95/100**; this is not publication approval.
+
+
+## 100% author-side repeat-audit milestone — 1 November 2026
+
+- Added the Ministry of Natural Resources' 3 June 2026 notice on the Common Crane (Grus grus) breeding record at Jety-Oguz, Issyk-Kul: nest found 19 April; pair with two chicks observed 24 May. The chapter describes this as the first ministry-reported Issyk-Kul record and the second known national nesting record only according to the Ministry's historical summary (one prior Chui Valley record in 1958). It does not infer range expansion, fledging success or a population trend.
+- Added a bilingual chapter entry, an evidence-classification note in the Kyrgyzstan species audit, an explicit P2 question in the independent scientific-review packet, and source/date/scope regression guards.
+- The 2026 Common Crane notice and August 2026 Demoiselle Crane migration aggregation are distinct dated records; neither is used as a population estimate.
+- Saved the chapter, species audit, regression-check source, external-review packet and milestone documents to workspace/biology; read-back verification is recorded for the changed files.
+- Author-side source-led repeat-audit work is marked 100% complete. This does not close G4 independent scientific review or G5 independent bilingual/editorial release review; both remain open and require qualified external sign-off. It is not publication approval.
+- All 52 image anchors remain mapped and all 52 image dispositions remain Deferred; visual production is not complete.
+- checks.mjs and browser/mobile/accessibility/CI checks have not been run in this save cycle. No test pass is claimed.
+- Controlled editorial-readiness score remains 95/100; it is not increased by completing the author-side repeat audit.
