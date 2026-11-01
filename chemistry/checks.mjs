@@ -187,7 +187,11 @@ for (const [label, evidence] of [
   ["cellulose structural role", "целлюлоза выполняет структурную функцию"],
   ["carbohydrate classification in English", "Carbohydrates are classified by the number of sugar units"],
   ["storage polysaccharides in English", "Starch and glycogen are storage polysaccharides"],
-  ["carbohydrate formula caveat", "Not all carbohydrates follow the formula"]
+  ["carbohydrate formula caveat", "Not all carbohydrates follow the formula"],
+  ["phospholipid amphiphilicity in Russian", "Фосфолипиды амфифильны"],
+  ["phospholipid bilayer in Russian", "липидного бислоя клеточных мембран"],
+  ["phospholipid amphiphilicity in English", "Phospholipids are amphiphilic"],
+  ["phospholipid bilayer in English", "lipid bilayer in cell membranes"]
 ]) {
   if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
 }
