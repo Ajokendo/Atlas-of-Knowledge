@@ -37,6 +37,24 @@ function objectLiteralAt(source, start) {
   return null;
 }
 
+
+function arrayLiteralAt(source, start) {
+  let depth = 0, quote = null, escaped = false;
+  for (let i = start; i < source.length; i++) {
+    const char = source[i];
+    if (quote) {
+      if (escaped) escaped = false;
+      else if (char === "\\") escaped = true;
+      else if (char === quote) quote = null;
+      continue;
+    }
+    if (char === '"' || char === "'" || char === "\`") { quote = char; continue; }
+    if (char === "[") depth++;
+    if (char === "]" && --depth === 0) return source.slice(start, i + 1);
+  }
+  return null;
+}
+
 function plainText(markup) {
   return markup
     .replace(/<\/?[a-zA-Z][^>]*>/g, "")
@@ -163,6 +181,33 @@ if (!periodicData) {
       errors.push("periodic-table.html: invalid group or period for record " + (i + 1));
     }
     if (!row[2] || !row[3]) errors.push("periodic-table.html: missing bilingual element name for record " + (i + 1));
+  }
+}
+
+const glossarySource = fs.readFileSync(path.join(root, "glossary.html"), "utf8");
+const glossaryMatch = glossarySource.match(/\bconst entries\s*=\s*\[/);
+if (!glossaryMatch) {
+  errors.push("glossary.html: term data array not found");
+} else {
+  try {
+    const literal = arrayLiteralAt(glossarySource, glossaryMatch.index + glossaryMatch[0].lastIndexOf("["));
+    const entries = vm.runInNewContext("(" + literal + ")");
+    const categories = new Set(["matter", "reaction", "solution", "organic", "environment"]);
+    if (!Array.isArray(entries) || entries.length !== 102) {
+      errors.push("glossary.html: expected 102 bilingual terms");
+    } else {
+      if (new Set(entries.map(entry => entry[0])).size !== entries.length) errors.push("glossary.html: duplicate Russian term titles");
+      if (new Set(entries.map(entry => entry[1])).size !== entries.length) errors.push("glossary.html: duplicate English term titles");
+      entries.forEach((entry, index) => {
+        if (!Array.isArray(entry) || entry.length !== 5 ||
+            entry.some(value => typeof value !== "string" || !value.trim()) ||
+            !categories.has(entry[4])) {
+          errors.push("glossary.html: malformed bilingual glossary record " + (index + 1));
+        }
+      });
+    }
+  } catch (error) {
+    errors.push("glossary.html: could not parse term data: " + error.message);
   }
 }
 
