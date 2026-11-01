@@ -1016,6 +1016,19 @@ try {
         if (!Array.isArray(history) || history.length !== 1 || history[0].total !== 6) {
           errors.push(file + ": completed trainer attempt was not saved exactly once");
         }
+        await page.locator("#lang").click();
+        if (!(await page.locator("#instruction").innerText()).includes("Practice complete!") ||
+            (await page.locator("#next").innerText()).trim() !== "Start again") {
+          errors.push(file + ": switching to English must preserve the completed trainer screen");
+        }
+        const historyAfterTranslation = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-trainer-v1-history-v1") || "[]"));
+        if (!Array.isArray(historyAfterTranslation) || historyAfterTranslation.length !== 1) {
+          errors.push(file + ": changing language after completion must not save a duplicate attempt");
+        }
+        await page.locator("#lang").click();
+        if (!(await page.locator("#instruction").innerText()).includes("Практикум завершён!")) {
+          errors.push(file + ": switching back to Russian must preserve the completed trainer screen");
+        }
       }
     }
 
