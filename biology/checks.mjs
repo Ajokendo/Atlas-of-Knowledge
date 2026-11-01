@@ -76,6 +76,29 @@ for (const file of pages) {
   }
 }
 if (pages.length !== 13) errors.push("Expected 13 Biology HTML pages; found " + pages.length);
+
+// Keep the 52 planned image anchors and their central production map in sync.
+const imageMapPath = path.join(root, "IMAGE_INSERTION_MAP.md");
+if (!fs.existsSync(imageMapPath)) {
+  errors.push("Missing Biology IMAGE_INSERTION_MAP.md");
+} else {
+  const imageMap = fs.readFileSync(imageMapPath, "utf8");
+  const mappedRows = [...imageMap.matchAll(/^\\| `(image-brief-[^\\`]+)` \\| `([^\\`]+)` \\| [^|]*\\| `([^\\`]+)` \\|/gm)];
+  const mappedIds = mappedRows.map(m => m[1]);
+  const mappedFiles = mappedRows.map(m => m[3]);
+  const pageIds = pages.flatMap(file => {
+    const html = fs.readFileSync(file, "utf8");
+    return [...html.matchAll(/\\bid=["'](image-brief-[^"']+)["']/gi)].map(m => m[1]);
+  });
+  const mappedSet = new Set(mappedIds);
+  const pageSet = new Set(pageIds);
+  if (mappedRows.length !== 52) errors.push("Expected 52 image insertion-map rows; found " + mappedRows.length);
+  if (mappedSet.size !== mappedIds.length) errors.push("Image insertion map contains duplicate anchor IDs");
+  if (new Set(mappedFiles).size !== mappedFiles.length) errors.push("Image insertion map contains duplicate target filenames");
+  if (pageSet.size !== pageIds.length) errors.push("Biology pages contain duplicate image placeholder IDs");
+  for (const id of mappedIds) if (!pageSet.has(id)) errors.push("Image map anchor is missing from Biology pages: " + id);
+  for (const id of pageIds) if (!mappedSet.has(id)) errors.push("Biology page image placeholder is missing from insertion map: " + id);
+}
 const coreChapters = [
   "botany.html", "zoology.html", "cell-biology.html", "anatomy.html",
   "genetics.html", "microbiology.html", "ecology.html", "evolution.html",
