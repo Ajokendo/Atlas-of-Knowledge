@@ -1073,3 +1073,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 
 - Two further bird-image attempts produced a monal-like pheasant and a chukar-like partridge, not a reliable Himalayan snowcock (`Tetraogallus himalayensis`) depiction. Both are excluded from the candidate count; the partridge-like output also repeats an existing concept.
 - The snowcock target remains unfulfilled. No new raster asset, insertion or marker completion resulted. All 52 markers remain Deferred; readiness remains 95/100.
+
+
+## Image production quality-control — 1 November 2026
+
+- A further Himalayan gamebird attempt (ImageGen ID `f4878bf9-3cea-45f2-b522-72c97e52b446`) repeated the rejected monal-like/pheasant appearance and was excluded as a duplicate, not counted as an asset.
+- Clarified `IMAGE_DISPOSITION_REGISTER.md`: local-only concept drafts exist for some subjects, but none has passed scientific/editorial approval or been committed/integrated. This replaces the inaccurate blanket wording that no rendered drafts exist.
+- The 52 mapped publication assets remain Deferred; controlled readiness remains 95/100.
