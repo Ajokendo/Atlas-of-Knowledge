@@ -855,9 +855,9 @@ On a schematic geological cross-section, identify:
 14. USGS. *Geologic Age: Using Radioactive Decay to Determine Geologic Age* (parent and daughter isotopes, half-life and age equation). https://www.usgs.gov/educational-resources/geologic-age-using-radioactive-decay-determine-geologic-age
 15. USGS. *Geologic Time: Radiometric Time Scale* (dating igneous minerals and bracketing sedimentary sequences). https://pubs.usgs.gov/gip/geotime/radiometric.html
 16. USGS. *Fossils, Rocks, and Time: The Numeric Time Scale* (isotopes and half-life). https://pubs.usgs.gov/gip/fossils/numeric.html
-15. British Geological Survey. *What Causes Earthquakes?* (fault movement and normal, reverse and strike-slip faults). https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/
-16. USGS. *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
-17. Halla, J. et al. (2024). *Ratification of the base of the ICS Geological Time Scale: the Global Standard Stratigraphic Age (GSSA) for the Hadean lower boundary*. Episodes. https://doi.org/10.18814/epiiugs/2024/024002
+17. British Geological Survey. *What Causes Earthquakes?* (fault movement and normal, reverse and strike-slip faults). https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/
+18. USGS. *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
+19. Halla, J. et al. (2024). *Ratification of the base of the ICS Geological Time Scale: the Global Standard Stratigraphic Age (GSSA) for the Hadean lower boundary*. Episodes. https://doi.org/10.18814/epiiugs/2024/024002
 
 При подготовке окончательной версии следует сверять геологические термины и численные параметры с актуальной международной стратиграфической шкалой и региональными геологическими картами.
 
