@@ -242,6 +242,15 @@ for (const phrase of ["contact-dependent", "paracrine", "endocrine", "synaptic",
 if (!/<span class="ru">/.test(cellSignalingBlock) || !/<span class="en">/.test(cellSignalingBlock)) errors.push("chapters/cell-biology.html: cell-signalling lesson must be bilingual");
 if (!cellSignalingBlock.includes('role="img"') || !cellSignalingBlock.includes('aria-labelledby="cell-signal-svg-title cell-signal-svg-desc"') || !cellSignalingBlock.includes("<title") || !cellSignalingBlock.includes("<desc")) errors.push("chapters/cell-biology.html: signalling diagram must have accessible SVG title and description");
 
+const cellCycleControlStart = cellBiologyFile.indexOf('id="cell-cycle-checkpoints-apoptosis"');
+const cellSignalingStart = cellBiologyFile.indexOf('id="cell-signaling-pathways"');
+const cellCycleControlBlock = cellBiologyFile.slice(cellCycleControlStart, cellSignalingStart);
+if (cellCycleControlStart < 0 || cellSignalingStart <= cellCycleControlStart) errors.push("chapters/cell-biology.html: cell-cycle control lesson must precede cell signalling");
+for (const phrase of ["G1/S", "G2/M", "spindle-assembly checkpoint", "cyclin", "cyclin-dependent kinase", "apoptosis", "necrosis", "DNA repair"]) {
+  if (!cellCycleControlBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/cell-biology.html: cell-cycle control lesson missing mechanism or distinction: " + phrase);
+}
+if (!/<span class="ru">/.test(cellCycleControlBlock) || !/<span class="en">/.test(cellCycleControlBlock)) errors.push("chapters/cell-biology.html: cell-cycle control lesson must be bilingual");
+
 const geneticsFile = fs.readFileSync(path.join(root, "chapters", "genetics.html"), "utf8");
 if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.includes("updateDynamic();updateMutation()")) {
   errors.push("chapters/genetics.html: mutation model must preserve and translate selection on language switch");
