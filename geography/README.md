@@ -1,3 +1,9 @@
+
+
+### Visual production update — 1 November 2026
+
+- The Geography visual register now tracks 217 unique assets across 26 chapters. Four SVG illustrations have been created and embedded in Chapters 18–20: mountain-slope processes (18-J), mountain–valley circulation (19-H), glacier anatomy (20-I) and 2025 national water-use statistics (20-K). All four remain pending final scientific/editorial sign-off.
+- A complete marker pass found and repaired seven missing in-text markers in Chapter 26 (26-C, 26-E, 26-F, 26-G, 26-H, 26-J and 26-L). The other repeated Chapter 26 IDs intentionally appear both in the teaching text and the production brief.
 # Atlas of Geography
 
 Четвёртый дисциплинарный атлас платформы **Atlas of Knowledge**.
