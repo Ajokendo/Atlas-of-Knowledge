@@ -270,7 +270,7 @@
 
 ## 4.11. Склоновые процессы и денудация / Slope Processes and Denudation
 
-Склоновые процессы, или **массовые движения**, перемещают грунт и горные породы вниз по склону под действием силы тяжести. Склон теряет устойчивость, когда движущие силы превышают сопротивление материала; насыщение водой, выветривание, подрезка основания склона, землетрясения и строительство могут изменить это соотношение. Движения бывают быстрыми и медленными. В классификации выделяют падения, опрокидывания, скольжения, растекания и потоки; в одном событии могут сочетаться несколько типов. Дополнительно учитывают материал: коренные породы, обломочный материал и мелкозёмистый грунт.
+Склоновые процессы, или **массовые движения**, перемещают грунт и горные породы вниз по склону под действием силы тяжести. Склон теряет устойчивость, когда движущие силы превышают сопротивление материала; насыщение водой, выветривание, подрезка основания склона, землетрясения и строительство могут изменить это соотношение. Движения бывают быстрыми и медленными. В используемой здесь схеме, основанной на классификации Варнеса, выделяют пять типов движения: падения, опрокидывания, скольжения, растекания и потоки; в одном событии могут сочетаться несколько типов. В некоторых учебных обзорах приводят четыре более общие группы, не выделяя растекания отдельно, поэтому классификацию следует читать с учётом принятой схемы. Дополнительно учитывают материал: коренные породы, обломочный материал и мелкозёмистый грунт.
 
 - **Обвалы и камнепады (падения):** обломки отделяются от крутого склона, падают, подпрыгивают или скатываются вниз.
 - **Опрокидывания:** блок породы поворачивается вперёд вокруг точки или оси опоры.
@@ -618,7 +618,7 @@ Major submarine features include the **continental shelf**, a relatively shallow
 
 ### 4.11. Slope Processes and Denudation
 
-Slope processes, also called **mass movements** or **mass wasting**, move soil and rock downslope under gravity. A slope fails when driving forces exceed the material's resistance; water saturation, weathering, undercutting, earthquakes and construction can change this balance. Movements may be rapid or slow. A widely used classification distinguishes falls, topples, slides, lateral spreads and flows; more than one type may occur in a single event. Classification also considers the material involved: bedrock, coarse debris or finer earth.
+Slope processes, also called **mass movements** or **mass wasting**, move soil and rock downslope under gravity. A slope fails when driving forces exceed the material's resistance; water saturation, weathering, undercutting, earthquakes and construction can change this balance. Movements may be rapid or slow. The Varnes-based scheme used here distinguishes five movement types: falls, topples, slides, lateral spreads and flows; more than one type may occur in a single event. Some educational summaries list four broader groups and do not separate lateral spreads, so categories should be interpreted within the stated scheme. Classification also considers the material involved: bedrock, coarse debris or finer earth.
 
 - **Falls and rockfalls:** fragments detach from a steep slope and fall, bounce or roll downslope.
 - **Topples:** a mass rotates forward around a pivot point or axis.
