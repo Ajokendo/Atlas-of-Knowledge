@@ -9,9 +9,9 @@
 - `portal-foundation`: `582608fc771935f9f350ff03c3945c14ec9f300e` (2026-10-31 15:31:06 UTC)
 - `atlas-of-knowledge-integration`: `aecea18a4a3297d861f9d6bcbd171f3cf1f8d294` (2026-10-31 17:11:49 UTC)
 
-The integration branch and portal-foundation contain the same 25-file geography snapshot: chapters 02–26 plus `geography/index.html`. The active geography branch contains all 25 of those paths, plus chapter 01, supporting documents, the visual asset register, four SVG assets, and the newer geography index: 43 files in total.
+The `portal-foundation` snapshot contains the 25 chapter files 02–26. The `atlas-of-knowledge-integration` snapshot contains those same 25 chapter files plus an older `geography/README.md` and `geography/index.html` (27 files total). The active geography branch contains all paths present in both older snapshots, plus chapter 01, additional audit/feedback/source documents, the visual asset register, four SVG assets, and updated README/index files (43 files total).
 
-**No geography file path present in either older snapshot is absent from `workspace/geography`.** The two older snapshots have matching blobs for their shared geography paths; they are an earlier content snapshot, not an alternate newer copy.
+**No geography file path present in either older snapshot is absent from `workspace/geography`.** The 25 shared chapter files have matching blobs between the two older snapshots; they are an earlier content snapshot, not an alternate newer copy. The integration branch's extra README and index are also present in the active branch in newer versions.
 
 ## 2. Chapter-by-chapter comparison
 
