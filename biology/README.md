@@ -1067,3 +1067,9 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Three further generation attempts repeated the perched bearded-vulture composition (IDs recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`); all were excluded as near-duplicates, not new assets.
 - The next intended distinct bird subject is Himalayan snowcock (`Tetraogallus himalayensis`). No new raster asset, chapter insertion or marker completion resulted from this cycle.
 - All 52 image markers remain Deferred; controlled readiness remains 95/100.
+
+
+## Gamebird illustration quality-control — 1 November 2026
+
+- Two further bird-image attempts produced a monal-like pheasant and a chukar-like partridge, not a reliable Himalayan snowcock (`Tetraogallus himalayensis`) depiction. Both are excluded from the candidate count; the partridge-like output also repeats an existing concept.
+- The snowcock target remains unfulfilled. No new raster asset, insertion or marker completion resulted. All 52 markers remain Deferred; readiness remains 95/100.
