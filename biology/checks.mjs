@@ -709,6 +709,10 @@ if (!regionalSpeciesAudit.includes("Son-Kul fish survey (sampling in 2020, 2021 
 }
 if (!regionalSpeciesAudit.includes("10.5281/zenodo.15253859") || !regionalSpeciesAudit.includes("seven floristic/biogeographical provinces, not the seven administrative oblasts") || !regionalSpeciesAudit.includes("397 specimens (37%) remained unidentified")) errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: 2025 regional flora paper must retain its expedition scope and unresolved-identification caveat");
 if (!regionalSpeciesAudit.includes("Terskey Ala-Too expedition report") || !regionalSpeciesAudit.includes("10.5281/zenodo.20821615") || !regionalSpeciesAudit.includes("not a nationally representative inventory")) errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Terskey Ala-Too report must retain its source and site-level scope limitation");
+
+if (!faunaKyrgyzstanFile.includes("около 16 145 сурков") || !faunaKyrgyzstanFile.includes("about 16,145 marmots") || !faunaKyrgyzstanFile.includes("июне 2021 и июне 2022") || !faunaKyrgyzstanFile.includes("June 2021 and June 2022") || !faunaKyrgyzstanFile.includes("не полностью сопоставимы") || !faunaKyrgyzstanFile.includes("not fully comparable") || !faunaKyrgyzstanFile.includes("Vulnerable (VU)") || !faunaKyrgyzstanFile.includes("Critically Depleted") || !faunaKyrgyzstanFile.includes("13%")) errors.push("chapters/fauna-kyrgyzstan.html: Menzbier's marmot estimate and Red List / Green Status distinctions must remain sourced and separate");
+if (!regionalSpeciesAudit.includes("Menzbier's marmot — survey estimate and two IUCN assessment frameworks") || !regionalSpeciesAudit.includes("16,145 animals") || !regionalSpeciesAudit.includes("recovery score of 13%")) errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Menzbier's marmot estimate and IUCN framework distinction must remain documented");
+
 const requiredOblasts = ["Jalal-Abad", "Issyk-Kul", "Naryn", "Osh", "Batken", "Talas", "Chuy"];
 for (const oblast of requiredOblasts) {
   if (!regionalSpeciesAudit.includes("| " + oblast + " |")) errors.push("KYRGYZSTAN_SPECIES_AUDIT.md is missing the " + oblast + " oblast row");
