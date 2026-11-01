@@ -1526,7 +1526,7 @@ try {
     }
 
     if (file === "chapters/amount-of-substance.html") {
-      const defaultMoles = Number((await page.locator("#moles").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      const defaultMoles = Number((await page.locator("#moles").innerText()).replace(",", ".").match(/[\d.,]+/)?.[0]);
       if (!Number.isFinite(defaultMoles) || Math.abs(defaultMoles - 2) > 1e-9) {
         errors.push(file + ": 36.03 g of water at 18.015 g/mol must give 2 mol");
       }
@@ -1537,7 +1537,7 @@ try {
       await page.locator("#mass").fill("25");
       await page.locator("#molar").fill("10");
       await page.locator("#mass").dispatchEvent("input");
-      const customMoles = Number((await page.locator("#moles").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      const customMoles = Number((await page.locator("#moles").innerText()).replace(",", ".").match(/[\d.,]+/)?.[0]);
       if (!Number.isFinite(customMoles) || Math.abs(customMoles - 2.5) > 1e-9 ||
           !(await page.locator("#count").innerText()).includes("1.5055")) {
         errors.push(file + ": custom molar mass calculation must give 2.5 mol and approximately 1.5055 × 10^24 entities");
@@ -1569,13 +1569,13 @@ try {
     }
 
     if (file === "chapters/solutions.html") {
-      const defaultConcentration = Number((await page.locator("#result").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      const defaultConcentration = Number((await page.locator("#result").innerText()).replace(",", ".").match(/[\d.,]+/)?.[0]);
       if (!Number.isFinite(defaultConcentration) || Math.abs(defaultConcentration - 0.5) > 1e-9) {
         errors.push(file + ": 0.5 mol in 1 L must give 0.5 mol/L");
       }
       await page.locator("#v").fill("2");
       await page.locator("#v").dispatchEvent("input");
-      let concentration = Number((await page.locator("#result").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      let concentration = Number((await page.locator("#result").innerText()).replace(",", ".").match(/[\d.,]+/)?.[0]);
       if (!Number.isFinite(concentration) || Math.abs(concentration - 0.25) > 1e-9) {
         errors.push(file + ": doubling final solution volume at fixed amount must halve concentration");
       }
