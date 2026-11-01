@@ -17,3 +17,4 @@
 - Editorial readiness matrix updated for Chapter 14 to record the Digital Code review and the remaining need to verify actual dataset publication, metadata, CRS, licence and access conditions. Commit: `f62be1c4b9013e22656fe75caa6322f5fb01fc96`.
 - Important limitation: the legal establishment of a national Georesource/geosite is not proof that a specific dataset is currently published, downloadable, current or validated. No map-asset completion status or overall progress percentage is changed by this legal-source review.
 - Geography README updated to point to the Chapter 14 national spatial-data legal audit. Commit: `5b3752695e63f30fc4771f39c9a83a0d0ad39382`.
+- GIS legal addendum refined: Article 95's Georesource access-by-licence conditions and one-year transfer of derived spatial data plus metadata are now explicitly flagged; free access must not be equated with unrestricted reuse. Commit: `5f37cdd54c3108e378c7ebd8fde41b10c4d5867c`.
