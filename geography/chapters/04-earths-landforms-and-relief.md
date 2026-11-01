@@ -831,3 +831,11 @@ Using a prepared teaching map excerpt:
 - Термины DEM, DSM и DTM используются не полностью единообразно; определение и тип поверхности необходимо брать из метаданных конкретного набора данных.
 - Термины «низменность», «возвышенность», «плоскогорье» и «плато» могут иметь разные пороговые значения в национальных и научных классификациях; определения в атласе должны быть единообразны.
 - Геоморфологические схемы следует изображать как научные модели, а не как универсальные формы, одинаковые во всех геологических условиях.
+
+## Editorial and Scientific Notes
+
+- The Everest value refers to the snow surface in the 2020 joint China–Nepal announcement; the ±0.06 m uncertainty is taken from the technical IHRS geodetic paper. For Challenger Deep, keep the 2021 estimate (10,935 ± 6 m; 95% confidence interval relative to mean sea level) separate from the 2026-published study based on 2023 multibeam data (preferred grid value 10,927 m in the eastern basin; sound-velocity sensitivity range 10,914–10,932 m). The latter is not a definitive redetermination of the deepest point.
+- Relief maps must state the vertical reference system, horizontal coordinate system, projection, resolution, vertical accuracy, acquisition date and data source.
+- DEM, DSM and DTM are not used uniformly by all agencies; the dataset definition and represented surface must be taken from its metadata.
+- Terms such as lowland, upland, highland, tableland and plateau may have different thresholds or meanings in national and scientific classifications; definitions must be used consistently within the atlas.
+- Geomorphological diagrams should be presented as scientific models, not as universal forms that occur identically in every geological setting.
