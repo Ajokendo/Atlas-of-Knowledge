@@ -360,7 +360,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 ## 3.9. Геологическое время / Geological Time
 
-Геологическое время охватывает около 4,57 млрд лет истории Земли; нижняя граница гадея в таблице ICS 2026/06 указана как 4 567,3 ± 0,16 млн лет. Для его изучения применяют относительную и абсолютную геохронологию.
+Геологическая история Земли охватывает около 4,54 млрд лет. В таблице ICS 2026/06 нижняя граница гадея установлена на 4 567,3 ± 0,16 млн лет по возрасту древнейших кальций-алюминиевых включений (CAI) в метеоритах. Это формальная граница, связанная с началом формирования твёрдых тел Солнечной системы, а не точная дата завершения формирования Земли. Для его изучения применяют относительную и абсолютную геохронологию.
 
 ### 3.9.1. Относительная геохронология / Relative Dating
 
@@ -731,7 +731,7 @@ Fault type is determined by the direction of relative block movement, not merely
 
 ### 3.9. Geological Time
 
-Geological time covers about 4.57 billion years of Earth's history; the base of the Hadean on the ICS 2026/06 chart is 4,567.3 ± 0.16 million years ago. Relative and numerical dating are used to reconstruct it.
+Earth's geological history spans about 4.54 billion years. The ICS 2026/06 chart places the base of the Hadean at 4,567.3 ± 0.16 million years ago, based on the age of the oldest calcium–aluminium-rich inclusions (CAIs) in meteorites. This is a formal boundary tied to the earliest solids in the Solar System, not the exact date when Earth finished forming. Relative and numerical dating are used to reconstruct it.
 
 **Relative dating** relies on several principles:
 - the law of superposition: in an undisturbed sequence, lower layers are generally older than upper layers;
@@ -846,6 +846,8 @@ On a schematic geological cross-section, identify:
 13. USGS. *Fossils, Rocks, and Time: The Laws of Superposition and Cross-Cutting Relations*. https://pubs.usgs.gov/gip/fossils/laws.html
 14. USGS. *A Beginner's Guide to Dating (Rocks)* (radiometric and other geochronological methods). https://www.usgs.gov/observatories/yvo/news/a-beginners-guide-dating-rocks
 15. British Geological Survey. *What Causes Earthquakes?* (fault movement and normal, reverse and strike-slip faults). https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/
+16. USGS. *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
+17. Halla, J. et al. (2024). *Ratification of the base of the ICS Geological Time Scale: the Global Standard Stratigraphic Age (GSSA) for the Hadean lower boundary*. Episodes. https://doi.org/10.18814/epiiugs/2024/024002
 
 При подготовке окончательной версии следует сверять геологические термины и численные параметры с актуальной международной стратиграфической шкалой и региональными геологическими картами.
 
