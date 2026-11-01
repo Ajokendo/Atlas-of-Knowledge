@@ -1577,7 +1577,7 @@ try {
       await page.locator("#v").dispatchEvent("input");
       let concentration = Number((await page.locator("#result").innerText()).replace(",", ".").match(/[\d.,]+/)?.[0]);
       if (!Number.isFinite(concentration) || Math.abs(concentration - 0.25) > 1e-9) {
-        errors.push(file + ": doubling final solution volume at fixed amount must halve concentration");
+        errors.push(file + ": doubling final solution volume at fixed amount must halve concentration; result=" + (await page.locator("#result").innerText()) + "; parsed=" + concentration + "; n=" + await page.locator("#n").inputValue() + "; V=" + await page.locator("#v").inputValue());
       }
       await page.locator("#n").fill("0");
       await page.locator("#n").dispatchEvent("input");
