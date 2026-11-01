@@ -916,3 +916,11 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Focused GitHub source verification confirms each new section is present in its intended chapter and in the expected order. Full `node biology/checks.mjs`, Chromium smoke tests and a new CI run have not yet been executed for these latest commits.
 - All 52 illustration insertion anchors remain deferred and must stay matched to `IMAGE_INSERTION_MAP.md` and `IMAGE_DISPOSITION_REGISTER.md`; no image has been marked generated or complete.
 - Controlled editorial readiness remains **95/100**. This content expansion does not close the outstanding independent scientific review (G4) or independent bilingual/release review (G5); neither is claimed complete. The next readiness increase requires documented evidence against the existing gates, not simply additional commits.
+
+## Genetics inheritance lesson added — 1 November 2026
+
+- Added a bilingual Mendelian inheritance section to `chapters/genetics.html`: genotype and phenotype, homozygous and heterozygous states, allele segregation and an `Aa × Aa` Punnett square.
+- The lesson distinguishes expected genotypic and phenotypic ratios, states the complete-dominance assumption, and explains why many traits do not follow a simple Mendelian pattern.
+- The Punnett square is a semantic HTML table with caption and row/column headers; responsive styling was added for narrow screens.
+- Chapter commits: `58fb4df00485a74db502973bb29b5a4481710fc2` and `ac6f6a937e5dfc8f76b3f96453167d1869e6e5e4`. Regression assertions: `0947593055409086a77245a376b5f2302767c665`.
+- Controlled readiness remains **95/100**; G4 and G5 remain open. The additional chapter material does not replace independent review.
