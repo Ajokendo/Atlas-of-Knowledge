@@ -346,6 +346,9 @@ try {
     }
 
     if (file === "chapters/chemistry-of-life.html") {
+      if (!(await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt")).includes("Схема круговорота углерода")) {
+        errors.push(file + ": Russian carbon-cycle image alternative text is missing");
+      }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("снижает pH морской воды") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("парниковый эффект")) errors.push(file + ": Russian environment note must connect carbon emissions, greenhouse effect and ocean acidification");
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("полимеры нуклеотидов") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("пентозу") ||
@@ -359,6 +362,9 @@ try {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       await page.locator("#lang").click();
+      if (!(await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt")).includes("Diagram of the carbon cycle")) {
+        errors.push(file + ": English carbon-cycle image alternative text is missing");
+      }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("seawater pH decreases") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("greenhouse effect")) errors.push(file + ": English environment note must connect carbon emissions, greenhouse effect and ocean acidification");
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("nucleotide polymers") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("pentose sugar") ||
