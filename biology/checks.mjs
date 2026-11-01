@@ -426,6 +426,16 @@ for (const required of ["400–600", "4,146", "nearly 7,000", "Menzbier", "Kök-
 if (!floraKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/v-bes-tasskom-prirodnom-parke-uvelicivaetsya-cislennost-maralov")) errors.push("Besh-Tash flora richness claim must link to the Ministry's park profile");
 if (!regionalSpeciesAudit.includes("separate Ministry notice dated 19 September 2025 explicitly places Besh-Tash in Talas Region")) errors.push("Regional audit must resolve the Besh-Tash administrative metadata discrepancy with corroborating evidence");
 
+if (!faunaKyrgyzstanFile.includes("resource?r=central_asia_amphibians&amp;v=1.18") || !faunaKyrgyzstanFile.includes("version 1.18, 26 October 2026") || !faunaKyrgyzstanFile.includes("Bufotes") || !faunaKyrgyzstanFile.includes("not proof that every included taxon occurs in a particular Kyrgyz oblast")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: latest GBIF Central Asian amphibian checklist must be linked, dated and scoped as a regional compilation");
+}
+if (!regionalSpeciesAudit.includes("Central Asian amphibian checklist (GBIF dataset, version 1.18, 26 October 2026)") || !regionalSpeciesAudit.includes("not a new Kyrgyz field survey")) {
+  errors.push("Regional species audit must record the 2026 amphibian checklist and its non-fieldwork scope");
+}
+if (!regionalSpeciesAudit.includes("Argali genomic sample provenance") || !regionalSpeciesAudit.includes("Kyrgyzstan and Tajikistan") || !regionalSpeciesAudit.includes("author/supplementary-table resolution")) {
+  errors.push("Regional species audit must flag the unresolved geographic-provenance discrepancy in the 2026 argali article and Dryad dataset");
+}
+
 if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/sotrudnikami-talasskogo-regionalnogo-upravleniya-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-provedeny-raboty-po-ucyotu-cislennosti-obektov-zivotnogo-mira")) errors.push("Talas multi-site marmot survey must link to its Ministry source");
 
 if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/osskim-regionalnym-upravleniem-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-na-territorii-gosudarstvennogo-prirodnogo-zapovednika-kulun-ata-uspesno-provedyon-ocerednoi-kompleks-meropriyatii-po-monitoringu-bioraznoobraziya")) errors.push("Osh Region Kulun-Ata detections must link to the Ministry source");
