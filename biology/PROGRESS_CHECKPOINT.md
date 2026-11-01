@@ -728,3 +728,10 @@
 - New browser test commit: `3877d69f89c657a81340192fb09040e6f4f79c58`. CI verification is pending.
 - These are representative control checks, not proof that every interactive element on every page supports keyboard activation. Full tab-order traversal and screen-reader testing remain open.
 - The prior baseline remains confirmed: contrast sampler 6,683 text instances / zero below threshold; first-focus Tab/Shift+Tab smoke checks passed on all 13 pages.
+
+
+## 2026-11-01 — representative keyboard activation passed
+
+- CI #497 (run ID `41343305277`, code commit `3877d69f89c657a81340192fb09040e6f4f79c58`) completed successfully.
+- Chromium confirmed Enter activates the first Botany quiz answer and Space activates the Ecology photosynthesis control; the latter also updates `aria-pressed` and the visible output. All existing checks remained green: 13 pages, two viewport sizes, 26 language-toggle interactions, no uncaught errors, 6,683 contrast samples / zero below-threshold instances, and first keyboard focus indicator.
+- Representative keyboard activation stage: 100% for the two defined controls. This is not a blanket claim for every interactive control. Full tab traversal, all-control activation, screen-reader and physical-device checks remain open.
