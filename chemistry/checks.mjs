@@ -142,6 +142,30 @@ for (const file of htmlFiles) {
   }
 }
 
+const periodicSource = fs.readFileSync(path.join(root, "periodic-table.html"), "utf8");
+const periodicData = periodicSource.match(/const raw=\`([\s\S]*?)\`\.trim\(\);/);
+if (!periodicData) {
+  errors.push("periodic-table.html: element data block not found");
+} else {
+  const rows = periodicData[1].trim().split(/\r?\n/).map(line => line.split("|"));
+  const symbols = rows.map(row => row[1]);
+  const categories = new Set(["nonmetal", "noble", "alkali", "alkaline", "metalloid", "halogen", "post", "transition", "lanthanide", "actinide"]);
+  if (rows.length !== 118) errors.push("periodic-table.html: expected 118 element records, found " + rows.length);
+  if (new Set(symbols).size !== rows.length) errors.push("periodic-table.html: duplicate element symbols");
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+    if (row.length !== 8) errors.push("periodic-table.html: element record " + (i + 1) + " must have 8 fields");
+    if (Number(row[0]) !== i + 1) errors.push("periodic-table.html: atomic numbers must form the sequence 1–118");
+    if (!/^\[?\d+(?:\.\d+)?\]?$/.test(row[4] || "")) errors.push("periodic-table.html: invalid atomic-mass notation for record " + (i + 1));
+    if (!categories.has(row[5])) errors.push("periodic-table.html: unknown element category for record " + (i + 1));
+    if (!Number.isInteger(Number(row[6])) || !Number.isInteger(Number(row[7])) ||
+        Number(row[6]) < 1 || Number(row[6]) > 18 || Number(row[7]) < 1 || Number(row[7]) > 7) {
+      errors.push("periodic-table.html: invalid group or period for record " + (i + 1));
+    }
+    if (!row[2] || !row[3]) errors.push("periodic-table.html: missing bilingual element name for record " + (i + 1));
+  }
+}
+
 const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const chapterIds = [...homepage.matchAll(/["'](0[1-9]|1[0-2])["']/g)].map(m => m[1]);
 if (new Set(chapterIds).size < 12) errors.push("index.html: expected all 12 chapter identifiers");
