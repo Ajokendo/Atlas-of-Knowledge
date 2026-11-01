@@ -887,3 +887,22 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Follow-up clarification: Chapters 02 and 05 now explicitly distinguish NOAA's 2025 marine-site annual mean (425.6 ppm, preliminary) from WMO's 2025 global surface mean (426.8 ppm), and cite both primary sources. This prevents different observing networks and averaging methods from being conflated. Final Chapter 02 blob: `17aa443073eca7d171651db7c0f67abdeed3066f`; final Chapter 05 blob: `012f3ef9a77eebe474d4d2c1d914367e55b5f472`.
+
+
+## Mathematical and quantitative teaching-example check — Chapters 01–13 (1 November 2026)
+
+- Recalculated the explicit worked examples in the general-geography chapters and checked that Russian and English calculations agree:
+  - Chapter 01: map scale 1:50,000; 4 cm represents 2 km on the ground.
+  - Chapter 03: epicentre-triangulation example is explicitly hypothetical; distances are not presented as a real earthquake.
+  - Chapter 04: 100 m relief over 500 m horizontal distance gives a 20% slope.
+  - Chapter 06: annual water-balance example gives 250 mm runoff depth and 2.5 km³ over 10,000 km²; the separate 3.78 km³/year discharge example gives about 120 m³/s.
+  - Chapter 07: energy-transfer efficiencies of 10% and 7.5% are correctly calculated and explicitly limited to the hypothetical example.
+  - Chapter 08: porosity for bulk density 1.3 and particle density 2.65 gives approximately 50.9%.
+  - Chapter 09: age-dependency ratio example gives 50 dependants per 100 people aged 15–64; the text correctly distinguishes age structure from actual employment/dependency.
+  - Chapter 10: 1 nautical mile = 1.852 km; 12 nm = 22.224 km and 200 nm = 370.4 km. The two-district turnout example gives a weighted regional turnout of about 73.8%, not the unweighted 70%.
+  - Chapter 11: sector shares and location-quotient examples reproduce correctly, including LQ ≈ 1.33.
+  - Chapter 12: weighted GDP-per-capita example gives USD 12,500 for the combined population and GDP, not the simple mean of the two country ratios.
+  - Chapter 13: the hypothetical flood-risk example's expected annual direct loss is 5% × 2 million = 100,000 units.
+- Checked the rounded physical constants and definitions used in Chapters 02–06 (Earth's mean radius, geological age, atmospheric layers, dry-air composition, ocean coverage and global water distribution). The figures are presented as approximate where appropriate.
+- Updated the CO₂ composition reference in Chapters 02 and 05 to the preliminary NOAA 2025 annual mean and explicitly distinguished it from WMO's different global surface series (see the separate CO₂ source-check record).
+- This is a calculation and consistency check of identified worked examples, not a full line-by-line scientific fact audit of Chapters 01–13.
