@@ -873,16 +873,16 @@ This is a learning example, not a complete assessment of healthcare access. The 
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. International Cartographic Association (ICA). **The Cartographic Body of Knowledge** — систематизированные основы картографии.
+1. International Cartographic Association (ICA) Working Group. **Cartographic Body of Knowledge.** https://bok.cartography.no/; Midtbø, T. et al. (2021). **Establishing a Cartographic Body of Knowledge.** https://doi.org/10.5194/ica-abs-3-208-2021
 2. Slocum, T. A., McMaster, R. B., Kessler, F. C., Howard, H. H. **Thematic Cartography and Geovisualization**. Pearson.
 3. Robinson, A. H. et al. **Elements of Cartography**. Wiley.
 4. Longley, P. A. et al. **Geographic Information Science and Systems**. Wiley.
 5. O'Sullivan, D., Unwin, D. **Geographic Information Analysis**. Wiley.
 6. Openshaw, S. **The Modifiable Areal Unit Problem**. Geo Books.
 7. Anselin, L. **Spatial Econometrics: Methods and Models**. Springer.
-8. United Nations Statistics Division. **Principles and Recommendations for Population and Housing Censuses** — методологические основы статистических наблюдений.
-9. ISO 19115. **Geographic Information — Metadata** — принципы описания географических данных.
-10. Open Geospatial Consortium (OGC). **Standards and Best Practices** — стандарты обмена и представления геопространственной информации.
+8. United Nations Statistics Division. **Principles and Recommendations for Population and Housing Censuses** — methodology for population and housing censuses. https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/
+9. International Organization for Standardization (ISO). **ISO/TC 211 Geographic information/Geomatics catalogue** — includes ISO 19115 metadata standards and current status. https://www.iso.org/committee/54904/x/catalogue/
+10. Open Geospatial Consortium (OGC). **Standards and Best Practices** — standards for geospatial data exchange and presentation. https://www.ogc.org/standards/
 
 ---
 **Конец главы 16 / End of Chapter 16**
