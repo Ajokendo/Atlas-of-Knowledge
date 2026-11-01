@@ -465,6 +465,8 @@ P = ET + R + \Delta S,
 3. Если годовой объём стока в створе реки равен 3,78 км³, оцените средний расход воды в м³/с. Используйте 365 суток в году и формулу Q = V/t.
 4. Объясните, почему фактический расход в отдельные месяцы будет отличаться от среднегодового.
 5. Назовите два фактора, которые могут изменить водный баланс бассейна, и предложите три меры устойчивого управления водой.
+6. На карте выделите водораздел, главное русло и основные притоки; объясните, по каким признакам определяется граница водосбора.
+7. Объясните, как изменение землепользования (вырубка леса, застройка, распашка склонов или уплотнение почвы) может повлиять на паводки, эрозию и качество воды.
 
 **Проверка расчётов:** слой стока равен 250 мм; соответствующий объём для бассейна площадью 10 000 км² — 2,5 км³. Значение 3,78 км³ в пункте 3 — отдельный учебный пример для расчёта расхода, а не продолжение баланса из пунктов 1–2. Средний расход при объёме 3,78 км³/год составляет приблизительно 120 м³/с.
 
@@ -709,6 +711,8 @@ where P is precipitation, ET is evapotranspiration, R is runoff depth and ΔS is
 3. If annual river discharge volume at the outlet is 3.78 km³, estimate mean discharge in m³/s using 365 days per year and Q = V/t.
 4. Explain why actual discharge in individual months differs from the annual mean.
 5. Name two factors that could change the basin water balance and propose three measures for sustainable water management.
+6. On a map, delineate the watershed divide, main river channel and principal tributaries. Explain which features help identify the catchment boundary.
+7. Explain how land-use change (deforestation, urban development, cultivation of slopes or soil compaction) can affect floods, erosion and water quality.
 
 **Check:** runoff depth is 250 mm; the corresponding volume for a 10,000 km² basin is 2.5 km³. The 3.78 km³ value in question 3 is a separate teaching example for calculating discharge, not a continuation of the balance in questions 1–2. The mean discharge for 3.78 km³/year is approximately 120 m³/s.
 
