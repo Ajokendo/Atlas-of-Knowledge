@@ -397,6 +397,10 @@ try {
         errors.push(file + ": Russian nucleic-acid explanation is incomplete");
       }
       if (!(await page.locator("[data-i=basePairingNote]").innerText()).includes("аденин с тимином") || !(await page.locator("[data-i=basePairingNote]").innerText()).includes("гуанин с цитозином")) errors.push(file + ": Russian DNA base-pairing note is incomplete");
+      const proteinRu = await page.locator("[data-i=proteinStructureNote]").innerText();
+      if (!proteinRu.includes("денатурацию") || !proteinRu.includes("пептидных связей") || !proteinRu.includes("не всегда")) {
+        errors.push(file + ": Russian protein denaturation explanation is incomplete");
+      }
       if (!(await page.locator("[data-i=enzymesText]").innerText()).includes("энергию активации") ||
           !(await page.locator("[data-i=enzymeNote]").innerText()).includes("температуру и pH") || !(await page.locator("[data-i=enzymeNote]").innerText()).includes("активным центром")) {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
@@ -418,6 +422,10 @@ try {
       if (!(await page.locator("[data-i=basePairingNote]").innerText()).includes("adenine with thymine") || !(await page.locator("[data-i=basePairingNote]").innerText()).includes("guanine with cytosine")) errors.push(file + ": English DNA base-pairing note is incomplete");
       if (!(await page.locator("[data-i=nucleicAcidDirectionNote]").innerText()).includes("antiparallel") || !(await page.locator("[data-i=nucleicAcidDirectionNote]").innerText()).includes("5′→3′")) errors.push(file + ": English nucleic-acid direction note is incomplete");
       if (!(await page.locator("[data-i=atpNote]").innerText()).includes("ATP is not energy itself") || !(await page.locator("[data-i=atpNote]").innerText()).includes("hydrolysis")) errors.push(file + ": English ATP coupling note is incomplete");
+      const proteinEn = await page.locator("[data-i=proteinStructureNote]").innerText();
+      if (!proteinEn.includes("denaturation") || !proteinEn.includes("peptide bonds") || !proteinEn.includes("not always")) {
+        errors.push(file + ": English protein denaturation explanation is incomplete");
+      }
       if (!(await page.locator("[data-i=enzymesText]").innerText()).includes("activation energy") ||
           !(await page.locator("[data-i=enzymeNote]").innerText()).includes("temperature and pH") || !(await page.locator("[data-i=enzymeNote]").innerText()).includes("active site")) {
         errors.push(file + ": English enzyme explanation lacks catalytic mechanism or condition caveat");
