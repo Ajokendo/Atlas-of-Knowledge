@@ -96,6 +96,16 @@ Zholdoshbekov & Hammer's Biosphere Expeditions report (published 24 June 2026; D
 
 Source: [Zholdoshbekov & Hammer (2026), Zenodo report 10.5281/zenodo.20821615](https://zenodo.org/records/20821615).
 
+## Menzbier's marmot — survey estimate and two IUCN assessment frameworks
+
+The Fauna & Flora International / Critical Ecosystem Partnership Fund final project report for “Building capacity to protect Besh Aral's meadows, marmots and megafauna, Kyrgyzstan” (project dates November 2020–February 2023; report dated 30 April 2023) describes comprehensive Menzbier's marmot surveys conducted in June 2021 and June 2022. The project reports an estimated **about 16,145 animals in the Besh-Aral area**, which it treats as the total Kyrgyzstan population. It compares this with an earlier estimate of about 12,000 in the same areas in 2002, but explicitly warns that the estimates are not fully comparable. The report also identifies one population of approximately 500–600 animals outside the reserve. These are project survey estimates, not a direct count of every animal; preserve the survey period and geographic scope.
+
+The species' **IUCN Red List category is Vulnerable (VU)** in the 2023 assessment (Sultangaziev et al., DOI 10.2305/IUCN.UK.2023-1.RLTS.T12827A229617076.en). A separate IUCN Green Status assessment classifies recovery as **Critically Depleted**, with a recovery score of 13%, as summarised by the IUCN Small Mammals Specialist Group in March 2025. These frameworks answer different questions: Red List VU assesses extinction risk, while Green Status evaluates recovery. Do not substitute one label for the other or present “Critically Depleted” as a Red List category.
+
+The fauna chapter now includes the project estimate, its comparability caveat, the Red List category and the separate Green Status recovery metric, with primary project and IUCN links.
+
+Sources: [CEPF / Fauna & Flora International final report (30 April 2023)](https://www.cepf.net/resources/final-project-report/final-project-report-2747) · [IUCN Red List assessment (2023)](https://doi.org/10.2305/IUCN.UK.2023-1.RLTS.T12827A229617076.en) · [IUCN Green Status supplementary information](https://nc.iucnredlist.org/redlist/content/attachment_files/Green_Status_Supplementary_Information_12827_Marmota_menzbieri.pdf) · [IUCN Small Mammals Specialist Group, 28 March 2025](https://small-mammals.org/2025/03/28/green-status-update-2025/).
+
 ## Required evidence fields for future species accounts
 
 Each account should record, where applicable:
