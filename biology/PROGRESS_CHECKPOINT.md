@@ -528,3 +528,12 @@
 - Matrix commit: `7a1000153c2cbca1d02ad73e3ba7b1b0cdca1777`; handoff-link commit: `12259ad02c890de9c3001354adcea6c4ebfc1b66`.
 - This completes **50% of the reviewer-package preparation stage**: the handoff protocol and page-by-page assignment matrix are prepared. Reviewer recruitment, actual independent assessment and signed acceptance remain outstanding.
 - Controlled editorial readiness remains **95/100**; G4/G5 remain open. The 52 illustrations remain deferred; screen-reader, contrast and physical-device certification remain uncompleted.
+
+## Independent review package — tracking register milestone (75%)
+
+- Added `INDEPENDENT_REVIEW_TRACKING_REGISTER.md` with all **10** priority scientific claims (six P1, four P2), a claim-level decision log, a 13-page G4/G5 coverage tracker, six cross-page consistency checks and an issue log.
+- Every item is explicitly initialized as Pending. No independent review, page approval or claim acceptance is being claimed.
+- Linked the tracking register from `INDEPENDENT_REVIEW_HANDOFF.md`.
+- Tracking-register commit: `75206a54bce9555bc97bd3c9944df0c2a6b6ded3`; handoff-link commit: `7ff1a193ad8fba9ec6a045b23946bffe6c05757f`.
+- This completes **75% of reviewer-package preparation**: handoff protocol, page matrix and tracking register are in place. Remaining package work is a final consistency/hand-off validation and a clean reviewer bundle/index.
+- Controlled editorial readiness remains **95/100**; G4/G5 remain open. The 52 illustrations remain deferred; screen-reader, contrast and physical-device certification remain uncompleted.
