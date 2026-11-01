@@ -138,3 +138,10 @@
 - Added one distinct standalone local WebP wildlife candidate: snow-leopard-like large cat, 1254×1254. Generation provenance and scientific caveats are in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
 - Candidate is not a field record and is not committed or inserted. A repeated flower motif from the preceding generation was excluded from the candidate count.
 - No insertion marker changed; all 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run in this stage.
+
+
+## Illustration quality-control audit — 1 November 2026
+
+- Three additional generation attempts repeated the existing snow-leopard scene and were rejected as duplicates; they are not counted as new assets.
+- Audited the P1 `fauna-birds.webp` insertion brief against the actual fauna chapter. The named examples include golden eagle (`Aquila chrysaetos`), bearded vulture (`Gypaetus barbatus`), Himalayan snowcock (`Tetraogallus himalayensis`) and black stork (`Ciconia nigra`), plus separately described wetland birds. The intended plate must preserve distinct cliff, alpine and wetland settings.
+- This was a quality-control/documentation checkpoint, not a completed illustration. No image was committed or inserted. All 52 markers remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests or CI were run.
