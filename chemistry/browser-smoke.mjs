@@ -334,6 +334,7 @@ try {
     }
 
     if (file === "chapters/redox.html") {
+      if (await page.locator('img[data-svg-ru="../assets/daniell-cell-ru.svg"]').getAttribute("src") !== "../assets/daniell-cell-ru.svg" || !(await page.locator('img[data-alt-i="daniellImageAlt"]').getAttribute("alt") || "").includes("гальванического элемента Даниэля")) errors.push(file + ": Russian Daniell-cell SVG or accessible description is missing");
       if (!(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("число отданных электронов должно равняться числу принятых") || !(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("суммарного заряда")) errors.push(file + ": Russian redox balancing note must conserve electrons, atoms and charge");
       if (!(await page.locator("[data-i=electronFlow]").innerText()).includes("одна вертикальная черта") || !(await page.locator("[data-i=electronFlow]").innerText()).includes("двойная") ||
           !(await page.locator("[data-i=anodeText]").innerText()).includes("анод отрицателен") ||
@@ -359,6 +360,7 @@ try {
       if ((await page.locator("#nernstResult").innerText()).trim() !== "E = —" || !(await page.locator("#nernstFeedback").innerText()).includes("положительные активности")) errors.push(file + ": zero activity must be rejected with Russian feedback");
       await page.locator("#activityZn").fill("1"); await page.locator("#activityCu").fill("1");
       await page.locator("#lang").click();
+      if (await page.locator('img[data-svg-ru="../assets/daniell-cell-ru.svg"]').getAttribute("src") !== "../assets/daniell-cell.svg" || !(await page.locator('img[data-alt-i="daniellImageAlt"]').getAttribute("alt") || "").includes("Diagram of a Daniell galvanic cell")) errors.push(file + ": English Daniell-cell SVG or accessible description is missing");
       if (!(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("number of electrons lost must equal the number gained") || !(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("total charge")) errors.push(file + ": English redox balancing note must conserve electrons, atoms and charge");
       if (!(await page.locator("[data-i=electronFlow]").innerText()).includes("single vertical line") || !(await page.locator("[data-i=electronFlow]").innerText()).includes("double line") ||
           !(await page.locator("[data-i=anodeText]").innerText()).includes("anode is negative") ||
