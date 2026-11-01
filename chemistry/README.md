@@ -63,3 +63,5 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 
 - [x] Expanded the molecular-laboratory browser checks to exercise arrow-key rotation, pointer dragging, reset to the default orientation, and preservation of the selected molecule plus its accessible name across RU/EN switching.
 - [x] Full Chemistry CI run [41341324210](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41341324210) completed with `status=completed` and `conclusion=success` on commit `76d4899c3da587dbae516f66ebcf199cb22bc0dc`.
+
+- [x] Expanded ideal-gas regression coverage for all three slider bounds/steps, pressure response to amount and volume, and particle-count scaling. Full Chemistry CI run [41341571748](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41341571748) completed with `status=completed` and `conclusion=success` on commit `0f2ab4010ac27389fe573697c57a31105f2ee1e6`.
