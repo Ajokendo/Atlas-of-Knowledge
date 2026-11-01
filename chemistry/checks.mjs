@@ -75,7 +75,7 @@ for (const file of htmlFiles) {
   const source = fs.readFileSync(file, "utf8");
   const relativeFile = path.relative(root, file);
 
-  const localizedKeys = [...new Set([...source.matchAll(/data-i=["']([^"']+)["']/g)].map(match => match[1]))];
+  const localizedKeys = [...new Set([...source.matchAll(/data-(?:i|alt-i)=["']([^"']+)["']/g)].map(match => match[1]))];
   if (localizedKeys.length) {
     let dictionary = null;
     let dictionaryScore = -1;
