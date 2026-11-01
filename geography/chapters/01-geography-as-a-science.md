@@ -481,6 +481,26 @@ The encyclopaedic section gives particular attention to all seven regions of Kyr
 4. **Checking a map.** Find a thematic map online. Record its author, date, data source, scale, projection (if stated), legend and limitations. Explain which decisions can and cannot be based on it.
 5. **The geographical history of an area.** Choose a locality and trace its changes using two or more maps from different years. Compare roads, settlements, land use and water features. Note any differences in map scale or classification.
 
+### 1.12. Key Terms
+
+| English term | Meaning |
+|---|---|
+| Geography | The study of spatial differences, connections and changes on Earth. |
+| Physical geography | The study of natural components, processes and territorial systems. |
+| Human geography | The study of the spatial aspects of human life and society. |
+| Geographical space | A system of locations, distances, connections and relationships. |
+| Place | A particular location with physical, historical and social characteristics. |
+| Territory | A part of Earth's surface considered within defined boundaries. |
+| Region | An area distinguished by selected natural, social or economic characteristics. |
+| Scale of analysis | The spatial level at which a geographical question is examined. |
+| Map scale | The relationship between distance on a map and distance on the ground. |
+| Spatial distribution | The arrangement of phenomena across an area. |
+| Spatial analysis | Methods for examining locations, patterns and spatial relationships. |
+| Geographic Information System (GIS) | A system for collecting, managing, analysing and presenting spatial data. |
+| Remote sensing | Obtaining information about an object or area without direct physical contact. |
+| Fieldwork | The collection of information through direct observation and measurement in the field. |
+| Landscape | A territorial system of interacting natural and human-modified components. |
+
 ### 1.13. Review Questions
 
 1. Why is geography more than memorising countries, capitals and place names?
