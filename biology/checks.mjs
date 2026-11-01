@@ -342,6 +342,17 @@ if (!imagePlanFile.includes("Change `[ ]` to `[x]` only after scientific review"
   errors.push("IMAGE_GENERATION_PLAN.md must retain the scientific-review and no-invented-species production rules");
 }
 
+// Shared editorial standard and visible evidence-status key in both regional chapters.
+const kyrgyzBiodiversityStandardFile = fs.readFileSync(path.join(root, "KYRGYZSTAN_BIODIVERSITY_DATA_STANDARD.md"), "utf8");
+if (!kyrgyzBiodiversityStandardFile.includes("Confirmed local record") || !kyrgyzBiodiversityStandardFile.includes("National checklist record") || !kyrgyzBiodiversityStandardFile.includes("Historical record")) errors.push("Kyrgyzstan biodiversity data standard must distinguish local, national-checklist and historical evidence");
+if (!kyrgyzBiodiversityStandardFile.includes("sampling effort") || !kyrgyzBiodiversityStandardFile.includes("coordinate uncertainty") || !kyrgyzBiodiversityStandardFile.includes("population estimate")) errors.push("Kyrgyzstan biodiversity data standard must define survey effort, spatial uncertainty and abundance evidence");
+for (const [label, html] of [["flora", floraKyrgyzstanAuditFile], ["fauna", faunaKyrgyzstanAuditFile]]) {
+  if (!html.includes('id="evidence-status-key"')) errors.push(label + " chapter must display the shared evidence-status key");
+  if (!html.includes("Confirmed local record") || !html.includes("Historical record") || !html.includes("National checklist record")) errors.push(label + " chapter evidence key must distinguish record scopes");
+  if (!html.includes("../KYRGYZSTAN_BIODIVERSITY_DATA_STANDARD.md")) errors.push(label + " chapter must link to the shared biodiversity data standard");
+  if (!html.includes("Data quality requirements: occurrence datasets") || !html.includes("Guidelines for Using the Red List Categories and Criteria")) errors.push(label + " chapter must cite GBIF occurrence guidance and IUCN assessment guidance");
+}
+
 // Ethical, bilingual field-record protocols for the two Kyrgyzstan biodiversity chapters.
 const floraKyrgyzstanAuditFile = fs.readFileSync(path.join(root, "chapters/flora-kyrgyzstan.html"), "utf8");
 const faunaKyrgyzstanAuditFile = fs.readFileSync(path.join(root, "chapters/fauna-kyrgyzstan.html"), "utf8");
