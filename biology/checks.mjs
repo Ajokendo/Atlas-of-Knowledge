@@ -274,9 +274,10 @@ if (!renalBlock.includes('role="img"') || !renalBlock.includes('aria-labelledby=
 if (!renalBlock.includes("does not maintain a fixed filtration rate") || !renalBlock.includes("не означает, что скорость фильтрации и объём мочи постоянны")) errors.push("chapters/anatomy.html: renal lesson must explain physiological variation in filtration and urine output");
 
 const cardiovascularStart = anatomyFile.indexOf('id="cardiovascular-physiology"');
-const renalLessonStart = anatomyFile.indexOf('id="renal-physiology"');
-const cardiovascularBlock = anatomyFile.slice(cardiovascularStart, renalLessonStart);
-if (cardiovascularStart < 0 || renalLessonStart <= cardiovascularStart) errors.push("chapters/anatomy.html: cardiovascular physiology lesson must precede renal physiology");
+const cardiovascularObjectivesStart = anatomyFile.indexOf('<section class="learning-block"><div class="learning-grid">', cardiovascularStart);
+const cardiovascularBlock = anatomyFile.slice(cardiovascularStart, cardiovascularObjectivesStart);
+if (cardiovascularStart < 0 || cardiovascularObjectivesStart <= cardiovascularStart) errors.push("chapters/anatomy.html: cardiovascular physiology lesson must precede the learning objectives");
+if (renalStart < 0 || renalStart >= cardiovascularObjectivesStart) errors.push("chapters/anatomy.html: renal physiology lesson must also precede the learning objectives");
 for (const phrase of ["diastole", "ventricular systole", "stroke volume", "cardiac output", "heart rate", "sinoatrial", "atrioventricular", "Purkinje", "baroreceptors", "carotid sinus", "aortic arch", "total peripheral resistance", "angiotensin II", "aldosterone", "vasopressin", "short-term regulatory mechanism"]) {
   if (!cardiovascularBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/anatomy.html: cardiovascular lesson missing mechanism or scientific distinction: " + phrase);
 }
