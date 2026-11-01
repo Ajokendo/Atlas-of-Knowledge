@@ -745,9 +745,9 @@ The remaining five percentage points are reserved for evidence, not additional p
 - [ ] **G4 — Independent scientific review:** obtain qualified review of remaining taxonomic and species-occurrence uncertainties, prioritizing freshwater fish records and other locally sensitive distribution claims; record reviewer scope and resolved/deferred findings.
 - [ ] **G5 — Bilingual editorial and release review:** complete independent Russian/English copy-editing, check consistency of terminology and citations, and verify the published pages at mobile and desktop widths.
 - Review materials for G4/G5: [EXTERNAL_REVIEW_PACKET.md](EXTERNAL_REVIEW_PACKET.md) — prepared scope, priority claims, editorial checklist and reviewer sign-off record.
-- [ ] **G6 — Illustration disposition:** retain all 52 mapped placeholders until each intended image is produced or explicitly deferred with rationale, source/licence, scientific review and correct integration. The presence of a placeholder is not image completion.
+- [x] **G6 — Illustration disposition (deferred):** all 52 assets are explicitly deferred in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md), with rationale, source/licence status, scientific-review requirements and verified placeholder integration. No images have been generated or sourced; visual production remains pending.
 
-**Control rule:** keep the readiness score at 95/100 while G4–G6 remain unchecked. Passing G1–G3 does not certify scientific review, bilingual editorial release or illustration completion. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
+**Control rule:** keep the readiness score at 95/100 while G4 and G5 remain unchecked. G6 is closed as a documented deferral only; that does not mean the 52 visual assets have been produced. Passing G1–G3 does not certify scientific review or bilingual editorial release. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
 
 
 ## Source-level structure audit — 1 November 2026
@@ -865,7 +865,7 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - **Static suite:** `node biology/checks.mjs` passed in a clean GitHub Actions checkout: 13 HTML pages, local links/scripts and regression assertions.
 - **Browser suite:** `node biology/browser-smoke.mjs` passed with Chromium on all 13 pages at mobile (390px) and desktop (1365px) widths; 26 language-toggle interactions; no missing accessible names, horizontal overflow or uncaught page errors.
 - The first browser run exposed an empty nested catalogue link in the fauna chapter. The nested anchor was repaired, a regression assertion was added, and the subsequent complete run passed.
-- G1–G3 are now closed with a recorded successful workflow run. G4 independent scientific review, G5 independent bilingual/release review and G6 disposition of all 52 mapped illustrations remain open. Therefore the controlled readiness score remains **95/100**.
+- G1–G3 are now closed with a recorded successful workflow run. G4 independent scientific review and G5 independent bilingual/release review remain open. G6 is now closed as an explicit 52-asset deferral; actual visual production remains pending. Therefore the controlled readiness score remains **95/100**.
 
 
 ## Independent reviewer handoff prepared — 1 November 2026
@@ -875,3 +875,13 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Added regression assertions so the packet retains both review scopes and the requirement for qualified independent sign-off.
 - This prepares external review but does not complete it. G4 and G5 remain unchecked until qualified reviewers return their findings and sign-offs. G1–G3 remain supported by the successful CI run recorded above; the controlled readiness score remains **95/100**.
 - Source checkpoint before this note: `da1edffbdbd9ea33f40170b9f260fa0f3cebf7dc`.
+
+
+## G6 illustration disposition closed by explicit deferral — 1 November 2026
+
+- Created [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) with an individual disposition for all 52 target assets, including exact anchor and filename, priority, deferral reason, source/licence status, brief-review status and future activation criteria.
+- All 52 are **Deferred**, not **Produced**. No third-party image was inserted without verified licence/attribution; no generated WebP was claimed to exist. The user-approved image-note fallback remains in place at all 52 anchors.
+- Updated `IMAGE_INSERTION_MAP.md` to link the disposition register and clarify that visual production remains pending.
+- Added regression assertions requiring 52 unique deferral rows matching the 52 mapped page anchors. The gate is closed as a disposition decision only; it does not certify that the Atlas has its final illustrations.
+- G6 is checked. G4 and G5 still require qualified independent reviewers. Readiness remains **95/100**.
+- Source checkpoint before this note: `7abcaca92c9c2796e19241551fd0d4282ff36dbe`.
