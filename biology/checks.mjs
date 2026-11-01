@@ -428,6 +428,8 @@ if (!regionalSpeciesAudit.includes("separate Ministry notice dated 19 September 
 
 if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/sotrudnikami-talasskogo-regionalnogo-upravleniya-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-provedeny-raboty-po-ucyotu-cislennosti-obektov-zivotnogo-mira")) errors.push("Talas multi-site marmot survey must link to its Ministry source");
 
+if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/osskim-regionalnym-upravleniem-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-na-territorii-gosudarstvennogo-prirodnogo-zapovednika-kulun-ata-uspesno-provedyon-ocerednoi-kompleks-meropriyatii-po-monitoringu-bioraznoobraziya")) errors.push("Osh Region Kulun-Ata detections must link to the Ministry source");
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
