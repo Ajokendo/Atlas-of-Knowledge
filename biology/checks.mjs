@@ -447,6 +447,16 @@ if (!faunaKyrgyzstanFile.includes("B. viridis") || !faunaKyrgyzstanFile.includes
   errors.push("chapters/fauna-kyrgyzstan.html: Red Data Book inclusion must not be presented as proof of current amphibian occurrence");
 }
 
+if (!faunaKyrgyzstanFile.includes("ORL_10.1-A-Non-Passerines.pdf") || !faunaKyrgyzstanFile.includes("possibly reaching just into southern Kyrgyzstan") || !faunaKyrgyzstanFile.includes("not a complete country-by-country occurrence list")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Tibetan Snowcock must remain a possible range-edge claim, not a confirmed Kyrgyzstan occurrence");
+}
+if (!faunaKyrgyzstanFile.includes("search_value=175953") || !faunaKyrgyzstanFile.includes("search_value=175954") || !faunaKyrgyzstanFile.includes("nomenclatural validity does not establish occurrence")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: both snowcock names must be taxonomically cross-referenced without conflating validity and locality evidence");
+}
+if (!regionalSpeciesAudit.includes("Snowcock taxonomy and Kyrgyzstan occurrence scope") || !regionalSpeciesAudit.includes("mapped possible range edge") || !regionalSpeciesAudit.includes("primary Kyrgyz locality record")) {
+  errors.push("Regional species audit must preserve the distinction between snowcock taxonomy, possible range edge and documented Kyrgyz occurrence");
+}
+
 if (!faunaKyrgyzstanFile.includes("wingeds.world/species/reptile/kg") || !faunaKyrgyzstanFile.includes("19 October 2026") || !faunaKyrgyzstanFile.includes("43 species") || !faunaKyrgyzstanFile.includes("19 subspecies")) {
   errors.push("chapters/fauna-kyrgyzstan.html: dated Kyrgyz reptile list must retain its species and subspecies totals");
 }
