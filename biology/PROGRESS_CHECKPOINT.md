@@ -621,3 +621,12 @@
 - **Scope limitation:** this was a read-only inspection of GitHub file contents. The repository's full `checks.mjs` script was not executed; no Chromium/browser run, keyboard interaction test, screen-reader test, measured contrast test, physical-device test, or successful CI run is claimed.
 - The 52 planned illustration assets remain deferred. G4 independent scientific review and G5 independent bilingual/editorial review remain open.
 - Controlled editorial readiness remains **95/100**. This audit does not justify increasing the score or claiming publication readiness.
+
+
+### Structural audit extension — local references and JavaScript syntax — 2 November 2026
+
+- Extended the read-only inspection across all 13 Biology HTML pages.
+- Reviewed 88 local references. All 13 Biology HTML targets were present; the three additional local targets were also fetched successfully: root `portal.html`, `biology/KYRGYZSTAN_BIODIVERSITY_DATA_STANDARD.md`, and `biology/KYRGYZSTAN_SPECIES_AUDIT.md`.
+- Checked local HTML fragment links between Biology pages: no broken fragments were found.
+- Parsed all 13 inline JavaScript blocks without executing them; all 13 passed syntax compilation.
+- These checks validate file presence, local fragment resolution and JavaScript syntax only. They do not validate browser runtime behaviour, external URL availability, interactive state transitions, or assistive-technology behaviour.
