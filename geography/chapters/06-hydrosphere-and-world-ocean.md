@@ -464,6 +464,258 @@ P = ET + R + \Delta S,
 
 **Место для иллюстрации 6.18-A — Hydrological Basin Exercise.** Учебная карта бассейна, таблица водного баланса и график сезонного расхода реки.
 
+## English-language chapter text
+
+### Introduction
+
+The hydrosphere is Earth's water envelope. It includes oceans and seas, rivers and lakes, glaciers and snow cover, groundwater, soil moisture, atmospheric water and water contained in organisms. Water occurs on the planet in liquid, solid and gaseous states and moves continuously between reservoirs.
+
+The world ocean is one interconnected system of ocean basins, covering about 71% of Earth's surface. It regulates climate, supports marine ecosystems, participates in global carbon and water cycles, and provides important transport and resource functions.
+
+### 6.1. Water on Earth: Distribution and Properties
+
+The total volume of water on Earth is estimated at about 1.386 billion km³. Approximately 97.5% is saline water in oceans and seas, while about 2.5% is fresh water. These figures are rounded; exact proportions depend on how reservoirs are classified and on the data used.
+
+The main freshwater reservoirs are glaciers and ice sheets, groundwater, lakes and rivers, soil moisture, the atmosphere and water in living organisms. Most freshwater is stored in glaciers and groundwater. The share held in rivers and lakes is very small compared with the planet's total water, although these resources are highly important for ecosystems and water supply.
+
+Important properties of water include:
+- **high heat capacity:** water warms and cools relatively slowly;
+- **high latent heat of vaporisation:** evaporation transfers substantial energy;
+- **molecular polarity:** water dissolves many substances;
+- **maximum density of freshwater near 4°C** at normal pressure;
+- **expansion on freezing:** ice is usually less dense than liquid water and floats; and
+- **surface tension and capillarity**, which are important in soils and living organisms.
+
+### 6.2. The Hydrological Cycle
+
+The hydrological cycle is the continuous movement of water among the ocean, land, atmosphere, cryosphere and underground reservoirs, driven by solar energy and gravity.
+
+Its main processes include evaporation from oceans, water bodies and soil; plant transpiration; condensation; atmospheric moisture transport; precipitation; infiltration into soil; percolation into aquifers; surface and groundwater runoff; storage in glaciers and snow cover; melting; and sublimation.
+
+**Evapotranspiration** combines evaporation from surfaces and transpiration by plants. A water balance for an area can be expressed through precipitation, evaporation and changes in water storage. Catchment analysis also accounts for inflows and outflows.
+
+The cycle operates at different scales:
+- a **small oceanic cycle**, with evaporation and precipitation occurring over the ocean;
+- an **ocean-to-land cycle**, in which atmospheric moisture moves from the ocean, falls as precipitation over land and returns through runoff; and
+- a **continental cycle**, in which moisture is repeatedly evaporated and precipitated within a continent.
+
+### 6.3. The World Ocean as an Integrated System
+
+The world ocean is a continuous water system, although it is traditionally divided into individual oceans and seas. Boundaries between oceans are conventional and depend on geographical and hydrographic traditions.
+
+A widely used modern classification recognises five oceans: the Pacific, Atlantic, Indian, Southern and Arctic oceans. The Southern Ocean surrounds Antarctica; in current international practice its northern boundary is generally associated with about 60° S, although maps and sources may differ.
+
+The Pacific is the largest ocean and one of the deepest on average. The Atlantic has a complex system of mid-ocean ridges and marginal seas. The northern Indian Ocean is strongly influenced by monsoon seasonality. The Southern Ocean plays an important role in global water circulation. The Arctic is the smallest and comparatively shallowest ocean.
+
+Exact areas and mean depths should be taken from one consistent hydrographic classification because estimates vary according to which seas and marginal basins are included.
+
+### 6.4. Ocean-Floor Relief
+
+The ocean floor has a complex structure and includes features comparable in scale to the largest landforms on continents.
+
+Major features include:
+- the **continental shelf**, the relatively shallow submerged edge of a continent;
+- the **continental slope**, the steep transition from the shelf to the deep basin;
+- the **continental rise**, where sediments accumulate near the base of the slope;
+- **abyssal plains**, extensive, relatively flat deep-ocean areas;
+- **mid-ocean ridges**, long submarine mountain systems associated with the formation of oceanic crust;
+- **deep-sea trenches**, narrow, very deep depressions often associated with subduction;
+- **seamounts and guyots**, isolated submarine elevations, with guyots having flat tops; and
+- **island arcs**, chains of volcanic islands associated with subduction.
+
+Ocean-floor relief is shaped by plate tectonics, volcanism, sedimentation, submarine slope failures and erosional processes.
+
+### 6.5. Seawater Temperature, Salinity and Density
+
+The physical properties of seawater influence vertical stability, mixing, circulation and the distribution of marine organisms.
+
+**Temperature** at the ocean surface depends on latitude, season, cloud cover, winds and currents. Temperature generally decreases with depth in most ocean regions, but the vertical profile varies between latitudes and basins. A **thermocline** is a layer in which temperature changes rapidly with depth; it is often more pronounced in tropical and subtropical waters than at high latitudes.
+
+**Salinity** is a measure of the total dissolved salts in water. It is often expressed using Practical Salinity Units (PSU) or the practical salinity scale; an approximate global mean of about 35 is commonly used in educational materials. Salinity tends to rise with strong evaporation and decrease with precipitation, river inflow and ice melt. Values vary among seas and ocean regions.
+
+**Density** depends mainly on temperature, salinity and pressure. At comparable pressure, colder and saltier water is generally denser than warmer and less saline water. Density differences help drive deep-ocean circulation.
+
+### 6.6. Waves, Tides and Ocean Currents
+
+**Waves.** Wind waves form when energy is transferred from the wind to the water surface. Water particles in an ordinary wave mainly move in orbital paths, while the wave form and energy propagate onward.
+
+A **tsunami** is a long wave usually caused by the sudden displacement of large volumes of water during submarine earthquakes, landslides or volcanic events. In the open ocean, a tsunami may have a small height but a very long wavelength and high speed; its height can increase sharply near a coast.
+
+**Tides** are caused mainly by the gravitational effects of the Moon and Sun and the motion of the Earth–Moon system. Basin geography, coastline shape, depth and resonance strongly influence local tidal range. Spring tides occur near new and full moons, when solar and lunar effects generally reinforce one another. Neap tides occur near the first and last quarter moons, when the tidal range is usually smaller.
+
+**Ocean currents** are persistent or recurring directed movements of seawater. They are driven by winds, density differences, Earth's rotation, basin geometry, tidal forces and interactions with the ocean floor. Types include surface wind-driven currents, deep thermohaline circulation, tidal currents and coastal or local currents.
+
+### 6.7. Global Ocean Circulation
+
+The ocean transports heat, salt, oxygen, carbon and nutrients. Surface currents are largely driven by winds and Earth's rotation, while deep circulation is associated with spatial differences in water density and the formation of water masses.
+
+Large subtropical **ocean gyres** form in the main ocean basins under the influence of prevailing winds and the Coriolis effect. They generally rotate clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere.
+
+**Thermohaline circulation** is associated with temperature and salinity differences that determine water density. Dense deep waters form in certain high-latitude regions. Modern global circulation is not a simple conveyor belt moving at a constant speed: it includes complex pathways, mixing, eddies and exchanges with the atmosphere.
+
+### 6.8. Seawater Chemistry and Gas Exchange
+
+Seawater contains dissolved salts, gases, organic substances and nutrients. Its main ions include chloride, sodium, sulphate, magnesium, calcium, potassium and bicarbonate.
+
+The ocean exchanges carbon dioxide and oxygen with the atmosphere. The direction and intensity of exchange depend on temperature, wind, biological activity and differences in gas partial pressure between air and water.
+
+**Ocean acidification** occurs when the ocean absorbs part of human-caused CO₂ emissions, changing the carbonate system and lowering seawater pH. It does not mean that all seawater has become acidic in the everyday sense; it refers to a decline in pH relative to an earlier level. The chemical change reduces the availability of carbonate ions needed by many organisms to build shells and skeletons.
+
+**Ocean deoxygenation** is a decline in dissolved oxygen. It may result from warming, weaker ventilation of water masses and decomposition of organic matter. In coastal areas, excess nutrients can intensify eutrophication and lead to hypoxia.
+
+### 6.9. Marine Ecosystems and Productivity
+
+Ocean ecosystems differ in light, depth, temperature, salinity, nutrient availability and substrate.
+
+Major ecological zones include the **littoral**, periodically affected by tides; the **sublittoral**, a shallow permanently submerged zone; the **pelagic zone**, the open-water column; the **benthic zone**, the seabed; and the **abyssal and hadal zones**, the deepest regions.
+
+**Phytoplankton** photosynthesises in the sunlit ocean and forms the base of many marine food webs. Upwelling zones, where deep nutrient-rich water rises towards the surface, often have high biological productivity.
+
+Important ecosystems include coral reefs, mangrove forests, seagrass meadows, salt marshes, the open ocean and deep-sea communities.
+
+### 6.10. Marine Resources and Ocean Uses
+
+The world ocean provides biological resources and fisheries products, maritime transport and international trade routes, energy resources, mineral raw materials, tourism and recreation opportunities, and genetic and biotechnological resources.
+
+Marine aquaculture and fisheries are important to food security. Their sustainability depends on controlling fishing pressure, conserving habitats, combating illegal fishing and managing stocks on a scientific basis.
+
+Offshore energy includes oil and gas extraction, offshore wind farms and emerging technologies that use wave and tidal energy. Each technology has environmental, economic and engineering limitations.
+
+### 6.11. Ocean Pollution and Marine Protection
+
+Major sources of ocean pollution include plastics and microplastics, oil spills, wastewater and excess nutrients, heavy metals and persistent chemical pollutants, marine litter from ships and coasts, underwater noise and the transfer of invasive species.
+
+Plastic waste can injure marine animals, enter food webs and travel long distances. Microplastics have been found in different parts of the marine environment, although their effects on particular species and on human health remain an active area of research.
+
+Protection measures include preventing litter and untreated wastewater from entering the ocean, reducing single-use plastics and improving waste management, controlling shipping and fishing, establishing marine protected areas, monitoring water quality and ecosystem condition, and strengthening international cooperation.
+
+### 6.12. Glaciers, Sea Ice and the Cryosphere
+
+The cryosphere includes all parts of Earth where water is in a frozen state: glaciers, ice sheets, sea ice, seasonal snow cover, permafrost and ground ice.
+
+A **glacier** is a mass of land-based ice formed by the accumulation and compaction of snow and capable of moving under gravity. Glaciers are important indicators of climate change and freshwater reservoirs.
+
+**Sea ice** forms when seawater freezes and floats on the ocean surface. It differs from land-based glacier ice in origin, salinity and dynamics.
+
+**Glacier mass balance** is the difference between accumulation of snow and ice and losses through melting, sublimation, iceberg calving and other processes. A positive balance means the glacier gained mass over the period considered; a negative balance means it lost mass.
+
+### 6.13. Rivers and Drainage Basins
+
+A **river** is a natural flow of water moving in a channel from its source to its mouth. Rivers receive water from precipitation, snow and ice melt, groundwater and tributaries.
+
+A **drainage basin** is the area from which water drains into a particular river and its tributaries. Its boundary generally follows watersheds.
+
+Key river characteristics include length, basin area, discharge, flow regime, channel gradient, seasonality and extremes.
+
+**Discharge** is the volume of water passing through a channel cross-section per unit of time, usually expressed in cubic metres per second (m³/s). A river's flow regime describes seasonal and multi-year changes in water level and discharge.
+
+Rivers have ecological, transport, energy and water-supply functions. Dams and water abstraction change natural flow regimes, sediment transport and the migration of aquatic organisms.
+
+### 6.14. Lakes and Inland Waters
+
+Lakes are natural or artificial water bodies occupying depressions in the land surface. They differ in origin, depth, area, water balance, salinity and ecological condition.
+
+By origin, lake basins may be tectonic, glacial, volcanic, karst, dammed, thermokarst or residual. By water balance, lakes may be outflowing or closed. In closed lakes, salts may accumulate through evaporation, producing saline water.
+
+**Eutrophication** is the enrichment of a water body with nutrients, especially nitrogen and phosphorus compounds. Excessive eutrophication can cause algal blooms, reduced water transparency and oxygen depletion.
+
+### 6.15. Groundwater
+
+Groundwater occurs in pores, fractures and cavities in rocks. It is replenished mainly by infiltration of precipitation and surface water, although other sources may contribute under particular geological conditions.
+
+Key concepts include:
+- an **aquifer**, a geological body able to store and transmit groundwater;
+- an **aquitard or confining layer**, a layer of very low permeability that restricts water movement;
+- the **water table**, the upper surface of the saturated zone in an unconfined aquifer;
+- **artesian water**, groundwater in a confined aquifer under pressure that may rise above the top of the aquifer; and
+- a **spring**, a natural discharge of groundwater at the surface.
+
+Groundwater is important for drinking-water supply, agriculture and sustaining river flow during dry seasons. Its vulnerability depends on depth, rock permeability, renewal time and land use.
+
+### 6.16. Water Resources, Scarcity and Management
+
+Water resources are distributed very unevenly. Availability depends not only on total volume but also on seasonal flow, water quality, infrastructure, economic conditions and transboundary management.
+
+Different forms of scarcity include:
+- **physical scarcity:** insufficient available water resources;
+- **economic scarcity:** insufficient infrastructure or capacity to access water;
+- **seasonal scarcity:** a temporary mismatch between demand and availability; and
+- **scarcity of safe water:** pollution or naturally unsuitable water quality.
+
+Integrated water-resources management treats a basin as one system and considers the needs of communities, agriculture, energy, industry and ecosystems.
+
+Key tools include monitoring surface water and groundwater, water-saving technologies, treatment and reuse, wetland restoration, environmental flows, transboundary agreements and data exchange.
+
+### 6.17. Water and Climate Change
+
+Climate change affects the hydrological cycle through changes in evaporation, precipitation intensity, snow accumulation, glacier melt and the frequency of extreme events.
+
+Some regions may experience stronger intense rainfall and floods, longer droughts, seasonal changes in runoff, increased risks to glacial lakes and mountain valleys, and greater competition between sectors for water. Impacts depend on geography, infrastructure and society's capacity to adapt. Changes in precipitation and runoff should not be described as identical across all regions.
+
+### Chapter Summary
+
+1. The hydrosphere includes oceanic, surface, groundwater, atmospheric and frozen water.
+2. Most of Earth's water is saline; most freshwater is stored in glaciers and underground reservoirs.
+3. The water cycle links the ocean, land, atmosphere and cryosphere.
+4. The world ocean is one interconnected system of basins.
+5. Ocean-floor relief reflects the tectonic structure and history of ocean basins.
+6. Temperature, salinity and density shape many aspects of ocean circulation.
+7. Waves, tides and currents transport energy and matter.
+8. Marine and freshwater ecosystems depend on water quality, nutrients and physical conditions.
+9. Rivers, lakes and groundwater provide freshwater for communities and economic activity.
+10. Sustainable water management requires a basin approach and international cooperation.
+
+### Review Questions
+
+1. How is water distributed between saline and freshwater reservoirs?
+2. Which properties of water are especially important for climate?
+3. Which processes make up the hydrological cycle?
+4. Which five oceans are recognised in the modern classification?
+5. How does the continental shelf differ from the continental slope?
+6. How do temperature and salinity affect seawater density?
+7. How do wind waves differ from tsunamis?
+8. How do tides form?
+9. How do surface currents differ from deep circulation?
+10. What is ocean acidification?
+11. Which factors affect ocean biological productivity?
+12. How does a glacier differ from sea ice?
+13. What are a drainage basin and a watershed?
+14. How does groundwater form?
+15. How does physical water scarcity differ from economic scarcity?
+16. How does climate change affect the hydrological cycle?
+
+### Practical Assignment: Analysing a Water Balance and River Basin
+
+Consider a hypothetical river basin with an area of 10,000 km². Annual mean precipitation is 800 mm, actual evapotranspiration is 500 mm, and water storage in soil, aquifers and water bodies increases by 50 mm.
+
+For a simplified annual balance without inter-basin transfers, use:
+
+\[
+P = ET + R + \Delta S,
+\]
+
+where P is precipitation, ET is evapotranspiration, R is runoff depth and ΔS is the change in water storage.
+
+1. Calculate runoff depth R in millimetres.
+2. Convert the runoff depth into a water volume for the whole basin in km³.
+3. If annual river discharge volume at the outlet is 3.78 km³, estimate mean discharge in m³/s using 365 days per year and Q = V/t.
+4. Explain why actual discharge in individual months differs from the annual mean.
+5. Name two factors that could change the basin water balance and propose three measures for sustainable water management.
+
+**Check:** runoff depth is 250 mm; the corresponding volume for a 10,000 km² basin is 2.5 km³. The 3.78 km³ value in question 3 is a separate teaching example for calculating discharge, not a continuation of the balance in questions 1–2. The mean discharge for 3.78 km³/year is approximately 120 m³/s.
+
+Additional task: compare two ocean regions using surface temperature, salinity and the direction of major currents, based on a map and data with a stated observation period.
+
+### English scientific and editorial notes
+
+- Every estimate of global water stores should include a source and date; rounded percentages must not imply absolute precision.
+- When comparing oceans, state the hydrographic classification and the boundaries used for the Southern Ocean.
+- Ocean-depth values should identify the measurement method, date and source; a single measurement must not be presented as an unchanging property of an entire trench.
+- Salinity, temperature and dissolved-gas concentrations vary by season, depth and region.
+- Water-cycle diagrams must distinguish reservoir volumes from flow rates.
+- Descriptions of climate impacts should distinguish observed trends from regional projections and scenarios.
+- Maps of rivers, lakes and aquifers should use verified hydrographic and hydrogeological data and should not oversimplify transboundary basin boundaries.
+
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
 1. USGS Water Science School. *Water Science Basics*. https://www.usgs.gov/special-topics/water-science-school
