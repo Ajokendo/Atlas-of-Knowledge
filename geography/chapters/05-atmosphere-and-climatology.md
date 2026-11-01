@@ -792,3 +792,5 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 - Значения рекордов температуры, осадков и ветра требуют указания станции, даты, методики и официального источника.
 - При изложении изменения климата различать глобальные средние тенденции, региональные изменения и естественную межгодовую изменчивость.
 - Для графиков теплового баланса и глобальной температуры не объединять данные разных источников без методологического пояснения.
+- При указании концентрации CO₂ всегда называть сеть наблюдений и тип среднего: значение NOAA по морским станциям и глобальное среднее WMO могут различаться из-за методики и пространственного охвата.
+- When reporting CO₂ concentration, always identify the observing network and averaging method: NOAA's marine-site value and the WMO global mean can differ because of methodology and spatial coverage.
