@@ -828,3 +828,13 @@
 ## 2026-11-02 — supersession note
 
 Older checkpoint entries below this note contain historical planning language that treated G4/G5 external review as mandatory. They are retained as an audit trail only and are superseded by the current Gate status at the top of this file and the 2026-11-02 G4/G5 closure record. Current model: G4 and G5 are internal audits and are closed; optional external consultation is not a required gate.
+
+
+## 2026-11-02 — expanded interactive keyboard and live-region audit
+
+- CI #533 passed on `a962dedba14a0a59f2dd0a1d40c78edd65f06030`: each of the six interactive SVG organelles on the Biology landing page was checked for role, keyboard focusability, non-empty language-specific accessible name, a valid `aria-describedby="org-info"` target, and a visible focus indicator. Each control was activated by both Enter and Space in Russian and English.
+- CI #534 passed on `045e0344cab16860e84ce415d0f7921e35ed6877`: added representative keyboard activation and output/state assertions for eight chapter models — zoology, cell biology, anatomy, genetics, microbiology, evolution, biochemistry and systematics — in addition to the existing Botany quiz and Ecology carbon-cycle keyboard scenarios.
+- A screen-reader announcement gap was found in Systematics: the dynamic species-name example changed when a user selected a different organism but its output container had no live-region semantics. Added `aria-live="polite"` to `#name-output`, added a static regression assertion in `checks.mjs`, and added a browser check that selects the human example with Enter and verifies the live-region attribute and updated output.
+- CI #537 passed on `fc83b29988e93128d57dc032cdafd6e430a7db83`: 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons; all Chromium checks passed at mobile and desktop widths; 30 language-toggle interactions; 21,477 sampled text instances with zero below-threshold instances; no uncaught page errors.
+- The above is a representative automated keyboard/model-state audit, not exhaustive activation of every control. Full tab-order traversal, comprehensive screen-reader testing with assistive technology and physical-device/browser matrix testing remain open.
+- Controlled editorial readiness remains **95/100**. G4 and G5 internal audits remain closed at 4/4 blocks each. The 52 visual assets remain deferred; shared-portal feedback integration remains separate, and feedback intake remains disabled until secure end-to-end checks and owner approval.
