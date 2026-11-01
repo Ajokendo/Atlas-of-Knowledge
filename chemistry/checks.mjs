@@ -491,7 +491,12 @@ for (const [label, evidence] of [
   ["molar gas constant", "8.314 462 618…"],
   ["standard pressure conversion", "1 bar = 100 kPa"],
   ["standard atmosphere conversion", "1 atm = 101.325 kPa"],
-  ["IUPAC standard gas conditions", "273.15 K"]
+  ["IUPAC standard gas conditions", "273.15 K"],
+  ["Russian standard pressure distinction", "Стандартное давление по рекомендации IUPAC — 100 kPa (1 bar)"],
+  ["English standard pressure distinction", "IUPAC standard pressure is 100 kPa (1 bar)"],
+  ["Russian standard gas conditions definition", "Для стандартных условий газов IUPAC указывает 273.15 K и 100 kPa"],
+  ["English standard gas conditions definition", "For standard conditions for gases, IUPAC specifies 273.15 K and 100 kPa"],
+  ["separate thermodynamic reference temperature", "The temperature for tabulated thermodynamic data is stated separately"]
 ]) {
   if (!constantsSource.includes(evidence)) errors.push("chemistry-constants.html: missing or changed " + label);
 }
