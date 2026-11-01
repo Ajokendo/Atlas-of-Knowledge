@@ -306,3 +306,14 @@
 - Read-back verified the updated species audit and checks source. `checks.mjs` itself was not run; no test success is claimed.
 - The 52 image insertion anchors and 52 Deferred disposition entries remain intact; no visual asset was added.
 - Repeat-audit coverage: 50%. Controlled editorial readiness: 95/100. G4 scientific review and G5 editorial/language review remain open.
+
+
+## Repeat-audit milestone — 60% — 1 November 2026
+
+- Reconciled the reptile country page's 44 country-selector count with its 43 numbered species / summary count; retained the unresolved discrepancy and the separate 19-subspecies count (12 unconfirmed).
+- Clarified that the compiler's eight Red Data Book entries (six species, two subspecies) are a secondary mapping to the cited 2006 edition, not an independent legal review.
+- Updated the GBIF Central Asian reptile checklist description: version 1.15, five-country scope, literature-review hierarchy and explicit non-field-sampling method.
+- Rechecked the 2015 Black Stork breeding account and generalized the nest location in the chapter to avoid exposing a sensitive nest site; preserved the dated chick chronology.
+- Updated the regional audit and regression guards. GitHub changes are to be read back; `checks.mjs` was not run and no test success is claimed.
+- The 52 image anchors and 52 Deferred disposition entries remain intact; no visual asset was added.
+- Repeat-audit coverage: 60%. Controlled editorial readiness: 95/100. G4 and G5 remain open.
