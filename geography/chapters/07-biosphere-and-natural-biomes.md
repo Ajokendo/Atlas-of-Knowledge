@@ -10,6 +10,9 @@
 After studying this chapter, readers will be able to explain the extent and functions of the biosphere, distinguish levels of biological organization, analyse ecosystem structure and energy flows, compare the major biomes, understand biogeographical patterns, and assess drivers of ecosystem degradation.
 
 ## 7.1. Биосфера: пространство жизни / The Biosphere: The Realm of Life
+> **[МЕТКА ИЛЛЮСТРАЦИИ 07-A / IMAGE PLACEHOLDER 07-A]** Схема биосферы и взаимодействия атмосферы, гидросферы, литосферы и организмов. / Diagram of the biosphere and interactions among atmosphere, hydrosphere, lithosphere and organisms.
+
+
 
 Биосфера — глобальная система Земли, в пределах которой существует жизнь и живые организмы взаимодействуют с атмосферой, гидросферой и верхней частью литосферы. Жизнь обнаруживается в почвах, океанах, пресных водах, на поверхности суши и в нижней части атмосферы. Отдельные микроорганизмы способны существовать в глубоких подземных породах и экстремальных средах, поэтому границы биосферы нельзя представить как одну тонкую и строго фиксированную оболочку.
 
@@ -64,6 +67,9 @@ After studying this chapter, readers will be able to explain the extent and func
 Техническое задание: график с осью X «интенсивность экологического фактора», осью Y «жизненная активность»; отметить зоны пессимума, оптимум, нижний и верхний пределы толерантности; пояснить, что кривая концептуальная и не является универсальной числовой моделью.
 
 ## 7.4. Трофическая структура и поток энергии / Trophic Structure and Energy Flow
+> **[МЕТКА ИЛЛЮСТРАЦИИ 07-B / IMAGE PLACEHOLDER 07-B]** Пищевая сеть с продуцентами, консументами и редуцентами; поток энергии обозначить стрелками. / Food web with producers, consumers and decomposers; show energy flow with arrows.
+
+
 
 В экосистемах организмы связаны пищевыми отношениями. По способу получения энергии и вещества выделяют три основные функциональные группы:
 
@@ -175,6 +181,9 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 Техническое задание: сделать две сопоставимые схемы: профиль Земли от экватора к полюсам и горный склон от подножия до нивального пояса; подписать биомы схематически, указать, что реальные границы переходные и зависят от региональных условий.
 
 ## 7.8. Главные наземные биомы Земли / Major Terrestrial Biomes
+> **[МЕТКА ИЛЛЮСТРАЦИИ 07-C / IMAGE PLACEHOLDER 07-C]** Карта наземных биомов мира с климатическими поясами и примерами адаптаций. / World map of terrestrial biomes with climate belts and examples of adaptation.
+
+
 
 Биом — крупная природная система, объединённая характерными климатическими условиями, растительностью и связанными с ними сообществами животных и микроорганизмов. Границы биомов переходные, а классификации могут отличаться по числу категорий и критериям.
 
