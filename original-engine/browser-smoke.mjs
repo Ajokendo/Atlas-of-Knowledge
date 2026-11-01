@@ -11,6 +11,7 @@ const failures = [];
 let pagesChecked = 0;
 let axeCritical = 0;
 let axeSerious = 0;
+let abortAfterBootstrap = false;
 
 const browser = await chromium.launch({
   headless: true,
@@ -26,7 +27,7 @@ async function checkLab(lab, mobile) {
     reducedMotion: 'reduce',
   });
   const page = await context.newPage();
-  page.setDefaultTimeout(15000);
+  page.setDefaultTimeout(10000);
   const runtimeErrors = [];
   page.on('pageerror', error => runtimeErrors.push(error.message));
   page.on('console', message => {
@@ -35,16 +36,16 @@ async function checkLab(lab, mobile) {
   try {
     const response = await page.goto(`${base}/original-engine/${lab}/`, {
       waitUntil: 'domcontentloaded',
-      timeout: 30000,
+      timeout: 15000,
     });
     if (!response || !response.ok()) throw new Error(`HTTP response ${response?.status() ?? 'missing'}`);
-    await page.waitForSelector('#sheet h1', { timeout: 30000 });
+    await page.waitForSelector('#sheet h1', { timeout: 10000 });
     await page.waitForFunction(() => {
       const canvas = document.querySelector('#gl');
       return canvas && canvas.width > 0 && canvas.height > 0 &&
         document.querySelector('.page-announcement') &&
         document.querySelectorAll('#dots button').length > 0;
-    }, undefined, { timeout: 15000 });
+    }, undefined, { timeout: 10000 });
 
     const state = await page.evaluate(() => {
       const canvas = document.querySelector('#gl');
@@ -95,6 +96,7 @@ async function checkLab(lab, mobile) {
     pagesChecked++;
     console.log(`PASS ${lab} ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — ${state.pages} pages, WebGL ${state.canvas.join('×')}`);
   } catch (error) {
+    if (lab === 'kinematics' && !mobile) abortAfterBootstrap = true;
     failures.push(`${lab} ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
     console.error(`FAIL ${lab} ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
   } finally {
@@ -109,7 +111,9 @@ async function checkLab(lab, mobile) {
 try {
   for (const lab of labs) {
     await checkLab(lab, false);
+    if (abortAfterBootstrap) break;
     await checkLab(lab, true);
+    if (abortAfterBootstrap) break;
   }
 } finally {
   await browser.close();
