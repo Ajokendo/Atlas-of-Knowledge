@@ -802,8 +802,10 @@ if (!faunaKyrgyzstanFile.includes("central_asia_reptile&amp;v=1.15") || !faunaKy
 if (!regionalSpeciesAudit.includes("Kyrgyzstan reptile country list (snapshot 19 October 2026)") || !regionalSpeciesAudit.includes("44-versus-43 count")) {
   errors.push("Regional species audit must record the dated reptile snapshot and unresolved count discrepancy");
 }
-if (!regionalSpeciesAudit.includes("Central Asian reptile checklist (GBIF dataset, version 1.15, 26 October 2026)")) {
-  errors.push("Regional species audit must record the 2026 Central Asian reptile checklist with its evidence-scope caveat");
+if (!regionalSpeciesAudit.includes("Central Asian reptile checklist (GBIF dataset, version 1.15; published 26 October 2026, accessed 29 October 2026)") ||
+    !regionalSpeciesAudit.includes("systematic literature review, prioritising official national Red Data Book editions") ||
+    !regionalSpeciesAudit.includes("not based on field sampling")) {
+  errors.push("Regional species audit must preserve the latest reptile checklist version, source hierarchy and non-field methodology");
 }
 if (!regionalSpeciesAudit.includes("44-versus-43") ||
     !regionalSpeciesAudit.includes("8 national Red Data Book entries (6 species and 2 subspecies)") ||
