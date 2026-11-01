@@ -518,3 +518,13 @@
 - Kept the 52 illustrations, screen-reader testing, contrast measurement and physical-device testing as separate release gates. Current state remains 52 illustrations deferred, with no independent G4/G5 sign-off or accessibility/device certification claimed.
 - Handoff commit: `37f9a6c158e5783f357fbdf829646833464e3cf9`. The new file was read back from `workspace/biology` and verified (14,331 characters; blob `1f2245266815f2d04809f08ef2b18e1195605491`).
 - Controlled editorial readiness remains **95/100**; preparing the handoff does not close G4 or G5 and does not increase publication readiness.
+
+## Independent review package — page-level matrix milestone (50%)
+
+- Added `INDEPENDENT_REVIEW_PAGE_MATRIX.md`: a 13-page assignment matrix covering scientific topics, recommended specialist competence, bilingual editorial focus and required signed page records.
+- Added six cross-page consistency checks (plant content, zoology/fauna, cell biology/biochemistry/genetics, ecology/regional biodiversity, evolution/systematics/zoology, and anatomy/cell biology/biochemistry).
+- Added a reviewer dashboard and page-level record template. Corrected the priority-claim inventory to **six P1 and four P2 claims** (10 total), matching the ten rows in `EXTERNAL_REVIEW_PACKET.md`.
+- Linked the matrix from `INDEPENDENT_REVIEW_HANDOFF.md`.
+- Matrix commit: `7a1000153c2cbca1d02ad73e3ba7b1b0cdca1777`; handoff-link commit: `12259ad02c890de9c3001354adcea6c4ebfc1b66`.
+- This completes **50% of the reviewer-package preparation stage**: the handoff protocol and page-by-page assignment matrix are prepared. Reviewer recruitment, actual independent assessment and signed acceptance remain outstanding.
+- Controlled editorial readiness remains **95/100**; G4/G5 remain open. The 52 illustrations remain deferred; screen-reader, contrast and physical-device certification remain uncompleted.
