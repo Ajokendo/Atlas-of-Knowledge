@@ -65,3 +65,26 @@ Government notice: https://gosreg.gov.kg/ru/?p=2002
 - Do not mark any map asset complete until the data, geometry, projection, licence, bilingual labels and scientific review have been recorded.
 
 **Status:** authoritative reference-system sources identified and cross-distinguished; official thematic map geometries remain unverified.
+
+## Legal and national toponymic-source update — 1 November 2026
+
+### Law No. 58 of 29 April 2026
+
+The Kyrgyz Republic adopted Law No. 58, “On Geodesy, Cartography and Spatial Data”, dated 29 April 2026. The accessible text confirms that it regulates the collection, storage, processing, provision and dissemination of spatial data and defines an atlas, basic spatial data, a vertical reference system, geoportals and geoservices. The legal reference is now included in Chapter 17. The law's entry-into-force date should be taken from the official consolidated legal record; secondary reproductions surfaced inconsistent dates, so this audit does not state an effective date.
+
+Official legal database: https://cbd.minjust.gov.kg/230045410/edition/52293/ru
+Readable text / article preview: https://prg.kz/document/?doc_id=39403056
+
+### National geographical-names information system
+
+The state register of information systems identifies the AIS “Geographical Names of the Kyrgyz Republic” (AIS GN), with Goskartografia recorded as owner and technical operator. Its registry description reports 10,281 georeferenced geographical features and identifies Kyrgyzmap (https://www.kyrgyzmap.kg) as the portal. The record shows registration on 23 August 2023, operation start on 30 April 2022, and last modernisation on 31 December 2022. This is useful evidence of a national toponymic resource and its institutional ownership, but the record's old modernisation date means it does not prove that every entry is current or that every layer is openly downloadable today.
+
+State register record: https://bgir.tunduk.kg/Category/InformationSystem/Details?id=223
+
+### Editorial implications
+
+- Chapter 17 now cites the 2026 law and the state-register record for AIS GN in both language versions.
+- Use AIS GN/Kyrgyzmap as a national toponymic verification route; check each name, spelling, location and record date rather than copying a bulk count as current fact.
+- Do not use the toponymic database as proof of state-border geometry or extreme-point coordinates.
+- Every finished map must retain source metadata, coordinate reference system, vertical reference where relevant, source date, licence/conditions and review status.
+- Extreme-point coordinates remain unapproved until confirmed against a national geodetic/cartographic source.
