@@ -757,3 +757,11 @@
 - Extended the Playwright contrast sampler to also inspect the focused-control state on each page and the updated selected/feedback states after keyboard activation in Ecology and Botany.
 - New browser test commit: `a1f96095bec70dcf11042cfae1645dbea2f170d8`. CI verification pending.
 - This adds representative dynamic-state sampling; it does not exhaustively cover every hover, pressed, disabled, expanded or error state on every control.
+
+
+## 2026-11-02 — representative dynamic-state contrast pass
+
+- CI #503 (run ID `41343612188`, code commit `a1f96095bec70dcf11042cfae1645dbea2f170d8`) completed successfully.
+- Expanded browser log: `20,771 text instances, 0 below-threshold instances`. The count includes Russian and English snapshots, mobile and desktop sizes, first keyboard-focused state on all pages, plus selected-state Ecology output and quiz-feedback Botany output.
+- Existing checks also passed: 13 pages at two viewport sizes, 26 language-toggle interactions, no uncaught page errors, representative Enter/Space activation, and initial keyboard focus visibility.
+- Defined representative dynamic-state contrast stage: 100%. This does not mean every control state or all WCAG success criteria have been tested; exhaustive control-state, full tab order, screen-reader and real-device checks remain open.
