@@ -939,6 +939,9 @@ try {
     }
 
     if (file === "virtual-lab.html") {
+      if (await page.locator("#ph").getAttribute("aria-live") !== "polite") {
+        errors.push(file + ": changing pH output is not announced to assistive technology");
+      }
       await page.locator("#add").click();
       if (!(await page.locator("#status").innerText()).trim()) errors.push(file + ": experiment did not report a result");
       if (!(await page.locator("#baseOut").innerText()).trim().endsWith("мл") ||
