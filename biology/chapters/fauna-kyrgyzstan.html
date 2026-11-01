@@ -491,6 +491,6 @@ html[lang="en"] .image-generation-note .en{display:block}
 </main>
 <footer><span>ATLAS OF BIOLOGY · REGIONAL FAUNA</span><span>RU / EN · KYRGYZSTAN</span></footer>
 <script>
-let lang="ru";const btn=document.getElementById("lang");function setLang(){document.documentElement.lang=lang;btn.textContent=lang==="ru"?"EN":"RU"}btn.addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";setLang()});setLang();
+let lang="ru";const btn=document.getElementById("lang");function setLang(){document.documentElement.lang=lang;btn.textContent=lang==="ru"?"EN":"RU";btn.setAttribute("aria-label",lang==="ru"?"Переключить язык":"Switch language")}btn.addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";setLang()});setLang();
 </script>
 </body></html>
