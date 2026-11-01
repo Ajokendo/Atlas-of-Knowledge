@@ -608,6 +608,20 @@ if (!faunaKyrgyzstanFile.includes("10.36979/1694-500X-2025-25-12-159-166") ||
     !faunaKyrgyzstanFile.includes("not be used as a settled total")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Suusamyr fish study must retain its DOI, author-reported names, synonymy and unresolved count/taxonomy caveats");
 }
+
+const externalReviewPacket = fs.readFileSync(path.join(root, "EXTERNAL_REVIEW_PACKET.md"), "utf8");
+for (const phrase of [
+  "### G4 — Scientific review",
+  "### G5 — Bilingual editorial and release review",
+  "Son-Kul fish survey (Sarieva, Konurbaev & Osmonov, 2023)",
+  "Kempir-Abad basin expedition",
+  "Argali genomic study and Dryad metadata",
+  "Tibetan Snowcock occurrence",
+  "G4 and G5 remain **open**"
+]) {
+  if (!externalReviewPacket.includes(phrase)) errors.push("EXTERNAL_REVIEW_PACKET.md: missing independent-review scope or sign-off requirement: " + phrase);
+}
+
 if (!regionalSpeciesAudit.includes("Suusamyr Valley fish survey (fieldwork 2024; published 2025)") ||
     !regionalSpeciesAudit.includes("not infer a settled 4+1 total") ||
     !regionalSpeciesAudit.includes("Diptychus gymnogaster` as a synonym of `D. maculatus") ||
