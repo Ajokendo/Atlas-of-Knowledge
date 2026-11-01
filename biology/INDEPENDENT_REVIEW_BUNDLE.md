@@ -92,3 +92,9 @@ These remaining release gates must be tracked and evidenced separately.
 - All eight reviewer role slots have a potential lead or institutional nomination route, with scope boundaries and conflict-screening instructions.
 - This milestone means preparation is complete only. No invitation has been sent, no reviewer has accepted, and no external review or G4/G5 sign-off has been received.
 - Do not fill the frozen snapshot record or distribute the review bundle until a candidate accepts and the matching source snapshot and rendered preview are frozen.
+
+
+## Reader feedback model
+- `FEEDBACK_SYSTEM_STANDARD.md` defines portal-wide and subject-level feedback, categories, moderation statuses, privacy, scientific correction handling, and release requirements.
+- `FEEDBACK_PORTING_GUIDE.md` is the reusable handoff for other subject teams.
+- This is a policy/architecture addition, not a completed public peer-review process. The static site has no configured submission endpoint or private moderation queue; do not claim that readers can submit feedback until end-to-end intake is configured and tested.
