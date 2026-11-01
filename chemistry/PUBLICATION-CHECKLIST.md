@@ -7,7 +7,7 @@ This checklist separates repository automation from checks that require human re
 - [x] Repository structure, local assets, scripts and internal links checked by `chemistry/checks.mjs`.
 - [x] All 21 Chemistry pages exercised by Chromium smoke tests at 390, 768 and 1280 CSS px.
 - [x] RU/EN language switching, selected interactive workflows and known calculation edge cases covered by browser tests.
-- [ ] axe-core WCAG 2.1 A/AA audit: pending CI result and remediation of any serious/critical findings.
+- [x] axe-core WCAG 2.1 A/AA audit: passed in RU and EN on all 21 pages; no serious/critical findings in the final CI run.
 - [ ] Physical Android phone/tablet check.
 - [ ] Physical iPhone/iPad check, including Safari where available.
 - [ ] Keyboard-only review of every page and interactive tool.
