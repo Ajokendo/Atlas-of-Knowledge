@@ -956,6 +956,6 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Added a bilingual renal-physiology lesson to `chapters/anatomy.html`, covering glomerular filtration, selective tubular reabsorption and secretion, aldosterone, vasopressin and the renin–angiotensin–aldosterone system (RAAS).
 - Added an accessible bilingual nephron SVG with a title and description. The text distinguishes filtration from reabsorption and explains that filtration rate and urine output vary with physiological state.
 - Added regression assertions for lesson placement, bilingual content, the three renal processes, hormonal regulation, physiological qualifications and SVG accessibility.
-- Chapter commit: `029a51f04974c6e6c1a06065bdec60c8bd1f09c5`. Regression-check commit: `c3a24ceae7d3b933118ab5f9cdd9a5bb7de7d99c`.
+- Chapter commit: `029a51f04974c6e6c1a06065bdec60c8bd1f09c5`. Nephron flow-arrow refinement: `a85f987c716a5d71cda01a11bdc99a5b80e53de8`. Regression-check commit: `c3a24ceae7d3b933118ab5f9cdd9a5bb7de7d99c`.
 - Focused GitHub read-back and assertion review are pending. The full Node.js suite, Chromium smoke suite and CI have not been run on these commits. Controlled readiness remains **95/100**; independent G4/G5 reviews remain open.
 - No new image insertion anchor was added; the existing 52-image map and deferral register are to remain unchanged.
