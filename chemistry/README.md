@@ -74,3 +74,13 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Full Chemistry CI run [41342268215](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41342268215) completed with `status=completed` and `conclusion=success` on commit `bd2cf5322ced0019128c1c71e3b35e633e0b0496`.
 
 - [x] Extended reaction-trainer browser checks to reject decimal and zero coefficients without locking the task or advancing progress. Full Chemistry CI run [41342407125](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41342407125) completed with `status=completed` and `conclusion=success` on commit `b77394eaa4eed665e72dafef4356cf26c39c6da5`.
+
+
+### Calculation-tool regression checkpoint — 2026-11-02
+
+- [x] Added browser-level calculation checks for the amount-of-substance tool: 36.03 g H₂O at 18.015 g/mol gives 2 mol; a custom 25 g / 10 g·mol⁻¹ case gives 2.5 mol and the corresponding Avogadro particle count; zero sample mass gives zero entities; zero molar mass is rejected; particle-count overflow is rejected.
+- [x] Added browser-level checks for the solution-concentration tool: 0.5 mol in 1 L gives 0.5 mol/L; doubling final solution volume halves concentration; zero solute amount is valid; zero volume and numeric overflow are rejected; English/Russian output and validation messages are checked.
+- [x] The new checks explicitly reset calculator inputs because earlier checks on the same page intentionally leave non-default values. Decimal parsing accepts both RU and EN number formats.
+- [x] No production calculator formula change was indicated by this review: the inspected calculations use n = m/M, N = n·Nₐ and c = n/V with input/range guards. This is a code review plus automated Chromium regression, not independent chemistry sign-off.
+- [x] Full Chemistry CI run [41343565722](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41343565722) completed with `status=completed` and `conclusion=success` on commit `5a3e952b536b779aa671379fec48e1e425b536e0`.
+- [ ] Physical-device, assistive-technology, manual zoom/reflow, independent scientific review, and independent RU/EN editorial sign-off remain external pending gates.
