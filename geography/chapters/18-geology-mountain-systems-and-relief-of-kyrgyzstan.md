@@ -234,6 +234,11 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 > **[МЕТКА ИЛЛЮСТРАЦИИ 18-J / IMAGE PLACEHOLDER 18-J]** Блок-диаграмма горного склона с выветриванием, эрозией, оползанием, осыпанием и аккумуляцией материала.
 > **EN:** Mountain-slope block diagram illustrating weathering, erosion, landsliding, rockfall and sediment accumulation.
 
+![Горный склон: процессы формирования рельефа / Mountain slope processes](../assets/18-J-mountain-slope-processes.svg)
+
+*Рисунок 18-J / Figure 18-J. Учебная схема выветривания, эрозии, оползания, осыпания и аккумуляции / Conceptual diagram of weathering, erosion, landsliding, rockfall and deposition.*
+
+
 
 Современный рельеф Кыргызстана создаётся взаимодействием эндогенных и экзогенных процессов.
 
