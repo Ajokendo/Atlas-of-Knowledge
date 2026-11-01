@@ -261,7 +261,7 @@ for (const phrase of ["G1/S", "G2/M", "spindle-assembly checkpoint", "cyclin", "
 }
 if (!/<span class="ru">/.test(cellCycleControlBlock) || !/<span class="en">/.test(cellCycleControlBlock)) errors.push("chapters/cell-biology.html: cell-cycle control lesson must be bilingual");
 
-const anatomyFile = fs.readFileSync(path.join(root, "chapters", "anatomy.html"), "utf8");
+
 const homeostasisControlStart = anatomyFile.indexOf('id="homeostatic-control-loops"');
 const anatomyLearningStart = anatomyFile.indexOf('<section class="learning-block"><div class="learning-grid">');
 const homeostasisControlBlock = anatomyFile.slice(homeostasisControlStart, anatomyLearningStart);
@@ -309,7 +309,7 @@ for (const phrase of ["Punnett square", "Aa × Aa", "1 AA : 2 Aa : 1 aa", "compl
 if (!/<span class="ru">/.test(mendelianBlock) || !/<span class="en">/.test(mendelianBlock)) errors.push("chapters/genetics.html: inheritance lesson must be bilingual");
 if (!mendelianBlock.includes('<table class="inheritance-table">') || !mendelianBlock.includes('scope="row"') || !mendelianBlock.includes('<caption>')) errors.push("chapters/genetics.html: Punnett square must use an accessible semantic table");
 if (!geneticsFile.includes(".inheritance-table{width:100%") || !geneticsFile.includes("@media(max-width:420px){.inheritance-table")) errors.push("chapters/genetics.html: Punnett square must remain readable on narrow screens");
-const geneRegulationStart = geneticsFile.indexOf('id="gene-expression-regulation"');
+
 const geneticCodeStart = geneticsFile.indexOf('<section class="detail"><h2 id="detail-title">');
 const geneRegulationBlock = geneticsFile.slice(geneRegulationStart, geneticCodeStart);
 if (geneRegulationStart < 0 || geneticCodeStart <= geneRegulationStart) errors.push("chapters/genetics.html: gene-regulation lesson must appear before the genetic-code detail");
@@ -324,7 +324,7 @@ for (const url of ["19-2-population-genetics", "19-3-adaptive-evolution"]) {
 if (!evolutionFile.includes("Illustrative frequencies after several generations") || !evolutionFile.includes("not a prediction for a real population")) errors.push("chapters/evolution.html: selection model must be labelled illustrative, not predictive");
 if (!evolutionFile.includes("function localizeControls()") || !evolutionFile.includes("localizeControls();updateModules()")) errors.push("chapters/evolution.html: interactive controls must relabel when the language changes");
 if (!/data-selection="high" aria-pressed="false"/.test(evolutionFile) || !/data-era="human" aria-pressed="false"/.test(evolutionFile)) errors.push("chapters/evolution.html: toggle controls must expose initial pressed states");
-const ecologyFile = fs.readFileSync(path.join(root, "chapters", "ecology.html"), "utf8");
+
 const ecologyProductivityStart = ecologyFile.indexOf('id="ecosystem-productivity"');
 const ecologyPopulationStart = ecologyFile.indexOf('id="population-dynamics"');
 const ecologyProductivity = ecologyFile.slice(ecologyProductivityStart, ecologyPopulationStart);
@@ -334,7 +334,7 @@ for (const phrase of ["npp = gpp − r", "transfer efficiency", "10% rule", "rou
 }
 if (!/<span class="ru">/.test(ecologyProductivity) || !/<span class="en">/.test(ecologyProductivity)) errors.push("chapters/ecology.html: productivity lesson must be bilingual");
 
-const evolutionFile = fs.readFileSync(path.join(root, "chapters", "evolution.html"), "utf8");
+
 const speciationStart = evolutionFile.indexOf('id="speciation-processes"');
 const selectionStart = evolutionFile.indexOf('<section class="lab">', speciationStart);
 const speciationBlock = evolutionFile.slice(speciationStart, selectionStart);
