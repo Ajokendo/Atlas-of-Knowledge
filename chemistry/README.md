@@ -577,3 +577,5 @@ The Chromium smoke test now reports axe-core findings of every impact level in b
 ### Bilingual axe coverage guard
 
 The browser smoke test now requires exactly two axe-core scans per Chemistry page (Russian before the language switch and English after it), and fails if a page no longer exposes a working language toggle. The English violation-summary normalizer was also corrected to collapse whitespace consistently. This makes the expected 42 scans explicit for the current 21-page atlas.
+
+- 2026-11-01 — После добавления явного контроля полноты двуязычного axe-аудита проверка успешно прошла: [run 41313220058](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41313220058) подтвердил **42 сканирования axe-core** (21 страница × RU/EN), 21 переключение языка и прохождение интерактивных smoke-проверок. В логах нет предупреждений `Accessibility review`; сообщение browser smoke завершилось успешно. Изменение и обновлённая документация также прошли CI в [run 41313231805](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41313231805). Оба прогона — success.
