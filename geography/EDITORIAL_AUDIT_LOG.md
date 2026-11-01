@@ -939,3 +939,14 @@ The current marker additions are production instructions/placeholders only; no g
 - Checked numbered section headings across all 26 chapter files. No duplicate numbered section identifiers were found.
 - The earlier Chapter 02 numbering collision was already corrected and re-verified. Chapter 17 retains a distinct nonstandard subsection label 17.14а; it does not collide with another identifier and remains flagged for final style normalisation.
 - The scan covered section-heading identifiers only; it did not evaluate whether every section is equally developed or whether all subsections have matching bilingual depth.
+
+
+## Chapters 10–13 authoritative bibliography links and current national-accounts standard — 1 November 2026
+
+- Added direct official links to the UN Charter, UNCLOS, Vienna Convention on the Law of Treaties, ICJ Statute and UN M49 in Chapter 10. The UN M49 reference is explicitly limited to statistical grouping and not legal status.
+- Added direct official links to ISIC Rev. 4, SNA, World Development Indicators, IMF WEO, ILOSTAT, FAOSTAT, IEA, UNCTADstat and OECD regional statistics in Chapter 11.
+- Added direct links to M49, UNDP Human Development Reports, WDI, UNEP Global Environment Outlook, WMO State of the Global Climate, IPCC assessments, FAOSTAT and the Antarctic Treaty System in Chapter 12.
+- Added direct links to IPCC, WMO, IPBES, UNEP, CBD, UNCCD, WHO, UNFCCC and Millennium Ecosystem Assessment in Chapter 13; corrected the Rockström et al. (2009) Nature DOI to `10.1038/461472a`, which resolves to the cited article.
+- Updated Chapter 11 to include the 2025 System of National Accounts alongside the 2008 SNA. The chapter now notes that 2025 SNA is a distinct pre-edit edition and that national statistical systems may transition gradually; the text does not assume all national series have already migrated.
+- Verified commits/blobs: Chapter 10 `c882166fddbdd4a185b094e8bbf4b998cd8f3911` / `533d5fd079f00f0145baf1f665f51a87abc09a8f`; Chapter 11 `8e5935465b46540ec0b503b828250c2cba83875b` / `e0c68507b2f55f008b3acdd43a3d894bd62394d6`; Chapter 12 `ba8110264d59630301462f50957608404bf759ca` / `952692d58edcd68f8c280f90070850a5f6c374b5`; Chapter 13 `6e8056be9d1b4af54e9e2d45616da9ff7b870871` / `de8b407bd739fb5d24fb551772d9f4714ae99568`.
+- The core UN/ICJ sites sometimes deny automated retrieval (403) even though the official URLs are retained; such links are not marked as fetch-verified solely on the basis of the attempted request.
