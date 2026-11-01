@@ -261,6 +261,177 @@ A line on a political map may represent a boundary with a particular legal and c
 
 **Activity.** Compare two maps of the same border area published in different years. Identify differences in legend, sources, scale and boundary depiction. List the documents and official data needed to verify each difference.
 
+## English-language chapter text
+
+### 10.1. Scope of Political Geography
+
+Political geography is a branch of human geography that studies the spatial organisation of political life. It examines how power, state institutions, borders, elections, political processes and international relations are connected with territory, population, resources, infrastructure and geographic location.
+
+Political geography considers several interconnected scales:
+- **local:** municipalities, districts, local communities and access to public services;
+- **national:** state territory, administrative organisation, regions and political representation;
+- **regional:** cross-border connections, integration organisations and regional security; and
+- **global:** the international system, world organisations, global networks and the distribution of influence.
+
+Political geography intersects with political science, international relations, history, law, economic geography, cartography and geoinformatics. Its task is not only to describe the political map but also to explain the processes that shape it and the consequences of territorial decisions for people and the environment.
+
+### 10.2. State, Nation and Territory
+
+A **state** is a political and legal organisation of public authority operating within a defined territory and possessing governing institutions, a legal system and international legal personality. In international law, relevant characteristics include a permanent population, a defined territory, a government and the capacity to enter into relations with other states. Their application in particular cases may be subject to legal and political debate.
+
+A **nation** is a historically and socially formed community based on different combinations of civic belonging, culture, language, historical memory and self-identification. The meaning of the term depends on scholarly tradition and context. A nation does not always coincide with a state: one state may contain many ethnocultural communities, while members of one nation may live in several countries.
+
+A **territory** is a space over which particular rights, powers, forms of governance or social relationships apply. State territory includes land territory, internal waters, territorial sea as defined by international law, and the airspace above them. Different maritime areas have different legal regimes.
+
+The following concepts should be distinguished:
+- **state:** institutions of power and a legal order;
+- **country:** a geographical and historical-cultural designation for a territory, often but not always corresponding to a state;
+- **nation:** a political or cultural-historical community;
+- **population:** people living in a territory; and
+- **citizenship:** the legal relationship between a person and a state.
+
+### 10.3. Sovereignty and Recognition
+
+**Sovereignty** means the supremacy of state authority within the country and the state's independence in external relations within the framework of international law. Sovereignty does not mean unlimited freedom of action: states are bound by international treaties, customary international law and their accepted obligations.
+
+**State recognition** is an act or practice through which other states express their willingness to treat an entity as a state and maintain corresponding relations with it. Recognition may be bilateral or multilateral, explicit or implicit. Membership in an international organisation and recognition by individual states are distinct legal and political questions.
+
+In educational and cartographic work, it is important not to confuse effective territorial control, international legal status, recognition and claims. These characteristics may not coincide.
+
+### 10.4. International and State Borders
+
+A state border is a line, together with the vertical surface extending along it, that defines the limits of state territory. Borders are established through treaties, agreements, decisions of competent authorities and demarcation procedures in accordance with international law.
+
+The main stages of establishing a border are:
+1. **Delimitation:** legal description of the border in a treaty and its depiction on a map.
+2. **Demarcation:** marking the border on the ground with boundary markers and agreeing on its course.
+3. **Redemarcation:** checking, restoring or clarifying the marking of a previously established border.
+
+By their course, borders may be geometric, astronomical, geographic or historically established. A geometric border may follow a straight line; a geographic border may follow a river, watershed or other natural feature. In practice, borders often combine several principles.
+
+Borders perform different functions: they divide jurisdiction, regulate the movement of people and goods, support security, define customs and tax regimes, and may divide communities and ecosystems. A border is not necessarily an impermeable wall: crossing rules depend on treaties, policy and infrastructure.
+
+### 10.5. Maritime Zones and the Political Geography of the Ocean
+
+Maritime spaces are governed primarily by the 1982 United Nations Convention on the Law of the Sea (UNCLOS). Their legal regimes differ in the rights of coastal states and the freedoms retained by other states.
+
+Key concepts include:
+- **Internal waters:** waters on the landward side of the baselines from which the territorial sea is measured. Their regime largely corresponds to sovereignty over land, subject to applicable rules.
+- **Territorial sea:** a belt of sea up to 12 nautical miles from the baselines, in which the coastal state exercises sovereignty subject to limitations under international law, including the right of innocent passage.
+- **Contiguous zone:** an area beyond the territorial sea in which a state may exercise specified control to prevent and punish violations of customs, fiscal, immigration and sanitary laws within the limits of the Convention.
+- **Exclusive Economic Zone (EEZ):** an area beyond and adjacent to the territorial sea that may extend up to 200 nautical miles from the baselines. The coastal state has sovereign rights over natural resources and certain jurisdictional powers, but the EEZ is not state territory in the same sense as land and territorial sea.
+- **Continental shelf:** the seabed and subsoil beyond the territorial sea within the criteria set by the Convention. Coastal-state rights relate mainly to exploration and exploitation of seabed and subsoil resources. Under certain conditions, the outer limit may extend beyond 200 nautical miles.
+- **High seas:** areas not included in the internal waters, territorial sea, archipelagic waters or EEZ of a state. The freedoms of the high seas apply subject to international law.
+
+Archipelagic states have a special legal regime for archipelagic waters when the conditions of the Convention are met. Maritime boundaries between neighbouring states may require delimitation by agreement or through judicial and arbitration procedures.
+
+### 10.6. Administrative and Territorial Organisation
+
+States organise territory for governance, representation, service delivery and resource allocation. Administrative units may be called oblasts, provinces, states, lands, regions, districts, counties or municipalities.
+
+States are often distinguished by their territorial organisation:
+- **unitary states**, in which the constitutional system is organised as one state, although powers may be widely decentralised;
+- **federal states**, in which the constitution distributes powers between the federal level and constituent units; and
+- **confederal forms and unions**, which are treaty-based associations of sovereign states. Historical confederations differ from modern international organisations.
+
+A unitary state is not necessarily centralised, and federalism does not exclude strong national institutions. Real systems may combine different forms of autonomy, decentralisation and asymmetric allocation of powers.
+
+**Decentralisation** is the transfer of powers, resources and responsibilities from central government to regional or local authorities. It may help adapt decisions to local conditions, but requires transparent funding, accountability and sufficient administrative capacity.
+
+### 10.7. Capitals, Political Centres and Territorial Governance
+
+A capital is usually the location of the highest state institutions, but it is not always the only political or economic centre. In some countries, different functions are distributed among several cities. Capital functions include legislative, executive and judicial governance, diplomatic missions and national institutions.
+
+The choice or relocation of a capital may be linked to history, security, geographic location, regional balance, infrastructure development or an attempt to create a new administrative centre. A new city does not automatically guarantee redistribution of population or economic activity.
+
+Territorial governance must consider distances, relief, transport access, settlement patterns, cultural characteristics and citizens' access to services. Large distances and complex terrain increase the cost of providing education, health care, justice and other public services.
+
+### 10.8. Elections and the Geography of Political Representation
+
+Electoral geography studies the spatial distribution of voting, political participation and representation. Electoral outcomes may be influenced by age structure, urbanisation, employment, education, social position, regional identity, transport access and the electoral system.
+
+Electoral districts should be formed under rules that ensure legality, equality of voting power and representation. Unequal district populations may result in different voting weights. The manipulation of district boundaries for political advantage is known as **gerrymandering**.
+
+Electoral mapping requires caution:
+- vote share and absolute vote totals are different indicators;
+- a party's victory in a district does not mean that all residents support it;
+- administrative boundaries may conceal local differences;
+- a correlation between territorial characteristics and voting does not prove individual voter motivations; and
+- maps should state the date, election level and aggregation method.
+
+### 10.9. Geopolitics and Geographic Factors
+
+Geopolitics studies the relationship between geographic location, territory, resources, infrastructure and political power in international relations. It includes analysis of state spatial interests, strategic communications, transport corridors, sea routes, energy systems, border regions and regional security.
+
+Geographic location may create opportunities and constraints, but it does not determine political behaviour. Technology, institutions, economics, international law, diplomacy and societal decisions can substantially change the significance of geographic factors.
+
+Classical geopolitical theories include large-scale spatial models and concepts. They should be studied as historically conditioned intellectual constructs, not as objective laws of world politics. Modern analysis should avoid **geographic determinism**, the idea that climate, location or relief automatically determines a state's fate.
+
+Important factors include location relative to markets and transport corridors; access to the sea and international communications; neighbourhood and border relations; the location of energy and mineral resources; river basins and transboundary ecological systems; infrastructure and logistics resilience; and vulnerability to natural hazards and climate change.
+
+### 10.10. International Organisations and Regional Integration
+
+International organisations are created by states through treaties or other agreed mechanisms to coordinate action and address common tasks. They differ in membership, powers, geographic coverage and areas of activity.
+
+The **United Nations (UN)** is a universal international organisation and a central forum for multilateral cooperation. Its system includes principal organs and specialised agencies. The UN is not a world government and does not possess general authority over states.
+
+Regional organisations and integration arrangements may develop trade, transport, security, scientific cooperation and common standards. The level of integration ranges from free-trade areas to deeper forms of economic and political cooperation.
+
+When studying organisations, distinguish an intergovernmental organisation from a non-governmental organisation; a treaty obligation from a political declaration; membership from observer status and partnership; and regional cooperation from the transfer of some powers to supranational institutions.
+
+### 10.11. Political Geography of Resources and Infrastructure
+
+The distribution of natural resources and infrastructure has political significance because it affects income, security, trade and relations between territories. Important objects of analysis include mineral deposits, oil and gas systems, electricity grids, reservoirs, transport corridors, ports, pipelines and digital communications.
+
+Transboundary rivers and aquifers require cooperation among basin countries. Upstream and downstream positions create different geographic conditions but do not automatically determine conflict or cooperation. Agreements, shared data, infrastructure planning, seasonal flow, ecological needs and fair distribution of benefits and risks all matter.
+
+Resource wealth does not guarantee a high level of development. Outcomes depend on institutional quality, transparent governance, economic diversification, revenue distribution and environmental standards. Concentration of exports in one resource may increase dependence on world prices.
+
+### 10.12. Conflicts, Disputed Territories and International Law
+
+Territorial disputes may arise from differing historical interpretations, treaties, natural resources, strategic location, colonial legacies and changing political conditions. They may concern land borders, islands, maritime zones, airspace and access to resources.
+
+Political geography should describe disputes accurately and neutrally:
+- identify who makes a claim and on what basis;
+- distinguish effective administration from an international legal position;
+- refer to treaties, international court decisions and official documents;
+- state the date of the map; and
+- avoid presenting unilateral statements as universally accepted facts.
+
+International law provides peaceful means of dispute settlement, including negotiation, mediation, good offices, conciliation, arbitration and judicial settlement. The applicable mechanism depends on the consent of the parties and relevant legal grounds.
+
+Political boundaries and statuses may change. Maps prepared for publication should therefore undergo legal and editorial review, especially where they show disputed or recently changed territories.
+
+### 10.13. Colonialism, Decolonisation and the Legacy of Borders
+
+Colonialism is a system of political and economic domination in which an external power controls a territory and population beyond its own state. Colonial systems had a major influence on the world political map, economic structures, language environments, transport networks and administrative boundaries.
+
+Decolonisation is the historical process through which colonial rule ended and territories and peoples achieved political independence. It occurred in different periods and forms, including negotiations, mass movements, political reforms and armed conflicts.
+
+The legacy of colonial borders is complex. Some borders divided historically connected communities or brought different groups into one state; in other cases, borders were changed later. Modern conflicts cannot be explained by colonial legacies alone: subsequent decisions, institutions, economic conditions and regional history must also be considered.
+
+### 10.14. Political Cartography and Critical Map Reading
+
+A political map shows states, borders, capitals and other administrative or political features. It is not only a technical image but also the result of choices about classifications, scale, projection, colour scheme, names and date.
+
+When reading a political map, check:
+1. the compilation date and the date to which the boundaries are current;
+2. the source of geospatial and legal data;
+3. scale and map projection;
+4. the method used to depict disputed territories;
+5. legend, labels and transliteration of place names; and
+6. the difference between state borders, administrative boundaries and lines of effective control.
+
+Colouring an area may create the impression of a single status even when its legal position is more complex. A map should include clear explanations and should not conceal uncertainty.
+
+### 10.15. Geospatial Methods in Political Geography
+
+Geographic information systems can combine administrative boundaries, population, infrastructure, natural resources, election results and service-access data. Spatial analysis helps identify regional differences, assess transport accessibility, model service areas and study the consequences of administrative reforms.
+
+Data sources may include official statistical services, government geoportals, international organisations, open mapping projects and scientific research. Every source requires checking for accuracy, date, licence, methodology and coverage.
+
+Particular attention should be paid to differences between statistical and administrative boundaries; boundary changes over time; spatial aggregation and the ecological fallacy; incomplete data in remote regions; personal-data protection; and political neutrality in classifications and visualisations.
+
 ## 10.16. Итоги главы / Chapter Summary
 
 1. Политическая география изучает пространственную организацию власти и политических процессов.
