@@ -78,7 +78,7 @@ export function buildWorld(E) {
   const rodL = M.ROD.L * S, rodG = new THREE.Group(); gI.add(rodG);
   part(rodG, xAxis(cyl(0.11, rodL, 28)), { tone: 'hi', pal: 'base', pos: [-rodL / 2, 0, 0], name: 'Заряженный стержень' });
   for (let i = 0; i < M.ROD.n; i++) { const b = bead(rodG, 0.06, 'blue', 'Rod charge'); b.position.set(-(i + 0.5) * rodL / M.ROD.n, 0.02, 0.11); }
-  label('tick', `rod ${(M.ROD.Q / M.nC).toFixed(0)} nC`, () => rodG.visible ? rodG.localToWorld(V(-rodL * 0.25, 0.42, 0)) : null);
+  label('tick', `стержень ${(M.ROD.Q / M.nC).toFixed(0)} нКл`, () => rodG.visible ? rodG.localToWorld(V(-rodL * 0.25, 0.42, 0)) : null);
   // surface charge: beads on a fixed set of surface points, sized by |σ| and coloured by its sign
   const NS = 220, surf = [];
   for (let i = 0; i < NS; i++) {
@@ -95,7 +95,7 @@ export function buildWorld(E) {
   const gs = []; for (let k = 0; k < 3; k++) gs.push(SC.x - 0.45 + k * 0.15, gy - k * 0.14, 0, SC.x + 0.45 - k * 0.15, gy - k * 0.14, 0);
   lines(gI, gs, '#2c2c30');
   const flow = Array.from({ length: 4 }, () => bead(gI, 0.06, 'blue', 'Electrons'));
-  label('tick', 'ground', () => V(SC.x + 0.95, gy - 0.1, 0));
+  label('tick', 'Земля', () => V(SC.x + 0.95, gy - 0.1, 0));
 
   // polarization: a charged balloon near a wall; the wall's molecules stretch into small dipoles
   const XB = X1 + 3.6, BR = M.BALLOON.r * S, wallX = XB + 1.6;
@@ -112,8 +112,8 @@ export function buildWorld(E) {
     const link = part(gB, cyl(0.012, 1, 8), { tone: 'lo', pal: 'dark', name: 'Молекулы' });
     mols.push({ p, pos, neg, link });
   }
-  label('tick', 'wall', () => V(wallX + 0.55, 2.35, 0));
-  label('tick', `balloon +${(M.BALLOON.q / M.nC).toFixed(0)} nC`, () => balloonG.localToWorld(V(-0.2, BR * 1.18 + 0.32, 0)));
+  label('tick', 'Стена', () => V(wallX + 0.55, 2.35, 0));
+  label('tick', `шарик +${(M.BALLOON.q / M.nC).toFixed(0)} нКл`, () => balloonG.localToWorld(V(-0.2, BR * 1.18 + 0.32, 0)));
 
   // ---------- 2 · Coulomb's law: two point charges ----------
   const X2 = STATIONS.coulomb, Y2 = 0.6;
@@ -201,7 +201,7 @@ export function buildWorld(E) {
     part(gR, xAxis(cyl(0.12, sliceL * 0.995, 28)), { tone: 'hi', pal: i % 2 ? 'paper' : 'base', pos: [cx, R0.y, 0], name: 'Элемент dq', ex: [off, 0, 0] });
     for (let k = 0; k < 2; k++) { const b = part(gR, BEAD, { pal: 'red', tone: 'mid', name: 'Элемент dq', pos: [cx + (k - 0.5) * sliceL * 0.5, R0.y + 0.03, 0.12], ex: [off, 0, 0] }); b.scale.setScalar(0.05); }
   }
-  label('tick', `+${M.RODE.Q / M.nC} nC over ${M.RODE.L * 100} cm`, () => V(R0.x + 0.9, R0.y - 0.45, 0));
+  label('tick', `+${M.RODE.Q / M.nC} нКл на ${M.RODE.L * 100} см`, () => V(R0.x + 0.9, R0.y - 0.45, 0));
   const pRa = ball(gR, 0.07, { pal: 'ink', name: 'Точка P на оси' }), pRb = ball(gR, 0.07, { pal: 'ink', name: 'Точка P на биссектрисе' });
   label('tick', 'P', () => pRa.getWorldPosition(V()).add(V(0.02, -0.32, 0))); label('tick', 'P', () => pRb.getWorldPosition(V()).add(V(-0.2, 0.05, 0)));
   const eRa = eArrow(gR), eRb = eArrow(gR);
@@ -217,7 +217,7 @@ export function buildWorld(E) {
   part(gG, new THREE.TorusGeometry(RR, 0.07, 16, 96).rotateY(Math.PI / 2), { tone: 'hi', name: 'Кольцо', pos: [C7.x, C7.y, C7.z] });
   const beads = M.ringBeads(M.RING.beads).map(b => { const m = bead(gG, 0.075, 'red', 'Charge dq'); m.position.copy(C7).add(V(b.at[0], b.at[1], b.at[2]).multiplyScalar(S)); return m; });
   lines(gG, [C7.x - 0.8, C7.y, 0, C7.x + 7.2, C7.y, 0], '#b4b4b8');
-  label('tick', `+${(M.RING.Q / M.nC).toFixed(0)} nC`, () => C7.clone().add(V(0, RR + 0.4, 0)));
+  label('tick', `+${(M.RING.Q / M.nC).toFixed(0)} нКл`, () => C7.clone().add(V(0, RR + 0.4, 0)));
   const pG = ball(gG, 0.07, { pal: 'ink', name: 'Точка P на оси' });
   label('tick', 'P', () => pG.getWorldPosition(V()).add(V(0.02, -0.32, 0)));
   const eG = eArrow(gG); label('vec blue', '<i>E</i>', () => tip(eG));
