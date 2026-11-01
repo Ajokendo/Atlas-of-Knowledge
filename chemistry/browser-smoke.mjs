@@ -383,7 +383,7 @@ try {
     }
 
     if (file === "chapters/chemistry-of-life.html") {
-      if (!(await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt")).includes("Схема круговорота углерода")) {
+      if (!(await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt")).includes("Схема обмена углеродом")) {
         errors.push(file + ": Russian carbon-cycle image alternative text is missing");
       }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("снижает pH морской воды") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("парниковый эффект")) errors.push(file + ": Russian environment note must connect carbon emissions, greenhouse effect and ocean acidification");
