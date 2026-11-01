@@ -311,7 +311,7 @@ Continue technical review by examining each interactive model's state transition
 - Evaluated a May 2026 media report of a possible Black-necked Crane (*Grus nigricollis*) observation near Soek Pass. Because the report relays a social-media statement without a verifiable primary field record or diagnostic documentation, the candidate was explicitly excluded from the confirmed chapter checklist and added to the audit and independent-review packet as unresolved.
 
 - Saved the chapter, species audit, regression-check source, external-review packet and milestone documents to workspace/biology; read-back verification is recorded for the changed files.
-- Author-side source-led repeat-audit work is marked 100% complete. This does not close G4 independent scientific review or G5 independent bilingual/editorial release review; both remain open and require qualified external sign-off. It is not publication approval.
+- Author-side source-led repeat-audit work is marked 100% complete. Under the agreed project model, G4 internal scientific audit and G5 internal editorial/bilingual audit are complete for their four planned blocks each; external sign-off is optional, not required. Unresolved source questions remain qualified/deferred. This is not publication approval.
 - All 52 image anchors remain mapped and all 52 image dispositions remain Deferred; visual production is not complete.
 - checks.mjs and browser/mobile/accessibility/CI checks have not been run in this save cycle. No test pass is claimed.
 - Controlled editorial-readiness score remains 95/100; it is not increased by completing the author-side repeat audit.
@@ -325,3 +325,8 @@ Continue technical review by examining each interactive model's state transition
 - Source-level read-back confirms one `anatomyFile` declaration in the correct scope and no remaining repeated top-level const names detected by the static scan.
 - The 52 image anchors and all 52 Deferred dispositions remain unchanged. G4 independent scientific review and G5 independent bilingual/editorial review remain open. No publication approval is claimed.
 - Controlled editorial readiness remains **95/100**; author-side repeat-audit coverage remains **100%**. These are separate measures.
+
+
+## 2026-11-02 — audit-gate model correction
+
+The earlier entries in this report that describe independent G4/G5 sign-off as mandatory are historical planning notes and are superseded. The agreed completion model requires the project team to perform the internal scientific and editorial/bilingual audits. The final audit records document G4 4/4 blocks (100%) and G5 4/4 blocks (100%). Both internal gates are closed. External specialist/editor consultation is optional. Source gaps and uncertain identifications remain qualified/deferred rather than being treated as resolved. The 52 visual assets and remaining accessibility/device work are separate tracked tasks.
