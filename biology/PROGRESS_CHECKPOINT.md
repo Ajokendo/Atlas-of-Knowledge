@@ -384,3 +384,12 @@
 - Physical removal of the four historical branches therefore remains pending repository-owner/admin action after any required archive/retention decision.
 - Author-side repeat-audit coverage remains **100%**. Controlled editorial readiness remains **95/100**. G4 independent scientific review, G5 independent editorial review, illustration production (52 deferred placements), and browser/mobile/accessibility gates remain open.
 - Branch audit documentation commit: `9ef15100f12aafa834044e90d5e3ec19f19c2fa8`.
+
+
+## Branch cleanup verified — 1 November 2026
+
+- Fresh remote branch enumeration confirms the five historical Biology refs are absent: `biology-learning-experience-pass`, `biology-deep-editorial-pass-1`, `biology-release-integration`, `biology-atlas`, and the historical list contains no additional Biology-named branch.
+- `workspace/biology` remains present as the sole active Biology development branch.
+- The seven live branches are `atlas-of-knowledge-integration`, `main`, `portal-foundation`, `workspace/biology`, `workspace/chemistry`, `workspace/geography`, and `workspace/physics`. All other discipline and integration branches remain intact.
+- Updated `BRANCH_AUDIT_2026-11-01.md` to record the confirmed owner cleanup. No merge, force-move or deletion was performed by this assistant.
+- Author-side repeat-audit coverage: **100%**. Controlled editorial readiness: **95/100**. G4/G5 independent sign-offs, 52 deferred illustration assets, and remaining browser/mobile/accessibility verification gates are still open.
