@@ -14,3 +14,17 @@ The Chemistry CI workflow installs exact versions of its browser-audit dependenc
 - [ ] Physical-device, screen-reader, and independent scientific reviews remain external pending gates; CI success does not satisfy them.
 
 - [x] Checkpoint commit `e244cb8c894eb5cb1ab1aa8a48615cd26b3d17f4`: full Chemistry CI run [41326918004](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41326918004) completed successfully, including repository checks and the Chromium browser suite.
+
+
+### Internal audit progress — 80% (2026-11-01)
+
+This percentage refers only to the current internal automated/technical audit stage. It is not a publication-readiness percentage and does not include the outstanding external reviews.
+
+- [x] Re-ran the full repository and browser validation after the checkpoint documentation changes. Both resulting CI runs completed successfully: [README evidence run 41327013009](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41327013009) and [publication-checklist evidence run 41327016326](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41327016326).
+- [x] Reviewed browser-suite coverage: 21 pages at 390, 768 and 1280 CSS-pixel widths; Russian/English switching; 42 axe-core scans; page errors, images, internal links, keyboard entry focus, labels and selected contrast pairs.
+- [x] Confirmed targeted interaction tests for formula parsing (including grouped formulas and invalid/overflow inputs), pH classification, Nernst calculation, gas-law temperature conversion, limiting-reactant calculations and numeric boundaries, all six reaction-trainer tasks, and the bilingual knowledge check.
+- [x] Confirmed automated source checks for 118 periodic-table records, bilingual glossary and quiz data, SVG accessibility metadata, local assets and script syntax.
+- [ ] Remaining internal work: inspect uncovered interaction states and edge cases, reconcile any test gaps, and complete a final regression run.
+- [ ] External gates remain pending: physical Android/iOS devices, NVDA/TalkBack/VoiceOver screen-reader testing, full keyboard/zoom review by a human tester, and independent chemistry subject-matter review/sign-off.
+
+Do not mark any external gate complete based on CI. The successful runs above are browser automation on GitHub-hosted Chromium, not testing on physical devices or assistive technologies.
