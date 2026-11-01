@@ -1639,6 +1639,32 @@ try {
       if (initialParticleTransform !== heatedParticleTransform) {
         errors.push(file + ": particle size appears to change with temperature, suggesting molecules expand when heated");
       }
+      const rangeLimits = await Promise.all(["#n", "#v", "#t"].map(selector => page.locator(selector).evaluate(el => [el.min, el.max, el.step])));
+      if (JSON.stringify(rangeLimits) !== JSON.stringify([["0.1", "3", "0.05"], ["5", "60", "0.5"], ["-100", "300", "1"]])) {
+        errors.push(file + ": gas controls have unexpected physical input ranges or steps");
+      }
+      await page.locator("#n").fill("2");
+      await page.locator("#v").fill("12");
+      await page.locator("#t").fill("20");
+      await page.locator("#n").dispatchEvent("input");
+      const doubledPressure = Number((await page.locator("#pressureValue").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      const expectedDoubledPressure = 2 * 8.314462618 * 293.15 / 12;
+      if (!Number.isFinite(doubledPressure) || Math.abs(doubledPressure - expectedDoubledPressure) > 0.01) {
+        errors.push(file + ": doubling amount and halving volume did not produce the expected pressure");
+      }
+      if (await page.locator(".particle").count() !== 42) {
+        errors.push(file + ": particle count did not scale with the amount of substance");
+      }
+      await page.locator("#v").fill("60");
+      await page.locator("#v").dispatchEvent("input");
+      const expandedPressure = Number((await page.locator("#pressureValue").innerText()).replace(",", ".").match(/[\\d.]+/)?.[0]);
+      if (!Number.isFinite(expandedPressure) || expandedPressure >= doubledPressure) {
+        errors.push(file + ": increasing vessel volume did not lower ideal-gas pressure");
+      }
+      await page.locator("#n").fill("1");
+      await page.locator("#v").fill("24");
+      await page.locator("#t").fill("20");
+      await page.locator("#n").dispatchEvent("input");
     }
 
     if (file === "chemistry-constants.html") {
