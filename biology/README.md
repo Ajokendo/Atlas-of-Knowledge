@@ -1046,3 +1046,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Generated a distinct horizontal golden-eagle-in-flight concept (ImageGen ID `95b58769-7232-4b29-bea2-5c2ac391a9c2`); local WebP `biology-golden-eagle-flight-candidate.webp` (1536×1024, 233,558 bytes).
 - Intended for the `Aquila chrysaetos` subject, but species-level anatomy and plumage require ornithological review. It is concept art, not a field record or verified Kyrgyzstan locality.
 - Local-only, uncommitted and unapproved. All 52 markers remain Deferred; readiness remains 95/100. See the image review log.
+
+
+## Ninth illustration production attempt — 1 November 2026
+
+- Generated a perched golden-eagle visual variant (ImageGen ID `1191d3c1-3f8d-474b-b05a-b1c4fdb3d4d8`); local WebP `biology-golden-eagle-perched-candidate.webp` (1536×1024, 337,922 bytes).
+- This is a different pose from the flight draft, but repeats the golden-eagle subject and does not complete the P1 multi-species bird plate. Expert ornithological review remains necessary.
+- Local-only, uncommitted and unapproved; no chapter insertion or marker change. All 52 markers remain Deferred; readiness remains 95/100. See the image review log.
