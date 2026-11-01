@@ -92,7 +92,7 @@ export function buildWorld(E) {
   const pW = pArrow(gW), fW = fArrow(gW);
   const dpI = pArrow(gW), dpF = pArrow(gW), dpD = gArrow(gW, 1.1, 'Δp');
   label('vec', '<i>p</i>', () => tip(pW)); label('vec red', '<i>F</i>', () => tip(fW));
-  label('vec', '<i>p</i><sub>before</sub>', () => tip(dpI)); label('vec', '<i>p</i><sub>after</sub>', () => tip(dpF)); label('vec', 'Δ<i>p</i> = <i>J</i>', () => tip(dpD));
+  label('vec', '<i>p</i><sub>до удара</sub>', () => tip(dpI)); label('vec', '<i>p</i><sub>после удара</sub>', () => tip(dpF)); label('vec', 'Δ<i>p</i> = <i>J</i>', () => tip(dpD));
 
   // ---------- 3 · an egg on a pillow, an egg on the floor ----------
   // drawn EGG_ZOOM× life size (positions, sizes and arrows all scaled together), so it can be seen
@@ -120,7 +120,7 @@ export function buildWorld(E) {
     // the breakdown: momenta before and after, laid tip to tail
     const rows = ['до столкновения', 'после столкновения'].map((name, i) => ({ y: 2.15 - i * 0.6, a: pArrow(g), b: pArrow(g), t: totArrow(g) }));
     rows.forEach((r, i) => {
-      label('tick', i ? 'after' : 'before', () => ex(g) > 0.3 ? V(X - 2.9, r.y + 0.02, 0) : null);
+      label('tick', i ? 'после столкновения' : 'до столкновения', () => ex(g) > 0.3 ? V(X - 2.9, r.y + 0.02, 0) : null);
       label('vec', i ? '<i>p</i><sub>1</sub>′' : '<i>p</i><sub>1</sub>', () => ex(g) > 0.3 ? mid(r.a, V(0, -0.15, 0)) : null);
       label('vec', i ? '<i>p</i><sub>2</sub>′' : '<i>p</i><sub>2</sub>', () => ex(g) > 0.3 ? mid(r.b, V(0, 0.16, 0)) : null);
     });
@@ -203,7 +203,7 @@ export function buildWorld(E) {
     dashed(path, '#8a8a8f'); dashed(a, '#c4c4c8'); dashed(b, '#c4c4c8');
     const tk = []; for (const x of [0, S.R / 2, S.R, 1.5 * S.R]) tk.push(SH0 + x, 0.03, -0.25, SH0 + x, 0.03, 0.25); lines(root, tk, '#6e6e74'); }
   label('tick', '<i>R</i>/2', () => V(SH0 + S.R / 2 + 0.15, 0.1, 0.6)); label('tick', '<i>R</i>', () => V(SH0 + S.R + 0.12, 0.1, 0.6)); label('tick', '3<i>R</i>/2', () => V(SH0 + 1.5 * S.R + 0.25, 0.1, 0.6));
-  label('tick', 'launch', () => V(SH0 + 0.35, 0.1, 0.6));
+  label('tick', 'запуск', () => V(SH0 + 0.35, 0.1, 0.6));
 
 
   // ---------- 10–12 · continuous bodies (AP Physics C) ----------
@@ -285,7 +285,7 @@ export function buildWorld(E) {
   label('vec', '<i>m</i><sub>B</sub>', () => ex(gC) > 0.3 ? arms[1].mk.getWorldPosition(V()).add(V(0.02, 0.17, 0)) : null);
   label('tick', 'здесь закреплена нить', () => Q.clone().add(V(-0.2, 0.08, 0)));
   label('tick', 'центр масс: между телами', () => hw(L2.cm).add(V(-0.12, -0.02, 0)));
-  label('tick', 'pin', () => w2(Hh.cm, 0.12).add(V(-0.08, 0, 0.1)));
+  label('tick', 'опора', () => w2(Hh.cm, 0.12).add(V(-0.08, 0, 0.1)));
 
   // ---------- per-frame ----------
   const P = n => n * P_SCALE;
