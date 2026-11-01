@@ -16,6 +16,8 @@ The territory is the outcome of a long geological history. Ancient continental b
 
 ## 17.1. Географическое положение в Центральной Азии / Geographic Location in Central Asia
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-A / IMAGE PLACEHOLDER 17-A]** Кыргызстан на карте Центральной Азии: соседние государства, основные региональные ориентиры и проверенная государственная граница с указанием даты источника.
+
 Кыргызская Республика не имеет выхода к Мировому океану и находится внутри материка Евразия. Страна занимает стратегическое положение между крупными природно-географическими и историко-культурными регионами Центральной Азии. На севере она граничит с Казахстаном, на западе и юго-западе — с Узбекистаном, на юго-западе — с Таджикистаном, на востоке и юго-востоке — с Китаем.
 
 Положение страны одновременно связывает её с Ферганской долиной, Туранскими низменностями, Казахским мелкосопочником, Таримской впадиной и высокогорными районами Памира и Тянь-Шаня. Границы проходят по разнообразным ландшафтам: долинам, предгорьям, хребтам и высокогорным участкам. В горной местности проведение и практическое использование границ осложняются рельефом, водоразделами, ледниками и труднодоступностью.
@@ -80,6 +82,8 @@ Elevation affects:
 Mountain relief creates a wide range of local climatic conditions. Two valleys at similar elevations may differ in moisture, solar exposure and temperature because of their orientation, the height of surrounding ranges and their exposure to prevailing air masses.
 
 ## 17.4. Тянь-Шань и Памиро-Алай: крупные горные системы / Tien Shan and Pamir–Alay: Major Mountain Systems
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-B / IMAGE PLACEHOLDER 17-B]** Физическая карта Тянь-Шаня и Памиро-Алая с основными хребтами, межгорными впадинами и высотной гипсометрией.
 
 Территория Кыргызстана включает части нескольких крупных горных районов.
 
@@ -152,6 +156,8 @@ Some of the best-known examples are:
 Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a harsh climate, a short growing season and an important role in seasonal grazing. They are also significant for catchment processes, biodiversity and traditional land use.
 
 ## 17.6. Геологическая летопись территории / Geological History of the Territory
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-C / IMAGE PLACEHOLDER 17-C]** Геологическая временная шкала формирования территории Кыргызстана: докембрийский фундамент, палеозойская аккреция, мезозойское осадконакопление, кайнозойское горообразование.
 
 Геологическая история Кыргызстана охватывает миллиарды лет и включает несколько крупных этапов. Возраст отдельных пород, время их образования и время последующей деформации — разные характеристики. Например, древняя порода могла быть поднята, метаморфизована или включена в складчатый пояс значительно позднее своего первоначального формирования.
 
@@ -262,6 +268,8 @@ The **Talas–Fergana Fault** is one of the most prominent regional structures o
 Tectonic maps must distinguish geological boundaries, faults, currently active structures and administrative boundaries. These features do not automatically coincide.
 
 ## 17.8. Современная тектоника и сейсмичность / Active Tectonics and Seismicity
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-D / IMAGE PLACEHOLDER 17-D]** Схема активных разломов и сейсмичности Кыргызстана с указанием периода каталога землетрясений, порога магнитуды и источника геоданных.
 
 Кыргызстан находится в активном внутриконтинентальном поясе деформаций, связанном с взаимодействием Индийской и Евразийской плит. Сжатие земной коры проявляется в надвигах, обратных разломах, складчатости и локальных сдвиговых движениях.
 
@@ -443,6 +451,8 @@ Mountain corridors were not permanently or equally accessible in every historica
 The country's geographic position encouraged cultural exchange, trade, migration and the development of diverse local connections. At the same time, mountain relief created barriers and separated neighbouring valleys.
 
 ## 17.12. Административно-территориальное устройство / Administrative and Territorial Organisation
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-E / IMAGE PLACEHOLDER 17-E]** Карта действующего административно-территориального устройства с семью областями и отдельным обозначением Бишкека и Оша; использовать официальную сетку и утверждённые топонимы.
 
 Современная административная структура включает **семь областей**:
 1. Баткенская область;
@@ -709,7 +719,7 @@ In the mountains of Kyrgyzstan, geological maps are compared with relief, seismi
 
 **Activity.** Use a teaching geological map to identify three rock units and one fault. Explain what the map tells you and which conclusions require additional evidence.
 
-### 17.14.1. Как проверять географические названия на карте / Verifying Geographical Names on a Map
+### 17.14.2. Как проверять географические названия на карте / Verifying Geographical Names on a Map
 
 Географическое название — не просто подпись на карте. У одного объекта могут существовать официальная форма, варианты на разных языках, исторические названия и местные варианты произношения. Ошибка в названии может привести к путанице при поиске данных, навигации и административном учёте.
 
