@@ -301,23 +301,11 @@
 
 ### 4.12.1. Физическое выветривание / Physical Weathering
 
-Порода дробится без существенного изменения химического состава. Причины:
-- замерзание воды в трещинах и её расширение;
-- температурные колебания;
-- кристаллизация солей;
-- разгрузка и раскрытие трещин;
-- механическое воздействие корней и организмов.
+Физическое выветривание дробит породу на более мелкие части без существенного изменения химического состава. При **морозном выветривании** вода проникает в трещины, замерзает и расширяется, постепенно увеличивая их. **Термическое выветривание** связано с повторным нагреванием и охлаждением. Рост кристаллов солей в порах также может разрушать породу. При снятии вышележащей нагрузки порода способна расширяться и расслаиваться (разгрузочное выветривание). Корни растений и другие организмы могут механически расширять трещины.
 
 ### 4.12.2. Химическое выветривание / Chemical Weathering
 
-Минералы изменяются или растворяются в результате реакций с водой, кислородом, углекислым газом и кислотами.
-
-Ключевые процессы:
-- растворение;
-- гидролиз;
-- окисление;
-- гидратация;
-- карбонатное выветривание.
+Химическое выветривание изменяет или растворяет минералы в результате реакций с водой, кислородом, углекислым газом и кислотами. При **растворении** минералы переходят в раствор; **гидролиз** — реакция воды с минералами, особенно силикатами, которая может приводить к образованию глин; **окисление** происходит при реакции кислорода с минералами, содержащими железо; **гидратация** связана с включением воды в структуру минерала; **карбонизация** — растворение карбонатных пород водой с растворённым углекислым газом.
 
 ### 4.12.3. Биологическое выветривание / Biological Weathering
 
@@ -653,12 +641,12 @@ Weathering is the breakdown and alteration of rock at or near Earth's surface by
 #### 4.12.1. Physical Weathering
 
 
-**Physical weathering** breaks rock into smaller pieces without major chemical change. Causes include water freezing and expanding in cracks, temperature fluctuations, salt crystallisation, pressure release and the mechanical action of roots and organisms.
+**Physical weathering** breaks rock into smaller pieces without major chemical change. During **frost weathering**, water enters cracks, freezes and expands, gradually widening them. **Thermal stress** results from repeated heating and cooling. Growing salt crystals in pores can also break rock apart. When overlying pressure is removed, rock may expand and split along sheet-like fractures (pressure-release weathering). Plant roots and other organisms can widen cracks mechanically.
 
 #### 4.12.2. Chemical Weathering
 
 
-**Chemical weathering** alters or dissolves minerals through reactions with water, oxygen, carbon dioxide and acids. Key processes include dissolution, hydrolysis, oxidation, hydration and carbonation.
+**Chemical weathering** alters or dissolves minerals through reactions with water, oxygen, carbon dioxide and acids. **Dissolution** transfers minerals into solution; **hydrolysis** is a reaction between water and minerals, especially silicates, and can form clay minerals; **oxidation** occurs when oxygen reacts with minerals containing iron; **hydration** involves water entering a mineral's structure; and **carbonation** is the dissolution of carbonate rocks by water containing dissolved carbon dioxide.
 
 #### 4.12.3. Biological Weathering
 
@@ -791,6 +779,10 @@ Using a prepared teaching map excerpt:
 9. Greenaway, S. F. et al. (2021). *Revised depth of the Challenger Deep from submersible transects*. Deep-Sea Research Part I, 178, 103644. https://doi.org/10.1016/j.dsr.2021.103644
 10. China and Nepal (2020). *Joint announcement of Mount Qomolangma's snow-surface elevation: 8,848.86 m*. https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/yz_676205/1206_676812/xgxw_676818/202012/t20201208_9301005.shtml
 17. State Council Information Office of China (2020). *8,848.86 meters — China, Nepal jointly announce new height of Mt. Qomolangma*. https://english.scio.gov.cn/in-depth/2020-12/09/content_76993252.htm
+18. U.S. Geological Survey. *Landslide Types and Processes*. https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html
+19. U.S. National Park Service. *Mass Wasting*. https://www.nps.gov/subjects/erosion/mass-wasting.htm
+20. National Geographic Society. *Weathering*. https://education.nationalgeographic.org/resource/weathering/
+21. U.S. National Park Service. *Plateaus and Mesas*. https://www.nps.gov/subjects/nnlandmarks/plateaus-and-mesas.htm
 11. U.S. Geological Survey. *Landslide Maps: Where Do Landslides Occur?* https://www.usgs.gov/programs/landslide-hazards/where-do-landslides-occur
 12. U.S. Geological Survey. *27 Ideas for Teaching with Topographic Maps*. https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0
 13. National Geographic Society. *Exploring Topographic Features*. https://education.nationalgeographic.org/resource/exploring-topographic-features/
