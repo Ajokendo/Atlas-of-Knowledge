@@ -94,6 +94,32 @@ try {
       const response = await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
       if (!response || !response.ok()) errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
 
+      await page.addScriptTag({ path: path.resolve("node_modules/axe-core/axe.min.js") });
+      const runAxeAudit = async (languageState) => {
+        const violations = await page.evaluate(async () => {
+          const result = await window.axe.run(document, {
+            runOnly: {
+              type: "tag",
+              values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"]
+            }
+          });
+          return result.violations.map(v => ({
+            id: v.id,
+            impact: v.impact,
+            help: v.help,
+            nodes: v.nodes.slice(0, 8).map(n => ({
+              target: n.target,
+              summary: n.failureSummary
+            }))
+          }));
+        });
+        if (violations.length) {
+          errors.push(file + ": axe WCAG audit (" + languageState + ") found " +
+            violations.length + " violation type(s): " + JSON.stringify(violations));
+        }
+      };
+      await runAxeAudit("initial language");
+
       // Preliminary WCAG 2.2 contrast sampling for visible, ordinary DOM text.
       // Background images/gradients and translucent layered effects are excluded from this automated pass.
       const contrast = await sampleTextContrast(page);
@@ -109,6 +135,7 @@ try {
         const before = (await lang.innerText()).trim();
         await lang.click();
         const after = (await lang.innerText()).trim();
+        await runAxeAudit("alternate language");
         const englishContrast = await sampleTextContrast(page);
         contrastSamples += englishContrast.measured;
         contrastFailures += englishContrast.failures.length;
