@@ -265,15 +265,16 @@
 
 ## 4.11. Склоновые процессы и денудация / Slope Processes and Denudation
 
-Склоновые процессы перемещают рыхлый материал и горные породы вниз по склону под действием силы тяжести. Они могут происходить медленно или внезапно.
+Склоновые процессы, или **массовые движения**, перемещают грунт и горные породы вниз по склону под действием силы тяжести. Они бывают быстрыми и медленными. В классификации движений выделяют падения, опрокидывания, скольжения, растекания и потоки; в одном событии могут сочетаться несколько типов.
 
-Основные типы:
-- оползни;
-- обвалы и камнепады;
-- осыпи;
-- сели и грязекаменные потоки;
-- медленное смещение грунта (крип);
-- солифлюкция — медленное стекание водонасыщенного грунта вниз по склону, часто в условиях сезонного оттаивания в холодных регионах.
+- **Обвалы и камнепады (падения):** обломки отделяются от крутого склона, падают, подпрыгивают или скатываются вниз.
+- **Опрокидывания:** блок породы поворачивается вперёд вокруг точки или оси опоры.
+- **Оползни (скольжения):** масса грунта или породы перемещается по поверхности ослабления; скольжение может быть вращательным по криволинейной поверхности или поступательным по относительно плоской.
+- **Растекания:** грунт или осадки смещаются в стороны, иногда над разжиженным или слабым слоем.
+- **Сели и другие обломочные потоки:** водонасыщенная смесь воды, грунта и обломков быстро движется вниз по склону или руслу.
+- **Осыпи:** скопления угловатых обломков у подножия склона, обычно образованные многократными камнепадами и скатыванием.
+- **Крип:** очень медленное, часто почти незаметное перемещение грунта или пород вниз по склону.
+- **Солифлюкция:** медленное течение водонасыщенного грунта вниз по склону, особенно в холодных районах во время сезонного оттаивания.
 
 **Денудация** — совокупность процессов разрушения и снижения рельефа, включая выветривание, склоновые перемещения, эрозию и перенос материала.
 
@@ -616,7 +617,16 @@ Major submarine features include the **continental shelf**, a relatively shallow
 
 ### 4.11. Slope Processes and Denudation
 
-Slope processes move loose material and rock downslope under gravity. They may be slow or sudden. Main types include landslides, rockfalls and rockslides, scree or talus movement, debris flows, slow soil creep, and solifluction, the slow downslope flow of water-saturated soil, often during seasonal thaw in cold regions.
+Slope processes, also called **mass movements** or **mass wasting**, move soil and rock downslope under gravity. They may be rapid or slow. A widely used classification distinguishes falls, topples, slides, lateral spreads and flows; more than one type may occur in a single event.
+
+- **Falls and rockfalls:** fragments detach from a steep slope and fall, bounce or roll downslope.
+- **Topples:** a mass rotates forward around a pivot point or axis.
+- **Slides:** soil or rock moves along a zone of weakness; slides may be rotational, along a curved surface, or translational, along a relatively planar surface.
+- **Lateral spreads:** ground extends and moves sideways, sometimes over a weak or liquefied layer.
+- **Debris flows and other flows:** water-saturated mixtures of water, soil and rock fragments move rapidly downslope or along channels.
+- **Scree or talus:** accumulations of angular rock fragments at the foot of a slope, commonly built by repeated rockfalls and rolling.
+- **Soil creep:** very slow, often almost imperceptible downslope movement of soil or rock.
+- **Solifluction:** slow downslope flow of water-saturated soil, especially in cold regions during seasonal thaw.
 
 **Denudation** is the combined lowering and wearing down of relief through weathering, slope movements, erosion and material transport.
 
