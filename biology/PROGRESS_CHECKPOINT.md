@@ -876,3 +876,9 @@ Older checkpoint entries below this note contain historical planning language th
 
 - The checkpoint update above was read back from `workspace/biology` with content SHA `8cab0c93e96bc974c4a527a3cf20ff97d4da1b5a`.
 - CI #552 (ID `41347882604`) passed on checkpoint commit `5c3b93960386aec74ea27cbb4316218c0dbd51a0`. This re-ran the structural checks, Chromium mobile/desktop checks, both language states, axe WCAG audit, contrast sampling and regional table keyboard-scroll checks after the checkpoint write.
+
+
+## 2026-11-02 — final CI verification of keyboard table scrolling
+
+- CI #553 (ID `41347981230`) passed on checkpoint commit `6145220237cce6a1ddfeb168c742ebe086160b39`. This re-ran all structural checks, the Chromium mobile/desktop and bilingual page checks, axe WCAG audits, contrast sampling and the ArrowLeft/ArrowRight keyboard-scroll regression for overflowed tables.
+- The checkpoint itself is saved on `workspace/biology`; this entry records the successful post-write CI result. Screen-reader testing with actual assistive technology and physical-device/browser matrix checks remain explicitly pending.
