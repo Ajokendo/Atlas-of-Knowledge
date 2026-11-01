@@ -817,6 +817,9 @@ Using a prepared teaching map excerpt:
 26. Fujii, M., Tamura, C., Ohara, Y. & Okino, K. (2026). *Full-ocean-depth EM124 mapping of the Challenger Deep by R/V Hakuho-maru and depth-estimate sensitivity tests*. Scientific Data, 13, 1304. https://doi.org/10.1038/s41597-026-08267-z
 27. NASA Earth Science. *Earth as Art* (Tibetan Plateau section, pp. 134–135). https://science.nasa.gov/wp-content/uploads/2023/04/703154main_earth_art_ebook.pdf
 28. British Geological Survey. *Understanding Landslides*. https://www.bgs.ac.uk/discovering-geology/earth-hazards/landslides/
+29. U.S. National Park Service. *Karst Landscapes*. https://www.nps.gov/subjects/caves/karst-landscapes.htm
+30. U.S. National Park Service. *Speleothems*. https://www.nps.gov/subjects/caves/speleothems.htm
+31. U.S. Geological Survey. *Karst Aquifers*. https://www.usgs.gov/mission-areas/water-resources/science/karst-aquifers
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
