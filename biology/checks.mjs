@@ -251,6 +251,17 @@ for (const phrase of ["G1/S", "G2/M", "spindle-assembly checkpoint", "cyclin", "
 }
 if (!/<span class="ru">/.test(cellCycleControlBlock) || !/<span class="en">/.test(cellCycleControlBlock)) errors.push("chapters/cell-biology.html: cell-cycle control lesson must be bilingual");
 
+const anatomyFile = fs.readFileSync(path.join(root, "chapters", "anatomy.html"), "utf8");
+const homeostasisControlStart = anatomyFile.indexOf('id="homeostatic-control-loops"');
+const anatomyLearningStart = anatomyFile.indexOf('<section class="learning-block"><div class="learning-grid">');
+const homeostasisControlBlock = anatomyFile.slice(homeostasisControlStart, anatomyLearningStart);
+if (homeostasisControlStart < 0 || anatomyLearningStart <= homeostasisControlStart) errors.push("chapters/anatomy.html: expanded homeostasis lesson must precede the learning objectives");
+for (const phrase of ["negative feedback", "positive feedback", "insulin", "glucagon", "vasopressin", "oxytocin", "osmoreceptors", "thermoregulation"]) {
+  if (!homeostasisControlBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/anatomy.html: homeostasis lesson missing mechanism or example: " + phrase);
+}
+if (!/<span class="ru">/.test(homeostasisControlBlock) || !/<span class="en">/.test(homeostasisControlBlock)) errors.push("chapters/anatomy.html: homeostasis lesson must be bilingual");
+if (!homeostasisControlBlock.includes('role="img"') || !homeostasisControlBlock.includes('aria-labelledby="homeostasis-svg-title homeostasis-svg-desc"') || !homeostasisControlBlock.includes("<title") || !homeostasisControlBlock.includes("<desc")) errors.push("chapters/anatomy.html: homeostasis diagram must have accessible SVG title and description");
+
 const geneticsFile = fs.readFileSync(path.join(root, "chapters", "genetics.html"), "utf8");
 if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.includes("updateDynamic();updateMutation()")) {
   errors.push("chapters/genetics.html: mutation model must preserve and translate selection on language switch");
