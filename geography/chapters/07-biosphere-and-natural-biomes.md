@@ -570,6 +570,46 @@ Every study requires appropriate sampling design, replication, control of season
 
 Разработайте план сезонного наблюдения за одним видом растений или животных: цель, место, периодичность, метод учёта, единицы измерения, возможные источники ошибки и этические ограничения. Не нарушайте охранный режим территории и не беспокойте животных.
 
+### English Summary
+
+1. The biosphere is the global realm of life and the interaction of organisms with Earth's spheres.
+2. Living systems are organised from molecular and cellular levels to ecosystems and the biosphere.
+3. Ecosystems combine living communities with abiotic environments and function through energy flows and matter cycles.
+4. Biodiversity includes genetic, species and ecosystem levels.
+5. Species distributions depend on climate, relief, barriers, evolutionary history and human activity.
+6. Biomes reflect large-scale patterns of natural zonation, but their boundaries are usually transitional.
+7. Habitat loss, fragmentation, pollution, overexploitation and climate change threaten ecosystems.
+8. Conservation requires protected areas, ecological networks, sustainable management and ecosystem restoration.
+9. The biosphere plays a central role in global biogeochemical cycles.
+
+### English Review Questions
+
+1. What is the biosphere, and why can its boundaries not be represented by one precise line?
+2. What are the main functions of living matter in the geographic envelope?
+3. How do a population, community, ecosystem and biome differ?
+4. What is the difference between habitat and ecological niche?
+5. Why does energy flow in one direction through an ecosystem while matter cycles?
+6. How does gross primary production differ from net primary production?
+7. Which three levels of biodiversity are commonly recognised?
+8. Which factors determine the boundaries of species ranges?
+9. How does latitudinal zonation differ from altitudinal zonation?
+10. Why can deserts be both hot and cold?
+11. What is an ecotone, and why are its boundaries dynamic?
+12. How does an alien species differ from an invasive species?
+13. How does habitat fragmentation affect populations?
+14. Why is afforestation not always the right way to restore nature?
+15. Which methods are used to monitor biodiversity?
+
+### English Practical Activities
+
+**1. Comparing biomes.** Select three biomes from different climate belts. Prepare a comparison table covering temperature, precipitation, seasonality, soils, dominant vegetation, characteristic animals and major threats. State the data sources and explain why biome boundaries do not exactly match climate belts.
+
+**2. Analysing a food web.** Create a food web for a selected ecosystem with at least eight organisms. Identify producers, consumers at different trophic levels and decomposers. Explain the possible consequences of losing one key species.
+
+**3. Studying habitat fragmentation.** Use satellite imagery or a mapping service to compare a natural area with its surroundings. Identify habitat fragments, roads and possible corridors. Discuss the limitations of analysing one image and the need for field verification.
+
+**4. Ecological monitoring.** Design a seasonal monitoring plan for one plant or animal species. State the objective, location, frequency, survey method, units, possible sources of error and ethical constraints. Do not violate protected-area rules or disturb wildlife.
+
 ## Научные редакционные примечания / Scientific editorial notes
 
 - Терминология «биом», «экосистема», «биогеоценоз» и границы биогеографических областей должны быть согласованы с выбранной классификацией во всём атласе.
