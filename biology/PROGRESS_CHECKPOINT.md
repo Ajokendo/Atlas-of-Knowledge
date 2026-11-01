@@ -403,3 +403,15 @@
 - Reconciled all 14 Biology page files in the old branch's net diff against the current workspace. Legacy chapter modules, learning objectives, glossaries, quizzes, navigation, visual concepts and regional dossier material were found represented in the newer canonical files. The old fauna records checked (Besh-Aral marmot, Naryn maral estimate, Ramsar bird records, dated maral figure, 2026 fish-research memorandum) are present in the current expanded fauna chapter.
 - No confirmed useful Biology content missing from `workspace/biology` was found in this pass. No cherry-pick or overwrite was made. The full 180-commit SHA/message index and evidence notes are saved in `biology/BRANCH_AUDIT_2026-11-01.md` (commit `8558525447f9342221bac70f25017d7b6a14ffd6`).
 - This is a source-history and content reconciliation, not independent scientific approval or a fresh browser/mobile/accessibility test pass. Author-side repeat-audit coverage remains **100%**; controlled editorial readiness remains **95/100**; G4/G5 and visual/technical release gates remain open.
+
+
+## G4 scientific audit checkpoint — regional biodiversity block (1 November 2026)
+
+- Began the documented author-side G4 scientific review, split into four thematic blocks. The first block (regional biodiversity and species evidence) is complete: **25% of G4**.
+- Audited priority claims in `chapters/fauna-kyrgyzstan.html` and `chapters/flora-kyrgyzstan.html` against official notices, peer-reviewed/local research and specialist taxonomic references.
+- Verified the ministry-attributed 2026 Common Crane nesting record at Jety-Oguz; the AviList v2026 release date and its limited role as a taxonomy/range reference; the Son-Kul and Suusamyr fish-paper discrepancies; current catalogue treatments for `Triplophysa` and `Gymnodiptychus dybowskii`; the 4,043 vascular-plant checklist total; and the scope caveats on Kulun-Ata flora counts.
+- Corrected the Aygul taxonomic statement in Russian and English: local Kyrgyz literature uses `Petilium eduardii`, while Kew POWO / WCVP 2026 accepts `Fritillaria eduardii` and lists `Petilium eduardii` as a synonym. The local-source name is retained with an explicit accepted-name cross-reference.
+- Chapter correction commit: `83b2a7b2bc0549065f0e2d924ef2da8a05d91ff6`.
+- Detailed findings, sources and unresolved specialist questions: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
+- No evidence was found to justify changing the qualified Common Crane, maral, argali, Son-Kul or Suusamyr numerical claims in this pass. Fish author/voucher questions remain open.
+- This is an author-side source audit, not an independent expert sign-off. G4 remains open; G5 remains open. The controlled editorial readiness score remains **95/100** and is not raised by this partial audit. The 52 illustration dispositions remain Deferred. No full browser/mobile/accessibility or test-suite pass is claimed.
