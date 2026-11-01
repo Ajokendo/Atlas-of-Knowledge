@@ -386,6 +386,8 @@ try {
       for (const [selector, expected] of [['img[data-svg-ru="../assets/biomolecule-overview-ru.svg"]', "../assets/biomolecule-overview-ru.svg"], ['img[data-alt-i="carbonCycleAlt"]', "../assets/carbon-cycle-ru.svg"]]) {
         if (await page.locator(selector).getAttribute("src") !== expected) errors.push(file + ": Russian SVG illustration is not selected for " + selector);
       }
+      const biomoleculeAltRu = await page.locator('img[data-alt-i="biomoleculeAlt"]').getAttribute("alt");
+      if (!(biomoleculeAltRu || "").includes("Схема четырёх групп биомолекул")) errors.push(file + ": Russian biomolecule SVG alternative text is missing");
       const carbonAltRu = await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt");
       if (!(carbonAltRu || "").includes("Схема обмена углеродом")) {
         errors.push(file + ": Russian carbon-cycle image alternative text is missing; actual=" + JSON.stringify(carbonAltRu));
@@ -412,6 +414,8 @@ try {
       for (const [selector, expected] of [['img[data-svg-ru="../assets/biomolecule-overview-ru.svg"]', "../assets/biomolecule-overview.svg"], ['img[data-alt-i="carbonCycleAlt"]', "../assets/carbon-cycle.svg"]]) {
         if (await page.locator(selector).getAttribute("src") !== expected) errors.push(file + ": English SVG illustration is not selected for " + selector);
       }
+      const biomoleculeAltEn = await page.locator('img[data-alt-i="biomoleculeAlt"]').getAttribute("alt");
+      if (!(biomoleculeAltEn || "").includes("Diagram of four biomolecule groups")) errors.push(file + ": English biomolecule SVG alternative text is missing");
       const carbonAltEn = await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt");
       if (!(carbonAltEn || "").includes("Diagram of carbon exchange")) {
         errors.push(file + ": English carbon-cycle image alternative text is missing; actual=" + JSON.stringify(carbonAltEn));
