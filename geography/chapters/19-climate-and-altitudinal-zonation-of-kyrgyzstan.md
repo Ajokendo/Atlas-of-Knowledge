@@ -532,6 +532,26 @@ When using data, check station metadata, elevation, relocation history, instrume
 
 A weather record is an extreme value over a defined observation period. It should not be compared directly with mean annual temperature or used as proof of a long-term trend without statistical analysis.
 
+### Национальные климатические ряды и индексы / National Climate Records and Indices
+
+Кыргызгидромет публикует климатические продукты, рассчитанные по данным национальной сети наблюдений. В одном из представленных исследований использованы однородные гомогенизированные месячные ряды температуры и осадков **22 метеостанций за 1980–2021 годы**. Для периода 1981–2021 годов в этом исследовании оценён средний линейный тренд среднегодовой температуры по Кыргызстану около **+0,28 °C за десятилетие**; по областям значения различались примерно от +0,25 до +0,32 °C за десятилетие. Весенний тренд был выше годового и составил около +0,59 °C за десятилетие. Это оценка конкретного набора станций и периода, а не универсальная скорость потепления для каждого высотного пояса.
+
+В том же анализе тренды годовой суммы осадков были небольшими, разнонаправленными и статистически незначимыми. Для страны в целом приводилось небольшое увеличение примерно на 4 мм за десятилетие; по отдельным областям направления различались. Следовательно, данные не дают оснований утверждать об одинаковом устойчивом росте или снижении осадков по всей стране.
+
+Отдельный набор национальных климатических индексов рассчитан по данным **13 метеостанций за 1980–2022 годы**. Он включает число морозных и морозных дней, сроки и продолжительность вегетационного периода, суммы активных температур, волны жары и холода, атмосферную засуху, переходы температуры через 0 °C и индекс пожарной опасности. Кыргызгидромет указывает на положительные тенденции продолжительности и тепловой обеспеченности вегетационного периода, причём большинство таких трендов статистически значимы; тренды показателей холодного периода в этом анализе не были статистически значимыми. Индекс лесной пожарной опасности не удалось статистически оценить из-за короткого ряда относительной влажности (2013–2022 годы).
+
+Для интерпретации важно не объединять эти наборы без оговорок: они имеют разное число станций, временные интервалы, наборы переменных и методики. В частности, индекс атмосферной засухи в национальном наборе определён операционно — как период не менее 30 последовательных дней в вегетационный сезон без эффективных осадков (порог осадков и температуры указан в методике Кыргызгидромета). Это не взаимозаменяемо с индексами SPI, SPEI или с оценкой сельскохозяйственной/гидрологической засухи.
+
+Kyrgyzhydromet publishes climate products derived from the national observation network. One analysis uses homogenised monthly temperature and precipitation series from **22 meteorological stations for 1980–2021**. For 1981–2021, it estimates a countrywide mean annual temperature trend of approximately **+0.28 °C per decade**, with regional values ranging from about +0.25 to +0.32 °C per decade. The spring trend is higher, at about +0.59 °C per decade. These figures describe a particular station dataset and period; they are not a universal warming rate for every elevation belt.
+
+In the same analysis, annual precipitation trends are small, mixed in direction and statistically insignificant. The countrywide estimate is a modest increase of about 4 mm per decade, while regional trends differ. The evidence therefore does not support a uniform claim that precipitation is steadily increasing or decreasing across the country.
+
+A separate set of national climate indices was calculated from **13 stations for 1980–2022**. It includes frost and cold days, growing-season timing and duration, accumulated warmth, heat and cold waves, meteorological drought, zero-degree crossings and a forest-fire danger index. Kyrgyzhydromet reports positive trends in growing-season duration and heat accumulation, most of which are statistically significant; cold-season indicators show non-significant trends in that analysis. Statistical assessment of the forest-fire danger index was not possible because the relative-humidity record was short (2013–2022).
+
+These datasets must not be merged without qualification: they differ in station count, time period, variables and methods. The national operational definition of atmospheric drought (at least 30 consecutive growing-season days without effective precipitation, with temperature and precipitation thresholds specified in the method) is not interchangeable with SPI, SPEI, agricultural drought or hydrological drought.
+
+**Картографическое следствие / Mapping implication.** Для карт климатических трендов указывать временной интервал, число и расположение станций, факт гомогенизации рядов, метод расчёта тренда и статистическую значимость. Для карт экстремумов и засух обязательно приводить определение индекса и пороги; не интерполировать станционные значения на высокогорные районы без оценки пространственной неопределённости.
+
 ## 19.14. Практические работы / Practical Activities
 
 ### English Practical Activities
@@ -715,6 +735,7 @@ Kyrgyzstan’s climate is shaped by its continental location, atmospheric circul
 8. World Bank. **Kyrgyz Republic Country Climate and Development Report.** https://www.worldbank.org/en/country/kyrgyzrepublic/publication/ccdr
 9. World Meteorological Organization. **Guidelines on the Calculation of Climate Normals.** WMO-No. 1203. Geneva: WMO.
 10. IPCC. (2021–2023). **Sixth Assessment Report.** Working Groups I, II and III; synthesis material on observed warming, impacts, adaptation and uncertainty. https://www.ipcc.ch/assessment-report/ar6/
+11. Kyrgyz Hydrometeorological Service (Kyrgyzhydromet). **Climate Products: Analysis and Forecast of Temperature and Precipitation Changes in the Kyrgyz Republic, 1980–2021; Climate Products for the Territory of Kyrgyzstan: Analysis and Forecast, 1980–2022.** Official methodological and results pages. https://www.meteo.kg/ru/pages/ClimateProducts
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена; перед финальной публикацией требуется сверить локальные климатические показатели с национальными метеорологическими рядами, унифицировать период норм и оформить карты на основе проверенных пространственных данных.  
