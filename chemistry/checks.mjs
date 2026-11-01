@@ -480,6 +480,38 @@ if (fs.existsSync(neutralisationSvgPath)) {
   }
 }
 
+const constantsSource = fs.readFileSync(path.join(root, "chemistry-constants.html"), "utf8");
+for (const [label, evidence] of [
+  ["Avogadro constant", "6.022 140 76 × 10²³"],
+  ["elementary charge", "1.602 176 634 × 10⁻¹⁹"],
+  ["Planck constant", "6.626 070 15 × 10⁻³⁴"],
+  ["Boltzmann constant", "1.380 649 × 10⁻²³"],
+  ["speed of light", "299 792 458"],
+  ["Faraday constant", "≈ 96 485.33"],
+  ["molar gas constant", "8.314 462 618…"],
+  ["standard pressure conversion", "1 bar = 100 kPa"],
+  ["standard atmosphere conversion", "1 atm = 101.325 kPa"],
+  ["IUPAC standard gas conditions", "273.15 K"]
+]) {
+  if (!constantsSource.includes(evidence)) errors.push("chemistry-constants.html: missing or changed " + label);
+}
+for (const [label, url] of [
+  ["NIST/CODATA constants source", "https://physics.nist.gov/cuu/Constants/"],
+  ["IUPAC standard pressure source", "https://goldbook.iupac.org/terms/view/S05921"],
+  ["IUPAC standard gas conditions source", "https://goldbook.iupac.org/terms/view/S05910"],
+  ["IUPAC standard thermodynamic quantities source", "https://goldbook.iupac.org/terms/view/S05927"]
+]) {
+  if (!constantsSource.includes(url)) errors.push("chemistry-constants.html: missing authoritative reference link for " + label);
+}
+for (const [label, evidence] of [
+  ["Russian source notes", "Источники и методические примечания"],
+  ["English source notes", "Sources and methodological notes"],
+  ["Russian temperature qualification", "Величины при 25 °C не следует автоматически переносить"],
+  ["English temperature qualification", "Values at 25 °C must not automatically be applied"]
+]) {
+  if (!constantsSource.includes(evidence)) errors.push("chemistry-constants.html: missing " + label);
+}
+
 const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const chapterIds = [...homepage.matchAll(/["'](0[1-9]|1[0-2])["']/g)].map(m => m[1]);
 if (new Set(chapterIds).size < 12) errors.push("index.html: expected all 12 chapter identifiers");
