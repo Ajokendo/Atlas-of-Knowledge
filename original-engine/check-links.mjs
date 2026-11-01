@@ -60,7 +60,7 @@ for (const ref of refs) {
   }
   const pagesPath = root + "/" + ref.chapter + "/pages.js";
   const pageSource = readFileSync(pagesPath, "utf8");
-  const pageCount = [...pageSource.matchAll(/\\bkicker:\\s*['"`]/g)].length;
+  const pageCount = [...pageSource.matchAll(/\bkicker:\s*['"`]/g)].length;
   if (ref.page >= pageCount) {
     errors.push("Cross-reference page is out of range: " + ref.chapter + "/" + ref.page + " (page count " + pageCount + ")");
   }
