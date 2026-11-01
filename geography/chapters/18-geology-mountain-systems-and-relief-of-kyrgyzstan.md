@@ -21,6 +21,7 @@ After studying this chapter, readers should be able to explain the geological st
 ## 18.1. Кыргызстан — страна высокогорного рельефа / Kyrgyzstan: A Mountainous Country
 
  > **[МЕТКА ИЛЛЮСТРАЦИИ 18-A / IMAGE PLACEHOLDER 18-A]** Физико-географическая карта Кыргызстана с высотной гипсометрией, главными хребтами, межгорными впадинами и вершинами; использовать проверенную цифровую модель рельефа.
+> **EN:** Physical-geographical map of Kyrgyzstan showing elevation hypsometry, major ranges, intermontane basins and peaks; use a validated digital elevation model.
 
 Кыргызстан расположен в пределах двух крупных горных систем Центральной Азии — Тянь-Шаня и Памиро-Алая. Основная часть территории представляет собой горы, межгорные впадины, высокогорные плато и речные долины. Рельеф отличается резкими перепадами высот: от низких участков Ферганской долины до высочайших вершин Центрального Тянь-Шаня.
 
@@ -79,6 +80,7 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 ## 18.3. Основные горные районы / Major Mountain Regions
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 18-B / IMAGE PLACEHOLDER 18-B]** Орографическая схема Тянь-Шаня и Памиро-Алая с Северным, Внутренним, Центральным и Западным Тянь-Шанем; географическое районирование не смешивать с тектоническими террейнами.
+> **EN:** Orographic diagram of the Tien Shan and Pamir–Alay showing the Northern, Inner, Central and Western Tien Shan; do not conflate geographic regionalisation with tectonic terranes.
 
 ### 18.3.1. Северный Тянь-Шань / Northern Tien Shan
 
@@ -156,6 +158,7 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 ## 18.5. Высочайшие вершины Кыргызстана / Highest Peaks of Kyrgyzstan
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 18-C / IMAGE PLACEHOLDER 18-C]** Панорама Жеңиш, Хан-Тенгри и пика Ленина (в Таджикистане — Абу Али ибн Сино) с раздельными подписями высоты скальной вершины и ледниковой шапки, где применимо; высоты сверить по официальным источникам.
+> **EN:** Panorama of Jengish Chokusu, Khan Tengri and Lenin Peak (Abu Ali Ibn Sina Peak in Tajikistan), with separate labels for rock-summit and ice-cap elevations where relevant; verify heights against authoritative sources.
 
 ### 18.5.1. Пик Жеңиш (Победы) / Jengish Chokusu (Victory Peak)
 
@@ -237,6 +240,7 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 ## 18.8. Ледниковые формы рельефа / Glacial Landforms
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 18-D / IMAGE PLACEHOLDER 18-D]** Геоморфологическая блок-диаграмма ледниковых форм: кар, цирк, трог, морена, ригель, висячая долина, рог и арête; подписи наносить в векторной вёрстке.
+> **EN:** Geomorphological block diagram of glacial landforms: cirque, trough, moraine, bedrock step, hanging valley, horn and arête; add labels during vector layout.
 
 | Форма / Landform | Характеристика / Description |
 |---|---|
@@ -285,6 +289,7 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 ## 18.11. Геологические опасности и мониторинг / Geological Hazards and Monitoring
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 18-E / IMAGE PLACEHOLDER 18-E]** Карта геологических опасностей Кыргызстана с раздельными слоями землетрясений, оползней, селей, обвалов, лавин и ледниковых озёр; опасность, экспозицию и уязвимость показывать раздельно.
+> **EN:** Geological-hazard map of Kyrgyzstan with separate layers for earthquakes, landslides, debris flows, rockfalls, avalanches and glacial lakes; show hazard, exposure and vulnerability separately.
 
 Кыргызстан подвержен нескольким взаимосвязанным типам природных опасностей:
 
