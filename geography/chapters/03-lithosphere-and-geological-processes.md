@@ -352,7 +352,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 ## 3.9. Геологическое время / Geological Time
 
-Геологическое время охватывает около 4,54 млрд лет истории Земли. Для его изучения применяют относительную и абсолютную геохронологию.
+Геологическое время охватывает около 4,57 млрд лет истории Земли; нижняя граница гадея в таблице ICS 2026/06 указана как 4 567,3 ± 0,16 млн лет. Для его изучения применяют относительную и абсолютную геохронологию.
 
 ### 3.9.1. Относительная геохронология / Relative Dating
 
@@ -718,7 +718,7 @@ Fault type is determined by the direction of relative block movement, not merely
 
 ### 3.9. Geological Time
 
-Geological time covers about 4.54 billion years of Earth's history. Relative and numerical dating are used to reconstruct it.
+Geological time covers about 4.57 billion years of Earth's history; the base of the Hadean on the ICS 2026/06 chart is 4,567.3 ± 0.16 million years ago. Relative and numerical dating are used to reconstruct it.
 
 **Relative dating** relies on several principles:
 - the law of superposition: in an undisturbed sequence, lower layers are generally older than upper layers;
