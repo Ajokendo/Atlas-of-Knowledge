@@ -541,6 +541,45 @@ Do not simply average the two national indicators: (20,000 + 10,000) / 2 = USD 1
 
 Проследите путь выбранного товара, сырья или услуги между тремя и более регионами мира. Отметьте производство, транспорт, рынки, зависимость от инфраструктуры и возможные риски сбоев.
 
+### English Summary
+
+1. A region is an analytical territorial unit whose boundaries depend on the research purpose.
+2. There is no single universal scheme for dividing the world into regions.
+3. Each macro-region combines physical diversity, historical connections, cultural characteristics and economic systems.
+4. Internal regional differences are often substantial and should not be concealed by generalisations.
+5. Natural conditions influence economic activity and settlement but do not determine them completely.
+6. Global trade, migration, transport and environmental connections make regions interdependent.
+7. Comparative analysis requires comparable data and transparent methodology.
+8. Political and statistical regional classifications should not be confused with natural and cultural regions.
+
+### English Review Questions
+
+1. What is a region, and why do its boundaries depend on the research question?
+2. How does a functional region differ from a physical-geographical region?
+3. Which criteria should be considered when comparing world regions?
+4. Why should Africa not be described as a homogeneous territory?
+5. How does Europe differ from the European Union as a geographical and institutional concept?
+6. Which physical and demographic contrasts characterise Asia?
+7. Which factors shape settlement and economic activity in North America?
+8. Why are Caribbean and Oceanian island states particularly vulnerable to some climate risks?
+9. How are the natural systems of Amazonia connected with global environmental processes?
+10. Which international legal regime applies to Antarctica?
+11. What is a transboundary region?
+12. Why should development indicators be considered together?
+13. What is the UN M49 classification used for, and what does it not determine?
+
+### English Practical Activities
+
+**1. Comparing two regions.** Select two macro-regions and compare their physical conditions, population, urbanisation, economic structure, infrastructure and environmental challenges. Use the same years and indicator definitions.
+
+**2. Regionalising a territory.** Select a large country or continent and divide it into regions using two different criteria, such as physical geography and economic activity. Explain why the boundaries differ.
+
+**3. A transboundary system.** Select an international river basin, mountain system or transport corridor. Identify the countries involved, key flows, shared risks and forms of cooperation. Distinguish confirmed agreements from proposed measures.
+
+**4. Comparative mapping.** Create two thematic maps of world regions using one indicator each, such as population density and GDP per capita. State the source, date, regional classification and limitations of comparison. Do not use the same colour scale for indicators with different units.
+
+**5. Regional interdependence.** Trace the movement of a selected product, raw material or service between at least three world regions. Identify production, transport, markets, infrastructure dependencies and possible disruption risks.
+
 ## Научные редакционные примечания / Scientific editorial notes
 
 - Схемы регионализации должны сопровождаться пояснением критерия и источника; не представлять условные границы как единственно правильные.
