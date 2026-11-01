@@ -462,6 +462,19 @@ if (!regionalSpeciesAudit.includes("Kyrgyzstan reptile country list (snapshot 19
 if (!regionalSpeciesAudit.includes("Central Asian reptile checklist (GBIF dataset, version 1.15, 26 October 2026)")) {
   errors.push("Regional species audit must record the 2026 Central Asian reptile checklist with its evidence-scope caveat");
 }
+
+if (!faunaKyrgyzstanFile.includes("fishbase.se/country/CountryChecklist.php?c_code=417") || !faunaKyrgyzstanFile.includes("31 species currently present") || !faunaKyrgyzstanFile.includes("explicitly labelled the list incomplete") || !faunaKyrgyzstanFile.includes("73 fish species")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: fish totals must distinguish the 2013 FAO synthesis from the incomplete current FishBase list");
+}
+if (!faunaKyrgyzstanFile.includes("does not demonstrate a sharp decline") || !faunaKyrgyzstanFile.includes("not as a definitive national checklist")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: incompatible fish totals must not be interpreted as a population trend or definitive national inventory");
+}
+if (!regionalSpeciesAudit.includes("National fish totals: FAO 2013 versus FishBase (checked 1 November 2026)") || !regionalSpeciesAudit.includes("31 currently present but explicitly labels its country list incomplete")) {
+  errors.push("Regional species audit must retain FishBase incompleteness and the non-comparable FAO/FishBase fish totals");
+}
+if (!regionalSpeciesAudit.includes("Issyk-Kul fish survey reported by FAO (December 2024)") || !regionalSpeciesAudit.includes("72 specimens of three species")) {
+  errors.push("Regional species audit must preserve the bounded 2024 Issyk-Kul fish sample and distinguish it from a full inventory");
+}
 if (!regionalSpeciesAudit.includes("Kyrgyzstan amphibian country list (snapshot 30 September 2026)") || !regionalSpeciesAudit.includes("4 resident, 3 unconfirmed")) {
   errors.push("Regional species audit must retain the dated Kyrgyz amphibian snapshot and distinguish resident from unconfirmed taxa");
 }
