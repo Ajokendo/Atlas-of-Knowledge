@@ -315,3 +315,13 @@ Continue technical review by examining each interactive model's state transition
 - All 52 image anchors remain mapped and all 52 image dispositions remain Deferred; visual production is not complete.
 - checks.mjs and browser/mobile/accessibility/CI checks have not been run in this save cycle. No test pass is claimed.
 - Controlled editorial-readiness score remains 95/100; it is not increased by completing the author-side repeat audit.
+
+
+## Technical regression repair checkpoint — 1 November 2026
+
+- Investigated the failing Biology GitHub Actions run. The first failure was a duplicate top-level `cellSignalingStart` declaration in `checks.mjs`; subsequent parse/runtime issues exposed repeated `geneRegulationStart`, `ecologyFile`, `evolutionFile` and `anatomyFile` declarations and an accidentally removed anatomy test fixture. These were corrected without changing chapter content.
+- Corrected six brittle assertions so they match the actual saved evidence wording and scope: renal physiology explanation location, argali sample-scope caveat, reptile snapshot metadata, Black Stork source heading and Demoiselle Crane evidence classification. No scientific statement was weakened or broadened.
+- Regression script now completes successfully in GitHub Actions on commit `531218e9f4d3b059555f07f30c7185172e8b35d1` (Node.js 22; 13 Biology HTML pages, local paths, inline scripts, bilingual parity, image anchors and source assertions). Chromium installation and browser smoke tests are still running / not yet confirmed at the time of this checkpoint.
+- Source-level read-back confirms one `anatomyFile` declaration in the correct scope and no remaining repeated top-level const names detected by the static scan.
+- The 52 image anchors and all 52 Deferred dispositions remain unchanged. G4 independent scientific review and G5 independent bilingual/editorial review remain open. No publication approval is claimed.
+- Controlled editorial readiness remains **95/100**; author-side repeat-audit coverage remains **100%**. These are separate measures.
