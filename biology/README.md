@@ -1053,3 +1053,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Generated a perched golden-eagle visual variant (ImageGen ID `1191d3c1-3f8d-474b-b05a-b1c4fdb3d4d8`); local WebP `biology-golden-eagle-perched-candidate.webp` (1536×1024, 337,922 bytes).
 - This is a different pose from the flight draft, but repeats the golden-eagle subject and does not complete the P1 multi-species bird plate. Expert ornithological review remains necessary.
 - Local-only, uncommitted and unapproved; no chapter insertion or marker change. All 52 markers remain Deferred; readiness remains 95/100. See the image review log.
+
+
+## Tenth illustration production attempt — 1 November 2026
+
+- Generated a bearded-vulture-like alpine bird concept (ImageGen ID `ab53454c-977c-4c89-8b84-c15459d6e227`); local WebP `biology-bearded-vulture-candidate.webp` (1536×1024, 336,576 bytes).
+- Intended as a visual study for the chapter's `Gypaetus barbatus` entry, but species identity and anatomy require ornithological review; the breast colour is not diagnostic evidence.
+- Local-only, uncommitted and unapproved. The P1 bird plate and all 52 markers remain Deferred; readiness remains 95/100. See the image review log.
