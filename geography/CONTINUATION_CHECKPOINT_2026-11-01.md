@@ -38,3 +38,10 @@
 
 - Chapter 20 extended bilingually with NSC 2025 water-use and wastewater indicators, the Water Resources Service's WIS scope, and the 2025 national mudflow/flood hazard atlas plus the ESKMP portal. Distinctions retained between abstraction, consumption, discharge and natural river runoff; the WIS description is not treated as proof of open station-level time series. Added bilingual visual marker 20-K for a disaggregated national water-use infographic. Sources and access limitations recorded in the map-data audit.
 - Verified commits in this continuation: Chapter 20 source update `b1210603a0a21a931a64f779e7dd778f299fa588`; map-data audit `8cd14ac304a20e5a533ac7bc998a21cb4b79982b`; readiness matrix `5e0176c1a87a7fb71574aec220c0d73200925e8e`; README `75baa05b03864bc0a9981a7309b03cd8ba3dd0aa`; illustration marker 20-K `ca88d3a7cad3ea40517dd2e6f1b886975e5543b5`.
+
+
+## Illustration production pass — 2026-11-01
+
+- Audited stable illustration placeholder IDs across all 26 geography chapters. Register now indexes 217 unique IDs; Chapter 26 repeats A, B, D, I and K in both in-text positions and production briefs by design. Seven IDs that were only present in the Chapter 26 production-brief list (26-C, 26-E, 26-F, 26-G, 26-H, 26-J, 26-L) have now been restored as bilingual in-text markers at the relevant sections.
+- First actual asset created and embedded: `geography/assets/20-K-national-water-use-2025.svg`. Its 2025 values were checked against the National Statistical Committee open-data table. The infographic keeps abstraction, consumption and wastewater separate; underground abstraction is identified as part of total abstraction. The mismatch between wastewater total (188.5) and listed subcategories (185.6 + 1.4) is explicitly disclosed, not silently reconciled. License: CC BY-NC-SA 4.0; reuse restrictions recorded in Chapter 20 production brief.
+- Updated `VISUAL_ASSET_REGISTER.md`; 1 asset created and embedded, pending final editorial sign-off. Remaining maps and data-driven figures are not to be generated as factual maps until source geometries/data, projection, date, scale and reuse rights are cleared.
