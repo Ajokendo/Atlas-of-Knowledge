@@ -575,10 +575,13 @@ A practical planning system includes:
 
 ## 24.13. Карты и визуальные материалы / Maps and Visual Briefs
 > **[МЕТКА ИЛЛЮСТРАЦИИ 24-A / IMAGE PLACEHOLDER 24-A]** Сравнительная карта семи областей Кыргызстана: актуальные административные границы, центры областей, города республиканского значения, основные долины и горные хребты. Отдельной легендой показать, что Бишкек и Ош не входят в состав соответствующих областей.
+> **EN:** Comparative map of Kyrgyzstan's seven oblasts showing current administrative boundaries, oblast centres, cities of republican significance, major valleys and mountain ranges. The legend must show that Bishkek and Osh are not part of the corresponding oblasts.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 24-B / IMAGE PLACEHOLDER 24-B]** Семь региональных профилей в едином инфографическом формате: площадь, население на 01.01.2026, расчётная плотность и ведущие пространственные функции; население городов республиканского значения не включать в областные итоги.
+> **EN:** Seven regional profiles in a consistent infographic format: area, population as of 1 January 2026, calculated density and leading spatial functions. Do not include the populations of cities of republican significance in oblast totals.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 24-C / IMAGE PLACEHOLDER 24-C]** Карта региональных природных рисков и климатической уязвимости: селевые бассейны, оползневые зоны, лавиноопасные участки, засушливые территории и уязвимые транспортные коридоры; дата и масштаб каждого набора данных обязательны.
+> **EN:** Map of regional natural hazards and climate vulnerability, showing debris-flow basins, landslide zones, avalanche-prone areas, drought-affected territories and vulnerable transport corridors; state the date and scale of each dataset.
 
 
 Все карты должны иметь масштаб, легенду, дату данных, систему координат, источник границ и пояснение к спорным или изменявшимся административным единицам. Географические подписи проверяются по официальным топонимическим и картографическим источникам. Генеративная графика не должна самостоятельно создавать государственные границы, названия или статистические числа.
