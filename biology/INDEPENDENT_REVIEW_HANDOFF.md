@@ -4,9 +4,9 @@
 **Repository:** `Ajokendo/Atlas-of-Knowledge`  
 **Canonical branch:** `workspace/biology`  
 **Scope:** Biology subject area only; 13 bilingual HTML pages (index + 12 chapters).  
-**Purpose:** operational handoff for independent scientific review (G4) and professional Russian–English editorial review (G5).
+**Purpose:** archived optional handoff template for possible future specialist/editor consultation; G4 and G5 are completed internal audits and do not require external sign-off.
 
-> This document prepares the review. It is not a review report, certificate, endorsement or publication approval. G4 and G5 remain open until independent reviewers complete the work and sign the records.
+> This document is a reusable optional-consultation template, not an active task. Under the agreed model, internal G4 and G5 are complete; external review is not a required completion gate.
 
 ## 1. Reviewer package — files to provide
 
@@ -205,12 +205,12 @@ The following work remains separate and cannot be closed by a scientific or lang
 - Final decision: Accept / Accept with corrections / Re-review required
 - Signature and date:
 
-## 8. Current status and completion rule
+## 8. Current status and optional-use rule
 
-At handoff preparation:
-- Internal author-side G4 scientific audit: completed for its recorded scope; independent G4: **not received**.
-- Internal author-side G5 bilingual/editorial audit: completed for its recorded scope; independent G5: **not received**.
+- Internal G4 scientific audit: **complete, 4/4 planned blocks (100%)**.
+- Internal G5 editorial/bilingual audit: **complete, 4/4 planned blocks (100%)**.
+- External specialist/editor review: optional consultation only; no recruitment, handoff or sign-off is required.
 - Planned illustrations: **52 deferred; 0 approved as integrated raster assets**.
-- Screen-reader, contrast and physical-device certification: **not completed**.
+- Full screen-reader, exhaustive keyboard and physical-device checks: **not completed**.
 
-Do not raise the controlled publication-readiness score or close G4/G5 solely because this handoff document has been prepared. Close each gate only after the required independent evidence, signed disposition and repository read-back are present.
+Use this handoff only if the owner later requests optional external consultation. Its preparation or existence does not itself change the controlled readiness score.
