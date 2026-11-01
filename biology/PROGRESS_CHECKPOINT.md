@@ -789,7 +789,7 @@
 - CI #507 (run ID `41344216628`, code commit `0c1c85508ab29c90ee9336a9eb4cedf725c823fd`) completed successfully.
 - Browser log: `21,477 text instances, 0 below-threshold instances`. The sampler now covers default and alternate language states at mobile and desktop widths, plus post-keyboard-activation states for the Ecology carbon-cycle selector and Botany quiz answer. All 13 pages, 26 language-toggle interactions and uncaught-error checks passed.
 - This validates only the defined representative dynamic states. It does not cover every chapter's interactive states, SVG/image/gradient text, all focus/hover/disabled states, screen readers or physical devices.
-- Dynamic-state contrast stage: 100% for the two explicitly selected interactions. Overall editorial readiness remains 95/100; G4/G5 independent review and 52 deferred visual assets remain outstanding. Feedback intake remains disabled.
+- Dynamic-state contrast stage: 100% for the two explicitly selected interactions. Overall editorial readiness remains 95/100; internal G4/G5 audits and 52 deferred visual assets remain outstanding. Feedback intake remains disabled.
 
 
 ## 2026-11-02 — correction to Biology completion gates (agreed project model)
@@ -803,3 +803,14 @@
 - Teacher feedback after portal completion is a pedagogical pilot/user-feedback stage, not a substitute label for formal independent scientific peer review.
 - The 95/100 controlled editorial readiness score is unchanged by this clarification. The 52 visual assets remain deferred; their disposition is tracked separately.
 - CI run #509 (ID `41344278173`) passed on commit `dd8d0c9ff0bac76f0418e860c7c4698406a3fac0`; all listed validation and Chromium steps completed successfully.
+
+
+## 2026-11-02 — accessible-name and custom-control semantics checks
+
+- Strengthened the Chromium audit to resolve accessible names from actual non-empty `aria-labelledby` references, trimmed `aria-label` values, native `<label>` associations, visible text, image alternatives and applicable input values. Empty labels and broken/empty `aria-labelledby` references are reported.
+- Added a check that custom non-native `role="button"` elements are not removed from keyboard focus order (`tabIndex < 0`).
+- The check remains an automated DOM-level approximation of accessible-name computation; it is not a full browser accessibility-tree or screen-reader test, and does not prove correct keyboard activation for every custom control.
+- Browser test commits: `401d11fad7a0a595ba98299473e0e1ca80ce36c3` and regex tokenization correction `ce1b57ddc05c3b4b2277aecebc353e5ff26bfc0c`.
+- CI #511 (ID `41344848589`) and CI #512 (ID `41344894067`) completed successfully. CI #512 validated 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons; Chromium passed on all 13 pages at mobile and desktop widths, with 26 language-toggle interactions, no uncaught page errors, and 21,477 sampled text instances with zero below-threshold results.
+- Accessible-name/custom-button automated check: 100% for the defined DOM checks across the tested pages. Full keyboard traversal, exhaustive control activation, browser accessibility-tree review, screen-reader testing and physical-device testing remain open.
+- Controlled editorial readiness remains 95/100. G4/G5 are the internal scientific and editorial/bilingual audits; independent external peer review is not a mandatory gate.
