@@ -748,6 +748,51 @@ This is a learning example, not a complete assessment of healthcare access. The 
 
 Выберите опубликованную тематическую карту. Проверьте заголовок, легенду, единицы, источник, дату, масштаб, классификацию, цвет, проекцию и обозначение неопределённости. Составьте список улучшений.
 
+### English Summary
+
+1. Geographic research studies the spatial organisation of nature and society through a structured process of question formulation, data collection, analysis and communication.
+2. Research scale and territorial units influence the patterns observed; MAUP and ecological fallacy must be considered.
+3. Field protocols, calibration and documented methods are essential for reliable observations.
+4. Data quality includes accuracy, precision, completeness, consistency, currency and lineage.
+5. Sampling design should reflect the research question and spatial structure of the phenomenon.
+6. Quantitative and qualitative methods complement one another.
+7. Spatial statistics identifies distribution patterns but depends on neighbourhood definitions and analytical parameters.
+8. A map is a model and an argument, not a neutral copy of a territory.
+9. Projection, scale, generalisation, colour and classification should fit the purpose of the map.
+10. Thematic cartography requires an appropriate representation method and correct units.
+11. Reproducibility, research integrity and ethics are essential elements of modern geographical research.
+
+### English Review Questions
+
+1. Which stages are included in geographic research?
+2. How does description differ from explanation and causal inference?
+3. What is MAUP, and why does it matter?
+4. What is the difference between accuracy and precision?
+5. Which sampling methods are used in field research?
+6. Why does spatial autocorrelation affect statistical analysis?
+7. Which tasks are addressed by quantitative and qualitative methods?
+8. How does a choropleth map differ from a proportional-symbol map?
+9. Why are relative indicators generally used in choropleth maps?
+10. How does the choice of classification affect map interpretation?
+11. What is cartographic generalisation?
+12. Which elements are necessary for correct interpretation of a thematic map?
+13. Why is an interactive map not automatically more reliable?
+14. What must be documented to make research reproducible?
+
+### English Practical Activities
+
+**1. Geographic research plan.** Formulate a research question about a physical or socio-economic phenomenon. Define the territory, period, aim, objectives, data, methods, expected limitations and validation criteria.
+
+**2. Field protocol.** Design a field-observation form that records coordinates, time, units, instrument description, conditions and data-quality notes. Conduct a small learning survey.
+
+**3. Sampling and spatial distribution.** Create random, systematic and stratified sampling designs for one territory. Compare coverage and possible biases, then justify the most appropriate design.
+
+**4. Thematic map design.** Prepare a choropleth map of a relative indicator and a proportional-symbol map of an absolute indicator. Compare the information communicated by each method.
+
+**5. Classification and colour scheme.** Create one map using two classification methods. Select a suitable sequential, diverging or qualitative palette. Explain how the method changes the visual message.
+
+**6. Map audit.** Select a published thematic map. Check its title, legend, units, source, date, scale, classification, colours, projection and representation of uncertainty. Prepare a list of improvements.
+
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
 **Иллюстрация 16.1 / Figure 16.1 — Цикл географического исследования / Geographic research cycle.**  
