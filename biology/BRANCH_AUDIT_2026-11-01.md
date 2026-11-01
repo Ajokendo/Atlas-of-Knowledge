@@ -199,3 +199,15 @@ Pull-request history confirms that PR #3 (release integration), PR #4 (learning 
 - Therefore the repository is logically consolidated (one active workspace), but physical deletion of the four historical refs remains an owner/admin action. Before deletion, retain an archive tag or verify the merged PRs and preserve any required source snapshots.
 
 This is a verified inventory and safe-cleanup boundary, not a claim that branch refs have already been deleted.
+
+
+## Owner cleanup verification — 1 November 2026
+
+A fresh GitHub REST branch-list read was performed after the repository owner cleanup. The following five historical Biology refs are now absent from the live branch list:
+- `biology-learning-experience-pass`
+- `biology-deep-editorial-pass-1`
+- `biology-release-integration`
+- `biology-atlas`
+- `workspace/biology` remains present and is the sole active Biology development branch.
+
+The live repository now lists exactly these seven branches: `atlas-of-knowledge-integration`, `main`, `portal-foundation`, `workspace/biology`, `workspace/chemistry`, `workspace/geography`, and `workspace/physics`. Thus the four historical refs previously identified plus `biology-atlas` have been physically removed; no non-Biology workspace branch was removed. This is confirmed from the current remote branch enumeration, not inferred from the earlier recommendation.
