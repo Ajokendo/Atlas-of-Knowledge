@@ -3,67 +3,88 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Atlas of Geography — географический атлас в составе Atlas of Knowledge.">
+<meta name="description" content="Atlas of Geography — географический атлас на русском и английском языках.">
 <title>Атлас географии — Atlas of Knowledge</title>
 <style>
 :root{color-scheme:light;--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--muted:#77736e;--accent:#287f91}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,system-ui,sans-serif}
 header,main,footer{max-width:1050px;margin:auto;padding:24px}
-header{border-bottom:1px solid #deded9}a{color:var(--accent)}h1,h2{font-family:Georgia,serif;font-weight:400}h1{font-size:clamp(42px,8vw,76px);line-height:1;margin:48px 0 18px}.lead{max-width:680px;color:var(--muted);font:italic 21px/1.5 Georgia,serif}
+header{border-bottom:1px solid #deded9;display:flex;align-items:center;justify-content:space-between;gap:16px}
+a{color:var(--accent)}h1,h2{font-family:Georgia,serif;font-weight:400}h1{font-size:clamp(42px,8vw,76px);line-height:1;margin:48px 0 18px}.lead{max-width:720px;color:var(--muted);font:italic 21px/1.5 Georgia,serif}
 .notice{background:var(--card);border:1px solid #deded9;padding:20px;margin:32px 0}
 .chapter-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;padding:0;list-style:none}
 .chapter-list li{margin:0}.chapter-list a{display:block;height:100%;padding:14px 16px;background:var(--card);border:1px solid #deded9;text-decoration:none;color:var(--ink)}.chapter-list a:hover{border-color:var(--accent);color:var(--accent)}.chapter-list a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}.part-label{margin:30px 0 8px;color:var(--muted);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
 small{display:block;color:var(--muted);font-size:12px}footer{border-top:1px solid #deded9;color:var(--muted);font-size:12px}
+.lang-button{border:1px solid #bcbcb5;background:var(--card);color:var(--ink);border-radius:999px;padding:9px 15px;font:inherit;font-size:14px;cursor:pointer}.lang-button:hover{border-color:var(--accent);color:var(--accent)}.lang-button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.lang-note{font-size:13px;color:var(--muted)}
 </style>
 </head>
 <body>
-<header><a href="../portal.html">Atlas of Knowledge</a> / Geography</header>
+<header><a href="../portal.html">Atlas of Knowledge</a> / <span data-ru="География" data-en="Geography">География</span><button class="lang-button" id="language-toggle" type="button" aria-label="Switch language" aria-pressed="false">English</button></header>
 <main>
 <p>SUBJECT 04 · GEOGRAPHY</p>
-<h1>Атлас географии</h1>
-<p class="lead">Земля, природные системы, население и страны мира — от глобальных процессов до подробного географического атласа Кыргызстана.</p>
+<h1 data-ru="Атлас географии" data-en="Atlas of Geography">Атлас географии</h1>
+<p class="lead" data-ru="Земля, природные системы, население и страны мира — от глобальных процессов до подробного географического атласа Кыргызстана." data-en="Earth, natural systems, population and the world's regions — from global processes to a detailed geographical atlas of Kyrgyzstan.">Земля, природные системы, население и страны мира — от глобальных процессов до подробного географического атласа Кыргызстана.</p>
 <section class="notice">
-<h2>О географическом атласе</h2>
-<p>Атлас объединяет физическую и социально-экономическую географию, географию регионов мира, современные методы пространственного анализа и энциклопедический раздел о Кыргызстане.</p>
-<p>В рабочей ветке находятся 26 Markdown-глав (01–26). Материалы проходят поэтапную научную и редакционную проверку; наличие главы не означает её финальную готовность к публикации.</p>
+<h2 data-ru="О географическом атласе" data-en="About the Geography Atlas">О географическом атласе</h2>
+<p data-ru="Атлас объединяет физическую и социально-экономическую географию, географию регионов мира, современные методы пространственного анализа и энциклопедический раздел о Кыргызстане." data-en="The atlas brings together physical and human geography, the geography of world regions, modern spatial-analysis methods and an encyclopaedic section on Kyrgyzstan.">Атлас объединяет физическую и социально-экономическую географию, географию регионов мира, современные методы пространственного анализа и энциклопедический раздел о Кыргызстане.</p>
+<p data-ru="В рабочей ветке находятся 26 Markdown-глав (01–26). Материалы проходят поэтапную научную и редакционную проверку; наличие главы не означает её финальную готовность к публикации." data-en="The working branch contains 26 Markdown chapters (01–26). The material is undergoing staged scientific and editorial review; the presence of a chapter does not mean it is publication-ready.">В рабочей ветке находятся 26 Markdown-глав (01–26). Материалы проходят поэтапную научную и редакционную проверку; наличие главы не означает её финальную готовность к публикации.</p>
+<p class="lang-note" data-ru="Языковая навигация ниже переключает подписи этой страницы. Тексты глав содержат русские и английские разделы в одном Markdown-файле; отдельный фильтр языка внутри главы пока не реализован." data-en="The language control switches the labels on this page. Chapter files contain Russian and English sections in the same Markdown document; an in-chapter language filter has not yet been implemented.">Языковая навигация ниже переключает подписи этой страницы. Тексты глав содержат русские и английские разделы в одном Markdown-файле; отдельный фильтр языка внутри главы пока не реализован.</p>
 </section>
-<h2>Содержание атласа</h2>
-<p class="part-label">Часть I · Общая и физическая география</p>
+<h2 data-ru="Содержание атласа" data-en="Atlas Contents">Содержание атласа</h2>
+<p class="part-label" data-ru="Часть I · Общая и физическая география" data-en="Part I · General and Physical Geography">Часть I · Общая и физическая география</p>
 <ul class="chapter-list">
-<li><a href="chapters/01-geography-as-a-science.md"><strong>01 · География как наука</strong><small>Земля, пространство и взаимосвязи</small></a></li>
-<li><a href="chapters/02-geographic-envelope.md"><strong>02 · Географическая оболочка Земли</strong><small>Взаимодействие природных сфер</small></a></li>
-<li><a href="chapters/03-lithosphere-and-geological-processes.md"><strong>03 · Литосфера и геологические процессы</strong><small>Строение Земли, минералы и тектоника</small></a></li>
-<li><a href="chapters/04-earths-landforms-and-relief.md"><strong>04 · Рельеф Земли</strong><small>Формы рельефа и процессы их развития</small></a></li>
-<li><a href="chapters/05-atmosphere-and-climatology.md"><strong>05 · Атмосфера и климатология</strong><small>Погода, климат и атмосферные процессы</small></a></li>
-<li><a href="chapters/06-hydrosphere-and-world-ocean.md"><strong>06 · Гидросфера и Мировой океан</strong><small>Воды суши, океан и круговорот воды</small></a></li>
-<li><a href="chapters/07-biosphere-and-natural-biomes.md"><strong>07 · Биосфера и природные зоны Земли</strong><small>Экосистемы, биомы и биоразнообразие</small></a></li>
-<li><a href="chapters/08-soils-and-landscape-geography.md"><strong>08 · Почвы и география ландшафтов</strong><small>Почвообразование и природные комплексы</small></a></li>
-<li><a href="chapters/09-population-and-demography.md"><strong>09 · Население и демография</strong><small>Численность, структура и миграция</small></a></li>
-<li><a href="chapters/10-political-geography.md"><strong>10 · Политическая география</strong><small>Государства, границы и территориальные системы</small></a></li>
-<li><a href="chapters/11-economic-geography.md"><strong>11 · Экономическая география</strong><small>Размещение хозяйства и территориальные различия</small></a></li>
-<li><a href="chapters/12-geography-of-world-regions.md"><strong>12 · Регионы мира</strong><small>Сравнение частей света и региональных систем</small></a></li>
-<li><a href="chapters/13-ecology-and-global-change.md"><strong>13 · Экология и глобальные изменения</strong><small>Экологические процессы и устойчивое развитие</small></a></li>
-<li><a href="chapters/14-geographic-information-systems.md"><strong>14 · Геоинформационные системы</strong><small>Пространственные данные и ГИС-анализ</small></a></li>
-<li><a href="chapters/15-remote-sensing-of-the-earth.md"><strong>15 · Дистанционное зондирование Земли</strong><small>Спутниковые данные и мониторинг</small></a></li>
-<li><a href="chapters/16-geographic-research-and-cartography.md"><strong>16 · Географические исследования и картография</strong><small>Методы исследования и создание карт</small></a></li>
+<li><a href="chapters/01-geography-as-a-science.md"><strong data-ru="01 · География как наука" data-en="01 · Geography as a Science">01 · География как наука</strong><small data-ru="Земля, пространство и взаимосвязи" data-en="Earth, space and spatial relationships">Земля, пространство и взаимосвязи</small></a></li>
+<li><a href="chapters/02-geographic-envelope.md"><strong data-ru="02 · Географическая оболочка Земли" data-en="02 · Earth's Geographic Envelope">02 · Географическая оболочка Земли</strong><small data-ru="Взаимодействие природных сфер" data-en="Interactions among Earth's spheres">Взаимодействие природных сфер</small></a></li>
+<li><a href="chapters/03-lithosphere-and-geological-processes.md"><strong data-ru="03 · Литосфера и геологические процессы" data-en="03 · Lithosphere and Geological Processes">03 · Литосфера и геологические процессы</strong><small data-ru="Строение Земли, минералы и тектоника" data-en="Earth structure, minerals and tectonics">Строение Земли, минералы и тектоника</small></a></li>
+<li><a href="chapters/04-earths-landforms-and-relief.md"><strong data-ru="04 · Рельеф Земли" data-en="04 · Earth's Landforms and Relief">04 · Рельеф Земли</strong><small data-ru="Формы рельефа и процессы их развития" data-en="Landforms and the processes that shape them">Формы рельефа и процессы их развития</small></a></li>
+<li><a href="chapters/05-atmosphere-and-climatology.md"><strong data-ru="05 · Атмосфера и климатология" data-en="05 · Atmosphere and Climatology">05 · Атмосфера и климатология</strong><small data-ru="Погода, климат и атмосферные процессы" data-en="Weather, climate and atmospheric processes">Погода, климат и атмосферные процессы</small></a></li>
+<li><a href="chapters/06-hydrosphere-and-world-ocean.md"><strong data-ru="06 · Гидросфера и Мировой океан" data-en="06 · Hydrosphere and the World Ocean">06 · Гидросфера и Мировой океан</strong><small data-ru="Воды суши, океан и круговорот воды" data-en="Inland waters, oceans and the water cycle">Воды суши, океан и круговорот воды</small></a></li>
+<li><a href="chapters/07-biosphere-and-natural-biomes.md"><strong data-ru="07 · Биосфера и природные зоны Земли" data-en="07 · Biosphere and Earth's Natural Biomes">07 · Биосфера и природные зоны Земли</strong><small data-ru="Экосистемы, биомы и биоразнообразие" data-en="Ecosystems, biomes and biodiversity">Экосистемы, биомы и биоразнообразие</small></a></li>
+<li><a href="chapters/08-soils-and-landscape-geography.md"><strong data-ru="08 · Почвы и география ландшафтов" data-en="08 · Soils and Landscape Geography">08 · Почвы и география ландшафтов</strong><small data-ru="Почвообразование и природные комплексы" data-en="Soil formation and natural landscape systems">Почвообразование и природные комплексы</small></a></li>
+<li><a href="chapters/09-population-and-demography.md"><strong data-ru="09 · Население и демография" data-en="09 · Population and Demography">09 · Население и демография</strong><small data-ru="Численность, структура и миграция" data-en="Population size, structure and migration">Численность, структура и миграция</small></a></li>
+<li><a href="chapters/10-political-geography.md"><strong data-ru="10 · Политическая география" data-en="10 · Political Geography">10 · Политическая география</strong><small data-ru="Государства, границы и территориальные системы" data-en="States, borders and territorial systems">Государства, границы и территориальные системы</small></a></li>
+<li><a href="chapters/11-economic-geography.md"><strong data-ru="11 · Экономическая география" data-en="11 · Economic Geography">11 · Экономическая география</strong><small data-ru="Размещение хозяйства и территориальные различия" data-en="Economic location and spatial differences">Размещение хозяйства и территориальные различия</small></a></li>
+<li><a href="chapters/12-geography-of-world-regions.md"><strong data-ru="12 · Регионы мира" data-en="12 · Geography of World Regions">12 · Регионы мира</strong><small data-ru="Сравнение частей света и региональных систем" data-en="Comparing continents and regional systems">Сравнение частей света и региональных систем</small></a></li>
+<li><a href="chapters/13-ecology-and-global-change.md"><strong data-ru="13 · Экология и глобальные изменения" data-en="13 · Ecology and Global Change">13 · Экология и глобальные изменения</strong><small data-ru="Экологические процессы и устойчивое развитие" data-en="Environmental processes and sustainable development">Экологические процессы и устойчивое развитие</small></a></li>
+<li><a href="chapters/14-geographic-information-systems.md"><strong data-ru="14 · Геоинформационные системы" data-en="14 · Geographic Information Systems">14 · Геоинформационные системы</strong><small data-ru="Пространственные данные и ГИС-анализ" data-en="Spatial data and GIS analysis">Пространственные данные и ГИС-анализ</small></a></li>
+<li><a href="chapters/15-remote-sensing-of-the-earth.md"><strong data-ru="15 · Дистанционное зондирование Земли" data-en="15 · Remote Sensing of the Earth">15 · Дистанционное зондирование Земли</strong><small data-ru="Спутниковые данные и мониторинг" data-en="Satellite data and monitoring">Спутниковые данные и мониторинг</small></a></li>
+<li><a href="chapters/16-geographic-research-and-cartography.md"><strong data-ru="16 · Географические исследования и картография" data-en="16 · Geographic Research and Cartography">16 · Географические исследования и картография</strong><small data-ru="Методы исследования и создание карт" data-en="Research methods and mapmaking">Методы исследования и создание карт</small></a></li>
 </ul>
-<p class="part-label">Часть II · Географическая энциклопедия Кыргызстана</p>
+<p class="part-label" data-ru="Часть II · Географическая энциклопедия Кыргызстана" data-en="Part II · Geographical Encyclopaedia of Kyrgyzstan">Часть II · Географическая энциклопедия Кыргызстана</p>
 <ul class="chapter-list">
-<li><a href="chapters/17-geographic-location-and-geological-evolution-of-kyrgyzstan.md"><strong>17 · Географическое положение и геологическая эволюция Кыргызстана</strong><small>Положение страны и развитие её территории</small></a></li>
-<li><a href="chapters/18-geology-mountain-systems-and-relief-of-kyrgyzstan.md"><strong>18 · Геология, горные системы и рельеф Кыргызстана</strong><small>Горные структуры и формы рельефа</small></a></li>
-<li><a href="chapters/19-climate-and-altitudinal-zonation-of-kyrgyzstan.md"><strong>19 · Климат и высотная поясность Кыргызстана</strong><small>Климатические условия горной страны</small></a></li>
-<li><a href="chapters/20-glaciers-rivers-lakes-and-water-resources-of-kyrgyzstan.md"><strong>20 · Ледники, реки, озёра и водные ресурсы Кыргызстана</strong><small>Водные системы и их значение</small></a></li>
-<li><a href="chapters/21-flora-and-fauna-of-kyrgyzstan.md"><strong>21 · Флора и фауна Кыргызстана</strong><small>Растительный и животный мир</small></a></li>
-<li><a href="chapters/22-natural-zones-protected-areas-and-national-parks-of-kyrgyzstan.md"><strong>22 · Природные зоны, охраняемые территории и национальные парки Кыргызстана</strong><small>Природное наследие и охрана природы</small></a></li>
-<li><a href="chapters/23-population-and-settlement-of-kyrgyzstan.md"><strong>23 · Население и расселение Кыргызстана</strong><small>Демографические процессы и поселения</small></a></li>
-<li><a href="chapters/24-seven-regions-of-kyrgyzstan.md"><strong>24 · Семь областей Кыргызстана</strong><small>Региональные особенности и сравнение областей</small></a></li>
-<li><a href="chapters/25-cities-economy-transport-and-natural-resources-of-kyrgyzstan.md"><strong>25 · Города, экономика, транспорт и природные ресурсы Кыргызстана</strong><small>Городские системы и хозяйственная география</small></a></li>
-<li><a href="chapters/26-environmental-challenges-and-future-of-kyrgyzstan.md"><strong>26 · Экологические вызовы и будущее Кыргызстана</strong><small>Риски, устойчивость и сценарии до 2050 года</small></a></li>
+<li><a href="chapters/17-geographic-location-and-geological-evolution-of-kyrgyzstan.md"><strong data-ru="17 · Географическое положение и геологическая эволюция Кыргызстана" data-en="17 · Geographic Location and Geological Evolution of Kyrgyzstan">17 · Географическое положение и геологическая эволюция Кыргызстана</strong><small data-ru="Положение страны и развитие её территории" data-en="The country's location and territorial evolution">Положение страны и развитие её территории</small></a></li>
+<li><a href="chapters/18-geology-mountain-systems-and-relief-of-kyrgyzstan.md"><strong data-ru="18 · Геология, горные системы и рельеф Кыргызстана" data-en="18 · Geology, Mountain Systems and Relief of Kyrgyzstan">18 · Геология, горные системы и рельеф Кыргызстана</strong><small data-ru="Горные структуры и формы рельефа" data-en="Mountain structures and landforms">Горные структуры и формы рельефа</small></a></li>
+<li><a href="chapters/19-climate-and-altitudinal-zonation-of-kyrgyzstan.md"><strong data-ru="19 · Климат и высотная поясность Кыргызстана" data-en="19 · Climate and Altitudinal Zonation of Kyrgyzstan">19 · Климат и высотная поясность Кыргызстана</strong><small data-ru="Климатические условия горной страны" data-en="Climate in a mountainous country">Климатические условия горной страны</small></a></li>
+<li><a href="chapters/20-glaciers-rivers-lakes-and-water-resources-of-kyrgyzstan.md"><strong data-ru="20 · Ледники, реки, озёра и водные ресурсы Кыргызстана" data-en="20 · Glaciers, Rivers, Lakes and Water Resources of Kyrgyzstan">20 · Ледники, реки, озёра и водные ресурсы Кыргызстана</strong><small data-ru="Водные системы и их значение" data-en="Water systems and their significance">Водные системы и их значение</small></a></li>
+<li><a href="chapters/21-flora-and-fauna-of-kyrgyzstan.md"><strong data-ru="21 · Флора и фауна Кыргызстана" data-en="21 · Flora and Fauna of Kyrgyzstan">21 · Флора и фауна Кыргызстана</strong><small data-ru="Растительный и животный мир" data-en="Plant and animal life">Растительный и животный мир</small></a></li>
+<li><a href="chapters/22-natural-zones-protected-areas-and-national-parks-of-kyrgyzstan.md"><strong data-ru="22 · Природные зоны, охраняемые территории и национальные парки Кыргызстана" data-en="22 · Natural Zones, Protected Areas and National Parks of Kyrgyzstan">22 · Природные зоны, охраняемые территории и национальные парки Кыргызстана</strong><small data-ru="Природное наследие и охрана природы" data-en="Natural heritage and conservation">Природное наследие и охрана природы</small></a></li>
+<li><a href="chapters/23-population-and-settlement-of-kyrgyzstan.md"><strong data-ru="23 · Население и расселение Кыргызстана" data-en="23 · Population and Settlement of Kyrgyzstan">23 · Население и расселение Кыргызстана</strong><small data-ru="Демографические процессы и поселения" data-en="Demographic processes and settlements">Демографические процессы и поселения</small></a></li>
+<li><a href="chapters/24-seven-regions-of-kyrgyzstan.md"><strong data-ru="24 · Семь областей Кыргызстана" data-en="24 · The Seven Regions of Kyrgyzstan">24 · Семь областей Кыргызстана</strong><small data-ru="Региональные особенности и сравнение областей" data-en="Regional characteristics and comparisons">Региональные особенности и сравнение областей</small></a></li>
+<li><a href="chapters/25-cities-economy-transport-and-natural-resources-of-kyrgyzstan.md"><strong data-ru="25 · Города, экономика, транспорт и природные ресурсы Кыргызстана" data-en="25 · Cities, Economy, Transport and Natural Resources of Kyrgyzstan">25 · Города, экономика, транспорт и природные ресурсы Кыргызстана</strong><small data-ru="Городские системы и хозяйственная география" data-en="Urban systems and economic geography">Городские системы и хозяйственная география</small></a></li>
+<li><a href="chapters/26-environmental-challenges-and-future-of-kyrgyzstan.md"><strong data-ru="26 · Экологические вызовы и будущее Кыргызстана" data-en="26 · Environmental Challenges and the Future of Kyrgyzstan">26 · Экологические вызовы и будущее Кыргызстана</strong><small data-ru="Риски, устойчивость и сценарии до 2050 года" data-en="Risks, resilience and scenarios to 2050">Риски, устойчивость и сценарии до 2050 года</small></a></li>
 </ul>
-<h2>Кыргызстан</h2>
-<p>Главы 17–26 посвящены географическому положению, геологии, горам, климату, водным ресурсам, природе, населению, семи областям, городам, экономике и экологическому будущему Кыргызстана.</p>
-<p>Выберите главу в полном содержании выше. Каждая ссылка ведёт непосредственно к соответствующему Markdown-файлу.</p>
+<h2 data-ru="Кыргызстан" data-en="Kyrgyzstan">Кыргызстан</h2>
+<p data-ru="Главы 17–26 посвящены географическому положению, геологии, горам, климату, водным ресурсам, природе, населению, семи областям, городам, экономике и экологическому будущему Кыргызстана." data-en="Chapters 17–26 cover Kyrgyzstan's geographic location, geology, mountains, climate, water resources, nature, population, seven regions, cities, economy and environmental future.">Главы 17–26 посвящены географическому положению, геологии, горам, климату, водным ресурсам, природе, населению, семи областям, городам, экономике и экологическому будущему Кыргызстана.</p>
+<p data-ru="Выберите главу в полном содержании выше. Каждая ссылка ведёт непосредственно к соответствующему Markdown-файлу." data-en="Select a chapter from the contents above. Each link opens the corresponding Markdown file directly.">Выберите главу в полном содержании выше. Каждая ссылка ведёт непосредственно к соответствующему Markdown-файлу.</p>
 </main>
 <footer>Atlas of Knowledge · Atlas of Geography</footer>
+<script>
+(function(){
+  const button=document.getElementById('language-toggle');
+  const nodes=document.querySelectorAll('[data-ru][data-en]');
+  let language='ru';
+  function setLanguage(next){
+    language=next;
+    document.documentElement.lang=language;
+    nodes.forEach(node=>{node.textContent=node.getAttribute('data-'+language);});
+    button.textContent=language==='ru'?'English':'Русский';
+    button.setAttribute('aria-pressed',language==='en'?'true':'false');
+    document.title=language==='ru'?'Атлас географии — Atlas of Knowledge':'Atlas of Geography — Atlas of Knowledge';
+  }
+  button.addEventListener('click',()=>setLanguage(language==='ru'?'en':'ru'));
+  setLanguage('ru');
+})();
+</script>
 </body>
 </html>
