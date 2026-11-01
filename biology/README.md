@@ -724,3 +724,12 @@ Until the four unchecked release gates are evidenced, the atlas remains at **95/
 - The workflow `.github/workflows/biology-checks.yml` already installs Chromium and runs this browser smoke test after the static check; no workflow outside the Biology scope was changed.
 - Saved the enhanced test harness to `workspace/biology` in commit `e53162accc658938963037b8a5a2945b6f7c9c75`.
 - This is an improvement to test coverage, not a test result. The browser workflow has not yet been run against this commit; the full local check script and independent specialist review also remain outstanding. The overall readiness score therefore remains **95/100** until evidence is available.
+
+
+## Illustration-anchor integrity checkpoint — 1 November 2026
+
+- Cross-checked the central `IMAGE_INSERTION_MAP.md` against all 13 Biology HTML pages: exactly 52 planned illustration rows and 52 in-page placeholder anchors are present, with a one-to-one match, no duplicate IDs, and no missing map/page entries.
+- Added a regression check to `biology/checks.mjs` so the 52-row count, unique target filenames, unique placeholder IDs and map-to-page correspondence are checked during the full test run.
+- Re-read the updated check script from GitHub and confirmed the new regression block is present. The one-to-one audit was performed against the remote source contents; the full Node test program has not yet been executed in a repository checkout.
+- The generated-asset directory is not present in the branch. The 52 image briefs remain placeholders, as required until artwork can be produced, scientifically reviewed and integrated. No image asset is claimed as completed.
+- Saved the test enhancement and its correction in `workspace/biology`; latest checkpoint commit: `d53880c6c13cc42ba5d11baa0df80768fc445255`. Overall editorial readiness remains **95/100** pending execution of tests/CI, live browser/device QA, and independent specialist review.
