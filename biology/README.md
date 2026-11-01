@@ -684,3 +684,13 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - Re-read the three modified source files from `workspace/biology`. Seven of seven targeted remote content assertions passed; the fauna chapter contains 23 HTML IDs with no duplicates. This was a targeted source-level check, not execution of the full `checks.mjs` script, browser testing or CI.
 - **Atlas of Biology editorial readiness: 95/100.** This is a conservative editorial/evidence-readiness milestone, not production certification. Remaining work includes wider species-by-species taxonomic review, specialist validation, source reconciliation, full bilingual copy-editing, full local test execution, browser/mobile/accessibility testing, and creation, scientific review and integration of the 52 planned illustrations.
 
+## Bilingual and static accessibility audit — 1 November 2026
+
+- Re-read all 13 Biology HTML pages from `workspace/biology` and ran a remote source audit of language markers, language-switch logic, SVG accessible names, button types, duplicate IDs and external-link safety attributes.
+- Russian and English content markers are balanced on all 13 pages; each page updates the document language when the RU/EN switch is used.
+- All 16 inline SVG graphics expose an accessible name through `aria-label`, `aria-labelledby` or an image role. All 165 buttons declare `type="button"`; no duplicate HTML IDs were found.
+- Reviewed 264 external-link references. No link using `target="_blank"` was found without `rel="noopener"`. This does not establish that every external destination is currently reachable.
+- Extended `checks.mjs` with regression assertions for balanced bilingual markers, document-language updates, accessible SVG names and safe new-tab links. The updated script was saved to the branch.
+- This was a source-level remote audit. The complete `checks.mjs` program has still not been executed in a local checkout, and no CI or live-browser pass is claimed. Image assets, independent specialist review and real-device/browser accessibility verification remain open publication tasks.
+- **Atlas of Biology editorial readiness: 96/100.** The score reflects completed repository-level editorial and static-source work; it is not production certification. The remaining four points are reserved for executable test/CI evidence, live browser and device checks, specialist validation, and completion or formally approved deferral of the 52 planned illustrations.
+
