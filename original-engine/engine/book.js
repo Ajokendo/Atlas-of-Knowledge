@@ -51,6 +51,7 @@ export function startBook(chapter) {
       <p class="qtext"><span class="qn">${n + 1}</span>${q.q}</p>
       ${q.choices ? `<ol class="choices">${q.choices.map((c, k) => `<li><button type="button" data-c="${k}"><span class="letter">${'ABCDE'[k]}</span><span>${c}</span></button></li>`).join('')}</ol>`
         : '<button type="button" class="reveal">Показать решение</button>'}
+      <p class="feedback" role="status" aria-live="polite" aria-atomic="true"></p>
       <div class="why" hidden>${q.why || q.solution}</div></div>`).join('')}</section>`;
   };
   const xrefHtml = i => {
@@ -67,14 +68,22 @@ export function startBook(chapter) {
   $('sheet').addEventListener('click', e => {
     const b = e.target.closest('button'), q = b && b.closest('.q');
     if (b?.dataset.turn) return goto(+b.dataset.turn);
-    if (!q) return;
+    if (!q || !b) return;
     const item = PRACTICE[shown][+q.dataset.q];
+    const feedback = q.querySelector('.feedback');
     if (b.dataset.c !== undefined) {
       if (q.classList.contains('done')) return;
       q.classList.add('done');
       q.querySelectorAll('[data-c]').forEach(c => { c.disabled = true; c.classList.toggle('right', +c.dataset.c === item.answer); });
-      if (+b.dataset.c !== item.answer) b.classList.add('wrong');
-    } else if (b.classList.contains('reveal')) b.hidden = true;
+      const correct = +b.dataset.c === item.answer;
+      if (!correct) b.classList.add('wrong');
+      feedback.textContent = correct
+        ? 'Верно. Разбор ответа показан ниже.'
+        : 'Неверно. Правильный ответ отмечен. Разбор показан ниже.';
+    } else if (b.classList.contains('reveal')) {
+      b.hidden = true;
+      feedback.textContent = 'Решение показано ниже.';
+    } else return;
     q.querySelector('.why').hidden = false;
   });
   let shown = -1, leafFor = -1;
