@@ -1167,3 +1167,13 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 ### Change log
 
 - 1 November 2026: advanced the repeat audit to 20%; verified selected national flora and regional biodiversity claims against primary sources; corrected the argali genomic sample-provenance caveat and added a regression guard. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
+
+## Repeat-audit milestone — 30% — 1 November 2026
+
+- Reviewed the 2025 regional vascular-plant records paper (DOI 10.5281/zenodo.15253859) and added it to the flora chapter bibliography with a clear distinction between seven floristic provinces and seven administrative oblasts.
+- Added a voucher-backed *Allium filifolium* record from Besh-Tash Gorge (23 July 2016; 2,170 m; MW0896287) to the Talas dossier, retaining the paper's taxonomic caveat about the *A. kokanicum* complex.
+- Expanded the regional species-evidence audit and added regression guards for source scope, unresolved identifications and voucher provenance.
+- Read-back confirmed saved changes. The 52 image insertion anchors remain mapped and Deferred; no new visual asset was integrated.
+- Regression assertions are committed but `checks.mjs`, browser tests and CI have not been rerun. No test pass is claimed.
+- Repeat-audit coverage is 30%; controlled editorial readiness remains 95/100. G4 and G5 remain open.
+
