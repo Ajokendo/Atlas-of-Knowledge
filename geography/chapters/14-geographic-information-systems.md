@@ -356,7 +356,7 @@ Also check the coordinate reference system, units, topological errors, metadata 
 
 **Activity.** Prepare a road-layer quality record with source, date, scale or resolution, coordinate system, attributes, gaps and appropriate uses.
 
-### 14.17.1. Как оценивать точность пространственных данных / Assessing the Accuracy of Spatial Data
+### 14.17.2. Как оценивать точность пространственных данных / Assessing the Accuracy of Spatial Data
 
 Карта или ГИС-слой может выглядеть очень детально, но это не гарантирует точности. Необходимо различать пространственную точность положения объектов, тематическую точность классификации, полноту данных и их актуальность. Эти характеристики отвечают на разные вопросы и не заменяют друг друга.
 
@@ -377,6 +377,193 @@ A map or GIS layer may look highly detailed without being accurate. It is import
 **Scale, resolution and date.** A large display scale does not add accuracy to the source data. Raster pixel size is not the same as the positional accuracy of an object's boundary. State the acquisition or survey date, source-map scale, coordinate reference system, processing method and limitations.
 
 **Activity.** Prepare separate quality-control plans for a road layer and a land-cover map. Identify the independent reference data needed, how checkpoints or sample sites should be selected, and why one overall accuracy figure cannot be used for both layers.
+
+## English-language chapter text
+
+### 14.1. The Concept of GIS and Its Components
+
+A Geographic Information System (GIS) is more than an electronic map. It is an information system in which geographic location is linked to descriptive characteristics and data can be analysed using spatial relationships.
+
+The main components of GIS are:
+1. **Data:** coordinates, geometry, attributes, imagery, tables and metadata.
+2. **Software:** tools for data entry, editing, analysis, storage and visualisation.
+3. **Hardware and infrastructure:** computers, servers, GNSS receivers, mobile devices, sensors and networks.
+4. **Methods and procedures:** standards, data models, processing rules and quality checks.
+5. **People and organisations:** specialists, users, data owners and decision-making bodies.
+
+GIS is used in cadastre, urban planning, nature conservation, transport, agriculture, water management, emergency response, health care and business.
+
+### 14.2. Spatial Features and Attribute Data
+
+A geographic feature is usually described by its geometry and a set of attributes.
+
+Main geometry types include:
+- **point:** a water source, weather station, tree or bus stop;
+- **line:** a river, road, pipeline or route;
+- **polygon:** a lake, administrative district, forest or land parcel; and
+- **surface or volume:** terrain, a temperature field or an underground geological body.
+
+An attribute table contains feature characteristics such as name, category, observation date, area, length, population, condition or other parameters. Each record should be linked to its geometry through a stable identifier.
+
+A real-world feature must be distinguished from its digital representation. A real river has width, depth and a changing channel, while a small-scale map may represent it as a single line.
+
+### 14.3. Vector and Raster Data Models
+
+**Vector data** represent features as points, lines and polygons. They are useful for roads, boundaries, buildings, land parcels and networks. Advantages include precise geometry for individual features, links to attribute tables, efficient representation of discrete objects, and support for topological and network operations. Limitations include the difficulty of representing complex continuous surfaces, dependence on source scale and geometry accuracy, and the possibility of topology errors.
+
+**Raster data** represent space as a grid of cells or pixels. Each cell stores a value such as elevation, temperature, reflectance, land-cover class or event probability. Rasters are well suited to continuous fields, mathematical cell operations, remote sensing and spatial modelling. Limitations include dependence on resolution, potentially large file sizes, stair-step boundaries and sensitivity to measurement and aggregation methods.
+
+**Raster resolution** is the ground size of a cell or pixel. A smaller cell does not automatically guarantee greater actual accuracy: sensor quality, processing and source data also matter.
+
+### 14.4. Coordinates and Coordinate Reference Systems
+
+A coordinate system specifies the position of a feature on Earth or on a plane. Geographic coordinates are usually latitude and longitude; projected coordinates are linear values, such as metres.
+
+A **coordinate reference system (CRS)** defines how coordinates relate to Earth, including the geodetic reference frame, coordinate parameters and, for projected systems, the map projection.
+
+Important concepts include geodetic datum, ellipsoid and geoid, geographic latitude and longitude, map projection, coordinate units and, where relevant, the coordinate epoch of a dynamic reference system.
+
+WGS 84 is a widely used global geodetic reference system. Geographic coordinates based on WGS 84 are common in global navigation and mapping, but not all datasets use the same system.
+
+**EPSG codes** identify geodetic and coordinate reference systems in the EPSG registry. Using a code without checking its meaning and area of use can lead to errors.
+
+Latitude and longitude define a position on a reference ellipsoid and are usually expressed in angular units. Calculating areas, distances and buffers often requires an appropriate projected CRS whose distortion is acceptable for the study area. A degree of longitude has a different ground length at different latitudes, so distances should not be measured casually in geographic degrees.
+
+### 14.5. Map Projections in GIS
+
+A map projection transforms coordinates on Earth's curved surface into a plane. Every projection distorts some properties, such as area, shape, distance or direction.
+
+The choice depends on the task: a regional map needs a projection appropriate to the territory's position and shape; area comparisons require an equal-area projection; navigation and angle-related tasks may require a conformal or specialised projection; and local engineering work should use an official national or local coordinate system.
+
+GIS software may display layers together through on-the-fly reprojection, but this does not correct errors in the original coordinates. When exporting or analysing data, check the CRS in which the data are actually stored.
+
+### 14.6. Spatial Data Acquisition
+
+Spatial data sources include geodetic surveys and GNSS; topographic and thematic maps; satellite and aerial imagery; unmanned aerial vehicles; laser scanning and LiDAR; government statistics and cadastral systems; sensors and monitoring networks; field surveys and crowdsourcing.
+
+When collecting data, record the date, method, equipment, coordinate system, scale or resolution, accuracy and limitations. Data collected using different methods or in different seasons may not be comparable without preprocessing.
+
+GNSS is the general term for satellite navigation systems. GPS is one such system; others include Galileo, GLONASS and BeiDou. Positioning accuracy depends on the receiver, signal conditions, satellite geometry, correction services and measurement method.
+
+### 14.7. Geocoding and Address Data
+
+**Geocoding** converts a textual location description, such as an address or place name, into coordinates. **Reverse geocoding** links coordinates to a nearby address or geographic description.
+
+Geocoding results may be ambiguous. An address may be matched to a building, entrance, parcel centroid or approximate street point. Check the accuracy and type of returned location; the settlement and administrative unit; completeness of the address database; data-update date; and rules for handling personal data.
+
+For service-accessibility analysis, a geocoded address point is not necessarily the actual entrance or a point on the travel network.
+
+### 14.8. Spatial Queries and Operations
+
+Spatial analysis answers questions about the relative positions of features, distances, intersections, adjacency and spatial distribution.
+
+Common operations include:
+- **buffer:** creating a zone at a specified distance around a feature;
+- **intersection:** extracting the shared part of spatial features;
+- **union:** combining geometry and attributes;
+- **difference:** extracting the part of one feature outside another;
+- **spatial join:** transferring attributes based on a spatial relationship;
+- **select by location:** selecting features that meet a spatial condition; and
+- **overlay:** analysing several thematic layers together.
+
+For example, to assess access to medical facilities, analysts can create distance or travel-time zones, compare them with population data and identify areas with limited access. A simple circular buffer does not account for roads, relief, rivers or actual barriers.
+
+### 14.9. Network Analysis and Transport
+
+Network analysis studies movement along connected lines and nodes, such as roads, streets, railways, pipelines and other networks.
+
+Common tasks include finding the shortest or fastest route; analysing accessibility and travel time; defining service areas; locating facilities according to demand; modelling flows and bottlenecks; and assessing network connectivity and resilience.
+
+The “shortest” route is not always the “fastest”. Travel cost may account for speed, turn restrictions, congestion, gradients, road surface, seasonality and other factors.
+
+Network-analysis results depend on network completeness, direction of travel, connectivity rules and the currency of attributes. A road missing from a database does not necessarily mean that no real route exists.
+
+### 14.10. Raster Analysis and Spatial Modelling
+
+Raster analysis is used for continuous fields and spatial models. Common methods include classification and reclassification; raster arithmetic and logical operations; density analysis; interpolation; slope, aspect and curvature analysis from digital elevation models; hydrological flow modelling; land-suitability assessment; and change detection in time series.
+
+Interpolation estimates values between observation points. Its result depends on the spatial distribution of measurements, the selected method, data structure and model assumptions. An interpolated surface is not a direct measurement at every cell.
+
+When analysing digital elevation models, consider resolution, vertical accuracy, artefacts, filling of spurious depressions and algorithm characteristics. Derived indicators such as slope may amplify errors in the source model.
+
+### 14.11. Topology and Spatial Data Quality
+
+Topology describes spatial relationships among features, including adjacency, connectivity, containment and intersection.
+
+Examples of topological rules include: administrative polygons should not contain unintended gaps or overlaps; road lines should connect at nodes where movement is allowed; buildings should not cross parcel boundaries if the data model prohibits it; and watercourses should maintain logical connectivity within the adopted network model.
+
+Spatial data quality includes positional accuracy, thematic accuracy, completeness, logical consistency, temporal currency, lineage and fitness for purpose.
+
+**Accuracy** and **resolution** are different characteristics. A dataset may have high spatial resolution but low positional accuracy or outdated attributes.
+
+### 14.12. Metadata, Standards and Interoperability
+
+Metadata describe the content, origin, quality, structure, spatial coverage, time period, licence and conditions of use of a dataset.
+
+Without metadata, users may not know when and how a layer was created, which CRS it uses or which tasks it is suitable for.
+
+International standards and specifications support interoperability. These include the ISO 19100 series on geographic information; Open Geospatial Consortium (OGC) specifications; formats such as GeoPackage, GeoTIFF and GeoJSON; and map and feature web services, including WMS and WFS in relevant implementations.
+
+A file format does not guarantee quality or interoperability. When exchanging data, check encoding, CRS, geometry types, identifier systems, attribute constraints and licence conditions.
+
+### 14.13. Cartographic Visualisation and Design
+
+A map is a means of communicating spatial information, not simply a picture of data. Its design should fit the purpose, audience and scale.
+
+Key elements include a title and purpose; legend and units; a scale bar where appropriate; source and date; coordinate grid or reference features where needed; a clear hierarchy of labels; a colour scheme suited to the data type; and an explanation of limitations.
+
+The method of representation depends on the data:
+- qualitative categories: distinct hues or symbols;
+- quantitative values by area: sequential colour schemes;
+- deviations around zero: diverging schemes;
+- flows: lines or arrows with clear meaning; and
+- density: density maps or aggregated surfaces with the method explained.
+
+A choropleth map should use normalised indicators, such as a share or density, rather than absolute values when areas and populations differ substantially. Proportional symbols may be more appropriate for absolute totals.
+
+Avoid false precision, too many classes, misleading colour schemes and the removal of important geographic context.
+
+### 14.14. Web GIS, Cloud Platforms and Open Data
+
+Web GIS provides spatial data and tools through browsers or network applications. Users can view layers, run queries, create maps and collaborate.
+
+A typical architecture includes spatial data sources; a server or cloud store; publication and processing services; a web client or mobile application; and authentication, access-control and backup mechanisms.
+
+Open geospatial data support research and reuse, but licences differ. “Open” does not necessarily mean that attribution is unnecessary, commercial use is unrestricted or sensitive data can be published.
+
+Crowdsourced maps can be updated quickly, but individual features may require verification. Unverified user input should not be relied on for critical infrastructure or safety decisions.
+
+### 14.15. GIS in Territorial Management
+
+GIS supports decision-making when spatial data from different sectors need to be compared.
+
+Applications include urban planning (zoning, infrastructure and green space); agriculture (crop monitoring, irrigation and land assessment); water management (basin planning, abstraction points and flood zones); conservation (habitats, ecological corridors and change monitoring); transport (accessibility, routes and safety); emergencies (hazard assessment, evacuation and resource allocation); health care (spatial access to services and epidemiological monitoring); and cadastre (land and property records).
+
+GIS helps identify spatial patterns, but it does not replace expert judgement, public consultation or legal procedures. A map is a model of reality and must be considered together with data uncertainty and limitations.
+
+### 14.16. Ethics, Privacy and Responsible Use
+
+Geographic data may reveal the locations of people, homes, medical facilities, critical infrastructure, rare species and culturally significant sites.
+
+Responsible use requires collecting only data necessary for a lawful and clearly defined purpose; considering consent and legal grounds for processing personal data; reducing detail where it creates identification risks; restricting access and securing storage; documenting sources and limitations; checking bias and uneven data coverage; and avoiding publication of sensitive coordinates of vulnerable species and sites without risk assessment.
+
+Spatial aggregation may reduce privacy risks but does not always guarantee anonymity. Combining several datasets can sometimes make individuals identifiable again.
+
+### 14.17. A Practical GIS Workflow
+
+A typical project can be organised into stages:
+
+1. **Define the task:** formulate the question, territory, scale and end user.
+2. **Find data:** identify sources, licences, dates and limitations.
+3. **Check data:** examine CRS, geometry, attributes, missing values and duplicates.
+4. **Prepare:** correct errors and make layers compatible in coordinate systems and units.
+5. **Analyse:** select operations appropriate to the question and data model.
+6. **Validate results:** use independent data or field observations and assess uncertainty.
+7. **Visualise:** prepare the map, legend, labels and explanations.
+8. **Document:** preserve metadata, processing parameters, data versions and software versions.
+9. **Publish:** check access rights, licence, privacy and accessibility.
+
+A reproducible project should allow another specialist to understand which data, parameters and operations produced the result.
 
 ## 14.18. Итоги главы / Chapter Summary
 
