@@ -29,7 +29,7 @@ export function buildWorld(E) {
   for (let z = -3; z <= 4; z++) grid.push(-4, 0.001, z, 166, 0.001, z);
   lines(root, grid, '#e6e6e2');
 
-  const force = (parent, pal = 'ink') => arrow(parent, pal, { r: 0.022, head: 0.12, headR: 0.06, name: pal === 'red' ? 'Net force' : 'Forces' });
+  const force = (parent, pal = 'ink') => arrow(parent, pal, { r: 0.022, head: 0.12, headR: 0.06, name: pal === 'red' ? 'Равнодействующая сила' : 'Силы' });
   const thinArrow = (parent, name) => arrow(parent, 'dark', { r: 0.016, head: 0.09, headR: 0.045, name, tone: 'mid' });
   const tip = (a, d = 0.16) => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + d, 0)) : null;
   const ghostMat = new THREE.LineBasicMaterial({ color: '#bdbdc2' });
@@ -110,7 +110,7 @@ export function buildWorld(E) {
   const g1 = asm('hooke', root, { title: 'Возвращающая сила', sub: 'F = −kx, всегда направлена к x = 0' });
   const o1 = oscillator(g1, X1, 0);
   marks(X1, -0.45, 0.45, M.A, false);
-  const fs1 = force(g1), fg1 = force(g1), fn1 = force(g1), a1 = force(g1, 'red'), dx1 = thinArrow(g1, 'Displacement');
+  const fs1 = force(g1), fg1 = force(g1), fn1 = force(g1), a1 = force(g1, 'red'), dx1 = thinArrow(g1, 'Перемещение');
   label('vec', '<i>F</i><sub>s</sub>', () => tip(fs1)); label('vec', '<i>F</i><sub>g</sub>', () => tip(fg1)); label('vec', '<i>F</i><sub>N</sub>', () => tip(fn1));
   label('vec red', '<i>a</i>', () => tip(a1)); label('vec', '<i>x</i>', () => tip(dx1, 0.12));
   label('axis', '0', () => V(X1 + 0.03, 0.03, 0.62));
@@ -141,8 +141,8 @@ export function buildWorld(E) {
   const barGeo = box(0.3, 1, 0.3, 0.008).translate(0, 0.5, 0);
   const bar = (x, pal, name, ex = [0, 0, 0]) => part(g3, barGeo, { tone: 'hi', pal, name, pos: [x, 0.02, BZ], ex });
   const BX = X3 + 1.75;   // the bars stand beside the floor, beyond x = +A
-  const bK = bar(BX, 'paper', 'Kinetic energy'), bU = bar(BX + 0.45, 'dark', 'Potential energy');
-  const sU = bar(BX + 1.0, 'dark', 'Total'), sK = bar(BX + 1.0, 'paper', 'Total');
+  const bK = bar(BX, 'paper', 'Кинетическая энергия'), bU = bar(BX + 0.45, 'dark', 'Потенциальная энергия');
+  const sU = bar(BX + 1.0, 'dark', 'Полная энергия'), sK = bar(BX + 1.0, 'paper', 'Полная энергия');
   { const c = []; for (let x = BX - 0.25; x < BX + 1.2; x += 0.1) c.push(x, 0.02 + M.E * BAR, BZ, x + 0.05, 0.02 + M.E * BAR, BZ); lines(root, c, '#8a8a8f'); }
   label('vec', '<i>K</i>', () => V(BX, 0.02 + M.E * BAR + 0.14, BZ)); label('vec', '<i>U</i>', () => V(BX + 0.45, 0.02 + M.E * BAR + 0.14, BZ));
   label('vec', '<i>K</i> + <i>U</i>', () => V(BX + 1.0, 0.02 + M.E * BAR + 0.14, BZ));
@@ -171,7 +171,7 @@ export function buildWorld(E) {
   const g5 = asm('pendulum', root, { title: 'Маятник', sub: 'сила тяжести вдоль дуги возвращает его назад' });
   const p5 = pend(g5, PIV, M.PEND.L, 0.11);
   swingGhosts(PIV, M.PEND.L, M.PEND.th0, 0.11);
-  const pf = (pal = 'ink') => arrow(g5, pal, { r: 0.016, head: 0.08, headR: 0.042, name: pal === 'red' ? 'Restoring force' : 'Forces' });
+  const pf = (pal = 'ink') => arrow(g5, pal, { r: 0.016, head: 0.08, headR: 0.042, name: pal === 'red' ? 'Restoring force' : 'Силы' });
   const t5 = pf(), w5 = pf(), r5 = pf('red');
   const sin5 = arrow(g5, 'dark', { r: 0.012, head: 0.07, headR: 0.034, name: 'Составляющие', tone: 'mid' }), cos5 = arrow(g5, 'dark', { r: 0.012, head: 0.07, headR: 0.034, name: 'Составляющие', tone: 'mid' });
   label('vec', '<i>T</i>', () => t5.visible ? t5.localToWorld(V(-0.12, t5.userData.arrow.shaft.scale.y * 0.6, 0)) : null); label('vec', '<i>mg</i>', () => tip(w5)); label('vec red', '−<i>mg</i> sin θ', () => tip(r5, 0.3));
