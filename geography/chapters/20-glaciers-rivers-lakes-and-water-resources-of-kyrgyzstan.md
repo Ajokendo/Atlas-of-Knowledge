@@ -74,6 +74,11 @@ P = ET + Q + \Delta S
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-I / IMAGE PLACEHOLDER 20-I]** Строение горного ледника: область аккумуляции, фирновая линия, ELA, область абляции, язык, морены и трещины.
 > **EN:** Mountain-glacier anatomy showing accumulation area, firn line, ELA, ablation area, tongue, moraines and crevasses.
 
+![Строение горного ледника / Anatomy of a mountain glacier](../assets/20-I-glacier-anatomy.svg)
+
+*Рисунок 20-I / Figure 20-I. Области аккумуляции и абляции, фирновая линия, ELA, язык, морены и трещины / Accumulation and ablation areas, firn line, ELA, tongue, moraines and crevasses.*
+
+
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-A / IMAGE PLACEHOLDER 20-A]** Карта современных ледников Кыргызстана по датированной инвентаризации с раздельным отображением ледниковых районов и границ бассейнов; указать порог учёта и метод.
 > **EN:** Map of Kyrgyzstan's glaciers based on a dated inventory, distinguishing glacier regions from basin boundaries; state the inclusion threshold and method.
