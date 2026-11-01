@@ -288,8 +288,8 @@ if (fs.existsSync(isotopeSvgPath)) {
 const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
 if (fs.existsSync(neutralisationSvgPath)) {
   const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
-  if (!neutralisationSvg.includes('d="M20 132 C100 132 120 128 150 78 S190 25 210 22 S300 20 350 20"')) {
-    errors.push("assets/acid-base-neutralisation.svg: expected rising pH curve when base is added");
+  if (!neutralisationSvg.includes('d="M20 132 C90 132 120 130 145 112 C160 100 164 75 185 75 C206 75 210 50 225 35 C250 18 300 20 350 20"')) {
+    errors.push("assets/acid-base-neutralisation.svg: expected rising curve crossing pH 7 at the equivalence marker (x=185, y=75)");
   }
 }
 
