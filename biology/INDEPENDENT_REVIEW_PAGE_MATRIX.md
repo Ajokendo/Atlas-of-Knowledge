@@ -73,11 +73,11 @@ Update only from signed reviewer records; do not infer completion from assignmen
 | Page-level G5 Russian reviews signed | 13 | 0 independent records received |
 | Page-level G5 English reviews signed | 13 | 0 independent records received |
 | P1 scientific claims dispositioned | 6 | Pending independent review |
-| P2 scientific claims dispositioned | 3 | Pending independent review |
+| P2 scientific claims dispositioned | 4 | Pending independent review |
 | Cross-page consistency checks signed | 6 | Pending |
 | Critical findings unresolved | 0 permitted at acceptance | Not yet assessed independently |
 
-The P1/P2 counts refer to the nine entries in the existing priority claim register (six P1 and three P2). If the register changes, update this dashboard and the reviewer packet together.
+The P1/P2 counts refer to the nine entries in the existing priority claim register (six P1 and four P2). If the register changes, update this dashboard and the reviewer packet together.
 
 ## 5. Assignment and acceptance cautions
 
