@@ -8,8 +8,8 @@ import * as M from './model.js';
 
 export const Y0 = 0.15;            // ball centre at launch: resting on the ground (position zero)
 export const R = 0.15;             // ball radius
-export const V_SCALE = 0.12;       // arrow metres per m/s
-export const A_SCALE = 0.08;       // arrow metres per m/s²
+export const V_SCALE = 0.12;       // arrow metres per м/с
+export const A_SCALE = 0.08;       // arrow metres per м/с²
 const PZ = 1.3;                    // the projectile's pad sits in front of the first
 export const BOARD = { z: -1.0, w: 4.6, h: 5.75, pad: 0.35, tScale: 2.0, mid: Y0 + 2.6, vScale: 0.25 };
 export const BOARDS = [
@@ -22,9 +22,9 @@ export const plotY = { boardX: q => Y0 + q, boardV: q => BOARD.mid + q * BOARD.v
 const fn = { boardX: M.y, boardV: M.vy, boardA: M.ay };
 // pages 1.7–1.10: each scene in its own stretch further along +x
 export const ST = { rain: 26, river: 62, pull: 79, cube: 100 };
-export const RAIN_V = 0.2;                  // rain scene (drawn 1:1): arrow metres per m/s
-export const RIV = { s: 0.25, v: 0.8 };     // river drawn 1 m = 25 cm; arrows 0.8 m per m/s
-export const PULLS = { s: 0.2, v: 0.1, a: 0.15 };   // pull drawn 1 m = 20 cm; arrows per m/s and per m/s²
+export const RAIN_V = 0.2;                  // rain scene (drawn 1:1): arrow metres per м/с
+export const RIV = { s: 0.25, v: 0.8 };     // river drawn 1 m = 25 cm; arrows 0.8 m per м/с
+export const PULLS = { s: 0.2, v: 0.1, a: 0.15 };   // pull drawn 1 m = 20 cm; arrows per м/с and per м/с²
 export const CUBES = { v: 0.15, a: 0.1 };   // number line drawn 1:1
 
 export function buildWorld(E) {
@@ -64,7 +64,7 @@ export function buildWorld(E) {
   const dispArrow = arrow(staff, 'ink', { r: 0.018, head: 0.1, headR: 0.05, name: 'Перемещение', tone: 'hi' });
 
   // ---------- the ball (straight up) ----------
-  const ball = asm('ball', root, { title: 'Шар', sub: 'брошен вертикально вверх со скоростью ' + M.VY0.toFixed(1) + ' m/s' });
+  const ball = asm('ball', root, { title: 'Шар', sub: 'брошен вертикально вверх со скоростью ' + M.VY0.toFixed(1) + ' м/с' });
   const ballMesh = part(ball, new THREE.SphereGeometry(R, 48, 32), { tone: 'hi', name: 'Шар' });
   const vArrowG = asm('vArrow', root, { title: 'Скорость', sub: 'модуль и направление движения' });
   const vArrow = arrow(vArrowG, 'ink', { name: 'Скорость' });
@@ -110,7 +110,7 @@ export function buildWorld(E) {
     const zf = BOARD.z + 0.008;
     const t0 = tToX(b, 0), t1 = tToX(b, M.T + 0.05);
     const zeroY = b.key === 'boardX' ? Y0 : BOARD.mid;
-    // grid every 0.5 s and every 1 m (or 2 m/s)
+    // grid every 0.5 s and every 1 m (or 2 м/с)
     const grid = [];
     for (let t = 0.5; t <= M.T + 1e-9; t += 0.5) grid.push(tToX(b, t), 0.35, zf, tToX(b, t), BOARD.h - 0.2, zf);
     if (b.key === 'boardX') for (let q = 1; q <= 5; q++) grid.push(t0, Y0 + q, zf, t1, Y0 + q, zf);
@@ -321,8 +321,8 @@ function buildMore(root, asm) {
     return { key, phi, g, hull, bw, ws, bs, path, start };
   });
   label('tick', 'прямо поперёк ↑', () => V(boats[0].start.x - 0.12, 0.05, RHW + 0.75));
-  label('tick', `aimed ${(M.AIM_UP * 180 / Math.PI).toFixed(0)}° upstream ↑`, () => V(boats[1].start.x - 0.12, 0.05, RHW + 0.75));
-  label('tick', `current ${M.RIVER.vw.toFixed(1)} m/s →`, () => V(XR - 0.3, 0.05, RHW - 0.35));
+  label('tick', `направление против течения ${(M.AIM_UP * 180 / Math.PI).toFixed(0)}° ↑`, () => V(boats[1].start.x - 0.12, 0.05, RHW + 0.75));
+  label('tick', `current ${M.RIVER.vw.toFixed(1)} м/с →`, () => V(XR - 0.3, 0.05, RHW - 0.35));
 
   // ---------- 1.9 a car pulling away: a = a0 − kt ----------
   const PX = ST.pull, S = PULLS.s;
