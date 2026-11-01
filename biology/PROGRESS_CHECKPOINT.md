@@ -82,6 +82,6 @@
 - Added bilingual coverage of the cardiac cycle, stroke volume, cardiac output, electrical conduction, baroreceptor reflex and the interaction of cardiovascular regulation with renal RAAS and vasopressin mechanisms.
 - Added an accessible bilingual SVG diagram of the cardiac conduction pathway.
 - Chapter commit: `af8a0108af71f0c93d10ff2b70dddb1be04cacd1`.
-- Regression-check commit: `55a7262c61db31b4d6d6ea3d5dc14bfe8a30b0dd`.
+- Regression-check commit: `55a7262c61db31b4d6d6ea3d5dc14bfe8a30b0dd`. Boundary correction in regression assertions: `3ca37b077b4cd0ab829394e1b562843f6f495b48`.
 - README log commit: `14ec92f2f088447a0383991f59432cb40ab45e7d`.
 - Full Node.js, Chromium and CI checks have not yet been run on these latest commits. Controlled readiness remains 95/100; G4/G5 remain open. Existing 52 image anchors and Deferred dispositions are unchanged.
