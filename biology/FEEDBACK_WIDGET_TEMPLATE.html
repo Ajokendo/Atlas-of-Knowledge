@@ -1,0 +1,131 @@
+<!--
+Atlas of Knowledge feedback widget — reusable pilot template.
+Copy into a subject page only after configuring and testing a trusted HTTPS endpoint.
+No endpoint is configured here; the submit button therefore remains disabled.
+-->
+<section class="aok-feedback" aria-labelledby="aok-feedback-title" lang="ru">
+  <style>
+    .aok-feedback{max-width:760px;margin:2rem auto;padding:1.25rem;border:1px solid #deded9;background:#fbfbfa;color:#18181a;font:14px/1.55 system-ui,sans-serif}
+    .aok-feedback h2{margin:0 0 .5rem;font:500 1.8rem/1.15 Georgia,serif}
+    .aok-feedback p{color:#57575a}
+    .aok-feedback form{display:grid;gap:.9rem}
+    .aok-feedback label{display:grid;gap:.3rem;font-weight:600}
+    .aok-feedback input,.aok-feedback select,.aok-feedback textarea{width:100%;padding:.7rem;border:1px solid #aaa;border-radius:4px;background:#fff;color:#18181a;font:inherit}
+    .aok-feedback textarea{min-height:130px;resize:vertical}
+    .aok-feedback input:focus-visible,.aok-feedback select:focus-visible,.aok-feedback textarea:focus-visible,.aok-feedback button:focus-visible{outline:3px solid #557c58;outline-offset:2px}
+    .aok-feedback button{justify-self:start;padding:.7rem 1rem;border:0;border-radius:4px;background:#557c58;color:#fff;font:inherit;font-weight:650}
+    .aok-feedback button:disabled{background:#777;cursor:not-allowed}
+    .aok-feedback .aok-note{font-size:.9rem}
+    .aok-feedback .aok-status{padding:.7rem;border-left:3px solid #557c58;background:#f2f2ef}
+    .aok-feedback .aok-honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+  </style>
+  <h2 id="aok-feedback-title">Оставить отзыв / Leave feedback</h2>
+  <p id="aok-feedback-intro">Помогите улучшить атлас: сообщите об ошибке, неточности перевода, технической проблеме или предложите улучшение.</p>
+  <p class="aok-note">Обычный отзыв можно отправить без регистрации и без указания электронной почты. Анонимный отзыв не позволит нам ответить лично. Не указывайте личные или чувствительные данные.</p>
+
+  <form id="aok-feedback-form" data-subject="biology" data-page="" data-anchor="">
+    <label>
+      Категория / Category
+      <select name="category" required>
+        <option value="">Выберите категорию / Choose a category</option>
+        <option value="scientific">Научное или фактическое замечание / Scientific or factual correction</option>
+        <option value="source">Источник, ссылка или данные / Source, citation or data</option>
+        <option value="explanation">Объяснение или структура / Explanation or structure</option>
+        <option value="translation">Перевод или терминология / Translation or terminology</option>
+        <option value="visual">Иллюстрация, схема, карта или таблица / Visual material</option>
+        <option value="technical">Интерактивный элемент или техническая проблема / Interactive or technical issue</option>
+        <option value="accessibility">Доступность или мобильное отображение / Accessibility or mobile display</option>
+        <option value="suggestion">Предложение или общий отзыв / Suggestion or general comment</option>
+      </select>
+    </label>
+    <label>
+      Замечание или предложение / Comment
+      <textarea name="message" minlength="10" maxlength="10000" required placeholder="Опишите, что именно следует проверить… / Describe what should be checked…"></textarea>
+    </label>
+    <label>
+      Ссылка на источник или доказательство (необязательно) / Evidence link (optional)
+      <input name="evidence_url" type="url" inputmode="url" placeholder="https://…">
+    </label>
+    <label>
+      Имя или псевдоним (необязательно) / Name or pseudonym (optional)
+      <input name="display_name" maxlength="100">
+    </label>
+    <label>
+      Электронная почта для ответа (необязательно) / Email for a reply (optional)
+      <input name="reply_email" type="email" autocomplete="email" maxlength="254">
+    </label>
+    <label class="aok-note" style="display:flex;grid-template-columns:auto 1fr;align-items:start;font-weight:400">
+      <input name="publish_consent" type="checkbox" value="yes" style="width:auto;margin-top:.25rem">
+      Разрешаю опубликовать мой отзыв с указанным именем. Контактные данные публиковать нельзя. / I agree that my comment may be published with my display name. Contact details must not be published.
+    </label>
+    <div class="aok-honeypot" aria-hidden="true">
+      <label>Leave this field empty<input name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+    <button id="aok-feedback-submit" type="submit" disabled>Отправка пока не подключена / Submission not enabled</button>
+    <p id="aok-feedback-status" class="aok-status" role="status" aria-live="polite">Канал обратной связи будет включён после настройки защищённого сервера приёма и очереди модерации. / Feedback will be enabled after the secure intake endpoint and moderation queue are configured.</p>
+  </form>
+</section>
+<script>
+(() => {
+  // Configure only with an approved HTTPS endpoint. Never place API secrets here.
+  const FEEDBACK_ENDPOINT = "";
+  const form = document.getElementById("aok-feedback-form");
+  const button = document.getElementById("aok-feedback-submit");
+  const status = document.getElementById("aok-feedback-status");
+  if (!form || !button || !status) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const page = params.get("page");
+  const anchor = params.get("anchor");
+  if (page) form.dataset.page = page;
+  if (anchor) form.dataset.anchor = anchor;
+  form.dataset.language = document.documentElement.lang || "ru";
+
+  const validEndpoint = /^https:\/\//i.test(FEEDBACK_ENDPOINT);
+  if (validEndpoint) {
+    button.disabled = false;
+    button.textContent = "Отправить отзыв / Submit feedback";
+    status.textContent = "После отправки сообщение поступит на модерацию. / Submissions are sent for moderation.";
+  }
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    if (!validEndpoint) return;
+    if (!form.reportValidity()) return;
+
+    const data = new FormData(form);
+    if (String(data.get("website") || "").trim()) return;
+
+    const payload = {
+      subject: form.dataset.subject,
+      page: form.dataset.page,
+      anchor: form.dataset.anchor,
+      language: form.dataset.language,
+      category: data.get("category"),
+      message: data.get("message"),
+      evidence_url: data.get("evidence_url"),
+      display_name: data.get("display_name"),
+      reply_email: data.get("reply_email"),
+      publish_consent: data.get("publish_consent") === "yes"
+    };
+
+    button.disabled = true;
+    status.textContent = "Отправляем… / Sending…";
+    try {
+      const response = await fetch(FEEDBACK_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+        credentials: "omit"
+      });
+      if (!response.ok) throw new Error("Submission was not accepted");
+      status.textContent = "Отзыв принят на модерацию. Спасибо! / Feedback received for moderation. Thank you!";
+      form.reset();
+    } catch (_) {
+      status.textContent = "Не удалось подтвердить отправку. Попробуйте позже. / Submission could not be confirmed. Please try again later.";
+    } finally {
+      button.disabled = false;
+    }
+  });
+})();
+</script>
