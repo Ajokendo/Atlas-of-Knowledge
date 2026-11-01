@@ -497,6 +497,230 @@ When analysing a diagram, identify variables and causal links, note time lags, d
 - характерные водные и прибрежные организмы;
 - воздействие человека на экологическое состояние.
 
+## English-language chapter text
+
+### 2.1. The Concept of the Geographic Envelope
+
+The geographic envelope is Earth's integrated outer zone in which the atmosphere, hydrosphere, upper lithosphere and biosphere interact. It is where major natural processes occur, soils and ecosystems develop, water circulates, air masses move, and matter and energy are exchanged.
+
+Key properties of the geographic envelope include:
+
+1. **Integrity:** a change in one component can affect others.
+2. **Circulation of matter:** water, carbon, nitrogen, oxygen and other substances move between Earth's components.
+3. **Energy exchange:** solar and internal energy drive natural processes.
+4. **Rhythmicity:** many processes follow daily, seasonal and multi-year cycles.
+5. **Zonation:** natural conditions change systematically with latitude and elevation.
+6. **Self-regulation:** natural systems can partly compensate for change, but their resilience has limits.
+
+### 2.2. The Four Major Spheres of Earth
+
+- **Atmosphere:** Earth's gaseous envelope. It supports weather, helps shape climate, transports moisture and contributes to the planet's thermal balance.
+- **Hydrosphere:** all of Earth's water, including oceans, seas, rivers, lakes, groundwater, glaciers, seasonal snow and atmospheric moisture.
+- **Lithosphere:** Earth's rigid outer layer, comprising the crust and the rigid uppermost mantle. It forms the geological foundation of continents, ocean floors, mountains and plains.
+- **Biosphere:** the zone of life on Earth, including living organisms and their habitats in the lower atmosphere, hydrosphere and upper lithosphere.
+
+The spheres do not have impermeable boundaries. They overlap and interact: water occurs within rocks, while living organisms inhabit water, soil and the atmosphere.
+
+| Sphere | Main environment | Characteristic processes |
+|---|---|---|
+| Atmosphere | Air and gases | Winds, precipitation, circulation |
+| Hydrosphere | Water | Evaporation, precipitation, runoff |
+| Lithosphere | Rocks | Tectonics, weathering |
+| Biosphere | Living organisms | Photosynthesis, respiration, feeding |
+
+### 2.3. Atmosphere: The Gaseous Envelope
+
+Earth's atmosphere is held by gravity. It regulates heat exchange, transports moisture, generates weather and protects the surface from a substantial part of harmful ultraviolet radiation.
+
+**Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.04% carbon dioxide and about 0.01% other gases. Values are rounded. CO₂ concentration changes over time and varies by measurement location. Water vapour is excluded because its concentration is highly variable.
+
+Nitrogen is part of the global nitrogen cycle and becomes available to organisms after biological or abiotic fixation. Oxygen is essential for aerobic respiration. Argon is chemically inert. Carbon dioxide is used in photosynthesis and contributes to the natural greenhouse effect. Water vapour forms clouds and precipitation and transports latent heat.
+
+**Vertical structure.**
+
+| Layer | Approximate altitude | Main features |
+|---|---:|---|
+| Troposphere | Surface to about 8–18 km | Most weather phenomena |
+| Stratosphere | Up to about 50 km | Ozone layer |
+| Mesosphere | About 50–85 km | Very low temperatures near the mesopause |
+| Thermosphere | About 85 km to several hundred kilometres and above | Ionospheric phenomena and auroras |
+| Exosphere | Upper hundreds of kilometres and beyond | Gradual transition to outer space |
+
+Boundaries are approximate and vary with latitude, season and solar activity. The troposphere contains most of the atmosphere's mass and almost all atmospheric water vapour. The stratospheric ozone layer absorbs a substantial part of the Sun's ultraviolet radiation.
+
+### 2.4. Hydrosphere: Earth's Water Envelope
+
+The hydrosphere includes the world ocean, continental surface water, groundwater, glaciers, snow cover and atmospheric moisture.
+
+**Distribution of water.** About 97.5% of Earth's water is saline and approximately 2.5% is fresh. Fresh water is distributed very unevenly.
+
+| Reservoir | Approximate share of all Earth's water |
+|---|---:|
+| World ocean | About 96.5% |
+| Glaciers and ice sheets | About 1.7% |
+| Groundwater | About 1.7% |
+| Lakes, rivers, atmosphere and other reservoirs | Less than 0.1% |
+
+This is a rounded educational summary. Exact shares depend on classification and the database used.
+
+**The water cycle** is the continuous movement of water among the ocean, atmosphere, land and underground reservoirs. Its main stages are evaporation from oceans, lakes and rivers; transpiration by plants; condensation and cloud formation; precipitation; surface runoff; infiltration into the ground; and groundwater flow back to water bodies.
+
+Water distribution depends on latitude, temperature, atmospheric circulation, relief, distance from oceans and geological structure. In mountains, windward slopes often receive more precipitation than leeward slopes because of orographic uplift and rain-shadow effects.
+
+### 2.5. Lithosphere: The Solid Outer Shell
+
+The lithosphere consists of Earth's crust and rigid upper mantle. It is divided into large and small tectonic plates that move slowly relative to one another.
+
+**Continental and oceanic crust.**
+
+| Feature | Continental crust | Oceanic crust |
+|---|---|---|
+| Typical thickness | About 35–40 km on average, with large variations | About 7 km on average |
+| Composition | Diverse rocks, including granitoids | Mainly basaltic and gabbroic rocks |
+| Density | Lower on average | Higher on average |
+| Age | Some areas are more than 4 billion years old | Generally much younger |
+
+Continental crust is especially thick beneath many major mountain systems.
+
+**Plate tectonics.** At divergent boundaries plates move apart; at convergent boundaries they move towards one another; at transform boundaries they slide horizontally past each other. Plate interactions are associated with mountain building, earthquakes, volcanism, ocean trenches, faults and folded structures.
+
+### 2.6. Biosphere: The Realm of Life
+
+The biosphere includes living organisms and the parts of Earth where life exists. It extends through the lower atmosphere, almost the entire hydrosphere and the upper lithosphere, including soils and some underground environments.
+
+Living organisms change the geographic envelope. Plants absorb CO₂ and release oxygen through photosynthesis; microorganisms decompose organic matter; animals disperse seeds and modify habitats; and soil organisms support nutrient cycling.
+
+Levels of biological organisation range from an individual organism to a population, community, ecosystem, biome and, ultimately, the biosphere. A forest ecosystem, for example, includes living organisms together with soil, water and climate.
+
+### 2.7. Interactions Between Earth's Spheres
+
+Interconnection is a defining property of the geographic envelope. The formation of a mountain glacial lake, for example, involves several components:
+
+1. The lithosphere provides the basin and mountain relief.
+2. The atmosphere supplies snowfall and precipitation.
+3. The cryosphere stores ice and seasonal snow.
+4. The hydrosphere receives meltwater and forms the lake.
+5. The biosphere develops aquatic and shoreline ecosystems.
+
+The **cryosphere** is the collection of Earth's frozen components: glaciers, ice sheets, sea ice, seasonal snow and permafrost. In the classic four-sphere model, it is not a separate fifth sphere; it is a special system that intersects the hydrosphere and other Earth components.
+
+A forest illustrates the links between vegetation, water and climate. Deforestation reduces vegetation cover and transpiration, can expose soil to erosion, may alter surface runoff and can reduce habitat availability. These are possible consequences, not automatic outcomes; their magnitude depends on local conditions.
+
+### 2.8. Energy Systems
+
+Three major energy sources and drivers shape the geographic envelope:
+
+- **Solar energy** is the main external energy source for Earth's surface. It drives heating, atmospheric circulation, evaporation, photosynthesis and climatic differences.
+- **Earth's internal energy** comes from residual heat from planetary formation and radioactive decay. It supports tectonic processes, mantle movement, volcanism and geothermal phenomena.
+- **Gravitational energy** contributes to river flow, water movement down slopes, landslides, rockfalls, glacier movement and the vertical distribution of matter.
+
+### 2.9. Geographical Zonation
+
+Natural conditions change systematically across Earth's surface.
+
+- **Latitudinal zonation** is the change in natural conditions from the equator towards the poles.
+- **Altitudinal zonation** is the change in natural conditions with increasing elevation in mountains.
+- **Sectorality** describes differences between western, interior and eastern parts of continents associated with distance from oceans and atmospheric circulation.
+
+Major latitudinal natural zones include humid equatorial forests, savannas, tropical deserts, subtropical forests and shrublands, temperate forests and steppes, taiga, tundra and polar deserts. Their boundaries do not always coincide with climatic-zone boundaries because relief, ocean currents, soils and the history of a region also matter.
+
+In mountains, foothill steppes may give way to forests, subalpine and alpine meadows, mountain tundra and the nival zone of permanent snow and glaciers. The sequence depends on latitude, slope aspect, moisture and local climate.
+
+### 2.10. Biogeochemical Cycles
+
+Biogeochemical cycles are the continuous movement of chemical elements between living organisms and non-living components of the environment.
+
+**Carbon cycle.** Carbon is the basis of organic compounds. Its main reservoirs include the atmosphere, ocean, vegetation, soils, sedimentary rocks and fossil organic matter. Photosynthesis absorbs CO₂; respiration returns CO₂ to the atmosphere and water; decomposition releases carbon; the ocean exchanges CO₂ with the atmosphere; sedimentation supports long-term burial; and burning fossil fuels rapidly returns geological carbon to the active cycle. Burning coal, oil and natural gas increases atmospheric CO₂ and strengthens human influence on climate.
+
+**Oxygen cycle.** Oxygen is essential for aerobic respiration. Its cycle includes photosynthesis, respiration, decomposition, mineral oxidation and the formation and destruction of ozone.
+
+**Nitrogen cycle.** Nitrogen makes up about 78% of dry atmospheric air, but most organisms cannot use molecular N₂ directly. The main stages are nitrogen fixation, nitrification, assimilation, ammonification and denitrification. Leguminous plants form symbioses with nitrogen-fixing bacteria, bringing atmospheric nitrogen into biological cycles.
+
+**Phosphorus cycle.** Phosphorus is essential for DNA, RNA, cell membranes and ATP. Unlike the carbon and nitrogen cycles, it has no major gaseous phase. Its main stages include weathering of phosphate-bearing rocks, movement of phosphates into soil and water, uptake by plants, transfer through food webs, return through decomposition and deposition in bottom sediments. Excess phosphorus entering water bodies can cause eutrophication.
+
+### 2.11. Natural Complexes and Geosystems
+
+A natural complex is a spatially defined combination of interacting natural components. A mountain valley, for example, brings together relief, climate, river networks, soils, vegetation and wildlife.
+
+Natural complexes can be considered at different levels, from the global geographic envelope and major natural regions to mountain provinces, local valleys and individual slopes or floodplain sections. This is an educational hierarchy; the exact classification depends on the scientific school and scale of analysis.
+
+The components of a natural complex include relief, climate, surface and groundwater, soils, and biota—plants, animals and microorganisms. Together they form an integrated natural geosystem.
+
+Natural geosystems are shaped mainly by natural processes. Anthropogenic geosystems are created or substantially transformed by human activity. Examples include natural forests and plantations, undisturbed steppes and cropland, natural lakes and artificial reservoirs, free-flowing and regulated rivers, and natural valleys and urban areas. Many modern landscapes are mixed systems.
+
+### 2.12. Stability of Natural Systems
+
+The stability of a natural system is its ability to maintain its structure and main functions under external pressures. Stability does not mean that a system is motionless: ecosystems change continuously and may shift into new states.
+
+Resilience mechanisms include biological diversity, nutrient cycling, natural vegetation recovery, regulation of population sizes and the maintenance of soil and water processes.
+
+Negative feedback weakens an initial change; positive feedback amplifies it. For example, when snow and ice melt, surface albedo decreases, more solar energy is absorbed and further melting may accelerate.
+
+### 2.13. Human Impact
+
+Human impact refers to changes in the natural environment caused by economic and other human activities.
+
+| Component | Examples of impact |
+|---|---|
+| Atmosphere | Air pollution and climate change |
+| Hydrosphere | Water pollution and altered river flow |
+| Lithosphere | Erosion, land degradation and mining |
+| Biosphere | Habitat loss and declining biodiversity |
+| Cryosphere | Shrinking glaciers and reduced snow storage |
+
+Global environmental challenges include climate change, desertification, biodiversity loss, freshwater scarcity, ocean pollution and soil degradation.
+
+### 2.14. Global Change and the Future of the Geographic Envelope
+
+The geographic envelope is affected by natural climate variability, volcanism, tectonics, solar activity and human activity. Planetary monitoring uses indicators such as global mean temperature, atmospheric CO₂ concentration, sea level, glacier mass, forest cover, biodiversity condition, freshwater quality and soil condition.
+
+**Planetary boundaries** are a scientific framework describing critical Earth-system processes and the limits of a safe operating space. The processes considered include climate change, biosphere integrity, land-system change, freshwater change, nitrogen and phosphorus flows, ocean acidification, stratospheric ozone depletion, atmospheric aerosols, and novel entities and forms of pollution.
+
+Planetary boundaries are not one universal environmental-condition index. Each process requires its own assessment methods, and the status shown in an infographic must be tied to a named scientific source and assessment year.
+
+### 2.15. Integrated Model of the Geographic Envelope
+
+The geographic envelope is a complex natural system in which matter, energy, living organisms and geological processes interact.
+
+The main conclusions are:
+
+- Earth's natural spheres do not exist in isolation.
+- Water, carbon, nitrogen, oxygen and other substances take part in global cycles.
+- The geographic envelope is spatially heterogeneous.
+- Natural complexes have a hierarchical structure.
+- Ecosystem stability depends on many interacting factors.
+- Human activity has become one of the major drivers of global change.
+- Modern geography uses systems thinking to study the planet.
+
+### Review Questions
+
+1. What is the geographic envelope?
+2. Which four major spheres form its structure?
+3. Why is the cryosphere often treated as a distinct system?
+4. What are the main stages of the carbon cycle?
+5. Why is nitrogen fixation important to ecosystems?
+6. How does the phosphorus cycle differ from the carbon cycle?
+7. What is a natural geosystem?
+8. How do positive and negative feedback differ?
+9. How does human activity change biogeochemical cycles?
+10. What are planetary boundaries?
+
+### Practical Assignment
+
+Choose a natural area and create a systems model. For a mountain lake, identify:
+- atmospheric processes above the lake;
+- rivers and groundwater that feed it;
+- the influence of geological structure on the shape of its basin;
+- characteristic aquatic and shoreline organisms; and
+- human impacts on its ecological condition.
+
+### English scientific and editorial notes
+
+- All numerical values in this chapter are approximate and should be checked against current authoritative sources during final editing.
+- The altitude boundaries of atmospheric layers and the proportions of water reservoirs depend on the scientific classification and estimation method used.
+- The term “geographic envelope” should be distinguished from the broader concept of the “Earth system”.
+- All geographic labels, numerical values, units and map scales in illustrations require separate verification.
+
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
 1. NASA Earth Observatory. *The Earth System*. https://earthobservatory.nasa.gov/
