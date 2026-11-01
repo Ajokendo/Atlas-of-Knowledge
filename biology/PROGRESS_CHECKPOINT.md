@@ -861,3 +861,12 @@ Older checkpoint entries below this note contain historical planning language th
 - CI #547 (ID `41347322871`) passed on `37d31814eef29eccb66cb61e8279c401e0d4b34c`. Structural checks passed for 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons. The Chromium audit passed across 13 pages, two viewport widths and both language states; axe reported no WCAG violations in its configured rule set. Existing 21,477-text contrast sampling also reported zero below-threshold instances; no uncaught page errors.
 - The automated axe audit is not a substitute for testing with NVDA, VoiceOver, TalkBack or other assistive technology. Screen-reader usability, exhaustive keyboard traversal and physical-device/browser matrix testing remain open.
 - Automated WCAG rule audit stage: **100% for the configured rule set and tested states**. Controlled editorial readiness remains **95/100**; G4/G5 internal audits remain closed. The 52 deferred visual assets and shared-portal feedback integration remain separately tracked, and feedback intake remains disabled pending secure end-to-end checks and owner approval.
+
+
+## 2026-11-02 — keyboard scrolling for regional data tables
+
+- The first ArrowRight regression attempt correctly exposed that adding `tabindex="0"` alone did not make the horizontally overflowing flora/fauna tables scroll in Chromium. The test was retained as a real behavior check rather than removed.
+- Added explicit ArrowLeft/ArrowRight key handling to the two regional chapters' scroll containers, together with a visible `:focus-visible` outline. The wrappers remain named `role="region"` landmarks and keyboard-focusable.
+- CI #551 (ID `41347767565`) passed on `d00a9ff9ad1fd7fa2d87b8aca4724d404e264006`: 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons; all Chromium checks passed across mobile/desktop widths and both language states; axe WCAG rule set reported no violations; 21,477 text contrast samples had zero below-threshold instances; keyboard scroll behavior passed for overflowed regional data tables; no uncaught page errors.
+- This verifies the table-scroll behavior in Chromium at the tested viewport widths, not every browser/assistive-technology combination.
+- Automated accessibility checks remain complete for their defined scope. Full hands-on screen-reader checks and physical-device/browser matrix testing remain open. Controlled editorial readiness remains **95/100**; G4/G5 internal audits are closed; 52 visual assets and shared-portal feedback integration remain separate workstreams.
