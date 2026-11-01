@@ -315,7 +315,7 @@ export function buildWorld(E) {
   const eAcc = [YA + 1.75, YA - 1.75].map(y => { const a = field(root); setArrow(a, V(X8 - M.ACC.E * SC.Eacc / 2, y, 0.9), V(M.ACC.E * SC.Eacc, 0, 0)); return a; });
   label('vec blue', '<b><i>E</i></b>', () => tip(eAcc[0]));
   const prot = charge(gAcc, 1, 0.24, 'Proton'), elec = charge(gAcc, -1, 0.17, 'Electron');
-  label('tick', 'proton', () => wp(prot).add(V(0.1, -0.45, 0))); label('tick', 'electron', () => wp(elec).add(V(0.25, -0.38, 0)));
+  label('tick', 'протон', () => wp(prot).add(V(0.1, -0.45, 0))); label('tick', 'электрон', () => wp(elec).add(V(0.25, -0.38, 0)));
   const fP = force(gAcc), fE = force(gAcc);
   label('vec', '<i>eE</i>', () => tip(fP)); label('vec', '<i>eE</i>', () => tip(fE));
   const accGhosts = [1, 2, 3, 4, 5].flatMap(k => ['p', 'e'].map(w => { const m = part(gAcc, new THREE.SphereGeometry(w === 'p' ? 0.24 : 0.17, 24, 14), { tone: 'lo', name: 'Последовательные положения', mat: ghostMat }); return { m, u: k / 6, w }; }));
