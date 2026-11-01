@@ -63,8 +63,8 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 ## Current status
 
-- **Indexed:** 216 unique visual IDs.
-- **Briefed:** all 216 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
+- **Indexed:** 217 unique visual IDs across 26 chapters (Chapter 20 now includes 20-K).
+- **Briefed:** all 217 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
 - **Created and embedded (pending final scientific/editorial review):** 4 assets — `20-K-national-water-use-2025.svg`, `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, and `20-I-glacier-anatomy.svg` (official 2025 NSC figures; SVG labels and figures checked against the source; wastewater subcategory discrepancy explicitly flagged).
 - **Generated and fully approved:** none are claimed by this register.
 - **Next work:** check the older Chapters 01–06 and all regional/administrative map briefs against authoritative source datasets; then create and review the assets in production batches.
