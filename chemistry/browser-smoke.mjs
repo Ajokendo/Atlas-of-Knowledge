@@ -911,8 +911,11 @@ try {
       await page.locator("#choose").selectOption("co2");
       if (!(await page.locator("#formula").innerText()).includes("CO₂")) errors.push(file + ": molecule selector failed");
       await page.locator("#reset").click();
+      if (await page.locator("#spin").getAttribute("aria-pressed") !== "false") errors.push(file + ": auto-rotation starts in the wrong accessible state");
       await page.locator("#spin").click();
+      if (await page.locator("#spin").getAttribute("aria-pressed") !== "true") errors.push(file + ": enabling auto-rotation does not expose the pressed state");
       await page.locator("#spin").click();
+      if (await page.locator("#spin").getAttribute("aria-pressed") !== "false") errors.push(file + ": disabling auto-rotation does not clear the pressed state");
     }
 
     if (file === "molecule-lab.html") {
