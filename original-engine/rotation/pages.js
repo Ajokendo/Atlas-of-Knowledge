@@ -163,7 +163,7 @@ export const PAGES = [
       <p>При закреплении за конец d = L/2: <sup>1</sup>⁄<sub>12</sub>ML² + M(L/2)² = ⅓ML² (для двери на петлях: ⅓MW²). Поэтому тот же момент τ = ${f(M.PAX.tau)} Н·м раскручивает стержень в четыре раза медленнее.</p>
       <table class="data">
         <tr><th>ось проходит через</th><th>I<sub>cm</sub></th><th>Md²</th><th>I</th><th>α = τ/I</th></tr>
-        ${PX.map(p => `<tr><td>${p.key}</td><td>${f(R0.Icm)}</td><td>${f(R0.M * p.d * p.d)}</td><td>${f(p.I)}</td><td>${f(p.alpha)}</td></tr>`).join('')}
+        ${PX.map(p => `<tr><td>${({ centre: 'центр масс', end: 'конец стержня' }[p.key] || p.key)}</td><td>${f(R0.Icm)}</td><td>${f(R0.M * p.d * p.d)}</td><td>${f(p.I)}</td><td>${f(p.alpha)}</td></tr>`).join('')}
       </table>
       <div class="charts">${chart({ x0: 0, x1: 2.4, y0: 0, y1: 4.5, xlabel: 'время (с)', ylabel: 'ω (рад/с)', cursors: ['pax0', 'pax1'], label: 'Угловая скорость двух стержней во времени',
         series: PX.map((p, i) => ({ pts: [[0, 0], [2.4, p.alpha * 2.4]], tag: i ? [1.25, p.alpha * 1.25 + 0.15, 'ось через конец'] : [0.75, 2.2, 'ось через центр'] })) })}</div>
