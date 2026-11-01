@@ -693,11 +693,11 @@ Using a prepared teaching map excerpt:
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
-1. U.S. Geological Survey (USGS). *Geology, landforms and geomorphology resources*. https://www.usgs.gov/
+1. U.S. Geological Survey (USGS). *Geology and Geologic Mapping Resources*. https://www.usgs.gov/programs/national-cooperative-geologic-mapping-program
 2. NASA Earth Observatory. *Earth's Surface and Landforms*. https://earthobservatory.nasa.gov/
 3. NOAA National Centers for Environmental Information. *ETOPO Global Relief Model*. https://www.ncei.noaa.gov/products/etopo-global-relief-model
 4. OpenTopography. *Access to topographic data and digital elevation models*. https://opentopography.org/
-5. British Geological Survey. *Landslides and slope processes*. https://www.bgs.ac.uk/
+5. British Geological Survey. *Discovering Geology: Geological Processes and Landforms*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
