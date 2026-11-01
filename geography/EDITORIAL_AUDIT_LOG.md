@@ -841,3 +841,11 @@ The current marker additions are production instructions/placeholders only; no g
 - Checked Issyk-Kul morphometry against the Kyrgyz Republic's National Water Resources Management Plan. Updated the chapter in both languages and in its comparison table to use the plan's reference values (surface elevation about 1,609 m, area about 6,280 km², length about 177 km), while retaining the explicit caveat that lake level and area vary: https://nwrmp.water.gov.kg/?lang=ru_RU&page_id=10601
 - Reordered Chapter 20's bibliography into a continuous sequence 1–17 and added the National Water Resources Management Plan as a direct source for lake/basin data. Chapter 20 commits: `b44777086fa28e34ead2195d99f5a713159fbd4f` (bibliography); `b23e81a4874b7f36aff5f4b860b7bbf6c16ac13d` (Issyk-Kul morphometry). Final verified blob: `4171a0246cf561b236d903448b905c1603c37786`.
 - This pass verifies the cited climate trend, regional water-resource estimates, glacier mass-balance study, transboundary transfer and lake morphometry; it does not constitute a complete hydrological model validation or full source review of all individual rivers and reservoirs.
+
+
+## Visual register count verification — all 26 chapters (1 November 2026)
+
+- Re-fetched every chapter file in `workspace/geography` and independently counted unique chapter-prefixed visual IDs.
+- Chapters 01–13 contain 80 unique IDs; Chapters 14–26 contain 136 unique IDs. Total: **216 unique visual asset IDs**.
+- Each chapter's ID sequence is continuous within its registered range (e.g. 07-A–07-I, 14-A–14-I, 23-A–23-L and 26-A–26-L). Multiple appearances of one ID in teaching text and production briefs are references to the same asset, not separate assets.
+- The count matches `geography/VISUAL_ASSET_REGISTER.md`. The register remains a production index only; it does not represent generated, approved or published images.
