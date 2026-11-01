@@ -757,9 +757,6 @@ Modern relief is shaped by tectonics, weathering, river erosion, glaciers, slope
 
 Kyrgyzstan’s relief reflects a long Paleozoic tectonic history, Cenozoic reactivation and the continuing interaction of tectonic, fluvial, glacial, weathering and slope processes. The Tien Shan and Pamir-Alay contain a diverse arrangement of mountain belts, intermontane basins, high plateaus and glaciated massifs. Understanding this diversity is essential for resource management, infrastructure planning, hazard reduction and conservation.
 
-- Department of Tourism under the Ministry of Economy and Commerce of the Kyrgyz Republic. **About Kyrgyzstan** (official tourism page; uses Lenin Peak, 7,134 m). https://tourism.gov.kg/about-kyrgyzstan/
-- UK Permanent Committee on Geographical Names. **Kyrgyzstan Toponymic Factfile**, 2025 (romanised names for Lenin Atyndagy Choku, Jengish Chokusu and Khan Tengri). https://assets.publishing.service.gov.uk/media/6672f243f92bc4be25da7e80/Kyrgyzstan_Toponymic_Factfile.pdf
-
 ## Основные источники и литература / Selected References
 
 1. Kyrgyzstan Geoportal. **About Geology — Geology of Kyrgyzstan.** https://geoportal-kg.org/about-geology/ (справочный обзор геологического строения; дата обращения должна быть указана при финальной редактуре).
@@ -771,6 +768,8 @@ Kyrgyzstan’s relief reflects a long Paleozoic tectonic history, Cenozoic react
 7. Kyrgyzjer.com. **List of some mountain ranges in the country with their highest peaks.** https://www.kyrgyzjer.com/en/kg/section29/section261/3337.html (справочная таблица; высоты требуют независимой проверки).
 8. AUCA. **Geography of Kyrgyzstan**, раздел “Geology and relief”. https://dspace.auca.kg/bitstream/123456789/2744/1/Book%20Geodgraphiy%20of%20Kyrgyzstan.pdf (учебный источник для региональной орографии).
 9. Для окончательной картографической версии: официальные государственные топографические и геологические карты Кыргызской Республики, актуальные цифровые модели рельефа и материалы профильных геологических и сейсмологических учреждений.
+10. Department of Tourism under the Ministry of Economy and Commerce of the Kyrgyz Republic. **About Kyrgyzstan** (official tourism page; uses Lenin Peak, 7,134 m). https://tourism.gov.kg/about-kyrgyzstan/
+11. UK Permanent Committee on Geographical Names. **Kyrgyzstan Toponymic Factfile**, 2025 (romanised names for Lenin Atyndagy Choku, Jengish Chokusu and Khan Tengri). https://assets.publishing.service.gov.uk/media/6672f243f92bc4be25da7e80/Kyrgyzstan_Toponymic_Factfile.pdf
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена для научной проверки, унификации топонимов, уточнения высот и последующей картографической вёрстки.  
