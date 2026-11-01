@@ -51,3 +51,14 @@ A further six-panel collage was generated (ImageGen generation ID `d34da22d-d7e5
 The bird resembles a partridge/chukar-type bird, but the generated image is not adequate to establish species identity. The ram is only an argali-like visual concept; horn morphology and body proportions require review. The butterfly is not identified to species or genus. The marmot is likewise not assigned a species. The snow leopard and eagle depictions also remain generated concepts requiring anatomical review. No panel is evidence of a photographed Kyrgyzstan locality, population, abundance or season.
 
 These six crops are local-only drafts, not repository assets. They are not approved for chapter use, and all related marker dispositions remain Deferred. The original collage includes visible grid separators; crops were taken within the panel boundaries and resized only by lossless-format encoding, not retouched to imply documentary photography.
+
+
+## Fourth production attempt: alpine flower concept
+
+A fourth six-panel collage was generated (ImageGen generation ID `a8488692-9869-4410-bd90-6443aa2631e1`). Its distinct botanical panel was cropped into one local WebP review candidate:
+
+- `biology-alpine-edelweiss-like-flower-candidate.webp` — 503×507
+
+The flower resembles an edelweiss-type alpine plant, but the generated morphology is not sufficient to identify it as `Leontopodium` or any species. It must remain an unidentified alpine-flower concept pending botanical review. The mountain backdrop does not establish a Kyrgyzstan locality or habitat record. The remaining collage panels substantially repeat previously generated wildlife concepts and were not counted as new assets.
+
+The crop is a local-only draft, not committed to GitHub and not integrated into a chapter. It does not replace any marker; all 52 dispositions remain Deferred.
