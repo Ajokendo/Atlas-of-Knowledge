@@ -56,8 +56,8 @@ export function buildWorld(E) {
       m.quaternion.setFromUnitVectors(UP, b.clone().sub(a).normalize());
     };
   }
-  const floorStrip = (x0, x1, z0, z1) => part(root, box(x1 - x0, 0.02, z1 - z0, 0.005), { tone: 'lo', pal: 'board', pos: [(x0 + x1) / 2, 0.01, (z0 + z1) / 2], name: 'Surface' });
-  const wall = (x, z, d = 0.7) => part(root, box(0.08, 0.75, d, 0.01), { tone: 'mid', pal: 'board', pos: [x, 0.375 + 0.02, z], name: 'Wall' });
+  const floorStrip = (x0, x1, z0, z1) => part(root, box(x1 - x0, 0.02, z1 - z0, 0.005), { tone: 'lo', pal: 'board', pos: [(x0 + x1) / 2, 0.01, (z0 + z1) / 2], name: 'Поверхность' });
+  const wall = (x, z, d = 0.7) => part(root, box(0.08, 0.75, d, 0.01), { tone: 'mid', pal: 'board', pos: [x, 0.375 + 0.02, z], name: 'Стена' });
 
   // a block on a horizontal spring; x0 is the equilibrium position of the block's centre
   function oscillator(g, x0, z, { s = S, wallX = x0 - 1.35, floor = true } = {}) {
@@ -80,7 +80,7 @@ export function buildWorld(E) {
   // a pendulum: a group at the pivot that turns by θ; the bob hangs L below
   function pend(g, pivot, L, r, name = 'Bob') {
     const arm = new THREE.Group(); arm.position.copy(pivot); g.add(arm);
-    part(arm, cyl(0.007, L, 8).translate(0, -L / 2, 0), { tone: 'hi', pal: 'ink', name: 'String' });
+    part(arm, cyl(0.007, L, 8).translate(0, -L / 2, 0), { tone: 'hi', pal: 'ink', name: 'Нить' });
     const bob = part(arm, new THREE.SphereGeometry(r, 40, 28), { tone: 'hi', name, pos: [0, -L, 0] });
     return { arm, bob, at: th => pivot.clone().add(V(L * Math.sin(th), -L * Math.cos(th), 0)), set(th) { arm.rotation.z = th; } };
   }
@@ -92,7 +92,7 @@ export function buildWorld(E) {
     lines(root, c, '#bdbdc2');
     for (const s of [-1, 1]) { const gb = ghostBall(root, r); gb.position.set(pivot.x + L * Math.sin(s * th0), pivot.y - L * Math.cos(s * th0), pivot.z); }
   }
-  const ceiling = (x, y, w, d = 0.5) => part(root, box(w, 0.08, d, 0.02), { tone: 'mid', pal: 'board', pos: [x, y + 0.04, 0], name: 'Ceiling' });
+  const ceiling = (x, y, w, d = 0.5) => part(root, box(w, 0.08, d, 0.02), { tone: 'mid', pal: 'board', pos: [x, y + 0.04, 0], name: 'Потолок' });
 
   // ---------- 1 · what SHM is: a block on a spring, strobed ----------
   const X0 = STATIONS.spring;
@@ -120,12 +120,12 @@ export function buildWorld(E) {
   const g2 = asm('trace', root, { title: 'График движения', sub: 'координата в зависимости от времени' });
   const o2 = oscillator(g2, X2, 0, { floor: false });
   floorStrip(X2 - 1.39, X2 + 1.25, -0.4, 0.4);
-  part(root, box(1.5, 0.012, PLEN, 0.004), { tone: 'lo', pal: 'base', pos: [X2, 0.008, PZ + PLEN / 2], name: 'Paper' });
+  part(root, box(1.5, 0.012, PLEN, 0.004), { tone: 'lo', pal: 'base', pos: [X2, 0.008, PZ + PLEN / 2], name: 'Бумага' });
   { const c = []; for (const x of [-M.A, M.A]) c.push(X2 + x, 0.016, PZ, X2 + x, 0.016, PZ + PLEN);
     lines(root, c, '#d0d0cc'); lines(root, [X2, 0.016, PZ, X2, 0.016, PZ + PLEN], '#6e6e74'); }
-  const trace = part(g2, liveTube(180, 0.014), { tone: 'hi', pal: 'ink', name: 'Trace' });
-  const pen = part(g2, new THREE.SphereGeometry(0.035, 20, 14), { tone: 'hi', pal: 'ink', name: 'Trace' });
-  const slope2 = part(g2, box(1, 0.016, 0.016, 0.006), { tone: 'hi', pal: 'red', name: 'Slope' });
+  const trace = part(g2, liveTube(180, 0.014), { tone: 'hi', pal: 'ink', name: 'Траектория' });
+  const pen = part(g2, new THREE.SphereGeometry(0.035, 20, 14), { tone: 'hi', pal: 'ink', name: 'Траектория' });
+  const slope2 = part(g2, box(1, 0.016, 0.016, 0.006), { tone: 'hi', pal: 'red', name: 'Наклон' });
   const periodTicks = lines(root, new Array(6 * 6).fill(0), '#8a8a8f');
   periodTicks.geometry.attributes.position.setUsage(THREE.DynamicDrawUsage);
   const v2 = force(g2), a2 = force(g2, 'red');
@@ -173,7 +173,7 @@ export function buildWorld(E) {
   swingGhosts(PIV, M.PEND.L, M.PEND.th0, 0.11);
   const pf = (pal = 'ink') => arrow(g5, pal, { r: 0.016, head: 0.08, headR: 0.042, name: pal === 'red' ? 'Restoring force' : 'Forces' });
   const t5 = pf(), w5 = pf(), r5 = pf('red');
-  const sin5 = arrow(g5, 'dark', { r: 0.012, head: 0.07, headR: 0.034, name: 'Components', tone: 'mid' }), cos5 = arrow(g5, 'dark', { r: 0.012, head: 0.07, headR: 0.034, name: 'Components', tone: 'mid' });
+  const sin5 = arrow(g5, 'dark', { r: 0.012, head: 0.07, headR: 0.034, name: 'Составляющие', tone: 'mid' }), cos5 = arrow(g5, 'dark', { r: 0.012, head: 0.07, headR: 0.034, name: 'Составляющие', tone: 'mid' });
   label('vec', '<i>T</i>', () => t5.visible ? t5.localToWorld(V(-0.12, t5.userData.arrow.shaft.scale.y * 0.6, 0)) : null); label('vec', '<i>mg</i>', () => tip(w5)); label('vec red', '−<i>mg</i> sin θ', () => tip(r5, 0.3));
   label('vec', '<i>mg</i> sin θ', () => tip(sin5, 0.32)); label('vec', '<i>mg</i> cos θ', () => { const p = tip(cos5, 0.14); return p && p.add(V(0.12, 0, 0)); });
   label('axis', 'θ', () => PIV.clone().add(V(0.16, -0.55, 0)));
@@ -226,7 +226,7 @@ export function buildWorld(E) {
     c.push(cx - st.A - 0.1, cy, 0, cx + st.A + 0.1, cy, 0);                            // the 0 of the angle
     c.push(cx, cy, 0, cx + st.A * Math.cos(st.phi), cy + st.A * Math.sin(st.phi), 0);    // the start radius, at φ
     lines(ref9, c, '#8a8a8f');
-    const dot = part(ref9, new THREE.SphereGeometry(0.04, 20, 14), { tone: 'hi', pal: 'red', name: 'Reference circle' });
+    const dot = part(ref9, new THREE.SphereGeometry(0.04, 20, 14), { tone: 'hi', pal: 'red', name: 'Окружность отсчёта' });
     const rad = lines(ref9, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '#c23b2a');
     rad.geometry.attributes.position.setUsage(THREE.DynamicDrawUsage);
     label('board', `φ = ${(st.phi / M.DEG).toFixed(0)}°`, () => ref9.visible ? V(cx + st.A + 0.1, cy + 0.14, 0) : null);
@@ -236,7 +236,7 @@ export function buildWorld(E) {
   // ---------- 10 · the physical pendulum: a rod, a hoop, and a string of the same length ----------
   const X10 = STATIONS.physical, PY10 = 3.2, RD = M.ROD, HP = M.HOOP;
   ceiling(X10 - 0.1, PY10, 3.0);
-  const pin = (g, at) => part(g, zAxis(cyl(0.025, 0.2, 16)), { tone: 'mid', pal: 'dark', pos: at.toArray(), name: 'Pivot' });
+  const pin = (g, at) => part(g, zAxis(cyl(0.025, 0.2, 16)), { tone: 'mid', pal: 'dark', pos: at.toArray(), name: 'Точка подвеса' });
   const gs10 = asm('string', root, { title: 'Математический маятник', sub: 'вся масса сосредоточена на одном расстоянии' });
   const pv10s = V(X10 - 1.1, PY10, 0), p10s = pend(gs10, pv10s, RD.L, 0.1);
   gs10.userData.focus = () => ({ target: [pv10s.x, PY10 - 0.85, 0], radius: 1.1 });
@@ -245,12 +245,12 @@ export function buildWorld(E) {
   const g10 = asm('rod', root, { title: 'Колеблющийся стержень', sub: 'физический маятник: I относительно оси подвеса' });
   g10.userData.focus = () => ({ target: [X10 - 0.05, PY10 - 0.85, 0], radius: 1.2 });
   const pv10 = V(X10 - 0.05, PY10, 0), rodArm = new THREE.Group(); rodArm.position.copy(pv10); g10.add(rodArm);
-  part(rodArm, box(0.07, RD.L, 0.07, 0.02).translate(0, -RD.L / 2, 0), { tone: 'hi', name: 'Rod' });
+  part(rodArm, box(0.07, RD.L, 0.07, 0.02).translate(0, -RD.L / 2, 0), { tone: 'hi', name: 'Стержень' });
   pin(g10, pv10.clone().add(V(0, -0.04, 0)));
   swingGhosts(pv10, RD.L, RD.th0, 0.001);
-  const cm10 = part(rodArm, new THREE.SphereGeometry(0.03, 16, 12), { tone: 'hi', pal: 'ink', pos: [0, -RD.d, 0.05], name: 'Centre of mass' });
-  const eq10 = part(rodArm, box(0.2, 0.025, 0.09, 0.008), { tone: 'hi', pal: 'red', pos: [0, -RD.Leq, 0], name: 'Keeps time with a 2L/3 string' });
-  const w10 = pf => arrow(g10, pf, { r: 0.016, head: 0.08, headR: 0.042, name: pf === 'red' ? 'Restoring' : 'Weight', tone: pf === 'dark' ? 'mid' : 'hi' });
+  const cm10 = part(rodArm, new THREE.SphereGeometry(0.03, 16, 12), { tone: 'hi', pal: 'ink', pos: [0, -RD.d, 0.05], name: 'Центр масс' });
+  const eq10 = part(rodArm, box(0.2, 0.025, 0.09, 0.008), { tone: 'hi', pal: 'red', pos: [0, -RD.Leq, 0], name: 'Эквивалентная длина нити 2L/3' });
+  const w10 = pf => arrow(g10, pf, { r: 0.016, head: 0.08, headR: 0.042, name: pf === 'red' ? 'Restoring' : 'Сила тяжести', tone: pf === 'dark' ? 'mid' : 'hi' });
   const mg10 = w10('ink'), sin10 = w10('red');
   label('vec', '<i>mg</i>', () => tip(mg10)); label('vec red', '<i>mg</i> sin θ', () => tip(sin10, 0.32));
   label('tick', 'cm', () => rodArm.localToWorld(V(-0.07, -RD.d, 0)));
@@ -260,13 +260,13 @@ export function buildWorld(E) {
   const g10h = asm('hoop', root, { title: 'Обруч на гвозде', sub: 'I = mR² + mR² по теореме Штейнера' });
   g10h.userData.focus = () => ({ target: [X10 + 1.25, PY10 - 0.5, 0], radius: 0.85 });
   const pv10h = V(X10 + 1.25, PY10 - 0.04, 0), hoopArm = new THREE.Group(); hoopArm.position.copy(pv10h); g10h.add(hoopArm);
-  part(hoopArm, new THREE.TorusGeometry(HP.R, 0.022, 14, 96).translate(0, -HP.R - 0.022, 0), { tone: 'hi', name: 'Hoop' });
+  part(hoopArm, new THREE.TorusGeometry(HP.R, 0.022, 14, 96).translate(0, -HP.R - 0.022, 0), { tone: 'hi', name: 'Обруч' });
   pin(g10h, pv10h.clone().add(V(0, -0.012, 0)));
-  part(root, cyl(0.012, 0.04, 8), { tone: 'mid', pal: 'dark', pos: [pv10h.x, PY10 - 0.02, 0], name: 'Nail' });
+  part(root, cyl(0.012, 0.04, 8), { tone: 'mid', pal: 'dark', pos: [pv10h.x, PY10 - 0.02, 0], name: 'Гвоздь' });
   { const c = []; for (let y = 0; y < 2 * HP.R + 0.05; y += 0.1) c.push(pv10h.x, pv10h.y - y, 0, pv10h.x, pv10h.y - Math.min(y + 0.05, 2 * HP.R + 0.05), 0); lines(root, c, '#bdbdc2'); }
-  const cmh = part(hoopArm, new THREE.SphereGeometry(0.03, 16, 12), { tone: 'hi', pal: 'ink', pos: [0, -HP.R - 0.022, 0], name: 'Centre of mass' });
+  const cmh = part(hoopArm, new THREE.SphereGeometry(0.03, 16, 12), { tone: 'hi', pal: 'ink', pos: [0, -HP.R - 0.022, 0], name: 'Центр масс' });
   const dh = lines(hoopArm, [0, 0, 0, 0, -HP.R - 0.022, 0], '#6e6e74');
-  const mgh = arrow(g10h, 'ink', { r: 0.014, head: 0.07, headR: 0.036, name: 'Weight' });
+  const mgh = arrow(g10h, 'ink', { r: 0.014, head: 0.07, headR: 0.036, name: 'Сила тяжести' });
   label('vec', '<i>mg</i>', () => tip(mgh));
   label('tick', `hoop, <i>R</i> = ${HP.R.toFixed(2)} m`, () => pv10h.clone().add(V(-HP.R - 0.1, -HP.R, 0)));
   label('axis', '<i>d</i> = <i>R</i>', () => ex(g10h) > 0.3 ? hoopArm.localToWorld(V(-0.04, -HP.R / 2, 0)) : null);
@@ -276,10 +276,10 @@ export function buildWorld(E) {
   ceiling(X11, PY11, 1.0);
   const g11 = asm('disc', root, { title: 'Диск на проволоке', sub: 'закручивается и возвращается: τ = −κθ' });
   g11.userData.focus = () => ({ target: [X11, DY + 0.15, 0], radius: 0.7 });
-  part(g11, cyl(0.006, PY11 - DY - DH / 2, 8), { tone: 'hi', pal: 'ink', pos: [X11, (PY11 + DY + DH / 2) / 2, 0], name: 'Wire' });
+  part(g11, cyl(0.006, PY11 - DY - DH / 2, 8), { tone: 'hi', pal: 'ink', pos: [X11, (PY11 + DY + DH / 2) / 2, 0], name: 'Проволока' });
   const disc = new THREE.Group(); disc.position.set(X11, DY, 0); g11.add(disc);
-  part(disc, cyl(TS.R, DH, 64), { tone: 'hi', name: 'Disc' });
-  part(disc, box(TS.R - 0.03, 0.012, 0.035, 0.004), { tone: 'hi', pal: 'dark', pos: [(TS.R - 0.03) / 2 + 0.015, DH / 2 + 0.004, 0], name: 'Mark' });
+  part(disc, cyl(TS.R, DH, 64), { tone: 'hi', name: 'Диск' });
+  part(disc, box(TS.R - 0.03, 0.012, 0.035, 0.004), { tone: 'hi', pal: 'dark', pos: [(TS.R - 0.03) / 2 + 0.015, DH / 2 + 0.004, 0], name: 'Метка' });
   { const c = [], y = DY + DH / 2 + 0.012, r = TS.R + 0.16, n = 40;   // the rest line, the two turning lines and the arc between them
     for (const a of [-TS.th0, 0, TS.th0]) c.push(X11, y, 0, X11 + r * Math.cos(a), y, -r * Math.sin(a));
     for (let k = 0; k < n; k++) { const a = -TS.th0 + 2 * TS.th0 * k / n, b = -TS.th0 + 2 * TS.th0 * (k + 1) / n; c.push(X11 + r * Math.cos(a), y, -r * Math.sin(a), X11 + r * Math.cos(b), y, -r * Math.sin(b)); }
@@ -290,34 +290,34 @@ export function buildWorld(E) {
   label('tick', `${TS.M.toFixed(1)} kg disc, <i>R</i> = ${TS.R.toFixed(2)} m`, () => V(X11 - TS.R - 0.08, DY - 0.12, 0));
   // the restoring torque (opened): a red curved arrow round the rim, back toward θ = 0
   const tq = new THREE.Group(); g11.add(tq);
-  const tqArc = part(tq, liveTube(24, 0.014), { tone: 'hi', pal: 'red', name: 'Restoring torque' });
-  const tqTip = part(tq, new THREE.ConeGeometry(0.03, 0.08, 20), { tone: 'hi', pal: 'red', name: 'Restoring torque' });
+  const tqArc = part(tq, liveTube(24, 0.014), { tone: 'hi', pal: 'red', name: 'Возвращающий момент силы' });
+  const tqTip = part(tq, new THREE.ConeGeometry(0.03, 0.08, 20), { tone: 'hi', pal: 'red', name: 'Возвращающий момент силы' });
   const TQR = TS.R + 0.07, TQY = DY + DH / 2 + 0.03;
   let tqMid = 0;
   label('vec red', 'τ', () => tq.visible ? V(X11 + (TQR + 0.12) * Math.cos(tqMid), TQY + 0.08, -(TQR + 0.12) * Math.sin(tqMid)) : null);
 
   // ---------- 12 · everyday: a car bouncing on its springs, a child on a swing ----------
   const X8 = STATIONS.life, C = M.CAR, BODY0 = 0.85;    // body's underside at equilibrium
-  part(root, box(7, 0.03, 3.0, 0.01), { tone: 'lo', pal: 'board', pos: [X8 - 1.5, 0.015, 0], name: 'Road' });
+  part(root, box(7, 0.03, 3.0, 0.01), { tone: 'lo', pal: 'board', pos: [X8 - 1.5, 0.015, 0], name: 'Дорога' });
   const g8c = asm('car', root, { title: 'Автомобиль на пружинах подвески', sub: `${C.m} кг на четырёх пружинах, без амортизаторов` });
   const carBody = new THREE.Group(); g8c.add(carBody);
-  part(carBody, box(4.2, 0.7, 1.7, 0.18), { tone: 'hi', pos: [0, 0.35, 0], name: 'Body' });
-  part(carBody, box(2.2, 0.6, 1.5, 0.2), { tone: 'hi', pos: [-0.3, 0.98, 0], name: 'Cabin' });
+  part(carBody, box(4.2, 0.7, 1.7, 0.18), { tone: 'hi', pos: [0, 0.35, 0], name: 'Корпус' });
+  part(carBody, box(2.2, 0.6, 1.5, 0.2), { tone: 'hi', pos: [-0.3, 0.98, 0], name: 'Салон' });
   const carSprings = [], CXc = X8 - 2.2;
   for (const [x, z] of [[1.35, 1.0], [1.35, -1.0], [-1.35, 1.0], [-1.35, -1.0]]) {
-    part(g8c, zAxis(new THREE.CylinderGeometry(0.36, 0.36, 0.24, 28)), { tone: 'mid', pal: 'dark', pos: [CXc + x, 0.36, z], name: 'Wheels' });
-    part(g8c, zAxis(new THREE.CylinderGeometry(0.15, 0.15, 0.26, 20)), { tone: 'mid', pos: [CXc + x, 0.36, z], name: 'Wheels' });
-    carSprings.push([coil(g8c, { coils: 6, R: 0.08, wire: 0.014, name: 'Springs' }), V(CXc + x, 0.36, z * 0.72)]);
+    part(g8c, zAxis(new THREE.CylinderGeometry(0.36, 0.36, 0.24, 28)), { tone: 'mid', pal: 'dark', pos: [CXc + x, 0.36, z], name: 'Колёса' });
+    part(g8c, zAxis(new THREE.CylinderGeometry(0.15, 0.15, 0.26, 20)), { tone: 'mid', pos: [CXc + x, 0.36, z], name: 'Колёса' });
+    carSprings.push([coil(g8c, { coils: 6, R: 0.08, wire: 0.014, name: 'Пружины' }), V(CXc + x, 0.36, z * 0.72)]);
   }
   const a8 = force(g8c, 'red');
   label('vec red', '<i>a</i>', () => tip(a8));
   const SW = M.SWING, PV8 = V(X8 + 1.0, 3.0, 0);
-  part(root, box(0.12, 0.12, 1.2, 0.03), { tone: 'mid', pal: 'board', pos: [PV8.x, PV8.y + 0.06, 0], name: 'Branch' });
+  part(root, box(0.12, 0.12, 1.2, 0.03), { tone: 'mid', pal: 'board', pos: [PV8.x, PV8.y + 0.06, 0], name: 'Ответвление' });
   const g8s = asm('swing', root, { title: 'Качели', sub: `маятник длиной ${SW.L.toFixed(1)} м` });
   const swingArm = new THREE.Group(); swingArm.position.copy(PV8); g8s.add(swingArm);
-  for (const z of [-0.28, 0.28]) part(swingArm, cyl(0.01, SW.L, 8).translate(0, -SW.L / 2, z), { tone: 'hi', pal: 'ink', name: 'Ropes' });
-  part(swingArm, box(0.45, 0.05, 0.7, 0.02), { tone: 'hi', pal: 'dark', pos: [0, -SW.L, 0], name: 'Seat' });
-  part(swingArm, box(0.32, 0.5, 0.36, 0.06), { tone: 'hi', pos: [0, -SW.L + 0.27, 0], name: 'Child' });
+  for (const z of [-0.28, 0.28]) part(swingArm, cyl(0.01, SW.L, 8).translate(0, -SW.L / 2, z), { tone: 'hi', pal: 'ink', name: 'Верёвки' });
+  part(swingArm, box(0.45, 0.05, 0.7, 0.02), { tone: 'hi', pal: 'dark', pos: [0, -SW.L, 0], name: 'Сиденье' });
+  part(swingArm, box(0.32, 0.5, 0.36, 0.06), { tone: 'hi', pos: [0, -SW.L + 0.27, 0], name: 'Ребёнок' });
   swingGhosts(PV8, SW.L, SW.th0, 0.001);
   label('tick', `${SW.m} kg`, () => swingArm.localToWorld(V(-0.2, -SW.L + 0.62, 0.2)));
   label('tick', `${C.m} kg`, () => carBody.localToWorld(V(1.3, 0.35, 0.9)));
