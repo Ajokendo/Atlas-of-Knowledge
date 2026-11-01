@@ -1039,3 +1039,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Three further generation attempts repeated the existing snow-leopard composition; they were explicitly excluded from the new-candidate count.
 - The next distinct P1 target is `fauna-birds.webp`. The chapter's named examples include `Aquila chrysaetos`, `Gypaetus barbatus`, `Tetraogallus himalayensis` and `Ciconia nigra`, alongside wetland birds. See the review log for habitat-separation requirements.
 - No new image asset, chapter insertion or marker-status change resulted from this audit. All 52 markers remain Deferred; readiness remains 95/100.
+
+
+## Eighth illustration production attempt — 1 November 2026
+
+- Generated a distinct horizontal golden-eagle-in-flight concept (ImageGen ID `95b58769-7232-4b29-bea2-5c2ac391a9c2`); local WebP `biology-golden-eagle-flight-candidate.webp` (1536×1024, 233,558 bytes).
+- Intended for the `Aquila chrysaetos` subject, but species-level anatomy and plumage require ornithological review. It is concept art, not a field record or verified Kyrgyzstan locality.
+- Local-only, uncommitted and unapproved. All 52 markers remain Deferred; readiness remains 95/100. See the image review log.
