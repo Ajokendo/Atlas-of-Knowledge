@@ -1060,3 +1060,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Generated a bearded-vulture-like alpine bird concept (ImageGen ID `ab53454c-977c-4c89-8b84-c15459d6e227`); local WebP `biology-bearded-vulture-candidate.webp` (1536×1024, 336,576 bytes).
 - Intended as a visual study for the chapter's `Gypaetus barbatus` entry, but species identity and anatomy require ornithological review; the breast colour is not diagnostic evidence.
 - Local-only, uncommitted and unapproved. The P1 bird plate and all 52 markers remain Deferred; readiness remains 95/100. See the image review log.
+
+
+## Illustration queue quality-control — 1 November 2026
+
+- Three further generation attempts repeated the perched bearded-vulture composition (IDs recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`); all were excluded as near-duplicates, not new assets.
+- The next intended distinct bird subject is Himalayan snowcock (`Tetraogallus himalayensis`). No new raster asset, chapter insertion or marker completion resulted from this cycle.
+- All 52 image markers remain Deferred; controlled readiness remains 95/100.
