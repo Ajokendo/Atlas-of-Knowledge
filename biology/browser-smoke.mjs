@@ -31,6 +31,21 @@ try {
         await lang.click();
         const after = (await lang.innerText()).trim();
         if (before === after) errors.push(file + ": language toggle did not change");
+        if (file.endsWith("/biochemistry.html")) {
+          const controls = await page.locator("#enzyme-controls button, #factor-controls button, #atp-controls button, #respiration-controls button")
+            .evaluateAll(elements => elements.map(el => {
+              const ru = el.querySelector(".ru"), en = el.querySelector(".en");
+              return {
+                label: (el.innerText || "").trim(),
+                hasBoth: !!ru && !!en,
+                activeLanguageVisible: !!en && getComputedStyle(en).display !== "none" && en.getClientRects().length > 0,
+                inactiveLanguageHidden: !!ru && (getComputedStyle(ru).display === "none" || ru.getClientRects().length === 0)
+              };
+            }));
+          if (!controls.length || controls.some(x => !x.hasBoth || !x.activeLanguageVisible || !x.inactiveLanguageHidden)) {
+            errors.push(file + ": biochemistry model controls do not expose the active English label after language switch");
+          }
+        }
         await lang.click();
         languageChecks++;
       } else errors.push(file + ": language switch control not found");
