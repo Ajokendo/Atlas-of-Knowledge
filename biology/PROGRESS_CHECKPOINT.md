@@ -38,3 +38,12 @@
 - Regression assertion commit: `0947593055409086a77245a376b5f2302767c665`.
 - Development log updated in README commit: `cd773c5c7ff380cd581aaeab233ccaf6583e936b`.
 - Image anchors remain preserved: 52 mapped, 52 deferred. The controlled score remains 95/100 until G4/G5 independent review is completed.
+
+## Cell biology extension
+
+- Added bilingual cell communication and signal-transduction content: four major signalling modes, receptor activation, relay proteins, second messengers, amplification, feedback and cross-talk.
+- Added an accessible SVG pathway overview with `title`, `desc` and `aria-labelledby`.
+- Chapter commit: `d7c3c181dc3c5f486d3cabf78ce2fb0da9c496b9`.
+- Regression checks commit: `bd0009d56bace3c1b20f11012ed5d6e61151d6e6`.
+- README record commit: `f8d2c893afc4dc31adddd24a330926b8b9b0bc1f`.
+- Focused source-level verification is pending final read-back; full Node.js, Chromium and CI suites have not been rerun. Readiness remains 95/100; G4/G5 are open.
