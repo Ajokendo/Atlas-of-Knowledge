@@ -196,6 +196,27 @@ for (const [label, evidence] of [
   if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
 }
 
+
+for (const [label, evidence] of [
+  ["amino acid functional groups in Russian", "Аминокислоты содержат аминогруппу и карбоксильную группу"],
+  ["zwitterion and pH in Russian", "цвиттерионная форма"],
+  ["amino acid amphoterism in Russian", "аминокислоты амфотерны"],
+  ["ribosomal peptide synthesis in Russian", "рибосома формирует пептидную связь"],
+  ["protein secondary structure in Russian", "α-спирали и β-слои"],
+  ["protein quaternary structure caveat in Russian", "не у всех белков"],
+  ["disulfide bridges in Russian", "дисульфидные мостики"],
+  ["enzyme activation energy and Gibbs energy in Russian", "не изменяют суммарное изменение энергии Гиббса ΔG"],
+  ["amino acid functional groups in English", "Amino acids contain an amino group and a carboxyl group"],
+  ["zwitterion and pH in English", "is called a zwitterion"],
+  ["ribosomal peptide synthesis in English", "the ribosome forms peptide bonds"],
+  ["protein secondary structure in English", "α-helices and β-sheets"],
+  ["protein quaternary structure caveat in English", "is not present in every protein"],
+  ["disulfide bridges in English", "disulfide bridges"],
+  ["enzyme activation energy and equilibrium in English", "do not change the overall Gibbs energy change ΔG or the position of chemical equilibrium"]
+]) {
+  if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
+}
+
 const periodicSource = fs.readFileSync(path.join(root, "periodic-table.html"), "utf8");
 const periodicData = periodicSource.match(/const raw=\`([\s\S]*?)\`\.trim\(\);/);
 if (!periodicData) {
