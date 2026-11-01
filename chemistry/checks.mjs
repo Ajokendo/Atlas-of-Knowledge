@@ -484,6 +484,39 @@ const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const chapterIds = [...homepage.matchAll(/["'](0[1-9]|1[0-2])["']/g)].map(m => m[1]);
 if (new Set(chapterIds).size < 12) errors.push("index.html: expected all 12 chapter identifiers");
 
+
+const feedbackTemplatePath = path.join(root, "FEEDBACK_WIDGET_TEMPLATE.html");
+const feedbackTemplate = fs.existsSync(feedbackTemplatePath) ? fs.readFileSync(feedbackTemplatePath, "utf8") : "";
+if (!feedbackTemplate) {
+  errors.push("FEEDBACK_WIDGET_TEMPLATE.html: disabled feedback template is missing");
+} else {
+  if (!/<form\\b[^>]*id=["']chemistry-feedback-form["']/i.test(feedbackTemplate)) {
+    errors.push("FEEDBACK_WIDGET_TEMPLATE.html: chemistry feedback form is missing");
+  }
+  if (!/<button\\b[^>]*type=["']button["'][^>]*disabled/i.test(feedbackTemplate)) {
+    errors.push("FEEDBACK_WIDGET_TEMPLATE.html: submission control must remain disabled");
+  }
+  if (/\\b(?:action|formaction)\\s*=/i.test(feedbackTemplate) ||
+      /\\b(?:fetch|XMLHttpRequest|sendBeacon)\\s*\\(/i.test(feedbackTemplate) ||
+      /\\b(?:localStorage|sessionStorage|indexedDB)\\b/i.test(feedbackTemplate) ||
+      /addEventListener\\s*\\(\\s*["']submit["']/i.test(feedbackTemplate)) {
+    errors.push("FEEDBACK_WIDGET_TEMPLATE.html: submission, network or browser storage logic must not be present before approval");
+  }
+  if (!/ответы не отправляются и не сохраняются/i.test(feedbackTemplate) ||
+      !/responses are not submitted or stored/i.test(feedbackTemplate)) {
+    errors.push("FEEDBACK_WIDGET_TEMPLATE.html: bilingual non-submission notice is required");
+  }
+  const ratings = [...feedbackTemplate.matchAll(/name=["']rating_[^"']+["']/g)];
+  if (ratings.length !== 9 || (feedbackTemplate.match(/value=["']na["']/g) || []).length !== 9) {
+    errors.push("FEEDBACK_WIDGET_TEMPLATE.html: all nine evaluation criteria need a Cannot assess option");
+  }
+  if (!feedbackTemplate.includes("Критическая ошибка / Critical error") ||
+      !feedbackTemplate.includes("Согласен(на) на публикацию текста отзыва") ||
+      !feedbackTemplate.includes("Не согласен(на) / I do not consent")) {
+    errors.push("FEEDBACK_WIDGET_TEMPLATE.html: priority and explicit optional publication consent fields are required");
+  }
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
