@@ -36,7 +36,40 @@ try {
       } else errors.push(file + ": language switch control not found");
       const missingType = await page.locator("button:not([type='button'])").count();
       if (missingType) errors.push(file + ": " + missingType + " button(s) lack type=button");
+
+      // Catch horizontal overflow at the two representative viewport widths.
+      const overflow = await page.evaluate(() => ({
+        document: document.documentElement.scrollWidth,
+        viewport: document.documentElement.clientWidth,
+        body: document.body ? document.body.scrollWidth : 0
+      }));
+      if (overflow.document > overflow.viewport + 1 || overflow.body > overflow.viewport + 1) {
+        errors.push(file + ": horizontal overflow at " + viewport.width + "px (document " +
+          overflow.document + "px, body " + overflow.body + "px)");
+      }
+
+      // Every visible interactive control should expose a usable accessible name.
+      const unnamed = await page.locator("button, a[href], input, select, textarea, [role='button']")
+        .evaluateAll(elements => elements.filter(el => {
+          const style = getComputedStyle(el);
+          const visible = style.display !== "none" && style.visibility !== "hidden" &&
+            el.getClientRects().length > 0;
+          if (!visible || el.disabled) return false;
+          const text = (el.innerText || el.value || "").trim();
+          const name = el.getAttribute("aria-label") || el.getAttribute("aria-labelledby") ||
+            el.getAttribute("title") || text;
+          return !name;
+        }).length);
+      if (unnamed) errors.push(file + ": " + unnamed + " visible interactive control(s) lack an accessible name");
+
+      // Confirm keyboard navigation can reach a real interactive element.
       await page.keyboard.press("Tab");
+      const focused = await page.evaluate(() => {
+        const el = document.activeElement;
+        return !!el && el !== document.body && el !== document.documentElement &&
+          (el.matches("a[href], button, input, select, textarea, [tabindex]:not([tabindex='-1'])"));
+      });
+      if (!focused) errors.push(file + ": Tab key did not reach an interactive control");
     }
     await page.close();
   }
