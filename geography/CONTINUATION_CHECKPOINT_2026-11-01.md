@@ -49,3 +49,5 @@
 - Further illustration batch completed: three conceptual SVGs created and embedded at their chapter locations — `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, and `20-I-glacier-anatomy.svg`. Together with 20-K, 4 assets are now created and embedded, all pending final editorial sign-off. Chapter 26's seven missing in-text marker locations were separately repaired and are verified below.
 
 - Final marker parity verification: all 12 Chapter 26 IDs (26-A through 26-L) are now present both at their relevant in-text teaching locations and in the visual production brief. Chapter 26 repeats the five paired in-text/brief IDs intentionally; the other seven were missing from the main teaching text and have now been inserted. The register total is corrected to 217 unique IDs.
+
+- README visual-production note was moved below the document title for clean structure; latest README commit: `97efbe17f0b61cba5c23df57b8e12523307c94fb`.
