@@ -270,7 +270,7 @@
 
 ## 4.11. Склоновые процессы и денудация / Slope Processes and Denudation
 
-Склоновые процессы, или **массовые движения**, перемещают грунт и горные породы вниз по склону под действием силы тяжести. Они бывают быстрыми и медленными. В классификации движений выделяют падения, опрокидывания, скольжения, растекания и потоки; в одном событии могут сочетаться несколько типов.
+Склоновые процессы, или **массовые движения**, перемещают грунт и горные породы вниз по склону под действием силы тяжести. Склон теряет устойчивость, когда движущие силы превышают сопротивление материала; насыщение водой, выветривание, подрезка основания склона, землетрясения и строительство могут изменить это соотношение. Движения бывают быстрыми и медленными. В классификации выделяют падения, опрокидывания, скольжения, растекания и потоки; в одном событии могут сочетаться несколько типов. Дополнительно учитывают материал: коренные породы, обломочный материал и мелкозёмистый грунт.
 
 - **Обвалы и камнепады (падения):** обломки отделяются от крутого склона, падают, подпрыгивают или скатываются вниз.
 - **Опрокидывания:** блок породы поворачивается вперёд вокруг точки или оси опоры.
@@ -616,7 +616,7 @@ Major submarine features include the **continental shelf**, a relatively shallow
 
 ### 4.11. Slope Processes and Denudation
 
-Slope processes, also called **mass movements** or **mass wasting**, move soil and rock downslope under gravity. They may be rapid or slow. A widely used classification distinguishes falls, topples, slides, lateral spreads and flows; more than one type may occur in a single event.
+Slope processes, also called **mass movements** or **mass wasting**, move soil and rock downslope under gravity. A slope fails when driving forces exceed the material's resistance; water saturation, weathering, undercutting, earthquakes and construction can change this balance. Movements may be rapid or slow. A widely used classification distinguishes falls, topples, slides, lateral spreads and flows; more than one type may occur in a single event. Classification also considers the material involved: bedrock, coarse debris or finer earth.
 
 - **Falls and rockfalls:** fragments detach from a steep slope and fall, bounce or roll downslope.
 - **Topples:** a mass rotates forward around a pivot point or axis.
@@ -812,6 +812,7 @@ Using a prepared teaching map excerpt:
 25. U.S. Geological Survey. *Find-A-Feature: Meander*. https://www.usgs.gov/educational-resources/find-feature-meander
 26. Fujii, M., Tamura, C., Ohara, Y. & Okino, K. (2026). *Full-ocean-depth EM124 mapping of the Challenger Deep by R/V Hakuho-maru and depth-estimate sensitivity tests*. Scientific Data, 13, 1304. https://doi.org/10.1038/s41597-026-08267-z
 27. NASA Earth Science. *Earth as Art* (Tibetan Plateau section, pp. 134–135). https://science.nasa.gov/wp-content/uploads/2023/04/703154main_earth_art_ebook.pdf
+28. British Geological Survey. *Understanding Landslides*. https://www.bgs.ac.uk/discovering-geology/earth-hazards/landslides/
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
