@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: physics-browser
+  cancel-in-progress: true
+
 jobs:
   chromium:
     runs-on: ubuntu-latest
