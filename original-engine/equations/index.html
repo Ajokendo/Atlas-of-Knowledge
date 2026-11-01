@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Краткий справочник основных формул и физических постоянных к 15 главам Атласа физики.">
+<title>Справочник формул — Атлас физики</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--text:#57575a;--muted:#85858a;--line:#deded9;--accent:#b6533f;--serif:'EB Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--text);font:15px/1.65 var(--sans)}
+header{max-width:1100px;margin:auto;padding:22px 28px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:16px}
+a{color:inherit}.brand{font:24px var(--serif);color:var(--ink);text-decoration:none}nav{display:flex;gap:18px;flex-wrap:wrap;font:11px var(--mono)}main{max-width:1100px;margin:auto;padding:48px 28px 90px}
+.eyebrow{font:10px var(--mono);letter-spacing:.13em;color:var(--muted)}h1{font:400 clamp(44px,7vw,76px)/.98 var(--serif);color:var(--ink);margin:12px 0 18px}
+.lead{max-width:760px;font:italic 21px/1.5 var(--serif);color:#77736e}.notice{margin:28px 0;padding:14px 18px;border-left:2px solid var(--accent);background:var(--card);font-size:13px}
+section{margin:42px 0}h2{font:400 34px var(--serif);color:var(--ink);margin:0 0 16px}h3{font:500 18px var(--sans);color:var(--ink);margin:24px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
+.item{background:var(--card);border:1px solid var(--line);padding:14px 16px;min-width:0}
+.eq{font:16px/1.5 var(--serif);color:var(--ink);overflow-wrap:anywhere}.desc{font-size:12px;color:var(--muted);margin-top:5px}.ref{display:block;font:10px var(--mono);color:var(--accent);margin-top:8px;text-decoration:none}
+table{border-collapse:collapse;width:100%;background:var(--card);font-size:13px}td,th{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left}th{font:10px var(--mono);color:var(--muted);letter-spacing:.08em}
+@media(max-width:600px){header{align-items:flex-start;flex-direction:column;padding:18px}main{padding:32px 18px 60px}.item{padding:12px}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="../../index.html">Атлас физики</a><nav><a href="../../index.html">Главная</a><a href="../../catalog.html">Каталог глав</a></nav></header>
+<main>
+<p class="eyebrow">СПРАВОЧНЫЙ РАЗДЕЛ · 15 ГЛАВ</p>
+<h1>Формулы<br><em>и постоянные.</em></h1>
+<p class="lead">Основные соотношения, используемые в главах по механике, жидкостям, электричеству и магнетизму. Обозначения и знаки следует соотносить с определениями в соответствующей главе.</p>
+<div class="notice">Это учебный краткий справочник к Атласу, а не дословная копия официальных экзаменационных таблиц AP Physics. В задачах используйте условия применимости формул и выбранную систему единиц.</div>
+<section><h2>Постоянные и единицы</h2><div class="grid">
+<div class="item"><div class="eq">g ≈ 9,81 м/с²</div><div class="desc">Ускорение свободного падения у поверхности Земли</div></div>
+<div class="item"><div class="eq">G ≈ 6,674 × 10⁻¹¹ Н·м²/кг²</div><div class="desc">Гравитационная постоянная</div></div>
+<div class="item"><div class="eq">k = 1/(4πε₀) ≈ 8,99 × 10⁹ Н·м²/Кл²</div><div class="desc">Электростатическая постоянная</div></div>
+<div class="item"><div class="eq">ε₀ ≈ 8,854 × 10⁻¹² Ф/м</div><div class="desc">Электрическая постоянная</div></div>
+<div class="item"><div class="eq">μ₀ ≈ 4π × 10⁻⁷ Н/А²</div><div class="desc">Магнитная постоянная (приближённое значение)</div></div>
+<div class="item"><div class="eq">1 атм = 101 325 Па</div><div class="desc">Стандартная атмосфера</div></div>
+</div></section>
+<section><h2>Механика</h2>
+<h3>Кинематика</h3><div class="grid">
+<div class="item"><div class="eq">v = v₀ + at</div><div class="desc">Скорость при постоянном ускорении</div><a class="ref" href="../kinematics/">Глава 1 · Кинематика</a></div>
+<div class="item"><div class="eq">x = x₀ + v₀t + ½at²</div><div class="desc">Координата при постоянном ускорении</div><a class="ref" href="../kinematics/">Глава 1 · Кинематика</a></div>
+<div class="item"><div class="eq">v² = v₀² + 2a(x − x₀)</div><div class="desc">Связь скорости и перемещения без времени</div><a class="ref" href="../kinematics/">Глава 1 · Кинематика</a></div>
+</div>
+<h3>Законы Ньютона и импульс</h3><div class="grid">
+<div class="item"><div class="eq">ΣF = ma</div><div class="desc">Второй закон Ньютона</div><a class="ref" href="../newton/">Глава 2 · Законы Ньютона</a></div>
+<div class="item"><div class="eq">Fтр ≤ μN</div><div class="desc">Предельная сила трения покоя; для скольжения Fтр = μₖN</div><a class="ref" href="../newton/">Глава 2 · Законы Ньютона</a></div>
+<div class="item"><div class="eq">p = mv; J = FсрΔt = Δp</div><div class="desc">Импульс тела и импульс силы</div><a class="ref" href="../momentum/">Глава 5 · Импульс</a></div>
+</div>
+<h3>Движение по окружности и тяготение</h3><div class="grid">
+<div class="item"><div class="eq">aц = v²/r = ω²r</div><div class="desc">Центростремительное ускорение</div><a class="ref" href="../circular/">Глава 3 · Движение по окружности</a></div>
+<div class="item"><div class="eq">Fг = Gm₁m₂/r²</div><div class="desc">Закон всемирного тяготения</div><a class="ref" href="../circular/">Глава 3 · Движение по окружности</a></div>
+</div>
+<h3>Работа, энергия и мощность</h3><div class="grid">
+<div class="item"><div class="eq">W = Fd cos θ; K = ½mv²</div><div class="desc">Работа постоянной силы и кинетическая энергия</div><a class="ref" href="../energy/">Глава 4 · Работа и энергия</a></div>
+<div class="item"><div class="eq">Uпруж = ½kx²; Uгр = mgh</div><div class="desc">Потенциальная энергия пружины и тяжести у поверхности Земли</div><a class="ref" href="../energy/">Глава 4 · Работа и энергия</a></div>
+<div class="item"><div class="eq">P = W/Δt = Fv cos θ</div><div class="desc">Средняя и мгновенная мощность (для силы, параллельной скорости, cos θ = 1)</div><a class="ref" href="../energy/">Глава 4 · Работа и энергия</a></div>
+</div>
+<h3>Вращение и колебания</h3><div class="grid">
+<div class="item"><div class="eq">τ = rF sin θ; Στ = Iα</div><div class="desc">Момент силы и второй закон динамики вращения</div><a class="ref" href="../rotation/">Глава 7 · Вращение</a></div>
+<div class="item"><div class="eq">Kвр = ½Iω²; L = Iω</div><div class="desc">Кинетическая энергия вращения и угловой импульс твёрдого тела</div><a class="ref" href="../rotation/">Глава 7 · Вращение</a></div>
+<div class="item"><div class="eq">Tпруж = 2π√(m/k); Tмаят = 2π√(ℓ/g)</div><div class="desc">Периоды идеального пружинного и математического маятников</div><a class="ref" href="../oscillations/">Глава 6 · Колебания</a></div>
+</div></section>
+<section><h2>Жидкости</h2><div class="grid">
+<div class="item"><div class="eq">ρ = m/V; p = F⊥/A</div><div class="desc">Плотность и давление</div><a class="ref" href="../fluids/">Глава 8 · Жидкости</a></div>
+<div class="item"><div class="eq">p = p₀ + ρgh; FА = ρжgV</div><div class="desc">Гидростатическое давление и сила Архимеда</div><a class="ref" href="../fluids/">Глава 8 · Жидкости</a></div>
+<div class="item"><div class="eq">A₁v₁ = A₂v₂</div><div class="desc">Уравнение непрерывности для несжимаемой жидкости</div><a class="ref" href="../fluids/">Глава 8 · Жидкости</a></div>
+<div class="item"><div class="eq">p + ρgy + ½ρv² = const</div><div class="desc">Уравнение Бернулли вдоль линии тока идеальной жидкости</div><a class="ref" href="../fluids/">Глава 8 · Жидкости</a></div>
+</div></section>
+<section><h2>Электричество и магнетизм</h2>
+<h3>Электростатика и закон Гаусса</h3><div class="grid">
+<div class="item"><div class="eq">F = k|q₁q₂|/r²</div><div class="desc">Модуль силы взаимодействия точечных зарядов</div><a class="ref" href="../electrostatics/">Глава 9 · Электростатика</a></div>
+<div class="item"><div class="eq">E = F/q; V = U/q</div><div class="desc">Напряжённость поля и электрический потенциал</div><a class="ref" href="../electrostatics/">Глава 9 · Электростатика</a> <a class="ref" href="../potential/">Глава 11 · Потенциал</a></div>
+<div class="item"><div class="eq">ΦE = ∮E·dA = qвнутр/ε₀</div><div class="desc">Поток электрического поля и закон Гаусса</div><a class="ref" href="../gauss/">Глава 10 · Закон Гаусса</a></div>
+<div class="item"><div class="eq">C = Q/ΔV; U = ½C(ΔV)²</div><div class="desc">Ёмкость и энергия заряженного конденсатора</div><a class="ref" href="../capacitors/">Глава 12 · Конденсаторы</a></div>
+</div>
+<h3>Электрические цепи</h3><div class="grid">
+<div class="item"><div class="eq">V = IR; P = IV = I²R = V²/R</div><div class="desc">Закон Ома и мощность на резисторе</div><a class="ref" href="../circuits/">Глава 13 · Электрические цепи</a></div>
+<div class="item"><div class="eq">Rпосл = ΣRᵢ; 1/Rпар = Σ(1/Rᵢ)</div><div class="desc">Эквивалентное сопротивление последовательного и параллельного соединений</div><a class="ref" href="../circuits/">Глава 13 · Электрические цепи</a></div>
+<div class="item"><div class="eq">τRC = RC; q(t) = Cε(1 − e⁻ᵗ/ᴿᶜ)</div><div class="desc">Постоянная времени и зарядка идеального RC-контура</div><a class="ref" href="../circuits/">Глава 13 · Электрические цепи</a></div>
+</div>
+<h3>Магнетизм и индукция</h3><div class="grid">
+<div class="item"><div class="eq">F = |q|vB sin θ; r = mv/(|q|B)</div><div class="desc">Магнитная сила и радиус траектории заряда при v ⟂ B</div><a class="ref" href="../magnetism/">Глава 14 · Магнитные поля</a></div>
+<div class="item"><div class="eq">∮B·dl = μ₀Iвнутр</div><div class="desc">Закон Ампера для магнитного поля</div><a class="ref" href="../magnetism/">Глава 14 · Магнитные поля</a></div>
+<div class="item"><div class="eq">|ε| = |dΦB/dt|; εдв = Bℓv</div><div class="desc">Закон Фарадея и ЭДС движения для перпендикулярной конфигурации</div><a class="ref" href="../induction/">Глава 15 · Электромагнитная индукция</a></div>
+<div class="item"><div class="eq">Uкат = ½LI²; τRL = L/R</div><div class="desc">Энергия магнитного поля катушки и постоянная времени RL-контура</div><a class="ref" href="../induction/">Глава 15 · Электромагнитная индукция</a></div>
+</div></section>
+<section><h2>Единицы СИ и приставки</h2>
+<table><thead><tr><th>Величина</th><th>Единица</th><th>Обозначение</th></tr></thead><tbody>
+<tr><td>Длина</td><td>метр</td><td>м</td></tr><tr><td>Масса</td><td>килограмм</td><td>кг</td></tr><tr><td>Время</td><td>секунда</td><td>с</td></tr><tr><td>Сила</td><td>ньютон</td><td>Н</td></tr><tr><td>Энергия, работа</td><td>джоуль</td><td>Дж</td></tr><tr><td>Мощность</td><td>ватт</td><td>Вт</td></tr><tr><td>Давление</td><td>паскаль</td><td>Па</td></tr><tr><td>Заряд</td><td>кулон</td><td>Кл</td></tr><tr><td>Напряжение</td><td>вольт</td><td>В</td></tr><tr><td>Сила тока</td><td>ампер</td><td>А</td></tr><tr><td>Сопротивление</td><td>ом</td><td>Ом</td></tr><tr><td>Ёмкость</td><td>фарад</td><td>Ф</td></tr><tr><td>Магнитная индукция</td><td>тесла</td><td>Тл</td></tr><tr><td>Индуктивность</td><td>генри</td><td>Гн</td></tr>
+</tbody></table>
+</section>
+</main>
+</body></html>
