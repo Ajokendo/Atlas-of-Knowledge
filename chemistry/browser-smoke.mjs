@@ -133,7 +133,11 @@ try {
         positiveTabOrder.map(target => target.name).join(", "));
     }
     if (keyboardTargets.every(target => target.tabIndex >= 0)) {
-      await page.evaluate(() => document.activeElement?.blur());
+      // Start the sequence from a fresh document state. Blurring the current
+      // element does not reset the browser's sequential focus-navigation
+      // starting point, so the first Tab could continue after the language
+      // control instead of starting at the first tabbable element.
+      await page.reload({ waitUntil: "domcontentloaded" });
       for (const target of keyboardTargets) {
         await page.keyboard.press("Tab");
         const focusedIndex = await page.evaluate(selector => {
