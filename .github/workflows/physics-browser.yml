@@ -1,0 +1,38 @@
+name: Physics browser and accessibility smoke
+
+on:
+  push:
+    branches: [workspace/physics]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser test tools
+        run: npm install --no-save playwright @axe-core/playwright
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/physics-http.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/physics-http.log
+          exit 1
+      - name: Test all 15 laboratories on desktop and mobile viewports
+        run: node original-engine/browser-smoke.mjs
