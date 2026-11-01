@@ -894,6 +894,26 @@ if (!regionalSpeciesAudit.includes("Mammal checklist version 1.12 and bird-list 
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: current mammal checklist version and bird-list scope comparison must be documented");
 }
 
+if (!faunaKyrgyzstanFile.includes("ZHETIM-BEL AND KARAKOL · CAMERA-TRAP MONITORING · 2025–2026") ||
+    !faunaKyrgyzstanFile.includes("22–28 June 2026") ||
+    !faunaKyrgyzstanFile.includes("still being processed") ||
+    !faunaKyrgyzstanFile.includes("no count of independent detections") ||
+    !faunaKyrgyzstanFile.includes("Bishkek · IMPORTANT BIRD AREA") ||
+    !faunaKyrgyzstanFile.includes("only confirmed nesting location") ||
+    !faunaKyrgyzstanFile.includes("about 40 species") ||
+    !faunaKyrgyzstanFile.includes("more than 200 bird species")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Zhetim-Bel camera-trap evidence and Bishkek IBA bird observations must retain dates, source scope and abundance / nesting-claim caveats");
+}
+if (!faunaKyrgyzstanFile.includes("v-fotolovuski-ustanovlennye-na-xrebte-zetim-bel") ||
+    !faunaKyrgyzstanFile.includes("discover-bishkeks-wintering-bird-hotspot-field-visit-important-bird-area-global-significance")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Zhetim-Bel and Bishkek IBA primary institutional sources must remain linked");
+}
+if (!regionalSpeciesAudit.includes("Local bird and mammal evidence update — 1 November 2026") ||
+    !regionalSpeciesAudit.includes("not a published survey dataset") ||
+    !regionalSpeciesAudit.includes("only confirmed nesting site")) {
+  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: local 2025–2026 evidence and source attribution caveats must be documented");
+}
+
 const externalReviewPacket = fs.readFileSync(path.join(root, "EXTERNAL_REVIEW_PACKET.md"), "utf8");
 for (const phrase of [
   "### G4 — Scientific review",
