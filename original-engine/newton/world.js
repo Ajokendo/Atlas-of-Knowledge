@@ -72,7 +72,7 @@ export function buildWorld(E) {
   // ---------- 4 · friction: a growing push on a rough floor ----------
   const X3 = STATIONS.friction;
   rough(X3 - 1.4, X3 + 2.2);
-  const g3 = asm('friction', root, { title: 'Сила трения', sub: 'сначала трение покоя, затем скольжения' });
+  const g3 = asm('сила трения', root, { title: 'Сила трения', sub: 'сначала трение покоя, затем скольжения' });
   const b3 = block(g3, S1);
   const fg3 = force(g3), fn3 = force(g3), fa3 = force(g3), ff3 = force(g3), net3 = force(g3, true);
   label('vec', 'F<sub>app</sub>', () => tip(fa3)); label('vec', 'f', () => tip(ff3));
@@ -84,7 +84,7 @@ export function buildWorld(E) {
   const g4 = asm('third', root, { title: 'Два соприкасающихся блока', sub: 'A действует на B, B — на A' });
   const b4a = block(g4, S1, 'Брусок A · 2,0 кг'), b4b = block(g4, S2, 'Брусок B · 4,0 кг');
   const push4 = force(g4), onB = force(g4), onA = force(g4);
-  label('vec', 'F', () => tip(push4)); label('vec', 'F<sub>A on B</sub>', () => tip(onB)); label('vec', 'F<sub>B on A</sub>', () => tip(onA));
+  label('vec', 'F', () => tip(push4)); label('vec', 'F<sub>A→B</sub>', () => tip(onB)); label('vec', 'F<sub>B→A</sub>', () => tip(onA));
   label('tick', 'A', () => V(b4a.position.x, S1 + 0.14, S1 / 2)); label('tick', 'B', () => V(b4b.position.x, S2 + 0.14, S2 / 2));
 
   // ---------- 6 · inclined plane ----------
@@ -127,7 +127,7 @@ export function buildWorld(E) {
   part(plane, box(0.06, 1.7, 0.16, 0.03), { tone: 'mid', pal: 'dark', pos: [3.32, 0, 0], name: 'Пропеллер' });
   part(plane, box(0.4, 0.18, 0.5, 0.05), { tone: 'mid', pal: 'dark', pos: [1.2, 0.42, 0], name: 'Кабина' });
   const pLift = force(gP), pW = force(gP), pT = force(gP), pD = force(gP);
-  label('vec', 'lift', () => tip(pLift)); label('vec', 'F<sub>g</sub>', () => tip(pW)); label('vec', 'thrust', () => tip(pT)); label('vec', 'drag', () => tip(pD));
+  label('vec', 'подъёмная сила', () => tip(pLift)); label('vec', 'F<sub>g</sub>', () => tip(pW)); label('vec', 'тяга', () => tip(pT)); label('vec', 'сопротивление воздуха', () => tip(pD));
 
   // ---------- a car speeding up ----------
   const XC = STATIONS.car - 6;
@@ -143,7 +143,7 @@ export function buildWorld(E) {
     part(carG, zAxis(new THREE.CylinderGeometry(0.17, 0.17, 0.28, 20)), { tone: 'mid', pos: [x, 0.36, z], name: 'Колёса' });
   }
   const cW = force(gC), cN = force(gC), cF = force(gC), cD = force(gC), cNet = force(gC, true);
-  label('vec', 'F<sub>g</sub>', () => tip(cW)); label('vec', 'F<sub>N</sub>', () => tip(cN)); label('vec', 'friction', () => tip(cF)); label('vec', 'drag', () => tip(cD)); label('vec red', 'ΣF', () => tip(cNet));
+  label('vec', 'F<sub>g</sub>', () => tip(cW)); label('vec', 'F<sub>N</sub>', () => tip(cN)); label('vec', 'сила трения', () => tip(cF)); label('vec', 'сопротивление воздуха', () => tip(cD)); label('vec red', 'ΣF', () => tip(cNet));
 
 
   // centre of mass: the quartered disc, drawn over solids so it can be seen inside them
@@ -176,10 +176,10 @@ export function buildWorld(E) {
   const cmG = cmMark(gG, 0.09);
   const sysBox = part(gG, box(1, 1, 1, 0.04), { tone: 'lo', name: 'Система', mat: shadeMat('board', { opacity: 0.35 }) });
   const above = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y / 2, 0)).add(V(0, 0.2, 0)) : null;
-  label('vec', 'T<sub>on A</sub>', () => above(tOnA)); label('vec', 'T<sub>on B</sub>', () => above(tOnB));
-  label('tick', 'A · 50 kg', () => V(skA.position.x - 0.12, 1.25 + 0.42, 0.2)); label('tick', 'B · 75 kg', () => V(skB.position.x + 0.62, 1.4 + 0.48, 0.2));
+  label('vec', 'T<sub>на A</sub>', () => above(tOnA)); label('vec', 'T<sub>на B</sub>', () => above(tOnB));
+  label('tick', 'A · 50 кг', () => V(skA.position.x - 0.12, 1.25 + 0.42, 0.2)); label('tick', 'B · 75 кг', () => V(skB.position.x + 0.62, 1.4 + 0.48, 0.2));
   label('vec blue', 'x<sub>cm</sub>', () => V(XG, 0.32, 0.5));
-  label('board', 'system', () => sysBox.visible && gG.userData.explode > 0.5 ? V(sysBox.position.x - sysBox.scale.x / 2 + 0.08, 2.32, 0.65) : null);
+  label('board', 'система', () => sysBox.visible && gG.userData.explode > 0.5 ? V(sysBox.position.x - sysBox.scale.x / 2 + 0.08, 2.32, 0.65) : null);
   { const t = []; for (let k = -1; k <= 1; k += 0.25) t.push(XG, 0.025, k * 1.0, XG, 0.025, k * 1.0 + 0.12); lines(root, t, '#5b86d6'); }   // dashed line through x_cm
 
   // ---------- ΣF_ext = M a_cm: a block on a board, the board pulled ----------
@@ -191,7 +191,7 @@ export function buildWorld(E) {
   const pullB = force(gB), fOnBlock = force(gB), fOnBoard = force(gB), netB = force(gB, true);
   const cmB = cmMark(gB, 0.07);
   label('vec', 'F', () => tip(pullB)); const below = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y / 2, 0)).add(V(-0.1, -0.2, 0.15)) : null;
-  label('vec', 'f<sub>on block</sub>', () => fOnBlock.visible ? tip(fOnBlock).add(V(0.25, 0.08, 0)) : null); label('vec', 'f<sub>on board</sub>', () => below(fOnBoard));
+  label('vec', 'f<sub>на блок</sub>', () => fOnBlock.visible ? tip(fOnBlock).add(V(0.25, 0.08, 0)) : null); label('vec', 'f<sub>на доску</sub>', () => below(fOnBoard));
   label('vec red', 'ΣF<sub>ext</sub>', () => tip(netB));
   label('tick', '2.0 kg', () => V(bB.position.x - S1 / 2, bB.position.y + S1 / 2 + 0.14, S1 / 2));
   label('tick', '4.0 kg', () => V(plank.position.x - BD.len / 2 + 0.1, 0.42, 0.45));
@@ -203,7 +203,7 @@ export function buildWorld(E) {
     for (let y = 0; y <= DR.y0; y += 0.5) t.push(XD - 1.0, y, 0, XD - (y % 1 ? 0.92 : 0.84), y, 0);
     lines(root, t, '#8a8a8f'); }
   label('axis', '5 m', () => V(XD - 1.05, 5, 0)); label('axis', '0', () => V(XD - 1.05, 0.05, 0));
-  const gD = asm('drag', root, { title: 'Падение с сопротивлением ∝ v', sub: 'сопротивление растёт до равенства с силой тяжести' });
+  const gD = asm('сопротивление воздуха', root, { title: 'Падение с сопротивлением ∝ v', sub: 'сопротивление растёт до равенства с силой тяжести' });
   const ballD = part(gD, new THREE.SphereGeometry(RB, 32, 20), { tone: 'hi', name: 'Шар · 0,50 кг' });
   const wD = force(gD), dD = force(gD), netD = force(gD, true);
   const ghostsD = Array.from({ length: 8 }, () => ghostCircle(RB));
