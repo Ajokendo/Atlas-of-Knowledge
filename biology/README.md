@@ -776,7 +776,7 @@ Latest documentation checkpoint at the time of this entry: `01d77b7ef93ccb89be21
 - The later 100% closure framework deliberately applies a stricter, evidence-based standard across the entire Biology branch. Under that framework, the current controlled score is **95/100** until executable validation, browser/device QA, independent scientific and bilingual review, and the illustration disposition are evidenced. Do not read the earlier chapter-stage scores as a claim that the full atlas is 99% release-ready.
 - Queried the GitHub Actions run collection filtered to `workspace/biology`: no workflow runs were returned. The latest Biology branch commit also has no reported commit status entries. This is an absence of CI evidence, not a pass or a failure result.
 - The Biology workflow remains configured for pull requests, pushes to `main`, and manual dispatch. The available GitHub connection in this work session exposes read operations and file commits but no workflow-dispatch action; no PR or merge was created. G3 therefore remains unchecked.
-- Current documentation checkpoint: `095aa61045eb3d092dd74c145af05fda99776380`.
+- Current source checkpoint before the osman synonym cross-check: `095aa61045eb3d092dd74c145af05fda99776380`.
 
 
 ## Freshwater field-evidence update — 1 November 2026
@@ -800,3 +800,13 @@ A fresh read-only audit was performed against the current `workspace/biology` tr
 - The image map remains 52 rows with 52 unique anchor IDs and filenames, matching all 52 page placeholders in both directions.
 - These are remote source-content checks, not execution of `checks.mjs`, Playwright, or the GitHub Actions workflow. G1–G6 remain controlled by their evidence requirements; the score remains **95/100**.
 - Audit source revision: `095aa61045eb3d092dd74c145af05fda99776380`.
+
+
+## Freshwater fish synonym reconciliation — 1 November 2026
+
+- Cross-checked the Suusamyr paper's `Diptychus gymnogaster` against the current Eschmeyer's Catalog of Fishes entry (13 August 2026): the catalogue treats that name as a synonym of `Diptychus maculatus`. The 2020 IUCN assessment for `D. maculatus` also lists `D. gymnogaster` as a synonym.
+- Updated the bilingual fauna account and species audit so the two names are not counted as separate species. The text links the 2025 Suusamyr paper to the 2026 Kempir-Abad research notice, which separately reports further taxonomic observations on `D. maculatus` in the upper Jazy; no unpublished result is inferred.
+- Strengthened the freshwater image-review constraints so future artwork does not duplicate the synonym as a second fish species or invent taxa from the unpublished Kempir-Abad list. Added regression assertions for these safeguards.
+- This is a source-based nomenclatural cross-check, not specimen identification or independent ichthyologist sign-off. The Suusamyr paper's `Triplophysa stoliczkai` determination and its abstract/body fish-total discrepancy remain open for specialist clarification.
+- Sources: [Eschmeyer's Catalog — `Diptychus gymnogaster`](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=31906); [IUCN — `Diptychus maculatus`](https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T128719071A128719148.en).
+- G4 remains open; no change to the controlled **95/100** readiness score.
