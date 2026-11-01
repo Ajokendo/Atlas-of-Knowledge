@@ -40,3 +40,12 @@ This is the internal audit milestone only. It is not a publication-readiness per
 - [ ] External gates remain pending: physical Android/iOS device testing, manual keyboard/zoom review, NVDA/TalkBack/VoiceOver testing, independent scientific review, and any outstanding independent RU/EN editorial review.
 
 The successful CI run is automated testing on GitHub-hosted Chromium. It is not evidence of testing on physical devices, assistive technologies, or independent expert sign-off.
+
+### Teacher feedback preparation — Chemistry (2026-11-02)
+
+- [x] Added the subject-adapted standard: `FEEDBACK_SYSTEM_STANDARD.md`.
+- [x] Added the private moderation and issue-processing procedure: `FEEDBACK_PROCESSING_GUIDE.md`.
+- [x] Added the bilingual Chemistry questionnaire template: `FEEDBACK_WIDGET_TEMPLATE.html`. It includes nine shared 1–5 / Cannot assess criteria, chemistry-specific prompts for formulae, equations, coefficients, subscripts, units, calculations, models and virtual labs, targeted location, priority, optional evidence/contact, and a separate voluntary publication choice.
+- [x] Submission is intentionally unavailable: the button is disabled, the control is non-submitting (`type=button`), and the template has no endpoint, submit handler, network request or browser storage logic. It must not be enabled before portal completion, a separate security/technical review, and explicit project-owner approval.
+- [x] Added automated safeguards in `checks.mjs` to prevent accidental activation or addition of client-side collection/storage logic and to verify all nine “Cannot assess” choices.
+- [ ] This is preparation only, not a live feedback channel. No real responses have been collected or stored. The portal-wide feedback entry point and shared backend remain outside this subject branch's scope.
