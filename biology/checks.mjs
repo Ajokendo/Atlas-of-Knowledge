@@ -254,6 +254,12 @@ if (/<a\b[^>]*>\s*<a\b/i.test(faunaKyrgyzstanFile)) errors.push("chapters/fauna-
 if (!faunaKyrgyzstanFile.includes("Coregonus lavaretus") || !faunaKyrgyzstanFile.includes("Coregonus peled") || !faunaKyrgyzstanFile.includes("Triplophysa stoliczkae")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul fish account must retain the 2021–2023 field-study taxa");
 }
+if (!faunaKyrgyzstanFile.includes("Список OSME v10.1") ||
+    !faunaKyrgyzstanFile.includes("OSME Region List v10.1") ||
+    !faunaKyrgyzstanFile.includes("ITIS признаёт") ||
+    !faunaKyrgyzstanFile.includes("ITIS treats both")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Himalayan Snowcock occurrence caveat must be equivalent in Russian and English");
+}
 if (!faunaKyrgyzstanFile.includes("This disagreement reflects different taxonomic concepts") ||
     !faunaKyrgyzstanFile.includes("fishcatget.asp?spid=53209") ||
     !faunaKyrgyzstanFile.includes("T. stoliczkae") ||
