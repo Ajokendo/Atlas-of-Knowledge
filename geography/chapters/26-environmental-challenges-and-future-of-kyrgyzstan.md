@@ -157,7 +157,7 @@ Water-saving technologies should be assessed at the river-basin scale. Improving
 
 Почвы и пастбища — основа сельской экономики и важный элемент водосборных экосистем. Деградация земель может проявляться как водная и ветровая эрозия, уплотнение, потеря органического вещества, засоление, опустынивание и снижение растительного покрова.
 
-UNEP в 2025 году сообщал, что около 70% пастбищ страны оцениваются как деградированные. Эту оценку следует приводить именно как международную агрегированную оценку, а не как результат единого полевого обследования каждого пастбищного участка. Для управленческих решений нужны местные данные о продуктивности, составе растительности, нагрузке скота, состоянии почв и сезонном использовании.
+UNEP в 2025 году сообщал, что около 70% пастбищ страны оцениваются как деградированные. Эту оценку следует приводить именно как международную агрегированную оценку, а не как результат единого полевого обследования каждого пастбищного участка. Для управленческих решений нужны местные данные о продуктивности, составе растительности, нагрузке скота, состоянии почв и сезонном использовании. Отдельное исследование, опубликованное в технической записке ООН/МФСР в 2021 году, оценивало изменения по спутниковым данным между периодами 2000–2004 и 2016–2020 годов и получило оценку, что 94% пастбищ (69 971 км²) испытывали деградацию хотя бы в течение одного сезона. Это не означает, что 94% пастбищ постоянно и одинаково сильно деградированы: показатель включает сезонное ухудшение и зависит от дистанционных индикаторов и принятого определения деградации. Оценки 70% и 94% относятся к разным аналитическим продуктам и не должны усредняться или трактоваться как прямая динамика.
 
 ### Причины деградации
 
@@ -184,7 +184,7 @@ UNEP в 2025 году сообщал, что около 70% пастбищ ст�
 
 Soils and pastures are the foundation of the rural economy and an important part of catchment ecosystems. Land degradation may take the form of water and wind erosion, soil compaction, loss of organic matter, salinisation, desertification and reduced vegetation cover.
 
-In 2025, UNEP reported that about 70% of the country's pastures were estimated to be degraded. This figure should be presented as an aggregated international estimate, not as the result of a single field survey covering every pasture parcel. Local management decisions require data on productivity, vegetation composition, livestock pressure, soil condition and seasonal use.
+In 2025, UNEP reported that about 70% of the country's pastures were estimated to be degraded. This figure should be presented as an aggregated international estimate, not as the result of a single field survey covering every pasture parcel. Local management decisions require data on productivity, vegetation composition, livestock pressure, soil condition and seasonal use. A separate study published in a 2021 UN/IFAD technical note used satellite data to compare 2000–2004 with 2016–2020 and estimated that 94% of pastures (69,971 km²) had experienced degradation during at least one season. This does not mean that 94% of pastures are permanently and uniformly degraded: the indicator includes seasonal deterioration and depends on remote-sensing measures and the adopted definition of degradation. The 70% and 94% estimates come from different analytical products and must not be averaged or treated as a direct time trend.
 
 ### Drivers of degradation
 
@@ -212,7 +212,7 @@ Pasture restoration should not be reduced to large-scale sowing of a single gras
 
 Леса Кыргызстана занимают сравнительно небольшую долю территории, но имеют непропорционально большое экологическое значение. Еловые леса Тянь-Шаня, арчовые редколесья, орехоплодовые леса Западного Тянь-Шаня, пойменные и кустарниковые сообщества обеспечивают местообитания, защиту почв, регулирование стока, накопление углерода и ресурсы для местных сообществ.
 
-По данным UNEP, лесной покров увеличился с 6,2% территории в 2000 году до 6,9% в 2023 году. Международный портал ЦУР ООН приводит иной ряд и иную методику: доля лесной площади выросла с 5,9% в 1990 году до 6,5% в 2025 году. Эти значения нельзя объединять в один временной ряд без сопоставления определений леса, исходных карт и методологии.
+По данным UNEP, лесной покров увеличился с 6,2% территории в 2000 году до 6,9% в 2023 году. Международный портал ЦУР ООН приводит иной ряд и иную методику: доля лесной площади выросла с 5,9% в 1990 году до 6,5% в 2025 году. Эти значения нельзя объединять в один временной ряд без сопоставления определений леса, исходных карт и методологии. В сообщении Министерства природных ресурсов от 16 октября 2026 года указана общая площадь лесов 1,273 млн га (6,4% территории); отдельно названа площадь земель Государственного лесного фонда, покрытых лесом, — 787 313,8 га, включая 47 244,2 га искусственных насаждений. Эти категории не тождественны: площадь лесов страны и площадь покрытых лесом земель Государственного лесного фонда имеют разный охват. Показатель министерства за 2026 год также не следует механически соединять с международным рядом ЦУР без проверки определения и методики.
 
 ### Главные угрозы
 
@@ -239,7 +239,7 @@ Pasture restoration should not be reduced to large-scale sowing of a single gras
 
 Forests cover a relatively small share of Kyrgyzstan's territory but have ecological importance far beyond their area. Tien Shan spruce forests, open juniper woodlands, walnut-fruit forests of the Western Tien Shan, riparian forests and shrub communities provide habitats, protect soils, regulate runoff, store carbon and support local livelihoods.
 
-According to UNEP, forest cover increased from 6.2% of the country's area in 2000 to 6.9% in 2023. The UN Sustainable Development Goals portal reports a different series using a different methodology: forest area increased from 5.9% in 1990 to 6.5% in 2025. These figures should not be combined into one time series without comparing forest definitions, source maps and methods.
+According to UNEP, forest cover increased from 6.2% of the country's area in 2000 to 6.9% in 2023. The UN Sustainable Development Goals portal reports a different series using a different methodology: forest area increased from 5.9% in 1990 to 6.5% in 2025. These figures should not be combined into one time series without comparing forest definitions, source maps and methods. A Ministry of Natural Resources release dated 16 October 2026 reports total forest area of 1.273 million hectares (6.4% of the country's territory); it separately gives 787,313.8 hectares of forest-covered State Forest Fund land, including 47,244.2 hectares of artificial plantations. These categories are not identical: total forest area in the country and forest-covered State Forest Fund land have different coverage. The Ministry's 2026 figure should not be mechanically merged with the international SDG series without checking definitions and methods.
 
 ### Main threats
 
@@ -963,6 +963,9 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 16. UNFCCC. Kyrgyzstan NDC 3.0 — official submission record and attachments. https://unfccc.int/node/650219
 17. National Statistical Committee of the Kyrgyz Republic. Protection and rational use of water resources: open data, 2021–2025 series. https://stat.gov.kg/en/opendata/category/3216/
 18. National SDG Indicators of the Kyrgyz Republic. Indicator 6.3.1: Proportion of domestic and industrial wastewater flows safely treated. https://sustainabledevelopment-kyrgyzstan.github.io/en/6-3-1/
+22. United Nations / International Fund for Agricultural Development. Technical Note: Pasture Condition Maps in Kyrgyzstan, 1 July 2021 (remote-sensing comparison of 2000–2004 and 2016–2020; seasonal degradation indicator). https://kyrgyzstan.un.org/en/176443-technical-note-pasture-condition-maps-kyrgyzstan
+23. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. “Total forest area in the country amounts to 1 million 273 thousand hectares”, 16 October 2026. https://www.mnr.gov.kg/ru/posts/news/obshhaya-ploshhad-lesov-v-strane-sostavlyaet-1-mln-273-tys-gektarov
+24. United Nations Statistics Division. SDG Country Profile: Kyrgyzstan, Goal 15 (forest-area series and protected-area coverage). https://unstats.un.org/sdgs/dataportal/countryprofiles/kgz?goal=15
 20. Central Asian Institute for Applied Geosciences (CAIAG). Catalogue of Glaciers of Kyrgyzstan: Landsat 8 inventory for 2013–2016 and comparison with the Soviet glacier catalogue. https://www.caiag.kg/en/departments/department-2-climate-water-and-natural-resources/current-activities
 21. United Nations Development Programme. “Glaciers of Kyrgyzstan: How they are disappearing” (glacier inventory, thresholds and comparison caveats). https://www.undp.org/kyrgyzstan/blog/glaciers-kyrgyzstan-how-they-are-disappearing
 19. Kaktus.media, citing Kyrgyzhydromet. Bishkek and surrounding districts recorded air-pollution exceedances, 17 October 2026 (monitoring period 9–15 October 2026). https://kaktus.media/555234
