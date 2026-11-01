@@ -143,3 +143,31 @@ Code checkpoints:
 - Ecology chapter: `dd54adaffed4f03289ad3e1d351d38373e9ee045`.
 - Static checks: `c8dce8ff328b7515f488fc4854eb36bec97f92df`.
 - Browser smoke: `da05d8e111da2a024806eea0c34a54a1610f860e`.
+
+
+## Population ecology content-development checkpoint — 1 November 2026
+
+Expanded `chapters/ecology.html` with a new bilingual learning section, **“How population size changes / Как меняется численность популяции”**. This is substantive chapter development, not branch-only auditing.
+
+The new section explains:
+- the four demographic processes that change population size: births, deaths, immigration and emigration;
+- idealised exponential growth (`dN/dt = rN`) and logistic growth (`dN/dt = rN(1 − N/K)`);
+- environmental carrying capacity and why it is not a fixed universal constant;
+- density-dependent and density-independent limiting factors;
+- why model curves are explanatory simplifications and not automatic forecasts for real populations.
+
+Added an accessible SVG comparison of J-shaped exponential and S-shaped logistic curves, with a labelled carrying-capacity line and bilingual visible labels. The section uses the chapter's existing RU/EN language-switch convention and responsive learning-block layout.
+
+Focused source verification after the commit confirmed:
+- section anchor `population-dynamics` exists;
+- both growth-model equations and both limiting-factor categories are present;
+- bilingual label spans are present;
+- the SVG has an accessible title/description association.
+
+**Execution limitation:** this was source-level inspection only. No browser, Node.js, or full project test suite was executed in this checkpoint. The chart and explanatory copy still warrant a visual/browser review.
+
+Image-planning registers were not changed; the existing 52 planned/deferred image placements remain untouched. No image asset was generated or marked complete.
+
+Code commit: `108b94c5394f06f6f1a5d36b7f78ad3c2b4fd462`.
+
+Progress reporting note: overall Atlas completion remains a provisional project estimate until a chapter-by-chapter rubric is recalculated. This content checkpoint is complete at source level; visual and automated test verification remain open.
