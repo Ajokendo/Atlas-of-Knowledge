@@ -296,3 +296,13 @@
 - checks.mjs, browser tests, mobile checks and CI were not run; no test success is claimed.
 - Repeat-audit coverage: 40%. Controlled editorial readiness: 95/100. G4 scientific sign-off and G5 editorial/language sign-off remain open.
 
+
+
+## Repeat-audit milestone — 50% — 1 November 2026
+
+- Corrected the Kyrgyzstan amphibian checklist page date to its displayed 12 October 2026 generation date; the current regional GBIF checklist is version 1.18, published 26 October 2026, and covers five Central Asian countries.
+- Preserved the Kyrgyzstan page's 7-species / 2-subspecies listing and its 4 resident / 3 unconfirmed species split without conflating country-level presence, taxonomy or conservation status.
+- Audited the full 2021 green-toad paper: 209 adult males / 14 localities are shared across Kazakhstan and Kyrgyzstan; six localities and 117 specimens are in Kyrgyzstan. Corrected the scope wording and added regression guards.
+- Read-back verified the updated species audit and checks source. `checks.mjs` itself was not run; no test success is claimed.
+- The 52 image insertion anchors and 52 Deferred disposition entries remain intact; no visual asset was added.
+- Repeat-audit coverage: 50%. Controlled editorial readiness: 95/100. G4 scientific review and G5 editorial/language review remain open.
