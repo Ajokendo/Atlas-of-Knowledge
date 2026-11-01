@@ -111,20 +111,20 @@ export function buildWorld(E) {
       const fx = xc + s * sp;
       if (snowshoe) body(box(sole.w, 0.02, sole.l, 0.008), 'dark', [fx, TOP + 0.01, 0.06], 'Снегоступы');
       body(box(0.1, 0.07, 0.25, 0.02), 'ink', [fx, base + 0.035, 0.06], 'Обувь');
-      body(cyl(0.055, 0.82, 20), 'paper', [fx, base + 0.07 + 0.41, 0], 'Body');
+      body(cyl(0.055, 0.82, 20), 'paper', [fx, base + 0.07 + 0.41, 0], 'Тело');
       // the contact patch on the snow
       part(g1, box(sole.w, 0.004, sole.l, 0.001), { tone: 'lo', name: 'Площадь контакта', mat: shadeMat('dark', { opacity: 0.45 }), pos: [fx, TOP + 0.002, 0.06] });
       // one arrow per 125 cm² of contact, as long as the pressure is high
       const nx = snowshoe ? 2 : 1, nz = snowshoe ? 8 : 2;
       for (let i = 0; i < nx; i++) for (let k = 0; k < nz; k++) {
-        const a = small(g1, 'ink', 'Pressure', 1.1), at = V(fx + (i + 0.5 - nx / 2) * sole.w / nx, TOP, 0.06 + (k + 0.5 - nz / 2) * sole.l / nz);
+        const a = small(g1, 'ink', 'Давление', 1.1), at = V(fx + (i + 0.5 - nx / 2) * sole.w / nx, TOP, 0.06 + (k + 0.5 - nz / 2) * sole.l / nz);
         pArrows.push([a, at, P]);
       }
     }
-    body(box(0.4, 0.62, 0.22, 0.06), 'paper', [xc, base + 0.89 + 0.31, 0], 'Body');
-    body(new THREE.SphereGeometry(0.11, 24, 16), 'paper', [xc, base + 1.66, 0], 'Body');
-    for (const s of [-1, 1]) body(cyl(0.042, 0.6, 16), 'paper', [xc + s * 0.25, base + 1.17, 0], 'Body');
-    label('mark', `${snowshoe ? 'snowshoes' : 'shoes'} · ${(P / 1000).toFixed(1)} kPa`, () => V(xc, base + 2.0 + 0.55 * ex(g1), 0));
+    body(box(0.4, 0.62, 0.22, 0.06), 'paper', [xc, base + 0.89 + 0.31, 0], 'Тело');
+    body(new THREE.SphereGeometry(0.11, 24, 16), 'paper', [xc, base + 1.66, 0], 'Тело');
+    for (const s of [-1, 1]) body(cyl(0.042, 0.6, 16), 'paper', [xc + s * 0.25, base + 1.17, 0], 'Тело');
+    label('mark', `${snowshoe ? 'снегоступы' : 'обувь'} · ${(P / 1000).toFixed(1)} кПа`, () => V(xc, base + 2.0 + 0.55 * ex(g1), 0));
   }
   person(X1 - 0.65, false); person(X1 + 0.65, true);
 
@@ -148,10 +148,10 @@ export function buildWorld(E) {
     dv(cyl(0.05, 0.62, 16), 'paper', [s * 0.27, -0.02, 0]);
   }
   const TOPD = 0.63, BOTD = 1.43, SIDE = 0.34;            // head top, fin tips, side reach from the chest
-  const dPress = { top: small(g2, 'ink', 'Pressure', 3.5), bot: small(g2, 'ink', 'Pressure', 3.5), l: small(g2, 'ink', 'Pressure', 3.5), r: small(g2, 'ink', 'Pressure', 3.5) };
-  const atm = [-1.8, -0.6, 0.6, 1.8].map(() => small(root, 'ink', 'Pressure', 3.5));
+  const dPress = { top: small(g2, 'ink', 'Давление', 3.5), bot: small(g2, 'ink', 'Давление', 3.5), l: small(g2, 'ink', 'Давление', 3.5), r: small(g2, 'ink', 'Давление', 3.5) };
+  const atm = [-1.8, -0.6, 0.6, 1.8].map(() => small(root, 'ink', 'Давление', 3.5));
   label('vec', '<i>P</i><sub>0</sub>', () => V(X2 + 2.2, D + 0.75, 0));
-  label('vec', '', () => V(X2 - 0.6 - SIDE - M.pAt(diveNow) * SC.lakeP / 2, D - diveNow + 0.75, 0), () => `<i>P</i> = ${(M.pAt(diveNow) / 1000).toFixed(0)} kPa`);
+  label('vec', '', () => V(X2 - 0.6 - SIDE - M.pAt(diveNow) * SC.lakeP / 2, D - diveNow + 0.75, 0), () => `<i>P</i> = ${(M.pAt(diveNow) / 1000).toFixed(0)} кПа`);
   const hBar = thinRod(g2, 0.012, 'ink', 'Depth h');
   label('vec', '', () => V(X2 + 3.3, D - diveNow / 2, 0), () => `<i>h</i> = ${diveNow.toFixed(1)} m`);
   // opened: the column of water above the diver, 1 m² across
@@ -180,14 +180,14 @@ export function buildWorld(E) {
   const F1a = force(g3, 'ink', 'Push', 0.6);
   label('vec', `<i>F</i><sub>1</sub> = ${PA.F1} N`, () => V(LX, pistL.position.y + 0.42, 0));
   label('mark', `${PA.load.toFixed(1)} кг · ${PA.F2.toFixed(0)} Н`, () => V(RX, load.position.y + 0.3, 0));
-  const under = [small(g3, 'ink', 'Pressure', 1.15)];
+  const under = [small(g3, 'ink', 'Давление', 1.15)];
   const aG = Math.sqrt(PA.A1);                       // one arrow per A1 of piston face
-  for (let i = 0; i < 4; i++) for (let k = 0; k < 4; k++) under.push(small(g3, 'ink', 'Pressure', 1.15));
+  for (let i = 0; i < 4; i++) for (let k = 0; k < 4; k++) under.push(small(g3, 'ink', 'Давление', 1.15));
   const underAt = [[0, 0]]; for (let i = 0; i < 4; i++) for (let k = 0; k < 4; k++) underAt.push([(i - 1.5) * aG, (k - 1.5) * aG]);
   label('tick', '<i>A</i><sub>1</sub>', () => V(LX - PA.r1 - 0.04, pistL.position.y, 0));
   label('tick', '<i>A</i><sub>2</sub> = 16 <i>A</i><sub>1</sub>', () => V(RX + PA.r2 + 0.5, pistR.position.y, 0));
   // opened: the same extra pressure on every wall
-  const walls = Array.from({ length: 10 }, () => small(g3, 'ink', 'Pressure', 1.15));
+  const walls = Array.from({ length: 10 }, () => small(g3, 'ink', 'Давление', 1.15));
 
   // =====================================================================================
   // 4 · buoyancy: an aluminium cube lowered into a tank
@@ -234,8 +234,8 @@ export function buildWorld(E) {
     outline(ghost, ghost.geometry, [0, 0, 0], edgeMat);
     floaters.push({ x, y, c, W: c.W, Fb: c.Fb, fbY: L5 - c.draft / 2, ghost });
   };
-  fl(X5 - 1.55, M.WOOD, shadeMat('base'), 'Wooden block');
-  fl(X5 - 0.75, M.ICE, shadeMat('paper', { opacity: 0.6 }), 'Ice');
+  fl(X5 - 1.55, M.WOOD, shadeMat('base'), 'Деревянный брусок');
+  fl(X5 - 0.75, M.ICE, shadeMat('paper', { opacity: 0.6 }), 'Лёд');
   const BX5 = X5 + 0.1, BY5 = 0.02 + M.BALL.r;
   part(g5, new THREE.SphereGeometry(M.BALL.r, 32, 20), { tone: 'hi', pal: 'dark', pos: [BX5, BY5, 0], name: 'Стальной шар' });
   const ballGhost = new THREE.Mesh(new THREE.SphereGeometry(M.BALL.r, 32, 20), shadeMat('blue', { opacity: 0.45 })); ballGhost.userData = { noEdge: true, home: V(BX5, BY5, 0), ex: V(0, 1.4, 0) }; g5.add(ballGhost);
@@ -256,8 +256,8 @@ export function buildWorld(E) {
   const pct = x => `${(100 * x).toFixed(0)}% under`;
   label('mark', `wood · ${pct(M.WOOD.draft / M.WOOD.s)}`, () => V(X5 - 1.55, L5 + 0.5, 0));
   label('mark', `ice · ${pct(M.ICE.draft / M.ICE.s)}`, () => V(X5 - 0.75, L5 + 0.5, 0));
-  label('mark', 'steel ball · sinks', () => V(BX5, L5 + 0.5, 0));
-  label('mark', 'steel ship · floats', () => V(SX, L5 + 0.5, 0));
+  label('mark', 'стальной шар · тонет', () => V(BX5, L5 + 0.5, 0));
+  label('mark', 'стальной корабль · держится на воде', () => V(SX, L5 + 0.5, 0));
 
   // =====================================================================================
   // 6 · continuity: a pipe that narrows
@@ -294,11 +294,11 @@ export function buildWorld(E) {
   const bArrows = [];
   BE.pts.forEach((p, k) => {
     const c = V(X7 + p.x, PY7 + p.y, 0);
-    const out = [V(0, 1, 0), V(0, -1, 0)].map(n => { const a = small(g7, 'ink', 'Pressure', 2.2); setArrow(a, c.clone().addScaledVector(n, p.r), n.clone().multiplyScalar(p.P * SC.bernP)); return a; });
+    const out = [V(0, 1, 0), V(0, -1, 0)].map(n => { const a = small(g7, 'ink', 'Давление', 2.2); setArrow(a, c.clone().addScaledVector(n, p.r), n.clone().multiplyScalar(p.P * SC.bernP)); return a; });
     const va = force(g7, 'blue', 'Velocity', 0.8); setArrow(va, c.clone().add(V(-p.v * SC.bernV / 2, 0, 0)), V(p.v * SC.bernV, 0, 0));
     bArrows.push(out);
     label('mark', `${k + 1}`, () => V(c.x, c.y + p.r + p.P * SC.bernP + 0.16, 0));
-    label('tick', `${(p.P / 1000).toFixed(0)} kPa`, () => V(c.x - 0.06, c.y - p.r - p.P * SC.bernP - 0.1, 0));
+    label('tick', `${(p.P / 1000).toFixed(0)} кПа`, () => V(c.x - 0.06, c.y - p.r - p.P * SC.bernP - 0.1, 0));
   });
   // opened: the energy per volume as three stacked bars behind each point
   const barGeo = box(0.32, 1, 0.32, 0.006).translate(0, 0.5, 0);
@@ -307,7 +307,7 @@ export function buildWorld(E) {
     const seg = [['paper', p.P, 'Pressure P'], ['blue', p.K, 'Kinetic ½ρv²'], ['dark', p.U, 'Potential ρgy']].map(([pal, val, name]) => ({ m: part(g7, barGeo, { tone: 'hi', pal, pos: [bx, 0.02, bz], name }), val }));
     return seg;
   });
-  label('tick', '', () => ex(g7) > 0.5 ? V(X7 + BE.pts[0].x - 0.2, 0.02 + BE.E * SC.bar, -1.2) : null, () => `${(BE.E / 1000).toFixed(0)} kPa`);
+  label('tick', '', () => ex(g7) > 0.5 ? V(X7 + BE.pts[0].x - 0.2, 0.02 + BE.E * SC.bar, -1.2) : null, () => `${(BE.E / 1000).toFixed(0)} кПа`);
 
   // =====================================================================================
   // 8 · Torricelli: a tank on a block, draining through a hole
