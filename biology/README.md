@@ -1025,3 +1025,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Generated a standalone square alpine-flower concept (ImageGen ID `e4c6a92e-803e-4c4e-9b1f-d9ff6fe68671`) and created local WebP `biology-fritillary-like-flower-standalone-candidate.webp` (1254×1254).
 - It is only visually fritillary-like; no genus/species attribution or Kyrgyzstan locality is claimed. Expert botanical review is required.
 - Local-only, uncommitted and unapproved. Existing 52 image markers remain Deferred. Readiness remains 95/100.
+
+
+## Seventh illustration production attempt — 1 November 2026
+
+- Generated standalone snow-leopard-like wildlife concept (ImageGen ID `52ae788d-57df-49ea-ade4-598d8f1ad812`); local WebP candidate `biology-snow-leopard-standalone-candidate.webp` (1254×1254).
+- It is generated concept art, not a field record; no location, individual, behavior or population is inferred. Anatomical/zoological review remains required.
+- Local-only, uncommitted and unapproved. The repeated flower attempt was not counted as a new candidate. Markers remain unchanged; readiness remains 95/100.
