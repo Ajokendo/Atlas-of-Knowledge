@@ -437,8 +437,9 @@ if (!imageScientificReview.includes("country-level presence is not") && !imageSc
 if (!imageInsertionMap.includes("Fritillaria eduardii") || !imageInsertionMap.includes("синоним") || !imageInsertionMap.includes("вытаптывание")) errors.push("IMAGE_INSERTION_MAP.md must carry the corrected, conservation-safe Aygul illustration brief");
 if (!imageScientificReview.includes("does not publish the full taxon list") ||
     !imageScientificReview.includes("disputed Suusamyr") ||
-    !imageScientificReview.includes("unpublished 14-taxon Kempir-Abad list")) {
-  errors.push("IMAGE_SCIENTIFIC_REVIEW.md: freshwater illustration constraints must not invent or prematurely label new fish records");
+    !imageScientificReview.includes("unpublished 14-taxon Kempir-Abad list") ||
+    !imageScientificReview.includes("not as an additional species")) {
+  errors.push("IMAGE_SCIENTIFIC_REVIEW.md: freshwater illustration constraints must not invent or prematurely label new fish records or duplicate synonym taxa");
 }
 
 
@@ -585,13 +586,16 @@ if (!regionalSpeciesAudit.includes("Kempir-Abad basin fish expedition (30 July�
 if (!faunaKyrgyzstanFile.includes("10.36979/1694-500X-2025-25-12-159-166") ||
     !faunaKyrgyzstanFile.includes("Triplophysa stoliczkai") ||
     !faunaKyrgyzstanFile.includes("Triplophysa elegans") ||
+    !faunaKyrgyzstanFile.includes("Diptychus gymnogaster") ||
+    !faunaKyrgyzstanFile.includes("should not be counted as separate species") ||
     !faunaKyrgyzstanFile.includes("not be used as a settled total")) {
-  errors.push("chapters/fauna-kyrgyzstan.html: Suusamyr fish study must retain its DOI, author-reported name and unresolved count/taxonomy caveats");
+  errors.push("chapters/fauna-kyrgyzstan.html: Suusamyr fish study must retain its DOI, author-reported names, synonymy and unresolved count/taxonomy caveats");
 }
 if (!regionalSpeciesAudit.includes("Suusamyr Valley fish survey (fieldwork 2024; published 2025)") ||
     !regionalSpeciesAudit.includes("not infer a settled 4+1 total") ||
+    !regionalSpeciesAudit.includes("D. gymnogaster` as a synonym of `D. maculatus") ||
     !regionalSpeciesAudit.includes("voucher/specimen review")) {
-  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Suusamyr fish evidence must retain its internal count discrepancy and specimen-review requirement");
+  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Suusamyr fish evidence must retain its count discrepancy, osman synonym and specimen-review requirement");
 }
 
 if (errors.length) {
