@@ -396,6 +396,13 @@ for (const [label, html] of [["flora", floraKyrgyzstanAuditFile], ["fauna", faun
   }
 }
 
+
+for (const [label, html] of [["flora", floraKyrgyzstanAuditFile], ["fauna", faunaKyrgyzstanAuditFile]]) {
+  if (!html.includes('id="regional-evidence-reading-guide"')) errors.push(label + " regional chapter must explain how to interpret local, historical and national evidence");
+  if (!html.includes("../KYRGYZSTAN_SPECIES_AUDIT.md")) errors.push(label + " regional chapter must link to the seven-oblast species-evidence audit");
+  if (!html.includes("Suitable habitat is ecological context") || !html.includes("not population estimates")) errors.push(label + " regional evidence guide must distinguish habitat, detections and population estimates");
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
