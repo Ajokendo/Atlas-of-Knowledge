@@ -152,3 +152,10 @@
 - Produced one distinct local horizontal WebP candidate: a large eagle in flight over alpine mountains (1536×1024). It is intended as a golden-eagle concept, but requires ornithological review before taxonomic labelling.
 - Generation provenance and caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. The asset is local-only, not committed or inserted.
 - No marker changed; all 52 image dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Ninth illustration production attempt — 1 November 2026
+
+- Generated a local perched golden-eagle concept variant (1536×1024; ImageGen provenance and review caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`). This is a visual variant of the eagle subject, not a new taxon and not completion of the P1 bird plate.
+- The WebP remains local-only, uncommitted and uninserted. No chapter content or image marker was changed.
+- All 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
