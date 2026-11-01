@@ -186,3 +186,10 @@
 - Recorded another rejected monal-like gamebird duplicate in the image review log; no new candidate was accepted.
 - Corrected the disposition register to distinguish local-only concept drafts from approved, committed and integrated publication assets. No approved raster image is present in `biology/images/generated/`; all 52 mapped assets remain Deferred.
 - Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## User-provided bird image review — 1 November 2026
+
+- Reviewed a user-provided bird image as a possible Himalayan snowcock visual study. A local WebP review copy was created; it remains uncommitted and uninserted.
+- Plumage has some relevant high-altitude gamebird traits, but visible throat/face markings do not clearly match the regional adult description for `Tetraogallus himalayensis`. Species identity, local subspecies context, authorship/licence and provenance require verification. The single-bird image cannot complete the mapped multi-habitat 16:9 plate.
+- No marker or disposition changed. All 52 assets remain Deferred; controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
