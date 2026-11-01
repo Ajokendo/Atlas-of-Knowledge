@@ -181,6 +181,10 @@ try {
         errors.push(file + ": dynamic bond explanation is not announced to assistive technology");
       }
       await page.locator('[data-type="ionic"]').click();
+      if (await page.locator("#visual svg").getAttribute("role") !== "img" ||
+          !(await page.locator("#visual svg").getAttribute("aria-label")).includes("Ионная связь · NaCl")) {
+        errors.push(file + ": ionic bond diagram is missing its Russian accessible name");
+      }
       if (await page.locator('[data-type="ionic"]').getAttribute("aria-pressed") !== "true" ||
           await page.locator('[data-type="covalent"]').getAttribute("aria-pressed") !== "false") {
         errors.push(file + ": active ionic bond type is not exposed to assistive technology");
@@ -199,6 +203,9 @@ try {
         errors.push(file + ": Russian ionic conductivity explanation is incomplete");
       }
       await page.locator("#lang").click();
+      if (!(await page.locator("#visual svg").getAttribute("aria-label")).includes("Ionic bonding · NaCl")) {
+        errors.push(file + ": ionic bond diagram accessible name did not switch to English");
+      }
       if (!(await page.locator("#detailText").innerText()).includes("crystal lattice")) {
         errors.push(file + ": ionic bonding clarification is missing in English");
       }
