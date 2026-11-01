@@ -1087,3 +1087,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Reviewed a user-provided 1536×1024 bird image and created a local WebP review copy (`biology-himalayan-snowcock-user-candidate.webp`, 345,724 bytes; not committed).
 - The overall alpine gamebird form and chestnut neck markings are relevant, but the dark throat/face pattern does not clearly match the regional description of adult `Tetraogallus himalayensis` (white throat/neck bordered by rufous, spotted creamy crop, darker grey belly). Species identity, local subspecies context, source and licence need expert verification.
 - It is a single bird, not the complete mapped 16:9 three-habitat bird plate. No insertion or marker status change; all 52 mapped assets remain Deferred. See `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+
+
+## Eleventh illustration production attempt — 1 November 2026
+
+- Generated a horizontal black-stork-at-alpine-wetland concept (ImageGen ID `dff4afc7-e1b8-4f79-9a10-fc7e333c4795`); local WebP `biology-black-stork-wetland-candidate.webp` (1672×941, 346,448 bytes).
+- Red bill and legs, dark iridescent upperparts and white underparts broadly fit the intended `Ciconia nigra` study, but species/anatomical review remains required. The wetland setting is regionally plausible; the generated scene is not a field record or verified Son-Kul photograph.
+- Local-only, uncommitted, uninserted and unapproved. It supplies only the wetland portion of the 16:9 bird plate; cliff-raptor and alpine-ground-bird components remain necessary. All 52 mapped image assets remain Deferred; controlled readiness remains 95/100 and G4/G5 remain open. See `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
