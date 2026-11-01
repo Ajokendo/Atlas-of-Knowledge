@@ -799,6 +799,10 @@ Using a prepared teaching map excerpt:
 20. National Geographic Society. *Weathering*. https://education.nationalgeographic.org/resource/weathering/
 21. U.S. National Park Service. *Plateaus and Mesas*. https://www.nps.gov/subjects/nnlandmarks/plateaus-and-mesas.htm
 22. Jiang, T. et al. (2022). *Determining the new height of Mount Qomolangma based on the International Height Reference System*. Journal of Geodesy and Geoinformation Science. https://doi.org/10.1080/10095020.2022.2128901
+23. British Geological Survey. *Deposition*. https://www.bgs.ac.uk/discovering-geology/geological-processes/deposition/
+24. NOAA National Ocean Service. *What Is a Barrier Island?* https://oceanservice.noaa.gov/facts/barrier-islands.html
+25. U.S. National Park Service. *Sandy Coast Landforms*. https://www.nps.gov/articles/sandy-coast-landforms.htm
+26. U.S. Geological Survey. *Find-A-Feature: Meander*. https://www.usgs.gov/educational-resources/find-feature-meander
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
