@@ -105,3 +105,39 @@ These are reference aids for terminology, not substitutes for specialist review 
 - `e1242b734f77b1b674467cf8e136563c26c92546`, `c0a5e8aa5a59e97ac9b75088eeb93a776325d187`, `f89790b89d0eccff4fbbeb91df471849dd056950` — navigation and interactive-label alignment.
 - `5f4eee063e2114da3a8b568d3a00db5fa9ba153e`, `a5fae9b48818d9f5bfeae855f1c87d1e0a3765ef`, `d919115edce3e3174373fa79e206752f831490d5` — central image register and bilingual brief synchronisation.
 
+
+## Block 3 — anatomy, zoology, systematics and evolution (complete)
+
+### Files reviewed
+- `biology/chapters/anatomy.html`
+- `biology/chapters/zoology.html`
+- `biology/chapters/systematics.html`
+- `biology/chapters/evolution.html`
+
+### Structural bilingual checks
+
+- Anatomy and Physiology: 81 Russian and 81 English inline language spans.
+- Zoology: 58 Russian and 58 English spans.
+- Systematics: 41 Russian and 41 English spans.
+- Evolutionary Biology: 58 Russian and 58 English spans.
+- No duplicate HTML IDs found in these four files.
+- No unusually short/long paired language fragments were detected by the length-ratio screen. This heuristic does not prove semantic equivalence.
+
+### Editorial findings and corrections
+
+1. **Anatomy and Physiology.** Checked the levels-of-organisation introduction, cardiovascular and respiratory vocabulary, kidney/nephron and homeostasis explanations, nervous-system terminology, and the newly expanded musculoskeletal/endocrine section against the learning objectives and glossary. Corrected the remaining American spelling in the English reference description from “organization” to “organisation”. The official OpenStax source title “Structural Organization of the Human Body” is intentionally retained verbatim.
+2. **Zoology.** Checked the distinction between vertebrates and invertebrates, the umbrella/non-clade status of “invertebrates”, the vertebrate-group caveat that fish are paraphyletic and birds are nested within reptiles, and the new animal-behaviour section. Innate/learned behaviour, migration/communication and proximate/evolutionary explanations are paired correctly in Russian and English. The source title “Behavioral Biology” retains the publisher's official spelling; the chapter's own prose uses British “behaviour”.
+3. **Systematics.** Checked the three-domain model alongside the qualified two-domain phylogenomic hypothesis, taxonomic rank hierarchy, binomial nomenclature, clade/common-ancestor vocabulary and phylogenetic-tree explanations. The quiz and explanatory text preserve the caveat that some phylogenomic models place the eukaryotic lineage within Archaea. “National Center for Biotechnology Information” is retained as the institution's official name.
+4. **Evolution.** Checked the definitions of natural selection, genetic drift, heritable variation, homology, clades, common ancestry and speciation against the chapter's interactive models, quiz and learning objectives. British English spelling (including “colour” and “behaviour”) is used in chapter prose.
+
+### Verification
+
+GitHub Actions run `41313876648` on commit `614caf54dbf689d6a95df47bee7b55c99a4c6f58` completed successfully:
+- static Biology page, local-link, bilingual numeric-parity and scientific-name checks passed;
+- Chromium installed and local site started;
+- browser smoke tests for every Biology page passed.
+
+### Commit
+
+- `614caf54dbf689d6a95df47bee7b55c99a4c6f58` — standardise British English in the Anatomy reference description.
+
