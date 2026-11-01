@@ -984,3 +984,6 @@ The current marker additions are production instructions/placeholders only; no g
 - Updated README language-status note: commit `b2d8bbe13dbde6a9531b02701a2cd7578ddffa3e`; blob `a6c260bcd9eca1bfa5b305404743cd9322f1621c`.
 - Updated editorial readiness matrix website row: commit `cd3327ddaa6a85533ce94bf10c1ffc9b7dc1c937`; blob `d35ff8f405667289ca0a4679f41e69b2f937324b`.
 - Browser-based interaction testing and in-chapter language filtering remain outstanding; no claim is made that the full reader is complete.
+
+
+- Landing-page link verification: all 26 chapter links were compared against the actual `geography/chapters/` directory on the canonical branch; all targets exist, all 26 are unique, and each title/description pair has RU and EN values. This is a static content/path check, not a browser interaction test.
