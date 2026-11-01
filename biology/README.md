@@ -747,3 +747,16 @@ The remaining five percentage points are reserved for evidence, not additional p
 - [ ] **G6 — Illustration disposition:** retain all 52 mapped placeholders until each intended image is produced or explicitly deferred with rationale, source/licence, scientific review and correct integration. The presence of a placeholder is not image completion.
 
 **Control rule:** keep the readiness score at 95/100 while any required gate remains unchecked. The branch is not release-certified by this checklist alone. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
+
+
+## Source-level structure audit — 1 November 2026
+
+A read-only audit of the 13 HTML pages on `workspace/biology` confirmed:
+
+- All 13 pages contain a declared document language, a responsive viewport declaration, a main landmark, a language-switch control and code to update the document language.
+- All 13 pages contain both Russian and English content markers in balanced pairs.
+- No duplicate HTML IDs were found within any individual page.
+- The illustration inventory remains exactly 52 mapped placeholders, with 52 unique anchor IDs and 52 unique target filenames; all 52 page anchors match the central map in both directions.
+- These are source-level checks against the current GitHub file contents. They do **not** replace execution of `checks.mjs`, browser automation, the CI workflow, real-device testing or expert review.
+
+Latest documentation checkpoint: `dc9619cad1c296597b7782c18e14f22175d67ee9`. Keep the readiness score at **95/100** until the remaining release gates have actual evidence.
