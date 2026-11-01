@@ -610,14 +610,14 @@ Do not simply average the two national indicators: (20,000 + 10,000) / 2 = USD 1
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. United Nations Statistics Division. **Standard Country or Area Codes for Statistical Use (M49)** — статистическая группировка стран и территорий.
-2. United Nations Development Programme. **Human Development Reports** — показатели человеческого развития и методология ИЧР.
-3. World Bank. **World Development Indicators** — сопоставимые социально-экономические показатели.
-4. United Nations Environment Programme. **Global Environment Outlook** — глобальные и региональные экологические оценки.
-5. World Meteorological Organization. **State of the Climate** reports — климатические наблюдения и оценки.
-6. Intergovernmental Panel on Climate Change. **Assessment Reports** — научная оценка изменения климата и региональных рисков.
-7. Food and Agriculture Organization of the United Nations. **FAOSTAT** — аграрная статистика и землепользование.
-8. United Nations. **Antarctic Treaty System** — тексты договора и связанных документов.
+1. United Nations Statistics Division. **Standard Country or Area Codes for Statistical Use (M49)** — statistical grouping of countries and areas. https://unstats.un.org/unsd/methodology/m49/
+2. United Nations Development Programme. **Human Development Reports** — human-development indicators and HDI methodology. https://hdr.undp.org/
+3. World Bank. **World Development Indicators** — comparable socioeconomic indicators. https://databank.worldbank.org/source/world-development-indicators
+4. United Nations Environment Programme. **Global Environment Outlook** — global and regional environmental assessments. https://www.unep.org/global-environment-outlook
+5. World Meteorological Organization. **State of the Global Climate** reports — climate observations and assessments. https://wmo.int/publication-series/state-of-global-climate
+6. Intergovernmental Panel on Climate Change. **Assessment Reports** — scientific assessments of climate change and regional risks. https://www.ipcc.ch/reports/
+7. Food and Agriculture Organization of the United Nations. **FAOSTAT** — agricultural statistics and land use. https://www.fao.org/faostat/en/#data
+8. United Nations. **Antarctic Treaty System** — treaty texts and related documents. https://www.ats.aq/e/ats.htm
 9. National Geographic Society. **Encyclopedic and educational geography resources** — справочные материалы по физической и региональной географии.
 10. Knox, P., Marston, S., Imort, M. **Human Geography: Places and Regions in Global Context**. Pearson.
 
