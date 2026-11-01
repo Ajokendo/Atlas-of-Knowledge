@@ -145,3 +145,10 @@
 - Three additional generation attempts repeated the existing snow-leopard scene and were rejected as duplicates; they are not counted as new assets.
 - Audited the P1 `fauna-birds.webp` insertion brief against the actual fauna chapter. The named examples include golden eagle (`Aquila chrysaetos`), bearded vulture (`Gypaetus barbatus`), Himalayan snowcock (`Tetraogallus himalayensis`) and black stork (`Ciconia nigra`), plus separately described wetland birds. The intended plate must preserve distinct cliff, alpine and wetland settings.
 - This was a quality-control/documentation checkpoint, not a completed illustration. No image was committed or inserted. All 52 markers remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests or CI were run.
+
+
+## Eighth illustration production attempt — 1 November 2026
+
+- Produced one distinct local horizontal WebP candidate: a large eagle in flight over alpine mountains (1536×1024). It is intended as a golden-eagle concept, but requires ornithological review before taxonomic labelling.
+- Generation provenance and caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. The asset is local-only, not committed or inserted.
+- No marker changed; all 52 image dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
