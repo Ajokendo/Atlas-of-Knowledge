@@ -65,3 +65,10 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Full Chemistry CI run [41341324210](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41341324210) completed with `status=completed` and `conclusion=success` on commit `76d4899c3da587dbae516f66ebcf199cb22bc0dc`.
 
 - [x] Expanded ideal-gas regression coverage for all three slider bounds/steps, pressure response to amount and volume, and particle-count scaling. Full Chemistry CI run [41341571748](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41341571748) completed with `status=completed` and `conclusion=success` on commit `0f2ab4010ac27389fe573697c57a31105f2ee1e6`.
+
+### Acid–base virtual laboratory regression checkpoint — 2026-11-02
+
+- [x] Extended Chromium checks for the initial 0.10 mol/L strong-acid pH, strong-base excess, equivalence-volume scaling when acid volume is doubled, and equivalence-volume scaling when base concentration is doubled.
+- [x] Checked bilingual equivalence status and volume units, plus rejection of an acid concentration above the model's declared range without leaving stale visual output.
+- [x] The first run exposed an incorrect expected volume in the newly added test (the test used 100 mL where 200 mL was required after doubling the acid volume). The test scenario was corrected; no chemistry-model code change was needed.
+- [x] Full Chemistry CI run [41342268215](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41342268215) completed with `status=completed` and `conclusion=success` on commit `bd2cf5322ced0019128c1c71e3b35e633e0b0496`.
