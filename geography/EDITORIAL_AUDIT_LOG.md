@@ -1059,3 +1059,14 @@ The current marker additions are production instructions/placeholders only; no g
 - Scope limitation: this is a targeted source and bilingual parity pass, not final scientific sign-off. The chapter's remaining volcanic, structural geology, geochronology, resource and hazard sections still need claim-by-claim source verification; no browser, mobile or accessibility test is implied.
 
 - Final terminology correction after post-commit text verification: the original bullet marker prevented the first automated replacement from matching. Replaced the Russian and English hypocentre definitions in the actual bullet lines; both now define the hypocentre as the point where rupture begins, while noting that teaching diagrams may depict a small area. Follow-up commit: `fac3ab0d3e4005684eee1b46946918df1a0df2fa`; chapter blob: `1efc351fb85074e4590d92d15acb7b8ea8e19143`.
+
+
+## Follow-up scientific/source audit — Chapter 03 (2 November 2026)
+
+- Rechecked the bilingual Chapter 03 file against current authoritative online material. The USGS *Inside the Earth* source supports the compositional layers and approximate mantle/core boundary; USGS plate-motion material supports the broad range of observed rates and distinguishes present-day geodetic measurements from geological averages. The ICS 2026/06 chart remains the correct current chronostratigraphic reference.
+- Refined the plate-motion sentence in Russian and English: it now states that rates vary from below 1 cm/year to above 15 cm/year in some regions, rather than implying that all rates fit only within a few centimetres per year. This is a broad explanatory range, not a universal constant for every plate.
+- Refined the caldera definition in both languages. Collapse may follow substantial withdrawal or eruption of magma from a shallow reservoir; the wording no longer implies that the entire magmatic system must be emptied.
+- Added current, directly relevant bibliography entries for USGS earthquake magnitude/energy/intensity; USGS volcanic-hazard glossary; USGS landslide definition and causes; USGS mineral-resource assessment definitions; and BGS rocks/minerals and rock-cycle material. The existing IRIS lesson citation is updated to reflect its current NSF SAGE/EarthScope presentation.
+- Added the missing Russian numbering for the worked example as section 3.9.4 to match the English section.
+- Chapter file was saved in commit `69a7ebf01c4613bf390ebedd35eb3cb918e5f671`; the readiness matrix was updated in commit `7390a061afc4aa684c9c2417c8118b031f8bc7f9`.
+- Scope limitation: this is a targeted, source-backed correction pass. It is not final scientific sign-off, exhaustive verification of every statement, or a final bilingual proofread. The numerical ranges and geochronology references still require a full final check; no visual, browser, mobile or accessibility tests are claimed.
