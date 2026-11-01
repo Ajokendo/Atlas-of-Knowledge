@@ -389,7 +389,7 @@ if (!regionalSpeciesAudit.includes("national checklist") || !regionalSpeciesAudi
 if (!regionalSpeciesAudit.includes("Red Data Book") || !regionalSpeciesAudit.includes("IUCN")) errors.push("Regional species audit must keep national and IUCN conservation systems distinct");
 if (!regionalSpeciesAudit.includes("GBIF") || !regionalSpeciesAudit.includes("Occurrence data quality requirements")) errors.push("Regional species audit must retain authoritative occurrence-data methodology links");
 for (const [label, html] of [["flora", floraKyrgyzstanAuditFile], ["fauna", faunaKyrgyzstanAuditFile]]) {
-  const oblastHeadings = [...html.matchAll(/<h[23]\\b[^>]*>([\\s\\S]*?)<\\/h[23]>/gi)].map(m => m[1]);
+  const oblastHeadings = [...html.matchAll(/<h[23]\b[^>]*>([\s\S]*?)<\/h[23]>/gi)].map(m => m[1]);
   const expected = ["Jalal-Abad", "Issyk-Kul", "Naryn", "Osh", "Batken", "Talas", "Chuy"];
   for (const oblast of expected) {
     if (!oblastHeadings.some(h => h.includes(oblast))) errors.push(label + " regional chapter is missing the " + oblast + " oblast section heading");
