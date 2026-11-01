@@ -144,6 +144,11 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-H / IMAGE PLACEHOLDER 19-H]** Схема дневной и ночной горно-долинной циркуляции и температурной инверсии; направление потоков подписать отдельно.
 > **EN:** Diagram of daytime and nighttime mountain–valley circulation and temperature inversion, with airflow directions labelled.
 
+![Горно-долинная циркуляция / Mountain–valley circulation](../assets/19-H-mountain-valley-circulation.svg)
+
+*Рисунок 19-H / Figure 19-H. Дневной долинный и ночной горный ветер; схема не заменяет локальные метеонаблюдения / Daytime valley and nighttime mountain breezes; schematic, not a substitute for local observations.*
+
+
 
 В течение суток в горных районах часто меняется направление местного ветра. Днём нагретый воздух поднимается по склонам и долинам (долинный ветер), ночью охлаждённый воздух стекает вниз (горный ветер). Эти потоки могут влиять на распределение облаков, туманов, загрязняющих веществ и локальных осадков.
 
