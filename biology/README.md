@@ -980,3 +980,11 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Added `IMAGE_READINESS_AUDIT_2026-11-01.md` with the full marker audit, asset-pipeline limitation, production sequence and scientific holds (especially freshwater fish taxonomy and Batken Aygul/wild tulips).
 - Audit commit: `1cc58a7da6c13c53c8693452fa3f975739b5a906`. Plan update commit: `5591bf5f4089eef983a282269777e1154afe9623`.
 - No marker IDs, positions, filenames, priorities or page anchors were changed. No image was generated or marked complete. A verified binary-image ingestion route is still required before a rendered image can be committed at its exact WebP path.
+
+
+## First illustration production attempt — 1 November 2026
+
+- Generated a local 1280×720 concept preview for the Batken flora P1 brief, pairing Aygul-like fritillary and an unlabeled wild-tulip depiction. It is a local working-session file only, not committed to the repository or integrated into the chapter.
+- The original generated sheet labeled the tulip `Tulipa greigii`; that label was removed. The chapter lists other Batken tulip taxa, so the tulip morphology remains unverified and must not be identified or published without botanical review. Aygul nomenclature must follow the chapter's `Petilium eduardii` usage.
+- Detailed cautions and the decision to keep the marker deferred are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+- No page markers or disposition statuses changed. Controlled readiness remains 95/100; G4/G5 remain open.

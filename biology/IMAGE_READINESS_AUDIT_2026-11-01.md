@@ -40,8 +40,8 @@ The 39 P2/P3 IDs all have matching individual entries in `IMAGE_BRIEF_REVIEW.md`
 
 ## Actual asset inventory
 
-- The Biology root currently contains the `chapters/` directory but no `images/` directory.
-- `biology/images/generated/` is absent.
+- The Biology root currently contains the `chapters/` directory; no `biology/images/` directory has been committed.
+- `biology/images/generated/` is absent. One local-only 1280×720 Batken flora concept preview was created in the working session; it is not in the repository and is not approved.
 - Across the 13 pages carrying markers, the audit found 22 inline SVG elements and zero HTML `<img>` elements.
 - The 22 SVGs are existing diagrams/visual models, not substitutes for all 52 planned assets.
 - The image plan's previous count of 16 inline SVG elements was stale; it has been corrected to 22.
@@ -64,4 +64,4 @@ The 39 P2/P3 IDs all have matching individual entries in `IMAGE_BRIEF_REVIEW.md`
 
 ## Files and preservation
 
-No page marker, anchor ID, target filename, priority or brief was changed during this audit. No generated asset was fabricated or marked complete. The exact 52-marker set remains available for production.
+No page marker, anchor ID, target filename, priority or brief was changed. One local draft concept was generated, but it is not a publication asset and no marker was marked complete. Its scientific cautions and integration decision are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. The exact 52-marker set remains available for production.

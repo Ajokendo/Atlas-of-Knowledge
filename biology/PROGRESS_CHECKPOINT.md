@@ -85,3 +85,11 @@
 - Regression-check commit: `55a7262c61db31b4d6d6ea3d5dc14bfe8a30b0dd`. Boundary correction in regression assertions: `3ca37b077b4cd0ab829394e1b562843f6f495b48`.
 - README log commit: `14ec92f2f088447a0383991f59432cb40ab45e7d`.
 - Full Node.js, Chromium and CI checks have not yet been run on these latest commits. Controlled readiness remains 95/100; G4/G5 remain open. Existing 52 image anchors and Deferred dispositions are unchanged.
+
+
+## Illustration production pilot — 1 November 2026
+
+- Began the P1 image pilot with a local Batken flora concept preview (1280×720, WebP). The image pairs an Aygul-like fritillary with an unlabeled generic wild tulip; generated labels were removed.
+- The candidate is not committed to the repository, not integrated into the chapter and not approved. The wild-tulip morphology is unverified against the Batken taxa listed in the chapter; Aygul nomenclature must follow `Petilium eduardii`.
+- See `IMAGE_DRAFT_REVIEW_2026-11-01.md`. The `image-brief-flora-batken` anchor and all 52 Deferred statuses remain unchanged.
+- No publication gate is closed; controlled readiness remains 95/100, G4/G5 remain open.
