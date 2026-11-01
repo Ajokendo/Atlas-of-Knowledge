@@ -671,3 +671,11 @@
 - Last chapter fix commit: `245ff59619e1a87d2c8f5373d7da4c46da8a8e40`. CI verification of this full corrected state is pending; do not claim WCAG AA pass until the workflow confirms it.
 - Contrast audit stage estimate: 90% (automated sampler implemented, shared palette corrected across all pages, residual subtitle color corrected; full rerun and manual review of unmeasured states still pending).
 - Overall editorial readiness remains 95/100. G4/G5 independent review, 52 deferred visual assets, and physical-device/screen-reader checks remain open. Feedback intake remains disabled.
+
+
+## 2026-11-01 — Kyrgyzstan regional subtitle selectors
+
+- Follow-up verification showed that the two regional Kyrgyzstan chapters render their subtitle as a generic `.subtitle` element rather than the `#subtitle.subtitle` selector used by the ten standard chapters. The ten standard chapter subtitles were corrected; two regional subtitles still measured 4.20:1.
+- Updated the selector in both `fauna-kyrgyzstan.html` and `flora-kyrgyzstan.html` to `.subtitle{color:#68645f}`, retaining the same contrast-safe palette.
+- Last regional page commit: `cab52f39d352a04c7aac6cc6606294b925e03b26`. Latest CI verification is pending.
+- Contrast audit stage estimate remains 90% pending full green CI and manual review of states outside the automated sampler. Overall editorial readiness remains 95/100.
