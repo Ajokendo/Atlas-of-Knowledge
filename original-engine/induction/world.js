@@ -49,7 +49,7 @@ export function buildWorld(E) {
   const flatMat = (pal, opacity) => { const m = shadeMat(pal, { opacity }); m.side = THREE.DoubleSide; return m; };
   const tipOf = (a, k = 0.16) => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + k, 0)) : null;
   const rodGeo = new THREE.CylinderGeometry(1, 1, 1, 12);
-  const rod = (g, a, b, r = 0.022, pal = 'ink', name = 'Wires') => {
+  const rod = (g, a, b, r = 0.022, pal = 'ink', name = 'Провода') => {
     const m = part(g, rodGeo, { tone: 'hi', pal, name });
     m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(r, Math.max(a.distanceTo(b), 1e-4), r);
     m.quaternion.setFromUnitVectors(Y_, b.clone().sub(a).normalize()); m.userData.home.copy(m.position);
@@ -57,7 +57,7 @@ export function buildWorld(E) {
   };
   const path = (g, pts, r, pal, name) => { for (let i = 0; i + 1 < pts.length; i++) rod(g, pts[i], pts[i + 1], r, pal, name); };
   // a circular loop of wire in the plane facing ±x, centred at c
-  const ring = (g, c, a, tube = 0.022, name = 'Loop', pal = 'ink') => { const geo = new THREE.TorusGeometry(a, tube, 12, 72); geo.rotateY(Math.PI / 2); return part(g, geo, { tone: 'hi', pal, pos: c.toArray(), name }); };
+  const ring = (g, c, a, tube = 0.022, name = 'Контур', pal = 'ink') => { const geo = new THREE.TorusGeometry(a, tube, 12, 72); geo.rotateY(Math.PI / 2); return part(g, geo, { tone: 'hi', pal, pos: c.toArray(), name }); };
   // a helix of n turns along x (or y) from p0 to p1, radius R
   const helix = (g, p0, p1, R, n, tube, name, pal = 'ink') => {
     const ax = p1.clone().sub(p0), L = ax.length(), u = ax.clone().normalize();
@@ -68,7 +68,7 @@ export function buildWorld(E) {
   };
   // a field line as a thin tube with an arrowhead part-way along (noEdge: it would outline a cage)
   const headGeo = new THREE.ConeGeometry(0.05, 0.14, 14);
-  function fieldLine(g, pts, { r = 0.011, mat, at = [0.5], name = 'Field lines', headScale = 1 } = {}) {
+  function fieldLine(g, pts, { r = 0.011, mat, at = [0.5], name = 'Линии магнитного поля', headScale = 1 } = {}) {
     if (pts.length < 3) return null;
     const curve = new THREE.CatmullRomCurve3(pts);
     const t = part(g, new THREE.TubeGeometry(curve, Math.min(200, pts.length * 2), r, 6), { tone: 'lo', name, mat });
@@ -82,7 +82,7 @@ export function buildWorld(E) {
   }
   // dashes: a field line or an arrow drawn as short rods, for the induced field
   const dashGeo = new THREE.CylinderGeometry(1, 1, 1, 8);
-  function dashedCurve(g, pts, { r = 0.012, dash = 0.09, gap = 0.07, name = 'Induced field', at = [0.5] } = {}) {
+  function dashedCurve(g, pts, { r = 0.012, dash = 0.09, gap = 0.07, name = 'Индукционное поле', at = [0.5] } = {}) {
     const curve = new THREE.CatmullRomCurve3(pts), L = curve.getLength(), out = [];
     for (let s = 0; s + dash < L; s += dash + gap) {
       const a = curve.getPointAt(s / L), b = curve.getPointAt((s + dash) / L);
@@ -93,7 +93,7 @@ export function buildWorld(E) {
     const heads = at.map(u => { const h = part(g, headGeo, { tone: 'mid', pal: 'dark', name }); h.position.copy(curve.getPointAt(u)); h.userData.q = [curve.getTangentAt(u), curve.getTangentAt(u).negate()].map(t => new THREE.Quaternion().setFromUnitVectors(Y_, t)); h.quaternion.copy(h.userData.q[0]); h.userData.noEdge = true; return h; });
     return { dashes: out, heads, setSign(sg) { for (const h of heads) h.quaternion.copy(h.userData.q[sg >= 0 ? 0 : 1]); } };
   }
-  function dashArrow(g, name = 'Induced field', n = 7) {
+  function dashArrow(g, name = 'Индукционное поле', n = 7) {
     const grp = new THREE.Group(); g.add(grp);
     const mat = shadeMat('dark').clone(); mat.depthTest = false;
     const ds = Array.from({ length: n }, () => { const m = part(grp, dashGeo, { tone: 'mid', pal: 'dark', name, mat }); m.renderOrder = 10; return m; });
@@ -250,7 +250,7 @@ export function buildWorld(E) {
   const linesC = new THREE.Group(); linesC.position.copy(c21); gC.add(linesC);
   for (const pts of ringLines(M.COILS.a, [0.25, 0.55, 0.8].flatMap(k => [k, -k]).map(k => k * M.COILS.a), 0.13))
     fieldLine(linesC, pts.filter((_, j) => j % 2 === 0).map(p => V(...p).multiplyScalar(D2)), { r: 0.01, mat: lineMatC, at: [0.12] });
-  const I1C = ringArrows(gC), I2C = ringArrows(gC), B1C = bArrow(gC, 0.02, 'Coil 1’s field at coil 2'), indC = dashArrow(gC);
+  const I1C = ringArrows(gC), I2C = ringArrows(gC), B1C = bArrow(gC, 0.02, 'Поле катушки 1 в катушке 2'), indC = dashArrow(gC);
   label('vec', '<i>I</i><sub>1</sub>(<i>t</i>)', () => tipOf(I1C.a[0], 0.14)?.add(V(-0.25, 0.05, 0)));
   label('vec', '<i>I</i><sub>2</sub>', () => tipOf(I2C.a[0], 0.14));
   label('vec', grey('<i>B</i><sub>1</sub>'), () => tipOf(B1C, 0.14));
@@ -272,7 +272,7 @@ export function buildWorld(E) {
   const sec = new THREE.Group(); sec.userData = { home: V(), ex: V(0, 0.75, 0) }; gK.add(sec);
   helix(sec, V(X2 - 1.3, yC, 0), V(X2 - 0.6, yC, 0), RC + 0.04, 5, 0.022, 'Secondary (100 turns)');
   path(sec, [V(X2 - 1.3, yC + RC + 0.04, 0), V(X2 - 1.3, yC + 0.45, 0)]); path(sec, [V(X2 - 0.6, yC + RC + 0.04, 0), V(X2 - 0.6, yC + 0.45, 0)]);
-  const BK = bArrow(gK, 0.024, 'Field in the iron'), indK = dashArrow(gK), I1K = iArrow(gK, 'Primary current'), I2K = iArrow(gK);
+  const BK = bArrow(gK, 0.024, 'Поле в сердечнике'), indK = dashArrow(gK), I1K = iArrow(gK, 'Ток первичной обмотки'), I2K = iArrow(gK);
   label('vec', grey('<i>B</i>(<i>t</i>)'), () => tipOf(BK, 0)?.add(V(0, -0.33, 0)));
   label('vec', grey('<i>B</i><sub>ind</sub>'), () => indK.tip(-0.32));
   gK.userData.focus = () => ({ target: [X2, yC + 0.25, 0], radius: 1.45 });
@@ -285,8 +285,8 @@ export function buildWorld(E) {
   // 3 · a rectangular loop moving away from a long straight wire
   const X3 = STATIONS.wire, D3 = DRAW.wire, yW = 3.7, b3 = M.WIRE.b * D3, a3 = M.WIRE.a * D3;
   const g3 = asm('wire', root, { title: 'Контур удаляется от провода', sub: 'Φ = ∫B b dr, поле убывает как 1/r' });
-  rod(g3, V(X3 - 3.1, yW, 0), V(X3 + 2.4, yW, 0), 0.035, 'ink', 'Long straight wire (50 A)');
-  const Iw = iArrow(g3, 'Long straight wire (50 A)'); setArrow(Iw, V(X3 - 3.05, yW + 0.15, 0), V(0.6, 0, 0));
+  rod(g3, V(X3 - 3.1, yW, 0), V(X3 + 2.4, yW, 0), 0.035, 'ink', 'Длинный прямой провод (50 А)');
+  const Iw = iArrow(g3, 'Длинный прямой провод (50 А)'); setArrow(Iw, V(X3 - 3.05, yW + 0.15, 0), V(0.6, 0, 0));
   label('vec', '<i>I</i> = 50 A', () => V(X3 - 2.75, yW + 0.45, 0));
   const rows3 = [[0.015, 1], [0.03, 1], [0.055, 1], [0.015, -1], [0.035, -1], [0.07, -1], [0.11, -1], [0.16, -1], [0.22, -1]];
   const mk3 = [];
@@ -294,7 +294,7 @@ export function buildWorld(E) {
   bMarkers(g3, mk3);
   label('vec', grey('<i>B</i>'), () => V(X3 - 2.5, yW - 0.8, 0));
   const loop3 = new THREE.Group(); g3.add(loop3);
-  path(loop3, [V(-b3 / 2, 0, 0), V(b3 / 2, 0, 0), V(b3 / 2, -a3, 0), V(-b3 / 2, -a3, 0), V(-b3 / 2, 0, 0)], 0.026, 'ink', 'Moving loop');
+  path(loop3, [V(-b3 / 2, 0, 0), V(b3 / 2, 0, 0), V(b3 / 2, -a3, 0), V(-b3 / 2, -a3, 0), V(-b3 / 2, 0, 0)], 0.026, 'ink', 'Движущийся контур');
   for (const p of [V(-b3 / 2, 0, 0), V(b3 / 2, 0, 0), V(b3 / 2, -a3, 0), V(-b3 / 2, -a3, 0)]) part(loop3, new THREE.SphereGeometry(0.026, 12, 8), { tone: 'hi', pal: 'ink', pos: p.toArray(), name: 'Движущийся контур' });
   const I3 = rectArrows(g3), v3 = arrow(g3, 'ink', { r: 0.014, head: 0.09, headR: 0.042, name: 'Скорость' });
   label('vec', '<i>I</i>', () => tipOf(I3.sides[3].A, 0.14));
@@ -339,7 +339,7 @@ export function buildWorld(E) {
     const x1 = xR0 + M.CROSS.W * D5, yb = y5 - 0.95, yt = y5 + 0.95; lines(g5, [xR0, yb, -0.06, x1, yb, -0.06, x1, yb, -0.06, x1, yt, -0.06, x1, yt, -0.06, xR0, yt, -0.06, xR0, yt, -0.06, xR0, yb, -0.06], '#a6a6ac'); }
   label('vec', grey('<i>B</i>'), () => V(xR0 + 0.05, y5 + 1.18, 0));
   const loop5 = new THREE.Group(); g5.add(loop5);
-  path(loop5, [V(-w5, h5 / 2, 0), V(0, h5 / 2, 0), V(0, -h5 / 2, 0), V(-w5, -h5 / 2, 0), V(-w5, h5 / 2, 0)], 0.026, 'ink', 'Moving loop');
+  path(loop5, [V(-w5, h5 / 2, 0), V(0, h5 / 2, 0), V(0, -h5 / 2, 0), V(-w5, -h5 / 2, 0), V(-w5, h5 / 2, 0)], 0.026, 'ink', 'Движущийся контур');
   for (const p of [V(-w5, h5 / 2, 0), V(0, h5 / 2, 0), V(0, -h5 / 2, 0), V(-w5, -h5 / 2, 0)]) part(loop5, new THREE.SphereGeometry(0.026, 12, 8), { tone: 'hi', pal: 'ink', pos: p.toArray(), name: 'Движущийся контур' });
   const I5 = rectArrows(g5), v5 = arrow(g5, 'ink', { r: 0.014, head: 0.09, headR: 0.042, name: 'Скорость' });
   label('vec', '<i>I</i>', () => tipOf(I5.sides[0].A, 0.14));
@@ -359,7 +359,7 @@ export function buildWorld(E) {
   // the resistor: a zigzag across the left end
   { const zp = [V(xL6, yb6, 0), V(xL6, yb6 + 0.25, 0)]; const n = 8, z0 = yb6 + 0.25, z1 = yt6 - 0.25;
     for (let i = 0; i < n; i++) zp.push(V(xL6 + (i % 2 ? -0.11 : 0.11), z0 + (z1 - z0) * (i + 0.5) / n, 0)); zp.push(V(xL6, z1, 0), V(xL6, yt6, 0));
-    path(g6, zp, 0.022, 'ink', 'Resistor (0.2 Ω)'); }
+    path(g6, zp, 0.022, 'ink', 'Резистор (0,2 Ом)'); }
   label('tick', '<i>R</i>', () => V(xL6 - 0.2, (yb6 + yt6) / 2, 0));
   const bar6 = new THREE.Group(); g6.add(bar6);
   part(bar6, box(0.11, yt6 - yb6 + 0.34, 0.11, 0.02), { tone: 'hi', name: 'Скользящий стержень (0,2 кг)' });
@@ -381,7 +381,7 @@ export function buildWorld(E) {
   const hi7 = y7 + R7 + 0.45;
   path(g7, [V(X7 - L7 / 2, y7 + R7, 0), V(X7 - L7 / 2, hi7, 0), V(X7 - L7 / 2 - 0.8, hi7, 0)], 0.022, 'ink', 'Leads');
   path(g7, [V(X7 + L7 / 2, y7 + R7, 0), V(X7 + L7 / 2, hi7, 0), V(X7 + L7 / 2 + 0.8, hi7, 0)], 0.022, 'ink', 'Leads');
-  const I7 = iArrow(g7, 'Current I(t)');
+  const I7 = iArrow(g7, 'Ток I(t)');
   label('vec', '<i>I</i>(<i>t</i>)', () => tipOf(I7, 0.14)?.add(V(0, 0.08, 0)));
   const B7 = [];  // inside the coil, drawn over the turns
   for (const x of [-0.85, 0, 0.85]) for (const y of [0, 0.17, -0.17]) B7.push({ x, y, a: bArrow(g7, 0.016) });
@@ -404,7 +404,7 @@ export function buildWorld(E) {
   path(g8, [V(xB8, yb8, 0), V(xR8, yb8, 0), V(xR8, 1.05, 0), V(xR8 + 0.19, 1.05, 0)]);
   helix(g8, V(xR8, 1.05, 0), V(xR8, 2.15, 0), 0.19, 9, 0.024, 'Inductor (2 H)');
   path(g8, [V(xR8 + 0.19, 2.15, 0), V(xR8, 2.15, 0), V(xR8, yt8, 0), V(X8 + 0.75, yt8, 0)]);
-  { const zp = [V(X8 + 0.75, yt8, 0)]; const n = 8, x0 = X8 + 0.75, x1 = X8 - 0.15; for (let i = 0; i < n; i++) zp.push(V(x0 + (x1 - x0) * (i + 0.5) / n, yt8 + (i % 2 ? -0.12 : 0.12), 0)); zp.push(V(x1, yt8, 0)); path(g8, zp, 0.022, 'ink', 'Resistor (4 Ω)'); }
+  { const zp = [V(X8 + 0.75, yt8, 0)]; const n = 8, x0 = X8 + 0.75, x1 = X8 - 0.15; for (let i = 0; i < n; i++) zp.push(V(x0 + (x1 - x0) * (i + 0.5) / n, yt8 + (i % 2 ? -0.12 : 0.12), 0)); zp.push(V(x1, yt8, 0)); path(g8, zp, 0.022, 'ink', 'Резистор (4 Ом)'); }
   path(g8, [V(X8 - 0.15, yt8, 0), P8]);
   // the switch: battery branch to contact A, plain wire to contact B
   path(g8, [cA, V(xB8, cA.y, 0), V(xB8, 1.95, 0)]); path(g8, [V(xB8, 1.05, 0), V(xB8, yb8, 0)]);
@@ -414,7 +414,7 @@ export function buildWorld(E) {
   path(g8, [cB, V(xS8, yb8, 0)]);
   for (const p of [cA, cB, P8]) part(g8, new THREE.SphereGeometry(0.05, 14, 10), { tone: 'hi', pal: 'ink', pos: p.toArray(), name: 'Переключатель' });
   const lever8 = part(g8, rodGeo, { tone: 'hi', pal: 'ink', name: 'Переключатель' });
-  const I8 = [0, 1, 2, 3].map(() => iArrow(g8, 'Current'));
+  const I8 = [0, 1, 2, 3].map(() => iArrow(g8, 'Ток'));
   label('vec', '<i>I</i>', () => tipOf(I8[0], 0.14));
   label('vec red', '+', () => V(xB8 - 0.3, 1.9, 0));
   label('board', 'ε = 12 В', () => V(xB8 - 0.95, 1.5, 0));
@@ -434,7 +434,7 @@ export function buildWorld(E) {
   const wires9 = new THREE.Group(); root.add(wires9);
   path(wires9, [V(xC9, yTop9 + pt9, 0), V(xC9, yt9, 0), V(xR9, yt9, 0), V(xR9, c1y9, 0), V(xR9 + R9, c1y9, 0)]);
   path(wires9, [V(xC9, yBot9 - pt9, 0), V(xC9, yb9, 0), V(xR9, yb9, 0), V(xR9, c0y9, 0), V(xR9 + R9, c0y9, 0)]);
-  const I9 = [0, 1, 2].map(() => iArrow(wires9, 'Current'));
+  const I9 = [0, 1, 2].map(() => iArrow(wires9, 'Ток'));
   label('vec', '<i>I</i>', () => tipOf(I9[0], 0.14));
   // the capacitor: two plates, the top one holding q
   const g9 = asm('lcCap', root, { title: 'Конденсатор', sub: 'U_E = q²/2C, энергия в поле между обкладками' });
