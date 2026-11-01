@@ -79,6 +79,7 @@ The Cabinet of Ministers' 2026 action plan for implementing the National Develop
 
 ## 25.3. Городская система Кыргызстана / The Urban System of Kyrgyzstan
 > **[МЕТКА ИЛЛЮСТРАЦИИ 25-A / IMAGE PLACEHOLDER 25-A]** Карта-схема городской системы Кыргызстана: Бишкек и Ош, областные центры, Манас (бывший Джалал-Абад), функциональные города и основные связи. Границы и статус населённых пунктов сверить с актуальными официальными геоданными.
+> **EN:** Schematic map of Kyrgyzstan's urban system showing Bishkek and Osh, oblast centres, Manas (formerly Jalal-Abad), functional cities and major connections. Verify settlement boundaries and status against current official geodata.
 
 
 Города Кыргызстана различаются по масштабу, функциям, историческому происхождению и положению в транспортной сети. Бишкек и Ош — крупнейшие города республиканского значения. Другие города выполняют областные, районные, промышленные, транспортные, туристические и приграничные функции.
@@ -226,6 +227,7 @@ Kyrgyzstan's cities differ in size, functions, historical origins and position w
 
 ## 25.5. Транспортная география / Transport Geography
 > **[МЕТКА ИЛЛЮСТРАЦИИ 25-B / IMAGE PLACEHOLDER 25-B]** Схема транспортной сети: основные автодороги, действующие железнодорожные участки, аэропорты и пункты пропуска; строящуюся железную дорогу Китай — Кыргызстан — Узбекистан показать отдельным условным знаком с подписью «строительство», не как действующую линию.
+> **EN:** Transport-network diagram showing main roads, operating railway sections, airports and border crossings. Depict the China–Kyrgyzstan–Uzbekistan railway under construction with a separate symbol and the label “under construction”, not as an operating line.
 
 
 Транспортная система Кыргызстана опирается прежде всего на автомобильные перевозки: горный рельеф и рассредоточенность поселений делают дороги основой внутренней связности. По публикации Национального статистического комитета от 25 октября 2026 года, в 2025 году автомобильным транспортом было перевезено более 62 млн тонн грузов — свыше 80% общего объёма грузоперевозок; на автобусы и такси приходилось более 90% пассажирских перевозок. Эти доли относятся к статистическому учёту перевозок за 2025 год и не должны автоматически смешиваться с более высокими долями (до 96% грузов и 98% пассажиров), приводимыми в материалах Министерства транспорта для дорожной сети: определения охвата и методики могут различаться. Общая дорожная сеть оценивается примерно в 34 тыс. км, включая дороги общего пользования, городские, сельские и ведомственные дороги; для сопоставления протяжённости необходимо указывать категорию дорог, дату и источник.
@@ -323,6 +325,7 @@ Kyrgyzstan's energy system relies on hydropower, thermal generation, electricity
 
 ## 25.7. Минеральные и другие природные ресурсы / Mineral and Other Natural Resources
 > **[МЕТКА ИЛЛЮСТРАЦИИ 25-C / IMAGE PLACEHOLDER 25-C]** Карта минеральных ресурсов: месторождения и районы добычи с раздельными обозначениями действующих объектов, разведанных запасов и перспективных участков; не изображать лицензии как доказательство фактической добычи.
+> **EN:** Mineral-resource map showing deposits and mining districts, with separate symbols for operating sites, explored reserves and prospective areas; do not treat a licence as proof of actual extraction.
 
 
 Кыргызстан обладает месторождениями золота, серебра, угля, сурьмы, ртути, олова, вольфрама, редких и цветных металлов, нерудных строительных материалов, а также значительными водными, земельными и рекреационными ресурсами. Геологический потенциал не равен экономически извлекаемым запасам: для каждого месторождения необходимо различать прогнозные ресурсы, разведанные запасы, лицензированные участки, действующую добычу и экономически обоснованные извлекаемые объёмы.
@@ -371,6 +374,7 @@ In its review of 2025, the Ministry of Natural Resources reported that eight maj
 
 ## 25.8. Природный капитал и экологические издержки / Natural Capital and Environmental Costs
 > **[МЕТКА ИЛЛЮСТРАЦИИ 25-D / IMAGE PLACEHOLDER 25-D]** Инфографика природного капитала и экологических издержек: водные бассейны, пастбища, леса, горнодобывающие районы, карьеры и основные типы экологической нагрузки.
+> **EN:** Infographic of natural capital and environmental costs, showing water basins, pastures, forests, mining districts, quarries and major types of environmental pressure.
 
 
 Природный капитал — совокупность экосистем, земель, вод, полезных ископаемых и природных процессов, обеспечивающих общество ресурсами и экосистемными услугами. В горной стране экономическая оценка должна учитывать не только добываемое сырьё, но и функции водосбора, регулирование стока, защиту от эрозии, сохранение биоразнообразия и климатическую устойчивость.
@@ -710,7 +714,8 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 25-G / IMAGE PLACEHOLDER 25-G]** Карта южной городской системы: Ош, Кара-Суу, Узген, Ноокат и центры Баткенской и Джалал-Абадской областей; не смешивать административные статусы. / Southern urban-system map: Osh, Kara-Suu, Uzgen, Nookat and centres in Batken and Jalal-Abad; preserve administrative distinctions.
 
 4. **Городская система юга.** Ош, Кара-Суу, Узген, Ноокат, Баткенские и Джалал-Абадские центры; показать торговые и транспортные связи без смешения административных статусов.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-H / IMAGE PLACEHOLDER 25-H]** Диаграмма структуры ВВП по секторам за указанный период: доли и темпы роста раздельно, предварительные данные явно маркировать. / GDP-by-sector chart for a specified period: show shares and growth rates separately and label provisional data.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 25-H / IMAGE PLACEHOLDER 25-H]** Диаграмма структуры ВВП по секторам за указанный период: доли и темпы роста раздельно, предварительные данные явно маркировать.
+> **EN:** Sectoral GDP chart for a stated period, showing shares and growth rates separately and clearly marking preliminary data. / GDP-by-sector chart for a specified period: show shares and growth rates separately and label provisional data.
 
 5. **Экономическая структура.** Диаграмма ВВП по секторам за конкретный период; отдельные графики доли и темпа роста, с подписью «предварительные данные», если применимо.
 > **[МЕТКА ИЛЛЮСТРАЦИИ 25-I / IMAGE PLACEHOLDER 25-I]** Схема агропродовольственной цепочки от фермы до рынка: хранение, сортировка, переработка и логистика с региональными примерами. / Agri-food value-chain diagram from farm to market: storage, sorting, processing and logistics, with regional examples.
