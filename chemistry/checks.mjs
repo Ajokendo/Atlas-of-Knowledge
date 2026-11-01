@@ -217,6 +217,20 @@ for (const [label, evidence] of [
   if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
 }
 
+
+for (const [label, evidence] of [
+  ["DNA antiparallel orientation in Russian", "Две цепи ДНК ориентированы антипараллельно"],
+  ["polymerase synthesis direction in Russian", "присоединяя нуклеотид к свободной 3′-OH-группе"],
+  ["ATP hydrolysis coupling in Russian", "гидролиз до АДФ и неорганического фосфата"],
+  ["ATP is not energy itself in Russian", "АТФ не является «энергией» сама по себе"],
+  ["DNA antiparallel orientation in English", "The two DNA strands are antiparallel"],
+  ["polymerase synthesis direction in English", "only in the 5′→3′ direction"],
+  ["ATP hydrolysis coupling in English", "hydrolysis to ADP and inorganic phosphate"],
+  ["ATP is not energy itself in English", "ATP is not energy itself"]
+]) {
+  if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
+}
+
 const periodicSource = fs.readFileSync(path.join(root, "periodic-table.html"), "utf8");
 const periodicData = periodicSource.match(/const raw=\`([\s\S]*?)\`\.trim\(\);/);
 if (!periodicData) {
