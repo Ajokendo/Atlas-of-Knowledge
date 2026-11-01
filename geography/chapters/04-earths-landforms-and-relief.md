@@ -83,6 +83,7 @@
 - Карстовые.
 - Береговые и морские.
 - Склоновые.
+- Ударные (импактные).
 - Антропогенные.
 
 **Место для иллюстрации 4.3-A — Landform Classification.** Атласная композиция с типичными формами рельефа, сгруппированными по генезису и масштабу.
@@ -132,7 +133,7 @@
 - **Плато:** обширная относительно ровная возвышенная поверхность, часто ограниченная крутыми склонами или уступами; она может быть расчленена глубокими долинами. Термины «плато» и «плоскогорье» в разных классификациях частично перекрываются.
 - **Нагорья (highlands):** крупные возвышенные области со сложным сочетанием плато, хребтов и впадин.
 
-Равнины формируются в результате накопления осадков, выравнивания древнего рельефа, тектонических движений, вулканических процессов и длительной денудации.
+Равнины формируются в результате накопления осадков, выравнивания древнего рельефа, тектонических движений, вулканических процессов и длительной денудации. По происхождению выделяют, например, аллювиальные равнины речных долин, озёрные и прибрежные равнины, водно-ледниковые зандровые равнины, лавовые равнины и поверхности, выровненные длительной эрозией.
 
 **Место для иллюстрации 4.5-A — Plains, Lowlands and Plateaus.** Сравнительный блок-профиль равнины, низменности, возвышенности и плато с условными высотными отметками.
 
@@ -241,11 +242,11 @@
 
 ### 4.10.2. Аккумулятивные формы / Depositional Coasts
 
-- пляжи;
+- **пляжи** — полосы песка, гравия или гальки, накопленные у берега;
 - **косы** — узкие вытянутые аккумулятивные формы, соединённые с сушей одним концом;
 - **пересыпи и бары** — песчаные или галечные валы, частично или полностью отделяющие водное пространство от моря;
-- барьерные острова;
-- **лагуны** — мелководные водоёмы, частично отделённые от моря косой или барьером;
+- **барьерные острова** — вытянутые острова из наносов, отделённые от материка мелководьем или лагуной;
+- **лагуны** — мелководные водоёмы, частично отделённые от моря косой, баром или барьерным островом;
 - дельтовые побережья.
 
 Побережье может одновременно испытывать разрушение и накопление осадков на соседних участках.
@@ -259,7 +260,8 @@
 - **абиссальные равнины** — обширные глубоководные участки с небольшими уклонами;
 - **срединно-океанические хребты** — протяжённые подводные горные системы, связанные с образованием новой океанической коры;
 - **глубоководные желоба** — узкие глубокие впадины, часто связанные с субдукцией;
-- подводные горы и вулканические плато.
+- **подводные горы (seamounts)** — изолированные возвышения морского дна, часто вулканического происхождения;
+- вулканические плато — обширные подводные поверхности, образованные накоплением лавы.
 
 **Место для иллюстрации 4.10-A — Coastal and Ocean-Floor Relief.** Два взаимосвязанных профиля: типичное побережье и поперечный профиль океанического бассейна.
 
@@ -482,7 +484,7 @@ By scale, geographers distinguish planetary forms (continents and ocean basins),
 #### 4.3.2. By Origin
 
 
-By origin, landforms may be tectonic, volcanic, fluvial, glacial or glaciofluvial, aeolian, karst, coastal or marine, slope-related, or anthropogenic.
+By origin, landforms may be tectonic, volcanic, fluvial, glacial or glaciofluvial, aeolian, karst, coastal or marine, slope-related, impact-related, or anthropogenic.
 
 **[ILLUSTRATION PLACEHOLDER 4.3-A]** Show planetary forms, megaforms, macroforms, mesoforms and microforms with examples; label scale boundaries as approximate.
 
@@ -523,7 +525,7 @@ Plains are extensive areas with relatively small elevation differences and a gen
 - **Plateaus** are extensive, relatively level elevated surfaces, often bounded by steep slopes or escarpments; they may be dissected by deep valleys. In some classifications, the terms *plateau* and *high tableland* overlap.
 - **Highlands** are large elevated regions combining plateaus, ranges and basins.
 
-Plains may form through sediment accumulation, the levelling of older relief, tectonic movement, volcanic processes and prolonged denudation.
+Plains may form through sediment accumulation, the levelling of older relief, tectonic movement, volcanic processes and prolonged denudation. Examples by origin include alluvial plains in river valleys, lacustrine and coastal plains, glaciofluvial outwash plains, lava plains and surfaces levelled by prolonged erosion.
 
 **[ILLUSTRATION PLACEHOLDER 4.5-A]** Compare a plain, lowland, upland, plateau and highland; label elevation thresholds as approximate and classification-dependent.
 
@@ -596,12 +598,12 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 #### 4.10.2. Depositional Coasts
 
 
-**Depositional coasts** may include beaches, **spits** (narrow ridges attached to land at one end), barrier bars, barrier islands, **lagoons** partly separated from the sea by a barrier, and deltaic coasts. Erosion and deposition can occur simultaneously on neighbouring coastal sections.
+**Depositional coasts** may include **beaches** (shoreline accumulations of sand, gravel or pebbles), **spits** (narrow ridges attached to land at one end), barrier bars, **barrier islands** (elongated sediment islands separated from the mainland by shallow water or a lagoon), **lagoons** partly separated from the sea by a spit, bar or barrier island, and deltaic coasts. Erosion and deposition can occur simultaneously on neighbouring coastal sections.
 
 #### 4.10.3. Submarine Relief
 
 
-Major submarine features include the **continental shelf**, a relatively shallow submerged margin of a continent; the **continental slope**, a steeper descent towards the deep ocean; the **continental rise**, a sediment accumulation zone near the base of the slope (where present); **abyssal plains**, extensive deep-ocean areas with low gradients; **mid-ocean ridges**, long submarine mountain systems associated with the formation of new oceanic crust; **deep-sea trenches**, narrow deep depressions often associated with subduction; seamounts and volcanic plateaus.
+Major submarine features include the **continental shelf**, a relatively shallow submerged margin of a continent; the **continental slope**, a steeper descent towards the deep ocean; the **continental rise**, a sediment accumulation zone near the base of the slope (where present); **abyssal plains**, extensive deep-ocean areas with low gradients; **mid-ocean ridges**, long submarine mountain systems associated with the formation of new oceanic crust; **deep-sea trenches**, narrow deep depressions often associated with subduction; **Seamounts** are isolated elevations on the ocean floor, often of volcanic origin; **volcanic plateaus** are extensive submarine surfaces built by accumulated lava.
 
 **[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated coastal and ocean-basin profiles with erosional/depositional coasts, shelf, slope, rise, abyssal plain, ridge and trench.
 
