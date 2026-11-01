@@ -1312,6 +1312,7 @@ try {
       await page.locator("#spin").click();
       if (await page.locator("#spin").getAttribute("aria-pressed") !== "false") errors.push(file + ": disabling auto-rotation does not clear the pressed state");
 
+      await page.locator("#reset").click();
       const initialDrawing = await canvas.evaluate(el => el.toDataURL());
       await canvas.focus();
       await page.keyboard.press("ArrowRight");
