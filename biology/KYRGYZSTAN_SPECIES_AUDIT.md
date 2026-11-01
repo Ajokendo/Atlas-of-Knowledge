@@ -84,6 +84,18 @@ A Ministry of Natural Resources notice dated **29 October 2026** gives a separat
 
 Sources: [Kubanychbekov et al. (2026), *Snow Leopard Reports*](https://doi.org/10.56510/slr.v5.63883) · [Ministry notice, 29 October 2026](https://mnr.gov.kg/ru/posts/news/v-dzeti-oguzskom-raione-na-video-zapecatleli-snezhnogo-barsa).
 
+## Terskey Ala-Too expedition report — site-level evidence only
+
+Zholdoshbekov & Hammer's Biosphere Expeditions report (published 24 June 2026; DOI 10.5281/zenodo.20821615) describes fieldwork from 7 July to 16 August 2025 in the Burkhan and Archaly valleys south of Issyk-Kul. The survey covered roughly 500 km² in 98 cells of 2 × 2 km over 40 days; 93% of cells were sampled only once.
+
+- Snow leopard: recorded in eight cells. DNA analysis confirmed five of nine presumed scats, representing three individuals (two males and one female). Camera traps produced 112 photographs across eight cells and identified at least five individuals. These are different evidence streams; do not add the DNA and camera-trap identifications into a single total.
+- Argali: recorded in only two cells, from a horn and one camera-trap photograph. This is a site-level survey result, not a national estimate or proof of a population decline across Kyrgyzstan.
+- Pallas's cat: reported from two distinct cells. The Zenodo abstract contains the spelling *Otolobus manul*; the chapter uses the currently accepted genus spelling *Otocolobus manul* as listed by the Mammal Diversity Database, and notes the source typo rather than propagating it.
+
+**Use limitation:** this is an expedition report involving citizen scientists, with most cells visited once. It is useful dated evidence of presence and local survey effort, but it is not a nationally representative inventory, a peer-reviewed abundance assessment, or a basis for extrapolating population trends. The chapter now preserves these boundaries in both languages.
+
+Source: [Zholdoshbekov & Hammer (2026), Zenodo report 10.5281/zenodo.20821615](https://zenodo.org/records/20821615).
+
 ## Required evidence fields for future species accounts
 
 Each account should record, where applicable:
