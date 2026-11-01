@@ -180,6 +180,18 @@ for (const [label, evidence] of [
   if (!redoxSource.includes(evidence)) errors.push("chapters/redox.html: missing or incomplete " + label);
 }
 
+const lifeSource = fs.readFileSync(path.join(root, "chapters/chemistry-of-life.html"), "utf8");
+for (const [label, evidence] of [
+  ["carbohydrate classification in Russian", "Моносахариды"],
+  ["storage polysaccharides", "Крахмал и гликоген"],
+  ["cellulose structural role", "целлюлоза выполняет структурную функцию"],
+  ["carbohydrate classification in English", "Carbohydrates are classified by the number of sugar units"],
+  ["storage polysaccharides in English", "Starch and glycogen are storage polysaccharides"],
+  ["carbohydrate formula caveat", "Not all carbohydrates follow the formula"]
+]) {
+  if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
+}
+
 const periodicSource = fs.readFileSync(path.join(root, "periodic-table.html"), "utf8");
 const periodicData = periodicSource.match(/const raw=\`([\s\S]*?)\`\.trim\(\);/);
 if (!periodicData) {
