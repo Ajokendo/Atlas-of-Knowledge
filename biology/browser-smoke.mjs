@@ -59,8 +59,14 @@ try {
           const name = el.getAttribute("aria-label") || el.getAttribute("aria-labelledby") ||
             el.getAttribute("title") || text;
           return !name;
-        }).length);
-      if (unnamed) errors.push(file + ": " + unnamed + " visible interactive control(s) lack an accessible name");
+        }).map(el => ({
+          tag: el.tagName.toLowerCase(),
+          id: el.id || "",
+          className: typeof el.className === "string" ? el.className : "",
+          html: el.outerHTML.slice(0, 500)
+        })));
+      if (unnamed.length) errors.push(file + ": " + unnamed.length +
+        " visible interactive control(s) lack an accessible name: " + JSON.stringify(unnamed));
 
       // Confirm keyboard navigation can reach a real interactive element.
       await page.keyboard.press("Tab");
