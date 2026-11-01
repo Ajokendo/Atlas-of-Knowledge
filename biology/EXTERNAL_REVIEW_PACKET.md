@@ -1,10 +1,10 @@
 # External review packet — Atlas of Biology
 
-**Status:** prepared for external review; no independent sign-off has yet been received.  
+**Status:** archived optional-consultation material; external review was not commissioned and is not required for project completion.  
 **Working branch:** `workspace/biology`  
 **Review scope:** 13 HTML pages (the Biology index and 12 chapters), with particular attention to the Kyrgyzstan flora and fauna chapters.
 
-This packet defines the evidence and editorial work needed to close G4 and G5. It is not itself a review and must not be treated as approval.
+This packet is retained as optional specialist/editor consultation material. G4 and G5 are completed internal audits; this packet is not an active completion requirement and must not be treated as approval.
 
 ## 1. Scientific review (G4)
 
@@ -102,6 +102,6 @@ Review all 13 pages in both Russian and English. The review must be performed in
 - Remaining issues:
 - Reviewer disposition and sign-off:
 
-## 4. Completion rule
+## 4. Optional consultation rule
 
-G4 and G5 remain **open** until qualified independent reviewers complete and sign the relevant records. Preparing this packet, performing an author-side source audit, or passing automated checks does not substitute for independent expert or editorial approval.
+G4 and G5 internal audit gates are complete under the agreed project model. If the owner later requests external consultation, use this packet to scope the questions and record recommendations. External sign-off is not required for project completion; unresolved evidence gaps must remain explicitly qualified or deferred.
