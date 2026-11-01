@@ -1,6 +1,6 @@
 /* Atlas of Physics: shared tokens (Anatomy light theme). */
 :root {
-  --page: #f2f2ef; --card: #fbfbfa; --text: #57575a; --strong: #18181a; --muted: #8c8c90;
+  --page: #f2f2ef; --card: #fbfbfa; --text: #57575a; --strong: #18181a; --muted: #6b6b70;
   --hi: #26262a; --mid: #8a8a8f; --lo: #b4b4b8; --faint: #d4d4d6; --lit: #000;
   --red: #e5484d;
   --serif: 'EB Garamond', Georgia, serif; --sans: 'Inter', system-ui, sans-serif; --mono: 'JetBrains Mono', ui-monospace, monospace;
