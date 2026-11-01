@@ -190,6 +190,64 @@ if (!periodicData) {
   }
 }
 
+const trainerSource = fs.readFileSync(path.join(root, "reaction-trainer.html"), "utf8");
+const trainerMatch = trainerSource.match(/\\bconst tasks\\s*=\\s*\\[/);
+if (!trainerMatch) {
+  errors.push("reaction-trainer.html: reaction task bank not found");
+} else {
+  try {
+    const literal = arrayLiteralAt(trainerSource, trainerMatch.index + trainerMatch[0].lastIndexOf("["));
+    const tasks = vm.runInNewContext("(" + literal + ")");
+    const subscriptDigits = { "₀":"0", "₁":"1", "₂":"2", "₃":"3", "₄":"4", "₅":"5", "₆":"6", "₇":"7", "₈":"8", "₉":"9" };
+    const parseTrainerFormula = formula => {
+      const counts = {};
+      const tokens = [...formula.matchAll(/([A-Z][a-z]?)([₀-₉]*)/g)];
+      if (!tokens.length || tokens.map(token => token[0]).join("") !== formula) throw new Error("unsupported formula " + formula);
+      for (const token of tokens) {
+        const countText = [...token[2]].map(digit => subscriptDigits[digit]).join("");
+        const count = countText ? Number(countText) : 1;
+        if (!Number.isSafeInteger(count) || count < 1) throw new Error("invalid subscript in " + formula);
+        counts[token[1]] = (counts[token[1]] || 0) + count;
+      }
+      return counts;
+    };
+    const gcd = (a, b) => b ? gcd(b, a % b) : a;
+    if (!Array.isArray(tasks) || tasks.length !== 6) {
+      errors.push("reaction-trainer.html: expected 6 balancing tasks");
+    } else tasks.forEach((task, index) => {
+      const label = "reaction-trainer.html: task " + (index + 1);
+      if (!Array.isArray(task.f) || !Array.isArray(task.c) || task.f.length !== task.c.length || task.f.length < 3) {
+        errors.push(label + " has mismatched formulas and coefficients");
+        return;
+      }
+      if (task.c.some(value => !Number.isSafeInteger(value) || value < 1)) {
+        errors.push(label + " must use positive integer coefficients");
+        return;
+      }
+      const totals = [{}, {}];
+      task.f.forEach((formula, formulaIndex) => {
+        const side = formulaIndex < task.f.length - 2 ? 0 : 1;
+        const atoms = parseTrainerFormula(formula);
+        for (const [element, count] of Object.entries(atoms)) {
+          totals[side][element] = (totals[side][element] || 0) + count * task.c[formulaIndex];
+        }
+      });
+      if (JSON.stringify(Object.entries(totals[0]).sort()) !== JSON.stringify(Object.entries(totals[1]).sort())) {
+        errors.push(label + " is not atom-balanced for its stored answer");
+      }
+      if (task.c.reduce((value, coefficient) => gcd(value, coefficient), 0) !== 1) {
+        errors.push(label + " coefficients are not in the smallest whole-number ratio");
+      }
+      if (!Array.isArray(task.hint) || task.hint.length !== 2 || !Array.isArray(task.why) || task.why.length !== 2 ||
+          [...task.hint, ...task.why].some(value => typeof value !== "string" || !value.trim())) {
+        errors.push(label + " is missing Russian or English hints/explanations");
+      }
+    });
+  } catch (error) {
+    errors.push("reaction-trainer.html: could not validate reaction tasks: " + error.message);
+  }
+}
+
 const glossarySource = fs.readFileSync(path.join(root, "glossary.html"), "utf8");
 const glossaryMatch = glossarySource.match(/\bconst entries\s*=\s*\[/);
 if (!glossaryMatch) {
