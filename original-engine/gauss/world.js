@@ -142,7 +142,7 @@ export function buildWorld(E) {
   part(root, xAxis(new THREE.CylinderGeometry(0.06, 0.06, 11, 20)), { tone: 'hi', name: 'Линия заряда', pos: cL.toArray() });
   dots(root, Array.from({ length: 44 }, (_, i) => V(cL.x - 5.375 + i * 0.25, Y, 0.06)), 'Линия заряда', 0.035);
   label('axis', '−∞', () => V(cL.x - 5.9, Y, 0)); label('axis', '+∞', () => V(cL.x + 6.3, Y, 0));
-  label('tick', `λ = ${(M.LINE.lam * 1e9).toFixed(1)} nC/m`, () => V(cL.x + 5.2, Y + 0.3, 0));
+  label('tick', `λ = ${(M.LINE.lam * 1e9).toFixed(1)} нКл/м`, () => V(cL.x + 5.2, Y + 0.3, 0));
   const cylL = new THREE.Group(); cylL.position.copy(cL); gL.add(cylL);
   const LL = M.LINE.L * D;
   gpart(cylL, xAxis(new THREE.CylinderGeometry(1, 1, LL, 48, 1, true)), 'Curved side');
@@ -158,9 +158,9 @@ export function buildWorld(E) {
   const rL = greyArrow(gL, 'Radius');
   label('vec', 'r', () => tip(rL));
   label('vec blue', '<b>E</b>', () => tip(eL[7].ar));
-  label('tick', 'cap: Φ = 0', () => ex(gL) > 0.3 ? capsL[0].getWorldPosition(V()).add(V(0.4, 1.0, 0)) : null);
-  label('tick', 'cap: Φ = 0', () => ex(gL) > 0.3 ? capsL[1].getWorldPosition(V()).add(V(0.0, 1.0, 0)) : null);
-  label('tick', 'side: Φ = λL/ε₀', () => ex(gL) > 0.3 ? cL.clone().add(V(0.9, -2.0, 0)) : null);
+  label('tick', 'крышка: Φ = 0', () => ex(gL) > 0.3 ? capsL[0].getWorldPosition(V()).add(V(0.4, 1.0, 0)) : null);
+  label('tick', 'крышка: Φ = 0', () => ex(gL) > 0.3 ? capsL[1].getWorldPosition(V()).add(V(0.0, 1.0, 0)) : null);
+  label('tick', 'боковая поверхность: Φ = λL/ε₀', () => ex(gL) > 0.3 ? cL.clone().add(V(0.9, -2.0, 0)) : null);
 
   // ======================================================================
   // 4 · a non-conducting sheet, and a conducting plate
@@ -187,7 +187,7 @@ export function buildWorld(E) {
   label('tick', 'σ', () => V(cS.x - W2 - 0.1, Y + 0.12, W2));
   label('tick', 'верхняя крышка: EA', () => ex(gS) > 0.3 ? pbS.top.getWorldPosition(V()).add(V(-0.2, 0.25, 0)) : null);
   label('tick', 'нижняя крышка: EA', () => ex(gS) > 0.3 ? pbS.bot.getWorldPosition(V()).add(V(-0.2, -0.3, 0)) : null);
-  label('tick', 'side: 0', () => ex(gS) > 0.3 ? cS.clone().add(V(-0.55, 0.45, 0)) : null);
+  label('tick', 'сбоку: 0', () => ex(gS) > 0.3 ? cS.clone().add(V(-0.55, 0.45, 0)) : null);
   // the plate
   const cP = V(STATIONS.plate, Y, 0), TP = M.PLATE.t * D;
   const gP = asm('plate', root, { title: 'Заряженная металлическая пластина', sub: 'поток выходит только через одну крышку' });
@@ -197,7 +197,7 @@ export function buildWorld(E) {
   const eP = []; for (const x of grid3) for (const z of grid3) for (const s of [1, -1]) eP.push({ x, z, s, ar: fieldArrow(gP) });
   label('vec blue', '<b>E</b>', () => tip(eP[0].ar)); label('vec blue', '<b>E</b>', () => tip(eP[1].ar));
   label('tick', 'верхняя крышка: EA', () => ex(gP) > 0.3 ? pbP.top.getWorldPosition(V()).add(V(-0.2, 0.25, 0)) : null);
-  label('tick', 'in the metal: E = 0', () => ex(gP) > 0.3 ? pbP.bot.getWorldPosition(V()).add(V(-0.2, -0.3, 0)) : null);
+  label('tick', 'в металле: E = 0', () => ex(gP) > 0.3 ? pbP.bot.getWorldPosition(V()).add(V(-0.2, -0.3, 0)) : null);
 
   // ======================================================================
   // spheres: conducting, insulating, ρ = br — a cutaway with a wedge removed
@@ -272,7 +272,7 @@ export function buildWorld(E) {
     const rad = greyArrow(g, 'Radius');
     label('vec', 'r', () => tip(rad));
     label('vec blue', '<b>E</b>', () => tip(arrows[7].ar));
-    label('tick', kind === 'c' ? 'metal' : 'insulator', () => c.clone().add(V(0.2, RL / 2 + 0.35, 0)));
+    label('tick', kind === 'c' ? 'металл' : 'диэлектрик', () => c.clone().add(V(0.2, RL / 2 + 0.35, 0)));
     return { c, g, gs, enc, arrows, rad, mats, LG };
   }
   const RC_ = rodScene('crod', STATIONS.crod, 'c', { title: 'Заряженный металлический цилиндр', sub: 'заряд на поверхности' });
