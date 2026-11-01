@@ -22,6 +22,8 @@ This chapter examines Kyrgyzstan’s climate as the outcome of latitude, contine
 
 ## 19.1. Климатическое положение Кыргызстана / Kyrgyzstan’s Climatic Setting
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-A / IMAGE PLACEHOLDER 19-A]** Карта климатических районов Кыргызстана с основными долинами, хребтами и высотными зонами; не смешивать климатическую классификацию с физико-географическим районированием.
+
 Кыргызстан находится в глубине Евразийского материка, вдали от основных океанических источников влаги и вблизи аридных областей Центральной Азии. Такое положение способствует высокой континентальности: значительным сезонным и суточным колебаниям температуры, жаркому лету в долинах и холодной зиме во многих внутренних и высокогорных районах.
 
 Однако континентальность не означает климатического однообразия. Тянь-Шань и Памиро-Алай создают сложную систему барьеров и высотных ступеней. На наветренных склонах воздушные массы поднимаются, охлаждаются и могут давать усиленные осадки; за хребтами формируются более сухие районы. В пределах небольшого расстояния могут соседствовать сухие предгорья, умеренно влажные горные склоны, холодные высокогорные долины и области современного оледенения.
@@ -70,6 +72,8 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 | Нивально-ледниковые высоты | Отрицательные температуры значительную часть года, снег и лёд | Накопление снега и льда, питание высокогорных водосборов |
 
 ## 19.4. Осадки и орографический эффект / Precipitation and Orographic Effects
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-B / IMAGE PLACEHOLDER 19-B]** Карта годовых осадков и схема орографического подъёма воздуха с наветренной стороной и дождевой тенью; интерполированные значения отличать от прямых измерений.
 
 Распределение осадков в Кыргызстане крайне неоднородно. На него влияют направление воздушного потока, высота и ориентация хребтов, положение относительно наветренной или подветренной стороны, сезон и тип осадков.
 
@@ -135,6 +139,8 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 
 ## 19.8. Высотная климатическая поясность / Altitudinal Climatic Zonation
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-C / IMAGE PLACEHOLDER 19-C]** Поперечный климатический профиль от долины до нивально-ледникового пояса с изменением температуры, осадков и снежного режима; границы поясов показывать как ориентировочные.
+
 Высотная поясность — закономерная смена климатических условий с высотой. В Кыргызстане она особенно выражена из-за значительных перепадов рельефа. При подъёме обычно снижается температура, изменяются количество и сезонность осадков, длительность снежного покрова и продолжительность периода с положительными температурами.
 
 Высотные границы поясов не являются одинаковыми для всей страны. На них влияют широта, экспозиция, континентальность, наветренность, локальная циркуляция и форма долины. Южный склон и северный склон одного хребта могут иметь разные климатические условия на одинаковой абсолютной высоте.
@@ -172,6 +178,8 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 **Почвы.** Засушливость, интенсивные ливни и изменение растительного покрова влияют на эрозию, засоление и содержание органического вещества.
 
 ## 19.10. Климатические опасности / Climate-Related Hazards
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-D / IMAGE PLACEHOLDER 19-D]** Инфографика климатических опасностей Кыргызстана: засухи, жара, экстремальные осадки, сели, снегопады и лавины; отдельно показать опасность, экспозицию и уязвимость.
 
 К основным климатическим опасностям относятся:
 - засухи и периоды дефицита влаги;
@@ -231,6 +239,8 @@ SPI thresholds often used as a guide are approximately −1 for moderately dry c
 **Learning activity.** Obtain monthly precipitation data for a selected weather station and its climate normal. Calculate the departure in millimetres and as a percentage, then explain why this alone is insufficient to declare a drought. List additional data needed to assess agricultural and hydrological impacts.
 
 ## 19.11. Изменение климата: наблюдения и последствия / Climate Change: Observations and Impacts
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-E / IMAGE PLACEHOLDER 19-E]** График наблюдаемого изменения температуры с указанием периода 1960–2023, источника, базового периода и неопределённости; не смешивать разные климатические наборы данных.
 
 Кыргызстан относится к горным странам, уязвимым к изменению климата. По данным Атласа экологических изменений Программы ООН по окружающей среде, среднегодовая температура в стране выросла примерно на **1,2 °C в период 1960–2023 годов**, что превышает приведённую в том же источнике глобальную оценку за сопоставимый период. Эти значения относятся к конкретному набору данных и периоду; другие исследования могут давать отличающиеся оценки из-за различий в базовом периоде, методе и пространственном покрытии.
 
@@ -330,7 +340,190 @@ The estimated temperature at the higher location is therefore about +11.5 °C.
 
 **Check your understanding:** if the valley temperature is +20 °C and the elevation difference is 500 m, what estimate does the same approximate lapse rate produce?
 
+## English-language chapter text
+
+### 19.1. Kyrgyzstan's Climatic Setting
+
+Kyrgyzstan lies deep within the Eurasian continent, far from major oceanic moisture sources and close to the arid regions of Central Asia. This setting favours a strongly continental climate, with substantial seasonal and daily temperature ranges, hot summers in valleys and cold winters in many interior and high-mountain areas.
+
+Continentality does not mean climatic uniformity. The Tien Shan and Pamir-Alay create a complex system of barriers and elevation steps. Air masses rise and cool on windward slopes, often producing enhanced precipitation, while drier areas may develop behind mountain ranges. Dry foothills, relatively moist mountain slopes, cold high-mountain valleys and modern glacier areas can occur within short distances.
+
+**Main climate controls**
+1. **Latitude:** solar radiation and day length change seasonally.
+2. **Continentality:** distance from oceans reduces the moderating influence of maritime air masses and increases seasonal temperature contrasts.
+3. **Elevation:** temperature generally decreases with height, while pressure, humidity, cloudiness, precipitation and growing-season length also change.
+4. **Orography:** mountain ranges direct and block airflow, enhance uplift on windward slopes and create rain shadows.
+5. **Atmospheric circulation:** westerly flow, cyclones, cold-air intrusions and dry continental air masses influence weather regimes.
+6. **Underlying surface:** snow, glaciers, soils, vegetation, lakes and urban development affect albedo, evaporation and heat exchange.
+7. **Local topography:** slope aspect, valley shape, basin width and mountain-pass elevation create microclimatic differences.
+
+### 19.2. Atmospheric Circulation and Seasonality
+
+During the year, Central Asia is influenced by the interaction of mid-latitude westerlies, continental air masses, cyclones and anticyclonic systems. Their relative importance changes between seasons and years.
+
+**Winter** may bring persistent cold periods, temperature inversions and stagnant air in basins and valleys. Cold continental air intrusions can cause sharp temperature drops. Cyclonic systems from the south-west may bring precipitation, particularly to western and south-western slopes.
+
+**Spring** is often highly changeable. Cyclones and fronts may bring precipitation, sudden cold spells, mountain snow and rapid transitions to warmer conditions. A spring precipitation maximum occurs in several foothill and valley areas, although the seasonal regime differs substantially across the country.
+
+**Summer** is often hot and dry in low- and middle-elevation valleys. Daytime heating in mountains promotes convection, local showers and thunderstorms. High-mountain summers are short and cool; snowfall can occur even in the warm season.
+
+**Autumn** brings gradual cooling and an increasing probability of early mountain snowfall, while some valleys remain dry and relatively warm. The transition to winter depends on elevation and slope aspect.
+
+### 19.3. Temperature Regime and Vertical Gradient
+
+Air temperature generally decreases with elevation, but the actual rate depends on season, humidity, cloud cover, wind, slope aspect and surface conditions. A mean environmental lapse rate of about 6.5°C per 1,000 m is often used for the free atmosphere, but it must not be applied mechanically to every slope or weather station.
+
+On clear, calm nights, dense cold air drains downslope and accumulates in depressions. This creates temperature inversions: the valley floor may be colder than a slope above it. Inversions are particularly important in winter because they can contribute to the accumulation of air pollutants in basins and cities.
+
+Slope aspect also matters. In the Northern Hemisphere, south-facing slopes of similar steepness generally receive more direct solar radiation than north-facing slopes. Snowmelt timing, soil moisture, vegetation and growing-season length therefore differ.
+
+Temperature conditions change across elevation zones:
+
+| Elevation zone | General temperature characteristics | Climatic significance |
+|---|---|---|
+| Low valleys and foothills | Hot summers; winters range from mild to cold depending on region and inversions | Main area of intensive agriculture and settlement |
+| Middle mountains | Cooler summers, colder winters and greater snow-cover influence | Pastures, forest and meadow belts, catchments |
+| High-mountain valleys and plateaus | Short cool summers and long cold winters | Seasonal grazing and a limited growing season |
+| Nival–glacial elevations | Sub-zero temperatures for much of the year; snow and ice | Snow and ice accumulation and high-mountain catchments |
+
+### 19.4. Precipitation and Orographic Effects
+
+Precipitation is highly uneven across Kyrgyzstan. Its distribution depends on airflow direction, range elevation and orientation, windward or leeward position, season and precipitation type.
+
+When moist air rises over a slope, it cools, water vapour condenses and precipitation becomes more likely. On the leeward side, descending air may warm and relative humidity may decrease, producing an orographic rain shadow.
+
+In general, wetter conditions occur on several western and south-western mountain slopes, while some interior basins and high-mountain syrts are relatively dry. This generalisation does not replace local observations: neighbouring catchments may have different precipitation regimes.
+
+The national mean depends on the climate-normal period and spatial dataset. The World Bank gives an area-average estimate of about **378 mm per year** for the 1991–2020 climate normal. Regional values may be substantially lower or higher. This national average is not a normal value for every district or weather station.
+
+**Seasonality.** In foothills and many valleys, a substantial share of precipitation falls during the cold period and spring. At high elevations, much winter precipitation falls as snow, while summer may bring convective showers and thunderstorms. For glaciers, not only total precipitation but also the proportion falling as snow or rain, wind redistribution, sublimation and summer melting are important.
+
+**Snow cover.** Snow cover is distributed unevenly. Its persistence depends on elevation, slope aspect, wind, temperature and terrain. Wind removes snow from exposed surfaces and deposits it in hollows and behind ridges, creating local areas of increased avalanche hazard. At high elevations, snow may persist throughout the year and gradually become firn and glacial ice when accumulation exceeds melting over time.
+
+### 19.5. Regional Climate Differences
+
+**Chuy Valley and northern foothills.** The Chuy Valley has hot summers, cold winters and pronounced precipitation seasonality. Mountain slopes south of the valley receive different amounts of precipitation and have cooler conditions than the plain. Winter temperature inversions and episodes of poor air quality may occur.
+
+**Talas Valley.** Surrounded by mountain ranges, the Talas Valley is affected by local circulation and orographic precipitation. It has a moderately continental climate with cold winters and warm summers. Local conditions depend on valley-floor elevation and the openness of mountain passes.
+
+**Issyk-Kul Basin.** Lake Issyk-Kul moderates temperatures in adjacent coastal areas, although the effect is not uniform around the lake. The lake influence interacts with the Kungey and Terskey Ala-Too, local winds and contrasts between the northern and southern shores. Temperature and precipitation change markedly from the coast towards mountain slopes.
+
+**Inner Tien Shan.** High basins and syrts of the Inner Tien Shan have severe winters, short cool summers and large temperature ranges. Very low winter temperatures may occur on some plateaus and in valleys, while the active growing season is short. Elevation and distance from wetter peripheral areas reinforce climatic severity.
+
+**Naryn and At-Bashy areas.** The high valleys of Naryn and At-Bashy have cold winters and relatively cool summers. Conditions differ substantially between valley floors, slopes and high plateaus. Inversions, valley orientation and snow regime are important.
+
+**Fergana Valley and south-western Kyrgyzstan.** South-western districts, including the Kyrgyz part of the Fergana Valley, have a warmer climate. Summers are often hot and dry, and many locations have a pronounced winter–spring precipitation maximum. Temperature decreases with elevation, while precipitation increases on some windward slopes.
+
+**Alay Valley and Pamir-Alay.** The Alay Valley is high above sea level and surrounded by major ranges. Its climate is colder than that of the lowland Fergana Valley: winters are long and cold, summers short, and snow cover may persist for extended periods. Local conditions vary with valley position, slope aspect and exposure to air masses.
+
+### 19.6. Climate Types and Classification
+
+Different systems are used to describe climate. The **Köppen–Geiger classification** uses temperature and precipitation criteria to compare regions around the world. Maps of Kyrgyzstan may show cold steppe and desert types, continental types and humid mountain varieties. Class boundaries depend on the observation period and source dataset.
+
+Physical-geographical regionalisation, unlike the Köppen–Geiger classification, considers relief, altitudinal belts, seasonality and regional circulation. An educational atlas should therefore show both perspectives: a map of climate types and a map of regional climate areas.
+
+The entire south-western part of the country should not be labelled “subtropical” without qualification. Some low areas may have transitional characteristics in particular classifications, but most of the country belongs to mid-latitude climates, while high mountains have cold mountain and nival conditions.
+
+### 19.7. Local Winds and Mountain–Valley Circulation
+
+In mountain areas, local wind direction often changes during the day. During daytime, heated air rises along slopes and valleys, producing **valley winds**. At night, cooled air flows downslope, producing **mountain winds**. These flows can influence clouds, fog, pollutant distribution and local precipitation.
+
+Some basins and valleys have persistent local winds associated with pressure differences, terrain configuration and airflow through mountain passes. Their names and characteristics should be used only when supported by local meteorological observations.
+
+Wind increases evaporation and soil drying, redistributes snow, affects perceived temperature and can complicate transport and mountaineering. Wind speed and gusts are especially important on exposed high-mountain plateaus.
+
+### 19.8. Altitudinal Climatic Zonation
+
+Altitudinal zonation is the systematic change in climate conditions with elevation. It is especially pronounced in Kyrgyzstan because of the country's strong relief contrasts. As elevation increases, temperature usually decreases, while precipitation amount and seasonality, snow-cover duration and the length of the period with above-freezing temperatures also change.
+
+Belt boundaries are not the same throughout the country. They depend on latitude, slope aspect, continentality, windward or leeward position, local circulation and valley shape. North- and south-facing slopes of the same range may have different climatic conditions at the same absolute elevation.
+
+A generalised scheme includes a valley–foothill belt, lower mountain belt, middle-mountain belt, high-mountain belt, subnival belt and nival–glacial belt. These are qualitative zones, not universal altitude bands.
+
+Several snow-related boundaries must be distinguished:
+- **seasonal snow boundary:** the elevation above which snow may persist during a particular season;
+- **climatic snowline:** an approximate boundary associated with the long-term balance between snow accumulation and melting; and
+- **glacier equilibrium-line altitude (ELA):** the elevation at which a glacier's annual mass balance is close to zero in a particular year or averaged period.
+
+These lines do not automatically coincide. Their elevation depends on slope aspect, precipitation, wind redistribution, cloudiness, radiation and glacier-basin shape.
+
+### 19.9. Climate and Natural Systems
+
+Climate regulates water balance, vegetation, soil formation, pasture productivity, seasonal river flow and glacier condition. In a mountain country, climatic influence is transmitted through a chain: changes in temperature and precipitation affect snow and ice, then seasonal runoff, soil moisture, vegetation and economic activity.
+
+**Snow and glaciers.** Warmer conditions may accelerate melting and change the relative contributions of snow and glacier melt to rivers. In the short term, increased melting from some glaciers may temporarily raise runoff. As glacier storage declines, however, their contribution during dry seasons and to long-term water supply may decrease.
+
+**Pastures.** The timing of vegetation growth, moisture availability and drought frequency influence pasture productivity. Climate stress combined with excessive grazing can accelerate degradation.
+
+**Forests and biodiversity.** Changes in temperature and moisture may shift habitat boundaries, alter plant phenology and increase the vulnerability of some species to fires, drought and pests.
+
+**Soils.** Aridity, intense rainfall and changes in vegetation cover affect erosion, salinisation and soil organic-matter content.
+
+### 19.10. Climate-Related Hazards
+
+Major climate-related hazards include drought and moisture deficits; heatwaves and dangerously high temperatures; extreme precipitation, floods and debris flows; heavy snowfall, blizzards and avalanches; glaze ice and sudden cold spells; pasture drought and reduced crop yields; and periods of unfavourable conditions for hydropower and irrigation.
+
+A hazard is not defined only by the meteorological event itself. Exposure and vulnerability also matter. The same rainfall event may have different consequences in an uninhabited catchment, a city with inadequate drainage or a gorge with a debris-flow channel.
+
+**Droughts.** Drought may be meteorological (precipitation deficit), agricultural (insufficient soil moisture for plants), hydrological (reduced river flow and water storage) or socio-economic (water supply insufficient relative to demand). These types may develop sequentially but do not necessarily occur at the same time.
+
+**Heatwaves.** Heatwaves increase pressure on public health, energy systems, agriculture and urban infrastructure. The urban heat-island effect may intensify heat exposure. Assessment should consider not only the absolute maximum temperature but also duration, night-time cooling, humidity and access to water.
+
+**Extreme precipitation and debris flows.** Intense precipitation can trigger rapid surface runoff, slope erosion, floods and debris flows. Risk is higher in catchments with steep slopes, loose deposits and disturbed vegetation. Early-warning systems should combine weather forecasts, precipitation and water-level measurements, monitoring of debris-flow channels and public communication.
+
+### 19.11. Climate Change: Observations and Impacts
+
+Kyrgyzstan is a mountainous country vulnerable to climate change. According to the United Nations Environment Programme's Atlas of Environmental Change, mean annual temperature in the country increased by approximately **1.2°C between 1960 and 2023**, exceeding the global estimate cited by the same source for a comparable period. These values refer to a particular dataset and period; other studies may produce different estimates because of differences in baseline period, method and spatial coverage.
+
+Important areas of change include rising mean temperature and more frequent hot extremes; changes in precipitation seasonality and greater weather variability; changes in snow and ice accumulation and melting; possible changes in seasonal river-flow distribution; increased pressure on irrigation, pastures and urban water supply; and changes in the frequency and intensity of some hazards.
+
+It should not be assumed that every individual flood, landslide or drought is caused by climate change. Attribution of a specific event requires dedicated analysis. A careful formulation is that climate change may alter the probability and intensity of some types of extreme events, while consequences also depend on land use, infrastructure and population vulnerability.
+
+**Climate scenarios.** Climate projections are produced using global and regional climate models and future-emissions scenarios. They are not exact forecasts of weather in a particular year. Results should be presented as ranges and should state the baseline period, projection horizon, emissions scenario, model or model ensemble, spatial resolution and uncertainty range.
+
+Uncertainty is especially important in mountain areas: large-scale models may not adequately resolve local precipitation, wind effects, temperature inversions and complex topography.
+
+### 19.12. Climate and Human Activities
+
+**Agriculture.** Temperature and precipitation determine planting dates, irrigation demand, frost risk, drought and heat stress. Microclimatic differences and the length of the frost-free period are important in mountain areas.
+
+**Pastoral livestock.** Seasonal movement of livestock is linked to altitudinal zonation and forage availability. Early snowmelt, drought and extreme weather may change the timing of use of summer pastures (jailoo) and wintering areas.
+
+**Hydropower.** Seasonal runoff, snow accumulation and glacier contribution influence river discharge and reservoir operations. Management must consider both long-term trends and year-to-year variability.
+
+**Transport and construction.** Snowfall, avalanches, ice, debris flows, landslides and extreme heat affect the safety of roads, bridges, power lines and buildings.
+
+**Public health.** Heat, cold, air pollution, dust events and changes in the seasonality of allergens may create additional risks. Urban adaptation plans should consider vulnerable groups and access to cooling and safe drinking water.
+
+### 19.13. Climate Observations and Data
+
+Reliable climate research requires long and high-quality observation records. Weather stations in cities and valleys are important, but high-mountain stations are also essential, even though the network is generally sparser and operating conditions are more difficult.
+
+Main data types include surface meteorological observations (temperature, precipitation, wind, humidity, pressure and snow cover); radiosonde observations and vertical atmospheric profiles; satellite products for cloud cover, surface temperature and precipitation; atmospheric reanalyses; automatic weather stations and sensors; and climate models and regional downscaling products.
+
+When using data, check station metadata, elevation, relocation history, instrument changes, missing values and quality-control methods. Time series should be checked for homogeneity: a change in instrument or station location can create an artificial jump unrelated to climate.
+
+**Climate normal and weather record.** A climate normal is the average value of a climate variable over an established multi-year period. Standard 30-year periods are often used for international comparison, for example 1991–2020. A normal does not mean that every year will be close to the average; interannual variability may be substantial.
+
+A weather record is an extreme value over a defined observation period. It should not be compared directly with mean annual temperature or used as proof of a long-term trend without statistical analysis.
+
 ## 19.14. Практические работы / Practical Activities
+
+### English Practical Activities
+
+**1. Climate graph.** Select a meteorological station and obtain monthly mean temperature and precipitation for a stated climate-normal period. Construct a climate graph and describe seasonality.
+
+**2. Comparing two elevations.** Compare temperature data from two stations at different elevations. Check their location, exposure, observation period and possible inversions before interpreting the difference.
+
+**3. Orographic precipitation.** Use a topographic map to identify windward and leeward slopes. Explain how airflow and relief may influence precipitation, and identify the observations needed to test the hypothesis.
+
+**4. Altitudinal climatic zonation.** Prepare a profile from a valley to a high-mountain area. Show qualitative changes in temperature, snow cover, precipitation and growing-season length. State that belt boundaries vary by aspect and region.
+
+**5. Climate trend analysis.** Use a homogeneous time series to calculate a temperature or precipitation trend. State the baseline period, method, missing data and uncertainty. Do not infer causation from trend alone.
+
+**6. Climate risk for a settlement.** Identify relevant hazards, exposed population and infrastructure, vulnerability factors and possible adaptation measures. Distinguish observed hazards from modelled future scenarios.
+
+
 
 ### Практическая работа 1. Климатическая диаграмма
 
