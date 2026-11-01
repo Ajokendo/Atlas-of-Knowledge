@@ -254,6 +254,12 @@ if (/<a\b[^>]*>\s*<a\b/i.test(faunaKyrgyzstanFile)) errors.push("chapters/fauna-
 if (!faunaKyrgyzstanFile.includes("Coregonus lavaretus") || !faunaKyrgyzstanFile.includes("Coregonus peled") || !faunaKyrgyzstanFile.includes("Triplophysa stoliczkae")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul fish account must retain the 2021–2023 field-study taxa");
 }
+if (!faunaKyrgyzstanFile.includes("Из них 14 отнесены") ||
+    !faunaKyrgyzstanFile.includes("14 were classified as wildlife-related violations") ||
+    !faunaKyrgyzstanFile.includes("112 363,5 га") ||
+    !faunaKyrgyzstanFile.includes("112,363.5 ha")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: paired Russian/English wildlife statistics and reserve-area values must match");
+}
 if (!faunaKyrgyzstanFile.includes("Список OSME v10.1") ||
     !faunaKyrgyzstanFile.includes("OSME Region List v10.1") ||
     !faunaKyrgyzstanFile.includes("ITIS признаёт") ||
