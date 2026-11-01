@@ -271,9 +271,9 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 <PRIVATE_PERSON> — крупнейшее озеро Кыргызстана и одно из крупнейших высокогорных озёр мира. Оно расположено в межгорной тектонической котловине между хребтами Кунгей Ала-Тоо и Терскей Ала-Тоо.
 
 Основные характеристики:
-- высота поверхности — около 1 607 м над уровнем моря; уровень колеблется;
-- площадь — около 6 200 км², изменяется вместе с уровнем воды;
-- длина — около 178 км;
+- высота поверхности — около 1 609 м над уровнем моря по данным Национального плана управления водными ресурсами; уровень колеблется;
+- площадь зеркала — около 6 280 км² по данным Национального плана управления водными ресурсами; она меняется вместе с уровнем воды;
+- длина — около 177 км;
 - максимальная ширина — около 60 км;
 - максимальная глубина — около 668 м;
 - вода солоноватая; озеро бессточное, естественного поверхностного стока не имеет.
@@ -306,7 +306,7 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 | Озеро | Происхождение / тип | Высота (ориентировочно) | Особенности |
 |---|---|---:|---|
-| Иссык-Куль | Тектоническое | 1 607 м | Крупное глубокое бессточное солоноватое озеро |
+| Иссык-Куль | Тектоническое | около 1 609 м | Крупное глубокое бессточное солоноватое озеро |
 | Сон-Куль | Межгорное, тектоническое и ледниково-геоморфологическое влияние котловины | 3 016 м | Высокогорное пресноводное озеро, пастбища и водно-болотные местообитания |
 | Чатыр-Куль | Межгорное бессточное | 3 530 м | Холодное высокогорное озеро у границы с Китаем |
 | Сары-Челек | Завальное | Около 1 873 м | Глубокое озеро в Западном Тянь-Шане |
@@ -721,7 +721,7 @@ The terms **seasonal high water** and **flood** should not be used interchangeab
 
 Kyrgyzstan contains lakes of tectonic, glacial, landslide-dammed, karst and mixed origin. They differ in depth, mineralisation, area, elevation and connection to river networks.
 
-**Issyk-Kul** is Kyrgyzstan's largest lake and one of the world's largest high-mountain lakes. It occupies an intermontane tectonic basin between the Kungey and Terskey Ala-Too. Its surface elevation is about 1,607 m above sea level, although the level fluctuates; area is about 6,200 km² and changes with water level; length is about 178 km; maximum width about 60 km; and maximum depth about 668 m. The water is brackish, and the lake is endorheic, with no natural surface outflow.
+**Issyk-Kul** is Kyrgyzstan's largest lake and one of the world's largest high-mountain lakes. It occupies an intermontane tectonic basin between the Kungey and Terskey Ala-Too. Its surface elevation is about 1,609 m above sea level in the National Water Resources Management Plan, although the level fluctuates; surface area is about 6,280 km² and changes with water level; length is about 177 km; maximum width about 60 km; and maximum depth about 668 m. The water is brackish, and the lake is endorheic, with no natural surface outflow.
 
 Many rivers and streams enter the lake, including the Tyup, Jergalan, Karakol, Juku and Barskoon. Groundwater exchange may also contribute to its water balance. The absence of surface outflow promotes the accumulation of dissolved substances.
 
