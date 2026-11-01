@@ -392,7 +392,7 @@ Keep original data separate from cleaned and derived layers. For every processin
 
 **Activity.** Prepare a one-page protocol for a hypothetical landslide-hazard study: question, data, period, methods, software versions, limitations, sensitive-data safeguards and steps needed to repeat the key analysis.
 
-### 16.18.1. Как проверить, не вводит ли карта в заблуждение / Checking Whether a Map Misleads
+### 16.18.2. Как проверить, не вводит ли карта в заблуждение / Checking Whether a Map Misleads
 
 Карта может быть технически аккуратной и при этом создавать неверное впечатление. Перед публикацией проверяют не только орфографию и качество изображения, но и то, соответствует ли способ визуализации данным и вопросу исследования.
 
@@ -421,6 +421,222 @@ A map can be technically polished and still create a misleading impression. Befo
 **Practical check.** Ask a reader to answer the question the map is intended to address without additional explanation. If the reader draws a conclusion unsupported by the data, review the legend, title, classification, labels and scale. An alternative map can reveal how much the result depends on the selected method.
 
 **Activity.** Select a map with regional indicators and prepare two versions: absolute values and normalised values. Compare which areas become visually prominent and explain why both maps may be valid while answering different questions.
+
+## English-language chapter text
+
+### 16.1. Geographic Research: Logic and Stages
+
+Research begins with a clearly formulated problem. A topic must be turned into a research question that can be answered through observation, data and a justified method.
+
+A typical sequence includes:
+1. **Define the problem:** identify the phenomenon, territory, period and scientific or practical significance.
+2. **Review literature and sources:** examine previous studies, maps, statistics and available datasets.
+3. **Set the aim and objectives:** specify what must be established, measured or explained.
+4. **Formulate a hypothesis or research questions:** propose a preliminary explanation or a set of testable questions.
+5. **Choose scale and spatial units:** define the study area, period and units of observation.
+6. **Design the methodology:** select field, remote-sensing, statistical, cartographic and qualitative methods.
+7. **Collect and check data:** document provenance, accuracy, limitations and missing information.
+8. **Analyse:** process the information statistically, spatially and substantively.
+9. **Interpret:** compare findings with the hypothesis, theory and context.
+10. **Communicate results:** use maps, charts, tables and text, and describe uncertainty.
+
+Good research distinguishes description, explanation and causal inference. Spatial coincidence between two phenomena does not by itself prove that one caused the other.
+
+### 16.2. Spatial Scale and Areal Units
+
+Scale is a key characteristic of geographical analysis. It includes spatial coverage, level of detail and the size of units used to collect and aggregate data.
+
+Common levels include local (a site, settlement or ecosystem); regional (a district, oblast, river basin or group of territories); national (a state and its administrative units); and global (planetary processes and comparisons between countries or world regions).
+
+Changing scale may change the observed pattern. This is related to the **Modifiable Areal Unit Problem (MAUP)**: statistical results may depend on how zones are bounded and how large the units of analysis are.
+
+Avoid transferring patterns observed for groups of territories to individuals or households. This error is known as the **ecological fallacy**.
+
+### 16.3. Fieldwork Methods
+
+Fieldwork allows researchers to observe processes and features directly, check maps and satellite interpretations, collect primary measurements and record local conditions.
+
+Methods include route surveys and site descriptions; measurement of coordinates, elevation, distance and direction; sampling of soil, water, rocks and biological material; geomorphological description of landforms; meteorological and hydrological measurements; georeferenced photography with date and time; interviews, questionnaires and observation of land use; and inventories of infrastructure and land-use features.
+
+A field protocol should record the objective, location, date and time, instruments, units, method, observer and conditions. For samples, selection, labelling, storage and transport procedures are important.
+
+Instruments require calibration and checks. Measurements without units, accuracy information and a stated method are difficult to compare and cannot be reliably reproduced.
+
+### 16.4. Geographic Data and Data Quality
+
+Geographic data combine spatial referencing with descriptive characteristics. They may be primary (collected during the study) or secondary (obtained from existing sources).
+
+Main types include coordinates and point, line and polygon geometries; raster imagery and digital models; statistical tables with territorial codes; time series; textual and qualitative observations; and administrative, cadastral and infrastructure data.
+
+Quality is assessed across several dimensions:
+- **accuracy:** closeness to a true or accepted reference value;
+- **precision:** consistency of repeated measurements;
+- **completeness:** presence of required features and attributes;
+- **logical consistency:** absence of contradictions and structural violations;
+- **currency:** relevance to the study period;
+- **positional accuracy:** reliability of geographic location;
+- **thematic accuracy:** correctness of assigned classes and values; and
+- **lineage:** the history of data creation, transformation and use.
+
+Accuracy should not be confused with resolution. A highly detailed map may contain positional shifts, while statistics with many decimal places may still have low actual accuracy.
+
+### 16.5. Sampling and Study Design
+
+A complete survey of an entire territory is often impossible, so researchers use a sample. Its design should match the research question and the spatial structure of the phenomenon.
+
+Common designs include:
+- **simple random sampling:** each unit in the population has a known probability of selection;
+- **systematic sampling:** points are placed at set intervals or on a regular grid;
+- **stratified sampling:** the area is divided into relatively homogeneous strata, from which observations are selected;
+- **cluster sampling:** groups of objects or sites are selected; and
+- **purposive or expert sampling:** sites important to a specific question are selected. This is useful for exploratory work but may not support statistical generalisation.
+
+Spatial sampling must consider autocorrelation: neighbouring points often resemble one another. If this is ignored, the effective amount of independent information may be smaller than the number of measurements.
+
+The sampling plan should be prepared before data collection. Rules for excluding observations and reasons for missing data should be documented.
+
+### 16.6. Quantitative and Qualitative Methods
+
+**Quantitative methods** work with measurable quantities and numerical data. They are used to calculate density, rates of change, distances, correlations, indices and spatial models.
+
+**Qualitative methods** help explain motivations, practices, perceptions of place, historical context and institutional processes. They include interviews, focus groups, document analysis, observation and thematic coding.
+
+**Mixed methods** combine both approaches. For example, a map of access to health facilities may be supplemented by interviews with residents about actual barriers, including travel cost, seasonal roads, language and social factors.
+
+The research question should determine the method, not fashion or the availability of software.
+
+### 16.7. Fundamentals of Geographic Statistics
+
+Descriptive statistics summarise data distributions. Common measures include the arithmetic mean, median, mode, minimum and maximum, range and interquartile range, variance and standard deviation, frequencies and proportions.
+
+The mean is sensitive to extreme values, whereas the median often better represents a typical value in a skewed distribution.
+
+Absolute and relative indicators are used to compare territories. For example, total population is not the same as population density. Density is calculated as population divided by area, but the choice of area—administrative, actually inhabited or suitable for settlement—affects interpretation.
+
+Correlation indicates a statistical relationship but does not prove causation. Spatial analysis should account for autocorrelation, territorial heterogeneity, confounding factors and measurement uncertainty.
+
+### 16.8. Spatial Statistics and Spatial Patterns
+
+Spatial statistics examines how values and features are distributed across space.
+
+Key concepts include:
+- **spatial autocorrelation:** similarity between values in neighbouring features or locations;
+- **clustering:** concentration of features or high/low values;
+- **spatial heterogeneity:** differences between parts of a territory;
+- **point density:** the number of features per unit area; and
+- **hot spots and cold spots:** statistically significant areas of elevated or reduced concentration relative to a selected model.
+
+**Moran's I** is a measure of global spatial autocorrelation. Local statistics can identify local clusters and spatial outliers. Results depend on the definition of neighbourhood or the spatial-weights matrix.
+
+A map of statistically significant clusters should describe the method, parameters, significance level and any correction for multiple testing.
+
+### 16.9. Cartography as a Science and Language of Space
+
+Cartography studies the methods of creating, analysing and using maps. A map is not a neutral copy of a territory; it is a model in which information is selected and generalised according to purpose, scale and audience.
+
+Every map includes a mathematical basis (projection, coordinate system and scale); geographic content; cartographic symbols and visual variables; generalisation; a legend and explanations; and layout elements and metadata.
+
+A map should answer a specific question. Excessive detail, inconsistent symbols and an unclear legend can make it difficult to read even when the source data are accurate.
+
+### 16.10. Projection, Scale and Generalisation
+
+A map projection transforms coordinates on Earth's surface to a plane. Every flat projection distorts at least one property: area, shape, distance or direction. Selection depends on the map's purpose and the territory.
+
+**Scale** expresses the relationship between distance on the map and the corresponding distance on the ground. At a scale of 1:100,000, one centimetre on the map represents one kilometre on the ground, subject to the adopted projection model.
+
+**Cartographic generalisation** is the selection, simplification, combination and displacement of features to maintain readability at a chosen scale. Small rivers, roads and settlements may be omitted or symbolically displaced. Generalisation should preserve meaning and avoid creating a false impression.
+
+### 16.11. Thematic Cartography
+
+A thematic map shows the distribution of a particular phenomenon, such as population, precipitation, temperature, land use, income, risk or service accessibility.
+
+Common methods include:
+- **choropleth maps:** colour territorial units according to a relative indicator, such as population density;
+- **proportional-symbol maps:** show absolute values through symbol size;
+- **isolines:** connect points with equal values in a continuous field, such as elevation or pressure;
+- **dot maps:** represent quantities with dots, each corresponding to a specified amount;
+- **flow maps:** show movement of people, goods, water or energy;
+- **density maps:** represent the concentration of a phenomenon; and
+- **cartodiagrams:** combine maps with graphical indicators.
+
+Choropleth maps are generally appropriate for normalised indicators such as shares, densities and rates. Absolute numbers may mislead when territorial units differ substantially in area or population.
+
+### 16.12. Colour, Symbols and Visual Hierarchy
+
+Cartographic design guides the reader's attention and helps distinguish classes, directions, quantities and categories.
+
+Important visual variables include position, size, shape, orientation, hue, lightness, saturation and texture.
+
+General guidance:
+- use sequential colour schemes for ordered values from low to high;
+- use diverging schemes for values relative to a meaningful centre, such as zero or a threshold;
+- use qualitative palettes for categories without a natural order;
+- do not encode the only distinction using red and green;
+- maintain sufficient text/background contrast;
+- check readability at small sizes and in print;
+- use symbols that are understandable to the target audience; and
+- avoid excessive decorative elements.
+
+A colour scheme should match the meaning of the data. Equal visual intervals do not always correspond to equal numerical intervals, especially under logarithmic classification.
+
+### 16.13. Data Classification for Mapping
+
+Numerical data are often grouped into classes for choropleth and other thematic maps. The classification method affects the visual message.
+
+Common methods include equal intervals; quantiles; natural breaks (Jenks); standard deviations; and predefined normative or meaningful thresholds.
+
+No method is universally best. Quantiles place an equal number of territorial units in each class, but may group close values or separate similar ones. Equal intervals are simple but may create empty classes in skewed distributions. Natural breaks optimise within-class homogeneity under the algorithm but can make comparisons between maps from different years difficult if class boundaries are recalculated each time.
+
+For time comparisons, it may be useful to fix class boundaries so that a colour change reflects a change in the indicator rather than a change in classification.
+
+### 16.14. The Map as an Argument: Labels, Legend and Sources
+
+A map should contain enough information for correct interpretation:
+- a clear title;
+- a legend with units;
+- a scale or scale bar where needed;
+- projection and coordinate system for technical maps;
+- data date and map-production date;
+- source and licence;
+- author or organisation;
+- explanation of the classification method; and
+- uncertainty and limitations where relevant.
+
+A north arrow is not required on every map, especially when orientation is obvious or a coordinate grid is provided. Decorative elements must not substitute for missing metadata.
+
+Labels should have a clear hierarchy and should not obscure important features. Callouts and symbol displacement may be used where necessary, but geographic relationships should remain understandable.
+
+### 16.15. Generalisation and Multiscale Mapping
+
+The same dataset cannot be displayed in the same way on a world map, a national map and a city map. As scale decreases, small details disappear, lines are simplified and groups of features may be combined.
+
+Generalisation operations include selection, line simplification, smoothing, aggregation, displacement, exaggeration of important features, and changes in symbols.
+
+In digital web maps, generalisation is often performed for different zoom levels. Transitions between levels should not create contradictory representations or change the meaning of thematic data.
+
+### 16.16. Web Cartography and Interactive Visualisation
+
+Web maps allow users to change scale, turn layers on and off, search for features and retrieve attribute information. They may be static, interactive or embedded in analytical dashboards.
+
+Key principles include fast response and reasonable data volumes; clear controls; mobile accessibility; alternative text descriptions of important results; a legend that responds correctly when layers are toggled; clear dates and data currency; and protection of personal and sensitive information.
+
+Interactivity does not automatically make a map more accurate or understandable. It should support the research question rather than distract from it.
+
+### 16.17. Reproducibility, Open Science and Project Management
+
+A reproducible study allows another specialist to understand where the data came from, which transformations were performed and how the result was obtained.
+
+Good practice includes storing source data separately from processed data; documenting sources, versions and licences; preserving processing parameters and code; keeping a change log; using clear folder structures and naming; describing CRS, units and time periods; using version control; publishing methods and limitations; and arranging independent checks.
+
+Open science makes materials accessible to the extent allowed by law, licences, privacy and security. Openness does not mean unconditional publication of personal, vulnerable or strategically sensitive geospatial data.
+
+### 16.18. Geographic Communication and Research Integrity
+
+Geographic findings are communicated through scientific papers, atlases, reports, public maps, presentations and digital dashboards. The format should match the audience and purpose.
+
+Research integrity requires not concealing data that contradict a hypothesis; distinguishing measured values from model estimates; not presenting correlation as causation; reporting limitations and uncertainty; acknowledging authorship and sources; avoiding manipulation of colour schemes, axis cropping and classification; avoiding false precision; and correcting identified errors while preserving a record of revisions.
+
+When working with communities, explain who collects the data, for what purpose, who will have access and which decisions may be made based on the results.
 
 ## 16.19. Итоги главы / Chapter Summary
 
