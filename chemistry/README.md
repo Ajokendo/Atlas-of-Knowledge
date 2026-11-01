@@ -72,3 +72,5 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Checked bilingual equivalence status and volume units, plus rejection of an acid concentration above the model's declared range without leaving stale visual output.
 - [x] The first run exposed an incorrect expected volume in the newly added test (the test used 100 mL where 200 mL was required after doubling the acid volume). The test scenario was corrected; no chemistry-model code change was needed.
 - [x] Full Chemistry CI run [41342268215](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41342268215) completed with `status=completed` and `conclusion=success` on commit `bd2cf5322ced0019128c1c71e3b35e633e0b0496`.
+
+- [x] Extended reaction-trainer browser checks to reject decimal and zero coefficients without locking the task or advancing progress. Full Chemistry CI run [41342407125](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41342407125) completed with `status=completed` and `conclusion=success` on commit `b77394eaa4eed665e72dafef4356cf26c39c6da5`.
