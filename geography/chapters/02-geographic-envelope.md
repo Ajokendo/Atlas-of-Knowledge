@@ -62,10 +62,10 @@
 | Азот (N₂) | 78,08% |
 | Кислород (O₂) | 20,95% |
 | Аргон (Ar) | 0,93% |
-| Углекислый газ (CO₂) | около 0,04% |
+| Углекислый газ (CO₂) | около 0,0426% (425,6 ppm — глобальное среднегодовое значение 2025 года, предварительная оценка NOAA) |
 | Другие газы | около 0,01% |
 
-Значения округлены. Концентрация CO₂ меняется во времени и зависит от места измерения. Водяной пар не включён, поскольку его содержание сильно варьируется.
+Значения округлены. Концентрация CO₂ меняется во времени и зависит от места измерения. По данным NOAA, глобальное среднегодовое значение для сухого воздуха на морских станциях составило 425,6 ppm в 2025 году (предварительная оценка). Водяной пар не включён, поскольку его содержание сильно варьируется.
 
 - Азот участвует в глобальном азотном цикле и становится доступен организмам после биологического или абиотического связывания.
 - Кислород необходим для аэробного дыхания.
@@ -540,7 +540,7 @@ The spheres do not have impermeable boundaries. They overlap and interact: water
 
 Earth's atmosphere is held by gravity. It regulates heat exchange, transports moisture, generates weather and protects the surface from a substantial part of harmful ultraviolet radiation.
 
-**Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.04% carbon dioxide and about 0.01% other gases. Values are rounded. CO₂ concentration changes over time and varies by measurement location. Water vapour is excluded because its concentration is highly variable.
+**Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and about 0.01% other gases. Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm. Water vapour is excluded because its concentration is highly variable.
 
 Nitrogen is part of the global nitrogen cycle and becomes available to organisms after biological or abiotic fixation. Oxygen is essential for aerobic respiration. Argon is chemically inert. Carbon dioxide is used in photosynthesis and contributes to the natural greenhouse effect. Water vapour forms clouds and precipitation and transports latent heat.
 
@@ -736,6 +736,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 3. NASA Science. *Earth's Atmosphere*. https://science.nasa.gov/earth/facts/
 4. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
 5. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
+6. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
