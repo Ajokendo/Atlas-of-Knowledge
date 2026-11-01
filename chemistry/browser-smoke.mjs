@@ -123,12 +123,15 @@ try {
         errors.push(file + ": changing atom statistics are not announced to assistive technology");
       }
       const expectedAtoms = { H: ["1", "0", "1"], C: ["6", "6", "6"], O: ["8", "8", "8"], Na: ["11", "12", "11"], Cl: ["17", "18", "17"] };
+      const expectedConfigurations = { H: "1s¹", C: "1s² 2s² 2p²", O: "1s² 2s² 2p⁴", Na: "1s² 2s² 2p⁶ 3s¹", Cl: "1s² 2s² 2p⁶ 3s² 3p⁵" };
       for (const [symbol, expected] of Object.entries(expectedAtoms)) {
         await page.locator("#element").selectOption(symbol);
         const actual = await Promise.all(["#p", "#n", "#e"].map(selector => page.locator(selector).innerText().then(value => value.trim())));
         if (JSON.stringify(actual) !== JSON.stringify(expected)) {
           errors.push(file + ": incorrect proton, neutron or electron count for " + symbol + " (got " + actual.join("/") + ")");
         }
+        const actualConfiguration = (await page.locator("#orbitalConfig").innerText()).trim();
+        if (actualConfiguration !== expectedConfigurations[symbol]) errors.push(file + ": incorrect orbital configuration for " + symbol + " (got " + actualConfiguration + ")");
       }
       if (!(await page.locator("[data-t=ionNote]").innerText()).includes("одинаковое число протонов") ||
           !(await page.locator("[data-t=ionNote]").innerText()).includes("теряет либо присоединяет электроны")) {
@@ -139,6 +142,11 @@ try {
       }
       await page.locator("#element").selectOption("O");
       await page.locator("#lang").click();
+      if (!(await page.locator("[data-t=orbitalTitle]").innerText()).includes("Orbital electron configuration") ||
+          !(await page.locator("[data-t=orbitalNote]").innerText()).includes("subshells") ||
+          (await page.locator("#orbitalConfig").innerText()).trim() !== expectedConfigurations.O) {
+        errors.push(file + ": English orbital configuration text or selected oxygen configuration is incorrect");
+      }
       if (!(await page.locator("[data-t=ionNote]").innerText()).includes("same number of protons") ||
           !(await page.locator("[data-t=ionNote]").innerText()).includes("loses or gains electrons")) {
         errors.push(file + ": English note must distinguish isotopes from ions");
