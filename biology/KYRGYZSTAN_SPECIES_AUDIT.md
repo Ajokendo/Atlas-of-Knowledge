@@ -74,6 +74,16 @@ The following high-priority examples were checked against the linked source page
 
 Primary source: [Acta Biologica Sibirica article](https://doi.org/10.5281/zenodo.15253859) · [full text](https://journal.asu.ru/biol/article/download/17262/14904/).
 
+## National snow-leopard abundance estimates — comparison requiring caution
+
+The 2026 *Snow Leopard Reports* article by Kubanychbekov et al. (5(1):26–33; DOI 10.56510/slr.v5.63883) summarises the PASK national assessment for 2020–2024. It reports 905 camera traps at 589 locations, 43 survey sessions, 372 detection events and 150 identified adult individuals. Spatial capture–recapture modelling estimated approximately **300 adult snow leopards**, with a 95% confidence interval of **246–366**. The article states that this is a model-based estimate, not a direct count. It also notes that the paper itself received editorial review but was not externally peer-reviewed.
+
+A Ministry of Natural Resources notice dated **29 October 2026** gives a separate indicative national estimate of **450–550 snow leopards**. The notice does not provide the estimation method, confidence interval, survey period or age structure, so it is not possible from the published notice to determine whether it measures the same population component as the PASK adult-only estimate.
+
+**Audit finding:** the two published figures are not directly comparable on the information currently available. The chapter now reports them separately, identifies their dates and source types, and explicitly marks the discrepancy as unresolved. Do not average them, silently replace the PASK model result with the Ministry range, or describe either figure as a direct census. Follow-up should seek the underlying Ministry estimate methodology / national monitoring report and confirm whether it covers adults only.
+
+Sources: [Kubanychbekov et al. (2026), *Snow Leopard Reports*](https://doi.org/10.56510/slr.v5.63883) · [Ministry notice, 29 October 2026](https://mnr.gov.kg/ru/posts/news/v-dzeti-oguzskom-raione-na-video-zapecatleli-snezhnogo-barsa).
+
 ## Required evidence fields for future species accounts
 
 Each account should record, where applicable:
