@@ -663,30 +663,37 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 13-E / IMAGE PLACEHOLDER 13-E]** Схема системы глобальных изменений: климат, землепользование, биогеохимические циклы, биоразнообразие и общественные драйверы. / **EN:** Global-change systems diagram linking climate, land use, biogeochemical cycles, biodiversity and societal drivers.
 **Иллюстрация 13.1 / Figure 13.1 — Система глобальных экологических изменений / Global environmental change system.**  
 Схема взаимосвязей между климатом, землепользованием, биоразнообразием, биогеохимическими циклами, загрязнением и обществом. Стрелки должны обозначать причинные связи только там, где они научно обоснованы.
 
 **Иллюстрация 13.2 / Figure 13.2 — Парниковый эффект и энергетический баланс / Greenhouse effect and energy balance.**  
 Научная схема поступления коротковолновой солнечной радиации, отражения, поглощения и исходящего длинноволнового излучения. Не изображать парниковые газы как физический слой или «крышку» атмосферы.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 13-F / IMAGE PLACEHOLDER 13-F]** Матрица климатических воздействий на криосферу, воды, экосистемы, сельское хозяйство и города; различать наблюдения и прогнозы. / **EN:** Climate-impact matrix for the cryosphere, water, ecosystems, agriculture and cities, distinguishing observations from projections.
 **Иллюстрация 13.3 / Figure 13.3 — Климатические воздействия по природным системам / Climate impacts across natural systems.**  
 Инфографика по криосфере, океану, лесам, сельскому хозяйству и городам. Подписывать механизмы, не указывая неподтверждённые численные прогнозы.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 13-G / IMAGE PLACEHOLDER 13-G]** Схема процессов деградации земель и восстановительных мер: эрозия, засоление, уплотнение, утрата растительного покрова и рекультивация. / **EN:** Diagram of land-degradation processes and restoration measures, including erosion, salinisation, compaction, vegetation loss and rehabilitation.
 **Иллюстрация 13.4 / Figure 13.4 — Деградация земель и восстановление / Land degradation and restoration.**  
 Сравнение эрозии, засоления, уплотнения и восстановления почвенного покрова. Изображать разные процессы отдельно, не смешивать их визуально.
 
 **Иллюстрация 13.5 / Figure 13.5 — Экологический риск: опасность, подверженность, уязвимость / Environmental risk: hazard, exposure and vulnerability.**  
 Концептуальная диаграмма с примером одного природного явления и разными последствиями для двух территорий.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 13-H / IMAGE PLACEHOLDER 13-H]** Сравнение смягчения изменения климата и адаптации с примерами мер, временных горизонтов и показателей результата. / **EN:** Compare climate mitigation and adaptation with example measures, time horizons and outcome indicators.
 **Иллюстрация 13.6 / Figure 13.6 — Смягчение и адаптация / Mitigation and adaptation.**  
 Две взаимодополняющие дорожные карты с примерами мер в энергетике, транспорте, землепользовании, водном хозяйстве и городах.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 13-I / IMAGE PLACEHOLDER 13-I]** Схема экологического мониторинга: наблюдения, лабораторные анализы, дистанционное зондирование, контроль качества и публикация данных. / **EN:** Environmental-monitoring workflow covering observations, laboratory analysis, remote sensing, quality control and data publication.
 **Иллюстрация 13.7 / Figure 13.7 — Мониторинг окружающей среды / Environmental monitoring.**  
 Схема объединения полевых измерений, лабораторных данных, спутников, GIS, моделей и общественного мониторинга.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 13-J / IMAGE PLACEHOLDER 13-J]** Цикл циркулярной экономики с предотвращением отходов, повторным использованием, ремонтом, переработкой и безопасным остаточным обращением. / **EN:** Circular-economy cycle showing waste prevention, reuse, repair, recycling and safe residual management.
 **Иллюстрация 13.8 / Figure 13.8 — Циркулярная экономика / Circular economy.**  
 Схема предотвращения отходов, долговечного дизайна, ремонта, повторного использования и переработки; показать, что приоритетом является сохранение ценности продукции и материалов.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 13-K / IMAGE PLACEHOLDER 13-K]** Концептуальная схема экологической справедливости: распределение экологических выгод и рисков, участие, доступ к информации и защита уязвимых групп. / **EN:** Conceptual environmental-justice diagram showing distribution of environmental benefits and risks, participation, information access and protection of vulnerable groups.
 **Иллюстрация 13.9 / Figure 13.9 — Экологическая справедливость / Environmental justice.**  
 Карта-схема городской территории с различным доступом к зелёным зонам и неодинаковой нагрузкой загрязнения; использовать условные данные и ясно обозначить их как учебный пример.
 
