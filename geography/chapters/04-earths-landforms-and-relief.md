@@ -266,7 +266,7 @@
 - **подводные горы (seamounts)** — изолированные возвышения морского дна, часто вулканического происхождения;
 - вулканические плато — обширные подводные поверхности, образованные накоплением лавы.
 
-**Место для иллюстрации 4.10-A — Coastal and Ocean-Floor Relief.** Два взаимосвязанных профиля: абразионное и аккумулятивное побережье, шельф, склон, подножие, абиссальная равнина, срединно-океанический хребет, желоб и подводная гора.
+**Место для иллюстрации 4.10-A — Coastal and Ocean-Floor Relief.** Два взаимосвязанных профиля: абразионное и аккумулятивное побережье с направлением вдольберегового переноса, косой, томболо и барьерным островом; шельф, склон, подножие, абиссальная равнина, срединно-океанический хребет, желоб и подводная гора.
 
 ## 4.11. Склоновые процессы и денудация / Slope Processes and Denudation
 
@@ -608,7 +608,7 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 
 Major submarine features include the **continental shelf**, a relatively shallow submerged margin of a continent; the **continental slope**, a steeper descent towards the deep ocean; the **continental rise**, a sediment accumulation zone near the base of the slope (where present); **abyssal plains**, extensive deep-ocean areas with low gradients; **mid-ocean ridges**, long submarine mountain systems associated with the formation of new oceanic crust; **deep-sea trenches**, narrow deep depressions often associated with subduction; **seamounts**, isolated elevations on the ocean floor, often of volcanic origin; and **volcanic plateaus**, extensive submarine surfaces built by accumulated lava.
 
-**[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated erosional/depositional coastal profiles and an ocean-basin cross-section with shelf, slope, rise, abyssal plain, mid-ocean ridge, trench and seamount.
+**[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated erosional/depositional coastal profiles with longshore-drift arrows, a spit, tombolo and barrier island; add an ocean-basin cross-section with shelf, slope, rise, abyssal plain, mid-ocean ridge, trench and seamount.
 
 ### 4.11. Slope Processes and Denudation
 
