@@ -251,7 +251,7 @@ export function buildWorld(E) {
   function rodScene(key, X, kind, meta) {
     const c = V(X, RY, 0), g = asm(key, root, meta);
     const mats = [fadeMat(kind === 'c' ? 'base' : 'paper'), fadeMat(kind === 'c' ? 'dark' : 'base')];
-    part(g, new THREE.CylinderGeometry(RR, RR, RL, 48, 1, true, TH[1], 2 * Math.PI - (TH[1] - TH[0])), { tone: 'hi', name: kind === 'c' ? 'Metal rod' : 'Insulating rod', mat: mats[0], pos: c.toArray() });
+    part(g, new THREE.CylinderGeometry(RR, RR, RL, 48, 1, true, TH[1], 2 * Math.PI - (TH[1] - TH[0])), { tone: 'hi', name: kind === 'c' ? 'Металлический стержень' : 'Диэлектрический стержень', mat: mats[0], pos: c.toArray() });
     for (const th of TH) {
       for (const f of twoSided(g, new THREE.PlaneGeometry(RR, RL).translate(RR / 2, 0, 0), { tone: 'hi', name: 'Сечение', mat: mats[1], pos: c.toArray() })) f.rotation.y = th - Math.PI / 2;
     }
@@ -309,7 +309,7 @@ export function buildWorld(E) {
   label('tick', 'E = 0', () => cC.clone().add(V(0.25, -0.15, 0.5)));
   label('vec blue', '<b>E</b><sub>0</sub>', () => cC.clone().add(V(-4.3, 1.55, 0)));
   const gsC = new THREE.Group(); gsC.position.copy(cC); gC.add(gsC);
-  gpart(gsC, new THREE.SphereGeometry(RC - 0.06, 48, 32), 'Gaussian sphere in the metal');
+  gpart(gsC, new THREE.SphereGeometry(RC - 0.06, 48, 32), 'Гауссова сфера внутри металла');
   ring(gsC, RC - 0.06, 'y'); ring(gsC, RC - 0.06, 'z');
 
   // ---------- per-frame ----------
