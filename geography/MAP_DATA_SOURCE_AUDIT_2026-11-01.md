@@ -1,0 +1,67 @@
+# Kyrgyzstan map-data source audit — 1 November 2026
+
+**Repository:** `Ajokendo/Atlas-of-Knowledge`  
+**Branch:** `workspace/geography`  
+**Scope:** source discovery and cartographic reference-system controls. This note does not certify any boundary, geological, hydrological, climate, biodiversity or protected-area geometry.
+
+## Findings
+
+### 1. Published geographic coordinates and vertical reference
+
+The Kyrgyz Republic's Aeronautical Information Publication, GEN 2.1, effective 6 August 2026, states that published geographic latitude/longitude coordinates are expressed in WGS 84. It also describes the vertical reference for international aeronautical purposes and notes the use of the long-term mean Baltic Sea level as the vertical reference in Kyrgyzstan. This is an authoritative, dated national publication, but its vertical-reference statement is explicitly in the aeronautical context; it must not be generalized to every elevation dataset without checking metadata.
+
+Source: https://ais.ansp.kg/eaip/2026-08-06-AIRAC/html/eAIP/UC-GEN-2.1-en-GB.html
+
+### 2. National projected coordinate system
+
+Government Resolution No. 235 of 7 October 2010 establishes the national Kyrg-06 coordinate system, based on ITRF2005 and a multi-zone Transverse Mercator arrangement. The accessible legal reproduction describes five 3-degree zones and their central meridians. This is a projected national mapping system and must not be confused with the WGS 84 geographic-coordinate convention stated in the AIP.
+
+Accessible legal text: https://prg.kz/document/?doc_id=30830262
+
+A government land-resources agency notice about the geospatial infrastructure pilot describes coordinate transformation between the state coordinate system and WGS 84 and a central control-point information system. This supports treating transformation parameters and control-point metadata as a required part of any overlay workflow, not assuming that similarly named coordinates are interchangeable.
+
+Government source: https://gosreg.gov.kg/ru/?p=8013
+
+### 3. Administrative-boundary data availability
+
+The UN Geospatial Information Section / Statistics Division SALB country page identifies the State Agency of Cartography & Geodesy as Kyrgyzstan's National Geospatial Information Authority, but currently lists no downloadable geospatial datasets. Therefore, the page is useful for identifying the national authority, not as a boundary-data source.
+
+Source: https://salb.un.org/en/data/kgz
+
+The UN OCHA/HDX Common Operational Dataset of subnational administrative boundaries is described in the 2026 source catalogue as sourced from the Kyrgyz Republic Ministry of Emergency Situations, with P-codes and CC BY 3.0 IGO licensing. It is a useful candidate for operational/reference comparison, but the actual dataset version, administrative date, geometry and licence record must be inspected before production use. It must not automatically be labelled as the legally authoritative national boundary layer.
+
+Catalogue: https://www.technicalgis.com/data-sources/kyrgyzstan/
+
+The World Bank Official Boundaries catalogue records an update on 21 October 2026 and provides Admin 0/1/2 formats plus maintenance logs. This is a current international comparison source, not a substitute for legal confirmation by the Kyrgyz national authority.
+
+Source: https://datacatalog.worldbank.org/search/dataset/0038272/world-bank-official-boundaries
+
+### 4. National geospatial portals
+
+The State Agency for Land Resources' GISMSU portal identifies itself as an information system for municipal resource management. Its presence does not, by itself, establish that all national-level boundaries or thematic layers are downloadable or legally certified for atlas publication.
+
+Portal: https://geoaymak.gov.kg/
+
+The Government land-resources agency has also described the Kyrgyzmap and NSDI geoinformation/climate-data portals as part of the national geospatial infrastructure. Availability, metadata, layer dates, access terms and download endpoints must be checked directly for each intended layer.
+
+Government notice: https://gosreg.gov.kg/ru/?p=2002
+
+## Cartographic controls to apply to the atlas
+
+1. Record coordinate reference system (CRS), datum, projection, zone, units and transformation for every source layer.
+2. Do not conflate WGS 84 latitude/longitude with the national projected Kyrg-06 system.
+3. Record the vertical datum and elevation source independently from the horizontal CRS.
+4. For administrative maps, record source authority, legal/administrative effective date, level, P-codes, version, licence and any disputed/undetermined boundary treatment.
+5. Compare operational datasets (e.g. OCHA/HDX) with national-authority records; do not call a third-party boundary file legally authoritative without confirmation.
+6. For thematic layers, record dataset version/date, scale or resolution, generalisation, classification method and known omissions.
+7. Preserve a source/data note in each finished map's metadata and bilingual caption.
+
+## Open items
+
+- Obtain or verify the current official national administrative-boundary dataset and its legal effective date.
+- Confirm access to the official national geodetic control-point and coordinate-transformation metadata.
+- Verify the precise official source and datum for the extreme-point coordinates in Chapter 17.
+- Validate geological, hydrographic, climate, biodiversity and protected-area geometries against their responsible national agencies and dated source metadata.
+- Do not mark any map asset complete until the data, geometry, projection, licence, bilingual labels and scientific review have been recorded.
+
+**Status:** authoritative reference-system sources identified and cross-distinguished; official thematic map geometries remain unverified.
