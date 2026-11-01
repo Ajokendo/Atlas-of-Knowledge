@@ -206,13 +206,17 @@ for (const [label, evidence] of [
   ["protein quaternary structure caveat in Russian", "не у всех белков"],
   ["disulfide bridges in Russian", "дисульфидные мостики"],
   ["enzyme activation energy and Gibbs energy in Russian", "не изменяют суммарное изменение энергии Гиббса ΔG"],
+  ["enzyme active site and substrate complex in Russian", "Субстрат связывается с активным центром фермента"],
+  ["enzyme specificity in Russian", "обеспечивают специфичность"],
   ["amino acid functional groups in English", "Amino acids contain an amino group and a carboxyl group"],
   ["zwitterion and pH in English", "is called a zwitterion"],
   ["ribosomal peptide synthesis in English", "the ribosome forms peptide bonds"],
   ["protein secondary structure in English", "α-helices and β-sheets"],
   ["protein quaternary structure caveat in English", "is not present in every protein"],
   ["disulfide bridges in English", "disulfide bridges"],
-  ["enzyme activation energy and equilibrium in English", "do not change the overall Gibbs energy change ΔG or the position of chemical equilibrium"]
+  ["enzyme activation energy and equilibrium in English", "do not change the overall Gibbs energy change ΔG or the position of chemical equilibrium"],
+  ["enzyme active site and substrate complex in English", "A substrate binds at an enzyme's active site"],
+  ["enzyme specificity in English", "provide specificity, although it is not always absolute"]
 ]) {
   if (!lifeSource.includes(evidence)) errors.push("chapters/chemistry-of-life.html: missing or incomplete " + label);
 }
