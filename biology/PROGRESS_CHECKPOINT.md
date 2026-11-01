@@ -604,3 +604,20 @@
 - **Not yet live:** a secure submission endpoint and private moderation queue have not been selected/configured; the form must not claim successful receipt until the complete path is tested.
 
 - Added `FEEDBACK_WIDGET_TEMPLATE.html`, a reusable bilingual form template with chapter/anchor metadata, optional evidence/contact fields, and explicit publication consent. Its endpoint is intentionally blank; submission is disabled pending a secure service and moderation queue.
+
+
+## Structural HTML audit — 2 November 2026
+
+- Re-verified the active Biology branch against the last saved checkpoint: `workspace/biology` is identical to commit `e11c938242e2024373cd89c6b41eb58b60f844e0`.
+- Retrieved and inspected all 13 expected Biology HTML pages from that branch: `index.html` and 12 chapter pages.
+- Structural checks completed against the retrieved page contents:
+  - all 13 pages declare an HTML language and viewport;
+  - Russian and English marker counts are balanced on every page;
+  - no duplicate HTML IDs were found;
+  - all 22 SVG elements expose an accessible name;
+  - all 165 buttons explicitly declare `type="button"`;
+  - all 285 external links opening a new tab include `rel="noopener"`.
+- No failures were found in these limited structural checks.
+- **Scope limitation:** this was a read-only inspection of GitHub file contents. The repository's full `checks.mjs` script was not executed; no Chromium/browser run, keyboard interaction test, screen-reader test, measured contrast test, physical-device test, or successful CI run is claimed.
+- The 52 planned illustration assets remain deferred. G4 independent scientific review and G5 independent bilingual/editorial review remain open.
+- Controlled editorial readiness remains **95/100**. This audit does not justify increasing the score or claiming publication readiness.
