@@ -587,7 +587,7 @@ Typical landforms include dunes, barchans, longitudinal and transverse sand ridg
 
 Karst develops when natural water dissolves soluble rocks, especially limestone, dolomite, gypsum and rock salt. Dissolved carbon dioxide can make water more effective at dissolving carbonate rocks. Its intensity depends on rock composition, fracturing, water circulation, temperature and water chemistry.
 
-Surface karst features include karren, sinkholes, swallow holes, karst valleys and poljes. Underground features include caves, galleries, shafts, underground rivers and speleothems such as stalactites, stalagmites and columns.
+Surface karst features include **karren** (small grooves and runnels dissolved into limestone), **sinkholes** (closed depressions formed by dissolution or collapse), **swallow holes** (openings where surface streams disappear underground), karst valleys and **poljes** (large closed karst depressions with relatively flat floors). Underground features include caves, galleries, shafts, underground rivers and speleothems: **stalactites** hang from cave ceilings, **stalagmites** grow from cave floors, and columns form where the two join.
 
 Karst areas may be vulnerable to groundwater pollution because water can move rapidly through fractures and cavities.
 
@@ -600,17 +600,17 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 #### 4.10.1. Erosional Coasts
 
 
-**Erosional coasts** may include sea cliffs, wave-cut notches, abrasion platforms, sea caves and arches, and isolated stacks.
+**Erosional coasts** may include **sea cliffs** (steep coastal slopes cut by wave action), **wave-cut notches** at cliff bases, **abrasion platforms** exposed as cliffs retreat, sea caves and arches, and isolated **stacks** left after arches or headlands collapse.
 
 #### 4.10.2. Depositional Coasts
 
 
-**Depositional coasts** may include beaches, spits, barrier bars, barrier islands, lagoons and deltaic coasts. Erosion and deposition can occur simultaneously on neighbouring coastal sections.
+**Depositional coasts** may include beaches, **spits** (narrow ridges attached to land at one end), barrier bars, barrier islands, **lagoons** partly separated from the sea by a barrier, and deltaic coasts. Erosion and deposition can occur simultaneously on neighbouring coastal sections.
 
 #### 4.10.3. Submarine Relief
 
 
-Major submarine features include the continental shelf, continental slope, continental rise, abyssal plains, mid-ocean ridges, deep-sea trenches, seamounts and volcanic plateaus.
+Major submarine features include the **continental shelf**, a relatively shallow submerged margin of a continent; the **continental slope**, a steeper descent towards the deep ocean; the **continental rise**, a sediment accumulation zone near the base of the slope; **abyssal plains**, extensive deep-ocean areas with low gradients; **mid-ocean ridges**, long submarine mountain systems associated with the formation of new oceanic crust; **deep-sea trenches**, narrow deep depressions often associated with subduction; seamounts and volcanic plateaus.
 
 **[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated coastal and ocean-basin profiles with erosional/depositional coasts, shelf, slope, rise, abyssal plain, ridge and trench.
 
@@ -618,7 +618,7 @@ Major submarine features include the continental shelf, continental slope, conti
 
 Slope processes move loose material and rock downslope under gravity. They may be slow or sudden. Main types include landslides, rockfalls and rockslides, scree or talus movement, debris flows, slow soil creep, and solifluction, the slow downslope flow of water-saturated soil, often during seasonal thaw in cold regions.
 
-**Denudation** is the combined lowering and wearing down of relief through weathering, erosion and material transport.
+**Denudation** is the combined lowering and wearing down of relief through weathering, slope movements, erosion and material transport.
 
 The rate of slope processes depends on slope angle, rock composition and structure, moisture, vegetation, earthquakes and engineering activity.
 
@@ -632,7 +632,7 @@ Slope steepness alone cannot reliably predict a landslide. Slope-hazard assessme
 
 **Field indicators:** fresh scarps and cracks, tilted trees or poles, road deformation, displaced fences, bulging ground near the toe, and unusual seepage. No single indicator is a diagnosis; observations require assessment by qualified specialists. Do not approach an active landslide or enter an area that may move again.
 
-**From hazard to risk.** A map of potentially unstable slopes indicates where a process may occur, but risk also depends on people, buildings, roads and other exposed assets, their vulnerability and evacuation capacity. A susceptibility map does not replace an engineering-geological investigation and does not forecast the date of an event.
+**From hazard to risk.** A map of potentially unstable slopes indicates where a process may occur. Risk also depends on the likelihood and intensity of the hazardous process, the people and assets exposed, their vulnerability, and the capacity for warning and evacuation. A susceptibility map does not replace an engineering-geological investigation and does not forecast the date of an event.
 
 **Learning activity.** Compare two hypothetical slopes with the same steepness: one has competent bedrock and managed drainage; the other has fractured water-saturated deposits and an undercut toe. List the additional data needed to compare their stability. Do not assign a numerical probability without a model and supporting data.
 
