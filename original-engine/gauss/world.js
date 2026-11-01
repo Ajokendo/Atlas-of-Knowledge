@@ -44,17 +44,17 @@ export function buildWorld(E) {
     const a = i / 72 * 2 * Math.PI, c = r * Math.cos(a), s = r * Math.sin(a);
     return axis === 'y' ? V(at[0] + c, at[1], at[2] + s) : axis === 'x' ? V(at[0], at[1] + c, at[2] + s) : V(at[0] + c, at[1] + s, at[2]);
   }));
-  const fieldArrow = (parent, name = 'Field') => arrow(parent, 'blue', { r: 0.024, head: 0.13, headR: 0.06, name });
+  const fieldArrow = (parent, name = 'Электрическое поле') => arrow(parent, 'blue', { r: 0.024, head: 0.13, headR: 0.06, name });
   const inkArrow = (parent, name) => arrow(parent, 'ink', { r: 0.02, head: 0.12, headR: 0.055, name });
   const greyArrow = (parent, name) => arrow(parent, 'dark', { r: 0.016, head: 0.1, headR: 0.045, name, tone: 'mid' });
   const tip = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + 0.2, 0)) : null;
-  const charge = (parent, pos, sign = 1, name = 'Charge') => {
+  const charge = (parent, pos, sign = 1, name = 'Заряд') => {
     const m = part(parent, new THREE.SphereGeometry(0.15, 32, 20), { tone: 'hi', name, pos: pos.toArray() });
     label(sign > 0 ? 'vec red' : 'vec blue', sign > 0 ? '+' : '−', () => m.getWorldPosition(V()));
     return m;
   };
   // tiny red dots: positive charge on or in a solid
-  function dots(parent, pts, name = 'Charge', r = 0.035, pal = 'red') {
+  function dots(parent, pts, name = 'Заряд', r = 0.035, pal = 'red') {
     const im = new THREE.InstancedMesh(new THREE.SphereGeometry(r, 10, 8), shadeMat(pal), pts.length);
     const m4 = new THREE.Matrix4();
     pts.forEach((p, i) => im.setMatrixAt(i, m4.makeTranslation(p.x, p.y, p.z)));
@@ -87,10 +87,10 @@ export function buildWorld(E) {
   label('vec blue', '<b>E</b>', () => tip(fE[2]));
   const plateF = new THREE.Group(); plateF.position.copy(cF); gF.add(plateF);
   part(plateF, box(0.03, 2, 2, 0.01), { tone: 'hi', name: 'Поверхность', mat: shadeMat('paper', { opacity: 0.6 }) });
-  const fA = inkArrow(gF, 'Area vector');
+  const fA = inkArrow(gF, 'Вектор площади');
   label('vec', '<b>A</b>', () => tip(fA));
   const pierce = Array.from({ length: 16 }, () => part(gF, new THREE.SphereGeometry(0.05, 12, 8), { tone: 'faint', pal: 'blue', name: 'Линии поля, проходящие через поверхность' }));
-  const fPerp = greyArrow(gF, 'E components'), fPar = greyArrow(gF, 'E components'), fEc = fieldArrow(gF, 'Field');
+  const fPerp = greyArrow(gF, 'Составляющие E'), fPar = greyArrow(gF, 'Составляющие E'), fEc = fieldArrow(gF, 'Field');
   label('vec', 'E cos θ', () => ex(gF) > 0.3 && Math.abs(Math.cos(plateF.rotation.y)) > 0.25 ? tip(fPerp) : null);
   label('vec', 'E sin θ', () => ex(gF) > 0.3 && Math.sin(plateF.rotation.y) > 0.25 ? tip(fPar) : null);
   const shadow = loop(root, [V(0, -1, -1), V(0, 1, -1), V(0, 1, 1), V(0, -1, 1)]);
@@ -103,7 +103,7 @@ export function buildWorld(E) {
   const gG = asm('gauss', root, { title: 'Точечный заряд внутри гауссовой сферы', sub: 'поток равен q/ε₀ при любом радиусе' });
   charge(gG, cG, 1);
   const sphG = new THREE.Group(); sphG.position.copy(cG); gG.add(sphG);
-  gpart(sphG, new THREE.SphereGeometry(1, 48, 32), 'Gaussian sphere');
+  gpart(sphG, new THREE.SphereGeometry(1, 48, 32), 'Гауссова сфера');
   ring(sphG, 1, 'y'); ring(sphG, 1, 'z');
   { const pf = M.pointField(M.POINT.q, [0, 0, 0]);
     for (const d of fib(30)) polyline(root, M.fieldLine(pf, [d.x * 0.02, d.y * 0.02, d.z * 0.02], { step: 0.005, max: 56 }), cG); }
@@ -228,7 +228,7 @@ export function buildWorld(E) {
     }
     dots(g, pts, kind === 'c' ? 'Surface charge' : 'Charge in the volume', 0.024);
     const gs = new THREE.Group(); gs.position.copy(c); g.add(gs);
-    gpart(gs, new THREE.SphereGeometry(1, 48, 32), 'Gaussian sphere');
+    gpart(gs, new THREE.SphereGeometry(1, 48, 32), 'Гауссова сфера');
     ring(gs, 1, 'y'); ring(gs, 1, 'z');
     // what the Gaussian sphere encloses (shown when opened)
     const enc = gpart(g, new THREE.SphereGeometry(1, 40, 28), 'Enclosed charge', { pos: c.toArray(), mat: shadeMat('red', { opacity: 0.32 }) });
