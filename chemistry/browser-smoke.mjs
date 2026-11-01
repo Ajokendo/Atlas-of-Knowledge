@@ -1018,6 +1018,23 @@ try {
       if ((await page.locator("#result").innerText()).trim() !== "c = —") {
         errors.push(file + ": zero solution volume was accepted");
       }
+      await page.locator("#n").fill("-0.5");
+      if ((await page.locator("#result").innerText()).trim() !== "c = —" ||
+          !(await page.locator("#feedback").innerText()).includes("неотрицательное количество")) {
+        errors.push(file + ": negative solute amount must be rejected with a clear validation message");
+      }
+      await page.locator("#n").fill("0.5");
+      await page.locator("#v").fill("-1");
+      if ((await page.locator("#result").innerText()).trim() !== "c = —" ||
+          !(await page.locator("#feedback").innerText()).includes("положительный объём")) {
+        errors.push(file + ": negative solution volume must be rejected with a clear validation message");
+      }
+      await page.locator("#n").fill("");
+      await page.locator("#v").fill("1");
+      if ((await page.locator("#result").innerText()).trim() !== "c = —" ||
+          !(await page.locator("#feedback").innerText()).includes("неотрицательное количество")) {
+        errors.push(file + ": empty solute amount must not be interpreted as zero");
+      }
       await page.locator("#n").fill("1");
       await page.locator("#v").fill("2");
       let result = (await page.locator("#result").innerText()).trim();
