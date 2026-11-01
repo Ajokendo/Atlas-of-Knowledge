@@ -114,3 +114,5 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Reviewed the solution chapter's equilibrium-solubility distinction, saturation states, Henry's-law wording, and ionic-product comparison against Kₛₚ in both languages. No production formula correction was indicated in the reviewed passages.
 - [x] Expanded Chromium regression coverage for the concentration calculator to reject negative solute amount, negative final solution volume, and an empty amount field; these cases must not be silently interpreted as valid zero concentration.
 - [ ] Independent chemistry-teacher review and manual device/accessibility checks remain pending.
+
+- [x] Added RU/EN Chromium assertions for ΔᵣG° = −RT ln K, the signs associated with K above/below 1, the standard-state qualification, the qualitative Le Chatelier wording, and the fact that a catalyst changes the rate of reaching equilibrium but not its position or K at fixed temperature.
