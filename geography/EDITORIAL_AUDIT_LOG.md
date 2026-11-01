@@ -862,3 +862,6 @@ The current marker additions are production instructions/placeholders only; no g
 - Updated the Geography README to distinguish completed structural/visual inventory work from still-pending full scientific verification, final bilingual proofread, map-data validation, visual production and web-reader development.
 - The README now records the verified 216-asset register and the fact that primary-source verification has been performed selectively for Chapters 17–26, without implying that every claim has been checked.
 - Verified commit `11e00b4e88d3298748ba3db2532b961821f7b856`; blob `403e42bfe0f49edfa38c30166c45ff421a09830e`.
+
+
+- Chapter 26 visual-ID follow-up: consolidated repeated B placeholders into one integrated glacier–river-basin–water-security asset; aligned the A and I production briefs with their teaching placeholders; added explicit D and K references in the production list. The chapter now has 12 distinct IDs A–L with consistent cross-references. Verified commit `f8db442498cad8fa8491337b1a63b96bc5ce935a`; blob `762a07d569f7f2bb38ba24946e69f33d5b31cc1e`.
