@@ -974,3 +974,13 @@ The current marker additions are production instructions/placeholders only; no g
 - Linked the matrix from `geography/README.md`.
 - Matrix commit: `9c86221d34b3ffd410e1f499c794f1a1ebd9a561`; verified blob: `b441f27cbfc78cde5c01d06c5ec2f80bf5851989`.
 - README link commit: `8d631bf1e8747ab22d59fdcfc2746fb4a55d216f`; verified blob: `cfc86cf2b158aa5cfd3546875b47ea498ae2b018`.
+
+
+## Bilingual Geography landing-page navigation — 1 November 2026
+
+- Updated `geography/index.html` with an accessible RU/EN toggle for the landing-page headings, descriptions and all 26 chapter titles/subtitles. The button updates the document language attribute and page title.
+- The page now states transparently that the toggle changes landing-page navigation only. Chapter files still contain both languages in one Markdown document; a language-filtered, rendered in-chapter reader is not yet implemented.
+- Verified the HTML was saved and re-fetched: commit `5d77ca4a26fd7b0b32526533f524ddbdaefd6d43`; blob `245a841d3fa262473a90fb0122072e52f19a4e61`.
+- Updated README language-status note: commit `b2d8bbe13dbde6a9531b02701a2cd7578ddffa3e`; blob `a6c260bcd9eca1bfa5b305404743cd9322f1621c`.
+- Updated editorial readiness matrix website row: commit `cd3327ddaa6a85533ce94bf10c1ffc9b7dc1c937`; blob `d35ff8f405667289ca0a4679f41e69b2f937324b`.
+- Browser-based interaction testing and in-chapter language filtering remain outstanding; no claim is made that the full reader is complete.
