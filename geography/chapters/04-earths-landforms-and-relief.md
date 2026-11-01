@@ -324,14 +324,14 @@
 
 Рельеф Земли включает как высочайшие горные вершины, так и глубокие океанические впадины. При сравнении экстремумов необходимо уточнять метод измерения и систему высот или глубин.
 
-- **Эверест** — высочайшая вершина Земли по высоте; совместно объявленная Китаем и Непалом высота снежной поверхности составляет 8 848,86 м по Международной системе высот (измерение 2020 года).
-- **Челленджер-Дип в Марианской впадине** — наиболее глубокий известный участок океана; исследование 2021 года сообщило оценку глубины около 10 935 м (±6 м; 95%-й доверительный интервал, относительно среднего уровня моря). Значения зависят от точной точки и метода измерения.
+- **Эверест** — высочайшая вершина Земли по высоте; совместно объявленная Китаем и Непалом высота снежной поверхности составляет 8 848,86 ± 0,06 м по Международной системе высот (измерение 2020 года; оценка неопределённости приведена в технической геодезической публикации).
+- **Челленджер-Дип в Марианской впадине** — наиболее глубокая известная область океанского дна, но её глубина зависит от места, метода съёмки и обработки данных. Исследование 2021 года по измерениям с подводного аппарата сообщило 10 935 ± 6 м (95%-й доверительный интервал относительно среднего уровня моря). Многолучевая съёмка 2026 года дала предпочтительную сеточную оценку 10 927 м для восточной котловины; при использовании альтернативных моделей скорости звука максимальные значения в наборе составили 10 914–10 932 м. Авторы подчёркивают, что значение 10 927 м не является окончательным пересмотром глубочайшей точки.
 - **Побережье Мёртвого моря** включает одни из наиболее низко расположенных участков открытой суши; их высота меняется вместе с уровнем озера.
 - **Тибетское нагорье** — крупнейшая и одна из наиболее высоких обширных возвышенных областей планеты.
 
 Важно различать высоту над уровнем моря, глубину относительно поверхности океана и глубину относительно геоида. Значения экстремумов должны сопровождаться датой и источником измерения.
 
-**Место для иллюстрации 4.13-A — Earth's Vertical Extremes.** Вертикальная шкала от высочайших вершин до глубочайших океанических впадин с чётким обозначением систем отсчёта.
+**Место для иллюстрации 4.13-A — Earth's Vertical Extremes.** Вертикальная шкала от высочайших вершин до глубочайших океанических впадин; показать разные оценки Челленджер-Дип за 2021 и 2026 годы, даты, методы и системы отсчёта.
 
 ## 4.14. Изучение и изображение рельефа / Mapping and Measuring Relief
 
@@ -668,14 +668,14 @@ Climate influences the intensity of different weathering types, but rock composi
 
 Earth's relief includes both the highest mountain peaks and the deepest ocean trenches. Comparisons of extremes must specify the measurement method and the vertical or depth reference system.
 
-- **Mount Everest** is Earth's highest summit by elevation; its jointly announced snow-surface height is 8,848.86 m in the International Height Reference System (2020 measurement).
-- **Challenger Deep in the Mariana Trench** is the deepest known part of the ocean; a 2021 study reported a depth of about 10,935 m (±6 m; 95% confidence interval, relative to mean sea level). Values depend on the precise location and measurement method.
+- **Mount Everest** is Earth's highest summit by elevation; its jointly announced snow-surface height is 8,848.86 ± 0.06 m in the International Height Reference System (2020 measurement; uncertainty reported in a technical geodetic study).
+- **Challenger Deep in the Mariana Trench** is the deepest known area of the ocean floor, but its reported depth depends on location, survey method and data processing. A 2021 submersible-based study reported 10,935 ± 6 m (95% confidence interval relative to mean sea level). A 2026 multibeam survey produced a preferred gridded estimate of 10,927 m for the eastern basin; alternative sound-velocity models yielded maximum values from 10,914 to 10,932 m. The authors explicitly state that 10,927 m is not a definitive redetermination of the deepest point.
 - The **shores of the Dead Sea** include some of the lowest exposed land areas; their elevation changes as the lake level changes.
 - **The Tibetan Plateau** is the largest and one of the highest extensive elevated regions on the planet.
 
 Elevation above sea level, depth below the ocean surface and depth relative to the geoid are different measurements. Extreme values should be accompanied by a date and measurement source.
 
-**[ILLUSTRATION PLACEHOLDER 4.13-A]** Show an elevation/depth scale with Everest and Challenger Deep; identify vertical datums, measurement dates and sources.
+**[ILLUSTRATION PLACEHOLDER 4.13-A]** Show an elevation/depth scale with Everest and Challenger Deep; distinguish the 2021 and 2026 Challenger Deep estimates, dates, methods, uncertainty and vertical reference systems.
 
 ### 4.14. Mapping and Measuring Relief
 
@@ -799,6 +799,8 @@ Using a prepared teaching map excerpt:
 20. National Geographic Society. *Weathering*. https://education.nationalgeographic.org/resource/weathering/
 21. U.S. National Park Service. *Plateaus and Mesas*. https://www.nps.gov/subjects/nnlandmarks/plateaus-and-mesas.htm
 22. Jiang, T. et al. (2022). *Determining the new height of Mount Qomolangma based on the International Height Reference System*. Journal of Geodesy and Geoinformation Science. https://doi.org/10.1080/10095020.2022.2128901
+27. Fujii, M., Tamura, C., Ohara, Y. & Okino, K. (2026). *Full-ocean-depth EM124 mapping of the Challenger Deep by R/V Hakuho-maru and depth-estimate sensitivity tests*. Scientific Data, 13, 1304. https://doi.org/10.1038/s41597-026-08267-z
+28. NASA Earth Observatory. *Tibetan Plateau*. NASA Earth Art eBook (Landsat 5 reference). https://science.nasa.gov/wp-content/uploads/2023/04/703154main_earth_art_ebook.pdf
 23. British Geological Survey. *Deposition*. https://www.bgs.ac.uk/discovering-geology/geological-processes/deposition/
 24. NOAA National Ocean Service. *What Is a Barrier Island?* https://oceanservice.noaa.gov/facts/barrier-islands.html
 25. U.S. National Park Service. *Sandy Coast Landforms*. https://www.nps.gov/articles/sandy-coast-landforms.htm
