@@ -30,7 +30,7 @@ html[lang="en"] .image-generation-note .en{display:block}
 </head>
 <body>
 <a class="skip-link" href="#main-content"><span class="ru">Перейти к основному содержанию</span><span class="en">Skip to main content</span></a>
-<header class="top"><a class="brand" href="../index.html">Atlas of Biology</a><button id="lang" type="button" aria-label="Switch language">EN</button></header>
+<header class="top"><a class="brand" href="../index.html">Atlas of Biology</a><button id="lang" type="button">EN</button></header>
 <main id="main-content">
 <div class="crumb"><a href="../index.html">ATLAS OF BIOLOGY</a> / <a href="zoology.html"><span class="ru">ЗООЛОГИЯ</span><span class="en">ZOOLOGY</span></a> / REGIONAL ATLAS</div>
 <section class="hero">
@@ -67,7 +67,7 @@ html[lang="en"] .image-generation-note .en{display:block}
 </svg>
 <p class="caption"><span class="ru">Иллюстрация показывает экологический градиент, а не точную карту ареалов.</span><span class="en">The illustration shows an ecological gradient, not a precise range map.</span></p>
 </div>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="Прокручиваемая таблица / Scrollable data table" tabindex="0"><table>
 <thead><tr><th><span class="ru">Среда</span><span class="en">Habitat</span></th><th><span class="ru">Характерные животные</span><span class="en">Characteristic wildlife</span></th><th><span class="ru">Экологические особенности</span><span class="en">Ecological features</span></th></tr></thead>
 <tbody>
 <tr><td><span class="ru">Степи и полупустыни</span><span class="en">Steppe and semi-desert</span></td><td><span class="ru">Грызуны, лисицы, зайцы, степные птицы; локально — джейран</span><span class="en">Rodents, foxes, hares, steppe birds; locally, goitered gazelle</span></td><td><span class="ru">Открытые пространства, сезонная доступность корма, уязвимость к распашке и фрагментации</span><span class="en">Open landscapes, seasonal food availability, vulnerability to cultivation and fragmentation</span></td></tr>
@@ -322,9 +322,9 @@ html[lang="en"] .image-generation-note .en{display:block}
 </section>
 
 <div class="callout"><strong><span class="ru">Новые методы мониторинга: ДНК и eDNA.</span><span class="en">New monitoring methods: DNA and eDNA.</span></strong> <span class="ru">В сообщении от 14 октября 2026 года Институт биологии НАН КР обозначил совместный мониторинг снежного барса, архара, козерога и мигрирующих птиц с применением фотоловушек и спутникового мечения, а также перспективу eDNA-мониторинга рыб и других водных организмов. Это направления научного сотрудничества, а не уже полученные результаты учётов по конкретным территориям Кыргызстана.</span><span class="en">In a report dated 14 October 2026, the Institute of Biology of the National Academy of Sciences of the Kyrgyz Republic outlined joint monitoring of snow leopards, argali, ibex and migratory birds using camera traps and satellite tracking, as well as the potential use of eDNA to monitor fish and other aquatic organisms. These are research directions, not completed survey results for specific sites in Kyrgyzstan.</span></div>
-<li><a href="https://ibnaskr.org/urumqi-scientific-cooperation-2026/" target="_blank" rel="noopener">Institute of Biology, NAS KR (14 October 2026) — scientific cooperation with Urumqi</a> <span class="ru">(оцифровка гербария, ДНК-штрихкодирование, мониторинг редких видов и eDNA)</span><span class="en">(herbarium digitization, DNA barcoding, rare-species monitoring and eDNA)</span>.</li>
+<ul class="sources"><li><a href="https://ibnaskr.org/urumqi-scientific-cooperation-2026/" target="_blank" rel="noopener">Institute of Biology, NAS KR (14 October 2026) — scientific cooperation with Urumqi</a> <span class="ru">(оцифровка гербария, ДНК-штрихкодирование, мониторинг редких видов и eDNA)</span><span class="en">(herbarium digitization, DNA barcoding, rare-species monitoring and eDNA)</span>.</li>
 <li><a href="https://ibnaskr.org/category/news/" target="_blank" rel="noopener">Institute of Biology, NAS KR — news archive, including the 14 October 2026 update on international fish research cooperation</a> <span class="ru">(меморандум с American Museum of Natural History; полевые материалы из бассейнов Иссык-Куля, Чу и Таласа; лабораторная обработка на дату сообщения продолжалась)</span><span class="en">(memorandum with the American Museum of Natural History; field material from Issyk-Kul, Chu and Talas basins; laboratory analysis was still ongoing when reported)</span>.</li>
-<div class="field-protocol" id="fauna-field-record-protocol">
+<li><a href="https://ibnaskr.org/category/news/"
 <h3><span class="ru">Полевой протокол: как документировать животных</span><span class="en">Field protocol: documenting wildlife observations</span></h3>
 <p><span class="ru">Наблюдение, фотоловушечная регистрация, следы и лабораторная проба — разные типы свидетельств. Их нельзя объединять в один показатель численности без отдельной методики.</span><span class="en">A direct sighting, camera-trap detection, track and laboratory sample are different forms of evidence. They cannot be combined into a single abundance measure without a dedicated method.</span></p>
 <div class="grid">
@@ -498,6 +498,6 @@ html[lang="en"] .image-generation-note .en{display:block}
 </main>
 <footer><span>ATLAS OF BIOLOGY · REGIONAL FAUNA</span><span>RU / EN · KYRGYZSTAN</span></footer>
 <script>
-let lang="ru";const btn=document.getElementById("lang");function setLang(){document.documentElement.lang=lang;btn.textContent=lang==="ru"?"EN":"RU";btn.setAttribute("aria-label",lang==="ru"?"Переключить язык":"Switch language")}btn.addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";setLang()});setLang();
+let lang="ru";const btn=document.getElementById("lang");function setLang(){document.documentElement.lang=lang;btn.textContent=lang==="ru"?"EN":"RU";btn.setAttribute("aria-label",lang==="ru"?"EN — переключить на английский":"RU — switch to Russian")}btn.addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";setLang()});setLang();
 </script>
 </body></html>
