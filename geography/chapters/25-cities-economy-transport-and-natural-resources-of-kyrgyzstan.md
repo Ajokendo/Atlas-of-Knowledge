@@ -861,8 +861,8 @@ All visual materials must be based on verified geospatial data and statistics. G
 15. UN Tourism. Sustainable tourism and destination management resources. https://www.unwto.org/
 16. Cabinet of Ministers of the Kyrgyz Republic. Meeting on preparations for the 2026–2027 autumn–winter period, 9 October 2026 (expected electricity consumption, domestic generation and imports). https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-tapsyrmalardy-berdi
 17. Национальный статистический комитет Кыргызской Республики. «Автомобильный транспорт и дорожное хозяйство: цифры и факты», 25 октября 2026 года (данные о грузовых и пассажирских перевозках за 2025 год). https://stat.gov.kg/ru/news/avtomobilnyj-transport-i--dorozhnoe-hozyajstvo-cifry-i-fakty/
-18. National Statistical Committee of the Kyrgyz Republic. Preliminary GDP estimate for January–September 2026, published 15 October 2026. https://stat.gov.kg/ru/news/v-yanvare-sentyabre-2026-goda-obespechen-rost-valovogo-vnutrennego-produkta/
-19. Kabar News Agency. Minister of Energy's report to the parliamentary committee on electricity imports as of 15 October 2026, 19 October 2026. https://kabar.kg/news/kyrgyzstan-29-mlrd-kvtsaat-elektr-energiyasyn-importtodu/
+18. Агентство «Кабар». Сообщение министра энергетики на заседании парламентского комитета об импорте электроэнергии по состоянию на 15 октября 2026 года, 19 октября 2026 года. https://kabar.kg/news/kyrgyzstan-29-mlrd-kvtsaat-elektr-energiyasyn-importtodu/
+19. Министерство транспорта и коммуникаций Кыргызской Республики. «На железной дороге Кыргызстан–Китай–Узбекистан ведутся работы по проходке тоннелей» (статус строительства и инженерные параметры проекта). https://mtd.gov.kg/на-железной-дороге-кыргызстан-китай/
 
 20. Министерство природных ресурсов, экологии и технического надзора Кыргызской Республики. «В Министерстве природных ресурсов подвели итоги 2025 года», 12 февраля 2026 года (лицензии, проекты, бюджетные поступления и добыча золота). https://www.mnr.gov.kg/en/posts/news/v-ministerstve-prirodnyx-resursov-podvedeny-itogi-2025-goda
 
