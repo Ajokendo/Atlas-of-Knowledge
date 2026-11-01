@@ -844,3 +844,12 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Added regression checks for the new Son-Kul source-audit row and taxonomy caveat. Re-executed the in-memory V8 compatibility preflight after these changes: **PASS** — 13 pages, 88 local paths, 13 inline scripts syntax-compiled, 165 typed buttons, no assertion failures.
 - This still does not replace a clean Node checkout run, real Chromium/Playwright QA, CI, or independent ichthyologist review. G1–G6 remain open as applicable; readiness remains **95/100**.
 - Source checkpoint before this note: `7012896d02cadc2a02a5d756e97224d202813b4b`.
+
+
+## CI trigger preparation — 1 November 2026
+
+- Updated the Biology-branch copy of `.github/workflows/biology-checks.yml` so its `push` trigger includes `workspace/biology` as well as `main`. This is a preparatory change intended to run the same Node and Chromium checks on future authoring-branch pushes once the workflow definition is available from the default branch.
+- The default-branch (`main`) copy was read-only checked and still lists only `main` under `push.branches`. GitHub Actions has returned no runs for `workspace/biology`, and the latest branch commit has no combined-status entries. The branch-local trigger alone cannot activate a workflow that has not yet been updated on the default branch.
+- No change was made to `main`; no pull request or merge was created. The workflow's existing manual-dispatch option remains available to an authorized repository user, but this session has no dispatch action.
+- G3 remains open. The CI trigger change is saved in `workspace/biology` for later integration; it is not evidence of a successful run. G1 still requires the clean Node checkout run and G2 requires real Chromium/Playwright execution.
+- Branch checkpoint before this documentation entry: `f81bb19def78ea4c74f6889091e91e182696d9ee`.
