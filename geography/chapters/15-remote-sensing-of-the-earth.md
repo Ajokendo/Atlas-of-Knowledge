@@ -802,7 +802,7 @@ NDVI \approx 0.67
 6. Jensen, J. R. **Remote Sensing of the Environment: An Earth Resource Perspective**. Pearson.
 7. Lillesand, T., Kiefer, R. W., Chipman, J. **Remote Sensing and Image Interpretation**. Wiley.
 8. Richards, J. A. **Remote Sensing Digital Image Analysis**. Springer.
-9. European Space Agency. **Sentinel-1 SAR User Guide** — principles and applications of synthetic-aperture radar. https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1
+9. European Space Agency. **Sentinel-1 Mission Overview and Radar Instrument** — mission characteristics and all-weather, day-and-night radar imaging. https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1
 10. International Society for Photogrammetry and Remote Sensing (ISPRS). **ISPRS Journal of Photogrammetry and Remote Sensing** — научные исследования методов фотограмметрии и ДЗЗ.
 
 ---
