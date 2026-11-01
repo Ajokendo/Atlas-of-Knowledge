@@ -95,3 +95,12 @@ A standalone square wildlife concept was generated (ImageGen generation ID `52ae
 The animal is visually recognizable as a snow-leopard-like large cat, but the generated image is not a field photograph and cannot establish an actual individual, location, behavior, season, or population. Fine anatomical details and species-specific traits require zoological review. The alpine backdrop is illustrative only.
 
 This candidate is local-only; it has not been committed as an image asset, inserted into a chapter, or approved for publication. The immediately preceding flower-generation attempt was not counted as a new candidate because it substantially repeated the existing fritillary-like motif. All existing insertion markers and dispositions remain unchanged.
+
+
+## Production quality-control note: repeated snow-leopard outputs
+
+Three additional generation attempts during the next work cycle returned substantially the same snow-leopard composition despite attempts to vary the subject. They are treated as duplicate iterations of the existing snow-leopard candidate, not as three new assets. No new filenames, image markers or candidate counts are assigned to them.
+
+To avoid wasting the illustration queue on near-duplicates, the next distinct target is the P1 bird plate `fauna-birds.webp`. The existing chapter identifies the golden eagle (`Aquila chrysaetos`), bearded vulture (`Gypaetus barbatus`), Himalayan snowcock (`Tetraogallus himalayensis`) and black stork (`Ciconia nigra`), with additional waterbird records in the Son-Kul and Chatyr-Kul sections. A future composition must keep cliff/raptor, alpine ground-bird and wetland/waterbird habitats visually separate, and must not imply that all species share one microhabitat. These names are grounded in the chapter text, but a composite plate still requires final ornithological and bilingual caption review.
+
+No image marker or disposition was changed by this audit.
