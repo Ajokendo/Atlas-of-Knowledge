@@ -471,6 +471,11 @@ if (!faunaKyrgyzstanAuditFile.includes("precise locations of rare species") || !
 
 // Scientific constraints for the first-priority Kyrgyzstan illustration set.
 const imageScientificReview = fs.readFileSync(path.join(root, "IMAGE_SCIENTIFIC_REVIEW.md"), "utf8");
+for (const row of p1DispositionRows) {
+  const target = (row.match(/^\| `image-brief-[^ `]+` \| `([^ `]+)`/) || [])[1];
+  const filename = target ? target.split("/").pop() : "";
+  if (filename && !imageScientificReview.includes(filename)) errors.push("IMAGE_SCIENTIFIC_REVIEW.md is missing P1 asset " + filename);
+}
 if (!imageScientificReview.includes("13 P1") && !imageScientificReview.includes("13-item P1")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must document the complete P1 review scope");
 if ((imageScientificReview.match(/\b(?:flora|fauna)-[a-z-]+\.webp\b/g) || []).length !== 13) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must review all 13 P1 assets");
 if (!imageScientificReview.includes("Fritillaria eduardii") || !imageScientificReview.includes("Petilium eduardii")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must preserve accepted Aygul name and synonym");
