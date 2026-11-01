@@ -14,7 +14,7 @@ All 52 planned assets are explicitly **deferred**, not generated. See [`IMAGE_DI
 - **P2 — useful complement:** visuals that deepen explanation or connect concepts, but are not essential before the main scientific content is usable.
 - **P3 — lower priority:** concepts already substantially represented by an SVG plate or interactive model. Generate only if a different visual mode adds a clear benefit; do not recreate the existing diagram as a near-duplicate.
 
-Priorities are editorial sequencing, not scientific approval. The audit counted 16 existing SVG elements across the 13 pages carrying planned briefs. It did not treat every SVG as a complete substitute: the comparison is topic-specific. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 52 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 26 P2 and 13 P3**.
+Priorities are editorial sequencing, not scientific approval. The latest marker audit counted 22 inline SVG elements across the 13 pages carrying planned briefs (updated 1 November 2026). No raster `<img>` elements or generated image directory are present yet. It did not treat every SVG as a complete substitute: the comparison is topic-specific. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 52 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 26 P2 and 13 P3**.
 
 
 ## Landing page
