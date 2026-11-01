@@ -274,7 +274,7 @@
 - осыпи;
 - сели и грязекаменные потоки;
 - медленное смещение грунта (крип);
-- солифлюкция в условиях сезонного промерзания и оттаивания.
+- солифлюкция — медленное стекание водонасыщенного грунта вниз по склону, часто в условиях сезонного оттаивания в холодных регионах.
 
 **Денудация** — совокупность процессов разрушения и снижения рельефа, включая выветривание, эрозию и перенос материала.
 
@@ -331,9 +331,9 @@
 
 Рельеф Земли включает как высочайшие горные вершины, так и глубокие океанические впадины. При сравнении экстремумов необходимо уточнять метод измерения и систему высот или глубин.
 
-- **Эверест** — высочайшая вершина Земли над средним уровнем моря; совместно объявленная Китаем и Непалом высота снежной поверхности составляет 8 848,86 м (измерение 2020 года).
+- **Эверест** — высочайшая вершина Земли над средним уровнем моря; совместно объявленная Китаем и Непалом высота снежной поверхности составляет 8 848,86 м по Международной системе высот (измерение 2020 года).
 - **Челленджер-Дип в Марианской впадине** — наиболее глубокий известный участок океана; исследование 2021 года сообщило оценку глубины около 10 935 м (±6 м относительно среднего уровня моря). Значения зависят от точной точки и метода измерения.
-- **Мёртвое море** — один из наиболее низко расположенных участков суши, не покрытых морем; уровень воды меняется со временем.
+- **Побережье Мёртвого моря** включает одни из наиболее низко расположенных участков открытой суши; их высота меняется вместе с уровнем озера.
 - **Тибетское нагорье** — крупнейшая и одна из наиболее высоких обширных возвышенных областей планеты.
 
 Важно различать высоту над уровнем моря, глубину относительно поверхности океана и глубину относительно геоида. Значения экстремумов должны сопровождаться датой и источником измерения.
@@ -617,7 +617,7 @@ Major submarine features include the continental shelf, continental slope, conti
 
 ### 4.11. Slope Processes and Denudation
 
-Slope processes move loose material and rock downslope under gravity. They may be slow or sudden. Main types include landslides, rockfalls and rockslides, scree or talus movement, debris flows, slow soil creep, and solifluction under seasonal freezing and thawing.
+Slope processes move loose material and rock downslope under gravity. They may be slow or sudden. Main types include landslides, rockfalls and rockslides, scree or talus movement, debris flows, slow soil creep, and solifluction, the slow downslope flow of water-saturated soil, often during seasonal thaw in cold regions.
 
 **Denudation** is the combined lowering and wearing down of relief through weathering, erosion and material transport.
 
@@ -664,9 +664,9 @@ Climate influences the intensity of different weathering types, but rock composi
 
 Earth's relief includes both the highest mountain peaks and the deepest ocean trenches. Comparisons of extremes must specify the measurement method and the vertical or depth reference system.
 
-- **Mount Everest** is Earth's highest summit above mean sea level; its jointly announced snow-surface elevation is 8,848.86 m (2020 measurement).
+- **Mount Everest** is Earth's highest summit above mean sea level; its jointly announced snow-surface elevation is 8,848.86 m in the International Height Reference System (2020 measurement).
 - **Challenger Deep in the Mariana Trench** is the deepest known part of the ocean; a 2021 study reported a depth of about 10,935 m (±6 m relative to mean sea level). Values depend on the precise location and measurement method.
-- **The Dead Sea** is one of the lowest land areas not covered by the sea; its water level changes over time.
+- The **shores of the Dead Sea** include some of the lowest exposed land areas; their elevation changes as the lake level changes.
 - **The Tibetan Plateau** is the largest and one of the highest extensive elevated regions on the planet.
 
 Elevation above sea level, depth below the ocean surface and depth relative to the geoid are different measurements. Extreme values should be accompanied by a date and measurement source.
