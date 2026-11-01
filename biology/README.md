@@ -673,3 +673,14 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - Added the institutional sources and their scope limitations to `KYRGYZSTAN_SPECIES_AUDIT.md`, and extended `checks.mjs` to require the direct links.
 - Re-read the fauna chapter, audit and regression script. Eight targeted source-level assertions passed. This is not a full test-script execution or CI confirmation.
 - **Atlas of Biology editorial readiness: 95/100.** This remains a conservative content/evidence-readiness estimate, not production certification. Remaining work: specialist review of all species groups, reconciliation of outstanding source discrepancies, complete bilingual copy-editing, full test execution in a checkout, browser and accessibility testing, and production/review/integration of the 52 planned illustrations.
+
+## Snowcock taxonomy and occurrence review — 1 November 2026
+
+- Reviewed the Kyrgyzstan snowcock account against the OSME Region List of Bird Taxa v10.1 (August 2024), ITIS species records and the published Kyrgyzstan Himalayan Snowcock account.
+- Confirmed that ITIS treats both *Tetraogallus himalayensis* and *T. tibetanus* as valid species names. Kept nomenclatural validity separate from geographic occurrence.
+- Clarified that the OSME list describes the Tibetan Snowcock range as possibly extending just into southern Kyrgyzstan on the August 2024 IUCN map, while explicitly warning that the regional list is not a complete country-by-country occurrence checklist. The chapter therefore does not promote the species to a confirmed Kyrgyz record without a primary locality observation or specimen.
+- Retained the Himalayan Snowcock profile on the basis of dated Kyrgyz expedition records, while preserving their 2003 date and site scope rather than implying a current population estimate.
+- Added the OSME and ITIS references beside the relevant account, a corresponding row in `KYRGYZSTAN_SPECIES_AUDIT.md`, and regression assertions in `checks.mjs`.
+- Re-read the three modified source files from `workspace/biology`. Seven of seven targeted remote content assertions passed; the fauna chapter contains 23 HTML IDs with no duplicates. This was a targeted source-level check, not execution of the full `checks.mjs` script, browser testing or CI.
+- **Atlas of Biology editorial readiness: 95/100.** This is a conservative editorial/evidence-readiness milestone, not production certification. Remaining work includes wider species-by-species taxonomic review, specialist validation, source reconciliation, full bilingual copy-editing, full local test execution, browser/mobile/accessibility testing, and creation, scientific review and integration of the 52 planned illustrations.
+
