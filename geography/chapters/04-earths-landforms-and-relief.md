@@ -429,7 +429,7 @@ DEM используют для расчёта уклонов, экспозиц�
 - определите высоту нескольких точек;
 - найдите водораздел и речную долину;
 - оцените крутизну двух склонов;
-- проведите линию профиля и постройте вертикальный разрез, указав горизонтальный и вертикальный масштабы; если они различаются, обозначьте вертикальное преувеличение;
+- проведите линию профиля и постройте вертикальный разрез, указав горизонтальный и вертикальный масштабы; если они различаются, обозначьте вертикальное преувеличение. Его коэффициент равен знаменателю горизонтального масштаба, делённому на знаменатель вертикального масштаба (например, 1:25 000 по горизонтали и 1:5 000 по вертикали дают преувеличение 5×);
 - определите участки с потенциально повышенной эрозионной или склоновой восприимчивостью. Не называйте результат картой риска без дополнительных данных о породах, осадках, растительности, землепользовании, населении и объектах.
 
 **Место для иллюстрации 4.15-A — Topographic Map Exercise.** Учебная карта с горизонталями и координатной сеткой, линией профиля, двумя участками измерения уклона, указанными горизонтальным и вертикальным масштабами, обозначенным вертикальным преувеличением при необходимости и отдельным листом ответов.
@@ -778,7 +778,7 @@ Using a prepared teaching map excerpt:
 - determine the elevation of several points;
 - identify a watershed and a river valley;
 - estimate the steepness of two slopes;
-- draw a profile line and construct a cross-section, stating the horizontal and vertical scales; if they differ, label the vertical exaggeration; and
+- draw a profile line and construct a cross-section, stating the horizontal and vertical scales; if they differ, label the vertical exaggeration. Its factor is the denominator of the horizontal scale divided by the denominator of the vertical scale (for example, 1:25,000 horizontally and 1:5,000 vertically give a 5× exaggeration); and
 - identify areas with potentially higher erosion or slope susceptibility. Do not call this a risk map without additional data on geology, rainfall, vegetation, land use, people and exposed assets.
 
 **[ILLUSTRATION PLACEHOLDER 4.15-A]** Provide a teaching map excerpt with coordinate grid, profile line, two slope-measurement sections, stated horizontal and vertical scales, labelled vertical exaggeration where used, and a separate answer key.
