@@ -760,12 +760,16 @@ The combined area, without double counting, is therefore **170 km²**, or **17%*
 ## Visual, Map and Infographic Briefs
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 22-A / IMAGE PLACEHOLDER 22-A]** Карта природной поясности Кыргызстана: высотные пояса, леса, степи, альпийские луга и водно-болотные угодья; географические границы природных зон обозначать по проверенным данным.
+> **EN:** Map of Kyrgyzstan's natural zonation showing altitudinal belts, forests, steppes, alpine meadows and wetlands; delineate natural-zone boundaries using verified data.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 22-B / IMAGE PLACEHOLDER 22-B]** Официальная сеть ООПТ Кыргызстана: заповедники, национальные природные парки, заказники и памятники природы с юридически проверенными границами, категориями и датой данных.
+> **EN:** Official protected-area network of Kyrgyzstan showing reserves, national nature parks, sanctuaries and natural monuments, with legally verified boundaries, categories and data date.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 22-C / IMAGE PLACEHOLDER 22-C]** Сравнительная инфографика ключевых заповедников и национальных природных парков: местоположение, охраняемые экосистемы, ключевые виды и основные угрозы.
+> **EN:** Comparative infographic of key nature reserves and national nature parks, showing location, protected ecosystems, key species and major threats.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 22-D / IMAGE PLACEHOLDER 22-D]** Схема экологических коридоров и международных статусов UNESCO/Ramsar; отдельно показать национальный правовой статус и международное признание, не смешивая их.
+> **EN:** Diagram of ecological corridors and UNESCO/Ramsar designations; show national legal status and international recognition separately.
 
 
 **Общий стандарт:** научная точность, единая картографическая проекция и легенда, тёмно-синий фон или акценты, белое поле данных, сдержанные золотые элементы. Границы ООПТ должны браться из официальных геоданных; схематические границы нельзя выдавать за юридические.
