@@ -31,6 +31,27 @@ const errors = [];
 let languageChecks = 0;
 const checkedInternalLinks = new Set();
 const localOrigin = new URL(base).origin;
+function contrastRatio(foreground, background) {
+  const channels = value => {
+    const rgb = value.match(/rgba?\\(\\s*([\\d.]+)[, ]+([\\d.]+)[, ]+([\\d.]+)/i);
+    if (rgb) return [Number(rgb[1]), Number(rgb[2]), Number(rgb[3])];
+    const hex = value.match(/^#?([0-9a-f]{6})$/i);
+    if (!hex) return null;
+    return [0, 2, 4].map(index => parseInt(hex[1].slice(index, index + 2), 16));
+  };
+  const luminance = value => {
+    const rgb = channels(value);
+    if (!rgb) return null;
+    const linear = rgb.map(channel => {
+      const c = channel / 255;
+      return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+    });
+    return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2];
+  };
+  const a = luminance(foreground), b = luminance(background);
+  if (a === null || b === null) return null;
+  return (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05);
+}
 try {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   let current = "";
@@ -42,6 +63,23 @@ try {
     if (!response || !response.ok()) {
       errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
       continue;
+    }
+
+    const contrast = await page.evaluate(() => {
+      const css = getComputedStyle(document.documentElement);
+      const lead = document.querySelector(".lead");
+      return {
+        mutedOnPaper: [css.getPropertyValue("--muted").trim(), css.getPropertyValue("--paper").trim()],
+        mutedOnCard: [css.getPropertyValue("--muted").trim(), css.getPropertyValue("--card").trim()],
+        accentOnPaper: [css.getPropertyValue("--accent").trim(), css.getPropertyValue("--paper").trim()],
+        accentOnCard: [css.getPropertyValue("--accent").trim(), css.getPropertyValue("--card").trim()],
+        leadOnPage: lead ? [getComputedStyle(lead).color, getComputedStyle(document.body).backgroundColor] : null
+      };
+    });
+    for (const [name, pair] of Object.entries(contrast)) {
+      if (!pair) continue;
+      const ratio = contrastRatio(pair[0], pair[1]);
+      if (ratio !== null && ratio < 4.5) errors.push(file + ": " + name + " text contrast is below WCAG AA 4.5:1 (" + ratio.toFixed(2) + ":1)");
     }
 
     const hrefs = await page.locator("a[href]").evaluateAll(items => items.map(a => a.getAttribute("href")).filter(Boolean));
