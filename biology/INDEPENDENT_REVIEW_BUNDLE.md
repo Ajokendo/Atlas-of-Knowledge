@@ -79,3 +79,8 @@ Do not fill these fields until the actual reviewer handoff occurs.
 - It does not constitute final publication approval.
 
 These remaining release gates must be tracked and evidenced separately.
+
+## Recruitment preparation
+
+- See `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` for specialist role profiles, independence/conflict checks, invitation workflow, deliverables, severity rules and draft invitation letters.
+- Recruitment has not yet occurred; no reviewer is represented as contacted, accepted or approved.
