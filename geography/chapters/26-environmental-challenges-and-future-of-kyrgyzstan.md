@@ -244,7 +244,7 @@ Biodiversity conservation cannot be limited to the boundaries of nature reserves
 
 Загрязнение воздуха — один из наиболее заметных экологических вызовов городов Кыргызстана, особенно в отопительный сезон. В Бишкеке на концентрацию загрязнителей влияют бытовое отопление, транспорт, пыль, промышленные источники, рельеф и зимние температурные инверсии. В других городах источники могут отличаться по структуре и масштабу.
 
-По данным Кыргызгидромета за август 2026 года, на стационарных постах Бишкека среднемесячная концентрация диоксида азота составляла около 2,0 ПДК, оксида азота — 1,3 ПДК; по диоксиду серы — 0,08 ПДК. В публикации отмечено, что данные стационарных постов за август были представлены за первую декаду в связи с модернизацией постов. Поэтому эти показатели нельзя выдавать за годовую среднюю концентрацию или использовать для описания зимнего пика загрязнения.
+По данным Кыргызгидромета за август 2026 года, на стационарных постах Бишкека среднемесячная концентрация диоксида азота составляла около 2,0 ПДК, оксида азота — 1,3 ПДК; по диоксиду серы — 0,08 ПДК. В публикации отмечено, что данные стационарных постов за август были представлены за первую декаду в связи с модернизацией постов. Поэтому эти показатели нельзя выдавать за годовую среднюю концентрацию или использовать для описания зимнего пика загрязнения.\n\nОтдельный краткосрочный эпизод показывает сезонную изменчивость. По сообщению Kaktus.media со ссылкой на Кыргызгидромет, в период 9–15 октября 2026 года на автоматической станции в юго-западной части Бишкека недельные средние концентрации NO₂, PM2.5 и PM10 составляли соответственно 52,2; 43,4 и 61,4 мкг/м³, что соответствовало 1,31; 1,24 и 1,02 среднесуточной ПДК. Наибольшее недельное среднее PM2.5 в Аламудунском районе достигло 54,7 мкг/м³ (1,56 ПДК). Это ограниченное по времени и пространству наблюдение автоматических датчиков, а не среднегодовая оценка для всего Бишкека или страны.
 
 ### Основные источники и меры
 
@@ -263,7 +263,7 @@ Biodiversity conservation cannot be limited to the boundaries of nature reserves
 
 Air pollution is one of the most visible environmental challenges in Kyrgyzstan's cities, particularly during the heating season. In Bishkek, pollutant concentrations are influenced by household heating, transport, dust, industrial sources, relief and winter temperature inversions. The mix and scale of sources may differ in other cities.
 
-According to Kyrgyzhydromet data for August 2026, the monthly average concentration at Bishkek's stationary monitoring posts was about 2.0 times the maximum permissible concentration (MPC) for nitrogen dioxide, 1.3 times the MPC for nitric oxide and 0.08 times the MPC for sulphur dioxide. The publication notes that the August readings from stationary posts covered only the first ten days because the posts were being modernised. These figures must therefore not be presented as annual average concentrations or used to describe the winter pollution peak.
+According to Kyrgyzhydromet data for August 2026, the monthly average concentration at Bishkek's stationary monitoring posts was about 2.0 times the maximum permissible concentration (MPC) for nitrogen dioxide, 1.3 times the MPC for nitric oxide and 0.08 times the MPC for sulphur dioxide. The publication notes that the August readings from stationary posts covered only the first ten days because the posts were being modernised. These figures must therefore not be presented as annual average concentrations or used to describe the winter pollution peak.\n\nA separate short-term episode illustrates seasonal variability. Kaktus.media, citing Kyrgyzhydromet, reported that during 9–15 October 2026, weekly average concentrations of NO₂, PM2.5 and PM10 at an automatic station in south-western Bishkek were 52.2, 43.4 and 61.4 μg/m³ respectively, equivalent to 1.31, 1.24 and 1.02 times the daily-average MPC. The highest weekly average PM2.5 reading, in Alamedin District, reached 54.7 μg/m³ (1.56 MPC). This is a geographically and temporally limited automatic-monitoring observation, not an annual average for Bishkek or the country.
 
 ### Main sources and responses
 
@@ -919,7 +919,7 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 15. UNESCO. Man and the Biosphere Programme and World Heritage resources. https://www.unesco.org/
 16. UNFCCC. Kyrgyzstan NDC 3.0 — official submission record and attachments. https://unfccc.int/node/650219
 17. National Statistical Committee of the Kyrgyz Republic. Protection and rational use of water resources: open data, 2021–2025 series. https://stat.gov.kg/en/opendata/category/3216/
-18. National SDG Indicators of the Kyrgyz Republic. Indicator 6.3.1: Proportion of domestic and industrial wastewater flows safely treated. https://sustainabledevelopment-kyrgyzstan.github.io/en/6-3-1/
+18. National SDG Indicators of the Kyrgyz Republic. Indicator 6.3.1: Proportion of domestic and industrial wastewater flows safely treated. https://sustainabledevelopment-kyrgyzstan.github.io/en/6-3-1/\n19. Kaktus.media, citing Kyrgyzhydromet. Bishkek and surrounding districts recorded air-pollution exceedances, 17 October 2026 (monitoring period 9–15 October 2026). https://kaktus.media/555234
 
 ---
 **Конец главы 26 / End of Chapter 26**
