@@ -916,3 +916,12 @@ The current marker additions are production instructions/placeholders only; no g
 - The structural sweep found that Chapter 09 described authoritative demographic data sources in its teaching text but had no formal selected-reference list. Added eight bilingual-use primary/authoritative references: UN World Population Prospects 2024, World Urbanization Prospects 2025, UNSD census standards (Rev. 3 and the unedited Rev. 4 draft), UNSD demographic standards, IOM World Migration Report 2024, UN-Habitat World Cities Report 2024, World Bank population indicators and UNDP HDI data.
 - The World Urbanization Prospects 2025 entry explicitly distinguishes the Degree of Urbanization methodology from national definitions; the census entry labels the 2025 Rev. 4 as an unedited draft rather than a final published edition.
 - Verified Chapter 09 update: commit `829d0852666b028dac1edb0b8218608def170f65`; blob `d9a4120bee2d81986de91c3b6deb6d78062fdc96`.
+
+
+## Bilingual visual-brief parity — all 216 assets (1 November 2026)
+
+- Completed English production instructions for legacy Russian-only markers in Chapters 02–06, 10–15 and 17–26. Chapters 01, 07–09 and 16 already had bilingual marker text.
+- Checked all 26 chapter files and all 216 unique asset IDs. Every ID now has an English counterpart alongside the Russian production instruction; no missing English marker descriptions remain.
+- The additions cover GIS/remote sensing, Kyrgyzstan physical geography, climate, water, biodiversity, protected areas, population, regional maps, transport/economy and environmental assets. All new text is a production brief, not generated image content.
+- Updated `geography/VISUAL_ASSET_REGISTER.md` to record complete bilingual brief parity: commit `d4a51dff0cc2027e3e477b9e10350f6965c24f5b`; verified blob `25990292dbed77da8867424096610a792249280d`.
+- This closes the language-instruction gap in the visual register; actual image creation, map-data validation, typesetting and asset approval remain separate tasks.
