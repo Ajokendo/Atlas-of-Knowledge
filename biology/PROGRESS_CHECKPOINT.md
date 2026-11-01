@@ -630,3 +630,14 @@
 - Checked local HTML fragment links between Biology pages: no broken fragments were found.
 - Parsed all 13 inline JavaScript blocks without executing them; all 13 passed syntax compilation.
 - These checks validate file presence, local fragment resolution and JavaScript syntax only. They do not validate browser runtime behaviour, external URL availability, interactive state transitions, or assistive-technology behaviour.
+
+## Automated browser smoke audit — successful CI — 2 November 2026
+
+- Corrected the page-discovery logic in `biology/checks.mjs` and `biology/browser-smoke.mjs` so the reusable `FEEDBACK_WIDGET_TEMPLATE.html` fragment is not misclassified as a full standalone Biology atlas page. The template itself remains in the repository; feedback submission remains disabled.
+- Fix commits: `4c933c25ec21b511e828d0ae0de80fb244ed4ef1` (structural validator) and `9348583968941af8892098ede92c09dda2f45029` (browser smoke page discovery).
+- GitHub Actions run #450, run ID `41340930145`, head commit `9348583968941af8892098ede92c09dda2f45029`, completed with conclusion **success**.
+- The Node structural validator passed; Chromium installed; local HTTP server started; browser smoke test passed on all **13 actual Biology pages** at mobile (390×844) and desktop (1365×900) viewport sizes.
+- The browser run completed **26 language-toggle interactions** and reported no uncaught page errors. The script also checked page HTTP responses, main landmark, language toggle, button type, horizontal overflow, accessible names for visible controls, and initial keyboard Tab reachability. Additional targeted bilingual control-state checks ran on the biochemistry and ecology pages.
+- This is an automated smoke test, not exhaustive manual QA. It does not establish physical-device compatibility, screen-reader usability, measured color contrast, full keyboard traversal, browser/device matrix coverage, or independent scientific/editorial review.
+- G4 independent scientific review and G5 independent bilingual/editorial review remain open. The 52 planned illustration assets remain deferred. Controlled editorial readiness remains **95/100**; do not increase the score solely because CI passed.
+- Feedback collection remains disabled: the form endpoint is blank and no secure submission/moderation pipeline has been commissioned or end-to-end tested.
