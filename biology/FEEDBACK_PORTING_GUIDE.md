@@ -43,3 +43,8 @@ Until the endpoint exists and end-to-end tests pass, show only a clearly labelle
 4. Freeze the component contract and copy it to each subject branch/folder.
 5. Add the portal-wide entry point only when the shared portal owner authorizes changes to the portal files.
 6. Track adoption subject by subject; never edit another subject's branch as part of the Biology pilot.
+
+
+## Reusable form component
+- `FEEDBACK_WIDGET_TEMPLATE.html` is the bilingual, keyboard-oriented HTML/JS form template. It carries subject/page/anchor/language metadata, optional evidence/contact fields, explicit consent for public attribution, and reports success only after an HTTP success response.
+- Its endpoint constant is intentionally empty, so the submit control remains disabled. Configure only an approved HTTPS endpoint after privacy, storage, moderation, rate-limit, spam, and CORS controls are ready. Never place secrets in this file.
