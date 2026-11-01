@@ -766,11 +766,11 @@ On a schematic geological cross-section, identify:
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
-1. U.S. Geological Survey (USGS). *The Interior of the Earth*. https://www.usgs.gov/
+1. U.S. Geological Survey (USGS). *The Interior of the Earth*. https://pubs.usgs.gov/gip/interior/
 2. USGS. *This Dynamic Earth: The Story of Plate Tectonics*. https://pubs.usgs.gov/gip/dynamic/
-3. Incorporated Research Institutions for Seismology (IRIS). *Earthquake Science*. https://www.iris.edu/
+3. Incorporated Research Institutions for Seismology (IRIS). *Earthquake Science and Educational Resources*. https://www.iris.edu/hq/inclass/
 4. International Union of Geological Sciences (IUGS), International Commission on Stratigraphy. *International Chronostratigraphic Chart*. https://stratigraphy.org/chart
-5. British Geological Survey. *Geology and geological processes*. https://www.bgs.ac.uk/
+5. British Geological Survey. *Geological Processes*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
 
 При подготовке окончательной версии следует сверять геологические термины и численные параметры с актуальной международной стратиграфической шкалой и региональными геологическими картами.
 
