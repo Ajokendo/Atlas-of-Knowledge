@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">Кыргызстан: водопользование в 2025 году / Kyrgyz Republic: water use in 2025</title>
+<desc id="desc">Official National Statistical Committee indicators in million cubic metres. Abstraction, underground abstraction, consumption, irrigation and wastewater are shown as separate indicators, not additive parts of one total.</desc>
+<rect width="1400" height="900" fill="#f4f7fb"/>
+<rect x="42" y="38" width="1316" height="824" rx="28" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
+<text x="82" y="105" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#102a43">Водопользование в Кыргызстане · 2025</text>
+<text x="82" y="147" font-family="Arial,sans-serif" font-size="24" fill="#486581">Water use in the Kyrgyz Republic · 2025</text>
+<text x="82" y="190" font-family="Arial,sans-serif" font-size="20" fill="#627d98">млн м³ / million m³ · Национальный статистический комитет КР / National Statistical Committee</text>
+<g transform="translate(82 238)">
+<rect width="590" height="230" rx="20" fill="#eaf3fb"/>
+<text x="30" y="50" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#164e78">Забор воды из природных источников</text>
+<text x="30" y="82" font-family="Arial,sans-serif" font-size="20" fill="#486581">Abstraction from natural water sources</text>
+<text x="30" y="157" font-family="Arial,sans-serif" font-size="62" font-weight="700" fill="#1261a0">8 938,4</text>
+<text x="32" y="194" font-family="Arial,sans-serif" font-size="18" fill="#486581">Подземные горизонты / Underground: 326,4</text>
+<text x="32" y="218" font-family="Arial,sans-serif" font-size="15" fill="#627d98">Подземный забор входит в общий показатель / Included in total abstraction</text>
+</g>
+<g transform="translate(700 238)">
+<rect width="618" height="230" rx="20" fill="#edf7f3"/>
+<text x="30" y="50" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#176b55">Водопотребление</text>
+<text x="30" y="82" font-family="Arial,sans-serif" font-size="20" fill="#486581">Water consumption</text>
+<text x="30" y="157" font-family="Arial,sans-serif" font-size="62" font-weight="700" fill="#16836a">6 224,9</text>
+<text x="32" y="194" font-family="Arial,sans-serif" font-size="18" fill="#486581">Орошение и сельхозводоснабжение / Irrigation: 5 821,1</text>
+<text x="32" y="218" font-family="Arial,sans-serif" font-size="15" fill="#627d98">Часть общего водопотребления / A component of total consumption</text>
+</g>
+<g transform="translate(82 500)">
+<rect width="590" height="230" rx="20" fill="#fff5e8"/>
+<text x="30" y="50" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#925b12">Сточные воды</text>
+<text x="30" y="82" font-family="Arial,sans-serif" font-size="20" fill="#78634a">Wastewater</text>
+<text x="30" y="157" font-family="Arial,sans-serif" font-size="62" font-weight="700" fill="#bd7818">188,5</text>
+<text x="32" y="194" font-family="Arial,sans-serif" font-size="18" fill="#78634a">Нормативно очищенные / Treated to standards: 185,6</text>
+<text x="32" y="218" font-family="Arial,sans-serif" font-size="18" fill="#78634a">Загрязнённые без очистки / Untreated or insufficiently treated: 1,4</text>
+</g>
+<g transform="translate(700 500)">
+<rect width="618" height="230" rx="20" fill="#f2f0fb"/>
+<text x="30" y="50" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#51418a">Как читать показатели</text>
+<text x="30" y="82" font-family="Arial,sans-serif" font-size="20" fill="#625b80">How to read the indicators</text>
+<text x="30" y="126" font-family="Arial,sans-serif" font-size="19" fill="#40386b">• Забор ≠ водопотребление ≠ сброс</text>
+<text x="30" y="158" font-family="Arial,sans-serif" font-size="18" fill="#625b80">Abstraction ≠ consumption ≠ discharge</text>
+<text x="30" y="192" font-family="Arial,sans-serif" font-size="17" fill="#625b80">Подкатегории не складываются в единый баланс.</text>
+<text x="30" y="216" font-family="Arial,sans-serif" font-size="17" fill="#625b80">Subcategories are not a complete water balance.</text>
+</g>
+<text x="82" y="785" font-family="Arial,sans-serif" font-size="16" fill="#52667a">Источник / Source: NSC KR open data, “Protection and Rational Use of Water Resources”, 2025.</text>
+<text x="82" y="815" font-family="Arial,sans-serif" font-size="15" fill="#52667a">stat.gov.kg/ru/opendata/category/3216/ · CC BY-NC-SA 4.0 · Проверено 1 Nov 2026 / Accessed 1 Nov 2026</text>
+<text x="82" y="842" font-family="Arial,sans-serif" font-size="14" fill="#7b8794">Note: published wastewater sub-indicators do not sum to the wastewater total; no residual category is inferred.</text>
+</svg>
