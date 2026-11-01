@@ -982,11 +982,11 @@ try {
       const fields = page.locator('#equation input[type="number"]');
       if (await fields.count() < 2) errors.push(file + ": coefficient inputs were not rendered");
       else {
-        if (await fields.first().getAttribute("aria-label") !== "Коэффициент 1" || await page.locator("#progress").getAttribute("role") !== "progressbar" || await page.locator("#progress").getAttribute("aria-valuenow") !== "0") {
+        if (await fields.first().getAttribute("aria-label") !== "Коэффициент перед H₂" || await page.locator("#progress").getAttribute("role") !== "progressbar" || await page.locator("#progress").getAttribute("aria-valuenow") !== "0") {
           errors.push(file + ": Russian coefficient labels or progressbar semantics are missing");
         }
         await page.locator("#lang").click();
-        if (await page.locator('#equation input[type="number"]').first().getAttribute("aria-label") !== "Coefficient 1" || await page.locator("#progress").getAttribute("aria-label") !== "Tasks completed") {
+        if (await page.locator('#equation input[type="number"]').first().getAttribute("aria-label") !== "Coefficient before H₂" || await page.locator("#progress").getAttribute("aria-label") !== "Tasks completed") {
           errors.push(file + ": English coefficient labels or progressbar label are missing");
         }
         await page.locator("#lang").click();
