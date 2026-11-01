@@ -7,7 +7,7 @@ This checklist separates repository automation from checks that require human re
 - [x] Repository structure, local assets, scripts and internal links checked by `chemistry/checks.mjs`.
 - [x] All 21 Chemistry pages exercised by Chromium smoke tests at 390, 768 and 1280 CSS px.
 - [x] RU/EN language switching, selected interactive workflows and known calculation edge cases covered by browser tests.
-- [x] axe-core WCAG 2.1 A/AA audit: passed in RU and EN on all 21 pages; no serious/critical findings in the final CI run.
+- [x] axe-core WCAG 2.1 A/AA audit: passed in RU and EN on all 21 pages (42 scans); no serious/critical findings in the final CI run. Confirmed again in successful CI run [41326918004](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41326918004), commit `e244cb8c894eb5cb1ab1aa8a48615cd26b3d17f4`.
 - [ ] Physical Android phone/tablet check.
 - [ ] Physical iPhone/iPad check, including Safari where available.
 - [ ] Keyboard-only review of every page and interactive tool.
