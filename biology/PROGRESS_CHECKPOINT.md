@@ -443,3 +443,17 @@
 - Detailed findings and references: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
 - Remaining G4 block: (4) anatomy, physiology, ecology and cross-chapter scientific consistency.
 - Independent scientific sign-off and G5 bilingual/editorial review remain open. Controlled editorial readiness remains **95/100**; 52 illustration placements remain Deferred. No publication-readiness increase is claimed.
+
+
+## G4 scientific audit checkpoint — 100% author-side completion (1 November 2026)
+
+- Completed all four planned G4 review blocks across the 12 Biology chapter pages and the main Biology index: **4/4 = 100% of the planned author-side scientific audit**.
+- Block 1 — regional biodiversity/species evidence: checked priority flora/fauna claims and local records; retained explicit source, date, geographic and taxonomic uncertainty; clarified the Aygul name `Petilium eduardii` against POWO's accepted `Fritillaria eduardii`.
+- Block 2 — taxonomy/systematics/evolution: qualified the widely used three-domain model with the two-domain phylogenomic hypothesis; updated the Cambrian boundary to 538.8 ± 0.6 Ma per ICS 2026/06; strengthened the caveat on disputed 3.8–3.7 Ga Isua biosignatures; added the OpenStax speciation source.
+- Block 3 — cell biology/genetics/microbiology/biochemistry: aligned the cell-cycle bilingual output; added a substantive DNA-replication section; qualified bacterial multicellularity; clarified actual cellular ΔG in the ATP hydrolysis output. CI browser smoke testing passed for the relevant code commit.
+- Block 4 — anatomy/physiology/ecology/botany/zoology and cross-chapter consistency: clarified CNS/PNS roles; added musculoskeletal/endocrine coverage; corrected `NPP = GPP − Rₐ` and the energy/nutrient arrows; added plant-cell/tissue and alternation-of-generations content; clarified that the vertebrate comparison diagram is not a cladogram; added invertebrate diversity, animal behaviour, biotechnology, microbiome and microbial-eukaryote coverage. Aligned topic panels and learning objectives with the expanded content.
+- Final technical verification: GitHub Actions run `41310559437` on commit `f3fb88a8d87d748be28d5e436ac6680a4f595d02` completed successfully. Static validation, local-link/script checks, Chromium installation and browser smoke tests for every Biology page passed, including configured mobile/desktop viewports, language switching, keyboard reachability, accessible names and horizontal-overflow checks.
+- Detailed findings, corrections, references and remaining uncertainties: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
+- Important boundary: **100% means the planned author-side G4 audit blocks are complete. It is not independent scientific approval or publication readiness.** Independent specialist review remains open, especially for the fish-record/voucher questions and other contested evidence already flagged in the audit.
+- G5 bilingual/editorial review remains open. The 52 illustration anchors/dispositions remain Deferred; original illustration production and visual quality review are still release gates. Full screen-reader testing, comprehensive contrast review and physical-device testing are not claimed as passed.
+- Controlled editorial readiness remains **95/100**; it is not raised by completion of G4 alone.
