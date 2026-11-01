@@ -616,6 +616,22 @@ try {
           !(await page.locator("#rows").innerText()).includes("12")) {
         errors.push(file + ": Russian formula parser miscounted atoms in Al2(SO4)3");
       }
+      await formulaInput.fill("K4(ON(SO3)2)2");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#total").innerText()).includes("24") ||
+          !(await page.locator("#rows").innerText()).includes("14")) {
+        errors.push(file + ": Russian formula parser miscounted nested groups in K4(ON(SO3)2)2");
+      }
+      await formulaInput.fill("H0");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#feedback").innerText()).includes("Индекс должен быть положительным")) {
+        errors.push(file + ": zero subscript must produce Russian validation feedback");
+      }
+      await formulaInput.fill("0H2O");
+      await page.locator("#calc").click();
+      if (!(await page.locator("#feedback").innerText()).includes("Коэффициент должен быть положительным")) {
+        errors.push(file + ": zero leading coefficient must produce Russian validation feedback");
+      }
       await formulaInput.fill("Xx2");
       await page.locator("#calc").click();
       if ((await page.locator("#total").innerText()).trim() !== "—" ||
