@@ -685,3 +685,45 @@ This checkpoint preserves the working context for continuation after a session i
 - The two commits unique to `atlas-of-knowledge-integration` relative to the Geography branch concern the shared editorial standard/project registry, not Geography chapter content. Draft PR #6 remains an umbrella integration item; it was not merged into the Geography branch.
 - No old source branch was deleted. The shared project registry requires retaining old source branches as source and backup checkpoints. The legacy commits remain reachable through `portal-foundation`; they were not cherry-picked because their content is already carried forward and revised, and the branch also contains unrelated Chemistry/portal history.
 - Full inventory, comparisons, the 25 unique Geography commit SHAs, content review and consolidation decision are documented in `geography/BRANCH_AUDIT_2026-11-01.md`.
+
+
+## Structural and visual-production audit — Chapters 14–23 (1 November 2026)
+
+### Chapters 14–16: GIS, remote sensing, research and cartography
+
+- Checked bilingual chapter titles and substantial Russian/English teaching text, numbered section structure, practical assignments, review material, key terms and sources.
+- Chapter 14: 20 numbered sections, six practical-activity headings, nine visual briefs. Added and verified missing in-text visual markers 14-E–14-I, complementing 14-A–14-D. The nine markers now cover GIS architecture, vector/raster models, coordinate systems, overlay, network accessibility, terrain analysis, data quality, cartographic visualisation and reproducible workflows.
+- Chapter 15: 18 numbered sections, six practical-activity headings, ten numbered visual briefs. Added and verified in-text markers 15-E–15-K, complementing 15-A–15-D. Coverage includes the remote-sensing principle, spectral signatures, four kinds of resolution, colour composites, SAR, LiDAR and change detection. Marker 15-B separately identifies the satellite/sensor platform diagram.
+- Chapter 16: 21 numbered sections, six practical-activity headings, nine visual briefs. Added and verified markers 16-A–16-I for research cycle, spatial scales, sampling designs, generalisation, thematic map types, visual variables, classification, map elements and reproducibility.
+- No duplicate numbered section identifiers were found in these three chapters. The check was structural and did not constitute full scientific peer review.
+
+### Chapters 17–23: Kyrgyzstan physical geography, ecosystems and population
+
+- Checked bilingual chapter titles, substantial Russian/English content, numbered section structure, practical-work headings and existing visual production briefs.
+- No duplicate numbered section identifiers were found in Chapters 17–23.
+- Reconciled visual production briefs with in-text placeholders by adding bilingual markers:
+  - Chapter 17: 17-F–17-I; total marker set 17-A–17-I (9).
+  - Chapter 18: 18-F–18-J; total marker set 18-A–18-J (10).
+  - Chapter 19: 19-F–19-J; total marker set 19-A–19-J (10).
+  - Chapter 20: 20-G–20-J; total marker set 20-A–20-J (10).
+  - Chapter 21: 21-F–21-J; total marker set 21-A–21-J (10).
+  - Chapter 22: 22-E–22-J; total marker set 22-A–22-J (10).
+  - Chapter 23: 23-E–23-L; total marker set 23-A–23-L (12).
+- Each newly added marker has Russian and English production instructions. All changes were re-fetched from GitHub and verified.
+- Chapter 17 retains the nonstandard but distinct subsection label 17.14а; no duplicate identifier was detected. It should be checked during final numbering-style normalisation.
+- These checks do not certify the accuracy of all maps, boundary lines, protected-area geometries, population statistics or scientific claims. Those require source-by-source verification and official geospatial data.
+
+### Verified commits
+
+- Chapter 14: `77d3ab2bc7ac2d06b9773892db35e768ae6462d6`; verified blob `3f9c42e88c98bb664f7feec7ed271f068b9164e1`.
+- Chapter 15: `096796e805e4850242d84d5e5805560844928ff3`; verified blob `5ee42e7c781c643f21e2c939110e7e9dc0fc6bad`.
+- Chapter 16: `c7f2f563740d70d629560bdfb40a1b287290ba70`; verified blob `c53aed86e03b194b65248ad259e05fef67a741da`.
+- Chapter 17: `af7e813871103fb57030f097ccefd3f51e5ef350`; verified blob `67095ccf5863a7602c203bc88a54bcec3056e277`.
+- Chapter 18: `24840daa590863d451062158a322560b953ebd87`; verified blob `106575f3ac48772ca812b77bf22681a118578368`.
+- Chapter 19: `d68e542ec8794c60bd5a4b560d67e2480c6cac86`; verified blob `af7097000055bc2cdd1d3963417683dfffb5b201`.
+- Chapter 20: `32f8e15efcd55bdd0db291412a27c9f1167e2f0e`; verified blob `02806f8bf587a22e27a996724339aefa588c8683`.
+- Chapter 21: `93c1230c4fc82fa525e14c3d35b250c9972d1782`; verified blob `5620b56e94142ef15b5b39d09f4aa2ce19abc53c`.
+- Chapter 22: `de9dd3e91bc9a1f7dff33d7f16e1b1d6cbea85ce`; verified blob `53e2bd4d380f63e62b0f0995ffea0f42848dd52f`.
+- Chapter 23: `e7ba357b7eb03dd517e64bfd6022a197f6c25520`; verified blob `f4606b5d0eef05c7eb99064e989975457c955ca3`.
+
+The current marker additions are production instructions/placeholders only; no generated maps or illustrations are claimed.
