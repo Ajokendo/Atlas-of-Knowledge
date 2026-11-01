@@ -171,3 +171,31 @@ Image-planning registers were not changed; the existing 52 planned/deferred imag
 Code commit: `108b94c5394f06f6f1a5d36b7f78ad3c2b4fd462`.
 
 Progress reporting note: overall Atlas completion remains a provisional project estimate until a chapter-by-chapter rubric is recalculated. This content checkpoint is complete at source level; visual and automated test verification remain open.
+
+
+
+## Branch consolidation recheck — 1 November 2026
+
+Rechecked the repository branch inventory and pull-request history against the current canonical workspace.
+
+### Current branch inventory
+
+| Branch | Current relationship to `workspace/biology` | Decision |
+|---|---|---|
+| `workspace/biology` | Canonical active Biology workspace | **Retain** |
+| `biology-learning-experience-pass` | 1 branch-only commit; its PR #4 is closed and merged to `main`; workspace is substantially ahead | Historical source; do not merge or delete until its unique commit is explicitly reconciled |
+| `biology-deep-editorial-pass-1` | 13 branch-only commits; PR #5 is closed and merged to `main`; workspace is substantially ahead | Historical editorial source; do not merge wholesale or delete before commit-level reconciliation |
+| `biology-release-integration` | 29 branch-only commits; PR #3 is closed and merged to `main`; includes release/portal/shared files | Historical release staging; retain pending repository-owner cleanup |
+| `biology-atlas` | 225 branch-only commits; broad mixed-discipline snapshot, not Biology-only | Historical source snapshot; retain pending owner cleanup |
+
+Pull-request history confirms that PR #3 (release integration), PR #4 (learning experience) and PR #5 (editorial pass) were merged into `main` on 31 October 2026. The current `workspace/biology` has since advanced independently and contains the latest audit, chapter and QA work. Branch comparisons are diverged because these refs preserve earlier histories; a branch's ahead count is not by itself proof that its content is missing from the canonical workspace.
+
+### Cleanup decision
+
+- There is exactly one active Biology development branch: `workspace/biology`.
+- The four other Biology-named branches are historical/source/staging branches, not parallel active workspaces.
+- No branch was deleted or force-moved. The available GitHub connection in this session exposes branch listing/comparison and branch creation/update, but no branch-delete operation. The read-only fetch endpoint cannot delete refs.
+- It would be unsafe to simulate deletion by force-moving old branch refs to the current workspace SHA: that would rewrite historical references and could discard unreviewed branch-only commits.
+- Therefore the repository is logically consolidated (one active workspace), but physical deletion of the four historical refs remains an owner/admin action. Before deletion, retain an archive tag or verify the merged PRs and preserve any required source snapshots.
+
+This is a verified inventory and safe-cleanup boundary, not a claim that branch refs have already been deleted.
