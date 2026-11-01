@@ -347,6 +347,8 @@ Priority measures include building and modernising treatment facilities, adoptin
 
 Рост городов, потребления и строительства увеличивает объём бытовых, промышленных, строительных и сельскохозяйственных отходов. Система обращения с отходами должна охватывать весь цикл: предотвращение образования, раздельный сбор, повторное использование, переработку, безопасное обезвреживание и размещение остатка.
 
+По данным НСК, в 2024 году в стране было вывезено **1 646,5 тыс. тонн твёрдых бытовых отходов**; на отходы домашних хозяйств приходилось 46,9%, на отходы предприятий и организаций — 17,0%. На города Бишкек и Ош вместе пришлось около 56% вывезенного объёма. Это показатель вывоза/сбора, а не полного образования всех отходов: он не охватывает автоматически неучтённые, самостоятельно сжигаемые, захороненные или невывезенные отходы. В отдельной таблице НСК за 2023 год указано, что 48,5% способов избавления от бытового мусора приходилось на сбор грузовиком или контейнером, 23,2% — на сброс в мусорные кучи, 19,3% — на сжигание и 9,1% — на закапывание. Показатели 2023 года описывают практики избавления от мусора, а не структуру вывезенного объёма 2024 года; их нельзя складывать или напрямую сопоставлять.
+
 ### Иерархия обращения с отходами
 
 1. Предотвращение образования отходов.
@@ -370,6 +372,8 @@ Priority measures include building and modernising treatment facilities, adoptin
 
 
 Growth in cities, consumption and construction increases the volume of household, industrial, construction and agricultural waste. A waste-management system should cover the entire cycle: prevention, separate collection, reuse, recycling, safe treatment and disposal of residual waste.
+
+According to the National Statistical Committee, **1,646.5 thousand tonnes of municipal solid waste** were removed in 2024. Household waste accounted for 46.9%, while waste from enterprises and organisations accounted for 17.0%. Bishkek and Osh together accounted for about 56% of the reported volume. This is a collection/removal indicator, not a complete measure of all waste generated: it does not automatically include unrecorded, self-burned, buried or uncollected waste. A separate NSC table for 2023 reports that 48.5% of household-waste disposal methods involved collection by truck or container, 23.2% involved dumping in waste heaps, 19.3% burning and 9.1% burial. The 2023 figures describe disposal practices, not the composition of the 2024 collected volume; they must not be added together or directly compared.
 
 ### Waste-management hierarchy
 
@@ -963,6 +967,8 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 16. UNFCCC. Kyrgyzstan NDC 3.0 — official submission record and attachments. https://unfccc.int/node/650219
 17. National Statistical Committee of the Kyrgyz Republic. Protection and rational use of water resources: open data, 2021–2025 series. https://stat.gov.kg/en/opendata/category/3216/
 18. National SDG Indicators of the Kyrgyz Republic. Indicator 6.3.1: Proportion of domestic and industrial wastewater flows safely treated. https://sustainabledevelopment-kyrgyzstan.github.io/en/6-3-1/
+25. National Statistical Committee of the Kyrgyz Republic. *Kyrgyzstan in Figures 2025*, Table on municipal solid waste removal by waste type and territory (2024 data). https://stat.gov.kg/media/publicationarchive/a2d756a0-9549-4b37-8884-4e777b8c90a8.pdf
+26. National Statistical Committee of the Kyrgyz Republic. *Sustainable Development Goals in the Kyrgyz Republic*, indicator 11.6.1.2: municipal solid waste removal by territory and disposal method (2024 and 2023 tables). https://stat.gov.kg/media/publicationarchive/6de87cb2-b960-4797-b036-ad26e6eaa6cb.pdf
 22. United Nations / International Fund for Agricultural Development. Technical Note: Pasture Condition Maps in Kyrgyzstan, 1 July 2021 (remote-sensing comparison of 2000–2004 and 2016–2020; seasonal degradation indicator). https://kyrgyzstan.un.org/en/176443-technical-note-pasture-condition-maps-kyrgyzstan
 23. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. “Total forest area in the country amounts to 1 million 273 thousand hectares”, 16 October 2026. https://www.mnr.gov.kg/ru/posts/news/obshhaya-ploshhad-lesov-v-strane-sostavlyaet-1-mln-273-tys-gektarov
 24. United Nations Statistics Division. SDG Country Profile: Kyrgyzstan, Goal 15 (forest-area series and protected-area coverage). https://unstats.un.org/sdgs/dataportal/countryprofiles/kgz?goal=15
