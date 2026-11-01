@@ -250,7 +250,35 @@ for (const url of ["19-2-population-genetics", "19-3-adaptive-evolution"]) {
 if (!evolutionFile.includes("Illustrative frequencies after several generations") || !evolutionFile.includes("not a prediction for a real population")) errors.push("chapters/evolution.html: selection model must be labelled illustrative, not predictive");
 if (!evolutionFile.includes("function localizeControls()") || !evolutionFile.includes("localizeControls();updateModules()")) errors.push("chapters/evolution.html: interactive controls must relabel when the language changes");
 if (!/data-selection="high" aria-pressed="false"/.test(evolutionFile) || !/data-era="human" aria-pressed="false"/.test(evolutionFile)) errors.push("chapters/evolution.html: toggle controls must expose initial pressed states");
+const ecologyFile = fs.readFileSync(path.join(root, "chapters", "ecology.html"), "utf8");
+const ecologyProductivityStart = ecologyFile.indexOf('id="ecosystem-productivity"');
+const ecologyPopulationStart = ecologyFile.indexOf('id="population-dynamics"');
+const ecologyProductivity = ecologyFile.slice(ecologyProductivityStart, ecologyPopulationStart);
+if (ecologyProductivityStart < 0 || ecologyPopulationStart <= ecologyProductivityStart) errors.push("chapters/ecology.html: ecosystem-productivity lesson must precede population dynamics");
+for (const phrase of ["npp = gpp − r", "transfer efficiency", "10% rule", "rough teaching approximation", "biomass pyramid can be inverted", "aria-labelledby=\"trophic-pyramid-title trophic-pyramid-desc\""]) {
+  if (!ecologyProductivity.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/ecology.html: productivity lesson missing scientific concept or qualification: " + phrase);
+}
+if (!/<span class="ru">/.test(ecologyProductivity) || !/<span class="en">/.test(ecologyProductivity)) errors.push("chapters/ecology.html: productivity lesson must be bilingual");
+
+const evolutionFile = fs.readFileSync(path.join(root, "chapters", "evolution.html"), "utf8");
+const speciationStart = evolutionFile.indexOf('id="speciation-processes"');
+const selectionStart = evolutionFile.indexOf('<section class="lab">', speciationStart);
+const speciationBlock = evolutionFile.slice(speciationStart, selectionStart);
+if (speciationStart < 0 || selectionStart <= speciationStart) errors.push("chapters/evolution.html: speciation lesson must precede the natural-selection interactive");
+for (const phrase of ["allopatric speciation", "sympatric speciation", "prezygotic", "postzygotic", "polyploidy", "not a ladder"]) {
+  if (!speciationBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/evolution.html: speciation lesson missing mechanism or qualification: " + phrase);
+}
+if (!/<span class="ru">/.test(speciationBlock) || !/<span class="en">/.test(speciationBlock)) errors.push("chapters/evolution.html: speciation lesson must be bilingual");
+
 const microbiologyFile = fs.readFileSync(path.join(root, "chapters", "microbiology.html"), "utf8");
+const hgtStart = microbiologyFile.indexOf('id="horizontal-gene-transfer"');
+const microbiologyDetailStart = microbiologyFile.indexOf('<section class="detail">', hgtStart);
+const hgtBlock = microbiologyFile.slice(hgtStart, microbiologyDetailStart);
+if (hgtStart < 0 || microbiologyDetailStart <= hgtStart) errors.push("chapters/microbiology.html: horizontal gene transfer lesson must precede the detail section");
+for (const phrase of ["horizontal gene transfer", "transformation", "transduction", "conjugation", "does not occur automatically"]) {
+  if (!hgtBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/microbiology.html: HGT lesson missing mechanism or qualification: " + phrase);
+}
+if (!/<span class="ru">/.test(hgtBlock) || !/<span class="en">/.test(hgtBlock)) errors.push("chapters/microbiology.html: HGT lesson must be bilingual");
 if (!microbiologyFile.includes("function localizeControls()") || !microbiologyFile.includes("localizeControls();updateModules()")) errors.push("chapters/microbiology.html: group, shape and growth-phase controls must relabel when the language changes");
 if (!/data-group="viruses" aria-pressed="false"/.test(microbiologyFile) || !/data-phase="death" aria-pressed="false"/.test(microbiologyFile)) errors.push("chapters/microbiology.html: toggle controls must expose initial pressed states");
 for (const url of ["6-1-viruses", "6-2-the-viral-life-cycle", "14-5-drug-resistance"]) {
