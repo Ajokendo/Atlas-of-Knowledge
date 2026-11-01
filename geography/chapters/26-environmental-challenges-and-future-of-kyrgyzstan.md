@@ -33,6 +33,7 @@ Environmental policy should address these issues as one connected system. Forest
 ## 26.2. Климатические изменения: наблюдения и последствия / Climate Change: Observations and Impacts
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-A / IMAGE PLACEHOLDER 26-A]** График национального температурного тренда 1960–2023 годов и климатическая карта региональных различий; отдельно обозначить наблюдения и модельные проекции, подписать базовые периоды.
+> **EN:** Chart of Kyrgyzstan's national temperature trend for 1960–2023 and a climate map of regional differences; distinguish observations from model projections and state the baseline periods.
 
 
 По данным UNEP, средняя годовая температура в Кыргызстане увеличилась примерно на 1,2 °C в период 1960–2023 годов — приблизительно вдвое больше приведённой в той же оценке глобальной величины. Это национальная оценка за конкретный период, а не универсальная характеристика каждого района: локальные тренды различаются по высоте, сезону и географическому положению.
@@ -80,6 +81,7 @@ NDC 3.0 treats adaptation as a strategic priority and identifies water resources
 
 ## 26.3. Ледники, снег и водная безопасность / Glaciers, Snow and Water Security
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Комплексная карта и инфографика водной безопасности Кыргызстана: ледники и основные речные бассейны, сравнение инвентаризаций 1940–1970-х и 2013–2016 годов, снеговое и ледниковое питание, сезонный сток, водохранилища, орошение и зоны потенциального риска прорыва ледниковых озёр; указать даты, версии каталогов и методические различия.
+> **EN:** Integrated map and infographic of water security in Kyrgyzstan: glaciers and major river basins, comparison of the 1940s–1970s and 2013–2016 inventories, snow and glacier melt, seasonal runoff, reservoirs, irrigation and potential glacial-lake outburst zones; state dates, catalogue versions and methodological differences.
 
 Для количественной оценки важно указывать дату и метод инвентаризации. По каталогу, подготовленному ЦАИИЗ на основе спутниковых снимков Landsat 8 за 2013–2016 годы, в Кыргызстане было учтено 9 959 ледников общей площадью 6 683,9 км². Сопоставляемый советский каталог, основанный на материалах аэрофотосъёмки 1940–1970-х годов, содержал 8 164 ледника общей площадью 7 944,2 км². Разница площадей составляет около 16% (примерно 1 260 км²), но сравнение не является идеально однородным: старый каталог в отдельных районах не учитывал ледники менее 0,1 км², тогда как новая инвентаризация включала объекты более 0,01 км². Поэтому увеличение числа учтённых ледников не означает роста ледникового покрова: деградация крупных ледников сопровождается их фрагментацией на более мелкие тела. Данные 2013–2016 годов — важная базовая инвентаризация, но не актуальная оценка площади на 2026 год.
 
@@ -153,6 +155,8 @@ Water-saving technologies should be assessed at the river-basin scale. Improving
 ## 26.4. Земли, почвы и пастбища / Land, Soils and Pastures
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-D / IMAGE PLACEHOLDER 26-D]** Карта землепользования и состояния пастбищ: отделить национальную агрегированную оценку деградации от локальных обследований и спутниковых индексов.
+> **EN:** Land-use and pasture-condition map distinguishing national aggregate degradation estimates from local field surveys and satellite indices.
+> **EN:** Land-use and pasture-condition map distinguishing national aggregate degradation estimates from local field surveys and satellite indices.
 
 
 Почвы и пастбища — основа сельской экономики и важный элемент водосборных экосистем. Деградация земель может проявляться как водная и ветровая эрозия, уплотнение, потеря органического вещества, засоление, опустынивание и снижение растительного покрова.
@@ -432,6 +436,7 @@ For legacy industrial sites, priorities include inventories of contaminated loca
 ## 26.10. Природные опасности и снижение риска бедствий / Natural Hazards and Disaster Risk Reduction
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-I / IMAGE PLACEHOLDER 26-I]** Инфографика «опасность — подверженность — уязвимость — риск» и карта примеров селевых, оползневых, паводковых и сейсмических опасностей; не выдавать схематическую карту за прогноз.
+> **EN:** Hazard–exposure–vulnerability–risk infographic and map examples of debris-flow, landslide, flood and seismic hazards; do not present a schematic map as a forecast.
 
 
 Горная география Кыргызстана формирует широкий спектр природных опасностей:
@@ -560,6 +565,8 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 ## 26.11. Города, зелёная инфраструктура и качество жизни / Cities, Green Infrastructure and Quality of Life
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-K / IMAGE PLACEHOLDER 26-K]** Схема зелёной городской инфраструктуры: деревья, парки, водоотвод, прохладные маршруты и общественный транспорт; показать взаимосвязь с жарой и качеством воздуха.
+> **EN:** Green urban infrastructure diagram showing trees, parks, drainage, cool routes and public transport, linked to heat and air quality.
+> **EN:** Green urban infrastructure diagram showing trees, parks, drainage, cool routes and public transport, linked to heat and air quality.
 
 
 Устойчивые города должны снижать воздействие на природу и одновременно повышать качество жизни. В Кыргызстане это особенно важно для Бишкека, Оша и быстро растущих районных центров.
@@ -833,10 +840,13 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 
 ## 26.16. Технические задания для визуалов / Visual Production Briefs
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-A / IMAGE PLACEHOLDER 26-A]** Комплексная климатическая визуализация: график национального температурного тренда 1960–2023 годов, карта региональных различий и сценарии/неопределённости будущих изменений; национальные наблюдения отделить от глобального сравнения и модельных проекций.
+> **EN:** Integrated climate visualisation combining the national 1960–2023 temperature-trend chart, regional differences map and future scenarios/uncertainties; distinguish national observations from global comparisons and model projections.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Та же комплексная карта и инфографика водной безопасности, что отмечена в разделе 26.3: показать снег, ледники, бассейны, сезонный сток, водохранилища, ирригацию, экологический сток и потенциальные ледниково-озёрные опасности.
+> **EN:** The same integrated water-security map and infographic referenced in section 26.3, showing snow, glaciers, basins, seasonal runoff, reservoirs, irrigation, environmental flows and potential glacial-lake hazards.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-I / IMAGE PLACEHOLDER 26-I]** Единая карта экологических рисков и природной уязвимости: сейсмические, селевые, оползневые и паводковые опасности, пастбища, леса, ООПТ и источники загрязнения; показывать только проверенные геоданные с датой и масштабом.
+> **EN:** Integrated map of environmental risks and natural vulnerability, showing seismic, debris-flow, landslide and flood hazards, pastures, forests, protected areas and pollution sources; use only verified geodata with date and scale.
 
 
 1. **Климатические изменения Кыргызстана.** Карта температурных трендов по метеостанциям с периодом наблюдения, единицами и доверительными интервалами; не интерполировать данные без методики.
