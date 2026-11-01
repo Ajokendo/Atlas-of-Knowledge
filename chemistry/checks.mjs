@@ -418,6 +418,19 @@ for (const file of svgFiles) {
   if (!/<desc\b[^>]*>[\s\S]*?<\/desc>/i.test(source)) errors.push(relative + ": SVG missing accessible description");
 }
 
+const lowContrastHtmlPatterns = [
+  /--muted\\s*:\\s*#(?:888|8c8c90|85858a)\\b/i,
+  /--accent\\s*:\\s*#39836f\\b/i,
+  /color\\s*:\\s*#77736e\\b/i,
+  /color\\s*:\\s*#999\\b/i
+];
+for (const file of htmlFiles) {
+  const source = fs.readFileSync(file, "utf8");
+  for (const pattern of lowContrastHtmlPatterns) {
+    if (pattern.test(source)) errors.push(path.relative(root, file) + ": low-contrast HTML text colour detected (" + pattern + ")");
+  }
+}
+
 const lowContrastSvgTextFills = ["#8c8c90", "#64766f", "#9a6a22", "#888", "#999"];
 for (const file of svgFiles) {
   const source = fs.readFileSync(file, "utf8");
