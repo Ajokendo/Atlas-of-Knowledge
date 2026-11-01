@@ -102,6 +102,28 @@ export function startBook(chapter) {
   // ---------- scene ----------
   const E = createEngine($('gl'), { fov: 18, near: 0.2, far: 300 });
   const W = chapter.buildWorld(E);
+
+  // One native control exposes every scene assembly to keyboard and assistive-technology users.
+  // A single select keeps the tab order short even in chapters with many interactive objects.
+  const scenePicker = document.createElement('select');
+  scenePicker.className = 'scene-picker';
+  scenePicker.setAttribute('aria-label', 'Выбрать объект на 3D-сцене');
+  scenePicker.setAttribute('aria-controls', 'plate');
+  const emptyScene = document.createElement('option');
+  emptyScene.value = '';
+  emptyScene.textContent = 'Выбрать объект сцены…';
+  scenePicker.append(emptyScene);
+  for (const [key, group] of Object.entries(E.ASM)) {
+    const title = group.userData.title || key;
+    const option = document.createElement('option');
+    option.value = key;
+    option.textContent = title;
+    scenePicker.append(option);
+  }
+  $('gl').parentElement.append(scenePicker);
+  scenePicker.addEventListener('change', () => {
+    if (scenePicker.value) select(scenePicker.value, true);
+  });
   // the figure's box, read once per resize: reading it every frame forced a layout after each DOM write.
   // Its size is the layout size, so the book zooming open (cover.js) cannot shrink the canvas; cover.js refits after.
   let rect;
@@ -184,7 +206,9 @@ export function startBook(chapter) {
   });
   $('gl').addEventListener('pointerleave', () => { pointer = null; anchor = null; hovered = null; relight(); $('gl').classList.remove('pointing'); });
   addEventListener('keydown', e => {
-    if (e.key === 'Escape') select(null);
+    if (e.key === 'Escape' && selected) { select(null, true); return; }
+    // Do not steal arrow keys from native controls (notably the scene object picker).
+    if (e.target.closest('select, input, textarea, button, [contenteditable="true"]')) return;
     if (e.key === 'ArrowRight' || e.key === 'PageDown') { e.preventDefault(); goto(Math.round(scrollY / pageH) + 1); }
     if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); goto(Math.round(scrollY / pageH) - 1); }
   });
@@ -201,23 +225,33 @@ export function startBook(chapter) {
     const s = box.getBoundingSphere(new E.THREE.Sphere());
     return { target: s.center.toArray(), dist: Math.max(E.distFor(Math.max(s.radius, g.userData.minRadius ?? 1.2)), g.userData.minDist ?? 8) };   // a scene may allow a closer zoom
   }
-  function select(k) {
+  function select(k, moveFocus = false) {
     selected = k;
+    scenePicker.value = k || '';
     for (const [key, g] of Object.entries(E.ASM)) g.userData.target = key === k ? 1 : 0;
     selectScroll = scrollY; relight();
     const plate = $('plate');
-    if (!k) { plate.hidden = true; $('hint').textContent = DEFAULT_HINT; return; }
+    if (!k) {
+      plate.hidden = true;
+      plate.removeAttribute('role'); plate.removeAttribute('aria-labelledby');
+      $('hint').textContent = DEFAULT_HINT;
+      if (moveFocus) scenePicker.focus();
+      return;
+    }
     const u = E.ASM[k].userData;
     plate.innerHTML = `
       <button class="close" type="button">${touch ? 'Закрыть' : 'Закрыть · Esc'}</button>
       <div class="kicker">Разбор</div>
-      <h1>${u.title}</h1>
+      <h1 id="scene-plate-title" tabindex="-1">${u.title}</h1>
       <div class="sub">${u.sub}</div>
       <p>${PLATES[k].text}</p>
       <table class="data" id="facts"></table>`;
+    plate.setAttribute('role', 'region');
+    plate.setAttribute('aria-labelledby', 'scene-plate-title');
     plate.hidden = false;
-    plate.querySelector('.close').onclick = () => select(null);
+    plate.querySelector('.close').onclick = () => select(null, true);
     $('hint').textContent = CLOSE_HINT;
+    if (moveFocus) plate.querySelector('#scene-plate-title').focus();
   }
 
   // a small badge says when motion is stopped (pointing at something, or a breakdown open)
