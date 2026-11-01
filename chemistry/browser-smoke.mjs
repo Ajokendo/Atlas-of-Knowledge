@@ -112,10 +112,26 @@ try {
     }
 
     const keyboardTargets = await page.evaluate(() => {
-      const selector = "a[href], button, input:not([type=hidden]), select, textarea, [contenteditable=true], [role=button], [role=link]";
-      return [...document.querySelectorAll(selector)]
+      const selector = "a[href], area[href], button, input:not([type=hidden]), select, textarea, [contenteditable=true], [role=button], [role=link], [tabindex]";
+      const elements = [...document.querySelectorAll(selector)];
+      const visibleEnabled = elements
         .map((element, index) => ({ element, index }))
-        .filter(({ element }) => !element.matches(":disabled") && element.getClientRects().length)
+        .filter(({ element }) => !element.matches(":disabled") && element.getClientRects().length);
+      const radioGroups = new Map();
+      for (const item of visibleEnabled) {
+        const { element } = item;
+        if (element.tagName !== "INPUT" || element.type !== "radio" || !element.name) continue;
+        const key = (element.form?.id || "document") + "::" + element.name;
+        if (!radioGroups.has(key)) radioGroups.set(key, []);
+        radioGroups.get(key).push(item);
+      }
+      const redundantRadios = new Set();
+      for (const group of radioGroups.values()) {
+        const tabStop = group.find(item => item.element.checked) || group[0];
+        for (const item of group) if (item !== tabStop) redundantRadios.add(item.element);
+      }
+      return visibleEnabled
+        .filter(({ element }) => !redundantRadios.has(element))
         .map(({ element, index }) => ({
           index,
           name: element.getAttribute("aria-label") || element.innerText?.trim() || element.id || element.tagName,
@@ -141,7 +157,37 @@ try {
       // Reloading clears injected scripts, so restore axe before the bilingual
       // accessibility scan later in this page's test.
       await page.addScriptTag({ path: axePath });
-      for (const target of keyboardTargets) {
+      // Rebuild the expected sequence from the reloaded DOM: interactive
+      // widgets may render asynchronously, and radio groups contribute one
+      // sequential Tab stop rather than one stop per option.
+      const reloadedKeyboardTargets = await page.evaluate(() => {
+        const selector = "a[href], area[href], button, input:not([type=hidden]), select, textarea, [contenteditable=true], [role=button], [role=link], [tabindex]";
+        const elements = [...document.querySelectorAll(selector)];
+        const visibleEnabled = elements
+          .map((element, index) => ({ element, index }))
+          .filter(({ element }) => !element.matches(":disabled") && element.getClientRects().length);
+        const radioGroups = new Map();
+        for (const item of visibleEnabled) {
+          const { element } = item;
+          if (element.tagName !== "INPUT" || element.type !== "radio" || !element.name) continue;
+          const key = (element.form?.id || "document") + "::" + element.name;
+          if (!radioGroups.has(key)) radioGroups.set(key, []);
+          radioGroups.get(key).push(item);
+        }
+        const redundantRadios = new Set();
+        for (const group of radioGroups.values()) {
+          const tabStop = group.find(item => item.element.checked) || group[0];
+          for (const item of group) if (item !== tabStop) redundantRadios.add(item.element);
+        }
+        return visibleEnabled
+          .filter(({ element }) => !redundantRadios.has(element))
+          .map(({ element, index }) => ({
+            index,
+            name: element.getAttribute("aria-label") || element.innerText?.trim() || element.id || element.tagName,
+            tabIndex: element.tabIndex
+          }));
+      });
+      for (const target of reloadedKeyboardTargets) {
         await page.keyboard.press("Tab");
         const focusedIndex = await page.evaluate(selector => {
           const candidates = [...document.querySelectorAll(selector)];
