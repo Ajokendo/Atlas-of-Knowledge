@@ -126,3 +126,14 @@ A standalone horizontal wildlife concept was generated (ImageGen generation ID `
 The composition shows a large brown eagle perched on a rocky alpine ridge. It is a distinct pose and composition from the preceding flight candidate, but it repeats the same golden-eagle subject rather than expanding taxonomic coverage of the P1 bird plate. It is therefore recorded as an additional visual variant, not as a new species asset or a completed plate. Species-level identification, feather pattern, proportions, beak/cere and feet require ornithological review. The generated scene is not a field photograph and does not establish an individual, locality, behavior record, season or population.
 
 This candidate is local-only, uncommitted, not inserted and not approved for publication. Existing image markers and all 52 Deferred dispositions remain unchanged.
+
+
+## Tenth production attempt: bearded-vulture concept
+
+A standalone horizontal wildlife concept was generated (ImageGen generation ID `ab53454c-977c-4c89-8b84-c15459d6e227`) and converted to WebP:
+
+- `biology-bearded-vulture-candidate.webp` — 1536×1024, 336,576 bytes.
+
+The image depicts a large cliff-associated vulture-like bird with a dark facial mask, hooked bill and orange-toned breast against a high-mountain background. Its visual intent is the bearded-vulture entry (`Gypaetus barbatus`) in the fauna chapter, but the generated image cannot establish species identity: facial markings, bill, feathering, feet and proportions require ornithological review. The orange breast appearance may be stylized and should not be treated as diagnostic. It is concept art, not a field photograph or evidence of a Kyrgyzstan individual, locality, behavior, season or population.
+
+This is a local-only draft, not committed as a raster asset, not inserted and not approved for publication. The P1 bird plate remains incomplete; all 52 insertion markers and Deferred dispositions are unchanged.
