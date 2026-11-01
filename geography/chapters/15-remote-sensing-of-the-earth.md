@@ -200,7 +200,7 @@ NDWI = \frac{Green - NIR}{Green + NIR}
 Другой индекс, часто называемый NDMI или вариантом NDWI для влажности растительности, использует NIR и SWIR:
 
 \[
-NDMI = \frac{NIR - SWIR}{NIR + SWIR}
+NDMI = \frac{NIR - SWIR1}{NIR + SWIR1}
 \]
 
 В публикации индекса всегда указывать формулу и используемые каналы: одинаковое сокращение в разных источниках может обозначать разные показатели.
@@ -208,7 +208,7 @@ NDMI = \frac{NIR - SWIR}{NIR + SWIR}
 ### NDBI — индекс застроенных территорий / Built-up Index
 
 \[
-NDBI = \frac{SWIR - NIR}{SWIR + NIR}
+NDBI = \frac{SWIR1 - NIR}{SWIR1 + NIR}
 \]
 
 NDBI может помогать выделять застроенные участки, но спектрально похожие сухие почвы, горные породы и другие поверхности могут давать сходный отклик. Индекс не является готовой картой зданий.
@@ -216,10 +216,10 @@ NDBI может помогать выделять застроенные уча�
 ### NBR — нормализованный индекс выгоревших территорий / Burn Ratio
 
 \[
-NBR = \frac{NIR - SWIR}{NIR + SWIR}
+NBR = \frac{NIR - SWIR2}{NIR + SWIR2}
 \]
 
-Разность NBR до и после пожара (dNBR) используется для оценки изменений, связанных с выгоранием. Интерпретация требует учитывать сезон, влажность, тип растительности и другие причины спектральных изменений.
+Разность NBR до и после пожара (dNBR) используется для оценки изменений, связанных с выгоранием. Интерпретация требует учитывать сезон, влажность, тип растительности и другие причины спектральных изменений. Для стандартной реализации NBR на Landsat обычно используют NIR и SWIR2; для NDMI и NDBI — соответствующие каналы NIR/SWIR1 и SWIR1/NIR. Для других сенсоров необходимо сверяться с руководством продукта и указывать номера полос.
 
 ## 15.10. Классификация спутниковых изображений / Satellite Image Classification
 
@@ -519,21 +519,21 @@ NDWI = (Green − NIR) / (Green + NIR)
 
 Another index, often called NDMI or an NDWI variant for vegetation moisture, uses NIR and SWIR:
 
-NDMI = (NIR − SWIR) / (NIR + SWIR)
+NDMI = (NIR − SWIR1) / (NIR + SWIR1)
 
 Always state the formula and bands used: the same abbreviation may refer to different indicators in different sources.
 
 **NDBI — Normalized Difference Built-up Index**
 
-NDBI = (SWIR − NIR) / (SWIR + NIR)
+NDBI = (SWIR1 − NIR) / (SWIR1 + NIR)
 
 NDBI may help identify built-up areas, but spectrally similar dry soils, rocks and other surfaces can produce similar responses. It is not a ready-made building map.
 
 **NBR — Normalized Burn Ratio**
 
-NBR = (NIR − SWIR) / (NIR + SWIR)
+NBR = (NIR − SWIR2) / (NIR + SWIR2)
 
-The difference between pre-fire and post-fire NBR (dNBR) is used to assess changes associated with burning. Interpretation must account for season, moisture, vegetation type and other causes of spectral change.
+The difference between pre-fire and post-fire NBR (dNBR) is used to assess changes associated with burning. Interpretation must account for season, moisture, vegetation type and other causes of spectral change. A standard Landsat NBR commonly uses NIR and SWIR2; NDMI and NDBI use the corresponding NIR/SWIR1 and SWIR1/NIR bands. For other sensors, consult the product guide and state the exact band numbers.
 
 ### 15.10. Satellite Image Classification
 
