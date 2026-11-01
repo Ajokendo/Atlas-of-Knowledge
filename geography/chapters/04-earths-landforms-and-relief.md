@@ -86,7 +86,7 @@
 - Ударные (импактные).
 - Антропогенные.
 
-**Место для иллюстрации 4.3-A — Landform Classification.** Атласная композиция с типичными формами рельефа, сгруппированными по генезису и масштабу.
+**Место для иллюстрации 4.3-A — Landform Classification.** Атласная композиция с типичными формами рельефа, сгруппированными по генезису и масштабу; включить импактный кратер как пример ударной формы.
 
 ## 4.4. Горы и горные системы / Mountains and Mountain Systems
 
@@ -185,7 +185,7 @@
 
 Морены обычно состоят из несортированного материала, перенесённого и отложенного ледником; они могут образовывать боковые, конечные, срединные и донные гряды или покровы. **Друмлины** — вытянутые сглаженные холмы из ледниковых отложений, часто ориентированные по направлению движения льда. **Озы** — извилистые гряды песка и гравия, отложенные потоками талой воды внутри или под ледником. **Камы** — холмы слоистых песков и гравия, накопленных талыми водами у края или внутри ледника. **Зандровые равнины** формируются перед ледником из осадков талых вод. **Эратические валуны** — крупные обломки, перенесённые ледником далеко от места их происхождения. Эти формы помогают реконструировать положение и динамику древних ледников.
 
-**Место для иллюстрации 4.7-A — Glacial Landforms.** Сравнение каров, троговой долины, моренных валов, оза и друмлина.
+**Место для иллюстрации 4.7-A — Glacial Landforms.** Сравнить кар, троговую и висячую долины, арет, рог, моренные валы, оз, кам, друмлин и зандровую равнину.
 
 ## 4.8. Эоловые формы рельефа / Aeolian Landforms
 
@@ -205,7 +205,7 @@
 
 Форма дюны зависит от режима ветров, доступности песка, влажности и растительности. **Бархан** обычно имеет серповидную форму; его «рога» направлены по ветру. Он формируется при ограниченном запасе песка и устойчивом преобладающем направлении ветра. **Поперечные дюны** располагаются грядами примерно поперёк преобладающего ветра и обычно требуют обильного запаса песка. **Продольные дюны** вытянуты примерно вдоль результирующего направления ветров. **Дефляционные котловины** возникают при выдувании рыхлого материала, а **лёсс** представляет собой накопления пылеватых частиц, перенесённых ветром.
 
-**Место для иллюстрации 4.8-A — Wind-Shaped Landscapes.** Схемы бархана, продольной дюны, поперечной дюны и дефляционной котловины с указанием направления ветра.
+**Место для иллюстрации 4.8-A — Wind-Shaped Landscapes.** Схемы бархана, продольной и поперечной дюн, дефляционной котловины и лёссового покрова; показать направление ветра.
 
 ## 4.9. Карстовый рельеф / Karst Landforms
 
@@ -263,7 +263,7 @@
 - **подводные горы (seamounts)** — изолированные возвышения морского дна, часто вулканического происхождения;
 - вулканические плато — обширные подводные поверхности, образованные накоплением лавы.
 
-**Место для иллюстрации 4.10-A — Coastal and Ocean-Floor Relief.** Два взаимосвязанных профиля: типичное побережье и поперечный профиль океанического бассейна.
+**Место для иллюстрации 4.10-A — Coastal and Ocean-Floor Relief.** Два взаимосвязанных профиля: абразионное и аккумулятивное побережье, шельф, склон, подножие, абиссальная равнина, срединно-океанический хребет, желоб и подводная гора.
 
 ## 4.11. Склоновые процессы и денудация / Slope Processes and Denudation
 
@@ -295,7 +295,7 @@
 
 **Учебная работа.** Сравните два условных склона одинаковой крутизны: на первом — плотная скальная порода и организованный водоотвод; на втором — трещиноватые водонасыщенные отложения и подрезанная подошва. Составьте перечень дополнительных данных, необходимых для сравнения их устойчивости. Не присваивайте численную вероятность без модели и исходных данных.
 
-**Место для иллюстрации 4.11-A — Slope Processes.** Сравнить оползень, обвал, осыпь, крип и сель; указать характер движения и факторы запуска.
+**Место для иллюстрации 4.11-A — Slope Processes.** Сравнить падение, опрокидывание, вращательный и поступательный оползни, боковое растекание, сель, осыпь и крип; указать направление движения.
 
 ## 4.12. Выветривание горных пород / Weathering
 
@@ -486,7 +486,7 @@ By scale, geographers distinguish planetary forms (continents and ocean basins),
 
 By origin, landforms may be tectonic, volcanic, fluvial, glacial or glaciofluvial, aeolian, karst, coastal or marine, slope-related, impact-related, or anthropogenic.
 
-**[ILLUSTRATION PLACEHOLDER 4.3-A]** Show planetary forms, megaforms, macroforms, mesoforms and microforms with examples; label scale boundaries as approximate.
+**[ILLUSTRATION PLACEHOLDER 4.3-A]** Show planetary forms, megaforms, macroforms, mesoforms and microforms with examples, including an impact crater; label scale boundaries as approximate.
 
 ### 4.4. Mountains and Mountain Systems
 
@@ -564,7 +564,7 @@ Glaciers move under gravity and transform the surface by erosion, transport and 
 
 **Depositional landforms** include moraines, drumlins, eskers, kames, outwash plains and erratic boulders. Moraines commonly consist of unsorted material transported and deposited by ice; they may form lateral, terminal, medial or ground accumulations. **Drumlins** are elongated, streamlined hills of glacial sediment, commonly aligned with ice flow. **Eskers** are winding ridges of sand and gravel deposited by meltwater streams within or beneath a glacier. **Kames** are mounds of layered sand and gravel deposited by meltwater at or within the ice margin. **Outwash plains** form in front of glaciers from sediment carried by meltwater. **Erratic boulders** are large rocks transported far from their source by moving ice. These landforms help reconstruct former glacier extent and dynamics.
 
-**[ILLUSTRATION PLACEHOLDER 4.7-A]** Show a cirque, U-shaped and hanging valleys, arête, horn, moraine, esker and outwash plain; distinguish erosional and depositional forms.
+**[ILLUSTRATION PLACEHOLDER 4.7-A]** Show a cirque, U-shaped and hanging valleys, arête, horn, moraine, esker, kame, drumlin and outwash plain; distinguish erosional and depositional forms.
 
 ### 4.8. Aeolian Landforms
 
@@ -574,7 +574,7 @@ The main processes are **deflation** (removal of loose material by wind), **abra
 
 Typical landforms include dunes, barchans, longitudinal and transverse sand ridges, deflation hollows and loess deposits. Dune shape depends on wind regime, sand supply, moisture and vegetation. A **barchan** is usually crescent-shaped, with its horns pointing downwind; it forms where sand supply is limited and one wind direction prevails. **Transverse dunes** form ridges roughly across the prevailing wind and commonly require abundant sand. **Longitudinal dunes** are elongated roughly parallel to the resultant wind direction. **Deflation hollows** form where loose material is removed by wind, while **loess** consists of wind-transported silt deposits.
 
-**[ILLUSTRATION PLACEHOLDER 4.8-A]** Compare a barchan, longitudinal and transverse dunes, and a deflation hollow; add prevailing-wind arrows and note the role of sand supply.
+**[ILLUSTRATION PLACEHOLDER 4.8-A]** Compare a barchan, longitudinal and transverse dunes, a deflation hollow and a loess deposit; add prevailing-wind arrows and note the role of sand supply.
 
 ### 4.9. Karst Landforms
 
@@ -605,7 +605,7 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 
 Major submarine features include the **continental shelf**, a relatively shallow submerged margin of a continent; the **continental slope**, a steeper descent towards the deep ocean; the **continental rise**, a sediment accumulation zone near the base of the slope (where present); **abyssal plains**, extensive deep-ocean areas with low gradients; **mid-ocean ridges**, long submarine mountain systems associated with the formation of new oceanic crust; **deep-sea trenches**, narrow deep depressions often associated with subduction; **Seamounts** are isolated elevations on the ocean floor, often of volcanic origin; **volcanic plateaus** are extensive submarine surfaces built by accumulated lava.
 
-**[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated coastal and ocean-basin profiles with erosional/depositional coasts, shelf, slope, rise, abyssal plain, ridge and trench.
+**[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated erosional/depositional coastal profiles and an ocean-basin cross-section with shelf, slope, rise, abyssal plain, mid-ocean ridge, trench and seamount.
 
 ### 4.11. Slope Processes and Denudation
 
@@ -636,7 +636,7 @@ Slope steepness alone cannot reliably predict a landslide. Slope-hazard assessme
 
 **Learning activity.** Compare two hypothetical slopes with the same steepness: one has competent bedrock and managed drainage; the other has fractured water-saturated deposits and an undercut toe. List the additional data needed to compare their stability. Do not assign a numerical probability without a model and supporting data.
 
-**[ILLUSTRATION PLACEHOLDER 4.11-A]** Compare landslide, rockfall, scree, soil creep and debris flow; show movement direction and possible triggers without implying exact prediction.
+**[ILLUSTRATION PLACEHOLDER 4.11-A]** Compare a fall, topple, rotational and translational slide, lateral spread, debris flow, talus accumulation and soil creep; show movement direction and possible triggers without implying exact prediction.
 
 ### 4.12. Weathering
 
