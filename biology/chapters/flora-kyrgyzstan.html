@@ -30,7 +30,7 @@ html[lang="en"] .image-generation-note .en{display:block}
 </head>
 <body>
 <a class="skip-link" href="#main-content"><span class="ru">Перейти к основному содержанию</span><span class="en">Skip to main content</span></a>
-<header class="top"><a class="brand" href="../index.html">Atlas of Biology</a><button id="lang" type="button" aria-label="Switch language">EN</button></header>
+<header class="top"><a class="brand" href="../index.html">Atlas of Biology</a><button id="lang" type="button">EN</button></header>
 <main id="main-content">
 <div class="crumb"><a href="../index.html">ATLAS OF BIOLOGY</a> / <a href="botany.html"><span class="ru">БОТАНИКА</span><span class="en">BOTANY</span></a> / REGIONAL ATLAS</div>
 <section class="hero">
@@ -64,7 +64,7 @@ html[lang="en"] .image-generation-note .en{display:block}
 </svg>
 <p class="caption"><span class="ru">Схема концептуальная: высотные границы условны и меняются по регионам.</span><span class="en">Conceptual diagram: elevation limits are indicative and vary by region.</span></p>
 </div>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="Прокручиваемая таблица / Scrollable data table" tabindex="0"><table>
 <thead><tr><th><span class="ru">Пояс</span><span class="en">Belt</span></th><th><span class="ru">Ориентировочная среда</span><span class="en">Typical setting</span></th><th><span class="ru">Характерная растительность</span><span class="en">Characteristic vegetation</span></th></tr></thead>
 <tbody>
 <tr><td><span class="ru">Предгорья</span><span class="en">Foothills</span></td><td><span class="ru">Тёплые, часто засушливые долины и нижние склоны</span><span class="en">Warm, often dry valleys and lower slopes</span></td><td><span class="ru">Полупустынные сообщества, полыни, эфемеры и степные злаки</span><span class="en">Semi-desert communities, wormwoods, ephemerals and steppe grasses</span></td></tr>
@@ -230,7 +230,7 @@ html[lang="en"] .image-generation-note .en{display:block}
 </section>
 
 <div class="callout"><strong><span class="ru">Новые методы: цифровой гербарий и ДНК-штрихкодирование.</span><span class="en">New methods: digital herbarium and DNA barcoding.</span></strong> <span class="ru">14 октября 2026 года Институт биологии НАН КР сообщил о перспективах оцифровки до 200 000 гербарных образцов, молекулярного анализа отдельных образцов и создания базы DNA barcodes. Эти методы помогают проверять спорные определения и уточнять состав флоры; они не заменяют морфологическую экспертизу, ваучерные образцы и опубликованные таксономические ревизии.</span><span class="en">On 14 October 2026, the Institute of Biology of the National Academy of Sciences of the Kyrgyz Republic reported plans to digitize up to 200,000 herbarium specimens, conduct molecular analyses of selected specimens and develop a DNA-barcode reference database. These methods can help resolve uncertain identifications and refine floristic inventories; they complement rather than replace morphological expertise, voucher specimens and published taxonomic revisions.</span></div>
-<li><a href="https://ibnaskr.org/urumqi-scientific-cooperation-2026/" target="_blank" rel="noopener">Institute of Biology, NAS KR (14 October 2026) — scientific cooperation with Urumqi</a> <span class="ru">(оцифровка гербария, ДНК-штрихкодирование, мониторинг редких видов и eDNA)</span><span class="en">(herbarium digitization, DNA barcoding, rare-species monitoring and eDNA)</span>.</li>
+<ul class="sources"><li><a href="https://ibnaskr.org/urumqi-scientific-cooperation-2026/" target="_blank" rel="noopener">Institute of Biology, NAS KR (14 October 2026) — scientific cooperation with Urumqi</a> <span class="ru">(оцифровка гербария, ДНК-штрихкодирование, мониторинг редких видов и eDNA)</span><span class="en">(herbarium digitization, DNA barcoding, rare-species monitoring and eDNA)</span>.</li></ul>
 <div class="field-protocol" id="flora-field-record-protocol">
 <h3><span class="ru">Полевой протокол: как оформить наблюдение растения</span><span class="en">Field protocol: how to document a plant observation</span></h3>
 <p><span class="ru">Хорошая запись — это не просто фотография с названием. Она позволяет другому исследователю понять, где, когда и в каких условиях найдено растение, а также насколько надёжно оно определено.</span><span class="en">A useful record is more than a photograph with a name. It lets another researcher understand where, when and under what conditions a plant was observed, and how confidently it was identified.</span></p>
@@ -318,6 +318,6 @@ html[lang="en"] .image-generation-note .en{display:block}
 </main>
 <footer><span>ATLAS OF BIOLOGY · REGIONAL FLORA</span><span>RU / EN · KYRGYZSTAN</span></footer>
 <script>
-let lang="ru";const btn=document.getElementById("lang");function setLang(){document.documentElement.lang=lang;btn.textContent=lang==="ru"?"EN":"RU";btn.setAttribute("aria-label",lang==="ru"?"Переключить язык":"Switch language")}btn.addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";setLang()});setLang();
+let lang="ru";const btn=document.getElementById("lang");function setLang(){document.documentElement.lang=lang;btn.textContent=lang==="ru"?"EN":"RU";btn.setAttribute("aria-label",lang==="ru"?"EN — переключить на английский":"RU — switch to Russian")}btn.addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";setLang()});setLang();
 </script>
 </body></html>
