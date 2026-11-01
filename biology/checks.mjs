@@ -936,6 +936,11 @@ if (!faunaKyrgyzstanFile.includes("ISSYK-KUL · DEMOISELLE CRANE MIGRATION · AU
   errors.push("2026 Issyk-Kul Demoiselle Crane aggregation must retain its source, approximate count and non-population scope");
 }
 
+const systematicsPage = fs.readFileSync(path.join(root, "chapters/systematics.html"), "utf8");
+if (!systematicsPage.includes('<div class="output" id="name-output" aria-live="polite">')) {
+  errors.push("chapters/systematics.html: dynamic species-name output must expose a polite live region");
+}
+
 const externalReviewPacket = fs.readFileSync(path.join(root, "EXTERNAL_REVIEW_PACKET.md"), "utf8");
 for (const phrase of [
   "### G4 — Scientific review",
