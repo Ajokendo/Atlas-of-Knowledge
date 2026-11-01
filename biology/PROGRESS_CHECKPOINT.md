@@ -838,3 +838,13 @@ Older checkpoint entries below this note contain historical planning language th
 - CI #537 passed on `fc83b29988e93128d57dc032cdafd6e430a7db83`: 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons; all Chromium checks passed at mobile and desktop widths; 30 language-toggle interactions; 21,477 sampled text instances with zero below-threshold instances; no uncaught page errors.
 - The above is a representative automated keyboard/model-state audit, not exhaustive activation of every control. Full tab-order traversal, comprehensive screen-reader testing with assistive technology and physical-device/browser matrix testing remain open.
 - Controlled editorial readiness remains **95/100**. G4 and G5 internal audits remain closed at 4/4 blocks each. The 52 visual assets remain deferred; shared-portal feedback integration remains separate, and feedback intake remains disabled until secure end-to-end checks and owner approval.
+
+
+## 2026-11-02 — dynamic announcement and toggle-state semantics
+
+- Added a Chromium regression check on all 13 Biology pages for dynamic model outputs and feedback containers. Elements with IDs ending in `-output`, plus quiz feedback/result, the landing-page organelle description and Botany photo status, must expose `aria-live="polite|assertive"` or an appropriate `role="status|alert"`.
+- Added a structural check that every button using `aria-pressed` exposes the valid machine-readable values `true` or `false`.
+- CI #539 (ID `41346858103`) passed on `85321b92b934ae90ddfbe4772999af776cec106a`. It validated 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons; Chromium passed on all 13 pages at mobile and desktop widths, with 30 language-toggle interactions, no uncaught page errors and 21,477 sampled text instances with zero below-threshold results.
+- The new checks confirm the defined DOM-level live-region and pressed-state semantics. They do not prove that every screen reader announces changes correctly or that every toggle has an appropriate interaction model; assistive-technology testing remains open.
+- Current accessibility stage: automated structural/live-region/toggle semantics **100% for the defined checks**. Keyboard activation coverage is representative and expanded, but not exhaustive. Full keyboard traversal, hands-on screen-reader testing and physical-device/browser matrix testing remain open.
+- Controlled editorial readiness remains **95/100**. G4/G5 internal audits remain closed at 4/4 planned blocks each. The 52 planned visual assets remain deferred; shared-portal feedback integration remains separate and feedback intake stays disabled until secure end-to-end checks and owner approval.
