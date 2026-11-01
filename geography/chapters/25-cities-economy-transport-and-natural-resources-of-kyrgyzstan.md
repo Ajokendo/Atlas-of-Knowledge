@@ -78,6 +78,8 @@ International assessments also distinguish short-term growth drivers from long-t
 The Cabinet of Ministers' 2026 action plan for implementing the National Development Programme to 2030 identifies four directions: industrialisation, development of the country as a regional hub, agriculture and tourism, and green energy. These are policy objectives, not proof of achieved results. Progress should be assessed using annual indicators and independent data.
 
 ## 25.3. Городская система Кыргызстана / The Urban System of Kyrgyzstan
+> **[МЕТКА ИЛЛЮСТРАЦИИ 25-A / IMAGE PLACEHOLDER 25-A]** Карта-схема городской системы Кыргызстана: Бишкек и Ош, областные центры, Манас (бывший Джалал-Абад), функциональные города и основные связи. Границы и статус населённых пунктов сверить с актуальными официальными геоданными.
+
 
 Города Кыргызстана различаются по масштабу, функциям, историческому происхождению и положению в транспортной сети. Бишкек и Ош — крупнейшие города республиканского значения. Другие города выполняют областные, районные, промышленные, транспортные, туристические и приграничные функции.
 
@@ -223,6 +225,8 @@ Kyrgyzstan's cities differ in size, functions, historical origins and position w
 **Digital economy and services.** Bishkek and Osh concentrate many education, financial, medical and business services. Digital platforms can extend services beyond major cities, but require reliable internet, digital literacy, data protection, payment infrastructure and skilled workers. High-tech services do not need the same location pattern as heavy industry, but depend on education, the rule of law, reliable electricity and access to international markets.
 
 ## 25.5. Транспортная география / Transport Geography
+> **[МЕТКА ИЛЛЮСТРАЦИИ 25-B / IMAGE PLACEHOLDER 25-B]** Схема транспортной сети: основные автодороги, действующие железнодорожные участки, аэропорты и пункты пропуска; строящуюся железную дорогу Китай — Кыргызстан — Узбекистан показать отдельным условным знаком с подписью «строительство», не как действующую линию.
+
 
 Транспортная система Кыргызстана опирается прежде всего на автомобильные перевозки: горный рельеф и рассредоточенность поселений делают дороги основой внутренней связности. По публикации Национального статистического комитета от 25 октября 2026 года, в 2025 году автомобильным транспортом было перевезено более 62 млн тонн грузов — свыше 80% общего объёма грузоперевозок; на автобусы и такси приходилось более 90% пассажирских перевозок. Эти доли относятся к статистическому учёту перевозок за 2025 год и не должны автоматически смешиваться с более высокими долями (до 96% грузов и 98% пассажиров), приводимыми в материалах Министерства транспорта для дорожной сети: определения охвата и методики могут различаться. Общая дорожная сеть оценивается примерно в 34 тыс. км, включая дороги общего пользования, городские, сельские и ведомственные дороги; для сопоставления протяжённости необходимо указывать категорию дорог, дату и источник.
 
@@ -318,6 +322,8 @@ Kyrgyzstan's energy system relies on hydropower, thermal generation, electricity
 **Renewables and efficiency.** Solar and wind power can complement hydropower where resource conditions and grid connections are suitable. Further opportunities include small hydropower, grid modernisation, storage, demand management, building insulation and efficient heating. Installed capacity alone is not enough to assess a project: capacity factor, seasonal generation profile, grid constraints, storage costs, environmental effects and supply reliability must also be considered.
 
 ## 25.7. Минеральные и другие природные ресурсы / Mineral and Other Natural Resources
+> **[МЕТКА ИЛЛЮСТРАЦИИ 25-C / IMAGE PLACEHOLDER 25-C]** Карта минеральных ресурсов: месторождения и районы добычи с раздельными обозначениями действующих объектов, разведанных запасов и перспективных участков; не изображать лицензии как доказательство фактической добычи.
+
 
 Кыргызстан обладает месторождениями золота, серебра, угля, сурьмы, ртути, олова, вольфрама, редких и цветных металлов, нерудных строительных материалов, а также значительными водными, земельными и рекреационными ресурсами. Геологический потенциал не равен экономически извлекаемым запасам: для каждого месторождения необходимо различать прогнозные ресурсы, разведанные запасы, лицензированные участки, действующую добычу и экономически обоснованные извлекаемые объёмы.
 
@@ -337,6 +343,10 @@ Kyrgyzstan's energy system relies on hydropower, thermal generation, electricity
 
 Известняк, гипс, глина, песок, гравий, щебень и другие материалы используются в строительстве и инфраструктуре. Их добыча может оказывать существенное воздействие на речные русла, склоны, ландшафты и населённые пункты. Карьеры должны иметь разрешения, планы рекультивации и контроль пылевых выбросов.
 
+### Состояние горнодобывающего сектора: административные показатели 2025 года
+
+По итогам 2025 года Министерство природных ресурсов сообщило о восьми крупных проектах, введённых в эксплуатацию в 2024–2025 годах; 2 014 действующих лицензиях на пользование недрами; аннулировании 320 лицензий за нарушения в 2023–2025 годах; поступлениях в бюджет от отрасли в размере 65,4 млрд сомов за 2025 год. Министерство также сообщило о добыче 141 тонны золота за пять лет. Эти показатели описывают масштаб регулирования и бюджетные поступления, но не заменяют статистику физической добычи по отдельным видам сырья. Количество лицензий не равно числу действующих рудников, а бюджетные поступления нельзя трактовать как стоимость добытой продукции.
+
 ### Водные, земельные и биологические ресурсы
 
 Вода — стратегический ресурс для энергетики, сельского хозяйства, городов и экосистем. Земельные ресурсы включают пашню, пастбища, сенокосы, лесные и другие категории земель. Биологические ресурсы — леса, лекарственные растения, рыба и дикие виды — требуют учёта воспроизводимости и природоохранных ограничений.
@@ -353,9 +363,15 @@ Kyrgyzstan has deposits of gold, silver, coal, antimony, mercury, tin, tungsten,
 
 **Non-metallic resources and construction materials.** Limestone, gypsum, clay, sand, gravel, crushed stone and other materials support construction and infrastructure. Extraction may affect river channels, slopes, landscapes and settlements. Quarries require permits, rehabilitation plans and dust-emission controls.
 
+### Mining-sector snapshot: administrative indicators for 2025
+
+In its review of 2025, the Ministry of Natural Resources reported that eight major projects had been commissioned in 2024–2025; 2,014 subsoil-use licences were active; 320 licences had been cancelled for violations during 2023–2025; and sector-related budget receipts reached KGS 65.4 billion in 2025. The Ministry also reported 141 tonnes of gold extracted over five years. These figures describe the scale of regulation and fiscal receipts; they do not replace physical production statistics by commodity. The number of licences is not the number of operating mines, and budget receipts must not be interpreted as the value of mineral output.
+
 **Water, land and biological resources.** Water is strategic for energy, agriculture, cities and ecosystems. Land resources include arable land, pastures, hayfields, forests and other categories. Biological resources—forests, medicinal plants, fish and wild species—must be managed according to regeneration rates and conservation limits. Pastures are not an unlimited resource: productivity depends on vegetation, soils, watering points, seasonal grazing pressure and climate change. Forests have ecological, water-protection, soil-protection and economic value.
 
 ## 25.8. Природный капитал и экологические издержки / Natural Capital and Environmental Costs
+> **[МЕТКА ИЛЛЮСТРАЦИИ 25-D / IMAGE PLACEHOLDER 25-D]** Инфографика природного капитала и экологических издержек: водные бассейны, пастбища, леса, горнодобывающие районы, карьеры и основные типы экологической нагрузки.
+
 
 Природный капитал — совокупность экосистем, земель, вод, полезных ископаемых и природных процессов, обеспечивающих общество ресурсами и экосистемными услугами. В горной стране экономическая оценка должна учитывать не только добываемое сырьё, но и функции водосбора, регулирование стока, защиту от эрозии, сохранение биоразнообразия и климатическую устойчивость.
 
@@ -850,6 +866,9 @@ All visual materials must be based on verified geospatial data and statistics. G
 15. UN Tourism. Sustainable tourism and destination-management resources. https://www.unwto.org/
 16. Cabinet of Ministers of the Kyrgyz Republic. Meeting on preparations for the 2026–2027 autumn–winter period, 9 October 2026 (expected electricity consumption, domestic generation and imports). https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-tapsyrmalardy-berdi
 17. Kabar News Agency. Minister of Energy's report to the parliamentary committee on electricity imports as of 15 October 2026, 19 October 2026. https://kabar.kg/news/kyrgyzstan-29-mlrd-kvtsaat-elektr-energiyasyn-importtodu/
+18. National Statistical Committee of the Kyrgyz Republic. “Road transport and road sector: facts and figures”, 25 October 2026 (2025 freight and passenger transport data). https://stat.gov.kg/ru/news/avtomobilnyj-transport-i--dorozhnoe-hozyajstvo-cifry-i-fakty/
+19. Ministry of Transport and Communications of the Kyrgyz Republic. “Works on tunnel excavation are underway on the Kyrgyzstan–China–Uzbekistan railway” (project construction status and engineering parameters). https://mtd.gov.kg/на-железной-дороге-кыргызстан-китай/
+20. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. “Results of 2025 reviewed at the Ministry of Natural Resources”, 12 February 2026 (licences, projects, budget receipts and gold extraction). https://www.mnr.gov.kg/en/posts/news/v-ministerstve-prirodnyx-resursov-podvedeny-itogi-2025-goda
 
 ---
 **Конец главы 25 / End of Chapter 25**
