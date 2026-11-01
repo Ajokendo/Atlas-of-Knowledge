@@ -66,8 +66,8 @@ export function fluxScene(t) {
 export const LENZ = { a: 0.05, near: 0.03, far: 0.25, run: 2.6, R: 0.01 };
 LENZ.v = (LENZ.far - LENZ.near) / LENZ.run;
 export const CASES = [
-  { key: 'nIn', pole: 'N', move: 'in', name: 'N pole approaching' },
-  { key: 'nOut', pole: 'N', move: 'out', name: 'N pole leaving' },
+  { key: 'nIn', pole: 'N', move: 'in', name: 'Северный полюс приближается' },
+  { key: 'nOut', pole: 'N', move: 'out', name: 'Северный полюс удаляется' },
   { key: 'sIn', pole: 'S', move: 'in', name: 'Южный полюс приближается' },
   { key: 'sOut', pole: 'S', move: 'out', name: 'Южный полюс удаляется' },
 ];
