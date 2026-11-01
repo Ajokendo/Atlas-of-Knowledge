@@ -272,6 +272,174 @@ Migration is a change in a person's usual place of residence. A trip, daily comm
 
 **Activity.** Calculate net migration and the rate per 1,000 residents for two regions. Explain why the same net balance can have different effects on age structure and the labour market.
 
+## English-language chapter text
+
+### 9.1. Population as an Object of Geographical Study
+
+Population is the group of people living in a particular territory at a specific point in time. Demography studies population size, composition, distribution and reproduction. Population geography examines the spatial differences in these processes and their relationships with natural, social, economic and political conditions.
+
+Demographic data always refer to a defined territory, date and statistical definition of population. Usual residents, present population, citizens, registered residents and people physically present are not necessarily the same group. Comparisons between countries and regions require checking the methods used.
+
+Main sources include population censuses; current registration of births and deaths; administrative registers; household surveys and sample studies; estimates and projections from national statistical offices and international organisations; and geospatial data or remote sensing used to analyse settlement.
+
+A census aims to enumerate the entire population during a specified period using consistent rules. Between censuses, population size is usually estimated from births, deaths and migration. Statistical quality depends on coverage, timely registration, response accuracy and transparent methods.
+
+### 9.2. Population Size and Change
+
+The size of a population changes through natural change and migration. A basic demographic equation is:
+
+P(t+1) = P(t) + B − D + I − E
+
+where P(t) is the population at the start of the period, B is births, D is deaths, I is arrivals and E is departures. In real statistics, boundary changes, accounting adjustments and revisions may also be relevant.
+
+**Natural increase** is the difference between births and deaths during a period. If deaths exceed births, natural decrease occurs. **Net migration** is arrivals minus departures. Total population change includes both components.
+
+Absolute change should not be confused with the growth rate. The growth rate expresses relative change over a period. Relative indicators, such as rates per 1,000 residents, are useful when comparing territories of different sizes.
+
+### 9.3. Births and Fertility
+
+Birth rate describes the actual number of births in a population during a given period. The **crude birth rate (CBR)** is calculated as annual live births divided by the mid-year population and multiplied by 1,000:
+
+CBR = (B / Pmid) × 1,000
+
+The result is expressed per thousand (‰).
+
+The crude rate depends not only on reproductive behaviour but also on age structure. A population with a large share of people of reproductive age may have a higher crude birth rate even when age-specific fertility rates are similar.
+
+The **total fertility rate (TFR)** is the hypothetical average number of children a woman would have over her reproductive lifetime if she experienced the age-specific fertility rates observed in the given period at every age. It is a synthetic period indicator, not a prediction of the actual number of children a particular woman will have.
+
+A TFR of about 2.1 is often used as an approximate replacement-level benchmark in low-mortality populations without migration, but the precise level depends on mortality, the sex ratio at birth and other conditions. It is not a universal constant for every society.
+
+Fertility is influenced by age at marriage or partnership, education, employment, access to health care and contraception, housing and child-rearing costs, family norms, urbanisation and public policy.
+
+### 9.4. Mortality and Life Expectancy
+
+The **crude death rate (CDR)** is the number of deaths per year per 1,000 people in the mid-year population:
+
+CDR = (D / Pmid) × 1,000
+
+It depends on age structure. An ageing population may have a higher crude death rate even when age-specific mortality risks are low. Age-specific rates and standardised indicators are therefore used for comparisons between countries.
+
+Infant mortality is commonly measured as deaths of children under one year of age per 1,000 live births during the relevant period. The exact definition and calculation method must be stated.
+
+**Life expectancy at birth** is the average number of years a hypothetical newborn would live if the age-specific mortality rates of the observed period remained constant throughout their life. It is a life-table measure, not a prediction of how long a particular person will live.
+
+Mortality and life expectancy are influenced by nutrition, sanitation, safety, income, education, working conditions, access to health care, epidemics, wars and environmental conditions.
+
+### 9.5. Natural Change and Population Reproduction
+
+Population reproduction is the continuous renewal of generations through births and deaths. **Expanded reproduction** occurs when successive generations increase in size; **simple reproduction** occurs when generations replace one another; and **contracted reproduction** occurs when later generations are smaller than earlier ones.
+
+Demographic indicators should not be interpreted in isolation. High fertility combined with high mortality may produce only moderate growth, while declining mortality with persistently high fertility usually accelerates population growth.
+
+Cohort analysis follows a group of people who share an event or birth period over time. It helps distinguish changes in the behaviour of generations from temporary fluctuations in indicators.
+
+### 9.6. Demographic Transition
+
+The demographic transition model describes long-term changes in fertility and mortality during socio-economic transformation. A simplified version identifies several stages:
+
+1. **Traditional regime:** high fertility and high mortality, with substantial fluctuations in population size.
+2. **Early transition:** mortality falls due to improved nutrition, sanitation and health care, while fertility remains high; population growth accelerates.
+3. **Late transition:** fertility begins to decline and growth gradually slows.
+4. **Low levels:** fertility and mortality are relatively low; population may grow slowly, stabilise or decline.
+5. **Possible prolonged low-fertility stage:** fertility remains below replacement level, ageing intensifies and natural decrease becomes more likely.
+
+The number and names of stages vary among versions of the model. It is an analytical framework, not a universal law: wars, epidemics, migration, public policy and cultural factors can change demographic trajectories.
+
+### 9.7. Age and Sex Structure
+
+Age structure shows the distribution of a population across age groups; sex structure shows the balance of males and females. Both affect labour markets, demand for education and health care, pension systems and future population dynamics.
+
+Three broad age groups are often used: children and adolescents, the working-age population and older people. Working-age boundaries depend on legislation and methodology. International comparisons should therefore state the exact intervals, for example 0–14, 15–64 and 65 years and over.
+
+An **age-sex pyramid** displays population by age and sex. A broad base suggests a relatively high share of children and younger generations; a narrow base may indicate declining fertility; a wider upper section indicates a growing share of older people; and dents or bulges may reflect wars, migration, fertility crises or statistical issues.
+
+A population pyramid reflects not only fertility and mortality but also migration, historical events and statistical errors. It is useful to compare several dates and examine absolute numbers alongside percentages.
+
+### 9.8. Population Ageing and Dependency
+
+Population ageing is an increase in the share and/or number of older people. It may result from declining fertility, rising life expectancy and migration of younger age groups.
+
+The **age dependency ratio** is often calculated as the population in younger and older conventionally dependent age groups divided by the population in the conventionally working-age group. It is expressed as the number of dependants per 100 people aged 15–64, using the selected age bands.
+
+This is an age-based indicator, not a measure of actual economic dependency: not everyone of working age is employed, and some older people continue to work.
+
+Ageing requires adaptation in health care, long-term care, pensions, transport and the built environment. A young age structure, in turn, creates demand for schools, jobs, housing and family services.
+
+### 9.9. Migration: Concepts and Types
+
+Migration is the movement of people involving a change in their place of residence or usual residence for a defined period. Statistical definitions of internal and international migration may differ in the required duration of residence and in the criterion used for crossing an administrative or national boundary.
+
+Main types include internal and international; temporary, seasonal and permanent; voluntary and forced; labour, educational, family-related and lifestyle migration; and return and repeat migration.
+
+Not every movement is migration in the statistical sense: commuting, tourism and short visits are usually counted separately. Forced displacement includes situations in which people leave their homes because of conflict, persecution, violence, natural disasters or other threats. Refugee status is defined by international and national law and is not a synonym for every migrant.
+
+### 9.10. Drivers and Consequences of Migration
+
+Migration is often analysed through a combination of push and pull factors. Push factors may include unemployment, low incomes, conflict, insecurity, environmental risks and limited services. Pull factors may include jobs, education, safety, family ties, higher incomes and access to infrastructure.
+
+This distinction simplifies a complex reality. A decision to move also depends on household resources, social networks, transport access, legal status, personal circumstances and perceptions of opportunity.
+
+Migration may change the age and skill structure of regions; support household incomes through remittances; promote the exchange of knowledge and skills; create labour shortages in particular sectors or areas; increase pressure on housing, transport and social services in fast-growing centres; separate families and create social costs; and form transnational communities and cultural connections.
+
+Consequences differ for places of origin, destinations, migrants themselves and their families. Migration should not be treated as exclusively positive or negative.
+
+### 9.11. Population Distribution and Density
+
+Population is distributed very unevenly across Earth. Its distribution is influenced by climate, relief, water availability, soils, natural resources, transport, settlement history, safety, economic opportunities and political decisions.
+
+**Arithmetic population density** is the population divided by the area of a territory:
+
+D = P / A
+
+where D is density, P is population and A is area. It is usually expressed as people per square kilometre.
+
+Average density can conceal sharp internal contrasts. More detailed analysis may use density per inhabited area, agricultural area, regular grid cell or local administrative unit. Total national area must be distinguished from land that is actually suitable for or used for settlement.
+
+Major population concentrations historically developed in areas with favourable agricultural conditions, river valleys, coasts, industrial centres and transport corridors. Large deserts, high mountains, polar regions and remote areas are generally more sparsely populated, although local settlement centres exist there as well.
+
+### 9.12. Rural and Urban Population
+
+Rural population lives in settlements and areas classified as rural by national statistics. Urban population is defined by national criteria, which may include population size, density, employment, administrative status and infrastructure. Urban shares are therefore not always directly comparable between countries.
+
+International comparisons also use functional and geospatial approaches that consider built-up density and connections between settlements. Every urbanisation indicator should state how an “urban area” is defined.
+
+Rural settlements differ in size, function, remoteness and relationship with agriculture. Urban settlements may perform administrative, industrial, transport, educational, financial and cultural functions.
+
+### 9.13. Urbanisation and Urban Agglomerations
+
+Urbanisation is the increase in the share of urban population, the expansion of urban areas and the growing role of urban lifestyles and functions. It is associated with industrialisation, changes in employment, migration, natural increase and the administrative reclassification of settlements.
+
+An **urban agglomeration** is a compact system consisting of a city and connected settlements linked by intensive commuting, transport and economic relationships. Administrative city boundaries often do not match the actual urban area.
+
+Large agglomerations can create economies of concentration, including access to labour markets, education, health care, innovation and infrastructure. They may also face traffic congestion, high housing costs, air pollution, inequality, flood risks and urban overheating.
+
+Sustainable urban planning includes public transport, affordable housing, mixed land use, green infrastructure, catchment protection, waste management and public participation.
+
+### 9.14. Population Policy and Human Development
+
+Population policy is the set of public and social measures that influence demographic processes and people's living conditions. It may address maternal and child health, reproductive health, family support, education, employment, migration, ageing and regional development.
+
+Effective policy is based on human rights, access to services, reliable evidence and voluntary choice. Coercive interference in reproductive decisions violates rights and may cause serious social harm.
+
+Human development is broader than economic growth. It includes health, education, a decent standard of living, opportunities for participation in society and equality of opportunity. The **Human Development Index (HDI)** combines life expectancy, education and income per capita using an established method. It is useful for comparisons but does not capture every aspect of well-being and should not be treated as a complete assessment of a society.
+
+### 9.15. Population Projections and Uncertainty
+
+Population projections are based on assumptions about future fertility, mortality and migration. The cohort-component method moves age groups forward through time, accounting for survival, births and migration flows.
+
+Projections usually include several scenarios, such as low, medium and high variants. They are not exact predictions: uncertainty increases with the length of the projection horizon. Migration, crises, epidemics, conflict and rapid changes in reproductive behaviour are particularly difficult to predict.
+
+When reading a projection, check the base year and population coverage; assumptions about fertility, mortality and migration; uncertainty ranges and scenarios; publication date and possible revisions; and comparability with earlier projections.
+
+### 9.16. Demographic Data, Ethics and Visualisation
+
+Demographic maps and charts should show not only numbers but also definitions, reference periods, territorial units and sources. Relative indicators are useful when comparing absolute values, but they also require an appropriate denominator.
+
+Choropleth maps of administrative units may visually exaggerate large, sparsely populated areas. Regular-grid or dot-density maps may better represent spatial concentration, but require assessment of geocoding quality and privacy protection.
+
+Data about small groups may make individuals indirectly identifiable. Detailed statistical publication must therefore consider privacy, consent, aggregation and statistical confidentiality rules. Geographic precision must not come at the cost of revealing personal information.
+
 ## 9.17. Итоги главы / Chapter Summary
 
 1. Демография изучает численность, состав и воспроизводство населения, а география населения раскрывает пространственные различия этих процессов.
