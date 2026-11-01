@@ -9,8 +9,8 @@
 ## Gate status
 
 - **G1–G3:** closed; the recorded GitHub Actions run #41275274366 passed the static and Chromium checks for its tested commit. The bilingual structural parity audit was also covered by run #41275876545.
-- **G4:** open — internal scientific audit conducted by the project team; external independent peer review is not a required completion gate.
-- **G5:** open — internal editorial and bilingual audit conducted by the project team.
+- **G4:** closed — internal scientific audit completed (4/4 planned blocks, 100%); unresolved source-level questions remain explicitly qualified/deferred, not an external-review gate.
+- **G5:** closed — internal editorial and bilingual audit completed (4/4 planned blocks, 100%); external professional review is optional, not a completion requirement.
 - **Portal feedback:** cross-project integration is a separate portal-level task; feedback intake must remain disabled until the portal is complete, security/technical checks pass, and the owner is ready to invite teachers.
 - **G6:** closed as an explicit deferral decision only. All 52 visual assets remain deferred; no image is represented as generated or integrated.
 
@@ -795,13 +795,13 @@
 ## 2026-11-02 — correction to Biology completion gates (agreed project model)
 
 - This note supersedes earlier checkpoint wording that described independent external scientific review or qualified external sign-off as mandatory.
-- **G4 is the internal scientific audit** performed by the project team: verify factual/scientific claims, sources, terminology, school-level accuracy and important caveats; correct confirmed errors in the Biology branch.
-- **G5 is the internal editorial and bilingual audit** performed by the project team: clarity, structure, consistency, Russian/English parity and terminology.
-- Independent external scientific peer review is not a required completion gate and must not be reported as outstanding.
+- **G4 is the internal scientific audit** performed by the project team. The four planned author-side blocks are complete (4/4, 100%); source gaps and taxonomic questions that cannot be settled from published evidence remain explicitly qualified/deferred in the audit record.
+- **G5 is the internal editorial and bilingual audit** performed by the project team. The four planned author-side blocks are complete (4/4, 100%); structural parity checks and editorial corrections are recorded.
+- Independent external scientific or professional bilingual review may be sought as optional consultation, but is not a required completion gate and must not be reported as outstanding.
 - The portal feedback system is a separate cross-project integration stage. Biology's feedback standard/template is already prepared in this branch; shared portal integration must be done only in the authorized portal work area, not by editing shared portal files from this subject branch.
 - Feedback submission remains disabled until portal integration, privacy/security and end-to-end technical checks are complete and the owner is ready to invite teachers.
 - Teacher feedback after portal completion is a pedagogical pilot/user-feedback stage, not a substitute label for formal independent scientific peer review.
-- The 95/100 controlled editorial readiness score is unchanged by this clarification. The 52 visual assets remain deferred; their disposition is tracked separately.
+- The 95/100 controlled editorial readiness score is unchanged by this gate correction. The 52 visual assets remain deferred; accessibility/device checks and portal feedback integration remain separately tracked.
 - CI run #509 (ID `41344278173`) passed on commit `dd8d0c9ff0bac76f0418e860c7c4698406a3fac0`; all listed validation and Chromium steps completed successfully.
 
 
@@ -814,3 +814,12 @@
 - CI #511 (ID `41344848589`) and CI #512 (ID `41344894067`) completed successfully. CI #512 validated 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons; Chromium passed on all 13 pages at mobile and desktop widths, with 26 language-toggle interactions, no uncaught page errors, and 21,477 sampled text instances with zero below-threshold results.
 - Accessible-name/custom-button automated check: 100% for the defined DOM checks across the tested pages. Full keyboard traversal, exhaustive control activation, browser accessibility-tree review, screen-reader testing and physical-device testing remain open.
 - Controlled editorial readiness remains 95/100. G4/G5 are the internal scientific and editorial/bilingual audits; independent external peer review is not a mandatory gate.
+
+
+## 2026-11-02 — G4/G5 internal audit gates closed
+
+- Read back the completed author-side audit records: G4 scientific audit reports all four planned blocks complete (4/4, 100%); G5 editorial/bilingual audit reports all four planned blocks complete (4/4, 100%).
+- G4 and G5 are therefore closed under the agreed internal-audit model. This does not erase unresolved source limitations: disputed taxonomic identifications, incomplete field records and source discrepancies remain explicitly qualified or deferred in the chapters/audit records. External specialists may be consulted later, but their sign-off is not a prerequisite.
+- G5's structural parity audit reports 1,147 Russian and 1,147 English blocks, with matching numeric-token multisets and scientific-name sets in its measured scope. This is not a claim that every sentence has been independently professionally translated.
+- Optional independent-review documents are retained as reference material only; no reviewer recruitment or external sign-off is required for project completion.
+- Controlled editorial readiness remains 95/100. Remaining work is tracked separately: 52 deferred visual assets, further accessibility/keyboard/screen-reader/device checks, and shared-portal feedback integration with secure intake disabled until approved.
