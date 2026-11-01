@@ -12,24 +12,9 @@ async function walk(dir) {
   }
 }
 await walk(root);
-const browser = await chromium.launch({ headless: true });
-const errors = [];
-let languageChecks = 0;
-let contrastSamples = 0;
-let contrastFailures = 0;
-try {
-  for (const viewport of [{ width: 390, height: 844 }, { width: 1365, height: 900 }]) {
-    const page = await browser.newPage({ viewport });
-    let current = "";
-    page.on("pageerror", e => errors.push(current + ": " + e.message + " | " + e.stack));
-    for (const file of pages) {
-      current = file;
-      const response = await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
-      if (!response || !response.ok()) errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
 
-      // Preliminary WCAG 2.2 contrast sampling for visible, ordinary DOM text.
-      // Background images/gradients and translucent layered effects are excluded from this automated pass.
-      const contrast = await page.evaluate(() => {
+async function sampleTextContrast(page) {
+  return await page.evaluate(() => {
         const parse = value => {
           const m = value.match(/rgba?\(([^)]+)\)/);
           if (!m) return null;
@@ -92,7 +77,26 @@ try {
           });
         }
         return { measured: rows.length, failures: rows.filter(x => !x.pass) };
-      });
+  });
+}
+const browser = await chromium.launch({ headless: true });
+const errors = [];
+let languageChecks = 0;
+let contrastSamples = 0;
+let contrastFailures = 0;
+try {
+  for (const viewport of [{ width: 390, height: 844 }, { width: 1365, height: 900 }]) {
+    const page = await browser.newPage({ viewport });
+    let current = "";
+    page.on("pageerror", e => errors.push(current + ": " + e.message + " | " + e.stack));
+    for (const file of pages) {
+      current = file;
+      const response = await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
+      if (!response || !response.ok()) errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
+
+      // Preliminary WCAG 2.2 contrast sampling for visible, ordinary DOM text.
+      // Background images/gradients and translucent layered effects are excluded from this automated pass.
+      const contrast = await sampleTextContrast(page);
       contrastSamples += contrast.measured;
       contrastFailures += contrast.failures.length;
       if (contrast.failures.length) {
@@ -105,6 +109,13 @@ try {
         const before = (await lang.innerText()).trim();
         await lang.click();
         const after = (await lang.innerText()).trim();
+        const englishContrast = await sampleTextContrast(page);
+        contrastSamples += englishContrast.measured;
+        contrastFailures += englishContrast.failures.length;
+        if (englishContrast.failures.length) {
+          errors.push(file + ": English-state contrast failures " + JSON.stringify(englishContrast.failures.slice(0, 8)) +
+            (englishContrast.failures.length > 8 ? " (+" + (englishContrast.failures.length - 8) + " more)" : ""));
+        }
         if (before === after) errors.push(file + ": language toggle did not change");
         if (file.endsWith("/biochemistry.html")) {
           const controls = await page.locator("#enzyme-controls button, #factor-controls button, #atp-controls button, #respiration-controls button")
