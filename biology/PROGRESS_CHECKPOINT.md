@@ -679,3 +679,12 @@
 - Updated the selector in both `fauna-kyrgyzstan.html` and `flora-kyrgyzstan.html` to `.subtitle{color:#68645f}`, retaining the same contrast-safe palette.
 - Last regional page commit: `cab52f39d352a04c7aac6cc6606294b925e03b26`. Latest CI verification is pending.
 - Contrast audit stage estimate remains 90% pending full green CI and manual review of states outside the automated sampler. Overall editorial readiness remains 95/100.
+
+
+## 2026-11-01 — preliminary WCAG text contrast pass verified
+
+- Final contrast-corrected state and checkpoint both passed CI: run #486 (ID `41342648237`, commit `cab52f39d352a04c7aac6cc6606294b925e03b26`) and run #487 (ID `41342677941`, checkpoint commit `39e4068a9084c3933ec2d90a7fdc6652d0f6290b`). Both completed successfully.
+- Browser log: `Preliminary contrast sampling: 6683 text instances, 0 below-threshold instances.` The same run confirms 13 pages at mobile and desktop widths, 26 language-toggle interactions, no uncaught page errors; structural validation confirms 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons.
+- Automated text contrast corrections now cover all 13 pages. Standard chapter subtitles and regional chapter subtitles are both included.
+- Contrast remediation stage: 100% for the defined preliminary DOM-text sampler and its sampled initial state. This is not a full WCAG conformance certification: SVG text, image/gradient-backed text, complex transparency, all hover/focus/selected/disabled states, screen-reader behavior and physical devices remain outside or only partially covered.
+- Overall editorial readiness remains 95/100. G4 scientific and G5 editorial independent review, 52 planned visual assets, full keyboard traversal, screen-reader and physical-device checks remain open. Feedback intake remains disabled.
