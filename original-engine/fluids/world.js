@@ -47,8 +47,8 @@ export function buildWorld(E) {
     return m;
   }
   const outline = (parent, geo, pos, mat = glassMat) => { const e = new THREE.LineSegments(new THREE.EdgesGeometry(geo), mat); e.userData = { noEdge: true }; e.position.set(...pos); parent.add(e); return e; };
-  const force = (parent, pal = 'ink', name = 'Forces', s = 1) => arrow(parent, pal, { r: 0.022 * s, head: 0.12 * s, headR: 0.06 * s, name });
-  const small = (parent, pal = 'ink', name = 'Pressure', s = 1) => arrow(parent, pal, { r: 0.007 * s, head: 0.045 * s, headR: 0.022 * s, name, tone: 'hi' });
+  const force = (parent, pal = 'ink', name = 'Силы', s = 1) => arrow(parent, pal, { r: 0.022 * s, head: 0.12 * s, headR: 0.06 * s, name });
+  const small = (parent, pal = 'ink', name = 'Давление', s = 1) => arrow(parent, pal, { r: 0.007 * s, head: 0.045 * s, headR: 0.022 * s, name, tone: 'hi' });
   const tip = (a, off = 0.1) => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + a.userData.arrow.head + off, 0)) : null;
   const thinRod = (parent, r = 0.006, pal = 'ink', name = 'Нить') => part(parent, cyl(r, 1, 8), { tone: 'hi', pal, name });
   const rodTo = (m, a, b) => { m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(1, Math.max(a.distanceTo(b), 1e-4), 1); m.quaternion.setFromUnitVectors(V(0, 1, 0), b.clone().sub(a).normalize()); };
@@ -109,8 +109,8 @@ export function buildWorld(E) {
     const body = (geo, pal, pos, name) => part(g1, geo, { tone: 'hi', pal, pos, name, ex: lift });
     for (const s of [-1, 1]) {
       const fx = xc + s * sp;
-      if (snowshoe) body(box(sole.w, 0.02, sole.l, 0.008), 'dark', [fx, TOP + 0.01, 0.06], 'Snowshoes');
-      body(box(0.1, 0.07, 0.25, 0.02), 'ink', [fx, base + 0.035, 0.06], 'Shoes');
+      if (snowshoe) body(box(sole.w, 0.02, sole.l, 0.008), 'dark', [fx, TOP + 0.01, 0.06], 'Снегоступы');
+      body(box(0.1, 0.07, 0.25, 0.02), 'ink', [fx, base + 0.035, 0.06], 'Обувь');
       body(cyl(0.055, 0.82, 20), 'paper', [fx, base + 0.07 + 0.41, 0], 'Body');
       // the contact patch on the snow
       part(g1, box(sole.w, 0.004, sole.l, 0.001), { tone: 'lo', name: 'Площадь контакта', mat: shadeMat('dark', { opacity: 0.45 }), pos: [fx, TOP + 0.002, 0.06] });
@@ -137,14 +137,14 @@ export function buildWorld(E) {
   lines(root, ticks, '#6c6c72');
   const g2 = asm('diver', root, { title: 'Погружение водолаза', sub: 'чем глубже, тем больше столб воды над ним' });
   const diver = new THREE.Group(); g2.add(diver);
-  const dv = (geo, pal, pos, name = 'Diver') => part(diver, geo, { tone: 'hi', pal, pos, name });
+  const dv = (geo, pal, pos, name = 'Водолаз') => part(diver, geo, { tone: 'hi', pal, pos, name });
   dv(box(0.42, 0.7, 0.26, 0.08), 'paper', [0, 0, 0]);
   dv(new THREE.SphereGeometry(0.13, 24, 16), 'paper', [0, 0.5, 0]);
-  dv(box(0.2, 0.08, 0.06, 0.02), 'ink', [0, 0.52, 0.12], 'Mask');
-  dv(cyl(0.1, 0.6, 20), 'dark', [0, 0.05, -0.22], 'Air tank');
+  dv(box(0.2, 0.08, 0.06, 0.02), 'ink', [0, 0.52, 0.12], 'Маска');
+  dv(cyl(0.1, 0.6, 20), 'dark', [0, 0.05, -0.22], 'Баллон с воздухом');
   for (const s of [-1, 1]) {
     dv(cyl(0.07, 0.75, 16), 'paper', [s * 0.11, -0.72, 0]);
-    dv(box(0.16, 0.36, 0.04, 0.015), 'ink', [s * 0.11, -1.25, 0.02], 'Fins');
+    dv(box(0.16, 0.36, 0.04, 0.015), 'ink', [s * 0.11, -1.25, 0.02], 'Ласты');
     dv(cyl(0.05, 0.62, 16), 'paper', [s * 0.27, -0.02, 0]);
   }
   const TOPD = 0.63, BOTD = 1.43, SIDE = 0.34;            // head top, fin tips, side reach from the chest
