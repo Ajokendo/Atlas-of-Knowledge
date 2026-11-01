@@ -259,11 +259,6 @@ if (!faunaKyrgyzstanFile.includes("This disagreement reflects different taxonomi
     !faunaKyrgyzstanFile.includes("T. stolickai")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul Triplophysa determination must retain the IUCN/Catalogue taxonomic-concept conflict");
 }
-if (!regionalSpeciesAudit.includes("Son-Kul fish survey (sampling in 2020, 2021 and 2023; published 2023)") ||
-    !regionalSpeciesAudit.includes("abstract/methods date discrepancy") ||
-    !regionalSpeciesAudit.includes("voucher/genetic review")) {
-  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Son-Kul fish survey must retain its sampling-date discrepancy and taxonomic evidence limits");
-}
 if (!faunaKyrgyzstanFile.includes("2004–2005 годов") || !faunaKyrgyzstanFile.includes("описан как озеро без рыб") || !faunaKyrgyzstanFile.includes("described as fishless")) {
   errors.push("chapters/fauna-kyrgyzstan.html: fishless Chatyr-Kul and fish-bearing Son-Kul distinction must remain explicit");
 }
@@ -460,6 +455,11 @@ if (!imageScientificReview.includes("does not publish the full taxon list") ||
 
 // Seven-oblast species-evidence audit: enforce coverage and conservative interpretation.
 const regionalSpeciesAudit = fs.readFileSync(path.join(root, "KYRGYZSTAN_SPECIES_AUDIT.md"), "utf8");
+if (!regionalSpeciesAudit.includes("Son-Kul fish survey (sampling in 2020, 2021 and 2023; published 2023)") ||
+    !regionalSpeciesAudit.includes("abstract/methods date discrepancy") ||
+    !regionalSpeciesAudit.includes("voucher/genetic review")) {
+  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Son-Kul fish survey must retain its sampling-date discrepancy and taxonomic evidence limits");
+}
 const requiredOblasts = ["Jalal-Abad", "Issyk-Kul", "Naryn", "Osh", "Batken", "Talas", "Chuy"];
 for (const oblast of requiredOblasts) {
   if (!regionalSpeciesAudit.includes("| " + oblast + " |")) errors.push("KYRGYZSTAN_SPECIES_AUDIT.md is missing the " + oblast + " oblast row");
