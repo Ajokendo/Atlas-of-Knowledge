@@ -1,5 +1,9 @@
 import { chromium } from "playwright";
 import path from "node:path";
+import { createRequire } from "node:module";
+
+const require = createRequire(import.meta.url);
+const axePath = require.resolve("axe-core/axe.min.js");
 
 const base = "http://127.0.0.1:4173/chemistry/";
 const pages = [
@@ -63,6 +67,29 @@ try {
     if (!response || !response.ok()) {
       errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
       continue;
+    }
+
+    await page.addScriptTag({ path: axePath });
+    const accessibility = await page.evaluate(async () => {
+      const result = await axe.run(document, {
+        runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }
+      });
+      return result.violations.map(violation => ({
+        id: violation.id,
+        impact: violation.impact,
+        help: violation.help,
+        nodes: violation.nodes.slice(0, 5).map(node => ({
+          target: node.target,
+          summary: node.failureSummary?.replace(/\\s+/g, " ").slice(0, 280)
+        })),
+        count: violation.nodes.length
+      }));
+    });
+    for (const violation of accessibility) {
+      const message = file + ": axe " + violation.impact + " — " + violation.id + " (" + violation.count + " element(s)): " + violation.help + "; " +
+        violation.nodes.map(node => node.target.join(" ") + " " + node.summary).join(" | ");
+      if (violation.impact === "critical" || violation.impact === "serious") errors.push(message);
+      else console.warn("Accessibility review: " + message);
     }
 
     await page.keyboard.press("Tab");
