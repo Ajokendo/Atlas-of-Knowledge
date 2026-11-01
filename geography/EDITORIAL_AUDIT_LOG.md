@@ -1020,3 +1020,12 @@ The current marker additions are production instructions/placeholders only; no g
 - Static heading checks found no duplicate heading strings in the first 20 chapters sampled. Chapter 19 had the ordering issue recorded above; its correction is committed. Remaining chapter ordering and bilingual parity checks continue.
 
 **Current scope:** baseline and standards corrected; targeted fixes made in Chapters 01 and 19. Full source-by-source scientific review, line-by-line RU/EN comparison, visual approval, browser testing, mobile testing and accessibility verification remain open.
+
+
+### Chapter 01 — reference-link review
+- Checked the introductory chapter's reference destinations against current authoritative pages.
+- The former AAG `/what-is-geography/` destination could not be retrieved; replaced it with the current AAG Geography Awareness Week page, which includes the Association's current description of geography.
+- Replaced the generic Royal Geographical Society homepage with its current “What is geography?” page.
+- Replaced the generic UNSD homepage with the UN Statistics Division's UN-GGIM page, which is specifically about global geospatial information management.
+- The ICA Cartographic Body of Knowledge site timed out during this check; this is recorded as unresolved, not classified as a dead link.
+- Updated Chapter 01 commit: `80c82d47fdf86d8d0c50da5254787f636c2ed10f`.
