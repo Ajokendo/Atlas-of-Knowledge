@@ -51,6 +51,7 @@
 - Температура и давление возрастают с глубиной; оценки температуры внутренних областей имеют диапазоны и зависят от моделей.
 
 **Место для иллюстрации 3.1-A — Earth's Internal Structure.** Масштабный разрез Земли с указанием коры, литосферы, астеносферы, мантии, внешнего и внутреннего ядра; глубины границ и схематический температурный профиль. Подписи на русском и английском.
+**EN:** Scaled cross-section of Earth showing the crust, lithosphere, asthenosphere, mantle, outer core and inner core; label major boundaries and include a schematic temperature profile.
 
 ## 3.2. Минералы и их свойства / Minerals and Their Properties
 
@@ -106,6 +107,7 @@
 Формулы некоторых минералов отражают переменный состав твёрдых растворов и приведены в обобщённой форме.
 
 **Место для иллюстрации 3.2-A — Mineral Identification Board.** Девять–десять образцов минералов с корректными названиями, формулами и шкалой Мооса; фотографии или реалистичные образцы без ошибочных подписей.
+**EN:** A board of nine or ten mineral specimens with verified names, chemical formulae and Mohs hardness values; use photographs or realistic specimens with accurate labels.
 
 ## 3.3. Горные породы и круговорот пород / Rocks and the Rock Cycle
 
@@ -149,6 +151,7 @@
 Любая группа пород может переходить в другую через выветривание, эрозию, осадконакопление, погружение, метаморфизм, плавление и кристаллизацию. Круговорот не является замкнутым циклом с обязательным единым порядком: геологические пути разнообразны.
 
 **Место для иллюстрации 3.3-A — The Rock Cycle.** Диаграмма взаимных переходов трёх групп пород с процессами выветривания, осадконакопления, метаморфизма, плавления и кристаллизации.
+**EN:** Diagram showing possible transformations among igneous, sedimentary and metamorphic rocks, including weathering, deposition, metamorphism, melting and crystallisation.
 
 ## 3.4. Минералогия, петрография и методы геологических исследований / Mineralogy, Petrography and Geological Methods
 
@@ -180,6 +183,7 @@
 Сейсмические исследования, гравиметрия, магнитометрия и электрические методы позволяют изучать строение недр без непосредственного отбора образцов на каждой глубине.
 
 **Место для иллюстрации 3.4-A — Geological Research Toolkit.** Полевой геолог, образец породы, тонкий шлиф под микроскопом, дифрактограмма и геофизический профиль.
+**EN:** Show a field geologist, a rock sample, a thin section under a microscope, an X-ray diffraction pattern and a geophysical profile.
 
 ## 3.5. Тектоника литосферных плит / Plate Tectonics
 
@@ -211,6 +215,7 @@
 - современные геодезические измерения движения плит.
 
 **Место для иллюстрации 3.5-A — Global Plate Tectonic Map.** Карта основных литосферных плит с дивергентными, конвергентными и трансформными границами. Геометрия границ должна быть проверена по авторитетной геологической карте.
+**EN:** Map the major lithospheric plates and divergent, convergent and transform boundaries. Verify boundary geometry against an authoritative geological map and include a clear legend and source.
 
 ## 3.6. Землетрясения / Earthquakes
 
@@ -242,6 +247,7 @@
 Риск определяется не только вероятностью землетрясения, но и уязвимостью зданий, плотностью населения, качеством инфраструктуры и готовностью к чрезвычайным ситуациям. Сейсмическая опасность не может быть устранена, но последствия можно уменьшить с помощью норм строительства, инженерной оценки и подготовки населения.
 
 **Место для иллюстрации 3.6-A — Anatomy of an Earthquake.** Разрез с разломом, очагом, эпицентром и типами сейсмических волн.
+**EN:** Cross-section showing a fault, hypocentre (focus), epicentre and the main types of seismic waves.
 
 ### 3.6.5. Как определяют положение эпицентра / How the Epicentre Is Located
 
@@ -329,6 +335,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 Опасности включают лавовые потоки, пеплопады, пирокластические потоки, вулканические газы, лахары и оползни вулканических склонов. Пирокластические потоки особенно опасны из-за высокой температуры и скорости движения.
 
 **Место для иллюстрации 3.7-A — Volcano Anatomy and Eruption Hazards.** Разрез вулкана с магматическим очагом, жерлом, кратером и зонами распространения разных опасных явлений.
+**EN:** Volcano cross-section showing the magma reservoir, conduit, crater and zones affected by different volcanic hazards.
 
 ## 3.8. Складчатость и разломы / Folding and Faulting
 
@@ -349,6 +356,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 Тип разлома определяется направлением относительного смещения блоков, а не только внешним видом поверхности.
 
 **Место для иллюстрации 3.8-A — Folds and Faults.** Сопоставить антиклиналь, синклиналь, сброс, взброс/надвиг и сдвиг на геологических разрезах.
+**EN:** Compare an anticline, syncline, normal fault, reverse/thrust fault and strike-slip fault using clearly labelled geological cross-sections.
 
 ## 3.9. Геологическое время / Geological Time
 
@@ -378,6 +386,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 Границы геологических подразделений определяются международной стратиграфической шкалой и уточняются по мере развития исследований. В окончательной версии атласа численные даты границ должны быть сверены с актуальной таблицей Международной комиссии по стратиграфии.
 
 **Место для иллюстрации 3.9-A — Geological Time Scale.** Вертикальная временная шкала от формирования Земли до современности; неравномерный масштаб должен быть явно обозначен.
+**EN:** Vertical geological time scale from Earth's formation to the present. Make the non-linear time spacing explicit and use the current ICS chart for boundary ages.
 
 ### 3.9.4. Разобранный пример: определение относительного возраста слоёв и интрузии / Worked Example: Establishing the Relative Ages of Layers and an Intrusion
 
@@ -432,6 +441,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 Рифтинг может привести к растяжению и расколу континентальной коры, затем к формированию нового океанического бассейна. При субдукции океаническая литосфера погружается в мантию; при столкновении континентов океанический бассейн может исчезнуть, а континентальные массы образуют складчатые горные пояса.
 
 **Место для иллюстрации 3.10-A — The Supercontinent Cycle.** Последовательность рифтинга, открытия океана, субдукции, столкновения континентов и формирования гор.
+**EN:** Sequence illustrating continental rifting, ocean-basin opening, subduction, continental collision and mountain building.
 
 ## 3.11. Геологические ресурсы и полезные ископаемые / Geological Resources and Mineral Resources
 
@@ -457,6 +467,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 Добыча полезных ископаемых может сопровождаться нарушением земель, образованием отходов, загрязнением вод и воздуха, а также изменением ландшафтов. Геологическая оценка должна учитывать не только потенциальную ценность ресурса, но и весь жизненный цикл добычи, переработки и рекультивации.
 
 **Место для иллюстрации 3.11-A — From Geological Deposit to Resource Management.** Разрез месторождения, этапы разведки, добычи, переработки и рекультивации.
+**EN:** Cross-section of a mineral deposit with the stages of exploration, extraction, processing, closure and land rehabilitation.
 
 ## 3.12. Геологические опасности и управление рисками / Geological Hazards and Risk Management
 
@@ -484,6 +495,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 Опасность, подверженность воздействию и уязвимость — разные составляющие риска. Наличие опасного процесса не означает автоматически катастрофу: последствия зависят от того, кто и что находится в зоне воздействия и насколько хорошо защищены объекты.
 
 **Место для иллюстрации 3.12-A — Geological Hazards.** Четыре панели: землетрясение, оползень, сель и обвал; показать факторы возникновения и меры снижения риска.
+**EN:** Four panels showing an earthquake, landslide, debris flow and rockfall, with key triggering factors and practical risk-reduction measures.
 
 ## Итоги главы / Chapter Summary
 
@@ -522,6 +534,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 - какие участки могут представлять инженерно-геологическую опасность.
 
 **Место для иллюстрации 3.12-B — Interpreting a Geological Cross-Section.** Учебный разрез с легендой, слоями разных возрастов, складкой, разломом и интрузивным телом; предусмотреть задания с ответами в отдельном приложении.
+**EN:** Teaching cross-section with a legend, rock layers of different ages, a fold, a fault and an igneous intrusion; provide learner questions and a separate answer key.
 
 ## English-language chapter text
 
@@ -830,6 +843,9 @@ On a schematic geological cross-section, identify:
 10. USGS. *What Is a Landslide and What Causes One?* https://www.usgs.gov/faqs/what-a-landslide-and-what-causes-one/
 11. USGS. *Assessments of Mineral Resources* (definition of mineral resources and assessment scope). https://www.usgs.gov/science/science-explorer/minerals/Assessments-of-Mineral-Resources
 12. British Geological Survey. *Rocks and Minerals* (rock groups and rock cycle). https://www.bgs.ac.uk/discovering-geology/rocks-and-minerals/
+13. USGS. *Fossils, Rocks, and Time: The Laws of Superposition and Cross-Cutting Relations*. https://pubs.usgs.gov/gip/fossils/laws.html
+14. USGS. *A Beginner's Guide to Dating (Rocks)* (radiometric and other geochronological methods). https://www.usgs.gov/observatories/yvo/news/a-beginners-guide-dating-rocks
+15. British Geological Survey. *What Causes Earthquakes?* (fault movement and normal, reverse and strike-slip faults). https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/
 
 При подготовке окончательной версии следует сверять геологические термины и численные параметры с актуальной международной стратиграфической шкалой и региональными геологическими картами.
 
