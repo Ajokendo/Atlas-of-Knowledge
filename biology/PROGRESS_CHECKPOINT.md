@@ -457,3 +457,15 @@
 - Important boundary: **100% means the planned author-side G4 audit blocks are complete. It is not independent scientific approval or publication readiness.** Independent specialist review remains open, especially for the fish-record/voucher questions and other contested evidence already flagged in the audit.
 - G5 bilingual/editorial review remains open. The 52 illustration anchors/dispositions remain Deferred; original illustration production and visual quality review are still release gates. Full screen-reader testing, comprehensive contrast review and physical-device testing are not claimed as passed.
 - Controlled editorial readiness remains **95/100**; it is not raised by completion of G4 alone.
+
+
+## G5 editorial and bilingual audit checkpoint — 25% (1 November 2026)
+
+- G5 plan is divided into four equal review blocks. **Block 1/4 = 25% complete.**
+- Reviewed `biology/index.html`, `chapters/cell-biology.html`, `chapters/genetics.html` and `chapters/microbiology.html`.
+- Structural language-span checks after edits: index 14 RU / 14 EN; Cell Biology 62 / 62; Genetics 85 / 85; Microbiology 71 / 71. No duplicate HTML IDs found in these four files. These counts are structural evidence only, not a semantic translation certification.
+- Fixed mixed-language regional cards in the Biology index, localised the cell-diagram accessible name when the interface language changes, and clarified the cytoplasm glossary definition in both languages.
+- G5 report: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
+- G5 report commit: `2117d36c62a899cf44607ce3bb8f50c12e596d0e`.
+- Content commits: `325b3357d91c4738855e02a23df61880907db06e`, `58d139225d9c1f3cf1d7d0393e64f76cf956f158`, `9e60e7274057f6667e1cc03a3f7504da04217362`.
+- Blocks 2–4 remain open. This checkpoint does not certify independent professional translation quality.
