@@ -262,6 +262,7 @@ for (const phrase of ["G1/S", "G2/M", "spindle-assembly checkpoint", "cyclin", "
 if (!/<span class="ru">/.test(cellCycleControlBlock) || !/<span class="en">/.test(cellCycleControlBlock)) errors.push("chapters/cell-biology.html: cell-cycle control lesson must be bilingual");
 
 
+const anatomyFile = fs.readFileSync(path.join(root, "chapters", "anatomy.html"), "utf8");
 const homeostasisControlStart = anatomyFile.indexOf('id="homeostatic-control-loops"');
 const anatomyLearningStart = anatomyFile.indexOf('<section class="learning-block"><div class="learning-grid">');
 const homeostasisControlBlock = anatomyFile.slice(homeostasisControlStart, anatomyLearningStart);
@@ -529,7 +530,6 @@ if (!zoologyAuditFile.includes("«Рыбы» — общее название н�
 if (!zoologyAuditFile.includes("Птицы, в свою очередь, произошли от тероподовых динозавров") || !zoologyAuditFile.includes("are included within reptiles in modern phylogenetic classification")) errors.push("chapters/zoology.html: phylogenetic classification must place birds within reptiles");
 if (!zoologyAuditFile.includes("29-4-reptiles") || !zoologyAuditFile.includes("29-1-chordates")) errors.push("chapters/zoology.html: chordate and reptile evolution references are required");
 
-const anatomyFile = fs.readFileSync(path.join(root, "chapters/anatomy.html"), "utf8");
 if (!anatomyFile.includes("pages/19-introduction") || !anatomyFile.includes("pages/20-5-circulatory-pathways") || !anatomyFile.includes("pages/22-introduction")) errors.push("chapters/anatomy.html: heart, circulatory pathways and respiratory-system references are required");
 if (!anatomyFile.includes("артерии определяются направлением кровотока от сердца") || !anatomyFile.includes("arteries are defined by blood flow away from the heart")) errors.push("chapters/anatomy.html: artery definition must distinguish direction of flow from oxygen content");
 if (!anatomyFile.includes("лёгочные артерии проводят бедную кислородом кровь от правого желудочка к лёгким") || !anatomyFile.includes("лёгочные вены возвращают богатую кислородом кровь к левому предсердию")) errors.push("chapters/anatomy.html: pulmonary circuit must correctly identify oxygen-poor arterial and oxygen-rich venous blood");
