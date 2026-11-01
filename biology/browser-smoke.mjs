@@ -114,14 +114,32 @@ try {
       if (unnamed.length) errors.push(file + ": " + unnamed.length +
         " visible interactive control(s) lack an accessible name: " + JSON.stringify(unnamed));
 
-      // Confirm keyboard navigation can reach a real interactive element.
+      // Confirm keyboard navigation can enter, advance through, and reverse between controls.
       await page.keyboard.press("Tab");
-      const focused = await page.evaluate(() => {
+      const firstFocus = await page.evaluate(() => {
         const el = document.activeElement;
-        return !!el && el !== document.body && el !== document.documentElement &&
-          (el.matches("a[href], button, input, select, textarea, [tabindex]:not([tabindex='-1'])"));
+        if (!el || el === document.body || el === document.documentElement ||
+            !el.matches("a[href], button, input, select, textarea, [tabindex]:not([tabindex='-1'])")) return null;
+        return { tag: el.tagName, id: el.id, name: el.getAttribute("aria-label") || el.innerText || el.value || "" };
       });
-      if (!focused) errors.push(file + ": Tab key did not reach an interactive control");
+      if (!firstFocus) {
+        errors.push(file + ": Tab key did not reach an interactive control");
+      } else {
+        await page.keyboard.press("Tab");
+        const secondFocus = await page.evaluate(() => document.activeElement);
+        const advanced = await page.evaluate(() => {
+          const el = document.activeElement;
+          return !!el && el !== document.body && el !== document.documentElement;
+        });
+        if (!advanced) errors.push(file + ": forward Tab navigation lost focus");
+        await page.keyboard.press("Shift+Tab");
+        const returnedToFirst = await page.evaluate(first => {
+          const el = document.activeElement;
+          return !!el && el.tagName === first.tag && el.id === first.id &&
+            ((el.getAttribute("aria-label") || el.innerText || el.value || "") === first.name);
+        }, firstFocus);
+        if (!returnedToFirst) errors.push(file + ": Shift+Tab did not return to the previous control");
+      }
     }
     await page.close();
   }
