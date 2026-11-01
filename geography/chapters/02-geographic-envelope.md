@@ -104,12 +104,14 @@
 
 | Резервуар | Приблизительная доля от всей воды |
 |---|---:|
-| Мировой океан | около 96,5% |
-| Ледники и ледяные покровы | около 1,7% |
-| Подземные воды | около 1,7% |
-| Озёра, реки, атмосфера и другие резервуары | менее 0,1% |
+| Мировой океан и моря | 96,54% |
+| Ледники, ледяные покровы и постоянный снег | 1,74% |
+| Подземные воды — всего | 1,69% |
+| — пресные подземные воды | 0,76% |
+| — солёные подземные воды | 0,93% |
+| Озёра, реки, атмосфера, почвенная влага и другие резервуары | менее 0,1% |
 
-Это округлённая схема. Точные доли зависят от классификации и используемой базы данных.
+Подземные воды включают как пресную, так и солёную воду: поэтому их общую долю нельзя целиком относить к запасам пресной воды. По оценке USGS, около 68,7% всей пресной воды заключено в ледниках и постоянном снеге, а около 30,1% находится в пресных подземных водах. Значения округлены; сумма долей может не составлять ровно 100%.
 
 ### 2.4.2. Круговорот воды / The Water Cycle
 
@@ -568,12 +570,14 @@ The hydrosphere includes the world ocean, continental surface water, groundwater
 
 | Reservoir | Approximate share of all Earth's water |
 |---|---:|
-| World ocean | About 96.5% |
-| Glaciers and ice sheets | About 1.7% |
-| Groundwater | About 1.7% |
-| Lakes, rivers, atmosphere and other reservoirs | Less than 0.1% |
+| Oceans and seas | 96.54% |
+| Glaciers, ice sheets and permanent snow | 1.74% |
+| Groundwater — total | 1.69% |
+| — fresh groundwater | 0.76% |
+| — saline groundwater | 0.93% |
+| Lakes, rivers, atmosphere, soil moisture and other reservoirs | Less than 0.1% |
 
-This is a rounded educational summary. Exact shares depend on classification and the database used.
+Groundwater includes both fresh and saline water, so its total share must not be treated entirely as freshwater. According to the USGS estimate, about 68.7% of all freshwater is stored in glaciers and permanent snow, while about 30.1% is fresh groundwater. Values are rounded; percentages may not sum to exactly 100%.
 
 **The water cycle** is the continuous movement of water among the ocean, atmosphere, land and underground reservoirs. Its main stages are evaporation from oceans, lakes and rivers; transpiration by plants; condensation and cloud formation; precipitation; surface runoff; infiltration into the ground; and groundwater flow back to water bodies.
 
@@ -736,12 +740,13 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
 1. NASA Earth Observatory. *The Earth System*. https://earthobservatory.nasa.gov/
-2. NOAA National Ocean Service. *The Water Cycle*. https://oceanservice.noaa.gov/education/tutorial_water/
-3. NASA Science. *Earth's Atmosphere*. https://science.nasa.gov/earth/facts/
+2. NASA Science. *The Water Cycle*. https://science.nasa.gov/earth/earth-observatory/the-water-cycle/
+3. NOAA JetStream. *Layers of the Atmosphere*. https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
 4. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
 5. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
 6. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
 7. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
+8. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
