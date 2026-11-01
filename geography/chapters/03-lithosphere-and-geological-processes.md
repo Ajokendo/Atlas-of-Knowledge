@@ -190,7 +190,7 @@
 
 ### 3.5.1. Движение плит / Plate Motion
 
-Литосферные плиты движутся со скоростями обычно от нескольких миллиметров до нескольких сантиметров в год. Движение связано с тепловой эволюцией Земли и динамикой мантии; важную роль играют тяга погружающейся плиты и силы, действующие в области срединно-океанических хребтов.
+Литосферные плиты движутся с разными скоростями — обычно от нескольких миллиметров до нескольких сантиметров в год; скорость зависит от конкретной плиты и участка её границы. Движение связано с тепловой эволюцией Земли и динамикой мантии; важную роль играют тяга погружающейся плиты и силы, действующие в области срединно-океанических хребтов.
 
 ### 3.5.2. Типы границ плит / Types of Plate Boundaries
 
@@ -198,7 +198,7 @@
 - **Конвергентные:** плиты сближаются; возможны субдукция, вулканические дуги и горообразование.
 - **Трансформные:** плиты смещаются вдоль границы; часто возникают землетрясения.
 
-Не всякая конвергентная граница сопровождается вулканизмом. Например, столкновение двух континентальных плит может приводить к утолщению коры и формированию высоких горных систем.
+В учебной классификации выделяют три основных типа границ плит. В некоторых регионах взаимодействие распределено по широкой деформируемой зоне, а не сосредоточено на узкой границе. Не всякая конвергентная граница сопровождается вулканизмом. Например, столкновение двух континентальных плит может приводить к утолщению коры и формированию высоких горных систем.
 
 ### 3.5.3. Континентальный дрейф и доказательства / Continental Drift
 
@@ -632,7 +632,7 @@ Geophysical methods—including seismic surveys, gravity, magnetic and electrica
 
 Plate tectonics explains the movement of large lithospheric fragments and many patterns in the distribution of earthquakes, volcanoes, mountain belts and ocean-floor structures.
 
-Lithospheric plates generally move at rates from a few millimetres to several centimetres per year. Their motion is linked to Earth's thermal evolution and mantle dynamics. Slab pull and forces associated with mid-ocean ridges are important drivers.
+Lithospheric plates move at different rates, generally from a few millimetres to several centimetres per year; the rate depends on the particular plate and boundary segment. Their motion is linked to Earth's thermal evolution and mantle dynamics. Slab pull and forces associated with mid-ocean ridges are important drivers.
 
 Three main types of plate boundary are recognised:
 
@@ -640,7 +640,7 @@ Three main types of plate boundary are recognised:
 - **Convergent boundaries:** plates move towards each other; subduction, volcanic arcs and mountain building may occur.
 - **Transform boundaries:** plates slide horizontally past one another, often generating earthquakes.
 
-Not every convergent boundary is associated with volcanism. Collision between two continents, for example, may thicken the crust and form high mountain systems.
+School-level classifications describe three main types of plate boundary. In some regions, plate interaction is distributed across a broad deforming boundary zone rather than a narrow line. Not every convergent boundary is associated with volcanism. Collision between two continents, for example, may thicken the crust and form high mountain systems.
 
 The idea of continental drift developed in the early twentieth century. Modern plate tectonics explains the mechanism of lithospheric movement and brings together several lines of evidence: matching geological structures across oceans, similar fossils on continents now separated, palaeoclimatic evidence, magnetic stripes on the ocean floor, the age of oceanic crust and modern geodetic measurements of plate motion.
 
@@ -657,6 +657,38 @@ An earthquake is ground shaking caused by the rapid release of accumulated elast
 **Magnitude and intensity are different.** Magnitude characterises earthquake size using instrumental measurements. Moment magnitude (Mw) is widely used for large earthquakes. Intensity describes observed effects and damage at a particular location and can vary across the area affected by one event. Magnitude is not a linear scale: an increase of one unit corresponds to roughly 32 times more released seismic energy.
 
 Seismic risk depends not only on the probability of an earthquake but also on building vulnerability, population density, infrastructure quality and emergency preparedness. Seismic hazards cannot be eliminated, but their consequences can be reduced through building standards, engineering assessment and public preparedness.
+
+### 3.6.5. Locating an Earthquake Epicentre
+
+A seismic station records ground motion as a seismogram. The record usually makes it possible to identify the arrival of faster P-waves and slower S-waves. The farther a station is from the earthquake source, the greater the time interval between these arrivals generally becomes.
+
+**From the time difference to distance.** Seismologists use seismic travel-time curves or computational models to convert the interval between P- and S-wave arrivals into an estimate of the distance to the source. A single constant velocity cannot be applied to all waves and depths: wave speed depends on the properties and structure of the rocks.
+
+**Locating the epicentre.** If distances from several stations to the epicentre are known, a circle with the corresponding radius is drawn around each station on a map. In an idealised example, three circles intersect at one point. In practice, measurements contain uncertainties, so the circles may not meet exactly; the epicentre is estimated by jointly analysing the observations. Determining focal depth and rupture parameters requires additional observations and more complex models.
+
+**Simplified learning example.** Suppose three stations are located in different parts of a region, and analysis gives hypothetical distances to the epicentre of 40, 65 and 50 km. Draw three circles with these radii on a map. The area where they come closest to intersecting indicates the approximate epicentre location. These illustrative distances do not describe a real earthquake.
+
+**Why a station network matters.** One station can provide an estimate of distance but cannot uniquely determine the direction to the epicentre. Several stations make it possible to locate the event and check the consistency of measurements. Better geographic distribution and accurate time synchronisation improve reliability. Stations arranged almost along a single line generally provide weaker location geometry.
+
+**Learning activity.** Draw a hypothetical map with three seismic stations. Plot circles using the given distances and mark the area where they come closest to intersecting. Then change one radius by several kilometres and explain why the estimated epicentre shifts. State why this simplified construction does not determine focal depth.
+
+### 3.6.6. Reading a Seismogram and Understanding Uncertainty
+
+A seismogram shows ground motion over time as recorded by a particular instrument at a particular location. Time is usually shown on the horizontal axis and signal amplitude, or an instrument-related measure, on the vertical axis. Before comparing records, check the units, time scale, instrument response and whether the record has been corrected.
+
+**A basic reading sequence:**
+
+1. Identify the beginning of the record and assess background noise before the event.
+2. Mark the earliest reliable arrival of the P-wave; do not mistake random noise for the signal onset.
+3. Identify the S-wave arrival, which may be less distinct.
+4. Measure the S–P interval and use an appropriate regional travel-time curve, not a universal formula for every region.
+5. Compare the result with records from other stations. Differences may indicate reading errors, complex crustal structure or limitations in the model.
+
+**Amplitude is not magnitude by itself.** A large amplitude on one record does not automatically mean a stronger earthquake. Amplitude is affected by distance from the source, focal depth, wave propagation direction, local ground conditions, instrument type and recording settings. Magnitude is calculated using standardised methods that account for relevant factors.
+
+**Uncertainty.** Earthquake catalogues may report uncertainty estimates for epicentre location, depth and magnitude. An initial automatic solution may be revised when data from additional stations become available. Scientific analysis should therefore identify the catalogue version and update time rather than presenting preliminary coordinates as absolutely exact.
+
+**Practical activity.** Compare two teaching seismograms with different S–P intervals. Identify the station with the larger interval and explain why this usually indicates a greater distance from the source. Then list at least three reasons why the amplitudes of two records cannot be compared directly.
 
 ### 3.7. Volcanism
 
@@ -697,6 +729,26 @@ Geological time covers about 4.54 billion years of Earth's history. Relative and
 **Numerical dating** uses the predictable decay of radioactive isotopes. The method depends on the age, mineral and geological history of the sample. Examples include uranium–lead, potassium–argon/argon–argon and rubidium–strontium systems.
 
 The major eons are the Hadean, when Earth formed and underwent early evolution; the Archean, which contains the oldest known evidence of life and development of early crust; the Proterozoic, marked by rising oxygen levels and the development of complex life; and the Phanerozoic, which has an abundant fossil record and includes the Paleozoic, Mesozoic and Cenozoic eras. Boundaries are defined by the international stratigraphic timescale and are refined as research develops. Numerical boundary ages must be checked against the current International Commission on Stratigraphy chart.
+
+### 3.9.4. Worked Example: Establishing the Relative Ages of Layers and an Intrusion
+
+Imagine a geological cross-section with three sedimentary layers: A at the bottom, B above it and C at the top. An igneous body D cuts through layers A and B but does not cut layer C.
+
+**Step 1.** Under the law of superposition, if the sequence has not been overturned or disturbed, layer A is older than B, and B is older than C.
+
+**Step 2.** Under the principle of cross-cutting relationships, intrusion D is younger than layers A and B, which it cuts through.
+
+**Step 3.** Because D does not cut layer C, and C overlies the intrusion, the available relationships indicate that C formed after D was emplaced.
+
+The sequence from oldest to youngest is:
+
+\\[
+A\\;\\rightarrow\\;B\\;\\rightarrow\\;D\\;\\rightarrow\\;C
+\\]
+
+This is a relative sequence, not a set of calendar dates. Numerical ages require suitable samples and an appropriate dating method. If layers are overturned, the section is faulted or contacts are unclear, the geological structure must be established first.
+
+**Check your understanding:** A fault cuts layers A, B and C but does not displace a younger layer E that overlies the fault. What can you infer about the age of the fault relative to these layers?
 
 ### 3.10. Formation of Continents and Oceans
 
@@ -766,11 +818,13 @@ On a schematic geological cross-section, identify:
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
-1. U.S. Geological Survey (USGS). *The Interior of the Earth*. https://pubs.usgs.gov/gip/interior/
-2. USGS. *This Dynamic Earth: The Story of Plate Tectonics*. https://pubs.usgs.gov/gip/dynamic/
-3. Incorporated Research Institutions for Seismology (IRIS). *Earthquake Science and Educational Resources*. https://www.iris.edu/hq/inclass/
-4. International Union of Geological Sciences (IUGS), International Commission on Stratigraphy. *International Chronostratigraphic Chart*. https://stratigraphy.org/chart
-5. British Geological Survey. *Geological Processes*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
+1. U.S. Geological Survey (USGS). *Inside the Earth* (This Dynamic Earth: Earth structure). https://pubs.usgs.gov/gip/dynamic/inside.html
+2. USGS. *How Fast Do Tectonic Plates Move?* https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move
+3. USGS. *Understanding Plate Motions* (This Dynamic Earth). https://pubs.usgs.gov/gip/dynamic/understanding.html
+4. National Park Service. *Minerals* (mineral properties and Mohs hardness). https://www.nps.gov/subjects/geology/minerals.htm
+5. Incorporated Research Institutions for Seismology (IRIS). *Locating an Earthquake with Seismic Data*. https://www.iris.edu/hq/inclass/lesson/locating_an_earthquake_with_recent_seismic_data
+6. International Union of Geological Sciences (IUGS), International Commission on Stratigraphy (ICS). *International Chronostratigraphic Chart*, current edition 2026/06. https://stratigraphy.org/chart
+7. British Geological Survey. *Geological Processes*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
 
 При подготовке окончательной версии следует сверять геологические термины и численные параметры с актуальной международной стратиграфической шкалой и региональными геологическими картами.
 
