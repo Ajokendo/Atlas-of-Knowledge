@@ -166,6 +166,40 @@ if (!periodicData) {
   }
 }
 
+const quizSource = fs.readFileSync(path.join(root, "knowledge-check.html"), "utf8");
+const quizMatch = quizSource.match(/\bconst questions\s*=\s*\{/);
+if (!quizMatch) {
+  errors.push("knowledge-check.html: bilingual question bank not found");
+} else {
+  const literal = objectLiteralAt(quizSource, quizMatch.index + quizMatch[0].lastIndexOf("{"));
+  try {
+    const questions = vm.runInNewContext("(" + literal + ")");
+    for (const language of ["ru", "en"]) {
+      const items = questions[language];
+      if (!Array.isArray(items) || items.length !== 15) {
+        errors.push("knowledge-check.html: expected 15 " + language + " questions");
+        continue;
+      }
+      items.forEach((question, index) => {
+        if (!question.q || !question.e || !Array.isArray(question.a) || question.a.length !== 4 ||
+            !Number.isInteger(question.c) || question.c < 0 || question.c > 3) {
+          errors.push("knowledge-check.html: malformed " + language + " question " + (index + 1));
+        }
+      });
+    }
+    if (Array.isArray(questions.ru) && Array.isArray(questions.en) &&
+        questions.ru.length === questions.en.length) {
+      questions.ru.forEach((question, index) => {
+        if (question.c !== questions.en[index].c) {
+          errors.push("knowledge-check.html: RU/EN answer key mismatch at question " + (index + 1));
+        }
+      });
+    }
+  } catch (error) {
+    errors.push("knowledge-check.html: could not parse bilingual question bank: " + error.message);
+  }
+}
+
 const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const chapterIds = [...homepage.matchAll(/["'](0[1-9]|1[0-2])["']/g)].map(m => m[1]);
 if (new Set(chapterIds).size < 12) errors.push("index.html: expected all 12 chapter identifiers");
