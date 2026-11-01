@@ -23,6 +23,7 @@ This chapter examines Kyrgyzstan’s climate as the outcome of latitude, contine
 ## 19.1. Климатическое положение Кыргызстана / Kyrgyzstan’s Climatic Setting
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-A / IMAGE PLACEHOLDER 19-A]** Карта климатических районов Кыргызстана с основными долинами, хребтами и высотными зонами; не смешивать климатическую классификацию с физико-географическим районированием.
+> **EN:** Map of Kyrgyzstan's climatic regions showing major valleys, ranges and elevation zones; do not conflate climatic classification with physical-geographical regionalisation.
 
 Кыргызстан находится в глубине Евразийского материка, вдали от основных океанических источников влаги и вблизи аридных областей Центральной Азии. Такое положение способствует высокой континентальности: значительным сезонным и суточным колебаниям температуры, жаркому лету в долинах и холодной зиме во многих внутренних и высокогорных районах.
 
@@ -82,6 +83,7 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 ## 19.4. Осадки и орографический эффект / Precipitation and Orographic Effects
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-B / IMAGE PLACEHOLDER 19-B]** Карта годовых осадков и схема орографического подъёма воздуха с наветренной стороной и дождевой тенью; интерполированные значения отличать от прямых измерений.
+> **EN:** Annual-precipitation map and orographic-lift diagram showing windward slopes and rain shadows; distinguish interpolated values from direct measurements.
 
 Распределение осадков в Кыргызстане крайне неоднородно. На него влияют направление воздушного потока, высота и ориентация хребтов, положение относительно наветренной или подветренной стороны, сезон и тип осадков.
 
@@ -156,6 +158,7 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-C / IMAGE PLACEHOLDER 19-C]** Поперечный климатический профиль от долины до нивально-ледникового пояса с изменением температуры, осадков и снежного режима; границы поясов показывать как ориентировочные.
+> **EN:** Cross-sectional climate profile from a valley to the nival-glacial belt, showing changes in temperature, precipitation and snow regime; belt boundaries are approximate.
 
 Высотная поясность — закономерная смена климатических условий с высотой. В Кыргызстане она особенно выражена из-за значительных перепадов рельефа. При подъёме обычно снижается температура, изменяются количество и сезонность осадков, длительность снежного покрова и продолжительность периода с положительными температурами.
 
@@ -196,6 +199,7 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 ## 19.10. Климатические опасности / Climate-Related Hazards
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-D / IMAGE PLACEHOLDER 19-D]** Инфографика климатических опасностей Кыргызстана: засухи, жара, экстремальные осадки, сели, снегопады и лавины; отдельно показать опасность, экспозицию и уязвимость.
+> **EN:** Infographic of climate-related hazards in Kyrgyzstan: droughts, heat, extreme precipitation, debris flows, heavy snowfall and avalanches; show hazard, exposure and vulnerability separately.
 
 К основным климатическим опасностям относятся:
 - засухи и периоды дефицита влаги;
@@ -257,6 +261,7 @@ SPI thresholds often used as a guide are approximately −1 for moderately dry c
 ## 19.11. Изменение климата: наблюдения и последствия / Climate Change: Observations and Impacts
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-E / IMAGE PLACEHOLDER 19-E]** График наблюдаемого изменения температуры с указанием периода 1960–2023, источника, базового периода и неопределённости; не смешивать разные климатические наборы данных.
+> **EN:** Observed temperature-change chart stating the 1960–2023 period, source, baseline period and uncertainty; do not combine different climate datasets.
 
 Кыргызстан относится к горным странам, уязвимым к изменению климата. По данным Атласа экологических изменений Программы ООН по окружающей среде, среднегодовая температура в стране выросла примерно на **1,2 °C в период 1960–2023 годов**, что превышает приведённую в том же источнике глобальную оценку за сопоставимый период. Эти значения относятся к конкретному набору данных и периоду; другие исследования могут давать отличающиеся оценки из-за различий в базовом периоде, методе и пространственном покрытии.
 
