@@ -448,6 +448,8 @@ if (!imageScientificReview.includes("country-level presence is not") && !imageSc
 if (!imageInsertionMap.includes("Fritillaria eduardii") || !imageInsertionMap.includes("синоним") || !imageInsertionMap.includes("вытаптывание")) errors.push("IMAGE_INSERTION_MAP.md must carry the corrected, conservation-safe Aygul illustration brief");
 if (!imageScientificReview.includes("does not publish the full taxon list") ||
     !imageScientificReview.includes("disputed Suusamyr") ||
+    !imageScientificReview.includes("Son-Kul paper") ||
+    !imageScientificReview.includes("Triplophysa stoliczkae") ||
     !imageScientificReview.includes("unpublished 14-taxon Kempir-Abad list") ||
     !imageScientificReview.includes("not as an additional species") ||
     !imageScientificReview.includes("Diptychus gymnogaster") ||
