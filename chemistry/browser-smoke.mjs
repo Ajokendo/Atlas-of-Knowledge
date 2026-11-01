@@ -333,6 +333,34 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/chemical-formulae.html") {
+      const illustration = page.locator('img[data-svg-ru="../assets/formula-reading-ru.svg"]');
+      if (await illustration.getAttribute("src") !== "../assets/formula-reading-ru.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("Схема чтения химической формулы")) {
+        errors.push(file + ": Russian formula-reading illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+      if (await illustration.getAttribute("src") !== "../assets/formula-reading.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("Annotated chemical formula")) {
+        errors.push(file + ": English formula-reading illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+    }
+
+    if (file === "chapters/organic-chemistry.html") {
+      const illustration = page.locator('img[data-svg-ru="../assets/organic-functional-groups-ru.svg"]');
+      if (await illustration.getAttribute("src") !== "../assets/organic-functional-groups-ru.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("функциональные группы")) {
+        errors.push(file + ": Russian organic-groups illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+      if (await illustration.getAttribute("src") !== "../assets/organic-functional-groups.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("Overview of common organic functional groups")) {
+        errors.push(file + ": English organic-groups illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+    }
+
     if (file === "chapters/amount-of-substance.html") {
       const illustration = page.locator('img[data-svg-ru="../assets/one-mole-scale-ru.svg"]');
       if (await illustration.getAttribute("src") !== "../assets/one-mole-scale-ru.svg" ||
