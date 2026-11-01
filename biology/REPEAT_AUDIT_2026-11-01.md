@@ -298,6 +298,6 @@ Continue technical review by examining each interactive model's state transition
 - Added the record in Russian and English to the fauna chapter and documented its evidence class and limits in the regional species audit. The figure remains an attributed approximate migration-aggregation count, not a national population estimate or trend; the public notice does not provide a counting protocol or uncertainty estimate.
 - Explicitly kept the Institute's Issyk-Kul shoreline record separate from CAMP Alatoo's event-specific count at the proposed Kushtar micro-reserve; the two observations are not added together.
 - Added source-level regression guards for the date, taxon, source URL, approximate count and interpretation limits.
-- GitHub read-back will verify the saved files in this save cycle. The 52 image anchors and 52 Deferred dispositions remain unchanged; no image asset is claimed as generated or integrated.
+- GitHub read-back verified the saved chapter, audit, regression-check source and milestone documents in this save cycle. The 52 image anchors and 52 Deferred dispositions remain unchanged; no image asset is claimed as generated or integrated.
 - The regression script, browser, mobile, accessibility and CI checks have not been run; no test pass is claimed. G4 independent scientific review and G5 independent bilingual/editorial review remain open.
 - Repeat-audit coverage: **90%**. Controlled editorial readiness remains **95/100**; this is not publication approval.
