@@ -63,6 +63,6 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 ## Current status
 
 - **Indexed:** 216 unique visual IDs.
-- **Briefed:** production instructions exist in the corresponding chapter files; marker text is bilingual for the newly reconciled sets.
+- **Briefed:** all 216 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
 - **Generated and approved:** none are claimed by this register.
 - **Next work:** check the older Chapters 01–06 and all regional/administrative map briefs against authoritative source datasets; then create and review the assets in production batches.
