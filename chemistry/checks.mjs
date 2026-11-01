@@ -490,16 +490,16 @@ const feedbackTemplate = fs.existsSync(feedbackTemplatePath) ? fs.readFileSync(f
 if (!feedbackTemplate) {
   errors.push("FEEDBACK_WIDGET_TEMPLATE.html: disabled feedback template is missing");
 } else {
-  if (!/<form\\b[^>]*id=["']chemistry-feedback-form["']/i.test(feedbackTemplate)) {
+  if (!/<form\b[^>]*id=["']chemistry-feedback-form["']/i.test(feedbackTemplate)) {
     errors.push("FEEDBACK_WIDGET_TEMPLATE.html: chemistry feedback form is missing");
   }
-  if (!/<button\\b[^>]*type=["']button["'][^>]*disabled/i.test(feedbackTemplate)) {
+  if (!/<button\b[^>]*type=["']button["'][^>]*disabled/i.test(feedbackTemplate)) {
     errors.push("FEEDBACK_WIDGET_TEMPLATE.html: submission control must remain disabled");
   }
-  if (/\\b(?:action|formaction)\\s*=/i.test(feedbackTemplate) ||
-      /\\b(?:fetch|XMLHttpRequest|sendBeacon)\\s*\\(/i.test(feedbackTemplate) ||
-      /\\b(?:localStorage|sessionStorage|indexedDB)\\b/i.test(feedbackTemplate) ||
-      /addEventListener\\s*\\(\\s*["']submit["']/i.test(feedbackTemplate)) {
+  if (/\b(?:action|formaction)\s*=/i.test(feedbackTemplate) ||
+      /\b(?:fetch|XMLHttpRequest|sendBeacon)\s*\(/i.test(feedbackTemplate) ||
+      /\b(?:localStorage|sessionStorage|indexedDB)\b/i.test(feedbackTemplate) ||
+      /addEventListener\s*\(\s*["']submit["']/i.test(feedbackTemplate)) {
     errors.push("FEEDBACK_WIDGET_TEMPLATE.html: submission, network or browser storage logic must not be present before approval");
   }
   if (!/ответы не отправляются и не сохраняются/i.test(feedbackTemplate) ||
