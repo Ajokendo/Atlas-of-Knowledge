@@ -772,16 +772,16 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. Open Geospatial Consortium (OGC). **Standards and Abstract Specifications** — стандарты обмена и публикации геопространственных данных.
-2. International Organization for Standardization (ISO). **ISO 19100 Geographic information series** — стандарты географической информации.
-3. EPSG Geodetic Parameter Dataset. **EPSG Registry** — определения систем координат и геодезических параметров.
-4. QGIS Documentation. **QGIS User Guide and Training Manual** — открытая документация по настольной ГИС и пространственному анализу.
-5. Esri. **GIS Dictionary and ArcGIS Pro Documentation** — справочные материалы и описания методов ГИС.
+1. Open Geospatial Consortium (OGC). **Standards and Abstract Specifications** — standards for geospatial data exchange and publication. https://www.ogc.org/standards/
+2. International Organization for Standardization (ISO). **ISO/TC 211 Geographic information/Geomatics catalogue** — current ISO 19100-series standards and their status. https://www.iso.org/committee/54904/x/catalogue/
+3. EPSG Geodetic Parameter Dataset. **EPSG Registry** — definitions of coordinate reference systems and geodetic parameters. https://epsg.org/
+4. QGIS Documentation. **QGIS User Guide and Training Manual** — official documentation for desktop GIS and spatial analysis. https://docs.qgis.org/latest/en/docs/
+5. Esri. **GIS Dictionary and ArcGIS Pro Documentation** — reference definitions and GIS-method documentation. https://support.esri.com/en-us/gis-dictionary
 6. Longley, P. A., Goodchild, M. F., Maguire, D. J., Rhind, D. W. **Geographic Information Science and Systems**. Wiley.
 7. O'Sullivan, D., Unwin, D. J. **Geographic Information Analysis**. Wiley.
 8. de Smith, M., Goodchild, M., Longley, P. **Geospatial Analysis: A Comprehensive Guide**.
-9. United Nations Committee of Experts on Global Geospatial Information Management (UN-GGIM). **Integrated Geospatial Information Framework (IGIF)**.
-10. World Geodetic System 1984 (WGS 84). **Technical documentation** — описание глобальной геодезической системы.
+9. United Nations Committee of Experts on Global Geospatial Information Management (UN-GGIM). **Integrated Geospatial Information Framework (IGIF).** https://ggim.un.org/IGIF/
+10. National Geospatial-Intelligence Agency. **Department of Defense World Geodetic System 1984: Its Definition and Relationships with Local Geodetic Systems (TR8350.2).** https://earth-info.nga.mil/GandG/publications/tr8350.2/tr8350.2.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
