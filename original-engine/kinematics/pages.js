@@ -56,8 +56,8 @@ export const PAGES = [
       <p><b>Путь</b> — полная длина траектории. Это скалярная величина, которая не бывает отрицательной.</p>
       <table class="data">
         <tr><th></th><th>перемещение</th><th>путь</th></tr>
-        <tr><td>старт → верхняя точка</td><td>+${f(M.H)} m</td><td>${f(M.H)} m</td></tr>
-        <tr><td>старт → приземление</td><td>0.00 m</td><td>${f(2 * M.H)} m</td></tr>
+        <tr><td>старт → верхняя точка</td><td>+${f(M.H)} м</td><td>${f(M.H)} м</td></tr>
+        <tr><td>старт → приземление</td><td>0.00 м</td><td>${f(2 * M.H)} м</td></tr>
       </table>`,
     cam: { target: [-0.3, 2.9, 0], az: -16, el: 6, dist: 15 }, lit: 'staff', look: { disp: 1 },
     fig: 'Ось положения',
@@ -124,8 +124,8 @@ export const PAGES = [
       <table class="data cols">
         <tr><th>горизонтальное · равномерное</th><th>вертикальное · свободное падение</th></tr>
         <tr><td><i>v</i><sub>x</sub> = ${f(M.VX)} м/с</td><td><i>v</i><sub>0</sub> = ${f(M.VY0)} м/с, <i>v</i> = −${f(M.VY0)} м/с</td></tr>
-        <tr><td>Δ<i>x</i> = <i>v</i><sub>x</sub><i>t</i> = ${f(M.RANGE, 1)} m</td><td><i>a</i> = −${f(M.G)} м/с², Δ<i>y</i> = 0</td></tr>
-        <tr><td><i>t</i> = ${f(M.T)} s</td><td><i>t</i> = ${f(M.T)} s</td></tr>
+        <tr><td>Δ<i>x</i> = <i>v</i><sub>x</sub><i>t</i> = ${f(M.RANGE, 1)} м</td><td><i>a</i> = −${f(M.G)} м/с², Δ<i>y</i> = 0</td></tr>
+        <tr><td><i>t</i> = ${f(M.T)} с</td><td><i>t</i> = ${f(M.T)} с</td></tr>
       </table>
       <p>В верхней точке равна нулю только вертикальная составляющая скорости <i>v</i><sub>y</sub>. Мяч продолжает двигаться по горизонтали со скоростью ${f(M.VX)} м/с.</p>`,
     cam: { target: [4.6, 2.7, 0.6], az: -16, el: 13, dist: 33 }, lit: 'projV', look: { proj: 1, comp: 1 },
@@ -153,8 +153,8 @@ export const PAGES = [
       <table class="data">
         <tr><th>единицы</th><th>направлена прямо поперёк</th><th>направлена на ${deg(M.AIM_UP)}° против течения</th></tr>
         <tr><td>скорость</td><td>√(${f(M.RIVER.vb, 1)}² + ${f(M.RIVER.vw, 1)}²) = ${f(M.vlen(M.vBS(0)))}</td><td>√(${f(M.RIVER.vb, 1)}² − ${f(M.RIVER.vw, 1)}²) = ${f(M.vlen(M.vBS(M.AIM_UP)))}</td></tr>
-        <tr><td>время</td><td>${M.RIVER.w}/${f(M.RIVER.vb, 1)} = ${f(M.crossTime(0), 1)} s</td><td>${M.RIVER.w}/${f(M.vBS(M.AIM_UP)[1], 1)} = ${f(M.crossTime(M.AIM_UP), 1)} s</td></tr>
-        <tr><td>снос течением</td><td>${f(M.RIVER.vw, 1)} × ${f(M.crossTime(0), 1)} = ${f(M.drift(0), 1)} m</td><td>0 m</td></tr>
+        <tr><td>время</td><td>${M.RIVER.w}/${f(M.RIVER.vb, 1)} = ${f(M.crossTime(0), 1)} с</td><td>${M.RIVER.w}/${f(M.vBS(M.AIM_UP)[1], 1)} = ${f(M.crossTime(M.AIM_UP), 1)} с</td></tr>
+        <tr><td>снос течением</td><td>${f(M.RIVER.vw, 1)} × ${f(M.crossTime(0), 1)} = ${f(M.drift(0), 1)} м</td><td>0 м</td></tr>
       </table>
       <p>Только поперечная составляющая скорости перемещает лодку к противоположному берегу, поэтому направление прямо поперёк обеспечивает самое быстрое пересечение реки; течение лишь сносит лодку вниз. Чтобы причалить напротив точки старта, направьте лодку против течения так, чтобы sin θ = ${f(M.RIVER.vw, 1)}/${f(M.RIVER.vb, 1)}.</p>
       <div class="charts">${kchart(KR.map, { xlabel: 'по течению (м)', ylabel: 'поперёк (м)', label: 'Траектории обеих лодок, вид сверху',
@@ -168,7 +168,7 @@ export const PAGES = [
     body: `
       <p class="lede">Уравнения из раздела 1.5 применимы при постоянном <i>a</i>. Здесь ускорение автомобиля <i>a</i> = ${f(M.PULL.a0, 1)} − ${f(M.PULL.k, 1)}<i>t</i> м/с² уменьшается до нуля в момент <i>t</i><sub>1</sub> = ${f(M.T1)} с, поэтому используем интегрирование. Автомобиль начинает движение из состояния покоя в точке отсчёта: <i>v</i><sub>0</sub> = 0, <i>x</i><sub>0</sub> = 0.</p>
       <div class="eq"><i>v</i> = <i>v</i><sub>0</sub> + ∫<i>a</i> d<i>t</i> = ${f(M.PULL.a0, 1)}<i>t</i> − ${f(M.PULL.k / 2)}<i>t</i>² &nbsp;→ ${f(M.V1, 1)} м/с</div>
-      <div class="eq"><i>x</i> = <i>x</i><sub>0</sub> + ∫<i>v</i> d<i>t</i> = ${f(M.PULL.a0 / 2, 1)}<i>t</i>² − ${f(M.PULL.k / 6)}<i>t</i>³ &nbsp;→ ${f(M.X1, 1)} m</div>
+      <div class="eq"><i>x</i> = <i>x</i><sub>0</sub> + ∫<i>v</i> d<i>t</i> = ${f(M.PULL.a0 / 2, 1)}<i>t</i>² − ${f(M.PULL.k / 6)}<i>t</i>³ &nbsp;→ ${f(M.X1, 1)} м</div>
       <div class="charts">
         ${kchart(KR.pa, { xlabel: 't (с)', ylabel: 'a (м/с²) · площадь = Δv', label: 'Ускорение во времени; заштрихована площадь', live: AREA('pa') + CUR('pa'), series: [{ pts: samples(100, 0, 5, M.pa) }] })}
         ${kchart(KR.pv, { xlabel: 't (с)', ylabel: 'v (м/с) · площадь = Δx, наклон = a', label: 'Скорость во времени; заштрихована площадь под графиком', live: AREA('pv') + TAN('pv') + CUR('pv'), series: [{ pts: samples(100, 0, 5, M.pv) }] })}
