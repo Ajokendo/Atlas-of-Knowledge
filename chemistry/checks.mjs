@@ -50,7 +50,8 @@ for (const file of htmlFiles) {
       try {
         const candidate = vm.runInNewContext("(" + literal + ")");
         if (candidate && candidate.ru && candidate.en &&
-            typeof candidate.ru === "object" && typeof candidate.en === "object") {
+            typeof candidate.ru === "object" && typeof candidate.en === "object" &&
+            !Array.isArray(candidate.ru) && !Array.isArray(candidate.en)) {
           dictionary = candidate;
           break;
         }
