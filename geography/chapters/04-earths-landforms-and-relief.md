@@ -805,7 +805,7 @@ Using a prepared teaching map excerpt:
 18. U.S. National Park Service. *Mass Wasting*. https://www.nps.gov/subjects/erosion/mass-wasting.htm
 19. National Geographic Society. *Weathering*. https://education.nationalgeographic.org/resource/weathering/
 20. U.S. National Park Service. *Plateaus and Mesas*. https://www.nps.gov/subjects/nnlandmarks/plateaus-and-mesas.htm
-21. Dang, Y., Jiang, T., Guo, C., Chen, B., Zhang, C., Yang, Q. & Wang, Z. (2024). *Determining the new height of Mount Qomolangma based on the International Height Reference System*. Geo-spatial Information Science, 27(4), 1182–1191 (published online 2023). https://doi.org/10.1080/10095020.2022.2128901
+21. Dang, Y., Jiang, T., Guo, C., Chen, B., Zhang, C., Yang, Q. & Wang, Z. (2024). *Determining the new height of Mount Qomolangma based on the International Height Reference System*. Geo-spatial Information Science, 27(4), 1182–1191 (published online 2023). https://www.tandfonline.com/doi/full/10.1080/10095020.2022.2128901 (DOI: https://doi.org/10.1080/10095020.2022.2128901).
 22. British Geological Survey. *Deposition*. https://www.bgs.ac.uk/discovering-geology/geological-processes/deposition/
 23. NOAA National Ocean Service. *What Is a Barrier Island?* https://oceanservice.noaa.gov/facts/barrier-islands.html
 24. U.S. National Park Service. *Sandy Coast Landforms*. https://www.nps.gov/articles/sandy-coast-landforms.htm
