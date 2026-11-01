@@ -158,7 +158,7 @@
 - дельты;
 - аллювиальные равнины.
 
-**Меандр** — изгиб русла, который обычно развивается вследствие неодинакового распределения скоростей потока: на внешнем берегу преобладает размыв, а на внутреннем — накопление наносов. **Пойма** — часть речной долины, периодически затапливаемая при высоких уровнях воды. **Речная терраса** — ступенчатая площадка на борту долины, часто представляющая собой бывшую пойму, оставшуюся выше современного русла после его врезания или изменения базиса эрозии. **Конус выноса** — веерообразное скопление наносов там, где поток выходит из узкой долины на более пологую поверхность и теряет часть транспортирующей способности. **Дельта** формируется там, где река теряет транспортирующую способность при впадении в водоём или другой водоток.
+**Меандр** — изгиб русла, который обычно развивается вследствие неодинакового распределения скоростей потока: на внешнем берегу преобладает размыв, а на внутреннем — накопление наносов. **Пойма** — часть речной долины, периодически затапливаемая при высоких уровнях воды. **Речная терраса** — ступенчатая площадка на борту долины, часто представляющая собой бывшую пойму, оставшуюся выше современного русла после его врезания или изменения базиса эрозии. **Старица** — дугообразное озеро, образовавшееся после отсечения изгиба меандра от основного русла. **Конус выноса** — веерообразное скопление наносов там, где поток выходит из узкой долины на более пологую поверхность и теряет часть транспортирующей способности. **Дельта** формируется там, где река теряет транспортирующую способность при впадении в водоём или другой водоток.
 
 **Место для иллюстрации 4.6-A — River Landforms.** План и поперечный профиль реки: меандр, пойма, террасы, конус выноса и дельта.
 
@@ -245,9 +245,12 @@
 - **пляжи** — полосы песка, гравия или гальки, накопленные у берега;
 - **косы** — узкие вытянутые аккумулятивные формы, соединённые с сушей одним концом;
 - **пересыпи и бары** — песчаные или галечные валы, частично или полностью отделяющие водное пространство от моря;
+- **томболо** — песчаная или галечная перемычка, соединяющая остров с материком или другим островом;
 - **барьерные острова** — вытянутые острова из наносов, отделённые от материка мелководьем или лагуной;
 - **лагуны** — мелководные водоёмы, частично отделённые от моря косой, баром или барьерным островом;
 - дельтовые побережья.
+
+**Литоральный перенос (вдольбереговой дрейф)** возникает, когда волны подходят к берегу под углом: прибой перемещает песок и гальку вверх по пляжу косо, а обратный поток возвращает воду и часть наносов вниз по склону. В результате материал постепенно перемещается вдоль берега. Этот процесс способствует формированию кос, баров и других аккумулятивных форм.
 
 Побережье может одновременно испытывать разрушение и накопление осадков на соседних участках.
 
@@ -541,9 +544,9 @@ River erosion may be **vertical**, deepening the channel; **lateral**, widening 
 #### 4.6.2. Major Fluvial Landforms
 
 
-Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel. Flow is generally faster near the outer bank, where erosion dominates, and slower near the inner bank, where sediment is more likely to accumulate. A **floodplain** is the part of a river valley periodically inundated during high water. A **river terrace** is a step-like bench along a valley side, often representing an older floodplain left above the modern channel after river incision or a change in base level. An **alluvial fan** is a fan-shaped sediment deposit formed where a stream leaves a confined valley for flatter ground and loses some of its transporting capacity. A **delta** forms where a river loses its capacity to transport sediment as it enters a water body or another river.
+Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel. Flow is generally faster near the outer bank, where erosion dominates, and slower near the inner bank, where sediment is more likely to accumulate. A **floodplain** is the part of a river valley periodically inundated during high water. A **river terrace** is a step-like bench along a valley side, often representing an older floodplain left above the modern channel after river incision or a change in base level. An **oxbow lake** is a crescent-shaped lake formed when a meander loop is cut off from the main river channel. An **alluvial fan** is a fan-shaped sediment deposit formed where a stream leaves a confined valley for flatter ground and loses some of its transporting capacity. A **delta** forms where a river loses its capacity to transport sediment as it enters a water body or another river.
 
-**[ILLUSTRATION PLACEHOLDER 4.6-A]** Show a meander, floodplain, terraces, alluvial fan and delta in plan and cross-section; distinguish erosion from deposition.
+**[ILLUSTRATION PLACEHOLDER 4.6-A]** Show a meander, oxbow lake, floodplain, terraces, alluvial fan and delta in plan and cross-section; distinguish erosion from deposition.
 
 ### 4.7. Glacial Landforms
 
@@ -598,7 +601,7 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 #### 4.10.2. Depositional Coasts
 
 
-**Depositional coasts** may include **beaches** (shoreline accumulations of sand, gravel or pebbles), **spits** (narrow ridges attached to land at one end), barrier bars, **barrier islands** (elongated sediment islands separated from the mainland by shallow water or a lagoon), **lagoons** partly separated from the sea by a spit, bar or barrier island, and deltaic coasts. Erosion and deposition can occur simultaneously on neighbouring coastal sections.
+**Depositional coasts** may include **beaches** (shoreline accumulations of sand, gravel or pebbles), **spits** (narrow ridges attached to land at one end), barrier bars, **tombolos** (sand or gravel ridges connecting an island to the mainland or another island), **barrier islands** (elongated sediment islands separated from the mainland by shallow water or a lagoon), **lagoons** partly separated from the sea by a spit, bar or barrier island, and deltaic coasts. **Longshore drift** occurs when waves approach the shore at an angle: swash moves sediment obliquely up the beach, while backwash returns downslope. The resulting net movement transports sediment along the coast and helps build spits, bars and other depositional features. Erosion and deposition can occur simultaneously on neighbouring coastal sections.
 
 #### 4.10.3. Submarine Relief
 
