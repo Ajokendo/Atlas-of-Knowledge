@@ -849,3 +849,6 @@ The current marker additions are production instructions/placeholders only; no g
 - Chapters 01–13 contain 80 unique IDs; Chapters 14–26 contain 136 unique IDs. Total: **216 unique visual asset IDs**.
 - Each chapter's ID sequence is continuous within its registered range (e.g. 07-A–07-I, 14-A–14-I, 23-A–23-L and 26-A–26-L). Multiple appearances of one ID in teaching text and production briefs are references to the same asset, not separate assets.
 - The count matches `geography/VISUAL_ASSET_REGISTER.md`. The register remains a production index only; it does not represent generated, approved or published images.
+
+
+- Follow-up bibliography hygiene: moved the two new Chapter 18 toponymic sources into the actual reference list and renumbered the list continuously 1–11. Verified commit `1860ed8670f5ff64b6a6eb52f5d2e286dee18791`; final blob `19e6b72a4c4b44889a0790173ed5d21fe1ef8e9a`.
