@@ -531,6 +531,9 @@ try {
           !(await page.locator("[data-i=carbonylNote]").innerText()).includes("внутри цепи")) {
         errors.push(file + ": Russian explanation does not distinguish aldehydes from ketones");
       }
+      if (!(await page.locator("[data-i=arenesText]").innerText()).includes("ароматические углеводороды") || !(await page.locator("[data-i=arenesText]").innerText()).includes("бензольных колец")) {
+        errors.push(file + ": Russian arene definition must identify aromatic hydrocarbons and benzene rings");
+      }
       if (!(await page.locator("[data-i=aromaticityNote]").innerText()).includes("4n + 2 π-электронов") || !(await page.locator("[data-i=aromaticityNote]").innerText()).includes("антиароматичны")) {
         errors.push(file + ": Russian aromaticity note must state the Hückel electron-count rule and its antiaromatic counterpart");
       }
@@ -548,7 +551,7 @@ try {
       if (!(await page.locator("[data-i=aromaticityNote]").innerText()).includes("4n + 2 π electrons") || !(await page.locator("[data-i=aromaticityNote]").innerText()).includes("antiaromatic")) {
         errors.push(file + ": English aromaticity note must state the Hückel electron-count rule and its antiaromatic counterpart");
       }
-      if (!(await page.locator("[data-i=arenesText]").innerText()).includes("delocalised")) {
+      if (!(await page.locator("[data-i=arenesText]").innerText()).includes("aromatic hydrocarbons") || !(await page.locator("[data-i=arenesText]").innerText()).includes("benzene rings")) {
         errors.push(file + ": English aromaticity note must refer to a delocalised pi system");
       }
       if (await page.locator(".tile").count() !== 11) errors.push(file + ": expected eleven organic-compound family cards, including alkynes");
