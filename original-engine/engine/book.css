@@ -181,7 +181,7 @@
 @media (prefers-reduced-motion: reduce) { .paused { transition: none; } }
 .lbl.vec.grey { color: var(--mid); }
 
-.lbl.mark { font: 15px/1 var(--serif); color: #86868c; }
+.lbl.mark { font: 15px/1 var(--serif); color: #5f5f64; }
 
 /* a left page whose text runs long scrolls instead of being clipped */
 @media (min-width: 901px) { .page.left { overflow-y: auto; scrollbar-width: thin; } }
