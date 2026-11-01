@@ -152,6 +152,9 @@ Managing water demand requires:
 
 Water-saving technologies should be assessed at the river-basin scale. Improving efficiency at one location may encourage the expansion of irrigated areas and fail to reduce total abstraction if limits and accounting systems are absent.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-C / IMAGE PLACEHOLDER 26-C]** Карта уязвимости речных бассейнов: водозаборы, население, орошение и трансграничные направления с датой и источником.
+> **EN:** River-basin vulnerability map showing abstractions, population, irrigation and transboundary directions, with data date and source.
+
 ## 26.4. Земли, почвы и пастбища / Land, Soils and Pastures
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-D / IMAGE PLACEHOLDER 26-D]** Карта землепользования и состояния пастбищ: отделить национальную агрегированную оценку деградации от локальных обследований и спутниковых индексов.
@@ -267,6 +270,9 @@ According to UNEP, forest cover increased from 6.2% of the country's area in 200
 
 Biodiversity conservation cannot be limited to the boundaries of nature reserves. It requires connectivity between natural areas, sustainable land use outside protected areas and measures to reduce conflict between people and wildlife.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-E / IMAGE PLACEHOLDER 26-E]** Карта лесных экосистем и экологических коридоров с официальными границами ООПТ и датой геоданных.
+> **EN:** Map of forest ecosystems and ecological corridors, using official protected-area boundaries and dated geodata.
+
 ## 26.6. Воздух и здоровье населения / Air Quality and Public Health
 
 Загрязнение воздуха — один из наиболее заметных экологических вызовов городов Кыргызстана, особенно в отопительный сезон. В Бишкеке на концентрацию загрязнителей влияют бытовое отопление, транспорт, пыль, промышленные источники, рельеф и зимние температурные инверсии. В других городах источники могут отличаться по структуре и масштабу.
@@ -310,6 +316,9 @@ Effective air-quality policy should combine monitoring of PM2.5 and other pollut
 
 Children, pregnant women, older people and people with chronic illnesses require particular attention. Public information about pollution should be clear and accompanied by practical advice on reducing exposure.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-F / IMAGE PLACEHOLDER 26-F]** Карта городского качества воздуха: источники выбросов, посты наблюдений, сезонность и температурные инверсии.
+> **EN:** Urban air-quality map showing emission sources, monitoring stations, seasonality and temperature inversions.
+
 ## 26.7. Вода, сточные воды и санитарная безопасность / Water, Wastewater and Sanitation
 
 Безопасность воды включает доступ к питьевой воде, санитарные услуги, очистку сточных вод, защиту водосборов и управление промышленными сбросами. В горной стране загрязнение в верхней части бассейна может воздействовать на населённые пункты и сельскохозяйственные территории ниже по течению.
@@ -346,6 +355,9 @@ Main challenges include:
 - inadequate protection of sanitary zones around drinking-water sources.
 
 Priority measures include building and modernising treatment facilities, adopting energy-efficient technologies, controlling discharge quality, laboratory monitoring, managing sewage sludge, protecting water intakes and ensuring sustainable financing for system operation. Constructing a facility without an operating and maintenance budget does not guarantee a lasting result.
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-G / IMAGE PLACEHOLDER 26-G]** Схема водозаборов, очистных сооружений, канализации, сбросов и чувствительных водных объектов.
+> **EN:** Diagram of water intakes, treatment plants, sewerage, discharges and sensitive water bodies.
 
 ## 26.8. Отходы и циркулярная экономика / Waste and Circular Economy
 
@@ -400,6 +412,9 @@ Priority actions include:
 
 Waste incineration is not a universal solution. Without flue-gas cleaning and control of the waste composition, it can transfer pollution from the solid phase into the atmosphere.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-H / IMAGE PLACEHOLDER 26-H]** Схема обращения с отходами: предотвращение, раздельный сбор, сортировка, переработка, компостирование и безопасное размещение остатка.
+> **EN:** Waste-management diagram showing prevention, separate collection, sorting, recycling, composting and safe residual disposal.
+
 ## 26.9. Горнодобывающая промышленность и экологическое наследие / Mining and Environmental Legacy
 
 Горнодобывающая отрасль создаёт рабочие места, экспортные доходы и налоговую базу, но может формировать экологические риски на десятилетия. Особое значение имеют хвостохранилища, отвалы, шахтные воды, кислотный дренаж, пыление, нарушение земель и безопасность старых промышленных площадок.
@@ -432,6 +447,9 @@ The mining sector creates jobs, export earnings and tax revenue, but it can also
 - public access to information about emergencies and pollution.
 
 For legacy industrial sites, priorities include inventories of contaminated locations, assessment of contaminant pathways, risk-based ranking of sites, safe containment or remediation, and long-term monitoring. The end of mining does not automatically eliminate environmental risk.
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-J / IMAGE PLACEHOLDER 26-J]** Карта экологических обязательств горнодобывающих объектов: карьеры, шахты, хвостохранилища, нарушенные земли, мониторинг и рекультивация.
+> **EN:** Map of mining-related environmental liabilities: open pits, mines, tailings facilities, disturbed land, monitoring and rehabilitation.
 
 ## 26.10. Природные опасности и снижение риска бедствий / Natural Hazards and Disaster Risk Reduction
 
@@ -778,6 +796,9 @@ This is a substantial volume, but it should not automatically be described entir
 **Why this matters for sustainability:** reducing real leakage can lower pressure on water sources, pumps and energy supply. However, a water audit is needed first to distinguish physical losses from commercial or accounting discrepancies and to check measurement reliability.
 
 **Check your understanding:** if 800 m³ enters a system each day and recorded useful consumption is 680 m³, what percentage of the supplied volume is the difference? What information is needed to determine how much of it is physical leakage?
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 26-L / IMAGE PLACEHOLDER 26-L]** Сценарный график до 2050 года с тремя вариантами и сопоставимыми индикаторами климата, воды, земель, биоразнообразия, воздуха и качества жизни.
+> **EN:** Scenario chart to 2050 with three pathways and comparable indicators for climate, water, land, biodiversity, air and quality of life.
 
 ## 26.15. Практические работы / Practical Exercises
 
