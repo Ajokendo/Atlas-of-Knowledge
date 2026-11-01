@@ -569,3 +569,6 @@ This checkpoint preserves the working context for continuation after a session i
 
 
 - Chapter 3: added full English-language teaching text for the introduction and core sections on Earth's internal structure, minerals, rocks and the rock cycle, geological methods, plate tectonics, earthquakes, volcanism, folding and faulting, geological time, continental/ocean-basin evolution, mineral resources and geological hazards. Existing bilingual worked examples on epicentre location, seismogram reading and relative dating were retained; summary, review questions and practical assignment now have English counterparts. Chapter update commit: `66fc619e1c4be59e061f15dc75fc2f5dd0f5a2ff`; re-fetched and verified.
+
+
+- Chapter 4: added full English-language teaching text for geomorphology, endogenic/exogenic processes, landform classification, mountains, plains, fluvial/glacial/aeolian/karst/coastal landforms, slope processes, weathering, Earth's relief extremes, mapping and human interactions with relief. Existing bilingual worked examples on contour-based slope calculation and slope stability were retained; summary, review questions and practical assignment now have English counterparts. Chapter update commit: `1cfda02eba9b3fcd2c69b1fbfc41140731c2cd76`; re-fetched and verified.
