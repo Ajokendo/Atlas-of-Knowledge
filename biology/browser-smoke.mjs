@@ -214,6 +214,22 @@ try {
           }
         }
 
+        if (file.endsWith("/systematics.html")) {
+          const nameControl = page.locator('#name-controls [data-name="human"]');
+          const nameOutput = page.locator("#name-output");
+          if (await nameOutput.getAttribute("aria-live") !== "polite") {
+            errors.push(file + ": dynamic species-name output is not announced through a polite live region");
+          }
+          const beforeName = await nameOutput.innerText();
+          await nameControl.focus();
+          await page.keyboard.press("Enter");
+          const afterName = await nameOutput.innerText();
+          if (await nameControl.getAttribute("aria-pressed") !== "true" ||
+              !afterName || afterName === beforeName) {
+            errors.push(file + ": keyboard selection did not update the species-name example");
+          }
+        }
+
         if (file.endsWith("/botany.html")) {
           const answer = page.locator("#answers button").first();
           if (await answer.count()) {
