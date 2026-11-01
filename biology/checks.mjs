@@ -250,6 +250,7 @@ if (!faunaKyrgyzstanFile.includes("четыре полевых сезона 2016
 if (!faunaKyrgyzstanFile.includes("Ursus arctos isabellinus") || !faunaKyrgyzstanFile.includes("Mammal Diversity Database") || !faunaKyrgyzstanFile.includes("not treat Central Asian brown bear forms uniformly")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Tian Shan brown bear subspecies designation must remain qualified");
 }
+if (/<a\b[^>]*>\s*<a\b/i.test(faunaKyrgyzstanFile)) errors.push("chapters/fauna-kyrgyzstan.html: nested anchors must be repaired so catalogue citations remain accessible");
 if (!faunaKyrgyzstanFile.includes("Coregonus lavaretus") || !faunaKyrgyzstanFile.includes("Coregonus peled") || !faunaKyrgyzstanFile.includes("Triplophysa stoliczkae")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul fish account must retain the 2021–2023 field-study taxa");
 }
