@@ -169,6 +169,12 @@ try {
               !(await page.locator("#carbon-output").innerText()).startsWith("Photosynthesis:")) {
             errors.push(file + ": Space key did not activate the photosynthesis control");
           }
+          const selectedStateContrast = await sampleTextContrast(page);
+          contrastSamples += selectedStateContrast.measured;
+          contrastFailures += selectedStateContrast.failures.length;
+          if (selectedStateContrast.failures.length) {
+            errors.push(file + ": selected-control state contrast failures " + JSON.stringify(selectedStateContrast.failures.slice(0, 8)));
+          }
         }
 
         if (file.endsWith("/botany.html")) {
@@ -180,6 +186,12 @@ try {
             const afterAnswer = await page.locator("#result").innerText();
             if (!afterAnswer || afterAnswer === beforeAnswer) {
               errors.push(file + ": Enter key did not activate the first quiz answer");
+            }
+            const feedbackStateContrast = await sampleTextContrast(page);
+            contrastSamples += feedbackStateContrast.measured;
+            contrastFailures += feedbackStateContrast.failures.length;
+            if (feedbackStateContrast.failures.length) {
+              errors.push(file + ": quiz-feedback state contrast failures " + JSON.stringify(feedbackStateContrast.failures.slice(0, 8)));
             }
           } else {
             errors.push(file + ": quiz answer control not found for keyboard activation test");
@@ -239,6 +251,12 @@ try {
             s.boxShadow !== "none" || s.filter !== "none";
         });
         if (!focusIndicator) errors.push(file + ": first keyboard-focused control has no detectable focus indicator");
+        const focusedContrast = await sampleTextContrast(page);
+        contrastSamples += focusedContrast.measured;
+        contrastFailures += focusedContrast.failures.length;
+        if (focusedContrast.failures.length) {
+          errors.push(file + ": keyboard-focus-state contrast failures " + JSON.stringify(focusedContrast.failures.slice(0, 8)));
+        }
         await page.keyboard.press("Tab");
         const advanced = await page.evaluate(() => {
           const el = document.activeElement;
