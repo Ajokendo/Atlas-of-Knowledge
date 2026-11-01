@@ -38,6 +38,7 @@
 ## 6.2. Круговорот воды в природе / The Hydrological Cycle
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-A / IMAGE PLACEHOLDER 6-A]** Глобальный круговорот воды: испарение, транспирация, конденсация, осадки, инфильтрация, сток и подземное движение.
+> **EN:** Global water cycle showing evaporation, transpiration, condensation, precipitation, infiltration, runoff and groundwater movement.
 
 Круговорот воды — непрерывное перемещение воды между океаном, сушей, атмосферой, криосферой и подземными резервуарами под воздействием солнечной энергии и силы тяжести.
 
@@ -66,6 +67,7 @@
 ## 6.3. Мировой океан: единая система / The World Ocean as an Integrated System
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-B / IMAGE PLACEHOLDER 6-B]** Карта пяти океанов с указанием используемой гидрографической классификации и границы Южного океана.
+> **EN:** Map of the five oceans identifying the hydrographic classification used and the boundary of the Southern Ocean.
 
 Мировой океан образует непрерывную водную систему, хотя традиционно его разделяют на отдельные океаны и моря. Границы между океанами условны и определяются географической и гидрографической традицией.
 
@@ -89,6 +91,7 @@
 ## 6.4. Рельеф океанического дна / Ocean-Floor Relief
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-C / IMAGE PLACEHOLDER 6-C]** Профиль океанического дна с шельфом, материковым склоном, абиссальной равниной, срединно-океаническим хребтом и глубоководным желобом.
+> **EN:** Ocean-floor profile showing the continental shelf, continental slope, abyssal plain, mid-ocean ridge and deep-sea trench.
 
 Океаническое дно имеет сложное строение и включает формы, сопоставимые по масштабу с крупнейшими формами рельефа суши.
 
@@ -131,6 +134,7 @@
 ## 6.6. Волны, приливы и морские течения / Waves, Tides and Ocean Currents
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-D / IMAGE PLACEHOLDER 6-D]** Схемы ветровых волн, приливов и поверхностных/глубинных течений с раздельными причинами формирования.
+> **EN:** Diagrams of wind waves, tides and surface/deep currents, with their distinct generating mechanisms.
 
 ### 6.6.1. Волны / Waves
 
