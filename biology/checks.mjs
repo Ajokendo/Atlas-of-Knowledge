@@ -882,8 +882,8 @@ if (!faunaKyrgyzstanFile.includes("central_asia_mammals&amp;v=1.12") ||
     !faunaKyrgyzstanFile.includes("published 26 October 2026") ||
     !faunaKyrgyzstanFile.includes("not based on field sampling") ||
     !faunaKyrgyzstanFile.includes("lists 407 species") ||
-    !faunaKyrgyzstanFile.includes("reports 327") ||
-    !faunaKyrgyzstanFile.includes("reports 380") ||
+    !faunaKyrgyzstanFile.includes("country profile 327") ||
+    !faunaKyrgyzstanFile.includes("database 380") ||
     !faunaKyrgyzstanFile.includes("133 species regularly represented in open observation data") ||
     !faunaKyrgyzstanFile.includes("its list is incomplete")) {
   errors.push("chapters/fauna-kyrgyzstan.html: mammal checklist v1.12 and non-comparable bird checklist totals must retain date, source scope and non-field / incomplete-list caveats");
