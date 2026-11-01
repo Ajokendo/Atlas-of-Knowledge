@@ -127,3 +127,8 @@ The endpoint and storage provider must be selected and configured before enablin
 - [ ] A confirmed correction can be traced to evidence and a published commit.
 
 **Current pilot status:** policy and architecture specified. No live feedback endpoint or moderation database is configured by this document. Do not describe the form as operational until the complete submission path is tested.
+
+
+## Reusable interface template
+- `FEEDBACK_WIDGET_TEMPLATE.html` provides a bilingual accessible form template for the Biology pilot and later subject reuse.
+- The endpoint is intentionally unconfigured and the submit control stays disabled. The template is not a live submission channel until an approved HTTPS endpoint and private moderation queue are configured and tested.
