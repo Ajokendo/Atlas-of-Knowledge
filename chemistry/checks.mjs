@@ -264,11 +264,11 @@ function walkSvg(dir) {
 walkSvg(assetRoot);
 for (const file of svgFiles) {
   const source = fs.readFileSync(file, "utf8");
-  const relative = path.relative(root, file).replace(/\\/g, "/");
-  if (!/<svg\\b[^>]*\\bviewBox=/i.test(source)) errors.push(relative + ": SVG missing viewBox");
-  if (!/<svg\\b[^>]*\\brole=["']img["']/i.test(source)) errors.push(relative + ": SVG missing role=img");
-  if (!/<title\\b[^>]*>[\\s\\S]*?<\\/title>/i.test(source)) errors.push(relative + ": SVG missing accessible title");
-  if (!/<desc\\b[^>]*>[\\s\\S]*?<\\/desc>/i.test(source)) errors.push(relative + ": SVG missing accessible description");
+  const relative = path.relative(root, file).replace(/\/g, "/");
+  if (!/<svg\b[^>]*\bviewBox=/i.test(source)) errors.push(relative + ": SVG missing viewBox");
+  if (!/<svg\b[^>]*\brole=["']img["']/i.test(source)) errors.push(relative + ": SVG missing role=img");
+  if (!/<title\b[^>]*>[\s\S]*?<\/title>/i.test(source)) errors.push(relative + ": SVG missing accessible title");
+  if (!/<desc\b[^>]*>[\s\S]*?<\/desc>/i.test(source)) errors.push(relative + ": SVG missing accessible description");
 }
 
 const isotopeSvgPath = path.join(assetRoot, "isotope-abundance.svg");
