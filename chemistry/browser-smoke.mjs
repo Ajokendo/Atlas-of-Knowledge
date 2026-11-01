@@ -1642,7 +1642,7 @@ try {
         }
         if (await link.getAttribute("href") !== expectedUrl) errors.push(file + ": incorrect URL for " + key);
         if (await link.getAttribute("target") !== "_blank" ||
-            !(await link.getAttribute("rel") || "").split(/\\s+/).includes("noopener")) {
+            !(await link.getAttribute("rel") || "").includes("noopener")) {
           errors.push(file + ": external source link " + key + " must open safely in a new tab");
         }
       }
