@@ -459,11 +459,11 @@ if (!imageDispositionRegister.includes("G6 disposition:** complete as an explici
   errors.push("IMAGE_DISPOSITION_REGISTER.md must document the no-asset deferral and be revised if image assets are added");
 }
 for (const id of imageBriefIds) if (!insertionMapIds.includes(id)) errors.push("IMAGE_INSERTION_MAP.md is missing insertion anchor " + id);
-const imageChecklistCount = (imagePlanFile.match(/^- \[ \] \*\*/gm) || []).length;
+const imageChecklistCount = (imagePlanFile.match(/^- \[~\] \*\*/gm) || []).length;
 const priorityCounts = {
-  P1: (imagePlanFile.match(/^- \[ \] \*\*\[P1\]/gm) || []).length,
-  P2: (imagePlanFile.match(/^- \[ \] \*\*\[P2\]/gm) || []).length,
-  P3: (imagePlanFile.match(/^- \[ \] \*\*\[P3\]/gm) || []).length
+  P1: (imagePlanFile.match(/^- \[~\] \*\*\[P1\]/gm) || []).length,
+  P2: (imagePlanFile.match(/^- \[~\] \*\*\[P2\]/gm) || []).length,
+  P3: (imagePlanFile.match(/^- \[~\] \*\*\[P3\]/gm) || []).length
 };
 if (priorityCounts.P1 !== 13 || priorityCounts.P2 !== 26 || priorityCounts.P3 !== 13) {
   errors.push("IMAGE_GENERATION_PLAN.md priority allocation must remain 13 P1, 26 P2 and 13 P3; found " + JSON.stringify(priorityCounts));
@@ -471,8 +471,8 @@ if (priorityCounts.P1 !== 13 || priorityCounts.P2 !== 26 || priorityCounts.P3 !=
 if (!imagePlanFile.includes("P1 — highest value") || !imagePlanFile.includes("P2 — useful complement") || !imagePlanFile.includes("P3 — lower priority")) {
   errors.push("IMAGE_GENERATION_PLAN.md must define all three image-production priority levels");
 }
-if (imageChecklistCount !== 52) errors.push("IMAGE_GENERATION_PLAN.md must contain 52 planned checklist items, found " + imageChecklistCount);
-if (!imagePlanFile.includes("Change `[ ]` to `[x]` only after scientific review") || !imagePlanFile.includes("Do not ask the image model to invent species")) {
+if (imageChecklistCount !== 52) errors.push("IMAGE_GENERATION_PLAN.md must contain 52 explicitly deferred checklist items, found " + imageChecklistCount);
+if (!imagePlanFile.includes("Change `[~]` to `[x]` only after the exact asset exists") || !imagePlanFile.includes("Do not ask the image model to invent species")) {
   errors.push("IMAGE_GENERATION_PLAN.md must retain the scientific-review and no-invented-species production rules");
 }
 
