@@ -12,3 +12,5 @@ The Chemistry CI workflow installs exact versions of its browser-audit dependenc
 - [x] Both runs completed the repository validation, pinned browser-tool installation, local server startup, and Chromium tests across the Chemistry pages.
 - [x] The latest recorded automated accessibility gate covers all 21 Chemistry pages in Russian and English (42 axe-core scans), with no serious or critical findings in the final CI run.
 - [ ] Physical-device, screen-reader, and independent scientific reviews remain external pending gates; CI success does not satisfy them.
+
+- [x] Checkpoint commit `e244cb8c894eb5cb1ab1aa8a48615cd26b3d17f4`: full Chemistry CI run [41326918004](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41326918004) completed successfully, including repository checks and the Chromium browser suite.
