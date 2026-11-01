@@ -1403,6 +1403,43 @@ try {
       if (!Number.isFinite(nearEquivalencePH) || nearEquivalencePH < 6.9 || nearEquivalencePH > 7.1) {
         errors.push(file + ": pH is discontinuous near equivalence because water autoionisation is not represented");
       }
+
+      await page.locator("#reset").click();
+      if ((await page.locator("#ph").innerText()).trim() !== "pH = 1.00") {
+        errors.push(file + ": initial 0.10 mol/L strong-acid solution should start at pH 1.00");
+      }
+      await page.locator("#baseV").fill("200");
+      await page.locator("#baseV").dispatchEvent("input");
+      const excessBasePH = Number((await page.locator("#ph").innerText()).replace("pH = ", ""));
+      if (!Number.isFinite(excessBasePH) || excessBasePH < 12.5 || excessBasePH > 12.6 ||
+          !(await page.locator("#beakerLabel").innerText()).includes("OH")) {
+        errors.push(file + ": a twofold excess of strong base should produce an alkaline solution with hydroxide excess");
+      }
+      await page.locator("#acidV").fill("200");
+      await page.locator("#baseV").fill("100");
+      await page.locator("#acidV").dispatchEvent("input");
+      if ((await page.locator("#ph").innerText()).trim() !== "pH = 7.00") {
+        errors.push(file + ": doubling initial acid volume should double the equivalence volume for equal concentrations");
+      }
+      await page.locator("#baseC").fill("0.2");
+      await page.locator("#baseV").fill("100");
+      await page.locator("#baseC").dispatchEvent("input");
+      if ((await page.locator("#ph").innerText()).trim() !== "pH = 7.00") {
+        errors.push(file + ": doubling base concentration should halve the equivalence volume");
+      }
+      await page.locator("#lang").click();
+      const englishEquivalence = (await page.locator("#status").innerText()).trim();
+      if (!englishEquivalence.includes("Equivalence point") ||
+          !(await page.locator("#baseOut").innerText()).trim().endsWith("mL")) {
+        errors.push(file + ": equivalent-state explanation and units must remain correct in English");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#acidC").fill("2.1");
+      await page.locator("#acidC").dispatchEvent("input");
+      if (!(await page.locator("#condition").innerText()).includes("Проверьте") ||
+          (await page.locator("#ph").innerText()).trim() !== "pH = —") {
+        errors.push(file + ": concentration above the model's declared maximum must invalidate stale results");
+      }
       await page.locator("#reset").click();
     }
 
