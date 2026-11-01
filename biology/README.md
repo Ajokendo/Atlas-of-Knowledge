@@ -581,3 +581,12 @@ A first-pass review of the 13 pages carrying the 52 planned illustration briefs 
 - These are planning placeholders, not generated assets. No image has been claimed as created, scientifically reviewed or integrated. The local checks script and CI have not been run in this session.
 
 Remote structural re-audit after the insertion-map update: 52 markers across 13 pages; 52 unique IDs; all 52 include a priority, WebP asset path, aspect ratio and bilingual brief; all 52 IDs match the insertion map exactly; the central plan contains 52 prioritized items. This audit inspected GitHub file contents and did not execute `checks.mjs` locally or establish a CI pass.
+
+
+## Kyrgyzstan priority-illustration scientific review — 1 November 2026
+
+- Added `IMAGE_SCIENTIFIC_REVIEW.md`, a 13-item P1 review register covering the five priority flora visuals and eight priority fauna visuals. Each brief now has explicit evidence scope, habitat/co-occurrence safeguards and approval checks.
+- Cross-checked the Aygul plate nomenclature against Kew Plants of the World Online: `Fritillaria eduardii` is the accepted name and `Petilium eduardii` is a synonym. Updated the central insertion-map brief accordingly; the review also flags the dated 2023–2026 Aygul-Tash access/collection moratorium report so no current access claim is made without a fresh official check.
+- Added current snow-leopard nomenclature guidance (`Panthera uncia`) and warned against treating older `Uncia uncia` records as a separate species. Strengthened the image requirements for birds, freshwater fauna and oblast-level scenes so country-level presence is not mistaken for proof at a particular locality.
+- The new review is a production safeguard, not specialist approval. All 13 P1 images remain planned; none is claimed to have been generated, scientifically approved or integrated.
+- Re-read the committed review and insertion-map files from GitHub and checked that the updated Aygul nomenclature and all 13 P1 entries are present. These were remote content checks only; `checks.mjs` was not executed locally and no CI pass is claimed. Overall Biology editorial readiness remains **80/100** pending broader chapter review, independent specialist validation, bilingual copy-editing and live technical/accessibility QA.
