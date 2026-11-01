@@ -271,7 +271,7 @@ export function buildWorld(E) {
   const X7 = STATIONS.spheres, YS = 1.3, RS = M.SPH.R * S, xc = X7 - 2.2, xi = X7 + 2.2;
   ground(X7 - 7, X7 + 7, -3, 3);
   const sph = [];
-  for (const [key, x, dirx, title, sub, Vf, Ef] of [['conductor', xc, -1, 'A charged conducting sphere', 'charge on the surface, E = 0 inside', M.Vcond, M.Econd], ['insulator', xi, 1, 'A charged insulating sphere', 'charge spread through the volume', M.Vins, M.Eins]]) {
+  for (const [key, x, dirx, title, sub, Vf, Ef] of [['conductor', xc, -1, 'Заряженная проводящая сфера', 'заряд на поверхности, внутри E = 0', M.Vcond, M.Econd], ['insulator', xi, 1, 'Заряженная диэлектрическая сфера', 'заряд распределён по всему объёму', M.Vins, M.Eins]]) {
     const g = asm(key, root, { title, sub });
     part(g, new THREE.SphereGeometry(RS, 48, 32), { tone: 'mid', name: 'Сфера', pos: [x, YS, 0], mat: translucent('paper', 0.42) });
     // tiny + marks: on the surface for the conductor, through the volume for the insulator
@@ -314,7 +314,7 @@ export function buildWorld(E) {
   }
   const eAcc = [YA + 1.75, YA - 1.75].map(y => { const a = field(root); setArrow(a, V(X8 - M.ACC.E * SC.Eacc / 2, y, 0.9), V(M.ACC.E * SC.Eacc, 0, 0)); return a; });
   label('vec blue', '<b><i>E</i></b>', () => tip(eAcc[0]));
-  const prot = charge(gAcc, 1, 0.24, 'Proton'), elec = charge(gAcc, -1, 0.17, 'Electron');
+  const prot = charge(gAcc, 1, 0.24, 'Протон'), elec = charge(gAcc, -1, 0.17, 'Электрон');
   label('tick', 'протон', () => wp(prot).add(V(0.1, -0.45, 0))); label('tick', 'электрон', () => wp(elec).add(V(0.25, -0.38, 0)));
   const fP = force(gAcc), fE = force(gAcc);
   label('vec', '<i>eE</i>', () => tip(fP)); label('vec', '<i>eE</i>', () => tip(fE));
