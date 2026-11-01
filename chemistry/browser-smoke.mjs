@@ -1416,7 +1416,7 @@ try {
         errors.push(file + ": a twofold excess of strong base should produce an alkaline solution with hydroxide excess");
       }
       await page.locator("#acidV").fill("200");
-      await page.locator("#baseV").fill("100");
+      await page.locator("#baseV").fill("200");
       await page.locator("#acidV").dispatchEvent("input");
       if ((await page.locator("#ph").innerText()).trim() !== "pH = 7.00") {
         errors.push(file + ": doubling initial acid volume should double the equivalence volume for equal concentrations");
