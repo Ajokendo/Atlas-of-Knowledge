@@ -169,6 +169,13 @@ try {
               !(await page.locator("#carbon-output").innerText()).startsWith("Photosynthesis:")) {
             errors.push(file + ": Space key did not activate the photosynthesis control");
           }
+          const ecologyStateContrast = await sampleTextContrast(page);
+          contrastSamples += ecologyStateContrast.measured;
+          contrastFailures += ecologyStateContrast.failures.length;
+          if (ecologyStateContrast.failures.length) {
+            errors.push(file + ": post-keyboard Ecology state contrast failures " +
+              JSON.stringify(ecologyStateContrast.failures.slice(0, 8)));
+          }
           const selectedStateContrast = await sampleTextContrast(page);
           contrastSamples += selectedStateContrast.measured;
           contrastFailures += selectedStateContrast.failures.length;
@@ -186,6 +193,13 @@ try {
             const afterAnswer = await page.locator("#result").innerText();
             if (!afterAnswer || afterAnswer === beforeAnswer) {
               errors.push(file + ": Enter key did not activate the first quiz answer");
+            }
+            const quizStateContrast = await sampleTextContrast(page);
+            contrastSamples += quizStateContrast.measured;
+            contrastFailures += quizStateContrast.failures.length;
+            if (quizStateContrast.failures.length) {
+              errors.push(file + ": post-quiz state contrast failures " +
+                JSON.stringify(quizStateContrast.failures.slice(0, 8)));
             }
             const feedbackStateContrast = await sampleTextContrast(page);
             contrastSamples += feedbackStateContrast.measured;
