@@ -745,7 +745,7 @@ The remaining five percentage points are reserved for evidence, not additional p
 - [ ] **G4 — Independent scientific review:** obtain qualified review of remaining taxonomic and species-occurrence uncertainties, prioritizing freshwater fish records and other locally sensitive distribution claims; record reviewer scope and resolved/deferred findings.
 - [ ] **G5 — Bilingual editorial and release review:** complete independent Russian/English copy-editing, check consistency of terminology and citations, and verify the published pages at mobile and desktop widths.
 - Review materials for G4/G5: [EXTERNAL_REVIEW_PACKET.md](EXTERNAL_REVIEW_PACKET.md) — prepared scope, priority claims, editorial checklist and reviewer sign-off record.
-- [x] **G6 — Illustration disposition (deferred):** all 52 assets are explicitly deferred in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md), with rationale, source/licence status, scientific-review requirements and verified placeholder integration. No images have been generated or sourced; visual production remains pending.
+- [x] **G6 — Illustration disposition (deferred):** all 52 assets are explicitly deferred in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md), with rationale, source/licence status and verified placeholder integration. The 13 P1 briefs have detailed review in [IMAGE_SCIENTIFIC_REVIEW.md](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs have individual review in [IMAGE_BRIEF_REVIEW.md](IMAGE_BRIEF_REVIEW.md). No images have been generated or sourced; visual production remains pending.
 
 **Control rule:** keep the readiness score at 95/100 while G4 and G5 remain unchecked. G6 is closed as a documented deferral only; that does not mean the 52 visual assets have been produced. Passing G1–G3 does not certify scientific review or bilingual editorial release. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
 
@@ -879,9 +879,20 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 
 ## G6 illustration disposition closed by explicit deferral — 1 November 2026
 
-- Created [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) with an individual disposition for all 52 target assets, including exact anchor and filename, priority, deferral reason, source/licence status, brief-review status and future activation criteria.
+- Created [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) with an individual disposition for all 52 target assets, including exact anchor and filename, priority, deferral reason, source/licence status, brief-review status and future activation criteria. Added [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md) for the 39 P2/P3 briefs; the 13 P1 briefs remain covered by [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md).
 - All 52 are **Deferred**, not **Produced**. No third-party image was inserted without verified licence/attribution; no generated WebP was claimed to exist. The user-approved image-note fallback remains in place at all 52 anchors.
 - Updated `IMAGE_INSERTION_MAP.md` to link the disposition register and clarify that visual production remains pending.
 - Added regression assertions requiring 52 unique deferral rows matching the 52 mapped page anchors. The gate is closed as a disposition decision only; it does not certify that the Atlas has its final illustrations.
 - G6 is checked. G4 and G5 still require qualified independent reviewers. Readiness remains **95/100**.
 - Source checkpoint before this note: `7abcaca92c9c2796e19241551fd0d4282ff36dbe`.
+
+
+## Complete image-brief review coverage — 1 November 2026
+
+- The detailed P1 review covers all 13 highest-priority Kyrgyzstan flora/fauna assets.
+- Created `IMAGE_BRIEF_REVIEW.md` with individual scientific constraints for the remaining 39 P2/P3 briefs, bringing brief-level review coverage to all 52 mapped assets.
+- Updated `IMAGE_DISPOSITION_REGISTER.md` so each deferred P1 row points to the detailed review and each deferred P2/P3 row points to the individual brief review.
+- Added regression checks for the 39 P2/P3 review rows, the 13 P1 asset-to-review matches and all 52 deferral dispositions.
+- All 52 images remain **Deferred**; no image file has been generated, sourced or inserted. The brief reviews are complete, but actual image production and asset-level QA remain pending.
+- G6 remains closed as an explicit deferral decision; G4 and G5 remain open. Readiness remains **95/100**.
+- Source checkpoint before this note: `e5d52491ebc3b219e68bb82203dd96c6c012c9e5`.
