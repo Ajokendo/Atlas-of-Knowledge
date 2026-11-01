@@ -959,3 +959,6 @@ The current marker additions are production instructions/placeholders only; no g
 - Updated Chapter 08 to the official IUSS/WRB document repository (fourth edition 2022, corrected 2024), added the current 2026 FAO/ITPS Status of the World's Soil Resources alongside the 2015 baseline, and linked FAO sustainable-soil guidelines, USDA Soil Survey Manual, IPCC Climate Change and Land, UNCCD Global Land Outlook and JRC ESDAC.
 - Verified updated chapter blobs: Chapter 03 `4b558b5cd2a9ab8551a21d74da67da41f6ba0dd3`; Chapter 04 `bbf71c9a26654ebb12759ba13c4707afeb732b92`; Chapter 06 `14125f301edf410184af53fe71d32dbc5a38c9f2`; Chapter 07 `c556f69a1027b0acb9c0b5d1f7fbf5c3dae1a42f`; Chapter 08 `f8cf2b7827068d6faad527c5b72eff7e3a42c21d`.
 - Note: the 2026 FAO soil report is the current global update; the 2015 report remains cited as a historical baseline, not as the latest assessment.
+
+
+- Chapter 13 planetary-boundaries update: added the 2023 assessment that six of nine planetary boundaries were transgressed, in both Russian and English, with an explicit methodological caveat. Added Richardson et al. (2023), *Science Advances*, DOI `10.1126/sciadv.adh2458`. Verified commit `53af014922dba2da2ce03539c84d76287ddd9777`; blob `26d8c6c8ca2fdd3450f79650a2d652a68f58824f`.
