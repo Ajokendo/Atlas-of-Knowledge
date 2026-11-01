@@ -1455,6 +1455,17 @@ try {
           errors.push(file + ": English coefficient labels or progressbar label are missing");
         }
         await page.locator("#lang").click();
+        await fields.first().fill("1.5");
+        await page.locator("#check").click();
+        if (!(await page.locator("#feedback").innerText()).includes("целые коэффициенты") ||
+            await page.locator("#next").isVisible() || await fields.first().isDisabled()) {
+          errors.push(file + ": decimal coefficient must be rejected without locking or advancing the task");
+        }
+        await fields.first().fill("0");
+        await page.locator("#check").click();
+        if (!(await page.locator("#feedback").innerText()).includes("целые коэффициенты")) {
+          errors.push(file + ": zero coefficient must be rejected");
+        }
         await fields.first().fill("1");
         await page.locator("#check").click();
         if (!(await page.locator("#feedback").innerText()).trim()) errors.push(file + ": answer feedback was not shown");
