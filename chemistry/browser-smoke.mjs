@@ -33,6 +33,7 @@ const pages = [
 const browser = await chromium.launch({ headless: true });
 const errors = [];
 let languageChecks = 0;
+let axeAudits = 0;
 const checkedInternalLinks = new Set();
 const localOrigin = new URL(base).origin;
 function contrastRatio(foreground, background) {
@@ -85,6 +86,7 @@ try {
         count: violation.nodes.length
       }));
     });
+    axeAudits++;
     for (const violation of accessibility) {
       const message = file + ": axe " + violation.impact + " — " + violation.id + " (" + violation.count + " element(s)): " + violation.help + "; " +
         violation.nodes.map(node => node.target.join(" ") + " " + node.summary).join(" | ");
@@ -189,11 +191,12 @@ try {
           help: violation.help,
           nodes: violation.nodes.slice(0, 5).map(node => ({
             target: node.target,
-            summary: node.failureSummary?.replace(/\\s+/g, " ").slice(0, 280)
+            summary: node.failureSummary?.replace(/\s+/g, " ").slice(0, 280)
           })),
           count: violation.nodes.length
         }));
       });
+      axeAudits++;
       for (const violation of englishAccessibility) {
         const message = file + " (English): axe " + violation.impact + " — " + violation.id + " (" + violation.count + " element(s)): " + violation.help + "; " +
           violation.nodes.map(node => node.target.join(" ") + " " + node.summary).join(" | ");
@@ -1769,9 +1772,16 @@ try {
   await browser.close();
 }
 
+if (languageChecks !== pages.length) {
+  errors.push("Expected language toggle and English accessibility audit on all " + pages.length + " pages; found " + languageChecks);
+}
+if (axeAudits !== pages.length * 2) {
+  errors.push("Expected exactly " + (pages.length * 2) + " axe-core scans (RU + EN); found " + axeAudits);
+}
+
 if (errors.length) {
   console.error("Chemistry browser smoke checks failed:");
   for (const error of errors) console.error(" - " + error);
   process.exit(1);
 }
-console.log("Chemistry browser smoke checks passed: " + pages.length + " pages loaded at 390px; " + languageChecks + " language toggles and key interactive workflows checked; no uncaught page errors.");
+console.log("Chemistry browser smoke checks passed: " + pages.length + " pages loaded at 390px; " + axeAudits + " axe-core scans (RU + EN); " + languageChecks + " language toggles and key interactive workflows checked; no uncaught page errors.");
