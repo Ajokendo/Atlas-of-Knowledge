@@ -401,7 +401,7 @@ try {
         errors.push(file + ": Russian enzyme explanation lacks catalytic mechanism or condition caveat");
       }
       await page.locator("#lang").click();
-      if (!(await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt")).includes("Diagram of the carbon cycle")) {
+      if (!(await page.locator('img[data-alt-i="carbonCycleAlt"]').getAttribute("alt")).includes("Diagram of carbon exchange")) {
         errors.push(file + ": English carbon-cycle image alternative text is missing");
       }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("seawater pH decreases") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("greenhouse effect")) errors.push(file + ": English environment note must connect carbon emissions, greenhouse effect and ocean acidification");
