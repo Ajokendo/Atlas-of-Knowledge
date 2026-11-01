@@ -564,3 +564,14 @@
 - No invitation has been sent and no reviewer has accepted. No reviewer names are classified as confirmed candidates. G4/G5 remain open and every claim/page status remains Pending.
 - This completes **50% of recruitment-readiness preparation**: reviewer roles and criteria are defined, and a sourced institutional outreach map is documented. Remaining work is candidate-level qualification screening, direct invitations and agreement on scope/availability.
 - The 52 planned illustrations remain deferred. Screen-reader, measured contrast, keyboard and physical-device checks remain separate outstanding release gates. Controlled editorial readiness remains **95/100**; no publication-readiness increase is claimed.
+
+
+## Independent reviewer recruitment — 75% preparation milestone — 1 November 2026
+
+- Added a preliminary named-lead table to `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` for ichthyology, ornithology, vertebrate zoology and botany, using public institutional or expert profiles.
+- Recorded explicit source-authorship conflicts: Аскар Давлетбаков co-authored the cited 2026 argali SNP paper; Георгий Лазьков co-authored the cited 2024 Kyrgyzstan alien-plant inventory. Neither is eligible to independently adjudicate those own-source claims. Any other assignment requires a claim-by-claim conflict check.
+- Identified public philology nomination routes for Russian and English editors, but no individual language editor has been verified.
+- Remaining candidate gaps: dedicated herpetologist; independent population geneticist for the argali genomic source; general scientific coordinator. These are not silently treated as filled.
+- **Recruitment-preparation progress: 75%.** This is a stage-specific preparation measure, not 75% completion of external review. No invitation has been sent, no reviewer has accepted, and no G4/G5 sign-off exists.
+- Controlled editorial readiness remains **95/100**. G4 and G5 remain open. The 52 visual assets remain deferred; browser/mobile/accessibility release checks remain separate.
+- The recruitment plan was saved on `workspace/biology`; read-after-write verification and branch-head confirmation are required before this checkpoint is considered complete.
