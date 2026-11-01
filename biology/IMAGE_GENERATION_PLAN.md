@@ -36,7 +36,7 @@ Priorities are editorial sequencing, not scientific approval. The latest marker 
 ### Botany — `chapters/botany.html`
 - [~] **[P2] Внутреннее строение корня, стебля и листа / Internal structure of root, stem and leaf** — botanical cross-sections with epidermis, ground and vascular tissues; correctly position xylem and phloem.
 - [~] **[P2] Путь воды и органических веществ в растении / Transport of water and organic compounds in plants** — distinguish xylem water/mineral flow from phloem assimilate transport.
-- [~] **[P3] Цветок и опыление / Flower structure and pollination** — representative angiosperm flower cutaway showing stamens, anthers, stigma, style, ovary and ovules; do not attribute it to a named species.
+- [~] **[P3] Строение цветка и опыление / Flower structure and pollination** — representative angiosperm flower cutaway showing stamens, anthers, stigma, style, ovary and ovules; do not attribute it to a named species.
 
 ### Cell biology — `chapters/cell-biology.html`
 - [~] **[P3] Животная клетка: ультраструктура / Animal cell ultrastructure** — detailed animal cell with membrane, nucleus, mitochondria, ER, Golgi, ribosomes and vesicles; not to scale.
