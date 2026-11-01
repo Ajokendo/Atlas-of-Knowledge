@@ -319,7 +319,14 @@ try {
       });
       await page.evaluate(() => {
         if (document.activeElement && document.activeElement !== document.body) document.activeElement.blur();
-        document.body.focus();
+        const sentinel = document.createElement("button");
+        sentinel.type = "button";
+        sentinel.tabIndex = -1;
+        sentinel.setAttribute("aria-hidden", "true");
+        sentinel.setAttribute("data-a11y-tab-sentinel", "true");
+        sentinel.style.cssText = "position:fixed;left:-10000px;top:0;width:1px;height:1px;";
+        document.body.prepend(sentinel);
+        sentinel.focus();
       });
       for (const expected of expectedTabOrder) {
         await page.keyboard.press("Tab");
@@ -334,8 +341,9 @@ try {
       }
 
       await page.evaluate(() => {
+        const sentinel = document.querySelector("[data-a11y-tab-sentinel]");
+        if (sentinel) sentinel.remove();
         if (document.activeElement && document.activeElement !== document.body) document.activeElement.blur();
-        document.body.focus();
       });
 
       // Confirm keyboard navigation can enter, advance through, and reverse between controls.
