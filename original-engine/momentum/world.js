@@ -104,7 +104,7 @@ export function buildWorld(E) {
   const eggGeo = new THREE.SphereGeometry(ER, 28, 20);
   const eggs = EGX.map((x, i) => part(gE, eggGeo, { tone: 'hi', name: i ? 'Яйцо на полу' : 'Яйцо на подушке' }));
   const fE = eggs.map(() => fArrow(gE, 0.15)), jE = eggs.map(() => gArrow(gE, 0.17, 'Импульс силы'));
-  fE.forEach(a => label('vec red', '<i>F</i><sub>net</sub>', () => tip(a, 0.03)));
+  fE.forEach(a => label('vec red', '<i>F</i><sub>рез</sub>', () => tip(a, 0.03)));
   jE.forEach(a => label('vec', '<i>J</i>', () => ex(gE) > 0.3 ? tip(a, 0.03) : null));
   label('tick', 'Подушка', () => eggRoot.localToWorld(V(EGX[0] + 0.06, 0.02, 0.24))); label('tick', 'Пол', () => eggRoot.localToWorld(V(EGX[1] + 0.06, 0.02, 0.24)));
 
