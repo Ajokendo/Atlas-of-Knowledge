@@ -263,6 +263,26 @@ try {
       }
       if (await page.locator(".tile").count() !== 10) errors.push(file + ": expected ten organic-compound family cards");
       await page.locator("#lang").click();
+      await page.locator("#n").fill("1");
+      await page.locator("#calc").click();
+      if ((await page.locator("#result").innerText()).trim() !== "CH₄") errors.push(file + ": methane formula must omit the subscript 1");
+      await page.locator("#n").fill("2");
+      await page.locator("#calc").click();
+      if ((await page.locator("#result").innerText()).trim() !== "C₂H₆") errors.push(file + ": ethane formula is incorrect");
+      await page.locator("#n").fill("20");
+      await page.locator("#calc").click();
+      if ((await page.locator("#result").innerText()).trim() !== "C₂₀H₄₂") errors.push(file + ": upper supported alkane formula is incorrect");
+      await page.locator("#n").fill("1.5");
+      await page.locator("#calc").click();
+      if ((await page.locator("#result").innerText()).trim() !== "—" || !(await page.locator("#feedback").innerText()).includes("1 до 20")) errors.push(file + ": non-integer alkane input must be rejected");
+      await page.locator("#n").fill("");
+      await page.locator("#calc").click();
+      if ((await page.locator("#result").innerText()).trim() !== "—") errors.push(file + ": empty alkane input must be rejected");
+      await page.locator("#lang").click();
+      await page.locator("#n").fill("2");
+      await page.locator("#calc").click();
+      if ((await page.locator("#result").innerText()).trim() !== "C₂H₆" || !(await page.locator("#feedback").innerText()).includes("Alkane formula")) errors.push(file + ": alkane formula generator is not localized in English");
+      await page.locator("#lang").click();
     }
 
     if (file === "chapters/redox.html") {
