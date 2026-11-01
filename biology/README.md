@@ -857,7 +857,6 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 
 ## CI and Chromium validation pass — 1 November 2026
 
-<badge label="G1–G3 complete" color="success" />
 
 - **Run:** [GitHub Actions #41275274366](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41275274366)
 - **Commit tested:** `275fdb602b858e8fdda1b171b6468fa4afeb4122`
