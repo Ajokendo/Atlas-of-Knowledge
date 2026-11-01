@@ -234,7 +234,7 @@ export const PAGES = [
     fig: `U(r) для спутника массой ${M.SAT_M} кг`,
   },
   {
-    kicker: '3.12 · AP Physics C', title: 'Вторая космическая скорость', sub: 'условие освобождения от гравитации',
+    kicker: '3.12 · AP Physics C', title: 'Вторая космическая скорость', sub: 'условие выхода из гравитационной связи',
     body: `
       <p class="lede">На круговой орбите <i>mv</i>² = <i>GMm</i>/<i>r</i>, поэтому <i>K</i> = −<i>U</i>/2 и</p>
       <div class="eq"><i>E</i> = <i>K</i> + <i>U</i> = −<i>GMm</i>/2<i>r</i></div>
