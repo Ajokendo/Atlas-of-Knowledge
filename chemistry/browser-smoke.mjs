@@ -705,10 +705,28 @@ try {
           !(await illustration.getAttribute("alt") || "").includes("Нейтрализация")) {
         errors.push(file + ": Russian acid-base illustration or accessible description is missing");
       }
+      const strengthRu = await page.locator("[data-i=strengthNote]").innerText();
+      const bufferRu = await page.locator("[data-i=bufferFormulaNote]").innerText();
+      if (!strengthRu.includes("не то же самое, что концентрация") ||
+          !(await page.locator("[data-i=pairNote]").innerText()).includes("сопряжённое основание") ||
+          !(await page.locator("[data-i=kaNote]").innerText()).includes("Kₐ") ||
+          !bufferRu.includes("приближение") || !bufferRu.includes("обе формы") ||
+          !(await page.locator("[data-i=bufferCapacity]").innerText()).includes("конечна")) {
+        errors.push(file + ": Russian acid strength, conjugate pairs, Ka, buffer approximation or finite-capacity explanation is incomplete");
+      }
       await page.locator("#lang").click();
       if (await illustration.getAttribute("src") !== "../assets/acid-base-neutralisation.svg" ||
           !(await illustration.getAttribute("alt") || "").includes("Acid–base neutralisation")) {
         errors.push(file + ": English acid-base illustration or accessible description is missing");
+      }
+      const strengthEn = await page.locator("[data-i=strengthNote]").innerText();
+      const bufferEn = await page.locator("[data-i=bufferFormulaNote]").innerText();
+      if (!strengthEn.includes("not the same as concentration") ||
+          !(await page.locator("[data-i=pairNote]").innerText()).includes("conjugate base") ||
+          !(await page.locator("[data-i=kaNote]").innerText()).includes("Kₐ") ||
+          !bufferEn.includes("approximation") || !bufferEn.includes("both forms") ||
+          !(await page.locator("[data-i=bufferCapacity]").innerText()).includes("finite")) {
+        errors.push(file + ": English acid strength, conjugate pairs, Ka, buffer approximation or finite-capacity explanation is incomplete");
       }
       await page.locator("#lang").click();
     }
