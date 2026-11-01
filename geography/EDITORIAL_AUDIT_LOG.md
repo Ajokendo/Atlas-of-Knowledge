@@ -759,3 +759,15 @@ The current marker additions are production instructions/placeholders only; no g
 - Chapter files contain Russian and English material together, but this is not equivalent to two independently navigable published language editions. No separate English site mode is claimed.
 - Updated `geography/README.md` to state this limitation and link the consolidated visual register: commit `a3a02c7582105c5a14fa02184751c4eac008b9e1`; verified blob `d61fb90437be59f71344bb704917bfb7241de7aa`.
 - A bilingual website/reader implementation remains a separate publication task; this audit did not modify the portal or deployment configuration.
+
+
+## Chapter 23 demographic-source verification — 1 November 2026
+
+- Independently checked the current population, urban/rural shares, regional distribution, vital statistics, migration balance and IOM mobility-assessment coverage against National Statistical Committee and IOM primary sources.
+- NSC open data confirms 7,404.3 thousand permanent residents at the beginning of 2026; regional figures in the chapter match the nine-unit table (seven oblasts plus Bishkek and Osh). The 2025 birth and death counts are 140,504 and 33,428 respectively. Source: https://stat.gov.kg/ru/opendata/category/316/ and https://stat.gov.kg/ru/opendata/category/39/
+- NSC's World Population Day release confirms the 2026 beginning-of-year urban share of 42.3% and rural share of 57.7%: https://stat.gov.kg/ru/news/vsemirnyjdennarodonaseleniyacifryifakty/
+- NSC migration open data confirms the 2025 external net migration balance of 15,426 and the annual series 2021–2025. The source distinguishes arrivals (17,965) and departures (2,539): https://stat.gov.kg/ru/opendata/category/41/
+- IOM DTM Round 7 confirms coverage of 1,151 communities and 1,939 key informants across the seven oblasts and two republican-level cities. The chapter correctly treats the estimates as community-level key-informant estimates, not as a census or a directly interchangeable NSC migration flow: https://dtm.iom.int/reports/kyrgyzstan-baseline-mobility-assessment-round-7-april-2026
+- The 2022 ethnic shares (Kyrgyz 77.6%, Uzbeks 14.2%, Russians 4.1%) are consistent with the UN Common Country Analysis 2023, which cites the 2022 census: https://kyrgyzstan.un.org/sites/default/files/2024-04/ENG%20UN%20Common%20country%20analysis%20for%20the%20KG-2023.pdf
+- Added the NSC World Population Day release and the October 2026 Demographic Yearbook announcement to Chapter 23's bibliography. Verified chapter commit: `ff81aafaddb8bb7efa4166de8cfeb46394213e13`; verified blob: `16b4f888842845aa6166a4c99b2790f9df1de091`.
+- No numerical changes were necessary in this verification pass. This is a source check of the stated 2022–2026 indicators, not a full audit of every demographic section.
