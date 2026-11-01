@@ -295,6 +295,8 @@ if (!faunaKyrgyzstanFile.includes("This disagreement reflects different taxonomi
     !faunaKyrgyzstanFile.includes("Diptychus dybowskii micromakulatus") ||
     !faunaKyrgyzstanFile.includes("fishcatget.asp?spid=55960") ||
     !faunaKyrgyzstanFile.includes("search_value=689192") ||
+    !faunaKyrgyzstanFile.includes("Diptychus gymnogaster micromakulatus") ||
+    !faunaKyrgyzstanFile.includes("fao.org/docrep/018/i3268e/i3268e.pdf") ||
     faunaKyrgyzstanFile.includes("опубликованное в 2023 году исследование") ||
     faunaKyrgyzstanFile.includes("published in 2023; its abstract")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Son-Kul Triplophysa determination must retain the IUCN/Catalogue taxonomic-concept conflict");
@@ -529,6 +531,8 @@ if (!imageScientificReview.includes("does not publish the full taxon list") ||
     !imageScientificReview.includes("not as an additional species") ||
     !imageScientificReview.includes("Gymnodiptychus dybowskii") ||
     !imageScientificReview.includes("D. dybowskii micromakulatus") ||
+    !imageScientificReview.includes("D. gymnogaster micromakulatus") ||
+    !imageScientificReview.includes("FAO 2013") ||
     !imageScientificReview.includes("Diptychus gymnogaster") ||
     !imageScientificReview.includes("Diptychus maculatus")) {
   errors.push("IMAGE_SCIENTIFIC_REVIEW.md: freshwater illustration constraints must not invent or prematurely label new fish records or duplicate synonym taxa");
@@ -541,6 +545,7 @@ if (!regionalSpeciesAudit.includes("Son-Kul fish survey (sampling in 2020, 2021 
     !regionalSpeciesAudit.includes("abstract/methods date discrepancy") ||
     !regionalSpeciesAudit.includes("Gymnodiptychus dybowskii") ||
     !regionalSpeciesAudit.includes("D. dybowskii micromakulatus") ||
+    !regionalSpeciesAudit.includes("D. gymnogaster micromakulatus") ||
     !regionalSpeciesAudit.includes("voucher/genetic review")) {
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Son-Kul fish survey must retain its sampling-date discrepancy and taxonomic evidence limits");
 }
