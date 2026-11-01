@@ -70,6 +70,15 @@ try {
     const imagesWithoutAlt = await page.locator("img:not([alt])").count();
     if (imagesWithoutAlt) errors.push(file + ": " + imagesWithoutAlt + " image(s) lack an alt attribute");
 
+    const brokenImages = await page.locator("img").evaluateAll(async items => {
+      await Promise.all(items.map(img => {
+        img.loading = "eager";
+        return img.decode().catch(() => null);
+      }));
+      return items.filter(img => img.naturalWidth === 0).map(img => img.getAttribute("src") || img.outerHTML.slice(0, 100));
+    });
+    if (brokenImages.length) errors.push(file + ": image assets failed to decode: " + brokenImages.join(", "));
+
     const unnamedActions = await page.locator("a, button").evaluateAll(items => items.filter(el => !el.innerText.trim() && !el.getAttribute("aria-label") && !el.getAttribute("title") && !el.querySelector("[aria-label], title, img[alt]")).map(el => el.outerHTML.slice(0, 100)));
     if (unnamedActions.length) errors.push(file + ": links or buttons lack an accessible name: " + unnamedActions.join(" | "));
 
