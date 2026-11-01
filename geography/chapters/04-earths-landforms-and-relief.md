@@ -397,7 +397,7 @@ DEM используют для расчёта уклонов, экспозиц�
 
 Человеческая деятельность сама меняет рельеф: карьеры, насыпи, дамбы, террасирование склонов, дорожные выемки, городская застройка и водохранилища создают антропогенные формы.
 
-**Место для иллюстрации 4.15-B — Human Modification of Relief.** Сопоставить природный склон и преобразованный человеком ландшафт: карьер, дорожную выемку, насыпь, террасированное поле, плотину с водохранилищем и городскую застройку; показать возможные изменения стока и эрозии.
+**Место для иллюстрации 4.15-A — Human Modification of Relief.** Сопоставить природный склон и преобразованный человеком ландшафт: карьер, дорожную выемку, насыпь, террасированное поле, плотину с водохранилищем и городскую застройку; показать возможные изменения стока и эрозии.
 
 ## Итоги главы / Chapter Summary
 
@@ -434,7 +434,7 @@ DEM используют для расчёта уклонов, экспозиц�
 - проведите линию профиля и постройте вертикальный разрез, указав горизонтальный и вертикальный масштабы; если они различаются, обозначьте вертикальное преувеличение. Его коэффициент равен знаменателю горизонтального масштаба, делённому на знаменатель вертикального масштаба (например, 1:25 000 по горизонтали и 1:5 000 по вертикали дают преувеличение 5×);
 - определите участки с потенциально повышенной эрозионной или склоновой восприимчивостью. Не называйте результат картой риска без дополнительных данных о породах, осадках, растительности, землепользовании, населении и объектах.
 
-**Место для иллюстрации 4.15-A — Topographic Map Exercise.** Учебная карта с горизонталями и координатной сеткой, линией профиля, двумя участками измерения уклона, указанными горизонтальным и вертикальным масштабами, обозначенным вертикальным преувеличением при необходимости и отдельным листом ответов.
+**Место для иллюстрации 4.15-B — Topographic Map Exercise.** Учебная карта с горизонталями и координатной сеткой, линией профиля, двумя участками измерения уклона, указанными горизонтальным и вертикальным масштабами, обозначенным вертикальным преувеличением при необходимости и отдельным листом ответов.
 
 ## English-language chapter text
 
@@ -750,7 +750,7 @@ Relief creates both opportunities and constraints for settlement and economic ac
 
 Human activity also changes relief. Quarries, embankments, dams, slope terraces, road cuttings, urban construction and reservoirs create anthropogenic landforms.
 
-**[ILLUSTRATION PLACEHOLDER 4.15-B]** Compare a natural slope with a human-modified landscape: open-pit quarry, road cutting, embankment, terraced field, dam/reservoir and urban construction; indicate possible changes to runoff and erosion.
+**[ILLUSTRATION PLACEHOLDER 4.15-A]** Compare a natural slope with a human-modified landscape: open-pit quarry, road cutting, embankment, terraced field, dam/reservoir and urban construction; indicate possible changes to runoff and erosion.
 
 ### Chapter Summary
 
@@ -785,7 +785,7 @@ Using a prepared teaching map excerpt:
 - draw a profile line and construct a cross-section, stating the horizontal and vertical scales; if they differ, label the vertical exaggeration. Its factor is the denominator of the horizontal scale divided by the denominator of the vertical scale (for example, 1:25,000 horizontally and 1:5,000 vertically give a 5× exaggeration); and
 - identify areas with potentially higher erosion or slope susceptibility. Do not call this a risk map without additional data on geology, rainfall, vegetation, land use, people and exposed assets.
 
-**[ILLUSTRATION PLACEHOLDER 4.15-A]** Provide a teaching map excerpt with coordinate grid, profile line, two slope-measurement sections, stated horizontal and vertical scales, labelled vertical exaggeration where used, and a separate answer key.
+**[ILLUSTRATION PLACEHOLDER 4.15-B]** Provide a teaching map excerpt with coordinate grid, profile line, two slope-measurement sections, stated horizontal and vertical scales, labelled vertical exaggeration where used, and a separate answer key.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
