@@ -123,13 +123,13 @@
 
 ## 4.5. Равнины, низменности и плато / Plains, Lowlands and Plateaus
 
-**Равнины** — обширные территории с относительно небольшими перепадами высот и сравнительно слабым общим уклоном поверхности. Они могут быть плоскими, волнистыми или расчленёнными речными долинами.
+**Равнины** — обширные территории с относительно небольшими перепадами высот и сравнительно слабым общим уклоном поверхности. Они могут быть плоскими, волнистыми или расчленёнными речными долинами. Равнина характеризует прежде всего форму поверхности, а не её абсолютную высоту: равнины встречаются и на возвышенных участках.
 
 Основные разновидности:
 
 - **Низменности (lowlands):** равнинные территории с небольшими абсолютными высотами; в разных классификациях часто выделяются участки до примерно 200 м, но порог условен.
 - **Возвышенности (uplands):** равнинные или волнистые территории, расположенные выше окружающих низменностей.
-- **Плоскогорья и плато (plateaus):** обширные возвышенные поверхности, ограниченные склонами или уступами.
+- **Плато:** обширная относительно ровная возвышенная поверхность, часто ограниченная крутыми склонами или уступами; она может быть расчленена глубокими долинами. Термины «плато» и «плоскогорье» в разных классификациях частично перекрываются.
 - **Нагорья (highlands):** крупные возвышенные области со сложным сочетанием плато, хребтов и впадин.
 
 Равнины формируются в результате накопления осадков, выравнивания древнего рельефа, тектонических движений, вулканических процессов и длительной денудации.
@@ -514,11 +514,11 @@ Parts of mountain relief include a **summit** (the highest point of a mountain o
 
 ### 4.5. Plains, Lowlands and Plateaus
 
-Plains are extensive areas with relatively small elevation differences and a generally gentle surface gradient. They may be flat, undulating or dissected by river valleys.
+Plains are extensive areas with relatively small elevation differences and a generally gentle surface gradient. They may be flat, undulating or dissected by river valleys. A plain describes the shape and relative smoothness of the surface, not necessarily low absolute elevation; plains can also occur at high elevations.
 
 - **Lowlands** are plains at low absolute elevations. Some classifications use a threshold of about 200 m, but this is not universal.
 - **Uplands** are plain or gently rolling areas elevated above surrounding lowlands.
-- **Plateaus** are extensive elevated surfaces bounded by slopes or escarpments.
+- **Plateaus** are extensive, relatively level elevated surfaces, often bounded by steep slopes or escarpments; they may be dissected by deep valleys. In some classifications, the terms *plateau* and *high tableland* overlap.
 - **Highlands** are large elevated regions combining plateaus, ranges and basins.
 
 Plains may form through sediment accumulation, the levelling of older relief, tectonic movement, volcanic processes and prolonged denudation.
