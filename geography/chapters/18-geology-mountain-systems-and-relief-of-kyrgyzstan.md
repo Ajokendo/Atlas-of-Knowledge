@@ -155,7 +155,7 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 ## 18.5. Высочайшие вершины Кыргызстана / Highest Peaks of Kyrgyzstan
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-C / IMAGE PLACEHOLDER 18-C]** Панорама Жеңиш, Хан-Тенгри и Ибн Сина с раздельными подписями высоты скальной вершины и ледниковой шапки, где применимо; высоты сверить по официальным источникам.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-C / IMAGE PLACEHOLDER 18-C]** Панорама Жеңиш, Хан-Тенгри и пика Ленина (в Таджикистане — Абу Али ибн Сино) с раздельными подписями высоты скальной вершины и ледниковой шапки, где применимо; высоты сверить по официальным источникам.
 
 ### 18.5.1. Пик Жеңиш (Победы) / Jengish Chokusu (Victory Peak)
 
@@ -165,9 +165,9 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Хан-Тенгри — одна из наиболее узнаваемых вершин Тянь-Шаня, расположенная в районе стыка границ Кыргызстана, Казахстана и Китая. Часто указывается высота **6 995 м** для скальной вершины. В некоторых источниках приводится значение около **7 010 м**, когда учитывается ледниковая шапка. В атласе необходимо явно указывать, какое именно измерение использовано.
 
-### 18.5.3. Пик Ибн Сина (традиционно — пик Ленина) / Ibn Sina Peak (historically Lenin Peak)
+### 18.5.3. Пик Ленина / Lenin Peak (Lenin Atyndagy Choku)
 
-Пик Ибн Сина, широко известный в исторической и альпинистской литературе как пик Ленина, расположен в Заалайском хребте на границе Кыргызстана и Таджикистана. Его высота обычно приводится около **7 134 м**. При картографическом использовании следует согласовать современное официальное название с национальными картографическими стандартами и указать историческое название в справочной подписи.
+В Кыргызстане используется название **пик Ленина** (кырг. **Ленин атындагы чоку**); в Таджикистане вершина официально известна как **пик Абу Али ибн Сино**. Она расположена в Заалайском хребте на границе двух государств; обычно приводимая высота составляет около **7 134 м**. На карте следует указывать название, принятое для соответствующей стороны границы, а второе название давать как вариант с явным указанием страны.
 
 ### 18.5.4. Другие высокие вершины
 
@@ -177,7 +177,7 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 |---|---|---:|
 | Жеңиш (Победы) / Jengish Chokusu | Какшаал-Тоо, Центральный Тянь-Шань | 7 439 м |
 | Хан-Тенгри / Khan Tengri | Центральный Тянь-Шань | 6 995 м (скала); около 7 010 м с ледником |
-| Ибн Сина (истор. пик Ленина) / Ibn Sina (historically Lenin) | Заалайский хребет | около 7 134 м |
+| Пик Ленина (Кыргызстан) / Lenin Peak (Kyrgyzstan); пик Абу Али ибн Сино (Таджикистан) / Abu Ali Ibn Sina Peak (Tajikistan) | Заалайский хребет / Trans-Alay Range | около 7 134 м |
 
 Высоты в горах могут различаться в зависимости от системы высот, метода измерения, состояния ледниковой поверхности и даты съёмки. Для научной карты следует указывать источник, дату и тип высоты (скальная вершина или поверхность ледника).
 
@@ -469,13 +469,13 @@ The **Fergana Range** separates the Fergana Valley from the interior Tien Shan. 
 
 The **Alay Range** extends broadly east–west north of the Alay Valley. Its relief includes high ridges, deep valleys and evidence of former glaciation.
 
-The **Trans-Alay Range** forms the northern boundary of the Pamir and the southern mountain wall of the Alay Valley. The Ibn Sina Peak massif (historically Lenin Peak) lies in its eastern part. Elevation and morphology gradually change towards the western part of the range.
+The **Trans-Alay Range** forms the northern boundary of the Pamir and the southern mountain wall of the Alay Valley. The Lenin Peak massif (known as Abu Ali Ibn Sina Peak in Tajikistan) lies in its eastern part. Elevation and morphology gradually change towards the western part of the range.
 
 ### 18.4. Major Ranges: Comparative Orographic Overview
 
 The comparative table in the Russian section provides a reference overview of major ranges and approximate high points. Range lengths and elevations may differ between reference works because of differences in ridge delineation, range boundaries, selection of the highest summit and quality of source surveys.
 
-Approximate high points commonly cited include Kyrgyz Ala-Too (about 4,855 m), Talas Ala-Too (about 4,488 m), Kungey Ala-Too (about 4,771 m), Terskey Ala-Too (about 5,280 m), Jumgal-Too (about 4,281 m), At-Bashy (about 4,786 m), Kakshaal-Too (Jengish Chokusu, 7,439 m), Fergana Range (about 4,940 m), Chatkal Range (about 4,503 m), Alay Range (about 5,880 m), Trans-Alay Range (Ibn Sina Peak, about 7,134 m) and Turkestan Range (local summits around 5,600 m). These are indicative reference values, not a harmonised ranking.
+Approximate high points commonly cited include Kyrgyz Ala-Too (about 4,855 m), Talas Ala-Too (about 4,488 m), Kungey Ala-Too (about 4,771 m), Terskey Ala-Too (about 5,280 m), Jumgal-Too (about 4,281 m), At-Bashy (about 4,786 m), Kakshaal-Too (Jengish Chokusu, 7,439 m), Fergana Range (about 4,940 m), Chatkal Range (about 4,503 m), Alay Range (about 5,880 m), Trans-Alay Range (Lenin Peak, about 7,134 m) and Turkestan Range (local summits around 5,600 m). These are indicative reference values, not a harmonised ranking.
 
 Before final map production, all elevations should be checked against official topographic maps and current digital elevation models. Different sources may identify different highest summits or define range boundaries differently.
 
@@ -485,7 +485,7 @@ Before final map production, all elevations should be checked against official t
 
 **Khan Tengri** is one of the best-known peaks of the Tien Shan, near the junction of the borders of Kyrgyzstan, Kazakhstan and China. The commonly cited elevation of the rock summit is **6,995 m**. Some sources give about **7,010 m** when the ice cap is included. An atlas must state which measurement is used.
 
-**Ibn Sina Peak**, widely known in historical and mountaineering literature as Lenin Peak, is located in the Trans-Alay Range on the Kyrgyzstan–Tajikistan border. Its elevation is commonly given as about **7,134 m**. Cartographic use should follow the current official name while including the historical name in a reference note.
+In Kyrgyzstan the peak is known as **Lenin Peak** (Kyrgyz: **Lenin Atyndagy Choku**); in Tajikistan it is officially known as **Abu Ali Ibn Sina Peak**. It lies in the Trans-Alay Range on the international border, and its commonly cited elevation is about **7,134 m**. Maps should use the name appropriate to the side of the border being represented and identify the alternative name with its country.
 
 Other high summits include Pik Voennykh Topografov, Druzhby, Semyonov-Tian-Shansky and peaks in the Trans-Alay and Alay ranges. Their elevations and names require separate checks against topographic and mountaineering sources because transliterations and rounded values may differ.
 
@@ -756,6 +756,9 @@ Modern relief is shaped by tectonics, weathering, river erosion, glaciers, slope
 Современный рельеф изменяется под воздействием тектоники, выветривания, речной эрозии, ледников, склоновых процессов и карста. Эти процессы создают уникальные ландшафты и одновременно формируют природные опасности. Геологические ресурсы имеют большое экономическое значение, но их освоение требует научно обоснованной оценки рисков и экологических последствий.
 
 Kyrgyzstan’s relief reflects a long Paleozoic tectonic history, Cenozoic reactivation and the continuing interaction of tectonic, fluvial, glacial, weathering and slope processes. The Tien Shan and Pamir-Alay contain a diverse arrangement of mountain belts, intermontane basins, high plateaus and glaciated massifs. Understanding this diversity is essential for resource management, infrastructure planning, hazard reduction and conservation.
+
+- Department of Tourism under the Ministry of Economy and Commerce of the Kyrgyz Republic. **About Kyrgyzstan** (official tourism page; uses Lenin Peak, 7,134 m). https://tourism.gov.kg/about-kyrgyzstan/
+- UK Permanent Committee on Geographical Names. **Kyrgyzstan Toponymic Factfile**, 2025 (romanised names for Lenin Atyndagy Choku, Jengish Chokusu and Khan Tengri). https://assets.publishing.service.gov.uk/media/6672f243f92bc4be25da7e80/Kyrgyzstan_Toponymic_Factfile.pdf
 
 ## Основные источники и литература / Selected References
 
