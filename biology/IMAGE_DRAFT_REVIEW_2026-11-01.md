@@ -84,3 +84,14 @@ A standalone square botanical concept was generated (ImageGen generation ID `e4c
 The image depicts a tall red-orange pendant-flowered plant with a crown-like cluster and whorled foliage. It is visually reminiscent of a fritillary/crown-imperial form, but the generated morphology is not a reliable taxonomic reference. Do not assign `Petilium eduardii`, `Fritillaria`, or any species without expert review against diagnostic characters and the chapter's accepted nomenclature. The alpine setting is illustrative, not a verified Kyrgyzstan locality.
 
 This is a local-only candidate; it is not committed as a raster asset, inserted into a chapter, or approved for publication. Existing insertion markers and dispositions are unchanged.
+
+
+## Seventh production attempt: standalone snow leopard concept
+
+A standalone square wildlife concept was generated (ImageGen generation ID `52ae788d-57df-49ea-ade4-598d8f1ad812`) and converted to WebP:
+
+- `biology-snow-leopard-standalone-candidate.webp` — 1254×1254, 460,790 bytes.
+
+The animal is visually recognizable as a snow-leopard-like large cat, but the generated image is not a field photograph and cannot establish an actual individual, location, behavior, season, or population. Fine anatomical details and species-specific traits require zoological review. The alpine backdrop is illustrative only.
+
+This candidate is local-only; it has not been committed as an image asset, inserted into a chapter, or approved for publication. The immediately preceding flower-generation attempt was not counted as a new candidate because it substantially repeated the existing fritillary-like motif. All existing insertion markers and dispositions remain unchanged.
