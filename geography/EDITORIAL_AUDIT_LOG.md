@@ -909,3 +909,10 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Link-validation follow-up for Chapters 14–16: opened and checked the OGC, ISO/TC 211, QGIS, Esri, USGS Landsat, ESA data-access, Copernicus Data Space, NASA remote-sensing, ICA Cartographic Body of Knowledge and UN Statistics Division resources. EPSG, NASA Earthdata, UN-GGIM and NGA returned access restrictions or fetch errors in the checker, so they are retained as known official endpoints but not marked as independently fetch-verified. The Sentinel-1 reference title was adjusted to describe the linked ESA mission overview accurately. Final Chapter 15 blob after this title correction: `4f3883569e8f5e8960b7cf6bc9612ba9b7dbdd13`.
+
+
+## Chapter 09 bibliography gap closed — 1 November 2026
+
+- The structural sweep found that Chapter 09 described authoritative demographic data sources in its teaching text but had no formal selected-reference list. Added eight bilingual-use primary/authoritative references: UN World Population Prospects 2024, World Urbanization Prospects 2025, UNSD census standards (Rev. 3 and the unedited Rev. 4 draft), UNSD demographic standards, IOM World Migration Report 2024, UN-Habitat World Cities Report 2024, World Bank population indicators and UNDP HDI data.
+- The World Urbanization Prospects 2025 entry explicitly distinguishes the Degree of Urbanization methodology from national definitions; the census entry labels the 2025 Rev. 4 as an unedited draft rather than a final published edition.
+- Verified Chapter 09 update: commit `829d0852666b028dac1edb0b8218608def170f65`; blob `d9a4120bee2d81986de91c3b6deb6d78062fdc96`.
