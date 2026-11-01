@@ -228,25 +228,50 @@ try {
           overflow.document + "px, body " + overflow.body + "px)");
       }
 
-      // Every visible interactive control should expose a usable accessible name.
-      const unnamed = await page.locator("button, a[href], input, select, textarea, [role='button']")
-        .evaluateAll(elements => elements.filter(el => {
-          const style = getComputedStyle(el);
-          const visible = style.display !== "none" && style.visibility !== "hidden" &&
-            el.getClientRects().length > 0;
-          if (!visible || el.disabled) return false;
-          const text = (el.innerText || el.value || "").trim();
-          const name = el.getAttribute("aria-label") || el.getAttribute("aria-labelledby") ||
-            el.getAttribute("title") || text;
-          return !name;
-        }).map(el => ({
-          tag: el.tagName.toLowerCase(),
-          id: el.id || "",
-          className: typeof el.className === "string" ? el.className : "",
-          html: el.outerHTML.slice(0, 500)
-        })));
-      if (unnamed.length) errors.push(file + ": " + unnamed.length +
-        " visible interactive control(s) lack an accessible name: " + JSON.stringify(unnamed));
+      // Check practical accessible-name sources, including native <label> associations
+      // and valid aria-labelledby references (rather than treating the attribute itself as a name).
+      const nameIssues = await page.locator("button, a[href], input, select, textarea, [role='button']")
+        .evaluateAll(elements => {
+          const visible = el => {
+            const style = getComputedStyle(el);
+            return style.display !== "none" && style.visibility !== "hidden" &&
+              el.getClientRects().length > 0;
+          };
+          const textOf = el => (el.innerText || el.textContent || "").trim();
+          return elements.filter(el => visible(el) && !el.disabled).flatMap(el => {
+            const issues = [];
+            const labelledby = (el.getAttribute("aria-labelledby") || "").trim();
+            const referencedText = labelledby ? labelledby.split(/\\s+/)
+              .map(id => document.getElementById(id)).filter(Boolean).map(textOf).filter(Boolean).join(" ").trim() : "";
+            const ariaLabel = (el.getAttribute("aria-label") || "").trim();
+            const nativeLabels = el.labels ? Array.from(el.labels).map(textOf).filter(Boolean).join(" ").trim() : "";
+            const nestedImageAlt = Array.from(el.querySelectorAll("img[alt]"))
+              .map(img => (img.getAttribute("alt") || "").trim()).filter(Boolean).join(" ").trim();
+            const imageInputAlt = el.tagName === "INPUT" && el.type === "image"
+              ? (el.getAttribute("alt") || "").trim() : "";
+            const valueName = el.tagName === "INPUT" && /^(button|submit|reset)$/i.test(el.type)
+              ? (el.value || "").trim() : "";
+            const title = (el.getAttribute("title") || "").trim();
+            const content = textOf(el);
+            const hasName = !!(referencedText || ariaLabel || nativeLabels ||
+              nestedImageAlt || imageInputAlt || valueName || content || title);
+            if (!hasName) issues.push("no usable accessible name");
+            if (labelledby && !referencedText) issues.push("aria-labelledby has no resolvable non-empty text");
+            if (el.getAttribute("aria-label") !== null && !ariaLabel) issues.push("aria-label is empty");
+            if (el.getAttribute("role") === "button" &&
+                !/^(BUTTON|INPUT)$/i.test(el.tagName) && el.tabIndex < 0) {
+              issues.push("custom role=button is not keyboard focusable");
+            }
+            return issues.length ? [{
+              tag: el.tagName.toLowerCase(), id: el.id || "",
+              className: typeof el.className === "string" ? el.className : "",
+              issues, html: el.outerHTML.slice(0, 500)
+            }] : [];
+          });
+        });
+      if (nameIssues.length) errors.push(file + ": " + nameIssues.length +
+        " visible interactive control(s) have accessible-name/keyboard-semantics issues: " +
+        JSON.stringify(nameIssues));
 
       // Confirm keyboard navigation can enter, advance through, and reverse between controls.
       await page.keyboard.press("Tab");
