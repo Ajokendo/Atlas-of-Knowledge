@@ -500,7 +500,7 @@ The encyclopaedic section gives particular attention to all seven regions of Kyr
 2. Royal Geographical Society (with IBG). *What is geography?* https://www.rgs.org/
 3. National Geographic Society. *Geography*. https://education.nationalgeographic.org/resource/geography/
 4. United Nations Statistics Division. *Geospatial Information*. https://unstats.un.org/
-5. International Cartographic Association (ICA). *The Cartographic Body of Knowledge*. https://icaci.org/
+5. International Cartographic Association (ICA) Working Group. *The Cartographic Body of Knowledge*. https://bok.cartography.no/
 6. Longley, P. A., Goodchild, M. F., Maguire, D. J., Rhind, D. W. *Geographic Information Science and Systems*. Wiley.
 7. National Research Council. *Rediscovering Geography: New Relevance for Science and Society*. National Academies Press, 1997. https://doi.org/10.17226/4913
 
