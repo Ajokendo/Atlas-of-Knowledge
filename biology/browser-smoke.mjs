@@ -241,7 +241,7 @@ try {
           return elements.filter(el => visible(el) && !el.disabled).flatMap(el => {
             const issues = [];
             const labelledby = (el.getAttribute("aria-labelledby") || "").trim();
-            const referencedText = labelledby ? labelledby.split(/\\s+/)
+            const referencedText = labelledby ? labelledby.split(/\s+/)
               .map(id => document.getElementById(id)).filter(Boolean).map(textOf).filter(Boolean).join(" ").trim() : "";
             const ariaLabel = (el.getAttribute("aria-label") || "").trim();
             const nativeLabels = el.labels ? Array.from(el.labels).map(textOf).filter(Boolean).join(" ").trim() : "";
