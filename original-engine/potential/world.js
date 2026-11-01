@@ -78,7 +78,7 @@ export function buildWorld(E) {
   const fL = force(gPair), fU = force(gPair);
   label('vec', '<i>F</i>', () => tip(fL)); label('vec', '<i>F</i>', () => tip(fU));
   label('tick', '+4 nC', () => V(x1 - 0.3, Y0 + 0.32, ZL)); label('tick', '+4 nC', () => V(x1 - 0.3, Y0 + 0.32, ZU));
-  label('board', 'like charges: <i>U</i> &gt; 0', () => V(X0 + 0.6, 0.02, ZL + 0.6)); label('board', 'unlike charges: <i>U</i> &lt; 0', () => V(X0 + 0.6, 0.02, ZU + 0.8));
+  label('board', 'одноимённые заряды: <i>U</i> &gt; 0', () => V(X0 + 0.6, 0.02, ZL + 0.6)); label('board', 'разноимённые заряды: <i>U</i> &lt; 0', () => V(X0 + 0.6, 0.02, ZU + 0.8));
   lines(root, [x1, 0.02, ZL, X0 + 2.2, 0.02, ZL, x1, 0.02, ZU, X0 + 2.2, 0.02, ZU], '#c4c4c8');
   // breakdown: the path in steps, the force at each
   const stepsP = [0.40, 0.35, 0.30, 0.25, 0.20, 0.15, 0.10];
@@ -131,7 +131,7 @@ export function buildWorld(E) {
   lines(root, [...pA.toArray(), ...pC.toArray()], INK);
   { const d = []; for (let k = 0; k < 20; k += 2) { const u0 = k / 20, u1 = (k + 1) / 20; d.push(...pA.clone().lerp(pB, u0).toArray(), ...pA.clone().lerp(pB, u1).toArray()); } for (let k = 0; k < 10; k += 2) d.push(...pB.clone().lerp(pC, k / 10).toArray(), ...pB.clone().lerp(pC, (k + 1) / 10).toArray()); lines(root, d, GREY); }
   [['A', pA, -0.25], ['B', pB, -0.25], ['C', pC, 0.45]].forEach(([n, p, dx]) => { const d = dot(root, 0.06); d.position.copy(p); label('board', n, () => p.clone().add(V(dx, 0.05, 0.28))); });
-  const qUni = charge(gUni, 1, 0.15, 'Test charge +1 nC');
+  const qUni = charge(gUni, 1, 0.15, 'Пробный заряд +1 нКл');
   // breakdown: four ds steps, each with its part along E
   const dsA = [0, 1, 2, 3].map(() => force(gUni, { r: 0.016, head: 0.11, headR: 0.045, tone: 'mid', name: 'Элементы пути ds' }));
   const dxA = [0, 1, 2, 3].map(() => arrow(gUni, 'dark', { r: 0.014, head: 0.09, headR: 0.04, tone: 'mid', name: 'Элементы пути ds' }));
