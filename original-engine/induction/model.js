@@ -68,8 +68,8 @@ LENZ.v = (LENZ.far - LENZ.near) / LENZ.run;
 export const CASES = [
   { key: 'nIn', pole: 'N', move: 'in', name: 'N pole approaching' },
   { key: 'nOut', pole: 'N', move: 'out', name: 'N pole leaving' },
-  { key: 'sIn', pole: 'S', move: 'in', name: 'S pole approaching' },
-  { key: 'sOut', pole: 'S', move: 'out', name: 'S pole leaving' },
+  { key: 'sIn', pole: 'S', move: 'in', name: 'Южный полюс приближается' },
+  { key: 'sOut', pole: 'S', move: 'out', name: 'Южный полюс удаляется' },
 ];
 // area vector along −x (away from the magnet). Φ > 0 means B points along −x through the loop.
 export function lenzCase(c, t) {
