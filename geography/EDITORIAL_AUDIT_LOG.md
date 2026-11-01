@@ -727,3 +727,27 @@ This checkpoint preserves the working context for continuation after a session i
 - Chapter 23: `e7ba357b7eb03dd517e64bfd6022a197f6c25520`; verified blob `f4606b5d0eef05c7eb99064e989975457c955ca3`.
 
 The current marker additions are production instructions/placeholders only; no generated maps or illustrations are claimed.
+
+
+## Global visual-register reconciliation — Chapters 07–13 and 26 (1 November 2026)
+
+- Added bilingual in-text markers for visual briefs that previously had figure descriptions but no stable asset ID:
+  - Chapter 07: 07-D–07-I; total 07-A–07-I (9).
+  - Chapter 08: 08-D–08-G; total 08-A–08-G (7).
+  - Chapter 09: 09-D–09-F; total 09-A–09-F (6).
+  - Chapter 10: 10-D–10-G; total 10-A–10-G (7).
+  - Chapter 11: 11-E–11-G; total 11-A–11-G (7).
+  - Chapter 12: 12-E–12-J; total 12-A–12-J (10).
+  - Chapter 13: 13-E–13-K; total 13-A–13-K (11).
+- Chapter 26 visual IDs had been reused for different subjects in separate parts of the same chapter. Normalised the 12-asset set to 26-A–26-L, aligned repeated in-text/production-brief references to the same asset, and added missing markers for river-basin vulnerability, forests/corridors, urban air quality, sanitation infrastructure, waste management, mining liabilities and 2050 scenarios.
+- Created `geography/VISUAL_ASSET_REGISTER.md`, a consolidated inventory of 216 unique visual asset IDs across all 26 chapters. It distinguishes placeholders/briefs from generated and approved artwork and sets map, statistical, hazard, biodiversity, remote-sensing, bilingual, accessibility and review controls.
+- Chapter 07 commit: `b6704ee1899ea32c592c04f4134ea776f909a18f`; blob `5187cdd1d080a8c92b301293943386034c0e2f64`.
+- Chapter 08 commit: `15181d05874698f4e4a7f58b72f45d63ee5d8db1`; blob `0ab4ca9c61fc31f94e95420abd0b3a47e61cf652`.
+- Chapter 09 commit: `d833fdaf0f6394c8556ceb28775b90ae4fb6eca4`; blob `db2114d2f7ba2f2d836c8a1dd9d63db23bb36a44`.
+- Chapter 10 commit: `e6c6f8c8cd47a6ff897f211cf2120db5537f179f`; blob `9d5aa65581fdcc1c3e52756c09ce7da51b39c12f`.
+- Chapter 11 commit: `4aa1f0433f30f1a760b79aac11735b140aa7ee11`; blob `ef727d6a612c2d892e228d0262c1d3397fe61ec0`.
+- Chapter 12 commit: `8fdcabaf93cba62d6c0407052b2018226fd6df8a`; blob `a84abb74e04f6a39f126a2284f2044b81f4cd433`.
+- Chapter 13 commit: `60ebe494bc4cd3baad9b382810b6cfb6842b0789`; blob `8c6060b0553019ee38531f325969d27aac14c936`.
+- Chapter 26 commit: `34420a0c73e0a035a995362b8b5d2e783d1aad6b`; blob `040425ddd25e503f546da424d2e59350afd34787`.
+- Visual register commit: `19cad7902dcee4ee0935ac2e754d91fa34cffd8f`; verified blob `7ebdd51f38d2129d5fdf20d54e519ffd0571f275`.
+- All edited chapter files and the register were re-fetched from GitHub. This is a visual-production index and placeholder reconciliation, not a claim that any map or illustration has been generated or approved.
