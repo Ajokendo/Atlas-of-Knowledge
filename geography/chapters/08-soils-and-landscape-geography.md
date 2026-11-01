@@ -330,6 +330,185 @@ Soil salinisation is the accumulation of soluble salts to levels that can impair
 
 **Activity.** Design a sampling plan for an irrigated field: identify at least three micro-landscape positions and two sampling depths. State which irrigation and drainage data should be collected before recommending soil-improvement measures.
 
+## English-language chapter text
+
+### 8.1. Soil as a Natural Body
+
+Soil is the loose upper layer of Earth's surface formed through the interaction of mineral material, organic matter, water, air and living organisms over time. It has characteristic properties, structure and fertility. Soil is not the same as rock: rock is one of its parent materials, but soil develops through long-term weathering, accumulation and transformation of organic matter, movement of substances and biological activity.
+
+Soil performs many functions:
+- provides habitat for microorganisms, fungi, plants and soil animals;
+- participates in the cycles of carbon, nitrogen, phosphorus and other elements;
+- regulates water infiltration, storage and filtration;
+- provides the foundation for agriculture and forestry;
+- stores organic carbon and influences the climate system; and
+- preserves natural and historical information about landscape development.
+
+Pedology is the science of soil origin, properties, classification, geography and sustainable use. Vasily Dokuchaev played an important role in the development of genetic soil science by treating soil as an independent natural body formed through the combined influence of several factors.
+
+### 8.2. Soil-Forming Factors
+
+The classical model identifies five main soil-forming factors: climate, organisms, relief, parent material and time. Modern models also emphasise human influence and the history of land use.
+
+**Climate** determines temperature and moisture regimes, the rate of chemical reactions, weathering, organic-matter decomposition and the leaching of soluble substances. Warm, humid conditions often accelerate many processes, but the outcome also depends on vegetation, parent material and drainage.
+
+**Organisms** create and transform organic matter. Plants supply litter and root exudates; microorganisms decompose organic matter; soil animals mix material and create pores. Vegetation affects acidity, structure and nutrient cycling.
+
+**Relief** influences runoff, erosion, moisture, sunlight and sediment accumulation. Soils on steep slopes are often thin because of material removal, while water and fine sediments may accumulate in depressions.
+
+**Parent material** provides the initial mineral composition, particle-size properties and some chemical characteristics. However, mature soil properties are not determined by parent material alone; they are modified by soil-forming processes.
+
+**Time** allows horizons to develop and the results of processes to accumulate. Formation rates depend on environmental conditions. Young soils may develop on fresh alluvium, lava flows and glacial deposits.
+
+**People** alter soils through ploughing, irrigation, drainage, grazing, construction, pollution, fertiliser use and forest restoration. Human impacts can improve or worsen particular soil properties, but they often have long-term consequences.
+
+### 8.3. Soil Profile and Horizons
+
+A soil profile is a vertical section from the surface downwards in which genetic horizons can be distinguished. The number and expression of horizons depend on soil type and formation conditions.
+
+The internationally used O, A, E, B, C and R horizon system is common, but not every soil contains all of these horizons:
+
+- **O:** surface organic horizon, consisting mainly of plant remains and organic material;
+- **A:** upper mineral horizon with humus accumulation and active biological processing;
+- **E:** eluviated horizon, often lighter in colour because clay, iron, aluminium or organic compounds have been removed;
+- **B:** horizon where materials from upper layers accumulate or are transformed, or where a distinctive structure develops;
+- **C:** weakly altered material from which the soil develops; and
+- **R:** hard bedrock.
+
+Not every soil profile contains all these horizons. Boundaries may be gradual or sharp. Field descriptions record horizon thickness, colour, structure, moisture, roots, inclusions, new formations and boundary characteristics.
+
+Humus is a complex mixture of transformed organic compounds in soil, not one specific chemical substance. Organic matter influences aggregate structure, water retention, cation-exchange capacity and biological activity.
+
+### 8.4. Physical Properties of Soils
+
+**Soil texture** is the proportion of particles of different sizes. Common systems distinguish sand, silt and clay, although exact particle-size boundaries depend on the standard used. Sandy soils usually transmit water quickly and retain fewer nutrients. Clay soils have a larger specific surface area and often retain more water, but may have low permeability. Loams combine properties of different particle-size fractions.
+
+**Soil structure** is the arrangement of particles into aggregates. Good aggregate structure supports infiltration, aeration and root growth. Compaction destroys pore space and restricts the movement of water and air.
+
+**Porosity** is the share of total soil volume occupied by pores. Large pores mainly transmit air and allow rapid water movement; small pores retain capillary water. The pore-size distribution depends on texture, structure, organic matter and compaction.
+
+**Bulk density** is the mass of dry soil per unit of total sample volume, including pores. It differs from particle density. High bulk density may restrict root growth and infiltration.
+
+**Soil-water properties** include water-holding capacity, permeability, capillary rise and plant-available water. Not all water in soil is available to plants: some is held too strongly, while some drains rapidly.
+
+### 8.5. Chemical and Biological Properties
+
+Soil reaction (pH) describes the acidity or alkalinity of the soil solution. It affects nutrient availability, microbial activity and the toxicity of some compounds. The optimum pH range depends on the crop or ecosystem; there is no universal value for all soils.
+
+Cation-exchange capacity describes the ability of soil to retain and exchange positively charged ions, including calcium, magnesium, potassium and ammonium. It depends on the amount and type of clay minerals and organic matter.
+
+Salinisation is associated with the accumulation of soluble salts in soil. It can reduce plants' ability to absorb water and cause ion toxicity. Sodicity, in which the proportion of exchangeable sodium is elevated, can damage soil structure and reduce permeability. Salinity and sodicity are different processes, although they may occur together.
+
+Soil biota include bacteria, archaea, fungi, algae, protozoa, nematodes, earthworms, arthropods and other organisms. They contribute to organic-matter decomposition, aggregate formation, nitrogen fixation, mineralisation and the suppression of some pathogens.
+
+### 8.6. Major Soil-Forming Processes
+
+Soils develop through combinations of processes that may reinforce or counteract one another.
+
+- **Humus formation:** the input, decomposition and transformation of organic remains into soil organic matter.
+- **Mineralisation:** the breakdown of organic compounds into simpler inorganic forms.
+- **Eluviation:** the removal of soluble or fine materials from upper horizons.
+- **Illuviation:** the accumulation of materials transported from upper horizons into lower ones.
+- **Carbonation:** the accumulation and transformation of calcium and magnesium carbonates.
+- **Gleying:** reducing processes under prolonged waterlogging and low oxygen, often associated with greyish-blue colours.
+- **Podzolisation:** a group of processes involving the removal of organic-mineral compounds and formation of a bleached horizon under certain acidic, leaching conditions.
+- **Ferralitisation:** intense weathering and relative accumulation of iron and aluminium oxides under warm, humid conditions.
+- **Salinisation and sodification:** accumulation of soluble salts and/or exchangeable sodium.
+- **Cryoturbation:** mixing of soil material through freezing and thawing in cold regions.
+
+### 8.7. Soil Geography and Classification
+
+Soil distribution is systematically related to climate, vegetation, relief, parent material and regional history. In plains, latitudinal soil zonation may be evident; in mountains, soils often show altitudinal belts. However, soil maps do not simply reproduce climate-zone maps: local drainage, slope aspect, parent material and land use also matter.
+
+Different soil-classification systems exist. The World Reference Base for Soil Resources (WRB) is widely used for international comparison. National systems may use different diagnostic horizons, criteria and names. Soil names from different systems should not automatically be treated as exact synonyms.
+
+Major soil groups commonly shown in global reviews include organic soils and peatlands; strongly weathered soils of humid tropics; chernozems and other dark humus-rich soils of steppe regions; chestnut and dryland soils of dry steppes and semi-deserts; brown and grey-brown soils of arid areas; podzolic and podzolic-gley soils of boreal forests; tundra soils; alluvial soils of river valleys; and mountain soils, which are often patchy and shallow.
+
+### 8.8. Soils Across Major Natural Zones
+
+Humid tropical regions often have intense chemical weathering and leaching of base cations. Forest productivity may be sustained by rapid nutrient cycling in biomass rather than by large nutrient stores in mineral soil.
+
+In savannas and seasonal tropical forests, soils differ in moisture regime, profile depth, iron content and organic matter. The alternation of wet and dry seasons influences leaching and the accumulation of substances.
+
+In temperate steppes, suitable conditions may produce dark humus-rich soils with a thick upper horizon. Their fertility is associated with organic-matter accumulation and soil structure, but ploughing and erosion can rapidly reduce humus stocks.
+
+In deserts and semi-deserts, moisture deficit limits leaching. Carbonates, gypsum and soluble salts may accumulate in some areas. Irrigated agriculture without effective drainage can intensify secondary salinisation.
+
+In boreal forests, acidic conditions and leaching water regimes may promote eluviated and illuviated horizons. In tundra, low temperatures slow organic-matter decomposition, while permafrost affects drainage and profile development.
+
+Mountain soils are often patchy: slopes may have shallow soils, valleys accumulate alluvial deposits, and temperature, moisture and vegetation change with elevation.
+
+### 8.9. Soil Erosion and Land Degradation
+
+Land degradation is a decline in the biological productivity, ecological functions and/or economic value of land caused by natural and human-driven processes.
+
+**Water erosion** occurs when raindrops and surface runoff detach and transport soil particles. It may appear as sheet wash, rills and gullies. Risk increases when vegetation is removed, soil is compacted, slopes are steep and rainfall is intense.
+
+**Wind erosion** transports fine particles from exposed, dry surfaces. It is promoted by aridity, strong winds, lack of vegetation cover and excessive cultivation.
+
+Other forms of degradation include soil compaction by heavy machinery and excessive grazing; loss of organic matter and fertility; salinisation under inappropriate irrigation and inadequate drainage; contamination by heavy metals, petroleum products, pesticides and waste; waterlogging caused by altered water regimes; and **desertification**—land degradation in arid, semi-arid and dry sub-humid areas caused by various climatic and human factors.
+
+Desertification does not simply mean the “movement of the desert”, and it is not the same as the natural existence of desert ecosystems. It is a process of land degradation in vulnerable drylands.
+
+### 8.10. Soil Conservation and Sustainable Management
+
+Soils form slowly, while the fertile top layer may be lost much faster through intensive erosion. Sustainable management therefore aims to conserve soil structure, organic matter, water regime and biological activity.
+
+Effective measures include contour cultivation and terracing where appropriate; cover crops, mulching and retention of plant residues; crop rotation and crop diversity; avoiding unnecessary compaction by heavy machinery; regulated grazing and vegetation restoration; shelterbelts and riparian buffer strips; appropriate irrigation and drainage with salt-balance monitoring; pollution prevention and safe waste management; and restoration of degraded soils according to local ecology.
+
+No-till or reduced-tillage practices can reduce erosion in some conditions, but outcomes depend on climate, soil, crop rotation, machinery and residue management. No single agricultural technique is universal.
+
+### 8.11. Landscape as a Geographical System
+
+A landscape is a territorial system of interacting natural components with a particular structure, functioning and developmental history. In physical geography, the term is used at different scales, from a local landscape unit to a large regional complex. The scale and classification used should therefore always be stated.
+
+Landscape components include geological foundation and relief; climate and microclimate; surface and groundwater; soils; vegetation and wildlife; and human activity and infrastructure.
+
+Landscape structure includes the relative arrangement of natural complexes, their boundaries, connectivity, mosaic pattern and hierarchy. Functioning refers to the exchange of energy, water, matter and organisms. Dynamics describe changes over seasons, years and geological periods.
+
+Natural landscapes are rarely completely isolated. Water and sediment move along slopes and valleys, organisms disperse, and fires or floods may affect large areas. Landscape-unit boundaries are therefore often transitional.
+
+### 8.12. Landscape Classification and Morphology
+
+Landscapes may be classified by origin, relief, climate, moisture, vegetation, soils and degree of human transformation.
+
+Depending on dominant natural conditions, examples include plains, mountains, coasts, river landscapes, wetlands, deserts and forests. By degree of transformation, landscapes may be natural, slightly modified, cultural, agricultural, urban or industrial. These categories are not always mutually exclusive: an urban landscape may include river terraces, natural slopes and artificial surfaces.
+
+Landscape analysis uses concepts such as:
+- **facies:** a relatively small, internally uniform natural site;
+- **urochishche:** a group of related facies, often associated with a particular landform;
+- **locality:** a larger morphological unit in some Eastern European schools; and
+- **landscape:** an integrated territorial system at a higher level.
+
+Exact definitions and hierarchy depend on the scientific school. An atlas should use one terminology system consistently and explain it to readers.
+
+### 8.13. Human-Modified Landscapes and Land Use
+
+People transform landscapes through agriculture, urbanisation, transport, industry, mining, reservoirs and forestry. These changes affect microclimate, runoff, erosion, biodiversity and matter cycles.
+
+Agricultural landscapes provide food but may involve monocultures, habitat loss, erosion and chemical pressures. Urban landscapes have a high share of artificial surfaces, altered water balance, urban heat-island effects and fragmented natural areas.
+
+Landscape planning aims to align economic activity with natural constraints and ecological functions. Important approaches include catchment-based planning, conservation of ecological corridors, protection of slopes and floodplains, and assessment of cumulative impacts from multiple projects.
+
+### 8.14. Landscape Ecology and Spatial Processes
+
+Landscape ecology studies how spatial structure influences ecological processes. Three common elements are:
+- **patches:** areas with relatively uniform cover;
+- **corridors:** linear features that connect patches or facilitate movement; and
+- **matrix:** the dominant landscape background within which patches and corridors occur.
+
+Connectivity may be **structural**, meaning physical continuity of landscape elements, or **functional**, meaning the ability of a particular organism or material flow to move through the landscape. A corridor that benefits one species may be a barrier or source of risk for another.
+
+The **edge effect** is the change in conditions along the boundary between two habitat types, including light, wind, moisture, temperature, species composition and predator pressure. Strong fragmentation increases the share of edge habitat and may reduce the area of interior habitat.
+
+### 8.15. Methods in Soil and Landscape Studies
+
+Soil and landscape research combines field observations, laboratory analyses, mapping and geospatial methods.
+
+Common methods include soil pits for describing horizons, structure and roots; soil augering and sampling at specified depths; particle-size analysis of sand, silt and clay; chemical analysis of pH, organic carbon, salts and elements; infiltration measurements; vegetation surveys; remote sensing of surface spectral properties; and GIS analysis of relief, soils and land use.
+
+Field and laboratory data should include coordinates, date, sampling depth, method, units and quality information. Satellite vegetation indices are not direct measurements of soil fertility: interpretation requires ground validation and consideration of seasonality.
+
 ## 8.16. Итоги главы / Chapter Summary
 
 1. Почва — самостоятельное природное тело, возникающее при взаимодействии минерального материала, органики, воды, воздуха и организмов.
