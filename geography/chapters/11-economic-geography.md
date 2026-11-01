@@ -40,6 +40,7 @@ Economic geography studies the spatial organisation of economic activity, the lo
 ## 11.3. Отраслевая структура хозяйства / Sectoral Structure of the Economy
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 11-A / IMAGE PLACEHOLDER 11-A]** Диаграмма отраслевой структуры экономики с раздельными долями занятости и добавленной стоимости и указанием года.
+> **EN:** Diagram of the sectoral structure of an economy, separating employment shares from value-added shares and stating the reference year.
 
 Для общего описания экономики используют деление на сектора. Классическая трёхсекторная схема включает:
 
@@ -104,6 +105,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 ## 11.5. Факторы размещения производства / Factors Influencing the Location of Economic Activity
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 11-B / IMAGE PLACEHOLDER 11-B]** Схема факторов размещения предприятия: сырьё, энергия, вода, труд, транспорт, рынок, агломерация, институты и экология.
+> **EN:** Diagram of business-location factors: raw materials, energy, water, labour, transport, markets, agglomeration, institutions and environmental constraints.
 
 Размещение предприятия зависит от сочетания затрат, доступа к рынкам и рабочей силе, инфраструктуры, регулирования, технологий и экологических ограничений.
 
@@ -176,6 +178,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 ## 11.9. Транспортная география и логистика / Transport Geography and Logistics
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 11-C / IMAGE PLACEHOLDER 11-C]** Карта транспортных узлов и коридоров с примерами мультимодальных цепочек и различием времени и расстояния.
+> **EN:** Map of transport hubs and corridors with multimodal-chain examples, distinguishing travel time from physical distance.
 
 Транспорт обеспечивает перемещение людей, сырья, товаров и услуг. География транспорта исследует сети, узлы, коридоры, доступность, стоимость и время перемещения, а также воздействие транспортной инфраструктуры на территорию.
 
@@ -199,6 +202,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 ## 11.10. Международная торговля и глобальные цепочки создания стоимости / International Trade and Global Value Chains
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 11-D / IMAGE PLACEHOLDER 11-D]** Схема глобальной цепочки стоимости товара с географией сырья, производства, сборки, логистики и рынка.
+> **EN:** Diagram of a global value chain showing the geography of raw materials, production, assembly, logistics and markets.
 
 Международная торговля включает обмен товарами и услугами между странами. Экспорт — поставки товаров и услуг за пределы экономической территории резидентами, импорт — приобретение соответствующих товаров и услуг из-за рубежа. Статистические определения и оценка потоков могут различаться, особенно для услуг, реэкспорта и цифровых продуктов.
 
