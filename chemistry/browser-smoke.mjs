@@ -272,6 +272,7 @@ try {
       if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1,10 В") || !(await page.locator("[data-i=cellPotential]").innerText()).includes("активность растворённых ионов равна 1")) {
         errors.push(file + ": Daniell-cell standard potential is missing in Russian");
       }
+      if (!(await page.locator("[data-i=nernst25]").innerText()).includes("0,05916 В / n") || !(await page.locator("[data-i=nernstDaniell]").innerText()).includes("a(Zn²⁺) / a(Cu²⁺)") || !(await page.locator("[data-i=nernstCaution]").innerText()).includes("активности")) errors.push(file + ": Russian Nernst checks failed");
       await page.locator("#lang").click();
       if (!(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("number of electrons lost must equal the number gained") || !(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("total charge")) errors.push(file + ": English redox balancing note must conserve electrons, atoms and charge");
       if (!(await page.locator("[data-i=electronFlow]").innerText()).includes("single vertical line") || !(await page.locator("[data-i=electronFlow]").innerText()).includes("double line") ||
@@ -287,6 +288,7 @@ try {
       if (!(await page.locator("[data-i=cellPotential]").innerText()).includes("+1.10 V") || !(await page.locator("[data-i=cellPotential]").innerText()).includes("unit activity for dissolved ions")) {
         errors.push(file + ": Daniell-cell standard potential is missing in English");
       }
+      if (!(await page.locator("[data-i=nernst25]").innerText()).includes("0.05916 V / n") || !(await page.locator("[data-i=nernstDaniell]").innerText()).includes("a(Zn²⁺) / a(Cu²⁺)") || !(await page.locator("[data-i=nernstCaution]").innerText()).includes("activities")) errors.push(file + ": English Nernst checks failed");
       await page.locator("#lang").click();
     }
 
