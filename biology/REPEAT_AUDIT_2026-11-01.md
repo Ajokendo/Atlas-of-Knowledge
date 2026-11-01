@@ -258,7 +258,7 @@ Continue technical review by examining each interactive model's state transition
 
 ### Saved-state and verification limits
 
-- GitHub read-back verified the changed fauna chapter, species audit and `checks.mjs`; milestone documents are being synchronized and read back in this save cycle.
+- GitHub read-back verified all six changed files: the fauna chapter, regional species audit, `checks.mjs`, repeat-audit report, progress checkpoint and project README.
 - The 52 image insertion anchors and 52 Deferred disposition entries remain unchanged; no new image is claimed as generated or integrated.
 - `checks.mjs` was not executed. No test pass is claimed; browser, mobile, accessibility and CI checks remain pending.
 - G4 independent scientific review and G5 independent bilingual/editorial review remain open.
