@@ -179,12 +179,12 @@ export function buildWorld(E) {
   const TRUCK_C = V(0, 0, 0.35), LANE = 1.7;                     // the truck's centre of mass, in its frame
   const TRUCK0 = V(X7 + LANE, 0, LANE).sub(TRUCK_C), CAR0 = V(X7 + LANE - 1.25 - 2.12, 0, LANE);
   const cmX = cmMark(gX, 0.5), pCar = pArrow(gX, 3), pTruck = pArrow(gX, 3), totX = totArrow(gX, 3);
-  label('vec', '<i>p</i><sub>car</sub>', () => tip(pCar, 0.6)); label('vec', '<i>p</i><sub>truck</sub>', () => tip(pTruck, 0.6)); label('vec blue', '<i>P</i>', () => tip(totX, 0.6));
+  label('vec', '<i>p</i><sub>автомобиль</sub>', () => tip(pCar, 0.6)); label('vec', '<i>p</i><sub>грузовик</sub>', () => tip(pTruck, 0.6)); label('vec blue', '<i>P</i>', () => tip(totX, 0.6));
   const kc = n => n / 1000 * CRASH_SCALE;
   const addA = pArrow(gX, 3), addB = pArrow(gX, 3), addT = totArrow(gX, 3);
-  label('vec', '<i>p</i><sub>car</sub>', () => ex(gX) > 0.3 ? mid(addA, V(0, 0, 1.2)) : null);
-  label('vec', '<i>p</i><sub>truck</sub>', () => ex(gX) > 0.3 ? mid(addB, V(1.6, 0, 0)) : null);
-  label('vec blue', '<i>P</i><sub>total</sub>', () => ex(gX) > 0.3 ? mid(addT, V(-1.8, 0, 0)) : null);
+  label('vec', '<i>p</i><sub>автомобиль</sub>', () => ex(gX) > 0.3 ? mid(addA, V(0, 0, 1.2)) : null);
+  label('vec', '<i>p</i><sub>грузовик</sub>', () => ex(gX) > 0.3 ? mid(addB, V(1.6, 0, 0)) : null);
+  label('vec blue', '<i>P</i><sub>полный</sub>', () => ex(gX) > 0.3 ? mid(addT, V(-1.8, 0, 0)) : null);
   label('tick', '1000 кг', () => car.position.clone().add(V(-1, 2.6, 0))); label('tick', '8000 кг', () => truck.position.clone().add(V(-1.4, 4.1, 0)));
 
   // ---------- 9 · a shell that bursts at the top ----------
