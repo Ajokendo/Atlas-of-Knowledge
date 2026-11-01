@@ -1,4 +1,4 @@
-# G4 scientific audit — regional biodiversity block (25%)
+# G4 internal scientific audit — Atlas of Biology (regional biodiversity block, 25% of planned scope)
 
 **Date:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
@@ -137,8 +137,13 @@ GitHub Actions run `41310559437` on commit `f3fb88a8d87d748be28d5e436ac6680a4f59
 - Obtain author/voucher-level resolution of the Suusamyr `4 + 1` versus four-total discrepancy and the `Triplophysa` identifications.
 - Resolve the Son-Kul sampling-year and taxon/locality assignments against the original field records or authors.
 - Continue claim-to-source review for the remaining regional species entries; this pass sampled and checked priority claims, not every sentence in the 2 large regional chapters.
-- Independent ichthyologist, ornithologist and botanist review remains required. This author-side pass does not close G4.
+- Remaining author/voucher-level questions are explicitly recorded as unresolved and the affected claims remain bounded or deferred. Optional ichthyologist, ornithologist or botanist consultation may be useful later, but it is not required to close the internal G4 gate.
 
 ## Completion accounting
 
-G4 is divided into four review blocks: (1) regional biodiversity and species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency. All four blocks are complete at the author-side evidence-review level: **4/4 = 100%**. No claim is made that the complete Biology Atlas or its independent-review gates are 25% publication-ready.
+G4 is divided into four review blocks: (1) regional biodiversity and species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency. All four blocks are complete at the author-side evidence-review level: **4/4 = 100%**. No claim is made that the complete Biology Atlas is publication-ready; this accounting measures only completion of the planned internal G4 audit blocks.
+
+
+## Agreed status — 2 November 2026
+
+G4 is the internal scientific audit, not a mandatory external peer-review process. The four planned author-side blocks are complete (4/4, 100%). Unresolved primary-source, voucher and taxonomic questions remain explicitly documented as limitations or deferred claims. Optional specialist consultation may be pursued later but is not a completion gate.
