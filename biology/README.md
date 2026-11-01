@@ -760,3 +760,11 @@ A read-only audit of the 13 HTML pages on `workspace/biology` confirmed:
 - These are source-level checks against the current GitHub file contents. They do **not** replace execution of `checks.mjs`, browser automation, the CI workflow, real-device testing or expert review.
 
 Latest documentation checkpoint: `dc9619cad1c296597b7782c18e14f22175d67ee9`. Keep the readiness score at **95/100** until the remaining release gates have actual evidence.
+
+## Bilingual learning-clarity pass and follow-up source audit — 1 November 2026
+
+- A subsequent editorial commit, `67dc12b7d5793e1d73c5f58047027c6a707fef07`, revised key explanations across all 12 chapter pages in Russian and English while retaining the existing scientific terminology, chapter structure and interactive learning features.
+- Re-read the current source of all 13 Biology HTML pages after that pass. Each page still declares its document language, viewport and main landmark; each has a language-switch control and document-language update logic.
+- The Russian and English content-marker counts remain balanced on every page. The audit found no duplicate IDs, no buttons missing explicit `type="button"`, and no inline SVG without an accessible name.
+- This is a read-only source audit of the current GitHub branch. It does not establish that the rewritten text has passed independent bilingual copy-editing, that interactive behavior works in a real browser, or that the Node/Playwright test suites have executed.
+- The 100% closure gates remain open until their evidence is recorded. Keep the readiness score at **95/100**; the content-clarity pass is substantive progress but does not replace executable validation, CI, specialist review or release QA.
