@@ -1626,6 +1626,48 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chemistry-constants.html") {
+      const sourceLinks = {
+        sourceCodata: "https://physics.nist.gov/cuu/Constants/",
+        sourceStandardPressure: "https://goldbook.iupac.org/terms/view/S05921",
+        sourceGasConditions: "https://goldbook.iupac.org/terms/view/S05910",
+        sourceThermodynamic: "https://goldbook.iupac.org/terms/view/S05927",
+        sourceAutoprotolysis: "https://goldbook.iupac.org/terms/view/A00532"
+      };
+      for (const [key, expectedUrl] of Object.entries(sourceLinks)) {
+        const link = page.locator('[data-i="' + key + '"]');
+        if (await link.count() !== 1) {
+          errors.push(file + ": missing or duplicate source link " + key);
+          continue;
+        }
+        if (await link.getAttribute("href") !== expectedUrl) errors.push(file + ": incorrect URL for " + key);
+        if (await link.getAttribute("target") !== "_blank" ||
+            !(await link.getAttribute("rel") || "").split(/\\s+/).includes("noopener")) {
+          errors.push(file + ": external source link " + key + " must open safely in a new tab");
+        }
+      }
+      const valuesBeforeLanguageSwitch = await page.locator("td.value").allInnerTexts();
+      const russianConditions = await page.locator('[data-i="stpText"]').innerText();
+      if (!russianConditions.includes("273.15 K") || !russianConditions.includes("100 kPa") ||
+          !russianConditions.includes("298.15 K")) {
+        errors.push(file + ": Russian standard conditions must distinguish IUPAC gas conditions from the thermodynamic reference temperature");
+      }
+      await page.locator("#lang").click();
+      const englishConditions = await page.locator('[data-i="stpText"]').innerText();
+      if (!englishConditions.includes("273.15 K") || !englishConditions.includes("100 kPa") ||
+          !englishConditions.includes("298.15 K")) {
+        errors.push(file + ": English standard conditions must distinguish IUPAC gas conditions from the thermodynamic reference temperature");
+      }
+      if (!(await page.locator('[data-i="sourceAutoprotolysis"]').innerText()).includes("autoprotolysis")) {
+        errors.push(file + ": English water-autoprotolysis source label did not switch");
+      }
+      const valuesAfterLanguageSwitch = await page.locator("td.value").allInnerTexts();
+      if (JSON.stringify(valuesBeforeLanguageSwitch) !== JSON.stringify(valuesAfterLanguageSwitch)) {
+        errors.push(file + ": switching language changed reference values or units");
+      }
+      await page.locator("#lang").click();
+    }
+
     if (file === "glossary.html") {
       if (await page.locator(".term").count() !== 102) {
         errors.push(file + ": expected 102 bilingual chemistry glossary entries");
