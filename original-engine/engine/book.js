@@ -114,6 +114,8 @@ export function startBook(chapter) {
   emptyScene.textContent = 'Выбрать объект сцены…';
   scenePicker.append(emptyScene);
   for (const [key, group] of Object.entries(E.ASM)) {
+    // Match pointer picking: non-pickable helpers and assemblies without a breakdown are omitted.
+    if (group.userData.noPick || !PLATES[key]) continue;
     const title = group.userData.title || key;
     const option = document.createElement('option');
     option.value = key;
