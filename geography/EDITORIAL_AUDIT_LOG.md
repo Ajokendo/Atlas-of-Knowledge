@@ -822,3 +822,11 @@ The current marker additions are production instructions/placeholders only; no g
 - Verified the Ministry's 16 March 2026 protected-area results for 2025: 25,236 seedlings planted across 39.09 ha; 359,316 seedlings/saplings in park nurseries, of which 106,825 were suitable for planting. The chapter preserves the distinction between planted stock and nursery stock: https://mnr.gov.kg/en/posts/news/itogi-raboty-na-osobo-oxranyaemyx-prirodnyx-territoriyax-kyrgyzstana-za-2025-god
 - Retained the explicitly unresolved discrepancy between the Ministry's April 2024 area breakdown (1,234,622.9 ha for reserves and parks) and the NSC 2025 series (1,305,500 ha). No silent reconciliation or unsupported explanation was introduced.
 - This source pass covered the named counts, designations and official programme status. Species-level taxonomy, population trends, exact protected-area geometries and legal status of each site still require dedicated source review.
+
+
+## Chapter 18 mountain toponymy and summit-elevation check — 1 November 2026
+
+- Checked the three principal summit reference elevations against Kyrgyzstan's official tourism portal: Jengish Chokusu 7,439 m, Lenin Peak 7,134 m and Khan Tengri 6,995 m. The distinction between Khan Tengri's rock summit (6,995 m) and the ice-cap surface (about 7,010 m) remains explicit and requires the measurement type to be stated: https://tourism.gov.kg/about-kyrgyzstan/
+- Checked the Kyrgyzstan Toponymic Factfile (UK PCGN, 2025), which records the Kyrgyz/Russian forms Lenin Atyndagy Choku / Pik Lenina, Jengish Chokusu / Pik Pobedy and Khan Tengri. Corrected Chapter 18 to use **Lenin Peak / Lenin Atyndagy Choku** for Kyrgyzstan and **Abu Ali Ibn Sina Peak** for Tajikistan, instead of implying that Ibn Sina is the national Kyrgyz name: https://assets.publishing.service.gov.uk/media/6672f243f92bc4be25da7e80/Kyrgyzstan_Toponymic_Factfile.pdf
+- The elevation figures remain labelled as reference values pending final reconciliation with official topographic control and a unified vertical datum; no exact ranking of lesser range summits was introduced.
+- Chapter 18 toponymic correction commits: `dc299535302115fba34715fb0d498427847c04e9` and `cbea9c3aee932f9dd3d117920909bfa4f7ea09a2`; final verified blob `73b4367b21496e566c84a70d0639e4d35bcdddc4`.
