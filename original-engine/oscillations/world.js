@@ -103,7 +103,7 @@ export function buildWorld(E) {
   for (let k = 0; k <= 8; k++) { const gb = ghostBox(root, S); gb.position.set(X0 + M.A * Math.cos(Math.PI * k / 8), 0.02 + S / 2, 0); }
   const f0 = force(g0), v0 = force(g0), a0 = force(g0, 'red');
   label('vec', '<i>F</i>', () => tip(f0)); label('vec', '<i>v</i>', () => tip(v0)); label('vec red', '<i>a</i>', () => tip(a0));
-  label('tick', '1.0 kg', () => V(o0.b.position.x + S / 2, S + 0.16, S / 2));
+  label('tick', '1,0 кг', () => V(o0.b.position.x + S / 2, S + 0.16, S / 2));
 
   // ---------- 2 · Hooke's law ----------
   const X1 = STATIONS.hooke;
@@ -130,7 +130,7 @@ export function buildWorld(E) {
   periodTicks.geometry.attributes.position.setUsage(THREE.DynamicDrawUsage);
   const v2 = force(g2), a2 = force(g2, 'red');
   label('vec', '<i>v</i>', () => tip(v2)); label('vec red', '<i>a</i>', () => tip(a2));
-  label('axis', 'time ↓', () => V(X2 - 0.8, 0.02, PZ + PLEN - 0.2));
+  label('axis', 'время ↓', () => V(X2 - 0.8, 0.02, PZ + PLEN - 0.2));
   label('axis', '−<i>A</i>', () => V(X2 - M.A - 0.03, 0.02, PZ + PLEN + 0.12)); label('axis', '+<i>A</i>', () => V(X2 + M.A + 0.18, 0.02, PZ + PLEN + 0.12));
 
   // ---------- 4 · energy: kinetic and spring potential, as bars ----------
