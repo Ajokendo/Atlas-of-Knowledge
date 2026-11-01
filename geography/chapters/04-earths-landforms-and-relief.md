@@ -794,25 +794,24 @@ Using a prepared teaching map excerpt:
 7. OpenTopography. *Frequently Asked Questions* (point density, grid resolution, DEM artifacts and smoothing). https://opentopography.org/faq-page
 8. NOAA National Ocean Service. *How Deep Is the Ocean?* https://oceanservice.noaa.gov/facts/oceandepth.html
 9. Greenaway, S. F. et al. (2021). *Revised depth of the Challenger Deep from submersible transects*. Deep-Sea Research Part I, 178, 103644. https://doi.org/10.1016/j.dsr.2021.103644
-10. China and Nepal (2020). *Joint announcement of Mount Qomolangma's snow-surface elevation: 8,848.86 m*. https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/yz_676205/1206_676812/xgxw_676818/202012/t20201208_9301005.shtml
+10. Ministry of Foreign Affairs of the People's Republic of China (2020). *Xi Jinping and Nepalese President Bidya Devi Bhandari exchange letters, jointly announcing Mount Qomolangma's elevation* (Chinese-language official announcement). https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/yz_676205/1206_676812/xgxw_676818/202012/t20201208_9301005.shtml
 11. U.S. Geological Survey. *Landslide Maps: Where Do Landslides Occur?* https://www.usgs.gov/programs/landslide-hazards/where-do-landslides-occur
 12. U.S. Geological Survey. *27 Ideas for Teaching with Topographic Maps*. https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0
 13. National Geographic Society. *Exploring Topographic Features*. https://education.nationalgeographic.org/resource/exploring-topographic-features/
 14. British Geological Survey. *Landforms*. https://www.bgs.ac.uk/discovering-geology/geological-processes/landforms/
 15. U.S. National Park Service. *Glaciers and Glacial Landforms*. https://www.nps.gov/subjects/geology/glacial-landforms.htm
 16. U.S. Geological Survey. *Geomorphology, Sediment, and Habitat*. https://www.usgs.gov/centers/washington-water-science-center/science/science-topics/geomorphology-sediment-and-habitat
-17. Chinese People's Political Consultative Conference (2020). *Chinese, Nepali presidents exchange letters, jointly announcing Mt. Qomolangma's height*. https://en.cppcc.gov.cn/2020-12/09/c_570579.htm
-18. U.S. Geological Survey. *Landslide Types and Processes*. https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html
-19. U.S. National Park Service. *Mass Wasting*. https://www.nps.gov/subjects/erosion/mass-wasting.htm
-20. National Geographic Society. *Weathering*. https://education.nationalgeographic.org/resource/weathering/
-21. U.S. National Park Service. *Plateaus and Mesas*. https://www.nps.gov/subjects/nnlandmarks/plateaus-and-mesas.htm
-22. Jiang, T. et al. (2022). *Determining the new height of Mount Qomolangma based on the International Height Reference System*. Journal of Geodesy and Geoinformation Science. https://doi.org/10.1080/10095020.2022.2128901
-23. British Geological Survey. *Deposition*. https://www.bgs.ac.uk/discovering-geology/geological-processes/deposition/
-24. NOAA National Ocean Service. *What Is a Barrier Island?* https://oceanservice.noaa.gov/facts/barrier-islands.html
-25. U.S. National Park Service. *Sandy Coast Landforms*. https://www.nps.gov/articles/sandy-coast-landforms.htm
-26. U.S. Geological Survey. *Find-A-Feature: Meander*. https://www.usgs.gov/educational-resources/find-feature-meander
-27. Fujii, M., Tamura, C., Ohara, Y. & Okino, K. (2026). *Full-ocean-depth EM124 mapping of the Challenger Deep by R/V Hakuho-maru and depth-estimate sensitivity tests*. Scientific Data, 13, 1304. https://doi.org/10.1038/s41597-026-08267-z
-28. NASA Earth Observatory. *Tibetan Plateau*. NASA Earth Art eBook (Landsat 5 reference). https://science.nasa.gov/wp-content/uploads/2023/04/703154main_earth_art_ebook.pdf
+17. U.S. Geological Survey. *Landslide Types and Processes*. https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html
+18. U.S. National Park Service. *Mass Wasting*. https://www.nps.gov/subjects/erosion/mass-wasting.htm
+19. National Geographic Society. *Weathering*. https://education.nationalgeographic.org/resource/weathering/
+20. U.S. National Park Service. *Plateaus and Mesas*. https://www.nps.gov/subjects/nnlandmarks/plateaus-and-mesas.htm
+21. Dang, Y., Jiang, T., Guo, C., Chen, B., Zhang, C., Yang, Q. & Wang, Z. (2024). *Determining the new height of Mount Qomolangma based on the International Height Reference System*. Geo-spatial Information Science, 27(4), 1182–1191 (published online 2023). https://doi.org/10.1080/10095020.2022.2128901
+22. British Geological Survey. *Deposition*. https://www.bgs.ac.uk/discovering-geology/geological-processes/deposition/
+23. NOAA National Ocean Service. *What Is a Barrier Island?* https://oceanservice.noaa.gov/facts/barrier-islands.html
+24. U.S. National Park Service. *Sandy Coast Landforms*. https://www.nps.gov/articles/sandy-coast-landforms.htm
+25. U.S. Geological Survey. *Find-A-Feature: Meander*. https://www.usgs.gov/educational-resources/find-feature-meander
+26. Fujii, M., Tamura, C., Ohara, Y. & Okino, K. (2026). *Full-ocean-depth EM124 mapping of the Challenger Deep by R/V Hakuho-maru and depth-estimate sensitivity tests*. Scientific Data, 13, 1304. https://doi.org/10.1038/s41597-026-08267-z
+27. NASA Earth Science. *Earth as Art* (Tibetan Plateau section, pp. 134–135). https://science.nasa.gov/wp-content/uploads/2023/04/703154main_earth_art_ebook.pdf
 
 Для количественных сравнений рельефа необходимо указывать вертикальную систему отсчёта, разрешение цифровой модели высот, дату и источник данных. Классификационные пороги форм рельефа следует применять последовательно в пределах всего атласа.
 
