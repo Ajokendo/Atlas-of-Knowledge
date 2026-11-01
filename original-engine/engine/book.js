@@ -20,6 +20,16 @@ const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 export function startBook(chapter) {
   const { PAGES, PLATES } = chapter;
   const N = PAGES.length;
+
+  // The left page contains animated chart annotations. Keep it out of the live tree:
+  // announce deliberate page changes through a dedicated, stable status region instead.
+  $('left').setAttribute('aria-live', 'off');
+  const pageAnnouncement = document.createElement('div');
+  pageAnnouncement.className = 'page-announcement';
+  pageAnnouncement.setAttribute('role', 'status');
+  pageAnnouncement.setAttribute('aria-live', 'polite');
+  pageAnnouncement.setAttribute('aria-atomic', 'true');
+  document.body.append(pageAnnouncement);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const narrowQ = matchMedia('(max-width: 900px), (max-height: 520px)'), narrow = () => narrowQ.matches;
   // one page of scroll; held steady while a phone's toolbar slides in and out (only a width change resizes it)
@@ -83,6 +93,8 @@ export function startBook(chapter) {
     $('figno').textContent = `Рис. ${chapter.no}${i ? '.' + i : ''}`;
     $('figtitle').textContent = PAGES[i].fig;
     [...$('dots').children].forEach((b, k) => b.setAttribute('aria-current', k === i));
+    pageAnnouncement.textContent = '';
+    requestAnimationFrame(() => { pageAnnouncement.textContent = `Страница ${i + 1}: ${PAGES[i].title}. Рисунок: ${PAGES[i].fig}.`; });
   }
   const goto = (i, now) => scrollTo({ top: Math.max(0, Math.min(N - 1, i)) * pageH, behavior: reduced || now ? 'auto' : 'smooth' });
   const fromHash = () => { const m = /^#(\d+)$/.exec(location.hash); return m && +m[1] < N ? +m[1] : null; };
