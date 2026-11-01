@@ -304,7 +304,7 @@ export function buildWorld(E) {
   const barGeo = box(0.32, 1, 0.32, 0.006).translate(0, 0.5, 0);
   const bars7 = BE.pts.map(p => {
     const bx = X7 + p.x, bz = -1.2;
-    const seg = [['paper', p.P, 'Pressure P'], ['blue', p.K, 'Kinetic ½ρv²'], ['dark', p.U, 'Potential ρgy']].map(([pal, val, name]) => ({ m: part(g7, barGeo, { tone: 'hi', pal, pos: [bx, 0.02, bz], name }), val }));
+    const seg = [['paper', p.P, 'Давление P'], ['blue', p.K, 'Кинетическая ½ρv²'], ['dark', p.U, 'Потенциальная ρgy']].map(([pal, val, name]) => ({ m: part(g7, barGeo, { tone: 'hi', pal, pos: [bx, 0.02, bz], name }), val }));
     return seg;
   });
   label('tick', '', () => ex(g7) > 0.5 ? V(X7 + BE.pts[0].x - 0.2, 0.02 + BE.E * SC.bar, -1.2) : null, () => `${(BE.E / 1000).toFixed(0)} кПа`);
