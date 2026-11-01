@@ -852,3 +852,6 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Follow-up bibliography hygiene: moved the two new Chapter 18 toponymic sources into the actual reference list and renumbered the list continuously 1–11. Verified commit `1860ed8670f5ff64b6a6eb52f5d2e286dee18791`; final blob `19e6b72a4c4b44889a0790173ed5d21fe1ef8e9a`.
+
+
+- Chapter 18 bibliography follow-up: corrected the Djamgyr gold-mineralisation article to its verified published title and DOI (`10.1016/j.oregeorev.2017.03.007)); completed the Geological Society Special Publication 427 citation with editors Brunet, McCann and Sobel and DOI `10.1144/SP427`. Verified commit `694f714d54805981591c7dfc8ddb4e86d10c6016`; blob `548c6a2224493ff02513d33d1326edbb2dd238a1`.
