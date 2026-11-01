@@ -20,6 +20,8 @@ After studying this chapter, readers should be able to explain the geological st
 
 ## 18.1. Кыргызстан — страна высокогорного рельефа / Kyrgyzstan: A Mountainous Country
 
+ > **[МЕТКА ИЛЛЮСТРАЦИИ 18-A / IMAGE PLACEHOLDER 18-A]** Физико-географическая карта Кыргызстана с высотной гипсометрией, главными хребтами, межгорными впадинами и вершинами; использовать проверенную цифровую модель рельефа.
+
 Кыргызстан расположен в пределах двух крупных горных систем Центральной Азии — Тянь-Шаня и Памиро-Алая. Основная часть территории представляет собой горы, межгорные впадины, высокогорные плато и речные долины. Рельеф отличается резкими перепадами высот: от низких участков Ферганской долины до высочайших вершин Центрального Тянь-Шаня.
 
 Горный характер территории определяет не только ландшафты, но и размещение населения, транспортных коридоров, пастбищ, водных ресурсов, месторождений и зон природного риска. При этом горы нельзя рассматривать как единый однородный массив: отдельные хребты различаются возрастом пород, историей деформаций, высотой, оледенением и современными геоморфологическими процессами.
@@ -71,6 +73,8 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 Литологический состав влияет на форму склонов, устойчивость пород, развитие карста, характер осыпей и условия залегания подземных вод.
 
 ## 18.3. Основные горные районы / Major Mountain Regions
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-B / IMAGE PLACEHOLDER 18-B]** Орографическая схема Тянь-Шаня и Памиро-Алая с Северным, Внутренним, Центральным и Западным Тянь-Шанем; географическое районирование не смешивать с тектоническими террейнами.
 
 ### 18.3.1. Северный Тянь-Шань / Northern Tien Shan
 
@@ -142,6 +146,8 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 **Методическое примечание.** Приведённые ориентиры высот следует сверять с официальными топографическими картами и актуальными цифровыми моделями рельефа перед подготовкой финальной картографической подписи. Для отдельных хребтов в литературе встречаются разные названия высших вершин и разные границы самого хребта.
 
 ## 18.5. Высочайшие вершины Кыргызстана / Highest Peaks of Kyrgyzstan
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-C / IMAGE PLACEHOLDER 18-C]** Панорама Жеңиш, Хан-Тенгри и Ибн Сина с раздельными подписями высоты скальной вершины и ледниковой шапки, где применимо; высоты сверить по официальным источникам.
 
 ### 18.5.1. Пик Жеңиш (Победы) / Jengish Chokusu (Victory Peak)
 
@@ -218,6 +224,8 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 ## 18.8. Ледниковые формы рельефа / Glacial Landforms
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-D / IMAGE PLACEHOLDER 18-D]** Геоморфологическая блок-диаграмма ледниковых форм: кар, цирк, трог, морена, ригель, висячая долина, рог и арête; подписи наносить в векторной вёрстке.
+
 | Форма / Landform | Характеристика / Description |
 |---|---|
 | Кар / Cirque | Чашеобразная ниша в верхней части горного склона, выработанная ледником |
@@ -255,6 +263,8 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 Добыча полезных ископаемых может сопровождаться нарушением земель, образованием хвостохранилищ, загрязнением воды и пылевыми выбросами. Особое значение имеют устойчивость хвостохранилищ в сейсмичных районах, контроль кислотного дренажа и долгосрочная рекультивация.
 
 ## 18.11. Геологические опасности и мониторинг / Geological Hazards and Monitoring
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-E / IMAGE PLACEHOLDER 18-E]** Карта геологических опасностей Кыргызстана с раздельными слоями землетрясений, оползней, селей, обвалов, лавин и ледниковых озёр; опасность, экспозицию и уязвимость показывать раздельно.
 
 Кыргызстан подвержен нескольким взаимосвязанным типам природных опасностей:
 
@@ -560,6 +570,22 @@ The elevation limits of natural and geomorphological belts vary with latitude, s
 
 ## 18.14. Практические работы / Practical Activities
 
+### English Practical Activities
+
+**1. Orographic map of Kyrgyzstan.** Using a verified topographic or digital elevation dataset, identify the major ranges, intermontane basins, valleys and highest peaks. State the coordinate system, elevation source and date.
+
+**2. Geological cross-section.** Prepare a conceptual cross-section from the northern foothills across the Inner Tien Shan towards the southern mountain belts. Identify folds, faults, thrusts, basement rocks and sediment-filled basins. Clearly label it as a conceptual diagram unless supported by geophysical data.
+
+**3. Glacial landform analysis.** Use a satellite image or topographic map to identify cirques, glacial troughs, moraines and hanging valleys. Distinguish present-day glacier outlines from landforms inherited from former glaciation.
+
+**4. River terraces and alluvial fans.** Compare a river valley and an alluvial fan using a map or image. Explain how gradient, sediment supply and discharge influence their formation and identify possible hazards.
+
+**5. Geological-hazard assessment.** Select a settlement or road corridor and identify potential earthquake, landslide, debris-flow, rockfall or avalanche hazards. Separate hazard, exposure and vulnerability; do not make a site-safety conclusion from a regional map alone.
+
+**6. Comparing elevation data.** Compare two elevation datasets for the same mountain area. Check resolution, vertical datum, date, source and possible artefacts. Explain how differences may affect calculated slope and watershed boundaries.
+
+
+
 ### Практическая работа 1. Орографическая карта Кыргызстана
 На контурной карте обозначьте основные горные системы, 10–12 главных хребтов, межгорные впадины и три высочайшие вершины. Разными условными знаками покажите государственную границу, водоразделы и ледниковые районы. Составьте легенду и укажите источник карты.
 
@@ -599,6 +625,25 @@ The elevation limits of natural and geomorphological belts vary with latitude, s
 | Фирн | Firn | Многолетний зернистый снег, промежуточная стадия превращения снега в лёд / Old granular snow transitional to glacier ice |
 
 ## 18.16. Контрольные вопросы / Review Questions
+
+### English Review Questions
+
+1. Which two major mountain systems extend into Kyrgyzstan?
+2. How does geographic regionalisation differ from tectonic regionalisation?
+3. Which geological processes contributed to the formation of the modern Tien Shan?
+4. Why do the boundaries of geological terranes not always coincide with geographic mountain regions?
+5. Which ranges frame the Issyk-Kul Basin?
+6. Which summit is the highest in Kyrgyzstan?
+7. Why should the elevation of Khan Tengri specify whether the rock summit or ice cap is measured?
+8. How do intermontane basins form?
+9. Which processes create glacial cirques, troughs and moraines?
+10. How do river terraces and alluvial fans form?
+11. Which mineral resources are associated with the geological diversity of Kyrgyzstan?
+12. How does a hazard map differ from a risk map?
+13. Which data are needed to assess the potential impact of a glacial lake outburst flood?
+14. Why must geological-resource estimates state their date and classification?
+
+
 
 1. Почему географическое и тектоническое районирование Тянь-Шаня не совпадают полностью?
 2. Какие процессы определили палеозойскую структуру горной области?
@@ -677,6 +722,14 @@ A geological-hazard map shows the spatial distribution of potentially hazardous 
 **Activity.** Imagine a landslide-susceptibility map and a settlement layer. Identify settlements in areas of elevated susceptibility. Then list the data needed to move from this preliminary overlay to an engineering risk assessment.
 
 ## 18.19. Итоги главы / Chapter Summary
+
+### English Chapter Summary
+
+Kyrgyzstan is a mountainous country whose geological and geomorphological structure reflects a long Palaeozoic history, Cenozoic reactivation of tectonic structures and the continuing interaction of endogenic and exogenic processes. The Tien Shan and Pamir-Alay contain diverse mountain belts, intermontane basins, high plateaus and glaciated massifs.
+
+Modern relief is shaped by tectonics, weathering, river erosion, glaciers, slope processes and karst. These processes create distinctive landscapes and also generate natural hazards. Geological resources are economically important, but their development requires evidence-based assessment of risks and environmental consequences.
+
+
 
 Кыргызстан — горная страна, геологический и геоморфологический облик которой сформировался в результате длительной палеозойской эволюции, кайнозойской реактивации тектонических структур и продолжающегося взаимодействия эндогенных и экзогенных процессов. Тянь-Шань и Памиро-Алай объединяют разнообразные горные пояса, межгорные впадины, высокогорные плато и ледниковые массивы.
 
