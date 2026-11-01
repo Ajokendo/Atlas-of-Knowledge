@@ -750,3 +750,10 @@
 - The browser log now reports `13,372 text instances, 0 below-threshold instances`: 13 pages × two viewport sizes × two language states (Russian initial state and English after language toggle). It also confirms 26 language-toggle interactions and no uncaught page errors.
 - The contrast sampler remains preliminary: ordinary visible DOM text only; complex image/gradient-backed text, SVG text, all hover/pressed/disabled combinations, screen-reader behavior and physical devices are not certified.
 - Bilingual text contrast sampling stage: 100% for the defined initial RU/EN DOM-text snapshots. Overall editorial readiness remains 95/100.
+
+
+## 2026-11-02 — dynamic-state contrast sampling added
+
+- Extended the Playwright contrast sampler to also inspect the focused-control state on each page and the updated selected/feedback states after keyboard activation in Ecology and Botany.
+- New browser test commit: `a1f96095bec70dcf11042cfae1645dbea2f170d8`. CI verification pending.
+- This adds representative dynamic-state sampling; it does not exhaustively cover every hover, pressed, disabled, expanded or error state on every control.
