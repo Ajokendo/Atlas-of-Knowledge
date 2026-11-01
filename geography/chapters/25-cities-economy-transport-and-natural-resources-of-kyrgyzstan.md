@@ -847,7 +847,7 @@ All visual materials must be based on verified geospatial data and statistics. G
 13. International Energy Agency. Energy system analysis and energy statistics. https://www.iea.org/
 14. UNESCO World Heritage Centre. *Sulayman-Too Sacred Mountain.* https://whc.unesco.org/en/list/1230/
 15. UN Tourism. Sustainable tourism and destination-management resources. https://www.unwto.org/
-16. Cabinet of Ministers of the Kyrgyz Republic. Meeting on preparations for the 2026–2027 autumn–winter period, 9 October 2026 (expected electricity consumption, domestic generation and imports). https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-taptasyrmalardy-berdi
+16. Cabinet of Ministers of the Kyrgyz Republic. Meeting on preparations for the 2026–2027 autumn–winter period, 9 October 2026 (expected electricity consumption, domestic generation and imports). https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-tapsyrmalardy-berdi
 17. Kabar News Agency. Minister of Energy's report to the parliamentary committee on electricity imports as of 15 October 2026, 19 October 2026. https://kabar.kg/news/kyrgyzstan-29-mlrd-kvtsaat-elektr-energiyasyn-importtodu/
 
 ---
