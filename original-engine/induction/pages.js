@@ -40,7 +40,7 @@ export const R = {
 };
 // live energy bars (the LC circuit): heights set in main.js, full height = the total Q²/2C
 export const BARS = { x: 90, w: 56, gap: 50, base: 112, top: 16 };
-const barChart = (key, items, top) => `<svg class="chart" viewBox="0 0 ${W} ${BARS.base + 26}" role="img" aria-label="Динамическая столбчатая диаграмма энергии">
+const barChart = (key, items, top) => `<svg class="chart" viewBox="0 0 ${W} ${BARS.base + 26}" role="img" aria-label="Энергия электрического поля конденсатора, магнитного поля катушки и полная энергия LC-контура; полная энергия сохраняется и равна ${f(M.LC.U * 1e3, 2)} мДж">
   <line class="zero" x1="${BARS.x - 20}" x2="${BARS.x + items.length * (BARS.w + BARS.gap) - BARS.gap + 20}" y1="${BARS.base}" y2="${BARS.base}"/>
   <line class="grid" x1="${BARS.x - 20}" x2="${BARS.x + items.length * (BARS.w + BARS.gap) - BARS.gap + 20}" y1="${BARS.top}" y2="${BARS.top}" style="stroke:#d4d4d0;stroke-dasharray:3 3"/>
   <text class="ax" x="${BARS.x - 26}" y="${BARS.top + 4}" text-anchor="end">${top}</text><text class="ax" x="${BARS.x - 26}" y="${BARS.base + 4}" text-anchor="end">0</text>
