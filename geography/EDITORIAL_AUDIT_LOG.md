@@ -563,3 +563,6 @@ This checkpoint preserves the working context for continuation after a session i
 
 
 - Chapter 1: completed a substantial bilingual-parity milestone by adding the full English-language chapter text for sections 1.1–1.9, 1.10 (country/atlas structure), practical activities and review questions. Existing bilingual worked examples and terminology table were retained rather than duplicated. This responds to the audit finding that Chapters 1–16 contain English headings and selected terms but are not yet consistently full-text bilingual. Chapter update commit: `e2d23618b78e83b365b943e80b0a4d39262fa313`; file re-fetched and verified.
+
+
+- Chapter 2: added a full English-language text for the core chapter (Earth's four spheres, atmosphere, hydrosphere, lithosphere, biosphere, sphere interactions, energy, zonation, biogeochemical cycles, geosystems, resilience, human impact, global change and planetary boundaries), plus review questions, practical assignment and scientific/editorial notes. Existing bilingual worked examples and terminology were retained. Chapter update commit: `39d0c2fecf47f0787278c70a16c1915c68d7db20`; re-fetched and verified.
