@@ -996,3 +996,11 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - These are generated concepts, not field photographs or verified Kyrgyzstan locality records. The ram is deliberately left taxonomically unresolved; no argali/subspecies or regional claim is approved. All three require expert visual review.
 - The local files are not in GitHub and are not integrated into chapters. Full source and caution notes are in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
 - All 52 image anchors and Deferred dispositions remain unchanged. Controlled readiness remains 95/100; G4/G5 remain open.
+
+
+## Third illustration production attempt — 1 November 2026
+
+- Generated a six-panel alpine biodiversity concept collage (ImageGen generation ID `d34da22d-d7e5-4247-9be9-e2f29d102e1a`) and cropped six separate local WebP candidates: snow-leopard-like cat (509×508), eagle-like raptor (502×508), argali-like ram (508×508), partridge-like bird (509×508), unidentified marmot (502×508) and unidentified butterfly (508×508).
+- Species identities are intentionally unassigned where the generated morphology is insufficient. These are concept illustrations, not documentary wildlife photographs or verified Kyrgyzstan locality records.
+- All six remain local-only drafts, not committed or integrated. Scientific holds and provenance are documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+- The 52 illustration markers and Deferred dispositions are unchanged. Readiness remains 95/100; G4/G5 remain open.
