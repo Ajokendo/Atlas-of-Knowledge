@@ -566,3 +566,6 @@ This checkpoint preserves the working context for continuation after a session i
 
 
 - Chapter 2: added a full English-language text for the core chapter (Earth's four spheres, atmosphere, hydrosphere, lithosphere, biosphere, sphere interactions, energy, zonation, biogeochemical cycles, geosystems, resilience, human impact, global change and planetary boundaries), plus review questions, practical assignment and scientific/editorial notes. Existing bilingual worked examples and terminology were retained. Chapter update commit: `39d0c2fecf47f0787278c70a16c1915c68d7db20`; re-fetched and verified.
+
+
+- Chapter 3: added full English-language teaching text for the introduction and core sections on Earth's internal structure, minerals, rocks and the rock cycle, geological methods, plate tectonics, earthquakes, volcanism, folding and faulting, geological time, continental/ocean-basin evolution, mineral resources and geological hazards. Existing bilingual worked examples on epicentre location, seismogram reading and relative dating were retained; summary, review questions and practical assignment now have English counterparts. Chapter update commit: `66fc619e1c4be59e061f15dc75fc2f5dd0f5a2ff`; re-fetched and verified.
