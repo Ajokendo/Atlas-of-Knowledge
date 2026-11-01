@@ -50,6 +50,8 @@
 
 - Final marker parity verification: all 12 Chapter 26 IDs (26-A through 26-L) are now present both at their relevant in-text teaching locations and in the visual production brief. Chapter 26 repeats the five paired in-text/brief IDs intentionally; the other seven were missing from the main teaching text and have now been inserted. The register total is corrected to 217 unique IDs.
 
-- README visual-production note was moved below the document title for clean structure; latest README commit: `ad54c639bf1d9cf97fd347e0f058a2251211bc7f`.
+- README visual-production note was moved below the document title for clean structure; latest README commit: `32afc59a423e9d1f664f761a742f87c51bbe4220`.
 
 - Final README title placement verified after the correction above; the visual-production update now follows `# Atlas of Geography`.
+
+- Final README verification: title is first line, exactly one visual-production note follows it; duplicate pre-title note removed. README commit: `32afc59a423e9d1f664f761a742f87c51bbe4220`.
