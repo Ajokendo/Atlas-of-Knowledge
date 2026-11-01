@@ -137,7 +137,7 @@ export const PAGES = [
       <table class="data cols">
         <tr><th>груз на пружине</th><th>маятник</th></tr>
         <tr><td><i>T</i> = 2π√(<i>m</i>/<i>k</i>)</td><td><i>T</i> = 2π√(<i>L</i>/<i>g</i>)</td></tr>
-        <tr><td>2<i>T</i>: 4<i>m</i> or ¼<i>k</i></td><td>2<i>T</i>: 4<i>L</i></td></tr>
+        <tr><td>2<i>T</i>: 4<i>m</i> или ¼<i>k</i></td><td>2<i>T</i>: 4<i>L</i></td></tr>
         <tr><td>${f(M.periodSpring(M.DOUBLE.m, M.K))} с → ${f(M.periodSpring(M.DOUBLE.m4, M.K))} с</td><td>${f(M.periodPendulum(M.DOUBLE.L))} с → ${f(M.periodPendulum(M.DOUBLE.L4))} с</td></tr>
       </table>
       <p><b>Числовой пример.</b> Груз массой 8 кг на пружине жёсткостью 2 Н/м: <i>T</i> = 2π√(8/2) = 4π с. Чтобы получить период 8π с, из 8π = 2π√(<i>m</i>/2) находим <i>m</i> = 32 кг — в четыре раза больше.</p>
