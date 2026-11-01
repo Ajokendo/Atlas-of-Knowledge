@@ -898,7 +898,7 @@ if (!faunaKyrgyzstanFile.includes("ZHETIM-BEL AND KARAKOL · CAMERA-TRAP MONITOR
     !faunaKyrgyzstanFile.includes("22–28 June 2026") ||
     !faunaKyrgyzstanFile.includes("still being processed") ||
     !faunaKyrgyzstanFile.includes("no count of independent detections") ||
-    !faunaKyrgyzstanFile.includes("Bishkek · IMPORTANT BIRD AREA") ||
+    !faunaKyrgyzstanFile.includes("BISHKEK · IMPORTANT BIRD AREA") ||
     !faunaKyrgyzstanFile.includes("only confirmed nesting location") ||
     !faunaKyrgyzstanFile.includes("about 40 species") ||
     !faunaKyrgyzstanFile.includes("more than 200 bird species")) {
