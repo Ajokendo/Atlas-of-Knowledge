@@ -63,3 +63,13 @@ Record reviewer name/qualification, date, chapters reviewed, findings, correctio
 ## Release gate
 
 Do not describe the atlas as fully publication-ready until all pending items above are completed, serious/critical automated accessibility findings are resolved, and the independent scientific reviewer has signed off. Keep the repository's internal audit result distinct from external publication acceptance.
+
+
+## Internal audit checkpoint — 80% (2026-11-01)
+
+This is an internal audit milestone only; it is not external release acceptance.
+
+- [x] Full CI rerun after recording the previous verification evidence: [README run 41327013009](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41327013009) and [checklist run 41327016326](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41327016326) both succeeded.
+- [x] Reviewed targeted browser coverage for chemistry formula parsing, pH, Nernst equation, ideal-gas pressure, limiting reagent, reaction balancing and quiz workflows.
+- [x] Confirmed automated coverage for bilingual page rendering/accessibility scans, responsive widths, local assets, glossary, periodic-table data and SVG descriptions.
+- [ ] Remaining external device, assistive-technology and independent scientific checks are still pending and require human evidence/sign-off.
