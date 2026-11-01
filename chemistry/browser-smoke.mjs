@@ -241,6 +241,23 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "index.html") {
+      const heroImage = page.locator('img[data-alt-i18n="heroImageAlt"]');
+      if (await heroImage.getAttribute("src") !== "assets/electron-cloud-ru.svg" ||
+          !(await heroImage.getAttribute("alt")).includes("электронного облака")) {
+        errors.push(file + ": Russian hero illustration or alternative text is missing");
+      }
+      await page.locator("#language").click();
+      if (await heroImage.getAttribute("src") !== "assets/electron-cloud.svg" ||
+          !(await heroImage.getAttribute("alt")).includes("electron cloud")) {
+        errors.push(file + ": English hero illustration or alternative text did not switch");
+      }
+      await page.locator("#language").click();
+      if (await heroImage.getAttribute("src") !== "assets/electron-cloud-ru.svg") {
+        errors.push(file + ": Russian hero illustration was not restored");
+      }
+    }
+
     if (file === "chapters/solutions.html") {
       const saturationImage = page.locator('img[data-svg-ru="../assets/solution-saturation-particles-ru.svg"]');
       if (await saturationImage.getAttribute("src") !== "../assets/solution-saturation-particles-ru.svg" ||
