@@ -664,3 +664,12 @@ This checkpoint preserves the working context for continuation after a session i
 - Chapters 10–13 contain English-language text, review/practical components and source lists. Their explicit visual-marker sets are 10-A–10-C, 11-A–11-D, 12-A–12-D and 13-A–13-D. Topics include political boundaries and maritime zones, economic structure and value chains, world-region mapping, climate/biodiversity and environmental assessment.
 - This pass is a structural/production-readiness sweep rather than a line-by-line scientific verification. Visual markers are briefs only; no maps or images are represented as generated. A later global visual-register pass should reconcile all marker IDs with any legacy prose-only illustration notes and ensure no duplicate or missing production assets.
 - No chapter body edits were required during this sweep. Audit record saved in this commit.
+
+
+## Bilingual status metadata correction — Chapters 1–2 (1 November 2026)
+
+- The chapter-header notes in Chapters 1 and 2 still described English as section headings/terminology only, although both chapters now contain full English teaching text.
+- Updated the language-status notes to accurately describe the existing parallel Russian and English text, including the bilingual glossary in Chapter 1 and the worked example, review questions and practical assignment in Chapter 2.
+- Re-fetched both chapter files and verified the updated notes.
+- Chapter 1 commit: `a5446ddf354c5f700f4a604e11c29902be90f84e`; verified blob: `179f5c80070a1b25d50930cec87389e2eda5d45d`.
+- Chapter 2 commit: `5d33445111570e91b3e1a6e1ab4d5b3b94a2250f`; verified blob: `cf3487702c0e267b5f1c33cc06914b60187570db`.
