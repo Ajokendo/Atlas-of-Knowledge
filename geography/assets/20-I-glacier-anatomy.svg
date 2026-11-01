@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="t d">
+<title id="t">Строение горного ледника / Anatomy of a mountain glacier</title><desc id="d">Conceptual longitudinal cross-section of a valley glacier showing accumulation, firn line, equilibrium line altitude, ablation, glacier tongue, crevasses and moraines.</desc>
+<rect width="1400" height="900" fill="#f3f7fb"/><rect x="38" y="35" width="1324" height="830" rx="26" fill="#fff" stroke="#d8e2ec" stroke-width="2"/>
+<text x="78" y="100" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#17324d">Строение горного ледника</text><text x="78" y="143" font-family="Arial,sans-serif" font-size="23" fill="#587086">Anatomy of a mountain glacier</text>
+<path d="M80 650 L230 430 L370 270 L500 420 L620 470 L760 535 L920 590 L1090 625 L1300 650 L1300 730 L80 730 Z" fill="#d9d2c4" stroke="#8a8172" stroke-width="4"/>
+<path d="M220 430 L370 270 L500 420 L620 470 L760 535 L920 590 L1090 625 L1190 650 L1080 660 L920 640 L760 590 L620 525 L500 480 L370 365 L260 490 Z" fill="#bfe2f1" stroke="#4e8ba8" stroke-width="5"/>
+<path d="M245 440 L370 290 L490 425 L600 475 L600 500 L490 450 L370 325 L270 465 Z" fill="#e9f5fb" stroke="#86b5ca" stroke-width="2"/>
+<path d="M600 470 L620 520 L760 585 L920 635 L1080 655" fill="none" stroke="#4e8ba8" stroke-width="3" stroke-dasharray="12 9"/>
+<path d="M760 540 l-18 24 l25 13 l-12 25 M840 570 l-16 22 l26 14 l-10 20 M940 600 l-14 18 l22 12" fill="none" stroke="#2c6d8a" stroke-width="5"/>
+<path d="M280 490 Q330 470 390 460 M450 500 Q510 490 570 510" fill="none" stroke="#8c6d43" stroke-width="10" stroke-linecap="round"/>
+<path d="M950 655 L1010 700 L1080 660 M1080 660 L1135 710 L1190 650" fill="none" stroke="#7c6c55" stroke-width="9"/>
+<line x1="610" y1="360" x2="610" y2="650" stroke="#b66b27" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="110" y="225" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#245f7a">Область аккумуляции / Accumulation</text><path d="M330 235 L365 310" stroke="#245f7a" stroke-width="3"/>
+<text x="510" y="245" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#9a5c21">Фирновая линия / Firn line</text><path d="M600 260 L610 360" stroke="#9a5c21" stroke-width="3"/>
+<text x="640" y="330" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#9a5c21">ELA — высота равновесия</text><text x="640" y="356" font-family="Arial,sans-serif" font-size="17" fill="#587086">Equilibrium-line altitude</text><path d="M640 365 L615 390" stroke="#9a5c21" stroke-width="3"/>
+<text x="900" y="425" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#245f7a">Область абляции / Ablation</text><path d="M1010 440 L950 580" stroke="#245f7a" stroke-width="3"/>
+<text x="1050" y="520" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#245f7a">Ледниковый язык / Tongue</text><path d="M1150 535 L1130 630" stroke="#245f7a" stroke-width="3"/>
+<text x="80" y="785" font-family="Arial,sans-serif" font-size="18" fill="#587086">Морены / Moraines: обломочный материал вдоль краёв и у конца ледника</text><text x="80" y="812" font-family="Arial,sans-serif" font-size="16" fill="#587086">Debris accumulates along glacier margins and at the terminus. Crevasses are schematic.</text>
+<text x="80" y="842" font-family="Arial,sans-serif" font-size="14" fill="#7b8794">Conceptual diagram, not to scale; snowline and ELA vary by season and year.</text>
+</svg>
