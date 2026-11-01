@@ -356,6 +356,197 @@ With consistent definitions of industry and employment, a value above 1 indicate
 
 **Activity.** Calculate LQ for two industries using hypothetical employment shares. For each, formulate one justified conclusion and two conclusions that cannot be drawn from LQ alone.
 
+## English-language chapter text
+
+### 11.1. Scope of Economic Geography
+
+Economic geography studies where and why economic activities are located, how they are connected and how they change over time. Its subject is the economy in space: enterprises, industries, markets, labour, infrastructure, natural resources, and flows of goods, capital, information and services.
+
+Unlike general economic analysis, which often considers markets and decisions in abstract models, economic geography emphasises distance, accessibility, scale, local conditions, historical legacies and territorial institutions.
+
+Main fields include the geography of industry, agriculture and services; transport, trade and logistics; regional economies and territorial development; labour, innovation and finance; resources and energy; tourism; and environmental economics and sustainable territorial development.
+
+The economic map is constantly changing. New technologies, infrastructure projects, trade agreements, price changes, conflicts, climate risks and company decisions can alter the competitive advantages of regions.
+
+### 11.2. Economic Systems and the Territorial Division of Labour
+
+An economic system includes the production, distribution, exchange and consumption of goods and services. These processes are organised through markets, public institutions, enterprises, households and civil-society organisations.
+
+The **territorial division of labour** is the specialisation of territories in particular activities and the exchange of their outputs. It is shaped by natural conditions, resources, workforce skills, technology, infrastructure, demand, institutions and historical connections.
+
+Specialisation can raise productivity through the concentration of knowledge and infrastructure, but excessive dependence on one industry makes a territory vulnerable to falling demand, technological change and external shocks. Economic diversification and the development of connected industries are therefore important.
+
+An **economic region** is a territory identified by a combination of economic specialisation, internal connections, resources and historically formed economic organisation. Its boundaries do not always coincide with administrative boundaries.
+
+### 11.3. Sectoral Structure of the Economy
+
+A common way to describe an economy is to divide it into sectors. The classical three-sector model includes:
+
+1. **Primary sector:** extraction of natural resources, agriculture, forestry and fishing.
+2. **Secondary sector:** manufacturing, construction and the transformation of raw materials into products.
+3. **Tertiary sector:** trade and services, including transport, communications, education, health care, finance, tourism and other activities.
+
+Extended models sometimes identify a **quaternary sector**, associated with information, research, development and highly skilled knowledge services, and a **quinary sector**, associated with high-level management and strategic decision-making. These categories are not universal statistical classifications.
+
+International statistical systems, such as the UN International Standard Industrial Classification of All Economic Activities (ISIC), use more detailed activity classifications. Comparisons between countries must check how the data have been grouped.
+
+A sector's share of employment may differ from its share of value added. Automation, for example, may reduce industry's share of workers while industrial output is maintained or increases.
+
+### 11.4. GDP and Other Economic Indicators
+
+**Gross domestic product (GDP)** is the monetary value of final goods and services produced within a country's economic territory during a given period. GDP can be calculated using the production, income and expenditure approaches. Within a consistent system of national accounts, the results should be reconciled.
+
+GDP per capita is GDP divided by population. It is useful for comparing the average scale of economic production, but does not show income distribution, unpaid work, environmental quality or every aspect of well-being.
+
+Important distinctions include:
+- **nominal GDP:** measured at current prices;
+- **real GDP:** adjusted for price changes to measure changes in production volume;
+- **GDP at purchasing power parity (PPP):** adjusted for differences in price levels between countries; and
+- **gross national income (GNI):** includes primary income received by residents, including from abroad, less relevant income paid to non-residents.
+
+Additional indicators include labour productivity; employment and unemployment rates; inflation; investment and capital formation; exports and imports; poverty and income inequality; public revenue and expenditure; and the Human Development Index and multidimensional quality-of-life measures.
+
+No single indicator describes an economy fully. GDP measures production, not the distribution of benefits, and is not a direct measure of environmental sustainability or subjective well-being.
+
+### 11.5. Factors Influencing the Location of Economic Activity
+
+The location of an enterprise depends on a combination of costs, access to markets and labour, infrastructure, regulation, technology and environmental constraints.
+
+Main factors include:
+- **raw materials:** proximity to mineral deposits and agricultural inputs;
+- **energy:** reliability and cost of energy supply;
+- **water:** access to water and the conditions governing its use;
+- **labour:** workforce size, skills and cost;
+- **transport:** access to roads, railways, ports, airports and logistics hubs;
+- **markets:** proximity to consumers;
+- **agglomeration:** benefits from being near suppliers, customers, research centres and specialised labour markets;
+- **institutions:** taxes, regulation, property rights, governance quality and trade regimes;
+- **environment:** requirements concerning emissions, water, land and waste; and
+- **technology:** access to innovation, digital infrastructure and knowledge.
+
+The importance of each factor differs by industry. A steel plant, data centre, tourist complex and farm have different location requirements. Technological change may reduce the importance of some factors and increase that of others.
+
+### 11.6. Industry and Industrial Regions
+
+Industry transforms raw materials and inputs into goods, equipment, energy and intermediate products. It includes extractive and manufacturing activities, energy production and utilities, although exact statistical boundaries depend on the classification used.
+
+Industrial regions develop around resource bases, transport hubs, ports, large markets, research centres or historically established production clusters. Some regions specialise in heavy industry; others in machinery, electronics, chemicals, food processing or high-technology production.
+
+An **industrial cluster** is a geographic concentration of interconnected firms, suppliers, research organisations and institutions that interact through competition and cooperation. Clusters may increase knowledge exchange and efficiency, but their advantages depend on workforce skills, innovation and links with external markets.
+
+**Deindustrialisation** is a decline in industry's relative role in employment or output. It may be associated with automation, relocation of production, productivity growth and the expansion of services. **Reindustrialisation** seeks to strengthen manufacturing capabilities and the technological base. These processes do not necessarily mean simply rebuilding former factories.
+
+### 11.7. Agriculture and Agrarian Systems
+
+Agriculture depends on climate, soils, relief, water resources, seasonality, technology, land tenure, markets and public policy. Its geography includes crop production, livestock, agroforestry, fisheries and related storage and processing chains.
+
+Major agrarian systems include subsistence and smallholder farming; intensive commercial agriculture; plantation production; pastoral livestock systems; mixed crop–livestock systems; greenhouse and protected cultivation; irrigated agriculture; and large-scale mechanised production.
+
+Agricultural intensity is not determined only by fertiliser and machinery use. It also involves yields, water use, labour, knowledge and environmental impacts. High yields may coexist with soil and water degradation if management is unsustainable.
+
+Food security includes the physical and economic availability of sufficient, safe and nutritious food, the ability to use it effectively, and the stability of these conditions over time. A country's food production alone does not guarantee food security for every household.
+
+### 11.8. Energy Geography
+
+Energy geography studies the location of energy sources, production, conversion, transmission and consumption. Energy systems include fuel extraction, power plants, networks, storage, markets and end users.
+
+Energy sources are commonly grouped into fossil fuels (coal, oil and natural gas), nuclear energy, and renewables (hydropower, solar, wind, geothermal and sustainably used bioenergy).
+
+Renewability does not mean the absence of environmental impacts. Hydropower can alter river ecosystems and flow regimes; wind and solar installations require land, materials, grid integration and balancing systems. Fossil fuels are associated with greenhouse-gas emissions and air pollution.
+
+**Energy security** includes reliability of supply, affordability, infrastructure resilience, diversification of sources and the ability of a system to withstand crises. The **energy transition** involves changes in technology, infrastructure, consumption patterns and institutions, not merely replacing one type of power plant with another.
+
+### 11.9. Transport Geography and Logistics
+
+Transport enables the movement of people, raw materials, goods and services. Transport geography studies networks, nodes, corridors, accessibility, cost and travel time, as well as the effects of transport infrastructure on territories.
+
+Main transport modes include road, rail, maritime and inland waterway, air, pipeline, urban public transport and active mobility (walking and cycling).
+
+Each mode has advantages and limitations in speed, capacity, cost, flexibility, energy use and environmental impact. **Intermodal transport** uses several modes within one logistics chain.
+
+**Logistics** is the planning and management of flows of goods, services, information and related resources from source to consumer. Logistics centres are often located at intersections of transport networks, near markets, ports, industrial regions and customs infrastructure.
+
+Accessibility can be assessed not only by distance but also by travel time, cost, service frequency, seasonality, reliability and access for different population groups. Mountainous, island, desert and remote areas may face high transport costs even when straight-line distances are relatively short.
+
+### 11.10. International Trade and Global Value Chains
+
+International trade is the exchange of goods and services between countries. Exports are supplies of goods and services to non-residents by residents; imports are purchases from abroad. Statistical definitions and valuation may differ, particularly for services, re-exports and digital products.
+
+Trade geography studies the direction of flows, national specialisation, transport corridors, tariff and non-tariff barriers, trade agreements and dependence on external markets.
+
+A **global value chain (GVC)** is a system in which stages such as design, component production, assembly, marketing, transport and servicing are distributed among several countries and companies. A country may export a finished product made using imported components, technologies and services.
+
+Participation in global value chains can provide access to markets, technology and employment. Risks include dependence on a limited number of suppliers, logistics disruptions, changes in trade policy, unequal distribution of value added and environmental costs.
+
+### 11.11. Geography of Services, Finance and the Digital Economy
+
+Services include activities whose output is often intangible or involves the provision of assistance, such as education, health care, trade, transport, tourism, finance, public administration, communications and professional services.
+
+Financial centres develop through the concentration of banks, capital markets, legal and business services, skilled workers and digital infrastructure. Financial flows can cross borders rapidly but are regulated by national and international rules.
+
+The digital economy relies on telecommunications networks, data centres, software, digital platforms and data. Its spatial organisation is not completely “placeless”: data centres need electricity, cooling, connectivity and physical security; digital services depend on workforce skills, regulation and network access.
+
+The **digital divide** refers to differences in access to the internet, devices, skills and opportunities to use digital services. It may reinforce existing regional and social inequalities.
+
+### 11.12. Tourism and Recreation Geography
+
+Tourism involves temporary travel outside a person's usual environment for purposes such as leisure, business, visiting relatives, education and health care. Tourism geography studies tourism resources, flows, infrastructure, seasonality, territorial impacts and destination sustainability.
+
+Tourist attractiveness may be based on natural landscapes, climate, cultural heritage, events, accessibility and service quality. Visitor flows depend on transport connections, income, safety, visa rules, information and travel costs.
+
+Tourism can support employment and local business, encourage heritage conservation and improve infrastructure. It can also create seasonal pressure on water and energy, waste, ecosystem disturbance, higher housing costs and the commercialisation of culture.
+
+Sustainable tourism management includes visitor monitoring, community participation, protection of natural and cultural sites, and management of waste, water use and transport, together with fair distribution of economic benefits.
+
+### 11.13. Regional Development and Economic Inequality
+
+Economic activity is unevenly distributed. Large cities and transport hubs often concentrate jobs, capital, universities and infrastructure, while peripheral areas may experience population outflow, limited access to services and a narrow industrial base.
+
+Regional inequality can be measured using GDP per capita, labour productivity, household income and poverty, employment and unemployment, access to education, health care and transport, investment and infrastructure provision, and the Human Development Index and its components.
+
+**Gross regional product (GRP)** estimates the value added produced in a region during a period. Its calculation and comparability depend on national statistical methodology. A high GRP per capita in a region with an extractive industry does not necessarily mean that most residents have high incomes.
+
+Regional policy may include investment in infrastructure, education, innovation, local entrepreneurship, digital connectivity and links between regions. It is important to assess not only the amount invested but also who can access the benefits, the environmental consequences and long-term sustainability.
+
+### 11.14. Agglomeration Economies and Spatial Concentration
+
+Agglomeration effects arise when proximity among firms, workers, suppliers and consumers improves economic efficiency. Common types include:
+- **sharing effects:** shared infrastructure, suppliers and specialised services;
+- **matching effects:** a larger labour market and better matching between workers and jobs; and
+- **learning effects:** the spread of knowledge, technologies and business practices.
+
+Concentration also creates costs, including traffic congestion, expensive land and housing, pollution, infrastructure overload and vulnerability to local crises. The economic efficiency of an agglomeration therefore depends on the quality of planning, transport, housing and land-use management.
+
+### 11.15. Natural Resources, the Economy and Environmental Limits
+
+Natural resources are components and properties of the natural environment used, or potentially suitable for use, to meet society's needs. They may be classified by origin, renewability, economic purpose and accessibility.
+
+Economic use of resources is constrained by environmental limits. Mining can create jobs and export revenue but may also disturb land, pollute water, generate waste and create land-use conflicts. Agriculture provides food while affecting soils, biodiversity and water systems.
+
+Important approaches include life-cycle assessment; the polluter-pays principle; circular-economy practices and material reuse; environmental impact assessment and strategic environmental assessment; accounting for ecosystem services; and reducing resource and energy intensity.
+
+A **circular economy** seeks to reduce the consumption of primary resources and the generation of waste through durable design, repair, reuse, refurbishment and recycling. It does not mean that waste or environmental impacts can be eliminated entirely.
+
+### 11.16. Economic Resilience and Global Change
+
+Economic resilience is the ability of enterprises, industries and territories to withstand shocks, adapt and recover while maintaining key functions. Sources of shocks include financial crises, pandemics, natural hazards, climate change, conflicts, supply-chain disruptions and technological shifts.
+
+Resilience can be strengthened through diversification, reliable infrastructure, skilled workers, access to finance, effective institutions, social protection and cooperation between territories. There is no universal solution: measures must reflect the sectoral structure, resources, vulnerabilities and opportunities of each region.
+
+Climate change affects agriculture, energy, transport, tourism, insurance and infrastructure. Economic adaptation requires scenario analysis, risk assessment and attention to uncertainty.
+
+### 11.17. Methods in Economic Geography
+
+Economic-geographical research uses quantitative, qualitative and spatial methods.
+
+**Statistical methods** include analysis of structure and change; calculation of growth rates and indices; comparison of regional indicators; assessment of productivity and industrial specialisation; and measurement of concentration and diversification.
+
+**Spatial methods** include mapping firms, employment and flows; network analysis of transport accessibility; service-area analysis; spatial statistics and cluster detection; and modelling the location of facilities.
+
+**Qualitative methods** include interviews with firms and local communities; analysis of documents and strategies; fieldwork; observation of production and logistics processes; and comparative regional studies.
+
+Interpretation must account for analytical scale, data quality, changes in administrative boundaries, the informal economy and limits on causal inference. Spatial correlation does not prove causation.
+
 ## 11.18. Итоги главы / Chapter Summary
 
 1. Экономическая география изучает пространственную организацию хозяйства и территориальные различия развития.
