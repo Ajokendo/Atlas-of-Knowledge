@@ -714,16 +714,16 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. Intergovernmental Panel on Climate Change (IPCC). **Assessment Reports** and **Special Reports** — оценка физических основ изменения климата, воздействий, адаптации и смягчения.
-2. World Meteorological Organization (WMO). **State of the Global Climate** — наблюдения и оценки состояния климатической системы.
-3. Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). **Global Assessment** and thematic assessments — состояние биоразнообразия и экосистем.
-4. United Nations Environment Programme (UNEP). **Global Environment Outlook** — комплексные экологические оценки.
-5. Convention on Biological Diversity (CBD). **Kunming-Montreal Global Biodiversity Framework** — глобальная рамка действий по биоразнообразию.
-6. United Nations Convention to Combat Desertification (UNCCD). **Global Land Outlook** — состояние земель и варианты устойчивого управления.
-7. World Health Organization (WHO). **Air Quality Guidelines** — научные рекомендации по качеству воздуха и здоровью.
-8. United Nations Framework Convention on Climate Change (UNFCCC). **Paris Agreement** and related decisions — международная климатическая политика.
-9. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being** — системный подход к экосистемным услугам.
-10. Rockström, J. et al. **A safe operating space for humanity.** Nature (2009) — исходная научная публикация о планетарных границах; последующие оценки уточняют рамку.
+1. Intergovernmental Panel on Climate Change (IPCC). **Assessment Reports** and **Special Reports** — assessment of climate science, impacts, adaptation and mitigation. https://www.ipcc.ch/reports/
+2. World Meteorological Organization (WMO). **State of the Global Climate** — observations and assessments of the climate system. https://wmo.int/publication-series/state-of-global-climate
+3. Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). **Global Assessment** and thematic assessments — biodiversity and ecosystem status. https://www.ipbes.net/global-assessment
+4. United Nations Environment Programme (UNEP). **Global Environment Outlook** — integrated environmental assessments. https://www.unep.org/global-environment-outlook
+5. Convention on Biological Diversity (CBD). **Kunming-Montreal Global Biodiversity Framework** — global framework for biodiversity action. https://www.cbd.int/gbf
+6. United Nations Convention to Combat Desertification (UNCCD). **Global Land Outlook** — land status and sustainable-management options. https://www.unccd.int/resources/global-land-outlook
+7. World Health Organization (WHO). **WHO Global Air Quality Guidelines** — evidence-based guidance on air quality and health. https://www.who.int/publications/i/item/9789240034228
+8. United Nations Framework Convention on Climate Change (UNFCCC). **Paris Agreement** and related decisions — international climate policy. https://unfccc.int/process-and-meetings/the-paris-agreement
+9. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being** — systems approach to ecosystem services. https://www.millenniumassessment.org/en/index.html
+10. Rockström, J. et al. **A safe operating space for humanity.** *Nature* (2009) — foundational paper on planetary boundaries; later assessments refine the framework. https://doi.org/10.1038/461472a
 
 ---
 **Конец главы 13 / End of Chapter 13**
