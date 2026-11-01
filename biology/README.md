@@ -1252,3 +1252,16 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - All 52 image anchors remain mapped and all 52 image dispositions remain Deferred; visual production is not complete.
 - The regression script and browser/mobile/accessibility/CI checks have not been run in this save cycle. No test pass is claimed.
 - Controlled editorial-readiness score remains 95/100; it is not increased by completing the author-side repeat audit.
+
+## Independent scientific and bilingual review package
+
+The Biology atlas has a dedicated external-review handoff. These documents are working materials for independent reviewers; none is itself an independent approval:
+
+- `INDEPENDENT_REVIEW_HANDOFF.md` — reviewer qualifications, evidence protocol, acceptance criteria and G4/G5 sign-off forms.
+- `INDEPENDENT_REVIEW_PAGE_MATRIX.md` — assignment scope and recommended specialist competence for all 13 bilingual pages, plus cross-page checks.
+- `INDEPENDENT_REVIEW_TRACKING_REGISTER.md` — 10 priority scientific claims (six P1, four P2), page-level G4/G5 coverage, cross-page review and issue tracking.
+- `EXTERNAL_REVIEW_PACKET.md` — detailed scientific questions, source conflicts and editorial review brief.
+- `EDITORIAL-AND-SCIENTIFIC-STANDARDS.md` — project-wide evidence, taxonomy, quantitative, bilingual and attribution rules.
+- `G4_SCIENTIFIC_AUDIT_2026-11-01.md`, `G5_EDITORIAL_AUDIT_2026-11-01.md` and `BILINGUAL_PARITY_AUDIT.md` — author-side audit records only; they do not replace independent review.
+
+**Current external-review status:** G4 and G5 remain open; no independent reviewer sign-off has been received. The 52 planned illustration assets remain deferred. Screen-reader testing, measured contrast verification and testing on physical devices remain separate outstanding release gates. Do not describe the Biology atlas as fully publication-ready until these gates are closed with recorded evidence.
