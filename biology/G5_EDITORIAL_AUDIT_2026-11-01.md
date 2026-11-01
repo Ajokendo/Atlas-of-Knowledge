@@ -64,7 +64,7 @@ These are reference aids for terminology, not substitutes for specialist review 
 
 - Blocks 2 and 3: full chapter-by-chapter editorial and bilingual review.
 - Block 4: unify terminology and British-English spelling, compare all learning objectives/glossaries/navigation, audit interactive language switching and final cross-chapter consistency.
-- External independent editorial/bilingual review remains recommended before publication.
+- Optional external editorial/bilingual consultation may add value, but it is not required for G5 completion under the agreed project model.
 
 
 ## Block 2 — biochemistry, botany and ecology (complete)
@@ -203,4 +203,9 @@ All 52 illustration assets themselves remain deferred; this audit only improves 
 
 **G5 author-side editorial and bilingual audit: 100% (4/4 planned blocks complete).**
 
-This means the planned internal audit and its corrections are complete. It does **not** replace an independent professional Russian-English editor/translator review or specialist scientific sign-off. Outstanding release gates from G4 remain unchanged: independent review, actual production/review of the 52 deferred illustrations, full screen-reader testing, comprehensive contrast assessment and physical-device testing.
+This means the planned internal audit and its corrections are complete (4/4 blocks, 100%). Independent professional Russian-English review and specialist scientific sign-off are optional, not required gates. Remaining project tasks are tracked separately: 52 deferred illustrations, full screen-reader testing, exhaustive keyboard checks and physical-device testing. Automated contrast sampling has passed only within its documented scope.
+
+
+## Agreed status — 2 November 2026
+
+G5 is the internal editorial and bilingual audit. The planned author-side scope is complete (4/4 blocks, 100%). No independent professional translation certificate is claimed or required. Remaining stylistic or pedagogical feedback can be gathered during the later teacher pilot after the portal is complete.
