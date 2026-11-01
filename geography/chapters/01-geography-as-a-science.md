@@ -325,6 +325,175 @@ The same process may look different at the scale of a household, neighbourhood, 
 9. Какие сведения необходимо проверить перед использованием тематической карты?
 10. Почему для изучения горной страны, такой как Кыргызстан, важно одновременно учитывать природные и общественные процессы?
 
+## English-language chapter text
+
+### 1.1. What Is Geography?
+
+Geography is the study of Earth as humanity's shared home and of the spatial differences, connections and changes that shape natural and human phenomena. It asks **where** processes occur, **why** they take place in particular ways, **how** places are connected and **how** they change over time.
+
+The name comes from the ancient Greek words *gē* (“Earth”) and *graphō* (“I write” or “describe”). Modern geography, however, goes far beyond describing places. It explains natural processes, studies settlement and economic activity, analyses the movement of people, goods, water and information, assesses risks and supports decisions informed by spatial evidence.
+
+A geographical question rarely concerns only one object. To understand why a city has grown in a particular location, for example, we need to consider relief, water, climate, transport, history, labour markets, public policy and connections with other settlements.
+
+**The central idea of geography:** natural and human phenomena are not distributed randomly across Earth's surface. Their locations and patterns are shaped by interactions among environmental conditions, history, technology, economics, culture and human decisions.
+
+### 1.2. Object, Subject and Geographical Thinking
+
+In geographical research, it is useful to distinguish between the object and the subject of study.
+
+- **Object** — the part of the real world being investigated: a river, city, mountain system, national population, climatic process or transport network.
+- **Subject** — the particular properties, relationships and patterns of that object on which the research focuses: distribution, location, interactions, change and consequences.
+
+The same object can be studied by several disciplines. A river may be investigated by hydrology, geology, ecology, economics and law. Geography also examines it as a spatial system: where its basin lies, how the upper and lower reaches are connected, which settlements depend on its water, how flood risks are distributed and how water use in one part of the basin affects other places.
+
+Geographical thinking uses several complementary questions:
+
+1. **Location:** Where is the phenomenon, and how can its position be established?
+2. **Distribution:** How are objects arranged—uniformly, in clusters, in lines or in isolation?
+3. **Scale:** Does the explanation change when moving from local to regional or global analysis?
+4. **Connection:** Which processes and places influence one another?
+5. **Change:** How did the phenomenon develop, and what changes are occurring now?
+6. **Significance and consequences:** Who is affected, and what decisions might be made?
+
+### 1.3. Geography among the Sciences
+
+Geography lies at the intersection of the natural, social and technical sciences. Its interdisciplinary character is not simply a collection of unrelated topics; it is a way of studying complex systems that cannot be fully understood from the perspective of one discipline alone.
+
+**Physical geography** investigates natural components, processes and territorial systems. Its fields include geomorphology (landforms and the processes that shape them), climatology and meteorology (climate, weather and atmospheric processes), hydrology and oceanography (inland waters and the world ocean), biogeography (the distribution of organisms and ecosystems), soil geography, landscape studies and cryosphere research.
+
+**Human and economic geography** studies population, settlement, economic activity, culture, politics and the spatial organisation of society. Its fields include population geography and demography; urban and rural settlement; economic and industrial geography; transport and logistics; political, cultural and historical geography; tourism and service geography; and regional and development studies.
+
+The English term *human geography* is broader than the literal translation “socio-economic geography”: it also includes cultural, political, historical and other spatial aspects of human life.
+
+**Integrative and applied geography** connects natural and human analysis. Environmental geography, water-resource management, natural-hazard assessment, spatial planning, geoinformatics and sustainable development all draw on several fields. For example, flood-risk assessment combines relief and rainfall, river-basin characteristics, land use, the location of homes and roads, population vulnerability and emergency preparedness.
+
+### 1.4. Geographical Space, Place and Territory
+
+These concepts are related but not identical.
+
+- **Geographical space** is a system of locations, distances, connections and relationships among natural and human phenomena.
+- **Place** is a particular location or area with physical characteristics, history, meaning and human experience.
+- **Territory** is a part of Earth's surface considered within defined boundaries. These may be administrative, national, natural, economic or conceptual.
+- **Region** is an area distinguished by one or more natural, cultural, economic, historical or administrative characteristics.
+- **Landscape** is an integrated territorial system of interacting natural components; broader studies may also consider the results of human activity.
+
+Regional boundaries depend on the purpose of the analysis. A river basin is defined by its watershed, an oblast by administrative law and a climatic region by similarities in climate. These boundaries may overlap, but they do not have to coincide.
+
+**Absolute and relative location.** Absolute location is defined by coordinates or another precise positioning system. Relative location describes where an object lies in relation to other objects—for example, beside a river, at a road junction or several hours from the capital.
+
+For practical purposes, relative location can be more important than straight-line distance. Two settlements may be close to each other on a map but separated by a mountain ridge, a river without a bridge or a road that becomes impassable in certain seasons.
+
+### 1.5. Spatial Patterns and Processes
+
+Geographers study not only individual places but also the patterns formed by the distribution of objects.
+
+Common spatial patterns include:
+
+- **dispersed distribution** — objects are separated from one another;
+- **clustered distribution** — objects form groups or concentrations;
+- **linear distribution** — objects extend along a river, coast, road or valley;
+- **uniform distribution** — distances between objects are relatively similar; and
+- **core–periphery structure** — functions and resources are concentrated in a core, with different levels of intensity in peripheral areas.
+
+A spatial pattern does not, by itself, explain its cause. A concentration of cities along a coast may be associated with ports, flat terrain, historical trade routes and access to resources. A sound conclusion requires comparing possible explanations and testing them against evidence.
+
+Geography also examines flows and interactions: daily commuting, migration, trade, water movement, pollutant transport, tourism routes and digital communications. Places are connected not only by proximity but also by exchange.
+
+### 1.6. Geographical Scale and Levels of Analysis
+
+Geographical scale is a key research tool. The same phenomenon may look different at different levels:
+
+- **local:** a street, village, urban district or valley;
+- **regional:** an oblast, mountain system, river basin or part of a country;
+- **national:** a state and its internal differences;
+- **international:** neighbouring countries, transboundary regions and networks; and
+- **global:** processes operating at the planetary scale.
+
+Map scale and the scale of analysis are related but different concepts. Map scale expresses the relationship between distance on a map and distance on the ground. The scale of analysis identifies the spatial level at which a research question is framed.
+
+A pattern observed at one level cannot automatically be transferred to another. A country's average temperature does not describe the climate of every district; a national unemployment rate does not reveal differences between cities and rural areas. This is a form of overgeneralisation.
+
+### 1.7. Methods of Geographical Research
+
+Geographical research begins with a clearly framed question and the selection of suitable evidence. No single method is appropriate for every task.
+
+**Observation and fieldwork.** Field methods allow researchers to study phenomena directly: measuring temperature and river discharge, describing soil profiles, recording vegetation conditions, conducting interviews, photographing features and checking mapped information.
+
+Field observations need a clear method: location and time, instruments, units, sampling procedure, conditions and limitations. A single observation rarely establishes a long-term trend.
+
+**Statistics and spatial analysis.** Statistical data help compare places, identify trends and assess differences. Before using them, check:
+
+- the year and observation period;
+- units of measurement and indicator definitions;
+- territorial boundaries and changes in administrative divisions;
+- data-collection methods and coverage; and
+- comparability between sources.
+
+Spatial analysis examines distance, adjacency, concentration, accessibility, overlap and relationships among features. A correlation between two indicators does not prove that one causes the other.
+
+**Maps, GIS and remote sensing.** A map is both a way to present information and a tool for analysis. Geographic information systems (GIS) store, compare and analyse spatial data. Earth observation and remote sensing provide information about the surface through satellite and airborne measurements.
+
+These methods are explored in greater detail in Chapters 14–16. They do not remove the need to validate data: an image may be cloudy or outdated, coordinates may be inaccurate and a classification may be wrong.
+
+**Comparative and historical methods.** Comparing places helps identify similarities and differences. Historical analysis explains how present-day settlement, boundaries, transport networks and land use developed. Fair comparison requires attention to different historical conditions and data-collection methods.
+
+### 1.8. The Map as the Language of Geography
+
+A map communicates spatial information through scale, projection, symbols, colours, labels and a legend. It is not a neutral copy of Earth's surface: every map is designed for a particular purpose and necessarily selects and generalises information.
+
+When reading a map, ask:
+
+1. Who created it, and for what purpose?
+2. What is the date of the source data?
+3. What are its scale, projection and geographic coverage?
+4. What do the colours, symbols and lines represent?
+5. Which features have been omitted or generalised?
+6. Are data sources, a legend and explanations of uncertain information provided?
+
+The same area may look different on physical, political, climatic, demographic and economic maps. This is not necessarily a contradiction: each map represents different characteristics of geographical space.
+
+### 1.9. Geography in Everyday Life and Public Decisions
+
+Geography helps answer practical questions:
+
+- Where is it safer to build housing when landslides, floods and other hazards are considered?
+- How should public transport and access to hospitals and schools be organised?
+- Why can a drought in one region affect prices and employment in another?
+- How does climate change affect glaciers, water supply and agriculture?
+- Where should protected natural areas be established?
+- How can tourism routes be made accessible without damaging natural and cultural heritage?
+
+Geographical analysis does not replace public consultation, engineering assessment or legal review. It helps reveal the spatial consequences of different choices and identify which communities and places may benefit or face risks.
+
+### 1.10. World Geography and the Place of Kyrgyzstan
+
+This atlas moves from general principles to regional and country-level analysis. It first examines Earth's geographic envelope, the lithosphere, relief, atmosphere, water, biosphere, soils, population, political and economic geography, world regions, environmental change and modern geographical technologies.
+
+These approaches are then applied to Kyrgyzstan, a mountainous country in Central Asia. Its natural systems, population, economy and transport cannot be understood in isolation: they are connected with the Tien Shan and Pamir–Alay, river basins, climate, neighbouring states, historical routes and international economic relations.
+
+The encyclopaedic section gives particular attention to all seven regions of Kyrgyzstan. Each region should be examined not only through its administrative boundaries but also through its natural foundations, population, settlements, economy, transport, cultural heritage, environmental challenges and development prospects. Bishkek and Osh should be treated separately wherever their administrative status differs from that of oblast centres.
+
+### 1.11. Practical Activities
+
+1. **The geography of a place.** Choose a settlement. Describe its absolute and relative location, relief, water features, transport connections and neighbouring areas. Separate verified facts from assumptions.
+2. **One object, several sciences.** Choose a river, mountain or city. Make a table showing the questions geology, ecology, economics, history and geography ask about it. Identify questions that require interdisciplinary cooperation.
+3. **A spatial pattern.** Mark schools, health facilities or public-transport stops on a map of a district. Determine whether they form clusters, linear patterns or a relatively uniform network. Do not infer accessibility from straight-line distance alone.
+4. **Checking a map.** Find a thematic map online. Record its author, date, data source, scale, projection (if stated), legend and limitations. Explain which decisions can and cannot be based on it.
+5. **The geographical history of an area.** Choose a locality and trace its changes using two or more maps from different years. Compare roads, settlements, land use and water features. Note any differences in map scale or classification.
+
+### 1.13. Review Questions
+
+1. Why is geography more than memorising countries, capitals and place names?
+2. How does the object of research differ from its subject?
+3. Which questions belong to physical geography, and which to human geography?
+4. Why can the same object be studied by several sciences?
+5. How does absolute location differ from relative location?
+6. Why may the boundaries of a natural region differ from administrative boundaries?
+7. How does understanding a phenomenon change when moving from local to global analysis?
+8. Why does a correlation between two spatial indicators not prove a causal relationship?
+9. What information should be checked before using a thematic map?
+10. Why is it important to consider natural and human processes together when studying a mountainous country such as Kyrgyzstan?
+
 ## 1.14. Источники и литература / References
 
 1. American Association of Geographers (AAG). *What Is Geography?* https://www.aag.org/what-is-geography/
