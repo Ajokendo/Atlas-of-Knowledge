@@ -364,7 +364,7 @@ for (const [label, html, id] of [
   if (!html.includes("Minimum field record") || !html.includes("Минимум полевой записи")) errors.push(label + " field protocol must be bilingual and provide a minimum record");
   if (!html.includes("Example of a well-documented record") || !html.includes("Пример корректной записи")) errors.push(label + " field protocol must include a worked example");
 }
-if (!floraKyrgyzstanAuditFile.includes("herbarium voucher") || !floraKyrgyzstanAuditFile.includes("требуемых разрешений") || !floraKyrgyzstanAuditFile.includes("rare or protected species")) errors.push("flora field protocol must require lawful voucher collection and protect rare plants");
+if (!floraKyrgyzstanAuditFile.includes("herbarium voucher") || !floraKyrgyzstanAuditFile.includes("требуемые разрешения") || !floraKyrgyzstanAuditFile.includes("rare or protected species")) errors.push("flora field protocol must require lawful voucher collection and protect rare plants");
 if (!faunaKyrgyzstanAuditFile.includes("camera-days") || !faunaKyrgyzstanAuditFile.includes("eDNA") || !faunaKyrgyzstanAuditFile.includes("repeat images as new animals")) errors.push("fauna field protocol must distinguish survey effort, eDNA and repeat detections");
 if (!faunaKyrgyzstanAuditFile.includes("precise locations of rare species") || !faunaKyrgyzstanAuditFile.includes("population estimates")) errors.push("fauna field protocol must protect sensitive localities and distinguish detections from abundance");
 
