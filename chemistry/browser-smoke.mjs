@@ -474,12 +474,12 @@ try {
     }
 
     if (file === "chapters/acids-and-bases.html") {
-      if (!(await page.locator("[data-i=note]").innerText()).includes("при 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("другой температуре") || !(await page.locator("[data-i=note]").innerText()).includes("не ограничены строго интервалом 0–14")) {
-        errors.push(file + ": Russian pH note must qualify the neutral point by temperature");
+      if (!(await page.locator("[data-i=note]").innerText()).includes("при 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("другой температуре") || !(await page.locator("[data-i=note]").innerText()).includes("не ограничены строго интервалом 0–14") || !(await page.locator("[data-i=note]").innerText()).includes("только учебный диапазон 0–14")) {
+        errors.push(file + ": Russian pH note must qualify temperature, non-fixed limits and the illustrative slider range");
       }
       await page.locator("#lang").click();
-      if (!(await page.locator("[data-i=note]").innerText()).includes("at 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("other temperatures") || !(await page.locator("[data-i=note]").innerText()).includes("not strictly limited to the 0–14 interval")) {
-        errors.push(file + ": English pH note must qualify the neutral point by temperature");
+      if (!(await page.locator("[data-i=note]").innerText()).includes("at 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("other temperatures") || !(await page.locator("[data-i=note]").innerText()).includes("not strictly limited to the 0–14 interval") || !(await page.locator("[data-i=note]").innerText()).includes("only the illustrative 0–14 range")) {
+        errors.push(file + ": English pH note must qualify temperature, non-fixed limits and the illustrative slider range");
       }
       if (!(await page.locator("[data-i=strengthNote]").innerText()).includes("не то же самое, что концентрация") ||
           !(await page.locator("[data-i=pairNote]").innerText()).includes("сопряжённое основание") ||
