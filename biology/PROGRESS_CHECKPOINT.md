@@ -781,3 +781,11 @@
 - Extended the browser suite to resample visible DOM text contrast after keyboard activation of the Ecology carbon-cycle selector (Space) and after the Botany quiz answer is activated with Enter.
 - Test code commit: `0c1c85508ab29c90ee9336a9eb4cedf725c823fd`. CI verification is pending.
 - This adds two representative dynamic states to the existing both-language-state / two-viewport contrast sampling. It does not imply every interactive state across all chapters is sampled.
+
+
+## 2026-11-02 — dynamic-state contrast audit passed
+
+- CI #507 (run ID `41344216628`, code commit `0c1c85508ab29c90ee9336a9eb4cedf725c823fd`) completed successfully.
+- Browser log: `21,477 text instances, 0 below-threshold instances`. The sampler now covers default and alternate language states at mobile and desktop widths, plus post-keyboard-activation states for the Ecology carbon-cycle selector and Botany quiz answer. All 13 pages, 26 language-toggle interactions and uncaught-error checks passed.
+- This validates only the defined representative dynamic states. It does not cover every chapter's interactive states, SVG/image/gradient text, all focus/hover/disabled states, screen readers or physical devices.
+- Dynamic-state contrast stage: 100% for the two explicitly selected interactions. Overall editorial readiness remains 95/100; G4/G5 independent review and 52 deferred visual assets remain outstanding. Feedback intake remains disabled.
