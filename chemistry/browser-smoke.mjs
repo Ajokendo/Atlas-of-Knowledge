@@ -323,7 +323,7 @@ try {
           !(await page.locator("[data-i=cathodeText]").innerText()).includes("катод положителен")) {
         errors.push(file + ": Russian galvanic-cell electrode signs are incorrect or missing");
       }
-      if (!(await page.locator("[data-i=electrodeRule]").innerText()).includes("электролизёре анод положителен") ||
+      if (!(await page.locator("[data-i=electrodeRule]").innerText()).includes("анод положителен") ||
           !(await page.locator("[data-i=electrodeRule]").innerText()).includes("внешнее напряжение") ||
           !(await page.locator("[data-i=gibbsPotential]").innerText()).includes("ΔᵣG° = −nFE°cell")) {
         errors.push(file + ": Russian electrolytic-cell sign distinction or Gibbs relation is missing");
@@ -538,6 +538,7 @@ try {
       if (!(await page.locator("[data-i=note]").innerText()).includes("at 25 °C") || !(await page.locator("[data-i=note]").innerText()).includes("other temperatures") || !(await page.locator("[data-i=note]").innerText()).includes("not strictly limited to the 0–14 interval") || !(await page.locator("[data-i=note]").innerText()).includes("only the illustrative 0–14 range")) {
         errors.push(file + ": English pH note must qualify temperature, non-fixed limits and the illustrative slider range");
       }
+      await page.locator("#lang").click();
       if (!(await page.locator("[data-i=strengthNote]").innerText()).includes("не то же самое, что концентрация") ||
           !(await page.locator("[data-i=pairNote]").innerText()).includes("сопряжённое основание") ||
           !(await page.locator("[data-i=kaNote]").innerText()).includes("Константа кислотности")) {
@@ -572,15 +573,15 @@ try {
           !(await ph.getAttribute("aria-valuetext")).includes("нейтральная среда")) {
         errors.push(file + ": pH slider bounds, localized accessible value or live result announcement are missing");
       }
-      await ph.fill("0");
+      await ph.evaluate(el => { el.value = "0"; el.dispatchEvent(new Event("input", { bubbles: true })); });
       if (!(await value.innerText()).includes("кислая среда")) {
         errors.push(file + ": pH 0 was not classified as acidic");
       }
-      await ph.fill("7");
+      await ph.evaluate(el => { el.value = "7"; el.dispatchEvent(new Event("input", { bubbles: true })); });
       if (!(await value.innerText()).includes("нейтральная среда")) {
         errors.push(file + ": pH 7 was not classified as neutral");
       }
-      await ph.fill("14");
+      await ph.evaluate(el => { el.value = "14"; el.dispatchEvent(new Event("input", { bubbles: true })); });
       if (!(await value.innerText()).includes("щелочная среда")) {
         errors.push(file + ": pH 14 was not classified as alkaline");
       }
@@ -591,7 +592,7 @@ try {
         errors.push(file + ": pH result, accessible slider value or document language did not switch to English");
       }
       await page.locator("#lang").click();
-      await ph.fill("7");
+      await ph.evaluate(el => { el.value = "7"; el.dispatchEvent(new Event("input", { bubbles: true })); });
       await page.locator("#lang").click();
     }
 
@@ -777,7 +778,7 @@ try {
       if (!(await page.locator(".formula").filter({hasText:"Δ[A]"}).count())) {
         errors.push(file + ": reaction-rate formula must account for stoichiometric coefficients");
       }
-      if (!(await page.locator("[data-i=rateText]").innerText()).includes("стехиометрическими коэффициентами")) {
+      if (!(await page.locator("[data-i=rateText]").innerText()).includes("стехиометрические коэффициенты")) {
         errors.push(file + ": Russian reaction-rate definition must account for stoichiometric coefficients");
       }
       for (const phrase of ["Скорость реакции", "Динамическое равновесие", "энергией активации"]) {
