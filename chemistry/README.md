@@ -569,3 +569,7 @@ node chemistry/browser-smoke.mjs
 - Ограничение: автоматический axe-аудит DOM не заменяет реальную работу с физическими устройствами, ручной тест скринридеров или независимую проверку предметным экспертом. Эти пункты остаются открытыми в чек-листе.
 
 - 2026-11-01 — Проверены заключительные изменения предпубликационного этапа: [run 41304226053](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41304226053) успешно прошёл после обновления `actions/checkout@v5` и `actions/setup-node@v5`; предупреждение о принудительном использовании Node 24 для Actions на Node 20 исчезло. Экспертная форма независимой научной приёмки прошла CI в [run 41304245340](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41304245340). Документация предпубликационного этапа прошла CI в [run 41304267175](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41304267175). Все три прогона завершились success.
+
+### Accessibility audit reporting parity
+
+The Chromium smoke test now reports axe-core findings of every impact level in both Russian and English states. Serious and critical findings fail CI in either language; moderate, minor and unclassified findings remain visible as review warnings rather than being silently filtered. The audit scope remains WCAG 2.1 A/AA tags; this does not constitute a WCAG 2.2 claim or replace manual assistive-technology testing.
