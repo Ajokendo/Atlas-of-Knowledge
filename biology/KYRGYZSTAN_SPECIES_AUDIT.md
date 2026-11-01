@@ -140,3 +140,29 @@ This pass is a structured editorial audit of the repository's current chapter co
 - [GBIF — Sampling-event data quality requirements](https://www.gbif.org/data-quality-requirements-sampling-events)
 - [GBIF — Technical occurrence download formats](https://techdocs.gbif.org/en/data-use/download-formats)
 - [IUCN — Red List assessment guidelines](https://nrl.iucnredlist.org/resources/redlistguidelines)
+
+
+## Mammal checklist version 1.12 and bird-list scope comparison — 1 November 2026
+
+### Central Asian mammals
+
+GBIF records Adzhigildyaev P. (2026), *Checklist of the mammals of Central Asia*, version **1.12**, DOI [10.15468/hmrvjn](https://doi.org/10.15468/hmrvjn), published 26 October 2026 (GBIF metadata accessed 1 November 2026). It covers Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan and Uzbekistan and records country-level presence as resident, introduced, unconfirmed or absent. It includes species and subspecies and keeps global IUCN status separate from national Red Data Book entries.
+
+The dataset metadata explicitly states that the checklist is a systematic synthesis of published literature, prioritising official national Red Data Book editions, then systematic monographs, specialist taxonomic papers and institutional checklists; IUCN, GBIF and Catalogue of Life are cross-checks. It is **not based on field sampling** and does not provide new site-level field evidence. The chapter bibliography was updated from version 1.11 to version 1.12 and now cites the current GBIF version and DOI.
+
+Source: [GBIF dataset record and methodology](https://www.gbif.org/dataset/c71d02ff-b756-4cc0-b089-d29ba9155619) · [version 1.12 IPT resource](https://ipt.wingeds.world/resource?r=central_asia_mammals&v=1.12).
+
+### Bird checklist totals are not directly comparable
+
+Four public references currently produce visibly different Kyrgyzstan bird-list counts:
+
+- The Birds of Kyrgyzstan country checklist lists **407 species** and presents a country-level checklist with dated rare-bird records.
+- The OSME Kyrgyzstan country profile reports **327 species**.
+- The Ornithology country database reports **380 species**.
+- Limosa lists **133 species regularly represented in open observation data** and explicitly states that its list is incomplete and tends to omit scarce species.
+
+These figures are not evidence of a real change in national species richness. The sources have different checklist purposes, inclusion criteria, taxonomic treatments and update histories. Limosa's 133 is specifically a regular-open-observation subset, not a national checklist. The chapter now explains this difference in both languages and deliberately avoids selecting, averaging or presenting one of these numbers as an independently verified definitive national total.
+
+**Editorial rule:** use a checklist as a taxonomic or country-level reference index only after recording its version/date and scope. For a local occurrence claim, retain a dated primary observation, specimen, field report or other source that supports the named taxon and locality. A national checklist entry alone does not establish presence at every site or in every oblast.
+
+Sources: [Birds of Kyrgyzstan checklist](https://kyrgyzstan.birding.day/v2checklist.php?l=en) · [OSME country profile](https://osme.org/country-profiles/kyrgyzstan/) · [The Ornithology country database](https://theornithology.com/country/kyrgyzstan/) · [Limosa open-data list and scope note](https://app.limosa.online/en/checklist/kgz).
