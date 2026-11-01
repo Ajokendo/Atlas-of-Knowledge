@@ -114,8 +114,10 @@ try {
     const keyboardTargets = await page.evaluate(() => {
       const selector = "a[href], button, input:not([type=hidden]), select, textarea, [contenteditable=true], [role=button], [role=link]";
       return [...document.querySelectorAll(selector)]
-        .filter(element => !element.matches(":disabled") && element.getClientRects().length)
-        .map(element => ({
+        .map((element, index) => ({ element, index }))
+        .filter(({ element }) => !element.matches(":disabled") && element.getClientRects().length)
+        .map(({ element, index }) => ({
+          index,
           name: element.getAttribute("aria-label") || element.innerText?.trim() || element.id || element.tagName,
           tabIndex: element.tabIndex
         }));
@@ -129,6 +131,21 @@ try {
     if (positiveTabOrder.length) {
       errors.push(file + ": positive tabindex values create a non-natural keyboard order: " +
         positiveTabOrder.map(target => target.name).join(", "));
+    }
+    if (keyboardTargets.every(target => target.tabIndex >= 0)) {
+      await page.evaluate(() => document.activeElement?.blur());
+      for (const target of keyboardTargets) {
+        await page.keyboard.press("Tab");
+        const focusedIndex = await page.evaluate(selector => {
+          const candidates = [...document.querySelectorAll(selector)];
+          return candidates.indexOf(document.activeElement);
+        }, "a[href], button, input:not([type=hidden]), select, textarea, [contenteditable=true], [role=button], [role=link]");
+        if (focusedIndex !== target.index) {
+          errors.push(file + ": Tab sequence skipped or reordered expected control " + target.name +
+            " (expected DOM index " + target.index + ", focused index " + focusedIndex + ")");
+          break;
+        }
+      }
     }
     await page.evaluate(() => document.activeElement?.blur());
 
