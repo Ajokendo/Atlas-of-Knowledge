@@ -333,6 +333,20 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/acids-and-bases.html") {
+      const illustration = page.locator('img[data-svg-ru="../assets/acid-base-neutralisation-ru.svg"]');
+      if (await illustration.getAttribute("src") !== "../assets/acid-base-neutralisation-ru.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("Нейтрализация")) {
+        errors.push(file + ": Russian acid-base illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+      if (await illustration.getAttribute("src") !== "../assets/acid-base-neutralisation.svg" ||
+          !(await illustration.getAttribute("alt") || "").includes("Acid–base neutralisation")) {
+        errors.push(file + ": English acid-base illustration or accessible description is missing");
+      }
+      await page.locator("#lang").click();
+    }
+
     if (file === "chapters/redox.html") {
       if (await page.locator('img[data-svg-ru="../assets/daniell-cell-ru.svg"]').getAttribute("src") !== "../assets/daniell-cell-ru.svg" || !(await page.locator('img[data-alt-i="daniellImageAlt"]').getAttribute("alt") || "").includes("гальванического элемента Даниэля")) errors.push(file + ": Russian Daniell-cell SVG or accessible description is missing");
       if (!(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("число отданных электронов должно равняться числу принятых") || !(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("суммарного заряда")) errors.push(file + ": Russian redox balancing note must conserve electrons, atoms and charge");
