@@ -520,8 +520,12 @@ try {
     }
 
     if (file === "chapters/organic-chemistry.html") {
-      for (const key of ["ketonesText", "estersText", "ethersText", "arenesText", "carbonylNote"]) {
+      for (const key of ["ketonesText", "estersText", "ethersText", "arenesText", "carbonylNote", "alkynesText"]) {
         if (!(await page.locator('[data-i="' + key + '"]').count())) errors.push(file + ": missing organic chemistry topic " + key);
+      }
+      const alkynesRu = await page.locator("[data-i=alkynesText]").innerText();
+      if (!alkynesRu.includes("C≡C") || !alkynesRu.includes("CₙH₂ₙ₋₂") || !alkynesRu.includes("C₂H₂")) {
+        errors.push(file + ": Russian alkyne definition must include the triple bond, acyclic monoalkyne formula, and ethyne example");
       }
       if (!(await page.locator("[data-i=carbonylNote]").innerText()).includes("на конце цепи") ||
           !(await page.locator("[data-i=carbonylNote]").innerText()).includes("внутри цепи")) {
@@ -532,6 +536,10 @@ try {
       }
       if (!(await page.locator("[data-i=isomerismNote]").innerText()).includes("одинаковую молекулярную формулу") || !(await page.locator("[data-i=isomerismNote]").innerText()).includes("C₂H₆O")) errors.push(file + ": Russian note must explain structural isomerism with an example");
       await page.locator("#lang").click();
+      const alkynesEn = await page.locator("[data-i=alkynesText]").innerText();
+      if (!alkynesEn.includes("C≡C") || !alkynesEn.includes("CₙH₂ₙ₋₂") || !alkynesEn.includes("C₂H₂")) {
+        errors.push(file + ": English alkyne definition must include the triple bond, acyclic monoalkyne formula, and ethyne example");
+      }
       if (!(await page.locator("[data-i=carbonylNote]").innerText()).includes("at the end of the chain") ||
           !(await page.locator("[data-i=carbonylNote]").innerText()).includes("within the chain")) {
         errors.push(file + ": English explanation does not distinguish aldehydes from ketones");
