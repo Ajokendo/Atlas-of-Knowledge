@@ -47,5 +47,5 @@
   <rect x="530" y="235" width="245" height="34" rx="17" fill="#fbfbfa" stroke="#c9ddd4"/>
   <text class="process" x="652" y="258">Air–sea CO₂ exchange</text>
 </g>
-<text x="500" y="540" font-family="Inter,Arial,sans-serif" font-size="15" fill="#64766f" text-anchor="middle">Simplified model: carbon also cycles through soils, sediments and food webs.</text>
+<text x="500" y="540" font-family="Inter,Arial,sans-serif" font-size="15" fill="#566a62" text-anchor="middle">Simplified model: carbon also cycles through soils, sediments and food webs.</text>
 </svg>
