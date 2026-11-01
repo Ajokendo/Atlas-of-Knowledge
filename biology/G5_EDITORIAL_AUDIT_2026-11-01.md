@@ -66,3 +66,42 @@ These are reference aids for terminology, not substitutes for specialist review 
 - Block 4: unify terminology and British-English spelling, compare all learning objectives/glossaries/navigation, audit interactive language switching and final cross-chapter consistency.
 - External independent editorial/bilingual review remains recommended before publication.
 
+
+## Block 2 — biochemistry, botany and ecology (complete)
+
+### Files reviewed
+- `biology/chapters/biochemistry.html`
+- `biology/chapters/botany.html`
+- `biology/chapters/ecology.html`
+
+### Structural bilingual checks
+
+- Biochemistry: 55 Russian and 55 English inline language spans.
+- Botany: 76 Russian and 76 English spans.
+- Ecology: 102 Russian and 102 English spans.
+- No duplicate HTML IDs found in these three files.
+- After corrections, the automated length-ratio screen found no unusually short/long paired language fragments in these three chapters. This is a screening heuristic, not a substitute for semantic proofreading.
+
+### Corrections committed
+
+1. **Biochemistry — terminology and glossary.** Standardised the prose spelling `oxidised` (British English) in the citric-acid-cycle explanation. Rephrased the Russian enzyme glossary definition so it reads naturally and accurately: the enzyme speeds a reaction without being consumed in the overall reaction. Corrected the English previous-chapter navigation label from “Evolution” to “Evolutionary Biology”, matching the Russian chapter title.
+2. **Botany — scientific wording and translation completeness.** Corrected the angiosperm glossary: ovules are enclosed within the ovary and develop into seeds after fertilisation; the seed does not arise directly from the ovary. The English interactive descriptions of stem and leaf were expanded to preserve details present in Russian (xylem and phloem transport, source of sugars, CO₂ uptake, oxygen/water-vapour release and stomatal regulation). Standardised `fertilisation` in the prose. Improved the flower-structure heading and the light/water/CO₂ availability labels.
+3. **Ecology — exact terminology.** Replaced the generic Russian button label “Дыхание” with “Клеточное дыхание” to match “Cellular respiration”. Standardised `oxidise` and `specialised` in the English prose to the British-English baseline. Corrected the next-chapter navigation label to “Evolutionary Biology”.
+4. **Image-brief consistency.** The revised Botany flower-brief title was synchronised with both central image-production registers (`IMAGE_GENERATION_PLAN.md` and `IMAGE_INSERTION_MAP.md`) and its accessible label. An intermediate CI run failed because the updated in-page title and central plan were temporarily inconsistent; after synchronising the registers, the latest validation/browser run passed.
+
+### Verification
+
+- Latest full run: GitHub Actions `41313625525`, commit `d919115edce3e3174373fa79e206752f831490d5`.
+- Static validation of all Biology pages, local links, bilingual numeric parity, scientific-name parity, image anchors and inline JavaScript: passed.
+- Chromium installation, local server and browser smoke tests for every Biology page: passed.
+- These are automated/browser smoke tests, not a full independent editorial assessment, screen-reader certification or exhaustive device/contrast review.
+
+### Relevant commits
+
+- `be019cd3c48c6fcbbc1ad3d9522fc304ce1a9432` — ecology wording and British English.
+- `84f46a900d22ae553e9f084f3d1e235b373de5d0` — biochemistry glossary and spelling.
+- `37610b7cd4282376fb20371ab5c55e1c0bcfeb9b` — angiosperm glossary precision.
+- `0f5ab2bb1fb1a59b54a77512b2642730a36307a5` — fuller English stem/leaf interactive descriptions.
+- `e1242b734f77b1b674467cf8e136563c26c92546`, `c0a5e8aa5a59e97ac9b75088eeb93a776325d187`, `f89790b89d0eccff4fbbeb91df471849dd056950` — navigation and interactive-label alignment.
+- `5f4eee063e2114da3a8b568d3a00db5fa9ba153e`, `a5fae9b48818d9f5bfeae855f1c87d1e0a3765ef`, `d919115edce3e3174373fa79e206752f831490d5` — central image register and bilingual brief synchronisation.
+
