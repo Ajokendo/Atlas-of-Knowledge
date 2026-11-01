@@ -363,7 +363,7 @@ for (const rel of imagePages) {
   for (const brief of briefs) {
     const id = brief[1], markup = brief[0];
     imageBriefIds.push(id);
-    if (!markup.includes('class="image-note-insert"') || !/images\\/generated\\/[a-z0-9-]+\\.webp/.test(markup) || !/WebP · (?:4:3|16:9)/.test(markup)) {
+    if (!markup.includes('class="image-note-insert"') || !/images\/generated\/[a-z0-9-]+\.webp/.test(markup) || !/WebP · (?:4:3|16:9)/.test(markup)) {
       errors.push(rel + ": image brief " + id + " must specify a WebP asset path and aspect ratio");
     }
     if (!/data-image-priority="P[123]"/.test(markup)) errors.push(rel + ": image brief " + id + " is missing its visible production priority");
@@ -381,7 +381,7 @@ for (const rel of imagePages) {
 if (new Set(imageBriefIds).size !== imageBriefIds.length) errors.push("Image-generation brief IDs must be unique across all Biology pages");
 if (imageBriefCount !== 52) errors.push("Expected 52 in-page image-generation briefs, found " + imageBriefCount);
 const imageInsertionMap = fs.readFileSync(path.join(root, "IMAGE_INSERTION_MAP.md"), "utf8");
-const insertionMapIds = [...imageInsertionMap.matchAll(/^\\| `image-brief-([^ `]+)`/gm)].map(m => m[1]);
+const insertionMapIds = [...imageInsertionMap.matchAll(/^\| `image-brief-([^ `]+)`/gm)].map(m => m[1]);
 if (insertionMapIds.length !== 52 || new Set(insertionMapIds).size !== 52) errors.push("IMAGE_INSERTION_MAP.md must contain 52 unique insertion anchors; found " + insertionMapIds.length);
 for (const id of imageBriefIds) if (!insertionMapIds.includes(id)) errors.push("IMAGE_INSERTION_MAP.md is missing insertion anchor " + id);
 const imageChecklistCount = (imagePlanFile.match(/^- \[ \] \*\*/gm) || []).length;
