@@ -83,6 +83,10 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 
 ## 17.4. Тянь-Шань и Памиро-Алай: крупные горные системы / Tien Shan and Pamir–Alay: Major Mountain Systems
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-F / IMAGE PLACEHOLDER 17-F]** Региональная схема Тянь-Шаня и Памиро-Алая с сопоставлением физико-географического и тектонического районирования.
+> **EN:** Regional diagram of the Tien Shan and Pamir–Alay comparing physical-geographical and tectonic regionalisation.
+
+
 > **[МЕТКА ИЛЛЮСТРАЦИИ 17-B / IMAGE PLACEHOLDER 17-B]** Физическая карта Тянь-Шаня и Памиро-Алая с основными хребтами, межгорными впадинами и высотной гипсометрией.
 
 Территория Кыргызстана включает части нескольких крупных горных районов.
@@ -127,6 +131,10 @@ The Pamir–Alay occupies a south-western position within the mountain system of
 The terms Northern, Central and Southern Tien Shan are used in physical geography, tectonics and regional geology, but their boundaries are not always identical. An atlas map should identify the specific classification scheme being used.
 
 ## 17.5. Межгорные впадины, долины и плато / Intermontane Basins, Valleys and Plateaus
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-G / IMAGE PLACEHOLDER 17-G]** Карта и профиль главных межгорных впадин и долин Кыргызстана с корректным положением Чуйской, Таласской, Иссык-Кульской, Нарынской, Суусамырской, Ферганской и Алайской долин.
+> **EN:** Map and profile of Kyrgyzstan’s main intermontane basins and valleys, with verified locations and labels.
+
 
 Межгорные впадины — важнейшие элементы географической структуры Кыргызстана. Они разделяют горные хребты, формируют местные климатические условия и концентрируют население, сельское хозяйство и транспортные связи.
 
@@ -328,6 +336,10 @@ This is a conceptual model, not a universal formula for calculating monetary los
 
 ## 17.9. Формирование современного рельефа / Formation of the Modern Relief
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-H / IMAGE PLACEHOLDER 17-H]** Концептуальная схема формирования горного рельефа: поднятие, эрозия, оледенение, аккумуляция и современные склоновые процессы.
+> **EN:** Conceptual diagram of mountain landscape formation through uplift, erosion, glaciation, deposition and modern slope processes.
+
+
 Современный рельеф создаётся взаимодействием эндогенных и экзогенных процессов.
 
 **Эндогенные процессы:**
@@ -370,6 +382,10 @@ The modern relief of Kyrgyzstan is shaped by the interaction of endogenic and ex
 In high mountain areas, characteristic landforms include U-shaped glacial troughs, cirques, moraines, corries and sharp ridges shaped by glaciers and frost weathering. Foothill areas commonly contain alluvial fans, terraces, proluvial deposits and alluvial plains.
 
 ## 17.10. Геологическое строение и природные ресурсы / Geological Structure and Natural Resources
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-I / IMAGE PLACEHOLDER 17-I]** Обзорная карта геологического строения и основных минеральных районов; не показывать запасы как доказанные без соответствующего статуса и источника.
+> **EN:** Overview map of geological structure and major mineral districts; do not portray resources as proven reserves without a documented classification and source.
+
 
 Геологическое разнообразие Кыргызстана обусловило наличие месторождений металлических и неметаллических полезных ископаемых, угля, строительного сырья и подземных вод. Минеральные ресурсы связаны с магматическими, гидротермальными, осадочными и метаморфическими процессами. Сам факт геологического обнаружения полезного компонента, однако, ещё не означает, что его можно безопасно и рентабельно добывать.
 
