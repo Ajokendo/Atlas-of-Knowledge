@@ -33,7 +33,7 @@ const checkedInternalLinks = new Set();
 const localOrigin = new URL(base).origin;
 function contrastRatio(foreground, background) {
   const channels = value => {
-    const rgb = value.match(/rgba?\\(\\s*([\\d.]+)[, ]+([\\d.]+)[, ]+([\\d.]+)/i);
+    const rgb = value.match(/rgba?\(\s*([\d.]+)[, ]+([\d.]+)[, ]+([\d.]+)/i);
     if (rgb) return [Number(rgb[1]), Number(rgb[2]), Number(rgb[3])];
     const hex = value.match(/^#?([0-9a-f]{6})$/i);
     if (!hex) return null;
