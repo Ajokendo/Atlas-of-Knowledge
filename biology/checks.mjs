@@ -436,6 +436,19 @@ if (!regionalSpeciesAudit.includes("Argali genomic sample provenance") || !regio
   errors.push("Regional species audit must flag the unresolved geographic-provenance discrepancy in the 2026 argali article and Dryad dataset");
 }
 
+if (!faunaKyrgyzstanFile.includes("wingeds.world/species/amphibia/kg") || !faunaKyrgyzstanFile.includes("30 September 2026") || !faunaKyrgyzstanFile.includes("Hynobius turkestanicus") || !faunaKyrgyzstanFile.includes("B. oblongus") || !faunaKyrgyzstanFile.includes("B. viridis")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Kyrgyz amphibian country snapshot must be dated and preserve the three unconfirmed taxa");
+}
+if (!faunaKyrgyzstanFile.includes("209 adult male green toads") || !faunaKyrgyzstanFile.includes("14 localities") || !faunaKyrgyzstanFile.includes("10.20363/BZB-2021.70.2.361") || !faunaKyrgyzstanFile.includes("triploid hybrids")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: 2021 peer-reviewed Bufotes study must retain sample scope, direct DOI and hybridization caveat");
+}
+if (!regionalSpeciesAudit.includes("Kyrgyzstan amphibian country list (snapshot 30 September 2026)") || !regionalSpeciesAudit.includes("4 resident, 3 unconfirmed")) {
+  errors.push("Regional species audit must retain the dated Kyrgyz amphibian snapshot and distinguish resident from unconfirmed taxa");
+}
+if (!regionalSpeciesAudit.includes("Green-toad morphology and locality study (Litvinchuk, Svinin & Dujsebayeva, 2021)") || !regionalSpeciesAudit.includes("209 adult males from 14 localities")) {
+  errors.push("Regional species audit must retain the primary 2021 Bufotes locality study and its sampling scope");
+}
+
 if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/sotrudnikami-talasskogo-regionalnogo-upravleniya-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-provedeny-raboty-po-ucyotu-cislennosti-obektov-zivotnogo-mira")) errors.push("Talas multi-site marmot survey must link to its Ministry source");
 
 if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/osskim-regionalnym-upravleniem-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-na-territorii-gosudarstvennogo-prirodnogo-zapovednika-kulun-ata-uspesno-provedyon-ocerednoi-kompleks-meropriyatii-po-monitoringu-bioraznoobraziya")) errors.push("Osh Region Kulun-Ata detections must link to the Ministry source");
