@@ -1437,6 +1437,20 @@ try {
         if (!Array.isArray(history) || history.length !== 1 || history[0].total !== 15) {
           errors.push(file + ": completed quiz attempt was not saved exactly once");
         }
+        await page.locator("#lang").click();
+        if (!(await page.locator("#summary").innerText()).includes("Correct answers") ||
+            !(await page.locator("#rating").innerText()).trim() ||
+            !(await page.locator("#q0 .explain").isVisible())) {
+          errors.push(file + ": English translation must preserve the completed quiz review and explanations");
+        }
+        const historyAfterTranslation = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
+        if (!Array.isArray(historyAfterTranslation) || historyAfterTranslation.length !== 1) {
+          errors.push(file + ": switching quiz language after completion must not save a duplicate attempt");
+        }
+        await page.locator("#lang").click();
+        if (!(await page.locator("#summary").innerText()).includes("Правильных ответов")) {
+          errors.push(file + ": switching back to Russian must translate the completed quiz summary");
+        }
         await page.locator("#reset").click();
       }
     }
