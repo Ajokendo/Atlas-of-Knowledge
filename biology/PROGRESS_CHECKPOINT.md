@@ -870,3 +870,9 @@ Older checkpoint entries below this note contain historical planning language th
 - CI #551 (ID `41347767565`) passed on `d00a9ff9ad1fd7fa2d87b8aca4724d404e264006`: 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons; all Chromium checks passed across mobile/desktop widths and both language states; axe WCAG rule set reported no violations; 21,477 text contrast samples had zero below-threshold instances; keyboard scroll behavior passed for overflowed regional data tables; no uncaught page errors.
 - This verifies the table-scroll behavior in Chromium at the tested viewport widths, not every browser/assistive-technology combination.
 - Automated accessibility checks remain complete for their defined scope. Full hands-on screen-reader checks and physical-device/browser matrix testing remain open. Controlled editorial readiness remains **95/100**; G4/G5 internal audits are closed; 52 visual assets and shared-portal feedback integration remain separate workstreams.
+
+
+## 2026-11-02 — read-after-write CI confirmation
+
+- The checkpoint update above was read back from `workspace/biology` with content SHA `8cab0c93e96bc974c4a527a3cf20ff97d4da1b5a`.
+- CI #552 (ID `41347882604`) passed on checkpoint commit `5c3b93960386aec74ea27cbb4316218c0dbd51a0`. This re-ran the structural checks, Chromium mobile/desktop checks, both language states, axe WCAG audit, contrast sampling and regional table keyboard-scroll checks after the checkpoint write.
