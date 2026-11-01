@@ -481,3 +481,16 @@
 - Detailed findings: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
 - G5 audit report update commit: `2a78e58e4d3d2baba1ad712f40cd43461d6ac2cf`.
 - Blocks 3–4 remain open. Independent editorial/bilingual review remains recommended before publication.
+
+
+## G5 editorial and bilingual audit checkpoint — 75% (1 November 2026)
+
+- G5 plan has four equal review blocks. **Blocks 1–3/4 complete = 75%.**
+- Block 1: Biology index, Cell Biology, Genetics, Microbiology.
+- Block 2: Biochemistry, Botany, Ecology.
+- Block 3: Anatomy and Physiology, Zoology, Systematics, Evolutionary Biology.
+- Block 3 findings: corrected British-English “organisation” in the Anatomy reference description; retained official US spellings only in publisher/institution source titles. Reviewed cardiovascular/respiratory/renal/homeostasis vocabulary, vertebrate and invertebrate classification caveats, animal behaviour explanations, taxonomy/phylogenomics, binomial nomenclature, clades, homology and speciation.
+- Structural RU/EN span counts: Anatomy 81/81; Zoology 58/58; Systematics 41/41; Evolution 58/58. No duplicate IDs or unusual paired-fragment length outliers in the four files.
+- Full technical run: GitHub Actions `41313876648` on `614caf54dbf689d6a95df47bee7b55c99a4c6f58`; static checks and Chromium browser smoke tests for every Biology page passed.
+- Detailed findings: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
+- Blocks 1–3 content and report are saved. Block 4 (cross-chapter terminology, all chapter navigation/glossaries, dynamic language switching and final consistency sweep) remains open.
