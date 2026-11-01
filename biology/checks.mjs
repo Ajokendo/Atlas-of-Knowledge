@@ -439,7 +439,7 @@ if (!regionalSpeciesAudit.includes("Argali genomic sample provenance") || !regio
 if (!faunaKyrgyzstanFile.includes("wingeds.world/species/amphibia/kg") || !faunaKyrgyzstanFile.includes("30 September 2026") || !faunaKyrgyzstanFile.includes("Hynobius turkestanicus") || !faunaKyrgyzstanFile.includes("B. oblongus") || !faunaKyrgyzstanFile.includes("B. viridis")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Kyrgyz amphibian country snapshot must be dated and preserve the three unconfirmed taxa");
 }
-if (!faunaKyrgyzstanFile.includes("209 adult male green toads") || !faunaKyrgyzstanFile.includes("14 localities") || !faunaKyrgyzstanFile.includes("10.20363/BZB-2021.70.2.361") || !faunaKyrgyzstanFile.includes("triploid hybrids")) {
+if (!faunaKyrgyzstanFile.includes("209 adult males") || !faunaKyrgyzstanFile.includes("14 localities") || !faunaKyrgyzstanFile.includes("10.20363/BZB-2021.70.2.361") || !faunaKyrgyzstanFile.includes("triploid hybrids")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2021 peer-reviewed Bufotes study must retain sample scope, direct DOI and hybridization caveat");
 }
 
