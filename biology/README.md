@@ -776,7 +776,7 @@ Latest documentation checkpoint at the time of this entry: `01d77b7ef93ccb89be21
 - The later 100% closure framework deliberately applies a stricter, evidence-based standard across the entire Biology branch. Under that framework, the current controlled score is **95/100** until executable validation, browser/device QA, independent scientific and bilingual review, and the illustration disposition are evidenced. Do not read the earlier chapter-stage scores as a claim that the full atlas is 99% release-ready.
 - Queried the GitHub Actions run collection filtered to `workspace/biology`: no workflow runs were returned. The latest Biology branch commit also has no reported commit status entries. This is an absence of CI evidence, not a pass or a failure result.
 - The Biology workflow remains configured for pull requests, pushes to `main`, and manual dispatch. The available GitHub connection in this work session exposes read operations and file commits but no workflow-dispatch action; no PR or merge was created. G3 therefore remains unchecked.
-- Current documentation checkpoint: `d7b23408d264f04d133bfa8aa98f2bb5719efddf`.
+- Current documentation checkpoint: `095aa61045eb3d092dd74c145af05fda99776380`.
 
 
 ## Freshwater field-evidence update — 1 November 2026
@@ -787,3 +787,16 @@ Latest documentation checkpoint at the time of this entry: `01d77b7ef93ccb89be21
 - Updated `KYRGYZSTAN_SPECIES_AUDIT.md` and added regression assertions in `checks.mjs` for both new field-evidence records and their scope/taxonomy caveats.
 - The new assertions and page text have been re-read from GitHub, but the complete Node test suite, Playwright browser suite and CI workflow have not been executed. These additions improve traceability; they do not close G1–G6 or change the controlled readiness score from **95/100**.
 - Evidence sources: [Osh State University, 5 August 2026](https://oshsu.kg/public/en/news/4569); [*Vestnik KRSU*, 2025, DOI 10.36979/1694-500X-2025-25-12-159-166](https://vestnik.krsu.kg/en/archive/220/8664); [Eschmeyer's Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=53209); [IUCN assessment](https://doi.org/10.2305/IUCN.UK.2022-1.RLTS.T168488A1186806.en).
+
+
+## Post-fieldwork source-integrity audit — 1 November 2026
+
+A fresh read-only audit was performed against the current `workspace/biology` tree after the Kempir-Abad and Suusamyr updates:
+
+- All 13 Biology HTML pages still have balanced Russian/English content markers; no duplicate IDs were found.
+- All 165 Biology-page buttons declare `type="button"`; all 16 inline SVGs expose accessible names.
+- Checked 95 local file references and local HTML fragment links across the 13 Biology pages and the shared portal entry point: no missing local targets or broken HTML fragments were found.
+- Checked 246 external links in those pages and the portal entry point: no link opening a new tab lacked a safe `noopener` or `noreferrer` relation.
+- The image map remains 52 rows with 52 unique anchor IDs and filenames, matching all 52 page placeholders in both directions.
+- These are remote source-content checks, not execution of `checks.mjs`, Playwright, or the GitHub Actions workflow. G1–G6 remain controlled by their evidence requirements; the score remains **95/100**.
+- Audit source revision: `095aa61045eb3d092dd74c145af05fda99776380`.
