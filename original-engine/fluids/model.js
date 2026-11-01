@@ -12,11 +12,11 @@ const smooth = (a, b, x) => { const u = clamp((x - a) / (b - a), 0, 1); return u
 export const CUBE = 0.10;
 export const CUBE_V = CUBE ** 3;
 export const MATERIALS = [
-  { key: 'cork', name: 'cork', rho: 240 },
-  { key: 'ice', name: 'ice', rho: 917 },
-  { key: 'water', name: 'water', rho: 1000 },
-  { key: 'al', name: 'aluminium', rho: 2700 },
-  { key: 'iron', name: 'iron', rho: 7870 },
+  { key: 'Пробка', name: 'Пробка', rho: 240 },
+  { key: 'Лёд', name: 'Лёд', rho: 917 },
+  { key: 'Вода', name: 'Вода', rho: 1000 },
+  { key: 'al', name: 'Алюминий', rho: 2700 },
+  { key: 'Железо', name: 'Железо', rho: 7870 },
 ].map(m => ({ ...m, mass: m.rho * CUBE_V, floats: m.rho < RHO }));
 export const density = (m, V) => m / V;
 
