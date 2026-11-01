@@ -81,3 +81,34 @@ Commits:
 - `9cf723bd6ac2077d8dc3ea3a9db074587dac2767` — updated the parity audit.
 
 Static source inspection confirms 58 RU and 58 EN markers on the Biochemistry page, and every one of the 11 model controls now has both language labels. The checks and browser test have been updated but were not executed in this session; do not report them as passing until a GitHub Actions run or local execution confirms the result.
+
+
+## Follow-up QA checkpoint — biochemistry controls and image planning — 1 November 2026
+
+A source-level inspection found that the targeted biochemistry control-label check used an over-escaped regular expression for HTML button tags. The pattern could not reliably match the actual `<button>` elements, so the previous check did not provide the intended coverage.
+
+Corrected `biology/checks.mjs` and strengthened the assertion to require the expected control count in each interactive group:
+
+| Control group | Expected | Source-level result |
+|---|---:|---|
+| `enzyme-controls` | 3 | 3 found; RU/EN labels present |
+| `factor-controls` | 3 | 3 found; RU/EN labels present |
+| `atp-controls` | 2 | 2 found; RU/EN labels present |
+| `respiration-controls` | 3 | 3 found; RU/EN labels present |
+| **Total** | **11** | **11 found and bilingual** |
+
+The corrected pattern was checked against the current chapter source in the connector runtime. This is a focused source-level verification, **not** a claim that the full Node.js test suite or Playwright browser suite was executed.
+
+Image-planning integrity was also rechecked against the current repository files:
+- `IMAGE_INSERTION_MAP.md`: 52 rows, 52 unique anchors.
+- `IMAGE_DISPOSITION_REGISTER.md`: 52 deferred rows, 52 unique anchors.
+- Priority split: 13 P1 and 39 P2/P3.
+- `IMAGE_BRIEF_REVIEW.md`: 39 individually reviewed P2/P3 briefs.
+- `IMAGE_GENERATION_PLAN.md`: 52 planned entries (13 P1, 26 P2, 13 P3).
+- `IMAGE_SCIENTIFIC_REVIEW.md` retains its approval checklist for the P1 assets.
+
+No illustration asset was generated or marked complete. All 52 page anchors, target filenames, priorities and future-artwork descriptions remain deferred pending actual asset creation, provenance/licence review and scientific/editorial approval.
+
+No other discipline folder or historical branch was changed. No merge or branch deletion was performed.
+
+Code checkpoint: `10c8765bc7ab9ee1afcebb84b67d9790b8f198dc`.
