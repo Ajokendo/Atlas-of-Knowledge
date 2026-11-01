@@ -347,6 +347,177 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 
 **Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. For each, state the measurement method, season, possible source of error and criterion that would indicate improvement.
 
+## English-language chapter text
+
+### 7.1. The Biosphere: The Realm of Life
+
+The biosphere is Earth's global system in which life exists and living organisms interact with the atmosphere, hydrosphere and upper lithosphere. Life occurs in soils, oceans, fresh waters, on land and in the lower atmosphere. Some microorganisms can survive deep within rocks and in extreme environments, so the biosphere cannot be represented as one thin, precisely fixed shell.
+
+The term “biosphere” was developed scientifically in the work of Eduard Suess in the nineteenth century. Vladimir Vernadsky later developed a comprehensive theory of the biosphere and emphasised the geological role of living matter: organisms do not merely inhabit the planet; they transform its chemical composition, soils, sedimentary rocks and global element cycles.
+
+The biosphere is not a closed system with respect to energy. Solar radiation is the main external energy source for most ecosystems. Matter, however, circulates repeatedly between organisms and environmental components. Some ecosystems, such as communities around hydrothermal vents, are based on chemical energy.
+
+The main functions of the biosphere include:
+- **gaseous:** organisms contribute to the formation and maintenance of atmospheric composition;
+- **concentration:** living organisms selectively accumulate chemical elements;
+- **oxidation–reduction:** biological and geochemical processes transform substances;
+- **environment-forming:** organisms contribute to soil formation and the regulation of water and climate;
+- **energy-related:** energy is transformed and transferred through food webs; and
+- **information and evolution:** genetic information is preserved and changes through evolution.
+
+### 7.2. Levels of Biological Organization
+
+Living systems are organised hierarchically. Each level has properties that cannot be fully reduced to those of its individual components.
+
+A **population** is characterised by its size, density, age and spatial structure, birth rate, mortality and migration. A **community** (biocenosis) consists of populations of different species connected through competition, predation, parasitism, mutualism and other interactions. An **ecosystem** combines a community with its non-living environment—water, air, soil, climate and mineral substances.
+
+The terms “biogeocoenosis” and “ecosystem” are closely related but are not identical in every scientific tradition. In the classical Eastern European tradition, a biogeocoenosis is generally a territorially defined natural complex with relatively uniform conditions. An ecosystem may have many different scales, from a small pond to an ocean.
+
+### 7.3. Ecological Factors and the Niche
+
+Organisms are affected by abiotic, biotic and human-related factors.
+
+- **Abiotic factors:** temperature, light, humidity, salinity, acidity, pressure, wind and substrate properties.
+- **Biotic factors:** competitors, predators, parasites, pollinators, symbionts and food organisms.
+- **Anthropogenic factors:** land-use change, pollution, resource extraction, hunting, species introductions and climate change.
+
+An **ecological niche** is the combination of conditions, resources and functional relationships that determines how a species exists. It is broader than habitat: habitat describes where an organism lives, while niche describes how it uses resources and interacts with its environment.
+
+Shelford's law of tolerance describes the range of conditions within which an organism can survive and reproduce. Performance declines outside the optimum, and a population cannot persist beyond its tolerance limits. Each factor has minimum, maximum and optimum values; these depend on life stage and interactions with other factors.
+
+### 7.4. Trophic Structure and Energy Flow
+
+Organisms in ecosystems are connected through feeding relationships. Three main functional groups are recognised:
+
+1. **Producers** create organic matter from inorganic substances. Most use photosynthesis; some microorganisms use chemosynthesis.
+2. **Consumers** obtain energy and matter by eating organic material. They include herbivores, predators, omnivores and parasites.
+3. **Decomposers and detritivores** break down dead organic matter and return mineral elements to cycles. Bacteria and fungi play a key role in decomposition; detritivores fragment remains and accelerate the process.
+
+A food chain is a simplified sequence through which matter and energy are transferred. In nature, chains are interconnected in food webs. One species may occupy different trophic positions depending on its diet and life stage.
+
+Energy flows through an ecosystem in one direction: it enters mainly from the Sun, is converted into chemical energy in organic matter and is gradually dissipated as heat. Unlike energy, chemical elements participate in cycles.
+
+**Primary production** is the rate at which producers create organic matter. **Gross primary production (GPP)** is all the energy fixed by photosynthesis per unit time. **Net primary production (NPP)** equals GPP minus the energy plants use in respiration. NPP is available for plant growth, consumers and detrital food chains.
+
+The often-quoted “10 percent rule” is only a guide: the share of energy transferred to the next trophic level varies greatly among ecosystems and organism types. Therefore, pyramids of energy, biomass and numbers may have different shapes. An energy pyramid always represents the decline in available energy across trophic levels over a stated period.
+
+### 7.5. Biodiversity
+
+Biodiversity is the variability of life at several levels:
+- **genetic diversity:** differences in genes and inherited variants within species and populations;
+- **species diversity:** the variety of species and the relative abundance of their populations; and
+- **ecosystem diversity:** the variety of habitats, communities and ecological processes.
+
+Species richness, evenness and diversity indices are used to assess species diversity. Richness is the number of species; evenness describes how evenly individuals are distributed among them. One measure cannot replace the other.
+
+Endemic species or other taxa have a natural range restricted to a particular area. Relicts are members of ancient lineages that have survived in restricted or changed habitats. Rarity does not always mean low abundance everywhere: a species may be locally common but have a very small overall range.
+
+Biodiversity supports pollination, soil fertility, water purification, pest regulation, ecosystem resilience and cultural values. Resilience does not mean that ecosystems remain unchanged: ecosystems are dynamic and can reorganise, but the rate and scale of disturbance may exceed their capacity to recover.
+
+### 7.6. Biogeography and Species Distributions
+
+Biogeography studies the spatial distribution of organisms and communities, as well as the historical and ecological reasons for those patterns. Modern ranges are shaped by climate, relief, soils, water barriers, competition, evolutionary history and human activity.
+
+Major biogeographical realms reflect long-term isolation and the evolutionary history of flora and fauna. Their boundaries do not necessarily coincide with national borders or climatic belts. The number and names of realms may differ among classification systems.
+
+Important patterns include latitudinal changes in climate and vegetation from the equator to the poles; altitudinal zonation in mountains; the island effect, with restricted dispersal and vulnerability of isolated populations; the influence of barriers and dispersal corridors; and shifts in species ranges during climatic fluctuations and human transformation of landscapes.
+
+A species range may be continuous, disjunct, very narrow or widespread. Range boundaries are dynamic and may shift as climate, land use and habitat availability change.
+
+### 7.7. Latitudinal Zonation and Altitudinal Belts
+
+Latitudinal zonation is the systematic change in natural conditions from the equator towards the poles, driven mainly by the distribution of solar radiation and general atmospheric circulation. It is reflected in climate, soils, vegetation, fauna and hydrological regimes.
+
+Altitudinal zonation is the change in natural complexes with increasing elevation in mountains. Temperature usually decreases, while precipitation, growing-season length and soil properties change. The sequence of belts depends on latitude, slope aspect, distance from oceans, relief and local circulation.
+
+Windward slopes often receive more precipitation than leeward slopes. In the Northern Hemisphere, south- and north-facing slopes differ in solar exposure and thermal conditions. Two mountain valleys at the same elevation can therefore support different ecosystems.
+
+### 7.8. Major Terrestrial Biomes
+
+A **biome** is a large natural system characterised by climate, vegetation and associated animal and microbial communities. Biome boundaries are transitional, and classification systems differ in the number of categories and criteria used.
+
+Major terrestrial biomes include tropical moist forests, tropical seasonal forests, savannas, tropical deserts, Mediterranean shrublands, temperate broadleaf and mixed forests, temperate grasslands, boreal forests (taiga), tundra, polar deserts and mountain biomes.
+
+**Tropical forests** have high structural complexity, many ecological niches and high species diversity. In many regions their soils are strongly weathered and are not necessarily naturally fertile: much of the nutrient supply cycles rapidly through biomass and the surface soil.
+
+**Savannas** are maintained by the interaction of seasonal rainfall, herbivores, fire and soil properties. Trees and grasses compete for light and water, while fire regimes can alter the balance between woody and grassy vegetation.
+
+**Deserts** are defined primarily by moisture deficit, not by high temperature; cold deserts are also widespread. Organisms use strategies such as water conservation, nocturnal activity, deep roots, water storage and rapid life cycles after rainfall.
+
+**Mediterranean shrublands** experience dry summers and periodic fires. These conditions favour sclerophyll shrubs and drought-resistant leaves. Fire may be part of natural ecosystem dynamics, but more frequent and intense human-caused fires can damage ecosystems.
+
+**Temperate forests** vary with climate, soils and regional history. Deciduous forests have pronounced seasonality, while mixed forests combine coniferous and broadleaf trees.
+
+**Steppes, prairies and pampas** are regional forms of temperate grassland ecosystems. They are maintained by climate seasonality, fire, grazing and soil properties. Many have been converted to agricultural land.
+
+**Taiga** occupies vast areas of northern continents. It is characterised by low temperatures, slow decomposition, seasonal soil freezing and substantial carbon stores in soils and peatlands.
+
+**Tundra and polar deserts** have short growing seasons, low temperatures and, in many regions, permafrost. Warming can change permafrost conditions, hydrology and greenhouse-gas emissions.
+
+**Mountain ecosystems** contain many isolated habitats and often have high endemism. Conditions change over short distances, while roads, dams, mining and climate change can disrupt habitat connectivity.
+
+### 7.9. Freshwater and Marine Biomes
+
+Aquatic biomes are classified by salinity, depth, water movement, light, temperature, oxygen content and nutrient availability.
+
+**Freshwater ecosystems** include:
+- rivers and streams, where flow velocity, oxygen conditions, sediment transport and catchment connections are important;
+- lakes and reservoirs, which may have vertical stratification and seasonal mixing;
+- wetlands and peatlands, where waterlogging slows decomposition and promotes peat and carbon accumulation; and
+- temporary water bodies, which support organisms adapted to alternating inundation and drying.
+
+**Marine ecosystems** include coastal zones, estuaries where river and seawater mix, mangroves and salt marshes, seagrass meadows, coral reefs, the open ocean and deep-sea communities. Coral reefs are complex communities of warm shallow waters and are sensitive to overheating and acidification. In the sunlit open ocean, much primary production is carried out by microscopic photosynthetic organisms. Deep-sea ecosystems can exist without sunlight, including communities around hydrothermal vents.
+
+The trophic state of water bodies is important. **Eutrophication** is enrichment with nutrients, especially nitrogen and phosphorus compounds. Excess nutrient input can cause algal blooms, oxygen depletion and the death of aquatic organisms.
+
+### 7.10. Ecotones and Ecological Transitions
+
+Ecotones are transitional areas between neighbouring ecosystems or biomes. Examples include forest edges, forest–steppe boundaries, wetlands between land and lakes, and river mouths. Ecotones may contain species from both neighbouring systems as well as specialised species adapted to transitional conditions.
+
+A transition is not always a narrow line. It is often a broad zone containing a mosaic of habitats. Its position can shift under the influence of climate, fire, grazing, agriculture and other factors. Biome boundaries on small-scale maps should therefore be shown as generalised zones rather than perfectly precise lines.
+
+### 7.11. Organismal Adaptations to the Environment
+
+Adaptations are inherited characteristics that increase reproductive success under particular conditions. They evolve across generations; they do not arise intentionally in an individual organism in response to a need.
+
+- **Morphological adaptations:** leaf shape, body coverings, root systems and coloration.
+- **Physiological adaptations:** regulation of water balance, thermoregulation, salt tolerance and metabolic characteristics.
+- **Behavioural adaptations:** migration, seasonal activity, sheltering and selection of breeding sites.
+
+Xerophytes are adapted to water scarcity; hydrophytes to aquatic environments; halophytes to saline conditions; and psychrophilic organisms to low temperatures. Each group includes diverse strategies, and no single trait describes all adaptations of an organism.
+
+Migration allows animals to use seasonal resources and avoid unfavourable conditions. **Phenology** studies the timing of seasonal events such as flowering, leaf emergence, reproduction, migration and hibernation. Climate change may cause mismatches between interacting species, for example between plant flowering and pollinator activity.
+
+### 7.12. Ecosystem Disturbance and Degradation
+
+Major threats to biodiversity and ecosystem function include habitat conversion and loss through agriculture, urbanisation, infrastructure and resource extraction; landscape fragmentation; overexploitation of biological resources; air, water and soil pollution; climate change and extreme events; invasive alien species; and changes to natural fire, flood and other disturbance regimes.
+
+An **invasive alien species** is an organism moved beyond its natural range through direct or indirect human activity that causes negative impacts on nature, the economy or human health. Not every alien species is invasive: demonstrated or likely harmful impact is the key distinction.
+
+Habitat fragmentation reduces the area of suitable habitat, creates barriers and increases edge effects. Small isolated populations are vulnerable to genetic drift, inbreeding and local extinction. Ecological corridors may help organisms move between habitat fragments, but their effectiveness depends on species, width, quality and safety.
+
+### 7.13. Nature Conservation and Ecosystem Restoration
+
+Nature conservation includes protecting species, habitats, ecological processes and genetic diversity. Main tools include protected areas (national parks, nature reserves, sanctuaries and other categories with different objectives and rules); species protection and regulation of biological-resource use; ecological networks and corridors; sustainable management of forests, pastures, wetlands and marine resources; control of pollution and invasive species; ecological restoration of damaged land and water systems; monitoring, research and community participation.
+
+**Ecosystem restoration** assists the recovery of degraded or destroyed ecosystems. It may involve natural regeneration, removing sources of pressure, restoring hydrological conditions, planting native vegetation and recovering ecological functions. Tree planting is not a universal solution: afforestation of natural steppes, tundra and other open ecosystems may cause biodiversity loss and disrupt natural processes.
+
+Successful conservation requires not only protected areas but also landscape management beyond their boundaries, respect for local communities' rights, evidence-based planning and long-term funding.
+
+### 7.14. The Biosphere and Global Biogeochemical Cycles
+
+Living organisms participate in global cycles of carbon, oxygen, nitrogen, phosphorus and water. Photosynthesis fixes carbon dioxide and releases oxygen; respiration and decomposition return carbon to the atmosphere and water. Oceans, forests, soils, wetlands and other systems act as carbon reservoirs and pathways of exchange.
+
+Nitrogen fixation converts atmospheric molecular nitrogen into biologically available compounds. Nitrification, assimilation, ammonification and denitrification transform nitrogen in different ways. The phosphorus cycle is strongly linked to rocks, soils, water and organisms and lacks a major atmospheric reservoir comparable to nitrogen.
+
+Land-use change, fossil-fuel combustion, fertiliser use, peatland drainage and soil degradation alter the rates and directions of biogeochemical flows. Ecosystems absorb some human emissions, but their capacity is limited and changes over time.
+
+### 7.15. Methods in Biogeographical and Ecological Research
+
+Biosphere research combines field, laboratory, statistical and remote-sensing methods. Common approaches include transect surveys, quadrat sampling, faunal surveys, camera trapping, genetic methods, environmental DNA analysis, GIS and remote sensing, and bioclimatic modelling.
+
+Every study requires appropriate sampling design, replication, control of seasonality and explicit treatment of uncertainty. Failure to observe a species does not always prove its absence. Potential-range models show where conditions may be suitable, not where an organism is guaranteed to occur.
+
 ## 7.16. Итоги главы / Chapter Summary
 
 1. Биосфера — глобальная область существования жизни и взаимодействия организмов с оболочками Земли.
