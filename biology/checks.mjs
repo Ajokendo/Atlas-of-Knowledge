@@ -805,6 +805,20 @@ if (!regionalSpeciesAudit.includes("Kyrgyzstan reptile country list (snapshot 19
 if (!regionalSpeciesAudit.includes("Central Asian reptile checklist (GBIF dataset, version 1.15, 26 October 2026)")) {
   errors.push("Regional species audit must record the 2026 Central Asian reptile checklist with its evidence-scope caveat");
 }
+if (!regionalSpeciesAudit.includes("44-versus-43") ||
+    !regionalSpeciesAudit.includes("8 national Red Data Book entries (6 species and 2 subspecies)") ||
+    !regionalSpeciesAudit.includes("not a fresh legal review of the decree annex")) {
+  errors.push("Regional species audit must preserve reptile count discrepancy and distinguish compiled Red Book mapping from legal verification");
+}
+if (!faunaKyrgyzstanFile.includes("precise position is intentionally not reproduced in the atlas") ||
+    !faunaKyrgyzstanFile.includes("one pair in Boom Gorge near Kok-Moynok village")) {
+  errors.push("Black Stork breeding account must retain the dated single-pair evidence and avoid publishing the precise nest location");
+}
+if (!regionalSpeciesAudit.includes("Black Stork breeding record at Boom Gorge (Romanovskaya, 2015)") ||
+    !regionalSpeciesAudit.includes("four downy chicks on 24 May") ||
+    !regionalSpeciesAudit.includes("do not reproduce the paper's road-kilometre marker")) {
+  errors.push("Regional species audit must preserve Black Stork breeding chronology and sensitive-locality handling");
+}
 
 if (!faunaKyrgyzstanFile.includes("fishbase.se/country/CountryChecklist.php?c_code=417") || !faunaKyrgyzstanFile.includes("31 species currently present") || !faunaKyrgyzstanFile.includes("explicitly labelled the list incomplete") || !faunaKyrgyzstanFile.includes("73 fish species")) {
   errors.push("chapters/fauna-kyrgyzstan.html: fish totals must distinguish the 2013 FAO synthesis from the incomplete current FishBase list");
