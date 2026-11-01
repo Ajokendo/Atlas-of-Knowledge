@@ -155,6 +155,10 @@ Settlement patterns are shaped by natural factors (elevation, climate, relief, w
 
 
 ## 23.4. Городское и сельское население
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 23-E / IMAGE PLACEHOLDER 23-E]** Сравнительная схема городского и сельского расселения Кыргызстана с различиями плотности, функций и доступности услуг.
+> **EN:** Comparative diagram of urban and rural settlement in Kyrgyzstan, showing differences in density, functions and service access.
+
 ## Urban and Rural Population
 
 Кыргызстан сохраняет преимущественно сельский характер расселения, однако доля городского населения постепенно растёт. По данным НСК, на начало 2026 года доля городского населения составляла около **42,3%**, сельского — около **57,7%**. Категория «городское население» определяется официальной административной классификацией; фактическая урбанизированность пригородных поселений может быть выше или ниже того, что отражает формальная статистика.
@@ -199,6 +203,10 @@ Rural settlements vary in size, density, elevation, accessibility, agricultural 
 
 
 ## 23.5. Административно-территориальная структура и население регионов
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 23-F / IMAGE PLACEHOLDER 23-F]** Региональная демографическая карта на единую дату; отдельно обозначить города республиканского значения и административные области.
+> **EN:** Regional demographic map for one reference date, distinguishing cities of republican significance from oblast-level units.
+
 ## Administrative Structure and Regional Population
 
 Кыргызстан включает семь областей и два города республиканского значения — Бишкек и Ош. Административные границы и состав районов следует показывать по официальной версии на дату публикации атласа.
@@ -264,6 +272,10 @@ Regional settlement patterns differ. Batken's population is concentrated in vall
 
 
 ## 23.6. Демографическая структура: возраст и пол
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 23-G / IMAGE PLACEHOLDER 23-G]** Возрастно-половая пирамида по переписи 2022 года с пояснением возрастных групп, знаменателей и методики.
+> **EN:** 2022 census age-sex pyramid with age-group definitions, denominators and methodological notes.
+
 ## Demographic Structure: Age and Sex
 
 Возрастно-половая структура отражает распределение населения по возрастным группам и полу. Она влияет на потребность в школах, рабочих местах, медицинских услугах, жилье и пенсионной инфраструктуре.
@@ -333,6 +345,10 @@ Kyrgyz is the state language and Russian has official-language status. Uzbek, Ta
 
 
 ## 23.8. Миграция: внутренняя и внешняя
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 23-H / IMAGE PLACEHOLDER 23-H]** Карта внутренних и международных миграционных потоков разными слоями; толщину линий использовать только при наличии сопоставимых количественных данных.
+> **EN:** Map internal and international migration flows in separate layers; scale line widths only where comparable quantitative data exist.
+
 ## Migration: Internal and International
 
 Миграция — перемещение людей с изменением места жительства на постоянной или временной основе. Она меняет не только численность населения, но и его возрастную, профессиональную и территориальную структуру.
@@ -540,6 +556,10 @@ NSC statistics help track the registered balance over time and across administra
 **Learning activity.** Compare the NSC migration balance in 2021 and 2025. Then explain why the IOM estimate of citizens still living abroad cannot be equated with a negative migration balance for a single year. Use the terms “flow”, “population stock”, “net migration” and “data-collection method”.
  
 ## 23.9. Урбанизация и развитие агломераций
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 23-I / IMAGE PLACEHOLDER 23-I]** Схема Бишкекской агломерации с центральным городом, пригородами, транспортными осями и зоной застройки; границы определять по методике.
+> **EN:** Diagram of the Bishkek agglomeration showing the core city, suburbs, transport axes and built-up area; define boundaries using an explicit method.
+
 ## Urbanization and Metropolitan Development
 
 Урбанизация — процесс роста городского населения, расширения городских функций и распространения городского образа жизни. Она включает не только увеличение населения официальных городов, но и функциональное объединение города с пригородами.
@@ -614,6 +634,10 @@ An administrative city boundary does not always match the actual urban area. Bui
 **Learning activity.** Compare an administrative map of Bishkek with a map of its built-up area and any available data on commuting from surrounding settlements. Identify settlements functionally connected to the city and list the data needed for a precise delineation of the agglomeration. Do not infer population totals from a satellite image alone.
 
 ## 23.10. Сельское расселение, сезонная мобильность и джайлоо
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 23-J / IMAGE PLACEHOLDER 23-J]** Иллюстрация долинного села, горного поселения и сезонной стоянки на джайлоо; не смешивать временное и постоянное население.
+> **EN:** Illustration of a valley village, mountain settlement and seasonal jailoo camp, distinguishing temporary from permanent population.
+
 ## Rural Settlement, Seasonal Mobility and Jailoo
 
 Сельское расселение Кыргызстана тесно связано с долинным земледелием и горным животноводством. Сёла размещаются вблизи источников воды, орошаемых земель, дорог и относительно безопасных площадок.
@@ -656,6 +680,10 @@ Rural settlement in Kyrgyzstan is closely linked to valley agriculture and mount
 
 
 ## 23.11. Население, природная среда и климатические риски
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 23-K / IMAGE PLACEHOLDER 23-K]** Карта поселений и природных опасностей с раздельными слоями сейсмического, селевого, оползневого и лавинного риска.
+> **EN:** Settlement and natural-hazard map with separate seismic, debris-flow, landslide and avalanche layers.
+
 ## Population, Environment and Climate Risks
 
 Размещение населения в горной стране тесно связано с природными опасностями. Поселения, дороги и сельскохозяйственные земли могут находиться в зонах землетрясений, селей, паводков, оползней, лавин и камнепадов.
@@ -695,6 +723,10 @@ Population growth should not automatically lead to settlement in hazardous locat
 
 
 ## 23.12. Демографическое будущее Кыргызстана
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 23-L / IMAGE PLACEHOLDER 23-L]** Сценарный график численности и возрастной структуры населения с базовым, высоким и низким сценариями и явным указанием источника прогноза.
+> **EN:** Scenario chart of population size and age structure showing baseline, high and low variants with the projection source stated.
+
 ## Kyrgyzstan’s Demographic Future
 
 Будущее населения определяется сочетанием рождаемости, смертности, миграции, образования, занятости и изменения возрастной структуры. Любой прогноз является условным сценарием, а не точным предсказанием.
