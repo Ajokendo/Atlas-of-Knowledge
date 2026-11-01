@@ -472,15 +472,13 @@ Landform development depends on several interacting groups of factors:
 
 #### 4.2.2. Exogenic Processes
 
-**Exogenic processes** operate at or near the surface and modify existing landforms. Their main energy sources are solar radiation and gravity.
+**Exogenic processes** operate at or near the surface and modify existing landforms. Their main energy sources are solar radiation and gravity. They include weathering, erosion and transport, sediment accumulation, river and temporary-stream action, glacial processes, aeolian processes, karst and slope movements.
 
-**[ILLUSTRATION PLACEHOLDER 4.2-A]** The illustration should contrast tectonic uplift and volcanism with weathering, river erosion, transport and deposition, showing interacting processes. They include weathering, erosion and transport, sediment accumulation, river and temporary-stream action, glacial processes, aeolian processes, karst and slope movements.
+**[ILLUSTRATION PLACEHOLDER 4.2-A]** The illustration should contrast tectonic uplift and volcanism with weathering, river erosion, transport and deposition, showing interacting processes.
 
 ### 4.3. Classification of Landforms
 
 Landforms are classified by scale, origin, morphology and position relative to sea level.
-
-**[ILLUSTRATION PLACEHOLDER 4.3-A]** Show planetary forms, megaforms, macroforms, mesoforms and microforms with examples; label scale boundaries as approximate.
 
 #### 4.3.1. By Scale
 
@@ -489,6 +487,8 @@ By scale, geographers distinguish planetary forms (continents and ocean basins),
 #### 4.3.2. By Origin
 
 By origin, landforms may be tectonic, volcanic, fluvial, glacial or glaciofluvial, aeolian, karst, coastal or marine, slope-related, or anthropogenic.
+
+**[ILLUSTRATION PLACEHOLDER 4.3-A]** Show planetary forms, megaforms, macroforms, mesoforms and microforms with examples; label scale boundaries as approximate.
 
 ### 4.4. Mountains and Mountain Systems
 
@@ -505,8 +505,6 @@ Major mountain types include:
 
 In reality, many mountain systems have complex structures and combine several formation mechanisms.
 
-**[ILLUSTRATION PLACEHOLDER 4.4-A]** Show a mountain landscape with summit, ridge, pass, slopes, valley, mountain foot and relative relief.
-
 #### 4.4.2. Mountain Morphology
 
 Parts of mountain relief include a **summit** (the highest point of a mountain or massif), a **ridge** (an elongated elevated feature), a **mountain range** (an extended system of peaks and slopes), a **mountain pass** (a low point in a ridge that permits passage across mountains), a **slope**, a **foot** and an **intermontane basin**.
@@ -514,6 +512,8 @@ Parts of mountain relief include a **summit** (the highest point of a mountain o
 #### 4.4.3. Elevation and Local Relief
 
 **Absolute elevation** describes the position of a point relative to a reference surface, usually mean sea level. **Relative elevation** is the height difference between two points, such as a summit and the valley at its foot. A high absolute elevation does not necessarily mean a steep or highly dissected landscape; both measures are needed.
+
+**[ILLUSTRATION PLACEHOLDER 4.4-A]** Show a mountain landscape with summit, ridge, pass, slopes, valley, mountain foot and relative relief.
 
 ### 4.5. Plains, Lowlands and Plateaus
 
@@ -538,9 +538,9 @@ River erosion may be **vertical**, deepening the channel; **lateral**, widening 
 
 #### 4.6.2. Major Fluvial Landforms
 
-Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel that develops through differences in flow velocity and lateral erosion. A **floodplain** is the part of a river valley periodically inundated during high water.
+Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel that develops through differences in flow velocity and lateral erosion. A **floodplain** is the part of a river valley periodically inundated during high water. A **delta** forms where a river loses its capacity to transport sediment as it enters a water body or another river.
 
-**[ILLUSTRATION PLACEHOLDER 4.6-A]** Show a meander, floodplain, terraces, alluvial fan and delta in plan and cross-section; distinguish erosion from deposition. A **delta** forms where a river loses its capacity to transport sediment as it enters a water body or another river.
+**[ILLUSTRATION PLACEHOLDER 4.6-A]** Show a meander, floodplain, terraces, alluvial fan and delta in plan and cross-section; distinguish erosion from deposition.
 
 ### 4.7. Glacial Landforms
 
@@ -567,9 +567,9 @@ Wind transports particles and shapes landscapes mainly in arid and semi-arid reg
 
 The main processes are **deflation** (removal of loose material by wind), **abrasion** (wear caused by wind-driven particles) and **accumulation** (deposition of sand and dust).
 
-Typical landforms include dunes, barchans, longitudinal and transverse sand ridges, deflation hollows and loess deposits. Dune shape depends on wind regime, sand supply, moisture and vegetation. A barchan is usually crescent-shaped
+Typical landforms include dunes, barchans, longitudinal and transverse sand ridges, deflation hollows and loess deposits. Dune shape depends on wind regime, sand supply, moisture and vegetation. A barchan is usually crescent-shaped and forms where sand supply is limited and one wind direction prevails.
 
-**[ILLUSTRATION PLACEHOLDER 4.8-A]** Compare a barchan, longitudinal and transverse dunes, and a deflation hollow; add prevailing-wind arrows and note the role of sand supply. and forms where sand supply is limited and one wind direction prevails.
+**[ILLUSTRATION PLACEHOLDER 4.8-A]** Compare a barchan, longitudinal and transverse dunes, and a deflation hollow; add prevailing-wind arrows and note the role of sand supply.
 
 ### 4.9. Karst Landforms
 
@@ -577,9 +577,9 @@ Karst develops when natural water dissolves soluble rocks, especially limestone,
 
 Surface karst features include karren, sinkholes, swallow holes, karst valleys and poljes. Underground features include caves, galleries, shafts, underground rivers and speleothems such as stalactites, stalagmites and columns.
 
-Karst areas may be vulnerable to groundwater pollution
+Karst areas may be vulnerable to groundwater pollution because water can move rapidly through fractures and cavities.
 
-**[ILLUSTRATION PLACEHOLDER 4.9-A]** Show karren, a sinkhole, swallow hole, cave, underground flow, speleothems and spring; distinguish stalactites from stalagmites. because water can move rapidly through fractures and cavities.
+**[ILLUSTRATION PLACEHOLDER 4.9-A]** Show karren, a sinkhole, swallow hole, cave, underground flow, speleothems and spring; distinguish stalactites from stalagmites.
 
 ### 4.10. Coastal and Marine Landforms
 
@@ -593,9 +593,9 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 
 #### 4.10.3. Submarine Relief
 
-Major submarine features include the continental shelf
+Major submarine features include the continental shelf, continental slope, continental rise, abyssal plains, mid-ocean ridges, deep-sea trenches, seamounts and volcanic plateaus.
 
-**[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated coastal and ocean-basin profiles with erosional/depositional coasts, shelf, slope, rise, abyssal plain, ridge and trench., continental slope, continental rise, abyssal plains, mid-ocean ridges, deep-sea trenches, seamounts and volcanic plateaus.
+**[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated coastal and ocean-basin profiles with erosional/depositional coasts, shelf, slope, rise, abyssal plain, ridge and trench.
 
 ### 4.11. Slope Processes and Denudation
 
@@ -603,9 +603,9 @@ Slope processes move loose material and rock downslope under gravity. They may b
 
 **Denudation** is the combined lowering and wearing down of relief through weathering, erosion and material transport.
 
-The rate of slope processes depends on slope angle
+The rate of slope processes depends on slope angle, rock composition and structure, moisture, vegetation, earthquakes and engineering activity.
 
-**[ILLUSTRATION PLACEHOLDER 4.11-A]** Compare landslide, rockfall, scree, soil creep and debris flow; show movement direction and possible triggers without implying exact prediction., rock composition and structure, moisture, vegetation, earthquakes and engineering activity.
+**[ILLUSTRATION PLACEHOLDER 4.11-A]** Compare landslide, rockfall, scree, soil creep and debris flow; show movement direction and possible triggers without implying exact prediction.
 
 ### 4.11.1. Assessing Slope Stability
 
@@ -635,9 +635,9 @@ Weathering is the breakdown and alteration of rock at or near Earth's surface by
 
 **Biological weathering** occurs when organisms affect rock mechanically or chemically: roots widen cracks, while microorganisms and lichens release substances that help alter minerals.
 
-Climate influences the intensity of different weathering types
+Climate influences the intensity of different weathering types, but rock composition, relief, water conditions and time are also important.
 
-**[ILLUSTRATION PLACEHOLDER 4.12-A]** Show physical, chemical and biological weathering in separate panels; distinguish weathering from erosion and transport., but rock composition, relief, water conditions and time are also important.
+**[ILLUSTRATION PLACEHOLDER 4.12-A]** Show physical, chemical and biological weathering in separate panels; distinguish weathering from erosion and transport.
 
 ### 4.13. Elevation, Depth and Earth's Extremes
 
@@ -648,9 +648,9 @@ Earth's relief includes both the highest mountain peaks and the deepest ocean tr
 - **The Dead Sea** is one of the lowest land areas not covered by the sea; its water level changes over time.
 - **The Tibetan Plateau** is the largest and one of the highest extensive elevated regions on the planet.
 
-Elevation above sea level, depth below the ocean surface and depth relative to the geoid are different measurements. Extreme values should be accompanied by a date and measurement source.
+Elevation above sea level, depth below the ocean surface and depth relative to the geoid are different measurements.
 
-**[ILLUSTRATION PLACEHOLDER 4.13-A]** Show an elevation/depth scale with Everest and Challenger Deep; identify vertical datums, measurement dates and sources.
+**[ILLUSTRATION PLACEHOLDER 4.13-A]** Show an elevation/depth scale with Everest and Challenger Deep; identify vertical datums, measurement dates and sources. Extreme values should be accompanied by a date and measurement source.
 
 ### 4.14. Mapping and Measuring Relief
 
@@ -665,9 +665,9 @@ Common representation methods include:
 
 Contours do not normally cross on a standard topographic map, except in special cases involving overhanging forms or cartographic conventions. The closer the contours, the steeper the slope.
 
-Digital elevation models (DEMs) can be used to calculate slope, aspect, catchments, watersheds, earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy
+Digital elevation models (DEMs) can be used to calculate slope, aspect, catchments, watersheds, earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, coordinate system, data source and whether vegetation or buildings are included in the model.
 
-**[ILLUSTRATION PLACEHOLDER 4.14-A]** Show a topographic map with contours, spot heights, watershed, valley and a relief profile; include legend, scale and contour interval., coordinate system, data source and whether vegetation or buildings are included in the model.
+**[ILLUSTRATION PLACEHOLDER 4.14-A]** Show a topographic map with contours, spot heights, watershed, valley and a relief profile; include legend, scale and contour interval.
 
 ### 4.14.3. Worked Example: Calculating Slope from Contour Lines
 
@@ -705,9 +705,9 @@ Relief creates both opportunities and constraints for settlement and economic ac
 | Tourism | Mountains, canyons, caves and coasts provide tourism resources |
 | Safety | Landslides, debris flows, rockfalls and earthquakes create natural risks |
 
-Human activity also changes relief.
+Human activity also changes relief. Quarries, embankments, dams, slope terraces, road cuttings, urban construction and reservoirs create anthropogenic landforms.
 
-**[ILLUSTRATION PLACEHOLDER 4.15-A]** Provide a teaching map excerpt with coordinate grid, profile line, two slope-measurement sections and a separate answer key. Quarries, embankments, dams, slope terraces, road cuttings, urban construction and reservoirs create anthropogenic landforms.
+**[ILLUSTRATION PLACEHOLDER 4.15-A]** Provide a teaching map excerpt with coordinate grid, profile line, two slope-measurement sections and a separate answer key.
 
 ### Chapter Summary
 
