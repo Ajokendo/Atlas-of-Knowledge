@@ -226,7 +226,9 @@ if (trainerTaskStart < 0) {
       }
       const totals = [{}, {}];
       task.f.forEach((formula, formulaIndex) => {
-        const side = formulaIndex < task.f.length - 1 ? 0 : 1;
+        const split = task.split || task.f.length - 1;
+        if (!Number.isInteger(split) || split < 1 || split >= task.f.length) errors.push(label + " has an invalid reactant/product split");
+        const side = formulaIndex < split ? 0 : 1;
         const atoms = parseTrainerFormula(formula);
         for (const [element, count] of Object.entries(atoms)) {
           totals[side][element] = (totals[side][element] || 0) + count * task.c[formulaIndex];
