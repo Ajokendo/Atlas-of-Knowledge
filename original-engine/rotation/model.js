@@ -71,7 +71,7 @@ export const ladderAngle = t => deg(67 + 13 * Math.cos(2 * Math.PI * t / LADDER_
 // 6 · τ = Iα: a ring, a disc and a solid sphere, same mass and radius, the same pull on a string
 export const SHAPES = { M: 2.0, R: 0.4, F: 1.0, run: 2.4 };
 SHAPES.tau = SHAPES.F * SHAPES.R;                       // 0.40 N·m
-SHAPES.list = [{ key: 'Кольцо', f: 1, frac: '1' }, { key: 'Диск', f: 0.5, frac: '½' }, { key: 'sphere', f: 0.4, frac: '⅖' }]
+SHAPES.list = [{ key: 'ring', f: 1, frac: '1' }, { key: 'disc', f: 0.5, frac: '½' }, { key: 'sphere', f: 0.4, frac: '⅖' }]
   .map(s => ({ ...s, I: s.f * SHAPES.M * SHAPES.R ** 2 }));
 SHAPES.list.forEach(s => { s.alpha = SHAPES.tau / s.I; });
 export const shapeSpin = (s, t) => ({ th: 0.5 * s.alpha * t * t, w: s.alpha * t, a: s.alpha });
@@ -85,7 +85,7 @@ export const discAsRings = n => Array.from({ length: n }, (_, k) => {
 // ω = v/R, I = fMR²  →  v² = 2gh/(1+f) and a = g sin θ / (1+f). The box slides on ice (f = 0).
 export const RACE = { theta: deg(25), len: 3.0, R: 0.2, m: 1.0 };
 RACE.h = RACE.len * Math.sin(RACE.theta);
-RACE.list = [{ key: 'box', f: 0, name: 'Скользящий брусок' }, { key: 'sphere', f: 0.4, name: 'Сплошной шар' }, { key: 'Диск', f: 0.5, name: 'Диск' }, { key: 'Кольцо', f: 1, name: 'Кольцо' }]
+RACE.list = [{ key: 'box', f: 0, name: 'Скользящий брусок' }, { key: 'sphere', f: 0.4, name: 'Сплошной шар' }, { key: 'disc', f: 0.5, name: 'Диск' }, { key: 'ring', f: 1, name: 'Кольцо' }]
   .map(o => ({ ...o, a: G * Math.sin(RACE.theta) / (1 + o.f) }));
 RACE.list.forEach(o => { o.T = Math.sqrt(2 * RACE.len / o.a); o.vEnd = o.a * o.T; });
 RACE.run = Math.max(...RACE.list.map(o => o.T));
