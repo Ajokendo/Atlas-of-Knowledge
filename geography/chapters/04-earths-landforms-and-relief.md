@@ -374,13 +374,13 @@ DEM используют для расчёта уклонов, экспозиц�
 
 100 м / 500 м × 100% = **20%**.
 
-Это означает, что поверхность в среднем поднимается на 20 м на каждые 100 м горизонтального расстояния. Угол наклона составляет примерно 11,3°.
+Это означает, что поверхность в среднем поднимается на 20 м на каждые 100 м горизонтального расстояния. Угол наклона можно рассчитать как θ = arctan(вертикальное превышение / горизонтальное расстояние); здесь θ ≈ arctan(100/500) ≈ **11,3°**. Процентный уклон и угол в градусах — разные способы выражения крутизны.
 
 **Важно:** расчёт характеризует средний уклон между двумя точками, а не каждую часть склона. Если горизонтали расположены неравномерно, уклон на отдельных участках может отличаться. Расстояние следует измерять по горизонтали, а не вдоль извилистой линии поверхности.
 
 **Проверьте себя:** как изменится процентный уклон, если при том же превышении 100 м горизонтальное расстояние составит 250 м?
 
-**Ответ для самопроверки:** 100 м / 250 м × 100% = **40%**; угол наклона — примерно **21,8°**.
+**Ответ для самопроверки:** 100 м / 250 м × 100% = **40%**; угол наклона — примерно **21,8°** (θ ≈ arctan(100/250)).
 
 ## 4.15. Рельеф и жизнь человека / Relief and Human Activities
 
@@ -429,10 +429,10 @@ DEM используют для расчёта уклонов, экспозиц�
 - определите высоту нескольких точек;
 - найдите водораздел и речную долину;
 - оцените крутизну двух склонов;
-- проведите линию профиля и постройте вертикальный разрез;
-- определите участки, потенциально подверженные эрозии или склоновым процессам.
+- проведите линию профиля и постройте вертикальный разрез, указав горизонтальный и вертикальный масштабы; если они различаются, обозначьте вертикальное преувеличение;
+- определите участки с потенциально повышенной эрозионной или склоновой восприимчивостью. Не называйте результат картой риска без дополнительных данных о породах, осадках, растительности, землепользовании, населении и объектах.
 
-**Место для иллюстрации 4.15-A — Topographic Map Exercise.** Учебная карта с горизонталями и координатной сеткой, линией профиля, легендой и отдельным листом ответов.
+**Место для иллюстрации 4.15-A — Topographic Map Exercise.** Учебная карта с горизонталями и координатной сеткой, линией профиля, двумя участками измерения уклона, указанными горизонтальным и вертикальным масштабами, обозначенным вертикальным преувеличением при необходимости и отдельным листом ответов.
 
 ## English-language chapter text
 
@@ -723,13 +723,13 @@ Percentage slope is the elevation difference divided by the horizontal distance,
 
 100 m / 500 m × 100% = **20%**.
 
-This means the ground rises by an average of 20 m for every 100 m of horizontal distance. The slope angle is approximately 11.3°.
+This means the ground rises by an average of 20 m for every 100 m of horizontal distance. The slope angle can be calculated as θ = arctan(vertical difference / horizontal distance); here θ ≈ arctan(100/500) ≈ **11.3°**. Percentage slope and angle in degrees are different ways of expressing steepness.
 
 **Important:** this is the average slope between the two points, not the slope at every location along the route. If contour spacing varies, local slope may also vary. Use horizontal distance, not the length of a winding line along the ground.
 
 **Check your understanding:** How would the percentage slope change if the horizontal distance were 250 m while the elevation difference remained 100 m?
 
-**Self-check answer:** 100 m / 250 m × 100% = **40%**; the slope angle is approximately **21.8°**.
+**Self-check answer:** 100 m / 250 m × 100% = **40%**; the slope angle is approximately **21.8°** (θ ≈ arctan(100/250)).
 
 ---
 
@@ -778,10 +778,10 @@ Using a prepared teaching map excerpt:
 - determine the elevation of several points;
 - identify a watershed and a river valley;
 - estimate the steepness of two slopes;
-- draw a profile line and construct a cross-section; and
-- identify areas potentially exposed to erosion or slope processes.
+- draw a profile line and construct a cross-section, stating the horizontal and vertical scales; if they differ, label the vertical exaggeration; and
+- identify areas with potentially higher erosion or slope susceptibility. Do not call this a risk map without additional data on geology, rainfall, vegetation, land use, people and exposed assets.
 
-**[ILLUSTRATION PLACEHOLDER 4.15-A]** Provide a teaching map excerpt with coordinate grid, profile line, two slope-measurement sections and a separate answer key.
+**[ILLUSTRATION PLACEHOLDER 4.15-A]** Provide a teaching map excerpt with coordinate grid, profile line, two slope-measurement sections, stated horizontal and vertical scales, labelled vertical exaggeration where used, and a separate answer key.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
