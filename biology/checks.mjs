@@ -576,6 +576,19 @@ if (!regionalSpeciesAudit.includes("Kempir-Abad basin fish expedition (30 Julyâ€
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Kempir-Abad fish expedition must retain its date, unresolved analysis and evidence limits");
 }
 
+// Preserve the Suusamyr paper's internally inconsistent total and unresolved Triplophysa identification.
+if (!faunaKyrgyzstanFile.includes("10.36979/1694-500X-2025-25-12-159-166") ||
+    !faunaKyrgyzstanFile.includes("Triplophysa stoliczkai") ||
+    !faunaKyrgyzstanFile.includes("Triplophysa elegans") ||
+    !faunaKyrgyzstanFile.includes("not be used as a settled total")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: Suusamyr fish study must retain its DOI, author-reported name and unresolved count/taxonomy caveats");
+}
+if (!regionalSpeciesAudit.includes("Suusamyr Valley fish survey (fieldwork 2024; published 2025)") ||
+    !regionalSpeciesAudit.includes("not infer a settled 4+1 total") ||
+    !regionalSpeciesAudit.includes("voucher/specimen review")) {
+  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Suusamyr fish evidence must retain its internal count discrepancy and specimen-review requirement");
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
