@@ -17,6 +17,7 @@ The territory is the outcome of a long geological history. Ancient continental b
 ## 17.1. Географическое положение в Центральной Азии / Geographic Location in Central Asia
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 17-A / IMAGE PLACEHOLDER 17-A]** Кыргызстан на карте Центральной Азии: соседние государства, основные региональные ориентиры и проверенная государственная граница с указанием даты источника.
+> **EN:** Kyrgyzstan on a Central Asia map showing neighbouring states, key regional reference points and a verified state boundary with the source date stated.
 
 Кыргызская Республика не имеет выхода к Мировому океану и находится внутри материка Евразия. Страна занимает стратегическое положение между крупными природно-географическими и историко-культурными регионами Центральной Азии. На севере она граничит с Казахстаном, на западе и юго-западе — с Узбекистаном, на юго-западе — с Таджикистаном, на востоке и юго-востоке — с Китаем.
 
@@ -88,6 +89,7 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 17-B / IMAGE PLACEHOLDER 17-B]** Физическая карта Тянь-Шаня и Памиро-Алая с основными хребтами, межгорными впадинами и высотной гипсометрией.
+> **EN:** Physical map of the Tien Shan and Pamir–Alay showing major ranges, intermontane basins and elevation hypsometry.
 
 Территория Кыргызстана включает части нескольких крупных горных районов.
 
@@ -166,6 +168,7 @@ Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a
 ## 17.6. Геологическая летопись территории / Geological History of the Territory
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 17-C / IMAGE PLACEHOLDER 17-C]** Геологическая временная шкала формирования территории Кыргызстана: докембрийский фундамент, палеозойская аккреция, мезозойское осадконакопление, кайнозойское горообразование.
+> **EN:** Geological timeline of Kyrgyzstan's formation showing the Precambrian basement, Palaeozoic accretion, Mesozoic sedimentation and Cenozoic mountain building.
 
 Геологическая история Кыргызстана охватывает миллиарды лет и включает несколько крупных этапов. Возраст отдельных пород, время их образования и время последующей деформации — разные характеристики. Например, древняя порода могла быть поднята, метаморфизована или включена в складчатый пояс значительно позднее своего первоначального формирования.
 
@@ -278,6 +281,7 @@ Tectonic maps must distinguish geological boundaries, faults, currently active s
 ## 17.8. Современная тектоника и сейсмичность / Active Tectonics and Seismicity
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 17-D / IMAGE PLACEHOLDER 17-D]** Схема активных разломов и сейсмичности Кыргызстана с указанием периода каталога землетрясений, порога магнитуды и источника геоданных.
+> **EN:** Map of active faults and seismicity in Kyrgyzstan, stating the earthquake-catalogue period, magnitude threshold and geodata source.
 
 Кыргызстан находится в активном внутриконтинентальном поясе деформаций, связанном с взаимодействием Индийской и Евразийской плит. Сжатие земной коры проявляется в надвигах, обратных разломах, складчатости и локальных сдвиговых движениях.
 
@@ -469,6 +473,7 @@ The country's geographic position encouraged cultural exchange, trade, migration
 ## 17.12. Административно-территориальное устройство / Administrative and Territorial Organisation
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 17-E / IMAGE PLACEHOLDER 17-E]** Карта действующего административно-территориального устройства с семью областями и отдельным обозначением Бишкека и Оша; использовать официальную сетку и утверждённые топонимы.
+> **EN:** Map of the current administrative-territorial structure showing the seven oblasts and separately identifying Bishkek and Osh; use official boundaries and approved place names.
 
 Современная административная структура включает **семь областей**:
 1. Баткенская область;
