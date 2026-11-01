@@ -277,7 +277,7 @@
 - **Опрокидывания:** блок породы поворачивается вперёд вокруг точки или оси опоры.
 - **Оползни (скольжения):** масса грунта или породы перемещается по поверхности ослабления; скольжение может быть вращательным по криволинейной поверхности или поступательным по относительно плоской.
 - **Боковые растекания:** грунт или осадки смещаются в стороны, иногда над разжиженным или слабым слоем.
-- **Сели и другие обломочные потоки:** водонасыщенная смесь воды, грунта и обломков быстро движется вниз по склону или руслу.
+- **Сели и другие обломочные потоки:** насыщенная водой смесь грунта и обломков быстро движется вниз по склону или руслу.
 - **Осыпи:** скопления угловатых обломков у подножия склона, обычно образованные многократными камнепадами и скатыванием.
 - **Крип:** очень медленное, часто почти незаметное перемещение грунта или пород вниз по склону.
 - **Солифлюкция:** медленное течение водонасыщенного грунта вниз по склону, особенно в холодных районах во время сезонного оттаивания.
@@ -625,7 +625,7 @@ Slope processes, also called **mass movements** or **mass wasting**, move soil a
 - **Topples:** a mass rotates forward around a pivot point or axis.
 - **Slides:** soil or rock moves along a zone of weakness; slides may be rotational, along a curved surface, or translational, along a relatively planar surface.
 - **Lateral spreads:** ground extends and moves sideways, sometimes over a weak or liquefied layer.
-- **Debris flows and other flows:** water-saturated mixtures of water, soil and rock fragments move rapidly downslope or along channels.
+- **Debris flows and other flows:** mixtures of water, soil and rock fragments move rapidly downslope or along channels.
 - **Scree or talus:** accumulations of angular rock fragments at the foot of a slope, commonly built by repeated rockfalls and rolling.
 - **Soil creep:** very slow, often almost imperceptible downslope movement of soil or rock.
 - **Solifluction:** slow downslope flow of water-saturated soil, especially in cold regions during seasonal thaw.
@@ -758,7 +758,7 @@ Human activity also changes relief. Quarries, embankments, dams, slope terraces,
 1. Relief results from the long-term interaction of Earth's internal and external processes.
 2. Geomorphology studies the origin, structure, age and dynamics of landforms.
 3. Mountains, plains and plateaus differ in morphology, elevation and genesis.
-4. Rivers, glaciers, wind, sea waves and groundwater create characteristic landforms.
+4. Rivers, glaciers, wind, coastal waves and groundwater create characteristic landforms.
 5. Weathering breaks down and alters rock, while erosion and deposition move and accumulate material.
 6. Slope processes may be slow or catastrophic.
 7. Modern maps and digital elevation models allow quantitative analysis of Earth's surface.
