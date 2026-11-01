@@ -950,3 +950,12 @@ The current marker additions are production instructions/placeholders only; no g
 - Updated Chapter 11 to include the 2025 System of National Accounts alongside the 2008 SNA. The chapter now notes that 2025 SNA is a distinct pre-edit edition and that national statistical systems may transition gradually; the text does not assume all national series have already migrated.
 - Verified commits/blobs: Chapter 10 `c882166fddbdd4a185b094e8bbf4b998cd8f3911` / `533d5fd079f00f0145baf1f665f51a87abc09a8f`; Chapter 11 `8e5935465b46540ec0b503b828250c2cba83875b` / `e0c68507b2f55f008b3acdd43a3d894bd62394d6`; Chapter 12 `ba8110264d59630301462f50957608404bf759ca` / `952692d58edcd68f8c280f90070850a5f6c374b5`; Chapter 13 `6e8056be9d1b4af54e9e2d45616da9ff7b870871` / `de8b407bd739fb5d24fb551772d9f4714ae99568`.
 - The core UN/ICJ sites sometimes deny automated retrieval (403) even though the official URLs are retained; such links are not marked as fetch-verified solely on the basis of the attempted request.
+
+
+## Chapters 03–08 authoritative science bibliography refresh — 1 November 2026
+
+- Added direct primary/reference links for Earth structure and geological processes (USGS and BGS), IHO standards and NSIDC glacier education in Chapters 03, 04 and 06.
+- Added direct links for the CBD, IPBES, IUCN Red List, UNESCO MAB, Olson et al.'s terrestrial ecoregions paper and the Millennium Ecosystem Assessment in Chapter 07.
+- Updated Chapter 08 to the official IUSS/WRB document repository (fourth edition 2022, corrected 2024), added the current 2026 FAO/ITPS Status of the World's Soil Resources alongside the 2015 baseline, and linked FAO sustainable-soil guidelines, USDA Soil Survey Manual, IPCC Climate Change and Land, UNCCD Global Land Outlook and JRC ESDAC.
+- Verified updated chapter blobs: Chapter 03 `4b558b5cd2a9ab8551a21d74da67da41f6ba0dd3`; Chapter 04 `bbf71c9a26654ebb12759ba13c4707afeb732b92`; Chapter 06 `14125f301edf410184af53fe71d32dbc5a38c9f2`; Chapter 07 `c556f69a1027b0acb9c0b5d1f7fbf5c3dae1a42f`; Chapter 08 `f8cf2b7827068d6faad527c5b72eff7e3a42c21d`.
+- Note: the 2026 FAO soil report is the current global update; the 2015 report remains cited as a historical baseline, not as the latest assessment.
