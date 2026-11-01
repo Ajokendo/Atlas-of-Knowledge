@@ -200,6 +200,10 @@ State nature reserves are national protected-area institutions whose primary pur
 
 
 ## 22.5. Государственные природные парки и национальные парки
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 22-E / IMAGE PLACEHOLDER 22-E]** Карта государственных природных парков Кыргызстана с официальными границами, категориями и датой геоданных.
+> **EN:** Map of Kyrgyzstan’s state nature parks using official boundaries, legal categories and a stated geodata date.
+
 ## State Nature Parks and National Parks
 
 ### English overview
@@ -264,6 +268,10 @@ State nature parks combine the conservation of landscapes and biodiversity with 
 
 
 ## 22.6. Биосферные территории UNESCO
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 22-F / IMAGE PLACEHOLDER 22-F]** Схема биосферного резервата с ядром, буферной и переходной зонами; использовать условный пример, если официальная геометрия не подтверждена.
+> **EN:** Biosphere-reserve diagram showing core, buffer and transition zones; use a conceptual example if official geometry is unavailable.
+
 ## UNESCO Biosphere Reserves
 
 Программа UNESCO «Человек и биосфера» (Man and the Biosphere Programme, MAB) направлена на сочетание сохранения биоразнообразия, устойчивого развития и научного мониторинга.
@@ -392,6 +400,10 @@ An ecological corridor cannot be identified simply because two protected areas a
 **Learning activity.** Select two natural areas on a map and mark possible barriers between them. Design two hypothetical routes for a species: one based on shortest distance and another accounting for habitat quality and obstacles. Explain what field evidence would be needed to test both routes. Do not publish precise locations of breeding sites of rare species.
 
 ## 22.9. Управление ООПТ и участие местных сообществ
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 22-H / IMAGE PLACEHOLDER 22-H]** Модель управления ООПТ: администрация, местные сообщества, научный мониторинг, посетители и механизмы обратной связи.
+> **EN:** Protected-area governance model linking park authorities, local communities, scientific monitoring, visitors and feedback mechanisms.
+
 ## Protected-Area Management and Community Participation
 
 Наличие статуса ООПТ само по себе не гарантирует сохранения природы. Эффективность зависит от управления, финансирования, персонала, научных данных, инфраструктуры, соблюдения режима и взаимодействия с населением.
@@ -424,6 +436,10 @@ Protected-area designation alone does not guarantee conservation. Effectiveness 
 
 
 ## 22.10. Экологический туризм и рекреационная нагрузка
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 22-G / IMAGE PLACEHOLDER 22-G]** Схема устойчивого туристического маршрута с тропой, зонами ограничения доступа, местами сбора отходов и мониторингом эрозии.
+> **EN:** Sustainable visitor-route diagram showing trails, access restrictions, waste collection points and erosion monitoring.
+
 ## Ecotourism and Recreational Pressure
 
 Экологический туризм может поддерживать местную экономику и повышать ценность природного наследия, но при отсутствии управления способен повреждать те экосистемы, которые должен помогать сохранять.
@@ -463,6 +479,10 @@ There is no single safe visitor quota for every park. Appropriate levels depend 
 
 
 ## 22.11. Угрозы природным территориям
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 22-I / IMAGE PLACEHOLDER 22-I]** Карта и матрица угроз природным территориям: пожары, выпас, инфраструктура, инвазивные виды, загрязнение и климатические изменения.
+> **EN:** Map and threat matrix for protected landscapes, covering fires, grazing, infrastructure, invasive species, pollution and climate change.
+
 ## Threats to Protected Landscapes
 
 | Угроза | Воздействие на ООПТ | Возможные меры |
@@ -497,6 +517,10 @@ Cumulative impacts are particularly important: several individually moderate pre
 
 
 ## 22.12. Научный мониторинг и оценка эффективности
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 22-J / IMAGE PLACEHOLDER 22-J]** Инфографика эффективности управления ООПТ: площадь, состояние экосистем, угрозы, меры управления и измеримые результаты.
+> **EN:** Protected-area management effectiveness infographic linking area, ecosystem condition, threats, management actions and measurable outcomes.
+
 ## Scientific Monitoring and Effectiveness Assessment
 
 Мониторинг должен оценивать не только административную деятельность (число патрулей или посетителей), но и реальное состояние природы.
