@@ -1267,3 +1267,9 @@ Start with `INDEPENDENT_REVIEW_BUNDLE.md` for the frozen-snapshot instructions a
 **Current external-review status:** G4 and G5 remain open; no independent reviewer sign-off has been received. The 52 planned illustration assets remain deferred. Screen-reader testing, measured contrast verification and testing on physical devices remain separate outstanding release gates. Do not describe the Biology atlas as fully publication-ready until these gates are closed with recorded evidence.
 
 - `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` — specialist roles, independence checks, invitation sequence, deliverables and draft invitations.
+
+
+## Reader feedback and public review
+- The reusable feedback policy and moderation model are defined in `FEEDBACK_SYSTEM_STANDARD.md`.
+- `FEEDBACK_PORTING_GUIDE.md` contains copy-ready instructions for other subject teams. Biology is the pilot; this work does not modify other subjects or the shared portal.
+- The live intake channel is not enabled: a secure HTTPS endpoint and private moderation queue still need to be selected, configured and tested. No submission is claimed to be operational.
