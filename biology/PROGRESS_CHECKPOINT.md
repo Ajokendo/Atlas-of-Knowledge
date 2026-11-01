@@ -179,3 +179,10 @@
 
 - Two attempted gamebird illustrations did not produce a reliable Himalayan snowcock depiction: one was monal-like and the other chukar/partridge-like, duplicating an existing concept. Both were rejected and not counted as new assets.
 - No raster asset was committed or inserted; no marker changed. All 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Image-disposition wording correction — 1 November 2026
+
+- Recorded another rejected monal-like gamebird duplicate in the image review log; no new candidate was accepted.
+- Corrected the disposition register to distinguish local-only concept drafts from approved, committed and integrated publication assets. No approved raster image is present in `biology/images/generated/`; all 52 mapped assets remain Deferred.
+- Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
