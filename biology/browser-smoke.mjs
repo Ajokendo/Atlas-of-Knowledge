@@ -273,6 +273,66 @@ try {
         " visible interactive control(s) have accessible-name/keyboard-semantics issues: " +
         JSON.stringify(nameIssues));
 
+      // Compare the complete in-page Tab sequence with the visible, enabled DOM focus order.
+      // Temporary probe attributes identify actual focused nodes without relying on CSS-selector reconstruction.
+      const expectedTabOrder = await page.locator(
+        "a[href], area[href], button, input:not([type='hidden']), select, textarea, iframe, object, embed, summary, audio[controls], video[controls], [contenteditable='true'], [tabindex]"
+      ).evaluateAll(elements => {
+        const candidates = elements.filter(el => {
+          const style = getComputedStyle(el);
+          return style.display !== "none" && style.visibility !== "hidden" &&
+            style.visibility !== "collapse" && el.getClientRects().length > 0 &&
+            !el.disabled && !el.closest("[inert]") && el.tabIndex >= 0;
+        });
+        const radios = new Map();
+        const filtered = candidates.filter(el => {
+          if (el.tagName !== "INPUT" || el.type !== "radio" || !el.name) return true;
+          const key = (el.form ? "form-" + Array.from(document.forms).indexOf(el.form) : "no-form") + ":" + el.name;
+          if (!radios.has(key)) radios.set(key, []);
+          radios.get(key).push(el);
+          return true;
+        });
+        const radioSkip = new Set();
+        for (const group of radios.values()) {
+          if (group.length > 1) {
+            const stop = group.find(el => el.checked) || group[0];
+            for (const el of group) if (el !== stop) radioSkip.add(el);
+          }
+        }
+        const ordered = filtered.filter(el => !radioSkip.has(el)).map((el, domIndex) => ({
+          el, domIndex, tabIndex: el.tabIndex
+        })).sort((a, b) => {
+          const ap = a.tabIndex > 0, bp = b.tabIndex > 0;
+          if (ap && bp) return a.tabIndex - b.tabIndex || a.domIndex - b.domIndex;
+          if (ap) return -1;
+          if (bp) return 1;
+          return a.domIndex - b.domIndex;
+        });
+        return ordered.map((item, index) => {
+          item.el.setAttribute("data-a11y-tab-probe", String(index));
+          return {
+            index, tag: item.el.tagName.toLowerCase(), id: item.el.id || "",
+            name: (item.el.getAttribute("aria-label") || item.el.innerText ||
+              item.el.value || item.el.getAttribute("title") || "").trim()
+          };
+        });
+      });
+      await page.evaluate(() => {
+        if (document.activeElement && document.activeElement !== document.body) document.activeElement.blur();
+        document.body.focus();
+      });
+      for (const expected of expectedTabOrder) {
+        await page.keyboard.press("Tab");
+        const actual = await page.evaluate(() =>
+          document.activeElement && document.activeElement.getAttribute("data-a11y-tab-probe"));
+        if (actual !== String(expected.index)) {
+          errors.push(file + ": Tab order mismatch at position " + expected.index +
+            " (expected " + expected.tag + "#" + expected.id + " '" + expected.name +
+            "', focused probe was " + actual + "; expected sequence length " + expectedTabOrder.length + ")");
+          break;
+        }
+      }
+
       // Confirm keyboard navigation can enter, advance through, and reverse between controls.
       await page.keyboard.press("Tab");
       const firstFocus = await page.evaluate(() => {
