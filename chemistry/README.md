@@ -94,3 +94,10 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Added bilingual browser assertions for the ATP equation and thermodynamic qualification.
 - [x] Full Chemistry CI run [41344361142](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41344361142) completed successfully on commit `9be0bc14bc8cb22e555e84f5a39f244e290256b8`.
 - [ ] External chemistry-teacher review, physical-device checks, screen-reader checks, and independent editorial sign-off remain pending. This checkpoint is an internal content review plus automated browser verification, not external scientific certification.
+
+
+### Organic chemistry coverage checkpoint — 2026-11-02
+
+- [x] Expanded the bilingual organic-family overview to include alkynes, alongside alkanes and alkenes. The new definition limits the formula CₙH₂ₙ₋₂ to acyclic monoalkynes and gives ethyne (acetylene), C₂H₂, as an example.
+- [x] Added Chromium regression assertions for the C≡C triple bond, the stated formula, and the ethyne example in both Russian and English.
+- [ ] This is an internal content/automated-browser checkpoint only. Independent chemistry-teacher review, manual device checks, screen-reader checks, and independent RU/EN editorial sign-off remain pending.
