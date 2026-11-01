@@ -1,0 +1,56 @@
+# Scientific review of priority Kyrgyzstan illustrations
+
+**Review date:** 1 November 2026  
+**Scope:** the 13 P1 image briefs in `IMAGE_INSERTION_MAP.md` for the Kyrgyzstan flora and fauna chapters.  
+**Purpose:** constrain future image generation and captions to evidence already represented in the chapter and to authoritative taxonomic or conservation references. This is an illustration-production review, not a complete national species checklist or a substitute for specialist review.
+
+## General production rules
+
+1. A habitat panorama may show characteristic vegetation or ecological guilds, but must not imply that every depicted species occurs at the exact same point or season.
+2. Do not add scientific labels, map pins, range boundaries, abundance figures, conservation categories or species not explicitly supported by the relevant chapter section.
+3. For a named species, check the accepted scientific name, diagnostic morphology, geographic occurrence and habitat separately. A familiar common name alone is insufficient.
+4. Do not depict animals interacting unnaturally merely to fit a composition. Separate ecological zones spatially where necessary.
+5. Avoid staged handling, collection or close approach to rare wildlife and protected plants. No image should encourage visitors to trample, pick or disturb rare plants.
+6. Where a brief is a landscape composition rather than a species plate, keep it unlabelled or label only verified geographic features. Do not invent exact elevations or vegetation boundaries.
+7. Captions should say “illustrative habitat reconstruction” where the image combines different sites or ecological settings.
+
+## P1 review register
+
+| Image / page | Evidence and approved visual scope | Constraints before approval |
+|---|---|---|
+| `flora-jalalabad.webp` — Jalal-Abad flora | The chapter documents the Arslanbob walnut-fruit forest complex and separately describes Sary-Chelek and Besh-Aral habitats. | Depict walnut-fruit woodland, wooded slopes and moist ravines as a regional habitat mosaic. Do not label every tree or shrub as a verified Arslanbob record unless a site-specific source is attached. |
+| `flora-issyk.webp` — Issyk-Kul flora | The chapter distinguishes eastern delta/wetland habitats, dry western foothills and Terskey Ala-Too spruce forest. UNESCO's Issyk-Kul biosphere-reserve page is an appropriate landscape-context source: https://www.unesco.org/en/mab/issyk-kul | Keep wetland, dry foothill and spruce-forest plant communities in visibly distinct zones. Do not place aquatic/wetland plants on dry slopes or imply one uniform basin vegetation type. |
+| `flora-naryn.webp` — Naryn highland flora | The chapter discusses Son-Kul, Chatyr-Kul and interior valleys as separate highland settings and uses Ramsar/site references. | Treat lake margins, wet meadows and dry steppe as separate microhabitats. Seasonal water level, snow cover and flowering season must be plausible; do not combine all plants into a single dense meadow. |
+| `flora-osh.webp` — Osh / Pamir-Alay flora | The chapter describes a transition from walnut-fruit woodland to juniper slopes and higher Pamir-Alay environments. | Show a plausible altitudinal transition, not tropical forest. Do not invent endemic species, exact species labels or a continuous forest belt across dry slopes. |
+| `flora-batken.webp` — Aygul and wild tulips | Kew Plants of the World Online accepts **Fritillaria eduardii A.Regel ex Regel** and lists Kyrgyzstan in its native range; **Petilium eduardii** is a synonym: https://powo.science.kew.org/taxon/535120-1. The Kyrgyz encyclopedia entry also uses Petilium eduardii: https://encyclopedia.edu.kg/KyrgWiki/index.php?title=%D0%90%D0%99%D0%93%D2%AE%D0%9B. A 2025 Batken State University paper reports conservation concerns and a 2023–2026 access/collection moratorium at Aygul-Tash; treat this as a dated report, not proof of the current legal regime: https://scientificjournal.ru/a/107-bio/2480-current-state.html | Use **Fritillaria eduardii** as the primary label and give **Petilium eduardii** only as a taxonomic synonym if needed. Show the diagnostic nodding, bell-shaped flowers and leafy stem accurately; do not merge it with unrelated wild tulips. No picking, trampling or tourist access scene. The moratorium's status after 2026 must be checked with the Ministry before any access claim is published. |
+| `fauna-mammals.webp` — mountain mammals | The chapter's mammal sources include the 2026 peer-reviewed national snow-leopard status paper: https://doi.org/10.56510/slr.v5.63883 and CAMI's Kyrgyzstan country/species material: https://cami.cms.int/country/kyrgyzstan | Snow leopard, argali and Siberian ibex must each have correct morphology and plausible separate positions. Use **Panthera uncia** for current snow-leopard nomenclature in new labels; older sources may use *Uncia uncia*. Do not imply a predator is attacking the ungulates or that the three species form a group. |
+| `fauna-birds.webp` — birds of mountains, lakes and wetlands | The chapter cites the Kyrgyzstan bird checklist and species accounts, including the Himalayan snowcock profile: https://kyrgyzstan.birding.day/v2checklist.php?l=ru and https://kyrgyzstan.birding.day/m/v2taxon.php?l=en&s=93 | Separate cliff/rock habitat, alpine ground-bird habitat and lake/wetland waterbirds. Do not place a snowcock in reeds or waterfowl on sheer alpine cliffs. Species-level labels require matching the chapter's documented records. |
+| `fauna-freshwater.webp` — freshwater fauna | The chapter's fish section distinguishes historical FAO inventory estimates, limited 2024 Issyk-Kul sampling and ongoing 2026 basin research; these are not a single final national checklist. | Do not print a total species count or imply that a small sample is the complete lake fauna. Use only fish taxa with a verified chapter profile and basin-level occurrence. Keep Issyk-Kul and a mountain stream visually distinct; do not assume every fish inhabits both. |
+| `fauna-jalalabad.webp` — Western Tien Shan fauna | The chapter documents Besh-Aral and Sary-Chelek and links to protected-area sources, including UNDP's Western Tien Shan protected-area publication: https://www.undp.org/kyrgyzstan/publications/specially-protected-nature-areas-western-tien-shan-kyrgyzstan | Use a habitat panorama, not a fabricated species census. Do not draw precise animal ranges or place forest and high-mountain species in one microhabitat. |
+| `fauna-issyk.webp` — Issyk-Kul fauna | The chapter uses Ramsar and UNESCO references for the lake and wetland context: https://www.unesco.org/en/mab/issyk-kul and https://rsis.ramsar.org/RISapp/files/RISrep/KG1231RIS.pdf | Keep lake waterbirds, aquatic fauna, shore wetlands and mountain mammals in distinct zones. Do not imply that all depicted species are resident year-round. |
+| `fauna-naryn.webp` — Naryn highland fauna | The chapter documents Son-Kul wetlands, Naryn protected-area records and maral conservation/monitoring sources. | Separate lake waterbirds from forest-dwelling maral and alpine mammals. Avoid depicting a maral herd on open treeless shoreline unless a local source supports that exact habitat. |
+| `fauna-osh.webp` — Pamir-Alay / southern fauna | The chapter cites regional protected-area and field-study sources, including Osh-area protected landscapes. | Use only species whose occurrence in the relevant southern locality is documented in the chapter. A country-level record does not automatically prove occurrence in Osh oblast or a named reserve. |
+| `fauna-batken.webp` — dry slopes of Batken | The chapter links Batken-area protected-landscape and monitoring sources. | Depict dry foothills and rocky slopes without inventing local endemics. A marmot, reptile or bird should be included only after checking the exact locality and habitat in the chapter's cited source; avoid generic “Central Asian” fauna substitutions. |
+
+## Taxonomy and evidence notes
+
+- **Aygul:** the Kew accepted name is *Fritillaria eduardii*; *Petilium eduardii* is a synonym. Existing chapter prose and image-map wording should be harmonised so the accepted name is primary and the synonym is retained for searchability.
+- **Snow leopard:** use *Panthera uncia* for current labels. Some older regional records use *Uncia uncia*; do not treat the nomenclatural difference as two species.
+- **Regional inference:** country-level presence is not sufficient evidence for a particular oblast, reserve, lake or river. Site-specific images need site-specific records.
+- **Freshwater inventory:** historical inventories, bounded field samples and ongoing taxonomic projects have different scopes and dates. The illustration should not turn them into an unqualified modern species total.
+- **Protected access:** reports of restrictions or moratoria must be date-stamped and checked against current official notices before being represented as current visitor rules.
+
+## Approval checklist for each generated asset
+
+- [ ] Image subject and exact insertion anchor match the map.
+- [ ] All labelled taxa use accepted names and are supported by chapter sources.
+- [ ] Diagnostic morphology is checked against authoritative species references.
+- [ ] Locality and habitat are supported at the required geographic scale.
+- [ ] Season, elevation context and species co-occurrence are plausible.
+- [ ] No unsupported labels, range boundaries, counts or conservation statuses.
+- [ ] No harmful interaction, collection or disturbance is depicted.
+- [ ] Caption identifies a composite/illustrative scene where applicable.
+- [ ] Alt text is accurate in Russian and English.
+- [ ] Asset is reviewed by a relevant botanist/zoologist before changing its status from planned.
+
+**Status:** all 13 P1 assets remain planned. This review does not approve or claim any generated image.
