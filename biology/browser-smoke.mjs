@@ -333,6 +333,11 @@ try {
         }
       }
 
+      await page.evaluate(() => {
+        if (document.activeElement && document.activeElement !== document.body) document.activeElement.blur();
+        document.body.focus();
+      });
+
       // Confirm keyboard navigation can enter, advance through, and reverse between controls.
       await page.keyboard.press("Tab");
       const firstFocus = await page.evaluate(() => {
