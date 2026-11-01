@@ -848,3 +848,16 @@ Older checkpoint entries below this note contain historical planning language th
 - The new checks confirm the defined DOM-level live-region and pressed-state semantics. They do not prove that every screen reader announces changes correctly or that every toggle has an appropriate interaction model; assistive-technology testing remains open.
 - Current accessibility stage: automated structural/live-region/toggle semantics **100% for the defined checks**. Keyboard activation coverage is representative and expanded, but not exhaustive. Full keyboard traversal, hands-on screen-reader testing and physical-device/browser matrix testing remain open.
 - Controlled editorial readiness remains **95/100**. G4/G5 internal audits remain closed at 4/4 planned blocks each. The 52 planned visual assets remain deferred; shared-portal feedback integration remains separate and feedback intake stays disabled until secure end-to-end checks and owner approval.
+
+
+## 2026-11-02 — axe-core WCAG audit and remediation
+
+- Added `axe-core` to the CI-only browser-test dependencies and run its WCAG 2.0 A/AA, WCAG 2.1 A/AA and WCAG 2.2 AA rules against every Biology page in both language states at mobile and desktop viewport widths.
+- The first scan found serious issues in the Kyrgyzstan flora/fauna chapters and the landing-page cell diagram. These were corrected rather than suppressed:
+  - Language-switch accessible names now include the visible RU/EN label and describe the target language.
+  - Orphan source-list items in the flora/fauna chapters are enclosed in semantic unordered lists.
+  - Horizontally scrollable data-table wrappers are keyboard-focusable named regions.
+  - The landing-page cell SVG is a labelled group rather than an image role that incorrectly contained interactive organelle controls.
+- CI #547 (ID `41347322871`) passed on `37d31814eef29eccb66cb61e8279c401e0d4b34c`. Structural checks passed for 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons. The Chromium audit passed across 13 pages, two viewport widths and both language states; axe reported no WCAG violations in its configured rule set. Existing 21,477-text contrast sampling also reported zero below-threshold instances; no uncaught page errors.
+- The automated axe audit is not a substitute for testing with NVDA, VoiceOver, TalkBack or other assistive technology. Screen-reader usability, exhaustive keyboard traversal and physical-device/browser matrix testing remain open.
+- Automated WCAG rule audit stage: **100% for the configured rule set and tested states**. Controlled editorial readiness remains **95/100**; G4/G5 internal audits remain closed. The 52 deferred visual assets and shared-portal feedback integration remain separately tracked, and feedback intake remains disabled pending secure end-to-end checks and owner approval.
