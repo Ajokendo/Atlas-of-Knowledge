@@ -166,3 +166,10 @@
 - Generated a local bearded-vulture-like alpine bird concept (1536×1024). ImageGen provenance and scientific caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
 - Candidate remains local-only, uncommitted, uninserted and unapproved. It is not evidence of a Kyrgyzstan field record and does not complete the multi-species P1 bird plate.
 - No marker changed; all 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Illustration duplicate-control checkpoint — 1 November 2026
+
+- Three additional bird-image generations repeated the same perched bearded-vulture motif and were rejected as near-duplicates. No candidate count, filename, insertion anchor or disposition was added or changed.
+- Next intended distinct subject: Himalayan snowcock (`Tetraogallus himalayensis`); the generation queue did not yet produce a distinct usable draft.
+- All 52 image dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
