@@ -191,12 +191,12 @@ if (!periodicData) {
 }
 
 const trainerSource = fs.readFileSync(path.join(root, "reaction-trainer.html"), "utf8");
-const trainerMatch = trainerSource.match(/\\bconst tasks\\s*=\\s*\\[/);
-if (!trainerMatch) {
+const trainerTaskStart = trainerSource.indexOf("const tasks=");
+if (trainerTaskStart < 0) {
   errors.push("reaction-trainer.html: reaction task bank not found");
 } else {
   try {
-    const literal = arrayLiteralAt(trainerSource, trainerMatch.index + trainerMatch[0].lastIndexOf("["));
+    const literal = arrayLiteralAt(trainerSource, trainerTaskStart + "const tasks=".length);
     const tasks = vm.runInNewContext("(" + literal + ")");
     const subscriptDigits = { "₀":"0", "₁":"1", "₂":"2", "₃":"3", "₄":"4", "₅":"5", "₆":"6", "₇":"7", "₈":"8", "₉":"9" };
     const parseTrainerFormula = formula => {
