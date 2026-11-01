@@ -664,3 +664,12 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - Added both sources and their scope limitations to the regional species audit, and added regression checks for count comparability and sample scope.
 - Re-read the fauna chapter, evidence audit and check script. Eight targeted source-level assertions passed. The full test script and CI have not been confirmed.
 - **Atlas of Biology editorial readiness: 94/100.** This is a conservative content/evidence estimate, not production certification. Remaining work includes expert taxonomic review, source reconciliation, bilingual copy-editing, full test execution, browser/accessibility testing, and the 52 planned illustrations.
+
+
+## Fish evidence and current research checkpoint — 1 November 2026
+
+- Added direct links to the Institute of Biology NAS KR's 14 October 2026 notice on joint fish research with the American Museum of Natural History and to the Institute's Ichthyology and Hydrobiology Laboratory profile.
+- The bilingual chapter now distinguishes the 2026 fieldwork in the Issyk-Kul, Chu and Talas basins from completed publication: preliminary identification is reported, but laboratory analysis continues. The laboratory profile also describes Issyk-Kul monitoring in 2023–2025 and a fish-resource project for 2025–2027; neither is presented as a published national species inventory.
+- Added the institutional sources and their scope limitations to `KYRGYZSTAN_SPECIES_AUDIT.md`, and extended `checks.mjs` to require the direct links.
+- Re-read the fauna chapter, audit and regression script. Eight targeted source-level assertions passed. This is not a full test-script execution or CI confirmation.
+- **Atlas of Biology editorial readiness: 95/100.** This remains a conservative content/evidence-readiness estimate, not production certification. Remaining work: specialist review of all species groups, reconciliation of outstanding source discrepancies, complete bilingual copy-editing, full test execution in a checkout, browser and accessibility testing, and production/review/integration of the 52 planned illustrations.
