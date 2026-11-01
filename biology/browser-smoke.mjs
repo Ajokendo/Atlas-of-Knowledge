@@ -29,7 +29,7 @@ try {
       // Background images/gradients and translucent layered effects are excluded from this automated pass.
       const contrast = await page.evaluate(() => {
         const parse = value => {
-          const m = value.match(/rgba?\\(([^)]+)\\)/);
+          const m = value.match(/rgba?\(([^)]+)\)/);
           if (!m) return null;
           const parts = m[1].split(",").map(x => Number.parseFloat(x.trim()));
           return { r: parts[0], g: parts[1], b: parts[2], a: parts.length > 3 ? parts[3] : 1 };
@@ -81,9 +81,9 @@ try {
           const large = size >= 24 || (size >= 18.66 && weight >= 700);
           const measured = ratio(fg, bg);
           rows.push({
-            text: (el.innerText || el.textContent || "").trim().replace(/\\s+/g, " ").slice(0, 90),
+            text: (el.innerText || el.textContent || "").trim().replace(/\s+/g, " ").slice(0, 90),
             selector: el.tagName.toLowerCase() + (el.id ? "#" + el.id : "") +
-              (typeof el.className === "string" && el.className ? "." + el.className.trim().split(/\\s+/).join(".") : ""),
+              (typeof el.className === "string" && el.className ? "." + el.className.trim().split(/\s+/).join(".") : ""),
             ratio: Number(measured.toFixed(2)),
             required: large ? 3 : 4.5,
             pass: measured >= (large ? 3 : 4.5)
