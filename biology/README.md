@@ -1102,3 +1102,11 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Completed the initial 5% inventory milestone. The 13-page source scan found balanced Russian/English markers, no duplicate HTML IDs, 22 inline SVG elements and no integrated raster `<img>` assets.
 - Confirmed that all 52 mapped image assets remain Deferred; no raster asset is approved or integrated. G4 scientific review and G5 independent bilingual/editorial review remain open.
 - Audit findings and method are recorded in `REPEAT_AUDIT_2026-11-01.md`. The 95/100 controlled editorial-readiness score is unchanged; audit completion is tracked separately.
+
+
+## Full repeat audit — 10% milestone — 1 November 2026
+
+- Completed source-level technical/accessibility review of all 13 pages: one H1 and populated H2 structure per page; named inline SVGs; no unlabeled inputs; no external `_blank` links missing `noopener`; interactive buttons use explicit types and visible labels.
+- Inspected the 81 KB regression script and existing bilingual parity report (1,147 RU / 1,147 EN blocks). These are source-level checks, not a fresh test execution or independent language sign-off.
+- No confirmed defect justified a speculative code edit. Node/Chromium execution and browser/manual accessibility checks remain pending because a runnable repository checkout and dependencies are not available through the current file connection.
+- Detailed findings: `REPEAT_AUDIT_2026-11-01.md`. Audit completion 10%; controlled editorial readiness remains 95/100; G4/G5 remain open.
