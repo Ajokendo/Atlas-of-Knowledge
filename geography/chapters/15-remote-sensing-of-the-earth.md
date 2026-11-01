@@ -667,6 +667,50 @@ NDVI \approx 0.67
 
 Используйте спутниковые данные для картирования одного события — например, паводка или пожара. Укажите дату съёмки, метод, ограничения и способы проверки результата.
 
+### English Summary
+
+1. Remote sensing provides information about Earth's surface and atmosphere without direct contact with the object.
+2. Signals depend on surface spectral properties, the atmosphere and viewing geometry.
+3. Passive and active sensors use different physical principles.
+4. Spatial, spectral, temporal and radiometric resolution describe different data characteristics.
+5. Before analysis, account for calibration, atmosphere, geometry, relief and source-product quality.
+6. Spectral indices help highlight surface properties but do not replace full classification and validation.
+7. Classification quality is assessed using independent reference data and a confusion matrix.
+8. SAR and LiDAR extend observation capabilities through radar and laser methods.
+9. Change monitoring requires comparable imagery and attention to seasonality.
+10. Remote sensing is most effective when combined with satellite, field and statistical data.
+
+### English Review Questions
+
+1. What is remote sensing, and how does it complement field observations?
+2. How does reflected solar radiation differ from the surface's own thermal emission?
+3. Why does vegetation usually have a strong response in the near-infrared?
+4. What is the difference between passive and active sensors?
+5. How do the four types of resolution differ?
+6. Why does cloud cover limit optical observations but not always prevent radar imaging?
+7. Why is atmospheric correction performed?
+8. What does NDVI show, and what are its limitations?
+9. Why should the formula be stated when using NDWI?
+10. How does supervised classification work, and why are independent validation data needed?
+11. What information can be obtained using SAR and LiDAR?
+12. Why is seasonality important when comparing images from different dates?
+13. Which factors may cause false change detection?
+14. Which ethical restrictions should be considered when using detailed imagery?
+
+### English Practical Activities
+
+**1. Spectral signature.** Compare spectral curves for vegetation, water, dry soil and wet soil. Explain differences across spectral regions and why the curves depend on observation conditions.
+
+**2. Calculating NDVI.** Use a multispectral image with Red and NIR bands. Calculate NDVI, create a map and compare several surface types. State the sensor, date, formula and limitations.
+
+**3. Land-cover classification.** Design a class scheme and training samples for forest, water, built-up areas, agricultural land and bare soil. Perform a classification and assess it using independent validation points.
+
+**4. Optical and radar comparison.** Compare an optical image with a Sentinel-1 SAR image of the same area. Identify the capabilities and limitations of each source; do not interpret SAR brightness as an ordinary surface colour.
+
+**5. Change monitoring.** Select two comparable images from different dates. Mask clouds, align the data and identify areas of change. Validate several locations using independent sources.
+
+**6. Natural-hazard mini-project.** Use satellite data to map one event, such as a flood or fire. State the acquisition date, method, limitations and ways to validate the result.
+
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
 **Иллюстрация 15.1 / Figure 15.1 — Принцип дистанционного зондирования / Remote sensing principle.**  
