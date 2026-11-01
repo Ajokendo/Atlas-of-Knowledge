@@ -548,7 +548,7 @@ River erosion may be **vertical**, deepening the channel; **lateral**, widening 
 #### 4.6.2. Major Fluvial Landforms
 
 
-Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel. Flow is generally faster near the outer bank, where erosion dominates, and slower near the inner bank, where sediment is more likely to accumulate. A **floodplain** is the part of a river valley periodically inundated during high water. A **delta** forms where a river loses its capacity to transport sediment as it enters a water body or another river.
+Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel. Flow is generally faster near the outer bank, where erosion dominates, and slower near the inner bank, where sediment is more likely to accumulate. A **floodplain** is the part of a river valley periodically inundated during high water. A **river terrace** is a step-like bench along a valley side, often representing an older floodplain left above the modern channel after river incision or a change in base level. An **alluvial fan** is a fan-shaped sediment deposit formed where a stream leaves a confined valley for flatter ground and loses some of its transporting capacity. A **delta** forms where a river loses its capacity to transport sediment as it enters a water body or another river.
 
 **[ILLUSTRATION PLACEHOLDER 4.6-A]** Show a meander, floodplain, terraces, alluvial fan and delta in plan and cross-section; distinguish erosion from deposition.
 
@@ -569,7 +569,7 @@ Glaciers move under gravity and transform the surface by erosion, transport and 
 #### 4.7.2. Depositional Landforms
 
 
-**Depositional landforms** include moraines, drumlins, eskers, kames, outwash plains and erratic boulders. Moraines consist of material transported and deposited by glaciers. Their composition and shape help reconstruct the position and dynamics of former glaciers.
+**Depositional landforms** include moraines, drumlins, eskers, kames, outwash plains and erratic boulders. Moraines consist of unsorted material transported and deposited by ice; they may form lateral, terminal, medial or ground accumulations. **Drumlins** are elongated, streamlined hills of glacial sediment, commonly aligned with ice flow. **Eskers** are winding ridges of sand and gravel deposited by meltwater streams within or beneath a glacier. **Kames** are mounds of layered sand and gravel deposited by meltwater at or within the ice margin. **Outwash plains** form in front of glaciers from sediment carried by meltwater. **Erratic boulders** are large rocks transported far from their source by moving ice. These landforms help reconstruct former glacier extent and dynamics.
 
 **[ILLUSTRATION PLACEHOLDER 4.7-A]** Show a cirque, U-shaped and hanging valleys, arête, horn, moraine, esker and outwash plain; distinguish erosional and depositional forms.
 
@@ -579,7 +579,7 @@ Wind transports particles and shapes landscapes mainly in arid and semi-arid reg
 
 The main processes are **deflation** (removal of loose material by wind), **abrasion** (wear caused by wind-driven particles) and **accumulation** (deposition of sand and dust).
 
-Typical landforms include dunes, barchans, longitudinal and transverse sand ridges, deflation hollows and loess deposits. Dune shape depends on wind regime, sand supply, moisture and vegetation. A barchan is usually crescent-shaped and forms where sand supply is limited and one wind direction prevails.
+Typical landforms include dunes, barchans, longitudinal and transverse sand ridges, deflation hollows and loess deposits. Dune shape depends on wind regime, sand supply, moisture and vegetation. A **barchan** is usually crescent-shaped, with its horns pointing downwind; it forms where sand supply is limited and one wind direction prevails. **Transverse dunes** form ridges roughly across the prevailing wind and commonly require abundant sand. **Longitudinal dunes** are elongated roughly parallel to the resultant wind direction. **Deflation hollows** form where loose material is removed by wind, while **loess** consists of wind-transported silt deposits.
 
 **[ILLUSTRATION PLACEHOLDER 4.8-A]** Compare a barchan, longitudinal and transverse dunes, and a deflation hollow; add prevailing-wind arrows and note the role of sand supply.
 
