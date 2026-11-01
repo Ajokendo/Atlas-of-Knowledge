@@ -662,3 +662,12 @@
 - CI for the latest commit is still running. No claim is made yet that contrast passes. The next required step is to inspect the fresh browser audit results, identify residual failures, and repeat until the sampled text meets WCAG AA or is explicitly documented as outside the sampler's scope.
 - Contrast audit stage estimate: 70% (first coordinated correction pass applied; automated verification and residual-state review pending).
 - Overall editorial readiness remains 95/100. G4/G5 independent review, 52 deferred visual assets, and physical-device/screen-reader checks remain open. Feedback intake remains disabled.
+
+
+## 2026-11-01 — residual subtitle contrast correction
+
+- The first palette-remediation browser run reduced the detected contrast failures from 1,160 sampled instances (repeated across two viewport sizes) to only the chapter subtitle/lead color, repeated across the 12 chapter pages and two viewport sizes.
+- Applied a second targeted override `#subtitle.subtitle{color:#68645f}` to all 12 chapter pages, including the two Kyrgyzstan regional pages. The overview page did not contain this subtitle issue.
+- Last chapter fix commit: `245ff59619e1a87d2c8f5373d7da4c46da8a8e40`. CI verification of this full corrected state is pending; do not claim WCAG AA pass until the workflow confirms it.
+- Contrast audit stage estimate: 90% (automated sampler implemented, shared palette corrected across all pages, residual subtitle color corrected; full rerun and manual review of unmeasured states still pending).
+- Overall editorial readiness remains 95/100. G4/G5 independent review, 52 deferred visual assets, and physical-device/screen-reader checks remain open. Feedback intake remains disabled.
