@@ -70,7 +70,7 @@ export function buildWorld(E) {
   const inkArrow = (parent, name, r = 0.022) => arrow(parent, 'ink', { r, head: 0.13, headR: 0.06, name });
   const redArrow = (parent, name) => arrow(parent, 'red', { r: 0.026, head: 0.15, headR: 0.07, name });
   const tip = (a, d = 0.22) => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + d, 0)) : null;
-  const charge = (parent, sign = 1, r = 0.15, name = 'Charge') => {
+  const charge = (parent, sign = 1, r = 0.15, name = 'Заряд') => {
     const m = part(parent, new THREE.SphereGeometry(r, 32, 20), { tone: 'hi', name });
     label(sign > 0 ? 'vec red' : 'vec blue', sign > 0 ? '+' : '−', () => m.visible ? m.getWorldPosition(V()) : null);
     return m;
@@ -101,7 +101,7 @@ export function buildWorld(E) {
   const fromSI = a => V(a[0], a[1], a[2]);
   const inBox = (X, Y, Z = Y) => p => Math.abs(p[0]) < X && Math.abs(p[1]) < Y && Math.abs(p[2]) < Z;
   const rotX = p => [p[0], p[2], p[1]];         // a line in the z = 0 plane turned into the y = 0 plane (about x)
-  const BOT = 'Field B';
+  const BOT = 'Поле B';
 
   // ======================================================================
   // 1 · a bar magnet
@@ -226,12 +226,12 @@ export function buildWorld(E) {
   LP.forEach((p, i) => {
     const q = LP[(i + 1) % 4];
     rod(loopG, p.clone().add(q.clone().sub(p).normalize().multiplyScalar(-0.05)), q.clone().add(q.clone().sub(p).normalize().multiplyScalar(0.05)), 0.05, { name: 'Виток провода' });
-    cone(loopG, p.clone().lerp(q, 0.5), q.clone().sub(p), 'Current I', 1.2);
+    cone(loopG, p.clone().lerp(q, 0.5), q.clone().sub(p), 'Ток I', 1.2);
   });
   label('vec', '<i>I</i>', () => loopG.localToWorld(V(0, 0.2, -la - 0.3)));
   const muL = inkArrow(gL, 'Magnetic moment μ', 0.03), tauL = inkArrow(gL, 'Torque τ', 0.03);
   label('vec', '<b>μ</b>', () => tip(muL)); label('vec', '<b>τ</b>', () => tip(tauL));
-  const FL = [0, 1, 2, 3].map(() => inkArrow(gL, 'Forces I L × B'));
+  const FL = [0, 1, 2, 3].map(() => inkArrow(gL, 'Силы I L × B'));
   FL.forEach((a, i) => label('vec', `<b>F</b><sub>${i + 1}</sub>`, () => ex(gL) > 0.3 ? tip(a) : null));
   let loopDeg = 0;
   label('tick', '', () => cL.clone().add(V(-0.4, -lb - 0.55, 0)), () => `θ ${loopDeg.toFixed(0)}°`);
@@ -244,7 +244,7 @@ export function buildWorld(E) {
   rod(gA, V(cA.x, 0, 0), V(cA.x, 2.6, 0), M.AMP.a * D, { name: 'Провод' });
   rod(root, V(cA.x, 2.6, 0), V(cA.x, 6.8, 0), M.AMP.a * D, { name: 'Провод' });   // the top half is not part of the breakdown, so opening it frames the circle
   // kept out of the breakdown so opening the wire frames the circle
-  const curA = inkArrow(root, 'Current I', 0.03); setArrow(curA, V(cA.x - 0.38, 4.9, 0), V(0, 1.3, 0));
+  const curA = inkArrow(root, 'Ток I', 0.03); setArrow(curA, V(cA.x - 0.38, 4.9, 0), V(0, 1.3, 0));
   label('vec', '<i>I</i>', () => V(cA.x - 0.62, 5.9, 0));
   for (let k = 0; k < 5; k++) {
     const r = 0.025 * 1.5 ** k;
@@ -284,7 +284,7 @@ export function buildWorld(E) {
   const gG = asm('ring', root, { title: 'Круговой виток с током', sub: 'каждый dl создаёт вклад dB' });
   const ringTor = new THREE.TorusGeometry(RW, 0.05, 12, 128); ringTor.rotateY(Math.PI / 2);
   part(gG, ringTor, { tone: 'hi', name: 'Виток провода', pos: cG.toArray() });
-  for (let k = 0; k < 6; k++) { const a = 2 * Math.PI * (k + 0.25) / 6; cone(gG, V(cG.x, cG.y + RW * Math.cos(a), RW * Math.sin(a)), V(0, -Math.sin(a), Math.cos(a)), 'Current I'); }
+  for (let k = 0; k < 6; k++) { const a = 2 * Math.PI * (k + 0.25) / 6; cone(gG, V(cG.x, cG.y + RW * Math.cos(a), RW * Math.sin(a)), V(0, -Math.sin(a), Math.cos(a)), 'Ток I'); }
   label('vec', '<i>I</i>', () => V(cG.x, cG.y + RW + 0.35, 0.3));
   {
     const seeds = [0, 0.02, 0.05, 0.08, 0.11, 0.13].flatMap(y => y ? [y, -y] : [0]);
@@ -306,11 +306,11 @@ export function buildWorld(E) {
   // ======================================================================
   // 8 · two parallel wires, same and opposite currents
   // ======================================================================
-  const pairs = [['same', 1, 'Currents the same way', 'they attract'], ['opposite', -1, 'Currents opposite ways', 'they repel']].map(([key, sign, title, sub]) => {
+  const pairs = [['same', 1, 'Токи направлены одинаково', 'притягиваются'], ['opposite', -1, 'Токи направлены противоположно', 'отталкиваются']].map(([key, sign, title, sub]) => {
     const c = V(STATIONS[key], 0, 0), yF = 2.3, hd = M.WIRES.d / 2 * D;
     const g = asm(key, root, { title, sub });
     const w1 = rod(g, V(c.x - hd, 0, 0), V(c.x - hd, 4.6, 0), 0.07, { name: 'Провод 1' }), w2 = rod(g, V(c.x + hd, 0, 0), V(c.x + hd, 4.6, 0), 0.07, { name: 'Провод 2' });
-    const i1 = inkArrow(g, 'Current I₁', 0.028), i2 = inkArrow(g, 'Current I₂', 0.028);
+    const i1 = inkArrow(g, 'Ток I₁', 0.028), i2 = inkArrow(g, 'Ток I₂', 0.028);
     setArrow(i1, V(c.x - hd - 0.32, 3.2, 0), V(0, 1.2, 0));
     if (sign > 0) setArrow(i2, V(c.x + hd + 0.32, 3.2, 0), V(0, 1.2, 0)); else setArrow(i2, V(c.x + hd + 0.32, 4.4, 0), V(0, -1.2, 0));
     label('vec', '<i>I</i><sub>1</sub>', () => V(c.x - hd - 0.62, 3.8, 0)); label('vec', '<i>I</i><sub>2</sub>', () => V(c.x + hd + 0.62, 3.8, 0));
@@ -324,7 +324,7 @@ export function buildWorld(E) {
     }
     if (sign < 0) bLine(root, V(c.x, yF, 4.4), V(c.x, yF, -4.4), 3);
     const pf = M.pairForce(sign);
-    const f1 = inkArrow(g, 'Forces'), f2 = inkArrow(g, 'Forces'), b1 = bArrow(g, 'Field of the other wire'), b2 = bArrow(g, 'Field of the other wire');
+    const f1 = inkArrow(g, 'Силы'), f2 = inkArrow(g, 'Силы'), b1 = bArrow(g, 'Поле другого провода'), b2 = bArrow(g, 'Поле другого провода');
     const fl = pf.F[0] * SC.wireF;                        // force on wire 2 per metre, drawn
     setArrow(f2, V(c.x + hd + (fl < 0 ? -0.08 : 0.08), yF, 0), V(fl, 0, 0)); setArrow(f1, V(c.x - hd + (fl < 0 ? 0.08 : -0.08), yF, 0), V(-fl, 0, 0));
     const bl = pf.B1[2] * 1e6 * SC.pairUT;
@@ -342,7 +342,7 @@ export function buildWorld(E) {
   const solMat = fadeMat('paper');
   const turnGeo = new THREE.TorusGeometry(RS, 0.035, 8, 48); turnGeo.rotateY(Math.PI / 2);
   for (const l of M.SOL.loops) part(gN, turnGeo, { tone: 'hi', name: 'Витки', mat: solMat, pos: [cN.x + l[0][0] * D, cN.y, 0] });
-  for (const k of [3, 12, 21, 30]) { const x = cN.x + M.SOL.loops[k][0][0] * D + 0.05; cone(gN, V(x, cN.y, RS + 0.02), V(0, -1, 0), 'Current I', 0.8); }
+  for (const k of [3, 12, 21, 30]) { const x = cN.x + M.SOL.loops[k][0][0] * D + 0.05; cone(gN, V(x, cN.y, RS + 0.02), V(0, -1, 0), 'Ток I', 0.8); }
   label('vec', '<i>I</i>', () => V(cN.x - 1.55, cN.y - 0.15, RS + 0.35));
   {
     const seeds = [0, 0.012, 0.024, 0.036, 0.048].flatMap(y => y ? [y, -y] : [0]);
