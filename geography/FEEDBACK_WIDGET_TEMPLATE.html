@@ -1,0 +1,170 @@
+<!--
+Atlas of Knowledge — Geography teacher-pilot questionnaire.
+PREPARATION ONLY. No submission endpoint, network request, storage, analytics,
+or external service is present. Do not enable without portal completion,
+security review, end-to-end testing, and explicit project-owner approval.
+-->
+<section class="aok-feedback" aria-labelledby="aok-feedback-title" lang="ru">
+  <style>
+    .aok-feedback{max-width:900px;margin:2rem auto;padding:clamp(1rem,3vw,1.5rem);border:1px solid #d8d8d2;background:#fbfbfa;color:#18181a;font:16px/1.55 system-ui,sans-serif}
+    .aok-feedback h2,.aok-feedback h3{font-family:Georgia,serif;font-weight:400;line-height:1.2}
+    .aok-feedback h2{font-size:clamp(1.5rem,4vw,2rem);margin:0 0 .6rem}
+    .aok-feedback h3{font-size:1.2rem;margin:1.4rem 0 .5rem}
+    .aok-feedback p,.aok-feedback .hint{color:#555}
+    .aok-feedback fieldset{border:1px solid #d2d2cc;border-radius:5px;padding:1rem;margin:1rem 0;min-width:0}
+    .aok-feedback legend{font-weight:700;padding:0 .3rem}
+    .aok-feedback label{display:block;margin:.7rem 0;font-weight:600}
+    .aok-feedback input,.aok-feedback select,.aok-feedback textarea{display:block;box-sizing:border-box;width:100%;max-width:100%;margin-top:.25rem;padding:.65rem;border:1px solid #999;border-radius:4px;background:#fff;color:#18181a;font:inherit}
+    .aok-feedback input[type=checkbox]{display:inline-block;width:auto;margin-right:.5rem}
+    .aok-feedback textarea{min-height:5rem;resize:vertical}
+    .aok-feedback :focus-visible{outline:3px solid #287f91;outline-offset:2px}
+    .aok-feedback .rating{display:grid;grid-template-columns:minmax(0,1fr) minmax(150px,.55fr);gap:.8rem;align-items:center;padding:.4rem 0;border-bottom:1px solid #e7e7e2}
+    .aok-feedback .rating label{margin:0;font-weight:500}
+    .aok-feedback .rating select{margin:0}
+    .aok-feedback .consent{font-weight:400}
+    .aok-feedback .notice{padding:.9rem;border-left:3px solid #287f91;background:#f0f4f3}
+    .aok-feedback button{padding:.75rem 1.1rem;border:0;border-radius:4px;background:#777;color:#fff;font:inherit;font-weight:650}
+    .aok-feedback button:disabled{cursor:not-allowed;opacity:.85}
+    .aok-feedback .small{font-size:.9rem}
+    @media(max-width:600px){.aok-feedback .rating{grid-template-columns:1fr;gap:.2rem}.aok-feedback .rating select{max-width:10rem}}
+  </style>
+
+  <h2 id="aok-feedback-title">Педагогическая оценка атласа географии / Geography teacher feedback</h2>
+  <p>Анкета предназначена для будущего педагогического пилота. Она помогает сообщить конкретные замечания о главах, географических данных, картах и инструментах. / This questionnaire is intended for a future pedagogical pilot and invites specific feedback on chapters, geographical data, maps and tools.</p>
+  <p class="notice small"><strong>Важно / Important:</strong> Это не формальная независимая экспертиза. Сейчас приём ответов выключен: данные не отправляются и не сохраняются. / This is not a formal independent review. Feedback intake is currently disabled; no data is submitted or stored.</p>
+
+  <form id="aok-geography-feedback" data-subject="geography" autocomplete="off">
+    <fieldset>
+      <legend>1. Общая информация / General information</legend>
+      <label>Предмет или направление / Subject or teaching area
+        <input name="teaching_area" maxlength="120">
+      </label>
+      <label>Преподаваемые классы / Grade levels
+        <input name="grade_levels" maxlength="120">
+      </label>
+      <label>Просмотренные главы и разделы / Chapters and sections reviewed
+        <textarea name="chapters_reviewed" maxlength="2000"></textarea>
+      </label>
+      <label>Формат ознакомления / Evaluation format
+        <select name="evaluation_format">
+          <option value="">Выберите / Select</option>
+          <option>Самостоятельное ознакомление / Independent review</option>
+          <option>Подготовка к уроку / Lesson preparation</option>
+          <option>Использование на уроке / Used in class</option>
+          <option>Проверка отдельных материалов / Selected materials review</option>
+          <option>Другое / Other</option>
+        </select>
+      </label>
+      <label>Язык просмотренных материалов / Language reviewed
+        <select name="review_language">
+          <option value="">Выберите / Select</option>
+          <option>Русский / Russian</option><option>English</option><option>Оба / Both</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Оценка по критериям / Rating criteria</legend>
+      <p class="hint small">1 — очень низкий; 2 — низкий; 3 — удовлетворительный; 4 — хороший; 5 — отличный; НМО — не могу оценить. / 1 — very poor; 2 — poor; 3 — satisfactory; 4 — good; 5 — excellent; CA — cannot assess.</p>
+      <div class="rating"><label for="geo-r1">Соответствие школьной программе / Curriculum alignment</label><select id="geo-r1" name="rating_curriculum"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="geo-r2">Соответствие возрасту и уровню / Age and level suitability</label><select id="geo-r2" name="rating_level"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="geo-r3">Понятность объяснений / Clarity of explanations</label><select id="geo-r3" name="rating_clarity"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="geo-r4">Научная и фактическая точность / Scientific and factual accuracy</label><select id="geo-r4" name="rating_accuracy"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="geo-r5">Качество русского и английского / Russian and English quality</label><select id="geo-r5" name="rating_language"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="geo-r6">Иллюстрации и визуальные материалы / Visual materials</label><select id="geo-r6" name="rating_visuals"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="geo-r7">Интерактивные инструменты / Interactive tools</label><select id="geo-r7" name="rating_interactive"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="geo-r8">Применимость на уроках / Classroom usefulness</label><select id="geo-r8" name="rating_classroom"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+      <div class="rating"><label for="geo-r9">Мобильное удобство и доступность / Mobile usability and accessibility</label><select id="geo-r9" name="rating_accessibility"><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option value="na">Не могу оценить / Cannot assess</option></select></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Географическая специфика / Geography-specific review</legend>
+      <label>Насколько достоверны данные, источники, единицы и методики? / Are data, sources, units and methods reliable?
+        <textarea name="data_reliability" maxlength="2500"></textarea>
+      </label>
+      <label>Есть ли ошибки в картах, границах, названиях, топонимах или расположении объектов? / Any errors in maps, boundaries, names, toponyms or locations?
+        <textarea name="maps_and_names" maxlength="2500"></textarea>
+      </label>
+      <label>Актуальны ли статистика, даты и периоды данных? / Are statistics, dates and data periods current?
+        <textarea name="statistics_dates" maxlength="2000"></textarea>
+      </label>
+      <label>Понятны ли легенды, масштаб, ориентация, подписи и проекции карт? / Are legends, scale, orientation, labels and map projections clear?
+        <textarea name="cartographic_quality" maxlength="2000"></textarea>
+      </label>
+      <label>Корректны ли интерактивные карты и слои? / Do interactive maps and layers work correctly?
+        <textarea name="interactive_maps" maxlength="2000"></textarea>
+      </label>
+      <label>Сбалансированы ли физическая, социально-экономическая и региональная география? / Is physical, human and regional geography balanced?
+        <textarea name="geography_balance" maxlength="2000"></textarea>
+      </label>
+      <label>Достаточно ли полно и точно раскрыт Кыргызстан? / Is Kyrgyzstan covered sufficiently and accurately?
+        <textarea name="kyrgyzstan_coverage" maxlength="2000"></textarea>
+      </label>
+      <label>Различаются ли наблюдения, статистика, оценки, прогнозы и сценарии? / Are observations, statistics, estimates, forecasts and scenarios distinguished?
+        <textarea name="evidence_types" maxlength="2000"></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Конкретное замечание / Specific issue</legend>
+      <label>Глава (01–26), подраздел, страница или URL / Chapter (01–26), subsection, page or URL
+        <input name="location_in_atlas" maxlength="500">
+      </label>
+      <label>Элемент или географический объект / Element or geographical feature
+        <input name="element_or_place" maxlength="500">
+      </label>
+      <label>Название карты, слоя или набора данных и дата / Map, layer or dataset name and date
+        <input name="dataset_and_date" maxlength="500">
+      </label>
+      <label>Что именно не так или что следует улучшить? / What is wrong or should be improved?
+        <textarea name="issue_description" maxlength="4000"></textarea>
+      </label>
+      <label>Почему это важно и какое изменение вы предлагаете? / Why does it matter and what change do you suggest?
+        <textarea name="reason_and_suggestion" maxlength="3000"></textarea>
+      </label>
+      <label>Какие разделы наиболее полезны и почему? / Which sections are most useful, and why?
+        <textarea name="useful_sections" maxlength="2000"></textarea>
+      </label>
+      <label>Какие объяснения непонятны, слишком сложны или чрезмерно упрощены? / Which explanations are unclear, too difficult or oversimplified?
+        <textarea name="explanations_to_improve" maxlength="2000"></textarea>
+      </label>
+      <label>Какие темы программы отсутствуют или раскрыты недостаточно? / Which curriculum topics are missing or underdeveloped?
+        <textarea name="missing_topics" maxlength="2000"></textarea>
+      </label>
+      <label>Как вы могли бы использовать атлас на уроке? / How could you use the atlas in class?
+        <textarea name="classroom_use" maxlength="2000"></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. Приоритет и подтверждение / Priority and evidence</legend>
+      <label>Приоритет / Priority
+        <select name="priority"><option value="">Выберите / Select</option>
+          <option value="critical">Критическая ошибка / Critical error</option>
+          <option value="major">Существенная проблема / Major issue</option>
+          <option value="recommendation">Рекомендация по улучшению / Improvement recommendation</option>
+          <option value="suggestion">Дополнительное предложение / Additional suggestion</option>
+        </select>
+      </label>
+      <label>Источник, программа, учебник или другое подтверждение (необязательно) / Source, curriculum, textbook or other evidence (optional)
+        <textarea name="evidence" maxlength="2500"></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>6. Контакт и публикация / Contact and publication</legend>
+      <label>Имя или псевдоним (необязательно) / Name or pseudonym (optional)
+        <input name="display_name" maxlength="100">
+      </label>
+      <label>Контакт для ответа (необязательно) / Contact for a reply (optional)
+        <input name="contact" maxlength="254">
+      </label>
+      <label class="consent"><input type="checkbox" name="consent_anonymous" value="yes"> Разрешаю публикацию обезличенного фрагмента / I consent to publication of an anonymised excerpt.</label>
+      <label class="consent"><input type="checkbox" name="consent_named" value="yes"> Разрешаю публикацию согласованного фрагмента с моим именем/псевдонимом / I consent to publication of an agreed excerpt with my name/pseudonym.</label>
+      <p class="hint small">Согласие необязательно и не влияет на рассмотрение. Контакты не публикуются. / Consent is optional and does not affect review. Contact details are never published.</p>
+    </fieldset>
+
+    <p class="notice" role="status" aria-live="polite">Форма находится в режиме подготовки. Ответы не отправляются и не сохраняются. Кнопка отправки отключена до отдельного разрешения владельца проекта и проверки защищённого канала. / Preparation mode only. Responses are not submitted or stored. Submission is disabled pending explicit project-owner approval and security testing.</p>
+    <button type="button" disabled aria-disabled="true">Приём отзывов выключен / Feedback intake disabled</button>
+  </form>
+</section>
