@@ -746,3 +746,5 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 - Высотные границы атмосферных слоёв и доли резервуаров воды зависят от используемой научной классификации и метода оценки.
 - Термин «географическая оболочка» следует отличать от более широкого понятия «система Земли».
 - Для иллюстраций необходимо отдельно проверить все географические подписи, численные значения, единицы измерения и масштаб.
+- Для глобальной концентрации CO₂ указывать измерительную сеть и показатель: среднегодовое значение NOAA по морским станциям (425,6 ppm в 2025 году, предварительно) и глобальная поверхностная оценка WMO (426,8 ppm в 2025 году) относятся к разным сериям и не должны смешиваться.
+- When reporting global CO₂ concentration, identify the observing network and metric: NOAA's marine-site annual mean (425.6 ppm in 2025, preliminary) and WMO's global surface estimate (426.8 ppm in 2025) are different series and should not be mixed.
