@@ -116,3 +116,12 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [ ] Independent chemistry-teacher review and manual device/accessibility checks remain pending.
 
 - [x] Added RU/EN Chromium assertions for ΔᵣG° = −RT ln K, the signs associated with K above/below 1, the standard-state qualification, the qualitative Le Chatelier wording, and the fact that a catalyst changes the rate of reaching equilibrium but not its position or K at fixed temperature.
+
+
+### Bilingual chemistry review checkpoint — 2026-11-02
+
+- [x] Fixed a real RU/EN defect in the chemical-formula calculator: parser validation errors were previously emitted in English regardless of the selected language. Added localized messages for invalid coefficients/subscripts, empty or missing brackets, unexpected characters, unknown element symbols, and atom-count overflow.
+- [x] Expanded Chromium regression coverage for coefficient formulae (`2H2O`), grouped formulae (`Al2(SO4)3`), nested groups (`K4(ON(SO3)2)2`), unknown symbols, missing brackets, empty input, and zero coefficients/subscripts in Russian; added English invalid-input and successful-parse checks.
+- [x] Expanded bilingual acid–base regression checks for the distinction between acid strength and concentration, conjugate acid–base pairs, Kₐ, the approximate nature and conditions of the Henderson–Hasselbalch equation, and finite buffer capacity.
+- [x] Chromium CI passed for the localized formula parser and initial regression additions (commit `f7f379d`); the expanded acid–base checks passed with commit `fe282de`.
+- [ ] Continue scientific review of remaining chapter content and calculation tools; continue editorial RU/EN parity review. This checkpoint does not represent external scientific certification or manual device testing.
