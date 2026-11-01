@@ -241,7 +241,26 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/solutions.html") {
+      const saturationImage = page.locator('img[data-svg-ru="../assets/solution-saturation-particles-ru.svg"]');
+      if (await saturationImage.getAttribute("src") !== "../assets/solution-saturation-particles-ru.svg" ||
+          !(await saturationImage.getAttribute("alt")).includes("Модели частиц")) {
+        errors.push(file + ": Russian saturation illustration or alternative text is missing");
+      }
+      await page.locator("#lang").click();
+      if (await saturationImage.getAttribute("src") !== "../assets/solution-saturation-particles.svg" ||
+          !(await saturationImage.getAttribute("alt")).includes("Particle models")) {
+        errors.push(file + ": English saturation illustration or alternative text did not switch");
+      }
+      await page.locator("#lang").click();
+      if (await saturationImage.getAttribute("src") !== "../assets/solution-saturation-particles-ru.svg") {
+        errors.push(file + ": Russian saturation illustration was not restored");
+      }
+    }
+
     if (file === "chapters/chemical-reactions.html") {
+      const reactionImage = page.locator('img[data-svg-ru="../assets/reaction-schematic-ru.svg"]');
+      if (await reactionImage.getAttribute("src") !== "../assets/reaction-schematic-ru.svg") errors.push(file + ": Russian reaction SVG is not selected");
       if (!(await page.locator('img[data-alt-i="reactionImageAlt"]').getAttribute("alt")).includes("Схема перестройки атомов")) {
         errors.push(file + ": Russian reaction image alternative text is missing");
       }
@@ -265,6 +284,7 @@ try {
         errors.push(file + ": constant-pressure heat/enthalpy condition or relation is missing in Russian");
       }
       await page.locator("#lang").click();
+      if (await reactionImage.getAttribute("src") !== "../assets/reaction-schematic.svg") errors.push(file + ": English reaction SVG is not selected");
       if (!(await page.locator('img[data-alt-i="reactionImageAlt"]').getAttribute("alt")).includes("Diagram of atom rearrangement")) {
         errors.push(file + ": English reaction image alternative text is missing");
       }
