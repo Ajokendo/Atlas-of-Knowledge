@@ -107,4 +107,4 @@ Priorities are editorial sequencing, not scientific approval. The audit counted 
 4. Review anatomy, proportions, ecological context and any text in the generated image; correct errors before publication.
 5. Integrate approved assets with responsive sizing, descriptive RU/EN alt text, captions and source/credit metadata where applicable.
 6. Every in-page note names the exact WebP target file and aspect ratio. Replace the matching note at its current location with a semantic `<figure>`; do not place the image elsewhere or duplicate it.
-7. Change `[ ]` to `[x]` only after scientific review and successful integration. The presence of a generated image alone does not mean the task is complete.
+7. Change `[~]` to `[x]` only after the exact asset exists, its creator/source and licence are recorded, scientific review and bilingual alt-text/caption review are complete, and the asset is integrated at the mapped anchor. The presence of a generated image alone does not mean the task is complete.
