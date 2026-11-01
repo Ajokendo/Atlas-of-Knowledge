@@ -373,6 +373,9 @@ if (!faunaKyrgyzstanFile.includes("mammaldiversity.org/taxon/1001733") || !fauna
 if (!faunaKyrgyzstanFile.includes("publicera.kb.se/slr/article/view/63883") || !faunaKyrgyzstanFile.includes("en.kabar.kg/news/snow-leopard-argali-and-mountain-goats-caught-on-video-at-issyk-kul/")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2026 snow leopard national assessment and dated Issyk-Kul field record sources are required");
 }
+if (!faunaKyrgyzstanFile.includes("10.3390/d18030194") || !faunaKyrgyzstanFile.includes("10.5061/dryad.76hdr7t7t") || !faunaKyrgyzstanFile.includes("расхождение следует считать нерешённым")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: argali genomic study must cite the correct article and dataset and preserve the unresolved provenance discrepancy");
+}
 if (!faunaKyrgyzstanFile.includes("конкретном эпизоде наблюдения") || !faunaKyrgyzstanFile.includes("specific observation event")) {
   errors.push("chapters/fauna-kyrgyzstan.html: Issyk-Kul field observation must not be presented as an abundance estimate");
 }
