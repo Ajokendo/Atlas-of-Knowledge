@@ -26,11 +26,11 @@ function objectLiteralAt(source, start) {
     const char = source[i];
     if (quote) {
       if (escaped) escaped = false;
-      else if (char === "\\\\") escaped = true;
+      else if (char === "\\") escaped = true;
       else if (char === quote) quote = null;
       continue;
     }
-    if (char === '"' || char === "'" || char === "`") { quote = char; continue; }
+    if (char === '"' || char === "'" || char === "\`") { quote = char; continue; }
     if (char === "{") depth++;
     if (char === "}" && --depth === 0) return source.slice(start, i + 1);
   }
@@ -44,7 +44,7 @@ for (const file of htmlFiles) {
   const localizedKeys = [...new Set([...source.matchAll(/data-i=["']([^"']+)["']/g)].map(match => match[1]))];
   if (localizedKeys.length) {
     let dictionary = null;
-    for (const match of source.matchAll(/\\b(?:const|let|var)\\s+[\\w$]+\\s*=\\s*\\{/g)) {
+    for (const match of source.matchAll(/\b(?:const|let|var)\s+[\w$]+\s*=\s*\{/g)) {
       const literal = objectLiteralAt(source, match.index + match[0].lastIndexOf("{"));
       if (!literal) continue;
       try {
