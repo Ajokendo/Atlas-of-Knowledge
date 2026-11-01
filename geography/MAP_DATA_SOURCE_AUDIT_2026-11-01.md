@@ -123,3 +123,33 @@ Therefore:
 **Not yet confirmed from public source material:** numerical transformation parameters, control-point dataset/service, transformation accuracy and epoch, vertical model, and full migration status of national map layers.
 
 **Cartographic decision:** retain the CRS/transformation blocker for precision maps until the required official metadata are obtained. Do not downgrade this blocker merely because the pilot project was announced.
+
+
+## Historical national geospatial baseline and vertical datum — UNESCAP cross-check
+
+A UNESCAP analytical report, *Current state of land statistics and its relevant challenges in leveraging statistical and geospatial data in Central Asia* (December 2020), provides a useful dated baseline for Kyrgyzstan's national geospatial reference framework. In its Kyrgyz Republic analysis (section 5.1.2, printed page 16), it records:
+
+- Kyrg-06 was introduced in 2010, based on ITRF-2005 and described as compatible with WGS-84;
+- the national geodetic network includes points of different accuracy classes, including GNSS-based networks;
+- the **1977 Baltic Altitude System** was reported as operating in Kyrgyzstan, implemented by high-precision levelling networks;
+- Soviet-era topographic maps existed in SK-42 / Gauss–Krüger, based on the Krasovsky ellipsoid, at scales from 1:10,000 to 1:1,000,000;
+- a transition to Kyrg-06 / five three-degree Transverse Mercator zones was underway, and the report noted that public information on map-update status and regulatory update dates was unavailable at the time.
+
+Report: UNESCAP, December 2020, *Current state of land statistics and its relevant challenges in leveraging statistical and geospatial data in Central Asia*, section 5.1.2, pp. 15–16 (PDF pages 15–16): https://www.unescap.org/sites/default/d8files/knowledge-products/Analytical%20Report_Current%20state%20of%20land%20statistics%20and%20its%20relevant%20challenges%20in%20leveraging%20statistical%20and%20geospatial%20data%20in%20Central%20Asia%20_ENG_0.pdf
+
+### Cross-check against the current national AIP
+
+The Kyrgyz AIP, GEN 2.1, effective 6 August 2026, states that published latitude/longitude coordinates are expressed in WGS 84. Its vertical-reference note says that the geoid model is not used and that the long-term mean Baltic Sea level is used as the vertical reference in the Kyrgyz Republic. The AIP presents this in its aeronautical reference context; it should not be generalized automatically to every DEM, engineering survey or historical height dataset.
+
+AIP GEN 2.1 (effective 6 August 2026), sections 3–4: https://ais.ansp.kg/eaip/2026-08-06-AIRAC/html/eAIP/UC-GEN-2.1-en-GB.html
+
+### Editorial interpretation
+
+1. The 2020 UNESCAP report is a **historical baseline**, not proof of the current status of every national network or map series. The 2025 national-agency announcement of the WGS 84 transformation pilot is newer evidence of implementation, but says map reprojection was partial.
+2. The report's “1977 Baltic Altitude System” and the 2026 AIP's “long-term mean Baltic Sea level” are consistent at a broad datum-family level, but the sources do not establish that every national vertical dataset uses an identical realization, benchmark network, epoch or conversion model. Verify the exact vertical datum and benchmark lineage for each dataset.
+3. Keep horizontal CRS and vertical reference as separate metadata fields. A dataset may use WGS 84 horizontal coordinates while retaining heights referenced to a national Baltic-based vertical datum; this does not make its heights ellipsoidal WGS 84 heights.
+4. Legacy SK-42 / Gauss–Krüger maps must not be assigned Kyrg-06 or WGS 84 merely by relabelling. Their original zone, sheet metadata, datum, map edition, control points and transformation method must be identified.
+5. For DEM comparison, glacier change, river gradients, engineering or hazard mapping, record whether heights are orthometric/normal/ellipsoidal as applicable, the vertical datum, geoid/quasigeoid model if used, and the source's vertical accuracy. Do not mix vertical references without a documented conversion.
+6. The five-zone Kyrg-06 framework established by Resolution No. 235 must be distinguished from the six-degree Gauss–Krüger legacy mapping system. Zone boundaries and the correct EPSG CRS must be selected from the source metadata, not guessed from the location alone.
+
+**Status update:** the broad national vertical-reference family and the existence of legacy SK-42 mapping are now supported by a dated UNESCAP report and cross-checked against the 2026 AIP. Dataset-level vertical realization, benchmark lineage, map-sheet migration and transformation accuracy remain open.
