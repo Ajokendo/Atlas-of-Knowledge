@@ -235,7 +235,7 @@
 
 Магнитуда характеризует размер землетрясения на основе инструментальных измерений. Моментная магнитуда (Mw) широко используется для оценки крупных землетрясений. Интенсивность описывает наблюдаемые эффекты и разрушения в конкретном месте; она может различаться в пределах одного события.
 
-Магнитуда не является линейной шкалой: увеличение на одну единицу соответствует примерно 32-кратному росту выделившейся сейсмической энергии.
+Магнитуда не является линейной шкалой: увеличение на одну единицу соответствует примерно десятикратному увеличению амплитуды сопоставимой записи и примерно 32-кратному росту выделившейся сейсмической энергии.
 
 ### 3.6.4. Сейсмический риск / Seismic Risk
 
@@ -464,7 +464,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 ### 3.12.1. Оползни и обвалы / Landslides and Rockfalls
 
-Оползень — перемещение массы грунта или горных пород вниз по склону под действием силы тяжести. Его провоцируют насыщение водой, подрезка склона, землетрясения, выветривание и изменение растительного покрова.
+Оползень — перемещение массы грунта, обломочного материала или горных пород вниз по склону под действием силы тяжести. Его провоцируют насыщение водой, подрезка склона, землетрясения, выветривание и изменение растительного покрова.
 
 Обвал — быстрое отделение и падение крупных блоков горной породы. Риск повышается на крутых склонах с трещиноватыми породами.
 
@@ -654,7 +654,7 @@ An earthquake is ground shaking caused by the rapid release of accumulated elast
 
 **Seismic waves** include P-waves, which are the fastest compressional waves and travel through solids and liquids; S-waves, which are shear waves and travel through solids but not through the liquid outer core; and surface waves, which travel along Earth's surface and often cause substantial damage.
 
-**Magnitude and intensity are different.** Magnitude characterises earthquake size using instrumental measurements. Moment magnitude (Mw) is widely used for large earthquakes. Intensity describes observed effects and damage at a particular location and can vary across the area affected by one event. Magnitude is not a linear scale: an increase of one unit corresponds to roughly 32 times more released seismic energy.
+**Magnitude and intensity are different.** Magnitude characterises earthquake size using instrumental measurements. Moment magnitude (Mw) is widely used for large earthquakes. Intensity describes observed effects and damage at a particular location and can vary across the area affected by one event. Magnitude is not a linear scale: an increase of one unit corresponds to about ten times the amplitude on a comparable seismogram and roughly 32 times more released seismic energy.
 
 Seismic risk depends not only on the probability of an earthquake but also on building vulnerability, population density, infrastructure quality and emergency preparedness. Seismic hazards cannot be eliminated, but their consequences can be reduced through building standards, engineering assessment and public preparedness.
 
@@ -774,7 +774,7 @@ Mining may disturb land, generate waste, pollute water and air, and transform la
 
 Geological hazards include earthquakes, volcanic eruptions, landslides, rockfalls, debris flows, subsidence and some types of tsunami.
 
-A **landslide** is the downslope movement of soil or rock under gravity. It may be triggered by water saturation, slope cutting, earthquakes, weathering and changes in vegetation cover. A **rockfall** is the rapid detachment and fall of large rock blocks; risk is elevated on steep slopes with fractured rock.
+A **landslide** is the downslope movement of soil, debris or rock under gravity. It may be triggered by water saturation, slope cutting, earthquakes, weathering and changes in vegetation cover. A **rockfall** is the rapid detachment and fall of large rock blocks; risk is elevated on steep slopes with fractured rock.
 
 A **debris flow** is a rapidly moving mixture of water, mud, rock fragments and other material travelling through channels and valleys. It may occur after intense rainfall, rapid snow and ice melt, or the failure of natural or artificial water bodies.
 
