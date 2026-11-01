@@ -42,7 +42,11 @@ The reviewer snapshot must include all 13 page files:
 
 The reviewer should receive the rendered site or a reproducible local copy as well as the source files, because wording, captions, language switching, navigation and interactive labels must be reviewed in context.
 
-## 1A. Page-by-page assignment matrix
+## 1A. Review tracking register
+
+Use [`INDEPENDENT_REVIEW_TRACKING_REGISTER.md`](INDEPENDENT_REVIEW_TRACKING_REGISTER.md) to record all 10 priority scientific claims (six P1 and four P2), the 13 page-level G4/G5 reviews, six cross-page consistency checks and individual reviewer findings. All entries start as Pending; update only from dated, evidence-backed reviewer decisions.
+
+## 1B. Page-by-page assignment matrix
 
 Use [`INDEPENDENT_REVIEW_PAGE_MATRIX.md`](INDEPENDENT_REVIEW_PAGE_MATRIX.md) as the operational assignment sheet for all 13 pages. It specifies page-level scientific scope, recommended specialist competence, Russian/English editorial focus, cross-page consistency checks and the 13 required signed page records. It also tracks the six P1 and four P2 entries in the priority claim register.
 
