@@ -177,7 +177,7 @@
 | Геохронология | Численный возраст минералов и геологических событий по изотопным и другим датирующим системам |
 | Термохронология | История нагревания и охлаждения пород по температурно-зависимому поведению изотопных систем и других геологических индикаторов |
 
-Геохронология и термохронология отвечают на связанные, но разные вопросы: первая помогает определить возраст минерала или события, а вторая — восстановить температурную историю породы, например время её охлаждения и последующего поднятия к поверхности. Возраст породы и возраст события, которое её изменило, могут различаться. Поэтому метод выбирают с учётом геологического вопроса, типа образца и истории породы.
+Геохронология и термохронология отвечают на связанные, но разные вопросы: первая помогает определить возраст минерала или события, а вторая — восстановить температурную историю породы. Термохронологические данные позволяют оценивать историю охлаждения и вместе с геологическими данными помогают ограничивать время и скорость эксгумации — постепенного выведения пород к поверхности. Возраст породы и возраст события, которое её изменило, могут различаться. Поэтому метод выбирают с учётом геологического вопроса, типа образца и истории породы.
 
 ### 3.4.3. Геофизические методы / Geophysical Methods
 
@@ -667,7 +667,7 @@ Geological research combines field observations, laboratory analysis and geophys
 | Geochronology | Numerical ages of minerals and geological events using isotopic and other dating systems |
 | Thermochronology | The heating and cooling history of rocks, inferred from the temperature-dependent behaviour of isotopic systems and other geological indicators |
 
-Geochronology and thermochronology address related but different questions: the first helps determine the age of a mineral or event, while the second reconstructs a rock's thermal history, such as when it cooled and was subsequently brought towards the surface. The age of a rock and the age of an event that altered it may differ. A method must therefore be selected according to the geological question, sample type and history of the rock.
+Geochronology and thermochronology address related but different questions: the first helps determine the age of a mineral or event, while the second reconstructs a rock's thermal history. Thermochronological data can constrain cooling history and, together with geological evidence, help estimate the timing and rate of exhumation—the gradual exposure of rocks as overlying material is removed. The age of a rock and the age of an event that altered it may differ. A method must therefore be selected according to the geological question, sample type and history of the rock.
 
 ### 3.4.3. Geophysical Methods
 
