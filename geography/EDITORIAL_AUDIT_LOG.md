@@ -636,3 +636,11 @@ This checkpoint preserves the working context for continuation after a session i
 - Every new marker is placed immediately before its corresponding visual brief and includes Russian and English identification plus the key content and data-integrity constraints. The chapter text and marker IDs were re-fetched after each update and verified. Actual map/image asset production and final page-layout placement remain pending; no generated images are claimed.
 - Chapter 24 update commit: `1e3c53b5bd2b87c273473ad0065a05f600aba6f0`; verified blob: `21da0912ee16ac0eb9f617be720e3cb050da2004`.
 - Chapter 25 update commit: `4fe63924357eb488bb29be5d6617f5782fd47d17`; verified blob: `250b3e9522935f4ed499f256fa67d01e11082aa5`.
+
+
+## Follow-up bilingual-reference audit — Chapter 25 (1 November 2026)
+
+- A closer check of Chapter 25's reference section found that four late-added sources were present in the English bibliography but not consistently mirrored and numbered in Russian. The missing Russian entries concerned the NSC road-transport release (25 October 2026), the Kabar report on electricity imports (19 October 2026), the Ministry of Transport update on tunnel excavation for the China–Kyrgyzstan–Uzbekistan railway, and the Ministry of Natural Resources' 2025 results (12 February 2026).
+- Added the corresponding Russian entries and harmonised the numbering of items 17–20 in both language lists: 17 — NSC road transport; 18 — Kabar electricity-import report; 19 — railway construction update; 20 — mining-sector administrative results. The January–September 2026 GDP source remains covered by the earlier bilingual entry at item 1, avoiding a duplicate late-list citation.
+- Re-fetched the chapter after the edits and verified that both Russian and English lists now contain the same four late-added source records in matching numbered order. This is a bibliography-parity correction; it does not independently validate the claims on those external pages.
+- Chapter update commit: `22235d457dda74929b9b65ce1da80d00d01a0eb8`; verified blob: `4ef5459961788e74b2f42dfa978235f8fc1b7c0c`.
