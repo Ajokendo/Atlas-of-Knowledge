@@ -46,6 +46,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 - Chapters 14–16 received missing in-text bilingual markers so each visual brief has a stable production reference.
 - Chapters 17–23 received additional bilingual markers for visual briefs that previously lacked an in-text ID.
+- A full marker-ID pass across all 26 chapters confirmed 217 unique assets and no accidental duplicate IDs in Chapters 01–25. Chapter 26 intentionally repeats IDs A, B, D, I and K at both teaching locations and in the production-brief list; seven production-brief-only IDs (26-C, E, F, G, H, J and L) were restored as in-text bilingual markers at their relevant chapter sections.
 - Chapters 07–13 received markers for previously unmarked figure briefs.
 - Chapter 26 had reused IDs across different visual subjects. IDs were normalised to 26-A–26-L and the missing C, E, F, G, H, J and L markers were added. Repeated references to the same asset (e.g. a teaching placeholder and its production brief) intentionally retain the same ID.
 
@@ -64,6 +65,6 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 - **Indexed:** 216 unique visual IDs.
 - **Briefed:** all 216 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
-- **Created and embedded (pending final scientific/editorial review):** 1 asset — 20-K, `assets/20-K-national-water-use-2025.svg`.
+- **Created and embedded (pending final scientific/editorial review):** 1 asset — 20-K, `assets/20-K-national-water-use-2025.svg` (official 2025 NSC figures; SVG labels and figures checked against the source; wastewater subcategory discrepancy explicitly flagged).
 - **Generated and fully approved:** none are claimed by this register.
 - **Next work:** check the older Chapters 01–06 and all regional/administrative map briefs against authoritative source datasets; then create and review the assets in production batches.
