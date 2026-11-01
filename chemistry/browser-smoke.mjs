@@ -100,11 +100,35 @@ try {
       return {
         tag: element?.tagName || "",
         visible: Boolean(element && element.getClientRects().length),
-        disabled: Boolean(element && element.matches(":disabled"))
+        disabled: Boolean(element && element.matches(":disabled")),
+        focusVisible: Boolean(element && element.matches(":focus-visible"))
       };
     });
     if (firstKeyboardFocus.tag === "BODY" || !firstKeyboardFocus.visible || firstKeyboardFocus.disabled) {
       errors.push(file + ": pressing Tab did not focus a visible, enabled control");
+    }
+    if (!firstKeyboardFocus.focusVisible) {
+      errors.push(file + ": first keyboard-focused control does not match :focus-visible");
+    }
+
+    const keyboardTargets = await page.evaluate(() => {
+      const selector = "a[href], button, input:not([type=hidden]), select, textarea, [contenteditable=true], [role=button], [role=link]";
+      return [...document.querySelectorAll(selector)]
+        .filter(element => !element.matches(":disabled") && element.getClientRects().length)
+        .map(element => ({
+          name: element.getAttribute("aria-label") || element.innerText?.trim() || element.id || element.tagName,
+          tabIndex: element.tabIndex
+        }));
+    });
+    const excludedFromTabOrder = keyboardTargets.filter(target => target.tabIndex < 0);
+    const positiveTabOrder = keyboardTargets.filter(target => target.tabIndex > 0);
+    if (excludedFromTabOrder.length) {
+      errors.push(file + ": visible enabled interactive controls are excluded from Tab order: " +
+        excludedFromTabOrder.map(target => target.name).join(", "));
+    }
+    if (positiveTabOrder.length) {
+      errors.push(file + ": positive tabindex values create a non-natural keyboard order: " +
+        positiveTabOrder.map(target => target.name).join(", "));
     }
     await page.evaluate(() => document.activeElement?.blur());
 
