@@ -1032,3 +1032,10 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Generated standalone snow-leopard-like wildlife concept (ImageGen ID `52ae788d-57df-49ea-ade4-598d8f1ad812`); local WebP candidate `biology-snow-leopard-standalone-candidate.webp` (1254×1254).
 - It is generated concept art, not a field record; no location, individual, behavior or population is inferred. Anatomical/zoological review remains required.
 - Local-only, uncommitted and unapproved. The repeated flower attempt was not counted as a new candidate. Markers remain unchanged; readiness remains 95/100.
+
+
+## Illustration quality-control audit — 1 November 2026
+
+- Three further generation attempts repeated the existing snow-leopard composition; they were explicitly excluded from the new-candidate count.
+- The next distinct P1 target is `fauna-birds.webp`. The chapter's named examples include `Aquila chrysaetos`, `Gypaetus barbatus`, `Tetraogallus himalayensis` and `Ciconia nigra`, alongside wetland birds. See the review log for habitat-separation requirements.
+- No new image asset, chapter insertion or marker-status change resulted from this audit. All 52 markers remain Deferred; readiness remains 95/100.
