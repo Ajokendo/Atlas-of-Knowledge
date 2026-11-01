@@ -594,6 +594,14 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - Follow-up regression hardening: `checks.mjs` now asserts that the P1 scientific-review dossier covers all 13 assets, preserves the accepted Aygul name/synonym, distinguishes current and historical snow-leopard nomenclature, and retains the conservation-safe Aygul insertion brief. The source was re-read after the change; the script has not been executed locally.
 
 
+## Seven-oblast species-evidence audit — 1 November 2026
+
+- Added `KYRGYZSTAN_SPECIES_AUDIT.md`, a conservative editorial audit of flora and fauna coverage across Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken, Talas and Chuy.
+- The audit distinguishes dated event observations, protected-area records, published local studies, national checklists, habitat context and population estimates. It flags the principal scope risks in each oblast without presenting the regional chapters as complete species inventories.
+- Added a claim-level evidence checklist covering accepted names and synonyms, locality precision, dates, evidence type, survey effort, identification confidence, abundance interpretation and conservation-assessment year.
+- Extended `checks.mjs` to require all seven oblast rows in the audit and both chapter headings, and to retain safeguards against national-to-local inference, unsupported population claims and conflation of national Red Data Book and IUCN categories.
+- This is a repository-content and editorial-structure audit, not independent re-identification of specimens or revalidation of every linked primary source. The check script has not been executed locally; no CI pass is claimed. Overall readiness remains **85/100** until the next broader validation package is complete.
+
 ## Kyrgyzstan biodiversity field methods and evidence standard — 1 November 2026
 
 - Added bilingual field-record protocols to both regional chapters. The flora protocol specifies date/time, observer, locality and coordinate precision, elevation and uncertainty, habitat/substrate, diagnostic photographs, provisional identification and lawful herbarium-voucher rules. The fauna protocol distinguishes evidence types, individual counts from repeated detections, and requires survey effort such as route length, observation hours or camera-days; it also sets safeguards for sensitive locations, nests and dens.
