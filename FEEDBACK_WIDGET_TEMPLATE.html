@@ -1,0 +1,104 @@
+<!--
+Atlas of Knowledge — Physics teacher feedback mock-up.
+PREPARATION ONLY. No submissions are accepted or stored.
+No endpoint, network request, external service, or response database is configured.
+Do not enable without portal completion, security review, end-to-end testing,
+and explicit project-owner approval.
+-->
+<section class="aok-feedback-physics" lang="ru" aria-labelledby="physics-feedback-title">
+  <style>
+    .aok-feedback-physics{max-width:850px;margin:2rem auto;padding:1.25rem;border:1px solid #d5d9df;border-radius:10px;background:#fff;color:#17202b;font:16px/1.55 system-ui,sans-serif}
+    .aok-feedback-physics h2{font-size:1.5rem;margin:0 0 .5rem}
+    .aok-feedback-physics h3{font-size:1.1rem;margin:1.4rem 0 .5rem}
+    .aok-feedback-physics p{margin:.5rem 0}
+    .aok-feedback-physics fieldset{border:1px solid #c9d0d8;border-radius:7px;padding:1rem;margin:1rem 0}
+    .aok-feedback-physics legend{font-weight:700;padding:0 .35rem}
+    .aok-feedback-physics label{display:block;font-weight:600;margin:.7rem 0}
+    .aok-feedback-physics input,.aok-feedback-physics select,.aok-feedback-physics textarea{display:block;box-sizing:border-box;width:100%;margin-top:.25rem;padding:.65rem;border:1px solid #8995a3;border-radius:5px;font:inherit;background:#fff;color:#17202b}
+    .aok-feedback-physics textarea{min-height:5rem;resize:vertical}
+    .aok-feedback-physics :focus-visible{outline:3px solid #245b91;outline-offset:2px}
+    .aok-feedback-physics .notice{padding:.85rem;border-left:4px solid #9b6b16;background:#fff7e6}
+    .aok-feedback-physics .muted{color:#465363;font-size:.93rem}
+    .aok-feedback-physics button{padding:.7rem 1rem;border:0;border-radius:5px;background:#68717c;color:#fff;font:inherit}
+    .aok-feedback-physics button:disabled{opacity:1;cursor:not-allowed}
+    @media(max-width:560px){.aok-feedback-physics{margin:1rem .5rem;padding:.85rem}}
+  </style>
+
+  <h2 id="physics-feedback-title">Педагогическая обратная связь — Атлас физики / Teacher feedback — Physics Atlas</h2>
+  <p class="notice" role="status"><strong>Форма пока не активна.</strong> Это демонстрационный макет. Ответы не отправляются и не сохраняются. Приём отзывов начнётся только после завершения портала, проверки безопасности и отдельного разрешения владельца проекта.</p>
+  <p class="muted">This is an inactive mock-up. Responses are not sent or stored. Feedback intake may begin only after portal completion, security review, and explicit project-owner approval.</p>
+
+  <!-- Intentionally no action attribute, submit handler, fetch, XHR, beacon, or endpoint. -->
+  <form aria-describedby="physics-feedback-disabled-note">
+    <fieldset>
+      <legend>1. Общая информация / Teaching context</legend>
+      <label>Предмет / Subject
+        <input value="Физика / Physics" readonly>
+      </label>
+      <label>Преподаваемые классы / Grade levels taught
+        <input type="text" disabled placeholder="Не заполняется в этом макете / Disabled in this mock-up">
+      </label>
+      <label>Просмотренные главы, подразделы или лаборатории / Chapters, sections, or labs reviewed
+        <textarea disabled placeholder="Например: глава 4, закон сохранения энергии / e.g. Chapter 4, conservation of energy"></textarea>
+      </label>
+      <label>Формат оценки / Evaluation context
+        <select disabled><option>Выберите / Select</option><option>Самостоятельное ознакомление / Independent review</option><option>Подготовка к уроку / Lesson preparation</option><option>Использование на уроке / Classroom use</option><option>Проверка отдельных материалов / Selected material review</option></select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Оценка / Evaluation (1–5 or Cannot assess)</legend>
+      <p class="muted">1 — очень слабо / very poor; 5 — отлично / excellent; НМО / Cannot assess.</p>
+      <div id="physics-rating-fields"></div>
+      <p class="muted">Критерии макета: соответствие программе; возраст и уровень; понятность; научная точность; русский и английский языки; визуальные материалы; интерактивы; применение на уроках; мобильная доступность.</p>
+      <p class="muted">Mock-up criteria: curriculum; age/level; clarity; scientific accuracy; Russian/English; visuals; interactivity; classroom use; mobile accessibility.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Специфика физики / Physics-specific review</legend>
+      <label>Формула, обозначения, размерности и единицы СИ / Equations, notation, dimensions, and SI units
+        <textarea disabled placeholder="Глава, формула, что следует проверить / Chapter, equation, what should be checked"></textarea>
+      </label>
+      <label>Физические законы и объяснения / Physical laws and explanations
+        <textarea disabled placeholder="Место и замечание / Location and comment"></textarea>
+      </label>
+      <label>Интерактивная лаборатория, модель или эксперимент / Interactive lab, model, or experiment
+        <textarea disabled placeholder="Лаборатория, параметры, ожидаемый и фактический результат / Lab, parameters, expected and actual result"></textarea>
+      </label>
+      <label>График, схема или расчёт / Graph, diagram, or calculation
+        <textarea disabled placeholder="Оси, единицы, значения, условия / Axes, units, values, conditions"></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Конкретное замечание / Specific issue</legend>
+      <label>Глава, подраздел, URL или элемент / Chapter, section, URL, or element
+        <input type="text" disabled>
+      </label>
+      <label>Описание проблемы или предложения / Description of issue or suggestion
+        <textarea disabled></textarea>
+      </label>
+      <label>Приоритет / Priority
+        <select disabled><option>Выберите / Select</option><option>Критическая ошибка / Critical error</option><option>Существенная проблема / Major issue</option><option>Рекомендация / Improvement recommendation</option><option>Дополнительное предложение / Additional idea</option></select>
+      </label>
+      <label>Источник или подтверждение (необязательно) / Source or evidence (optional)
+        <textarea disabled></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. Контакт и публикация / Contact and publication</legend>
+      <label>Имя или псевдоним (необязательно) / Name or pseudonym (optional)
+        <input type="text" disabled>
+      </label>
+      <label>Контакт для ответа (необязательно) / Reply contact (optional)
+        <input type="text" disabled>
+      </label>
+      <p class="muted">В будущем согласие на публикацию анонимного текста, имени и организации запрашивается раздельно и добровольно. Заполнение анкеты не означает согласия на публикацию.</p>
+      <p class="muted">In a future release, consent to publish an anonymous comment, a name, and an organisation will be requested separately and voluntarily. Completing the form does not imply publication consent.</p>
+    </fieldset>
+
+    <p id="physics-feedback-disabled-note" class="notice">Отправка отключена: endpoint не настроен, и этот макет не передаёт данные. / Submission is disabled: no endpoint is configured, and this mock-up does not transmit data.</p>
+    <button type="button" disabled aria-disabled="true">Отправка отключена / Submission disabled</button>
+  </form>
+</section>
