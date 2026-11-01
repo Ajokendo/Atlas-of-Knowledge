@@ -475,6 +475,13 @@ if (!regionalSpeciesAudit.includes("National fish totals: FAO 2013 versus FishBa
 if (!regionalSpeciesAudit.includes("Issyk-Kul fish survey reported by FAO (December 2024)") || !regionalSpeciesAudit.includes("72 specimens of three species")) {
   errors.push("Regional species audit must preserve the bounded 2024 Issyk-Kul fish sample and distinguish it from a full inventory");
 }
+
+if (!faunaKyrgyzstanFile.includes("ibnaskr.org/amnh-fish-research-kyrgyzstan-2026/") || !faunaKyrgyzstanFile.includes("ibnaskr.org/laboratoriya-ikhtiologii-i-gidrobiologii/")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: current fish research sources must be linked");
+}
+if (!regionalSpeciesAudit.includes("Institute of Biology NAS KR fish research with AMNH (14 October 2026)")) {
+  errors.push("Regional species audit must record the current Institute and AMNH fish research");
+}
 if (!regionalSpeciesAudit.includes("Kyrgyzstan amphibian country list (snapshot 30 September 2026)") || !regionalSpeciesAudit.includes("4 resident, 3 unconfirmed")) {
   errors.push("Regional species audit must retain the dated Kyrgyz amphibian snapshot and distinguish resident from unconfirmed taxa");
 }
