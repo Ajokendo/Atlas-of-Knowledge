@@ -1,9 +1,9 @@
-# Independent reviewer recruitment plan — Atlas of Biology
+# Optional external consultation plan — Atlas of Biology
 
 **Scope:** Biology atlas only  
 **Canonical branch:** `workspace/biology`  
 **Repository:** `Ajokendo/Atlas-of-Knowledge`  
-**Purpose:** recruit qualified independent reviewers for G4 scientific review and G5 Russian/English editorial review.
+**Purpose:** archived preparation for optional external consultation only. G4 and G5 are completed internal audits; no recruitment is currently required or authorized.
 
 ## 1. Current status and boundaries
 
@@ -237,3 +237,8 @@ The first eight items close recruitment **preparation**. The final three are rea
 ### 13.3 Final status and limitations
 
 **Recruitment-preparation progress: 100%.** The shortlist and outreach package are prepared. This is not 100% recruitment, not completed peer review, not G4/G5 sign-off and not publication readiness. No invitation has been sent; no candidate has accepted. Availability, conflicts and editing samples remain unverified. The controlled editorial-readiness score remains 95/100 until the relevant evidence gates are closed.
+
+
+## Agreed project decision — 2 November 2026
+
+This recruitment plan is inactive. The owner agreed that the project team performs the internal G4 scientific and G5 editorial/bilingual audits. Both are recorded complete at 4/4 planned blocks. Do not contact listed individuals or institutions unless the owner later explicitly asks to pursue optional consultation.
