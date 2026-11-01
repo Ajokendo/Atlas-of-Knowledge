@@ -737,6 +737,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 4. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
 5. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
 6. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
+7. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
