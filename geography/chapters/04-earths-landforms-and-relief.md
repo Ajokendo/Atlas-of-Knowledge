@@ -292,6 +292,19 @@
 
 Скорость склоновых процессов зависит от крутизны склона, состава и структуры пород, увлажнения, растительности, землетрясений и инженерного воздействия.
 
+### 4.11.1. Как оценивать устойчивость склона
+
+
+Крутизна склона сама по себе не позволяет надёжно предсказать оползень. Для оценки склоновой опасности рассматривают сочетание геометрии склона, свойств пород и грунтов, воды, растительности, нагрузки и возможных внешних воздействий.
+
+**Что изучают:** угол и высоту склона; слоистость и трещиноватость пород; наличие глинистых прослоев; влажность и уровень подземных вод; следы прежних смещений; подрезку склона дорогой или рекой; дополнительные нагрузки у бровки. Осадки и снеготаяние могут повышать давление воды в порах и снижать сопротивление сдвигу, но реакция зависит от геологии и дренажа.
+
+**Признаки для полевого наблюдения:** свежие уступы и трещины, наклон деревьев или столбов, деформация дорог, смещение ограждений, выпучивание грунта у подошвы, необычное просачивание воды. Отдельный признак не является диагнозом; при его обнаружении нужна оценка квалифицированных специалистов. Нельзя приближаться к активному оползню или входить в зону возможного повторного движения.
+
+**От опасности к риску.** Карта потенциально неустойчивых склонов показывает, где процесс может возникнуть, но риск зависит также от людей, зданий, дорог и других объектов в зоне воздействия, их уязвимости и возможностей эвакуации. Карта восприимчивости не заменяет инженерно-геологическое обследование и не является прогнозом даты события.
+
+**Учебная работа.** Сравните два условных склона одинаковой крутизны: на первом — плотная скальная порода и организованный водоотвод; на втором — трещиноватые водонасыщенные отложения и подрезанная подошва. Составьте перечень дополнительных данных, необходимых для сравнения их устойчивости. Не присваивайте численную вероятность без модели и исходных данных.
+
 **Место для иллюстрации 4.11-A — Slope Processes.** Сравнить оползень, обвал, осыпь, крип и сель; указать характер движения и факторы запуска.
 
 ## 4.12. Выветривание горных пород / Weathering
@@ -359,22 +372,7 @@
 
 **Место для иллюстрации 4.14-A — Reading a Topographic Map.** Фрагмент топографической карты с горизонталями, отметками высот, водоразделом, долиной и построенным профилем.
 
-## 4.15. Рельеф и жизнь человека / Relief and Human Activities
-
-Рельеф создаёт возможности и ограничения для расселения и хозяйства.
-
-| Сфера | Влияние рельефа |
-|---|---|
-| Расселение | Равнины часто удобны для крупных поселений; горные долины ограничивают площадь застройки |
-| Сельское хозяйство | Уклон влияет на механизацию, эрозию и орошение |
-| Транспорт | Перевалы, ущелья и крутые склоны усложняют строительство дорог |
-| Энергетика | Перепады высот создают потенциал гидроэнергетики |
-| Туризм | Горы, каньоны, пещеры и побережья формируют туристические ресурсы |
-| Безопасность | Оползни, сели, обвалы и землетрясения создают природные риски |
-
-Человеческая деятельность сама меняет рельеф: карьеры, насыпи, дамбы, террасирование склонов, дорожные выемки, городская застройка и водохранилища создают антропогенные формы.
-
-## 4.15.1. Практический пример: определение уклона по горизонталям / Worked Example: Calculating Slope from Contour Lines
+### 4.14.3. Практический пример: определение уклона по горизонталям
 
 Предположим, на топографической карте с масштабом 1:25 000 высота одной горизонтали отличается от следующей на 20 м. Между точками A и B пересекаются пять интервалов горизонталей, а измеренное расстояние между ними на карте составляет 2 см.
 
@@ -395,52 +393,20 @@
 
 **Проверьте себя:** как изменится процентный уклон, если при том же превышении 100 м горизонтальное расстояние составит 250 м?
 
-### Worked Example: Calculating Slope from Contour Lines
+## 4.15. Рельеф и жизнь человека / Relief and Human Activities
 
-Suppose a topographic map has a scale of 1:25,000 and a contour interval of 20 m. Five contour intervals lie between points A and B, and the measured map distance between them is 2 cm.
+Рельеф создаёт возможности и ограничения для расселения и хозяйства.
 
-**Step 1. Find the elevation difference.**  
-Five intervals of 20 m give a difference of 5 × 20 = **100 m**. Assume point B is higher than point A.
+| Сфера | Влияние рельефа |
+|---|---|
+| Расселение | Равнины часто удобны для крупных поселений; горные долины ограничивают площадь застройки |
+| Сельское хозяйство | Уклон влияет на механизацию, эрозию и орошение |
+| Транспорт | Перевалы, ущелья и крутые склоны усложняют строительство дорог |
+| Энергетика | Перепады высот создают потенциал гидроэнергетики |
+| Туризм | Горы, каньоны, пещеры и побережья формируют туристические ресурсы |
+| Безопасность | Оползни, сели, обвалы и землетрясения создают природные риски |
 
-**Step 2. Convert the map distance to horizontal ground distance.**  
-At a scale of 1:25,000, one centimetre on the map represents 250 m on the ground. Therefore, 2 cm represent 500 m.
-
-**Step 3. Calculate the slope.**  
-Percentage slope is the elevation difference divided by the horizontal distance, multiplied by 100%:
-
-100 m / 500 m × 100% = **20%**.
-
-This means the ground rises by an average of 20 m for every 100 m of horizontal distance. The slope angle is approximately 11.3°.
-
-**Important:** this is the average slope between the two points, not the slope at every location along the route. If contour spacing varies, local slope may also vary. Use horizontal distance, not the length of a winding line along the ground.
-
-**Check your understanding:** How would the percentage slope change if the horizontal distance were 250 m while the elevation difference remained 100 m?
-
----
-
-### 4.11.1. Как оценивать устойчивость склона / Assessing Slope Stability
-
-
-Крутизна склона сама по себе не позволяет надёжно предсказать оползень. Для оценки склоновой опасности рассматривают сочетание геометрии склона, свойств пород и грунтов, воды, растительности, нагрузки и возможных внешних воздействий.
-
-**Что изучают:** угол и высоту склона; слоистость и трещиноватость пород; наличие глинистых прослоев; влажность и уровень подземных вод; следы прежних смещений; подрезку склона дорогой или рекой; дополнительные нагрузки у бровки. Осадки и снеготаяние могут повышать давление воды в порах и снижать сопротивление сдвигу, но реакция зависит от геологии и дренажа.
-
-**Признаки для полевого наблюдения:** свежие уступы и трещины, наклон деревьев или столбов, деформация дорог, смещение ограждений, выпучивание грунта у подошвы, необычное просачивание воды. Отдельный признак не является диагнозом; при его обнаружении нужна оценка квалифицированных специалистов. Нельзя приближаться к активному оползню или входить в зону возможного повторного движения.
-
-**От опасности к риску.** Карта потенциально неустойчивых склонов показывает, где процесс может возникнуть, но риск зависит также от людей, зданий, дорог и других объектов в зоне воздействия, их уязвимости и возможностей эвакуации. Карта восприимчивости не заменяет инженерно-геологическое обследование и не является прогнозом даты события.
-
-**Учебная работа.** Сравните два условных склона одинаковой крутизны: на первом — плотная скальная порода и организованный водоотвод; на втором — трещиноватые водонасыщенные отложения и подрезанная подошва. Составьте перечень дополнительных данных, необходимых для сравнения их устойчивости. Не присваивайте численную вероятность без модели и исходных данных.
-
-Slope steepness alone cannot reliably predict a landslide. Slope-hazard assessment considers the combined effects of geometry, rock and soil properties, water, vegetation, loading and possible external triggers.
-
-**What is examined:** slope angle and height; bedding and rock fractures; clay-rich layers; soil moisture and groundwater level; evidence of previous movement; undercutting by a road or river; and additional loads near the slope crest. Rainfall and snowmelt can increase pore-water pressure and reduce resistance to sliding, but the response depends on geology and drainage.
-
-**Field indicators:** fresh scarps and cracks, tilted trees or poles, road deformation, displaced fences, bulging ground near the toe, and unusual seepage. No single indicator is a diagnosis; observations require assessment by qualified specialists. Do not approach an active landslide or enter an area that may move again.
-
-**From hazard to risk.** A map of potentially unstable slopes indicates where a process may occur, but risk also depends on people, buildings, roads and other exposed assets, their vulnerability and evacuation capacity. A susceptibility map does not replace an engineering-geological investigation and does not forecast the date of an event.
-
-**Learning activity.** Compare two hypothetical slopes with the same steepness: one has competent bedrock and managed drainage; the other has fractured water-saturated deposits and an undercut toe. List the additional data needed to compare their stability. Do not assign a numerical probability without a model and supporting data.
-
+Человеческая деятельность сама меняет рельеф: карьеры, насыпи, дамбы, террасирование склонов, дорожные выемки, городская застройка и водохранилища создают антропогенные формы.
 
 ## Итоги главы / Chapter Summary
 
@@ -605,6 +571,18 @@ Slope processes move loose material and rock downslope under gravity. They may b
 
 The rate of slope processes depends on slope angle, rock composition and structure, moisture, vegetation, earthquakes and engineering activity.
 
+### 4.11.1. Assessing Slope Stability
+
+Slope steepness alone cannot reliably predict a landslide. Slope-hazard assessment considers the combined effects of geometry, rock and soil properties, water, vegetation, loading and possible external triggers.
+
+**What is examined:** slope angle and height; bedding and rock fractures; clay-rich layers; soil moisture and groundwater level; evidence of previous movement; undercutting by a road or river; and additional loads near the slope crest. Rainfall and snowmelt can increase pore-water pressure and reduce resistance to sliding, but the response depends on geology and drainage.
+
+**Field indicators:** fresh scarps and cracks, tilted trees or poles, road deformation, displaced fences, bulging ground near the toe, and unusual seepage. No single indicator is a diagnosis; observations require assessment by qualified specialists. Do not approach an active landslide or enter an area that may move again.
+
+**From hazard to risk.** A map of potentially unstable slopes indicates where a process may occur, but risk also depends on people, buildings, roads and other exposed assets, their vulnerability and evacuation capacity. A susceptibility map does not replace an engineering-geological investigation and does not forecast the date of an event.
+
+**Learning activity.** Compare two hypothetical slopes with the same steepness: one has competent bedrock and managed drainage; the other has fractured water-saturated deposits and an undercut toe. List the additional data needed to compare their stability. Do not assign a numerical probability without a model and supporting data.
+
 ### 4.12. Weathering
 
 Weathering is the breakdown and alteration of rock at or near Earth's surface by physical, chemical and biological factors. Unlike erosion, weathering does not necessarily involve the transport of material.
@@ -642,6 +620,29 @@ Common representation methods include:
 Contours do not normally cross on a standard topographic map, except in special cases involving overhanging forms or cartographic conventions. The closer the contours, the steeper the slope.
 
 Digital elevation models (DEMs) can be used to calculate slope, aspect, catchments, watersheds, earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, coordinate system, data source and whether vegetation or buildings are included in the model.
+
+### 4.14.3. Worked Example: Calculating Slope from Contour Lines
+
+Suppose a topographic map has a scale of 1:25,000 and a contour interval of 20 m. Five contour intervals lie between points A and B, and the measured map distance between them is 2 cm.
+
+**Step 1. Find the elevation difference.**  
+Five intervals of 20 m give a difference of 5 × 20 = **100 m**. Assume point B is higher than point A.
+
+**Step 2. Convert the map distance to horizontal ground distance.**  
+At a scale of 1:25,000, one centimetre on the map represents 250 m on the ground. Therefore, 2 cm represent 500 m.
+
+**Step 3. Calculate the slope.**  
+Percentage slope is the elevation difference divided by the horizontal distance, multiplied by 100%:
+
+100 m / 500 m × 100% = **20%**.
+
+This means the ground rises by an average of 20 m for every 100 m of horizontal distance. The slope angle is approximately 11.3°.
+
+**Important:** this is the average slope between the two points, not the slope at every location along the route. If contour spacing varies, local slope may also vary. Use horizontal distance, not the length of a winding line along the ground.
+
+**Check your understanding:** How would the percentage slope change if the horizontal distance were 250 m while the elevation difference remained 100 m?
+
+---
 
 ### 4.15. Relief and Human Activities
 
