@@ -932,3 +932,10 @@ The current marker additions are production instructions/placeholders only; no g
 - Scanned the reference sections of all 26 chapter files for explicit unfinished citation markers such as “TODO”, “TBD”, “to be confirmed”, incomplete DOI/URL instructions and “verify before publication” notes.
 - No explicit unfinished bibliography placeholder was found after the Chapter 18 DOI/title corrections and Chapter 20/26 bibliography cleanups.
 - This is a text-pattern scan, not a claim that every cited source has been opened, remains accessible, or supports every adjacent factual statement. Source validation remains recorded chapter by chapter above.
+
+
+## Numbered-section integrity scan — all 26 chapters (1 November 2026)
+
+- Checked numbered section headings across all 26 chapter files. No duplicate numbered section identifiers were found.
+- The earlier Chapter 02 numbering collision was already corrected and re-verified. Chapter 17 retains a distinct nonstandard subsection label 17.14а; it does not collide with another identifier and remains flagged for final style normalisation.
+- The scan covered section-heading identifiers only; it did not evaluate whether every section is equally developed or whether all subsections have matching bilingual depth.
