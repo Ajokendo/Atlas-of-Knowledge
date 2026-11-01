@@ -18,9 +18,54 @@ const errors = [];
 let checkedLinks = 0;
 let checkedScripts = 0;
 
+let checkedBilingualPages = 0;
+
+function objectLiteralAt(source, start) {
+  let depth = 0, quote = null, escaped = false;
+  for (let i = start; i < source.length; i++) {
+    const char = source[i];
+    if (quote) {
+      if (escaped) escaped = false;
+      else if (char === "\\\\") escaped = true;
+      else if (char === quote) quote = null;
+      continue;
+    }
+    if (char === '"' || char === "'" || char === "`") { quote = char; continue; }
+    if (char === "{") depth++;
+    if (char === "}" && --depth === 0) return source.slice(start, i + 1);
+  }
+  return null;
+}
+
 for (const file of htmlFiles) {
   const source = fs.readFileSync(file, "utf8");
   const relativeFile = path.relative(root, file);
+
+  const localizedKeys = [...new Set([...source.matchAll(/data-i=["']([^"']+)["']/g)].map(match => match[1]))];
+  if (localizedKeys.length) {
+    let dictionary = null;
+    for (const match of source.matchAll(/\\b(?:const|let|var)\\s+[\\w$]+\\s*=\\s*\\{/g)) {
+      const literal = objectLiteralAt(source, match.index + match[0].lastIndexOf("{"));
+      if (!literal) continue;
+      try {
+        const candidate = vm.runInNewContext("(" + literal + ")");
+        if (candidate && candidate.ru && candidate.en &&
+            typeof candidate.ru === "object" && typeof candidate.en === "object") {
+          dictionary = candidate;
+          break;
+        }
+      } catch { /* Not a standalone translation dictionary. */ }
+    }
+    if (!dictionary) {
+      errors.push(relativeFile + ": data-i elements have no detectable RU/EN translation dictionary");
+    } else {
+      checkedBilingualPages++;
+      for (const key of localizedKeys) {
+        if (!(key in dictionary.ru)) errors.push(relativeFile + ": missing Russian translation key " + key);
+        if (!(key in dictionary.en)) errors.push(relativeFile + ": missing English translation key " + key);
+      }
+    }
+  }
 
   if (!/<html\b[^>]*lang=["'][^"']+["']/i.test(source)) errors.push(relativeFile + ": missing html lang attribute");
   if (!/<meta\s+name=["']viewport["']/i.test(source)) errors.push(relativeFile + ": missing viewport meta tag");
@@ -76,3 +121,4 @@ if (errors.length) {
   process.exit(1);
 }
 console.log("Chemistry atlas checks passed: " + htmlFiles.length + " HTML pages, " + checkedLinks + " local links/assets, " + checkedScripts + " inline scripts.");
+console.log("Bilingual dictionaries checked: " + checkedBilingualPages + " pages.");
