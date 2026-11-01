@@ -906,3 +906,6 @@ The current marker additions are production instructions/placeholders only; no g
 - Checked the rounded physical constants and definitions used in Chapters 02–06 (Earth's mean radius, geological age, atmospheric layers, dry-air composition, ocean coverage and global water distribution). The figures are presented as approximate where appropriate.
 - Updated the CO₂ composition reference in Chapters 02 and 05 to the preliminary NOAA 2025 annual mean and explicitly distinguished it from WMO's different global surface series (see the separate CO₂ source-check record).
 - This is a calculation and consistency check of identified worked examples, not a full line-by-line scientific fact audit of Chapters 01–13.
+
+
+- Link-validation follow-up for Chapters 14–16: opened and checked the OGC, ISO/TC 211, QGIS, Esri, USGS Landsat, ESA data-access, Copernicus Data Space, NASA remote-sensing, ICA Cartographic Body of Knowledge and UN Statistics Division resources. EPSG, NASA Earthdata, UN-GGIM and NGA returned access restrictions or fetch errors in the checker, so they are retained as known official endpoints but not marked as independently fetch-verified. The Sentinel-1 reference title was adjusted to describe the linked ESA mission overview accurately. Final Chapter 15 blob after this title correction: `4f3883569e8f5e8960b7cf6bc9612ba9b7dbdd13`.
