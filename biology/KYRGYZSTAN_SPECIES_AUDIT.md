@@ -33,6 +33,20 @@ The regional narratives and the chapter bibliography currently provide useful so
 5. **Taxonomic uncertainty remains visible.** Synonyms, changing species concepts and provisional identifications should be recorded in the shared data standard; uncertain fish, amphibian, reptile and invertebrate totals should not be promoted to definitive counts.
 6. **Sensitive localities require care.** Exact coordinates for threatened plants, nests, dens and vulnerable populations should be withheld or generalized in public-facing materials where disclosure could increase risk.
 
+## Primary-source spot-check — 1 November 2026
+
+The following high-priority examples were checked against the linked source pages during this audit. This is a bounded source check, not a complete review of every claim in either chapter.
+
+| Claim in chapter | Source check | Editorial treatment |
+|---|---|---|
+| Menzbier's marmot occurs in Besh-Aral Reserve | The Ministry's 10 March 2025 notice names the reserve and explicitly mentions Menzbier's marmot. | Supports reserve-level presence; does not justify extending the record to every valley in the Chatkal area. |
+| 400–600 Tien Shan maral in the Naryn River valley and tributaries | CAMCA's 24 March 2025 account describes the 7–12 October 2024 survey, 160 direct detections and extrapolation to 400–600. | Retain the survey dates, sampled landscape and extrapolated nature of the estimate. Do not call it a direct count or a Kyrgyzstan-wide total. |
+| Nearly 7,000 birds / 31 species at proposed Kushtar micro-reserve | CAMP Alatoo's 8 September 2026 report confirms the event count and identifies three Red Data Book species. | Keep it as a dated event observation at a proposed micro-reserve, not an annual population estimate or a formal state-reserve designation. |
+| Snow leopard, argali and ibex camera-trap detections at Besh-Tash in September 2025 | The Ministry's 2 October 2025 notice confirms those detections. | Presence during the monitoring period only; no abundance inference. The page metadata labels the region as Chuy, so administrative location must be checked from the named park and independent geographic context rather than copied from that metadata field. |
+| 4,146 marmots recorded in the Batken spring 2026 census | The Ministry's 30 June 2026 notice gives 759 animals in surveyed areas and 3,387 in Surmatash Reserve, with their respective areas. | Keep the source's unspecific `Marmota` identification and the survey footprint; do not assign a species or generalize to a permanent population estimate. |
+| Snow leopard, lynx, wolf, wild boar, ibex and snowcock camera-trap detections at Kök-Oyrok | The Ministry's 4 August 2026 notice names Kök-Oyrok and lists these detections. | A dated protected-sector detection record, not evidence of population growth. |
+| Aygul / `Petilium eduardii` at Aygul-Tash and visitor-related threats | The 2025 Batken State University paper describes the locality and threats including picking, breakage and trampling. | Supports the conservation warning; the paper's access/moratorium statements are time-bound and must not be reused as a current access notice without a fresh official check. |
+
 ## Required evidence fields for future species accounts
 
 Each account should record, where applicable:
