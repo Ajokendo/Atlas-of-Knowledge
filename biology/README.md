@@ -759,7 +759,7 @@ A read-only audit of the 13 HTML pages on `workspace/biology` confirmed:
 - The illustration inventory remains exactly 52 mapped placeholders, with 52 unique anchor IDs and 52 unique target filenames; all 52 page anchors match the central map in both directions.
 - These are source-level checks against the current GitHub file contents. They do **not** replace execution of `checks.mjs`, browser automation, the CI workflow, real-device testing or expert review.
 
-Latest documentation checkpoint at the time of this entry: `d7b23408d264f04d133bfa8aa98f2bb5719efddf`. Keep the readiness score at **95/100** until the remaining release gates have actual evidence.
+Latest documentation checkpoint at the time of this entry: `01d77b7ef93ccb89be2172a6cc478066e0f87bd3`. Keep the readiness score at **95/100** until the remaining release gates have actual evidence.
 
 ## Bilingual learning-clarity pass and follow-up source audit — 1 November 2026
 
@@ -777,3 +777,13 @@ Latest documentation checkpoint at the time of this entry: `d7b23408d264f04d133b
 - Queried the GitHub Actions run collection filtered to `workspace/biology`: no workflow runs were returned. The latest Biology branch commit also has no reported commit status entries. This is an absence of CI evidence, not a pass or a failure result.
 - The Biology workflow remains configured for pull requests, pushes to `main`, and manual dispatch. The available GitHub connection in this work session exposes read operations and file commits but no workflow-dispatch action; no PR or merge was created. G3 therefore remains unchecked.
 - Current documentation checkpoint: `d7b23408d264f04d133bfa8aa98f2bb5719efddf`.
+
+
+## Freshwater field-evidence update — 1 November 2026
+
+- Added the Osh State University notice of the 30 July–4 August 2026 joint Kempir-Abad basin expedition with Fergana State University. The chapter records the reported 14 fish identifications, five surveyed lower-river reaches, the separate upper-Jazy / Kara-Shoro observations concerning `Diptychus maculatus`, and pending molecular-genetic analysis of samples from two taxa. The notice does not publish the full species list, so the number is not treated as a complete reservoir or oblast checklist.
+- Added the 2025 *Vestnik KRSU* paper reporting 2024 fish research in the Suusamyr, Karakol and Uch-Emchek rivers. The chapter and species audit preserve the source's four named fish taxa and explicitly flag the abstract's "four recreational species plus one weed species" wording against the four-species total in the body/conclusion.
+- Documented the unresolved `Triplophysa stoliczkai` identification: the current Eschmeyer's Catalog of Fishes entry treats `Triplophysa elegans` as valid and includes Kyrgyzstan in its stated range, while the IUCN assessment for `T. stolickai` uses a different taxonomic concept and range. The Atlas retains the paper's author-reported identification pending voucher/specimen review rather than silently changing the name.
+- Updated `KYRGYZSTAN_SPECIES_AUDIT.md` and added regression assertions in `checks.mjs` for both new field-evidence records and their scope/taxonomy caveats.
+- The new assertions and page text have been re-read from GitHub, but the complete Node test suite, Playwright browser suite and CI workflow have not been executed. These additions improve traceability; they do not close G1–G6 or change the controlled readiness score from **95/100**.
+- Evidence sources: [Osh State University, 5 August 2026](https://oshsu.kg/public/en/news/4569); [*Vestnik KRSU*, 2025, DOI 10.36979/1694-500X-2025-25-12-159-166](https://vestnik.krsu.kg/en/archive/220/8664); [Eschmeyer's Catalog of Fishes](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=53209); [IUCN assessment](https://doi.org/10.2305/IUCN.UK.2022-1.RLTS.T168488A1186806.en).
