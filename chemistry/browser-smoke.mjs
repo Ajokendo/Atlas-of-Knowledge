@@ -225,6 +225,9 @@ try {
     }
 
     if (file === "chapters/chemical-reactions.html") {
+      if (!(await page.locator('img[data-alt-i="reactionImageAlt"]').getAttribute("alt")).includes("Схема перестройки атомов")) {
+        errors.push(file + ": Russian reaction image alternative text is missing");
+      }
       const quotientRu = await page.locator("[data-i=quotientNote]").innerText();
       for (const phrase of ["активностям", "стандартной концентрации", "парциальных давлений", "Чистые твёрдые вещества и жидкости"]) {
         if (!quotientRu.includes(phrase)) errors.push(file + ": Russian reaction-quotient explanation is missing " + phrase);
@@ -245,6 +248,9 @@ try {
         errors.push(file + ": constant-pressure heat/enthalpy condition or relation is missing in Russian");
       }
       await page.locator("#lang").click();
+      if (!(await page.locator('img[data-alt-i="reactionImageAlt"]').getAttribute("alt")).includes("Diagram of atom rearrangement")) {
+        errors.push(file + ": English reaction image alternative text is missing");
+      }
       const quotientEn = await page.locator("[data-i=quotientNote]").innerText();
       for (const phrase of ["current activities", "standard concentration", "partial pressure", "Pure solids and liquids"]) {
         if (!quotientEn.includes(phrase)) errors.push(file + ": English reaction-quotient explanation is missing " + phrase);
