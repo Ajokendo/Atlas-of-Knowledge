@@ -546,3 +546,11 @@
 - Reviewer package preparation is **100% complete**: handoff protocol, page-by-page assignment matrix, 10-claim tracking register, page/cross-page coverage tracker and bundle index are committed.
 - This is completion of preparation only. No reviewer has yet been recruited or signed off; G4/G5 remain open. The 52 illustrations remain deferred, and screen-reader, contrast and physical-device tests remain outstanding.
 - Controlled editorial readiness remains **95/100**. Do not increase it based on completion of reviewer paperwork.
+
+## Independent reviewer recruitment readiness — 25% milestone
+
+- Created `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` with seven reviewer functions: scientific coordinator, ichthyology/freshwater ecology, mammalogy/conservation genetics, ornithology, herpetology, botany/regional floristics, and separate Russian- and English-language editorial review (the two language roles are separate, so eight assignments are listed when counted individually).
+- Added independence and conflict-of-interest checks, candidate sourcing and invitation sequence, required G4/G5 deliverables, severity rules, private-tracker fields and draft invitation letters.
+- Linked the plan from `biology/README.md` and `biology/INDEPENDENT_REVIEW_BUNDLE.md`.
+- This is **25% of recruitment-readiness preparation**, not evidence that candidates have been identified, contacted or accepted. No independent review has taken place; G4/G5 remain open.
+- The 52 planned illustrations remain deferred. Screen-reader, contrast, keyboard and physical-device release checks remain outstanding. Controlled editorial readiness remains **95/100**; no publication-readiness increase is claimed.
