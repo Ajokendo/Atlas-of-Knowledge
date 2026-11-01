@@ -76,7 +76,7 @@ export function buildWorld(E) {
   const gM = asm('mom', root, { title: 'Одинаковый импульс', sub: 'лёгкое и быстрое, тяжёлое и медленное' });
   strip(X0 - 2.6, X0 + 2.6, -1.0, 1.0, gM);
   const ball0 = part(gM, new THREE.SphereGeometry(RB, 32, 20), { tone: 'hi', name: 'Шар · 0,5 кг' });
-  const cart0 = cart(gM, M.CART.m, 'Cart · 2.0 kg');
+  const cart0 = cart(gM, M.CART.m, 'Тележка · 2,0 кг');
   const pB0 = pArrow(gM), pC0 = pArrow(gM), vB0 = gArrow(gM), vC0 = gArrow(gM);
   label('vec', '<i>p</i>', () => tip(pB0)); label('vec', '<i>p</i>', () => tip(pC0));
   label('vec', '<i>v</i>', () => ex(gM) > 0.3 ? tip(vB0) : null); label('vec', '<i>v</i>', () => ex(gM) > 0.3 ? tip(vC0) : null);
@@ -106,19 +106,19 @@ export function buildWorld(E) {
   const fE = eggs.map(() => fArrow(gE, 0.15)), jE = eggs.map(() => gArrow(gE, 0.17, 'Импульс силы'));
   fE.forEach(a => label('vec red', '<i>F</i><sub>net</sub>', () => tip(a, 0.03)));
   jE.forEach(a => label('vec', '<i>J</i>', () => ex(gE) > 0.3 ? tip(a, 0.03) : null));
-  label('tick', 'Подушка', () => eggRoot.localToWorld(V(EGX[0] + 0.06, 0.02, 0.24))); label('tick', 'floor', () => eggRoot.localToWorld(V(EGX[1] + 0.06, 0.02, 0.24)));
+  label('tick', 'Подушка', () => eggRoot.localToWorld(V(EGX[0] + 0.06, 0.02, 0.24))); label('tick', 'Пол', () => eggRoot.localToWorld(V(EGX[1] + 0.06, 0.02, 0.24)));
 
   // ---------- 4–6 · carts on a track ----------
   function collision(key, c, X, meta) {
     const g = asm(key, root, meta);
     strip(X - 3.6, X + 2.2, -0.6, 0.6, g);
-    const c1 = cart(g, c.m1, `Cart 1 · ${c.m1.toFixed(1)} kg`), c2 = cart(g, c.m2, `Cart 2 · ${c.m2.toFixed(1)} kg`);
+    const c1 = cart(g, c.m1, `Тележка 1 · ${c.m1.toFixed(1)} кг`), c2 = cart(g, c.m2, `Тележка 2 · ${c.m2.toFixed(1)} кг`);
     const cm = cmMark(g), p1 = pArrow(g), p2 = pArrow(g), tot = totArrow(g);
     label('vec', '<i>p</i><sub>1</sub>', () => mid(p1, V(0, 0.17, 0))); label('vec', '<i>p</i><sub>2</sub>', () => mid(p2, V(0, 0.17, 0)));
     label('vec blue', '<i>P</i>', () => tip(tot));
     label('tick', `${c.m1.toFixed(1)} кг`, () => V(c1.position.x + 0.12, c1.userData.cy, 0.5)); label('tick', `${c.m2.toFixed(1)} кг`, () => V(c2.position.x + 0.15, c2.userData.cy, 0.5));
     // the breakdown: momenta before and after, laid tip to tail
-    const rows = ['before', 'after'].map((name, i) => ({ y: 2.15 - i * 0.6, a: pArrow(g), b: pArrow(g), t: totArrow(g) }));
+    const rows = ['до столкновения', 'после столкновения'].map((name, i) => ({ y: 2.15 - i * 0.6, a: pArrow(g), b: pArrow(g), t: totArrow(g) }));
     rows.forEach((r, i) => {
       label('tick', i ? 'after' : 'before', () => ex(g) > 0.3 ? V(X - 2.9, r.y + 0.02, 0) : null);
       label('vec', i ? '<i>p</i><sub>1</sub>′' : '<i>p</i><sub>1</sub>', () => ex(g) > 0.3 ? mid(r.a, V(0, -0.15, 0)) : null);
@@ -193,7 +193,7 @@ export function buildWorld(E) {
   strip(SH0 - 0.8, SH0 + 1.5 * S.R + 1.0, -0.7, 0.7, gS);
   const halfGeo = front => new THREE.SphereGeometry(SR, 28, 18, front ? Math.PI / 2 : -Math.PI / 2, Math.PI);
   const halfMat = shadeMat('paper').clone(); halfMat.side = THREE.DoubleSide;
-  const halves = [0, 1].map(i => part(gS, halfGeo(i), { tone: 'hi', name: i ? 'Front half · 0.5 kg' : 'Rear half · 0.5 kg', mat: halfMat }));
+  const halves = [0, 1].map(i => part(gS, halfGeo(i), { tone: 'hi', name: i ? 'Передняя половина · 0,5 кг' : 'Задняя половина · 0,5 кг', mat: halfMat }));
   const cmS = cmMark(gS, 0.11), pA = pArrow(gS, 1.3), pB = pArrow(gS, 1.3), totS = totArrow(gS, 1.3);
   label('vec', '<i>p</i><sub>1</sub>', () => tip(pA, 0.25)); label('vec', '<i>p</i><sub>2</sub>', () => tip(pB, 0.25)); label('vec blue', '<i>P</i>', () => tip(totS, 0.25));
   { const path = [], a = [], b = [];
@@ -226,7 +226,7 @@ export function buildWorld(E) {
     const wts = sl.map(() => gArrow(gR, 0.7, 'Weight dm·g'));
     return { kind, z, sl, xc, bands, slab, wts };
   });
-  label('tick', 'uniform', () => V(X0R - 0.12 - 0.35 * ex(gR), YR, rodZ.U)); label('tick', 'λ = λ₀x/L', () => V(X0R - 0.12 - 0.35 * ex(gR), YR, rodZ.N));
+  label('tick', 'однородный', () => V(X0R - 0.12 - 0.35 * ex(gR), YR, rodZ.U)); label('tick', 'λ = λ₀x/L', () => V(X0R - 0.12 - 0.35 * ex(gR), YR, rodZ.N));
   label('tick', 'x_cm = L/2', () => V(X0R + R.xU - 0.2, 0.08, rodZ.U + 0.2)); label('tick', 'x_cm = 2L/3', () => V(X0R + R.xN - 0.16, 0.3, rodZ.N));
   label('tick', 'x = 0', () => V(X0R + 0.12, YR - 0.2, rodZ.U + 0.1));
   label('vec', 'd<i>m</i>', () => ex(gR) < 0.3 ? rods[1].slab.position.clone().add(V(0, 0.22, 0)) : null);
@@ -236,7 +236,7 @@ export function buildWorld(E) {
   const gPl = asm('plates', root, { title: 'Пластины, полоска за полоской', sub: 'треугольник и полукруг' });
   strip(XP - 2.0, XP + 1.6, -1.1, 1.1, gPl);
   gPl.userData.focus = () => ({ target: [XP - 0.2, 0.5, 0], radius: 2.1 });
-  for (const [S, w, x0, name] of [[M.TRI, M.triW, XP - 1.65, 'Triangle · 1.8 kg'], [M.SEMI, M.semiW, XP + 0.35, 'Semicircle · 2.0 kg']]) {
+  for (const [S, w, x0, name] of [[M.TRI, M.triW, XP - 1.65, 'Треугольник · 1,8 кг'], [M.SEMI, M.semiW, XP + 0.35, 'Полукруг · 2,0 кг']]) {
     const st = M.plateStrips(S), H = S === M.TRI ? M.TRI.h : M.SEMI.R;
     const pieces = st.map((q, i) => { const pts = [], k = 8;
       for (let j = 0; j <= k; j++) { const u = q.a + (q.b - q.a) * j / k; pts.push([u, -w(u) / 2]); }
@@ -248,7 +248,7 @@ export function buildWorld(E) {
     plates.push({ S, w, x0, H, st, slab, wts: st.map(() => gArrow(gPl, 0.7, 'Weight dm·g')), pieces });
   }
   label('tick', 'h/3', () => V(plates[0].x0 + M.TRI.ucm - 0.08, 0.03, 0.3)); label('tick', '4R/3π', () => V(plates[1].x0 + M.SEMI.ucm - 0.08, 0.03, 0.3));
-  label('tick', 'base', () => V(plates[0].x0 - 0.06 - 0.3 * ex(gPl), YP, -0.62)); label('tick', 'diameter', () => V(plates[1].x0 - 0.06 - 0.3 * ex(gPl), YP, -0.82));
+  label('tick', 'основание', () => V(plates[0].x0 - 0.06 - 0.3 * ex(gPl), YP, -0.62)); label('tick', 'диаметр', () => V(plates[1].x0 - 0.06 - 0.3 * ex(gPl), YP, -0.82));
   label('vec', 'd<i>m</i>', () => ex(gPl) < 0.3 ? plates[1].slab.position.clone().add(V(0, 0.12, -0.15 - plates[1].slab.scale.z / 2)) : null);
 
   // 12 · by parts and by subtraction: a plate with a hole on a pin, an L hung by a string
@@ -267,14 +267,14 @@ export function buildWorld(E) {
   { const d = [], A = [Hh.cm[0] - 0.12, Hh.cm[1] - 0.12], B = [Hh.c[0] + 0.12, Hh.c[1] + 0.12], n = 14;
     for (let i = 0; i < n; i++) { const t0 = i / n, t1 = (i + 0.55) / n; d.push(...w2([A[0] + (B[0] - A[0]) * t0, A[1] + (B[1] - A[1]) * t0], YP + PT + 0.005).toArray(), ...w2([A[0] + (B[0] - A[0]) * t1, A[1] + (B[1] - A[1]) * t1], YP + PT + 0.005).toArray()); }
     lines(holeLine, d, '#6e6e74'); }
-  label('vec', '−<i>m</i><sub>plug</sub>', () => ex(gC) > 0.3 ? plug.position.clone().add(V(0.42, 0.08, 0)) : null);
+  label('vec', '−<i>m</i><sub>вставки</sub>', () => ex(gC) > 0.3 ? plug.position.clone().add(V(0.42, 0.08, 0)) : null);
   // the L: in the xy plane, hanging from a string tied at P
   const Q = V(XC + 0.75, 2.05, 0), CEIL = 2.4;
   part(root, box(0.9, 0.08, 0.5, 0.02), { tone: 'mid', pal: 'board', pos: [Q.x, CEIL + 0.04, 0], name: 'Потолок' });
   part(gC, new THREE.CylinderGeometry(0.008, 0.008, CEIL - Q.y, 8), { tone: 'hi', pal: 'ink', pos: [Q.x, (CEIL + Q.y) / 2, 0], name: 'Нить' });
   const ellG = new THREE.Group(); ellG.position.copy(Q); ellG.rotation.z = L2.phi; gC.add(ellG);
   const arms = ['A', 'B'].map(k => { const r = L2[k], g = new THREE.Group(); ellG.add(g);
-    part(g, new THREE.BoxGeometry(r.a1 - r.a0, r.b1 - r.b0, PT), { tone: 'hi', pos: [(r.a0 + r.a1) / 2 - L2.P[0], (r.b0 + r.b1) / 2 - L2.P[1], 0], name: `L-shaped plate · ${L2.M.toFixed(2)} kg` });
+    part(g, new THREE.BoxGeometry(r.a1 - r.a0, r.b1 - r.b0, PT), { tone: 'hi', pos: [(r.a0 + r.a1) / 2 - L2.P[0], (r.b0 + r.b1) / 2 - L2.P[1], 0], name: `L-образная пластина · ${L2.M.toFixed(2)} кг` });
     const mk = cmMark(g, 0.035); mk.position.set(L2['p' + k].c[0] - L2.P[0], L2['p' + k].c[1] - L2.P[1], PT / 2 + 0.01);
     return { g, mk }; });
   const hw = p => { const [x, y] = M.hang(p); return V(Q.x + x, Q.y + y, 0); };
