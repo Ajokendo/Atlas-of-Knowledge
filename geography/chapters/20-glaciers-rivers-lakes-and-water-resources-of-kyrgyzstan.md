@@ -985,24 +985,23 @@ Kyrgyzstan’s water system is shaped by high mountains, precipitation, seasonal
 
 ## Основные источники и литература / Selected References
 
-12. **UNECE.** *Transboundary cooperation in the Chu and Talas river basin.* https://unece.org/environment-policy/water/areas-work-convention/transboundary-cooperation-chu-and-talas-river-basin
-13. **CAWater-Info.** *Cooperation within the Chu-Talas Water Commission*, in *Central Asia and Caucasus Regional Water Information Base: Yearbook 2025.* https://cawater-info.net/yearbook/2025/04_yearbook2025_en.htm
-14. **World Bank.** *Kambarata-1 HPP: Frequently Asked Questions.* https://www.worldbank.org/en/programs/kambarata-1-hpp/faqs
-15. **World Bank.** *World Bank Provides Additional Technical Support for Clean, Hydropower Energy Generation in the Kyrgyz Republic*, 11 July 2024. https://www.worldbank.org/en/news/press-release/2024/07/11/world-bank-provides-additional-technical-support-for-clean-hydropower-energy-generation-in-the-kyrgyz-republic
-16. **World Bank.** *Water Energy Nexus in the Syr Darya Basin.* https://documents1.worldbank.org/curated/en/907281468251378105/pdf/338770v10ENGLISH0REEPS1Main1Report.pdf
-
-
 1. **CAWater-Info.** Central Asia and Caucasus Regional Water Information Base. *Key Water Developments in the Countries of Central Asia, 2025: Kyrgyz Republic.* https://www.cawater-info.net/yearbook/2025/05_yearbook2025_kg_en.htm
 2. **Water Resources Service of the Kyrgyz Republic.** *Water Resources and Water Management Infrastructure of Kyrgyzstan.* https://www.water.gov.kg/index.php?Itemid=1470&catid=127&id=365&lang=en&option=com_content&view=article
-3. **Water Resources Portal of the Kyrgyz Republic.** *Reservoirs.* https://portal.water.gov.kg/index.php/ru/9-kategoriya-ru-ru/18-vodokhranilishcha
-4. Peng, et al. (2025). *Spatiotemporal Reconstruction of Annual Glacier Mass Balance in Central Asia (2000–2020) Using Machine Learning.* Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2024JD043191
-5. **Natural Hazards and Earth System Sciences.** (2026). *Constantly renewing glacial lakes in the Kyrgyz Range, northern Tien Shan.* https://doi.org/10.5194/nhess-26-1001-2026
-6. **iScience.** (2026). *Glacier change threatens Central Asia’s water towers.* https://doi.org/10.1016/j.isci.2026.114727
-7. **World Bank.** *Water Resource Management in the Kyrgyz Republic.* Background paper. https://documents1.worldbank.org/curated/en/282221468776986498/pdf/multi-page.pdf
-8. **National Statistical Committee of the Kyrgyz Republic.** Environmental and water statistics. https://www.stat.gov.kg/
-9. **UNESCO.** International Hydrological Programme: mountain water resources, glacier monitoring and water security publications. https://www.unesco.org/en/ihp
-10. **World Meteorological Organization.** *Guide to Hydrological Practices.* WMO-No. 168. Geneva: WMO.
-11. **ICIMOD.** Hindu Kush Himalaya and High Mountain Asia cryosphere and water assessments; methodological references for glacier and snow monitoring. https://www.icimod.org/
+3. **National Water Resources Management Plan of the Kyrgyz Republic.** *Issyk-Kul–Tarim River Basin* (basin geography and lake morphometry). https://nwrmp.water.gov.kg/?lang=ru_RU&page_id=10601
+4. **Water Resources Portal of the Kyrgyz Republic.** *Reservoirs.* https://portal.water.gov.kg/index.php/ru/9-kategoriya-ru-ru/18-vodokhranilishcha
+5. Peng, et al. (2025). *Spatiotemporal Reconstruction of Annual Glacier Mass Balance in Central Asia (2000–2020) Using Machine Learning.* Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2024JD043191
+6. **Natural Hazards and Earth System Sciences.** (2026). *Constantly renewing glacial lakes in the Kyrgyz Range, northern Tien Shan.* https://doi.org/10.5194/nhess-26-1001-2026
+7. **iScience.** (2026). *Glacier change threatens Central Asia’s water towers.* https://doi.org/10.1016/j.isci.2026.114727
+8. **World Bank.** *Water Resource Management in the Kyrgyz Republic.* Background paper. https://documents1.worldbank.org/curated/en/282221468776986498/pdf/multi-page.pdf
+9. **National Statistical Committee of the Kyrgyz Republic.** Environmental and water statistics. https://www.stat.gov.kg/
+10. **UNESCO.** International Hydrological Programme: mountain water resources, glacier monitoring and water security publications. https://www.unesco.org/en/ihp
+11. **World Meteorological Organization.** *Guide to Hydrological Practices.* WMO-No. 168. Geneva: WMO.
+12. **ICIMOD.** Hindu Kush Himalaya and High Mountain Asia cryosphere and water assessments; methodological references for glacier and snow monitoring. https://www.icimod.org/
+13. **UNECE.** *Transboundary cooperation in the Chu and Talas river basin.* https://unece.org/environment-policy/water/areas-work-convention/transboundary-cooperation-chu-and-talas-river-basin
+14. **CAWater-Info.** *Cooperation within the Chu-Talas Water Commission*, in *Central Asia and Caucasus Regional Water Information Base: Yearbook 2025.* https://cawater-info.net/yearbook/2025/04_yearbook2025_en.htm
+15. **World Bank.** *Kambarata-1 HPP: Frequently Asked Questions.* https://www.worldbank.org/en/programs/kambarata-1-hpp/faqs
+16. **World Bank.** *World Bank Provides Additional Technical Support for Clean, Hydropower Energy Generation in the Kyrgyz Republic*, 11 July 2024. https://www.worldbank.org/en/news/press-release/2024/07/11/world-bank-provides-additional-technical-support-for-clean-hydropower-energy-generation-in-the-kyrgyz-republic
+17. **World Bank.** *Water Energy Nexus in the Syr Darya Basin.* https://documents1.worldbank.org/curated/en/907281468251378105/pdf/338770v10ENGLISH0REEPS1Main1Report.pdf
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена. Перед финальной публикацией необходимо согласовать гидрологические ряды, морфометрические характеристики озёр, параметры водохранилищ и ледниковые инвентари с датированными национальными и международными наборами данных.
