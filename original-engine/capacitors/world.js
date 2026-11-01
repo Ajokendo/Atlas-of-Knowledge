@@ -40,7 +40,7 @@ export function buildWorld(E) {
   const field = (g, r = 0.016) => onTop(arrow(g, 'blue', { r, head: 0.09, headR: 0.045, name: 'Поле', tone: 'hi' }));
   const comp = g => onTop(arrow(g, 'dark', { r: 0.012, head: 0.07, headR: 0.035, name: 'Составляющие поля', tone: 'mid' }));
   const tipOf = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + 0.14, 0)) : null;
-  const rod = (g, r = 0.02, name = 'Wires') => part(g, new THREE.CylinderGeometry(r, r, 1, 10), { tone: 'hi', pal: 'ink', name });
+  const rod = (g, r = 0.02, name = 'Провода') => part(g, new THREE.CylinderGeometry(r, r, 1, 10), { tone: 'hi', pal: 'ink', name });
   const stretch = (m, a, b) => { m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(1, Math.max(a.distanceTo(b), 1e-4), 1); m.quaternion.setFromUnitVectors(V(0, 1, 0), b.clone().sub(a).normalize()); m.userData.home.copy(m.position); };
   const wire = (g, pts, name) => { for (let i = 0; i + 1 < pts.length; i++) stretch(rod(g, 0.02, name), pts[i], pts[i + 1]); };
   const flip = geo => { const ix = geo.index.array; for (let i = 0; i < ix.length; i += 3) [ix[i + 1], ix[i + 2]] = [ix[i + 2], ix[i + 1]]; const n = geo.attributes.normal.array; for (let i = 0; i < n.length; i++) n[i] = -n[i]; return geo; };
@@ -49,7 +49,7 @@ export function buildWorld(E) {
   const mover = (parent, ex) => { const g = new THREE.Group(); g.userData = { home: V(), ex: V(...ex) }; parent.add(g); return g; };
   // translucent Gaussian surface: no ink edge (it would hide what is inside), outlined by rings
   const gaussMat = () => shadeMat('blue', { opacity: 0.13 });
-  const gauss = (g, geo, name = 'Gaussian surface') => { const m = part(g, geo, { tone: 'lo', name, mat: gaussMat() }); m.userData.noEdge = true; return m; };
+  const gauss = (g, geo, name = 'Гауссова поверхность') => { const m = part(g, geo, { tone: 'lo', name, mat: gaussMat() }); m.userData.noEdge = true; return m; };
 
   // charge marks: tiny flat + and − bars lying on a surface (u, v span it, n is its normal)
   function marks(parent, color, max) {
@@ -95,7 +95,7 @@ export function buildWorld(E) {
     return c;
   }
   // a small battery along x with its + end at −x, centred at c
-  function battery(g, c, len = 0.8, r = 0.13, name = 'Battery') {
+  function battery(g, c, len = 0.8, r = 0.13, name = 'Батарея') {
     part(g, xAxis(new THREE.CylinderGeometry(r, r, len, 28)), { tone: 'hi', pos: c.toArray(), name });
     part(g, xAxis(new THREE.CylinderGeometry(r * 0.4, r * 0.4, 0.06, 20)), { tone: 'hi', pal: 'dark', pos: [c.x - len / 2 - 0.03, c.y, c.z], name });
     part(g, xAxis(new THREE.CylinderGeometry(r * 1.01, r * 1.01, len * 0.12, 28)), { tone: 'mid', pal: 'dark', pos: [c.x + len / 2 - len * 0.06, c.y, c.z], name });
