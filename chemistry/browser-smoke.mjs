@@ -179,6 +179,22 @@ try {
       const originalDocumentLanguage = await page.locator("html").getAttribute("lang");
       await lang.click();
       const after = (await lang.innerText()).trim();
+      const englishAccessibility = await page.evaluate(async () => {
+        const result = await axe.run(document, {
+          runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }
+        });
+        return result.violations
+          .filter(violation => violation.impact === "critical" || violation.impact === "serious")
+          .map(violation => ({
+            id: violation.id,
+            impact: violation.impact,
+            help: violation.help,
+            targets: violation.nodes.slice(0, 5).map(node => node.target.join(" "))
+          }));
+      });
+      for (const violation of englishAccessibility) {
+        errors.push(file + " (English): axe " + violation.impact + " — " + violation.id + ": " + violation.help + "; " + violation.targets.join(" | "));
+      }
       const switchedDocumentLanguage = await page.locator("html").getAttribute("lang");
       if (before === after) errors.push(file + ": language toggle did not change");
       if (originalDocumentLanguage === "ru" && switchedDocumentLanguage !== "en") {
