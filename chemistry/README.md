@@ -28,3 +28,15 @@ This percentage refers only to the current internal automated/technical audit st
 - [ ] External gates remain pending: physical Android/iOS devices, NVDA/TalkBack/VoiceOver screen-reader testing, full keyboard/zoom review by a human tester, and independent chemistry subject-matter review/sign-off.
 
 Do not mark any external gate complete based on CI. The successful runs above are browser automation on GitHub-hosted Chromium, not testing on physical devices or assistive technologies.
+
+### Internal audit progress — 85% (2026-11-02)
+
+This is the internal audit milestone only. It is not a publication-readiness percentage and does not imply completion of independent or real-device testing.
+
+- [x] Full Chemistry CI run [41335696007](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41335696007) completed with `status=completed` and `conclusion=success` on branch `workspace/chemistry`, commit `fa90e1a3cf83a173049e635f1b7ee467b4ccfd35`.
+- [x] Repository validation, pinned browser-audit tool installation, local site server startup, and the Chromium suite for every Chemistry Atlas page all completed successfully.
+- [x] The keyboard-sequence assertion now uses the same focusable-element selector for its expected sequence and active-focus lookup, including explicit `[tabindex]` targets; the resulting full CI run passed.
+- [ ] Remaining internal work: inspect uncovered interaction states and edge cases, reconcile any remaining test gaps, and complete a final regression run.
+- [ ] External gates remain pending: physical Android/iOS device testing, manual keyboard/zoom review, NVDA/TalkBack/VoiceOver testing, independent scientific review, and any outstanding independent RU/EN editorial review.
+
+The successful CI run is automated testing on GitHub-hosted Chromium. It is not evidence of testing on physical devices, assistive technologies, or independent expert sign-off.
