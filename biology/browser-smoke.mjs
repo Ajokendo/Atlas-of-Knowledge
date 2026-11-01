@@ -373,6 +373,33 @@ try {
           JSON.stringify(dynamicOutputIssues));
       }
 
+      // Horizontally scrollable data tables must be named, focusable regions and respond to arrow keys.
+      const tableCount = await page.locator(".table-wrap").count();
+      for (let tableIndex = 0; tableIndex < tableCount; tableIndex++) {
+        const table = page.locator(".table-wrap").nth(tableIndex);
+        const details = await table.evaluate(el => ({
+          visible: el.getClientRects().length > 0,
+          scrollable: el.scrollWidth > el.clientWidth + 1 &&
+            ["auto", "scroll"].includes(getComputedStyle(el).overflowX),
+          tabIndex: el.tabIndex,
+          role: el.getAttribute("role"),
+          label: (el.getAttribute("aria-label") || "").trim()
+        }));
+        if (!details.visible || !details.scrollable) continue;
+        if (details.tabIndex < 0 || details.role !== "region" || !details.label) {
+          errors.push(file + ": horizontally scrollable table " + tableIndex +
+            " lacks a named keyboard-focusable region: " + JSON.stringify(details));
+          continue;
+        }
+        await table.evaluate(el => { el.scrollLeft = 0; });
+        await table.focus();
+        for (let keyStep = 0; keyStep < 3; keyStep++) await page.keyboard.press("ArrowRight");
+        const finalScroll = await table.evaluate(el => el.scrollLeft);
+        if (finalScroll <= 0) {
+          errors.push(file + ": ArrowRight did not scroll horizontally overflowed table " + tableIndex);
+        }
+      }
+
       // Toggle buttons must expose a valid, machine-readable pressed state when they use aria-pressed.
       const pressedStateIssues = await page.locator("button[aria-pressed]").evaluateAll(elements =>
         elements.filter(el => !["true", "false"].includes(el.getAttribute("aria-pressed")))
