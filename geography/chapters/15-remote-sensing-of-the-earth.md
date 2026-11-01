@@ -794,15 +794,15 @@ NDVI \approx 0.67
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. NASA. **Earthdata** — доступ к спутниковым данным, документации и учебным материалам.
-2. United States Geological Survey (USGS). **Landsat Missions and Landsat Collection Documentation** — характеристики и обработка данных Landsat.
-3. European Space Agency (ESA). **Sentinel Online and Copernicus Data Space Ecosystem** — документация миссий Sentinel и доступ к данным.
-4. Copernicus Programme. **Sentinel-1, Sentinel-2 and Sentinel-3 User Guides** — спецификации сенсоров и продуктов.
-5. NASA Earth Observatory. **Remote Sensing** — образовательные материалы по наблюдению Земли.
+1. NASA. **Earthdata** — access to Earth-observation data, documentation and learning resources. https://www.earthdata.nasa.gov/
+2. United States Geological Survey (USGS). **Landsat Missions and Landsat Collection Documentation** — Landsat sensor characteristics, data collections and processing. https://www.usgs.gov/landsat-missions
+3. European Space Agency (ESA). **How to Access Data** — official Earth-observation data access, including Sentinel products. https://www.esa.int/Applications/Observing_the_Earth/How_to_access_data
+4. Copernicus Programme. **Copernicus Data Space Ecosystem Documentation** — Sentinel product access and technical documentation. https://documentation.dataspace.copernicus.eu/
+5. NASA Earth Observatory. **Remote Sensing** — educational materials on observing Earth. https://earthobservatory.nasa.gov/features/RemoteSensing
 6. Jensen, J. R. **Remote Sensing of the Environment: An Earth Resource Perspective**. Pearson.
 7. Lillesand, T., Kiefer, R. W., Chipman, J. **Remote Sensing and Image Interpretation**. Wiley.
 8. Richards, J. A. **Remote Sensing Digital Image Analysis**. Springer.
-9. European Space Agency. **Radar and SAR Principles** — основы радиолокационного наблюдения.
+9. European Space Agency. **Sentinel-1 SAR User Guide** — principles and applications of synthetic-aperture radar. https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar
 10. International Society for Photogrammetry and Remote Sensing (ISPRS). **ISPRS Journal of Photogrammetry and Remote Sensing** — научные исследования методов фотограмметрии и ДЗЗ.
 
 ---
