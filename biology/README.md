@@ -655,3 +655,12 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - Extended `checks.mjs` with regression assertions for the dated country list, species/subspecies totals, introduced/absent status distinctions, count discrepancy and the regional GBIF checklist.
 - Re-read the fauna chapter, evidence audit and regression script from `workspace/biology`. All nine targeted source-level assertions passed. This is not execution of the full check script or CI; local checkout tests and CI remain unconfirmed.
 - **Atlas of Biology editorial readiness: 93/100.** This is a conservative content/evidence-readiness estimate, not production certification. Remaining work includes broader species-by-species validation, expert taxonomic review, resolving source metadata discrepancies, bilingual copy-editing, executing checks in a checkout, browser/accessibility testing, and producing/reviewing/integrating the 52 planned illustrations.
+
+
+## Freshwater fish evidence review — 1 November 2026
+
+- Added a FishBase cross-check to the bilingual fish section. The FAO 2013 figure of 73 species (49 native, 24 introduced) remains a dated historical synthesis; FishBase's 31 currently present species are explicitly labelled an incomplete list. The values are not directly comparable and are not evidence of a decline.
+- Kept the FAO 2024 Issyk-Kul sample distinct: 72 specimens of three species from three sites, not a complete lake inventory. The older estimate of up to 26 species and 12 endemic taxa is identified as largely based on Soviet-era information.
+- Added both sources and their scope limitations to the regional species audit, and added regression checks for count comparability and sample scope.
+- Re-read the fauna chapter, evidence audit and check script. Eight targeted source-level assertions passed. The full test script and CI have not been confirmed.
+- **Atlas of Biology editorial readiness: 94/100.** This is a conservative content/evidence estimate, not production certification. Remaining work includes expert taxonomic review, source reconciliation, bilingual copy-editing, full test execution, browser/accessibility testing, and the 52 planned illustrations.
