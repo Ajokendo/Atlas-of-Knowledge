@@ -1,8 +1,8 @@
 # Глава 4. Рельеф Земли
 # Chapter 4. Earth's Landforms and Relief
 
-> **Статус:** аудит главы в процессе (90%); завершена финальная проверка речных процессов, базиса эрозии, дельт и двуязычных научных примечаний. Иллюстрации пока представлены текстовыми заданиями, финальная вёрстка и технические проверки впереди.
-> **Status:** Chapter audit in progress (90%); river processes, base level, delta formation and bilingual scientific notes have been checked. Artwork, final layout and technical checks remain outstanding.
+> **Статус:** аудит главы в процессе (95%); завершена построчная научная и редакторская проверка основного текста, сводных материалов и двуязычных иллюстрационных заданий. Иллюстрации пока представлены текстовыми заданиями, финальная вёрстка и технические проверки впереди.
+> **Status:** Chapter audit in progress (95%); the main text, summaries and bilingual illustration briefs have undergone a line-by-line scientific and editorial review. Artwork, final layout and technical checks remain outstanding.
 > **Языки:** русский / English.
 
 ## Введение / Introduction
