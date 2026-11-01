@@ -210,3 +210,12 @@ The Kyrgyz Ministry of Natural Resources reported on 3 June 2026 that a Common C
 **Evidence classification:** dated government conservation-agency notice reporting a nest discovery and a later pair-with-chicks observation. The Ministry said a reserve researcher's scientific paper had been submitted to the Bulletin of the Eurasian Crane Working Group; the audit has not independently verified its publication. The safe interpretation is a first ministry-reported breeding record on Issyk-Kul and, according to the Ministry's historical summary, the second known national nesting record. Do not infer range expansion, successful fledging, a breeding population estimate or a sustained trend. Keep the sensitive nest location at the generalized Jety-Oguz reserve-sector level.
 
 Source: [Ministry of Natural Resources of the Kyrgyz Republic, 3 June 2026](https://mnr.gov.kg/ru/posts/news/pervoe-gnezdovanie-serogo-zuravlya-na-vostocnom-pobereze-ozera-issyk-kul).
+
+
+### Black-necked Crane report near Soek Pass — unverified candidate, May 2026
+
+A 31 May 2026 MTS.kg report relays a Facebook statement by birdwatchers that a Black-necked Crane (*Grus nigricollis*) was observed near Soek Pass in the Issyk-Kul region. The quoted observer described it as potentially one of the first documented Kyrgyzstan sightings. The news item does not supply a dated primary field note, full diagnostic documentation, a verifiable observation date, or a peer-reviewed / institutional confirmation.
+
+**Evidence classification:** secondary-media report of an observer's social-media statement; candidate record only. It is not added to the confirmed national checklist or the fauna chapter as a verified occurrence. Independent review would require the original observer's dated photographs or video, diagnostic assessment, a confidentially retained precise locality, and comparison with historical national records. The wording “first” must not be repeated as an established fact.
+
+Source: [MTS.kg, 31 May 2026](https://mts.kg/en/obschestvo/42011-v-kyrgyzstane-vpervye-zafiksirovali-redkuju-dlja-strany-pticu.html).
