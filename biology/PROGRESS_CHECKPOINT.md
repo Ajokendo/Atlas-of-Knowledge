@@ -742,3 +742,11 @@
 - Refactored the contrast sampler into a reusable Playwright helper and added a second sample immediately after switching each page to English. The previous sample covers the initial Russian state; this extension measures both visible language states at both viewport sizes.
 - New code commit: `83c66f279e68448b85180ff86492fff1788daebb`. CI verification pending.
 - Previously confirmed checks remain: 6,683 text instances in the initial state with zero below-threshold results; representative Enter/Space keyboard activation passed in CI #497.
+
+
+## 2026-11-01 — Russian and English contrast sampling passed
+
+- CI #500 (run ID `41343447899`, code commit `83c66f279e68448b85180ff86492fff1788daebb`) and CI #501 (run ID `41343472065`, checkpoint commit `2d6925e659cbfe04c9280b1cfcbe21159acc41b0`) both completed successfully.
+- The browser log now reports `13,372 text instances, 0 below-threshold instances`: 13 pages × two viewport sizes × two language states (Russian initial state and English after language toggle). It also confirms 26 language-toggle interactions and no uncaught page errors.
+- The contrast sampler remains preliminary: ordinary visible DOM text only; complex image/gradient-backed text, SVG text, all hover/pressed/disabled combinations, screen-reader behavior and physical devices are not certified.
+- Bilingual text contrast sampling stage: 100% for the defined initial RU/EN DOM-text snapshots. Overall editorial readiness remains 95/100.
