@@ -6,7 +6,7 @@
 
 ## Progress
 
-**G5 progress: 25% — 1 of 4 review blocks completed.**
+**G5 progress: 50% — 2 of 4 review blocks completed.**
 
 The audit is divided into four equal blocks:
 1. Main Biology index + Cell Biology + Genetics + Microbiology.
