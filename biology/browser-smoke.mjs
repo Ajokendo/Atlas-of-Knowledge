@@ -328,6 +328,35 @@ try {
           overflow.document + "px, body " + overflow.body + "px)");
       }
 
+      // Dynamic model outputs and quiz feedback must expose an announcement mechanism.
+      const dynamicOutputIssues = await page.locator(
+        '[id$="-output"], #result, #feedback, #org-info, #photo-status'
+      ).evaluateAll(elements => elements.filter(el => {
+        const live = (el.getAttribute("aria-live") || "").toLowerCase();
+        const role = (el.getAttribute("role") || "").toLowerCase();
+        return !["polite", "assertive"].includes(live) && !["status", "alert"].includes(role);
+      }).map(el => ({
+        id: el.id || "",
+        role: el.getAttribute("role") || "",
+        ariaLive: el.getAttribute("aria-live") || "",
+        tag: el.tagName.toLowerCase()
+      })));
+      if (dynamicOutputIssues.length) {
+        errors.push(file + ": dynamic output/feedback regions lack aria-live or status semantics: " +
+          JSON.stringify(dynamicOutputIssues));
+      }
+
+      // Toggle buttons must expose a valid, machine-readable pressed state when they use aria-pressed.
+      const pressedStateIssues = await page.locator("button[aria-pressed]").evaluateAll(elements =>
+        elements.filter(el => !["true", "false"].includes(el.getAttribute("aria-pressed")))
+          .map(el => ({ id: el.id || "", text: (el.innerText || "").trim().slice(0, 100),
+            ariaPressed: el.getAttribute("aria-pressed") }))
+      );
+      if (pressedStateIssues.length) {
+        errors.push(file + ": toggle button(s) expose invalid aria-pressed values: " +
+          JSON.stringify(pressedStateIssues));
+      }
+
       // Check practical accessible-name sources, including native <label> associations
       // and valid aria-labelledby references (rather than treating the attribute itself as a name).
       const nameIssues = await page.locator("button, a[href], input, select, textarea, [role='button']")
