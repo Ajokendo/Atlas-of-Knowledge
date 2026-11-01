@@ -744,6 +744,7 @@ The remaining five percentage points are reserved for evidence, not additional p
 - [x] **G3 — CI evidence:** the Biology workflow completed successfully on the `workspace/biology` push trigger. Run [#41275274366](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41275274366), commit `275fdb602b858e8fdda1b171b6468fa4afeb4122`, job `validate` — success. The run includes both the Node static suite and Chromium browser suite.
 - [ ] **G4 — Independent scientific review:** obtain qualified review of remaining taxonomic and species-occurrence uncertainties, prioritizing freshwater fish records and other locally sensitive distribution claims; record reviewer scope and resolved/deferred findings.
 - [ ] **G5 — Bilingual editorial and release review:** complete independent Russian/English copy-editing, check consistency of terminology and citations, and verify the published pages at mobile and desktop widths.
+- Review materials for G4/G5: [EXTERNAL_REVIEW_PACKET.md](EXTERNAL_REVIEW_PACKET.md) — prepared scope, priority claims, editorial checklist and reviewer sign-off record.
 - [ ] **G6 — Illustration disposition:** retain all 52 mapped placeholders until each intended image is produced or explicitly deferred with rationale, source/licence, scientific review and correct integration. The presence of a placeholder is not image completion.
 
 **Control rule:** keep the readiness score at 95/100 while G4–G6 remain unchecked. Passing G1–G3 does not certify scientific review, bilingual editorial release or illustration completion. Save each completed gate in a separate commit and update this plan only with verifiable evidence.
@@ -865,3 +866,12 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - **Browser suite:** `node biology/browser-smoke.mjs` passed with Chromium on all 13 pages at mobile (390px) and desktop (1365px) widths; 26 language-toggle interactions; no missing accessible names, horizontal overflow or uncaught page errors.
 - The first browser run exposed an empty nested catalogue link in the fauna chapter. The nested anchor was repaired, a regression assertion was added, and the subsequent complete run passed.
 - G1–G3 are now closed with a recorded successful workflow run. G4 independent scientific review, G5 independent bilingual/release review and G6 disposition of all 52 mapped illustrations remain open. Therefore the controlled readiness score remains **95/100**.
+
+
+## Independent reviewer handoff prepared — 1 November 2026
+
+- Created [`EXTERNAL_REVIEW_PACKET.md`](EXTERNAL_REVIEW_PACKET.md) with the G4 scientific review register, high-priority fish/taxonomy and locality questions, G5 bilingual editorial checklist, and formal sign-off records.
+- The packet deliberately separates the author's source audit from independent approval. It identifies the open Son-Kul, Suusamyr and Kempir-Abad fish questions, argali sample-provenance discrepancy, maral count conflict, Tibetan Snowcock locality gap, reptile count discrepancy and amphibian status checks.
+- Added regression assertions so the packet retains both review scopes and the requirement for qualified independent sign-off.
+- This prepares external review but does not complete it. G4 and G5 remain unchecked until qualified reviewers return their findings and sign-offs. G1–G3 remain supported by the successful CI run recorded above; the controlled readiness score remains **95/100**.
+- Source checkpoint before this note: `da1edffbdbd9ea33f40170b9f260fa0f3cebf7dc`.
