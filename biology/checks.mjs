@@ -877,6 +877,23 @@ if (!faunaKyrgyzstanFile.includes("10.36979/1694-500X-2025-25-12-159-166") ||
   errors.push("chapters/fauna-kyrgyzstan.html: Suusamyr fish study must retain its DOI, author-reported names, synonymy and unresolved count/taxonomy caveats");
 }
 
+if (!faunaKyrgyzstanFile.includes("central_asia_mammals&amp;v=1.12") ||
+    !faunaKyrgyzstanFile.includes("version 1.12, GBIF") ||
+    !faunaKyrgyzstanFile.includes("published 26 October 2026") ||
+    !faunaKyrgyzstanFile.includes("not based on field sampling") ||
+    !faunaKyrgyzstanFile.includes("lists 407 species") ||
+    !faunaKyrgyzstanFile.includes("reports 327") ||
+    !faunaKyrgyzstanFile.includes("reports 380") ||
+    !faunaKyrgyzstanFile.includes("133 species regularly represented in open observation data") ||
+    !faunaKyrgyzstanFile.includes("its list is incomplete")) {
+  errors.push("chapters/fauna-kyrgyzstan.html: mammal checklist v1.12 and non-comparable bird checklist totals must retain date, source scope and non-field / incomplete-list caveats");
+}
+if (!regionalSpeciesAudit.includes("Mammal checklist version 1.12 and bird-list scope comparison") ||
+    !regionalSpeciesAudit.includes("not based on field sampling") ||
+    !regionalSpeciesAudit.includes("not a national checklist")) {
+  errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: current mammal checklist version and bird-list scope comparison must be documented");
+}
+
 const externalReviewPacket = fs.readFileSync(path.join(root, "EXTERNAL_REVIEW_PACKET.md"), "utf8");
 for (const phrase of [
   "### G4 — Scientific review",
