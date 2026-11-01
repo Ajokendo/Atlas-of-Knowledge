@@ -371,3 +371,16 @@
 - Fixed duplicate declarations and the anatomy fixture-scope issue in `biology/checks.mjs`; aligned six assertions with the exact source wording and evidence scope already present in the chapters/audit.
 - GitHub Actions commit: `531218e9f4d3b059555f07f30c7185172e8b35d1`. Node.js regression validation passed for the 13 Biology HTML pages and configured static checks. Chromium install/browser smoke test outcome is pending at this checkpoint.
 - All 52 illustration anchors remain mapped and Deferred. G4/G5 remain open. Controlled editorial readiness: **95/100**; author-side repeat-audit coverage: **100%**.
+
+
+
+## Branch consolidation checkpoint — 1 November 2026
+
+- Re-enumerated repository branches and checked the four Biology-named historical refs against `workspace/biology`.
+- Confirmed that `workspace/biology` is the sole active Biology development branch.
+- Confirmed merged PR history for `biology-release-integration` (PR #3), `biology-learning-experience-pass` (PR #4) and `biology-deep-editorial-pass-1` (PR #5). Their source refs remain historical; `biology-atlas` is a broad mixed-discipline snapshot.
+- Recorded the branch-by-branch comparison and cleanup decision in `biology/BRANCH_AUDIT_2026-11-01.md`.
+- No branch refs were deleted or force-moved. The connected GitHub actions available in this session do not expose a branch-delete operation; using force-update as a substitute would destructively rewrite historical refs and is not acceptable.
+- Physical removal of the four historical branches therefore remains pending repository-owner/admin action after any required archive/retention decision.
+- Author-side repeat-audit coverage remains **100%**. Controlled editorial readiness remains **95/100**. G4 independent scientific review, G5 independent editorial review, illustration production (52 deferred placements), and browser/mobile/accessibility gates remain open.
+- Branch audit documentation commit: `9ef15100f12aafa834044e90d5e3ec19f19c2fa8`.
