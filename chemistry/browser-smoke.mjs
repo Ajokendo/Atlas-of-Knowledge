@@ -138,6 +138,9 @@ try {
       // starting point, so the first Tab could continue after the language
       // control instead of starting at the first tabbable element.
       await page.reload({ waitUntil: "domcontentloaded" });
+      // Reloading clears injected scripts, so restore axe before the bilingual
+      // accessibility scan later in this page's test.
+      await page.addScriptTag({ path: axePath });
       for (const target of keyboardTargets) {
         await page.keyboard.press("Tab");
         const focusedIndex = await page.evaluate(selector => {
