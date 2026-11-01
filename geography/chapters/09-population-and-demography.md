@@ -29,6 +29,9 @@ After studying this chapter, readers will be able to explain core demographic co
 Техническое задание: центральный блок «население» соединить с переписью, регистрацией актов гражданского состояния, обследованиями, административными данными и геопространственными источниками; показать, какие показатели даёт каждый источник; все подписи двуязычные.
 
 ## 9.2. Численность населения и её изменение / Population Size and Change
+> **[МЕТКА ИЛЛЮСТРАЦИИ 09-A / IMAGE PLACEHOLDER 09-A]** График численности населения мира; наблюдения и прогнозы показать раздельно. / World population trend chart, separating observations from projections.
+
+
 
 Численность населения территории изменяется под влиянием естественного движения и миграции. Базовое демографическое уравнение:
 
@@ -94,6 +97,9 @@ After studying this chapter, readers will be able to explain core demographic co
 Техническое задание: график с условными кривыми рождаемости, смертности и естественного прироста по стадиям; оси и легенда на двух языках; явно обозначить, что это концептуальная модель, а не данные конкретной страны.
 
 ## 9.7. Возрастная и половая структура населения / Age and Sex Structure
+> **[МЕТКА ИЛЛЮСТРАЦИИ 09-B / IMAGE PLACEHOLDER 09-B]** Возрастно-половая пирамида с пояснением оснований, возрастных групп и единиц. / Population pyramid explaining its base, age groups and units.
+
+
 
 Возрастная структура показывает распределение населения по возрастным группам, а половая — соотношение мужчин и женщин. Они влияют на рынок труда, спрос на образование и здравоохранение, пенсионную систему и будущую динамику численности.
 
@@ -142,6 +148,9 @@ Consider a hypothetical population with 18,000 people aged 0–14, 50,000 aged 1
 Thus, for every 100 people aged 15–64, there are 50 people in the younger and older age groups combined. This does not mean that all 100 people are employed or that they financially support 50 dependants: the calculation is based on age alone. Assessing the actual economic burden also requires information on employment, unemployment, income, and participation in paid work and care across age groups.
 
 ## 9.9. Миграция: понятия и виды / Migration: Concepts and Types
+> **[МЕТКА ИЛЛЮСТРАЦИИ 09-C / IMAGE PLACEHOLDER 09-C]** Карта миграционных потоков с различением внутренних и международных перемещений, потоков и запасов. / Migration-flow map distinguishing internal and international movement, flows and stocks.
+
+
 
 Миграция — перемещение людей, связанное со сменой места жительства или обычного проживания на определённый срок. Статистические определения международной и внутренней миграции могут различаться по длительности проживания и критерию пересечения административной или государственной границы.
 
