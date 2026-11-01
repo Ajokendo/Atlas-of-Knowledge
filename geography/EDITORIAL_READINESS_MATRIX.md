@@ -1,5 +1,5 @@
 # Atlas of Geography — Editorial Readiness Matrix
-**Snapshot:** 1 November 2026  
+**Snapshot:** 2 November 2026  
 **Canonical branch:** `workspace/geography`  
 **Purpose:** auditable status of the 26 chapters and the remaining work. This matrix deliberately does not invent one overall completion percentage.
 
@@ -10,20 +10,20 @@
 | Chapter inventory | 26/26 numbered chapters present | None for chapter count |
 | Structural audit | 26/26 reviewed for section structure and duplicate heading IDs | Final copyedit and depth review |
 | Russian/English structure | 26/26 contain substantial Russian and English teaching material; some chapters use parallel blocks, others section-by-section pairs | Full line-by-line translation parity and proofreading |
-| Visual planning | 216/216 unique IDs indexed | Create, label, source-check and approve each asset |
-| Visual brief language | 216/216 IDs have Russian and English production instructions | Final design and typesetting |
+| Visual planning | 217/217 unique IDs indexed | Create, label, source-check and approve each asset |
+| Visual brief language | 217/217 IDs have Russian and English production instructions | Final design and typesetting |
 | Bibliography presence | Reference section present in all 26 chapters; Chapter 09 gap closed | Open and verify every citation against each adjacent claim |
 | Bibliography placeholder scan | No explicit TODO/TBD/incomplete DOI/URL instruction found in reference sections | Link availability and source relevance still require review |
 | Numbering integrity | No duplicate numbered section identifiers across 26 chapters | Normalise Chapter 17's distinct label 17.14а during final style pass |
 | Repository structure | One active Geography branch: `workspace/geography` | Keep using this branch only |
 | Website | Bilingual RU/EN landing-page toggle and 26 chapter links | In-chapter language filter, rendered Markdown reader, accessibility and deployment tests |
-| Generated visuals | No generated/approved artwork claimed | Production batch and scientific review |
+| Generated visuals | 4 SVG assets created and embedded; all 4 pending final scientific/editorial sign-off | Scientific, source, bilingual and accessibility review; further production |
 
 ## Chapter-by-chapter matrix
 
 | Ch. | Chapter | Visual IDs | Structure / bilingual pass | Selected source or calculation checks | Priority remaining |
 |---:|---|---:|---|---|---|
-| 01 | Geography as a Science | 3 | Complete | Map-scale example; ICA Cartographic Body of Knowledge source | Full source and prose proofread |
+| 01 | Geography as a Science | 3 | Structural pass; English Key Terms table added 2 Nov | Map-scale example; ICA Cartographic Body of Knowledge source | Verify references and complete final bilingual prose proofread |
 | 02 | Earth's Geographic Envelope | 4 | Complete | Dry-air CO₂ updated to NOAA 2025 mean; NOAA/WMO series distinction; water distribution | Full source and prose proofread |
 | 03 | Lithosphere and Geological Processes | 4 | Complete | USGS, IRIS, ICS and BGS sources linked | Full fact check of geological values |
 | 04 | Earth's Landforms and Relief | 4 | Complete | Slope example recalculated; USGS/NASA/ETOPO/OpenTopography/BGS references | DEM and geomorphology data validation |
@@ -76,3 +76,11 @@
 - Chapter 18 now documents specific DEM and geological/glacier sources with explicit coverage, licensing, metadata and date limitations. It does not promote the CAIAG 30 m layer or the 14-site RESILAND DEM procurement to validated nationwide base data. Update commit: `308a879c3c040cdef76776ea4f8c870eae196b27`.
 
 - Chapters 19–20 updated using Kyrgyzhydromet's official climate series and recent glacial-lake research. Important distinction retained between the 22-station monthly trend dataset and the 13-station daily climate-index dataset; the 2025 national lake inventory is labelled research/conference evidence, not a government register. Audit commits: `1034c40f72ac648db116fc43a6749c13eced2e61`; chapter commits: `ab355d723d6224728250626832551a02bf49f994` and `53cfee209ff6bbf83f0241f7208d7cb06b0ecf24`.
+
+
+## Shared editorial standard adoption — 2 November 2026
+
+- Read the mandatory root `EDITORIAL_STANDARD.md` from `atlas-of-knowledge-integration` (blob SHA `38294a18c47e8127fdd25669d5d15b10b1887256`) and the current `PROJECT_REGISTRY.md` (blob SHA `03537236951f30b0a6f3b79d011bcfd04cd5b652`).
+- Recorded Geography's adoption and chapter-level review criteria in `geography/EDITORIAL_STANDARD_ADOPTION.md`. The shared root files were not copied or modified.
+- Initial Chapter 01 bilingual review found that the glossary table had Russian definitions only. Added an English-language Key Terms table as section 1.12 in the English chapter text. Commit: `8ce1a147f3dfc1b07689355cd84658046501ae61`.
+- Chapter 01 still requires source-by-source verification and final bilingual proofreading; this targeted repair does not imply that the chapter has passed the full audit.
