@@ -62,3 +62,22 @@ The current canonical workspace HEAD is `fe2cc66833ff8923128ad88893fa16586e35224
 There is one canonical Biology development branch: `workspace/biology`. The learning-experience branch is not a useful merge candidate because its educational elements are already present in a more developed form. The editorial-pass branch remains under selective review; no unique, missing change has yet been approved for transfer. The old atlas and release branches must remain untouched as historical sources. No branch was merged, rewritten or deleted.
 
 The 52 deferred illustration placements remain governed by `biology/IMAGE_DISPOSITION_REGISTER.md`; preserve the existing anchors and filenames. Before any later release handoff, complete the remaining editorial-pass commit review, verify the current QA scripts, and record actual test results. This audit is a branch-consolidation review, not a claim that the entire Biology Atlas has passed its final scientific/editorial audit.
+
+
+## Biology quality pass — Biochemistry language controls — 1 November 2026
+
+A source-level review of `chapters/biochemistry.html` found a real RU/EN usability defect: all 11 controls across the enzyme, enzyme-factor, ATP and cellular-respiration models displayed Russian-only labels even when the page language was English. Their explanatory output was localized, but the control labels were not.
+
+Corrected all 11 controls with paired `.ru` and `.en` labels (the pH abbreviation is intentionally identical in both languages). Added regression coverage:
+- `checks.mjs` now requires bilingual labels in all four Biochemistry control groups.
+- `browser-smoke.mjs` now checks that English labels are visible and Russian labels are hidden after switching the Biochemistry page to English.
+- `BILINGUAL_PARITY_AUDIT.md` now records the additional 11 RU/EN pairs: Biochemistry 55/55; total 1,147/1,147 paired blocks.
+
+Commits:
+- `57bda10a4529ec305d718e15c539b45aeda5dbc9` — localized the main Biochemistry controls.
+- `801dc4445144dda4b114a09a2887e31559b7b5ef` — paired the pH label explicitly.
+- `49a21532ea945f243ef429f822122ae4409030e7` — added static regression checks.
+- `9f3ca32a52d918155162eedc65d2c60fe8708134` — added browser smoke coverage.
+- `9cf723bd6ac2077d8dc3ea3a9db074587dac2767` — updated the parity audit.
+
+Static source inspection confirms 58 RU and 58 EN markers on the Biochemistry page, and every one of the 11 model controls now has both language labels. The checks and browser test have been updated but were not executed in this session; do not report them as passing until a GitHub Actions run or local execution confirms the result.
