@@ -62,7 +62,7 @@ export function buildWorld(E) {
   const X2 = STATIONS.second;
   smooth(X2 - 1.0, X2 + 3.2, -1.4, 1.4);
   const g2 = asm('second', root, { title: 'Одинаковая сила, разная масса', sub: 'ΣF = ma' });
-  const b2a = block(g2, S1, '2.0 kg block'), b2b = block(g2, S2, '4.0 kg block');
+  const b2a = block(g2, S1, 'брусок массой 2,0 кг'), b2b = block(g2, S2, 'брусок массой 4,0 кг');
   const push2a = force(g2), push2b = force(g2), net2a = force(g2, true), net2b = force(g2, true);
   label('vec', 'F', () => tip(push2a)); label('vec', 'F', () => tip(push2b));
   label('tick', '2.0 kg', () => V(b2a.position.x - S1 / 2, S1 + 0.16, b2a.position.z + S1 / 2));
@@ -82,7 +82,7 @@ export function buildWorld(E) {
   const X4 = STATIONS.third;
   smooth(X4 - 1.4, X4 + 2.4);
   const g4 = asm('third', root, { title: 'Два соприкасающихся блока', sub: 'A действует на B, B — на A' });
-  const b4a = block(g4, S1, 'Block A · 2.0 kg'), b4b = block(g4, S2, 'Block B · 4.0 kg');
+  const b4a = block(g4, S1, 'Брусок A · 2,0 кг'), b4b = block(g4, S2, 'Брусок B · 4,0 кг');
   const push4 = force(g4), onB = force(g4), onA = force(g4);
   label('vec', 'F', () => tip(push4)); label('vec', 'F<sub>A on B</sub>', () => tip(onB)); label('vec', 'F<sub>B on A</sub>', () => tip(onA));
   label('tick', 'A', () => V(b4a.position.x, S1 + 0.14, S1 / 2)); label('tick', 'B', () => V(b4b.position.x, S2 + 0.14, S2 / 2));
