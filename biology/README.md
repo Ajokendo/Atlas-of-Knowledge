@@ -924,3 +924,11 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - The Punnett square is a semantic HTML table with caption and row/column headers; responsive styling was added for narrow screens.
 - Chapter commits: `58fb4df00485a74db502973bb29b5a4481710fc2` and `ac6f6a937e5dfc8f76b3f96453167d1869e6e5e4`. Regression assertions: `0947593055409086a77245a376b5f2302767c665`.
 - Controlled readiness remains **95/100**; G4 and G5 remain open. The additional chapter material does not replace independent review.
+
+## Cell communication lesson — 1 November 2026
+
+- Added a bilingual cell-signalling lesson to `chapters/cell-biology.html`, covering contact-dependent, paracrine, endocrine and synaptic signalling; receptor activation; intracellular relay proteins and second messengers; amplification, feedback and pathway cross-talk.
+- Added an accessible explanatory SVG with a title and description. The diagram is explicitly identified as a general pathway model, not a specific molecular mechanism.
+- Focused regression assertions were added to `checks.mjs` for content, bilingual structure, placement and SVG accessibility.
+- Chapter commit: `d7c3c181dc3c5f486d3cabf78ce2fb0da9c496b9`. Regression-check commit: `bd0009d56bace3c1b20f11012ed5d6e61151d6e6`.
+- Full Node.js, Chromium and CI checks have not yet been run for this latest addition. Controlled editorial readiness remains **95/100** pending G4/G5 independent reviews.
