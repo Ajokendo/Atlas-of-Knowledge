@@ -33,6 +33,7 @@ This chapter introduces the physical principles of remote sensing, the electroma
 ## 15.2. Электромагнитное излучение и спектральные диапазоны / Electromagnetic Radiation and Spectral Regions
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 15-A / IMAGE PLACEHOLDER 15-A]** Спектральная шкала видимого, ближнего ИК, коротковолнового ИК, теплового ИК и микроволнового диапазонов.
+> **EN:** Spectral-range scale showing visible, near-infrared, shortwave-infrared, thermal-infrared and microwave regions.
 
 Электромагнитное излучение характеризуется длиной волны и частотой. В дистанционном зондировании применяют видимый свет, ближний и коротковолновый инфракрасный диапазоны, тепловое инфракрасное излучение и микроволны.
 
@@ -84,6 +85,7 @@ This chapter introduces the physical principles of remote sensing, the electroma
 ## 15.5. Типы спутниковых данных и сенсоров / Satellite Data and Sensor Types
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 15-B / IMAGE PLACEHOLDER 15-B]** Схема спутниковых платформ и пассивных/активных сенсоров с примерами оптических, тепловых и радиолокационных данных.
+> **EN:** Diagram of satellite platforms and passive/active sensors, with examples of optical, thermal and radar data.
 
 Спутниковые сенсоры различаются по спектральным каналам, пространственному разрешению, полосе захвата, частоте повторного наблюдения и радиометрической чувствительности.
 
@@ -169,6 +171,7 @@ This chapter introduces the physical principles of remote sensing, the electroma
 ## 15.9. Спектральные индексы / Spectral Indices
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 15-C / IMAGE PLACEHOLDER 15-C]** Схема спектральных индексов NDVI, NDWI, NDMI, NDBI и NBR с формулами и обозначением используемых полос.
+> **EN:** Diagram of NDVI, NDWI, NDMI, NDBI and NBR spectral indices, including formulas and the bands used.
 
 Спектральные индексы — математические комбинации каналов, предназначенные для усиления определённых различий в данных. Они помогают предварительно оценивать состояние растительности, водных объектов, застроенных территорий и другие характеристики.
 
@@ -221,6 +224,7 @@ NBR = \frac{NIR - SWIR}{NIR + SWIR}
 ## 15.10. Классификация спутниковых изображений / Satellite Image Classification
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 15-D / IMAGE PLACEHOLDER 15-D]** Схема контролируемой и неконтролируемой классификации, обучающих и независимых проверочных выборок, матрицы ошибок.
+> **EN:** Diagram of supervised and unsupervised classification, training and independent validation samples, and a confusion matrix.
 
 Классификация присваивает пикселям или объектам категории земного покрова или другие тематические классы.
 
