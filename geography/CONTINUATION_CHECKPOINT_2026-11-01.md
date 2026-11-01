@@ -55,3 +55,13 @@
 - Final README title placement verified after the correction above; the visual-production update now follows `# Atlas of Geography`.
 
 - Final README verification: title is first line, exactly one visual-production note follows it; duplicate pre-title note removed. README commit: `32afc59a423e9d1f664f761a742f87c51bbe4220`.
+
+## Teacher feedback preparation — 2 November 2026
+
+- Adapted the Biology pilot's common Atlas of Knowledge feedback standard for Geography; kept the shared 1–5 / cannot-assess scale, nine common criteria, moderation categories/statuses, privacy and evidence requirements.
+- Added Geography-specific review prompts for geographical data, boundaries/toponyms, statistical dates and periods, map design/projections, interactive map layers, balance of physical/human/regional geography, and the coverage of Kyrgyzstan.
+- Added a bilingual teacher questionnaire with exact chapter/subsection/page/URL and map/dataset/date anchors; guided questions on teaching use, missing curriculum topics and unclear explanations; four issue priorities; optional evidence; optional contact; and two independent voluntary publication-consent choices.
+- Added a future moderation workflow separating scientific/factual verification from pedagogical recommendations, with source checks and traceable decisions/commits.
+- Added a disabled HTML template. It has no endpoint, no fetch/network request, no storage, no analytics and no external service. Its only button is disabled and explicitly says intake is off.
+- No portal-wide files, other subject folders, shared publishing settings, or branch merges were changed. No real feedback was received or stored.
+- Files: `geography/FEEDBACK_SYSTEM_STANDARD.md`, `geography/FEEDBACK_QUESTIONNAIRE_RU_EN.md`, `geography/FEEDBACK_REVIEW_WORKFLOW.md`, `geography/FEEDBACK_WIDGET_TEMPLATE.html`, and this checkpoint/README documentation.
