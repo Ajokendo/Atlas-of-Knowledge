@@ -1035,6 +1035,7 @@ try {
         await page.locator("#lang").click();
 
         const solutions = [[2, 1, 2], [1, 3, 2], [4, 3, 2], [2, 6, 2, 3], [2, 1, 1, 2], [1, 5, 3, 4]];
+        const expectedEquations = ["H₂ + O₂ → H₂O", "N₂ + H₂ → NH₃", "Fe + O₂ → Fe₂O₃", "Al + HCl → AlCl₃ + H₂", "NaOH + H₂SO₄ → Na₂SO₄ + H₂O", "C₃H₈ + O₂ → CO₂ + H₂O"];
         for (let i = 0; i < solutions.length; i++) {
           if (i > 0) await page.locator("#next").click();
           const currentFields = page.locator('#equation input[type="number"]');
@@ -1042,6 +1043,8 @@ try {
             errors.push(file + ": unexpected coefficient count in task " + (i + 1));
             break;
           }
+          const renderedEquation = await page.locator("#equation").evaluate(el => el.textContent.replace(/\\s+/g, " ").trim());
+          if (renderedEquation !== expectedEquations[i]) errors.push(file + ": task " + (i + 1) + " rendered incorrect reactant/product sides: " + renderedEquation);
           for (let j = 0; j < solutions[i].length; j++) {
             await currentFields.nth(j).fill(String(solutions[i][j]));
           }
