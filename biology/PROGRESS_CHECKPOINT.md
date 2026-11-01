@@ -890,3 +890,10 @@ Older checkpoint entries below this note contain historical planning language th
 - The protocol identifies NVDA + Firefox/Chrome on Windows, TalkBack + Chrome on Android, VoiceOver + Safari on iOS, and non-screen-reader mobile checks. It requires exact device/OS/browser/AT versions, reproducible steps, expected/actual announcements and defect closure evidence.
 - All hands-on tests remain **Pending**. The plan is not a claim that screen-reader or physical-device testing has been performed. README links to the protocol.
 - The controlled readiness score remains **95/100**; this preparatory document does not close manual testing.
+
+
+## 2026-11-02 — CI verification of manual test-plan documentation
+
+- CI #557 (ID `41348245036`) passed on `269aa9fe0413d8a5501579bee9c113cbadc8fd69`, after the manual test plan and README link were committed.
+- Structural and Chromium checks remain green: 13 Biology pages, 88 local paths, 13 inline scripts, 165 typed buttons, 30 language-toggle interactions, no uncaught page errors and 21,477 contrast samples with zero below-threshold instances. The configured axe WCAG checks also passed.
+- The manual NVDA/TalkBack/VoiceOver and physical-device protocol remains **Pending** until actual test sessions are performed.
