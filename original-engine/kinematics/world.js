@@ -260,8 +260,8 @@ function buildMore(root, asm) {
   const vGCa = arrow(gC, 'dark', { r: 0.026, head: 0.13, headR: 0.07, name: 'Скорость дороги относительно автомобиля', tone: 'mid' });
   label('vec', 'v<sub>CG</sub>', () => tipOf(vCG, 0.3)); label('vec', 'v<sub>RG</sub>', () => tipOf(vRGa, 0.3));
   label('vec blue', 'v<sub>RC</sub>', () => tipOf(vRCa, 0.3)); label('vec grey', 'v<sub>GC</sub>', () => tipOf(vGCa, 0.3));
-  label('board', 'seen from the road', () => V(RA + 0.2, HTOP + 0.9, 0));
-  label('board', 'seen from the car', () => V(CB + 0.2, HTOP + 0.9, 0));
+  label('board', 'вид с дороги', () => V(RA + 0.2, HTOP + 0.9, 0));
+  label('board', 'вид из автомобиля', () => V(CB + 0.2, HTOP + 0.9, 0));
   // drops: short streaks, each as long as the distance it moves in a 0.05 s exposure
   const dropMat = shadeMat('dark');
   const mkDrop = () => { const m = new THREE.Mesh(cyl(0.03, 1, 8), dropMat); m.userData = { tone: 0.4 }; root.add(m); return m; };
@@ -320,7 +320,7 @@ function buildMore(root, asm) {
     g.userData.focus = () => ({ target: [x0 + M.drift(phi) * RIV.s / 2, 0.2, 0], radius: 3.4 });
     return { key, phi, g, hull, bw, ws, bs, path, start };
   });
-  label('tick', 'straight across ↑', () => V(boats[0].start.x - 0.12, 0.05, RHW + 0.75));
+  label('tick', 'прямо поперёк ↑', () => V(boats[0].start.x - 0.12, 0.05, RHW + 0.75));
   label('tick', `aimed ${(M.AIM_UP * 180 / Math.PI).toFixed(0)}° upstream ↑`, () => V(boats[1].start.x - 0.12, 0.05, RHW + 0.75));
   label('tick', `current ${M.RIVER.vw.toFixed(1)} m/s →`, () => V(XR - 0.3, 0.05, RHW - 0.35));
 
