@@ -184,6 +184,36 @@ try {
           }
         }
 
+        // Representative keyboard activation for the remaining chapter models.
+        const modelChecks = {
+          "/zoology.html": { control: '#animal-controls [data-group="mammals"]', output: "#animal-output", key: "Enter" },
+          "/cell-biology.html": { control: '#org-controls [data-org="mitochondria"]', output: "#org-output", key: "Space" },
+          "/anatomy.html": { control: '#system-controls [data-system="nervous"]', output: "#system-output", key: "Enter" },
+          "/genetics.html": { control: '#template-controls [data-template="GGA"]', output: "#rna-output", key: "Space" },
+          "/microbiology.html": { control: '#group-controls [data-group="archaea"]', output: "#group-output", key: "Enter" },
+          "/evolution.html": { control: '#mechanism-controls [data-mech="drift"]', output: "#mechanism-output", key: "Space" },
+          "/biochemistry.html": { control: '#enzyme-controls [data-enzyme="wrong"]', output: "#enzyme-output", key: "Enter" },
+          "/systematics.html": { control: '#domain-controls [data-domain="eukarya"]', output: "#domain-output", key: "Space" }
+        };
+        const modelCheck = Object.entries(modelChecks).find(([suffix]) => file.endsWith(suffix))?.[1];
+        if (modelCheck) {
+          const control = page.locator(modelCheck.control);
+          const output = page.locator(modelCheck.output);
+          if (!(await control.count()) || !(await output.count())) {
+            errors.push(file + ": representative interactive model control/output not found");
+          } else {
+            const before = await output.innerText();
+            await control.focus();
+            await page.keyboard.press(modelCheck.key);
+            const after = await output.innerText();
+            if (await control.getAttribute("aria-pressed") !== "true" || !after || after === before) {
+              errors.push(file + ": " + modelCheck.key +
+                " did not update the selected state and output for " + modelCheck.control +
+                " (before: " + before + "; after: " + after + ")");
+            }
+          }
+        }
+
         if (file.endsWith("/botany.html")) {
           const answer = page.locator("#answers button").first();
           if (await answer.count()) {
