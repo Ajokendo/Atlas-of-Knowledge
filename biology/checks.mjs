@@ -57,6 +57,24 @@ for (const file of pages) {
     catch (e) { errors.push(rel + ": JS syntax " + e.message); }
   }
 }
+// Validate local HTML fragments as well as local file paths.
+for (const file of pages) {
+  const html = fs.readFileSync(file, "utf8");
+  for (const anchor of html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["'][^>]*>/gi)) {
+    const href = anchor[1].trim();
+    if (!href || /^(?:https?:|mailto:|tel:|data:|javascript:)/i.test(href)) continue;
+    const [rawPath, rawFragment] = href.split("#", 2);
+    if (!rawFragment) continue;
+    const localPath = decodeURIComponent((rawPath || "").split("?")[0] || path.basename(file));
+    const target = path.resolve(path.dirname(file), localPath);
+    if (!target.endsWith(".html") || !fs.existsSync(target)) continue;
+    const targetHtml = fs.readFileSync(target, "utf8");
+    const targetIds = new Set([...targetHtml.matchAll(/\bid=["']([^"']+)["']/gi)].map(m => m[1]));
+    if (!targetIds.has(decodeURIComponent(rawFragment))) {
+      errors.push(path.relative(root, file) + ": broken local HTML fragment " + href);
+    }
+  }
+}
 if (pages.length !== 13) errors.push("Expected 13 Biology HTML pages; found " + pages.length);
 const coreChapters = [
   "botany.html", "zoology.html", "cell-biology.html", "anatomy.html",
