@@ -84,3 +84,13 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] No production calculator formula change was indicated by this review: the inspected calculations use n = m/M, N = n·Nₐ and c = n/V with input/range guards. This is a code review plus automated Chromium regression, not independent chemistry sign-off.
 - [x] Full Chemistry CI run [41343565722](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41343565722) completed with `status=completed` and `conclusion=success` on commit `5a3e952b536b779aa671379fec48e1e425b536e0`.
 - [ ] Physical-device, assistive-technology, manual zoom/reflow, independent scientific review, and independent RU/EN editorial sign-off remain external pending gates.
+
+
+### Electrochemistry and biochemical-energy checkpoint — 2026-11-02
+
+- [x] Reviewed the Daniell-cell model: oxidation at the zinc anode, reduction at the copper cathode, electron direction, galvanic/electrolytic electrode signs, standard cell potential, Gibbs-energy relation, and the reaction quotient used in the Nernst equation.
+- [x] Extended the Nernst calculator's Chromium regression coverage with blank input and an extreme finite activity ratio, in addition to the existing standard-state, direction-of-change, zero-activity, and RU/EN checks.
+- [x] Improved the bilingual ATP explanation: added the schematic hydrolysis equation `ATP + H₂O → ADP + Pᵢ` and clarified that `ΔG°′ ≈ −30.5 kJ/mol` applies to biochemical standard conditions near pH 7, while the actual cellular value depends on concentrations and conditions.
+- [x] Added bilingual browser assertions for the ATP equation and thermodynamic qualification.
+- [x] Full Chemistry CI run [41344361142](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41344361142) completed successfully on commit `9be0bc14bc8cb22e555e84f5a39f244e290256b8`.
+- [ ] External chemistry-teacher review, physical-device checks, screen-reader checks, and independent editorial sign-off remain pending. This checkpoint is an internal content review plus automated browser verification, not external scientific certification.
