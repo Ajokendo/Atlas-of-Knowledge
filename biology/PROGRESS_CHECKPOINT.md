@@ -595,3 +595,10 @@
 - **Recruitment-preparation progress: 100%.** No invitations have been sent, no candidate has accepted, and no G4/G5 independent review or sign-off has been received.
 - Controlled editorial readiness remains **95/100**. G4 and G5 remain open. All 52 illustration assets remain deferred; screen-reader, measured-contrast, keyboard and physical-device checks remain separate release gates.
 - This is completion of the recruitment package only; it is not publication approval.
+
+
+## Reader feedback and cross-subject reuse
+- Added `FEEDBACK_SYSTEM_STANDARD.md` with the common feedback categories, portal/subject/chapter scopes, moderation states, privacy safeguards, scientific correction workflow, and technical release gates.
+- Added `FEEDBACK_PORTING_GUIDE.md` with copy-ready instructions for the other subject teams and discipline-specific optional metadata examples.
+- The documents are saved in `biology/` on `workspace/biology` only. No other subject folder, root portal file, or shared publishing configuration was changed.
+- **Not yet live:** a secure submission endpoint and private moderation queue have not been selected/configured; the form must not claim successful receipt until the complete path is tested.
