@@ -1099,9 +1099,17 @@ try {
       if (await regions.count() !== 3 || await regions.first().getAttribute("tabindex") !== "0" || !(await regions.first().getAttribute("aria-label")).includes("Прокручиваемая")) {
         errors.push(file + ": reference tables are not keyboard-scrollable labeled regions in Russian");
       }
+      if (!(await page.locator("[data-i=waterNote]").innerText()).includes("активности") ||
+          !(await page.locator("[data-i=waterNote]").innerText()).includes("концентрационной форме")) {
+        errors.push(file + ": Russian water ionic-product note must distinguish concentration from activity");
+      }
       await page.locator("#lang").click();
       if (!(await regions.first().getAttribute("aria-label")).includes("Scrollable")) {
         errors.push(file + ": reference-table region label did not switch to English");
+      }
+      if (!(await page.locator("[data-i=waterNote]").innerText()).includes("activities") ||
+          !(await page.locator("[data-i=waterNote]").innerText()).includes("concentration form")) {
+        errors.push(file + ": English water ionic-product note must distinguish concentration from activity");
       }
       await page.locator("#lang").click();
     }
