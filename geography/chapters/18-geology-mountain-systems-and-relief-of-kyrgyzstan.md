@@ -31,6 +31,16 @@ Kyrgyzstan occupies parts of two major Central Asian mountain systems: the Tien 
 
 **Важно / Important.** Доля территории, относимая к горам, зависит от принятого определения горности и метода картографического подсчёта. Поэтому в атласе предпочтительно показывать высотную структуру и морфологические единицы на карте, а не приводить одну условную долю как универсальную характеристику.
 
+### Основа высотных карт и цифровых моделей рельефа / Vertical Reference for Elevation Maps and Digital Elevation Models
+
+Для Кыргызстана при работе с высотами необходимо различать горизонтальную систему координат и вертикальную систему отсчёта. В аналитическом докладе ЕЭК ООН (UNESCAP, декабрь 2020 года) для страны указана Балтийская система высот 1977 года; в AIP Кыргызстана GEN 2.1, действующем с 6 августа 2026 года, отмечено использование среднемноголетнего уровня Балтийского моря как вертикальной основы и отсутствие применения модели геоида в указанном контексте. Эти сведения дают национальный ориентир, но не доказывают, что каждая цифровая модель рельефа, спутниковый продукт, геологическая карта или инженерная съёмка использует одну и ту же реализацию высотной системы.
+
+При подготовке гипсометрических карт, профилей хребтов, оценок высоты ледников и расчётов уклонов необходимо фиксировать источник DEM, дату/версию, разрешение, горизонтальную CRS, вертикальный датум, тип высоты (эллипсоидальная или относящаяся к уровенной поверхности), использованную модель геоида/квазигеоида, если она применялась, и вертикальную точность. Не следует напрямую смешивать высоты из разных систем отсчёта или считать, что преобразование горизонтальных координат автоматически преобразует высоты.
+
+For elevation data in Kyrgyzstan, the horizontal coordinate reference system must be distinguished from the vertical reference system. A UNESCAP analytical report (December 2020) identifies the 1977 Baltic Height System for the country. Kyrgyzstan's AIP GEN 2.1, effective 6 August 2026, refers to long-term mean Baltic Sea level as the vertical reference and notes that a geoid model is not used in the stated context. These sources provide a national reference, but they do not prove that every digital elevation model, satellite product, geological map or engineering survey uses an identical realisation of the height system.
+
+For hypsometric maps, mountain profiles, glacier-elevation assessments and slope calculations, record the DEM source, date/version, resolution, horizontal CRS, vertical datum, height type (ellipsoidal or gravity-related), geoid/quasigeoid model if used, and vertical accuracy. Do not directly combine elevations from different reference systems or assume that transforming horizontal coordinates automatically transforms heights.
+
 ## 18.2. Геологическое районирование и тектонический каркас / Geological Regionalisation and Tectonic Framework
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 18-F / IMAGE PLACEHOLDER 18-F]** Тектоническая схема Тянь-Шаня с террейнами, сутурами и крупными разломами; указать научную модель и её источник.
@@ -775,6 +785,8 @@ Kyrgyzstan’s relief reflects a long Paleozoic tectonic history, Cenozoic react
 9. Для окончательной картографической версии: официальные государственные топографические и геологические карты Кыргызской Республики, актуальные цифровые модели рельефа и материалы профильных геологических и сейсмологических учреждений.
 10. Department of Tourism under the Ministry of Economy and Commerce of the Kyrgyz Republic. **About Kyrgyzstan** (official tourism page; uses Lenin Peak, 7,134 m). https://tourism.gov.kg/about-kyrgyzstan/
 11. UK Permanent Committee on Geographical Names. **Kyrgyzstan Toponymic Factfile**, 2025 (romanised names for Lenin Atyndagy Choku, Jengish Chokusu and Khan Tengri). https://assets.publishing.service.gov.uk/media/6672f243f92bc4be25da7e80/Kyrgyzstan_Toponymic_Factfile.pdf
+12. UNESCAP. **Current state of land statistics and its relevant challenges in leveraging statistical and geospatial data in Central Asia.** December 2020, section 5.1.2, pp. 15–16 (Kyrg-06/ITRF-2005, 1977 Baltic Height System and legacy SK-42 mapping). https://www.unescap.org/sites/default/d8files/knowledge-products/Analytical%20Report_Current%20state%20of%20land%20statistics%20and%20its%20relevant%20challenges%20in%20leveraging%20statistical%20and%20geospatial%20data%20in%20Central%20Asia%20_ENG_0.pdf
+13. Kyrgyz Republic Aeronautical Information Publication. **GEN 2.1, Measuring System and Geodetic Reference Datum**, effective 6 August 2026, sections 3–4. https://ais.ansp.kg/eaip/2026-08-06-AIRAC/html/eAIP/UC-GEN-2.1-en-GB.html
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена для научной проверки, унификации топонимов, уточнения высот и последующей картографической вёрстки.  
