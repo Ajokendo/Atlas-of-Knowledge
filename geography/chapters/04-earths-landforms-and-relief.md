@@ -468,7 +468,11 @@ Landform development depends on several interacting groups of factors:
 
 #### 4.2.1. Endogenic Processes
 
+#### 4.2.1. Endogenic Processes
+
 **Endogenic processes** are driven by Earth's internal energy. They include tectonic movement, folding, faulting, uplift and subsidence of the crust, magmatism and volcanism. They create large structural features such as mountain belts, plateaus, rift basins, volcanic edifices and ocean ridges.
+
+#### 4.2.2. Exogenic Processes
 
 #### 4.2.2. Exogenic Processes
 
@@ -482,7 +486,11 @@ Landforms are classified by scale, origin, morphology and position relative to s
 
 #### 4.3.1. By Scale
 
+#### 4.3.1. By Scale
+
 By scale, geographers distinguish planetary forms (continents and ocean basins), megaforms (major mountain belts and extensive plains), macroforms (ranges, large plateaus and lowlands), mesoforms (valleys, gullies and moraine hills) and microforms (small grooves, ripples and karst depressions). Boundaries between these categories are approximate and depend on the classification used.
+
+#### 4.3.2. By Origin
 
 #### 4.3.2. By Origin
 
@@ -493,6 +501,8 @@ By origin, landforms may be tectonic, volcanic, fluvial, glacial or glaciofluvia
 ### 4.4. Mountains and Mountain Systems
 
 Mountains are parts of Earth's surface that rise significantly above their surroundings and have strongly dissected relief. There is no universal elevation threshold separating mountains from hills; definitions vary between countries and scientific classifications.
+
+#### 4.4.1. Mountain Building
 
 #### 4.4.1. Mountain Building
 
@@ -507,7 +517,11 @@ In reality, many mountain systems have complex structures and combine several fo
 
 #### 4.4.2. Mountain Morphology
 
+#### 4.4.2. Mountain Morphology
+
 Parts of mountain relief include a **summit** (the highest point of a mountain or massif), a **ridge** (an elongated elevated feature), a **mountain range** (an extended system of peaks and slopes), a **mountain pass** (a low point in a ridge that permits passage across mountains), a **slope**, a **foot** and an **intermontane basin**.
+
+#### 4.4.3. Elevation and Local Relief
 
 #### 4.4.3. Elevation and Local Relief
 
@@ -534,7 +548,11 @@ Rivers and temporary flows erode rock, transport sediment and create new landfor
 
 #### 4.6.1. River Erosion
 
+#### 4.6.1. River Erosion
+
 River erosion may be **vertical**, deepening the channel; **lateral**, widening the valley and shifting the channel; or **headward**, extending incision upstream towards the source.
+
+#### 4.6.2. Major Fluvial Landforms
 
 #### 4.6.2. Major Fluvial Landforms
 
@@ -548,12 +566,16 @@ Glaciers move under gravity and transform the surface by erosion, transport and 
 
 #### 4.7.1. Erosional Landforms
 
+#### 4.7.1. Erosional Landforms
+
 **Erosional landforms** include:
 - a **cirque**, a bowl-shaped hollow near the upper part of a mountain slope;
 - a **U-shaped valley**, a broad valley with a relatively flat floor and steep sides shaped by a glacier;
 - a **horn**, a sharp peak formed where several cirques develop around a mountain;
 - an **arête**, a narrow sharp ridge between glacial valleys or cirques; and
 - a **fjord**, a deep glacial valley flooded by the sea.
+
+#### 4.7.2. Depositional Landforms
 
 #### 4.7.2. Depositional Landforms
 
@@ -587,9 +609,15 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 
 #### 4.10.1. Erosional Coasts
 
+#### 4.10.1. Erosional Coasts
+
 **Erosional coasts** may include sea cliffs, wave-cut notches, abrasion platforms, sea caves and arches, and isolated stacks. #### 4.10.2. Depositional Coasts
 
+#### 4.10.2. Depositional Coasts
+
 **Depositional coasts** may include beaches, spits, barrier bars, barrier islands, lagoons and deltaic coasts. Erosion and deposition can occur simultaneously on neighbouring coastal sections.
+
+#### 4.10.3. Submarine Relief
 
 #### 4.10.3. Submarine Relief
 
@@ -625,11 +653,17 @@ Weathering is the breakdown and alteration of rock at or near Earth's surface by
 
 #### 4.12.1. Physical Weathering
 
+#### 4.12.1. Physical Weathering
+
 **Physical weathering** breaks rock into smaller pieces without major chemical change. Causes include water freezing and expanding in cracks, temperature fluctuations, salt crystallisation, pressure release and the mechanical action of roots and organisms.
 
 #### 4.12.2. Chemical Weathering
 
+#### 4.12.2. Chemical Weathering
+
 **Chemical weathering** alters or dissolves minerals through reactions with water, oxygen, carbon dioxide and acids. Key processes include dissolution, hydrolysis, oxidation, hydration and carbonation.
+
+#### 4.12.3. Biological Weathering
 
 #### 4.12.3. Biological Weathering
 
