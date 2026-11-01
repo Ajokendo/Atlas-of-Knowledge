@@ -55,3 +55,13 @@
 - Regression test commit: `6d680c4e08ea76372b9232bd2b00c6eb58622707`.
 - README log commit: `4d02c2b3ba0133f9ebd35b2647de336623582f4f`.
 - Focused source read-back and full test execution are pending. No readiness increase is claimed; G4/G5 remain open.
+
+## Anatomy and physiology extension
+
+- Expanded the homeostasis section with bilingual explanations of negative-feedback control loops, receptor/integrator/effector roles and normal physiological ranges.
+- Added thermoregulation, insulin/glucagon blood-glucose regulation, vasopressin-mediated water balance, and bounded positive-feedback examples (labour and clotting).
+- Added an accessible SVG control-loop diagram with bilingual labels, title and description.
+- Chapter commit: `851d39f57321940c90562b681fd59b7578b2895e`.
+- Regression checks commit: `4cc01025f6066befd783b9b745747392ae14cbab`.
+- README log commit: `05f553bdb0cff315e0695bbdfd337f28b81b5abd`.
+- Focused source read-back is pending. Full Node.js, Chromium and CI suites have not yet been rerun. Readiness remains 95/100; G4/G5 remain open.
