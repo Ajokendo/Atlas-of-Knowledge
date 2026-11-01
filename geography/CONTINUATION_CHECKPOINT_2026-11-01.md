@@ -12,3 +12,7 @@
 - Remaining Chapter 17 cartographic blockers: official extreme-point coordinates, current administrative-boundary geometry and legal metadata, layer-specific horizontal/vertical CRS and source dates.
 - Visual status unchanged: 216 unique bilingual production briefs/placeholders remain indexed; no generated or approved artwork is claimed.
 - Progress accounting: the new source and chapter work is a discrete audited increment, not a basis for claiming the 90% milestone. Continue source-by-source and report the next milestone only when supported by the work matrix.
+
+- New GIS legal-source addendum: `geography/NATIONAL_SPATIAL_DATA_FRAMEWORK_KG_2026-11-01.md`; records Digital Code No. 178 (31 July 2025), Chapter 12, Articles 92–98, on spatial data, metadata, the National Spatial Data Resource (Georesource) and geosite. Commit: `599a9fd7521a515d919e71e46a205c50f3c1a0a1`.
+- Editorial readiness matrix updated for Chapter 14 to record the Digital Code review and the remaining need to verify actual dataset publication, metadata, CRS, licence and access conditions. Commit: `f62be1c4b9013e22656fe75caa6322f5fb01fc96`.
+- Important limitation: the legal establishment of a national Georesource/geosite is not proof that a specific dataset is currently published, downloadable, current or validated. No map-asset completion status or overall progress percentage is changed by this legal-source review.
