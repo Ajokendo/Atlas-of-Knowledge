@@ -1640,7 +1640,7 @@ try {
         errors.push(file + ": particle size appears to change with temperature, suggesting molecules expand when heated");
       }
       const rangeLimits = await Promise.all(["#n", "#v", "#t"].map(selector => page.locator(selector).evaluate(el => [el.min, el.max, el.step])));
-      if (JSON.stringify(rangeLimits) !== JSON.stringify([["0.1", "3", "0.05"], ["5", "60", "0.5"], ["-100", "300", "1"]])) {
+      if (JSON.stringify(rangeLimits) !== JSON.stringify([[".1", "3", ".05"], ["5", "60", ".5"], ["-100", "300", "1"]])) {
         errors.push(file + ": gas controls have unexpected physical input ranges or steps");
       }
       await page.locator("#n").fill("2");
