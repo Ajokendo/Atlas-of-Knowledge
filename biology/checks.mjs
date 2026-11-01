@@ -253,7 +253,7 @@ if (!/<span class="ru">/.test(cellSignalingBlock) || !/<span class="en">/.test(c
 if (!cellSignalingBlock.includes('role="img"') || !cellSignalingBlock.includes('aria-labelledby="cell-signal-svg-title cell-signal-svg-desc"') || !cellSignalingBlock.includes("<title") || !cellSignalingBlock.includes("<desc")) errors.push("chapters/cell-biology.html: signalling diagram must have accessible SVG title and description");
 
 const cellCycleControlStart = cellBiologyFile.indexOf('id="cell-cycle-checkpoints-apoptosis"');
-const cellSignalingStart = cellBiologyFile.indexOf('id="cell-signaling-pathways"');
+
 const cellCycleControlBlock = cellBiologyFile.slice(cellCycleControlStart, cellSignalingStart);
 if (cellCycleControlStart < 0 || cellSignalingStart <= cellCycleControlStart) errors.push("chapters/cell-biology.html: cell-cycle control lesson must precede cell signalling");
 for (const phrase of ["G1/S", "G2/M", "spindle-assembly checkpoint", "cyclin", "cyclin-dependent kinase", "apoptosis", "necrosis", "DNA repair"]) {
