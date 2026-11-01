@@ -342,6 +342,21 @@ if (!imagePlanFile.includes("Change `[ ]` to `[x]` only after scientific review"
   errors.push("IMAGE_GENERATION_PLAN.md must retain the scientific-review and no-invented-species production rules");
 }
 
+// Ethical, bilingual field-record protocols for the two Kyrgyzstan biodiversity chapters.
+const floraKyrgyzstanAuditFile = fs.readFileSync(path.join(root, "chapters/flora-kyrgyzstan.html"), "utf8");
+const faunaKyrgyzstanAuditFile = fs.readFileSync(path.join(root, "chapters/fauna-kyrgyzstan.html"), "utf8");
+for (const [label, html, id] of [
+  ["flora", floraKyrgyzstanAuditFile, "flora-field-record-protocol"],
+  ["fauna", faunaKyrgyzstanAuditFile, "fauna-field-record-protocol"]
+]) {
+  if (!html.includes('id="' + id + '"')) errors.push(label + " Kyrgyzstan chapter must include its field-record protocol");
+  if (!html.includes("Minimum field record") || !html.includes("Минимум полевой записи")) errors.push(label + " field protocol must be bilingual and provide a minimum record");
+  if (!html.includes("Example of a well-documented record") || !html.includes("Пример корректной записи")) errors.push(label + " field protocol must include a worked example");
+}
+if (!floraKyrgyzstanAuditFile.includes("herbarium voucher") || !floraKyrgyzstanAuditFile.includes("требуемых разрешений") || !floraKyrgyzstanAuditFile.includes("rare or protected species")) errors.push("flora field protocol must require lawful voucher collection and protect rare plants");
+if (!faunaKyrgyzstanAuditFile.includes("camera-days") || !faunaKyrgyzstanAuditFile.includes("eDNA") || !faunaKyrgyzstanAuditFile.includes("repeat images as new animals")) errors.push("fauna field protocol must distinguish survey effort, eDNA and repeat detections");
+if (!faunaKyrgyzstanAuditFile.includes("precise locations of rare species") || !faunaKyrgyzstanAuditFile.includes("population estimates")) errors.push("fauna field protocol must protect sensitive localities and distinguish detections from abundance");
+
 // Scientific constraints for the first-priority Kyrgyzstan illustration set.
 const imageScientificReview = fs.readFileSync(path.join(root, "IMAGE_SCIENTIFIC_REVIEW.md"), "utf8");
 if (!imageScientificReview.includes("13 P1") && !imageScientificReview.includes("13-item P1")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must document the complete P1 review scope");
