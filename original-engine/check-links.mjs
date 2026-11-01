@@ -54,7 +54,36 @@ if (refs.length < 2 || refs.length % 2 !== 0) errors.push("Cross-reference table
 for (const ref of refs) {
   if (!chapters.includes(ref.chapter)) errors.push("Unknown cross-reference chapter: " + ref.chapter);
   requireFile(root + "/" + ref.chapter + "/index.html");
-  if (!Number.isInteger(ref.page) || ref.page < 0) errors.push("Invalid cross-reference page index: " + ref.chapter + "/" + ref.page);
+  if (!Number.isInteger(ref.page) || ref.page < 0) {
+    errors.push("Invalid cross-reference page index: " + ref.chapter + "/" + ref.page);
+    continue;
+  }
+  const pagesPath = root + "/" + ref.chapter + "/pages.js";
+  const pageSource = readFileSync(pagesPath, "utf8");
+  const pageCount = [...pageSource.matchAll(/\\bkicker:\\s*['"`]/g)].length;
+  if (ref.page >= pageCount) {
+    errors.push("Cross-reference page is out of range: " + ref.chapter + "/" + ref.page + " (page count " + pageCount + ")");
+  }
+}
+
+const app = readFileSync("app.js", "utf8");
+const chapterPages = {
+  kinematics: "chapters/kinematics.html", newton: "chapters/newton-laws.html",
+  circular: "chapters/circular-motion.html", energy: "chapters/work-energy.html",
+  momentum: "chapters/momentum.html", oscillations: "chapters/oscillations.html",
+  rotation: "chapters/rotation.html", fluids: "chapters/fluids.html",
+  electrostatics: "chapters/electrostatics.html", gauss: "chapters/gauss-law.html",
+  potential: "chapters/electric-potential.html", capacitors: "chapters/capacitors.html",
+  circuits: "chapters/circuits.html", magnetism: "chapters/magnetism.html",
+  induction: "chapters/induction.html",
+};
+for (const chapter of chapters) {
+  if (!app.includes("original-engine/" + chapter + "/index.html")) {
+    errors.push("Main catalog does not link to the " + chapter + " laboratory");
+  }
+  if (!app.includes(chapterPages[chapter])) {
+    errors.push("Main catalog does not link to the " + chapter + " theory chapter");
+  }
 }
 
 if (errors.length) {
