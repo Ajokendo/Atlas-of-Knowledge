@@ -765,3 +765,12 @@
 - Expanded browser log: `20,771 text instances, 0 below-threshold instances`. The count includes Russian and English snapshots, mobile and desktop sizes, first keyboard-focused state on all pages, plus selected-state Ecology output and quiz-feedback Botany output.
 - Existing checks also passed: 13 pages at two viewport sizes, 26 language-toggle interactions, no uncaught page errors, representative Enter/Space activation, and initial keyboard focus visibility.
 - Defined representative dynamic-state contrast stage: 100%. This does not mean every control state or all WCAG success criteria have been tested; exhaustive control-state, full tab order, screen-reader and real-device checks remain open.
+
+
+## 2026-11-02 — bilingual-state contrast verification
+
+- Expanded the contrast sampler to run both before and after each page's language toggle, so both default and alternate language renderings are sampled at mobile and desktop viewport sizes.
+- CI #505 (run ID `41343697178`, head `7cfc74cbc33f33b397149e7fa7f8c22ec70f8dcf`) completed successfully. Browser log: `20,771 text instances, 0 below-threshold instances`; 13 pages at two viewport sizes, 26 language-toggle interactions, no uncaught page errors, and first keyboard focus indicator checked.
+- This is a successful automated check of visible DOM text in both language states, not a complete WCAG audit. Image/gradient-backed text, SVG text, every focus/hover/disabled state, screen-reader output, full keyboard traversal and physical devices remain open.
+- Contrast stage: 100% for the defined bilingual visible-DOM-text sampler. Keyboard stage: representative keyboard activation and first-focus navigation checks pass; full control inventory and full tab traversal remain incomplete.
+- Overall editorial readiness remains 95/100. G4/G5 independent review and 52 deferred visual assets remain outstanding. Feedback intake remains disabled.
