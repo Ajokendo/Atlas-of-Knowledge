@@ -594,6 +594,16 @@ Remote structural re-audit after the insertion-map update: 52 markers across 13 
 - Follow-up regression hardening: `checks.mjs` now asserts that the P1 scientific-review dossier covers all 13 assets, preserves the accepted Aygul name/synonym, distinguishes current and historical snow-leopard nomenclature, and retains the conservation-safe Aygul insertion brief. The source was re-read after the change; the script has not been executed locally.
 
 
+## Regional biodiversity evidence milestone — 1 November 2026
+
+- Completed a seven-oblast editorial evidence audit spanning both Kyrgyzstan regional chapters. All seven oblasts have matching regional sections in flora and fauna, and the audit explicitly distinguishes habitat context, local records, historical evidence, national checklists, dated detections and population estimates.
+- Added a bilingual evidence-reading guide to both chapters and a shared claim-level audit register. The register documents the limits of each regional narrative and sets the required metadata for future species accounts.
+- Added ten direct source links beside priority claims across the seven oblasts, in both Russian and English. The linked examples cover Menzbier's marmot, Naryn maral, Kushtar birds, Besh-Tash camera traps and flora richness, Batken and Talas marmot surveys, Kök-Oyrok and Kulun-Ata camera-trap records, and the Aygul-Tash plant profile.
+- Cross-checked the linked institutional and research sources and resolved a Besh-Tash page-metadata discrepancy using a separate Ministry notice that explicitly places the park in Talas Region. Survey totals remain bounded to their actual dates, sites and methods.
+- Re-read all five changed files from `workspace/biology`. Remote content checks confirmed all seven audit rows and chapter sections, ten direct source URLs, bilingual evidence guides, unique HTML IDs and the corresponding regression assertions.
+- **Atlas of Biology editorial readiness: 90/100.** This is a repository-content and source-traceability milestone, not a claim that every species record has been independently re-identified or that the atlas is production-tested.
+- Remaining before publication: claim-by-claim validation of the full species accounts, specialist taxonomic review, complete bilingual copy-editing, execution of `checks.mjs` in a checkout, successful CI/browser/accessibility testing, and creation, scientific review and integration of the 52 planned illustrations. The script was not executed locally and the latest commit reports no CI status checks; no test or CI pass is claimed.
+
 ## Seven-oblast species-evidence audit — 1 November 2026
 
 - Added `KYRGYZSTAN_SPECIES_AUDIT.md`, a conservative editorial audit of flora and fauna coverage across Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken, Talas and Chuy.
