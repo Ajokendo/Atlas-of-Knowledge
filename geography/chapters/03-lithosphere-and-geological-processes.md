@@ -932,7 +932,7 @@ On a schematic geological cross-section, identify:
 17. British Geological Survey. *What Causes Earthquakes?* (fault movement and normal, reverse and strike-slip faults). https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/
 18. USGS. *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
 19. Halla, J. et al. (2024). *Ratification of the base of the ICS Geological Time Scale: the Global Standard Stratigraphic Age (GSSA) for the Hadean lower boundary*. Episodes. https://doi.org/10.18814/epiiugs/2024/024002
-20. Thomson, K. D. et al. (2026). *Geochron—A Database of Geochronological and Thermochronological Dates and Data: Technical Documentation*. U.S. Geological Survey Data Report 1227. https://doi.org/10.3133/dr1227
+20. Thomson, K. D. et al. (2026). *USGS Geochron—A Database of Geochronological and Thermochronological Dates and Data: Technical Documentation*. U.S. Geological Survey Data Report 1227. https://www.usgs.gov/publications/usgs-geochron-a-database-geochronological-and-thermochronological-dates-and-data (DOI: https://doi.org/10.3133/dr1227).
 
 При подготовке окончательной версии следует сверять геологические термины и численные параметры с актуальной международной стратиграфической шкалой и региональными геологическими картами.
 
