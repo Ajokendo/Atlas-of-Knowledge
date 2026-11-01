@@ -623,6 +623,56 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 
 Выберите повседневный товар и проследите его путь от сырья до потребителя. Отметьте географию основных этапов, транспорт, используемые ресурсы и возможные экологические воздействия. Разделите подтверждённые сведения и предположения.
 
+### English Summary
+
+1. Economic geography studies the spatial organisation of the economy and territorial differences in development.
+2. The territorial division of labour creates regional specialisation and economic connections.
+3. Sectoral models help describe economic structure, but statistical classifications may differ.
+4. GDP measures output but does not fully reflect income distribution, quality of life or environmental sustainability.
+5. Enterprise location depends on resources, labour, energy, markets, transport, institutions and environmental limits.
+6. Industry, agriculture and services form complex interdependent systems.
+7. Energy and transport networks shape access to resources and markets.
+8. Global value chains distribute production stages among countries and regions.
+9. Tourism and the digital economy have their own spatial infrastructure and inequality risks.
+10. Regional policy must consider agglomeration effects, peripherality, human capital and environmental limits.
+11. Economic resilience requires adaptation, diversification and reliable institutions.
+12. Spatial indicators must be interpreted in light of methodology, scale and data quality.
+
+### English Review Questions
+
+1. What is the subject of economic geography?
+2. How does the territorial division of labour influence regional specialisation?
+3. How do the primary, secondary and tertiary sectors differ?
+4. Why does GDP growth not necessarily mean that all residents are better off?
+5. Which factors influence the location of an enterprise?
+6. What is an industrial cluster, and which benefits can it create?
+7. Which natural and socio-economic factors shape the geography of agriculture?
+8. Why does renewable energy also require assessment of environmental impacts?
+9. How does logistics differ from transport?
+10. What is a global value chain?
+11. Why does the digital economy remain spatially dependent?
+12. What benefits and risks can tourism create?
+13. How is regional economic inequality measured?
+14. What are agglomeration effects, and what costs may accompany concentration?
+15. How should a location quotient be interpreted?
+16. Why does spatial correlation not prove a causal relationship?
+
+### English Practical Activities
+
+**1. Sectoral structure.** Select a country and use official data to determine the shares of the primary, secondary and tertiary sectors in employment and value added. Compare the indicators and explain possible differences. Check the year and industry classification.
+
+**2. Enterprise location factors.** Select a hypothetical site for a food-processing enterprise. Compare three possible locations by access to raw materials, water, energy, labour, markets, roads and environmental constraints. Justify the choice and identify missing information.
+
+**3. Location quotient.** A hypothetical region has 20,000 employed people, of whom 4,000 work in manufacturing. The country has 1,000,000 employed people, of whom 150,000 work in manufacturing. Calculate the LQ and explain the result. Do not infer productivity from this indicator alone.
+
+**Worked example.** Manufacturing accounts for 4,000 ÷ 20,000 = 20% of regional employment and 150,000 ÷ 1,000,000 = 15% of national employment. Therefore, LQ = 0.20 ÷ 0.15 ≈ 1.33. The region has a higher-than-national employment share in manufacturing, indicating relative specialisation—not necessarily higher productivity or profitability.
+
+**4. Transport accessibility.** Mark transport nodes and settlements on a map of a selected district. Assess access to markets and social services by travel time, where data are available. Compare straight-line distance with actual network accessibility.
+
+**5. Regional inequality.** Select at least five regions in one country and compare GRP per capita, employment, poverty and access to services. Discuss why no single indicator provides a complete assessment of regional development.
+
+**6. Value-chain mapping.** Select an everyday product and trace its path from raw material to consumer. Identify the geography of the main stages, transport, resources used and possible environmental impacts. Separate confirmed information from assumptions.
+
 ## Научные редакционные примечания / Scientific editorial notes
 
 - Все фактические экономические показатели должны иметь год, единицу измерения, источник и описание методологии.
