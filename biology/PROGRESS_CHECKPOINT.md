@@ -110,3 +110,10 @@
 - Exact filenames and pixel dimensions, plus taxonomic cautions, are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. These are generated concepts, not field records or verified locality evidence.
 - No raster asset was added to GitHub or integrated into a chapter. All 52 markers remain Deferred; no marker or target path changed.
 - Controlled readiness remains **95/100**. G4/G5 remain open. No test or CI success is claimed.
+
+
+## Fourth illustration production attempt — 1 November 2026
+
+- Produced one new local WebP candidate from the fourth generated collage: an unidentified edelweiss-like alpine flower (503×507). Its morphology requires botanical review; no genus, species or Kyrgyzstan locality is asserted.
+- Provenance and scientific hold are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. Repeated wildlife panels were not treated as new assets.
+- No image was committed or integrated. All 52 markers remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No new tests or CI runs are claimed.
