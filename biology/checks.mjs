@@ -282,7 +282,7 @@ for (const phrase of ["glomerulus", "Bowman's capsule", "filtration", "reabsorpt
 }
 if (!/<span class="ru">/.test(renalBlock) || !/<span class="en">/.test(renalBlock)) errors.push("chapters/anatomy.html: renal physiology lesson must be bilingual");
 if (!renalBlock.includes('role="img"') || !renalBlock.includes('aria-labelledby="nephron-svg-title nephron-svg-desc"') || !renalBlock.includes('id="nephron-svg-title"') || !renalBlock.includes('id="nephron-svg-desc"')) errors.push("chapters/anatomy.html: nephron diagram must have accessible SVG title and description");
-if (!renalBlock.includes("does not maintain a fixed filtration rate") || !renalBlock.includes("не означает, что скорость фильтрации и объём мочи постоянны")) errors.push("chapters/anatomy.html: renal lesson must explain physiological variation in filtration and urine output");
+if (!anatomyFile.includes("Healthy kidneys do not maintain a fixed filtration rate or urine volume under all conditions.") || !renalBlock.includes("не означает, что скорость фильтрации и объём мочи постоянны")) errors.push("chapters/anatomy.html: renal lesson must explain physiological variation in filtration and urine output");
 
 const cardiovascularStart = anatomyFile.indexOf('id="cardiovascular-physiology"');
 const cardiovascularObjectivesStart = anatomyFile.indexOf('<section class="learning-block"><div class="learning-grid">', cardiovascularStart);
@@ -412,7 +412,7 @@ if (!faunaKyrgyzstanFile.includes("35 животных были завезены
 if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркера") || !faunaKyrgyzstanFile.includes("88 образцов архара") || !faunaKyrgyzstanFile.includes("O. a. polii") || !faunaKyrgyzstanFile.includes("Pamir Plateau")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2026 argali genetics evidence must retain initial and analysed sample sizes, named subspecies and Pamir scope caveat");
 }
-if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркера") || !faunaKyrgyzstanFile.includes("72 individuals") || !faunaKyrgyzstanFile.includes("cannot automatically be extended to the full range of Marco Polo argali")) {
+if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркера") || !faunaKyrgyzstanFile.includes("72 individuals") || !faunaKyrgyzstanFile.includes("not extended to the full Marco Polo argali range")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2026 argali genetics evidence must retain sample size and scope caveat");
 }
 if (!faunaKyrgyzstanFile.includes("689 маралов") || !faunaKyrgyzstanFile.includes("нельзя складывать, усреднять или выдавать за одну согласованную оценку") || !faunaKyrgyzstanFile.includes("these figures must not be added, averaged or presented as one reconciled estimate")) {
@@ -799,7 +799,7 @@ if (!faunaKyrgyzstanFile.includes("Tenuidactylus fedtschenkoi") || !faunaKyrgyzs
 if (!faunaKyrgyzstanFile.includes("central_asia_reptile&amp;v=1.15") || !faunaKyrgyzstanFile.includes("26 October 2026") || !faunaKyrgyzstanFile.includes("including within <i class=\"latin\">Varanus</i>")) {
   errors.push("chapters/fauna-kyrgyzstan.html: latest GBIF Central Asian reptile checklist must be linked, dated and scoped");
 }
-if (!regionalSpeciesAudit.includes("Kyrgyzstan reptile country list (snapshot 19 October 2026)") || !regionalSpeciesAudit.includes("44-versus-43 count")) {
+if (!regionalSpeciesAudit.includes("Kyrgyzstan reptile country list (page checked 1 November 2026; source export labelled 19 October 2026)") || !regionalSpeciesAudit.includes("44-versus-43 discrepancy")) {
   errors.push("Regional species audit must record the dated reptile snapshot and unresolved count discrepancy");
 }
 if (!regionalSpeciesAudit.includes("Central Asian reptile checklist (GBIF dataset, version 1.15; published 26 October 2026, accessed 29 October 2026)") ||
@@ -816,7 +816,7 @@ if (!faunaKyrgyzstanFile.includes("precise position is intentionally not reprodu
     !faunaKyrgyzstanFile.includes("one pair in Boom Gorge near Kok-Moynok village")) {
   errors.push("Black Stork breeding account must retain the dated single-pair evidence and avoid publishing the precise nest location");
 }
-if (!regionalSpeciesAudit.includes("Black Stork breeding record at Boom Gorge (Romanovskaya, 2015)") ||
+if (!regionalSpeciesAudit.includes("Black Stork breeding record at Boom Gorge (Romanovskaya, 2015;") ||
     !regionalSpeciesAudit.includes("four downy chicks on 24 May") ||
     !regionalSpeciesAudit.includes("do not reproduce the paper's road-kilometre marker")) {
   errors.push("Regional species audit must preserve Black Stork breeding chronology and sensitive-locality handling");
@@ -932,7 +932,7 @@ if (!faunaKyrgyzstanFile.includes("ISSYK-KUL · DEMOISELLE CRANE MIGRATION · AU
     !faunaKyrgyzstanFile.includes("must not be automatically combined") ||
     !faunaKyrgyzstanFile.includes("zhuravl-krasavka-issyk-kul-2026") ||
     !regionalSpeciesAudit.includes("Issyk-Kul: Demoiselle Crane migration aggregation — August 2026") ||
-    !regionalSpeciesAudit.includes("not a national population estimate or trend")) {
+    !regionalSpeciesAudit.includes("not an estimate of the species' total national population or evidence of a sustained population trend")) {
   errors.push("2026 Issyk-Kul Demoiselle Crane aggregation must retain its source, approximate count and non-population scope");
 }
 
