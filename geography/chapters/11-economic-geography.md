@@ -690,6 +690,9 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 
 ## Научные редакционные примечания / Scientific editorial notes
 
+- При сравнении национальных счетов указывать версию СНС: 2008 SNA и 2025 SNA — разные редакции международного стандарта; переход национальных статистических систем может происходить поэтапно.
+- When comparing national accounts, state the SNA version: the 2008 SNA and 2025 SNA are distinct editions of the international standard, and national statistical systems may transition gradually.
+
 - Все фактические экономические показатели должны иметь год, единицу измерения, источник и описание методологии.
 - При сравнении ВВП указывать, используются ли текущие цены, постоянные цены или ППС.
 - Не смешивать ВВП и ВНД, номинальные и реальные величины, абсолютные показатели и показатели на душу населения.
@@ -702,7 +705,7 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
 1. United Nations Statistics Division. **International Standard Industrial Classification of All Economic Activities (ISIC), Rev. 4** (2008). https://digitallibrary.un.org/record/641645
-2. United Nations. **System of National Accounts 2008 (SNA 2008)**. https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf
+2. United Nations Statistics Division. **System of National Accounts 2008 (SNA 2008)** and **System of National Accounts 2025 (2025 SNA; pre-edit version)**. Use the version specified by the national statistical authority and the metadata of each statistical series. https://unstats.un.org/unsd/Nationalaccount/sna.asp
 3. World Bank. **World Development Indicators** — international economic and social data series. https://databank.worldbank.org/source/world-development-indicators
 4. International Monetary Fund. **World Economic Outlook Database** — macroeconomic indicators and forecasts. https://www.imf.org/en/Publications/WEO/weo-database
 5. International Labour Organization. **ILOSTAT** — labour and employment statistics. https://ilostat.ilo.org/data/
