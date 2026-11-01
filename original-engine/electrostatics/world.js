@@ -74,9 +74,9 @@ export function buildWorld(E) {
   const X1 = STATIONS.charging, SC = V(X1 - 1.2, 0.5, 0), R1 = M.SPHERE.R * S;
   sheet(X1 - 7, X1 + 7, -2, 3);
   const gI = asm('induce', root, { title: 'Металлический шар и заряженная палочка', sub: 'электризация влиянием без контакта' });
-  ball(gI, R1 * 0.995, { name: 'Metal sphere', tone: 'hi', pos: [SC.x, SC.y, SC.z] });
+  ball(gI, R1 * 0.995, { name: 'Металлический шар', tone: 'hi', pos: [SC.x, SC.y, SC.z] });
   const rodL = M.ROD.L * S, rodG = new THREE.Group(); gI.add(rodG);
-  part(rodG, xAxis(cyl(0.11, rodL, 28)), { tone: 'hi', pal: 'base', pos: [-rodL / 2, 0, 0], name: 'Charged rod' });
+  part(rodG, xAxis(cyl(0.11, rodL, 28)), { tone: 'hi', pal: 'base', pos: [-rodL / 2, 0, 0], name: 'Заряженный стержень' });
   for (let i = 0; i < M.ROD.n; i++) { const b = bead(rodG, 0.06, 'blue', 'Rod charge'); b.position.set(-(i + 0.5) * rodL / M.ROD.n, 0.02, 0.11); }
   label('tick', `rod ${(M.ROD.Q / M.nC).toFixed(0)} nC`, () => rodG.visible ? rodG.localToWorld(V(-rodL * 0.25, 0.42, 0)) : null);
   // surface charge: beads on a fixed set of surface points, sized by |σ| and coloured by its sign
@@ -91,7 +91,7 @@ export function buildWorld(E) {
   const matRed = shadeMat('red'), matBlue = shadeMat('blue');
   // ground: a wire down to the ground symbol; electrons run down it while it is connected
   const wireTop = SC.y - R1, gy = -1.6;
-  const wire = part(gI, cyl(0.022, 1, 10), { tone: 'hi', pal: 'ink', name: 'Ground wire' });
+  const wire = part(gI, cyl(0.022, 1, 10), { tone: 'hi', pal: 'ink', name: 'Заземляющий провод' });
   const gs = []; for (let k = 0; k < 3; k++) gs.push(SC.x - 0.45 + k * 0.15, gy - k * 0.14, 0, SC.x + 0.45 - k * 0.15, gy - k * 0.14, 0);
   lines(gI, gs, '#2c2c30');
   const flow = Array.from({ length: 4 }, () => bead(gI, 0.06, 'blue', 'Electrons'));
@@ -100,16 +100,16 @@ export function buildWorld(E) {
   // polarization: a charged balloon near a wall; the wall's molecules stretch into small dipoles
   const XB = X1 + 3.6, BR = M.BALLOON.r * S, wallX = XB + 1.6;
   const gB = asm('balloon', root, { title: 'Воздушный шарик у стены', sub: 'поляризация молекул диэлектрика' });
-  part(gB, new THREE.BoxGeometry(0.25, 4.2, 2.4), { tone: 'mid', pal: 'board', pos: [wallX + 0.125, 0.5, 0], name: 'Wall' });
+  part(gB, new THREE.BoxGeometry(0.25, 4.2, 2.4), { tone: 'mid', pal: 'board', pos: [wallX + 0.125, 0.5, 0], name: 'Стена' });
   const balloonG = new THREE.Group(); gB.add(balloonG);
-  const bl = ball(balloonG, 1, { name: 'Balloon', tone: 'hi' }); bl.scale.set(BR, BR * 1.18, BR);
+  const bl = ball(balloonG, 1, { name: 'Воздушный шарик', tone: 'hi' }); bl.scale.set(BR, BR * 1.18, BR);
   for (let i = 0; i < 7; i++) { const t = (i / 6 - 0.5) * 1.6; const b = bead(balloonG, 0.05, 'red', 'Balloon charge'); b.position.set(BR * Math.cos(t) * 0.98, BR * 1.18 * Math.sin(t) * 0.98, 0.15); }
   const str = []; for (let i = 0; i < 20; i++) { const y0 = -BR * 1.18 - i * 0.09, y1 = y0 - 0.09; str.push(0.04 * Math.sin(i), y0, 0, 0.04 * Math.sin(i + 1), y1, 0); }
   lines(balloonG, str, '#6c6c72');
   const mols = [];
   for (let j = -3; j <= 3; j++) for (const z of [0.0]) {
-    const p = V(wallX - 0.1, 0.5 + j * 0.42, z), pos = bead(gB, 0.045, 'red', 'Molecules'), neg = bead(gB, 0.045, 'blue', 'Molecules');
-    const link = part(gB, cyl(0.012, 1, 8), { tone: 'lo', pal: 'dark', name: 'Molecules' });
+    const p = V(wallX - 0.1, 0.5 + j * 0.42, z), pos = bead(gB, 0.045, 'red', 'Молекулы'), neg = bead(gB, 0.045, 'blue', 'Молекулы');
+    const link = part(gB, cyl(0.012, 1, 8), { tone: 'lo', pal: 'dark', name: 'Молекулы' });
     mols.push({ p, pos, neg, link });
   }
   label('tick', 'wall', () => V(wallX + 0.55, 2.35, 0));
@@ -182,7 +182,7 @@ export function buildWorld(E) {
     for (const L of M.dipoleLines(20)) for (let i = 1; i < L.length; i++) { const a = DW(L[i - 1]), b = DW(L[i]); if (a.y > D0.y + 3.9 || b.y > D0.y + 3.9 || a.y < D0.y - 2 || b.y < D0.y - 2 || a.x < X5 - 6 || b.x > X5 + 4) continue; pts.push(a.x, a.y, 0, b.x, b.y, 0); }
     lines(gD, pts, BLUE_LINE); }
   lines(gD, [DW([-0.42, 0, 0]).x, D0.y, 0, DW([0.5, 0, 0]).x, D0.y, 0, D0.x, D0.y - 1.6, 0, D0.x, D0.y + 3.8, 0], '#b4b4b8');
-  const pAx = ball(gD, 0.07, { pal: 'ink', name: 'P on the axis' }), pBi = ball(gD, 0.07, { pal: 'ink', name: 'P on the bisector' });
+  const pAx = ball(gD, 0.07, { pal: 'ink', name: 'Точка P на оси' }), pBi = ball(gD, 0.07, { pal: 'ink', name: 'Точка P на биссектрисе' });
   label('tick', 'P', () => pAx.getWorldPosition(V()).add(V(-0.05, -0.3, 0))); label('tick', 'P', () => pBi.getWorldPosition(V()).add(V(0.3, 0.12, 0)));
   const eAx = eArrow(gD), eBi = eArrow(gD);
   label('vec blue', '<i>E</i>', () => tip(eAx)); label('vec blue', '<i>E</i>', () => tip(eBi, 0.3));
@@ -198,11 +198,11 @@ export function buildWorld(E) {
   const ns = M.RODE.slices, sliceL = RL / ns;
   for (let i = 0; i < ns; i++) {
     const cx = R0.x - RL / 2 + (i + 0.5) * sliceL, off = (i + 0.5 - ns / 2) * 0.18;
-    part(gR, xAxis(cyl(0.12, sliceL * 0.995, 28)), { tone: 'hi', pal: i % 2 ? 'paper' : 'base', pos: [cx, R0.y, 0], name: 'Slice dq', ex: [off, 0, 0] });
-    for (let k = 0; k < 2; k++) { const b = part(gR, BEAD, { pal: 'red', tone: 'mid', name: 'Slice dq', pos: [cx + (k - 0.5) * sliceL * 0.5, R0.y + 0.03, 0.12], ex: [off, 0, 0] }); b.scale.setScalar(0.05); }
+    part(gR, xAxis(cyl(0.12, sliceL * 0.995, 28)), { tone: 'hi', pal: i % 2 ? 'paper' : 'base', pos: [cx, R0.y, 0], name: 'Элемент dq', ex: [off, 0, 0] });
+    for (let k = 0; k < 2; k++) { const b = part(gR, BEAD, { pal: 'red', tone: 'mid', name: 'Элемент dq', pos: [cx + (k - 0.5) * sliceL * 0.5, R0.y + 0.03, 0.12], ex: [off, 0, 0] }); b.scale.setScalar(0.05); }
   }
   label('tick', `+${M.RODE.Q / M.nC} nC over ${M.RODE.L * 100} cm`, () => V(R0.x + 0.9, R0.y - 0.45, 0));
-  const pRa = ball(gR, 0.07, { pal: 'ink', name: 'P on the axis' }), pRb = ball(gR, 0.07, { pal: 'ink', name: 'P on the bisector' });
+  const pRa = ball(gR, 0.07, { pal: 'ink', name: 'Точка P на оси' }), pRb = ball(gR, 0.07, { pal: 'ink', name: 'Точка P на биссектрисе' });
   label('tick', 'P', () => pRa.getWorldPosition(V()).add(V(0.02, -0.32, 0))); label('tick', 'P', () => pRb.getWorldPosition(V()).add(V(-0.2, 0.05, 0)));
   const eRa = eArrow(gR), eRb = eArrow(gR);
   label('vec blue', '<i>E</i>', () => tip(eRa)); label('vec blue', '<i>E</i>', () => tip(eRb));
@@ -214,11 +214,11 @@ export function buildWorld(E) {
   const X7 = STATIONS.ring, C7 = V(X7 - 2.4, 0.4, 0), RR = M.RING.R * S;
   sheet(X7 - 5.5, X7 + 5.5, -2.4, 3.2);
   const gG = asm('ring', root, { title: 'Заряженное кольцо', sub: 'складываются только осевые составляющие' });
-  part(gG, new THREE.TorusGeometry(RR, 0.07, 16, 96).rotateY(Math.PI / 2), { tone: 'hi', name: 'Ring', pos: [C7.x, C7.y, C7.z] });
+  part(gG, new THREE.TorusGeometry(RR, 0.07, 16, 96).rotateY(Math.PI / 2), { tone: 'hi', name: 'Кольцо', pos: [C7.x, C7.y, C7.z] });
   const beads = M.ringBeads(M.RING.beads).map(b => { const m = bead(gG, 0.075, 'red', 'Charge dq'); m.position.copy(C7).add(V(b.at[0], b.at[1], b.at[2]).multiplyScalar(S)); return m; });
   lines(gG, [C7.x - 0.8, C7.y, 0, C7.x + 7.2, C7.y, 0], '#b4b4b8');
   label('tick', `+${(M.RING.Q / M.nC).toFixed(0)} nC`, () => C7.clone().add(V(0, RR + 0.4, 0)));
-  const pG = ball(gG, 0.07, { pal: 'ink', name: 'P on the axis' });
+  const pG = ball(gG, 0.07, { pal: 'ink', name: 'Точка P на оси' });
   label('tick', 'P', () => pG.getWorldPosition(V()).add(V(0.02, -0.32, 0)));
   const eG = eArrow(gG); label('vec blue', '<i>E</i>', () => tip(eG));
   const dG = beads.map(() => dE(gG)), rG = beads.map(() => dashed(gG, 30));
