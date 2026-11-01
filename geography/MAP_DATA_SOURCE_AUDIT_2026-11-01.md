@@ -88,3 +88,38 @@ State register record: https://bgir.tunduk.kg/Category/InformationSystem/Details
 - Do not use the toponymic database as proof of state-border geometry or extreme-point coordinates.
 - Every finished map must retain source metadata, coordinate reference system, vertical reference where relevant, source date, licence/conditions and review status.
 - Extreme-point coordinates remain unapproved until confirmed against a national geodetic/cartographic source.
+
+
+## National geodetic transformation infrastructure — official update
+
+On 11 November 2025, the State Agency for Land Resources, Cadastre, Geodesy and Cartography reported completion of a pilot consulting project on transition to a global geodetic system and improvement of land-information management. The agency states that geodetic, gravimetric and levelling measurements were carried out; coordinate-transformation parameters were determined; **maps were partially reprojected**; and two information systems were created and introduced:
+
+- a system for transforming the state coordinate system to WGS 84;
+- a control-point management system, described as a centralised geodetic-control database with updating and real-time visualisation capability.
+
+Official agency report (11 November 2025): https://gosreg.gov.kg/ru/?p=8013
+
+### Interpretation and limitations
+
+This is stronger national evidence than merely citing the 2010 Kyrg-06 resolution: it confirms that transformation parameters and a control-point information system have been developed and that a pilot implementation was reported. However, the agency explicitly says that map reprojection was **partial**. The announcement does not publish the numerical transformation parameters, accuracy statistics, epoch details, geoid/height model, control-point coordinates, service endpoint or dataset-level migration status.
+
+Therefore:
+1. Do not assume that every legacy Kyrg-06 layer has already been converted to WGS 84.
+2. Do not perform an ad hoc datum transformation using generic software defaults when national parameters are available or required.
+3. For each layer, record its source CRS, target CRS, transformation operation and parameter/version, coordinate epoch where applicable, horizontal accuracy, vertical reference and transformation date.
+4. Request or verify the authoritative transformation parameters and control-point metadata from the national agency before precision mapping or survey-grade use.
+5. Treat the 2025 announcement as evidence of implemented pilot infrastructure, not as a public release of all transformation data or proof that every national dataset has migrated.
+
+## Other discovered spatial-data catalogues — availability is not authority
+
+- The CAIAG GeoNode landing page advertises 52 layers, 5 maps and 6 documents, with OGC-connected data and downloadable standard formats. This is a useful research/discovery repository, but the landing-page count does not establish that each layer is official, current, complete or suitable for national boundary depiction. Inspect each layer's owner, metadata, licence, CRS, date and lineage. Portal: https://geonode.caiag.kg/
+- The GISMSU portal identifies itself as a municipal-resource management information system. Do not assume it is a complete national boundary or thematic-data download service without layer-specific evidence. Portal: https://geoaymak.gov.kg/
+- The state-register entry for AIS “Geographical Names of the Kyrgyz Republic” remains a separate national toponymic source. Its recorded last modernisation date is 31 December 2022; verify individual names and current portal functionality before relying on the entries.
+
+## Revised status of the coordinate-system workstream
+
+**Confirmed:** Kyrg-06 is established by Resolution No. 235; the national agency reported a WGS 84 transformation pilot, derived parameters, partial map reprojection and deployment of transformation/control-point systems.
+
+**Not yet confirmed from public source material:** numerical transformation parameters, control-point dataset/service, transformation accuracy and epoch, vertical model, and full migration status of national map layers.
+
+**Cartographic decision:** retain the CRS/transformation blocker for precision maps until the required official metadata are obtained. Do not downgrade this blocker merely because the pilot project was announced.
