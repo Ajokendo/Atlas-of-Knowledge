@@ -16,6 +16,10 @@ This chapter concludes the general geography section of the atlas. It brings tog
 
 ## 16.1. Географическое исследование: логика и этапы / Geographic Research: Logic and Stages
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-A / IMAGE PLACEHOLDER 16-A]** Цикл географического исследования: вопрос, обзор источников, данные, анализ, интерпретация и публикация; показать возврат к уточнению гипотезы.
+> **EN:** Geographic research cycle from question and literature review to data, analysis, interpretation and publication, including feedback to refine the hypothesis.
+
+
 Исследование начинается с чётко сформулированной проблемы. Тема должна быть преобразована в исследовательский вопрос, на который можно ответить с помощью наблюдений, данных и обоснованного метода.
 
 Типичная последовательность:
@@ -33,6 +37,10 @@ This chapter concludes the general geography section of the atlas. It brings tog
 Хорошее исследование различает описание, объяснение и причинный вывод. Пространственное совпадение двух явлений само по себе не доказывает, что одно вызвало другое.
 
 ## 16.2. Пространственный масштаб и территориальные единицы / Spatial Scale and Areal Units
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-B / IMAGE PLACEHOLDER 16-B]** Сопоставление локального, регионального, национального и глобального уровней на согласованном примере; не задавать универсальные размеры масштабов.
+> **EN:** Compare local, regional, national and global scales using a consistent example; do not imply universal fixed size thresholds.
+
 
 Масштаб — ключевая характеристика географического анализа. Он включает пространственный охват, уровень детализации и размер единиц, по которым собираются и агрегируются данные.
 
@@ -89,6 +97,10 @@ This chapter concludes the general geography section of the atlas. It brings tog
 Точность не следует путать с разрешением. Высокодетальная карта может иметь позиционные смещения, а статистика с большим числом знаков после запятой — низкую фактическую точность.
 
 ## 16.5. Выборка и дизайн наблюдений / Sampling and Study Design
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-C / IMAGE PLACEHOLDER 16-C]** Случайная, систематическая, стратифицированная и кластерная выборки на условной карте; различать совокупность, страты и отобранные точки.
+> **EN:** Map random, systematic, stratified and cluster sampling; distinguish the population, strata and selected sample points.
+
 
 Сплошное обследование всей территории часто невозможно, поэтому исследователь использует выборку. Её дизайн должен соответствовать вопросу и пространственной структуре явления.
 
@@ -188,6 +200,10 @@ This allocation preserves the proportions of the three zones in the sample, but 
 
 ## 16.10. Картографическая проекция, масштаб и генерализация / Projection, Scale and Generalisation
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-D / IMAGE PLACEHOLDER 16-D]** Одна территория на крупном, среднем и мелком масштабе; показать корректную генерализацию берегов, дорог и населённых пунктов.
+> **EN:** Show one area at large, medium and small scales, demonstrating appropriate generalisation of coastlines, roads and settlements.
+
+
 Картографическая проекция преобразует координаты поверхности Земли в плоскость. Любая плоская проекция искажает хотя бы одно из свойств — площадь, форму, расстояние или направление. Выбор зависит от назначения карты и территории.
 
 **Масштаб** показывает отношение расстояния на карте к соответствующему расстоянию на местности. При масштабе 1:100 000 один сантиметр на карте соответствует одному километру на местности при соблюдении принятой проекционной модели.
@@ -195,6 +211,10 @@ This allocation preserves the proportions of the three zones in the sample, but 
 **Картографическая генерализация** — отбор, упрощение, объединение и смещение объектов ради читаемости карты на выбранном масштабе. Небольшие реки, дороги и населённые пункты могут быть опущены или условно смещены. Генерализация должна сохранять смысл и не создавать ложного впечатления.
 
 ## 16.11. Тематическая картография / Thematic Cartography
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-E / IMAGE PLACEHOLDER 16-E]** Сравнение хороплетной карты, пропорциональных символов, изолиний, точечной карты и карты потоков с подходящими типами данных.
+> **EN:** Compare choropleth, proportional-symbol, isoline, dot and flow maps, identifying suitable data types for each.
+
 
 Тематическая карта показывает распределение определённого явления: населения, осадков, температуры, землепользования, доходов, риска или доступности услуг.
 
@@ -210,6 +230,10 @@ This allocation preserves the proportions of the three zones in the sample, but 
 Хороплетные карты обычно подходят для нормированных показателей — долей, плотности, коэффициентов. Использование абсолютных чисел может вводить в заблуждение, если территориальные единицы существенно различаются по площади или населению.
 
 ## 16.12. Цвет, символы и визуальная иерархия / Colour, Symbols and Visual Hierarchy
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-F / IMAGE PLACEHOLDER 16-F]** Матрица визуальных переменных: положение, размер, форма, оттенок, светлота, насыщенность и текстура; показать корректные способы кодирования.
+> **EN:** Visual-variable matrix for position, size, shape, hue, lightness, saturation and texture, with appropriate encoding examples.
+
 
 Картографический дизайн управляет вниманием читателя и помогает различать классы, направления, величины и категории.
 
@@ -237,6 +261,10 @@ This allocation preserves the proportions of the three zones in the sample, but 
 
 ## 16.13. Классификация данных для карт / Data Classification for Mapping
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-G / IMAGE PLACEHOLDER 16-G]** Один условный набор значений в равных интервалах, квантилях и естественных границах; показать, как меняется карта при разных классах.
+> **EN:** Display one illustrative dataset using equal intervals, quantiles and natural breaks, showing how class boundaries change the map.
+
+
 Для хороплетных и других тематических карт числовые данные часто группируются в классы. Выбор метода классификации влияет на визуальный вывод.
 
 Распространённые методы:
@@ -251,6 +279,10 @@ This allocation preserves the proportions of the three zones in the sample, but 
 Для временного сравнения часто целесообразно фиксировать границы классов, чтобы изменение цвета отражало изменение показателя, а не изменение метода классификации.
 
 ## 16.14. Карта как аргумент: подписи, легенда и источники / Map as an Argument: Labels, Legend and Sources
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-H / IMAGE PLACEHOLDER 16-H]** Пример качественной тематической карты с заголовком, легендой, масштабом, датой, источником, проекцией и иерархией подписей.
+> **EN:** A well-designed thematic map with title, legend, scale, date, source, projection and clear label hierarchy.
+
 
 Карта должна содержать достаточно элементов, чтобы читатель мог правильно её интерпретировать:
 - ясный заголовок;
@@ -298,6 +330,10 @@ This allocation preserves the proportions of the three zones in the sample, but 
 Интерактивность не делает карту автоматически более точной или понятной. Она должна помогать исследовательскому вопросу, а не отвлекать от него.
 
 ## 16.17. Воспроизводимость, открытая наука и управление проектом / Reproducibility, Open Science and Project Management
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 16-I / IMAGE PLACEHOLDER 16-I]** Воспроизводимый географический проект: исходные данные, метаданные, обработка, скрипты, версии, результаты, лицензии и контроль доступа.
+> **EN:** Reproducible geographic project showing source data, metadata, processing, scripts, versions, outputs, licences and access control.
+
 
 Воспроизводимое исследование позволяет другому специалисту понять, откуда получены данные, какие преобразования выполнены и как получен результат.
 
