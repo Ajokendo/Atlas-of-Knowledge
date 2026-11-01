@@ -7,6 +7,7 @@ Third subject area of the unified **Atlas of Knowledge** portal.
 - Visual system follows the shared Atlas design: warm paper background, editorial serif headings, restrained green accent, compact monospace labels, responsive cards.
 - Scientific explanations are written for learning, with key concepts, structured topic lists and knowledge checks.
 - Interactive elements must be scientifically accurate, keyboard-accessible where practical, and usable on mobile.
+- The manual [screen-reader and real-device test plan](SCREEN_READER_AND_DEVICE_TEST_PLAN.md) is prepared; all hands-on NVDA, TalkBack, VoiceOver and physical-device checks remain pending.
 
 ## Structure
 - `index.html` — Biology landing page, subject navigation and interactive eukaryotic-cell model.
