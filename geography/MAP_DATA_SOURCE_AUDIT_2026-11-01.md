@@ -206,3 +206,40 @@ The Ministry's current website links to the Kyrgyz Geological Survey (https://ww
 5. Every production DEM used in the Atlas must pass a metadata gate: licence, source/edition, acquisition date, spatial resolution, horizontal CRS, vertical datum/height type, geoid model, vertical and horizontal accuracy, processing lineage, and validation against suitable control data.
 
 **Status:** a specific public 30 m candidate and a documented 3 m/14-site operational procurement have been identified. Neither provides sufficient public metadata to clear a DEM for quantitative national Atlas production. The national geological atlas is confirmed as a project, not yet as a published source in the inspected announcement.
+
+
+## Climate observation and glacial-lake datasets — 1 November 2026
+
+### Kyrgyzhydromet national climate products
+
+The official Kyrgyzhydromet climate-products page publishes two distinct analyses that should not be conflated:
+
+**A. Homogenised monthly station series, 1980–2021.** The temperature/precipitation trend analysis uses monthly homogenised data from 22 stations for 1980–2021. For 1981–2021, it reports a countrywide mean annual temperature trend of about +0.28 °C/decade (regional values about +0.25 to +0.32 °C/decade) and a spring trend of about +0.59 °C/decade. Annual precipitation trends are described as small, mixed by region and statistically insignificant; the countrywide estimate is around +4 mm/decade. The page explicitly warns that Naryn regional estimates use only two stations.
+
+**B. Climate indices, 1980–2022.** A separate set of 11 climate products uses daily Tmin, Tmax, precipitation and relative humidity from 13 stations. It includes frost/cold days, growing-season dates and duration, accumulated temperatures, heat/cold waves, operational meteorological drought, zero-degree crossings and forest-fire danger. The service reports positive trends in growing-season duration and accumulated warmth, most of which are statistically significant; cold-season indicator trends are not statistically significant in this analysis. Statistical trend assessment of forest-fire danger was not possible because humidity records covered only 2013–2022. The operational drought definition is method-specific and must not be confused with SPI/SPEI, agricultural drought or hydrological drought.
+
+Official source: Kyrgyzhydromet, Climate Products: https://www.meteo.kg/ru/pages/ClimateProducts
+
+### Editorial implications for climate maps
+
+1. Keep the 22-station monthly series and 13-station daily-index series separate, stating period, station count, variables, homogeneity processing and method.
+2. Do not portray +0.28 °C/decade as the warming rate at every elevation or for every later period. It is a countrywide station-based estimate for 1981–2021.
+3. Do not state that precipitation is uniformly increasing or decreasing: the official analysis describes regional differences and statistically insignificant trends.
+4. Maps of climate indices must publish the exact threshold/definition. The national operational drought index is not a substitute for SPI/SPEI or soil-moisture/hydrological drought.
+5. For interpolation, document station elevation and distribution; sparse high-mountain coverage limits confidence in gridded values across complex terrain.
+
+### National glacial-lake inventory research, 2022–2024
+
+A 2025 EGU contribution by Piroton and Havenith describes a polygon-based research inventory from Sentinel-2 imagery acquired in July–October 2022–2024. The authors report more than 2,000 glacial lakes across Kyrgyzstan, with 1,137 in the Terskey range and 323 in the Kyrgyz Range. The record describes manual polygon review and field validation at selected sites, while also identifying false-positive risks from shadows, clouds, residual snow, seasonal depressions and water turbidity.
+
+This is a research/conference contribution, not a state-adopted register. The public record does not itself establish open reuse rights for the full vector inventory. Cite the lake count with its study dates, method and publication status; do not call it an official permanent total.
+
+Source: https://doi.org/10.5194/egusphere-egu25-19362
+
+### 2026 peer-reviewed Kyrgyz Range lake dynamics
+
+A 2026 *Natural Hazards and Earth System Sciences* paper analyses the Kyrgyz Range over 1968–2021. It reports lake count rising from 274 to 412 and total lake area from 0.80 to 1.42 km² (+76%), while glacier area fell from 378.5 to 262.0 km² (−31%). Many lakes disappeared and others formed on degrading glacier-moraine complexes and buried-ice terrain. The findings are range-specific, not a national Tien Shan-wide estimate.
+
+Source: https://doi.org/10.5194/nhess-26-1001-2026
+
+**Cartographic implication:** separate glacier polygons, glacier-moraine complexes and glacial-lake polygons; preserve observation dates and inventory definitions. GLOF risk mapping must additionally consider dam type/stability, drainage pathways, downstream exposure and uncertainty; lake presence or area alone is not a risk classification.
