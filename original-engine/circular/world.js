@@ -263,7 +263,7 @@ export function buildWorld(E) {
   const WP = wedgePts(F9, -M.SWEEP / 2, M.SWEEP / 2, 48), WA = wedgePts(F9, M.ELL.T / 2 - M.SWEEP / 2, M.ELL.T / 2 + M.SWEEP / 2, 48);
   fan(root, 48, '#86868c', 0.16).set(F9, WP); fan(root, 48, '#86868c', 0.16).set(F9, WA);
   label('tick', '1 h', () => centroid([F9, ...WP]).add(V(0.25, 0, 0))); label('tick', '1 h', () => centroid([F9, ...WA]).add(V(-0.3, 0, 0.0)));
-  label('board', 'perigee', () => V(X9 + M.ELL.a * DO + 0.2, OY9, 1.0)); label('board', 'apogee', () => V(X9 - M.ELL.a * DO - 0.2, OY9, -1.0));
+  label('board', 'перигей', () => V(X9 + M.ELL.a * DO + 0.2, OY9, 1.0)); label('board', 'апогей', () => V(X9 - M.ELL.a * DO - 0.2, OY9, -1.0));
   label('vec blue', 'v', () => tip(vE, 0.15));
   // opened: the satellite at perigee and at apogee, r and v at each
   const kp = [0, M.ELL.T / 2].map((t, k) => {
