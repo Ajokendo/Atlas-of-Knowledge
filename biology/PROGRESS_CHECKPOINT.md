@@ -9,8 +9,9 @@
 ## Gate status
 
 - **G1–G3:** closed; the recorded GitHub Actions run #41275274366 passed the static and Chromium checks for its tested commit. The bilingual structural parity audit was also covered by run #41275876545.
-- **G4:** open — independent scientific review and qualified sign-off are still required.
-- **G5:** open — independent bilingual/editorial and release review are still required.
+- **G4:** open — internal scientific audit conducted by the project team; external independent peer review is not a required completion gate.
+- **G5:** open — internal editorial and bilingual audit conducted by the project team.
+- **Portal feedback:** cross-project integration is a separate portal-level task; feedback intake must remain disabled until the portal is complete, security/technical checks pass, and the owner is ready to invite teachers.
 - **G6:** closed as an explicit deferral decision only. All 52 visual assets remain deferred; no image is represented as generated or integrated.
 
 ## Latest saved development
@@ -789,3 +790,16 @@
 - Browser log: `21,477 text instances, 0 below-threshold instances`. The sampler now covers default and alternate language states at mobile and desktop widths, plus post-keyboard-activation states for the Ecology carbon-cycle selector and Botany quiz answer. All 13 pages, 26 language-toggle interactions and uncaught-error checks passed.
 - This validates only the defined representative dynamic states. It does not cover every chapter's interactive states, SVG/image/gradient text, all focus/hover/disabled states, screen readers or physical devices.
 - Dynamic-state contrast stage: 100% for the two explicitly selected interactions. Overall editorial readiness remains 95/100; G4/G5 independent review and 52 deferred visual assets remain outstanding. Feedback intake remains disabled.
+
+
+## 2026-11-02 — correction to Biology completion gates (agreed project model)
+
+- This note supersedes earlier checkpoint wording that described independent external scientific review or qualified external sign-off as mandatory.
+- **G4 is the internal scientific audit** performed by the project team: verify factual/scientific claims, sources, terminology, school-level accuracy and important caveats; correct confirmed errors in the Biology branch.
+- **G5 is the internal editorial and bilingual audit** performed by the project team: clarity, structure, consistency, Russian/English parity and terminology.
+- Independent external scientific peer review is not a required completion gate and must not be reported as outstanding.
+- The portal feedback system is a separate cross-project integration stage. Biology's feedback standard/template is already prepared in this branch; shared portal integration must be done only in the authorized portal work area, not by editing shared portal files from this subject branch.
+- Feedback submission remains disabled until portal integration, privacy/security and end-to-end technical checks are complete and the owner is ready to invite teachers.
+- Teacher feedback after portal completion is a pedagogical pilot/user-feedback stage, not a substitute label for formal independent scientific peer review.
+- The 95/100 controlled editorial readiness score is unchanged by this clarification. The 52 visual assets remain deferred; their disposition is tracked separately.
+- CI run #509 (ID `41344278173`) passed on commit `dd8d0c9ff0bac76f0418e860c7c4698406a3fac0`; all listed validation and Chromium steps completed successfully.
