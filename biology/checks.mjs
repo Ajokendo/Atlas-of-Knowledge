@@ -239,7 +239,7 @@ const geneRegulationStart = geneticsFile.indexOf('id="gene-expression-regulation
 const geneticCodeStart = geneticsFile.indexOf('<section class="detail"><h2 id="detail-title">');
 const geneRegulationBlock = geneticsFile.slice(geneRegulationStart, geneticCodeStart);
 if (geneRegulationStart < 0 || geneticCodeStart <= geneRegulationStart) errors.push("chapters/genetics.html: gene-regulation lesson must appear before the genetic-code detail");
-for (const phrase of ["Регуляция экспрессии генов", "Regulation of gene expression", "Транскрипционные факторы", "transcription factors", "Эпигенетические изменения", "Epigenetic changes", "not automatic"]) {
+for (const phrase of ["Регуляция экспрессии генов", "Regulation of gene expression", "транскрипционные факторы", "transcription factors", "Эпигенетические изменения", "Epigenetic changes", "not automatic"]) {
   if (!geneRegulationBlock.includes(phrase)) errors.push("chapters/genetics.html: gene-regulation lesson missing bilingual concept or qualification: " + phrase);
 }
 
