@@ -60,3 +60,6 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Added browser assertions for all five external source links, safe new-tab attributes, RU/EN labels, and unchanged numerical values after language switching.
 - [x] Full Chemistry CI run [41341078589](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41341078589) completed with `status=completed` and `conclusion=success` on commit `51b373ce6eeccd5ff5f0aac2ddf95547aa170b19`.
 - [ ] Physical-device, assistive-technology, manual zoom/reflow, and independent scientific reviews remain external pending gates. This checkpoint does not change the recorded 85% internal audit milestone.
+
+- [x] Expanded the molecular-laboratory browser checks to exercise arrow-key rotation, pointer dragging, reset to the default orientation, and preservation of the selected molecule plus its accessible name across RU/EN switching.
+- [x] Full Chemistry CI run [41341324210](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41341324210) completed with `status=completed` and `conclusion=success` on commit `76d4899c3da587dbae516f66ebcf199cb22bc0dc`.
