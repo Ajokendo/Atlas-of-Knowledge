@@ -26,6 +26,7 @@ async function checkLab(lab, mobile) {
     reducedMotion: 'reduce',
   });
   const page = await context.newPage();
+  page.setDefaultTimeout(15000);
   const runtimeErrors = [];
   page.on('pageerror', error => runtimeErrors.push(error.message));
   page.on('console', message => {
@@ -33,8 +34,8 @@ async function checkLab(lab, mobile) {
   });
   try {
     const response = await page.goto(`${base}/original-engine/${lab}/`, {
-      waitUntil: 'load',
-      timeout: 60000,
+      waitUntil: 'domcontentloaded',
+      timeout: 30000,
     });
     if (!response || !response.ok()) throw new Error(`HTTP response ${response?.status() ?? 'missing'}`);
     await page.waitForSelector('#sheet h1', { timeout: 30000 });
@@ -43,7 +44,7 @@ async function checkLab(lab, mobile) {
       return canvas && canvas.width > 0 && canvas.height > 0 &&
         document.querySelector('.page-announcement') &&
         document.querySelectorAll('#dots button').length > 0;
-    }, { timeout: 30000 });
+    }, undefined, { timeout: 15000 });
 
     const state = await page.evaluate(() => {
       const canvas = document.querySelector('#gl');
