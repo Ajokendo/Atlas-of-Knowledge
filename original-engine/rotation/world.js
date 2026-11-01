@@ -53,7 +53,7 @@ export function buildWorld(E) {
 
   // ---------- helpers ----------
   const force = (parent, red = false, name = 'Векторы') => arrow(parent, red ? 'red' : 'ink', { r: 0.022, head: 0.12, headR: 0.06, name });
-  const comp = (parent, name = 'Components') => arrow(parent, 'dark', { r: 0.016, head: 0.09, headR: 0.045, name, tone: 'mid' });
+  const comp = (parent, name = 'Составляющие') => arrow(parent, 'dark', { r: 0.016, head: 0.09, headR: 0.045, name, tone: 'mid' });
   const tip = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + 0.16, 0)) : null;
   // a curved arrow: an arc of a torus with a cone at its end, drawn over solids like the straight ones
   function curve(parent, pal, { R, tube = 0.018, head = 0.12, headR = 0.05, name = 'Векторы', tone = 'hi', noHead = false }) {
@@ -149,7 +149,7 @@ export function buildWorld(E) {
     part(g, box(M.DOOR.W, DH, 0.04, 0.01), { tone: 'hi', pos: [M.DOOR.W / 2 + 0.01, DH / 2, 0], name: 'Дверь' });
     part(g, box(0.1, 0.035, 0.05, 0.012), { tone: 'hi', pal: 'dark', pos: [0.85, PH, 0.05], name: 'Ручка' });
     const c = M.DOOR.cases[i];
-    return { g, H, c, F: force(gO), al: curve(gO, 'red', { R: 0.42 }), perp: comp(gO), par: comp(gO), act: dyn(gO), arm: rod(gO, 0.014, 'ink', 'Lever arm', 'hi', true), ghost: ghostOf(new THREE.BoxGeometry(M.DOOR.W, DH, 0.04).translate(M.DOOR.W / 2 + 0.01, DH / 2, 0)) };
+    return { g, H, c, F: force(gO), al: curve(gO, 'red', { R: 0.42 }), perp: comp(gO), par: comp(gO), act: dyn(gO), arm: rod(gO, 0.014, 'ink', 'Плечо силы', 'hi', true), ghost: ghostOf(new THREE.BoxGeometry(M.DOOR.W, DH, 0.04).translate(M.DOOR.W / 2 + 0.01, DH / 2, 0)) };
   });
   doors.forEach(d => { d.ghost.position.copy(d.H); });
   doors.forEach((d, i) => {
@@ -366,7 +366,7 @@ export function buildWorld(E) {
     part(g, cyl(IR, 0.08, 72), { tone: 'hi', pos: [0, 0.04, 0], name: 'Платформа' });
     for (let k = 0; k < 4; k++) { const s = part(g, box(2 * IR - 0.1, 0.012, 0.025, 0.004), { tone: 'lo', pal: 'base', name: 'Платформа', pos: [0, 0.085, 0] }); s.rotation.y = k / 4 * Math.PI; }
     part(g, box(0.16, 0.12, 0.16, 0.02), { tone: 'hi', pal: 'dark', pos: [IR - 0.15, 0.14, 0], name: 'Сиденье' });
-    return { g, p, F: force(gM), w: curve(gM, 'ink', { R: 0.5 }), r: comp(gM, 'Lever arm') };
+    return { g, p, F: force(gM), w: curve(gM, 'ink', { R: 0.5 }), r: comp(gM, 'Плечо силы') };
   });
   mgrs.forEach((m, i) => {
     label('vec', 'F', () => tip(m.F));
