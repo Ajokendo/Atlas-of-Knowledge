@@ -98,3 +98,5 @@ These remaining release gates must be tracked and evidenced separately.
 - `FEEDBACK_SYSTEM_STANDARD.md` defines portal-wide and subject-level feedback, categories, moderation statuses, privacy, scientific correction handling, and release requirements.
 - `FEEDBACK_PORTING_GUIDE.md` is the reusable handoff for other subject teams.
 - This is a policy/architecture addition, not a completed public peer-review process. The static site has no configured submission endpoint or private moderation queue; do not claim that readers can submit feedback until end-to-end intake is configured and tested.
+
+- `FEEDBACK_WIDGET_TEMPLATE.html` is the reusable bilingual form template; it is intentionally not live until a secure HTTPS intake endpoint and private moderation queue are configured and tested.
