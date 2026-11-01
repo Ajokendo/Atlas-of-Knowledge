@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="t d">
+<title id="t">Горный склон: процессы формирования рельефа / Mountain slope processes</title><desc id="d">Conceptual cross-section showing weathering, surface runoff and erosion, landslide, rockfall and sediment accumulation.</desc>
+<rect width="1400" height="820" fill="#f5f7fa"/><rect x="38" y="35" width="1324" height="750" rx="26" fill="#fff" stroke="#d8e0e8" stroke-width="2"/>
+<text x="78" y="100" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#17324d">Горный склон: процессы формирования рельефа</text><text x="78" y="143" font-family="Arial,sans-serif" font-size="23" fill="#587086">Mountain slope: landform-forming processes</text>
+<path d="M90 620 L300 470 L470 260 L610 330 L770 405 L920 505 L1120 570 L1300 620 L1300 700 L90 700 Z" fill="#d9c4a0" stroke="#8a6b43" stroke-width="4"/>
+<path d="M90 620 L300 470 L470 260 L610 330 L770 405 L920 505 L1120 570 L1300 620" fill="none" stroke="#5d7d57" stroke-width="12"/>
+<path d="M440 302 l-24 30 m54 -12 l-24 34 m-2 -72 l-18 26" stroke="#6f6254" stroke-width="7" stroke-linecap="round"/>
+<path d="M510 300 Q590 355 680 390" fill="none" stroke="#2878a8" stroke-width="7" stroke-dasharray="12 9"/>
+<path d="M710 390 Q780 455 850 500" fill="none" stroke="#b66a2c" stroke-width="6" stroke-dasharray="10 8"/>
+<path d="M735 380 L820 425 L875 490 L850 520 L770 465 Z" fill="#b68b62" stroke="#704f36" stroke-width="4"/>
+<path d="M860 495 l45 32 l-18 26 l-46 -28 Z M915 530 l45 20 l-13 28 l-44 -18 Z M975 555 l45 18 l-11 23 l-46 -17 Z" fill="#8b8172" stroke="#5d554b" stroke-width="3"/>
+<path d="M530 230 L490 290" stroke="#17324d" stroke-width="3"/><text x="300" y="205" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#17324d">Выветривание / Weathering</text><text x="300" y="232" font-family="Arial,sans-serif" font-size="16" fill="#587086">Трещины и разрушение пород</text>
+<path d="M690 350 L650 390" stroke="#17324d" stroke-width="3"/><text x="660" y="285" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#176b8a">Эрозия / Erosion</text><text x="660" y="312" font-family="Arial,sans-serif" font-size="16" fill="#587086">Поверхностный сток</text>
+<path d="M820 410 L810 455" stroke="#17324d" stroke-width="3"/><text x="870" y="365" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#9a5128">Оползень / Landslide</text><text x="870" y="392" font-family="Arial,sans-serif" font-size="16" fill="#587086">Смещение массива по склону</text>
+<path d="M1020 495 L980 545" stroke="#17324d" stroke-width="3"/><text x="1030" y="455" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#61584e">Осыпь / Rockfall</text>
+<text x="1010" y="680" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#704f36">Аккумуляция / Deposition</text>
+<text x="80" y="748" font-family="Arial,sans-serif" font-size="16" fill="#66788a">Учебная схема, не в масштабе. Реальные процессы зависят от геологии, климата, воды и уклона.</text><text x="80" y="770" font-family="Arial,sans-serif" font-size="15" fill="#66788a">Conceptual diagram, not to scale. Actual processes depend on geology, climate, water and slope.</text>
+</svg>
