@@ -80,7 +80,7 @@ export function buildWorld(E) {
   }
 
   // ---------- projectile ----------
-  const proj = asm('proj', root, { title: 'Шар, брошенный под углом', sub: `launched at ${M.V0P.toFixed(1)} m/s, ${M.ANGLE.toFixed(1)}° up` });
+  const proj = asm('proj', root, { title: 'Шар, брошенный под углом', sub: `начальная скорость ${M.V0P.toFixed(1)} м/с, угол ${M.ANGLE.toFixed(1)}° к горизонту` });
   part(proj, new THREE.SphereGeometry(R, 48, 32), { tone: 'hi', name: 'Шар' });
   const projVG = asm('projV', root, { title: 'Скорость шара', sub: 'Один вектор, две независимые составляющие' });
   const projV = arrow(projVG, 'ink', { name: 'Скорость' });
@@ -104,7 +104,7 @@ export function buildWorld(E) {
 
   // ---------- graph boards ----------
   const boards = BOARDS.map(b => {
-    const g = asm(b.key, root, { title: `${b.title[0].toUpperCase() + b.title.slice(1)} – time graph`, sub: b.key === 'boardX' ? 'its slope is the velocity' : b.key === 'boardV' ? 'its slope is the acceleration; its area is the displacement' : 'its area is the change in velocity' });
+    const g = asm(b.key, root, { title: `${b.title[0].toUpperCase() + b.title.slice(1)} – time graph`, sub: b.key === 'boardX' ? 'наклон графика равен скорости' : b.key === 'boardV' ? 'наклон графика равен ускорению; площадь под графиком — перемещению' : 'площадь под графиком равна изменению скорости' });
     const cx = b.x0 + BOARD.w / 2;
     part(g, box(BOARD.w, BOARD.h, 0.012, 0.004), { tone: 'faint', pal: 'board', pos: [cx, BOARD.h / 2 + 0.1, BOARD.z], name: 'График' });
     const zf = BOARD.z + 0.008;
