@@ -583,3 +583,15 @@
 - Identified exploratory language-editor leads: Ольга Шубина (KRSU English philology) and Айнура Абдыкасымова (BSU general/Russian linguistics). Their editing portfolios and availability have not been checked.
 - The independent argali population-genomics reviewer and general scientific coordinator remain unfilled. Do not substitute general genetics for mammalian conservation genomics.
 - Recruitment preparation remains at the last completed milestone, **75%**; this research update does not justify a percentage increase. No invitations sent, no acceptances, no G4/G5 sign-off.
+
+
+## Independent reviewer recruitment — 100% preparation milestone — 2 November 2026
+
+- Completed the recruitment-preparation shortlist for all eight reviewer role slots: general scientific coordinator, fish/freshwater ecology, mammalogy/conservation-genomics methods, ornithology, herpetology, botany/floristics, Russian editor and English editor.
+- Added Айгуль Чалданбаева as a potential general scientific/educational coordinator, supported by public academic records documenting biological and pedagogical qualifications and biology-education research. Any direct source or departmental overlap must be excluded from her review scope.
+- Added Salvatore Mastrangelo as a potential animal-genomics methods reviewer, supported by his university profile and publications in sheep genomics, SNP population structure, ROH and deer admixture. He is not a substitute for a field mammalogist or taxonomic reviewer; independence from the 2026 argali study and dataset must be confirmed.
+- Added Fabyano Fonseca e Silva as a backup animal-genomics / quantitative-methods lead. Wild-mammal relevance and independence still require verification.
+- The recruitment plan now includes a complete readiness checklist, recommended handoff order and explicit separation between preparation and actual recruitment.
+- **Recruitment-preparation progress: 100%.** No invitations have been sent, no candidate has accepted, and no G4/G5 independent review or sign-off has been received.
+- Controlled editorial readiness remains **95/100**. G4 and G5 remain open. All 52 illustration assets remain deferred; screen-reader, measured-contrast, keyboard and physical-device checks remain separate release gates.
+- This is completion of the recruitment package only; it is not publication approval.
