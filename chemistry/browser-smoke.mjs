@@ -965,6 +965,18 @@ try {
       await page.locator("#a").fill("1");
       await page.locator("#b").fill("1");
       await page.locator("#c").fill("1");
+      await page.locator("#na").fill("1");
+      await page.locator("#nb").fill("1.00000000005");
+      await page.locator("#actual").fill("");
+      await page.locator("#na").dispatchEvent("input");
+      if ((await page.locator("#limit").innerText()).trim() !== "A" ||
+          !(await page.locator("#left").innerText()).includes("Остаток B")) {
+        errors.push(file + ": a real 5e-11 relative excess must not be rounded into an exact stoichiometric ratio");
+      }
+
+      await page.locator("#a").fill("1");
+      await page.locator("#b").fill("1");
+      await page.locator("#c").fill("1");
       await page.locator("#na").fill("0.000000000001");
       await page.locator("#nb").fill("0.000000001");
       await page.locator("#actual").fill("");
