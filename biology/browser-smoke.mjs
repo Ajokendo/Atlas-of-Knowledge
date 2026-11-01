@@ -24,6 +24,77 @@ try {
       current = file;
       const response = await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
       if (!response || !response.ok()) errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
+
+      // Preliminary WCAG 2.2 contrast sampling for visible, ordinary DOM text.
+      // Background images/gradients and translucent layered effects are excluded from this automated pass.
+      const contrast = await page.evaluate(() => {
+        const parse = value => {
+          const m = value.match(/rgba?\\(([^)]+)\\)/);
+          if (!m) return null;
+          const parts = m[1].split(",").map(x => Number.parseFloat(x.trim()));
+          return { r: parts[0], g: parts[1], b: parts[2], a: parts.length > 3 ? parts[3] : 1 };
+        };
+        const composite = (fg, bg) => {
+          const a = fg.a + bg.a * (1 - fg.a);
+          if (!a) return { r: 255, g: 255, b: 255, a: 1 };
+          return {
+            r: (fg.r * fg.a + bg.r * bg.a * (1 - fg.a)) / a,
+            g: (fg.g * fg.a + bg.g * bg.a * (1 - fg.a)) / a,
+            b: (fg.b * fg.a + bg.b * bg.a * (1 - fg.a)) / a,
+            a
+          };
+        };
+        const luminance = c => {
+          const channel = v => {
+            v /= 255;
+            return v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4;
+          };
+          return 0.2126 * channel(c.r) + 0.7152 * channel(c.g) + 0.0722 * channel(c.b);
+        };
+        const ratio = (a, b) => {
+          const x = luminance(a), y = luminance(b);
+          return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05);
+        };
+        const white = { r: 255, g: 255, b: 255, a: 1 };
+        const rows = [];
+        for (const el of document.querySelectorAll("body *")) {
+          const directText = [...el.childNodes].some(n => n.nodeType === Node.TEXT_NODE && n.textContent.trim());
+          const style = getComputedStyle(el);
+          if (!directText || style.display === "none" || style.visibility === "hidden" ||
+              Number(style.opacity) === 0 || !el.getClientRects().length) continue;
+          const fg = parse(style.color);
+          if (!fg) continue;
+          let bg = white, node = el;
+          while (node && node !== document.documentElement) {
+            const s = getComputedStyle(node);
+            const candidate = parse(s.backgroundColor);
+            if (candidate && candidate.a > 0) {
+              bg = composite(candidate, bg);
+              if (bg.a >= 0.999) break;
+            }
+            if (s.backgroundImage && s.backgroundImage !== "none") { bg = null; break; }
+            node = node.parentElement;
+          }
+          if (!bg || bg.a < 0.999) continue;
+          const size = Number.parseFloat(style.fontSize) || 16;
+          const weight = Number.parseInt(style.fontWeight, 10) || 400;
+          const large = size >= 24 || (size >= 18.66 && weight >= 700);
+          const measured = ratio(fg, bg);
+          rows.push({
+            text: (el.innerText || el.textContent || "").trim().replace(/\\s+/g, " ").slice(0, 90),
+            selector: el.tagName.toLowerCase() + (el.id ? "#" + el.id : "") +
+              (typeof el.className === "string" && el.className ? "." + el.className.trim().split(/\\s+/).join(".") : ""),
+            ratio: Number(measured.toFixed(2)),
+            required: large ? 3 : 4.5,
+            pass: measured >= (large ? 3 : 4.5)
+          });
+        }
+        return { measured: rows.length, failures: rows.filter(x => !x.pass) };
+      });
+      if (contrast.failures.length) {
+        errors.push(file + ": preliminary text contrast failures " + JSON.stringify(contrast.failures.slice(0, 8)) +
+          (contrast.failures.length > 8 ? " (+" + (contrast.failures.length - 8) + " more)" : ""));
+      }
       if (!(await page.locator("main").count())) errors.push(file + ": missing main landmark");
       const lang = page.locator("#lang, #language").first();
       if (await lang.count()) {
