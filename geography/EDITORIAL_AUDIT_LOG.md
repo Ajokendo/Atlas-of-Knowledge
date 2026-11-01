@@ -884,3 +884,6 @@ The current marker additions are production instructions/placeholders only; no g
 - Added the NOAA Global Monitoring Laboratory annual-mean source to both bibliographies: https://gml.noaa.gov/aggi/aggi.html
 - Chapter 02 verified commit: `bd591174a343f69b5640175b6537b06f286d9f85`; blob `9222a2c6a67fb551e9a405b114c2a0ffe4527b11`.
 - Chapter 05 verified commit: `4b62689df6c5e4781242fcca34766d336f42dc3f`; blob `7b22b0a83c9503c7272a9c937043e0543082e69b`.
+
+
+- Follow-up clarification: Chapters 02 and 05 now explicitly distinguish NOAA's 2025 marine-site annual mean (425.6 ppm, preliminary) from WMO's 2025 global surface mean (426.8 ppm), and cite both primary sources. This prevents different observing networks and averaging methods from being conflated. Final Chapter 02 blob: `17aa443073eca7d171651db7c0f67abdeed3066f`; final Chapter 05 blob: `012f3ef9a77eebe474d4d2c1d914367e55b5f472`.
