@@ -35,3 +35,19 @@ These are crops from one generated collage, not independent source photographs. 
 - A future accepted asset needs a verified full-resolution file, bilingual alt text and caption, provenance/licence note, reviewer and commit SHA.
 
 These drafts demonstrate image-generation and review steps but do not close any illustration marker or publication gate.
+
+
+## Third production attempt: six alpine biodiversity concept crops
+
+A further six-panel collage was generated (ImageGen generation ID `d34da22d-d7e5-4247-9be9-e2f29d102e1a`). The collage was split into six separate local WebP review files:
+
+- `biology-snow-leopard-candidate.webp` — 509×508
+- `biology-golden-eagle-candidate.webp` — 502×508
+- `biology-argali-like-ram-candidate.webp` — 508×508
+- `biology-alpine-partridge-like-bird-candidate.webp` — 509×508
+- `biology-marmot-candidate.webp` — 502×508
+- `biology-butterfly-candidate.webp` — 508×508
+
+The bird resembles a partridge/chukar-type bird, but the generated image is not adequate to establish species identity. The ram is only an argali-like visual concept; horn morphology and body proportions require review. The butterfly is not identified to species or genus. The marmot is likewise not assigned a species. The snow leopard and eagle depictions also remain generated concepts requiring anatomical review. No panel is evidence of a photographed Kyrgyzstan locality, population, abundance or season.
+
+These six crops are local-only drafts, not repository assets. They are not approved for chapter use, and all related marker dispositions remain Deferred. The original collage includes visible grid separators; crops were taken within the panel boundaries and resized only by lossless-format encoding, not retouched to imply documentary photography.
