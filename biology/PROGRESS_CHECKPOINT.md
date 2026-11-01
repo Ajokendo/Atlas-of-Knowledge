@@ -102,3 +102,11 @@
 - Updated `IMAGE_DRAFT_REVIEW_2026-11-01.md` with generation provenance, exact local filenames/dimensions and scientific holds. README records the pilot.
 - No raster image has been added to GitHub or inserted into a chapter. All 52 markers remain Deferred; no marker, target filename or anchor changed.
 - Controlled editorial readiness remains **95/100**. G4 and G5 remain open. No new test or CI success is claimed.
+
+
+## Third illustration production attempt — 1 November 2026
+
+- Generated one six-panel alpine biodiversity concept collage (ImageGen generation ID `d34da22d-d7e5-4247-9be9-e2f29d102e1a`) and split it into six local WebP review candidates: snow-leopard-like cat, eagle-like raptor, argali-like ram, partridge-like bird, unidentified marmot and unidentified butterfly.
+- Exact filenames and pixel dimensions, plus taxonomic cautions, are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. These are generated concepts, not field records or verified locality evidence.
+- No raster asset was added to GitHub or integrated into a chapter. All 52 markers remain Deferred; no marker or target path changed.
+- Controlled readiness remains **95/100**. G4/G5 remain open. No test or CI success is claimed.
