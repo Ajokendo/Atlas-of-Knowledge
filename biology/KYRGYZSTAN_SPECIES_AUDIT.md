@@ -1,0 +1,64 @@
+# Kyrgyzstan regional species-evidence audit
+
+**Status:** editorial audit of the seven-oblast flora and fauna chapters; not a national checklist, taxonomic monograph, or independent verification of every underlying record.
+
+## Purpose and method
+
+This audit checks whether the regional chapter structure distinguishes habitat context, dated observations, published locality records, historical reports and national-level checklist information. It uses the current committed text of `chapters/flora-kyrgyzstan.html`, `chapters/fauna-kyrgyzstan.html` and the shared `KYRGYZSTAN_BIODIVERSITY_DATA_STANDARD.md`.
+
+A regional heading or a species mentioned in a regional narrative is not, by itself, proof of a verified occurrence at every named site in that oblast. Evidence labels should be applied to individual claims only when the cited source supports the same taxon, locality, date and method. Where the text does not provide that complete chain, the claim remains contextual or requires follow-up.
+
+## Seven-oblast coverage matrix
+
+| Oblast | Flora chapter focus | Fauna chapter focus | Evidence / editorial boundary |
+|---|---|---|---|
+| Jalal-Abad | Arslanbob walnut-fruit forests; Sary-Chelek; Besh-Aral; Padysha-Ata | Menzbier's marmot; Besh-Aral; Sary-Chelek; Padysha-Ata | Keep reserve-level records separate from valley-wide range claims. The Ministry's dated Besh-Aral confirmation for Menzbier's marmot must not be generalized to every neighbouring valley. |
+| Issyk-Kul | Tyup and Jergalan deltas; western basin and foothills; Terskey spruce forests; Sarychat-Ertash | Kushtar 2026 bird event; Ramsar wetlands; Issyk-Kul fish research; Sarychat-Ertash | A dated bird count is an event observation, not an annual population estimate. Historical fish totals and ongoing surveys are not a final current checklist. |
+| Naryn | Son-Kul; Chatyr-Kul; Naryn Reserve spruce forests; At-Bashy and Arpa | Tien Shan maral; snow leopard; Son-Kul and Chatyr-Kul birds; reserve mammals and fish | Preserve the survey footprint for the 2024 maral estimate and distinguish it from an oblast-wide population. Wetland site descriptions and camera-trap detections do not establish current abundance. |
+| Osh | Kulun-Ata; Kyrgyz-Ata; walnut-fruit and wild-fruit communities; Alay and Chon-Alay | Mountain predators and ungulates; forest/juniper mammals; raptors; Osh urban ecology | Do not transfer a national snow-leopard estimate to Osh or a protected area without a spatially explicit source. Habitat suitability is not a confirmed record. |
+| Batken | Aygul-Tash and Eduard's fritillary; wild tulips; juniper slopes; Madygen | 2026 spring marmot census; Surmatash; Sarkent; dry foothill reptiles | Retain survey date, area and method with census figures. A regional or national reptile checklist is not a site-level occurrence record. |
+| Talas | Besh-Tash; spruce and juniper communities; river valleys; alpine meadows | Besh-Tash camera-trap records; maral; marmots; raptors and high-altitude birds | Camera-trap detections establish presence during the monitoring period, not population size or continuous occupancy. Ministry park-wide plant richness is not a presented species checklist. |
+| Chuy | Ala-Archa; Chon-Kemin; Issyk-Ata; valley steppe and semi-desert | Ala-Archa mammals; Chon-Kemin camera traps; Shamshy-Tuyuk; Kök-Oyrok; Ak-Suu | Keep named camera-trap sites and dates attached to detections. Do not merge separate protected-area records into one oblast-wide inventory. |
+
+## Cross-cutting findings
+
+1. **Seven-oblast structure is present in both chapters.** The regional framework is broad enough to guide future inventories, but it does not yet constitute seven complete, verified species checklists.
+2. **The strongest claims are bounded observations.** Dated surveys, camera-trap events, official reserve notices and published plot studies should retain their date, locality, sampled area, effort and source.
+3. **National and regional scales must remain distinct.** A national checklist or national population model cannot be presented as proof of presence or abundance in a particular oblast, reserve or valley.
+4. **Historical and contemporary evidence must not be merged.** Historical Red Data Book references, Ramsar inventory figures and older fish assessments need an edition/year label and a current-source check before being described as current.
+5. **Taxonomic uncertainty remains visible.** Synonyms, changing species concepts and provisional identifications should be recorded in the shared data standard; uncertain fish, amphibian, reptile and invertebrate totals should not be promoted to definitive counts.
+6. **Sensitive localities require care.** Exact coordinates for threatened plants, nests, dens and vulnerable populations should be withheld or generalized in public-facing materials where disclosure could increase risk.
+
+## Required evidence fields for future species accounts
+
+Each account should record, where applicable:
+
+- accepted scientific name, authority where useful, and synonyms;
+- exact locality and spatial precision, with sensitive coordinates generalized publicly;
+- date or date range and source publication / survey;
+- evidence type (voucher, direct observation, photograph, camera trap, acoustic record, eDNA, published report or checklist);
+- survey method and effort, including sampled area, route length, observation hours or camera-days;
+- identification basis and confidence, including reviewer where available;
+- whether the statement concerns presence, repeated detections, number of individuals, relative index or a population estimate;
+- conservation category, assessment system and assessment year, kept distinct for national and IUCN classifications.
+
+## Priority follow-up
+
+| Priority | Work required | Publication rule until resolved |
+|---|---|---|
+| P1 | Attach a source and evidence scope to every named species-level regional claim. | Retain qualified wording; do not label as a confirmed local record without matching locality evidence. |
+| P1 | Reconcile current national Red Data Book entries and assessment dates with IUCN categories. | Name the system and edition/year; do not infer one category from the other. |
+| P1 | Review fish, amphibian, reptile and terrestrial-invertebrate lists against current taxonomic treatments. | Keep totals provisional where checklists or identifications remain unsettled. |
+| P2 | Build oblast-by-oblast occurrence tables from published and curated records, with duplicate and synonym handling. | Publish only records with traceable source metadata and locality scope. |
+| P2 | Add distribution maps only after spatial validation and sensitive-record generalization. | Never derive a precise range polygon from a country-level checklist alone. |
+
+## Limitations
+
+This pass is a structured editorial audit of the repository's current chapter content. It does not independently re-open every linked publication, inspect original vouchers, validate coordinates, or re-identify specimens. It therefore does **not** certify every regional occurrence claim. The next species-account pass must check the primary source for each claim and attach a claim-level evidence label under the shared data standard.
+
+## Core methodology
+
+- [GBIF — Occurrence data quality requirements](https://www.gbif.org/data-quality-requirements-occurrences)
+- [GBIF — Sampling-event data quality requirements](https://www.gbif.org/data-quality-requirements-sampling-events)
+- [GBIF — Technical occurrence download formats](https://techdocs.gbif.org/en/data-use/download-formats)
+- [IUCN — Red List assessment guidelines](https://nrl.iucnredlist.org/resources/redlistguidelines)
