@@ -65,3 +65,13 @@
 - Regression checks commit: `4cc01025f6066befd783b9b745747392ae14cbab`.
 - README log commit: `05f553bdb0cff315e0695bbdfd337f28b81b5abd`.
 - Focused source read-back is pending. Full Node.js, Chromium and CI suites have not yet been rerun. Readiness remains 95/100; G4/G5 remain open.
+
+
+## Renal physiology extension
+
+- Added a bilingual nephron and renal-regulation lesson covering filtration, selective reabsorption, secretion, aldosterone, vasopressin and RAAS.
+- Added an accessible nephron SVG with bilingual title/description and regression assertions for placement, mechanisms, bilingual content and scientific caveats.
+- Chapter commit: `029a51f04974c6e6c1a06065bdec60c8bd1f09c5`.
+- Regression-check commit: `c3a24ceae7d3b933118ab5f9cdd9a5bb7de7d99c`.
+- README log commit: `9becc8851d4792dbe368e367ad867fb489a012af`.
+- Full Node.js, Chromium and CI checks have not yet been run on these latest commits. Controlled readiness remains 95/100; G4/G5 remain open. Existing 52 image anchors and their Deferred dispositions are unchanged.
