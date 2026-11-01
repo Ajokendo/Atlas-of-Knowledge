@@ -57,6 +57,27 @@ for (const file of pages) {
     catch (e) { errors.push(rel + ": JS syntax " + e.message); }
   }
 }
+
+// Check bilingual block alignment, numeric parity and scientific-name parity.
+const plainText = value => value.replace(/<[^>]*>/g, " ").replace(/\\s+/g, " ").trim();
+const numericTokens = value => [...plainText(value).matchAll(/\\d{1,3}(?:[ ,\\u00a0]\\d{3})+(?:[.,]\\d+)?|\\d+(?:[.,]\\d+)?/g)]
+  .map(m => m[0].replace(/[^\\d]/g, "")).sort();
+const latinNameSet = blocks => [...new Set([...blocks.join(" ").matchAll(/<i class=["']latin["']>([^<]+)<\\/i>/gi)].map(m => m[1].trim()))].sort();
+for (const file of pages) {
+  const html = fs.readFileSync(file, "utf8");
+  const rel = path.relative(root, file);
+  const ruBlocks = [...html.matchAll(/<span class=["']ru["']>([\\s\\S]*?)<\\/span>/gi)].map(m => m[1]);
+  const enBlocks = [...html.matchAll(/<span class=["']en["']>([\\s\\S]*?)<\\/span>/gi)].map(m => m[1]);
+  if (ruBlocks.length !== enBlocks.length) errors.push(rel + ": RU/EN block counts differ");
+  for (let i = 0; i < Math.min(ruBlocks.length, enBlocks.length); i++) {
+    if (numericTokens(ruBlocks[i]).join("|") !== numericTokens(enBlocks[i]).join("|")) {
+      errors.push(rel + ": numeric evidence differs between RU/EN block pair " + i);
+    }
+  }
+  if (latinNameSet(ruBlocks).join("|") !== latinNameSet(enBlocks).join("|")) {
+    errors.push(rel + ": scientific-name sets differ between Russian and English content");
+  }
+}
 // Validate local HTML fragments as well as local file paths.
 for (const file of pages) {
   const html = fs.readFileSync(file, "utf8");
