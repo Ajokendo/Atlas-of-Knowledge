@@ -167,14 +167,17 @@ for (const file of htmlFiles) {
 }
 
 const redoxSource = fs.readFileSync(path.join(root, "chapters/redox.html"), "utf8");
-for (const [label, pattern] of [
-  ["oxygen difluoride exception", /OF₂[\\s\\S]{0,180}(?:\+2|\\+2)/],
-  ["peroxide oxygen state", /H₂O₂[\\s\\S]{0,80}−1/],
-  ["superoxide average oxygen state", /KO₂[\\s\\S]{0,100}−½/],
-  ["Russian oxidation-state exception note", /data-i="stateExceptions"[\\s\\S]{0,600}кислород/],
-  ["English oxidation-state exception translation", /"stateExceptions":"Important exceptions:/]
+for (const [label, evidence] of [
+  ["oxygen difluoride exception", "OF₂"],
+  ["peroxide oxygen state", "H₂O₂"],
+  ["superoxide average oxygen state", "KO₂"],
+  ["Russian oxidation-state exception note", "Важные исключения:"],
+  ["English oxidation-state exception translation", "Important exceptions:"],
+  ["calculated oxygen state in OF₂", "x(O) = +2"],
+  ["peroxide oxidation state", "кислород −1"],
+  ["superoxide average oxidation state", "кислорода −½"]
 ]) {
-  if (!pattern.test(redoxSource)) errors.push("chapters/redox.html: missing or incomplete " + label);
+  if (!redoxSource.includes(evidence)) errors.push("chapters/redox.html: missing or incomplete " + label);
 }
 
 const periodicSource = fs.readFileSync(path.join(root, "periodic-table.html"), "utf8");
