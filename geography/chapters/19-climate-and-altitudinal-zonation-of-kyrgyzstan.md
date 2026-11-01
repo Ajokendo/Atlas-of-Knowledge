@@ -42,6 +42,10 @@ Kyrgyzstan lies deep within Eurasia, far from major oceanic moisture sources and
 
 ## 19.2. Атмосферная циркуляция и сезонность / Atmospheric Circulation and Seasonality
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-F / IMAGE PLACEHOLDER 19-F]** Сезонная схема атмосферной циркуляции над Центральной Азией: западный перенос, циклоны и континентальные вторжения; схема не должна имитировать прогноз погоды.
+> **EN:** Seasonal atmospheric-circulation diagram for Central Asia showing westerlies, cyclones and continental air incursions; it is not a daily weather forecast.
+
+
 В течение года над Центральной Азией взаимодействуют западный перенос умеренных широт, континентальные воздушные массы, циклоны и антициклональные поля. Их относительная роль меняется по сезонам и годам.
 
 **Зимой** в котловинах и долинах возможны устойчивые холодные периоды, температурные инверсии и застой воздуха. При вторжениях холодных континентальных масс температура резко понижается. Циклонические процессы с юго-запада могут приносить осадки, особенно на западные и юго-западные склоны.
@@ -55,6 +59,10 @@ Kyrgyzstan lies deep within Eurasia, far from major oceanic moisture sources and
 Seasonal circulation produces cold and often inversion-prone winters, changeable springs, hot and frequently dry summers in lower valleys, and a gradual autumn cooling. Mountain weather can differ sharply from conditions in nearby lowlands, and snowfall may occur at high elevations even during summer.
 
 ## 19.3. Температурный режим и высотный градиент / Temperature Regime and Vertical Gradient
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-G / IMAGE PLACEHOLDER 19-G]** Карта среднегодовой температуры по единому климатическому периоду с метеостанциями, высотными зонами и методом интерполяции.
+> **EN:** Mean annual temperature map for one consistent climate-normal period, with stations, elevation zones and interpolation method.
+
 
 Температура воздуха в целом понижается с высотой, но реальная скорость изменения зависит от сезона, влажности, облачности, ветра, экспозиции и состояния поверхности. Для свободной атмосферы часто используют ориентировочный средний вертикальный градиент около 6,5 °C на 1 000 м, однако его нельзя механически применять к любому склону или метеостанции.
 
@@ -131,6 +139,10 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 
 ## 19.7. Местные ветры и горно-долинная циркуляция / Local Winds and Mountain–Valley Circulation
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-H / IMAGE PLACEHOLDER 19-H]** Схема дневной и ночной горно-долинной циркуляции и температурной инверсии; направление потоков подписать отдельно.
+> **EN:** Diagram of daytime and nighttime mountain–valley circulation and temperature inversion, with airflow directions labelled.
+
+
 В течение суток в горных районах часто меняется направление местного ветра. Днём нагретый воздух поднимается по склонам и долинам (долинный ветер), ночью охлаждённый воздух стекает вниз (горный ветер). Эти потоки могут влиять на распределение облаков, туманов, загрязняющих веществ и локальных осадков.
 
 В отдельных котловинах и долинах возникают устойчивые местные ветры, связанные с перепадами давления, конфигурацией рельефа и прохождением воздушных масс через перевалы. Их названия и характеристики следует указывать только при наличии подтверждённых местных метеорологических данных.
@@ -138,6 +150,10 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 Ветер усиливает испарение и иссушение почв, перераспределяет снег, влияет на ощущаемую температуру и может осложнять транспорт и альпинистские маршруты. На открытых высокогорных плато скорость ветра и его порывистость особенно важны для оценки условий пребывания людей и эксплуатации инфраструктуры.
 
 ## 19.8. Высотная климатическая поясность / Altitudinal Climatic Zonation
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-I / IMAGE PLACEHOLDER 19-I]** Профиль высотных климатических поясов с температурой, осадками и снежным режимом; границы обозначить как ориентировочные и регионально изменчивые.
+> **EN:** Elevation profile of climatic belts showing temperature, precipitation and snow regime; belt boundaries are approximate and regionally variable.
+
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-C / IMAGE PLACEHOLDER 19-C]** Поперечный климатический профиль от долины до нивально-ледникового пояса с изменением температуры, осадков и снежного режима; границы поясов показывать как ориентировочные.
 
@@ -267,6 +283,10 @@ SPI thresholds often used as a guide are approximately −1 for moderately dry c
 Для горных районов неопределённость особенно важна: крупномасштабные модели могут недостаточно точно описывать локальные осадки, ветровые эффекты, температурные инверсии и сложную топографию.
 
 ## 19.12. Климат и хозяйственная деятельность / Climate and Human Activities
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 19-J / IMAGE PLACEHOLDER 19-J]** Инфографика климатических воздействий и адаптации в сельском хозяйстве, энергетике, водоснабжении, транспорте и здравоохранении.
+> **EN:** Infographic linking climate impacts and adaptation in agriculture, energy, water supply, transport and public health.
+
 
 **Сельское хозяйство.** Температура и осадки определяют сроки сева, потребность в орошении, риск заморозков, засух и теплового стресса. В горных районах важны микроклиматические различия и продолжительность безморозного периода.
 
