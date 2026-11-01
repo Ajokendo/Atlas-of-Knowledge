@@ -286,3 +286,13 @@
 - `checks.mjs`, browser tests and CI were not run during this pass; no test success is claimed.
 - Repeat-audit coverage: **30%**. Controlled editorial readiness: **95/100**. G4 scientific sign-off and G5 editorial/language sign-off remain open.
 
+## 40% repeat-audit milestone — 1 November 2026
+
+- Snow leopard: recorded the difference between PASK's modelled estimate of about 300 adults (95% CI 246–366) and the Ministry's 29 October 2026 indicative range of 450–550 animals. The chapter attributes and dates both and marks the difference unresolved.
+- Terskey Ala-Too: added the July–August 2025 Burkhan / Archaly expedition report, preserving the 98-cell survey design, limited sampling effort, DNA versus camera-trap evidence, local argali scope and corrected Otocolobus manul spelling.
+- Menzbier's marmot: added FFI/CEPF's 2021–2022 project estimate of about 16,145 animals, with the warning that the 2002 comparison is not fully comparable. Distinguished IUCN Red List Vulnerable (VU) from IUCN Green Status Critically Depleted / 13% recovery score.
+- Updated the regional species audit and added regression guards. GitHub read-back verified the edited chapter, audit and checks file.
+- The image insertion map and disposition register each retain 52 unique anchors; all remain Deferred. No illustration asset was added.
+- checks.mjs, browser tests, mobile checks and CI were not run; no test success is claimed.
+- Repeat-audit coverage: 40%. Controlled editorial readiness: 95/100. G4 scientific sign-off and G5 editorial/language sign-off remain open.
+
