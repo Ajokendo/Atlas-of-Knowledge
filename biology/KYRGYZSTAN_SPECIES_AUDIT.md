@@ -49,6 +49,7 @@ The following high-priority examples were checked against the linked source page
 | 29,367 marmots across four Talas-area survey sites | The Ministry's 16 July 2026 notice identifies Besh-Tash, Uyurmaral, Kara-Buura and Shilbi and reports 29,367 marmots combined; muskrats were also surveyed but no separate muskrat count is published. | Preserve the multi-site scope; the notice does not allocate the total among sites or identify all animals to species. |
 | Besh-Tash park flora richness (>800 higher-plant species) | A separate Ministry notice dated 19 September 2025 reports the park's location in Talas and the figure of more than 800 higher-plant species. | Present this as a broad park-level richness figure, not as a published complete checklist. |
 | Aygul / `Petilium eduardii` at Aygul-Tash and visitor-related threats | The 2025 Batken State University paper describes the locality and threats including picking, breakage and trampling. | Supports the conservation warning; the paper's access/moratorium statements are time-bound and must not be reused as a current access notice without a fresh official check. |
+| Central Asian amphibian checklist (GBIF dataset, version 1.18, 26 October 2026) | The open dataset compiles species and subspecies across five Central Asian countries, applies recent taxonomic treatments including changes in `Bufotes`, and records country-level presence status separately. | Use it as a current regional taxonomic and checklist cross-reference. It is a literature/observation compilation, not a new Kyrgyz field survey; country-level inclusion does not establish occurrence in a named oblast or protected area. |
 
 ## Required evidence fields for future species accounts
 
@@ -70,6 +71,7 @@ Each account should record, where applicable:
 | P1 | Attach a source and evidence scope to every named species-level regional claim. | Retain qualified wording; do not label as a confirmed local record without matching locality evidence. |
 | P1 | Reconcile current national Red Data Book entries and assessment dates with IUCN categories. | Name the system and edition/year; do not infer one category from the other. |
 | P1 | Review fish, amphibian, reptile and terrestrial-invertebrate lists against current taxonomic treatments. | Keep totals provisional where checklists or identifications remain unsettled. |
+| P1 | Cross-check Kyrgyz amphibian names and country-status flags against the GBIF-registered Central Asian checklist (version 1.18, 26 October 2026), recording any conflicts with older national sources. | Treat the dataset as a taxonomic compilation; do not convert its country-level status into oblast-level occurrence evidence. |
 | P2 | Build oblast-by-oblast occurrence tables from published and curated records, with duplicate and synonym handling. | Publish only records with traceable source metadata and locality scope. |
 | P2 | Add distribution maps only after spatial validation and sensitive-record generalization. | Never derive a precise range polygon from a country-level checklist alone. |
 
