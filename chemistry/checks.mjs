@@ -39,7 +39,7 @@ function objectLiteralAt(source, start) {
 
 function plainText(markup) {
   return markup
-    .replace(/<[^>]*>/g, "")
+    .replace(/<\/?[a-zA-Z][^>]*>/g, "")
     .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
