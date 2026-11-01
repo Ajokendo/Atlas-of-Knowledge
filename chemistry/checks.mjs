@@ -182,7 +182,7 @@ for (const [label, evidence] of [
 
 const lifeSource = fs.readFileSync(path.join(root, "chapters/chemistry-of-life.html"), "utf8");
 for (const [label, evidence] of [
-  ["carbohydrate classification in Russian", "Моносахариды"],
+  ["carbohydrate classification in Russian", "моносахариды, дисахариды и полисахариды"],
   ["storage polysaccharides", "Крахмал и гликоген"],
   ["cellulose structural role", "целлюлоза выполняет структурную функцию"],
   ["carbohydrate classification in English", "Carbohydrates are classified by the number of sugar units"],
