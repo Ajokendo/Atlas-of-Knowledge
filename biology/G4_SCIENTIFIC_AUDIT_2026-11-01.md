@@ -3,7 +3,7 @@
 **Date:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
 **Scope:** `chapters/flora-kyrgyzstan.html` and `chapters/fauna-kyrgyzstan.html`  
-**G4 progress:** **25%** — first of four planned scientific-review blocks completed.  
+**G4 progress:** **50%** — two of four planned scientific-review blocks completed.  
 **Status:** author-side evidence review and targeted correction; not independent expert sign-off.
 
 ## Method
@@ -44,6 +44,29 @@ Reviewed regional occurrence and taxonomic claims against their cited primary/of
 - Added a direct POWO source link.
 - Chapter update commit: `83b2a7b2bc0549065f0e2d924ef2da8a05d91ff6`.
 
+## Block 2 — taxonomy, systematics and evolution (completed)
+
+**Scope:** `chapters/systematics.html` and `chapters/evolution.html`.
+
+1. **Three-domain classification — qualified, not discarded.** The chapter presented Bacteria, Archaea and Eukarya as the modern system without clearly distinguishing the widely used three-domain classification from alternative phylogenomic tree hypotheses. Current work continues to support eukaryotes as closely related to and potentially nested within Asgard archaea; the precise branching placement is still actively investigated. The chapter now describes the three-domain framework as widely used, explains that some phylogenomic analyses support a two-domain model, and cites Zhang et al. (2025, *Nature*). The Russian and English text, interactive rank explanation, learning objective, quiz wording and explanatory feedback were aligned. This avoids presenting a teaching classification as a settled statement about the deepest branching topology. Source: https://www.nature.com/articles/s41586-025-08955-7
+
+2. **Species concepts and speciation — scientifically sound at the intended level.** The chapter explicitly states that the biological species criterion is not applicable to every organism, including bacteria and fossils, and notes hybridisation and asexual reproduction as complications. Its allopatric/sympatric descriptions, polyploidy example and prezygotic/postzygotic barrier distinctions are consistent with OpenStax. Added a direct OpenStax section reference specifically covering new-species formation and reproductive barriers. Source: https://openstax.org/books/biology/pages/18-2-formation-of-new-species
+
+3. **Cambrian boundary — corrected to the current chart.** The interactive timeline used the older rounded value 541 Ma. The International Commission on Stratigraphy 2026/06 chart gives the Cambrian base as 538.8 ± 0.6 Ma. Updated the Russian and English descriptions and the visible button label, including the language-switch label map, so the outdated 541 Ma value no longer reappears after switching languages. Source: https://stratigraphy.org/chart/
+
+4. **Earliest evidence of life — uncertainty made explicit.** The former 3.8 Ga description said only “possible early evidence”. It now explains that reported geochemical and morphological biosignatures in 3.8–3.7 Ga Isua rocks are disputed because of strong metamorphism, while more robust and widely accepted evidence is known from about 3.5 Ga. Both language versions of the default display and interactive timeline now match. Source: https://doi.org/10.1098/rstb.2024.0106
+
+5. **Other timeline anchors — checked and retained at appropriate precision.** The Great Oxidation Event at about 2.4 Ga is consistent with the evolutionary chronology literature; early `Homo sapiens` fossils at about 300 ka are supported by Jebel Irhoud finds. The dinosaurs-at-about-230-Ma entry is retained as a rounded educational marker, not an exact first-occurrence date. Sources: https://doi.org/10.1126/sciadv.1603076 ; https://humanorigins.si.edu/research/whats-hot-human-origins/our-species-arose-least-300000-years-ago
+
+6. **Evolutionary mechanisms and tree-reading concepts — no material error found in this pass.** The descriptions of mutation, natural selection, genetic drift, gene flow, homology, analogy, clades and phylogenetic trees maintain the necessary distinctions. The beetle selection model is labelled illustrative rather than predictive and correctly notes that response depends on heritability.
+
+### Block 2 changes committed
+
+- `biology/chapters/systematics.html`: qualified the three-domain model and added a current phylogenomics reference; aligned the bilingual rank explainer, learning objective and quiz.
+- `biology/chapters/evolution.html`: updated the Cambrian boundary to 538.8 ± 0.6 Ma; strengthened the early-life evidence caveat in both languages; fixed the translated timeline label; added ICS, early-life, Great Oxidation Event and Homo sapiens references; added the OpenStax speciation source.
+- `biology/browser-smoke.mjs`: while checking CI feedback, found and repaired a pre-existing missing closing brace in the Biochemistry-specific browser test block. This is a separate technical repair and does not count toward G4 progress.
+- Relevant commits: `71f2a9793da72ee950b33d8c68da0ea3c887dd3e`, `52d5b779bb213df685e8073efc3820e06eb1aaa4`, `f9d80c0ca328e9a00ec9ec295729516e502d6f4c`, `e0ee2d99bdd0e5f1b36a0fbbfe987f5a4c3b8a73`, `c1bd97ea5a2c738aa2c1c8827740f9679e8592bf`, `652e8e798578cd87b8ef714cf6da2e2ca56ecdb7`.
+
 ## Open items carried forward
 
 - Obtain author/voucher-level resolution of the Suusamyr `4 + 1` versus four-total discrepancy and the `Triplophysa` identifications.
@@ -53,4 +76,4 @@ Reviewed regional occurrence and taxonomic claims against their cited primary/of
 
 ## Completion accounting
 
-G4 is divided into four review blocks: (1) regional biodiversity and species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency. Block 1 is complete at the author-side evidence-review level: **1/4 = 25%**. No claim is made that the complete Biology Atlas or its independent-review gates are 25% publication-ready.
+G4 is divided into four review blocks: (1) regional biodiversity and species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency. Blocks 1 and 2 are complete at the author-side evidence-review level: **2/4 = 50%**. No claim is made that the complete Biology Atlas or its independent-review gates are 25% publication-ready.
