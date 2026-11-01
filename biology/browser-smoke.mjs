@@ -45,6 +45,7 @@ try {
           if (!controls.length || controls.some(x => !x.hasBoth || !x.activeLanguageVisible || !x.inactiveLanguageHidden)) {
             errors.push(file + ": biochemistry model controls do not expose the active English label after language switch");
           }
+        }
 
         if (file.endsWith("/ecology.html")) {
           const selectors = ["#carbon-controls button", "#pressure-controls button"];
