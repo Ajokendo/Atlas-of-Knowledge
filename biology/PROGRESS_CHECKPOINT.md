@@ -735,3 +735,10 @@
 - CI #497 (run ID `41343305277`, code commit `3877d69f89c657a81340192fb09040e6f4f79c58`) completed successfully.
 - Chromium confirmed Enter activates the first Botany quiz answer and Space activates the Ecology photosynthesis control; the latter also updates `aria-pressed` and the visible output. All existing checks remained green: 13 pages, two viewport sizes, 26 language-toggle interactions, no uncaught errors, 6,683 contrast samples / zero below-threshold instances, and first keyboard focus indicator.
 - Representative keyboard activation stage: 100% for the two defined controls. This is not a blanket claim for every interactive control. Full tab traversal, all-control activation, screen-reader and physical-device checks remain open.
+
+
+## 2026-11-01 — bilingual contrast sampling extension
+
+- Refactored the contrast sampler into a reusable Playwright helper and added a second sample immediately after switching each page to English. The previous sample covers the initial Russian state; this extension measures both visible language states at both viewport sizes.
+- New code commit: `83c66f279e68448b85180ff86492fff1788daebb`. CI verification pending.
+- Previously confirmed checks remain: 6,683 text instances in the initial state with zero below-threshold results; representative Enter/Space keyboard activation passed in CI #497.
