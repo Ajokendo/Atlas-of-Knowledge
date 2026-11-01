@@ -393,3 +393,13 @@
 - The seven live branches are `atlas-of-knowledge-integration`, `main`, `portal-foundation`, `workspace/biology`, `workspace/chemistry`, `workspace/geography`, and `workspace/physics`. All other discipline and integration branches remain intact.
 - Updated `BRANCH_AUDIT_2026-11-01.md` to record the confirmed owner cleanup. No merge, force-move or deletion was performed by this assistant.
 - Author-side repeat-audit coverage: **100%**. Controlled editorial readiness: **95/100**. G4/G5 independent sign-offs, 52 deferred illustration assets, and remaining browser/mobile/accessibility verification gates are still open.
+
+
+## Deleted Biology branch recovery audit checkpoint — 1 November 2026
+
+- Resolved historical `biology-atlas` tip `98ec95abfbce011f78fa96d8b6c813dc1b43fe29` after the branch ref had been deleted.
+- Git graph comparison against `workspace/biology`: 225 branch-only commits, merge base `20a69a14886131e50f7cb3e785103a741af670d4`; current workspace is 934 commits ahead of the old tip.
+- Path-filtered history identified 180 branch-only commits touching `biology/`; the other 45 of the 225 did not touch the Biology directory.
+- Reconciled all 14 Biology page files in the old branch's net diff against the current workspace. Legacy chapter modules, learning objectives, glossaries, quizzes, navigation, visual concepts and regional dossier material were found represented in the newer canonical files. The old fauna records checked (Besh-Aral marmot, Naryn maral estimate, Ramsar bird records, dated maral figure, 2026 fish-research memorandum) are present in the current expanded fauna chapter.
+- No confirmed useful Biology content missing from `workspace/biology` was found in this pass. No cherry-pick or overwrite was made. The full 180-commit SHA/message index and evidence notes are saved in `biology/BRANCH_AUDIT_2026-11-01.md` (commit `8558525447f9342221bac70f25017d7b6a14ffd6`).
+- This is a source-history and content reconciliation, not independent scientific approval or a fresh browser/mobile/accessibility test pass. Author-side repeat-audit coverage remains **100%**; controlled editorial readiness remains **95/100**; G4/G5 and visual/technical release gates remain open.
