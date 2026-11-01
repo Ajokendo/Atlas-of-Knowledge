@@ -43,7 +43,7 @@ startBook({
       put('hill', H, r, v);
       const X = x => CH.sx(x, H.x0, H.x1), Y = y => CH.sy(Math.max(Math.min(y, H.y1), H.y0), H.y0, H.y1);
       q('path[data-tangent="hill"]').forEach(p => p.setAttribute('d', `M${X(r - w)},${Y(v + e * w)}L${X(r + w)},${Y(v - e * w)}`));
-      q('#hilllive').forEach(el => { el.textContent = `at r = ${f(r * 100, 1)} cm the slope is ${f(-e, 0)} V/m, so E = ${f(e, 0)} N/C outward`; }); }
+      q('#hilllive').forEach(el => { el.textContent = `при r = ${f(r * 100, 1)} см наклон равен ${f(-e, 0)} В/м, поэтому E = ${f(e, 0)} Н/Кл направлено наружу`; }); }
     const rr = M.rodProbe(s.clock); put('rod', R.rod, rr, M.VrodAxis(rr));
     const z = M.axisProbe(s.clock); put('ring', R.ring, z, M.Vring(z)); put('disc', R.ring, z, M.Vdisc(z));
     const r = M.sphProbe(s.spheres.t);
