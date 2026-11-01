@@ -115,3 +115,14 @@ A standalone horizontal wildlife concept was generated (ImageGen generation ID `
 The composition depicts a large brown eagle in flight over a high-mountain landscape. The visual intent is a golden-eagle concept corresponding to the chapter's `Aquila chrysaetos` entry. However, species-level identification from generated artwork is not guaranteed; feather pattern, proportions, cere/beak and feet require ornithological review. The image is not a field photograph and does not establish an individual, locality, behavior record, season or population. The mountain setting is illustrative.
 
 This is a local-only draft; it has not been committed as a raster asset, inserted into a chapter, or approved for publication. It is a distinct flight composition and is counted as one new candidate. Existing image markers and dispositions remain unchanged.
+
+
+## Ninth production attempt: perched golden-eagle concept
+
+A standalone horizontal wildlife concept was generated (ImageGen generation ID `1191d3c1-3f8d-474b-b05a-b1c4fdb3d4d8`) and converted to WebP for local review:
+
+- `biology-golden-eagle-perched-candidate.webp` — 1536×1024, 337,922 bytes.
+
+The composition shows a large brown eagle perched on a rocky alpine ridge. It is a distinct pose and composition from the preceding flight candidate, but it repeats the same golden-eagle subject rather than expanding taxonomic coverage of the P1 bird plate. It is therefore recorded as an additional visual variant, not as a new species asset or a completed plate. Species-level identification, feather pattern, proportions, beak/cere and feet require ornithological review. The generated scene is not a field photograph and does not establish an individual, locality, behavior record, season or population.
+
+This candidate is local-only, uncommitted, not inserted and not approved for publication. Existing image markers and all 52 Deferred dispositions remain unchanged.
