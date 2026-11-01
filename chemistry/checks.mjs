@@ -418,6 +418,18 @@ for (const file of svgFiles) {
   if (!/<desc\b[^>]*>[\s\S]*?<\/desc>/i.test(source)) errors.push(relative + ": SVG missing accessible description");
 }
 
+const russianSvgFiles = svgFiles.filter(file => file.toLowerCase().endsWith("-ru.svg"));
+for (const file of russianSvgFiles) {
+  const source = fs.readFileSync(file, "utf8");
+  const relative = path.relative(root, file);
+  const title = source.match(/<title\\b[^>]*>([\\s\\S]*?)<\\/title>/i)?.[1] || "";
+  const description = source.match(/<desc\\b[^>]*>([\\s\\S]*?)<\\/desc>/i)?.[1] || "";
+  if (!/[А-Яа-яЁё]/.test(title)) errors.push(relative + ": Russian SVG title must contain Cyrillic text");
+  if (!/[А-Яа-яЁё]/.test(description)) errors.push(relative + ": Russian SVG description must contain Cyrillic text");
+  const englishPath = file.replace(/-ru\\.svg$/i, ".svg");
+  if (!fs.existsSync(englishPath)) errors.push(relative + ": matching English SVG is missing");
+}
+
 const isotopeSvgPath = path.join(assetRoot, "isotope-abundance.svg");
 if (fs.existsSync(isotopeSvgPath)) {
   const isotopeSvg = fs.readFileSync(isotopeSvgPath, "utf8");
