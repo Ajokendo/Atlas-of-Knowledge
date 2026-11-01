@@ -364,3 +364,10 @@
 - All 52 image anchors remain mapped and all 52 image dispositions remain Deferred; visual production is not complete.
 - checks.mjs and browser/mobile/accessibility/CI checks have not been run in this save cycle. No test pass is claimed.
 - Controlled editorial-readiness score remains 95/100; it is not increased by completing the author-side repeat audit.
+
+
+## Technical regression repair — 1 November 2026
+
+- Fixed duplicate declarations and the anatomy fixture-scope issue in `biology/checks.mjs`; aligned six assertions with the exact source wording and evidence scope already present in the chapters/audit.
+- GitHub Actions commit: `531218e9f4d3b059555f07f30c7185172e8b35d1`. Node.js regression validation passed for the 13 Biology HTML pages and configured static checks. Chromium install/browser smoke test outcome is pending at this checkpoint.
+- All 52 illustration anchors remain mapped and Deferred. G4/G5 remain open. Controlled editorial readiness: **95/100**; author-side repeat-audit coverage: **100%**.
