@@ -93,3 +93,12 @@
 - The candidate is not committed to the repository, not integrated into the chapter and not approved. The wild-tulip morphology is unverified against the Batken taxa listed in the chapter; Aygul nomenclature must follow `Petilium eduardii`.
 - See `IMAGE_DRAFT_REVIEW_2026-11-01.md`. The `image-brief-flora-batken` anchor and all 52 Deferred statuses remain unchanged.
 - No publication gate is closed; controlled readiness remains 95/100, G4/G5 remain open.
+
+
+## Second illustration production attempt — 1 November 2026
+
+- Generated a mountain biodiversity concept collage (ImageGen generation ID `decb1eeb-b86a-4b4c-abc7-9d6e5efcdd66`) and cropped three local WebP review candidates: snow-leopard-like cat (500×500), golden-eagle-like raptor (496×500), and unidentified horned mountain ram (498×500).
+- All three remain local-only drafts. They are not field photographs, do not establish a Kyrgyzstan locality, and have not passed zoological review. The ram is not identified as argali or any subspecies.
+- Updated `IMAGE_DRAFT_REVIEW_2026-11-01.md` with generation provenance, exact local filenames/dimensions and scientific holds. README records the pilot.
+- No raster image has been added to GitHub or inserted into a chapter. All 52 markers remain Deferred; no marker, target filename or anchor changed.
+- Controlled editorial readiness remains **95/100**. G4 and G5 remain open. No new test or CI success is claimed.
