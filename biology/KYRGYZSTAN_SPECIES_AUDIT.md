@@ -166,3 +166,29 @@ These figures are not evidence of a real change in national species richness. Th
 **Editorial rule:** use a checklist as a taxonomic or country-level reference index only after recording its version/date and scope. For a local occurrence claim, retain a dated primary observation, specimen, field report or other source that supports the named taxon and locality. A national checklist entry alone does not establish presence at every site or in every oblast.
 
 Sources: [Birds of Kyrgyzstan checklist](https://kyrgyzstan.birding.day/v2checklist.php?l=en) · [OSME country profile](https://osme.org/country-profiles/kyrgyzstan/) · [The Ornithology country database](https://theornithology.com/country/kyrgyzstan/) · [Limosa open-data list and scope note](https://app.limosa.online/en/checklist/kgz).
+
+
+## Local bird and mammal evidence update — 1 November 2026
+
+### Issyk-Kul: Zhetim-Bel ridge and Karakol State Nature Park
+
+The Ministry of Natural Resources notice dated 2 July 2026 reports camera-trap deployments on the Zhetim-Bel ridge and in Karakol State Nature Park. Cameras were installed in October 2025 with NABU Kyrgyzstan and removed from 22 to 28 June 2026. The notice names snow leopard, lynx, ibex, roe deer and wild boar. It also states that image processing and analysis were still under way and that specialists were refining distribution and habitat information.
+
+**Evidence classification:** official report of camera-trap detections at two named areas; not a published survey dataset. No camera-days, number of independent detections, individual identification, density estimate or population estimate is provided. Do not add the detections to counts from Terskey Ala-Too, Chon-Kemin, Kulun-Ata or other camera projects. The notice supports presence records only.
+
+Source: [Ministry notice, 2 July 2026](https://mnr.gov.kg/ru/posts/news/v-fotolovuski-ustanovlennye-na-xrebte-zetim-bel-v-issyk-kulskoi-oblasti-i-na-territorii-gosudarstvennogo-prirodnogo-parka-karakol-popali-sneznyi-bars-rys-gornyi-kozyol-kosulya-kaban-i-drugie-dikie-zivotnye).
+
+### Bishkek: Important Bird Area and white-tailed eagle
+
+UNDP Kyrgyzstan's notice of 7 December 2025 describes an Important Bird Area approximately 15 km from Ala-Too Square, associated with the Central Asian Flyway. UNDP reports more than 200 bird species occurring at the site throughout the year and about 40 species identified during a 3–4-hour field visit. It also describes the area as the only confirmed nesting site of the White-tailed Eagle (*Haliaeetus albicilla*) in Kyrgyzstan.
+
+**Evidence classification:** institutional public-communications account of a guided field visit and site-level bird importance, not a published standardized survey. The notice does not provide the full list of the approximately 40 species, observation routes, observer effort, nest monitoring protocol or independent supporting records for the national exclusivity claim. The atlas therefore attributes the “only confirmed nesting site” statement to UNDP rather than presenting it as independently established. It does not publish precise nest coordinates or sensitive site details. The 40 species identified during a short event must not be confused with the reported year-round richness of more than 200 species.
+
+Source: [UNDP Kyrgyzstan, 7 December 2025](https://www.undp.org/ru/kyrgyzstan/news/discover-bishkeks-wintering-bird-hotspot-field-visit-important-bird-area-global-significance).
+
+### Editorial and evidence-control rules reinforced
+
+- A camera-trap species list without effort and independent detection data supports presence at the named site, not abundance or population trend.
+- A guided birding visit can document species seen during the event, but cannot by itself establish a full site checklist or annual abundance.
+- A conservation organisation's or ministry's national-superlative claim (for example, “only confirmed nesting site”) must remain attributed unless corroborated by a primary ornithological survey or formal national database.
+- Sensitive nest locations should be generalized in public-facing atlas text.
