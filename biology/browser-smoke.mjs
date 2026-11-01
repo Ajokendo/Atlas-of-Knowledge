@@ -226,12 +226,11 @@ try {
             el.getClientRects().length > 0 && !el.disabled;
         });
         visible.forEach((el, index) => el.setAttribute("data-a11y-tab-audit", String(index)));
-        if (document.activeElement && document.activeElement !== document.body) document.activeElement.blur();
-        window.scrollTo(0, 0);
         return visible.length;
       });
       const tabTargetCount = await page.locator("[data-a11y-tab-audit]").count();
-      const visitedTabs = new Set();
+      const currentFocusId = await page.evaluate(() => document.activeElement?.getAttribute("data-a11y-tab-audit"));
+      const visitedTabs = new Set(currentFocusId === null ? [] : [currentFocusId]);
       const invisibleFocus = [];
       for (let step = 0; step < tabTargetCount + 2 && visitedTabs.size < tabTargetCount; step++) {
         await page.keyboard.press("Tab");
