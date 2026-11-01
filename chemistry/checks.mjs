@@ -421,6 +421,9 @@ for (const file of svgFiles) {
 const lowContrastHtmlPatterns = [
   /--muted\s*:\s*#(?:888|8c8c90|85858a)\b/i,
   /--accent\s*:\s*#39836f\b/i,
+  /#39836f\b/i,
+  /#bd7059\b/i,
+  /#63756b\b/i,
   /color\s*:\s*#77736e\b/i,
   /color\s*:\s*#999\b/i
 ];
