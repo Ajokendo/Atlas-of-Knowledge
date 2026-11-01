@@ -235,6 +235,16 @@ const geneticsFile = fs.readFileSync(path.join(root, "chapters", "genetics.html"
 if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.includes("updateDynamic();updateMutation()")) {
   errors.push("chapters/genetics.html: mutation model must preserve and translate selection on language switch");
 }
+const mendelianStart = geneticsFile.indexOf('id="mendelian-inheritance"');
+const geneRegulationStart = geneticsFile.indexOf('id="gene-expression-regulation"');
+const mendelianBlock = geneticsFile.slice(mendelianStart, geneRegulationStart);
+if (mendelianStart < 0 || geneRegulationStart <= mendelianStart) errors.push("chapters/genetics.html: Mendelian inheritance lesson must precede gene regulation");
+for (const phrase of ["Punnett square", "Aa × Aa", "1 AA : 2 Aa : 1 aa", "complete dominance", "incomplete dominance", "codominance", "many human traits are polygenic"]) {
+  if (!mendelianBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/genetics.html: inheritance lesson missing model or qualification: " + phrase);
+}
+if (!/<span class="ru">/.test(mendelianBlock) || !/<span class="en">/.test(mendelianBlock)) errors.push("chapters/genetics.html: inheritance lesson must be bilingual");
+if (!mendelianBlock.includes('<table class="inheritance-table">') || !mendelianBlock.includes('scope="row"') || !mendelianBlock.includes('<caption>')) errors.push("chapters/genetics.html: Punnett square must use an accessible semantic table");
+if (!geneticsFile.includes(".inheritance-table{width:100%") || !geneticsFile.includes("@media(max-width:420px){.inheritance-table")) errors.push("chapters/genetics.html: Punnett square must remain readable on narrow screens");
 const geneRegulationStart = geneticsFile.indexOf('id="gene-expression-regulation"');
 const geneticCodeStart = geneticsFile.indexOf('<section class="detail"><h2 id="detail-title">');
 const geneRegulationBlock = geneticsFile.slice(geneRegulationStart, geneticCodeStart);
