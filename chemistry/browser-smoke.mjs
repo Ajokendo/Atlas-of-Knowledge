@@ -493,6 +493,14 @@ try {
       if (!(await page.locator("[data-i=methaneEnthalpy]").innerText()).includes("−890,3")) {
         errors.push(file + ": methane combustion enthalpy example is missing");
       }
+      const equilibriumThermoRu = await page.locator("[data-i=equilibriumThermoNote]").innerText();
+      if (!equilibriumThermoRu.includes("ΔᵣG° = −RT ln K") ||
+          !equilibriumThermoRu.includes("K > 1") || !equilibriumThermoRu.includes("ΔᵣG° < 0") ||
+          !equilibriumThermoRu.includes("K < 1") || !equilibriumThermoRu.includes("стандартным состояниям") ||
+          !(await page.locator("[data-i=catalystNote]").innerText()).includes("не изменяет положение равновесия") ||
+          !(await page.locator("[data-i=leChatelierNote]").innerText()).includes("частично ослабить")) {
+        errors.push(file + ": Russian equilibrium thermodynamics must distinguish standard Gibbs energy, mixture direction, catalyst effect and qualitative Le Chatelier response");
+      }
       if (!(await page.locator("[data-i=thermoIntro]").innerText()).includes("работа расширения") ||
           !(await page.locator(".formula").filter({ hasText: "qₚ = ΔH" }).count())) {
         errors.push(file + ": constant-pressure heat/enthalpy condition or relation is missing in Russian");
@@ -512,6 +520,14 @@ try {
       }
       if (!(await page.locator("[data-i=methaneEnthalpy]").innerText()).includes("−890.3")) {
         errors.push(file + ": English methane combustion enthalpy example is missing");
+      }
+      const equilibriumThermoEn = await page.locator("[data-i=equilibriumThermoNote]").innerText();
+      if (!equilibriumThermoEn.includes("ΔᵣG° = −RT ln K") ||
+          !equilibriumThermoEn.includes("K > 1") || !equilibriumThermoEn.includes("ΔᵣG° < 0") ||
+          !equilibriumThermoEn.includes("K < 1") || !equilibriumThermoEn.includes("standard states") ||
+          !(await page.locator("[data-i=catalystNote]").innerText()).includes("does not change the equilibrium position") ||
+          !(await page.locator("[data-i=leChatelierNote]").innerText()).includes("partly opposes")) {
+        errors.push(file + ": English equilibrium thermodynamics must distinguish standard Gibbs energy, mixture direction, catalyst effect and qualitative Le Chatelier response");
       }
       if (!(await page.locator("[data-i=thermoIntro]").innerText()).includes("pressure–volume work")) {
         errors.push(file + ": English constant-pressure heat/enthalpy condition is missing");
