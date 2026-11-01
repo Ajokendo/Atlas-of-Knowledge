@@ -349,11 +349,13 @@
 
 ### 4.14.2. Цифровые модели высот / Digital Elevation Models
 
-**Цифровая модель высот (DEM)** — растровое представление высот поверхности. В одних наборах данных модель описывает рельеф земли без зданий и растительности, в других — верхнюю поверхность, включая растительность, здания или лёд. **Цифровая модель поверхности (DSM)** обычно отражает верх объектов и растительного покрова, а **цифровая модель рельефа (DTM)** стремится описать поверхность земли без таких объектов. Терминология различается между ведомствами и программами, поэтому необходимо проверять определение и метаданные конкретного набора данных. Например, глобальная модель NOAA ETOPO 2022 объединяет топографию суши и батиметрию океана с шагом сетки 15 угловых секунд; для Гренландии и Антарктиды доступны варианты, показывающие поверхность ледникового щита или коренное ложе подо льдом.
+**Цифровая модель высот (DEM)** — растровое представление высот поверхности. В одних наборах данных модель описывает рельеф земли без зданий и растительности, в других — верхнюю поверхность, включая растительность, здания или лёд. **Цифровая модель поверхности (DSM)** обычно отражает верх объектов и растительного покрова, а **цифровая модель рельефа (DTM)** стремится описать поверхность земли без таких объектов. Терминология различается между ведомствами и программами, поэтому необходимо проверять определение и метаданные конкретного набора данных. Например, глобальная модель NOAA ETOPO 2022 объединяет топографию суши и батиметрию океана с шагом сетки 15 угловых секунд; для Гренландии и Антарктиды доступны варианты, показывающие поверхность ледникового щита или коренное ложе подо льдом. Такой шаг соответствует примерно 460 м по широте у экватора; модель подходит для глобальных и региональных обзоров, но не для детального инженерного анализа отдельного участка.
 
 DEM используют для расчёта уклонов, экспозиции склонов, водосборов, линий водоразделов, объёмов земляных работ и других параметров. Важно учитывать пространственное разрешение, вертикальную точность, горизонтальную и вертикальную системы отсчёта, источник и дату съёмки, метод обработки, а также наличие растительности или зданий. Более мелкий размер ячейки сам по себе не гарантирует большей точности: разрешение должно соответствовать плотности и качеству исходных данных.
 
 **Место для иллюстрации 4.14-A — Reading a Topographic Map.** Фрагмент топографической карты с горизонталями, отметками высот, водоразделом, долиной и построенным профилем.
+
+**Место для иллюстрации 4.14-B — DEM, DSM and DTM.** Сравнительный поперечный разрез одной местности: голая поверхность земли, верх растительности и зданий, ледниковая поверхность и коренное ложе; показать ячейки сетки и метаданные (разрешение, вертикальную точность, систему высот и дату съёмки).
 
 ### 4.14.3. Практический пример: определение уклона по горизонталям
 
@@ -367,6 +369,8 @@ DEM используют для расчёта уклонов, экспозиц�
 
 **Шаг 3. Рассчитываем уклон.**  
 Уклон в процентах рассчитывается как отношение превышения к горизонтальному расстоянию, умноженное на 100%:
+
+**Уклон (%) = (вертикальное превышение / горизонтальное расстояние) × 100.**
 
 100 м / 500 м × 100% = **20%**.
 
@@ -694,11 +698,13 @@ On a standard topographic map, contour lines normally do not cross; overhanging 
 
 #### 4.14.2. Digital Elevation Models
 
-A **digital elevation model (DEM)** is a gridded representation of elevation. Some products represent bare-earth terrain, while other elevation grids represent the top surface, including vegetation, buildings or ice. A **digital surface model (DSM)** generally represents the tops of features and vegetation, while a **digital terrain model (DTM)** generally aims to represent bare ground. Terminology varies between agencies and software, so users must check the dataset definition and metadata rather than infer what is represented from the acronym alone. For example, NOAA's global ETOPO 2022 model integrates land topography and ocean bathymetry at 15-arc-second grid spacing; for Greenland and Antarctica, it provides versions representing either the ice-sheet surface or the bedrock beneath the ice.
+A **digital elevation model (DEM)** is a gridded representation of elevation. Some products represent bare-earth terrain, while other elevation grids represent the top surface, including vegetation, buildings or ice. A **digital surface model (DSM)** generally represents the tops of features and vegetation, while a **digital terrain model (DTM)** generally aims to represent bare ground. Terminology varies between agencies and software, so users must check the dataset definition and metadata rather than infer what is represented from the acronym alone. For example, NOAA's global ETOPO 2022 model integrates land topography and ocean bathymetry at 15-arc-second grid spacing; for Greenland and Antarctica, it provides versions representing either the ice-sheet surface or the bedrock beneath the ice. This spacing is roughly 460 m north–south at the equator; the model is suitable for global and regional overviews, not detailed site-scale engineering analysis.
 
 DEMs can be used to calculate slope, aspect, catchments, watersheds, earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, horizontal and vertical reference systems, data source, acquisition date, processing method and whether vegetation or buildings are included. A finer grid cell does not automatically mean greater accuracy: resolution must be appropriate to the source-data density and quality.
 
 **[ILLUSTRATION PLACEHOLDER 4.14-A]** Show a topographic map with contours, spot heights, watershed, valley and a relief profile; include legend, scale and contour interval.
+
+**[ILLUSTRATION PLACEHOLDER 4.14-B]** Compare a bare-earth terrain model, a surface model including vegetation/buildings, an ice-sheet surface and bedrock beneath ice; show grid cells and essential metadata (resolution, vertical accuracy, vertical datum and acquisition date).
 
 ### 4.14.3. Worked Example: Calculating Slope from Contour Lines
 
@@ -712,6 +718,8 @@ At a scale of 1:25,000, one centimetre on the map represents 250 m on the ground
 
 **Step 3. Calculate the slope.**  
 Percentage slope is the elevation difference divided by the horizontal distance, multiplied by 100%:
+
+**Slope (%) = (vertical difference / horizontal distance) × 100.**
 
 100 m / 500 m × 100% = **20%**.
 
