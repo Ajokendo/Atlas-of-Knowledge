@@ -232,7 +232,7 @@ if (!faunaKyrgyzstanFile.includes("35 животных были завезены
 if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркера") || !faunaKyrgyzstanFile.includes("88 образцов архара") || !faunaKyrgyzstanFile.includes("O. a. polii") || !faunaKyrgyzstanFile.includes("Pamir Plateau")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2026 argali genetics evidence must retain initial and analysed sample sizes, named subspecies and Pamir scope caveat");
 }
-if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркеров") || !faunaKyrgyzstanFile.includes("72 individuals") || !faunaKyrgyzstanFile.includes("cannot automatically be extended to the full range of Marco Polo argali")) {
+if (!faunaKyrgyzstanFile.includes("135 242 SNP-маркера") || !faunaKyrgyzstanFile.includes("72 individuals") || !faunaKyrgyzstanFile.includes("cannot automatically be extended to the full range of Marco Polo argali")) {
   errors.push("chapters/fauna-kyrgyzstan.html: 2026 argali genetics evidence must retain sample size and scope caveat");
 }
 if (!faunaKyrgyzstanFile.includes("689 маралов") || !faunaKyrgyzstanFile.includes("нельзя складывать, усреднять или выдавать за одну согласованную оценку") || !faunaKyrgyzstanFile.includes("these figures must not be added, averaged or presented as one reconciled estimate")) {
@@ -320,7 +320,7 @@ if (!cellBiologyAuditFile.includes("10-3-control-of-the-cell-cycle")) errors.pus
 
 const zoologyAuditFile = fs.readFileSync(path.join(root, "chapters/zoology.html"), "utf8");
 if (!zoologyAuditFile.includes("«Рыбы» — общее название нескольких линий позвоночных") || !zoologyAuditFile.includes("“Fish” is a collective label for several vertebrate lineages")) errors.push("chapters/zoology.html: fish must not be presented as a single monophyletic clade");
-if (!zoologyAuditFile.includes("птицы, в свою очередь, произошли от тероподовых динозавров") || !zoologyAuditFile.includes("are included within reptiles in modern phylogenetic classification")) errors.push("chapters/zoology.html: phylogenetic classification must place birds within reptiles");
+if (!zoologyAuditFile.includes("Птицы, в свою очередь, произошли от тероподовых динозавров") || !zoologyAuditFile.includes("are included within reptiles in modern phylogenetic classification")) errors.push("chapters/zoology.html: phylogenetic classification must place birds within reptiles");
 if (!zoologyAuditFile.includes("29-4-reptiles") || !zoologyAuditFile.includes("29-1-chordates")) errors.push("chapters/zoology.html: chordate and reptile evolution references are required");
 
 const anatomyFile = fs.readFileSync(path.join(root, "chapters/anatomy.html"), "utf8");
