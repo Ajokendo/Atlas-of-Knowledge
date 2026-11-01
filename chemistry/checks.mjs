@@ -424,6 +424,7 @@ const lowContrastHtmlPatterns = [
   /#39836f\b/i,
   /#bd7059\b/i,
   /#63756b\b/i,
+  /#79a9b0\b/i,
   /color\s*:\s*#77736e\b/i,
   /color\s*:\s*#999\b/i
 ];
