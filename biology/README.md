@@ -1094,3 +1094,11 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - Generated a horizontal black-stork-at-alpine-wetland concept (ImageGen ID `dff4afc7-e1b8-4f79-9a10-fc7e333c4795`); local WebP `biology-black-stork-wetland-candidate.webp` (1672×941, 346,448 bytes).
 - Red bill and legs, dark iridescent upperparts and white underparts broadly fit the intended `Ciconia nigra` study, but species/anatomical review remains required. The wetland setting is regionally plausible; the generated scene is not a field record or verified Son-Kul photograph.
 - Local-only, uncommitted, uninserted and unapproved. It supplies only the wetland portion of the 16:9 bird plate; cliff-raptor and alpine-ground-bird components remain necessary. All 52 mapped image assets remain Deferred; controlled readiness remains 95/100 and G4/G5 remain open. See `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+
+
+## Full repeat audit — 1 November 2026
+
+- Started a unified editorial, scientific, technical and visual audit of all 13 Biology HTML pages, interactive tools, references, SVGs and the 52-item image production map.
+- Completed the initial 5% inventory milestone. The 13-page source scan found balanced Russian/English markers, no duplicate HTML IDs, 22 inline SVG elements and no integrated raster `<img>` assets.
+- Confirmed that all 52 mapped image assets remain Deferred; no raster asset is approved or integrated. G4 scientific review and G5 independent bilingual/editorial review remain open.
+- Audit findings and method are recorded in `REPEAT_AUDIT_2026-11-01.md`. The 95/100 controlled editorial-readiness score is unchanged; audit completion is tracked separately.
