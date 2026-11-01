@@ -7,7 +7,7 @@ on:
       - ".github/workflows/biology-checks.yml"
       - "portal.html"
   push:
-    branches: [main]
+    branches: [main, "workspace/biology"]
     paths:
       - "biology/**"
       - ".github/workflows/biology-checks.yml"
