@@ -45,6 +45,36 @@ try {
           if (!controls.length || controls.some(x => !x.hasBoth || !x.activeLanguageVisible || !x.inactiveLanguageHidden)) {
             errors.push(file + ": biochemistry model controls do not expose the active English label after language switch");
           }
+
+        if (file.endsWith("/ecology.html")) {
+          const selectors = ["#carbon-controls button", "#pressure-controls button"];
+          for (const selector of selectors) {
+            const controls = await page.locator(selector).evaluateAll(elements => elements.map(el => {
+              const ru = el.querySelector(".ru"), en = el.querySelector(".en");
+              return {
+                hasBoth: !!ru && !!en,
+                englishVisible: !!en && getComputedStyle(en).display !== "none" && en.getClientRects().length > 0,
+                russianHidden: !!ru && (getComputedStyle(ru).display === "none" || ru.getClientRects().length === 0),
+                pressed: el.getAttribute("aria-pressed")
+              };
+            }));
+            if (!controls.length || controls.some(x => !x.hasBoth || !x.englishVisible || !x.russianHidden ||
+                !["true", "false"].includes(x.pressed))) {
+              errors.push(file + ": " + selector + " controls lack bilingual labels, English visibility or pressed state");
+            }
+            if (controls.filter(x => x.pressed === "true").length !== 1) {
+              errors.push(file + ": " + selector + " must have exactly one initially selected control");
+            }
+          }
+          const carbonChoice = page.locator('#carbon-controls button[data-carbon="respiration"]');
+          await carbonChoice.click();
+          if (await carbonChoice.getAttribute("aria-pressed") !== "true" ||
+              await page.locator('#carbon-controls button[data-carbon="photosynthesis"]').getAttribute("aria-pressed") !== "false") {
+            errors.push(file + ": carbon-cycle selection does not update aria-pressed state");
+          }
+          if (!(await page.locator("#carbon-output").innerText()).startsWith("Cellular respiration:")) {
+            errors.push(file + ": carbon-cycle output did not update in English after selection");
+          }
         }
         await lang.click();
         languageChecks++;
