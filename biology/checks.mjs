@@ -435,6 +435,11 @@ if (!imageScientificReview.includes("Fritillaria eduardii") || !imageScientificR
 if (!imageScientificReview.includes("Panthera uncia") || !imageScientificReview.includes("Uncia uncia")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must explain current and historical snow-leopard nomenclature");
 if (!imageScientificReview.includes("country-level presence is not") && !imageScientificReview.includes("country-level presence")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must prohibit unsupported oblast/locality inference");
 if (!imageInsertionMap.includes("Fritillaria eduardii") || !imageInsertionMap.includes("синоним") || !imageInsertionMap.includes("вытаптывание")) errors.push("IMAGE_INSERTION_MAP.md must carry the corrected, conservation-safe Aygul illustration brief");
+if (!imageScientificReview.includes("does not publish the full taxon list") ||
+    !imageScientificReview.includes("disputed Suusamyr") ||
+    !imageScientificReview.includes("unpublished 14-taxon Kempir-Abad list")) {
+  errors.push("IMAGE_SCIENTIFIC_REVIEW.md: freshwater illustration constraints must not invent or prematurely label new fish records");
+}
 
 
 // Seven-oblast species-evidence audit: enforce coverage and conservative interpretation.
