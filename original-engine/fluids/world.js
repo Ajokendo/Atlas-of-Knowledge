@@ -93,7 +93,7 @@ export function buildWorld(E) {
     for (const sx of [-1, 1]) for (const sy of [-1, 1]) for (const sz of [-1, 1])
       pieces.push(part(g0, box(S / 2, S / 2, S / 2, 0.004), { tone: 'hi', name: m.name, mat: cubeMat[m.key], pos: [x + sx * S / 4, y + sy * S / 4, sz * S / 4], ex: [sx * 0.03, sy * 0.03 + 0.03, sz * 0.03] }));
     label('mark', m.name, () => V(x, 0.02 + S + 0.06 + 0.06 * ex(g0), 0));
-    label('mark', `${m.mass.toFixed(2)} kg`, () => V(x, -0.02, 0.24));
+    label('mark', `${m.mass.toFixed(2)} кг`, () => V(x, -0.02, 0.24));
   });
 
   // =====================================================================================
@@ -179,7 +179,7 @@ export function buildWorld(E) {
   const load = part(g3, box(0.46, 0.3, 0.46, 0.03), { tone: 'hi', pal: 'dark', name: 'Груз' });
   const F1a = force(g3, 'ink', 'Push', 0.6);
   label('vec', `<i>F</i><sub>1</sub> = ${PA.F1} N`, () => V(LX, pistL.position.y + 0.42, 0));
-  label('mark', `${PA.load.toFixed(1)} kg · ${PA.F2.toFixed(0)} N`, () => V(RX, load.position.y + 0.3, 0));
+  label('mark', `${PA.load.toFixed(1)} кг · ${PA.F2.toFixed(0)} Н`, () => V(RX, load.position.y + 0.3, 0));
   const under = [small(g3, 'ink', 'Pressure', 1.15)];
   const aG = Math.sqrt(PA.A1);                       // one arrow per A1 of piston face
   for (let i = 0; i < 4; i++) for (let k = 0; k < 4; k++) under.push(small(g3, 'ink', 'Pressure', 1.15));
@@ -328,7 +328,7 @@ export function buildWorld(E) {
   const hRod = thinRod(g8, 0.008, 'ink', 'Height h');
   label('vec', '', () => V(TX - TK.w / 2 + 0.38, TK.yh + h8 / 2, TK.d / 2), () => `<i>h</i> = ${h8.toFixed(2)} m`);
   const landMark = part(g8, cyl(0.06, 0.006, 24), { tone: 'hi', pal: 'ink', name: 'Точка падения струи' });
-  label('tick', '', () => V(landMark.position.x + 0.5, 0.12, 0.3), () => `range ${M.jetRange(h8).toFixed(2)} m`);
+  label('tick', '', () => V(landMark.position.x + 0.5, 0.12, 0.3), () => `дальность ${M.jetRange(h8).toFixed(2)} м`);
   // opened: the jet's velocity split, on one drop of water
   const vx8 = arrow(g8, 'dark', { r: 0.014, head: 0.08, headR: 0.04, name: 'Составляющие', tone: 'mid' }), vy8 = arrow(g8, 'dark', { r: 0.014, head: 0.08, headR: 0.04, name: 'Составляющие', tone: 'mid' }), vv8 = force(g8, 'blue', 'Velocity', 0.6);
   label('vec grey', '<i>v</i><sub>x</sub>', () => ex(g8) > 0.5 ? tip(vx8, 0.06) : null); label('vec grey', '<i>v</i><sub>y</sub>', () => ex(g8) > 0.5 ? tip(vy8, 0.06) : null);
