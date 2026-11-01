@@ -469,3 +469,15 @@
 - G5 report commit: `2117d36c62a899cf44607ce3bb8f50c12e596d0e`.
 - Content commits: `325b3357d91c4738855e02a23df61880907db06e`, `58d139225d9c1f3cf1d7d0393e64f76cf956f158`, `9e60e7274057f6667e1cc03a3f7504da04217362`.
 - Blocks 2–4 remain open. This checkpoint does not certify independent professional translation quality.
+
+
+## G5 editorial and bilingual audit checkpoint — 50% (1 November 2026)
+
+- G5 plan has four equal review blocks. **Blocks 1–2/4 complete = 50%.**
+- Block 1: main Biology index, Cell Biology, Genetics and Microbiology. Fixes: bilingual regional cards, language-aware accessible name for the cell diagram, precise cytoplasm definition.
+- Block 2: Biochemistry, Botany and Ecology. Fixes: enzyme glossary phrasing, angiosperm ovule/ovary/seed wording, completed English translations for stem and leaf interactive descriptions, British-English spelling, exact “cellular respiration” label and full Evolutionary Biology navigation labels. Updated the flower illustration brief title consistently in the chapter and both central production registers.
+- Structural checks: Block 1 — index 14/14, Cell Biology 62/62, Genetics 85/85, Microbiology 71/71 RU/EN spans. Block 2 — Biochemistry 55/55, Botany 76/76, Ecology 102/102. No duplicate IDs in these seven files. Counts do not certify semantic translation quality.
+- Latest full technical run: GitHub Actions `41313625525` on `d919115edce3e3174373fa79e206752f831490d5`; static validation, Chromium setup, local server and browser smoke tests for every Biology page all passed.
+- Detailed findings: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
+- G5 audit report update commit: `2a78e58e4d3d2baba1ad712f40cd43461d6ac2cf`.
+- Blocks 3–4 remain open. Independent editorial/bilingual review remains recommended before publication.
