@@ -914,6 +914,16 @@ if (!regionalSpeciesAudit.includes("Local bird and mammal evidence update — 1 
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: local 2025–2026 evidence and source attribution caveats must be documented");
 }
 
+// Preserve the August 2026 institutional record of a Demoiselle Crane migration aggregation.
+if (!faunaKyrgyzstanFile.includes("ISSYK-KUL · DEMOISELLE CRANE MIGRATION · AUGUST 2026") ||
+    !faunaKyrgyzstanFile.includes("approximately 2,000 Demoiselle Cranes") ||
+    !faunaKyrgyzstanFile.includes("must not be automatically combined") ||
+    !faunaKyrgyzstanFile.includes("zhuravl-krasavka-issyk-kul-2026") ||
+    !regionalSpeciesAudit.includes("Issyk-Kul: Demoiselle Crane migration aggregation — August 2026") ||
+    !regionalSpeciesAudit.includes("not a national population estimate or trend")) {
+  errors.push("2026 Issyk-Kul Demoiselle Crane aggregation must retain its source, approximate count and non-population scope");
+}
+
 const externalReviewPacket = fs.readFileSync(path.join(root, "EXTERNAL_REVIEW_PACKET.md"), "utf8");
 for (const phrase of [
   "### G4 — Scientific review",
