@@ -226,7 +226,7 @@ if (trainerTaskStart < 0) {
       }
       const totals = [{}, {}];
       task.f.forEach((formula, formulaIndex) => {
-        const side = formulaIndex < task.f.length - 2 ? 0 : 1;
+        const side = formulaIndex < task.f.length - 1 ? 0 : 1;
         const atoms = parseTrainerFormula(formula);
         for (const [element, count] of Object.entries(atoms)) {
           totals[side][element] = (totals[side][element] || 0) + count * task.c[formulaIndex];
