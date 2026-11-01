@@ -942,3 +942,42 @@ On a schematic geological cross-section, identify:
 - Геологическая шкала времени должна быть синхронизирована с действующей международной стратиграфической шкалой на дату выпуска атласа.
 - Карты литосферных плит и геологических структур требуют проверки границ, легенды, проекции и источника исходных пространственных данных.
 - Не следует изображать мантию как глобальный океан расплава или астеносферу как полностью жидкий слой.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.1-A — Earth's Internal Structure]** Scaled cutaway of Earth showing the crust, lithosphere, asthenosphere, mantle, liquid outer core and solid inner core. Distinguish chemical composition layers from mechanical layers; label major depth boundaries and include a schematic temperature profile. Use matching Russian and English labels.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.2-A — Mineral Identification Board]** Display nine or ten mineral specimens with verified names, chemical formulae and Mohs hardness values. Use photographs or realistic specimens; ensure labels match the actual minerals.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.3-A — The Rock Cycle]** Diagram the transformations among igneous, sedimentary and metamorphic rocks, including weathering, erosion, deposition, burial, metamorphism, melting and crystallisation.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.4-A — Geological Research Toolkit]** Show field geology, a rock specimen, a thin section under a microscope, an X-ray diffraction pattern and a geophysical profile. Label each method and its purpose.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.5-A — Global Plate Tectonic Map]** Map the major lithospheric plates and divergent, convergent and transform boundaries. Verify boundary geometry against an authoritative geological map; include a clear legend and motion arrows.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.6-A — Anatomy of an Earthquake]** Cross-section showing a fault, focus (hypocentre), epicentre and P- and S-wave paths. Clearly distinguish earthquake magnitude from shaking intensity.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.7-A — Volcano Anatomy and Eruption Hazards]** Volcano cross-section with magma reservoir, conduit, crater and labelled hazard zones or flows. Distinguish lava, ash fall, pyroclastic density currents and lahars.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.8-A — Folds and Faults]** Compare an anticline, syncline, normal fault, reverse/thrust fault and strike-slip fault in clear geological cross-sections. Add movement arrows and label hanging wall/footwall where relevant.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.9-A — Geological Time Scale]** Vertical time scale from Earth's formation to the present. Use the current ICS chart, show the unequal duration of intervals honestly, and label the non-linear scale clearly.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.10-A — The Supercontinent Cycle]** Sequence showing rifting, ocean opening, subduction, continental collision and mountain building. Make clear this is a simplified cycle, not a fixed repeating clock.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.11-A — From Geological Deposit to Resource Management]** Cross-section of a mineral deposit plus a process sequence for exploration, extraction, processing, waste management and land rehabilitation.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.12-A — Geological Hazards]** Four-panel educational visual: earthquake, landslide, debris flow and rockfall. For each, identify typical triggers and practical risk-reduction measures; avoid implying that hazards can be predicted exactly.
+
+
+**[ILLUSTRATION PLACEHOLDER 3.12-B — Interpreting a Geological Cross-Section]** Educational cross-section with a legend, rock layers of different relative ages, a fold, a fault and an intrusive body. Provide a separate exercise key; ensure the cross-cutting and superposition relationships are internally consistent.
