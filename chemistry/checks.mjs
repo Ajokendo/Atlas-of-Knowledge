@@ -44,6 +44,7 @@ for (const file of htmlFiles) {
   const localizedKeys = [...new Set([...source.matchAll(/data-i=["']([^"']+)["']/g)].map(match => match[1]))];
   if (localizedKeys.length) {
     let dictionary = null;
+    let dictionaryScore = -1;
     for (const match of source.matchAll(/\b(?:const|let|var)\s+[\w$]+\s*=\s*\{/g)) {
       const literal = objectLiteralAt(source, match.index + match[0].lastIndexOf("{"));
       if (!literal) continue;
@@ -52,8 +53,11 @@ for (const file of htmlFiles) {
         if (candidate && candidate.ru && candidate.en &&
             typeof candidate.ru === "object" && typeof candidate.en === "object" &&
             !Array.isArray(candidate.ru) && !Array.isArray(candidate.en)) {
-          dictionary = candidate;
-          break;
+          const score = localizedKeys.filter(key => key in candidate.ru && key in candidate.en).length;
+          if (score > dictionaryScore) {
+            dictionary = candidate;
+            dictionaryScore = score;
+          }
         }
       } catch { /* Not a standalone translation dictionary. */ }
     }
