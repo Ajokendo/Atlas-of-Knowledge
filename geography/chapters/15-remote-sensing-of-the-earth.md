@@ -326,7 +326,7 @@ When different seasons are compared, describe the result as a seasonal differenc
 
 Коммерческая доступность снимка не отменяет требований законодательства, лицензии и ответственного обращения с данными. Для публикации чувствительных координат следует оценивать возможный вред.
 
-### 15.13.1. Как отличать реальное изменение от различий съёмки / Separating Real Change from Image Differences
+### 15.15.1. Как отличать реальное изменение от различий съёмки / Separating Real Change from Image Differences
 
 Разность двух спутниковых изображений не всегда означает изменение земной поверхности. Снимки могли быть получены в разные сезоны, при разной облачности, освещённости, влажности почвы, угле наблюдения или разными сенсорами.
 
@@ -348,7 +348,7 @@ In mountain areas, snow, slope shadows and seasonal vegetation differences acros
 
 **Activity.** Compare two hypothetical images of the same catchment acquired in spring and summer. List the factors to control before interpreting a lower vegetation index as degradation, and propose a field-validation method.
 
-### 15.15.1. Как отличить реальное изменение от различий съёмки / Separating Real Change from Acquisition Differences
+### 15.15.2. Как отличить реальное изменение от различий съёмки / Separating Real Change from Acquisition Differences
 
 Разница между двумя спутниковыми изображениями не всегда означает изменение на местности. Её могут вызвать разные сезоны, угол освещения и наблюдения, облачность, атмосферные условия, сенсор, пространственное разрешение, геометрическая коррекция или обработка. Прежде чем классифицировать участок как изменившийся, необходимо проверить сопоставимость изображений.
 
@@ -365,6 +365,191 @@ A difference between two satellite images does not always represent a change on 
 **Validate the result.** Use independent reference sites or higher-resolution data, examine the error matrix and assess change classes separately. Compare the result with field observations, meteorological data and land-use information. Small features may be distorted by mixed pixels containing several surface types.
 
 **Activity.** Imagine two images of the same valley acquired in different months. List factors that could explain differences in a vegetation index without long-term land-cover change. Propose a validation plan before concluding that a pasture has degraded.
+
+## English-language chapter text
+
+### 15.1. Concept and Importance of Remote Sensing
+
+Remote sensing is based on detecting electromagnetic radiation reflected, emitted or scattered by objects and the atmosphere. The measured signals can provide information about surface properties, vegetation, water, snow, ice, clouds, temperature and land-use change.
+
+Main platforms include satellites, which provide regular observations over large areas and global coverage; aircraft, which allow flexible choices of altitude, sensor and timing; uncrewed aerial vehicles (UAVs), which provide detailed imagery of local areas but are limited by coverage, weather, flight permissions and operating time; and ground-based or stationary platforms used for calibration, validation and local monitoring.
+
+Remote sensing complements field research rather than replacing it. Satellite signals require interpretation and validation, especially when identifying a particular plant species, soil type, cause of change or legal status of a territory.
+
+### 15.2. Electromagnetic Radiation and Spectral Regions
+
+Electromagnetic radiation is characterised by wavelength and frequency. Remote sensing uses visible light, near-infrared and shortwave-infrared regions, thermal infrared radiation and microwaves.
+
+Approximate spectral regions include:
+- **visible:** about 0.4–0.7 μm, the colours perceived by the human eye;
+- **near-infrared (NIR):** about 0.7–1.3 μm, sensitive to vegetation structure and condition;
+- **shortwave infrared (SWIR):** about 1.3–3 μm, useful for analysing moisture, minerals, fires and some surface characteristics;
+- **thermal infrared (TIR):** wavelengths used to assess the surface's own thermal emission; and
+- **microwave:** the radio-frequency region used by radar systems and some passive observations.
+
+Boundaries are approximate and depend on the classification and sensor characteristics. The atmosphere absorbs radiation in particular spectral regions, so satellite sensors often use atmospheric windows where transmission is relatively favourable.
+
+### 15.3. Reflection, Absorption and Spectral Signatures
+
+When radiation reaches a surface, some energy is reflected, some absorbed and some may pass through the material. The proportions depend on wavelength, composition, moisture, structure and surface condition.
+
+A **spectral signature** is the characteristic variation of an object's reflectance or emission with wavelength. It helps distinguish surface types, but it is not a unique fingerprint under all conditions.
+
+Examples:
+- healthy green vegetation usually absorbs red light strongly through chlorophyll and reflects a substantial share of near-infrared radiation;
+- water usually has low reflectance in the near-infrared, although turbidity, depth, suspended material and sky reflection affect the signal;
+- dry and wet soils often differ spectrally, particularly in infrared regions; and
+- snow and ice have characteristic spectral properties, but impurities, crystal size and liquid water change reflectance.
+
+Atmosphere, illumination angle, viewing angle, relief, shadows, season and sensor calibration all affect the measured signal. Image comparison therefore requires control of acquisition conditions.
+
+### 15.4. Passive and Active Sensors
+
+**Passive sensors** detect natural radiation: reflected sunlight or Earth's own thermal emission. Optical multispectral and hyperspectral cameras are common examples.
+
+Limitations of optical observations include cloud and smoke obstruction; illumination changes with time of day and season; shadows and relief complicate comparison; and some spectral regions are strongly absorbed by the atmosphere.
+
+**Active sensors** emit their own signal and detect its reflection or scattering. Examples include Synthetic Aperture Radar (SAR) and laser scanning (LiDAR).
+
+Active systems can operate independently of sunlight. Radar microwaves can often collect data through cloud cover, but the signal depends on moisture, surface roughness, viewing geometry and object structure. LiDAR measures the travel time of laser pulses and provides three-dimensional information about surfaces and objects.
+
+### 15.5. Satellite Data and Sensor Types
+
+Satellite sensors differ in spectral bands, spatial resolution, swath width, revisit frequency and radiometric sensitivity.
+
+Main types include:
+- **panchromatic:** one broad spectral band, often with higher spatial resolution;
+- **multispectral:** several relatively broad bands;
+- **hyperspectral:** dozens or hundreds of narrow, contiguous bands;
+- **thermal:** sensors that detect thermal radiation from the surface;
+- **radar:** sensors that measure microwave backscatter; and
+- **altimetric and LiDAR systems:** sensors that measure surface height, distance or object structure.
+
+Widely used missions include Landsat, a long-term land-observation archive operated by NASA and USGS; Sentinel, a family of missions within the European Union's Copernicus programme and the European Space Agency; MODIS on Terra and Aqua, which provides frequent global observations; VIIRS, used to observe the surface, clouds, temperature and night lights; Sentinel-1 for SAR; Sentinel-2 for optical multispectral land imaging; Sentinel-3 for ocean, land and surface-temperature observations; ICESat-2 for satellite laser altimetry; and commercial high-resolution systems such as WorldView.
+
+Mission names, operational status, band availability and technical parameters must be checked against current operator documentation.
+
+### 15.6. Four Types of Resolution
+
+Four characteristics should be distinguished when interpreting remote-sensing data.
+
+**Spatial resolution** is the ground size of an image element or the level of detail. A 10 m pixel represents an area of the surface; it does not necessarily represent a separate object that is 10 m in size.
+
+**Spectral resolution** is the number, width and position of spectral bands. Narrower and more numerous bands can reveal subtle spectral differences.
+
+**Temporal resolution** is the interval between observations of the same area. The actual frequency of usable images depends on cloud cover, orbit, acquisition mode and data availability.
+
+**Radiometric resolution** is the sensor's ability to distinguish signal-intensity levels, usually related to the number of digital bits and instrument characteristics.
+
+High resolution in one dimension does not guarantee high resolution in another. For monitoring rapidly changing processes, frequent observations may be more important than very small pixels.
+
+### 15.7. Geometric and Radiometric Preprocessing
+
+Raw satellite data may contain geometric and radiometric distortions. Preprocessing commonly includes checking metadata, acquisition date, sensor and processing level; geometric correction and orthorectification where needed; radiometric calibration of digital values; atmospheric correction to obtain comparable surface-reflectance estimates; masking clouds, shadows and unwanted areas; terrain correction for mountainous areas where necessary; alignment to a common grid, projection and spatial resolution; and quality control with documentation of parameters.
+
+Not all products require the same processing. For example, a surface-reflectance product has already undergone certain correction steps. Reprocessing without understanding the product level may degrade the data.
+
+### 15.8. Colour Composites and Visual Interpretation
+
+Multispectral images are often displayed as colour composites by assigning individual spectral bands to the red, green and blue channels of a screen.
+
+A **true-colour composite** uses visible bands and approximates human vision. A **false-colour composite** assigns bands to artificial display colours to emphasise selected surface properties.
+
+For example, assigning the near-infrared band to the screen's red channel can make vegetation appear bright because vegetation often strongly reflects NIR. The displayed colour in a false-colour composite is not the object's actual colour.
+
+Visual interpretation considers tone and colour; texture; shape; size; shadow; pattern and spatial position; context of neighbouring features; season; and acquisition conditions.
+
+The same feature may look different depending on sensor, band combination and acquisition date.
+
+### 15.9. Spectral Indices
+
+Spectral indices are mathematical combinations of bands designed to enhance particular differences in data. They can provide preliminary information about vegetation, water bodies, built-up areas and other surface characteristics.
+
+**NDVI — Normalized Difference Vegetation Index**
+
+NDVI = (NIR − Red) / (NIR + Red)
+
+NDVI is widely used to assess the relative activity of green vegetation. Values generally range from −1 to +1, but interpretation depends on sensor, surface, season and processing.
+
+Limitations include saturation in dense vegetation; influence of soil background where vegetation is sparse; sensitivity to atmosphere and shadows; and inability to identify plant species or exact biomass directly without additional data.
+
+**NDWI and water indices.** The name NDWI is used for different formulas. One version, designed to identify open water, combines green and near-infrared bands:
+
+NDWI = (Green − NIR) / (Green + NIR)
+
+Another index, often called NDMI or an NDWI variant for vegetation moisture, uses NIR and SWIR:
+
+NDMI = (NIR − SWIR) / (NIR + SWIR)
+
+Always state the formula and bands used: the same abbreviation may refer to different indicators in different sources.
+
+**NDBI — Normalized Difference Built-up Index**
+
+NDBI = (SWIR − NIR) / (SWIR + NIR)
+
+NDBI may help identify built-up areas, but spectrally similar dry soils, rocks and other surfaces can produce similar responses. It is not a ready-made building map.
+
+**NBR — Normalized Burn Ratio**
+
+NBR = (NIR − SWIR) / (NIR + SWIR)
+
+The difference between pre-fire and post-fire NBR (dNBR) is used to assess changes associated with burning. Interpretation must account for season, moisture, vegetation type and other causes of spectral change.
+
+### 15.10. Satellite Image Classification
+
+Classification assigns pixels or objects to land-cover or other thematic classes.
+
+Main approaches include supervised classification, in which an algorithm is trained using labelled examples; unsupervised classification, in which the algorithm groups pixels by spectral similarity; object-based analysis, which classifies segments or objects rather than individual pixels; and machine learning, using algorithms such as Random Forest, Support Vector Machine and neural networks.
+
+Typical land-cover classes include forest, shrubland, cropland, pasture, built-up areas, water, snow and ice, and bare soil. The class scheme should match the purpose and scale of the project.
+
+**Training and validation data.** Training samples are used to fit the model; independent validation data are used to assess classification quality. If the same sites are used for both training and validation, accuracy may be overstated.
+
+A **confusion matrix** shows agreement and disagreement between the classification and reference data. Overall accuracy does not reveal all errors: producer's and user's accuracy by class should be examined, taking class imbalance and sampling design into account.
+
+### 15.11. Radar Remote Sensing and SAR
+
+Synthetic Aperture Radar (SAR) uses microwave pulses and records backscatter from the surface. Radar data are especially useful where optical observations are limited by cloud cover or lack of sunlight.
+
+The SAR signal depends on surface roughness relative to wavelength; soil and vegetation moisture; object geometry and viewing angle; forest structure; signal polarisation; wavelength; and sensor parameters.
+
+Applications include flood mapping; surface-deformation monitoring using interferometry; soil-moisture and condition assessment under suitable conditions; forest and agricultural monitoring; glacier and sea-ice observation; and infrastructure-change detection.
+
+A radar image is not an ordinary photograph. Pixel brightness reflects backscatter and viewing geometry, so interpretation requires specialist knowledge.
+
+### 15.12. LiDAR and Three-dimensional Remote Sensing
+
+LiDAR (Light Detection and Ranging) measures distance from the travel time of a laser pulse. Systems may be carried by aircraft, UAVs, vehicles or satellites.
+
+The output is often represented as a point cloud, in which each point has coordinates and additional attributes. Point clouds can be used to create a Digital Surface Model (DSM), a Digital Terrain Model (DTM), building and vegetation models, profiles and three-dimensional representations.
+
+Laser pulses may pass through gaps in vegetation and return from different canopy levels and the ground surface. Point density, sensor characteristics and classification algorithms determine the quality of the result.
+
+### 15.13. Change Detection and Time Series
+
+Change detection compares data from different dates to identify surface transformations and natural processes.
+
+Methods include comparison of classified maps; subtraction and normalisation of spectral bands; analysis of index changes; pixel time profiles; object-based analysis; and statistical methods for identifying trends and seasonality.
+
+Before comparison, ensure comparable seasons and phenological stages; the same or harmonised coordinate reference system; comparable spatial resolutions; radiometric and atmospheric consistency; a consistent class scheme; and masking of clouds, shadows and snow where these are not the subject of the analysis.
+
+A change in spectral signal does not always mean a change in land cover. It may result from moisture, season, viewing angle, atmosphere or sensor differences.
+
+### 15.14. Remote Sensing for Natural Hazards and Disasters
+
+Remote-sensing data support work before, during and after emergencies. They can be used to map flooded areas; identify traces of forest and grassland fires; assess landslide and earthquake impacts; observe glacier movement and changes in glacial lakes; track dust storms and volcanic emissions; and assess damage to agriculture and infrastructure.
+
+Operational response depends on data delivery speed, image availability, cloud cover, resolution and classification reliability. A satellite map must state the acquisition time: an image collected after a flood wave has passed may not show the maximum flooded area.
+
+Remote sensing should be combined with ground observations, meteorological data, reports from emergency services and verified information about population and infrastructure.
+
+### 15.15. Limitations, Uncertainty and Ethics of Remote Sensing
+
+Remote-sensing data have limitations, including cloud, smoke, fog and atmospheric interference; differences between sensors and algorithms; mixed pixels at feature boundaries; seasonal and angular effects; insufficient ground reference data; classification and model uncertainty; publication delays; and access restrictions.
+
+Ethical issues include surveillance of private property, protection of personal data, security of sensitive sites, rights of Indigenous peoples and local communities, and the risk of misuse of maps and analytics.
+
+Commercial availability of an image does not remove legal, licensing or responsible-use requirements. Before publishing sensitive coordinates, assess possible harm.
 
 ## 15.16. Итоги главы / Chapter Summary
 
