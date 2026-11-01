@@ -161,14 +161,23 @@ if (!ecologyFile.includes("NH₄⁺") || !ecologyFile.includes("N₂O и N₂") 
 if ((ecologyFile.match(/data-nitrogen="[^"]+" aria-pressed="(?:true|false)"/g) || []).length !== 5) errors.push("chapters/ecology.html: all five nitrogen-cycle controls must expose initial pressed states");
 
 const biochemistryFile = fs.readFileSync(path.join(root, "chapters", "biochemistry.html"), "utf8");
-for (const group of ["enzyme-controls", "factor-controls", "atp-controls", "respiration-controls"]) {
+const biochemistryControlCounts = {
+  "enzyme-controls": 3,
+  "factor-controls": 3,
+  "atp-controls": 2,
+  "respiration-controls": 3
+};
+for (const [group, expectedCount] of Object.entries(biochemistryControlCounts)) {
   const section = biochemistryFile.match(new RegExp('<div class="controls" id="' + group + '">([\\s\\S]*?)<\\/div>'));
   if (!section) {
     errors.push("chapters/biochemistry.html: missing " + group);
     continue;
   }
-  const labels = [...section[1].matchAll(/<button\\b[^>]*>([\\s\\S]*?)<\\/button>/gi)];
-  if (!labels.length || labels.some(m => !/<span class=["']ru["']>/.test(m[1]) || !/<span class=["']en["']>/.test(m[1]))) {
+  const labels = [...section[1].matchAll(/<button\b[^>]*>([\s\S]*?)<\/button>/gi)];
+  if (labels.length !== expectedCount) {
+    errors.push("chapters/biochemistry.html: expected " + expectedCount + " controls in " + group + ", found " + labels.length);
+  }
+  if (labels.some(m => !/<span class=["']ru["']>/.test(m[1]) || !/<span class=["']en["']>/.test(m[1]))) {
     errors.push("chapters/biochemistry.html: every " + group + " control must have paired Russian and English labels");
   }
 }
