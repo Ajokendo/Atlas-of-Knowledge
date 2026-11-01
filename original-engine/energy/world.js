@@ -41,7 +41,7 @@ export function buildWorld(E) {
   for (let z = -3; z <= 3; z++) grid.push(-4, 0.001, z, 160, 0.001, z);
   lines(root, grid, '#e6e6e2');
 
-  const smooth = (x0, x1, z0 = -0.9, z1 = 0.9) => part(root, box(x1 - x0, 0.02, z1 - z0, 0.005), { tone: 'lo', pal: 'board', pos: [(x0 + x1) / 2, 0.01, (z0 + z1) / 2], name: 'Surface' });
+  const smooth = (x0, x1, z0 = -0.9, z1 = 0.9) => part(root, box(x1 - x0, 0.02, z1 - z0, 0.005), { tone: 'lo', pal: 'board', pos: [(x0 + x1) / 2, 0.01, (z0 + z1) / 2], name: 'Поверхность' });
   const rough = (x0, x1, z0 = -0.9, z1 = 0.9) => {
     smooth(x0, x1, z0, z1);
     const h = [];
@@ -50,7 +50,7 @@ export function buildWorld(E) {
   };
   const block = (parent, s, name = 'Block') => part(parent, box(s, s, s, 0.03), { tone: 'hi', name });
   const ball = (parent, r, name = 'Ball') => part(parent, new THREE.SphereGeometry(r, 40, 24), { tone: 'hi', name });
-  const force = (parent, red = false) => arrow(parent, red ? 'red' : 'ink', { r: 0.022, head: 0.12, headR: 0.06, name: 'Forces' });
+  const force = (parent, red = false) => arrow(parent, red ? 'red' : 'ink', { r: 0.022, head: 0.12, headR: 0.06, name: 'Силы' });
   const thinArrow = (parent, name = 'Components') => arrow(parent, 'dark', { r: 0.016, head: 0.1, headR: 0.05, name, tone: 'mid' });
   const tip = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + 0.16, 0)) : null;
   const ghostBox = s => { const l = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(s, s, s)), new THREE.LineBasicMaterial({ color: '#bdbdc2' })); l.userData = { noEdge: true }; root.add(l); return l; };
@@ -64,7 +64,7 @@ export function buildWorld(E) {
     const w = 0.26, gap = 0.16;
     const ms = items.map(([pal, html], i) => {
       const bx = x0 + i * (w + gap);
-      const m = part(parent, new THREE.BoxGeometry(w, 1, w), { tone: 'hi', pal, name: 'Energy bars' });
+      const m = part(parent, new THREE.BoxGeometry(w, 1, w), { tone: 'hi', pal, name: 'Столбцы энергии' });
       label('vec', small(html), () => V(bx, labelY, z + w / 2));
       return { m, bx };
     });
@@ -121,26 +121,26 @@ export function buildWorld(E) {
   const XC = STATIONS.whirl, RC = 0.15, R0 = M.WHIRL.r;
   smooth(XC - 1.45, XC + 1.45, -1.45, 1.45);
   const gC = asm('whirl', root, { title: 'Шар на нити', sub: 'натяжение всегда перпендикулярно движению' });
-  part(gC, cyl(0.05, 0.22, 20), { tone: 'hi', pal: 'dark', pos: [XC, 0.13, 0], name: 'Peg' });
+  part(gC, cyl(0.05, 0.22, 20), { tone: 'hi', pal: 'dark', pos: [XC, 0.13, 0], name: 'Штифт' });
   const bC = ball(gC, RC, '0.50 kg ball'), strC = rod(gC);
   const vC = force(gC), tC = force(gC);
   const circ = []; for (let i = 0; i < 64; i += 1) { const a = i / 64 * 2 * Math.PI, b = (i + 0.5) / 64 * 2 * Math.PI; circ.push(XC + R0 * Math.cos(a), 0.025, R0 * Math.sin(a), XC + R0 * Math.cos(b), 0.025, R0 * Math.sin(b)); }
   lines(root, circ, '#a8a8ae');
   const corner = lines(gC, new Array(12).fill(0), '#2c2c30');
-  const strobeC = Array.from({ length: 3 }, () => [thinArrow(gC, 'Strobe'), thinArrow(gC, 'Strobe'), part(gC, new THREE.SphereGeometry(RC, 28, 16), { tone: 'lo', name: 'Strobe', mat: shadeMat('paper', { opacity: 0.45 }) })]);
+  const strobeC = Array.from({ length: 3 }, () => [thinArrow(gC, 'Стробоскопические положения'), thinArrow(gC, 'Стробоскопические положения'), part(gC, new THREE.SphereGeometry(RC, 28, 16), { tone: 'lo', name: 'Стробоскопические положения', mat: shadeMat('paper', { opacity: 0.45 }) })]);
   label('vec', '<b>v</b>', () => tip(vC)); label('vec', 'T', () => tip(tC));
 
   // ---------- 4 · work–energy theorem: a car speeding up ----------
   const XD = STATIONS.car;
-  part(root, box(16, 0.03, 3.4, 0.01), { tone: 'lo', pal: 'board', pos: [XD + 5, 0.015, 0], name: 'Road' });
+  part(root, box(16, 0.03, 3.4, 0.01), { tone: 'lo', pal: 'board', pos: [XD + 5, 0.015, 0], name: 'Дорога' });
   { const dashes = []; for (let x = XD - 3; x < XD + 13; x += 2) dashes.push(x, 0.035, 0, x + 1, 0.035, 0); lines(root, dashes, '#9a9aa0'); }
   const gD = asm('car', root, { title: 'Разгон автомобиля', sub: 'работа равнодействующей увеличивает кинетическую энергию' });
   const carD = new THREE.Group(); gD.add(carD);
-  part(carD, box(4.2, 0.7, 1.8, 0.18), { tone: 'hi', pos: [0, 0.75, 0], name: 'Body' });
-  part(carD, box(2.2, 0.6, 1.6, 0.2), { tone: 'hi', pos: [-0.3, 1.38, 0], name: 'Cabin' });
+  part(carD, box(4.2, 0.7, 1.8, 0.18), { tone: 'hi', pos: [0, 0.75, 0], name: 'Корпус' });
+  part(carD, box(2.2, 0.6, 1.6, 0.2), { tone: 'hi', pos: [-0.3, 1.38, 0], name: 'Салон' });
   for (const [x, z] of [[1.35, 0.85], [1.35, -0.85], [-1.35, 0.85], [-1.35, -0.85]]) {
-    part(carD, zAxis(new THREE.CylinderGeometry(0.36, 0.36, 0.26, 28)), { tone: 'mid', pal: 'dark', pos: [x, 0.36, z], name: 'Wheels' });
-    part(carD, zAxis(new THREE.CylinderGeometry(0.17, 0.17, 0.28, 20)), { tone: 'mid', pos: [x, 0.36, z], name: 'Wheels' });
+    part(carD, zAxis(new THREE.CylinderGeometry(0.36, 0.36, 0.26, 28)), { tone: 'mid', pal: 'dark', pos: [x, 0.36, z], name: 'Колёса' });
+    part(carD, zAxis(new THREE.CylinderGeometry(0.17, 0.17, 0.28, 20)), { tone: 'mid', pos: [x, 0.36, z], name: 'Колёса' });
   }
   const fD = force(gD), wD = force(gD), nD = force(gD), netD = force(gD, true), dxD = thinArrow(gD, 'Displacement');
   label('vec', 'F', () => tip(fD)); label('vec', 'F<sub>g</sub>', () => tip(wD)); label('vec', 'F<sub>N</sub>', () => tip(nD)); label('vec red', 'ΣF', () => tip(netD)); label('vec', 'Δ<i>x</i>', () => tip(dxD));
@@ -166,13 +166,13 @@ export function buildWorld(E) {
   // ---------- 6 · spring PE: a block slides into a spring ----------
   const XF = STATIONS.spring, SF = 0.5, wallX = XF + 1.4, Lfree = 1.0, endX = wallX - Lfree;
   smooth(XF - 2.4, wallX);
-  part(root, box(0.16, 1.0, 1.4, 0.02), { tone: 'mid', pal: 'board', pos: [wallX + 0.08, 0.5, 0], name: 'Wall' });
+  part(root, box(0.16, 1.0, 1.4, 0.02), { tone: 'mid', pal: 'board', pos: [wallX + 0.08, 0.5, 0], name: 'Стена' });
   const gF = asm('spring', root, { title: 'Блок и пружина', sub: 'кинетическая энергия запасается и возвращается' });
   const bF = block(gF, SF, '2.0 kg block');
   const coil = (() => { const pts = []; const turns = 9, n = 400; for (let i = 0; i <= n; i++) { const u = i / n, a = u * turns * 2 * Math.PI; pts.push(V(u, 0.11 * Math.sin(a), 0.11 * Math.cos(a))); }
     return new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 600, 0.016, 8, false); })();
-  const springF = part(gF, coil, { tone: 'hi', pal: 'dark', name: 'Spring' });
-  const capF = part(gF, xAxis(cyl(0.14, 0.03, 28)), { tone: 'hi', pal: 'dark', name: 'Spring' });
+  const springF = part(gF, coil, { tone: 'hi', pal: 'dark', name: 'Пружина' });
+  const capF = part(gF, xAxis(cyl(0.14, 0.03, 28)), { tone: 'hi', pal: 'dark', name: 'Пружина' });
   const fsF = force(gF), dxF = thinArrow(gF, 'Compression');
   label('vec', 'F<sub>s</sub>', () => tip(fsF)); label('vec', 'Δ<i>x</i>', () => tip(dxF));
   dashLine(V(endX, 0.03, -0.75), V(endX, 0.03, 0.75), 10);
@@ -185,7 +185,7 @@ export function buildWorld(E) {
   // up to the crate is the work done so far.
   const XP = STATIONS.push, SP = 0.6, xP0 = XP - 2.2, GB = 0.85, zP = -0.8, Lp = M.PUSH.L, FP = SC.push.F;
   smooth(xP0 - 0.6, xP0 + Lp + M.PUSH.coast + 0.5);
-  part(root, box(Lp + 0.75, 1.4, 0.03, 0.01), { tone: 'lo', pal: 'board', pos: [xP0 + Lp / 2 + 0.12, GB + 0.55, zP - 0.03], name: 'Graph board' });
+  part(root, box(Lp + 0.75, 1.4, 0.03, 0.01), { tone: 'lo', pal: 'board', pos: [xP0 + Lp / 2 + 0.12, GB + 0.55, zP - 0.03], name: 'График' });
   { const t = [xP0, GB, zP, xP0 + Lp + 0.35, GB, zP, xP0, GB, zP, xP0, GB + 1.08, zP];
     for (let i = 1; i <= 3; i++) t.push(xP0 + i, GB, zP, xP0 + i, GB - 0.06, zP);
     for (const F of [10, 20]) t.push(xP0, GB + F * FP, zP, xP0 - 0.06, GB + F * FP, zP);
@@ -193,17 +193,17 @@ export function buildWorld(E) {
     for (const i of [0, 1, 2, 3]) label('tick', small(i ? `${i} m` : '0', 13), () => V(xP0 + i + 0.06, GB - 0.12, zP));
     for (const F of [10, 20]) label('tick', small(`${F} N`, 13), () => V(xP0 - 0.08, GB + F * FP, zP)); }
   label('board', small('<i>F</i>(<i>x</i>)', 18), () => V(xP0 + 0.08, GB + 1.08, zP));
-  part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(80, x => V(xP0 + x, GB + M.pushF(x) * FP, zP + 0.01), 0, Lp)), 160, 0.014, 8, false), { tone: 'hi', pal: 'ink', name: 'F(x) curve' });
+  part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(80, x => V(xP0 + x, GB + M.pushF(x) * FP, zP + 0.01), 0, Lp)), 160, 0.014, 8, false), { tone: 'hi', pal: 'ink', name: 'Кривая F(x)' });
   const fillP = areaMesh(150, x => [xP0 + x, GB, GB + M.pushF(x) * FP], 0, Lp, zP + 0.005);
   const gP = asm('push', root, { title: 'Ящик под действием переменной силы', sub: 'работа равна площади под графиком F(x)' });
   gP.userData.focus = () => ({ target: [xP0 + Lp / 2 + 0.55, 0.9, 0], radius: 2.7 });
   const bP = block(gP, SP, '5.0 kg crate');
-  const fP = force(gP), dotP = part(gP, new THREE.SphereGeometry(0.045, 16, 10), { tone: 'hi', pal: 'ink', name: 'F(x) curve' });
+  const fP = force(gP), dotP = part(gP, new THREE.SphereGeometry(0.045, 16, 10), { tone: 'hi', pal: 'ink', name: 'Кривая F(x)' });
   const dropP = liveDash(gP, 10);
   label('vec', '<i>F</i>(<i>x</i>)', () => fP.visible ? fP.position.clone().add(V(0.25, 0.2, 0)) : null);
   label('board', small('area = <i>W</i>', 17), () => pushState.x > 0.9 ? V(xP0 + 0.3, GB + 0.32, zP) : null);
   const NS = 6, stripsP = Array.from({ length: NS }, (_, i) => { const dx = Lp / NS, xm = (i + 0.5) * dx, hgt = M.pushF(xm) * FP;
-    return part(gP, box(dx * 0.92, hgt, 0.04, 0.005), { tone: 'mid', pal: 'dark', pos: [xP0 + xm, GB + hgt / 2, zP + 0.04], ex: [0, 0, 0.55], name: 'Strips' }); });
+    return part(gP, box(dx * 0.92, hgt, 0.04, 0.005), { tone: 'mid', pal: 'dark', pos: [xP0 + xm, GB + hgt / 2, zP + 0.04], ex: [0, 0, 0.55], name: 'Полоски' }); });
   label('board', small('<i>F</i>(<i>x</i><sub>i</sub>) Δ<i>x</i>', 16), () => opened(gP) > 0.3 ? stripsP[1].position.clone().add(V(-0.2, M.pushF(1.5 * Lp / NS) * FP / 2 + 0.14, 0)) : null);
   label('board', small(`sum of ${NS} strips ≈ ${M.pushStrips(NS).toFixed(1)} J`, 15), () => opened(gP) > 0.3 ? stripsP[4].position.clone().add(V(-0.3, M.pushF(4.5 * Lp / NS) * FP / 2 + 0.55, 0)) : null);
   const barsP = bars(gP, xP0 + Lp + M.PUSH.coast + 0.8, 0, 0.02, [['ink', 'W'], ['blue', 'K']], SC.push.E);
@@ -213,12 +213,12 @@ export function buildWorld(E) {
   const XQ = STATIONS.bead, xQ0 = XQ - M.BEAD.span / 2, RQ = 0.085;
   const wp = x => { const [a, b] = M.wirePoint(x); return V(xQ0 + a, b, 0); };
   const tanQ = x => { const s = M.beadH1(x); return V(Math.sqrt(1 - s * s), s, 0); };
-  part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(240, wp, 0, M.BEAD.len)), 480, 0.014, 8, false), { tone: 'hi', pal: 'dark', name: 'Wire' });
-  for (const x of [0, M.BEAD.len]) { const p = wp(x); part(root, cyl(0.025, p.y, 12), { tone: 'mid', pal: 'dark', pos: [p.x, p.y / 2, 0], name: 'Post' }); }
+  part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(240, wp, 0, M.BEAD.len)), 480, 0.014, 8, false), { tone: 'hi', pal: 'dark', name: 'Проволока' });
+  for (const x of [0, M.BEAD.len]) { const p = wp(x); part(root, cyl(0.025, p.y, 12), { tone: 'mid', pal: 'dark', pos: [p.x, p.y / 2, 0], name: 'Опора' }); }
   dashLine(V(xQ0 - 0.3, 0.006, 0.5), V(xQ0 + M.BEAD.span + 0.3, 0.006, 0.5), 30);
   label('board', small('<i>U</i> = 0 at the floor', 15), () => V(xQ0 + M.BEAD.span + 0.35, 0.006, 0.5));
   for (const [x, txt, dy, dx] of [[M.BEAD.stable, 'stable', -0.22, -0.2], [M.BEAD.unstable, 'unstable', 0.22, -0.35], [M.BEAD.neutral, 'neutral', 0.22, -0.3]]) {
-    const p = wp(x); part(root, new THREE.SphereGeometry(0.03, 12, 8), { tone: 'hi', pal: 'ink', pos: p.toArray(), name: 'Equilibrium' });
+    const p = wp(x); part(root, new THREE.SphereGeometry(0.03, 12, 8), { tone: 'hi', pal: 'ink', pos: p.toArray(), name: 'Равновесие' });
     label('board', small(txt, 15), () => p.clone().add(V(dx, dy, 0)));
   }
   const gQ = asm('bead', root, { title: 'Бусинка на волнистой проволоке', sub: 'сила равна минус наклону графика U' });
@@ -239,8 +239,8 @@ export function buildWorld(E) {
   const XN = STATIONS.bond, xN0 = XN - 2.0, DS = SC.bond.r, yZ = 2.05, UY = SC.bond.U, zN = -0.35, BD = M.BOND;
   const rx = r => xN0 + r * DS, uy = U => yZ + U / M.EV * UY, yE = uy(BD.E);
   const rLo = 0.125e-9, rHi = 0.34e-9, rClip = BD.r0 / Math.pow(1 + Math.sqrt(1 + 0.4), 1 / 6), yBot = uy(-1.18 * BD.eps);
-  part(root, box(rx(rHi) - rx(rLo) + 0.15, uy(0.45 * BD.eps) - yBot + 0.1, 0.03, 0.01), { tone: 'lo', pal: 'board', pos: [(rx(rLo) + rx(rHi)) / 2 + 0.05, (uy(0.45 * BD.eps) + yBot) / 2, zN - 0.03], name: 'Graph board' });
-  part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(160, r => V(rx(r), uy(M.bondU(r)), zN + 0.01), rClip, rHi)), 320, 0.014, 8, false), { tone: 'hi', pal: 'ink', name: 'U(r) curve' });
+  part(root, box(rx(rHi) - rx(rLo) + 0.15, uy(0.45 * BD.eps) - yBot + 0.1, 0.03, 0.01), { tone: 'lo', pal: 'board', pos: [(rx(rLo) + rx(rHi)) / 2 + 0.05, (uy(0.45 * BD.eps) + yBot) / 2, zN - 0.03], name: 'График' });
+  part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(160, r => V(rx(r), uy(M.bondU(r)), zN + 0.01), rClip, rHi)), 320, 0.014, 8, false), { tone: 'hi', pal: 'ink', name: 'Кривая U(r)' });
   { const t = [rx(rLo), yBot, zN, rx(rHi), yBot, zN, rx(rLo), yBot, zN, rx(rLo), uy(0.45 * BD.eps), zN];
     for (const r of [0.15, 0.2, 0.25, 0.3]) t.push(rx(r * 1e-9), yBot, zN, rx(r * 1e-9), yBot - 0.06, zN);
     for (const U of [0, -1]) t.push(rx(rLo), uy(U * BD.eps), zN, rx(rLo) - 0.06, uy(U * BD.eps), zN);
@@ -255,7 +255,7 @@ export function buildWorld(E) {
   // E line beyond the turning points is dashed: the atom can't go there (K would be negative)
   dashLine(V(rx(BD.r2), yE, zN + 0.01), V(rx(rHi), yE, zN + 0.01), 12);
   for (const r of [BD.r1, BD.r2]) {
-    part(root, new THREE.SphereGeometry(0.035, 12, 8), { tone: 'hi', pal: 'ink', pos: [rx(r), yE, zN + 0.01], name: 'Turning point' });
+    part(root, new THREE.SphereGeometry(0.035, 12, 8), { tone: 'hi', pal: 'ink', pos: [rx(r), yE, zN + 0.01], name: 'Точка поворота' });
     dashLine(V(rx(r), yE, zN), V(rx(r), yBot, zN), 10);
   }
   label('board', small('turning points', 14), () => V(rx(BD.r2) + 0.1, yE + 0.15, zN));
@@ -263,16 +263,16 @@ export function buildWorld(E) {
   const yA = 0.32, zA = 0;
   const gN = asm('bond', root, { title: 'Два атома и связь между ними', sub: 'частица в потенциальной яме' });
   gN.userData.focus = () => ({ target: [(rx(rLo) + rx(rHi)) / 2 - 0.5, 1.4, 0], radius: 1.9 });
-  part(gN, new THREE.SphereGeometry(0.3, 36, 22), { tone: 'hi', pal: 'dark', pos: [xN0, yA, zA], name: 'Heavy atom (held)' });
+  part(gN, new THREE.SphereGeometry(0.3, 36, 22), { tone: 'hi', pal: 'dark', pos: [xN0, yA, zA], name: 'Тяжёлый атом (неподвижен)' });
   const aN = ball(gN, 0.15, 'Light atom, 1 u');
-  const fN = force(gN, true), dotN = part(gN, new THREE.SphereGeometry(0.045, 16, 10), { tone: 'hi', pal: 'ink', name: 'U(r) curve' });
-  const eDotN = part(gN, new THREE.SphereGeometry(0.04, 16, 10), { tone: 'hi', pal: 'blue', name: 'Kinetic energy' });
-  const kN = rod(gN, 0.016, 'blue', 'Kinetic energy'), guideN = liveDash(gN, 14);
+  const fN = force(gN, true), dotN = part(gN, new THREE.SphereGeometry(0.045, 16, 10), { tone: 'hi', pal: 'ink', name: 'Кривая U(r)' });
+  const eDotN = part(gN, new THREE.SphereGeometry(0.04, 16, 10), { tone: 'hi', pal: 'blue', name: 'Кинетическая энергия' });
+  const kN = rod(gN, 0.016, 'blue', 'Кинетическая энергия'), guideN = liveDash(gN, 14);
   label('vec red', '<i>F</i>', () => tip(fN)); label('vec blue', small('<i>K</i>', 19), () => kN.visible ? kN.position.clone().add(V(0.13, 0, 0)) : null);
   label('tick', small('heavy atom', 13), () => V(xN0 + 0.35, yA - 0.42, zA));
   label('tick', small('light atom', 13), () => opened(gN) < 0.05 ? aN.position.clone().add(V(0.3, -0.3, 0)) : null);
   // opened: the turns as ghosts, the stable point r0, and the parabola that fits the bottom of the well
-  const ghostsN = [BD.r1, BD.r2].map(r => part(gN, new THREE.SphereGeometry(0.15, 28, 16), { tone: 'lo', name: 'Turning point', pos: [rx(r), yA, zA], mat: shadeMat('paper', { opacity: 0.45 }) }));
+  const ghostsN = [BD.r1, BD.r2].map(r => part(gN, new THREE.SphereGeometry(0.15, 28, 16), { tone: 'lo', name: 'Точка поворота', pos: [rx(r), yA, zA], mat: shadeMat('paper', { opacity: 0.45 }) }));
   ghostsN.forEach((g, i) => label('vec grey', small('<i>v</i> = 0', 16), () => g.visible ? g.position.clone().add(V(i ? 0.1 : -0.1, -0.27, 0)) : null));
   const parabN = new THREE.Group(); gN.add(parabN);
   { const p = []; const half = Math.sqrt(2 * 1.05 * BD.eps / BD.k), n = 40; for (let i = 0; i < n; i++) { const r = BD.r0 - half + 2 * half * i / n, r2 = BD.r0 - half + 2 * half * (i + 0.5) / n; p.push(rx(r), uy(-BD.eps + 0.5 * BD.k * (r - BD.r0) ** 2), zN + 0.02, rx(r2), uy(-BD.eps + 0.5 * BD.k * (r2 - BD.r0) ** 2), zN + 0.02); }
@@ -284,7 +284,7 @@ export function buildWorld(E) {
 
   // ---------- 7 · conservation: a pendulum ----------
   const XG = STATIONS.pendulum, PY = 3.3, RG = 0.15;
-  part(root, box(1.0, 0.08, 0.4, 0.02), { tone: 'mid', pal: 'board', pos: [XG, PY + 0.04, 0], name: 'Ceiling' });
+  part(root, box(1.0, 0.08, 0.4, 0.02), { tone: 'mid', pal: 'board', pos: [XG, PY + 0.04, 0], name: 'Потолок' });
   const gG = asm('pendulum', root, { title: 'Маятник', sub: 'K и U переходят друг в друга, их сумма постоянна' });
   const bG = ball(gG, RG, '1.0 kg bob'), strG = rod(gG);
   const tG = force(gG), fgG = force(gG), vG = force(gG), tanG = thinArrow(gG), radG = thinArrow(gG);
@@ -309,7 +309,7 @@ export function buildWorld(E) {
 
   // ---------- 9 · power: the same crate lifted fast and slow ----------
   const XI = STATIONS.lift, SI = 0.55, CEIL = 3.4, xs = [XI - 0.85, XI + 0.85];
-  part(root, box(3.0, 0.08, 0.5, 0.02), { tone: 'mid', pal: 'board', pos: [XI, CEIL + 0.04, 0], name: 'Ceiling' });
+  part(root, box(3.0, 0.08, 0.5, 0.02), { tone: 'mid', pal: 'board', pos: [XI, CEIL + 0.04, 0], name: 'Потолок' });
   const gI = asm('lift', root, { title: 'Подъём ящика', sub: 'одинаковая работа, разная мощность' });
   const crates = xs.map(x => block(gI, SI, '10 kg crate'));
   const ropesI = xs.map(() => rod(gI, 0.012, 'ink', 'Rope'));
