@@ -20,6 +20,10 @@ A regional heading or a species mentioned in a regional narrative is not, by its
 | Talas | Besh-Tash; spruce and juniper communities; river valleys; alpine meadows | Besh-Tash camera-trap records; maral; marmots; raptors and high-altitude birds | Camera-trap detections establish presence during the monitoring period, not population size or continuous occupancy. Ministry park-wide plant richness is not a presented species checklist. |
 | Chuy | Ala-Archa; Chon-Kemin; Issyk-Ata; valley steppe and semi-desert | Ala-Archa mammals; Chon-Kemin camera traps; Shamshy-Tuyuk; Kök-Oyrok; Ak-Suu | Keep named camera-trap sites and dates attached to detections. Do not merge separate protected-area records into one oblast-wide inventory. |
 
+## Source-traceability limitation
+
+The regional narratives and the chapter bibliography currently provide useful source material, but this audit does not treat the mere presence of a source in a chapter-wide bibliography as proof that it supports every adjacent species statement. Some regional claims still need a direct claim-to-source link or a compact citation immediately beside the relevant paragraph. This is a concrete editorial gap, not a presumed failure of the source itself. During the next species-account pass, each high-priority statement should be linked to the exact publication, official notice or dataset that supports its taxon, locality, date and method.
+
 ## Cross-cutting findings
 
 1. **Seven-oblast structure is present in both chapters.** The regional framework is broad enough to guide future inventories, but it does not yet constitute seven complete, verified species checklists.
