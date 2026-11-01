@@ -925,3 +925,10 @@ The current marker additions are production instructions/placeholders only; no g
 - The additions cover GIS/remote sensing, Kyrgyzstan physical geography, climate, water, biodiversity, protected areas, population, regional maps, transport/economy and environmental assets. All new text is a production brief, not generated image content.
 - Updated `geography/VISUAL_ASSET_REGISTER.md` to record complete bilingual brief parity: commit `d4a51dff0cc2027e3e477b9e10350f6965c24f5b`; verified blob `25990292dbed77da8867424096610a792249280d`.
 - This closes the language-instruction gap in the visual register; actual image creation, map-data validation, typesetting and asset approval remain separate tasks.
+
+
+## Bibliography placeholder scan — all 26 chapters (1 November 2026)
+
+- Scanned the reference sections of all 26 chapter files for explicit unfinished citation markers such as “TODO”, “TBD”, “to be confirmed”, incomplete DOI/URL instructions and “verify before publication” notes.
+- No explicit unfinished bibliography placeholder was found after the Chapter 18 DOI/title corrections and Chapter 20/26 bibliography cleanups.
+- This is a text-pattern scan, not a claim that every cited source has been opened, remains accessible, or supports every adjacent factual statement. Source validation remains recorded chapter by chapter above.
