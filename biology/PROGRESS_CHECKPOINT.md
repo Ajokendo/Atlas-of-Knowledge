@@ -720,3 +720,11 @@
 - The expanded full-tab-order enumerator was deliberately removed after its test harness could not reliably map the browser's active element to all candidate elements. Full keyboard traversal remains open; only the explicitly listed smoke checks are confirmed.
 - Keyboard smoke-check stage: 100% for the defined first-focus / forward / reverse test. Overall keyboard accessibility review remains incomplete pending full traversal, control-specific keyboard activation, screen-reader and device checks.
 - Overall editorial readiness remains 95/100. G4/G5 independent reviews, 52 deferred visual assets and feedback-intake security activation remain open; feedback form remains disabled.
+
+
+## 2026-11-01 — keyboard activation checks added
+
+- Extended the browser suite to test actual keyboard activation of two representative Biology interactions: Enter on the first Botany quiz answer, and Space on the Ecology carbon-cycle control. The Ecology assertion checks both `aria-pressed` and the updated output text.
+- New browser test commit: `3877d69f89c657a81340192fb09040e6f4f79c58`. CI verification is pending.
+- These are representative control checks, not proof that every interactive element on every page supports keyboard activation. Full tab-order traversal and screen-reader testing remain open.
+- The prior baseline remains confirmed: contrast sampler 6,683 text instances / zero below threshold; first-focus Tab/Shift+Tab smoke checks passed on all 13 pages.
