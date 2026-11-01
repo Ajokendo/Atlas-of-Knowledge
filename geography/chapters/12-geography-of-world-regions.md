@@ -44,6 +44,7 @@ Regional geography studies major parts of the world as complex territorial syste
 ## 12.3. Африка / Africa
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-A / IMAGE PLACEHOLDER 12-A]** Физико-географическая карта Африки с основными природными зонами, реками и горными системами.
+> **EN:** Physical-geographical map of Africa showing major natural zones, rivers and mountain systems.
 
 <text>Африка — второй по площади и численности населения материк, включающий чрезвычайно разнообразные природные и общественные системы. В региональных классификациях обычно выделяют Северную, Западную, Центральную, Восточную и Южную Африку, однако состав отдельных субрегионов может различаться.</text>
 
@@ -93,6 +94,7 @@ Regional geography studies major parts of the world as complex territorial syste
 ## 12.5. Азия / Asia
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-B / IMAGE PLACEHOLDER 12-B]** Карта макрорегионов Азии с условными границами выбранной классификации и основными физико-географическими объектами.
+> **EN:** Map of Asia's macro-regions with the boundaries of the selected classification and major physical-geographical features.
 
 Азия — крупнейшая часть света по площади и численности населения. Она простирается от арктических побережий до экваториальных островов и включает огромный диапазон климатов, рельефов, языков, религий, политических систем и уровней экономического развития.
 
@@ -216,6 +218,7 @@ Regional geography studies major parts of the world as complex territorial syste
 ## 12.11. Трансграничные регионы и глобальные связи / Transboundary Regions and Global Connections
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-C / IMAGE PLACEHOLDER 12-C]** Карта трансграничных речных бассейнов, горных систем, морских экосистем и транспортных коридоров.
+> **EN:** Map of transboundary river basins, mountain systems, marine ecosystems and transport corridors.
 
 Многие географические процессы не ограничиваются государственными границами. Речные бассейны, горные системы, пустыни, морские экосистемы, транспортные коридоры и рынки формируют трансграничные регионы.
 
@@ -255,6 +258,7 @@ Analysis requires more than a map of political boundaries. A basin diagram shoul
 ## 12.13. Как пользоваться региональными картами и статистикой / Reading Regional Maps and Statistics
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-D / IMAGE PLACEHOLDER 12-D]** Инфографика проверки региональных данных: границы, дата, классификация, единицы, источник и сопоставимость.
+> **EN:** Regional-data quality checklist covering boundaries, date, classification, units, source and comparability.
 
 При анализе региональных карт необходимо проверять:
 - географический охват и принятую схему регионализации;
