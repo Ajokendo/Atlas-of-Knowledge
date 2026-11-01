@@ -262,6 +262,17 @@ for (const phrase of ["negative feedback", "positive feedback", "insulin", "gluc
 if (!/<span class="ru">/.test(homeostasisControlBlock) || !/<span class="en">/.test(homeostasisControlBlock)) errors.push("chapters/anatomy.html: homeostasis lesson must be bilingual");
 if (!homeostasisControlBlock.includes('role="img"') || !homeostasisControlBlock.includes('aria-labelledby="homeostasis-svg-title homeostasis-svg-desc"') || !homeostasisControlBlock.includes("<title") || !homeostasisControlBlock.includes("<desc")) errors.push("chapters/anatomy.html: homeostasis diagram must have accessible SVG title and description");
 
+const renalStart = anatomyFile.indexOf('id="renal-physiology"');
+const objectivesStart = anatomyFile.indexOf('<section class="learning-block"><div class="learning-grid">');
+const renalBlock = anatomyFile.slice(renalStart, objectivesStart);
+if (renalStart < 0 || objectivesStart <= renalStart) errors.push("chapters/anatomy.html: renal physiology lesson must precede the learning objectives");
+for (const phrase of ["glomerulus", "Bowman's capsule", "filtration", "reabsorption", "secretion", "aldosterone", "vasopressin", "renin", "angiotensin", "extracellular-fluid volume", "selective and regulated"]) {
+  if (!renalBlock.toLowerCase().includes(phrase.toLowerCase())) errors.push("chapters/anatomy.html: renal physiology lesson missing mechanism or scientific qualification: " + phrase);
+}
+if (!/<span class="ru">/.test(renalBlock) || !/<span class="en">/.test(renalBlock)) errors.push("chapters/anatomy.html: renal physiology lesson must be bilingual");
+if (!renalBlock.includes('role="img"') || !renalBlock.includes('aria-labelledby="nephron-svg-title nephron-svg-desc"') || !renalBlock.includes('id="nephron-svg-title"') || !renalBlock.includes('id="nephron-svg-desc"')) errors.push("chapters/anatomy.html: nephron diagram must have accessible SVG title and description");
+if (!renalBlock.includes("does not maintain a fixed filtration rate") || !renalBlock.includes("не означает, что скорость фильтрации и объём мочи постоянны")) errors.push("chapters/anatomy.html: renal lesson must explain physiological variation in filtration and urine output");
+
 const geneticsFile = fs.readFileSync(path.join(root, "chapters", "genetics.html"), "utf8");
 if (!geneticsFile.includes("let selectedMutation=null") || !geneticsFile.includes("updateDynamic();updateMutation()")) {
   errors.push("chapters/genetics.html: mutation model must preserve and translate selection on language switch");
