@@ -511,6 +511,48 @@ Particular attention should be paid to differences between statistical and admin
 
 **Worked example in English.** Imagine a region with two fictional electoral districts. District A has 9,000 registered voters and 7,200 voters who cast a ballot; turnout is 80%. District B has 4,000 registered voters and 2,400 voters who cast a ballot; turnout is 60%. Across the region, turnout is (7,200 + 2,400) ÷ (9,000 + 4,000) × 100% ≈ 73.8%. A simple average of 80% and 60% gives 70%, which is misleading because the districts have different numbers of registered voters. Calculate the regional rate from the combined totals, not by averaging district percentages without weights.
 
+### English Summary
+
+1. Political geography studies the spatial organisation of power and political processes.
+2. State, nation, country, population and citizenship are different concepts.
+3. Sovereignty is exercised within international law and the obligations accepted by a state.
+4. State borders are established and marked through legal and technical procedures.
+5. Maritime zones have different legal regimes; an EEZ is not state territory.
+6. Unitary and federal systems differ in the constitutional distribution of powers.
+7. Elections and political representation have a clear spatial dimension.
+8. Geographic location influences opportunities and constraints but does not predetermine policy.
+9. International organisations and regional integration create mechanisms for cooperation.
+10. Political maps require checking their sources, dates, status information and symbols.
+
+### English Review Questions
+
+1. What does political geography study, and which spatial scales does it examine?
+2. How does a state differ from a nation and a country?
+3. What does sovereignty mean, and why is it not unlimited power?
+4. How does border delimitation differ from demarcation?
+5. Which legal regimes apply in the territorial sea and the exclusive economic zone?
+6. How does a unitary system differ from a federal system?
+7. Which factors influence the choice of a capital and the location of government institutions?
+8. What does electoral geography study?
+9. Why does geographic location not automatically determine a state's foreign policy?
+10. How does an international organisation differ from a non-governmental organisation?
+11. Why does transboundary water management require cooperation?
+12. How should disputed territories be represented on an educational map?
+13. Which consequences of colonial legacies may be reflected in today's political map?
+14. Which data sources and limitations should be considered when using GIS in political geography?
+
+### English Practical Activities
+
+**1. Political map analysis.** Select a world political map from an official or scientific source. Identify its date, projection, scale, boundary source and symbols. List the questions the map can answer and those requiring additional data.
+
+**2. Comparing systems of territorial organisation.** Select two countries with different systems of territorial organisation. Use their constitutions and official sources to compare levels of government, distribution of powers, administrative units and local-government mechanisms. Do not draw conclusions from the system's name alone.
+
+**3. Maritime zones.** Using Figure 10.2, identify the rights of a coastal state in the territorial sea and EEZ. Explain why the EEZ should not be coloured as ordinary state territory.
+
+**4. Geography of service accessibility.** Use open geospatial data to map administrative centres, settlements and roads in a selected region. Assess which areas are remote from major services. State data limitations and do not treat estimated travel time as actual travel time without verification.
+
+**5. Spatial analysis of elections.** Use open aggregated data to compare turnout and voting results by district. Distinguish absolute numbers from shares, check whether districts are comparable and discuss why territorial correlation does not reveal individual voter motivations.
+
 ## Научные редакционные примечания / Scientific editorial notes
 
 - При публикации политической карты указывать дату актуальности и источник границ; при необходимости приводить несколько статусов или пояснять спорные участки.
