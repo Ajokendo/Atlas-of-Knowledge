@@ -112,3 +112,34 @@ No illustration asset was generated or marked complete. All 52 page anchors, tar
 No other discipline folder or historical branch was changed. No merge or branch deletion was performed.
 
 Code checkpoint: `10c8765bc7ab9ee1afcebb84b67d9790b8f198dc`.
+
+
+## Ecology interactive controls QA checkpoint — 1 November 2026
+
+A chapter-level review found that the carbon-cycle and ecosystem-pressure controls in `chapters/ecology.html` were Russian-only, unlike the surrounding bilingual chapter. These controls also lacked explicit initial `aria-pressed` states even though the interaction code reads and updates that state.
+
+Corrected the five carbon-cycle controls and four ecosystem-pressure controls:
+- Carbon cycle: Photosynthesis, Cellular respiration, Decomposition, Combustion, Ocean exchange.
+- Ecosystem pressures: Drought, Pollution, Invasive species, Conservation.
+- Each control now has paired Russian/English labels and an explicit initial pressed state; exactly one control per group is initially selected.
+- The existing update handler continues to switch the explanatory output according to the selected page language.
+
+Added regression coverage in `checks.mjs` for exact group counts, bilingual labels and initial pressed-state consistency. Added Playwright smoke assertions in `browser-smoke.mjs` for language visibility, accessible pressed states, selection changes and the English cellular-respiration output.
+
+Focused source-level verification against the current repository files:
+- Carbon controls: 5/5, bilingual, 5 pressed-state attributes, one initial selection.
+- Pressure controls: 4/4, bilingual, 4 pressed-state attributes, one initial selection.
+- Static assertion logic matches the actual chapter markup.
+- Browser smoke coverage is present in source.
+
+**Execution limitation:** the connector returned no workflow runs for this commit. The Playwright and Node.js suites have not been executed in a local runtime; this checkpoint is not a CI pass.
+
+Illustration planning remains unchanged and intact:
+- `IMAGE_INSERTION_MAP.md`: 52 rows.
+- `IMAGE_DISPOSITION_REGISTER.md`: 52 deferred rows.
+- Ecology image anchors `image-brief-ecology-cycles` and `image-brief-ecology-mountain` remain in the chapter with bilingual descriptions and planned target assets. No image was generated or marked complete.
+
+Code checkpoints:
+- Ecology chapter: `dd54adaffed4f03289ad3e1d351d38373e9ee045`.
+- Static checks: `c8dce8ff328b7515f488fc4854eb36bec97f92df`.
+- Browser smoke: `da05d8e111da2a024806eea0c34a54a1610f860e`.
