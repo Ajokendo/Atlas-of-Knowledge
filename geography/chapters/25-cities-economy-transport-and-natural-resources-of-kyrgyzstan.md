@@ -45,7 +45,7 @@ Economic geography should therefore go beyond lists of enterprises and freight v
 | Услуги | 48,7% | 106,1% |
 | Чистые налоги на продукты | 15,4% | 110,8% |
 
-*Источник: НСК, предварительная оценка за январь–сентябрь 2026 года. Индекс 106,5% означает рост на 6,5%, а не долю сектора в ВВП. Доли округлены.*
+*Источник: НСК, предварительная оценка за январь–сентябрь 2026 года. Индекс 106,5% означает рост на 6,5%, а не долю сектора в ВВП. Доли округлены. НСК подчёркивает, что оперативная оценка ВВП рассчитывается для своевременного отражения тенденций и опирается на динамику индексов выпуска по базовым видам деятельности; это предварительная оценка, а не окончательный расчёт годовых национальных счетов. Поэтому показатели за январь–сентябрь следует сравнивать с тем же периодом предыдущего года и не переносить автоматически на весь 2026 год.
 
 Быстрый рост агрегированного ВВП сам по себе не показывает, насколько равномерно распределяются доходы и производственные возможности. Для полноценной оценки следует изучать ВВП на душу населения, производительность труда, реальные доходы, занятость, инвестиции, экспортную структуру, региональные различия и долговую устойчивость.
 
@@ -67,7 +67,7 @@ According to the National Statistical Committee's preliminary estimate, Kyrgyzst
 | Services | 48.7% | 106.1 |
 | Net taxes on products | 15.4% | 110.8 |
 
-*Source: NSC preliminary estimate for January–September 2026. An index of 106.5 means growth of 6.5%, not a 106.5% GDP share. Shares are rounded.*
+*Source: NSC preliminary estimate for January–September 2026. An index of 106.5 means growth of 6.5%, not a 106.5% GDP share. Shares are rounded. The NSC notes that its rapid GDP estimate is designed to track current trends and is based on output indices in basic economic activities; it is a preliminary estimate, not the final annual national-accounts calculation. January–September figures should therefore be compared with the same period of the previous year and must not automatically be extrapolated to the whole of 2026.
 
 Rapid aggregate GDP growth does not show whether income and productive opportunities are distributed evenly. A fuller assessment should examine GDP per capita, labour productivity, real incomes, employment, investment, export composition, regional differences and debt sustainability.
 
