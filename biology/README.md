@@ -823,3 +823,13 @@ After the latest fish-taxonomy and illustration-guard updates, all 13 Biology HT
 - No Biology-page external link opening a new tab was found without `rel="noopener"`.
 - This remains a read-only source check. It is not execution of the full Node test suite, Playwright, CI or independent expert review. G1–G6 remain open as applicable; readiness remains **95/100**.
 - Branch checkpoint before this documentation entry: `e7104273b6ae7ab4f09bd2637511fcce85bb2143`.
+
+
+## Static-checker repair and in-memory preflight — 1 November 2026
+
+- A syntax compilation pass exposed two malformed regular expressions in `checks.mjs`: the planned-image path pattern had escaped its forward slashes twice, and the insertion-map pattern did not match a literal leading pipe. Both expressions are corrected.
+- Re-ran JavaScript syntax compilation for `checks.mjs` and `browser-smoke.mjs`; both compile successfully.
+- Executed the current `checks.mjs` assertion logic in an in-memory V8 compatibility harness using the GitHub-fetched `workspace/biology` files and repository tree. Result: **PASS** — 13 HTML pages, 88 local paths, 13 inline scripts syntax-compiled, and 165 explicitly typed buttons; no assertion failures.
+- The harness supplies in-memory filesystem/path and inline-script compilation shims. It is a useful preflight, but it is **not** a clean local checkout and is **not** the required `node biology/checks.mjs` execution under Node. G1 therefore remains unchecked pending the prescribed clean-checkout run; G2 and G3 are also still open.
+- The initial preflight surfaced 12 stale wording assertions after the bilingual editorial pass. Those assertions were aligned to the actual current RU/EN text and re-run; the harness now passes. The scientific claims themselves were not weakened to make the tests pass.
+- Source checkpoint before this note: `e4ce15919286a1bba704685b3071225161b352b3`. Readiness remains **95/100** until all closure gates have their required evidence.
