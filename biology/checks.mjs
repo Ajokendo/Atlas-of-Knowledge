@@ -152,6 +152,7 @@ if (!floraKyrgyzstanFile.includes("Sennikov и соавторов (2025)") || !f
 if (!floraKyrgyzstanFile.includes("не число всех организмов") || !floraKyrgyzstanFile.includes("not a count of all organisms") || !floraKyrgyzstanFile.includes("гербарные находки") || !floraKyrgyzstanFile.includes("herbarium records")) errors.push("chapters/flora-kyrgyzstan.html: the vascular-plant count must retain its scope and revision caveats");
 
 if (!floraKyrgyzstanFile.includes("10.1016/j.japb.2023.09.002") || !floraKyrgyzstanFile.includes("Utricularia macrorhiza") || !floraKyrgyzstanFile.includes("Stuckenia amblyphylla")) errors.push("chapters/flora-kyrgyzstan.html: aquatic-plant field study must retain its DOI and key taxonomic findings");
+if (!floraKyrgyzstanFile.includes("10.5281/zenodo.15253859") || !floraKyrgyzstanFile.includes("31 региональная запись") || !floraKyrgyzstanFile.includes("31 regional records") || !floraKyrgyzstanFile.includes("не тождественны административным областям") || !floraKyrgyzstanFile.includes("not equivalent to administrative oblasts")) errors.push("chapters/flora-kyrgyzstan.html: the 2025 regional-plant source must retain its DOI, record count and floristic-region/oblast distinction");
 if (!floraKyrgyzstanFile.includes("северо-восточного Кыргызстана") || !floraKyrgyzstanFile.includes("north-eastern Kyrgyzstan") || !floraKyrgyzstanFile.includes("не является полной инвентаризацией") || !floraKyrgyzstanFile.includes("not a complete inventory")) errors.push("chapters/flora-kyrgyzstan.html: aquatic-plant findings must retain geographic and inventory-scope caveats");
 
 const ecologyFile = fs.readFileSync(path.join(root, "chapters", "ecology.html"), "utf8");
@@ -702,6 +703,7 @@ if (!regionalSpeciesAudit.includes("Son-Kul fish survey (sampling in 2020, 2021 
     !regionalSpeciesAudit.includes("voucher/genetic review")) {
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Son-Kul fish survey must retain its sampling-date discrepancy and taxonomic evidence limits");
 }
+if (!regionalSpeciesAudit.includes("10.5281/zenodo.15253859") || !regionalSpeciesAudit.includes("seven floristic/biogeographical provinces, not the seven administrative oblasts") || !regionalSpeciesAudit.includes("397 specimens (37%) remained unidentified")) errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: 2025 regional flora paper must retain its expedition scope and unresolved-identification caveat");
 const requiredOblasts = ["Jalal-Abad", "Issyk-Kul", "Naryn", "Osh", "Batken", "Talas", "Chuy"];
 for (const oblast of requiredOblasts) {
   if (!regionalSpeciesAudit.includes("| " + oblast + " |")) errors.push("KYRGYZSTAN_SPECIES_AUDIT.md is missing the " + oblast + " oblast row");
