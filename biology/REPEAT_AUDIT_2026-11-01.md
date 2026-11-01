@@ -3,7 +3,7 @@
 **Audit start:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
 **Scope:** all Biology HTML pages, scientific/editorial content, interactive tools, technical checks, vector and raster visuals, image placeholders, bilingual parity, links and release controls.  
-**Audit completion:** **60%** — repository inventory and baseline structure pass completed.  
+**Audit completion:** **70%** — species-checklist currency and bird-list scope audit completed.  
 **Controlled editorial readiness:** **95/100** (separate metric; unchanged).
 
 ## Audit method and boundaries
@@ -243,3 +243,27 @@ Continue technical review by examining each interactive model's state transition
 ### Change log
 
 - 1 November 2026: advanced repeat-audit coverage to 60%; expanded the reptile checklist's method and count caveats, verified the 2015 Black Stork breeding record, and generalized the sensitive nest locality. No test pass or publication approval is claimed.
+
+
+## 70% milestone — mammal checklist currency and bird-list comparability — 1 November 2026
+
+### Completed source checks and corrections
+
+- Reopened the GBIF record for the Central Asian mammal checklist. Its current published release is version 1.12 (26 October 2026; DOI 10.15468/hmrvjn), not the previously cited version 1.11. Updated the fauna chapter's bilingual bibliography link and description.
+- Verified the dataset's five-country scope, country-specific presence categories, species/subspecies coverage and explicit separation of global IUCN status from national Red Data Book entries.
+- Verified the checklist's method: systematic review of published literature, prioritising national Red Data Book editions, systematic monographs, specialist taxonomic papers and institutional checklists. The dataset explicitly says it is not based on field sampling; it is not new local survey evidence.
+- Compared four public bird-list sources: Birds of Kyrgyzstan (407), OSME (327), The Ornithology (380), and Limosa (133 regular open-data species; explicitly incomplete). These are different reference products with different scope and inclusion criteria, not evidence of a biological change in national richness.
+- Added a bilingual chapter note explaining why the bird totals must not be merged or represented as one definitive total. Locality claims remain dependent on dated site-level evidence.
+- Expanded `KYRGYZSTAN_SPECIES_AUDIT.md` with the version 1.12 source/method record and the bird-list scope comparison. Added regression guards for the updated version, publication date, non-field method and bird-list caveats.
+
+### Saved-state and verification limits
+
+- GitHub read-back verified the changed fauna chapter, species audit and `checks.mjs`; milestone documents are being synchronized and read back in this save cycle.
+- The 52 image insertion anchors and 52 Deferred disposition entries remain unchanged; no new image is claimed as generated or integrated.
+- `checks.mjs` was not executed. No test pass is claimed; browser, mobile, accessibility and CI checks remain pending.
+- G4 independent scientific review and G5 independent bilingual/editorial review remain open.
+- Repeat-audit coverage: **70%**. Controlled editorial readiness remains **95/100**; this is not publication approval.
+
+### Change log
+
+- 1 November 2026: advanced repeat-audit coverage to 70%; updated the mammal checklist from GBIF v1.11 to v1.12 and documented why public Kyrgyzstan bird-list totals are not directly comparable. No test pass or publication approval is claimed.
