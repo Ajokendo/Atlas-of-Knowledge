@@ -494,3 +494,18 @@
 - Full technical run: GitHub Actions `41313876648` on `614caf54dbf689d6a95df47bee7b55c99a4c6f58`; static checks and Chromium browser smoke tests for every Biology page passed.
 - Detailed findings: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
 - Blocks 1–3 content and report are saved. Block 4 (cross-chapter terminology, all chapter navigation/glossaries, dynamic language switching and final consistency sweep) remains open.
+
+
+## G5 editorial and bilingual audit checkpoint — 100% (1 November 2026)
+
+- **G5 author-side editorial and bilingual audit complete: 4/4 planned blocks = 100%.**
+- Block 1: main index, Cell Biology, Genetics, Microbiology.
+- Block 2: Biochemistry, Botany, Ecology.
+- Block 3: Anatomy and Physiology, Zoology, Systematics, Evolutionary Biology.
+- Block 4: cross-chapter consistency, regional flora/fauna chapters, all chapter navigation, glossaries, language-switch accessible names and final bilingual integrity sweep.
+- Harmonised the repeated Homeostasis glossary definition; aligned regional flora/fauna navigation; localised accessible names for all 52 planned image-note asides through their bilingual headings; made remaining diagram labels bilingual; localised the regional language-switch button accessible names.
+- Final language-span inventory across all 13 pages: **1,408 Russian / 1,408 English**. No duplicate HTML IDs; all `aria-labelledby` and `aria-describedby` targets resolve.
+- Final technical verification: GitHub Actions `41314809619` on `482559d298ca95ee5a52fb225fdbb961a8b36364` completed successfully. Static validation and Chromium browser smoke tests for every Biology page passed.
+- Detailed report: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
+- Final G5 report update commit: `ef10b36b8aea39e9dcb2894558ecf57de26f8d5c`.
+- This closes the planned **author-side G5 audit**, not independent professional bilingual review. Independent scientific/editorial review, production and review of the 52 deferred images, full screen-reader testing, comprehensive contrast review and physical-device testing remain open release gates.
