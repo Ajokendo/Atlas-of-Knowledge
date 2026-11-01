@@ -517,6 +517,49 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 
 На основе открытых официальных данных выберите регион происхождения и регион назначения мигрантов. Проверьте период, определения и полноту данных. Сопоставьте возрастную структуру, занятость и доступность услуг; не делайте причинных выводов только на основании корреляции.
 
+### English Summary
+
+1. Demography studies population size, composition and reproduction, while population geography explains the spatial differences in these processes.
+2. Population change is determined by births, deaths, arrivals and departures, as well as possible statistical adjustments.
+3. Crude birth and death rates depend on age structure and require careful interpretation.
+4. The demographic transition describes typical long-term changes in fertility and mortality, but is not a universal law.
+5. Age-sex structure affects future population dynamics, labour markets and demand for social services.
+6. Migration has diverse causes and consequences for both origin and destination areas.
+7. Population is unevenly distributed; average density does not reveal local contrasts.
+8. Urbanisation changes settlement patterns and economic connections, creating both opportunities and management challenges.
+9. Projections depend on assumptions and should be accompanied by an assessment of uncertainty.
+10. Demographic data require methodological transparency, ethical practice and confidentiality protection.
+
+### English Review Questions
+
+1. How does demography differ from population geography?
+2. Why is it important to know the definition of the population being counted when comparing population size?
+3. Which components are included in the population-change equation?
+4. How does the crude birth rate differ from the total fertility rate?
+5. Why may the crude death rate be high in a country with high life expectancy?
+6. What does the demographic transition model show, and what are its limitations?
+7. Which historical events may be reflected in an age-sex pyramid?
+8. Why is the age dependency ratio not the same as the actual economic burden?
+9. Which criteria are used to define international migration?
+10. What are possible consequences of migration for origin and destination areas?
+11. Why is population unevenly distributed across Earth?
+12. How does an urban agglomeration differ from a city's administrative territory?
+13. What opportunities and challenges are associated with urbanisation?
+14. Why should demographic projections be treated as scenarios?
+15. Which ethical restrictions apply to publishing highly detailed demographic data?
+
+### English Practical Activities
+
+**1. Demographic balance.** Using hypothetical regional data, calculate population change: initial population 500,000; births 7,500; deaths 4,000; arrivals 3,200; departures 2,700. Determine natural increase, net migration and the final population, assuming no other adjustments.
+
+**2. Calculating demographic rates.** A hypothetical area has a mid-year population of 250,000, with 3,250 live births and 2,000 deaths during the year. Calculate the crude birth and death rates per 1,000 residents. Explain why these data are insufficient to estimate total fertility or age-specific mortality risks.
+
+**3. Reading an age-sex pyramid.** Compare the three teaching pyramids in Figure 9.3. Describe differences in their bases and upper sections and formulate hypotheses about fertility and ageing. Identify additional data needed to test those hypotheses.
+
+**4. Spatial density.** Calculate the average population density of a hypothetical country with 6 million people and an area of 120,000 km². Explain why this indicator does not reveal the difference between a densely populated valley and sparsely populated mountain areas.
+
+**5. Migration and urbanisation analysis.** Use official open data to select a region of origin and a region of destination for migrants. Check the reference period, definitions and data coverage. Compare age structure, employment and access to services; do not infer causation from correlation alone.
+
 ## Научные редакционные примечания / Scientific editorial notes
 
 - Для каждого статистического показателя указывать определение, знаменатель, единицу измерения, период и источник.
