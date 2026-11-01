@@ -255,7 +255,7 @@ export function buildWorld(E) {
   const freeG = ghostOf(new THREE.CylinderGeometry(0.25, 0.19, 0.4, 6));
   label('vec', 'T', () => tip(bT)); label('vec', 'mg', () => tip(bW)); label('vec red', 'ma', () => tip(bNet)); label('vec', 'T', () => tip(dT));
   label('vec red', 'α', () => curveEnd(dAl)); label('vec', 'ω', () => curveEnd(dOmg)); label('vec', 'r', () => dR.visible ? V(XWl + DR / 2, DRY + 0.12, 0.5) : null);
-  label('tick', 'free fall', () => freeG.visible ? freeG.position.clone().add(V(0.6, 0, 0)) : null);
+  label('tick', 'свободное падение', () => freeG.visible ? freeG.position.clone().add(V(0.6, 0, 0)) : null);
 
   // ================= 9 · a skater =================
   const XS = STATIONS.skater, SH = 1.45;
@@ -297,8 +297,8 @@ export function buildWorld(E) {
   { const ax = []; NX.forEach(x => ax.push(...dashes(V(x, NY - 0.7, 0), V(x, NY + 0.9, 0)))); lines(root, ax, '#9a9aa0'); }
   const nTurn = NX.map(() => curve(gN, 'ink', { R: 0.2, tube: 0.012, head: 0.08, headR: 0.035, name: 'Ось' }));
   nRods.forEach(R => { label('vec', 'dm', () => R.dm.localToWorld(V(0, 0.16, 0))); label('vec grey', 'r', () => R.r.visible ? R.r.localToWorld(V(0, R.r.userData.arrow.shaft.scale.y / 2, 0)).add(V(0, -0.14, 0)) : null); });
-  label('tick', 'axis through the centre · ML²/12', () => V(NX[0] + 0.3, NY - 0.85, 0.3));
-  label('tick', 'axis through the end · ML²/3', () => V(NX[1] + 0.6, NY - 0.85, 0.3));
+  label('tick', 'ось через центр · ML²/12', () => V(NX[0] + 0.3, NY - 0.85, 0.3));
+  label('tick', 'ось через конец · ML²/3', () => V(NX[1] + 0.6, NY - 0.85, 0.3));
   label('tick', 'rings · ½MR²', () => V(NX[2], NY - 0.85, 0.3));
   label('vec', 'dr', () => nDisc.localToWorld(V(DRd * 3.5 / 6, 0.12, 0)));
 
@@ -317,7 +317,7 @@ export function buildWorld(E) {
   label('tick', `pinned at the centre · I = ${f2(M.ROD.Icm)} kg·m²`, () => V(AX[0] + 0.45, AY, 1.0));
   label('tick', `pinned at the end · I = ${f2(M.PAX.list[1].I)} kg·m²`, () => V(AX[1] + 0.2, AY, 1.5));
   label('vec grey', 'd', () => aD.visible ? aD.localToWorld(V(0, aD.userData.arrow.shaft.scale.y / 2, 0)).add(V(0, 0.15, 0)) : null);
-  label('tick', 'axis through the cm', () => ex(gA) > 0.3 ? pRods[1].g.localToWorld(V(RL2 / 2, 0.75, 0)) : null);
+  label('tick', 'ось через центр масс', () => ex(gA) > 0.3 ? pRods[1].g.localToWorld(V(RL2 / 2, 0.75, 0)) : null);
 
   // ================= 6d · work and power: a wrench on a nut =================
   const XK = STATIONS.wrench, KY = 0.16, KR = M.WRENCH.r;
@@ -352,8 +352,8 @@ export function buildWorld(E) {
   const bDot = part(gB, new THREE.SphereGeometry(0.018, 10, 8), { tone: 'hi', pal: 'red', name: 'Точка контакта' });
   label('vec', 'v', () => tip(bV)); label('vec red', 'f<sub>k</sub>', () => tip(bF)); label('vec', 'ω', () => curveEnd(bOm, 0.08));
   label('vec grey', 'v − Rω', () => tip(bSlip)); label('vec grey', 'Rω', () => tip(bTop));
-  label('tick', 'v = Rω from here', () => V(BX0 + M.BOWL.xStar, LT, 0.5));
-  label('tick', '', () => ball.position.clone().add(V(0, 0.32, 0)), () => M.bowl(bNow).slip ? 'sliding' : 'rolling');
+  label('tick', 'здесь v = Rω', () => V(BX0 + M.BOWL.xStar, LT, 0.5));
+  label('tick', '', () => ball.position.clone().add(V(0, 0.32, 0)), () => M.bowl(bNow).slip ? 'скольжение' : 'качение');
   let bNow = 0;
 
   // ================= 8b · angular impulse: two merry-go-rounds, two pushes =================
