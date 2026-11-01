@@ -387,6 +387,7 @@ try {
         errors.push(file + ": Russian carbon-cycle image alternative text is missing");
       }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("снижает pH морской воды") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("парниковый эффект")) errors.push(file + ": Russian environment note must connect carbon emissions, greenhouse effect and ocean acidification");
+      if (!(await page.locator("[data-i=carbonCycleProcesses]").innerText()).includes("длительные геологические сроки")) errors.push(file + ": Russian carbon-cycle processes note is incomplete");
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("полимеры нуклеотидов") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("пентозу") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("дезоксирибоза") ||
@@ -403,6 +404,7 @@ try {
         errors.push(file + ": English carbon-cycle image alternative text is missing");
       }
       if (!(await page.locator("[data-i=carbonNote]").innerText()).includes("seawater pH decreases") || !(await page.locator("[data-i=carbonNote]").innerText()).includes("greenhouse effect")) errors.push(file + ": English environment note must connect carbon emissions, greenhouse effect and ocean acidification");
+      if (!(await page.locator("[data-i=carbonCycleProcesses]").innerText()).includes("long geological timescales")) errors.push(file + ": English carbon-cycle processes note is incomplete");
       if (!(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("nucleotide polymers") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("pentose sugar") ||
           !(await page.locator("[data-i=nucleicAcidsText]").innerText()).includes("deoxyribose") ||
