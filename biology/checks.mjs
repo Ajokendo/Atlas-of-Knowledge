@@ -426,6 +426,8 @@ for (const required of ["400–600", "4,146", "nearly 7,000", "Menzbier", "Kök-
 if (!floraKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/v-bes-tasskom-prirodnom-parke-uvelicivaetsya-cislennost-maralov")) errors.push("Besh-Tash flora richness claim must link to the Ministry's park profile");
 if (!regionalSpeciesAudit.includes("separate Ministry notice dated 19 September 2025 explicitly places Besh-Tash in Talas Region")) errors.push("Regional audit must resolve the Besh-Tash administrative metadata discrepancy with corroborating evidence");
 
+if (!faunaKyrgyzstanAuditFile.includes("https://mnr.gov.kg/ru/posts/news/sotrudnikami-talasskogo-regionalnogo-upravleniya-ministerstva-prirodnyx-resursov-ekologii-i-texniceskogo-nadzora-provedeny-raboty-po-ucyotu-cislennosti-obektov-zivotnogo-mira")) errors.push("Talas multi-site marmot survey must link to its Ministry source");
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
