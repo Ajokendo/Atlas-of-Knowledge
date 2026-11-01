@@ -3,7 +3,7 @@
 **Date:** 1 November 2026  
 **Canonical branch:** `workspace/biology`  
 **Scope:** `chapters/flora-kyrgyzstan.html` and `chapters/fauna-kyrgyzstan.html`  
-**G4 progress:** **75%** — three of four planned scientific-review blocks completed.  
+**G4 progress:** **100%** — all four planned author-side scientific-review blocks completed.  
 **Status:** author-side evidence review and targeted correction; not independent expert sign-off.
 
 ## Method
@@ -95,6 +95,43 @@ Reviewed regional occurrence and taxonomic claims against their cited primary/of
 
 GitHub Actions run `41309806986` on commit `bec689218256aea5d4db5da268c0ece43c15daba` completed successfully. Both the static Biology-page/link/script validation and the Chromium browser smoke test passed. The browser smoke test exercised all Biology HTML pages at the configured mobile and desktop viewport sizes, including language toggles, keyboard reachability, accessible names and horizontal-overflow checks. This is not a complete screen-reader, contrast or device-lab audit and does not close those separate release gates.
 
+## Block 4 — anatomy, physiology, ecology and cross-chapter consistency (completed)
+
+**Scope:** `chapters/anatomy.html`, `chapters/ecology.html`, `chapters/botany.html`, `chapters/zoology.html`, and the Biology index page; cross-checked against the other eight chapter pages.
+
+1. **Anatomy and physiology — checked and clarified.** The heart chambers and blood-flow sequence, pulmonary/systemic circuits, artery/vein definitions, cardiac output, baroreflex, respiratory gas exchange, digestion, nephron filtration/reabsorption/secretion, RAAS, aldosterone, vasopressin and feedback loops are consistent with the cited teaching references. Corrected the nervous-system wording so the central nervous system is identified as the main site of integration, while peripheral nerves carry signals between the CNS and the body. The key-topic panel included musculoskeletal and endocrine systems but had little explicit teaching on them; added a bilingual overview of bones, cartilage, ligaments, tendons, skeletal muscle, bone-marrow function, endocrine target cells and major hormonal roles. Added OpenStax/Anatomy & Physiology references. Sources: https://open.oregonstate.education/anatomy2e/chapter/functions-skeletal-system/ ; https://openstax.org/books/anatomy-and-physiology-2e/pages/17-2-hormones
+
+2. **Ecology — productivity and energy/matter diagrams corrected.** Clarified net primary production as `NPP = GPP − Rₐ`, where `Rₐ` is autotrophic respiration by producers; NPP is the new biomass/energy retained after producer respiration, not an additional pool “available for plant growth”. Rewrote both language versions. The food-web plate now explicitly distinguishes solid arrows (energy and organic matter transferred through feeding) from the dashed nutrient-return arrow; it states that energy is not recycled. Checked the logistic population model, carrying-capacity caveat, succession, trophic transfer, alpha/beta/gamma diversity, sampling methods and carbon/nitrogen-cycle descriptions. Sources: https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems ; https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles
+
+3. **Botany — coverage gap closed.** The chapter’s key topics and objectives promised plant cells, tissue systems, major plant groups and life cycles, but the previous body mainly covered organs and photosynthesis. Added bilingual teaching blocks on plant-cell structures (including the important caveat that not all plant cells contain chloroplasts), dermal/ground/vascular tissue systems, meristems, xylem and phloem, and the alternation of sporophyte and gametophyte generations. Added a concise comparison of non-vascular plants, seedless vascular plants, gymnosperms and angiosperms, including pollen, seeds, water dependence and double fertilisation. The descriptions distinguish the dominant generation among major lineages and avoid treating plant groups as a simple ladder. Sources: https://openstax.org/books/biology-2e/pages/25-1-early-plant-life ; https://openstax.org/books/biology-2e/pages/32-1-reproductive-development-and-structure
+
+4. **Zoology — phylogenetic diagram caveat and behaviour coverage added.** The vertebrate comparison plate now explicitly says it is not a cladogram: “fish” is paraphyletic and birds are nested within reptiles. This matches the explanatory text and the evolutionary/systematics chapters. Added an overview of major invertebrate lineages and clarified that “invertebrates” is an umbrella category, not one evolutionary clade. Added animal-behaviour content on innate and learned responses, migration, communication, proximate and evolutionary explanations, and the caution that observed behaviour should not automatically be assumed optimal or adaptive in current conditions. Sources: https://openstax.org/books/biology-2e/pages/28-introduction ; https://openstax.org/books/biology-2e/pages/45-7-behavioral-biology-proximate-and-ultimate-causes-of-behavior
+
+5. **Cross-chapter and index consistency — checked.** Compared the index’s ten core fields and chapter key-topic panels with the actual content. Closed specific coverage gaps so the advertised topics are taught: DNA replication and biotechnology in Genetics; microbial eukaryotes and microbiomes in Microbiology; behaviour in Zoology; plant cells/tissues and life cycles in Botany; musculoskeletal/endocrine systems in Anatomy. Aligned learning objectives with the newly expanded sections. Cross-checked these conceptual joins:
+   - Systematics’ widely used three-domain classification and two-domain phylogenomic caveat are consistent with Microbiology’s distinction between Bacteria, Archaea and cellular eukaryotes.
+   - Genetics’ semiconservative DNA replication and S-phase timing agree with Cell Biology.
+   - Biochemistry’s ATP and cellular-respiration explanations agree with the energy-flow model in Ecology.
+   - Botany’s photosynthesis, xylem/phloem and plant life-cycle descriptions agree with Ecology’s producer/productivity concepts.
+   - Zoology’s treatment of paraphyletic fish and birds within reptiles agrees with Evolution and Systematics.
+   - Anatomy’s endocrine and renal homeostasis examples use consistent roles for insulin, glucagon, aldosterone and vasopressin.
+   - Regional flora/fauna pages remain linked as evidence-rich regional supplements rather than being treated as replacements for general Botany/Zoology.
+   
+6. **No unsupported closure of unresolved evidence.** The earlier regional audit’s author/voucher questions for the Son-Kul and Suusamyr fish records remain explicitly open; disputed early-life evidence and competing taxonomic concepts remain qualified. The G4 completion percentage measures completion of the planned author-side review blocks, not resolution of every scientific uncertainty in the literature.
+
+### Block 4 changes committed
+
+- `biology/chapters/ecology.html`: clarified NPP and the distinction between energy flow and nutrient cycling.
+- `biology/chapters/botany.html`: added plant-cell/tissue and plant-lineage/life-cycle coverage.
+- `biology/chapters/anatomy.html`: clarified CNS/PNS roles and added musculoskeletal/endocrine coverage.
+- `biology/chapters/zoology.html`: clarified that the vertebrate plate is not a cladogram; added invertebrate diversity and animal behaviour.
+- `biology/chapters/genetics.html`: added biotechnology coverage and aligned the topic panel and learning objectives with DNA replication and biotechnology.
+- `biology/chapters/microbiology.html`: added microbiome/microbial-eukaryote coverage, ecosystem-cycle source and aligned topic panel/objectives.
+- Relevant commits: `4b4535fe6bdcaf80dda9126e30c3b3b71710b436`, `e3d2ead6a037baf5cc944e3e96dd15401793d518`, `54aade0cd1fed662c88806fc81db14fb60086fb4`, `b110825a19a6cbb1f09e4023c3aefaedb33b7832`, `d06a8e33c56019c782af80aa5f58263eecdfc929`, `d37c701882510f7df4f83d8b7fab809ef2c0b85f`, `df1398c73d6bcaaa8115e3dbc71ff240697d9173`, `ba2a6755f11c21f33c34b06da15a3371bfde8b40`, `e195753d75a16603a396ea484f7867718e066deb`, `8f10e601a57780c96b263236eecf67cf741e226c`, `5e31360bd04d5062a35f80c61e68a983972633ee`, `d2eb040340606592369ab4671fbf84a0290d3941`, `fb7f4e7e8a35a88c0b7c08fc59da3c007e030194`, `1ebeaf765a0b39631912084956f0614f703414ae`, `dde18ce306c421ab6302720fc1089ce97f0de2d9`, `f3fb88a8d87d748be28d5e436ac6680a4f595d02`.
+
+### Final technical verification
+
+GitHub Actions run `41310559437` on commit `f3fb88a8d87d748be28d5e436ac6680a4f595d02` completed successfully. Static validation of Biology pages, local links and scripts passed; Chromium installation, local server startup and browser smoke tests for every Biology page also passed. The browser checks include the configured mobile/desktop viewports, language switching, keyboard reachability, accessible names and horizontal overflow. They do not constitute a full screen-reader audit, complete colour-contrast review or testing on a physical-device matrix.
+
 ## Open items carried forward
 
 - Obtain author/voucher-level resolution of the Suusamyr `4 + 1` versus four-total discrepancy and the `Triplophysa` identifications.
@@ -104,4 +141,4 @@ GitHub Actions run `41309806986` on commit `bec689218256aea5d4db5da268c0ece43c15
 
 ## Completion accounting
 
-G4 is divided into four review blocks: (1) regional biodiversity and species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency. Blocks 1, 2 and 3 are complete at the author-side evidence-review level: **3/4 = 75%**. No claim is made that the complete Biology Atlas or its independent-review gates are 25% publication-ready.
+G4 is divided into four review blocks: (1) regional biodiversity and species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency. All four blocks are complete at the author-side evidence-review level: **4/4 = 100%**. No claim is made that the complete Biology Atlas or its independent-review gates are 25% publication-ready.
