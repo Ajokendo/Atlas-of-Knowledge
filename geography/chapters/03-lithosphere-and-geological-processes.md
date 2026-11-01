@@ -194,7 +194,7 @@
 
 ### 3.5.1. Движение плит / Plate Motion
 
-Литосферные плиты движутся с разными скоростями: от менее 1 см/год до более 15 см/год в отдельных районах; многие участки движутся на несколько сантиметров в год. Скорость зависит от конкретной плиты, направления движения и геологического периода. Движение связано с тепловой эволюцией Земли и динамикой мантии; важную роль играют тяга погружающейся плиты и силы, действующие в области срединно-океанических хребтов.
+Литосферные плиты движутся с разными скоростями: от менее 1 см/год до более 15 см/год в отдельных районах; многие участки движутся на несколько сантиметров в год. Скорость зависит от конкретной плиты, направления движения и геологического периода. Движение связано с тепловой эволюцией Земли и динамикой мантии. Среди взаимодействующих факторов обычно выделяют мантийную конвекцию, тягу погружающейся плиты и гравитационное отталкивание плит от приподнятых срединно-океанических хребтов. Их относительная роль различается в зависимости от региона и системы плит.
 
 ### 3.5.2. Типы границ плит / Types of Plate Boundaries
 
@@ -677,7 +677,7 @@ Plate tectonics explains the movement of large lithospheric fragments and many p
 
 ### 3.5.1. Plate Motion
 
-Lithospheric plates move at different rates, from less than 1 cm per year to more than 15 cm per year in some regions; many plate segments move by a few centimetres per year. The rate depends on the plate, direction of motion and timescale considered. Their motion is linked to Earth's thermal evolution and mantle dynamics. Slab pull and forces associated with mid-ocean ridges are important drivers.
+Lithospheric plates move at different rates, from less than 1 cm per year to more than 15 cm per year in some regions; many plate segments move by a few centimetres per year. The rate depends on the plate, direction of motion and timescale considered. Their motion is linked to Earth's thermal evolution and mantle dynamics. Commonly discussed interacting drivers include mantle convection, slab pull and gravitational ridge push from elevated mid-ocean ridges. Their relative importance varies among plate systems and regions.
 
 ### 3.5.2. Types of Plate Boundaries
 
