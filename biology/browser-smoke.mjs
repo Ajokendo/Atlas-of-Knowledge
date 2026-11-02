@@ -872,4 +872,4 @@ if (errors.length) {
   console.error("Biology browser smoke tests failed:\\n" + errors.map(x => " - " + x).join("\\n"));
   process.exit(1);
 }
-console.log("Biology browser smoke tests passed: " + pages.length + " pages at mobile and desktop widths; " + languageChecks + " language-toggle interactions; no uncaught page errors. Preliminary contrast sampling: " + contrastSamples + " text instances, " + contrastFailures + " below-threshold instances; first keyboard focus indicator checked.");
+console.log("Biology browser smoke tests passed: " + pages.length + " pages at mobile and desktop widths; " + languageChecks + " language-toggle interactions; no uncaught page errors. Preliminary contrast sampling: " + contrastSamples + " text instances, " + contrastFailures + " below-threshold instances; keyboard Tab-sequence focus indicators checked across visible focusable controls.");
