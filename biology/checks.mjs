@@ -137,10 +137,10 @@ for (const chapter of coreChapters) {
       !html.includes("lastAnswer===q.c")) {
     errors.push("chapters/" + chapter + ": answered quiz feedback must remain visible and localized after switching languages");
   }
-  const quizBank = html.match(/const quizBank\\s*=\\s*\\{([\\s\\S]*?)\\};/);
-  const ruBank = quizBank && quizBank[1].match(/ru:\\s*\\[([\\s\\S]*?)\\],\\s*en:\\s*\\[/);
-  const enBank = quizBank && quizBank[1].match(/en:\\s*\\[([\\s\\S]*?)\\]\\s*\\}/);
-  const answerPositions = block => [...block.matchAll(/\\bc:(\\d)\\b/g)].map(match => Number(match[1]));
+  const quizBank = html.match(/const quizBank\s*=\\s*\\{([\s\S]*?)\\};/);
+  const ruBank = quizBank && quizBank[1].match(/ru:\s*\\[([\s\S]*?)\\],\\s*en:\s*\\[/);
+  const enBank = quizBank && quizBank[1].match(/en:\s*\\[([\s\S]*?)\\ ]\s*\\}/);
+  const answerPositions = block => [...block.matchAll(/\bc:(\d)\b/g)].map(match => Number(match[1]));
   if (!ruBank || !enBank) {
     errors.push("chapters/" + chapter + ": bilingual quiz banks must be present");
   } else {
@@ -193,7 +193,7 @@ const ecologyControlCounts = {
   "pressure-controls": { attribute: "pressure", count: 4 }
 };
 for (const [group, config] of Object.entries(ecologyControlCounts)) {
-  const section = ecologyFile.match(new RegExp('<div class="controls" id="' + group + '">([\\s\\S]*?)<\\/div>'));
+  const section = ecologyFile.match(new RegExp('<div class="controls" id="' + group + '">([\s\S]*?)<\\/div>'));
   if (!section) {
     errors.push("chapters/ecology.html: missing " + group);
     continue;
@@ -220,7 +220,7 @@ const biochemistryControlCounts = {
   "respiration-controls": 3
 };
 for (const [group, expectedCount] of Object.entries(biochemistryControlCounts)) {
-  const section = biochemistryFile.match(new RegExp('<div class="controls" id="' + group + '">([\\s\\S]*?)<\\/div>'));
+  const section = biochemistryFile.match(new RegExp('<div class="controls" id="' + group + '">([\s\S]*?)<\\/div>'));
   if (!section) {
     errors.push("chapters/biochemistry.html: missing " + group);
     continue;
