@@ -1693,3 +1693,30 @@ All changed files were re-fetched after writing. Numbered subsection checks show
 - Cross-chapter consistency sweep: **5/26 chapters ≈ 20%**.
 - Next block: Chapters 06–10, with attention to consistent definitions and units for hydrology, biosphere/ecology, soils, population and political geography.
 - This cross-chapter pass does not replace the completed chapter-by-chapter audit, external scientific review, final visual production or technical/accessibility testing.
+
+
+## Cross-chapter consistency sweep — milestone 40% (Chapters 06–10) — 2 November 2026
+
+**Scope:** Second block of five chapters in the separate cross-chapter consistency pass. Chapters 06–10 have now been checked alongside the first block (10/26 chapters, approximately 40%). This is not a revision of the completed 100% systematic chapter-audit result.
+
+### Checks completed
+
+- **Chapter 06 — Hydrosphere and the World Ocean:** Compared the hydrological cycle, evapotranspiration, infiltration, groundwater recharge, runoff, river basins and water-balance terminology with the soil and landscape material in Chapter 08 and the transboundary-water discussion in Chapter 10. The basin definition and watershed terminology are consistent. Checked the dimensional logic of the worked examples: the annual balance (800 mm precipitation − 500 mm evapotranspiration − 50 mm storage increase) gives 250 mm runoff; over 10,000 km² this is 2.5 km³. The separate 3.78 km³/year discharge example gives approximately 120 m³/s and is explicitly identified as a separate exercise, not as the preceding balance result. Stocks and annual flows are distinguished.
+- **Chapter 07 — Biosphere and Natural Biomes:** Compared the hierarchy of population, community, ecosystem, biome and biosphere with the human-population concepts in Chapter 09 and landscape concepts in Chapter 08. The biological population is explicitly a group of individuals of one species; Chapter 09 separately defines human population as people living in a territory at a specified time. The biome is a large-scale system characterised by climate and vegetation, while the landscape chapter treats a territorial system that may include natural and human components. These are different analytical concepts and are not conflated.
+- **Chapter 08 — Soils and Landscape Geography:** Compared soil-forming factors, soil horizons, infiltration, soil moisture, erosion and land degradation with the hydrological and biosphere chapters. The chapter correctly distinguishes soil from parent rock, identifies the O/A/E/B/C/R horizons as a possible rather than universal profile, and explains that landscape boundaries are often transitional. Its description of tropical forest productivity is consistent with Chapter 07: high ecosystem productivity does not necessarily mean high nutrient reserves in mineral soil.
+- **Chapter 09 — Population and Demography:** Compared the population definition, migration, arithmetic density, settlement and urban-agglomeration terminology with Chapters 07 and 10. The chapter distinguishes population stocks from migration flows, natural increase from net migration, administrative boundaries from functional urban areas, and total territorial area from inhabited area. The dependency-ratio example was recalculated: (18,000 + 7,000) / 50,000 × 100 = 50 per 100 people aged 15–64. The Russian density-unit wording was corrected to “количество человек на квадратный километр (чел./км²)” to match the formula and the English “people per square kilometre.”
+- **Chapter 10 — Political Geography:** Compared territory, population, administrative boundaries, state borders, watersheds, maritime zones and transboundary resources with Chapters 06 and 09. The chapter distinguishes the legal status of state territory and territorial sea from the rights/jurisdiction in an exclusive economic zone; it also separates boundary delimitation from demarcation. Its discussion of upstream/downstream positions avoids treating geography as an automatic cause of conflict. The map instructions consistently require a date, source and neutral treatment of disputed status.
+- Checked bilingual content and key terminology in all five files, including section structure, examples, units and figure briefs. Visuals remain clearly marked as production placeholders rather than completed illustrations.
+
+### Corrections saved
+
+1. `geography/chapters/06-hydrosphere-and-world-ocean.md` — corrected the water-balance worked-example heading from the erroneous `6.16.1` to `6.17.1`, placing it under Chapter 6.17 “Water and Climate Change.” Commit: `146d190133f9754e1e50635d8b1b003d4bc2997a`.
+2. `geography/chapters/09-population-and-demography.md` — corrected the Russian wording of the population-density unit; the formula and English wording were already correct. Commit: `2f854c4cf8dd9089ae31ad7c0ad622eaaf1e285a`.
+3. Chapters 07, 08 and 10 — no text changes were required in this block.
+
+### Status
+
+- Cross-chapter consistency sweep: **10/26 chapters ≈ 40%**.
+- No unresolved contradiction was identified among Chapters 06–10 in the concepts reviewed.
+- Next block: Chapters 11–15, with attention to economic geography, global/regional systems, resource and production statistics, transport, development indicators and environmental terminology.
+- This percentage covers only the cross-chapter consistency pass. It does not change the separate systematic chapter-audit milestone (100%) and does not imply completion of final source verification, visual production, cartographic/legal-boundary validation, browser/interactive testing, screen-reader or physical-device testing.
