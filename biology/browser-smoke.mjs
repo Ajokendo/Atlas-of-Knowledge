@@ -241,6 +241,98 @@ try {
           }
         }
 
+        const verifyModelChoices = async (groupSelector, outputSelector, cases, label) => {
+          for (const [value, expected] of cases) {
+            const control = page.locator(groupSelector + '[data-' + label + '="' + value + '"]');
+            if (!(await control.count())) {
+              errors.push(file + ": missing " + label + " model choice " + value);
+              continue;
+            }
+            await control.click();
+            const pressed = await page.locator(groupSelector).evaluateAll(elements =>
+              elements.filter(el => el.getAttribute("aria-pressed") === "true").length);
+            const output = (await page.locator(outputSelector).innerText()).trim();
+            if (await control.getAttribute("aria-pressed") !== "true" || pressed !== 1 ||
+                !output.toLowerCase().includes(expected.toLowerCase())) {
+              errors.push(file + ": " + label + "=" + value +
+                " did not produce the expected single-selection output (expected: " + expected +
+                "; got: " + output + "; pressed: " + pressed + ")");
+            }
+          }
+        };
+
+        if (file.endsWith("/genetics.html")) {
+          await verifyModelChoices("#template-controls button", "#rna-output",
+            [["TAC", "AUG"], ["GGA", "CCU"], ["ATG", "UAC"], ["CCT", "GGA"]], "template");
+          await verifyModelChoices("#codon-controls button", "#codon-output",
+            [["AUG", "Methionine"], ["UUU", "Phenylalanine"], ["GGG", "Glycine"],
+             ["UAA", "Stop codon"], ["GCU", "Alanine"]], "codon");
+          await verifyModelChoices("#mutation-controls button", "#mutation-output",
+            [["substitution", "substitution"], ["insertion", "insertion"], ["deletion", "deletion"]], "mutation");
+          const mutationSequences = await page.locator("#mutation-seq").innerText();
+          if (!mutationSequences.includes("GA") && !mutationSequences.includes("A")) {
+            errors.push(file + ": mutation model did not expose its altered sequence");
+          }
+        }
+
+        if (file.endsWith("/biochemistry.html")) {
+          await verifyModelChoices("#enzyme-controls button", "#enzyme-output",
+            [["fit", "compatible substrate"], ["wrong", "do not fit"], ["heat", "excessive heat"]], "enzyme");
+          await verifyModelChoices("#factor-controls button", "#factor-output",
+            [["temperature", "temperature"], ["ph", "pH"], ["substrate", "substrate"]], "factor");
+          await verifyModelChoices("#atp-controls button", "#atp-output",
+            [["hydrolysis", "ATP + H₂O"], ["synthesis", "ADP + Pi"]], "atp");
+          await verifyModelChoices("#respiration-controls button", "#respiration-output",
+            [["glycolysis", "glycolysis"], ["cycle", "citric acid"], ["chain", "electrons"]], "resp");
+        }
+
+        if (file.endsWith("/ecology.html")) {
+          await verifyModelChoices("#carbon-controls button", "#carbon-output",
+            [["photosynthesis", "photosynthesis"], ["respiration", "cellular respiration"],
+             ["decomposition", "decomposition"], ["combustion", "combustion"], ["ocean", "ocean"]], "carbon");
+          await verifyModelChoices("#nitrogen-controls button", "#nitrogen-output",
+            [["fixation", "nitrogen fixation"], ["ammonification", "ammonification"],
+             ["nitrification", "nitrification"], ["assimilation", "assimilation"],
+             ["denitrification", "denitrification"]], "nitrogen");
+          await verifyModelChoices("#pressure-controls button", "#pressure-output",
+            [["drought", "drought"], ["pollution", "pollut"], ["invasive", "invasive"], ["protection", "protect"]], "pressure");
+          for (const organism of ["grass", "grasshopper", "frog", "snake", "hawk"]) {
+            await page.locator('#chain-controls [data-chain="' + organism + '"]').click();
+          }
+          const completedChain = await page.locator("#chain-output").innerText();
+          if (!completedChain.includes("Grass") || !completedChain.includes("Grasshopper") ||
+              !completedChain.includes("Frog") || !completedChain.includes("Snake") ||
+              !completedChain.includes("Hawk") || !completedChain.includes("Complete")) {
+            errors.push(file + ": food-chain model did not complete the expected five-organism sequence: " + completedChain);
+          }
+        }
+
+        if (file.endsWith("/systematics.html")) {
+          await verifyModelChoices("#rank-controls button", "#rank-output",
+            [["domain", "domain"], ["kingdom", "kingdom"], ["phylum", "phylum"],
+             ["class", "class"], ["order", "order"], ["family", "family"],
+             ["genus", "genus"], ["species", "species"]], "rank");
+          await verifyModelChoices("#domain-controls button", "#domain-output",
+            [["bacteria", "bacteria"], ["archaea", "archaea"], ["eukarya", "eukarya"]], "domain");
+          await verifyModelChoices("#name-controls button", "#name-output",
+            [["wolf", "Canis lupus"], ["human", "Homo sapiens"], ["oak", "Quercus robur"]], "name");
+          await page.locator('#key-controls [data-key="backbone"]').click();
+          await page.locator('#trait-controls [data-trait="feathers"]').click();
+          if (!(await page.locator("#key-output").innerText()).toLowerCase().includes("birds")) {
+            errors.push(file + ": classification key did not identify the feathered group as birds");
+          }
+          await page.locator('#key-controls [data-key="no-backbone"]').click();
+          const visibleTraits = await page.locator("#trait-controls [data-trait]:visible").evaluateAll(elements =>
+            elements.map(el => el.dataset.trait));
+          if (visibleTraits.length !== 1 || visibleTraits[0] !== "shell") {
+            errors.push(file + ": invertebrate branch should expose only the exoskeleton trait: " + JSON.stringify(visibleTraits));
+          }
+          await page.locator('#trait-controls [data-trait="shell"]').click();
+          if (!(await page.locator("#key-output").innerText()).toLowerCase().includes("arthropod")) {
+            errors.push(file + ": exoskeleton branch did not identify the likely arthropod group");
+          }
+        }
+
         if (file.endsWith("/systematics.html")) {
           const nameControl = page.locator('#name-controls [data-name="human"]');
           const nameOutput = page.locator("#name-output");
