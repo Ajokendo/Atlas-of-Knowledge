@@ -72,12 +72,12 @@ export function buildWorld(E) {
   const X0 = STATIONS.pair, Y0 = 0.4, ZL = -1.2, ZU = 1.2, x1 = X0 - 2;
   ground(X0 - 4, X0 + 4, -3, 3);
   const gPair = asm('pair', root, { title: 'Сближение зарядов', sub: 'совершённая работа запасается как энергия' });
-  const q1L = charge(gPair, 1, 0.22, '+4 nC'), q1U = charge(gPair, 1, 0.22, '+4 nC');
+  const q1L = charge(gPair, 1, 0.22, '+4 нКл'), q1U = charge(gPair, 1, 0.22, '+4 нКл');
   q1L.position.set(x1, Y0, ZL); q1U.position.set(x1, Y0, ZU);
-  const q2L = charge(gPair, 1, 0.17, '+2 nC'), q2U = charge(gPair, -1, 0.17, '−2 nC');
+  const q2L = charge(gPair, 1, 0.17, '+2 нКл'), q2U = charge(gPair, -1, 0.17, '−2 нКл');
   const fL = force(gPair), fU = force(gPair);
   label('vec', '<i>F</i>', () => tip(fL)); label('vec', '<i>F</i>', () => tip(fU));
-  label('tick', '+4 nC', () => V(x1 - 0.3, Y0 + 0.32, ZL)); label('tick', '+4 nC', () => V(x1 - 0.3, Y0 + 0.32, ZU));
+  label('tick', '+4 нКл', () => V(x1 - 0.3, Y0 + 0.32, ZL)); label('tick', '+4 нКл', () => V(x1 - 0.3, Y0 + 0.32, ZU));
   label('board', 'одноимённые заряды: <i>U</i> &gt; 0', () => V(X0 + 0.6, 0.02, ZL + 0.6)); label('board', 'разноимённые заряды: <i>U</i> &lt; 0', () => V(X0 + 0.6, 0.02, ZU + 0.8));
   lines(root, [x1, 0.02, ZL, X0 + 2.2, 0.02, ZL, x1, 0.02, ZU, X0 + 2.2, 0.02, ZU], '#c4c4c8');
   // breakdown: the path in steps, the force at each
@@ -101,7 +101,7 @@ export function buildWorld(E) {
     const d = [], A = V(...c[1]), B = V(...c[2]);
     for (let k = 0; k < 16; k += 2) d.push(...A.clone().lerp(B, k / 16).toArray(), ...A.clone().lerp(B, (k + 1) / 16).toArray());
     lines(root, d, '#d4d4d6'); }
-  label('tick', '<i>a</i> = 20 cm', () => V(X1 + 0.35, 0.02, 1.35));
+  label('tick', '<i>a</i> = 20 см', () => V(X1 + 0.35, 0.02, 1.35));
   // breakdown: the six pair links
   const links = [];
   for (let i = 0; i < 4; i++) for (let j = i + 1; j < 4; j++) {
@@ -122,7 +122,7 @@ export function buildWorld(E) {
     const x = ux(k * 0.05);
     const sh = new THREE.Mesh(new THREE.PlaneGeometry(5.6, 1.2), translucent('paper', 0.35)); sh.rotation.y = Math.PI / 2; sh.position.set(x, 0.6, 0); sh.userData = { noEdge: true }; root.add(sh);
     lines(root, [x, 0, -2.8, x, 1.2, -2.8, x, 1.2, -2.8, x, 1.2, 2.8, x, 1.2, 2.8, x, 0, 2.8], '#b4b4b8');
-    label('tick', `${M.Vuni([k * 0.05, 0, 0]) ? '−' + Math.abs(M.Vuni([k * 0.05, 0, 0])).toFixed(1) : '0'} V`, () => V(x + 0.32, 1.45, -2.8));
+    label('tick', `${M.Vuni([k * 0.05, 0, 0]) ? '−' + Math.abs(M.Vuni([k * 0.05, 0, 0])).toFixed(1) : '0'} В`, () => V(x + 0.32, 1.45, -2.8));
   }
   // E: uniform 50 N/C along +x
   const eUni = [-2.5, 0, 2.5].map(z => { const a = field(root, { name: 'E' }); setArrow(a, V(X2 - 1.9, 0.9, z), V(M.UNI.E * SC.Euni, 0, 0)); return a; });
@@ -143,8 +143,8 @@ export function buildWorld(E) {
   ground(X3 - 5, X3 + 5, -5, 5);
   const gHill = asm('hill', root, { title: 'Потенциал точечного заряда', sub: 'потенциал показан высотой' });
   gHill.userData.minDist = 14;
-  const qHill = charge(gHill, 1, 0.16, '+1 nC'); qHill.position.set(X3, 0.16, 0);
-  label('tick', '+1 nC', () => V(X3 - 0.25, 0.5, 0));
+  const qHill = charge(gHill, 1, 0.16, '+1 нКл'); qHill.position.set(X3, 0.16, 0);
+  label('tick', '+1 нКл', () => V(X3 - 0.25, 0.5, 0));
   // floor map: equipotential circles and E
   for (const v of M.HILL.levels) lines(root, circle(X3, 0.012, 0, M.K * M.HILL.Q / v * S), GREY);
   const hillE = [];
@@ -162,7 +162,7 @@ export function buildWorld(E) {
   for (const v of M.HILL.levels) {
     const r = M.K * M.HILL.Q / v * S;
     lines(lift, circle(X3, hgt(v) + 0.012, 0, r), '#6c6c72');
-    label('tick', `${v} V`, () => V(X3 - r - 0.08, hgt(v) + lift.position.y + 0.1, 0));
+    label('tick', `${v} В`, () => V(X3 - r - 0.08, hgt(v) + lift.position.y + 0.1, 0));
   }
   const PH = Math.PI * 0.2;    // the probe runs out along this direction
   const probeH = dot(lift, 0.08, 'Пробный заряд', 'ink');
@@ -175,7 +175,7 @@ export function buildWorld(E) {
   ground(X4 - 4, X4 + 4, -3, 3);
   const gDip = asm('dipole', root, { title: 'Диполь', sub: 'потенциальный холм рядом с ямой' });
   gDip.userData.minDist = 14;
-  const dPlus = charge(gDip, 1, 0.15, '+1 nC'), dMinus = charge(gDip, -1, 0.15, '−1 nC');
+  const dPlus = charge(gDip, 1, 0.15, '+1 нКл'), dMinus = charge(gDip, -1, 0.15, '−1 нКл');
   dPlus.position.set(X4 - M.DIP.a * S, 0.0, 0); dMinus.position.set(X4 + M.DIP.a * S, 0.0, 0);
   // field lines on the floor, traced from the + charge
   const dipE = [];
@@ -222,7 +222,7 @@ export function buildWorld(E) {
   const NSL = 12, slices = [];
   for (let i = 0; i < NSL; i++) { const m = part(gRod, xAxis(cyl(0.09, L / NSL, 24)), { tone: 'hi', name: 'Стержень' }); m.position.set(xr0 + (i + 0.5) * L / NSL, YR, 0); slices.push(m); }
   for (let i = 0; i < 5; i++) label('vec red', '+', () => V(xr0 + (i + 0.5) * L / 5, YR + 0.27, 0));
-  label('tick', '+3 nC, 30 cm', () => V(xr0 + L + 1.25, YR - 0.32, 0));
+  label('tick', '+3 нКл, 30 см', () => V(xr0 + L + 1.25, YR - 0.32, 0));
   const pAx = dot(gRod, 0.07, 'P'), pBis = dot(gRod, 0.07, 'P′');
   pBis.position.set(xr0 + L / 2, YR + M.ROD.bisA * S, 0);
   label('board', 'P', () => wp(pAx).add(V(-0.15, 0.3, 0))); label('board', 'P′', () => wp(pBis).add(V(0.12, 0.25, 0)));
@@ -239,7 +239,7 @@ export function buildWorld(E) {
     const a = 2 * Math.PI * (i + 0.5) / NRG, dir = V(0, Math.sin(a), -Math.cos(a));
     ringSeg.push(part(gRing, g, { tone: 'hi', name: 'Кольцо', pos: [xRing, YC, 0], ex: dir.multiplyScalar(0.14).toArray() }));
   }
-  label('tick', '+2 nC', () => V(xRing - 0.15, YC + RR + 0.3, 0));
+  label('tick', '+2 нКл', () => V(xRing - 0.15, YC + RR + 0.3, 0));
   const pRing = dot(gRing, 0.07, 'P'); label('board', 'P', () => wp(pRing).add(V(0.05, 0.3, 0)));
   lines(root, [xRing - 0.3, YC, 0, xRing + 2.7, YC, 0], GREY);
   const ringLines = liveLines(root, NRG, '#8a8a8f');
@@ -252,7 +252,7 @@ export function buildWorld(E) {
     part(gArc, g, { tone: 'hi', name: 'Дуга', pos: [xArc, YC, 0], ex: [0.14 * Math.cos(a), 0.14 * Math.sin(a), 0] });
   }
   const cArc = dot(gArc, 0.07, 'Centre'); cArc.position.set(xArc, YC, 0);
-  label('board', 'C', () => V(xArc + 0.15, YC + 0.25, 0)); label('tick', '+2 nC', () => V(xArc - RR - 0.15, YC + 0.35, 0));
+  label('board', 'C', () => V(xArc + 0.15, YC + 0.25, 0)); label('tick', '+2 нКл', () => V(xArc - RR - 0.15, YC + 0.35, 0));
   const arcLines = liveLines(root, NA, '#8a8a8f');
 
   const gDisc = asm('disc', root, { title: 'Заряженный диск', sub: 'кольца с dq = σ·2πr dr' });
@@ -262,7 +262,7 @@ export function buildWorld(E) {
     const g = new THREE.LatheGeometry([V(r0, -0.04, 0), V(r1, -0.04, 0), V(r1, 0.04, 0), V(r0, 0.04, 0), V(r0, -0.04, 0)].map(p => new THREE.Vector2(Math.max(p.x, 0.001), p.y)), 64).rotateZ(Math.PI / 2);
     discRings.push(part(gDisc, g, { tone: 'hi', name: 'Диск', pos: [xDisc, YC, 0], ex: [-0.1 * i, 0, 0] }));
   }
-  label('tick', '+2 nC', () => V(xDisc - 0.15, YC + RR + 0.3, 0));
+  label('tick', '+2 нКл', () => V(xDisc - 0.15, YC + RR + 0.3, 0));
   const pDisc = dot(gDisc, 0.07, 'P'); label('board', 'P', () => wp(pDisc).add(V(0.05, 0.3, 0)));
   lines(root, [xDisc - 0.3, YC, 0, xDisc + 2.7, YC, 0], GREY);
   const discLines = liveLines(root, 2 * NDR, '#8a8a8f');
@@ -281,7 +281,7 @@ export function buildWorld(E) {
       const u = 2 * rnd() - 1, ph = 2 * Math.PI * rnd(), s = Math.sqrt(1 - u * u), rr = key === 'conductor' ? RS * 0.97 : RS * 0.9 * Math.cbrt(rnd());
       part(g, new THREE.SphereGeometry(0.035, 10, 8), { tone: 'mid', pal: 'red', name: 'Заряд', pos: [x + rr * s * Math.cos(ph), YS + rr * u, rr * s * Math.sin(ph)] });
     }
-    label('tick', '+2 nC', () => V(x + 0.35, YS + RS + 0.3, 0));
+    label('tick', '+2 нКл', () => V(x + 0.35, YS + RS + 0.3, 0));
     // the path in from 40 cm, its r axis, and V(r) drawn above it as a profile
     const end = x + dirx * M.SPH.r0 * S;
     lines(root, [x, YS, 0, end, YS, 0], GREY);
@@ -303,14 +303,14 @@ export function buildWorld(E) {
   const gAcc = asm('accel', root, { title: 'Протон и электрон при разности потенциалов 6 В', sub: 'каждый получает 6 эВ' });
   for (const [x, v, s] of [[xa0, M.ACC.Vhi, 1], [xa0 + D, M.ACC.Vlo, -1]]) {
     part(root, box(0.14, 4.2, 3.0, 0.03), { tone: 'mid', pal: 'board', pos: [x - s * 0.07, YA, 0], name: 'Пластина' });
-    label('tick', `${v} V`, () => V(x + 0.35, YA + 2.45, -1.5));
+    label('tick', `${v} В`, () => V(x + 0.35, YA + 2.45, -1.5));
     for (let k = 0; k < 4; k++) label(s > 0 ? 'vec red' : 'vec blue', s > 0 ? '+' : '−', () => V(x - s * 0.35, YA - 1.5 + k, -1.5));
   }
   for (const v of [5, 3]) {
     const x = xa0 + (M.ACC.Vhi - v) / M.ACC.E * SC.Sacc;
     const sh = new THREE.Mesh(new THREE.PlaneGeometry(3.0, 4.2), translucent('paper', 0.3)); sh.rotation.y = Math.PI / 2; sh.position.set(x, YA, 0); sh.userData = { noEdge: true }; root.add(sh);
     lines(root, [x, YA - 2.1, -1.5, x, YA + 2.1, -1.5, x, YA + 2.1, -1.5, x, YA + 2.1, 1.5, x, YA + 2.1, 1.5, x, YA - 2.1, 1.5, x, YA - 2.1, 1.5, x, YA - 2.1, -1.5], '#b4b4b8');
-    label('tick', `${v} V`, () => V(x + 0.35, YA + 2.45, -1.5));
+    label('tick', `${v} В`, () => V(x + 0.35, YA + 2.45, -1.5));
   }
   const eAcc = [YA + 1.75, YA - 1.75].map(y => { const a = field(root); setArrow(a, V(X8 - M.ACC.E * SC.Eacc / 2, y, 0.9), V(M.ACC.E * SC.Eacc, 0, 0)); return a; });
   label('vec blue', '<b><i>E</i></b>', () => tip(eAcc[0]));
