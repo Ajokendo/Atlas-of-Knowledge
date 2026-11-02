@@ -221,7 +221,7 @@ P = ET + Q + \Delta S
 
 Термины «половодье» и «паводок» не взаимозаменяемы. Половодье — относительно регулярная сезонная фаза повышения водности; паводок — кратковременный подъём уровня и расхода воды, часто вызванный дождём или интенсивным таянием.
 
-### 20.5.1. Как читать сезонный гидрограф горной реки / Reading the Seasonal Hydrograph of a Mountain River
+### 20.5.2. Как читать сезонный гидрограф горной реки / Reading the Seasonal Hydrograph of a Mountain River
 
 Гидрограф — график изменения расхода воды в реке во времени. Для горных рек Кыргызстана он помогает понять, когда формируется основной сток, насколько важны снеговое и ледниковое питание и в какой сезон могут возникать периоды повышенной водности или дефицита воды.
 
@@ -425,7 +425,7 @@ These results apply to the Kyrgyz Range and the 1968–2021 study period; they m
 
 **Географический вывод.** Бассейн реки — более подходящая природная единица для анализа водных потоков, чем административная граница. Но управление бассейном требует одновременно правовых соглашений, совместного мониторинга, инженерного обслуживания и обмена данными.
 
-#### 20.9.1. Basin Cooperation: The Chu and Talas Rivers
+#### Basin Cooperation: The Chu and Talas Rivers
 
 The Chu and Talas rivers show why water management cannot stop at state borders. Much of their water-management infrastructure—regulation structures, reservoirs and canals—is located upstream in Kyrgyzstan. Kazakhstan also depends on how these facilities are operated and on agreed water allocations for irrigation.
 
@@ -452,7 +452,7 @@ These figures refer to an agreed schedule for one irrigation season, not a perma
 - оценки последствий для ирригации, экосистем, паводковой безопасности и местных сообществ;
 - механизмов компенсации услуг по регулированию стока и эксплуатации инфраструктуры.
 
-#### 20.9.2. The Naryn–Syr Darya Basin: The Water–Energy Nexus
+#### The Naryn–Syr Darya Basin: The Water–Energy Nexus
 
 The Naryn is one of the main headwater rivers of the Syr Darya. The Toktogul Reservoir and the cascade of hydropower plants make it possible to regulate river flow and generate electricity. Their operating regime affects not only Kyrgyzstan: downstream water is also used for irrigation in Uzbekistan and Kazakhstan.
 
@@ -484,7 +484,7 @@ Sustainable solutions require:
 
 Оценка воздействия на окружающую и социальную среду должна проводиться до принятия окончательных решений и сопровождать весь жизненный цикл проекта. Региональное сотрудничество может повысить энергетическую и водную безопасность, но только при прозрачных правилах эксплуатации, доступе к данным, независимой экспертизе и работающих механизмах общественного участия.
 
-#### 20.9.3. Kambarata-1 HPP: A Regional Project and Impact Assessment
+#### Kambarata-1 HPP: A Regional Project and Impact Assessment
 
 Kambarata-1 is planned on the Naryn River. The project is being developed through cooperation among the Kyrgyz Republic, Kazakhstan and Uzbekistan; an agreement on joint project development was signed in June 2024. The World Bank provides technical assistance for project preparation, including an updated feasibility study and environmental and social assessments. The planned installed capacity is **1,860 MW**, while project materials estimate average annual generation at about **5,600 GWh**. These are design estimates, not the actual output of an operating station: the facility is not yet in operation.
 
@@ -1066,11 +1066,10 @@ Kyrgyzstan’s water system is shaped by high mountains, precipitation, seasonal
 16. **World Bank.** *World Bank Provides Additional Technical Support for Clean, Hydropower Energy Generation in the Kyrgyz Republic*, 11 July 2024. https://www.worldbank.org/en/news/press-release/2024/07/11/world-bank-provides-additional-technical-support-for-clean-hydropower-energy-generation-in-the-kyrgyz-republic
 17. **World Bank.** *Water Energy Nexus in the Syr Darya Basin.* https://documents1.worldbank.org/curated/en/907281468251378105/pdf/338770v10ENGLISH0REEPS1Main1Report.pdf
 18. Piroton, V., & Havenith, H.-B. (2025). **National Inventory of Glacial Lakes in Kyrgyzstan: Integrating Remote Sensing for Hazard Assessment and Local-scale Monitoring.** EGU General Assembly 2025, EGU25-19362. https://doi.org/10.5194/egusphere-egu25-19362
-19. **Natural Hazards and Earth System Sciences.** (2026). **Constantly renewing glacial lakes in the Kyrgyz Range, northern Tien Shan.** https://doi.org/10.5194/nhess-26-1001-2026
-20. **National Statistical Committee of the Kyrgyz Republic.** *Protection and Rational Use of Water Resources* (open-data table; annual values, including 2025). https://stat.gov.kg/ru/opendata/category/3216/
-21. **Water Resources Service of the Kyrgyz Republic.** *Water Information System (WIS)*; description of distributed databases and river-flow, abstraction and wastewater data. https://water.gov.kg/index.php?Itemid=1522&id=422&lang=en&option=com_content&view=article
-22. **Ministry of Emergency Situations of the Kyrgyz Republic.** *Atlas of Mudflow and Flood Hazards in the Territory of the Kyrgyz Republic* (2025; prepared with WFP and SDC support). https://glofca.org/wp-content/uploads/ATLAS_mudflow_2025_Eng-1.pdf
-23. **Unified System of Integrated Monitoring and Forecasting of Emergency Situations (ESKMP), Kyrgyz Republic.** Interactive hazard-monitoring portal. https://cmbbs.okm.kg/
+19. **National Statistical Committee of the Kyrgyz Republic.** *Protection and Rational Use of Water Resources* (open-data table; annual values, including 2025). https://stat.gov.kg/ru/opendata/category/3216/
+20. **Water Resources Service of the Kyrgyz Republic.** *Water Information System (WIS)*; description of distributed databases and river-flow, abstraction and wastewater data. https://water.gov.kg/index.php?Itemid=1522&id=422&lang=en&option=com_content&view=article
+21. **Ministry of Emergency Situations of the Kyrgyz Republic.** *Atlas of Mudflow and Flood Hazards in the Territory of the Kyrgyz Republic* (2025; prepared with WFP and SDC support). https://glofca.org/wp-content/uploads/ATLAS_mudflow_2025_Eng-1.pdf
+22. **Unified System of Integrated Monitoring and Forecasting of Emergency Situations (ESKMP), Kyrgyz Republic.** Interactive hazard-monitoring portal. https://cmbbs.okm.kg/
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена. Перед финальной публикацией необходимо согласовать гидрологические ряды, морфометрические характеристики озёр, параметры водохранилищ и ледниковые инвентари с датированными национальными и международными наборами данных.
