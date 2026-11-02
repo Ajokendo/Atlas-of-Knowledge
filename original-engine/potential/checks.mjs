@@ -81,7 +81,8 @@ check('k = 1/(4π ε₀)', near(M.K, 1 / (4 * Math.PI * M.EPS0), 2e-3), `${(1 / 
 
 // 9 · accelerating through 6 V
 { const A = M.ACC;
-  check('both gain qΔV = 6 eV', near(M.eV(M.accel(1, 'p').K), 6, 1e-9) && near(M.eV(M.accel(1, 'e').K), 6, 1e-9));
+  const dVp = M.ACC.Vlo - M.ACC.Vhi, dVe = M.ACC.Vhi - M.ACC.Vlo;
+  check('both gain 6 eV: ΔK = −qΔV for proton and electron', near(M.eV(-M.E_CH * dVp), 6, 1e-9) && near(M.eV(-(-M.E_CH) * dVe), 6, 1e-9) && near(M.eV(M.accel(1, 'p').K), 6, 1e-9) && near(M.eV(M.accel(1, 'e').K), 6, 1e-9));
   check('energy conserved along the way: K + U constant', [0, 0.3, 0.7, 1].every(u => near(M.accel(u, 'p').K + M.accel(u, 'p').U, M.accel(0, 'p').U, 1e-9) && near(M.accel(u, 'e').K + M.accel(u, 'e').U, M.accel(0, 'e').U, 1e-9)));
   check('kinematics: v² = 2ad with a = qE/m', near(A.vp ** 2, 2 * M.E_CH * A.E / M.M_P * A.d, 1e-9) && near(A.ve ** 2, 2 * M.E_CH * A.E / M.M_E * A.d, 1e-9), `proton ${f(A.vp / 1000, 1)} km/s, electron ${f(A.ve / 1e6, 2)} Mm/s`);
   check('proton moves with E (toward lower V), electron against it', M.accel(1, 'p').V < M.accel(0, 'p').V && M.accel(1, 'e').V > M.accel(0, 'e').V);
