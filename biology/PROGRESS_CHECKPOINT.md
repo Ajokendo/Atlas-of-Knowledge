@@ -897,3 +897,20 @@ Older checkpoint entries below this note contain historical planning language th
 - CI #557 (ID `41348245036`) passed on `269aa9fe0413d8a5501579bee9c113cbadc8fd69`, after the manual test plan and README link were committed.
 - Structural and Chromium checks remain green: 13 Biology pages, 88 local paths, 13 inline scripts, 165 typed buttons, 30 language-toggle interactions, no uncaught page errors and 21,477 contrast samples with zero below-threshold instances. The configured axe WCAG checks also passed.
 - The manual NVDA/TalkBack/VoiceOver and physical-device protocol remains **Pending** until actual test sessions are performed.
+
+
+## 2026-11-02 — dynamic announcements and full regression rerun
+
+- Reviewed dynamic output semantics across all 13 Biology pages. Added a static regression check for every element whose ID ends in `-output`, plus quiz feedback/result and the landing-page organelle/photo status regions. The corrected static matcher found **41 dynamic output regions**; all expose `aria-live="polite"` / `assertive"` or `role="status"` / `alert"`.
+- Added this check only to `biology/checks.mjs`; no chapter content, shared portal, or other discipline folder was changed.
+- The first CI attempt (#604) passed the existing structural and Chromium suites, but its new static matcher reported zero regions because of an escaping defect in the test expression. This was treated as a test defect, corrected in commit `db88b753d75c9f46d368a20b1727ad2b4dcbcc1c`, and not counted as evidence for the new check.
+- Corrected full regression CI **#605** (run ID `41395955780`) passed on `db88b753d75c9f46d368a20b1727ad2b4dcbcc1c`:
+  - 13 HTML pages; 88 local paths; 13 inline scripts; 165 explicitly typed buttons.
+  - 41 accessible dynamic output regions verified by the static regression check.
+  - Chromium browser smoke passed on all 13 pages at mobile and desktop viewport widths; 30 language-toggle interactions; no uncaught page errors.
+  - Configured axe-core WCAG 2.0/2.1 A/AA and WCAG 2.2 AA checks passed in both language states.
+  - 21,473 preliminary text-contrast samples; zero below-threshold samples.
+  - Interactive model-choice, output, language-localisation, quiz-state and representative keyboard activation checks completed by the browser suite, including Genetics, Biochemistry, Ecology and Systematics.
+- This is automated Chromium/axe evidence only. Manual NVDA, TalkBack and VoiceOver sessions, exhaustive keyboard traversal, and real physical-device/browser checks remain **Pending**.
+- Accessibility phase progress: **50%** (automated cross-page and model checks advanced; manual assistive-technology/device validation remains open). Controlled editorial readiness remains **95/100**, unchanged.
+- All 52 visual assets remain Deferred under `IMAGE_DISPOSITION_REGISTER.md`; no images were generated or integrated. No changes were made outside `biology/` on `workspace/biology`.
