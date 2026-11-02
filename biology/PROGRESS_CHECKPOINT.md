@@ -924,3 +924,13 @@ Older checkpoint entries below this note contain historical planning language th
 - Keyboard checks exercised skip-link focus visibility and Enter activation, individual visible controls' focusability and Tab/Shift+Tab exit-and-return behavior, document-level forward/reverse traversal, representative Enter/Space model activation, focus indicators, and ArrowLeft/ArrowRight scrolling for overflowed named table regions.
 - These results are automated Chromium checks, not a claim of exhaustive manual keyboard usability or screen-reader support. NVDA, TalkBack and VoiceOver sessions and physical-device/browser checks remain **Pending**.
 - Accessibility phase progress remains **50%**; this CI confirms the automated scope but does not close the manual validation stage. Controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No changes outside `biology/` on `workspace/biology`.
+
+
+## 2026-11-03 — skip-link focus destination verified
+
+- Extended the skip-navigation audit after source review showed the existing test proved fragment navigation but did not assert that focus reached the main content landmark.
+- All 13 Biology pages now expose a programmatically focusable `main#main-content` landmark (`tabindex="-1"`). The landing-page skip link now targets that same main landmark, matching the 12 chapter pages.
+- Browser-smoke regression now verifies, for each page, that Enter both updates the fragment and moves `document.activeElement` to the main-content target.
+- Browser test commit: `fd56b843c09107a0cc73af9dbc6d8990c8a965de`. The 13 HTML changes were saved only under `biology/` on `workspace/biology`.
+- CI #612 (run ID `41498921178`) passed: 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons, 41 accessible dynamic output regions; all Chromium checks passed at mobile and desktop widths; 30 language-toggle interactions; no uncaught page errors; 21,471 preliminary text-contrast samples and zero below-threshold samples. The strengthened skip-link focus-destination assertion passed on all 13 pages.
+- Automated keyboard/accessibility phase remains **50%** pending hands-on NVDA, TalkBack, VoiceOver and physical-device/browser sessions. Controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No shared portal or other subject files were changed.
