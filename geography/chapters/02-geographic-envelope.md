@@ -745,7 +745,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 4. NOAA JetStream. *The Atmosphere* (dry-air composition and variable water-vapour content). https://www.noaa.gov/jetstream/atmosphere
 5. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
 6. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
-7. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
+7. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
 8. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
 9. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
 
