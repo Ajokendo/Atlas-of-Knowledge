@@ -294,7 +294,7 @@ Regional comparison begins with a question: what exactly is being compared, and 
 
 **Activity.** Select two world subregions and compare them using three indicators. For each, state its definition, year, source and one interpretive limitation. Draw a conclusion that does not go beyond the evidence.
 
-### 12.13.1. Как сравнивать страны с разным уровнем дохода и цен / Comparing Countries with Different Income Levels and Prices
+### 12.13.2. Как сравнивать страны с разным уровнем дохода и цен / Comparing Countries with Different Income Levels and Prices
 
 Сравнение стран по номинальному ВВП на душу населения не показывает само по себе, сколько товаров и услуг люди могут приобрести внутри каждой страны. Номинальные показатели переводят в общую валюту по рыночному обменному курсу, который меняется и может резко колебаться. Для сравнения материального уровня жизни часто используют показатели по паритету покупательной способности (ППС), учитывающие различия в уровнях цен.
 
