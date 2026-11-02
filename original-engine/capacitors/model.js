@@ -26,7 +26,7 @@ export function charging(t) {
 
 // field of one uniformly charged disc of radius R on its axis, by summing rings (numeric) and
 // in closed form; R → ∞ gives the infinite sheet σ/2ε₀
-export const discAxisE = (sigma, R, z) => sigma / (2 * EPS0) * (1 - z / Math.sqrt(z * z + R * R));
+export const discAxisE = (sigma, R, z) => Math.sign(z) * sigma / (2 * EPS0) * (1 - Math.abs(z) / Math.sqrt(z * z + R * R));
 export function discAxisENumeric(sigma, R, z, n = 4000) {
   let E = 0;
   for (let i = 0; i < n; i++) {
