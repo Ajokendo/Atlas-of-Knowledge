@@ -556,7 +556,7 @@ Administrative boundaries are designed for governance and statistical reporting.
 
 **Учебное задание.** Найдите официальную карту Кыргызстана и отдельно отметьте государственные границы, пункты пропуска, крупные долины и трансграничные речные бассейны. Составьте краткое пояснение, какие элементы являются юридическими, какие — физико-географическими, а какие — транспортными. Не выводите правовой статус участка только по цвету линии на карте.
 
-#### 17.12.1. The State Border as a Geographic System: Delimitation, Demarcation and Cross-Border Connections
+#### The State Border as a Geographic System: Delimitation, Demarcation and Cross-Border Connections
 
 A state border is a legally established line separating the territory of one country from that of another. Geography treats it not only as a line on a map but also as a system of spatial relationships: valleys, pastures, roads, markets, water bodies and communities on opposite sides may remain closely connected. The border nevertheless retains its legal force and regulates territorial access, the movement of people and goods, and the use of certain resources.
 
