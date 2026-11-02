@@ -283,9 +283,9 @@ try {
         };
 
         if (file.endsWith("/botany.html")) {
-          await verifyAnyChoiceGroup("#plant-organs button[data-organ]", "#organ-output", "organ", "plant organ");
+          await verifyAnyChoiceGroup("button[data-organ]", "#organ-output", "organ", "plant organ");
           for (const condition of ["light", "water", "co2"]) {
-            const control = page.locator('#condition-controls [data-condition="' + condition + '"]');
+            const control = page.locator('[data-condition="' + condition + '"]');
             if (!(await control.count())) {
               errors.push(file + ": photosynthesis condition control missing: " + condition);
               continue;
