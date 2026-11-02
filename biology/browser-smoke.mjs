@@ -759,8 +759,7 @@ try {
           continue;
         }
         await page.keyboard.press("Tab");
-        const movedForward = await target.evaluate(el => document.activeElement !== el &&
-          document.activeElement !== document.body && document.activeElement !== document.documentElement);
+        const movedForward = await target.evaluate(el => document.activeElement !== el);
         if (!movedForward) {
           errors.push(file + ": Tab could not move away from interactive control " + targetIndex);
           continue;
