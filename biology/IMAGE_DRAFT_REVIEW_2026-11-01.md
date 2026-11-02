@@ -212,3 +212,12 @@ Generated a high-altitude lake-and-meadow panorama (ImageGen ID `cd0d29f9-e363-4
 **Preliminary internal QA: CONDITIONAL PASS — candidate only.** The image conveys an open high-altitude basin, lake shore, alpine grassland, rocky ground and snow-covered mountain relief. It contains no animals, people, buildings or labels. The meadow flowers are generated decorative forms and cannot safely be identified as local species; the prominent red tulip-like flowers and purple iris-like flowers must not be treated as a verified species inventory or as evidence of their occurrence at Son-Kul or Chatyr-Kul. The scene is a generalized high-mountain landscape, not a precise depiction of either lake, and does not establish season, elevation or hydrological conditions. Use only as a schematic regional landscape illustration if later approved.
 
 This is internal prompt-compliance and visual-scope review only. Independent botanical review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
+
+
+## Sixteenth production attempt: Osh Region flora candidate — 3 November 2026
+
+Generated a vegetation-led mountain landscape (ImageGen ID `7e84acee-5518-4bf0-af87-824a4e842b2f`; source PNG 1672x941 RGB). Local WebP review master: `/mnt/data/flora-osh-candidate.webp` (2400x1350 RGB; 1,241,914 bytes).
+
+**Preliminary internal QA: CONDITIONAL PASS — candidate only.** The scene shows a juniper-like tree/shrub on a mountain slope, open rocky alpine terrain, grasses and a stream valley. It contains no animals, people, buildings or labels. The image can serve as a generalized visual transition between wooded and juniper-dominated mountain habitats. The red poppy-like and purple flowers are generic generated forms and cannot be identified as verified local species. The image does not actually depict the walnut-forest component and should not be presented as a complete flora panorama of Osh Region or a precise locality in the Pamir-Alay. Caption, if used, must explicitly describe it as an illustrative juniper/alpine habitat, not as a documented site or species inventory.
+
+Internal visual-scope review only; independent botanical review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
