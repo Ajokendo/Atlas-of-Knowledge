@@ -130,6 +130,25 @@ try {
           (contrast.failures.length > 8 ? " (+" + (contrast.failures.length - 8) + " more)" : ""));
       }
       if (!(await page.locator("main").count())) errors.push(file + ": missing main landmark");
+      if (await page.locator("main").count() !== 1) errors.push(file + ": expected exactly one main landmark");
+      if ((await page.locator("h1").count()) !== 1) errors.push(file + ": expected exactly one top-level h1 heading");
+      if (!(await page.title()).trim()) errors.push(file + ": document title is empty");
+      const headingSequence = await page.locator("h1, h2, h3, h4, h5, h6").evaluateAll(nodes =>
+        nodes.map(el => Number(el.tagName.slice(1))));
+      for (let i = 1; i < headingSequence.length; i++) {
+        if (headingSequence[i] > headingSequence[i - 1] + 1) {
+          errors.push(file + ": heading hierarchy skips from h" + headingSequence[i - 1] +
+            " to h" + headingSequence[i] + " at heading " + i);
+          break;
+        }
+      }
+      const chapterNavigation = page.locator("nav.chapter-nav");
+      if (await chapterNavigation.count()) {
+        const label = await chapterNavigation.first().evaluate(el =>
+          (el.getAttribute("aria-label") || "").trim() ||
+          (el.getAttribute("aria-labelledby") || "").trim());
+        if (!label) errors.push(file + ": chapter navigation landmark has no accessible name");
+      }
 
       // Every page must provide a working, keyboard-reachable skip link to its main content.
       const skipLink = page.locator("a.skip-link").first();
