@@ -388,7 +388,7 @@ In mountain areas, snow, slope shadows and seasonal vegetation differences acros
 
 **Activity.** Compare two hypothetical images of the same catchment acquired in spring and summer. List the factors to control before interpreting a lower vegetation index as degradation, and propose a field-validation method.
 
-### 15.15.2. Как отличить реальное изменение от различий съёмки / Separating Real Change from Acquisition Differences
+### 15.15.2. Контрольный список сопоставимости спутниковых снимков / Satellite-Image Comparability Checklist
 
 Разница между двумя спутниковыми изображениями не всегда означает изменение на местности. Её могут вызвать разные сезоны, угол освещения и наблюдения, облачность, атмосферные условия, сенсор, пространственное разрешение, геометрическая коррекция или обработка. Прежде чем классифицировать участок как изменившийся, необходимо проверить сопоставимость изображений.
 
@@ -808,6 +808,7 @@ NDVI \approx 0.67
 8. Richards, J. A. **Remote Sensing Digital Image Analysis**. Springer.
 9. European Space Agency. **Sentinel-1 Mission Overview and Radar Instrument** — mission characteristics and all-weather, day-and-night radar imaging. https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1
 10. International Society for Photogrammetry and Remote Sensing (ISPRS). **ISPRS Journal of Photogrammetry and Remote Sensing** — научные исследования методов фотограмметрии и ДЗЗ.
+11. NASA Science. **Landsat Calibration and Validation** — documentation of radiometric and geometric calibration, independent verification and validation of higher-level data products. https://science.nasa.gov/mission/landsat/calibration-validation/
 
 ---
 **Конец главы 15 / End of Chapter 15**
