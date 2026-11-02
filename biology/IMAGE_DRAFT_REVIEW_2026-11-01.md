@@ -194,3 +194,12 @@ Generated a revised vegetation-led landscape (ImageGen ID `aaf7471a-183b-45c0-ac
 **Preliminary internal QA: PASS WITH LIMITATIONS; candidate only.** The scene contains a walnut-bearing foreground branch, wooded mountain slopes and a stream/ravine, with no animals, labels, people or buildings. It is substantially closer to the Jalal-Abad flora brief than the rejected fauna-dominated attempt. Coniferous elements are prominent, so the image must be described as an illustrative regional habitat composition, not a documentary view or a precise botanical inventory of Arslanbob. It does not establish exact locality, season, elevation or species occurrence.
 
 This is only prompt-compliance and visual-scope review. Independent botanist review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
+
+
+## Fourteenth production attempt: Issyk-Kul basin vegetation candidate — 3 November 2026
+
+Generated a vegetation-led panorama (ImageGen ID `661fee65-9c34-442a-84a5-5fc73b4adf88`; source PNG 1672x941 RGB). Local WebP review master: `/mnt/data/flora-issyk-candidate.webp` (2400x1350 RGB; 1,032,444 bytes).
+
+**Preliminary internal QA: CONDITIONAL PASS — concept candidate only.** The composition visibly separates a marshy/littoral foreground with reeds and shallow pools, an open lake shore and dry foothills, and forested mountain slopes. No animals, people, labels or buildings are present. This broadly follows the required ecological zoning for the Issyk-Kul basin. However, the bright red flowers are generic generated forms and must not be identified as a named local species; the meadow flowers likewise remain unidentified. The conifer forest and shore are illustrative, not proof of exact distribution, season, elevation or locality. The image should be captioned as a schematic regional landscape mosaic, not as one precise viewpoint or a botanically exhaustive plate.
+
+The candidate passed internal prompt-compliance and visual-scope review only. Independent botanical review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
