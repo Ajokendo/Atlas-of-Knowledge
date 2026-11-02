@@ -705,7 +705,7 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
 1. United Nations Statistics Division. **International Standard Industrial Classification of All Economic Activities (ISIC), Rev. 4** (2008). https://digitallibrary.un.org/record/641645
-2. United Nations Statistics Division. **System of National Accounts 2008 (SNA 2008)** and **System of National Accounts 2025 (2025 SNA; pre-edit version)**. Use the version specified by the national statistical authority and the metadata of each statistical series. https://unstats.un.org/unsd/Nationalaccount/sna.asp
+2. United Nations Statistics Division. **System of National Accounts 2008 (2008 SNA)** and **System of National Accounts 2025 (2025 SNA)**. The 2025 SNA was adopted by the UN Statistical Commission at its 56th session in 2025; the UN Statistics Division's landing page provides the pre-edit text and the 2008 edition. Use the version specified by the national statistical authority and the metadata of each statistical series. https://unstats.un.org/unsd/Nationalaccount/sna.asp
 3. World Bank. **World Development Indicators** — international economic and social data series. https://databank.worldbank.org/source/world-development-indicators
 4. International Monetary Fund. **World Economic Outlook Database** — macroeconomic indicators and forecasts. https://www.imf.org/en/Publications/WEO/weo-database
 5. International Labour Organization. **ILOSTAT** — labour and employment statistics. https://ilostat.ilo.org/data/
