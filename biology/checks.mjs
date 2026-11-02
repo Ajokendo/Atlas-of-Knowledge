@@ -137,6 +137,10 @@ for (const chapter of coreChapters) {
       !html.includes("lastAnswer===q.c")) {
     errors.push("chapters/" + chapter + ": answered quiz feedback must remain visible and localized after switching languages");
   }
+  if (!html.includes("quizAnswered?' disabled aria-pressed=") ||
+      !html.includes('button.disabled=true;button.setAttribute("aria-pressed",String(index===i))')) {
+    errors.push("chapters/" + chapter + ": quiz choices must lock immediately after an answer and restore selected state after language changes");
+  }
   const quizBank = html.match(/const quizBank\s*=\s*\{([\s\S]*?)\};/);
   const ruBank = quizBank && quizBank[1].match(/ru:\s*\[([\s\S]*?)\],\s*en:\s*\[/);
   const enBank = quizBank && quizBank[1].match(/en:\s*\[([\s\S]*?)\]\s*$/);
