@@ -69,6 +69,7 @@ check('k = 1/(4π ε₀)', near(M.K, 1 / (4 * Math.PI * M.EPS0), 2e-3), `${(1 / 
   check('arc: centre kQ/R, whatever the span', near(M.arcSum(500), M.Varc0, 1e-12), `${f(M.Varc0)} V`);
   check('disc: 2πkσ(√(R² + z²) − z) vs Σ rings', [0, 0.05, 0.3].every(z => near(M.discSum(20000, z), M.Vdisc(z), 1e-6)));
   check('disc: centre 2kQ/R, twice the ring', near(M.Vdisc(0), 2 * M.K * M.DISC.Q / M.DISC.R, 1e-12) && near(M.Vdisc(0), 2 * M.Vring(0), 1e-12), `${f(M.Vdisc(0))} V`);
+  check('disc symmetry across plane', [-0.3, -0.05, 0, 0.05, 0.3].every(z => near(M.Vdisc(-z), M.Vdisc(z), 1e-12)));
   check('ring and disc → kQ/z far away', near(M.Vring(50), M.K * M.RING.Q / 50, 1e-5) && near(M.Vdisc(50), M.K * M.DISC.Q / 50, 1e-5)); }
 
 // 8 · spheres
