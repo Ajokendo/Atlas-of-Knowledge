@@ -266,3 +266,12 @@ Generated a single-bird alpine portrait (ImageGen ID `f243b796-f95f-455b-95ea-dc
 **Preliminary internal QA: CONDITIONAL PASS AS A GENERAL GOLDEN EAGLE PORTRAIT; FLIGHT/IDENTIFICATION DETAILS REQUIRE SPECIALIST REVIEW.** The bird has a strong hooked bill, yellow cere and feet, dark brown plumage with golden nape, and a robust eagle silhouette consistent with an adult golden eagle. The perched pose allows inspection of the head and feet, but the image does not show the broad wings in flight, so wing shape and flight silhouette cannot be assessed. The talons are visible but partly merged with the perch and should not be used as an anatomical teaching close-up. No locality, age, sex or subspecies can be established from this generated image. Provisional caption: “Golden eagle (*Aquila chrysaetos*), illustrative reconstruction.”
 
 Internal visual review only; ornithologist review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
+
+
+## Twenty-second production attempt: bearded vulture (*Gypaetus barbatus*) candidate — 3 November 2026
+
+Generated a single-bird alpine portrait (ImageGen ID `ff5ac02e-d38e-4983-8b16-74a253bb1bc6`; source PNG 1672x941 RGB). Local WebP review master: `/mnt/data/fauna-bearded-vulture-candidate.webp` (2400x1350 RGB; 638,946 bytes; reopened successfully after encoding).
+
+**Preliminary internal QA: CONDITIONAL PASS AS AN ADULT BEARDED VULTURE PORTRAIT; NATURAL COLORATION AND FLIGHT MORPHOLOGY NEED CAUTION.** The bird has a long narrow hooked bill, dark facial mask, black bristles below the bill forming the characteristic beard, pale head, long dark wings and a rufous-orange breast. The orange coloration may be exaggerated: adult bearded vultures often acquire rusty-orange tones through iron-oxide-rich dust bathing, and the intensity varies; this vivid saturated orange should not be presented as universal natural plumage. The perched pose does not allow assessment of the long, narrow wings and wedge-shaped tail in flight. Exact locality, age and individual coloration cannot be inferred. Provisional caption: “Bearded vulture (*Gypaetus barbatus*), illustrative reconstruction; breast coloration is stylized.”
+
+Internal visual review only; ornithologist review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
