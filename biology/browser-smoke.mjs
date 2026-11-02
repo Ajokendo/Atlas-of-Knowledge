@@ -269,9 +269,12 @@ try {
              ["UAA", "Stop codon"], ["GCU", "Alanine"]], "codon");
           await verifyModelChoices("#mutation-controls button", "#mutation-output",
             [["substitution", "substitution"], ["insertion", "insertion"], ["deletion", "deletion"]], "mutation");
-          const mutationSequences = await page.locator("#mutation-seq").innerText();
-          if (!mutationSequences.includes("GA") && !mutationSequences.includes("A")) {
-            errors.push(file + ": mutation model did not expose its altered sequence");
+          for (const [mutation, sequenceToken] of [["substitution", "UCU"], ["insertion", "AGC"], ["deletion", "CUU"]]) {
+            await page.locator('#mutation-controls [data-mutation="' + mutation + '"]').click();
+            const sequence = await page.locator("#mutation-seq").innerText();
+            if (!sequence.includes(sequenceToken)) {
+              errors.push(file + ": " + mutation + " model did not display the expected altered reading frame: " + sequence);
+            }
           }
         }
 
@@ -295,7 +298,7 @@ try {
              ["nitrification", "nitrification"], ["assimilation", "assimilation"],
              ["denitrification", "denitrification"]], "nitrogen");
           await verifyModelChoices("#pressure-controls button", "#pressure-output",
-            [["drought", "drought"], ["pollution", "pollut"], ["invasive", "invasive"], ["protection", "protect"]], "pressure");
+            [["drought", "drought"], ["pollution", "pollut"], ["invasive", "invasive"], ["protection", "habitat restoration"]], "pressure");
           for (const organism of ["grass", "grasshopper", "frog", "snake", "hawk"]) {
             await page.locator('#chain-controls [data-chain="' + organism + '"]').click();
           }
