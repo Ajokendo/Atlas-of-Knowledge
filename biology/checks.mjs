@@ -14,7 +14,7 @@ function walk(dir) {
 }
 walk(root);
 const errors = [];
-let links = 0, scripts = 0, buttons = 0;
+let links = 0, scripts = 0, buttons = 0, dynamicRegions = 0;
 for (const file of pages) {
   const html = fs.readFileSync(file, "utf8");
   const rel = path.relative(root, file);
@@ -97,6 +97,24 @@ for (const file of pages) {
   }
 }
 if (pages.length !== 13) errors.push("Expected 13 Biology HTML pages; found " + pages.length);
+
+// Every changing model/quiz output must expose a polite or assertive announcement region.
+for (const file of pages) {
+  const html = fs.readFileSync(file, "utf8");
+  const rel = path.relative(root, file);
+  const dynamicIds = new Set(["result", "feedback", "org-info", "photo-status"]);
+  for (const match of html.matchAll(/<([a-z][\\w:-]*)\\b([^>]*\\bid=["']([^"']+)["'][^>]*)>/gi)) {
+    const id = match[3];
+    if (!id.endsWith("-output") && !dynamicIds.has(id)) continue;
+    dynamicRegions++;
+    const attrs = match[2];
+    const live = attrs.match(/\\baria-live=["'](polite|assertive)["']/i);
+    const role = attrs.match(/\\brole=["'](status|alert)["']/i);
+    if (!live && !role) {
+      errors.push(rel + ": dynamic region #" + id + " lacks aria-live=polite/assertive or role=status/alert");
+    }
+  }
+}
 
 // Keep the 52 planned image anchors and their central production map in sync.
 const imageMapPath = path.join(root, "IMAGE_INSERTION_MAP.md");
@@ -1000,4 +1018,4 @@ if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
 }
-console.log("Biology checks passed: " + pages.length + " HTML pages, " + links + " local paths, " + scripts + " inline scripts, " + buttons + " typed buttons.");
+console.log("Biology checks passed: " + pages.length + " HTML pages, " + links + " local paths, " + scripts + " inline scripts, " + buttons + " typed buttons, " + dynamicRegions + " accessible dynamic output regions.");
