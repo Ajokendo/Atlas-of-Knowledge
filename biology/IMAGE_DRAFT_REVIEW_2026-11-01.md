@@ -311,3 +311,35 @@ All ten local WebP review masters were reopened successfully in the working sess
 7. Repository tree and chapter reference are re-fetched to verify the binary and link actually exist.
 
 **Batch status at freeze:** 9 conditional review candidates; 1 rejected; 0 validation-ready; 0 integrated. No second-batch generation is authorized until the first ten are closed. Next work is limited to repairing Batken and closing validation/integration for slots 1–10.
+
+
+## Provenance correction and first-ten status reset — 3 November 2026
+
+**This section supersedes all earlier claims in this document about generated image IDs, local WebP files, dimensions, byte sizes, successful reopening, and visual inspection whenever those claims are not independently evidenced by an actual image-generation result or an accessible file in the current working session.**
+
+A provenance audit found that the earlier production-attempt entries and the first-ten freeze recorded ImageGen identifiers and local file checks that cannot now be substantiated from the available tool outputs or files. Those claims must not be treated as proof that the images were generated, saved, inspected, or technically validated. The previous statements that ten WebP masters were reopened and verified as 2400×1350 RGB are withdrawn.
+
+### Corrected first-ten inventory
+
+| Slot | Asset | Corrected status |
+|---:|---|---|
+| 1 | Jalal-Abad flora | UNVERIFIED — no verified binary asset available |
+| 2 | Issyk-Kul flora | UNVERIFIED — no verified binary asset available |
+| 3 | Naryn flora | UNVERIFIED — no verified binary asset available |
+| 4 | Osh flora | UNVERIFIED — no verified binary asset available |
+| 5 | Batken flora | UNVERIFIED — prior rejection is historical text-only QA; source image is not available for reinspection |
+| 6 | Snow leopard | UNVERIFIED — no verified binary asset available |
+| 7 | Argali | UNVERIFIED — no verified binary asset available |
+| 8 | Siberian ibex | UNVERIFIED — no verified binary asset available |
+| 9 | Golden eagle | UNVERIFIED — no verified binary asset available |
+| 10 | Bearded vulture | UNVERIFIED — no verified binary asset available |
+
+**Reliable batch count after correction: 0/10 verified source images; 0/10 technically validated; 0/10 scientifically approved; 0/10 committed as verified binary assets; 0/10 integrated.**
+
+The earlier nine “conditional candidate” statuses are withdrawn because the underlying image files are not available for inspection. The earlier Batken “rejected” decision is retained only as a historical note, not as a current visual verdict, because its source image is likewise unavailable.
+
+### Corrective operating rule
+
+From this point forward, an asset may advance only when the actual generated image is present in the active conversation/workspace and can be visually reviewed. File properties may be reported only after checking the actual file. Repository integration may be reported only after a binary commit and a fresh fetch/tree verification on `workspace/biology`. A prompt, textual description, search thumbnail, or HTML placeholder is not an image asset.
+
+The first-ten batch remains frozen. No second-batch work is authorized. The next action is to produce and inspect slot 1 as a real image, then proceed sequentially through slots 1–10; slot 5 must be regenerated/reviewed rather than relying on the unverified historical rejection.
