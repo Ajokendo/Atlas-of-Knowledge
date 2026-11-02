@@ -185,3 +185,12 @@ A wide generated landscape preview was produced during the first supervised QA c
 **QA decision: REJECTED — wrong subject and ecological emphasis.** The image is a fauna scene, not a flora landscape; the prominent mammals, conifer-dominated valley and glacier peaks do not fulfil the specified Jalal-Abad flora brief. The walnut branch alone does not make it a valid flora illustration. No species/locality claim is accepted from this generated scene.
 
 The file remains a local rejected draft. It was not converted to WebP, copied into `biology/images/generated/`, inserted into the chapter or counted as a completed asset. The image-generation brief must be narrowed to a vegetation-only landscape with walnut-fruit woodland, wooded slopes and moist ravines; no animals, no species labels, no invented site-specific plant list. To conserve the active generation allowance, no immediate retry was made. All 52 mapped assets retain their Deferred status.
+
+
+## Thirteenth production attempt: Jalal-Abad flora candidate — 3 November 2026
+
+Generated a revised vegetation-led landscape (ImageGen ID `aaf7471a-183b-45c0-ac2f-0aab2ff96cbf`; source PNG 1672x941 RGB). Local WebP review master: `/mnt/data/flora-jalalabad-candidate.webp` (2400x1350 RGB; 1,168,492 bytes).
+
+**Preliminary internal QA: PASS WITH LIMITATIONS; candidate only.** The scene contains a walnut-bearing foreground branch, wooded mountain slopes and a stream/ravine, with no animals, labels, people or buildings. It is substantially closer to the Jalal-Abad flora brief than the rejected fauna-dominated attempt. Coniferous elements are prominent, so the image must be described as an illustrative regional habitat composition, not a documentary view or a precise botanical inventory of Arslanbob. It does not establish exact locality, season, elevation or species occurrence.
+
+This is only prompt-compliance and visual-scope review. Independent botanist review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
