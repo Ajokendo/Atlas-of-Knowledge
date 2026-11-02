@@ -134,6 +134,14 @@ for (const chapter of coreChapters) {
   }
 }
 for (const chapter of coreChapters) {
+  const html = fs.readFileSync(path.join(root, "chapters", chapter), "utf8");
+  if (!html.includes("lastAnswer=i;") ||
+      !html.includes("if(quizAnswered&&lastAnswer!==null)") ||
+      !html.includes("lastAnswer===q.c")) {
+    errors.push("chapters/" + chapter + ": answered quiz feedback must remain visible and localized after switching languages");
+  }
+}
+for (const chapter of coreChapters) {
   const file = path.join(root, "chapters", chapter);
   const html = fs.readFileSync(file, "utf8");
   const match = html.match(/<section\b[^>]*class=["'][^"']*\breferences\b[^"']*["'][^>]*>([\s\S]*?)<\/section>/i);
