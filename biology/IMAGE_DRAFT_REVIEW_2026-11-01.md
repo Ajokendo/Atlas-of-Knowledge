@@ -221,3 +221,12 @@ Generated a vegetation-led mountain landscape (ImageGen ID `7e84acee-5518-4bf0-a
 **Preliminary internal QA: CONDITIONAL PASS — candidate only.** The scene shows a juniper-like tree/shrub on a mountain slope, open rocky alpine terrain, grasses and a stream valley. It contains no animals, people, buildings or labels. The image can serve as a generalized visual transition between wooded and juniper-dominated mountain habitats. The red poppy-like and purple flowers are generic generated forms and cannot be identified as verified local species. The image does not actually depict the walnut-forest component and should not be presented as a complete flora panorama of Osh Region or a precise locality in the Pamir-Alay. Caption, if used, must explicitly describe it as an illustrative juniper/alpine habitat, not as a documented site or species inventory.
 
 Internal visual-scope review only; independent botanical review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
+
+
+## Seventeenth production attempt: Batken Aygul and wild tulips candidate — 3 November 2026
+
+Generated a botanical landscape candidate (ImageGen ID `3d366dd6-d22a-4f91-9d02-7bbec54391fa`; source PNG 1672x941 RGB). Local WebP review master: `/mnt/data/flora-batken-candidate.webp` (2400x1350 RGB; 989,894 bytes).
+
+**Preliminary internal QA: REJECTED AS A SPECIES-ACCURATE PLATE; usable only as an unlabelled generic landscape concept.** The prominent hanging, checkered maroon-and-yellow bell flowers are visually fritillaria-like and broadly resemble the requested Aygul subject, while red tulip-like flowers are also present. However, the generated flowers have not been verified as botanically accurate *Fritillaria eduardii* / *Petilium eduardii* or as any particular Batken tulip species. The model has also combined them in one dense foreground composition, with no defensible species separation or scale. The image must not be used as a labelled botanical plate, species identification aid, or evidence of local population occurrence. It may be retained only as a generic, unlabelled Batken mountain-flora mood image if editorial policy permits.
+
+Internal visual review only. Species-level botanical review and editorial sign-off are outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
