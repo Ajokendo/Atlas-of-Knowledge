@@ -734,7 +734,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
-1. USGS Water Science School. *Water Science Basics*. https://www.usgs.gov/special-topics/water-science-school
+1. USGS Water Science School. *Water Basics Information by Topic*. https://www.usgs.gov/water-science-school/science/water-basics-information-topic
 2. NOAA National Ocean Service. *Ocean Facts*. https://oceanservice.noaa.gov/facts/
 3. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
 4. International Hydrographic Organization (IHO). *Standards and Specifications*. https://iho.int/en/standards-and-specifications
