@@ -392,7 +392,7 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 
 **Место для иллюстрации 6.17-A — Climate Change and the Water Cycle.** Причинно-следственная схема влияния потепления на снег, ледники, испарение, осадки, сток и экстремальные гидрологические явления.
 
-### 6.16.1. Как составить простой водный баланс водосбора / Building a Simple Catchment Water Balance
+### 6.17.1. Как составить простой водный баланс водосбора / Building a Simple Catchment Water Balance
 
 Для водосбора за выбранный период можно представить упрощённый баланс:
 
