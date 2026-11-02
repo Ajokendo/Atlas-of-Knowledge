@@ -825,6 +825,43 @@ try {
             ((el.getAttribute("aria-label") || el.innerText || el.value || "") === first.name);
         }, firstFocus);
         if (!returnedToFirst) errors.push(file + ": Shift+Tab did not return to the previous control");
+
+        // Walk the real Tab sequence and verify a visible focus indicator on every
+        // keyboard-reached control, not only the first stop or programmatic focus targets.
+        const tabStopCount = await page.evaluate(() =>
+          Array.from(document.querySelectorAll("a[href], button, input, select, textarea, [role='button'], [tabindex]:not([tabindex='-1'])"))
+            .filter(el => {
+              const s = getComputedStyle(el);
+              return s.display !== "none" && s.visibility !== "hidden" &&
+                s.visibility !== "collapse" && el.getClientRects().length > 0 &&
+                !el.disabled && el.getAttribute("aria-disabled") !== "true" && el.tabIndex >= 0;
+            }).length
+        );
+        let tabSequenceChecks = 0;
+        for (let step = 0; step < Math.min(tabStopCount + 1, 400); step++) {
+          await page.keyboard.press("Tab");
+          const focused = await page.evaluate(() => {
+            const el = document.activeElement;
+            if (!el || el === document.body || el === document.documentElement) return null;
+            const s = getComputedStyle(el);
+            const indicator = (s.outlineStyle !== "none" && Number.parseFloat(s.outlineWidth) > 0) ||
+              s.boxShadow !== "none" || s.filter !== "none";
+            return {
+              tag: el.tagName.toLowerCase(),
+              id: el.id || "",
+              label: (el.getAttribute("aria-label") || el.innerText || el.value || "").trim().slice(0, 80),
+              keyboardFocusVisible: el.matches(":focus-visible"),
+              indicator
+            };
+          });
+          if (!focused) break;
+          tabSequenceChecks++;
+          if (!focused.keyboardFocusVisible || !focused.indicator) {
+            errors.push(file + ": keyboard Tab sequence reached a control without a detectable visible focus indicator: " +
+              JSON.stringify(focused));
+          }
+        }
+        if (!tabSequenceChecks) errors.push(file + ": Tab sequence did not exercise any focusable controls");
       }
 
     }
