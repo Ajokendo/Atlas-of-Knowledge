@@ -133,7 +133,7 @@ export function buildWorld(E) {
   const X2 = STATIONS.depth, D = M.LAKE.depth;
   water(root, 5, D, 2.4, [X2, D / 2, 0], 0.15);
   water(root, 5, 0.02, 2.4, [X2, D, 0], 0.3);
-  const ticks = []; for (let d = 0; d <= D; d += 2) { ticks.push(X2 - 2.5, D - d, 1.2, X2 - 2.75, D - d, 1.2); label('tick', `${d} m`, () => V(X2 - 2.82, D - d, 1.2)); }
+  const ticks = []; for (let d = 0; d <= D; d += 2) { ticks.push(X2 - 2.5, D - d, 1.2, X2 - 2.75, D - d, 1.2); label('tick', `${d} м`, () => V(X2 - 2.82, D - d, 1.2)); }
   lines(root, ticks, '#6c6c72');
   const g2 = asm('diver', root, { title: 'Погружение водолаза', sub: 'чем глубже, тем больше столб воды над ним' });
   const diver = new THREE.Group(); g2.add(diver);
@@ -152,8 +152,8 @@ export function buildWorld(E) {
   const atm = [-1.8, -0.6, 0.6, 1.8].map(() => small(root, 'ink', 'Давление', 3.5));
   label('vec', '<i>P</i><sub>0</sub>', () => V(X2 + 2.2, D + 0.75, 0));
   label('vec', '', () => V(X2 - 0.6 - SIDE - M.pAt(diveNow) * SC.lakeP / 2, D - diveNow + 0.75, 0), () => `<i>P</i> = ${(M.pAt(diveNow) / 1000).toFixed(0)} кПа`);
-  const hBar = thinRod(g2, 0.012, 'ink', 'Depth h');
-  label('vec', '', () => V(X2 + 3.3, D - diveNow / 2, 0), () => `<i>h</i> = ${diveNow.toFixed(1)} m`);
+  const hBar = thinRod(g2, 0.012, 'ink', 'Глубина h');
+  label('vec', '', () => V(X2 + 3.3, D - diveNow / 2, 0), () => `<i>h</i> = ${diveNow.toFixed(1)} м`);
   // opened: the column of water above the diver, 1 m² across
   const column = water(g2, 1, 1, 1, [X2, 0, 0], 0.32);
   let diveNow = 1;
@@ -177,8 +177,8 @@ export function buildWorld(E) {
   const pistL = part(g3, cyl(PA.r1, 0.04, 32), { tone: 'hi', name: 'Малый поршень' });
   const pistR = part(g3, cyl(PA.r2, 0.04, 48), { tone: 'hi', name: 'Большой поршень' });
   const load = part(g3, box(0.46, 0.3, 0.46, 0.03), { tone: 'hi', pal: 'dark', name: 'Груз' });
-  const F1a = force(g3, 'ink', 'Push', 0.6);
-  label('vec', `<i>F</i><sub>1</sub> = ${PA.F1} N`, () => V(LX, pistL.position.y + 0.42, 0));
+  const F1a = force(g3, 'ink', 'Сила нажатия', 0.6);
+  label('vec', `<i>F</i><sub>1</sub> = ${PA.F1} Н`, () => V(LX, pistL.position.y + 0.42, 0));
   label('mark', `${PA.load.toFixed(1)} кг · ${PA.F2.toFixed(0)} Н`, () => V(RX, load.position.y + 0.3, 0));
   const under = [small(g3, 'ink', 'Давление', 1.15)];
   const aG = Math.sqrt(PA.A1);                       // one arrow per A1 of piston face
@@ -209,10 +209,10 @@ export function buildWorld(E) {
     for (let i = -1; i <= 1; i++) for (let k = 0; k <= 0; k++) facePts.push({ n, off: n.clone().multiplyScalar(BS / 2).addScaledVector(u, i * BS / 3).addScaledVector(w, k * BS / 3), a: small(g4) });
   }
   const totals = faces.slice(0, 4).map(() => arrow(g4, 'ink', { r: 0.009, head: 0.05, headR: 0.025, name: 'Равнодействующие по граням' }));
-  const W4 = force(g4, 'ink', 'Forces', 0.5), Fb4 = force(g4, 'ink', 'Forces', 0.5), T4 = force(g4, 'ink', 'Forces', 0.5);
+  const W4 = force(g4, 'ink', 'Силы', 0.5), Fb4 = force(g4, 'ink', 'Силы', 0.5), T4 = force(g4, 'ink', 'Силы', 0.5);
   label('vec', '<i>W</i>', () => tip(W4, 0.04)); label('vec', '<i>F</i><sub>b</sub>', () => tip(Fb4, 0.05)); label('vec', '<i>T</i>', () => tip(T4, 0.05));
-  label('vec grey', '', () => ex(g4) > 0.5 ? cube.position.clone().add(V(0.32, BS / 2 + 0.08, 0)) : null, () => `${(st4.dTop > 0 ? M.RHO * M.G * st4.dTop * BS * BS : 0).toFixed(0)} N`);
-  label('vec grey', '', () => ex(g4) > 0.5 ? cube.position.clone().add(V(0.32, -BS / 2 - 0.1, 0)) : null, () => `${(M.RHO * M.G * Math.max(st4.dBot, 0) * BS * BS).toFixed(0)} N`);
+  label('vec grey', '', () => ex(g4) > 0.5 ? cube.position.clone().add(V(0.32, BS / 2 + 0.08, 0)) : null, () => `${(st4.dTop > 0 ? M.RHO * M.G * st4.dTop * BS * BS : 0).toFixed(0)} Н`);
+  label('vec grey', '', () => ex(g4) > 0.5 ? cube.position.clone().add(V(0.32, -BS / 2 - 0.1, 0)) : null, () => `${(M.RHO * M.G * Math.max(st4.dBot, 0) * BS * BS).toFixed(0)} Н`);
   let st4 = M.buoy(B.L0);
 
   // =====================================================================================
@@ -245,17 +245,17 @@ export function buildWorld(E) {
   const shipGhost = new THREE.Mesh(new THREE.BoxGeometry(SH.l, SH.draft, SH.w), shadeMat('blue', { opacity: 0.45 })); shipGhost.userData = { noEdge: true, home: V(SX, L5 - SH.draft / 2, 0), ex: V(0, 1.1, 0) }; g5.add(shipGhost);
   outline(shipGhost, shipGhost.geometry, [0, 0, 0], edgeMat);
   const fArrows = [];
-  const pair = (x, cy, fbY, W, Fb) => { const a = force(g5, 'ink', 'Forces', 0.6), b = force(g5, 'ink', 'Forces', 0.6); fArrows.push([a, V(x + 0.03, cy, 0.0), V(0, -W * SC.floatF, 0)], [b, V(x - 0.03, fbY, 0.0), V(0, Fb * SC.floatF, 0)]); return [a, b]; };
+  const pair = (x, cy, fbY, W, Fb) => { const a = force(g5, 'ink', 'Силы', 0.6), b = force(g5, 'ink', 'Силы', 0.6); fArrows.push([a, V(x + 0.03, cy, 0.0), V(0, -W * SC.floatF, 0)], [b, V(x - 0.03, fbY, 0.0), V(0, Fb * SC.floatF, 0)]); return [a, b]; };
   const fa = floaters.map(f => pair(f.x, f.y, f.fbY, f.W, f.Fb));
   const ballA = pair(BX5, BY5, BY5, M.BALL.W, M.BALL.Fb);
-  const ballN = force(g5, 'ink', 'Forces', 0.6); fArrows.push([ballN, V(BX5 + 0.1, 0.02, 0), V(0, M.BALL.N * SC.floatF, 0)]);
+  const ballN = force(g5, 'ink', 'Силы', 0.6); fArrows.push([ballN, V(BX5 + 0.1, 0.02, 0), V(0, M.BALL.N * SC.floatF, 0)]);
   const shipA = pair(SX, sy0 + 0.13, L5 - SH.draft / 2, SH.W, SH.Fb);
   for (const [a, b] of [...fa, ballA, shipA]) { label('vec', '<i>W</i>', () => tip(a, 0.05)); if (b !== ballA[1]) label('vec', '<i>F</i><sub>b</sub>', () => tip(b, 0.05)); }
   label('vec', '<i>F</i><sub>b</sub>', () => V(BX5 - 0.25, BY5 + 0.05, 0));
   label('vec', '<i>F</i><sub>N</sub>', () => tip(ballN, 0.05));
-  const pct = x => `${(100 * x).toFixed(0)}% under`;
-  label('mark', `wood · ${pct(M.WOOD.draft / M.WOOD.s)}`, () => V(X5 - 1.55, L5 + 0.5, 0));
-  label('mark', `ice · ${pct(M.ICE.draft / M.ICE.s)}`, () => V(X5 - 0.75, L5 + 0.5, 0));
+  const pct = x => `${(100 * x).toFixed(0)}% объёма под водой`;
+  label('mark', `дерево · ${pct(M.WOOD.draft / M.WOOD.s)}`, () => V(X5 - 1.55, L5 + 0.5, 0));
+  label('mark', `лёд · ${pct(M.ICE.draft / M.ICE.s)}`, () => V(X5 - 0.75, L5 + 0.5, 0));
   label('mark', 'стальной шар · тонет', () => V(BX5, L5 + 0.5, 0));
   label('mark', 'стальной корабль · держится на воде', () => V(SX, L5 + 0.5, 0));
 
@@ -270,7 +270,7 @@ export function buildWorld(E) {
   const rnd6 = rng(6), N6 = 650, HI6 = 70;
   const parts6 = Array.from({ length: N6 }, (_, k) => ({ u: k < HI6 ? 0.08 * k / HI6 : 0.08 + 0.92 * rnd6(), rf: 0.88 * Math.sqrt(rnd6()), th: 2 * Math.PI * rnd6() }));
   const dots6 = dots(pipe6, N6 - HI6, 'blue', 0.016), hot6 = dots(pipe6, HI6, 'ink', 0.018);
-  const v6a = force(g6, 'blue', 'Velocity', 0.7), v6b = force(g6, 'blue', 'Velocity', 0.7);
+  const v6a = force(g6, 'blue', 'Скорость', 0.7), v6b = force(g6, 'blue', 'Скорость', 0.7);
   label('vec blue', '<i>v</i><sub>1</sub>', () => tip(v6a, 0.06)); label('vec blue', '<i>v</i><sub>2</sub>', () => tip(v6b, 0.06));
   const discs6 = [[-1.8, F.r1, 'A₁'], [1.8, F.r2, 'A₂']].map(([x, r, name]) => {
     const d = part(g6, xAxis(cyl(r * 0.99, 0.01, 48)), { tone: 'hi', name: 'Поперечные сечения', mat: shadeMat('dark', { opacity: 0.55 }), pos: [X6 + x, PY6, 0], ex: [0, 1.0, 0] });
@@ -295,7 +295,7 @@ export function buildWorld(E) {
   BE.pts.forEach((p, k) => {
     const c = V(X7 + p.x, PY7 + p.y, 0);
     const out = [V(0, 1, 0), V(0, -1, 0)].map(n => { const a = small(g7, 'ink', 'Давление', 2.2); setArrow(a, c.clone().addScaledVector(n, p.r), n.clone().multiplyScalar(p.P * SC.bernP)); return a; });
-    const va = force(g7, 'blue', 'Velocity', 0.8); setArrow(va, c.clone().add(V(-p.v * SC.bernV / 2, 0, 0)), V(p.v * SC.bernV, 0, 0));
+    const va = force(g7, 'blue', 'Скорость', 0.8); setArrow(va, c.clone().add(V(-p.v * SC.bernV / 2, 0, 0)), V(p.v * SC.bernV, 0, 0));
     bArrows.push(out);
     label('mark', `${k + 1}`, () => V(c.x, c.y + p.r + p.P * SC.bernP + 0.16, 0));
     label('tick', `${(p.P / 1000).toFixed(0)} кПа`, () => V(c.x - 0.06, c.y - p.r - p.P * SC.bernP - 0.1, 0));
@@ -323,14 +323,14 @@ export function buildWorld(E) {
   const tankW8 = water(root, TK.w - 0.01, 1, TK.d - 0.01, [TX, 0, 0], 0.22);
   part(g8, xAxis(cyl(Math.sqrt(TK.a / Math.PI), 0.016, 24)), { tone: 'hi', pal: 'ink', pos: [HOLE_X + 0.002, TK.yh, 0], name: 'Отверстие' });
   const N8 = 90, dots8 = dots(root, N8, 'blue', 0.02), DT8 = 0.016;
-  const v8 = force(g8, 'blue', 'Velocity', 0.6);
-  label('vec blue', '', () => tip(v8, 0.12), () => `<i>v</i> = ${M.torricelli(h8).toFixed(2)} m/s`);
-  const hRod = thinRod(g8, 0.008, 'ink', 'Height h');
-  label('vec', '', () => V(TX - TK.w / 2 + 0.38, TK.yh + h8 / 2, TK.d / 2), () => `<i>h</i> = ${h8.toFixed(2)} m`);
+  const v8 = force(g8, 'blue', 'Скорость', 0.6);
+  label('vec blue', '', () => tip(v8, 0.12), () => `<i>v</i> = ${M.torricelli(h8).toFixed(2)} м/с`);
+  const hRod = thinRod(g8, 0.008, 'ink', 'Высота h');
+  label('vec', '', () => V(TX - TK.w / 2 + 0.38, TK.yh + h8 / 2, TK.d / 2), () => `<i>h</i> = ${h8.toFixed(2)} м`);
   const landMark = part(g8, cyl(0.06, 0.006, 24), { tone: 'hi', pal: 'ink', name: 'Точка падения струи' });
   label('tick', '', () => V(landMark.position.x + 0.5, 0.12, 0.3), () => `дальность ${M.jetRange(h8).toFixed(2)} м`);
   // opened: the jet's velocity split, on one drop of water
-  const vx8 = arrow(g8, 'dark', { r: 0.014, head: 0.08, headR: 0.04, name: 'Составляющие', tone: 'mid' }), vy8 = arrow(g8, 'dark', { r: 0.014, head: 0.08, headR: 0.04, name: 'Составляющие', tone: 'mid' }), vv8 = force(g8, 'blue', 'Velocity', 0.6);
+  const vx8 = arrow(g8, 'dark', { r: 0.014, head: 0.08, headR: 0.04, name: 'Составляющие', tone: 'mid' }), vy8 = arrow(g8, 'dark', { r: 0.014, head: 0.08, headR: 0.04, name: 'Составляющие', tone: 'mid' }), vv8 = force(g8, 'blue', 'Скорость', 0.6);
   label('vec grey', '<i>v</i><sub>x</sub>', () => ex(g8) > 0.5 ? tip(vx8, 0.06) : null); label('vec grey', '<i>v</i><sub>y</sub>', () => ex(g8) > 0.5 ? tip(vy8, 0.06) : null);
   const traj = new THREE.Line(new THREE.BufferGeometry(), new THREE.LineDashedMaterial({ color: '#8a8a8f', dashSize: 0.05, gapSize: 0.04 })); traj.userData = { noEdge: true }; traj.frustumCulled = false; root.add(traj);
   let h8 = TK.h0;
