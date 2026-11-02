@@ -635,7 +635,7 @@ Every study requires appropriate sampling design, replication, control of season
 5. UNESCO. **Man and the Biosphere Programme** — resources on biosphere reserves and society–ecosystem relations. https://www.unesco.org/en/mab
 6. Olson, D. M. et al. **Terrestrial Ecoregions of the World: A New Map of Life on Earth**. *BioScience*, 2001 — foundational reference for mapping terrestrial ecoregions. https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2
 7. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being: Synthesis** (2005) — links between ecosystem processes and human well-being. https://www.millenniumassessment.org/en/Synthesis.html
-8. Chapin, F. S. et al. **Principles of Terrestrial Ecosystem Ecology**. Springer — учебное изложение процессов и структуры наземных экосистем.
+8. Chapin, F. S., Matson, P. A., & Vitousek, P. M. (2011). *Principles of Terrestrial Ecosystem Ecology* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4419-9504-9
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
 
