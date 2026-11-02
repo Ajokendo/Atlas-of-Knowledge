@@ -521,7 +521,7 @@ The encyclopaedic section gives particular attention to all seven regions of Kyr
 3. National Geographic Society. *What Is Geography?* (Grades 6–12; updated 19 October 2023). https://education.nationalgeographic.org/resource/what-geography/
 4. United Nations Statistics Division. *Geospatial Information*. https://unstats.un.org/unsd/ggim/index.html
 5. International Cartographic Association (ICA) Working Group. *The Cartographic Body of Knowledge*. https://bok.cartography.no/
-6. Longley, P. A., Goodchild, M. F., Maguire, D. J., Rhind, D. W. *Geographic Information Science and Systems*. Wiley.
+6. Longley, P. A., Goodchild, M. F., Maguire, D. J., & Rhind, D. W. (2015). *Geographic Information Science and Systems* (4th ed.). Wiley. ISBN 978-1-118-67695-0.
 7. National Research Council. *Rediscovering Geography: New Relevance for Science and Society*. National Academies Press, 1997. https://doi.org/10.17226/4913
 
 Ссылки и библиографические сведения следует повторно проверить перед выпуском финальной редакции. Перечень служит стартовой научной и методической опорой, а не исчерпывающей библиографией.
