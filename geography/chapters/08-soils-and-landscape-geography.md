@@ -619,12 +619,12 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 
 1. IUSS Working Group WRB. **World Reference Base for Soil Resources**, 4th edition (2022; corrected 2024) — international soil classification system. https://wrb.isric.org/documents.html
 2. FAO and Intergovernmental Technical Panel on Soils. **Status of the World's Soil Resources** (2015) — first global assessment; updated global assessment: **Status of the World's Soil Resources 2026** (officially launched on 27 August 2026; DOI: https://doi.org/10.4060/ce0792en). https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/itps/status-of-the-worlds-soil-resources/en
-3. FAO. **Voluntary Guidelines for Sustainable Soil Management** (2017) — principles for sustainable soil management. https://www.fao.org/3/bl813e/bl813e.pdf
+3. FAO. **Voluntary Guidelines for Sustainable Soil Management** (2017) — voluntary technical recommendations for sustainable soil management. https://www.fao.org/land-water/home/voluntary-guidelines-for-sustainable-soil-management/
 4. USDA Natural Resources Conservation Service. **Soil Survey Manual** — methods for soil profile description and survey. https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual
 5. Intergovernmental Panel on Climate Change (IPCC). **Climate Change and Land: An IPCC Special Report** (2019) — links among land use, land degradation and climate change. https://www.ipcc.ch/srccl/
 6. United Nations Convention to Combat Desertification (UNCCD). **Global Land Outlook** — land status and sustainable-use scenarios. https://www.unccd.int/resources/global-land-outlook
 7. European Commission Joint Research Centre. **European Soil Data Centre (ESDAC)** — open soil data and mapping products. https://esdac.jrc.ec.europa.eu/
-8. Turner, M. G., Gardner, R. H., O'Neill, R. V. **Landscape Ecology in Theory and Practice: Pattern and Process**. Springer — базовый труд по пространственной структуре ландшафтов и экологическим процессам.
+8. Turner, M. G., Gardner, R. H., & O'Neill, R. V. (2001). *Landscape Ecology in Theory and Practice: Pattern and Process* (1st ed.). Springer. https://doi.org/10.1007/b97434
 
 **Примечание:** почвенные классификации, методы отбора проб и показатели деградации могут различаться между странами. В каждом практическом исследовании необходимо указывать применённую методику, глубину отбора проб, дату и источник данных.
 
