@@ -934,3 +934,13 @@ Older checkpoint entries below this note contain historical planning language th
 - Browser test commit: `fd56b843c09107a0cc73af9dbc6d8990c8a965de`. The 13 HTML changes were saved only under `biology/` on `workspace/biology`.
 - CI #612 (run ID `41498921178`) passed: 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons, 41 accessible dynamic output regions; all Chromium checks passed at mobile and desktop widths; 30 language-toggle interactions; no uncaught page errors; 21,471 preliminary text-contrast samples and zero below-threshold samples. The strengthened skip-link focus-destination assertion passed on all 13 pages.
 - Automated keyboard/accessibility phase remains **50%** pending hands-on NVDA, TalkBack, VoiceOver and physical-device/browser sessions. Controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No shared portal or other subject files were changed.
+
+
+## 2026-11-03 — keyboard Tab-sequence focus audit
+
+- Extended `biology/browser-smoke.mjs` to traverse the actual keyboard Tab sequence on each Biology page and check that every reached visible, enabled focusable control exposes a detectable focus indicator and matches `:focus-visible`.
+- Test commit: `950d402542b784275562ff5f3be31be4bdee71d2`.
+- CI #628 (run ID `41509485112`) passed. The structural suite confirmed 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Chromium browser smoke passed on all 13 pages at mobile and desktop widths, with 30 language-toggle interactions and no uncaught page errors. Preliminary contrast sampling: 21,471 text instances, zero below-threshold instances.
+- The keyboard Tab-sequence assertions ran as part of the passing Chromium smoke test. The test summary wording was clarified in follow-up commit `8efac4d19b9f475cd255387fdb96a0b44828e221` so it accurately describes sequence coverage rather than only the earlier first-focus check.
+- This remains automated Chromium evidence, not hands-on keyboard certification. Manual NVDA, TalkBack and VoiceOver sessions and physical-device/browser checks remain **Pending**.
+- Accessibility phase progress remains **50%**; controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No changes outside `biology/` on `workspace/biology`.
