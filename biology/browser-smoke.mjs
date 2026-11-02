@@ -336,6 +336,44 @@ try {
           }
         }
 
+        // Check that interactive model outputs are localised, not just their labels.
+        if (file.endsWith("/genetics.html")) {
+          await lang.click();
+          await page.locator('#template-controls [data-template="GGA"]').click();
+          const output = await page.locator("#rna-output").innerText();
+          if (!output.includes("Транскрипт РНК") || !output.includes("CCU")) {
+            errors.push(file + ": DNA-template model output is not correctly localised in Russian: " + output);
+          }
+          await lang.click();
+        }
+        if (file.endsWith("/biochemistry.html")) {
+          await lang.click();
+          await page.locator('#atp-controls [data-atp="hydrolysis"]').click();
+          const output = await page.locator("#atp-output").innerText();
+          if (!output.includes("АТФ + H₂O") || !output.includes("стандартных биохимических")) {
+            errors.push(file + ": ATP hydrolysis model output is not correctly localised in Russian: " + output);
+          }
+          await lang.click();
+        }
+        if (file.endsWith("/ecology.html")) {
+          await lang.click();
+          await page.locator('#nitrogen-controls [data-nitrogen="denitrification"]').click();
+          const output = await page.locator("#nitrogen-output").innerText();
+          if (!output.includes("Денитрификация") || !output.includes("N₂O")) {
+            errors.push(file + ": nitrogen-cycle model output is not correctly localised in Russian: " + output);
+          }
+          await lang.click();
+        }
+        if (file.endsWith("/systematics.html")) {
+          await lang.click();
+          await page.locator('#domain-controls [data-domain="archaea"]').click();
+          const output = await page.locator("#domain-output").innerText();
+          if (!output.includes("Археи") || !output.includes("прокариоты")) {
+            errors.push(file + ": domain model output is not correctly localised in Russian: " + output);
+          }
+          await lang.click();
+        }
+
         if (file.endsWith("/systematics.html")) {
           const nameControl = page.locator('#name-controls [data-name="human"]');
           const nameOutput = page.locator("#name-output");
