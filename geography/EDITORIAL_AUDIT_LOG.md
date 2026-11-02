@@ -1196,3 +1196,67 @@ The current marker additions are production instructions/placeholders only; no g
 
 
 - Chapter 04 supplemental source-validation checkpoint — 2 November 2026 (**95%; no percentage increase claimed**): independently rechecked key sources against the claims they support. USGS Fact Sheet 2004-3072 explicitly presents the Varnes-based movement scheme including falls, topples, slides, lateral spreads and flows; the current BGS educational summary uses four broader groups, consistent with the chapter's explanatory note. NPS *Delta Landforms* supports the sediment-supply versus wave/tidal redistribution explanation; NPS *Karst Landscapes* and *Speleothems* support the dissolution, aquifer-vulnerability and cave-formation statements. NOAA NCEI confirms ETOPO 2022's 15-arc-second grid and separate Ice Surface/Bedrock products; USGS confirms dataset-specific DEM projection, datum and resolution metadata. The 2021 Challenger Deep estimate (10,935 ± 6 m at 95% confidence) and 2026 preferred gridded estimate (10,927 m; 10,914–10,932 m sound-velocity sensitivity range, not a formal confidence interval) were checked against the papers/authoritative records. The Everest 8,848.86 m snow-surface value and IHRS basis were checked against the geodetic paper. The USACE base-level passage was located in the ERDC/CRREL report and confirms local base levels at larger rivers/resistant controls and ultimate sea-level base level. Remaining 5% is still reserved for exhaustive reconciliation of all 34 bibliography entries and final repository-integrity verification; this targeted source pass does not close that remaining work. No artwork, layout, browser/device or accessibility tests are claimed.
+
+
+## Final bibliography-to-claim reconciliation and branch integrity — 2 November 2026
+
+### Chapter 04 — all 34 bibliography entries reconciled
+
+The chapter's bibliography is explicitly titled “Sources and Further Reading / Источники и дальнейшее чтение”; it is a reading list rather than an inline numbered-citation system. A search of the Russian and English chapter text before the bibliography found no bracketed numeric citation markers. To avoid implying a citation format that the chapter does not use, the following matrix records the concrete claim or learning content each entry is intended to support. Broad reference works are identified as contextual/teaching support rather than as sole evidence for a numerical claim.
+
+| Ref. | Claim or content matched in Chapter 04 |
+|---:|---|
+| 1 | General geological mapping context for geological structure and the study of landforms (4.1–4.2); contextual reference, not sole support for a numerical statement. |
+| 2 | Global topography and bathymetry visualisation and the distinction between land elevation and ocean-floor depth (4.13–4.14). |
+| 3 | ETOPO 2022 model identity, 15-arc-second grid, global relief coverage and Ice Surface/Bedrock products (4.14.2). |
+| 4 | Access to elevation datasets and terrain-model data used in the practical mapping discussion (4.14); resource/teaching reference. |
+| 5 | Overview of geological processes underlying endogenic and exogenic landform development (4.2). |
+| 6 | Definition and basic interpretation of a digital elevation model (4.14.2). |
+| 7 | Point density, grid resolution, smoothing and artefacts in terrain datasets; supports the warning not to treat DEM resolution as equivalent to survey accuracy (4.14.2). |
+| 8 | General ocean-depth context and explanation of how ocean depth is measured/reported (4.13); not the primary source for Challenger Deep values. |
+| 9 | 2021 Challenger Deep estimate of 10,935 ± 6 m at 95% confidence below mean sea level (4.13 and bilingual scientific notes). |
+| 10 | Official 2020 China–Nepal announcement of Mount Qomolangma/Everest snow-surface elevation at 8,848.86 m (4.13); primary announcement source. |
+| 11 | Geographic distribution and mapping context for landslide hazards (4.11). |
+| 12 | Topographic-map teaching activities and interpretation tasks used in the practical assignment (4.14.3 and practical assignment). |
+| 13 | Recognition and interpretation of topographic features on maps (4.14.1 and practical assignment); educational support. |
+| 14 | Landform terminology and examples used across classification and landform sections (4.3–4.10); broad reference work. |
+| 15 | Glacial erosion and depositional landforms, including cirques, U-shaped valleys and glacial deposits (4.7). |
+| 16 | Relationship between geomorphology, sediment movement and habitat in fluvial environments (4.6). |
+| 17 | Varnes-based landslide movement classes: falls, topples, slides, lateral spreads and flows (4.11); technical classification source. |
+| 18 | Mass wasting as gravity-driven slope movement and the processes/factors discussed in the slope section (4.11). |
+| 19 | Physical, chemical and biological weathering context and examples (4.12). |
+| 20 | Plateaus and mesas as distinct elevated landforms and their characteristic morphology (4.5). |
+| 21 | IHRS-based Everest height treatment and the ±0.06 m uncertainty used alongside the official 8,848.86 m snow-surface value (4.13 and bilingual scientific notes). |
+| 22 | Sediment deposition, alluvial fans and coastal sediment accumulation (4.6 and 4.10). |
+| 23 | Barrier-island formation and the interaction of waves, currents and sediment supply on depositional coasts (4.10.2). |
+| 24 | Sandy-coast depositional forms and their morphology (4.10.2). |
+| 25 | Meander development and cutoff into an oxbow lake (4.6.2). |
+| 26 | 2026-published Challenger Deep multibeam study based on 2023 survey data: preferred gridded value 10,927 m in the eastern basin and sound-velocity-model sensitivity range 10,914–10,932 m; the paper does not claim a definitive redetermination (4.13 and bilingual scientific notes). |
+| 27 | Tibetan Plateau description and geographic context (4.5). |
+| 28 | Introductory explanation of landslides and slope-failure processes (4.11); accessible educational support. |
+| 29 | Karst formation by dissolution and characteristic features including sinkholes, sinking streams, caves and springs (4.9). |
+| 30 | Speleothems and the distinction between stalactites, stalagmites and columns (4.9). |
+| 31 | Karst aquifers, rapid groundwater pathways and vulnerability to contamination (4.9). |
+| 32 | Educational classification of landslide movement types; used alongside Ref. 17 to explain why some summaries group the five movement modes into four broader classes (4.11). |
+| 33 | Local base levels (larger rivers and resistant controls) versus ultimate sea-level base level, supporting the explanation of river incision and terraces (4.6.1). |
+| 34 | Delta landforms and the balance between river sediment supply and reworking by waves and tidal currents; supports the qualification that not every river mouth forms a delta (4.6.2). |
+
+**Reconciliation result:** all 34 entries have an identified role and a specific section or claim family. Primary numerical claims remain tied to the relevant primary/technical references (9, 10, 21 and 26); general teaching/reference entries are not represented as sole proof of numerical values. The bibliography remains a “Further Reading” list: no claim is made that inline citation markers were added.
+
+### Final numerical and terminology sweep
+
+- Rechecked the bilingual editorial notes against the chapter text: Everest is consistently identified as the 8,848.86 m snow-surface height, with the ±0.06 m uncertainty attributed to the IHRS geodetic paper; Challenger Deep's 2021 and 2026 estimates remain separate and method-qualified.
+- The 2026 Challenger Deep sensitivity interval (10,914–10,932 m) is explicitly a model-sensitivity range, not a formal confidence interval; 10,927 m is not presented as a definitive redetermination.
+- ETOPO 2022 remains identified as a 15-arc-second global model; the chapter distinguishes grid spacing from vertical accuracy and site-scale suitability.
+- Delta, base-level, karst, speleothem and landslide terminology remains aligned between Russian and English sections and illustration briefs.
+- Structural counts remain 36/36 numbered section headings, 16/16 matching bilingual illustration IDs and 34/34 consecutively numbered bibliography entries.
+
+### Repository integrity check
+
+- Re-read the active branch head: workspace/geography points to 12b71646b8e64c0e1b7a87c85e829e853b65bed2 before this log update; its commit diff contains only geography/EDITORIAL_AUDIT_LOG.md.
+- Inspected the recursive Git tree at that commit: the geography subtree contains 47 entries, including exactly 26 chapter Markdown files numbered 01–26, the assets/ and chapters/ directories, and no zero-byte blob or non-regular file.
+- Re-fetched all 26 chapter files from workspace/geography. Each returned blob SHA matched the corresponding Git-tree SHA; all 26 files were non-empty and contained no Unicode replacement character.
+- Re-fetched Chapter 04 independently: blob SHA ae23b60fbfcdc15cd42e0abf001a154e31db815c; 845 lines; 34 consecutive bibliography entries; no TODO/FIXME/TBD/source-needed markers or replacement characters.
+- The recursive tree response was not truncated. No files outside geography/ were changed by this audit.
+
+**Scope boundary:** this closes the remaining text-audit bibliography and repository-integrity tasks for Chapter 04 only. It does not certify illustrations, final layout, browser rendering, screen-reader testing or physical-device testing; those remain separate unfinished production/accessibility tasks.
