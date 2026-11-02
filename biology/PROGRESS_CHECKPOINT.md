@@ -914,3 +914,13 @@ Older checkpoint entries below this note contain historical planning language th
 - This is automated Chromium/axe evidence only. Manual NVDA, TalkBack and VoiceOver sessions, exhaustive keyboard traversal, and real physical-device/browser checks remain **Pending**.
 - Accessibility phase progress: **50%** (automated cross-page and model checks advanced; manual assistive-technology/device validation remains open). Controlled editorial readiness remains **95/100**, unchanged.
 - All 52 visual assets remain Deferred under `IMAGE_DISPOSITION_REGISTER.md`; no images were generated or integrated. No changes were made outside `biology/` on `workspace/biology`.
+
+
+## 2026-11-03 — full keyboard-smoke CI confirmation
+
+- Browser-smoke test correction: after reloading each page to isolate keyboard checks, the test now reinjects axe-core before the alternate-language WCAG audit. The preceding CI failure was caused by the test harness losing the injected axe script on reload, not by a reported page accessibility violation.
+- Test correction commit: `74495aa23fd21d0499c043b7c4030d95cbc99069`.
+- CI #611 (run ID `41487062767`) passed. Structural checks: 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Chromium checks passed across all 13 pages at mobile and desktop widths, with 30 language-toggle interactions and no uncaught page errors. The configured axe-core WCAG 2.0/2.1 A/AA and WCAG 2.2 AA checks passed. Preliminary contrast sampling: 21,471 text instances, zero below-threshold instances.
+- Keyboard checks exercised skip-link focus visibility and Enter activation, individual visible controls' focusability and Tab/Shift+Tab exit-and-return behavior, document-level forward/reverse traversal, representative Enter/Space model activation, focus indicators, and ArrowLeft/ArrowRight scrolling for overflowed named table regions.
+- These results are automated Chromium checks, not a claim of exhaustive manual keyboard usability or screen-reader support. NVDA, TalkBack and VoiceOver sessions and physical-device/browser checks remain **Pending**.
+- Accessibility phase progress remains **50%**; this CI confirms the automated scope but does not close the manual validation stage. Controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No changes outside `biology/` on `workspace/biology`.
