@@ -254,13 +254,13 @@ export function buildWorld(E) {
   wire(gP, [V(xp + 0.11, ty5, 0), V(xp + 1.4, ty5, 0), V(xp + 1.4, by5, 0), V(xp + 0.35, by5, 0)]);
   wire(gP, [V(xp - 1.4, my5, 0), V(xp - 0.11, my5, 0)]); wire(gP, [V(xp + 0.11, my5, 0), V(xp + 1.4, my5, 0)]);
   for (const [x, g] of [[xs, gS], [xp, gP]]) {
-    label('tick', '9 V', () => V(x + 0.2, by5 - 0.32, 0));
+    label('tick', '9 В', () => V(x + 0.2, by5 - 0.32, 0));
     label('vec red', '<span style="font-size:17px">+</span>', () => V(x - 0.48, by5 + 0.24, 0)); label('vec blue', '<span style="font-size:17px">−</span>', () => V(x + 0.46, by5 + 0.24, 0));
   }
   const capLab = (g, x, y, C, Q, Vv, below = false) => {
     const ly = below ? y - capSide(C * 1e-6) / 2 - 0.2 : y + capSide(C * 1e-6) / 2 + 0.2;
-    label('tick', `${C} µF`, () => opened(g) > 0.5 ? null : V(x + 0.24, ly, 0));
-    label('tick', `${C} µF · ${(Q * 1e6).toFixed(0)} µC · ${Vv.toFixed(0)} V`, when(g, () => V(x + 0.75, ly, 0)));
+    label('tick', `${C} мкФ`, () => opened(g) > 0.5 ? null : V(x + 0.24, ly, 0));
+    label('tick', `${C} мкФ · ${(Q * 1e6).toFixed(0)} мкКл · ${Vv.toFixed(0)} В`, when(g, () => V(x + 0.75, ly, 0)));
   };
   capLab(gS, xs - 0.6, ty5, 2, M.SER.Q1, M.SER.V1); capLab(gS, xs + 0.6, ty5, 4, M.SER.Q2, M.SER.V2);
   capLab(gP, xp, ty5, 2, M.PAR.Q1, M.PAR.V1); capLab(gP, xp, my5, 4, M.PAR.Q2, M.PAR.V2, true);
