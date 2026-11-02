@@ -696,7 +696,7 @@ For an atlas:
 
 Particular care is needed with the names of mountain ranges, passes, glaciers, rivers, lakes and settlements. Transliteration errors can create non-existent features on a map or cause the same feature to be labelled more than once.
 
-## 17.14а. Разобранный пример: абсолютная и относительная высота / Worked Example: Absolute and Relative Elevation
+## 17.14.1. Разобранный пример: абсолютная и относительная высота / Worked Example: Absolute and Relative Elevation
 
 Рассмотрим условный профиль горной долины. Высота точки на дне долины составляет 1 800 м над средним уровнем моря, а высота соседнего перевала — 3 200 м.
 
@@ -730,7 +730,7 @@ This is a hypothetical example, not a measurement of a specific Kyrgyz pass. Whe
 
 **Check your understanding:** if a summit has an absolute elevation of 4,100 m and the neighbouring valley is at 2,650 m, what is the summit's elevation above the valley?
 
-### 17.14.1. Как читать геологическую карту Кыргызстана / Reading a Geological Map of Kyrgyzstan
+### 17.14.2. Как читать геологическую карту Кыргызстана / Reading a Geological Map of Kyrgyzstan
 
 Геологическая карта показывает распространение пород и структур на поверхности или под тонким покровом рыхлых отложений. Цвета обычно обозначают возраст или тип пород, линии — границы геологических тел, разломы и другие структуры. Значение символов проверяют по легенде конкретной карты.
 
@@ -748,7 +748,7 @@ In the mountains of Kyrgyzstan, geological maps are compared with relief, seismi
 
 **Activity.** Use a teaching geological map to identify three rock units and one fault. Explain what the map tells you and which conclusions require additional evidence.
 
-### 17.14.2. Как проверять географические названия на карте / Verifying Geographical Names on a Map
+### 17.14.3. Как проверять географические названия на карте / Verifying Geographical Names on a Map
 
 Географическое название — не просто подпись на карте. У одного объекта могут существовать официальная форма, варианты на разных языках, исторические названия и местные варианты произношения. Ошибка в названии может привести к путанице при поиске данных, навигации и административном учёте.
 
