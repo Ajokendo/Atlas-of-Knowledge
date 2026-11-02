@@ -623,7 +623,7 @@ These scenarios are not forecasts. They are analytical frameworks for comparing 
 | Cities | Public-transport access, air quality and sewerage coverage |
 | Natural capital | Condition of pastures, forests, rivers and disturbed land |
 
-### 25.11.1. Worked example: comparing transport routes
+### Worked example: comparing transport routes
 
 A company transports 12 tonnes of cargo from City A to City B. Two hypothetical routes are available:
 
