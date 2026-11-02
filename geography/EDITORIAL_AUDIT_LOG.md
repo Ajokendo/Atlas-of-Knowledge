@@ -1667,3 +1667,29 @@ All changed files were re-fetched after writing. Numbered subsection checks show
 - The five chapters in this block retain 70 illustration/map placeholders (10 + 12 + 12 + 12 + 24).
 - Still separate and unfinished: creation of visuals; final cartographic/legal-boundary validation; consistent bibliography and citation formatting; full cross-chapter terminology/date consistency sweep; browser rendering and interactive behaviour; screen-reader/manual accessibility testing; physical-device testing; and final integrated release checks.
 - Next work should therefore be a cross-chapter consistency and evidence-closure pass, followed by the remaining visual, technical and accessibility work. Do not report those stages as complete until actually tested.
+
+
+## Cross-chapter consistency sweep — milestone 20% (Chapters 01–05) — 2 November 2026
+
+**Scope:** First five of 26 chapters in a new cross-chapter consistency pass, begun after completion of the systematic chapter audit. This percentage is separate from the 100% systematic text-audit milestone above.
+
+### Checks completed
+
+- Confirmed all five files contain Russian and English instructional content; reviewed chapter objectives/structure, key terms, practical examples and bibliography entry points.
+- Compared the definition of the geographic envelope in Chapter 02 with the lithosphere definitions in Chapter 03. Both distinguish the lithosphere from the crust and describe it as the crust plus the mechanically rigid uppermost mantle; no contradiction found.
+- Compared the atmospheric composition table in Chapter 02 with Chapter 05. Both give dry-air values of 78.08% nitrogen, 20.95% oxygen, 0.93% argon and approximately 0.0426% CO₂ (425.6 ppm, NOAA preliminary 2025 global annual mean). The variable water-vapour content is excluded from the dry-air composition. Values are aligned.
+- Checked the weathering/erosion distinction across Chapters 03 and 04. Chapter 04 explicitly defines weathering as in-place breakdown/alteration without necessary transport and distinguishes it from erosion and material transfer; Chapter 03 uses the same process sequence in its rock-cycle explanation. No scientific contradiction found.
+- Reviewed the slope-process terminology and classification in Chapter 04. The chapter identifies the adopted Varnes-style five movement types and explains why some introductory classifications group them into four broader categories; it does not present the two schemes as interchangeable without explanation.
+- Checked the map-scale worked example in Chapter 01, the vegetation-change example in Chapter 02, the relative-age example in Chapter 03, the contour-slope example in Chapter 04 and the climate-graph example in Chapter 05 for their stated assumptions and instructional purpose.
+- Confirmed the chapters' map/illustration instructions are marked as briefs/placeholders rather than falsely described as completed artwork.
+
+### Editorial observation
+
+- Chapters 01, 02 and 05 generally combine Russian and English in one heading or provide an unnumbered English translation heading; Chapters 03 and 04 contain separately numbered language sections in parts of the chapter. This is a presentation/anchor convention difference, not a scientific error. No mass heading rewrite was made because it would alter established anchors without a demonstrated learning or navigation benefit. A later site-wide heading/anchor policy can decide whether to standardise this.
+- No text edits were necessary in this five-chapter cross-check block.
+
+### Status
+
+- Cross-chapter consistency sweep: **5/26 chapters ≈ 20%**.
+- Next block: Chapters 06–10, with attention to consistent definitions and units for hydrology, biosphere/ecology, soils, population and political geography.
+- This cross-chapter pass does not replace the completed chapter-by-chapter audit, external scientific review, final visual production or technical/accessibility testing.
