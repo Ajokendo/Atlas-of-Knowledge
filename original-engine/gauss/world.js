@@ -208,7 +208,7 @@ export function buildWorld(E) {
   function sphereScene(key, X, kind, meta) {
     const c = V(X, Y, 0), g = asm(key, root, meta);
     const mats = [fadeMat(kind === 'c' ? 'base' : 'paper'), fadeMat(kind === 'c' ? 'dark' : 'base')];
-    part(g, new THREE.SphereGeometry(R1, 64, 40, WEDGE[1], 2 * Math.PI - (WEDGE[1] - WEDGE[0])), { tone: 'hi', name: kind === 'c' ? 'Metal sphere' : 'Insulating sphere', mat: mats[0], pos: c.toArray() });
+    part(g, new THREE.SphereGeometry(R1, 64, 40, WEDGE[1], 2 * Math.PI - (WEDGE[1] - WEDGE[0])), { tone: 'hi', name: kind === 'c' ? 'Металлическая сфера' : 'Диэлектрическая сфера', mat: mats[0], pos: c.toArray() });
     for (const ph of WEDGE) {
       for (const f of twoSided(g, new THREE.CircleGeometry(R1, 40, -Math.PI / 2, Math.PI), { tone: 'hi', name: 'Сечение', mat: mats[1], pos: c.toArray() })) f.rotation.y = Math.PI + ph;
     }
