@@ -166,6 +166,62 @@ for (const file of htmlFiles) {
   }
 }
 
+// Scientific and bilingual editorial evidence for foundational chapters.
+const chapterEvidence = [
+  ["chapters/atomic-structure.html", [
+    ["atomic number defines element in Russian", "Число протонов Z определяет порядковый номер элемента"],
+    ["atomic number defines element in English", "The number of protons Z defines the element's atomic number"],
+    ["atomic diagram limitation in Russian", "Электроны не движутся по таким круговым дорожкам"],
+    ["atomic diagram limitation in English", "Electrons do not travel along fixed circular tracks"],
+    ["first-20 shell model qualification in Russian", "для первых 20 элементов"],
+    ["first-20 shell model qualification in English", "for the first 20 elements"]
+  ]],
+  ["chapters/chemical-bonding.html", [
+    ["ionic lattice is not isolated ion pairs in Russian", "это не отдельная пара ионов"],
+    ["ionic lattice is not isolated ion pairs in English", "the ions are not isolated pairs"],
+    ["bond and molecular polarity distinction in Russian", "Полярность отдельной связи и полярность всей молекулы"],
+    ["bond and molecular polarity distinction in English", "The polarity of an individual bond is not the same as the polarity of an entire molecule"],
+    ["CO2 and H2O geometry contrast in Russian", "в линейной молекуле CO₂ они компенсируются"],
+    ["CO2 and H2O geometry contrast in English", "in linear CO₂ they cancel"]
+  ]],
+  ["chapters/acids-and-bases.html", [
+    ["pH temperature qualification in Russian", "при другой температуре нейтральное значение pH может отличаться"],
+    ["pH temperature qualification in English", "at other temperatures, neutral pH can differ"],
+    ["pH outside textbook range in Russian", "могут выходить за его пределы"],
+    ["pH outside textbook range in English", "can have values outside it"],
+    ["acid strength differs from concentration in Russian", "Сила кислоты не то же самое, что концентрация"],
+    ["acid strength differs from concentration in English", "Acid strength is not the same as concentration"],
+    ["buffer approximation limits in Russian", "обе формы сопряжённой пары присутствуют в заметных количествах"],
+    ["buffer approximation limits in English", "both forms of the conjugate pair are present in appreciable amounts"],
+    ["finite buffer capacity in Russian", "буферная ёмкость исчерпывается"],
+    ["finite buffer capacity in English", "exhausts the buffer capacity"]
+  ]],
+  ["chapters/solutions.html", [
+    ["final solution volume in Russian", "V — конечный объём раствора"],
+    ["final solution volume in English", "V is the final volume of the solution"],
+    ["Henry's law partial pressure in Russian", "повышение парциального давления газа"],
+    ["Henry's law partial pressure in English", "increasing a gas’s partial pressure"],
+    ["dissolution rate differs from solubility in Russian", "Она не равна скорости растворения"],
+    ["dissolution rate differs from solubility in English", "It is not the same as the rate of dissolving"],
+    ["stirring does not alter equilibrium solubility in Russian", "сами по себе не меняют равновесную растворимость"],
+    ["stirring does not alter equilibrium solubility in English", "by themselves do not change equilibrium solubility"],
+    ["Qsp versus Ksp and nucleation caveat in Russian", "хотя зародышеобразование может задержать его появление"],
+    ["Qsp versus Ksp and nucleation caveat in English", "although nucleation may delay its appearance"]
+  ]],
+  ["chapters/amount-of-substance.html", [
+    ["mole exact entity count in Russian", "Один моль содержит ровно Nₐ заданных элементарных объектов"],
+    ["mole exact entity count in English", "One mole contains exactly Nₐ specified elementary entities"],
+    ["particle identity depends on substance in Russian", "молекулы, атомы, ионы или формульные единицы"],
+    ["particle identity depends on substance in English", "molecules, atoms, ions or formula units"]
+  ]]
+];
+for (const [relative, evidenceList] of chapterEvidence) {
+  const source = fs.readFileSync(path.join(root, relative), "utf8");
+  for (const [label, evidence] of evidenceList) {
+    if (!source.includes(evidence)) errors.push(relative + ": missing or changed " + label);
+  }
+}
+
 const redoxSource = fs.readFileSync(path.join(root, "chapters/redox.html"), "utf8");
 for (const [label, evidence] of [
   ["oxygen difluoride exception", "OF₂"],
