@@ -775,6 +775,12 @@ try {
         errors.push(file + ": no visible keyboard targets were exercised");
       }
 
+      // Reset focus after direct per-control checks, then verify document-level Tab entry.
+      await page.evaluate(() => {
+        const active = document.activeElement;
+        if (active instanceof HTMLElement) active.blur();
+        window.scrollTo(0, 0);
+      });
       // Confirm keyboard navigation can enter, advance through, and reverse between controls.
       await page.keyboard.press("Tab");
       const firstFocus = await page.evaluate(() => {
