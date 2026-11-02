@@ -152,6 +152,16 @@ for (const chapter of coreChapters) {
     if (new Set(ruPositions).size < 2) errors.push("chapters/" + chapter + ": correct quiz answers must not occupy the same position in every question");
   }
 }
+const interactiveModelChapters = ["genetics.html", "biochemistry.html", "ecology.html", "systematics.html"];
+for (const chapter of interactiveModelChapters) {
+  const html = fs.readFileSync(path.join(root, "chapters", chapter), "utf8");
+  if (!html.includes("quizAnswered?' disabled aria-pressed=\"'+String(i===lastAnswer)+'\":''")) {
+    errors.push("chapters/" + chapter + ": answered quiz choices must be disabled and the selected choice exposed with aria-pressed");
+  }
+  if (chapter === "genetics.html" && !html.includes("render();renderQuiz();")) {
+    errors.push("chapters/genetics.html: quiz controls must be initialized on first page load");
+  }
+}
 for (const chapter of coreChapters) {
   const file = path.join(root, "chapters", chapter);
   const html = fs.readFileSync(file, "utf8");
