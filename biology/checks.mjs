@@ -139,7 +139,7 @@ for (const chapter of coreChapters) {
   }
   const quizBank = html.match(/const quizBank\s*=\s*\{([\s\S]*?)\};/);
   const ruBank = quizBank && quizBank[1].match(/ru:\s*\[([\s\S]*?)\],\s*en:\s*\[/);
-  const enBank = quizBank && quizBank[1].match(/en:\s*\[([\s\S]*?)\]\s*\}/);
+  const enBank = quizBank && quizBank[1].match(/en:\s*\[([\s\S]*?)\]\s*$/);
   const answerPositions = block => [...block.matchAll(/\bc:(\d)\b/g)].map(match => Number(match[1]));
   if (!ruBank || !enBank) {
     errors.push("chapters/" + chapter + ": bilingual quiz banks must be present");
