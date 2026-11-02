@@ -209,9 +209,9 @@ const chapterEvidence = [
     ["Qsp versus Ksp and nucleation caveat in English", "although nucleation may delay its appearance"]
   ]],
   ["chapters/amount-of-substance.html", [
-    ["mole exact entity count in Russian", "Один моль содержит ровно Nₐ заданных элементарных объектов"],
+    ["mole exact entity count in Russian", "Один моль содержит ровно Nₐ заданных элементарных сущностей"],
     ["mole exact entity count in English", "One mole contains exactly Nₐ specified elementary entities"],
-    ["particle identity depends on substance in Russian", "молекулы, атомы, ионы или формульные единицы"],
+    ["particle identity depends on substance in Russian", "молекул, атомов, ионов или формульных единиц"],
     ["particle identity depends on substance in English", "molecules, atoms, ions or formula units"]
   ]]
 ];
