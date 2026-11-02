@@ -285,6 +285,43 @@ try {
           }
         }
         await lang.click();
+
+        // Exercise every chapter quiz: lock one answer, preserve feedback across
+        // language changes, then confirm that advancing unlocks the next question.
+        const quizNext = page.locator("#quiz-next");
+        const quizAnswers = page.locator("#answers button");
+        if (await quizNext.count() && await quizAnswers.count()) {
+          if (!(await quizAnswers.first().isDisabled())) await quizAnswers.first().click();
+          const answeredStates = await quizAnswers.evaluateAll(elements => elements.map(el => ({
+            disabled: el.disabled,
+            pressed: el.getAttribute("aria-pressed")
+          })));
+          if (answeredStates.some(x => !x.disabled) ||
+              answeredStates.filter(x => x.pressed === "true").length !== 1) {
+            errors.push(file + ": quiz choices must lock after one answer and expose exactly one selected choice");
+          }
+          const feedbackBeforeSwitch = (await page.locator("#result").innerText()).trim();
+          await lang.click();
+          const feedbackAfterSwitch = (await page.locator("#result").innerText()).trim();
+          const translatedStates = await page.locator("#answers button").evaluateAll(elements => elements.map(el => ({
+            disabled: el.disabled,
+            pressed: el.getAttribute("aria-pressed")
+          })));
+          if (!feedbackAfterSwitch || feedbackAfterSwitch === feedbackBeforeSwitch ||
+              translatedStates.some(x => !x.disabled) ||
+              translatedStates.filter(x => x.pressed === "true").length !== 1) {
+            errors.push(file + ": quiz feedback or selected-answer lock was not preserved in the alternate language");
+          }
+          await lang.click();
+          await quizNext.click();
+          const nextQuestionStates = await page.locator("#answers button").evaluateAll(elements => elements.map(el => ({
+            disabled: el.disabled,
+            pressed: el.getAttribute("aria-pressed")
+          })));
+          if (nextQuestionStates.some(x => x.disabled || x.pressed !== null)) {
+            errors.push(file + ": advancing the quiz must unlock all choices and clear the previous selection");
+          }
+        }
         languageChecks++;
 
         if (file.endsWith("/index.html")) {
