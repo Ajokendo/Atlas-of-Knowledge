@@ -152,6 +152,8 @@ try {
 
       // Reload before keyboard checks so prior scripted focus/clicks cannot contaminate them.
       await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
+      // Reload clears injected scripts; restore axe before the language-state audit below.
+      await page.addScriptTag({ path: path.resolve("node_modules/axe-core/axe.min.js") });
       // Every page must provide a working, keyboard-reachable skip link to its main content.
       const skipLink = page.locator("a.skip-link").first();
       if (!(await skipLink.count())) {
