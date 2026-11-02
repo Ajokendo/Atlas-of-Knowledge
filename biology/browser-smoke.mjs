@@ -734,6 +734,48 @@ try {
         " visible interactive control(s) have accessible-name/keyboard-semantics issues: " +
         JSON.stringify(nameIssues));
 
+      // Every visible native/custom interactive control must be keyboard focusable,
+      // and Tab / Shift+Tab must be able to leave and return to it (no local keyboard trap).
+      const keyboardTargets = page.locator("button, a[href], input, select, textarea, [role='button'], [tabindex]:not([tabindex='-1'])");
+      const keyboardTargetCount = await keyboardTargets.count();
+      let keyboardTargetsChecked = 0;
+      for (let targetIndex = 0; targetIndex < keyboardTargetCount; targetIndex++) {
+        const target = keyboardTargets.nth(targetIndex);
+        const targetState = await target.evaluate(el => {
+          const style = getComputedStyle(el);
+          return {
+            visible: style.display !== "none" && style.visibility !== "hidden" &&
+              style.visibility !== "collapse" && el.getClientRects().length > 0,
+            enabled: !el.disabled && el.getAttribute("aria-disabled") !== "true",
+            tabIndex: el.tabIndex
+          };
+        });
+        if (!targetState.visible || !targetState.enabled || targetState.tabIndex < 0) continue;
+        await target.focus();
+        const receivedFocus = await target.evaluate(el => document.activeElement === el);
+        if (!receivedFocus) {
+          errors.push(file + ": visible interactive control " + targetIndex +
+            " cannot receive keyboard focus (tabIndex " + targetState.tabIndex + ")");
+          continue;
+        }
+        await page.keyboard.press("Tab");
+        const movedForward = await target.evaluate(el => document.activeElement !== el &&
+          document.activeElement !== document.body && document.activeElement !== document.documentElement);
+        if (!movedForward) {
+          errors.push(file + ": Tab could not move away from interactive control " + targetIndex);
+          continue;
+        }
+        await page.keyboard.press("Shift+Tab");
+        const returned = await target.evaluate(el => document.activeElement === el);
+        if (!returned) {
+          errors.push(file + ": Shift+Tab did not return to interactive control " + targetIndex);
+        }
+        keyboardTargetsChecked++;
+      }
+      if (!keyboardTargetsChecked) {
+        errors.push(file + ": no visible keyboard targets were exercised");
+      }
+
       // Confirm keyboard navigation can enter, advance through, and reverse between controls.
       await page.keyboard.press("Tab");
       const firstFocus = await page.evaluate(() => {
