@@ -1573,8 +1573,8 @@ Each modified chapter was fetched again after writing and its complete content m
 
 ### Corrections saved
 
-1. `geography/chapters/17-geographic-location-and-geological-evolution-of-kyrgyzstan.md` — standardised section 17.14 numbering and removed duplicate numbering from the English border subsection. Commits: `43ed642bbe90ad85b74607d95429e49a0bc09e44` and `a911a52a7cee51b51c4d1edf865b74a3b3b72de7`.
-2. `geography/chapters/20-glaciers-rivers-lakes-and-water-resources-of-kyrgyzstan.md` — corrected duplicate subsection labels, removed repeated English heading numbers and removed the duplicate 2026 glacial-lake bibliography entry; remaining references renumbered 1–22. Commit: `45d6a47f967feaa1e798d9290cc194c5010fb5db`.
+1. `geography/chapters/17-geographic-location-and-geological-evolution-of-kyrgyzstan.md` — standardised section 17.14 numbering and removed duplicate numbering from the English border subsection. Commits: `6ce2c6a0338909e82ebe3b25342501f880a35ecc` and `a911a52a7cee51b51c4d1edf865b74a3b3b72de7`.
+2. `geography/chapters/20-glaciers-rivers-lakes-and-water-resources-of-kyrgyzstan.md` — corrected duplicate subsection labels, removed repeated English heading numbers and removed the duplicate 2026 glacial-lake bibliography entry; remaining references renumbered 1–22. Commit: `c31ddb237471c761242888d9fa1db201778c4781`.
 3. `geography/chapters/21-flora-and-fauna-of-kyrgyzstan.md` — added the 2026 national snow leopard assessment to the references. Commit: `dec29e7ce2c42d9fcf8f73eb667f021e9e440212`.
 4. Chapters 18 and 19 — no text changes were required in this block.
 
