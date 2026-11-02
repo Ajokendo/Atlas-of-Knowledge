@@ -143,7 +143,7 @@ export function buildWorld(E) {
   label('vec', 'F<sub>A</sub>', () => tip(fA)); label('vec', 'F<sub>B</sub>', () => tip(fB)); label('vec red', 'ΣF', () => tip(fN));
   label('tick', '<i>q</i><sub>0</sub>', () => q0.getWorldPosition(V()).add(V(0.05, -0.3, 0)));
   label('tick', 'A', () => V(LX(0) + 0.05, Y3 - 0.45, 0)); label('tick', 'B', () => V(LX(M.LINE.D) + 0.05, Y3 - 0.45, 0));
-  label('tick', `x<sub>eq</sub> = ${(M.LINE.xEq * 100).toFixed(0)} cm`, () => ex(gL) > 0.5 ? V(LX(M.LINE.xEq) + 0.55, Y3 - 0.5, 0) : null);
+  label('tick', `x<sub>eq</sub> = ${(M.LINE.xEq * 100).toFixed(0)} см`, () => ex(gL) > 0.5 ? V(LX(M.LINE.xEq) + 0.55, Y3 - 0.5, 0) : null);
 
   // ---------- 4 · the field of a point charge ----------
   const X4 = STATIONS.field, CP = V(X4 - 3.7, 0.4, 0), CN = V(X4 + 3.7, 0.4, 0);
