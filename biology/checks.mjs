@@ -103,13 +103,13 @@ for (const file of pages) {
   const html = fs.readFileSync(file, "utf8");
   const rel = path.relative(root, file);
   const dynamicIds = new Set(["result", "feedback", "org-info", "photo-status"]);
-  for (const match of html.matchAll(/<([a-z][\\w:-]*)\\b([^>]*\\bid=["']([^"']+)["'][^>]*)>/gi)) {
+  for (const match of html.matchAll(/<([a-z][\w:-]*)\b([^>]*\bid=["']([^"']+)["'][^>]*)>/gi)) {
     const id = match[3];
     if (!id.endsWith("-output") && !dynamicIds.has(id)) continue;
     dynamicRegions++;
     const attrs = match[2];
-    const live = attrs.match(/\\baria-live=["'](polite|assertive)["']/i);
-    const role = attrs.match(/\\brole=["'](status|alert)["']/i);
+    const live = attrs.match(/\baria-live=["'](polite|assertive)["']/i);
+    const role = attrs.match(/\brole=["'](status|alert)["']/i);
     if (!live && !role) {
       errors.push(rel + ": dynamic region #" + id + " lacks aria-live=polite/assertive or role=status/alert");
     }
