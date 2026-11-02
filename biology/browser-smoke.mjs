@@ -150,6 +150,8 @@ try {
         if (!label) errors.push(file + ": chapter navigation landmark has no accessible name");
       }
 
+      // Reload before keyboard checks so prior scripted focus/clicks cannot contaminate them.
+      await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
       // Every page must provide a working, keyboard-reachable skip link to its main content.
       const skipLink = page.locator("a.skip-link").first();
       if (!(await skipLink.count())) {
@@ -169,8 +171,10 @@ try {
               rect.width > 0 && rect.height > 0 && rect.top >= 0;
           });
           if (!visibleOnFocus) errors.push(file + ": skip link is not visibly revealed on keyboard focus");
-          await page.keyboard.press("Enter");
-          if (new URL(page.url()).hash !== target) {
+          await skipLink.press("Enter");
+          try {
+            await page.waitForFunction(expected => location.hash === expected, target, { timeout: 1000 });
+          } catch {
             errors.push(file + ": Enter did not activate skip link to " + target);
           }
         }
@@ -775,12 +779,8 @@ try {
         errors.push(file + ": no visible keyboard targets were exercised");
       }
 
-      // Reset focus after direct per-control checks, then verify document-level Tab entry.
-      await page.evaluate(() => {
-        const active = document.activeElement;
-        if (active instanceof HTMLElement) active.blur();
-        window.scrollTo(0, 0);
-      });
+      // Start document-level traversal from a clean page with no scripted focus history.
+      await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
       // Confirm keyboard navigation can enter, advance through, and reverse between controls.
       await page.keyboard.press("Tab");
       const firstFocus = await page.evaluate(() => {
