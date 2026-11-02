@@ -1498,3 +1498,91 @@ Each modified chapter was fetched again after writing and its complete content m
 - The milestone reflects the completed text/editorial audit of this five-chapter block. It is not an independent scientific peer review or a declaration of final publication readiness.
 - Next block: Chapters 17–21, preserving the same 20-percentage-point reporting cadence.
 - Artwork, final layout, browser rendering, screen-reader testing and physical-device testing remain separate unfinished tasks and are not included in this text-audit percentage.
+
+
+## Systematic editorial audit — milestone 80% (Chapters 17–21) — 2 November 2026
+
+**Working branch:** `workspace/geography`  
+**Scope:** Chapters 17–21, the fourth five-chapter block in the 25-chapter systematic audit. With Chapters 01–03, 05–16 already covered, this brings the systematic audit to **20/25 chapters = 80%** of the outstanding chapter set. Chapter 04 remains separately audited; this percentage is not the readiness percentage of the complete atlas.
+
+### Standards and scope control
+
+- Re-read `PROJECT_REGISTRY.md` and `EDITORIAL_STANDARD.md` from `atlas-of-knowledge-integration` before continuing this work.
+- Confirmed the starting HEAD of `workspace/geography` was `63c235172069ece60f41da6b614f91a2217ed1b5`.
+- Worked only in `geography/` on `workspace/geography`. No other discipline, portal, catalogue, integration or publishing files were edited.
+- Read all five chapter files and checked section structure, Russian/English content, worked examples, calculations, scientific notes, source lists, maps/illustration briefs and date-sensitive national data.
+
+### Chapter findings
+
+#### Chapter 17 — Geographic Location and Geological Evolution of Kyrgyzstan
+
+- Confirmed a substantial bilingual chapter covering location, area, geographic extremes, elevation, Tien Shan and Pamir–Alay, geological history, tectonics, seismicity, resources, borders, administrative organisation, toponyms and cartographic standards.
+- Checked the area statement: 199,951 km² rounds to 199.9 thousand km² at one decimal place; the chapter correctly distinguishes exact source precision from rounded reference values.
+- Reviewed summit-elevation caveats, especially the distinction between Khan Tengri's rocky summit (about 6,995 m) and the ice-cap surface (about 7,010 m). The text appropriately requires source and measurement-convention checks before final mapping.
+- Checked the relative-elevation example: 3,200 m − 1,800 m = 1,400 m. It correctly distinguishes elevation difference from the length and profile of a real route.
+- Reviewed the border section's distinction between delimitation, ratification, entry into force and physical demarcation. It uses dated references for the 2025 Kyrgyz–Tajik border treaty and the 2026 start of pillar installation; the map must identify which legal/technical stage it depicts.
+- Normalised the inserted worked-example heading from the non-standard `17.14а` to `17.14.1`, shifting the two following subsections to `17.14.2` and `17.14.3`. Removed a repeated numeric prefix from the English translation heading under 17.12.1.
+- Sixteen references cover official national area and legal sources, geological studies, topographic/geodetic systems and geographic names. The chapter appropriately marks extreme-point coordinates and border measurements for final official-source verification.
+
+#### Chapter 18 — Geology, Mountain Systems and Relief of Kyrgyzstan
+
+- Confirmed bilingual coverage of mountain systems, geological structure, rock types, weathering, erosion, glacial and fluvial landforms, slope processes, relief hazards and mineral resources.
+- Checked the slope-gradient example: elevation difference 600 m over 3,000 m horizontal distance gives 20%; arctan(0.2) is approximately 11.3°. The explanation correctly distinguishes horizontal map distance from slope-surface distance.
+- Reviewed the distinction between landslides, rockfalls and debris flows, and the warnings against treating mapped faults or absence of recorded events as proof of current activity or safety.
+- Checked the summit-height notes and the requirement to verify final map elevations against official topographic sources and a consistent vertical reference.
+- Seventeen references include regional tectonic research, geological mapping, the national aeronautical geodetic reference, CAIAG elevation-model metadata and 2026 government/CAREC material on geological mapping and digital elevation models.
+- No chapter text correction was required in this block. Mountain-range classifications and summit rankings remain subject to consistent source and measurement conventions.
+
+#### Chapter 19 — Climate and Altitudinal Zonation of Kyrgyzstan
+
+- Confirmed bilingual coverage of climatic controls, circulation, temperature, precipitation, snow cover, regional climates, altitudinal zonation, climate hazards, observed change, adaptation and monitoring.
+- Checked the use of the World Bank territorial-average precipitation estimate of approximately 378 mm/year for the 1991–2020 normal. The chapter explicitly says this is not a station or district normal and that the value depends on spatial dataset and method.
+- Checked the climate-change statement against the UNEP Atlas of Environmental Change release: the stated approximately 1.2°C rise over 1960–2023 is explicitly tied to that period and source, not presented as a timeless constant.
+- Reviewed the treatment of temperature inversions, orographic precipitation, drought indicators and the SPEI; the chapter correctly warns that station elevation, exposure, season and data method affect comparisons.
+- Eleven references cover World Bank, ADB, UNEP, UNDP, IMF, WMO, IPCC and Kyrgyzhydromet sources.
+- No text correction was required in this block. High-altitude station coverage and spatial interpolation uncertainty are explicitly flagged.
+
+#### Chapter 20 — Glaciers, Rivers, Lakes and Water Resources of Kyrgyzstan
+
+- Confirmed a detailed bilingual chapter covering glacier mass balance, river regimes, lakes, reservoirs, irrigation, transboundary basins, water quality, glacial-lake outburst hazards, water security and national statistics.
+- Checked the discharge-to-runoff worked example: 25 m³/s for 30 days gives 64.8 million m³; over a 2,000 km² catchment this is an equivalent runoff depth of 32.4 mm. The text correctly distinguishes runoff depth from precipitation and states the constant-mean-discharge assumption.
+- Reviewed the 2025 national water-use figures in the chapter. The text correctly distinguishes total abstraction, groundwater abstraction, water consumption, irrigation use and wastewater discharge, and warns that the subcategories must not be added as though they were independent components of a complete water balance.
+- Checked the distinction between water storage (glaciers/lakes/reservoirs) and annual renewable river flow. The chapter correctly avoids adding stock volumes to annual flows as if they were the same physical quantity.
+- Checked the 2025 Chu–Talas seasonal transfer figures and the Kambarata-1 project description. The text identifies the 580 million m³ as an agreed schedule for the 2025 irrigation season, not a permanent quota, and labels Kambarata-1 capacity/generation as project estimates rather than actual output.
+- Corrected duplicate subsection numbering: the seasonal hydrograph subsection is now 20.5.2, following 20.5.1 (hydrological phases). Removed repeated numbered prefixes from English-language subsection headings under 20.9.1–20.9.3.
+- Removed a duplicated bibliographic entry for the 2026 NHESS glacial-lake paper and renumbered the remaining list consecutively. The bibliography now has 22 entries and one occurrence of that DOI.
+- Twenty-two references include CAWater-Info Yearbook 2025, the Kyrgyz National Statistical Committee's water-use table, Water Resources Service information systems, World Bank, UNESCO, WMO, UNECE, 2025 glacial-lake inventory research and the 2025 mudflow/flood hazard atlas.
+- Eleven visual IDs remain production placeholders; final lake morphometry, reservoir capacities and glacier inventories still require dated source-specific map verification.
+
+#### Chapter 21 — Flora and Fauna of Kyrgyzstan
+
+- Confirmed bilingual coverage of biogeography, endemic and relict species, wild crop relatives, altitudinal vegetation, forests, regional flora, pastures, fauna, flagship species, aquatic ecosystems, ecological interactions, threats, conservation and field methods.
+- Checked the plant-cover example: 15 occupied cells out of 25 gives 60%. The chapter correctly describes this as a coarse estimate of projected cover, not biomass or pasture productivity.
+- Checked the detectability example: if per-visit detection probability is 0.4 and three visits are independent, the probability of no detection is 0.6³ = 0.216; the probability of at least one detection is 0.784. The independence and constant-detection assumptions are stated.
+- Reviewed the distinction between endemic and rare, alien and invasive, IUCN status and national Red Book/CITES systems, and the cautions around taxonomic naming and sensitive wildlife coordinates.
+- Added the 2026 peer-reviewed country assessment **Snow Leopard (*Panthera uncia*) Status in Kyrgyzstan**, *Snow Leopard Reports*, 5(1), DOI 10.56510/slr.v5.63883. It describes national distribution and status assessment using camera trapping, field surveys and community information. This supplements, rather than replaces, the IUCN and national legal-status sources.
+- The reference list now includes the 2026 national snow-leopard assessment. Ten illustration briefs remain placeholders.
+
+### Authoritative source spot-checks
+
+- The Kyrgyz National Statistical Committee's current open-data page provides population series through 2026; this is a suitable primary source for dated regional population figures, not a substitute for demographic methodology.
+- CAWater-Info Yearbook 2025 provides the cited Kyrgyz water-sector summary and distinguishes water stocks from annual runoff; national water-use statistics remain a separate statistical series.
+- UNEP's 26 March 2025 release for the Kyrgyz Atlas of Environmental Change reports an approximately 1.2°C rise in national average annual temperature from 1960 to 2023.
+- The 2026 *Snow Leopard Reports* article presents the current national distribution/status assessment context for snow leopards in Kyrgyzstan.
+- World Bank climate/water material is treated as scenario/model evidence, not as direct observation of every glacier or river basin.
+
+### Corrections saved
+
+1. `geography/chapters/17-geographic-location-and-geological-evolution-of-kyrgyzstan.md` — standardised section 17.14 numbering and removed duplicate numbering from the English border subsection. Commits: `43ed642bbe90ad85b74607d95429e49a0bc09e44` and `a911a52a7cee51b51c4d1edf865b74a3b3b72de7`.
+2. `geography/chapters/20-glaciers-rivers-lakes-and-water-resources-of-kyrgyzstan.md` — corrected duplicate subsection labels, removed repeated English heading numbers and removed the duplicate 2026 glacial-lake bibliography entry; remaining references renumbered 1–22. Commit: `45d6a47f967feaa1e798d9290cc194c5010fb5db`.
+3. `geography/chapters/21-flora-and-fauna-of-kyrgyzstan.md` — added the 2026 national snow leopard assessment to the references. Commit: `dec29e7ce2c42d9fcf8f73eb667f021e9e440212`.
+4. Chapters 18 and 19 — no text changes were required in this block.
+
+All changed files were re-fetched after writing. Duplicate numbered subsection checks returned no duplicate numbered subsection IDs in Chapters 20 and 21; Chapter 17's English translation heading no longer repeats the 17.12.1 number. The water chapter's glacial-lake DOI appears once and its numbered reference list is consecutive.
+
+### Status and next block
+
+- Systematic editorial audit: **20/25 outstanding chapters = 80%** (Chapters 01–03, 05–21); Chapter 04 is separately audited.
+- This milestone is the text/editorial audit of five more chapters. It is not external peer review or final publication readiness.
+- Next block: Chapters 22–26, preserving the same 20-percentage-point reporting cadence.
+- Artwork, final layout, browser rendering, screen-reader testing and physical-device testing remain separate unfinished tasks and are not included in this text-audit percentage.
