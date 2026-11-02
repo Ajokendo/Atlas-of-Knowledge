@@ -1586,3 +1586,84 @@ All changed files were re-fetched after writing. Duplicate numbered subsection c
 - This milestone is the text/editorial audit of five more chapters. It is not external peer review or final publication readiness.
 - Next block: Chapters 22–26, preserving the same 20-percentage-point reporting cadence.
 - Artwork, final layout, browser rendering, screen-reader testing and physical-device testing remain separate unfinished tasks and are not included in this text-audit percentage.
+
+
+## Systematic editorial audit — milestone 100% (Chapters 22–26) — 2 November 2026
+
+**Working branch:** `workspace/geography`  
+**Scope:** Final five chapters in the 25-chapter systematic cycle. Chapters 01–03 and 05–26 are now covered (25/25); Chapter 04 had its separate detailed audit. This is completion of the systematic text/editorial audit cycle, not a declaration that the whole atlas is publication-ready.
+
+### Standards and scope control
+
+- Continued on `workspace/geography` only. No changes to `main`, other subject branches, common portal/catalogue, integration branch or publishing configuration.
+- Reviewed all five complete chapter files, their bilingual section structure, statistics and dates, examples and calculations, scientific notes, bibliographies, and illustration/map briefs.
+- Spot-checked current official sources: NSC open-data series for population by oblast and city at the beginning of 2026; NSC's 15 October 2026 preliminary GDP release; NSC and Ministry of Natural Resources protected-area statistics; the current 2026 national environmental/statistical publications; and current legal/source records for climate policy.
+- The audit distinguishes observations, annual estimates, census values, preliminary macroeconomic data, project announcements, and legal designations. It does not replace external scientific peer review or legal/geospatial validation.
+
+### Chapter findings
+
+#### Chapter 22 — Natural Zones, Nature Reserves and National Parks of Kyrgyzstan
+
+- Reviewed the bilingual treatment of mountain natural zonation, national protected-area categories, reserves, nature parks, UNESCO biosphere reserves, World Heritage, Ramsar sites, ecological corridors, community participation, ecotourism, threats and management effectiveness.
+- Verified that the chapter does not conflate national protected-area categories with UNESCO MAB, World Heritage or Ramsar recognition, and warns against adding overlapping areas.
+- Checked the statistics carefully: NSC's 2025 series reports 23 state reserves and natural parks and 1,305.5 thousand hectares for that exact combined category. The Ministry's 9 April 2024 release gives 10 reserves, 13 parks and 64 sanctuaries, with a 7.38% national share; UNDP's 2025 publication gives 7.4%. The chapter correctly retains the dates and definitions separately and does not claim the difference is resolved.
+- Reviewed the Ak-Ilbirs ecological-corridor reference (approximately 800,000 ha) and the caution that an announced/designated corridor is not automatically a separate national protected-area category or proof of functional ecological connectivity.
+- Checked the Ramsar sites named (Issyk-Kul, Son-Kul and Chatyr-Kul) and the three Kyrgyz components of the transboundary Western Tien-Shan World Heritage property.
+- No text correction was required in this block. Ten illustration/map placeholders remain; official cadastral boundaries and current protected-area register still require authoritative geospatial confirmation.
+
+#### Chapter 23 — Population and Settlement of Kyrgyzstan
+
+- Checked the national population series: 7.162 million at the beginning of 2024, 7.282 million at the beginning of 2025 and 7.404 million at the beginning of 2026. The chapter correctly labels the reference date and separates annual estimates from the 2022 census.
+- Verified the regional/city population distribution at 1 January 2026 against the NSC open-data series. The nine territorial units sum to 7.4043 million, consistent with the national total after rounding.
+- Reviewed the 2024 administrative-territorial reform caveat: the abrupt published changes in Osh and Chuy oblast and in Bishkek/Osh city totals are not interpreted as pure migration; the chapter explicitly warns of a territorial-classification break.
+- Checked the external migration figures for 2025: 17,965 arrivals and 2,539 departures, net +15,426. The internal registered movements are separated and correctly sum to zero at national level; the chapter explains that internal migration still changes regional distribution.
+- Checked the population-density worked example: 40,000 people / 2,000 km² = 20 people/km²; the valley example gives 150 people/km² and the remaining area about 5.6 people/km². The example correctly explains why a territorial average hides settlement contrasts.
+- Corrected duplicated subsection numbering in the English translation under 23.8.2 by removing the repeated numeric prefix. Re-fetched the file after saving; the duplicate numbered subsection check is now clear.
+- Twelve illustration placeholders remain. Census ethnicity figures remain explicitly tied to the 2022 census rather than projected to 2026.
+
+#### Chapter 24 — The Seven Regions of Kyrgyzstan
+
+- Reviewed all seven regional profiles in Russian and English, including location, relief, climate, water, ecosystems, population, economy, transport, cultural heritage, protected areas and development risks.
+- Checked the 1 January 2026 population table against NSC open data: Batken 605.3k; Jalal-Abad 1,379.9k; Issyk-Kul 554.3k; Naryn 316.2k; Osh 1,438.5k; Talas 282.9k; Chuy 983.7k. The chapter keeps Bishkek and Osh cities separate from their respective oblast totals.
+- Recalculated all seven density examples using the displayed area values: Batken 35.6; Jalal-Abad 40.9; Issyk-Kul 12.9; Naryn 7.0; Osh 49.6; Talas 24.8; Chuy 48.7 people/km². All match rounding.
+- Verified the name Manas for the former city of Jalal-Abad against the cited 2025 law, and reviewed the chapter's distinction between public proposals for future administrative reform and enacted law.
+- The chapter correctly flags the 2024 administrative-territorial reform as a break in the regional population time series.
+- No text correction was required in this block. Twelve illustration/map placeholders remain; regional borders and settlement boundaries must be sourced from a dated official geospatial layer.
+
+#### Chapter 25 — Cities, Economy, Transport and Natural Resources of Kyrgyzstan
+
+- Reviewed bilingual coverage of urban hierarchy, regional economic geography, GDP, industry, agriculture, energy, mineral resources, tourism, transport corridors, railways, regional development and environmental constraints.
+- Verified the preliminary NSC GDP estimate for January–September 2026: KGS 1,640.9 billion, real growth 10.8%. Sector shares are 8.4% agriculture/forestry/fishing, 18.4% industry, 9.1% construction, 48.7% services and 15.4% net taxes; they sum to 100.0%. The chapter correctly labels the estimate as preliminary and compares the same nine-month period, not the full year.
+- Checked the distinction between GDP shares and real output indices; for example, 162.2 for construction is a real-volume index, not a 162.2% share.
+- Checked the transport-route example: 180 km at 45 km/h = 4 hours; 150 km at 30 km/h = 5 hours; illustrative costs are KGS 9,000 and KGS 9,750 respectively. The example correctly excludes delays and distinguishes hypothetical operating costs from actual freight tariffs.
+- Reviewed the distinction between installed hydropower capacity, actual generation, imports/exports, and planned railway infrastructure; the chapter warns against presenting the China–Kyrgyzstan–Uzbekistan railway as operational before confirmed commissioning.
+- Corrected duplicated numbering of the English translation heading for worked example 25.11.1 by removing the repeated numeric prefix. Re-fetched and verified the corrected file.
+- Twelve illustration placeholders remain. Current GDP and trade figures require periodic update as preliminary statistics are revised.
+
+#### Chapter 26 — Environmental Challenges and the Future of Kyrgyzstan
+
+- Reviewed the bilingual chapter on climate change, glaciers, water security, pastures, forests, biodiversity, air quality, wastewater, waste management, mining, natural hazards, protected areas, environmental governance and resilience.
+- Checked the glacier-inventory caveats: the 2013–2016 Landsat inventory and the CAIAG Catalogue of Glaciers (Edition 01/2024) differ in mapped area and count. The chapter explains that inventory edition, minimum glacier size and mapping method differ, so the values must not be interpreted as a simple intervening increase.
+- Checked the pasture estimates (approximately 70% in a UNEP 2025 assessment versus 94% experiencing degradation at least seasonally in a 2021 UN/IFAD remote-sensing study). The chapter correctly explains that these are different indicators and periods, not directly comparable rates.
+- Checked the forest-area statistics: UNEP's 2000–2023 series, the UN SDG 1990–2025 series and the Ministry's 16 October 2026 figure (1.273 million ha total forest area, 6.4%) are explicitly kept distinct because definitions and coverage differ.
+- Checked the air-quality examples: August 2026 stationary-station observations are identified as incomplete first-decade data due to modernisation; the 9–15 October 2026 automatic-station data are labelled as a short-term and geographically limited episode, not annual or nationwide averages.
+- Checked wastewater indicators: the UN SDG 6.3.1 domestic-wastewater measure (21.9% in 2024) is distinguished from the national indicator covering domestic and industrial wastewater (97.8% in 2024), and from 2025 national volume statistics. The chapter correctly warns against comparing different denominators or converting volumes to shares without metadata.
+- Verified the water-loss example: 1,250 m³/day supplied minus 1,000 m³/day accounted use = 250 m³/day; this is 20% of supplied volume, or 91,250 m³/year if unchanged. The text correctly calls this non-revenue/unaccounted water rather than assuming all of it is physical leakage.
+- Reviewed Law No. 104 of 7 July 2026 “On Climate Activity”; the chapter correctly distinguishes adoption/publication from its stated effective date of 1 January 2027. NDC 3.0 percentages are explicitly tied to projected baseline scenarios and conditional international support.
+- No text correction was required in this block. Twenty-four illustration/map placeholders remain; risk maps and environmental statistics require source/date/method labels.
+
+### Corrections saved in this block
+
+1. `geography/chapters/23-population-and-settlement-of-kyrgyzstan.md` — removed repeated numbering from the English translation heading under 23.8.2. Commit: `162ae9b6f73f28ab48a0d661919e2e9cb6777828`.
+2. `geography/chapters/25-cities-economy-transport-and-natural-resources-of-kyrgyzstan.md` — removed repeated numbering from the English translation heading for example 25.11.1. Commit: `1221f0ef9efd39ff7468097ee6afbbbe8e728c80`.
+3. Chapters 22, 24 and 26 — no text changes required in this block.
+
+All changed files were re-fetched after writing. Numbered subsection checks show no remaining duplicate numbered subsection IDs in Chapters 22–26.
+
+### Final status of the systematic editorial cycle
+
+- **Systematic chapter text/editorial audit: 25/25 = 100%.** Chapters 01–03 and 05–26 are covered in the systematic cycle; Chapter 04 has its separate audit.
+- This means the scheduled chapter-by-chapter text audit has been completed. It does **not** mean independent peer review, complete factual re-verification of every data point, final publication approval or overall platform readiness.
+- The five chapters in this block retain 70 illustration/map placeholders (10 + 12 + 12 + 12 + 24).
+- Still separate and unfinished: creation of visuals; final cartographic/legal-boundary validation; consistent bibliography and citation formatting; full cross-chapter terminology/date consistency sweep; browser rendering and interactive behaviour; screen-reader/manual accessibility testing; physical-device testing; and final integrated release checks.
+- Next work should therefore be a cross-chapter consistency and evidence-closure pass, followed by the remaining visual, technical and accessibility work. Do not report those stages as complete until actually tested.
