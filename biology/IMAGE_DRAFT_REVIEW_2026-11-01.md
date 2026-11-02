@@ -248,3 +248,12 @@ Generated a single-animal wildlife portrait (ImageGen ID `bc2d8009-a173-4175-87a
 **Preliminary internal QA: CONDITIONAL PASS AS AN ARGALI-LIKE RAM PORTRAIT; NOT YET APPROVED FOR SPECIES-LEVEL IDENTIFICATION.** The image clearly depicts a robust wild sheep with very large, ridged, curled horns, a brown coat and pale muzzle/underparts in open high-mountain terrain. It is a much better isolated subject than the previous composite scene. The horn spiral is unusually regular and near-circular, and exact subspecies cannot be established from the generated image. Do not label it Marco Polo argali or assign a particular Kyrgyzstan locality/subspecies without specialist confirmation. Safe provisional caption: “Argali (*Ovis ammon*), illustrative reconstruction; horn shape and subspecies require expert verification.”
 
 Internal visual review only; mammalogist review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
+
+
+## Twentieth production attempt: Siberian ibex (*Capra sibirica*) candidate — 3 November 2026
+
+Generated a single-animal alpine wildlife portrait (ImageGen ID `3518a866-6edc-421f-b8cc-bb186bcfd69e`; source PNG 1672x941 RGB). Local WebP review master: `/mnt/data/fauna-ibex-candidate.webp` (2400x1350 RGB; 746,994 bytes; reopened successfully after encoding).
+
+**Preliminary internal QA: CONDITIONAL PASS AS AN IBEX-LIKE PORTRAIT; SPECIES-LEVEL APPROVAL PENDING.** The subject has long ridged horns sweeping backward rather than forming the near-closed spiral of an argali, a beard, sturdy caprine body and rocky alpine setting. This is directionally consistent with a male Siberian ibex. However, the horn curvature is exaggerated and nearly forms a loop; the image should not be used as a strict morphological identification plate or to compare horn dimensions. The image does not establish subspecies, age, exact locality or season. Provisional caption if retained: “Siberian ibex (*Capra sibirica*), illustrative reconstruction; horn proportions are stylized.”
+
+Internal visual review only; mammalogist review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
