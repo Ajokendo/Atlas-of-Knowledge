@@ -1260,3 +1260,76 @@ The chapter's bibliography is explicitly titled “Sources and Further Reading /
 - The recursive tree response was not truncated. No files outside geography/ were changed by this audit.
 
 **Scope boundary:** this closes the remaining text-audit bibliography and repository-integrity tasks for Chapter 04 only. It does not certify illustrations, final layout, browser rendering, screen-reader testing or physical-device testing; those remain separate unfinished production/accessibility tasks.
+
+
+## Systematic editorial audit — milestone 20% (Chapters 01–03, 05–06)
+
+**Audit date:** 2 November 2026  
+**Working branch:** workspace/geography  
+**Scope:** first five outstanding chapters after the separately completed Chapter 04. This is 5 of the 25 remaining chapters (20% of the remaining chapter set), not a claim that the whole atlas is 20% or 100% ready.
+
+### Standards and branch control
+
+- Read the mandatory project registry from `atlas-of-knowledge-integration` and the `EDITORIAL_STANDARD.md` from that branch before starting.
+- Confirmed the active working branch head before edits: `ed9b8fc3f815b758fa15eb2c2d464a06d54eed06`.
+- Worked only in `geography/` on `workspace/geography`; no other discipline, shared portal, catalog or integration files were changed.
+- The live working branch contains 26 chapter Markdown files, numbered 01–26. This supersedes the older registry inventory statement that Chapter 01 was missing: the current file `geography/chapters/01-geography-as-a-science.md` exists and was read from the active branch.
+
+### Chapter-by-chapter findings
+
+#### Chapter 01 — Geography as a Science
+
+- Confirmed a complete English-language chapter section is present for sections 1.1–1.10, practical activities, key terms and review questions. The two worked examples (map scale and scale of analysis/MAUP) are presented bilingually in the earlier section; the English map-scale calculation is correct: 1 cm at 1:50,000 represents 0.5 km, so 4 cm represents 2 km in a straight line.
+- The English and Russian versions cover the same core concepts: geography's scope, object/subject, physical and human geography, place/territory, spatial patterns, scales, methods, maps, practical use and Kyrgyzstan.
+- The 7-item further-reading list has identifiable roles: disciplinary scope and definitions (AAG, RGS, National Geographic Society); geospatial information (UN Statistics Division); cartographic knowledge and map literacy (ICA); GIScience (Longley et al.); and the societal relevance of geography (National Research Council).
+- No inline numeric citation system is used; the bibliography is explicitly a starting/further-reading list. The file itself appropriately warns that links and publication details need final pre-release checking.
+- Retain the illustration placeholders; image creation and final cartographic design remain outside this text-first milestone.
+
+#### Chapter 02 — Earth's Geographic Envelope
+
+- Confirmed bilingual coverage of sections 2.1–2.15, review questions, practical assignment and scientific notes.
+- Mapped the 9 further-reading entries to Earth-system framing (NASA Earth Observatory), the hydrological cycle (NASA), atmospheric structure and dry-air composition (NOAA JetStream), planetary boundaries (Stockholm Resilience Centre and Richardson et al., 2023), atmospheric CO₂ (NOAA GML and WMO Bulletin No. 22), and global water distribution (USGS).
+- Found a bibliography-order defect: item 9 appeared between items 3 and 4, leaving the sequence 1, 2, 3, 9, 4–8. Corrected the list to 1–9 without changing the sources or their descriptions.
+- Independently checked the two 2025 CO₂ series cited in the scientific notes. NOAA's marine-surface-site annual mean is 425.62 ppm (preliminary, 2025; version 2026-10); WMO's globally averaged surface concentration is 426.8 ± 0.2 ppm (2025). These are distinct observing networks/metrics and must not be merged into one number. The chapter's explanatory distinction is appropriate.
+- Remaining refinement: the chapter's broad bibliography is not an inline claim-by-claim citation apparatus. In a later numerical-data pass, attach specific source/date notes directly to any water-reservoir percentages or other exact numerical estimates retained in the teaching text.
+
+#### Chapter 03 — Lithosphere and Geological Processes
+
+- Confirmed a substantial English version covering the chapter's main geology sequence, practical exercises, glossary/summary and questions.
+- The 20-item source list covers Earth's internal structure; plate motion and plate boundaries; mineral properties and Mohs hardness; seismic location and earthquake magnitude/intensity; volcanoes and landslides; rock groups and the rock cycle; relative and radiometric dating; geological time; and mineral-resource assessment.
+- The editorial notes distinguish Earth's age (~4.54 Ga) from the formal Hadean lower-boundary value (4,567.3 ± 0.16 Ma) and explicitly warn against depicting the mantle as a global ocean of melt or the asthenosphere as fully liquid.
+- Checked the official ICS supplementary information: the static chart for 2026/06 is available, while the supplementary page separately describes the computer-generated main chart's versioning. Keep the edition label tied to the exact static chart/data product used; do not imply that all ICS chart products share the same version label.
+- The chapter's source list is broad further reading rather than numbered in-text citations. Illustration briefs remain placeholders and require separate geological review before image production.
+
+#### Chapter 05 — Atmosphere and Climatology
+
+- Confirmed bilingual coverage of sections 5.1–5.17, chapter summary, review questions, climate-graph practical assignment and editorial notes.
+- The 7 references have identifiable roles: meteorological observation standards (WMO); station observations and climate data (NOAA NCEI); Earth's energy budget (NASA); physical-science basis and climate attribution (IPCC AR6 WGI); gridded climate datasets (Copernicus); and distinct NOAA/WMO greenhouse-gas observation series.
+- The editorial notes correctly require climate-normal periods, station/date/method for records, and separation of observed trends from projections and natural variability.
+- The CO₂ note correctly distinguishes NOAA's marine-site mean from WMO's global surface estimate; this is consistent with the official releases cited for Chapter 02.
+- No claim is made that the broad further-reading list substitutes for dated citations on specific station records, climate normals or numerical extremes.
+
+#### Chapter 06 — Hydrosphere and World Ocean
+
+- Confirmed bilingual coverage of sections 6.1–6.17, summary, questions, water-balance practical assignment and scientific notes.
+- The 5-item further-reading list maps to freshwater and water-cycle basics (USGS), ocean processes (NOAA National Ocean Service), global water resources and management (UNESCO WWDR), hydrographic standards (IHO), and glaciers/cryosphere (NSIDC).
+- Rechecked the worked discharge example: cross-section area 8 m × 0.75 m = 6 m²; at 0.6 m/s, discharge is 3.6 m³/s. The annual-volume example 3.78 km³/year corresponds to approximately 120 m³/s. The text correctly distinguishes storage volume from flow over time and warns against treating a single trench sounding as a permanent depth.
+- Remaining refinement: any exact global water-store percentages, ocean-area/depth comparisons or record-depth values should be paired with the specific dataset, date, classification and measurement method in the final numerical-data pass.
+
+### Corrections saved
+
+- `geography/chapters/02-geographic-envelope.md`: corrected bibliography numbering to consecutive entries 1–9; no source was added or removed.
+- The updated file was re-read after the write; the bibliography sequence is 1, 2, 3, 4, 5, 6, 7, 8, 9.
+
+### External source spot-checks
+
+- WMO Greenhouse Gas Bulletin No. 22, published 27 October 2026, reports 2025 globally averaged surface CO₂ at 426.8 ± 0.2 ppm.
+- NOAA GML's 2026-10 marine-surface-site annual series reports 425.62 ± 0.05 ppm for 2025, marked preliminary.
+- ICS supplementary information confirms availability of the static 2026/06 chart and distinguishes it from the versioning of the computer-generated chart.
+
+### Status and next 20% block
+
+- This milestone covers 5/25 outstanding chapters (20% of the remaining chapter set): Chapters 01, 02, 03, 05 and 06.
+- Chapter 04 remains separately audited and recorded in the preceding entry.
+- This milestone is a text, structure, bilingual-coverage and source-role audit. It is not a declaration of final scientific peer review, final illustration approval, web layout, browser testing, screen-reader testing or physical-device testing.
+- Next block: Chapters 07–11, with the same source-to-claim, bilingual parity, numerical-data and structural checks. Preserve the 20-percentage-point reporting cadence and commit each report to this branch.
