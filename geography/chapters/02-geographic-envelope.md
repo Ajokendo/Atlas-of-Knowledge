@@ -742,12 +742,12 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 1. NASA Earth Observatory. *The Earth System*. https://earthobservatory.nasa.gov/
 2. NASA Science. *The Water Cycle*. https://science.nasa.gov/earth/earth-observatory/the-water-cycle/
 3. NOAA JetStream. *Layers of the Atmosphere*. https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
-9. NOAA JetStream. *The Atmosphere* (dry-air composition and variable water-vapour content). https://www.noaa.gov/jetstream/atmosphere
-4. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
-5. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
-6. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
-7. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
-8. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
+4. NOAA JetStream. *The Atmosphere* (dry-air composition and variable water-vapour content). https://www.noaa.gov/jetstream/atmosphere
+5. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
+6. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
+7. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
+8. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
+9. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
