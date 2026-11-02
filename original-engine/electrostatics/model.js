@@ -178,3 +178,9 @@ export function electron(tReal) {
   const t = Math.min(tReal, PLATES.tCross), s = Math.max(tReal - PLATES.tCross, 0), inside = tReal <= PLATES.tCross;
   return { x: PLATES.v0 * (t + s), y: 0.5 * PLATES.a * t * t + PLATES.vyExit * s, vx: PLATES.v0, vy: PLATES.a * t, F: inside ? QE * PLATES.E : 0, inside };
 }
+
+// Chart data: [x in cm, y in mm], including the straight path after the plates.
+export const electronTrajectory = (n = 80) => Array.from({ length: n + 1 }, (_, i) => {
+  const e = electron(PLATES.run * i / n);
+  return [e.x * 100, e.y * 1000];
+});
