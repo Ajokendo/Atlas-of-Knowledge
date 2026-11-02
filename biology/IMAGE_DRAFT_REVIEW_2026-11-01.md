@@ -275,3 +275,39 @@ Generated a single-bird alpine portrait (ImageGen ID `ff5ac02e-d38e-4983-8b16-74
 **Preliminary internal QA: CONDITIONAL PASS AS AN ADULT BEARDED VULTURE PORTRAIT; NATURAL COLORATION AND FLIGHT MORPHOLOGY NEED CAUTION.** The bird has a long narrow hooked bill, dark facial mask, black bristles below the bill forming the characteristic beard, pale head, long dark wings and a rufous-orange breast. The orange coloration may be exaggerated: adult bearded vultures often acquire rusty-orange tones through iron-oxide-rich dust bathing, and the intensity varies; this vivid saturated orange should not be presented as universal natural plumage. The perched pose does not allow assessment of the long, narrow wings and wedge-shaped tail in flight. Exact locality, age and individual coloration cannot be inferred. Provisional caption: “Bearded vulture (*Gypaetus barbatus*), illustrative reconstruction; breast coloration is stylized.”
 
 Internal visual review only; ornithologist review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
+
+
+## First-ten batch freeze and validation gate — 3 November 2026
+
+Per project-owner instruction, freeze production scope at the first ten visual assets. Do not start asset 11 / the second ten until all ten first-batch slots reach the agreed validation-ready gate.
+
+### First-ten inventory (current internal state)
+
+| Slot | Asset | Current decision | WebP review master |
+|---:|---|---|---|
+| 1 | Jalal-Abad flora | Conditional concept; mixed forest composition, not documentary Arslanbob view | `flora-jalalabad-candidate.webp` |
+| 2 | Issyk-Kul flora | Conditional concept; generalized wetland/shore/foothill/forest mosaic | `flora-issyk-candidate.webp` |
+| 3 | Naryn flora | Conditional concept; generalized alpine basin; generated flowers unidentified | `flora-naryn-candidate.webp` |
+| 4 | Osh flora | Conditional concept; juniper/alpine habitat only, not full regional flora | `flora-osh-candidate.webp` |
+| 5 | Batken flora | REJECTED for species-accurate botanical use; do not count as ready | `flora-batken-candidate.webp` (quarantined/rejected) |
+| 6 | Snow leopard | Conditional habitat illustration; do not imply documented predator-prey encounter | `fauna-snow-leopard-candidate.webp` |
+| 7 | Argali | Conditional portrait; exact subspecies and horn morphology unverified | `fauna-argali-candidate.webp` |
+| 8 | Siberian ibex | Conditional portrait; horn curvature stylized/exaggerated | `fauna-ibex-candidate.webp` |
+| 9 | Golden eagle | Conditional perched portrait; flight silhouette not assessable | `fauna-golden-eagle-candidate.webp` |
+| 10 | Bearded vulture | Conditional perched portrait; breast coloration stylized, flight silhouette not assessable | `fauna-bearded-vulture-candidate.webp` |
+
+### Local technical file check
+
+All ten local WebP review masters were reopened successfully in the working session and verified as RGB, 2400×1350. This confirms file readability, dimensions and color mode only; it does not constitute repository integration, expert validation, final acceptance or publication readiness. The rejected Batken candidate remains quarantined and must not be counted as a completed asset.
+
+### Validation-ready gate (must all pass)
+
+1. Subject and scope match the approved brief; rejected or mismatched scenes are replaced.
+2. No unsupported species, subspecies, locality, season, behaviour or ecological association is asserted in captions or alt text.
+3. Scientific reviewer sign-off is recorded where species-level accuracy is claimed; otherwise the caption explicitly limits the image to a generalized habitat illustration or stylized reconstruction.
+4. Bilingual RU/EN caption and alt text are approved.
+5. WebP file is readable, RGB, 2400×1350; file size and visual artefacts are checked.
+6. Asset is committed to `workspace/biology` under the agreed image directory, and the corresponding HTML marker points to the exact committed filename.
+7. Repository tree and chapter reference are re-fetched to verify the binary and link actually exist.
+
+**Batch status at freeze:** 9 conditional review candidates; 1 rejected; 0 validation-ready; 0 integrated. No second-batch generation is authorized until the first ten are closed. Next work is limited to repairing Batken and closing validation/integration for slots 1–10.
