@@ -141,6 +141,21 @@ for (const chapter of coreChapters) {
     errors.push("chapters/" + chapter + ": answered quiz feedback must remain visible and localized after switching languages");
   }
 }
+  const quizBank = html.match(/const quizBank\s*=\s*\{([\s\S]*?)\};/);
+  const ruBank = quizBank && quizBank[1].match(/ru:\s*\[([\s\S]*?)\],\s*en:\s*\[/);
+  const enBank = quizBank && quizBank[1].match(/en:\s*\[([\s\S]*?)\]\s*$/);
+  const answerPositions = block => [...block.matchAll(/\\bc:(\\d)\\b/g)].map(match => Number(match[1]));
+  if (!ruBank || !enBank) {
+    errors.push("chapters/" + chapter + ": bilingual quiz banks must be present");
+  } else {
+    const ruPositions = answerPositions(ruBank[1]);
+    const enPositions = answerPositions(enBank[1]);
+    if (ruPositions.length !== 5 || enPositions.length !== 5 || ruPositions.join(",") !== enPositions.join(",")) {
+      errors.push("chapters/" + chapter + ": RU/EN quiz answer positions must align across five questions");
+    }
+    if (new Set(ruPositions).size < 2) errors.push("chapters/" + chapter + ": correct quiz answers must not occupy the same position in every question");
+  }
+}
 for (const chapter of coreChapters) {
   const file = path.join(root, "chapters", chapter);
   const html = fs.readFileSync(file, "utf8");
