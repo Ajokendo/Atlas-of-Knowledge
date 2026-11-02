@@ -1413,3 +1413,88 @@ Each changed chapter was re-fetched from `workspace/geography` after its write a
 - This block covered bilingual structure, scientific terminology, worked-example arithmetic, source roles and editorial caveats. It is not a declaration of external scientific peer review or final publication readiness.
 - Next block: Chapters 12–16, preserving the same 20-percentage-point reporting cadence.
 - Artwork, final layout, browser rendering, screen-reader testing and physical-device testing remain separate unfinished tasks and are not included in this text-audit percentage.
+
+
+## Systematic editorial audit — milestone 60% (Chapters 12–16) — 2 November 2026
+
+**Working branch:** `workspace/geography`  
+**Scope:** Chapters 12–16, the third five-chapter block in the 25-chapter systematic audit. With Chapters 01–03, 05–11 already covered, this brings the systematic audit to **15/25 chapters = 60%** of the outstanding chapter set. Chapter 04 remains separately audited; this percentage is not the readiness percentage of the complete atlas.
+
+### Standards and scope control
+
+- Continued under the project registry and editorial standard previously checked from `atlas-of-knowledge-integration`.
+- Worked only in `geography/` on `workspace/geography`. No other subject, portal, catalogue, integration or publishing files were edited.
+- Read all five complete chapter files and checked section hierarchy, bilingual treatment, learning objectives, summaries, key terms, review questions, practical activities, scientific editorial notes, illustration briefs, worked examples and source lists.
+
+### Chapter findings
+
+#### Chapter 12 — Geography of World Regions
+
+- Checked the seven world-region treatments: Africa; Europe; Asia; North America; Central America and the Caribbean; South America; Australia and Oceania; plus Antarctica and the Southern Ocean as a separate section.
+- Confirmed that the text distinguishes statistical regionalisation (UN M49) from physical-geographical, cultural and political regional concepts. The M49 note correctly states that the scheme is for statistical use and does not determine political status or affiliation.
+- Reviewed transboundary river-basin analysis and regional comparison guidance. The chapter appropriately warns against treating a large region as culturally or economically homogeneous.
+- Verified the weighted regional GDP-per-capita example: total GDP USD 500 billion / population 40 million = USD 12,500 per person. The chapter correctly rejects the unweighted mean USD 15,000 because the country populations differ.
+- Found a duplicated subsection number: two headings were numbered 12.13.1. Corrected the second to 12.13.2 in both Russian and English heading text.
+- Ten sources are listed. The National Geographic Society entry remains less bibliographically complete than the institutional data sources and should be normalised in a later reference-formatting pass.
+- Ten illustration IDs remain placeholders.
+
+#### Chapter 13 — Ecology and Global Change
+
+- Confirmed 18 numbered main sections and parallel Russian/English chapter text, with practical activities, review questions and visual briefs.
+- Checked the mitigation/adaptation example: early warning and land-use restrictions are adaptation; energy-efficiency measures may be mitigation depending on the actual energy/emissions effect; restoration can serve both purposes depending on site and outcome.
+- Verified the emissions example: 1,000 MWh × 0.40 t CO₂e/MWh = 400 t CO₂e; 700 MWh × 0.40 = 280 t; reduction = 120 t or 30%. Assumptions and boundaries are stated.
+- Verified the expected annual loss example: 0.05 × 2,000,000 = 100,000 fictional currency units/year. The text correctly distinguishes expected loss from an amount lost every year.
+- Found two applied subsections on EIA and life-cycle assessment numbered 13.13.1 and 13.13.2 but positioned after section 13.15. Moved them to immediately follow the main 13.13 Environmental Assessment and Monitoring section, restoring logical hierarchy without changing their instructional content.
+- Updated the planetary-boundaries bibliography: added the **Planetary Health Check 2025** report (DOI 10.48485/PIK.2025.017) alongside the foundational 2023 paper. The 2025 assessment reports that seven of nine planetary boundaries have been breached; this is a dated assessment finding, not a timeless numerical constant.
+- Twelve sources are listed after the update. Eleven illustration IDs remain placeholders.
+
+#### Chapter 14 — Geographic Information Systems
+
+- Confirmed 20 numbered sections, bilingual explanations and a substantial practical-work sequence.
+- Checked distinctions among geographic and projected coordinates, geodetic datum, ellipsoid, geoid and map projection. The chapter correctly warns that angular degrees are not linear metres and that the CRS and axis order must be checked before analysis.
+- Reviewed the example using illustrative coordinates (42°, 74°): it correctly instructs the learner to reproject to a suitable local/regional projected CRS rather than simply relabel the source CRS.
+- Verified the 500 m circular buffer area: π × 500² ≈ 785,400 m² ≈ 0.785 km². The explanation correctly distinguishes a straight-line geometric buffer from real pedestrian accessibility.
+- Ten sources cover OGC, ISO/TC 211, EPSG, QGIS, Esri, GIScience literature, UN-GGIM and WGS 84. No text correction was required in this pass.
+- Nine illustration IDs remain placeholders.
+
+#### Chapter 15 — Remote Sensing of the Earth
+
+- Confirmed 18 numbered sections and parallel Russian/English treatment of sensors, spectral properties, resolution, preprocessing, indices, classification, SAR, LiDAR, change detection and ethics.
+- Checked the NDVI example: (0.50 − 0.10) / (0.50 + 0.10) = 0.40/0.60 ≈ 0.67. Interpretation is appropriately cautious and does not claim that NDVI identifies species, exact biomass or yield.
+- Reviewed index formulas and the explicit warning that NDWI is used for more than one formula; the chapter requires the exact formula and band names to be stated.
+- Checked the treatment of classification: independent validation samples, confusion matrix and class-specific accuracy are required; reusing training data for validation is correctly identified as a source of overestimated accuracy.
+- A near-duplicate second subsection under 15.15 had the same title as 15.15.1 but contained a useful minimum-comparability checklist. Renamed its heading to **Satellite-Image Comparability Checklist** to make its distinct purpose clear.
+- Added NASA's Landsat Calibration and Validation reference to support the chapter's requirements for sensor calibration, independent verification and product validation. The chapter already warns that processing must be appropriate to the product level.
+- Eleven sources are listed after the update. Eleven illustration IDs remain placeholders.
+
+#### Chapter 16 — Geographic Research and Cartography
+
+- Confirmed 21 numbered sections, bilingual chapter text, summaries, glossary, review questions, practical activities and research-integrity material.
+- Verified the proportionate stratified-sampling example: for a sample of 100 from strata of 500, 300 and 200 households, proportional allocation is 50, 30 and 20. The text correctly notes that proportional allocation alone does not guarantee representativeness and that deliberate oversampling requires weighting when aggregating.
+- Verified the thematic-map rate example: 2/20,000 × 10,000 = 1.0 clinics per 10,000; 3/60,000 × 10,000 = 0.5; 4/100,000 × 10,000 = 0.4. The chapter correctly distinguishes relative provision from actual healthcare access.
+- Reviewed guidance on MAUP, spatial autocorrelation, classification, missing data, uncertainty, cartographic distortion, accessibility of palettes and map-source disclosure.
+- Ten references are listed, including ICA cartographic knowledge, spatial analysis, ISO and OGC standards. No text correction was required in this pass.
+- Nine illustration IDs remain placeholders.
+
+### Authoritative source spot-checks
+
+- UN Statistics Division's M49 page describes geographic regions as a statistical grouping and explicitly notes that assignments do not imply political affiliation or status.
+- The Planetary Health Check 2025 assessment reports that seven of nine planetary boundaries have been breached.
+- NASA's Landsat Calibration and Validation documentation describes radiometric and geometric calibration, independent verification and validation of higher-level data products.
+- Chapter 14's GIS and CRS claims were checked against its stated EPSG/OGC/ISO reference framework; the example does not prescribe a universal projected CRS.
+
+### Corrections saved
+
+1. `geography/chapters/12-geography-of-world-regions.md` — corrected duplicate subsection numbering (12.13.1 → 12.13.2). Commit: `9ba0c66d187315deac58cf4eba2f6491b77c731c`.
+2. `geography/chapters/13-ecology-and-global-change.md` — moved EIA/LCA subsections under section 13.13 and added the 2025 Planetary Health Check reference. Commit: `7dca47c9c730d0f4142cc80b6c07dc42410b3de7`.
+3. `geography/chapters/15-remote-sensing-of-the-earth.md` — clarified the second comparability subsection heading and added NASA Landsat calibration/validation reference. Commit: `be60faca20c066ac21b425feca642a50ba2dd19a`.
+4. Chapters 14 and 16 — no text changes were required in this block.
+
+Each modified chapter was fetched again after writing and its complete content matched the intended update.
+
+### Status and next block
+
+- Systematic editorial audit: **15/25 outstanding chapters = 60%** (Chapters 01–03, 05–16); Chapter 04 is separately audited.
+- The milestone reflects the completed text/editorial audit of this five-chapter block. It is not an independent scientific peer review or a declaration of final publication readiness.
+- Next block: Chapters 17–21, preserving the same 20-percentage-point reporting cadence.
+- Artwork, final layout, browser rendering, screen-reader testing and physical-device testing remain separate unfinished tasks and are not included in this text-audit percentage.
