@@ -179,6 +179,12 @@ try {
           } catch {
             errors.push(file + ": Enter did not activate skip link to " + target);
           }
+          const mainReceivedFocus = await page.waitForFunction(
+            expected => document.activeElement?.id === expected.slice(1), target, { timeout: 1000 }
+          ).then(() => true).catch(() => false);
+          if (!mainReceivedFocus) {
+            errors.push(file + ": skip link changed the URL but did not move focus to its main-content target");
+          }
         }
       }
       const lang = page.locator("#lang, #language").first();
