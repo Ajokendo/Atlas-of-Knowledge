@@ -784,7 +784,7 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 3. NASA. *The Earth's Energy Budget*. https://earthobservatory.nasa.gov/
 4. IPCC. *Sixth Assessment Report: The Physical Science Basis (AR6 WGI)*. https://www.ipcc.ch/report/ar6/wg1/
 5. Copernicus Climate Change Service. *Climate Data Store*. https://cds.climate.copernicus.eu/
-6. NOAA Global Monitoring Laboratory. **Trends in Atmospheric Carbon Dioxide: Global Annual Mean** (2025 value preliminary; updated October 2026). https://gml.noaa.gov/aggi/aggi.html
+6. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
 7. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
