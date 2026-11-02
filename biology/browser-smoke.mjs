@@ -130,6 +130,32 @@ try {
           (contrast.failures.length > 8 ? " (+" + (contrast.failures.length - 8) + " more)" : ""));
       }
       if (!(await page.locator("main").count())) errors.push(file + ": missing main landmark");
+
+      // Every page must provide a working, keyboard-reachable skip link to its main content.
+      const skipLink = page.locator("a.skip-link").first();
+      if (!(await skipLink.count())) {
+        errors.push(file + ": missing skip link");
+      } else {
+        const target = await skipLink.getAttribute("href");
+        const targetExists = target && target.startsWith("#") &&
+          await page.locator(target).count() === 1;
+        if (!targetExists) {
+          errors.push(file + ": skip link target is missing or ambiguous: " + target);
+        } else {
+          await skipLink.focus();
+          const visibleOnFocus = await skipLink.evaluate(el => {
+            const style = getComputedStyle(el);
+            const rect = el.getBoundingClientRect();
+            return style.visibility !== "hidden" && style.display !== "none" &&
+              rect.width > 0 && rect.height > 0 && rect.top >= 0;
+          });
+          if (!visibleOnFocus) errors.push(file + ": skip link is not visibly revealed on keyboard focus");
+          await page.keyboard.press("Enter");
+          if (new URL(page.url()).hash !== target) {
+            errors.push(file + ": Enter did not activate skip link to " + target);
+          }
+        }
+      }
       const lang = page.locator("#lang, #language").first();
       if (await lang.count()) {
         const before = (await lang.innerText()).trim();
