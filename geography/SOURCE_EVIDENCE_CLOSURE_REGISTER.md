@@ -100,3 +100,65 @@
 - No claim is made that every bibliography item or every claim in Chapters 01–05 has received a full line-by-line citation audit.
 - Next tranche: Chapters 06–10. Prioritise hydrology/ocean datasets, biodiversity and biome classification sources, soil classification and soil-data sources, demographic global series, and primary legal references for political geography.
 - Separate remaining work includes all-claim citation mapping, live link rechecks at release, dataset-level metadata/licence checks, cartographic validation, visuals, browser/interactive tests, screen-reader/manual accessibility and physical-device testing.
+
+
+## Second tranche — Chapters 06–10 (initial targeted evidence pass)
+
+| Chapter | Source / evidence | Result | Action / limitation |
+|---:|---|---|---|
+| 06 | USGS Water Science School | Corrected and verified | Replaced the broad `/special-topics/water-science-school` URL with the live “Water Basics Information by Topic” page. It links to water facts, water distribution, hydrology and the water cycle. |
+| 06 | NOAA Ocean Facts | Verified — access and relevance | The portal is live and contains ocean facts, geography/geodesy, tides, currents and ocean observations. It is a broad portal; use a specific NOAA fact/data page for individual numerical claims. |
+| 06 | UNESCO World Water Development Report | Verified — access and relevance | Official UNESCO page identifies WWDR as the UN flagship assessment of freshwater state, use and management and links to annual editions. Select the exact report year when supporting a dated claim. |
+| 06 | International Hydrographic Organization, Standards and Specifications | Verified — access and relevance | Official IHO page is live and lists hydrographic standards, including S-100 work. For bathymetric or charting claims, cite the specific standard and edition, not only the general index. |
+| 06 | NSIDC, Glaciers | Verified — access and relevance | NSIDC page is live and provides cryosphere/glacier educational and data links. Dataset-level claims still require a named product and date. |
+| 07 | Convention on Biological Diversity | Verified — access and relevance | CBD Secretariat treaty page is live and current; it is the primary legal framework, not a species-status dataset. |
+| 07 | IPBES Global Assessment (2019) | Verified by authoritative report record | Official Zenodo record confirms the 2019 global assessment and its report chapters. The IPBES site itself returned 403 in direct retrieval; this is recorded as a crawler restriction, not a dead link. |
+| 07 | IPBES Invasive Alien Species Assessment (2023) | Verified by authoritative report record | IPBES page/record confirms plenary acceptance in 2023, six-chapter assessment and Summary for Policymakers. |
+| 07 | IUCN Red List | Verified by authoritative search record; direct retrieval restricted | The Red List FAQ record confirms the database's extinction-risk purpose, assessment categories, update frequency and limitations. The main site returned 403; do not interpret that as a dead link. Species-level use must cite the exact taxon assessment and its assessment date/version. |
+| 07 | UNESCO Man and the Biosphere Programme | Verified — access and relevance | Official UNESCO page confirms the MAB programme and World Network of Biosphere Reserves. This designation is not interchangeable with national protected-area status. |
+| 07 | Olson et al. (2001), terrestrial ecoregions | Verified — access and relevance | Oxford Academic record confirms BioScience 51(11), pp. 933–938 and DOI. The paper defines ecoregions and supports the chapter's mapping/classification discussion. |
+| 07 | Millennium Ecosystem Assessment (2005) | Verified — access and relevance | Official assessment site exposes the synthesis and a regional assessment for Central Asian mountain ecosystems. |
+| 07 | Chapin, Matson & Vitousek, *Principles of Terrestrial Ecosystem Ecology* | Corrected | Completed missing authors, year, second edition, publisher and DOI using Springer metadata. |
+| 08 | IUSS Working Group WRB, fourth edition | Verified by authoritative publication record | WRB documents page confirms the 2022 fourth edition and corrected 2024 PDF; the 2024 correction must be used rather than an uncorrected earlier PDF. |
+| 08 | FAO/ITPS, *Status of the World's Soil Resources 2026* | Verified — access and relevance | Official FAO page confirms the 2026 global assessment, launch date and DOI 10.4060/ce0792en. It is distinct from the 2015 assessment. |
+| 08 | FAO Voluntary Guidelines for Sustainable Soil Management (2017) | Corrected and verified | Replaced a direct PDF endpoint that returned 403 with the current official FAO landing page. The page confirms the publication date (2017) and the guidelines' voluntary/non-binding character. |
+| 08 | USDA NRCS, *Soil Survey Manual* | Verified — access and relevance | Official page identifies the 2017 manual and its field description, soil-profile and survey methods. |
+| 08 | IPCC, *Climate Change and Land* (2019) | Verified by authoritative report record; direct retrieval restricted | Official IPCC report path returned 403 to the browser; treat as a retrieval restriction. Preserve the report title/year and use the official report PDF/landing record when checking specific claims. |
+| 08 | UNCCD, *Global Land Outlook* | Verified — access and relevance | Official UNCCD page identifies GLO as its flagship publication and links to the 2017 and 2022 editions. Name the edition used for any dated statistic. |
+| 08 | European Commission JRC, ESDAC | Verified — access and relevance | Official ESDAC portal is live and identifies itself as the European Soil Data Centre. Its European datasets are not automatically representative of Central Asia. |
+| 08 | Turner, Gardner & O'Neill, *Landscape Ecology in Theory and Practice* | Corrected | Completed missing authorship, year, first edition, publisher and DOI using Springer metadata. |
+| 09 | UN World Population Prospects 2024 | Verified — portal access; data-version follow-up required | UN Population Division portal resolves. Record the specific WPP 2024 dataset/table and variant for each numerical claim; the landing page alone is not a citation to a particular series. |
+| 09 | UN World Urbanization Prospects 2025 | Verified by authoritative publication record | UN DESA record confirms 2025 revision, country/area estimates, methodology and city/town/rural categories. Direct retrieval returned 403; this is not treated as a dead link. The chapter must preserve its distinction between the Degree of Urbanization and national definitions. |
+| 09 | UN Principles and Recommendations for Population and Housing Censuses, Revision 4 (2025) | Verified — access and relevance | UNSD census page confirms Rev. 4, endorsement/adoption for the 2030 census programme and recommendation as the international standard. |
+| 09 | UNSD demographic standards and methods | Verified — access and relevance | Official standards page lists current census, migration and vital-statistics methods. Select a named manual/edition when supporting a technical definition. |
+| 09 | IOM World Migration Report 2024 | Verified by authoritative report record; direct portal retrieval restricted | Official IOM-hosted report summary/data PDFs are indexed and accessible via search results. The chapter should cite the exact report table and data year; for example, the report's 281 million migrant figure refers to 2020 estimates, not 2024 observations. |
+| 09 | UN-Habitat World Cities Report 2024 | Verified by authoritative publication record | Publisher record confirms the 2024 report and its urban climate focus. Direct retrieval returned 403; use the publisher record and specific report chapter/table for claims. |
+| 09 | World Bank WDI population indicator | Verified — access and relevance | WDI page is live, lists source agencies and CC BY 4.0 licensing. The indicator page is a dynamic series; retain the extraction date and source metadata. |
+| 09 | UNDP Human Development Data Center | Verified — access and relevance | Official data center page describes global, regional and country-level data and links to HDI methodology and documentation. |
+| 10 | UN Charter | Verified by authoritative publication record | Official UN full-text record confirms Article 2 on sovereign equality, peaceful settlement and prohibition on force against territorial integrity/political independence. Direct page retrieval returned 403. |
+| 10 | UNCLOS (1982) | Corrected and verified | Replaced the direct PDF URL that returned 403 with the UN Treaty Collection depositary record. It identifies the 1982 Convention, entry into force, treaty status and links to certified authentic texts in six languages. |
+| 10 | Vienna Convention on the Law of Treaties (1969) | Verified — access and relevance | UN Treaty Collection record is live and confirms adoption, entry into force, treaty number and parties. |
+| 10 | UN General Assembly Resolution 1514 (XV) | Corrected and verified by authoritative record | Added the previously missing official UN Digital Library record for the 1960 Declaration on independence. The UN record confirms the resolution number and adoption date. |
+| 10 | ICJ Statute | Needs follow-up — direct retrieval restricted | The official ICJ URL returned 403. Retain as a primary legal reference but recheck via an alternate official text source before publication. |
+| 10 | Agnew, *Geopolitics: Re-Visioning World Politics* | Corrected | Completed 2nd edition, 2004, Routledge and ISBN 978-0-415-31007-9 using publisher/catalogue metadata. |
+| 10 | Flint, *Introduction to Geopolitics* | Corrected | Completed 4th edition, 2021, Routledge and ISBN 978-0-367-68675-8 using publisher metadata. |
+| 10 | Taylor & Flint, *Political Geography* | Corrected | Completed 6th edition, 2014, Routledge and ISBN 978-1-138-83708-9 using bibliographic metadata. |
+| 10 | UN Statistics Division M49 | Verified — access and relevance | Official M49 page explicitly says the regional groupings are for statistical convenience and do not imply political/legal status or boundary delimitation. This qualification is consistent with the chapter's wording. |
+
+### Corrections saved in Chapters 06–10
+
+1. Chapter 06 — replaced the broad USGS Water Science School URL with the live “Water Basics Information by Topic” page. Commit: `94db71522ef52d6020b3c22bc8321645cb6ef7d8`.
+2. Chapter 07 — completed Chapin, Matson & Vitousek textbook metadata and DOI. Commit: `a5c0d149b4f5e5db912775c46f3c8b36f4b19c96`.
+3. Chapter 08 — replaced the restricted FAO PDF link with the official landing page and completed Turner et al. book metadata/DOI. Commit: `ee7e8bb104a737ca270d587492f8f32c385f376f`.
+4. Chapter 10 — replaced the direct UNCLOS PDF with the UN Treaty Collection record, added the official UN Digital Library record for Resolution 1514 (XV), and completed bibliographic details for Agnew, Flint, and Taylor & Flint. Commit: `55197bae98112b750ac569392e73c4f4bc2ab46a`.
+5. Chapter 09 — no text edits required in this tranche; remaining data-version and exact-table mapping requirements are recorded above.
+
+### Cross-chapter evidence controls reinforced
+
+- Do not treat international statistical regions (UN M49) as legal boundary determinations.
+- Do not treat IUCN Red List categories, CBD treaty obligations, UNESCO MAB designations and national protected-area categories as interchangeable.
+- Do not treat the UN WPP/WUP landing pages as sufficient citations for a particular extracted series; record variant, table, reference year and extraction date.
+- Distinguish soil classification (WRB) from soil survey/measurement manuals and from global soil-status assessments.
+- Distinguish treaty text, treaty depositary/status records and political-geography interpretation.
+
+**Milestone:** initial targeted source/evidence pass now covers Chapters 01–10 (10/26, approximately 40%). This remains a targeted evidence review, not an exhaustive sentence-by-sentence citation audit. Next block: Chapters 11–15.
