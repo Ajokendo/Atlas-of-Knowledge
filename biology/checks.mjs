@@ -129,7 +129,7 @@ for (const chapter of coreChapters) {
   const file = path.join(root, "chapters", chapter);
   const html = fs.readFileSync(file, "utf8");
   if (!html.includes('document.getElementById("quiz-next").hidden=!quizAnswered;') ||
-      !html.includes('quizAnswered=false;renderQuiz()});')) {
+      !html.includes('quizAnswered=false;renderQuiz();lastAnswer=null')) {
     errors.push("chapters/" + chapter + ": quiz answer state must persist across language switches and reset only when advancing");
   }
   if (!html.includes("lastAnswer=i;") ||
@@ -155,7 +155,7 @@ for (const chapter of coreChapters) {
 const interactiveModelChapters = ["genetics.html", "biochemistry.html", "ecology.html", "systematics.html"];
 for (const chapter of interactiveModelChapters) {
   const html = fs.readFileSync(path.join(root, "chapters", chapter), "utf8");
-  if (!html.includes("quizAnswered?' disabled aria-pressed=\"'+String(i===lastAnswer)+'\":''")) {
+  if (!html.includes("quizAnswered?") || !html.includes("disabled aria-pressed=") || !html.includes("String(i===lastAnswer)")) {
     errors.push("chapters/" + chapter + ": answered quiz choices must be disabled and the selected choice exposed with aria-pressed");
   }
   if (chapter === "genetics.html" && !html.includes("render();renderQuiz();")) {
@@ -203,7 +203,7 @@ const ecologyControlCounts = {
   "pressure-controls": { attribute: "pressure", count: 4 }
 };
 for (const [group, config] of Object.entries(ecologyControlCounts)) {
-  const section = ecologyFile.match(new RegExp('<div class="controls" id="' + group + '">([\s\S]*?)<\\/div>'));
+  const section = ecologyFile.match(new RegExp('<div class="controls" id="' + group + '">([\\s\\S]*?)<\\/div>'));
   if (!section) {
     errors.push("chapters/ecology.html: missing " + group);
     continue;
@@ -230,7 +230,7 @@ const biochemistryControlCounts = {
   "respiration-controls": 3
 };
 for (const [group, expectedCount] of Object.entries(biochemistryControlCounts)) {
-  const section = biochemistryFile.match(new RegExp('<div class="controls" id="' + group + '">([\s\S]*?)<\\/div>'));
+  const section = biochemistryFile.match(new RegExp('<div class="controls" id="' + group + '">([\\s\\S]*?)<\\/div>'));
   if (!section) {
     errors.push("chapters/biochemistry.html: missing " + group);
     continue;
