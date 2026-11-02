@@ -1720,3 +1720,34 @@ All changed files were re-fetched after writing. Numbered subsection checks show
 - No unresolved contradiction was identified among Chapters 06–10 in the concepts reviewed.
 - Next block: Chapters 11–15, with attention to economic geography, global/regional systems, resource and production statistics, transport, development indicators and environmental terminology.
 - This percentage covers only the cross-chapter consistency pass. It does not change the separate systematic chapter-audit milestone (100%) and does not imply completion of final source verification, visual production, cartographic/legal-boundary validation, browser/interactive testing, screen-reader or physical-device testing.
+
+
+## Cross-chapter consistency sweep — milestone 60% (Chapters 11–15) — 2 November 2026
+
+**Scope:** Third block in the cross-chapter consistency pass. Chapters 11–15 have been checked against one another and the preceding blocks (15/26 chapters, approximately 58%; reported at the agreed 20-point milestone of 60%). This remains separate from the completed systematic chapter-by-chapter audit.
+
+### Checks completed
+
+- **Chapter 11 — Economic Geography:** Compared sector definitions, GDP/GNI, nominal and real values, purchasing-power-parity comparisons, employment versus value-added shares, regional specialisation and global value chains with Chapters 12 and 25. The chapter correctly warns that three-sector teaching models and detailed statistical classifications are not identical; official statistics may show construction separately. Checked the value-added example (100 − 60 − 15 = 25) and the location quotient examples (12% / 8% = 1.5; 20% / 15% ≈ 1.33). Both calculations and their interpretation are correct; the text does not equate LQ with productivity or competitiveness.
+- **Chapter 12 — Geography of World Regions:** Compared regional definitions and boundaries with the political-geography treatment in Chapter 10; regional population and economic comparisons with Chapters 09 and 11; and transboundary river-basin material with Chapter 06. The chapter consistently treats regionalisation as purpose-dependent rather than a single universal division. It distinguishes nominal GDP per capita from PPP-based comparisons and correctly calculates a population-weighted regional GDP per capita: (200 + 300) billion USD / (10 + 30) million people = 12,500 USD per person. It explicitly rejects a simple unweighted average.
+- **Chapter 13 — Ecology and Global Change:** Compared ecosystem, biodiversity and land-degradation concepts with Chapters 07–08 and 26; hazard and vulnerability concepts with Chapter 10; and mitigation/adaptation with the climate and water chapters. The chapter distinguishes hazard, exposure, vulnerability, risk and disaster rather than treating them as synonyms. Checked the emissions example: 1,000 MWh × 0.40 t CO₂-e/MWh = 400 t; 700 MWh gives 280 t; the estimated reduction is 120 t or 30%. The text identifies the factor as hypothetical and explains the limits of the calculation.
+- **Chapter 14 — Geographic Information Systems:** Compared coordinate systems, projections, scale, raster resolution and data accuracy with Chapter 15. The distinction between pixel size, positional accuracy, thematic accuracy, completeness and currency is consistent. The CRS example correctly warns that latitude/longitude are angular coordinates, not metres. The 500 m circular-buffer example gives an area of approximately 785,400 m² (0.785 km²) and correctly distinguishes straight-line proximity from actual network accessibility.
+- **Chapter 15 — Remote Sensing of the Earth:** Compared sensor, pixel, resolution and data-quality terminology with Chapter 14, and vegetation/soil/water interpretation with Chapters 07–08 and 13. The NDVI formula and worked calculation are correct: (0.50 − 0.10)/(0.50 + 0.10) ≈ 0.67. NDWI variants are explicitly distinguished by formula; NDMI, NDBI and NBR identify their relevant bands. The chapter cautions that indices are not direct species, biomass, building or degradation maps and that seasonal, atmospheric, sensor and terrain effects must be controlled. Independent validation and error matrices are correctly required for classification.
+- Reviewed bilingual coverage, chapter structure, examples, units, map/visual briefs and source/method caveats across all five files. Illustrations remain placeholders and are not counted as completed production assets.
+
+### Cross-chapter observations
+
+- Economic sector shares must be compared only after checking the statistical classification: the textbook's primary/secondary/tertiary model is a teaching framework, while national accounts and industry classifications may report construction and other activities separately. Chapter 11 explains this distinction, and the Kyrgyzstan economic material in Chapter 25 uses the dated official statistical grouping rather than pretending the categories are identical.
+- Regional averages must be population-weighted when the intended indicator is total regional GDP divided by total regional population. Chapter 12's example demonstrates this correctly.
+- GIS and remote-sensing resolution are related but distinct from accuracy. Both chapters consistently reject the assumption that a smaller pixel or more detailed map automatically means more accurate information.
+- No unresolved contradiction was identified among Chapters 11–15 in the concepts and examples reviewed.
+
+### Corrections saved
+
+- No chapter text edits were necessary in this block. The examples, formulas and terminology checked were internally consistent and aligned with the adjacent chapters.
+
+### Status
+
+- Cross-chapter consistency sweep: **15/26 chapters ≈ 58%, reported as the 60% milestone**.
+- Next block: Chapters 16–20, focusing on research methods and cartography, Kyrgyzstan's location/geological history, mountain relief, climate/altitudinal zonation, glaciers, rivers and water resources.
+- This milestone does not imply that all external sources, map boundaries, cartographic layers, visual assets, interactive behaviour, accessibility or physical-device rendering have been finally validated.
