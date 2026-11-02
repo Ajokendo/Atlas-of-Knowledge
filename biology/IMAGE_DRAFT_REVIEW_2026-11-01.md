@@ -203,3 +203,12 @@ Generated a vegetation-led panorama (ImageGen ID `661fee65-9c34-442a-84a5-5fc73b
 **Preliminary internal QA: CONDITIONAL PASS — concept candidate only.** The composition visibly separates a marshy/littoral foreground with reeds and shallow pools, an open lake shore and dry foothills, and forested mountain slopes. No animals, people, labels or buildings are present. This broadly follows the required ecological zoning for the Issyk-Kul basin. However, the bright red flowers are generic generated forms and must not be identified as a named local species; the meadow flowers likewise remain unidentified. The conifer forest and shore are illustrative, not proof of exact distribution, season, elevation or locality. The image should be captioned as a schematic regional landscape mosaic, not as one precise viewpoint or a botanically exhaustive plate.
 
 The candidate passed internal prompt-compliance and visual-scope review only. Independent botanical review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
+
+
+## Fifteenth production attempt: Naryn high-altitude vegetation candidate — 3 November 2026
+
+Generated a high-altitude lake-and-meadow panorama (ImageGen ID `cd0d29f9-e363-423b-aa07-1ce414263a74`; source PNG 1672x941 RGB). Local WebP review master: `/mnt/data/flora-naryn-candidate.webp` (2400x1350 RGB; 924,536 bytes).
+
+**Preliminary internal QA: CONDITIONAL PASS — candidate only.** The image conveys an open high-altitude basin, lake shore, alpine grassland, rocky ground and snow-covered mountain relief. It contains no animals, people, buildings or labels. The meadow flowers are generated decorative forms and cannot safely be identified as local species; the prominent red tulip-like flowers and purple iris-like flowers must not be treated as a verified species inventory or as evidence of their occurrence at Son-Kul or Chatyr-Kul. The scene is a generalized high-mountain landscape, not a precise depiction of either lake, and does not establish season, elevation or hydrological conditions. Use only as a schematic regional landscape illustration if later approved.
+
+This is internal prompt-compliance and visual-scope review only. Independent botanical review and editorial sign-off remain outstanding. The WebP is local to this working session; no binary asset was uploaded to GitHub, no chapter marker was replaced, and the mapped asset remains Deferred.
