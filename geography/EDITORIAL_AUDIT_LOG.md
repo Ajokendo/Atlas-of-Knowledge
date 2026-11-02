@@ -1333,3 +1333,83 @@ The chapter's bibliography is explicitly titled “Sources and Further Reading /
 - Chapter 04 remains separately audited and recorded in the preceding entry.
 - This milestone is a text, structure, bilingual-coverage and source-role audit. It is not a declaration of final scientific peer review, final illustration approval, web layout, browser testing, screen-reader testing or physical-device testing.
 - Next block: Chapters 07–11, with the same source-to-claim, bilingual parity, numerical-data and structural checks. Preserve the 20-percentage-point reporting cadence and commit each report to this branch.
+
+
+## Systematic editorial audit — milestone 40% (Chapters 07–11) — 2 November 2026
+
+**Working branch:** `workspace/geography`  
+**Scope:** Chapters 07–11, the second five-chapter block in the 25-chapter systematic audit. Together with Chapters 01–03 and 05–06, this brings the systematic audit to **10/25 chapters = 40%** of the outstanding chapter set. Chapter 04 remains separately audited; this percentage is not the readiness percentage of the complete atlas.
+
+### Standards and scope control
+
+- Re-read `PROJECT_REGISTRY.md` and `EDITORIAL_STANDARD.md` from `atlas-of-knowledge-integration` before this block.
+- Worked only in `geography/` on `workspace/geography`. No other discipline, portal, catalogue, integration or publishing files were edited.
+- Read all five complete chapter files and checked bilingual section structure, chapter summaries, key terms, review questions, practical activities, scientific editorial notes, visual placeholders and source lists.
+
+### Chapter findings
+
+#### Chapter 07 — Biosphere and Natural Biomes
+
+- Confirmed 18 numbered chapter sections, with Russian and English section headings, plus bilingual learning objectives, summary, key terms and review questions.
+- Reviewed the definitions and distinctions among biosphere, population, community, ecosystem, biome, habitat and ecological niche; the text appropriately notes that biome boundaries and classifications are transitional and purpose-dependent.
+- Checked the worked energy-transfer example: 1,200 / 12,000 = 10%; 90 / 1,200 = 7.5%; the self-check value 60 / 800 = 7.5%. The chapter explicitly avoids presenting the 10% heuristic as a universal ecological law.
+- Checked that the notes require classification, date and geodata source for biome maps, and distinguish invasive alien species from alien species generally.
+- Eight references are present and have identifiable roles in biodiversity law and assessment, invasive alien species, conservation status, biosphere reserves, ecoregion mapping and ecosystem ecology.
+- Nine illustration IDs are present as placeholders; no artwork or rendered map is claimed complete.
+
+#### Chapter 08 — Soils and Landscape Geography
+
+- Confirmed 18 numbered sections with Russian/English headings, plus summary, glossary, review questions and practical activities.
+- Checked the soil worked example: dry bulk density = 1,300 g / 1,000 cm³ = 1.3 g/cm³. With the stated assumed mineral particle density of 2.65 g/cm³, estimated total porosity = (1 − 1.3/2.65) × 100% ≈ 50.9%. The text correctly states the assumptions and warns that organic-rich or volcanic soils may have a different particle density.
+- Reviewed the distinctions among humus and soil organic carbon, salinisation and sodification, soil horizons, soil classification, and landscape pattern/process terminology. The editorial notes correctly require classification, sampling depth, date and method for field and mapped soil data.
+- Eight references are present. The FAO reference was clarified to distinguish the 2015 first global assessment from the 2026 updated assessment and to include the 2026 report DOI.
+- Seven illustration IDs remain technical placeholders; maps, profiles and diagrams still require scientific and language review before publication.
+
+#### Chapter 09 — Population and Demography
+
+- Confirmed 19 numbered sections, bilingual learning objectives and parallel Russian/English treatment of demographic concepts, methods, summaries, key terms and activities.
+- Checked the age-dependency example: (18,000 + 7,000) / 50,000 × 100 = 50 dependants per 100 people aged 15–64; child and older-age components are 36 and 14 respectively.
+- Checked the demographic-balance example: 7,500 births − 4,000 deaths = +3,500 natural change; 3,200 arrivals − 2,700 departures = +500 net migration; total annual change +4,000; 500,000 + 4,000 = 504,000. The text explicitly qualifies the equation by excluding boundary changes and statistical adjustments.
+- Checked the crude birth and death rate example: 3,250 / 250,000 × 1,000 = 13‰ and 2,000 / 250,000 × 1,000 = 8‰. The chapter correctly distinguishes crude rates from total fertility and age-standardised mortality.
+- The 8-item reference list covers UN population and urbanisation datasets, census methodology, migration, urban studies, World Bank indicators and HDI. Corrected the Revision 4 description: the English 2025 edition is unedited/not typeset, but Revision 4 was adopted by the UN Statistical Commission in 2025; it should not be described as merely an unadopted draft.
+- Six illustration IDs remain placeholders. Real country/region figures still require date-, definition- and source-specific validation before publication.
+
+#### Chapter 10 — Political Geography
+
+- Confirmed 18 numbered sections, with bilingual explanations, summary, key terms, review questions and practical activities.
+- Checked the legal distinctions among internal waters, territorial sea, contiguous zone, exclusive economic zone, continental shelf and high seas. The text correctly states that the EEZ is not sovereign territory in the same sense as land or territorial sea.
+- Checked the conversion example: 12 nautical miles × 1.852 = 22.224 km; 200 nautical miles × 1.852 = 370.4 km. The chapter correctly warns that this is only a unit conversion and not a method for independently drawing a legal maritime boundary.
+- Checked the turnout example: District A 7,200/9,000 = 80%; District B 2,400/4,000 = 60%; combined turnout 9,600/13,000 ≈ 73.8%. The explanation correctly rejects the unweighted mean of 70% for differently sized districts.
+- Nine references cover the UN Charter, UNCLOS, Vienna Convention, decolonisation, ICJ statute, political geography scholarship and UN M49 statistical groupings. The editorial notes appropriately distinguish legal recognition, organisational membership and effective territorial control.
+- Seven illustration IDs remain placeholders. Any disputed-territory examples and political maps require a separate date-specific legal and cartographic review before publication.
+
+#### Chapter 11 — Economic Geography
+
+- Confirmed 20 numbered sections, including bilingual treatment of economic systems, sectoral structure, GDP, location factors, industry, agriculture, energy, transport, trade, services, tourism, regional inequality, agglomeration and research methods.
+- Checked the location quotient example: regional manufacturing share = 4,000/20,000 = 20%; national share = 150,000/1,000,000 = 15%; LQ = 0.20/0.15 ≈ 1.33. The chapter correctly treats this as relative employment specialisation, not proof of productivity, profitability or competitiveness.
+- Reviewed the distinction between GDP and wider welfare, current/constant prices and PPP, employment versus value added, logistics versus transport, and operating versus planned energy capacity. The editorial notes require year, unit, source, methodology and consistent classification for actual economic data.
+- Ten references cover ISIC, national accounts, World Bank, IMF, ILO, FAO, IEA, UNCTAD, OECD and economic-geography scholarship.
+- Clarified the SNA 2025 reference: the 2025 SNA was adopted by the UN Statistical Commission at its 56th session in 2025. The UN Statistics Division landing page provides the pre-edit text as well as the 2008 edition; the term “pre-edit” describes the text's publication state, not a lack of adoption.
+- Seven illustration IDs remain placeholders; any real trade, corridor, sectoral or regional data shown on maps must be source- and date-specific.
+
+### Authoritative source spot-checks
+
+- FAO confirms that *Status of the World's Soil Resources 2026* was officially launched on 27 August 2026; DOI: `https://doi.org/10.4060/ce0792en`.
+- UN Statistics Division confirms that *Principles and Recommendations for Population and Housing Censuses, Revision 4* was adopted by the Statistical Commission at its 56th session in 2025; the English edition is listed as unedited and not typeset.
+- UN Statistics Division confirms that the 2025 SNA was adopted at the 56th session of the Statistical Commission in 2025 and identifies it as the update to the 2008 SNA.
+- UNCLOS Articles 3, 33, 57 and 58 support the territorial-sea, contiguous-zone and EEZ distinctions used in Chapter 10.
+
+### Corrections saved
+
+1. `geography/chapters/08-soils-and-landscape-geography.md` — clarified the distinction between the 2015 and 2026 FAO global soil assessments and added the 2026 report DOI. Commit: `20942d6834739bbfdb0945b8c0b359becd0404d9`.
+2. `geography/chapters/09-population-and-demography.md` — corrected the status description of Census Recommendations Revision 4. Commit: `d8f34b10997b9b00a992e2a854f4797ea43d2271`.
+3. `geography/chapters/11-economic-geography.md` — clarified adoption of the 2025 SNA and the meaning of “pre-edit” in the UN source listing. Commit: `f5efef398492f6b320fbbb3400f038f4009a2022`.
+
+Each changed chapter was re-fetched from `workspace/geography` after its write and the exact revised text was confirmed. No content change was needed in Chapters 07 or 10.
+
+### Status and next block
+
+- Systematic editorial audit: **10/25 outstanding chapters = 40%** (Chapters 01–03, 05–11); Chapter 04 is separately audited.
+- This block covered bilingual structure, scientific terminology, worked-example arithmetic, source roles and editorial caveats. It is not a declaration of external scientific peer review or final publication readiness.
+- Next block: Chapters 12–16, preserving the same 20-percentage-point reporting cadence.
+- Artwork, final layout, browser rendering, screen-reader testing and physical-device testing remain separate unfinished tasks and are not included in this text-audit percentage.
