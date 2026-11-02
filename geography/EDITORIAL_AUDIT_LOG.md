@@ -1801,3 +1801,36 @@ All changed files were re-fetched after writing. Numbered subsection checks show
 - The separate systematic chapter-by-chapter text audit remains complete at 100%.
 - These two editorial milestones do **not** mean the atlas as a whole is 100% ready for release. Still outstanding are the full source/evidence-closure review where current data or legal/geospatial layers require refreshed verification; production of remaining maps, diagrams and illustrations; final cartographic and administrative-boundary validation; consistent bibliography/link checks; full browser and interactive testing; screen-reader/manual accessibility checks; physical-device testing; and integrated release checks.
 - Recommended next phase: a source-and-evidence closure register covering every chapter, prioritising time-sensitive statistics, legal status, official geospatial boundaries, environmental datasets and the attribution/licensing of external visual materials. Track each item as verified, needs refresh, needs metadata, or blocked; do not inflate the completed editorial percentages with these separate tasks.
+
+
+## Source and evidence closure — initial milestone 20% (Chapters 01–05) — 2 November 2026
+
+Started the next distinct phase after completion of the chapter-by-chapter and cross-chapter editorial reviews. This workstream checks source-link availability, bibliographic accuracy and the relationship between cited sources and adjacent claims; it is not a new editorial-audit percentage.
+
+### Findings and changes
+
+- **Chapter 01:** Corrected the National Geographic URL after the previous path returned 404; corrected the AAG bibliography title so it accurately describes the live GeoWeek page; completed Longley et al. book metadata (4th edition, 2015, ISBN 978-1-118-67695-0). Confirmed the RGS definition page, UN-GGIM portal, ICA Cartographic Body of Knowledge definitions and National Academies Press record.
+  - Chapter commit for AAG/NG URL repairs: `39aa95de3fa0e49f57ed61bc7ddcc0f5b9b61ead`.
+  - Chapter commit for Longley bibliographic completion: `136a492b4c8ff95e761c122feca52fb784d6f176`.
+- **Chapter 02:** Corrected the NOAA CO₂ bibliography URL. The cited title described global annual mean CO₂ data, but the previous URL led to the Annual Greenhouse Gas Index page. It now points to NOAA's global CO₂ monthly/annual mean data page. Confirmed that NOAA's preliminary 2025 marine-surface annual mean (425.62 ppm) and WMO's 2025 global surface mean (426.8 ± 0.2 ppm) are separate series and must remain distinguished.
+  - Chapter commit: `97b2ec1fd9766c37473b66d4983c7d36d9342496`.
+- **Chapter 03:** Confirmed representative primary/authoritative sources for plate motion, minerals, earthquake-location teaching, landslides, geological processes, the Hadean GSSA paper and the 2026 USGS Geochron Data Report 1227. A 403 on one legacy USGS page is recorded as a retrieval limitation, not automatically a dead link.
+- **Chapter 04:** Confirmed NOAA ETOPO 2022, NOAA ocean-depth context, USGS landslide mapping, NPS mass-wasting/plateau references and the 2026 Challenger Deep *Scientific Data* article. The chapter's 10,927 m figure is correctly described as the preferred gridded result for that dataset, not a definitive replacement for other depth estimates.
+- **Chapter 05:** Corrected the same NOAA CO₂ URL mismatch as in Chapter 02. Confirmed the NOAA Climate Data Online page, Copernicus Climate Data Store, IPCC AR6 WGI report record and WMO Bulletin No. 22. Recorded that the broad WMO instruments page and NASA energy-budget homepage should be replaced with precise editions/pages wherever a specific technical or numerical claim relies on them.
+  - Chapter commit: `985fe24f37b81b174d8def8bfc81acfd68ed581c`.
+
+### Evidence controls
+
+- Live page availability is not treated as proof that every adjacent claim is supported.
+- Browser 403, timeout and parser errors are not treated as broken links without independent evidence.
+- Dated conceptual sources may support stable mechanisms but not automatically current numerical estimates.
+- Data series with different sampling networks, spatial coverage or metrics are kept distinct.
+
+### Saved records
+
+- Created `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md` with source-by-source results, status definitions, fixes and remaining limitations.
+  - Commit: `a5e0f714bae135913826ce51ad840bca4003c303`.
+- Updated `geography/EDITORIAL_READINESS_MATRIX.md` to reflect the corrected references and next actions.
+  - Commit: `cec7e38637d3bcd66b30efc21c4506b5092077bc`.
+
+**Milestone:** initial targeted source/evidence pass covers Chapters 01–05 (5/26, approximately 20%). This does not mean every reference or every claim in those chapters has been exhaustively verified. Next block: Chapters 06–10.
