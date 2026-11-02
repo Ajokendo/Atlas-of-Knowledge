@@ -1834,3 +1834,37 @@ Started the next distinct phase after completion of the chapter-by-chapter and c
   - Commit: `cec7e38637d3bcd66b30efc21c4506b5092077bc`.
 
 **Milestone:** initial targeted source/evidence pass covers Chapters 01–05 (5/26, approximately 20%). This does not mean every reference or every claim in those chapters has been exhaustively verified. Next block: Chapters 06–10.
+
+
+## Source and evidence closure — initial milestone 40% (Chapters 06–10) — 2 November 2026
+
+Continued the separate source/evidence workstream with a targeted pass over Chapters 06–10, bringing the initial tranche coverage to 10/26 chapters (approximately 40%).
+
+### Findings and changes
+
+- **Chapter 06:** Replaced the broad USGS Water Science School URL with its live “Water Basics Information by Topic” page. Confirmed NOAA Ocean Facts, UNESCO World Water Development Report, IHO standards index and NSIDC glacier page. Future numerical claims must cite a specific report edition, dataset or hydrographic standard rather than a broad portal alone.
+  - Chapter commit: `94db71522ef52d6020b3c22bc8321645cb6ef7d8`.
+- **Chapter 07:** Confirmed CBD, IPBES 2019 and 2023 assessment records, IUCN Red List metadata, UNESCO MAB, Olson et al. (2001) and the Millennium Ecosystem Assessment. Completed Chapin, Matson & Vitousek textbook metadata and DOI.
+  - Chapter commit: `a5c0d149b4f5e5db912775c46f3c8b36f4b19c96`.
+- **Chapter 08:** Confirmed WRB fourth edition 2022 and its 2024 corrections, FAO/ITPS 2026 soil assessment, USDA Soil Survey Manual, UNCCD Global Land Outlook and JRC ESDAC. Replaced a restricted FAO PDF endpoint with the official FAO landing page for the 2017 Voluntary Guidelines. Completed Turner, Gardner & O'Neill textbook metadata and DOI.
+  - Chapter commit: `ee7e8bb104a737ca270d587492f8f32c385f376f`.
+- **Chapter 09:** Confirmed the UN census Revision 4 page, demographic standards, WDI population indicator and UNDP data centre; publisher/search records confirm WPP 2024, WUP 2025, IOM World Migration Report 2024 and UN-Habitat World Cities Report 2024. The next claim-level pass must record exact tables, variants, years and extraction dates. No chapter text edit was necessary.
+- **Chapter 10:** Confirmed UN Charter and UNCLOS treaty records, Vienna Convention depositary record, UN M49 qualification and UN Digital Library record for Resolution 1514 (XV). Replaced the direct UNCLOS PDF URL with the UN Treaty Collection depositary record, added the missing UN Digital Library link for Resolution 1514, and completed edition/year/publisher/ISBN metadata for Agnew, Flint, and Taylor & Flint.
+  - Chapter commit: `55197bae98112b750ac569392e73c4f4bc2ab46a`.
+
+### Evidence cautions
+
+- Some official domains returned 403 or timeouts to the browser. Where an authoritative institutional or publisher record independently confirmed the source, this is marked as a retrieval limitation rather than a dead link.
+- The IUCN Red List is a dynamic assessment database: any species claim must cite the exact taxon page, assessment date and version.
+- WPP/WUP landing pages do not substitute for a specific data table, variant or extraction record.
+- M49 statistical regions are not legal boundary decisions; UNESCO MAB, IUCN categories, CBD treaty obligations and national protected-area law are separate systems.
+- Soil classification (WRB), soil survey methods and global soil-condition assessments are distinct source types.
+
+### Saved records
+
+- `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md` extended through Chapters 06–10.
+  - Commit: `fa87f826d96bb94a3339526c84b92ead4103d56f`.
+- `geography/EDITORIAL_READINESS_MATRIX.md` updated with the 40% evidence milestone and remaining source actions.
+  - Commit: `06bc62dceb298435ad1b683a1b787403d124b43a`.
+
+**Milestone:** initial targeted source/evidence pass covers Chapters 01–10 (10/26, approximately 40%). This is not an exhaustive sentence-by-sentence citation audit. Next block: Chapters 11–15.
