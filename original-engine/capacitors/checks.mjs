@@ -12,8 +12,8 @@ check('C = ε₀A/d = 7.08 pF', near(M.C0, 7.08e-12, 1e-3), pF(M.C0));
 check('C = Q/ΔV is the same at every voltage', [0.7, 2, 3.3].every(t => near(M.charging(t).Q / M.charging(t).V, M.C0)));
 // a sheet's field: rings summed numerically against the closed form, and the infinite-sheet limit
 const sig = M.Q0 / M.PLATE.A;
-check('disc field: ring sum = closed form', [0.005, 0.02, 0.05].every(z => near(M.discAxisENumeric(sig, 0.1, z), M.discAxisE(sig, 0.1, z), 1e-4)));
-check('wide disc → sheet: E → σ/2ε₀', near(M.discAxisE(sig, 1e4, 0.02), M.sheetE(sig), 1e-5));
+check('disc field: ring sum = closed form on both sides', [-0.05, -0.02, -0.005, 0, 0.005, 0.02, 0.05].every(z => near(M.discAxisENumeric(sig, 0.1, z), M.discAxisE(sig, 0.1, z), 1e-4)));
+check('wide disc → sheet: E → ±σ/2ε₀ on opposite sides', near(M.discAxisE(sig, 1e4, 0.02), M.sheetE(sig), 1e-5) && near(M.discAxisE(sig, 1e4, -0.02), -M.sheetE(sig), 1e-5));
 check('between the plates E₊ + E₋ = σ/ε₀ = Q/(ε₀A)', near(2 * M.sheetE(sig), M.E0, 1e-3), `${(2 * M.sheetE(sig)).toFixed(0)} V/m`);
 check('outside wide plates E₊ − E₋ → 0', Math.abs(M.discAxisE(sig, 1e4, 0.03) - M.discAxisE(sig, 1e4, 0.03 + M.PLATE.d)) < 1e-5 * M.E0);
 // Gauss: the pillbox through the + plate
