@@ -180,7 +180,7 @@ export const PAGES = [
       </table>
       <p>Протон отклонился бы в противоположную сторону, причём его отклонение было бы в ${f(M.MP / M.ME, 0)} раз меньше: ${f(M.PLATES.yProton * 1e6, 1)} мкм.</p>
       <div class="charts">${chart({ ...R.plates, xlabel: 'x (см)', ylabel: 'y (мм)', cursor: 'plates', label: 'Траектория электрона: парабола между пластинами, затем прямая линия',
-        series: [{ pts: curve(0, M.PLATES.run, t => [M.electron(t).x * 100, M.electron(t).y * 1000]).map(p => p[1]) }, { cls: 'curve trend', pts: [[M.PLATES.L * 100, 0], [M.PLATES.L * 100, 14]], tag: [M.PLATES.L * 100 - 3.6, 12, 'конец пластин'] }] })}</div>
+        series: [{ pts: Array.from({ length: 81 }, (_, i) => { const e = M.electron(M.PLATES.run * i / 80); return [e.x * 100, e.y * 1000]; }) }, { cls: 'curve trend', pts: [[M.PLATES.L * 100, 0], [M.PLATES.L * 100, 14]], tag: [M.PLATES.L * 100 - 3.6, 12, 'конец пластин'] }] })}</div>
       <p class="hintline">Анимация замедлена примерно в 10⁹ раз; масштаб изображения ${PL.S}×; E — ${f(PL.E * 100 * 1000, 0)} см на кН/Кл. Нажмите, чтобы увидеть v<sub>x</sub> и v<sub>y</sub>.</p>`,
     cam: { target: at('plates', -0.1, 0.5), az: -10, el: 5, dist: 17 }, lit: 'plates', scene: 'plates', look: {},
     fig: 'Электрон между заряженными пластинами',
