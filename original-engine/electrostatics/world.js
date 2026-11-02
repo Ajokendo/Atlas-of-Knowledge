@@ -57,7 +57,7 @@ export function buildWorld(E) {
     const c = V(X0 + (k - 1) * 3.4, 0.3, 0), g = new THREE.Group(); g.position.copy(c); gA.add(g);
     // nucleus: 6 protons (red) and 6 neutrons (paper) packed in a small cluster
     const nuc = [[0, 0, 0.12], [0.12, 0.08, 0], [-0.12, 0.06, 0.02], [0.05, -0.12, 0.03], [-0.07, -0.08, -0.08], [0.09, 0.02, -0.11], [-0.02, 0.13, -0.07], [0.14, -0.08, -0.06], [-0.14, -0.04, 0.09], [0.02, -0.02, -0.15], [-0.08, 0.1, 0.1], [0.07, 0.11, 0.09]];
-    nuc.forEach((p, i) => { const b = bead(g, 0.085, i % 2 ? 'paper' : 'red', 'Nucleus'); b.position.set(...p); });
+    nuc.forEach((p, i) => { const b = bead(g, 0.085, i % 2 ? 'paper' : 'red', 'Ядро'); b.position.set(...p); });
     const orbit = (r, tilt) => { const pts = []; for (let i = 0; i < 64; i++) for (const j of [i, i + 1]) { const t = j / 64 * 2 * Math.PI; const p = V(r * Math.cos(t), r * Math.sin(t), 0).applyAxisAngle(V(1, 0, 0), tilt); pts.push(p.x, p.y, p.z); } const l = lines(g, pts, '#c4c4c8'); return l; };
     orbit(0.62, 1.1); orbit(1.15, 0.35);
     const el = Array.from({ length: a.e }, (_, i) => { const b = bead(g, 0.075, 'blue', 'Электроны'); b.userData.shell = i < 2 ? 0 : 1; b.userData.slot = i < 2 ? i / 2 : (i - 2) / Math.max(a.e - 2, 4); return b; });
@@ -119,13 +119,13 @@ export function buildWorld(E) {
   const X2 = STATIONS.coulomb, Y2 = 0.6;
   sheet(X2 - 4, X2 + 4, -2, 2.5);
   const gC = asm('coulomb', root, { title: 'Два точечных заряда', sub: 'разноимённые заряды, закон обратных квадратов' });
-  const c1 = charge(gC, 1, 0.26, `+${M.PAIR.q1 / M.uC} μC`), c2 = charge(gC, -1, 0.21, `−${-M.PAIR.q2 / M.uC} μC`);
+  const c1 = charge(gC, 1, 0.26, `+${M.PAIR.q1 / M.uC} мкКл`), c2 = charge(gC, -1, 0.21, `−${-M.PAIR.q2 / M.uC} мкКл`);
   const fC1 = force(gC), fC2 = force(gC), rLine = dashed(gC);
   label('vec', 'F<sub>на 1</sub>', () => tip(fC1, 0.05) && tip(fC1, 0.05).add(V(0, 0.28, 0))); label('vec', 'F<sub>на 2</sub>', () => tip(fC2, 0.05) && tip(fC2, 0.05).add(V(0, 0.28, 0)));
   label('axis', '<i>r</i>', () => V(X2 + 0.08, Y2 - 0.32, 0));
   // breakdown: a like pair at the same distance, which repels
   const likeG = new THREE.Group(); gC.add(likeG);
-  const l1 = charge(likeG, 1, 0.26, `+${M.PAIR.q1 / M.uC} μC`), l2 = charge(likeG, 1, 0.21, `+${M.PAIR.like / M.uC} μC`);
+  const l1 = charge(likeG, 1, 0.26, `+${M.PAIR.q1 / M.uC} мкКл`), l2 = charge(likeG, 1, 0.21, `+${M.PAIR.like / M.uC} мкКл`);
   const fL1 = force(likeG), fL2 = force(likeG);
   label('vec', 'F', () => likeG.visible ? tip(fL1) : null); label('vec', 'F', () => likeG.visible ? tip(fL2) : null);
 
@@ -136,9 +136,9 @@ export function buildWorld(E) {
   for (let x = 0; x <= M.LINE.D + 1e-9; x += 0.05) axisPts.push(LX(x), Y3 - 0.06, 0, LX(x), Y3 + 0.06, 0);
   lines(root, axisPts, '#8a8a8f');
   const gL = asm('line', root, { title: 'Три заряда на одной прямой', sub: 'точка равновесия сил' });
-  const qA = charge(gL, 1, 0.24, `+${M.LINE.qA / M.uC} μC`), qB = charge(gL, 1, 0.15, `+${M.LINE.qB / M.uC} μC`);
+  const qA = charge(gL, 1, 0.24, `+${M.LINE.qA / M.uC} мкКл`), qB = charge(gL, 1, 0.15, `+${M.LINE.qB / M.uC} мкКл`);
   qA.position.set(LX(0), Y3, 0); qB.position.set(LX(M.LINE.D), Y3, 0);
-  const q0 = charge(gL, 1, 0.1, null, 'Test charge');
+  const q0 = charge(gL, 1, 0.1, null, 'Пробный заряд');
   const fA = force(gL), fB = force(gL), fN = force(gL, true);
   label('vec', 'F<sub>A</sub>', () => tip(fA)); label('vec', 'F<sub>B</sub>', () => tip(fB)); label('vec red', 'ΣF', () => tip(fN));
   label('tick', '<i>q</i><sub>0</sub>', () => q0.getWorldPosition(V()).add(V(0.05, -0.3, 0)));
@@ -151,7 +151,7 @@ export function buildWorld(E) {
   lines(root, [X4, -3, 0, X4, 3.8, 0], '#b4b4b8');
   const gF = asm('point', root, { title: 'Поле точечного заряда', sub: 'E = kQ/r²: от + и к −' });
   const fieldOf = (c, sign) => {
-    const qm = charge(gF, sign, 0.2, `${sign > 0 ? '+' : '−'}${M.POINT.Q / M.nC} nC`); qm.position.copy(c);
+    const qm = charge(gF, sign, 0.2, `${sign > 0 ? '+' : '−'}${M.POINT.Q / M.nC} нКл`); qm.position.copy(c);
     const ln = [];
     for (let i = 0; i < 16; i++) { const t = i / 16 * 2 * Math.PI; ln.push(c.x + 0.25 * Math.cos(t), c.y + 0.25 * Math.sin(t), 0, c.x + 3.4 * Math.cos(t), c.y + 3.4 * Math.sin(t), 0); }
     lines(gF, ln, BLUE_LINE);
@@ -165,10 +165,10 @@ export function buildWorld(E) {
   };
   const vP = fieldOf(CP, 1); fieldOf(CN, -1);
   label('vec blue', '<i>E</i>', () => tip(vP[0]));
-  const t0 = charge(gF, 1, 0.09, null, 'Test charge'), fT = force(gF), rT = dashed(gF), rhat = comp(gF, 'r̂');
+  const t0 = charge(gF, 1, 0.09, null, 'Пробный заряд'), fT = force(gF), rT = dashed(gF), rhat = comp(gF, 'r̂');
   label('vec', '<i>F</i> = <i>q</i><sub>0</sub><i>E</i>', () => tip(fT, 0.1) && tip(fT, 0.1).add(V(-0.25, 0.42, 0))); label('tick', '<i>q</i><sub>0</sub>', () => t0.getWorldPosition(V()).add(V(-0.05, 0.3, 0)));
   label('vec', 'r̂', () => ex(gF) > 0.3 ? tip(rhat, 0.05).add(V(0.1, -0.25, 0)) : null);
-  const t1 = charge(gF, 1, 0.09, null, 'Test charge'), fT1 = force(gF);
+  const t1 = charge(gF, 1, 0.09, null, 'Пробный заряд'), fT1 = force(gF);
   label('vec', '<i>F</i>', () => ex(gF) > 0.3 ? tip(fT1) : null);
 
   // ---------- 5 · the electric dipole ----------
@@ -176,7 +176,7 @@ export function buildWorld(E) {
   sheet(X5 - 6, X5 + 4, -2.6, 3.4);
   const gD = asm('dipole', root, { title: 'Электрический диполь', sub: 'два близко расположенных разноимённых заряда' });
   const dch = M.dipoleCharges();
-  const dPlus = charge(gD, 1, 0.18, `+${M.DIPOLE.q / M.nC} nC`), dMinus = charge(gD, -1, 0.18, `−${M.DIPOLE.q / M.nC} nC`);
+  const dPlus = charge(gD, 1, 0.18, `+${M.DIPOLE.q / M.nC} нКл`), dMinus = charge(gD, -1, 0.18, `−${M.DIPOLE.q / M.nC} нКл`);
   dPlus.position.copy(DW(dch[0].at)); dMinus.position.copy(DW(dch[1].at));
   { const pts = [];
     for (const L of M.dipoleLines(20)) for (let i = 1; i < L.length; i++) { const a = DW(L[i - 1]), b = DW(L[i]); if (a.y > D0.y + 3.9 || b.y > D0.y + 3.9 || a.y < D0.y - 2 || b.y < D0.y - 2 || a.x < X5 - 6 || b.x > X5 + 4) continue; pts.push(a.x, a.y, 0, b.x, b.y, 0); }
@@ -186,7 +186,7 @@ export function buildWorld(E) {
   label('tick', 'P', () => pAx.getWorldPosition(V()).add(V(-0.05, -0.3, 0))); label('tick', 'P', () => pBi.getWorldPosition(V()).add(V(0.3, 0.12, 0)));
   const eAx = eArrow(gD), eBi = eArrow(gD);
   label('vec blue', '<i>E</i>', () => tip(eAx)); label('vec blue', '<i>E</i>', () => tip(eBi, 0.3));
-  const eAp = dE(gD, 'E₊ and E₋'), eAm = dE(gD, 'E₊ and E₋'), eBp = dE(gD, 'E₊ and E₋'), eBm = dE(gD, 'E₊ and E₋');
+  const eAp = dE(gD, 'Поля E₊ и E₋'), eAm = dE(gD, 'Поля E₊ и E₋'), eBp = dE(gD, 'Поля E₊ и E₋'), eBm = dE(gD, 'Поля E₊ и E₋');
   const cBpy = comp(gD), cBmy = comp(gD);
   label('vec blue', 'E<sub>+</sub>', () => ex(gD) > 0.3 ? tip(eBp) : null); label('vec blue', 'E<sub>−</sub>', () => ex(gD) > 0.3 ? tip(eBm) : null);
   label('vec blue', 'E<sub>+</sub>', () => ex(gD) > 0.3 ? tip(eAp).add(V(0, 0.2, 0)) : null); label('vec blue', 'E<sub>−</sub>', () => ex(gD) > 0.3 ? tip(eAm).add(V(0, -0.15, 0)) : null);
@@ -234,7 +234,7 @@ export function buildWorld(E) {
   };
   plate(P8.y + GAP / 2 + 0.04, 1); plate(P8.y - GAP / 2 - 0.04, -1);
   label('vec red', '+ + +', () => V(P8.x + PLL + 0.55, P8.y + GAP / 2 + 0.05, 0)); label('vec blue', '− − −', () => V(P8.x + PLL + 0.55, P8.y - GAP / 2 - 0.05, 0));
-  for (let i = 0; i < 6; i++) { const a = eArrow(gP, 'Uniform field'); setArrow(a, V(P8.x + (i + 0.5) * PLL / 6, P8.y + GAP / 2 - 0.12, -0.5), V(0, -M.PLATES.E * PL.E, 0)); }
+  for (let i = 0; i < 6; i++) { const a = eArrow(gP, 'Однородное поле'); setArrow(a, V(P8.x + (i + 0.5) * PLL / 6, P8.y + GAP / 2 - 0.12, -0.5), V(0, -M.PLATES.E * PL.E, 0)); }
   label('vec blue', '<i>E</i>', () => V(P8.x + PLL / 12 + 0.25, P8.y + 0.05, -0.5));
   const elec = charge(gP, -1, 0.08, null, 'Электрон');
   const fE = force(gP), vx = comp(gP, 'Скорость'), vy = comp(gP, 'Скорость');
