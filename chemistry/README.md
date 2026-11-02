@@ -131,4 +131,4 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 
 - [x] Added static regression evidence checks for atomic structure, the limits of shell/orbital diagrams, ionic lattices, bond versus molecular polarity, acid strength versus concentration, temperature-dependent neutral pH, buffer approximation/capacity limits, Henry's law, equilibrium solubility versus dissolution rate, Qₛₚ/Kₛₚ and nucleation, and the mole/entity distinction.
 - [x] Corrected two test expectations to match the published Russian wording in the amount-of-substance chapter; no content defect was found there.
-- [ ] Re-run full CI after the assertion correction; continue the remaining chapter-by-chapter editorial comparison.
+- [x] Re-ran full CI after correcting the two assertion expectations; the latest branch-head run completed successfully, including Chromium checks for all 21 pages.
