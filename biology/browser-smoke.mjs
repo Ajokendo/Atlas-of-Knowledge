@@ -261,6 +261,69 @@ try {
           }
         };
 
+        const verifyAnyChoiceGroup = async (groupSelector, outputSelector, attribute, label) => {
+          const controls = page.locator(groupSelector);
+          const count = await controls.count();
+          if (!count) {
+            errors.push(file + ": " + label + " model controls not found");
+            return;
+          }
+          for (let i = 0; i < count; i++) {
+            const control = controls.nth(i);
+            await control.click();
+            const pressed = await controls.evaluateAll(elements =>
+              elements.filter(el => el.getAttribute("aria-pressed") === "true").length);
+            const output = (await page.locator(outputSelector).innerText()).trim();
+            if (await control.getAttribute("aria-pressed") !== "true" || pressed !== 1 || !output) {
+              errors.push(file + ": " + label + " option " + i +
+                " did not produce one selected control and a non-empty output (pressed: " + pressed +
+                "; output: " + output + ")");
+            }
+          }
+        };
+
+        if (file.endsWith("/botany.html")) {
+          await verifyAnyChoiceGroup("#plant-organs button[data-organ]", "#organ-output", "organ", "plant organ");
+          for (const condition of ["light", "water", "co2"]) {
+            const control = page.locator('#condition-controls [data-condition="' + condition + '"]');
+            if (!(await control.count())) {
+              errors.push(file + ": photosynthesis condition control missing: " + condition);
+              continue;
+            }
+            await control.click();
+            if (await control.getAttribute("aria-pressed") !== "false" ||
+                !(await page.locator("#photo-status").innerText()).trim()) {
+              errors.push(file + ": disabling " + condition + " did not update photosynthesis state");
+            }
+            await control.click();
+            if (await control.getAttribute("aria-pressed") !== "true") {
+              errors.push(file + ": re-enabling " + condition + " did not restore its active state");
+            }
+          }
+        }
+        if (file.endsWith("/zoology.html")) {
+          await verifyAnyChoiceGroup("#animal-controls button[data-group]", "#animal-output", "group", "animal group");
+        }
+        if (file.endsWith("/cell-biology.html")) {
+          await verifyAnyChoiceGroup("#org-controls button[data-org]", "#org-output", "org", "organelle");
+          await verifyAnyChoiceGroup("#transport-controls button[data-mode]", "#transport-output", "mode", "membrane transport");
+          await verifyAnyChoiceGroup("#mitosis-controls button[data-stage]", "#mitosis-output", "stage", "mitosis stage");
+        }
+        if (file.endsWith("/anatomy.html")) {
+          await verifyAnyChoiceGroup("#system-controls button[data-system]", "#system-output", "system", "body system");
+        }
+        if (file.endsWith("/microbiology.html")) {
+          await verifyAnyChoiceGroup("#group-controls button[data-group]", "#group-output", "group", "microbial group");
+          await verifyAnyChoiceGroup("#shape-controls button[data-shape]", "#shape-output", "shape", "bacterial shape");
+          await verifyAnyChoiceGroup("#phase-controls button[data-phase]", "#phase-output", "phase", "growth phase");
+        }
+        if (file.endsWith("/evolution.html")) {
+          await verifyAnyChoiceGroup("#selection-controls button[data-selection]", "#selection-output", "selection", "selection pressure");
+          await verifyAnyChoiceGroup("#mechanism-controls button[data-mech]", "#mechanism-output", "mech", "evolutionary mechanism");
+          await verifyAnyChoiceGroup("#homology-controls button[data-homology]", "#homology-output", "homology", "homology comparison");
+          await verifyAnyChoiceGroup("#timeline-controls button[data-era]", "#timeline-output", "era", "evolutionary timeline");
+        }
+
         if (file.endsWith("/genetics.html")) {
           await verifyModelChoices("#template-controls button", "#rna-output",
             [["TAC", "AUG"], ["GGA", "CCU"], ["ATG", "UAC"], ["CCT", "GGA"]], "template");
