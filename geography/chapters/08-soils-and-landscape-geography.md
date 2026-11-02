@@ -618,7 +618,7 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
 1. IUSS Working Group WRB. **World Reference Base for Soil Resources**, 4th edition (2022; corrected 2024) — international soil classification system. https://wrb.isric.org/documents.html
-2. FAO and Intergovernmental Technical Panel on Soils. **Status of the World's Soil Resources** (2015) — first global assessment; see also the updated **Status of the World's Soil Resources 2026**. https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/itps/status-of-the-worlds-soil-resources/en
+2. FAO and Intergovernmental Technical Panel on Soils. **Status of the World's Soil Resources** (2015) — first global assessment; updated global assessment: **Status of the World's Soil Resources 2026** (officially launched on 27 August 2026; DOI: https://doi.org/10.4060/ce0792en). https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/itps/status-of-the-worlds-soil-resources/en
 3. FAO. **Voluntary Guidelines for Sustainable Soil Management** (2017) — principles for sustainable soil management. https://www.fao.org/3/bl813e/bl813e.pdf
 4. USDA Natural Resources Conservation Service. **Soil Survey Manual** — methods for soil profile description and survey. https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual
 5. Intergovernmental Panel on Climate Change (IPCC). **Climate Change and Land: An IPCC Special Report** (2019) — links among land use, land degradation and climate change. https://www.ipcc.ch/srccl/
