@@ -495,7 +495,7 @@ For Kyrgyzstan, it is particularly important not to confuse permanent rural-to-u
 
 **Учебное задание.** Сравните миграционный баланс НСК за 2021 и 2025 годы. Затем объясните, почему оценки МОМ о гражданах, продолжающих жить за рубежом, нельзя приравнять к отрицательному миграционному балансу за один год. В ответе используйте понятия «поток», «запас населения», «миграционное сальдо» и «метод сбора данных».
 
-#### 23.8.2. Recent Migration Patterns: Official Statistics and Mobility Estimates
+#### Recent Migration Patterns: Official Statistics and Mobility Estimates
 
 For Kyrgyzstan, several sources should be compared without treating their indicators as interchangeable. The National Statistical Committee (NSC) publishes annual net migration or outflow data. The International Organization for Migration (IOM), through its Displacement Tracking Matrix (DTM), conducts community-level mobility assessments. These sources answer different questions and use different methods.
 
