@@ -143,7 +143,7 @@ export const ARC = { Q: 2 * nC, R: 0.15, span: Math.PI };
 export const Varc0 = K * ARC.Q / ARC.R;
 export const DISC = { Q: 2 * nC, R: 0.15 };
 DISC.sigma = DISC.Q / (Math.PI * DISC.R ** 2);
-export const Vdisc = z => 2 * Math.PI * K * DISC.sigma * (Math.sqrt(DISC.R ** 2 + z * z) - z);
+export const Vdisc = z => 2 * Math.PI * K * DISC.sigma * (Math.sqrt(DISC.R ** 2 + z * z) - Math.abs(z));
 export const axisProbe = t => sweep(t, 0, 0.25, RING.T);
 // numeric versions: N point pieces
 export function ringSum(N, z) { let V = 0; for (let i = 0; i < N; i++) { const a = 2 * Math.PI * (i + 0.5) / N; V += K * (RING.Q / N) / Math.hypot(RING.R * Math.cos(a), RING.R * Math.sin(a), z); } return V; }
