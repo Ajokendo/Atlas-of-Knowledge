@@ -910,6 +910,7 @@ Flora and fauna are connected through pollination, seed dispersal, food webs and
 - UNDP Kyrgyzstan. **Kyrgyzstan Presents its National Biodiversity Conservation Programme Until 2040** (18 November 2025). https://www.undp.org/kyrgyzstan/press-releases/kyrgyzstan-presents-its-national-biodiversity-conservation-programme-until-2040
 - Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. **State Programme on Biodiversity Conservation until 2040 presented**, 18 November 2025 (national workshop and draft status). https://www.mnr.gov.kg/ru/posts/news/v-kyrgyzstane-predstavlena-gosudarstvennuyu-programmu-po-soxraneniyu-biologiceskogo-raznoobraziya-do-2040-goda
 - United Nations Kyrgyz Republic. **Voluntary National Review 2025**. Разделы о биоразнообразии и национальном Красном списке. https://kyrgyzstan.un.org/sites/default/files/2025-08/VNR%202025%20Kyrgyz%20Republic%20Report%20EN.pdf
+- Kubanychbekov, Z. et al. (2026). **Snow Leopard (*Panthera uncia*) Status in Kyrgyzstan.** *Snow Leopard Reports*, 5(1). National distribution and status assessment based on camera trapping, field surveys and community information. https://doi.org/10.56510/slr.v5.63883
 - IUCN. **The IUCN Red List of Threatened Species**. https://www.iucnredlist.org/
 - CITES. **The CITES Appendices**. https://cites.org/eng/app/appendices.php
 - Convention on Biological Diversity. **Kunming–Montreal Global Biodiversity Framework**. https://www.cbd.int/gbf
