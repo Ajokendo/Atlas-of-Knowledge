@@ -210,7 +210,7 @@ export function buildWorld(E) {
       const m = part(gDip, cyl(0.035, 1, 14), { tone: 'hi', pal, name: 'Пробные заряды' });
       const at = base.clone().add(V(dx, 0, 0));
       sticks.push({ m, at, h: hgt(v) });
-      const txt = `${v > 0.05 ? '+' : v < -0.05 ? '−' : ''}${Math.abs(v).toFixed(0)} V`;
+      const txt = `${v > 0.05 ? '+' : v < -0.05 ? '−' : ''}${Math.abs(v).toFixed(0)} В`;
       label(pal === 'ink' ? 'tick' : 'tick', pal === 'ink' ? `Σ ${txt}` : txt, () => m.visible ? at.clone().add(V(pal === 'red' ? -0.08 : pal === 'ink' ? 0.95 : 0.6, hgt(v) + (v >= 0 ? 0.14 : -0.14), 0)) : null);
     });
   }
