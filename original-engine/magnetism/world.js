@@ -164,7 +164,7 @@ export function buildWorld(E) {
     const ring = Array.from({ length: 97 }, (_, k) => { const a = k / 96 * 2 * Math.PI; return V(cC.x + r * DP * Math.sin(a), cC.y, startC.z - r * DP + r * DP * Math.cos(a)); });
     curve(root, ring, trailMat);
     const m = charge(gC, 1, 0.13);
-    return { m, v: inkArrow(gC, 'Скорость v'), F: redArrow(gC, 'Сила F'), rad: thinGrey(gC, 'Radius r'), centre: V(cC.x, cC.y, startC.z - r * DP) };
+    return { m, v: inkArrow(gC, 'Скорость v'), F: redArrow(gC, 'Сила F'), rad: thinGrey(gC, 'Радиус r'), centre: V(cC.x, cC.y, startC.z - r * DP) };
   });
   cyc.forEach((o, i) => { label('vec', '<b>v</b>', () => tip(o.v)); label('vec red', '<b>F</b>', () => ex(gC) > 0.3 ? tip(o.F) : null);
     label('vec grey', `r<sub>${i + 1}</sub>`, () => ex(gC) > 0.3 ? o.centre.clone().lerp(o.m.position, 0.5).add(V(0, 0.25, 0)) : null); });
