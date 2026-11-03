@@ -194,7 +194,13 @@ export function buildWorld(E) {
           const ta = i / n * t, tb = (i + 1) / n * t;
           const xa = tToX(b, ta), xb = tToX(b, tb), ya = plotY[b.key](fn[b.key](ta)), yb = plotY[b.key](fn[b.key](tb)), z0 = b.zeroY, z = b.zf + 0.005;
           const k = i * 18;
-          pos.set([xa, z0, z, xb, z0, z, xb, yb, z, xa, z0, z, xb, yb, z, xa, ya, z], k);
+          // Write directly into the reusable typed array; avoid one temporary JS array per triangle pair.
+          pos[k] = xa; pos[k + 1] = z0; pos[k + 2] = z;
+          pos[k + 3] = xb; pos[k + 4] = z0; pos[k + 5] = z;
+          pos[k + 6] = xb; pos[k + 7] = yb; pos[k + 8] = z;
+          pos[k + 9] = xa; pos[k + 10] = z0; pos[k + 11] = z;
+          pos[k + 12] = xb; pos[k + 13] = yb; pos[k + 14] = z;
+          pos[k + 15] = xa; pos[k + 16] = ya; pos[k + 17] = z;
         }
         position.needsUpdate = true;
         b.area.geometry.setDrawRange(0, n * 6);
