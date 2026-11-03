@@ -238,3 +238,37 @@ No original binary downloaded or inspected locally; no asset accepted; no WebP p
 Sources rechecked:
 - https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(1).jpg
 - https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(2).jpg
+
+
+## Follow-up: additional Ala-Archa squirrel candidates and regional snow-leopard lead (3 November 2026)
+
+### ElenaLitera squirrel — file (1)
+- File page: https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_белка_(1).jpg
+- Author: ElenaLitera; own work.
+- Date: 25 August 2023, 11:29:51.
+- Original: JPEG, 2848 × 1899, 840 KB.
+- License: CC BY-SA 4.0.
+- Page identifies Ala-Archa National Park; categories include Animals in Ala Archa national park and Sciurus vulgaris in trees. Structured `depicts` explicitly names Ala-Archa National Park but does not provide a taxon item; use species label provisionally pending direct image review.
+- Candidate only; no local original acquired.
+
+### Other ElenaLitera squirrel photographs
+The same Commons category lists two further squirrel-at-hand photographs:
+- `Кыргызстан, нацпарк Ала-Арча, белка ест с рук (1).jpg` — 4083 × 2722.
+- `Кыргызстан, нацпарк Ала-Арча, белка ест с рук (2).jpg` — 3779 × 2519.
+- `Кыргызстан, нацпарк Ала-Арча, белка ест с рук (3).jpg` — 3347 × 2231.
+Category membership alone is insufficient for selection. Individually inspect file pages, captions, rights, and whether the animal is being fed/handled by visitors. For an educational wildlife atlas, prefer a natural, non-contact image over a staged hand-feeding scene; do not normalize feeding wild animals.
+
+### Snow leopard / ibex / wild boar — Ala-Archa camera-trap archive lead
+Sputnik Kyrgyzstan reported on 22 April 2017 that Panthera Kyrgyzstan supplied camera-trap images from Ala-Archa National Park; the report mentions snow leopard, ibex and wild boar, including young animals:
+https://ru.sputnik.kg/20170422/nacionalnyj-park-ala-archa-1033020572.html
+This is useful evidence of a historical camera-trap image set and local species occurrence. It is **not** an open license grant. Do not download/reuse Sputnik or Panthera images without explicit permission from the actual rights holder. A permission request could ask Panthera Kyrgyzstan whether original high-resolution files and reuse terms are available for a free educational atlas.
+
+### Decision
+The strongest additional Commons lead is ElenaLitera's squirrel file (1), subject to actual image inspection and binary acquisition. The three hand-feeding images are lower priority because they may depict human-provisioned behavior. The Panthera camera-trap archive is a potentially valuable route to locally relevant snow leopard/ibex/boar imagery, but reuse rights must be negotiated.
+
+No original binary downloaded; no WebP prepared; no chapter insertion. Accepted/integrated visual count remains 0/52.
+
+Sources:
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_белка_(1).jpg
+- https://commons.wikimedia.org/wiki/Category:Animals_in_Ala_Archa_national_park
+- https://ru.sputnik.kg/20170422/nacionalnyj-park-ala-archa-1033020572.html
