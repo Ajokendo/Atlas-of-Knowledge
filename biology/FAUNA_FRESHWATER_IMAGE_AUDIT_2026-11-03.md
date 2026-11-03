@@ -5,7 +5,7 @@
 **Anchor:** `image-brief-fauna-freshwater`  
 **Target:** `images/generated/fauna-freshwater.webp`  
 **Priority:** P1  
-**Disposition:** Deferred — scientific composition clarified; no image accepted or integrated in this audit.
+**Disposition:** Original schematic SVG produced and integrated on 3 November 2026. The audit remains the scientific constraint record; browser/device visual QA is still pending.
 
 ## Evidence checked in the chapter
 
@@ -36,7 +36,7 @@ The 2026 Institute of Biology / American Museum of Natural History research cove
 
 ## Acceptance gate
 
-The brief remains **Deferred** until a suitable image is actually produced, inspected for scientific plausibility, integrated at the original anchor, supplied with bilingual alt text/captions and source/licence or creator attribution, and passed through static and Chromium checks. A composition note or generated draft alone does not count as a produced brief.
+The brief has passed the production and integration steps: `images/generated/fauna-freshwater-habitats.svg` is an original schematic, inserted at the original chapter anchor with bilingual alt text and captions. The fish silhouettes are intentionally generic and unlabelled. Remaining acceptance work: inspect the rendered figure in a browser at desktop/mobile widths and complete static/Chromium checks. Until those checks pass, classify the asset as **integrated, QA pending**, not fully approved. A composition note or generated draft alone does not count as a produced brief.
 
 ## Sources already cited by the chapter
 
