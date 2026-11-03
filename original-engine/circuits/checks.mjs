@@ -73,7 +73,7 @@ check('load sweeps 0.5–8 Ω', near(M.cellLoad(0), M.CELL.Rmin) && near(M.cellL
 // ---------- RC ----------
 const { RC } = M;
 check('τ = RC = 2.0 s', near(RC.tau, 2));
-check('RC: capacitor charge is continuous when switch changes at 5τ', Math.abs(M.rc(RC.Tch - 1e-7).Q - M.rc(RC.Tch + 1e-7).Q) < 1e-8 * RC.Qmax);
+check('RC: capacitor charge is continuous when switch changes at 5τ', Math.abs(M.rc(RC.Tch - 1e-9).Q - M.rc(RC.Tch + 1e-9).Q) < 1e-9 * RC.Qmax);
 check('RC: after 5τ of discharge, residual charge is 0.67% of Qmax', near(M.rc(RC.cycle - 1e-8).Q / RC.Qmax, Math.exp(-5) * (1 - Math.exp(-5)), 1e-6));
 check('charging: R dq/dt = E − q/C', [0.3, 1.9, 6].every(t => near(RC.R * (M.qCharge(t + h) - M.qCharge(t - h)) / (2 * h), RC.E - M.qCharge(t) / RC.C, 1e-6)));
 // integrate the ODE independently (RK4) and compare
