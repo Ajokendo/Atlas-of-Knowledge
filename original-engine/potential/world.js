@@ -47,7 +47,7 @@ export function buildWorld(E) {
     label(sign > 0 ? 'vec red' : 'vec blue', sign > 0 ? '+' : '−', () => shown(m) ? wp(m) : null);
     return m;
   };
-  const dot = (parent, r = 0.06, name = 'Point', pal = 'ink') => part(parent, new THREE.SphereGeometry(r, 20, 12), { tone: 'hi', pal, name });
+  const dot = (parent, r = 0.06, name = 'Точка', pal = 'ink') => part(parent, new THREE.SphereGeometry(r, 20, 12), { tone: 'hi', pal, name });
   const field = (parent, opts = {}) => arrow(parent, 'blue', { r: 0.022, head: 0.13, headR: 0.06, name: 'Поле', ...opts });
   const force = (parent, opts = {}) => arrow(parent, 'ink', { r: 0.022, head: 0.13, headR: 0.06, name: 'Сила', ...opts });
   // a line set whose coordinates change every frame
@@ -251,7 +251,7 @@ export function buildWorld(E) {
     const a = Math.PI / 2 + Math.PI * (i + 0.5) / NA;
     part(gArc, g, { tone: 'hi', name: 'Дуга', pos: [xArc, YC, 0], ex: [0.14 * Math.cos(a), 0.14 * Math.sin(a), 0] });
   }
-  const cArc = dot(gArc, 0.07, 'Centre'); cArc.position.set(xArc, YC, 0);
+  const cArc = dot(gArc, 0.07, 'Центр'); cArc.position.set(xArc, YC, 0);
   label('board', 'C', () => V(xArc + 0.15, YC + 0.25, 0)); label('tick', '+2 нКл', () => V(xArc - RR - 0.15, YC + 0.35, 0));
   const arcLines = liveLines(root, NA, '#8a8a8f');
 

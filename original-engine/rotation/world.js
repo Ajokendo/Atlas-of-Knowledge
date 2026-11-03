@@ -249,7 +249,7 @@ export function buildWorld(E) {
   for (const z of [-0.401, 0.401]) part(drum, box(DR * 1.8, 0.035, 0.01, 0.004), { tone: 'hi', pal: 'ink', pos: [0, 0, z], name: 'Барабан' });
   const bucket = new THREE.Group(); gWl.add(bucket);
   part(bucket, cyl(0.19, 0.4, 32, 0.25), { tone: 'hi', pal: 'dark', name: 'Ведро' });
-  const rope = rod(gWl, 0.01, 'ink', 'Rope');
+  const rope = rod(gWl, 0.01, 'ink', 'Верёвка');
   const bT = force(gWl), bW = force(gWl), bNet = force(gWl, true), dT = force(gWl), dAl = curve(gWl, 'red', { R: 0.42 }), dOmg = curve(gWl, 'ink', { R: 0.55 });
   const dR = comp(gWl, 'Радиус');
   const freeG = ghostOf(new THREE.CylinderGeometry(0.25, 0.19, 0.4, 6));
@@ -299,7 +299,7 @@ export function buildWorld(E) {
   nRods.forEach(R => { label('vec', 'dm', () => R.dm.localToWorld(V(0, 0.16, 0))); label('vec grey', 'r', () => R.r.visible ? R.r.localToWorld(V(0, R.r.userData.arrow.shaft.scale.y / 2, 0)).add(V(0, -0.14, 0)) : null); });
   label('tick', 'ось через центр · ML²/12', () => V(NX[0] + 0.3, NY - 0.85, 0.3));
   label('tick', 'ось через конец · ML²/3', () => V(NX[1] + 0.6, NY - 0.85, 0.3));
-  label('tick', 'rings · ½MR²', () => V(NX[2], NY - 0.85, 0.3));
+  label('tick', 'Кольца · ½MR²', () => V(NX[2], NY - 0.85, 0.3));
   label('vec', 'dr', () => nDisc.localToWorld(V(DRd * 3.5 / 6, 0.12, 0)));
 
   // ================= 6c · parallel axes: one rod pinned at its centre, one at its end =================

@@ -229,7 +229,7 @@ export function buildWorld(E) {
     cone(loopG, p.clone().lerp(q, 0.5), q.clone().sub(p), 'Ток I', 1.2);
   });
   label('vec', '<i>I</i>', () => loopG.localToWorld(V(0, 0.2, -la - 0.3)));
-  const muL = inkArrow(gL, 'Magnetic moment μ', 0.03), tauL = inkArrow(gL, 'Torque τ', 0.03);
+  const muL = inkArrow(gL, 'Магнитный момент μ', 0.03), tauL = inkArrow(gL, 'Момент силы τ', 0.03);
   label('vec', '<b>μ</b>', () => tip(muL)); label('vec', '<b>τ</b>', () => tip(tauL));
   const FL = [0, 1, 2, 3].map(() => inkArrow(gL, 'Силы I L × B'));
   FL.forEach((a, i) => label('vec', `<b>F</b><sub>${i + 1}</sub>`, () => ex(gL) > 0.3 ? tip(a) : null));
@@ -252,7 +252,7 @@ export function buildWorld(E) {
   }
   const ampLoop = dashed(gA, Array.from({ length: 96 }, (_, i) => { const a = i / 96 * 2 * Math.PI; return V(Math.cos(a), 0, Math.sin(a)); }));
   ampLoop.position.set(cA.x, yAmp, 0);
-  const NA = 8, bA = Array.from({ length: NA }, () => bArrow(gA)), dsA = Array.from({ length: 16 }, () => inkArrow(gA, 'Path pieces ds', 0.016));
+  const NA = 8, bA = Array.from({ length: NA }, () => bArrow(gA)), dsA = Array.from({ length: 16 }, () => inkArrow(gA, 'Элементы пути ds', 0.016));
   const rA = thinGrey(gA, 'Радиус r');
   label('vec grey', '<b>B</b>', () => tip(bA[1])); label('vec grey', 'r', () => tip(rA, 0.05).add(V(0, 0.2, 0)));
   label('vec', 'd<b>s</b>', () => ex(gA) > 0.3 ? tip(dsA[12]) : null);
