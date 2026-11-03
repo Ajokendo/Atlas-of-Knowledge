@@ -143,3 +143,32 @@ https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_с
 The original is linked on the Commons page and was inspected through browser-rendered page content, but was not downloaded into the working environment. No binary, conversion, or insertion has been made.
 
 Source checked: https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+
+
+## Follow-up: structured-data cross-check of three Ala-Archa candidates (3 November 2026)
+
+The individual Commons pages were rechecked against their structured-data taxon statements:
+
+### Red squirrel — `Ала-Арча, белка.jpg`
+- Page caption: Red squirrel; *Sciurus vulgaris* is supported by the category.
+- Structured `depicts`: Eurasian Red Squirrel.
+- Location, capture date (25 August 2023), uploader/author (Nikolai Bulykin), own-work status, and CC BY-SA 4.0 are consistent on the file page.
+- Original dimensions: 4608 × 3456; 1.79 MB JPEG.
+- Metadata cross-check: **no taxon conflict found**. Still only a candidate; binary download, visual review in the working environment, WebP preparation, and chapter placement remain outstanding.
+
+### Halys pit viper — `Ала-Арча, обыкновенный щитомордник (1).jpg`
+- Page caption and structured `depicts` both identify *Gloydius halys* (Halys Pit Viper).
+- The file page identifies Ala-Archa National Park, Chüy Region, Kyrgyzstan; capture date 25 August 2023; Nikolai Bulykin; own work; CC BY-SA 4.0.
+- Original dimensions: 3775 × 2831; 1.32 MB JPEG.
+- Metadata cross-check: **no taxon conflict found**. Still only a candidate; local binary acquisition and visual inspection remain outstanding.
+
+### Rufous-naped tit — `Ала-Арча, рыжешейная синица (1).jpg`
+- The human-readable caption/category identify *Periparus rufonuchalis*, but the structured `depicts` field identifies *Cyanistes flavipectus*.
+- **Hold: taxonomy conflict remains unresolved.** Do not use as a labelled species photograph until corrected or independently resolved.
+
+Sources checked:
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(1).jpg
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+
+No original binary was downloaded in this follow-up. No image was accepted, converted, or inserted; overall integrated visual count remains 0/52.
