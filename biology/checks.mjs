@@ -667,7 +667,7 @@ for (const line of dispositionTableRows) {
   const status = cells[5] || "";
   const target = cells[2] || "";
   if (status.includes("Produced")) {
-    const localAssets = [...target.matchAll(/images\/generated\/[A-Za-z0-9._-]+\.webp/g)].map(match => match[0]);
+    const localAssets = [...target.matchAll(/images\/generated\/[A-Za-z0-9._-]+\.(?:webp|svg)/g)].map(match => match[0]);
     if (localAssets.length === 0 || localAssets.some(asset => !fs.existsSync(path.join(root, asset)))) {
       errors.push("IMAGE_DISPOSITION_REGISTER.md: produced asset is missing locally: " + line);
     }
