@@ -1,5 +1,17 @@
 # Biology development checkpoint
 
+
+## Current visual-production checkpoint — 3 November 2026 (supersedes older G6 deferral entries)
+
+- **4/52 mapped visual briefs produced (7.7%)**: Chüy fauna (six source-backed photographs), Jalal-Abad flora (one), Issyk-Kul flora (four), and Naryn flora (three). The other 48 briefs remain pending or deferred.
+- Naryn assets were committed at `811fb5ea4194da34bf1c86b7fd1d4cfa930cd0a5`. All three originals matched live Commons API SHA-1 values and source dimensions; the focused bilingual Chromium test passed in [run 41611003785](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611003785).
+- Naryn audit and complete per-image provenance: `FLORA_NARYN_IMAGE_AUDIT_2026-11-03.md`.
+- Jalal-Abad audit: `FLORA_JALALABAD_IMAGE_AUDIT_2026-11-03.md`. Issyk-Kul audit: `FLORA_ISSYK_IMAGE_AUDIT_2026-11-03.md`.
+- Latest full Biology CI run before the Naryn assets were committed failed because the three Naryn WebP files were not yet present in the checkout. The dedicated Naryn build, source verification and focused browser test then passed and committed those files. A fresh full Biology CI run is triggered by this checkpoint update and must pass before current full-suite validation is claimed.
+- Offline caching remains unimplemented and unverified. Browser image decoding is not an offline test.
+- Controlled editorial readiness remains **95/100**; no increase is implied by visual production.
+
+
 **Date:** 1 November 2026  
 **Repository:** `Ajokendo/Atlas-of-Knowledge`  
 **Canonical branch:** `workspace/biology`  
@@ -12,7 +24,7 @@
 - **G4:** closed — internal scientific audit completed (4/4 planned blocks, 100%); unresolved source-level questions remain explicitly qualified/deferred, not an external-review gate.
 - **G5:** closed — internal editorial and bilingual audit completed (4/4 planned blocks, 100%); external professional review is optional, not a completion requirement.
 - **Portal feedback:** cross-project integration is a separate portal-level task; feedback intake must remain disabled until the portal is complete, security/technical checks pass, and the owner is ready to invite teachers.
-- **G6:** closed as an explicit deferral decision only. All 52 visual assets remain deferred; no image is represented as generated or integrated.
+- **G6:** visual production is in progress: **4 of 52 mapped briefs produced (7.7%)**, with 48 still pending/deferred. This is separate from the 95/100 controlled editorial-readiness score.
 
 ## Latest saved development
 
