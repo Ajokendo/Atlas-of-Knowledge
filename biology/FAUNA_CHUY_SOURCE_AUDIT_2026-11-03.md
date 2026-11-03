@@ -1096,3 +1096,12 @@ The five-image Chüy batch remains committed and browser-checked. The other 14 r
 The full Biology CI then passed on branch `workspace/biology`: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41593844049. Static validation covered 13 HTML pages, 93 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Chromium tested all 13 pages at mobile and desktop widths, 30 language toggles, no uncaught page errors, and sampled 21,523 text instances for contrast with zero below-threshold results.
 
 The Chüy fauna brief remains the only produced brief so far (five local WebP files); 51 other mapped briefs remain pending/deferred. The two Rufous-naped Tit candidates remain on hold pending independent taxonomic clarification. Offline-cache testing for the Chüy images is still pending.
+
+
+## Next preselected habitat candidate: Chunkurchak red sandstone canyon (3 November 2026)
+
+Selected the previously shortlisted file Canyon, Chunkurchak sanctuary, Chuy region, Kyrgyzstan.jpg as a distinct habitat view. The Commons page identifies Vilya Shoni as the author and the photograph as own work, dated 7 June 2020, at the Chong-Kuurchak Botanical Reserve in Alamudun District, Chüy Region. Licence: CC BY-SA 4.0. The image was visually inspected: it shows red sandstone canyon walls, shrub vegetation and a rocky drainage, adding a geomorphological habitat distinct from the three already integrated landscapes. It will be captioned only as a protected-area landscape; no species or unsupported micro-locality claims will be attached.
+
+Original JPEG: 1440 × 1246, 2,228,692 bytes; Commons SHA-1: 6d9598b92245e601b0da4c01045283e9ae2c8c15. Source: https://commons.wikimedia.org/wiki/File:Canyon,_Chunkurchak_sanctuary,_Chuy_region,_Kyrgyzstan.jpg
+
+The chapter, insertion map, and six-image browser smoke test now reference the planned local output `habitat-chuy-chunkurchak-canyon.webp`. The builder is being extended to acquire the original, verify its SHA-1 and commit the WebP. Do not count it as a produced/committed asset until that workflow passes.
