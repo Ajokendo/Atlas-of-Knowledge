@@ -1127,3 +1127,12 @@ This section supersedes the earlier historical research-only counts above.
 - **Branch-wide CI:** the latest previously recorded full Biology CI run passed before the final six-image integration and subsequent audit edits. The focused six-image workflow passed; rerun full branch CI after this checkpoint update before claiming current full-suite status.
 
 Next: keep the two tit candidates on hold, do not broaden the search unnecessarily, and proceed through the already-shortlisted, independently sourceable candidates. Any new asset must satisfy the existing source, licence, scientific, bilingual metadata, integration and browser-QA acceptance rules.
+
+
+## Final review of the remaining preselected Ala-Archa habitat lead — 3 November 2026
+
+The previously noted Baydastann photograph `Ала-Арча улуттук жаратылыш паркы 1.jpg` was opened at original resolution and visually assessed. Its Commons page confirms Baydastann as author, own work, capture date 18 May 2025, camera position in Ala-Archa National Park, original JPEG 3024 × 4032 (3.67 MB), and CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Ала-Арча_улуттук_жаратылыш_паркы_1.jpg
+
+**Decision: do not integrate this candidate.** The original is a strongly backlit, underexposed vertical roadside view dominated by dark conifer silhouettes and a road edge. It adds little educational information beyond the already integrated Ala-Archa mountain-forest photograph and is visually weaker. This is an editorial-quality rejection, not a rights rejection. No original was downloaded, no WebP was produced, and no mapped brief or chapter was changed.
+
+This closes the current preselected Chüy image shortlist: six accepted photographs in one completed brief; two Rufous-naped Tit photos held for taxonomic resolution; one low-value redundant landscape candidate rejected. Do not reopen broad Chüy landscape searches merely to increase the photo count.
