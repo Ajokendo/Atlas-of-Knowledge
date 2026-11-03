@@ -122,9 +122,15 @@ if (!fs.existsSync(imageMapPath)) {
   errors.push("Missing Biology IMAGE_INSERTION_MAP.md");
 } else {
   const imageMap = fs.readFileSync(imageMapPath, "utf8");
-  const mappedRows = [...imageMap.matchAll(/^[|] `(image-brief-[^`]+)` [|] `([^`]+)` [|] [^|]*[|] `([^`]+)` [|]/gm)];
-  const mappedIds = mappedRows.map(m => m[1]);
-  const mappedFiles = mappedRows.map(m => m[3]);
+  const mapLines = imageMap.split(/\r?\n/).filter(line => /^\| `image-brief-[^`]+` \|/.test(line));
+  const mappedRows = mapLines.map(line => {
+    const cells = line.split("|").map(cell => cell.trim());
+    const id = (cells[1].match(/^`(image-brief-[^`]+)`$/) || [])[1];
+    const targetFiles = [...(cells[4] || "").matchAll(/`([^`]+)`/g)].map(match => match[1]);
+    return { id, targetFiles };
+  }).filter(row => row.id);
+  const mappedIds = mappedRows.map(row => row.id);
+  const mappedFiles = mappedRows.flatMap(row => row.targetFiles);
   const pageIds = pages.flatMap(file => {
     const html = fs.readFileSync(file, "utf8");
     return [...html.matchAll(/id=["'](image-brief-[^"']+)["']/gi)].map(m => m[1]);
@@ -616,7 +622,12 @@ let imageBriefCount = 0;
 for (const rel of imagePages) {
   const html = fs.readFileSync(path.join(root, rel), "utf8");
   const briefs = [...html.matchAll(/<aside class="image-generation-note" id="image-brief-([^"]+)" data-image-status="planned"[\s\S]*?<\/aside>/g)];
-  imageBriefCount += briefs.length;
+  const producedFigures = [...html.matchAll(/<figure\b([^>]*\bid="(image-brief-[^"]+)"[^>]*\bdata-image-status="produced"[^>]*)>/g)];
+  imageBriefCount += briefs.length + producedFigures.length;
+  for (const figure of producedFigures) {
+    imageBriefIds.push(figure[2]);
+    if (!figure[1].includes("data-image-file=")) errors.push(rel + ": produced image figure " + figure[2] + " must list its source files");
+  }
   for (const brief of briefs) {
     const id = brief[1], markup = brief[0];
     imageBriefIds.push(id);
@@ -633,10 +644,10 @@ for (const rel of imagePages) {
     const title = (markup.match(/<span class="ru">([\s\S]*?)<\/span>/) || [])[1];
     if (title && !imagePlanFile.includes(title)) errors.push(rel + ": image brief " + id + " is absent from IMAGE_GENERATION_PLAN.md");
   }
-  if (briefs.length === 0) errors.push(rel + ": expected planned image-generation markers");
+  if (briefs.length === 0 && producedFigures.length === 0) errors.push(rel + ": expected planned or produced image-generation markers");
 }
 if (new Set(imageBriefIds).size !== imageBriefIds.length) errors.push("Image-generation brief IDs must be unique across all Biology pages");
-if (imageBriefCount !== 52) errors.push("Expected 52 in-page image-generation briefs, found " + imageBriefCount);
+if (imageBriefCount !== 52) errors.push("Expected 52 in-page planned or produced image briefs, found " + imageBriefCount);
 const geneticsImageBriefFile = fs.readFileSync(path.join(root, "chapters/genetics.html"), "utf8");
 if (!geneticsImageBriefFile.includes('id="image-brief-genetics-dna-packaging"') || !geneticsImageBriefFile.includes("genetics-dna-packaging.webp") || geneticsImageBriefFile.includes("genetics-central-dogma.webp")) {
   errors.push("chapters/genetics.html: DNA-packaging image brief ID and target filename must match its actual subject");
