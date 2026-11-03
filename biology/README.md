@@ -1312,3 +1312,10 @@ This entry supersedes the earlier 2/52 visual-production status above. Three of 
 The Issyk-Kul flora figure is integrated at the original anchor in `chapters/flora-kyrgyzstan.html`. Four original photographs were downloaded, checked against live Commons SHA-1 metadata and converted to local WebP files. Focused bilingual chapter QA passed in run 41608849568. Full Biology CI must be rerun on the asset-bearing branch head after the bot-generated image commit.
 
 Controlled editorial readiness remains 95/100; visual production does not raise that score. Offline caching is not implemented or verified.
+
+
+## Full Biology CI confirmation — 3 November 2026
+
+The complete Biology CI passed on commit `cedc296d07ca85842c0b501388f8d4df497471fd` after the Issyk-Kul WebP assets and register corrections were committed: [run 41609646836](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41609646836). Static checks covered 13 HTML pages and 99 local paths; Chromium covered all 13 pages at mobile and desktop widths, 30 language toggles, with no uncaught page errors. Contrast sampling covered 21,529 text instances with zero below threshold, and keyboard focus indicators were checked.
+
+Current visual-brief production is 3/52 (5.8%); eleven photographs are included in those three briefs. Editorial readiness remains 95/100. Offline caching is not implemented or verified.
