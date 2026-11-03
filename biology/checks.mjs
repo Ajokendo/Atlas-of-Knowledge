@@ -622,7 +622,7 @@ let imageBriefCount = 0;
 for (const rel of imagePages) {
   const html = fs.readFileSync(path.join(root, rel), "utf8");
   const briefs = [...html.matchAll(/<aside class="image-generation-note" id="image-brief-([^"]+)" data-image-status="planned"[\s\S]*?<\/aside>/g)];
-  const producedFigures = [...html.matchAll(/<figure\b([^>]*\bid="(image-brief-[^"]+)"[^>]*\bdata-image-status="produced"[^>]*)>/g)];
+  const producedFigures = [...html.matchAll(/<figure\b([^>]*\bid="image-brief-([^"]+)"[^>]*\bdata-image-status="produced"[^>]*)>/g)];
   imageBriefCount += briefs.length + producedFigures.length;
   for (const figure of producedFigures) {
     imageBriefIds.push(figure[2]);
@@ -695,15 +695,15 @@ for (const line of p2p3DispositionRows) {
 }
 
 if (!imageDispositionRegister.includes("G6 baseline disposition:") ||
-    !imageDispositionRegister.includes("two local WebP assets have been produced and integrated")) {
+    !imageDispositionRegister.includes("five local WebP assets have been produced and integrated")) {
   errors.push("IMAGE_DISPOSITION_REGISTER.md must document the original G6 baseline and any produced-asset updates");
 }
 for (const id of imageBriefIds) if (!insertionMapIds.includes(id)) errors.push("IMAGE_INSERTION_MAP.md is missing insertion anchor " + id);
-const imageChecklistCount = (imagePlanFile.match(/^- \[~\] \*\*/gm) || []).length;
+const imageChecklistCount = (imagePlanFile.match(/^- \[(?:~|x)\] \*\*/gm) || []).length;
 const priorityCounts = {
-  P1: (imagePlanFile.match(/^- \[~\] \*\*\[P1\]/gm) || []).length,
-  P2: (imagePlanFile.match(/^- \[~\] \*\*\[P2\]/gm) || []).length,
-  P3: (imagePlanFile.match(/^- \[~\] \*\*\[P3\]/gm) || []).length
+  P1: (imagePlanFile.match(/^- \[(?:~|x)\] \*\*\[P1\]/gm) || []).length,
+  P2: (imagePlanFile.match(/^- \[(?:~|x)\] \*\*\[P2\]/gm) || []).length,
+  P3: (imagePlanFile.match(/^- \[(?:~|x)\] \*\*\[P3\]/gm) || []).length
 };
 if (priorityCounts.P1 !== 13 || priorityCounts.P2 !== 26 || priorityCounts.P3 !== 13) {
   errors.push("IMAGE_GENERATION_PLAN.md priority allocation must remain 13 P1, 26 P2 and 13 P3; found " + JSON.stringify(priorityCounts));
