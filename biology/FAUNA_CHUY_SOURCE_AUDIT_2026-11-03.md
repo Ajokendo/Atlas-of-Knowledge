@@ -1105,3 +1105,12 @@ Selected the previously shortlisted file Canyon, Chunkurchak sanctuary, Chuy reg
 Original JPEG: 1440 × 1246, 2,228,692 bytes; Commons SHA-1: 6d9598b92245e601b0da4c01045283e9ae2c8c15. Source: https://commons.wikimedia.org/wiki/File:Canyon,_Chunkurchak_sanctuary,_Chuy_region,_Kyrgyzstan.jpg
 
 The chapter, insertion map, and six-image browser smoke test now reference the planned local output `habitat-chuy-chunkurchak-canyon.webp`. The builder is being extended to acquire the original, verify its SHA-1 and commit the WebP. Do not count it as a produced/committed asset until that workflow passes.
+
+
+## Chunkurchak image successfully produced, committed and browser-checked (3 November 2026)
+
+The canyon photograph is no longer pending. The asset builder reused the five previously verified local images, downloaded the Chunkurchak original from Wikimedia Commons, and confirmed the downloaded JPEG against Commons SHA-1 `6d9598b92245e601b0da4c01045283e9ae2c8c15` and byte count 2,228,692. Source dimensions were 1440 × 1246. The resulting WebP is `biology/images/generated/habitat-chuy-chunkurchak-canyon.webp`, 614,916 bytes, SHA-256 `4391a0adcb49f709e1a23cdda2d307a3a90c884ec56b6d0a1a564af5cbe4d659`.
+
+The asset commit is `a5c29387657ba33f85fa3ad850147a09b9ef28e9` (`Add verified Chuy fauna WebP assets`). The focused workflow run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41594952179 passed all six image decode/visibility checks and successfully pushed the generated WebP plus updated manifest. All six images now appear in the chapter, insertion map and disposition register; the scientific brief review also lists all six. The push step was hardened with fetch/rebase to avoid rejection when other commits land on the branch concurrently.
+
+**Updated verified counts:** six original JPEGs acquired and checksum-verified; six local WebP outputs committed; six of six images decoded and were visible in Chromium. The Chüy brief is one produced brief out of 52 mapped briefs: asset production progress is 1/52 briefs (1.9%), with six images in that brief. The two Rufous-naped Tit candidates remain excluded pending independent taxonomic clarification. Offline-cache testing remains pending. Branch-wide Biology CI should be rerun after these register and audit updates; the last successful full CI predates the Chunkurchak integration.
