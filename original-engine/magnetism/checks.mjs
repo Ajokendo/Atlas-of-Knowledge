@@ -115,9 +115,9 @@ check('loop: B through the middle along +x (right-hand rule)', M.ringB([0, 0, 0]
   check('solenoid: ∮B·ds round the Amperian rectangle = μ₀ N_enc I', near(amp, M.MU0 * M.rectTurns() * M.SOL.I, 2e-3), `${M.rectTurns()} turns inside`); }
 { const B = M.torB([M.TOR.R0, 0, 0]);
   check('toroid: inside, B = μ₀NI/2πr (within 2%)', [0.115, 0.13, 0.14].every(r => rel(M.len(M.torB([r, 0, 0])), M.torIdeal(r)) < 0.02), uT(M.torIdeal(M.TOR.R0)) + ' at r = 13 cm');
-  check('toroid: B runs round the ring', Math.abs(B[2]) > 100 * Math.hypot(B[0], B[1]));
+  check('toroid: B runs round the ring in the +z direction at the +x outer point', B[2] > 100 * Math.hypot(B[0], B[1]));
   check('toroid: B ≈ 0 in the hole and outside', M.len(M.torB([0.05, 0, 0])) < 0.03 * M.len(B) && M.len(M.torB([0.21, 0, 0])) < 0.03 * M.len(B));
-  check('toroid: ∮B·ds = μ₀NI on a circle inside the ring', near(M.lineIntegral(M.torB, M.circlePts([0, 0, 0], M.TOR.R0, 'y', 720)), -M.MU0 * M.TOR.N * M.TOR.I, 3e-3) || near(M.lineIntegral(M.torB, M.circlePts([0, 0, 0], M.TOR.R0, 'y', 720)), M.MU0 * M.TOR.N * M.TOR.I, 3e-3)); }
+  check('toroid: ∮B·ds = −μ₀NI for the documented +y-oriented contour', near(M.lineIntegral(M.torB, M.circlePts([0, 0, 0], M.TOR.R0, 'y', 720)), -M.MU0 * M.TOR.N * M.TOR.I, 3e-3)); }
 
 // ---- practice ----
 { // structure. pages.js imports world.js (three.js, browser-only), so the page count is written here: 9 pages, 0–8
