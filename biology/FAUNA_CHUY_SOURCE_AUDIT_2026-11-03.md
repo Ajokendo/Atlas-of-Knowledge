@@ -369,3 +369,17 @@ The corrected Commons API endpoint was also tested with `cmtitle=Category:Birds_
 This resolves the encoding mistake in the attempted URL, but not the underlying retrieval blockage. No member filenames are asserted, and no additional bird candidate is approved from this attempt.
 
 No original binary acquired; no WebP prepared; no asset accepted; no chapter insertion. Integrated biology visual count remains **0/52**.
+
+
+## Follow-up: Commons category-member retrieval attempt and API method confirmed (3 November 2026)
+
+A fresh web search again confirms the exact national-category structure: `Birds of Chüy Region (6 F)` under `Category:Birds of Kyrgyzstan`. The six-file count is stable in the accessible index result. However, the exact Chüy subcategory page remains inaccessible to the browsing layer, and search results for the parent category list only the 12 files directly in the parent category, not the six members of the subcategory.
+
+The MediaWiki API documentation confirms the correct retrieval method: `action=query&list=categorymembers&cmtitle=Category:...&cmtype=file&cmlimit=...`, with `cmcontinue` for pagination when needed. This confirms the query structure but does not itself return the Commons category's member data. A different network route or a manually opened Commons category/API response is still required.
+
+Sources:
+- https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+- https://commons.wikimedia.org/wiki/Category:Birds_of_Ch%C3%BCy_Region
+- https://www.mediawiki.org/wiki/API:Categorymembers/en
+
+No six-member filename list was retrieved. No new bird file was individually verified, downloaded, or accepted. No WebP prepared and no chapter anchor changed. Integrated biology visual count remains **0/52**.
