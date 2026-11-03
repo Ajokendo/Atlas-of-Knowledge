@@ -119,7 +119,7 @@ for item in ITEMS:
         "original_sha1_downloaded": sha1,
         "original_bytes": len(original),
         "original_dimensions": dimensions,
-        "webp_file": str(target.relative_to(ROOT)).replace("\\\\", "/"),
+        "webp_file": target.relative_to(ROOT).as_posix(),
         "webp_bytes": len(webp),
         "webp_sha256": hashlib.sha256(webp).hexdigest(),
         "webp_dimensions": dimensions,
@@ -131,5 +131,5 @@ for item in ITEMS:
 MANIFEST.write_text(json.dumps({
     "generated_by": "biology/scripts/build_issyk_flora_assets.py",
     "assets": records,
-}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print("Manifest written:", MANIFEST)
