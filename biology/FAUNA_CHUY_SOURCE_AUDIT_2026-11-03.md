@@ -636,3 +636,78 @@ https://www.kyrgyzstan.birding.day/v2about.php?l=en
 ### Decision
 
 These leads strengthen the Chüy shortlist for locally documented bird imagery, especially Chong Kemin and Ozernoe. They do not meet the file-page/license/original-inspection requirements. Keep them in the research queue only; do not change the 0/52 counter.
+
+
+## Follow-up: expanded Birds of Kyrgyzstan catalogue — Chüy locality records (3 November 2026)
+
+A further catalogue search surfaced additional individually indexed bird photographs with explicit Chüy Region localities. These are author-owned catalogue images, not automatically open-licensed files. The site copyright/author guidance recorded earlier still applies: preserve photographer credit, check the individual author's terms, and obtain confirmation before downloading/rehosting. Search-indexed page details are discovery evidence only; inspect the actual image and original-size file before any production decision.
+
+### New species-photo leads
+
+1. **Northern Goshawk (*Accipiter gentilis*)**
+   - Photographer: Pavel Isayenko.
+   - Locality: Kyrgyzstan sanatorium, Malinovka, Chüy Region.
+   - Date: 5 March 2023; Canon EOS R7 + RF 800mm f/11.
+   - The page includes a community identification comment explaining the juvenile plumage characters. Preserve the distinction between the page's current species label and any later expert review.
+   - https://kyrgyzstan.birding.day/m/v2photo.php?l=en&n=2&s=002200720&si=krg
+
+2. **Long-legged Buzzard (*Buteo rufinus*)**
+   - Photographer: Pavel Isayenko.
+   - Locality: Besh-Kungey, Chüy Region.
+   - Date: 21 March 2023; Canon EOS R7 + RF 800mm f/11.
+   - https://kyrgyzstan.birding.day/m/v2photo.php?l=en&n=1&s=002200741&si=krg
+
+3. **Golden Eagle (*Aquila chrysaetos*)**
+   - Photographer: Tatiana Menshikova.
+   - Locality: Boom Gorge, Chüy Region.
+   - Date: 10 February 2019.
+   - https://kyrgyzstan.birding.day/m/v2photo.php?l=en&n=1&s=000300354&si=krg
+
+4. **Northern Wheatear (*Oenanthe oenanthe*)**
+   - Photographer: Pavel Isayenko.
+   - Locality: Chunkurchak, Chüy Region.
+   - Date: 15 July 2023; Canon EOS R7 + RF 100-400 f/5.6-8.
+   - A user comment on the page says “probably Northern Wheatear”; treat the species identification as needing independent review rather than assuming the catalogue label is final.
+   - https://www.kyrgyzstan.birding.day/v2photo.php?l=en&n=1&s=002200900&si=krg
+
+5. **Black-headed Gull (*Larus ridibundus*)**
+   - Photographer: Pavel Isayenko.
+   - Locality: Ozernoe, Chüy Region.
+   - Date: 16 October 2016; Olympus OM-D E-M10 + M.Zuiko 75-300mm.
+   - https://kyrgyzstan.birding.day/v2photo.php?l=en&n=1&s=002200122&si=krg
+
+6. **Yellow Wagtail (*Motacilla flava*)**
+   - Photographer: Irina Romanovskaia.
+   - Locality: Ozernoe, Chüy Region.
+   - Date: 7 May 2018; Sony DSC-H400.
+   - https://kyrgyzstan.birding.day/v2photo.php?l=en&n=1&s=001100707&si=krg
+
+7. **Eurasian Magpie (*Pica pica*)**
+   - Photographer: Tatiana Menshikova.
+   - Locality: Djal, Chüy Region.
+   - Date: 7 March 2019.
+   - https://kyrgyzstan.birding.day/m/v2photo.php?l=en&n=1&s=000300362&si=krg&t=248
+
+8. **Hoopoe (*Upupa epops*)**
+   - Photographer: Tatiana Menshikova.
+   - Locality: Orto-Say, Chüy Region.
+   - Date: 28 April 2019.
+   - https://kyrgyzstan.birding.day/m/v2photo.php?l=en&n=1&s=000300395&si=krg&t=201
+
+### Catalogue scale and scope
+
+The catalogue currently reports 352 photographed species out of 407 known species for Kyrgyzstan. This is a national catalogue statistic, not a Chüy-region count and not a measure of reusable assets. It can be used as a discovery index to identify photographers and species, but not as blanket evidence of image rights.
+
+Catalogue:
+https://www.kyrgyzstan.birding.day/m/v2photosonly.php?l=en
+
+### Selection priorities
+
+- Highest regional educational value: Golden Eagle (Boom Gorge), Northern Goshawk (Malinovka), Long-legged Buzzard (Besh-Kungey), and the two wetland-associated species at Ozernoe.
+- Keep the Northern Wheatear identification provisional until direct visual review because the page itself records a qualification.
+- Avoid redundant common-species photographs if a suitable, rights-cleared image is already available elsewhere in the atlas.
+- Ask photographers for the original-resolution file and written permission/terms for a free, non-commercial bilingual educational atlas; retain attribution and source link.
+
+### Status boundary
+
+These eight catalogue pages are source leads with page-level photographer/locality/date metadata. No original binary has been acquired, no visual inspection of the original file has been completed, no rights permission has been obtained, no WebP has been made, and no chapter anchor has been replaced. Accepted/integrated biology visuals remain **0/52**.
