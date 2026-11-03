@@ -70,7 +70,16 @@ For every deferred item:
 | `image-brief-fauna-osh` | `../images/generated/fauna-osh.webp` | P1 | 16:9 | Deferred | No asset selected; no third-party image used. License/attribution review is not applicable until a source is selected. | Detailed P1 review in `IMAGE_SCIENTIFIC_REVIEW.md`; actual image QA is pending. |
 | `image-brief-fauna-batken` | `../images/generated/fauna-batken.webp` | P1 | 16:9 | Deferred | No asset selected; no third-party image used. License/attribution review is not applicable until a source is selected. | Detailed P1 review in `IMAGE_SCIENTIFIC_REVIEW.md`; actual image QA is pending. |
 | `image-brief-fauna-talas` | `../images/generated/fauna-talas.webp` | P2 | 16:9 | Deferred | No asset selected; no third-party image used. License/attribution review is not applicable until a source is selected. | Individual brief review in `IMAGE_BRIEF_REVIEW.md`; actual image QA is pending. |
-| `image-brief-fauna-chuy` | `../images/generated/fauna-chuy.webp` | P2 | 16:9 | Deferred | No asset selected; no third-party image used. License/attribution review is not applicable until a source is selected. | Individual brief review in `IMAGE_BRIEF_REVIEW.md`; actual image QA is pending. |
+| `image-brief-fauna-chuy` | External Commons originals embedded in `chapters/fauna-kyrgyzstan.html`; local `../images/generated/fauna-chuy.webp` packaging pending | P2 | variable | **Remote-source integration (2 photos)** | Nikolai Bulykin: red squirrel (*Sciurus vulgaris*) and Halys pit viper (*Gloydius halys*), Ala-Archa National Park, Chüy Region; both CC BY-SA 4.0 with author, source and licence links in figure captions. | Two source originals visually inspected in browser; bilingual alt text/captions and attribution added. Local binary download, local checksum, WebP conversion, responsive local asset packaging and browser/network fallback testing remain pending. |
+
+## Source-backed Chüy fauna photos integrated by remote embedding
+
+Two individually licensed Wikimedia Commons photographs have been embedded in the Chüy fauna section of `chapters/fauna-kyrgyzstan.html` with bilingual alt text, captions, photographer credit, source-page links and CC BY-SA 4.0 licence links:
+
+1. **Red squirrel (*Sciurus vulgaris*)** — Nikolai Bulykin, Ala-Archa National Park, 25 August 2023; original JPEG 4608 × 3456; Commons page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg
+2. **Halys pit viper (*Gloydius halys*)** — Nikolai Bulykin, Ala-Archa National Park, 25 August 2023; original JPEG 3775 × 2831; Commons page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(1).jpg
+
+The original-resolution files were opened and visually inspected in the browser. Attempts to obtain the binary files in the working filesystem failed, so the chapter currently loads the Wikimedia-hosted originals directly. This is a real visible chapter integration, but it is **not** a completed local-asset production cycle: no local checksum verification, WebP conversion, or offline/local-hosting validation has occurred. Do not mark the local WebP target as produced or count these as fully packaged assets until those steps are complete.
 
 ## Acceptance rule for future activation
 
