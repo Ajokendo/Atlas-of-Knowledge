@@ -54,7 +54,7 @@ export function buildWorld(E) {
   const arcPts = (c, r, a0, a1, n = 64) => Array.from({ length: n }, (_, i) => { const p = a0 + (a1 - a0) * i / (n - 1); return V(c.x + r * Math.cos(p), c.y, c.z - r * Math.sin(p)); });
   const circle = (c, r, opt) => { const n = 129, l = dyn(root, n, opt); l.set(arcPts(c, r, 0, 2 * Math.PI, n)); return l; };
   const seg = (parent, opt) => { const l = dyn(parent, 2, opt); return l; };
-  const ball = (g, r, name = 'Ball', pal = 'paper') => part(g, new THREE.SphereGeometry(r, 32, 20), { tone: 'hi', name, pal });
+  const ball = (g, r, name = 'Шар', pal = 'paper') => part(g, new THREE.SphereGeometry(r, 32, 20), { tone: 'hi', name, pal });
   const thin = (g, r = 0.006) => part(g, new THREE.CylinderGeometry(r, r, 1, 8), { tone: 'hi', pal: 'ink', name: 'Нить' });
   const stringTo = (m, a, b) => { m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(1, a.distanceTo(b), 1); m.quaternion.setFromUnitVectors(V(0, 1, 0), b.clone().sub(a).normalize()); };
   const orient = (obj, f, up) => obj.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f, up, f.clone().cross(up).normalize()));
@@ -107,7 +107,7 @@ export function buildWorld(E) {
     const c = V(X1 + (k ? DX : -DX), BY, 0);
     part(root, cyl(0.022, 0.16, 16), { tone: 'hi', pal: 'ink', pos: [c.x, TY + 0.08, 0], name: 'Штифт' });
     circle(V(c.x, TY + 0.003, 0), M.BALL.r, { dash: 0.05, color: '#a0a0a6' });
-    const o = { v, c, b: ball(gD, BR, k ? 'Fast ball' : 'Slow ball'), s: thin(gD), vA: vec(gD, 'blue'), T: vec(gD), N: vec(gD), W: vec(gD), net: vec(gD, 'red') };
+    const o = { v, c, b: ball(gD, BR, k ? 'Быстрый шар' : 'Медленный шар'), s: thin(gD), vA: vec(gD, 'blue'), T: vec(gD), N: vec(gD), W: vec(gD), net: vec(gD, 'red') };
     label('vec blue', 'v', () => tip(o.vA)); label('vec', 'T', () => tip(o.T)); label('vec red', 'ΣF', () => tip(o.net));
     label('vec', 'F<sub>N</sub>', () => tip(o.N)); label('vec', '<i>mg</i>', () => tip(o.W));
     label('tick', `${v.toFixed(1)} м/с`, () => V(c.x + 0.28, TY, M.BALL.r + 0.32));
@@ -151,7 +151,7 @@ export function buildWorld(E) {
   // opened: free-body diagrams at the top and the bottom, beside the loop
   const fbd = [Math.PI, 0].map(phi => {
     const at = V(phi ? X4 + RL + 0.7 : X4 + RL + 1.4, phi ? C4.y + 0.45 : C4.y - 0.75, 0);
-    const dot = ball(gL, 0.045, phi ? 'Top' : 'Bottom', 'ink'); dot.position.copy(at);
+    const dot = ball(gL, 0.045, phi ? 'Верхняя точка' : 'Нижняя точка', 'ink'); dot.position.copy(at);
     const o = { phi, at, dot, N: vec(gL, 'ink', 'm'), W: vec(gL, 'ink', 'm'), net: vec(gL, 'red', 'm') };
     const sh = (a, dx) => () => o.N.visible ? tip(a).add(V(phi ? dx : 0, 0, 0)) : null;
     label('vec', 'F<sub>N</sub>', sh(o.N, -0.1)); label('vec', '<i>mg</i>', sh(o.W, 0.1)); label('vec red', 'ΣF', () => tip(o.net));
@@ -205,7 +205,7 @@ export function buildWorld(E) {
   // ---------- 9 · satellites in circular orbits ----------
   const X8 = STATIONS.orbit, OY = 1.8, RE = M.EARTH.R * ORBIT.draw, C8 = V(X8, OY, 0);
   const gO = asm('orbit', root, { title: 'Два спутника', sub: 'сила тяготения — центростремительная сила' });
-  const earth = ball(gO, RE, 'Earth'); earth.position.copy(C8); earth.geometry = new THREE.SphereGeometry(RE, 64, 40);
+  const earth = ball(gO, RE, 'Земля'); earth.position.copy(C8); earth.geometry = new THREE.SphereGeometry(RE, 64, 40);
   const eq = []; for (const lat of [-50, -25, 0, 25, 50]) { const y = RE * Math.sin(lat * Math.PI / 180), r = RE * Math.cos(lat * Math.PI / 180) * 1.002; for (let i = 0; i < 96; i++) { const a = i / 96 * 2 * Math.PI, b = (i + 1) / 96 * 2 * Math.PI; eq.push(r * Math.cos(a), y, r * Math.sin(a), r * Math.cos(b), y, r * Math.sin(b)); } }
   const grat = lines(gO, eq, '#c8c8cc'); grat.position.copy(C8);
   const RS = [M.SAT.r1, M.SAT.r2].map(r => r * ORBIT.draw);
@@ -222,7 +222,7 @@ export function buildWorld(E) {
   // ---------- shared by 10–13: the Earth, a satellite, the orbit plane (model x, y → world x, −z) ----------
   const DO = ORBIT.draw;
   const globe = (g, c) => {
-    const e = ball(g, RE, 'Earth'); e.position.copy(c); e.geometry = new THREE.SphereGeometry(RE, 64, 40);
+    const e = ball(g, RE, 'Земля'); e.position.copy(c); e.geometry = new THREE.SphereGeometry(RE, 64, 40);
     const q = []; for (const lat of [-50, -25, 0, 25, 50]) { const y = RE * Math.sin(lat * Math.PI / 180), r = RE * Math.cos(lat * Math.PI / 180) * 1.002; for (let i = 0; i < 96; i++) { const a = i / 96 * 2 * Math.PI, b = (i + 1) / 96 * 2 * Math.PI; q.push(r * Math.cos(a), y, r * Math.sin(a), r * Math.cos(b), y, r * Math.sin(b)); } }
     lines(g, q, '#c8c8cc').position.copy(c);
     return e;
@@ -327,7 +327,7 @@ export function buildWorld(E) {
   const LX = M.LAUNCH.list.map((o, k) => {
     const pts = pathOf(C12, o.track, 300);
     dyn(root, 300, { dash: 0.12, color: k === 2 ? '#6e6e74' : '#a0a0a6' }).set(pts);
-    const q = { o, b: ball(gX, 0.2, 'Launched balls'), v: vec(gX, 'blue', 'l'), v0: vec(gX, 'blue', 'l') };
+    const q = { o, b: ball(gX, 0.2, 'Запущенные шары'), v: vec(gX, 'blue', 'l'), v0: vec(gX, 'blue', 'l') };
     // name each path where it is clear of the others
     const end = [W(C12, { x: 0, y: -M.LAUNCH.r0 }).add(V(0, 0, 0.45)), W(C12, o.track.at(o.track.T / 2)).add(V(-0.9, 0, 0)), pts.at(-1).clone().add(V(-0.9, 0, -0.2)), pts.at(-1).clone().add(V(0.9, 0, -0.2))][k];
     label('vec blue', NAMES[k], () => ex(gX) < 0.3 ? end : null);

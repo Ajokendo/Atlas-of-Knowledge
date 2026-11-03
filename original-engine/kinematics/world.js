@@ -322,7 +322,7 @@ function buildMore(root, asm) {
   });
   label('tick', 'прямо поперёк ↑', () => V(boats[0].start.x - 0.12, 0.05, RHW + 0.75));
   label('tick', `направление против течения ${(M.AIM_UP * 180 / Math.PI).toFixed(0)}° ↑`, () => V(boats[1].start.x - 0.12, 0.05, RHW + 0.75));
-  label('tick', `current ${M.RIVER.vw.toFixed(1)} м/с →`, () => V(XR - 0.3, 0.05, RHW - 0.35));
+  label('tick', `течение ${M.RIVER.vw.toFixed(1)} м/с →`, () => V(XR - 0.3, 0.05, RHW - 0.35));
 
   // ---------- 1.9 a car pulling away: a = a0 − kt ----------
   const PX = ST.pull, S = PULLS.s;

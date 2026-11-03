@@ -34,7 +34,7 @@ export function buildWorld(E) {
     lines(root, h, '#9a9aa0');
   };
 
-  const block = (parent, s, name = 'Block') => part(parent, box(s, s, s, 0.03), { tone: 'hi', name });
+  const block = (parent, s, name = 'Блок') => part(parent, box(s, s, s, 0.03), { tone: 'hi', name });
   const force = (parent, red = false) => arrow(parent, red ? 'red' : 'ink', { r: 0.022, head: 0.12, headR: 0.06, name: 'Силы' });
   const tip = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + 0.16, 0)) : null;
 
@@ -104,7 +104,7 @@ export function buildWorld(E) {
   const XT = STATIONS.tension, CEIL = 2.6;
   part(root, box(4.4, 0.08, 0.5, 0.02), { tone: 'mid', pal: 'board', pos: [XT, CEIL + 0.04, 0], name: 'Потолок' });
   const gT = asm('tension', root, { title: 'Подвешенный блок', sub: 'сила натяжения удерживает его' });
-  const bT1 = block(gT, S1, 'One string'), bT2 = block(gT, S1, 'Two strings');
+  const bT1 = block(gT, S1, 'Одна нить'), bT2 = block(gT, S1, 'Две нити');
   const thin = r => part(gT, new THREE.CylinderGeometry(0.008, 0.008, 1, 8), { tone: 'hi', pal: 'ink', name: 'Нити' });
   const s1 = thin(), s2a = thin(), s2b = thin(), s2c = thin();
   const fgT1 = force(gT), tT1 = force(gT), fgT2 = force(gT), tT2a = force(gT), tT2b = force(gT);
@@ -170,7 +170,7 @@ export function buildWorld(E) {
     part(g, xAxis(cyl(0.035, REACH + 0.04, 12)), { tone: 'hi', pos: [dir * (r + REACH / 2 - 0.02), HAND, 0], name });
     g.userData.r = r; return g;
   };
-  const skA = skater(0.17, 1.25, 1, 'Skater A · 50 kg'), skB = skater(0.21, 1.4, -1, 'Skater B · 75 kg');
+  const skA = skater(0.17, 1.25, 1, 'Фигурист A · 50 кг'), skB = skater(0.21, 1.4, -1, 'Фигурист B · 75 кг');
   const rope = part(gG, new THREE.CylinderGeometry(0.012, 0.012, 1, 8), { tone: 'mid', pal: 'dark', name: 'Верёвка' });
   const tOnA = force(gG), tOnB = force(gG);
   const cmG = cmMark(gG, 0.09);
@@ -187,7 +187,7 @@ export function buildWorld(E) {
   smooth(XB - 3.2, XB + 3.6, -1.0, 1.0);
   const gB = asm('board', root, { title: 'Блок на доске', sub: 'сила трения между ними внутренняя' });
   const plank = part(gB, box(BD.len, BH, 0.9, 0.02), { tone: 'mid', name: 'Доска · 4,0 кг' });
-  const bB = block(gB, S1, 'Block · 2.0 kg');
+  const bB = block(gB, S1, 'Блок · 2,0 кг');
   const pullB = force(gB), fOnBlock = force(gB), fOnBoard = force(gB), netB = force(gB, true);
   const cmB = cmMark(gB, 0.07);
   label('vec', 'F', () => tip(pullB)); const below = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y / 2, 0)).add(V(-0.1, -0.2, 0.15)) : null;
