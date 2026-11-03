@@ -42,6 +42,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add biology/images/generated/fauna-chuy-squirrel.webp biology/images/generated/fauna-chuy-pit-viper.webp biology/images/generated/habitat-chuy-ak-suu.webp biology/images/generated/habitat-chuy-ala-archa.webp biology/images/generated/fauna-chuy-assets-manifest.json
+          git add biology/images/generated/*.webp biology/images/generated/fauna-chuy-assets-manifest.json
           git diff --cached --quiet || git commit -m "Add verified Chuy fauna WebP assets"
           git push origin "HEAD:${GITHUB_REF_NAME}"
