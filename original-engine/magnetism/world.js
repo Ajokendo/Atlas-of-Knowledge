@@ -297,7 +297,7 @@ export function buildWorld(E) {
   const BG = bArrow(gG);
   label('tick', 'P', () => PG.position.clone().add(V(0.05, -0.3, 0)));
   label('vec grey', '<b>B</b>', () => tip(BG));
-  const pieces = Array.from({ length: M.RING.pieces }, () => ({ dl: inkArrow(gG, 'Pieces dl', 0.018), dB: thinGrey(gG, 'Their dB at P') }));
+  const pieces = Array.from({ length: M.RING.pieces }, () => ({ dl: inkArrow(gG, 'Элементы dl', 0.018), dB: thinGrey(gG, 'Их dB в точке P') }));
   const rLineG = dashed(gG, [V(), V()], false);
   label('vec', 'd<b>l</b>', () => ex(gG) > 0.3 ? tip(pieces[0].dl, 0.12) : null);
   label('vec grey', 'd<b>B</b>', () => ex(gG) > 0.3 ? tip(pieces[0].dB, 0.1) : null);
