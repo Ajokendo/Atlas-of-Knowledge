@@ -46,6 +46,7 @@ check('closed-form orbit obeys m dv/dt = qv × B', [0, 1].every(i => [0.1, 0.37]
 check('stepping the force by RK4 reproduces the orbit', [0, 1].every(i => { const o = M.orbit(i, 0), n = 4000, r = M.pushCharge(M.QE, M.MP, o.p, o.v, [0, 0, 0], [0, -M.CYC.B, 0], 0.3 * M.CYC.T / n, n);
   return M.len(M.sub(r.p, M.orbit(i, 0.3 * M.CYC.T).p)) < 1e-9 * 100 * M.CYC.r[i]; }));
 check('both return to the start together: T = 2πm/qB, not depending on v', [0, 1].every(i => M.len(M.sub(M.orbit(i, M.CYC.T).p, M.orbit(i, 0).p)) < 1e-12), `T ${e(M.CYC.T, 3)} s, f ${(M.CYC.f / 1e6).toFixed(3)} MHz`);
+check('cyclotron: charge sign reverses curvature, while radius and period use |q|', (() => { const dt = M.CYC.T * 1e-4, v = [M.CYC.v[0], 0, 0], B = [0, -M.CYC.B, 0], p = M.pushCharge(M.QE, M.MP, [0, 0, 0], v, [0, 0, 0], B, dt, 1), n = M.pushCharge(-M.QE, M.MP, [0, 0, 0], v, [0, 0, 0], B, dt, 1); return p.p[2] < 0 && n.p[2] > 0 && near(Math.abs(p.p[2]), Math.abs(n.p[2]), 1e-12) && near(M.MP * M.CYC.v[0] / (Math.abs(M.QE) * M.CYC.B), M.CYC.r[0]) && near(2 * Math.PI * M.MP / (Math.abs(M.QE) * M.CYC.B), M.CYC.T); })());
 check('no work: the speed stays constant', [0, 1].every(i => [0.2, 0.55, 0.9].every(f => near(M.len(M.orbit(i, f * M.CYC.T).v), M.CYC.v[i], 1e-12))));
 
 // ---------- 4 · velocity selector ----------
