@@ -57,7 +57,7 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 | `image-brief-fauna-invertebrates` | P2 | Use recognisable arthropod body plans and correct segment/appendage placement. A multi-group composition is illustrative, not a complete Kyrgyzstan species list. |
 | `image-brief-fauna-jalalabad` | P1 | Original SVG habitat schematic integrated at the exact anchor; separated Sary-Chelek forest, Besh-Aral river gorge and high-alpine Besh-Aral marmot panel. No range map or census claim. Browser visual QA and final morphology review pending. |
 | `image-brief-fauna-issyk` | P1 | Original SVG ecological schematic integrated at the exact anchor: wetland shore, lake water column and separate high-mountain habitat. Generic silhouettes only; no species checklist, range map or year-round residency claim. Browser visual QA pending. |
-| `image-brief-fauna-naryn` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
+| `image-brief-fauna-naryn` | P1 | **Produced:** original SVG schematic integrated in `chapters/fauna-kyrgyzstan.html`. Three distinct habitat panels (Naryn river valley/maral; alpine rocky mountains/snow leopard; Son-Kul wetland/waterbirds). No range boundaries, counts or implied co-occurrence. Browser validation pending CI. |
 | `image-brief-fauna-osh` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-batken` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-talas` | P2 | Use the Talas / Besh-Tash habitat context; separate river valley, forested slopes and high rocky terrain. Do not add unverified local endemics or unsupported species labels. |
