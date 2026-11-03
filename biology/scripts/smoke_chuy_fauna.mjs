@@ -9,7 +9,7 @@ try {
   if (!response?.ok()) throw new Error("Fauna chapter HTTP response was not successful");
   const images = page.locator('img[src*="-chuy-"]');
   const count = await images.count();
-  if (count !== 4) throw new Error(`Expected 4 local Chuy fauna and habitat images, found ${count}`);
+  if (count !== 5) throw new Error(`Expected 5 local Chuy fauna and habitat images, found ${count}`);
   for (let i = 0; i < count; i++) {
     const img = images.nth(i);
     await img.evaluate(el => { el.loading = "eager"; el.scrollIntoView(); });
