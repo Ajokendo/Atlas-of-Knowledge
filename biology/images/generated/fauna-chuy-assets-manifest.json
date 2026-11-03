@@ -130,6 +130,32 @@
         2000
       ],
       "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "File:Canyon, Chunkurchak sanctuary, Chuy region, Kyrgyzstan.jpg",
+      "output": "habitat-chuy-chunkurchak-canyon.webp",
+      "subject": "Chunkurchak red sandstone canyon and shrub habitat",
+      "author": "Vilya Shoni",
+      "date": "2020-06-07",
+      "location": "Chong-Kuurchak Botanical Reserve, Alamudun District, Chüy Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Canyon,_Chunkurchak_sanctuary,_Chuy_region,_Kyrgyzstan.jpg",
+      "original_filename": "Canyon%2C_Chunkurchak_sanctuary%2C_Chuy_region%2C_Kyrgyzstan.jpg",
+      "original_sha1_commons": "6d9598b92245e601b0da4c01045283e9ae2c8c15",
+      "original_sha1_downloaded": "6d9598b92245e601b0da4c01045283e9ae2c8c15",
+      "original_bytes": 2228692,
+      "original_dimensions": [
+        1440,
+        1246
+      ],
+      "webp_file": "biology/images/generated/habitat-chuy-chunkurchak-canyon.webp",
+      "webp_bytes": 614916,
+      "webp_sha256": "4391a0adcb49f709e1a23cdda2d307a3a90c884ec56b6d0a1a564af5cbe4d659",
+      "webp_dimensions": [
+        1440,
+        1246
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
     }
   ]
 }
