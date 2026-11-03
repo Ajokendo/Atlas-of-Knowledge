@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Freshwater habitats of Kyrgyzstan: Issyk-Kul and a mountain stream</title>
+<desc id="desc">Two separate schematic aquatic habitats. Left: a large alpine lake with distant mountains, a stony shore and generic unlabelled fish silhouettes underwater. Right: a cold fast-flowing mountain stream over rocks, with generic unlabelled fish silhouettes and aquatic insect larvae. No species are identified.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dce8e8"/><stop offset="1" stop-color="#f4f1e8"/></linearGradient>
+ <linearGradient id="lake" x2="0" y2="1"><stop stop-color="#75b5bd"/><stop offset="1" stop-color="#1e6478"/></linearGradient>
+ <linearGradient id="stream" x2="0" y2="1"><stop stop-color="#9ed5d5"/><stop offset="1" stop-color="#286d7b"/></linearGradient>
+ <linearGradient id="rock" x2="0" y2="1"><stop stop-color="#a8a69a"/><stop offset="1" stop-color="#686e6c"/></linearGradient>
+ <clipPath id="left"><rect x="0" y="0" width="594" height="675"/></clipPath>
+ <clipPath id="right"><rect x="606" y="0" width="594" height="675"/></clipPath>
+ <g id="fish" fill="#d7e5df" stroke="#315b63" stroke-width="3" stroke-linejoin="round">
+  <path d="M0 0 C22 -18 57 -20 82 -3 C91 3 96 8 102 13 C88 16 80 26 72 32 C49 39 19 27 0 10 C-8 7 -12 4 -17 2 C-10 0 -6 -1 0 0Z"/>
+  <path d="M78 -2 L103 -18 L99 12 L105 30 L78 17Z"/>
+  <path d="M38 -14 L53 -29 L62 -11Z" fill="#aac8c4"/>
+  <circle cx="22" cy="-3" r="3.5" fill="#173e4a" stroke="none"/>
+ </g>
+</defs>
+<g clip-path="url(#left)">
+ <rect width="594" height="675" fill="url(#sky)"/>
+ <path d="M0 300 L110 160 190 255 285 115 390 250 485 145 594 280V390H0Z" fill="#a8b8b4"/>
+ <path d="M0 316 L110 205 190 280 285 155 390 270 485 185 594 300V390H0Z" fill="#788e8c"/>
+ <path d="M240 176 L285 115 326 180 302 169 285 145 269 171Z" fill="#f7f5eb"/>
+ <path d="M0 330 Q160 300 300 328 T594 315V675H0Z" fill="url(#lake)"/>
+ <path d="M0 337 Q150 318 300 340 T594 330" fill="none" stroke="#e0f0e9" stroke-width="5" opacity=".7"/>
+ <path d="M0 365 Q140 348 290 370 T594 357" fill="none" stroke="#b9d9d6" stroke-width="3" opacity=".6"/>
+ <path d="M0 290 Q100 305 175 330 L225 360 0 390Z" fill="#c5bda9"/>
+ <path d="M0 350 L50 345 80 356 110 348 150 367 185 360 225 378 260 372 280 394 0 420Z" fill="#9e9b8c"/>
+ <g fill="#d7d0bd"><ellipse cx="28" cy="371" rx="15" ry="6"/><ellipse cx="86" cy="366" rx="12" ry="5"/><ellipse cx="144" cy="378" rx="18" ry="7"/><ellipse cx="203" cy="383" rx="13" ry="5"/></g>
+ <path d="M0 405 Q130 390 270 420 T594 400V675H0Z" fill="#2d7180" opacity=".28"/>
+ <use href="#fish" transform="translate(330 455) scale(1.25)"/>
+ <use href="#fish" transform="translate(465 540) scale(.85)"/>
+ <use href="#fish" transform="translate(210 585) scale(.7)"/>
+ <g fill="none" stroke="#b5e1d8" stroke-width="3" opacity=".65"><path d="M290 478q25 -9 50 0"/><path d="M405 563q20 -8 40 0"/><path d="M150 612q20 -7 40 0"/></g>
+ <g fill="#e6eee7" opacity=".65"><circle cx="380" cy="510" r="4"/><circle cx="390" cy="492" r="2.5"/><circle cx="255" cy="548" r="3"/></g>
+</g>
+<g clip-path="url(#right)" transform="translate(606 0)">
+ <rect width="594" height="675" fill="#e4ece8"/>
+ <path d="M0 0H594V270L500 230 420 260 320 195 230 245 140 175 65 230 0 205Z" fill="#b5c4bd"/>
+ <path d="M0 235 L95 120 170 215 270 95 365 220 455 120 594 250V370H0Z" fill="#829a91"/>
+ <path d="M225 155 L270 95 313 158 286 146 270 122 252 150Z" fill="#f8f6ec"/>
+ <path d="M0 270 Q95 245 175 290 T340 280 T594 270V675H0Z" fill="url(#stream)"/>
+ <path d="M0 315 Q110 285 205 330 T410 318 T594 300" fill="none" stroke="#e6f4ee" stroke-width="13" opacity=".8"/>
+ <path d="M0 385 Q110 345 210 390 T420 370 T594 355" fill="none" stroke="#d1ece5" stroke-width="8" opacity=".8"/>
+ <path d="M0 460 Q110 420 220 465 T430 445 T594 430V675H0Z" fill="#4c8990" opacity=".4"/>
+ <g fill="url(#rock)" stroke="#5e6c69" stroke-width="2">
+  <path d="M0 510l50 -30 48 22 15 50H0Z"/><path d="M110 570l45 -34 55 18 25 56h-125Z"/>
+  <path d="M270 520l45 -28 52 25 20 55H260Z"/><path d="M420 585l50 -38 55 20 20 58H405Z"/>
+  <path d="M520 470l36 -24 38 18v55h-75Z"/>
+ </g>
+ <use href="#fish" transform="translate(185 420) scale(.8)"/>
+ <use href="#fish" transform="translate(390 500) scale(.65)"/>
+ <g stroke="#c9eee2" stroke-width="4" fill="none" opacity=".85"><path d="M70 340q35 -20 75 -4"/><path d="M300 360q40 -17 80 0"/><path d="M450 400q35 -15 70 0"/></g>
+ <g fill="#d8e6dc" stroke="#567b76" stroke-width="2"><ellipse cx="140" cy="605" rx="10" ry="5"/><ellipse cx="160" cy="620" rx="7" ry="4"/><path d="M330 620l8 -13 8 13 8 -13 8 13" fill="none"/></g>
+</g>
+<path d="M600 0V675" stroke="#f7f5ef" stroke-width="12"/>
+<path d="M0 645H1200" stroke="#f7f5ef" stroke-width="2" opacity=".8"/>
+</svg>
