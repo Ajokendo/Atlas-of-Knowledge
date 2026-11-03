@@ -125,3 +125,21 @@ These are strong, individually licensed and geographically attributed candidates
 ### Updated candidate count for Chüy
 - Individually documented animal candidates with clear source/license/location metadata: red squirrel, Halys pit viper, and Rufous-naped tit.
 - Candidate count is not the integration count. Accepted assets: 0; local originals: 0; WebP: 0; inserted figures: 0; overall biology visual completion remains 0/52.
+
+
+## Follow-up: second tit file — taxonomy conflict confirmed (3 November 2026)
+
+Individual file page inspected:
+https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+
+- Author: Nikolai Bulykin; own work.
+- Caption (RU/EN): рыжешейная синица / Rufous-naped tit; Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- Capture date: 25 August 2023, 14:04:34.
+- Original: JPEG, 3366 × 2525, 745 KB; sRGB; Canon PowerShot SX520 HS.
+- License: CC BY-SA 4.0.
+- **Taxonomic metadata conflict confirmed on the same file page:** the human-readable caption and Commons category identify *Periparus rufonuchalis*, while the structured-data item “depicts” identifies *Cyanistes flavipectus*. Do not approve this image or use its taxon label until the author/knowledge-base discrepancy is resolved by visual expert review or a correction to the file metadata.
+- This confirms that the taxonomy warning is not merely a cross-file mix-up. It is present on the individual second-tit file page itself.
+
+The original is linked on the Commons page and was inspected through browser-rendered page content, but was not downloaded into the working environment. No binary, conversion, or insertion has been made.
+
+Source checked: https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
