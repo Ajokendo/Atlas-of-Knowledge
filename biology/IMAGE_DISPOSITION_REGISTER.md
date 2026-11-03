@@ -1,12 +1,12 @@
 # Biology image disposition register
 
-**Decision date:** 1 November 2026  
+**Decision date:** 3 November 2026  
 **Branch:** `workspace/biology`  
-**Current disposition (3 November 2026):** **1 of 52 mapped briefs is produced (1.9%)**, containing six local WebP photographs for Chüy; the other 51 briefs remain deferred or awaiting production. The six-image batch is verified and integrated; this is a brief-level completion count, not a count of individual photographs. This register distinguishes completed source-backed assets from pending placeholders.
+**Current disposition (3 November 2026):** **2 of 52 mapped briefs are produced (3.8%)**: six local WebP photographs for Chüy fauna and one for Jalal-Abad flora. The other 50 briefs remain deferred or awaiting production. This is a brief-level completion count, not a count of individual photographs. This register distinguishes completed source-backed assets from pending placeholders.
 
 ## Common deferral rationale
 
-Several local-only visual concept drafts remain unapproved and are not counted as completed illustrations. Rejected or ambiguous drafts are documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. One mapped brief (`image-brief-fauna-chuy`) now contains six source-backed, licensed and locally packaged WebP photographs. Other briefs retain their exact insertion markers until approved assets are integrated. No third-party image is accepted without a verified source and licence.
+Several local-only visual concept drafts remain unapproved and are not counted as completed illustrations. Rejected or ambiguous drafts are documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. Two mapped briefs are now produced: `image-brief-fauna-chuy` contains six source-backed, licensed and locally packaged WebP photographs, and `image-brief-flora-jalalabad` contains one source-backed, licensed and locally packaged WebP photograph. Other briefs retain their exact insertion markers until approved assets are integrated. No third-party image is accepted without a verified source and licence.
 
 For every deferred item:
 
