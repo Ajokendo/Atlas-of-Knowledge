@@ -28,6 +28,15 @@ jobs:
         run: python -m pip install --disable-pip-version-check Pillow
       - name: Download originals, verify Commons SHA-1, and build WebP
         run: python biology/scripts/build_chuy_fauna_assets.py
+      - name: Install Chromium for focused browser QA
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Serve repository and run focused Chuy fauna browser QA
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/atlas-http.log 2>&1 &
+          sleep 2
+          node biology/scripts/smoke_chuy_fauna.mjs
       - name: Commit generated assets and source manifest
         run: |
           git config user.name "github-actions[bot]"
