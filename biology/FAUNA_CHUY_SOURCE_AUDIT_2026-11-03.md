@@ -1030,3 +1030,23 @@ The manifest is `biology/images/generated/fauna-chuy-assets-manifest.json`. The 
 Counts for this batch: original files downloaded 2/2; Commons SHA-1 verified 2/2; WebP produced and committed 2/2; chapter local references 2/2; focused Chromium browser smoke test passed 2/2. Run: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41591247154. The test confirmed both local WebP images load and decode in the chapter, report the expected natural dimensions, are visible, and have bilingual alt text. Offline-cache testing remains pending.
 
 The general Biology checks workflow remains failing on project-wide issues outside this batch: missing placeholder image files in other flora/fauna sections, 15 mapped image anchors absent from pages, and 51 insertion-map rows where 52 are expected. The newly produced local WebP paths are not among the broken-path errors. Do not report the overall Biology CI suite as passing.
+
+
+## Follow-up: two additional preselected Chüy habitat images completed (3 November 2026)
+
+Following the user's instruction to complete the existing shortlist before searching for more, two previously shortlisted landscape originals by Vilya Shoni were added to the same reproducible download/verification/WebP pipeline. Their original Commons pages and full-resolution images were visually inspected before integration.
+
+3. **Ak-Suu Gorge and river habitat** — Vilya Shoni, Ak-Suu Complex Sanctuary, Moskovsky District, Chüy Region; 18 June 2022; CC BY-SA 4.0. Original JPEG 3556 × 2000, 7,131,794 bytes. Commons SHA-1 and downloaded SHA-1 both equal `ecf019d233afd85b4f6d56e939e8054fc56af911`. WebP `biology/images/generated/habitat-chuy-ak-suu.webp`, 2,499,846 bytes; SHA-256 `ba75c93b8759585bd5e52e3ccc56c5083d662b65d9ee1e14e08e53c77e06be33`. Source: https://commons.wikimedia.org/wiki/File:Ak_Suu_Gorge,_Chuy_region,_Kyrgyzstan.jpg
+4. **Ala-Archa mountain-forest landscape** — Vilya Shoni, Ala-Archa National Park, Chüy Region; 17 May 2024; CC BY-SA 4.0. Original JPEG 1920 × 1336, 1,105,131 bytes. Commons SHA-1 and downloaded SHA-1 both equal `ffb399ea28cc430c3c07a7913919ae14e872f488`. WebP `biology/images/generated/habitat-chuy-ala-archa.webp`, 783,540 bytes; SHA-256 `887a6ec503ba4cf25203858973c995d5be22d12eaf9d5ac9209192893ad91785`. Source: https://commons.wikimedia.org/wiki/File:Landscape_view,_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan_02.jpg
+
+The updated build workflow completed successfully: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41591566187. Its focused Chromium browser test passed for all four images. It confirmed successful decode, expected natural dimensions, visible rendering, local WebP paths and bilingual alt text. The four-photo figure group now includes two animal records and two habitat photographs, with bilingual captions and author/source/CC BY-SA 4.0 attribution.
+
+### Updated Chüy batch totals
+- Source originals downloaded: **4/4**.
+- Commons SHA-1 matched downloaded originals: **4/4**.
+- WebP outputs generated and committed: **4/4**.
+- Chapter local references: **4/4**.
+- Focused Chromium browser smoke test: **4/4 passed**.
+- Offline-cache test: pending.
+
+The existing project-wide Biology CI still fails on the previously listed unrelated missing placeholder files and missing map anchors; this does not invalidate the successful focused asset build and browser smoke test for these four Chüy files.
