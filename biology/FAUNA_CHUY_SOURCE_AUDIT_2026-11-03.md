@@ -272,3 +272,43 @@ Sources:
 - https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_белка_(1).jpg
 - https://commons.wikimedia.org/wiki/Category:Animals_in_Ala_Archa_national_park
 - https://ru.sputnik.kg/20170422/nacionalnyj-park-ala-archa-1033020572.html
+
+
+## Follow-up: Chüy bird-image search and ornithological evidence (3 November 2026)
+
+### Wikimedia Commons bird inventory
+The Commons category `Birds of Kyrgyzstan` links to a subcategory `Birds of Chüy Region` containing six files. The national category also contains the two Ala-Archa Rufous-naped tit files already assessed above. The second tit file remains on hold because its structured `depicts` field conflicts with the caption/category taxon. Do not treat the category count as six verified, usable Chüy bird photographs; each file needs its own page, license, geographic and taxonomic check.
+
+Category source:
+https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+
+### Independent ornithological locality evidence
+An Ornithological Society of the Middle East, the Caucasus and Central Asia trip report lists numerous species observed in Ala-Archa, including:
+- Himalayan/lammergeier bearded vulture (*Gypaetus barbatus*);
+- blue whistling thrush (*Myophonus caeruleus*);
+- wallcreeper (*Tichodroma muraria*);
+- Severtzov's tit-warbler (*Leptopoecile sophiae*);
+- black-crested tit (*Parus rufonuchalis*, taxonomy may now be treated under *Periparus* depending on authority);
+- brown dipper (*Cinclus pallasii*);
+- golden eagle (*Aquila chrysaetos*);
+- several leaf-warblers and buntings.
+
+The report explicitly describes its species list as preliminary and says not all identifications are confirmed. Use it as historical field-occurrence context and a shortlist for targeted image searches, not as definitive current distribution or a source of reusable images.
+
+Source:
+https://osme.org/trip-reports/kirgtrip4/
+
+### Additional landscape/habitat candidate
+Commons file `Ала-Арча, гора.jpg`:
+https://commons.wikimedia.org/wiki/File:Ала-Арча,_гора.jpg
+- Author Nikolai Bulykin; own work.
+- Date 25 August 2023.
+- Original 4608 × 3456 JPEG, 1.56 MB.
+- Caption places it in Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- CC BY-SA 4.0.
+This may support a habitat panel or chapter landscape, but is not a substitute for a species photograph. Candidate only; no local binary obtained.
+
+### Current decision
+The bird-search stage has yielded a useful shortlist of species with reported Ala-Archa occurrence and identified the Commons subcategory to inspect next. It has not yielded a newly approved, downloaded bird asset. The previously identified tit metadata conflict remains unresolved.
+
+No original binaries downloaded; no WebP prepared; no chapter anchors replaced. Accepted/integrated visual count remains 0/52.
