@@ -68,20 +68,18 @@ async function checkLab(lab, mobile) {
     if (state.horizontalOverflow) throw new Error('Horizontal page overflow at this viewport');
     if (!state.statusRegion) throw new Error('Accessible page status region is missing');
 
-    if (!mobile) {
-      const axe = await new AxeBuilder({ page })
-        .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
-        .analyze();
-      const critical = axe.violations.filter(v => v.impact === 'critical');
-      const serious = axe.violations.filter(v => v.impact === 'serious');
-      axeCritical += critical.length;
-      axeSerious += serious.length;
-      for (const v of [...critical, ...serious]) {
-        console.log(`AXE ${v.impact} ${lab}: ${v.id} — ${v.help} (${v.nodes.length} nodes)`);
-        for (const node of v.nodes) console.log(`AXE NODE ${lab}: ${JSON.stringify({ target: node.target, html: node.html, summary: node.failureSummary })}`);
-      }
-      if (critical.length || serious.length) throw new Error(`axe found ${critical.length} critical and ${serious.length} serious accessibility violation group(s)`);
+    const axe = await new AxeBuilder({ page })
+      .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+      .analyze();
+    const critical = axe.violations.filter(v => v.impact === 'critical');
+    const serious = axe.violations.filter(v => v.impact === 'serious');
+    axeCritical += critical.length;
+    axeSerious += serious.length;
+    for (const v of [...critical, ...serious]) {
+      console.log(`AXE ${v.impact} ${lab} ${mobile ? 'mobile' : 'desktop'}: ${v.id} — ${v.help} (${v.nodes.length} nodes)`);
+      for (const node of v.nodes) console.log(`AXE NODE ${lab} ${mobile ? 'mobile' : 'desktop'}: ${JSON.stringify({ target: node.target, html: node.html, summary: node.failureSummary })}`);
     }
+    if (critical.length || serious.length) throw new Error(`axe found ${critical.length} critical and ${serious.length} serious accessibility violation group(s)`);
 
     const before = state.title;
     if (mobile) {
@@ -99,6 +97,13 @@ async function checkLab(lab, mobile) {
     if (!mobile) {
       await page.locator('#dots button').nth(0).click();
       await page.waitForFunction(() => location.hash === '' || location.hash === '#0', null, { timeout: 10000 });
+      await page.evaluate(() => document.activeElement?.blur());
+      await page.keyboard.press('ArrowRight');
+      await page.waitForFunction(oldTitle =>
+        document.querySelector('#sheet h1')?.textContent?.trim() !== oldTitle, before, { timeout: 15000 });
+      await page.keyboard.press('ArrowLeft');
+      await page.waitForFunction(oldTitle =>
+        document.querySelector('#sheet h1')?.textContent?.trim() === oldTitle, before, { timeout: 15000 });
     }
     pagesChecked++;
     console.log(`PASS ${lab} ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — ${state.pages} pages, WebGL ${state.canvas.join('×')}`);
@@ -127,7 +132,7 @@ try {
 }
 
 console.log(`Browser smoke: ${pagesChecked}/${labs.length * 2} viewport runs passed.`);
-console.log(`axe summary (desktop): ${axeCritical} critical, ${axeSerious} serious violation groups.`);
+console.log(`axe summary (desktop + mobile): ${axeCritical} critical, ${axeSerious} serious violation groups.`);
 if (failures.length) {
   console.error(failures.join('\n'));
   process.exitCode = 1;
