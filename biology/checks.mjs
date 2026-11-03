@@ -664,7 +664,7 @@ for (const line of dispositionTableRows) {
     errors.push("IMAGE_DISPOSITION_REGISTER.md: deferred item must explain that no asset is selected: " + line);
   }
 }
-const dispositionTableRows = imageDispositionRegister.split("\n").filter(line => line.startsWith("| `image-brief-"));
+
 const p1DispositionRows = dispositionTableRows.filter(line => line.includes("| P1 |"));
 const p2p3DispositionRows = dispositionTableRows.filter(line => line.includes("| P2 |") || line.includes("| P3 |"));
 if (p1DispositionRows.length !== 13 || p1DispositionRows.some(line => !line.includes("IMAGE_SCIENTIFIC_REVIEW.md"))) {
