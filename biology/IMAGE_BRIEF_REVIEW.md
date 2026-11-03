@@ -2,7 +2,7 @@
 
 **Review date:** 1 November 2026  
 **Scope:** all 52 planned image anchors in `IMAGE_INSERTION_MAP.md`.  
-**Status:** brief-level review complete; no image asset has been generated or approved.
+**Status:** brief-level review complete; the Chüy fauna brief now has five source-backed local photographs produced and browser-checked. Other briefs still require asset-level review.
 
 The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and conservation constraints in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md). The remaining 39 P2/P3 briefs are reviewed individually below. This review assesses the *brief*, not a rendered image. Actual image morphology, captions, bilingual alt text, source/licence and integration must be checked before any asset is activated.
 
@@ -74,4 +74,4 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 
 ## Relationship to the image disposition register
 
-All 52 assets are currently **Deferred** in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The brief-level review supports that deferral by documenting constraints and preventing unreviewed image generation. It does not certify any actual image asset; visual production remains pending.
+The Chüy fauna brief is **Produced** with five licensed local WebP photographs in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The other mapped briefs retain their recorded pending/deferred statuses. This brief-level review does not certify unreviewed images; every additional asset still requires its own scientific, source/licence and integration checks.
