@@ -116,7 +116,7 @@ for (const file of pages) {
   }
 }
 
-// Keep the 52 planned image anchors and their central production map in sync.
+// Keep the 52 planned image anchors and their central production map in sync; one brief may map to multiple source-backed WebP files.
 const imageMapPath = path.join(root, "IMAGE_INSERTION_MAP.md");
 if (!fs.existsSync(imageMapPath)) {
   errors.push("Missing Biology IMAGE_INSERTION_MAP.md");
