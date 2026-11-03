@@ -33,7 +33,7 @@ export function buildWorld(E) {
   const label = (cls, html, at, text) => labels.push({ cls, html, at, text });
 
   // ---------- helpers ----------
-  const vec = (g, pal = 'ink', size = 's') => arrow(g, pal, { ...SIZE[size], name: pal === 'blue' ? 'Velocity' : pal === 'dark' ? 'Components' : 'Forces', tone: pal === 'dark' ? 'mid' : 'hi' });
+  const vec = (g, pal = 'ink', size = 's') => arrow(g, pal, { ...SIZE[size], name: pal === 'blue' ? 'Скорость' : pal === 'dark' ? 'Составляющие' : 'Силы', tone: pal === 'dark' ? 'mid' : 'hi' });
   const tip = (a, pad = 0.06) => {
     if (!a.visible) return null;
     const { tip: t, head } = a.userData.arrow;
