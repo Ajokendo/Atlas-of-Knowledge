@@ -102,3 +102,26 @@ Two animal files now have individually checked Commons pages, not merely categor
 ### Decision
 
 These are strong, individually licensed and geographically attributed candidates for the Chüy fauna research. They are **not yet approved production assets** because no binary original has been successfully downloaded into the working environment, no WebP has been prepared, and no bilingual figure metadata or chapter insertion has been completed. Keep the relevant mapped image briefs Deferred and preserve the 0/52 integration count.
+
+
+## Follow-up: additional bird candidate and download blockage (3 November 2026)
+
+### Rufous-naped tit — `Ала-Арча, рыжешейная синица (1).jpg`
+- File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+- Author: Nikolai Bulykin; own work.
+- Description/caption: `Periparus rufonuchalis`, Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- Capture date: 25 August 2023.
+- Original: JPEG, 4608 × 3456, 1.39 MB.
+- License: CC BY-SA 4.0 (file page category/metadata).
+- The individual file page lists `Periparus rufonuchalis` and does not show the previously reported `Cyanistes flavipectus` structured-data conflict in the current search rendering. Nonetheless, inspect the actual image and re-check all structured statements before approval; the other similarly named tit file may have separate metadata.
+- This is a third promising animal-photo candidate, not an approved asset.
+
+### Download attempt outcome
+- Attempted to retrieve the red-squirrel original via Commons Special:Redirect into `/mnt/data`; the download service rejected the redirect URL as not directly viewed.
+- Attempted a direct HTTP request from the working container; outbound DNS/network access failed.
+- Therefore no original binary was acquired. No file conversion or image manipulation was performed.
+- Do not represent the browser-rendered preview as a local download.
+
+### Updated candidate count for Chüy
+- Individually documented animal candidates with clear source/license/location metadata: red squirrel, Halys pit viper, and Rufous-naped tit.
+- Candidate count is not the integration count. Accepted assets: 0; local originals: 0; WebP: 0; inserted figures: 0; overall biology visual completion remains 0/52.
