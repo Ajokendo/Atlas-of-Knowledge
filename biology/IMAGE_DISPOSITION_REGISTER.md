@@ -2,11 +2,11 @@
 
 **Decision date:** 3 November 2026  
 **Branch:** `workspace/biology`  
-**Current disposition (3 November 2026):** **4 of 52 mapped briefs are produced (7.7%)**: six local WebP photographs for Chüy fauna, one for Jalal-Abad flora, four for Issyk-Kul flora and three for Naryn flora. The other 48 briefs remain deferred or awaiting production. This is a brief-level completion count, not a count of individual photographs. This register distinguishes completed source-backed assets from pending placeholders.
+**Current disposition (3 November 2026):** **5 of 52 mapped briefs are produced (9.6%)**: six local WebP photographs for Chüy fauna, one for Jalal-Abad flora, four for Issyk-Kul flora, three for Naryn flora and one for Osh flora. The other 47 briefs remain deferred or awaiting production. This is a brief-level completion count, not a count of individual photographs. This register distinguishes completed source-backed assets from pending placeholders.
 
 ## Common deferral rationale
 
-Several local-only visual concept drafts remain unapproved and are not counted as completed illustrations. Rejected or ambiguous drafts are documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. Four mapped briefs are now produced: `image-brief-fauna-chuy` contains six source-backed, licensed and locally packaged WebP photographs; `image-brief-flora-jalalabad` contains one; `image-brief-flora-issyk` contains four; and `image-brief-flora-naryn` contains three source-backed local WebP photographs documenting two high-altitude lake settings and one geographically verified plant species. Other briefs retain their exact insertion markers until approved assets are integrated. No third-party image is accepted without a verified source and licence.
+Several local-only visual concept drafts remain unapproved and are not counted as completed illustrations. Rejected or ambiguous drafts are documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. Five mapped briefs are now produced: `image-brief-fauna-chuy` contains six source-backed, licensed and locally packaged WebP photographs; `image-brief-flora-jalalabad` contains one; `image-brief-flora-issyk` contains four; `image-brief-flora-naryn` contains three source-backed local WebP photographs documenting two high-altitude lake settings and one geographically verified plant species; and `image-brief-flora-osh` contains one licensed river-habitat photograph from Kulun-Ata State Nature Reserve. Other briefs retain their exact insertion markers until approved assets are integrated. No third-party image is accepted without a verified source and licence.
 
 For every deferred item:
 
