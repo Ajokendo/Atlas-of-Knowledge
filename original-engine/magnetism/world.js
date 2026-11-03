@@ -338,7 +338,7 @@ export function buildWorld(E) {
   // 9 · a solenoid and a toroid
   // ======================================================================
   const cN = V(STATIONS.solenoid, 2.4, 0), RS = M.SOL.R * D;
-  const gN = asm('solenoid', root, { title: 'Соленоид', sub: 'внутри однородное поле B = μ₀nI' });
+  const gN = asm('solenoid', root, { title: 'Соленоид', sub: 'внутри почти однородное поле B ≈ μ₀nI' });
   const solMat = fadeMat('paper');
   const turnGeo = new THREE.TorusGeometry(RS, 0.035, 8, 48); turnGeo.rotateY(Math.PI / 2);
   for (const l of M.SOL.loops) part(gN, turnGeo, { tone: 'hi', name: 'Витки', mat: solMat, pos: [cN.x + l[0][0] * D, cN.y, 0] });
