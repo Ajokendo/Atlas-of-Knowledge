@@ -356,7 +356,7 @@ function buildMore(root, asm) {
   const cGhosts = Array.from({ length: Math.round(M.CUBE.run / 0.2) + 1 }, () => { const g = new THREE.Mesh(new THREE.SphereGeometry(0.147, 28, 18), shadeMat('paper', { opacity: 0.5 })); g.userData = { tone: 0.2, ghost: true }; root.add(g); return g; });
   const dispL = arrow(gL, 'ink', { r: 0.016, head: 0.1, headR: 0.045, name: 'Перемещение', tone: 'hi' });
   label('vec', 'v', () => tipOf(cV, 0.14)); label('vec red', 'a', () => tipOf(cA, 0.14));
-  label('mark', `turns at t = ${M.T_TURN.toFixed(2)} s`, () => V(CX + M.cx(M.T_TURN), 0.62, -0.4));
+  label('mark', `разворот при t = ${M.T_TURN.toFixed(2)} с`, () => V(CX + M.cx(M.T_TURN), 0.62, -0.4));
 
   // ---------- per-frame ----------
   function update2(s) {
