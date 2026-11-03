@@ -104,6 +104,32 @@
         1336
       ],
       "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "File:Chong Kemin National Park, Kemin district, Chuy Region, Kyrgyzstan 01.jpg",
+      "output": "habitat-chuy-chon-kemin.webp",
+      "subject": "Chong-Kemin rocky stream, meadow and conifer-forest habitat",
+      "author": "Vilya Shoni",
+      "date": "2024-06-07",
+      "location": "Chong-Kemin State Nature Park, Kemin District, Chüy Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_01.jpg",
+      "original_filename": "Chong_Kemin_National_Park%2C_Kemin_district%2C_Chuy_Region%2C_Kyrgyzstan_01.jpg",
+      "original_sha1_commons": "ed2b78baec56685001b4c032d4899400b9f8cbc9",
+      "original_sha1_downloaded": "ed2b78baec56685001b4c032d4899400b9f8cbc9",
+      "original_bytes": 6778427,
+      "original_dimensions": [
+        3000,
+        2000
+      ],
+      "webp_file": "biology/images/generated/habitat-chuy-chon-kemin.webp",
+      "webp_bytes": 1961496,
+      "webp_sha256": "ba5f2e23d411fe42ad2cdf6167ba2ffbd1835b914450858eacdbd78ec9c41298",
+      "webp_dimensions": [
+        3000,
+        2000
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
     }
   ]
 }
