@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Birds of Kyrgyzstan: mountain, alpine and lake habitats</title>
+<desc id="desc">Golden eagle soaring near a cliff, Himalayan snowcock standing on a rocky alpine slope, and generic waterfowl on a separate lake shore. Three distinct habitats, not a single shared microhabitat.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d9e8ed"/><stop offset="1" stop-color="#f5f0df"/></linearGradient>
+ <linearGradient id="lake" x2="0" y2="1"><stop stop-color="#78aeb5"/><stop offset="1" stop-color="#356d78"/></linearGradient>
+ <linearGradient id="stone" x2="0" y2="1"><stop stop-color="#a3a69a"/><stop offset="1" stop-color="#5e6b65"/></linearGradient>
+</defs>
+<rect width="1200" height="675" fill="url(#sky)"/>
+<circle cx="1020" cy="110" r="48" fill="#f3dca4"/>
+<path d="M0 410 155 225 275 340 435 135 590 355 760 180 925 350 1080 205 1200 365V675H0Z" fill="#b8c9c8"/>
+<path d="m350 235 85-100 90 128-48-15-35 20-36-19-30 16zM680 270l80-90 90 110-43-15-34 17-34-18-27 15z" fill="#f8f7ef"/>
+<!-- rocky high alpine ground -->
+<path d="M0 450 170 400 300 445 420 370 550 430 650 395 700 675H0Z" fill="url(#stone)"/>
+<path d="m0 450 170-50 130 45 120-75 130 60" fill="none" stroke="#d8d8cc" stroke-width="7"/>
+<!-- golden eagle in flight -->
+<g transform="translate(120 185)" fill="#765b37" stroke="#493f32" stroke-width="5" stroke-linejoin="round">
+ <path d="M145 76Q95 52 28 7Q58 72 104 103Q57 99 0 76Q47 132 118 133L157 119 194 133Q265 130 310 76Q252 98 205 103Q250 72 282 7Q215 51 166 76Z"/>
+ <path d="M144 77Q155 52 174 47L195 70 181 103 156 112 136 98Z" fill="#9b7544"/>
+ <path d="m178 53 28-13 20 10-17 17-22-1z" fill="#8d6a3f"/>
+ <path d="m223 50 20 8-18 9" fill="#d7b65d"/>
+ <path d="M155 112 143 145 163 128 179 146 174 111" fill="#5d472e"/>
+</g>
+<!-- Himalayan snowcock on alpine slope -->
+<g transform="translate(430 385)" stroke="#4b4b43" stroke-width="5" stroke-linejoin="round">
+ <path d="M30 68Q62 27 132 35Q178 43 195 77L175 101Q106 117 45 96Z" fill="#b9b8a9"/>
+ <path d="M53 91 48 145 66 146 80 104M145 97 148 145 166 145 171 91" fill="#8c8879"/>
+ <path d="M181 70 203 53 225 66 207 88 184 87Z" fill="#a6a18e"/>
+ <path d="M200 54 211 38 224 55 217 70" fill="#b9b8a9"/>
+ <path d="M204 48 214 42 224 47" fill="none"/>
+ <path d="M223 64 240 69 225 77" fill="#b68a54"/>
+ <circle cx="214" cy="58" r="3" fill="#222" stroke="none"/>
+ <path d="M28 83Q5 76 0 61" fill="none" stroke="#d6d1bd" stroke-width="12"/>
+ <path d="M75 43l12 9m9-14 12 10m12-9 11 10m-45 23 12 8m18-11 12 8" stroke="#77796f" stroke-width="4"/>
+</g>
+<!-- lake and shore as separate habitat -->
+<path d="M690 430Q820 390 930 420T1200 405V675H690Z" fill="url(#lake)"/>
+<path d="M690 430Q820 390 930 420T1200 405" fill="none" stroke="#dce1d6" stroke-width="9"/>
+<path d="M700 465Q830 440 940 466T1200 450" fill="none" stroke="#b6d4d1" stroke-width="5" opacity=".8"/>
+<!-- distant reeds -->
+<g stroke="#637d5d" stroke-width="8" stroke-linecap="round">
+ <path d="M1030 445v-55m0 30-15-17m15 7 15-22M1070 442v-70m0 35-14-17m14 8 14-23M1110 440v-48m0 24-14-15"/>
+</g>
+<!-- generic waterfowl pair; no species label -->
+<g transform="translate(840 500)" stroke="#384b4b" stroke-width="5" stroke-linejoin="round">
+ <path d="M20 57Q45 30 91 43Q119 50 128 66Q92 85 44 76Z" fill="#e6e2d4"/>
+ <path d="M77 45Q89 20 77 2Q69-9 81-16Q100-18 100 2Q101 27 117 44" fill="none" stroke="#4e5a54" stroke-width="13"/>
+ <path d="M112 43 137 48 115 56" fill="#c18d4c"/>
+ <circle cx="95" cy="3" r="3" fill="#1d2828" stroke="none"/>
+ <path d="M40 75 34 99m52-22 3 23" stroke="#bd955e" stroke-width="5"/>
+</g>
+<g transform="translate(1000 540) scale(.72)" stroke="#384b4b" stroke-width="6" stroke-linejoin="round">
+ <path d="M20 57Q45 30 91 43Q119 50 128 66Q92 85 44 76Z" fill="#b8c0b8"/>
+ <path d="M77 45Q89 20 77 2Q69-9 81-16Q100-18 100 2Q101 27 117 44" fill="none" stroke="#4e5a54" stroke-width="13"/>
+ <path d="M112 43 137 48 115 56" fill="#c18d4c"/>
+ <circle cx="95" cy="3" r="3" fill="#1d2828" stroke="none"/>
+</g>
+<path d="M0 620Q170 590 350 620T700 615" fill="none" stroke="#d5d3c4" stroke-width="4" opacity=".45"/>
+</svg>
