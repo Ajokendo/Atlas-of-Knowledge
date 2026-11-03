@@ -1,0 +1,54 @@
+name: Build and verify Osh flora image
+
+on:
+  push:
+    branches:
+      - workspace/biology
+    paths:
+      - ".github/workflows/biology-osh-flora-assets.yml"
+      - "biology/scripts/build_osh_flora_asset.py"
+      - "biology/scripts/smoke_osh_flora.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: biology-osh-flora-assets-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the selected biology branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install image processor
+        run: python -m pip install --disable-pip-version-check Pillow
+      - name: Download original, verify Commons SHA-1, and build WebP
+        run: python biology/scripts/build_osh_flora_asset.py
+      - name: Install Chromium for image decode QA
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Serve repository and run image decode QA
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/atlas-http.log 2>&1 &
+          sleep 2
+          node biology/scripts/smoke_osh_flora.mjs
+      - name: Commit generated asset and source manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add biology/images/generated/flora-osh.webp biology/images/generated/flora-osh-asset-manifest.json
+          git diff --cached --quiet || git commit -m "Add verified Kulun-Ata flora habitat image"
+          git fetch origin "${GITHUB_REF_NAME}"
+          git rebase "origin/${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
