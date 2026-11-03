@@ -1078,3 +1078,12 @@ To avoid repeating another Ala-Archa panorama, one of the three previously docum
 Source: https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_01.jpg
 
 The photo has been added to the existing Chüy habitat figure, insertion map, disposition register and review brief. The reproducible GitHub Actions builder and browser smoke test have been expanded to five assets. The original binary is not yet counted as acquired or checksum-verified; those steps remain contingent on the workflow run. The other two Chon-Kemin landscape candidates (02 and 03) remain unselected to avoid redundant scenery. The two tit photographs remain on taxonomic hold. Current verified production count remains four until the fifth asset build and browser test pass.
+
+
+## Production completion: Chon-Kemin habitat photograph (3 November 2026)
+
+The Chon-Kemin original completed the same automated acquisition and verification pipeline as the four earlier Chüy images. GitHub Actions downloaded the 6,778,427-byte JPEG (3000 × 2000); its SHA-1 matched the Commons value exactly: ed2b78baec56685001b4c032d4899400b9f8cbc9. The generated WebP is `biology/images/generated/habitat-chuy-chon-kemin.webp`, 1,961,496 bytes, 3000 × 2000; SHA-256: ba5f2e23d411fe42ad2cdf6167ba2ffbd1835b914450858eacdbd78ec9c41298. Manifest: `biology/images/generated/fauna-chuy-assets-manifest.json`.
+
+The focused Chromium browser test passed for all five Chüy images, including the Chon-Kemin habitat image. Run: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41592960808. All five local WebP files are committed and referenced in the bilingual chapter. Offline-cache testing remains pending.
+
+**Updated verified counts:** 5/5 original binaries acquired; 5/5 Commons SHA-1 matches; 5/5 WebP outputs committed; 5/5 chapter images decoded and visible in Chromium. One of the 52 mapped visual briefs is now produced; the asset-based progress count is 5/52 (9.6%). The two Rufous-naped Tit photos remain on hold because of the unresolved structured-data conflict. The other two Chon-Kemin frames remain unselected to avoid repetitive scenery.
