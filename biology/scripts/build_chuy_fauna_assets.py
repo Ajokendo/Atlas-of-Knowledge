@@ -71,6 +71,7 @@ FILES = [
         "direct_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Canyon%2C_Chunkurchak_sanctuary%2C_Chuy_region%2C_Kyrgyzstan.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
         "expected_sha1": "6d9598b92245e601b0da4c01045283e9ae2c8c15",
         "expected_bytes": 2228692,
+        "expected_dimensions": [1440, 1246],
     },
 ]
 
@@ -129,13 +130,15 @@ for item in FILES:
         im.verify()
     with Image.open(temp) as im:
         dimensions = list(im.size)
+        if item.get("expected_dimensions") and dimensions != item["expected_dimensions"]:
+            raise RuntimeError(f"Unexpected dimensions for {item['commons_title']}: {dimensions}")
         im = im.convert("RGB")
         target = OUT / item["output"]
         im.save(target, "WEBP", quality=88, method=6)
     temp.unlink()
     webp_bytes = target.read_bytes()
     manifest["assets"].append({
-        **item,
+        **{key: value for key, value in item.items() if key not in {"direct_url", "expected_sha1", "expected_bytes", "expected_dimensions"}},
         "original_filename": pathlib.PurePosixPath(urllib.parse.urlparse(info["url"]).path).name,
         "original_sha1_commons": info["sha1"],
         "original_sha1_downloaded": actual_sha1,
