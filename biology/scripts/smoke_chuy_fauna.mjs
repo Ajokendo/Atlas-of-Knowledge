@@ -7,9 +7,9 @@ try {
   page.on("pageerror", error => errors.push(error.message));
   const response = await page.goto("http://127.0.0.1:4173/biology/chapters/fauna-kyrgyzstan.html", { waitUntil: "networkidle" });
   if (!response?.ok()) throw new Error("Fauna chapter HTTP response was not successful");
-  const images = page.locator('img[src*="fauna-chuy-"]');
+  const images = page.locator('img[src*="-chuy-"]');
   const count = await images.count();
-  if (count !== 2) throw new Error(`Expected 2 local Chuy fauna images, found ${count}`);
+  if (count !== 4) throw new Error(`Expected 4 local Chuy fauna and habitat images, found ${count}`);
   for (let i = 0; i < count; i++) {
     const img = images.nth(i);
     await img.evaluate(el => { el.loading = "eager"; el.scrollIntoView(); });
@@ -27,7 +27,7 @@ try {
     console.log("PASS", JSON.stringify(state));
   }
   if (errors.length) throw new Error("Browser page errors: " + errors.join("; "));
-  console.log("Chuy fauna browser smoke test passed.");
+  console.log("Chuy fauna and habitat browser smoke test passed.");
 } finally {
   await browser.close();
 }
