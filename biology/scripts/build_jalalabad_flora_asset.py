@@ -77,5 +77,5 @@ record = {
     "webp_dimensions": dimensions,
     "conversion": "JPEG to WebP, RGB, quality=88, method=6",
 }
-MANIFEST.write_text(json.dumps({"generated_by": "biology/scripts/build_jalalabad_flora_asset.py", "asset": record}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+MANIFEST.write_text(json.dumps({"generated_by": "biology/scripts/build_jalalabad_flora_asset.py", "asset": record}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(json.dumps(record, ensure_ascii=False, indent=2))
