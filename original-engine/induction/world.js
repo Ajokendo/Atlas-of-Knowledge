@@ -267,10 +267,10 @@ export function buildWorld(E) {
   const gK = asm('core', root, { title: 'Железный сердечник', sub: 'сердечник проводит поток от одной обмотки к другой' });
   part(gK, xAxis(new THREE.CylinderGeometry(RC, RC, LC, 40)), { tone: 'hi', pal: 'dark', pos: [X2, yC, 0], name: 'Железный сердечник', mat: shadeMat('dark', { opacity: 0.55 }) });
   const prim = new THREE.Group(); gK.add(prim);
-  helix(prim, V(X2 + 0.3, yC, 0), V(X2 + 1.3, yC, 0), RC + 0.04, 10, 0.022, 'Primary (200 turns)');
+  helix(prim, V(X2 + 0.3, yC, 0), V(X2 + 1.3, yC, 0), RC + 0.04, 10, 0.022, 'Первичная обмотка (200 витков)');
   path(prim, [V(X2 + 0.3, yC + RC + 0.04, 0), V(X2 + 0.3, yC + 0.45, 0)]); path(prim, [V(X2 + 1.3, yC + RC + 0.04, 0), V(X2 + 1.3, yC + 0.45, 0)]);
   const sec = new THREE.Group(); sec.userData = { home: V(), ex: V(0, 0.75, 0) }; gK.add(sec);
-  helix(sec, V(X2 - 1.3, yC, 0), V(X2 - 0.6, yC, 0), RC + 0.04, 5, 0.022, 'Secondary (100 turns)');
+  helix(sec, V(X2 - 1.3, yC, 0), V(X2 - 0.6, yC, 0), RC + 0.04, 5, 0.022, 'Вторичная обмотка (100 витков)');
   path(sec, [V(X2 - 1.3, yC + RC + 0.04, 0), V(X2 - 1.3, yC + 0.45, 0)]); path(sec, [V(X2 - 0.6, yC + RC + 0.04, 0), V(X2 - 0.6, yC + 0.45, 0)]);
   const BK = bArrow(gK, 0.024, 'Поле в сердечнике'), indK = dashArrow(gK), I1K = iArrow(gK, 'Ток первичной обмотки'), I2K = iArrow(gK);
   label('vec', grey('<i>B</i>(<i>t</i>)'), () => tipOf(BK, 0)?.add(V(0, -0.33, 0)));
@@ -287,7 +287,7 @@ export function buildWorld(E) {
   const g3 = asm('wire', root, { title: 'Контур удаляется от провода', sub: 'Φ = ∫B b dr, поле убывает как 1/r' });
   rod(g3, V(X3 - 3.1, yW, 0), V(X3 + 2.4, yW, 0), 0.035, 'ink', 'Длинный прямой провод (50 А)');
   const Iw = iArrow(g3, 'Длинный прямой провод (50 А)'); setArrow(Iw, V(X3 - 3.05, yW + 0.15, 0), V(0.6, 0, 0));
-  label('vec', '<i>I</i> = 50 A', () => V(X3 - 2.75, yW + 0.45, 0));
+  label('vec', '<i>I</i> = 50 А', () => V(X3 - 2.75, yW + 0.45, 0));
   const rows3 = [[0.015, 1], [0.03, 1], [0.055, 1], [0.015, -1], [0.035, -1], [0.07, -1], [0.11, -1], [0.16, -1], [0.22, -1]];
   const mk3 = [];
   for (const [r, s] of rows3) for (let i = 0; i < 8; i++) mk3.push({ p: V(X3 - 2.1 + i * 0.6, yW + s * r * D3, -0.03), r: 3.6 * Math.sqrt(M.wireB(r)), out: s > 0 });
@@ -355,7 +355,7 @@ export function buildWorld(E) {
   const g6 = asm('rails', root, { title: 'Стержень на рельсах', sub: 'ток в стержне создаёт тормозящую силу' });
   { const mk = []; for (let i = 0; i < 9; i++) for (const y of [0.75, 1.55, 2.0, 2.75]) mk.push({ p: V(X6 - 1.95 + i * 0.5, y + (y === 1.55 || y === 2.0 ? 0.0 : 0), -0.08), r: 0.08 }); bMarkers(g6, mk); }
   label('vec', grey('<i>B</i>'), () => V(X6 - 2.6, 2.95, 0));
-  rod(g6, V(xL6, yb6, 0), V(xEnd6, yb6, 0), 0.03, 'dark', 'Rails'); rod(g6, V(xL6, yt6, 0), V(xEnd6, yt6, 0), 0.03, 'dark', 'Rails');
+  rod(g6, V(xL6, yb6, 0), V(xEnd6, yb6, 0), 0.03, 'dark', 'Рельсы'); rod(g6, V(xL6, yt6, 0), V(xEnd6, yt6, 0), 0.03, 'dark', 'Рельсы');
   // the resistor: a zigzag across the left end
   { const zp = [V(xL6, yb6, 0), V(xL6, yb6 + 0.25, 0)]; const n = 8, z0 = yb6 + 0.25, z1 = yt6 - 0.25;
     for (let i = 0; i < n; i++) zp.push(V(xL6 + (i % 2 ? -0.11 : 0.11), z0 + (z1 - z0) * (i + 0.5) / n, 0)); zp.push(V(xL6, z1, 0), V(xL6, yt6, 0));
@@ -377,10 +377,10 @@ export function buildWorld(E) {
   // 7 · a solenoid: inductance and back emf
   const X7 = STATIONS.solenoid, D7 = DRAW.solenoid, y7 = 1.75, R7 = M.SOL.r * D7, L7 = M.SOL.len * D7;
   const g7 = asm('solenoid', root, { title: 'Потокосцепление катушки', sub: 'NΦ = LI' });
-  helix(g7, V(X7 - L7 / 2, y7, 0), V(X7 + L7 / 2, y7, 0), R7, 25, 0.018, 'Solenoid (400 turns)');
+  helix(g7, V(X7 - L7 / 2, y7, 0), V(X7 + L7 / 2, y7, 0), R7, 25, 0.018, 'Соленоид (400 витков)');
   const hi7 = y7 + R7 + 0.45;
-  path(g7, [V(X7 - L7 / 2, y7 + R7, 0), V(X7 - L7 / 2, hi7, 0), V(X7 - L7 / 2 - 0.8, hi7, 0)], 0.022, 'ink', 'Leads');
-  path(g7, [V(X7 + L7 / 2, y7 + R7, 0), V(X7 + L7 / 2, hi7, 0), V(X7 + L7 / 2 + 0.8, hi7, 0)], 0.022, 'ink', 'Leads');
+  path(g7, [V(X7 - L7 / 2, y7 + R7, 0), V(X7 - L7 / 2, hi7, 0), V(X7 - L7 / 2 - 0.8, hi7, 0)], 0.022, 'ink', 'Выводы');
+  path(g7, [V(X7 + L7 / 2, y7 + R7, 0), V(X7 + L7 / 2, hi7, 0), V(X7 + L7 / 2 + 0.8, hi7, 0)], 0.022, 'ink', 'Выводы');
   const I7 = iArrow(g7, 'Ток I(t)');
   label('vec', '<i>I</i>(<i>t</i>)', () => tipOf(I7, 0.14)?.add(V(0, 0.08, 0)));
   const B7 = [];  // inside the coil, drawn over the turns
@@ -402,7 +402,7 @@ export function buildWorld(E) {
   const g8 = asm('rl', root, { title: 'Обход RL-контура', sub: 'ε − IR − L dI/dt = 0' });
   // bottom, right (with the inductor), top (with the resistor)
   path(g8, [V(xB8, yb8, 0), V(xR8, yb8, 0), V(xR8, 1.05, 0), V(xR8 + 0.19, 1.05, 0)]);
-  helix(g8, V(xR8, 1.05, 0), V(xR8, 2.15, 0), 0.19, 9, 0.024, 'Inductor (2 H)');
+  helix(g8, V(xR8, 1.05, 0), V(xR8, 2.15, 0), 0.19, 9, 0.024, 'Катушка индуктивности (2 Гн)');
   path(g8, [V(xR8 + 0.19, 2.15, 0), V(xR8, 2.15, 0), V(xR8, yt8, 0), V(X8 + 0.75, yt8, 0)]);
   { const zp = [V(X8 + 0.75, yt8, 0)]; const n = 8, x0 = X8 + 0.75, x1 = X8 - 0.15; for (let i = 0; i < n; i++) zp.push(V(x0 + (x1 - x0) * (i + 0.5) / n, yt8 + (i % 2 ? -0.12 : 0.12), 0)); zp.push(V(x1, yt8, 0)); path(g8, zp, 0.022, 'ink', 'Резистор (4 Ом)'); }
   path(g8, [V(X8 - 0.15, yt8, 0), P8]);
@@ -449,19 +449,19 @@ export function buildWorld(E) {
   slab9.userData.noEdge = true;
   g9.userData.focus = () => ({ target: [xC9, yc9, 0], radius: 1.7 });
   label('tick', '', when(g9, () => V(xC9 - 1.2, yc9 + 0.2, 0)), () => S.lc ? `Δ<i>V</i> = <i>q</i>/<i>C</i> = ${fmt(S.lc.V, 2)} В` : '');
-  label('tick', '', when(g9, () => V(xC9 - 1.2, yc9 - 0.12, 0)), () => S.lc ? `<i>U<sub>E</sub></i> = ${fmt(S.lc.UE * 1e3, 3)} mJ` : '');
+  label('tick', '', when(g9, () => V(xC9 - 1.2, yc9 - 0.12, 0)), () => S.lc ? `<i>U<sub>E</sub></i> = ${fmt(S.lc.UE * 1e3, 3)} мДж` : '');
   // the coil: 1600 turns, 12 drawn
   const gC9 = asm('lcCoil', root, { title: 'Катушка', sub: 'U_B = ½LI², энергия в магнитном поле внутри катушки' });
-  helix(gC9, V(xR9, c0y9, 0), V(xR9, c1y9, 0), R9, 9, 0.022, 'Inductor (40 mH)');
+  helix(gC9, V(xR9, c0y9, 0), V(xR9, c1y9, 0), R9, 9, 0.022, 'Катушка индуктивности (40 мГн)');
   const B9 = [-0.1, 0.1].map(x => ({ x, a: bArrow(gC9, 0.016) }));
   label('vec', grey('<i>B</i>'), () => B9[1].a.visible ? V(xR9 - R9 - 0.2, yc9, 0) : null);
   label('board', '<i>L</i> = 40 мГн', () => V(xR9 + 0.8, yc9 + 0.12, 0));
-  label('tick', '', () => V(xR9 + 0.8, yc9 - 0.2, 0), () => S.lc ? `<i>I</i> = ${fmt(S.lc.I * 1e3, 0)} mA` : '');
+  label('tick', '', () => V(xR9 + 0.8, yc9 - 0.2, 0), () => S.lc ? `<i>I</i> = ${fmt(S.lc.I * 1e3, 0)} мА` : '');
   const core9 = part(gC9, new THREE.CylinderGeometry(R9 - 0.04, R9 - 0.04, c1y9 - c0y9 - 0.06, 32), { tone: 'lo', name: 'Энергия поля', mat: flatMat('dark', 0.3), pos: [xR9, yc9, 0] });
   core9.userData.noEdge = true;
   gC9.userData.focus = () => ({ target: [xR9, yc9, 0], radius: 1.7 });
-  label('tick', '', when(gC9, () => V(xR9 - 1.05, yc9 + 0.2, 0)), () => S.lc ? `<i>L dI</i>/<i>dt</i> = ${fmt(S.lc.dI * M.LC.L, 2)} V` : '');
-  label('tick', '', when(gC9, () => V(xR9 - 1.05, yc9 - 0.12, 0)), () => S.lc ? `<i>U<sub>B</sub></i> = ${fmt(S.lc.UB * 1e3, 3)} mJ` : '');
+  label('tick', '', when(gC9, () => V(xR9 - 1.05, yc9 + 0.2, 0)), () => S.lc ? `<i>L dI</i>/<i>dt</i> = ${fmt(S.lc.dI * M.LC.L, 2)} В` : '');
+  label('tick', '', when(gC9, () => V(xR9 - 1.05, yc9 - 0.12, 0)), () => S.lc ? `<i>U<sub>B</sub></i> = ${fmt(S.lc.UB * 1e3, 3)} мДж` : '');
   label('board', `замедлено в ${Math.round(M.LC.slow / 10) * 10} раз: один период ${f3(M.LC.T * 1e3)} мс занимает ${M.LC.show} с`, () => V(X9, yt9 + 0.5, 0));
 
   // ---------- per-frame ----------
