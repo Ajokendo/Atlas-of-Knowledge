@@ -207,7 +207,7 @@ export const PAGES = [
         series: [{ pts: samples(200, 0, 2 * M.LC.T * 1e3, t => M.lcScene(t * 1e-3).q * 1e6) }, { r: 1, pts: samples(200, 0, 2 * M.LC.T * 1e3, t => M.lcScene(t * 1e-3).I * 1e3) }],
         marks: [[M.LC.T * 1e3, 100, 'T', 6, 14]] })}
       <div class="eq"><i>q</i><sup>2</sup>/2<i>C</i> + ½<i>LI</i><sup>2</sup> = <i>Q</i><sup>2</sup>/2<i>C</i> = ${f(M.LC.U * 1e3, 2)} мДж</div>
-      <div class="charts">${barChart('lc', [['UE', 'U_E = q²/2C', '#8fb0f0'], ['UB', 'U_B = ½LI²', '#c4c4c8'], ['U', 'total', '#f7f7f4']], `${f(M.LC.U * 1e3, 2)} мДж`)}</div>
+      <div class="charts">${barChart('lc', [['UE', 'U_E = q²/2C', '#8fb0f0'], ['UB', 'U_B = ½LI²', '#c4c4c8'], ['U', 'полная энергия', '#f7f7f4']], `${f(M.LC.U * 1e3, 2)} мДж`)}</div>
       <table class="data"><tr><th>груз на пружине</th><th>колебательный LC-контур</th></tr>
         <tr><td><i>x</i>, &nbsp;<i>v</i></td><td><i>q</i>, &nbsp;<i>I</i></td></tr>
         <tr><td><i>m</i>, &nbsp;<i>k</i></td><td><i>L</i>, &nbsp;1/<i>C</i></td></tr>
