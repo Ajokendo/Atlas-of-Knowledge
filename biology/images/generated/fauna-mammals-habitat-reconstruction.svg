@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Mountain mammals of Kyrgyzstan — habitat reconstruction</title>
+<desc id="d">A snow leopard on a separate high rocky ledge, an argali on an open grassy slope, and a Siberian ibex on a distinct steep crag. This is an illustrative habitat reconstruction.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dce8e8"/><stop offset="1" stop-color="#f4f0e5"/></linearGradient>
+ <linearGradient id="rock" x2="0" y2="1"><stop stop-color="#929b96"/><stop offset="1" stop-color="#59665f"/></linearGradient>
+ <linearGradient id="grass" x2="0" y2="1"><stop stop-color="#a8b98d"/><stop offset="1" stop-color="#687e5d"/></linearGradient>
+</defs>
+<rect width="1200" height="675" fill="url(#sky)"/>
+<circle cx="1000" cy="110" r="48" fill="#f4dfaa" opacity=".7"/>
+<path d="M0 430 160 250 275 345 430 145 590 360 770 165 925 350 1060 205 1200 390V675H0Z" fill="#b6c4bf"/>
+<path d="m340 250 90-105 95 132-54-20-34 24-34-20-29 17zM680 270l90-105 90 110-45-17-31 19-34-20-27 18z" fill="#f7f7f0"/>
+<path d="M0 460 180 390 335 430 500 340 650 430 820 355 980 430 1200 345V675H0Z" fill="#8d9e89"/>
+<!-- Separate high ledge -->
+<path d="M0 465 120 420 265 440 380 385 500 430 500 675H0Z" fill="url(#rock)"/>
+<path d="M0 465 120 420 265 440 380 385 500 430" fill="none" stroke="#d1d4c8" stroke-width="8"/>
+<!-- snow leopard -->
+<g transform="translate(95 385)" stroke="#514f49" stroke-width="5" stroke-linejoin="round">
+ <path d="M30 38Q62 4 145 17Q190 23 213 51L198 76Q137 93 70 75L43 66Z" fill="#d8d1bd"/>
+ <path d="M42 57 35 104 52 106 72 74M100 72 94 111 112 112 128 80M169 68 175 105 194 105 192 61" fill="#c9c1ae"/>
+ <path d="M205 48Q248 42 255 77Q263 111 230 116Q211 118 218 101Q241 95 231 79Q224 68 204 72" fill="none" stroke="#d8d1bd" stroke-width="17"/>
+ <path d="M178 22Q190 -5 214 7L229 31 210 46 187 41Z" fill="#d8d1bd"/>
+ <path d="M191 18l5-17 13 15M217 19l10-10 2 22" fill="#b8ad98"/>
+ <g fill="#625d53" stroke="none"><ellipse cx="76" cy="34" rx="8" ry="5"/><ellipse cx="111" cy="25" rx="9" ry="5"/><ellipse cx="151" cy="39" rx="8" ry="5"/><ellipse cx="86" cy="61" rx="8" ry="5"/><ellipse cx="143" cy="66" rx="8" ry="5"/><ellipse cx="196" cy="34" rx="6" ry="4"/></g>
+ <circle cx="218" cy="31" r="3" fill="#252724" stroke="none"/>
+</g>
+<!-- open grassy slope -->
+<path d="M385 455Q570 380 760 430L860 675H340Z" fill="url(#grass)"/>
+<path d="M385 455Q570 380 760 430" fill="none" stroke="#d1d6b8" stroke-width="7"/>
+<!-- argali, heavy curled horns -->
+<g transform="translate(500 405)" stroke="#514d43" stroke-width="5" stroke-linejoin="round">
+ <path d="M34 52Q67 19 134 31L164 54 148 79Q91 91 44 75Z" fill="#9b8a70"/>
+ <path d="M54 70 48 111 65 112 79 79M121 76 119 111 136 112 145 69" fill="#88765e"/>
+ <path d="M153 49 181 34 199 49 183 68 160 67Z" fill="#9b8a70"/>
+ <path d="M169 42Q177 -5 218 2Q252 10 238 43Q230 58 215 47Q232 35 223 23Q210 10 197 27Q187 42 191 57" fill="none" stroke="#b5a27e" stroke-width="13"/>
+ <path d="M171 43Q170 1 140 0Q108 1 116 34Q120 49 137 42Q124 33 133 21Q146 10 155 29Q160 42 155 54" fill="none" stroke="#b5a27e" stroke-width="11"/>
+ <path d="M191 51l22 2-8 12-17-2" fill="#6d6254"/>
+ <circle cx="192" cy="45" r="3" fill="#211f1b" stroke="none"/>
+</g>
+<!-- distinct steep crag -->
+<path d="M820 675 890 390 1000 300 1080 360 1200 300V675Z" fill="url(#rock)"/>
+<path d="m890 390 110-90 80 60" fill="none" stroke="#d7dbd0" stroke-width="8"/>
+<!-- ibex -->
+<g transform="translate(920 315)" stroke="#3f4944" stroke-width="5" stroke-linejoin="round">
+ <path d="M23 65Q55 34 113 45L143 66 128 88Q76 100 33 84Z" fill="#8a7761"/>
+ <path d="M42 81 38 122 54 123 67 88M105 86 107 122 123 122 127 81" fill="#78644f"/>
+ <path d="M134 60 156 44 176 57 159 78 138 78Z" fill="#8a7761"/>
+ <path d="M150 47Q178 22 170 -18Q167 -43 188 -54Q206 -59 205 -39Q201 -29 190 -33Q188 -43 195 -42Q186 -51 181 -35Q177 -10 190 12Q197 30 184 48" fill="none" stroke="#c0a77d" stroke-width="12"/>
+ <path d="M159 48Q176 19 163 -8Q151 -31 164 -47Q178 -57 183 -42" fill="none" stroke="#c0a77d" stroke-width="8"/>
+ <path d="M142 79Q149 101 139 112" fill="none" stroke="#403a32" stroke-width="7"/>
+ <circle cx="168" cy="57" r="3" fill="#211f1b" stroke="none"/>
+</g>
+<path d="M0 610Q220 575 400 615T800 605T1200 595V675H0Z" fill="#485e4d" opacity=".32"/>
+</svg>
