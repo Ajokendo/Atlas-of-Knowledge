@@ -312,3 +312,33 @@ This may support a habitat panel or chapter landscape, but is not a substitute f
 The bird-search stage has yielded a useful shortlist of species with reported Ala-Archa occurrence and identified the Commons subcategory to inspect next. It has not yielded a newly approved, downloaded bird asset. The previously identified tit metadata conflict remains unresolved.
 
 No original binaries downloaded; no WebP prepared; no chapter anchors replaced. Accepted/integrated visual count remains 0/52.
+
+
+## Follow-up: Commons bird-category audit recheck (3 November 2026)
+
+### Category-level finding
+The current Commons index for `Birds of Kyrgyzstan` lists a subcategory `Birds of Chüy Region` with six files. The browser search result exposes the count but not the individual six filenames, and a direct category-page open was inaccessible in this run. Therefore do not invent or infer the six file identities; retrieve the category's file list through Commons category/API before assessing individual candidates.
+
+Index:
+https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+
+### Recheck of the two Ala-Archa tit pages
+- File (1): https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+  - Current page rendering gives bilingual caption “Rufous-naped tit / Рыжешейная синица”, Ala-Archa National Park, Chüy Region, 25 August 2023, author Nikolai Bulykin, own work.
+  - Original: 4608 × 3456 JPEG, 1.39 MB.
+  - Category includes `Periparus rufonuchalis` and Birds of Kyrgyzstan; license category CC BY-SA 4.0.
+  - Current rendered page does not expose the previously suspected conflicting `depicts` statement. Keep the earlier structured-data warning as unresolved historical discrepancy until checking the raw Wikidata/Commons statements directly; do not silently erase it.
+- File (2): https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+  - Current page rendering shows category `Periparus rufonuchalis`, Birds of Kyrgyzstan, and CC BY-SA 4.0; original 3366 × 2525 JPEG, 745 KB.
+  - The earlier page inspection reported a `depicts` value of `Cyanistes flavipectus` conflicting with the caption/category. Current search excerpt does not expose the full caption/statement panel, so this remains a hold pending direct structured-data resolution.
+
+### Candidate decision
+The bilingual caption and category on file (1) are positive evidence, but it is not a final approval because the original image has not been acquired locally and the historic structured-data concern remains to be reconciled. File (2) remains on hold. Do not count either as integrated.
+
+### Scope and limitations
+This run verified the category count and rechecked search-rendered file-page metadata only. No six-file inventory was produced, no binary was downloaded, no visual expert review performed, no WebP created, and no chapter anchor changed. Integrated count remains 0/52.
+
+Sources:
+- https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
