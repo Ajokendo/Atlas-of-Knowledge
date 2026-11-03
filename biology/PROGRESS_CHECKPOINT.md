@@ -3,9 +3,10 @@
 
 ## Current visual-production checkpoint — 3 November 2026 (supersedes older G6 deferral entries)
 
-- **4/52 mapped visual briefs produced (7.7%)**: Chüy fauna (six source-backed photographs), Jalal-Abad flora (one), Issyk-Kul flora (four), and Naryn flora (three). The other 48 briefs remain pending or deferred.
+- **5/52 mapped visual briefs produced (9.6%)**: Chüy fauna (six source-backed photographs), Jalal-Abad flora (one), Issyk-Kul flora (four), Naryn flora (three), and Osh flora (one). The other 47 briefs remain pending or deferred.
 - Naryn assets were committed at `811fb5ea4194da34bf1c86b7fd1d4cfa930cd0a5`. All three originals matched live Commons API SHA-1 values and source dimensions; the focused bilingual Chromium test passed in [run 41611003785](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611003785).
 - Naryn audit and complete per-image provenance: `FLORA_NARYN_IMAGE_AUDIT_2026-11-03.md`.
+- Osh audit and complete image provenance: `FLORA_OSH_IMAGE_AUDIT_2026-11-03.md`; generated asset commit `42b46a9ea95c6ffa9478a7d0233dcc8c90f1efa5`; focused Chromium QA passed in [run 41611930095](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611930095).
 - Jalal-Abad audit: `FLORA_JALALABAD_IMAGE_AUDIT_2026-11-03.md`. Issyk-Kul audit: `FLORA_ISSYK_IMAGE_AUDIT_2026-11-03.md`.
 - Latest full Biology CI run before the Naryn assets were committed failed because the three Naryn WebP files were not yet present in the checkout. The dedicated Naryn build, source verification and focused browser test then passed and committed those files. A fresh full Biology CI run is triggered by this checkpoint update and must pass before current full-suite validation is claimed.
 - Offline caching remains unimplemented and unverified. Browser image decoding is not an offline test.
