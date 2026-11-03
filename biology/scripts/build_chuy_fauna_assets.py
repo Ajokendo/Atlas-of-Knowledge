@@ -12,7 +12,7 @@ FILES = [
     {
         "commons_title": "File:Ала-Арча, белка.jpg",
         "output": "fauna-chuy-squirrel.webp",
-        "species": "Sciurus vulgaris",
+        "subject": "Red squirrel (Sciurus vulgaris)",
         "author": "Nikolai Bulykin",
         "date": "2023-08-25",
         "location": "Ala-Archa National Park, Chüy Region, Kyrgyzstan",
@@ -22,12 +22,32 @@ FILES = [
     {
         "commons_title": "File:Ала-Арча, обыкновенный щитомордник (1).jpg",
         "output": "fauna-chuy-pit-viper.webp",
-        "species": "Gloydius halys",
+        "subject": "Halys pit viper (Gloydius halys)",
         "author": "Nikolai Bulykin",
         "date": "2023-08-25",
         "location": "Ala-Archa National Park, Chüy Region, Kyrgyzstan",
         "license": "CC BY-SA 4.0",
         "page": "https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(1).jpg",
+    },
+    {
+        "commons_title": "File:Ak Suu Gorge, Chuy region, Kyrgyzstan.jpg",
+        "output": "habitat-chuy-ak-suu.webp",
+        "subject": "Ak-Suu gorge and river habitat",
+        "author": "Vilya Shoni",
+        "date": "2022-06-18",
+        "location": "Ak-Suu Complex Sanctuary, Moskovsky District, Chüy Region, Kyrgyzstan",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ak_Suu_Gorge,_Chuy_region,_Kyrgyzstan.jpg",
+    },
+    {
+        "commons_title": "File:Landscape view, Ala Archa National Park, Chuy region, Kyrgyzstan 02.jpg",
+        "output": "habitat-chuy-ala-archa.webp",
+        "subject": "Ala-Archa mountain forest and alpine habitat",
+        "author": "Vilya Shoni",
+        "date": "2024-05-17",
+        "location": "Ala-Archa National Park, Chüy Region, Kyrgyzstan",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Landscape_view,_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan_02.jpg",
     },
 ]
 
