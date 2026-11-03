@@ -87,7 +87,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 
 ### Fauna of Kyrgyzstan — `chapters/fauna-kyrgyzstan.html`
 - [~] **[P3] Высотные местообитания и фауна Кыргызстана / Altitudinal habitats and fauna of Kyrgyzstan** — valley and riparian habitats through forests, alpine meadows and cliffs; not a precise range map.
-- [~] **[P1] Крупные млекопитающие гор Кыргызстана / Large mammals of the Kyrgyz mountains** — snow leopard, argali and Siberian ibex with accurate morphology and natural behaviour.
+- [x] **[P1] Крупные млекопитающие гор Кыргызстана / Large mammals of the Kyrgyz mountains** — integrated schematic SVG habitat reconstruction; species are shown in separate ecological niches. Final browser visual QA and detailed morphology review remain pending.
 - [~] **[P1] Птицы гор, озёр и водно-болотных угодий / Birds of mountains, lakes and wetlands** — cliff raptor, high-altitude ground bird and lake waterbirds in distinct habitats.
 - [~] **[P1] Пресноводная фауна Кыргызстана / Freshwater fauna of Kyrgyzstan** — Issyk-Kul and clear mountain river, above- and underwater views, only verified local fish; no unverified species or labels.
 - [~] **[P2] Земноводные и пресмыкающиеся Кыргызстана / Amphibians and reptiles of Kyrgyzstan** — amphibian by wet habitat and reptiles on dry rocky slopes; only taxa supported by chapter sources.
