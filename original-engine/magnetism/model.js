@@ -17,6 +17,9 @@ export const cross = (a, b) => [a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * 
 export const len = a => Math.sqrt(a[0] * a[0] + a[1] * a[1] + a[2] * a[2]);   // not Math.hypot: field lines call this ~10⁶ times at load
 export const breathe = (t, lo, hi, T) => lo + (hi - lo) * (1 - Math.cos(2 * Math.PI * t / T)) / 2;
 const D2R = Math.PI / 180;
+// Remove floating-point residue at exact parallel/perpendicular orientations.
+export const sinDeg = d => { const s = Math.sin(d * D2R); return Math.abs(s) < 1e-12 ? 0 : s; };
+export const cosDeg = d => { const c = Math.cos(d * D2R); return Math.abs(c) < 1e-12 ? 0 : c; };
 
 // ---------- the Lorentz force ----------
 export const lorentz = (q, v, B, E = [0, 0, 0]) => mul(add(E, cross(v, B)), q);
@@ -141,7 +144,7 @@ export const rhrAngle = t => {
   const phase = ((t / RHR.T) % 1 + 1) % 1;
   return 360 * (phase <= 0.5 ? phase : 1 - phase);
 }; // θ between v and B, degrees
-export const rhrV = deg => mul([Math.cos(deg * D2R), 0, Math.sin(deg * D2R)], RHR.v);   // B is along +x
+export const rhrV = deg => mul([cosDeg(deg), 0, sinDeg(deg)], RHR.v);   // B is along +x
 export const rhrForce = (q, deg) => lorentz(q, rhrV(deg), [RHR.B, 0, 0]);
 
 // ======================================================================
