@@ -1050,3 +1050,22 @@ The updated build workflow completed successfully: https://github.com/Ajokendo/A
 - Offline-cache test: pending.
 
 The existing project-wide Biology CI still fails on the previously listed unrelated missing placeholder files and missing map anchors; this does not invalidate the successful focused asset build and browser smoke test for these four Chüy files.
+
+
+## Follow-up: visual and taxonomic review of the two Rufous-naped Tit candidates (3 November 2026)
+
+The two previously shortlisted photographs were rechecked against their individual Commons pages and the rendered image preview.
+
+- Ала-Арча, рыжешейная синица (1).jpg — Nikolai Bulykin, own work; Ala-Archa National Park, Chüy Region; 25 August 2023; original JPEG 4608 × 3456; CC BY-SA 4.0. The human-readable RU/EN caption and Commons category identify Rufous-naped Tit (Periparus rufonuchalis), while the structured-data depicts statement identifies Cyanistes flavipectus.
+- Ала-Арча, рыжешейная синица (2).jpg — same author, location and date; original JPEG 3366 × 2525; CC BY-SA 4.0. The same caption/category versus structured-data conflict is present.
+
+The second image preview was visually inspected. It shows a small tit-like passerine with a dark cap, pale cheek patch and grey-brown body; this visual impression is compatible with the uploader's caption but is not, by itself, a qualified species determination. The regional ornithological literature independently records Rufous-naped Tit in Ala-Archa, but regional occurrence does not establish the identity of an individual photograph.
+
+**Decision: keep both images on hold.** Do not insert them as confirmed Periparus rufonuchalis until the uploader corrects or explains the structured-data statement, or a qualified ornithologist independently confirms the identification. Do not silently discard the conflicting statement or relabel the image as Cyanistes flavipectus.
+
+Sources:
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+- https://backend.selevinia.kz/storage/publication_files/sIGF5Ry50DvAtpujS5UwekKLk1bPE475XvWMbkgt.pdf
+
+No original binary was acquired for either tit candidate in this follow-up. No WebP was produced and no chapter, insertion-map or disposition-register entry was changed. The verified Chüy production batch remains four assets; overall Biology visual completion remains **4/52 (7.7%)**. The next work should continue from the already shortlisted candidates and must not reopen broad search until those decisions are closed.
