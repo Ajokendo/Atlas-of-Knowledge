@@ -902,3 +902,65 @@ These are contextual landscape options only. Do not count multiple near-duplicat
 - WebP derivatives: 0.
 - Production chapter integrations: 0.
 - Accepted/integrated biology visuals remain **0/52**.
+
+
+## Follow-up: first new reptile photo candidate with full-resolution visual inspection (3 November 2026)
+
+### Ala-Archa pit viper / moccasin snake — genus-level candidate only
+
+Commons file: **Кыргызстан, нацпарк Ала-Арча, щитомордник (1).jpg**
+- File page: https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(1).jpg
+- Author: ElenaLitera; own work.
+- Capture date: 25 August 2023, 11:31:46.
+- Location: Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- Original JPEG: 2,759 × 1,839 pixels; 761,142 bytes.
+- License: CC BY-SA 4.0.
+- SHA-1 recorded by Commons: f70cf54c2d9c5716e12cd772a1043c209fe92493.
+- File title and category point to a pit viper / genus *Gloydius*, but the English caption is blank and structured data identifies only Ala-Archa National Park, not a species taxon.
+- The original-resolution image was opened and visually inspected in the browser. It clearly shows a patterned snake on rocky soil beside vegetation. Do not assign a species from visual appearance alone; request expert identification or author confirmation. For now, the defensible label is only **Gloydius sp. (provisional; author/file-category identification to be confirmed)**.
+- Direct original link is exposed by the file page's Original file link.
+
+### Download attempt
+
+The direct Wikimedia original URL was passed to the container download utility, but the request failed. Therefore the original binary has **not** been acquired in the working filesystem, and the Commons SHA-1 has not been checked locally. The browser's full-resolution rendering is not equivalent to local binary acquisition.
+
+### Editorial value
+
+This is a stronger fauna candidate than the repeated landscape panoramas because it is a Chüy-locality animal photograph and could support the reptile/herpetofauna chapter once the taxon is confirmed. Keep it in the candidate queue, not the accepted count. Required next steps: obtain the original binary through a functioning transfer route, verify SHA-1, obtain author confirmation of taxonomic identification, inspect local original, then convert to WebP and add bilingual caption/alt text and full attribution.
+
+### Additional landscape option: Vilya Shoni panorama
+
+**File:Landscape view, Ala Archa National Park, Chuy region, Kyrgyzstan 02.jpg**
+- Author: Vilya Shoni; own work.
+- Date: 17 May 2024.
+- Location: 42.547500, 74.484500; Ala-Archa National Park.
+- Original JPEG: 1,920 × 1,336; 1.05 MB.
+- License: CC BY-SA 4.0.
+- Commons SHA-1: ffb399ea28cc430c3c07a7913919ae14e872f488.
+- File page: https://commons.wikimedia.org/wiki/File:Landscape_view,_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan_02.jpg
+- This is a distinct landscape frame from the already logged Ak-Suu/Chunkurchak images. Treat as optional habitat context, not a new species visual.
+
+### Spherical panorama option
+
+**File:Ала-Арча, сферопанорама.jpg**
+- Author: Nikolai Bulykin; own work.
+- Date: 25 August 2023.
+- Location: 42.563132, 74.482796; Ala-Archa National Park.
+- Original JPEG: 14,400 × 7,200; 12,270,902 bytes.
+- License: CC BY-SA 4.0.
+- Commons SHA-1: 41a46ec691984b20016ab7b1c990ad063a2813f0.
+- File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_сферопанорама.jpg
+- This is a 360-degree equirectangular panorama; it should only be selected if the biology site supports a suitable interactive panorama viewer. A normal image display would not communicate its intended format well.
+
+### Category status correction
+
+The parent category search result confirms that **Birds of Chüy Region (6 files)** is a subcategory. The category's own page still could not be accessed in the current web retrieval layer, so the six individual filenames remain unknown. The national category's 12 directly listed media files are not the same as the six subcategory files and must not be conflated.
+
+### Status
+
+- New fauna candidate with browser full-resolution visual inspection: 1 (snake; species not confirmed).
+- Local original binaries acquired: 0.
+- Local SHA-1 verification: 0.
+- WebP derivatives: 0.
+- Production chapter integrations: 0.
+- Accepted/integrated biology visuals remain **0/52**.
