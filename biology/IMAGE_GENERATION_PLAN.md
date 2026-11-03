@@ -14,7 +14,7 @@ All 52 planned assets are explicitly **deferred**, not generated. See [`IMAGE_DI
 - **P2 — useful complement:** visuals that deepen explanation or connect concepts, but are not essential before the main scientific content is usable.
 - **P3 — lower priority:** concepts already substantially represented by an SVG plate or interactive model. Generate only if a different visual mode adds a clear benefit; do not recreate the existing diagram as a near-duplicate.
 
-Priorities are editorial sequencing, not scientific approval. The latest marker audit counted 22 inline SVG elements across the 13 pages carrying planned briefs (updated 1 November 2026). No raster `<img>` elements or generated image directory are present yet. It did not treat every SVG as a complete substitute: the comparison is topic-specific. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 52 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 26 P2 and 13 P3**.
+Priorities are editorial sequencing, not scientific approval. The marker audit counted 22 inline SVG elements across the 13 pages carrying planned briefs (updated 1 November 2026). Since that audit, five source-backed Chüy fauna and habitat photographs have been packaged as local WebP assets and integrated; this does not make unrelated SVGs substitutes for the remaining briefs. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 52 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 26 P2 and 13 P3**.
 
 
 ## Landing page
@@ -98,7 +98,7 @@ Priorities are editorial sequencing, not scientific approval. The latest marker 
 - [~] **[P1] Фауна Памиро-Алая и юга Кыргызстана / Fauna of the Pamir-Alay and southern Kyrgyzstan** — forest, juniper and mountain habitats; include only regionally documented taxa.
 - [~] **[P1] Фауна сухих склонов Баткенской области / Fauna of Batken's dry slopes** — Surmatash and Sarkent dry foothills with verified marmots, reptiles and mountain birds; no invented endemics.
 - [~] **[P2] Животные Таласского Ала-Тоо / Wildlife of Talas Ala-Too** — Besh-Tash spruce-juniper slopes, river valley and alpine cliffs with documented regional mammals and birds.
-- [~] **[P2] Фауна Чуйской области / Fauna of Chuy Region** — contrast Chuy Valley, Ala-Archa gorge and Chon-Kemin forests; camera-trap detections are not population estimates.
+- [x] **[P2] Фауна Чуйской области / Fauna of Chuy Region** — five source-backed local photographs are integrated: two individual fauna records and three habitat views from Ala-Archa, Ak-Suu and Chon-Kemin; browser smoke test passed.
 
 ## Production rules
 1. Generate the planned image only after checking the chapter's scientific text and cited sources.
