@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Иссык-Куль: три местообитания / Issyk-Kul: three habitats</title>
+<desc id="d">Три условные панели: водно-болотный берег с силуэтами птиц, подводная зона озера с обобщёнными рыбами, высокогорный склон с каменистыми вершинами. / Three conceptual panels: wetland shore with bird silhouettes, underwater lake zone with generic fish, and a rocky high-mountain slope.</desc>
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#cfe5ec"/><stop offset="1" stop-color="#f5efd9"/></linearGradient><linearGradient id="water" x2="0" y2="1"><stop stop-color="#62a9bc"/><stop offset="1" stop-color="#17546e"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#sky)"/>
+<text x="42" y="52" font-family="Arial,sans-serif" font-size="22" letter-spacing="3" fill="#274b57">ISSYK-KUL REGION · ECOLOGICAL HABITATS</text>
+<g transform="translate(0 85)">
+ <path d="M0 315 120 220 230 270 340 170 480 270 600 190V500H0Z" fill="#a5b9a0"/>
+ <path d="M0 360Q150 320 300 355T600 340V500H0Z" fill="#668d70"/>
+ <path d="M0 390Q150 365 290 395T600 380V500H0Z" fill="#77aeb0"/>
+ <path d="M0 430Q150 410 300 430T600 420V500H0Z" fill="#d6c68f"/>
+ <g fill="#355e4d"><path d="M80 385l15-60 15 60zM115 390l18-72 18 72zM450 390l18-64 18 64z"/></g>
+ <g fill="#263e4a" stroke="#263e4a" stroke-width="5" stroke-linecap="round"><path d="M205 235q20-25 40 0q20-25 40 0" fill="none"/><path d="M350 210q18-22 36 0q18-22 36 0" fill="none"/><path d="M420 245q15-18 30 0q15-18 30 0" fill="none"/></g>
+ <text x="35" y="545" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="#fff">01 · WETLAND SHORE</text><text x="35" y="577" font-family="Arial,sans-serif" font-size="18" fill="#fff">Migratory waterbirds · generic silhouettes</text>
+</g>
+<path d="M600 85V625M900 85V625" stroke="#fff" stroke-width="5"/>
+<g transform="translate(600 85)">
+ <rect y="0" width="300" height="500" fill="url(#water)"/>
+ <path d="M0 115Q75 95 150 115T300 115" fill="none" stroke="#d9f0ed" stroke-width="8"/>
+ <g fill="#e2c98c" stroke="#254b5b" stroke-width="4">
+  <path d="M65 235q42-34 88 0q-46 34-88 0l-27 18v-36z"/><circle cx="135" cy="231" r="4" fill="#254b5b"/>
+  <path d="M170 340q35-28 78 0q-43 28-78 0l-22 15v-30z"/><circle cx="237" cy="337" r="4" fill="#254b5b"/>
+ </g>
+ <g fill="none" stroke="#b4d9d9" stroke-width="5" opacity=".8"><path d="M20 180q30-18 60 0M190 190q35-18 70 0M30 405q35-18 70 0"/></g>
+ <text x="25" y="545" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#fff">02 · LAKE WATER</text><text x="25" y="577" font-family="Arial,sans-serif" font-size="17" fill="#fff">Generic fish silhouettes · no taxa</text>
+</g>
+<g transform="translate(900 85)">
+ <path d="M0 360 60 280 115 315 190 115 245 245 300 185V500H0Z" fill="#9ca99c"/>
+ <path d="M0 390 75 335 130 365 200 235 260 325 300 285V500H0Z" fill="#727f73"/>
+ <path d="M0 445 90 415 155 435 225 375 300 420V500H0Z" fill="#b5a88b"/>
+ <path d="M170 115l20-45 22 45" fill="#f4f1e8"/>
+ <text x="18" y="545" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#fff">03 · HIGH MOUNTAINS</text><text x="18" y="577" font-family="Arial,sans-serif" font-size="17" fill="#fff">Separate alpine habitat</text>
+</g>
+<rect x="30" y="620" width="1140" height="36" rx="8" fill="#fff" opacity=".9"/><text x="48" y="645" font-family="Arial,sans-serif" font-size="16" fill="#344b50">SCHEMATIC · NOT TO SCALE · NO RANGE BOUNDARIES</text>
+</svg>
