@@ -944,3 +944,17 @@ Older checkpoint entries below this note contain historical planning language th
 - The keyboard Tab-sequence assertions ran as part of the passing Chromium smoke test. The test summary wording was clarified in follow-up commit `8efac4d19b9f475cd255387fdb96a0b44828e221` so it accurately describes sequence coverage rather than only the earlier first-focus check.
 - This remains automated Chromium evidence, not hands-on keyboard certification. Manual NVDA, TalkBack and VoiceOver sessions and physical-device/browser checks remain **Pending**.
 - Accessibility phase progress remains **50%**; controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No changes outside `biology/` on `workspace/biology`.
+
+
+## Visual asset production checkpoint — 3 November 2026
+
+This entry supersedes earlier statements in this file that all 52 images remain deferred.
+
+- The Chüy fauna visual brief is produced: six source-backed local WebP photographs are integrated in `chapters/fauna-kyrgyzstan.html`, with bilingual alt text/captions and attribution/licence links.
+- The six originals were acquired and checksum-verified in GitHub Actions; all six WebP outputs are committed. Focused Chromium image decode/visibility checks passed (run 41594952179).
+- **Visual-brief progress: 1/52 = 1.9%.** Six photographs are included in the one completed brief. The other 51 briefs remain pending/deferred.
+- The two Rufous-naped Tit candidate photographs remain on taxonomic hold because of conflicting Commons structured-data identification; they are not integrated or counted.
+- A recursive inspection of the current Biology branch tree found no Service Worker, PWA manifest or explicit offline-cache implementation. Offline image use is therefore not supported/verified; no offline-cache pass is claimed.
+- Current full-suite status must be distinguished from the focused image test: the focused six-image workflow passed, but full Biology CI must be rerun after the latest audit/register changes.
+
+No readiness-score increase is implied by image production. The controlled editorial-readiness score remains a separate measure.
