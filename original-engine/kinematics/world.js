@@ -189,7 +189,7 @@ export function buildWorld(E) {
           const xa = tToX(b, ta), xb = tToX(b, tb), ya = plotY[b.key](fn[b.key](ta)), yb = plotY[b.key](fn[b.key](tb)), z0 = b.zeroY;
           pos.push(xa, z0, b.zf + 0.005, xb, z0, b.zf + 0.005, xb, yb, b.zf + 0.005, xa, z0, b.zf + 0.005, xb, yb, b.zf + 0.005, xa, ya, b.zf + 0.005);
         }
-        b.area.geometry.setAttribute('координата', new THREE.Float32BufferAttribute(pos, 3));
+        b.area.geometry.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
         b.area.material.opacity = 0.2 * open;
       }
     }
