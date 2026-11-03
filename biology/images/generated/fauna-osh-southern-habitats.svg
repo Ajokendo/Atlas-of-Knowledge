@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Ошская область: три местообитания и подтверждённые фотоловушками виды / Osh Region: three habitats and camera-trap documented wildlife</title>
+<desc id="desc">Авторская учебная схема из трёх отдельных панелей. Лесной склон Кулун-Аты с тянь-шаньским бурым медведем; высокогорные скалы со снежным барсом; горный склон с сибирским горным козлом. Панели показывают разные местообитания и не подразумевают совместное присутствие животных в одной точке. Original educational schematic with three separate habitat panels. Panels do not imply that the animals occur together at one site.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dcecf0"/><stop offset="1" stop-color="#f4f0df"/></linearGradient>
+ <linearGradient id="ridge" x2="0" y2="1"><stop stop-color="#849b91"/><stop offset="1" stop-color="#526d65"/></linearGradient>
+ <linearGradient id="rock" x2="0" y2="1"><stop stop-color="#a9a79a"/><stop offset="1" stop-color="#696d68"/></linearGradient>
+</defs>
+<rect width="1200" height="675" fill="#f6f4ec"/>
+<text x="600" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#263b3a">Ошская область · местообитания / Osh Region · habitats</text>
+<g transform="translate(24 70)">
+ <rect width="368" height="520" rx="18" fill="url(#sky)" stroke="#c6d2c9" stroke-width="2"/>
+ <text x="184" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#29423b">Кулун-Ата · лес / forest</text>
+ <path d="M0 310 L65 205 115 258 178 150 235 252 300 190 368 280 V520 H0Z" fill="url(#ridge)"/>
+ <path d="M0 355 Q90 315 165 360 T368 345 V520 H0Z" fill="#78927a"/>
+ <path d="M15 520 Q80 415 140 520 M95 520 Q150 390 210 520 M230 520 Q285 405 350 520" fill="none" stroke="#315d49" stroke-width="18" stroke-linecap="round"/>
+ <g transform="translate(95 300)" fill="#493e32" stroke="#302b25" stroke-width="3">
+  <ellipse cx="78" cy="54" rx="69" ry="39"/><circle cx="139" cy="35" r="27"/><circle cx="124" cy="12" r="9"/><circle cx="153" cy="12" r="9"/><path d="M28 75 L22 112 M65 82 L63 116 M111 82 L116 114 M145 56 L164 69" fill="none" stroke-width="12" stroke-linecap="round"/><path d="M9 45 Q-15 30 -18 47" fill="none" stroke-width="9" stroke-linecap="round"/>
+ </g>
+ <text x="184" y="482" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">Тянь-шаньский бурый медведь</text>
+ <text x="184" y="505" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#fff">Tian Shan brown bear</text>
+ <text x="184" y="550" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#29423b">Фотоловушки, 28.08.2026</text>
+</g>
+<g transform="translate(416 70)">
+ <rect width="368" height="520" rx="18" fill="url(#sky)" stroke="#c6d2c9" stroke-width="2"/>
+ <text x="184" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#29423b">Высокогорные скалы / alpine cliffs</text>
+ <path d="M0 375 L65 230 115 282 205 115 255 235 315 170 368 300 V520 H0Z" fill="url(#rock)"/>
+ <path d="M205 115 L185 190 222 177 242 221 255 235 230 178Z" fill="#f7f7ef"/>
+ <path d="M0 405 Q100 360 180 400 T368 390 V520 H0Z" fill="#727d6e"/>
+ <g transform="translate(82 305)" fill="#c7c1ae" stroke="#554f48" stroke-width="3">
+  <ellipse cx="88" cy="46" rx="74" ry="30"/><circle cx="153" cy="29" r="23"/><path d="M25 65 L19 91 M75 70 L72 97 M122 68 L127 95 M150 43 L166 55" fill="none" stroke-width="10" stroke-linecap="round"/><path d="M51 26 Q85 0 116 27 M61 49 Q92 22 126 47" fill="none" stroke="#6b665b" stroke-width="5"/><path d="M168 15 l16 -13" stroke="#554f48" stroke-width="3"/>
+ </g>
+ <text x="184" y="482" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">Снежный барс</text>
+ <text x="184" y="505" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#fff">Snow leopard</text>
+ <text x="184" y="550" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#29423b">Региональные записи / regional records</text>
+</g>
+<g transform="translate(808 70)">
+ <rect width="368" height="520" rx="18" fill="url(#sky)" stroke="#c6d2c9" stroke-width="2"/>
+ <text x="184" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#29423b">Горные склоны / mountain slopes</text>
+ <path d="M0 365 L70 250 135 300 220 135 280 245 330 185 368 290 V520 H0Z" fill="#8a9288"/>
+ <path d="M0 420 Q90 365 170 420 T368 410 V520 H0Z" fill="#78876f"/>
+ <g transform="translate(78 295)" fill="#8b7960" stroke="#4d453a" stroke-width="3">
+  <ellipse cx="92" cy="54" rx="66" ry="34"/><circle cx="152" cy="35" r="22"/><path d="M34 78 L30 115 M76 82 L75 117 M124 80 L130 114" fill="none" stroke-width="10" stroke-linecap="round"/><path d="M160 17 Q184 -6 182 -29 Q207 -10 193 15" fill="none" stroke-width="7" stroke-linecap="round"/><path d="M149 18 Q131 -9 144 -31 Q116 -15 133 18" fill="none" stroke-width="7" stroke-linecap="round"/>
+ </g>
+ <text x="184" y="482" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">Сибирский горный козёл</text>
+ <text x="184" y="505" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#fff">Siberian ibex</text>
+ <text x="184" y="550" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#29423b">Фотоловушки Кулун-Аты</text>
+</g>
+<text x="600" y="632" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#455b55">Схема местообитаний, не карта ареалов и не оценка численности / Habitat schematic, not a range map or population estimate</text>
+</svg>
