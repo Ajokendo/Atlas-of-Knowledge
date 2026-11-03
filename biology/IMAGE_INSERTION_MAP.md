@@ -70,7 +70,7 @@
 
 ## Completion status
 
-The map retains 52 planned visual briefs. Fifteen briefs are produced (28.8%): 15 source-backed local WebP photographs and 10 original SVG schematics across flora and fauna chapters; the other 37 briefs remain pending or deferred in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The regional fauna SVGs include Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken and Talas; the Chüy fauna brief contains six locally licensed photographs. This is a measured production update, not a claim that the full image programme is complete.
+The map retains 52 planned visual briefs. Sixteen briefs are produced (30.8%): 15 source-backed local WebP photographs and 11 original SVG schematics across flora and fauna chapters; the other 36 briefs remain pending or deferred in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The regional fauna SVGs include Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken and Talas; the Chüy fauna brief contains six locally licensed photographs, and the Batken flora brief now contains an original *Fritillaria eduardii* botanical SVG. This is a measured production update, not a claim that the full image programme is complete.
 
 All 52 in-page insertion anchors are present. The 14 regional flora/fauna anchors that had been missing were restored as bilingual planned markers, replacing references to absent image files. No substitute images were invented. The produced Chüy figure preserves its original insertion ID.
 
