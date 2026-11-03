@@ -18,7 +18,7 @@ try {
     attribution: el.closest("figure")?.querySelector('a[href="https://commons.wikimedia.org/wiki/File:Inbound1554290775583060652.jpg"]') !== null
   }));
   if (!state.src?.endsWith("flora-osh.webp") || state.width !== 4640 || state.height !== 3472 ||
-      !state.alt.includes("/") || !state.visible || !state.attribution ||
+      Math.abs(state.width / state.height - 4 / 3) > 0.002 || !state.alt.includes("/") || !state.visible || !state.attribution ||
       !state.caption.includes("CC BY-SA 4.0") || !state.caption.includes("Talantbekkyzymalika")) {
     throw new Error("Osh flora image failed browser validation: " + JSON.stringify(state));
   }
