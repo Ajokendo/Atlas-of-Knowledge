@@ -97,7 +97,7 @@ check('bond: F = −dU/dr (numeric derivative)', [0.13, 0.15, 0.2, 0.3].every(r 
 check('bond: minimum −ε at r0, where F = 0', rel(M.bondU(N.r0), -N.eps) && Math.abs(M.bondF(N.r0)) < 1e-20);
 check('bond: U″(r0) = 72ε/r0² (numeric)', (() => { const hr = 1e-14; return rel((M.bondU(N.r0 + hr) - 2 * M.bondU(N.r0) + M.bondU(N.r0 - hr)) / hr ** 2, N.k, 1e-5); })(), `${N.k.toFixed(0)} N/m`);
 check('bond: turning points (closed form) where U = E', rel(M.bondU(N.r1), N.E, 1e-9) && rel(M.bondU(N.r2), N.E, 1e-9) && rel(M.bondU(M.bondTurns(N.E)[0]), N.E, 1e-9), `${(N.r1 * 1e9).toFixed(4)} and ${(N.r2 * 1e9).toFixed(4)} nm`);
-check('bond: K + U constant, and v = 0 at both turns', Array.from({ length: 50 }, (_, i) => M.bond(i * N.period / 49)).every(r => near(r.K + r.U, N.E, 1e-7)) && rel(M.bond(N.period / 2).r, N.r2, 1e-6));
+check('bond: K + U constant, and v = 0 at both turns', Array.from({ length: 50 }, (_, i) => M.bond(i * N.period / 49)).every(r => rel(r.K + r.U, N.E, 1e-7)) && rel(M.bond(0).r, N.r1, 1e-8) && rel(M.bond(N.period / 2).r, N.r2, 1e-6) && Math.abs(M.bond(0).v) < 1e-12 && Math.abs(M.bond(N.period / 2).v) < 1e-12);
 check('bond: small oscillations: T → 2π/ω, ω² = U″(r0)/m', rel(M.bondPeriod(-0.999 * N.eps), 2 * Math.PI / N.w, 2e-3), `${(2 * Math.PI / N.w * 1e15).toFixed(2)} fs`);
 check('bond: this bigger swing is slower (not harmonic)', N.period > 1.2 * 2 * Math.PI / N.w, `${(N.period * 1e15).toFixed(2)} fs`);
 
