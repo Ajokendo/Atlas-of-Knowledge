@@ -973,3 +973,19 @@ This section supersedes the historical G6 statements above that all 52 visual as
 - **Still pending:** offline-cache capability/testing, screen-reader review and physical-device checks remain separate work; no completion is claimed for them.
 
 No changes were made outside `biology/` or outside `workspace/biology`.
+
+
+## Superseding visual-production checkpoint — 3 November 2026 (later update)
+
+This entry supersedes the previous 2/52 visual-production checkpoint and the earlier historical G6 entries that stated all visual assets remained deferred.
+
+- **Visual briefs produced:** 3 of 52 = **5.8%**. Chüy fauna has six photographs, Jalal-Abad flora has one, and Issyk-Kul flora has four. Total: eleven photographs within three completed briefs; 49 briefs remain pending/deferred.
+- **Issyk-Kul flora:** four locally packaged photographs now replace the original `image-brief-flora-issyk` marker in `chapters/flora-kyrgyzstan.html`: Tamchy Bay wetland, dry gully above Tamchy, shoreline sea-buckthorn (*Hippophae rhamnoides*), and Karakol Valley with Schrenk spruce (*Picea schrenkiana*). Captions explicitly state that these are dated local examples, not a complete or current vegetation map.
+- **Provenance:** all four original files were downloaded by GitHub Actions and their SHA-1 values matched live Wikimedia Commons API metadata; original byte counts and dimensions were checked. WebP outputs and checksums are recorded in `images/generated/flora-issyk-assets-manifest.json`.
+- **Focused browser QA:** run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41608849568 passed. Chromium opened the actual bilingual flora chapter and decoded all four local images, checking natural dimensions, visibility, bilingual alt text and exact source-attribution links.
+- **Audit and registers:** see `FLORA_ISSYK_IMAGE_AUDIT_2026-11-03.md`, `IMAGE_INSERTION_MAP.md`, `IMAGE_DISPOSITION_REGISTER.md`, `IMAGE_GENERATION_PLAN.md` and `IMAGE_SCIENTIFIC_REVIEW.md`.
+- **Full-suite status:** a full Biology CI run on the temporary commit before the asset workflow pushed the four binaries failed only because those four paths were not yet present. The asset workflow has since committed the binaries. Rerun full Biology CI on the asset-bearing branch head before reporting the current full-suite status.
+- **Readiness:** controlled editorial readiness remains **95/100**. Visual-brief progress is a separate measure and does not change the readiness score.
+- **Still pending:** offline caching is not implemented or verified; screen-reader and physical-device checks remain separate tasks.
+
+No changes were made outside `biology/` or outside `workspace/biology`.
