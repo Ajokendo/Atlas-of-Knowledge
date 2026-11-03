@@ -1330,3 +1330,14 @@ The Naryn flora figure is integrated at its original anchor in `chapters/flora-k
 The complete Biology CI still needs to be rerun on the asset-bearing branch head after this checkpoint commit. The earlier CI failure was caused by the Naryn assets not yet being committed at the time that run checked out the branch; the separate Naryn asset workflow subsequently passed and committed them.
 
 Controlled editorial readiness remains 95/100. Offline caching is not implemented or verified.
+
+
+## Visual-production status supersession — 3 November 2026 (Osh update)
+
+This entry supersedes the earlier 4/52 count. **Five of 52 mapped visual briefs are produced (9.6%)**: Chüy fauna (six photographs), Jalal-Abad flora (one), Issyk-Kul flora (four), Naryn flora (three) and Osh flora (one). The other 47 briefs remain pending or deferred.
+
+The Osh flora figure is integrated at the original anchor in `chapters/flora-kyrgyzstan.html`. It documents a river corridor and riparian woody vegetation in Kulun-Ata State Nature Reserve; it does not identify individual tree species or claim to represent the full flora of Osh Region. The original JPEG matched the Commons SHA-1, the WebP derivative and manifest were committed, and focused Chromium QA passed in [run 41611930095](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611930095). Full provenance: `FLORA_OSH_IMAGE_AUDIT_2026-11-03.md`.
+
+Full Biology CI passed after the Naryn assets and audit updates in [run 41611232412](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611232412): 13 HTML pages, 102 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions; browser smoke passed for all 13 pages at mobile and desktop widths, 30 language toggles and no uncaught page errors. Contrast sampling covered 21,533 text instances with zero below threshold, and keyboard Tab-sequence focus indicators were checked. A new full CI run is required after the Osh image and register commits.
+
+Controlled editorial readiness remains 95/100. Offline caching is not implemented or verified.
