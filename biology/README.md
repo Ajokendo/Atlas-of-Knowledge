@@ -1319,3 +1319,14 @@ Controlled editorial readiness remains 95/100; visual production does not raise 
 The complete Biology CI passed on commit `cedc296d07ca85842c0b501388f8d4df497471fd` after the Issyk-Kul WebP assets and register corrections were committed: [run 41609646836](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41609646836). Static checks covered 13 HTML pages and 99 local paths; Chromium covered all 13 pages at mobile and desktop widths, 30 language toggles, with no uncaught page errors. Contrast sampling covered 21,529 text instances with zero below threshold, and keyboard focus indicators were checked.
 
 Current visual-brief production is 3/52 (5.8%); eleven photographs are included in those three briefs. Editorial readiness remains 95/100. Offline caching is not implemented or verified.
+
+
+## Visual-production status supersession — 3 November 2026 (Naryn update)
+
+This entry supersedes the earlier 3/52 production count above. **Four of 52 mapped visual briefs are produced (7.7%)**: Chüy fauna (six photographs), Jalal-Abad flora (one), Issyk-Kul flora (four) and Naryn flora (three). The other 48 briefs remain pending or deferred.
+
+The Naryn flora figure is integrated at its original anchor in `chapters/flora-kyrgyzstan.html`. Three source originals were downloaded and verified against live Wikimedia Commons SHA-1 metadata, converted to local WebP, and committed with a machine-readable manifest. Focused bilingual Chromium QA passed in [run 41611003785](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611003785). Full provenance and individual checksums are recorded in `FLORA_NARYN_IMAGE_AUDIT_2026-11-03.md`.
+
+The complete Biology CI still needs to be rerun on the asset-bearing branch head after this checkpoint commit. The earlier CI failure was caused by the Naryn assets not yet being committed at the time that run checked out the branch; the separate Naryn asset workflow subsequently passed and committed them.
+
+Controlled editorial readiness remains 95/100. Offline caching is not implemented or verified.
