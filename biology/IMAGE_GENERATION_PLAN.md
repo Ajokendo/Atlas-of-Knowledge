@@ -4,9 +4,9 @@ Status key: `[ ] not yet triaged` · `[~] explicitly deferred` · `[x] generated
 
 This register mirrors the in-page illustration markers. Each marker is placed beside the relevant learning section and contains the full Russian and English brief. Existing SVG plates and interactive models are not counted as missing images. Generate only from verified source material; add species names, labels, measurements and maps only after editorial checking.
 
-## Current disposition — 1 November 2026
+## Current disposition — 3 November 2026
 
-All 52 planned assets are explicitly **deferred**, not generated. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Two of 52 planned visual briefs are now produced (**3.8%**): the Chüy fauna brief (six licensed photographs) and the Jalal-Abad flora brief (one licensed photograph). The other 50 briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
 
 ## Priority key
 
@@ -14,7 +14,7 @@ All 52 planned assets are explicitly **deferred**, not generated. See [`IMAGE_DI
 - **P2 — useful complement:** visuals that deepen explanation or connect concepts, but are not essential before the main scientific content is usable.
 - **P3 — lower priority:** concepts already substantially represented by an SVG plate or interactive model. Generate only if a different visual mode adds a clear benefit; do not recreate the existing diagram as a near-duplicate.
 
-Priorities are editorial sequencing, not scientific approval. The marker audit counted 22 inline SVG elements across the 13 pages carrying planned briefs (updated 1 November 2026). Since that audit, five source-backed Chüy fauna and habitat photographs have been packaged as local WebP assets and integrated; this does not make unrelated SVGs substitutes for the remaining briefs. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 52 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 26 P2 and 13 P3**.
+Priorities are editorial sequencing, not scientific approval. The marker audit counted 22 inline SVG elements across the 13 pages carrying planned briefs (updated 1 November 2026). Since that audit, six source-backed Chüy fauna and habitat photographs have been packaged as local WebP assets and integrated, and one Arslanbob walnut-forest photograph has been added to the Jalal-Abad flora brief; this does not make unrelated SVGs substitutes for the remaining briefs. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 52 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 26 P2 and 13 P3**.
 
 
 ## Landing page
@@ -77,7 +77,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 
 ### Flora of Kyrgyzstan — `chapters/flora-kyrgyzstan.html`
 - [~] **[P3] Высотная мозаика растительности Кыргызстана / Altitudinal vegetation mosaic of Kyrgyzstan** — foothill semi-deserts, steppe, juniper and spruce woodland, subalpine and alpine meadows; belts vary by slope.
-- [~] **[P1] Ландшафты флоры Джалал-Абадской области / Flora landscapes of Jalal-Abad Region** — Arslanbob walnut-fruit forest, wooded slopes and moist ravines; show communities, not an exhaustive species list.
+- [x] **[P1] Ореховый лес Арсланбоба / Arslanbob walnut-fruit forest** — one documentary photograph of the walnut-forest canopy and surrounding wooded slopes; a local habitat example, not a complete regional vegetation mosaic.
 - [~] **[P1] Растительность Иссык-Кульской котловины / Vegetation of the Issyk-Kul basin** — lake deltas and wetlands, dry western foothills and Terskey Ala-Too spruce forests; keep habitats distinct.
 - [~] **[P1] Высокогорные луга и степи Нарынской области / High-altitude meadows and steppes of Naryn Region** — Son-Kul, Chatyr-Kul and inner valleys with wetland, meadow and steppe communities.
 - [~] **[P1] Лесные и горные сообщества Ошской области / Forest and mountain communities of Osh Region** — walnut-fruit forests, juniper slopes and Pamir-Alay highlands; no regionally alien plants.
