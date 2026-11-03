@@ -1027,6 +1027,6 @@ The two shortlisted Ala-Archa photos have now completed the original-download an
 
 The manifest is `biology/images/generated/fauna-chuy-assets-manifest.json`. The chapter now references both local WebP files and retains bilingual alt text/captions, author, source and CC BY-SA 4.0 attribution. The insertion map, disposition register and brief review have been updated. The old remote-only integration status is superseded.
 
-Counts for this batch: original files downloaded 2/2; Commons SHA-1 verified 2/2; WebP produced and committed 2/2; chapter local references 2/2. Browser smoke test and offline-cache test remain pending.
+Counts for this batch: original files downloaded 2/2; Commons SHA-1 verified 2/2; WebP produced and committed 2/2; chapter local references 2/2; focused Chromium browser smoke test passed 2/2. Run: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41591247154. The test confirmed both local WebP images load and decode in the chapter, report the expected natural dimensions, are visible, and have bilingual alt text. Offline-cache testing remains pending.
 
 The general Biology checks workflow remains failing on project-wide issues outside this batch: missing placeholder image files in other flora/fauna sections, 15 mapped image anchors absent from pages, and 51 insertion-map rows where 52 are expected. The newly produced local WebP paths are not among the broken-path errors. Do not report the overall Biology CI suite as passing.
