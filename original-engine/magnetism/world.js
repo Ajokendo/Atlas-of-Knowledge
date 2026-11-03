@@ -253,7 +253,7 @@ export function buildWorld(E) {
   const ampLoop = dashed(gA, Array.from({ length: 96 }, (_, i) => { const a = i / 96 * 2 * Math.PI; return V(Math.cos(a), 0, Math.sin(a)); }));
   ampLoop.position.set(cA.x, yAmp, 0);
   const NA = 8, bA = Array.from({ length: NA }, () => bArrow(gA)), dsA = Array.from({ length: 16 }, () => inkArrow(gA, 'Path pieces ds', 0.016));
-  const rA = thinGrey(gA, 'Radius r');
+  const rA = thinGrey(gA, 'Радиус r');
   label('vec grey', '<b>B</b>', () => tip(bA[1])); label('vec grey', 'r', () => tip(rA, 0.05).add(V(0, 0.2, 0)));
   label('vec', 'd<b>s</b>', () => ex(gA) > 0.3 ? tip(dsA[12]) : null);
 
@@ -268,7 +268,7 @@ export function buildWorld(E) {
   // ⊗ marks sized by B, as the organizer draws them; opened, each strip shows its B as an arrow through it
   const fB = strips.map((s, i) => { const r = M.FLUX.a + (i + 0.5) * M.FLUX.c / nS, B = M.ampereB(r) * 1e6 * SC.uT;
     return [0.25, 0.5, 0.75].map(f => {
-      const o = { a: thinGrey(gF, 'Field through it'), s, y: fy0 + f * (fy1 - fy0), B };
+      const o = { a: thinGrey(gF, 'Поле через участок поверхности'), s, y: fy0 + f * (fy1 - fy0), B };
       label('mark', `<span style="font-size:${(9 + 30 * B).toFixed(0)}px">⊗</span>`, () => ex(gF) < 0.3 ? V(s.position.x, o.y, 0.02) : null);
       return o; }); }).flat();
   label('tick', '<i>a</i>', () => V(cA.x + M.FLUX.a * D / 2 + 0.1, fy0 - 0.25, 0));
