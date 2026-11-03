@@ -55,7 +55,7 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 | `image-brief-fauna-freshwater` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-herps` | P2 | Keep amphibians associated with suitable moist breeding/shore habitats and reptiles in appropriate terrestrial settings. Use only taxa supported by the chapter; do not convert national-list inclusion into local occurrence. | Integrated original schematic: `images/generated/fauna-herps-habitats.svg`; generic toad by moist pool and generic lizard on rocky slope, deliberately unlabelled. Browser visual QA and morphology review remain pending.
 | `image-brief-fauna-invertebrates` | P2 | Use recognisable arthropod body plans and correct segment/appendage placement. A multi-group composition is illustrative, not a complete Kyrgyzstan species list. |
-| `image-brief-fauna-jalalabad` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
+| `image-brief-fauna-jalalabad` | P1 | Original SVG habitat schematic integrated at the exact anchor; separated Sary-Chelek forest, Besh-Aral river gorge and high-alpine Besh-Aral marmot panel. No range map or census claim. Browser visual QA and final morphology review pending. |
 | `image-brief-fauna-issyk` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-naryn` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-osh` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
