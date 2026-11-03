@@ -383,3 +383,23 @@ Sources:
 - https://www.mediawiki.org/wiki/API:Categorymembers/en
 
 No six-member filename list was retrieved. No new bird file was individually verified, downloaded, or accepted. No WebP prepared and no chapter anchor changed. Integrated biology visual count remains **0/52**.
+
+## Follow-up: expanded Commons search for Chüy bird and habitat assets (3 November 2026)
+
+A fresh indexed search produced the following useful distinctions:
+
+1. The parent category Birds of Kyrgyzstan has seven subcategories, including Birds of Chüy Region (6 files) and the separate Birds of Bishkek (6 files). The parent category itself contains 12 direct files, including the two Ala-Archa tit photographs. Do not conflate the Chüy subcategory's six members with the parent's 12 direct files or with the separate Bishkek subcategory.
+2. Both Ala-Archa Rufous-naped tit file pages currently expose bilingual captions, park/location, date (25 August 2023), and Nikolai Bulykin as author. The second file's page also exposes the full preview/original dimensions (3,366 × 2,525); its previously confirmed structured depicts conflict with Cyanistes flavipectus remains a hold. The first is 4,608 × 3,456 and likewise remains on hold pending resolution of the earlier structured-data discrepancy. Search snippets are not a substitute for original-file review.
+3. New non-animal habitat lead: Ала-Арча, сферопанорама.jpg, 14,400 × 7,200, 12,270,902 bytes, CC BY-SA 4.0, self-published work by Nikolay Bulykin, category tags include Ala-Archa National Park and aerial photographs of Chüy Region. This is a panorama/habitat candidate, not a fauna photograph; its suitability depends on whether a panorama is needed at a mapped habitat anchor.
+4. New habitat/vegetation lead: Кыргызстан, нацпарк Ала-Арча, ель.jpg, 2,825 × 1,883, 1,054,871 bytes, CC BY-SA 4.0, category includes Picea schrenkiana. This may be relevant to a local ecosystem/vegetation panel, not an animal image. Candidate only; original not downloaded or inspected locally.
+5. Commons also exposes an Ala-Archa gorge photo with bilingual English/Kyrgyz/Russian captions and exact camera coordinates, by Baydastann, dated 18 May 2025. This is a landscape candidate only.
+
+Sources:
+- https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_сферопанорама.jpg
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_ель.jpg
+- https://commons.wikimedia.org/wiki/File:Ала-Арча_4.jpg
+
+All newly surfaced files remain research candidates. No original binary acquired, no WebP prepared, no image approved, and no chapter anchor changed. Integrated biology visual count remains **0/52**.
