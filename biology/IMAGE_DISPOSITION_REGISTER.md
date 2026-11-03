@@ -74,15 +74,16 @@ For every deferred item:
 
 ## Source-backed Chüy fauna photos — local packaging completed
 
-Five individually licensed Wikimedia Commons photographs are embedded in the Chüy fauna section of `chapters/fauna-kyrgyzstan.html` with bilingual alt text, captions, photographer credit, source-page links and CC BY-SA 4.0 licence links:
+Six individually licensed Wikimedia Commons photographs are embedded in the Chüy fauna section of `chapters/fauna-kyrgyzstan.html` with bilingual alt text, captions, photographer credit, source-page links and CC BY-SA 4.0 licence links:
 
 1. **Red squirrel (*Sciurus vulgaris*)** — Nikolai Bulykin, Ala-Archa National Park, 25 August 2023; original JPEG 4608 × 3456; Commons page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg
 2. **Halys pit viper (*Gloydius halys*)** — Nikolai Bulykin, Ala-Archa National Park, 25 August 2023; original JPEG 3775 × 2831; Commons page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(1).jpg
 3. **Ak-Suu Gorge and river habitat** — Vilya Shoni, Ak-Suu Complex Sanctuary, 18 June 2022; original JPEG 3556 × 2000; Commons page: https://commons.wikimedia.org/wiki/File:Ak_Suu_Gorge,_Chuy_region,_Kyrgyzstan.jpg
 4. **Ala-Archa mountain-forest habitat** — Vilya Shoni, 17 May 2024; original JPEG 1920 × 1336; Commons page: https://commons.wikimedia.org/wiki/File:Landscape_view,_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan_02.jpg
 5. **Chong-Kemin stream-valley habitat** — Vilya Shoni, 7 June 2024; original JPEG 3000 × 2000; Commons page: https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_01.jpg
+6. **Chunkurchak red-sandstone canyon habitat** — Vilya Shoni, Chong-Kuurchak Botanical Reserve, 7 June 2020; original JPEG 1440 × 1246; Commons page: https://commons.wikimedia.org/wiki/File:Canyon,_Chunkurchak_sanctuary,_Chuy_region,_Kyrgyzstan.jpg
 
-All five original JPEGs were downloaded by the dedicated GitHub Actions workflow; each downloaded byte stream matched the Commons SHA-1, source dimensions and byte sizes were verified, five WebP derivatives were committed, and the source/SHA-256 data are recorded in `images/generated/fauna-chuy-assets-manifest.json`. The focused Chromium browser smoke test passed for all five local images. Offline-cache testing remains pending.
+All six original JPEGs were downloaded by the dedicated GitHub Actions workflow; each downloaded byte stream matched the Commons SHA-1, source dimensions and byte sizes were verified, six WebP derivatives were committed, and the source/SHA-256 data are recorded in `images/generated/fauna-chuy-assets-manifest.json`. The focused Chromium browser smoke test passed for all six local images. Offline-cache testing remains pending.
 
 ## Acceptance rule for future activation
 
@@ -90,4 +91,4 @@ A row may change from **Deferred** to **Produced** only when the exact target fi
 
 **Historical G6 milestone (superseded):** at the prior production milestone, five local WebP assets have been produced and integrated; this statement records the then-current milestone and is superseded by the six-image total below. The current verified total is six local WebP photographs within the single completed Chüy fauna brief.
 
-**G6 baseline disposition:** the original 52-asset plan was deferred pending selection. That baseline is now superseded for the Chüy fauna item: six local WebP photographs have been produced and integrated under one visual brief; the remaining 51 briefs retain their recorded individual statuses.
+**G6 baseline disposition:** the original 52-asset plan was deferred pending selection. That baseline is now superseded for the Chüy fauna item: six local WebP photographs have been produced and integrated under one visual brief; the remaining 50 briefs retain their recorded individual statuses.
