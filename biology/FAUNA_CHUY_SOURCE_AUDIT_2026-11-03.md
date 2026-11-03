@@ -355,3 +355,17 @@ The Commons national bird index was queried again. It still confirms a dedicated
 No new individual bird file can responsibly be identified from this result. The two Ala-Archa tit files remain the only individually surfaced bird-photo leads in this audit; the second remains taxonomically conflicted, and the first still requires reconciliation of the previously reported structured-data warning. Next useful route is a direct Wikimedia Commons API/category-members request from an environment with network access, or manual retrieval of the category members in a browser. Do not infer filenames from the six-file count.
 
 No original binary acquired; no WebP prepared; no asset accepted; no chapter insertion. Integrated biology visual count remains **0/52**.
+
+
+## Follow-up: corrected category-title encoding and API access test (3 November 2026)
+
+A technical correction was made while retrying the six-member bird-category lookup: the proper Unicode spelling is **Chüy** (ü, U+00FC), encoded as `Ch%C3%BCy`. An earlier API URL in the research notes used a different character encoding and therefore was not an exact request for the category title.
+
+The corrected category page URL was tested:
+https://commons.wikimedia.org/wiki/Category:Birds_of_Ch%C3%BCy_Region
+
+The corrected Commons API endpoint was also tested with `cmtitle=Category:Birds_of_Chüy_Region`, `cmtype=file`, and `cmlimit=50`. Both requests were inaccessible through the current browser retrieval layer (internal access error). The national category index still confirms **Birds of Chüy Region (6 files)**, but does not expose the six member names in the accessible result.
+
+This resolves the encoding mistake in the attempted URL, but not the underlying retrieval blockage. No member filenames are asserted, and no additional bird candidate is approved from this attempt.
+
+No original binary acquired; no WebP prepared; no asset accepted; no chapter insertion. Integrated biology visual count remains **0/52**.
