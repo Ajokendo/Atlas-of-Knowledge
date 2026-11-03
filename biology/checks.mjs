@@ -645,12 +645,25 @@ const imageInsertionMap = fs.readFileSync(path.join(root, "IMAGE_INSERTION_MAP.m
 const insertionMapIds = [...imageInsertionMap.matchAll(/^\| `image-brief-([^ `]+)`/gm)].map(m => m[1]);
 if (insertionMapIds.length !== 52 || new Set(insertionMapIds).size !== 52) errors.push("IMAGE_INSERTION_MAP.md must contain 52 unique insertion anchors; found " + insertionMapIds.length);
 const imageDispositionRegister = fs.readFileSync(path.join(root, "IMAGE_DISPOSITION_REGISTER.md"), "utf8");
-const imageDispositionRows = [...imageDispositionRegister.matchAll(/^\| `image-brief-([^ `]+)` \| `([^ `]+)` \| P[123] \| [^|]+ \| Deferred \| No asset selected; no third-party image used\./gm)];
-const imageDispositionIds = imageDispositionRows.map(m => m[1]);
-if (imageDispositionRows.length !== 52 || new Set(imageDispositionIds).size !== 52) {
-  errors.push("IMAGE_DISPOSITION_REGISTER.md must contain 52 unique deferred image decisions; found " + imageDispositionRows.length);
+const dispositionTableRows = imageDispositionRegister.split("\n").filter(line => line.startsWith("| `image-brief-"));
+const imageDispositionIds = dispositionTableRows.map(line => (line.match(/^\| `image-brief-([^ `]+)`/) || [])[1]).filter(Boolean);
+if (dispositionTableRows.length !== 52 || new Set(imageDispositionIds).size !== 52) {
+  errors.push("IMAGE_DISPOSITION_REGISTER.md must contain 52 unique image decisions (deferred or produced); found " + dispositionTableRows.length);
 }
-for (const id of insertionMapIds) if (!imageDispositionIds.includes(id)) errors.push("IMAGE_DISPOSITION_REGISTER.md is missing deferred disposition for " + id);
+for (const id of insertionMapIds) if (!imageDispositionIds.includes(id)) errors.push("IMAGE_DISPOSITION_REGISTER.md is missing disposition for " + id);
+for (const line of dispositionTableRows) {
+  const cells = line.split("|").map(cell => cell.trim());
+  const status = cells[5] || "";
+  const target = cells[2] || "";
+  if (status.includes("Produced")) {
+    const localAssets = [...target.matchAll(/images\/generated\/[A-Za-z0-9._-]+\.webp/g)].map(match => match[0]);
+    if (localAssets.length === 0 || localAssets.some(asset => !fs.existsSync(path.join(root, asset)))) {
+      errors.push("IMAGE_DISPOSITION_REGISTER.md: produced asset is missing locally: " + line);
+    }
+  } else if (status === "Deferred" && !(cells[6] || "").includes("No asset selected")) {
+    errors.push("IMAGE_DISPOSITION_REGISTER.md: deferred item must explain that no asset is selected: " + line);
+  }
+}
 const dispositionTableRows = imageDispositionRegister.split("\n").filter(line => line.startsWith("| `image-brief-"));
 const p1DispositionRows = dispositionTableRows.filter(line => line.includes("| P1 |"));
 const p2p3DispositionRows = dispositionTableRows.filter(line => line.includes("| P2 |") || line.includes("| P3 |"));
@@ -670,10 +683,9 @@ for (const line of p2p3DispositionRows) {
   if (id && !imageBriefReviewIds.includes(id)) errors.push("IMAGE_BRIEF_REVIEW.md is missing P2/P3 brief " + id);
 }
 
-if (!imageDispositionRegister.includes("G6 disposition:** complete as an explicit, documented deferral") ||
-    !imageDispositionRegister.includes("actual image QA is pending") ||
-    fs.existsSync(path.join(root, "images/generated"))) {
-  errors.push("IMAGE_DISPOSITION_REGISTER.md must document the no-asset deferral and be revised if image assets are added");
+if (!imageDispositionRegister.includes("G6 baseline disposition:") ||
+    !imageDispositionRegister.includes("two local WebP assets have been produced and integrated")) {
+  errors.push("IMAGE_DISPOSITION_REGISTER.md must document the original G6 baseline and any produced-asset updates");
 }
 for (const id of imageBriefIds) if (!insertionMapIds.includes(id)) errors.push("IMAGE_INSERTION_MAP.md is missing insertion anchor " + id);
 const imageChecklistCount = (imagePlanFile.match(/^- \[~\] \*\*/gm) || []).length;
