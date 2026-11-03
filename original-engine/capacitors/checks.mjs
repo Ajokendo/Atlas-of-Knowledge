@@ -56,7 +56,7 @@ check('connected: E stays V/d, Q rises κ×', near(con1.E, M.E0) && near(con1.Q,
 check('connected: battery work V·ΔQ = 2ΔU', near(M.V0 * (con1.Q - M.Q0), 2 * (con1.U - M.U0), 1e-9));
 check('isolated: U falls to U₀/κ', near(iso1.U, M.U0 / M.KAPPA));
 check('molecule: θ(t) solves dθ/dt = −sin θ/τ', [0.3, 0.9].every(t => near((M.align(2, t + 1e-6) - M.align(2, t - 1e-6)) / 2e-6, -Math.sin(M.align(2, t)) / M.ALIGN_TAU, 1e-5)));
-check('dipole: τ = −dU/dθ', [0.4, 1.9].every(th => near(M.dipoleTorque(1, 1, th), (M.dipoleU(1, 1, th + 1e-6) - M.dipoleU(1, 1, th - 1e-6)) / 2e-6, 1e-6)));
+check('dipole: torque magnitude = dU/dθ; restoring direction is toward smaller θ', [0.4, 1.9].every(th => near(M.dipoleTorque(1, 1, th), (M.dipoleU(1, 1, th + 1e-6) - M.dipoleU(1, 1, th - 1e-6)) / 2e-6, 1e-6)));
 // conductor in equilibrium
 const R = M.COND.R;
 check('conductor: E = 0 inside', [[0, 0, 0], [0.05, 0.03, -0.02]].every(p => Math.hypot(...M.condE(...p)) === 0));
