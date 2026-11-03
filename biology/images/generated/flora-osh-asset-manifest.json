@@ -1,0 +1,29 @@
+{
+  "generated_by": "biology/scripts/build_osh_flora_asset.py",
+  "asset": {
+    "commons_title": "File:Inbound1554290775583060652.jpg",
+    "output": "flora-osh.webp",
+    "subject": "River and riparian vegetation in Kulun-Ata State Nature Reserve",
+    "author": "Talantbekkyzymalika",
+    "date": "2024-06-12",
+    "location": "Kulun-Ata State Nature Reserve, Kara-Kulja District, Osh Region, Kyrgyzstan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Inbound1554290775583060652.jpg",
+    "original_filename": "Inbound1554290775583060652.jpg",
+    "original_sha1_commons": "faddae3b639dacafb1002b04b75ecb0c1c1060d1",
+    "original_sha1_downloaded": "faddae3b639dacafb1002b04b75ecb0c1c1060d1",
+    "original_bytes": 10395588,
+    "original_dimensions": [
+      4640,
+      3472
+    ],
+    "webp_file": "biology/images/generated/flora-osh.webp",
+    "webp_bytes": 4093228,
+    "webp_sha256": "30cc8f67c2c0f631a06cb4f51e79179c023af253f6ff2bd7d6c5be15a1835f63",
+    "webp_dimensions": [
+      4640,
+      3472
+    ],
+    "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+  }
+}
