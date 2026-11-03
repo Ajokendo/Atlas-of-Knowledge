@@ -1,0 +1,127 @@
+{
+  "generated_by": "biology/scripts/build_issyk_flora_assets.py",
+  "assets": [
+    {
+      "commons_title": "E8288-Tamchy-Bay-wetland.jpg",
+      "output": "flora-issyk-wetland.webp",
+      "subject": "Tamchy Bay lakeshore wetland",
+      "author": "Vmenkov",
+      "date": "2007-09-16",
+      "location": "Tamchy Bay between Tamchy and Kosh Köl, Issyk-Kul Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:E8288-Tamchy-Bay-wetland.jpg",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "original_filename": "E8288-Tamchy-Bay-wetland.jpg",
+      "original_sha1_commons_api": "c233acf00a5d28c06fe6ab36b2533850eca15149",
+      "original_sha1_downloaded": "c233acf00a5d28c06fe6ab36b2533850eca15149",
+      "original_bytes": 1179469,
+      "original_dimensions": [
+        2048,
+        1536
+      ],
+      "webp_file": "biology/images/generated/flora-issyk-wetland.webp",
+      "webp_bytes": 597392,
+      "webp_sha256": "80e82b191baa37120ac5662bd61f60034dcfd7f45113a68de5188692e3ff0588",
+      "webp_dimensions": [
+        2048,
+        1536
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "E8221-Tamchy-dry-gulch.jpg",
+      "output": "flora-issyk-dry-foothills.webp",
+      "subject": "Dry gully and foothill terrain above Tamchy",
+      "author": "Vmenkov",
+      "date": "2007-09-15",
+      "location": "Dry hills above Tamchy, Issyk-Kul Region, Kyrgyzstan",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:E8221-Tamchy-dry-gulch.jpg",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "original_filename": "E8221-Tamchy-dry-gulch.jpg",
+      "original_sha1_commons_api": "a9d86c598db9c3709c6406a83b26de8cc680ae5f",
+      "original_sha1_downloaded": "a9d86c598db9c3709c6406a83b26de8cc680ae5f",
+      "original_bytes": 1206027,
+      "original_dimensions": [
+        2048,
+        1536
+      ],
+      "webp_file": "biology/images/generated/flora-issyk-dry-foothills.webp",
+      "webp_bytes": 714808,
+      "webp_sha256": "c2b810e0d119c3cbadf4595893d7c8ffa35d837d9a1daa962224292981d8a913",
+      "webp_dimensions": [
+        2048,
+        1536
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "E8306-Kosh-Kol-sea-buckthorn.jpg",
+      "output": "flora-issyk-sea-buckthorn.webp",
+      "subject": "Sea-buckthorn shrub on the Issyk-Kul shore",
+      "taxon": "Hippophae rhamnoides",
+      "author": "Vmenkov",
+      "date": "2007-09-16",
+      "location": "Shore of Issyk-Kul between Tamchy and Kosh Köl, Issyk-Kul Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:E8306-Kosh-Kol-sea-buckthorn.jpg",
+      "dimensions": [
+        2560,
+        1920
+      ],
+      "original_filename": "E8306-Kosh-Kol-sea-buckthorn.jpg",
+      "original_sha1_commons_api": "436ec4c8caffc3b4b95a5e4b39fa4eb170b88ee5",
+      "original_sha1_downloaded": "436ec4c8caffc3b4b95a5e4b39fa4eb170b88ee5",
+      "original_bytes": 1745803,
+      "original_dimensions": [
+        2560,
+        1920
+      ],
+      "webp_file": "biology/images/generated/flora-issyk-sea-buckthorn.webp",
+      "webp_bytes": 1116186,
+      "webp_sha256": "3d5fcd6791139c108e00ae44042b0608a6c4182ad42a6025a1cf67c6812e08f1",
+      "webp_dimensions": [
+        2560,
+        1920
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "Karakol Valley.jpg",
+      "output": "flora-issyk-karakol-spruce.webp",
+      "subject": "Karakol Valley with Schrenk spruce forest",
+      "taxon": "Picea schrenkiana",
+      "author": "Ondřej Žváček",
+      "date": "2008-08-19",
+      "location": "Karakol Valley, Issyk-Kul Region, Kyrgyzstan",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Karakol_Valley.jpg",
+      "dimensions": [
+        3072,
+        2304
+      ],
+      "original_filename": "Karakol Valley.jpg",
+      "original_sha1_commons_api": "8abf0b8afa14a954bdc40f9616ea5d47b348d011",
+      "original_sha1_downloaded": "8abf0b8afa14a954bdc40f9616ea5d47b348d011",
+      "original_bytes": 5126254,
+      "original_dimensions": [
+        3072,
+        2304
+      ],
+      "webp_file": "biology/images/generated/flora-issyk-karakol-spruce.webp",
+      "webp_bytes": 1194038,
+      "webp_sha256": "719fc93ed1247e129974c963e6c44b25fb1be0cd89b59adb97010e8a74fcae0a",
+      "webp_dimensions": [
+        3072,
+        2304
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    }
+  ]
+}
