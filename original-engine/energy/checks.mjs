@@ -88,8 +88,9 @@ check('bead: F = −dU/dx (numeric derivative)', [0.5, 1.3, 2.4, 3.6, 4.5].every
 check('bead: wire never steeper than vertical (|h′| < 1)', Array.from({ length: 601 }, (_, i) => Math.abs(M.beadH1(i * B.len / 600))).every(v => v < 1));
 check('bead: F = 0 at the valley (U″ > 0) and the hump (U″ < 0)', Math.abs(M.beadF(B.stable)) < 1e-9 && Math.abs(M.beadF(B.unstable)) < 1e-9 && M.beadH2(B.stable) > 0 && M.beadH2(B.unstable) < 0, `x ${B.stable.toFixed(3)} m, ${B.unstable.toFixed(3)} m`);
 check('bead: F ≈ 0 on the flat stretch (neutral)', Math.abs(M.beadF(B.neutral)) < 0.01 * B.m * M.G && Math.abs(M.beadH2(B.neutral)) < 0.02);
-check('bead: K + U constant (RK4)', Array.from({ length: 50 }, (_, i) => M.bead(i * B.period / 49)).every(r => near(r.K + r.U, B.E, 1e-8)), `${B.E.toFixed(3)} J`);
-check('bead: turning points where U = E, v = 0 there', near(M.beadU(B.x1), B.E, 1e-10) && Math.abs(M.bead(B.period / 2).x - B.x1) < 1e-6 && Math.abs(M.bead(B.period / 2).v) < 1e-5, `${B.x0.toFixed(2)} m and ${B.x1.toFixed(3)} m`);
+check('bead: K + U constant through the full interpolated cycle', (() => { let worst = 0; for (let i = 0; i <= 2000; i++) { const r = M.bead((i + 0.317) * B.period / 2001); worst = Math.max(worst, Math.abs(r.K + r.U - B.E) / B.E); } return worst < 1e-9; })(), `${B.E.toFixed(3)} J`);
+check('bead: both turning points satisfy U = E and v = 0', near(M.beadU(B.x0), B.E, 1e-10) && near(M.beadU(B.x1), B.E, 1e-10) && Math.abs(M.bead(0).v) < 1e-12 && Math.abs(M.bead(B.period / 2).x - B.x1) < 1e-6 && Math.abs(M.bead(B.period / 2).v) < 1e-5);
+check('bead: one period returns to the release point and rest state', Math.abs(M.bead(B.period - 1e-9).x - B.x0) < 1e-6 && Math.abs(M.bead(B.period - 1e-9).v) < 1e-5);
 check('bead: m dv/dt = −dU/dx', [0.3, 1.2].every(t => near(B.m * d(M.bead, t, 'v'), M.bead(t).F, 1e-4)));
 
 // energy curves and equilibrium (Physics C)
