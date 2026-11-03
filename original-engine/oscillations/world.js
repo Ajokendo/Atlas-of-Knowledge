@@ -35,7 +35,7 @@ export function buildWorld(E) {
   const ghostMat = new THREE.LineBasicMaterial({ color: '#bdbdc2' });
   const ghostBox = (parent, s) => { const l = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(s, s, s)), ghostMat); l.userData = { noEdge: true }; parent.add(l); return l; };
   const ghostBall = (parent, r) => { const l = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.IcosahedronGeometry(r, 1)), ghostMat); l.userData = { noEdge: true }; parent.add(l); return l; };
-  const block = (parent, s, name = 'Block') => part(parent, box(s, s, s, 0.03), { tone: 'hi', name });
+  const block = (parent, s, name = 'Блок') => part(parent, box(s, s, s, 0.03), { tone: 'hi', name });
 
   // a coil spring, reshaped in place whenever its length changes
   function coil(parent, { coils = 14, R = 0.06, wire = 0.01, name = 'Spring' } = {}) {
@@ -78,7 +78,7 @@ export function buildWorld(E) {
     }
   }
   // a pendulum: a group at the pivot that turns by θ; the bob hangs L below
-  function pend(g, pivot, L, r, name = 'Bob') {
+  function pend(g, pivot, L, r, name = 'Груз маятника') {
     const arm = new THREE.Group(); arm.position.copy(pivot); g.add(arm);
     part(arm, cyl(0.007, L, 8).translate(0, -L / 2, 0), { tone: 'hi', pal: 'ink', name: 'Нить' });
     const bob = part(arm, new THREE.SphereGeometry(r, 40, 28), { tone: 'hi', name, pos: [0, -L, 0] });
@@ -155,13 +155,13 @@ export function buildWorld(E) {
   ceiling(X4, CY, 1.6);
   const g4 = asm('hang', root, { title: 'Подвешенный блок', sub: 'новое равновесие, прежний период' });
   const b4 = block(g4, S), coil4 = coil(g4);
-  const fs4 = force(g4), fg4 = force(g4), net4 = force(g4, 'red'), d4 = thinArrow(root, 'Stretch');
+  const fs4 = force(g4), fg4 = force(g4), net4 = force(g4, 'red'), d4 = thinArrow(root, 'Растяжение');
   const eqEnd = TOPY - M.D;
   { const c = [];
     for (let x = X4 - 0.6; x < X4 + 0.75; x += 0.08) c.push(x, TOPY, 0, x + 0.04, TOPY, 0, x, eqEnd, 0, x + 0.04, eqEnd, 0);
     lines(root, c, '#8a8a8f'); }
   setArrow(d4, V(X4 + 0.6, TOPY, 0), V(0, -M.D, 0));
-  label('tick', 'unstretched', () => V(X4 - 0.65, TOPY, 0)); label('tick', 'equilibrium', () => V(X4 - 0.65, eqEnd, 0));
+  label('tick', 'Ненатянутое состояние', () => V(X4 - 0.65, TOPY, 0)); label('tick', 'Положение равновесия', () => V(X4 - 0.65, eqEnd, 0));
   label('board', '<i>d</i> = <i>mg</i>/<i>k</i>', () => V(X4 + 0.68, TOPY - M.D / 2, 0));
   label('vec', '<i>F</i><sub>s</sub>', () => { const p = tip(fs4); return p && p.add(V(-0.16, -0.1, 0)); }); label('vec', '<i>F</i><sub>g</sub>', () => tip(fg4)); label('vec red', 'Σ<i>F</i>', () => tip(net4));
 
@@ -199,7 +199,7 @@ export function buildWorld(E) {
   ceiling(X7 + 0.95, PY7, 1.6);
   const g7p = asm('bobs', root, { title: 'Две массы', sub: 'одинаковая длина и период' });
   const pv7a = V(X7 + 0.5, PY7, 0), pv7b = V(X7 + 1.4, PY7, 0), r7b = 0.1 * Math.cbrt(I.m2 / I.m1);
-  const p7a = pend(g7p, pv7a, I.L, 0.1, '1.0 kg bob'), p7b = pend(g7p, pv7b, I.L, r7b, '4.0 kg bob');
+  const p7a = pend(g7p, pv7a, I.L, 0.1, 'Груз 1,0 кг'), p7b = pend(g7p, pv7b, I.L, r7b, 'Груз 4,0 кг');
   swingGhosts(pv7a, I.L, I.th0, 0.1); swingGhosts(pv7b, I.L, I.th0, r7b);
   label('tick', '1 кг', () => p7a.at(0).add(V(-0.14, -0.22, 0))); label('tick', '4 кг', () => p7b.at(0).add(V(-0.18, -0.28, 0)));
 
@@ -213,10 +213,10 @@ export function buildWorld(E) {
     const x0 = X9 + (i ? 1.65 : -1.35), o = oscillator(g9, x0, 0);
     marks(x0, -0.45, 0.45, st.A, false);
     const gb = ghostBox(root, S); gb.position.set(x0 + st.x0, 0.02 + S / 2, 0);            // where it starts
-    const dx = thinArrow(root, 'Start'); setArrow(dx, V(x0, 0.03, 0.62), V(st.x0, 0, 0));
+    const dx = thinArrow(root, 'Начало'); setArrow(dx, V(x0, 0.03, 0.62), V(st.x0, 0, 0));
     label('axis', '<i>x</i><sub>0</sub>', () => V(x0 + st.x0 / 2 + 0.06, 0.03, 0.8));
     label('tick', `<i>A</i> = ${st.A.toFixed(2)} m`, () => V(x0 - st.A - 0.06, 0.03, 0.62));
-    if (st.v0) { const va = thinArrow(root, 'Start'); setArrow(va, V(x0 + st.x0 + 0.1, S + 0.42, 0), V(st.v0 * V_SCALE, 0, 0));
+    if (st.v0) { const va = thinArrow(root, 'Начало'); setArrow(va, V(x0 + st.x0 + 0.1, S + 0.42, 0), V(st.v0 * V_SCALE, 0, 0));
       label('vec grey', '<i>v</i><sub>0</sub>', () => V(x0 + st.x0 + 0.1 + st.v0 * V_SCALE - 0.14, S + 0.42, 0)); }
     else label('tick', '<i>v</i><sub>0</sub> = 0', () => V(x0 + st.x0 + 0.3, S + 0.42, 0));
     const v = force(g9); label('vec', '<i>v</i>', () => tip(v));

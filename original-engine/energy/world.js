@@ -122,7 +122,7 @@ export function buildWorld(E) {
   smooth(XC - 1.45, XC + 1.45, -1.45, 1.45);
   const gC = asm('whirl', root, { title: 'Шар на нити', sub: 'натяжение всегда перпендикулярно движению' });
   part(gC, cyl(0.05, 0.22, 20), { tone: 'hi', pal: 'dark', pos: [XC, 0.13, 0], name: 'Штифт' });
-  const bC = ball(gC, RC, '0.50 kg ball'), strC = rod(gC);
+  const bC = ball(gC, RC, 'Шар · 0,50 кг'), strC = rod(gC);
   const vC = force(gC), tC = force(gC);
   const circ = []; for (let i = 0; i < 64; i += 1) { const a = i / 64 * 2 * Math.PI, b = (i + 0.5) / 64 * 2 * Math.PI; circ.push(XC + R0 * Math.cos(a), 0.025, R0 * Math.sin(a), XC + R0 * Math.cos(b), 0.025, R0 * Math.sin(b)); }
   lines(root, circ, '#a8a8ae');
@@ -149,7 +149,7 @@ export function buildWorld(E) {
   // ---------- 5 · gravitational PE: a ball dropped from 3.0 m ----------
   const XE = STATIONS.drop, RE = 0.15;
   const gE = asm('drop', root, { title: 'Падающий шар', sub: 'высота превращается в скорость' });
-  const bE = ball(gE, RE, '0.50 kg ball');
+  const bE = ball(gE, RE, 'Шар · 0,50 кг');
   const fgE = force(gE), vE = force(gE);
   label('vec', 'F<sub>g</sub>', () => tip(fgE)); label('vec', '<b>v</b>', () => tip(vE));
   { const ax = XE - 0.65, t = [ax, 0, 0, ax, M.DROP.h + 0.2, 0];
@@ -301,7 +301,7 @@ export function buildWorld(E) {
   const XH = STATIONS.slide, SH = 0.5, xH0 = XH - 1.2;
   rough(XH - 1.6, XH + 1.3);
   const gH = asm('slide', root, { title: 'Скользящий блок', sub: 'трение превращает K в тепло' });
-  const bH = block(gH, SH, '2.0 kg block');
+  const bH = block(gH, SH, 'Блок · 2,0 кг');
   const fH = force(gH), fgH = force(gH), fnH = force(gH), netH = force(gH, true), dxH = thinArrow(gH, 'Перемещение');
   label('vec', 'f', () => tip(fH)); label('vec', 'F<sub>g</sub>', () => tip(fgH)); label('vec', 'F<sub>N</sub>', () => tip(fnH)); label('vec red', 'ΣF', () => tip(netH)); label('vec', 'Δ<i>x</i>', () => tip(dxH));
   const ghostH = ghostBox(SH); ghostH.position.set(xH0, 0.02 + SH / 2, 0);
@@ -312,7 +312,7 @@ export function buildWorld(E) {
   part(root, box(3.0, 0.08, 0.5, 0.02), { tone: 'mid', pal: 'board', pos: [XI, CEIL + 0.04, 0], name: 'Потолок' });
   const gI = asm('lift', root, { title: 'Подъём ящика', sub: 'одинаковая работа, разная мощность' });
   const crates = xs.map(x => block(gI, SI, 'Ящик массой 10 кг'));
-  const ropesI = xs.map(() => rod(gI, 0.012, 'ink', 'Rope'));
+  const ropesI = xs.map(() => rod(gI, 0.012, 'ink', 'Верёвка'));
   const tI = xs.map(() => force(gI)), wI = xs.map(() => force(gI)), dyI = xs.map(() => thinArrow(gI, 'Перемещение'));
   tI.forEach(a => label('vec', 'T', () => tip(a))); wI.forEach(a => label('vec', 'F<sub>g</sub>', () => tip(a)));
   dyI.forEach(a => label('vec', small('Δ<i>y</i>', 18), () => tip(a)));

@@ -223,7 +223,7 @@ export function buildWorld(E) {
     part(gR, wedge(0.22, YR - RS / 2 - 0.02, 0.26), { tone: 'mid', pal: 'board', pos: [X0R + xc, 0.02, z], name: 'Ребро опоры' });
     const mk = cmMark(gR, 0.05); mk.position.set(X0R + xc, YR, z + RS / 2 + 0.01);
     const slab = part(gR, new THREE.BoxGeometry(0.035, RS + 0.03, RS + 0.03), { tone: 'hi', pal: 'ink', name: 'dm' });
-    const wts = sl.map(() => gArrow(gR, 0.7, 'Weight dm·g'));
+    const wts = sl.map(() => gArrow(gR, 0.7, 'Вес dm·g'));
     return { kind, z, sl, xc, bands, slab, wts };
   });
   label('tick', 'однородный', () => V(X0R - 0.12 - 0.35 * ex(gR), YR, rodZ.U)); label('tick', 'λ = λ₀x/L', () => V(X0R - 0.12 - 0.35 * ex(gR), YR, rodZ.N));
@@ -245,7 +245,7 @@ export function buildWorld(E) {
     part(gPl, new THREE.ConeGeometry(0.045, YP - 0.02, 20), { tone: 'mid', pal: 'board', pos: [x0 + S.ucm, 0.02 + (YP - 0.02) / 2, 0], name: 'Штифт' });
     const mk = cmMark(gPl, 0.05); mk.position.set(x0 + S.ucm, YP + PT / 2, 0);
     const slab = part(gPl, new THREE.BoxGeometry(0.03, PT + 0.03, 1), { tone: 'hi', pal: 'ink', name: 'dm' });
-    plates.push({ S, w, x0, H, st, slab, wts: st.map(() => gArrow(gPl, 0.7, 'Weight dm·g')), pieces });
+    plates.push({ S, w, x0, H, st, slab, wts: st.map(() => gArrow(gPl, 0.7, 'Вес dm·g')), pieces });
   }
   label('tick', 'h/3', () => V(plates[0].x0 + M.TRI.ucm - 0.08, 0.03, 0.3)); label('tick', '4R/3π', () => V(plates[1].x0 + M.SEMI.ucm - 0.08, 0.03, 0.3));
   label('tick', 'основание', () => V(plates[0].x0 - 0.06 - 0.3 * ex(gPl), YP, -0.62)); label('tick', 'диаметр', () => V(plates[1].x0 - 0.06 - 0.3 * ex(gPl), YP, -0.82));
