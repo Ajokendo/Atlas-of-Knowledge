@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download and verify the two approved Ala-Archa fauna originals, then create WebP assets."""
+"""Download and verify selected Chüy fauna and habitat originals, then create WebP assets."""
 from __future__ import annotations
 import hashlib, json, pathlib, time, urllib.error, urllib.parse, urllib.request
 from PIL import Image
@@ -48,6 +48,16 @@ FILES = [
         "location": "Ala-Archa National Park, Chüy Region, Kyrgyzstan",
         "license": "CC BY-SA 4.0",
         "page": "https://commons.wikimedia.org/wiki/File:Landscape_view,_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan_02.jpg",
+    },
+    {
+        "commons_title": "File:Chong Kemin National Park, Kemin district, Chuy Region, Kyrgyzstan 01.jpg",
+        "output": "habitat-chuy-chon-kemin.webp",
+        "subject": "Chong-Kemin rocky stream, meadow and conifer-forest habitat",
+        "author": "Vilya Shoni",
+        "date": "2024-06-07",
+        "location": "Chong-Kemin State Nature Park, Kemin District, Chüy Region, Kyrgyzstan",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_01.jpg",
     },
 ]
 
