@@ -59,6 +59,16 @@ FILES = [
         "license": "CC BY-SA 4.0",
         "page": "https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_01.jpg",
     },
+    {
+        "commons_title": "File:Canyon, Chunkurchak sanctuary, Chuy region, Kyrgyzstan.jpg",
+        "output": "habitat-chuy-chunkurchak-canyon.webp",
+        "subject": "Chunkurchak red sandstone canyon and shrub habitat",
+        "author": "Vilya Shoni",
+        "date": "2020-06-07",
+        "location": "Chong-Kuurchak Botanical Reserve, Alamudun District, Chüy Region, Kyrgyzstan",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Canyon,_Chunkurchak_sanctuary,_Chuy_region,_Kyrgyzstan.jpg",
+    },
 ]
 
 def get(url: str) -> bytes:
