@@ -958,3 +958,18 @@ This entry supersedes earlier statements in this file that all 52 images remain 
 - Current full-suite status must be distinguished from the focused image test: the focused six-image workflow passed, but full Biology CI must be rerun after the latest audit/register changes.
 
 No readiness-score increase is implied by image production. The controlled editorial-readiness score remains a separate measure.
+
+
+## Superseding visual-production checkpoint — 3 November 2026
+
+This section supersedes the historical G6 statements above that all 52 visual assets remain deferred. The earlier entries are retained as dated history, not current status.
+
+- **Visual briefs produced:** 2 of 52 = **3.8%**. One Chüy fauna brief contains six locally packaged photographs; one Jalal-Abad flora brief contains one photograph. The remaining 50 briefs are pending/deferred. Count briefs, not individual image files.
+- **Jalal-Abad flora:** the Arslanbob walnut-forest photograph by Ekrem Canli (13 July 2012, CC BY-SA 3.0) is integrated at the original `image-brief-flora-jalalabad` anchor in `chapters/flora-kyrgyzstan.html`. The 3,888 × 2,592 JPEG matched Commons SHA-1 `b44ca13fcd8e9359bef518c0fbaa604797d7117d`; WebP output is 3,111,310 bytes, SHA-256 `a2be8bc5bbef030df622a8a40af342f1ac646ec0dc17e8674cdc2e143644331e`.
+- **Focused browser QA:** run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41599165657 passed. It opened the actual bilingual flora chapter and checked the exact figure anchor, image decode and native dimensions, visibility, bilingual alt text, caption and Commons attribution.
+- **Asset pipeline:** run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41598920898 passed original download, checksum verification, WebP conversion, Chromium image decode and commit.
+- **Latest full Biology CI:** run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41599553658 passed on branch head `057cc6ef354f6a89d0feafe46d2288ac8dabfc64`. It reports 13 HTML pages, 95 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions; Chromium covered 13 pages at mobile and desktop widths, 30 language-toggle interactions, zero uncaught page errors, 21,505 contrast-sampled text instances with zero below threshold, and visible focus indicators during keyboard Tab traversal.
+- **Readiness:** controlled editorial readiness remains **95/100**. Visual-brief production progress is a separate metric and does not raise the editorial-readiness score.
+- **Still pending:** offline-cache capability/testing, screen-reader review and physical-device checks remain separate work; no completion is claimed for them.
+
+No changes were made outside `biology/` or outside `workspace/biology`.
