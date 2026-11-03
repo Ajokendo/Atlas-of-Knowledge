@@ -1016,3 +1016,17 @@ Both original-resolution images were opened and visually inspected in the browse
 - Fully packaged local WebP assets: 0.
 - Remote-source figures visibly integrated in the Chüy chapter: 2.
 - No additional Commons candidates were added in this pass; priority is to finish local packaging of these two before widening the search.
+
+
+## Status update — local WebP production completed (3 November 2026)
+
+The two shortlisted Ala-Archa photos have now completed the original-download and conversion pipeline through GitHub Actions. Workflow: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41590891758 (success).
+
+- Red squirrel, Sciurus vulgaris, Nikolai Bulykin, CC BY-SA 4.0. Original JPEG 4608 × 3456, 1,878,110 bytes. Commons SHA-1 and downloaded SHA-1 both equal `b1049ddf6123a9c54e8bb6ef7e77eb5c9f35db10`. WebP: `biology/images/generated/fauna-chuy-squirrel.webp`, 2,099,090 bytes, SHA-256 `ffcc6cfaa2d4764ec30a3fd1e7f8c9265b8a3cc494ee019e4fdd7dce32cb433c`.
+- Halys pit viper, Gloydius halys, Nikolai Bulykin, CC BY-SA 4.0. Original JPEG 3775 × 2831, 1,385,093 bytes. Commons SHA-1 and downloaded SHA-1 both equal `40f7e6149e6fa348dbe2ce3b079465f8ce85f78c`. WebP: `biology/images/generated/fauna-chuy-pit-viper.webp`, 1,474,898 bytes, SHA-256 `e5983be73b766b58a18dfbb86186dd5aad358b24d7f0f25a1e26057d481cbbca`.
+
+The manifest is `biology/images/generated/fauna-chuy-assets-manifest.json`. The chapter now references both local WebP files and retains bilingual alt text/captions, author, source and CC BY-SA 4.0 attribution. The insertion map, disposition register and brief review have been updated. The old remote-only integration status is superseded.
+
+Counts for this batch: original files downloaded 2/2; Commons SHA-1 verified 2/2; WebP produced and committed 2/2; chapter local references 2/2. Browser smoke test and offline-cache test remain pending.
+
+The general Biology checks workflow remains failing on project-wide issues outside this batch: missing placeholder image files in other flora/fauna sections, 15 mapped image anchors absent from pages, and 51 insertion-map rows where 52 are expected. The newly produced local WebP paths are not among the broken-path errors. Do not report the overall Biology CI suite as passing.
