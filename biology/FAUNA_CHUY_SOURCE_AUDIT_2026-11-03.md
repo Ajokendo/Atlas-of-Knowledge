@@ -1087,3 +1087,12 @@ The Chon-Kemin original completed the same automated acquisition and verificatio
 The focused Chromium browser test passed for all five Chüy images, including the Chon-Kemin habitat image. Run: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41592960808. All five local WebP files are committed and referenced in the bilingual chapter. Offline-cache testing remains pending.
 
 **Updated verified counts:** 5/5 original binaries acquired; 5/5 Commons SHA-1 matches; 5/5 WebP outputs committed; 5/5 chapter images decoded and visible in Chromium. One of the 52 mapped visual briefs is now produced; the asset-based progress count is 5/52 (9.6%). The two Rufous-naped Tit photos remain on hold because of the unresolved structured-data conflict. The other two Chon-Kemin frames remain unselected to avoid repetitive scenery.
+
+
+## Branch-wide validation after restoring regional image markers (3 November 2026)
+
+The five-image Chüy batch remains committed and browser-checked. The other 14 regional image slots that had pointed to absent WebP files were restored as bilingual planned markers at their mapped positions: five flora briefs (Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken) and nine fauna briefs (mammals, birds, freshwater, Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken, Talas). The missing local image references were removed; no placeholder raster files were invented.
+
+The full Biology CI then passed on branch `workspace/biology`: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41593844049. Static validation covered 13 HTML pages, 93 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Chromium tested all 13 pages at mobile and desktop widths, 30 language toggles, no uncaught page errors, and sampled 21,523 text instances for contrast with zero below-threshold results.
+
+The Chüy fauna brief remains the only produced brief so far (five local WebP files); 51 other mapped briefs remain pending/deferred. The two Rufous-naped Tit candidates remain on hold pending independent taxonomic clarification. Offline-cache testing for the Chüy images is still pending.
