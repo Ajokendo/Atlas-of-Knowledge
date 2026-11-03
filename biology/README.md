@@ -1292,3 +1292,14 @@ Start with `INDEPENDENT_REVIEW_BUNDLE.md` for the frozen-snapshot instructions a
 ## Supersession note — 2 November 2026
 
 Earlier historical entries in this README may describe G4/G5 as independent external-review gates. Those entries record the former draft plan and are superseded by the current closure plan above and the agreed project model: G4 and G5 are internal scientific and editorial/bilingual audits, both complete. External expert/editor review is optional. Unresolved evidence limitations remain qualified/deferred. Teacher feedback will be gathered as a later pedagogical pilot after the shared portal is complete and secure feedback intake has been tested.
+
+
+## Visual-production status supersession — 3 November 2026
+
+Earlier statements in this README that all 52 illustration assets remain deferred are historical and are superseded by the current records in `IMAGE_GENERATION_PLAN.md`, `IMAGE_INSERTION_MAP.md` and `IMAGE_DISPOSITION_REGISTER.md`.
+
+- Two of 52 visual briefs are produced (**3.8%**): Chüy fauna (six verified/licensed local WebP photographs) and Jalal-Abad flora (one verified/licensed local WebP photograph).
+- The Jalal-Abad flora figure is integrated at the original anchor in `chapters/flora-kyrgyzstan.html`; the source and checksum audit is `FLORA_JALALABAD_IMAGE_AUDIT_2026-11-03.md`.
+- Focused chapter browser QA passed (run 41599165657). Latest full Biology CI passed on branch head `057cc6ef354f6a89d0feafe46d2288ac8dabfc64` (run 41599553658).
+- The other 50 visual briefs remain pending/deferred. Offline image caching is not implemented or verified.
+- Controlled editorial readiness remains 95/100; visual production is reported separately and does not change that score.
