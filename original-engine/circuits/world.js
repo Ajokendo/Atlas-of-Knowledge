@@ -277,7 +277,7 @@ export function buildWorld(E) {
   // the loop walker: round loop 1, then loop 2, adding up each ΔV
   const walker = part(g7, new THREE.SphereGeometry(0.09, 20, 14), { tone: 'hi', pal: 'blue', name: 'Обходчик контура' });
   let walk = { sum: 0, loop: 0 };
-  label('vec blue', '', () => (opened(g7) > 0.5 ? walker.position.clone().add(V(0, 0.35, 0)) : null), () => `ΣΔ<i>V</i> = ${walk.sum >= -0.005 ? '+' : '−'}${Math.abs(walk.sum).toFixed(2)} V`);
+  label('vec blue', '', () => (opened(g7) > 0.5 ? walker.position.clone().add(V(0, 0.35, 0)) : null), () => `ΣΔ<i>V</i> = ${walk.sum >= -0.005 ? '+' : '−'}${Math.abs(walk.sum).toFixed(2)} В`);
 
   // ---------- 8 · RC: charge, then discharge ----------
   const X8 = STATIONS.rc;
