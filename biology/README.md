@@ -1303,3 +1303,12 @@ Earlier statements in this README that all 52 illustration assets remain deferre
 - Focused chapter browser QA passed (run 41599165657). Latest full Biology CI passed on branch head `057cc6ef354f6a89d0feafe46d2288ac8dabfc64` (run 41599553658).
 - The other 50 visual briefs remain pending/deferred. Offline image caching is not implemented or verified.
 - Controlled editorial readiness remains 95/100; visual production is reported separately and does not change that score.
+
+
+## Visual-production status supersession — 3 November 2026 (later update)
+
+This entry supersedes the earlier 2/52 visual-production status above. Three of 52 mapped visual briefs are now produced (**5.8%**): Chüy fauna (six photographs), Jalal-Abad flora (one) and Issyk-Kul flora (four). The other 49 briefs remain pending/deferred.
+
+The Issyk-Kul flora figure is integrated at the original anchor in `chapters/flora-kyrgyzstan.html`. Four original photographs were downloaded, checked against live Commons SHA-1 metadata and converted to local WebP files. Focused bilingual chapter QA passed in run 41608849568. Full Biology CI must be rerun on the asset-bearing branch head after the bot-generated image commit.
+
+Controlled editorial readiness remains 95/100; visual production does not raise that score. Offline caching is not implemented or verified.
