@@ -9,15 +9,15 @@ try {
   const figure = page.locator('figure#image-brief-flora-issyk');
   if (await figure.count() !== 1) throw new Error("Expected one Issyk-Kul flora figure at the original insertion anchor");
   const expected = [
-    ["flora-issyk-wetland.webp", 2048, 1536, "E8288-Tamchy-Bay-wetland.jpg"],
-    ["flora-issyk-dry-foothills.webp", 2048, 1536, "E8221-Tamchy-dry-gulch.jpg"],
-    ["flora-issyk-sea-buckthorn.webp", 2560, 1920, "E8306-Kosh-Kol-sea-buckthorn.jpg"],
-    ["flora-issyk-karakol-spruce.webp", 3072, 2304, "Karakol_Valley.jpg"],
+    ["flora-issyk-wetland.webp", 2048, 1536, "https://commons.wikimedia.org/wiki/File:E8288-Tamchy-Bay-wetland.jpg"],
+    ["flora-issyk-dry-foothills.webp", 2048, 1536, "https://commons.wikimedia.org/wiki/File:E8221-Tamchy-dry-gulch.jpg"],
+    ["flora-issyk-sea-buckthorn.webp", 2560, 1920, "https://commons.wikimedia.org/wiki/File:E8306-Kosh-Kol-sea-buckthorn.jpg"],
+    ["flora-issyk-karakol-spruce.webp", 3072, 2304, "https://commons.wikimedia.org/wiki/File:Karakol_Valley.jpg"],
   ];
   const images = figure.locator("img");
   if (await images.count() !== expected.length) throw new Error("Expected four separate habitat photographs");
   for (let i = 0; i < expected.length; i++) {
-    const [filename, width, height, sourceFile] = expected[i];
+    const [filename, width, height, sourceUrl] = expected[i];
     const img = images.nth(i);
     await img.evaluate(el => { el.loading = "eager"; el.scrollIntoView(); });
     await img.evaluate(el => el.decode());
@@ -25,11 +25,11 @@ try {
       src: el.getAttribute("src"), width: el.naturalWidth, height: el.naturalHeight,
       alt: el.alt, visible: !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length),
       caption: el.parentElement?.innerText || "",
-      source: !!el.parentElement?.querySelector('a[href*="' + "commons.wikimedia.org/wiki/File:" + '"]'),
+      attribution: el.parentElement?.querySelector("a")?.href || "",
     }));
     if (!state.src?.endsWith(filename) || state.width !== width || state.height !== height ||
-        !state.alt.includes("/") || !state.visible || !state.caption.includes(sourceFile) ||
-        !state.source || !state.caption.includes("CC BY")) {
+        !state.alt.includes("/") || !state.visible || state.attribution !== sourceUrl ||
+        !state.caption.includes("CC BY")) {
       throw new Error("Issyk-Kul image failed browser validation: " + JSON.stringify(state));
     }
   }
