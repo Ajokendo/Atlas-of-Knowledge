@@ -6,6 +6,7 @@ on:
       - workspace/biology
     paths:
       - ".github/workflows/biology-fauna-assets.yml"
+      - "biology/scripts/build_chuy_fauna_assets.py"
   workflow_dispatch:
 
 permissions:
