@@ -78,6 +78,8 @@ check('k = 1/(4π ε₀)', near(M.K, 1 / (4 * Math.PI * M.EPS0), 2e-3), `${(1 / 
   check('insulating sphere: V(r) = −∫∞ E dr', [0, 0.05, 0.1, 0.25].every(r => near(M.Vfrom(M.Eins, Math.max(r, 1e-6)), M.Vins(r), 1e-5)));
   check('conducting sphere: V(r) = −∫∞ E dr, flat inside', [0.02, 0.07, 0.25].every(r => near(M.Vfrom(M.Econd, r), M.Vcond(r), 1e-5)), `${f(M.Vcond(0))} V inside`);
   check('both continuous at the surface', near(M.Vins(R - 1e-12), M.Vins(R + 1e-12), 1e-9) && near(M.Vcond(R - 1e-12), M.Vcond(R + 1e-12), 1e-9));
+  check('uniform insulator: E is continuous at the surface and zero at the centre', near(M.Eins(R - 1e-12), M.Eins(R + 1e-12), 1e-9) && M.Eins(0) === 0);
+  check('conductor: E is zero in the bulk and jumps to kQ/R² outside', M.Econd(R * (1 - 1e-12)) === 0 && near(M.Econd(R * (1 + 1e-12)), M.K * M.SPH.Q / R ** 2, 1e-9));
   check('both: E = −dV/dr', [0.05, 0.2].every(r => near(-(M.Vins(r + h) - M.Vins(r - h)) / (2 * h), M.Eins(r), 1e-5) && Math.abs(-(M.Vcond(r + h) - M.Vcond(r - h)) / (2 * h) - M.Econd(r)) < 1e-3 * M.Econd(R))); }
 
 // 9 · accelerating through 6 V
