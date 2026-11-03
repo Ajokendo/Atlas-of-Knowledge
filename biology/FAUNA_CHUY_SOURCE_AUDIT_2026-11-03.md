@@ -464,3 +464,35 @@ Sources:
 - https://commons.wikimedia.org/wiki/File:Autumn_in_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan.jpg
 
 No original binary acquired; no WebP prepared; no asset accepted; no chapter anchor changed. Integrated biology visual count remains **0/52**.
+
+
+## Follow-up: Chüy bird and protected-area file-page recheck (3 November 2026)
+
+### Rufous-naped tit — file (1), page details rechecked
+- File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+- Bilingual captions explicitly identify Rufous-naped tit / рыжешейная синица and place it in Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- Author: Nikolai Bulykin; own work; capture date 25 August 2023, 14:02:31.
+- Original JPEG: 4,608 × 3,456 px, 1.39 MB; Canon PowerShot SX520 HS.
+- Categories include Periparus rufonuchalis, Animals in Ala-Archa National Park and Birds of Kyrgyzstan; license category CC BY-SA 4.0.
+- The current page rendering supports the caption/category identification, but the earlier structured-data discrepancy has not been conclusively reconciled from a complete structured-data view. Keep as a conditional candidate; do not label as approved until that check and local visual inspection are complete.
+
+### Chunkurchak sanctuary — landscape file
+- File page: https://commons.wikimedia.org/wiki/File:Chunkurchak,_Chuy_region,_Kyrgyzstan.jpg
+- Original JPEG: 4,810 × 2,988 px, 5.8 MB; author Vilya Shoni; own work; uploaded 28 May 2024; CC BY-SA 4.0.
+- Commons categorizes it under Chunkurchak sanctuary. Structured depicts and a precise capture location are missing in the retrieved page rendering. This is a potential habitat/landscape image only, not a species photograph; suitability requires visual inspection and confirmation of the exact locality.
+
+### Additional Ala-Archa landscape candidates
+- Ala Archa Nature Park facing South 2025-05-10.jpg: 5,226 × 3,325 px, 15.32 MB, author SimPilotAdamT, own work, dated 10 May 2025; camera coordinates 42.550530, 74.486275; CC BY-SA 4.0.
+- Ala Archa Nature Park facing North 2025-05-10.jpg: 4,911 × 3,409 px, 13.75 MB, same author/date; camera coordinates 42.546047, 74.487948; CC BY-SA 4.0.
+- Both pages describe views of Ala-Archa valleys and identify the protected area. They are habitat candidates, not fauna images. Their large originals may be useful for a landscape panel if the mapped anchor calls for a broad habitat view.
+
+### Search outcome and boundary
+The renewed search surfaced one better-documented bird candidate (tit file 1) and several additional habitat photographs. It did not expose the six individual filenames in the Birds of Chüy Region category, so no identities are inferred from the category count. No new source binary was downloaded into the working environment, no local visual inspection or conversion was completed, and no anchor was changed.
+
+Sources:
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+- https://commons.wikimedia.org/wiki/File:Chunkurchak,_Chuy_region,_Kyrgyzstan.jpg
+- https://commons.wikimedia.org/wiki/File:Ala_Archa_Nature_Park_facing_South_2025-05-10.jpg
+- https://commons.wikimedia.org/wiki/File:Ala_Archa_Nature_Park_facing_North_2025-05-10.jpg
+
+Accepted/integrated assets remain 0/52; locally acquired originals 0; WebP outputs 0; replaced chapter anchors 0.
