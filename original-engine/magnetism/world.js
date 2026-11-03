@@ -271,7 +271,7 @@ export function buildWorld(E) {
       const o = { a: thinGrey(gF, 'Поле через участок поверхности'), s, y: fy0 + f * (fy1 - fy0), B };
       label('mark', `<span style="font-size:${(9 + 30 * B).toFixed(0)}px">⊗</span>`, () => ex(gF) < 0.3 ? V(s.position.x, o.y, 0.02) : null);
       return o; }); }).flat();
-  label('tick', '<i>a</i>', () => V(cA.x + M.FLUX.a * D / 2 + 0.1, fy0 - 0.25, 0));
+  label('tick', '<i>r</i><sub>0</sub>', () => V(cA.x + M.FLUX.a * D / 2 + 0.1, fy0 - 0.25, 0));
   label('tick', '<i>c</i>', () => V(cA.x + (M.FLUX.a + M.FLUX.c / 2) * D + 0.1, fy0 - 0.25, 0));
   label('tick', '<i>b</i>', () => V(cA.x + (M.FLUX.a + M.FLUX.c) * D + 0.45, (fy0 + fy1) / 2, 0));
   label('vec grey', '<b>B</b>', () => V(cA.x + (M.FLUX.a + 0.5 * M.FLUX.c / nS) * D, fy1 + 0.3, 0.6));
