@@ -711,3 +711,62 @@ https://www.kyrgyzstan.birding.day/m/v2photosonly.php?l=en
 ### Status boundary
 
 These eight catalogue pages are source leads with page-level photographer/locality/date metadata. No original binary has been acquired, no visual inspection of the original file has been completed, no rights permission has been obtained, no WebP has been made, and no chapter anchor has been replaced. Accepted/integrated biology visuals remain **0/52**.
+
+
+## Follow-up: verified species records and Commons landscape originals inspected in-browser (3 November 2026)
+
+### Additional birding.day records
+
+The following Chüy records were found in individual catalogue entries:
+
+- **Blue Whistling Thrush (*Myophonus caeruleus*)** — Ala-Archa, 8 February 2020; photographer Мырзабек Озубеков; Nikon D500. The individual page confirms the species, photographer, locality and date. https://kyrgyzstan.birding.day/m/v2photo.php?l=ru&n=1&s=003600021&si=krg
+- **Daurian Partridge (*Perdix dauurica*)** — below Kun-Tuu village, Sokuluk District, 6 January 2013; photographer Нурлан Кальчинов. The page provides the same metadata. https://kyrgyzstan.birding.day/m/v2photo.php?l=ru&n=1&s=001500004&si=krg
+- **Chukar (*Alectoris chukar*)** — Boz-Boltok, Chüy Region, 8 May 2022; photographer Татьяна Меньшикова. Search-indexed catalogue page confirms the record, but direct page retrieval in this pass returned the site's JavaScript/cookie browser-check, so original image details remain unverified. https://kyrgyzstan.birding.day/m/v2photo.php?l=ru&n=1&s=000300797&si=krg&t=94
+- **Common Myna (*Acridotheres tristis*)** — Besh-Kungey, Chüy Region, 21 March 2023; photographer Pavel Isayenko. Catalogue page metadata lead. https://kyrgyzstan.birding.day/m/v2photo.php?l=en&n=1&s=002200739&si=krg&t=247
+
+Birding.day images remain author-owned catalogue material, not an open license. Permission/terms must be confirmed before reuse.
+
+### Commons landscape files — page metadata and browser visual inspection
+
+Three individual Commons originals were opened at full image resolution in the browser and visually inspected. They are distinct habitat/landscape views, not species photographs:
+
+1. **Ak Suu Gorge / Ak-Suu Complex Sanctuary**
+   - Author: Vilya Shoni; own work.
+   - Date: 18 June 2022.
+   - Caption/location: Ak-Suu Complex Sanctuary, Chüy Region, Moscow District.
+   - Original: JPEG, 3556 × 2000, 6.8 MB.
+   - License: CC BY-SA 4.0.
+   - Visual inspection: broad mountain gorge, stream in the valley, vegetated and rocky slopes; useful as a habitat/landscape contextual image.
+   - File page: https://commons.wikimedia.org/wiki/File:Ak_Suu_Gorge,_Chuy_region,_Kyrgyzstan.jpg
+   - Original URL: https://upload.wikimedia.org/wikipedia/commons/a/a0/Ak_Suu_Gorge%2C_Chuy_region%2C_Kyrgyzstan.jpg
+
+2. **Chunkurchak sanctuary landscape**
+   - Author: Vilya Shoni; own work.
+   - Date: 28 May 2024.
+   - Caption/location: Chunkurchak sanctuary, Chüy Region, Alamudun District.
+   - Original: JPEG, 4810 × 2988, 5.8 MB.
+   - License: CC BY-SA 4.0.
+   - Visual inspection: broad open highland valley with grassy slopes and ridgelines; useful for a protected-area/landscape context, but not a close vegetation identification image.
+   - File page: https://commons.wikimedia.org/wiki/File:Chunkurchak,_Chuy_region,_Kyrgyzstan.jpg
+   - Original URL: https://upload.wikimedia.org/wikipedia/commons/0/0c/Chunkurchak%2C_Chuy_region%2C_Kyrgyzstan.jpg
+
+3. **Chunkurchak canyon**
+   - Author: Vilya Shoni; own work.
+   - Date: 7 June 2020.
+   - Caption/location: Chunkurchak sanctuary, Chüy Region, Alamudun District.
+   - Original: JPEG, 1440 × 1246, 2.13 MB.
+   - License: CC BY-SA 4.0.
+   - Visual inspection: close view of red sedimentary canyon wall and small stream/erosion channel; useful only if the chapter explains local geology/erosion, not as generic flora/fauna habitat.
+   - File page: https://commons.wikimedia.org/wiki/File:Canyon,_Chunkurchak_sanctuary,_Chuy_region,_Kyrgyzstan.jpg
+   - Original URL: https://upload.wikimedia.org/wikipedia/commons/9/96/Canyon%2C_Chunkurchak_sanctuary%2C_Chuy_region%2C_Kyrgyzstan.jpg
+
+### Binary acquisition limitation — do not mark accepted
+
+The original files were displayed at full resolution by the browser and visually inspected. Separate attempts to download the Ak-Suu and Chunkurchak landscape originals into the working filesystem using their direct upload.wikimedia.org URLs failed. Therefore:
+- local original binaries acquired: still 0;
+- locally inspected original binaries: still 0 (browser-rendered original view is not a substitute for the required local binary);
+- WebP derivatives: 0;
+- production chapter integrations: 0;
+- accepted/integrated biology visuals: **0/52**.
+
+The three Commons images have verifiable CC BY-SA 4.0 file-page licensing and may remain *license-eligible candidates*, subject to local binary acquisition, checksum/metadata preservation, WebP conversion, and chapter-fit review. Do not count them as integrated.
