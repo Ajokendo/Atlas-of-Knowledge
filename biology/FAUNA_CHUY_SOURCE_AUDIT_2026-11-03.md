@@ -204,3 +204,37 @@ Sources:
 - https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(1).jpg
 
 No binary downloaded; no WebP prepared; no anchor replaced. Overall accepted/integrated visual count remains 0/52.
+
+
+## Follow-up: distinguish ElenaLitera's two separate pit-viper files (3 November 2026)
+
+A fresh Commons page check resolves an ambiguity in the earlier notes: ElenaLitera uploaded **two different** Ala-Archa pit-viper photographs, not one file with two references.
+
+### File A — `Кыргызстан, нацпарк Ала-Арча, щитомордник (1).jpg`
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(1).jpg
+- Author: ElenaLitera (Elena Zdanovich), own work.
+- Date: 25 August 2023, 11:31:46.
+- Original: 2759 × 1839 px, 761,142 bytes; Canon EOS 1100D.
+- License: CC BY-SA 4.0.
+- Commons categories: Animals in Ala Archa national park; Gloydius.
+- Page has no explicit structured `depicts` taxon statement and no English species caption. The taxon identification therefore remains provisional pending visual/expert confirmation.
+
+### File B — `Кыргызстан, нацпарк Ала-Арча, щитомордник (2).jpg`
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(2).jpg
+- Author: ElenaLitera (Elena Zdanovich), own work.
+- Date: 25 August 2023, 11:32:04.
+- Original: 4272 × 2848 px, 1,651,893 bytes; Canon EOS 1100D.
+- License: CC BY-SA 4.0.
+- Commons categories: Animals in Ala Archa national park; Gloydius.
+- As with File A, the English caption is incomplete and the structured data does not explicitly name a species. Taxon remains provisional until the actual photograph is inspected by a qualified reviewer.
+
+Both file pages establish creator, date, park association through description/category, and reuse license. Neither file's page alone is enough to certify species identification. The two images are separate assets; compare their visual content before choosing one, and avoid redundant near-duplicates.
+
+### Metadata correction
+The earlier entry already listed File A's dimensions. This follow-up adds File B as a distinct file with its own larger original dimensions and byte size. Do not conflate the two.
+
+No original binary downloaded or inspected locally; no asset accepted; no WebP prepared; no chapter insertion. Overall integration remains 0/52.
+
+Sources rechecked:
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(1).jpg
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(2).jpg
