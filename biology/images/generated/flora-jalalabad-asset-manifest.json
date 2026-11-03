@@ -1,0 +1,29 @@
+{
+  "generated_by": "biology/scripts/build_jalalabad_flora_asset.py",
+  "asset": {
+    "commons_title": "File:Walnut forest Arslanbob.jpg",
+    "output": "flora-jalalabad.webp",
+    "subject": "Arslanbob walnut-fruit forest landscape",
+    "author": "Ekrem Canli",
+    "date": "2012-07-13",
+    "location": "Arslanbob, Jalal-Abad Region, Kyrgyzstan",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Walnut_forest_Arslanbob.jpg",
+    "original_filename": "Walnut_forest_Arslanbob.jpg",
+    "original_sha1_commons": "b44ca13fcd8e9359bef518c0fbaa604797d7117d",
+    "original_sha1_downloaded": "b44ca13fcd8e9359bef518c0fbaa604797d7117d",
+    "original_bytes": 10193195,
+    "original_dimensions": [
+      3888,
+      2592
+    ],
+    "webp_file": "biology/images/generated/flora-jalalabad.webp",
+    "webp_bytes": 3111310,
+    "webp_sha256": "a2be8bc5bbef030df622a8a40af342f1ac646ec0dc17e8674cdc2e143644331e",
+    "webp_dimensions": [
+      3888,
+      2592
+    ],
+    "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+  }
+}\n
