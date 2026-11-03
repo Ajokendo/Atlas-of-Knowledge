@@ -6,7 +6,7 @@ This register mirrors the in-page illustration markers. Each marker is placed be
 
 ## Current disposition — 3 November 2026
 
-Three of 52 planned visual briefs are now produced (**5.8%**): the Chüy fauna brief (six licensed photographs), Jalal-Abad flora (one) and Issyk-Kul flora (four). The other 49 briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Four of 52 planned visual briefs are now produced (**7.7%**): Chüy fauna (six licensed photographs), Jalal-Abad flora (one), Issyk-Kul flora (four) and Naryn flora (three). The other 48 briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
 
 ## Priority key
 
@@ -79,7 +79,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 - [~] **[P3] Высотная мозаика растительности Кыргызстана / Altitudinal vegetation mosaic of Kyrgyzstan** — foothill semi-deserts, steppe, juniper and spruce woodland, subalpine and alpine meadows; belts vary by slope.
 - [x] **[P1] Ореховый лес Арсланбоба / Arslanbob walnut-fruit forest** — one documentary photograph of the walnut-forest canopy and surrounding wooded slopes; a local habitat example, not a complete regional vegetation mosaic.
 - [x] **[P1] Растительность Иссык-Кульской котловины / Vegetation of the Issyk-Kul basin** — four source-backed local photographs: Tamchy Bay wetland, dry foothills above Tamchy, shoreline sea-buckthorn (*Hippophae rhamnoides*) and Karakol Valley with Schrenk spruce (*Picea schrenkiana*); each habitat remains separately captioned.
-- [~] **[P1] Высокогорные луга и степи Нарынской области / High-altitude meadows and steppes of Naryn Region** — Son-Kul, Chatyr-Kul and inner valleys with wetland, meadow and steppe communities.
+- [x] **[P1] Высокогорные луга и степи Нарынской области / High-altitude meadows and steppes of Naryn Region** — three source-backed photographs: Chatyr-Kul shore, Son-Kul lakeshore meadow, and *Clematis songorica* documented in Ak-Tala District at 2,400 m; separate localities are captioned explicitly.
 - [~] **[P1] Лесные и горные сообщества Ошской области / Forest and mountain communities of Osh Region** — walnut-fruit forests, juniper slopes and Pamir-Alay highlands; no regionally alien plants.
 - [~] **[P1] Айгуль и дикие тюльпаны Баткена / Aygul and wild tulips of Batken** — separate, botanically accurate portraits of *Petilium eduardii* and other verified wild tulips; do not conflate species.
 - [~] **[P2] Растительность Таласского Ала-Тоо / Vegetation of Talas Ala-Too** — Besh-Tash spruce and juniper communities, river floodplain and subalpine meadows.
