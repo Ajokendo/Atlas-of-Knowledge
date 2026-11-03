@@ -88,6 +88,6 @@ All five original JPEGs were downloaded by the dedicated GitHub Actions workflow
 
 A row may change from **Deferred** to **Produced** only when the exact target file exists in `biology/images/generated/`, its source/creator and licence are recorded, the scientific/editorial review is complete, Russian and English alt text and caption are approved, the placeholder is replaced at the same anchor, and the static and browser checks pass.
 
-**Historical G6 milestone (superseded):** at the prior production milestone, five local WebP assets had been produced and integrated. The current verified total is six local WebP photographs within the single completed Chüy fauna brief.
+**Historical G6 milestone (superseded):** at the prior production milestone, five local WebP assets have been produced and integrated; this statement records the then-current milestone and is superseded by the six-image total below. The current verified total is six local WebP photographs within the single completed Chüy fauna brief.
 
 **G6 baseline disposition:** the original 52-asset plan was deferred pending selection. That baseline is now superseded for the Chüy fauna item: six local WebP photographs have been produced and integrated under one visual brief; the remaining 51 briefs retain their recorded individual statuses.
