@@ -8,7 +8,7 @@ try {
  const figure=page.locator('figure#image-brief-flora-naryn');
  if(await figure.count()!==1) throw new Error("Expected Naryn flora figure at original anchor");
  const expected=[
-  ["flora-naryn-chatyr.webp",2816,2120,"https://commons.wikimedia.org/wiki/File:Chatyr_kul_lake.JPG","Public domain"],
+  ["flora-naryn-chatyr.webp",2816,2120,"https://commons.wikimedia.org/wiki/File:Chatyr_kul_lake.JPG","общественное достояние"],
   ["flora-naryn-songkul.webp",3240,2160,"https://commons.wikimedia.org/wiki/File:Son-Kul,_Kyrgyzstan_(44623421951).jpg","CC BY 2.0"],
   ["flora-naryn-clematis.webp",1400,933,"https://commons.wikimedia.org/wiki/File:Clematis_songorica.jpg","CC0"],
  ];
