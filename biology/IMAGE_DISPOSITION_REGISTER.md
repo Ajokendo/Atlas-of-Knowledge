@@ -72,17 +72,17 @@ For every deferred item:
 | `image-brief-fauna-talas` | `../images/generated/fauna-talas.webp` | P2 | 16:9 | Deferred | No asset selected; no third-party image used. License/attribution review is not applicable until a source is selected. | Individual brief review in `IMAGE_BRIEF_REVIEW.md`; actual image QA is pending. |
 | `image-brief-fauna-chuy` | `images/generated/fauna-chuy-squirrel.webp`; `images/generated/fauna-chuy-pit-viper.webp` | P2 | native 4:3 | **Produced (2 local WebP)** | Nikolai Bulykin: red squirrel (*Sciurus vulgaris*) and Halys pit viper (*Gloydius halys*), Ala-Archa National Park, Chüy Region; both CC BY-SA 4.0. Captions include author, source-page and licence links. | Original JPEGs downloaded in GitHub Actions; Commons SHA-1 matched downloaded bytes; dimensions verified; local WebP outputs and SHA-256 recorded in `images/generated/fauna-chuy-assets-manifest.json`. `IMAGE_BRIEF_REVIEW.md`; chapter uses local assets with bilingual captions and alt text. Browser smoke test still pending. |
 
-## Source-backed Chüy fauna photos integrated by remote embedding
+## Source-backed Chüy fauna photos — local packaging completed
 
 Two individually licensed Wikimedia Commons photographs have been embedded in the Chüy fauna section of `chapters/fauna-kyrgyzstan.html` with bilingual alt text, captions, photographer credit, source-page links and CC BY-SA 4.0 licence links:
 
 1. **Red squirrel (*Sciurus vulgaris*)** — Nikolai Bulykin, Ala-Archa National Park, 25 August 2023; original JPEG 4608 × 3456; Commons page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg
 2. **Halys pit viper (*Gloydius halys*)** — Nikolai Bulykin, Ala-Archa National Park, 25 August 2023; original JPEG 3775 × 2831; Commons page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(1).jpg
 
-The original-resolution files were opened and visually inspected in the browser. Attempts to obtain the binary files in the working filesystem failed, so the chapter currently loads the Wikimedia-hosted originals directly. This is a real visible chapter integration, but it is **not** a completed local-asset production cycle: no local checksum verification, WebP conversion, or offline/local-hosting validation has occurred. Do not mark the local WebP target as produced or count these as fully packaged assets until those steps are complete.
+The original-resolution files were opened and visually inspected in the browser. A dedicated GitHub Actions workflow then downloaded both originals, matched the downloaded byte streams to the Commons SHA-1 values, checked byte sizes and dimensions, converted them to WebP, and committed the local files plus a SHA-256/source manifest. The chapter now references the local WebP assets. The earlier remote-embedding-only status is superseded. A full browser smoke test and offline-cache test remain pending.
 
 ## Acceptance rule for future activation
 
 A row may change from **Deferred** to **Produced** only when the exact target file exists in `biology/images/generated/`, its source/creator and licence are recorded, the scientific/editorial review is complete, Russian and English alt text and caption are approved, the placeholder is replaced at the same anchor, and the static and browser checks pass.
 
-**G6 disposition:** complete as an explicit, documented deferral of all 52 assets. **Visual production itself remains pending** and must not be described as complete.
+**G6 baseline disposition:** the original 52-asset plan was deferred pending selection. That baseline is now superseded for the Chüy fauna item: two local WebP assets have been produced and integrated; remaining image decisions retain their recorded individual statuses.
