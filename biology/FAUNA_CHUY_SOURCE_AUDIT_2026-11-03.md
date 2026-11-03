@@ -964,3 +964,35 @@ The parent category search result confirms that **Birds of Chüy Region (6 files
 - WebP derivatives: 0.
 - Production chapter integrations: 0.
 - Accepted/integrated biology visuals remain **0/52**.
+
+
+
+## Follow-up: second ElenaLitera pit-viper frame checked (3 November 2026)
+
+### File B — `Кыргызстан, нацпарк Ала-Арча, щитомордник (2).jpg`
+
+- Individual Commons page: https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(2).jpg
+- Author: ElenaLitera (Elena Zdanovich); own work.
+- Capture date: 25 August 2023, 11:32:04.
+- Location context: Ala-Archa National Park, Chüy Region, Kyrgyzstan (file description/category).
+- Original: JPEG, 4,272 × 2,848 pixels; 1,651,893 bytes.
+- Camera: Canon EOS 1100D.
+- License: CC BY-SA 4.0.
+- Commons SHA-1: `097b319326e75bf40169ec2f3a959434b6ee4924`.
+- Commons categories include `Animals in Ala Archa national park` and `Gloydius`; the file page does not supply a reliable species-level structured `depicts` statement. Keep the species identification provisional; use at most `Gloydius` sp. as an internal research label until author or qualified expert confirmation.
+- Search-indexed page metadata confirms this is a separate, higher-resolution frame from File A, not a duplicate page reference. Do not assume the two frames are visually distinct enough for separate atlas placement without side-by-side inspection.
+
+### Decision
+
+This adds a second individually documented ElenaLitera pit-viper candidate. It does not resolve the species-level identification and does not change the acceptance status. The original binary has not been acquired in the working environment; its Commons SHA-1 has not been independently checked locally; no WebP or chapter insertion exists.
+
+### Current counts
+
+- Individually documented ElenaLitera pit-viper files: 2.
+- Local original binaries acquired: 0.
+- Locally verified SHA-1 values: 0.
+- WebP derivatives: 0.
+- Production chapter integrations: 0.
+- Accepted/integrated biology visuals remain **0/52**.
+
+Source: https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(2).jpg
