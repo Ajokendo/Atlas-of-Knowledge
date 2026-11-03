@@ -70,6 +70,10 @@
 
 ## Completion status
 
-The map retains 52 planned visual briefs. The Chüy fauna brief is now produced with five source-backed local WebP images; the other mapped briefs remain pending or deferred in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). This is a measured production update, not a claim that the full image programme is complete.
+The map retains 52 planned visual briefs. The Chüy fauna brief is produced with five source-backed local WebP images; the other 51 briefs remain pending or deferred in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). This is a measured production update, not a claim that the full image programme is complete.
 
-An asset is considered produced only when the original source, creator and licence are verified, the local derivative exists, scientific/editorial review is complete, bilingual alt text and caption are integrated, and the focused browser check passes. The produced Chüy figure preserves the original insertion ID; all other anchors remain mapped to their planned positions. 
+All 52 in-page insertion anchors are present. The 14 regional flora/fauna anchors that had been missing were restored as bilingual planned markers, replacing references to absent image files. No substitute images were invented. The produced Chüy figure preserves its original insertion ID.
+
+An asset is considered produced only when the original source, creator and licence are verified, the local derivative exists, scientific/editorial review is complete, bilingual alt text and caption are integrated, and the focused browser check passes.
+
+**Latest validation (3 November 2026):** GitHub Actions run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41593844049 passed. Static checks: 13 HTML pages, 93 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Browser checks: 13 pages at mobile and desktop widths, 30 language-toggle interactions, no uncaught page errors, and 21,523 text instances sampled for contrast with zero below-threshold results. 
