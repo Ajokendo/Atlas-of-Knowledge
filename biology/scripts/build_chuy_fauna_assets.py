@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Download and verify the two approved Ala-Archa fauna originals, then create WebP assets."""
 from __future__ import annotations
-import hashlib, json, pathlib, urllib.parse, urllib.request
+import hashlib, json, pathlib, time, urllib.error, urllib.parse, urllib.request
 from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -53,8 +53,21 @@ FILES = [
 
 def get(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as response:
-        return response.read()
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as response:
+                return response.read()
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == 5:
+                raise
+            retry_after = exc.headers.get("Retry-After")
+            delay = int(retry_after) if retry_after and retry_after.isdigit() else min(3 * (2 ** attempt), 45)
+            time.sleep(delay)
+        except urllib.error.URLError:
+            if attempt == 5:
+                raise
+            time.sleep(min(3 * (2 ** attempt), 45))
+    raise RuntimeError("Download retry loop exhausted: " + url)
 
 manifest = {"generated_by": "biology/scripts/build_chuy_fauna_assets.py", "assets": []}
 for item in FILES:
