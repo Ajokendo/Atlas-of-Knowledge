@@ -238,19 +238,19 @@ export function buildWorld(E) {
   // drawn 0.1 nm = 1 m; the gap from the curve up to E is its kinetic energy.
   const XN = STATIONS.bond, xN0 = XN - 2.0, DS = SC.bond.r, yZ = 2.05, UY = SC.bond.U, zN = -0.35, BD = M.BOND;
   const rx = r => xN0 + r * DS, uy = U => yZ + U / M.EV * UY, yE = uy(BD.E);
-  const rLo = 0.125e-9, rHi = 0.34e-9, rClip = BD.r0 / Math.pow(1 + Math.sqrt(1 + 0.4), 1 / 6), yBot = uy(-1.18 * BD.eps);
-  part(root, box(rx(rHi) - rx(rLo) + 0.15, uy(0.45 * BD.eps) - yBot + 0.1, 0.03, 0.01), { tone: 'lo', pal: 'board', pos: [(rx(rLo) + rx(rHi)) / 2 + 0.05, (uy(0.45 * BD.eps) + yBot) / 2, zN - 0.03], name: 'График' });
+  const rLo = 0.125e-9, rHi = 0.34e-9, rClip = rLo, yBot = uy(-1.18 * BD.eps);
+  part(root, box(rx(rHi) - rx(rLo) + 0.15, uy(3.2 * BD.eps) - yBot + 0.1, 0.03, 0.01), { tone: 'lo', pal: 'board', pos: [(rx(rLo) + rx(rHi)) / 2 + 0.05, (uy(3.2 * BD.eps) + yBot) / 2, zN - 0.03], name: 'График' });
   part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(160, r => V(rx(r), uy(M.bondU(r)), zN + 0.01), rClip, rHi)), 320, 0.014, 8, false), { tone: 'hi', pal: 'ink', name: 'Кривая U(r)' });
   { const t = [rx(rLo), yBot, zN, rx(rHi), yBot, zN, rx(rLo), yBot, zN, rx(rLo), uy(0.45 * BD.eps), zN];
     for (const r of [0.15, 0.2, 0.25, 0.3]) t.push(rx(r * 1e-9), yBot, zN, rx(r * 1e-9), yBot - 0.06, zN);
-    for (const U of [0, -1]) t.push(rx(rLo), uy(U * BD.eps), zN, rx(rLo) - 0.06, uy(U * BD.eps), zN);
+    for (const U of [3, 0, -1]) t.push(rx(rLo), uy(U * BD.eps), zN, rx(rLo) - 0.06, uy(U * BD.eps), zN);
     t.push(rx(BD.r1), yE, zN + 0.01, rx(BD.r2), yE, zN + 0.01);
     lines(root, t, '#6e6e74');
     for (const r of [0.15, 0.2, 0.25, 0.3]) label('tick', small(r.toFixed(2), 13), () => V(rx(r * 1e-9) + 0.13, yBot - 0.13, zN));
     label('tick', small('r (нм)', 13), () => V(rx(rHi) + 0.05, yBot - 0.13, zN));
-    for (const U of [0, -1]) label('tick', small(`${U} эВ`, 13), () => V(rx(rLo) - 0.08, uy(U * BD.eps), zN)); }
+    for (const U of [3, 0, -1]) label('tick', small(`${U} эВ`, 13), () => V(rx(rLo) - 0.08, uy(U * BD.eps), zN)); }
   dashLine(V(rx(rLo), yZ, zN), V(rx(rHi), yZ, zN), 26);
-  label('board', small('<i>U</i>(<i>r</i>)', 18), () => V(rx(rLo) + 0.08, uy(0.45 * BD.eps), zN));
+  label('board', small('<i>U</i>(<i>r</i>)', 18), () => V(rx(rLo) + 0.08, uy(2.65 * BD.eps), zN));
   label('board', '<i>E</i>', () => V(rx(rHi) + 0.08, yE, zN));
   // E line beyond the turning points is dashed: the atom can't go there (K would be negative)
   dashLine(V(rx(BD.r2), yE, zN + 0.01), V(rx(rHi), yE, zN + 0.01), 12);
