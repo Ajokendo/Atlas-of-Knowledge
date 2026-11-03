@@ -403,3 +403,31 @@ Sources:
 - https://commons.wikimedia.org/wiki/File:Ала-Арча_4.jpg
 
 All newly surfaced files remain research candidates. No original binary acquired, no WebP prepared, no image approved, and no chapter anchor changed. Integrated biology visual count remains **0/52**.
+
+## Follow-up: individual review of waterfall and spruce habitat photographs (3 November 2026)
+
+### Ala-Archa waterfall — `Ала-Арча, водопад.jpg`
+- File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_водопад.jpg
+- Bilingual caption explicitly places the waterfall in Chüy Region, Kyrgyzstan; page identifies Ala-Archa National Park.
+- Author: Nikolai Bulykin; own work.
+- Capture date: 25 August 2023, 14:38:16.
+- Original: JPEG, 3,456 × 4,608 px, 2,020,621 bytes; sRGB; Canon PowerShot SX520 HS.
+- Structured data consistently identifies a waterfall and Ala-Archa National Park; license is CC BY-SA 4.0.
+- Strong habitat/waterfall candidate. It is portrait orientation; confirm that the relevant map anchor accepts a vertical image. Original binary has not been downloaded or inspected locally.
+
+### Schrenk spruce — `Кыргызстан, нацпарк Ала-Арча, ель.jpg`
+- File page: https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_ель.jpg
+- Author: ElenaLitera; own work; capture date 25 August 2023, 13:18:36.
+- Original: JPEG, 2,825 × 1,883 px, 1,054,871 bytes; sRGB; Canon EOS 1100D.
+- Russian caption identifies Ala-Archa National Park, Chüy Region; English caption is missing. Categories include Ala-Archa National Park and Picea schrenkiana; structured `depicts` explicitly names the park but not the spruce taxon.
+- License: CC BY-SA 4.0.
+- Candidate for a conifer/forest habitat panel, but add an English caption and independently verify that the visible tree is correctly identified before scientific use. No local binary acquired.
+
+### Decision
+These two file pages are individually verified for creator, date, technical metadata and license. The waterfall has stronger explicit locality and subject metadata; the spruce file has a species category but lacks a structured taxon statement and English caption. Both remain candidates, not approved assets, because original binaries have not been acquired and visually inspected in the working environment.
+
+Sources:
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_водопад.jpg
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_ель.jpg
+
+No binary acquired; no WebP prepared; no image accepted; no anchor changed. Integrated biology visual count remains **0/52**.
