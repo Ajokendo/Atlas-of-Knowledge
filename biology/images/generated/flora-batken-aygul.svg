@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Айгуль — Fritillaria eduardii / Aygul — Eduard's fritillary</title>
+<desc id="d">Ботаническая учебная пластина с одним растением Fritillaria eduardii: прямостоячий стебель, ланцетные листья и поникающие колокольчатые оранжево-красные цветки с листовидными прицветниками. Рядом увеличенная схема цветка. Не изображает точную численность или современное состояние популяции / Educational botanical plate of Fritillaria eduardii with an upright stem, lance-shaped leaves and nodding orange-red bell-shaped flowers with leafy bracts, plus an enlarged flower diagram. It does not depict population size or current population status.</desc>
+<rect width="1200" height="675" fill="#f5f1e6"/>
+<path d="M0 535Q250 510 450 545T850 530T1200 540V675H0Z" fill="#e4e1d0"/>
+<text x="48" y="56" font-family="Georgia,serif" font-size="34" fill="#354b3e">Айгуль · Fritillaria eduardii</text>
+<text x="50" y="88" font-family="Arial,sans-serif" font-size="17" fill="#68776a">Ботаническая пластина / Botanical study</text>
+<!-- main stem -->
+<path d="M380 535Q374 420 386 300Q393 210 385 145" fill="none" stroke="#55764b" stroke-width="12" stroke-linecap="round"/>
+<!-- leaves, lanceolate -->
+<g fill="#6e925c" stroke="#456d48" stroke-width="2">
+<path d="M382 455Q280 390 190 410Q264 468 382 455Z"/><path d="M384 420Q470 335 548 342Q492 412 384 420Z"/>
+<path d="M385 365Q285 295 225 314Q290 375 385 365Z"/><path d="M388 325Q482 255 535 264Q485 325 388 325Z"/>
+<path d="M388 280Q320 220 278 233Q324 285 388 280Z"/>
+<path d="M385 490Q315 470 260 500Q329 520 385 490Z"/>
+</g>
+<g stroke="#a8bd88" stroke-width="2" fill="none"><path d="M380 453L205 414M385 418L535 347M385 362L235 318M390 322L526 268M386 278L285 237"/></g>
+<!-- flower stalk branches -->
+<g fill="none" stroke="#55764b" stroke-width="6" stroke-linecap="round">
+<path d="M386 185Q330 165 300 125"/><path d="M386 177Q430 145 463 111"/><path d="M386 190Q390 145 390 108"/>
+</g>
+<!-- bracts -->
+<g fill="#6d925c" stroke="#496d48" stroke-width="2">
+<path d="M300 126Q263 75 268 42Q309 74 300 126Z"/><path d="M300 126Q330 76 355 65Q348 111 300 126Z"/>
+<path d="M463 112Q445 58 462 30Q488 76 463 112Z"/><path d="M463 112Q500 69 527 69Q508 109 463 112Z"/>
+<path d="M390 109Q365 57 385 25Q407 66 390 109Z"/><path d="M390 109Q422 63 448 60Q429 102 390 109Z"/>
+</g>
+<!-- nodding bell flowers, tepals -->
+<g stroke="#8e3f35" stroke-width="3" fill="#c96c45">
+ <path d="M285 124Q266 141 275 175Q285 207 315 210Q344 206 350 176Q357 144 337 126Q313 112 285 124Z"/>
+ <path d="M448 110Q429 128 438 160Q447 192 477 196Q507 191 513 160Q519 130 500 112Q474 99 448 110Z"/>
+ <path d="M375 108Q355 126 364 159Q373 192 403 195Q433 190 439 159Q445 128 426 109Q400 96 375 108Z"/>
+</g>
+<g fill="none" stroke="#e6a47a" stroke-width="2"><path d="M296 128Q282 166 308 199M318 120Q338 161 321 202M459 114Q445 153 470 186M483 108Q504 149 484 188M386 112Q371 151 397 185M411 106Q430 149 410 188"/></g>
+<!-- labels left -->
+<g font-family="Arial,sans-serif" fill="#3f5143" font-size="18">
+ <text x="54" y="190">Поникающие</text><text x="54" y="214">колокольчатые цветки</text>
+ <path d="M230 204L270 174" stroke="#758879" stroke-width="2" fill="none"/>
+ <text x="54" y="330">Ланцетные листья</text><path d="M210 324L270 340" stroke="#758879" stroke-width="2" fill="none"/>
+ <text x="54" y="500">Прямостоячий стебель</text><path d="M248 492L372 450" stroke="#758879" stroke-width="2" fill="none"/>
+</g>
+<!-- right detail panel -->
+<rect x="690" y="125" width="455" height="405" rx="18" fill="#fffdf7" stroke="#d8d6c8" stroke-width="2"/>
+<text x="720" y="165" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#354b3e">Деталь цветка / Flower detail</text>
+<g transform="translate(910 330)">
+ <path d="M-70 -85Q-100 -25 -62 70Q0 130 62 70Q100 -25 70 -85Q0 -125 -70 -85Z" fill="#c96c45" stroke="#8e3f35" stroke-width="4"/>
+ <path d="M-47 -83Q-68 -18 -38 61M-16 -97Q-28 -15 -14 85M16 -97Q28 -15 14 85M47 -83Q68 -18 38 61" stroke="#e9aa7e" stroke-width="3" fill="none"/>
+ <path d="M0 -95V88" stroke="#f1d1a4" stroke-width="3"/>
+ <path d="M0 -90Q-7 -25 -3 10" stroke="#6b8a50" stroke-width="4" fill="none"/>
+ <g fill="#e5c66d" stroke="#8b7041" stroke-width="2"><ellipse cx="-35" cy="8" rx="7" ry="27" transform="rotate(-18 -35 8)"/><ellipse cx="35" cy="8" rx="7" ry="27" transform="rotate(18 35 8)"/></g>
+</g>
+<g font-family="Arial,sans-serif" font-size="16" fill="#48594b">
+ <text x="720" y="470">Условная ботаническая схема;</text>
+ <text x="720" y="494">не в масштабе / Schematic, not to scale</text>
+</g>
+<text x="48" y="585" font-family="Arial,sans-serif" font-size="17" fill="#4d5e50">Принятое имя / Accepted name: Fritillaria eduardii</text>
+<text x="48" y="614" font-family="Arial,sans-serif" font-size="15" fill="#68776a">Синоним / Synonym: Petilium eduardii</text>
+<text x="48" y="646" font-family="Arial,sans-serif" font-size="14" fill="#7a8176">Айгуль-Таш, Баткенская область · Aygul-Tash, Batken Region</text>
+</svg>
