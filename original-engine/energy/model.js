@@ -219,7 +219,7 @@ export function bead(t) {
 // A light atom (1 u) bound to a much heavier one, which stays put. Lennard-Jones model:
 // U(r) = ε[(r0/r)¹² − 2(r0/r)⁶], minimum −ε at r0. Classical motion, real SI units.
 export const EV = 1.602e-19, AMU = 1.661e-27;
-export const BOND = { eps: 1.0 * EV, r0: 0.15e-9, m: 1.0 * AMU, Efrac: -0.6, show: 2.4 };   // show: seconds per vibration on screen
+export const BOND = { eps: 1.0 * EV, r0: 0.15e-9, m: 1.0 * AMU, Efrac: -0.6, show: 2.4 };   // clock seconds per vibration before the shared SLOW factor
 BOND.E = BOND.Efrac * BOND.eps;
 export const bondU = r => { const a6 = (BOND.r0 / r) ** 6; return BOND.eps * (a6 * a6 - 2 * a6); };
 export const bondF = r => { const a = BOND.r0 / r, a6 = a ** 6; return 12 * BOND.eps / BOND.r0 * (a6 * a6 * a - a6 * a); };
