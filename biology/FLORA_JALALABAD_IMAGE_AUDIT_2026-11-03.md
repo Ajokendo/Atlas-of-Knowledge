@@ -28,7 +28,7 @@ The Commons page identifies the author, own-work status, capture date, source di
 - Preserved native 3:2 aspect ratio rather than cropping the source into the former 16:9 placeholder.
 - Updated `IMAGE_INSERTION_MAP.md`, `IMAGE_DISPOSITION_REGISTER.md`, `IMAGE_GENERATION_PLAN.md` and `IMAGE_SCIENTIFIC_REVIEW.md`.
 - Source acquisition, SHA-1 validation, WebP conversion and standalone Chromium image decode passed in workflow https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41598920898.
-- A second focused Chromium run checks the figure in the actual bilingual chapter, including decode, dimensions, visibility and attribution link; see the workflow triggered by this audit update.
+- A second focused Chromium run passed against the actual bilingual chapter, including decode, native dimensions, visibility, bilingual alt text, caption and attribution link: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41599165657.
 
 ## Progress accounting
 
