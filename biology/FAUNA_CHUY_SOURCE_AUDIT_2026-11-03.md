@@ -770,3 +770,60 @@ The original files were displayed at full resolution by the browser and visually
 - accepted/integrated biology visuals: **0/52**.
 
 The three Commons images have verifiable CC BY-SA 4.0 file-page licensing and may remain *license-eligible candidates*, subject to local binary acquisition, checksum/metadata preservation, WebP conversion, and chapter-fit review. Do not count them as integrated.
+
+
+## Follow-up: Commons Chüy bird category and attribution-only landscape candidate (3 November 2026)
+
+### Commons category scope
+
+The parent category page confirms a dedicated **Birds of Chüy Region** subcategory containing 6 files. The category's file list could not be opened directly in the current retrieval layer, so the six filenames and their individual licenses have not yet been enumerated. Do not infer them from the national category. Parent category: https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+
+### Re-check of the Ala-Archa Rufous-naped tit metadata conflict
+
+The individual file page for **File:Ала-Арча, рыжешейная синица (1).jpg** was opened and its full metadata inspected:
+
+- English and Russian captions: Rufous-naped tit (*Periparus rufonuchalis*).
+- Location caption: Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- Date: 25 August 2023.
+- Author: Nikolai Bulykin; own work.
+- Original: JPEG, 4608 × 3456, 1.39 MB.
+- License: CC BY-SA 4.0.
+- Structured data depicts item: **Cyanistes flavipectus**.
+- The page's category list includes **Periparus rufonuchalis**.
+- Original file link is present on the file page.
+
+This is a confirmed internal metadata inconsistency on the same Commons file page: caption/category indicate *Periparus rufonuchalis*, while structured depicts says *Cyanistes flavipectus*. Keep the species identification blocked pending independent ornithological verification or correction by the uploader. The image's license is clear, but species correctness is not. It must not be used as a species-confirmed image until resolved.
+
+File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,рыжешейная_синица_(1).jpg
+
+### New landscape candidate: roadside view towards Ala-Archa
+
+- File: **32 kg chui vers alaarcha.jpg**
+- Commons file page: https://commons.wikimedia.org/wiki/File:32_kg_chui_vers_alaarcha.jpg
+- Original: JPEG, 1735 × 1185, 352 KB.
+- Uploader/credit shown in file history: Ptilou; uploaded 11 June 2005.
+- Location description: roadside in the Chüy valley outside Bishkek, looking towards Ala-Archa in the Kyrgyz Alatau.
+- Rights statement on file page: copyright holder allows any use, including redistribution and derivatives, provided the copyright holder is attributed (attribution-only permission).
+- Direct original: https://upload.wikimedia.org/wikipedia/commons/9/90/32_kg_chui_vers_alaarcha.jpg
+- The original was opened in the browser and visually inspected: rural road receding towards the Ala-Too/Kyrgyz Alatau mountain range, with cultivated fields and trees in the foreground. It is a contextual landscape image, not a biodiversity/species image.
+- The page has no proper structured author/source infobox and is tagged for source/attribution review. Preserve the exact uploader credit and original rights wording; if the atlas requires stronger provenance, seek clarification from the uploader before use.
+
+The original image rendered successfully in the browser, but no local binary has been acquired. It therefore remains a candidate, not an accepted/integrated visual.
+
+### Acquisition route finding
+
+The Commons MediaWiki imageinfo API supports retrieval of original file URL, dimensions, SHA-1, MIME type, and extended metadata such as artist, credit, and license. This is a more reliable metadata route than scraping page layout, but it does not itself download the binary. Wikimedia documents prop=imageinfo, iiprop=url|size|sha1|mime|extmetadata; the actual binary still must be fetched and verified separately.
+
+References:
+- https://www.mediawiki.org/wiki/API:Imageinfo
+- https://commons.wikimedia.org/wiki/Commons:Machine-readable_data
+
+### Status
+
+- Chüy bird subcategory: 6 files confirmed as a category count; individual files not yet enumerated.
+- Rufous-naped tit image: CC BY-SA 4.0 confirmed; taxonomic metadata conflict remains unresolved.
+- Roadside Ala-Archa landscape: attribution-only permission stated; original visually inspected in browser, local binary not acquired.
+- Local original binaries acquired: 0.
+- WebP derivatives: 0.
+- Production chapter integrations: 0.
+- Accepted/integrated biology visuals remain **0/52**.
