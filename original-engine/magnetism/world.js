@@ -354,7 +354,7 @@ export function buildWorld(E) {
   label('tick', '∮ <b>B</b>·d<b>s</b> = <i>BL</i>', () => ex(gN) > 0.3 ? toW(cN, D)([0, M.SOL_RECT.Y, 0]).add(V(0.6, 0.25, 0)) : null);
 
   const cT = V(STATIONS.toroid, 1.3, 0), R0 = M.TOR.R0 * D, aT = M.TOR.a * D;
-  const gT = asm('toroid', root, { title: 'Тороид', sub: 'B = μ₀NI/2πr только внутри' });
+  const gT = asm('toroid', root, { title: 'Тороид', sub: 'для идеального тороида: B ≈ μ₀NI/2πr в сердечнике' });
   const torMat = fadeMat('paper');
   const coreMat = shadeMat('base', { opacity: 0.35 });
   const core = part(gT, new THREE.TorusGeometry(R0, aT * 0.9, 24, 96).rotateX(Math.PI / 2), { tone: 'faint', name: 'Сердечник', mat: coreMat, pos: cT.toArray() }); core.userData.noEdge = true;
