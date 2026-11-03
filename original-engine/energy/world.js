@@ -155,7 +155,7 @@ export function buildWorld(E) {
   { const ax = XE - 0.65, t = [ax, 0, 0, ax, M.DROP.h + 0.2, 0];
     for (let i = 0; i <= 30; i++) { const l = i % 10 === 0 ? 0.14 : i % 5 === 0 ? 0.09 : 0.05; t.push(ax, i * 0.1, 0, ax + l, i * 0.1, 0); }
     lines(root, t, '#6e6e74');
-    for (const q of [0, 1, 2, 3]) label('tick', `${q} m`, () => V(ax - 0.06, q, 0)); }
+    for (const q of [0, 1, 2, 3]) label('tick', `${q} м`, () => V(ax - 0.06, q, 0)); }
   dashLine(V(XE - 0.65, 0.006, 0.4), V(XE + 2.1, 0.006, 0.4), 24);
   label('board', small('<i>U</i><sub>g</sub> = 0', 16), () => V(XE + 2.15, 0.006, 0.4));
   const ref2 = new THREE.Group(); root.add(ref2);
@@ -190,7 +190,7 @@ export function buildWorld(E) {
     for (let i = 1; i <= 3; i++) t.push(xP0 + i, GB, zP, xP0 + i, GB - 0.06, zP);
     for (const F of [10, 20]) t.push(xP0, GB + F * FP, zP, xP0 - 0.06, GB + F * FP, zP);
     lines(root, t, '#6e6e74');
-    for (const i of [0, 1, 2, 3]) label('tick', small(i ? `${i} m` : '0', 13), () => V(xP0 + i + 0.06, GB - 0.12, zP));
+    for (const i of [0, 1, 2, 3]) label('tick', small(i ? `${i} м` : '0', 13), () => V(xP0 + i + 0.06, GB - 0.12, zP));
     for (const F of [10, 20]) label('tick', small(`${F} N`, 13), () => V(xP0 - 0.08, GB + F * FP, zP)); }
   label('board', small('<i>F</i>(<i>x</i>)', 18), () => V(xP0 + 0.08, GB + 1.08, zP));
   part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(80, x => V(xP0 + x, GB + M.pushF(x) * FP, zP + 0.01), 0, Lp)), 160, 0.014, 8, false), { tone: 'hi', pal: 'ink', name: 'Кривая F(x)' });
