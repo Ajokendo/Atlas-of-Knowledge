@@ -278,7 +278,7 @@ export function buildWorld(E) {
   { const p = []; const half = Math.sqrt(2 * 1.05 * BD.eps / BD.k), n = 40; for (let i = 0; i < n; i++) { const r = BD.r0 - half + 2 * half * i / n, r2 = BD.r0 - half + 2 * half * (i + 0.5) / n; p.push(rx(r), uy(-BD.eps + 0.5 * BD.k * (r - BD.r0) ** 2), zN + 0.02, rx(r2), uy(-BD.eps + 0.5 * BD.k * (r2 - BD.r0) ** 2), zN + 0.02); }
     lines(parabN, p, '#3d63a8');
     const q = []; for (let i = 0; i < 10; i++) q.push(rx(BD.r0), uy(-BD.eps) - i * 0.06, zN + 0.02, rx(BD.r0), uy(-BD.eps) - (i + 0.5) * 0.06, zN + 0.02); lines(parabN, q, '#2c2c30'); }
-  label('board', small('stable: <i>F</i> = 0 at <i>r</i><sub>0</sub>', 15), () => parabN.visible ? V(rx(BD.r0) + 0.35, uy(-0.95 * BD.eps), zN) : null);
+  label('board', small('устойчивое равновесие: <i>F</i> = 0 при <i>r</i><sub>0</sub>', 15), () => parabN.visible ? V(rx(BD.r0) + 0.35, uy(-0.95 * BD.eps), zN) : null);
   label('vec blue', small('½<i>k</i>(<i>r</i> − <i>r</i><sub>0</sub>)²', 15), () => parabN.visible ? V(rx(BD.r0) + 0.3, uy(0.12 * BD.eps), zN) : null);
   let bondState = M.bond(0);
 
@@ -320,7 +320,7 @@ export function buildWorld(E) {
   label('tick', small(`медленно · ${M.LIFT.vSlow.toFixed(1)} м/с`, 13), () => V(xs[1] + 0.5, -0.02, 0.5));
   { const t = []; const ax = XI - 1.6; t.push(ax, 0, 0, ax, M.LIFT.h + SI + 0.1, 0); for (let i = 0; i <= 4; i++) t.push(ax, 0.02 + i * 0.5, 0, ax + (i % 2 ? 0.06 : 0.12), 0.02 + i * 0.5, 0); lines(root, t, '#6e6e74');
     dashLine(V(XI - 1.6, M.LIFT.h + 0.02, 0), V(XI + 1.5, M.LIFT.h + 0.02, 0), 24); }
-  label('tick', '2.0 m', () => V(XI - 1.65, M.LIFT.h + 0.02, 0)); label('tick', '0', () => V(XI - 1.65, 0.02, 0));
+  label('tick', '2,0 м', () => V(XI - 1.65, M.LIFT.h + 0.02, 0)); label('tick', '0', () => V(XI - 1.65, 0.02, 0));
 
   // ---------- per-frame ----------
   function update(s) {
