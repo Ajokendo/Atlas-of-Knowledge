@@ -167,7 +167,7 @@ export function buildWorld(E) {
   part(gP, box(PL + 0.2, PT, 0.7, 0.02), { tone: 'hi', pos: [XP, PY, 0], name: 'Доска' });
   const CR = 0.5, crate = part(gP, box(CR, CR, CR, 0.03), { tone: 'hi', name: 'Ящик' });
   const pFA = force(gP), pFB = force(gP), pWp = force(gP), pWc = force(gP);
-  const pRx = comp(gP, 'Lever arms'), pRm = comp(gP, 'Lever arms'), pRL = comp(gP, 'Lever arms');
+  const pRx = comp(gP, 'Плечи сил'), pRm = comp(gP, 'Плечи сил'), pRL = comp(gP, 'Плечи сил');
   const pPiv = part(gP, new THREE.TorusGeometry(0.1, 0.018, 8, 32), { tone: 'hi', pal: 'ink', pos: [A0, PY, 0.42], name: 'Точка опоры' });
   const pTq = [curve(gP, 'ink', { R: 0.22, tube: 0.012, head: 0.08, headR: 0.035, name: 'Моменты сил' }), curve(gP, 'ink', { R: 0.22, tube: 0.012, head: 0.08, headR: 0.035, name: 'Моменты сил' }), curve(gP, 'ink', { R: 0.22, tube: 0.012, head: 0.08, headR: 0.035, name: 'Моменты сил' })];
   label('vec', 'F<sub>A</sub>', () => tip(pFA)); label('vec', 'F<sub>B</sub>', () => tip(pFB)); label('vec', 'Mg', () => tip(pWp)); label('vec', 'mg', () => tip(pWc));
@@ -183,7 +183,7 @@ export function buildWorld(E) {
   for (let s = 0.3; s < LL - 0.1; s += 0.3) part(lad, zAxis(cyl(0.018, 0.44, 10)), { tone: 'mid', pos: [s, 0.035, 0], name: 'Лестница' });
   const lW = force(gL), lN = force(gL), lF = force(gL), lFw = force(gL);
   const lAng = curve(gL, 'dark', { R: 0.45, tube: 0.01, noHead: true, name: 'Угол', tone: 'mid' });
-  const lArmW = rod(gL, 0.014, 'ink', 'Lever arms', 'hi', true), lArmG = rod(gL, 0.014, 'ink', 'Lever arms', 'hi', true), lAct = dyn(gL);
+  const lArmW = rod(gL, 0.014, 'ink', 'Плечи сил', 'hi', true), lArmG = rod(gL, 0.014, 'ink', 'Плечи сил', 'hi', true), lAct = dyn(gL);
   const lPiv = part(gL, new THREE.TorusGeometry(0.1, 0.018, 8, 32), { tone: 'hi', pal: 'ink', name: 'Точка опоры' });
   label('vec', 'mg', () => tip(lW)); label('vec', 'F<sub>N</sub>', () => tip(lN)); label('vec', 'f<sub>s</sub>', () => tip(lF)); label('vec', 'F<sub>w</sub>', () => tip(lFw));
   label('tick', 'O', () => lPiv.position.clone().add(V(-0.12, 0.05, 0.3)));
@@ -348,7 +348,7 @@ export function buildWorld(E) {
   part(ball, new THREE.SphereGeometry(BR, 32, 22), { tone: 'hi', pal: 'dark', name: 'Шар' });
   part(ball, new THREE.TorusGeometry(BR + 0.002, 0.007, 8, 48).rotateY(Math.PI / 2), { tone: 'hi', pal: 'ink', name: 'Шар' });
   [[0, 0.02], [0.35, -0.03], [0.35, 0.07]].forEach(([a, z]) => part(ball, new THREE.SphereGeometry(0.017, 10, 8), { tone: 'hi', pal: 'ink', pos: [BR * Math.sin(a) * 0.93, BR * Math.cos(a) * 0.93, z], name: 'Отверстия для пальцев' }));
-  const bV = force(gB), bF = force(gB, true), bOm = curve(gB, 'ink', { R: 0.2 }), bSlip = comp(gB, 'Slip velocity'), bTop = comp(gB, 'Rω');
+  const bV = force(gB), bF = force(gB, true), bOm = curve(gB, 'ink', { R: 0.2 }), bSlip = comp(gB, 'Скорость скольжения'), bTop = comp(gB, 'Rω');
   const bDot = part(gB, new THREE.SphereGeometry(0.018, 10, 8), { tone: 'hi', pal: 'red', name: 'Точка контакта' });
   label('vec', 'v', () => tip(bV)); label('vec red', 'f<sub>k</sub>', () => tip(bF)); label('vec', 'ω', () => curveEnd(bOm, 0.08));
   label('vec grey', 'v − Rω', () => tip(bSlip)); label('vec grey', 'Rω', () => tip(bTop));
@@ -371,7 +371,7 @@ export function buildWorld(E) {
   mgrs.forEach((m, i) => {
     label('vec', 'F', () => tip(m.F));
     label('vec', 'ω', () => curveEnd(m.w));
-    label('tick', `${m.p.key}: ${m.p.F} N for ${m.p.dt} s`, () => V(MX[i], MY, -IR - 0.35));
+    label('tick', `${m.p.key}: ${m.p.F} Н в течение ${m.p.dt} с`, () => V(MX[i], MY, -IR - 0.35));
     label('tick', '', () => V(MX[i], MY - 0.25, IR + 0.45), () => `L = ${M.imp(m.p, mNow).L.toFixed(0)} кг·м²/с`);
     label('vec grey', 'r', () => m.r.visible ? V(MX[i] + 0.15, MY + 0.2, IR / 2) : null);
   });
@@ -393,7 +393,7 @@ export function buildWorld(E) {
   label('vec', 'r<sub>⊥</sub> = d', () => O.clone().add(V(H.d * 0.45, 0.14, -0.12)));
   label('tick', 'O', () => O.clone().add(V(-0.12, 0.05, 0.12))); label('vec', 'ω', () => curveEnd(qW));
   label('tick', '', () => qBall.position.clone().add(V(0.7, 0.2, 0)), () => `L = ${M.hit(qNow).Lb.toFixed(2)} кг·м²/с`);
-  label('vec', 'L<sub>ball</sub>', () => tip(qLb)); label('vec', 'L<sub>rod</sub>', () => tip(qLr)); label('vec blue', 'L', () => tip(qL));
+  label('vec', 'L<sub>шара</sub>', () => tip(qLb)); label('vec', 'L<sub>стержня</sub>', () => tip(qLr)); label('vec blue', 'L', () => tip(qL));
   let qNow = 0;
 
   // ================= per frame =================
