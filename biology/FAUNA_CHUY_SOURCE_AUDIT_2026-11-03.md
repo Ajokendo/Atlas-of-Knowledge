@@ -996,3 +996,23 @@ This adds a second individually documented ElenaLitera pit-viper candidate. It d
 - Accepted/integrated biology visuals remain **0/52**.
 
 Source: https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(2).jpg
+
+
+## Follow-up: two Chüy fauna photographs embedded in the chapter (3 November 2026)
+
+The user directed that the already-shortlisted images be completed and integrated before expanding the search. Two individually verified Commons files were therefore selected for the Chüy fauna section and embedded directly from Wikimedia's original-file host in `biology/chapters/fauna-kyrgyzstan.html`:
+
+1. **Red squirrel — *Sciurus vulgaris***, Nikolai Bulykin, Ala-Archa National Park, 25 August 2023; 4608 × 3456 JPEG; CC BY-SA 4.0. File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg
+2. **Halys pit viper — *Gloydius halys***, Nikolai Bulykin, Ala-Archa National Park, 25 August 2023; 3775 × 2831 JPEG; CC BY-SA 4.0. File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(1).jpg
+
+Both original-resolution images were opened and visually inspected in the browser. The chapter now contains two responsive figure panels with Russian and English captions/alt text, photographer credit, Commons source links and CC BY-SA 4.0 licence links. The figure caption explicitly says these are individual Ala-Archa records, not a complete regional fauna panorama.
+
+**Important packaging limitation:** attempts to download both original binaries into the working filesystem failed. The live chapter therefore embeds Wikimedia-hosted originals rather than local WebP assets. No local SHA-1 verification, WebP conversion, or offline/local-hosting test was completed. This is a visible source-level chapter integration, but the local production asset is still pending and must not be represented as fully packaged.
+
+### Verified change set
+- Chapter: `biology/chapters/fauna-kyrgyzstan.html` — two source images embedded with attribution.
+- Disposition register: `biology/IMAGE_DISPOSITION_REGISTER.md` — Chüy row changed to “Remote-source integration (2 photos)” with local packaging explicitly pending.
+- Insertion map: `biology/IMAGE_INSERTION_MAP.md` — Chüy target updated to reflect the two-photo remote figure.
+- Fully packaged local WebP assets: 0.
+- Remote-source figures visibly integrated in the Chüy chapter: 2.
+- No additional Commons candidates were added in this pass; priority is to finish local packaging of these two before widening the search.
