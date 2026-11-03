@@ -72,3 +72,33 @@ The record lists six MP4 files and CC BY 4.0. The actual video binaries have not
 ## Save boundary
 
 This checkpoint records research leads only. It does **not** approve any asset, alter the 52 insertion anchors, change the image disposition register, or claim that image production is complete.
+
+
+## Follow-up: individual Commons file-page verification (3 November 2026)
+
+Two animal files now have individually checked Commons pages, not merely category membership:
+
+### Red squirrel — `Ала-Арча, белка.jpg`
+- File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg
+- Author: Nikolai Bulykin; own work.
+- Description: red squirrel, Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- Capture date: 25 August 2023.
+- Original: JPEG, 4608 × 3456, 1.79 MB.
+- EXIF color space: sRGB.
+- License: CC BY-SA 4.0.
+- Original image was opened and visually inspected in the browser.
+- Attempt to download the binary into the working environment failed. It is therefore **not** a locally obtained or integrated asset.
+
+### Halys pit viper — `Ала-Арча, обыкновенный щитомордник (2).jpg`
+- File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(2).jpg
+- Author: Nikolai Bulykin; own work.
+- Description: `Gloydius halys` on a trail, Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- Capture date: 25 August 2023.
+- Original: JPEG, 4608 × 3456, 1.61 MB.
+- EXIF color space: sRGB.
+- License: CC BY-SA 4.0.
+- File page and technical metadata checked; the image must still be downloaded and reviewed in the working environment before production use.
+
+### Decision
+
+These are strong, individually licensed and geographically attributed candidates for the Chüy fauna research. They are **not yet approved production assets** because no binary original has been successfully downloaded into the working environment, no WebP has been prepared, and no bilingual figure metadata or chapter insertion has been completed. Keep the relevant mapped image briefs Deferred and preserve the 0/52 integration count.
