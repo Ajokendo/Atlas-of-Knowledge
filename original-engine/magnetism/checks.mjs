@@ -29,6 +29,8 @@ check('right-hand rule: current +x, point at +y → B along +z', M.segB([-1, 0, 
 // ---------- 2 · F = qv × B ----------
 { const F = M.rhrForce(M.QE, 90);
   check('F = qvB sin θ at 90°', near(M.len(F), M.RHR.Fmax), `${e(M.RHR.Fmax, 2)} N`);
+{ const displayForce = d => { const s = Math.sin(d * Math.PI / 180); return Math.abs(s) < 1e-12 ? 0 : M.RHR.Fmax * s; };
+  check('Lorentz-force readout: parallel and antiparallel endpoints display exact zero', displayForce(0) === 0 && displayForce(180) === 0 && near(displayForce(90), M.RHR.Fmax)); }
 { const T = M.RHR.T, angles = [0, 0.25, 0.5, 0.75, 1].map(u => M.rhrAngle(u * T));
   let avg = 0; const n = 20000; for (let i = 0; i < n; i++) avg += Math.sin(M.rhrAngle((i + 0.5) * T / n) * Math.PI / 180); avg *= T / n;
   check('RHR animation: uniform angular speed on each half-cycle', angles.every((a, i) => near(a, [0, 90, 180, 90, 0][i], 1e-12)));
