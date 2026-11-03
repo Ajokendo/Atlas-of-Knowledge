@@ -171,7 +171,7 @@ export function buildWorld(E) {
   const g5 = asm('pendulum', root, { title: 'Маятник', sub: 'сила тяжести вдоль дуги возвращает его назад' });
   const p5 = pend(g5, PIV, M.PEND.L, 0.11);
   swingGhosts(PIV, M.PEND.L, M.PEND.th0, 0.11);
-  const pf = (pal = 'ink') => arrow(g5, pal, { r: 0.016, head: 0.08, headR: 0.042, name: pal === 'red' ? 'Restoring force' : 'Силы' });
+  const pf = (pal = 'ink') => arrow(g5, pal, { r: 0.016, head: 0.08, headR: 0.042, name: pal === 'red' ? 'Возвращающая сила' : 'Силы' });
   const t5 = pf(), w5 = pf(), r5 = pf('red');
   const sin5 = arrow(g5, 'dark', { r: 0.012, head: 0.07, headR: 0.034, name: 'Составляющие', tone: 'mid' }), cos5 = arrow(g5, 'dark', { r: 0.012, head: 0.07, headR: 0.034, name: 'Составляющие', tone: 'mid' });
   label('vec', '<i>T</i>', () => t5.visible ? t5.localToWorld(V(-0.12, t5.userData.arrow.shaft.scale.y * 0.6, 0)) : null); label('vec', '<i>mg</i>', () => tip(w5)); label('vec red', '−<i>mg</i> sin θ', () => tip(r5, 0.3));
