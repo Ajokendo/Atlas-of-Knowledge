@@ -98,7 +98,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 - [~] **[P1] Фауна Памиро-Алая и юга Кыргызстана / Fauna of the Pamir-Alay and southern Kyrgyzstan** — forest, juniper and mountain habitats; include only regionally documented taxa.
 - [~] **[P1] Фауна сухих склонов Баткенской области / Fauna of Batken's dry slopes** — Surmatash and Sarkent dry foothills with verified marmots, reptiles and mountain birds; no invented endemics.
 - [~] **[P2] Животные Таласского Ала-Тоо / Wildlife of Talas Ala-Too** — Besh-Tash spruce-juniper slopes, river valley and alpine cliffs with documented regional mammals and birds.
-- [x] **[P2] Фауна Чуйской области / Fauna of Chuy Region** — five source-backed local photographs are integrated: two individual fauna records and three habitat views from Ala-Archa, Ak-Suu and Chon-Kemin; browser smoke test passed.
+- [x] **[P2] Фауна Чуйской области / Fauna of Chuy Region** — six source-backed local photographs are integrated: two individual fauna records and four habitat views from Ala-Archa, Ak-Suu, Chon-Kemin and Chunkurchak; focused browser smoke test passed.
 
 ## Production rules
 1. Generate the planned image only after checking the chapter's scientific text and cited sources.
