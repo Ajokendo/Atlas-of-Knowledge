@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Naryn highland fauna in separate habitats</title>
+<desc id="desc">Educational schematic with three distinct habitats: Naryn river forest and maral, high rocky mountains and snow leopard, and Son-Kul wetland with waterbirds. Not a map or census.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dcebf0"/><stop offset="1" stop-color="#f5f0df"/></linearGradient>
+ <linearGradient id="lake" x2="0" y2="1"><stop stop-color="#8fc5ce"/><stop offset="1" stop-color="#367f91"/></linearGradient>
+ <style>
+ .h{font:700 25px sans-serif;fill:#183744}.s{font:16px sans-serif;fill:#294d59}.small{font:14px sans-serif;fill:#294d59}
+ .panel{stroke:#b8c9c7;stroke-width:2}.ridge{fill:#829c9a}.snow{fill:#f7f7ed}.tree{fill:#426d59}.deer{fill:#9a6946}.dark{fill:#34434a}.bird{fill:#34434a}
+ </style>
+</defs>
+<rect width="1200" height="675" fill="#f5f3e9"/>
+<text x="48" y="48" class="h">NARYN HIGHLANDS · THREE DISTINCT HABITATS</text>
+<text x="48" y="76" class="s">Educational habitat illustration · not a distribution map or population count</text>
+<!-- panels -->
+<g transform="translate(35 105)">
+ <rect width="355" height="505" rx="18" fill="url(#sky)" class="panel"/>
+ <path d="M0 260 L90 130 160 230 230 115 355 255 V505 H0Z" class="ridge"/>
+ <path d="M90 130 L116 168 90 159 70 182Z M230 115 L258 163 230 150 208 171Z" class="snow"/>
+ <path d="M0 305 Q100 270 180 320 T355 300 V505 H0Z" fill="#8da98a"/>
+ <path d="M0 370 Q120 330 220 390 T355 370 V505 H0Z" fill="#6f9a9a"/>
+ <g class="tree"><path d="M35 350l28-70 28 70h-18v35H53v-35zM285 350l25-65 25 65h-16v35h-18v-35z"/></g>
+ <g class="deer"><ellipse cx="175" cy="350" rx="38" ry="18"/><path d="M198 342l14-31 10 3-8 33zM210 314l-5-22 5-2 6 20m-6-14l-12-12m12 12l12-12" fill="none" stroke="#9a6946" stroke-width="5" stroke-linecap="round"/><path d="M150 364v35m35-35v35" stroke="#76513c" stroke-width="7"/></g>
+ <text x="22" y="445" class="h">NARYN RIVER VALLEY</text><text x="22" y="472" class="s">Forest and river landscapes</text><text x="22" y="495" class="small">Maral habitat · Cervus sp.</text>
+</g>
+<g transform="translate(422 105)">
+ <rect width="355" height="505" rx="18" fill="url(#sky)" class="panel"/>
+ <path d="M0 300 L65 190 120 240 210 80 275 200 355 125 V505 H0Z" class="ridge"/>
+ <path d="M210 80l-25 57 27-10 22 24 9-28 32 22-65-65zM355 125l-30 48 30-8z" class="snow"/>
+ <path d="M0 340 Q100 310 180 350 T355 330 V505 H0Z" fill="#879b81"/>
+ <path d="M80 350l80-40 55 25 75-30" fill="none" stroke="#596d63" stroke-width="13"/>
+ <g class="dark"><path d="M155 322q25-18 53-4l17 13-16 13-25-5-20 8-20-7z"/><circle cx="217" cy="323" r="9"/><path d="M168 340l-8 24m39-23 5 25" stroke="#34434a" stroke-width="6" fill="none"/><path d="M154 327l-20 12" stroke="#34434a" stroke-width="5" fill="none"/></g>
+ <text x="22" y="445" class="h">HIGH ROCKY MOUNTAINS</text><text x="22" y="472" class="s">Remote alpine slopes</text><text x="22" y="495" class="small">Snow leopard habitat · Panthera uncia</text>
+</g>
+<g transform="translate(809 105)">
+ <rect width="355" height="505" rx="18" fill="url(#sky)" class="panel"/>
+ <path d="M0 260 L85 160 155 225 240 145 355 250 V505 H0Z" fill="#a4b3a0"/>
+ <path d="M0 300 Q90 280 175 300 T355 290 V505 H0Z" fill="url(#lake)"/>
+ <path d="M0 380 Q100 355 180 385 T355 370" fill="none" stroke="#d5e8df" stroke-width="5"/>
+ <g class="bird"><path d="M72 275q18-20 36 0q18-20 36 0" fill="none" stroke="#34434a" stroke-width="5" stroke-linecap="round"/><path d="M210 265q15-17 30 0q15-17 30 0" fill="none" stroke="#34434a" stroke-width="5" stroke-linecap="round"/></g>
+ <path d="M20 315l10-34 10 34m15 2 10-40 10 40" stroke="#658a67" stroke-width="5" fill="none"/>
+ <text x="22" y="445" class="h">SON-KUL WETLAND</text><text x="22" y="472" class="s">Shallows and open water</text><text x="22" y="495" class="small">Seasonal waterbirds · habitat group</text>
+</g>
+<text x="48" y="650" class="small">The panels are separate ecological settings; animals are not shown as co-occurring at one site.</text>
+</svg>
