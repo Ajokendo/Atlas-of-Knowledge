@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Беш-Таш: местообитания и фауна / Besh-Tash: habitats and fauna</title>
+<desc id="desc">Три отдельные сцены: высокогорные скалы со снежным барсом и сибирским горным козлом; елово-арчовый склон с маралом; река Беш-Таш с условным силуэтом рыбы. Это учебная реконструкция местообитаний, а не единая фотография или карта распространения / Three separate scenes: alpine cliffs with snow leopard and Siberian ibex; spruce-juniper slope with maral deer; Besh-Tash River with a generic fish silhouette. An educational habitat reconstruction, not one photograph or a distribution map.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dce9e7"/><stop offset="1" stop-color="#f4f0df"/></linearGradient>
+ <linearGradient id="mount" x2="0" y2="1"><stop stop-color="#879b91"/><stop offset="1" stop-color="#526d62"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#8eb8b2"/><stop offset="1" stop-color="#477c7c"/></linearGradient>
+ <g id="spruce" fill="#365b4a"><path d="M0 0L-25 47H-12L-34 83H34L12 47H25Z"/><rect x="-4" y="80" width="8" height="18" fill="#795f49"/></g>
+</defs>
+<rect width="1200" height="675" fill="#f4f2e9"/>
+<g transform="translate(24 24)">
+ <rect width="368" height="560" rx="12" fill="url(#sky)" stroke="#d1d7cc"/>
+ <path d="M0 365L85 210 148 285 230 115 368 335V560H0Z" fill="url(#mount)"/>
+ <path d="M185 200L230 115 275 203 246 189 230 205 213 184Z" fill="#f8f8f1"/>
+ <path d="M0 390Q100 340 190 380T368 365V560H0Z" fill="#7e9271"/>
+ <!-- ibex -->
+ <g transform="translate(245 353)" fill="#7d6247" stroke="#453d32" stroke-width="4" stroke-linecap="round">
+  <ellipse cx="0" cy="0" rx="37" ry="17"/><path d="M25 -9L47 -27 59 -22 45 -3Z"/><path d="M47 -27Q58 -62 43 -72M50 -28Q73 -53 68 -69" fill="none" stroke="#453d32" stroke-width="5"/><path d="M-23 12L-28 52M-4 14L-3 52M20 11L26 49" fill="none"/>
+ </g>
+ <!-- snow leopard simplified -->
+ <g transform="translate(93 390)" fill="#d4d0c2" stroke="#4e554e" stroke-width="4" stroke-linecap="round">
+  <ellipse cx="0" cy="0" rx="42" ry="18"/><circle cx="37" cy="-11" r="13"/><path d="M-35 1Q-70 -10 -70 18Q-60 35 -44 24" fill="none" stroke-width="9"/><path d="M-22 13L-29 43M8 14L13 44M28 8L33 39" fill="none"/>
+  <g fill="#59615a" stroke="none"><circle cx="-18" cy="-4" r="4"/><circle cx="0" cy="6" r="4"/><circle cx="16" cy="-5" r="4"/><circle cx="40" cy="-15" r="2"/></g>
+ </g>
+ <text x="18" y="36" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#233a32">01 · ROCKY ALPINE HABITAT</text>
+ <text x="18" y="62" font-family="Arial,sans-serif" font-size="15" fill="#314c42">Скалы · снежный барс · горный козёл</text>
+ <text x="18" y="83" font-family="Arial,sans-serif" font-size="14" fill="#314c42">Cliffs · snow leopard · Siberian ibex</text>
+ <text x="18" y="530" font-family="Arial,sans-serif" font-size="13" fill="#fff">Отдельная высокогорная сцена / Separate alpine scene</text>
+</g>
+<g transform="translate(416 24)">
+ <rect width="368" height="560" rx="12" fill="url(#sky)" stroke="#d1d7cc"/>
+ <path d="M0 360L90 245 160 300 245 170 368 330V560H0Z" fill="#879b85"/>
+ <path d="M0 390Q160 345 368 385V560H0Z" fill="#78906b"/>
+ <use href="#spruce" x="48" y="308"/><use href="#spruce" x="105" y="284"/><use href="#spruce" x="300" y="300"/><use href="#spruce" x="342" y="322"/>
+ <g transform="translate(193 392)" fill="#8c6848" stroke="#514232" stroke-width="4" stroke-linecap="round">
+  <ellipse cx="0" cy="0" rx="47" ry="22"/><path d="M30 -12L48 -39 60 -37 54 -9Z"/><circle cx="58" cy="-42" r="12"/><path d="M56 -51Q47 -83 27 -80M61 -52Q78 -80 91 -69M-27 16L-32 62M-4 19L-4 63M25 16L31 60" fill="none"/>
+ </g>
+ <text x="18" y="36" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#233a32">02 · SPRUCE–JUNIPER SLOPES</text>
+ <text x="18" y="62" font-family="Arial,sans-serif" font-size="15" fill="#314c42">Ель и арча · марал</text>
+ <text x="18" y="83" font-family="Arial,sans-serif" font-size="14" fill="#314c42">Spruce and juniper · maral deer</text>
+ <text x="18" y="530" font-family="Arial,sans-serif" font-size="13" fill="#fff">Лесная сцена; маралы учитывались в парке</text>
+ <text x="18" y="550" font-family="Arial,sans-serif" font-size="12" fill="#fff">Forest scene; maral were recorded in the park</text>
+</g>
+<g transform="translate(808 24)">
+ <rect width="368" height="560" rx="12" fill="url(#sky)" stroke="#d1d7cc"/>
+ <path d="M0 350L85 220 160 280 245 145 368 330V560H0Z" fill="#82988b"/>
+ <path d="M0 380Q120 350 190 390T368 375V560H0Z" fill="#79916f"/>
+ <path d="M0 435Q120 395 205 438T368 425V560H0Z" fill="url(#water)"/>
+ <path d="M0 460Q110 430 210 460T368 452" fill="none" stroke="#d4e5d9" stroke-width="5" opacity=".8"/>
+ <g transform="translate(184 484)" fill="#e5d9b5" stroke="#355b5c" stroke-width="3"><path d="M-55 0Q-20 -27 24 -4L54 -23 48 2 54 25 20 8Q-20 29 -55 0Z"/><circle cx="29" cy="-4" r="3" fill="#233c3d" stroke="none"/></g>
+ <text x="18" y="36" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#233a32">03 · RIVER CORRIDOR</text>
+ <text x="18" y="62" font-family="Arial,sans-serif" font-size="15" fill="#314c42">Река Беш-Таш · водная среда</text>
+ <text x="18" y="83" font-family="Arial,sans-serif" font-size="14" fill="#314c42">Besh-Tash River · aquatic habitat</text>
+ <text x="18" y="530" font-family="Arial,sans-serif" font-size="13" fill="#fff">Рыба показана условно, без видовой подписи</text>
+ <text x="18" y="550" font-family="Arial,sans-serif" font-size="12" fill="#fff">Generic fish silhouette; no species label</text>
+</g>
+<text x="600" y="626" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#53675b">Учебная реконструкция местообитаний · Educational habitat reconstruction</text>
+<text x="600" y="650" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#7b8278">Разные экологические сцены; не карта ареалов и не утверждение о совместном присутствии видов</text>
+</svg>
