@@ -431,3 +431,36 @@ Sources:
 - https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_ель.jpg
 
 No binary acquired; no WebP prepared; no image accepted; no anchor changed. Integrated biology visual count remains **0/52**.
+
+## Follow-up: renewed Chüy fauna and flora source search (3 November 2026)
+
+### Red squirrel — full file-page recheck
+- File: https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg
+- Author: Nikolai Bulykin; own work; capture date 25 August 2023, 13:53:12.
+- Original JPEG: 4,608 × 3,456 px; 1.79 MB. Camera: Canon PowerShot SX520 HS.
+- Russian description identifies the red squirrel and explicitly places it in Ala-Archa National Park, Chüy Region, Kyrgyzstan. The English caption field itself is blank, although the description includes an English sentence.
+- Categories include Sciurus vulgaris, Rodentia of Kyrgyzstan and Animals in Ala-Archa National Park. Structured data identifies the protected area and creator; the taxon is supported by the page description/category, not by an explicit depicts statement in the retrieved view.
+- License: CC BY-SA 4.0. This remains a strong candidate, but bilingual figure metadata should be authored independently and the actual binary still needs local visual inspection.
+
+### New flora candidate — many-leaved saltwort
+- File: https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_марь_многолистная.jpg
+- Author: ElenaLitera; own work; capture date 25 August 2023, 13:43:29.
+- File page identifies Ala-Archa National Park, Chüy Region, Kyrgyzstan; Russian caption names marь mnogolistnaya (many-leaved saltwort).
+- License: CC BY-SA 4.0. The retrieved search excerpt does not expose original dimensions or a structured taxon statement; do not infer either. Confirm the currently accepted scientific name and inspect the original before using as a species illustration.
+- Candidate for a local flora/steppe-vegetation panel, not fauna.
+
+### Habitat candidate — autumn landscape
+- File: https://commons.wikimedia.org/wiki/File:Autumn_in_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan.jpg
+- Author: Vilya Shoni; own work; inception 6 September 2015; uploaded 28 May 2024.
+- Original: 1,920 × 1,280 px, 1.57 MB; CC BY-SA 4.0; camera viewpoint coordinates are recorded on the page.
+- Habitat/landscape only. The page marks the structured depicts field as missing; use only if visual inspection supports the intended ecological context.
+
+### Scope decision
+The search adds one mammal candidate and two habitat/flora leads with file-page level source/license evidence. It does not add a confirmed new bird image. Search snippets and page metadata are not substitutes for downloading and inspecting the original files. All candidates remain unapproved pending binary acquisition, visual check, anchor fit, and bilingual attribution/caption preparation.
+
+Sources:
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_марь_многолистная.jpg
+- https://commons.wikimedia.org/wiki/File:Autumn_in_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan.jpg
+
+No original binary acquired; no WebP prepared; no asset accepted; no chapter anchor changed. Integrated biology visual count remains **0/52**.
