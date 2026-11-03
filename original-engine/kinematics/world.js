@@ -125,7 +125,12 @@ export function buildWorld(E) {
     const cursor = part(g, new THREE.SphereGeometry(0.075, 24, 16), { tone: 'hi', pal: 'ink', name: 'Текущее положение' });
     // slope (tangent) and area, shown when the board is opened
     const tangent = part(g, box(1.8, 0.03, 0.02, 0.01), { tone: 'hi', pal: 'red', name: 'Наклон' });
-    const area = new THREE.Mesh(new THREE.BufferGeometry(), new THREE.MeshBasicMaterial({ color: '#e5484d', transparent: true, opacity: 0.18, side: THREE.DoubleSide, depthWrite: false }));
+    const areaGeometry = new THREE.BufferGeometry();
+    const areaPosition = new THREE.BufferAttribute(new Float32Array(60 * 6 * 3), 3);
+    areaPosition.setUsage(THREE.DynamicDrawUsage);
+    areaGeometry.setAttribute('position', areaPosition);
+    areaGeometry.setDrawRange(0, 0);
+    const area = new THREE.Mesh(areaGeometry, new THREE.MeshBasicMaterial({ color: '#e5484d', transparent: true, opacity: 0.18, side: THREE.DoubleSide, depthWrite: false }));
     area.userData = { noEdge: true }; g.add(area);
     return { ...b, g, curve, cursor, tangent, area, zf, zeroY };
   });
@@ -183,13 +188,17 @@ export function buildWorld(E) {
       // area between the curve and zero, from 0 to t
       b.area.visible = open > 0.02 && b.key !== 'boardX';
       if (b.area.visible) {
-        const pos = [], n = 60;
+        const position = b.area.geometry.attributes.position;
+        const pos = position.array, n = 60;
         for (let i = 0; i < n; i++) {
           const ta = i / n * t, tb = (i + 1) / n * t;
-          const xa = tToX(b, ta), xb = tToX(b, tb), ya = plotY[b.key](fn[b.key](ta)), yb = plotY[b.key](fn[b.key](tb)), z0 = b.zeroY;
-          pos.push(xa, z0, b.zf + 0.005, xb, z0, b.zf + 0.005, xb, yb, b.zf + 0.005, xa, z0, b.zf + 0.005, xb, yb, b.zf + 0.005, xa, ya, b.zf + 0.005);
+          const xa = tToX(b, ta), xb = tToX(b, tb), ya = plotY[b.key](fn[b.key](ta)), yb = plotY[b.key](fn[b.key](tb)), z0 = b.zeroY, z = b.zf + 0.005;
+          const k = i * 18;
+          pos.set([xa, z0, z, xb, z0, z, xb, yb, z, xa, z0, z, xb, yb, z, xa, ya, z], k);
         }
-        b.area.geometry.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+        position.needsUpdate = true;
+        b.area.geometry.setDrawRange(0, n * 6);
+        b.area.geometry.computeBoundingSphere();
         b.area.material.opacity = 0.2 * open;
       }
     }
