@@ -827,3 +827,78 @@ References:
 - WebP derivatives: 0.
 - Production chapter integrations: 0.
 - Accepted/integrated biology visuals remain **0/52**.
+
+
+## Follow-up: additional Commons candidates around Ala-Archa and Chunkurchak (3 November 2026)
+
+### Bird-category enumeration status
+
+The national parent category still reports **Birds of Chüy Region (6 files)**, but the direct category page and the Commons API endpoint were inaccessible through the current retrieval route. A local direct API request also failed because the working container could not resolve the Wikimedia host. Thus, no filenames are asserted for the six category members in this update. The category count remains a confirmed lead only.
+- Parent category: https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+- MediaWiki categorymembers documentation: https://www.mediawiki.org/wiki/API:Categorymembers/en
+
+### Second Rufous-naped tit file: metadata verified
+
+**File:Ала-Арча, рыжешейная синица (2).jpg**
+- Captions (EN/RU): Rufous-naped tit / рыжешейная синица, Ala-Archa National Park, Chüy Region.
+- Author: Nikolai Bulykin; own work.
+- Capture date: 25 August 2023, 14:04:34.
+- Original: JPEG, 3366 × 2525, 745 KB.
+- License: CC BY-SA 4.0.
+- Structured depicts item: **Cyanistes flavipectus**.
+- Categories include *Periparus rufonuchalis* and Birds of Kyrgyzstan.
+- Commons page also records camera: Canon PowerShot SX520 HS and provides SHA-1 fcb3da2e110cf3d9aad4336372ce6123396cb4e.
+
+This independently confirms the same caption-vs-depicts conflict as the first image in the series. Both images must remain blocked as species-confirmed visuals until an ornithologist/uploader resolves the discrepancy. The image license is clear; the species label is not.
+- File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+
+### New Commons landscape candidates (not fauna images)
+
+1. **Ala-Archa Nature Park facing North 2025-05-10.jpg**
+   - Author: SimPilotAdamT; own work.
+   - Date: 10 May 2025.
+   - Location: Ala-Archa National Park, Chüy Region; camera coordinates 42.546047, 74.487948.
+   - Original: JPEG, 4911 × 3409, 13.75 MB.
+   - Page describes a valley viewed from an elevated ledge and a mostly dry Ala-Archa riverbed.
+   - https://commons.wikimedia.org/wiki/File:Ala_Archa_Nature_Park_facing_North_2025-05-10.jpg
+
+2. **Ala-Archa National park.jpg**
+   - Author: UlanDuishenov; own work.
+   - Date: 25 May 2025.
+   - Caption identifies Ala-Archa National Park, Chüy Region.
+   - License: CC BY-SA 4.0.
+   - https://commons.wikimedia.org/wiki/File:Ala-Archa_National_park.jpg
+
+3. **Ala-Archa National park 2025.jpg**
+   - Author: UlanDuishenov; own work.
+   - Date: 25 May 2025.
+   - Caption identifies Ala-Archa National Park, Chüy Region.
+   - License: CC BY-SA 4.0.
+   - https://commons.wikimedia.org/wiki/File:Ala-Archa_National_park_2025.jpg
+
+4. **Panorama view, Chunkurchak, Kyrgyzstan.jpg**
+   - Author: Vilya Shoni; own work.
+   - Date: 3 May 2024.
+   - Caption identifies Chunkurchak Botanical Reserve, Chüy Region, Alamüdün District.
+   - License: CC BY-SA 4.0.
+   - https://commons.wikimedia.org/wiki/File:Panorama_view,_Chunkurchak,_Kyrgyzstan.jpg
+
+5. **Mountains in Ala Archa National Park.jpg**
+   - Author: Adamboluu; own work.
+   - Date: 17 May 2024.
+   - Caption identifies Ala-Archa National Park, Chüy Region.
+   - Original: JPEG, 4000 × 2666, 11.39 MB.
+   - License panel is present; preserve exact file-page terms at final acquisition.
+   - https://commons.wikimedia.org/wiki/File:Mountains_in_Ala_Archa_National_Park.jpg
+
+These are contextual landscape options only. Do not count multiple near-duplicate views as separate accepted assets; compare composition and chapter relevance after local originals are acquired. They do not replace species-specific fauna photographs.
+
+### Status
+
+- Category Birds of Chüy Region: 6 files in parent-category count; individual filenames still not enumerated.
+- Two Ala-Archa tit files: CC BY-SA 4.0, but both have a confirmed species metadata conflict.
+- Additional landscape candidates: identified with author/location/date and some license metadata; local originals not acquired.
+- Local original binaries acquired: 0.
+- WebP derivatives: 0.
+- Production chapter integrations: 0.
+- Accepted/integrated biology visuals remain **0/52**.
