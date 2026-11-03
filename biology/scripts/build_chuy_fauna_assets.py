@@ -68,6 +68,9 @@ FILES = [
         "location": "Chong-Kuurchak Botanical Reserve, Alamudun District, Chüy Region, Kyrgyzstan",
         "license": "CC BY-SA 4.0",
         "page": "https://commons.wikimedia.org/wiki/File:Canyon,_Chunkurchak_sanctuary,_Chuy_region,_Kyrgyzstan.jpg",
+        "direct_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Canyon%2C_Chunkurchak_sanctuary%2C_Chuy_region%2C_Kyrgyzstan.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+        "expected_sha1": "6d9598b92245e601b0da4c01045283e9ae2c8c15",
+        "expected_bytes": 2228692,
     },
 ]
 
@@ -89,15 +92,29 @@ def get(url: str) -> bytes:
             time.sleep(min(3 * (2 ** attempt), 45))
     raise RuntimeError("Download retry loop exhausted: " + url)
 
+manifest_path = OUT / "fauna-chuy-assets-manifest.json"
+previous = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {"assets": []}
+previous_by_output = {entry["output"]: entry for entry in previous.get("assets", [])}
 manifest = {"generated_by": "biology/scripts/build_chuy_fauna_assets.py", "assets": []}
 for item in FILES:
-    query = urllib.parse.urlencode({
+    target = OUT / item["output"]
+    cached = previous_by_output.get(item["output"])
+    if target.exists() and cached:
+        current_sha256 = hashlib.sha256(target.read_bytes()).hexdigest()
+        if current_sha256 == cached.get("webp_sha256"):
+            manifest["assets"].append(cached)
+            print(f"Reusing previously verified asset: {item['output']}")
+            continue
+    if item.get("direct_url"):
+        info = {"url": item["direct_url"], "sha1": item["expected_sha1"], "size": item["expected_bytes"], "mime": "image/jpeg"}
+    else:
+        query = urllib.parse.urlencode({
         "action": "query", "format": "json", "titles": item["commons_title"],
         "prop": "imageinfo", "iiprop": "url|sha1|size|mime"
     })
-    payload = json.loads(get("https://commons.wikimedia.org/w/api.php?" + query))
-    page = next(iter(payload["query"]["pages"].values()))
-    info = page["imageinfo"][0]
+        payload = json.loads(get("https://commons.wikimedia.org/w/api.php?" + query))
+        page = next(iter(payload["query"]["pages"].values()))
+        info = page["imageinfo"][0]
     if info["mime"] != "image/jpeg":
         raise RuntimeError(f"Unexpected source MIME for {item['commons_title']}: {info['mime']}")
     original = get(info["url"])
