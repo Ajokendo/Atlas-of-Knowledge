@@ -2,7 +2,7 @@
 
 **Review date:** 1 November 2026  
 **Scope:** all 52 planned image anchors in `IMAGE_INSERTION_MAP.md`.  
-**Status:** brief-level review complete; the Chüy fauna brief now has five source-backed local photographs produced and browser-checked. Other briefs still require asset-level review.
+**Status:** brief-level review complete; the Chüy fauna brief now has six source-backed local photographs produced and browser-checked. Other briefs still require asset-level review.
 
 The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and conservation constraints in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md). The remaining 39 P2/P3 briefs are reviewed individually below. This review assesses the *brief*, not a rendered image. Actual image morphology, captions, bilingual alt text, source/licence and integration must be checked before any asset is activated.
 
@@ -61,7 +61,7 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 | `image-brief-fauna-osh` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-batken` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-talas` | P2 | Use the Talas / Besh-Tash habitat context; separate river valley, forested slopes and high rocky terrain. Do not add unverified local endemics or unsupported species labels. |
-| `image-brief-fauna-chuy` | P2 | Five source-backed local photographs: red squirrel (*Sciurus vulgaris*) and Halys pit viper (*Gloydius halys*) from Ala-Archa (Nikolai Bulykin), plus Ak-Suu Gorge, an Ala-Archa mountain-forest view and a Chong-Kemin stream-valley view (Vilya Shoni). All are geographically grounded in Chüy Region and licensed CC BY-SA 4.0. Captions must distinguish individual fauna records from habitat views; none implies a complete fauna survey or species-distribution map. |
+| `image-brief-fauna-chuy` | P2 | Six source-backed local photographs: red squirrel (*Sciurus vulgaris*) and Halys pit viper (*Gloydius halys*) from Ala-Archa (Nikolai Bulykin), plus Ak-Suu Gorge, an Ala-Archa mountain-forest view, a Chong-Kemin stream-valley view and the red-sandstone canyon at Chong-Kuurchak Botanical Reserve (Vilya Shoni). All are geographically grounded in Chüy Region and licensed CC BY-SA 4.0. Captions distinguish individual fauna records from habitat views; none implies a complete fauna survey or species-distribution map. |
 
 ## Cross-cutting production rules
 
@@ -74,4 +74,4 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 
 ## Relationship to the image disposition register
 
-The Chüy fauna brief is **Produced** with five licensed local WebP photographs in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The other mapped briefs retain their recorded pending/deferred statuses. This brief-level review does not certify unreviewed images; every additional asset still requires its own scientific, source/licence and integration checks.
+The Chüy fauna brief is **Produced** with six licensed local WebP photographs in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The other mapped briefs retain their recorded pending/deferred statuses. This brief-level review does not certify unreviewed images; every additional asset still requires its own scientific, source/licence and integration checks.
