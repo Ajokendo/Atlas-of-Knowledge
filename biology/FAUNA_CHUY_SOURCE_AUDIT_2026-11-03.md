@@ -604,3 +604,35 @@ Prioritize the birding.day catalogue for species with exact Chüy locality recor
 The three Chon-Kemin landscape files and the Hooded Crow page are individually documented source candidates, not accepted production assets. No binary original has been downloaded into the working environment, no local visual review or WebP conversion has been performed, and no chapter anchor has been replaced.
 
 Accepted/integrated assets remain **0/52**; local originals **0**; WebP outputs **0**; replaced anchors **0**.
+
+
+## Follow-up: further Chüy birding-day occurrence leads (3 November 2026)
+
+The birding.day About page's rare-record panel surfaces two more geographically useful leads:
+
+### Taiga Flycatcher — Chong Kemin
+- Species: Taiga Flycatcher (*Ficedula albicilla*).
+- Photographer credit: Neil and Lucy Rogers.
+- Date: 25 May 2023.
+- Locality: Chong Kemin.
+- The site describes this as the first confirmed record of the species in Kyrgyzstan.
+- Individual photo page: https://www.kyrgyzstan.birding.day/v2photo.php?l=en&n=3&s=005400044&si=krg
+- The photo page was reached, but the current retrieval layer returned a JavaScript/cookie browser-check page rather than the image or full metadata. No image content, resolution, or license can be asserted from this attempt.
+
+### Slender-billed Gull — Ozernoe, Chüy Region
+- Species: Slender-billed Gull (*Larus genei*).
+- Photographer credit: Tatiana Menshikova.
+- Date: 11 March 2019.
+- Locality: Ozernoe, Chüy Region.
+- The site notes this as a potentially first national record, with the qualification attributed to cited avifauna/checklist authorities.
+- The birding.day About page lists the record and photographer, but an individual image page and its technical details were not retrieved in this pass.
+- Treat as a high-value occurrence/photo lead, not as a verified reusable image.
+
+The site's own copyright guidance applies: author-owned material; for non-commercial use a link to the site or author resource is generally sufficient according to its guidance, but this is not a blanket open license. Confirm with the named photographer before downloading/rehosting and preserve explicit attribution.
+
+Source:
+https://www.kyrgyzstan.birding.day/v2about.php?l=en
+
+### Decision
+
+These leads strengthen the Chüy shortlist for locally documented bird imagery, especially Chong Kemin and Ozernoe. They do not meet the file-page/license/original-inspection requirements. Keep them in the research queue only; do not change the 0/52 counter.
