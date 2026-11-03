@@ -83,14 +83,14 @@ export function buildWorld(E) {
     for (const y of vals) for (const z of vals) pts.push(XF - 2.6, Y + y, z, XF + 3.0, Y + y, z);
     lines(root, pts, '#a9bfeb');
   }
-  const fE = [0, 1, 2].map(() => fieldArrow(gF, 'Field'));
+  const fE = [0, 1, 2].map(() => fieldArrow(gF, 'Поле'));
   label('vec blue', '<b>E</b>', () => tip(fE[2]));
   const plateF = new THREE.Group(); plateF.position.copy(cF); gF.add(plateF);
   part(plateF, box(0.03, 2, 2, 0.01), { tone: 'hi', name: 'Поверхность', mat: shadeMat('paper', { opacity: 0.6 }) });
   const fA = inkArrow(gF, 'Вектор площади');
   label('vec', '<b>A</b>', () => tip(fA));
   const pierce = Array.from({ length: 16 }, () => part(gF, new THREE.SphereGeometry(0.05, 12, 8), { tone: 'faint', pal: 'blue', name: 'Линии поля, проходящие через поверхность' }));
-  const fPerp = greyArrow(gF, 'Составляющие E'), fPar = greyArrow(gF, 'Составляющие E'), fEc = fieldArrow(gF, 'Field');
+  const fPerp = greyArrow(gF, 'Составляющие E'), fPar = greyArrow(gF, 'Составляющие E'), fEc = fieldArrow(gF, 'Поле');
   label('vec', 'E cos θ', () => ex(gF) > 0.3 && Math.abs(Math.cos(plateF.rotation.y)) > 0.25 ? tip(fPerp) : null);
   label('vec', 'E sin θ', () => ex(gF) > 0.3 && Math.sin(plateF.rotation.y) > 0.25 ? tip(fPar) : null);
   const shadow = loop(root, [V(0, -1, -1), V(0, 1, -1), V(0, 1, 1), V(0, -1, 1)]);
@@ -111,7 +111,7 @@ export function buildWorld(E) {
   const eG = dirsG.map(() => fieldArrow(gG));
   const dAG = dirsG.map(() => inkArrow(gG, 'Элементы площади dA'));
   const tileG = dirsG.map(() => part(gG, box(0.36, 0.02, 0.36, 0.005), { tone: 'mid', pal: 'base', name: 'Элементы площади dA' }));
-  const rG = greyArrow(gG, 'Radius');
+  const rG = greyArrow(gG, 'Радиус');
   label('vec', 'r', () => tip(rG));
   label('vec blue', '<b>E</b>', () => tip(eG[9]));
   label('vec', 'd<b>A</b>', () => ex(gG) > 0.3 ? tip(dAG[9]) : null);
@@ -127,7 +127,7 @@ export function buildWorld(E) {
   const faceDirs = [V(1, 0, 0), V(-1, 0, 0), V(0, 1, 0), V(0, -1, 0), V(0, 0, 1), V(0, 0, -1)];
   faceDirs.forEach((n, i) => {
     const geo = new THREE.PlaneGeometry(2 * h, 2 * h);
-    const m = gpart(gB, geo, 'Faces of the box', { pos: cB.clone().addScaledVector(n, h).toArray(), ex: n.clone().multiplyScalar(0.9).toArray() });
+    const m = gpart(gB, geo, 'Грани параллелепипеда', { pos: cB.clone().addScaledVector(n, h).toArray(), ex: n.clone().multiplyScalar(0.9).toArray() });
     m.quaternion.setFromUnitVectors(V(0, 0, 1), n);
     const rim = new THREE.LineSegments(new THREE.EdgesGeometry(geo), new THREE.LineBasicMaterial({ color: '#6c6c72' })); rim.userData = { noEdge: true }; m.add(rim);
     const v = faces[i];
@@ -145,17 +145,17 @@ export function buildWorld(E) {
   label('tick', `λ = ${(M.LINE.lam * 1e9).toFixed(1)} нКл/м`, () => V(cL.x + 5.2, Y + 0.3, 0));
   const cylL = new THREE.Group(); cylL.position.copy(cL); gL.add(cylL);
   const LL = M.LINE.L * D;
-  gpart(cylL, xAxis(new THREE.CylinderGeometry(1, 1, LL, 48, 1, true)), 'Curved side');
+  gpart(cylL, xAxis(new THREE.CylinderGeometry(1, 1, LL, 48, 1, true)), 'Боковая поверхность');
   const capsL = [1, -1].map(s => {
-    const cap = gpart(cylL, new THREE.CircleGeometry(1, 48).rotateY(Math.PI / 2), 'Caps', { pos: [s * LL / 2, 0, 0] });
+    const cap = gpart(cylL, new THREE.CircleGeometry(1, 48).rotateY(Math.PI / 2), 'Основания', { pos: [s * LL / 2, 0, 0] });
     ring(cap, 1, 'x');
     return cap;
   });
   const eL = [], angL = [0, 60, 120, 180, 240, 300].map(a => a * deg);
   for (const x of [-1, 0, 1]) for (const a of angL) eL.push({ x, a, ar: fieldArrow(gL) });
   const capE = [];      // E on a cap lies in the cap: grey, tangent to it
-  for (const s of [1, -1]) for (const a of [30, 150, 270]) capE.push({ s, a: a * deg, ar: greyArrow(gL, 'Caps') });
-  const rL = greyArrow(gL, 'Radius');
+  for (const s of [1, -1]) for (const a of [30, 150, 270]) capE.push({ s, a: a * deg, ar: greyArrow(gL, 'Основания') });
+  const rL = greyArrow(gL, 'Радиус');
   label('vec', 'r', () => tip(rL));
   label('vec blue', '<b>E</b>', () => tip(eL[7].ar));
   label('tick', 'крышка: Φ = 0', () => ex(gL) > 0.3 ? capsL[0].getWorldPosition(V()).add(V(0.4, 1.0, 0)) : null);
@@ -168,9 +168,9 @@ export function buildWorld(E) {
   const pillbox = (g, c, rr, y0, y1, gap) => {
     const grp = new THREE.Group(); grp.position.copy(c); g.add(grp);
     const H = y1 - y0;
-    gpart(grp, new THREE.CylinderGeometry(rr, rr, H, 40, 1, true), 'Pillbox side', { pos: [0, (y0 + y1) / 2, 0] });
-    const top = gpart(grp, new THREE.CircleGeometry(rr, 40).rotateX(-Math.PI / 2), 'Pillbox caps', { pos: [0, y1, 0], ex: [0, gap, 0] });
-    const bot = gpart(grp, new THREE.CircleGeometry(rr, 40).rotateX(Math.PI / 2), 'Pillbox caps', { pos: [0, y0, 0], ex: [0, -gap, 0] });
+    gpart(grp, new THREE.CylinderGeometry(rr, rr, H, 40, 1, true), 'Боковая поверхность гауссова цилиндра', { pos: [0, (y0 + y1) / 2, 0] });
+    const top = gpart(grp, new THREE.CircleGeometry(rr, 40).rotateX(-Math.PI / 2), 'Основания гауссова цилиндра', { pos: [0, y1, 0], ex: [0, gap, 0] });
+    const bot = gpart(grp, new THREE.CircleGeometry(rr, 40).rotateX(Math.PI / 2), 'Основания гауссова цилиндра', { pos: [0, y0, 0], ex: [0, -gap, 0] });
     ring(top, rr, 'y'); ring(bot, rr, 'y');
     return { top, bot };
   };
@@ -192,7 +192,7 @@ export function buildWorld(E) {
   const cP = V(STATIONS.plate, Y, 0), TP = M.PLATE.t * D;
   const gP = asm('plate', root, { title: 'Заряженная металлическая пластина', sub: 'поток выходит только через одну крышку' });
   part(gP, box(2 * W2, TP, 2 * W2, 0.02), { tone: 'hi', name: 'Металлическая пластина', pal: 'base', pos: cP.toArray() });
-  dots(gP, [...scatter(11, 90, cP.x - W2 + 0.1, cP.x + W2 - 0.1, -W2 + 0.1, W2 - 0.1, Y + TP / 2 + 0.02), ...scatter(12, 90, cP.x - W2 + 0.1, cP.x + W2 - 0.1, -W2 + 0.1, W2 - 0.1, Y - TP / 2 - 0.02)], 'Surface charge');
+  dots(gP, [...scatter(11, 90, cP.x - W2 + 0.1, cP.x + W2 - 0.1, -W2 + 0.1, W2 - 0.1, Y + TP / 2 + 0.02), ...scatter(12, 90, cP.x - W2 + 0.1, cP.x + W2 - 0.1, -W2 + 0.1, W2 - 0.1, Y - TP / 2 - 0.02)], 'Поверхностный заряд');
   const pbP = pillbox(gP, cP, M.SHEET.pr * D, 0, TP / 2 + 0.8, 0.8);
   const eP = []; for (const x of grid3) for (const z of grid3) for (const s of [1, -1]) eP.push({ x, z, s, ar: fieldArrow(gP) });
   label('vec blue', '<b>E</b>', () => tip(eP[0].ar)); label('vec blue', '<b>E</b>', () => tip(eP[1].ar));
@@ -226,14 +226,14 @@ export function buildWorld(E) {
         }
       }
     }
-    dots(g, pts, kind === 'c' ? 'Surface charge' : 'Charge in the volume', 0.024);
+    dots(g, pts, kind === 'c' ? 'Поверхностный заряд' : 'Заряд в объёме', 0.024);
     const gs = new THREE.Group(); gs.position.copy(c); g.add(gs);
     gpart(gs, new THREE.SphereGeometry(1, 48, 32), 'Гауссова сфера');
     ring(gs, 1, 'y'); ring(gs, 1, 'z');
     // what the Gaussian sphere encloses (shown when opened)
-    const enc = gpart(g, new THREE.SphereGeometry(1, 40, 28), 'Enclosed charge', { pos: c.toArray(), mat: shadeMat('red', { opacity: 0.32 }) });
+    const enc = gpart(g, new THREE.SphereGeometry(1, 40, 28), 'Заключённый заряд', { pos: c.toArray(), mat: shadeMat('red', { opacity: 0.32 }) });
     const dirs = fib(18), arrows = dirs.map(() => fieldArrow(g));
-    const rad = greyArrow(g, 'Radius');
+    const rad = greyArrow(g, 'Радиус');
     label('vec', 'r', () => tip(rad));
     label('tick', 'R', () => c.clone().add(V(-R1 * 0.72 - 0.1, R1 * 0.72 + 0.1, 0)));
     label('vec blue', '<b>E</b>', () => { for (const i of [12, 4, 9, 15, 2]) if (arrows[i].visible) return tip(arrows[i]); return null; });
@@ -262,14 +262,14 @@ export function buildWorld(E) {
     if (kind === 'c') { for (let i = 0; i < 150; i++) { const th = TH[1] + r() * (2 * Math.PI - (TH[1] - TH[0])); pts.push(V(c.x + (RR + 0.02) * Math.sin(th), c.y + (r() - 0.5) * RL * 0.96, c.z + (RR + 0.02) * Math.cos(th))); } }
     else for (const th of TH) { const u = V(Math.sin(th), 0, Math.cos(th)), n = V(Math.cos(th), 0, -Math.sin(th)).multiplyScalar(th === TH[0] ? 0.03 : -0.03);
       for (let i = 0; i < 60; i++) pts.push(c.clone().addScaledVector(u, RR * (0.05 + 0.9 * r())).add(V(0, (r() - 0.5) * RL * 0.96, 0)).add(n)); }
-    dots(g, pts, kind === 'c' ? 'Surface charge' : 'Charge in the volume', 0.028);
+    dots(g, pts, kind === 'c' ? 'Поверхностный заряд' : 'Заряд в объёме', 0.028);
     const gs = new THREE.Group(); gs.position.copy(c); g.add(gs);
     const LG = M.ROD.L * D;
-    gpart(gs, new THREE.CylinderGeometry(1, 1, LG, 48, 1, true), 'Gaussian cylinder');
-    for (const s of [1, -1]) { gpart(gs, new THREE.CircleGeometry(1, 48).rotateX(-s * Math.PI / 2), 'Gaussian cylinder', { pos: [0, s * LG / 2, 0] }); ring(gs, 1, 'y', [0, s * LG / 2, 0]); }
-    const enc = gpart(g, new THREE.CylinderGeometry(1, 1, LG, 40), 'Enclosed charge', { pos: c.toArray(), mat: shadeMat('red', { opacity: 0.32 }) });
+    gpart(gs, new THREE.CylinderGeometry(1, 1, LG, 48, 1, true), 'Гауссов цилиндр');
+    for (const s of [1, -1]) { gpart(gs, new THREE.CircleGeometry(1, 48).rotateX(-s * Math.PI / 2), 'Гауссов цилиндр', { pos: [0, s * LG / 2, 0] }); ring(gs, 1, 'y', [0, s * LG / 2, 0]); }
+    const enc = gpart(g, new THREE.CylinderGeometry(1, 1, LG, 40), 'Заключённый заряд', { pos: c.toArray(), mat: shadeMat('red', { opacity: 0.32 }) });
     const arrows = []; for (const y of [-0.45, 0.45]) for (const a of [0, 72, 144, 216, 288]) arrows.push({ y, a: (a - 25) * deg, ar: fieldArrow(g) });
-    const rad = greyArrow(g, 'Radius');
+    const rad = greyArrow(g, 'Радиус');
     label('vec', 'r', () => tip(rad));
     label('vec blue', '<b>E</b>', () => tip(arrows[7].ar));
     label('tick', kind === 'c' ? 'металл' : 'диэлектрик', () => c.clone().add(V(0.2, RL / 2 + 0.35, 0)));
