@@ -2,7 +2,7 @@
 
 **Decision date:** 3 November 2026  
 **Branch:** `workspace/biology`  
-**Current disposition (3 November 2026):** **5 of 52 mapped briefs are produced (9.6%)**: six local WebP photographs for Chüy fauna, one for Jalal-Abad flora, four for Issyk-Kul flora, three for Naryn flora and one for Osh flora. The other 47 briefs remain deferred or awaiting production. This is a brief-level completion count, not a count of individual photographs. This register distinguishes completed source-backed assets from pending placeholders.
+**Current disposition (3 November 2026):** **5 of 52 mapped briefs are produced (9.6%), containing 15 local WebP photographs**: six for Chüy fauna, one for Jalal-Abad flora (Arslanbob), four for Issyk-Kul flora, three for Naryn flora and one for Osh flora. The other 47 briefs remain deferred or awaiting production. The 9.6% figure counts briefs, not individual photographs. This register distinguishes completed source-backed assets from pending placeholders.
 
 ## Common deferral rationale
 
