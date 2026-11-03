@@ -48,7 +48,7 @@ export const R = {
   push: { x0: 0, x1: 4, y0: 0, y1: 20, h: 140 },
   beadU: { x0: 0, x1: 6, y0: 0, y1: 4, h: 125 },
   beadF: { x0: 0, x1: 6, y0: -2, y1: 2, h: 110 },
-  bondU: { x0: 0.13, x1: 0.34, y0: -1.2, y1: 0.4, h: 135 },
+  bondU: { x0: 0.125, x1: 0.34, y0: -1.2, y1: 3.2, h: 135 },
 };
 const P0 = M.pull(M.PULL.run), XS = M.SPRING.xmax;
 
@@ -175,7 +175,7 @@ export const PAGES = [
       <p>Лёгкий атом связан с тяжёлым; полная энергия <i>E</i> = ${f(M.BOND.E / M.EV, 1)} эВ. Вблизи дна потенциальной ямы взаимодействие подобно пружине, <i>k</i> = <i>U</i>″:</p>
       <div class="eq">ω² = <i>U</i>″(<i>x</i><sub>0</sub>)/<i>m</i> → <i>T</i> = ${f(2 * Math.PI / M.BOND.w * 1e15, 1)} fs</div>
       <div class="charts">${chart({ ...R.bondU, xlabel: 'расстояние r (нм)', ylabel: 'U (эВ)', cursors: [['bondU']], zero: true, label: 'Потенциальная энергия связи, линия полной энергии и точки поворота',
-        series: [{ cls: 'trend', pts: [[R.bondU.x0, M.BOND.E / M.EV], [R.bondU.x1, M.BOND.E / M.EV]], tag: [0.315, M.BOND.E / M.EV + 0.06, 'E'] }, { pts: samples(120, 0.1355, R.bondU.x1, r => M.bondU(r * 1e-9) / M.EV) }],
+        series: [{ cls: 'trend', pts: [[R.bondU.x0, M.BOND.E / M.EV], [R.bondU.x1, M.BOND.E / M.EV]], tag: [0.315, M.BOND.E / M.EV + 0.06, 'E'] }, { pts: samples(120, R.bondU.x0, R.bondU.x1, r => M.bondU(r * 1e-9) / M.EV) }],
         marks: [[M.BOND.r1 * 1e9, M.BOND.E / M.EV, 'поворот', -32, 4], [M.BOND.r2 * 1e9, M.BOND.E / M.EV, 'поворот', 6, 14]] })}</div>
       <p class="hintline">Масштаб рисунка: 0,1 нм = 1 м; <i>F</i> — ${SC.bond.F * 100} см/нН. Анимация замедлена в ${(() => { const [a, e] = (1 / (M.SLOW * M.BOND.tscale)).toExponential(1).split('e+'); return `${a}×10<sup>${e}</sup>`; })()} раза.</p>`,
     cam: { target: [ST.bond - 0.45, 1.25, 0], az: -10, el: 6, dist: 12.5 }, lit: 'bond', scene: 'bond', look: {},
