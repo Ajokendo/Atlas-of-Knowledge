@@ -172,3 +172,35 @@ Sources checked:
 - https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
 
 No original binary was downloaded in this follow-up. No image was accepted, converted, or inserted; overall integrated visual count remains 0/52.
+
+
+## Follow-up: two additional pit-viper photographs checked (3 November 2026)
+
+### Halys pit viper — Nikolai Bulykin, file (3)
+- File page: https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(3).jpg
+- Caption: *Gloydius halys* on a trail, Ala-Archa National Park, Chüy Region, Kyrgyzstan.
+- Author: Nikolai Bulykin; own work.
+- Capture date: 25 August 2023, 13:59:29.
+- Original: JPEG, 2592 × 3456, 911 KB; sRGB; Canon PowerShot SX520 HS.
+- License: CC BY-SA 4.0.
+- Structured `depicts` identifies Halys Pit Viper; caption, category and structured taxon agree.
+- Original-file link is exposed on the page, but the binary has not been acquired locally or visually inspected in the working environment. Candidate only.
+
+### Halys pit viper — ElenaLitera, file (1)
+- File page: https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(1).jpg
+- Author: ElenaLitera; own work.
+- Capture date: 25 August 2023, 11:31:46.
+- Original: JPEG, 2759 × 1839, 761,142 bytes.
+- License: CC BY-SA 4.0.
+- Commons categories include Animals in Ala Archa national park and Gloydius; metadata identifies it as a photograph from the Ala-Archa set.
+- The file page's structured data marks the creator/location fields as missing in the Wiki Loves Earth metadata; the page's author/date/license are explicit, but the exact location and taxon should be confirmed from the image/caption before production approval.
+- Candidate only; original not downloaded or inspected locally.
+
+### Decision and next action
+The Chüy candidate pool now includes additional licensed pit-viper originals from two photographers. This improves source diversity, but does not change acceptance status. Prioritize downloading and visually comparing the Nikolai Bulykin file (3) with his files (1) and (2), then check ElenaLitera's photograph for visible location/taxon confirmation. Do not use multiple near-duplicate photographs merely to inflate coverage.
+
+Sources:
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(3).jpg
+- https://commons.wikimedia.org/wiki/File:Кыргызстан,_нацпарк_Ала-Арча,_щитомордник_(1).jpg
+
+No binary downloaded; no WebP prepared; no anchor replaced. Overall accepted/integrated visual count remains 0/52.
