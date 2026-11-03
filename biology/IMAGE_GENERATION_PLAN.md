@@ -6,7 +6,7 @@ This register mirrors the in-page illustration markers. Each marker is placed be
 
 ## Current disposition — 3 November 2026
 
-Four of 52 planned visual briefs are now produced (**7.7%**): Chüy fauna (six licensed photographs), Jalal-Abad flora (one), Issyk-Kul flora (four) and Naryn flora (three). The other 48 briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Five of 52 planned visual briefs are now produced (**9.6%**): Chüy fauna (six licensed photographs), Jalal-Abad flora (one), Issyk-Kul flora (four), Naryn flora (three) and Osh flora (one). The other 47 briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
 
 ## Priority key
 
