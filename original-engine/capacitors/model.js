@@ -26,6 +26,7 @@ export function charging(t) {
 
 // field of one uniformly charged disc of radius R on its axis, by summing rings (numeric) and
 // in closed form; R → ∞ gives the infinite sheet σ/2ε₀
+// At z = 0 the ideal sheet's one-sided fields are discontinuous (±σ/2ε₀); return their symmetric principal-value average, 0.
 export const discAxisE = (sigma, R, z) => Math.sign(z) * sigma / (2 * EPS0) * (1 - Math.abs(z) / Math.sqrt(z * z + R * R));
 export function discAxisENumeric(sigma, R, z, n = 4000) {
   let E = 0;
