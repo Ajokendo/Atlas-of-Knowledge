@@ -342,3 +342,16 @@ Sources:
 - https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
 - https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
 - https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+
+
+## Follow-up: renewed Commons Chüy bird-category lookup (3 November 2026)
+
+The Commons national bird index was queried again. It still confirms a dedicated subcategory **Birds of Chüy Region (6 files)**, but the search result exposes only the subcategory name and file count, not its members. A direct open of the encoded category URL again returned an access error in the browser retrieval layer.
+
+- Index: https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+- Target category: https://commons.wikimedia.org/wiki/Category:Birds_of_Ch%C3%BCy_Region
+- Search-rendered individual file result: https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+
+No new individual bird file can responsibly be identified from this result. The two Ala-Archa tit files remain the only individually surfaced bird-photo leads in this audit; the second remains taxonomically conflicted, and the first still requires reconciliation of the previously reported structured-data warning. Next useful route is a direct Wikimedia Commons API/category-members request from an environment with network access, or manual retrieval of the category members in a browser. Do not infer filenames from the six-file count.
+
+No original binary acquired; no WebP prepared; no asset accepted; no chapter insertion. Integrated biology visual count remains **0/52**.
