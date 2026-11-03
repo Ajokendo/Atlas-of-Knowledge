@@ -542,3 +542,65 @@ Sources:
 This pass improves the taxonomy diagnosis and adds a third tit-photo lead plus a wetland-bird search shortlist. It does not approve any photo: the original binaries still have not been obtained locally and visually inspected. No WebP has been prepared and no chapter anchor has been changed.
 
 Accepted/integrated assets remain **0/52**; local originals **0**; WebP outputs **0**; replaced anchors **0**.
+
+
+## Follow-up: Chon-Kemin habitat set and bird-photo rights route (3 November 2026)
+
+### Chon-Kemin National Park — three individually checked Commons files
+
+The Chüy Region quality-images category exposes three Chon-Kemin landscape files. All three individual file pages were opened and checked:
+
+1. `Chong Kemin National Park, Kemin district, Chuy Region, Kyrgyzstan 01.jpg`
+   - Original JPEG: 3,000 × 2,000 px; 6.46 MB.
+   - Author: Vilya Shoni; own work; capture date 7 June 2024, 15:44:29.
+   - Camera location: 42.866667, 76.700000.
+   - Captions/descriptions in English, Russian and Kyrgyz explicitly identify Chong-Kemin State Nature Park, Kemin District, Chüy Region.
+   - License: CC BY-SA 4.0.
+   - File page: https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_01.jpg
+
+2. `Chong Kemin National Park, Kemin district, Chuy Region, Kyrgyzstan 02.jpg`
+   - Original JPEG: 3,000 × 2,000 px; 7.84 MB.
+   - Same author, date, location and trilingual locality captions as file 01.
+   - License: CC BY-SA 4.0.
+   - Commons page also marks it as a Quality image.
+   - File page: https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_02.jpg
+
+3. `Chong Kemin National Park, Kemin district, Chuy Region, Kyrgyzstan 03.jpg`
+   - Original JPEG: 2,947 × 2,000 px; 5.42 MB.
+   - Same author, date, location and trilingual locality captions as files 01–02.
+   - License: CC BY-SA 4.0.
+   - Commons page marks it as a Quality image.
+   - File page: https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_03.jpg
+
+**Decision:** this is a well-documented three-frame habitat/landscape set, geographically stronger than the earlier generic Chunkurchak landscape candidate. It is not fauna imagery. Do not integrate all three automatically: visually compare the originals after acquisition and select only the frame(s) that add distinct educational value. Original binaries have not been downloaded into the working environment and have not been visually inspected locally.
+
+Category page:
+https://commons.wikimedia.org/wiki/Category:Quality_images_of_Ch%C3%BCy_Region
+
+### Birds of Kyrgyzstan / birding.day — explicit author-rights guidance located
+
+The site states that uploaded information belongs to the individual authors and is protected by copyright. Its guidance says that for non-commercial use, a link to kz.birding.day or another author resource is generally sufficient; commercial use must be agreed directly with authors. This is useful rights guidance, but it is not a blanket Creative Commons license and does not remove the need to check the individual photographer's terms and retain clear attribution.
+
+A specific candidate was individually inspected:
+- Species: Hooded Crow (*Corvus cornix*).
+- Photographer: Sergey Toropov.
+- Locality: Ala-Archa river valley, Chon-Aryk, Chüy Region.
+- Date: 11 December 2020.
+- Page: https://www.kyrgyzstan.birding.day/v2photo.php?l=en&n=1&s=004900136&si=krg
+- The page links an original-size 1200 × 800 image and shows three additional frames in the series.
+- The site page itself does not state a separate Creative Commons license. Treat as copyrighted author material. Because the atlas is free/non-commercial, the site's guidance suggests attribution plus a link may be acceptable in general; before production use, confirm the specific photographer's preference and obtain the best available original file. Do not scrape or rehost the displayed preview as if it were openly licensed.
+
+The site's About page also states that series images may help with accurate identification, which makes the additional frames potentially useful for expert species review. Contact route shown by the site: info@birding.day; author profile is linked from the individual image page.
+
+Rights source:
+https://www.kyrgyzstan.birding.day/v2about.php?l=en
+
+### New search direction
+
+Prioritize the birding.day catalogue for species with exact Chüy locality records, but record each as **copyrighted / permission-or-noncommercial-attribution review required**, not as open-license material. Continue to use Commons CC BY-SA candidates where their individual file pages provide explicit reuse licenses.
+
+### Status boundary
+
+The three Chon-Kemin landscape files and the Hooded Crow page are individually documented source candidates, not accepted production assets. No binary original has been downloaded into the working environment, no local visual review or WebP conversion has been performed, and no chapter anchor has been replaced.
+
+Accepted/integrated assets remain **0/52**; local originals **0**; WebP outputs **0**; replaced anchors **0**.
