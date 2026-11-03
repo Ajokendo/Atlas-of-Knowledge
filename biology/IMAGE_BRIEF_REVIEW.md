@@ -61,7 +61,7 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 | `image-brief-fauna-osh` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-batken` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-fauna-talas` | P2 | Use the Talas / Besh-Tash habitat context; separate river valley, forested slopes and high rocky terrain. Do not add unverified local endemics or unsupported species labels. |
-| `image-brief-fauna-chuy` | P2 | Four source-backed local photographs: red squirrel (*Sciurus vulgaris*) and Halys pit viper (*Gloydius halys*) from Ala-Archa (Nikolai Bulykin), plus Ak-Suu Gorge and an Ala-Archa mountain-forest view (Vilya Shoni). All are geographically grounded in Chüy Region and licensed CC BY-SA 4.0. Captions must distinguish individual fauna records from habitat views; none implies a complete fauna survey or species-distribution map. |
+| `image-brief-fauna-chuy` | P2 | Five source-backed local photographs: red squirrel (*Sciurus vulgaris*) and Halys pit viper (*Gloydius halys*) from Ala-Archa (Nikolai Bulykin), plus Ak-Suu Gorge, an Ala-Archa mountain-forest view and a Chong-Kemin stream-valley view (Vilya Shoni). All are geographically grounded in Chüy Region and licensed CC BY-SA 4.0. Captions must distinguish individual fauna records from habitat views; none implies a complete fauna survey or species-distribution map. |
 
 ## Cross-cutting production rules
 
