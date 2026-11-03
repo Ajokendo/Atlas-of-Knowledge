@@ -1069,3 +1069,12 @@ Sources:
 - https://backend.selevinia.kz/storage/publication_files/sIGF5Ry50DvAtpujS5UwekKLk1bPE475XvWMbkgt.pdf
 
 No original binary was acquired for either tit candidate in this follow-up. No WebP was produced and no chapter, insertion-map or disposition-register entry was changed. The verified Chüy production batch remains four assets; overall Biology visual completion remains **4/52 (7.7%)**. The next work should continue from the already shortlisted candidates and must not reopen broad search until those decisions are closed.
+
+
+## Follow-up: one distinct Chon-Kemin habitat image selected from the existing shortlist (3 November 2026)
+
+To avoid repeating another Ala-Archa panorama, one of the three previously documented Chon-Kemin photographs was selected: Chong Kemin National Park, Kemin district, Chuy Region, Kyrgyzstan 01.jpg. The Commons page identifies Vilya Shoni as author and the image as own work, dated 7 June 2024, with a camera viewpoint at 42.866667, 76.700000; the page grants CC BY-SA 4.0. The full-resolution original is 3000 × 2000 JPEG, with Commons SHA-1 ed2b78baec56685001b4c032d4899400b9f8cbc9. The image was visually reviewed: it shows a rocky mountain stream through meadow and conifer woodland, a distinct habitat composition from the Ak-Suu gorge and Ala-Archa forest images already integrated.
+
+Source: https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_01.jpg
+
+The photo has been added to the existing Chüy habitat figure, insertion map, disposition register and review brief. The reproducible GitHub Actions builder and browser smoke test have been expanded to five assets. The original binary is not yet counted as acquired or checksum-verified; those steps remain contingent on the workflow run. The other two Chon-Kemin landscape candidates (02 and 03) remain unselected to avoid redundant scenery. The two tit photographs remain on taxonomic hold. Current verified production count remains four until the fifth asset build and browser test pass.
