@@ -70,6 +70,6 @@
 
 ## Completion status
 
-All 52 entries are placeholders only and have an explicit **Deferred** disposition in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). This is a text-first release decision under the user's accepted fallback, not a claim that image production is complete. No third-party image has been inserted without a verified source and licence.
+The map retains 52 planned visual briefs. The Chüy fauna brief is now produced with five source-backed local WebP images; the other mapped briefs remain pending or deferred in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). This is a measured production update, not a claim that the full image programme is complete.
 
-No image is considered produced until the actual asset exists, its scientific content is checked, its alt text and caption are reviewed in both languages, and the in-page note is replaced at the same anchor. The current placeholders remain integrated at the exact mapped positions; the 52-asset disposition is complete, while visual production remains pending. 
+An asset is considered produced only when the original source, creator and licence are verified, the local derivative exists, scientific/editorial review is complete, bilingual alt text and caption are integrated, and the focused browser check passes. The produced Chüy figure preserves the original insertion ID; all other anchors remain mapped to their planned positions. 
