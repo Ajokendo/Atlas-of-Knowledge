@@ -14,6 +14,10 @@ The chapter's three intended subjects are:
 - Argali — `Ovis ammon`. The chapter and Kyrgyzstan country material support its presence in high-mountain landscapes. Subspecies should not be assigned in the illustration without locality-specific confirmation.
 - Siberian ibex — `Capra sibirica`. The chapter describes this wild mountain goat as characteristic of rocky high-mountain terrain. Keep it distinct from argali by its long backward-curving, ridged horns and beard.
 
+### Geographic evidence caution
+
+A separate recent spatial-modelling study examined a specific Kyrgyzstan–Tajikistan study landscape and reported argali as locally extinct in its Kyrgyz portion. This is a local finding, not a countrywide assessment; it must not be generalized to all of Kyrgyzstan. Accordingly, this broad habitat reconstruction must not be captioned as a record from that study landscape or as evidence that argali, ibex and snow leopard were documented together at one precise site. The image is illustrative, not a distribution map or a camera-trap record.
+
 ## Visual inspection
 
 A new 16:9 naturalistic landscape candidate was generated. It depicts:
