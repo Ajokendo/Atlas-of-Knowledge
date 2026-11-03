@@ -157,7 +157,7 @@ export function buildWorld(E) {
   }
   // a bar magnet along x: the near pole at local x = 0, the far one at len (in metres × D)
   const polesOf = nearIsN => nearIsN ? [0, M.MAG.len] : [M.MAG.len, 0];
-  function magnet(g, D, nearIsN, name = 'Bar magnet') {
+  function magnet(g, D, nearIsN, name = 'Стержневой магнит') {
     const mg = new THREE.Group(); g.add(mg);
     const L = M.MAG.len * D, w = M.MAG.w * D;
     part(mg, box(L / 2, w, w, 0.01), { tone: 'hi', pal: nearIsN ? 'dark' : 'paper', pos: [L / 4, 0, 0], name });
@@ -211,7 +211,7 @@ export function buildWorld(E) {
   disc0.userData.noEdge = true;
   const patches0 = [[0, 0]];
   for (const [rr, n] of [[0.45, 6], [0.85, 12]]) for (let i = 0; i < n; i++) { const t = 2 * Math.PI * (i + 0.5 * (n === 12)) / n; patches0.push([rr * A0 * Math.cos(t), rr * A0 * Math.sin(t)]); }
-  const dA0 = patches0.map(([y, z]) => ({ y, z, a: bArrow(g0, 0.012, 'B·dA at each patch') }));
+  const dA0 = patches0.map(([y, z]) => ({ y, z, a: bArrow(g0, 0.012, 'B·dA для каждого элемента') }));
   label('tick', '<i>B</i>·<i>dA</i>', when(g0, () => tipOf(dA0[0].a)));
   label('tick', 'Φ = ∫<i>B</i>·<i>dA</i>', when(g0, () => c0.clone().add(V(0.05, -A0 - 0.3, 0))));
 
@@ -392,7 +392,7 @@ export function buildWorld(E) {
   // breakdown: the cross-section of one turn with B·dA patches
   const disc7 = part(g7, (() => { const d = new THREE.CircleGeometry(R7 - 0.03, 40); d.rotateY(Math.PI / 2); return d; })(), { tone: 'lo', name: 'Площадь одного витка', mat: flatMat('board', 0.7), pos: [X7 + 0.42, y7, 0] });
   disc7.userData.noEdge = true;
-  const dA7 = [[0, 0], ...[0, 1, 2, 3, 4, 5].map(i => [0.2 * Math.cos(i * Math.PI / 3), 0.2 * Math.sin(i * Math.PI / 3)])].map(([y, z]) => ({ y, z, a: bArrow(g7, 0.013, 'B·dA through one turn') }));
+  const dA7 = [[0, 0], ...[0, 1, 2, 3, 4, 5].map(i => [0.2 * Math.cos(i * Math.PI / 3), 0.2 * Math.sin(i * Math.PI / 3)])].map(([y, z]) => ({ y, z, a: bArrow(g7, 0.013, 'B·dA через один виток') }));
   g7.userData.focus = () => ({ target: [X7, y7 + 0.2, 0], radius: 1.7 });
   label('tick', 'Φ = <i>BA</i> на виток', when(g7, () => V(X7 + 0.95, y7 - R7 - 0.35, 0)));
 
