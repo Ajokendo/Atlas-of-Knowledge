@@ -25,7 +25,7 @@ The animals are spatially separated and are not shown fighting, hunting or formi
 
 ## Provenance and integration gate
 
-This is original AI-generated artwork, not a third-party photograph. It requires no external photo attribution; the atlas should identify it as an illustrative generated reconstruction in its bilingual caption. The generated candidate is currently stored in the working session only and has **not** yet been committed to the repository or inserted into the chapter.
+This is original AI-generated artwork, not a third-party photograph. It requires no external photo attribution; the atlas should identify it as an illustrative generated reconstruction in its bilingual caption. The generated candidate is currently stored in the working session only as `fauna-mammals-q55.webp` (WebP, 1,200 × 675 px, 172,214 bytes; SHA-256 `147335f70e34db9765080082f6fa3e8c372835707deb0bdc4f5d861e8779ab55`). It has **not** yet been committed to the repository or inserted into the chapter.
 
 Before the brief can be marked Produced:
 1. copy the optimized WebP to `biology/images/generated/fauna-mammals.webp`;
