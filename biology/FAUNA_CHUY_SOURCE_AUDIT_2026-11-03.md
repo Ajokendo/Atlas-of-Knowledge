@@ -496,3 +496,49 @@ Sources:
 - https://commons.wikimedia.org/wiki/File:Ala_Archa_Nature_Park_facing_North_2025-05-10.jpg
 
 Accepted/integrated assets remain 0/52; locally acquired originals 0; WebP outputs 0; replaced chapter anchors 0.
+
+
+## Follow-up: taxonomy reconciliation and renewed Chüy bird-source search (3 November 2026)
+
+### Rufous-naped tit versus Cyanistes flavipectus — discrepancy characterized, image still on hold
+
+The earlier warning is now more precisely characterized. The two scientific names are **not synonyms**:
+
+- *Periparus rufonuchalis* is treated by ITIS as a valid species; its listed synonym is *Parus rufonuchalis*. Avibase/IOC-based taxonomic concepts also recognize the Rufous-naped Tit as *Periparus rufonuchalis*.
+- The Commons structured-data value *Cyanistes flavipectus* refers in ITIS/IOC World Bird List v15.1 to the subspecies *Cyanistes cyanus flavipectus* (Yellow-breasted Tit / Azure Tit group), not to *Periparus rufonuchalis*.
+- The Commons file page for the first Ala-Archa tit photograph displays a bilingual caption identifying Rufous-naped Tit, but its structured depicts item is *Cyanistes flavipectus*. The same mismatch is explicitly visible on the second file.
+- An Ala-Archa checklist on iNaturalist contains a recent observation of *Periparus rufonuchalis* in Ala-Archa (7 March 2026). This supports the species' local occurrence, but does **not** prove the identity of either Commons photograph.
+
+**Decision:** the metadata discrepancy is confirmed as a real taxon mismatch, not a harmless synonym/combination change. Do not accept either image under the Rufous-naped tit label until the actual photograph is inspected and an ornithologically competent identification (or author correction) establishes which taxon is depicted. If the image is *Cyanistes cyanus flavipectus*, both the Russian/English caption and the chapter taxon label would need correction instead. Do not silently overwrite the Commons structured data in the atlas record.
+
+Taxonomy sources:
+- https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=561931&source=to_print
+- https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=922491&source=to_print
+- https://avibase.bsc-eoc.org/species.jsp?avibaseid=59DFB1CCCEBE577E&lang=EN
+- https://www.inaturalist.org/check_lists/155706-Ala-Archa-Check-List
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(1).jpg
+- https://commons.wikimedia.org/wiki/File:Ала-Арча,_рыжешейная_синица_(2).jpg
+
+### Additional Ala-Archa tit lead
+
+The Commons category for Periparus rufonuchalis lists a third local file: Кыргызстан, нацпарк Ала-Арча, рыжешейная синица (2).jpg (3,314 × 2,209 px; 631 KB). The category also lists it under the species. However, its individual file page, license, author, exact capture metadata, and structured depicts value have not yet been individually verified in this pass. Treat it as a new lead only, not as evidence that the taxonomic discrepancy is resolved.
+
+Category:
+https://commons.wikimedia.org/wiki/Category:Periparus_rufonuchalis
+
+### Chüy bird-category search
+
+The national Commons index again confirms a subcategory Birds of Chüy Region containing six files, but the accessible result does not reveal its six member filenames. A direct categorymembers API request remains inaccessible through the current retrieval route. No filename is inferred from the count.
+
+A separate regional monitoring report (9 March 2026) records more than 20 waterbird species across flooded areas in Jayil, Moscow and Sokuluk districts during 3–6 March 2026. Named examples include whooper swan, black goose, mallard, common goldeneye, white-tailed eagle, herons, red-headed duck, little bittern and whiskered tern. This is a regional occurrence lead for targeted species-photo research, not a source of reusable images and not proof of year-round presence.
+
+Sources:
+- https://commons.wikimedia.org/wiki/Category:Birds_of_Kyrgyzstan
+- https://open.kg/en/news/ecology/79882-v-chujskoj-oblasti-zafiksirovali-bolee-20-vidov-ptic.html
+- https://www.mediawiki.org/wiki/API:Categorymembers/en
+
+### Scope and decision
+
+This pass improves the taxonomy diagnosis and adds a third tit-photo lead plus a wetland-bird search shortlist. It does not approve any photo: the original binaries still have not been obtained locally and visually inspected. No WebP has been prepared and no chapter anchor has been changed.
+
+Accepted/integrated assets remain **0/52**; local originals **0**; WebP outputs **0**; replaced anchors **0**.
