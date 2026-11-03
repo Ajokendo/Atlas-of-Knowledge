@@ -2,7 +2,7 @@
 
 **Decision date:** 1 November 2026  
 **Branch:** `workspace/biology`  
-**Disposition:** one of 52 mapped briefs is now produced (five local WebP images for Chüy); the other 51 briefs remain deferred or awaiting production. This register distinguishes completed source-backed assets from pending placeholders.
+**Current disposition (3 November 2026):** **1 of 52 mapped briefs is produced (1.9%)**, containing six local WebP photographs for Chüy; the other 51 briefs remain deferred or awaiting production. The six-image batch is verified and integrated; this is a brief-level completion count, not a count of individual photographs. This register distinguishes completed source-backed assets from pending placeholders.
 
 ## Common deferral rationale
 
@@ -88,4 +88,4 @@ All five original JPEGs were downloaded by the dedicated GitHub Actions workflow
 
 A row may change from **Deferred** to **Produced** only when the exact target file exists in `biology/images/generated/`, its source/creator and licence are recorded, the scientific/editorial review is complete, Russian and English alt text and caption are approved, the placeholder is replaced at the same anchor, and the static and browser checks pass.
 
-**G6 baseline disposition:** the original 52-asset plan was deferred pending selection. That baseline is now superseded for the Chüy fauna item: five local WebP assets have been produced and integrated; remaining image decisions retain their recorded individual statuses.
+**G6 baseline disposition:** the original 52-asset plan was deferred pending selection. That baseline is now superseded for the Chüy fauna item: six local WebP photographs have been produced and integrated under one visual brief; the remaining 51 briefs retain their recorded individual statuses.
