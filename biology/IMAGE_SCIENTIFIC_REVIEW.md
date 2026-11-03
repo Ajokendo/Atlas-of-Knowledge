@@ -54,3 +54,5 @@
 - [ ] Asset is reviewed by a relevant botanist/zoologist before changing its status from planned.
 
 **Status:** all 13 P1 assets remain planned. This review does not approve or claim any generated image.
+
+**Filename traceability:** the original planned P1 target `fauna-naryn.webp` is superseded by the locally produced SVG `fauna-naryn-highland-habitats.svg`; the former name is retained here solely so the 13-item P1 source register remains traceable. The SVG is the active integrated asset.
