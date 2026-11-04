@@ -54,7 +54,13 @@
 - накопление воды в ледниках и снежном покрове;
 - таяние и сублимация.
 
-**Эвапотранспирация** объединяет испарение с поверхности и транспирацию растений. Водный баланс территории можно представить как соотношение осадков, испарения и изменения запасов воды; в бассейновом анализе дополнительно учитывают приток и отток.
+**Эвапотранспирация** объединяет испарение с поверхности и транспирацию растений. Для водосбора за выбранный период общий принцип баланса записывают так:
+
+\[
+\text{Приток} - \text{Отток} = \Delta S,
+\]
+
+где \(\Delta S\) — изменение запасов воды. В упрощённом естественном водосборе без внешних перебросок и значимого подземного обмена часто используют запись \(P = ET + R + \Delta S\): осадки равны эвапотранспирации, стоку и изменению запасов. Это не универсальная формула для любого бассейна: при наличии притока и оттока подземных вод, водозабора, сбросов, каналов и водохранилищ эти потоки нужно включать отдельно с правильным знаком. Все члены должны относиться к одной границе территории и одному периоду и выражаться в сопоставимых единицах (например, мм за год).
 
 ### Масштабы круговорота / Scales of the Cycle
 
@@ -406,11 +412,11 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 
 **Задание.** Рассчитайте остаток баланса для приведённых данных и перечислите не менее четырёх возможных причин его ненулевого значения. Объясните, почему баланс за один год не обязательно характеризует долгосрочное состояние водосбора.
 
-For a catchment over a selected period, a simplified water balance can be written as:
+For a catchment over a selected period, the general mass-balance principle is:
 
-`Change in storage = precipitation − evapotranspiration − runoff`
+`Inflow − Outflow = change in storage (ΔS)`
 
-All components must refer to the same area and period and use consistent units, such as millimetres of water. If groundwater inflow, water abstraction, transfers or reservoir-storage changes are included, add them as separate terms with the appropriate sign.
+For a simplified natural catchment with no external transfers and negligible groundwater exchange, this is often written as `P = ET + R + ΔS`, where P is precipitation, ET is evapotranspiration and R is runoff. This is not a universal equation for every basin: groundwater inflow and outflow, abstraction, discharges, canals and reservoirs must be represented separately with the correct sign. All terms must refer to the same catchment boundary and period and use consistent units, such as millimetres per year.
 
 **Worked example.** Annual precipitation over a catchment is 600 mm, estimated evapotranspiration is 350 mm, and runoff at the outlet is 220 mm. The balance residual is 30 mm. It should not automatically be labelled a measurement error or a new water store: it may reflect changes in soil moisture, snow, glaciers, lakes and groundwater, unaccounted flows, or uncertainty in the estimates.
 
