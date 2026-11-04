@@ -68,7 +68,8 @@ async function runDynamic(mobile) {
     await page.waitForSelector('#sheet h1');
     await page.waitForFunction(() => document.querySelector('#gl')?.width > 100);
     await page.waitForFunction(() => window.__atlas && document.querySelector('#readout')?.textContent.includes('Φ') && document.querySelector('#readout')?.textContent.includes('ε'));
-    
+    // Keep the pointer outside the 3D canvas: hovering a scene object intentionally pauses its clock.
+    await page.mouse.move(5, 5);
     await page.waitForTimeout(350);
     const before = await page.locator('#readout').innerText();
     const cursorBefore = await page.locator('circle[data-cursor="phi0"]').first().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
