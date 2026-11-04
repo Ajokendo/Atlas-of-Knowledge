@@ -81,5 +81,32 @@ async function runDynamic(mobile) {
   finally { await context.close(); }
 }
 
-await run(false); await run(true); await runDynamic(false); await runDynamic(true); await browser.close();
+
+async function runLesson(mobile) {
+  const context = await browser.newContext({
+    viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 },
+    deviceScaleFactor: mobile ? 2 : 1, isMobile: mobile, hasTouch: mobile,
+    reducedMotion: 'reduce'
+  });
+  const page = await context.newPage(); page.setDefaultTimeout(15000);
+  try {
+    const response = await page.goto(`${base}/chapters/induction.html`, { waitUntil: 'domcontentloaded' });
+    if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
+    await page.waitForFunction(() => document.querySelector('#r0')?.textContent.trim().length > 0);
+    const before = await page.locator('#r0').innerText();
+    await page.locator('#p0').evaluate((el, value) => { el.value = value; el.dispatchEvent(new Event('input', { bubbles: true })); }, '200');
+    await page.waitForFunction(v => document.querySelector('#r0')?.textContent !== v, before);
+    const after = await page.locator('#r0').innerText();
+    const number = v => Number(v.trim().split(/\\s+/)[0].replace(',', '.'));
+    if (!(number(after) > number(before))) throw new Error(`calculator did not increase: ${before} → ${after}`);
+    await page.locator('button[data-answer="b"]').click();
+    await page.waitForFunction(() => document.querySelector('#feedback')?.textContent.includes('Верно!'));
+    if (await page.locator('.note').filter({ hasText: 'IMAGE PLACEHOLDER' }).count() < 3) throw new Error('image-first placeholders are missing');
+    if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal overflow');
+    console.log(`PASS Chapter 15 Faraday calculator ${mobile?'mobile':'desktop'} — slider calculation, quiz, placeholders, overflow 0`);
+  } catch(e) { failures.push(`lesson ${mobile?'mobile':'desktop'}: ${e.message}`); console.error(`FAIL Chapter 15 Faraday calculator ${mobile?'mobile':'desktop'}: ${e.message}`); }
+  finally { await context.close(); }
+}
+
+await run(false); await run(true); await runDynamic(false); await runDynamic(true); await runLesson(false); await runLesson(true); await browser.close();
 if (failures.length) process.exit(1);
