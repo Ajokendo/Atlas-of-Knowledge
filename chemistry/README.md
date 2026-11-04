@@ -139,3 +139,4 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Added bilingual redox exception checks for oxygen in OF₂, peroxides, and superoxides.
 - [ ] Await the complete Chromium and static-validation run for this expanded suite; continue remaining chapters and formula/calculator checks.
 - [x] Chromium exposed a test-order dependency: the new C-12/C-13/C-14 sequence left C-14 selected before an older accessibility assertion that expected the default C-12 state. The test now explicitly restores C-12 between scenarios; the chemistry content and isotope model were not defective.
+- [x] Expanded Chromium suite passed on commit `db6f971d50a85b6e55e726079be45efc7155c64c`: all 21 Chemistry Atlas pages loaded; 42 axe-core RU/EN scans completed; isotope states, formula theory, biomolecule explanations and redox exceptions passed the new bilingual assertions.
