@@ -187,7 +187,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 
 
-Биом — крупная природная система, объединённая характерными климатическими условиями, растительностью и связанными с ними сообществами животных и микроорганизмов. Границы биомов переходные, а классификации могут отличаться по числу категорий и критериям.
+Биом — крупная природная система, объединённая характерными климатическими условиями, растительностью и связанными с ними сообществами животных и микроорганизмов. Границы биомов переходные, а классификации могут отличаться по числу категорий и критериям. Важно учитывать цель классификации: традиционные наземные биомы часто выделяют по климату и структуре растительности, тогда как типология экосистем IUCN использует иерархию из шести уровней — от царств и биомов до локальных типов экосистем — и учитывает функциональные процессы, а также состав сообществ. Эти схемы дополняют друг друга, но их категории нельзя автоматически считать взаимозаменяемыми. Для карты или статистического сравнения всегда называйте систему, её версию и пространственный уровень.
 
 | Биом / Biome | Климатические особенности / Climate | Характерная растительность / Typical vegetation |
 |---|---|---|
@@ -442,7 +442,7 @@ Windward slopes often receive more precipitation than leeward slopes. In the Nor
 
 ### 7.8. Major Terrestrial Biomes
 
-A **biome** is a large natural system characterised by climate, vegetation and associated animal and microbial communities. Biome boundaries are transitional, and classification systems differ in the number of categories and criteria used.
+A **biome** is a large natural system characterised by climate, vegetation and associated animal and microbial communities. Biome boundaries are transitional, and classification systems differ in the number of categories and criteria used. The purpose of a classification matters: traditional terrestrial biomes are often distinguished by climate and vegetation structure, whereas the IUCN Global Ecosystem Typology uses a six-level hierarchy, from realms and biomes to local ecosystem types, and considers ecosystem functions as well as community composition. These frameworks complement one another, but their categories are not automatically interchangeable. Always name the system, its version and the spatial level used for a map or statistical comparison.
 
 Major terrestrial biomes include tropical moist forests, tropical seasonal forests, savannas, tropical deserts, Mediterranean shrublands, temperate broadleaf and mixed forests, temperate grasslands, boreal forests (taiga), tundra, polar deserts and mountain biomes.
 
@@ -644,6 +644,7 @@ Every study requires appropriate sampling design, replication, control of season
 8. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being: Synthesis** (2005) — links between ecosystem processes and human well-being. https://www.millenniumassessment.org/en/Synthesis.html
 9. Chapin, F. S., Matson, P. A., & Vitousek, P. M. (2011). *Principles of Terrestrial Ecosystem Ecology* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4419-9504-9
 10. Convention on Biological Diversity. **Kunming–Montreal Global Biodiversity Framework** (2022), especially Targets 2 and 3 on ecosystem restoration and area-based conservation. https://www.cbd.int/gbf/
+11. Keith, D. A., Ferrer-Paris, J. R., Nicholson, E., & Kingsford, R. T. (eds.). **IUCN Global Ecosystem Typology 2.0: Descriptive Profiles for Biomes and Ecosystem Functional Groups** (2020). IUCN. https://doi.org/10.2305/IUCN.CH.2020.13.en
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
 
