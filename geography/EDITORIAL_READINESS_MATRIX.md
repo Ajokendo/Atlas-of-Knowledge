@@ -101,7 +101,7 @@
 
 ### Visual inventory clarification — 4 November 2026
 
-The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 and 20 only: `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, `20-I-glacier-anatomy.svg` and `20-K-national-water-use-2025.svg`. Their presence explains the cross-atlas count of four embedded SVGs in the matrix. Chapters 01 and 02 still have **zero approved/integrated visual assets**; their 21 visual briefs remain separate and are tracked in `IMAGE_SOURCES.md`. “Embedded” here means a Markdown image reference exists in the chapter source; it does not claim that a deployed website render, mobile layout or accessibility test has passed.
+The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 and 20 only: `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, `20-I-glacier-anatomy.svg` and `20-K-national-water-use-2025.svg`. Chapters 01 and 02 now differ: Chapter 01 still has zero integrated visuals; Chapter 02 has four source-hosted remote images linked in its Markdown (2-B, 2.3-A, 2-C and 2.4-A). These are not local SVG/image files and do not establish that deployed rendering, mobile layout or accessibility has passed. All 21 visual briefs remain tracked separately in `IMAGE_SOURCES.md`.
 
 
 ### Chapter 02 — primary-source spot check — 4 November 2026
@@ -135,3 +135,11 @@ The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 an
 - **Chapter 02, integrated model — 4 November 2026:** expanded section 2.15 in Russian and English. It now explicitly distinguishes energy flow from matter cycling; identifies system components and permeable boundaries; gives a cross-sphere precipitation–river–erosion–vegetation example; explains feedbacks, scale, time delays, human influence and model limitations. Added NASA My NASA Data and U.S. Department of Energy sources (references 30–31). This is a content improvement and source alignment, not proof that the KGEO-01 visual has been created or integrated.
 
 - **Chapter 02, review-question alignment — 4 November 2026:** added matching Russian and English questions on the distinction between energy flow and matter cycling, and on explaining/test­ing cross-sphere causal links. The questions now assess the key concepts introduced in the expanded integrated model.
+
+
+### Chapter 02 — image-first integration — 4 November 2026
+
+- Integrated four direct source-image links into the bilingual chapter: NOAA JetStream's atmospheric-layer graphic (2-B) and temperature profile (2.3-A), plus USGS Water Science School's water-distribution chart (2-C) and 2022 global water-cycle diagram (2.4-A).
+- Rights review: both USGS individual media records explicitly state Public Domain. The NOAA page identifies NOAA/JetStream and no third-party credit; NOAA's official reuse guidance states that NOAA content is generally public domain unless otherwise credited and requests NOAA attribution.
+- Scientific captions preserve the key limits: water-distribution percentages trace to Shiklomanov (1993), while the USGS 2022 water-cycle diagram includes human water use and water-quality effects. Atmospheric heights/profile are presented as approximate/representative.
+- These are remotely hosted images, not locally stored binaries. External loading, page performance, responsive behavior, alt-text rendering and mobile/browser checks remain outstanding. No deployment test is claimed.
