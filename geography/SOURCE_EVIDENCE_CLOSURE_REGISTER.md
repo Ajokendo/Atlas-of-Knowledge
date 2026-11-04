@@ -668,3 +668,11 @@ The chapter-level audit records were added to each source chapter. Findings and 
 - Verified the WUP 2025 grid methodology against its official methodological report, including the two-stage classification, 1 km² grid and caveats on global grid-level use. Source: https://population.un.org/wup/assets/Publications/undesa_pd_2025_wup2025_methodological_report.pdf
 - **Non-visual work status:** scientific definitions, formula explanations, RU/EN section alignment, glossary, learning questions, practical tasks, references and arithmetic checks completed for this editorial pass. Readiness matrix set to 90%; the remaining 10% is reserved for six visual assets 09-A–09-F and their subsequent scientific/accessibility review. Browser/mobile/rendered-site checks are deferred until the visual assets are integrated; no such checks are claimed.
 - Chapter commits: `a4d2564b0acdac441a7ca4cd4dbdef5e8343e988` (scientific definitions and bilingual structure); `012746e940b94c508f67ff35ccc5983e7641a03b` (close non-visual audit record). Matrix commit: `ac5ddaa42e9228a1d5868f441f141ea39e5a417a`.
+
+
+### Chapter 09 — visual inventory and figure numbering correction — 5 November 2026
+
+- A final audit of the illustration briefs found that Figure 9.1 (demographic data sources) already had a bilingual production brief but lacked an explicit placeholder ID, while the world-population trend placeholder 09-A lacked its numbered figure caption. Added the missing 09-G placeholder for Figure 9.1, added Figure 9.2 for the world-population trend and renumbered the remaining captions sequentially through Figure 9.7.
+- Updated the Russian and English age-sex-pyramid practical activity references from Figure 9.3 to Figure 9.4.
+- The complete visual backlog is therefore **seven** assets: 09-A–09-G, with seven numbered figure captions 9.1–9.7. None has been generated or integrated. Readiness remains 90% pending those assets and their later scientific/accessibility review.
+- Chapter commits: `e7ffa637cc08292c6313e7041fae2938a6c937e6` (figure inventory and numbering); `c18fb8c999f4a815d5aecef9b7b90d5351ec9b6f` (corrected remaining-work count). Matrix commit: `769b4e4b67f798efe15aaba3147b6f2b84a3d4eb`.
