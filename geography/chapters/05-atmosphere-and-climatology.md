@@ -313,7 +313,11 @@
 - Полярные районы получают мало солнечной энергии в среднем за год и имеют низкие температуры.
 - Горные районы отличаются сильной высотной и экспозиционной дифференциацией климата.
 
-**Место для иллюстрации 5.12-A — Global Climate Belts.** Карта широтных климатических поясов с сезонными смещениями и примерами региональных исключений.
+**Иллюстрация 5.12-A — Global Climate Belts / Климатические пояса мира.**
+
+![Климатические пояса мира: условная широтная модель / Global climate belts: conceptual latitudinal model](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-global-climate-belts.svg)
+
+*Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показаны экваториальный, тропический, субтропический, умеренный, субполярный и полярный пояса в обоих полушариях. Волнистые границы подчёркивают, что климатические пояса не являются идеальными параллельными полосами; их положение зависит от сезона, циркуляции атмосферы, распределения суши и океана и рельефа. Схема не предназначена для определения точных границ или классификации конкретного места. / Original bilingual conceptual diagram by Atlas of Knowledge. It shows equatorial, tropical, subtropical, temperate, subpolar and polar belts in both hemispheres. Curved boundaries emphasise that climate belts are not perfect parallel bands; their position is influenced by season, atmospheric circulation, land–ocean distribution and relief. The diagram is not intended for locating exact boundaries or classifying a specific place.*
 
 ## 5.13. Микроклимат и городской климат / Microclimates and Urban Climate
 
