@@ -226,3 +226,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 10 — UNCLOS source precision — 5 November 2026
 
 - Added direct official UN links for UNCLOS Part VI (continental shelf) and Part VII (high seas), strengthening traceability for the chapter's legal distinctions between seabed rights, superjacent waters and high-seas freedoms. Commit: `aeecc0a1f4aff9e2f6adfca03c2abfa5ef13f59a`.
+
+
+### Chapter 07 — CBD Target 2 and Target 3 wording — 5 November 2026
+
+- Matched the bilingual wording to the official CBD guidance, including the distinction between areas under effective restoration (Target 2) and areas effectively conserved and managed (Target 3), plus the monitoring/resourcing and completion-time caveat. Commit: `9adc9ecaaf124cc1b91d0dc22b0a395495ec5a9b`.
