@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Мембранный транспорт / Membrane transport</title>
+<desc id="desc">Двуязычная схема фосфолипидного бислоя и четырёх способов переноса: простая диффузия, облегчённая диффузия через канал, осмос и активный перенос с использованием АТФ. / Bilingual diagram of a phospholipid bilayer and four transport mechanisms: simple diffusion, facilitated diffusion through a channel, osmosis and ATP-powered active transport.</desc>
+<defs>
+ <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#245b49"/></marker>
+ <marker id="arrBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#286b9b"/></marker>
+ <marker id="arrGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#a66b12"/></marker>
+ <style>
+ text{font-family:Arial,sans-serif;fill:#20332e}
+ .ru{font-size:21px;font-weight:700}.en{font-size:17px;fill:#52645e}
+ .small{font-size:17px}.tiny{font-size:14px}
+ .panel{fill:#fffdf7;stroke:#c9d5cb;stroke-width:2}
+ .head{fill:#e6b85c;stroke:#9c6c24;stroke-width:1.5}
+ .tail{stroke:#b77b2c;stroke-width:5;stroke-linecap:round}
+ .protein{fill:#91b9a6;stroke:#245b49;stroke-width:3}
+ .flow{fill:none;stroke:#245b49;stroke-width:4;marker-end:url(#arr)}
+ .water{fill:none;stroke:#286b9b;stroke-width:4;marker-end:url(#arrBlue)}
+ .active{fill:none;stroke:#a66b12;stroke-width:4;marker-end:url(#arrGold)}
+ </style>
+</defs>
+<rect width="1200" height="900" fill="#f5f2e8"/>
+<text x="600" y="48" text-anchor="middle" class="ru" style="font-size:30px">МЕМБРАННЫЙ ТРАНСПОРТ</text>
+<text x="600" y="76" text-anchor="middle" class="en" style="font-size:23px">MEMBRANE TRANSPORT</text>
+<rect x="48" y="100" width="1104" height="225" rx="20" class="panel"/>
+<text x="76" y="136" class="ru">Фосфолипидный бислой</text><text x="76" y="160" class="en">Phospholipid bilayer</text>
+<text x="76" y="197" class="small">Внеклеточная среда / Extracellular fluid</text>
+<text x="76" y="294" class="small">Цитоплазма / Cytoplasm</text>
+<!-- bilayer -->
+<g>
+<rect x="72" y="211" width="1056" height="26" rx="12" fill="#f2dfb5" opacity=".65"/>
+<rect x="72" y="251" width="1056" height="26" rx="12" fill="#f2dfb5" opacity=".65"/>
+<g id="lipids">
+<circle cx="92" cy="214" r="9" class="head"/><path d="M89 223 l-3 19 M95 223 l3 19" class="tail"/><circle cx="92" cy="274" r="9" class="head"/><path d="M89 265 l-3 -19 M95 265 l3 -19" class="tail"/><circle cx="132" cy="214" r="9" class="head"/><path d="M129 223 l-3 19 M135 223 l3 19" class="tail"/><circle cx="132" cy="274" r="9" class="head"/><path d="M129 265 l-3 -19 M135 265 l3 -19" class="tail"/><circle cx="172" cy="214" r="9" class="head"/><path d="M169 223 l-3 19 M175 223 l3 19" class="tail"/><circle cx="172" cy="274" r="9" class="head"/><path d="M169 265 l-3 -19 M175 265 l3 -19" class="tail"/><circle cx="212" cy="214" r="9" class="head"/><path d="M209 223 l-3 19 M215 223 l3 19" class="tail"/><circle cx="212" cy="274" r="9" class="head"/><path d="M209 265 l-3 -19 M215 265 l3 -19" class="tail"/><circle cx="252" cy="214" r="9" class="head"/><path d="M249 223 l-3 19 M255 223 l3 19" class="tail"/><circle cx="252" cy="274" r="9" class="head"/><path d="M249 265 l-3 -19 M255 265 l3 -19" class="tail"/><circle cx="292" cy="214" r="9" class="head"/><path d="M289 223 l-3 19 M295 223 l3 19" class="tail"/><circle cx="292" cy="274" r="9" class="head"/><path d="M289 265 l-3 -19 M295 265 l3 -19" class="tail"/><circle cx="332" cy="214" r="9" class="head"/><path d="M329 223 l-3 19 M335 223 l3 19" class="tail"/><circle cx="332" cy="274" r="9" class="head"/><path d="M329 265 l-3 -19 M335 265 l3 -19" class="tail"/><circle cx="372" cy="214" r="9" class="head"/><path d="M369 223 l-3 19 M375 223 l3 19" class="tail"/><circle cx="372" cy="274" r="9" class="head"/><path d="M369 265 l-3 -19 M375 265 l3 -19" class="tail"/><circle cx="412" cy="214" r="9" class="head"/><path d="M409 223 l-3 19 M415 223 l3 19" class="tail"/><circle cx="412" cy="274" r="9" class="head"/><path d="M409 265 l-3 -19 M415 265 l3 -19" class="tail"/><circle cx="452" cy="214" r="9" class="head"/><path d="M449 223 l-3 19 M455 223 l3 19" class="tail"/><circle cx="452" cy="274" r="9" class="head"/><path d="M449 265 l-3 -19 M455 265 l3 -19" class="tail"/><circle cx="492" cy="214" r="9" class="head"/><path d="M489 223 l-3 19 M495 223 l3 19" class="tail"/><circle cx="492" cy="274" r="9" class="head"/><path d="M489 265 l-3 -19 M495 265 l3 -19" class="tail"/><circle cx="532" cy="214" r="9" class="head"/><path d="M529 223 l-3 19 M535 223 l3 19" class="tail"/><circle cx="532" cy="274" r="9" class="head"/><path d="M529 265 l-3 -19 M535 265 l3 -19" class="tail"/><circle cx="572" cy="214" r="9" class="head"/><path d="M569 223 l-3 19 M575 223 l3 19" class="tail"/><circle cx="572" cy="274" r="9" class="head"/><path d="M569 265 l-3 -19 M575 265 l3 -19" class="tail"/><circle cx="612" cy="214" r="9" class="head"/><path d="M609 223 l-3 19 M615 223 l3 19" class="tail"/><circle cx="612" cy="274" r="9" class="head"/><path d="M609 265 l-3 -19 M615 265 l3 -19" class="tail"/><circle cx="652" cy="214" r="9" class="head"/><path d="M649 223 l-3 19 M655 223 l3 19" class="tail"/><circle cx="652" cy="274" r="9" class="head"/><path d="M649 265 l-3 -19 M655 265 l3 -19" class="tail"/><circle cx="692" cy="214" r="9" class="head"/><path d="M689 223 l-3 19 M695 223 l3 19" class="tail"/><circle cx="692" cy="274" r="9" class="head"/><path d="M689 265 l-3 -19 M695 265 l3 -19" class="tail"/><circle cx="732" cy="214" r="9" class="head"/><path d="M729 223 l-3 19 M735 223 l3 19" class="tail"/><circle cx="732" cy="274" r="9" class="head"/><path d="M729 265 l-3 -19 M735 265 l3 -19" class="tail"/><circle cx="772" cy="214" r="9" class="head"/><path d="M769 223 l-3 19 M775 223 l3 19" class="tail"/><circle cx="772" cy="274" r="9" class="head"/><path d="M769 265 l-3 -19 M775 265 l3 -19" class="tail"/><circle cx="812" cy="214" r="9" class="head"/><path d="M809 223 l-3 19 M815 223 l3 19" class="tail"/><circle cx="812" cy="274" r="9" class="head"/><path d="M809 265 l-3 -19 M815 265 l3 -19" class="tail"/><circle cx="852" cy="214" r="9" class="head"/><path d="M849 223 l-3 19 M855 223 l3 19" class="tail"/><circle cx="852" cy="274" r="9" class="head"/><path d="M849 265 l-3 -19 M855 265 l3 -19" class="tail"/><circle cx="892" cy="214" r="9" class="head"/><path d="M889 223 l-3 19 M895 223 l3 19" class="tail"/><circle cx="892" cy="274" r="9" class="head"/><path d="M889 265 l-3 -19 M895 265 l3 -19" class="tail"/><circle cx="932" cy="214" r="9" class="head"/><path d="M929 223 l-3 19 M935 223 l3 19" class="tail"/><circle cx="932" cy="274" r="9" class="head"/><path d="M929 265 l-3 -19 M935 265 l3 -19" class="tail"/><circle cx="972" cy="214" r="9" class="head"/><path d="M969 223 l-3 19 M975 223 l3 19" class="tail"/><circle cx="972" cy="274" r="9" class="head"/><path d="M969 265 l-3 -19 M975 265 l3 -19" class="tail"/><circle cx="1012" cy="214" r="9" class="head"/><path d="M1009 223 l-3 19 M1015 223 l3 19" class="tail"/><circle cx="1012" cy="274" r="9" class="head"/><path d="M1009 265 l-3 -19 M1015 265 l3 -19" class="tail"/><circle cx="1052" cy="214" r="9" class="head"/><path d="M1049 223 l-3 19 M1055 223 l3 19" class="tail"/><circle cx="1052" cy="274" r="9" class="head"/><path d="M1049 265 l-3 -19 M1055 265 l3 -19" class="tail"/><circle cx="1092" cy="214" r="9" class="head"/><path d="M1089 223 l-3 19 M1095 223 l3 19" class="tail"/><circle cx="1092" cy="274" r="9" class="head"/><path d="M1089 265 l-3 -19 M1095 265 l3 -19" class="tail"/>
+</g>
+<rect x="492" y="204" width="70" height="82" rx="25" class="protein"/>
+<path d="M514 208 Q527 240 514 282 M540 208 Q527 240 540 282" fill="none" stroke="#245b49" stroke-width="4"/>
+<rect x="780" y="203" width="76" height="85" rx="24" class="protein"/>
+<path d="M797 215 Q840 230 800 250 Q840 268 800 280" fill="none" stroke="#245b49" stroke-width="4"/>
+</g>
+<text x="610" y="190" class="tiny" text-anchor="middle">Гидрофильные головки / Hydrophilic heads</text>
+<text x="610" y="309" class="tiny" text-anchor="middle">Гидрофобные хвосты обращены внутрь / Hydrophobic tails face inward</text>
+<text x="527" y="185" class="tiny" text-anchor="middle">Канал / Channel</text>
+<text x="818" y="185" class="tiny" text-anchor="middle">Переносчик / Carrier</text>
+<!-- panels -->
+<g>
+<rect x="48" y="350" width="534" height="235" rx="18" class="panel"/>
+<rect x="618" y="350" width="534" height="235" rx="18" class="panel"/>
+<rect x="48" y="610" width="534" height="235" rx="18" class="panel"/>
+<rect x="618" y="610" width="534" height="235" rx="18" class="panel"/>
+</g>
+<!-- simple diffusion -->
+<text x="72" y="388" class="ru">1. Простая диффузия</text><text x="72" y="413" class="en">Simple diffusion</text>
+<text x="82" y="450" class="small">Высокая концентрация / High</text>
+<g fill="#527e67"><circle cx="105" cy="480" r="7"/><circle cx="145" cy="470" r="7"/><circle cx="185" cy="488" r="7"/><circle cx="225" cy="468" r="7"/><circle cx="265" cy="485" r="7"/></g>
+<path d="M300 478 H430" class="flow"/>
+<g fill="#527e67"><circle cx="465" cy="470" r="7"/><circle cx="505" cy="486" r="7"/></g>
+<text x="82" y="535" class="small">Вниз по градиенту; без АТФ</text><text x="82" y="559" class="en">Down gradient; no ATP</text>
+<!-- channel facilitated -->
+<text x="642" y="388" class="ru">2. Облегчённая диффузия</text><text x="642" y="413" class="en">Facilitated diffusion</text>
+<rect x="845" y="443" width="62" height="88" rx="22" class="protein"/>
+<path d="M868 449 V525" stroke="#245b49" stroke-width="5" stroke-dasharray="5 6"/>
+<g fill="#286b9b"><circle cx="760" cy="465" r="7"/><circle cx="790" cy="485" r="7"/><circle cx="760" cy="510" r="7"/></g>
+<path d="M790 487 H954" class="flow"/>
+<g fill="#286b9b"><circle cx="985" cy="475" r="7"/><circle cx="1020" cy="505" r="7"/></g>
+<text x="642" y="553" class="small">Через белок-канал; без АТФ</text><text x="642" y="575" class="en">Through a channel protein; no ATP</text>
+<!-- osmosis -->
+<text x="72" y="648" class="ru">3. Осмос</text><text x="72" y="673" class="en">Osmosis</text>
+<path d="M300 704 V794" stroke="#286b9b" stroke-width="8" stroke-dasharray="8 7"/>
+<text x="115" y="713" class="small">Больше растворённых</text><text x="115" y="735" class="en">More solute</text>
+<text x="340" y="713" class="small">Меньше растворённых</text><text x="340" y="735" class="en">Less solute</text>
+<path d="M220 760 H385" class="water"/>
+<g fill="#286b9b"><circle cx="135" cy="770" r="7"/><circle cx="175" cy="790" r="7"/><circle cx="230" cy="790" r="7"/></g>
+<text x="72" y="824" class="small">Вода движется к более концентрированному раствору</text>
+<!-- active transport -->
+<text x="642" y="648" class="ru">4. Активный транспорт</text><text x="642" y="673" class="en">Active transport</text>
+<rect x="835" y="700" width="82" height="78" rx="24" class="protein"/>
+<path d="M875 778 V698" class="active"/>
+<g fill="#a66b12"><circle cx="735" cy="740" r="7"/><circle cx="770" cy="765" r="7"/><circle cx="1030" cy="710" r="7"/><circle cx="1060" cy="735" r="7"/><circle cx="1090" cy="760" r="7"/></g>
+<path d="M785 752 Q810 752 835 752" class="active"/>
+<text x="934" y="716" class="small">АТФ → АДФ + Pi</text><text x="934" y="741" class="en">ATP → ADP + Pi</text>
+<text x="642" y="808" class="small">Против градиента; нужна энергия</text><text x="642" y="832" class="en">Against gradient; energy required</text>
+<text x="600" y="878" text-anchor="middle" class="tiny">Схема условная, не в масштабе / Schematic, not to scale</text>
+</svg>
