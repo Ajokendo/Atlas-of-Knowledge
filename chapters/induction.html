@@ -23,7 +23,7 @@
 const cfg={"id":"15","controls":[["Число витков N",1,500,1,100,"витков"],["Изменение B",0.001,0.5,0.001,0.02,"Тл"],["Площадь A",0.001,0.1,0.001,0.01,"м²"]],"calc":"const [N,dB,A]=x;const dt=0.1,flux=dB*A,emf=N*flux/dt;return [[emf,'В',3],[flux,'Вб',5],[flux/dt,'В',3]];"};
 const $=id=>document.getElementById(id),inputs=cfg.controls.map((_,i)=>$("p"+i)),fmt=(n,d)=>Number.isFinite(n)?n.toFixed(d).replace(".",","):"—";
 function update(){const x=inputs.map(el=>+el.value);x.forEach((v,i)=>{const step=String(cfg.controls[i][3]),decimals=step.includes(".")?step.split(".")[1].length:0;$("o"+i).textContent=fmt(v,decimals)+" "+cfg.controls[i][5];});const results=(function(x){const [N,dB,A]=x;const dt=0.1,flux=dB*A,emf=N*flux/dt;return [[emf,'В',3],[flux,'Вб',5],[flux/dt,'В',3]];})(x);results.forEach((r,i)=>$("r"+i).textContent=fmt(r[0],r[2])+" "+r[1])}
-inputs.forEach(el=>el.addEventListener("input",update));window.addEventListener("resize",update);update();
+inputs.forEach(el=>el.addEventListener("input",update));update();
 const quiz={"correct":"b","explain":"По закону Фарадея |ε| = N|ΔΦ|/Δt, поэтому ЭДС пропорциональна числу витков."};document.querySelectorAll(".answers button").forEach(b=>b.addEventListener("click",()=>{const ok=b.dataset.answer===quiz.correct;$("feedback").textContent=(ok?"Верно! ":"Попробуйте ещё раз. ")+quiz.explain;$("feedback").style.color=ok?"#28734a":"#b44b38"}));
 </script><script type="module" src="../physics-lab.js"></script>
 </body></html>
