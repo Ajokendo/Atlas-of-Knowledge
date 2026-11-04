@@ -157,3 +157,38 @@ The preceding ID-linked registers contain learning purpose, filenames/page place
 3. Confirm the explicit licence or other documented rights basis for each project-created visual and code-based interactive. Add exact licence evidence and attribution wording only after confirmation.
 4. If any visual was based on an external reference, record its exact source page, direct asset URL, file-specific licence and material adaptations.
 5. Keep unknown facts marked **Unknown** and all incomplete checks **PENDING**. Do not publish a visual as VERIFIED while rights or other applicable checks remain unresolved.
+
+
+## Provenance reconstruction — 2026-11-05 (repository + prior work history)
+
+This section supersedes the earlier blanket statement that no creation evidence exists. It distinguishes file-level evidence from pair-level classification. A bilingual pair is not assigned category C unless the provenance of both language variants is supported.
+
+### Confirmed and partially corroborated AI-generated files
+
+| File / group | Evidence found | What the evidence establishes | Remaining limitation |
+|---|---|---|---|
+| `electron-cloud.svg` | `THIRD_PARTY_NOTICES.md` explicitly records ChatGPT generation during Chemistry Atlas development; Git history records its addition in commit `afca6cb0ed` (2026-10-31). | The English SVG is documented as AI-generated for this project; no user-supplied source artwork is recorded. | The Russian counterpart's individual generation history is not separately recorded. AI generation does not itself settle copyright ownership. |
+| `reaction-schematic.svg` | `THIRD_PARTY_NOTICES.md` explicitly records ChatGPT generation; Git history records addition in commit `794d5ca15a` (2026-10-31). | The English SVG is documented as AI-generated for this project; no external source artwork is identified. | The Russian counterpart is included in the assistant's 2026-11-01 work-history list of Russian SVGs added for the atlas, but its prompt/source record is not preserved. |
+| `carbon-cycle.svg` | `THIRD_PARTY_NOTICES.md` explicitly records ChatGPT generation; Git history records addition in commit `e772ee79d8` (2026-10-31). | The English SVG is documented as AI-generated for this project; no user-supplied source artwork is recorded. | The Russian counterpart's individual generation history is not separately recorded. |
+| Russian variants for neutralisation, mole, isotope/elements, formula reading, organic functional groups, reaction schematic and solution saturation | Prior assistant work-history entry dated 2026-11-01 records that these Russian SVG variants were created/added during the Chemistry Atlas work. Current filenames that match those topics are `acid-base-neutralisation-ru.svg`, `one-mole-scale-ru.svg`, `isotope-abundance-ru.svg`, `formula-reading-ru.svg`, `organic-functional-groups-ru.svg`, `reaction-schematic-ru.svg`, and `solution-saturation-particles-ru.svg`. | Strong project-history evidence that the assistant produced the Russian variants; the user did not supply images or source artwork. | The historical note is topic-level, not a preserved per-file prompt or source hash. Keep file-level origin labelled “AI-assisted creation recorded in work history; prompt record absent”, not independently verified authorship. |
+
+The above evidence covers 10 of the 22 SVG files at file level (three English originals documented in the repository plus seven Russian variants recorded in prior work history). It does **not** establish the origin of the other 12 files, nor does it establish the provenance of every complete RU/EN pair. Those files remain **Unknown / PENDING** until their creation history is recovered.
+
+### Interactive systems — source-code inspection
+
+All seven registered interactive systems were inspected in their current page source: `chapters/atomic-structure.html`, `chapters/chemical-bonding.html`, `periodic-table.html`, `molecule-lab.html`, `gas-laws.html`, and `virtual-lab.html`. Their visual rendering is implemented in page-local HTML/SVG/CSS/JavaScript/Canvas. No third-party visualization package imports or external image-asset references were found in those pages; the observed external URLs are Google Fonts only. This establishes that the current visual implementations are self-contained project code, not that ChatGPT authorship or exclusive copyright ownership has been proven. The authoring prompts and code-generation history were not preserved at visual-ID level. Therefore CH-IV01–CH-IV07 remain **creator/method/rightsholder PENDING**; do not reclassify them as category C solely from local inline code.
+
+### SVG dependency scan
+
+The 20 SVG files inspected in this pass contain no external `href` / `xlink:href` dependencies. The only URL found in each file is the standard W3C SVG namespace. The remaining two carbon-cycle files are not included in this scan result and must not be inferred from the 20-file sample. No embedded third-party image link was identified in the inspected files. This technical scan does not establish the absence of copied visual composition or unrecorded source influence.
+
+### External candidates versus adopted assets
+
+The OpenStax, PubChem, PhET and Wikimedia candidates recorded above were located during retrospective searches. The inspected Chemistry visual code/assets do not reference those candidates, and the register records them as not adopted. Do not attribute the local SVGs or interactive systems to those sources without new evidence.
+
+### Updated classification rule for this audit
+
+- File-level AI-generation evidence is recorded only where a repository notice or prior work-history record supports it.
+- Pair-level category A/B/C remains PENDING if either language variant lacks a reliable source/creation record.
+- Interactive code remains PENDING for creator/rightsholder and explicit rights basis, even when the implementation is local and has no external visual-library imports.
+- The user supplied none of the visual assets or source artwork, according to the user's explicit statement in this conversation; this rules out user-supplied provenance but does not identify the original creator of every remaining file.
