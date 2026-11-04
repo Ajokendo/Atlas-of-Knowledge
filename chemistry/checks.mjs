@@ -600,8 +600,10 @@ const virtualLabPage = fs.readFileSync(path.join(root, "virtual-lab.html"), "utf
 for (const [label, evidence] of [
   ["Russian monobasic-base scope", "сильного одноосновного основания (например, NaOH)"],
   ["English monobasic-base scope", "strong monobasic base (for example, NaOH)"],
-  ["Russian dilute-solution and volume assumptions", "аддитивность объёмов"],
-  ["English dilute-solution and volume assumptions", "additive volumes"],
+  ["Russian dilute ideal-solution assumption", "разбавленные идеальные растворы"],
+  ["English dilute ideal-solution assumption", "dilute ideal solutions"],
+  ["Russian additive-volume assumption", "аддитивность объёмов"],
+  ["English additive-volume assumption", "additive volumes"],
   ["Russian activity limitation", "активность ионов"],
   ["English activity limitation", "ion activities"]
 ]) {
