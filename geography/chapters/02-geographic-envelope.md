@@ -533,6 +533,8 @@ When analysing a diagram, identify variables and causal links, note time lags, d
 8. Чем отличаются положительная и отрицательная обратные связи?
 9. Как деятельность человека изменяет биогеохимические циклы?
 10. Что представляют собой планетарные границы?
+11. Чем поток энергии через систему Земли отличается от круговорота вещества?
+12. Приведите пример причинно-следственной связи между тремя или более географическими оболочками. Почему для проверки такой связи нужны наблюдения?
 
 ## Практическое задание / Practical Assignment
 
@@ -795,6 +797,8 @@ The geographic envelope is a complex natural system in which matter, energy, liv
 8. How do positive and negative feedback differ?
 9. How does human activity change biogeochemical cycles?
 10. What are planetary boundaries?
+11. How does the flow of energy through the Earth system differ from the cycling of matter?
+12. Give an example of a cause-and-effect connection among at least three Earth spheres. Why are observations needed to test this connection?
 
 ### Practical Assignment
 
