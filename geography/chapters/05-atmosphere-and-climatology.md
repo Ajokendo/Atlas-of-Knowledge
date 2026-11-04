@@ -24,6 +24,8 @@
 
 Водяной пар не включён в таблицу сухого воздуха: его содержание сильно меняется в пространстве и времени — от почти нулевых значений в холодном сухом воздухе до нескольких процентов во влажном тёплом воздухе.
 
+Для CO₂ важно не смешивать разные способы расчёта: предварительное среднегодовое значение NOAA за 2025 год для сети морских поверхностных станций составляет 425,62 ppm, тогда как глобально усреднённая поверхностная концентрация WMO по сети Global Atmosphere Watch составляет 426,8 ± 0,2 ppm. Разница связана с охватом и методикой наблюдений; оба значения должны сопровождаться названием сети и типом среднего. В этой таблице приведено значение NOAA, округлённое до 425,6 ppm.
+
 Атмосфера:
 - обеспечивает кислород для дыхания большинства организмов и углекислый газ для фотосинтеза;
 - переносит тепло и влагу;
@@ -456,7 +458,9 @@ These values describe the annual cycles of temperature and precipitation, but th
 
 **Место для иллюстрации 5.17-A — Climate Diagram Exercise.** Две климатограммы контрастных климатов, единая методика построения, подписи осей и период наблюдений.
 
-### 5.16.2. Как сравнивать климатические аномалии / Comparing Climate Anomalies
+## 5.18. Сравнение климатических аномалий / Comparing Climate Anomalies
+
+### 5.18.1. Как сравнивать климатические аномалии / Comparing Climate Anomalies
 
 
 Абсолютные значения температуры и осадков не всегда подходят для сравнения разных мест. Температура +5 °C может быть обычной для одного месяца и необычно высокой для другого района или сезона. Поэтому климатологи используют **аномалию** — отклонение наблюдаемого значения от выбранной климатической нормы.
@@ -501,6 +505,7 @@ For precipitation, both absolute millimetres and the percentage of normal can be
 5. Общая циркуляция атмосферы определяет глобальные ветровые пояса и влияет на климат регионов.
 6. Погода описывает краткосрочное состояние атмосферы, климат — её статистические характеристики на длительном интервале.
 7. Климатообразующие факторы включают широту, высоту, океаны, рельеф и циркуляцию.
+8. Климатические аномалии следует сравнивать относительно согласованной нормы и сопоставимых периодов наблюдений.
 8. Современное глобальное потепление преимущественно обусловлено деятельностью человека.
 9. Метеорологические наблюдения и модели лежат в основе прогнозирования погоды и оценки климатических изменений.
 
@@ -642,7 +647,7 @@ An **atmospheric front** is a transition zone between air masses with different 
 
 **Climate** is the statistical regime of weather characteristic of an area over a long period, including averages, variability, extremes and probabilities.
 
-The World Meteorological Organization recommends standard 30-year periods for climate normals, updated according to an established schedule. Climate data should always identify the specific observation period.
+The World Meteorological Organization defines climatological standard normals as averages for consecutive 30-year periods ending in a year ending with zero; the current standard period is 1991–2020. WMO recommends decadal updating. A climate normal is not interchangeable with any arbitrary 30-year average, and the baseline must be stated. Climate data should always identify the specific observation period.
 
 Meteorological observations are collected by land stations, marine platforms, weather radars, radiosondes, aircraft and satellites.
 
@@ -745,6 +750,7 @@ When analysing a climate graph:
 5. General atmospheric circulation shapes global wind belts and influences regional climates.
 6. Weather describes the short-term state of the atmosphere; climate describes its long-term statistical characteristics.
 7. Climate controls include latitude, elevation, oceans, relief and circulation.
+8. Climate anomalies should be compared against a stated normal using comparable observation periods.
 8. Modern global warming is primarily caused by human activity.
 9. Meteorological observations and models underpin weather forecasting and climate assessment.
 
@@ -779,13 +785,16 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
-1. World Meteorological Organization (WMO). *Guide to Instruments and Methods of Observation* and climate resources. https://wmo.int/
+1. World Meteorological Organization (WMO). *Guide to Instruments and Methods of Observation (WMO-No. 8)*. Use the currently approved edition for operational measurement guidance; the Provisional 2026 edition remains subject to INFCOM-4 approval (23–27 November 2026). https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/instruments-and-methods-of-observation-programme-imop/guide-instruments-and-methods-of-observation-wmo-no-8
 2. NOAA National Centers for Environmental Information. *Climate Data Online*. https://www.ncei.noaa.gov/cdo-web/
-3. NASA. *The Earth's Energy Budget*. https://earthobservatory.nasa.gov/
+3. NASA Earth Observatory. *Climate and Earth’s Energy Budget*. https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/
 4. IPCC. *Sixth Assessment Report: The Physical Science Basis (AR6 WGI)*. https://www.ipcc.ch/report/ar6/wg1/
 5. Copernicus Climate Change Service. *Climate Data Store*. https://cds.climate.copernicus.eu/
 6. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
-7. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
+7. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 globally averaged surface concentrations; published 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
+8. World Meteorological Organization. *WMO Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017). https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals
+9. World Meteorological Organization. **WMO Climatological Normals** — definition of standard 30-year periods and the current 1991–2020 collection. https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals
+10. World Meteorological Organization. **Provisional 2026 Edition of the Guide to Instruments and Methods of Observation (WMO-No. 8)** (5 October 2026). This is a provisional edition submitted for approval at INFCOM-4, scheduled for 23–27 November 2026; do not cite it as an already approved standard. https://wmo.int/media/news/provisional-2026-edition-of-guide-instruments-and-methods-of-observation-wmo-no-8
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
