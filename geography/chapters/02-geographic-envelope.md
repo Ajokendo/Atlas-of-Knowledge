@@ -1,6 +1,6 @@
 # Глава 2. Географическая оболочка Земли
 # Chapter 2. Earth's Geographic Envelope
- > **Статус:** текстовая редакция подготовлена; интегрирован 21 показ изображения (20 уникальных материалов); все 18 визуальных заданий имеют принятые иллюстрации. Для 2.13-A используется рисунок 10 из статьи с открытой лицензией CC BY 4.0. Научная приёмка, полная вычитка и веб-проверки ещё не завершены.
+ > **Статус:** интегрированы 24 показа изображений (23 уникальных материала), включая 14 оригинальных двуязычных SVG-схем; все 19 визуальных заданий главы имеют иллюстрации. Для 2.13-A используется рисунок 10 из статьи с открытой лицензией CC BY 4.0. Научная приёмка, финальная построчная вычитка и веб-проверки ещё не завершены.
 >
 > **Языки:** глава содержит русскую и английскую версии учебного текста, включая разобранный пример, контрольные вопросы и практическое задание.
 
@@ -331,7 +331,11 @@
 
 Сжигание угля, нефти и природного газа увеличивает концентрацию CO₂ в атмосфере и усиливает антропогенное воздействие на климат.
 
-**Место для иллюстрации 2.10-A — The Global Carbon Cycle.** Резервуары и потоки углерода между атмосферой, океаном, лесами, почвами, осадочными породами и хозяйственной деятельностью.
+**Иллюстрация 2.10-A — Глобальный круговорот углерода / The Global Carbon Cycle.**
+
+![Резервуары и обмен углеродом между атмосферой, наземной биосферой, почвами, океаном и геологическими запасами, включая влияние человека / Carbon reservoirs and exchanges among the atmosphere, land biosphere, soils, ocean and geological stores, including human influence](../assets/diagrams/02-10A-global-carbon-cycle.svg)
+
+*Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Она показывает основные резервуары и пути обмена, но не задаёт количественные потоки и не заменяет измерения. / Original bilingual conceptual diagram by Atlas of Knowledge. It shows major reservoirs and pathways, but does not quantify fluxes or replace measurements.*
 
 ### 2.10.2. Кислородный цикл / Oxygen Cycle
 
@@ -367,7 +371,11 @@
 
 Избыточное поступление фосфора в водоёмы может вызывать эвтрофикацию.
 
-**Место для иллюстрации 2.10-B — Nitrogen and Phosphorus Cycles.** Сравнительная схема двух циклов с почвой, растениями, микроорганизмами, водоёмами и атмосферой.
+**Иллюстрация 2.10-B — Круговороты азота и фосфора / Nitrogen and Phosphorus Cycles.**
+
+![Сравнение круговоротов азота и фосфора: атмосферный резервуар и микробные превращения азота; выветривание пород, почвы, вода и организмы в цикле фосфора / Comparison of nitrogen and phosphorus cycles: atmospheric nitrogen and microbial transformations; rock weathering, soils, water and organisms in the phosphorus cycle](../assets/diagrams/02-10B-nitrogen-phosphorus-cycles.svg)
+
+*Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Она подчёркивает, что у фосфорного цикла нет значительной газовой фазы; стрелки не показывают количественные потоки. / Original bilingual conceptual diagram by Atlas of Knowledge. It highlights that the phosphorus cycle has no major gaseous phase; arrows do not represent quantified fluxes.*
 
 ## 2.11. Природные комплексы и геосистемы / Natural Complexes and Geosystems
 
@@ -597,7 +605,11 @@ When analysing a diagram, identify variables and causal links, note time lags, d
 - Деятельность человека стала одним из важнейших факторов глобальных изменений.
 - Любая модель упрощает реальность: её выводы необходимо сопоставлять с наблюдениями, измерениями и масштабом задачи.
 
-**Место для главной иллюстрации KGEO-01 — Earth as an Integrated System.** Итоговая схема четырёх оболочек, криосферы, биогеохимических циклов, потоков энергии, природных комплексов и антропогенного воздействия.
+**Иллюстрация 2.15-A — Земля как целостная система / Earth as an Integrated System.**
+
+![Взаимосвязь атмосферы, гидросферы, литосферы, биосферы и криосферы с круговоротами вещества, потоками энергии и воздействием человека / Interactions among the atmosphere, hydrosphere, lithosphere, biosphere and cryosphere, with matter cycles, energy flows and human influence](../assets/diagrams/02-15A-integrated-earth-system.svg)
+
+*Оригинальная итоговая схема Atlas of Knowledge. Границы оболочек перекрываются; стрелки показывают примеры связей, а не измеренные величины. / Original summary diagram by Atlas of Knowledge. Sphere boundaries overlap; arrows show example interactions, not measured quantities.*
 
 ## Контрольные вопросы / Review Questions
 
