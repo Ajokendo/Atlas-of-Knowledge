@@ -71,5 +71,5 @@
 <rect class="orange" x="805" y="608" width="335" height="145" rx="14"/>
 <text x="972" y="638" text-anchor="middle" style="font:700 18px Arial;fill:#654a1d">Важно / Important</text>
 <text class="lab" x="825" y="668">Крылья птиц и насекомых</text><text class="lab" x="825" y="690">аналогичны как органы полёта,</text><text class="lab" x="825" y="712">но не гомологичны как крылья.</text>
-<text class="sm" x="825" y="750">Bird and insect wings are analogous</text><text class="sm" x="825" y="734">as flight organs, not homologous wings.</text>
+<text class="sm" x="825" y="734">Bird and insect wings are analogous</text><text class="sm" x="825" y="750">as flight organs, not homologous wings.</text>
 </svg>
