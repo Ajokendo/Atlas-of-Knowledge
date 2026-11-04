@@ -653,5 +653,9 @@ Every study requires appropriate sampling design, replication, control of season
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
 
+В текущем тексте не приводятся индивидуальные категории Красного списка для конкретных видов. Если такой пример будет добавлен, необходимо указать научное название таксона, географический охват оценки (глобальная или региональная), категорию и применённые критерии, даты оценки и публикации, а также версию Красного списка.
+
+The current chapter does not assign individual IUCN Red List categories to named species. If a species example is added later, cite its scientific name, assessment scope (global or regional), category and criteria, assessment and publication dates, and the Red List version.
+
 ---
 **Конец главы 7 / End of Chapter 7**
