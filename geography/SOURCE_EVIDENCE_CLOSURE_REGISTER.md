@@ -487,3 +487,8 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Added NOAA National Ocean Service's direct explainer as a second source for the widely used five-ocean convention and the non-ratification caveat for the 60°S Southern Ocean boundary. Commit: `b32e9ece268f789c95f322d343e32e68236e4a5d`.
+
+
+### Chapter 09 — WUP 2025 grid-level implementation nuance — 5 November 2026
+
+- Refined the bilingual description of the Degree of Urbanization: the full methodology has a two-stage process, but WUP 2025's global dataset relies primarily on the 1 km² grid classification because no open worldwide boundary dataset exists for small spatial units. This avoids implying that the global WUP dataset applies the second-stage administrative-unit assignment everywhere. Checked against the WUP 2025 methodology report, Box II.2. Commit: `12d32b88bbdf4f14f9be1eddeb927897c7daacc8`.
