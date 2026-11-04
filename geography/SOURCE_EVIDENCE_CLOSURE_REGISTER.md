@@ -466,3 +466,8 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Follow-up verification caught and corrected a duplicated H symbol in the English horizon list and aligned the English classification note with the Russian text. Both versions now list H, O, A, E, B, C and R once and distinguish master horizon/layer designations from the diagnostic criteria used for formal WRB classification. Commits: `616affb021a9729a8355d51048a622348f3547f8`, `6727ea73c466ab38ed0b9b192c67cfee6ae856c3`.
+
+
+### Chapter 07 — GBF Target 3 geographic scope — 5 November 2026
+
+- Clarified in both languages that the 30% conservation objective in Target 3 is a global target, not an automatic 30% national-territory quota for every country. Retained the distinction between effective conservation, strict protection and rights-compatible sustainable use. Commit: `44e95d29e79d5b8731c94ffd4a568c92e593b66a`.
