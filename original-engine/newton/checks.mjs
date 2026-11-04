@@ -12,6 +12,7 @@ check('second law: a = F/m, double the mass halves a', near(M.A1, 3) && near(M.A
 check('friction: static matches the push below F_smax', [0.5, 1.5, 2.4].every(t => near(M.friction(t).f, M.friction(t).F)));
 check('friction: slips when F = μs·FN', near(M.T_SLIP * M.RAMP, M.MU_S * M.FN), `${M.F_SMAX.toFixed(2)} N at ${M.T_SLIP.toFixed(2)} s`);
 check('friction: μs > μk, so it jumps from static max to kinetic', M.F_SMAX > M.F_K, `${M.F_SMAX.toFixed(2)} → ${M.F_K.toFixed(2)} N`);
+check('friction: at breakaway, speed and position remain continuous while acceleration becomes positive', near(M.friction(M.T_SLIP).v, 0) && near(M.friction(M.T_SLIP).x, 0) && near(M.friction(M.T_SLIP).a, (M.F_SMAX - M.F_K) / M.M1), `${M.friction(M.T_SLIP).a.toFixed(2)} m/s² immediately after slipping`);
 // sliding: dv/dt = (F − fk)/m and dx/dt = v, checked numerically
 check('sliding: m·dv/dt = F − f_k', [2.6, 2.9].every(t => near(M.M1 * (M.friction(t + h).v - M.friction(t - h).v) / (2 * h), M.RAMP * t - M.F_K, 1e-5)));
 check('sliding: dx/dt = v', [2.6, 2.9].every(t => near((M.friction(t + h).x - M.friction(t - h).x) / (2 * h), M.friction(t).v, 1e-5)));
@@ -26,6 +27,8 @@ check('critical angle: tan θ = μ', near(Math.tan(M.critical(0.3) * Math.PI / 1
 check('two strings: 2T sin θ = mg', [25, 45, 70].every(d => near(2 * M.tension2(d) * Math.sin(d * Math.PI / 180), M.W1)), `T(30°) = ${M.tension2(30).toFixed(2)} N`);
 check('flatter strings, more tension', M.tension2(20) > M.tension2(45) && M.tension2(45) > M.tension2(70));
 check('vertical strings share the weight: T(90°) = mg/2', near(M.tension2(90), M.W1 / 2));
+check('two-string vector balance: horizontal components cancel and vertical components equal weight throughout the angle sweep', [20, 25, 35, 45, 55, 65, 70].every(d => { const T = M.tension2(d), rad = d * Math.PI / 180; return near(-T * Math.cos(rad) + T * Math.cos(rad), 0) && near(2 * T * Math.sin(rad), M.W1); }));
+check('animated string angle stays within the modelled 20°–70° range', [0, 2.5, 5, 7.5, 10].every(t => { const a = M.hangAngle(t); return a >= 20 - 1e-9 && a <= 70 + 1e-9; }));
 // plane
 check('level flight: lift = weight, thrust = drag', near(M.PLANE.L, M.PLANE.W) && near(M.PLANE.T, M.PLANE.D));
 // car: closed form against the equation of motion
