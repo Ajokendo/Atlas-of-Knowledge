@@ -374,3 +374,8 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Updated the maritime-zones visual specification to distinguish the Area seabed from the high-seas water column and added English production instructions, maintaining bilingual asset requirements. Commit: `aef5597993c6f40abad063be6574fa489f23870b`.
+
+
+### Chapter 07 — IUCN Red List release date check — 5 November 2026
+
+- Updated the dynamic Red List source to version 2026-1 (published 9 July 2026), the latest available release on the audit date; the planned 2026-2 release is not yet published. Added IUCN's official update-history page. Commit: `25ed8d2b4929f6b02e15eb4955a322b4890a2cd7`.
