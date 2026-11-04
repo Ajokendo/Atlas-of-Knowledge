@@ -510,3 +510,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 09 — current UN vital-statistics source — 5 November 2026
 
 - Added the UN Statistics Division Population and Vital Statistics Report, Volume LXXVIII (January 2026), including its periodically updated Tables 2 and 3 and technical notes, as a current source for national census/estimate and vital-event data. The page showed tables last updated 5 October 2026 at the time of checking. Commit: `4c51e53870866cd5a6be2476228ec4151af5c82c`.
+
+
+### Chapter 10 — bilingual visual production briefs — 5 November 2026
+
+- Added English production briefs alongside the Russian specifications for the six chapter figure concepts; the maritime-zones brief explicitly distinguishes the Area seabed from the high-seas water column. The seven in-text visual IDs remain placeholders; no images were created today. Commit: `75fee48be53b237ed9fd78e8b2b79acbd19f5725`.
