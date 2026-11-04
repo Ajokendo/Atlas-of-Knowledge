@@ -567,3 +567,6 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Updated the Chapter 06 review question on ocean classification to reflect the non-universal Southern Ocean boundary and require students to identify the classification source. Updated the Chapter 10 maritime-law review question to cover internal waters, territorial sea, contiguous zone, EEZ, continental shelf, high seas and the Area. Both RU/EN question pairs now align with the corrected content. Commits: Ch06 `7c616f8cb2ea1fe3adb40286162897b37ff00eb7`; Ch10 `e7f0577ac6598b0a9147a3a77d646878451d2d59`.
+
+
+- Extended the Chapter 08 bilingual glossary with H and O organic horizons and saturated-paste extract electrical conductivity (ECe), matching the revised WRB profile and salinity-measurement sections. Commit: `3cf71c280f48410c92a0ddd3f9c4f818c861d3d9`.
