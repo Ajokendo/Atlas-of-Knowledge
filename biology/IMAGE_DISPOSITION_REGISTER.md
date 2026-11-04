@@ -2,7 +2,7 @@
 
 **Decision date:** 3 November 2026  
 **Branch:** `workspace/biology`  
-**Current disposition (4 November 2026):** **24 of 52 mapped briefs are produced (46.2%), containing 15 local WebP photographs and 19 original SVG schematics**. Produced briefs: six flora briefs (Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken and Chüy); fauna briefs for mammals, birds, freshwater, herps, Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken, Talas and Chüy. The other 29 briefs remain deferred or awaiting production. The percentage counts briefs, not individual image files.
+**Current disposition (4 November 2026):** **24 of 52 mapped briefs are produced (46.2%), containing 15 local WebP photographs and 19 original SVG schematics**. Produced briefs: six flora briefs (Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken and Chüy); fauna briefs for mammals, birds, freshwater, herps, Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken, Talas and Chüy. The other 28 briefs remain deferred or awaiting production. The percentage counts briefs, not individual image files.
 
 ## Common deferral rationale
 
