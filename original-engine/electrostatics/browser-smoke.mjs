@@ -56,8 +56,14 @@ async function checkLesson(mobile) {
     if (!(await readout('#r1')).includes('1797510 Н/Кл')) throw new Error(`default field should be about 1.79751e6 N/C, got ${await readout('#r1')}`);
     if (!(await readout('#r2')).includes('Отталкивание')) throw new Error('equal-sign charges should repel');
     const diagram = page.locator('#visual');
-    const initialDiagram = await diagram.evaluate(canvas => ({ width: canvas.width, height: canvas.height, distance: canvas.dataset.distance, interaction: canvas.dataset.interaction }));
-    if (initialDiagram.width < 100 || initialDiagram.height < 100 || initialDiagram.distance !== '0.10' || initialDiagram.interaction !== 'repulsion') throw new Error(`Coulomb diagram did not render its initial state: ${JSON.stringify(initialDiagram)}`);
+    const initialDiagram = await diagram.evaluate(canvas => {
+      const ctx = canvas.getContext('2d');
+      const pixels = ctx?.getImageData(0, 0, canvas.width, canvas.height).data;
+      let painted = 0;
+      if (pixels) for (let i = 3; i < pixels.length; i += 4) if (pixels[i] > 0) painted++;
+      return { width: canvas.width, height: canvas.height, distance: canvas.dataset.distance, interaction: canvas.dataset.interaction, paintedPixels: painted };
+    });
+    if (initialDiagram.width < 100 || initialDiagram.height < 100 || initialDiagram.distance !== '0.10' || initialDiagram.interaction !== 'repulsion' || initialDiagram.paintedPixels < 500) throw new Error(`Coulomb diagram did not render its initial state: ${JSON.stringify(initialDiagram)}`);
     await page.locator('#sign2').selectOption('-1');
     if (!(await readout('#r2')).includes('Притяжение')) throw new Error('opposite-sign charges should attract');
     if (await diagram.getAttribute('data-interaction') !== 'attraction') throw new Error('charge diagram did not switch to attraction');
