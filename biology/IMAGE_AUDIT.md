@@ -233,3 +233,18 @@ Reviewed six further assets: `fauna-batken-dry-highland-habitats.svg`, `fauna-ta
 - The Chuy and Talas vegetation diagrams appropriately describe transitions as conceptual rather than fixed elevation boundaries. No further source-level scientific error was established in this sample.
 
 **Batch result:** 6 regional/zoology SVGs reviewed; 1 bilingual description corrected. Global Image Verification remains **Pending audit**.
+
+
+## Documentary-photo markup and attribution sweep — 5 November 2026
+
+A focused source scan of the two regional Biology chapters checked all 15 locally packaged documentary WebP photographs: six in the Chüy fauna chapter and nine in the Kyrgyzstan flora chapter (Jalal-Abad 1, Issyk-Kul 4, Naryn 3, Osh 1).
+
+For each image element, the adjacent caption region was checked for:
+- a non-empty alternative text;
+- Russian and English attribution/caption content;
+- a direct Wikimedia Commons file-page link;
+- an explicit licence or public-domain status statement.
+
+**Result: 15/15 passed this structural markup check; no missing alt, language pair, Commons source link or rights label was found.** The asset manifests independently record source authors, exact licence labels, original dimensions and byte counts, original SHA-1 comparisons, derivative WebP checksums and conversion details.
+
+This is source-level markup and provenance-record verification. It does not constitute a fresh pixel-by-pixel visual review of all 15 binaries, legal advice on licence compatibility, or independent taxonomic certification. The unresolved Rufous-naped Tit candidates remain excluded and are not among the 15 integrated photographs. Global Image Verification remains **Pending audit** until the remaining asset-specific visual and scientific gates are documented.
