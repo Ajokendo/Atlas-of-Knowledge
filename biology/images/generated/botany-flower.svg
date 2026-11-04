@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
 <title id="title">Строение цветка и опыление / Flower structure and pollination</title>
-<desc id="desc">Обобщённый продольный разрез цветка покрытосеменного растения: околоцветник, тычинки с пыльниками и пыльцой, пестик с рыльцем, столбиком, завязью и семязачатками; отдельно показан перенос пыльцы на рыльце. Опыление не является оплодотворением.</desc>
+<desc id="desc">Обобщённый продольный разрез цветка покрытосеменного растения: околоцветник, тычинки с пыльниками и пыльцой, пестик с рыльцем, столбиком, завязью и семязачатками; отдельно показан перенос пыльцы на рыльце. Опыление не является оплодотворением. / Generalized longitudinal section of an angiosperm flower: perianth, stamens with anthers and pollen, and a pistil with stigma, style, ovary and ovules; pollen transfer to the stigma is shown separately. Pollination is not fertilization.</desc>
 <defs>
  <marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#b77a28"/></marker>
  <style>
