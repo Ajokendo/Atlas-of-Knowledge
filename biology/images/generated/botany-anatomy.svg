@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+<title id="title">Внутреннее строение корня, стебля и листа / Internal anatomy of root, stem and leaf</title>
+<desc id="desc">Три обобщённых поперечных среза: корень двудольного растения со звездчатой ксилемой, стебель двудольного растения с кольцом открытых проводящих пучков и лист с палисадной и губчатой мезофильной тканью.</desc>
+<defs>
+ <style>
+ .h{font:700 27px Arial,sans-serif;fill:#fff}.sub{font:700 19px Arial,sans-serif;fill:#243b2a}
+ .lab{font:17px Arial,sans-serif;fill:#26372d}.small{font:15px Arial,sans-serif;fill:#26372d}
+ .line{stroke:#344b3b;stroke-width:2;fill:none}.panel{fill:#fbfcf6;stroke:#9ab58b;stroke-width:2}
+ .outer{fill:#b8d69a;stroke:#5e8b54;stroke-width:3}.cortex{fill:#e5edc9;stroke:#a5b978;stroke-width:2}
+ .x{fill:#55a9dc;stroke:#176b9e;stroke-width:3}.p{fill:#b78acb;stroke:#75428f;stroke-width:2}
+ .ep{fill:#8fbd69;stroke:#4e8045;stroke-width:2}.ground{fill:#dce9bd;stroke:#a4bf80;stroke-width:2}
+ </style>
+</defs>
+<rect width="1440" height="760" fill="#f5f8ef"/>
+<rect x="18" y="14" width="1404" height="64" rx="16" fill="#285f3a"/>
+<text x="720" y="55" text-anchor="middle" class="h">Внутреннее строение растений / Internal Structure of Plants</text>
+<!-- ROOT -->
+<rect x="18" y="94" width="450" height="590" rx="18" class="panel"/>
+<rect x="18" y="94" width="450" height="54" rx="16" fill="#a66a27"/>
+<text x="243" y="130" text-anchor="middle" class="h">Корень / Root</text>
+<text x="243" y="174" text-anchor="middle" class="sub">Поперечный срез / Cross-section</text>
+<circle cx="242" cy="430" r="164" class="outer"/>
+<circle cx="242" cy="430" r="143" class="cortex"/>
+<circle cx="242" cy="430" r="82" fill="#f2d98e" stroke="#bb8d35" stroke-width="5"/>
+<!-- root xylem star -->
+<path d="M242 360 C226 385 220 402 242 430 C264 402 258 385 242 360Z
+ M312 430 C285 414 267 412 242 430 C267 448 285 446 312 430Z
+ M242 500 C258 475 264 458 242 430 C220 458 226 475 242 500Z
+ M172 430 C199 446 217 448 242 430 C217 412 199 414 172 430Z" class="x"/>
+<g class="p">
+ <circle cx="205" cy="393" r="11"/><circle cx="279" cy="393" r="11"/>
+ <circle cx="205" cy="467" r="11"/><circle cx="279" cy="467" r="11"/>
+</g>
+<g fill="#d9b7df" stroke="#8a5b9c" stroke-width="1.5">
+ <circle cx="222" cy="411" r="7"/><circle cx="262" cy="411" r="7"/><circle cx="222" cy="449" r="7"/><circle cx="262" cy="449" r="7"/>
+</g>
+<g class="line">
+ <path d="M105 275L145 300L170 320"/><path d="M335 260L310 300L300 340"/>
+ <path d="M95 570L160 520L170 495"/><path d="M360 570L300 520L285 490"/>
+ <path d="M242 545L242 515"/>
+</g>
+<g class="lab">
+ <text x="35" y="235">Ризодерма / Rhizodermis</text><text x="35" y="256" class="small">(эпидерма / epidermis)</text>
+ <text x="300" y="225">Кора / Cortex</text>
+ <text x="30" y="602">Эндодерма / Endodermis</text>
+ <text x="300" y="602">Перицикл / Pericycle</text>
+ <text x="242" y="574" text-anchor="middle">Центральный цилиндр</text><text x="242" y="594" text-anchor="middle" class="small">Stele (central cylinder)</text>
+ <text x="242" y="648" text-anchor="middle" fill="#176b9e">Ксилема / Xylem — звезда</text>
+ <text x="242" y="670" text-anchor="middle" fill="#75428f">Флоэма / Phloem — между лучами</text>
+</g>
+<!-- STEM -->
+<rect x="495" y="94" width="450" height="590" rx="18" class="panel"/>
+<rect x="495" y="94" width="450" height="54" rx="16" fill="#4d843e"/>
+<text x="720" y="130" text-anchor="middle" class="h">Стебель / Stem</text>
+<text x="720" y="174" text-anchor="middle" class="sub">Травянистый стебель двудольного / Herbaceous eudicot</text>
+<circle cx="720" cy="430" r="165" class="ep"/>
+<circle cx="720" cy="430" r="148" class="ground"/>
+<circle cx="720" cy="430" r="112" fill="#edf2d7" stroke="#b4c98e" stroke-width="2"/>
+<!-- vascular bundles around ring; phloem outer, cambium, xylem inner -->
+<g>
+ <g transform="translate(720 292)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+ <g transform="translate(818 333) rotate(55)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+ <g transform="translate(850 430) rotate(90)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+ <g transform="translate(818 527) rotate(125)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+ <g transform="translate(720 568) rotate(180)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+ <g transform="translate(622 527) rotate(235)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+ <g transform="translate(590 430) rotate(270)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+ <g transform="translate(622 333) rotate(305)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+</g>
+<g class="lab">
+ <text x="520" y="222">Эпидерма / Epidermis</text><path d="M630 228L612 278" class="line"/>
+ <text x="760" y="222">Основная ткань</text><text x="760" y="244" class="small">Ground tissue</text><path d="M780 250L760 320" class="line"/>
+ <text x="720" y="625" text-anchor="middle">Пучки по кольцу / Bundles in a ring</text>
+ <text x="720" y="650" text-anchor="middle" fill="#75428f">Флоэма снаружи / Phloem outside</text>
+ <text x="720" y="672" text-anchor="middle" fill="#176b9e">Ксилема внутри / Xylem inside</text>
+</g>
+<!-- LEAF -->
+<rect x="972" y="94" width="450" height="590" rx="18" class="panel"/>
+<rect x="972" y="94" width="450" height="54" rx="16" fill="#34734c"/>
+<text x="1197" y="130" text-anchor="middle" class="h">Лист / Leaf</text>
+<text x="1197" y="174" text-anchor="middle" class="sub">Поперечный срез / Cross-section</text>
+<!-- leaf layers -->
+<rect x="1015" y="280" width="365" height="36" rx="8" class="ep"/>
+<rect x="1015" y="316" width="365" height="112" fill="#a8d36e" stroke="#7eaa55" stroke-width="2"/>
+<g fill="#7cae4d" stroke="#527e39" stroke-width="2">
+ <rect x="1030" y="326" width="24" height="90" rx="11"/><rect x="1065" y="326" width="24" height="90" rx="11"/><rect x="1100" y="326" width="24" height="90" rx="11"/><rect x="1135" y="326" width="24" height="90" rx="11"/><rect x="1170" y="326" width="24" height="90" rx="11"/><rect x="1205" y="326" width="24" height="90" rx="11"/><rect x="1240" y="326" width="24" height="90" rx="11"/><rect x="1275" y="326" width="24" height="90" rx="11"/><rect x="1310" y="326" width="24" height="90" rx="11"/><rect x="1345" y="326" width="24" height="90" rx="11"/>
+</g>
+<rect x="1015" y="428" width="365" height="150" fill="#d9edb0" stroke="#9fbd72" stroke-width="2"/>
+<g fill="#b4d48a" stroke="#7ea65b" stroke-width="2">
+ <ellipse cx="1050" cy="455" rx="22" ry="13"/><ellipse cx="1120" cy="465" rx="27" ry="15"/><ellipse cx="1300" cy="455" rx="25" ry="14"/><ellipse cx="1360" cy="500" rx="22" ry="14"/>
+ <ellipse cx="1065" cy="530" rx="26" ry="15"/><ellipse cx="1160" cy="540" rx="22" ry="13"/><ellipse cx="1320" cy="550" rx="26" ry="14"/>
+</g>
+<!-- vascular bundle: xylem top, phloem bottom -->
+<ellipse cx="1195" cy="493" rx="68" ry="55" fill="#f4d79b" stroke="#bd9450" stroke-width="3"/>
+<path d="M1142 490Q1195 423 1248 490Q1195 512 1142 490Z" class="x"/>
+<path d="M1150 500Q1195 520 1240 500L1225 535Q1195 555 1165 535Z" class="p"/>
+<rect x="1015" y="578" width="365" height="32" rx="8" class="ep"/>
+<path d="M1080 610Q1090 592 1100 610M1100 610Q1110 592 1120 610" stroke="#fff" stroke-width="4" fill="none"/>
+<path d="M1015 276H1380" stroke="#527e39" stroke-width="5"/>
+<g class="lab">
+ <text x="1015" y="235">Кутикула / Cuticle</text><path d="M1100 242L1100 274" class="line"/>
+ <text x="1230" y="235">Верхняя эпидерма</text><text x="1230" y="256" class="small">Upper epidermis</text><path d="M1300 260L1300 294" class="line"/>
+ <text x="1015" y="652">Нижняя эпидерма / Lower epidermis</text>
+ <text x="1197" y="697" text-anchor="middle" class="small">Палисадная и губчатая мезофильная ткань / Palisade &amp; spongy mesophyll</text>
+</g>
+<g class="lab">
+ <text x="1000" y="390" class="small">Палисадная</text><text x="1000" y="408" class="small">паренхима</text>
+ <text x="1300" y="470" class="small">Губчатая</text><text x="1300" y="488" class="small">паренхима</text>
+ <text x="1125" y="550" fill="#176b9e" class="small">Ксилема / Xylem</text><text x="1215" y="570" fill="#75428f" class="small">Флоэма / Phloem</text>
+ <text x="1150" y="632" class="small">Устьице / Stoma</text>
+</g>
+<text x="720" y="733" text-anchor="middle" class="sub">Обобщённая схема, не в масштабе / Generalized diagram, not to scale</text>
+</svg>
