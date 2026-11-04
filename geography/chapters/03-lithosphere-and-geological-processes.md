@@ -994,11 +994,7 @@ On a schematic geological cross-section, identify:
 - Не изображать мантию как глобальный океан расплава или астеносферу как полностью жидкий слой.
 
 
-**Illustration 3.1-A — Earth's Internal Structure.**
 
-![Schematic Earth cutaway showing crust, mantle, outer and inner core, with lithosphere and asthenosphere distinguished. / Схематический разрез Земли: кора, мантия, внешнее и внутреннее ядро; отдельно показаны литосфера и астеносфера.](../assets/03-1-A-earth-interior-bilingual.svg)
-
-*Not to scale. The mantle and asthenosphere are predominantly solid and capable of slow deformation; compositional and mechanical layer classifications are distinct. / Схема не в масштабе. Мантия и астеносфера преимущественно твёрдые и способны к медленной деформации; химическая и механическая классификации слоёв различаются.*
 
 
 **Illustration 3.2-A — Mineral Identification Board.**
