@@ -60,6 +60,8 @@ check('pendulum: starts from rest and returns to rest after one full period', Ma
 check('pendulum: period a little longer than 2π√(L/g)', Pd.period > 2 * Math.PI * Math.sqrt(Pd.L / M.G) && Pd.period < 1.04 * 2 * Math.PI * Math.sqrt(Pd.L / M.G));
 check('pendulum: bottom speed √(2gL(1−cos θ0))', near(Math.abs(M.pendulum(Pd.period / 4).v), Math.sqrt(2 * M.G * Pd.L * (1 - Math.cos(Pd.th0))), 1e-5));
 check('pendulum: dθ/dt = ω', [0.3, 1.1].every(t => near(d(M.pendulum, t, 'th'), M.pendulum(t).om, 1e-3)));
+check('pendulum: tangential equation dω/dt = −(g/L) sin θ', [0.25, 0.65, 1.05].every(t => near(d(M.pendulum, t, 'om'), -(M.G / Pd.L) * Math.sin(M.pendulum(t).th), 2e-4)));
+check('pendulum: radial force balance T − mg cos θ = mv²/L', [0.2, 0.55, 0.9, 1.2].every(t => { const p = M.pendulum(t); return near(p.T - Pd.m * M.G * Math.cos(p.th), Pd.m * p.v ** 2 / Pd.L, 1e-9); }));
 check('pendulum: power of gravity = m g·v = dK/dt', [0.3, 0.9].every(t => { const p = M.pendulum(t); return near(-p.Ftan * p.v, d(M.pendulum, t, 'K'), 1e-3); }));
 
 // slide
