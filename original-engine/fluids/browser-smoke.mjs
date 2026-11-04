@@ -127,6 +127,22 @@ async function checkInteractiveBook(mobile) {
     if (initial.title !== 'Жидкости' || initial.pages !== 9 || !initial.webgl) throw new Error(`book did not initialize correctly: ${JSON.stringify(initial)}`);
     if (initial.canvas[0] < 100 || initial.canvas[1] < 100) throw new Error(`WebGL canvas too small: ${initial.canvas.join('×')}`);
     if (initial.overflow) throw new Error('interactive book has horizontal overflow');
+    const picker = page.locator('.scene-picker');
+    await picker.waitFor({ state: 'visible' });
+    if (await picker.locator('option').count() < 2) throw new Error('keyboard scene picker has no selectable objects');
+    await picker.focus();
+    await picker.press('ArrowDown');
+    await picker.press('Enter');
+    await page.waitForFunction(() => {
+      const plate = document.querySelector('#plate');
+      return plate && !plate.hidden && !!plate.querySelector('#scene-plate-title');
+    });
+    await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 2500 }).catch(async () => {
+      const active = await page.evaluate(() => ({ tag: document.activeElement?.tagName, id: document.activeElement?.id, className: document.activeElement?.className }));
+      throw new Error(`keyboard scene selection did not move focus to the text explanation; active element: ${JSON.stringify(active)}`);
+    });
+    await picker.selectOption('');
+    if (!(await page.locator('#plate').evaluate(el => el.hidden))) throw new Error('empty picker option did not close the scene explanation');
     const pageTitles = ['Жидкости', 'Давление', 'Давление и глубина', 'Закон Паскаля', 'Архимедова сила', 'Плавание и погружение', 'Уравнение непрерывности', 'Уравнение Бернулли', 'Закон Торричелли'];
     for (let i = 0; i < pageTitles.length; i++) {
       await page.locator('#dots button').nth(i).evaluate(button => button.click());
