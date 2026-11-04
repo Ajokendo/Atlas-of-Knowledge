@@ -337,7 +337,7 @@ async function checkMomentumChapterPage() {
       if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal page overflow');
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
       const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-      if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
+      if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => `${v.id}: ${v.nodes.map(n => `${n.target.join(' ')} [${n.failureSummary || n.html}]`).join(' | ')}`).join(' ; ')}`);
       if (errors.length) throw new Error(errors.join(' | '));
       console.log(`PASS momentum chapter page ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${required.length} sections, live collision calculations, zero-momentum edge case, quiz, WebGL ${labState.width}×${labState.height}, WCAG serious/critical: 0`);
     } catch (error) {
@@ -396,7 +396,7 @@ async function checkMomentumChapterPage() {
       await page.waitForFunction(old => document.querySelector('#sheet h1')?.textContent?.trim() !== old, before, { timeout: 15000 });
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
       const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-      if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
+      if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => `${v.id}: ${v.nodes.map(n => `${n.target.join(' ')} [${n.failureSummary || n.html}]`).join(' | ')}`).join(' ; ')}`);
       if (errors.length) throw new Error(errors.join(' | '));
       console.log(`PASS momentum interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 12 pages, WebGL ${state.width}×${state.height}, ${state.assemblies} scene assemblies, page navigation, WCAG serious/critical: 0`);
     } catch (error) {
