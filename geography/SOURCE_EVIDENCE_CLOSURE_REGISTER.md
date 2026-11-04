@@ -561,3 +561,6 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Updated the Chapter 10 bilingual key-term list to include the newly clarified maritime concepts: baseline, contiguous zone, the Area (seabed beyond national jurisdiction) and high seas. Commit: `bb34acbf677af3a78ccffaa4d4ca30ebb195a6d4`.
+
+
+- Updated the Russian and English self-check question on soil horizons to include the newly added WRB H horizon and to refer to master horizons/layers rather than imply a fixed sequence. Commit: `0b0bde34740ed99d720cfa54ece4080e83c81e91`.
