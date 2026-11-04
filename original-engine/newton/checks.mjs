@@ -130,6 +130,11 @@ keyed(10, 0, Math.sqrt(2 * G * M.INC_LEN * Math.sin(M.THETA)), 'energy: √(2g·
 { const t4 = DR.tau * Math.log(4), a = pder(u => M.linDrag(u).v, t4);
   check('practice 11.2: at t = τ ln 4, dv/dt = g/4 and bv = ¾mg', near(a, G / 4, 1e-6) && near(DR.b * M.linDrag(t4).v, 0.75 * DR.W, 1e-9), `${(DR.b * M.linDrag(t4).v).toFixed(3)} N at ${t4.toFixed(3)} s`); }
 keyed(12, 0, pint(u => M.linDrag(u).v, 0, 1), '∫v dt over 1 s, summed');
+{
+  const q = PRACTICE[12][1];
+  const expected = 'линейное сопротивление — в 4 раза, квадратичное — в 2 раза';
+  check('practice 12.2: terminal-speed scaling for fourfold mass is ×4 (linear) and ×2 (quadratic)', q.choices[q.answer] === expected && q.choices.length === 4 && new Set(q.choices).size === 4 && q.why.includes('v<sub>t</sub> ∝ <i>m</i>') && q.why.includes('v<sub>t</sub> ∝ √<i>m</i>'), q.choices[q.answer]);
+}
 }
 
 for (const r of rows) console.log(r.filter(Boolean).join('  '));
