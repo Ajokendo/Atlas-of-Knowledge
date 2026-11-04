@@ -1364,3 +1364,8 @@ This count supersedes earlier visual-production checkpoints in this README; `IMA
 The current visual register now records **25 of 52 mapped briefs produced (48.1%)**: 15 local WebP photographs and 20 original SVG schematics. A new original bilingual mitosis plate is integrated at the existing anchor in `chapters/cell-biology.html`. It shows prophase, prometaphase, metaphase, anaphase and telophase in sequence, and distinguishes nuclear division (mitosis) from cytoplasmic division (cytokinesis). No third-party image is used. Focused browser image-decode QA and the full Biology CI run are pending for this commit series.
 
 This count supersedes earlier visual-production checkpoints in this README; `IMAGE_DISPOSITION_REGISTER.md` remains the source of truth. Physical-device, screen-reader and offline-cache checks remain pending.
+
+
+## Corrected visual-production count — 4 November 2026
+
+A row-by-row recount of the 52 entries in `IMAGE_DISPOSITION_REGISTER.md` found **28 briefs marked Produced or Integrated (53.8%)**, not 25. The earlier 25/52 checkpoint undercounted the six fauna briefs already marked Integrated and some other integrated assets. This count is by visual brief, not by individual file. Three botanical plates are counted as produced/integrated but still carry focused browser-QA pending notes; those checks remain open and are not represented as passed. The register is the source of truth.
