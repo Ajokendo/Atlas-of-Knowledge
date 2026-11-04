@@ -558,3 +558,6 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 06 — bilingual key-term glossary — 5 November 2026
 
 - Added a bilingual glossary of 25 core terms covering water stores and cycle processes, catchment hydrology, oceanographic properties and circulation, marine chemistry, groundwater and water scarcity. The glossary is placed before the review questions and uses the terminology already defined in the chapter. Commit: `f827509fd7b9bba5c2d7ff441017fab4cd66a708`.
+
+
+- Updated the Chapter 10 bilingual key-term list to include the newly clarified maritime concepts: baseline, contiguous zone, the Area (seabed beyond national jurisdiction) and high seas. Commit: `bb34acbf677af3a78ccffaa4d4ca30ebb195a6d4`.
