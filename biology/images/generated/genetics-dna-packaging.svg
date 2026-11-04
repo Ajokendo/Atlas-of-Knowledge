@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Упаковка ДНК в хромосому / DNA packaging into a chromosome</title>
+<desc id="desc">От двойной спирали ДНК через нуклеосомы и петли хроматина к метафазной хромосоме из двух сестринских хроматид. / From the DNA double helix through nucleosomes and chromatin loops to a metaphase chromosome made of two sister chromatids.</desc>
+<defs><style>
+.bg{fill:#f7f8f4}.panel{fill:#fff;stroke:#d9e0d6;stroke-width:2}.ink{fill:#243329}.muted{fill:#617066}.green{stroke:#557c58;fill:none;stroke-width:5;stroke-linecap:round}.dna2{stroke:#b17a3c;fill:none;stroke-width:4;stroke-linecap:round}.thin{stroke:#879b85;fill:none;stroke-width:2}.head{font:600 27px Inter,Arial,sans-serif;fill:#243329}.sub{font:17px Inter,Arial,sans-serif;fill:#617066}.label{font:600 20px Inter,Arial,sans-serif;fill:#243329}.small{font:15px Inter,Arial,sans-serif;fill:#536258}.tiny{font:13px Inter,Arial,sans-serif;fill:#617066}.histone{fill:#dce7d8;stroke:#557c58;stroke-width:2}.chrom{stroke:#557c58;stroke-width:26;stroke-linecap:round;fill:none}.chrom2{stroke:#b17a3c;stroke-width:26;stroke-linecap:round;fill:none}
+</style></defs>
+<rect class="bg" width="1200" height="900"/>
+<text x="60" y="60" class="head">УПАКОВКА ДНК / DNA PACKAGING</text>
+<text x="60" y="94" class="sub">Как длинная молекула помещается в ядре клетки / How a long molecule fits inside the cell nucleus</text>
+<g>
+<rect x="55" y="130" width="1090" height="145" rx="16" class="panel"/>
+<text x="82" y="168" class="label">1 · Двойная спираль / DNA double helix</text>
+<path d="M100 202 C130 170 160 170 190 202 S250 234 280 202 S340 170 370 202 S430 234 460 202" class="green"/>
+<path d="M100 202 C130 234 160 234 190 202 S250 170 280 202 S340 234 370 202 S430 170 460 202" class="dna2"/>
+<g class="thin"><path d="M119 185L119 219M148 178L148 226M178 189L178 215M208 215L208 189M238 226L238 178M268 215L268 189M298 189L298 215M328 178L328 226M358 189L358 215M388 215L388 189M418 226L418 178M448 215L448 189"/></g>
+<text x="520" y="207" class="label">≈ 2 nm</text>
+<text x="520" y="235" class="small">Две комплементарные цепи / Two complementary strands</text>
+<text x="825" y="202" class="small">ДНК — двойная спираль с диаметром</text><text x="825" y="226" class="small">около 2 нм / DNA double helix, about 2 nm wide</text>
+</g>
+<g>
+<rect x="55" y="300" width="1090" height="155" rx="16" class="panel"/>
+<text x="82" y="338" class="label">2 · Нуклеосомы / Nucleosomes</text>
+<path d="M95 390 C125 360 150 420 180 390 S235 360 265 390 S320 420 350 390 S405 360 435 390" class="dna2"/>
+<g><circle cx="145" cy="388" r="23" class="histone"/><circle cx="245" cy="388" r="23" class="histone"/><circle cx="345" cy="388" r="23" class="histone"/><circle cx="445" cy="388" r="23" class="histone"/></g>
+<g class="thin"><path d="M122 376Q145 350 168 376M222 376Q245 350 268 376M322 376Q345 350 368 376M422 376Q445 350 468 376"/></g>
+<text x="520" y="382" class="label">≈ 10–11 nm</text>
+<text x="520" y="410" class="small">ДНК обёрнута вокруг гистонового октамера</text>
+<text x="520" y="432" class="small">DNA wraps around a histone octamer</text>
+<text x="825" y="377" class="small">Около 147 пар оснований ДНК</text><text x="825" y="401" class="small">на ≈1,7 витка вокруг ядра гистонов</text><text x="825" y="425" class="small">About 147 bp, roughly 1.7 turns</text>
+</g>
+<g>
+<rect x="55" y="480" width="1090" height="155" rx="16" class="panel"/>
+<text x="82" y="518" class="label">3 · Хроматиновые петли / Chromatin loops</text>
+<path d="M95 575 C140 530 185 620 230 575 S320 530 365 575 S455 620 500 575" stroke="#557c58" stroke-width="4" fill="none"/>
+<path d="M115 575 C150 545 180 605 215 575 S280 545 315 575 S380 605 415 575 S480 545 515 575" stroke="#b17a3c" stroke-width="3" fill="none" stroke-dasharray="7 5"/>
+<g fill="#dce7d8" stroke="#557c58" stroke-width="2"><circle cx="180" cy="575" r="10"/><circle cx="315" cy="575" r="10"/><circle cx="450" cy="575" r="10"/></g>
+<text x="560" y="562" class="label">Более высокий уровень организации</text>
+<text x="560" y="590" class="small">Нуклеосомная нить образует петли и домены,</text>
+<text x="560" y="614" class="small">связанные с белками каркаса / The nucleosome fibre forms loops and domains</text>
+<text x="925" y="555" class="tiny">Не одна обязательная</text><text x="925" y="575" class="tiny">«30-нм спираль»:</text><text x="925" y="595" class="tiny">укладка динамична</text><text x="925" y="615" class="tiny">and context-dependent</text>
+</g>
+<g>
+<rect x="55" y="660" width="1090" height="180" rx="16" class="panel"/>
+<text x="82" y="698" class="label">4 · Метафазная хромосома / Metaphase chromosome</text>
+<path d="M180 742 C225 775 265 775 305 742" class="chrom"/>
+<path d="M180 742 C225 710 265 710 305 742" class="chrom2"/>
+<path d="M180 742 C225 710 265 710 305 742" stroke="#557c58" stroke-width="7" fill="none"/>
+<path d="M180 742 C225 775 265 775 305 742" stroke="#b17a3c" stroke-width="7" fill="none"/>
+<circle cx="242" cy="742" r="13" fill="#243329"/>
+<path d="M242 755L242 795" class="thin"/>
+<text x="350" y="742" class="label">Две сестринские хроматиды</text>
+<text x="350" y="770" class="small">соединены в области центромеры</text>
+<text x="350" y="796" class="small">Two sister chromatids joined at the centromere</text>
+<text x="800" y="740" class="small">Максимальная конденсация</text>
+<text x="800" y="765" class="small">перед разделением хромосом</text>
+<text x="800" y="790" class="small">Highly condensed before chromosome separation</text>
+</g>
+<text x="60" y="870" class="tiny">Схема условная, не в масштабе. Уровни упаковки динамичны; 30-нм фибрилла не является универсальной обязательной структурой.</text>
+<text x="60" y="891" class="tiny">Schematic, not to scale. Packaging is dynamic; a 30-nm fibre is not a universal obligatory structure.</text>
+</svg>
