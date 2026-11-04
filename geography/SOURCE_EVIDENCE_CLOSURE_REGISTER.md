@@ -310,3 +310,10 @@
 - **Chapter 10:** clarified the geometry of the contiguous zone: the 24-nautical-mile limit is measured from baselines; where the territorial sea is 12 nautical miles, the contiguous zone may extend at most a further 12 nautical miles. Commit: `5ac1a2a5eab3aedde6332df29cae2af22b4bb223`.
 
 These are focused bilingual conceptual corrections. They do not close full claim-to-source mapping, complete sentence-level RU/EN proofreading, visual integration or deployment/device QA. Chapter scores therefore remain unchanged pending a rubric-based reassessment rather than being raised solely because edits were committed.
+
+
+### Chapter 06 — runoff-depth unit consistency — 5 November 2026
+
+- Clarified in both Russian and English that the 220 mm outlet-runoff value in the worked catchment balance is runoff depth: measured discharge must first be converted to an equivalent depth over the catchment area. This makes the precipitation, evapotranspiration and runoff terms dimensionally comparable (mm over the same period).
+- The numerical residual remains 30 mm (600 − 350 − 220); no change to the exercise result.
+- Commit: `884fbdeeac9d07d6791a4bb172f66918a275198b`.
