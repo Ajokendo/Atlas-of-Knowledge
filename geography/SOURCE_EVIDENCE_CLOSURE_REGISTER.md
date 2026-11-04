@@ -525,3 +525,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 08 — bilingual visual production briefs — 5 November 2026
 
 - Added English production instructions for all seven Chapter 08 visual concepts: soil/geosphere interface, soil-forming factors, WRB profile horizons, global soil map, erosion, landscape morphology and landscape mosaic/connectivity. Visuals remain placeholders. Commit: `b2e366f31e5af78e547a274278264a7eb1634718`.
+
+
+### Chapter 07 — bilingual visual production briefs — 5 November 2026
+
+- Added English production instructions for all nine Chapter 07 figure concepts: biosphere cross-section, tolerance curve, food web/energy pyramid, biogeographical realms, latitudinal/altitudinal zonation, biome panorama, aquatic zonation, ecological connectivity and carbon/nitrogen cycles. No images were created; placeholders remain for the next visual-production stage. Commit: `1452297ed18f0554cdf831bbebc4d238d72e8a33`.
