@@ -1403,3 +1403,8 @@ Created and integrated the original `images/generated/ecology-web.svg` at the ex
 ## Visual programme update — 4 November 2026
 - Added `images/generated/fauna-habitats.svg` and integrated it at the preserved `image-brief-fauna-habitats` anchor in `chapters/fauna-kyrgyzstan.html`. The bilingual composite panorama distinguishes valley floodplain, forested slopes, mountain meadows and cliffs; generic animal silhouettes are not assigned species names. Caption states that the image is not a range map, census or single real site.
 - The visual programme now records **35 of 53 briefs produced or integrated (66.0%)**; 18 remain deferred or pending. Browser visual QA for this new illustration is pending.
+
+
+## Zoology adaptation visual checkpoint — 4 November 2026
+
+Created and integrated the original bilingual SVG `images/generated/zoology-adaptation.svg` at the preserved `image-brief-zoology-adaptation` anchor in `chapters/zoology.html`. The comparison covers aquatic, terrestrial and aerial habitats and links body form to function without presenting traits as universal. It explicitly describes adaptation as inherited population-level variation shaped over generations. The visual programme now records **36 of 53 briefs produced or integrated (67.9%)**; 17 remain deferred or pending. Focused browser visual QA for this new plate is pending.
