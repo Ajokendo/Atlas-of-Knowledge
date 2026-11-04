@@ -137,7 +137,7 @@ if (!fs.existsSync(imageMapPath)) {
   });
   const mappedSet = new Set(mappedIds);
   const pageSet = new Set(pageIds);
-  if (mappedRows.length !== 52) errors.push("Expected 52 image insertion-map rows; found " + mappedRows.length);
+  if (mappedRows.length !== 53) errors.push("Expected 53 image insertion-map rows; found " + mappedRows.length);
   if (mappedSet.size !== mappedIds.length) errors.push("Image insertion map contains duplicate anchor IDs");
   if (new Set(mappedFiles).size !== mappedFiles.length) errors.push("Image insertion map contains duplicate target filenames");
   if (pageSet.size !== pageIds.length) errors.push("Biology pages contain duplicate image placeholder IDs");
