@@ -267,7 +267,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 Точные определения и иерархия этих единиц зависят от научной школы. В атласе следует придерживаться одной терминологической системы и объяснять её читателю.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 08-F / IMAGE PLACEHOLDER 08-F]** Блок-диаграмма морфологической структуры ландшафта с фациями, урочищами и местностями согласно принятой классификации. / **EN:** Block diagram of landscape morphology showing land units and facies according to a stated classification.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 08-F / IMAGE PLACEHOLDER 08-F]** Блок-диаграмма морфологической структуры ландшафта с ландшафтными фациями, урочищами и местностями согласно принятой классификации. / **EN:** Block diagram of landscape morphology showing landscape facies and larger landscape units according to a stated classification.
 **Рисунок 8.6 / Figure 8.6 — Морфологическая структура ландшафта / Morphological structure of a landscape.**  
 Техническое задание: схематический блок-диаграммный ландшафт с водоразделом, склоном, террасой, поймой и долиной; выделить фации и урочища условными контурами; подписать взаимосвязи стока и переноса вещества.
 **EN production brief:** Create a schematic block diagram of a landscape with a watershed divide, slope, terrace, floodplain and valley. Outline facies and landscape units schematically, and label runoff and material-transfer connections.
@@ -519,7 +519,7 @@ Depending on dominant natural conditions, examples include plains, mountains, co
 Landscape analysis uses concepts such as:
 - **landscape facies:** a relatively small, internally uniform natural site; the qualifier “landscape” distinguishes this unit from geological facies;
 - **urochishche:** a group of related landscape facies, often associated with a particular landform;
-- **locality:** a larger morphological unit in some Eastern European schools; and
+- **mestnost:** a larger landscape-morphological unit in some Eastern European schools; and
 - **landscape:** an integrated territorial system at a higher level.
 
 Exact definitions and hierarchy depend on the scientific school. An atlas should use one terminology system consistently and explain it to readers.
@@ -593,7 +593,7 @@ Salinity thresholds also depend on the classification and measurement method. An
 
 ## 8.17. Ключевые понятия / Key Terms
 
-Почва — Soil; почвообразование — Pedogenesis; кальцификация — Calcification; материнская порода — Parent material; почвенный профиль — Soil profile; генетический горизонт — Soil horizon; органический горизонт H — H organic horizon; органический горизонт O — O organic horizon; гумус — Humus; гранулометрический состав — Soil texture; структура почвы — Soil structure; пористость — Porosity; плотность сложения — Bulk density; ёмкость катионного обмена — Cation exchange capacity; электропроводность вытяжки из насыщенной пасты (ECe) — Saturated-paste extract electrical conductivity (ECe); засоление — Salinization; осолонцевание — Sodification; эрозия — Erosion; дефляция — Wind erosion/deflation; опустынивание — Desertification; ландшафт — Landscape; ландшафтная фация — Landscape facies; урочище — Urochishche (landscape unit); экотон — Ecotone; ландшафтная экология — Landscape ecology; связность — Connectivity; матрица — Matrix; коридор — Corridor.
+Почва — Soil; почвообразование — Pedogenesis; кальцификация — Calcification; материнская порода — Parent material; почвенный профиль — Soil profile; генетический горизонт — Soil horizon; органический горизонт H — H organic horizon; органический горизонт O — O organic horizon; гумус — Humus; гранулометрический состав — Soil texture; структура почвы — Soil structure; пористость — Porosity; плотность сложения — Bulk density; ёмкость катионного обмена — Cation exchange capacity; электропроводность вытяжки из насыщенной пасты (ECe) — Saturated-paste extract electrical conductivity (ECe); засоление — Salinization; осолонцевание — Sodification; эрозия — Erosion; дефляция — Wind erosion/deflation; опустынивание — Desertification; ландшафт — Landscape; ландшафтная фация — Landscape facies; урочище — Urochishche (landscape unit); местность — Mestnost (landscape-morphological unit); экотон — Ecotone; ландшафтная экология — Landscape ecology; связность — Connectivity; матрица — Matrix; коридор — Corridor.
 
 ## 8.18. Контрольные вопросы и задания / Review Questions and Activities
 
