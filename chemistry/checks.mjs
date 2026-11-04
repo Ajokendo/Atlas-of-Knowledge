@@ -779,7 +779,7 @@ for (const [label, evidence] of [
   ["Russian direct SVG", "https://upload.wikimedia.org/wikipedia/commons/e/e8/Periodic_trends-rus.svg"],
   ["Russian CC BY-SA licence", "https://creativecommons.org/licenses/by-sa/4.0/"],
   ["Russian creator", "Донор"],
-  ["candidate remains unintegrated", "FOUND — item-level licence and creator record checked"]
+  ["candidate remains unintegrated", "FOUND — item-specific licence and creator record checked"]
 ]) {
   if (!periodicTrendCandidate.includes(evidence)) errors.push("IMAGE_SOURCES.md: Chapter 03 periodic-trends candidate missing " + label);
 }
