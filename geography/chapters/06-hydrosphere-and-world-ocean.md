@@ -12,7 +12,7 @@
 
 ## 6.1. Вода на Земле: распределение и свойства / Water on Earth: Distribution and Properties
 
-Общий объём воды на Земле оценивается примерно в 1,386 млрд км³. Около 97,5% приходится на солёную воду океанов и морей, а приблизительно 2,5% — на пресную воду. Эти оценки округлены; точные доли зависят от классификации резервуаров и используемых данных.
+Общий объём воды на Земле оценивается примерно в 1,386 млрд км³. Около 96,5% всего объёма приходится на океаны и моря, а приблизительно 2,5% — на пресную воду. Если учитывать также другие солёные резервуары, включая солёные подземные воды и озёра, доля всей солёной воды составляет около 97,5%. Эти оценки округлены; точные доли зависят от классификации резервуаров и используемых данных.
 
 Основные резервуары пресной воды:
 - ледники и ледяные щиты;
@@ -494,7 +494,7 @@ The world ocean is one interconnected system of ocean basins, covering about 71%
 
 ### 6.1. Water on Earth: Distribution and Properties
 
-The total volume of water on Earth is estimated at about 1.386 billion km³. Approximately 97.5% is saline water in oceans and seas, while about 2.5% is fresh water. These figures are rounded; exact proportions depend on how reservoirs are classified and on the data used.
+The total volume of water on Earth is estimated at about 1.386 billion km³. About 96.5% of the total is held in oceans and seas, while approximately 2.5% is freshwater. When other saline reservoirs, including saline groundwater and lakes, are also counted, all saline water together makes up about 97.5%. These figures are rounded; exact proportions depend on how reservoirs are classified and on the data used.
 
 The main freshwater reservoirs are glaciers and ice sheets, groundwater, lakes and rivers, soil moisture, the atmosphere and water in living organisms. Most freshwater is stored in glaciers and groundwater. The share held in rivers and lakes is very small compared with the planet's total water, although these resources are highly important for ecosystems and water supply.
 
