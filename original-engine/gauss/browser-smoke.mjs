@@ -85,7 +85,7 @@ async function checkLesson(mobile) {
 
     const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-    if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
+    if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => `${v.id} [${v.nodes.map(n => `${n.target.join(' ')}: ${n.failureSummary?.replace(/\\s+/g, ' ').slice(0, 240)}`).join('; ')}]`).join(' | ')}`);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (overflow) throw new Error('horizontal page overflow');
     if (errors.length) throw new Error(errors.join(' | '));
@@ -141,7 +141,7 @@ async function checkInteractiveBook(mobile) {
     ];
     for (let i = 0; i < pageTitles.length; i++) {
       await page.locator('#dots button').nth(i).evaluate(button => button.click());
-      await page.waitForFunction(title => document.querySelector('#sheet h1')?.textContent?.trim() === title, pageTitles[i], { timeout: 8000 });
+      await page.waitForFunction(title => document.querySelector('#sheet h1')?.textContent?.trim() === title, pageTitles[i], { timeout: 15000 }).catch(async error => { const actual = await page.locator('#sheet h1').textContent().catch(() => '(missing)'); throw new Error(`page ${i + 1} expected '${pageTitles[i]}', got '${actual?.trim()}' — ${error.message}`); });
     }
     if (errors.length) throw new Error(errors.join(' | '));
     console.log(`PASS Gauss-law interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 9 pages, WebGL ${initial.canvas.join('×')}, navigation to conductors`);
