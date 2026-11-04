@@ -565,7 +565,8 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 
 ## Источники и дальнейшее чтение / Selected References
 
-1. United Nations Department of Economic and Social Affairs, Population Division. **World Population Prospects 2024** — official population estimates and projections for 237 countries and areas, with methodology and data portal. https://population.un.org/wpp/
+1. United Nations Department of Economic and Social Affairs, Population Division. **World Population Prospects 2024** — official estimates from 1950 and projections to 2100 for 237 countries and areas; use the named dataset, table and projection scenario. https://population.un.org/wpp/
+1a. United Nations Department of Economic and Social Affairs, Population Division. **World Population Prospects 2024: Methodology Report** — methods and assumptions underlying the estimates and projections. https://www.un.org/development/desa/pd/content/world-population-prospects-2024-methodology-report
 2. United Nations Department of Economic and Social Affairs, Population Division. **World Urbanization Prospects 2025** — urban, town and rural population estimates and projections; includes the Degree of Urbanization approach and national definitions. https://www.un.org/development/desa/pd/world-urbanization-prospects-2025
 3. United Nations Statistics Division. **Principles and Recommendations for Population and Housing Censuses, Revision 3** (2017); see also **Revision 4** (2025, English unedited and not-typeset edition), adopted by the UN Statistical Commission at its 56th session in 2025 and recommended as the international standard for the 2030 census round. https://unstats.un.org/unsd/demographic-social/census/
 4. United Nations Statistics Division. **Demographic and Social Statistics: Standards and Methods** — census, vital statistics, migration and demographic definitions. https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/
@@ -583,6 +584,10 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 - Возрастные границы для расчёта нагрузки и трудоспособного населения всегда обозначать явно.
 - Карты населения и урбанизации должны иметь базовый год, пространственное разрешение, проекцию и источник.
 - Демографические прогнозы не представлять как гарантированные предсказания.
+- Для UN World Population Prospects 2024 указывать конкретную таблицу/индикатор, сценарий (например, medium, low или high), территорию и год извлечения. Ревизия 2024 охватывает оценки с 1950 года и прогнозы до 2100 года; прогнозные значения зависят от сценария и не являются наблюдениями. Не смешивать оценочные ряды WPP с национальными переписями без пояснения методики.
+- При использовании World Urbanization Prospects 2025 явно различать международную Degree of Urbanization и национальные определения города/сельской местности; одинаковые термины могут описывать разные статистические единицы.
+- For UN World Population Prospects 2024, identify the exact table or indicator, projection scenario (for example, medium, low or high), territory and extraction date. The 2024 revision provides estimates from 1950 and projections to 2100; projected values depend on the scenario and are not observations. Do not merge WPP estimates with national census counts without explaining the method.
+- When using World Urbanization Prospects 2025, distinguish the international Degree of Urbanization from national definitions of urban and rural areas; identical labels may refer to different statistical units.
 - Все реальные численные сравнения стран и регионов перед публикацией сверять с актуальными переписями и статистическими базами; не переносить условные учебные числа в фактические карты.
 
 ---
