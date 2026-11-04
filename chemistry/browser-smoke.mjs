@@ -1520,6 +1520,35 @@ try {
           await page.locator('#lanth button[data-id="58"]').getAttribute("aria-pressed") !== "false") {
         errors.push(file + ": selecting a lanthanide or actinide must expose the selected state consistently");
       }
+
+      await page.locator("#category").selectOption("noble");
+      if (await page.locator("#table button[data-id]").count() !== 7) {
+        errors.push(file + ": noble-gas category filter must return all seven noble gases");
+      }
+      await page.locator("#group").selectOption("18");
+      if (await page.locator("#table button[data-id]").count() !== 7) {
+        errors.push(file + ": group 18 filter must retain all seven noble gases");
+      }
+      await page.locator("#category").selectOption("alkali");
+      await page.locator("#group").selectOption("1");
+      if (await page.locator("#table button[data-id]").count() !== 6) {
+        errors.push(file + ": group 1 plus alkali-metal filters must return six elements");
+      }
+      await page.locator("#search").fill("no-such-element");
+      if (await page.locator("#table .empty").count() !== 1) {
+        errors.push(file + ": an unmatched search must show the localized empty-results state");
+      }
+      await page.locator("#lang").click();
+      if (await page.locator("#search").inputValue() !== "no-such-element" ||
+          await page.locator("#category").inputValue() !== "alkali" ||
+          await page.locator("#group").inputValue() !== "1" ||
+          await page.locator("#table .empty").count() !== 1) {
+        errors.push(file + ": language switching must preserve active filters and the no-results state");
+      }
+      await page.locator("#lang").click();
+      await page.locator("#search").fill("");
+      await page.locator("#category").selectOption("all");
+      await page.locator("#group").selectOption("all");
     }
 
     if (file === "molecule-lab.html") {
@@ -1744,6 +1773,16 @@ try {
         if (!(await page.locator("#instruction").innerText()).includes("Практикум завершён!")) {
           errors.push(file + ": switching back to Russian must preserve the completed trainer screen");
         }
+        await page.locator("#next").click();
+        if (await page.locator('#equation input[type="number"]').count() !== 3 ||
+            await page.locator("#progress").getAttribute("aria-valuenow") !== "0" ||
+            await page.locator('#equation input[type="number"]').evaluateAll(items => items.some(input => input.disabled))) {
+          errors.push(file + ": restarting a completed trainer must restore task one, unlock inputs and reset progress");
+        }
+        const historyAfterRestart = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-trainer-v1-history-v1") || "[]"));
+        if (!Array.isArray(historyAfterRestart) || historyAfterRestart.length !== 1 || historyAfterRestart[0].total !== 6) {
+          errors.push(file + ": restarting the trainer must not create a duplicate completed attempt");
+        }
       }
     }
 
@@ -1937,6 +1976,23 @@ try {
       if ((await page.locator("#theory").innerText()).trim() !== "—" || !(await page.locator("#explain").innerText()).includes("числовой диапазон")) {
         errors.push(file + ": underflowed reactant ratio was not rejected");
       }
+      await page.locator("#a").fill("1");
+      await page.locator("#b").fill("1");
+      await page.locator("#c").fill("1");
+      await page.locator("#na").fill("1");
+      await page.locator("#nb").fill("1");
+      await page.locator("#actual").fill("");
+      await page.locator("#na").dispatchEvent("input");
+      const russianTheory = (await page.locator("#theory").innerText()).trim();
+      if (!(await page.locator("#left").innerText()).includes("Избытка реагента нет")) {
+        errors.push(file + ": exact stoichiometric state was not restored after edge-case inputs");
+      }
+      await page.locator("#lang").click();
+      if ((await page.locator("#theory").innerText()).trim() !== russianTheory ||
+          !(await page.locator("#left").innerText()).includes("No excess reactant remains")) {
+        errors.push(file + ": language switching must preserve the exact stoichiometric result and translate its explanation");
+      }
+      await page.locator("#lang").click();
     }
 
     if (file === "chapters/chemistry-of-life.html") {
@@ -2014,6 +2070,23 @@ try {
       if (!Number.isFinite(expandedPressure) || expandedPressure >= doubledPressure) {
         errors.push(file + ": increasing vessel volume did not lower ideal-gas pressure");
       }
+      await page.locator("#n").fill("3");
+      await page.locator("#v").fill("5");
+      await page.locator("#t").fill("300");
+      await page.locator("#t").dispatchEvent("input");
+      const boundaryPressure = Number((await page.locator("#pressureValue").innerText()).replace(",", ".").match(/[\d.]+/)?.[0]);
+      const expectedBoundaryPressure = 3 * 8.314462618 * 573.15 / 5;
+      if (!Number.isFinite(boundaryPressure) || Math.abs(boundaryPressure - expectedBoundaryPressure) > 0.01) {
+        errors.push(file + ": maximum slider values must use 573.15 K and the ideal-gas equation without overflow");
+      }
+      await page.locator("#lang").click();
+      const englishBoundaryPressure = Number((await page.locator("#pressureValue").innerText()).replace(",", ".").match(/[\d.]+/)?.[0]);
+      if (!Number.isFinite(englishBoundaryPressure) || Math.abs(englishBoundaryPressure - boundaryPressure) > 0.001 ||
+          !(await page.locator("#nval").innerText()).includes("mol") ||
+          !(await page.locator("#vval").innerText()).includes("L")) {
+        errors.push(file + ": switching language at maximum slider values must preserve the calculation and localize units");
+      }
+      await page.locator("#lang").click();
       await page.locator("#n").fill("1");
       await page.locator("#v").fill("24");
       await page.locator("#t").fill("20");
