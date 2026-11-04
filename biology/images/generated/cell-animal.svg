@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
 <title id="title">Животная клетка — Animal cell</title>
-<desc id="desc">Двуязычная схема типичной животной эукариотической клетки с ядром, ядрышком, митохондриями, шероховатой и гладкой эндоплазматической сетью, аппаратом Гольджи, рибосомами, лизосомой, везикулами, центросомой и плазматической мембраной. Схема не в масштабе.</desc>
+<desc id="desc">Двуязычная схема типичной животной эукариотической клетки с ядром, ядрышком, митохондриями, шероховатой и гладкой эндоплазматической сетью, аппаратом Гольджи, рибосомами, лизосомой, везикулами, центросомой и плазматической мембраной. Схема не в масштабе. Bilingual schematic of a typical animal eukaryotic cell, showing the nucleus, nucleolus, mitochondria, rough and smooth endoplasmic reticulum, Golgi apparatus, ribosomes, lysosome, vesicles, centrosome and plasma membrane. Not to scale.</desc>
 <defs>
  <linearGradient id="cyto" x2="1" y2="1"><stop stop-color="#fff2d9"/><stop offset="1" stop-color="#e7d9f0"/></linearGradient>
  <linearGradient id="nuc" x2="1" y2="1"><stop stop-color="#d9d0f0"/><stop offset="1" stop-color="#a99acb"/></linearGradient>
