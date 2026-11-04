@@ -24,6 +24,42 @@
 <h1>Кинематика</h1>
 <p class="intro">Кинематика описывает движение: где находится тело, как быстро меняется его положение и как изменяется скорость. Она отвечает на вопрос «как движется?», но не объясняет причины движения.</p>
 <p>В первой модели рассматривается мяч, брошенный вертикально вверх со скоростью 9,80 м/с. После отпускания на него действует только сила тяжести; сопротивлением воздуха пренебрегаем. При g = 9,80 м/с² мяч достигает вершины через 1,00 с на высоте 4,90 м и возвращается в точку броска через 2,00 с.</p>
+<section class="kinematics-fallback-lab" aria-label="Рабочая интерактивная лаборатория кинематики">
+<style>
+.kinematics-fallback-lab{margin:32px 0;padding:22px;background:#f0f0eb;border:1px solid var(--line);color:#242426}
+.kinematics-fallback-lab h2{margin:4px 0 8px;font-size:clamp(26px,4vw,38px)}
+.kin-lab-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0}
+.kin-lab-controls label{display:grid;gap:5px;font:12px var(--sans)}
+.kin-lab-controls output{font:13px var(--mono);font-weight:600}
+.kin-lab-controls input{width:100%;accent-color:var(--accent)}
+.kin-lab-actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.kin-lab-actions button{border:1px solid #aaa;background:#fff;padding:9px 14px;cursor:pointer;font:12px var(--sans)}
+.kin-lab-readouts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}
+.kin-lab-readouts div{border-top:1px solid #c8c8c0;padding-top:8px}
+.kin-lab-readouts small{display:block;font:9px var(--mono);color:#666}
+.kin-lab-readouts strong{font:clamp(17px,2.4vw,24px) var(--serif)}
+.kin-lab-canvas{display:block;width:100%;height:300px;background:#fbfbf8;border:1px solid #ddd;margin:10px 0}
+.kin-lab-graph{height:180px}
+.kin-lab-note{font:12px/1.5 var(--sans);color:#666}
+@media(max-width:650px){.kin-lab-controls{grid-template-columns:1fr}.kin-lab-readouts{grid-template-columns:repeat(2,1fr)}.kin-lab-canvas{height:240px}}
+</style>
+<p class="eyebrow">ЛАБОРАТОРИЯ 01 · РАБОТАЕТ БЕЗ WEBGL И ВНЕШНИХ БИБЛИОТЕК</p>
+<h2>Бросок под углом / Projectile motion</h2>
+<p>Меняйте начальную скорость, угол и ускорение свободного падения. Сцена, векторы, числовые значения и графики пересчитываются прямо в браузере.</p>
+<div class="kin-lab-controls">
+<label>Начальная скорость v₀ / Initial speed <output id="klVOut">14,0 м/с</output><input id="klV" type="range" min="2" max="30" step=".5" value="14"></label>
+<label>Угол броска θ / Launch angle <output id="klAOut">45°</output><input id="klA" type="range" min="5" max="85" step="1" value="45"></label>
+<label>Свободное падение g / Gravity <output id="klGOut">9,80 м/с²</output><input id="klG" type="range" min="1" max="15" step=".1" value="9.8"></label>
+</div>
+<div class="kin-lab-actions"><button type="button" id="klPlay">▶ Запустить / Play</button><button type="button" id="klPause">Ⅱ Пауза / Pause</button><button type="button" id="klReset">↺ Сначала / Reset</button></div>
+<label style="display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;font:12px var(--sans)">Время / Time <output id="klTOut">0,00 с</output><input id="klT" style="grid-column:1/-1;width:100%;accent-color:var(--accent)" type="range" min="0" max="2" step=".01" value="0"></label>
+<div class="kin-lab-readouts">
+<div><small>ВЫСОТА / HEIGHT</small><strong id="klY">0,00 м</strong></div><div><small>ДАЛЬНОСТЬ / RANGE</small><strong id="klX">0,00 м</strong></div><div><small>СКОРОСТЬ / SPEED</small><strong id="klS">14,00 м/с</strong></div><div><small>ВЕРТИКАЛЬНАЯ СКОРОСТЬ / vᵧ</small><strong id="klVy">9,90 м/с</strong></div>
+</div>
+<canvas id="klScene" class="kin-lab-canvas" aria-label="Траектория тела, брошенного под углом"></canvas>
+<canvas id="klGraph" class="kin-lab-canvas kin-lab-graph" aria-label="Графики координаты и вертикальной скорости от времени"></canvas>
+<p class="kin-lab-note">Модель без сопротивления воздуха: x = v₀ cos(θ)t; y = v₀ sin(θ)t − gt²/2. Красная стрелка показывает ускорение свободного падения, синяя — мгновенную скорость. / Air resistance is neglected.</p>
+</section>
 <section class="kinematics-original-lab" aria-label="Оригинальная интерактивная 3D-лаборатория главы 1">
 <div class="physics-lab-head"><div><p class="eyebrow">ИНТЕРАКТИВНАЯ ЛАБОРАТОРИЯ · THREE.JS / WEBGL</p><h2>Исследуйте кинематику в трёхмерном пространстве</h2><p>Интерактивная модель перенесена из движка главы 1: анимация броска, векторы скорости и ускорения, графики, относительное движение, переправа через реку и кинематические модели.</p></div><span class="physics-lab-tag">ОРИГИНАЛЬНЫЙ ДВИЖОК</span></div>
 <div class="kinematics-lab-frame"><iframe src="../original-engine/kinematics/index.html" title="Интерактивная трёхмерная лаборатория главы 1 «Кинематика» — оригинальный движок Atlas of Physics" loading="eager" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
@@ -151,6 +187,48 @@
 const $=id=>document.getElementById(id),v=$("v"),t=$("t"),canvas=$("plot"),fmt=(n,d=1)=>n.toFixed(d).replace(".",",");
 function update(){const speed=+v.value,time=+t.value,dist=speed*time;$("vout").textContent=fmt(speed)+" м/с";$("tout").textContent=fmt(time)+" с";$("distance").textContent=fmt(dist)+" м";$("position").textContent=fmt(dist)+" м";$("speed").textContent=fmt(speed)+" м/с";const w=canvas.clientWidth,h=canvas.clientHeight,dpr=window.devicePixelRatio||1;canvas.width=w*dpr;canvas.height=h*dpr;const c=canvas.getContext("2d");c.setTransform(dpr,0,0,dpr,0,0);c.clearRect(0,0,w,h);const p=28,maxX=20,maxY=Math.max(20,speed*20,1),px=x=>p+(w-p-12)*x/maxX,py=y=>h-22-(h-38)*y/maxY;c.strokeStyle="#b9b9b2";c.beginPath();c.moveTo(p,12);c.lineTo(p,h-22);c.lineTo(w-8,h-22);c.stroke();c.fillStyle="#595959";c.font="10px monospace";c.fillText("x, м",p+5,13);c.fillText("t, с",w-38,h-5);c.strokeStyle="#d95b43";c.lineWidth=2;c.beginPath();c.moveTo(px(0),py(0));c.lineTo(px(20),py(speed*20));c.stroke();c.fillStyle="#d95b43";c.beginPath();c.arc(px(time),py(dist),4,0,Math.PI*2);c.fill();}v.addEventListener("input",update);t.addEventListener("input",update);window.addEventListener("resize",update);update();
 document.querySelectorAll(".answers button").forEach(b=>b.addEventListener("click",()=>{$("feedback").textContent=b.dataset.answer==="b"?"Верно! s = vt = 15 × 4 = 60 м.":"Не совсем. Используйте формулу s = vt: умножьте скорость на время."; $("feedback").style.color=b.dataset.answer==="b"?"#28734a":"#b44b38";}));
+</script>
+<script>
+(()=>{
+const $=id=>document.getElementById(id),v=$("klV"),ang=$("klA"),g=$("klG"),time=$("klT"),scene=$("klScene"),graph=$("klGraph");
+if(!v||!ang||!g||!time||!scene||!graph)return;
+let raf=0,last=0,playing=false;
+const fmt=(n,d=2)=>n.toFixed(d).replace(".",",");
+const state=()=>{const V=+v.value,A=+ang.value*Math.PI/180,G=+g.value,T=2*V*Math.sin(A)/G;return{V,A,G,T,vx:V*Math.cos(A),vy0:V*Math.sin(A)}};
+function draw(){
+const s=state(),t=Math.min(+time.value,s.T),x=s.vx*t,y=Math.max(0,s.vy0*t-.5*s.G*t*t),vy=s.vy0-s.G*t,speed=Math.hypot(s.vx,vy);
+$("klVOut").textContent=fmt(s.V,1)+" м/с";$("klAOut").textContent=fmt(+ang.value,0)+"°";$("klGOut").textContent=fmt(s.G)+" м/с²";$("klTOut").textContent=fmt(t)+" с";
+$("klY").textContent=fmt(y)+" м";$("klX").textContent=fmt(x)+" м";$("klS").textContent=fmt(speed)+" м/с";$("klVy").textContent=fmt(vy)+" м/с";
+const paint=(el,fn)=>{const w=Math.max(300,el.clientWidth),h=Math.max(120,el.clientHeight),d=window.devicePixelRatio||1;el.width=Math.round(w*d);el.height=Math.round(h*d);const c=el.getContext("2d");c.setTransform(d,0,0,d,0,0);c.clearRect(0,0,w,h);fn(c,w,h)};
+paint(scene,(c,w,h)=>{
+const pad=34,maxX=Math.max(5,s.vx*s.T*1.12),maxY=Math.max(3,s.vy0*s.vy0/(2*s.G)*1.25),sx=z=>pad+z/maxX*(w-pad-18),sy=z=>h-28-z/maxY*(h-48);
+c.strokeStyle="#999";c.lineWidth=1;c.beginPath();c.moveTo(pad,12);c.lineTo(pad,h-28);c.lineTo(w-10,h-28);c.stroke();
+c.fillStyle="#555";c.font="11px sans-serif";c.fillText("y, м",8,16);c.fillText("x, м",w-35,h-8);
+c.strokeStyle="#c9c9c1";c.setLineDash([4,4]);c.beginPath();c.moveTo(sx(x),sy(0));c.lineTo(sx(x),sy(y));c.stroke();c.setLineDash([]);
+c.strokeStyle="#d95b43";c.lineWidth=2.5;c.beginPath();for(let i=0;i<=120;i++){const q=s.T*i/120,xx=s.vx*q,yy=Math.max(0,s.vy0*q-.5*s.G*q*q);i?c.lineTo(sx(xx),sy(yy)):c.moveTo(sx(xx),sy(yy));}c.stroke();
+c.fillStyle="#287c9b";c.beginPath();c.arc(sx(x),sy(y),6,0,Math.PI*2);c.fill();
+const arrow=(x1,y1,dx,dy,color)=>{const x2=x1+dx,y2=y1+dy;c.strokeStyle=color;c.fillStyle=color;c.lineWidth=2;c.beginPath();c.moveTo(x1,y1);c.lineTo(x2,y2);c.stroke();const a=Math.atan2(dy,dx);c.beginPath();c.moveTo(x2,y2);c.lineTo(x2-8*Math.cos(a-.45),y2-8*Math.sin(a-.45));c.lineTo(x2-8*Math.cos(a+.45),y2-8*Math.sin(a+.45));c.closePath();c.fill()};
+arrow(sx(x),sy(y),s.vx*3,-vy*3,"#287c9b");arrow(sx(x),sy(y),0,28,"#d95b43");
+c.fillStyle="#333";c.fillText("v",sx(x)+s.vx*3+4,sy(y)-vy*3);c.fillText("g",sx(x)+7,sy(y)+32);
+});
+paint(graph,(c,w,h)=>{
+const pad=35,tx=z=>pad+z/s.T*(w-pad-12),y0=h/2,ys=z=>y0-z/(Math.max(1,s.vy0*s.vy0/(2*s.G))*1.25)*(h/2-15);
+c.strokeStyle="#aaa";c.beginPath();c.moveTo(pad,8);c.lineTo(pad,h-22);c.lineTo(w-8,h-22);c.moveTo(pad,y0);c.lineTo(w-8,y0);c.stroke();
+c.font="10px sans-serif";c.fillStyle="#555";c.fillText("y(t), м",pad+5,12);c.fillText("vᵧ(t), м/с",w-85,12);
+c.strokeStyle="#d95b43";c.lineWidth=2;c.beginPath();for(let i=0;i<=100;i++){const q=s.T*i/100,z=s.vy0*q-.5*s.G*q*q;i?c.lineTo(tx(q),ys(z)):c.moveTo(tx(q),ys(z));}c.stroke();
+const vScale=(h/2-15)/Math.max(1,s.vy0);c.strokeStyle="#287c9b";c.beginPath();c.moveTo(tx(0),y0-s.vy0*vScale);c.lineTo(tx(s.T),y0+s.vy0*vScale);c.stroke();
+c.fillStyle="#222";c.fillText("0",pad-12,y0+12);c.fillText(fmt(s.T,1)+" s",w-45,h-5);
+c.fillStyle="#d95b43";c.beginPath();c.arc(tx(t),ys(y),4,0,Math.PI*2);c.fill();
+});
+}
+function stop(){playing=false;if(raf)cancelAnimationFrame(raf);raf=0;$("klPlay").textContent="▶ Запустить / Play"}
+function tick(now){if(!playing)return;if(!last)last=now;const s=state(),next=+time.value+(now-last)/1000;last=now;if(next>=s.T){time.value=s.T;draw();stop();return}time.value=next;draw();raf=requestAnimationFrame(tick)}
+$("klPlay").addEventListener("click",()=>{if(+time.value>=state().T)time.value=0;stop();playing=true;last=0;$("klPlay").textContent="▶ Идёт / Playing";raf=requestAnimationFrame(tick)});
+$("klPause").addEventListener("click",stop);
+$("klReset").addEventListener("click",()=>{stop();time.value=0;draw()});
+[v,ang,g,time].forEach(el=>el.addEventListener("input",()=>{if(el!==time){stop();time.max=state().T;time.value=Math.min(+time.value,state().T)}draw()}));
+window.addEventListener("resize",draw);time.max=state().T;draw();
+})();
 </script>
 <script type="module" src="../physics-lab.js"></script>
 </body></html>
