@@ -132,3 +132,36 @@ The numerical model remains (n=m/M) and (N=nN_A), with the Avogadro constant exa
 ## 2026-11-05 follow-up: virtual-lab bilingual model scope
 
 A bilingual parity review found that the English virtual-lab warning stated the full mathematical assumptions (dilute ideal solutions, additive volumes, and omission of ion activities and experimental effects), while the Russian warning only named the strong-acid/strong-base model and temperature. Expanded the Russian warning to match the English scientific scope and explicitly identify a strong monobasic base (for example, NaOH). The existing source-level regression checks already require the key assumptions in both languages. This is a copy correction; browser interaction and assistive-technology testing remain outstanding.
+
+
+## 2026-11-05: full atlas visual-marker sweep
+
+Reviewed all 12 instructional chapter pages, the Chemistry landing page, and the standalone interactive tools on `workspace/chemistry`. This sweep checks whether intended visuals are already embedded or whether an explicit deferred-visual marker is present; it does not certify image rights or final visual quality.
+
+| Chapter / page | Intended visual and current state | Marker action |
+|---|---|---|
+| 01 Atomic structure | Two inline explanatory SVG diagrams (atom and subatomic particles) plus the bilingual electron-probability-cloud SVG pair | Integrated; no missing-visual marker needed |
+| 02 Chemical elements and isotopes | Bilingual isotope-abundance SVG pair | Integrated; no missing-visual marker needed |
+| 03 Periodic system | Interactive periodic table plus a separate periodic-trends infographic (atomic radius, first ionisation energy, electronegativity) | **Deferred-visual marker already present** in `periodic-table.html`; bilingual copy explains placement and scientific caveats |
+| 04 Chemical bonding | Three inline SVG models for ionic, covalent and metallic bonding | Integrated; no missing-visual marker needed |
+| 05 Amount of substance | Bilingual one-mole scale SVG pair | Integrated; no missing-visual marker needed |
+| 06 Chemical formulae | Bilingual formula-reading SVG pair | Integrated; no missing-visual marker needed |
+| 07 Solutions | Bilingual saturation-state particle-model SVG pair | Integrated; no missing-visual marker needed |
+| 08 Acids and bases | Bilingual neutralisation SVG pair | Integrated; no missing-visual marker needed |
+| 09 Chemical reactions | Bilingual reaction-rearrangement SVG pair | Integrated; no missing-visual marker needed |
+| 10 Redox | Bilingual Daniell-cell SVG pair | Integrated; no missing-visual marker needed |
+| 11 Organic chemistry | Bilingual functional-groups SVG pair | Integrated; no missing-visual marker needed |
+| 12 Chemistry of life and environment | Bilingual biomolecule-overview and carbon-cycle SVG pairs | Integrated; no missing-visual marker needed |
+
+### Additional pages and interactive tools
+
+- `index.html`: the electron-cloud SVG is used as the landing-page hero visual.
+- `molecule-lab.html`: the molecular workspace is rendered interactively on a canvas; this is an interactive model, not a missing static illustration.
+- `gas-laws.html`: the particle representation is intentionally schematic and is accompanied by a bilingual limitation note. No separate deferred illustration is currently declared in the page or the existing visual plan.
+- `stoichiometry.html`, `chemistry-constants.html`, `virtual-lab.html`, `reaction-trainer.html`, `knowledge-check.html` and `glossary.html`: these are calculation, reference, simulation or assessment interfaces. Their inspected markup contains no unlabelled deferred-illustration slot; generic input placeholders are not visual markers.
+
+### Sweep result
+
+**No additional missing marker was found in the existing visual plan.** Chapter 03 remains the one explicitly deferred chapter illustration, and its marker is visible in both Russian and English. All chapter image references inspected in this sweep resolve to SVG filenames present in `chemistry/assets/`; the asset directory contains 11 bilingual SVG pairs. The interactive and inline-SVG visuals in Chapters 01 and 04 are accounted for separately.
+
+This is a source/asset-reference audit only. It does not mean that the Chapter 03 illustration has been generated, that the SVG pairs have completed legal-rights verification, or that every visual has passed manual rendering, responsive-layout and assistive-technology review.
