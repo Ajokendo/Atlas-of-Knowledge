@@ -274,7 +274,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 04 | 4.10-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.11-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.12-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 04 | 4.13-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
+| 04 | 4.13-A | INTEGRATED | PASS | PENDING | PENDING | PENDING | PENDING | Everest 8,848.86 ±0.06 m (IHRS, 2020); Challenger Deep 10,935 ±6 m (2021 pressure method) and 10,927 m preferred 2026 gridded estimate with 10,914–10,932 m model-sensitivity envelope verified against cited studies. Diagram correctly distinguishes methods and caveats. SVG rights/rendering remain open. |
 | 04 | 4.14-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.14-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.15-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
@@ -519,3 +519,10 @@ To make the image-first audit traceable in the chapter itself, non-rendering HTM
 `5.1-A`, `5.2-A` (legacy alias `5-A`), `5.3-A`, `5.4-A`, `5.5-A`, `5.6-A`, `5.7-A`, `5.7-B`, `5.8-A`, `5.9-A`, `5.11-A`, `5.12-A`, `5.14-A`, `5.15-A`, `5.16-A` and `5.17-A`. Repeated anchors for the same ID are intentional: Russian and English placements share one asset ID, and 5.8-A groups the official front symbols/cross-section into one teaching visual set.
 
 The bilingual 5.18-A placeholder remains and is not counted as an integrated image. The chapter-level inventory still claims 20 IDs, while the visual source/integration register explicitly names 16 integrated IDs plus 5.18-A. **Three additional ID positions remain unaccounted for by name** and must be recovered from the original chapter brief/history or removed only after documented reconciliation; do not invent labels. The comments do not alter visible page content.
+
+
+### Chapter 04 — focused scientific review: 4.13-A — 5 November 2026
+
+- Checked Everest's 8,848.86 m ± 0.06 m IHRS snow-surface height against Xie et al. (2022); checked Challenger Deep's 10,935 m ± 6 m (95% CI) pressure-derived value against Greenaway et al. (2021); and checked the 10,927 m preferred gridded estimate plus 10,914–10,932 m model-sensitivity envelope against Fujii et al. (2026).
+- Confirmed that the sensitivity range is not labelled as a confidence interval, that the 2026 result is not presented as a definitive redetermination, and that the figure warns the vertical comparison is not one linear scale.
+- Scientific/data-claim result for 4.13-A: **PASS**. The SVG's creator/rightsholder, project licence, technical rendering and full accessibility review remain PENDING; therefore lifecycle status remains INTEGRATED, not VERIFIED.
