@@ -744,7 +744,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 2. USGS Water Science School. *Water Basics Information by Topic*. https://www.usgs.gov/water-science-school/science/water-basics-information-topic
 3. NOAA National Ocean Service. *Ocean Facts*. https://oceanservice.noaa.gov/facts/
 4. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
-5. International Hydrographic Organization (IHO). *Standards and Specifications*. https://iho.int/en/standards-and-specifications
+5. International Hydrographic Organization (IHO). **Standards and Specifications** — relevant publications listed in the current IHO catalogue: S-23 *Limits of Oceans and Seas* (1953); S-44 *Standards for Hydrographic Surveys*, Edition 6.2.0 (October 2024); S-102 *Bathymetric Surface Product Specification*, Edition 3.0.0 (December 2024); and S-100 *Universal Hydrographic Data Model*, Edition 5.2.1 (December 2025). Check the catalogue for later revisions before using these standards in a formal hydrographic product. https://iho.int/en/standards-and-specifications
 6. National Snow and Ice Data Center (NSIDC). *Glaciers*. https://nsidc.org/learn/parts-cryosphere/glaciers
 7. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). *The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties*. IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
 8. NOAA. *Ocean Acidification*. https://www.noaa.gov/ocean-acidification
