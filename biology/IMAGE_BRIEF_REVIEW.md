@@ -11,7 +11,7 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 | Image anchor | Priority | Scientific review / constraints |
 |---|---:|---|
 | `image-brief-biology-cover` | P2 | Use an abstract educational composition; do not imply a literal evolutionary ladder or depict DNA/cell structures with fabricated molecular geometry. No unverified species labels. |
-| `image-brief-anatomy-systems` | P2 | Keep organs in anatomically plausible positions and proportions; distinguish organ systems without duplicating or omitting structures. Avoid decorative organs not present in human anatomy. |
+| `image-brief-anatomy-systems` | P2 | Keep organs in anatomically plausible positions and proportions; distinguish organ systems without duplicating or omitting structures. Avoid decorative organs not present in human anatomy. The current SVG is an intentionally simplified overview of five systems (nervous, respiratory, circulatory, digestive and urinary), not a complete anatomical plate; body silhouette and organ positions are schematic, not to scale. |
 | `image-brief-anatomy-circulation` | P2 | Show four heart chambers and valves coherently; pulmonary and systemic circuits must be continuous and correctly directed. Red/blue is a conventional oxygenation key, not literal blood colour. |
 | `image-brief-anatomy-homeostasis` | P3 | Represent negative feedback as receptor → control centre → effector → response reducing the original deviation. Do not depict homeostasis as a one-way growth chain. |
 | `image-brief-biochem-molecules` | P3 | Distinguish carbohydrates, lipids, proteins and nucleic acids. Lipids are not conventional repeating-unit polymers; do not depict amino acids, nucleotides or monosaccharides as interchangeable building blocks. |
