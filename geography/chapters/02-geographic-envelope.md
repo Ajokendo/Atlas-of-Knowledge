@@ -462,7 +462,11 @@
 
 **Состояние по оценке 2025 года.** В докладе *Planetary Health Check 2025* исследователи оценили, что семь из девяти границ уже пересечены; в число пересечённых впервые в этой оценке вошла граница закисления океана. Это результат конкретной научной оценки, а не неизменная цифра: статус зависит от года, контрольных переменных и обновления методов. Поэтому на инфографике обязательно указывают источник и год оценки, а не просто пишут «сегодня».
 
-**Место для иллюстрации 2.14-A — Planetary Boundaries.** Научная инфографика девяти процессов; если показан статус границ, рядом указываются источник и год оценки (например, Planetary Health Check 2025).
+**Иллюстрация 2.14-A — Планетарные границы / Planetary Boundaries (оценка 2025 года).**
+
+![Девять планетарных границ: семь пересечены, две находятся в безопасном пространстве по оценке 2025 года / Nine planetary boundaries: seven transgressed, two within the safe operating space in the 2025 assessment](../assets/diagrams/02-14A-planetary-boundaries-2025.svg)
+
+*Оригинальная учебная инфографика Atlas of Knowledge, подготовленная по данным Planetary Health Check 2025, PBScience / Potsdam Institute for Climate Impact Research. Научная основа: Sakschewski et al. (2025), DOI: 10.48485/pik.2025.017; оценка сообщает о пересечении семи из девяти границ. Графика создана редакцией Atlas of Knowledge и не является копией официальной диаграммы PIK. См. [официальный отчёт](https://www.planetaryhealthcheck.org/wp-content/uploads/PlanetaryHealthCheck2025.pdf) и [описание PIK](https://www.pik-potsdam.de/en/output/infodesk/planetary-boundaries). / Original educational graphic by Atlas of Knowledge, based on Planetary Health Check 2025, PBScience / PIK. The 2025 assessment reports seven of nine boundaries transgressed. This is an original educational adaptation, not a reproduction of PIK's official figure.
 
 ## 2.14.2. Разбор природной системы: изменение растительного покрова в горном водосборе / Worked Example: Vegetation Change in a Mountain Catchment
 
