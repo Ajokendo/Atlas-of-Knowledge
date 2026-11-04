@@ -64,15 +64,21 @@
   };
   document.getElementById('runtime-status-close').addEventListener('click', () => { box.style.display = 'none'; });
   const probe = document.createElement('canvas');
-  const gl = probe.getContext('webgl2') || probe.getContext('webgl');
-  if (!gl) show('error', 'WebGL недоступен', 'Браузер или устройство не предоставили WebGL. Проверьте аппаратное ускорение, обновление браузера и настройки графики.');
-  else {
+  // Three.js r163+ requires WebGL 2; a WebGL 1-only probe gives a false positive.
+  const gl = probe.getContext('webgl2', { failIfMajorPerformanceCaveat: false });
+  if (!gl) {
+    show('error', 'WebGL 2 недоступен', 'Эта версия Three.js требует WebGL 2. Проверьте поддержку WebGL 2, аппаратное ускорение и настройки графики браузера.');
+  } else {
+    // Release the probe context immediately so it does not consume a scarce mobile GPU context.
+    gl.getExtension('WEBGL_lose_context')?.loseContext();
     let started = false;
     addEventListener('bookready', () => { started = true; box.style.display = 'none'; }, { once: true });
-    setTimeout(() => { if (!started && box.style.display !== 'block') show('error', '3D-движок не подтвердил запуск', 'За 12 секунд не получен сигнал готовности. Проверьте доступ к CDN Three.js и ошибки модулей в консоли браузера.'); }, 12000);
+    setTimeout(() => {
+      if (!started && box.style.display !== 'block') show('error', '3D-движок не подтвердил запуск', 'За 12 секунд не получен сигнал готовности. Проверьте загрузку Three.js и модулей дополнений с jsDelivr, а также ошибки JavaScript.');
+    }, 12000);
     const canvas = document.getElementById('gl');
-    canvas.addEventListener('webglcontextlost', e => { e.preventDefault(); show('error', 'Потерян контекст WebGL', 'Графический контекст был потерян. Перезагрузите страницу; если ошибка повторяется, уменьшите нагрузку на устройство.'); });
-    canvas.addEventListener('webglcontextrestored', () => show('error', 'WebGL восстановлен', 'Перезагрузите лабораторию, чтобы повторно создать графические ресурсы.'));
+    canvas.addEventListener('webglcontextlost', e => { e.preventDefault(); show('error', 'Потерян контекст WebGL 2', 'Графический контекст был потерян. Перезагрузите страницу; если ошибка повторяется, уменьшите нагрузку на устройство.'); });
+    canvas.addEventListener('webglcontextrestored', () => show('error', 'WebGL 2 восстановлен', 'Перезагрузите лабораторию, чтобы повторно создать графические ресурсы.'));
   }
   addEventListener('error', e => {
     const detail = e.message || (e.target && e.target.src) || 'Неизвестная ошибка загрузки';
