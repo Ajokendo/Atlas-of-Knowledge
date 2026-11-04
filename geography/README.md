@@ -1,8 +1,8 @@
 # Atlas of Geography
 
-### Visual production update — 1 November 2026
+### Visual production update — 4 November 2026
 
-- The Geography visual register now tracks 217 unique assets across 26 chapters. Four SVG illustrations have been created and embedded in Chapters 18–20: mountain-slope processes (18-J), mountain–valley circulation (19-H), glacier anatomy (20-I) and 2025 national water-use statistics (20-K). All four remain pending final scientific/editorial sign-off.
+- The Geography visual register now tracks 218 unique assets across 26 chapters. Chapter 02 now has all 19 visual IDs illustrated in both Russian and English, including original bilingual diagrams for the global carbon cycle, nitrogen and phosphorus cycles, and the integrated Earth system. Chapter 02 has 40 image embeds representing 20 unique assets (6 external images and 14 original SVGs). Four other SVG illustrations are embedded in Chapters 18–20: mountain-slope processes (18-J), mountain–valley circulation (19-H), glacier anatomy (20-I) and 2025 national water-use statistics (20-K); these four remain pending final scientific/editorial sign-off.
 - A complete marker pass found and repaired seven missing in-text markers in Chapter 26 (26-C, 26-E, 26-F, 26-G, 26-H, 26-J and 26-L). The other repeated Chapter 26 IDs intentionally appear both in the teaching text and the production brief.
 
 Четвёртый дисциплинарный атлас платформы **Atlas of Knowledge**.
@@ -13,12 +13,12 @@
 - Главы 01–16 охватывают основы географии, природные системы Земли, население, политическую и экономическую географию, регионы мира, экологические процессы и современные географические методы.
 - Главы 17–26 образуют энциклопедический блок о Кыргызстане: географическое положение, геология, рельеф, климат, воды, биоразнообразие, население, семь областей, города, экономика, транспорт и экологическое будущее.
 - `index.html` — двуязычная начальная страница с переключателем RU/EN; ссылки ведут непосредственно к общим двуязычным Markdown-файлам глав.
-- `VISUAL_ASSET_REGISTER.md` — единый реестр 217 визуальных материалов (ID и технические задания), не 217 завершённых изображений.
+- `VISUAL_ASSET_REGISTER.md` — единый реестр 218 визуальных материалов (ID и технические задания), не 217 завершённых изображений.
 - `EDITORIAL_READINESS_MATRIX.md` — матрица статуса всех 26 глав, проверок и оставшихся задач.
 
 ## Редакционный статус
 
-Наличие файла не означает финальную научную или редакционную готовность. По состоянию на 1 ноября 2026 года структурный обзор всех глав 01–26 и сверка визуальных ID выполнены; создан единый реестр 217 визуальных активов. Выборочная проверка первичных источников проведена для глав 17–26. Полная построчная научная проверка, проверка всех библиографических ссылок, окончательная языковая вычитка и геопространственная валидация карт ещё продолжаются. Статусы следует оценивать только по материалам ветки `workspace/geography`.
+Наличие файла не означает финальную научную или редакционную готовность. По состоянию на 1 ноября 2026 года структурный обзор всех глав 01–26 и сверка визуальных ID выполнены; создан единый реестр 218 визуальных активов. Выборочная проверка первичных источников проведена для глав 17–26. Полная построчная научная проверка, проверка всех библиографических ссылок, окончательная языковая вычитка и геопространственная валидация карт ещё продолжаются. Статусы следует оценивать только по материалам ветки `workspace/geography`.
 
 **Языковой статус сайта:** начальная страница `index.html` имеет переключатель RU/EN, который меняет подписи и навигацию самой страницы. Тексты глав содержат русские и английские разделы в общих Markdown-файлах; переключатель пока не фильтрует язык внутри главы, а полноценного форматированного веб-ридера и двух самостоятельных языковых изданий ещё нет.
 
