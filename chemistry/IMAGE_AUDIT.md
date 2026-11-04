@@ -23,7 +23,7 @@ Use the canonical policy for status definitions, audit result values, evidence r
 | Static Image Gaps | Not yet fully determined | Chapter 01 electron-cloud figure is on the landing page, not confirmed in the chapter; chapter 03 needs a documented decision on whether a static periodic-trends visual adds learning value. The complete visual-need matrix is still pending |
 | Category A — external original reuse | 0 | No external image-source records established |
 | Category B — adapted external reuse | 0 | No external adapted image-source records established |
-| Category C — project-created SVG pairs | 11 | Provenance method and rightsholder still need confirmation |
+| Unclassified local SVG pairs | 11 | Project-local files exist, but creation method, creator/rightsholder and rights basis are not established; do not classify as C until evidenced |
 | Search-first evidence | 15 / 15 records searched | No contemporaneous historical log exists. Retrospective searches cover all 15 records. These searches do not prove the original creation process followed image-first |
 | Search candidates | 3 FOUND / 15 searched | OpenStax titration curve, OpenStax Daniell-cell figure, and PubChem interactive periodic table identified as candidates; none adopted pending suitability and item-level rights review |
 | Rights / licence checks | 0 PASS / 15 PENDING | File-specific creator/rightsholder and licence evidence is not recorded for the 11 SVG pairs or four interactive systems |
@@ -31,7 +31,7 @@ Use the canonical policy for status definitions, audit result values, evidence r
 | RU/EN metadata presence | 11 PASS / 0 FAIL | Paired SVG files and localized title/description elements exist; this is not a complete translation-quality or manual accessibility review |
 | Technical source checks | 22 PASS for basic SVG metadata | CI checks viewBox, role, title, description and local asset paths; responsive/device review remains pending. Four interactive systems still need manual keyboard, zoom and screen-reader checks |
 
-**Important:** the 11/11 ratio measures only whether the currently inventoried static topics exist and are integrated. It is not a measure of curriculum visual coverage or readiness. A learning-purpose and visual-need decision is still required for every chapter. Retrospective searches cover 14/15 records; the original search-first sequence cannot be proven retrospectively. Rights verification is 0/15; none of the visual records may be described as VERIFIED or publication-ready.
+**Important:** the 11/11 ratio measures only whether the currently inventoried static topics exist and are integrated. It is not a measure of curriculum visual coverage or readiness. A learning-purpose and visual-need decision is still required for every chapter. Retrospective searches cover 15/15 records; the original search-first sequence cannot be proven retrospectively. Rights verification is 0/15; none of the visual records may be described as VERIFIED or publication-ready.
 
 ## Static visual audit register
 
@@ -96,9 +96,9 @@ This is a first-pass map of the currently identified visual need, not a final de
 
 ## Required follow-up before VERIFIED / publication-ready
 
-1. Complete the remaining targeted search for CH-IV02 and improve the coverage of the other searches where no suitable candidate surfaced; record exact source pages and candidate/rejection decisions.
+1. Improve targeted searches for records where the first retrospective search did not surface a suitable candidate; retain the exact queries and dated outcomes already recorded. The original pre-creation search sequence remains historically unverifiable.
 2. Confirm creator, authoring method, rightsholder and explicit licence or code/data rights basis for every project-created visual.
-3. Complete the chapter-level learning-need sign-off, especially the Chapter 01 electron-cloud placement and Chapter 03 periodic-trend visual decision.
+3. Complete the chapter-level learning-need sign-off, especially the Chapter 01 electron-cloud placement and Chapter 03 periodic-trend visual decision. The static visual coverage ratio is inventory-only, not curriculum completeness.
 4. Perform manual inspection at phone/tablet/desktop widths, zoom/reflow, keyboard and screen-reader checks. CI does not establish these.
 5. Re-run Chemistry CI after the register and checks changes; update metrics only from actual results.
 
