@@ -145,7 +145,8 @@ export function startBook(chapter) {
   }
   $('gl').parentElement.append(scenePicker);
   scenePicker.addEventListener('change', () => {
-    if (scenePicker.value) select(scenePicker.value, true);
+    // The empty option is also the keyboard-accessible way to dismiss a breakdown.
+    select(scenePicker.value || null, true);
   });
 
   // Dynamic readouts change every frame, so do not put the readout itself in a live region.
@@ -237,9 +238,15 @@ export function startBook(chapter) {
   });
   // Browsers may cancel a touch gesture when it becomes a page scroll or the OS takes over.
   // Clear the drag latch so the next pointer interaction starts from a clean state.
-  $('gl').addEventListener('pointercancel', () => {
+  const clearDrag = () => {
     drag = null;
     $('gl').classList.remove('dragging');
+  };
+  $('gl').addEventListener('pointercancel', clearDrag);
+  // A tab switch, app switch, or window deactivation can interrupt a drag without pointerup.
+  addEventListener('blur', clearDrag);
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) clearDrag();
   });
   $('gl').addEventListener('dblclick', () => { orbit.az = 0; orbit.el = 0; orbit.pan.set(0, 0, 0); });
   $('gl').addEventListener('pointermove', e => {
