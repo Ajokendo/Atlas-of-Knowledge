@@ -3,7 +3,7 @@
 Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Visual production checkpoint — 4 November 2026
-- 42 of 53 mapped illustration briefs are produced or integrated (79.2%); 11 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
+- 43 of 53 mapped illustration briefs are produced or integrated (81.1%); 10 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
 - Added the original bilingual `fauna-invertebrates.svg` comparison plate to the Kyrgyzstan fauna chapter. It distinguishes insect and arachnid body plans and does not claim to be a regional species inventory.
 
 ## Languages and design
@@ -1430,3 +1430,7 @@ Created and integrated the original bilingual SVG `images/generated/zoology-adap
 - Added and integrated `images/generated/microbe-resistance.svg` in `chapters/microbiology.html`.
 - The bilingual figure demonstrates natural selection at population level: susceptible cells are suppressed under antimicrobial pressure, while heritably resistant variants survive and reproduce. It notes mutation or acquisition of resistance genes and rejects purposeful adaptation.
 - The visual programme now stands at **42 of 53 briefs (79.2%)**; 11 briefs remain. Focused browser visual QA for these new microbiology figures is pending.
+
+
+## Systematics taxonomy hierarchy visual checkpoint — 4 November 2026
+Created and integrated the original bilingual SVG `images/generated/systematics-ranks.svg` at the preserved `image-brief-systematics-ranks` anchor in `chapters/systematics.html`. The eight-rank grey-wolf example is consistent with the chapter's interactive hierarchy: Eukarya → Animalia → Chordata → Mammalia → Carnivora → Canidae → *Canis* → *Canis lupus*. The binomial is italicised, and the caption identifies the scheme as a conventional teaching classification that may be revised. The visual programme now records **43 of 53 briefs produced or integrated (81.1%)**; 10 remain deferred. Focused browser visual QA for this figure is pending; no browser rendering or full CI pass is claimed in this checkpoint.
