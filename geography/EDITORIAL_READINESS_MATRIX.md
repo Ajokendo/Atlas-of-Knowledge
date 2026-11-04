@@ -353,3 +353,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — WUP 2025 Degree of Urbanization thresholds — 5 November 2026
 
 - Added the level-1 grid-density and cluster-population thresholds for cities and towns/semi-dense areas in RU/EN; explicitly labelled them WUP 2025 statistical thresholds rather than national legal definitions. Checked against the 2025 methodology report. Commit: `e459800f4a7d7aa04a0cc9659b93048136858ca7`.
+
+
+### Chapter 06 — Southern Ocean boundary status — 5 November 2026
+
+- Clarified that 60°S is commonly used but not a universally adopted IHO boundary; official S-23 remains the 1953 edition and the 2002 fourth-edition draft was not approved. Added direct IHO source and updated both languages. Commit: `57e0739a6893b2377a05e2f7b1055c066f54f5e9`.
