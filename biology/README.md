@@ -1374,3 +1374,8 @@ A row-by-row recount of the 52 entries in `IMAGE_DISPOSITION_REGISTER.md` found 
 ## Visual production checkpoint — 4 November 2026
 
 The animal-cell ultrastructure brief has now been produced as an original bilingual SVG and integrated at its existing anchor in `chapters/cell-biology.html`. The authoritative disposition register now records **29 of 52 briefs produced or integrated (55.8%)**. This is a brief-level count, not a file count. Browser QA for the new animal-cell figure is pending until the Biology workflow completes.
+
+
+## Cell-cycle visual checkpoint — 4 November 2026
+
+Added an original bilingual cell-cycle SVG at `images/generated/cell-cycle.svg` and integrated it immediately before the cell-cycle control and apoptosis section in `chapters/cell-biology.html`. The diagram distinguishes interphase (G₁, S, G₂), M phase (mitosis plus cytokinesis), the G₁/S and G₂/M checkpoints, the spindle checkpoint, and exit into G₀. The production register and insertion map now track **30 of 53 visual briefs (56.6%)**; the additional brief expands the programme denominator from 52 to 53. Focused browser image-decode QA and scientific review remain pending; this is not reported as a full visual QA pass.
