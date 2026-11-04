@@ -192,3 +192,6 @@ The OpenStax, PubChem, PhET and Wikimedia candidates recorded above were located
 - Pair-level category A/B/C remains PENDING if either language variant lacks a reliable source/creation record.
 - Interactive code remains PENDING for creator/rightsholder and explicit rights basis, even when the implementation is local and has no external visual-library imports.
 - The user supplied none of the visual assets or source artwork, according to the user's explicit statement in this conversation; this rules out user-supplied provenance but does not identify the original creator of every remaining file.
+
+
+**Interactive-system Git introduction evidence:** the six systems embedded in `chapters/atomic-structure.html` (CH-IV01/02), `chapters/chemical-bonding.html` (CH-IV03), `periodic-table.html` (CH-IV04), `molecule-lab.html` (CH-IV05) and `virtual-lab.html` (CH-IV07) first appear in the Chemistry integration commit `ede96643806cd1f83da27395908dc40e4a9b7518` (2026-10-31). CH-IV06 in `gas-laws.html` was introduced in commit `4793914a73f788e92b63efe10c86762a61fe8455` (“Add interactive Chemistry Atlas learning resources”). The Git commit records repository-account submission and first appearance, not the human/AI authoring process. No prompt-level creation record or external source-code attribution was found in these commit records.
