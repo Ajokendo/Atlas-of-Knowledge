@@ -72,7 +72,7 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Scientific review: Formula and vector geometry correspond to A = Fs cos α; included as a schematic, not to scale
 - Rights review: Verified against repository MIT licence; retain copyright and licence notice when redistributing
 - Integration: chapters/work-energy.html, immediately below the work formula
-- Mobile check: Verified in GitHub Actions browser smoke on 2026-11-04 at 390×844; WebGL lab loaded and rendered, with zero serious/critical axe violations and no horizontal page overflow.
+- Mobile check: Verified in GitHub Actions browser smoke on 2026-11-04 at 390×844; the force-and-displacement SVG is present in the responsive chapter, with zero serious/critical axe violations and no horizontal page overflow.
 
 
 ### Chapter 04 — Energy comparison plot
