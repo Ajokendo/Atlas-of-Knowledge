@@ -587,6 +587,7 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 8. World Bank. **World Development Indicators: Population** — population size, growth and urban indicators; check metadata and source definitions for each series. https://data.worldbank.org/indicator/SP.POP.TOTL
 9. United Nations Development Programme. **Human Development Data Center** — HDI methodology and country-level indicators. https://hdr.undp.org/data-center
 10. United Nations Department of Economic and Social Affairs, Population Division. **World Urbanization Prospects 2025: Methodology Report** — harmonised Degree of Urbanization and treatment of national urban definitions. https://www.un.org/development/desa/pd/content/world-urbanization-prospects-2025-methodology-report
+11. United Nations Population Division. **World Population Prospects 2024 Data Portal: Indicator Metadata** — definitions and calculation methods for population change, natural change and their rates. https://population.un.org/dataportal/
 
 ## Научные редакционные примечания / Scientific editorial notes
 
