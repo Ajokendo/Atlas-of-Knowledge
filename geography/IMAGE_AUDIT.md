@@ -367,3 +367,42 @@ This baseline is not a complete visual inspection of all chapter files and is no
 7. Update lifecycle statuses and calculate coverage, verification, gaps and A/B/C counts only from reconciled evidence.
 
 **No visual is marked VERIFIED in this baseline.**
+
+## 7. Direct repository reconciliation — 5 November 2026
+
+This section supersedes earlier provisional statements in Sections 5–6 wherever they conflict with the direct file inspection below.
+
+### 7.1 Chapter 09 correction
+
+The actual file `chapters/09-population-and-demography.md` contains the bilingual teaching marker and production brief for **09-G** (demographic data sources). It is not a missing or speculative ID. The register's Chapter 09 row must therefore include 09-A–09-G (7 IDs), and the earlier statement that 09-G was absent from the chapter is withdrawn. The 09-G visual itself remains a placeholder: no finished image is embedded in the chapter.
+
+### 7.2 Chapter-count reconciliation
+
+The chapter-level inventory counts, with Chapter 09 corrected to seven IDs, sum to **283**. The register's headline claim of 231 is therefore not supported by its own chapter rows. Chapter 05 still needs exact ID-name reconciliation: its inventory says 20, while the source and subsection sequence has not yet been mapped into a verified, complete 20-ID list. Do not invent missing Chapter 05 labels. Until that mapping and the chapter-by-chapter marker/brief audit are complete, 283 is the sum of stated chapter counts, not a fully validated unique-ID total.
+
+### 7.3 Direct Markdown embedding scan
+
+The following counts are from the actual chapter Markdown files in `workspace/geography`, not from prior checkpoint summaries:
+
+| Chapter | Markdown image embeds | Findings |
+|---:|---:|---|
+| 01 | 10 | Five distinct local SVGs, each embedded in both language sections (5 unique assets). |
+| 02 | 40 | Twenty distinct source/local image assets across the bilingual chapter (19 visual IDs; one ID uses two separate cycle images). |
+| 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
+| 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
+| 05 | 37 | Images are embedded, including local SVGs and external source images. The chapter-specific register claims 16 integrated IDs and one pending ID; exact mapping of every embed to the 20-ID inventory still needs reconciliation. |
+| 06–17 | 0 | No Markdown image embeds found in these chapter files in this scan. In-text visual markers/briefs are present; treat these as unintegrated placeholders unless another rendering mechanism is independently demonstrated. |
+| 18 | 1 | Local SVG 18-J referenced. |
+| 19 | 1 | Local SVG 19-H referenced. |
+| 20 | 2 | Local SVGs 20-I and 20-K referenced. |
+| 21–26 | 0 | No Markdown image embeds found in these chapter files in this scan. In-text visual markers/briefs are present; treat these as unintegrated placeholders unless another rendering mechanism is independently demonstrated. |
+
+The current `geography/visuals/` directory contains eight SVG assets plus the Chapter 05 source/integration register. The current `geography/assets/` directory contains the chapter SVG assets and a `diagrams/` subdirectory. Presence in a directory does not by itself prove that an asset is embedded, scientifically approved, licensed, accessible or verified.
+
+### 7.4 What this scan does and does not establish
+
+- Markdown link presence and local file existence are confirmed for the items listed above.
+- This scan does not establish successful loading from external hosts, visual correctness, current source permissions, bilingual equivalence of every caption/alt text, or deployed/mobile rendering.
+- No asset is promoted to VERIFIED by this scan.
+- The earlier Chapter 09 discrepancy is resolved at the chapter-file level; the overall inventory discrepancy and Chapter 05 mapping remain open.
+- Progress percentage is intentionally withheld until the complete ID list and per-asset evidence are reconciled; counting Markdown embeds would overstate completed visual work.
