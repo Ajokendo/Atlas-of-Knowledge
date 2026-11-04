@@ -314,11 +314,14 @@ export function startBook(chapter) {
     plate.querySelector('.close').onclick = () => select(null, true);
     $('hint').textContent = CLOSE_HINT;
     if (moveFocus) {
-      // Native select controls may restore focus to themselves after closing their popup.
-      // Defer focus until that browser interaction has fully completed.
-      setTimeout(() => {
-        if (!plate.hidden) plate.querySelector('#scene-plate-title')?.focus();
-      }, 250);
+      // Close the native picker before moving focus. Some browsers restore focus to the
+      // select after its popup closes, so retry after the interaction has settled.
+      scenePicker.blur();
+      const focusTitle = () => {
+        if (!plate.hidden) plate.querySelector('#scene-plate-title')?.focus({ preventScroll: true });
+      };
+      requestAnimationFrame(() => requestAnimationFrame(focusTitle));
+      setTimeout(focusTitle, 500);
     }
   }
 
