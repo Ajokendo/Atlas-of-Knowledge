@@ -501,6 +501,8 @@ DEM используют для расчёта уклонов, экспозиц�
 
 *Карта не предназначена для навигации; учащиеся измеряют расстояния по масштабу, строят профиль и рассчитывают уклон. / Not for navigation; students measure distances using the scale, draw a profile and calculate gradient.*
 
+**Ключ к расчётной части / Answer key for the calculation task.** По данным схемы: A–C — перепад 40 м на 500 м по горизонтали, уклон = 40 / 500 × 100 = **8%** (угол ≈ **4,6°**); C–B — перепад 20 м на 750 м, уклон = 20 / 750 × 100 ≈ **2,7%** (угол ≈ **1,5°**). Точечные отметки: A — 100 м, C — 140 м, B — 160 м. / From the diagram: A–C rises 40 m over 500 m horizontally, giving **8%** (≈ **4.6°**); C–B rises 20 m over 750 m, giving ≈ **2.7%** (≈ **1.5°**). Spot heights: A 100 m, C 140 m, B 160 m.
+
 ## English-language chapter text
 
 ### Introduction
@@ -927,6 +929,8 @@ Using a prepared teaching map excerpt:
 ![Schematic teaching map with contours, coordinate grid and A–B profile; scale and contour interval are stated. / Условная учебная карта с горизонталями, координатной сеткой и линией профиля A–B; заданы масштаб и интервал горизонталей.](../assets/04-15-B-topographic-map-exercise-bilingual.svg)
 
 *Not for navigation; students measure distances using the scale, draw a profile and calculate gradient. / Карта не предназначена для навигации; учащиеся измеряют расстояния по масштабу, строят профиль и рассчитывают уклон.*
+
+**Worked answer / Разбор расчёта.** From the diagram: A–C rises 40 m over 500 m horizontally, so gradient = 40 / 500 × 100 = **8%** (≈ **4.6°**); C–B rises 20 m over 750 m, so gradient = 20 / 750 × 100 ≈ **2.7%** (≈ **1.5°**). Spot heights: A 100 m, C 140 m, B 160 m. / По данным схемы: A–C — подъём 40 м на 500 м по горизонтали, уклон **8%** (≈ **4,6°**); C–B — подъём 20 м на 750 м, уклон ≈ **2,7%** (≈ **1,5°**). Отметки: A — 100 м, C — 140 м, B — 160 м.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
