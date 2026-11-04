@@ -325,6 +325,7 @@ export function startBook(chapter) {
         scenePicker.blur();
         plate.querySelector('#scene-plate-title')?.focus({ preventScroll: true });
       };
+      focusTitle();
       requestAnimationFrame(() => requestAnimationFrame(focusTitle));
       // Mobile native-select popups can restore focus later than desktop browsers.
       setTimeout(focusTitle, 500);
