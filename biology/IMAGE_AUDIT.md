@@ -136,6 +136,17 @@ Use these statuses in future asset records:
 
 The existing legacy terms Produced/Integrated are retained in the historical register for continuity. Do not silently translate Produced or Integrated into VERIFIED. As assets are rechecked, add the new status and evidence without deleting historical production records.
 
+### Check-result vocabulary required by IMAGE-FIRST v1.0
+
+For each applicable scientific, legal, bilingual and technical check, record one of these explicit results:
+
+- `PASS` — the check was performed and passed.
+- `FAIL` — the check was performed and a blocking issue was found.
+- `PENDING` — the check has not yet been completed.
+- `NOT APPLICABLE` — the check does not apply; give a short reason.
+
+Do not infer PASS from the absence of a reported defect. The asset lifecycle status `VERIFIED` may be assigned only when all applicable checks are PASS and each NOT APPLICABLE result is justified. The current 53/53 production/integration count is not an Image Verification score.
+
 ## 9. Chapter-level metrics
 
 Report these separately:
