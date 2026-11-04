@@ -582,7 +582,7 @@ For describing current conditions, the latest standard normal (1991–2020) is g
 7. Климатообразующие факторы включают широту, высоту, океаны, рельеф и циркуляцию.
 8. Климатические аномалии следует сравнивать относительно согласованной нормы и сопоставимых периодов наблюдений.
 9. Современное глобальное потепление преимущественно обусловлено деятельностью человека.
-10. Метеорологические наблюдения и модели лежат в основе прогнозирования погоды и оценки климатических изменений.
+10. Метеорологические наблюдения и модели лежат в основе прогнозирования погоды и оценки климатических изменений; синоптические карты помогают анализировать текущее состояние атмосферы и вероятное развитие погоды.
 
 ## Контрольные вопросы / Review Questions
 
@@ -600,6 +600,7 @@ For describing current conditions, the latest standard normal (1991–2020) is g
 12. Почему климатические классификации требуют указания версии и периода данных?
 13. Чем адаптация отличается от смягчения изменения климата?
 14. Какие данные необходимы для построения климатограммы?
+15. Как по изобарам, центрам давления и обозначениям фронтов читают синоптическую карту?
 
 ## Практическая работа / Practical Assignment
 
@@ -976,7 +977,7 @@ A synoptic chart is a snapshot of the atmosphere, not a guarantee of future weat
 7. Climate controls include latitude, elevation, oceans, relief and circulation.
 8. Climate anomalies should be compared against a stated normal using comparable observation periods.
 9. Modern global warming is primarily caused by human activity.
-10. Meteorological observations and models underpin weather forecasting and climate assessment.
+10. Meteorological observations and models underpin weather forecasting and climate assessment; synoptic charts help analyse the current atmospheric situation and likely weather development.
 
 ### Review Questions
 
@@ -994,6 +995,7 @@ A synoptic chart is a snapshot of the atmosphere, not a guarantee of future weat
 12. Why must climate classifications specify their version and data period?
 13. How does adaptation differ from climate-change mitigation?
 14. What data are needed to construct a climate graph?
+15. How can isobars, pressure centres and front symbols be used to interpret a synoptic chart?
 
 ### Practical Assignment: Comparing Climate Graphs and Atmospheric Circulation
 
