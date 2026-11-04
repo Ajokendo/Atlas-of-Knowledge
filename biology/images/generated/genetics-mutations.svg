@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Типы генетических мутаций / Types of genetic mutations</title>
+<desc id="desc">Сравнение исходной последовательности мРНК с заменой, вставкой и делецией нуклеотида / Comparison of an original mRNA sequence with a substitution, insertion and deletion.</desc>
+<defs><style>
+.bg{fill:#f7f8f4}.ink{fill:#243329}.muted{fill:#66736a}.green{fill:#426447}.line{stroke:#aab6a8;stroke-width:2}.panel{fill:#fff;stroke:#d7dfd5;stroke-width:2}.base{fill:#e8eee5;stroke:#718d72;stroke-width:1.5}.changed{fill:#f7e6c9;stroke:#b47a2b;stroke-width:2}.shift{fill:#f2e4ed;stroke:#9b6b8c;stroke-width:2}.head{font:600 26px Inter,Arial,sans-serif;fill:#243329}.sub{font:18px Inter,Arial,sans-serif;fill:#66736a}.label{font:600 19px Inter,Arial,sans-serif;fill:#243329}.small{font:15px Inter,Arial,sans-serif;fill:#536258}.mono{font:600 24px 'DejaVu Sans Mono',monospace;fill:#243329}.aa{font:16px Inter,Arial,sans-serif;fill:#426447}.tag{font:600 15px Inter,Arial,sans-serif;fill:#fff}.white{fill:#fff}
+</style></defs>
+<rect class="bg" width="1200" height="900"/>
+<text x="60" y="62" class="head">ГЕНЕТИЧЕСКИЕ МУТАЦИИ / GENETIC MUTATIONS</text>
+<text x="60" y="96" class="sub">Изменения последовательности ДНК могут по-разному влиять на белок / DNA sequence changes can affect a protein in different ways</text>
+<rect x="60" y="130" width="1080" height="130" rx="16" class="panel"/>
+<text x="88" y="168" class="label">Исходная последовательность / Original sequence</text>
+<text x="88" y="212" class="mono">5′  AUG  |  GCU  |  UUU  |  GGA  3′</text>
+<text x="88" y="241" class="aa">Met / Мет — Ala / Ала — Phe / Фен — Gly / Гли</text>
+<g>
+<rect x="60" y="290" width="1080" height="150" rx="16" class="panel"/>
+<rect x="60" y="290" width="12" height="150" rx="6" fill="#718d72"/>
+<text x="88" y="328" class="label">1 · Замена / Substitution</text>
+<text x="88" y="373" class="mono">5′  AUG  |  GC<tspan fill="#a36a20">C</tspan>  |  UUU  |  GGA  3′</text>
+<rect x="445" y="344" width="42" height="39" rx="6" class="changed"/>
+<text x="88" y="411" class="small">Один нуклеотид заменён; здесь кодон GCU → GCC, но обе версии кодируют аланин.</text>
+<text x="690" y="411" class="small">One base changes; GCU → GCC, but both codons encode alanine.</text>
+<rect x="925" y="310" width="185" height="36" rx="18" fill="#718d72"/><text x="1017" y="334" text-anchor="middle" class="tag">Синонимичная / Synonymous</text>
+</g>
+<g>
+<rect x="60" y="465" width="1080" height="150" rx="16" class="panel"/>
+<rect x="60" y="465" width="12" height="150" rx="6" fill="#b47a2b"/>
+<text x="88" y="503" class="label">2 · Вставка / Insertion</text>
+<text x="88" y="548" class="mono">5′  AUG  |  <tspan fill="#a36a20">C</tspan>GC  |  UUU  |  GGA  3′</text>
+<rect x="260" y="519" width="34" height="39" rx="6" class="changed"/>
+<text x="88" y="586" class="small">Добавлен один нуклеотид; рамка считывания после места вставки смещается.</text>
+<text x="690" y="586" class="small">One base is added; the reading frame shifts downstream.</text>
+<rect x="925" y="485" width="185" height="36" rx="18" fill="#b47a2b"/><text x="1017" y="509" text-anchor="middle" class="tag">Сдвиг рамки / Frameshift</text>
+</g>
+<g>
+<rect x="60" y="640" width="1080" height="150" rx="16" class="panel"/>
+<rect x="60" y="640" width="12" height="150" rx="6" fill="#9b6b8c"/>
+<text x="88" y="678" class="label">3 · Делеция / Deletion</text>
+<text x="88" y="723" class="mono">5′  AUG  |  CUU  |  UGG  |  A…  3′</text>
+<rect x="260" y="694" width="34" height="39" rx="6" class="shift"/>
+<text x="88" y="761" class="small">Удалён один нуклеотид; последующие кодоны группируются иначе.</text>
+<text x="690" y="761" class="small">One base is removed; downstream codons are regrouped.</text>
+<rect x="925" y="660" width="185" height="36" rx="18" fill="#9b6b8c"/><text x="1017" y="684" text-anchor="middle" class="tag">Сдвиг рамки / Frameshift</text>
+</g>
+<text x="60" y="830" class="small">Важно / Important: вставки и делеции, кратные трём нуклеотидам, обычно не сдвигают рамку; эффект зависит от места и контекста мутации.</text>
+<text x="60" y="858" class="small">Insertions/deletions in multiples of three usually do not shift the frame; effects depend on mutation location and context.</text>
+<text x="60" y="886" class="sub">Схема мРНК для обучения; не в масштабе / mRNA teaching schematic; not to scale</text>
+</svg>
