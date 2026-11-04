@@ -83,3 +83,15 @@ This is an internal audit milestone only; it is not external release acceptance.
 - [x] Automated horizontal-overflow checks executed at 390, 768 and 1280 CSS px.
 - [ ] Manual physical-device, keyboard, screen-reader and 200%/400% zoom/reflow checks remain pending. Automated CI does not satisfy these gates.
 - [ ] Independent chemistry review and final publication approval remain pending.
+
+## Internal technical audit completion — 2026-11-05
+
+The internal technical audit is complete for its defined scope. This does not close the external release gates above.
+
+- [x] Expanded edge-case browser tests for periodic-table filters and empty search, completed trainer restart and progress reset, bilingual exact-stoichiometry state, and ideal-gas maximum slider values plus RU/EN preservation.
+- [x] Full CI run [41894536945](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41894536945) passed on commit `51fa0dcf9f66a256900c34d793e5e3d4e34bfac6`.
+- [x] Static checks: 22 HTML pages, 89 local links/assets, 21 inline scripts, 18 bilingual dictionaries.
+- [x] Chromium checks: all 21 pages; 42 RU/EN axe-core scans; 21 language toggles; key interaction workflows; no uncaught page errors; responsive overflow checks at 390, 768 and 1280 CSS px.
+- [ ] External gates remain pending: physical Android/iOS, manual keyboard and 200%/400% zoom/reflow, NVDA/TalkBack/VoiceOver, independent chemistry review, and final publication approval.
+
+Do not interpret internal technical audit completion as external release acceptance.
