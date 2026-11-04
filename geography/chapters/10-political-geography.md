@@ -639,3 +639,13 @@ A line on a political map may represent a boundary with a particular legal and c
 
 ---
 **Конец главы 10 / End of Chapter 10**
+
+## Focused scientific and editorial audit record — 5 November 2026
+
+- **Maritime-zone distances:** verified the contiguous-zone maximum of 24 nautical miles from baselines (not 24 miles beyond the territorial sea); where the territorial sea is 12 nautical miles, the contiguous zone can extend a further 12 nautical miles. The EEZ maximum of 200 nautical miles is also measured from baselines. Integrated in the explanatory text and worked example.
+- **Legal status of maritime zones:** retained the distinction between sovereignty in the territorial sea, limited enforcement powers in the contiguous zone, sovereign rights/jurisdiction in the EEZ, continental-shelf rights, high-seas freedoms and the Area beyond national jurisdiction. The bilingual review question and glossary were aligned.
+- **Boundary cartography:** added a bilingual map-production brief requiring a data date, projection, scale, boundary provenance and neutral depiction of disputed territories; distinguish de facto control from international legal status.
+- **Boundary interpretation:** retained the distinction between delimitation, demarcation and maintenance, and the warning that a general reference map is not a substitute for treaty text or official coordinates.
+- **Visual production:** checked seven unique bilingual visual IDs and briefs. All remain placeholders pending image production.
+- **Bilingual structure:** the previous heading-ID audit found 17 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
+
