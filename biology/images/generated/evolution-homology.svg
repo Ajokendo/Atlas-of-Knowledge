@@ -10,8 +10,7 @@
 <text class="sub" x="600" y="75" text-anchor="middle">Homologous and analogous structures</text>
 <rect class="panel" x="25" y="112" width="1150" height="408" rx="16"/>
 <text class="h" x="55" y="150">Гомологичные передние конечности позвоночных / Homologous vertebrate forelimbs</text>
-<text class="sm" x="55" y="173">Один план строения, унаследованный от общего предка; пропорции изменены функцией.</text>
-<text class="sm" x="55" y="192">Shared plan inherited from a common ancestor; proportions are modified for different functions.</text>
+
 <!-- Four schematic forelimb plans -->
 <g transform="translate(110 200)">
 <text class="h" x="50" y="0" text-anchor="middle">Человек / Human</text>
