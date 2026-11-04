@@ -500,3 +500,8 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Updated the Chapter 10 maritime-zones illustration brief to depict the Area as seabed beyond national jurisdiction and high seas as the overlying water column; added the matching English production brief. Commit: `aef5597993c6f40abad063be6574fa489f23870b`.
+
+
+### Chapter 07 — IUCN Red List release date check — 5 November 2026
+
+- Dated the Red List bibliography entry to version 2026-1, released 9 July 2026, which is the latest published release as of this audit date. IUCN's planned 2026-2 release is scheduled for 19 November 2026 and is not yet published; the chapter therefore does not prematurely cite it. Added the official IUCN update-history page. Commit: `25ed8d2b4929f6b02e15eb4955a322b4890a2cd7`.
