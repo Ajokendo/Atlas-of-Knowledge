@@ -45,7 +45,7 @@ export function buildWorld(E) {
   const b0 = block(g0, S1); b0.position.set(X0, 0.02 + S1 / 2, 0);
   const fg0 = force(g0), fn0 = force(g0);
   label('vec', 'F<sub>g</sub>', () => tip(fg0)); label('vec', 'F<sub>N</sub>', () => tip(fn0));
-  label('tick', '2.0 kg', () => V(X0 - S1 / 2 - 0.05, 0.02 + S1 + 0.12, S1 / 2));
+  label('tick', '2,0 кг', () => V(X0 - S1 / 2 - 0.05, 0.02 + S1 + 0.12, S1 / 2));
 
   // ---------- 2 · first law: gliding at constant velocity ----------
   const X1 = STATIONS.glide;
@@ -65,8 +65,8 @@ export function buildWorld(E) {
   const b2a = block(g2, S1, 'брусок массой 2,0 кг'), b2b = block(g2, S2, 'брусок массой 4,0 кг');
   const push2a = force(g2), push2b = force(g2), net2a = force(g2, true), net2b = force(g2, true);
   label('vec', 'F', () => tip(push2a)); label('vec', 'F', () => tip(push2b));
-  label('tick', '2.0 kg', () => V(b2a.position.x - S1 / 2, S1 + 0.16, b2a.position.z + S1 / 2));
-  label('tick', '4.0 kg', () => V(b2b.position.x - S2 / 2, S2 + 0.16, b2b.position.z + S2 / 2));
+  label('tick', '2,0 кг', () => V(b2a.position.x - S1 / 2, S1 + 0.16, b2a.position.z + S1 / 2));
+  label('tick', '4,0 кг', () => V(b2b.position.x - S2 / 2, S2 + 0.16, b2b.position.z + S2 / 2));
   const ghosts2 = Array.from({ length: 14 }, (_, k) => ghostBox(k < 7 ? S1 : S2));
 
   // ---------- 4 · friction: a growing push on a rough floor ----------
@@ -193,8 +193,8 @@ export function buildWorld(E) {
   label('vec', 'F', () => tip(pullB)); const below = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y / 2, 0)).add(V(-0.1, -0.2, 0.15)) : null;
   label('vec', 'f<sub>на блок</sub>', () => fOnBlock.visible ? tip(fOnBlock).add(V(0.25, 0.08, 0)) : null); label('vec', 'f<sub>на доску</sub>', () => below(fOnBoard));
   label('vec red', 'ΣF<sub>ext</sub>', () => tip(netB));
-  label('tick', '2.0 kg', () => V(bB.position.x - S1 / 2, bB.position.y + S1 / 2 + 0.14, S1 / 2));
-  label('tick', '4.0 kg', () => V(plank.position.x - BD.len / 2 + 0.1, 0.42, 0.45));
+  label('tick', '2,0 кг', () => V(bB.position.x - S1 / 2, bB.position.y + S1 / 2 + 0.14, S1 / 2));
+  label('tick', '4,0 кг', () => V(plank.position.x - BD.len / 2 + 0.1, 0.42, 0.45));
 
   // ---------- AP C: a ball falling with drag F = −bv ----------
   const XD = STATIONS.drag, DR = M.DRAG, RB = 0.24;
@@ -217,7 +217,7 @@ export function buildWorld(E) {
   part(root, cyl(JR - 0.01, HN.jarH * Z10, 40), { tone: 'lo', pal: 'base', pos: [XH, BASE + HN.jarH * Z10 / 2, 0], name: 'Мёд', mat: shadeMat('base', { opacity: 0.4 }) });
   part(root, new THREE.CylinderGeometry(JR, JR, JH - BASE, 40, 1, true), { tone: 'lo', pal: 'board', pos: [XH, BASE + (JH - BASE) / 2, 0], name: 'Сосуд', mat: shadeMat('board', { opacity: 0.25 }) });
   { const t = []; for (let k = 0; k <= 12; k++) { const y = BASE + k * 0.1, w = k % 5 ? 0.06 : 0.12; t.push(XH + JR + 0.02, y, 0, XH + JR + 0.02 + w, y, 0); } lines(root, t, '#8a8a8f'); }
-  label('board', '0', () => V(XH + JR + 0.2, BASE, 0)); label('board', '5 cm', () => V(XH + JR + 0.2, BASE + 0.5, 0)); label('board', '10 cm', () => V(XH + JR + 0.2, BASE + 1.0, 0));
+  label('board', '0', () => V(XH + JR + 0.2, BASE, 0)); label('board', '5 см', () => V(XH + JR + 0.2, BASE + 0.5, 0)); label('board', '10 см', () => V(XH + JR + 0.2, BASE + 1.0, 0));
   const gH = asm('honey', root, { title: 'Стальной шар в мёде', sub: 'предельная скорость достигается за миллисекунды' });
   gH.userData.minDist = 4; gH.userData.minRadius = 0.6;
   const RH = HN.r * Z10, YH0 = HTOP - 0.09;
