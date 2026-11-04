@@ -573,3 +573,17 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Extended the Chapter 09 bilingual key-term list with migration flow, migrant stock, mid-year population and Degree of Urbanization, matching the revised indicator and WUP methodology sections. Commit: `67146954a2dd5e87a3ee03ca5d700b6f274756ba`.
+
+## Consolidated focused audit findings — Chapters 06–10 — 5 November 2026
+
+The chapter-level audit records were added to each source chapter. Findings and integration status:
+
+- **Chapter 06 — Hydrosphere and World Ocean:** runoff discharge is converted to equivalent catchment depth before comparison with precipitation/evapotranspiration; catchment storage and residual are explained; Southern Ocean boundary convention and source are disclosed. Review question/glossary aligned. Fifteen unique bilingual visual IDs reconciled; placeholders only. Chapter note commit: `80b943ab01acf5252337f16357337c36ca72eafb`.
+- **Chapter 07 — Biosphere and Natural Biomes:** the 10% trophic-transfer example is explicitly local to its stated calculation, not a universal law; GBF Target 2 is correctly described as effective restoration coverage, not completed restoration of 30% of every country; restoration monitoring includes ecological baselines and local land-user considerations. Nine unique bilingual visual IDs checked; placeholders only. Chapter note commit: `9cedac6a335991d1c4e2d82b1fdf9ab2ff483198`.
+- **Chapter 08 — Soils and Landscape Geography:** WRB profile horizons H/O and their non-universal sequence are clarified; bulk-density/porosity calculation is labelled an estimate with stated particle-density assumption; ECe, 1:5 extracts and field apparent EC are not conflated; salinity and sodicity are diagnostically distinguished. Seven unique bilingual visual IDs checked; placeholders only. Chapter note commit: `c9e15fbfaced0112de5bfa97ac7fc3020fc656fb`.
+- **Chapter 09 — Population and Demography:** migration flow (including event-counting) is separated from migrant stock; definitions and registration rules are required; worked net migration example verified (+500; +5 per 1,000); age dependency is distinguished from actual economic dependency; Degree of Urbanization is distinguished from national urban definitions. Six unique bilingual visual IDs checked; placeholders only. Chapter note commit: `0a99a30208117cbdef96996f60f57d0e8afbf28c`.
+- **Chapter 10 — Political Geography:** 12/24/200 nautical-mile limits are measured from baselines as appropriate; sovereignty, sovereign rights and jurisdiction across maritime zones are distinguished; boundary delimitation/demarcation and de facto control/legal status are not conflated. Seven unique bilingual visual IDs checked; placeholders only. Chapter note commit: `2600b84914889e34e3261d6b27aefcb7580c39a3`.
+
+**Structural bilingual check:** numbered teaching-heading IDs were previously checked with zero missing/extra IDs: Ch06 29, Ch07 17, Ch08 17, Ch09 18, Ch10 17 matched. This is structural parity, not final sentence-level translation proofing. Visual brief parity is Ch06 15/15, Ch07 9/9, Ch08 7/7, Ch09 6/6 and Ch10 7/7; assets have not yet been generated or integrated.
+
+**Remaining closure work:** sentence-level RU/EN proofread, source-to-claim verification for all numerical and legal statements, verify dates/current datasets before release, and visual generation/integration. These items remain open and chapter readiness percentages are not raised solely because the findings have been documented.
