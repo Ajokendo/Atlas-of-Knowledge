@@ -444,3 +444,6 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Updated the Chapter 08 key-term list with H/O organic horizons and ECe, aligning the glossary with the WRB and salinity-method refinements. Commit: `3cf71c280f48410c92a0ddd3f9c4f818c861d3d9`.
+
+
+- Added migration flow/stock, mid-year population and Degree of Urbanization to the Chapter 09 bilingual glossary. Commit: `67146954a2dd5e87a3ee03ca5d700b6f274756ba`.
