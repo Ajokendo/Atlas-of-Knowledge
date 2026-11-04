@@ -277,3 +277,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — population-density source definition — 5 November 2026
 
 - Added the direct World Bank EN.POP.DNST indicator reference, whose definition explicitly uses land area as the denominator. This supports the chapter's note on denominator comparability. Commit: `9bc90598c64ad4dc6a75224abf9f604de3d51e1b`.
+
+
+### Chapter 09 — demographic-rate denominator consistency — 5 November 2026
+
+- Harmonised RU/EN notation and wording for annual demographic rates, using mid-year population as the commonly used approximation to average annual population and retaining a source-method caveat. Updated examples and practical task wording. Commit: `5c1bfc245381922f300ed1758618f7ddf75919d0`.
