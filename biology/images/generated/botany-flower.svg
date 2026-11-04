@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Строение цветка и опыление / Flower structure and pollination</title>
+<desc id="desc">Обобщённый продольный разрез цветка покрытосеменного растения: околоцветник, тычинки с пыльниками и пыльцой, пестик с рыльцем, столбиком, завязью и семязачатками; отдельно показан перенос пыльцы на рыльце. Опыление не является оплодотворением.</desc>
+<defs>
+ <marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#b77a28"/></marker>
+ <style>
+ .title{font:700 32px Arial;fill:#fff}.head{font:700 23px Arial;fill:#263b2d}.lab{font:18px Arial;fill:#263b2d}.sm{font:16px Arial;fill:#405344}.line{stroke:#425a45;stroke-width:2;fill:none}.petal{fill:#efb7c5;stroke:#a85f7b;stroke-width:3}.sep{fill:#80b56a;stroke:#4b8046;stroke-width:3}.anther{fill:#e7bb58;stroke:#9b742c;stroke-width:3}.pollen{fill:#d89b2d;stroke:#9c6c1f;stroke-width:1}.ovary{fill:#a8ce83;stroke:#4f8545;stroke-width:3}
+ </style>
+</defs>
+<rect width="1200" height="900" fill="#f5f8ef"/><rect x="20" y="18" width="1160" height="72" rx="18" fill="#285f3a"/>
+<text x="600" y="64" text-anchor="middle" class="title">Строение цветка и опыление / Flower Structure &amp; Pollination</text>
+<rect x="25" y="115" width="740" height="690" rx="20" fill="#fbfcf6" stroke="#a6bd93" stroke-width="2"/>
+<text x="395" y="155" text-anchor="middle" class="head">Продольный разрез цветка / Longitudinal section</text>
+<!-- petals -->
+<path d="M390 440C230 380 180 260 280 220C355 190 400 300 410 390Z" class="petal"/>
+<path d="M420 440C570 370 630 260 535 220C455 190 420 300 405 390Z" class="petal"/>
+<path d="M370 485C235 510 190 625 275 655C350 675 390 560 400 500Z" class="petal"/>
+<path d="M440 485C575 510 620 625 535 655C460 675 420 560 410 500Z" class="petal"/>
+<!-- sepals -->
+<path d="M390 520C300 560 290 690 370 680L405 530Z" class="sep"/>
+<path d="M420 520C510 560 520 690 440 680L405 530Z" class="sep"/>
+<!-- pistil stigma style ovary -->
+<ellipse cx="405" cy="244" rx="38" ry="17" fill="#7a9f4e" stroke="#456c36" stroke-width="3"/>
+<path d="M392 258Q382 370 395 470L415 470Q428 365 418 258Z" fill="#8dbb68" stroke="#4e8144" stroke-width="3"/>
+<path d="M360 465Q405 430 450 465L470 545Q405 590 340 545Z" class="ovary"/>
+<path d="M375 485Q405 462 435 485L435 535Q405 558 375 535Z" fill="#d4e6aa" stroke="#779c52" stroke-width="2"/>
+<ellipse cx="392" cy="507" rx="10" ry="18" fill="#f3d78a" stroke="#9e813e" stroke-width="2"/>
+<ellipse cx="418" cy="507" rx="10" ry="18" fill="#f3d78a" stroke="#9e813e" stroke-width="2"/>
+<!-- stamens -->
+<g stroke="#668d45" stroke-width="7" fill="none">
+<path d="M300 480Q280 380 300 300"/><path d="M330 490Q320 390 340 330"/><path d="M480 490Q500 390 485 300"/><path d="M510 480Q530 380 520 330"/>
+</g>
+<g class="anther">
+<ellipse cx="300" cy="292" rx="17" ry="31"/><ellipse cx="340" cy="322" rx="17" ry="29"/><ellipse cx="485" cy="292" rx="17" ry="31"/><ellipse cx="520" cy="322" rx="17" ry="29"/>
+</g>
+<g class="pollen">
+<circle cx="277" cy="270" r="5"/><circle cx="322" cy="270" r="5"/><circle cx="337" cy="285" r="5"/><circle cx="470" cy="265" r="5"/><circle cx="502" cy="270" r="5"/><circle cx="540" cy="292" r="5"/>
+</g>
+<!-- label lines -->
+<g class="line">
+<path d="M160 230L270 275"/><path d="M150 355L285 315"/><path d="M150 565L300 600"/><path d="M610 240L445 245"/><path d="M620 340L425 365"/><path d="M620 490L465 505"/><path d="M620 590L455 550"/><path d="M600 675L460 655"/>
+</g>
+<g class="lab">
+<text x="50" y="205">Пыльник / Anther</text><text x="50" y="330">Тычинка / Stamen</text><text x="50" y="545">Лепесток / Petal</text>
+<text x="625" y="215">Рыльце / Stigma</text><text x="625" y="325">Столбик / Style</text><text x="625" y="475">Завязь / Ovary</text><text x="625" y="575">Семязачатки / Ovules</text><text x="625" y="660">Чашелистик / Sepal</text>
+</g>
+<text x="405" y="735" text-anchor="middle" class="sm">Пестик / Pistil</text>
+<text x="405" y="760" text-anchor="middle" class="sm">Тычинки окружают пестик / Stamens surround the pistil</text>
+<rect x="790" y="115" width="385" height="690" rx="20" fill="#fbfcf6" stroke="#a6bd93" stroke-width="2"/>
+<text x="982" y="155" text-anchor="middle" class="head">Опыление / Pollination</text>
+<!-- pollen transfer illustration -->
+<path d="M900 400Q975 280 1070 400" stroke="#79a75b" stroke-width="13" fill="none"/>
+<ellipse cx="900" cy="380" rx="25" ry="12" class="anther"/>
+<ellipse cx="1070" cy="380" rx="25" ry="12" fill="#7a9f4e" stroke="#456c36" stroke-width="3"/>
+<g class="pollen"><circle cx="925" cy="350" r="7"/><circle cx="950" cy="320" r="7"/><circle cx="980" cy="300" r="7"/><circle cx="1010" cy="320" r="7"/><circle cx="1040" cy="350" r="7"/></g>
+<path d="M925 345Q980 260 1045 345" stroke="#b77a28" stroke-width="4" fill="none" marker-end="url(#arr)" stroke-dasharray="8 7"/>
+<text x="980" y="445" text-anchor="middle" class="lab">Пыльца переносится</text><text x="980" y="470" text-anchor="middle" class="lab">на рыльце пестика</text>
+<text x="980" y="500" text-anchor="middle" class="sm">Pollen is transferred</text><text x="980" y="524" text-anchor="middle" class="sm">to the stigma</text>
+<rect x="820" y="570" width="325" height="180" rx="14" fill="#fff2d8" stroke="#d7b36d" stroke-width="2"/>
+<text x="982" y="610" text-anchor="middle" class="head">Важно / Important</text>
+<text x="842" y="650" class="lab">Опыление ≠ оплодотворение</text>
+<text x="842" y="678" class="sm">Pollination ≠ fertilization</text>
+<text x="842" y="710" class="sm">Оплодотворение происходит позже,</text><text x="842" y="734" class="sm">после роста пыльцевой трубки.</text>
+<text x="982" y="775" text-anchor="middle" class="sm">Обобщённая схема, не в масштабе / Generalized, not to scale</text>
+</svg>
