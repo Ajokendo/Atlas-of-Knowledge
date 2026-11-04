@@ -121,7 +121,7 @@
 
 ### 6.5.2. Солёность / Salinity
 
-Солёность — суммарная характеристика содержания растворённых солей в воде. Её часто выражают в практических единицах солёности (PSU) или через безразмерную практическую шкалу; в учебных материалах допустимо приводить ориентировочную среднюю величину около 35.
+Солёность характеризует содержание растворённых веществ в морской воде. Практическая солёность \(S_P\) определяется по шкале PSS-78 и является безразмерной величиной; запись «PSU» часто встречается в учебных материалах, но технически некорректна. В системе TEOS-10 для термодинамических расчётов используют абсолютную солёность \(S_A\), выражаемую в г/кг. Поэтому при публикации данных необходимо указывать, какая именно величина приведена. Значение около 35 относится к типичному порядку практической солёности открытого океана, а не к универсальной константе.
 
 Солёность повышается при интенсивном испарении и обычно снижается при выпадении осадков, речном стоке и таянии льда. Значения различаются между морями и океаническими районами.
 
@@ -545,7 +545,7 @@ The physical properties of seawater influence vertical stability, mixing, circul
 
 **Temperature** at the ocean surface depends on latitude, season, cloud cover, winds and currents. Temperature generally decreases with depth in most ocean regions, but the vertical profile varies between latitudes and basins. A **thermocline** is a layer in which temperature changes rapidly with depth; it is often more pronounced in tropical and subtropical waters than at high latitudes.
 
-**Salinity** is a measure of the total dissolved salts in water. It is often expressed using Practical Salinity Units (PSU) or the practical salinity scale; an approximate global mean of about 35 is commonly used in educational materials. Salinity tends to rise with strong evaporation and decrease with precipitation, river inflow and ice melt. Values vary among seas and ocean regions.
+**Salinity** describes dissolved material in seawater. Practical Salinity \(S_P\), defined on the PSS-78 scale, is dimensionless; the label “PSU” is common in teaching materials but is technically incorrect. For thermodynamic calculations, TEOS-10 uses Absolute Salinity \(S_A\), expressed in g/kg. Published values should therefore identify which salinity variable is being reported. A value near 35 is typical of open-ocean Practical Salinity, not a universal constant. Salinity tends to rise with strong evaporation and decrease with precipitation, river inflow and ice melt. Values vary among seas and ocean regions.
 
 **Density** depends mainly on temperature, salinity and pressure. At comparable pressure, colder and saltier water is generally denser than warmer and less saline water. Density differences help drive deep-ocean circulation.
 
@@ -739,6 +739,8 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 3. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
 4. International Hydrographic Organization (IHO). *Standards and Specifications*. https://iho.int/en/standards-and-specifications
 5. National Snow and Ice Data Center (NSIDC). *Glaciers*. https://nsidc.org/learn/parts-cryosphere/glaciers
+6. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). *The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties*. IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
+7. NOAA. *Ocean Acidification*. https://www.noaa.gov/ocean-acidification
 
 При использовании численных данных о запасах воды, океанических глубинах, ледниках и речном стоке следует фиксировать год, пространственный охват, методику оценки и единицы измерения. Данные о запасах (например, км³) нельзя смешивать с потоками за период (например, км³/год).
 
