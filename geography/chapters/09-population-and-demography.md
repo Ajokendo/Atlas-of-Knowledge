@@ -585,7 +585,7 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 5. United Nations Statistics Division. **Demographic and Social Statistics: Standards and Methods** — census, vital statistics, migration and demographic definitions. https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/
 6. International Organization for Migration. **World Migration Report 2024** — global migration data, concepts and policy context. https://worldmigrationreport.iom.int/
 7. UN-Habitat. **World Cities Report 2024: Cities and Climate Action** — urbanisation, city systems, vulnerability and urban development. https://unhabitat.org/world-cities-report-2024-cities-and-climate-action
-8. World Bank. **World Development Indicators: Population** — population size, growth and urban indicators; check metadata and source definitions for each series. https://data.worldbank.org/indicator/SP.POP.TOTL
+8. World Bank. **World Development Indicators: Population** — population size, growth and urban indicators; check metadata and source definitions for each series. Population density indicator EN.POP.DNST is explicitly defined as people per square kilometre of land area. https://data.worldbank.org/indicator/SP.POP.TOTL and https://data.worldbank.org/indicator/EN.POP.DNST
 9. United Nations Development Programme. **Human Development Data Center** — HDI methodology and country-level indicators. https://hdr.undp.org/data-center
 10. United Nations Population Division. **World Population Prospects 2024 Data Portal: Indicator Metadata** — definitions and calculation methods for population change, natural change and their rates. https://population.un.org/dataportal/
 
