@@ -107,6 +107,8 @@ async function runLesson(mobile) {
     await page.locator('button[data-answer="b"]').click();
     await page.waitForFunction(() => document.querySelector('#feedback')?.textContent.includes('Верно!'));
     if (await page.locator('.note').filter({ hasText: 'IMAGE PLACEHOLDER' }).count() < 1) throw new Error('image-first placeholders are missing');
+    const imageFirst = await page.evaluate(() => { const marker = [...document.querySelectorAll('.note')].find(el => el.textContent.includes('IMAGE PLACEHOLDER')); const firstTopic = [...document.querySelectorAll('section h2')].find(el => el.textContent.includes('1. Магнитное поле')); return !!marker && !!firstTopic && !!(marker.compareDocumentPosition(firstTopic) & Node.DOCUMENT_POSITION_FOLLOWING); });
+    if (!imageFirst) throw new Error('Chapter 14 illustration marker must precede detailed topic text');
     if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal overflow');
     console.log(`PASS Chapter 14 Lorentz-force calculator ${mobile?'mobile':'desktop'} — slider calculation, quiz, placeholders, overflow 0`);
   } catch(e) { failures.push(`lesson ${mobile?'mobile':'desktop'}: ${e.message}`); console.error(`FAIL Chapter 14 Lorentz-force calculator ${mobile?'mobile':'desktop'}: ${e.message}`); }
