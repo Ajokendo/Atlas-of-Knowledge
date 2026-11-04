@@ -661,8 +661,14 @@ try {
           if (!img.naturalWidth || !img.naturalHeight) {
             results.push({ src: img.getAttribute("src") || "", issue: "decoded image has no intrinsic dimensions" });
           }
-          if (img.getAttribute("alt") === null) {
+          const alt = img.getAttribute("alt");
+          if (alt === null) {
             results.push({ src: img.getAttribute("src") || "", issue: "missing alt attribute" });
+          } else if (visible && !alt.trim() &&
+              img.getAttribute("aria-hidden") !== "true" &&
+              img.getAttribute("role") !== "presentation" &&
+              img.getAttribute("role") !== "none") {
+            results.push({ src: img.getAttribute("src") || "", issue: "informative visible image has empty alt text" });
           }
           if (visible && (!rect.width || !rect.height)) {
             results.push({ src: img.getAttribute("src") || "", issue: "visible image has zero rendered size" });
