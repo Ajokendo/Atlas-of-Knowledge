@@ -1129,3 +1129,12 @@ Reviewed source markup for ten generated Biology SVGs across anatomy, biochemist
 
 
 A final bilingual-equivalence refinement in this batch expanded the English descriptions in `biochem-enzyme.svg` and `biochem-respiration.svg`: the enzyme text now explicitly includes substrate binding at the active site and enzyme–substrate complex formation; the respiration text now fully states proton pumping from the matrix to the intermembrane space and return through ATP synthase. This avoids treating a short English summary as a full counterpart to the Russian description.
+
+
+## Chapter image integration and accessibility cross-check — 5 November 2026
+
+- Cross-checked all 12 subject chapters against `images/generated/`: 62/62 referenced external images resolve (47 SVG, 15 WebP).
+- Confirmed all 62 images have non-empty RU/EN alternative text and all 59 semantic figures containing images have bilingual captions.
+- `biology-cover.svg` is an intentionally separate cover asset, not a missing chapter reference.
+- No source-level missing local image path, empty/one-language alt text, or missing bilingual figure caption was found.
+- This does not claim rendered visual or device/screen-reader QA. Global Image Verification remains Pending audit.
