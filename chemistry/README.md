@@ -145,3 +145,4 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Added RU/EN browser assertions for the pH definition and the reference-page qualifications for K_w activities, concentration-form units, IUPAC standard pressure, standard gas conditions and the separate 298.15 K thermodynamic-data temperature.
 - [ ] Re-run static validation and full Chromium suite on the latest saved commit.
 - [x] Corrected a second test-only wording mismatch in the Russian reference-data assertion: the page says «произведение безразмерно», not «безразмерным». The reference text was already scientifically correct; the assertion now matches it exactly.
+- [x] The glossary pH correction and the new reference-data RU/EN assertions passed the full Chromium run on commit `de99c192092796d32bc1b4ced377af1734cf1ff8`; the latest branch SHA matched the successful run SHA. The test wording was corrected to match the exact Russian adjective in the existing reference note.
