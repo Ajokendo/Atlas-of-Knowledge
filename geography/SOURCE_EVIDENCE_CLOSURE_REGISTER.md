@@ -338,3 +338,8 @@ These are focused bilingual conceptual corrections. They do not close full claim
 ### Chapter 09 — WUP 2025 bibliography de-duplication — 5 November 2026
 
 - Consolidated duplicate World Urbanization Prospects 2025 methodology entries into the main WUP reference and corrected the methodology report's publication date to 27 January 2026, as shown on the official UN Population Division page. The WUP 2025 method report confirms the 1 km² grid-based Degree of Urbanization approach and its harmonised international comparison purpose. Commit: `f6615bc9f58bad6693cd87b9f0e8154f19e9c7fd`.
+
+
+### Chapter 10 — UNCLOS claim-level source precision — 5 November 2026
+
+- Added direct official UN texts for UNCLOS Part VI (continental shelf, Articles 76–78) and Part VII (high seas, Articles 86–89). These provide section-level support for the chapter's distinction between seabed/subsoil rights, the legal status of superjacent waters, high-seas freedoms and the prohibition on sovereignty claims over the high seas. Both official UN texts were checked. Commit: `aeecc0a1f4aff9e2f6adfca03c2abfa5ef13f59a`.
