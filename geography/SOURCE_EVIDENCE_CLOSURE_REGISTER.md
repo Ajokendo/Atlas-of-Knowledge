@@ -497,3 +497,6 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 10 — UNCLOS Area versus high seas — 5 November 2026
 
 - Added the UNCLOS “Area” (seabed and subsoil beyond national jurisdiction) as a separate concept from the high-seas water column. The bilingual text explains the common-heritage principle under Articles 136–137 and notes that the legal status of superjacent waters is not changed by the seabed's status (Article 135). Added official UN Part XI Sections 1 and 2 links. Commit: `c2412eed3ab7f6fb6f1acc6d8d0baf6b452fdcda`.
+
+
+- Updated the Chapter 10 maritime-zones illustration brief to depict the Area as seabed beyond national jurisdiction and high seas as the overlying water column; added the matching English production brief. Commit: `aef5597993c6f40abad063be6574fa489f23870b`.
