@@ -11,6 +11,10 @@
 > **EN:** Diagram of the geographic envelope as an interacting system of atmosphere, hydrosphere, lithosphere and biosphere, showing matter and energy flows.
 > **Visual-source candidate (not yet embedded):** NASA Goddard Space Flight Center, [Earth System Diagram](https://svs.gsfc.nasa.gov/30988), credit NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller. Use as a conceptual reference only: adapt labels to the chapter's four-component model and do not imply that NASA's graphic itself depicts this exact classification.
 
+![Earth as a complex interrelated system: solar radiation, atmosphere, water cycle, carbon cycle, ecosystems and human influences / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
+
+*Источник / Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. This is a five-sphere Earth-system illustration with visible cryosphere components, not a literal four-part geographic-envelope diagram. Use it to discuss interactions; the chapter's model groups components differently. / Это иллюстрация пятисферной системы Земли с элементами криосферы, а не буквальная схема четырёхкомпонентной географической оболочки. Используйте её для обсуждения связей; группировка компонентов в главе отличается. [Страница источника / Source page](https://svs.gsfc.nasa.gov/30988).
+
 Географическая оболочка — целостная внешняя оболочка Земли, в пределах которой взаимодействуют атмосфера, гидросфера, верхняя часть литосферы и биосфера. Здесь происходят основные природные процессы, формируются почвы и экосистемы, циркулирует вода, перемещаются воздушные массы и осуществляется обмен веществом и энергией.
 
 Ключевые свойства географической оболочки:
@@ -276,6 +280,20 @@
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 2-D / IMAGE PLACEHOLDER 2-D]** Схемы круговоротов углерода, азота и фосфора с природными резервуарами и антропогенными потоками.
 > **EN:** Diagrams of the carbon, nitrogen and phosphorus cycles, showing natural reservoirs and human-driven flows.
+
+**Углеродный цикл / Carbon cycle**
+
+![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg)
+
+*Источник / Source: My NASA Data, “Energy and Matter Cycles”; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System. The diagram distinguishes natural fluxes, human contributions and stored carbon; numerical values belong to the source's stated units and reference context. / Схема различает природные потоки, вклад человека и запасы углерода; численные значения следует читать в единицах и контексте источника. [Страница источника / Source page](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
+
+**Азотный цикл / Nitrogen cycle**
+
+![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
+
+*Источник / Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [Страница источника / Source page](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
+
+**Фосфорный цикл / Phosphorus cycle:** a separately verified, suitably licensed diagram has not yet been integrated. Do not treat the carbon or nitrogen figures as covering phosphorus; the text explanation remains the learning source until a suitable image is found.
 
 Биогеохимические циклы — непрерывное перемещение химических элементов между живыми организмами и компонентами неживой природы.
 
