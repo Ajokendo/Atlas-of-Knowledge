@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="t d">
+<title id="t">Geographical research cycle / Цикл географического исследования</title>
+<desc id="d">Six iterative stages: ask a question, collect evidence, validate data, analyse spatial relationships, map results, interpret and communicate. / Шесть повторяющихся этапов: поставить вопрос, собрать данные, проверить их, проанализировать пространственные связи, представить результаты на карте, интерпретировать и сообщить выводы.</desc>
+<rect width="1500" height="900" fill="#f7fafc"/>
+<text x="750" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#17324d">Geographical research cycle / Цикл географического исследования</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="520" y="140" width="460" height="125" rx="24" fill="#dcecf8" stroke="#3979a8" stroke-width="4"/><text x="750" y="190" font-size="30" font-weight="700" fill="#174e78">1. Ask a question</text><text x="750" y="232" font-size="27" fill="#17324d">1. Поставить вопрос</text>
+<rect x="990" y="310" width="430" height="125" rx="24" fill="#d9eef0" stroke="#278c96" stroke-width="4"/><text x="1205" y="360" font-size="30" font-weight="700" fill="#17656d">2. Collect evidence</text><text x="1205" y="402" font-size="27" fill="#17324d">2. Собрать данные</text>
+<rect x="990" y="560" width="430" height="125" rx="24" fill="#e1eedc" stroke="#56874b" stroke-width="4"/><text x="1205" y="610" font-size="30" font-weight="700" fill="#386432">3. Validate data</text><text x="1205" y="652" font-size="27" fill="#17324d">3. Проверить данные</text>
+<rect x="520" y="700" width="460" height="125" rx="24" fill="#f4e7d8" stroke="#a66b35" stroke-width="4"/><text x="750" y="750" font-size="30" font-weight="700" fill="#805024">4. Analyse spatial links</text><text x="750" y="792" font-size="27" fill="#17324d">4. Проанализировать связи</text>
+<rect x="80" y="560" width="430" height="125" rx="24" fill="#eee5f5" stroke="#8562a6" stroke-width="4"/><text x="295" y="610" font-size="30" font-weight="700" fill="#62427f">5. Map the results</text><text x="295" y="652" font-size="27" fill="#17324d">5. Показать на карте</text>
+<rect x="80" y="310" width="430" height="125" rx="24" fill="#f5e4e1" stroke="#b85c50" stroke-width="4"/><text x="295" y="360" font-size="30" font-weight="700" fill="#8f3f36">6. Interpret &amp; share</text><text x="295" y="402" font-size="27" fill="#17324d">6. Объяснить и сообщить</text>
+</g>
+<g fill="none" stroke="#52697c" stroke-width="9" stroke-linecap="round"><path d="M980 205L1100 300"/><path d="M1205 440V550"/><path d="M990 625L980 700"/><path d="M520 765L500 690"/><path d="M295 550V445"/><path d="M510 365L650 265"/></g>
+<g fill="#52697c"><path d="M1085 293l31 12-13 28z"/><path d="M1190 535l15 28 15-28z"/><path d="M965 685l25 20-30 12z"/><path d="M485 680l15 28 15-28z"/><path d="M280 460l15-28 15 28z"/><path d="M635 260l30-2-16 28z"/></g>
+<text x="750" y="875" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#52697c">The cycle is iterative: new evidence can refine the question / Цикл повторяется: новые данные могут уточнить исходный вопрос</text>
+</svg>
