@@ -193,7 +193,7 @@ This is a scene-level source-lineage index for the interactive-book scenes. It i
 | PHY-15-3D-09 | 15.8 — RL circuits | `rl` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
 | PHY-15-3D-10 | 15.9 — LC oscillations | `lc` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
 
-**Review still required for all 19 entries:** confirm rendered geometry at desktop/mobile sizes, inspect scene labels and their contrast, verify the canvas/scene accessible name and keyboard picker announcement, add complete RU/EN descriptions where needed, and retain asset-level rights evidence for any embedded non-code components. The scene index does not include the four missing static infographic requirements listed above.
+**Review still required for all 71 indexed entries:** confirm rendered geometry at desktop/mobile sizes, inspect scene labels and their contrast, verify the canvas/scene accessible name and keyboard picker announcement, add complete RU/EN descriptions where needed, and retain asset-level rights evidence for any embedded non-code components. The scene index does not include the four missing static infographic requirements listed above.
 
 ## Integrated assets
 
