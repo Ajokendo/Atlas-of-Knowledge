@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: physics-browser-newton
+  group: physics-browser-kinematics
   cancel-in-progress: true
 
 jobs:
@@ -38,5 +38,5 @@ jobs:
           done
           cat /tmp/physics-http.log
           exit 1
-      - name: Test Newton chapter on desktop and mobile viewports
+      - name: Test Chapter 1 kinematics on desktop and mobile viewports
         run: node original-engine/browser-smoke.mjs
