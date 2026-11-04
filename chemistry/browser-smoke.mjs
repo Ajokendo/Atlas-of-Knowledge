@@ -2298,6 +2298,31 @@ try {
         errors.push(file + ": English pH glossary entry must use dimensionless hydronium activity and a dimensionless concentration ratio");
       }
       await page.locator("#lang").click();
+      await search.fill("Периодический закон");
+      const periodicRu = await page.locator(".term").first().innerText();
+      if (!periodicRu.includes("Свойства химических элементов") ||
+          !periodicRu.includes("по возрастанию атомного номера")) {
+        errors.push(file + ": Russian periodic law glossary entry must state periodic variation of element properties with increasing atomic number");
+      }
+      await search.fill("Молярная концентрация");
+      const molarConcentrationRu = await page.locator(".term").first().innerText();
+      if (!molarConcentrationRu.includes("моль/м³") || !molarConcentrationRu.includes("моль/л")) {
+        errors.push(file + ": Russian molar-concentration glossary entry must distinguish SI and commonly used units");
+      }
+      await page.locator("#lang").click();
+      await search.fill("Periodic law");
+      const periodicEn = await page.locator(".term").first().innerText();
+      if (!periodicEn.includes("periodic variation") ||
+          !periodicEn.includes("increasing atomic number") ||
+          periodicEn.includes("their compounds are periodic functions")) {
+        errors.push(file + ": English periodic law glossary entry must match the modern element-focused definition");
+      }
+      await search.fill("Molar concentration");
+      const molarConcentrationEn = await page.locator(".term").first().innerText();
+      if (!molarConcentrationEn.includes("mol/m³") || !molarConcentrationEn.includes("mol/L")) {
+        errors.push(file + ": English molar-concentration glossary entry must distinguish SI and commonly used units");
+      }
+      await page.locator("#lang").click();
       await search.fill("");
     }
 
