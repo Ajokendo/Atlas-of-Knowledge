@@ -2094,3 +2094,31 @@ A final compliance check against the Geography image-first instruction found tha
 - Chapter 04 integration: `c6de78327ab8f041a419ac22a198d2d767151eb6`
 - Visual register: `f0f4bdd47fd07ef8e8b3e49de450d48751168dbc`
 - Readiness matrix: `c45ad0881bb011254b23bd7f2040418a7a1d2402`
+
+
+## Chapters 03–04 visual completion tranche — 4 November 2026
+
+### Chapter 03 — Lithosphere and Geological Processes
+- Integrated all 13 visual IDs in both Russian and English chapter sections; removed every remaining visual placeholder.
+- Ten local bilingual SVGs are now embedded: Earth interior (3.1-A), rock cycle (3.3-A), geological research toolkit (3.4-A), earthquake anatomy (3.6-A), volcano anatomy (3.7-A), folds and faults (3.8-A), supercontinent cycle (3.10-A), mineral-resource lifecycle (3.11-A), geological hazards (3.12-A), and geological cross-section interpretation (3.12-B).
+- Three existing source images were preferred over recreating scientific imagery: USGS mineral specimen board (source page states Public Domain), USGS/Smithsonian *This Dynamic Planet* map I-2800 (Public Domain; 2006 teaching map, not a current seismicity map), and the official ICS International Chronostratigraphic Chart v2026/06 (CC BY 4.0). The chapter bibliography now records the mineral-image and tectonic-map sources.
+- The mineral photo board is used for specimen recognition; formulas and Mohs hardness values remain in the chapter's text tables. The ICS chart's non-linear time scale and revisable numerical ages are noted.
+
+### Chapter 04 — Earth's Landforms and Relief
+- Integrated all 16 visual IDs in both Russian and English chapter sections; removed every remaining visual placeholder.
+- Sixteen local bilingual SVGs cover endogenic/exogenic processes, landform classification, mountain morphology, plains/plateaus, river, glacial, aeolian, karst, coastal and ocean-floor relief, slope processes, weathering, vertical extremes, topographic maps, DEM/DSM/DTM, human modification and the topographic-map exercise.
+- The 4.13-A graphic distinguishes the 2021 pressure-based Challenger Deep estimate (10,935 ± 6 m at 95% confidence) from the 2026 paper's preferred 10,927 m gridded estimate for the eastern basin; the figure notes model sensitivity and does not present 10,927 m as a definitive universal depth.
+- The 4.15-B teaching map now includes spot heights and two explicit slope-calculation segments. A bilingual worked key gives A–C = 8% (about 4.6°) and C–B = about 2.7% (about 1.5°). The map is explicitly marked as schematic and not for navigation.
+
+### Static validation and remaining QA
+- Re-fetched all 26 local SVGs used in Chapters 03–04. Every file contains an SVG root, closing tag, title, description and `role="img"` marker.
+- Re-fetched both chapter Markdown files. No `ILLUSTRATION PLACEHOLDER` or `Место для иллюстрации` markers remain.
+- Chapter 03: 13/13 visual IDs integrated. Chapter 04: 16/16 visual IDs integrated. Their textual scientific/editorial audits remain 100%.
+- These are content and static-source checks only. Live browser rendering, responsive/mobile, keyboard navigation, screen-reader, contrast-in-browser and deployment QA have not been run and are not claimed complete.
+
+**Key commits**
+- Chapter 03 visual integrations: `3b2aa6d8b53db4de771a5c01841a0a12539aa20c`, `c904c591f5c921e4cb059377d86ec9883a425170`, `43150f1ea7c0bb989dbee7018d178ec84967c8f9`, `bb6132a877a241b84a2a390b596e67e20450ce5c`, `1fdc0051d06558f74271336f1f018264a94a3d06`, `828c9163a372eb84565d30e515bef3f7e12a5e16`.
+- Chapter 04 visual integrations and exercise key: `7a8eee9f8925cafa6a727c15185a1bb8af9eb126`, `a4b0667669fbb886c8ec602d67c6cfb51543023d`, `a62473853f6d0a305c10fe7e88001dfa0d40a7e7`, `ec289c4bf54707cda9d2f03562dd55b7f3b87557`, `56e66e9d45e80a5f23c142efd038267c1a05df2e`, `7b513a4ac3f1c0c30aed917db10c3b9087a4b2c1`, `79536c4e04458ad8bfbfa9ba0c0cf5da131a90e0`, `6a2de8be4959149b21df1ec4753c331885347a0b`.
+- Chapter 03 source bibliography: `2a90d0ca6e9d12016ed77d972cd151c19cabd72c`.
+- Readiness matrix: `f15eace9094279f4762489ba73f7db07b9d1ccee`, `a62b01c53e0c648e7acdf717cfe40966d1e501fc`.
+- Visual register: `9790deb25501751edccccba9f6b8e28a06714179`, `7e34d36e9594d4001305fc1227932969a9dc529e`, `7b1c93335bf2907676e2f16d3e7ea0060b8afac8`.
