@@ -745,6 +745,7 @@ try {
         errors.push(file + ": English isotope abundance explanation must specify a normalized weighted mean");
       }
       await page.locator("#lang").click();
+      await page.locator('[data-iso="12"]').click();
       const illustration = page.locator('img[data-svg-ru="../assets/isotope-abundance-ru.svg"]');
       if (await illustration.getAttribute("src") !== "../assets/isotope-abundance-ru.svg" ||
           !(await illustration.getAttribute("alt") || "").includes("Изотопы углерода")) {
