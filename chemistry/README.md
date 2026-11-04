@@ -168,3 +168,20 @@ The successful CI run is evidence of repository validation and automated GitHub-
 
 
 - [x] Revalidated the saved audit report and publication checklist themselves: full CI run [41891315678](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41891315678) completed successfully on commit `f0d862a82893ba3caa0eb946bd216b815b620825`; static validation and the complete Chromium job both passed.
+
+### Internal technical audit completion — 100% (2026-11-05)
+
+This closes the defined internal automated/technical audit scope. It is not external publication acceptance and does not include physical-device testing, assistive-technology testing by human users, or independent chemistry-teacher sign-off.
+
+- [x] Reviewed remaining high-value interaction gaps and extended `browser-smoke.mjs` with regression checks for periodic-table category/group filter combinations, empty search results and RU/EN state preservation.
+- [x] Added a completed reaction-trainer restart check: first task restored, controls unlocked, progress reset, and no duplicate completed attempt stored.
+- [x] Added exact-stoichiometric-state bilingual regression: equal reactant ratios, no excess reagent, unchanged theoretical yield and translated explanation after switching language.
+- [x] Added ideal-gas maximum-boundary regression: n = 3 mol, V = 5 L, t = 300 °C; pressure checked against PV = nRT using T = 573.15 K, then verified unchanged under RU/EN switching with localized units.
+- [x] Full branch-head CI run [41894536945](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41894536945) completed successfully on commit `51fa0dcf9f66a256900c34d793e5e3d4e34bfac6`.
+- [x] Static validation passed: 22 HTML pages, 89 local links/assets, 21 inline scripts, and 18 bilingual dictionaries.
+- [x] Chromium suite passed on all 21 pages; 42 RU/EN axe-core scans completed; all 21 language toggles and key interactive workflows passed; no uncaught page errors.
+- [x] Responsive overflow checks at 390, 768 and 1280 CSS-pixel widths remained green.
+- [x] No production chemistry calculation or learning content change was required by this final edge-case pass; the changes strengthened regression coverage and verified existing behavior.
+- [ ] External release gates remain open: physical Android/iOS testing; manual keyboard-only and 200%/400% zoom/reflow review; NVDA/TalkBack/VoiceOver testing; independent chemistry subject-matter review; final publication approval.
+
+The 100% result applies only to the defined internal technical audit. It must not be presented as a claim that the atlas is fully externally validated or publication-approved.
