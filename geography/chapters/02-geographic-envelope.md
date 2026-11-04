@@ -293,7 +293,11 @@
 
 *Источник / Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [Страница источника / Source page](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
 
-**Фосфорный цикл / Phosphorus cycle:** a separately verified, suitably licensed diagram has not yet been integrated. Do not treat the carbon or nitrogen figures as covering phosphorus; the text explanation remains the learning source until a suitable image is found.
+**Фосфорный цикл / Phosphorus cycle**
+
+![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
+
+*Источник / Source: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons. CC0 1.0 Universal Public Domain Dedication; no attribution is legally required, but credit is retained for provenance. The diagram distinguishes biological cycling (assimilation into DNA and ATP, decomposition) from geological cycling (runoff, burial, rocks, uplift and mining). It is a simplified conceptual flowchart, not a quantitative flux model. / Схема различает биологический цикл (включение фосфора в ДНК и АТФ, разложение) и геологический цикл (сток, захоронение, горные породы, поднятие и добыча). Это упрощённая концептуальная схема, а не количественная модель потоков. [Страница файла и лицензия / File page and licence](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png).
 
 Биогеохимические циклы — непрерывное перемещение химических элементов между живыми организмами и компонентами неживой природы.
 
