@@ -55,11 +55,16 @@ async function checkLesson(mobile) {
     if (!(await readout('#r0')).includes('5,3925 Н')) throw new Error(`default Coulomb force should be 5.3925 N, got ${await readout('#r0')}`);
     if (!(await readout('#r1')).includes('1797510 Н/Кл')) throw new Error(`default field should be about 1.79751e6 N/C, got ${await readout('#r1')}`);
     if (!(await readout('#r2')).includes('Отталкивание')) throw new Error('equal-sign charges should repel');
+    const diagram = page.locator('#visual');
+    const initialDiagram = await diagram.evaluate(canvas => ({ width: canvas.width, height: canvas.height, distance: canvas.dataset.distance, interaction: canvas.dataset.interaction }));
+    if (initialDiagram.width < 100 || initialDiagram.height < 100 || initialDiagram.distance !== '0.10' || initialDiagram.interaction !== 'repulsion') throw new Error(`Coulomb diagram did not render its initial state: ${JSON.stringify(initialDiagram)}`);
     await page.locator('#sign2').selectOption('-1');
     if (!(await readout('#r2')).includes('Притяжение')) throw new Error('opposite-sign charges should attract');
+    if (await diagram.getAttribute('data-interaction') !== 'attraction') throw new Error('charge diagram did not switch to attraction');
     if (!(await readout('#r0')).includes('5,3925 Н')) throw new Error('changing charge sign should not change the force magnitude');
     await page.locator('#p2').evaluate(el => { el.value = '0.2'; el.dispatchEvent(new Event('input', { bubbles: true })); });
     if (!(await readout('#r0')).includes('1,3481 Н')) throw new Error('doubling distance should reduce Coulomb force to one quarter');
+    if (await diagram.getAttribute('data-distance') !== '0.20') throw new Error('charge diagram did not update the distance');
     await page.locator('.answers button[data-answer="b"]').click();
     if (!(await readout('#feedback')).includes('Верно')) throw new Error('electrostatics quiz rejected the correct answer');
 
