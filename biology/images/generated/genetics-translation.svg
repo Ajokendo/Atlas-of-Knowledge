@@ -51,7 +51,7 @@
 <!-- peptide -->
 <path d="M455 180 C500 135 550 145 575 125 S640 115 665 135 S700 150 725 180" stroke="#a27b37" stroke-width="7" fill="none"/>
 <circle cx="575" cy="125" r="18" class="gold"/><circle cx="665" cy="135" r="18" class="gold"/>
-<text x="600" y="145" text-anchor="middle" class="tiny">Растущая цепь / Growing chain</text>
+<text x="600" y="190" text-anchor="middle" class="tiny">Растущая цепь / Growing chain</text>
 
 <!-- callouts -->
 <rect x="55" y="790" width="510" height="75" rx="14" class="green"/>
