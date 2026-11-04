@@ -578,6 +578,14 @@ for (const [relative, minimum] of [["chapters/atomic-structure.html", 2], ["chap
   const count = (page.match(/<svg\b/gi) || []).length;
   if (count < minimum) errors.push(relative + ": expected at least " + minimum + " inline SVG visual models; found " + count);
 }
+const gasLawsPage = fs.readFileSync(path.join(root, "gas-laws.html"), "utf8");
+if (!gasLawsPage.includes('particleNote:"Визуализация показывает только условное число частиц') ||
+    !gasLawsPage.includes('particleNote:"The animation shows only a schematic particle count') ||
+    !gasLawsPage.includes('data-i="particleNote"') ||
+    !gasLawsPage.includes("does not model density, speed, trajectories or collisions")) {
+  errors.push("gas-laws.html: particle illustration must disclose its limits in both languages");
+}
+
 const moleculeLabPage = fs.readFileSync(path.join(root, "molecule-lab.html"), "utf8");
 for (const [key, ru, en] of [
   ["waterOption", "H₂O · Вода", "H₂O · Water"],
