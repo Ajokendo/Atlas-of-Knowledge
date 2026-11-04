@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Круговороты углерода и азота / Carbon and nitrogen cycles</title>
+<desc id="desc">Две отдельные схемы: углерод перемещается между атмосферным CO2, фотосинтезирующими организмами, пищевыми сетями, почвой, разложением, дыханием, горением и океаном; азот проходит фиксацию, аммонификацию, нитрификацию, ассимиляцию и денитрификацию. / Two diagrams: carbon moves among atmospheric CO2, photosynthetic organisms, food webs, soil, decomposition, respiration, combustion and the ocean; nitrogen undergoes fixation, ammonification, nitrification, assimilation and denitrification.</desc>
+<defs>
+ <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L9 5L0 10" fill="none" stroke="#456e62" stroke-width="1.7"/></marker>
+ <style>
+ .title{font:700 30px Arial,sans-serif;fill:#203a32}.paneltitle{font:700 25px Arial,sans-serif;fill:#203a32}
+ .box{fill:#fff;stroke:#9bb4a5;stroke-width:2}.atm{fill:#e5eff5;stroke:#7195aa;stroke-width:2}
+ .bio{fill:#e8f0df;stroke:#76966b;stroke-width:2}.soil{fill:#f3eadb;stroke:#b49365;stroke-width:2}
+ .micro{fill:#f0e8f4;stroke:#9b80aa;stroke-width:2}.txt{font:18px Arial,sans-serif;fill:#263f36;text-anchor:middle}
+ .small{font:15px Arial,sans-serif;fill:#4b6158;text-anchor:middle}.arrow{fill:none;stroke:#456e62;stroke-width:3;marker-end:url(#a)}
+ .cycle{font:700 16px Arial,sans-serif;fill:#49675c}.note{font:15px Arial,sans-serif;fill:#52675d}
+ </style>
+</defs>
+<rect width="1200" height="900" rx="26" fill="#f6f5ef"/>
+<text x="600" y="52" class="title" text-anchor="middle">КРУГОВОРОТЫ ВЕЩЕСТВА / BIOGEOCHEMICAL CYCLES</text>
+<rect x="35" y="82" width="1130" height="365" rx="22" fill="#edf3f1" stroke="#d1ddd6" stroke-width="2"/>
+<text x="600" y="120" class="paneltitle" text-anchor="middle">УГЛЕРОДНЫЙ ЦИКЛ / CARBON CYCLE</text>
+<!-- carbon nodes -->
+<rect x="465" y="145" width="270" height="62" rx="14" class="atm"/>
+<text x="600" y="172" class="txt">Атмосферный CO₂</text><text x="600" y="194" class="small">Atmospheric CO₂</text>
+<rect x="80" y="255" width="235" height="72" rx="14" class="bio"/>
+<text x="197" y="284" class="txt">Растения</text><text x="197" y="307" class="small">Photosynthetic organisms</text>
+<rect x="390" y="255" width="220" height="72" rx="14" class="bio"/>
+<text x="500" y="284" class="txt">Пищевая сеть</text><text x="500" y="307" class="small">Food web</text>
+<rect x="690" y="255" width="205" height="72" rx="14" class="soil"/>
+<text x="792" y="284" class="txt">Почва и детрит</text><text x="792" y="307" class="small">Soil and detritus</text>
+<rect x="955" y="255" width="180" height="72" rx="14" class="atm"/>
+<text x="1045" y="284" class="txt">Океан</text><text x="1045" y="307" class="small">Ocean</text>
+<rect x="365" y="365" width="250" height="55" rx="12" class="micro"/>
+<text x="490" y="388" class="txt">Разложение</text><text x="490" y="408" class="small">Decomposition</text>
+<!-- carbon arrows -->
+<path d="M500 207 Q330 205 220 247" class="arrow"/><text x="340" y="215" class="small">Фотосинтез / Photosynthesis</text>
+<path d="M315 290H380" class="arrow"/>
+<path d="M610 290H680" class="arrow"/>
+<path d="M790 255 Q790 170 735 175" class="arrow"/><text x="845" y="190" class="small">Дыхание / Respiration</text>
+<path d="M490 365V337" class="arrow"/>
+<path d="M615 392 Q890 420 1020 335" class="arrow"/><text x="850" y="408" class="small">Обмен с океаном / Ocean exchange</text>
+<path d="M1045 255 Q1040 210 740 180" class="arrow"/>
+<text x="600" y="438" class="note" text-anchor="middle">Горение биомассы и ископаемого топлива также возвращает CO₂ в атмосферу / Combustion also releases CO₂</text>
+<rect x="35" y="470" width="1130" height="365" rx="22" fill="#f1edf4" stroke="#ded3e4" stroke-width="2"/>
+<text x="600" y="508" class="paneltitle" text-anchor="middle">АЗОТНЫЙ ЦИКЛ / NITROGEN CYCLE</text>
+<!-- nitrogen nodes -->
+<rect x="465" y="530" width="270" height="58" rx="14" class="atm"/>
+<text x="600" y="555" class="txt">Атмосферный N₂</text><text x="600" y="576" class="small">Atmospheric N₂</text>
+<rect x="80" y="635" width="205" height="70" rx="14" class="micro"/>
+<text x="182" y="662" class="txt">Фиксация</text><text x="182" y="685" class="small">Nitrogen fixation</text>
+<rect x="350" y="635" width="205" height="70" rx="14" class="soil"/>
+<text x="452" y="662" class="txt">NH₄⁺</text><text x="452" y="685" class="small">Ammonium</text>
+<rect x="620" y="635" width="205" height="70" rx="14" class="soil"/>
+<text x="722" y="662" class="txt">NO₂⁻ → NO₃⁻</text><text x="722" y="685" class="small">Nitrite → nitrate</text>
+<rect x="900" y="635" width="220" height="70" rx="14" class="bio"/>
+<text x="1010" y="662" class="txt">Растения</text><text x="1010" y="685" class="small">Assimilation</text>
+<rect x="430" y="755" width="340" height="55" rx="12" class="micro"/>
+<text x="600" y="778" class="txt">Органический азот в организмах</text><text x="600" y="798" class="small">Organic nitrogen in organisms</text>
+<!-- nitrogen arrows -->
+<path d="M500 588 Q330 590 205 627" class="arrow"/><text x="335" y="601" class="small">Биологическая фиксация / Biological fixation</text>
+<path d="M285 670H340" class="arrow"/>
+<path d="M555 670H610" class="arrow"/><text x="580" y="620" class="small">Нитрификация / Nitrification</text>
+<path d="M825 670H890" class="arrow"/>
+<path d="M1010 705 Q950 780 780 780" class="arrow"/>
+<path d="M430 782H390 Q330 782 330 730 Q330 670 340 670" class="arrow"/><text x="300" y="755" class="small">Аммонификация / Ammonification</text>
+<path d="M720 635 Q760 550 735 560" class="arrow"/><text x="850" y="565" class="small">Денитрификация / Denitrification</text>
+<text x="600" y="860" class="note" text-anchor="middle">Упрощённые модели: реальные циклы включают дополнительные резервуары, пути и микробные процессы. / Simplified models: real cycles include additional reservoirs, pathways and microbial processes.</text>
+</svg>
