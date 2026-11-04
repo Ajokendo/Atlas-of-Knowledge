@@ -1167,3 +1167,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 
 
 - Added a permanent `checks.mjs` regression guard for every generated SVG: bilingual title/description, root/viewBox/closing-tag structure, and no detected script, `foreignObject`, embedded raster image or external/data URI reference. This guard will apply to future SVG assets as well.
+
+
+### Responsive Chromium page and asset validation — 5 November 2026
+
+- CI run [41905128510](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41905128510) passed on commit `c0f31471ac1fbee556d214487dbd55b18256e60c`.
+- All 13 Biology HTML pages passed at 390×844 and 1365×900; 30 language-toggle interactions; no uncaught page errors.
+- Preliminary contrast sampler: 19,373 visible text instances, 0 below threshold. Automated axe WCAG checks, keyboard/focus, skip-link, interaction, overflow, image decode/intrinsic-dimension/alt and inline-SVG geometry checks passed.
+- This closes the automated responsive browser-render/asset-loading check for that commit. It does not replace human pixel-level image/morphology review or physical school-device QA. Global Image Verification remains Pending audit.
