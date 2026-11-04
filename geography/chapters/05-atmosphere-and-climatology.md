@@ -813,15 +813,61 @@ Climate risks depend on the hazardous event, the exposure of people and infrastr
 
 Adaptation includes early-warning systems, sustainable water management, climate-resilient agriculture, coastal protection, urban cooling and infrastructure planning that accounts for future conditions. **Mitigation** reduces greenhouse-gas emissions or increases removals. **Adaptation** reduces harm and makes use of possible beneficial opportunities.
 
-### 5.16. Meteorology, Climate Data and Forecasting
+### 5.16. Meteorology, Climate Data and Forecasting / Метеорология, климатические данные и прогнозирование
 
-Meteorology studies atmospheric processes and weather. Forecasts are based on observations, physical equations and numerical atmospheric models.
+Meteorology studies atmospheric processes and weather. Operational weather forecasts are produced through a repeated cycle of observations, data quality control, data assimilation, numerical prediction, expert interpretation, communication and verification.
 
-Data sources include weather stations, radiosondes, meteorological radars, weather satellites, marine buoys and ships, aircraft observations, reanalyses and climate datasets.
+Метеорология изучает атмосферные процессы и погоду. Оперативный прогноз погоды создаётся в рамках повторяющегося цикла: наблюдения, контроль качества данных, усвоение данных, численное моделирование, экспертная интерпретация, доведение прогноза до пользователей и проверка его точности.
 
-**Numerical weather prediction** uses mathematical models describing air motion, thermodynamics, moisture and interactions between the atmosphere and surface. Forecast accuracy depends on initial observations, model resolution, the quality of physical parameterisations and the predictability of the atmospheric process.
+**Illustration 5.16-A — From Weather Observations to a Forecast / От метеорологических наблюдений к прогнозу погоды.**
 
-Climate models differ from short-term weather forecasts. They examine statistical properties of the climate system and its response to forcing scenarios; they do not attempt to predict the exact weather on a particular day decades in advance.
+![From weather observations to a forecast / От наблюдений к прогнозу погоды](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-observations-to-forecast.svg)
+
+*Original bilingual Atlas of Knowledge diagram. The sequence is simplified: real forecasting centres may combine steps and run several systems in parallel. Observation platforms include surface stations, radiosondes carried by weather balloons, radar, satellites, ships, buoys and aircraft. Satellites provide remote-sensing measurements; they do not independently generate a forecast. / Оригинальная двуязычная схема Atlas of Knowledge. Последовательность упрощена: реальные метеорологические центры могут объединять этапы и параллельно использовать несколько систем. Источники данных — наземные станции, радиозонды на метеорологических шарах, радары, спутники, суда, буи и самолёты. Спутники предоставляют данные дистанционного зондирования, но сами по себе не составляют прогноз.*
+
+#### From observations to an initial state / От наблюдений к начальному состоянию модели
+
+Weather observations describe conditions at particular places, heights and times. Instruments measure variables such as air temperature, pressure, humidity, wind, precipitation and radiation. Radar detects precipitation and its movement; satellites measure radiation and other signals that are interpreted to estimate properties of clouds, water vapour, temperature and the Earth's surface.
+
+Метеорологические наблюдения описывают условия в определённых местах, на высотах и в конкретное время. Приборы измеряют температуру воздуха, давление, влажность, ветер, осадки и радиацию. Радар обнаруживает осадки и их перемещение; спутники измеряют радиацию и другие сигналы, по которым оценивают свойства облаков, водяного пара, температуры и земной поверхности.
+
+Before use, observations undergo quality control. Systems check such things as units, time stamps, location, instrument status and values that are inconsistent with neighbouring observations or physical limits. Suspect data may be flagged, corrected where justified, or excluded.
+
+Перед использованием наблюдения проходят контроль качества. Проверяются единицы измерения, время, координаты, состояние приборов и значения, которые не согласуются с соседними наблюдениями или физически возможными пределами. Сомнительные данные могут быть помечены, обоснованно исправлены или исключены.
+
+**Data assimilation** combines new observations with a recent short-range model forecast (the background). The result is an analysis: the best available estimate of the current state of the atmosphere, together with information about uncertainty. It is not simply an average of all measurements; the system accounts for their errors and for the physical relationships represented by the model.
+
+**Усвоение данных** объединяет новые наблюдения с недавним краткосрочным прогнозом модели (фоновым полем). Результат называется анализом — наилучшей доступной оценкой текущего состояния атмосферы с учётом неопределённости. Это не простое усреднение всех измерений: система учитывает погрешности наблюдений и физические связи, описанные моделью.
+
+#### Numerical prediction and uncertainty / Численный прогноз и неопределённость
+
+A numerical weather prediction model solves mathematical equations that describe atmospheric motion, heat, moisture and interactions with the land and ocean. Starting from the analysed state, the model calculates how weather may evolve. Forecasts are updated as new observations arrive and new model runs become available.
+
+Модель численного прогноза погоды решает математические уравнения, описывающие движение воздуха, тепло, влагу и взаимодействие атмосферы с сушей и океаном. Используя подготовленный анализ в качестве начального состояния, модель рассчитывает возможное развитие погоды. По мере поступления новых наблюдений и выполнения новых расчётов прогноз обновляется.
+
+An **ensemble forecast** uses multiple model runs with slightly different initial conditions and/or model settings. If the results remain similar, confidence in that part of the forecast is generally higher. If they differ substantially, the outcome is less certain. An ensemble does not remove uncertainty; it helps estimate and communicate it. In general, forecast uncertainty grows with lead time, although the rate depends on the weather situation and the phenomenon being predicted.
+
+**Ансамблевый прогноз** использует несколько расчётов модели с немного различающимися начальными условиями и/или настройками. Если результаты близки, уверенность в этой части прогноза обычно выше. Если они заметно различаются, неопределённость больше. Ансамбль не устраняет неопределённость, а помогает оценить и показать её. В целом неопределённость увеличивается с заблаговременностью прогноза, но скорость роста зависит от погодной ситуации и прогнозируемого явления.
+
+Forecasters compare model guidance, observations, radar and satellite imagery, local climatology and the effects of terrain and coastlines. Mountain valleys, slopes, urban areas and lakes can create local conditions that a global model may not fully resolve. A forecast is therefore an evidence-based assessment, not a guarantee that every detail will occur exactly as shown.
+
+Синоптики сопоставляют результаты моделей с наблюдениями, радиолокационными и спутниковыми данными, местными климатическими особенностями и влиянием рельефа и береговых линий. Горные долины, склоны, города и озёра создают местные условия, которые глобальная модель может описывать недостаточно подробно. Поэтому прогноз — это оценка, основанная на данных и научных методах, а не гарантия того, что каждая деталь реализуется точно.
+
+#### Forecast products and verification / Прогнозы и проверка качества
+
+Forecast services communicate expected temperature, wind, cloud, precipitation and visibility, as well as the probability or risk of hazardous weather. Warnings are issued when expected conditions may threaten people, infrastructure or economic activity. Users should follow the warnings and instructions of their national meteorological and emergency authorities.
+
+Метеорологические службы сообщают ожидаемые температуру, ветер, облачность, осадки и видимость, а также вероятность или риск опасных явлений. Предупреждения выпускают, когда ожидаемые условия могут угрожать людям, инфраструктуре или хозяйственной деятельности. Пользователям следует руководствоваться предупреждениями и инструкциями национальных метеорологических и чрезвычайных служб.
+
+After the event, forecasts are **verified** by comparing predicted conditions with observations. Verification helps identify systematic errors and improve models and forecast communication. A single incorrect forecast does not by itself measure the quality of an entire forecasting system; performance is assessed across many cases and with appropriate statistical measures.
+
+После наступления прогнозируемого срока прогнозы **проверяют**, сопоставляя предсказанные условия с фактическими наблюдениями. Такая проверка помогает выявлять систематические ошибки и улучшать модели и способы представления прогноза. Один неточный прогноз сам по себе не характеризует качество всей системы: его оценивают по множеству случаев с помощью подходящих статистических показателей.
+
+Climate datasets and reanalyses serve different purposes from a daily weather forecast. A reanalysis combines historical observations with a consistent model-based system to describe past atmospheric conditions. Climate datasets are used to study long-term averages, variability and trends. Climate models examine possible long-term responses of the climate system to natural and human influences; they do not predict the exact weather on a particular day decades ahead.
+
+Климатические наборы данных и реанализ решают иные задачи, чем ежедневный прогноз погоды. Реанализ объединяет исторические наблюдения с единой модельной системой, чтобы описать состояние атмосферы в прошлом. Климатические данные используют для изучения многолетних средних значений, изменчивости и тенденций. Климатические модели исследуют возможные долгосрочные реакции климатической системы на природные и антропогенные воздействия, но не предсказывают точную погоду в конкретный день через десятилетия.
+
+*Sources / Источники: ECMWF, [Data assimilation](https://www.ecmwf.int/en/research/data-assimilation) and [Modelling and Prediction](https://www.ecmwf.int/en/research/modelling-and-prediction); WMO, [Global Observing System](https://wmo.int/activities/global-observing-system-gos/global-observing-system-gos) and [WMO Integrated Processing and Prediction System](https://public.wmo.int/activities/wmo-integrated-processing-and-prediction-system-wipps).*
 
 ### 5.17. Reading Climate Graphs
 
@@ -889,7 +935,7 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 8. World Meteorological Organization. *WMO Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017). https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals
 9. World Meteorological Organization. **WMO Climatological Normals** — definition of standard 30-year periods and the current 1991–2020 collection. https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals
 10. World Meteorological Organization. **Provisional 2026 Edition of the Guide to Instruments and Methods of Observation (WMO-No. 8)** (5 October 2026). This is a provisional edition submitted for approval at INFCOM-4, scheduled for 23–27 November 2026; do not cite it as an already approved standard. https://wmo.int/media/news/provisional-2026-edition-of-guide-instruments-and-methods-of-observation-wmo-no-8
-11. Intergovernmental Panel on Climate Change (IPCC). *Climate Change 2023: Synthesis Report — Summary for Policymakers*. https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/
+11. Intergovernmental Panel on Climate Change (IPCC). *Climate Change 2023: Synthesis Report — Summary for Policymakers*. https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/\n12. European Centre for Medium-Range Weather Forecasts (ECMWF). *Data Assimilation*. https://www.ecmwf.int/en/research/data-assimilation\n13. ECMWF. *Modelling and Prediction*. https://www.ecmwf.int/en/research/modelling-and-prediction\n14. World Meteorological Organization (WMO). *Global Observing System*. https://wmo.int/activities/global-observing-system-gos/global-observing-system-gos\n15. WMO. *WMO Integrated Processing and Prediction System (WIPPS)*. https://public.wmo.int/activities/wmo-integrated-processing-and-prediction-system-wipps
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
