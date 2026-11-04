@@ -31,7 +31,7 @@ jobs:
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/physics-http.log 2>&1 &
           for attempt in $(seq 1 30); do
-            if curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/newton/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/oscillations/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/rotation/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/fluids/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/electrostatics/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/gauss/ >/dev/null; then
+            if curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/newton/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/circular/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/energy/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/momentum/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/oscillations/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/rotation/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/fluids/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/electrostatics/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/gauss/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/potential/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/capacitors/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/circuits/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/magnetism/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/induction/ >/dev/null; then
               exit 0
             fi
             sleep 1
@@ -58,6 +58,31 @@ jobs:
         run: node original-engine/induction/browser-smoke.mjs
       - name: Test Chapter 10 Gauss law on desktop and mobile viewports
         run: node original-engine/gauss/browser-smoke.mjs
+      - name: Test Chapter 3 circular motion on desktop and mobile viewports
+        env:
+          MODULE: circular
+          EXPECTED_PAGES: "13"
+        run: node original-engine/book-smoke.mjs
+      - name: Test Chapter 5 momentum on desktop and mobile viewports
+        env:
+          MODULE: momentum
+          EXPECTED_PAGES: "12"
+        run: node original-engine/book-smoke.mjs
+      - name: Test Chapter 11 electric potential on desktop and mobile viewports
+        env:
+          MODULE: potential
+          EXPECTED_PAGES: "9"
+        run: node original-engine/book-smoke.mjs
+      - name: Test Chapter 12 capacitors on desktop and mobile viewports
+        env:
+          MODULE: capacitors
+          EXPECTED_PAGES: "9"
+        run: node original-engine/book-smoke.mjs
+      - name: Test Chapter 13 electric circuits on desktop and mobile viewports
+        env:
+          MODULE: circuits
+          EXPECTED_PAGES: "9"
+        run: node original-engine/book-smoke.mjs
 
   fluids-isolated:
     runs-on: ubuntu-latest
