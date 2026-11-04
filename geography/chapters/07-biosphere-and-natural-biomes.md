@@ -420,6 +420,32 @@ Energy flows through an ecosystem in one direction: it enters mainly from the Su
 
 The often-quoted “10 percent rule” is only a guide: the share of energy transferred to the next trophic level varies greatly among ecosystems and organism types. Therefore, pyramids of energy, biomass and numbers may have different shapes. An energy pyramid always represents the decline in available energy across trophic levels over a stated period.
 
+### 7.4.1. Worked Example: Energy Transfer in a Food Chain
+
+Consider a hypothetical grassland ecosystem. During a selected period, producers (plants) store 12,000 kJ of energy in new biomass. Of this energy, 1,200 kJ is incorporated into the biomass of herbivores.
+
+**Step 1. Calculate the proportion of energy transferred.**
+
+\[
+\eta = \frac{E_{\text{next level}}}{E_{\text{previous level}}}\times 100\%
+\]
+
+\[
+\eta = \frac{1,200}{12,000}\times 100\% = 10\%
+\]
+
+In this hypothetical example, the transfer efficiency from producers to herbivores is **10%**.
+
+**Step 2. Interpret the result correctly.**  
+This does not mean that exactly 10% of energy is transferred at every successive level in all ecosystems. Some energy is not consumed, some is not assimilated, and a substantial share is used for respiration, movement and other processes and dissipated as heat. The calculated value applies only to the stated levels, period and accounting method.
+
+**Step 3. Compare another transfer.**  
+If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in herbivore biomass, the efficiency of this transfer is 90 / 1,200 × 100% = **7.5%**. Efficiencies can differ between transfers.
+
+**Check your understanding:** If predators incorporate 60 kJ from 800 kJ of energy in prey biomass, what is the transfer efficiency?
+
+---
+
 ### 7.5. Biodiversity
 
 Biodiversity is the variability of life at several levels:
@@ -592,6 +618,18 @@ Every study requires appropriate sampling design, replication, control of season
 ### Практическая работа 4. Экологический мониторинг / Practical activity 4. Ecological monitoring
 
 Разработайте план сезонного наблюдения за одним видом растений или животных: цель, место, периодичность, метод учёта, единицы измерения, возможные источники ошибки и этические ограничения. Не нарушайте охранный режим территории и не беспокойте животных.
+
+### 7.15.1. Evaluating Ecosystem Restoration
+
+Planting trees or increasing vegetation cover does not by itself demonstrate that an ecosystem has been restored. Outcomes must be assessed against the initial condition, the site's ecological context and a realistic project goal. It may not be possible or desirable to recreate a historical state fully, especially where climate and land use have changed.
+
+**What to measure:** survival and natural regeneration of native species; vegetation structure and diversity; soil and water conditions; presence of invasive species; habitat connectivity; and signs that characteristic animal species are returning. For rangelands, livestock pressure, grazing seasonality and ground cover are also important.
+
+**A baseline is essential.** Before work begins, document site conditions and, where possible, select comparable reference sites. Repeat observations in the same seasons using consistent methods. A short-term increase in green biomass does not necessarily indicate recovery of species composition, soil functions or drought resilience.
+
+**Involve local land users.** Restoration measures should account for the rights and practices of pastoral communities, water access, livelihood needs and local knowledge. Otherwise, a technically successful planting effort may fail or shift grazing pressure to neighbouring areas.
+
+**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. For each, state the measurement method, season, possible source of error and criterion that would indicate improvement.
 
 ### English Summary
 
