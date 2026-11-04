@@ -47,7 +47,7 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 | `image-brief-flora-naryn` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
 | `image-brief-flora-osh` | P1 | Produced: one verified local photograph of the Kulun-Ata river corridor; see `FLORA_OSH_IMAGE_AUDIT_2026-11-03.md`. |
 | `image-brief-flora-batken` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
-| `image-brief-flora-talas` | P2 | Use the Besh-Tash / Talas Ala-Too context from the chapter; distinguish riparian, forest and alpine communities. Any species label needs a Talas-specific source. |
+| `image-brief-flora-talas` | P2 | **Produced:** original bilingual SVG integrated in `chapters/flora-kyrgyzstan.html`. Generalized Besh-Tash panorama distinguishes spruce woodland on moister slopes, open juniper communities, subalpine/alpine meadows and river floodplain. Conceptual, not to scale; no fixed elevation limits or species labels without Talas-specific sources. Browser visual QA pending. |
 | `image-brief-flora-chuy` | P2 | Produced original SVG transect: distinguish valley steppe/semi-desert, shrub slopes, open juniper woodland, spruce stands in moister gorges and alpine meadows. Conceptual only, not to scale; no exact elevation limits, species-range boundaries or claim that each belt is continuous across the oblast. Browser visual QA pending. |
 | `image-brief-fauna-habitats` | P3 | Treat the scene as a habitat panorama, not a distribution map or census. Place animals in suitable zones and label it as a composite illustration if multiple sites are combined. |
 | `image-brief-fauna-mammals` | P1 | Detailed P1 review: see `IMAGE_SCIENTIFIC_REVIEW.md`; actual image not produced. |
