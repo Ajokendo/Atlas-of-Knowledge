@@ -1930,3 +1930,18 @@ A final compliance check against the Geography image-first instruction found tha
 **Final Chapter 02 visual inventory:** 40 Markdown image embeds representing 20 unique assets (nine remote science images and 11 original local bilingual SVGs). All 19 visual IDs remain illustrated in both language versions. All image embeds have non-empty bilingual alt text; all 11 local SVGs have title, description and `role="img"` metadata. No image placeholders or stale references to the removed SVGs remain.
 
 **Current working readiness remains 90%.** The remaining tasks are final sentence-by-sentence scientific/bilingual copy-edit, dated-value verification, and live-site/device/accessibility tests. The Pages workflow deploys only from `main`; this branch remains isolated as instructed, so no deployed-site test is claimed.
+
+
+### Final source-register reconciliation — Chapter 02 — 4 November 2026
+
+- Refreshed `geography/IMAGE_SOURCES.md` so its Chapter 02 table, rights notes and counts match the actual branch content. It now records 19 visual IDs, 20 unique image assets, 40 Markdown embeds, nine remote science images and 11 original local SVGs; Chapter 01's three visual briefs remain outstanding.
+- The 2.10-A carbon-cycle figure is credited to My NASA Data and the U.S. Department of Energy adaptation. The 2.10-B nitrogen-cycle image is credited to NCAR/UCAR; the original NCAR page states that the image is freely available for nonprofit and media use, and the UCAR terms restrict use to non-commercial/non-profit research or education. The paired phosphorus-cycle figure is CC0 1.0.
+- NASA's Earth System Diagram is now used for 2.15-A, not as an extra 2-A image. The chapter records NASA Goddard credit, designer Kevin W. Miller, the NASA source page and NASA's educational/informational media-use guidance.
+- Rechecked static consistency: all 19 visual IDs have Russian and English captions; all 40 image embeds have non-empty bilingual alt text; all 11 local SVGs exist and include `title`, `desc` and `role="img"`; no image placeholders or references to the three removed bespoke SVGs remain.
+- Final source/rights register commit: `856f201cc31ff606a7cd2630c176b23d497377c0`.
+- Chapter 02 latest content commit: `55362b96f60016243c00939ae3e8d58a03f85715`.
+- Readiness matrix latest reconciliation commit: `0b2d0756fd8183ba2dd01c9c04891b41b9677463`.
+- Visual asset register commit: `95886116c89df875bcd54b9ecb6b6706a5ce1539`.
+- Geography README commit: `d9ca7bb265654962263d2720b68fe77bda7105e1`.
+
+**Readiness remains 90%.** Remaining work is the final sentence-by-sentence scientific and bilingual copy-edit, dated-value/source verification, and live-site, mobile, keyboard and screen-reader testing. The Pages workflow deploys only from `main`; the work remains isolated in `workspace/geography`, and no deployed rendering test is claimed.
