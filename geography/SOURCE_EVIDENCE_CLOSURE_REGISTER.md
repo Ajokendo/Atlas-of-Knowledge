@@ -296,3 +296,6 @@
 | Traditional biome maps versus functional ecosystem typologies | IUCN, *Global Ecosystem Typology 2.0* (2020), DOI 10.2305/IUCN.CH.2020.13.en; IUCN Global Ecosystem Typology portal | Added bilingual explanation that traditional terrestrial biome maps often emphasise climate and vegetation structure, while IUCN GET uses six hierarchical levels and incorporates ecosystem functions and community composition. The frameworks complement one another but are not interchangeable category-for-category. Added the IUCN publication to the bibliography. The chapter's visual map still requires a named classification and legend. |
 
 **Saved commit:** Chapter 07 `15fa5a4a48786efcd93fa840a0f4c140d6495c77`.
+
+
+- **Chapter 06 clarification:** the worked catchment-balance example now explicitly states the assumptions behind the shortened storage-change equation and requires groundwater inflow/outflow, abstractions, discharges and transfers to be represented separately when relevant. Commit: `adcb61103b4724b1a9ee04cd317c2c6f34417432`.
