@@ -12,9 +12,6 @@
 
 *Оригинальная двуязычная схема Atlas of Knowledge. Стрелки показывают взаимосвязь компонентов, а не количественные потоки вещества и энергии. / Original bilingual Atlas of Knowledge diagram. Arrows indicate interactions, not quantified matter or energy fluxes.*
 
-![Earth as a complex interrelated system: solar radiation, atmosphere, water cycle, carbon cycle, ecosystems and human influences / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
-
-*Источник / Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. This is a five-sphere Earth-system illustration with visible cryosphere components, not a literal four-part geographic-envelope diagram. Use it to discuss interactions; the chapter's model groups components differently. / Это иллюстрация пятисферной системы Земли с элементами криосферы, а не буквальная схема четырёхкомпонентной географической оболочки. Используйте её для обсуждения связей; группировка компонентов в главе отличается. [Страница источника / Source page](https://svs.gsfc.nasa.gov/30988).
 
 Географическая оболочка — целостная внешняя оболочка Земли, в пределах которой взаимодействуют атмосфера, гидросфера, верхняя часть литосферы и биосфера. Здесь происходят основные природные процессы, формируются почвы и экосистемы, циркулирует вода, перемещаются воздушные массы и осуществляется обмен веществом и энергией.
 
@@ -329,9 +326,9 @@
 
 **Иллюстрация 2.10-A — Глобальный круговорот углерода / The Global Carbon Cycle.**
 
-![Резервуары и обмен углеродом между атмосферой, наземной биосферой, почвами, океаном и геологическими запасами, включая влияние человека / Carbon reservoirs and exchanges among the atmosphere, land biosphere, soils, ocean and geological stores, including human influence](../assets/diagrams/02-10A-global-carbon-cycle.svg)
+![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg)
 
-*Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Она показывает основные резервуары и пути обмена, но не задаёт количественные потоки и не заменяет измерения. / Original bilingual conceptual diagram by Atlas of Knowledge. It shows major reservoirs and pathways, but does not quantify fluxes or replace measurements.*
+*Source: My NASA Data, “Energy and Matter Cycles”; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System. The diagram distinguishes natural fluxes, human contributions and stored carbon; numerical values belong to the source's stated units and reference context. / Схема различает природные потоки, вклад человека и запасы углерода; численные значения следует читать в единицах и контексте источника. [Source page / Страница источника](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
 
 ### 2.10.2. Кислородный цикл / Oxygen Cycle
 
@@ -361,9 +358,13 @@
 
 **Иллюстрация 2.10-B — Круговороты азота и фосфора / Nitrogen and Phosphorus Cycles.**
 
-![Сравнение круговоротов азота и фосфора: атмосферный резервуар и микробные превращения азота; выветривание пород, почвы, вода и организмы в цикле фосфора / Comparison of nitrogen and phosphorus cycles: atmospheric nitrogen and microbial transformations; rock weathering, soils, water and organisms in the phosphorus cycle](../assets/diagrams/02-10B-nitrogen-phosphorus-cycles.svg)
+![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
 
-*Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Она подчёркивает, что у фосфорного цикла нет значительной газовой фазы; стрелки не показывают количественные потоки. / Original bilingual conceptual diagram by Atlas of Knowledge. It highlights that the phosphorus cycle has no major gaseous phase; arrows do not represent quantified fluxes.*
+*Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [Source page / Страница источника](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
+
+![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
+
+*Source: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons. CC0 1.0 Universal Public Domain Dedication; credit is retained for provenance. The diagram distinguishes biological cycling from geological cycling and is a simplified conceptual flowchart, not a quantitative flux model. / Источник: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons, CC0 1.0. Схема различает биологический и геологический круговороты и является упрощённой концептуальной моделью, а не количественной моделью потоков. [File page and licence / Страница файла и лицензия](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png).*
 
 ## 2.11. Природные комплексы и геосистемы / Natural Complexes and Geosystems
 
@@ -595,9 +596,9 @@ When analysing a diagram, identify variables and causal links, note time lags, d
 
 **Иллюстрация 2.15-A — Земля как целостная система / Earth as an Integrated System.**
 
-![Взаимосвязь атмосферы, гидросферы, литосферы, биосферы и криосферы с круговоротами вещества, потоками энергии и воздействием человека / Interactions among the atmosphere, hydrosphere, lithosphere, biosphere and cryosphere, with matter cycles, energy flows and human influence](../assets/diagrams/02-15A-integrated-earth-system.svg)
+![Earth as a complex interrelated system: solar radiation, atmosphere, water and carbon cycles, ecosystems and human influences / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
 
-*Оригинальная итоговая схема Atlas of Knowledge. Границы оболочек перекрываются; стрелки показывают примеры связей, а не измеренные величины. / Original summary diagram by Atlas of Knowledge. Sphere boundaries overlap; arrows show example interactions, not measured quantities.*
+*Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. This five-sphere Earth-system illustration includes cryosphere components and is used here as an integrated overview. / Источник: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; страница обновлена в 2024 году), дизайнер Kevin W. Miller. Схема показывает пятисферную систему Земли, включая криосферу, и используется как итоговый обзор. [Source page / Страница источника](https://svs.gsfc.nasa.gov/30988).*
 
 ## Контрольные вопросы / Review Questions
 
@@ -637,9 +638,6 @@ The geographic envelope is Earth's integrated outer zone in which the atmosphere
 
 *Original bilingual Atlas of Knowledge diagram. Arrows show examples of interaction, not measured matter or energy fluxes. / Оригинальная двуязычная схема Atlas of Knowledge. Стрелки показывают примеры взаимодействия, а не измеренные потоки вещества или энергии.*
 
-![Earth as a complex interrelated system, including solar radiation, atmosphere, water and carbon cycles, ecosystems and human influence / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
-
-*Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. This five-sphere Earth-system illustration is supplementary; it is not a literal four-part geographic-envelope diagram. / Источник: NASA Goddard Space Flight Center, “Earth System Diagram”. Это дополнительная иллюстрация пятисферной системы, а не буквальная схема четырёхкомпонентной географической оболочки. [Source page / Страница источника](https://svs.gsfc.nasa.gov/30988).
 
 Key properties of the geographic envelope include:
 
@@ -855,9 +853,9 @@ Biogeochemical cycles are the continuous movement of chemical elements between l
 
 **Illustration 2.10-A — The Global Carbon Cycle.**
 
-![Carbon reservoirs and exchanges among the atmosphere, land biosphere, soils, ocean and geological stores, including human influence / Резервуары и обмен углеродом между атмосферой, биосферой суши, почвами, океаном и геологическими запасами](../assets/diagrams/02-10A-global-carbon-cycle.svg)
+![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg)
 
-*Original bilingual conceptual diagram by Atlas of Knowledge. It shows major reservoirs and pathways, but does not quantify fluxes or replace measurements. / Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Она показывает основные резервуары и пути обмена, но не задаёт количественные потоки и не заменяет измерения.*
+*Source: My NASA Data, “Energy and Matter Cycles”; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System. The diagram distinguishes natural fluxes, human contributions and stored carbon; numerical values belong to the source's stated units and reference context. / Схема различает природные потоки, вклад человека и запасы углерода; численные значения следует читать в единицах и контексте источника. [Source page / Страница источника](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
 
 **Oxygen cycle.** Oxygen is essential for aerobic respiration. Its cycle includes photosynthesis, respiration, decomposition, mineral oxidation and the formation and destruction of ozone.
 
@@ -867,9 +865,13 @@ Biogeochemical cycles are the continuous movement of chemical elements between l
 
 **Illustration 2.10-B — Nitrogen and Phosphorus Cycles.**
 
-![Comparison of nitrogen and phosphorus cycles: atmospheric nitrogen and microbial transformations; rock weathering, soils, water and organisms in the phosphorus cycle / Сравнение круговоротов азота и фосфора](../assets/diagrams/02-10B-nitrogen-phosphorus-cycles.svg)
+![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
 
-*Original bilingual conceptual diagram by Atlas of Knowledge. It highlights that the phosphorus cycle has no major gaseous phase; arrows do not represent quantified fluxes. / Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Она подчёркивает, что у фосфорного цикла нет значительной газовой фазы; стрелки не показывают количественные потоки.*
+*Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [Source page / Страница источника](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
+
+![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
+
+*Source: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons. CC0 1.0 Universal Public Domain Dedication; credit is retained for provenance. The diagram distinguishes biological cycling from geological cycling and is a simplified conceptual flowchart, not a quantitative flux model. / Источник: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons, CC0 1.0. Схема различает биологический и геологический круговороты и является упрощённой концептуальной моделью, а не количественной моделью потоков. [File page and licence / Страница файла и лицензия](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png).*
 
 ### 2.11. Natural Complexes and Geosystems
 
@@ -1012,9 +1014,9 @@ The geographic envelope is a complex natural system in which matter, energy, liv
 
 **Illustration 2.15-A — Earth as an Integrated System.**
 
-![Interactions among the atmosphere, hydrosphere, lithosphere, biosphere and cryosphere, with matter cycles, energy flows and human influence / Взаимосвязь атмосферы, гидросферы, литосферы, биосферы и криосферы, круговоротов вещества, потоков энергии и воздействия человека](../assets/diagrams/02-15A-integrated-earth-system.svg)
+![Earth as a complex interrelated system: solar radiation, atmosphere, water and carbon cycles, ecosystems and human influences / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
 
-*Original summary diagram by Atlas of Knowledge. Sphere boundaries overlap; arrows show example interactions, not measured quantities. / Оригинальная итоговая схема Atlas of Knowledge. Оболочки перекрываются; стрелки показывают примеры связей, а не измеренные величины.*
+*Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. This five-sphere Earth-system illustration includes cryosphere components and is used here as an integrated overview. / Источник: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; страница обновлена в 2024 году), дизайнер Kevin W. Miller. Схема показывает пятисферную систему Земли, включая криосферу, и используется как итоговый обзор. [Source page / Страница источника](https://svs.gsfc.nasa.gov/30988).*
 
 ### Review Questions
 
