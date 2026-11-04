@@ -35,10 +35,10 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 03 | 13 | 13 IDs reported integrated (10 SVGs + 3 sourced images); not verified |
 | 04 | 16 | 16 local bilingual SVGs reported integrated; not verified |
 | 05 | 20 | 16 integrated reported; 5.18-A pending; two ID labels not safely reconstructed; ID mapping needs reconciliation |
-| 06 | 15 | Readiness matrix reports 0/15 integrated |
+| 06 | 15 | 0/15 integrated; no image embeds or matching assets found |
 | 07 | 9 | 0/9 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
 | 08 | 7 | 0/7 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
-| 09 | 7 | Chapter source contains 09-A–09-G; 09-G was missing from the register and is now reconciled |
+| 09 | 7 | 0/7 integrated; all seven in-text visual needs are placeholders, including 09-G |
 | 10 | 7 | 0/7 integrated; all seven visual needs remain placeholders. |
 | 11–17 | 56 | 0/56 integrated; source scan found no chapter image embeds or matching assets. |
 | 18 | 10 | 1/10 integrated: 18-J local SVG; 9/10 missing. |
