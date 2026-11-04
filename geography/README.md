@@ -2,7 +2,7 @@
 
 ### Visual production update — 4 November 2026
 
-- The Geography visual register now tracks 218 unique assets across 26 chapters. Chapter 02 now has all 19 visual IDs illustrated in both Russian and English, including original bilingual diagrams for the global carbon cycle, nitrogen and phosphorus cycles, and the integrated Earth system. Chapter 02 has 40 image embeds representing 20 unique assets (6 external images and 14 original SVGs). Four other SVG illustrations are embedded in Chapters 18–20: mountain-slope processes (18-J), mountain–valley circulation (19-H), glacier anatomy (20-I) and 2025 national water-use statistics (20-K); these four remain pending final scientific/editorial sign-off.
+- The Geography visual register now tracks 218 unique assets across 26 chapters. Chapter 02 now has all 19 visual IDs illustrated in both Russian and English. The carbon, nitrogen and phosphorus cycles use existing NASA/NCAR and Wikimedia Commons science figures, and the integrated-system summary uses NASA's Earth System Diagram. Chapter 02 has 42 image embeds representing 20 unique assets (9 external images and 11 original SVGs). Four other SVG illustrations are embedded in Chapters 18–20: mountain-slope processes (18-J), mountain–valley circulation (19-H), glacier anatomy (20-I) and 2025 national water-use statistics (20-K); these four remain pending final scientific/editorial sign-off.
 - A complete marker pass found and repaired seven missing in-text markers in Chapter 26 (26-C, 26-E, 26-F, 26-G, 26-H, 26-J and 26-L). The other repeated Chapter 26 IDs intentionally appear both in the teaching text and the production brief.
 
 Четвёртый дисциплинарный атлас платформы **Atlas of Knowledge**.
@@ -182,6 +182,6 @@
 ## Аудит по общему стандарту — 2 ноября 2026
 
 - Общий редакционный стандарт прочитан из `atlas-of-knowledge-integration`; предметные критерии и ограничения записаны в `EDITORIAL_STANDARD_ADOPTION.md`.
-- В матрице готовности отражены 218 визуальных ID. Глава 02 имеет 19 двуязычных визуальных ID и 40 показов изображений (20 уникальных материалов); четыре SVG глав 18–20 встроены, но ещё не прошли окончательное научное и редакционное утверждение.
+- В матрице готовности отражены 218 визуальных ID. Глава 02 имеет 19 двуязычных визуальных ID и 42 показа изображений (20 уникальных материалов); четыре SVG глав 18–20 встроены, но ещё не прошли окончательное научное и редакционное утверждение.
 - В главе 01 добавлена английская таблица Key Terms (раздел 1.12), поскольку ранее англоязычный текст не содержал английских определений терминов.
 - Полная построчная научная проверка, проверка всех ссылок, двуязычная вычитка, визуальное утверждение и браузерное/мобильное тестирование остаются незавершёнными.
