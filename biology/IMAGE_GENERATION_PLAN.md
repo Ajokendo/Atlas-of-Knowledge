@@ -6,7 +6,7 @@ This register mirrors the in-page illustration markers. Each marker is placed be
 
 ## Current disposition — 3 November 2026
 
-Thirty-one of 53 visual briefs are now produced or integrated (**58.5%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Twenty-two briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Thirty-two of 53 visual briefs are now produced or integrated (**60.4%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Twenty-two briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
 
 ## Priority key
 
@@ -46,7 +46,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 
 ### Ecology — `chapters/ecology.html`
 - [~] **[P3] Пищевая сеть горной экосистемы / Food web of a mountain ecosystem** — Central Asian mountain-meadow food web; arrows point from resource to consumer.
-- [~] **[P2] Экосистема горного водосбора / Mountain catchment ecosystem** — landscape from glaciers and alpine meadows through forest belt to river and valley, showing ecological connections.
+- [x] **[P2] Экосистема горного водосбора / Mountain catchment ecosystem** — original generalized SVG integrated at the original ecology anchor. Shows glacier-fed runoff, streams, soil infiltration, subsurface flow, soil-root links, alpine meadow, forest and juniper slopes, and river valley; no invented species, named-site mapping or fixed elevation claims.
 - [x] **[P2] Круговороты вещества в экосистеме / Matter cycles in an ecosystem** — original bilingual SVG integrated in `chapters/ecology.html`; simplified carbon and nitrogen cycle models distinguish photosynthesis, respiration, decomposition, nitrogen fixation, ammonification, nitrification, assimilation and denitrification. Focused browser visual QA pending.
 
 ### Evolutionary biology — `chapters/evolution.html`
@@ -109,7 +109,3 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 5. Integrate approved assets with responsive sizing, descriptive RU/EN alt text, captions and source/credit metadata where applicable.
 6. Every in-page note names the exact WebP target file and aspect ratio. Replace the matching note at its current location with a semantic `<figure>`; do not place the image elsewhere or duplicate it.
 7. Change `[~]` to `[x]` only after the exact asset exists, its creator/source and licence are recorded, scientific review and bilingual alt-text/caption review are complete, and the asset is integrated at the mapped anchor. The presence of a generated image alone does not mean the task is complete.
-
-
-## Ecology mountain catchment — 4 November 2026
-- [x] **[P2] Экосистема горного водосбора / Mountain catchment ecosystem** — original generalized SVG integrated at the original ecology anchor. Shows glacier-fed runoff, streams, infiltration, subsurface flow, soil-root links, alpine meadow, forest and juniper slopes, and river valley; no invented species, named-site mapping or fixed elevation claims. Focused browser QA pending.
