@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">От молекулы до биосферы / From molecule to biosphere</title>
+<desc id="desc">Без подписей: двойная спираль ДНК, клетка, растение, животное и горная экосистема соединены в единую учебную панораму. / Unlabelled educational panorama linking a DNA double helix, a cell, a plant, an animal and a mountain ecosystem.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e8eee7"/><stop offset="1" stop-color="#f4f1e8"/></linearGradient>
+ <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#91a88b"/><stop offset="1" stop-color="#526f58"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#a8c4bd"/><stop offset="1" stop-color="#6d9994"/></linearGradient>
+ <style>.ink{stroke:#344b3c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.fine{stroke:#536e59;stroke-width:3;fill:none;stroke-linecap:round}.dnaA{stroke:#557c58;stroke-width:10;fill:none;stroke-linecap:round}.dnaB{stroke:#b47a46;stroke-width:10;fill:none;stroke-linecap:round}.snow{fill:#f9faf6}.mount{fill:#849a8c}.mount2{fill:#9eafa0}.leaf{fill:#638866}.leaf2{fill:#8eaa84}.cell{fill:#f4d9a8;stroke:#8d9873;stroke-width:7}.nucleus{fill:#9aafbd;stroke:#617c8a;stroke-width:5}.org{fill:#d68b63;stroke:#98644e;stroke-width:3}.plant{stroke:#496f4c;stroke-width:10;stroke-linecap:round;fill:none}.animal{fill:#786f5c;stroke:#514c40;stroke-width:4;stroke-linejoin:round}</style>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<circle cx="1350" cy="160" r="75" fill="#e7d7a8" opacity=".65"/>
+<!-- distant mountains -->
+<path d="M0 620L190 390L330 520L540 270L735 535L930 310L1110 535L1300 345L1600 610V900H0Z" class="mount2"/>
+<path d="M100 500L190 390L255 472L215 450L190 420L165 455Z M440 390L540 270L630 390L575 355L540 300L505 356Z M840 425L930 310L1025 430L975 395L930 340L890 392Z M1215 445L1300 345L1390 455L1345 420L1300 375L1260 420Z" class="snow"/>
+<path d="M0 650L260 505L430 625L660 470L850 635L1090 470L1290 625L1460 500L1600 590V900H0Z" class="mount"/>
+<path d="M0 700Q250 610 470 700T920 690T1600 680V900H0Z" fill="url(#hill)"/>
+<!-- river -->
+<path d="M1020 900Q980 820 1060 760Q1140 700 1085 650Q1040 610 1120 580Q1200 550 1190 500" stroke="url(#water)" stroke-width="48" fill="none" opacity=".9"/>
+<!-- forest -->
+<g fill="#42684d"><path d="M90 710L150 565L210 710Z M160 750L230 570L300 750Z M300 720L360 545L425 720Z M1290 730L1355 550L1420 730Z M1390 750L1460 565L1530 750Z"/></g>
+<g fill="#769574"><path d="M120 655L150 585L180 655Z M330 660L360 570L390 660Z M1320 660L1355 575L1390 660Z M1430 670L1460 590L1490 670Z"/></g>
+<!-- DNA molecule at left -->
+<g transform="translate(110 190)">
+ <path d="M0 0C140 80 140 170 0 250S-140 420 0 500" class="dnaA"/>
+ <path d="M140 0C0 80 0 170 140 250S280 420 140 500" class="dnaB"/>
+ <g stroke="#a7a68b" stroke-width="6" stroke-linecap="round">
+ <path d="M23 18L117 18M57 76L83 76M100 135L40 135M135 194L5 194M115 256L25 256M65 318L75 318M12 382L128 382M0 445L140 445M25 485L115 485"/>
+ </g>
+</g>
+<!-- cell -->
+<g transform="translate(475 400)">
+ <ellipse cx="0" cy="0" rx="155" ry="112" class="cell"/>
+ <ellipse cx="-18" cy="-5" rx="58" ry="50" class="nucleus"/>
+ <circle cx="-18" cy="-5" r="18" fill="#6f8c9a"/>
+ <g class="org"><ellipse cx="75" cy="-48" rx="30" ry="15"/><path d="M52 -48Q70 -67 94 -48Q70 -30 52 -48" fill="none" stroke="#98644e" stroke-width="3"/><ellipse cx="82" cy="43" rx="28" ry="14"/><path d="M60 43Q82 22 104 43Q82 64 60 43" fill="none" stroke="#98644e" stroke-width="3"/></g>
+ <path d="M-100 30Q-80 5 -55 27M35 75Q60 55 90 75" class="fine"/>
+</g>
+<!-- plant -->
+<g transform="translate(800 620)">
+ <path d="M0 180Q-8 90 0 -30" class="plant"/>
+ <path d="M0 75Q-85 20 -120 -15Q-75 -45 -30 -10Q-4 16 0 75Z" class="leaf"/>
+ <path d="M0 20Q60 -50 115 -65Q125 -20 70 12Q35 28 0 20Z" class="leaf2"/>
+ <path d="M0 -30Q-20 -105 -3 -155Q45 -120 30 -70Q20 -43 0 -30Z" class="leaf"/>
+ <path d="M-5 180L-65 235M0 180L55 235M0 180L0 250" class="fine"/>
+</g>
+<!-- generic mammal on slope -->
+<g transform="translate(1110 655)">
+ <path d="M-90 5Q-75 -42 -20 -45L48 -35Q82 -28 95 4L77 20L53 15L42 78L27 78L18 18L-43 20L-57 78L-73 78L-70 14Z" class="animal"/>
+ <path d="M-15 -42Q-4 -85 42 -78L80 -58L98 -30L75 -15L42 -22L20 -12Z" class="animal"/>
+ <path d="M73 -69L91 -95L97 -65M42 -73L35 -98L57 -78" fill="none" stroke="#514c40" stroke-width="7" stroke-linecap="round"/>
+ <path d="M-88 -5Q-122 -22 -128 -48" fill="none" stroke="#514c40" stroke-width="8" stroke-linecap="round"/>
+ <circle cx="77" cy="-54" r="4" fill="#f4f1e8"/>
+</g>
+<!-- small foreground flora -->
+<g stroke="#496f4c" stroke-width="6" fill="none" stroke-linecap="round"><path d="M260 820Q255 760 230 735M260 820Q275 760 310 745M260 820L260 735"/><path d="M1450 840Q1450 785 1420 765M1450 840Q1470 790 1500 775"/></g>
+<g fill="#8eaa84"><ellipse cx="230" cy="735" rx="24" ry="10" transform="rotate(28 230 735)"/><ellipse cx="310" cy="745" rx="24" ry="10" transform="rotate(-25 310 745)"/><ellipse cx="260" cy="735" rx="18" ry="10"/></g>
+<rect x="0" y="0" width="1600" height="900" fill="none" stroke="#d7ded4" stroke-width="3"/>
+</svg>
