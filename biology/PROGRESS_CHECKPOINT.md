@@ -1147,3 +1147,12 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Confirmed the Batken 4,146 value remains a dated survey result, the Naryn/Osh panels are not population estimates, and the Aygul schematic names `Fritillaria eduardii` with `Petilium eduardii` as a synonym.
 - Documentary photo captions describe specific local habitat examples, not complete oblast-wide inventories.
 - No source-text/alt/caption mismatch was established in this pass. This does not replace visual inspection of the WebP binaries or school/device QA. Global Image Verification remains **Pending audit**.
+
+
+## Core-chapter figure and caption revalidation — 5 November 2026
+
+- Revalidated the ten non-regional chapters: 33 semantic figure blocks, of which 31 contain external images and two use inline SVG.
+- All 31 external-image figures have non-empty alt text and visible RU/EN captions. No missing caption, empty alt, or one-language-only caption was found.
+- The caption parser was corrected to recognise `figcaption` elements with attributes (such as `class="caption"`); classed captions are valid and were not missing.
+- Combined 12-chapter totals remain 59 semantic figures, 57 image-containing figures and 62 external image elements; all image figures have bilingual captions and all image elements have non-empty alt text.
+- This is structural source validation only. No claim of new rendered-image inspection or school/device QA. Image Verification remains Pending audit. Editorial readiness remains **99/100**; no score increase is assigned for this bounded revalidation.
