@@ -1004,11 +1004,7 @@ On a schematic geological cross-section, identify:
 *Source: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); the source page states Public Domain. Formulae and Mohs hardness values are in the chapter table; photographs support visual recognition, not identification by colour alone. / Источник: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); страница указывает Public Domain. Формулы и твёрдость приведены в таблице главы; фотографии служат для распознавания, а не определения по одному цвету.*
 
 
-**Illustration 3.3-A — The Rock Cycle.**
 
-![Bilingual rock-cycle diagram showing magma, igneous, sedimentary and metamorphic rocks, sediments and key transformation processes. / Двуязычная схема круговорота горных пород: магма, магматические, осадочные и метаморфические породы, осадки и основные процессы преобразования.](../assets/03-3-A-rock-cycle-bilingual.svg)
-
-*Teaching schematic simplified from USGS Open-File Report 94-636 (1994); it shows possible pathways, not a compulsory closed cycle. / Учебная схема, упрощённая по материалам USGS Open-File Report 94-636 (1994); она показывает возможные пути преобразования, а не обязательный замкнутый цикл.*
 
 
 **Illustration 3.4-A — Geological Research Toolkit.**
