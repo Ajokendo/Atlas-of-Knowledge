@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
 <title id="title">Трансляция на рибосоме / Translation at the ribosome</title>
-<desc id="desc">Двуязычная схема: рибосома движется вдоль мРНК в направлении 5′ к 3′; тРНК сопоставляют антикодоны кодонам и доставляют аминокислоты в растущую полипептидную цепь.</desc>
+<desc id="desc">Двуязычная схема: рибосома движется вдоль мРНК в направлении 5′ к 3′; тРНК сопоставляют антикодоны кодонам и доставляют аминокислоты в растущую полипептидную цепь. / Bilingual diagram: the ribosome moves along mRNA in the 5′ to 3′ direction; tRNAs pair anticodons with codons and deliver amino acids to the growing polypeptide chain.</desc>
 <defs>
  <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10" fill="#496f59"/></marker>
  <style>
