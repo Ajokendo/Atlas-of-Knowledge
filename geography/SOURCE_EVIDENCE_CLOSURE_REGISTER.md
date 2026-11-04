@@ -20,16 +20,18 @@
 |---|---|---|
 | American Association of Geographers, GeoWeek | Verified — access and relevance | The live page is a Geography Awareness Week education/outreach page, not a definitional article. Corrected the bibliography title so it no longer claims to be “What Is Geography?”. |
 | Royal Geographical Society, “What is geography?” | Verified — access and relevance | The page explicitly describes geography as bridging social and natural sciences and explains human and physical geography. Suitable for the chapter's introductory framing. |
-| National Geographic Society, “What Is Geography?” | Corrected | The previous `/resource/geography/` URL returned 404. Replaced it with the current `/resource/what-geography/` page, which directly defines geography and discusses physical, human and biological systems and spatial perspective. |
+| National Geographic Society, “What Is Geography?” | Corrected | The previous URL was replaced with the current `/resource/geography-article/` page, which directly defines geography and discusses physical, human and biological systems and spatial perspective. |
 | UN Statistics Division / UN-GGIM | Verified — access and relevance | The page identifies the UN geospatial-information-management initiative and its workstreams. Use it for geospatial governance/context, not as a general definition of geography. |
-| ICA Cartographic Body of Knowledge | Verified — access and relevance | The working-group site and its Definitions page are available. Definitions page provides explicit definitions of map, cartography and cartographic mapping. |
+| ICA Cartographic Body of Knowledge | Verified — access and relevance | The official ICA Commission on Education and Training page is linked for cartographic education context; it is not treated as a substitute for a detailed map-projection or cartographic-standard source. |
 | Longley et al., *Geographic Information Science and Systems* | Corrected | Completed the incomplete book reference with 4th edition, 2015, Wiley and ISBN 978-1-118-67695-0 using the publisher's catalogue. |
 | National Research Council, *Rediscovering Geography* | Verified by authoritative publication record | National Academies Press record confirms the 1997 consensus report and DOI 10.17226/4913. Direct DOI retrieval by the browser was not successful, so the publisher landing page is the preferred verification route. |
 
 **Chapter 01 edits saved:**
 - AAG citation title made accurate.
-- National Geographic URL repaired.
+- National Geographic URL repaired and its two geography standards linked.
+- UN-GGIM and ICA links updated to current institutional pages.
 - Longley et al. bibliographic details completed.
+- The chapter's own note now maps each source to the specific sections it supports; remaining claim-level mapping is still open.
 
 ### Chapter 02 — Earth's Geographic Envelope
 
@@ -207,3 +209,12 @@
 | Planetary-boundary status | Richardson et al. (2023), *Science Advances* | The “six of nine boundaries transgressed” result is a 2023 assessment. It must not be presented as the current 2026 status; chapter text currently names the framework's nine processes without assigning a present-day status. |
 
 **Outstanding scientific checks for Chapter 02:** verify detailed claims on lithosphere/tectonic processes against a named geology source; trace atmospheric composition percentages to a specific NOAA table or equivalent primary data page; ensure any future planetary-boundary graphic is explicitly labelled with the assessment publication/year and its own reuse terms.
+
+
+## Visual-source workflow — Chapters 01–02 (4 November 2026)
+
+- A visual-brief inventory was extracted directly from the two chapter files: 3 briefs in Chapter 01 and 18 in Chapter 02 (21 total).
+- A first candidate-source search identified USGS educational media as explicitly labelled Public Domain, and NASA / National Geographic educational resources as scientifically relevant reference material. These are candidate discovery routes, not blanket permission to reuse every image on those sites.
+- National Geographic's *Earth's Systems* is a relevant school-level conceptual source for the five-sphere model; its page credits photograph authorship, so reuse must follow the specific asset's displayed rights/credit terms.
+- No image has been approved, downloaded, generated or integrated in this pass. Each asset must be checked individually for scientific fit, source metadata, rights, required attribution, bilingual caption and alt text before integration.
+- The detailed per-ID register is `geography/IMAGE_SOURCES.md`.
