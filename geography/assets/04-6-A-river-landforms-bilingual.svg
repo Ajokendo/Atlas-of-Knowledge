@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">РЕЧНЫЕ ФОРМЫ РЕЛЬЕФА / RIVER LANDFORMS</title><desc id="desc">Схема меандра, старицы, поймы, террас, конуса выноса и дельты. / Diagram of meander, oxbow lake, floodplain, terraces, alluvial fan and delta.</desc><rect width="1200" height="760" rx="24" fill="#f8fafc"/><text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#172554">РЕЧНЫЕ ФОРМЫ РЕЛЬЕФА / RIVER LANDFORMS</text>
+<rect x="55" y="100" width="1090" height="500" rx="16" fill="#ecfccb" stroke="#64748b" stroke-width="2"/>
+<path d="M90 330 C220 180 330 480 470 330 S720 180 830 330 S1010 470 1110 300" fill="none" stroke="#2563eb" stroke-width="28" stroke-linecap="round"/>
+<path d="M260 240 Q310 180 360 230 Q390 270 350 295" fill="none" stroke="#60a5fa" stroke-width="14"/>
+<path d="M470 330 L470 180 L600 130" stroke="#a16207" stroke-width="3" fill="none"/><path d="M720 330 L720 500 L850 545" stroke="#a16207" stroke-width="3" fill="none"/>
+<path d="M850 330 L980 230 L1080 170" stroke="#a16207" stroke-width="3" fill="none"/>
+<path d="M1090 300 L1040 440 L1110 540 L980 510 L900 570 L860 470Z" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="3"/>
+<path d="M1085 300 L1020 440 M1085 300 L1110 490 M1085 300 L960 520" stroke="#2563eb" stroke-width="8" fill="none"/>
+<g font-family="Arial,sans-serif" font-size="20" fill="#1e293b"><text x="110" y="140">Пойма / Floodplain</text><text x="170" y="520">Старица / Oxbow lake</text><text x="480" y="120">Речная терраса / River terrace</text><text x="730" y="565">Конус выноса / Alluvial fan</text><text x="930" y="130">Дельта / Delta</text><text x="410" y="430">Меандр / Meander</text></g>
+<text x="600" y="660" text-anchor="middle" font-size="18" fill="#475569">Учебная схема, не в масштабе; развитие дельт зависит от речного стока, волн, приливов и уровня моря. / Teaching schematic, not to scale; deltas reflect river discharge, waves, tides and sea level.</text></svg>
