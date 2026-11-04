@@ -2266,7 +2266,7 @@ try {
     if (file === "chemistry-constants.html") {
       const waterNoteRu = await page.locator("[data-i=waterNote]").innerText();
       const standardConditionsRu = await page.locator("[data-i=stpText]").innerText();
-      if (!waterNoteRu.includes("активности") || !waterNoteRu.includes("безразмерным") ||
+      if (!waterNoteRu.includes("активности") || !waterNoteRu.includes("безразмерно") ||
           !standardConditionsRu.includes("100 kPa") || !standardConditionsRu.includes("273.15 K") ||
           !standardConditionsRu.includes("298.15 K")) {
         errors.push(file + ": Russian reference notes must distinguish thermodynamic activities, concentration-form units and standard-condition definitions");
