@@ -12,15 +12,15 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 |---|---|---|---|
 | 5-A / 5.2-A | Atmospheric layers / Слои атмосферы | [Atmosphere layers edu.svg](https://commons.wikimedia.org/wiki/File:Atmosphere_layers_edu.svg), CC0 | Educational schematic; heights and boundaries are approximate. Embedded in RU and EN chapter sections. |
 | 5-C / 5.6-A | Global atmospheric circulation / Общая циркуляция атмосферы | [NOAA JetStream — Global Atmospheric Circulations](https://www.noaa.gov/jetstream/global/global-atmospheric-circulations), image [circ.jpg](https://www.noaa.gov/sites/default/files/2022-05/circ.jpg) | Simplified three-cell model; do not present as a complete depiction of real circulation. Embedded in RU and EN chapter sections. |
+| 5-B / 5.3-A | Earth's energy budget / Энергетический баланс Земли | [UCAR Center for Science Education](https://scied.ucar.edu/learning-zone/earth-as-a-system/energy_budget_image), image of IPCC AR6 WGI Figure 7.2 | Quantitative values are IPCC AR6 (2021) early-21st-century estimates in W/m² with uncertainty ranges; not current-year measurements. Embedded in RU and EN chapter sections. |
+| 5.5-A | Pressure and wind systems / Давление и ветровые системы | [U.S. National Weather Service — Basic Discussion on Pressure Systems](https://www.weather.gov/lmk/basic-fronts), image [wx_cyclone2.gif](https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif) | Northern Hemisphere example only; caption explicitly notes reversed rotation in the Southern Hemisphere. Embedded in RU and EN chapter sections. |
 
 ## Pending / Ожидают подбора и проверки
 
 | Visual ID | Subject |
 |---|---|
 | 5.1-A | Composition of dry air / Состав сухого воздуха |
-| 5-B / 5.3-A | Earth's energy budget / Энергетический баланс Земли |
 | 5.4-A | Global temperature patterns / Глобальное распределение температуры |
-| 5.5-A | Pressure and wind systems / Давление и ветровые системы |
 | 5-D / 5.7-A | Water vapour, clouds and precipitation / Водяной пар, облака и осадки |
 | 5.8-A | Atmospheric fronts / Атмосферные фронты |
 | 5.9-A | Weather versus climate / Погода и климат |
