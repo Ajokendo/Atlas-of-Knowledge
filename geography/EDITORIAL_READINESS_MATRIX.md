@@ -432,3 +432,6 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 06 — bilingual key-term glossary — 5 November 2026
 
 - Added a bilingual list of 25 key terms spanning hydrology, oceanography, groundwater and water scarcity to strengthen the chapter's independent study and review apparatus. Commit: `f827509fd7b9bba5c2d7ff441017fab4cd66a708`.
+
+
+- Extended the Chapter 10 bilingual glossary with baseline, contiguous zone, the Area and high seas so the new UNCLOS distinction is reflected in the review vocabulary. Commit: `bb34acbf677af3a78ccffaa4d4ca30ebb195a6d4`.
