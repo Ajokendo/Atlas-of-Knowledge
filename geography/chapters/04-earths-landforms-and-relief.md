@@ -91,7 +91,11 @@
 - Ударные (импактные).
 - Антропогенные.
 
-**Место для иллюстрации 4.3-A — Landform Classification.** Атласная композиция с типичными формами рельефа, сгруппированными по генезису и масштабу; включить импактный кратер как пример ударной формы.
+**Иллюстрация 4.3-A — Классификация форм рельефа / Landform Classification.**
+
+![Примеры тектонических, вулканических, речных, ледниковых, эоловых, карстовых и ударных форм рельефа. / Examples of tectonic, volcanic, fluvial, glacial, aeolian, karst and impact landforms.](../assets/04-3-A-landform-classification-bilingual.svg)
+
+*Формы классифицируют по происхождению, размеру и положению; категории могут пересекаться. / Landforms are classified by origin, scale and setting; categories can overlap.*
 
 ## 4.4. Горы и горные системы / Mountains and Mountain Systems
 
@@ -396,7 +400,11 @@ DEM используют для расчёта уклонов, экспозиц�
 
 *Схематический учебный пример, не геопривязанная карта. Интервал горизонталей на рисунке условно принят равным 20 м; принципы чтения горизонталей сверены с USGS Topographic Mapping и US Topo Map Symbol Guide. / Schematic teaching example, not a georeferenced map. The illustrative contour interval is 20 m; contour-reading principles follow the USGS Topographic Mapping and US Topo Map Symbol Guide.*
 
-**Место для иллюстрации 4.14-B — DEM, DSM and DTM.** Сравнительный поперечный разрез одной местности: голая поверхность земли, верх растительности и зданий, ледниковая поверхность и коренное ложе; показать ячейки сетки и метаданные (разрешение, вертикальную точность, систему высот и дату съёмки).
+**Иллюстрация 4.14-B — DEM, DSM и DTM / DEM, DSM and DTM.**
+
+![Сравнение цифровой модели высот, поверхности с объектами и модели рельефа. / Comparison of elevation, surface and terrain models.](../assets/04-14-B-dem-dsm-dtm-bilingual.svg)
+
+*Термины DEM/DTM различаются между организациями; проверяйте определение, разрешение, точность, дату и вертикальную систему отсчёта. / DEM/DTM terminology varies by provider; check definition, resolution, accuracy, date and vertical datum.*
 
 ### 4.14.3. Практический пример: определение уклона по горизонталям
 
@@ -438,7 +446,11 @@ DEM используют для расчёта уклонов, экспозиц�
 
 Человеческая деятельность сама меняет рельеф: карьеры, насыпи, дамбы, террасирование склонов, дорожные выемки, городская застройка и водохранилища создают антропогенные формы.
 
-**Место для иллюстрации 4.15-A — Human Modification of Relief.** Сопоставить природный склон и преобразованный человеком ландшафт: карьер, дорожную выемку, насыпь, террасированное поле, плотину с водохранилищем и городскую застройку; показать возможные изменения стока и эрозии.
+**Иллюстрация 4.15-A — Изменение рельефа человеком / Human Modification of Relief.**
+
+![Примеры карьера, дорожной выемки, плотины, террасирования и городской застройки. / Examples of quarry, road cut, dam, terracing and urban development.](../assets/04-15-A-human-modification-bilingual.svg)
+
+*Последствия для стока и эрозии зависят от масштаба работ, проекта и местных условий. / Effects on runoff and erosion depend on scale, design and local conditions.*
 
 ## Итоги главы / Chapter Summary
 
@@ -540,7 +552,11 @@ By scale, geographers distinguish planetary forms (continents and ocean basins),
 
 By origin, landforms may be tectonic, volcanic, fluvial, glacial or glaciofluvial, aeolian, karst, coastal or marine, slope-related, impact-related, or anthropogenic.
 
-**[ILLUSTRATION PLACEHOLDER 4.3-A]** Show planetary forms, megaforms, macroforms, mesoforms and microforms with examples, including an impact crater; label scale boundaries as approximate.
+**Illustration 4.3-A — Landform Classification.**
+
+![Examples of tectonic, volcanic, fluvial, glacial, aeolian, karst and impact landforms. / Примеры тектонических, вулканических, речных, ледниковых, эоловых, карстовых и ударных форм рельефа.](../assets/04-3-A-landform-classification-bilingual.svg)
+
+*Landforms are classified by origin, scale and setting; categories can overlap. / Формы классифицируют по происхождению, размеру и положению; категории могут пересекаться.*
 
 ### 4.4. Mountains and Mountain Systems
 
@@ -791,7 +807,11 @@ DEMs can be used to calculate slope, aspect, flow direction, drainage networks, 
 
 **[ILLUSTRATION PLACEHOLDER 4.14-A]** Show a topographic map with contours, spot heights, drainage divide, valley and a relief profile; include legend, scale and contour interval.
 
-**[ILLUSTRATION PLACEHOLDER 4.14-B]** Compare a bare-earth terrain model, a surface model including vegetation/buildings, an ice-sheet surface and bedrock beneath ice; show grid cells and essential metadata (resolution, vertical accuracy, vertical datum and acquisition date).
+**Illustration 4.14-B — DEM, DSM and DTM.**
+
+![Comparison of elevation, surface and terrain models. / Сравнение цифровой модели высот, поверхности с объектами и модели рельефа.](../assets/04-14-B-dem-dsm-dtm-bilingual.svg)
+
+*DEM/DTM terminology varies by provider; check definition, resolution, accuracy, date and vertical datum. / Термины DEM/DTM различаются между организациями; проверяйте определение, разрешение, точность, дату и вертикальную систему отсчёта.*
 
 ### 4.14.3. Worked Example: Calculating Slope from Contour Lines
 
@@ -835,7 +855,11 @@ Relief creates both opportunities and constraints for settlement and economic ac
 
 Human activity also changes relief. Quarries, embankments, dams, slope terraces, road cuttings, urban construction and reservoirs create anthropogenic landforms.
 
-**[ILLUSTRATION PLACEHOLDER 4.15-A]** Compare a natural slope with a human-modified landscape: open-pit quarry, road cutting, embankment, terraced field, dam/reservoir and urban construction; indicate possible changes to runoff and erosion.
+**Illustration 4.15-A — Human Modification of Relief.**
+
+![Examples of quarry, road cut, dam, terracing and urban development. / Примеры карьера, дорожной выемки, плотины, террасирования и городской застройки.](../assets/04-15-A-human-modification-bilingual.svg)
+
+*Effects on runoff and erosion depend on scale, design and local conditions. / Последствия для стока и эрозии зависят от масштаба работ, проекта и местных условий.*
 
 ### Chapter Summary
 
