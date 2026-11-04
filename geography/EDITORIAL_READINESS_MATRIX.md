@@ -239,3 +239,8 @@ A further targeted correction pass was committed across all five chapters: catch
 
 - Independently recomputed the river-discharge and catchment-balance examples (06), energy-transfer examples (07), soil bulk-density/porosity examples (08), demographic ratios and balance examples (09), and nautical-mile and weighted-turnout examples (10). All stated results agree with the calculations. The examples using population and election data are explicitly hypothetical.
 - Detailed arithmetic is recorded in the Source and Evidence Closure Register. This closes the arithmetic recheck for the currently included worked examples, not the separate visual or final release QA.
+
+
+### Chapter 06 — exact global water-distribution source — 5 November 2026
+
+- Replaced reliance on a broad USGS portal alone with the direct USGS page supporting the chapter's 1.386 billion km³ estimate and global water-distribution proportions; retained the portal as a general reference. Bibliography numbering was normalized and verified. Commits: `e4c03dd3c16379cc32f3b113d94e4d659782551e`, `a25f6b5d9fc3ea7ad83733fdfea3565935e254be`.
