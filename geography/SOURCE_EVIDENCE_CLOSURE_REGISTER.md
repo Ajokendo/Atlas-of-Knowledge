@@ -218,3 +218,14 @@
 - National Geographic's *Earth's Systems* is a relevant school-level conceptual source for the five-sphere model; its page credits photograph authorship, so reuse must follow the specific asset's displayed rights/credit terms.
 - No image has been approved, downloaded, generated or integrated in this pass. Each asset must be checked individually for scientific fit, source metadata, rights, required attribution, bilingual caption and alt text before integration.
 - The detailed per-ID register is `geography/IMAGE_SOURCES.md`.
+
+
+## Chapter 02 targeted source follow-up — 4 November 2026
+
+| Claim area | Source | Verification result | Scope / limitation |
+|---|---|---|---|
+| Dry-air composition | NOAA JetStream, *The Atmosphere* | The live NOAA table gives nitrogen 78.084%, oxygen 20.946%, argon 0.934% and CO₂ about 0.042%; it explicitly excludes water vapour and separately explains its variability. | Appropriate support for the chapter's rounded composition values. CO₂'s annual mean remains separately tied to the NOAA observing series/year, not treated as a fixed atmospheric percentage. |
+| Plate-boundary types | USGS, *Understanding Plate Motions* (This Dynamic Earth) | The official USGS explainer defines divergent, convergent and transform boundaries and explains crust creation, destruction and horizontal sliding. | Supports the school-level definitions and corresponding visual brief. More detailed regional tectonic claims still need their own geological sources. |
+| Visual-source candidate | USGS Educational Resources / Middle and High School Geology | USGS search records label the Plate Tectonics Globe Activity and its map/globe cut-out as Public Domain. | A strong candidate for 2.5-A, but the exact media record and required credit must be inspected before integration. |
+
+**Chapter 02 remaining source work:** detailed geologic processes and any regional examples; audit every other numerical claim against its exact source table/edition; final RU/EN proofreading; then individual asset rights checks and visual integration.
