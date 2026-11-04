@@ -3,7 +3,7 @@
 **Standard:** IMAGE-FIRST POLICY v1.0  
 **Branch:** `workspace/chemistry`  
 **Audit date:** 2026-11-05  
-**Scope of this checkpoint:** all 22 existing static SVG files (11 RU/EN pairs), their chapter integrations, and three identified interactive visual systems. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification.
+**Scope of this checkpoint:** all 22 existing static SVG files (11 RU/EN pairs), their chapter integrations, and four identified interactive visual systems. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification.
 
 ## Status vocabulary
 
@@ -24,11 +24,11 @@ Audit result values: **PASS**, **FAIL**, **PENDING**, **NOT APPLICABLE** (with r
 |---|---:|---|
 | Static visual topics inventoried | 11 | Each topic has RU and EN SVG variants |
 | Static SVG files inventoried | 22 | 11 English + 11 Russian |
-| Interactive visual systems inventoried | 3 | Atomic model, bonding models, periodic table |
+| Interactive visual systems inventoried | 4 | Atomic model, subatomic-particle comparison, bonding models, periodic table |
 | Static visuals integrated | 11 / 11 | All inventoried static visual pairs are used on the landing page or in a chapter |
 | Provisional static Image Coverage | 11 / 11 = 100% | **Only for the 11 currently inventoried static visual topics; not a claim that every chapter has all required visuals** |
 | Static Image Verification | 0 / 11 = 0% VERIFIED | All 11 pairs still lack file-specific creator/rightsholder and licence confirmation |
-| Static Image Gaps | 2 provisional chapter-placement/content gaps | Dedicated chapter 01 placement for the electron-cloud illustration; a chapter 03 explanatory visual beyond the interactive periodic table may be required after curriculum review |
+| Static Image Gaps | 0 confirmed; 2 editorial decisions pending | Chapter 01 already has two inline SVG models; decide whether chapter 03 needs a separate periodic-trend diagram beyond its interactive periodic table. Full visual-need sign-off remains pending |
 | Category A — external original reuse | 0 | No external image-source records established |
 | Category B — adapted external reuse | 0 | No external adapted image-source records established |
 | Category C — project-created SVG pairs | 11 | Provenance method and rightsholder still need confirmation |
@@ -60,8 +60,9 @@ Audit result values: **PASS**, **FAIL**, **PENDING**, **NOT APPLICABLE** (with r
 | ID | Visual | Scientific review | Rights/provenance | Bilingual / accessibility | Technical | Result |
 |---|---|---|---|---|---|---|
 | CH-IV01 | Atomic structure interactive model | PENDING — verify shell/orbital language and model limitations against chapter text | PENDING — creator and code licence not evidenced in this register | PASS — language-dependent accessible label found in source; manual screen-reader review pending | PENDING — needs responsive and keyboard/manual review | PENDING |
-| CH-IV02 | Ionic, covalent and metallic inline SVG models | PENDING — simplified models need contextual qualifications | PENDING — creator and code licence not evidenced in this register | PASS — generated SVG receives localized accessible name/description in source | PENDING — manual keyboard, zoom and screen-reader review | PENDING |
-| CH-IV03 | Interactive periodic table | PENDING — independent element-data review remains separate | PENDING — data/code provenance to be reconciled with relevant notices | PENDING — full data-table and screen-reader review | PENDING — device and keyboard review | PENDING |
+| CH-IV02 | Proton, neutron and electron comparison inline SVG | PENDING — verify relative scale and explanatory labels | PENDING — creator and code licence not evidenced in this register | PASS — accessible label found in source; manual screen-reader review pending | PENDING — responsive and keyboard/manual review | PENDING |
+| CH-IV03 | Ionic, covalent and metallic inline SVG models | PENDING — simplified models need contextual qualifications | PENDING — creator and code licence not evidenced in this register | PASS — generated SVG receives localized accessible name/description in source | PENDING — manual keyboard, zoom and screen-reader review | PENDING |
+| CH-IV04 | Interactive periodic table | PENDING — independent element-data review remains separate | PENDING — data/code provenance to be reconciled with relevant notices | PENDING — full data-table and screen-reader review | PENDING — device and keyboard review | PENDING |
 
 ## Chapter-level visual gap register
 
