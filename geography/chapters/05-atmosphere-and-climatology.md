@@ -358,7 +358,11 @@
 
 Туман снижает видимость и опасен для транспорта. Пыльные и песчаные бури возникают при подъёме частиц сильным ветром на сухих и слабо защищённых поверхностях.
 
-**Место для иллюстрации 5.14-A — Atmospheric Hazards.** Инфографика типов опасных явлений, условий формирования и основных мер безопасности; без преувеличения частоты и интенсивности.
+**Иллюстрация 5.14-A — Atmospheric Hazards / Опасные атмосферные явления.**
+
+![Опасные атмосферные явления и основные меры безопасности / Atmospheric hazards and basic safety actions](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-atmospheric-hazards.svg)
+
+*Оригинальная двуязычная учебная инфографика Atlas of Knowledge: грозы и молнии, жара и засуха, штормовой ветер и циклоны, сильный снег и гололёд, туман и пыльные бури. Меры приведены как общие рекомендации; конкретные действия должны соответствовать местным официальным предупреждениям и условиям. Схема не ранжирует явления по частоте или опасности. / Original bilingual Atlas of Knowledge educational infographic: thunderstorms and lightning, heatwaves and drought, high winds and cyclones, heavy snow and ice, fog and dust storms. Actions are general guidance; specific decisions should follow local official warnings and conditions. The diagram does not rank hazards by frequency or severity.*
 
 ## 5.15. Изменение климата / Climate Change
 
