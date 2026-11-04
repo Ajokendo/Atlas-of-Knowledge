@@ -602,7 +602,11 @@ Parts of mountain relief include a **summit** (the highest point of a mountain o
 
 **Absolute elevation** describes the position of a point relative to a reference surface, usually mean sea level. **Local relief (relative elevation)** is the height difference between two points, such as a summit and the valley at its foot. A high absolute elevation does not necessarily mean a steep or highly dissected landscape; both measures are needed.
 
-**[ILLUSTRATION PLACEHOLDER 4.4-A]** Show a mountain landscape with summit, ridge, pass, slopes, valley, mountain foot and relative relief.
+**Illustration 4.4-A — Anatomy of a Mountain Landscape.**
+
+![Bilingual mountain profile showing summit, ridge, pass, slope, valley, mountain foot and local relief. / Двуязычный профиль горного ландшафта с вершиной, гребнем, перевалом, склоном, долиной, подножием и относительным превышением.](../assets/04-4-A-mountain-landscape-bilingual.svg)
+
+*Conceptual profile with no specified elevations; it shows relationships among landforms, not a specific mountain range. / Концептуальный профиль без заданных высот; он показывает взаимное положение форм, а не конкретную горную систему.*
 
 ### 4.5. Plains, Lowlands and Plateaus
 
@@ -825,7 +829,11 @@ A **digital elevation model (DEM)** is a gridded representation of elevation. So
 
 DEMs can be used to calculate slope, aspect, flow direction, drainage networks, catchments (drainage basins), earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, horizontal and vertical reference systems, data source, acquisition date, processing method and whether vegetation or buildings are included. A finer grid cell does not automatically mean greater accuracy: resolution must be appropriate to the source-data density and quality.
 
-**[ILLUSTRATION PLACEHOLDER 4.14-A]** Show a topographic map with contours, spot heights, drainage divide, valley and a relief profile; include legend, scale and contour interval.
+**Illustration 4.14-A — Reading a Topographic Map.**
+
+![Schematic topographic map with contours, stream, spot height and A–B profile line. / Условная топографическая карта с горизонталями, ручьём, высотной отметкой и линией профиля A–B.](../assets/04-14-A-topographic-map-bilingual.svg)
+
+*Schematic teaching example, not a georeferenced map. The illustrative contour interval is 20 m; contour-reading principles follow USGS topographic mapping guidance. / Схематический учебный пример, не геопривязанная карта. Интервал горизонталей условно принят равным 20 м; принципы чтения горизонталей соответствуют рекомендациям USGS.*
 
 **Illustration 4.14-B — DEM, DSM and DTM.**
 
