@@ -321,7 +321,10 @@ export function startBook(chapter) {
         if (!plate.hidden) plate.querySelector('#scene-plate-title')?.focus({ preventScroll: true });
       };
       requestAnimationFrame(() => requestAnimationFrame(focusTitle));
+      // Mobile native-select popups can restore focus later than desktop browsers.
       setTimeout(focusTitle, 500);
+      setTimeout(focusTitle, 1200);
+      setTimeout(focusTitle, 2000);
     }
   }
 
