@@ -4,9 +4,9 @@ Status key: `[ ] not yet triaged` · `[~] explicitly deferred` · `[x] generated
 
 This register mirrors the in-page illustration markers. Each marker is placed beside the relevant learning section and contains the full Russian and English brief. Existing SVG plates and interactive models are not counted as missing images. Generate only from verified source material; add species names, labels, measurements and maps only after editorial checking.
 
-## Current disposition — 3 November 2026
+## Current disposition — 4 November 2026
 
-Thirty-three of 53 visual briefs are now produced or integrated (**62.3%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Twenty-two briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Thirty-three of 53 visual briefs are now produced or integrated (**62.3%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Twenty briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
 
 ## Priority key
 
