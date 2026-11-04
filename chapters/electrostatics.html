@@ -63,5 +63,5 @@ const cfg={"id":"09","controls":[["Модуль заряда q₁",0.1,10,0.1,2,
 const $=id=>document.getElementById(id),inputs=cfg.controls.map((_,i)=>$("p"+i)),sign2=$("sign2"),fmt=(n,d)=>Number.isFinite(n)?n.toFixed(d).replace(".",","):"—";
 function update(){const x=inputs.map(el=>+el.value),s=Number(sign2.value);x.forEach((v,i)=>{const step=String(cfg.controls[i][3]),decimals=step.includes(".")?step.split(".")[1].length:0;$("o"+i).textContent=fmt(v,decimals)+" "+cfg.controls[i][5];});const [q1,q2,r]=x,F=8.9875517923e9*(q1*1e-6)*(q2*1e-6)/(r*r),E=8.9875517923e9*(q1*1e-6)/(r*r);$("r0").textContent=fmt(F,4)+" Н";$("r1").textContent=fmt(E,0)+" Н/Кл";$("r2").textContent=s>0?"Отталкивание":"Притяжение";draw(x,[[F,"Н",4],[E,"Н/Кл",0],[s,"",0]])}
 inputs.forEach(el=>el.addEventListener("input",update));sign2.addEventListener("change",update);window.addEventListener("resize",update);update();
-</script><script type="module" src="../physics-lab.js"></script>
+</script><script type="module" src="../physics-lab.js"></script><script type="module">document.querySelector(".physics-stage canvas")?.setAttribute("aria-label","Трёхмерная модель пары разноимённых зарядов и эквипотенциальных контуров вокруг положительного заряда; контуры не являются силовыми линиями.");</script>
 </body></html>
