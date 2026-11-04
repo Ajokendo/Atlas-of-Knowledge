@@ -17,7 +17,7 @@
 | Numbering integrity | No duplicate numbered section identifiers across 26 chapters | Normalise Chapter 17's distinct label 17.14а during final style pass |
 | Repository structure | One active Geography branch: `workspace/geography` | Keep using this branch only |
 | Website | Bilingual RU/EN landing-page toggle and 26 chapter links | In-chapter language filter, rendered Markdown reader, accessibility and deployment tests |
-| Generated visuals | 4 SVG assets created and embedded; all 4 pending final scientific/editorial sign-off | Scientific, source, bilingual and accessibility review; further production |
+| Generated visuals | 4 SVG assets are embedded in Chapters 18–20: 18-J (mountain-slope processes), 19-H (mountain–valley circulation), 20-I (glacier anatomy), 20-K (national water-use indicators, 2025). These are not Chapter 01–02 assets; all four remain pending final scientific/editorial sign-off. | Scientific/source review, bilingual captions and alt text, accessibility checks; produce and integrate visuals for the remaining briefs |
 
 ## Chapter-by-chapter matrix
 
@@ -97,3 +97,8 @@
 
 
 - Visual-source follow-up, 4 November 2026: identified the exact USGS water-distribution chart (Public Domain; rounded values trace to Shiklomanov 1993), the USGS 2022 Water Cycle diagram (Public Domain; human-influenced global cycle), and the NOAA JetStream five-layer atmosphere graphic (NOAA general public-domain reuse policy applies unless otherwise noted; image-specific credit still to be confirmed). These raise the Chapter 02 exact candidate-asset count to six; none is approved or integrated. Details and caveats are recorded in `geography/IMAGE_SOURCES.md`.
+
+
+### Visual inventory clarification — 4 November 2026
+
+The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 and 20 only: `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, `20-I-glacier-anatomy.svg` and `20-K-national-water-use-2025.svg`. Their presence explains the cross-atlas count of four embedded SVGs in the matrix. Chapters 01 and 02 still have **zero approved/integrated visual assets**; their 21 visual briefs remain separate and are tracked in `IMAGE_SOURCES.md`. “Embedded” here means a Markdown image reference exists in the chapter source; it does not claim that a deployed website render, mobile layout or accessibility test has passed.
