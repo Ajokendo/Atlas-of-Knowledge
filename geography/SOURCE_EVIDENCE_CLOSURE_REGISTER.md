@@ -515,3 +515,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 10 — bilingual visual production briefs — 5 November 2026
 
 - Added English production briefs alongside the Russian specifications for the six chapter figure concepts; the maritime-zones brief explicitly distinguishes the Area seabed from the high-seas water column. The seven in-text visual IDs remain placeholders; no images were created today. Commit: `75fee48be53b237ed9fd78e8b2b79acbd19f5725`.
+
+
+### Chapter 09 — bilingual visual production briefs — 5 November 2026
+
+- Added English production counterparts for all six Chapter 09 figure briefs (data sources, demographic transition, population pyramids, migration, density mapping and urban agglomeration growth). Visual IDs remain placeholders; no images were created. Commit: `a600bebbc6a9ba290accf03ab9a6006a0f49ce9f`.
