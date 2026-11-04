@@ -1,7 +1,7 @@
 # Geography visual asset register
 **Audit date:** 4 November 2026  
 **Canonical branch:** `workspace/geography`  
-**Status:** 218 unique visual IDs indexed across 26 chapters. Chapter 02 has 9 remote images and 11 original bilingual SVGs; all 19 visual IDs have integrated imagery; 2.13-A uses Figure 10 from the CC BY 4.0 open-access article.
+**Status:** 220 unique visual IDs indexed across 26 chapters. Chapter 02 has 9 remote images and 11 original bilingual SVGs; all 19 visual IDs have integrated imagery; 2.13-A uses Figure 10 from the CC BY 4.0 open-access article.
 
 ## Purpose and production rule
 
@@ -40,13 +40,13 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 | 25 | 25-A–25-L | 12 | Cities; agglomerations; economy; value chains; transport; energy; spatial development |
 | 26 | 26-A–26-L | 12 | Climate; glaciers and water; river-basin vulnerability; pastures; forests; air; sanitation; waste; hazards; mining; green cities; 2050 scenarios |
 
-**Total indexed assets: 218 unique IDs across 26 chapters.**
+**Total indexed assets: 220 unique IDs across 26 chapters.**
 
 ## Important consistency repairs in this pass
 
 - Chapters 14–16 received missing in-text bilingual markers so each visual brief has a stable production reference.
 - Chapters 17–23 received additional bilingual markers for visual briefs that previously lacked an in-text ID.
-- A full marker-ID pass across all 26 chapters confirmed 218 unique assets and no accidental duplicate IDs in Chapters 01–25. Chapter 26 intentionally repeats IDs A, B, D, I and K at both teaching locations and in the production-brief list; seven production-brief-only IDs (26-C, E, F, G, H, J and L) were restored as in-text bilingual markers at their relevant chapter sections.
+- A full marker-ID pass across all 26 chapters confirmed 220 unique assets and no accidental duplicate IDs in Chapters 01–25. Chapter 26 intentionally repeats IDs A, B, D, I and K at both teaching locations and in the production-brief list; seven production-brief-only IDs (26-C, E, F, G, H, J and L) were restored as in-text bilingual markers at their relevant chapter sections.
 - Chapters 07–13 received markers for previously unmarked figure briefs.
 - Chapter 26 had reused IDs across different visual subjects. IDs were normalised to 26-A–26-L and the missing C, E, F, G, H, J and L markers were added. Repeated references to the same asset (e.g. a teaching placeholder and its production brief) intentionally retain the same ID.
 
@@ -63,8 +63,8 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 ## Current status
 
-- **Indexed:** 218 unique visual IDs across 26 chapters (Chapter 02 now includes 2.15-A; Chapter 20 includes 20-K).
-- **Briefed:** all 218 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
+- **Indexed:** 220 unique visual IDs across 26 chapters (Chapter 02 now includes 2.15-A; Chapter 20 includes 20-K).
+- **Briefed:** all 220 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
 - **Created and embedded (pending final scientific/editorial review):** 4 assets — `20-K-national-water-use-2025.svg`, `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, and `20-I-glacier-anatomy.svg` (official 2025 NSC figures; SVG labels and figures checked against the source; wastewater subcategory discrepancy explicitly flagged).
 - **Chapter 02 image integration:** 40 Markdown image embeds represent 20 unique assets: 9 remote images and 11 locally stored original bilingual SVGs; the 2026 planetary-boundaries SVG is intentionally embedded in both language sections. Remote images: NOAA atmospheric layers (2-B) and temperature profile (2.3-A); USGS water distribution (2-C) and water-cycle diagram (2.4-A); My NASA Data carbon cycle adapted from U.S. DOE (2.10-A); My NASA Data/NCAR nitrogen cycle (NCAR's original page confirms nonprofit/media reuse) and Wikimedia Commons phosphorus cycle (CC0 1.0) (2.10-B); Figure 10 from Theobald et al. (2025), the 2022 global human-modification map at 300 m (2.13-A, reproduced under CC BY 4.0); and NASA Earth System Diagram (2.15-A). Original SVGs: `02-A-four-earth-spheres.svg`, `02-1A-geographic-envelope-cross-section.svg`, `02-2A-four-spheres-interactions.svg`, `02-5A-plate-boundary-types.svg`, `02-6A-organization-of-life.svg`, `02-8A-energy-flows.svg`, `02-9A-zonation.svg`, `02-D-biogeochemical-cycles-overview.svg`, `02-11A-natural-geosystem.svg`, `02-12A-feedback-loops.svg`, and `02-14A-planetary-boundaries-2026.svg`. All 19 Chapter 02 visual IDs now have integrated imagery in both language versions. The carbon-, nitrogen- and phosphorus-cycle illustrations use existing sourced scientific images; the NASA Earth System Diagram is used for the integrated-system summary. NASA media-use guidance for educational/informational reuse and the NCAR/UCAR nonprofit/media reuse statement are recorded in the relevant chapter captions. Original local SVGs remain for the four-sphere model, cross-section, interactions, plate boundaries, biological organisation, energy, zonation, cycle overview, geosystem, feedback and planetary boundaries. For 2.13-A, the previous provisional Nature Data Lab JPEG was replaced with the article's Figure 10, whose Rights and permissions statement applies CC BY 4.0 to article images unless a separate credit line states otherwise; no separate restrictive credit line appears for Figure 10. Browser image checks rendered NASA, both NOAA images, USGS water distribution, both My NASA Data images, the USGS water-cycle image (using the verified full-width endpoint from the official USGS media page), and the Wikimedia phosphorus-cycle original (CC0 1.0 verified on Commons). The replacement Figure 10 image from Scientific Data was opened and visually verified; its article-level CC BY 4.0 terms and the absence of a separate restrictive credit line for Figure 10 were checked. All 19 Chapter 02 visual IDs now have integrated images or original diagrams in both language versions. The SVGs are committed locally in the branch; live-site loading, responsive rendering, performance, keyboard navigation and screen-reader output remain untested because no deployed site URL or deployment workflow is established in this branch.
 - **Generated and fully approved:** none are claimed by this register.
