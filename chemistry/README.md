@@ -140,3 +140,7 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [ ] Await the complete Chromium and static-validation run for this expanded suite; continue remaining chapters and formula/calculator checks.
 - [x] Chromium exposed a test-order dependency: the new C-12/C-13/C-14 sequence left C-14 selected before an older accessibility assertion that expected the default C-12 state. The test now explicitly restores C-12 between scenarios; the chemistry content and isotope model were not defective.
 - [x] Expanded Chromium suite passed on commit `db6f971d50a85b6e55e726079be45efc7155c64c`: all 21 Chemistry Atlas pages loaded; 42 axe-core RU/EN scans completed; isotope states, formula theory, biomolecule explanations and redox exceptions passed the new bilingual assertions.
+
+- [x] Corrected a genuine dimensional-precision issue in the bilingual glossary: pH is now defined through dimensionless hydronium activity, with the dilute-solution approximation written as a logarithm of the dimensionless concentration ratio [H₃O⁺]/(1 mol/L), rather than taking the logarithm of a dimensional concentration.
+- [x] Added RU/EN browser assertions for the pH definition and the reference-page qualifications for K_w activities, concentration-form units, IUPAC standard pressure, standard gas conditions and the separate 298.15 K thermodynamic-data temperature.
+- [ ] Re-run static validation and full Chromium suite on the latest saved commit.
