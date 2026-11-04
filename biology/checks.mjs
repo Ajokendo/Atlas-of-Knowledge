@@ -716,6 +716,29 @@ if (!imagePlanFile.includes("Change `[~]` to `[x]` only after the exact asset ex
   errors.push("IMAGE_GENERATION_PLAN.md must retain the scientific-review and no-invented-species production rules");
 }
 
+// IMAGE-FIRST v1.0 governance files and status consistency.
+const imageSourcesPath = path.join(root, "IMAGE_SOURCES.md");
+const imageAuditPath = path.join(root, "IMAGE_AUDIT.md");
+if (!fs.existsSync(imageSourcesPath)) errors.push("Missing Biology IMAGE_SOURCES.md");
+if (!fs.existsSync(imageAuditPath)) errors.push("Missing Biology IMAGE_AUDIT.md");
+if (fs.existsSync(imageSourcesPath)) {
+  const imageSources = fs.readFileSync(imageSourcesPath, "utf8");
+  for (const required of ["IMAGE-FIRST POLICY v1.0", "Public Domain", "CC BY", "CC BY-SA", "creator", "licence", "alt text", "attribution", "Unknown"]) {
+    if (!imageSources.toLowerCase().includes(required.toLowerCase())) errors.push("IMAGE_SOURCES.md is missing required provenance/rights field or guidance: " + required);
+  }
+}
+if (fs.existsSync(imageAuditPath)) {
+  const imageAudit = fs.readFileSync(imageAuditPath, "utf8");
+  for (const required of ["Image Coverage", "Image Verification", "Image Gaps", "PASS", "FAIL", "PENDING", "NOT APPLICABLE", "VERIFIED", "390×844", "physical-device"]) {
+    if (!imageAudit.toLowerCase().includes(required.toLowerCase())) errors.push("IMAGE_AUDIT.md is missing required audit status/metric: " + required);
+  }
+}
+const checkedImageRows = (imagePlanFile.match(/^- \[x\] \*\*/gm) || []).length;
+const deferredImageRows = (imagePlanFile.match(/^- \[~\] \*\*/gm) || []).length;
+if (checkedImageRows !== 53 || deferredImageRows !== 0) {
+  errors.push("IMAGE_GENERATION_PLAN.md must match the current 53/53 produced-or-integrated disposition; found checked=" + checkedImageRows + ", deferred=" + deferredImageRows);
+}
+
 const floraKyrgyzstanAuditFile = fs.readFileSync(path.join(root, "chapters/flora-kyrgyzstan.html"), "utf8");
 const faunaKyrgyzstanAuditFile = fs.readFileSync(path.join(root, "chapters/fauna-kyrgyzstan.html"), "utf8");
 // Shared editorial standard and visible evidence-status key in both regional chapters.
