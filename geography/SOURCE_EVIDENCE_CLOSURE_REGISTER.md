@@ -408,3 +408,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 09 — mid-year population denominator consistency — 5 November 2026
 
 - Harmonised the Russian and English wording and notation for crude birth, crude death, natural-change and migration rates. Both language versions now identify mid-year population as the denominator commonly used as an approximation to average annual population, while requiring the source's exact definition to be checked. Updated the hypothetical examples and practical task wording to match. Commit: `5c1bfc245381922f300ed1758618f7ddf75919d0`.
+
+
+### Chapter 06 — global water shares corrected — 5 November 2026
+
+- Corrected a subtle category error in both language versions. Oceans and seas account for about 96.5% of total water; all saline reservoirs together account for about 97.5% when saline groundwater and saline lakes are included; freshwater is about 2.5%. The prior wording incorrectly assigned the 97.5% figure to oceans and seas alone. Checked against the USGS global water-distribution table. Commit: `1d91a7bc57da482095fb0f5541a6ea1387bcc316`.
