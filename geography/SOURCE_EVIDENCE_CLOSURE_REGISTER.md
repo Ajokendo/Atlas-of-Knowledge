@@ -370,3 +370,11 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 06 — exact global water-distribution source — 5 November 2026
 
 - Added the direct USGS *How Much Water Is There on Earth?* page for the 1.386 billion km³ estimate and the rounded distribution of global water. The page explicitly identifies the figures as estimates and traces the underlying distribution table to published global water-resource estimates. The broader USGS Water Science School portal remains as a separate general reference. Commit: `e4c03dd3c16379cc32f3b113d94e4d659782551e`; bibliography numbering was normalized and checked in commit `a25f6b5d9fc3ea7ad83733fdfea3565935e254be`.
+
+
+### Chapters 06–10 — bilingual structure and exercise inventory recheck — 5 November 2026
+
+- Current-branch automated check confirms matching numbered main-section headings and English labels in all five chapters: 06 (17/17), 07 (15/15), 08 (15/15), 09 (16/16), 10 (15/15).
+- Review-question counts match RU/EN: 06 (16/16), 07 (15/15), 08 (15/15), 09 (15/15), 10 (14/14).
+- Practical activity counts match RU/EN: 06 (1/1), 07 (4/4), 08 (4/4), 09 (5/5), 10 (5/5).
+- This is a structural inventory check only; it does not replace semantic line-by-line proofreading.
