@@ -109,9 +109,9 @@ The Russian edition must be checked for accurate terminology, labels, symbols, l
 | Inline SVG in standalone chapter pages | 2 | Present in Kinematics and Work & Energy; require complete source/creator/rights/accessibility records |
 | Canvas elements in standalone chapter pages | 43 after this audit's cleanup | Initially 45; the generic non-informative canvas in Magnetism and the equivalent canvas in Induction were removed and replaced with accurate explanatory text. Remaining canvases are rendering surfaces, not automatically distinct assets. |
 | Explicit visual placeholder groups | 4 | Chapter 14: one four-topic infographic; Chapter 15: three separate visual briefs |
-| Detailed asset records in `IMAGE_SOURCES.md` | 3 | All three concern Chapter 04; 19 additional Chapter 14–15 scene-index entries and 4 missing visual-requirement IDs are now recorded separately, but are not complete verified asset records |
+| Detailed asset records in `IMAGE_SOURCES.md` | 3 | All three concern Chapter 04; 71 additional scene-index entries across Chapters 03, 05, and 11–15 and 4 missing visual-requirement IDs are now recorded separately, but are not complete verified asset records |
 | External visual assets documented as integrated | 0 | No external image is claimed as integrated in the current register |
-| Interactive-book modules | 15 | All 15 page/world/model modules have source-lineage comparisons; 19 Chapter 14–15 scene IDs are indexed; remaining scene groups across Chapters 01–13 still need individual visual IDs and checks |
+| Interactive-book modules | 15 | All 15 page/world/model modules have source-lineage comparisons; 71 scene IDs are indexed across Chapters 03, 05, and 11–15; remaining scene groups in Chapters 01, 02, 04, and 06–10 still need individual visual IDs and checks |
 
 The absence of `<img>` elements is not a finding that the atlas lacks visual learning material. The Physics branch relies heavily on inline SVG, canvas, charts, and WebGL/Three.js scenes. Rendering technology alone does not establish authorship or category: each visual must first be traced to the English source or to a documented branch-specific addition. Unchanged inherited scenes are normally A; actual visual modifications are B; only genuinely new independent assets are C.
 
