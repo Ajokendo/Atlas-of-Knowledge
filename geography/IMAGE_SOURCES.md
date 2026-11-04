@@ -35,37 +35,38 @@ A site's general copyright statement is not a licence for every image on that si
 
 ## Chapter 02 — Earth's Geographic Envelope
 
-| Visual ID | Required content | Candidate search route | Status | Next action |
+| Visual ID | Required content | Source / asset | Status | Rights, scientific fit and next action |
 |---|---|---|---|---|
-| 2-A | Geographic envelope and interacting Earth-system spheres | [NASA Goddard Earth System Diagram](https://svs.gsfc.nasa.gov/30988) | Integrated remotely in Chapter 02; NASA Goddard credit recorded | Use as a conceptual five-sphere interaction image, not an exact four-component geographic-envelope classification. |
-| 2.1-A | Earth cross-section / geographic envelope and overlapping spheres | NASA Earth Observatory; NASA My NASA Data | Pending search | Ensure lithosphere is not presented as synonymous with the entire geosphere. |
-| 2.2-A | Four interacting spheres and matter/energy exchange | [NASA SVS Earth System Diagram](https://svs.gsfc.nasa.gov/30988); [NASA Earth Systems: Matter and Energy Cycles](https://science.nasa.gov/learn/heat/resource/earth-systems-matter-and-energy-cycles/) | Candidate assets located; NASA credit identified | NASA's diagram is an Earth-system interaction reference, not a ready-made exact four-sphere diagram. Preserve the chapter's distinction between traditional four-component model and modern five-sphere framework. |
-| 2-B | Vertical atmospheric structure | [NOAA JetStream layers graphic](https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere) | Integrated in Chapter 02 as a remote image; NOAA attribution recorded | Test remote loading in deployed reader; retain approximate-boundary caveat. |
-| 2.3-A | Atmospheric temperature profile | [NOAA JetStream temperature-profile graphic](https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere) | Integrated in Chapter 02 as a remote image; NOAA attribution recorded | Test remote loading and confirm bilingual alt text in reader. |
-| 2-C | Global water distribution | [USGS distribution chart](https://www.usgs.gov/media/images/distribution-water-and-above-earth) | Integrated in Chapter 02 as a remote image; individual page states Public Domain | Keep 1993 estimate date and denominator distinctions explicit. |
-| 2.4-A | Global water cycle | [USGS Water Cycle diagram (2022)](https://www.usgs.gov/media/images/water-cycle) | Integrated in Chapter 02 as a remote image; individual page states Public Domain | Retain note that diagram includes human water use and water-quality impacts; test remote loading. |
-| 2.5-A | Divergent, convergent and transform plate boundaries | [USGS Plate Tectonics Globe Activity — Map](https://www.usgs.gov/media/files/plate-tectonics-globe-activity-map); [USGS Plate Tectonics Globe Activity](https://www.usgs.gov/media/files/plate-tectonics-globe-activity) | Exact educational map asset located; USGS page states Public Domain | Suitable as a world-plate-location teaching base, not as a substitute for a boundary cross-section. If adapted, retain USGS provenance; make three boundary-process cross-sections separately and check their scientific geometry. |
-| 2.6-A | Biological organisation from organism to biosphere | USGS ecosystems resources; Wikimedia Commons | Pending search | Ensure hierarchy is accurate and avoid mixing population/community/ecosystem levels. |
-| 2.8-A | Solar, internal and gravitational energy and their processes | NASA Earth Observatory energy budget; USGS | Pending search | Distinguish primary energy sources from gravitational potential energy and feedbacks. |
-| 2.9-A | Latitudinal zonation and mountain altitudinal belts | Wikimedia Commons; NASA/USGS educational material | Pending search | Avoid presenting idealised zones as universal; show local climatic/relief variation. |
-| 2-D | Carbon, nitrogen and phosphorus cycles | [NASA carbon-cycle diagram](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles); [NCAR nitrogen-cycle diagram hosted by My NASA Data](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) | Carbon and nitrogen diagrams integrated remotely; phosphorus visual still not located/verified | Keep separate source credits; do not imply two figures cover phosphorus. |
-| 2.10-A | Global carbon cycle | [My NASA Data / DOE-adapted fast carbon-cycle diagram](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) | Integrated remotely in Chapter 02; source credit recorded | Preserve distinction between natural fluxes, human contributions and stored carbon; verify units/context before teaching numeric values. |
-| 2.10-B | Nitrogen and phosphorus cycles | UNEP; University of Missouri Extension; Open University | Candidate source | Preserve distinction: phosphorus cycle has no major atmospheric gas phase. |
-| 2.11-A | Structure of a natural geosystem | USGS educational resources; Wikimedia Commons | Pending search | Define system boundaries and show abiotic/biotic relationships accurately. |
-| 2.12-A | Positive and negative feedback | NASA Earth-system educational resources | Pending search | Use paired examples and avoid implying all negative feedbacks are stabilising in every context. |
-| 2.13-A | Human pressure on Earth's systems | NASA Earth Observatory; USGS Global Change | Pending search | Use dated, sourced spatial layers; avoid unsourced global heat-map artwork. |
-| 2.14-A | Planetary boundaries | Richardson et al. (2023) and Stockholm Resilience Centre | Candidate source | Reproduce only a dated assessment with explicit source/year; do not merge status updates from different editions. |
+| 2-A | Four major spheres of the geographic envelope | Original bilingual SVG: `02-A-four-earth-spheres.svg` | Integrated locally in RU and EN | Original Atlas of Knowledge teaching diagram; arrows are conceptual, not measured fluxes. |
+| 2.1-A | Cross-section of the geographic envelope | Original bilingual SVG: `02-1A-geographic-envelope-cross-section.svg` | Integrated locally in RU and EN | Original schematic; not to scale; boundaries overlap. |
+| 2.2-A | Interactions among four major spheres | Original bilingual SVG: `02-2A-four-spheres-interactions.svg` | Integrated locally in RU and EN | Original schematic; distinguishes the traditional four-component model from the broader five-sphere Earth-system model. |
+| 2-B | Vertical atmospheric structure | [NOAA JetStream layers graphic](https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere) | Integrated remotely in RU and EN | NOAA attribution recorded; official NOAA reuse guidance applies unless a third-party credit is shown. Layer boundaries remain approximate. |
+| 2.3-A | Atmospheric temperature profile | [NOAA JetStream temperature-profile graphic](https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere) | Integrated remotely in RU and EN | NOAA attribution recorded; representative profile, not a fixed global curve. |
+| 2-C | Global water distribution | [USGS distribution chart](https://www.usgs.gov/media/images/distribution-water-and-above-earth) | Integrated remotely in RU and EN | Individual USGS media page states Public Domain. Rounded values trace to Shiklomanov (1993); denominators are distinguished in the text. |
+| 2.4-A | Global water cycle | [USGS Water Cycle diagram (2022)](https://www.usgs.gov/media/images/water-cycle) | Integrated remotely in RU and EN | Individual USGS media page states Public Domain. Caption notes human water use and water-quality impacts. |
+| 2.5-A | Divergent, convergent and transform plate boundaries | Original bilingual SVG: `02-5A-plate-boundary-types.svg` | Integrated locally in RU and EN | Original schematic cross-sections, not to scale; subduction and continental collision are distinguished. |
+| 2.6-A | Biological organisation from organism to biosphere | Original bilingual SVG: `02-6A-organization-of-life.svg` | Integrated locally in RU and EN | Original hierarchy diagram; population, community, ecosystem, biome and biosphere are distinguished. |
+| 2.8-A | Solar, internal and gravitational energy | Original bilingual SVG: `02-8A-energy-flows.svg` | Integrated locally in RU and EN | Qualitative diagram; not a quantitative comparison of energy fluxes. |
+| 2.9-A | Latitudinal zonation and mountain altitudinal belts | Original bilingual SVG: `02-9A-zonation.svg` | Integrated locally in RU and EN | Schematic comparison; not a universal sequence or a geographic map. |
+| 2-D | Overview of biogeochemical cycles | Original bilingual SVG: `02-D-biogeochemical-cycles-overview.svg` | Integrated locally in RU and EN | Overview of the carbon, nitrogen and phosphorus cycles; detailed cycle figures follow. |
+| 2.10-A | Global carbon cycle | [My NASA Data / DOE-adapted fast carbon-cycle diagram](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) | Integrated remotely in RU and EN | My NASA Data credits the diagram as adapted from the U.S. Department of Energy, Biological and Environmental Research Information System. Preserve the distinction between natural fluxes, human contributions and stored carbon; numeric values retain the source's units/context. |
+| 2.10-B | Nitrogen and phosphorus cycles | [My NASA Data / NCAR nitrogen-cycle image](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles); [Wikimedia Commons phosphorus-cycle flowchart](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png) | Both figures integrated remotely in RU and EN | NCAR's original page states the nitrogen image is freely available for nonprofit and media use. The phosphorus image is CC0 1.0. Captions retain separate credits and note that phosphorus has no major gaseous phase. |
+| 2.11-A | Structure of a natural geosystem | Original bilingual SVG: `02-11A-natural-geosystem.svg` | Integrated locally in RU and EN | Original schematic of core abiotic and biotic components; not an exhaustive causal model. |
+| 2.12-A | Positive and negative feedback | Original bilingual SVG: `02-12A-feedback-loops.svg` | Integrated locally in RU and EN | Original paired examples; text explains that positive/negative describe feedback direction, not good/bad. |
+| 2.13-A | Human pressure on terrestrial ecosystems | [Figure 10, Theobald et al. (2025)](https://www.nature.com/articles/s41597-025-04892-2) | Integrated remotely in RU and EN | CC BY 4.0; no separate restrictive credit line for Figure 10. The map shows modelled 2022 cumulative human modification at 300 m, not a direct measure of biodiversity or ecosystem condition. |
+| 2.14-A | Planetary boundaries | Original bilingual SVG: `02-14A-planetary-boundaries-2026.svg` | Integrated locally in RU and EN | Based on Planetary Health Check 2026, PBScience/PIK, DOI 10.48485/pik.2026.25; seven of nine boundaries transgressed. Assessment year is explicit. |
+| 2.15-A | Integrated Earth-system summary | [NASA Goddard Earth System Diagram](https://svs.gsfc.nasa.gov/30988) | Integrated remotely in RU and EN | NASA Goddard credit and designer Kevin W. Miller recorded. Five-sphere model includes cryosphere components; used as a system overview, not as the four-component 2-A model. NASA media-use guidance is linked in the caption. |
 
 ## Counts and completion status
 
 | Measure | Chapter 01 | Chapter 02 | Total |
 |---|---:|---:|---:|
-| Distinct visual briefs | 3 | 18 | 21 |
-| Exact candidate assets located (rights status recorded) | 0 | 6 | 6 |
-| Approved and integrated assets | 0 | 4 | 4 |
-| Remaining briefs | 3 | 18 | 21 |
+| Distinct visual IDs | 3 | 19 | 22 |
+| Unique source/local image assets integrated | 0 | 20 | 20 |
+| Approved and integrated visual IDs | 0 | 19 | 19 |
+| Remaining visual briefs without an integrated image | 3 | 0 | 3 |
 
-**Important:** the 21 entries are visual briefs, not 21 completed illustrations. Four Chapter 02 visuals (2-B, 2.3-A, 2-C and 2.4-A) are now embedded by direct source-image links in the chapter Markdown. This is remote integration, not a locally stored repository asset; the deployed site must still test external-image loading, responsive display and accessibility. The two USGS images are individually marked Public Domain. The NOAA graphics are NOAA-produced and attributed to NOAA under its official reuse guidance; no third-party credit is shown on the source page.
+Chapter 02 has 40 Markdown image embeds representing 20 unique assets: nine remote science images and 11 original local bilingual SVGs. Each of the 19 visual IDs appears in both the Russian and English chapter sections. The 2.10-B visual ID intentionally uses two separate source images (nitrogen and phosphorus). All 40 image embeds have non-empty bilingual alt text. All 11 local SVGs include a title, description and `role="img"` metadata. The three Chapter 01 briefs remain unintegrated. Live external-image loading, responsive display, keyboard navigation and screen-reader behavior still require testing in a deployed reader.
 
 ## Required metadata for every approved asset
 
@@ -80,83 +81,58 @@ A site's general copyright statement is not a licence for every image on that si
 - Integration path and commit SHA.
 
 
-## Exact candidate asset records — checked 4 November 2026
+## Source and rights records — checked 4 November 2026
 
-### Candidate 2-A / 2.2-A — NASA Earth System Diagram
-
-- Asset page: https://svs.gsfc.nasa.gov/30988
-- Available file: `earth_system_diagram.png` (4104 × 2304) and print JPG (1024 × 574).
-- Credit: NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller (Global Science & Technology, Inc.).
-- Rights basis: NASA Earth Science FAQ states most materials on science.nasa.gov/earth, including images, may be reused, including commercially, except where copyright is indicated; NASA credit is requested. NASA media guidelines require checking third-party copyright notices and prohibit implying NASA endorsement.
-- Scientific fit: illustrates interacting Earth-system components and matter/energy connections. It is not a literal match for the textbook's four-component geographic-envelope model; use as a reference or label it explicitly as an Earth-system view.
-- Proposed attribution: “Earth System Diagram — NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller (Global Science & Technology, Inc.).”
-- Accessed: 4 November 2026.
-- Sources: https://science.nasa.gov/earth/faq/ and https://www.nasa.gov/nasa-brand-center/images-and-media/.
-
-### Candidate 2-C — USGS distribution of Earth's water chart\n\n- Asset page: https://www.usgs.gov/media/images/distribution-water-and-above-earth\n- Creator/publisher: USGS Water Science School.\n- Rights: the individual USGS media record explicitly states “Public Domain”.\n- Scientific fit: the chart visualises the distribution of total water, freshwater and surface freshwater. Its explanatory notes trace the rounded values to Igor Shiklomanov's 1993 chapter in *Water in Crisis*; present these as a historical global estimate, not a 2026 measurement. Pair with the chapter's table and explain denominators carefully (percent of all water vs percent of freshwater vs percent of surface freshwater).\n- Accessed: 4 November 2026.\n\n### Candidate 2-B / 2.3-A — NOAA JetStream atmospheric layers graphic\n\n- Asset page: https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere\n- Publisher: NOAA National Weather Service / JetStream.\n- Rights basis: NOAA's official education FAQ states nearly all NOAA content, including images and educational materials, is public domain unless otherwise noted; the NOAA Ocean Service reuse guidance requires NOAA credit and prohibits implying endorsement or presenting modified content as official NOAA material. Check the downloaded image's own credit line before embedding.\n- Scientific fit: the page includes a five-layer atmosphere graphic and a separate average-temperature profile. Its text notes that troposphere height varies by latitude and gives approximate layer limits. Do not reproduce those boundaries as fixed global surfaces.\n- Proposed credit: NOAA (National Oceanic and Atmospheric Administration); verify the image-specific credit before final approval.\n- Accessed: 4 November 2026.\n\n### Candidate 2.4-A — USGS Water Cycle diagram\n\n- Asset page: https://www.usgs.gov/media/images/water-cycle\n- Related diagram page: https://www.usgs.gov/special-topics/water-science-school/water-cycle-diagrams\n- Creator: USGS VizLab, in collaboration with the USGS Water Resources Mission Area Web Communications Branch.\n- Rights: the individual media record explicitly states “Public Domain”.\n- Scientific fit: the 2022 global water-cycle diagram includes major water stores and fluxes and human water use/quality effects. It is a strong source for a global-cycle visual, but it is not a simple natural-only cycle and must be captioned accordingly. The USGS also offers a natural-cycle diagram in many languages, including Russian and Kyrgyz; choose the variant that best matches the chapter's teaching objective.\n- Audience: USGS identifies the updated diagram as suitable for an 8th-grade audience.\n- Accessed: 4 November 2026.\n- Sources: https://www.usgs.gov/water-science-school/science/water-cycle-diagrams and https://www.usgs.gov/media/images/water-cycle.\n\n### Candidate 2.5-A — USGS Plate Tectonics Globe Activity map
-
-- Asset page: https://www.usgs.gov/media/files/plate-tectonics-globe-activity-map
-- File: `PT_Globe_Maps.pdf` (860.3 KB).
-- Publisher: USGS Educational Resources; page dated 15 June 2023.
-- Rights: the individual USGS media page explicitly states “Public Domain”.
-- Scientific fit: teaching map for major plate boundaries and a globe model. It is not sufficient alone to teach the cross-sectional mechanics of divergent, convergent and transform margins; use a separate, checked process diagram for that.
-- Companion instructions: https://www.usgs.gov/media/files/plate-tectonics-globe-activity.
-- Accessed: 4 November 2026.
-
-At the time this candidate list was first compiled, the assets had not yet been integrated. On 4 November 2026, four Chapter 02 visuals were added as remote image links and their current status is recorded in the section below. The USGS individual media pages state Public Domain; NOAA's official reuse guidance covers NOAA-produced images unless otherwise credited, and the two JetStream graphics are attributed to NOAA. The NASA Earth System Diagram and USGS plate-tectonics map remain candidates rather than integrated Chapter 02 images.
-
-
-## Chapter 02 — assets integrated in source Markdown — 4 November 2026
-
-### 2-B — NOAA atmospheric layers
-- Source page: https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
-- Direct image: https://www.noaa.gov/sites/default/files/2021-12/basic%20layers%20of%20the%20atmosphere.jpg
-- Publisher: NOAA National Weather Service, JetStream.
-- Rights: NOAA's official reuse guidance states that NOAA content is generally public domain unless otherwise credited; the page identifies NOAA/JetStream and displays no third-party credit. Credit NOAA.
-- Scientific fit: five atmospheric layers; the chapter states boundaries are approximate and troposphere height varies with latitude.
-
-### 2.3-A — NOAA atmospheric temperature profile
-- Source page: https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
-- Direct image: https://www.noaa.gov/media/image_download/4abff0ab-b122-4940-9629-0ae8d5f63a03
-- Publisher and rights: NOAA National Weather Service / JetStream; NOAA-produced media, credited to NOAA under the agency's public-domain reuse guidance.
-- Scientific fit: representative temperature profile across atmospheric layers; do not treat the curve or layer boundaries as identical at all locations and times.
-
-### 2-C — USGS distribution of Earth's water
-- Source page: https://www.usgs.gov/media/images/distribution-water-and-above-earth
-- Direct image: https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png
-- Creator/publisher: USGS Water Science School.
-- Rights: individual media page explicitly states Public Domain.
-- Scientific fit and data date: rounded global distribution estimates trace to Igor Shiklomanov (1993); the chapter explicitly labels these as historical estimates, not a 2026 measurement.
-
-### 2.4-A — USGS global water cycle
-- Source page: https://www.usgs.gov/media/images/water-cycle
-- Direct image: https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png
-- Creator: USGS VizLab with the USGS Water Resources Mission Area Web Communications Branch.
-- Rights: individual media page explicitly states Public Domain.
-- Scientific fit: 2022 global water-cycle diagram includes human water use and water-quality impacts; caption makes this scope explicit.
-- Performance caveat: the source PNG is approximately 14.9 MB. Before public release, create and host an optimised responsive derivative with preserved attribution/metadata, or use the USGS zoomable viewer as the primary link; do not leave a multi-megabyte image unoptimised for mobile.
-
-**Integration limitation:** these four images are linked remotely from official source hosts; no binary copy has been added to the geography/assets directory. Remote loading, performance, responsive sizing and screen-reader behavior still require testing in the deployed reader. NOAA reuse guidance: https://www.noaa.gov/office-education/outreach-communication/faq.
-
-
-## Additional Chapter 02 visuals integrated — 4 November 2026
-
-### 2-A — NASA Earth System Diagram
+### NASA Earth System Diagram — 2.15-A
 - Source page: https://svs.gsfc.nasa.gov/30988
-- Direct image: https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg
-- Credit required: NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller (Global Science and Technology, Inc.).
-- Scientific fit: depicts an integrated Earth system, including water and carbon cycles, human contributions, climate and ecosystems. It is not a literal diagram of the chapter's four-component geographic-envelope model; the caption states this limitation and notes cryosphere components.
+- Credit: NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller (Global Science & Technology, Inc.).
+- Scientific fit: depicts interacting Earth-system components, water and carbon cycles, climate, ecosystems and human influences. It uses a five-sphere framing, including cryosphere components, and is used as the integrated-system summary rather than as the four-component model at 2-A.
+- Rights: NASA's media-use guidance generally permits educational/informational reuse of NASA imagery unless a third-party copyright notice is shown; credit NASA and do not imply agency endorsement. Guidance: https://www.nasa.gov/nasa-brand-center/images-and-media/.
+- Accessed: 4 November 2026.
 
-### 2-D / 2.10-A — NASA-hosted carbon-cycle diagram
+### My NASA Data carbon-cycle diagram — 2.10-A
 - Source page: https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles
 - Direct image: https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg
-- Credit/provenance: My NASA Data; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System.
-- Scientific fit: fast carbon cycle, natural fluxes, human contributions and reservoirs. Numeric values should be interpreted only with the units and context of the original source.
+- Provenance: My NASA Data; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System.
+- Scientific fit: fast carbon cycle, natural fluxes, human contributions and stored carbon. Numerical values must be interpreted only in the units and reference context supplied by the source.
+- Accessed: 4 November 2026.
 
-### 2-D — Nitrogen-cycle diagram
+### My NASA Data / NCAR nitrogen-cycle diagram — 2.10-B
 - Source page: https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles
 - Direct image: https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg
-- Credit: NCAR (as credited on the My NASA Data page).
-- Scientific fit: fixation, nitrification, plant uptake, mineralisation and denitrification.
+- Original NCAR source: https://news.ucar.edu/1449/nitrogen-earth-system
+- Credit: NCAR / UCAR (as credited by My NASA Data).
+- Rights: the original NCAR page states that the image is freely available for nonprofit and media use. UCAR website terms permit use of site materials for non-commercial, non-profit research or educational purposes: https://www.ucar.edu/terms-of-use/website.
+- Scientific fit: fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification.
+- Accessed: 4 November 2026.
 
-**Outstanding for 2-D:** a separate phosphorus-cycle diagram has not yet been located and verified. Carbon and nitrogen visuals are not presented as a complete three-cycle set.
+### Wikimedia Commons phosphorus-cycle flowchart — 2.10-B
+- File page: https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png
+- Direct image: https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png
+- Creator: Entropyrider (2024).
+- Rights: CC0 1.0 Universal Public Domain Dedication. Credit is retained for provenance.
+- Scientific fit: simplified biological and geological phosphorus pathways; not a quantitative flux model. The chapter explicitly notes that phosphorus has no major gaseous phase.
+- Accessed: 4 November 2026.
+
+### Theobald et al. (2025), Figure 10 — 2.13-A
+- Article: https://www.nature.com/articles/s41597-025-04892-2
+- DOI: 10.1038/s41597-025-04892-2.
+- Figure: 10, cumulative human modification of terrestrial ecosystems in 2022 at 300 m resolution.
+- Rights: the article's Rights and permissions statement applies CC BY 4.0 to article figures unless a separate credit line states otherwise; no separate restrictive credit line appears for Figure 10. The chapter reproduces the figure without changes and includes attribution and licence link.
+- Scientific caveat: the 0–1 index is modelled human modification, not a direct measurement of ecosystem condition or biodiversity; Antarctica is excluded.
+
+### Existing official source images
+- NOAA JetStream atmospheric layers and temperature profile: https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere. NOAA attribution recorded; the chapter preserves approximate-boundary and representative-profile caveats.
+- USGS distribution of Earth's water: https://www.usgs.gov/media/images/distribution-water-and-above-earth. The individual media page states Public Domain; rounded estimates trace to Shiklomanov (1993), not a 2026 measurement.
+- USGS global water cycle: https://www.usgs.gov/media/images/water-cycle. The individual media page states Public Domain; the 2022 diagram includes human water use and water-quality impacts.
+- NASA image-use guidance: https://www.nasa.gov/nasa-brand-center/images-and-media/.
+- NOAA education/reuse guidance: https://www.noaa.gov/office-education/outreach-communication/faq.
+
+### Original local SVGs
+- The 11 local Chapter 02 SVGs are original Atlas of Knowledge educational schematics, committed under `geography/assets/diagrams/`. Each has a bilingual caption/alt text and SVG `title`, `desc` and `role="img"` metadata. They are conceptual teaching aids, not third-party source reproductions or quantitative datasets.
+
+### Integration limits
+- External images are linked from their source hosts; no local binary copy is claimed.
+- The source files and alt text have been checked in the branch, but live external loading, responsive rendering, keyboard navigation, screen-reader output and mobile performance remain untested.
+- GitHub Pages deploys from `main`; this Geography work remains in `workspace/geography` and has not been merged or deployed.
+
