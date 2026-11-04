@@ -463,7 +463,11 @@
 
 К глобальным экологическим проблемам относятся изменение климата, опустынивание, потеря биоразнообразия, дефицит пресной воды, загрязнение океана и деградация почв.
 
-**Место для иллюстрации 2.13-A — Human Pressure on Earth's Systems.** Глобальная карта и тематические примеры антропогенного воздействия.
+**Иллюстрация 2.13-A — Глобальная модификация наземных экосистем человеком / Global Human Modification of Terrestrial Ecosystems (2022).**
+
+![Глобальная карта совокупной модификации наземных экосистем человеком, пространственное разрешение 90 м, оценка около 2022 года / Global map of cumulative human modification of terrestrial ecosystems, 90 m resolution, circa 2022](https://ndl-cdn.nightingale.business/media/gHMc_AA_2022_inset_cat_legend-CROP.jpg)
+
+*Источник / Source: The Nature Conservancy (TNC), Global Human Modification (HM90), 2025; опубликовано Nature Data Lab. Карта основана на наборе данных 2022 года с пространственным разрешением 90 м и объединяет 16 видов антропогенных воздействий в восемь классов угроз. Публикация-описание набора данных: Theobald et al. (2025), “Global extent and change in human modification of terrestrial ecosystems from 1990 to 2022”, Scientific Data 12, 606, DOI: 10.1038/s41597-025-04892-2, CC BY 4.0. Карта показывает совокупную модификацию суши, а не все виды воздействия на океан и атмосферу; Антарктида исключена. Индекс 0–1 является модельной оценкой степени модификации, а не прямым измерением экологического состояния или биоразнообразия. / Source: The Nature Conservancy (TNC), Global Human Modification (HM90), 2025; published by Nature Data Lab. The map uses circa-2022 data at 90 m resolution and aggregates 16 human pressures into eight threat classes. The data descriptor is licensed CC BY 4.0. It maps cumulative terrestrial modification, not all pressures on oceans and the atmosphere; Antarctica is excluded. The 0–1 index is a modelled measure of modification, not a direct measurement of ecosystem condition or biodiversity. [Nature Data Lab map and explanation](https://www.naturedatalab.org/projects/mapping-the-extent) · [Scientific Data article and licence](https://doi.org/10.1038/s41597-025-04892-2).
 
 ## 2.14. Глобальные изменения и будущее географической оболочки / Global Change
 
