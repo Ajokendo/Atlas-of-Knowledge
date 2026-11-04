@@ -1915,3 +1915,18 @@ Continued the separate source/evidence workstream with a targeted pass over Chap
 - Chapter 02 remains at **90% working readiness**. The remaining percentage is reserved for final sentence-by-sentence scientific and bilingual copy-edit, final dated-value/source checks, and live rendering/accessibility tests; the English text additions do not by themselves close those release checks.
 - Chapter file commit: `854d312c0bd7b3d2785257fd6307ca87b61f4228`.
 - Readiness matrix commit: `9ccd17c12bd4a0e2cc067427878f2e363cae74b8`.
+
+
+### Image-first source correction — Chapter 02 — 4 November 2026
+
+A final compliance check against the Geography image-first instruction found that three new bespoke SVGs had been created even though suitable existing scientific images were already available. The chapter was corrected to prefer the established sources:
+
+- **2.10-A Carbon cycle:** restored the My NASA Data image adapted from the U.S. Department of Energy, with source credit and contextual caveat for numerical values.
+- **2.10-B Nitrogen and phosphorus cycles:** restored the My NASA Data/NCAR nitrogen-cycle image and the Wikimedia Commons phosphorus-cycle flowchart (CC0 1.0), with credits and source links.
+- **2.15-A Integrated Earth system:** reused NASA Goddard Space Flight Center's “Earth System Diagram” as the integrated summary, rather than retaining a newly created duplicate.
+- Removed the three newly created cycle/integrated SVGs from the branch and removed the obsolete reference to the NASA diagram as a supplementary 2-A image. The existing original 2-A four-sphere SVG remains the specific four-component model.
+- Updated the chapter, visual register, readiness matrix and README to reflect the final source selection.
+
+**Final Chapter 02 visual inventory:** 40 Markdown image embeds representing 20 unique assets (nine remote science images and 11 original local bilingual SVGs). All 19 visual IDs remain illustrated in both language versions. All image embeds have non-empty bilingual alt text; all 11 local SVGs have title, description and `role="img"` metadata. No image placeholders or stale references to the removed SVGs remain.
+
+**Current working readiness remains 90%.** The remaining tasks are final sentence-by-sentence scientific/bilingual copy-edit, dated-value verification, and live-site/device/accessibility tests. The Pages workflow deploys only from `main`; this branch remains isolated as instructed, so no deployed-site test is claimed.
