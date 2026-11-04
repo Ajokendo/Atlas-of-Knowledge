@@ -371,3 +371,6 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 10 — UNCLOS Area versus high seas — 5 November 2026
 
 - Added the missing distinction between the Area (seabed/subsoil beyond national jurisdiction) and high seas (water column), including the common-heritage principle and Article 135's separation of the status of overlying waters. Official UN Part XI sources added. Commit: `c2412eed3ab7f6fb6f1acc6d8d0baf6b452fdcda`.
+
+
+- Updated the maritime-zones visual specification to distinguish the Area seabed from the high-seas water column and added English production instructions, maintaining bilingual asset requirements. Commit: `aef5597993c6f40abad063be6574fa489f23870b`.
