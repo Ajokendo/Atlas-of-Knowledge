@@ -43,7 +43,11 @@ After studying this chapter, readers will be able to explain the scope of politi
 
 **Суверенитет** означает верховенство государственной власти внутри страны и независимость государства во внешних отношениях в рамках международного права. Суверенитет не означает неограниченную свободу действий: государства связаны международными договорами, обычными нормами международного права и принятыми обязательствами.
 
-**Государственное признание** — акт или практика, посредством которых другие государства выражают готовность рассматривать образование как государство и поддерживать с ним соответствующие отношения. Признание может быть двусторонним и многосторонним, явным или подразумеваемым. Членство в международной организации и признание отдельными государствами — разные юридические и политические вопросы.
+**Государственное признание** — акт или практика, посредством которых другие государства выражают готовность рассматривать образование как государство и поддерживать с ним соответствующие отношения. Признание может быть двусторонним и многосторонним, явным или подразумеваемым. Оно влияет на дипломатические, договорные и иные практические отношения, но не следует автоматически считать, что само по себе признание одной или нескольких стран решает все вопросы государственности.
+
+В качестве часто цитируемого ориентира используют Конвенцию Монтевидео о правах и обязанностях государств 1933 года. Её статья 1 перечисляет четыре характеристики государства: постоянное население, определённая территория, правительство и способность вступать в отношения с другими государствами. Статья 3 Конвенции говорит, что политическое существование государства не зависит от признания другими государствами. Конвенция является региональным договором; её критерии широко используются в международно-правовых дискуссиях, но механическое применение четырёх пунктов не разрешает автоматически каждый спорный случай.
+
+В теории различают декларативный подход, согласно которому признание подтверждает уже существующую государственность, и конститутивный подход, придающий признанию роль в формировании международно-правового статуса. Реальная международная практика сложнее этой схемы: значение имеют эффективность институтов, применимые нормы международного права, признание другими государствами и участие в международных организациях. Членство в международной организации и признание отдельными государствами — разные юридические и политические вопросы.
 
 В учебной и картографической работе важно не смешивать фактический контроль над территорией, международно-правовой статус, признание и заявленные притязания. Эти характеристики могут не совпадать.
 
@@ -298,7 +302,11 @@ The following concepts should be distinguished:
 
 **Sovereignty** means the supremacy of state authority within the country and the state's independence in external relations within the framework of international law. Sovereignty does not mean unlimited freedom of action: states are bound by international treaties, customary international law and their accepted obligations.
 
-**State recognition** is an act or practice through which other states express their willingness to treat an entity as a state and maintain corresponding relations with it. Recognition may be bilateral or multilateral, explicit or implicit. Membership in an international organisation and recognition by individual states are distinct legal and political questions.
+**State recognition** is an act or practice through which other states express their willingness to treat an entity as a state and maintain corresponding relations with it. Recognition may be bilateral or multilateral, explicit or implicit. It affects diplomatic, treaty and other practical relations, but recognition by one or several countries should not automatically be treated as resolving every question of statehood.
+
+The 1933 Montevideo Convention on the Rights and Duties of States is often cited as a reference point. Article 1 lists four qualifications of a state: a permanent population, a defined territory, government, and the capacity to enter into relations with other states. Article 3 states that the political existence of a state is independent of recognition by other states. The Convention is a regional treaty; its criteria are widely used in discussions of international law, but mechanically applying the four points does not automatically resolve every contested case.
+
+Legal theory distinguishes the declaratory approach, under which recognition acknowledges statehood that already exists, from the constitutive approach, which gives recognition a role in forming international legal status. Actual international practice is more complex than this distinction: the effectiveness of institutions, applicable rules of international law, recognition by other states and participation in international organisations may all matter. Membership in an international organisation and recognition by individual states are distinct legal and political questions.
 
 In educational and cartographic work, it is important not to confuse effective territorial control, international legal status, recognition and claims. These characteristics may not coincide.
 
@@ -581,6 +589,8 @@ Particular attention should be paid to differences between statistical and admin
 9. United Nations Statistics Division. **Standard Country or Area Codes for Statistical Use (M49)** — for statistical grouping of countries and areas, not for determining their legal status. https://unstats.un.org/unsd/methodology/m49/
 10. United Nations. **UNCLOS, Part V: Exclusive Economic Zone** — official Convention text, including Articles 55–58. https://www.un.org/depts/los/convention_agreements/texts/unclos/part5.htm
 11. United Nations. **UNCLOS, Part II: Territorial Sea and Contiguous Zone** — official Convention text, including Articles 2–3 and 33. https://www.un.org/depts/los/convention_agreements/texts/unclos/part2.htm
+12. **Convention on Rights and Duties of States (Montevideo Convention)**, 26 December 1933, especially Articles 1 and 3 — treaty text on commonly cited statehood qualifications and recognition. https://history.state.gov/historicaldocuments/frus1933v04/d134
+13. Kilibarda, P. (2024). *Recognition of States in International Law*, Chapters 8–9 — contemporary discussion of declaratory, constitutive and mixed approaches. Oxford University Press. https://doi.org/10.1093/oso/9780198905653.003.0008
 
 ---
 **Конец главы 10 / End of Chapter 10**
