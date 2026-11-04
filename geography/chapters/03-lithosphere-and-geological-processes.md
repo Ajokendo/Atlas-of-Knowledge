@@ -992,7 +992,11 @@ On a schematic geological cross-section, identify:
 - Не изображать мантию как глобальный океан расплава или астеносферу как полностью жидкий слой.
 
 
-**[ILLUSTRATION PLACEHOLDER 3.1-A — Earth's Internal Structure]** Scaled cutaway of Earth showing the crust, lithosphere, asthenosphere, mantle, liquid outer core and solid inner core. Distinguish chemical composition layers from mechanical layers; label major depth boundaries and include a schematic temperature profile. Use matching Russian and English labels.
+**Illustration 3.1-A — Earth's Internal Structure.**
+
+![Schematic Earth cutaway showing crust, mantle, outer and inner core, with lithosphere and asthenosphere distinguished. / Схематический разрез Земли: кора, мантия, внешнее и внутреннее ядро; отдельно показаны литосфера и астеносфера.](../assets/03-1-A-earth-interior-bilingual.svg)
+
+*Not to scale. The mantle and asthenosphere are predominantly solid and capable of slow deformation; compositional and mechanical layer classifications are distinct. / Схема не в масштабе. Мантия и астеносфера преимущественно твёрдые и способны к медленной деформации; химическая и механическая классификации слоёв различаются.*
 
 
 **Illustration 3.2-A — Mineral Identification Board.**
@@ -1002,7 +1006,11 @@ On a schematic geological cross-section, identify:
 *Source: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); the source page states Public Domain. Formulae and Mohs hardness values are in the chapter table; photographs support visual recognition, not identification by colour alone. / Источник: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); страница указывает Public Domain. Формулы и твёрдость приведены в таблице главы; фотографии служат для распознавания, а не определения по одному цвету.*
 
 
-**[ILLUSTRATION PLACEHOLDER 3.3-A — The Rock Cycle]** Diagram the transformations among igneous, sedimentary and metamorphic rocks, including weathering, erosion, deposition, burial, metamorphism, melting and crystallisation.
+**Illustration 3.3-A — The Rock Cycle.**
+
+![Bilingual rock-cycle diagram showing magma, igneous, sedimentary and metamorphic rocks, sediments and key transformation processes. / Двуязычная схема круговорота горных пород: магма, магматические, осадочные и метаморфические породы, осадки и основные процессы преобразования.](../assets/03-3-A-rock-cycle-bilingual.svg)
+
+*Teaching schematic simplified from USGS Open-File Report 94-636 (1994); it shows possible pathways, not a compulsory closed cycle. / Учебная схема, упрощённая по материалам USGS Open-File Report 94-636 (1994); она показывает возможные пути преобразования, а не обязательный замкнутый цикл.*
 
 
 **Illustration 3.4-A — Geological Research Toolkit.**
