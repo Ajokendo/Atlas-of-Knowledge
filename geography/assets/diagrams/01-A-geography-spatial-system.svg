@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="t d">
+<title id="t">Geography connects natural and human systems / География связывает природные и общественные системы</title>
+<desc id="d">An educational systems diagram linking land, water, climate and ecosystems with people, settlements, economy, culture and transport. / Учебная схема взаимосвязи рельефа, воды, климата и экосистем с населением, поселениями, экономикой, культурой и транспортом.</desc>
+<rect width="1500" height="900" fill="#f7fafc"/>
+<text x="750" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#17324d">Geography connects the Earth / География связывает Землю</text>
+<circle cx="750" cy="440" r="150" fill="#e8f0f6" stroke="#456b86" stroke-width="5"/>
+<circle cx="750" cy="440" r="104" fill="#b7d9d1" stroke="#397b73" stroke-width="3"/>
+<path d="M650 450 Q700 390 750 450 T850 450" fill="none" stroke="#397b73" stroke-width="8"/>
+<path d="M670 480 Q730 420 790 480 T850 480" fill="none" stroke="#397b73" stroke-width="6"/>
+<path d="M700 380l50-40 45 40" fill="none" stroke="#8a6b45" stroke-width="9" stroke-linejoin="round"/>
+<text x="750" y="550" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d">Place / Место</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="70" y="150" width="390" height="155" rx="24" fill="#dcecf8" stroke="#3979a8" stroke-width="4"/>
+<text x="265" y="205" font-size="31" font-weight="700" fill="#174e78">Land &amp; water</text><text x="265" y="248" font-size="27" fill="#17324d">Рельеф и воды</text>
+<rect x="555" y="105" width="390" height="135" rx="24" fill="#d9eef0" stroke="#278c96" stroke-width="4"/>
+<text x="750" y="158" font-size="31" font-weight="700" fill="#17656d">Climate &amp; air</text><text x="750" y="198" font-size="27" fill="#17324d">Климат и атмосфера</text>
+<rect x="1040" y="150" width="390" height="155" rx="24" fill="#e1eedc" stroke="#56874b" stroke-width="4"/>
+<text x="1235" y="205" font-size="31" font-weight="700" fill="#386432">Ecosystems</text><text x="1235" y="248" font-size="27" fill="#17324d">Экосистемы</text>
+<rect x="70" y="610" width="390" height="155" rx="24" fill="#f4e7d8" stroke="#a66b35" stroke-width="4"/>
+<text x="265" y="665" font-size="31" font-weight="700" fill="#805024">Population &amp; cities</text><text x="265" y="708" font-size="27" fill="#17324d">Население и города</text>
+<rect x="555" y="700" width="390" height="130" rx="24" fill="#eee5f5" stroke="#8562a6" stroke-width="4"/>
+<text x="750" y="752" font-size="31" font-weight="700" fill="#62427f">Economy &amp; culture</text><text x="750" y="792" font-size="27" fill="#17324d">Экономика и культура</text>
+<rect x="1040" y="610" width="390" height="155" rx="24" fill="#f5e4e1" stroke="#b85c50" stroke-width="4"/>
+<text x="1235" y="665" font-size="31" font-weight="700" fill="#8f3f36">Transport &amp; links</text><text x="1235" y="708" font-size="27" fill="#17324d">Транспорт и связи</text>
+</g>
+<g fill="none" stroke="#52697c" stroke-width="7" stroke-linecap="round"><path d="M460 260L625 360"/><path d="M750 240V286"/><path d="M1040 260L875 360"/><path d="M460 685L625 525"/><path d="M750 700V594"/><path d="M1040 685L875 525"/></g>
+<g fill="#52697c"><path d="M608 343l30 9-16 26z"/><path d="M735 270l15 25 15-25z"/><path d="M862 343l30 9-14 26z"/><path d="M608 523l30-9-14-26z"/><path d="M735 610l15-25 15 25z"/><path d="M862 523l30-9-14-26z"/></g>
+<text x="750" y="870" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#52697c">Schematic model: systems influence one another in both directions / Схема: системы влияют друг на друга в обоих направлениях</text>
+</svg>
