@@ -390,7 +390,11 @@
 
 Сокращение выбросов парниковых газов называется смягчением изменения климата (mitigation). Адаптация (adaptation) направлена на уменьшение ущерба и использование возможных благоприятных последствий.
 
-**Место для иллюстрации 5.15-A — Climate Change: Drivers, Evidence and Responses.** Причинно-следственная схема от выбросов к радиационному воздействию, наблюдаемым изменениям и мерам адаптации и смягчения.
+**Иллюстрация 5.15-A — Climate Change: Drivers, Evidence and Responses / Изменение климата: причины, свидетельства и ответы.**
+
+![Причины, свидетельства и ответы на изменение климата / Climate change drivers, evidence and responses](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-change-drivers-evidence-responses.svg)
+
+*Оригинальная двуязычная причинно-следственная схема Atlas of Knowledge. Она показывает общую последовательность: деятельность человека → выбросы парниковых газов → рост их концентрации и радиационного воздействия → нагрев климатической системы → наблюдаемые изменения. Нижний блок разделяет смягчение изменения климата (сокращение выбросов и усиление поглощения) и адаптацию (снижение уязвимости и подготовка к рискам). Естественная изменчивость климата продолжается, но не объясняет современную долгосрочную тенденцию потепления. Схема качественная, не количественная; она не показывает величину вклада каждого сектора или прогноз для отдельного региона. / Original bilingual causal diagram by Atlas of Knowledge. It shows the general sequence: human activities → greenhouse-gas emissions → higher concentrations and radiative forcing → warming of the climate system → observed changes. The lower panel distinguishes mitigation (cutting emissions and enhancing removals) from adaptation (reducing vulnerability and preparing for risks). Natural climate variability continues but does not explain the modern long-term warming trend. This is a qualitative, not quantitative, diagram; it does not quantify sector contributions or provide a regional forecast.*
 
 ## 5.16. Метеорология, климатические данные и прогнозирование / Meteorology, Climate Data and Forecasting
 
@@ -885,6 +889,7 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 8. World Meteorological Organization. *WMO Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017). https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals
 9. World Meteorological Organization. **WMO Climatological Normals** — definition of standard 30-year periods and the current 1991–2020 collection. https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals
 10. World Meteorological Organization. **Provisional 2026 Edition of the Guide to Instruments and Methods of Observation (WMO-No. 8)** (5 October 2026). This is a provisional edition submitted for approval at INFCOM-4, scheduled for 23–27 November 2026; do not cite it as an already approved standard. https://wmo.int/media/news/provisional-2026-edition-of-guide-instruments-and-methods-of-observation-wmo-no-8
+11. Intergovernmental Panel on Climate Change (IPCC). *Climate Change 2023: Synthesis Report — Summary for Policymakers*. https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
