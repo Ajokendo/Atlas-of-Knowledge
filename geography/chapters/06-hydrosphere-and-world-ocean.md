@@ -471,6 +471,10 @@ Inflows may include precipitation, surface-water and groundwater inflow, and wat
 9. Реки, озёра и подземные воды обеспечивают население и хозяйство пресной водой.
 10. Устойчивое управление водными ресурсами требует бассейнового подхода и международного сотрудничества.
 
+## Ключевые понятия / Key Terms
+
+Гидросфера — Hydrosphere; водный резервуар — Water reservoir; круговорот воды — Hydrological cycle; испарение — Evaporation; транспирация — Transpiration; инфильтрация — Infiltration; речной бассейн — Drainage basin; водораздел — Watershed divide; расход воды — River discharge; водный баланс — Water balance; солёность — Salinity; практическая солёность — Practical Salinity; абсолютная солёность — Absolute Salinity; термоклин — Thermocline; плотность морской воды — Seawater density; прилив — Tide; океанический круговорот — Ocean gyre; термохалинная циркуляция — Thermohaline circulation; закисление океана — Ocean acidification; деоксигенация океана — Ocean deoxygenation; водоносный горизонт — Aquifer; водоупор — Aquitard; уровень грунтовых вод — Water table; физический дефицит воды — Physical water scarcity; экономический дефицит воды — Economic water scarcity.
+
 ## Контрольные вопросы / Review Questions
 
 1. Как распределена вода между солёными и пресными резервуарами?
