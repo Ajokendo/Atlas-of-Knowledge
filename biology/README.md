@@ -1445,3 +1445,10 @@ Created and integrated the original bilingual SVG `images/generated/zoology-adap
 
 ## Systematics taxonomy hierarchy visual checkpoint — 4 November 2026
 Created and integrated the original bilingual SVG `images/generated/systematics-ranks.svg` at the preserved `image-brief-systematics-ranks` anchor in `chapters/systematics.html`. The eight-rank grey-wolf example is consistent with the chapter's interactive hierarchy: Eukarya → Animalia → Chordata → Mammalia → Carnivora → Canidae → *Canis* → *Canis lupus*. The binomial is italicised, and the caption identifies the scheme as a conventional teaching classification that may be revised. The visual programme now records **43 of 53 briefs produced or integrated (81.1%)**; 10 remain deferred. Focused browser visual QA for this figure is pending; no browser rendering or full CI pass is claimed in this checkpoint.
+
+
+## Superseding completion and CI update — 4 November 2026
+
+The current visual disposition is **53/53 briefs produced or integrated (100%)**, as recorded in `IMAGE_DISPOSITION_REGISTER.md`. This supersedes the older 43/53 and other interim counts retained in the historical development log below. The latest full Biology validation run, [41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607), passed on commit `9d4b79ff0297d95fcdb1998c58f6e973fd81ecc6` in `workspace/biology`. Its Chromium smoke test includes raster decode/dimensions/alt checks and inline-SVG geometry checks across the 13 Biology pages, alongside the established bilingual, keyboard, accessibility and contrast checks.
+
+G4 and G5 author-side audits are complete. The optional independent-review packet was not commissioned and is not a required release gate. Actual NVDA/TalkBack/VoiceOver and physical-device sessions remain unperformed; automated CI is not represented as a substitute for those hands-on sessions. The 95/100 controlled-readiness figure is retained as the last recorded editorial score and is not silently upgraded by visual or CI coverage.
