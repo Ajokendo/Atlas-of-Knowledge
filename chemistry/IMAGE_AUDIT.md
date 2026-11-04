@@ -52,7 +52,8 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 | Category C — created | 0 assigned | Local presence alone does not prove project authorship or method. |
 | Category / method pending | 18 / 18 integrated records | 11 static pairs + 7 interactive visual systems; provenance and creator/rightsholder evidence still needed. |
 | Rights on integrated records | 0 PASS / 18 PENDING / 0 FAIL | All 18 integrated records remain unverified. Candidate source rights are tracked separately and do not count as integrated assets. |
-| AI-assisted first-pass scientific review | 13 PASS / 5 PENDING / 0 FAIL | Source-level first pass: 10 static visuals and three supplemental interactive systems reviewed PASS; CH-V01 and four earlier interactive systems remain PENDING. This is not independent expert sign-off. |\n| Independent scientific/factual review | 0 PASS / 18 PENDING / 0 FAIL | A competent independent subject-matter reviewer has not signed off any integrated visual; all 18 remain PENDING for this formal policy dimension. |
+| AI-assisted first-pass scientific review | 13 PASS / 5 PENDING / 0 FAIL | Source-level first pass: 10 static visuals and three supplemental interactive systems reviewed PASS; CH-V01 and four earlier interactive systems remain PENDING. This is not independent expert sign-off. |
+| Independent scientific/factual review | 0 PASS / 18 PENDING / 0 FAIL | A competent independent subject-matter reviewer has not signed off any integrated visual; all 18 remain PENDING for this formal policy dimension. |
 | Language and accessibility status | 0 PASS / 18 PENDING / 0 FAIL | Automated bilingual metadata, 42 axe scans and language toggles pass; full translation-quality, keyboard, screen-reader and device review remains PENDING for every integrated visual. |
 | Technical status | 0 full PASS / 18 PENDING / 0 FAIL | Automated CI passed on commit 7a4d60c: 22 HTML pages, 90 local links/assets, 21 inline scripts, 21 Chromium pages, 42 RU/EN axe scans, 21 language toggles and overflow checks at 390/768/1280 px. Full per-visual technical sign-off still awaits manual zoom/reflow, device and assistive-technology review. |
 | Retrospective search evidence | 19 / 19 records have dated search notes | The 18 integrated records plus the Chapter 03 candidate. This does not prove the original pre-creation search-first sequence. |
@@ -107,6 +108,17 @@ Counts below are for integrated visual units only; each cell uses PASS / PENDING
 | Acid–base virtual laboratory — beaker and pH indicator | 1 system | 1 | 100% | 0 / 1 VERIFIED | None identified; creator/code rights and manual checks pending |
 
 **Supplemental tools total:** 3 / 3 integrated (100% provisional coverage), 0 / 3 VERIFIED. Combined with the chapter-level plan, the whole atlas has 18 / 19 integrated visual units (94.74% provisional coverage) and 0 / 18 VERIFIED.
+
+
+### Supplemental-tool policy-dimension status
+
+| Tool | Integrated | Rights P/P/F | Independent science P/P/F | Language/accessibility P/P/F | Technical P/P/F | Category A/B/C/PENDING |
+|---|---:|---:|---:|---:|---:|---:|
+| Molecular laboratory | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| Gas-laws particle visual | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| Acid–base virtual beaker | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+
+**Whole-atlas policy-dimension totals:** 0 PASS / 18 PENDING / 0 FAIL for rights, independent scientific review, full language/accessibility review and full technical sign-off. Category counts: A = 0, B = 0, C = 0, category/method PENDING = 18. Automated CI PASS is reported separately and does not change these full-review counts.
 
 ### Chapter 03 candidate rights finding
 
