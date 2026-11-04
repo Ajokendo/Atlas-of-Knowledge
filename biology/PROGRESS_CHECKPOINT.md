@@ -4,7 +4,7 @@
 
 - **53/53 mapped illustration briefs now have produced or integrated assets (100% visual asset-production coverage).** This is a count of mapped illustration briefs, not a claim that the Biology atlas or its chapters are 100% complete.
 - Final new assets integrated in this workstream: `genetics-dna-packaging.svg`, `biology-cover.svg`, `zoology-vertebrates.svg`, `evolution-tree.svg` and `flora-altitude.svg`. Earlier in the same workstream: `genetics-mutations.svg`.
-- The 53-row [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md) is authoritative for individual asset status and outstanding QA. Browser visual QA remains pending where noted; the latest full CI run for the earlier Genetics responsive fix passed, while the final post-integration run is still pending.
+- The 53-row [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md) is authoritative for individual asset status and outstanding QA. The full post-integration Biology CI run `41821592204` completed successfully on commit `a9b38d6a20f1c2f10bf4d04c65df334a1fab0682`. Focused visual QA remains pending for entries explicitly marked pending; a successful full CI run does not replace manual browser/device review.
 - Controlled editorial readiness remains **95/100** as previously recorded; visual asset coverage does not change that separate score.
 
 
