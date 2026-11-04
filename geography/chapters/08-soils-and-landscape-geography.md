@@ -54,8 +54,9 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 Почвенный профиль — вертикальный разрез от поверхности вниз, в котором различают генетические горизонты. Набор и выраженность горизонтов зависят от типа почвы и условий формирования.
 
-В международной практике широко используется система обозначений горизонтов O, A, E, B, C и R, но их наличие не обязательно для каждой почвы:
-- **O** — поверхностный органический горизонт, состоящий преимущественно из растительных остатков и органического материала;
+В описании почвенных профилей широко используются обозначения главных горизонтов и слоёв. В системе WRB применяются, в частности, H, O, A, E, B, C и R; их наличие и последовательность зависят от почвы:
+- **H** — органический горизонт или слой, обычно связанный с длительным переувлажнением и торфяным материалом;
+- **O** — органический горизонт или слой, не относящийся к торфяным и лимническим отложениям, обычно состоящий из растительных остатков и другого органического материала;
 - **A** — минеральный верхний горизонт с накоплением гумуса и активной биологической переработкой;
 - **E** — горизонт элювиального вымывания, часто более светлый из-за потери глины, железа, алюминия или органических соединений;
 - **B** — горизонт накопления или преобразования веществ, вынесенных из верхних горизонтов, либо формирования специфической структуры;
@@ -67,7 +68,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 Гумус — сложная совокупность преобразованных органических соединений почвы, а не одно конкретное химическое вещество. Органическое вещество влияет на агрегатную структуру, водоудержание, ёмкость катионного обмена и биологическую активность.
 
 **Рисунок 8.3 / Figure 8.3 — Типовой почвенный профиль / Typical soil profile.**  
-Техническое задание: вертикальный разрез с горизонтами O–A–E–B–C–R; обозначить корни, гумус, зоны вымывания и накопления, материнский материал и коренную породу; использовать условную цветовую шкалу и пояснить, что не каждая почва имеет все горизонты.
+Техническое задание: вертикальный разрез с горизонтами H–O–A–E–B–C–R; обозначить корни, гумус, зоны вымывания и накопления, материнский материал и коренную породу; использовать условную цветовую шкалу и пояснить, что не каждая почва имеет все горизонты.
 
 ## 8.4. Физические свойства почв / Physical Properties of Soils
 
@@ -374,9 +375,10 @@ The classical model identifies five main soil-forming factors: climate, organism
 
 A soil profile is a vertical section from the surface downwards in which genetic horizons can be distinguished. The number and expression of horizons depend on soil type and formation conditions.
 
-The internationally used O, A, E, B, C and R horizon system is common, but not every soil contains all of these horizons:
+Soil-profile descriptions use symbols for master horizons and layers. The WRB system includes, among others, H, H, H, O, A, E, B, C and R; their presence and sequence depend on the soil:
 
-- **O:** surface organic horizon, consisting mainly of plant remains and organic material;
+- **H:** an organic horizon or layer generally associated with prolonged water saturation and peat material;
+- **O:** an organic horizon or layer that is not peat or limnic material, usually consisting of plant remains and other organic matter;
 - **A:** upper mineral horizon with humus accumulation and active biological processing;
 - **E:** eluviated horizon, often lighter in colour because clay, iron, aluminium or organic compounds have been removed;
 - **B:** horizon where materials from upper layers accumulate or are transformed, or where a distinctive structure develops;
