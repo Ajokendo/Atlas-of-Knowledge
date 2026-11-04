@@ -18,6 +18,8 @@ check('area under v–t = displacement', [0.5, 1.5, 2.0].every(t => near(M.areaU
 // numeric area check by summation
 const n = 20000; let area = 0; for (let i = 0; i < n; i++) area += M.vy((i + 0.5) * (1.5 / n)) * (1.5 / n);
 check('Σ v·dt over 0–1.5 s = y(1.5)', near(area, M.y(1.5), 1e-6), `${area.toFixed(4)} m`);
+check('signed area under v–t over full flight = net displacement 0', near(integ(M.vy, 0, M.T), 0, 1e-9) && near(M.y(M.T), 0));
+check('signed area under a–t over full flight = Δv = −2v0', near(integ(M.ay, 0, M.T), M.vy(M.T) - M.vy(0), 1e-9) && near(M.vy(M.T) - M.vy(0), -2 * M.VY0));
 check('projectile: same height as the straight-up ball at every t', [0.2, 1.1, 1.9].every(t => near(M.y(t), M.VY0 * t - 0.5 * M.G * t * t)));
 check('projectile range = vx·T', near(M.RANGE, M.VX * M.T), `${M.RANGE.toFixed(1)} m`);
 check('average speed ≠ average velocity on the round trip', near(M.distance(M.T) / M.T, M.H) && near(M.y(M.T) / M.T, 0), `${(M.distance(M.T) / M.T).toFixed(2)} m/s vs 0`);
