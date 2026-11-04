@@ -1394,3 +1394,8 @@ Created and integrated the original bilingual-accessible SVG `images/generated/e
 ## Ecology food-web visual checkpoint — 4 November 2026
 
 Created and integrated the original `images/generated/ecology-web.svg` at the existing `image-brief-ecology-web` anchor in `chapters/ecology.html`. The diagram uses generalized organism groups and resource-to-consumer arrows; decomposers return mineral nutrients, while energy is not depicted as cycling. The visual register now records **33 of 53 briefs produced or integrated (62.3%)**: 15 locally packaged WebP photographs and 22 original SVG schematics. Focused browser image-decode QA is pending.
+
+
+## Visual programme update — 4 November 2026
+- Added and integrated `images/generated/flora-talas-vegetation.svg` at the preserved `image-brief-flora-talas` anchor in `chapters/flora-kyrgyzstan.html`. The bilingual conceptual panorama shows the Besh-Tash habitat mosaic: spruce woodland, juniper communities, subalpine and alpine meadows, and river floodplain. It is explicitly not to scale and does not invent elevation limits or species records.
+- The visual programme now records **34 of 53 briefs produced or integrated (64.2%)**; 19 remain deferred or pending. The new SVG is original atlas artwork; focused browser visual QA is pending.
