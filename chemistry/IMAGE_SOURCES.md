@@ -1,19 +1,15 @@
 # Chemistry Atlas — Image and visual source register
 
-**Policy:** IMAGE-FIRST POLICY v1.0  
+**Canonical policy:** [IMAGE-FIRST POLICY v1.0](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
 **Subject branch:** `workspace/chemistry`  
 **Scope:** static SVG illustration assets in `chemistry/assets/` and the currently inventoried chapter-level interactive visuals.  
 **Last inventory pass:** 2026-11-05
 
-## How to read this register
+## Register scope
 
-- **A — Original source:** an existing external image reused without content changes.
-- **B — Adapted source:** an existing external image modified, translated, cropped or annotated.
-- **C — Created visual:** a project-specific visual authored as SVG/HTML/CSS, hand-drawn or generated. The exact method and creator must be evidenced, not guessed.
-- The current static illustration set is project-local SVG source code. No external source URL is embedded in the files or established by the available repository metadata. Therefore these are provisionally classified **C (project SVG; provenance details pending)**, not assumed to be AI-generated or public-domain.
-- A project-created file is not automatically copyright-cleared. The repository does not preserve a source-search log showing whether a suitable existing licensed image was sought before each SVG was authored; that IMAGE-FIRST decision history is therefore **Unknown** and must not be reconstructed by assumption. The rightsholder and publication licence still require confirmation. No external licence is asserted below.
-- “Unknown” means the repository does not currently provide sufficient evidence. It is not a licence or permission.
-- English and Russian variants form one visual pair. Both files are listed so that neither language version is omitted from the audit.
+This file records Chemistry-specific assets and their evidence. Universal category definitions (A/B/C), search-first workflow, licence rules, status vocabulary, accessibility requirements, and verification criteria are defined only in the [canonical IMAGE-FIRST POLICY](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md). Do not duplicate or redefine those rules here.
+
+The current static illustration set is project-local SVG source code. No external source URL is embedded in the files or established by the available repository metadata. Its provisional category C classification records the observed project-local SVG format; exact authoring method, creator/rightsholder, search history, and publication licence remain unconfirmed. These unknowns must not be inferred.
 
 ## Asset register
 
