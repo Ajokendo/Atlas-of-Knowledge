@@ -316,9 +316,9 @@ export function startBook(chapter) {
     if (moveFocus) {
       // Native select controls may restore focus to themselves after closing their popup.
       // Defer focus until that browser interaction has fully completed.
-      requestAnimationFrame(() => requestAnimationFrame(() => {
+      setTimeout(() => {
         if (!plate.hidden) plate.querySelector('#scene-plate-title')?.focus();
-      }));
+      }, 50);
     }
   }
 
