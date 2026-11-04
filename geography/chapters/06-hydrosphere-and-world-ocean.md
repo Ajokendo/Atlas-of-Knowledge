@@ -84,7 +84,7 @@
 - Южный;
 - Северный Ледовитый.
 
-Южный океан выделяется вокруг Антарктиды; его северная граница в современной международной практике обычно связывается с широтой около 60° ю. ш., хотя в разных картах и источниках подходы могут различаться.
+Южный океан выделяется вокруг Антарктиды; его северную границу часто проводят по параллели 60° ю. ш. Однако это разграничение не является универсально утверждённой границей IHO: действующая официальная публикация IHO S-23 «Limits of Oceans and Seas» датирована 1953 годом и не включает Южный океан, а проект четвёртого издания S-23 2002 года остался рабочим документом и не был утверждён. Поэтому при работе с картами необходимо указывать принятую классификацию и источник границы.
 
 ### Площадь и глубина / Area and Depth
 
@@ -523,7 +523,7 @@ The cycle operates at different scales:
 
 The world ocean is a continuous water system, although it is traditionally divided into individual oceans and seas. Boundaries between oceans are conventional and depend on geographical and hydrographic traditions.
 
-A widely used modern classification recognises five oceans: the Pacific, Atlantic, Indian, Southern and Arctic oceans. The Southern Ocean surrounds Antarctica; in current international practice its northern boundary is generally associated with about 60° S, although maps and sources may differ.
+Many modern educational and scientific sources recognise five oceans: the Pacific, Atlantic, Indian, Southern and Arctic. The Southern Ocean surrounds Antarctica, and its northern boundary is often drawn at 60° S. However, this is not a universally adopted IHO boundary: the current official IHO publication S-23, *Limits of Oceans and Seas*, dates from 1953 and does not include the Southern Ocean, while the 2002 draft of the fourth edition remained a working document and was not approved. Maps should therefore identify the classification and boundary source used.
 
 The Pacific is the largest ocean and one of the deepest on average. The Atlantic has a complex system of mid-ocean ridges and marginal seas. The northern Indian Ocean is strongly influenced by monsoon seasonality. The Southern Ocean plays an important role in global water circulation. The Arctic is the smallest and comparatively shallowest ocean.
 
@@ -744,6 +744,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 2. USGS Water Science School. *Water Basics Information by Topic*. https://www.usgs.gov/water-science-school/science/water-basics-information-topic
 3. NOAA National Ocean Service. *Ocean Facts*. https://oceanservice.noaa.gov/facts/
 4. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
+3a. International Hydrographic Organization. **S-23, Limits of Oceans and Seas, Draft 4th Edition (2002)** — explicitly marked by IHO as a working document only; it was not approved. https://legacy.iho.int/mtg_docs/com_wg/S-23WG/S-23WG_Misc/Draft_2002/Draft_2002.htm
 5. International Hydrographic Organization (IHO). **Standards and Specifications** — relevant publications listed in the current IHO catalogue: S-23 *Limits of Oceans and Seas* (1953); S-44 *Standards for Hydrographic Surveys*, Edition 6.2.0 (October 2024); S-102 *Bathymetric Surface Product Specification*, Edition 3.0.0 (December 2024); and S-100 *Universal Hydrographic Data Model*, Edition 5.2.1 (December 2025). Check the catalogue for later revisions before using these standards in a formal hydrographic product. https://iho.int/en/standards-and-specifications
 6. National Snow and Ice Data Center (NSIDC). *Glaciers*. https://nsidc.org/learn/parts-cryosphere/glaciers
 7. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). *The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties*. IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
