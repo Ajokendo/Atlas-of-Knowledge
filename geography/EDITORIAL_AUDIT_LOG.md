@@ -1905,3 +1905,13 @@ Continued the separate source/evidence workstream with a targeted pass over Chap
 - Readiness matrix: `0bee0db9c487683aaeb40c4ce4632f30f3483d75`.
 - Visual asset register: `424bb515c4454fb7b04cfe435e1bb2f17ba549c3`.
 - Geography README: `c0c46e106b04db55bb736fd7bed49a778e17a28d`.
+
+
+### English parity follow-up — Chapter 02 worked example and feedback analysis — 4 November 2026
+
+- Added the missing English-language equivalents of Russian subsections 2.14.2 and 2.14.3: the worked example on vegetation change in a mountain catchment, the paired possible system responses and measurement table, the caution against inferring flood change from forest area alone, the feedback-recognition explanation, and the snow–albedo activity.
+- Added the explicit English subsection heading 2.14.1 for Planetary Boundaries so the 2.14.1–2.14.3 sequence matches the Russian chapter.
+- The numerical example is preserved in both languages: forest area changes from 6 to 4 km², a 2 km² decrease or approximately 33% of the initial forest area.
+- Chapter 02 remains at **90% working readiness**. The remaining percentage is reserved for final sentence-by-sentence scientific and bilingual copy-edit, final dated-value/source checks, and live rendering/accessibility tests; the English text additions do not by themselves close those release checks.
+- Chapter file commit: `854d312c0bd7b3d2785257fd6307ca87b61f4228`.
+- Readiness matrix commit: `9ccd17c12bd4a0e2cc067427878f2e363cae74b8`.
