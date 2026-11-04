@@ -184,7 +184,11 @@
 
 Влажность характеризует содержание водяного пара в воздухе. Важные показатели — абсолютная влажность, удельная влажность, парциальное давление водяного пара и относительная влажность.
 
-**Относительная влажность** — отношение фактического содержания водяного пара к максимально возможному при данной температуре, выраженное в процентах. При охлаждении воздуха до точки росы может начаться конденсация.
+**Относительная влажность** показывает, насколько воздух близок к насыщению водяным паром. Её определяют как отношение фактического парциального давления водяного пара к давлению насыщенного пара при той же температуре, выраженное в процентах:
+
+`Относительная влажность = (фактическое давление пара / давление насыщенного пара) × 100 %`
+
+Относительная влажность зависит и от количества водяного пара, и от температуры: при неизменном содержании влаги охлаждение воздуха обычно повышает относительную влажность. При достижении точки росы воздух становится насыщенным, и при подходящих условиях начинается конденсация.
 
 ### 5.7.1. Образование облаков / Cloud Formation
 
@@ -710,7 +714,11 @@ Planetary and seasonal winds include:
 
 Humidity describes the amount of water vapour in the air. Important measures include absolute humidity, specific humidity, water-vapour partial pressure and relative humidity.
 
-**Relative humidity** is the ratio of the actual amount of water vapour to the maximum possible amount at a given temperature, expressed as a percentage. When air cools to its dew point, condensation may begin.
+**Relative humidity** describes how close air is to saturation with water vapour. It is the ratio of the actual water-vapour partial pressure to the saturation vapour pressure at the same temperature, expressed as a percentage:
+
+`Relative humidity = (actual vapour pressure / saturation vapour pressure) × 100%`
+
+Relative humidity depends on both the amount of water vapour and temperature: if moisture content stays constant, cooling the air usually raises relative humidity. At the dew point, the air becomes saturated and condensation can begin when conditions are suitable.
 
 Clouds form when moist air cools to saturation and water vapour condenses on aerosol particles known as condensation nuclei. Air may rise through convection, frontal interactions between air masses or forced uplift over relief.
 
