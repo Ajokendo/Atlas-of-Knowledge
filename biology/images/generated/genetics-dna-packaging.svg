@@ -14,8 +14,8 @@
 <path d="M100 202 C130 234 160 234 190 202 S250 170 280 202 S340 234 370 202 S430 170 460 202" class="dna2"/>
 <g class="thin"><path d="M119 185L119 219M148 178L148 226M178 189L178 215M208 215L208 189M238 226L238 178M268 215L268 189M298 189L298 215M328 178L328 226M358 189L358 215M388 215L388 189M418 226L418 178M448 215L448 189"/></g>
 <text x="520" y="207" class="label">≈ 2 nm</text>
-<text x="520" y="235" class="small">Две комплементарные цепи / Two complementary strands</text>
-<text x="870" y="194" class="tiny">ДНК — двойная спираль</text><text x="870" y="213" class="tiny">с диаметром около 2 нм</text><text x="870" y="232" class="tiny">DNA double helix, about 2 nm wide</text>
+<text x="520" y="230" class="tiny">Две комплементарные цепи</text><text x="520" y="250" class="tiny">Two complementary strands</text>
+<text x="900" y="194" class="tiny">ДНК — двойная спираль</text><text x="900" y="212" class="tiny">около 2 нм в диаметре</text><text x="900" y="230" class="tiny">DNA double helix, about 2 nm wide</text>
 </g>
 <g>
 <rect x="55" y="300" width="1090" height="155" rx="16" class="panel"/>
@@ -26,7 +26,7 @@
 <text x="520" y="382" class="label">≈ 10–11 nm</text>
 <text x="520" y="410" class="small">ДНК обёрнута вокруг гистонового октамера</text>
 <text x="520" y="432" class="small">DNA wraps around a histone octamer</text>
-<text x="870" y="372" class="tiny">Около 147 пар оснований</text><text x="870" y="390" class="tiny">ДНК на ≈1,7 витка вокруг</text><text x="870" y="408" class="tiny">ядра гистонов</text><text x="870" y="426" class="tiny">About 147 bp, roughly 1.7 turns</text>
+<text x="900" y="372" class="tiny">Около 147 пар оснований</text><text x="900" y="390" class="tiny">ДНК на ≈1,7 витка</text><text x="900" y="408" class="tiny">вокруг ядра гистонов</text><text x="900" y="426" class="tiny">About 147 bp; roughly 1.7 turns</text>
 </g>
 <g>
 <rect x="55" y="480" width="1090" height="155" rx="16" class="panel"/>
@@ -35,8 +35,8 @@
 <path d="M115 575 C150 545 180 605 215 575 S280 545 315 575 S380 605 415 575 S480 545 515 575" stroke="#b17a3c" stroke-width="3" fill="none" stroke-dasharray="7 5"/>
 <g fill="#dce7d8" stroke="#557c58" stroke-width="2"><circle cx="180" cy="575" r="10"/><circle cx="315" cy="575" r="10"/><circle cx="450" cy="575" r="10"/></g>
 <text x="560" y="558" class="label" style="font-size:18px">Более высокий уровень упаковки</text>
-<text x="560" y="590" class="small">Нуклеосомная нить образует петли и домены,</text>
-<text x="560" y="614" class="small">связанные с белками каркаса / The nucleosome fibre forms loops and domains</text>
+<text x="560" y="590" class="tiny">Нуклеосомная нить образует петли и домены</text>
+<text x="560" y="610" class="tiny">Loops and domains are associated with scaffold proteins</text>
 <text x="950" y="552" class="tiny">Не одна обязательная</text><text x="950" y="570" class="tiny">«30-нм спираль»:</text><text x="950" y="588" class="tiny">укладка динамична</text><text x="950" y="606" class="tiny">и зависит от контекста</text><text x="950" y="624" class="tiny">Context-dependent</text>
 </g>
 <g>
