@@ -602,8 +602,6 @@ For describing current conditions, the latest standard normal (1991–2020) is g
 
 **[МЕСТО ДЛЯ ИЛЛЮСТРАЦИИ 5.18-A / VISUAL PLACEHOLDER — ВСТАВИТЬ ПОСЛЕ СОЗДАНИЯ]**  
 **5.18-A. Синоптическая карта и климатический анализ / Synoptic Map and Climate Analysis.** Вставить двуязычную учебную инфографику: синоптическая карта с замкнутыми изобарами и значениями давления в гПа, центрами циклона и антициклона, холодным и тёплым фронтами с корректными условными знаками, направлением ветра и станционными символами; ниже — две климатограммы с месячными осадками (мм) и температурой (°C). Все данные должны быть явно обозначены как условные учебные данные; карта не является оперативной сводкой и не предназначена для прогноза реальной погоды.  
-**[VISUAL INSERTION POINT 5.18-A / INSERT AFTER CREATION]**  
-**5.18-A. Synoptic Map and Climate Analysis.** Insert the bilingual teaching infographic: a synoptic chart with closed isobars and pressure values in hPa, cyclone and anticyclone centres, correctly coded cold and warm fronts, wind direction and station models; below it, two climate graphs showing monthly precipitation (mm) and temperature (°C). Clearly label all data as synthetic teaching data; the chart is not an operational bulletin and must not be used to forecast actual weather.
 
 ## English-language chapter text
 
