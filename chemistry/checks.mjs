@@ -819,6 +819,20 @@ if (!imageAudit.includes("10 FOUND / 19 searched") ||
   errors.push("IMAGE_AUDIT.md: current search and coverage metrics are inconsistent or missing");
 }
 
+
+const captionAtomic = fs.readFileSync(path.join(root, 'chapters', 'atomic-structure.html'), 'utf8');
+const captionReactions = fs.readFileSync(path.join(root, 'chapters', 'chemical-reactions.html'), 'utf8');
+const captionLife = fs.readFileSync(path.join(root, 'chapters', 'chemistry-of-life.html'), 'utf8');
+const captionHome = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+if (!captionAtomic.includes('id="electronCloudCaption" class="caption" data-t="electronCloudCaption"') ||
+    !captionReactions.includes('data-i="reactionImageCaption"') ||
+    !captionReactions.includes('"reactionImageCaption":"Schematic atom rearrangement:') ||
+    !captionLife.includes('data-i="carbonCycleCaption"') ||
+    !captionHome.includes('data-i18n="heroImageCaption"') ||
+    !captionHome.includes('heroImageCaption:"Schematic probability cloud')) {
+  errors.push('IMAGE-FIRST: meaningful static and hero visuals need bilingual learner-facing captions');
+}
+
 const periodicTablePath = path.join(root, "periodic-table.html");
 if (fs.existsSync(periodicTablePath)) {
   const periodicTableSource = fs.readFileSync(periodicTablePath, "utf8");
