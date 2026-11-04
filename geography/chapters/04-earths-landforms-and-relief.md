@@ -121,7 +121,11 @@
 
 Высокая абсолютная отметка не всегда означает большую относительную крутизну или расчленённость. Для анализа горного рельефа нужны оба показателя.
 
-**Место для иллюстрации 4.4-A — Anatomy of a Mountain Landscape.** Панорамный горный профиль с вершиной, гребнем, перевалом, склонами, долиной и относительными высотами.
+**Иллюстрация 4.4-A — Анатомия горного ландшафта / Anatomy of a Mountain Landscape.**
+
+![Двуязычный профиль горного ландшафта с вершиной, гребнем, перевалом, склоном, долиной, подножием и относительным превышением. / Bilingual mountain profile showing summit, ridge, pass, slope, valley, mountain foot and local relief.](../assets/04-4-A-mountain-landscape-bilingual.svg)
+
+*Концептуальный профиль без заданных высот; он показывает взаимное положение форм, а не конкретную горную систему. / Conceptual profile with no specified elevations; it shows relationships among landforms, not a specific mountain range.*
 
 ## 4.5. Равнины, низменности и плато / Plains, Lowlands and Plateaus
 
@@ -522,6 +526,12 @@ In reality, many mountain systems have complex structures and combine several fo
 
 
 Parts of mountain relief include a **summit** (the highest point of a mountain or massif), a **ridge** (an elongated elevated feature), a **mountain range** (an extended system of peaks and slopes), a **mountain pass** (a low point in a ridge that permits passage across mountains), a **slope**, a **foot** and an **intermontane basin**.
+
+**Illustration 4.4-A — Anatomy of a Mountain Landscape.**
+
+![Bilingual mountain profile showing summit, ridge, pass, slope, valley, mountain foot and local relief. / Двуязычный профиль горного ландшафта с вершиной, гребнем, перевалом, склоном, долиной, подножием и относительным превышением.](../assets/04-4-A-mountain-landscape-bilingual.svg)
+
+*Conceptual profile with no specified elevations; it shows relationships among landforms, not a specific mountain range. / Концептуальный профиль без заданных высот; он показывает взаимное положение форм, а не конкретную горную систему.*
 
 #### 4.4.3. Elevation and Local Relief
 
