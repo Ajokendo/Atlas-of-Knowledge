@@ -239,6 +239,8 @@ This is a unit conversion, not a method for independently drawing a legally vali
 
 Источники данных могут включать официальные статистические службы, государственные геопорталы, международные организации, открытые картографические проекты и научные исследования. Каждый источник требует проверки точности, даты, лицензии, методики и полноты охвата.
 
+Международные статистические классификации, например стандарт ООН M49, группируют страны и территории для статистических публикаций и сопоставлений. Они не устанавливают суверенитет, государственность, международное признание или юридическое прохождение государственной границы.
+
 Особое внимание следует уделять:
 - несовпадению границ статистических и административных единиц;
 - изменению границ во времени;
@@ -441,6 +443,8 @@ Colouring an area may create the impression of a single status even when its leg
 Geographic information systems can combine administrative boundaries, population, infrastructure, natural resources, election results and service-access data. Spatial analysis helps identify regional differences, assess transport accessibility, model service areas and study the consequences of administrative reforms.
 
 Data sources may include official statistical services, government geoportals, international organisations, open mapping projects and scientific research. Every source requires checking for accuracy, date, licence, methodology and coverage.
+
+International statistical classifications, such as the UN M49 standard, group countries and areas for statistical publication and comparison. They do not determine sovereignty, statehood, international recognition or the legal course of a state boundary.
 
 Particular attention should be paid to differences between statistical and administrative boundaries; boundary changes over time; spatial aggregation and the ecological fallacy; incomplete data in remote regions; personal-data protection; and political neutrality in classifications and visualisations.
 
