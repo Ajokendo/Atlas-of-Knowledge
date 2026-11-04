@@ -3,6 +3,7 @@
 **Canonical standard:** [IMAGE-FIRST POLICY v1.0](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
 **Branch:** `workspace/chemistry`  
 **Audit date:** 2026-11-05  
+**Policy version:** IMAGE-FIRST POLICY v1.0  
 **Scope of this checkpoint:** all 22 existing static SVG files (11 RU/EN pairs), their chapter integrations, and four identified interactive visual systems. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification. The repository does not contain a historical search log proving that ready-made licensed sources were considered before these project SVGs were created; compliance with the search-first sequence for past assets remains PENDING.
 
 ## Audit method
@@ -19,16 +20,16 @@ Use the canonical policy for status definitions, audit result values, evidence r
 | Static visuals integrated | 11 / 11 | All inventoried static visual pairs are used on the landing page or in a chapter |
 | Provisional static Image Coverage | 11 / 11 = 100% | **Only for the 11 currently inventoried static visual topics; not a claim that every chapter has all required visuals** |
 | Static Image Verification | 0 / 11 = 0% VERIFIED | All 11 pairs still lack file-specific creator/rightsholder and licence confirmation |
-| Static Image Gaps | 0 confirmed; 1 editorial decision pending | Chapter 01 has two inline SVG models; decide whether chapter 03 needs a separate periodic-trend diagram beyond its interactive periodic table. Full visual-need sign-off remains pending |
+| Static Image Gaps | Not yet fully determined | Chapter 01 electron-cloud figure is on the landing page, not confirmed in the chapter; chapter 03 needs a documented decision on whether a static periodic-trends visual adds learning value. The complete visual-need matrix is still pending |
 | Category A — external original reuse | 0 | No external image-source records established |
 | Category B — adapted external reuse | 0 | No external adapted image-source records established |
 | Category C — project-created SVG pairs | 11 | Provenance method and rightsholder still need confirmation |
-| Licence checks | 0 PASS / 11 PENDING | No file-specific licence evidence currently recorded |
+| Search-first evidence | 0 / 15 documented searches | No historical search log exists; retrospective searches for all 15 visual records remain PENDING and must not be backdated |\n| Rights / licence checks | 0 PASS / 15 PENDING | File-specific creator/rightsholder and licence evidence is not recorded for the 11 SVG pairs or four interactive systems |
 | Scientific first-pass checks | 10 PASS / 1 PENDING | See detailed table; first-pass source-code review only |
-| RU/EN technical content checks | 11 PASS / 0 FAIL | Paired files and localized titles/descriptions exist; independent translation review remains pending |
-| Technical source checks | 22 PASS for basic SVG metadata | CI checks viewBox, role, title, description and local asset paths; responsive/device review remains pending |
+| RU/EN metadata presence | 11 PASS / 0 FAIL | Paired SVG files and localized title/description elements exist; this is not a complete translation-quality or manual accessibility review |
+| Technical source checks | 22 PASS for basic SVG metadata | CI checks viewBox, role, title, description and local asset paths; responsive/device review remains pending. Four interactive systems still need manual keyboard, zoom and screen-reader checks |
 
-**Important:** the provisional 100% static coverage ratio uses only the 11 static visual topics already present in the repository. It must not be reported as 100% chapter visual readiness. The atlas has 12 curriculum chapters; the full required-visual plan needs a chapter-by-chapter editorial decision. Licence verification is currently 0%, so the static set is **not publication-verified**.
+**Important:** the 11/11 ratio measures only whether the currently inventoried static topics exist and are integrated. It is not a measure of curriculum visual coverage or readiness. A learning-purpose and visual-need decision is still required for every chapter. Search-first evidence is 0/15, and rights verification is 0/15; none of the visual records may be described as VERIFIED or publication-ready.
 
 ## Static visual audit register
 
@@ -72,14 +73,32 @@ Use the canonical policy for status definitions, audit result values, evidence r
 | 11 Organic chemistry | Functional-group figure | INTEGRATED | Specify primary amine for R–NH₂ |
 | 12 Chemistry of life and environment | Biomolecule overview and carbon-cycle figures | INTEGRATED | Keep |
 
+## Chapter-level learning-need sign-off
+
+This is a first-pass map of the currently identified visual need, not a final declaration that the chapter has every visual it requires. “Present” means a visual exists in the source; it does not mean it has passed rights, science, accessibility or manual display checks.
+
+| Chapter | Learning need / visual role | Existing evidence | Decision / status |
+|---|---|---|---|
+| 01 Atomic structure | Distinguish nucleus, electron probability distribution and subatomic particles; explain model limits | Two inline interactive SVGs; electron-cloud SVG currently on landing page | PENDING — confirm whether the electron-cloud figure should also appear in the chapter; review shell model wording and scale claims |
+| 02 Chemical elements | Compare isotopes and explain weighted atomic mass | Carbon isotope SVG pair | INTEGRATED — science first-pass PASS; search and rights PENDING |
+| 03 Periodic system | Relate element position to groups, periods and periodic trends | Interactive periodic table | PENDING — decide whether a dedicated trend diagram is needed; assess table as a usable visual alternative and text equivalent |
+| 04 Chemical bonding | Compare ionic, covalent and metallic bonding without presenting models as literal structure | Three inline interactive SVG models | INTEGRATED — model limitations are described in page text; manual accessibility and rights review PENDING |
+| 05 Amount of substance | Connect mole, Avogadro constant and molar mass | One-mole SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
+| 06 Chemical formulae | Read subscripts, brackets and coefficients | Formula-reading SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
+| 07 Solutions | Compare unsaturated, saturated and metastable supersaturated states | Solution saturation SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
+| 08 Acids and bases | Explain neutralisation and titration equivalence | Neutralisation SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
+| 09 Chemical reactions | Show atom conservation and bond rearrangement | Reaction schematic SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
+| 10 Redox | Trace oxidation, reduction and electron/ion movement in a galvanic cell | Daniell cell SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
+| 11 Organic chemistry | Recognise major functional groups and avoid overgeneralising R–NH₂ | Functional-groups SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
+| 12 Chemistry of life and environment | Compare biomolecule classes and explain major carbon reservoirs/flows | Biomolecule and carbon-cycle SVG pairs | INTEGRATED — first-pass science PASS; search and rights PENDING |
+
 ## Required follow-up before VERIFIED / publication-ready
 
-1. Confirm creator, authoring method and rightsholder for every project-created SVG and interactive visual.
-2. Establish the explicit licence for these assets and add the actual licence link/text. Do not infer permission from repository presence.
-3. Complete chapter-by-chapter visual-need sign-off; decide on the two provisional gaps above.
-4. Resolve the scientific wording items in CH-V03 and CH-V09.
-5. Perform manual visual inspection at phone/tablet/desktop widths, zoom/reflow, keyboard and screen-reader checks. CI does not establish these.
-6. Re-run the full Chemistry CI after the fixes and update the metrics with actual results.
+1. Perform the dated retrospective image-first searches for all 15 visual records and record candidates, exact source pages, file-specific rights evidence and selection/rejection decisions.
+2. Confirm creator, authoring method, rightsholder and explicit licence or code/data rights basis for every project-created visual.
+3. Complete the chapter-level learning-need sign-off, especially the Chapter 01 electron-cloud placement and Chapter 03 periodic-trend visual decision.
+4. Perform manual inspection at phone/tablet/desktop widths, zoom/reflow, keyboard and screen-reader checks. CI does not establish these.
+5. Re-run Chemistry CI after the register and checks changes; update metrics only from actual results.
 
 ## Automation boundary
 
