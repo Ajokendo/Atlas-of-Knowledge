@@ -1384,3 +1384,8 @@ Added an original bilingual cell-cycle SVG at `images/generated/cell-cycle.svg` 
 ## Ecology cycles visual checkpoint — 4 November 2026
 
 Created and integrated `images/generated/ecology-cycles.svg` at the original `image-brief-ecology-cycles` anchor in `chapters/ecology.html`. The bilingual infographic presents simplified carbon and nitrogen cycles and distinguishes carbon transfer from microbial nitrogen transformations. Updated the insertion map, disposition register and production plan. The visual programme now records **31 of 53 briefs produced or integrated (58.5%)**, including 15 local WebP photographs and 20 original SVG schematics. Focused browser image-decode QA and scientific review of the new plate remain pending.
+
+
+## Ecology mountain catchment visual checkpoint — 4 November 2026
+
+Created and integrated the original bilingual-accessible SVG `images/generated/ecology-mountain.svg` at the existing `image-brief-ecology-mountain` anchor in `chapters/ecology.html`. The generalized landscape links glacier melt and surface runoff with stream channels, soil infiltration, subsurface flow, vegetation roots and river-valley habitats. It contains no named species, fixed elevation labels or claim that vegetation belts occur at identical elevations on every slope. The visual register now records **32 of 53 briefs produced or integrated (60.4%)**: 15 locally packaged WebP photographs and 21 original SVG schematics. Focused browser image-decode QA is pending.
