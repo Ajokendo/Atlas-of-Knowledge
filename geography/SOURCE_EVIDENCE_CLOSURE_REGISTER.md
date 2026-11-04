@@ -474,3 +474,8 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Extended the geographic-scope clarification to GBF Target 2: the 30% restoration objective is global and applies to degraded ecosystem areas, not an automatic requirement to restore 30% of each country's total territory. RU/EN wording now distinguishes Targets 2 and 3 clearly. Commit: `d8892146b1d3d58a8bcd6bfc4e9c46d18a08802e`.
+
+
+### Chapter 09 — WUP 2025 Degree of Urbanization thresholds — 5 November 2026
+
+- Added the exact level-1 thresholds to both language versions: cities use contiguous 1 km² cells at ≥1,500 people/km² and cluster population ≥50,000; towns and semi-dense areas use ≥300 people/km² and cluster population ≥5,000; remaining cells are rural. Clarified that these are WUP 2025 international statistical thresholds, not national legal definitions, and that level 2 adds detail. Checked against the WUP 2025 methodology report. Commit: `e459800f4a7d7aa04a0cc9659b93048136858ca7`.
