@@ -318,7 +318,7 @@ export function startBook(chapter) {
       // Defer focus until that browser interaction has fully completed.
       setTimeout(() => {
         if (!plate.hidden) plate.querySelector('#scene-plate-title')?.focus();
-      }, 50);
+      }, 250);
     }
   }
 
