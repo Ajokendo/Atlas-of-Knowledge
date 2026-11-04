@@ -762,10 +762,12 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 15. United Nations Environment Programme. *Beat Nitrogen Pollution: The Science*. https://www.unep.org/interactives/beat-nitrogen-pollution/
 16. University of Missouri Extension. *Nitrogen in the Environment: Nitrogen Cycle* (reviewed November 2022). https://extension.missouri.edu/publications/wq252
 17. The Open University. *Eutrophication: Phosphorus*. https://www.open.edu/openlearn/nature-environment/environmental-studies/eutrophication/content-section-3.1.1
+18. National Oceanic and Atmospheric Administration. *The Atmosphere* (chemical composition of dry air; table excludes water vapour). https://www.noaa.gov/jetstream/atmosphere
+19. U.S. Geological Survey. *Understanding Plate Motions* (This Dynamic Earth; divergent, convergent and transform boundaries). https://pubs.usgs.gov/gip/dynamic/understanding.html
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
-Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12) — вертикальную структуру и состав атмосферы; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
+Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
 
 ## Редакционные и научные примечания
 
