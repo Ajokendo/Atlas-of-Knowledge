@@ -282,3 +282,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — demographic-rate denominator consistency — 5 November 2026
 
 - Harmonised RU/EN notation and wording for annual demographic rates, using mid-year population as the commonly used approximation to average annual population and retaining a source-method caveat. Updated examples and practical task wording. Commit: `5c1bfc245381922f300ed1758618f7ddf75919d0`.
+
+
+### Chapter 06 — global water-share distinction corrected — 5 November 2026
+
+- Corrected the bilingual statement to distinguish ocean and sea water (~96.5% of total) from all saline reservoirs combined (~97.5%, including saline groundwater and lakes); freshwater remains ~2.5%. Verified against the direct USGS distribution table. Commit: `1d91a7bc57da482095fb0f5541a6ea1387bcc316`.
