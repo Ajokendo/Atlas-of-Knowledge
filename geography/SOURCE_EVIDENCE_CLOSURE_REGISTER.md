@@ -365,3 +365,8 @@ The numerical teaching examples in the five chapters were independently recomput
 | 10 | 12 × 1.852; 200 × 1.852; 9,600/13,000 | 22.224 km; 370.4 km; 73.8% weighted regional turnout (not the unweighted 70%) |
 
 All population and election examples are explicitly hypothetical; they are not presented as current country statistics. The calculation continuity defect in Chapter 06 was corrected separately (commit `3c2f61d1cca4add4f68974f7ca18edc374b2a23f`).
+
+
+### Chapter 06 — exact global water-distribution source — 5 November 2026
+
+- Added the direct USGS *How Much Water Is There on Earth?* page for the 1.386 billion km³ estimate and the rounded distribution of global water. The page explicitly identifies the figures as estimates and traces the underlying distribution table to published global water-resource estimates. The broader USGS Water Science School portal remains as a separate general reference. Commit: `e4c03dd3c16379cc32f3b113d94e4d659782551e`; bibliography numbering was normalized and checked in commit `a25f6b5d9fc3ea7ad83733fdfea3565935e254be`.
