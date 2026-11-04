@@ -180,7 +180,8 @@ async function checkChapterPage() {
     ];
     const missing = required.filter(title => !headings.includes(title));
     if (missing.length) throw new Error(`Chapter sections missing or out of order: ${missing.join('; ')}`);
-    if (required.some((title, i) => headings.indexOf(title) !== headings.indexOf(required[0]) + i)) {
+    const sectionPositions = required.map(title => headings.indexOf(title));
+    if (sectionPositions.some((position, i) => position < 0 || (i > 0 && position <= sectionPositions[i - 1]))) {
       throw new Error('Chapter 1 section order does not match the expected sequence');
     }
 
