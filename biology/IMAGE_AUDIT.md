@@ -248,3 +248,19 @@ For each image element, the adjacent caption region was checked for:
 **Result: 15/15 passed this structural markup check; no missing alt, language pair, Commons source link or rights label was found.** The asset manifests independently record source authors, exact licence labels, original dimensions and byte counts, original SHA-1 comparisons, derivative WebP checksums and conversion details.
 
 This is source-level markup and provenance-record verification. It does not constitute a fresh pixel-by-pixel visual review of all 15 binaries, legal advice on licence compatibility, or independent taxonomic certification. The unresolved Rufous-naped Tit candidates remain excluded and are not among the 15 integrated photographs. Global Image Verification remains **Pending audit** until the remaining asset-specific visual and scientific gates are documented.
+
+
+## Deferred optional freshwater infographic marker and SVG accessibility batch — 5 November 2026
+
+The requested optional enhanced freshwater-fauna infographic could not be generated because image-generation capacity is unavailable. A source comment marker and `data-image-followup="optional-enhanced-illustration-deferred"` attribute were added to the existing `image-brief-fauna-freshwater` figure in `chapters/fauna-kyrgyzstan.html` (commit `771f9f7`). The already integrated original `fauna-freshwater-habitats.svg` remains active; it was not removed or falsely marked missing. Its current composition already separates Issyk-Kul littoral habitat from a mountain stream and uses generic, unlabelled fish silhouettes.
+
+A further ten SVG source files were inspected: `cell-animal.svg`, `cell-cycle.svg`, `cell-mitosis.svg`, `evolution-homology.svg`, `fauna-habitats.svg`, `fauna-invertebrates.svg`, `fauna-herps-habitats.svg`, `fauna-mammals-habitat-reconstruction.svg`, `fauna-batken-dry-highland-habitats.svg` and `fauna-osh-southern-habitats.svg`.
+
+Three accessibility metadata gaps were corrected:
+- `fauna-habitats.svg`: added a Russian counterpart to the English-only `<desc>`.
+- `fauna-herps-habitats.svg`: made both the title and description bilingual.
+- `fauna-mammals-habitat-reconstruction.svg`: made both the title and description bilingual and clarified that the three mammals are shown in separate habitats, not as co-occurring at one site.
+
+Other checked concepts included animal-cell organelles and not-to-scale caveat; G1/S/G2/M sequence and checkpoints; distinction between mitosis and cytokinesis; homologous forelimbs versus analogous bird/insect wings; insect versus arachnid body plans; and the bounded 2026 Batken marmot survey figure (4,146 recorded, not a permanent population estimate). No additional scientific correction was made where source markup already conveyed the necessary distinction.
+
+These were source-markup checks, not rendered visual QA. Global Image Verification remains **Pending audit**.
