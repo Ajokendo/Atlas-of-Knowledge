@@ -89,10 +89,10 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Alt RU: Столбчатая диаграмма трёх значений энергии, пересчитываемых при изменении массы, скорости и высоты
 - Alt EN: Bar chart of three energy values recalculated when mass, speed and height change
 - Modified: No external asset; generated dynamically from the chapter's equations
-- Scientific review: Formula-based; automated browser/interaction verification pending
+- Scientific review: Formula-based; browser smoke confirmed live recalculation, chart rendering and slider interaction on desktop and mobile.
 - Rights review: No third-party image rights involved; repository MIT licence applies and attribution notice must be retained
 - Integration: Interactive model in `chapters/work-energy.html`
-- Mobile check: Pending CI responsive check
+- Mobile check: Verified in GitHub Actions on 2026-11-04 at 390×844; the canvas chart / WebGL scene rendered without horizontal page overflow.
 
 ### Chapter 04 — Three-dimensional energy scene
 - Chapter: 04 — Work and Energy
@@ -111,6 +111,6 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Scientific review: Conceptual model; the phase slider moves the sphere down the incline and updates Eп/m = gh. It illustrates the height dependence of potential energy, not a complete quantitative energy-conservation simulation
 - Rights review: No third-party image rights involved; repository MIT licence applies and attribution notice must be retained
 - Integration: Shared 3D laboratory component in `chapters/work-energy.html`
-- Mobile check: Pending CI responsive check
+- Mobile check: Verified in GitHub Actions on 2026-11-04 at 390×844; the canvas chart / WebGL scene rendered without horizontal page overflow.
 
 No third-party external image is currently claimed as integrated for Chapter 04. External imagery was not added because the original vector diagram, equation-driven plot and interactive scene directly address the chapter's visual learning objectives. These are counted separately as authored/code-generated visuals, not as found internet images.
