@@ -406,3 +406,12 @@ The current `geography/visuals/` directory contains eight SVG assets plus the Ch
 - No asset is promoted to VERIFIED by this scan.
 - The earlier Chapter 09 discrepancy is resolved at the chapter-file level; the overall inventory discrepancy and Chapter 05 mapping remain open.
 - Progress percentage is intentionally withheld until the complete ID list and per-asset evidence are reconciled; counting Markdown embeds would overstate completed visual work.
+
+
+### 7.5 Chapter 05 local SVG and alt-text spot check
+
+The eight SVG files currently present in `geography/visuals/` were fetched from the working branch and checked for basic embedded accessibility metadata. All eight contain an SVG `viewBox`, `role="img"`, `aria-labelledby`, a `<title>` and a `<desc>`. This is a positive static structural check, not a full accessibility pass: title/description quality, reading order, contrast, small-screen legibility and screen-reader output still require content-level and rendered review.
+
+The Chapter 05 Markdown contains 37 image embeds; all 37 have non-empty Markdown alt text. Chapters 18, 19 and 20 contain respectively 1, 1 and 2 local SVG embeds, and all four have non-empty bilingual alt text. These checks establish that alt text is present, not that every alternative is sufficiently descriptive or equivalent in both languages.
+
+**Chapter 05 current evidence state:** local SVG metadata = structural PASS; non-empty Markdown alt text = structural PASS; full scientific review, exact ID-to-asset mapping, rights/source verification for every embedded external image, bilingual semantic equivalence and deployed rendering/accessibility = PENDING.
