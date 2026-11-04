@@ -576,7 +576,7 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 
 1. Чем почва отличается от материнской горной породы?
 2. Какие факторы почвообразования выделяет классическая модель?
-3. Что обозначают горизонты O, A, E, B, C и R?
+3. Что обозначают главные горизонты и слои H, O, A, E, B, C и R?
 4. Как гранулометрический состав влияет на водные свойства почвы?
 5. Чем засоление отличается от осолонцевания?
 6. Что такое элювиирование и иллювиирование?
@@ -636,7 +636,7 @@ Salinity thresholds also depend on the classification and measurement method. An
 
 1. How does soil differ from its parent rock?
 2. Which soil-forming factors are identified by the classical model?
-3. What do the O, A, E, B, C and R horizons represent?
+3. What do the H, O, A, E, B, C and R master horizons and layers represent?
 4. How does soil texture affect water properties?
 5. How does salinisation differ from sodification?
 6. What are eluviation and illuviation?
