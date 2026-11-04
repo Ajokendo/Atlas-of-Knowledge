@@ -1164,3 +1164,6 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Corrected bilingual `<desc>` metadata in `cell-animal.svg` and `zoology-adaptation.svg`; all 48 assets now have Russian/English `<title>` and `<desc>` content and a `viewBox` under the checked source patterns.
 - No embedded script, `foreignObject`, external/data URI reference or embedded raster `<image>` element was detected in this sweep.
 - This is a bounded source-pattern check, not full XML conformance validation, rendered visual QA, or device/screen-reader testing. Global Image Verification remains Pending audit.
+
+
+- Added a permanent `checks.mjs` regression guard for every generated SVG: bilingual title/description, root/viewBox/closing-tag structure, and no detected script, `foreignObject`, embedded raster image or external/data URI reference. This guard will apply to future SVG assets as well.
