@@ -176,3 +176,5 @@ The four additional SVG files in `geography/assets/` are referenced from Chapter
 - **Chapter 10:** clarified that cartographic generalisation on small-scale maps is not a legal boundary record; added a caution against inferring river/lake boundary status from current shorelines or satellite imagery.
 - **Progress remains 73% for each of Chapters 06–10.** This pass closes selected scientific/terminological points only. Visual assets remain scheduled for the next work session; complete claim-to-source mapping and final sentence-level RU/EN proofreading remain open. Browser/device/deployment QA remains separate.
 - Commit references: Chapters 06 `207f09f`, `93811b5`; 08 `f56dac3`; 09 `8f192a4`, `7a82a55`; 10 `468d576`; source register `fb1cb53`.
+
+- **Chapter 07 additional correction:** distinguished traditional climate/vegetation-based biome maps from the IUCN Global Ecosystem Typology's six-level, function-aware hierarchy; clarified that the frameworks complement but do not replace one another. Added the IUCN GET 2.0 reference. Commit: `15fa5a4`.
