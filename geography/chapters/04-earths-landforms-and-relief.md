@@ -299,7 +299,11 @@
 - **подводные горы (seamounts)** — изолированные возвышения морского дна, часто вулканического происхождения;
 - вулканические плато — обширные подводные поверхности, образованные накоплением лавы.
 
-**Место для иллюстрации 4.10-A — Coastal and Ocean-Floor Relief.** Два взаимосвязанных профиля: абразионное и аккумулятивное побережье с направлением вдольберегового переноса, косой, томболо и барьерным островом; шельф, склон, подножие, абиссальная равнина, срединно-океанический хребет, желоб и подводная гора.
+**Иллюстрация 4.10-A — Побережье и рельеф дна океана / Coastal and Ocean-Floor Relief.**
+
+![Условный профиль побережья и океанического дна с косой, томболо, барьерным островом, шельфом, материковым склоном, абиссальной равниной, хребтом и желобом. / Conceptual coastal and seafloor profile with spit, tombolo, barrier island, shelf, continental slope, abyssal plain, ridge and trench.](../assets/04-10-A-coastal-ocean-floor-bilingual.svg)
+
+*Схема не в масштабе; формы побережья зависят от волн, приливов, течений и поступления наносов. / Not to scale; coasts depend on waves, tides, currents and sediment supply.*
 
 ## 4.11. Склоновые процессы и денудация / Slope Processes and Denudation
 
@@ -372,7 +376,11 @@
 
 Важно различать высоту над уровнем моря, глубину относительно поверхности океана и глубину относительно геоида. Значения экстремумов должны сопровождаться датой и источником измерения.
 
-**Место для иллюстрации 4.13-A — Earth's Vertical Extremes.** Вертикальная шкала от высочайших вершин до глубочайших океанических впадин; показать разные оценки Челленджер-Дип за 2021 и 2026 годы, даты, методы и системы отсчёта.
+**Иллюстрация 4.13-A — Вертикальные крайности Земли / Earth's Vertical Extremes.**
+
+![Сопоставление высоты Эвереста и глубины Челленджер-Дип: оценка 2021 года и предпочтительная сеточная оценка 2026 года. / Comparison of Everest elevation and Challenger Deep depth: 2021 estimate and preferred 2026 gridded estimate.](../assets/04-13-A-earth-vertical-extremes-bilingual.svg)
+
+*Оценки глубины Челленджер-Дип зависят от метода, модели скорости звука, геометрии съёмки и вертикальной системы отсчёта; 10 927 м — предпочтительная сеточная оценка одного исследования 2026 года, а не окончательное универсальное значение. / Challenger Deep estimates depend on method, sound-speed model, survey geometry and vertical datum; 10,927 m is the preferred gridded estimate in one 2026 study, not a definitive universal value.*
 
 ## 4.14. Изучение и изображение рельефа / Mapping and Measuring Relief
 
@@ -487,7 +495,11 @@ DEM используют для расчёта уклонов, экспозиц�
 - проведите линию профиля и постройте вертикальный разрез, указав горизонтальный и вертикальный масштабы; если они различаются, обозначьте вертикальное преувеличение. Его коэффициент равен знаменателю горизонтального масштаба, делённому на знаменатель вертикального масштаба (например, 1:25 000 по горизонтали и 1:5 000 по вертикали дают преувеличение 5×);
 - определите участки с потенциально повышенной эрозионной или склоновой восприимчивостью. Не называйте результат картой риска без дополнительных данных о породах, осадках, растительности, землепользовании, населении и объектах.
 
-**Место для иллюстрации 4.15-B — Topographic Map Exercise.** Учебная карта с горизонталями и координатной сеткой, линией профиля, двумя участками измерения уклона, указанными горизонтальным и вертикальным масштабами, обозначенным вертикальным преувеличением при необходимости и отдельным листом ответов.
+**Иллюстрация 4.15-B — Упражнение по топографической карте / Topographic Map Exercise.**
+
+![Условная учебная карта с горизонталями, координатной сеткой и линией профиля A–B; заданы масштаб и интервал горизонталей. / Schematic teaching map with contours, coordinate grid and A–B profile; scale and contour interval are stated.](../assets/04-15-B-topographic-map-exercise-bilingual.svg)
+
+*Карта не предназначена для навигации; учащиеся измеряют расстояния по масштабу, строят профиль и рассчитывают уклон. / Not for navigation; students measure distances using the scale, draw a profile and calculate gradient.*
 
 ## English-language chapter text
 
@@ -701,7 +713,11 @@ Waves, currents, tides and sea-level changes reshape coasts. The outcome depends
 
 Major submarine features include the **continental shelf**, a relatively shallow submerged margin of a continent; the **continental slope**, a steeper descent towards the deep ocean; the **continental rise**, a sediment accumulation zone near the base of the slope (where present); **abyssal plains**, extensive deep-ocean areas with low gradients; **mid-ocean ridges**, long submarine mountain systems associated with the formation of new oceanic crust; **deep-sea trenches**, narrow deep depressions often associated with subduction; **seamounts**, isolated elevations on the ocean floor, often of volcanic origin; and **volcanic plateaus**, extensive submarine surfaces built by accumulated lava.
 
-**[ILLUSTRATION PLACEHOLDER 4.10-A]** Show coordinated erosional/depositional coastal profiles with longshore-drift arrows, a spit, tombolo and barrier island; add an ocean-basin cross-section with shelf, slope, rise, abyssal plain, mid-ocean ridge, trench and seamount.
+**Illustration 4.10-A — Coastal and Ocean-Floor Relief.**
+
+![Conceptual coastal and seafloor profile with spit, tombolo, barrier island, shelf, continental slope, abyssal plain, ridge and trench. / Условный профиль побережья и океанического дна с косой, томболо, барьерным островом, шельфом, материковым склоном, абиссальной равниной, хребтом и желобом.](../assets/04-10-A-coastal-ocean-floor-bilingual.svg)
+
+*Not to scale; coasts depend on waves, tides, currents and sediment supply. / Схема не в масштабе; формы побережья зависят от волн, приливов, течений и поступления наносов.*
 
 ### 4.11. Slope Processes and Denudation
 
@@ -776,7 +792,11 @@ Earth's relief includes both the highest mountain peaks and the deepest ocean tr
 
 Elevation above sea level, depth below the ocean surface and depth relative to the geoid are different measurements. Extreme values should be accompanied by a date and measurement source.
 
-**[ILLUSTRATION PLACEHOLDER 4.13-A]** Show an elevation/depth scale with Everest and Challenger Deep; distinguish the 2021 and 2026 Challenger Deep estimates, dates, methods, uncertainty and vertical reference systems.
+**Illustration 4.13-A — Earth's Vertical Extremes.**
+
+![Comparison of Everest elevation and Challenger Deep depth: 2021 estimate and preferred 2026 gridded estimate. / Сопоставление высоты Эвереста и глубины Челленджер-Дип: оценка 2021 года и предпочтительная сеточная оценка 2026 года.](../assets/04-13-A-earth-vertical-extremes-bilingual.svg)
+
+*Challenger Deep estimates depend on method, sound-speed model, survey geometry and vertical datum; 10,927 m is the preferred gridded estimate in one 2026 study, not a definitive universal value. / Оценки глубины Челленджер-Дип зависят от метода, модели скорости звука, геометрии съёмки и вертикальной системы отсчёта; 10 927 м — предпочтительная сеточная оценка одного исследования 2026 года, а не окончательное универсальное значение.*
 
 ### 4.14. Mapping and Measuring Relief
 
@@ -894,7 +914,11 @@ Using a prepared teaching map excerpt:
 - draw a profile line and construct a cross-section, stating the horizontal and vertical scales; if they differ, label the vertical exaggeration. Its factor is the denominator of the horizontal scale divided by the denominator of the vertical scale (for example, 1:25,000 horizontally and 1:5,000 vertically give a 5× exaggeration); and
 - identify areas with potentially higher erosion or slope susceptibility. Do not call this a risk map without additional data on geology, rainfall, vegetation, land use, people and exposed assets.
 
-**[ILLUSTRATION PLACEHOLDER 4.15-B]** Provide a teaching map excerpt with coordinate grid, profile line, two slope-measurement sections, stated horizontal and vertical scales, labelled vertical exaggeration where used, and a separate answer key.
+**Illustration 4.15-B — Topographic Map Exercise.**
+
+![Schematic teaching map with contours, coordinate grid and A–B profile; scale and contour interval are stated. / Условная учебная карта с горизонталями, координатной сеткой и линией профиля A–B; заданы масштаб и интервал горизонталей.](../assets/04-15-B-topographic-map-exercise-bilingual.svg)
+
+*Not for navigation; students measure distances using the scale, draw a profile and calculate gradient. / Карта не предназначена для навигации; учащиеся измеряют расстояния по масштабу, строят профиль и рассчитывают уклон.*
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
