@@ -1,6 +1,6 @@
 # Geography — Image Sources and Visual Asset Register
 
-**Snapshot:** 4 November 2026  
+**Snapshot:** 5 November 2026  
 **Branch:** `workspace/geography`  
 **Scope:** Chapters 01–02 have detailed source records; Chapters 03–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
 **Policy:** search for an existing scientifically suitable image first; verify the individual asset's rights and attribution; create or generate a replacement only when no suitable reusable image is found.
