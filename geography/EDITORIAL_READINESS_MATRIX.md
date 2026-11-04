@@ -91,17 +91,17 @@
 ## Chapter 01–02 visual inventory correction — 4 November 2026
 
 - Chapter 01 contains **3** distinct visual briefs: 01-A, 01-B and 01-C.
-- Chapter 02 contains **19** distinct visual IDs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A and 2.14-A.
-- The earlier figure of 9 for Chapter 02 was an undercount caused by counting only a subset of the placeholder naming patterns. The correct total is **18**, pending a repository-wide cross-check of visual IDs.
-- None of these 21 briefs is counted as an image found, licensed, generated or integrated. Image status is tracked separately in `geography/IMAGE_SOURCES.md`.
+- Chapter 02 contains **19** distinct visual IDs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A, 2.14-A and 2.15-A.
+- The earlier figure of 9 for Chapter 02 was an undercount caused by counting only a subset of the placeholder naming patterns. The repository-wide cross-check confirms **19** Chapter 02 IDs and 218 unique IDs across all 26 chapters; all 19 Chapter 02 IDs now have integrated imagery in both language versions.
+- Chapter 01's three IDs remain briefs without integrated imagery. Chapter 02's 19 IDs have images in both language versions; current source and licence details are recorded in `geography/VISUAL_ASSET_REGISTER.md`.
 
 
-- Visual-source follow-up, 4 November 2026: identified the exact USGS water-distribution chart (Public Domain; rounded values trace to Shiklomanov 1993), the USGS 2022 Water Cycle diagram (Public Domain; human-influenced global cycle), and the NOAA JetStream five-layer atmosphere graphic (NOAA general public-domain reuse policy applies unless otherwise noted; image-specific credit still to be confirmed). These raise the Chapter 02 exact candidate-asset count to six; none is approved or integrated. Details and caveats are recorded in `geography/IMAGE_SOURCES.md`.
+- Visual-source follow-up, 4 November 2026: the initial six-candidate stage was superseded by the final Chapter 02 integration. The current set comprises nine remote science images and 11 local original bilingual SVGs (20 unique assets, 40 Markdown embeds). Rights and source details are recorded in `geography/VISUAL_ASSET_REGISTER.md` and the chapter captions.
 
 
 ### Visual inventory clarification — 4 November 2026
 
-The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 and 20 only: `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, `20-I-glacier-anatomy.svg` and `20-K-national-water-use-2025.svg`. Chapters 01 and 02 now differ: Chapter 01 still has zero integrated visuals; Chapter 02 now has seven source-hosted remote images linked in its Markdown (2-A, 2-B, 2.3-A, 2-C, 2.4-A, plus carbon- and nitrogen-cycle figures under 2-D). The phosphorus-cycle visual is still missing. These are not local SVG/image files and do not establish that deployed rendering, mobile layout or accessibility has passed. All 21 visual briefs remain tracked separately in `IMAGE_SOURCES.md`.
+The four additional SVG files in `geography/assets/` are referenced from Chapters 18–20: `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, `20-I-glacier-anatomy.svg` and `20-K-national-water-use-2025.svg`. Chapter 01 still has no integrated visuals. Chapter 02 has 19 bilingual visual IDs, 40 image embeds and 20 unique assets (nine remote science images and 11 local SVGs); the phosphorus-cycle and integrated-system visuals are no longer missing. Live rendering, mobile layout and accessibility remain untested because this branch is not deployed.
 
 
 ### Chapter 02 — primary-source spot check — 4 November 2026
@@ -124,7 +124,7 @@ The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 an
 ### Chapter 02 — planetary boundaries update — 4 November 2026
 
 - Expanded section 2.14.1 in Russian and English to clarify that planetary boundaries are a global scientific risk framework, not a ready-made set of local or national legal standards; applying the framework below global scale requires appropriate regional data and methods.
-- Added the dated finding from *Planetary Health Check 2025*: seven of nine boundaries assessed as transgressed, with ocean acidification included among the transgressed boundaries for the first time in that assessment. The text explicitly warns that status is assessment-year- and method-dependent.
+- At this intermediate stage, the chapter cited *Planetary Health Check 2025*. This was superseded by the 4 November 2026 update to *Planetary Health Check 2026*: seven of nine boundaries are transgressed and all seven show increasing pressure; the chapter and 2.14-A diagram now use the 2026 assessment (DOI 10.48485/pik.2026.25).
 - Added the 2025 report (Sakschewski et al., DOI 10.48485/PIK.2025.017) and the Stockholm Resilience Centre framework page to the chapter bibliography. The visual brief now requires source and assessment year wherever status is displayed.
 - Scope: targeted update and source alignment; not a full audit of all global-change indicators. Chapter 02 visual remains a brief only, not an integrated image.
 
@@ -132,22 +132,22 @@ The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 an
 - **Chapter 02, practical assignment — 4 November 2026:** strengthened the RU/EN mountain-lake systems task. Students now trace inflows and outflows, connect all four spheres, identify causal links and propose observations/datasets for testing. Added an explicit distinction between observed evidence and hypotheses, and a warning not to diagnose pollution from water appearance alone. This improves the assessment task but does not substitute for classroom testing.
 
 
-- **Chapter 02, integrated model — 4 November 2026:** expanded section 2.15 in Russian and English. It now explicitly distinguishes energy flow from matter cycling; identifies system components and permeable boundaries; gives a cross-sphere precipitation–river–erosion–vegetation example; explains feedbacks, scale, time delays, human influence and model limitations. Added NASA My NASA Data and U.S. Department of Energy sources (references 30–31). This is a content improvement and source alignment, not proof that the KGEO-01 visual has been created or integrated.
+- **Chapter 02, integrated model — 4 November 2026:** expanded section 2.15 in Russian and English. It now explicitly distinguishes energy flow from matter cycling; identifies system components and permeable boundaries; gives a cross-sphere precipitation–river–erosion–vegetation example; explains feedbacks, scale, time delays, human influence and model limitations. Added NASA My NASA Data and U.S. Department of Energy sources (references 30–31). This was an intermediate content checkpoint. The former KGEO-01 placeholder was subsequently replaced by 2.15-A, using NASA Goddard's Earth System Diagram with source credit and NASA media-use guidance.
 
 - **Chapter 02, review-question alignment — 4 November 2026:** added matching Russian and English questions on the distinction between energy flow and matter cycling, and on explaining/test­ing cross-sphere causal links. The questions now assess the key concepts introduced in the expanded integrated model.
 
 
 ### Chapter 02 — image-first integration — 4 November 2026
 
-- Integrated four direct source-image links into the bilingual chapter: NOAA JetStream's atmospheric-layer graphic (2-B) and temperature profile (2.3-A), plus USGS Water Science School's water-distribution chart (2-C) and 2022 global water-cycle diagram (2.4-A).
+- The initial four-image integration (NOAA atmospheric layers and temperature profile; USGS water distribution and water cycle) was extended to a complete image-first set for all 19 Chapter 02 visual IDs.
 - Rights review: both USGS individual media records explicitly state Public Domain. The NOAA page identifies NOAA/JetStream and no third-party credit; NOAA's official reuse guidance states that NOAA content is generally public domain unless otherwise credited and requests NOAA attribution.
 - Scientific captions preserve the key limits: water-distribution percentages trace to Shiklomanov (1993), while the USGS 2022 water-cycle diagram includes human water use and water-quality effects. Atmospheric heights/profile are presented as approximate/representative.
-- These are remotely hosted images, not locally stored binaries. External loading, page performance, responsive behavior, alt-text rendering and mobile/browser checks remain outstanding. No deployment test is claimed.
+- Final inventory: 40 Markdown image embeds, 20 unique assets (nine remote images and 11 local SVGs). All 40 embeds have non-empty bilingual alt text; live loading, page performance, responsive behavior and accessibility remain untested. No deployment test is claimed.
 
 
 ### Chapter 02 — additional source-linked visuals — 4 November 2026
 
-- Added NASA Goddard's Earth System Diagram at 2-A with explicit note that it is a five-sphere conceptual Earth-system graphic, not a literal depiction of the chapter's four-component geographic-envelope classification. NASA Goddard credit and graphic designer Kevin W. Miller are recorded.
-- Added a NASA-hosted fast carbon-cycle diagram (adapted from U.S. DOE) and a nitrogen-cycle diagram credited to NCAR under 2-D. Captions identify the distinct credits and the relevant processes.
-- The phosphorus-cycle figure remains outstanding; the two figures do not constitute a complete three-cycle illustration set.
+- NASA Goddard's Earth System Diagram was moved from a supplementary position near 2-A to 2.15-A, where it serves as the integrated-system summary. The four-sphere model remains represented by the original 2-A diagram. NASA credit, designer and educational-use guidance are recorded.
+- Added the existing My NASA Data carbon-cycle image (adapted from U.S. DOE), the My NASA Data/NCAR nitrogen-cycle image (nonprofit/media reuse note confirmed at the original NCAR page), and the Wikimedia phosphorus-cycle image (CC0 1.0). Each caption records its source and credit.
+- The three-cycle illustration set is complete: carbon, nitrogen and phosphorus are all represented with sourced images; the 2.10-B nitrogen and phosphorus images are paired in both language sections.
 - These source images are remotely hosted. No local binary copies, live-site rendering tests, mobile performance checks or accessibility validation are claimed.
