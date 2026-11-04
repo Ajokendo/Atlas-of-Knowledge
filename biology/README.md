@@ -3,14 +3,15 @@
 Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Visual production checkpoint — 4 November 2026
-- New milestone: 52/53 briefs produced or integrated (98.1%). One remains deferred. The genetics mutation and DNA-packaging plates are integrated. Browser CI next identified horizontal overflow on the Genetics page; a responsive media/figure guard has been added for re-test.
-- 52 of 53 mapped illustration briefs are produced or integrated (98.1%); 1 remains deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
+- New milestone: 53/53 briefs produced or integrated (100%). All mapped illustration briefs now have an asset or integration. The genetics mutation and DNA-packaging plates are integrated. Browser CI next identified horizontal overflow on the Genetics page; a responsive media/figure guard has been added for re-test.
+- 53 of 53 mapped illustration briefs are produced or integrated (100%); no mapped brief remains deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
 - Added `genetics-translation.svg`, a bilingual ribosome diagram showing 5′→3′ mRNA reading, complementary codon–anticodon pairing, tRNA delivery and peptide-bond formation.
 - Added `genetics-mutations.svg`, a bilingual comparison of synonymous substitution, single-nucleotide insertion and deletion, with reading-frame effects explained.
 - Added `genetics-dna-packaging.svg`, showing the DNA double helix, nucleosomes, dynamic chromatin loops and the metaphase chromosome.
 - Added `biology-cover.svg` to the Biology landing page: an unlabelled panorama from DNA and cell to plant, animal and mountain ecosystem.
 - Added `zoology-vertebrates.svg`, comparing the five familiar school-level vertebrate groups and clarifying their cladistic relationship.
 - Added `evolution-tree.svg`, showing the common ancestor, highlighted A+B clade and sister-group relationships without implying an evolutionary ladder.
+- Added `flora-altitude.svg`, a bilingual Kyrgyzstan vegetation mosaic from foothill semi-desert to alpine meadows, without fixed elevation claims.
 - Added the original bilingual `fauna-invertebrates.svg` comparison plate to the Kyrgyzstan fauna chapter. It distinguishes insect and arachnid body plans and does not claim to be a regional species inventory.
 - Added the bilingual `systematics-tree.svg` teaching diagram to the systematics chapter: nodes, branches, sister groups, the A+B clade, and a rotated equivalent tree.
 - Added `evolution-homology.svg` to the evolution chapter, comparing homologous tetrapod forelimbs and analogous bird/insect flight wings.
