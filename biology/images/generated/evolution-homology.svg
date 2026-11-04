@@ -8,59 +8,59 @@
 <rect class="head" x="18" y="16" width="1164" height="76" rx="16"/>
 <text class="title" x="600" y="49" text-anchor="middle">Гомологичные и аналогичные структуры</text>
 <text class="sub" x="600" y="75" text-anchor="middle">Homologous and analogous structures</text>
-<rect class="panel" x="25" y="112" width="1150" height="390" rx="16"/>
+<rect class="panel" x="25" y="112" width="1150" height="408" rx="16"/>
 <text class="h" x="55" y="150">Гомологичные передние конечности позвоночных / Homologous vertebrate forelimbs</text>
-<text class="sm" x="55" y="176">Один план строения, унаследованный от общего предка; пропорции и форма изменены функцией.</text>
-<text class="sm" x="55" y="196">Shared structural plan inherited from a common ancestor; proportions and shapes modified for different functions.</text>
+<text class="sm" x="55" y="173">Один план строения, унаследованный от общего предка; пропорции изменены функцией.</text>
+<text class="sm" x="55" y="192">Shared plan inherited from a common ancestor; proportions are modified for different functions.</text>
 <!-- Four schematic forelimb plans -->
-<g transform="translate(110 220)">
+<g transform="translate(110 200)">
 <text class="h" x="50" y="0" text-anchor="middle">Человек / Human</text>
 <path class="bone" d="M36 24 Q50 14 64 24 L61 95 Q50 104 39 95Z"/>
 <path class="bone2" d="M38 100 L48 185 L55 185 L49 100Z"/><path class="bone3" d="M53 100 L65 184 L72 183 L64 98Z"/>
 <g class="bone4"><ellipse cx="45" cy="194" rx="7" ry="10"/><ellipse cx="58" cy="194" rx="7" ry="10"/><ellipse cx="71" cy="194" rx="7" ry="10"/></g>
 <path class="bone4" d="M42 203 L25 244 L30 247 L50 207Z M53 204 L48 253 L54 254 L61 207Z M64 204 L71 251 L77 250 L72 204Z M74 202 L94 240 L99 237 L81 199Z"/>
-<text class="sm" x="50" y="270" text-anchor="middle">Хватание / Grasping</text>
+<text class="sm" x="50" y="250" text-anchor="middle">Хватание / Grasping</text>
 </g>
-<g transform="translate(360 220)">
+<g transform="translate(360 200)">
 <text class="h" x="50" y="0" text-anchor="middle">Летучая мышь / Bat</text>
 <path class="bone" d="M36 24 Q50 14 64 24 L61 95 Q50 104 39 95Z"/>
 <path class="bone2" d="M38 100 L48 185 L55 185 L49 100Z"/><path class="bone3" d="M53 100 L65 184 L72 183 L64 98Z"/>
 <g class="bone4"><ellipse cx="45" cy="194" rx="7" ry="10"/><ellipse cx="58" cy="194" rx="7" ry="10"/><ellipse cx="71" cy="194" rx="7" ry="10"/></g>
-<path class="bone4" d="M42 203 L10 242 L14 246 L50 207Z M53 204 L37 260 L43 262 L61 207Z M64 204 L67 265 L73 265 L72 204Z M74 202 L103 245 L108 241 L81 199Z"/>
-<path d="M18 245 Q50 275 105 245" fill="none" stroke="#b77b8c" stroke-width="3"/>
-<text class="sm" x="50" y="290" text-anchor="middle">Полёт / Flight</text>
+<path class="bone4" d="M42 203 L10 242 L14 246 L50 207Z M53 204 L37 260 L43 262 L61 207Z M64 204 L67 245 L73 245 L72 204Z M74 202 L103 245 L108 241 L81 199Z"/>
+<path d="M18 235 Q50 250 105 235" fill="none" stroke="#b77b8c" stroke-width="3"/>
+<text class="sm" x="50" y="250" text-anchor="middle">Полёт / Flight</text>
 </g>
-<g transform="translate(625 220)">
+<g transform="translate(625 200)">
 <text class="h" x="50" y="0" text-anchor="middle">Кит / Whale</text>
 <path class="bone" d="M36 24 Q50 14 64 24 L61 95 Q50 104 39 95Z"/>
 <path class="bone2" d="M38 100 L48 185 L55 185 L49 100Z"/><path class="bone3" d="M53 100 L65 184 L72 183 L64 98Z"/>
 <g class="bone4"><ellipse cx="45" cy="194" rx="7" ry="10"/><ellipse cx="58" cy="194" rx="7" ry="10"/><ellipse cx="71" cy="194" rx="7" ry="10"/></g>
 <path class="bone4" d="M42 203 L23 235 L29 239 L50 207Z M53 204 L47 243 L54 245 L61 207Z M64 204 L70 241 L77 240 L72 204Z M74 202 L93 233 L100 229 L81 199Z"/>
 <path d="M18 241 Q50 260 108 232" fill="none" stroke="#8ab6ce" stroke-width="5"/>
-<text class="sm" x="50" y="280" text-anchor="middle">Плавание / Swimming</text>
+<text class="sm" x="50" y="250" text-anchor="middle">Плавание / Swimming</text>
 </g>
-<g transform="translate(895 220)">
+<g transform="translate(895 200)">
 <text class="h" x="50" y="0" text-anchor="middle">Лошадь / Horse</text>
 <path class="bone" d="M36 24 Q50 14 64 24 L61 95 Q50 104 39 95Z"/>
 <path class="bone2" d="M38 100 L48 185 L55 185 L49 100Z"/><path class="bone3" d="M53 100 L65 184 L72 183 L64 98Z"/>
 <g class="bone4"><ellipse cx="57" cy="194" rx="9" ry="10"/></g>
 <path class="bone4" d="M54 203 L58 260 L64 260 L63 203Z"/>
-<path d="M47 261 Q60 282 75 261" fill="none" stroke="#8a6330" stroke-width="6"/>
-<text class="sm" x="60" y="290" text-anchor="middle">Бег / Running</text>
+<path d="M47 245 Q60 260 75 245" fill="none" stroke="#8a6330" stroke-width="6"/>
+<text class="sm" x="60" y="250" text-anchor="middle">Бег / Running</text>
 </g>
-<rect class="green" x="55" y="460" width="1090" height="30" rx="10"/>
-<text class="call" x="600" y="481" text-anchor="middle">Общие элементы: плечевая кость → лучевая и локтевая → запястье → пясть → фаланги / Same elements: humerus → radius and ulna → wrist → metacarpals → phalanges</text>
-<rect class="panel" x="25" y="522" width="1150" height="245" rx="16"/>
-<text class="h" x="55" y="560">Аналогия: сходная функция, разное происхождение / Analogy: similar function, different origin</text>
+<rect class="green" x="55" y="470" width="1090" height="42" rx="10"/>
+<text class="call" x="600" y="488" text-anchor="middle" style="font-size:15px">Общие элементы: плечевая кость → лучевая и локтевая → запястье → пясть → фаланги</text><text class="call" x="600" y="506" text-anchor="middle" style="font-size:14px">Same elements: humerus → radius and ulna → wrist → metacarpals → phalanges</text>
+<rect class="panel" x="25" y="540" width="1150" height="245" rx="16"/>
+<text class="h" x="55" y="578">Аналогия: сходная функция, разное происхождение / Analogy: similar function, different origin</text>
 <!-- bird wing -->
-<g transform="translate(160 580)">
+<g transform="translate(160 598)">
 <path d="M10 80 Q45 10 150 20 Q120 55 40 105Z" fill="#c6dff0" stroke="#426d91" stroke-width="3"/>
 <path d="M20 88 L120 29 M35 95 L132 40 M50 98 L140 50" class="line"/>
 <text class="h" x="85" y="135" text-anchor="middle">Крыло птицы / Bird wing</text>
 <text class="sm" x="85" y="158" text-anchor="middle">Передняя конечность позвоночного</text>
 <text class="sm" x="85" y="177" text-anchor="middle">Vertebrate forelimb</text>
 </g>
-<g transform="translate(525 580)">
+<g transform="translate(525 598)">
 <path d="M10 85 Q20 15 140 5 Q110 50 40 100Z" fill="#e9d9f2" stroke="#806a9b" stroke-width="3"/>
 <path d="M20 85 L140 5 M40 95 L120 25 M60 95 L110 38" class="line"/>
 <path d="M45 45 L20 10 M60 38 L55 0 M75 32 L90 0" stroke="#806a9b" stroke-width="3" fill="none"/>
@@ -68,8 +68,8 @@
 <text class="sm" x="85" y="158" text-anchor="middle">Вырост наружного скелета</text>
 <text class="sm" x="85" y="177" text-anchor="middle">Outgrowth of the exoskeleton</text>
 </g>
-<rect class="orange" x="805" y="590" width="335" height="145" rx="14"/>
-<text x="972" y="620" text-anchor="middle" style="font:700 18px Arial;fill:#654a1d">Важно / Important</text>
-<text class="lab" x="825" y="650">Крылья птиц и насекомых</text><text class="lab" x="825" y="672">аналогичны как органы полёта,</text><text class="lab" x="825" y="694">но не гомологичны как крылья.</text>
-<text class="sm" x="825" y="716">Bird and insect wings are analogous</text><text class="sm" x="825" y="734">as flight organs, not homologous wings.</text>
+<rect class="orange" x="805" y="608" width="335" height="145" rx="14"/>
+<text x="972" y="638" text-anchor="middle" style="font:700 18px Arial;fill:#654a1d">Важно / Important</text>
+<text class="lab" x="825" y="668">Крылья птиц и насекомых</text><text class="lab" x="825" y="690">аналогичны как органы полёта,</text><text class="lab" x="825" y="712">но не гомологичны как крылья.</text>
+<text class="sm" x="825" y="750">Bird and insect wings are analogous</text><text class="sm" x="825" y="734">as flight organs, not homologous wings.</text>
 </svg>
