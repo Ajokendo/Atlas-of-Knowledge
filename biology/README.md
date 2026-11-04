@@ -1459,3 +1459,16 @@ G4 and G5 author-side audits are complete. The optional independent-review packe
 The internal author-side G4 scientific audit and G5 bilingual/editorial audit are complete (4/4 blocks each); the author-side repeat audit is complete; and the visual register records 53/53 mapped briefs produced or integrated. The latest staged editorial-readiness score remains **99/100**, not 100, because independent specialist review and hands-on assistive-technology / physical-device sessions have not been performed. These are real-world validation tasks and cannot be certified by headless automation.
 
 All three post-update documentation CI runs passed: [41825775175](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41825775175), [41825793871](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41825793871), and [41825798325](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41825798325). The preceding full 13-page browser/axe/Chromium run [41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607) also passed, including mobile/desktop viewport checks, bilingual switching, keyboard checks, contrast sampling, raster image decode/dimensions/alt checks and inline-SVG geometry. This is automated QA, not physical-device or screen-reader certification.
+
+
+## IMAGE-FIRST POLICY v1.0 — Biology implementation baseline (5 November 2026)
+
+The Biology branch now has the two required consolidated image-control documents:
+
+- [IMAGE_SOURCES.md](IMAGE_SOURCES.md) — source, creator, licence and provenance index, linking the 15 documented regional photographs to their dedicated audits/manifests and distinguishing original project artwork from third-party media.
+- [IMAGE_AUDIT.md](IMAGE_AUDIT.md) — consolidated scientific, legal, bilingual and technical audit, status definitions, metrics and remediation queue.
+- [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md) — authoritative 53-brief asset inventory.
+
+**Metric interpretation:** 53/53 (100%) is visual-brief production/integration coverage only. It is not 100% Image Verification. The consolidated audit identifies 33 rows with explicit pending visual, morphology or browser-review notes; full human review of bilingual semantics and current live attribution remains open. Automated CI passing does not close those manual checks. The current defensible Image Verification percentage is therefore recorded as **Pending audit**, not guessed.
+
+The implementation pass is documentation and audit reconciliation only. It does not replace images, consume image-generation quota, change chapter content, or alter other branches, the shared portal or publishing settings.
