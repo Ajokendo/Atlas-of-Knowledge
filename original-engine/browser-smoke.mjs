@@ -132,6 +132,107 @@ async function checkLab(lab, mobile) {
   }
 }
 
+async function checkChapterPage() {
+  const context = await browser.newContext({
+    viewport: { width: 1440, height: 900 },
+    deviceScaleFactor: 1,
+    reducedMotion: 'reduce',
+  });
+  const page = await context.newPage();
+  page.setDefaultTimeout(10000);
+  const runtimeErrors = [];
+  page.on('response', response => {
+    if (response.status() >= 400) runtimeErrors.push(`HTTP ${response.status()} ${response.url()}`);
+  });
+  page.on('pageerror', error => runtimeErrors.push(error.message));
+  page.on('console', message => {
+    if (message.type() === 'error') runtimeErrors.push(message.text());
+  });
+  try {
+    const response = await page.goto(`${base}/chapters/kinematics.html`, {
+      waitUntil: 'domcontentloaded',
+      timeout: 15000,
+    });
+    if (!response || !response.ok()) throw new Error(`Chapter page HTTP response ${response?.status() ?? 'missing'}`);
+    await page.getByRole('heading', { name: 'Кинематика', exact: true }).waitFor();
+    await page.waitForFunction(() => {
+      const frame = document.querySelector('.kinematics-lab-frame iframe');
+      const doc = frame?.contentDocument;
+      const atlas = doc?.defaultView?.__atlas;
+      return !!doc?.querySelector('#sheet h1') &&
+        !!atlas?.E?.renderer &&
+        atlas.E.renderer.info.render.frame > 0 &&
+        !!doc.querySelector('#gl')?.getContext('webgl2');
+    }, undefined, { timeout: 25000 });
+
+    const headings = await page.locator('main h2').allTextContents();
+    const required = [
+      '1.1. Положение, путь и перемещение',
+      '1.2. Скорость и быстрота',
+      '1.3. Ускорение',
+      '1.4. Графики движения',
+      '1.5. Кинематические уравнения',
+      '1.6. Движение тела, брошенного под углом',
+      '1.7. Системы отсчёта и относительная скорость',
+      '1.8. Переправа через реку',
+      '1.9. Кинематика с помощью математического анализа: переменное ускорение',
+      '1.10. Движение, заданное функцией x(t)',
+    ];
+    const missing = required.filter(title => !headings.includes(title));
+    if (missing.length) throw new Error(`Chapter sections missing or out of order: ${missing.join('; ')}`);
+    if (required.some((title, i) => headings.indexOf(title) !== headings.indexOf(required[0]) + i)) {
+      throw new Error('Chapter 1 section order does not match the expected sequence');
+    }
+
+    await page.locator('#v').evaluate(el => {
+      el.value = '10';
+      el.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    await page.locator('#t').evaluate(el => {
+      el.value = '4';
+      el.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    if (!(await page.locator('#distance').innerText()).includes('40')) {
+      throw new Error('Uniform-motion slider did not update distance to 40 m');
+    }
+
+    await page.locator('#klV').evaluate(el => {
+      el.value = '20';
+      el.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    if (!(await page.locator('#klVOut').innerText()).includes('20')) {
+      throw new Error('Projectile-motion speed slider did not update its readout');
+    }
+
+    await page.locator('.answers button[data-answer="b"]').click();
+    if (!(await page.locator('#feedback').innerText()).includes('Верно')) {
+      throw new Error('Chapter knowledge-check did not accept the correct answer');
+    }
+
+    const axe = await new AxeBuilder({ page })
+      .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+      .analyze();
+    const critical = axe.violations.filter(v => v.impact === 'critical');
+    const serious = axe.violations.filter(v => v.impact === 'serious');
+    axeCritical += critical.length;
+    axeSerious += serious.length;
+    if (critical.length || serious.length) {
+      throw new Error(`chapter page axe found ${critical.length} critical and ${serious.length} serious violation group(s)`);
+    }
+    if (runtimeErrors.length) throw new Error(`Chapter page console/runtime errors: ${runtimeErrors.join(' | ')}`);
+    console.log(`PASS chapter page — ${required.length} ordered sections, embedded Three.js/WebGL 2 frame, motion sliders, projectile slider, quiz; ${headings.length} headings`);
+  } catch (error) {
+    failures.push(`chapter page: ${error.message}`);
+    console.error(`FAIL chapter page: ${error.message}`);
+    if (runtimeErrors.length) {
+      failures.push(`chapter page console/runtime errors: ${runtimeErrors.join(' | ')}`);
+      console.error(`RUNTIME chapter page: ${runtimeErrors.join(' | ')}`);
+    }
+  } finally {
+    await context.close();
+  }
+}
+
 try {
   for (const lab of labs) {
     await checkLab(lab, false);
@@ -139,11 +240,12 @@ try {
     await checkLab(lab, true);
     if (abortAfterDesktopBootstrap) break;
   }
+  await checkChapterPage();
 } finally {
   await browser.close();
 }
 
-console.log(`Browser smoke: ${pagesChecked}/${labs.length * 2} viewport runs passed.`);
+console.log(`Browser smoke: ${pagesChecked}/${labs.length * 2} lab viewport runs passed, plus chapter page integration.`);
 console.log(`axe summary (desktop + mobile): ${axeCritical} critical, ${axeSerious} serious violation groups.`);
 if (failures.length) {
   console.error(failures.join('\n'));
