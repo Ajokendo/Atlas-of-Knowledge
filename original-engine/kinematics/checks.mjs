@@ -48,6 +48,8 @@ const integ = (fn, a, b, n = 20000) => { let s = 0; const d = (b - a) / n; for (
 const deriv = (fn, t) => (fn(t + h) - fn(t - h)) / (2 * h);
 check('signed area under v–t over full flight = net displacement 0', near(integ(M.vy, 0, M.T), 0, 1e-9) && near(M.y(M.T), 0));
 check('signed area under a–t over full flight = Δv = −2v0', near(integ(M.ay, 0, M.T), M.vy(M.T) - M.vy(0), 1e-9) && near(M.vy(M.T) - M.vy(0), -2 * M.VY0));
+check('signed v–t area: ascent +H, descent −H, total displacement 0', near(integ(M.vy, 0, M.T / 2), M.H, 1e-9) && near(integ(M.vy, M.T / 2, M.T), -M.H, 1e-9));
+check('unsigned path is sum of absolute v–t areas = 2H', near(integ(t => Math.abs(M.vy(t)), 0, M.T), M.distance(M.T), 1e-9) && near(M.distance(M.T), 2 * M.H));
 check('pull: a = a0 − kt reaches 0 at t1 = a0/k', near(M.pa(M.T1 - 1e-12), 0, 1e-9) && near(M.T1, 4), `t1 = ${M.T1.toFixed(2)} s`);
 check('pull: v = ∫a dt (numeric) at 1, 2.5, 4, 5 s', [1, 2.5, 4, 5].every(t => near(integ(M.pa, 0, t), M.pv(t), 1e-7)), `v(t1) = ${M.V1.toFixed(1)} m/s`);
 check('pull: x = ∫v dt (numeric) at 1, 2.5, 4, 5 s', [1, 2.5, 4, 5].every(t => near(integ(M.pv, 0, t), M.px(t), 1e-7)), `x(t1) = ${M.X1.toFixed(1)} m, x(5) = ${M.px(5).toFixed(1)} m`);
