@@ -535,3 +535,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 06 — bilingual visual production briefs — 5 November 2026
 
 - Added English production instructions for the four registered core visuals: hydrological cycle, five-ocean map, ocean-floor profile and ocean-motion diagrams. The ocean-map brief incorporates the revised non-universal Southern Ocean boundary caveat. No images were created. Commit: `4282a32dd93779c6635027748584c3d5ed686ca2`.
+
+
+### Chapter 06 — visual ID reconciliation — 5 November 2026
+
+- Reconciled the chapter's production briefs with its in-text markers: 11 previously unmarked visual concepts now have stable bilingual IDs and teaching-location markers; four redundant aliases were normalised to 6-A–6-D. The chapter now has 15 unique planned assets, all still placeholders. The visual register total is 231 across 26 chapters. Commits: `57ec4a27d8ba80b013a388e434df784b907b074b`, `57b7b9a6d59c1e3b070adf1d5d45c8e70e3f0b31`, `1bd3a384212a6ae893834e6ba5a748d30887dff4`.
