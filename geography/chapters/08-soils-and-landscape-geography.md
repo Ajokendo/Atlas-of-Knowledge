@@ -316,21 +316,25 @@ This means that about half of the sample's total volume consists of pores. It is
 
 Засоление — накопление растворимых солей в почве до уровня, который может ухудшать рост растений и свойства почвенной среды. Оно часто связано с сочетанием природных условий и управления водой: испарением, слабым дренажом, близким залеганием минерализованных грунтовых вод и неправильным орошением. Белая корка на поверхности может быть признаком, но не является достаточным подтверждением и не показывает степень засоления.
 
-**Как проводят обследование:** описывают рельеф, землепользование, полив и дренаж; отбирают почвенные пробы на нескольких глубинах и в повторностях; измеряют электропроводность почвенной вытяжки по установленному протоколу; при необходимости определяют состав солей, pH и свойства грунтовых вод. Значения электропроводности нельзя сравнивать без указания метода приготовления вытяжки, температуры и единиц.
+**Как проводят обследование:** описывают рельеф, землепользование, полив и дренаж; отбирают почвенные пробы на нескольких глубинах и в повторностях; измеряют электропроводность почвенной вытяжки по установленному протоколу; при необходимости определяют состав солей, pH и свойства грунтовых вод. Для сопоставимых лабораторных оценок часто используют электропроводность вытяжки из насыщенной почвенной пасты (ECe), приводимую к 25 °C и выражаемую в дСм/м. Показатели для вытяжек с другими отношениями почва:вода (например, 1:5) и полевые показания кажущейся электропроводности не являются взаимозаменяемыми с ECe: результат зависит от разбавления, текстуры, влажности и минералогии. Поэтому в отчёте обязательно указывают тип вытяжки или прибора, отношение почва:вода, температуру и единицы.
 
 **Пространственная неоднородность.** Засоление может резко меняться на небольшом расстоянии — например, вдоль оросительного канала, в понижении или у края поля. Поэтому одна проба не характеризует весь участок. Схема отбора должна учитывать рельеф, тип почвы, режим полива и видимые различия растительности.
 
 **Не путать засоление и осолонцевание.** Засоление связано с избытком растворимых солей; осолонцевание — с повышенной долей обменного натрия и изменением структуры почвы. Эти процессы могут сочетаться, но требуют разных диагностических показателей и мер управления.
 
+Пороговые значения засоления также зависят от принятой классификации и метода. Исторически часто приводится ECe около 4 дСм/м при 25 °C, но это не универсальная граница вреда для всех культур и почв: чувствительные растения могут реагировать на более низкие значения, а устойчивость культур различается. Не следует переносить порог для ECe на результаты вытяжки 1:5 без валидированной для конкретных условий процедуры пересчёта.
+
 **Учебное задание.** Разработайте схему отбора проб для орошаемого участка: обозначьте не менее трёх типов микроположений и две глубины. Укажите, какие данные о поливе и дренаже нужно собрать, прежде чем рекомендовать меры по улучшению почвы.
 
 Soil salinisation is the accumulation of soluble salts to levels that can impair plant growth and soil conditions. It often results from an interaction of natural conditions and water management: evaporation, poor drainage, shallow saline groundwater and inappropriate irrigation. A white surface crust may be an indicator, but it is not sufficient confirmation and does not show the degree of salinity.
 
-**How assessment is carried out:** describe topography, land use, irrigation and drainage; collect replicated soil samples at several depths; measure the electrical conductivity of a soil extract using a specified protocol; and, where needed, analyse salt composition, pH and groundwater properties. Conductivity values cannot be compared without stating the extraction method, temperature and units.
+**How assessment is carried out:** describe topography, land use, irrigation and drainage; collect replicated soil samples at several depths; measure the electrical conductivity of a soil extract using a specified protocol; and, where needed, analyse salt composition, pH and groundwater properties. For comparable laboratory assessments, electrical conductivity of the saturated-paste extract (ECe), referenced to 25 °C and expressed in dS/m, is commonly used. Values from other soil-to-water extract ratios (for example, 1:5) and field apparent-conductivity readings are not interchangeable with ECe: results depend on dilution, texture, moisture and mineralogy. Reports must therefore state the extract or instrument method, soil-to-water ratio, temperature and units.
 
 **Spatial variability.** Salinity can change sharply over short distances, for example along an irrigation canal, in a depression or near a field edge. One sample therefore cannot represent an entire field. Sampling design should account for topography, soil type, irrigation regime and visible vegetation differences.
 
 **Do not confuse salinity with sodicity.** Salinity involves excess soluble salts; sodicity involves a high proportion of exchangeable sodium and changes in soil structure. The processes may occur together, but they require different diagnostic indicators and management measures.
+
+Salinity thresholds also depend on the classification and measurement method. An ECe value near 4 dS/m at 25 °C is often cited historically, but it is not a universal threshold for damage across all crops and soils: sensitive plants may respond at lower values, and crop tolerance varies. A threshold for ECe must not be applied directly to a 1:5 extract result without a conversion procedure validated for the relevant conditions.
 
 **Activity.** Design a sampling plan for an irrigated field: identify at least three micro-landscape positions and two sampling depths. State which irrigation and drainage data should be collected before recommending soil-improvement measures.
 
@@ -625,6 +629,8 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 6. United Nations Convention to Combat Desertification (UNCCD). **Global Land Outlook** — land status and sustainable-use scenarios. https://www.unccd.int/resources/global-land-outlook
 7. European Commission Joint Research Centre. **European Soil Data Centre (ESDAC)** — open soil data and mapping products. https://esdac.jrc.ec.europa.eu/
 8. Turner, M. G., Gardner, R. H., & O'Neill, R. V. (2001). *Landscape Ecology in Theory and Practice: Pattern and Process* (1st ed.). Springer. https://doi.org/10.1007/b97434
+9. FAO. **Soil Salinity Assessment: Methods and Interpretation of Electrical Conductivity Measurements** — laboratory methods for saturated-paste extracts and interpretation of soil salinity. https://www.fao.org/4/x2002e/x2002e.pdf
+10. USDA Natural Resources Conservation Service. **Field Book for Describing and Sampling Soils**, Version 4.0 (2024) — distinguishes saturated-paste ECe from other extract ratios and field apparent EC. https://www.nrcs.usda.gov/sites/default/files/2025-04/Field-Book-for-Describing-and-Sampling-Soils-v4.pdf
 
 **Примечание:** почвенные классификации, методы отбора проб и показатели деградации могут различаться между странами. В каждом практическом исследовании необходимо указывать применённую методику, глубину отбора проб, дату и источник данных.
 
