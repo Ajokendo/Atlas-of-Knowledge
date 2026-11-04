@@ -499,7 +499,7 @@
 
 *Оригинальная учебная инфографика Atlas of Knowledge, подготовленная по данным Planetary Health Check 2026, PBScience / Potsdam Institute for Climate Impact Research. Научная основа: Caesar et al. (2026), DOI: 10.48485/pik.2026.25; оценка сообщает о пересечении семи из девяти границ. Графика создана редакцией Atlas of Knowledge и не является копией официальной диаграммы PIK. См. [официальный отчёт](https://publications.pik-potsdam.de/pubman/item/item_35009) и [описание PIK](https://www.pik-potsdam.de/en/output/infodesk/planetary-boundaries). / Original educational graphic by Atlas of Knowledge, based on Planetary Health Check 2026, PBScience / PIK. The 2026 assessment reports seven of nine boundaries transgressed. This is an original educational adaptation, not a reproduction of PIK's official figure.
 
-## 2.14.2. Разбор природной системы: изменение растительного покрова в горном водосборе / Worked Example: Vegetation Change in a Mountain Catchment
+### 2.14.2. Разбор природной системы: изменение растительного покрова в горном водосборе / Worked Example: Vegetation Change in a Mountain Catchment
 
 Рассмотрим условный горный водосбор площадью 10 км². На части его склонов лесной покров сократился. Географическая задача — проследить, какие компоненты природной системы могут отреагировать на это изменение и какие данные нужны, чтобы проверить предполагаемые последствия.
 
