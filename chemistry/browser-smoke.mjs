@@ -2263,6 +2263,44 @@ try {
       }
     }
 
+    if (file === "chemistry-constants.html") {
+      const waterNoteRu = await page.locator("[data-i=waterNote]").innerText();
+      const standardConditionsRu = await page.locator("[data-i=stpText]").innerText();
+      if (!waterNoteRu.includes("активности") || !waterNoteRu.includes("безразмерным") ||
+          !standardConditionsRu.includes("100 kPa") || !standardConditionsRu.includes("273.15 K") ||
+          !standardConditionsRu.includes("298.15 K")) {
+        errors.push(file + ": Russian reference notes must distinguish thermodynamic activities, concentration-form units and standard-condition definitions");
+      }
+      await page.locator("#lang").click();
+      const waterNoteEn = await page.locator("[data-i=waterNote]").innerText();
+      const standardConditionsEn = await page.locator("[data-i=stpText]").innerText();
+      if (!waterNoteEn.includes("activities") || !waterNoteEn.includes("dimensionless") ||
+          !standardConditionsEn.includes("100 kPa") || !standardConditionsEn.includes("273.15 K") ||
+          !standardConditionsEn.includes("298.15 K")) {
+        errors.push(file + ": English reference notes must distinguish thermodynamic activities, concentration-form units and standard-condition definitions");
+      }
+      await page.locator("#lang").click();
+    }
+
+    if (file === "glossary.html") {
+      const search = page.locator("#search");
+      await search.fill("pH");
+      const russianPH = await page.locator(".term").filter({ hasText: "pH" }).first().innerText();
+      if (!russianPH.includes("a(H₃O⁺)") || !russianPH.includes("безразмерная активность") ||
+          !russianPH.includes("[H₃O⁺]/(1 моль/л)")) {
+        errors.push(file + ": Russian pH glossary entry must use dimensionless hydronium activity and a dimensionless concentration ratio");
+      }
+      await page.locator("#lang").click();
+      await search.fill("pH");
+      const englishPH = await page.locator(".term").filter({ hasText: "pH" }).first().innerText();
+      if (!englishPH.includes("a(H₃O⁺)") || !englishPH.includes("dimensionless activity") ||
+          !englishPH.includes("[H₃O⁺]/(1 mol/L)")) {
+        errors.push(file + ": English pH glossary entry must use dimensionless hydronium activity and a dimensionless concentration ratio");
+      }
+      await page.locator("#lang").click();
+      await search.fill("");
+    }
+
     if (file === "knowledge-check.html") {
       const questionCount = await page.locator("#quiz .question").count();
       if (questionCount !== 15) {
