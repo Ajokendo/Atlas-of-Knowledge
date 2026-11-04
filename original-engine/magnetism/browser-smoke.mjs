@@ -66,6 +66,7 @@ async function runDynamic(mobile) {
     await page.waitForFunction(() => window.__atlas && document.querySelector('#readout')?.textContent.trim().length > 0);
     if (mobile) await page.locator('#sheet .turn').click(); else await page.locator('#dots button').nth(1).click();
     await page.waitForFunction(() => location.hash === '#1');
+    await page.waitForFunction(() => document.querySelector('#readout')?.textContent.includes('θ'));
     await page.waitForTimeout(350);
     const before = await page.locator('#readout').innerText();
     const cursorBefore = await page.locator('circle[data-cursor="rhr"]').first().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
