@@ -144,8 +144,11 @@
 
 Любая группа пород может переходить в другую через выветривание, эрозию, осадконакопление, погружение, метаморфизм, плавление и кристаллизацию. Круговорот не является замкнутым циклом с обязательным единым порядком: геологические пути разнообразны.
 
-**Место для иллюстрации 3.3-A — The Rock Cycle.** Диаграмма взаимных переходов трёх групп пород с процессами выветривания, осадконакопления, метаморфизма, плавления и кристаллизации.
-**EN:** Diagram showing possible transformations among igneous, sedimentary and metamorphic rocks, including weathering, deposition, metamorphism, melting and crystallisation.
+**Иллюстрация 3.3-A — Круговорот горных пород / The Rock Cycle.**
+
+![Двуязычная схема круговорота горных пород: магма, магматические, осадочные и метаморфические породы, осадки и основные процессы преобразования. / Bilingual rock-cycle diagram showing magma, igneous, sedimentary and metamorphic rocks, sediments and key transformation processes.](../assets/03-3-A-rock-cycle-bilingual.svg)
+
+*Учебная схема, упрощённая по материалам USGS, Open-File Report 94-636 (1994); она показывает возможные пути преобразования, а не обязательный замкнутый цикл. / Teaching schematic simplified from USGS Open-File Report 94-636 (1994); it shows possible pathways, not a compulsory closed cycle.*
 
 ## 3.4. Минералогия, петрография и методы геологических исследований / Mineralogy, Petrography and Geological Methods
 
@@ -632,6 +635,12 @@ Rocks are natural aggregates of one or more minerals and may also contain glass 
 ### 3.3.4. The Rock Cycle
 
 In the **rock cycle**, any rock group may be transformed into another through weathering, erosion, deposition, burial, metamorphism, melting and crystallisation. It is not a closed cycle with one compulsory sequence; geological pathways are diverse.
+
+**Illustration 3.3-A — The Rock Cycle.**
+
+![Bilingual rock-cycle diagram showing magma, igneous, sedimentary and metamorphic rocks, sediments and key transformation processes. / Двуязычная схема круговорота горных пород: магма, магматические, осадочные и метаморфические породы, осадки и основные процессы преобразования.](../assets/03-3-A-rock-cycle-bilingual.svg)
+
+*Teaching schematic simplified from USGS Open-File Report 94-636 (1994); it shows possible pathways, not a compulsory closed cycle. / Учебная схема, упрощённая по материалам USGS Open-File Report 94-636 (1994); она показывает возможные пути преобразования, а не обязательный замкнутый цикл.*
 
 ### 3.4. Mineralogy, Petrography and Geological Methods
 
