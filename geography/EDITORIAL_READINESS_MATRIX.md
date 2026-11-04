@@ -358,3 +358,6 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 06 — Southern Ocean boundary status — 5 November 2026
 
 - Clarified that 60°S is commonly used but not a universally adopted IHO boundary; official S-23 remains the 1953 edition and the 2002 fourth-edition draft was not approved. Added direct IHO source and updated both languages. Commit: `57e0739a6893b2377a05e2f7b1055c066f54f5e9`.
+
+
+- Added the NOAA National Ocean Service explainer alongside the IHO draft to substantiate the five-ocean convention and the non-ratification caveat for the Southern Ocean boundary. Commit: `b32e9ece268f789c95f322d343e32e68236e4a5d`.
