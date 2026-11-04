@@ -313,7 +313,13 @@ export function startBook(chapter) {
     plate.hidden = false;
     plate.querySelector('.close').onclick = () => select(null, true);
     $('hint').textContent = CLOSE_HINT;
-    if (moveFocus) plate.querySelector('#scene-plate-title').focus();
+    if (moveFocus) {
+      // Native select controls may restore focus to themselves after closing their popup.
+      // Defer focus until that browser interaction has fully completed.
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        if (!plate.hidden) plate.querySelector('#scene-plate-title')?.focus();
+      }));
+    }
   }
 
   // a small badge says when motion is stopped (pointing at something, or a breakdown open)
