@@ -433,3 +433,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 08 — scope of soil-data claims — 5 November 2026
 
 - Clarified in both languages that numerical examples are instructional and are not country-level soil statistics or field-study results. Added explicit provenance requirements for future regional soil maps and measurements: dataset, year, scale, classification system, sampling depth and method. This separates current conceptual material from future regional data work. Commit: `ddbd9df53ed25ad4f15bad1215e81ea7db4d8ea8`.
+
+
+### Chapter 09 — scope of demographic numerical claims — 5 November 2026
+
+- Added a bilingual statement that the chapter's numerical examples are hypothetical and do not represent actual country or regional population values. Real maps/comparisons must identify the exact table/indicator, scenario, territory, reference year and extraction date. Existing WPP 2024 and WUP 2025 sources support the methods and dataset context. Commit: `4680bc04e9eb002a57d9d52e98ddf7970baab20d`.
