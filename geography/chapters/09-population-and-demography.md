@@ -574,6 +574,7 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 7. UN-Habitat. **World Cities Report 2024: Cities and Climate Action** — urbanisation, city systems, vulnerability and urban development. https://unhabitat.org/world-cities-report-2024-cities-and-climate-action
 8. World Bank. **World Development Indicators: Population** — population size, growth and urban indicators; check metadata and source definitions for each series. https://data.worldbank.org/indicator/SP.POP.TOTL
 9. United Nations Development Programme. **Human Development Data Center** — HDI methodology and country-level indicators. https://hdr.undp.org/data-center
+10. United Nations Department of Economic and Social Affairs, Population Division. **World Urbanization Prospects 2025: Methodology Report** — harmonised Degree of Urbanization and treatment of national urban definitions. https://www.un.org/development/desa/pd/content/world-urbanization-prospects-2025-methodology-report
 
 ## Научные редакционные примечания / Scientific editorial notes
 
