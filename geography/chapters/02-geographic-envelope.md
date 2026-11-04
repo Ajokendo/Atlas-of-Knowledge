@@ -1073,7 +1073,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 18. The Open University. *Eutrophication: Phosphorus*. https://www.open.edu/openlearn/nature-environment/environmental-studies/eutrophication/content-section-3.1.1
 19. National Oceanic and Atmospheric Administration. *The Atmosphere* (chemical composition of dry air; table excludes water vapour). https://www.noaa.gov/jetstream/atmosphere
 20. U.S. Geological Survey. *Understanding Plate Motions* (This Dynamic Earth; divergent, convergent and transform boundaries). https://pubs.usgs.gov/gip/dynamic/understanding.html
-21. Mooney, W. D. (2025). *Secular Evolution of the Seismic Structure of Continental Crust, Archean to Present*. Journal of Geophysical Research: Solid Earth. https://doi.org/10.1029/2025JB031907
+21. Mooney, W. D., Barrera-Lopez, P., & Suárez, M. G. (2025). *Secular evolution of the seismic structure of continental crust, Archean to present*. *Journal of Geophysical Research: Solid Earth*, 130, e2025JB031907. https://doi.org/10.1029/2025JB031907. First published 16 October 2025; correction to the copyright line published 8 January 2026.
 22. National Oceanic and Atmospheric Administration, Ocean Exploration. *What features form at plate tectonic boundaries?* https://oceanexplorer.noaa.gov/ocean-fact/tectonic-features/
 23. U.S. Geological Survey. *Before the break-up of Pangaea* (average and maximum ages of present-day oceanic crust; recycling at subduction zones). https://pubs.usgs.gov/gip/dynamic/Pangaea.html
 24. U.S. Geological Survey. *Geologic Time: Age of the Earth* (limits of preserved primordial rocks and radiometric dating context). https://pubs.usgs.gov/gip/geotime/age.html
@@ -1085,6 +1085,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 30. DeAngelis, D. L., & Xu, L. (2024). *Feedbacks: A new synthesis of causal loops across ecology*. Ecography. https://doi.org/10.1111/ecog.07460
 31. NASA My NASA Data. *Systems and System Models* (Earth system components, inputs, processes, outputs, and modelling). https://mynasadata.larc.nasa.gov/basic-page/Systems-and-System-Models
 32. U.S. Department of Energy. *DOE Explains... Earth System and Climate Models* (interacting physical, chemical and biological processes in Earth system models). https://www.energy.gov/science/doe-explainsearth-system-and-climate-models
+33. Theobald, D. M., Oakleaf, J. R., Moncrieff, G., Voigt, M., Kiesecker, J., & Kennedy, C. M. (2025). *Correction: Global extent and change in human modification of terrestrial ecosystems from 1990 to 2022*. *Scientific Data*, 12, 1376. https://doi.org/10.1038/s41597-025-05710-5 (corrected Figure 2 only; Figure 10 was not changed).
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
