@@ -15,16 +15,17 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 | 5-B / 5.3-A | Earth's energy budget / Энергетический баланс Земли | [UCAR Center for Science Education](https://scied.ucar.edu/learning-zone/earth-as-a-system/energy_budget_image), image of IPCC AR6 WGI Figure 7.2 | Quantitative values are IPCC AR6 (2021) early-21st-century estimates in W/m² with uncertainty ranges; not current-year measurements. Embedded in RU and EN chapter sections. |
 | 5.5-A | Pressure and wind systems / Давление и ветровые системы | [U.S. National Weather Service — Basic Discussion on Pressure Systems](https://www.weather.gov/lmk/basic-fronts), image [wx_cyclone2.gif](https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif) | Northern Hemisphere example only; caption explicitly notes reversed rotation in the Southern Hemisphere. Embedded in RU and EN chapter sections. |
 
+| 5.1-A | Composition of dry air / Состав сухого воздуха | Original bilingual SVG created for Atlas of Knowledge; values based on standard dry-air composition and NOAA 2025 preliminary marine-surface CO₂ mean (425.62 ppm) | Minor components are shown separately and not to scale; rounded fractions may not sum exactly to 100%. Embedded in RU and EN chapter sections. |
+| 5.4-A | Global temperature patterns / Глобальное распределение температуры | [ERA5 global mean temperature, 1991–2020](https://commons.wikimedia.org/wiki/File:ERA5_global_mean_temperature.png), author S. Berghald, ERA5/Copernicus data, CC BY-SA 4.0 | Climate-period mean, not an anomaly map or forecast. Attribution and share-alike licence required. Embedded in RU and EN chapter sections. |
+| 5-D / 5.7-A | Water vapour, clouds and precipitation / Водяной пар, облака и осадки | [NOAA JetStream — The Hydrologic Cycle](https://www.noaa.gov/jetstream/atmosphere/hydro), image [download](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e) | Basic hydrologic-cycle schematic; groundwater exchange and other reservoirs are not fully represented. Embedded in RU and EN chapter sections. |
+| 5.11-A | World climate zones / Климатические зоны мира | [WorldKoppen.png](https://commons.wikimedia.org/wiki/File:WorldKoppen.png), author Nothda, Köppen–Geiger 1-km map for 1991–2020, CC0 1.0 | Shows climate classes, not latitudinal climate belts. Embedded in RU and EN chapter sections. |
+
 ## Pending / Ожидают подбора и проверки
 
 | Visual ID | Subject |
 |---|---|
-| 5.1-A | Composition of dry air / Состав сухого воздуха |
-| 5.4-A | Global temperature patterns / Глобальное распределение температуры |
-| 5-D / 5.7-A | Water vapour, clouds and precipitation / Водяной пар, облака и осадки |
 | 5.8-A | Atmospheric fronts / Атмосферные фронты |
 | 5.9-A | Weather versus climate / Погода и климат |
-| 5.11-A | World climate zones / Климатические зоны мира |
 | 5.12-A | Global climate belts / Климатические пояса мира |
 | 5.14-A | Atmospheric hazards / Опасные атмосферные явления |
 | 5.15-A | Climate change: drivers, evidence and responses / Причины, свидетельства и ответы на изменение климата |
