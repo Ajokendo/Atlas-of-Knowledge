@@ -33,6 +33,10 @@ async function run(mobile) {
       }
       if (!(await page.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i+1} has no title`);
       if (!(await page.locator('#readout').innerText()).trim()) throw new Error(`page ${i+1} has no live readout`);
+      if (i === 4) {
+        const motionalEmf = await page.locator('#sheet').innerText();
+        if (!motionalEmf.includes('|q|E') || !motionalEmf.includes('|q|vB')) throw new Error('motional-emf balance must use charge magnitudes for either charge sign');
+      }
     }
     const picker = page.locator('select.scene-picker');
     if (await picker.count() !== 1 || await picker.locator('option').count() < 2) throw new Error('accessible scene picker is missing usable objects');
