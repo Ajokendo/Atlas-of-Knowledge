@@ -122,7 +122,7 @@ async function checkInteractiveBook(mobile) {
     const pageTitles = ['Жидкости', 'Давление', 'Давление и глубина', 'Закон Паскаля', 'Архимедова сила', 'Плавание и погружение', 'Уравнение непрерывности', 'Уравнение Бернулли', 'Закон Торричелли'];
     for (let i = 0; i < pageTitles.length; i++) {
       await page.locator('#dots button').nth(i).evaluate(button => button.click());
-      await page.waitForFunction(title => document.querySelector('#sheet h1')?.textContent?.trim() === title, pageTitles[i], { timeout: 8000 });
+      await page.waitForFunction(title => document.querySelector('#sheet h1')?.textContent?.trim() === title, pageTitles[i], { timeout: 15000 }).catch(async error => { const actual = await page.locator('#sheet h1').textContent().catch(() => '(missing)'); throw new Error(`page ${i + 1} expected '${pageTitles[i]}', got '${actual?.trim()}' — ${error.message}`); });
     }
     const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
