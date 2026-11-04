@@ -348,3 +348,8 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Clarified that GBF Target 2 is a global objective measured against degraded ecosystem areas, not a 30% restoration quota for every country's total territory. RU/EN distinction between Targets 2 and 3 now explicit. Commit: `d8892146b1d3d58a8bcd6bfc4e9c46d18a08802e`.
+
+
+### Chapter 09 — WUP 2025 Degree of Urbanization thresholds — 5 November 2026
+
+- Added the level-1 grid-density and cluster-population thresholds for cities and towns/semi-dense areas in RU/EN; explicitly labelled them WUP 2025 statistical thresholds rather than national legal definitions. Checked against the 2025 methodology report. Commit: `e459800f4a7d7aa04a0cc9659b93048136858ca7`.
