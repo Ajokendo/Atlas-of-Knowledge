@@ -168,7 +168,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 Распределение почв закономерно связано с климатом, растительностью, рельефом, породами и историей территории. В равнинных областях часто проявляется широтная смена почв, а в горах — высотная поясность. Однако почвенная карта не является простым повторением карты климатических поясов: на неё влияют локальный дренаж, экспозиция, материнские породы и землепользование.
 
-Существуют различные системы классификации почв. Международная реферативная база почвенных ресурсов WRB (World Reference Base for Soil Resources; 4-е издание, 2022, с исправлениями 2024 года) используется для международного сопоставления. В национальных системах могут применяться другие диагностические горизонты, критерии и названия. Нельзя механически считать названия почв разных систем полными синонимами. Обозначения O, A, E, B, C и R в описании профиля — это обобщённая морфологическая схема горизонтов, а не полный ключ классификации WRB и не универсальная последовательность для каждой почвы. Формальная классификация требует проверки диагностических горизонтов, свойств и материалов по правилам выбранной системы; одного внешнего сходства профиля недостаточно.
+Существуют различные системы классификации почв. Международная реферативная база почвенных ресурсов WRB (World Reference Base for Soil Resources; 4-е издание, 2022, с исправлениями 2024 года) используется для международного сопоставления. В национальных системах могут применяться другие диагностические горизонты, критерии и названия. Нельзя механически считать названия почв разных систем полными синонимами. Обозначения H, O, A, E, B, C и R в описании профиля — это главные символы горизонтов и слоёв, а не полный ключ классификации WRB и не универсальная последовательность для каждой почвы. Формальная классификация требует проверки диагностических горизонтов, свойств и материалов по правилам выбранной системы; одного внешнего сходства профиля недостаточно.
 
 Крупные группы почв, часто встречающиеся в мировых обзорах:
 - органические почвы и торфяники;
@@ -375,7 +375,7 @@ The classical model identifies five main soil-forming factors: climate, organism
 
 A soil profile is a vertical section from the surface downwards in which genetic horizons can be distinguished. The number and expression of horizons depend on soil type and formation conditions.
 
-Soil-profile descriptions use symbols for master horizons and layers. The WRB system includes, among others, H, H, H, O, A, E, B, C and R; their presence and sequence depend on the soil:
+Soil-profile descriptions use symbols for master horizons and layers. The WRB system includes, among others, H, O, A, E, B, C and R; their presence and sequence depend on the soil:
 
 - **H:** an organic horizon or layer generally associated with prolonged water saturation and peat material;
 - **O:** an organic horizon or layer that is not peat or limnic material, usually consisting of plant remains and other organic matter;
