@@ -122,15 +122,19 @@
 
 Круговорот воды — непрерывное перемещение воды между океаном, атмосферой, сушей и подземными резервуарами.
 
-Основные стадии:
+Основные процессы круговорота:
 
-1. Испарение с поверхности океанов, озёр и рек.
-2. Транспирация — выделение водяного пара растениями.
-3. Конденсация и образование облаков.
-4. Выпадение осадков.
-5. Поверхностный сток.
-6. Инфильтрация — проникновение воды в грунт.
-7. Подземный сток и возвращение воды в водоёмы.
+1. **Испарение** с поверхности океанов, озёр, рек и почвы.
+2. **Транспирация** — выделение водяного пара растениями; вместе с испарением с суши её часто описывают общим термином «эвапотранспирация».
+3. **Конденсация** водяного пара и образование облаков.
+4. **Осадки** — выпадение дождя, снега и других форм атмосферной влаги.
+5. **Снеготаяние** и образование талого стока; часть осадков временно накапливается в снежном покрове и ледниках.
+6. **Поверхностный сток** по склонам и руслам рек.
+7. **Инфильтрация** — проникновение воды в почву, а затем её просачивание глубже и пополнение подземных вод.
+8. **Подземный поток и разгрузка** — движение подземных вод и их естественный выход в родниках, реках и океане.
+9. **Сублимация** — переход снега или льда непосредственно в водяной пар, минуя жидкую фазу.
+
+Это не замкнутая последовательность шагов: процессы могут идти одновременно, а вода может временно храниться в океане, атмосфере, почве, озёрах, снежном покрове, ледниках и водоносных горизонтах. Водозабор, водохранилища, орошение и осушение болот также меняют места хранения и пути движения воды.
 
 **Место для иллюстрации 2.4-A — The Global Water Cycle.** Океан, облака, испарение, атмосферный перенос, горные ледники, реки, подземные воды и возврат воды в океан.
 
@@ -588,7 +592,18 @@ The hydrosphere includes the world ocean, continental surface water, groundwater
 
 Groundwater includes both fresh and saline water, so its total share must not be treated entirely as freshwater. According to the USGS estimate, about 68.7% of all freshwater is stored in glaciers and permanent snow, while about 30.1% is fresh groundwater. Values are rounded; percentages may not sum to exactly 100%.
 
-**The water cycle** is the continuous movement of water among the ocean, atmosphere, land and underground reservoirs. Its main stages are evaporation from oceans, lakes and rivers; transpiration by plants; condensation and cloud formation; precipitation; surface runoff; infiltration into the ground; and groundwater flow back to water bodies.
+**The water cycle** is the continuous movement of water among the ocean, atmosphere, land and underground reservoirs. Its processes include:
+- **Evaporation** from oceans, lakes, rivers and soil.
+- **Transpiration** — water vapour released by plants; together with evaporation from land, it is often described as **evapotranspiration**.
+- **Condensation** of water vapour and cloud formation.
+- **Precipitation**, including rain and snow.
+- **Snowmelt** and meltwater runoff; some precipitation is temporarily stored in snowpack and glaciers.
+- **Surface runoff** across slopes and through river channels.
+- **Infiltration** into soil, followed by percolation and groundwater recharge.
+- **Groundwater flow and discharge** through springs and natural outflow to rivers and the ocean.
+- **Sublimation**, when snow or ice changes directly into water vapour without first melting.
+
+These processes do not form a fixed sequence and can occur simultaneously. Water may be stored temporarily in the ocean, atmosphere, soil, lakes, snowpack, glaciers and aquifers. Water withdrawals, reservoirs, irrigation and wetland drainage also alter where water is stored and how it moves.
 
 Water distribution depends on latitude, temperature, atmospheric circulation, relief, distance from oceans and geological structure. In mountains, windward slopes often receive more precipitation than leeward slopes because of orographic uplift and rain-shadow effects.
 
