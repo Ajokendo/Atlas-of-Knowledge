@@ -183,7 +183,11 @@
 
 Сейсмические исследования, гравиметрия, магнитометрия и электрические методы позволяют изучать строение недр без непосредственного отбора образцов на каждой глубине.
 
-**Место для иллюстрации 3.4-A — Geological Research Toolkit.** Полевой геолог, образец породы, тонкий шлиф под микроскопом, дифрактограмма и геофизический профиль.
+**Иллюстрация 3.4-A — Методы геологических исследований / Geological Research Toolkit.**
+
+![Полевые наблюдения, образец породы, тонкий шлиф, дифракционная диаграмма и геофизический профиль. / Field observations, rock specimen, thin section, diffraction pattern and geophysical profile.](../assets/03-4-A-geological-research-toolkit-bilingual.svg)
+
+*Методы дополняют друг друга; каждый отвечает на свой набор исследовательских вопросов. / Methods complement one another; each addresses a different set of research questions.*
 **EN:** Show a field geologist, a rock sample, a thin section under a microscope, an X-ray diffraction pattern and a geophysical profile.
 
 ## 3.5. Тектоника литосферных плит / Plate Tectonics
@@ -979,7 +983,11 @@ On a schematic geological cross-section, identify:
 **[ILLUSTRATION PLACEHOLDER 3.3-A — The Rock Cycle]** Diagram the transformations among igneous, sedimentary and metamorphic rocks, including weathering, erosion, deposition, burial, metamorphism, melting and crystallisation.
 
 
-**[ILLUSTRATION PLACEHOLDER 3.4-A — Geological Research Toolkit]** Show field geology, a rock specimen, a thin section under a microscope, an X-ray diffraction pattern and a geophysical profile. Label each method and its purpose.
+**Illustration 3.4-A — Geological Research Toolkit.**
+
+![Field observations, rock specimen, thin section, diffraction pattern and geophysical profile. / Полевые наблюдения, образец породы, тонкий шлиф, дифракционная диаграмма и геофизический профиль.](../assets/03-4-A-geological-research-toolkit-bilingual.svg)
+
+*Methods complement one another; each addresses a different set of research questions. / Методы дополняют друг друга; каждый отвечает на свой набор исследовательских вопросов.*
 
 
 **[ILLUSTRATION PLACEHOLDER 3.5-A — Global Plate Tectonic Map]** Map the major lithospheric plates and divergent, convergent and transform boundaries. Verify boundary geometry against an authoritative geological map; include a clear legend and motion arrows.
