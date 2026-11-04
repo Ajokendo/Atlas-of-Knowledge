@@ -157,7 +157,7 @@ Report these separately:
 
 **Current measured values (5 November 2026):**
 
-- **Image Coverage: 100% (53/53).** A direct scan of all 13 Biology HTML pages found 53 semantic `<figure>` elements at the mapped image anchors and zero remaining image placeholders.
+- **Image Coverage: 100% (53/53).** A scan of the 12 chapter HTML pages found 59 semantic `<figure>` elements in total: 57 figures containing external `<img>` elements and 2 figures containing inline SVG. The 57 image figures have alt attributes and visible captions; all local generated-image targets resolve. The 53/53 value is the number of mapped visual briefs, not the raw number of HTML figure elements.
 - **Image Verification: Pending audit (percentage not yet defensible).** The register still contains 33 rows with explicit pending final visual, morphology or browser-review notes. No 100% verification claim is permitted until every applicable per-asset human check is recorded.
 - **Image Gaps: 0 confirmed missing required briefs/assets.** This is a production-gap count only; an asset may still require correction or replacement if its pending scientific or visual review fails.
 
@@ -179,3 +179,8 @@ A repository-wide scan of the 12 Biology chapter HTML files checked every semant
 **Regression guard committed:** `checks.mjs` now fails if a semantic `figure` containing an `img` has no `figcaption`. Inline SVG teaching diagrams without an external `img` are not incorrectly caught by this specific rule.
 
 **Post-edit source scan:** Botany figures with images: 3; figures with captions: 3; figures with alt attributes: 3. All local generated-image references checked across the 12 chapter pages resolved to existing files. This is structural/source-level evidence, not a substitute for visual or semantic bilingual review. The global Image Verification status remains **Pending audit**.
+
+
+## Inventory count clarification — 5 November 2026
+
+A fresh scan of the chapter directory corrected an earlier shorthand in the 5 November metrics: there are **59 semantic figure elements**, not 53. Of these, **57 contain an external `img` element** and **2 contain inline SVG**. All 57 image figures have an `alt` attribute and a visible `figcaption`; no generated-image target path was missing. The separate **53/53** count remains the insertion-map visual-brief coverage and must not be presented as the count of HTML figure elements or image files. This clarification changes the inventory description, not the production-coverage numerator or the pending verification status.
