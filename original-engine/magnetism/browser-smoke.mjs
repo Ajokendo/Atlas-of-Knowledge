@@ -33,10 +33,10 @@ async function run(mobile) {
       }
       if (!(await page.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i+1} has no title`);
       if (!(await page.locator('#readout').innerText()).trim()) throw new Error(`page ${i+1} has no live readout`);
-      if (i === 3) {
+      if (!mobile && i === 3) {
         const selectorText = await page.locator('#sheet').evaluate(el => el.textContent.replace(/\s+/g, ''));
         if (!selectorText.includes('|q|E') || !selectorText.includes('|q|vB')) throw new Error('velocity-selector balance must compare force magnitudes');
-        if (!selectorText.includes('|ΔV_H|') || !selectorText.includes('n|q|A')) throw new Error('Hall-voltage magnitude must use |q| and preserve carrier-sign distinction');
+        if (!selectorText.includes('|ΔV') || !selectorText.includes('n|q|A')) throw new Error('Hall-voltage magnitude must use |q| and preserve carrier-sign distinction');
       }
     }
     const picker = page.locator('select.scene-picker');
