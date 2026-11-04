@@ -33,7 +33,7 @@
 <path d="M0 565 Q160 535 290 566 T560 560 Q720 540 850 565 T1200 548V675H0Z" fill="#8a9b68"/>
 <path d="M0 615 Q145 580 280 613 T560 610 Q720 590 870 614 T1200 595" stroke="#6da9b8" stroke-width="44" fill="none"/>
 <path d="M0 615 Q145 580 280 613 T560 610 Q720 590 870 614 T1200 595" stroke="#d8edf0" stroke-width="4" fill="none"/>
-<g fill="#54784d"><circle cx="160" cy="563" r="15"/><circle cx="185" cy="555" r="18"/><circle cx="215" cy="568" r="14"/><circle cx="970" cy="562" r="16/><circle cx="1000" cy="552" r="19"/><circle cx="1030" cy="565" r="13"/></g>
+<g fill="#54784d"><circle cx="160" cy="563" r="15"/><circle cx="185" cy="555" r="18"/><circle cx="215" cy="568" r="14"/><circle cx="970" cy="562" r="16"/><circle cx="1000" cy="552" r="19"/><circle cx="1030" cy="565" r="13"/></g>
 <!-- meadow grass strokes -->
 <g stroke="#e0d69a" stroke-width="3" fill="none"><path d="M400 510l-5-17m5 17 9-15m-9 15-12-10M690 500l-3-18m3 18 10-14m-10 14-12-11M780 520l-4-17m4 17 9-13"/></g>
 <!-- labels -->
