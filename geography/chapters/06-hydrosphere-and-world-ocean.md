@@ -742,14 +742,13 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 
 1. USGS Water Science School. **How Much Water Is There on Earth?** (2019; page accessed 5 November 2026) — estimates total water volume and distribution; the page identifies the global distribution figures as estimates and notes rounding. https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
 2. USGS Water Science School. *Water Basics Information by Topic*. https://www.usgs.gov/water-science-school/science/water-basics-information-topic
-2. NOAA National Ocean Service. *Ocean Facts*. https://oceanservice.noaa.gov/facts/
-3. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
-4. International Hydrographic Organization (IHO). *Standards and Specifications*. https://iho.int/en/standards-and-specifications
-5. National Snow and Ice Data Center (NSIDC). *Glaciers*. https://nsidc.org/learn/parts-cryosphere/glaciers
-6. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). *The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties*. IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
-7. NOAA. *Ocean Acidification*. https://www.noaa.gov/ocean-acidification
-8. USDA Forest Service. *Technical Guide to Ground Water Resource Management* (FS-881, 2007), section on watershed water budgets and the inflow–outflow–storage balance. https://www.fs.usda.gov/geology/FINAL_Ground%20Water%20Technical%20Guide_FS-881_March2007.pdf
-
+3. NOAA National Ocean Service. *Ocean Facts*. https://oceanservice.noaa.gov/facts/
+4. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
+5. International Hydrographic Organization (IHO). *Standards and Specifications*. https://iho.int/en/standards-and-specifications
+6. National Snow and Ice Data Center (NSIDC). *Glaciers*. https://nsidc.org/learn/parts-cryosphere/glaciers
+7. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). *The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties*. IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
+8. NOAA. *Ocean Acidification*. https://www.noaa.gov/ocean-acidification
+9. USDA Forest Service. *Technical Guide to Ground Water Resource Management* (FS-881, 2007), section on watershed water budgets and the inflow–outflow–storage balance. https://www.fs.usda.gov/geology/FINAL_Ground%20Water%20Technical%20Guide_FS-881_March2007.pdf
 При использовании численных данных о запасах воды, океанических глубинах, ледниках и речном стоке следует фиксировать год, пространственный охват, методику оценки и единицы измерения. Данные о запасах (например, км³) нельзя смешивать с потоками за период (например, км³/год).
 
 ## Редакционные и научные примечания
