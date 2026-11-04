@@ -151,7 +151,7 @@
 | Плотность | В среднем ниже | В среднем выше |
 | Возраст | Некоторые участки старше 4 млрд лет | Обычно значительно моложе |
 
-Толщина континентальной коры увеличивается под многими крупными горными системами.
+Толщина континентальной коры особенно велика под многими крупными горными поясами, в том числе сформированными при столкновении континентальных плит. Средние значения в таблице являются ориентировочными: реальная толщина сильно меняется от региона к региону, а под отдельными высокими горными системами может превышать 60–70 км.
 
 ### 2.5.2. Тектонические процессы / Plate Tectonics
 
@@ -603,7 +603,7 @@ The lithosphere consists of Earth's crust and rigid upper mantle. It is divided 
 | Density | Lower on average | Higher on average |
 | Age | Some areas are more than 4 billion years old | Generally much younger |
 
-Continental crust is especially thick beneath many major mountain systems.
+Continental crust is especially thick beneath many major mountain belts, including those formed by continental collision. The table gives approximate averages: actual thickness varies greatly from region to region and can exceed 60–70 km beneath some high mountain systems.
 
 **Plate tectonics.** At divergent boundaries plates move apart; at convergent boundaries they move towards one another; at transform boundaries they slide horizontally past each other. Plate interactions are associated with mountain building, earthquakes, volcanism, ocean trenches, faults and folded structures.
 
@@ -767,10 +767,12 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 17. The Open University. *Eutrophication: Phosphorus*. https://www.open.edu/openlearn/nature-environment/environmental-studies/eutrophication/content-section-3.1.1
 18. National Oceanic and Atmospheric Administration. *The Atmosphere* (chemical composition of dry air; table excludes water vapour). https://www.noaa.gov/jetstream/atmosphere
 19. U.S. Geological Survey. *Understanding Plate Motions* (This Dynamic Earth; divergent, convergent and transform boundaries). https://pubs.usgs.gov/gip/dynamic/understanding.html
+20. Mooney, W. D. (2025). *Secular Evolution of the Seismic Structure of Continental Crust, Archean to Present*. Journal of Geophysical Research: Solid Earth. https://doi.org/10.1029/2025JB031907
+21. National Oceanic and Atmospheric Administration, Ocean Exploration. *What features form at plate tectonic boundaries?* https://oceanexplorer.noaa.gov/ocean-fact/tectonic-features/
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
-Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
+Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
 
 ## Редакционные и научные примечания
 
