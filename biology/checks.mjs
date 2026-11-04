@@ -116,7 +116,7 @@ for (const file of pages) {
   }
 }
 
-// Keep the 52 planned image anchors and their central production map in sync; one brief may map to multiple source-backed WebP files.
+// Keep the 53 planned image anchors and their central production map in sync; one brief may map to multiple source-backed WebP files.
 const imageMapPath = path.join(root, "IMAGE_INSERTION_MAP.md");
 if (!fs.existsSync(imageMapPath)) {
   errors.push("Missing Biology IMAGE_INSERTION_MAP.md");
@@ -647,19 +647,19 @@ for (const rel of imagePages) {
   if (briefs.length === 0 && producedFigures.length === 0) errors.push(rel + ": expected planned or produced image-generation markers");
 }
 if (new Set(imageBriefIds).size !== imageBriefIds.length) errors.push("Image-generation brief IDs must be unique across all Biology pages");
-if (imageBriefCount !== 52) errors.push("Expected 52 in-page planned or produced image briefs, found " + imageBriefCount);
+if (imageBriefCount !== 53) errors.push("Expected 53 in-page planned or produced image briefs, found " + imageBriefCount);
 const geneticsImageBriefFile = fs.readFileSync(path.join(root, "chapters/genetics.html"), "utf8");
 if (!geneticsImageBriefFile.includes('id="image-brief-genetics-dna-packaging"') || !geneticsImageBriefFile.includes("genetics-dna-packaging.webp") || geneticsImageBriefFile.includes("genetics-central-dogma.webp")) {
   errors.push("chapters/genetics.html: DNA-packaging image brief ID and target filename must match its actual subject");
 }
 const imageInsertionMap = fs.readFileSync(path.join(root, "IMAGE_INSERTION_MAP.md"), "utf8");
 const insertionMapIds = [...imageInsertionMap.matchAll(/^\| `image-brief-([^ `]+)`/gm)].map(m => m[1]);
-if (insertionMapIds.length !== 52 || new Set(insertionMapIds).size !== 52) errors.push("IMAGE_INSERTION_MAP.md must contain 52 unique insertion anchors; found " + insertionMapIds.length);
+if (insertionMapIds.length !== 53 || new Set(insertionMapIds).size !== 53) errors.push("IMAGE_INSERTION_MAP.md must contain 53 unique insertion anchors; found " + insertionMapIds.length);
 const imageDispositionRegister = fs.readFileSync(path.join(root, "IMAGE_DISPOSITION_REGISTER.md"), "utf8");
 const dispositionTableRows = imageDispositionRegister.split("\n").filter(line => line.startsWith("| `image-brief-"));
 const imageDispositionIds = dispositionTableRows.map(line => (line.match(/^\| `image-brief-([^ `]+)`/) || [])[1]).filter(Boolean);
-if (dispositionTableRows.length !== 52 || new Set(imageDispositionIds).size !== 52) {
-  errors.push("IMAGE_DISPOSITION_REGISTER.md must contain 52 unique image decisions (deferred or produced); found " + dispositionTableRows.length);
+if (dispositionTableRows.length !== 53 || new Set(imageDispositionIds).size !== 53) {
+  errors.push("IMAGE_DISPOSITION_REGISTER.md must contain 53 unique image decisions (deferred or produced); found " + dispositionTableRows.length);
 }
 for (const id of insertionMapIds) if (!imageDispositionIds.includes(id)) errors.push("IMAGE_DISPOSITION_REGISTER.md is missing disposition for " + id);
 for (const line of dispositionTableRows) {
@@ -711,7 +711,7 @@ if (priorityCounts.P1 !== 13 || priorityCounts.P2 !== 26 || priorityCounts.P3 !=
 if (!imagePlanFile.includes("P1 — highest value") || !imagePlanFile.includes("P2 — useful complement") || !imagePlanFile.includes("P3 — lower priority")) {
   errors.push("IMAGE_GENERATION_PLAN.md must define all three image-production priority levels");
 }
-if (imageChecklistCount !== 52) errors.push("IMAGE_GENERATION_PLAN.md must contain 52 explicitly deferred checklist items, found " + imageChecklistCount);
+if (imageChecklistCount !== 53) errors.push("IMAGE_GENERATION_PLAN.md must contain 53 explicitly deferred checklist items, found " + imageChecklistCount);
 if (!imagePlanFile.includes("Change `[~]` to `[x]` only after the exact asset exists") || !imagePlanFile.includes("Do not ask the image model to invent species")) {
   errors.push("IMAGE_GENERATION_PLAN.md must retain the scientific-review and no-invented-species production rules");
 }
