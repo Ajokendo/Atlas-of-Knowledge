@@ -354,7 +354,11 @@
 
 DEM используют для расчёта уклонов, экспозиции склонов, водосборов, линий водоразделов, объёмов земляных работ и других параметров. Важно учитывать пространственное разрешение, вертикальную точность, горизонтальную и вертикальную системы отсчёта, источник и дату съёмки, метод обработки, а также наличие растительности или зданий. Более мелкий размер ячейки сам по себе не гарантирует большей точности: разрешение должно соответствовать плотности и качеству исходных данных.
 
-**Место для иллюстрации 4.14-A — Reading a Topographic Map.** Фрагмент топографической карты с горизонталями, отметками высот, водоразделом, долиной и построенным профилем.
+**Иллюстрация 4.14-A — Чтение топографической карты / Reading a Topographic Map.**
+
+![Условная топографическая карта с горизонталями, ручьём, высотной отметкой и линией профиля A–B. / Schematic topographic map with contours, stream, spot height and A–B profile line.](../assets/04-14-A-topographic-map-bilingual.svg)
+
+*Схематический учебный пример, не геопривязанная карта. Интервал горизонталей на рисунке условно принят равным 20 м; принципы чтения горизонталей сверены с USGS Topographic Mapping и US Topo Map Symbol Guide. / Schematic teaching example, not a georeferenced map. The illustrative contour interval is 20 m; contour-reading principles follow the USGS Topographic Mapping and US Topo Map Symbol Guide.*
 
 **Место для иллюстрации 4.14-B — DEM, DSM and DTM.** Сравнительный поперечный разрез одной местности: голая поверхность земли, верх растительности и зданий, ледниковая поверхность и коренное ложе; показать ячейки сетки и метаданные (разрешение, вертикальную точность, систему высот и дату съёмки).
 
@@ -698,6 +702,12 @@ Common representation methods include:
 - **relief profiles**, showing elevation changes along a chosen line.
 
 On a standard topographic map, contour lines normally do not cross; overhanging terrain requires special cartographic treatment. The closer the contours, the steeper the slope, provided the contour interval is constant.
+
+**Illustration 4.14-A — Reading a Topographic Map.**
+
+![Schematic topographic map with contours, stream, spot height and A–B profile line. / Условная топографическая карта с горизонталями, ручьём, высотной отметкой и линией профиля A–B.](../assets/04-14-A-topographic-map-bilingual.svg)
+
+*Schematic teaching example, not a georeferenced map. The illustrative contour interval is 20 m; contour-reading principles follow the USGS Topographic Mapping and US Topo Map Symbol Guide. / Схематический учебный пример, не геопривязанная карта. Интервал горизонталей условно принят равным 20 м; принципы чтения горизонталей сверены с USGS Topographic Mapping и US Topo Map Symbol Guide.*
 
 #### 4.14.2. Digital Elevation Models
 
