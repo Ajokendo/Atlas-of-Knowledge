@@ -29,7 +29,7 @@
 
 **Главная идея географии:** природные и общественные явления распределены по поверхности Земли не случайно. Их размещение формируется взаимодействием природных условий, истории, технологий, экономики, культуры и решений людей.
 
-**Иллюстрация 1.1-A — Geography Connects the Earth.** Центральная схема: Земля как система; вокруг неё — природа, население, города, хозяйство, культура, транспорт и окружающая среда. Между блоками показать двусторонние связи, а не изолированные категории.
+**Визуальное задание 01-A / Visual brief 01-A — Geography Connects the Earth.** Центральная схема: Земля как система; вокруг неё — природа, население, города, хозяйство, культура, транспорт и окружающая среда. Между блоками показать двусторонние связи, а не изолированные категории.
 
 ## 1.2. Объект, предмет и географическое мышление / Object, Subject and Geographical Thinking
 
@@ -86,7 +86,7 @@
 
 Например, оценка риска наводнения включает рельеф и осадки, характеристики речного бассейна, землепользование, расположение домов и дорог, уязвимость населения и готовность служб реагирования.
 
-**Иллюстрация 1.3-A — Branches of Geography.** Дерево направлений: физическая география, география человека, интегративные исследования и прикладная география. Показать пересечения, не создавая впечатления жёстких границ между ними.
+**Визуальное задание 01-D / Visual brief 01-D — Branches of Geography.** Дерево направлений: физическая география, география человека, интегративные исследования и прикладная география. Показать пересечения, не создавая впечатления жёстких границ между ними.
 
 ## 1.4. Географическое пространство, место и территория / Geographical Space, Place and Territory
 > **[МЕТКА ИЛЛЮСТРАЦИИ 01-B / IMAGE PLACEHOLDER 01-B]** Схема абсолютного и относительного местоположения, места, территории и пространственных связей. / Diagram of absolute and relative location, place, territory and spatial relationships.
@@ -139,7 +139,7 @@
 
 Нельзя автоматически переносить закономерность одного уровня на другой. Средняя температура страны не описывает климат каждого её района; национальный показатель безработицы не показывает различия между городами и сельскими территориями. Это пример опасности чрезмерного обобщения.
 
-**Иллюстрация 1.6-A — From Local to Global.** Последовательность карт одного региона: населённый пункт → район → страна → мир. Подчеркнуть, что на каждом уровне становятся видны разные процессы.
+**Визуальное задание 01-E / Visual brief 01-E — From Local to Global.** Последовательность карт одного региона: населённый пункт → район → страна → мир. Подчеркнуть, что на каждом уровне становятся видны разные процессы.
 
 ## 1.7. Методы географического исследования / Methods of Geographical Research
 > **[МЕТКА ИЛЛЮСТРАЦИИ 01-C / IMAGE PLACEHOLDER 01-C]** Цикл географического исследования от вопроса и данных до анализа, карты и вывода. / Geographic research cycle from question and data to analysis, map and conclusion.
@@ -328,6 +328,8 @@ The same process may look different at the scale of a household, neighbourhood, 
 ## English-language chapter text
 
 ### 1.1. What Is Geography?
+> **[VISUAL PLACEHOLDER 01-A]** Infographic showing geography as the study of spatial systems: nature, population, economic activity and their connections.
+
 
 Geography is the study of Earth as humanity's shared home and of the spatial differences, connections and changes that shape natural and human phenomena. It asks **where** processes occur, **why** they take place in particular ways, **how** places are connected and **how** they change over time.
 
@@ -356,6 +358,8 @@ Geographical thinking uses several complementary questions:
 6. **Significance and consequences:** Who is affected, and what decisions might be made?
 
 ### 1.3. Geography among the Sciences
+> **[VISUAL PLACEHOLDER 01-D]** A branching diagram of physical geography, human geography, integrative research and applied geography, showing overlaps rather than rigid boundaries.
+
 
 Geography lies at the intersection of the natural, social and technical sciences. Its interdisciplinary character is not simply a collection of unrelated topics; it is a way of studying complex systems that cannot be fully understood from the perspective of one discipline alone.
 
@@ -368,6 +372,8 @@ The English term *human geography* is broader than the literal translation “so
 **Integrative and applied geography** connects natural and human analysis. Environmental geography, water-resource management, natural-hazard assessment, spatial planning, geoinformatics and sustainable development all draw on several fields. For example, flood-risk assessment combines relief and rainfall, river-basin characteristics, land use, the location of homes and roads, population vulnerability and emergency preparedness.
 
 ### 1.4. Geographical Space, Place and Territory
+> **[VISUAL PLACEHOLDER 01-B]** Diagram comparing absolute and relative location, place, territory and spatial connections.
+
 
 These concepts are related but not identical.
 
@@ -400,6 +406,8 @@ A spatial pattern does not, by itself, explain its cause. A concentration of cit
 Geography also examines flows and interactions: daily commuting, migration, trade, water movement, pollutant transport, tourism routes and digital communications. Places are connected not only by proximity but also by exchange.
 
 ### 1.6. Geographical Scale and Levels of Analysis
+> **[VISUAL PLACEHOLDER 01-E]** A sequence of maps showing the same area at settlement, district, national and global levels, with different patterns visible at each scale.
+
 
 Geographical scale is a key research tool. The same phenomenon may look different at different levels:
 
@@ -414,6 +422,8 @@ Map scale and the scale of analysis are related but different concepts. Map scal
 A pattern observed at one level cannot automatically be transferred to another. A country's average temperature does not describe the climate of every district; a national unemployment rate does not reveal differences between cities and rural areas. This is a form of overgeneralisation.
 
 ### 1.7. Methods of Geographical Research
+> **[VISUAL PLACEHOLDER 01-C]** Flow diagram of a geographical research cycle: question, data collection, validation, spatial analysis, map or visualisation, conclusion and communication.
+
 
 Geographical research begins with a clearly framed question and the selection of suitable evidence. No single method is appropriate for every task.
 
