@@ -1,7 +1,7 @@
 # Geography visual asset register
 **Audit date:** 4 November 2026  
 **Canonical branch:** `workspace/geography`  
-**Status:** 217 unique visual IDs indexed across 26 chapters. Chapter 02 has 8 remote source images and one original bilingual SVG; visual coverage is partial and technical acceptance is still open.
+**Status:** 217 unique visual IDs indexed across 26 chapters. Chapter 02 has 8 remote source images and 4 original bilingual SVGs; 10 of 18 visual IDs have dedicated imagery, and technical acceptance is still open.
 
 ## Purpose and production rule
 
