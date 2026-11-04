@@ -1,5 +1,8 @@
 # Physics — IMAGE_SOURCES
 
+- Applicable universal standard: [`IMAGE-FIRST POLICY v1.1`](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md) (`AOK-IMG-001`).
+- Working branch: `workspace/physics`.
+
 This register documents every visual asset integrated into the Physics atlas. Add one complete record per asset. Do not list search results or unverified candidates as integrated.
 
 ## Reporting metrics — provisional during source-lineage audit
@@ -133,8 +136,8 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Learning objective: Show an object moving along an inclined plane and relate its height to gravitational potential energy per unit mass
 - File: `physics-lab.js`
 - Original source: Original in-repository Three.js scene code; no external image source
-- Author / creator: Atlas of Knowledge repository code; individual author not specified in file
-- License: MIT License (repository LICENSE; copyright notice retained)
+- Author / creator: **Unknown / PENDING** — the code is in the derivative repository, but its relationship to Nathan Liow's upstream scene has not yet been compared line by line; do not infer independent authorship.
+- License: Repository-level MIT License is present, with Nathan Liow's copyright notice; applicability to this exact inherited visual and any embedded third-party components remains **PENDING**.
 - License URL: https://opensource.org/license/mit/
 - Access date: 2026-11-04
 - RU caption: Трёхмерная модель движения тела по наклонной поверхности
@@ -143,7 +146,7 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Alt EN: A sphere on an inclined plane; the model illustrates motion and changing height
 - Modified: No external asset; rendered programmatically with Three.js
 - Scientific review: Conceptual model; the phase slider moves the sphere down the incline and updates Eп/m = gh. It illustrates the height dependence of potential energy, not a complete quantitative energy-conservation simulation
-- Rights review: No third-party image rights involved; repository MIT licence applies and attribution notice must be retained
+- Rights review: **PENDING** — confirm source lineage and whether any separately licensed or third-party components are embedded; repository-level MIT notice alone is not a visual-by-visual rights determination.
 - Integration: Shared 3D laboratory component in `chapters/work-energy.html`
 - Mobile check: Verified in GitHub Actions on 2026-11-04 at 390×844; the canvas chart / WebGL scene rendered without horizontal page overflow.
 
