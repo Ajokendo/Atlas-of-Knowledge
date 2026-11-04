@@ -17,7 +17,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 | 02 | 19 IDs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A, 2.14-A, 2.15-A | 19 | Geographic envelope; Earth spheres; atmosphere; global water; plate tectonics; biosphere; energy; zonation; biogeochemical cycles; geosystems; feedbacks; human pressure; planetary boundaries; integrated Earth system |
 | 03 | 13 IDs (3.1-A, 3.2-A, 3.3-A, 3.4-A, 3.5-A, 3.6-A, 3.7-A, 3.8-A, 3.9-A, 3.10-A, 3.11-A, 3.12-A, 3.12-B) | 13 | Earth structure; minerals; rock cycle; geological methods; plate tectonics; earthquakes; volcanism; folds and faults; geological time; supercontinents; mineral resources; hazards; cross-section interpretation |
 | 04 | 16 IDs (4.2-A, 4.3-A, 4.4-A, 4.5-A, 4.6-A, 4.7-A, 4.8-A, 4.9-A, 4.10-A, 4.11-A, 4.12-A, 4.13-A, 4.14-A, 4.14-B, 4.15-A, 4.15-B) | 16 | Endogenic/exogenic processes; landform classification; mountains; plains and plateaus; fluvial, glacial, aeolian, karst and coastal landforms; slope processes; weathering; global extremes; topographic maps; DEM/DSM/DTM; human modification; map exercise |
-| 05 | 5-A–5-D | 4 | Atmospheric layers; radiation balance; circulation; cloud and precipitation formation |
+| 05 | 20 IDs (5.1-A–5.18-A, including subsection-specific IDs) | 20 | Atmospheric structure and composition; radiation and energy balance; temperature; pressure and wind; circulation; humidity, clouds and precipitation; fronts; weather and climate; climate controls and classification; climate belts; microclimates; hazards; climate change; observation-to-forecast process; climate-graph and synoptic-map exercises |
 | 06 | 6-A–6-D | 4 | Water cycle; oceans; ocean floor; waves, tides and currents |
 | 07 | 07-A–07-I | 9 | Biosphere; tolerance; food webs; biogeographical realms; biomes; aquatic zonation; connectivity; carbon and nitrogen cycles |
 | 08 | 08-A–08-G | 7 | Soil profiles; soil formation; global soils; erosion; landscape morphology and mosaic |
@@ -41,6 +41,8 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 | 26 | 26-A–26-L | 12 | Climate; glaciers and water; river-basin vulnerability; pastures; forests; air; sanitation; waste; hazards; mining; green cities; 2050 scenarios |
 
 **Total indexed assets: 220 unique IDs across 26 chapters.**
+
+- **Chapter 05 visual production (5 Nov 2026):** 15 unique visuals are now integrated in the bilingual chapter, including the original `chapter-05-weather-observations-to-forecast.svg` (5.16-A). Two exercise visuals remain (5.17-A climate-graph reading; 5.18-A synoptic-map and climate analysis). The new 5.16-A diagram distinguishes observation platforms, quality control, data assimilation, numerical prediction, ensemble/forecaster interpretation, forecast products and verification; it explicitly notes that satellites provide observations rather than independently making forecasts. The chapter section is expanded in Russian and English with ECMWF/WMO sources. Static SVG source validation and Markdown-link presence are checked; deployed rendering and device/accessibility QA remain separate.
 
 ## Important consistency repairs in this pass
 
