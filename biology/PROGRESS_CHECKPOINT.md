@@ -1,3 +1,14 @@
+## Author-controlled completion update — 4 November 2026 (supersedes older readiness notes)
+
+- Latest full Biology CI: [run 41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607), commit `9d4b79ff0297d95fcdb1998c58f6e973fd81ecc6`, completed **successfully** on `workspace/biology`. The `validate` job passed.
+- The run includes expanded browser-smoke assertions for raster `img.decode()`, intrinsic image dimensions, alt attributes and non-zero inline-SVG geometry, in addition to the existing 13-page mobile/desktop Chromium checks, bilingual switching, accessibility rules, contrast sampling and keyboard checks.
+- The 53/53 visual-brief count is asset production/integration coverage. The automated smoke suite checks image loading and basic rendered geometry across chapter pages; it does **not** certify detailed artistic/scientific appearance or replace human visual review.
+- G4 scientific and G5 bilingual/editorial **author-side** audits are complete (4/4 blocks each). The independent-review packet is explicitly optional and was not commissioned; it is not a mandatory completion gate.
+- Hands-on NVDA/TalkBack/VoiceOver and physical-device sessions cannot honestly be marked passed by headless CI. They remain documented as **not yet performed** and are a separate validation activity.
+- No changes to `main`, other subject folders, shared portal or publishing settings. Work remains confined to `biology/` on `workspace/biology`.
+
+---
+
 # Biology development checkpoint
 
 ## Superseding visual-production update — 4 November 2026
