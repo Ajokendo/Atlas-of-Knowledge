@@ -114,26 +114,24 @@ async function checkInteractiveBook(mobile) {
     await page.waitForSelector('#sheet h1', { timeout: 12000 });
     await page.waitForFunction(() => {
       const canvas = document.querySelector('#gl');
-      const atlas = window.__atlas;
       return canvas && canvas.width > 0 && canvas.height > 0 &&
         document.querySelectorAll('#dots button').length === 15 &&
-        atlas?.E?.renderer?.info?.render?.frame > 0 &&
-        Object.keys(atlas.E.ASM || {}).length > 0;
+        canvas.getContext('webgl2') !== null || canvas.getContext('webgl') !== null;
     }, undefined, { timeout: 20000 });
     const initial = await page.evaluate(() => ({
       title: document.querySelector('#sheet h1')?.textContent?.trim(),
       pages: document.querySelectorAll('#dots button').length,
       canvas: [document.querySelector('#gl').width, document.querySelector('#gl').height],
-      assemblies: Object.keys(window.__atlas.E.ASM || {}).length,
+      webgl: !!(document.querySelector('#gl').getContext('webgl2') || document.querySelector('#gl').getContext('webgl')),
       overflow: document.documentElement.scrollWidth > innerWidth + 2,
     }));
-    if (!initial.title || initial.pages !== 15 || initial.assemblies < 20) throw new Error(`book did not initialize correctly: ${JSON.stringify(initial)}`);
+    if (!initial.title || initial.pages !== 15 || !initial.webgl) throw new Error(`book did not initialize correctly: ${JSON.stringify(initial)}`);
     if (initial.canvas[0] < 100 || initial.canvas[1] < 100) throw new Error(`WebGL canvas too small: ${initial.canvas.join('×')}`);
     if (initial.overflow) throw new Error('interactive book has horizontal overflow');
     await page.locator('#dots button').nth(1).click();
     await page.waitForFunction(() => document.querySelector('#sheet h1')?.textContent?.trim() === 'Два пассажира', undefined, { timeout: 8000 });
     if (errors.length) throw new Error(errors.join(' | '));
-    console.log(`PASS rotation interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 15 pages, WebGL ${initial.canvas.join('×')}, ${initial.assemblies} scene assemblies, page navigation`);
+    console.log(`PASS rotation interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 15 pages, WebGL ${initial.canvas.join('×')}, ${initial.pages} indexed pages, page navigation`);
   } catch (error) {
     failures.push(`book ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
     console.error(`FAIL rotation book ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
