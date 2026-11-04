@@ -25,12 +25,16 @@ After studying this chapter, readers will be able to explain core demographic co
 
 Перепись стремится охватить всё население в установленный период и по единым правилам. Между переписями численность обычно оценивается с учётом рождений, смертей и миграции. Качество статистики зависит от полноты охвата, своевременности регистрации, точности ответов и прозрачности методик.
 
+> **[МЕТКА ИЛЛЮСТРАЦИИ 09-G / IMAGE PLACEHOLDER 09-G]** Схема источников демографических данных и типов показателей, получаемых из каждого источника. / Diagram of demographic data sources and the types of indicators obtained from each source.
 **Рисунок 9.1 / Figure 9.1 — Источники демографических данных / Sources of demographic data.**  
 Техническое задание: центральный блок «население» соединить с переписью, регистрацией актов гражданского состояния, обследованиями, административными данными и геопространственными источниками; показать, какие показатели даёт каждый источник; все подписи двуязычные.
 **EN production brief:** Place “Population” in the centre and connect it to census data, civil registration, surveys, administrative records and geospatial sources. Show which indicators each source provides; all labels must be bilingual.
 
 ## 9.2. Численность населения и её изменение / Population Size and Change
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-A / IMAGE PLACEHOLDER 09-A]** График численности населения мира; наблюдения и прогнозы показать раздельно. / World population trend chart, separating observations from projections.
+**Рисунок 9.2 / Figure 9.2 — Изменение численности населения мира / World population change.**  
+Техническое задание: показать исторический ряд оценок отдельно от прогнозной части; обозначить базовый год, горизонт и сценарий WPP 2024; если используются интервалы неопределённости, объяснить их значение; не соединять наблюдения и прогнозы как один непрерывный ряд без визуального разграничения.
+**EN production brief:** Separate historical estimates from the projection period; identify the base year, horizon and WPP 2024 scenario. If uncertainty intervals are shown, explain them. Do not present observations and projections as one undifferentiated continuous series.
 
 
 
@@ -101,7 +105,7 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 Число стадий и их названия различаются между версиями модели. Это аналитическая схема, а не универсальный закон: войны, эпидемии, миграция, государственная политика и культурные особенности могут менять траектории.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-D / IMAGE PLACEHOLDER 09-D]** Модель демографического перехода с кривыми рождаемости, смертности и естественного прироста; указать, что схема обобщённая. / **EN:** Demographic transition model with fertility, mortality and natural-increase curves; identify it as a generalised model.
-**Рисунок 9.2 / Figure 9.2 — Модель демографического перехода / Demographic transition model.**  
+**Рисунок 9.3 / Figure 9.3 — Модель демографического перехода / Demographic transition model.**  
 Техническое задание: график с условными кривыми рождаемости, смертности и естественного прироста по стадиям; оси и легенда на двух языках; явно обозначить, что это концептуальная модель, а не данные конкретной страны.
 **EN production brief:** Draw a graph with illustrative curves for birth rate, death rate and natural increase across the stages. Use bilingual axes and legend, and label it clearly as a conceptual model rather than data from a particular country.
 
@@ -122,7 +126,7 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 
 Пирамида отражает не только рождаемость и смертность, но и миграцию, исторические события и статистические ошибки. Для анализа полезно сравнивать несколько дат и изучать абсолютные числа вместе с долями.
 
-**Рисунок 9.3 / Figure 9.3 — Типы возрастно-половых пирамид / Types of age-sex pyramids.**  
+**Рисунок 9.4 / Figure 9.4 — Типы возрастно-половых пирамид / Types of age-sex pyramids.**  
 Техническое задание: три условные пирамиды — расширяющаяся, стационарная и сужающаяся; мужчины слева, женщины справа; возрастные группы снизу вверх; использовать одинаковую шкалу и объяснить, что формы схематические.
 **EN production brief:** Show three hypothetical population pyramids: expanding, stationary and contracting. Place males on the left and females on the right, arrange age groups from youngest at the bottom to oldest at the top, use the same scale for all three, and identify the shapes as schematic.
 
@@ -173,7 +177,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 Не каждое перемещение является миграцией в статистическом смысле: поездки на работу, туризм и кратковременные визиты обычно учитываются отдельно. Вынужденное перемещение включает ситуации, когда люди покидают дома из-за конфликтов, преследования, насилия, стихийных бедствий или иных угроз. Если люди вынуждены покинуть дом, но остаются в пределах международно признанных границ своей страны, их называют внутренне перемещёнными лицами (ВПЛ); они не являются беженцами только на основании такого перемещения. Для статуса беженца требуется пересечение международной границы и соответствие применимому правовому определению. Поэтому термины «вынужденное перемещение», «ВПЛ», «беженец» и «мигрант» нельзя использовать как взаимозаменяемые.
 
-**Рисунок 9.4 / Figure 9.4 — Формы миграции / Forms of migration.**  
+**Рисунок 9.5 / Figure 9.5 — Формы миграции / Forms of migration.**  
 Техническое задание: схема внутренней и международной миграции, сезонного перемещения, возвратной миграции и вынужденного перемещения; не изображать стрелки как реальные маршруты без подтверждённых данных.
 **EN production brief:** Diagram internal and international migration, seasonal movement, return migration and forced displacement. Do not present arrows as real routes unless supported by verified data.
 
@@ -209,7 +213,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 Крупные зоны концентрации населения исторически формировались в районах благоприятных условий земледелия, речных долин, побережий, промышленных узлов и транспортных коридоров. Большие пустынные, высокогорные, полярные и удалённые районы обычно заселены реже, но и там существуют локальные центры расселения.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-E / IMAGE PLACEHOLDER 09-E]** Карта глобальной плотности населения на сопоставимую дату с единицами, источником и проекцией. / **EN:** Global population-density map for a stated reference date, with units, source and projection.
-**Рисунок 9.5 / Figure 9.5 — Глобальная плотность населения / Global population density.**  
+**Рисунок 9.6 / Figure 9.6 — Глобальная плотность населения / Global population density.**  
 Техническое задание: карта плотности населения на основе одной согласованной даты и пространственной сетки; использовать логарифмическую или категориальную шкалу, если диапазон значений велик; указать источник, год, проекцию и разрешение; не подменять плотность населения картой административных средних.
 **EN production brief:** Map population density using a consistent reference date and spatial grid. Use a logarithmic or categorical scale if the value range is large; state the source, year, projection and resolution. Do not substitute administrative-area averages for a gridded density surface.
 
@@ -232,7 +236,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 Планирование устойчивой урбанизации включает общественный транспорт, доступное жильё, смешанное землепользование, зелёную инфраструктуру, защиту водосборов, управление отходами и участие жителей.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-F / IMAGE PLACEHOLDER 09-F]** Последовательность роста городской агломерации с ядром, пригородами и изменением застроенной территории по датированным данным. / **EN:** Urban-agglomeration growth sequence showing the core, suburbs and built-up-area change using dated data.
-**Рисунок 9.6 / Figure 9.6 — Рост городской агломерации / Growth of an urban agglomeration.**  
+**Рисунок 9.7 / Figure 9.7 — Рост городской агломерации / Growth of an urban agglomeration.**  
 Техническое задание: последовательные карты условной агломерации в три временных среза; показать ядро, пригородное расширение, транспортные связи и зелёные зоны; подчеркнуть, что административная граница и функциональная зона различаются.
 **EN production brief:** Create a sequence of three maps showing a hypothetical urban agglomeration at different dates. Show the urban core, suburban expansion, transport links and green spaces; emphasise that the administrative boundary and functional urban area are not the same.
 
@@ -550,7 +554,7 @@ For international mobility statistics, the United Nations distinguishes internat
 
 ### Практическая работа 3. Чтение возрастно-половой пирамиды / Practical activity 3. Reading an age-sex pyramid
 
-Сравните три учебные пирамиды из рисунка 9.3. Опишите различия в основании и верхней части, сформулируйте гипотезы о рождаемости и старении. Укажите, какие дополнительные данные нужны для проверки гипотез.
+Сравните три учебные пирамиды из рисунка 9.4. Опишите различия в основании и верхней части, сформулируйте гипотезы о рождаемости и старении. Укажите, какие дополнительные данные нужны для проверки гипотез.
 
 ### Практическая работа 4. Пространственная плотность / Practical activity 4. Spatial density
 
@@ -597,7 +601,7 @@ For international mobility statistics, the United Nations distinguishes internat
 
 **2. Calculating demographic rates.** A hypothetical area has a mid-year population of 250,000, with 3,250 live births and 2,000 deaths during the year. Calculate the crude birth and death rates per 1,000 residents. Explain why these data are insufficient to estimate total fertility or age-specific mortality risks.
 
-**3. Reading an age-sex pyramid.** Compare the three teaching pyramids in Figure 9.3. Describe differences in their bases and upper sections and formulate hypotheses about fertility and ageing. Identify additional data needed to test those hypotheses.
+**3. Reading an age-sex pyramid.** Compare the three teaching pyramids in Figure 9.4. Describe differences in their bases and upper sections and formulate hypotheses about fertility and ageing. Identify additional data needed to test those hypotheses.
 
 **4. Spatial density.** Calculate the average population density of a hypothetical country with 6 million people and an area of 120,000 km². Explain why this indicator does not reveal the difference between a densely populated valley and sparsely populated mountain areas.
 
@@ -665,6 +669,6 @@ For international mobility statistics, the United Nations distinguishes internat
 - **Worked migration example:** verified 2,400 arrivals minus 1,900 departures = +500; with a mid-year population of 100,000, the net migration rate is +5 per 1,000. RU/EN examples and units agree.
 - **Demographic dependency:** clarified that the age dependency ratio is an age-structure indicator, not a direct measure of actual economic dependency; age bands and denominator must be stated.
 - **Urban statistics:** retained the distinction between the UN Degree of Urbanization and national definitions of urban/rural areas; do not combine unlike statistical units without explanation.
-- **Visual production:** checked six unique bilingual visual IDs and briefs, including data-source provenance, migration and density mapping. All remain placeholders.
+- **Visual production:** checked seven unique bilingual visual IDs (09-A–09-G) and seven figure captions in sequence (Figures 9.1–9.7); all remain placeholders. Figure numbering and the age-sex-pyramid activity references were aligned.
 - **Bilingual structure and text audit:** completed a further full non-visual review of the Russian and English chapter sections, corrected the infant-mortality definition and TFR calculation explanation in both languages, moved English subsection 9.16.1 into the matching section, and verified 18/18 numbered heading IDs, 15/15 review questions and 5/5 practical activities. Remaining chapter work is the six visual assets and their later scientific/accessibility review; final rendered-site checks must be performed after visual integration.
 
