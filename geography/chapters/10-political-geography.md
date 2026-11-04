@@ -499,7 +499,7 @@ Particular attention should be paid to differences between statistical and admin
 2. Чем государство отличается от нации и страны?
 3. Что означает суверенитет и почему он не является неограниченной властью?
 4. Чем делимитация границы отличается от демаркации?
-5. Какие правовые режимы действуют в территориальном море и исключительной экономической зоне?
+5. Чем отличаются правовые режимы внутренних вод, территориального моря, прилежащей зоны, ИЭЗ, континентального шельфа, открытого моря и Района морского дна за пределами национальной юрисдикции?
 6. Чем унитарная модель отличается от федеративной?
 7. Какие факторы учитываются при выборе столицы и размещении органов власти?
 8. Что изучает география выборов?
@@ -584,7 +584,7 @@ A line on a political map may represent a boundary with a particular legal and c
 2. How does a state differ from a nation and a country?
 3. What does sovereignty mean, and why is it not unlimited power?
 4. How does border delimitation differ from demarcation?
-5. Which legal regimes apply in the territorial sea and the exclusive economic zone?
+5. How do the legal regimes of internal waters, the territorial sea, the contiguous zone, the EEZ, the continental shelf, the high seas and the Area beyond national jurisdiction differ?
 6. How does a unitary system differ from a federal system?
 7. Which factors influence the choice of a capital and the location of government institutions?
 8. What does electoral geography study?
