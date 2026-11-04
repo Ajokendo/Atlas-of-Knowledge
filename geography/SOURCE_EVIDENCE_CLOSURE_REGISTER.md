@@ -543,3 +543,8 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Added the missing bilingual production brief for visual ID 10-A (world political map), specifying data date, projection, scale, boundary provenance, treatment of disputed territories and the distinction between de facto control and legal status. Commit: `ea7107c8b2c927b14927568e0e71539afd34dd82`.
+
+
+### Chapters 06–10 — visual marker and brief parity QA — 5 November 2026
+
+- Verified the in-text visual ID and English production-brief counts against the chapter inventory: Ch06 15/15, Ch07 9/9, Ch08 7/7, Ch09 6/6 and Ch10 7/7. Chapter 06's four repeated brief aliases were normalised so each unique asset has one production brief; Chapter 10's 10-A world political map received its missing brief. All assets remain uncreated placeholders. Final clean-up commit for duplicate Chapter 06 marker briefs: `32b0e02e2454d085ca7878abd1bbe1c80246b541`; Chapter 10 10-A brief: `ea7107c8b2c927b14927568e0e71539afd34dd82`.
