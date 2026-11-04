@@ -17,7 +17,9 @@
 - применять географический подход к повседневным и глобальным проблемам.
 
 ## 1.1. Что такое география? / What Is Geography?
-> **[МЕТКА ИЛЛЮСТРАЦИИ 01-A / IMAGE PLACEHOLDER 01-A]** Инфографика географии как науки о пространственных системах: природа, население, хозяйство и связи. / Infographic of geography as the study of spatial systems: nature, population, economy and connections.
+![Схема географии как системы: природные компоненты, население, города, экономика, культура и транспорт взаимосвязаны. / Geography as a system: natural components, population, cities, economy, culture and transport are interconnected.](../assets/diagrams/01-A-geography-spatial-system.svg)
+
+*01-A. Авторская двуязычная схема для Atlas of Knowledge. Это концептуальная модель взаимосвязей, а не карта или статистическая визуализация. / Original bilingual schematic for Atlas of Knowledge. This is a conceptual model of connections, not a map or statistical visualisation.*
 
 
 
@@ -28,8 +30,6 @@
 Географический вопрос редко ограничивается одним объектом. Например, чтобы понять, почему город растёт именно в определённом месте, нужно рассмотреть рельеф, воду, климат, транспорт, историю, рынок труда, государственную политику и связи с другими поселениями.
 
 **Главная идея географии:** природные и общественные явления распределены по поверхности Земли не случайно. Их размещение формируется взаимодействием природных условий, истории, технологий, экономики, культуры и решений людей.
-
-**Визуальное задание 01-A / Visual brief 01-A — Geography Connects the Earth.** Центральная схема: Земля как система; вокруг неё — природа, население, города, хозяйство, культура, транспорт и окружающая среда. Между блоками показать двусторонние связи, а не изолированные категории.
 
 ## 1.2. Объект, предмет и географическое мышление / Object, Subject and Geographical Thinking
 
@@ -86,10 +86,14 @@
 
 Например, оценка риска наводнения включает рельеф и осадки, характеристики речного бассейна, землепользование, расположение домов и дорог, уязвимость населения и готовность служб реагирования.
 
-**Визуальное задание 01-D / Visual brief 01-D — Branches of Geography.** Дерево направлений: физическая география, география человека, интегративные исследования и прикладная география. Показать пересечения, не создавая впечатления жёстких границ между ними.
+![Пересечение физической географии, географии человека и прикладной/технической географии. / Overlap of physical, human, and applied/technical geography.](../assets/diagrams/01-D-branches-of-geography.svg)
+
+*01-D. Перерисовано и переведено по схеме GeogSage, “BranchesOfGeography.png” (CC BY 4.0); категории уточнены для структуры этой главы. / Redrawn and translated from GeogSage, “BranchesOfGeography.png” (CC BY 4.0); categories adapted to this chapter. [Источник и лицензия / Source and licence](https://commons.wikimedia.org/wiki/File:BranchesOfGeography.png).*
 
 ## 1.4. Географическое пространство, место и территория / Geographical Space, Place and Territory
-> **[МЕТКА ИЛЛЮСТРАЦИИ 01-B / IMAGE PLACEHOLDER 01-B]** Схема абсолютного и относительного местоположения, места, территории и пространственных связей. / Diagram of absolute and relative location, place, territory and spatial relationships.
+![Координатная сетка показывает абсолютное положение; схема реки, дорог и поселений — относительное положение. / A coordinate grid shows absolute location; a schematic river, roads and settlements show relative location.](../assets/diagrams/01-B-location-place-territory.svg)
+
+*01-B. Авторская учебная схема; условные объекты не обозначают реальные координаты или поселения. / Original educational schematic; features do not represent real coordinates or settlements.*
 
 
 
@@ -139,10 +143,14 @@
 
 Нельзя автоматически переносить закономерность одного уровня на другой. Средняя температура страны не описывает климат каждого её района; национальный показатель безработицы не показывает различия между городами и сельскими территориями. Это пример опасности чрезмерного обобщения.
 
-**Визуальное задание 01-E / Visual brief 01-E — From Local to Global.** Последовательность карт одного региона: населённый пункт → район → страна → мир. Подчеркнуть, что на каждом уровне становятся видны разные процессы.
+![Пять уровней анализа: местный, региональный, национальный, международный и глобальный. / Five levels of analysis: local, regional, national, international and global.](../assets/diagrams/01-E-local-to-global-scales.svg)
+
+*01-E. Авторская условная схема масштаба исследования; это не серия географических карт и не иллюстрация масштаба карты. / Original schematic of analytical scale; not a set of geographic boundary maps or an illustration of cartographic scale.*
 
 ## 1.7. Методы географического исследования / Methods of Geographical Research
-> **[МЕТКА ИЛЛЮСТРАЦИИ 01-C / IMAGE PLACEHOLDER 01-C]** Цикл географического исследования от вопроса и данных до анализа, карты и вывода. / Geographic research cycle from question and data to analysis, map and conclusion.
+![Шесть этапов географического исследования: вопрос, сбор данных, проверка, пространственный анализ, карта, интерпретация и сообщение результатов. / Six stages of geographical research: question, data collection, validation, spatial analysis, mapping, interpretation and communication.](../assets/diagrams/01-C-geographical-research-cycle.svg)
+
+*01-C. Авторская двуязычная схема; последовательность отражает итеративный характер исследования. / Original bilingual schematic; the sequence reflects the iterative nature of research.*
 
 
 
@@ -328,7 +336,9 @@ The same process may look different at the scale of a household, neighbourhood, 
 ## English-language chapter text
 
 ### 1.1. What Is Geography?
-> **[VISUAL PLACEHOLDER 01-A]** Infographic showing geography as the study of spatial systems: nature, population, economic activity and their connections.
+![Geography as a system: natural components, population, cities, economy, culture and transport are interconnected. / География как система: природные компоненты, население, города, экономика, культура и транспорт взаимосвязаны.](../assets/diagrams/01-A-geography-spatial-system.svg)
+
+*01-A. Original bilingual schematic for Atlas of Knowledge. It is a conceptual model, not a map or statistical visualisation. / Авторская двуязычная схема для Atlas of Knowledge. Это концептуальная модель, а не карта или статистическая визуализация.*
 
 
 Geography is the study of Earth as humanity's shared home and of the spatial differences, connections and changes that shape natural and human phenomena. It asks **where** processes occur, **why** they take place in particular ways, **how** places are connected and **how** they change over time.
@@ -358,7 +368,9 @@ Geographical thinking uses several complementary questions:
 6. **Significance and consequences:** Who is affected, and what decisions might be made?
 
 ### 1.3. Geography among the Sciences
-> **[VISUAL PLACEHOLDER 01-D]** A branching diagram of physical geography, human geography, integrative research and applied geography, showing overlaps rather than rigid boundaries.
+![Overlap of physical, human, and applied/technical geography. / Пересечение физической географии, географии человека и прикладной/технической географии.](../assets/diagrams/01-D-branches-of-geography.svg)
+
+*01-D. Redrawn and translated from GeogSage, “BranchesOfGeography.png” (CC BY 4.0); categories adapted to this chapter. / Перерисовано и переведено по схеме GeogSage, “BranchesOfGeography.png” (CC BY 4.0); категории уточнены для этой главы. [Source and licence / Источник и лицензия](https://commons.wikimedia.org/wiki/File:BranchesOfGeography.png).*
 
 
 Geography lies at the intersection of the natural, social and technical sciences. Its interdisciplinary character is not simply a collection of unrelated topics; it is a way of studying complex systems that cannot be fully understood from the perspective of one discipline alone.
@@ -372,7 +384,9 @@ The English term *human geography* is broader than the literal translation “so
 **Integrative and applied geography** connects natural and human analysis. Environmental geography, water-resource management, natural-hazard assessment, spatial planning, geoinformatics and sustainable development all draw on several fields. For example, flood-risk assessment combines relief and rainfall, river-basin characteristics, land use, the location of homes and roads, population vulnerability and emergency preparedness.
 
 ### 1.4. Geographical Space, Place and Territory
-> **[VISUAL PLACEHOLDER 01-B]** Diagram comparing absolute and relative location, place, territory and spatial connections.
+![A coordinate grid shows absolute location; a schematic river, roads and settlements show relative location. / Координатная сетка показывает абсолютное положение; схема реки, дорог и поселений — относительное положение.](../assets/diagrams/01-B-location-place-territory.svg)
+
+*01-B. Original educational schematic; features do not represent real coordinates or settlements. / Авторская учебная схема; объекты не обозначают реальные координаты или поселения.*
 
 
 These concepts are related but not identical.
@@ -406,7 +420,9 @@ A spatial pattern does not, by itself, explain its cause. A concentration of cit
 Geography also examines flows and interactions: daily commuting, migration, trade, water movement, pollutant transport, tourism routes and digital communications. Places are connected not only by proximity but also by exchange.
 
 ### 1.6. Geographical Scale and Levels of Analysis
-> **[VISUAL PLACEHOLDER 01-E]** A sequence of maps showing the same area at settlement, district, national and global levels, with different patterns visible at each scale.
+![Five levels of analysis: local, regional, national, international and global. / Пять уровней анализа: местный, региональный, национальный, международный и глобальный.](../assets/diagrams/01-E-local-to-global-scales.svg)
+
+*01-E. Original schematic of analytical scale, not a set of geographic boundary maps or an illustration of map scale. / Авторская схема масштаба исследования, не серия карт границ и не иллюстрация масштаба карты.*
 
 
 Geographical scale is a key research tool. The same phenomenon may look different at different levels:
@@ -422,7 +438,9 @@ Map scale and the scale of analysis are related but different concepts. Map scal
 A pattern observed at one level cannot automatically be transferred to another. A country's average temperature does not describe the climate of every district; a national unemployment rate does not reveal differences between cities and rural areas. This is a form of overgeneralisation.
 
 ### 1.7. Methods of Geographical Research
-> **[VISUAL PLACEHOLDER 01-C]** Flow diagram of a geographical research cycle: question, data collection, validation, spatial analysis, map or visualisation, conclusion and communication.
+![Six stages of geographical research: question, data collection, validation, spatial analysis, mapping, interpretation and communication. / Шесть этапов географического исследования: вопрос, сбор данных, проверка, пространственный анализ, карта, интерпретация и сообщение результатов.](../assets/diagrams/01-C-geographical-research-cycle.svg)
+
+*01-C. Original bilingual schematic; the sequence reflects the iterative nature of research. / Авторская двуязычная схема; последовательность отражает итеративный характер исследования.*
 
 
 Geographical research begins with a clearly framed question and the selection of suitable evidence. No single method is appropriate for every task.
@@ -542,6 +560,8 @@ The encyclopaedic section gives particular attention to all seven oblasts of Kyr
 14. National Statistical Committee of the Kyrgyz Republic. *Kyrgyz Republic and Regions* (quarterly statistical bulletin; archive includes the 2026 third-quarter edition published 29 October 2026). https://www.stat.gov.kg/ru/publications/statisticheskij-byulleten-kyrgyzskaya-respublika-i-regiony/
 15. Buzzelli, M. (2020). *Modifiable Areal Unit Problem*. International Encyclopedia of Human Geography (2nd ed.), 169–173. https://doi.org/10.1016/B978-0-08-102295-5.10406-8
 16. Holt, D., Steel, D. G., Tranmer, M., & Wrigley, N. (1996). Aggregation and ecological effects in geographically based data. *Geographical Analysis*, 28(3), 244–261. https://doi.org/10.1111/j.1538-4632.1996.tb00933.x
+17. GeogSage. (2026). *BranchesOfGeography.png* [diagram, adapted and translated under CC BY 4.0]. Wikimedia Commons. https://commons.wikimedia.org/wiki/File:BranchesOfGeography.png
+18. National Geographic Society. *Geo-Inquiry: Educator Resources* (five-step geographic inquiry process; accessed 4 November 2026). https://education.nationalgeographic.org/resource/geo-inquiry-educator-resources/
 
 ### Карта соответствия утверждений и источников / Claim-to-source map
 
@@ -555,6 +575,8 @@ The encyclopaedic section gives particular attention to all seven oblasts of Kyr
 | 1.10.1 | Масштаб 1:50 000 означает, что 1 см на карте соответствует 500 м на местности. / A scale of 1:50,000 means 1 cm on the map represents 500 m on the ground. | Определение масштаба карты; расчёт в тексте / Map-scale definition; calculation shown in the text | Арифметика: 50 000 см = 500 м; расстояние по прямой не равно длине маршрута и не задаёт время поездки. / Arithmetic: 50,000 cm = 500 m; straight-line distance is not route length or travel time. |
 | 1.10.2 | Средние по территориям могут скрывать внутритерриториальные различия; результаты зависят от масштаба и границ агрегирования. / Area averages can hide within-area differences; results may depend on the scale and boundaries used for aggregation. | Buzzelli (15); Holt et al. (16) | Поддерживает объяснение MAUP и экологической ошибки; агрегированные данные нельзя автоматически переносить на отдельных людей. / Supports the explanation of MAUP and ecological fallacy; area-level data cannot automatically be applied to individuals. |
 | 1.7, 1.11 | Географические выводы должны учитывать период, единицы, границы, метод сбора и ограничения данных. / Geographical conclusions should account for time period, units, boundaries, collection methods and data limitations. | National Geographic Standard 1 (4); Longley et al. (8) | Методический контрольный список для оценки пригодности геоданных, а не гарантия точности каждого источника. / A checklist for assessing geospatial data suitability, not a guarantee that every source is accurate. |
+| 1.7, visual 01-C | Географическое исследование строится как повторяющийся цикл постановки вопроса, сбора и анализа данных, интерпретации и сообщения выводов. / Geographical inquiry is an iterative cycle of questioning, gathering and analysing evidence, interpreting and communicating findings. | National Geographic Geo-Inquiry (18); National Geographic Standard 1 (4) | Схема 01-C — авторская учебная адаптация последовательности; это не обязательный единственный протокол исследования. / Diagram 01-C is an original educational adaptation of the sequence, not a mandatory universal research protocol. |
+| Visual 01-D | Физическая, человеческая и прикладная/техническая география пересекаются, а не образуют полностью изолированные области. / Physical, human, and applied/technical geography overlap rather than forming wholly separate fields. | GeogSage (17), CC BY 4.0 | Схема перерисована, переведена и уточнена; источник и изменения указаны рядом с изображением. / Diagram redrawn, translated and adapted; source and changes are credited beside the image. |
 
 **Примечание / Note:** карта связывает основные концептуальные и методические утверждения с опорными источниками. Для конкретных чисел, карт и страновых показателей необходима отдельная ссылка на исходную таблицу, набор данных, дату и методику. / This map links the chapter's main conceptual and methodological claims to supporting sources. Specific figures, maps and country indicators require a direct reference to the original table or dataset, date and method.
 Источники 2–3 обосновывают междисциплинарное определение географии; стандарты National Geographic (4–5) — пространственное мышление, чтение карт и анализ пространственной организации; UN-GGIM (6) — роль геопространственной информации; ICA (7) — картографическое образование. Учебник Longley et al. (8) поддерживает разделы о ГИС и пространственном анализе; National Research Council (9) — общественную и научную роль географии; Национальный статистический комитет Кыргызстана (10–12, 14) — региональную статистику и отдельный учёт двух городов республиканского значения; USGS (13) — неизбежность и типы искажений картографических проекций; Buzzelli (15) и Holt et al. (16) — ограничения анализа агрегированных территориальных данных. GeoWeek (1) является образовательным ресурсом, а не научным определением дисциплины. Численные и тематические утверждения о Кыргызстане должны сопровождаться конкретными таблицами и датами соответствующих страновых источников.
