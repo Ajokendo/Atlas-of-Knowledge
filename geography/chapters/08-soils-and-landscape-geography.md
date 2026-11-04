@@ -180,7 +180,6 @@ This means that about half of the sample's total volume consists of pores. It is
 **Рисунок 8.4 / Figure 8.4 — Глобальная карта почв / Global soil map.**  
 Техническое задание: выбрать один из двух разных продуктов — карту почвенных групп по WRB (с указанием редакции классификации и происхождения данных) либо карту отдельных свойств почвы (например, pH или органического углерода) по SoilGrids; не объединять их в одну неразличимую легенду. Указать год/версию набора, пространственное разрешение, глубину, единицы, метод получения и неопределённость; показать пробелы и зоны низкой плотности полевых наблюдений.
 **EN production brief:** Choose one of two distinct products: a WRB soil-group map (identify the classification edition and data provenance) or a map of a specific soil property (for example, pH or organic carbon) from SoilGrids. Do not combine them in one ambiguous legend. State dataset version/date, spatial resolution, depth interval, units, method and uncertainty; show data gaps and areas with sparse field observations.
-**EN production brief:** Use a current geospatial dataset and name the classification system clearly. Show major soil groups with a legible legend; do not mix WRB units with names from national classifications. Mark areas of uncertainty and data gaps.
 
 ## 8.8. Почвы основных природных зон / Soils Across Major Natural Zones
 
@@ -558,9 +557,9 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 
 1. Почва — самостоятельное природное тело, возникающее при взаимодействии минерального материала, органики, воды, воздуха и организмов.
 2. Почвообразование зависит от климата, организмов, рельефа, материнской породы, времени и человеческой деятельности.
-3. Почвенный профиль состоит из генетических горизонтов, набор которых зависит от условий формирования.
+3. Почвенный профиль состоит из генетических горизонтов, набор которых зависит от условий формирования; формальная классификация требует диагностических признаков выбранной системы.
 4. Физические, химические и биологические свойства совместно определяют функции почвы и её пригодность для различных видов использования.
-5. География почв связана с широтной зональностью, высотной поясностью и локальными условиями.
+5. География почв связана с широтной зональностью, высотной поясностью и локальными условиями; цифровые карты свойств почв показывают модельные оценки и их неопределённость, а не полевые измерения в каждой точке.
 6. Эрозия, засоление, уплотнение, загрязнение и потеря органического вещества относятся к важнейшим формам деградации земель.
 7. Ландшафт — пространственно организованная система взаимосвязанных природных и антропогенных компонентов.
 8. Ландшафтная экология анализирует мозаику пятен, коридоров и матрицы, а также связность и краевые эффекты.
@@ -624,9 +623,9 @@ Salinity thresholds also depend on the classification and measurement method. An
 
 1. Soil is an independent natural body formed through interactions among mineral material, organic matter, water, air and organisms.
 2. Soil formation depends on climate, organisms, relief, parent material, time and human activity.
-3. Soil profiles contain genetic horizons whose development depends on formation conditions.
+3. Soil profiles contain genetic horizons whose development depends on formation conditions; formal classification requires diagnostic evidence under the selected system.
 4. Physical, chemical and biological properties jointly determine soil functions and suitability for different uses.
-5. Soil geography is related to latitudinal zonation, altitudinal belts and local conditions.
+5. Soil geography is related to latitudinal zonation, altitudinal belts and local conditions; digital soil-property maps show modelled estimates and their uncertainty, not field measurements at every location.
 6. Erosion, salinisation, compaction, pollution and loss of organic matter are major forms of land degradation.
 7. A landscape is a spatially organised system of interacting natural and human-modified components.
 8. Landscape ecology analyses patches, corridors and matrix, as well as connectivity and edge effects.
@@ -696,6 +695,8 @@ The numerical examples in this chapter are instructional; they are not results f
 
 ## Focused scientific and editorial audit record — 5 November 2026
 
+- **WRB classification versus descriptive soil geography:** added the 32 Reference Soil Groups (RSGs) framework and clarified that broad expressions such as “steppe soils” or “mountain soils” are not automatically formal WRB units. Revised the bilingual map brief to prevent mixing WRB groups, national classes and modelled soil-property layers.
+- **SoilGrids interpretation:** added the 250 m / six-depth-interval / prediction-uncertainty explanation in both languages, including the documented Central Asian observation gap and a requirement for field validation before local decisions.
 - **Soil profile classification:** revised the profile explanation to include the WRB H and O organic horizons and to avoid implying that every soil has a fixed, complete H–O–A–E–B–C–R sequence. The bilingual review question and glossary were aligned.
 - **Bulk density and porosity:** retained the worked example (1,300 g / 1,000 cm³ = 1.3 g/cm³; estimated porosity ≈50.9% using an assumed particle density of 2.65 g/cm³). The text identifies this as an estimate and states its assumptions; it must not be presented as a direct measurement of pore space.
 - **Salinity measurement:** clarified that ECe from a saturated-paste extract at 25 °C is not interchangeable with EC from a 1:5 extract or field apparent-conductivity readings. The method, ratio, temperature and units must be stated.
