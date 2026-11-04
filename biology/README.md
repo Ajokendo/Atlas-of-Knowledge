@@ -1412,3 +1412,9 @@ Created and integrated the original `images/generated/ecology-web.svg` at the ex
 ## Zoology adaptation visual checkpoint — 4 November 2026
 
 Created and integrated the original bilingual SVG `images/generated/zoology-adaptation.svg` at the preserved `image-brief-zoology-adaptation` anchor in `chapters/zoology.html`. The comparison covers aquatic, terrestrial and aerial habitats and links body form to function without presenting traits as universal. It explicitly describes adaptation as inherited population-level variation shaped over generations. The visual programme now records **36 of 53 briefs produced or integrated (67.9%)**; 17 remain deferred or pending. Focused browser visual QA for this new plate is pending.
+
+
+## Visual production update — 4 November 2026
+- Added and integrated `images/generated/zoology-anatomy.svg`, an original bilingual comparison of typical body coverings and respiratory structures across the five familiar vertebrate teaching groups.
+- The figure explicitly qualifies group-level patterns: gills occur in most fish but are not universal; amphibian respiration changes through development; and within-group exceptions exist. It is a simplified teaching comparison, not a species-level diagnostic chart.
+- The visual programme now stands at **38 of 53 briefs (71.7%)**; 15 briefs remain. This is a brief-level production count and does not imply that focused browser QA or manual device/accessibility testing is complete.
