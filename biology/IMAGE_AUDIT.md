@@ -305,3 +305,15 @@ A focused cross-check covered the 18 figures in `chapters/fauna-kyrgyzstan.html`
 - The 15 documentary photographs remain captioned as specific local examples (for example, Arslanbob walnut forest, Issyk-Kul shoreline/foothill/sea-buckthorn/spruce settings, Naryn lake/meadow/plant examples, and Kulun-Ata riparian vegetation); captions do not claim to represent complete oblast-wide flora.
 
 No proven mismatch between the sampled SVG source labels/descriptions and the corresponding chapter alt/caption wording was found. This remains a source-text and semantic consistency review: it is not fresh pixel-level inspection of all WebP photographs, rendered-browser review, or independent taxonomic certification. Global Image Verification remains **Pending audit**.
+
+
+## Core-chapter figure and caption revalidation — 5 November 2026
+
+A fresh parser-based revalidation covered the ten non-regional subject chapters: anatomy, biochemistry, botany, cell biology, ecology, evolution, genetics, microbiology, systematics and zoology.
+
+- These chapters contain 33 semantic figure blocks, including 31 figure blocks with external images; the remaining two are inline-SVG figures.
+- The 31 external-image figures contain 31 image elements. All have non-empty alt text and a visible `figcaption` with both Russian and English spans.
+- No missing caption, empty alt attribute or one-language-only caption was found. The audit parser was adjusted to accept legitimate attributes on `figcaption` elements; an initial narrow pattern had not matched classed captions and must not be mistaken for missing markup.
+- The regional chapters had previously passed the same corrected structural checks. Across all 12 chapters, the combined inventory remains 59 semantic figures, 57 image-containing figures, and 62 external image elements (some flora figures intentionally group multiple photos). All 57 image-containing figures have bilingual captions, and all 62 image elements have non-empty alt text.
+
+This is source-markup validation, not a new rendered visual inspection or physical-device/screen-reader session. Global Image Verification remains **Pending audit** for detailed per-asset visual and scientific review. The current author-side editorial-readiness checkpoint remains 99/100; this structural revalidation does not justify increasing it.
