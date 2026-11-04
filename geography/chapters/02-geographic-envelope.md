@@ -652,11 +652,13 @@ Earth's atmosphere is held by gravity. It regulates heat exchange, transports mo
 
 *Source: NOAA National Weather Service, JetStream, “Layers of the Atmosphere”. Credit NOAA. Layer boundaries are approximate; troposphere height varies with latitude. / Источник: NOAA National Weather Service, JetStream. Границы слоёв приблизительны; высота тропосферы меняется с широтой.*
 
-**Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and less than 0.01% other trace gases (excluding CO₂). Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm (425.62 ppm before rounding). Water vapour is excluded because its concentration is highly variable.
+#### 2.3.1. Atmospheric Composition
+
+The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and less than 0.01% other trace gases (excluding CO₂). Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm (425.62 ppm before rounding). Water vapour is excluded because its concentration is highly variable.
 
 Nitrogen is part of the global nitrogen cycle and becomes available to organisms after biological or abiotic fixation. Oxygen is essential for aerobic respiration. Argon is chemically inert. Carbon dioxide is used in photosynthesis and contributes to the natural greenhouse effect. Water vapour forms clouds and precipitation and transports latent heat.
 
-**Vertical structure.**
+#### 2.3.2. Vertical Structure
 
 | Layer | Approximate altitude | Main features |
 |---|---:|---|
@@ -678,7 +680,9 @@ Boundaries are approximate and vary with latitude, season and solar activity. Th
 
 The hydrosphere includes the world ocean, continental surface water, groundwater, glaciers, snow cover and atmospheric moisture.
 
-**Distribution of water.** About 97.5% of Earth's water is saline and approximately 2.5% is fresh. Fresh water is distributed very unevenly.
+#### 2.4.1. Distribution of Earth's Water
+
+About 97.5% of Earth's water is saline and approximately 2.5% is fresh. Fresh water is distributed very unevenly.
 
 | Reservoir | Approximate share of all Earth's water |
 |---|---:|
@@ -697,7 +701,9 @@ Groundwater includes both fresh and saline water, so its total share must not be
 
 *Source: USGS Water Science School, “The distribution of water on, in, and above the Earth” (2019). Public Domain. Rounded proportions are based on Shiklomanov's 1993 estimates, not a new 2026 measurement. The bars use different denominators. / Источник: USGS Water Science School (2019), Public Domain. Доли основаны на оценках Шикломанова 1993 года, а не на новом измерении 2026 года; столбцы используют разные знаменатели. [Original source / Источник](https://www.usgs.gov/media/images/distribution-water-and-above-earth).
 
-**The water cycle** is the continuous movement of water among the ocean, atmosphere, land and underground reservoirs. Its processes include:
+#### 2.4.2. The Water Cycle
+
+The water cycle is the continuous movement of water among the ocean, atmosphere, land and underground reservoirs. Its processes include:
 - **Evaporation** from oceans, lakes, rivers and soil.
 - **Transpiration** — water vapour released by plants; together with evaporation from land, it is often described as **evapotranspiration**.
 - **Condensation** of water vapour and cloud formation.
@@ -716,13 +722,15 @@ These processes do not form a fixed sequence and can occur simultaneously. Water
 
 *Source: USGS VizLab, “The Water Cycle” (2022). Public Domain. The diagram includes human water use and water-quality impacts, not only natural processes. / Источник: USGS VizLab (2022), Public Domain. Схема показывает не только природные процессы, но и водопользование человеком и влияние на качество воды. [Source page / Страница источника](https://www.usgs.gov/media/images/water-cycle).*
 
+#### 2.4.3. Uneven Distribution of Water
+
 Water distribution depends on latitude, temperature, atmospheric circulation, relief, distance from oceans and geological structure. In mountains, windward slopes often receive more precipitation than leeward slopes because of orographic uplift and rain-shadow effects.
 
 ### 2.5. Lithosphere: The Solid Outer Shell
 
 The lithosphere consists of Earth's crust and rigid upper mantle. It is divided into large and small tectonic plates that move slowly relative to one another.
 
-**Continental and oceanic crust.**
+#### 2.5.1. Continental and Oceanic Crust
 
 | Feature | Continental crust | Oceanic crust |
 |---|---|---|
@@ -733,7 +741,7 @@ The lithosphere consists of Earth's crust and rigid upper mantle. It is divided 
 
 Continental crust is especially thick beneath many major mountain belts, including those formed by continental collision. The table gives broad approximate values: actual thickness varies greatly from region to region. A 2025 global seismic compilation estimates a mean of about 40.4 km for continental crust above sea level and 36.5 km when continental margins are included; crust in orogenic belts can reach about 60–80 km. The age entry refers to particular surviving ancient rocks, not to the continental crust as a single uniform block. Oceanic crust is much younger: it forms at mid-ocean ridges and is gradually recycled into the mantle at subduction zones.
 
-**Plate tectonics.** At divergent boundaries plates move apart; at convergent boundaries they move towards one another; at transform boundaries they slide horizontally past each other. The effects depend on the boundary type. At divergent boundaries, magma rises and new oceanic crust forms; at subduction zones, one plate descends beneath another, potentially producing deep-ocean trenches, earthquakes and volcanic arcs; when continents collide, the crust is shortened and thickened, building mountain belts. Transform boundaries are primarily associated with horizontal slip and earthquakes; volcanism is not a typical direct result of transform motion.
+#### 2.5.2. Plate Tectonics At divergent boundaries plates move apart; at convergent boundaries they move towards one another; at transform boundaries they slide horizontally past each other. The effects depend on the boundary type. At divergent boundaries, magma rises and new oceanic crust forms; at subduction zones, one plate descends beneath another, potentially producing deep-ocean trenches, earthquakes and volcanic arcs; when continents collide, the crust is shortened and thickened, building mountain belts. Transform boundaries are primarily associated with horizontal slip and earthquakes; volcanism is not a typical direct result of transform motion.
 
 Plate boundaries are not always represented by a single narrow line: broad deformation zones may distribute motion across several faults and crustal blocks. Earthquakes can also occur within plates, although they are especially common near plate boundaries.
 
@@ -748,6 +756,8 @@ Plate boundaries are not always represented by a single narrow line: broad defor
 The biosphere includes living organisms and the parts of Earth where life exists. It extends through the lower atmosphere, almost the entire hydrosphere and the upper lithosphere, including soils and some underground environments.
 
 Living organisms change the geographic envelope. Plants absorb CO₂ and release oxygen through photosynthesis; microorganisms decompose organic matter; animals disperse seeds and modify habitats; and soil organisms support nutrient cycling.
+
+#### 2.6.1. Levels of Biological Organisation
 
 Levels of biological organisation range from an individual organism to a population, community, ecosystem, biome and, ultimately, the biosphere. A forest ecosystem, for example, includes living organisms together with soil, water and climate.
 
@@ -813,7 +823,9 @@ Biogeochemical cycles are the continuous movement of chemical elements between l
 
 *Original bilingual overview. Individual processes and reservoirs are detailed below; arrows do not represent quantified fluxes. / Оригинальная двуязычная схема. Отдельные процессы и резервуары рассмотрены ниже; стрелки не обозначают количественные потоки.*
 
-**Carbon cycle.** Carbon is the basis of organic compounds. Its main reservoirs include the atmosphere, ocean, vegetation, soils, sedimentary rocks and fossil organic matter. Photosynthesis absorbs CO₂; respiration returns CO₂ to the atmosphere and water; decomposition releases carbon; the ocean exchanges CO₂ with the atmosphere; sedimentation supports long-term burial; and burning fossil fuels rapidly returns geological carbon to the active cycle. Burning coal, oil and natural gas increases atmospheric CO₂ and strengthens human influence on climate.
+#### 2.10.1. Carbon Cycle
+
+Carbon is the basis of organic compounds. Its main reservoirs include the atmosphere, ocean, vegetation, soils, sedimentary rocks and fossil organic matter. Photosynthesis absorbs CO₂; respiration returns CO₂ to the atmosphere and water; decomposition releases carbon; the ocean exchanges CO₂ with the atmosphere; sedimentation supports long-term burial; and burning fossil fuels rapidly returns geological carbon to the active cycle. Burning coal, oil and natural gas increases atmospheric CO₂ and strengthens human influence on climate.
 
 **Illustration 2.10-A — The Global Carbon Cycle.**
 
@@ -821,11 +833,17 @@ Biogeochemical cycles are the continuous movement of chemical elements between l
 
 *Source: My NASA Data, “Energy and Matter Cycles”; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System. The diagram distinguishes natural fluxes, human contributions and stored carbon; numerical values belong to the source's stated units and reference context. / Схема различает природные потоки, вклад человека и запасы углерода; численные значения следует читать в единицах и контексте источника. [Source page / Страница источника](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
 
-**Oxygen cycle.** Oxygen is essential for aerobic respiration. Its cycle includes photosynthesis, respiration, decomposition, mineral oxidation and the formation and destruction of ozone.
+#### 2.10.2. Oxygen Cycle
 
-**Nitrogen cycle.** Nitrogen makes up about 78% of dry atmospheric air, but most organisms cannot use molecular N₂ directly. The main stages are nitrogen fixation, nitrification, assimilation, ammonification and denitrification. Leguminous plants form symbioses with nitrogen-fixing bacteria, bringing atmospheric nitrogen into biological cycles.
+Oxygen is essential for aerobic respiration. Its cycle includes photosynthesis, respiration, decomposition, mineral oxidation and the formation and destruction of ozone.
 
-**Phosphorus cycle.** Phosphorus is essential for DNA, RNA, cell membranes and ATP. Unlike the carbon and nitrogen cycles, it has no major gaseous phase. Its main stages include weathering of phosphate-bearing rocks, movement of phosphates into soil and water, uptake by plants, transfer through food webs, return through decomposition and deposition in bottom sediments. Excess phosphorus entering water bodies can cause eutrophication.
+#### 2.10.3. Nitrogen Cycle
+
+Nitrogen makes up about 78% of dry atmospheric air, but most organisms cannot use molecular N₂ directly. The main stages are nitrogen fixation, nitrification, assimilation, ammonification and denitrification. Leguminous plants form symbioses with nitrogen-fixing bacteria, bringing atmospheric nitrogen into biological cycles.
+
+#### 2.10.4. Phosphorus Cycle
+
+Phosphorus is essential for DNA, RNA, cell membranes and ATP. Unlike the carbon and nitrogen cycles, it has no major gaseous phase. Its main stages include weathering of phosphate-bearing rocks, movement of phosphates into soil and water, uptake by plants, transfer through food webs, return through decomposition and deposition in bottom sediments. Excess phosphorus entering water bodies can cause eutrophication.
 
 **Illustration 2.10-B — Nitrogen and Phosphorus Cycles.**
 
@@ -841,9 +859,15 @@ Biogeochemical cycles are the continuous movement of chemical elements between l
 
 A natural complex is a spatially defined combination of interacting natural components. A mountain valley, for example, brings together relief, climate, river networks, soils, vegetation and wildlife.
 
+#### 2.11.1. Hierarchy of Natural Complexes
+
 Natural complexes can be considered at different levels, from the global geographic envelope and major natural regions to mountain provinces, local valleys and individual slopes or floodplain sections. This is an educational hierarchy; the exact classification depends on the scientific school and scale of analysis.
 
+#### 2.11.2. Components of a Natural Complex
+
 The components of a natural complex include relief, climate, surface and groundwater, soils, and biota—plants, animals and microorganisms. Together they form an integrated natural geosystem.
+
+#### 2.11.3. Natural and Anthropogenic Geosystems
 
 Natural geosystems are shaped mainly by natural processes. Anthropogenic geosystems are created or substantially transformed by human activity. Examples include natural forests and plantations, undisturbed steppes and cropland, natural lakes and artificial reservoirs, free-flowing and regulated rivers, and natural valleys and urban areas. Many modern landscapes are mixed systems.
 
@@ -863,6 +887,8 @@ Several related concepts should be distinguished:
 - **Ecological resilience** is the capacity to withstand disturbance, recover or adapt without necessarily returning to the former state. Under sufficiently strong pressure, a system may reorganise and shift into a different persistent state.
 
 Biodiversity, nutrient cycling, vegetation recovery, species interactions, and soil and water conditions can all influence resilience. None guarantees recovery on its own: outcomes depend on the intensity and duration of the disturbance, the system's initial condition and the interaction of multiple processes.
+
+#### 2.12.1. Feedback Mechanisms
 
 A **feedback** occurs when the result of a process influences how that process continues.
 - **Negative feedback** counteracts an initial change and can limit it.
