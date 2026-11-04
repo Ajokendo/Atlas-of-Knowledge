@@ -597,3 +597,16 @@ The chapter-level audit records were added to each source chapter. Findings and 
 - Verified calculations: river cross-section example = 3.6 m³/s; basin exercise = 250 mm runoff, 2.5 km³ annual volume and approximately 79.3 m³/s annual mean discharge; residual example = 30 mm. Units and time periods are stated consistently.
 - The 15 unique bilingual visual IDs and briefs remain placeholders. This entry does not claim image integration, browser/device accessibility QA or deployment validation.
 - Chapter content commit: `e8e6abe30366cf2d64844ace8c5ce0c8d421836a`.
+
+
+### Chapter 07 — final bilingual text and source closure — 5 November 2026
+
+- Completed a focused RU/EN scientific and editorial pass over the numbered teaching sections, methods, restoration activity, summary, glossary, review questions and bibliography.
+- Corrected a fundamental explanatory imprecision in the oxygen cycle: in oxygenic photosynthesis, CO₂ supplies carbon for organic-matter formation, while molecular O₂ is released through water oxidation in the light-dependent reactions. Reworded carbon stores and fluxes to distinguish stocks from transfers.
+- Refined biome classification: named all six levels of the IUCN Global Ecosystem Typology; added temperate rainforests; described deserts as hot or cold; and clarified that savanna fire regimes vary rather than forming a universal climate descriptor.
+- Added methodological cautions for camera-trap abundance interpretation and eDNA detection, including detection probability, contamination, false positives/negatives, and spatial/temporal transport or persistence of DNA.
+- Rechecked CBD GBF Targets 2 and 3 against the official framework text: both are global 2030 targets, not automatic national-territory quotas. Target 2 concerns degraded ecosystem areas under effective restoration; Target 3 concerns areas effectively conserved and managed.
+- Strengthened the restoration exercise with baseline and reference-ecosystem requirements and indicators covering native species, community structure, soil/water conditions, ecological functions, connectivity and social context.
+- Added the current SER Third Edition (2026) standards resource, a molecular-biology source for photosynthetic oxygen origin, and a 2026 eDNA methods review. The chapter bibliography now contains 15 references. IUCN Red List version 2026-1 remains the latest published release recorded as of 5 November 2026.
+- Nine unique bilingual visual IDs and their production briefs remain placeholders; no images have been generated or integrated.
+- Chapter content commit: `b9c41e71706d3b9a33cd8258e8e00ab70bc40bff`.
