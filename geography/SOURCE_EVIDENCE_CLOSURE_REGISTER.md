@@ -288,3 +288,11 @@
 **Saved commits:** Chapter 06 `207f09f5031a5d2c21b02932330ab8367c3c0679` (water-budget text) and `93811b5e03b7f1ae99553ba39806c3ec106d516b` (source addition); Chapter 08 `f56dac3bf202d0ad76afead1acbead0d2be9acd7`; Chapter 09 `8f192a4daf137d7618b7297b76db46068da6f927` (formulas) and `7a82a557f227fc9b967bc0033639f9c8fdc23030` (UN metadata reference); Chapter 10 `468d57625514ec1f81d33c787c90697e9d9701b7`.
 
 **Scope:** focused corrections only. The chapter scores remain 73% each; image/map integration, complete claim-to-source mapping and final line-by-line RU/EN proofreading remain open. Browser/device/deployment QA is separate.
+
+## Chapter 07 — biome and ecosystem classification follow-up — 5 November 2026
+
+| Claim / editorial point | Source checked | Result and remaining limit |
+|---|---|---|
+| Traditional biome maps versus functional ecosystem typologies | IUCN, *Global Ecosystem Typology 2.0* (2020), DOI 10.2305/IUCN.CH.2020.13.en; IUCN Global Ecosystem Typology portal | Added bilingual explanation that traditional terrestrial biome maps often emphasise climate and vegetation structure, while IUCN GET uses six hierarchical levels and incorporates ecosystem functions and community composition. The frameworks complement one another but are not interchangeable category-for-category. Added the IUCN publication to the bibliography. The chapter's visual map still requires a named classification and legend. |
+
+**Saved commit:** Chapter 07 `15fa5a4a48786efcd93fa840a0f4c140d6495c77`.
