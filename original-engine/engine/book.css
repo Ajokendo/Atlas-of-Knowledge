@@ -123,7 +123,7 @@
 .leaf-shade { position: absolute; inset: 0; pointer-events: none; }
 .leaf-back .folio { left: 30.5%; right: 0; bottom: 0; padding: 26px 56px 24px; background: linear-gradient(rgba(251,251,250,0), var(--card) 45%); }
 
-.scroll-cue { position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); font: 12px var(--mono); color: var(--muted); letter-spacing: .06em; transition: opacity .6s; }
+.scroll-cue { position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); font: 12px var(--mono); color: var(--muted); letter-spacing: .06em; transition: none; }
 
 /* ---- small screens: figure on top, text underneath, no leaf ---- */
 @media (max-width: 900px) {
