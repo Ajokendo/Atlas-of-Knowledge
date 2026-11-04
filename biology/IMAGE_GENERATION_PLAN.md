@@ -6,7 +6,7 @@ This register mirrors the in-page illustration markers. Each marker is placed be
 
 ## Current disposition — 4 November 2026
 
-Thirty-five of 53 visual briefs are now produced or integrated (**66.0%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Eighteen briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Thirty-six of 53 visual briefs are now produced or integrated (**67.9%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Seventeen briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
 
 ## Priority key
 
@@ -72,7 +72,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 ### Zoology — `chapters/zoology.html`
 - [~] **[P3] Пять основных групп позвоночных / Five major vertebrate groups** — compare fish, amphibians, reptiles, birds and mammals, noting diversity within groups.
 - [~] **[P2] Сравнение покровов и способов дыхания / Comparison of body coverings and respiration** — scales/skin, feathers, hair and respiratory organs; avoid universalising group traits.
-- [~] **[P2] Адаптации животных к среде обитания / Animal adaptations to habitats** — aquatic, terrestrial and aerial adaptations of limbs, coverings and sensory systems.
+- [x] **[P2] Адаптации животных к среде обитания / Animal adaptations to habitats** — aquatic, terrestrial and aerial adaptations of limbs, coverings and sensory systems.
 
 ## Kyrgyzstan regional biodiversity
 
