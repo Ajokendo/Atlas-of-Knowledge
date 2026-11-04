@@ -109,7 +109,7 @@
 
 ![Распределение воды Земли: вся вода, пресная вода и поверхностные пресные воды / Distribution of Earth's water: all water, freshwater and surface freshwater](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
 
-*Источник / Source: USGS Water Science School, “The distribution of water on, in, and above the Earth” (2019). Public Domain. Округлённые доли основаны на оценках Игоря Шикломанова, опубликованных в 1993 году; это историческая глобальная оценка, а не измерение за 2026 год. / Rounded proportions trace to Igor Shiklomanov's 1993 estimates; this is a historical global estimate, not a 2026 measurement. [Страница оригинала / Original source page](https://www.usgs.gov/media/images/distribution-water-and-above-earth).
+*Источник / Source: USGS Water Science School, “The distribution of water on, in, and above the Earth” (2019). Public Domain. Округлённые доли основаны на оценках Игоря Шикломанова, опубликованных в 1993 году; это историческая глобальная оценка, а не измерение за 2026 год. В трёх столбцах используются разные знаменатели: вся вода Земли, вся пресная вода и поверхностная/прочая пресная вода. / Rounded proportions trace to Igor Shiklomanov's 1993 estimates; this is a historical global estimate, not a 2026 measurement. The three bars use different denominators: all Earth's water, all freshwater, and surface/other freshwater. [Страница оригинала / Original source page](https://www.usgs.gov/media/images/distribution-water-and-above-earth).
 
 Гидросфера включает Мировой океан, континентальные поверхностные воды, подземные воды, ледники, снежный покров и атмосферную влагу.
 
