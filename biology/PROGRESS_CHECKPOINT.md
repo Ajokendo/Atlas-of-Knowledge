@@ -1099,3 +1099,13 @@ Reviewed source markup for ten generated Biology SVGs across anatomy, biochemist
 - Added the missing Russian equivalent to the description of `images/generated/flora-talas-vegetation.svg` (commit `6124fbb`).
 - Verified in source text that survey figures are not presented as permanent population estimates, habitat reconstructions are not represented as distribution maps, and the cladistic qualification for birds is explicit.
 - Global rendered-visual and per-asset human verification remains pending.
+
+
+## Documentary-photo markup and attribution sweep — 5 November 2026
+
+- Checked all 15 locally packaged documentary WebP images in the Chüy fauna and Kyrgyzstan flora chapters.
+- All 15 have non-empty alt text, RU/EN caption/attribution content, a direct Wikimedia Commons file-page link and an explicit licence/public-domain label in the adjacent markup.
+- Source/manifests retain the file-level author, licence, original dimensions and byte counts, original SHA-1 comparisons, WebP checksums and conversion details.
+- Result is a source-markup and provenance-record check, not a fresh visual inspection of every original image or independent specialist certification.
+- The two Rufous-naped Tit candidates with unresolved taxonomic metadata conflict remain on hold and are not integrated.
+- Global Image Verification remains Pending audit; this batch does not close the visual or scientific review gates.
