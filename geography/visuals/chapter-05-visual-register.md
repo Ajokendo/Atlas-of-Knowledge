@@ -30,7 +30,6 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 
 | Visual ID | Subject |
 |---|---|
-
 | 5.18-A | Synoptic map and climate analysis / Синоптическая карта и анализ климата |
 
 ## Acceptance criteria / Критерии приёмки
