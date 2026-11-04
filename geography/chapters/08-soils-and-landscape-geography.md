@@ -322,7 +322,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 **Не путать засоление и осолонцевание.** Засоление связано с избытком растворимых солей; осолонцевание — с повышенной долей обменного натрия и изменением структуры почвы. Эти процессы могут сочетаться, но требуют разных диагностических показателей и мер управления.
 
-Пороговые значения засоления также зависят от принятой классификации и метода. Исторически часто приводится ECe около 4 дСм/м при 25 °C, но это не универсальная граница вреда для всех культур и почв: чувствительные растения могут реагировать на более низкие значения, а устойчивость культур различается. Не следует переносить порог для ECe на результаты вытяжки 1:5 без валидированной для конкретных условий процедуры пересчёта.
+Пороговые значения засоления также зависят от принятой классификации и метода. Исторически часто приводится ECe около 4 дСм/м при 25 °C, но это не универсальная граница вреда для всех культур и почв: чувствительные растения могут реагировать на более низкие значения, а устойчивость культур различается. Не следует переносить порог для ECe на результаты вытяжки 1:5 без валидированной для конкретных условий процедуры пересчёта. Электропроводность характеризует суммарное содержание растворённых ионов, но сама по себе не показывает, какие именно соли присутствуют и насколько выражено осолонцевание; для этих выводов нужны отдельные химические и обменные показатели.
 
 **Учебное задание.** Разработайте схему отбора проб для орошаемого участка: обозначьте не менее трёх типов микроположений и две глубины. Укажите, какие данные о поливе и дренаже нужно собрать, прежде чем рекомендовать меры по улучшению почвы.
 
@@ -334,7 +334,7 @@ Soil salinisation is the accumulation of soluble salts to levels that can impair
 
 **Do not confuse salinity with sodicity.** Salinity involves excess soluble salts; sodicity involves a high proportion of exchangeable sodium and changes in soil structure. The processes may occur together, but they require different diagnostic indicators and management measures.
 
-Salinity thresholds also depend on the classification and measurement method. An ECe value near 4 dS/m at 25 °C is often cited historically, but it is not a universal threshold for damage across all crops and soils: sensitive plants may respond at lower values, and crop tolerance varies. A threshold for ECe must not be applied directly to a 1:5 extract result without a conversion procedure validated for the relevant conditions.
+Salinity thresholds also depend on the classification and measurement method. An ECe value near 4 dS/m at 25 °C is often cited historically, but it is not a universal threshold for damage across all crops and soils: sensitive plants may respond at lower values, and crop tolerance varies. A threshold for ECe must not be applied directly to a 1:5 extract result without a conversion procedure validated for the relevant conditions. Electrical conductivity reflects the combined concentration of dissolved ions; by itself it does not identify which salts are present or establish the degree of sodicity. Those questions require separate chemical and exchange-related measurements.
 
 **Activity.** Design a sampling plan for an irrigated field: identify at least three micro-landscape positions and two sampling depths. State which irrigation and drainage data should be collected before recommending soil-improvement measures.
 
