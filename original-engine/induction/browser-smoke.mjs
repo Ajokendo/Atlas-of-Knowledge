@@ -76,7 +76,7 @@ async function runDynamic(mobile) {
     if (before === after && cursorBefore.join(',') === cursorAfter.join(',')) throw new Error(`animation stalled: ${JSON.stringify({ before, after, cursorBefore, cursorAfter, motion })}`);
     if (before === after) console.warn('readout text unchanged at display precision; graph cursor moved');
     if (cursorBefore.join(',') === cursorAfter.join(',')) console.warn('graph cursor unchanged; readout changed');
-    console.log(`PASS induction flux dynamic ${mobile?'mobile':'desktop'} — readout and graph cursor update`);
+    console.log(`PASS induction flux dynamic ${mobile?'mobile':'desktop'} — live state responds (readout ${before === after ? 'stable at display precision' : 'changed'}, graph cursor ${cursorBefore.join(',') === cursorAfter.join(',') ? 'stable' : 'moved'})`);
   } catch(e) { failures.push(`dynamic ${mobile?'mobile':'desktop'}: ${e.message}`); console.error(`FAIL induction flux dynamic ${mobile?'mobile':'desktop'}: ${e.message}`); }
   finally { await context.close(); }
 }
