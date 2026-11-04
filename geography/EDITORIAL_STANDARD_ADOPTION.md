@@ -78,7 +78,7 @@ Geography adopts the complete mandatory workflow, status vocabulary, evidence re
 
 Classify each asset as A — Original reuse, B — Adapted or C — Created, separately from rights status. The atlas-wide source relationship is not yet established comprehensively; do not label the atlas wholly original, derivative or mixed without evidence. Record source lineage and creator/rightsholder per asset. Unknown provenance, permission or adaptation rights remain Unknown / PENDING. Repository ownership does not establish authorship or permission. Do not repeat discovery searches for identifiable unchanged inherited assets solely to satisfy image-first; verify lineage, rights, accuracy, localisation, accessibility and rendering. Search for replacements when assets are missing, unsuitable, inaccurate, inaccessible, rights-restricted or need replacement. Translation of surrounding captions/alt text alone does not change the visual category; translation of embedded labels or other substantive visual edits is an adaptation.
 
-**Current limitation:** detailed IMAGE_SOURCES records cover Chapters 01–02 only. Chapters 03–26 must not be treated as source-verified until their individual records are completed.
+**Current limitation (5 November 2026):** detailed or provisional IMAGE_SOURCES records now cover Chapters 01–04, plus a MISSING gap record for Chapter 09-G. Chapter 05 is documented in its separate visual register but still needs full source-register migration. Chapters 06–08 and 10–26 must not be treated as source-verified until their individual records are completed.
 
 ### Required reporting
 
