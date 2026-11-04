@@ -605,7 +605,7 @@ for (const [label, evidence] of [
   ["English dilute ideal-solution assumption", "dilute ideal solutions"],
   ["Russian additive-volume assumption", "аддитивность объёмов"],
   ["English additive-volume assumption", "additive volumes"],
-  ["Russian activity limitation", "активность ионов"],
+  ["Russian activity limitation", "активности ионов"],
   ["English activity limitation", "ion activities"]
 ]) {
   if (!virtualLabPage.includes(evidence)) errors.push("virtual-lab.html: missing model-scope qualification: " + label);
