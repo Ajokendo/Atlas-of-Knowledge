@@ -485,7 +485,11 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 Добыча полезных ископаемых может сопровождаться нарушением земель, образованием отходов, загрязнением вод и воздуха, а также изменением ландшафтов. Геологическая оценка должна учитывать не только потенциальную ценность ресурса, но и весь жизненный цикл добычи, переработки и рекультивации.
 
-**Место для иллюстрации 3.11-A — From Geological Deposit to Resource Management.** Разрез месторождения, этапы разведки, добычи, переработки и рекультивации.
+**Иллюстрация 3.11-A — От месторождения к управлению ресурсами / From Deposit to Resource Management.**
+
+![Разрез рудного тела и этапы геологоразведки, добычи, переработки, управления отходами и рекультивации. / Ore-body cross-section and stages of exploration, extraction, processing, waste management and rehabilitation.](../assets/03-11-A-mineral-resource-lifecycle-bilingual.svg)
+
+*Концептуальная схема; реальные методы и последовательность зависят от месторождения и законодательства. / Conceptual diagram; actual methods and sequence depend on deposit and regulation.*
 **EN:** Cross-section of a mineral deposit with the stages of exploration, extraction, processing, closure and land rehabilitation.
 
 ## 3.12. Геологические опасности и управление рисками / Geological Hazards and Risk Management
@@ -556,7 +560,11 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 - какие геологические события произошли раньше, а какие позже;
 - какие участки могут представлять инженерно-геологическую опасность.
 
-**Место для иллюстрации 3.12-B — Interpreting a Geological Cross-Section.** Учебный разрез с легендой, слоями разных возрастов, складкой, разломом и интрузивным телом; предусмотреть задания с ответами в отдельном приложении.
+**Иллюстрация 3.12-B — Чтение геологического разреза / Interpreting a Geological Cross-Section.**
+
+![Учебный разрез со слоями, складкой, разломом и интрузивным телом. / Teaching section with strata, fold, fault and intrusive body.](../assets/03-12-B-geological-cross-section-bilingual.svg)
+
+*Учебная модель; относительный возраст определяют по принципу суперпозиции и отношениям пересечения. / Teaching model; relative age is inferred from superposition and cross-cutting relationships.*
 **EN:** Teaching cross-section with a legend, rock layers of different ages, a fold, a fault and an igneous intrusion; provide learner questions and a separate answer key.
 
 ## English-language chapter text
@@ -1024,7 +1032,11 @@ On a schematic geological cross-section, identify:
 *Conceptual model: cycles vary in duration and are not a precise periodic mechanism. / Концептуальная модель: циклы имеют разную длительность и не являются точным периодическим механизмом.*
 
 
-**[ILLUSTRATION PLACEHOLDER 3.11-A — From Geological Deposit to Resource Management]** Cross-section of a mineral deposit plus a process sequence for exploration, extraction, processing, waste management and land rehabilitation.
+**Illustration 3.11-A — From Deposit to Resource Management.**
+
+![Ore-body cross-section and stages of exploration, extraction, processing, waste management and rehabilitation. / Разрез рудного тела и этапы геологоразведки, добычи, переработки, управления отходами и рекультивации.](../assets/03-11-A-mineral-resource-lifecycle-bilingual.svg)
+
+*Conceptual diagram; actual methods and sequence depend on deposit and regulation. / Концептуальная схема; реальные методы и последовательность зависят от месторождения и законодательства.*
 
 
 **Illustration 3.12-A — Geological Hazards.**
@@ -1034,4 +1046,8 @@ On a schematic geological cross-section, identify:
 *The diagram shows process types and general risk reduction, not the precise location or timing of an event. / Схема показывает типы процессов и общие меры снижения риска, но не предсказывает точное место и время события.*
 
 
-**[ILLUSTRATION PLACEHOLDER 3.12-B — Interpreting a Geological Cross-Section]** Educational cross-section with a legend, rock layers of different relative ages, a fold, a fault and an intrusive body. Provide a separate exercise key; ensure the cross-cutting and superposition relationships are internally consistent.
+**Illustration 3.12-B — Interpreting a Geological Cross-Section.**
+
+![Teaching section with strata, fold, fault and intrusive body. / Учебный разрез со слоями, складкой, разломом и интрузивным телом.](../assets/03-12-B-geological-cross-section-bilingual.svg)
+
+*Teaching model; relative age is inferred from superposition and cross-cutting relationships. / Учебная модель; относительный возраст определяют по принципу суперпозиции и отношениям пересечения.*
