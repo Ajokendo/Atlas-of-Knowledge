@@ -131,6 +131,7 @@ async function checkInteractiveBook(mobile) {
       'Заряженные стержни', 'Неравномерно заряженная изолирующая сфера',
       'Полая проводящая оболочка',
     ];
+    await guide.locator('summary').click();
     const guideText = await guide.innerText();
     const missingTopics = sceneTopics.filter(topic => !guideText.includes(topic));
     if (missingTopics.length) throw new Error(`accessible scene guide is missing: ${missingTopics.join('; ')}`);
