@@ -1997,3 +1997,5 @@ A final compliance check against the Geography image-first instruction found tha
 - Chapter 02 duplicate removal and bilingual structure: `962eebfcaab2c533f554239b97051a81eb194dde`.
 - Readiness matrix: `be26b6e8755b6ce2a5f402d8c6d5977a4f2da28c`.
 - Geography README: `fdf2a04b6f399d8e640796e1121c5ea9ddd002d8`.
+
+- Final Chapter 02 status metadata commit (after the copy-edit commit): `0d93217b96f9c3b6a69e5ac4462553be443aa3c8`; final verified chapter blob: `240730711a52280d790ebedc1c5909a12b6537f9`.
