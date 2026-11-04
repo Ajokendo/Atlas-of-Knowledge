@@ -178,8 +178,9 @@
 
 ## 5.7. Влажность, облака и осадки / Humidity, Clouds and Precipitation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 5-D / IMAGE PLACEHOLDER 5-D]** Схема конвективного, фронтального и орографического образования облаков и осадков.
-> **EN:** Diagram of convective, frontal and orographic cloud and precipitation formation.
+![Образование облаков и осадков: четыре механизма подъёма воздуха / Cloud and precipitation formation: four lifting mechanisms](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
+
+*Оригинальная двуязычная схема Atlas of Knowledge: конвекция, сходимость потоков, фронтальный и орографический подъём. Подъём сам по себе не гарантирует осадки: для образования облака влажный воздух должен охладиться до насыщения. Концептуальная основа процессов — Figure 2, AMS Project Atmosphere: Clouds (2025), лицензия CC BY-SA 4.0; схема переработана и упрощена для учебных целей. / Original bilingual Atlas of Knowledge diagram: convection, convergence, frontal lifting and orographic lifting. Ascent alone does not guarantee precipitation: moist air must cool to saturation for a cloud to form. Conceptual source: Figure 2, AMS Project Atmosphere: Clouds (2025), CC BY-SA 4.0; the diagram has been redrawn and simplified for teaching.* [Источник и лицензия / Source and licence](https://www.ametsoc.org/sites/ams/assets/ProjectAtmosphere_Module_Clouds_2025.pdf).
 
 Влажность характеризует содержание водяного пара в воздухе. Важные показатели — абсолютная влажность, удельная влажность, парциальное давление водяного пара и относительная влажность.
 
@@ -672,6 +673,10 @@ Humidity describes the amount of water vapour in the air. Important measures inc
 **Relative humidity** is the ratio of the actual amount of water vapour to the maximum possible amount at a given temperature, expressed as a percentage. When air cools to its dew point, condensation may begin.
 
 Clouds form when moist air cools to saturation and water vapour condenses on aerosol particles known as condensation nuclei. Air may rise through convection, frontal interactions between air masses or forced uplift over relief.
+
+![Cloud and precipitation formation: four lifting mechanisms](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
+
+*Original bilingual Atlas of Knowledge diagram: convection, convergence, frontal lifting and orographic lifting. Ascent alone does not guarantee precipitation: moist air must cool to saturation for a cloud to form. Conceptual source: Figure 2, AMS Project Atmosphere: Clouds (2025), CC BY-SA 4.0; the diagram has been redrawn and simplified for teaching.* [Source and licence](https://www.ametsoc.org/sites/ams/assets/ProjectAtmosphere_Module_Clouds_2025.pdf).
 
 Cloud families are commonly described by their appearance and altitude and include cirrus, stratus, cumulus, cumulonimbus and mid-level cloud types.
 
