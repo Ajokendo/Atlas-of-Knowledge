@@ -252,6 +252,13 @@ async function checkCircularChapterPage() {
     const response = await page.goto(`${base}/chapters/circular-motion.html`, { waitUntil: 'domcontentloaded', timeout: 15000 });
     if (!response || !response.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
     await page.getByRole('heading', { name: 'Движение по окружности', exact: true }).waitFor();
+    const bookFrame = page.frameLocator('iframe[title="Интерактивная лаборатория: движение по окружности, силы и орбиты"]');
+    await bookFrame.locator('#gl').waitFor({ state: 'visible' });
+    const bookWebGL = await bookFrame.locator('#gl').evaluate(canvas => {
+      const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+      return { width: canvas.width, height: canvas.height, context: !!gl };
+    });
+    if (!bookWebGL.context || bookWebGL.width < 100 || bookWebGL.height < 100) throw new Error('Original circular-motion Three.js scene did not initialize a drawable WebGL canvas');
     const required = ['1. Линейная и угловая скорость','Угловые величины и радианная мера','Связь периода, частоты и скорости','2. Центростремительное ускорение','Направление скорости и ускорения','Неравномерное движение по окружности','3. Сила, обеспечивающая поворот','Применение: повороты, вращение и орбиты'];
     const headings = await page.locator('main h2').allTextContents();
     const missing = required.filter(h => !headings.includes(h));
@@ -265,7 +272,7 @@ async function checkCircularChapterPage() {
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
     if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v=>v.id).join(', ')}`);
     if (errors.length) throw new Error(errors.join(' | '));
-    console.log(`PASS circular-motion chapter — ${required.length} sections, live calculation controls, quiz, WCAG serious/critical: 0`);
+    console.log(`PASS circular-motion chapter — original Three.js/WebGL book ${bookWebGL.width}×${bookWebGL.height}, ${required.length} sections, live calculation controls, quiz, WCAG serious/critical: 0`);
   } catch (error) {
     failures.push(`circular-motion chapter: ${error.message}`);
     console.error(`FAIL circular-motion chapter: ${error.message}`);
