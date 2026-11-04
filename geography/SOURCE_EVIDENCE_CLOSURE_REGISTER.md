@@ -393,3 +393,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 10 — M49 statistical versus legal geography distinction — 5 November 2026
 
 - Added a bilingual clarification that UN M49 classifies countries and areas for statistical reporting and comparison; it does not determine sovereignty, statehood, recognition or the legal course of state boundaries. Checked against the UN Statistics Division M49 methodology overview and its explanation of statistical identity. Commit: `cf70c9c4d7875dd643956b11811c9ccc73fb9f0c`.
+
+
+### Chapter 09 — population-density denominator clarification — 5 November 2026
+
+- Added a bilingual note requiring users to distinguish land area, total area and inhabited area when comparing arithmetic population density. It also requires population, area and reference date to refer to the same territory and comparable period. Commit: `63becbe6080cdd4adb21c198686312f02961bf05`.
