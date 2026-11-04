@@ -332,3 +332,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 08 — soil pH measurement comparability — 5 November 2026
 
 - Added a bilingual explanation of the logarithmic pH scale and a protocol caveat for water versus salt extracts and soil-to-solution ratios; comparisons require compatible methods. Commit: `d4650bc368a48150168240b64056d32b879e8372`.
+
+
+### Chapter 08 — WRB organic horizon coverage — 5 November 2026
+
+- Added H horizon to the bilingual profile description and illustration specification, distinguishing peat/organic material from O horizons. Checked against WRB Fourth Edition 2022, Annex 3 (corrected 2024). Commit: `9bae5672e0a7568f098d1c590d72b72cbb8bfe33`.
