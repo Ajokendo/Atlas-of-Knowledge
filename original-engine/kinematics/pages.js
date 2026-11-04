@@ -123,8 +123,8 @@ export const PAGES = [
       <p>Весь полёт второй мяч находится на одной высоте с первым и приземляется одновременно с ним. По вертикали он движется в режиме свободного падения, а горизонтальная скорость не влияет на это движение. Его тень на полу перемещается равными шагами по ${f(M.VX * tau)} м: движение по горизонтали равномерное.</p>
       <table class="data cols">
         <tr><th>горизонтальное · равномерное</th><th>вертикальное · свободное падение</th></tr>
-        <tr><td><i>v</i><sub>x</sub> = ${f(M.VX)} м/с</td><td><i>v</i><sub>y0</sub> = +${f(M.VY0)} м/с, <i>v</i><sub>y</sub> = −${f(M.VY0)} м/с</td></tr>
-        <tr><td>Δ<i>x</i> = <i>v</i><sub>x</sub><i>t</i> = ${f(M.RANGE, 1)} м</td><td><i>a</i> = −${f(M.G)} м/с², Δ<i>y</i> = 0</td></tr>
+        <tr><td><i>v</i><sub>x</sub> = ${f(M.VX)} м/с</td><td><i>v</i><sub>y</sub>(0) = +${f(M.VY0)} м/с, <i>v</i><sub>y</sub>(T) = −${f(M.VY0)} м/с</td></tr>
+        <tr><td>Δ<i>x</i> = <i>v</i><sub>x</sub><i>t</i> = ${f(M.RANGE, 1)} м</td><td><i>a</i><sub>y</sub> = −${f(M.G)} м/с², Δ<i>y</i> = 0</td></tr>
         <tr><td><i>t</i> = ${f(M.T)} с</td><td><i>t</i> = ${f(M.T)} с</td></tr>
       </table>
       <p>В верхней точке равна нулю только вертикальная составляющая скорости <i>v</i><sub>y</sub>. Мяч продолжает двигаться по горизонтали со скоростью ${f(M.VX)} м/с.</p>`,
@@ -152,7 +152,7 @@ export const PAGES = [
       <p>Обе лодки движутся относительно воды со скоростью ${f(M.RIVER.vb, 1)} м/с. Скорость течения равна ${f(M.RIVER.vw, 1)} м/с, ширина реки — ${M.RIVER.w} м.</p>
       <table class="data">
         <tr><th>величина</th><th>направлена прямо поперёк</th><th>направлена на ${deg(M.AIM_UP)}° против течения</th></tr>
-        <tr><td>скорость</td><td>√(${f(M.RIVER.vb, 1)}² + ${f(M.RIVER.vw, 1)}²) = ${f(M.vlen(M.vBS(0)))}</td><td>√(${f(M.RIVER.vb, 1)}² − ${f(M.RIVER.vw, 1)}²) = ${f(M.vlen(M.vBS(M.AIM_UP)))}</td></tr>
+        <tr><td>модуль скорости относительно берега</td><td>√(${f(M.RIVER.vb, 1)}² + ${f(M.RIVER.vw, 1)}²) = ${f(M.vlen(M.vBS(0)))}</td><td>√(${f(M.RIVER.vb, 1)}² − ${f(M.RIVER.vw, 1)}²) = ${f(M.vlen(M.vBS(M.AIM_UP)))}</td></tr>
         <tr><td>время</td><td>${M.RIVER.w}/${f(M.RIVER.vb, 1)} = ${f(M.crossTime(0), 1)} с</td><td>${M.RIVER.w}/${f(M.vBS(M.AIM_UP)[1], 1)} = ${f(M.crossTime(M.AIM_UP), 1)} с</td></tr>
         <tr><td>снос течением</td><td>${f(M.RIVER.vw, 1)} × ${f(M.crossTime(0), 1)} = ${f(M.drift(0), 1)} м</td><td>0 м</td></tr>
       </table>
