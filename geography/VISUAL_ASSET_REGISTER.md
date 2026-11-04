@@ -21,7 +21,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 | 06 | 6-A–6-D, 6.1-A, 6.5-A, 6.7-A, 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A, 6.18-A | 15 | Water distribution and cycle; oceans; ocean floor; seawater profiles; circulation; marine ecosystems and pollution; cryosphere; rivers and basins; lakes; groundwater; climate change; water-balance exercise |
 | 07 | 07-A–07-I | 9 | Biosphere; tolerance; food webs; biogeographical realms; biomes; aquatic zonation; connectivity; carbon and nitrogen cycles |
 | 08 | 08-A–08-G | 7 | Soil profiles; soil formation; global soils; erosion; landscape morphology and mosaic |
-| 09 | 09-A–09-F | 6 | Population trends; demographic transition; population pyramids; migration; density; urban growth |
+| 09 | 09-A–09-G | 7 | Population trends; demographic transition; population pyramids; migration; density; urban growth; demographic data sources |
 | 10 | 10-A–10-G | 7 | Political map; borders; maritime zones; state models; representation; cooperation; map literacy |
 | 11 | 11-A–11-G | 7 | Economic structure; location factors; agriculture; energy; transport; value chains; tourism |
 | 12 | 12-A–12-J | 10 | World-region maps: Africa, Europe, Asia, North America, Central America, South America, Oceania and Antarctica; transboundary systems and data quality |
@@ -48,7 +48,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 - Chapters 14–16 received missing in-text bilingual markers so each visual brief has a stable production reference.
 - Chapters 17–23 received additional bilingual markers for visual briefs that previously lacked an in-text ID.
-- A full marker-ID pass across all 26 chapters confirmed 231 unique assets and no accidental duplicate IDs in Chapters 01–25. Chapter 26 intentionally repeats IDs A, B, D, I and K at both teaching locations and in the production-brief list; seven production-brief-only IDs (26-C, E, F, G, H, J and L) were restored as in-text bilingual markers at their relevant chapter sections.
+- The earlier marker-ID pass reported 231 unique assets, but the chapter-level inventory counts sum to 283 after Chapter 09's seventh in-text ID (09-G) is included. The totals remain unreconciled; do not treat either figure as authoritative until a complete per-chapter parse and duplicate/alias review is complete. Chapter 26 intentionally repeats IDs A, B, D, I and K at both teaching locations and in the production-brief list; seven production-brief-only IDs (26-C, E, F, G, H, J and L) were restored as in-text bilingual markers at their relevant chapter sections.
 - Chapters 07–13 received markers for previously unmarked figure briefs.
 - Chapter 26 had reused IDs across different visual subjects. IDs were normalised to 26-A–26-L and the missing C, E, F, G, H, J and L markers were added. Repeated references to the same asset (e.g. a teaching placeholder and its production brief) intentionally retain the same ID.
 
@@ -82,4 +82,4 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 ## IMAGE-FIRST v1.1 inventory reconciliation warning — 5 November 2026
 
-The register's headline currently states **231 unique visual IDs**. However, the chapter-level counts in its inventory table sum to **282**. The Chapter 05 line states 20 IDs but only 18 IDs can currently be enumerated safely from the available subsection sequence, and previous notes also mention a Chapter 09 ID 09-G absent from the current Chapter 09 inventory row. These figures must not be silently reconciled by inventing IDs or deleting valid ones. Until every chapter file, in-text marker, production brief and actual asset is reconciled, treat both 231 and 282 as unverified competing totals. See [IMAGE_AUDIT.md](IMAGE_AUDIT.md). Do not calculate Image Coverage from either figure yet.
+The register's headline currently states **231 unique visual IDs**. However, the chapter-level counts in its inventory table sum to **283** after adding the verified Chapter 09 ID 09-G. The Chapter 05 line states 20 IDs but only 18 IDs can currently be enumerated safely from the available subsection sequence, Chapter 09's 09-G is present in the chapter itself and is now included in the inventory row. These figures must not be silently reconciled by inventing IDs or deleting valid ones. Until every chapter file, in-text marker, production brief and actual asset is reconciled, treat both 231 and 282 as unverified competing totals. See [IMAGE_AUDIT.md](IMAGE_AUDIT.md). Do not calculate Image Coverage from either figure yet.
