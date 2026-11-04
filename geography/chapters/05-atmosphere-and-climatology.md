@@ -34,12 +34,14 @@
 - способствует сгоранию многих небольших метеороидов;
 - поддерживает естественный парниковый эффект.
 
+<!-- VISUAL ID: 5.1-A -->
 ![Состав сухого воздуха / Composition of dry air](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-dry-air-composition.svg)
 
 *Оригинальная двуязычная схема Atlas of Knowledge. Объёмные доли основных компонентов сухого воздуха приблизительны; малые компоненты вынесены отдельно и не показаны в масштабе. CO₂ — предварительное среднегодовое значение NOAA за 2025 год по морским поверхностным станциям (425,62 ppm). Значения округлены. / Original bilingual Atlas of Knowledge diagram. Volume fractions of the main components of dry air are approximate; minor components are shown separately and not to scale. CO₂ is NOAA's preliminary 2025 annual marine-surface mean (425.62 ppm). Values are rounded.* [Данные NOAA / NOAA data](https://gml.noaa.gov/ccgg/trends/gl_data.html).
 
 ## 5.2. Вертикальное строение атмосферы / Vertical Structure of the Atmosphere
 
+<!-- VISUAL ID: 5.2-A (legacy alias 5-A) -->
 ![Слои атмосферы Земли / Layers of Earth's atmosphere](https://commons.wikimedia.org/wiki/Special:FilePath/Atmosphere_layers_edu.svg)
 
 *Слои атмосферы: схема CC0, авторство и описание файла — Wikimedia Commons, “Atmosphere layers edu.svg”. Используется как учебная схема; границы слоёв и высоты ориентировочны. / Atmospheric layers: CC0 diagram, file attribution and description on Wikimedia Commons, “Atmosphere layers edu.svg”. Layer boundaries and altitudes are approximate.* [Источник и лицензия / Source and licence](https://commons.wikimedia.org/wiki/File:Atmosphere_layers_edu.svg).
@@ -88,6 +90,7 @@
 
 Неравномерный нагрев поверхности по широте создаёт температурные контрасты. Атмосферная циркуляция и океанические течения перераспределяют энергию от низких широт к высоким.
 
+<!-- VISUAL ID: 5.3-A -->
 ![Энергетический баланс Земли: ясное небо и средние условия при наличии облаков / Earth's energy budget: clear-sky and all-sky conditions](https://scied.ucar.edu/sites/default/files/styles/extra_large/public/images/IPCC_AR6_WGI_Figure_7_2%20%281%29.png.webp?itok=BYh38dwb)
 
 *Энергетический баланс в Вт/м²: входящая солнечная энергия, отражение, поглощение и исходящее тепловое излучение. Значения — оценка IPCC AR6 WGI (2021) для начала XXI века с диапазонами неопределённости; это не оперативные показатели текущего года. Источник изображения: UCAR Center for Science Education; научная основа и атрибуция: IPCC AR6 WGI, Figure 7.2. / Earth's energy budget in W/m²: incoming solar energy, reflection, absorption and outgoing thermal radiation. Values are IPCC AR6 WGI (2021) estimates for the early 21st century with uncertainty ranges; they are not current-year operational measurements. Image hosted by UCAR Center for Science Education; scientific basis and attribution: IPCC AR6 WGI, Figure 7.2.* [Источник / Source](https://scied.ucar.edu/learning-zone/earth-as-a-system/energy_budget_image).
@@ -115,6 +118,7 @@
 
 **Температурная инверсия** — состояние, при котором температура с высотой повышается в некотором слое. Инверсии могут способствовать накоплению загрязняющих веществ у поверхности.
 
+<!-- VISUAL ID: 5.4-A -->
 ![Средняя температура за 1991–2020 годы по данным ERA5 / Mean temperature, 1991–2020, ERA5](https://commons.wikimedia.org/wiki/Special:FilePath/ERA5_global_mean_temperature.png)
 
 *Пространственное распределение средней температуры за 30-летний период 1991–2020 по данным реанализа ERA5. Это климатическая характеристика периода, а не карта температурных аномалий и не прогноз. Автор изображения: S. Berghald; источник данных: ERA5 monthly averaged data, Copernicus Climate Data Store. Лицензия изображения CC BY-SA 4.0. / Spatial distribution of mean temperature for the 30-year period 1991–2020 based on ERA5 reanalysis. This is a climatological field, not an anomaly map or forecast. Image author: S. Berghald; data source: ERA5 monthly averaged data, Copernicus Climate Data Store. Image licence: CC BY-SA 4.0.* [Файл и лицензия / File and licence](https://commons.wikimedia.org/wiki/File:ERA5_global_mean_temperature.png).
@@ -144,12 +148,14 @@
 
 Скорость ветра измеряют анемометром, направление — флюгером или другими приборами. Направление ветра называют по той стороне горизонта, откуда он дует.
 
+<!-- VISUAL ID: 5.5-A -->
 ![Пример приземной карты с областями высокого и низкого давления и изобарами / Example surface map with high- and low-pressure systems and isobars](https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif)
 
 *Пример синоптической карты: центры высокого и низкого давления, изобары и связанное с ними поле ветра. Схема и пояснение Национальной метеорологической службы США (NWS), страница Basic Discussion on Pressure Systems. Пример относится к Северному полушарию: в Южном полушарии направление циклонического и антициклонического вращения противоположно. / Example synoptic chart showing high- and low-pressure centres, isobars and the associated wind field. Diagram and explanation by the U.S. National Weather Service (NWS), Basic Discussion on Pressure Systems. This example is for the Northern Hemisphere; cyclonic and anticyclonic rotation is reversed in the Southern Hemisphere.* [Источник / Source](https://www.weather.gov/lmk/basic-fronts).
 
 ## 5.6. Общая циркуляция атмосферы / General Atmospheric Circulation
 
+<!-- VISUAL ID: 5.6-A -->
 ![Три ячейки общей циркуляции атмосферы / Three-cell model of global atmospheric circulation](https://www.noaa.gov/sites/default/files/2022-05/circ.jpg)
 
 *Трёхъячеечная модель общей циркуляции атмосферы. NOAA, JetStream: Global Atmospheric Circulations. Государственный образовательный ресурс США; схема иллюстрирует упрощённую модель, а не полную изменчивость реальной циркуляции. / Three-cell model of global atmospheric circulation. NOAA, JetStream: Global Atmospheric Circulations. U.S. government educational resource; the figure illustrates a simplified model, not the full variability of real circulation.* [Источник / Source](https://www.noaa.gov/jetstream/global/global-atmospheric-circulations).
@@ -178,6 +184,7 @@
 
 ## 5.7. Влажность, облака и осадки / Humidity, Clouds and Precipitation
 
+<!-- VISUAL ID: 5.7-B -->
 ![Образование облаков и осадков: четыре механизма подъёма воздуха / Cloud and precipitation formation: four lifting mechanisms](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
 
 *Оригинальная двуязычная схема Atlas of Knowledge: конвекция, сходимость потоков, фронтальный и орографический подъём. Подъём сам по себе не гарантирует осадки: для образования облака влажный воздух должен охладиться до насыщения. Концептуальная основа процессов — Figure 2, AMS Project Atmosphere: Clouds (2025), лицензия CC BY-SA 4.0; схема переработана и упрощена для учебных целей. / Original bilingual Atlas of Knowledge diagram: convection, convergence, frontal lifting and orographic lifting. Ascent alone does not guarantee precipitation: moist air must cool to saturation for a cloud to form. Conceptual source: Figure 2, AMS Project Atmosphere: Clouds (2025), CC BY-SA 4.0; the diagram has been redrawn and simplified for teaching.* [Источник и лицензия / Source and licence](https://www.ametsoc.org/sites/ams/assets/ProjectAtmosphere_Module_Clouds_2025.pdf).
@@ -220,6 +227,7 @@
 
 При подъёме влажного воздуха по наветренному склону он охлаждается, что может усиливать облакообразование и осадки. На подветренной стороне часто формируется более сухая область — дождевая тень. Реальный эффект зависит от направления ветра, устойчивости атмосферы, высоты хребта и влажности воздушной массы.
 
+<!-- VISUAL ID: 5.7-A -->
 ![Круговорот воды в природе / The hydrologic cycle](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e)
 
 *Схема круговорота воды: испарение, транспирация, конденсация, осадки, снеготаяние и поверхностный сток. NOAA JetStream. Это базовая учебная схема: она не показывает все резервуары и потоки воды, например подземный водообмен. / Diagram of the water cycle: evaporation, transpiration, condensation, precipitation, snowmelt and surface runoff. NOAA JetStream. This is a basic educational schematic; it does not show every water reservoir and flow, such as groundwater exchange.* [Источник / Source](https://www.noaa.gov/jetstream/atmosphere/hydro).
@@ -241,13 +249,18 @@
 
 **Иллюстрация 5.8-A — Atmospheric Fronts.** Условные обозначения четырёх основных фронтов на синоптических картах и вертикальный разрез холодной окклюзии. Разрез показан как пример одного типа окклюзии; он не заменяет отдельные профили холодного, тёплого и стационарного фронтов.
 
+<!-- VISUAL ID: 5.8-A -->
 ![Обозначение холодного фронта на синоптической карте / Cold-front symbol](https://www.noaa.gov/sites/default/files/2022-06/cold_front_sym.png)
+<!-- VISUAL ID: 5.8-A -->
 ![Обозначение тёплого фронта на синоптической карте / Warm-front symbol](https://www.noaa.gov/sites/default/files/2022-06/warm_front_sym.png)
+<!-- VISUAL ID: 5.8-A -->
 ![Обозначение стационарного фронта / Stationary-front symbol](https://www.noaa.gov/sites/default/files/2022-06/stationary_front_sym.png)
+<!-- VISUAL ID: 5.8-A -->
 ![Обозначение фронта окклюзии / Occluded-front symbol](https://www.noaa.gov/sites/default/files/2022-06/occ_front_sym.png)
 
 *Условные знаки холодного, тёплого, стационарного и окклюдированного фронтов на приземных синоптических картах. Треугольники и полукружия указывают направление движения фронта; у стационарного фронта символы направлены в разные стороны. Источник: NOAA JetStream. / Standard symbols for cold, warm, stationary and occluded fronts on surface weather maps. Triangles and semicircles indicate the direction of frontal movement; on a stationary front, symbols point in opposite directions. Source: NOAA JetStream.* [Источник / Source](https://www.noaa.gov/jetstream/wxmaps).
 
+<!-- VISUAL ID: 5.8-A -->
 ![Вертикальный разрез холодной окклюзии / Vertical cross-section of a cold occlusion](https://www.noaa.gov/sites/default/files/2022-06/cold_occ.png)
 
 *Упрощённый вертикальный разрез холодной окклюзии: более холодный воздух позади холодного фронта подтекает под более прохладный воздух впереди тёплого фронта, поднимая тёплый воздух над поверхностью. Это пример одного типа окклюзии, а не универсальная схема всех фронтов. / Simplified vertical cross-section of a cold occlusion: colder air behind the cold front undercuts the cooler air ahead of the warm front, lifting the warm air above the surface. This illustrates one type of occlusion, not a universal cross-section for all fronts.* [Источник / Source](https://www.noaa.gov/jetstream/wxmaps).
@@ -264,6 +277,7 @@
 
 **Иллюстрация 5.9-A — Weather vs Climate.**
 
+<!-- VISUAL ID: 5.9-A -->
 ![Погода и климат: два временных масштаба / Weather and climate: two time scales](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-vs-climate.svg)
 
 *Оригинальная двуязычная схема Atlas of Knowledge. Левая панель показывает условные краткосрочные изменения погоды; правая — статистическое описание климата: среднее и диапазон изменчивости на длинном ряду наблюдений. Иллюстративные точки и линии не являются измеренными данными. Климатические нормы ВМО рассчитываются для стандартных последовательных 30-летних периодов; используемый период необходимо указывать. Один холодный день не опровергает долгосрочную тенденцию. / Original bilingual Atlas of Knowledge diagram. The left panel shows conceptual short-term weather changes; the right shows a statistical description of climate: an average and a range of variability across a long observation record. The plotted points and lines are illustrative, not measured data. WMO climatological standard normals use consecutive 30-year periods; the reference period must be stated. A single cold day does not disprove a long-term trend.* [NOAA: Climate Compared to Weather](https://www.climate.gov/climate-and-energy-topics/climate-compared-weather) · [WMO: Climate Normals](https://wmo.int/wmo-climatological-normals).
@@ -302,6 +316,7 @@
 
 Помимо Кёппена — Гейгера применяются генетические классификации, классификации по водному балансу, биоклиматические схемы и региональные системы. Для прикладных задач выбирают метод, соответствующий цели исследования.
 
+<!-- VISUAL ID: 5.11-A -->
 ![Климатическая классификация Кёппена — Гейгера, 1991–2020 / Köppen–Geiger climate classification, 1991–2020](https://commons.wikimedia.org/wiki/Special:FilePath/WorldKoppen.png)
 
 *Карта климатических классов Кёппена — Гейгера с пространственным разрешением 1 км; период исходных климатических данных — 1991–2020. Карта показывает типы климата, а не широтные климатические пояса. Автор: Nothda; лицензия CC0 1.0. / Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Author: Nothda; licence: CC0 1.0.* [Файл и лицензия / File and licence](https://commons.wikimedia.org/wiki/File:WorldKoppen.png).
@@ -322,6 +337,7 @@
 
 **Иллюстрация 5.12-A — Global Climate Belts / Климатические пояса мира.**
 
+<!-- VISUAL ID: 5.12-A -->
 ![Климатические пояса мира: условная широтная модель / Global climate belts: conceptual latitudinal model](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-global-climate-belts.svg)
 
 *Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показаны экваториальный, тропический, субтропический, умеренный, субполярный и полярный пояса в обоих полушариях. Волнистые границы подчёркивают, что климатические пояса не являются идеальными параллельными полосами; их положение зависит от сезона, циркуляции атмосферы, распределения суши и океана и рельефа. Схема не предназначена для определения точных границ или классификации конкретного места. / Original bilingual conceptual diagram by Atlas of Knowledge. It shows equatorial, tropical, subtropical, temperate, subpolar and polar belts in both hemispheres. Curved boundaries emphasise that climate belts are not perfect parallel bands; their position is influenced by season, atmospheric circulation, land–ocean distribution and relief. The diagram is not intended for locating exact boundaries or classifying a specific place.*
@@ -375,6 +391,7 @@
 
 **Иллюстрация 5.14-A — Atmospheric Hazards / Опасные атмосферные явления.**
 
+<!-- VISUAL ID: 5.14-A -->
 ![Опасные атмосферные явления и основные меры безопасности / Atmospheric hazards and basic safety actions](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-atmospheric-hazards.svg)
 
 *Оригинальная двуязычная учебная инфографика Atlas of Knowledge: грозы и молнии, жара и засуха, штормовой ветер и циклоны, сильный снег и гололёд, туман и пыльные бури. Меры приведены как общие рекомендации; конкретные действия должны соответствовать местным официальным предупреждениям и условиям. Схема не ранжирует явления по частоте или опасности. / Original bilingual Atlas of Knowledge educational infographic: thunderstorms and lightning, heatwaves and drought, high winds and cyclones, heavy snow and ice, fog and dust storms. Actions are general guidance; specific decisions should follow local official warnings and conditions. The diagram does not rank hazards by frequency or severity.*
@@ -407,6 +424,7 @@
 
 **Иллюстрация 5.15-A — Climate Change: Drivers, Evidence and Responses / Изменение климата: причины, свидетельства и ответы.**
 
+<!-- VISUAL ID: 5.15-A -->
 ![Причины, свидетельства и ответы на изменение климата / Climate change drivers, evidence and responses](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-change-drivers-evidence-responses.svg)
 
 *Оригинальная двуязычная причинно-следственная схема Atlas of Knowledge. Она показывает общую последовательность: деятельность человека → выбросы парниковых газов → рост их концентрации и радиационного воздействия → нагрев климатической системы → наблюдаемые изменения. Нижний блок разделяет смягчение изменения климата (сокращение выбросов и усиление поглощения) и адаптацию (снижение уязвимости и подготовка к рискам). Естественная изменчивость климата продолжается, но не объясняет современную долгосрочную тенденцию потепления. Схема качественная, не количественная; она не показывает величину вклада каждого сектора или прогноз для отдельного региона. / Original bilingual causal diagram by Atlas of Knowledge. It shows the general sequence: human activities → greenhouse-gas emissions → higher concentrations and radiative forcing → warming of the climate system → observed changes. The lower panel distinguishes mitigation (cutting emissions and enhancing removals) from adaptation (reducing vulnerability and preparing for risks). Natural climate variability continues but does not explain the modern long-term warming trend. This is a qualitative, not quantitative, diagram; it does not quantify sector contributions or provide a regional forecast.*
@@ -428,6 +446,7 @@
 
 Климатические модели отличаются от краткосрочных прогнозов: они исследуют статистические характеристики системы и её реакцию на сценарии внешнего воздействия, а не пытаются предсказать точную погоду на конкретный день через десятилетия.
 
+<!-- VISUAL ID: 5.16-A -->
 ![От метеорологических наблюдений к прогнозу погоды / From weather observations to a forecast](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-observations-to-forecast.svg)
 
 ## 5.16.1. Практический пример: анализ годового хода температуры и осадков / Worked Example: Analysing Annual Temperature and Precipitation
@@ -502,6 +521,7 @@ These values describe the annual cycles of temperature and precipitation, but th
 
 Климатограмма обычно показывает среднемесячную температуру и количество осадков за определённый период. В этой главе используется единый формат: столбцы показывают осадки в миллиметрах, линия — температуру в градусах Цельсия. Перед сравнением необходимо проверить, что обе диаграммы относятся к сопоставимым периодам наблюдений.
 
+<!-- VISUAL ID: 5.17-A -->
 ![5.17-A. Климатограммы континентального и морского учебных примеров / Climate diagrams for continental and maritime teaching examples](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-diagram-exercise.svg)
 
 *Оригинальная двуязычная учебная схема Atlas of Knowledge. Два набора данных условные и предназначены только для тренировки чтения графиков; они не относятся к реальным метеостанциям и не должны использоваться для определения климата конкретной территории. Столбцы — месячные осадки (мм), линия — среднемесячная температура (°C). / Original bilingual Atlas of Knowledge teaching diagram. Both datasets are synthetic and intended only for graph-reading practice; they do not represent real weather stations and must not be used to classify the climate of a real location. Bars show monthly precipitation (mm); the line shows mean monthly temperature (°C).*
@@ -644,6 +664,7 @@ Dry air near Earth's surface consists mainly of nitrogen and oxygen. Its approxi
 
 The atmosphere supplies oxygen for the respiration of most organisms and carbon dioxide for photosynthesis; transports heat and moisture; forms clouds and precipitation; reduces some ultraviolet radiation through the ozone layer; causes many small meteoroids to burn up; and supports the natural greenhouse effect.
 
+<!-- VISUAL ID: 5.1-A -->
 ![Composition of dry air / Состав сухого воздуха](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-dry-air-composition.svg)
 
 *Original bilingual Atlas of Knowledge diagram. Volume fractions of the main components of dry air are approximate; minor components are shown separately and not to scale. CO₂ is NOAA's preliminary 2025 annual marine-surface mean (425.62 ppm). Values are rounded.* [NOAA data](https://gml.noaa.gov/ccgg/trends/gl_data.html).
@@ -652,6 +673,7 @@ The atmosphere supplies oxygen for the respiration of most organisms and carbon 
 
 The atmosphere is divided into layers according to how temperature changes with altitude. Layer boundaries are not fixed: their heights vary with latitude, season and atmospheric conditions.
 
+<!-- VISUAL ID: 5.2-A (legacy alias 5-A) -->
 ![Слои атмосферы Земли / Layers of Earth's atmosphere](https://commons.wikimedia.org/wiki/Special:FilePath/Atmosphere_layers_edu.svg)
 
 *Слои атмосферы: схема CC0, авторство и описание файла — Wikimedia Commons, “Atmosphere layers edu.svg”. Используется как учебная схема; границы слоёв и высоты ориентировочны. / Atmospheric layers: CC0 diagram, file attribution and description on Wikimedia Commons, “Atmosphere layers edu.svg”. Layer boundaries and altitudes are approximate.* [Источник и лицензия / Source and licence](https://commons.wikimedia.org/wiki/File:Atmosphere_layers_edu.svg).
@@ -674,6 +696,7 @@ Some incoming energy is reflected by clouds, aerosols, the atmosphere and the su
 
 **Energy transport.** Uneven heating by latitude creates temperature contrasts. Atmospheric circulation and ocean currents redistribute energy from lower to higher latitudes.
 
+<!-- VISUAL ID: 5.3-A -->
 ![Earth's energy budget: clear-sky and all-sky conditions](https://scied.ucar.edu/sites/default/files/styles/extra_large/public/images/IPCC_AR6_WGI_Figure_7_2%20%281%29.png.webp?itok=BYh38dwb)
 
 *Earth's energy budget in W/m²: incoming solar energy, reflection, absorption and outgoing thermal radiation. Values are IPCC AR6 WGI (2021) estimates for the early 21st century with uncertainty ranges; they are not current-year operational measurements. Image hosted by UCAR Center for Science Education; scientific basis and attribution: IPCC AR6 WGI, Figure 7.2.* [Source](https://scied.ucar.edu/learning-zone/earth-as-a-system/energy_budget_image).
@@ -688,6 +711,7 @@ The temperature of the troposphere generally decreases with altitude, but the ac
 
 A **temperature inversion** occurs when temperature increases with height through a layer. Inversions can contribute to the accumulation of pollutants near the surface.
 
+<!-- VISUAL ID: 5.4-A -->
 ![Mean temperature, 1991–2020, ERA5](https://commons.wikimedia.org/wiki/Special:FilePath/ERA5_global_mean_temperature.png)
 
 *Spatial distribution of mean temperature for the 30-year period 1991–2020 based on ERA5 reanalysis. This is a climatological field, not an anomaly map or forecast. Image author: S. Berghald; data source: ERA5 monthly averaged data, Copernicus Climate Data Store. Image licence: CC BY-SA 4.0.* [File and licence](https://commons.wikimedia.org/wiki/File:ERA5_global_mean_temperature.png).
@@ -704,6 +728,7 @@ The direction of rotation of cyclones and anticyclones is influenced by the Cori
 
 **Wind** is the horizontal movement of air relative to the surface. It is influenced by the pressure-gradient force, Earth's rotation, friction and the curvature of air trajectories. Wind speed is measured with an anemometer; direction may be measured with a wind vane or other instruments. Wind direction is named for the direction from which the wind blows.
 
+<!-- VISUAL ID: 5.5-A -->
 ![Example surface map with high- and low-pressure systems and isobars](https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif)
 
 *Example synoptic chart showing high- and low-pressure centres, isobars and the associated wind field. Diagram and explanation by the U.S. National Weather Service (NWS), Basic Discussion on Pressure Systems. This example is for the Northern Hemisphere; cyclonic and anticyclonic rotation is reversed in the Southern Hemisphere.* [Source](https://www.weather.gov/lmk/basic-fronts).
@@ -712,6 +737,7 @@ The direction of rotation of cyclones and anticyclones is influenced by the Cori
 
 Global circulation is shaped by uneven heating of Earth, planetary rotation, the distribution of land and ocean, seasonal changes and interactions with the oceans.
 
+<!-- VISUAL ID: 5.6-A -->
 ![Три ячейки общей циркуляции атмосферы / Three-cell model of global atmospheric circulation](https://www.noaa.gov/sites/default/files/2022-05/circ.jpg)
 
 *Трёхъячеечная модель общей циркуляции атмосферы. NOAA, JetStream: Global Atmospheric Circulations. Государственный образовательный ресурс США; схема иллюстрирует упрощённую модель, а не полную изменчивость реальной циркуляции. / Three-cell model of global atmospheric circulation. NOAA, JetStream: Global Atmospheric Circulations. U.S. government educational resource; the figure illustrates a simplified model, not the full variability of real circulation.* [Источник / Source](https://www.noaa.gov/jetstream/global/global-atmospheric-circulations).
@@ -751,6 +777,7 @@ The WMO International Cloud Atlas recognises ten main cloud genera:
 
 The altitude boundaries vary with latitude and atmospheric conditions, and altitude groupings are approximate: some cloud genera span more than one level. Nimbostratus, for example, may extend from low levels upwards, while cumulonimbus has great vertical development. A cloud genus describes form and structure; it does not by itself guarantee a particular weather outcome.
 
+<!-- VISUAL ID: 5.7-B -->
 ![Cloud and precipitation formation: four lifting mechanisms](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
 
 *Original bilingual Atlas of Knowledge diagram: convection, convergence, frontal lifting and orographic lifting. Ascent alone does not guarantee precipitation: moist air must cool to saturation for a cloud to form. Conceptual source: Figure 2, AMS Project Atmosphere: Clouds (2025), CC BY-SA 4.0; the diagram has been redrawn and simplified for teaching.* [Source and licence](https://www.ametsoc.org/sites/ams/assets/ProjectAtmosphere_Module_Clouds_2025.pdf).
@@ -761,6 +788,7 @@ Precipitation amount is generally reported in millimetres of liquid-water equiva
 
 **Orographic precipitation** occurs when moist air is forced to rise over mountains. Rising air cools and may produce clouds and precipitation on windward slopes. Leeward slopes may be drier because of the rain-shadow effect, although the pattern depends on wind direction, moisture supply and local relief.
 
+<!-- VISUAL ID: 5.7-A -->
 ![The hydrologic cycle / Круговорот воды в природе](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e)
 
 *Diagram of the water cycle: evaporation, transpiration, condensation, precipitation, snowmelt and surface runoff. NOAA JetStream. This is a basic educational schematic; it does not show every water reservoir and flow, such as groundwater exchange.* [Source](https://www.noaa.gov/jetstream/atmosphere/hydro).
@@ -782,13 +810,18 @@ A front is not necessarily a narrow vertical wall: the transition zone has depth
 
 **Illustration 5.8-A — Atmospheric Fronts.** Standard map symbols for the four main fronts and a vertical cross-section of a cold occlusion. The cross-section illustrates one type of occlusion; it does not replace separate profiles of cold, warm and stationary fronts.
 
+<!-- VISUAL ID: 5.8-A -->
 ![Cold-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/cold_front_sym.png)
+<!-- VISUAL ID: 5.8-A -->
 ![Warm-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/warm_front_sym.png)
+<!-- VISUAL ID: 5.8-A -->
 ![Stationary-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/stationary_front_sym.png)
+<!-- VISUAL ID: 5.8-A -->
 ![Occluded-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/occ_front_sym.png)
 
 *Standard symbols for cold, warm, stationary and occluded fronts on surface weather maps. Triangles and semicircles indicate the direction of frontal movement; on a stationary front, symbols point in opposite directions. Source: NOAA JetStream.* [Source](https://www.noaa.gov/jetstream/wxmaps).
 
+<!-- VISUAL ID: 5.8-A -->
 ![Vertical cross-section of a cold occlusion](https://www.noaa.gov/sites/default/files/2022-06/cold_occ.png)
 
 *Simplified vertical cross-section of a cold occlusion: colder air behind the cold front undercuts the cooler air ahead of the warm front, lifting the warm air above the surface. This illustrates one type of occlusion, not a universal cross-section for all fronts.* [Source](https://www.noaa.gov/jetstream/wxmaps).
@@ -805,6 +838,7 @@ Meteorological observations are collected by land stations, marine platforms, we
 
 **Illustration 5.9-A — Weather vs Climate.**
 
+<!-- VISUAL ID: 5.9-A -->
 ![Weather and climate: two time scales](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-vs-climate.svg)
 
 *Original bilingual Atlas of Knowledge diagram. The left panel shows conceptual short-term weather changes; the right shows a statistical description of climate: an average and a range of variability across a long observation record. The plotted points and lines are illustrative, not measured data. WMO climatological standard normals use consecutive 30-year periods; the reference period must be stated. A single cold day does not disprove a long-term trend.* [NOAA: Climate Compared to Weather](https://www.climate.gov/climate-and-energy-topics/climate-compared-weather) · [WMO: Climate Normals](https://wmo.int/wmo-climatological-normals).
@@ -828,6 +862,7 @@ No single factor acts in isolation. The climate of a coast, for example, depends
 
 Climate classifications organise climate conditions according to temperature, precipitation, seasonality and other indicators.
 
+<!-- VISUAL ID: 5.11-A -->
 ![Köppen–Geiger climate classification, 1991–2020](https://commons.wikimedia.org/wiki/Special:FilePath/WorldKoppen.png)
 
 *Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Author: Nothda; licence: CC0 1.0.* [File and licence](https://commons.wikimedia.org/wiki/File:WorldKoppen.png).
@@ -889,6 +924,7 @@ Meteorology studies atmospheric processes and weather. Operational weather forec
 
 **Illustration 5.16-A — From Weather Observations to a Forecast / От метеорологических наблюдений к прогнозу погоды.**
 
+<!-- VISUAL ID: 5.16-A -->
 ![From weather observations to a forecast / От наблюдений к прогнозу погоды](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-observations-to-forecast.svg)
 
 *Original bilingual Atlas of Knowledge diagram. The sequence is simplified: real forecasting centres may combine steps and run several systems in parallel. Observation platforms include surface stations, radiosondes carried by weather balloons, radar, satellites, ships, buoys and aircraft. Satellites provide remote-sensing measurements; they do not independently generate a forecast. / Оригинальная двуязычная схема Atlas of Knowledge. Последовательность упрощена: реальные метеорологические центры могут объединять этапы и параллельно использовать несколько систем. Источники данных — наземные станции, радиозонды на метеорологических шарах, радары, спутники, суда, буи и самолёты. Спутники предоставляют данные дистанционного зондирования, но сами по себе не составляют прогноз.*
@@ -941,6 +977,7 @@ Climate datasets and reanalyses serve different purposes from a daily weather fo
 
 A climate graph usually shows mean monthly temperature and precipitation for a stated period. In this chapter, bars show precipitation in millimetres and the line shows mean temperature in degrees Celsius. Before comparing diagrams, check that their observation periods are comparable.
 
+<!-- VISUAL ID: 5.17-A -->
 ![5.17-A. Climate diagrams for continental and maritime teaching examples / Климатограммы континентального и морского учебных примеров](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-diagram-exercise.svg)
 
 *Original bilingual Atlas of Knowledge teaching diagram. Both datasets are synthetic and intended only for graph-reading practice; they do not represent real weather stations and must not be used to classify the climate of a real location. / Оригинальная двуязычная учебная схема Atlas of Knowledge. Оба набора данных условные, не относятся к реальным метеостанциям и предназначены только для тренировки чтения графиков.*
