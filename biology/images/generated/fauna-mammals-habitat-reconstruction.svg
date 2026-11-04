@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
-<title id="t">Mountain mammals of Kyrgyzstan — habitat reconstruction</title>
-<desc id="d">A snow leopard on a separate high rocky ledge, an argali on an open grassy slope, and a Siberian ibex on a distinct steep crag. This is an illustrative habitat reconstruction.</desc>
+<title id="t">Горные млекопитающие Кыргызстана — реконструкция местообитаний / Mountain mammals of Kyrgyzstan — habitat reconstruction</title>
+<desc id="d">Снежный барс показан на отдельном высокогорном скальном выступе, архар — на открытом травянистом склоне, сибирский горный козёл — на другом крутом скальном участке. Это учебная реконструкция разных местообитаний, а не изображение совместного присутствия животных в одной точке, карта ареалов или перепись. / A snow leopard on a separate high rocky ledge, an argali on an open grassy slope, and a Siberian ibex on a distinct steep crag. This is an educational reconstruction of separate habitats, not a depiction of the animals occurring together at one site, a range map or a census.</desc>
 <defs>
  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dce8e8"/><stop offset="1" stop-color="#f4f0e5"/></linearGradient>
  <linearGradient id="rock" x2="0" y2="1"><stop stop-color="#929b96"/><stop offset="1" stop-color="#59665f"/></linearGradient>
