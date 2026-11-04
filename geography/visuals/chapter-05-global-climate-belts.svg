@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Global climate belts / Климатические пояса мира</title>
+<desc id="desc">Bilingual conceptual diagram of latitudinal climate belts in both hemispheres, with curved boundaries and seasonal shifts. Not a precise boundary map.</desc>
+<defs>
+ <linearGradient id="ocean" x2="0" y2="1"><stop stop-color="#e9f3f8"/><stop offset="1" stop-color="#d8e9f1"/></linearGradient>
+ <clipPath id="mapclip"><rect x="80" y="150" width="1040" height="430" rx="22"/></clipPath>
+ <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.5" fill="#ffffff" opacity=".55"/></pattern>
+</defs>
+<rect width="1200" height="760" fill="#fbfcfe"/>
+<text x="600" y="55" font-family="Arial,sans-serif" font-size="31" font-weight="700" text-anchor="middle" fill="#17324d">Климатические пояса мира</text>
+<text x="600" y="91" font-family="Arial,sans-serif" font-size="25" font-weight="600" text-anchor="middle" fill="#315b75">Global Climate Belts</text>
+<text x="600" y="124" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#526879">Широтная модель: пояса не образуют идеальные параллельные полосы / A latitudinal model: belts are not perfect parallel bands</text>
+<g clip-path="url(#mapclip)">
+ <rect x="80" y="150" width="1040" height="430" fill="url(#ocean)"/>
+ <path d="M80 150 H1120 V207 C1000 194 920 222 800 205 S580 190 470 212 S230 193 80 215Z" fill="#8eb6d8"/>
+ <path d="M80 215 C230 193 350 230 470 212 S690 190 800 205 S1000 194 1120 207 L1120 265 C1000 247 930 275 800 260 S590 248 470 268 S220 247 80 270Z" fill="#a9c8df"/>
+ <path d="M80 270 C220 247 350 286 470 268 S680 248 800 260 S1000 247 1120 265 L1120 350 C1000 333 900 361 800 345 S580 330 470 352 S220 331 80 350Z" fill="#d7dfbd"/>
+ <path d="M80 350 C220 331 350 370 470 352 S680 330 800 345 S1000 333 1120 350 L1120 430 C1000 414 900 442 800 425 S580 412 470 432 S220 412 80 430Z" fill="#f0d99c"/>
+ <path d="M80 430 C220 412 350 450 470 432 S680 412 800 425 S1000 414 1120 430 L1120 490 C1000 474 900 500 800 485 S580 470 470 492 S220 470 80 490Z" fill="#e9b98e"/>
+ <path d="M80 490 C220 470 350 510 470 492 S680 470 800 485 S1000 474 1120 490 L1120 580 H80Z" fill="#9fc2dc"/>
+ <rect x="80" y="150" width="1040" height="430" fill="url(#dots)"/>
+ <g fill="none" stroke="#fff" stroke-width="2" opacity=".95" stroke-dasharray="8 7">
+  <path d="M80 207 C230 193 350 230 470 212 S690 190 800 205 S1000 194 1120 207"/>
+  <path d="M80 270 C220 247 350 286 470 268 S680 248 800 260 S1000 247 1120 265"/>
+  <path d="M80 350 C220 331 350 370 470 352 S680 330 800 345 S1000 333 1120 350"/>
+  <path d="M80 430 C220 412 350 450 470 432 S680 412 800 425 S1000 414 1120 430"/>
+  <path d="M80 490 C220 470 350 510 470 492 S680 470 800 485 S1000 474 1120 490"/>
+ </g>
+ <g font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d" text-anchor="middle">
+  <text x="600" y="181">ПОЛЯРНЫЙ / POLAR</text>
+  <text x="600" y="245">СУБПОЛЯРНЫЙ / SUBPOLAR</text>
+  <text x="600" y="315">УМЕРЕННЫЙ / TEMPERATE</text>
+  <text x="600" y="398">СУБТРОПИЧЕСКИЙ / SUBTROPICAL</text>
+  <text x="600" y="466">ТРОПИЧЕСКИЙ / TROPICAL</text>
+  <text x="600" y="545">ЭКВАТОРИАЛЬНЫЙ / EQUATORIAL</text>
+ </g>
+ <path d="M80 365 C260 348 380 382 520 365 S790 345 920 365 S1040 355 1120 365" fill="none" stroke="#fff" stroke-width="3"/>
+ <text x="1040" y="389" font-family="Arial,sans-serif" font-size="15" fill="#17324d">0° экватор / Equator</text>
+</g>
+<rect x="80" y="150" width="1040" height="430" rx="22" fill="none" stroke="#56758a" stroke-width="2"/>
+<g font-family="Arial,sans-serif" fill="#334e62" font-size="15">
+ <text x="80" y="610">90° с.ш. / N</text><text x="80" y="636">Северное полушарие / Northern Hemisphere</text>
+ <text x="1120" y="610" text-anchor="end">90° ю.ш. / S</text><text x="1120" y="636" text-anchor="end">Южное полушарие / Southern Hemisphere</text>
+</g>
+<rect x="80" y="660" width="1040" height="62" rx="12" fill="#edf2f6"/>
+<text x="100" y="686" font-family="Arial,sans-serif" font-size="15" fill="#17324d">Границы условны и меняются по сезонам; океаны, рельеф и циркуляция создают региональные отклонения.</text>
+<text x="100" y="709" font-family="Arial,sans-serif" font-size="15" fill="#17324d">Boundaries are schematic and shift seasonally; oceans, relief and circulation create regional departures.</text>
+</svg>
