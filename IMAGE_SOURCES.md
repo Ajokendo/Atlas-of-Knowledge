@@ -15,7 +15,7 @@ Update these counts for each progress report. Count only assets that are both in
 | Independently created — AI-generated images | 0 | Generated images that passed scientific review |
 | Outstanding | 0 required visuals identified | Chapter 04 visual objectives are covered by the original force diagram, energy plot and interactive 3D model; final responsive/browser verification remains tracked in CI |
 
-**Important:** the zeroes above are initial register values, not a claim that the entire repository contains no visual assets. Existing assets must be audited before the counts can be considered complete. Do not count an asset until its provenance and integration have been checked.
+**Counting note:** the counts above cover only assets registered in this file. They do not claim that the entire repository contains no other visual assets. Do not count an asset until its provenance and integration have been checked.
 
 ## Asset record template
 
@@ -43,7 +43,7 @@ Copy this block for each integrated asset:
 - Mobile check: [Passed / Pending]
 ```
 
-## Outstanding visual requirements
+## Visual requirement review
 
 Record a requirement here before starting a search. Move it to the integrated-asset section only after all checks are complete.
 
@@ -100,8 +100,8 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - File: `physics-lab.js`
 - Original source: Original in-repository Three.js scene code; no external image source
 - Author / creator: Atlas of Knowledge repository code; individual author not specified in file
-- License: Repository licence applies; verify repository-level licence before reuse outside this project
-- License URL: Not applicable to an internally authored code visual
+- License: MIT License (repository LICENSE; copyright notice retained)
+- License URL: https://opensource.org/license/mit/
 - Access date: 2026-11-04
 - RU caption: Трёхмерная модель движения тела по наклонной поверхности
 - EN caption: Three-dimensional model of an object moving along an inclined surface
@@ -109,7 +109,7 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Alt EN: A sphere on an inclined plane; the model illustrates motion and changing height
 - Modified: No external asset; rendered programmatically with Three.js
 - Scientific review: Conceptual model; the phase slider moves the sphere down the incline and updates Eп/m = gh. It illustrates the height dependence of potential energy, not a complete quantitative energy-conservation simulation
-- Rights review: No third-party image rights involved; repository code provenance recorded
+- Rights review: No third-party image rights involved; repository MIT licence applies and attribution notice must be retained
 - Integration: Shared 3D laboratory component in `chapters/work-energy.html`
 - Mobile check: Pending CI responsive check
 
