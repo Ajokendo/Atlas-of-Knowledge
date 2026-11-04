@@ -813,8 +813,8 @@ if (!imageSources.includes("## Targeted follow-up search outcomes — 2026-11-05
     !imageSources.includes("CH-IV02")) {
   errors.push("IMAGE_SOURCES.md: targeted image-first search outcomes are incomplete");
 }
-if (!imageAudit.includes("7 FOUND / 16 searched") ||
-    !imageAudit.includes("15 / 16 = 93.75% integrated") ||
+if (!imageAudit.includes("10 FOUND / 19 searched") ||
+    !imageAudit.includes("18 / 19 = 94.74% integrated") ||
     !imageAudit.includes("1 required visual")) {
   errors.push("IMAGE_AUDIT.md: current search and coverage metrics are inconsistent or missing");
 }
