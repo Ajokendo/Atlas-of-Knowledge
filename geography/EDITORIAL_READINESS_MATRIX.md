@@ -361,3 +361,8 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Added the NOAA National Ocean Service explainer alongside the IHO draft to substantiate the five-ocean convention and the non-ratification caveat for the Southern Ocean boundary. Commit: `b32e9ece268f789c95f322d343e32e68236e4a5d`.
+
+
+### Chapter 09 — WUP 2025 grid-level implementation nuance — 5 November 2026
+
+- Clarified that the full Degree of Urbanization method has two stages, while WUP 2025's global dataset relies primarily on 1 km² grid classifications due the lack of an open worldwide small-unit boundary dataset. Checked against Box II.2 of the WUP 2025 methodology report. Commit: `12d32b88bbdf4f14f9be1eddeb927897c7daacc8`.
