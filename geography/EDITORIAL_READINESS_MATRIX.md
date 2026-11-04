@@ -102,3 +102,10 @@
 ### Visual inventory clarification — 4 November 2026
 
 The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 and 20 only: `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, `20-I-glacier-anatomy.svg` and `20-K-national-water-use-2025.svg`. Their presence explains the cross-atlas count of four embedded SVGs in the matrix. Chapters 01 and 02 still have **zero approved/integrated visual assets**; their 21 visual briefs remain separate and are tracked in `IMAGE_SOURCES.md`. “Embedded” here means a Markdown image reference exists in the chapter source; it does not claim that a deployed website render, mobile layout or accessibility test has passed.
+
+
+### Chapter 02 — primary-source spot check — 4 November 2026
+
+- **Dry-air composition:** NOAA JetStream's live atmospheric-composition table confirms the chapter's rounded nitrogen (78.08%), oxygen (20.95%) and argon (0.93%) values and explicitly excludes water vapour from the dry-air percentages. The chapter's CO₂ figure is separately tied to the preliminary 2025 NOAA marine-surface annual mean (425.6 ppm), rather than treating the static JetStream rounded value as a current annual observation. Source: https://www.noaa.gov/jetstream/atmosphere.
+- **Plate boundaries:** USGS *This Dynamic Earth* confirms the distinctions used in the chapter: divergent boundaries create new crust as plates separate; convergent boundaries involve crustal destruction/recycling, commonly by subduction; transform boundaries involve horizontal sliding without net crust creation or destruction. USGS also distinguishes diffuse plate-boundary zones, which should not be forced into the three idealised types. Source: https://pubs.usgs.gov/gip/dynamic/understanding.html.
+- **Scope:** this is a focused primary-source check of two claim groups, not a complete geological-process audit or full sentence-by-sentence verification of Chapter 02.
