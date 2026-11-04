@@ -83,7 +83,7 @@ This is a first-pass map of the currently identified visual need, not a final de
 |---|---|---|---|
 | 01 Atomic structure | Distinguish nucleus, electron probability distribution and subatomic particles; explain model limits | Two interactive SVGs plus bilingual electron-cloud SVG now embedded in chapter and landing page | INTEGRATED — complementary visual roles covered; scientific wording, rights and manual accessibility review remain pending |
 | 02 Chemical elements | Compare isotopes and explain weighted atomic mass | Carbon isotope SVG pair | INTEGRATED — science first-pass PASS; search and rights PENDING |
-| 03 Periodic system | Relate element position to groups, periods and periodic trends | Interactive periodic table | PENDING — decide whether a dedicated trend diagram is needed; PubChem interactive table is a candidate reference for trend functionality, but reuse terms and data provenance require review |
+| 03 Periodic system | Relate element position to groups, periods and periodic trends | Interactive periodic table displays position, group, period, symbol and mass, but does not teach directional trends in atomic radius, ionisation energy or electronegativity | PENDING — a separate bilingual periodic-trends visual is pedagogically justified; it must show broad trends with clear exceptions/qualifications, not imply every element follows a perfectly uniform rule. PubChem remains reference-only; no asset selected or copied |
 | 04 Chemical bonding | Compare ionic, covalent and metallic bonding without presenting models as literal structure | Three inline interactive SVG models | INTEGRATED — model limitations are described in page text; manual accessibility and rights review PENDING |
 | 05 Amount of substance | Connect mole, Avogadro constant and molar mass | One-mole SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
 | 06 Chemical formulae | Read subscripts, brackets and coefficients | Formula-reading SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
@@ -98,7 +98,7 @@ This is a first-pass map of the currently identified visual need, not a final de
 
 1. Improve targeted searches for records where the first retrospective search did not surface a suitable candidate; retain the exact queries and dated outcomes already recorded. The original pre-creation search sequence remains historically unverifiable.
 2. Confirm creator, authoring method, rightsholder and explicit licence or code/data rights basis for every project-created visual.
-3. Complete the chapter-level learning-need sign-off, especially the Chapter 01 electron-cloud placement and Chapter 03 periodic-trend visual decision. The static visual coverage ratio is inventory-only, not curriculum completeness.
+3. Complete the chapter-level learning-need sign-off. Chapter 01 electron-cloud placement is integrated but still needs manual checks. Chapter 03 needs a bilingual periodic-trends visual covering atomic radius, first ionisation energy and electronegativity, with explicit scope/exception notes. The static visual coverage ratio is inventory-only, not curriculum completeness.
 4. Perform manual inspection at phone/tablet/desktop widths, zoom/reflow, keyboard and screen-reader checks. CI does not establish these.
 5. Re-run Chemistry CI after the register and checks changes; update metrics only from actual results.
 
