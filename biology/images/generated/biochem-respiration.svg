@@ -45,8 +45,8 @@
 <rect x="220" y="455" width="78" height="95" rx="18" class="protein"/>
 <rect x="365" y="455" width="78" height="95" rx="18" class="protein"/>
 <rect x="510" y="455" width="78" height="95" rx="18" class="protein"/>
-<text x="404" y="425" text-anchor="middle" class="small">Комплексы дыхательной цепи</text>
-<text x="404" y="444" text-anchor="middle" class="tiny">Electron transport chain</text>
+<text x="110" y="420" class="tiny">Дыхательная цепь</text>
+<text x="110" y="440" class="tiny">Electron transport chain</text>
 <path d="M260 675V565" class="pflow"/><path d="M405 675V565" class="pflow"/><path d="M550 675V565" class="pflow"/>
 <text x="260" y="590" text-anchor="middle" class="small">H⁺</text>
 <text x="405" y="590" text-anchor="middle" class="small">H⁺</text>
@@ -64,7 +64,8 @@
 <text x="980" y="554" class="tiny">Protons flow back</text>
 
 <!-- Matrix processes -->
-<text x="600" y="635" text-anchor="middle" class="head">Матрикс митохондрии / Mitochondrial matrix</text>
+<text x="75" y="630" class="small">Матрикс митохондрии</text>
+<text x="75" y="650" class="tiny">Mitochondrial matrix</text>
 <rect x="95" y="690" width="390" height="155" rx="20" class="card"/>
 <text x="290" y="725" text-anchor="middle" class="head">Окисление пирувата</text>
 <text x="290" y="750" text-anchor="middle" class="head" style="font-size:18px">Pyruvate oxidation</text>
