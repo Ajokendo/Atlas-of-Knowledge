@@ -236,3 +236,11 @@
 - Added the National Statistical Committee of the Kyrgyz Republic's official Regional Statistics page as a country-level data portal for oblast-level examples: https://www.stat.gov.kg/ru/regionalnaya-statistika/ . The chapter does not yet introduce unsupported numeric regional claims; any future values must cite a specific table, period and update date.
 - Corrected duplicate bibliography numbering: National Research Council is now reference 9; the Kyrgyz NSC regional statistics portal is reference 10. This is a citation-structure correction, not a claim that all Kyrgyzstan examples have been fully sourced.
 - Remaining: trace each specific regional example to a dated official table/map; verify map projection examples and any technical claims individually; final bilingual proofread.
+
+
+## Chapter 02 — visual evidence follow-up (4 November 2026)
+
+- **Water distribution (2-C):** the exact USGS chart media record labels the asset Public Domain and attributes the rounded global distribution values to Igor Shiklomanov's 1993 chapter in *Water in Crisis*. The graphic must preserve the nested denominators (all water / freshwater / surface freshwater) and must not be presented as a 2026 measurement.
+- **Water cycle (2.4-A):** the USGS 2022 global water-cycle diagram is Public Domain and was created by USGS VizLab with the USGS Water Resources Mission Area Web Communications Branch. It includes human water use, water quality and climate influences; caption it as a human-influenced global water-cycle view, not as a natural-only cycle.
+- **Atmospheric layers (2-B, 2.3-A):** NOAA JetStream provides a five-layer diagram and a temperature profile. NOAA's education FAQ says nearly all NOAA educational content and images are public domain unless otherwise noted; verify the individual image credit line and retain NOAA attribution. Layer heights are approximate; the troposphere varies with latitude.
+- These are source/rights findings for candidate visuals only. No candidate is approved or integrated until image-specific credit, bilingual labels/captions, alt text, scale/accuracy and repository embedding are checked.
