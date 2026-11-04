@@ -281,7 +281,7 @@
 7. Снежный и ледовый покров, растительность и свойства поверхности.
 8. Антропогенные изменения состава атмосферы и землепользования.
 
-Ни один фактор не действует изолированно. Например, климат побережья определяется не только широтой, но и морскими течениями, ветрами и конфигурацией береговой линии.
+Ни один фактор не действует изолированно. Например, климат побережья определяется не только широтой, но и морскими течениями, ветрами и конфигурацией береговой линии. [Дополнительный учебный источник: NOAA, *What Is Climate?*](https://gml.noaa.gov/outreach/info_activities/pdfs/TBI_what_is_climate.pdf).
 
 ## 5.11. Климатические классификации и типы климата / Climate Classification and Climate Types
 
@@ -844,7 +844,7 @@ The climate of an area is shaped by interacting factors:
 7. Snow and ice cover, vegetation and surface properties.
 8. Human-caused changes in atmospheric composition and land use.
 
-No single factor acts in isolation. The climate of a coast, for example, depends not only on latitude but also on ocean currents, winds and the shape of the coastline.
+No single factor acts in isolation. The climate of a coast, for example, depends not only on latitude but also on ocean currents, winds and the shape of the coastline. [Additional educational source: NOAA, *What Is Climate?*](https://gml.noaa.gov/outreach/info_activities/pdfs/TBI_what_is_climate.pdf).
 
 ### 5.11. Climate Classification and Climate Types
 
@@ -1091,6 +1091,7 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 24. World Meteorological Organization (WMO). *Guidelines on the Definition and Characterization of Extreme Weather and Climate Events* (2023). https://digitallibrary.un.org/record/4012890
 25. U.S. Environmental Protection Agency (EPA). *What Are Heat Islands?* https://www.epa.gov/heatislands/what-are-heat-islands
 26. NOAA National Weather Service. *Snow Measurement Guidelines*. https://www.weather.gov/gsp/snow
+27. NOAA Global Monitoring Laboratory. *What Is Climate?* (Teacher Background). https://gml.noaa.gov/outreach/info_activities/pdfs/TBI_what_is_climate.pdf
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
