@@ -358,7 +358,7 @@
 
 ![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
 
-*Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [Source page / Страница источника](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
+*Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR/UCAR. The original NCAR page states that the image is freely available for nonprofit and media use. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Источник: My NASA Data, “Energy and Matter Cycles”; изображение цикла азота предоставлено NCAR/UCAR. На исходной странице NCAR указано, что изображение можно свободно использовать в некоммерческих и медийных материалах. Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [My NASA Data](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) · [Original NCAR source and reuse note / Первоисточник NCAR и условия использования](https://news.ucar.edu/1449/nitrogen-earth-system).*
 
 ![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
 
@@ -865,7 +865,7 @@ Biogeochemical cycles are the continuous movement of chemical elements between l
 
 ![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
 
-*Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [Source page / Страница источника](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
+*Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR/UCAR. The original NCAR page states that the image is freely available for nonprofit and media use. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Источник: My NASA Data, “Energy and Matter Cycles”; изображение цикла азота предоставлено NCAR/UCAR. На исходной странице NCAR указано, что изображение можно свободно использовать в некоммерческих и медийных материалах. Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [My NASA Data](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) · [Original NCAR source and reuse note / Первоисточник NCAR и условия использования](https://news.ucar.edu/1449/nitrogen-earth-system).*
 
 ![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
 
