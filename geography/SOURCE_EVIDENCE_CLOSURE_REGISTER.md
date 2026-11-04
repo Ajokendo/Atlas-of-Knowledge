@@ -378,3 +378,8 @@ All population and election examples are explicitly hypothetical; they are not p
 - Review-question counts match RU/EN: 06 (16/16), 07 (15/15), 08 (15/15), 09 (15/15), 10 (14/14).
 - Practical activity counts match RU/EN: 06 (1/1), 07 (4/4), 08 (4/4), 09 (5/5), 10 (5/5).
 - This is a structural inventory check only; it does not replace semantic line-by-line proofreading.
+
+
+### Chapter 10 — ICJ Statute alternate-access closure — 5 November 2026
+
+- The original ICJ-hosted Statute URL returned HTTP 403 during direct retrieval. Replaced it with the official UN full-text page for the Statute of the International Court of Justice, which is annexed to the UN Charter and forms an integral part of it under Article 92. The UN page was checked and provides the complete Statute text. Commit: `5f43b92078b7b9f7351dc95b293009e378889555`.
