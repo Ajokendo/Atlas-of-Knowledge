@@ -53,3 +53,33 @@ Commit: `8ce1a147f3dfc1b07689355cd84658046501ae61`.
 - The Markdown chapter files contain Russian and English material, but the landing-page language switch does not yet filter chapter content.
 - A rendered chapter reader, full browser testing, mobile-device testing, keyboard/contrast audit and final deployment verification remain separate tasks.
 - Source links and claims still require systematic verification; a bibliography heading is not proof that every citation supports its adjacent statement.
+
+
+## IMAGE-FIRST POLICY v1.1 — mandatory adoption
+
+**Adopted:** 5 November 2026  
+**Policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
+**Reference branch:** `atlas-of-knowledge-integration`  
+**Canonical-main status:** The policy is currently referenced from the integration branch. Update this link to the root-level `main` location only after the central integration process merges it. Do not create a Geography copy.
+
+Geography adopts the complete mandatory workflow, status vocabulary, evidence requirements, metrics, CI principles and derivative/inherited-material protocol in sections 1–10, including section 8.1. This record supplements but does not redefine the universal policy.
+
+### Geography-specific extension
+
+1. **Physical/topographic maps:** record projection, scale, CRS, orientation, elevation-data source, vertical datum, data date, resolution and accuracy limits.
+2. **Climate/statistical maps:** record observation/reference period, units, source, spatial coverage, classification method and class intervals; explain colour and symbol meaning.
+3. **Kyrgyzstan maps:** verify administrative names/boundaries against dated authoritative sources; record imagery dates, basin boundaries, glacier-outline provenance and limitations. Do not generalise local measurements into national claims.
+4. **GIS/remote sensing:** record satellite/sensor, product, acquisition date, resolution, processing level, bands/indices, classification, validation and interpretation limits.
+5. **Demography/economy:** record period, territorial coverage, denominator, collection method, and whether values are observations, estimates, model outputs or projections.
+6. **Conservation-sensitive geography:** generalise sensitive species, nest, breeding-site and habitat locations where disclosure could increase poaching or disturbance; document the decision.
+7. **Cartographic comparability:** explain differences in projection, scale, classification, boundary vintage and data period when maps are compared.
+
+### Derivative and inherited-material protocol
+
+Classify each asset as A — Original reuse, B — Adapted or C — Created, separately from rights status. The atlas-wide source relationship is not yet established comprehensively; do not label the atlas wholly original, derivative or mixed without evidence. Record source lineage and creator/rightsholder per asset. Unknown provenance, permission or adaptation rights remain Unknown / PENDING. Repository ownership does not establish authorship or permission. Do not repeat discovery searches for identifiable unchanged inherited assets solely to satisfy image-first; verify lineage, rights, accuracy, localisation, accessibility and rendering. Search for replacements when assets are missing, unsuitable, inaccurate, inaccessible, rights-restricted or need replacement. Translation of surrounding captions/alt text alone does not change the visual category; translation of embedded labels or other substantive visual edits is an adaptation.
+
+**Current limitation:** detailed IMAGE_SOURCES records cover Chapters 01–02 only. Chapters 03–26 must not be treated as source-verified until their individual records are completed.
+
+### Required reporting
+
+Report required/integrated counts, provisional Image Coverage, Image Verification, Image Gaps, A/B/C counts and separate rights, scientific, language/accessibility and technical results for each chapter and the atlas. Placeholders do not count as integrated. INTEGRATED does not mean VERIFIED. No overall percentage is assigned until IDs and evidence are reconciled.
