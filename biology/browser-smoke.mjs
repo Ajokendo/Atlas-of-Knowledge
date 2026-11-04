@@ -1,5 +1,5 @@
 import { chromium } from "playwright";
-import { readdir } from "node:fs/promises";
+import { mkdir, readdir } from "node:fs/promises";
 import path from "node:path";
 
 const root = path.resolve("biology");
@@ -93,6 +93,21 @@ try {
       current = file;
       const response = await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
       if (!response || !response.ok()) errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
+
+      // Save a reproducible visual-review screenshot after all page images have decoded.
+      await page.evaluate(async () => {
+        await Promise.all(Array.from(document.images, img =>
+          img.decode().catch(() => null)
+        ));
+      });
+      const screenshotDir = path.resolve("artifacts/biology-visual-review", String(viewport.width));
+      await mkdir(screenshotDir, { recursive: true });
+      const screenshotName = file.replace(/^biology\\//, "").replaceAll("/", "__").replace(/\\.html$/, "") + ".png";
+      await page.screenshot({
+        path: path.join(screenshotDir, screenshotName),
+        fullPage: true,
+        animations: "disabled"
+      });
 
       await page.addScriptTag({ path: path.resolve("node_modules/axe-core/axe.min.js") });
       const runAxeAudit = async (languageState) => {
