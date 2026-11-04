@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Пять основных групп позвоночных / Five major vertebrate groups</title>
+<desc id="desc">Учебное сравнение рыб, земноводных, пресмыкающихся, птиц и млекопитающих с условными изображениями и признаками. Это традиционная учебная группировка, а не пять равноправных клад: птицы входят в состав рептилий в современной кладистике. / A teaching comparison of fish, amphibians, reptiles, birds and mammals. This familiar grouping is not five equivalent clades: birds are nested within reptiles in modern cladistics.</desc>
+<defs><style>
+.bg{fill:#f7f8f4}.panel{fill:#fff;stroke:#d9e0d6;stroke-width:2}.head{font:600 27px Inter,Arial,sans-serif;fill:#243329}.sub{font:17px Inter,Arial,sans-serif;fill:#617066}.label{font:600 21px Inter,Arial,sans-serif;fill:#243329}.small{font:15px Inter,Arial,sans-serif;fill:#536258}.tiny{font:13px Inter,Arial,sans-serif;fill:#617066}.fish{fill:#7fa6a1;stroke:#476e6b;stroke-width:4;stroke-linejoin:round}.frog{fill:#83a36e;stroke:#4e7149;stroke-width:4;stroke-linejoin:round}.reptile{fill:#b5a06c;stroke:#776844;stroke-width:4;stroke-linejoin:round}.bird{fill:#8d9eb0;stroke:#596f82;stroke-width:4;stroke-linejoin:round}.mammal{fill:#a58c72;stroke:#6e5a49;stroke-width:4;stroke-linejoin:round}
+</style></defs>
+<rect width="1200" height="900" class="bg"/>
+<text x="55" y="58" class="head">ПОЗВОНОЧНЫЕ / VERTEBRATES</text>
+<text x="55" y="92" class="sub">Пять привычных учебных групп и их характерные особенности / Five familiar teaching groups and their typical features</text>
+<g>
+<rect x="45" y="125" width="350" height="310" rx="16" class="panel"/>
+<text x="72" y="166" class="label">Рыбы / Fish</text>
+<path d="M105 270Q160 205 260 250Q300 270 260 310Q160 350 105 290L65 325L70 265Z" class="fish"/>
+<path d="M165 235L205 195L230 244M165 310L205 350L230 305M150 250Q170 270 150 295" fill="#a9c6bd" stroke="#476e6b" stroke-width="3"/>
+<circle cx="250" cy="266" r="6" fill="#243329"/>
+<path d="M120 270Q140 285 120 300" fill="none" stroke="#476e6b" stroke-width="3"/>
+<text x="72" y="374" class="small">• Жабры у большинства видов</text>
+<text x="72" y="399" class="small">• Плавники и водная среда</text>
+<text x="72" y="421" class="tiny">Gills in most species · fins · aquatic life</text>
+</g>
+<g>
+<rect x="425" y="125" width="350" height="310" rx="16" class="panel"/>
+<text x="452" y="166" class="label">Земноводные / Amphibians</text>
+<ellipse cx="600" cy="276" rx="78" ry="48" class="frog"/>
+<circle cx="548" cy="238" r="20" class="frog"/><circle cx="652" cy="238" r="20" class="frog"/>
+<circle cx="550" cy="236" r="5" fill="#243329"/><circle cx="652" cy="236" r="5" fill="#243329"/>
+<path d="M540 293L500 335L470 330M555 310L530 350M650 293L695 335L725 330M635 310L660 350" fill="none" stroke="#4e7149" stroke-width="12" stroke-linecap="round"/>
+<path d="M572 283Q600 297 628 283" fill="none" stroke="#4e7149" stroke-width="3"/>
+<text x="452" y="374" class="small">• Кожа часто участвует в дыхании</text>
+<text x="452" y="399" class="small">• У многих есть водная личинка</text>
+<text x="452" y="421" class="tiny">Skin often aids respiration · many have aquatic larvae</text>
+</g>
+<g>
+<rect x="805" y="125" width="350" height="310" rx="16" class="panel"/>
+<text x="832" y="166" class="label">Пресмыкающиеся / Reptiles</text>
+<path d="M870 286Q900 245 970 260Q1025 270 1060 290L1100 280L1120 300L1080 320L1050 308Q1010 345 950 325Q900 315 870 286Z" class="reptile"/>
+<path d="M920 300L900 345L930 340M1020 310L1040 350L1060 345M950 265L940 235L970 260" fill="none" stroke="#776844" stroke-width="10" stroke-linecap="round"/>
+<circle cx="1085" cy="294" r="5" fill="#243329"/>
+<path d="M890 282Q920 295 945 280M960 275Q985 300 1010 280" fill="none" stroke="#776844" stroke-width="3"/>
+<text x="832" y="374" class="small">• Сухая кожа с роговыми чешуями</text>
+<text x="832" y="399" class="small">• Дыхание лёгкими</text>
+<text x="832" y="421" class="tiny">Dry scaly skin · lungs</text>
+</g>
+<g>
+<rect x="235" y="465" width="350" height="310" rx="16" class="panel"/>
+<text x="262" y="506" class="label">Птицы / Birds</text>
+<path d="M330 635Q350 565 425 580Q475 590 495 640Q450 680 390 665Q355 660 330 635Z" class="bird"/>
+<path d="M400 610Q365 550 345 545Q350 620 410 648Q445 650 460 630Z" fill="#b8c6d2" stroke="#596f82" stroke-width="4"/>
+<path d="M480 595L520 580L505 610Z" fill="#c28c52" stroke="#89633d" stroke-width="3"/>
+<circle cx="470" cy="595" r="5" fill="#243329"/>
+<path d="M385 665L380 700M420 665L430 700M365 700L395 700M415 700L445 700" fill="none" stroke="#89633d" stroke-width="5" stroke-linecap="round"/>
+<text x="262" y="714" class="small">• Перья и клюв</text>
+<text x="262" y="739" class="small">• Передние конечности — крылья</text>
+<text x="262" y="761" class="tiny">Feathers and beak · forelimbs are wings</text>
+</g>
+<g>
+<rect x="615" y="465" width="350" height="310" rx="16" class="panel"/>
+<text x="642" y="506" class="label">Млекопитающие / Mammals</text>
+<path d="M700 640Q710 580 780 575Q850 565 885 615L900 655L875 670L855 650L845 705L825 705L815 650L755 650L745 705L725 705L730 645Z" class="mammal"/>
+<path d="M850 580Q875 545 915 565L940 595L915 620L880 615Z" class="mammal"/>
+<path d="M885 568L890 540L910 565" class="mammal"/>
+<circle cx="920" cy="585" r="5" fill="#243329"/>
+<path d="M700 615Q670 595 665 570" fill="none" stroke="#6e5a49" stroke-width="9" stroke-linecap="round"/>
+<text x="642" y="714" class="small">• Волосы или шерсть на теле</text>
+<text x="642" y="739" class="small">• Детёнышей кормят молоком</text>
+<text x="642" y="761" class="tiny">Hair or fur · young fed with milk</text>
+</g>
+<rect x="45" y="805" width="1110" height="65" rx="12" fill="#e9eee6" stroke="#cbd7c9" stroke-width="2"/>
+<text x="70" y="833" class="small">Важно: это удобные учебные группы, но не пять равноправных клад. В современной кладистике птицы входят в состав рептилий.</text>
+<text x="70" y="856" class="tiny">Important: these are familiar teaching groups, not five equivalent clades. In modern cladistics, birds are part of Reptilia.</text>
+</svg>
