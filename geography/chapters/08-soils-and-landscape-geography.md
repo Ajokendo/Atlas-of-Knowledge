@@ -634,5 +634,9 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 
 **Примечание:** почвенные классификации, методы отбора проб и показатели деградации могут различаться между странами. В каждом практическом исследовании необходимо указывать применённую методику, глубину отбора проб, дату и источник данных.
 
+Численные примеры в этой главе являются учебными и не представляют результаты конкретного полевого исследования или статистику отдельной страны. При добавлении региональных почвенных карт и измерений необходимо указывать набор данных, год, масштаб, систему классификации, глубину и метод отбора проб.
+
+The numerical examples in this chapter are instructional; they are not results from a specific field study or statistics for a particular country. Any regional soil map or measurement added later must identify the dataset, year, scale, classification system, sampling depth and sampling method.
+
 ---
 **Конец главы 8 / End of Chapter 8**
