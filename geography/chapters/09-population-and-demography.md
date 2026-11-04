@@ -41,7 +41,13 @@ After studying this chapter, readers will be able to explain core demographic co
 
 **Естественный прирост** — разность между числом родившихся и умерших за период. Если смертей больше, возникает естественная убыль. **Миграционный прирост** — разность прибытий и выбытий. Общий прирост учитывает оба компонента.
 
-Абсолютное изменение численности не следует путать с темпом роста. Темп прироста выражает относительное изменение за период. Для сравнения территорий разного размера используют относительные показатели, например коэффициенты на 1 000 жителей.
+Абсолютное изменение численности не следует путать с темпом роста. Темп прироста выражает относительное изменение за период. Для учебного сравнения часто используют коэффициент естественного прироста и коэффициент миграционного прироста на 1 000 жителей:
+
+\[
+r_{ест} = \frac{B-D}{P_{ср}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_{ср}}\times 1000,
+\]
+
+где \(P_{ср}\) — среднегодовая численность населения. Сумма естественного и миграционного компонентов даёт общий прирост в расчёте на 1 000 жителей только при согласованных периодах, территориях и методах учёта. Для темпа роста в процентах международные базы могут использовать экспоненциальную формулу \(r = \ln(P_2/P_1)/n\times100\), где \(P_1\) и \(P_2\) — численность на начало и конец периода, а \(n\) — число лет. Поэтому перед сравнением нужно проверить методику конкретного источника. Относительные показатели позволяют сравнивать территории разной численности, но не устраняют различия в определениях и качестве данных.
 
 ## 9.3. Рождаемость и плодовитость / Births and Fertility
 
@@ -297,7 +303,13 @@ where P(t) is the population at the start of the period, B is births, D is death
 
 **Natural increase** is the difference between births and deaths during a period. If deaths exceed births, natural decrease occurs. **Net migration** is arrivals minus departures. Total population change includes both components.
 
-Absolute change should not be confused with the growth rate. The growth rate expresses relative change over a period. Relative indicators, such as rates per 1,000 residents, are useful when comparing territories of different sizes.
+Absolute change should not be confused with the growth rate. The growth rate expresses relative change over a period. For classroom comparisons, the crude rates of natural change and net migration per 1,000 residents can be written as:
+
+\[
+r_{natural} = \frac{B-D}{P_{avg}}\times 1,000, \qquad r_{migration} = \frac{I-E}{P_{avg}}\times 1,000,
+\]
+
+where \(P_{avg}\) is the average population during the year. Their sum gives the total change per 1,000 only when periods, territorial boundaries and counting methods are consistent. International databases may calculate the annual percentage growth rate exponentially: \(r = \ln(P_2/P_1)/n\times100\), where \(P_1\) and \(P_2\) are population sizes at the beginning and end of the period and \(n\) is the number of years. Check the source methodology before comparing rates. Relative indicators help compare territories of different sizes, but they do not remove differences in definitions or data quality.
 
 ### 9.3. Births and Fertility
 
