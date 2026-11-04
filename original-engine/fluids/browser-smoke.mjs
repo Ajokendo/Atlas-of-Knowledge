@@ -103,6 +103,12 @@ async function checkInteractiveBook(mobile) {
     const response = await page.goto(`${base}/original-engine/fluids/`, { waitUntil: 'domcontentloaded', timeout: 15000 });
     if (!response || !response.ok()) throw new Error(`book HTTP ${response?.status() ?? 'missing'}`);
     await page.waitForSelector('#sheet h1', { timeout: 12000 });
+    const guide = await page.locator('#scene-guide').innerText();
+    const sceneTopics = ['Плотность', 'Давление.', 'Давление с глубиной', 'Закон Паскаля', 'Сила Архимеда', 'Плавание и погружение', 'Непрерывность потока', 'Уравнение Бернулли', 'Закон Торричелли'];
+    const missingTopics = sceneTopics.filter(topic => !guide.includes(topic));
+    if (missingTopics.length) throw new Error(`accessible scene guide is missing: ${missingTopics.join('; ')}`);
+    if ((await page.locator('#scene-guide li').count()) !== 9) throw new Error('accessible scene guide must describe all nine scenes');
+    if ((await page.locator('#gl').getAttribute('aria-describedby')) !== 'scene-guide') throw new Error('3D canvas is not programmatically associated with its text guide');
     await page.waitForFunction(() => {
       const canvas = document.querySelector('#gl');
       return canvas && canvas.width > 0 && canvas.height > 0 &&
