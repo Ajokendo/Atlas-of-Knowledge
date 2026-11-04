@@ -178,3 +178,5 @@ The four additional SVG files in `geography/assets/` are referenced from Chapter
 - Commit references: Chapters 06 `207f09f`, `93811b5`; 08 `f56dac3`; 09 `8f192a4`, `7a82a55`; 10 `468d576`; source register `fb1cb53`.
 
 - **Chapter 07 additional correction:** distinguished traditional climate/vegetation-based biome maps from the IUCN Global Ecosystem Typology's six-level, function-aware hierarchy; clarified that the frameworks complement but do not replace one another. Added the IUCN GET 2.0 reference. Commit: `15fa5a4`.
+
+- **Chapter 06 final consistency note:** clarified the assumptions behind the simplified catchment-balance example and made the English/Russian explanation consistent about groundwater exchange and external transfers. Commit: `adcb611` (source-register follow-up `2a56c83`).
