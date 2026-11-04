@@ -56,7 +56,11 @@
 - карст;
 - склоновые движения.
 
-**Место для иллюстрации 4.2-A — Endogenic and Exogenic Forces.** Сопоставить внутренние процессы, создающие крупные формы, и внешние процессы, разрушающие, перемещающие и накапливающие материал.
+**Иллюстрация 4.2-A — Внутренние и внешние процессы / Endogenic and Exogenic Processes.**
+
+![Сопоставление тектонического поднятия и вулканизма с выветриванием, эрозией, переносом и отложением материала. / Comparison of tectonic uplift and volcanism with weathering, erosion, transport and deposition.](../assets/04-2-A-endogenic-exogenic-bilingual.svg)
+
+*Поднятие создаёт перепады высот, а внешние силы перерабатывают рельеф. / Uplift creates relief, while surface processes reshape it.*
 
 ## 4.3. Классификация форм рельефа / Classification of Landforms
 
@@ -165,7 +169,11 @@
 
 **Меандр** — изгиб русла, который обычно развивается вследствие неодинакового распределения скоростей потока: на внешнем берегу преобладает размыв, а на внутреннем — накопление наносов. **Пойма** — часть речной долины, периодически затапливаемая при высоких уровнях воды. **Речная терраса** — ступенчатая площадка на борту долины, часто представляющая собой бывшую пойму, оставшуюся выше современного русла после его врезания или изменения базиса эрозии. **Базис эрозии** — наименьший уровень, до которого река может врезать русло: глобальный базис связан с уровнем моря, а местный может задаваться озером, более крупной рекой или устойчивым скальным порогом. **Старица** — дугообразное озеро, образовавшееся после отсечения изгиба меандра от основного русла. **Конус выноса** — веерообразное скопление наносов там, где поток выходит из узкой долины на более пологую поверхность и теряет часть транспортирующей способности. **Дельта** формируется там, где река при впадении в озеро, море или другой водоток замедляется и теряет часть транспортирующей способности, поэтому наносы накапливаются у устья. Форма дельты зависит от соотношения речного притока осадков, волн и приливных течений. Не каждое устье образует дельту: сильные волны и течения могут перераспределять или уносить наносы.
 
-**Место для иллюстрации 4.6-A — River Landforms.** План и поперечный профиль реки: меандр, старица, пойма, террасы, конус выноса и дельта с разветвлёнными рукавами; показать влияние волн и приливов на переработку наносов.
+**Иллюстрация 4.6-A — Речные формы рельефа / River Landforms.**
+
+![Учебная схема меандра, старицы, поймы, речной террасы, конуса выноса и дельты с рукавами. / Teaching diagram of a meander, oxbow lake, floodplain, river terrace, alluvial fan and distributary delta.](../assets/04-6-A-river-landforms-bilingual.svg)
+
+*Схема не в масштабе; развитие дельт зависит от речного стока, волн, приливов и уровня моря. / Not to scale; delta development depends on river discharge, waves, tides and sea level.*
 
 ## 4.7. Ледниковые формы рельефа / Glacial Landforms
 
@@ -488,7 +496,11 @@ Landform development depends on several interacting groups of factors:
 
 **Exogenic processes** operate at or near the surface and modify existing landforms. Their main energy sources are solar radiation and gravity. They include weathering, erosion and transport, sediment accumulation, river and temporary-stream action, glacial processes, aeolian processes, karst and slope movements.
 
-**[ILLUSTRATION PLACEHOLDER 4.2-A]** The illustration should contrast tectonic uplift and volcanism with weathering, river erosion, transport and deposition, showing interacting processes.
+**Illustration 4.2-A — Endogenic and Exogenic Processes.**
+
+![Comparison of tectonic uplift and volcanism with weathering, erosion, transport and deposition. / Сопоставление тектонического поднятия и вулканизма с выветриванием, эрозией, переносом и отложением материала.](../assets/04-2-A-endogenic-exogenic-bilingual.svg)
+
+*Uplift creates relief, while surface processes reshape it. / Поднятие создаёт перепады высот, а внешние силы перерабатывают рельеф.*
 
 ### 4.3. Classification of Landforms
 
@@ -567,7 +579,11 @@ River erosion may be **vertical**, deepening the channel; **lateral**, widening 
 
 Major fluvial landforms include river valleys and gorges, canyons, meanders, floodplains, river terraces, alluvial fans, deltas and alluvial plains. A **meander** is a bend in a river channel. Flow is generally faster near the outer bank, where erosion dominates, and slower near the inner bank, where sediment is more likely to accumulate. A **floodplain** is the part of a river valley periodically inundated during high water. A **river terrace** is a step-like bench along a valley side, often representing an older floodplain left above the modern channel after river incision or a change in base level. **Base level** is the lowest level to which a river can erode: sea level is the ultimate base level for rivers reaching the coast, while lakes, larger rivers or resistant bedrock thresholds can create local base levels. An **oxbow lake** is a crescent-shaped lake formed when a meander loop is cut off from the main river channel. An **alluvial fan** is a fan-shaped sediment deposit formed where a stream leaves a confined valley for flatter ground and loses some of its transporting capacity. A **delta** forms where a river slows as it enters a lake, sea or another river and loses some of its capacity to transport sediment, allowing deposits to build near the mouth. Delta shape depends on the balance between river sediment supply, waves and tidal currents. Not every river mouth forms a delta: strong waves and currents may redistribute or remove the sediment.
 
-**[ILLUSTRATION PLACEHOLDER 4.6-A]** Show a meander, oxbow lake, floodplain, terraces, alluvial fan and a distributary delta; indicate how waves and tides rework mouth sediments and distinguish erosion from deposition.
+**Illustration 4.6-A — River Landforms.**
+
+![Teaching diagram of a meander, oxbow lake, floodplain, river terrace, alluvial fan and distributary delta. / Учебная схема меандра, старицы, поймы, речной террасы, конуса выноса и дельты с рукавами.](../assets/04-6-A-river-landforms-bilingual.svg)
+
+*Not to scale; delta development depends on river discharge, waves, tides and sea level. / Схема не в масштабе; развитие дельт зависит от речного стока, волн, приливов и уровня моря.*
 
 ### 4.7. Glacial Landforms
 
