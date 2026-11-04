@@ -827,11 +827,7 @@ A **digital elevation model (DEM)** is a gridded representation of elevation. So
 
 DEMs can be used to calculate slope, aspect, flow direction, drainage networks, catchments (drainage basins), earthwork volumes and other terrain parameters. Analysis must account for spatial resolution, vertical accuracy, horizontal and vertical reference systems, data source, acquisition date, processing method and whether vegetation or buildings are included. A finer grid cell does not automatically mean greater accuracy: resolution must be appropriate to the source-data density and quality.
 
-**Illustration 4.14-A — Reading a Topographic Map.**
 
-![Schematic topographic map with contours, stream, spot height and A–B profile line. / Условная топографическая карта с горизонталями, ручьём, высотной отметкой и линией профиля A–B.](../assets/04-14-A-topographic-map-bilingual.svg)
-
-*Schematic teaching example, not a georeferenced map. The illustrative contour interval is 20 m; contour-reading principles follow USGS topographic mapping guidance. / Схематический учебный пример, не геопривязанная карта. Интервал горизонталей условно принят равным 20 м; принципы чтения горизонталей соответствуют рекомендациям USGS.*
 
 **Illustration 4.14-B — DEM, DSM and DTM.**
 
