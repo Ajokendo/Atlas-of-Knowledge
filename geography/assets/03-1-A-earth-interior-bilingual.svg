@@ -9,22 +9,22 @@
 <circle r="145" fill="#facc15" stroke="#a16207" stroke-width="3"/>
 <circle r="92" fill="#fef08a" stroke="#a16207" stroke-width="3"/>
 <circle r="38" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#fff" opacity=".0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity=".96"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="none" stroke="#64748b" stroke-width="2"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
-<path d="M0 0 L260 0 A260 260 0 0 1 0 260 Z" fill="#f8fafc" opacity="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </g>
 <g font-family="Arial,sans-serif" fill="#1e293b">
 <path d="M615 130 L790 130" stroke="#475569" stroke-width="2"/><text x="810" y="124" font-size="22" font-weight="700">Кора / Crust</text><text x="810" y="150" font-size="17">тонкая внешняя оболочка / thin outer shell</text>
