@@ -12,7 +12,7 @@
 <text x="95" y="470" text-anchor="middle" font-family="Arial" font-size="23" fill="#17324d" transform="rotate(-90 95 470)">Latitude / Широта</text>
 <circle cx="390" cy="430" r="16" fill="#b85c50" stroke="#fff" stroke-width="4"/>
 <path d="M390 430L510 310" stroke="#b85c50" stroke-width="3" stroke-dasharray="8 8"/>
-<text x="515" y="295" font-family="Arial" font-size="24" fill="#8f3f36">Point / Точка</text>
+<text x="515" y="295" font-family="Arial" font-size="24" fill="#8f3f36">Coordinates (φ, λ) / Координаты (φ, λ)</text>
 <text x="395" y="780" font-family="Arial" font-size="22" fill="#52697c" text-anchor="middle">Coordinates identify a precise position / Координаты задают точное положение</text>
 <path d="M825 550Q930 430 1030 500T1400 430" fill="none" stroke="#4b9fc4" stroke-width="34" stroke-linecap="round"/>
 <path d="M830 650L1380 270" stroke="#9b815e" stroke-width="16" stroke-linecap="round"/>
