@@ -241,7 +241,11 @@
 
 Риск определяется не только вероятностью землетрясения, но и уязвимостью зданий, плотностью населения, качеством инфраструктуры и готовностью к чрезвычайным ситуациям. Сейсмическая опасность не может быть устранена, но последствия можно уменьшить с помощью норм строительства, инженерной оценки и подготовки населения.
 
-**Место для иллюстрации 3.6-A — Anatomy of an Earthquake.** Разрез с разломом, очагом, эпицентром и типами сейсмических волн.
+**Иллюстрация 3.6-A — Строение землетрясения / Anatomy of an Earthquake.**
+
+![Разрез с разломом, очагом, эпицентром и схематическими путями P- и S-волн. / Cross-section showing a fault, focus, epicentre and schematic P- and S-wave paths.](../assets/03-6-A-earthquake-anatomy-bilingual.svg)
+
+*Схема условна; магнитуда характеризует размер источника, а интенсивность — проявления сотрясений в конкретном месте. / Schematic; magnitude characterises source size, while intensity describes shaking effects at a location.*
 **EN:** Cross-section showing a fault, hypocentre (focus), epicentre and the main types of seismic waves.
 
 ### 3.6.5. Как определяют положение эпицентра / How the Epicentre Is Located
@@ -329,7 +333,11 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 Опасности включают лавовые потоки, пеплопады, пирокластические потоки, вулканические газы, лахары и оползни вулканических склонов. Пирокластические потоки особенно опасны из-за высокой температуры и скорости движения.
 
-**Место для иллюстрации 3.7-A — Volcano Anatomy and Eruption Hazards.** Разрез вулкана с магматическим очагом, жерлом, кратером и зонами распространения разных опасных явлений.
+**Иллюстрация 3.7-A — Строение вулкана и опасности извержения / Volcano Anatomy and Eruption Hazards.**
+
+![Разрез вулкана с магматическим очагом, жерлом, кратером, пеплопадом, лавовым и пирокластическим потоками. / Volcano cross-section showing magma reservoir, conduit, crater, ash fall, lava flow and pyroclastic density current.](../assets/03-7-A-volcano-anatomy-bilingual.svg)
+
+*Зоны опасностей схематичны; лахары — водонасыщенные потоки вулканического материала. / Hazard extents are schematic; lahars are water-rich flows of volcanic material.*
 **EN:** Volcano cross-section showing the magma reservoir, conduit, crater and zones affected by different volcanic hazards.
 
 ## 3.8. Складчатость и разломы / Folding and Faulting
@@ -350,7 +358,11 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 Тип разлома определяется направлением относительного смещения блоков, а не только внешним видом поверхности.
 
-**Место для иллюстрации 3.8-A — Folds and Faults.** Сопоставить антиклиналь, синклиналь, сброс, взброс/надвиг и сдвиг на геологических разрезах.
+**Иллюстрация 3.8-A — Складки и разломы / Folds and Faults.**
+
+![Схематическое сравнение антиклинали, синклинали, сброса, взброса и сдвигового разлома. / Schematic comparison of anticline, syncline, normal, reverse and strike-slip faults.](../assets/03-8-A-folds-faults-bilingual.svg)
+
+*Условные разрезы; направление перемещения показано стрелками и не задаёт универсальную геометрию разломов. / Conceptual sections; arrows indicate movement and do not imply universal fault geometry.*
 **EN:** Compare an anticline, syncline, normal fault, reverse/thrust fault and strike-slip fault using clearly labelled geological cross-sections.
 
 ## 3.9. Геологическое время / Geological Time
@@ -965,13 +977,25 @@ On a schematic geological cross-section, identify:
 **[ILLUSTRATION PLACEHOLDER 3.5-A — Global Plate Tectonic Map]** Map the major lithospheric plates and divergent, convergent and transform boundaries. Verify boundary geometry against an authoritative geological map; include a clear legend and motion arrows.
 
 
-**[ILLUSTRATION PLACEHOLDER 3.6-A — Anatomy of an Earthquake]** Cross-section showing a fault, focus (hypocentre), epicentre and P- and S-wave paths. Clearly distinguish earthquake magnitude from shaking intensity.
+**Illustration 3.6-A — Anatomy of an Earthquake.**
+
+![Cross-section showing a fault, focus, epicentre and schematic P- and S-wave paths. / Разрез с разломом, очагом, эпицентром и схематическими путями P- и S-волн.](../assets/03-6-A-earthquake-anatomy-bilingual.svg)
+
+*Schematic; magnitude characterises source size, while intensity describes shaking effects at a location. / Схема условна; магнитуда характеризует размер источника, а интенсивность — проявления сотрясений в конкретном месте.*
 
 
-**[ILLUSTRATION PLACEHOLDER 3.7-A — Volcano Anatomy and Eruption Hazards]** Volcano cross-section with magma reservoir, conduit, crater and labelled hazard zones or flows. Distinguish lava, ash fall, pyroclastic density currents and lahars.
+**Illustration 3.7-A — Volcano Anatomy and Eruption Hazards.**
+
+![Volcano cross-section showing magma reservoir, conduit, crater, ash fall, lava flow and pyroclastic density current. / Разрез вулкана с магматическим очагом, жерлом, кратером, пеплопадом, лавовым и пирокластическим потоками.](../assets/03-7-A-volcano-anatomy-bilingual.svg)
+
+*Hazard extents are schematic; lahars are water-rich flows of volcanic material. / Зоны опасностей схематичны; лахары — водонасыщенные потоки вулканического материала.*
 
 
-**[ILLUSTRATION PLACEHOLDER 3.8-A — Folds and Faults]** Compare an anticline, syncline, normal fault, reverse/thrust fault and strike-slip fault in clear geological cross-sections. Add movement arrows and label hanging wall/footwall where relevant.
+**Illustration 3.8-A — Folds and Faults.**
+
+![Schematic comparison of anticline, syncline, normal, reverse and strike-slip faults. / Схематическое сравнение антиклинали, синклинали, сброса, взброса и сдвигового разлома.](../assets/03-8-A-folds-faults-bilingual.svg)
+
+*Conceptual sections; arrows indicate movement and do not imply universal fault geometry. / Условные разрезы; направление перемещения показано стрелками и не задаёт универсальную геометрию разломов.*
 
 
 **[ILLUSTRATION PLACEHOLDER 3.9-A — Geological Time Scale]** Vertical time scale from Earth's formation to the present. Use the current ICS chart, show the unequal duration of intervals honestly, and label the non-linear scale clearly.
