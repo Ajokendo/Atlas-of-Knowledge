@@ -292,3 +292,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 06 — IHO standard edition check — 5 November 2026
 
 - Replaced the generic IHO reference with specific publications and editions: S-23, S-44 Edition 6.2.0, S-102 Edition 3.0.0 and S-100 Edition 5.2.1, checked against the current IHO catalogue (last modified 30 October 2026). Commit: `80cd391382cdeceddbb5f048938e904ddab1324c`.
+
+
+### Chapter 07 — IPBES and IUCN source access — 5 November 2026
+
+- Added the 2023 IPBES invasive-species assessment DOI and updated IUCN bibliography links to the official resource pages for criteria, current guidelines and assessment supporting information. The latter provides the fields needed to cite a species assessment accurately. Commit: `2b3c9e30926342edbc4c8e75800ec41550026171`.
