@@ -167,3 +167,12 @@ The four additional SVG files in `geography/assets/` are referenced from Chapter
 - Added the existing My NASA Data carbon-cycle image (adapted from U.S. DOE), the My NASA Data/NCAR nitrogen-cycle image (nonprofit/media reuse note confirmed at the original NCAR page), and the Wikimedia phosphorus-cycle image (CC0 1.0). Each caption records its source and credit.
 - The three-cycle illustration set is complete: carbon, nitrogen and phosphorus are all represented with sourced images; the 2.10-B nitrogen and phosphorus images are paired in both language sections.
 - These source images are remotely hosted. No local binary copies, live-site rendering tests, mobile performance checks or accessibility validation are claimed.
+
+## Chapters 06, 08–10 — third focused follow-up — 5 November 2026
+
+- **Chapter 06:** added a mass-conservation formulation for catchment water budgets in both languages; distinguished the general inflow/outflow/storage balance from the simplified natural-catchment equation and added a USDA Forest Service methodology source.
+- **Chapter 08:** clarified that O/A/E/B/C/R profile labels are a simplified morphological scheme, not a formal WRB classification key or a universal sequence. WRB 4th edition (2022; corrected 2024) remains the classification reference.
+- **Chapter 09:** added formulas for natural-change and net-migration rates per 1,000 average residents, plus the exponential annual population-growth formula used by international datasets where applicable. Added UN Population Division metadata as a source.
+- **Chapter 10:** clarified that cartographic generalisation on small-scale maps is not a legal boundary record; added a caution against inferring river/lake boundary status from current shorelines or satellite imagery.
+- **Progress remains 73% for each of Chapters 06–10.** This pass closes selected scientific/terminological points only. Visual assets remain scheduled for the next work session; complete claim-to-source mapping and final sentence-level RU/EN proofreading remain open. Browser/device/deployment QA remains separate.
+- Commit references: Chapters 06 `207f09f`, `93811b5`; 08 `f56dac3`; 09 `8f192a4`, `7a82a55`; 10 `468d576`; source register `fb1cb53`.
