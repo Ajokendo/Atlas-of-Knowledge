@@ -591,6 +591,8 @@ Particular attention should be paid to differences between statistical and admin
 11. United Nations. **UNCLOS, Part II: Territorial Sea and Contiguous Zone** — official Convention text, including Articles 2–3 and 33. https://www.un.org/depts/los/convention_agreements/texts/unclos/part2.htm
 12. **Convention on Rights and Duties of States (Montevideo Convention)**, 26 December 1933, especially Articles 1 and 3 — treaty text on commonly cited statehood qualifications and recognition. https://history.state.gov/historicaldocuments/frus1933v04/d134
 13. Kilibarda, P. (2024). *Recognition of States in International Law*, Chapters 8–9 — contemporary discussion of declaratory, constitutive and mixed approaches. Oxford University Press. https://doi.org/10.1093/oso/9780198905653.003.0008
+14. United Nations. **UNCLOS, Part VI: Continental Shelf** — official text, especially Articles 76–78 on definition, coastal-state rights and the legal status of superjacent waters. https://www.un.org/Depts/los/convention_agreements/texts/unclos/part6.htm
+15. United Nations. **UNCLOS, Part VII: High Seas** — official text, especially Articles 86–89 on scope, freedoms and the prohibition of sovereignty claims over the high seas. https://www.un.org/Depts/los/convention_agreements/texts/unclos/part7.htm
 
 ---
 **Конец главы 10 / End of Chapter 10**
