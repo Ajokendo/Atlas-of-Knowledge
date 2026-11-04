@@ -216,3 +216,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — urban/rural classification method — 5 November 2026
 
 - Added a bilingual explanation of the UN Degree of Urbanization methodology (1 km² grid classification followed by classification of smaller spatial units), its first-level classes and its distinction from national legal definitions. Added the direct WUP 2025 methodology-report reference. Commit: `5537ae858eecadda2bec2982ff9bfd7ace2bcdaa`.
+
+
+### Chapter 09 — WUP 2025 bibliography clean-up — 5 November 2026
+
+- Removed a duplicate WUP 2025 methodology citation and corrected the methodology report publication date to 27 January 2026 using the official UN Population Division record. Commit: `f6615bc9f58bad6693cd87b9f0e8154f19e9c7fd`.
