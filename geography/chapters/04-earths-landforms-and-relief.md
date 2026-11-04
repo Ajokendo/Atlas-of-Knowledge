@@ -144,7 +144,11 @@
 
 Равнины формируются в результате накопления осадков, выравнивания древнего рельефа, тектонических движений, вулканических процессов и длительной денудации. По происхождению выделяют, например, аллювиальные равнины речных долин, озёрные и прибрежные равнины, водно-ледниковые зандровые равнины, лавовые равнины и поверхности, выровненные длительной эрозией.
 
-**Место для иллюстрации 4.5-A — Plains, Lowlands and Plateaus.** Сравнительный блок-профиль равнины, низменности, возвышенности, нагорья и плато с условными высотными отметками.
+**Иллюстрация 4.5-A — Равнины, низменности и плато / Plains, Lowlands and Plateaus.**
+
+![Сравнительный профиль низменности, равнины, возвышенности, плато и нагорья. / Comparative profile of lowland, plain, upland, plateau and highland.](../assets/04-5-A-plains-plateaus-bilingual.svg)
+
+*Высоты условны; термины описывают разные свойства рельефа, а пороги зависят от классификации. / Elevations are illustrative; terms describe different terrain properties and thresholds depend on classification.*
 
 ## 4.6. Речные формы рельефа / Fluvial Landforms
 
@@ -323,7 +327,11 @@
 
 **Учебная работа.** Сравните два условных склона одинаковой крутизны: на первом — плотная скальная порода и организованный водоотвод; на втором — трещиноватые водонасыщенные отложения и подрезанная подошва. Составьте перечень дополнительных данных, необходимых для сравнения их устойчивости. Не присваивайте численную вероятность без модели и исходных данных.
 
-**Место для иллюстрации 4.11-A — Slope Processes.** Сравнить падение, опрокидывание, вращательный и поступательный оползни, боковое растекание, сель, осыпь и крип; указать направление движения.
+**Иллюстрация 4.11-A — Процессы на склонах / Slope Processes.**
+
+![Схематические типы склоновых движений: падение, опрокидывание, оползень, сель, осыпь и медленная ползучесть. / Schematic slope movements: fall, topple, slide, debris flow, talus and slow creep.](../assets/04-11-A-slope-processes-bilingual.svg)
+
+*Тип движения зависит от геологии, воды, уклона и внешних воздействий; рисунок не является прогнозом устойчивости склона. / Movement depends on geology, water, slope and triggers; this diagram is not a slope-stability assessment.*
 
 ## 4.12. Выветривание горных пород / Weathering
 
@@ -343,7 +351,11 @@
 
 Климат определяет интенсивность разных типов выветривания, однако важны также порода, рельеф, водный режим и время.
 
-**Место для иллюстрации 4.12-A — Weathering Processes.** Три панели физического, химического и биологического выветривания с примерами.
+**Иллюстрация 4.12-A — Выветривание / Weathering Processes.**
+
+![Сравнение физического, химического и биологического выветривания. / Comparison of physical, chemical and biological weathering.](../assets/04-12-A-weathering-processes-bilingual.svg)
+
+*Выветривание изменяет породу на месте; эрозия связана с удалением и переносом материала. / Weathering alters rock in place; erosion involves removal and transport.*
 
 ## 4.13. Высота, глубина и экстремумы рельефа Земли / Elevation, Depth and Earth's Extremes
 
@@ -575,7 +587,11 @@ Plains are extensive areas with relatively small elevation differences and a gen
 
 Plains may form through sediment accumulation, the levelling of older relief, tectonic movement, volcanic processes and prolonged denudation. Examples by origin include alluvial plains in river valleys, lacustrine and coastal plains, glaciofluvial outwash plains, lava plains and surfaces levelled by prolonged erosion.
 
-**[ILLUSTRATION PLACEHOLDER 4.5-A]** Compare a plain, lowland, upland, plateau and highland; label elevation thresholds as approximate and classification-dependent.
+**Illustration 4.5-A — Plains, Lowlands and Plateaus.**
+
+![Comparative profile of lowland, plain, upland, plateau and highland. / Сравнительный профиль низменности, равнины, возвышенности, плато и нагорья.](../assets/04-5-A-plains-plateaus-bilingual.svg)
+
+*Elevations are illustrative; terms describe different terrain properties and thresholds depend on classification. / Высоты условны; термины описывают разные свойства рельефа, а пороги зависят от классификации.*
 
 ### 4.6. Fluvial Landforms
 
@@ -700,7 +716,11 @@ Slope steepness alone cannot reliably predict a landslide. Slope-hazard assessme
 
 **Learning activity.** Compare two hypothetical slopes with the same steepness: one has competent bedrock and managed drainage; the other has fractured water-saturated deposits and an undercut toe. List the additional data needed to compare their stability. Do not assign a numerical probability without a model and supporting data.
 
-**[ILLUSTRATION PLACEHOLDER 4.11-A]** Compare a fall, topple, rotational and translational slide, lateral spread, debris flow, talus accumulation and soil creep; show movement direction and possible triggers without implying exact prediction.
+**Illustration 4.11-A — Slope Processes.**
+
+![Schematic slope movements: fall, topple, slide, debris flow, talus and slow creep. / Схематические типы склоновых движений: падение, опрокидывание, оползень, сель, осыпь и медленная ползучесть.](../assets/04-11-A-slope-processes-bilingual.svg)
+
+*Movement depends on geology, water, slope and triggers; this diagram is not a slope-stability assessment. / Тип движения зависит от геологии, воды, уклона и внешних воздействий; рисунок не является прогнозом устойчивости склона.*
 
 ### 4.12. Weathering
 
@@ -723,7 +743,11 @@ Weathering is the breakdown and alteration of rock at or near Earth's surface by
 
 Climate influences the intensity of different weathering types, but rock composition, relief, water conditions and time are also important.
 
-**[ILLUSTRATION PLACEHOLDER 4.12-A]** Show physical, chemical and biological weathering in separate panels; distinguish weathering from erosion and transport.
+**Illustration 4.12-A — Weathering Processes.**
+
+![Comparison of physical, chemical and biological weathering. / Сравнение физического, химического и биологического выветривания.](../assets/04-12-A-weathering-processes-bilingual.svg)
+
+*Weathering alters rock in place; erosion involves removal and transport. / Выветривание изменяет породу на месте; эрозия связана с удалением и переносом материала.*
 
 ### 4.13. Elevation, Depth and Earth's Extremes
 
