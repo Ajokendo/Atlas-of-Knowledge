@@ -77,7 +77,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 ### Chapter 06 visual-ID reconciliation — 5 November 2026
 
-- Reconciled the four original core IDs (6-A–6-D) with eleven additional figure concepts that had production briefs but no in-text stable markers. Added bilingual teaching-location markers for 6.1-A, 6.5-A, 6.7-A, 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A and 6.18-A. The four duplicate aliases 6.2-A, 6.3-A, 6.4-A and 6.6-A were normalised to the corresponding core IDs rather than counted twice. Chapter 06 now has 15 unique visual IDs; repository total is 231. All remain uncreated placeholders.
+- Reconciled the four original core IDs (6-A–6-D) with eleven additional figure concepts that had production briefs but no in-text stable markers. Added bilingual teaching-location markers for 6.1-A, 6.5-A, 6.7-A, 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A and 6.18-A. The four duplicate aliases 6.2-A, 6.3-A, 6.4-A and 6.6-A were normalised to the corresponding core IDs rather than counted twice. Chapter 06 now has 15 unique visual IDs; the repository-wide unique-ID total remains unreconciled (legacy headline 231; chapter-row sum 283). All remain uncreated placeholders.
 
 
 ## IMAGE-FIRST v1.1 inventory reconciliation warning — 5 November 2026
