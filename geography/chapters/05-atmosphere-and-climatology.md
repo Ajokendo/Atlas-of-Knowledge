@@ -192,14 +192,15 @@
 
 ### 5.7.1. Образование облаков / Cloud Formation
 
-Облака формируются при охлаждении влажного воздуха до насыщения и конденсации водяного пара на аэрозольных частицах — ядрах конденсации. Подъём воздуха может происходить при конвекции, фронтальном взаимодействии воздушных масс и вынужденном подъёме над рельефом.
+Облака формируются, когда влажный воздух охлаждается до насыщения и образуются облачные частицы. Капли воды возникают при конденсации водяного пара на ядрах конденсации; кристаллы льда могут образовываться на ледяных ядрах. В облаках возможны переохлаждённые капли и смесь жидких и твёрдых частиц. Подъём воздуха — один из распространённых способов охлаждения, но облака могут развиваться и при других изменениях температуры и влажности.
 
-Основные семейства облаков по внешнему виду и высоте:
-- перистые;
-- слоистые;
-- кучевые;
-- кучево-дождевые;
-- высокослоистые и другие смешанные формы.
+В международной классификации ВМО выделяют десять основных родов облаков:
+- верхнего яруса: перистые, перисто-кучевые, перисто-слоистые;
+- среднего яруса: высококучевые, высокослоистые, слоисто-дождевые;
+- нижнего яруса: слоисто-кучевые, слоистые;
+- вертикального развития: кучевые и кучево-дождевые.
+
+Высотные границы ярусов зависят от широты и условий атмосферы. Название рода описывает форму и структуру облака, но само по себе не гарантирует определённый вид погоды.
 
 ### 5.7.2. Виды осадков / Types of Precipitation
 
@@ -226,15 +227,14 @@
 
 Воздушные массы классифицируют по широте источника и характеру подстилающей поверхности, например арктические, полярные, тропические, континентальные и морские. Терминология и классификационные схемы могут различаться между метеорологическими школами.
 
-**Атмосферный фронт** — переходная зона между воздушными массами с различными свойствами.
+**Атмосферный фронт** — наклонная переходная зона между воздушными массами с различающимися температурой, влажностью и плотностью; на приземной синоптической карте её положение показывают условной линией.
 
-Основные типы:
-- холодный фронт;
-- тёплый фронт;
-- фронт окклюзии;
-- стационарный фронт.
+- **Холодный фронт:** наступающий холодный воздух вытесняет более тёплый и обычно поднимает его. Часто наблюдаются более резкие изменения температуры и ветра; возможны ливни и грозы, но их развитие зависит от влажности и устойчивости атмосферы.
+- **Тёплый фронт:** наступающий тёплый воздух скользит вверх над отступающим холодным воздухом. Часто облачность постепенно уплотняется, а осадки могут начинаться до прохождения линии фронта.
+- **Фронт окклюзии:** холодный фронт догоняет тёплый, и тёплый воздух оказывается вытеснен вверх от поверхности. Структура окклюзии зависит от температурного контраста воздушных масс; различают холодный и тёплый типы.
+- **Стационарный фронт:** граница между воздушными массами почти не перемещается. Облачность и осадки могут сохраняться вблизи фронта, если поддерживается подъём воздуха.
 
-Фронты связаны с изменением температуры, ветра, облачности и осадков. Однако характер погоды зависит от динамики конкретной системы и местных условий.
+Фронт — не обязательно узкая вертикальная стенка: переходная зона имеет протяжённость и наклон. Реальные системы могут отклоняться от идеализированных схем из-за рельефа, ветра и эволюции циклона. Прохождение фронта не гарантирует одинаковый набор явлений в каждом месте.
 
 **Иллюстрация 5.8-A — Atmospheric Fronts.** Условные обозначения четырёх основных фронтов на синоптических картах и вертикальный разрез холодной окклюзии. Разрез показан как пример одного типа окклюзии; он не заменяет отдельные профили холодного, тёплого и стационарного фронтов.
 
@@ -510,7 +510,7 @@ These values describe the annual cycles of temperature and precipitation, but th
 
 **Учебное задание / Learning activity:** для каждой диаграммы определите самый тёплый и холодный месяцы, рассчитайте годовую амплитуду температуры, найдите самый влажный и самый сухой месяцы и сложите осадки за год. Затем сравните сезонные особенности двух примеров.
 
-## 5.18. Сравнение климатических аномалий / Comparing Climate Anomalies
+## 5.18. Анализ климатических данных и синоптических карт / Climate Data and Synoptic-Chart Analysis
 
 ### 5.18.1. Как сравнивать климатические аномалии / Comparing Climate Anomalies
 
@@ -534,6 +534,21 @@ These values describe the annual cycles of temperature and precipitation, but th
 Для оперативного описания современных условий обычно используют актуальную стандартную норму 1991–2020. В исследованиях долгосрочного изменения климата может применяться фиксированный базовый период 1961–1990, чтобы сравнения разных лет оставались привязаны к одной и той же исходной точке. Выбор зависит от задачи; базовый период всегда нужно указывать.
 
 *Источники:* ВМО, *Руководство по расчёту климатических норм* (WMO-No. 1203, 2017); ВМО, *Руководство по гомогенизации* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
+
+### 5.18.2. Чтение синоптической карты / Reading a Synoptic Chart
+
+Синоптическая карта показывает состояние атмосферы в определённый срок на большой территории. Изобары соединяют точки с одинаковым атмосферным давлением, приведённым к среднему уровню моря. Чем ближе изобары друг к другу, тем обычно сильнее горизонтальный градиент давления и ветер; фактическая скорость также зависит от трения, устойчивости и рельефа. Центр циклона отмечают областью пониженного давления, антициклона — повышенного. Условные знаки фронтов показывают тип границы и предполагаемое направление её перемещения.
+
+При учебном анализе:
+1. прочитайте дату, время и единицы измерения карты;
+2. найдите области высокого и низкого давления по значениям изобар;
+3. определите типы фронтов и направление их движения по условным знакам;
+4. сопоставьте фронты с ветром, облачностью, осадками и температурой на станционных моделях;
+5. сформулируйте вероятное изменение погоды, отделяя наблюдаемые данные от прогноза.
+
+Синоптическая карта — снимок атмосферной ситуации, а не гарантия будущей погоды. Для прогноза нужны последовательные наблюдения и анализ движения системы; учебная схема с условными данными не заменяет официальные предупреждения.
+
+*Источники:* NOAA, *How to read Surface Weather Maps*; WMO, *International Cloud Atlas*.
 
 Absolute temperature and precipitation values are not always suitable for comparing different places. A temperature of +5 °C may be normal in one month but unusually high in another region or season. Climatologists therefore use an **anomaly**: the difference between an observed value and a selected climate normal.
 
@@ -718,7 +733,15 @@ Humidity describes the amount of water vapour in the air. Important measures inc
 
 Relative humidity depends on both the amount of water vapour and temperature: if moisture content stays constant, cooling the air usually raises relative humidity. At the dew point, the air becomes saturated and condensation can begin when conditions are suitable.
 
-Clouds form when moist air cools to saturation and water vapour condenses on aerosol particles known as condensation nuclei. Air may rise through convection, frontal interactions between air masses or forced uplift over relief.
+Clouds form when moist air cools to saturation and cloud particles develop. Liquid droplets form as water vapour condenses on cloud-condensation nuclei; ice crystals may form on ice-nucleating particles. Clouds can contain supercooled droplets or a mixture of liquid and ice particles. Rising air is a common cooling mechanism, but cloud development also depends on changes in temperature and moisture.
+
+The WMO International Cloud Atlas recognises ten main cloud genera:
+- high clouds: Cirrus, Cirrocumulus and Cirrostratus;
+- middle clouds: Altocumulus, Altostratus and Nimbostratus;
+- low clouds: Stratocumulus and Stratus; and
+- clouds with vertical development: Cumulus and Cumulonimbus.
+
+The altitude boundaries vary with latitude and atmospheric conditions. A cloud genus describes its form and structure; it does not by itself guarantee a particular weather outcome.
 
 ![Cloud and precipitation formation: four lifting mechanisms](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
 
@@ -740,7 +763,14 @@ An **air mass** is a large body of air with relatively uniform temperature and h
 
 Air masses may be classified by source latitude and the underlying surface—for example, Arctic, polar, tropical, continental and maritime. Terminology and classification schemes vary between meteorological traditions.
 
-An **atmospheric front** is a transition zone between air masses with different properties. Main types include cold, warm, occluded and stationary fronts. Fronts are associated with changes in temperature, wind, cloud cover and precipitation, but the actual weather depends on the dynamics of the system and local conditions.
+An **atmospheric front** is a sloping transition zone between air masses with different temperature, moisture and density; its surface position is shown by a line on a synoptic chart.
+
+- **Cold front:** advancing cold air displaces warmer air and usually forces it upward. Temperature and wind may change relatively sharply; showers or thunderstorms are possible, depending on moisture and atmospheric stability.
+- **Warm front:** advancing warm air rises gradually over retreating cold air. Cloud layers often thicken in sequence, and precipitation may begin before the surface front arrives.
+- **Occluded front:** a cold front catches up with a warm front, lifting the warm air away from the surface. The structure depends on the temperature contrast between the air masses; cold and warm occlusions are distinguished.
+- **Stationary front:** the boundary moves very little. Cloud and precipitation may persist near it if ascent is maintained.
+
+A front is not necessarily a narrow vertical wall: the transition zone has depth and slope. Real systems can differ from idealised diagrams because of terrain, wind and cyclone evolution. A frontal passage does not guarantee the same weather at every location.
 
 **Illustration 5.8-A — Atmospheric Fronts.** Standard map symbols for the four main fronts and a vertical cross-section of a cold occlusion. The cross-section illustrates one type of occlusion; it does not replace separate profiles of cold, warm and stationary fronts.
 
@@ -984,6 +1014,8 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 15. WMO. *WMO Integrated Processing and Prediction System (WIPPS)*. https://public.wmo.int/activities/wmo-integrated-processing-and-prediction-system-wipps
 16. World Meteorological Organization (WMO). *Guidelines on Homogenization* (WMO-No. 1245, 2020). https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/climate-data
 17. World Meteorological Organization (WMO). *Updated 30-year reference period reflects changing climate* (2021). https://wmo.int/media/news/updated-30-year-reference-period-reflects-changing-climate
+18. World Meteorological Organization (WMO). *International Cloud Atlas: Manual on the Observation of Clouds and Other Meteors (WMO-No. 407)*. https://cloudatlas.wmo.int/en/home.html
+19. NOAA National Weather Service. *How to read Surface Weather Maps*. https://www.noaa.gov/jetstream/wxmaps
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
