@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Mountain meadow food web / Пищевая сеть горного луга</title>
+<desc id="desc">A generalized food web. Green plants feed herbivorous insects and grazing mammals; insects and small herbivores are food for insect-eating birds and predators; predators may consume smaller consumers. Dead organic matter and waste enter the detrital pathway, where fungi and bacteria decompose it and nutrients return to plants. Arrows point from food resource to consumer. / Обобщённая пищевая сеть: растения служат пищей растительноядным насекомым и травоядным животным; ими питаются насекомоядные птицы и хищники. Мёртвое органическое вещество и отходы поступают к редуцентам; минеральные вещества возвращаются к растениям. Стрелки направлены от пищевого ресурса к потребителю.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#e8f1e5"/><stop offset="1" stop-color="#fbf5e8"/></linearGradient>
+ <marker id="feed" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4e8050"/></marker>
+ <marker id="nutrient" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#a77b43"/></marker>
+ <style>
+ .node{stroke-width:3}.label{font: bold 25px Arial,sans-serif;fill:#26382c;text-anchor:middle}.sub{font:19px Arial,sans-serif;fill:#4d5d4c;text-anchor:middle}.arrow{fill:none;stroke:#4e8050;stroke-width:6;stroke-linecap:round;marker-end:url(#feed)}.nut{fill:none;stroke:#a77b43;stroke-width:5;stroke-dasharray:12 9;marker-end:url(#nutrient)}
+ </style>
+ <g id="grass"><path d="M0 70Q-20 35-30 10M0 70Q-5 25 5 0M0 70Q18 30 35 8M0 70Q-35 55-45 35M0 70Q30 55 48 38" fill="none" stroke="#39764c" stroke-width="8" stroke-linecap="round"/><path d="M-45 72Q0 58 48 72" fill="none" stroke="#7c9b50" stroke-width="7"/></g>
+ <g id="insect"><ellipse cx="0" cy="0" rx="25" ry="13" fill="#c49a43" stroke="#765c2d" stroke-width="3"/><circle cx="28" cy="-3" r="8" fill="#c49a43" stroke="#765c2d" stroke-width="3"/><path d="M-10 5L-27 29M5 7L0 31M18 5L30 27M-5-8L-18-24M12-8L25-23" stroke="#765c2d" stroke-width="4" fill="none" stroke-linecap="round"/></g>
+ <g id="grazer"><ellipse cx="0" cy="0" rx="48" ry="25" fill="#b58c69" stroke="#6f543f" stroke-width="4"/><circle cx="42" cy="-12" r="18" fill="#b58c69" stroke="#6f543f" stroke-width="4"/><path d="M33-28L28-48L44-33M51-25L64-42L61-19M-28 18L-32 43M18 18L22 43" fill="#b58c69" stroke="#6f543f" stroke-width="5" stroke-linecap="round"/><circle cx="49" cy="-15" r="3" fill="#222"/></g>
+ <g id="bird"><path d="M-42 8Q-15-30 20-8Q35-3 45-14Q42 12 13 19Q-15 30-42 8Z" fill="#638ba0" stroke="#385b6d" stroke-width="4"/><path d="M-12 0Q3-24 20-5Q3 1-12 0Z" fill="#dce9e9" stroke="#385b6d" stroke-width="3"/><path d="M42-12L62-4L43 2Z" fill="#c68b42"/><path d="M-5 20L-10 34M10 19L13 34" stroke="#385b6d" stroke-width="4"/></g>
+ <g id="raptor"><path d="M-55 0Q-30-40 0-18Q30-40 55 0Q25-8 0 16Q-25-8-55 0Z" fill="#765c49" stroke="#4c4036" stroke-width="4"/><circle cx="0" cy="-12" r="13" fill="#d7c59a"/><path d="M7-12L27-7L9-2Z" fill="#d69a3c"/><path d="M-8 16L-12 30M8 16L12 30" stroke="#4c4036" stroke-width="4"/></g>
+ <g id="fungus"><path d="M-30 4Q-28-25 0-30Q28-25 30 4Z" fill="#d5b58a" stroke="#805e43" stroke-width="4"/><path d="M-14 5L-17 42H17L14 5Z" fill="#f1e2c9" stroke="#805e43" stroke-width="4"/><path d="M-25 13L-15 18M-10 13L0 19M7 13L17 18" stroke="#805e43" stroke-width="2"/></g>
+</defs>
+<rect width="1200" height="900" rx="28" fill="url(#bg)"/>
+<path d="M0 745Q180 695 340 735T650 720T940 735T1200 700V900H0Z" fill="#d5e2c8"/>
+<text x="600" y="64" class="label" font-size="32">Поток энергии / Energy flow</text>
+<text x="600" y="96" class="sub">Стрелки идут от пищи к тому, кто её потребляет / Arrows point from food to consumer</text>
+<!-- producer node -->
+<rect class="node" x="55" y="325" width="230" height="255" rx="28" fill="#e2eed9" stroke="#54845a"/>
+<use href="#grass" x="170" y="410" transform="translate(170 410) scale(1.45) translate(-170 -410)"/>
+<text class="label" x="170" y="510">Растения</text><text class="sub" x="170" y="543">Producers</text>
+<!-- primary consumers -->
+<rect class="node" x="390" y="160" width="240" height="205" rx="28" fill="#f4ead0" stroke="#b18a46"/>
+<use href="#insect" x="510" y="235" transform="translate(510 235) scale(1.2) translate(-510 -235)"/>
+<text class="label" x="510" y="305">Насекомые</text><text class="sub" x="510" y="337">Herbivorous insects</text>
+<rect class="node" x="390" y="510" width="240" height="205" rx="28" fill="#f1e2d4" stroke="#a47a5b"/>
+<use href="#grazer" x="510" y="580" transform="translate(510 580) scale(.85) translate(-510 -580)"/>
+<text class="label" x="510" y="650">Травоядные</text><text class="sub" x="510" y="682">Grazing animals</text>
+<!-- secondary / higher consumers -->
+<rect class="node" x="750" y="150" width="240" height="205" rx="28" fill="#e1edf0" stroke="#638ba0"/>
+<use href="#bird" x="870" y="225" transform="translate(870 225) scale(1.15) translate(-870 -225)"/>
+<text class="label" x="870" y="300">Насекомоядные</text><text class="sub" x="870" y="332">Insect-eating birds</text>
+<rect class="node" x="750" y="510" width="240" height="205" rx="28" fill="#eee2d8" stroke="#8d7058"/>
+<use href="#raptor" x="870" y="580" transform="translate(870 580) scale(1.1) translate(-870 -580)"/>
+<text class="label" x="870" y="650">Хищники</text><text class="sub" x="870" y="682">Predators</text>
+<!-- decomposer node -->
+<rect class="node" x="390" y="755" width="600" height="115" rx="25" fill="#f0e8d9" stroke="#a77b43"/>
+<use href="#fungus" x="470" y="810" transform="translate(470 810) scale(.7) translate(-470 -810)"/>
+<text class="label" x="690" y="805">Грибы и бактерии — редуценты</text><text class="sub" x="690" y="838">Fungi and bacteria — decomposers</text>
+<!-- feeding arrows -->
+<path class="arrow" d="M285 380Q335 260 385 260"/>
+<path class="arrow" d="M285 510Q340 610 385 610"/>
+<path class="arrow" d="M630 250H745"/>
+<path class="arrow" d="M630 610H745"/>
+<path class="arrow" d="M510 365Q600 445 745 550"/>
+<path class="arrow" d="M870 355V505"/>
+<!-- detrital pathways -->
+<path class="nut" d="M170 580Q190 735 385 800"/>
+<path class="nut" d="M510 715V750"/>
+<path class="nut" d="M870 715Q830 780 760 780"/>
+<!-- nutrient return loop -->
+<path class="nut" d="M390 830Q170 885 120 590"/>
+<text x="70" y="860" class="sub" text-anchor="start">Минеральные вещества возвращаются к растениям</text>
+<text x="70" y="885" class="sub" text-anchor="start">Nutrients return to plants</text>
+<text x="1030" y="410" class="sub" text-anchor="middle">Пищевая сеть</text><text x="1030" y="438" class="sub" text-anchor="middle">Food web</text>
+<text x="1030" y="470" class="sub" text-anchor="middle">Показаны основные</text><text x="1030" y="496" class="sub" text-anchor="middle">типы связей, а не</text><text x="1030" y="522" class="sub" text-anchor="middle">полный список видов</text>
+<rect x="15" y="15" width="1170" height="870" rx="20" fill="none" stroke="#fff" stroke-width="5"/>
+</svg>
