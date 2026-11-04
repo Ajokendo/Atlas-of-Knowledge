@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Atmospheric hazards and basic safety / Опасные атмосферные явления и безопасность</title>
+<desc id="desc">Bilingual educational infographic showing thunderstorms, heatwaves and drought, strong wind and tropical cyclones, heavy snow and ice, and fog and dust, with concise protective actions.</desc>
+<rect width="1200" height="820" fill="#fbfcfe"/>
+<text x="600" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#17324d">Опасные атмосферные явления</text>
+<text x="600" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="600" fill="#315b75">Atmospheric Hazards</text>
+<text x="600" y="119" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#526879">Риск зависит от местных условий, силы явления и готовности / Risk depends on local conditions, severity and preparedness</text>
+<g font-family="Arial,sans-serif">
+<rect x="55" y="150" width="530" height="190" rx="18" fill="#eef4fa" stroke="#9ab4c9" stroke-width="2"/>
+<circle cx="125" cy="220" r="43" fill="#d4e4f1"/><path d="M91 225Q94 198 119 201Q134 178 158 198Q177 202 176 224Z" fill="#6d879c"/><path d="M132 222L113 257H135L124 282L159 240H137L151 222Z" fill="#e5a62d"/>
+<text x="190" y="190" font-size="21" font-weight="700" fill="#17324d">Грозы, молнии и град</text><text x="190" y="217" font-size="17" fill="#315b75">Thunderstorms, lightning and hail</text>
+<text x="190" y="254" font-size="16" fill="#263f52">Укройтесь в капитальном здании или</text><text x="190" y="277" font-size="16" fill="#263f52">закрытом автомобиле; избегайте открытых</text><text x="190" y="300" font-size="16" fill="#263f52">мест, воды и одиноких деревьев.</text>
+<text x="190" y="324" font-size="14" fill="#526879">Seek a substantial shelter; avoid open areas, water and isolated trees.</text>
+<rect x="615" y="150" width="530" height="190" rx="18" fill="#fff4e7" stroke="#d9b88a" stroke-width="2"/>
+<circle cx="685" cy="220" r="43" fill="#f7dfb7"/><circle cx="685" cy="220" r="22" fill="#e7a62f"/><g stroke="#e7a62f" stroke-width="5" stroke-linecap="round"><path d="M685 183V171M685 269V257M648 220H636M734 220H722M659 194L650 185M720 255L711 246M711 194L720 185M659 246L650 255"/></g>
+<text x="750" y="190" font-size="21" font-weight="700" fill="#17324d">Жара и засуха</text><text x="750" y="217" font-size="17" fill="#315b75">Heatwaves and drought</text>
+<text x="750" y="254" font-size="16" fill="#263f52">Пейте воду, ограничьте нагрузку в жару,</text><text x="750" y="277" font-size="16" fill="#263f52">ищите тень и прохладное помещение;</text><text x="750" y="300" font-size="16" fill="#263f52">экономно используйте воду.</text>
+<text x="750" y="324" font-size="14" fill="#526879">Hydrate, reduce heat exposure, find shade or cooling; conserve water.</text>
+<rect x="55" y="365" width="530" height="190" rx="18" fill="#f0f1f8" stroke="#aaaecb" stroke-width="2"/>
+<circle cx="125" cy="435" r="43" fill="#dfe1f0"/><path d="M91 435Q94 407 120 411Q139 390 161 413Q178 419 174 440Z" fill="#78839e"/><path d="M87 455L105 449M112 466L130 460M141 455L160 449M166 467L183 461" stroke="#66748f" stroke-width="5" stroke-linecap="round"/>
+<text x="190" y="405" font-size="21" font-weight="700" fill="#17324d">Штормовой ветер и циклоны</text><text x="190" y="432" font-size="17" fill="#315b75">High winds and cyclones</text>
+<text x="190" y="469" font-size="16" fill="#263f52">Держитесь подальше от окон и деревьев;</text><text x="190" y="492" font-size="16" fill="#263f52">закрепите предметы снаружи и следуйте</text><text x="190" y="515" font-size="16" fill="#263f52">официальным предупреждениям.</text>
+<text x="190" y="539" font-size="14" fill="#526879">Stay away from windows and trees; secure loose objects; follow alerts.</text>
+<rect x="615" y="365" width="530" height="190" rx="18" fill="#edf5f8" stroke="#9bbac9" stroke-width="2"/>
+<circle cx="685" cy="435" r="43" fill="#d9e8ef"/><path d="M685 395V475M645 435H725M657 407L713 463M713 407L657 463" stroke="#fff" stroke-width="7" stroke-linecap="round"/><path d="M685 405V465M655 435H715M663 413L707 457M707 413L663 457" stroke="#7b9eb2" stroke-width="3" stroke-linecap="round"/>
+<text x="750" y="405" font-size="21" font-weight="700" fill="#17324d">Снег, метель и гололёд</text><text x="750" y="432" font-size="17" fill="#315b75">Heavy snow, blizzards and ice</text>
+<text x="750" y="469" font-size="16" fill="#263f52">По возможности отложите поездку;</text><text x="750" y="492" font-size="16" fill="#263f52">снизьте скорость, увеличьте дистанцию</text><text x="750" y="515" font-size="16" fill="#263f52">и избегайте обледеневших участков.</text>
+<text x="750" y="539" font-size="14" fill="#526879">Postpone travel if possible; slow down and avoid icy surfaces.</text>
+<rect x="55" y="580" width="1090" height="175" rx="18" fill="#f2f4ed" stroke="#b7c1a2" stroke-width="2"/>
+<circle cx="125" cy="650" r="43" fill="#e2e7d6"/><path d="M92 640Q125 620 158 640Q125 660 92 640ZM92 660Q125 640 158 660Q125 680 92 660Z" fill="#a6b18d"/><path d="M112 620L105 611M138 620L145 611" stroke="#8b9872" stroke-width="4" stroke-linecap="round"/>
+<text x="190" y="620" font-size="21" font-weight="700" fill="#17324d">Туман и пыльные бури</text><text x="190" y="647" font-size="17" fill="#315b75">Fog and dust storms</text>
+<text x="190" y="684" font-size="16" fill="#263f52">Снизьте скорость, включите подходящий свет,</text><text x="190" y="707" font-size="16" fill="#263f52">увеличьте дистанцию; при сильной пыли</text><text x="190" y="730" font-size="16" fill="#263f52">по возможности оставайтесь в помещении.</text>
+<text x="700" y="684" font-size="14" fill="#526879">Reduce speed, use appropriate lights, increase following distance;</text><text x="700" y="707" font-size="14" fill="#526879">during severe dust, remain indoors where possible.</text>
+</g>
+<text x="600" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#526879">Учебная схема, не заменяет местные официальные предупреждения / Educational guide; does not replace local official warnings</text>
+</svg>
