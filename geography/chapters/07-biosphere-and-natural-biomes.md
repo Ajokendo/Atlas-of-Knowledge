@@ -296,6 +296,8 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 Восстановление экосистем — содействие восстановлению деградированных или разрушенных экосистем. Оно может включать естественное восстановление, удаление источников давления, восстановление гидрологического режима, местную посадку растений и возвращение экологических функций. Посадка деревьев не является универсальным решением: в естественных степях, тундрах и других открытых экосистемах массовое облесение может привести к утрате биоразнообразия и нарушению природных процессов.
 
+Международная рамка биоразнообразия Куньмин—Монреаль (2022) задаёт глобальные цели на 2050 год и 23 задачи на 2030 год. В частности, Задача 3 предусматривает эффективное сохранение и управление не менее чем 30% наземных, внутренних водных, прибрежных и морских территорий к 2030 году через экологически репрезентативные, взаимосвязанные и справедливо управляемые системы охраняемых территорий и других эффективных территориальных мер. Это не означает, что любые 30% площади автоматически становятся территориями строгой охраны. Задача 2 отдельно предусматривает, чтобы к 2030 году меры эффективного восстановления охватывали не менее 30% деградированных наземных, внутренних водных, прибрежных и морских экосистем.
+
 Успешная охрана природы требует не только создания охраняемых территорий, но и управления ландшафтом за их пределами, соблюдения прав местных сообществ, научно обоснованного планирования и долгосрочного финансирования.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-H / IMAGE PLACEHOLDER 07-H]** Схема экологической связности: ядра местообитаний, коридоры, барьеры и матрица ландшафта. / **EN:** Habitat-connectivity diagram showing core areas, corridors, barriers and the landscape matrix.
@@ -508,6 +510,8 @@ Nature conservation includes protecting species, habitats, ecological processes 
 
 **Ecosystem restoration** assists the recovery of degraded or destroyed ecosystems. It may involve natural regeneration, removing sources of pressure, restoring hydrological conditions, planting native vegetation and recovering ecological functions. Tree planting is not a universal solution: afforestation of natural steppes, tundra and other open ecosystems may cause biodiversity loss and disrupt natural processes.
 
+The Kunming–Montreal Global Biodiversity Framework (2022) sets global goals for 2050 and 23 targets for 2030. Target 3 calls for at least 30% of terrestrial, inland-water, coastal and marine areas to be effectively conserved and managed by 2030 through ecologically representative, connected and equitably governed systems of protected areas and other effective area-based conservation measures. This does not mean that any 30% of the planet automatically becomes strictly protected. Target 2 is separate: it calls for effective restoration measures to cover at least 30% of degraded terrestrial, inland-water, coastal and marine ecosystems by 2030.
+
 Successful conservation requires not only protected areas but also landscape management beyond their boundaries, respect for local communities' rights, evidence-based planning and long-term funding.
 
 ### 7.14. The Biosphere and Global Biogeochemical Cycles
@@ -639,6 +643,7 @@ Every study requires appropriate sampling design, replication, control of season
 7. Olson, D. M. et al. **Terrestrial Ecoregions of the World: A New Map of Life on Earth**. *BioScience*, 2001 — foundational reference for mapping terrestrial ecoregions. https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2
 8. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being: Synthesis** (2005) — links between ecosystem processes and human well-being. https://www.millenniumassessment.org/en/Synthesis.html
 9. Chapin, F. S., Matson, P. A., & Vitousek, P. M. (2011). *Principles of Terrestrial Ecosystem Ecology* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4419-9504-9
+10. Convention on Biological Diversity. **Kunming–Montreal Global Biodiversity Framework** (2022), especially Targets 2 and 3 on ecosystem restoration and area-based conservation. https://www.cbd.int/gbf/
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
 
