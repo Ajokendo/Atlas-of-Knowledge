@@ -417,3 +417,8 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Added a bilingual production specification for visual ID 10-A (world political map), including dated source data, projection, scale, boundary provenance and neutral treatment of disputed territories. Commit: `ea7107c8b2c927b14927568e0e71539afd34dd82`.
+
+
+### Chapters 06–10 — visual marker and brief parity QA — 5 November 2026
+
+- Verified exact bilingual production-brief parity against the stable visual IDs: Ch06 15/15, Ch07 9/9, Ch08 7/7, Ch09 6/6 and Ch10 7/7. Duplicate Chapter 06 aliases were removed and Chapter 10's missing world political map brief was added. All remain placeholders; no image integration is claimed.
