@@ -2,20 +2,27 @@
 
 This register documents every visual asset integrated into the Physics atlas. Add one complete record per asset. Do not list search results or unverified candidates as integrated.
 
-## Reporting metrics
+## Reporting metrics — provisional during source-lineage audit
 
-Update these counts for each progress report. Count only assets that are both integrated into a chapter/page and documented below.
+The Physics branch is a derivative Russian-language edition of Nathan Liow's pre-existing English atlas. The current three Chapter 04 records describe implementation forms found in this branch; they do **not yet prove** that those visuals were independently authored here.
 
 | Metric | Count | Counting rule |
 |---|---:|---|
-| Found and integrated | 0 | External assets with verified scientific accuracy, licence and attribution |
-| Independently created — authored SVG/HTML/CSS | 1 | Original force-and-displacement diagram in Chapter 04 |
-| Independently created — code-generated plots | 1 | Plots generated from verified equations/data; Chapter 04 energy comparison canvas |
-| Independently created — interactive JS/WebGL models | 1 | Programmatic Three.js model registered for Chapter 04 |
-| Independently created — AI-generated images | 0 | Generated images that passed scientific review |
-| Outstanding | 0 required visuals identified | Chapter 04 visual objectives are covered by the original force diagram, energy plot and interactive 3D model; final responsive/browser verification remains tracked in CI |
+| Inherited visuals mapped to English source | PENDING | Requires source-to-derivative comparison |
+| Inherited visuals reused unchanged (A) | PENDING | Count only after visual identity and unchanged status are verified |
+| Inherited visuals adapted (B) | PENDING | Count only after the visual-content changes and adaptation rights are checked |
+| Genuinely new project-created visuals (C) | PENDING | Do not infer from SVG/canvas/Three.js implementation alone |
+| Rights / reproduction permission verified | PENDING | Requires evidence for the exact source work and applicable components |
+| Russian-edition localisation verified | PENDING | Requires per-visual Russian labels, captions, alt text, descriptions and rendering checks |
+| Known visual placeholders | 4 | One planned infographic in Chapter 14 and three visual briefs in Chapter 15 |
 
-**Counting note:** the counts above cover only assets registered in this file. They do not claim that the entire repository contains no other visual assets. Do not count an asset until its provenance and integration have been checked.
+**Important:** the three existing Chapter 04 entries are retained as discovery records, not certified Category C assets. Their relationship to the English source, actual creator/rightsholder, and rights basis must be checked before assigning a final A/B/C category or reporting readiness. A repository licence must not be treated as proof that third-party inherited material may be reproduced or adapted.
+
+## Provenance rule for this derivative edition
+
+For every inherited visual, record the English source location/identifier where it can be established, the source-work attribution, the actual relationship of the Russian implementation to that source, and the evidence for reproduction/adaptation rights. Keep unknown facts as **Unknown / PENDING**. Translation of surrounding page text, captions, controls, or alt text is recorded as localisation and does not by itself make the visual Category B. Editing text or content inside the visual, cropping, recolouring, annotation, redrawing, or changing data/meaning is Category B and requires adaptation rights. Genuinely independent new assets are Category C.
+
+The implementation technology (SVG, canvas, JavaScript, WebGL, Three.js) describes how a visual is rendered; it does not establish who authored the underlying educational visual or whether it is inherited.
 
 ## Asset record template
 
@@ -24,7 +31,10 @@ Copy this block for each integrated asset:
 ```markdown
 ## Image: [descriptive asset title]
 
+- Visual ID: [stable subject-level ID]
 - Chapter: [chapter number and title]
+- Source relationship: [Inherited unchanged / Inherited adapted / New independent / Unknown — evidence]
+- Category: [A / B / C / PENDING]
 - Learning objective: [what the learner should understand]
 - File: [repository-relative path]
 - Original source: [canonical item/page URL]
@@ -60,17 +70,18 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Learning objective: Show the angle between a constant force and displacement, and identify the force component that contributes to mechanical work
 - File: chapters/work-energy.html (inline SVG in the section “1. Механическая работа”)
 - Original source: Original SVG authored directly in the chapter; no external source
-- Author / creator: Atlas of Knowledge project contribution
-- License: MIT License (repository LICENSE; copyright notice retained)
-- License URL: https://opensource.org/license/mit/
-- Access date: 2026-11-04
+- Author / creator: **PENDING** — compare against the English source; do not infer authorship from the in-repository SVG implementation
+- Source-work attribution: Nathan Liow (inherited source attribution; exact figure-level lineage pending)
+- Licence / permission: **Unknown / PENDING** for the inherited source and Russian derivative use
+- Licence evidence: **PENDING** — repository-level MIT licence is not sufficient evidence for inherited source material
+- Checked date: 2026-11-05
 - RU caption: Работа совершается составляющей силы вдоль перемещения: F cos α
 - EN caption: The component of force along the displacement is F cos α
 - Alt RU: Ящик перемещается горизонтально вправо; сила направлена вверх под углом α, её горизонтальная составляющая F cos α показана отдельно
 - Alt EN: A box moves horizontally to the right; the applied force points upward at angle α, with its horizontal component F cos α shown separately
 - Modified: Original SVG; no external asset modified
 - Scientific review: Formula and vector geometry correspond to A = Fs cos α; included as a schematic, not to scale
-- Rights review: Verified against repository MIT licence; retain copyright and licence notice when redistributing
+- Rights review: **PENDING** — the repository MIT licence alone does not establish the right to reproduce or adapt inherited source visuals
 - Integration: chapters/work-energy.html, immediately below the work formula
 - Mobile check: Verified in GitHub Actions browser smoke on 2026-11-04 at 390×844; the force-and-displacement SVG is present in the responsive chapter, with zero serious/critical axe violations and no horizontal page overflow.
 
@@ -80,17 +91,18 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Learning objective: Compare kinetic, gravitational potential and total mechanical energy as mass, speed and height change
 - File: `chapters/work-energy.html`
 - Original source: Original in-repository JavaScript canvas drawing (`draw()`); no external image source
-- Author / creator: Atlas of Knowledge repository code; individual author not specified in file
-- License: MIT License (repository LICENSE; copyright notice retained)
-- License URL: https://opensource.org/license/mit/
-- Access date: 2026-11-04
+- Author / creator: **PENDING** — compare the scene and code lineage with the English source before attributing authorship
+- Source-work attribution: Nathan Liow (inherited source attribution; exact figure/scene lineage pending)
+- Licence / permission: **Unknown / PENDING** for inherited source and derivative use
+- Licence evidence: **PENDING** — repository-level MIT licence does not establish rights in inherited educational content
+- Checked date: 2026-11-05
 - RU caption: Сравнение кинетической, потенциальной и суммарной энергии
 - EN caption: Comparison of kinetic, potential and total energy
 - Alt RU: Столбчатая диаграмма трёх значений энергии, пересчитываемых при изменении массы, скорости и высоты
 - Alt EN: Bar chart of three energy values recalculated when mass, speed and height change
 - Modified: No external asset; generated dynamically from the chapter's equations
 - Scientific review: Formula-based; browser smoke confirmed live recalculation, chart rendering and slider interaction on desktop and mobile.
-- Rights review: No third-party image rights involved; repository MIT licence applies and attribution notice must be retained
+- Rights review: **PENDING** — source lineage and any inherited/third-party components must be checked before claiming rights clearance
 - Integration: Interactive model in `chapters/work-energy.html`
 - Mobile check: Verified in GitHub Actions on 2026-11-04 at 390×844; the canvas chart / WebGL scene rendered without horizontal page overflow.
 
@@ -113,4 +125,4 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Integration: Shared 3D laboratory component in `chapters/work-energy.html`
 - Mobile check: Verified in GitHub Actions on 2026-11-04 at 390×844; the canvas chart / WebGL scene rendered without horizontal page overflow.
 
-No third-party external image is currently claimed as integrated for Chapter 04. External imagery was not added because the original vector diagram, equation-driven plot and interactive scene directly address the chapter's visual learning objectives. These are counted separately as authored/code-generated visuals, not as found internet images.
+No third-party external image is currently claimed as integrated for Chapter 04. However, this does not establish that the listed SVG, canvas plot, or Three.js scene are independently authored in the Russian derivative. Their source lineage and rights basis remain pending comparison with the English atlas. Do not count them as Category C or rights-cleared until that comparison is complete.
