@@ -257,7 +257,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 Миграция — изменение обычного места жительства человека. Поездка, ежедневная маятниковая поездка на работу и смена места жительства — разные явления, поэтому их нельзя автоматически объединять в одну статистику.
 
-**Основные показатели.** Число прибывших и выбывших за период — абсолютные потоки. Миграционный прирост (сальдо) равен прибытию минус выбытию. Коэффициенты обычно рассчитывают на 1 000 человек среднегодового населения, чтобы сравнивать территории разного размера. Важно указывать, используется ли регистрация по месту жительства, перепись, выборочное обследование или административные данные.
+**Основные показатели.** Число прибывших и выбывших за период — абсолютные миграционные потоки. Миграционный прирост (сальдо) равен прибытию минус выбытию. Миграционный запас (stock) — число людей, относимых к мигрантам по определению конкретного источника и проживающих на территории на определённую дату; это показатель состояния на момент времени, а не число перемещений за год. В международных базах определение может опираться, например, на страну рождения или гражданство, поэтому его необходимо проверять. Коэффициенты обычно рассчитывают на 1 000 человек среднегодового населения, чтобы сравнивать территории разного размера. Важно указывать, используется ли регистрация по месту жительства, перепись, выборочное обследование или административные данные.
 
 **Условный пример.** В регионе с населением 100 000 человек за год зарегистрировано 2 400 прибывших и 1 900 выбывших. Сальдо составляет +500 человек, а коэффициент миграционного прироста — 5 на 1 000 жителей при использовании среднегодового населения 100 000. Это не означает, что все прибывшие остались навсегда: показатель зависит от определения мигранта и полноты регистрации.
 
@@ -267,7 +267,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 Migration is a change in a person's usual place of residence. A trip, daily commuting and a change of residence are different phenomena and should not automatically be combined in one statistic.
 
-**Core indicators.** The numbers of arrivals and departures during a period are absolute flows. Net migration equals arrivals minus departures. Rates are commonly calculated per 1,000 people using the mid-year population, allowing comparison between areas of different sizes. Always state whether the data come from residence registration, a census, a sample survey or administrative records.
+**Core indicators.** The numbers of arrivals and departures during a period are absolute migration flows. Net migration equals arrivals minus departures. The migrant stock is the number of people classified as migrants under a source's definition and living in a territory on a specified date; it is a point-in-time measure, not the number of moves during a year. International datasets may define migrants by country of birth or citizenship, for example, so the operational definition must be checked. Rates are commonly calculated per 1,000 people using the mid-year population, allowing comparison between areas of different sizes. Always state whether the data come from residence registration, a census, a sample survey or administrative records.
 
 **Hypothetical example.** A region with a population of 100,000 records 2,400 arrivals and 1,900 departures in one year. Net migration is +500 people, and the net migration rate is 5 per 1,000 when the mid-year population is 100,000. This does not mean every arrival stayed permanently: the indicator depends on the definition of a migrant and the completeness of registration.
 
@@ -579,6 +579,8 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 ## Научные редакционные примечания / Scientific editorial notes
 
 - Для каждого статистического показателя указывать определение, знаменатель, единицу измерения, период и источник.
+- Различать миграционные потоки за период и миграционный запас на определённую дату; проверять, основано ли определение мигранта на стране рождения, гражданстве или другом критерии.
+- Distinguish migration flows over a period from migrant stock at a specified date; check whether the migrant definition is based on country of birth, citizenship or another criterion.
 - В международных сравнениях проверять различия в определениях постоянного, наличного, городского и мигрирующего населения.
 - Не смешивать общий коэффициент рождаемости с суммарным коэффициентом рождаемости, а общий коэффициент смертности — с возрастно-стандартизованной смертностью.
 - Уровень простого воспроизводства около 2,1 является ориентиром для условий низкой смертности, а не универсальной константой.
