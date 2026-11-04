@@ -420,9 +420,11 @@
 8. Атмосферные аэрозоли.
 9. Новые вещества и формы загрязнения.
 
-Это не один универсальный индекс экологического состояния: каждый процесс требует отдельных методов оценки.
+Это не один универсальный индекс экологического состояния: каждый процесс требует отдельных методов оценки. Планетарные границы — глобальная научная рамка оценки рисков для системы Земли, а не готовый набор юридических нормативов для каждой страны или местности. Их нельзя напрямую переносить на отдельный водосбор, город или государство без подходящих региональных данных и отдельной методики.
 
-**Место для иллюстрации 2.14-A — Planetary Boundaries.** Научная инфографика девяти планетарных процессов с пояснениями и статусами по актуальному научному источнику.
+**Состояние по оценке 2025 года.** В докладе *Planetary Health Check 2025* исследователи оценили, что семь из девяти границ уже пересечены; в число пересечённых впервые в этой оценке вошла граница закисления океана. Это результат конкретной научной оценки, а не неизменная цифра: статус зависит от года, контрольных переменных и обновления методов. Поэтому на инфографике обязательно указывают источник и год оценки, а не просто пишут «сегодня».
+
+**Место для иллюстрации 2.14-A — Planetary Boundaries.** Научная инфографика девяти процессов; если показан статус границ, рядом указываются источник и год оценки (например, Planetary Health Check 2025).
 
 ## 2.14.2. Разбор природной системы: изменение растительного покрова в горном водосборе / Worked Example: Vegetation Change in a Mountain Catchment
 
@@ -741,7 +743,11 @@ The geographic envelope is affected by natural climate variability, volcanism, t
 
 **Planetary boundaries** are a scientific framework describing critical Earth-system processes and the limits of a safe operating space. The processes considered include climate change, biosphere integrity, land-system change, freshwater change, nitrogen and phosphorus flows, ocean acidification, stratospheric ozone depletion, atmospheric aerosols, and novel entities and forms of pollution.
 
-Planetary boundaries are not one universal environmental-condition index. Each process requires its own assessment methods, and the status shown in an infographic must be tied to a named scientific source and assessment year.
+Planetary boundaries are not one universal environmental-condition index. Each process requires its own assessment methods. The framework is a global scientific approach to assessing risks to the Earth system, not a ready-made set of legal standards for every country or locality. It cannot be transferred directly to an individual catchment, city or country without suitable regional data and a separate method.
+
+**Status in the 2025 assessment.** The *Planetary Health Check 2025* report assessed seven of the nine boundaries as transgressed; ocean acidification was included among the transgressed boundaries for the first time in this assessment. This is the result of a specific scientific assessment, not a permanent figure: status depends on the assessment year, control variables and updated methods. An infographic must therefore name its source and assessment year rather than simply say “currently”.
+
+**Illustration placeholder 2.14-A — Planetary Boundaries.** A scientific infographic of the nine processes; if boundary status is shown, state the source and assessment year (for example, Planetary Health Check 2025).
 
 ### 2.15. Integrated Model of the Geographic Envelope
 
@@ -796,6 +802,8 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 4. NOAA JetStream. *The Atmosphere* (dry-air composition and variable water-vapour content). https://www.noaa.gov/jetstream/atmosphere
 5. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
 6. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
+7. Sakschewski, B. et al. (2025). *Planetary Health Check 2025: A Scientific Assessment of the State of the Planet*. Planetary Boundaries Science. https://doi.org/10.48485/PIK.2025.017
+8. Stockholm Resilience Centre. *Planetary Boundaries Framework* (framework overview and 2025 update). https://www.stockholmresilience.org/research/planetary-boundaries.html
 7. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
 8. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
 9. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; table based on Shiklomanov's 1993 assessment; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
