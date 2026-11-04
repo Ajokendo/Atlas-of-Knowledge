@@ -623,3 +623,16 @@ The chapter-level audit records were added to each source chapter. Findings and 
 
 
 - **Chapter 08 SoilGrids detail:** recorded the six explicit depth intervals (0–5, 5–15, 15–30, 30–60, 60–100 and 100–200 cm) and clarified that 250 m is grid-cell size, not a guarantee of 250 m local predictive accuracy. Bilingual text and map metadata requirements were updated. Commit: `458cc4715c1357649cf89d904419a9fc590daf06`.
+
+
+
+### Chapter 08 — bilingual proofread and claim-source audit, continued — 5 November 2026
+
+- **WRB:** rechecked the current fourth edition and 24 September 2024 corrections against the official IUSS/ISRIC publication. Confirmed 32 Reference Soil Groups, qualifier-based detailed naming and the distinction between profile master horizons and the full classification key. Official source: https://wrb.isric.org/documents.html
+- **SoilGrids 2.0:** rechecked ISRIC's current documentation. The six intervals are 0–5, 5–15, 15–30, 30–60, 60–100 and 100–200 cm; the 90% prediction interval is represented by the 5th and 95th percentiles. The documentation explicitly notes sparse profile coverage in Central Asia. The text now distinguishes grid-cell size from predictive accuracy and requires local field validation. Sources: https://docs.isric.org/globaldata/soilgrids/ and https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_01.html
+- **UNCCD:** checked the formal Convention definition in Article 1. Both languages now distinguish the chapter's broad educational description of land degradation from the Convention's definition of desertification in arid, semi-arid and dry sub-humid areas. Official source: https://www.unccd.int/article-1-use-terms
+- **FAO/ITPS 2026:** verified the current global soil assessment, its 2026 publication and the separate Europe and Central Asia regional chapter. The chapter does not infer country-level conditions from global averages. Source: https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/itps/status-of-the-worlds-soil-resources/en
+- **Soil salinity:** checked the distinction between saturated-paste extract conductivity (ECe), other soil-to-water extract ratios and field apparent conductivity against the FAO salinity-assessment manual and NRCS field guidance. The text retains the 4 dS/m figure only as a historical reference, not a universal crop threshold.
+- **Bilingual editing:** relocated the English salinity subsection, summary, review questions and practical activities to mirror the Russian chapter sequence; aligned the 15 review questions and four practical activities; clarified calcification and landscape-facies terminology; qualified the A horizon description to avoid implying that humus accumulation is universal.
+- **Chapter content commits:** `959db9f2b6dde194df9807e558377dcf65fb6a26` (bilingual order, UNCCD and soil-process terminology); `09d99b723414bf0d80405c4092f2ed06de270663` (horizon and glossary refinement); `b6c399cc35b3f85ea25ca25d935e35113f3bdf5d` (landscape-morphology terminology).
+- **Remaining release work:** seven visual assets are still placeholders; no image integration, full visual science review, browser/mobile/accessibility testing or deployment validation is claimed.
