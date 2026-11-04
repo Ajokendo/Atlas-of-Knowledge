@@ -747,6 +747,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 5. National Snow and Ice Data Center (NSIDC). *Glaciers*. https://nsidc.org/learn/parts-cryosphere/glaciers
 6. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). *The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties*. IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
 7. NOAA. *Ocean Acidification*. https://www.noaa.gov/ocean-acidification
+8. USDA Forest Service. *Technical Guide to Ground Water Resource Management* (FS-881, 2007), section on watershed water budgets and the inflow–outflow–storage balance. https://www.fs.usda.gov/geology/FINAL_Ground%20Water%20Technical%20Guide_FS-881_March2007.pdf
 
 При использовании численных данных о запасах воды, океанических глубинах, ледниках и речном стоке следует фиксировать год, пространственный охват, методику оценки и единицы измерения. Данные о запасах (например, км³) нельзя смешивать с потоками за период (например, км³/год).
 
