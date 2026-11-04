@@ -25,6 +25,30 @@ async function checkLesson(mobile) {
     const response = await page.goto(`${base}/chapters/oscillations.html`, { waitUntil: 'domcontentloaded', timeout: 15000 });
     if (!response || !response.ok()) throw new Error(`chapter HTTP ${response?.status() ?? 'missing'}`);
     await page.getByRole('heading', { name: 'Колебания', exact: true }).waitFor();
+
+    const labCanvas = page.locator('.physics-stage canvas');
+    await labCanvas.waitFor({ state: 'visible' });
+    const labState = await labCanvas.evaluate(canvas => {
+      const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+      return { width: canvas.width, height: canvas.height, webgl: !!gl };
+    });
+    if (!labState.webgl || labState.width < 100 || labState.height < 100) {
+      throw new Error(`3D spring-lab WebGL canvas did not initialize: ${JSON.stringify(labState)}`);
+    }
+
+    await page.locator('[data-phase]').evaluate(el => {
+      el.value = '100';
+      el.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    if (!(await page.locator('[data-physics-formula]').innerText()).includes('A = 1,00 м')) {
+      throw new Error('3D laboratory amplitude control did not recalculate its physical readout');
+    }
+    const labPlay = page.locator('.physics-lab-controls button');
+    if ((await labPlay.innerText()).trim() !== 'Продолжить') throw new Error('reduced-motion mode should begin with the 3D lab paused');
+    await labPlay.click();
+    if ((await labPlay.innerText()).trim() !== 'Пауза') throw new Error('3D lab play control did not start animation');
+    await labPlay.click();
+    if ((await labPlay.innerText()).trim() !== 'Продолжить') throw new Error('3D lab pause control did not stop animation');
     const required = [
       'Введение',
       '1. Период и частота',
@@ -63,7 +87,7 @@ async function checkLesson(mobile) {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (overflow) throw new Error('horizontal page overflow');
     if (errors.length) throw new Error(errors.join(' | '));
-    console.log(`PASS oscillations lesson ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${required.length} sections, period/frequency controls, graph, quiz, WCAG serious/critical: 0`);
+    console.log(`PASS oscillations lesson ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${required.length} sections, 3D WebGL lab ${labState.width}×${labState.height}, amplitude/play/pause controls, period/frequency graph, quiz, WCAG serious/critical: 0`);
   } catch (error) {
     failures.push(`lesson ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
     console.error(`FAIL oscillations lesson ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
