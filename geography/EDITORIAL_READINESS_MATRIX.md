@@ -101,7 +101,7 @@
 
 ### Visual inventory clarification — 4 November 2026
 
-The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 and 20 only: `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, `20-I-glacier-anatomy.svg` and `20-K-national-water-use-2025.svg`. Chapters 01 and 02 now differ: Chapter 01 still has zero integrated visuals; Chapter 02 has four source-hosted remote images linked in its Markdown (2-B, 2.3-A, 2-C and 2.4-A). These are not local SVG/image files and do not establish that deployed rendering, mobile layout or accessibility has passed. All 21 visual briefs remain tracked separately in `IMAGE_SOURCES.md`.
+The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 and 20 only: `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, `20-I-glacier-anatomy.svg` and `20-K-national-water-use-2025.svg`. Chapters 01 and 02 now differ: Chapter 01 still has zero integrated visuals; Chapter 02 now has seven source-hosted remote images linked in its Markdown (2-A, 2-B, 2.3-A, 2-C, 2.4-A, plus carbon- and nitrogen-cycle figures under 2-D). The phosphorus-cycle visual is still missing. These are not local SVG/image files and do not establish that deployed rendering, mobile layout or accessibility has passed. All 21 visual briefs remain tracked separately in `IMAGE_SOURCES.md`.
 
 
 ### Chapter 02 — primary-source spot check — 4 November 2026
@@ -143,3 +143,11 @@ The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 an
 - Rights review: both USGS individual media records explicitly state Public Domain. The NOAA page identifies NOAA/JetStream and no third-party credit; NOAA's official reuse guidance states that NOAA content is generally public domain unless otherwise credited and requests NOAA attribution.
 - Scientific captions preserve the key limits: water-distribution percentages trace to Shiklomanov (1993), while the USGS 2022 water-cycle diagram includes human water use and water-quality effects. Atmospheric heights/profile are presented as approximate/representative.
 - These are remotely hosted images, not locally stored binaries. External loading, page performance, responsive behavior, alt-text rendering and mobile/browser checks remain outstanding. No deployment test is claimed.
+
+
+### Chapter 02 — additional source-linked visuals — 4 November 2026
+
+- Added NASA Goddard's Earth System Diagram at 2-A with explicit note that it is a five-sphere conceptual Earth-system graphic, not a literal depiction of the chapter's four-component geographic-envelope classification. NASA Goddard credit and graphic designer Kevin W. Miller are recorded.
+- Added a NASA-hosted fast carbon-cycle diagram (adapted from U.S. DOE) and a nitrogen-cycle diagram credited to NCAR under 2-D. Captions identify the distinct credits and the relevant processes.
+- The phosphorus-cycle figure remains outstanding; the two figures do not constitute a complete three-cycle illustration set.
+- These source images are remotely hosted. No local binary copies, live-site rendering tests, mobile performance checks or accessibility validation are claimed.
