@@ -1379,3 +1379,8 @@ The animal-cell ultrastructure brief has now been produced as an original biling
 ## Cell-cycle visual checkpoint — 4 November 2026
 
 Added an original bilingual cell-cycle SVG at `images/generated/cell-cycle.svg` and integrated it immediately before the cell-cycle control and apoptosis section in `chapters/cell-biology.html`. The diagram distinguishes interphase (G₁, S, G₂), M phase (mitosis plus cytokinesis), the G₁/S and G₂/M checkpoints, the spindle checkpoint, and exit into G₀. The production register and insertion map now track **30 of 53 visual briefs (56.6%)**; the additional brief expands the programme denominator from 52 to 53. Focused browser image-decode QA and scientific review remain pending; this is not reported as a full visual QA pass.
+
+
+## Ecology cycles visual checkpoint — 4 November 2026
+
+Created and integrated `images/generated/ecology-cycles.svg` at the original `image-brief-ecology-cycles` anchor in `chapters/ecology.html`. The bilingual infographic presents simplified carbon and nitrogen cycles and distinguishes carbon transfer from microbial nitrogen transformations. Updated the insertion map, disposition register and production plan. The visual programme now records **31 of 53 briefs produced or integrated (58.5%)**, including 15 local WebP photographs and 20 original SVG schematics. Focused browser image-decode QA and scientific review of the new plate remain pending.
