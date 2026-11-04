@@ -146,3 +146,6 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [ ] Re-run static validation and full Chromium suite on the latest saved commit.
 - [x] Corrected a second test-only wording mismatch in the Russian reference-data assertion: the page says «произведение безразмерно», not «безразмерным». The reference text was already scientifically correct; the assertion now matches it exactly.
 - [x] The glossary pH correction and the new reference-data RU/EN assertions passed the full Chromium run on commit `de99c192092796d32bc1b4ced377af1734cf1ff8`; the latest branch SHA matched the successful run SHA. The test wording was corrected to match the exact Russian adjective in the existing reference note.
+
+- [x] Refined two glossary entries during bilingual editorial review: the periodic law now describes the periodic variation of element properties with increasing atomic number (without overgeneralising compound properties), and the English molar-concentration definition now states the SI unit mol/m³ as well as the commonly used mol/L.
+- [x] Added RU/EN glossary browser assertions for both entries; CI pending for this latest glossary refinement.
