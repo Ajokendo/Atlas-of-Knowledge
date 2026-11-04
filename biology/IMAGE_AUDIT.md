@@ -220,3 +220,16 @@ A further ten SVGs were reviewed across ecology, botany, genetics, microbiology,
 - No further proven source-level scientific error was established in this batch. This remains a source-markup review, not rendered visual inspection or independent specialist certification.
 
 **Batch result:** 10 SVGs reviewed; 1 explanatory clarification committed. Global Image Verification remains **Pending audit**.
+
+
+## Regional habitat and zoology SVG review — 5 November 2026
+
+Reviewed six further assets: `fauna-batken-dry-highland-habitats.svg`, `fauna-talas-besh-tash.svg`, `flora-chuy-vegetation-zones.svg`, `flora-talas-vegetation.svg`, `zoology-vertebrates.svg` and `zoology-adaptation.svg`.
+
+- Checked bilingual descriptions and labels for the Batken marmot survey panel, Besh-Tash's separate habitat scenes, Chuy and Talas vegetation mosaics, the traditional vertebrate grouping and habitat adaptations.
+- Confirmed that the Batken panel labels its 4,146 count as a spring 2026 survey result rather than a permanent population estimate and leaves the marmot species unspecified; the Besh-Tash image explicitly identifies itself as a habitat reconstruction, not a distribution map or claim of simultaneous co-occurrence.
+- The zoology overview correctly qualifies the five familiar vertebrate groups as a teaching grouping and notes that birds are nested within reptiles in modern cladistics.
+- Found one metadata-language gap: `flora-talas-vegetation.svg` had an English-only `<desc>`. Added a Russian equivalent while retaining the English description (commit `6124fbb`).
+- The Chuy and Talas vegetation diagrams appropriately describe transitions as conceptual rather than fixed elevation boundaries. No further source-level scientific error was established in this sample.
+
+**Batch result:** 6 regional/zoology SVGs reviewed; 1 bilingual description corrected. Global Image Verification remains **Pending audit**.
