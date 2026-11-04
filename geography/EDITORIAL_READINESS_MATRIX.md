@@ -272,3 +272,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — population-density denominator clarification — 5 November 2026
 
 - Clarified in both languages that population-density comparisons must identify whether the denominator is land area, total area or inhabited area, and must align population, area and reference date. Commit: `63becbe6080cdd4adb21c198686312f02961bf05`.
+
+
+### Chapter 09 — population-density source definition — 5 November 2026
+
+- Added the direct World Bank EN.POP.DNST indicator reference, whose definition explicitly uses land area as the denominator. This supports the chapter's note on denominator comparability. Commit: `9bc90598c64ad4dc6a75224abf9f604de3d51e1b`.
