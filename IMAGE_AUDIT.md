@@ -71,11 +71,31 @@ The following non-translation differences were identified and require separate t
 
 - In `energy/pages.js`, the `bondU` chart domain changes from upstream `x0: 0.13, y1: 0.4` to `x0: 0.125, y1: 3.2`. Evaluating the unchanged Lennard–Jones potential in `energy/model.js`, (U(r)=\varepsilon[(r_0/r)^{12}-2(r_0/r)^6]), at (r=0.125\,\mathrm{nm}) gives approximately (2.94\,\mathrm{eV}). The previous 0.4 eV upper limit would clip the repulsive branch; the 3.2 eV limit includes it. This is a justified display-range correction, not a change to the physical model. Keep the graph's interpretation and axis labels in the scientific review.
 - In `magnetism/pages.js` / `magnetism/model.js`, `sinDeg` and `cosDeg` helpers remove floating-point residue at exact parallel/perpendicular orientations. This is a computational correction, not a new visual. The local `magnetism/checks.mjs` adds endpoint and Lorentz-force checks; retain this as a documented branch-specific fix.
-- The comparison of `magnetism/world.js`, `induction/world.js`, and all other `world.js`/3D scene modules is not yet complete. Do not classify every 3D scene as A or B until its labels, geometry, and behaviour have been compared with upstream.
+- A separate comparison of all 15 `world.js` scene modules is now complete at the source-code level. Fourteen are code-equivalent to upstream after normalising string literals and comments; their changed learner-facing object names, scene titles, and accessible labels are Russian localisation. The Kinematics scene has one additional rendering optimisation documented in section 1.4. This comparison does not replace visual inspection of each scene state.
 
 These findings support Category B for the affected Russian-labelled SVG/chart outputs. They do not establish final per-visual counts, item-level rights clearance, or full chapter visual verification.
 
-### 1.4 Localisation review required
+### 1.4 Scene and model source comparison — all 15 chapters
+
+The source comparison was extended to all 15 `world.js` scene modules and all 15 `model.js` modules.
+
+**Scene modules (`world.js`):**
+- All 15 local modules were compared with the corresponding upstream module.
+- For 14 modules, the executable code is identical after normalising quoted strings and comments; differences are Russian object names, scene titles, labels, and accessible descriptions. Those translated in-scene labels make the affected scene outputs **B — Adapted** under the policy.
+- `kinematics/world.js` also changes how the graph-area mesh is updated: the local version preallocates a dynamic `Float32BufferAttribute` and updates its existing position array, while upstream rebuilds the position array and attribute each frame. Both paths write the same 18 vertex coordinates for each of 60 segments and the same draw range. This is a rendering/performance implementation change, not a new scientific visual or a change to the represented graph. It should still receive browser rendering QA.
+
+**Model modules (`model.js`):**
+- Eleven local modules are code-equivalent to upstream after normalising strings and comments.
+- Four modules contain identifiable code changes:
+  - `electrostatics/model.js`: adds `electronTrajectory()`, used by the Russian chart and regression check. It samples the same electron-motion model used by the upstream inline curve; this is a refactoring of chart data generation, not a new physical model.
+  - `potential/model.js`: changes the charged-disc axial potential to use `|z|), making the potential symmetric on both sides of the disc. The local checks compare the closed form with a ring-sum calculation on both sides and check symmetry.
+  - `capacitors/model.js`: corrects the charged-disc axial field to include the sign of `z) and use `|z|), returning the symmetric principal-value average zero at the plane; it also adds a numerical `lineIntegral()` helper used by the checks and practice calculations. Checks cover both sides of the disc, the wide-disc sheet limit, and voltage integrals.
+  - `magnetism/model.js`: adds `sinDeg()`/`cosDeg()` helpers to suppress floating-point residue at exact parallel/perpendicular orientations. Local checks cover exact endpoints, Lorentz-force magnitude and direction, and the force's perpendicularity to velocity and field.
+- These are branch-specific calculation/refactoring changes, not evidence of independently authored 3D visuals. The local `checks.mjs` files contain targeted regression assertions, but this audit does not claim they have been executed in this session.
+
+These comparisons substantially improve source lineage coverage for the interactive engine. They do not establish final visual counts, rights clearance, complete scene-state QA, or scientific approval of every rendered visual.
+
+### 1.5 Localisation review required
 
 The Russian edition must be checked for accurate terminology, labels, symbols, legends, units, formulas, vector directions, numerical values, layout after text expansion, readable mobile presentation, captions, alt text, long descriptions, and equivalent data/text for complex visuals. The English source is not to be edited as part of this work.
 
