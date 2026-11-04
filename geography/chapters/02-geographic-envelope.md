@@ -498,17 +498,26 @@ When analysing a diagram, identify variables and causal links, note time lags, d
 
 ## 2.15. Итоговая модель географической оболочки / Integrated Model
 
-Географическая оболочка — сложная природная система, в которой взаимодействуют вещество, энергия, живые организмы и геологические процессы.
+Географическая оболочка — сложная природная система, в которой взаимодействуют вещество, энергия, живые организмы и геологические процессы. Её нельзя понять, изучая атмосферу, воду, горные породы и жизнь только по отдельности: важны связи между ними и последствия изменений в одной части системы для остальных.
 
-Основные выводы:
+**Как читать интегрированную модель**
+
+1. **Компоненты и границы.** Выделите атмосферу, гидросферу, литосферу (как часть более широкой геосферы), биосферу и криосферу. Границы между ними условны: вода и организмы встречаются сразу в нескольких оболочках.
+2. **Потоки энергии.** Солнечная энергия поступает в систему, отражается или поглощается поверхностью и атмосферой, преобразуется и в конечном счёте рассеивается в космос в виде теплового излучения. Внутренняя энергия Земли поддерживает геологические процессы. Энергия проходит через систему, а не совершает замкнутый круговорот, как многие вещества.
+3. **Круговороты вещества.** Вода, углерод, азот, фосфор и другие вещества перемещаются между резервуарами. Вещество может временно накапливаться в океане, почве, атмосфере, ледниках или живых организмах, а затем переходить в другие части системы.
+4. **Связи между оболочками.** Осадки (атмосфера) питают реку (гидросфера); река размывает породы и переносит осадки (литосфера/геосфера); почва и вода поддерживают растения (биосфера); растительность влияет на испарение, сток и закрепление почвы.
+5. **Обратные связи и изменения.** Изменение может усиливаться или частично компенсироваться обратными связями. Последствия зависят от масштаба, длительности воздействия, исходного состояния системы и задержек между причиной и результатом.
+6. **Человеческое воздействие.** Вырубка лесов, строительство плотин, добыча полезных ископаемых, выбросы и изменение землепользования меняют потоки вещества и энергии. Человек — часть биосферы и одновременно фактор, воздействующий на другие оболочки.
+
+**Основные выводы**
 
 - Природные оболочки Земли не существуют изолированно.
-- Вода, углерод, азот, кислород и другие вещества участвуют в глобальных круговоротах.
-- Географическая оболочка пространственно неоднородна.
-- Природные комплексы имеют сложную иерархическую структуру.
-- Устойчивость экосистем зависит от множества факторов.
+- Вода, углерод, азот, фосфор и другие вещества участвуют в круговоротах, тогда как энергия проходит через систему и рассеивается.
+- Географическая оболочка пространственно неоднородна; связи и процессы проявляются по-разному на местном, региональном и глобальном уровнях.
+- Природные комплексы имеют иерархическую структуру: локальные участки входят в более крупные системы.
+- Устойчивость и восстановление экосистем зависят от множества факторов; система не всегда возвращается к прежнему состоянию.
 - Деятельность человека стала одним из важнейших факторов глобальных изменений.
-- Современная география использует системный подход для изучения планеты.
+- Любая модель упрощает реальность: её выводы необходимо сопоставлять с наблюдениями, измерениями и масштабом задачи.
 
 **Место для главной иллюстрации KGEO-01 — Earth as an Integrated System.** Итоговая схема четырёх оболочек, криосферы, биогеохимических циклов, потоков энергии, природных комплексов и антропогенного воздействия.
 
@@ -753,17 +762,26 @@ Planetary boundaries are not one universal environmental-condition index. Each p
 
 ### 2.15. Integrated Model of the Geographic Envelope
 
-The geographic envelope is a complex natural system in which matter, energy, living organisms and geological processes interact.
+The geographic envelope is a complex natural system in which matter, energy, living organisms and geological processes interact. It cannot be understood by studying air, water, rocks and life separately: the connections among them, and the effects that changes in one part have on the others, are essential.
 
-The main conclusions are:
+**How to read the integrated model**
+
+1. **Components and boundaries.** Identify the atmosphere, hydrosphere, lithosphere (as part of the broader geosphere), biosphere and cryosphere. Their boundaries are not impermeable: water and organisms occur across several spheres.
+2. **Energy flows.** Solar energy enters the system, is reflected or absorbed by the surface and atmosphere, transformed, and ultimately released to space as heat radiation. Earth's internal energy drives geological processes. Energy flows through the system; unlike many materials, it does not circulate in a closed global cycle.
+3. **Matter cycles.** Water, carbon, nitrogen, phosphorus and other substances move among reservoirs. Matter may be stored temporarily in the ocean, soil, atmosphere, glaciers or living organisms before moving to another part of the system.
+4. **Connections among spheres.** Precipitation (atmosphere) feeds a river (hydrosphere); the river erodes rock and transports sediment (lithosphere/geosphere); soil and water support plants (biosphere); vegetation affects evaporation, runoff and soil stability.
+5. **Feedbacks and change.** A change may be amplified or partly counteracted by feedbacks. Its effects depend on scale, duration, the system's initial condition and delays between cause and response.
+6. **Human influence.** Deforestation, dams, mineral extraction, emissions and land-use change alter flows of matter and energy. Humans are part of the biosphere and also influence the other spheres.
+
+**Main conclusions**
 
 - Earth's natural spheres do not exist in isolation.
-- Water, carbon, nitrogen, oxygen and other substances take part in global cycles.
-- The geographic envelope is spatially heterogeneous.
-- Natural complexes have a hierarchical structure.
-- Ecosystem stability depends on many interacting factors.
+- Water, carbon, nitrogen, phosphorus and other substances cycle, whereas energy flows through the system and is dissipated.
+- The geographic envelope is spatially heterogeneous; processes and connections differ at local, regional and global scales.
+- Natural complexes are hierarchical: local areas form parts of larger systems.
+- Ecosystem persistence and recovery depend on many factors; a system does not always return to its previous state.
 - Human activity has become one of the major drivers of global change.
-- Modern geography uses systems thinking to study the planet.
+- Every model simplifies reality: its conclusions must be compared with observations, measurements and the scale of the question.
 
 ### Review Questions
 
@@ -831,10 +849,12 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 27. U.S. Geological Survey. *Mechanisms of Forest Resilience* (resilience as an emergent property involving persistence, recovery and ecosystem reorganisation). https://www.usgs.gov/publications/mechanisms-forest-resilience
 28. NASA My NASA Data. *Systems Thinking About Earth System* (introductory explanation and examples of positive and negative feedbacks, including ice–albedo feedback). https://mynasadata.larc.nasa.gov/basic-page/systems-thinking-about-earth-system
 29. DeAngelis, D. L., & Xu, L. (2024). *Feedbacks: A new synthesis of causal loops across ecology*. Ecography. https://doi.org/10.1111/ecog.07460
+30. NASA My NASA Data. *Systems and System Models* (Earth system components, inputs, processes, outputs, and modelling). https://mynasadata.larc.nasa.gov/basic-page/Systems-and-System-Models
+31. U.S. Department of Energy. *DOE Explains... Earth System and Climate Models* (interacting physical, chemical and biological processes in Earth system models). https://www.energy.gov/science/doe-explainsearth-system-and-climate-models
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
-Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; USGS (22) — обновление и переработка океанической коры; USGS (23) — ограничения интерпретации возраста древнейших пород; USGS (24) — сочетание mantle flow, ridge push и slab pull и научная неопределённость деталей механизма движения плит; USGS (25) — типы границ и внутриплитные землетрясения; USGS Water Cycle (11) и NOAA (26) — процессы переноса воды, временное хранение и влияние деятельности человека; USGS (27) — различие устойчивости лесных экосистем, сохранения, восстановления и реорганизации; NASA My NASA Data (28) — базовые определения обратных связей и пример альбедо; DeAngelis & Xu (29) — обратные связи в экологических системах; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
+Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; USGS (22) — обновление и переработка океанической коры; USGS (23) — ограничения интерпретации возраста древнейших пород; USGS (24) — сочетание mantle flow, ridge push и slab pull и научная неопределённость деталей механизма движения плит; USGS (25) — типы границ и внутриплитные землетрясения; USGS Water Cycle (11) и NOAA (26) — процессы переноса воды, временное хранение и влияние деятельности человека; USGS (27) — различие устойчивости лесных экосистем, сохранения, восстановления и реорганизации; NASA My NASA Data (28) — базовые определения обратных связей и пример альбедо; DeAngelis & Xu (29) — обратные связи в экологических системах; NASA My NASA Data (30) — компоненты, входы, процессы, выходы и моделирование системы Земли; U.S. Department of Energy (31) — объединение физических, химических и биологических процессов в моделях системы Земли; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
 
 ## Редакционные и научные примечания
 
