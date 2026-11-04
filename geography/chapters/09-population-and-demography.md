@@ -387,6 +387,16 @@ This is an age-based indicator, not a measure of actual economic dependency: not
 
 Ageing requires adaptation in health care, long-term care, pensions, transport and the built environment. A young age structure, in turn, creates demand for schools, jobs, housing and family services.
 
+### 9.8.1. Worked Example: Calculating the Age Dependency Ratio
+
+Consider a hypothetical population with 18,000 people aged 0–14, 50,000 aged 15–64, and 7,000 aged 65 and over.
+
+1. Population in the conventionally dependent age groups: 18,000 + 7,000 = **25,000 people**.
+2. Age dependency ratio: (25,000 / 50,000) × 100 = **50 people per 100 people aged 15–64**.
+3. Child dependency ratio: (18,000 / 50,000) × 100 = **36 per 100**; old-age dependency ratio: (7,000 / 50,000) × 100 = **14 per 100**.
+
+Thus, for every 100 people aged 15–64, there are 50 people in the younger and older age groups combined. This does not mean that all 100 people are employed or that they financially support 50 dependants: the calculation is based on age alone. Assessing the actual economic burden also requires information on employment, unemployment, income, and participation in paid work and care across age groups.
+
 ### 9.9. Migration: Concepts and Types
 
 Migration is the movement of people involving a change in their place of residence or usual residence for a defined period. Statistical definitions of internal and international migration may differ in the required duration of residence and in the criterion used for crossing an administrative or national boundary.
@@ -537,6 +547,18 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 ### Практическая работа 5. Анализ миграции и урбанизации / Practical activity 5. Migration and urbanisation analysis
 
 На основе открытых официальных данных выберите регион происхождения и регион назначения мигрантов. Проверьте период, определения и полноту данных. Сопоставьте возрастную структуру, занятость и доступность услуг; не делайте причинных выводов только на основании корреляции.
+
+### 9.16.1. Measuring Migration Without Confusing Indicators
+
+Migration is a change in a person's usual place of residence. A trip, daily commuting and a change of residence are different phenomena and should not automatically be combined in one statistic.
+
+**Core indicators.** The numbers of arrivals and departures during a period are absolute migration flows. Depending on the registration system, statistics may count movement events rather than unique people: a person who moves more than once can contribute more than one event to a flow. Before comparing regions or countries, check the unit counted and the registration rules. Net migration equals arrivals minus departures. The migrant stock is the number of people classified as migrants under a source's definition and living in a territory on a specified date; it is a point-in-time measure, not the number of moves during a year. International datasets may define migrants by country of birth or citizenship, for example, so the operational definition must be checked. Rates are commonly calculated per 1,000 people using the mid-year population, allowing comparison between areas of different sizes. Always state whether the data come from residence registration, a census, a sample survey or administrative records.
+
+**Hypothetical example.** A region with a population of 100,000 records 2,400 arrivals and 1,900 departures in one year. Net migration is +500 people, and the net migration rate is 5 per 1,000 when the mid-year population is 100,000. This does not mean every arrival stayed permanently: the indicator depends on the definition of a migrant and the completeness of registration.
+
+**Data limitations.** Unregistered, seasonal, forced and repeat migration may be incompletely recorded. Changes in registration rules or territorial boundaries can create breaks in a time series. A net figure hides differences by age, sex, skills and reasons for moving; publication must protect personal data and avoid disclosing small groups that could identify individuals.
+
+**Activity.** Calculate net migration and the rate per 1,000 residents for two regions. Explain why the same net balance can have different effects on age structure and the labour market.
 
 ### English Summary
 
