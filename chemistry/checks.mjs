@@ -528,7 +528,22 @@ for (const file of svgFiles) {
   const paired = basename.endsWith("-ru.svg") ? basename.replace(/-ru\.svg$/i, ".svg") : basename.replace(/\.svg$/i, "-ru.svg");
   if (!fs.existsSync(path.join(assetRoot, paired))) errors.push("assets/" + basename + ": matching bilingual SVG variant is missing");
 }
-if (imageSources && !/\| C — project SVG/.test(imageSources)) errors.push("IMAGE_SOURCES.md: project-created SVG category C must be recorded explicitly");
+if (imageSources && /\\| C — project SVG/.test(imageSources)) errors.push("IMAGE_SOURCES.md: do not assign category C to local SVGs until creator, authoring method and rights are evidenced");
+if (imageSources && !imageSources.includes("PENDING — project-local SVG")) errors.push("IMAGE_SOURCES.md: local SVG provenance must remain PENDING until evidenced");
+const staticAssetRegister = imageSources.split("## Asset register")[1]?.split("## Non-file interactive visuals")[0] || "";
+for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11"]) {
+  const rows = staticAssetRegister.split(/\\r?\\n/).filter(line => line.startsWith("| " + id + " |"));
+  if (rows.length !== 1) errors.push("IMAGE_SOURCES.md: expected exactly one static asset row for " + id);
+  else {
+    const cells = rows[0].split("|");
+    if (cells.length !== 14) errors.push("IMAGE_SOURCES.md: malformed Markdown columns in " + id);
+    const enFile = cells[4]?.trim().replace(/^`|`$/g, "");
+    const ruFile = cells[5]?.trim().replace(/^`|`$/g, "");
+    if (!enFile || !ruFile || !fs.existsSync(path.join(assetRoot, enFile)) || !fs.existsSync(path.join(assetRoot, ruFile))) {
+      errors.push("IMAGE_SOURCES.md: English/Russian asset paths must point to existing SVGs for " + id);
+    }
+  }
+}
 if (imageAudit && !/\bPENDING\b/.test(imageAudit)) errors.push("IMAGE_AUDIT.md: unresolved checks must remain explicitly marked PENDING");
 for (const file of htmlFiles) {
   const source = fs.readFileSync(file, "utf8");
