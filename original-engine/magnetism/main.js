@@ -28,7 +28,7 @@ startBook({
       case 'ampere': { const r = M.ampR(c), B = M.ampereB(r); return `r ${f(r * 100, 1)} см   B ${uT(B)} мкТл\nB·2πr = ${sci(B * 2 * Math.PI * r)} Тл·м = μ₀I   Φ ${f(M.FLUX.phi * 1e6)} мкВб`; }
       case 'ring': { const z = M.ringZ(c); return `z ${f(z * 100, 1)} см   B ${uT(M.ringAxis(z))} мкТл\nв центре μ₀I/2R = ${uT(M.RING.Bc)} мкТл`; }
       case 'wires': return `${f(M.WIRES.I, 0)} А в каждом, расстояние ${f(M.WIRES.d * 100, 0)} см\nF/L = ${f(M.WIRES.FL * 1000)} мН/м: притяжение или отталкивание`;
-      case 'solenoid': { const r = M.torR(c); return `соленоид: B ${uT(M.solB([0, 0, 0])[0])} мкТл   μ₀nI ${uT(M.SOL.B)} мкТл\nтороид: r ${f(r * 100, 1)} см   B ${uT(M.torIdeal(r))} мкТл`; }
+      case 'solenoid': { const r = M.torR(c); return `соленоид: B ${uT(M.solB([0, 0, 0])[0])} мкТл   μ₀nI ${uT(M.SOL.B)} мкТл\nтороид: r ${f(r * 100, 1)} см   B идеал ${uT(M.torIdeal(r))} мкТл   B модель ${uT(M.len(M.torB([r, 0, 0])))} мкТл`; }
     }
     return '';
   },
