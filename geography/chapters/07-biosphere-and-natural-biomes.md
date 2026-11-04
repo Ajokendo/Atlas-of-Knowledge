@@ -30,6 +30,7 @@ After studying this chapter, readers will be able to explain the extent and func
 
 **Рисунок 7.1 / Figure 7.1 — Биосфера как область взаимодействия оболочек Земли / The biosphere as a zone of interaction among Earth's spheres.**  
 Техническое задание: создать научную разрезную схему от верхней тропосферы до океанического дна и верхней литосферы; показать лес, почвенный профиль, реку, океан, микроорганизмы в породах; обозначить атмосферу, гидросферу, литосферу и биосферу; не изображать границы биосферы как абсолютно точные.
+**EN production brief:** Create a scientific cross-section from the upper troposphere to the ocean floor and upper lithosphere. Show a forest, soil profile, river, ocean and microorganisms in rock; label the atmosphere, hydrosphere, lithosphere and biosphere. Do not depict the biosphere's boundaries as exact lines.
 
 ## 7.2. Уровни организации живого / Levels of Biological Organization
 
@@ -66,6 +67,7 @@ After studying this chapter, readers will be able to explain the extent and func
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-D / IMAGE PLACEHOLDER 07-D]** Кривая экологической толерантности с минимумом, максимумом, оптимумом и зонами пессимума; оси и условность модели подписать. / **EN:** Ecological tolerance curve showing minimum, maximum, optimum and pessimum zones; label axes and identify it as a conceptual model.
 **Рисунок 7.2 / Figure 7.2 — Кривая экологической толерантности / Ecological tolerance curve.**  
 Техническое задание: график с осью X «интенсивность экологического фактора», осью Y «жизненная активность»; отметить зоны пессимума, оптимум, нижний и верхний пределы толерантности; пояснить, что кривая концептуальная и не является универсальной числовой моделью.
+**EN production brief:** Plot environmental-factor intensity on the X-axis and organism performance or vital activity on the Y-axis. Mark pessimum zones, the optimum, and lower and upper tolerance limits. State that the curve is conceptual, not a universal numerical model.
 
 ## 7.4. Трофическая структура и поток энергии / Trophic Structure and Energy Flow
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-B / IMAGE PLACEHOLDER 07-B]** Пищевая сеть с продуцентами, консументами и редуцентами; поток энергии обозначить стрелками. / Food web with producers, consumers and decomposers; show energy flow with arrows.
@@ -88,6 +90,7 @@ After studying this chapter, readers will be able to explain the extent and func
 
 **Рисунок 7.3 / Figure 7.3 — Пищевая сеть и пирамида энергии / Food web and energy pyramid.**  
 Техническое задание: слева показать сеть умеренной луговой экосистемы (травы, насекомые, грызуны, птицы, хищники, грибы и бактерии), справа — пирамиду энергии с условными единицами на каждом уровне; стрелки должны идти от пищевого ресурса к потребителю; не задавать универсальную эффективность передачи энергии.
+**EN production brief:** On the left, show a food web for a temperate grassland (grasses, insects, rodents, birds, predators, fungi and bacteria). On the right, show an energy pyramid with illustrative units at each trophic level. Arrows must point from food resource to consumer; do not imply a universal energy-transfer efficiency.
 
 ### 7.4.1. Практический пример: передача энергии в пищевой цепи / Worked Example: Energy Transfer in a Food Chain
 
@@ -170,6 +173,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-E / IMAGE PLACEHOLDER 07-E]** Карта биогеографических областей мира с принятой классификацией и оговоркой о переходных зонах. / **EN:** Map of the world's biogeographical realms using a named classification and noting transitional zones.
 **Рисунок 7.4 / Figure 7.4 — Биогеографические области мира / World's biogeographical realms.**  
 Техническое задание: подготовить карту суши с основными биогеографическими областями по одной явно указанной научной классификации; показать условные границы, легенду и названия; не смешивать биогеографические области с климатическими поясами; островные территории подписывать отдельно при необходимости.
+**EN production brief:** Prepare a land map of the major biogeographical realms using one explicitly named scientific classification. Show schematic boundaries, a legend and labels. Do not confuse biogeographical realms with climatic belts; label island territories separately where necessary.
 
 ## 7.7. Широтная зональность и высотная поясность / Latitudinal Zonation and Altitudinal Belts
 
@@ -181,6 +185,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 **Рисунок 7.5 / Figure 7.5 — Широтная зональность и высотная поясность / Latitudinal zonation and altitudinal belts.**  
 Техническое задание: сделать две сопоставимые схемы: профиль Земли от экватора к полюсам и горный склон от подножия до нивального пояса; подписать биомы схематически, указать, что реальные границы переходные и зависят от региональных условий.
+**EN production brief:** Create two comparable diagrams: a latitudinal profile from the equator to the poles and a mountain slope from its base to the nival zone. Label biomes schematically and note that real boundaries are transitional and depend on regional conditions.
 
 ## 7.8. Главные наземные биомы Земли / Major Terrestrial Biomes
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-C / IMAGE PLACEHOLDER 07-C]** Карта наземных биомов мира с климатическими поясами и примерами адаптаций. / World map of terrestrial biomes with climate belts and examples of adaptation.
@@ -224,6 +229,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-F / IMAGE PLACEHOLDER 07-F]** Сравнительная панорама основных биомов с климатом, растительностью и характерными адаптациями организмов. / **EN:** Comparative panorama of major biomes showing climate, vegetation and characteristic organism adaptations.
 **Рисунок 7.6 / Figure 7.6 — Панорама основных биомов планеты / Panorama of Earth's major biomes.**  
 Техническое задание: единая научная панорама из 10–11 ландшафтных секций с узнаваемыми признаками каждого биома; подписи на русском и английском; не использовать стереотипные изображения как замену реальным региональным различиям.
+**EN production brief:** Create one scientific panorama with 10–11 landscape sections, each showing recognisable features of a biome. Use Russian and English labels; do not let stereotypical imagery replace real regional variation.
 
 ## 7.9. Пресноводные и морские биомы / Freshwater and Marine Biomes
 
@@ -249,6 +255,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-G / IMAGE PLACEHOLDER 07-G]** Сопоставление вертикальных экологических зон озера и океана; глубины и названия зон не выдавать за универсальные границы. / **EN:** Compare vertical ecological zones in a lake and the ocean; do not present depths or zone names as universal boundaries.
 **Рисунок 7.7 / Figure 7.7 — Вертикальная зональность озера и океана / Vertical zonation of a lake and the ocean.**  
 Техническое задание: сопоставить озеро и океан в разрезе; обозначить освещённую фотическую зону, глубоководную афотическую область, литораль/прибрежье, пелагиаль и бенталь; показать, что глубины зон изменяются в зависимости от прозрачности воды и условий среды.
+**EN production brief:** Compare a lake and the ocean in cross-section. Label the illuminated photic zone, deep aphotic zone, littoral/coastal area, pelagic zone and benthic zone. Show that zone depths vary with water transparency and environmental conditions.
 
 ## 7.10. Экотоны и экологические переходы / Ecotones and Ecological Transitions
 
@@ -305,6 +312,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-H / IMAGE PLACEHOLDER 07-H]** Схема экологической связности: ядра местообитаний, коридоры, барьеры и матрица ландшафта. / **EN:** Habitat-connectivity diagram showing core areas, corridors, barriers and the landscape matrix.
 **Рисунок 7.8 / Figure 7.8 — Экологическая сеть и связность местообитаний / Ecological network and habitat connectivity.**  
 Техническое задание: схематическая карта с ядрами природных территорий, буферными зонами, коридорами и участками фрагментации; показать условное перемещение животных; легенда должна различать существующие и предлагаемые элементы сети.
+**EN production brief:** Create a schematic map showing core natural areas, buffer zones, corridors and fragmented areas. Illustrate hypothetical animal movement and use a legend to distinguish existing from proposed network elements.
 
 ## 7.14. Биосфера и глобальные циклы вещества / The Biosphere and Global Biogeochemical Cycles
 
@@ -317,6 +325,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-I / IMAGE PLACEHOLDER 07-I]** Схема роли организмов в циклах углерода и азота с раздельным обозначением потоков вещества и энергии. / **EN:** Diagram of organism roles in the carbon and nitrogen cycles, distinguishing matter flows from energy flows.
 **Рисунок 7.9 / Figure 7.9 — Биологическая роль в циклах углерода и азота / Biological roles in the carbon and nitrogen cycles.**  
 Техническое задание: две отдельные диаграммы с резервуарами и потоками; различать природные и антропогенные потоки; не смешивать запасы вещества и скорости потоков; все единицы и временные интервалы указывать явно.
+**EN production brief:** Create two separate diagrams showing reservoirs and flows. Distinguish natural from human-driven flows; do not mix stored quantities with flow rates. State all units and time intervals explicitly.
 
 ## 7.15. Методы биогеографических и экологических исследований / Methods in Biogeographical and Ecological Research
 
