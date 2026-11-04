@@ -610,3 +610,13 @@ The chapter-level audit records were added to each source chapter. Findings and 
 - Added the current SER Third Edition (2026) standards resource, a molecular-biology source for photosynthetic oxygen origin, and a 2026 eDNA methods review. The chapter bibliography now contains 15 references. IUCN Red List version 2026-1 remains the latest published release recorded as of 5 November 2026.
 - Nine unique bilingual visual IDs and their production briefs remain placeholders; no images have been generated or integrated.
 - Chapter content commit: `b9c41e71706d3b9a33cd8258e8e00ab70bc40bff`.
+
+
+
+### Chapter 08 — WRB classification and digital soil-map limitations — 5 November 2026
+
+- Checked the current WRB document set: the fourth edition (2022; corrections through 24 September 2024) is the current edition and recognises 32 Reference Soil Groups. Chapter 08 now distinguishes these formal classification units from broad teaching descriptions such as “steppe soils”, “alluvial valley soils” and “mountain soils”; the bilingual map brief prohibits mixing WRB units, national classes and general landscape descriptions in one legend. Sources: IUSS Working Group WRB official documents and FAO Soils Portal.
+- Checked ISRIC's SoilGrids 2.0 documentation: modelled soil-property predictions are provided at 250 m for six standard depth intervals (0–5, 5–15, 15–30, 30–60, 60–100 and 100–200 cm), with pixel-level uncertainty information. The documentation notes uneven observation coverage and data gaps in Central Asia. Chapter text now makes clear that these are model predictions, not field measurements at every pixel, and requires field validation before local decisions in Kyrgyzstan.
+- Added the official SoilGrids documentation and Poggio et al. (2021) to the chapter bibliography. Revised the visual brief so a WRB soil-group map and a SoilGrids soil-property map are treated as different products with separate legends, units, depth intervals and provenance.
+- Chapter content commits: `f5b45a26ff48d72dac956343b6f55c26c66e2080` (scientific text and map-method additions); `d3c1e879e4e6293e324b7d9ffa8f7f195c3af5de` (brief and bilingual summary alignment).
+- **Limit:** this is a targeted evidence closure, not a complete sentence-level bilingual proofread or full claim-to-source audit. Seven visual assets remain placeholders; no visual integration or browser/device/deployment QA is claimed.
