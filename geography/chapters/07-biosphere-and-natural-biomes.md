@@ -706,3 +706,13 @@ The current chapter does not assign individual IUCN Red List categories to named
 
 ---
 **Конец главы 7 / End of Chapter 7**
+
+## Focused scientific and editorial audit record — 5 November 2026
+
+- **Trophic energy transfer:** retained the worked 10% example but clarified that this is the calculated efficiency for the stated transfer and accounting method, not a universal fixed rule for every trophic step. Integrated in the worked example.
+- **Biodiversity framework:** clarified that Kunming–Montreal Global Biodiversity Framework Target 2 concerns at least 30% of degraded ecosystems being under effective restoration by 2030; it is not a requirement to complete restoration of 30% of every country's territory by that date. Integrated in the main text and bilingual review apparatus.
+- **Restoration assessment:** added emphasis on baseline conditions, repeated seasonal monitoring, ecological outcomes (not simply tree planting or increased greenness), reference sites and the rights and practices of local land users. Integrated in the practical restoration section.
+- **Biogeographical evidence:** retained the requirement to name the classification, scale and data year when comparing biome or ecoregion maps; species-level IUCN examples must carry the assessment scope, category, criteria and dates.
+- **Visual production:** checked nine unique bilingual visual IDs and production briefs. All remain placeholders pending image production.
+- **Bilingual structure:** the previous heading-ID audit found 17 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
+
