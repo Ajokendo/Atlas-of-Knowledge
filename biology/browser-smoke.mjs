@@ -96,9 +96,9 @@ try {
 
       // Save a reproducible visual-review screenshot after all page images have decoded.
       await page.evaluate(async () => {
-        await Promise.all(Array.from(document.images, img =>
-          img.decode().catch(() => null)
-        ));
+        const images = Array.from(document.images);
+        images.forEach(img => { img.loading = "eager"; });
+        await Promise.all(images.map(img => img.decode().catch(() => null)));
       });
       const screenshotDir = path.resolve("artifacts/biology-visual-review", String(viewport.width));
       await mkdir(screenshotDir, { recursive: true });
