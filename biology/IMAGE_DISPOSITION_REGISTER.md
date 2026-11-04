@@ -2,7 +2,7 @@
 
 **Decision date:** 3 November 2026  
 **Branch:** `workspace/biology`  
-**Current disposition (4 November 2026):** **37 of 53 mapped briefs are produced or integrated (69.8%)**. This count includes original SVG schematics and locally stored photographs; three botanical SVGs are integrated but still marked for focused browser QA. The other 16 briefs remain deferred or awaiting production. The percentage counts briefs, not individual image files.
+**Current disposition (4 November 2026):** **38 of 53 mapped briefs are produced or integrated (71.7%)**. This count includes original SVG schematics and locally stored photographs; three botanical SVGs are integrated but still marked for focused browser QA. The other 15 briefs remain deferred or awaiting production. The percentage counts briefs, not individual image files.
 
 ## Common deferral rationale
 
