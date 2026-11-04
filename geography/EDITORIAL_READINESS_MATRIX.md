@@ -211,3 +211,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 07 — IUCN guidance reference update — 5 November 2026
 
 - Added the IUCN Red List Guidelines, Version 16 (March 2024), alongside the 2012 Categories and Criteria standard, so the chapter distinguishes the core category framework from current application guidance. Commit: `bb8dbba6a65c311b56902b171c6d538f12b96ac1`.
+
+
+### Chapter 09 — urban/rural classification method — 5 November 2026
+
+- Added a bilingual explanation of the UN Degree of Urbanization methodology (1 km² grid classification followed by classification of smaller spatial units), its first-level classes and its distinction from national legal definitions. Added the direct WUP 2025 methodology-report reference. Commit: `5537ae858eecadda2bec2982ff9bfd7ace2bcdaa`.
