@@ -149,3 +149,19 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 
 - [x] Refined two glossary entries during bilingual editorial review: the periodic law now describes the periodic variation of element properties with increasing atomic number (without overgeneralising compound properties), and the English molar-concentration definition now states the SI unit mol/m³ as well as the commonly used mol/L.
 - [x] Added RU/EN glossary browser assertions for both entries; CI pending for this latest glossary refinement.
+
+
+### Latest internal audit checkpoint — 90% (2026-11-04)
+
+This percentage refers to the internal automated/technical audit stage only. It is not publication readiness and does not include external human reviews or physical-device testing.
+
+- [x] Corrected the two Russian amount-of-substance test expectations to match the existing chapter wording; the scientifically correct learning text was not changed for the sake of the assertions.
+- [x] Completed the follow-up bilingual glossary refinements: the periodic-law entry now describes periodic variation in element properties with increasing atomic number, and the molar-concentration entry states SI mol/m³ alongside commonly used mol/L.
+- [x] Full latest branch-head CI run [41889220939](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41889220939) completed successfully on commit `73affc2476dc4f14d6f8b6bf569d8b546df57868`.
+- [x] Static validation passed: 22 HTML pages, 89 local links/assets, 21 inline scripts, and RU/EN dictionaries on 18 pages.
+- [x] Chromium smoke suite passed on all 21 Chemistry pages; all 42 axe-core RU/EN scans completed, language switching and key interactive workflows passed, and no uncaught page errors were reported.
+- [x] Responsive horizontal-overflow checks ran at 390, 768 and 1280 CSS-pixel widths. This is an automated layout-overflow check, not a substitute for manual visual inspection or browser zoom testing.
+- [ ] Remaining internal work: continue targeted scientific and bilingual review of any not-yet-audited passages and interactive edge cases; record only verified corrections and rerun CI after changes.
+- [ ] External gates remain pending: physical Android/iOS checks, manual keyboard and 200%/400% zoom/reflow review, NVDA/TalkBack/VoiceOver testing, independent chemistry subject-matter review, and final publication approval.
+
+The successful CI run is evidence of repository validation and automated GitHub-hosted Chromium testing only. It is not independent scientific certification, physical-device testing, or final release approval.
