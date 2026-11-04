@@ -1,3 +1,14 @@
+## Final author-side closure report — 4 November 2026 (latest)
+
+- **Author-side scope:** complete. The internal G4 scientific audit and G5 bilingual/editorial audit each completed all four planned blocks. The author-side repeat audit is recorded at 100%. The visual register records 53/53 briefs produced or integrated.
+- **Current staged editorial-readiness score: 99/100**, matching the latest score recorded in the README. This supersedes the older 95/100 figure repeated in the historical checkpoint below. The score is not raised to 100 because independent specialist review and hands-on assistive-technology / physical-device validation have not been performed; those checks cannot be simulated or honestly certified by this repository workflow.
+- **All three documentation CI runs after the latest updates passed:** [41825775175](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41825775175), [41825793871](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41825793871), and [41825798325](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41825798325). Each `validate` job concluded `success` on `workspace/biology`.
+- The preceding full browser/axe/Chromium run [41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607) also passed. It tested all 13 Biology HTML pages at 390×844 and 1365×900 viewports, including bilingual switching, keyboard checks, axe WCAG checks, contrast sampling, raster image decode/dimensions/alt checks and inline-SVG geometry.
+- **Only external/hands-on evidence remains:** Windows NVDA sessions, Android TalkBack session, iOS VoiceOver session, and physical-device visual/touch/zoom/orientation checks. Record unavailable environments as not tested; do not infer a pass. Optional independent specialist review remains optional and is not a mandatory author-side gate.
+- Scope boundary preserved: all changes remain in `biology/` on `workspace/biology`; no `main`, other discipline, portal or publishing changes.
+
+---
+
 ## Author-controlled completion update — 4 November 2026 (supersedes older readiness notes)
 
 - Latest full Biology CI: [run 41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607), commit `9d4b79ff0297d95fcdb1998c58f6e973fd81ecc6`, completed **successfully** on `workspace/biology`. The `validate` job passed.
