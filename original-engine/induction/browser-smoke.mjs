@@ -20,8 +20,17 @@ async function run(mobile) {
     if (await dots.count() !== 10) throw new Error(`expected 10 pages, got ${await dots.count()}`);
     const canvas = await page.locator('#gl').evaluate(c => ({ w:c.width,h:c.height }));
     for (let i=0;i<10;i++) {
-      await dots.nth(i).click();
-      await page.waitForFunction(n => Number(document.querySelector('#folio')?.textContent) === n+1, i);
+      if (mobile && i < 9) {
+        const next = page.locator('#sheet .turn');
+        if (await next.count() !== 1) throw new Error(`page ${i+1} has no mobile next-page control`);
+        await next.click();
+        await page.waitForFunction(n => location.hash === `#${n}`, i+1);
+      } else if (!mobile) {
+        await dots.nth(i).click();
+        await page.waitForFunction(n => Number(document.querySelector('#folio')?.textContent) === n+1, i);
+      } else {
+        await page.waitForFunction(() => !document.querySelector('#sheet .turn'));
+      }
       if (!(await page.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i+1} has no title`);
       if (!(await page.locator('#readout').innerText()).trim()) throw new Error(`page ${i+1} has no live readout`);
     }
