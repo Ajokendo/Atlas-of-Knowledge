@@ -64,7 +64,7 @@ async function checkLesson(mobile) {
     await page.locator('#p2').evaluate(el => { el.value = '90'; el.dispatchEvent(new Event('input', { bubbles: true })); });
     if (!(await readout('#r2')).includes('0,00 Н·м²/Кл')) throw new Error(`flux at 90° should be zero: ${await readout('#r2')}`);
     await page.locator('#p2').evaluate(el => { el.value = '180'; el.dispatchEvent(new Event('input', { bubbles: true })); });
-    if (!(await readout('#r2')).includes('−112,94 Н·м²/Кл')) throw new Error(`flux at 180° should be negative: ${await readout('#r2')}`);
+    if (!(await readout('#r2')).includes('-112,94 Н·м²/Кл')) throw new Error(`flux at 180° should be negative: ${await readout('#r2')}`);
     await page.locator('#p0').evaluate(el => { el.value = '2'; el.dispatchEvent(new Event('input', { bubbles: true })); });
     if (!(await readout('#r0')).includes('225,88 Н·м²/Кл')) throw new Error(`doubling enclosed charge should double total flux: ${await readout('#r0')}`);
     await page.locator('.answers button[data-answer="a"]').click();
