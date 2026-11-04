@@ -423,3 +423,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 07 — IPBES and IUCN direct-source access — 5 November 2026
 
 - Added the DOI record for the 2023 IPBES Invasive Alien Species Assessment and replaced IUCN Red List root/library links with current official resource pages on the `nrl.iucnredlist.org` subdomain. The supporting-information page explicitly identifies the assessment date, scope, criteria version and publication details that should accompany a species-status claim. Current Red List guidance page confirms Version 16 (March 2024). Commit: `2b3c9e30926342edbc4c8e75800ec41550026171`.
+
+
+### Chapter 07 — scope of species-status evidence — 5 November 2026
+
+- Confirmed that the current chapter contains no named species with an asserted IUCN Red List category; therefore no individual species assessment is being implied or cited. Added a bilingual editorial rule requiring scientific name, global/regional scope, category/criteria, assessment and publication dates, and Red List version if a species-status example is introduced later. Commit: `251f251e8fe4e336db39d3a1e6c1e250a0e6f49b`.
