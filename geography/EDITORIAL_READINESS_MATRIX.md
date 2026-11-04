@@ -337,3 +337,6 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 08 — WRB organic horizon coverage — 5 November 2026
 
 - Added H horizon to the bilingual profile description and illustration specification, distinguishing peat/organic material from O horizons. Checked against WRB Fourth Edition 2022, Annex 3 (corrected 2024). Commit: `9bae5672e0a7568f098d1c590d72b72cbb8bfe33`.
+
+
+- Bilingual QA after the H-horizon addition caught and corrected a duplicated English symbol and aligned the classification caveat. The RU/EN lists now match and explicitly distinguish master horizon/layer designations from WRB diagnostic criteria. Commits: `616affb021a9729a8355d51048a622348f3547f8`, `6727ea73c466ab38ed0b9b192c67cfee6ae856c3`.
