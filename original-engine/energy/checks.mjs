@@ -47,6 +47,7 @@ check('spring: F = −kx and m dv/dt = F in contact', [S.tIn + 0.1, S.tIn + 0.4]
 check('spring: ds/dt = v throughout', [0.3, S.tIn + 0.2, S.tIn + S.tC + 0.3].every(t => near(d(M.spring, t, 's'), M.spring(t).v, 1e-5)));
 check('spring: U_s = area under kx (numeric)', (() => { let A = 0; const n = 2000; for (let i = 0; i < n; i++) { const x = (i + 0.5) / n * S.xmax; A += S.k * x * S.xmax / n; } return near(A, 0.5 * S.k * S.xmax ** 2, 1e-6); })());
 check('spring: leaves at the speed it came in', near(M.spring(S.run).v, -S.v0) && near(M.spring(S.run).s, -S.gap, 1e-9));
+check('spring: position and velocity are continuous at contact and release', (() => { const e = 1e-8, close = (a, b) => Math.abs(a - b) < 1e-6; return [S.tIn, S.tIn + S.tC].every(t => { const a = M.spring(t - e), b = M.spring(t + e); return close(a.s, b.s) && close(a.v, b.v) && Math.abs(M.spring(t).F) < 1e-8; }); })(), 'both phase boundaries');
 
 // pendulum
 const Pd = M.PEND;
