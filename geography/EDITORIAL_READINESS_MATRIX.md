@@ -199,3 +199,10 @@ A further targeted correction pass was committed across all five chapters: catch
 - The worked catchment-balance example now explicitly states that outlet discharge is converted to runoff depth over the catchment area before it is compared with precipitation and evapotranspiration. Russian and English wording are paired; the arithmetic remains 600 − 350 − 220 = 30 mm.
 - This closes one dimensional-consistency ambiguity in the exercise, but does not by itself justify changing the Chapter 06 score. The existing 73% remains pending broader source-to-claim review, full bilingual line editing, visual integration and release QA.
 - Commit: `884fbdeeac9d07d6791a4bb172f66918a275198b`.
+
+
+### Chapters 06 and 10 — focused follow-up — 5 November 2026
+
+- **Chapter 06:** made the basin practical assignment internally continuous: the mean-discharge calculation now uses the 2.5 km³ runoff volume derived from 250 mm over 10,000 km², yielding approximately 79.3 m³/s over a 365-day year. Russian and English steps and worked calculations are aligned. Commit: `3c2f61d1cca4add4f68974f7ca18edc374b2a23f`.
+- **Chapter 10:** strengthened the statehood and recognition explanation in both languages with the Montevideo Convention's four often-cited qualifications, its Article 3 position, the Convention's regional scope, and a concise distinction between declaratory and constitutive approaches without presenting either as a complete mechanical test. Added a treaty source and current scholarly reference. Commit: `6edda39164e53fbc7f68380135cd27d42c26bdde`.
+- These are substantive improvements to pedagogical coherence and legal accuracy. Chapter scores are not changed by this note; reassessment remains conditional on the complete rubric, not on the number of commits.
