@@ -66,6 +66,9 @@ async function runDynamic(mobile) {
     await page.waitForFunction(() => window.__atlas && document.querySelector('#readout')?.textContent.trim().length > 0);
     if (mobile) await page.locator('#sheet .turn').click(); else await page.locator('#dots button').nth(1).click();
     await page.waitForFunction(() => location.hash === '#1');
+    // The shared book intentionally pauses its clock while the pointer hovers over a scene/control.
+    // Move away after navigation so this test measures animation rather than the hover-to-pause UX.
+    await page.mouse.move(10, 10);
     await page.waitForFunction(() => document.querySelector('#readout')?.textContent.includes('θ'));
     await page.waitForTimeout(350);
     const before = await page.locator('#readout').innerText();
