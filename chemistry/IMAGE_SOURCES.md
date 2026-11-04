@@ -11,7 +11,7 @@
 - **B — Adapted source:** an existing external image modified, translated, cropped or annotated.
 - **C — Created visual:** a project-specific visual authored as SVG/HTML/CSS, hand-drawn or generated. The exact method and creator must be evidenced, not guessed.
 - The current static illustration set is project-local SVG source code. No external source URL is embedded in the files or established by the available repository metadata. Therefore these are provisionally classified **C (project SVG; provenance details pending)**, not assumed to be AI-generated or public-domain.
-- A project-created file is not automatically copyright-cleared. The rightsholder and publication licence still require confirmation. No external licence is asserted below.
+- A project-created file is not automatically copyright-cleared. The repository does not preserve a source-search log showing whether a suitable existing licensed image was sought before each SVG was authored; that IMAGE-FIRST decision history is therefore **Unknown** and must not be reconstructed by assumption. The rightsholder and publication licence still require confirmation. No external licence is asserted below.
 - “Unknown” means the repository does not currently provide sufficient evidence. It is not a licence or permission.
 - English and Russian variants form one visual pair. Both files are listed so that neither language version is omitted from the audit.
 
