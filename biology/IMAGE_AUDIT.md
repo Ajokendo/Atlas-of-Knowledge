@@ -196,3 +196,15 @@ A focused source-level review covered ten generated teaching SVGs: `anatomy-circ
 - No specific scientific error was established in this source-level sample, so no SVG artwork was changed in this batch. This is not a rendered-visual inspection and does not close asset-level verification; SVG visual layout, label collisions, contrast in context, and scientific interpretation remain subject to browser/human review.
 
 **Batch result:** 10/10 sampled SVGs have title/description metadata; 10/10 sampled assets retain substantive explanatory labels. Global Image Verification remains **Pending audit**.
+
+
+## Further SVG source review — 5 November 2026
+
+A second focused source-level batch covered ten generated diagrams spanning ecology, evolution, microbiology, genetics, systematics and zoology: `ecology-cycles.svg`, `ecology-web.svg`, `evolution-tree.svg`, `evolution-timeline.svg`, `microbe-resistance.svg`, `microbe-virus-cycle.svg`, `genetics-translation.svg`, `systematics-tree.svg`, `zoology-adaptation.svg` and `zoology-vertebrates.svg`.
+
+- Reviewed titles/descriptions and explanatory labels for carbon/nitrogen cycling, food-web arrow direction, common ancestry and clades, geological time qualifiers, natural selection for antimicrobial resistance, variation among viral replication strategies, codon/anticodon pairing and 5′→3′ translation, branch rotation, and the traditional vertebrate grouping caveat that birds are nested within reptiles in modern cladistics.
+- Found one specific bilingual-accessibility defect: the translation SVG's `<desc>` contained Russian text only despite its bilingual title and labels. Added an English equivalent to the description in commit `a9f264b`.
+- The sampled resistance diagram explicitly distinguishes selection of heritable resistant variants from purposeful adaptation; the viral-cycle diagram states that mechanisms vary; the vertebrate comparison flags the cladistic qualification.
+- No further proven scientific error was established from source markup. This batch is a source-level check, not a rendered visual or independent specialist review.
+
+**Batch result:** 10 SVG source files reviewed; 1 bilingual description corrected. Global Image Verification remains **Pending audit**.
