@@ -34,16 +34,16 @@
 <text class="small" x="55" y="559">Детали фанерозоя показаны отдельно, чтобы недавние события не сливались у края основной шкалы.</text>
 <text class="small" x="55" y="579">The Phanerozoic is magnified separately so recent events remain readable.</text>
 <!-- geological periods bar -->
-<rect class="band2" x="90" y="600" width="230" height="35" rx="4"/><rect class="band3" x="320" y="600" width="390" height="35"/><rect class="band4" x="710" y="600" width="400" height="35" rx="4"/>
-<g class="label" text-anchor="middle"><text x="205" y="623">Палеозой / Paleozoic</text><text x="515" y="623">Мезозой / Mesozoic</text><text x="910" y="623">Кайнозой / Cenozoic</text></g>
+<rect class="band2" x="90" y="600" width="543" height="35" rx="4"/><rect class="band3" x="633" y="600" width="352" height="35"/><rect class="band4" x="985" y="600" width="125" height="35" rx="4"/>
+<g class="label" text-anchor="middle"><text x="360" y="623">Палеозой / Paleozoic</text><text x="809" y="623">Мезозой / Mesozoic</text><text x="1047" y="623">Кайнозой</text></g>
 <path class="axis" d="M90 657 H1110"/>
 <!-- positions approx within magnified panel -->
 <g><circle class="event" cx="90" cy="657" r="7"/><path class="line" d="M90 665 V690 H110"/><text class="label" x="115" y="695">≈539 млн лет: кембрийское разнообразие животных</text><text class="small" x="115" y="714">≈539 Ma: Cambrian diversification of animals</text></g>
 <g><circle class="event" cx="220" cy="657" r="7"/><path class="line" d="M220 649 V738 H240"/><text class="label" x="245" y="743">≈470 млн лет: растения осваивают сушу</text><text class="small" x="245" y="762">≈470 Ma: plants colonise land</text></g>
-<g><circle class="event" cx="340" cy="657" r="7"/><path class="line" d="M340 665 V690 H360"/><text class="label" x="365" y="695">≈370 млн лет: первые четвероногие</text><text class="small" x="365" y="714">≈370 Ma: early tetrapods</text></g>
-<g><circle class="event" cx="545" cy="657" r="7"/><path class="line" d="M545 649 V738 H565"/><text class="label" x="570" y="743">≈230 млн лет: первые динозавры</text><text class="small" x="570" y="762">≈230 Ma: early dinosaurs</text></g>
-<g><circle class="event" cx="650" cy="657" r="7"/><path class="line" d="M650 665 V690 H670"/><text class="label" x="675" y="695">≈150 млн лет: ранние птицы</text><text class="small" x="675" y="714">≈150 Ma: early birds</text></g>
-<g><circle class="event" cx="900" cy="657" r="7"/><path class="line" d="M900 649 V738 H920"/><text class="label" x="925" y="743">66 млн лет: граница мел–палеоген</text><text class="small" x="925" y="762">66 Ma: Cretaceous–Paleogene boundary</text></g>
+<g><circle class="event" cx="410" cy="657" r="7"/><path class="line" d="M410 665 V690 H430"/><text class="label" x="435" y="695">≈370 млн лет: первые четвероногие</text><text class="small" x="435" y="714">≈370 Ma: early tetrapods</text></g>
+<g><circle class="event" cx="675" cy="657" r="7"/><path class="line" d="M675 649 V738 H690"/><text class="label" x="695" y="743">≈230 млн лет: первые динозавры</text><text class="small" x="695" y="762">≈230 Ma: early dinosaurs</text></g>
+<g><circle class="event" cx="827" cy="657" r="7"/><path class="line" d="M827 665 V690 H840"/><text class="label" x="845" y="695">≈150 млн лет: ранние птицы</text><text class="small" x="845" y="714">≈150 Ma: early birds</text></g>
+<g><circle class="event" cx="985" cy="657" r="7"/><path class="line" d="M985 649 V738 H970"/><text class="label" x="965" y="743">66 млн лет: мел–палеоген</text><text class="small" x="965" y="762">66 Ma: Cretaceous–Paleogene boundary</text><text class="small" x="965" y="781"></text></g>
 <rect class="life" x="90" y="790" width="1020" height="52" rx="12"/>
 <text class="note" x="600" y="812" text-anchor="middle">Homo sapiens: около 300 000 лет назад — совсем недавно на этой шкале</text>
 <text class="note" x="600" y="832" text-anchor="middle">Homo sapiens: about 300,000 years ago — very recent on this timescale</text>
