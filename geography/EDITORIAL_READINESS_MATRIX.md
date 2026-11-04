@@ -64,6 +64,8 @@ A focused scientific/editorial correction pass was saved across Chapters 06–10
 
 **Bilingual structure check completed:** numbered teaching-section headings match RU/EN counts in Chapters 06–10 (17/17, 15/15, 15/15, 16/16 and 15/15 respectively). Review-question counts also match (16/16, 15/15, 15/15, 15/15 and 14/14). This verifies section/question inventory only; it is not a line-by-line semantic translation audit.
 
+**Second focused pass (5 November 2026):** Chapter 07 now distinguishes CBD Kunming–Montreal Framework Targets 2 (restoration of degraded ecosystems) and 3 (area-based conservation); Chapter 08 specifies ECe saturated-paste salinity measurements and warns against comparing them directly with 1:5 extracts or field apparent EC; Chapter 09 distinguishes migration flows from point-in-time migrant stock; Chapter 10 specifies the UNCLOS contiguous-zone 24-nautical-mile limit and the narrow enforcement purpose under Article 33. Exact source checks and commits are recorded in `SOURCE_EVIDENCE_CLOSURE_REGISTER.md`. Progress remains **73% each**; this is not a full editorial sign-off.
+
 ## Priority queue
 
 1. Continue source-by-source review of Chapters 01–16, including dated data and bibliographic relevance. Initial targeted evidence pass completed for Chapters 01–10; see `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md` (2 Nov 2026).
