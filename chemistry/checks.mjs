@@ -585,6 +585,17 @@ if (!bondingPage.includes('<div class="detail" aria-live="polite" aria-atomic="t
   errors.push("chapters/chemical-bonding.html: each dynamic bonding model needs a localized accessible name and atomic polite detail announcement");
 }
 
+const periodicPage = fs.readFileSync(path.join(root, "periodic-table.html"), "utf8");
+for (const key of ["trendTitle", "trendBody", "trendPlaceholder"]) {
+  if (!periodicPage.includes(key + ':"') || !periodicPage.includes('data-t="' + key + '"')) {
+    errors.push("periodic-table.html: Chapter 03 periodic-trends placeholder must be bilingual: " + key);
+  }
+}
+if (!periodicPage.includes("atomic radius generally increases down and to the left") ||
+    !periodicPage.includes("first ionisation energy and electronegativity generally increase up and to the right") ||
+    !periodicPage.includes("electron configurations create exceptions")) {
+  errors.push("periodic-table.html: periodic-trends placeholder must preserve qualified scientific direction statements");
+}
 if (!fs.existsSync(path.join(root, "periodic-table.html"))) errors.push("periodic-table.html: interactive periodic table visual is missing");
 
 const isotopeSvgPath = path.join(assetRoot, "isotope-abundance.svg");
