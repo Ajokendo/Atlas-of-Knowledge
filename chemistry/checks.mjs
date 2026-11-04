@@ -578,6 +578,18 @@ for (const [relative, minimum] of [["chapters/atomic-structure.html", 2], ["chap
   const count = (page.match(/<svg\b/gi) || []).length;
   if (count < minimum) errors.push(relative + ": expected at least " + minimum + " inline SVG visual models; found " + count);
 }
+const virtualLabPage = fs.readFileSync(path.join(root, "virtual-lab.html"), "utf8");
+for (const [label, evidence] of [
+  ["Russian monobasic-base scope", "сильного одноосновного основания (например, NaOH)"],
+  ["English monobasic-base scope", "strong monobasic base (for example, NaOH)"],
+  ["Russian dilute-solution and volume assumptions", "аддитивность объёмов"],
+  ["English dilute-solution and volume assumptions", "additive volumes"],
+  ["Russian activity limitation", "активность ионов"],
+  ["English activity limitation", "ion activities"]
+]) {
+  if (!virtualLabPage.includes(evidence)) errors.push("virtual-lab.html: missing model-scope qualification: " + label);
+}
+
 const gasLawsPage = fs.readFileSync(path.join(root, "gas-laws.html"), "utf8");
 if (!gasLawsPage.includes('particleNote:"Визуализация показывает только условное число частиц') ||
     !gasLawsPage.includes('particleNote:"The animation shows only a schematic particle count') ||
