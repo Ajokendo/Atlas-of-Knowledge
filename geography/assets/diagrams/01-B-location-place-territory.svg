@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="t d">
+<title id="t">Absolute and relative location / Абсолютное и относительное местоположение</title>
+<desc id="d">A coordinate grid shows absolute location; a schematic settlement map shows relative location in relation to a river, road and nearby town. / Координатная сетка показывает абсолютное местоположение; схема поселений показывает относительное положение относительно реки, дороги и соседнего города.</desc>
+<rect width="1500" height="900" fill="#f7fafc"/>
+<text x="750" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#17324d">Location, place and territory / Местоположение, место и территория</text>
+<rect x="65" y="115" width="660" height="690" rx="28" fill="#eef5fa" stroke="#3979a8" stroke-width="4"/>
+<rect x="775" y="115" width="660" height="690" rx="28" fill="#f0f6ef" stroke="#56874b" stroke-width="4"/>
+<g font-family="Arial,sans-serif" text-anchor="middle"><text x="395" y="175" font-size="32" font-weight="700" fill="#174e78">Absolute location / Абсолютное положение</text><text x="1105" y="175" font-size="32" font-weight="700" fill="#386432">Relative location / Относительное положение</text></g>
+<g stroke="#c5d4df" stroke-width="2"><path d="M150 250V690 M230 250V690 M310 250V690 M390 250V690 M470 250V690 M550 250V690 M630 250V690"/><path d="M130 270H670 M130 350H670 M130 430H670 M130 510H670 M130 590H670 M130 670H670"/></g>
+<path d="M130 690V240 M130 690H680" stroke="#17324d" stroke-width="4"/>
+<text x="410" y="735" text-anchor="middle" font-family="Arial" font-size="23" fill="#17324d">Longitude / Долгота</text>
+<text x="95" y="470" text-anchor="middle" font-family="Arial" font-size="23" fill="#17324d" transform="rotate(-90 95 470)">Latitude / Широта</text>
+<circle cx="390" cy="430" r="16" fill="#b85c50" stroke="#fff" stroke-width="4"/>
+<path d="M390 430L510 310" stroke="#b85c50" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="515" y="295" font-family="Arial" font-size="24" fill="#8f3f36">Point / Точка</text>
+<text x="395" y="780" font-family="Arial" font-size="22" fill="#52697c" text-anchor="middle">Coordinates identify a precise position / Координаты задают точное положение</text>
+<path d="M825 550Q930 430 1030 500T1400 430" fill="none" stroke="#4b9fc4" stroke-width="34" stroke-linecap="round"/>
+<path d="M830 650L1380 270" stroke="#9b815e" stroke-width="16" stroke-linecap="round"/>
+<path d="M900 250L1350 680" stroke="#c1a77e" stroke-width="10" stroke-dasharray="18 12"/>
+<rect x="1040" y="400" width="105" height="75" rx="12" fill="#dce8d8" stroke="#56874b" stroke-width="4"/>
+<rect x="1235" y="260" width="85" height="65" rx="10" fill="#f2dfd7" stroke="#b85c50" stroke-width="4"/>
+<circle cx="900" cy="330" r="12" fill="#17324d"/><circle cx="1320" cy="590" r="12" fill="#17324d"/>
+<g font-family="Arial" font-size="23" fill="#17324d"><text x="1092" y="445" text-anchor="middle">Village / Село</text><text x="1278" y="245" text-anchor="middle">Town / Город</text><text x="860" y="300">Road / Дорога</text><text x="1160" y="535">River / Река</text><text x="900" y="365">A / А</text><text x="1320" y="625">B / Б</text></g>
+<path d="M910 340L1080 410" stroke="#52697c" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1110" y="735" text-anchor="middle" font-family="Arial" font-size="22" fill="#52697c">Describe position in relation to features, routes and places / Описывайте положение относительно объектов, маршрутов и мест</text>
+<text x="750" y="865" text-anchor="middle" font-family="Arial" font-size="20" fill="#52697c">Schematic illustration; not a real map / Условная схема, не реальная карта</text>
+</svg>
