@@ -480,7 +480,7 @@ Inflows may include precipitation, surface-water and groundwater inflow, and wat
 1. Как распределена вода между солёными и пресными резервуарами?
 2. Какие свойства воды особенно важны для климата?
 3. Какие процессы составляют круговорот воды?
-4. Какие пять океанов выделяются в современной классификации?
+4. Какие пять океанов часто выделяют в современных источниках и почему при обозначении границы Южного океана важно указывать используемую классификацию?
 5. Чем континентальный шельф отличается от континентального склона?
 6. Как температура и солёность влияют на плотность морской воды?
 7. Чем ветровые волны отличаются от цунами?
@@ -788,7 +788,7 @@ Inflows may include precipitation, surface-water and groundwater inflow, and wat
 1. How is water distributed between saline and freshwater reservoirs?
 2. Which properties of water are especially important for climate?
 3. Which processes make up the hydrological cycle?
-4. Which five oceans are recognised in the modern classification?
+4. Which five oceans are commonly recognised in modern sources, and why should the source of the Southern Ocean boundary be stated?
 5. How does the continental shelf differ from the continental slope?
 6. How do temperature and salinity affect seawater density?
 7. How do wind waves differ from tsunamis?
