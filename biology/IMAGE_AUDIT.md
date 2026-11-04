@@ -328,3 +328,6 @@ A source-level sweep covered all 48 original SVG files in `images/generated/`, i
 - The full set now passes the checked source-pattern criteria: 48/48 have `viewBox`, bilingual title and description metadata, and a closing SVG tag; none of the 48 contains a detected `<script>`, `<foreignObject>`, external/data URI reference or embedded `<image>` element.
 
 This is a source-text structural/accessibility-metadata check, not standards-complete XML parsing, rendered visual inspection, contrast testing, or screen-reader/device QA. It does not establish scientific correctness of every visual detail. Global Image Verification remains **Pending audit**.
+
+
+The repository's `checks.mjs` now enforces the same repeatable SVG source checks for every file in `images/generated/`: bilingual title/description metadata, an SVG root, `viewBox`, closing tag, and absence of detected scripts, `foreignObject`, embedded raster images, and external/data URI references. This turns the corrected metadata condition into a continuing CI guard rather than a one-time audit observation.
