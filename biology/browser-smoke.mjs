@@ -102,7 +102,7 @@ try {
       });
       const screenshotDir = path.resolve("artifacts/biology-visual-review", String(viewport.width));
       await mkdir(screenshotDir, { recursive: true });
-      const screenshotName = file.replace(/^biology\\//, "").replaceAll("/", "__").replace(/\\.html$/, "") + ".png";
+      const screenshotName = (file.startsWith("biology/") ? file.slice("biology/".length) : file).replaceAll("/", "__").replace(".html", "") + ".png";
       await page.screenshot({
         path: path.join(screenshotDir, screenshotName),
         fullPage: true,
