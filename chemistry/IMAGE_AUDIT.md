@@ -111,3 +111,6 @@ This is a first-pass map of the currently identified visual need, not a final de
 ## Automation boundary
 
 CI can validate file existence, SVG metadata, local references, bilingual pairing, non-empty alt text and registry/audit presence. CI cannot certify scientific correctness, ownership, legal rights, the quality of translation, or actual assistive-technology/device behaviour.
+### Acid–base virtual laboratory — model scope clarified (2026-11-05)
+
+The neutralisation simulator uses a 1:1 molar reaction model. Its bilingual warning now explicitly limits the model to a strong monoprotic acid and a strong monobasic base (example: NaOH) at 25 °C. It also states the dilute/ideal-solution and additive-volume assumptions, and notes that ion activities and experimental effects are not modelled. This prevents the generic phrase “strong base” from implying that dibasic or polybasic bases are covered. Automated regression checks require these qualifications in both languages. This is a source-level correction; a manual browser/device review remains outstanding.
