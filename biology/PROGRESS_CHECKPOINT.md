@@ -1043,3 +1043,14 @@ The full Biology CI rerun after the Issyk-Kul asset binaries and register correc
 - Keyboard Tab-sequence focus indicators checked across visible focusable controls.
 
 This closes the temporary missing-file and P1-register assertion failures encountered while the image files and documentation were being committed. Current visual production remains 3/52 briefs (5.8%), eleven photographs total; controlled editorial readiness remains 95/100. Offline caching, screen-reader review and physical-device checks remain pending.
+
+
+## IMAGE-FIRST POLICY v1.0 application — 5 November 2026
+
+- Added `biology/IMAGE_SOURCES.md`: consolidated provenance and rights index, linking the 15 source-backed documentary photographs across Chüy, Jalal-Abad, Issyk-Kul, Naryn and Osh to their individual source audits and machine-readable manifests; original Atlas SVG artwork is distinguished from third-party assets.
+- Added `biology/IMAGE_AUDIT.md`: consolidated author-side scientific, legal, bilingual and technical audit with status definitions and a per-asset remediation queue.
+- Updated `biology/IMAGE_DISPOSITION_REGISTER.md` and `biology/README.md` with the standard and the correct metric interpretation.
+- The existing **53/53** remains production/integration coverage, not verification. **Image Verification is Pending audit** until the full per-asset human legal/scientific/bilingual visual gate is evidenced. 33 register rows explicitly retain pending visual, morphology or browser-review notes; this is a triage count, not a pass/fail count for all other assets.
+- Existing source audits, checksums, licences, chapter anchors and images were preserved. No new image was generated and no chapter image was replaced.
+- This pass is confined to `biology/` on `workspace/biology`; no other subject, `main`, shared portal or publishing settings were changed.
+- CI status for these new documentation commits: **pending** until the corresponding GitHub Actions run completes.
