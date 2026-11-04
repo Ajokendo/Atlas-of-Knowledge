@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t d">
 <title id="t">Транспорт веществ в растении / Transport in a plant</title>
-<desc id="d">Обобщённая схема растения: ксилема переносит воду и минеральные вещества преимущественно от корней вверх; флоэма переносит сахара от источников к потребителям и местам запаса, направление зависит от расположения источников и потребителей.</desc>
+<desc id="d">Обобщённая схема растения: ксилема переносит воду и минеральные вещества преимущественно от корней вверх; флоэма переносит сахара от источников к потребителям и местам запаса, направление зависит от расположения источников и потребителей. / Generalized plant diagram: xylem transports water and minerals mainly upward from roots; phloem transports sugars from sources to sinks and storage tissues, with direction depending on their locations.</desc>
 <defs><marker id="blueArrow" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#1677b8"/></marker><marker id="purpleArrow" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#87449b"/></marker><style>
 .title{font:700 32px Arial;fill:white}.head{font:700 23px Arial;fill:#263c2b}.lab{font:19px Arial;fill:#263c2b}.sm{font:16px Arial;fill:#35483b}.blue{stroke:#1677b8;stroke-width:10;fill:none;marker-end:url(#blueArrow)}.purple{stroke:#87449b;stroke-width:9;fill:none;marker-end:url(#purpleArrow)}.panel{fill:#fbfcf6;stroke:#a6bd93;stroke-width:2}
 </style></defs>
