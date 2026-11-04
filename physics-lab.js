@@ -22,7 +22,7 @@ function init(root){
  const id=root.dataset.chapter, cfg=presets[id]||presets["01"], canvas=root.querySelector("canvas"), speed=root.querySelector("[data-speed]"), speedOut=root.querySelector("[data-speed-out]"), play=root.querySelector("button"), phase=root.querySelector("[data-phase]"), phaseOut=root.querySelector("[data-phase-out]");
  const paramName=root.querySelector("[data-phase-name]");if(paramName)paramName.textContent=cfg.param||"Параметр";
  const motionPreference=window.matchMedia("(prefers-reduced-motion: reduce)");
- let renderer,scene,camera,object,group,clock=new THREE.Clock(),visible=true,userPaused=false,running=!motionPreference.matches,elapsed=0,drag=false,lastX=0,lastY=0,rotX=-.28,rotY=.42;
+ let renderer,scene,camera,object,group,clock=new THREE.Clock(),visible=true,userChoice=null,running=!motionPreference.matches,elapsed=0,drag=false,lastX=0,lastY=0,rotX=-.28,rotY=.42;
  play.textContent=running?"Пауза":"Продолжить";
  try{
   renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.setSize(canvas.clientWidth,canvas.clientHeight,false);renderer.outputColorSpace=THREE.SRGBColorSpace;
@@ -94,9 +94,9 @@ function init(root){
  const startLoop=()=>{if(!rafId&&visible&&running){clock.getDelta();rafId=requestAnimationFrame(render);}};
  const stopLoop=()=>{if(rafId){cancelAnimationFrame(rafId);rafId=0;}clock.getDelta();renderer.render(scene,camera);};
  calc(+phase.value/100);renderer.render(scene,camera);startLoop();
- play.addEventListener("click",()=>{userPaused=running;running=!running&&visible;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
- motionPreference.addEventListener("change",e=>{running=visible&&!userPaused&&!e.matches;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
+ play.addEventListener("click",()=>{userChoice=!running;running=visible&&userChoice;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
+ motionPreference.addEventListener("change",e=>{running=visible&&(userChoice===null?!e.matches:userChoice);play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
  speed.addEventListener("input",()=>speedOut.textContent=(+speed.value).toFixed(1).replace(".",",")+"×");phase.addEventListener("input",()=>{phaseOut.textContent=phase.value+"%";calc(+phase.value/100);});
- const observer=new IntersectionObserver(entries=>{for(const e of entries){visible=e.isIntersecting;running=visible&&!userPaused&&!motionPreference.matches;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();}},{threshold:.08});observer.observe(root);
+ const observer=new IntersectionObserver(entries=>{for(const e of entries){visible=e.isIntersecting;running=visible&&(userChoice===null?!motionPreference.matches:userChoice);play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();}},{threshold:.08});observer.observe(root);
 }
 document.querySelectorAll("[data-physics-lab]").forEach(init);
