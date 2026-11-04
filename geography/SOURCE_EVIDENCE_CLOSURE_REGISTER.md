@@ -69,7 +69,7 @@
 | NPS, “Mass Wasting” | Verified — access and relevance | Official page accessible; supports slope movement terminology and examples. |
 | NPS, “Plateaus and Mesas” | Verified — access and relevance | Official page accessible; supports the basic geomorphic distinction. |
 | Fujii et al. (2026), Challenger Deep multibeam study | Verified by authoritative publication record | Nature *Scientific Data* record confirms publication 16 September 2026, DOI 10.1038/s41597-026-08267-z, preferred eastern-basin gridded value 10,927 m and sound-velocity sensitivity range 10,914–10,932 m. The chapter accurately describes 10,927 m as a preferred gridded estimate, not a definitive redetermination. |
-| Legacy USGS fact-sheet / DOI endpoints in bibliography | Needs follow-up | Some direct endpoints were not retrievable in this pass. A 403/redirect failure is not enough to call them dead; retain the alternatives already documented in the chapter audit and resolve at the final reference-by-reference pass. |
+| USGS Fact Sheet 2004–3072, *Landslide Types and Processes* | Verified — official record and DOI | Final check resolved the legacy endpoint concern. The USGS Publications Warehouse record confirms Lynn Highland, 2004, Fact Sheet 2004–3072, 4 pages, DOI 10.3133/fs20043072. Chapter 04 bibliography now cites the canonical DOI. A 403 or redirect restriction on an older URL is not evidence that the publication is invalid. |
 
 ### Chapter 05 — Atmosphere and Climatology
 
@@ -162,3 +162,10 @@
 - Distinguish treaty text, treaty depositary/status records and political-geography interpretation.
 
 **Milestone:** initial targeted source/evidence pass now covers Chapters 01–10 (10/26, approximately 40%). This remains a targeted evidence review, not an exhaustive sentence-by-sentence citation audit. Next block: Chapters 11–15.
+
+
+### Chapter 04 closure — 4 November 2026
+
+- Final reference-by-reference pass completed for all 34 bibliography entries; each entry was checked for topical relevance to the chapter and publication identity. The USGS Fact Sheet 2004–3072 legacy URL was replaced with the canonical DOI record (10.3133/fs20043072).
+- Final numerical/terminology sweep completed. The contour-slope example and self-check calculations were independently recomputed; dated Everest and Challenger Deep measurements remain distinguished by method, reference and uncertainty; DEM/DSM/DTM wording retains the dataset-metadata caveat.
+- Textual scientific/editorial audit is closed at 100%. This does not close visual production, map-data licensing/validation, layout, accessibility, browser/device or deployment testing.
