@@ -24,6 +24,10 @@ After studying this chapter, readers will be able to explain the scope of politi
 ## 10.2. Государство, нация и территория / State, Nation and Territory
 > **[МЕТКА ИЛЛЮСТРАЦИИ 10-A / IMAGE PLACEHOLDER 10-A]** Политическая карта мира с датой актуальности; спорные территории обозначить согласно редакционной политике. / Dated political map of the world; depict disputed territories according to the atlas editorial policy.
 
+**Техническое задание:** использовать актуальную политическую карту с указанием даты данных, проекции, масштаба, источника границ и правил обозначения спорных территорий; не представлять спорные границы как бесспорные и не смешивать де-факто контроль с международно-правовым статусом. Подписи и легенда должны быть двуязычными.
+
+**EN production brief:** Use a current world political map and state the data date, projection, scale, boundary source and editorial rules for depicting disputed territories. Do not present disputed boundaries as universally settled or confuse de facto control with international legal status. Labels and legend must be bilingual.
+
 
 
 **Государство** — политико-правовая организация публичной власти, действующая в пределах определённой территории и обладающая институтами управления, правовой системой и международной правосубъектностью. В международном праве важны такие признаки, как постоянное население, определённая территория, правительство и способность вступать в отношения с другими государствами. Их применение в конкретных случаях может быть предметом правовых и политических дискуссий.
