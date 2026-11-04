@@ -106,8 +106,11 @@
 
 Формулы некоторых минералов отражают переменный состав твёрдых растворов и приведены в обобщённой форме.
 
-**Место для иллюстрации 3.2-A — Mineral Identification Board.** Девять–десять образцов минералов с корректными названиями, формулами и шкалой Мооса; фотографии или реалистичные образцы без ошибочных подписей.
-**EN:** A board of nine or ten mineral specimens with verified names, chemical formulae and Mohs hardness values; use photographs or realistic specimens with accurate labels.
+**Иллюстрация 3.2-A — Образцы минералов / Mineral Identification Board.**
+
+![Образцы халькопирита, графита, талька, золота, флюорита, бастнезита, гипса, галита, кальцита, сфалерита, полевого шпата, граната, барита, мусковита, кварцевого песка и других минералов. / Specimens of chalcopyrite, graphite, talc, gold, fluorite, bastnäsite, gypsum, halite, calcite, sphalerite, feldspar, garnet, barite, muscovite, quartz sand and other minerals.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/OreSampleImages.png)
+
+*Источник: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); страница указывает Public Domain. Формулы и твёрдость минералов приведены в таблице главы; фото служат для визуального распознавания, а не определения по одному цвету. / Source: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); the source page states Public Domain. Mineral formulae and hardness are provided in the chapter table; photographs support visual recognition, not identification by colour alone.*
 
 ## 3.3. Горные породы и круговорот пород / Rocks and the Rock Cycle
 
@@ -216,8 +219,11 @@
 - возраст океанической коры;
 - современные геодезические измерения движения плит.
 
-**Место для иллюстрации 3.5-A — Global Plate Tectonic Map.** Карта основных литосферных плит с дивергентными, конвергентными и трансформными границами. Геометрия границ должна быть проверена по авторитетной геологической карте.
-**EN:** Map the major lithospheric plates and divergent, convergent and transform boundaries. Verify boundary geometry against an authoritative geological map and include a clear legend and source.
+**Иллюстрация 3.5-A — Карта тектонических плит мира / Global Plate Tectonic Map.**
+
+![Карта мира с основными тектоническими плитами, границами плит, рельефом суши и океанского дна; опубликована USGS и Smithsonian в рамках This Dynamic Planet (2006). / World map showing major tectonic plates, plate boundaries, land and seafloor relief; published by USGS and Smithsonian as This Dynamic Planet (2006).](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/DynamicPlanet.JPG)
+
+*Источник: USGS, Map I-2800, совместно со Smithsonian Institution и U.S. Naval Research Laboratory; Public Domain. Карта — научно-учебный обзор 2006 года, а не актуальная карта современной сейсмичности; она подходит для изучения общей конфигурации плит и границ. / Source: USGS Map I-2800, in cooperation with the Smithsonian Institution and U.S. Naval Research Laboratory; Public Domain. This is a 2006 scientific teaching overview, not a current seismicity map; it is suitable for studying the general plate and boundary configuration.*
 
 ## 3.6. Землетрясения / Earthquakes
 
@@ -400,7 +406,11 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 Границы геологических подразделений определяются международной стратиграфической шкалой и уточняются по мере развития исследований. В окончательной версии атласа численные даты границ должны быть сверены с актуальной таблицей Международной комиссии по стратиграфии.
 
-**Место для иллюстрации 3.9-A — Geological Time Scale.** Вертикальная временная шкала от формирования Земли до современности; неравномерный масштаб должен быть явно обозначен.
+**Иллюстрация 3.9-A — Международная хроностратиграфическая шкала / International Chronostratigraphic Chart.**
+
+![Официальная международная хроностратиграфическая шкала ICS, версия 2026/06. / Official International Chronostratigraphic Chart, ICS version 2026/06.](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg)
+
+*Источник: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Численные возраста и границы могут уточняться; диаграмма использует неравномерный масштаб. / Source: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Numerical ages and boundaries may be revised; the chart uses a non-linear scale.*
 **EN:** Vertical geological time scale from Earth's formation to the present. Make the non-linear time spacing explicit and use the current ICS chart for boundary ages.
 
 ### 3.9.4. Разобранный пример: определение относительного возраста слоёв и интрузии / Worked Example: Establishing the Relative Ages of Layers and an Intrusion
@@ -985,7 +995,11 @@ On a schematic geological cross-section, identify:
 **[ILLUSTRATION PLACEHOLDER 3.1-A — Earth's Internal Structure]** Scaled cutaway of Earth showing the crust, lithosphere, asthenosphere, mantle, liquid outer core and solid inner core. Distinguish chemical composition layers from mechanical layers; label major depth boundaries and include a schematic temperature profile. Use matching Russian and English labels.
 
 
-**[ILLUSTRATION PLACEHOLDER 3.2-A — Mineral Identification Board]** Display nine or ten mineral specimens with verified names, chemical formulae and Mohs hardness values. Use photographs or realistic specimens; ensure labels match the actual minerals.
+**Illustration 3.2-A — Mineral Identification Board.**
+
+![Mineral specimens including chalcopyrite, graphite, talc, gold, fluorite, bastnäsite, gypsum, halite, calcite, sphalerite, feldspar, garnet, barite, muscovite and quartz sand. / Образцы халькопирита, графита, талька, золота, флюорита, бастнезита, гипса, галита, кальцита, сфалерита, полевого шпата, граната, барита, мусковита и кварцевого песка.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/OreSampleImages.png)
+
+*Source: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); the source page states Public Domain. Formulae and Mohs hardness values are in the chapter table; photographs support visual recognition, not identification by colour alone. / Источник: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); страница указывает Public Domain. Формулы и твёрдость приведены в таблице главы; фотографии служат для распознавания, а не определения по одному цвету.*
 
 
 **[ILLUSTRATION PLACEHOLDER 3.3-A — The Rock Cycle]** Diagram the transformations among igneous, sedimentary and metamorphic rocks, including weathering, erosion, deposition, burial, metamorphism, melting and crystallisation.
@@ -998,7 +1012,11 @@ On a schematic geological cross-section, identify:
 *Methods complement one another; each addresses a different set of research questions. / Методы дополняют друг друга; каждый отвечает на свой набор исследовательских вопросов.*
 
 
-**[ILLUSTRATION PLACEHOLDER 3.5-A — Global Plate Tectonic Map]** Map the major lithospheric plates and divergent, convergent and transform boundaries. Verify boundary geometry against an authoritative geological map; include a clear legend and motion arrows.
+**Illustration 3.5-A — Global Plate Tectonic Map.**
+
+![World map showing major tectonic plates, plate boundaries, land and seafloor relief; published by USGS and Smithsonian as This Dynamic Planet (2006). / Карта мира с основными тектоническими плитами, границами плит, рельефом суши и океанского дна; опубликована USGS и Smithsonian в рамках This Dynamic Planet (2006).](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/DynamicPlanet.JPG)
+
+*Source: USGS Map I-2800, in cooperation with the Smithsonian Institution and U.S. Naval Research Laboratory; Public Domain. This is a 2006 scientific teaching overview, not a current seismicity map. / Источник: USGS Map I-2800, совместно со Smithsonian Institution и U.S. Naval Research Laboratory; Public Domain. Это научно-учебный обзор 2006 года, а не актуальная карта сейсмичности.*
 
 
 **Illustration 3.6-A — Anatomy of an Earthquake.**
@@ -1022,7 +1040,11 @@ On a schematic geological cross-section, identify:
 *Conceptual sections; arrows indicate movement and do not imply universal fault geometry. / Условные разрезы; направление перемещения показано стрелками и не задаёт универсальную геометрию разломов.*
 
 
-**[ILLUSTRATION PLACEHOLDER 3.9-A — Geological Time Scale]** Vertical time scale from Earth's formation to the present. Use the current ICS chart, show the unequal duration of intervals honestly, and label the non-linear scale clearly.
+**Illustration 3.9-A — International Chronostratigraphic Chart.**
+
+![Official International Chronostratigraphic Chart, ICS version 2026/06. / Официальная международная хроностратиграфическая шкала ICS, версия 2026/06.](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg)
+
+*Source: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Numerical ages and boundaries may be revised; the chart uses a non-linear scale. / Источник: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Численные возраста и границы могут уточняться; диаграмма использует неравномерный масштаб.*
 
 
 **Illustration 3.10-A — The Supercontinent Cycle.**
