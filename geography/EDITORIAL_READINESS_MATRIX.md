@@ -16,8 +16,8 @@
 | Chapter inventory | 26/26 numbered chapters present | None for chapter count |
 | Structural audit | 26/26 received an initial structural pass; Chapter 19 subsection-order defect found and corrected on 2 Nov | Final copyedit and depth review |
 | Russian/English structure | 26/26 contain substantial Russian and English teaching material; some chapters use parallel blocks, others section-by-section pairs | Full line-by-line translation parity and proofreading |
-| Visual planning | 220/220 unique IDs indexed | Create, label, source-check and approve each asset |
-| Visual brief language | 220/220 IDs have Russian and English production instructions | Final design and typesetting |
+| Visual planning | 231/231 unique IDs indexed | Create, label, source-check and approve each asset |
+| Visual brief language | 231/231 IDs have Russian and English production instructions | Final design and typesetting |
 | Bibliography presence | Reference section present in all 26 chapters; Chapter 09 gap closed | Open and verify every citation against each adjacent claim |
 | Bibliography placeholder scan | No explicit TODO/TBD/incomplete DOI/URL instruction found in reference sections | Link availability and source relevance still require review |
 | Numbering integrity | No duplicate numbered section identifiers across 26 chapters | Normalise Chapter 17's distinct label 17.14а during final style pass |
@@ -108,7 +108,7 @@ A focused scientific/editorial correction pass was saved across Chapters 06–10
 
 - Chapter 01 contains **5** distinct visual briefs: 01-A (geography as a spatial system), 01-B (location/place/territory), 01-C (research cycle), 01-D (branches of geography) and 01-E (local-to-global scale).
 - Chapter 02 contains **19** distinct visual IDs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A, 2.14-A and 2.15-A.
-- The earlier figure of 9 for Chapter 02 was an undercount caused by counting only a subset of the placeholder naming patterns. The repository-wide cross-check confirms **19** Chapter 02 IDs and 220 unique IDs across all 26 chapters; all 19 Chapter 02 IDs now have integrated imagery in both language versions.
+- The earlier figure of 9 for Chapter 02 was an undercount caused by counting only a subset of the placeholder naming patterns. The repository-wide cross-check confirms **19** Chapter 02 IDs and 231 unique IDs across all 26 chapters; all 19 Chapter 02 IDs now have integrated imagery in both language versions.
 - Chapter 01's five IDs remain briefs without integrated imagery. Chapter 02's 19 IDs have images in both language versions; current source and licence details are recorded in `geography/VISUAL_ASSET_REGISTER.md`.
 
 
