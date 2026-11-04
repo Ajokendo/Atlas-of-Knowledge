@@ -214,7 +214,7 @@
 
 Английский термин *sleet* употребляется неодинаково в разных странах: в США обычно означает ледяные крупинки, а в Великобритании может означать смесь дождя и снега. Поэтому в учебном тексте точнее называть вид осадков, а не полагаться только на этот термин.
 
-Осадки измеряют осадкомерами и другими приборами. Их количество обычно выражают в миллиметрах водного эквивалента: твёрдые осадки при необходимости растапливают и измеряют полученную воду. Высоту свежевыпавшего снега измеряют отдельно, поскольку она зависит от плотности и структуры снежного покрова.
+Осадки измеряют осадкомерами и другими приборами. Их количество обычно выражают в миллиметрах водного эквивалента: твёрдые осадки при необходимости растапливают и измеряют полученную воду. Высоту свежевыпавшего снега измеряют отдельно, поскольку она зависит от плотности и структуры снежного покрова. [Методика измерения снега: Национальная метеорологическая служба США](https://www.weather.gov/gsp/snow).
 
 ### 5.7.3. Орографические осадки / Orographic Precipitation
 
@@ -339,6 +339,8 @@
 - сохранение вентиляционных коридоров;
 - эффективное управление водой и городской инфраструктурой.
 
+Эти меры воздействуют на разные механизмы городского острова тепла: затенение, испарительное охлаждение, отражение и накопление солнечной энергии, а также движение воздуха. Эффект зависит от местного климата, городской формы и материалов. [Источник: Агентство по охране окружающей среды США (EPA), Urban Heat Islands](https://www.epa.gov/heatislands/what-are-heat-islands).
+
 ## 5.14. Опасные атмосферные явления / Atmospheric Hazards
 
 Атмосферные явления могут создавать угрозы здоровью, инфраструктуре, сельскому хозяйству и транспорту.
@@ -349,7 +351,7 @@
 
 ### 5.14.2. Сильный ветер и штормы / High Winds and Storms
 
-Штормовые ветры могут быть связаны с циклонами, фронтами, грозовыми системами и местными эффектами рельефа. Тропические циклоны обычно развиваются над достаточно тёплой океанической водой (ориентировочно от 26,5–27 °C на достаточной глубине) при сочетании нескольких условий: влажного воздуха в средней тропосфере, неустойчивости для развития гроз, начального атмосферного возмущения, слабого вертикального сдвига ветра и достаточного удаления от экватора для действия силы Кориолиса. Один лишь тёплый океан не гарантирует образования циклона. В разных регионах такие системы называют ураганами, тайфунами или тропическими циклонами.
+Штормовые ветры могут быть связаны с циклонами, фронтами, грозовыми системами и местными эффектами рельефа. Тропические циклоны обычно развиваются над достаточно тёплой океанической водой (ориентировочно от 26,5–27 °C на достаточной глубине) при сочетании нескольких условий: влажного воздуха в средней тропосфере, неустойчивости для развития гроз, начального атмосферного возмущения, слабого вертикального сдвига ветра и достаточного удаления от экватора для действия силы Кориолиса. Один лишь тёплый океан не гарантирует образования циклона. В разных регионах такие системы называют ураганами, тайфунами или тропическими циклонами. [Источник: NOAA, условия формирования тропических циклонов](https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes).
 
 ### 5.14.3. Засухи и волны жары / Droughts and Heatwaves
 
@@ -359,9 +361,9 @@
 - **гидрологическая** — снижение запасов воды в реках, озёрах, водохранилищах и подземных водах;
 - **социально-экономическая** — ситуация, когда дефицит воды нарушает обеспечение населения и хозяйства и приводит к несоответствию спроса и доступного предложения.
 
-Эти виды могут развиваться последовательно, но не обязательно одновременно: последствия зависят от сезона, почв, водохранилищ, управления водой и уязвимости территории.
+Эти виды могут развиваться последовательно, но не обязательно одновременно: последствия зависят от сезона, почв, водохранилищ, управления водой и уязвимости территории. [Методические определения: ВМО, Guidelines on the Definition and Characterization of Extreme Weather and Climate Events (2023)](https://digitallibrary.un.org/record/4012890/files/Guidelines.pdf).
 
-Волна жары — период аномально высоких температур, определяемый относительно местного климата и принятого порога. Универсального температурного значения для всех регионов нет.
+Волна жары — период аномально высоких температур, определяемый относительно местного климата и принятого порога. Универсального температурного значения для всех регионов нет; для сопоставления событий используют показатели, учитывающие местные климатические условия. [Руководство ВМО по экстремальным погодным и климатическим явлениям (2023)](https://digitallibrary.un.org/record/4012890/files/Guidelines.pdf).
 
 ### 5.14.4. Сильные снегопады, метели и гололёд / Heavy Snow, Blizzards and Ice
 
@@ -369,7 +371,7 @@
 
 ### 5.14.5. Туман и пыльные бури / Fog and Dust Storms
 
-Туман — скопление мельчайших капель воды, а при подходящих условиях и ледяных кристаллов у поверхности земли, которое снижает горизонтальную видимость менее чем до 1 км. Он может возникать, когда воздух охлаждается до точки росы или когда его влажность возрастает до насыщения. Пыльные и песчаные бури возникают, когда ветер поднимает частицы с сухой, рыхлой и слабо защищённой поверхности; они ухудшают видимость и могут быть опасны для здоровья.
+Туман — скопление мельчайших капель воды, а при подходящих условиях и ледяных кристаллов у поверхности земли, которое снижает горизонтальную видимость менее чем до 1 км. Он может возникать, когда воздух охлаждается до точки росы или когда его влажность возрастает до насыщения. Пыльные и песчаные бури возникают, когда ветер поднимает частицы с сухой, рыхлой и слабо защищённой поверхности; они ухудшают видимость и могут быть опасны для здоровья. [Источник: NOAA, классификация атмосферных явлений и ухудшения видимости](https://www.noaa.gov/jetstream/synoptic/types-of-weather-phenomena).
 
 **Иллюстрация 5.14-A — Atmospheric Hazards / Опасные атмосферные явления.**
 
@@ -777,7 +779,7 @@ The altitude boundaries vary with latitude and atmospheric conditions, and altit
 
 Precipitation includes rain, drizzle, snow, a rain-and-snow mix, ice pellets, freezing rain and hail. The type reaching the surface depends on the temperature profile through the atmospheric column. The term *sleet* is used differently in different English-speaking countries, so naming the specific precipitation type avoids ambiguity.
 
-Precipitation amount is generally reported in millimetres of liquid-water equivalent. Solid precipitation can be melted before measurement; snow depth is measured separately because it depends on snow density and structure.
+Precipitation amount is generally reported in millimetres of liquid-water equivalent. Solid precipitation can be melted before measurement; snow depth is measured separately because it depends on snow density and structure. [Snow measurement guidance: U.S. National Weather Service](https://www.weather.gov/gsp/snow).
 
 **Orographic precipitation** occurs when moist air is forced to rise over mountains. Rising air cools and may produce clouds and precipitation on windward slopes. Leeward slopes may be drier because of the rain-shadow effect, although the pattern depends on wind direction, moisture supply and local relief.
 
@@ -877,17 +879,17 @@ A **microclimate** is the climate of a small area shaped by local conditions suc
 
 An **urban heat island** occurs when urban surfaces and buildings store and retain heat, while evaporative cooling and ventilation may be limited. Its intensity varies with time of day, season, weather, building density and vegetation cover.
 
-Mitigation measures include increasing green space, creating shaded public areas, using reflective and permeable surfaces, preserving ventilation corridors, and managing water and urban infrastructure effectively.
+Mitigation measures include increasing green space, creating shaded public areas, using reflective and permeable surfaces, preserving ventilation corridors, and managing water and urban infrastructure effectively. These measures address different heat-island mechanisms: shade, evaporative cooling, solar reflection and heat storage, and airflow. Their effectiveness depends on local climate, urban form and materials. [Source: U.S. Environmental Protection Agency, Urban Heat Islands](https://www.epa.gov/heatislands/what-are-heat-islands).
 
 ### 5.14. Atmospheric Hazards
 
 Atmospheric phenomena may threaten health, infrastructure, agriculture and transport.
 
 - **Thunderstorms, lightning and hail:** thunderstorms are associated with strong updrafts and cumulonimbus clouds. Lightning can be dangerous even outside the area of heaviest precipitation. Hail forms when ice particles are repeatedly carried through strong updrafts.
-- **High winds and storms:** storm winds may be associated with cyclones, fronts, thunderstorm systems and local relief effects. Tropical cyclones generally develop over sufficiently warm ocean water (roughly 26.5–27°C through an adequate depth) when several conditions coincide: moist air in the middle troposphere, an atmosphere favourable to deep convection, a pre-existing disturbance, weak vertical wind shear and sufficient distance from the equator for the Coriolis effect. Warm water alone does not guarantee cyclone formation. Depending on the region, these systems are called hurricanes, typhoons or tropical cyclones.
-- **Droughts and heatwaves:** drought is a prolonged deficit of moisture or available water relative to local conditions. Several related types are distinguished: meteorological drought (a sustained precipitation deficit), agricultural drought (insufficient soil moisture for plants), hydrological drought (reduced water in rivers, lakes, reservoirs or groundwater), and socio-economic drought (when water shortages disrupt people and economic activity or create a mismatch between supply and demand). These types may develop in sequence but do not always occur at the same time. A heatwave is a period of unusually high temperatures defined relative to local climate and an adopted threshold; there is no single universal temperature threshold for all regions.
+- **High winds and storms:** storm winds may be associated with cyclones, fronts, thunderstorm systems and local relief effects. Tropical cyclones generally develop over sufficiently warm ocean water (roughly 26.5–27°C through an adequate depth) when several conditions coincide: moist air in the middle troposphere, an atmosphere favourable to deep convection, a pre-existing disturbance, weak vertical wind shear and sufficient distance from the equator for the Coriolis effect. Warm water alone does not guarantee cyclone formation. Depending on the region, these systems are called hurricanes, typhoons or tropical cyclones. [Source: NOAA, tropical cyclone formation](https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes).
+- **Droughts and heatwaves:** drought is a prolonged deficit of moisture or available water relative to local conditions. Several related types are distinguished: meteorological drought (a sustained precipitation deficit), agricultural drought (insufficient soil moisture for plants), hydrological drought (reduced water in rivers, lakes, reservoirs or groundwater), and socio-economic drought (when water shortages disrupt people and economic activity or create a mismatch between supply and demand). These types may develop in sequence but do not always occur at the same time. [Definitions and characterization guidance: WMO, Guidelines on the Definition and Characterization of Extreme Weather and Climate Events (2023)](https://digitallibrary.un.org/record/4012890/files/Guidelines.pdf). A heatwave is a period of unusually high temperatures defined relative to local climate and an adopted threshold; there is no single universal temperature threshold for all regions. Event characterization should use indices that account for local climatological conditions. [WMO, Guidelines on the Definition and Characterization of Extreme Weather and Climate Events (2023)](https://digitallibrary.un.org/record/4012890/files/Guidelines.pdf).
 - **Heavy snow, blizzards and ice:** heavy snowfall and blizzards reduce visibility, disrupt transport and increase loads on structures. Glaze ice forms when supercooled droplets freeze on cold surfaces.
-- **Fog and dust storms:** fog is a suspension of tiny water droplets, and sometimes ice crystals, at or near the ground that reduces horizontal visibility to less than 1 km. It can form when air cools to its dew point or when its moisture content increases to saturation. Dust and sand storms occur when wind lifts particles from dry, loose and poorly protected surfaces; they reduce visibility and can harm health.
+- **Fog and dust storms:** fog is a suspension of tiny water droplets, and sometimes ice crystals, at or near the ground that reduces horizontal visibility to less than 1 km. It can form when air cools to its dew point or when its moisture content increases to saturation. Dust and sand storms occur when wind lifts particles from dry, loose and poorly protected surfaces; they reduce visibility and can harm health. [Source: NOAA, types of weather phenomena and obscuration](https://www.noaa.gov/jetstream/synoptic/types-of-weather-phenomena).
 
 ### 5.15. Climate Change
 
@@ -1086,6 +1088,9 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 21. NOAA. *How do tropical cyclones form?* https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes
 22. NOAA. *Types of Weather Phenomena* (fog, dust and sand). https://www.noaa.gov/jetstream/synoptic/types-of-weather-phenomena
 23. Beck, H. E. et al. *High-resolution (1 km) Köppen-Geiger maps for 1901–2099 based on constrained CMIP6 projections*. Scientific Data 10, 724 (2023). https://www.nature.com/articles/s41597-023-02549-6
+24. World Meteorological Organization (WMO). *Guidelines on the Definition and Characterization of Extreme Weather and Climate Events* (2023). https://digitallibrary.un.org/record/4012890
+25. U.S. Environmental Protection Agency (EPA). *What Are Heat Islands?* https://www.epa.gov/heatislands/what-are-heat-islands
+26. NOAA National Weather Service. *Snow Measurement Guidelines*. https://www.weather.gov/gsp/snow
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
