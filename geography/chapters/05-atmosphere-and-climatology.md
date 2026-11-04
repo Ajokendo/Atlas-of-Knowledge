@@ -109,9 +109,9 @@
 
 Максимальная температура обычно наступает после полудня, а минимальная — ближе к восходу, но облачность, ветер и свойства поверхности могут менять этот режим.
 
-### 5.4.2. Вертикальный температурный градиент / Environmental Lapse Rate
+### 5.4.2. Вертикальный температурный градиент / Vertical Temperature Gradient
 
-В тропосфере температура в среднем уменьшается с высотой, но фактическая скорость изменения непостоянна. Часто приводимая средняя величина около 6,5 °C на километр — стандартный средний градиент в определённой модели атмосферы, а не универсальное правило для каждого склона и каждого дня.
+В тропосфере температура обычно понижается с высотой, однако фактический вертикальный градиент окружающего воздуха (environmental lapse rate) меняется в зависимости от места, времени и погодных условий. В Международной стандартной атмосфере для тропосферы до высоты около 11 км принят модельный градиент 6,5 °C на километр. Это условный профиль для расчётов, а не универсальное описание реальной атмосферы: фактическое изменение температуры может быть слабее, сильнее, близким к нулю или иметь обратный знак при инверсии. [Модель атмосферы NASA / NASA atmospheric model](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/earth-atmosphere-equation-metric/).
 
 **Температурная инверсия** — состояние, при котором температура с высотой повышается в некотором слое. Инверсии могут способствовать накоплению загрязняющих веществ у поверхности.
 
@@ -655,7 +655,11 @@ Air temperature describes the thermal state of the air. It is influenced by lati
 
 The **daily temperature cycle** is linked to Earth's rotation and changing solar input during the day. The **annual cycle** is related to seasonal changes in solar elevation and day length. Maximum temperature usually occurs after midday and minimum temperature near sunrise, although cloud, wind and surface properties can alter this pattern.
 
-In the troposphere, temperature generally decreases with altitude, but the actual rate varies. The often-quoted mean value of about 6.5°C per kilometre is a standard average lapse rate in a particular atmospheric model, not a universal rule for every slope or day.
+#### 5.4.1. Daily and Annual Temperature Cycles
+
+#### 5.4.2. Vertical Temperature Gradient
+
+The temperature of the troposphere generally decreases with altitude, but the actual environmental lapse rate varies with place, time and weather conditions. The International Standard Atmosphere uses a model lapse rate of 6.5°C per kilometre through the troposphere up to about 11 km. This is a reference profile for calculations, not a universal description of the real atmosphere: the observed rate may be weaker, stronger, near zero or reversed in an inversion. [NASA atmospheric model](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/earth-atmosphere-equation-metric/).
 
 A **temperature inversion** occurs when temperature increases with height through a layer. Inversions can contribute to the accumulation of pollutants near the surface.
 
