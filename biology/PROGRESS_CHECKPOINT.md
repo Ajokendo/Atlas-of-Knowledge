@@ -1138,3 +1138,12 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - `biology-cover.svg` is an intentionally separate cover asset, not a missing chapter reference.
 - No source-level missing local image path, empty/one-language alt text, or missing bilingual figure caption was found.
 - This does not claim rendered visual or device/screen-reader QA. Global Image Verification remains Pending audit.
+
+
+## Regional image-context cross-check — 5 November 2026
+
+- Cross-checked the 18 fauna-chapter and 8 flora-chapter figure blocks against their alternative text, RU/EN captions and available SVG source titles/descriptions/labels.
+- Confirmed the regional schematics distinguish separate habitats from distribution maps, population estimates and claims of co-occurrence; generic fish/waterbird silhouettes remain unlabelled at species level.
+- Confirmed the Batken 4,146 value remains a dated survey result, the Naryn/Osh panels are not population estimates, and the Aygul schematic names `Fritillaria eduardii` with `Petilium eduardii` as a synonym.
+- Documentary photo captions describe specific local habitat examples, not complete oblast-wide inventories.
+- No source-text/alt/caption mismatch was established in this pass. This does not replace visual inspection of the WebP binaries or school/device QA. Global Image Verification remains **Pending audit**.
