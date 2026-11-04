@@ -537,6 +537,7 @@ for (const file of svgFiles) {
 }
 if (imageSources && /\| C — project SVG/.test(imageSources)) errors.push("IMAGE_SOURCES.md: do not assign category C to local SVGs until creator, authoring method and rights are evidenced");
 if (imageSources && !imageSources.includes("Unclassified — project-local SVG")) errors.push("IMAGE_SOURCES.md: local SVG provenance must remain PENDING until evidenced");
+if (imageSources && !imageSources.includes("A/B/C category PENDING; method PENDING")) errors.push("IMAGE_SOURCES.md: unproven local visuals must explicitly keep category and method PENDING");
 const staticAssetRegister = imageSources.split("## Asset register")[1]?.split("## Non-file interactive visuals")[0] || "";
 for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11"]) {
   const rows = staticAssetRegister.split(/\r?\n/).filter(line => line.startsWith("| " + id + " |"));
@@ -762,11 +763,33 @@ if (!imageSources.includes("## Learning purpose and retrospective search record"
   errors.push("IMAGE_SOURCES.md: canonical-policy learning-purpose and search-evidence fields are missing");
 }
 const imageSearchRegister = imageSources.split("## Learning purpose and retrospective search record")[1] || "";
-for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11","CH-IV01","CH-IV02","CH-IV03","CH-IV04"]) {
+for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11","CH-IV01","CH-IV02","CH-IV03","CH-IV04","CH-V12"]) {
   const lines = imageSearchRegister.split(/\r?\n/).filter(line => line.startsWith("| " + id + " |"));
   if (lines.length !== 1) errors.push("IMAGE_SOURCES.md: expected exactly one learning-purpose/search record for " + id);
   else if (!lines[0].includes("2026-11-05")) errors.push("IMAGE_SOURCES.md: dated search record is missing for " + id);
 }
+
+const periodicTrendCandidate = imageSources.split("## Chapter 03 candidate visual — found, not integrated")[1]?.split("## Non-file interactive visuals")[0] || "";
+for (const [label, evidence] of [
+  ["English Commons source page", "https://commons.wikimedia.org/wiki/File:Periodic_trends.svg"],
+  ["English direct SVG", "https://upload.wikimedia.org/wikipedia/commons/f/fe/Periodic_trends.svg"],
+  ["English CC0 licence", "https://creativecommons.org/publicdomain/zero/1.0/"],
+  ["English creator", "Mirek2"],
+  ["Russian Commons source page", "https://commons.wikimedia.org/wiki/File:Periodic_trends-rus.svg"],
+  ["Russian direct SVG", "https://upload.wikimedia.org/wikipedia/commons/e/e8/Periodic_trends-rus.svg"],
+  ["Russian CC BY-SA licence", "https://creativecommons.org/licenses/by-sa/4.0/"],
+  ["Russian creator", "Донор"],
+  ["candidate remains unintegrated", "FOUND — item-level licence and creator record checked"]
+]) {
+  if (!periodicTrendCandidate.includes(evidence)) errors.push("IMAGE_SOURCES.md: Chapter 03 periodic-trends candidate missing " + label);
+}
+if (!imageAudit.includes("## Latest policy-readiness checkpoint — 2026-11-05") ||
+    !imageAudit.includes("11 / 12 = 91.7%") ||
+    !imageAudit.includes("0 / 15 = 0% VERIFIED") ||
+    !imageAudit.includes("## Interactive visual audit by ID")) {
+  errors.push("IMAGE_AUDIT.md: current policy metrics or per-ID interactive visual audit is missing");
+}
+
 if (!imageAudit.includes("## Chapter-level learning-need sign-off")) {
   errors.push("IMAGE_AUDIT.md: chapter-level learning-need sign-off is missing");
 }
