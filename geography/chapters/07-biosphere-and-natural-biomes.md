@@ -645,6 +645,7 @@ Every study requires appropriate sampling design, replication, control of season
 9. Chapin, F. S., Matson, P. A., & Vitousek, P. M. (2011). *Principles of Terrestrial Ecosystem Ecology* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4419-9504-9
 10. Convention on Biological Diversity. **Kunming–Montreal Global Biodiversity Framework** (2022), especially Targets 2 and 3 on ecosystem restoration and area-based conservation. https://www.cbd.int/gbf/
 11. Keith, D. A., Ferrer-Paris, J. R., Nicholson, E., & Kingsford, R. T. (eds.). **IUCN Global Ecosystem Typology 2.0: Descriptive Profiles for Biomes and Ecosystem Functional Groups** (2020). IUCN. https://doi.org/10.2305/IUCN.CH.2020.13.en
+12. IUCN Standards and Petitions Committee. **Guidelines for Using the IUCN Red List Categories and Criteria**, Version 16 (March 2024) — current guidance on applying the global extinction-risk criteria; check for a newer version before preparing a formal assessment. https://www.iucnredlist.org/resources/redlistguidelines
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
 
