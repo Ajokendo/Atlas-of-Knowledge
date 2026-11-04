@@ -459,3 +459,25 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 4. Chapters 06–26 (except the Chapter 09 gap status) have token counts matching the register's row counts in this scan. This confirms count-level consistency only, not actual file existence, provenance, scientific validity, rights, bilingual parity or accessibility.
 
 No Image Coverage or Image Verification percentage is calculated from this token scan.
+
+
+### 7.6 Static SVG structure and Markdown alt-text checks — Chapters 01–05 and 18–20
+
+A direct fetch-and-inspect pass covered all **54 local SVG assets** currently found in the Geography branch:
+- 5 Chapter 01 SVGs in `assets/diagrams/`;
+- 11 Chapter 02 SVGs in `assets/diagrams/`;
+- 10 Chapter 03 SVGs in `assets/`;
+- 16 Chapter 04 SVGs in `assets/`;
+- 8 Chapter 05 SVGs in `visuals/`;
+- 4 Chapter 18–20 SVGs in `assets/`.
+
+All 54 fetched SVG files contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
+
+Markdown alt-text checks:
+- Chapters 01–02: the source register records 50 embeds with non-empty bilingual alt text (10 + 40).
+- Chapter 03: 26 embeds representing 13 unique assets; zero empty alt attributes.
+- Chapter 04: 32 embeds representing 16 unique assets; zero empty alt attributes.
+- Chapter 05: 37 embeds; zero empty alt attributes.
+- Chapters 18–20: 4 embeds; zero empty alt attributes.
+
+**Result:** structural SVG metadata and non-empty Markdown alt text pass for the checked local assets and chapter embeds. Semantic alt-text quality, bilingual equivalence, scientific correctness, rights evidence and deployed accessibility remain separate and pending checks. No asset is promoted to VERIFIED.
