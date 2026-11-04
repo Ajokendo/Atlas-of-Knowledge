@@ -1357,3 +1357,10 @@ The Biochemistry responsive-image fix is included in the tested commit. Full phy
 The current visual register now records **24 of 52 mapped briefs produced (46.2%)**: 15 local WebP photographs and 19 original SVG schematics. The new membrane-transport plate is an original bilingual SVG integrated at the existing anchor in `chapters/cell-biology.html`. It distinguishes simple diffusion, channel-mediated facilitated diffusion, osmosis toward the side with higher solute concentration, and ATP-powered active transport against a gradient. The asset is authored for this atlas; no third-party image is used. Focused browser image-decode QA and the full Biology CI run are pending for this commit series.
 
 This count supersedes earlier visual-production checkpoints in this README; `IMAGE_DISPOSITION_REGISTER.md` remains the source of truth. Controlled editorial readiness is tracked separately. Physical-device, screen-reader and offline-cache checks remain pending.
+
+
+## Visual-production checkpoint — 4 November 2026 (mitosis)
+
+The current visual register now records **25 of 52 mapped briefs produced (48.1%)**: 15 local WebP photographs and 20 original SVG schematics. A new original bilingual mitosis plate is integrated at the existing anchor in `chapters/cell-biology.html`. It shows prophase, prometaphase, metaphase, anaphase and telophase in sequence, and distinguishes nuclear division (mitosis) from cytoplasmic division (cytokinesis). No third-party image is used. Focused browser image-decode QA and the full Biology CI run are pending for this commit series.
+
+This count supersedes earlier visual-production checkpoints in this README; `IMAGE_DISPOSITION_REGISTER.md` remains the source of truth. Physical-device, screen-reader and offline-cache checks remain pending.
