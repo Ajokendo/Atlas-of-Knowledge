@@ -620,3 +620,6 @@ The chapter-level audit records were added to each source chapter. Findings and 
 - Added the official SoilGrids documentation and Poggio et al. (2021) to the chapter bibliography. Revised the visual brief so a WRB soil-group map and a SoilGrids soil-property map are treated as different products with separate legends, units, depth intervals and provenance.
 - Chapter content commits: `f5b45a26ff48d72dac956343b6f55c26c66e2080` (scientific text and map-method additions); `d3c1e879e4e6293e324b7d9ffa8f7f195c3af5de` (brief and bilingual summary alignment).
 - **Limit:** this is a targeted evidence closure, not a complete sentence-level bilingual proofread or full claim-to-source audit. Seven visual assets remain placeholders; no visual integration or browser/device/deployment QA is claimed.
+
+
+- **Chapter 08 SoilGrids detail:** recorded the six explicit depth intervals (0–5, 5–15, 15–30, 30–60, 60–100 and 100–200 cm) and clarified that 250 m is grid-cell size, not a guarantee of 250 m local predictive accuracy. Bilingual text and map metadata requirements were updated. Commit: `458cc4715c1357649cf89d904419a9fc590daf06`.
