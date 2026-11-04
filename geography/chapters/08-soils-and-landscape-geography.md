@@ -29,6 +29,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-D / IMAGE PLACEHOLDER 08-D]** Схема почвы как интерфейса литосферы, атмосферы, гидросферы и биосферы с потоками вещества и энергии. / **EN:** Diagram of soil as an interface among the lithosphere, atmosphere, hydrosphere and biosphere, showing matter and energy flows.
 **Рисунок 8.1 / Figure 8.1 — Почва как зона взаимодействия геосфер / Soil as an interface among Earth's spheres.**  
 Техническое задание: показать почвенный профиль между атмосферой, растительным покровом, водами и материнской породой; отобразить корни, почвенную фауну, поры с водой и воздухом, органические остатки и минеральные частицы; все элементы подписать на двух языках.
+**EN production brief:** Show a soil profile as an interface among the atmosphere, vegetation, water and parent material. Include roots, soil fauna, pores containing water and air, organic remains and mineral particles; label every element in both languages.
 
 ## 8.2. Почвообразующие факторы / Soil-Forming Factors
 
@@ -49,6 +50,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-E / IMAGE PLACEHOLDER 08-E]** Схема факторов почвообразования: климат, организмы, рельеф, материнская порода, время и деятельность человека. / **EN:** Soil-forming factors diagram showing climate, organisms, relief, parent material, time and human activity.
 **Рисунок 8.2 / Figure 8.2 — Факторы почвообразования / Soil-forming factors.**  
 Техническое задание: центральная схема «почва» и шесть связанных блоков: климат, организмы, рельеф, материнская порода, время, человек; показать взаимодействие факторов двунаправленными стрелками, не изображать их как независимые причины.
+**EN production brief:** Place “Soil” at the centre and connect it to six interacting factors: climate, organisms, relief, parent material, time and human activity. Use two-way arrows and do not depict the factors as independent causes.
 
 ## 8.3. Строение почвенного профиля / Soil Profile and Horizons
 
@@ -69,6 +71,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 **Рисунок 8.3 / Figure 8.3 — Типовой почвенный профиль / Typical soil profile.**  
 Техническое задание: вертикальный разрез с горизонтами H–O–A–E–B–C–R; обозначить корни, гумус, зоны вымывания и накопления, материнский материал и коренную породу; использовать условную цветовую шкалу и пояснить, что не каждая почва имеет все горизонты.
+**EN production brief:** Draw a vertical profile showing the H–O–A–E–B–C–R horizons/layers. Label roots, humus, zones of eluviation and accumulation, parent material and bedrock. Use a schematic colour key and state that not every soil contains all these horizons.
 
 ## 8.4. Физические свойства почв / Physical Properties of Soils
 
@@ -183,6 +186,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 **Рисунок 8.4 / Figure 8.4 — Глобальная карта почв / Global soil map.**  
 Техническое задание: использовать актуальную геопространственную базу и чётко назвать классификацию; показать крупные почвенные группы с читаемой легендой; не смешивать единицы WRB с названиями из национальной классификации; обозначить области неопределённости и недостатка данных.
+**EN production brief:** Use a current geospatial dataset and name the classification system clearly. Show major soil groups with a legible legend; do not mix WRB units with names from national classifications. Mark areas of uncertainty and data gaps.
 
 ## 8.8. Почвы основных природных зон / Soils Across Major Natural Zones
 
@@ -221,6 +225,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 **Рисунок 8.5 / Figure 8.5 — Формы почвенной эрозии / Types of soil erosion.**  
 Техническое задание: три панели — плоскостной смыв, овражная эрозия и дефляция; показать направление переноса частиц, роль растительного покрова и меры снижения риска; не преувеличивать масштабы для иллюстративной ясности.
+**EN production brief:** Use three panels to show sheet erosion, gully erosion and wind deflation. Indicate particle movement, the role of vegetation cover and risk-reduction measures; do not exaggerate process scale for visual effect.
 
 ## 8.10. Охрана и устойчивое управление почвами / Soil Conservation and Sustainable Management
 
@@ -272,6 +277,7 @@ This means that about half of the sample's total volume consists of pores. It is
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-F / IMAGE PLACEHOLDER 08-F]** Блок-диаграмма морфологической структуры ландшафта с урочищами, фациями и местоположениями согласно принятой классификации. / **EN:** Block diagram of landscape morphology showing land units and facies according to a stated classification.
 **Рисунок 8.6 / Figure 8.6 — Морфологическая структура ландшафта / Morphological structure of a landscape.**  
 Техническое задание: схематический блок-диаграммный ландшафт с водоразделом, склоном, террасой, поймой и долиной; выделить фации и урочища условными контурами; подписать взаимосвязи стока и переноса вещества.
+**EN production brief:** Create a schematic block diagram of a landscape with a watershed divide, slope, terrace, floodplain and valley. Outline facies and landscape units schematically, and label runoff and material-transfer connections.
 
 ## 8.13. Антропогенные ландшафты и землепользование / Human-Modified Landscapes and Land Use
 
@@ -295,6 +301,7 @@ This means that about half of the sample's total volume consists of pores. It is
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-G / IMAGE PLACEHOLDER 08-G]** Мозаика ландшафта с пятнами, коридорами и матрицей; показать фрагментацию и связность. / **EN:** Landscape mosaic showing patches, corridors and matrix, with fragmentation and connectivity.
 **Рисунок 8.7 / Figure 8.7 — Мозаика ландшафта: пятна, коридоры и матрица / Landscape mosaic: patches, corridors and matrix.**  
 Техническое задание: плановая схема природной территории с лесными пятнами, речным коридором, аграрной матрицей и дорогой-барьером; показать структурную и функциональную связность разными условными обозначениями.
+**EN production brief:** Create a plan-view diagram of a natural area with forest patches, a river corridor, an agricultural matrix and a road acting as a barrier. Use different symbols to distinguish structural from functional connectivity.
 
 ## 8.15. Методы почвенных и ландшафтных исследований / Methods in Soil and Landscape Studies
 
