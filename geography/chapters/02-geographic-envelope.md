@@ -199,7 +199,11 @@
 
 Границы плит не всегда представлены одной узкой линией: существуют широкие зоны деформации, где движение распределено между несколькими разломами и блоками коры. Землетрясения возможны также внутри плит, хотя особенно часто они происходят в зонах границ.
 
-**Место для иллюстрации 2.5-A — Plate Tectonics.** Три геологических разреза: дивергентная, конвергентная и трансформная границы плит.
+**Иллюстрация 2.5-A — Типы границ литосферных плит / Plate Boundary Types.**
+
+![Дивергентная, конвергентная и трансформная границы плит / Divergent, convergent and transform plate boundaries](../assets/diagrams/02-5A-plate-boundary-types.svg)
+
+*Условные геологические разрезы, не в масштабе. Конвергентная граница может включать субдукцию или столкновение континентальных плит. / Schematic geological cross-sections, not to scale. A convergent boundary may involve subduction or continental collision.*
 
 ## 2.6. Биосфера: пространство жизни / Biosphere: The Realm of Life
 
@@ -222,7 +226,11 @@
 | Биом | Тайга, саванна, тундра |
 | Биосфера | Совокупность всех экосистем Земли |
 
-**Место для иллюстрации 2.6-A — From Organism to Biosphere.** Многоуровневая инфографика организации живой природы.
+**Иллюстрация 2.6-A — От организма к биосфере / From Organism to Biosphere.**
+
+![Уровни организации живой природы: организм, популяция, сообщество, экосистема, биом и биосфера / Levels of biological organization](../assets/diagrams/02-6A-organization-of-life.svg)
+
+*Уровни вложены друг в друга; биом не является просто суммой экосистем одного вида. / The levels are nested; a biome is not simply a collection of identical ecosystems.*
 
 ## 2.7. Взаимодействие географических оболочек / Interactions Between Earth's Spheres
 
@@ -257,7 +265,11 @@
 ### Гравитационная энергия
 Участвует в речном стоке, движении воды по склонам, оползнях, обвалах, движении ледников и вертикальном распределении вещества.
 
-**Место для иллюстрации 2.8-A — Energy Flows on Earth.** Сравнительная схема солнечной, внутренней и гравитационной энергии и вызываемых ими процессов.
+**Иллюстрация 2.8-A — Источники энергии и процессы Земли / Energy Sources and Earth Processes.**
+
+![Солнечная, внутренняя и гравитационная энергия и примеры процессов / Solar, internal and gravitational energy and example processes](../assets/diagrams/02-8A-energy-flows.svg)
+
+*Схема качественная: она не сравнивает энергетические потоки в численных единицах. / Qualitative diagram; it does not compare energy fluxes in numerical units.*
 
 ## 2.9. Географическая зональность / Geographical Zonation
 
@@ -286,16 +298,23 @@
 
 В горах с высотой могут последовательно сменяться предгорные степи, леса, субальпийские и альпийские луга, горная тундра и нивальный пояс снегов и ледников. Конкретная последовательность зависит от широты, экспозиции склонов, влажности и местного климата.
 
-**Место для иллюстрации 2.9-A — Global Latitudinal Zonation and Mountain Altitudinal Belts.** Сопоставить широтные природные зоны и высотную поясность гор.
+**Иллюстрация 2.9-A — Широтная зональность и высотная поясность / Latitudinal and Altitudinal Zonation.**
+
+![Сопоставление широтных природных зон и высотных поясов гор / Comparison of latitudinal natural zones and mountain elevation belts](../assets/diagrams/02-9A-zonation.svg)
+
+*Схематическое сравнение, не карта и не универсальная последовательность природных зон; границы зависят от климата, рельефа и экспозиции. / Schematic comparison, not a map or universal sequence; boundaries depend on climate, relief and slope aspect.*
 
 ## 2.10. Биогеохимические циклы / Biogeochemical Cycles
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 2-D / IMAGE PLACEHOLDER 2-D]** Схемы круговоротов углерода, азота и фосфора с природными резервуарами и антропогенными потоками.
-> **EN:** Diagrams of the carbon, nitrogen and phosphorus cycles, showing natural reservoirs and human-driven flows.
+**Иллюстрация 2-D — Обзор биогеохимических циклов / Biogeochemical Cycles Overview.**
+
+![Сравнение круговоротов углерода, азота и фосфора и основных резервуаров / Comparison of carbon, nitrogen and phosphorus cycles and their main reservoirs](../assets/diagrams/02-D-biogeochemical-cycles-overview.svg)
+
+*Оригинальная обобщающая схема; отдельные процессы и резервуары подробно показаны в подразделах 2.10.1–2.10.4. Стрелки не обозначают количественные потоки. / Original overview; individual processes and reservoirs are detailed in sections 2.10.1–2.10.4. Arrows do not represent quantified fluxes.*
 
 **Углеродный цикл / Carbon cycle**
 
-*Индивидуальные иллюстрации углеродного, азотного и фосфорного циклов размещены в соответствующих подразделах 2.10.1–2.10.4. Общая сравнительная схема трёх циклов для этого обзорного задания пока не подготовлена. / Individual carbon, nitrogen and phosphorus diagrams are placed in sections 2.10.1–2.10.4. A combined comparative overview for this visual brief has not yet been prepared.*
+
 
 Биогеохимические циклы — непрерывное перемещение химических элементов между живыми организмами и компонентами неживой природы.
 
@@ -381,7 +400,11 @@
 
 Все компоненты взаимодействуют и формируют единую природную геосистему.
 
-**Место для иллюстрации 2.11-A — Structure of a Natural Geosystem.** Объёмная схема природного комплекса.
+**Иллюстрация 2.11-A — Структура природной геосистемы / Structure of a Natural Geosystem.**
+
+![Взаимосвязь климата, рельефа, воды, почвы и биоты / Interactions among climate, relief, water, soil and biota](../assets/diagrams/02-11A-natural-geosystem.svg)
+
+*Схема показывает основные компоненты, а не исчерпывающую модель всех причинных связей. / The diagram shows core components, not an exhaustive model of all causal links.*
 
 ### 2.11.3. Природные и антропогенные геосистемы
 
@@ -420,7 +443,11 @@
 
 Положительная и отрицательная обратные связи не означают соответственно «плохую» и «хорошую»: первая усиливает изменения, вторая ослабляет их. В реальных природных системах несколько обратных связей действуют одновременно.
 
-**Место для иллюстрации 2.12-A — Positive and Negative Feedback Mechanisms.** Две сравнительные диаграммы обратных связей.
+**Иллюстрация 2.12-A — Положительная и отрицательная обратная связь / Positive and Negative Feedback.**
+
+![Примеры усиливающей и ослабляющей обратной связи / Examples of reinforcing and balancing feedback](../assets/diagrams/02-12A-feedback-loops.svg)
+
+*Примеры упрощены; реальные системы включают временные задержки и несколько взаимодействующих обратных связей. / Examples are simplified; real systems include time lags and multiple interacting feedbacks.*
 
 ## 2.13. Антропогенное воздействие / Human Impact
 
