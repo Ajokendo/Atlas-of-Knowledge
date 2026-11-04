@@ -130,3 +130,6 @@ The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 an
 
 
 - **Chapter 02, practical assignment — 4 November 2026:** strengthened the RU/EN mountain-lake systems task. Students now trace inflows and outflows, connect all four spheres, identify causal links and propose observations/datasets for testing. Added an explicit distinction between observed evidence and hypotheses, and a warning not to diagnose pollution from water appearance alone. This improves the assessment task but does not substitute for classroom testing.
+
+
+- **Chapter 02, integrated model — 4 November 2026:** expanded section 2.15 in Russian and English. It now explicitly distinguishes energy flow from matter cycling; identifies system components and permeable boundaries; gives a cross-sphere precipitation–river–erosion–vegetation example; explains feedbacks, scale, time delays, human influence and model limitations. Added NASA My NASA Data and U.S. Department of Energy sources (references 30–31). This is a content improvement and source alignment, not proof that the KGEO-01 visual has been created or integrated.
