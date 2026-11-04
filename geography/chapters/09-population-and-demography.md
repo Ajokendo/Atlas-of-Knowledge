@@ -198,7 +198,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 `D = P / A`
 
-где D — плотность, P — численность населения, A — площадь. Обычно выражается в количестве человек на квадратный километр (чел./км²).
+где D — плотность, P — численность населения, A — площадь. Обычно выражается в количестве человек на квадратный километр (чел./км²). При сравнении источников необходимо проверить, что именно считается площадью: суша, вся территория или только обитаемая площадь. Численность населения, площадь и дата должны относиться к одной и той же территории и сопоставимому периоду.
 
 Средняя плотность может скрывать резкие внутренние контрасты. Для более точного анализа применяют плотность по обитаемой площади, сельскохозяйственной площади, сетке регулярных ячеек и локальным административным единицам. Следует различать общую площадь страны и площадь, реально пригодную или используемую для проживания.
 
@@ -407,7 +407,7 @@ Population is distributed very unevenly across Earth. Its distribution is influe
 
 D = P / A
 
-where D is density, P is population and A is area. It is usually expressed as people per square kilometre.
+where D is density, P is population and A is area. It is usually expressed as people per square kilometre. When comparing sources, check whether the denominator is land area, total area or inhabited area. The population count, area and reference date must refer to the same territory and a comparable period.
 
 Average density can conceal sharp internal contrasts. More detailed analysis may use density per inhabited area, agricultural area, regular grid cell or local administrative unit. Total national area must be distinguished from land that is actually suitable for or used for settlement.
 
