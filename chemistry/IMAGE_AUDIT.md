@@ -3,7 +3,7 @@
 **Standard:** IMAGE-FIRST POLICY v1.0  
 **Branch:** `workspace/chemistry`  
 **Audit date:** 2026-11-05  
-**Scope of this checkpoint:** all 22 existing static SVG files (11 RU/EN pairs), their chapter integrations, and four identified interactive visual systems. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification.
+**Scope of this checkpoint:** all 22 existing static SVG files (11 RU/EN pairs), their chapter integrations, and four identified interactive visual systems. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification. The repository does not contain a historical search log proving that ready-made licensed sources were considered before these project SVGs were created; compliance with the search-first sequence for past assets remains PENDING.
 
 ## Status vocabulary
 
