@@ -20,6 +20,8 @@ const n = 20000; let area = 0; for (let i = 0; i < n; i++) area += M.vy((i + 0.5
 check('Σ v·dt over 0–1.5 s = y(1.5)', near(area, M.y(1.5), 1e-6), `${area.toFixed(4)} m`);
 check('projectile: same height as the straight-up ball at every t', [0.2, 1.1, 1.9].every(t => near(M.y(t), M.VY0 * t - 0.5 * M.G * t * t)));
 check('projectile range = vx·T', near(M.RANGE, M.VX * M.T), `${M.RANGE.toFixed(1)} m`);
+check('projectile: vy(0)=+v0, vy(T)=−v0 and vy(T/2)=0', near(M.vy(0), M.VY0) && near(M.vy(M.T), -M.VY0) && near(M.vy(M.T / 2), 0));
+check('projectile: horizontal velocity stays constant and speed is minimal at apex', [0, 0.5, 1, 1.5, 2].every(t => near(M.x(t + h) - M.x(t), M.VX * h, 1e-6)) && near(Math.hypot(M.VX, M.vy(M.T / 2)), M.VX));
 check('average speed ≠ average velocity on the round trip', near(M.distance(M.T) / M.T, M.H) && near(M.y(M.T) / M.T, 0), `${(M.distance(M.T) / M.T).toFixed(2)} m/s vs 0`);
 
 // ---------- relative motion ----------
@@ -35,6 +37,7 @@ check('rain: slant tanθ = v_car / v_rain', near(Math.tan(M.RAIN_ANGLE * Math.PI
 check('river: v_BS = v_BW + v_WS, straight aim', vnear(M.vBS(0), [M.RIVER.vw, M.RIVER.vb]), `${M.vlen(M.vBS(0)).toFixed(2)} m/s`);
 check('river: straight aim crosses in w/v_b and drifts v_w·t', near(M.crossTime(0), M.RIVER.w / M.RIVER.vb) && near(M.drift(0), M.RIVER.vw * M.RIVER.w / M.RIVER.vb), `${M.crossTime(0).toFixed(1)} s, ${M.drift(0).toFixed(1)} m`);
 check('river: aim upstream at asin(v_w/v_b) → no drift', near(M.drift(M.AIM_UP), 0) && near(M.vlen(M.vBS(M.AIM_UP)), Math.sqrt(M.RIVER.vb ** 2 - M.RIVER.vw ** 2)), `${(M.AIM_UP * 180 / Math.PI).toFixed(1)}°, ${M.crossTime(M.AIM_UP).toFixed(1)} s`);
+check('river: upstream aim cancels downstream component and leaves cross-river speed √(vb²−vw²)', near(M.vBS(M.AIM_UP)[0], 0) && near(M.vBS(M.AIM_UP)[1], Math.sqrt(M.RIVER.vb ** 2 - M.RIVER.vw ** 2)) && near(M.crossTime(M.AIM_UP), 12));
 check('river: straight aim is the fastest crossing', [0.1, 0.3, M.AIM_UP, 0.9].every(p => M.crossTime(p) > M.crossTime(0)));
 // step a boat across with the two velocities added each step, until it reaches the far bank
 for (const [name, phi] of [['straight', 0], ['upstream', M.AIM_UP]]) {
