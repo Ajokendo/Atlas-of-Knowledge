@@ -47,8 +47,11 @@
 - Внутреннее ядро занимает центральную область планеты.
 - Температура и давление возрастают с глубиной; оценки температуры внутренних областей имеют диапазоны и зависят от моделей.
 
-**Место для иллюстрации 3.1-A — Earth's Internal Structure.** Масштабный разрез Земли с указанием коры, литосферы, астеносферы, мантии, внешнего и внутреннего ядра; глубины границ и схематический температурный профиль. Подписи на русском и английском.
-**EN:** Scaled cross-section of Earth showing the crust, lithosphere, asthenosphere, mantle, outer core and inner core; label major boundaries and include a schematic temperature profile.
+**Иллюстрация 3.1-A — Внутреннее строение Земли / Earth's Internal Structure.**
+
+![Схематический разрез Земли: кора, мантия, внешнее и внутреннее ядро; отдельно показаны литосфера и астеносфера. / Schematic Earth cutaway showing crust, mantle, outer and inner core, with lithosphere and asthenosphere distinguished.](../assets/03-1-A-earth-interior-bilingual.svg)
+
+*Схема не в масштабе. Мантия и астеносфера показаны как преимущественно твёрдые, способные к медленной деформации материалы; химические и механические классификации слоёв различаются. / Not to scale. The mantle and asthenosphere are shown as predominantly solid materials capable of slow deformation; compositional and mechanical layer classifications are distinct.*
 
 ## 3.2. Минералы и их свойства / Minerals and Their Properties
 
@@ -543,6 +546,12 @@ Geological processes operate over an extremely wide range of timescales—from s
 ### 3.1. Internal Structure of Earth
 
 Earth's interior is studied through rock samples, geophysical measurements and, above all, the behaviour of seismic waves. The deep interior cannot be sampled directly, so much of our knowledge is based on physical models.
+
+**Illustration 3.1-A — Earth's Internal Structure.**
+
+![Schematic Earth cutaway showing crust, mantle, outer and inner core, with lithosphere and asthenosphere distinguished. / Схематический разрез Земли: кора, мантия, внешнее и внутреннее ядро; отдельно показаны литосфера и астеносфера.](../assets/03-1-A-earth-interior-bilingual.svg)
+
+*Not to scale. The mantle and asthenosphere are shown as predominantly solid materials capable of slow deformation; compositional and mechanical layer classifications are distinct. / Схема не в масштабе. Мантия и астеносфера показаны как преимущественно твёрдые, способные к медленной деформации материалы; химические и механические классификации слоёв различаются.*
 
 ### 3.1.1. Chemical Structure
 
