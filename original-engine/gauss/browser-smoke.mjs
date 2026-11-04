@@ -54,7 +54,7 @@ async function checkLesson(mobile) {
       throw new Error(`3D Gauss-law lab WebGL canvas did not initialize: ${JSON.stringify(labState)}`);
     }
 
-    const readout = async id => (await page.locator(id).innerText()).replace(/\\s+/g, ' ').trim();
+    const readout = async id => (await page.locator(id).innerText()).replace(/\s+/g, ' ').trim();
     if (!(await readout('#r0')).includes('112,94 Н·м²/Кл')) throw new Error(`default closed-surface flux incorrect: ${await readout('#r0')}`);
     if (!(await readout('#r1')).includes('225,88 Н/Кл')) throw new Error(`default average field incorrect: ${await readout('#r1')}`);
     if (!(await readout('#r2')).includes('112,94 Н·м²/Кл')) throw new Error(`default oriented flux incorrect: ${await readout('#r2')}`);
