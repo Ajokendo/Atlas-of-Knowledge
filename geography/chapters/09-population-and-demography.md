@@ -171,7 +171,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 - трудовая, образовательная, семейная и связанная с образом жизни;
 - возвратная и повторная.
 
-Не каждое перемещение является миграцией в статистическом смысле: поездки на работу, туризм и кратковременные визиты обычно учитываются отдельно. Вынужденное перемещение включает ситуации, когда люди покидают дома из-за конфликтов, преследования, насилия, стихийных бедствий или иных угроз. Правовой статус беженца определяется международным и национальным правом и не является синонимом любого мигранта.
+Не каждое перемещение является миграцией в статистическом смысле: поездки на работу, туризм и кратковременные визиты обычно учитываются отдельно. Вынужденное перемещение включает ситуации, когда люди покидают дома из-за конфликтов, преследования, насилия, стихийных бедствий или иных угроз. Если люди вынуждены покинуть дом, но остаются в пределах международно признанных границ своей страны, их называют внутренне перемещёнными лицами (ВПЛ); они не являются беженцами только на основании такого перемещения. Для статуса беженца требуется пересечение международной границы и соответствие применимому правовому определению. Поэтому термины «вынужденное перемещение», «ВПЛ», «беженец» и «мигрант» нельзя использовать как взаимозаменяемые.
 
 **Рисунок 9.4 / Figure 9.4 — Формы миграции / Forms of migration.**  
 Техническое задание: схема внутренней и международной миграции, сезонного перемещения, возвратной миграции и вынужденного перемещения; не изображать стрелки как реальные маршруты без подтверждённых данных.
@@ -403,7 +403,7 @@ Migration is a movement involving a change of place of residence. Internal migra
 
 Main types include internal and international; temporary, seasonal and permanent; voluntary and forced; labour, educational, family-related and lifestyle migration; and return and repeat migration.
 
-Not every movement is migration in the statistical sense: commuting, tourism and short visits are usually counted separately. Forced displacement includes situations in which people leave their homes because of conflict, persecution, violence, natural disasters or other threats. Refugee status is defined by international and national law and is not a synonym for every migrant.
+Not every movement is migration in the statistical sense: commuting, tourism and short visits are usually counted separately. Forced displacement includes situations in which people leave their homes because of conflict, persecution, violence, natural disasters or other threats. People forced to leave home but who remain within the internationally recognised borders of their country are internally displaced persons (IDPs); they do not become refugees solely through such internal movement. Refugee status requires crossing an international border and meeting the applicable legal definition. The terms “forced displacement”, “IDP”, “refugee” and “migrant” are therefore not interchangeable.
 
 ### 9.10. Drivers and Consequences of Migration
 
@@ -478,7 +478,7 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 3. Общие коэффициенты рождаемости и смертности зависят от возрастной структуры и требуют осторожной интерпретации.
 4. Демографический переход описывает типичные долгосрочные изменения рождаемости и смертности, но не является универсальным законом.
 5. Возрастно-половая структура влияет на будущую динамику, рынок труда и потребность в социальных услугах.
-6. Миграция имеет разнообразные причины и последствия для территорий происхождения и назначения.
+6. Миграцию и вынужденное перемещение следует различать; международная миграция не тождественна временной мобильности, а ВПЛ — беженцам. Причины и последствия этих процессов различаются для территорий происхождения и назначения.
 7. Население распределено неравномерно; средняя плотность не раскрывает локальные контрасты.
 8. Урбанизация меняет расселение и экономические связи, создавая как возможности, так и управленческие вызовы.
 9. Прогнозы зависят от предположений и должны сопровождаться оценкой неопределённости.
@@ -486,7 +486,7 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 
 ## 9.18. Ключевые понятия / Key Terms
 
-Демография — Demography; население — Population; перепись населения — Population census; естественный прирост — Natural increase; миграционный прирост — Net migration; общий коэффициент рождаемости — Crude birth rate; суммарный коэффициент рождаемости — Total fertility rate; общий коэффициент смертности — Crude death rate; ожидаемая продолжительность жизни — Life expectancy; демографический переход — Demographic transition; когорта — Cohort; возрастно-половая пирамида — Age-sex pyramid; старение населения — Population ageing; демографическая нагрузка — Age dependency ratio; миграция — Migration; миграционный поток — Migration flow; миграционный запас — Migrant stock; численность населения на середину года — Mid-year population; плотность населения — Population density; степень урбанизации — Degree of Urbanization; урбанизация — Urbanisation; агломерация — Urban agglomeration; человеческое развитие — Human development; демографический прогноз — Population projection.
+Демография — Demography; население — Population; перепись населения — Population census; естественный прирост — Natural increase; миграционный прирост — Net migration; общий коэффициент рождаемости — Crude birth rate; суммарный коэффициент рождаемости — Total fertility rate; общий коэффициент смертности — Crude death rate; ожидаемая продолжительность жизни — Life expectancy; демографический переход — Demographic transition; когорта — Cohort; возрастно-половая пирамида — Age-sex pyramid; старение населения — Population ageing; демографическая нагрузка — Age dependency ratio; миграция — Migration; миграционный поток — Migration flow; миграционный запас — Migrant stock; численность населения на середину года — Mid-year population; плотность населения — Population density; степень урбанизации — Degree of Urbanization; урбанизация — Urbanisation; агломерация — Urban agglomeration; человеческое развитие — Human development; демографический прогноз — Population projection.; международная временная мобильность — International temporary mobility; внутренне перемещённое лицо (ВПЛ) — Internally displaced person (IDP); обычное место/страна проживания — Usual place/country of residence
 
 ## 9.19. Контрольные вопросы и практические задания / Review Questions and Practical Activities
 
@@ -567,7 +567,7 @@ For international mobility statistics, the United Nations distinguishes internat
 3. Crude birth and death rates depend on age structure and require careful interpretation.
 4. The demographic transition describes typical long-term changes in fertility and mortality, but is not a universal law.
 5. Age-sex structure affects future population dynamics, labour markets and demand for social services.
-6. Migration has diverse causes and consequences for both origin and destination areas.
+6. Migration and forced displacement are distinct concepts; international migration is distinguished from temporary mobility, and IDPs from refugees. Their causes and consequences differ for origin and destination areas.
 7. Population is unevenly distributed; average density does not reveal local contrasts.
 8. Urbanisation changes settlement patterns and economic connections, creating both opportunities and management challenges.
 9. Projections depend on assumptions and should be accompanied by an assessment of uncertainty.
@@ -620,6 +620,7 @@ For international mobility statistics, the United Nations distinguishes internat
 12. United Nations Department of Economic and Social Affairs, Population Division. **DemoData** — empirical source collection used in the preparation of UN population estimates and projections, including census, register, survey, fertility, mortality, age-sex and migration data. The portal reports data through 2026 and a last update of 3 November 2026; record the selected series and extraction date. https://population.un.org/demodata/
 13. United Nations Statistics Division. **Recommendations on Statistics of International Migration and Temporary Mobility** (2025, unedited version; revisions noted through 24 March 2026) — revised statistical distinction between international migration and temporary mobility, residence-duration criteria, and alignment of population stocks and migration flows. https://unstats.un.org/go/migrrec
 14. United Nations Development Programme, Human Development Report Office. **Human Development Report 2025: Technical Note 1 — Human Development Index** — current definitions and calculation of the health, education and income dimensions, including the geometric mean and PPP-adjusted GNI per capita. https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf
+15. United Nations High Commissioner for Refugees. **IDP definition** — explains the distinction between internally displaced persons, who have not crossed an internationally recognised state border, and refugees. See also the UN Guiding Principles on Internal Displacement. https://emergency.unhcr.org/protection/legal-framework/idp-definition
 
 ## Научные редакционные примечания / Scientific editorial notes
 
