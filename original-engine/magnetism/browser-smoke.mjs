@@ -33,6 +33,11 @@ async function run(mobile) {
       }
       if (!(await page.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i+1} has no title`);
       if (!(await page.locator('#readout').innerText()).trim()) throw new Error(`page ${i+1} has no live readout`);
+      if (i === 3) {
+        const selectorText = await page.locator('#sheet').innerText();
+        if (!selectorText.includes('|q|E') || !selectorText.includes('|q|vB')) throw new Error('velocity-selector balance must compare force magnitudes');
+        if (!selectorText.includes('|U_H|') || !selectorText.includes('n|q|')) throw new Error('Hall-voltage magnitude must use |q| and preserve carrier-sign distinction');
+      }
     }
     const picker = page.locator('select.scene-picker');
     if (await picker.count() !== 1 || await picker.locator('option').count() < 2) throw new Error('accessible scene picker is missing usable objects');
