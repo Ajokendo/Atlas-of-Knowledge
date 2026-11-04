@@ -413,3 +413,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 06 — global water shares corrected — 5 November 2026
 
 - Corrected a subtle category error in both language versions. Oceans and seas account for about 96.5% of total water; all saline reservoirs together account for about 97.5% when saline groundwater and saline lakes are included; freshwater is about 2.5%. The prior wording incorrectly assigned the 97.5% figure to oceans and seas alone. Checked against the USGS global water-distribution table. Commit: `1d91a7bc57da482095fb0f5541a6ea1387bcc316`.
+
+
+### Chapter 06 — IHO source specificity and edition check — 5 November 2026
+
+- Replaced the broad IHO standards portal citation with the relevant publication identifiers and current catalogue editions: S-23 (limits of oceans and seas, 1953), S-44 Edition 6.2.0 (October 2024), S-102 Edition 3.0.0 (December 2024) and S-100 Edition 5.2.1 (December 2025). Checked against the IHO Standards and Specifications catalogue, last modified 30 October 2026. Commit: `80cd391382cdeceddbb5f048938e904ddab1324c`.
