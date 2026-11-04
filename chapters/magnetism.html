@@ -63,7 +63,7 @@
 const cfg={"id":"14","controls":[["Модуль заряда |q|",0.1,10,0.1,1,"мкКл"],["Скорость v",0,5000,100,1000,"м/с"],["Индукция B",0,2,0.05,0.2,"Тл"]],"calc":"const [q,v,B]=x;const F=q*1e-6*v*B;return [[F,'Н',6],[v*B,'В/м',2],[B,'Тл',2]];"};
 const $=id=>document.getElementById(id),inputs=cfg.controls.map((_,i)=>$("p"+i)),fmt=(n,d)=>Number.isFinite(n)?n.toFixed(d).replace(".",","):"—";
 function update(){const x=inputs.map(el=>+el.value);x.forEach((v,i)=>{const step=String(cfg.controls[i][3]),decimals=step.includes(".")?step.split(".")[1].length:0;$("o"+i).textContent=fmt(v,decimals)+" "+cfg.controls[i][5];});const results=(function(x){const [q,v,B]=x;const F=q*1e-6*v*B;return [[F,'Н',6],[v*B,'В/м',2],[B,'Тл',2]];})(x);results.forEach((r,i)=>$("r"+i).textContent=fmt(r[0],r[2])+" "+r[1])}
-inputs.forEach(el=>el.addEventListener("input",update));window.addEventListener("resize",update);update();
+inputs.forEach(el=>el.addEventListener("input",update));update();
 const quiz={"correct":"b","explain":"F = |q|vB sin θ максимальна при θ = 90°, когда sin θ = 1."};document.querySelectorAll(".answers button").forEach(b=>b.addEventListener("click",()=>{const ok=b.dataset.answer===quiz.correct;$("feedback").textContent=(ok?"Верно! ":"Попробуйте ещё раз. ")+quiz.explain;$("feedback").style.color=ok?"#28734a":"#b44b38"}));
 </script><script type="module" src="../physics-lab.js"></script>
 </body></html>
