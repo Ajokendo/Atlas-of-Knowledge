@@ -463,3 +463,6 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 08 — WRB organic horizon coverage — 5 November 2026
 
 - Expanded the bilingual soil-profile overview to include the WRB H horizon for organic/peat material, distinguished from the O horizon; updated the profile illustration specification accordingly. Checked against WRB Fourth Edition 2022, Annex 3 (corrected 2024). Commit: `9bae5672e0a7568f098d1c590d72b72cbb8bfe33`.
+
+
+- Follow-up verification caught and corrected a duplicated H symbol in the English horizon list and aligned the English classification note with the Russian text. Both versions now list H, O, A, E, B, C and R once and distinguish master horizon/layer designations from the diagnostic criteria used for formal WRB classification. Commits: `616affb021a9729a8355d51048a622348f3547f8`, `6727ea73c466ab38ed0b9b192c67cfee6ae856c3`.
