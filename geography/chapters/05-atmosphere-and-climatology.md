@@ -68,9 +68,6 @@
 
 ## 5.3. Солнечная радиация и тепловой баланс Земли / Solar Radiation and Earth's Energy Budget
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 5-B / IMAGE PLACEHOLDER 5-B]** Схема входящей коротковолновой и исходящей длинноволновой радиации, отражения, поглощения и парникового эффекта.
-> **EN:** Diagram of incoming shortwave and outgoing longwave radiation, reflection, absorption and the greenhouse effect.
-
 Главный внешний источник энергии климатической системы — Солнце. Поток солнечной энергии, поступающий на верхнюю границу атмосферы, называется солнечной радиацией.
 
 Часть поступающей энергии отражается облаками, аэрозолями, атмосферой и поверхностью. Остальная поглощается атмосферой и земной поверхностью, преобразуется в тепло и в конечном счёте излучается в космос в виде длинноволновой инфракрасной радиации.
@@ -89,7 +86,9 @@
 
 Неравномерный нагрев поверхности по широте создаёт температурные контрасты. Атмосферная циркуляция и океанические течения перераспределяют энергию от низких широт к высоким.
 
-**Место для иллюстрации 5.3-A — Earth's Energy Budget.** Сбалансированная схема коротковолнового и длинноволнового потоков: отражение, поглощение, излучение поверхности, обратное излучение атмосферы и уход энергии в космос. Все проценты брать из одной указанной научной оценки и не смешивать разные периоды наблюдений.
+![Энергетический баланс Земли: ясное небо и средние условия при наличии облаков / Earth's energy budget: clear-sky and all-sky conditions](https://scied.ucar.edu/sites/default/files/styles/extra_large/public/images/IPCC_AR6_WGI_Figure_7_2%20%281%29.png.webp?itok=BYh38dwb)
+
+*Энергетический баланс в Вт/м²: входящая солнечная энергия, отражение, поглощение и исходящее тепловое излучение. Значения — оценка IPCC AR6 WGI (2021) для начала XXI века с диапазонами неопределённости; это не оперативные показатели текущего года. Источник изображения: UCAR Center for Science Education; научная основа и атрибуция: IPCC AR6 WGI, Figure 7.2. / Earth's energy budget in W/m²: incoming solar energy, reflection, absorption and outgoing thermal radiation. Values are IPCC AR6 WGI (2021) estimates for the early 21st century with uncertainty ranges; they are not current-year operational measurements. Image hosted by UCAR Center for Science Education; scientific basis and attribution: IPCC AR6 WGI, Figure 7.2.* [Источник / Source](https://scied.ucar.edu/learning-zone/earth-as-a-system/energy_budget_image).
 
 ## 5.4. Температура воздуха и её распределение / Air Temperature and Its Distribution
 
@@ -141,7 +140,9 @@
 
 Скорость ветра измеряют анемометром, направление — флюгером или другими приборами. Направление ветра называют по той стороне горизонта, откуда он дует.
 
-**Место для иллюстрации 5.5-A — Pressure and Wind Systems.** Схема циклона и антициклона в Северном и Южном полушариях с направлением ветра, областями давления и вертикальными потоками.
+![Пример приземной карты с областями высокого и низкого давления и изобарами / Example surface map with high- and low-pressure systems and isobars](https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif)
+
+*Пример синоптической карты: центры высокого и низкого давления, изобары и связанное с ними поле ветра. Схема и пояснение Национальной метеорологической службы США (NWS), страница Basic Discussion on Pressure Systems. Пример относится к Северному полушарию: в Южном полушарии направление циклонического и антициклонического вращения противоположно. / Example synoptic chart showing high- and low-pressure centres, isobars and the associated wind field. Diagram and explanation by the U.S. National Weather Service (NWS), Basic Discussion on Pressure Systems. This example is for the Northern Hemisphere; cyclonic and anticyclonic rotation is reversed in the Southern Hemisphere.* [Источник / Source](https://www.weather.gov/lmk/basic-fronts).
 
 ## 5.6. Общая циркуляция атмосферы / General Atmospheric Circulation
 
@@ -584,6 +585,10 @@ Some incoming energy is reflected by clouds, aerosols, the atmosphere and the su
 
 **Energy transport.** Uneven heating by latitude creates temperature contrasts. Atmospheric circulation and ocean currents redistribute energy from lower to higher latitudes.
 
+![Earth's energy budget: clear-sky and all-sky conditions](https://scied.ucar.edu/sites/default/files/styles/extra_large/public/images/IPCC_AR6_WGI_Figure_7_2%20%281%29.png.webp?itok=BYh38dwb)
+
+*Earth's energy budget in W/m²: incoming solar energy, reflection, absorption and outgoing thermal radiation. Values are IPCC AR6 WGI (2021) estimates for the early 21st century with uncertainty ranges; they are not current-year operational measurements. Image hosted by UCAR Center for Science Education; scientific basis and attribution: IPCC AR6 WGI, Figure 7.2.* [Source](https://scied.ucar.edu/learning-zone/earth-as-a-system/energy_budget_image).
+
 ### 5.4. Air Temperature and Its Distribution
 
 Air temperature describes the thermal state of the air. It is influenced by latitude and solar angle, elevation, cloud cover and humidity, surface properties, distance from oceans and large water bodies, air-mass transport, relief and slope aspect.
@@ -605,6 +610,10 @@ A **cyclone** is a region of relatively low pressure. Near the surface, air gene
 The direction of rotation of cyclones and anticyclones is influenced by the Coriolis effect and differs between hemispheres. Near the equator the Coriolis effect is weak, so large-scale rotating systems develop differently.
 
 **Wind** is the horizontal movement of air relative to the surface. It is influenced by the pressure-gradient force, Earth's rotation, friction and the curvature of air trajectories. Wind speed is measured with an anemometer; direction may be measured with a wind vane or other instruments. Wind direction is named for the direction from which the wind blows.
+
+![Example surface map with high- and low-pressure systems and isobars](https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif)
+
+*Example synoptic chart showing high- and low-pressure centres, isobars and the associated wind field. Diagram and explanation by the U.S. National Weather Service (NWS), Basic Discussion on Pressure Systems. This example is for the Northern Hemisphere; cyclonic and anticyclonic rotation is reversed in the Southern Hemisphere.* [Source](https://www.weather.gov/lmk/basic-fronts).
 
 ### 5.6. General Atmospheric Circulation
 
