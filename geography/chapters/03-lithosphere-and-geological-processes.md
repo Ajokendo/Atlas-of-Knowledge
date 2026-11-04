@@ -981,6 +981,8 @@ On a schematic geological cross-section, identify:
 18. USGS. *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
 19. Halla, J. et al. (2024). *Ratification of the base of the ICS Geological Time Scale: the Global Standard Stratigraphic Age (GSSA) for the Hadean lower boundary*. Episodes. https://doi.org/10.18814/epiiugs/2024/024002
 20. Thomson, K. D. et al. (2026). *USGS Geochron—A Database of Geochronological and Thermochronological Dates and Data: Technical Documentation*. U.S. Geological Survey Data Report 1227. https://www.usgs.gov/publications/usgs-geochron-a-database-geochronological-and-thermochronological-dates-and-data (DOI: https://doi.org/10.3133/dr1227).
+21. U.S. Geological Survey (2026). *Minerals and Uses Activity Ore/Mineral Sample Images*. Public Domain; image sources include USGS, Smithsonian Institution, Minerals Education Coalition and Adobe Stock. https://www.usgs.gov/media/images/minerals-and-uses-activity-oreminerals-sample-images
+22. Simkin, T., Tilling, R. I., Vogt, P. R., Kirby, S. H., Kimberly, P. & Stewart, D. B. (2006). *This Dynamic Planet: World Map of Volcanoes, Earthquakes, Impact Craters, and Plate Tectonics*. U.S. Geological Survey, Geologic Investigations Map I-2800. Public Domain. https://doi.org/10.3133/i2800
 
 Для выпуска визуальных материалов следует повторно сверять геологические термины и численные подписи с актуальной международной стратиграфической шкалой и авторитетными региональными геологическими картами.
 
