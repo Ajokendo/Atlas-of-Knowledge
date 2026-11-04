@@ -31,11 +31,33 @@ The original creator/rightsholder for inherited material is Nathan Liow where th
 
 No blanket re-search is required for every unchanged inherited visual if its source identity is traceable and it remains suitable. Search for a replacement only where an inherited visual is missing, unsuitable, inaccurate, inaccessible, rights-restricted, or genuinely needs replacement.
 
-### 1.2 Rights and source-work evidence
+### 1.2 Verified source-work identity and licence evidence
 
-The current branch inventory and existing source register do not establish the item-specific licence or adaptation rights for every inherited figure or interactive scene. Those details must be checked against the original source work and any separate third-party components. Keep unknown rights visible as blockers; do not relabel inherited assets as project-created to avoid a provenance gap.
+The upstream source repository has now been identified and inspected:
 
-### 1.3 Localisation review required
+- Original work: Nathan Liow, **Atlas of Physics** — https://github.com/nathanliow/atlas-of-physics
+- Upstream README: https://github.com/nathanliow/atlas-of-physics/blob/main/README.md
+- Upstream licence: https://github.com/nathanliow/atlas-of-physics/blob/main/LICENSE
+- The upstream repository declares the **MIT License**, with copyright notice **Copyright (c) 2026 Nathan Liow**. The licence grants rights to use, copy, modify, merge, publish, distribute, sublicense, and sell the software, subject to retaining the copyright and permission notice.
+- The Physics branch's `original-engine/README.md` explicitly identifies the upstream project and states that original interactive laboratories are integrated, while learning text, interface, labels, and explanations are adapted into Russian.
+
+This establishes a documented MIT licence basis for the upstream repository code and permitted modifications, subject to retaining the required notice. It does **not** automatically clear any separately embedded third-party content if such content is present; those components still require their own rights checks. The root-level Russian chapter pages are separate implementations and must be mapped to their source material before their assets are assigned A/B/C.
+
+### 1.3 Initial source comparison — confirmed samples
+
+A direct source comparison was made for the Energy, Magnetism, and Induction interactive-book modules:
+
+- `original-engine/energy/pages.js` vs upstream `energy/pages.js`;
+- `original-engine/magnetism/pages.js` vs upstream `magnetism/pages.js`;
+- `original-engine/induction/pages.js` vs upstream `induction/pages.js`.
+
+The local modules preserve the source module structure and visual/chart-generation logic while translating learner-facing text, chart labels, axis units, figure names, and SVG accessible names into Russian. These changes are **Category B — Adapted** for the affected SVG/chart visual outputs, not merely a translation of surrounding page prose, because the labels and accessible names are part of the visual component. The code's upstream lineage and MIT licence must be recorded; retain Nathan Liow's copyright/licence notice.
+
+The corresponding `world.js` and `model.js` files in the three sampled chapters are not byte-identical to upstream. Their differences have not yet been classified line by line, so do not call those 3D scenes unchanged A or independently created C. Keep them **B/PENDING comparison** until the differences are reviewed to determine whether they are translation/localisation, bug fixes, or substantive changes to the visual/physical model.
+
+The sample confirms the upstream lineage for these modules; it does not yet constitute a complete asset-by-asset inventory of all 15 chapters.
+
+### 1.4 Localisation review required
 
 The Russian edition must be checked for accurate terminology, labels, symbols, legends, units, formulas, vector directions, numerical values, layout after text expansion, readable mobile presentation, captions, alt text, long descriptions, and equivalent data/text for complex visuals. The English source is not to be edited as part of this work.
 
@@ -108,7 +130,7 @@ Status meanings: **PENDING** = the visual requirement or asset still needs a com
 - For canvas/WebGL: provide a meaningful accessible name and a text explanation of the essential state; test fallback when rendering is unavailable.
 - Verify actual phone, tablet and desktop rendering, zoom/reflow, labels, clipping, loading and fallback. Existing browser smoke evidence is useful but does not replace manual scientific, legal, language and assistive-technology review.
 
-## 5. Preliminary status and metrics
+## 6. Preliminary status and metrics
 
 These are inventory findings, **not readiness scores**. They describe the audited branch structure only; they do not establish the complete visual inventory of Nathan Liow's English source atlas:
 
@@ -118,13 +140,14 @@ These are inventory findings, **not readiness scores**. They describe the audite
 - Image Verification: **NOT CALCULATED** — no complete asset-level evidence set exists.
 - Image Gaps: **PENDING INVENTORY** — four explicit placeholders are known (one in Chapter 12 and three in Chapter 13); additional gaps may be found during scene-by-scene review.
 - External assets found and integrated: **0 documented** in the current register.
-- Category A / B / C: **not yet reliably counted** across the derivative atlas. The three Chapter 04 entries in the existing register label methods as SVG, code-generated canvas, and Three.js/WebGL; their source lineage and creator/rightsholder evidence must be checked before treating them as independently created Category C assets. The current register's zero A/B entries is not proof that inherited visuals are absent.
+- Category A / B / C: **not yet reliably counted** across the derivative atlas. The upstream source and MIT licence are now verified. The three sampled `pages.js` modules contain Russian-localised SVG/chart outputs and are Category B for the affected visuals; corresponding `world.js`/`model.js` scene differences remain B/PENDING pending line-level review. The three Chapter 04 root-page records remain PENDING source mapping and must not be counted as C yet.
 - Scientific/factual, rights, language/accessibility and technical statuses: **PENDING at asset level**, except where individual test evidence is explicitly recorded in the register or CI logs.
 
-## 6. Prioritised action plan
+## 7. Prioritised action plan
 
-1. Establish source lineage for the three existing Chapter 04 register entries and representative visuals across the other chapters; do not assign C or creator attribution without evidence.
-2. Build a deduplicated inherited-visual map for the 15 standalone chapters and 15 interactive-book modules, linking each identifiable visual to the English source where possible.
+1. Extend the source comparison to all 15 interactive-book modules; map SVG/chart outputs, 3D scenes, models, and embedded labels to their exact upstream files and classify changes.
+2. Establish source lineage for the three existing Chapter 04 root-page register entries; do not assign C or creator attribution without evidence.
+3. Build a deduplicated inherited-visual map for the 15 standalone chapters and 15 interactive-book modules, linking each identifiable visual to the English source where possible.
 3. Audit the Russian edition's terminology, labels, formulas, symbols, units, directions, captions, alt text, long descriptions, layout, mobile rendering and interactive controls. Do not change the English original.
 4. Verify source-work reproduction rights and any separate adaptation rights for visual content changed in the Russian edition. Keep unknown rights PENDING.
 5. Preserve the four already specified visual placeholders (Chapter 12: one four-topic infographic; Chapter 13: three visual briefs). These are genuine outstanding visual needs; only search/create replacements if appropriate and rights-cleared. If image generation is unavailable, retain explicit PENDING status.
@@ -132,7 +155,7 @@ These are inventory findings, **not readiness scores**. They describe the audite
 7. Add CI checks for file/path existence, register structure, statuses, language fields, SVG validity, dimensions and responsive/overflow checks. Keep scientific, legal and translation approvals human-reviewed.
 8. Report source-work coverage, Russian-edition localisation coverage, rights verification and new-visual readiness separately; calculate only with a defined denominator.
 
-## 7. Boundary and exclusions
+## 8. Boundary and exclusions
 
 - All audit and implementation work is restricted to `workspace/physics`.
 - Do not edit `main`, the central policy, the portal, publishing settings or other subject branches.
