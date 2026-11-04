@@ -388,3 +388,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 10 — Montevideo Convention source cross-check — 5 November 2026
 
 - Added separate links for the treaty text (U.S. Department of State historical record; University of Oslo Law Faculty treaty library) and treaty metadata (OAS record; UN Treaty Collection record). Articles 1 and 3 were checked against the text. Commit: `f2a8d5c3f3845166700f11be255f1c59280967f4`.
+
+
+### Chapter 10 — M49 statistical versus legal geography distinction — 5 November 2026
+
+- Added a bilingual clarification that UN M49 classifies countries and areas for statistical reporting and comparison; it does not determine sovereignty, statehood, recognition or the legal course of state boundaries. Checked against the UN Statistics Division M49 methodology overview and its explanation of statistical identity. Commit: `cf70c9c4d7875dd643956b11811c9ccc73fb9f0c`.
