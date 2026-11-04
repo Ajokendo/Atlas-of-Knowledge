@@ -47,6 +47,9 @@ async function checkLesson(mobile) {
     if (!labState.webgl || labState.width < 100 || labState.height < 100) {
       throw new Error(`3D electrostatics lab WebGL canvas did not initialize: ${JSON.stringify(labState)}`);
     }
+    await page.waitForFunction(() => document.querySelector('.physics-stage canvas')?.getAttribute('aria-label')?.includes('эквипотенциальных контуров'));
+    const bookLink = page.getByRole('link', { name: /интерактивную девятистраничную книгу по электростатике/i });
+    if (!(await bookLink.getAttribute('href'))?.includes('../original-engine/electrostatics/')) throw new Error('link to the detailed electrostatics book is missing');
 
     const readout = async id => (await page.locator(id).innerText()).replace(/\s+/g, ' ').trim();
     if (!(await readout('#r0')).includes('5,3925 Н')) throw new Error(`default Coulomb force should be 5.3925 N, got ${await readout('#r0')}`);
