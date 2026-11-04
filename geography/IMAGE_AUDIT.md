@@ -540,3 +540,8 @@ A source scan of all chapter files 06–26 found **210 distinct visual IDs** acr
 - Rechecked the chapter: **40 image embeds, 20 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
 - RU/EN parity for 5.12-A, 5.14-A and 5.15-A is now **PASS** at the chapter-source level. Their creator/rightsholder, project licence, scientific review and rendered technical checks remain PENDING; none is VERIFIED.
 - The chapter's 5.18-A synoptic-map exercise remains a placeholder and is not counted as integrated.
+
+
+### 7.9 Chapter 05 visual defect corrected — climate diagram month labels
+
+The static content review of `chapter-05-climate-diagram-exercise.svg` found that all 24 month labels (12 months in each of two climate diagrams) were Russian-only despite the asset being presented as bilingual. Replaced them with stacked Russian/English abbreviations. A post-update fetch confirms 24/24 month-label groups now contain both scripts. The dataset remains explicitly labelled as synthetic teaching data, not observations from real weather stations. This fixes the language-parity defect for the month labels only; the full visual and scientific review remains pending.
