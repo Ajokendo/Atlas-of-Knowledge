@@ -646,3 +646,12 @@ The chapter-level audit records were added to each source chapter. Findings and 
 - Added the UN Population Division DemoData portal as a source for underlying empirical demographic series. Its portal reports data through 2026 and a last update of 3 November 2026; the chapter now requires the exact series and extraction date. Source: https://population.un.org/demodata/
 - Chapter content commits: `fd0cade68e49b8d41a6a5cbd92cc5b545586d265` (migration/HDI source additions and bilingual revisions); `061f315d757495b3b5140a1d24726da13520d69a` (English migration alignment); `05b4e8a4f337592fba7420bb0afe9a8f84eff02e` (IDP/refugee distinction, glossary and summary parity).
 - **Limit:** the work closes specific source and concept gaps, not the full sentence-level bilingual line edit or all claim-to-source verification. Six visual assets remain placeholders; no image integration, final visual review, accessibility/browser/mobile testing or release QA is claimed.
+
+
+### Chapter 09 — final structural and bilingual inventory recheck — 5 November 2026
+
+- Rechecked the current branch after the migration, HDI, forced-displacement and glossary edits. The Russian and English teaching-heading inventories match: 18/18 IDs (sections 9.1–9.16 plus worked/method subsections 9.8.1 and 9.16.1).
+- Review-question inventories match: 15 Russian / 15 English. Practical-activity inventories match: 5 / 5. The bibliography contains 15 numbered sources. Six unique visual IDs (09-A–09-F) remain placeholders; no images were generated or integrated.
+- Verified the chapter end marker precedes the focused audit record. The audit record explicitly leaves sentence-level RU/EN proofreading, full claims-to-source closure, visual creation/review and accessibility/release QA open.
+- Final chapter content commit in this pass: `4ccde56c905c5b80262f42ef3297c1b9c44ad609` (bilingual glossary punctuation and terminology). Earlier content commits in this pass: `fd0cade68e49b8d41a6a5cbd92cc5b545586d265`, `061f315d757495b3b5140a1d24726da13520d69a`, `05b4e8a4f337592fba7420bb0afe9a8f84eff02e`.
+- Readiness matrix updated to **75%**; this reflects targeted concept/source closures, not visual completion or final publication readiness. Matrix commit: `945e8c8d45671a4973224b5852a4c82a30fb1472`.
