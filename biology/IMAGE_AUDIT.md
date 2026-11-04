@@ -317,3 +317,14 @@ A fresh parser-based revalidation covered the ten non-regional subject chapters:
 - The regional chapters had previously passed the same corrected structural checks. Across all 12 chapters, the combined inventory remains 59 semantic figures, 57 image-containing figures, and 62 external image elements (some flora figures intentionally group multiple photos). All 57 image-containing figures have bilingual captions, and all 62 image elements have non-empty alt text.
 
 This is source-markup validation, not a new rendered visual inspection or physical-device/screen-reader session. Global Image Verification remains **Pending audit** for detailed per-asset visual and scientific review. The current author-side editorial-readiness checkpoint remains 99/100; this structural revalidation does not justify increasing it.
+
+
+## Full generated-SVG structural and accessibility metadata sweep — 5 November 2026
+
+A source-level sweep covered all 48 original SVG files in `images/generated/`, including the standalone Biology cover asset. Each file was checked for an SVG root element, a `viewBox`, a `<title>` and `<desc>` containing both Cyrillic and Latin-script text, a closing SVG tag, and the presence of embedded scripts, `foreignObject`, external/data URI references or embedded raster-image elements.
+
+- The first pass found two description-language gaps: `cell-animal.svg` had a Russian-only `<desc>`, and `zoology-adaptation.svg` had an English-only `<desc>`.
+- Both descriptions have now been completed in Russian and English without changing the visible illustration or its scientific scope.
+- The full set now passes the checked source-pattern criteria: 48/48 have `viewBox`, bilingual title and description metadata, and a closing SVG tag; none of the 48 contains a detected `<script>`, `<foreignObject>`, external/data URI reference or embedded `<image>` element.
+
+This is a source-text structural/accessibility-metadata check, not standards-complete XML parsing, rendered visual inspection, contrast testing, or screen-reader/device QA. It does not establish scientific correctness of every visual detail. Global Image Verification remains **Pending audit**.
