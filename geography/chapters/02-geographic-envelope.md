@@ -61,7 +61,6 @@
 ![Пять основных слоёв атмосферы / The five basic layers of the atmosphere](https://www.noaa.gov/sites/default/files/2021-12/basic%20layers%20of%20the%20atmosphere.jpg)
 
 *Источник / Source: NOAA National Weather Service, JetStream, “Layers of the Atmosphere”. Указание источника: NOAA. Схема показывает ориентировочные границы слоёв; тропосфера заметно меняет высоту в зависимости от широты. / Credit: NOAA. The diagram shows approximate layer boundaries; troposphere height varies substantially with latitude.*
-> **EN:** Vertical atmospheric profile showing the troposphere, stratosphere, mesosphere, thermosphere and exosphere; label layer heights as approximate.
 
 Атмосфера удерживается гравитацией Земли. Она регулирует теплообмен, обеспечивает перенос влаги, формирует погоду и защищает поверхность планеты от значительной части вредного ультрафиолетового излучения.
 
