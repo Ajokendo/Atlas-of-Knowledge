@@ -11,7 +11,7 @@
 <text class="muted" x="600" y="78" text-anchor="middle" font-size="20">BODY COVERINGS AND RESPIRATION IN VERTEBRATES</text>
 <text class="muted sub" x="600" y="108" text-anchor="middle">Типичные признаки групп, а не универсальные правила / Typical group patterns, not universal rules</text>
 <!-- fish -->
-<rect class="card" x="30" y="140" width="360" height="320" rx="18"/>
+<rect class="card" x="30" y="140" width="360" height="330" rx="18"/>
 <text class="ink label" x="55" y="180">Рыбы / Fish</text>
 <g transform="translate(0 0)">
 <path class="blue" d="M95 270 Q160 215 255 260 Q160 320 95 270Z"/><path class="soft" d="M255 260 L315 220 L312 300Z"/>
@@ -45,7 +45,8 @@
 <text class="muted small" x="445" y="370">Тонкая влажная кожа</text>
 <text class="muted small" x="445" y="392">Thin, moist skin</text>
 <text class="ink sub" x="445" y="422">Дыхание / Respiration</text>
-<text class="muted small" x="445" y="445">Кожа и лёгкие у взрослых; у личинок часто жабры</text>
+<text class="muted small" x="445" y="440">Кожа и лёгкие у взрослых; у личинок часто жабры</text>
+<text class="muted tiny" x="445" y="461">Skin and lungs in adults; many larvae have gills</text>
 <!-- reptiles -->
 <rect class="card" x="810" y="140" width="360" height="320" rx="18"/>
 <text class="ink label" x="835" y="180">Пресмыкающиеся / Reptiles</text>
