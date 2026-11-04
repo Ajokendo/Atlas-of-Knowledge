@@ -3,7 +3,7 @@
 Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Visual production checkpoint — 4 November 2026
-- 39 of 53 mapped illustration briefs are produced or integrated (73.6%); 14 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
+- 40 of 53 mapped illustration briefs are produced or integrated (75.5%); 13 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
 - Added the original bilingual `fauna-invertebrates.svg` comparison plate to the Kyrgyzstan fauna chapter. It distinguishes insect and arachnid body plans and does not claim to be a regional species inventory.
 
 ## Languages and design
@@ -1423,4 +1423,10 @@ Created and integrated the original bilingual SVG `images/generated/zoology-adap
 ## Visual production update — 4 November 2026
 - Added and integrated `images/generated/microbe-virus-cycle.svg` in `chapters/microbiology.html`.
 - The bilingual plate presents a five-stage generalised viral replication sequence and explicitly avoids implying that entry, genome replication or release follows one universal mechanism across virus families.
-- The visual programme now stands at **39 of 53 briefs (73.6%)**; 14 remain. Focused browser visual QA for this new figure is still pending.
+- The visual programme now stands at **39 of 53 briefs (73.6%)**; 14 remain. Focused browser visual QA for the newly produced microbiology figures is still pending.
+
+
+## Visual production update — 4 November 2026
+- Added and integrated `images/generated/microbe-resistance.svg` in `chapters/microbiology.html`.
+- The bilingual figure demonstrates natural selection at population level: susceptible cells are suppressed under antimicrobial pressure, while heritably resistant variants survive and reproduce. It notes mutation or acquisition of resistance genes and rejects purposeful adaptation.
+- The visual programme now stands at **40 of 53 briefs (75.5%)**; 13 remain. Focused browser visual QA for these new microbiology figures is pending.
