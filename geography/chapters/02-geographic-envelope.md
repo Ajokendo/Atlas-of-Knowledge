@@ -56,6 +56,11 @@
 ## 2.3. Атмосфера: газовая оболочка планеты / Atmosphere: The Gaseous Envelope
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 2-B / IMAGE PLACEHOLDER 2-B]** Вертикальный разрез атмосферы с тропосферой, стратосферой, мезосферой, термосферой и экзосферой; высоты подписать как ориентировочные.
+> **EN:** Vertical section of the atmosphere showing the troposphere, stratosphere, mesosphere, thermosphere and exosphere; label heights as approximate.
+
+![Пять основных слоёв атмосферы / The five basic layers of the atmosphere](https://www.noaa.gov/sites/default/files/2021-12/basic%20layers%20of%20the%20atmosphere.jpg)
+
+*Источник / Source: NOAA National Weather Service, JetStream, “Layers of the Atmosphere”. Указание источника: NOAA. Схема показывает ориентировочные границы слоёв; тропосфера заметно меняет высоту в зависимости от широты. / Credit: NOAA. The diagram shows approximate layer boundaries; troposphere height varies substantially with latitude.*
 > **EN:** Vertical atmospheric profile showing the troposphere, stratosphere, mesosphere, thermosphere and exosphere; label layer heights as approximate.
 
 Атмосфера удерживается гравитацией Земли. Она регулирует теплообмен, обеспечивает перенос влаги, формирует погоду и защищает поверхность планеты от значительной части вредного ультрафиолетового излучения.
@@ -92,12 +97,20 @@
 
 Границы условны и меняются в зависимости от широты, сезона и солнечной активности. Тропосфера содержит большую часть массы атмосферного воздуха и почти весь атмосферный водяной пар. Озоновый слой стратосферы поглощает значительную часть ультрафиолетового излучения Солнца.
 
-**Место для иллюстрации 2.3-A — Vertical Structure of Earth's Atmosphere.** Вертикальный разрез с высотной шкалой, температурным профилем, озоновым слоем, облаками, метеорами и спутниками.
+**Иллюстрация 2.3-A — Температурный профиль атмосферы / Atmospheric Temperature Profile.**
+
+![График изменения температуры с высотой и границы атмосферных слоёв / Atmospheric temperature profile and layer boundaries](https://www.noaa.gov/media/image_download/4abff0ab-b122-4940-9629-0ae8d5f63a03)
+
+*Источник / Source: NOAA JetStream, “Layers of the Atmosphere” (temperature profile). Материал NOAA; указать NOAA в атрибуции. Высоты и профиль являются типичными, а не неизменными для всех широт и сезонов. / NOAA material; credit NOAA. Heights and profile are representative, not fixed for all latitudes and seasons.*
 
 ## 2.4. Гидросфера: водная оболочка Земли / Hydrosphere: Earth's Water Envelope
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 2-C / IMAGE PLACEHOLDER 2-C]** Инфографика распределения воды Земли между океаном, ледниками, подземными водами и поверхностными водоёмами; округлённые доли снабдить источником.
 > **EN:** Infographic of Earth's water distribution among oceans, glaciers, groundwater and surface waters; cite the source for rounded proportions.
+
+![Распределение воды Земли: вся вода, пресная вода и поверхностные пресные воды / Distribution of Earth's water: all water, freshwater and surface freshwater](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
+
+*Источник / Source: USGS Water Science School, “The distribution of water on, in, and above the Earth” (2019). Public Domain. Округлённые доли основаны на оценках Игоря Шикломанова, опубликованных в 1993 году; это историческая глобальная оценка, а не измерение за 2026 год. / Rounded proportions trace to Igor Shiklomanov's 1993 estimates; this is a historical global estimate, not a 2026 measurement. [Страница оригинала / Original source page](https://www.usgs.gov/media/images/distribution-water-and-above-earth).
 
 Гидросфера включает Мировой океан, континентальные поверхностные воды, подземные воды, ледники, снежный покров и атмосферную влагу.
 
@@ -136,7 +149,11 @@
 
 Это не замкнутая последовательность шагов: процессы могут идти одновременно, а вода может временно храниться в океане, атмосфере, почве, озёрах, снежном покрове, ледниках и водоносных горизонтах. Водозабор, водохранилища, орошение и осушение болот также меняют места хранения и пути движения воды.
 
-**Место для иллюстрации 2.4-A — The Global Water Cycle.** Океан, облака, испарение, атмосферный перенос, горные ледники, реки, подземные воды и возврат воды в океан.
+**Иллюстрация 2.4-A — Глобальный круговорот воды / The Global Water Cycle.**
+
+![Глобальный круговорот воды с природными резервуарами, потоками и воздействием человека / Global water cycle with natural pools, fluxes and human impacts](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png)
+
+*Источник / Source: USGS VizLab, “The Water Cycle” (2022), создано совместно с USGS Water Resources Mission Area Web Communications Branch. Public Domain. Диаграмма включает использование воды человеком и влияние на её качество; это не только естественный цикл. / Public Domain. The diagram includes human water use and water-quality impacts; it is not a natural-only cycle. [Описание и версия для изучения / Description and learning version](https://www.usgs.gov/media/images/water-cycle).*
 
 ### 2.4.3. Неравномерность распределения воды
 
