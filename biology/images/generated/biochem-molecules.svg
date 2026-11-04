@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-labelledby="t d">
+<title id="t">Four major classes of biomolecules / Четыре класса биомолекул</title>
+<desc id="d">Carbohydrates are shown as linked sugar rings; a lipid as glycerol with three fatty-acid chains, not a repeating polymer; proteins as an amino-acid chain folded into a functional shape; nucleic acids as a sugar-phosphate backbone with bases. / Углеводы показаны соединёнными сахарными кольцами; липид — глицерином с тремя цепями жирных кислот, а не повторяющимся полимером; белок — цепью аминокислот, свернутой в функциональную форму; нуклеиновые кислоты — сахарофосфатным остовом с основаниями.</desc>
+<rect width="1000" height="650" rx="18" fill="#fbfbfa"/>
+<text x="500" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#202522"><tspan class="ru">Четыре класса биомолекул</tspan><tspan class="en">Four major classes of biomolecules</tspan></text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="28" y="80" width="220" height="500" rx="14" fill="#edf2e9" stroke="#9aaf91" stroke-width="2"/>
+<text x="138" y="119" font-size="20" font-weight="700" fill="#365c3b"><tspan class="ru">Углеводы</tspan><tspan class="en">Carbohydrates</tspan></text>
+<g stroke="#557c58" stroke-width="4" fill="#d8e5d2"><path d="M78 205L99 168L141 168L162 205L141 242L99 242Z"/><path d="M147 205L168 168L210 168L231 205L210 242L168 242Z" transform="translate(-28 90)"/></g>
+<path d="M162 205L175 205" stroke="#557c58" stroke-width="4"/>
+<text x="138" y="300" font-size="15" fill="#27372a"><tspan class="ru">Моносахариды</tspan><tspan class="en">Monosaccharides</tspan></text>
+<text x="138" y="326" font-size="13" fill="#526052"><tspan class="ru">могут соединяться</tspan><tspan class="en">can link to form</tspan></text>
+<text x="138" y="350" font-size="15" font-weight="700" fill="#365c3b"><tspan class="ru">полисахариды</tspan><tspan class="en">polysaccharides</tspan></text>
+<text x="138" y="420" font-size="14" fill="#526052"><tspan class="ru">Энергия и структура</tspan><tspan class="en">Energy and structure</tspan></text>
+<text x="138" y="455" font-size="12" fill="#526052">glucose · starch · cellulose</text>
+<rect x="270" y="80" width="220" height="500" rx="14" fill="#f3efe7" stroke="#c9b99b" stroke-width="2"/>
+<text x="380" y="119" font-size="20" font-weight="700" fill="#765d36"><tspan class="ru">Липиды</tspan><tspan class="en">Lipids</tspan></text>
+<circle cx="380" cy="190" r="13" fill="#b28b54"/>
+<path d="M380 203L380 238M380 218L330 258L320 305M380 218L380 265L380 310M380 218L430 258L440 305" fill="none" stroke="#a17a42" stroke-width="7" stroke-linecap="round"/>
+<text x="380" y="350" font-size="14" fill="#594a32"><tspan class="ru">Глицерин + жирные кислоты</tspan><tspan class="en">Glycerol + fatty acids</tspan></text>
+<text x="380" y="382" font-size="13" fill="#765d36"><tspan class="ru">Не обычный повторяющийся полимер</tspan><tspan class="en">Not a conventional repeating polymer</tspan></text>
+<text x="380" y="450" font-size="14" fill="#594a32"><tspan class="ru">Запас энергии и мембраны</tspan><tspan class="en">Energy storage and membranes</tspan></text>
+<rect x="512" y="80" width="220" height="500" rx="14" fill="#eaf0f2" stroke="#9eb5bf" stroke-width="2"/>
+<text x="622" y="119" font-size="20" font-weight="700" fill="#3e6577"><tspan class="ru">Белки</tspan><tspan class="en">Proteins</tspan></text>
+<path d="M555 220Q575 160 600 208T650 198T692 245T650 278T610 260T565 300" fill="none" stroke="#527f91" stroke-width="7" stroke-linecap="round"/>
+<g fill="#d4e4e9" stroke="#527f91" stroke-width="2"><circle cx="555" cy="220" r="10"/><circle cx="580" cy="181" r="10"/><circle cx="610" cy="219" r="10"/><circle cx="640" cy="214" r="10"/><circle cx="670" cy="220" r="10"/><circle cx="680" cy="260" r="10"/></g>
+<text x="622" y="350" font-size="14" fill="#3e6577"><tspan class="ru">Цепи аминокислот</tspan><tspan class="en">Amino-acid chains</tspan></text>
+<text x="622" y="380" font-size="13" fill="#52656b"><tspan class="ru">сворачиваются в форму</tspan><tspan class="en">fold into a specific shape</tspan></text>
+<text x="622" y="450" font-size="14" fill="#3e6577"><tspan class="ru">Ферменты и другие функции</tspan><tspan class="en">Enzymes and other functions</tspan></text>
+<rect x="754" y="80" width="218" height="500" rx="14" fill="#f1ebf2" stroke="#bba8c0" stroke-width="2"/>
+<text x="863" y="119" font-size="20" font-weight="700" fill="#765b7d"><tspan class="ru">Нуклеиновые кислоты</tspan><tspan class="en">Nucleic acids</tspan></text>
+<path d="M810 170C910 205 810 260 910 295M910 170C810 205 910 260 810 295" fill="none" stroke="#96749b" stroke-width="4"/>
+<g stroke="#96749b" stroke-width="3"><path d="M830 183L890 183M847 207L873 207M835 232L885 232M820 258L900 258M838 282L882 282"/></g>
+<text x="863" y="350" font-size="14" fill="#624c68"><tspan class="ru">Нуклеотиды</tspan><tspan class="en">Nucleotides</tspan></text>
+<text x="863" y="380" font-size="13" fill="#624c68"><tspan class="ru">сахар + фосфат + основание</tspan><tspan class="en">sugar + phosphate + base</tspan></text>
+<text x="863" y="450" font-size="14" fill="#765b7d"><tspan class="ru">Хранение и передача информации</tspan><tspan class="en">Information storage and transfer</tspan></text>
+</g>
+<text x="500" y="615" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#626b65"><tspan class="ru">Структуры условны и не в масштабе; схемы не показывают полную химическую формулу молекул.</tspan><tspan class="en">Structures are schematic and not to scale; they do not show complete molecular formulas.</tspan></text>
+</svg>
