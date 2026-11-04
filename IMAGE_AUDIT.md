@@ -43,29 +43,37 @@ The upstream source repository has now been identified and inspected:
 
 This establishes a documented MIT licence basis for the upstream repository code and permitted modifications, subject to retaining the required notice. It does **not** automatically clear any separately embedded third-party content if such content is present; those components still require their own rights checks. The root-level Russian chapter pages are separate implementations and must be mapped to their source material before their assets are assigned A/B/C.
 
-### 1.3 Initial source comparison — confirmed samples
+### 1.3 Interactive-book page-module source comparison — all 15 chapters
 
-A direct source comparison was made for the Energy, Magnetism, and Induction interactive-book modules:
+On 2026-11-05, the local `pages.js` module for every interactive-book chapter was fetched and compared with the corresponding upstream file in Nathan Liow's repository. All 15 pairs were found; none was byte-identical because the local modules contain Russian-language localisation.
 
-- `original-engine/energy/pages.js` vs upstream `energy/pages.js`;
-- `original-engine/magnetism/pages.js` vs upstream `magnetism/pages.js`;
-- `original-engine/induction/pages.js` vs upstream `induction/pages.js`.
+| Original chapter | Module | Comparison result |
+|---:|---|---|
+| 01 — Kinematics | `kinematics/pages.js` | Russian learner-facing text and visual labels |
+| 02 — Newton's Laws | `newton/pages.js` | Russian learner-facing text and visual labels |
+| 03 — Circular Motion | `circular/pages.js` | Russian learner-facing text and visual labels |
+| 04 — Work and Energy | `energy/pages.js` | Russian text/labels; `bondU` chart domain also changed |
+| 05 — Momentum | `momentum/pages.js` | Russian learner-facing text and visual labels |
+| 06 — Oscillations | `oscillations/pages.js` | Russian learner-facing text and visual labels |
+| 07 — Rotation | `rotation/pages.js` | Russian learner-facing text and visual labels |
+| 08 — Fluids | `fluids/pages.js` | Russian learner-facing text and visual labels |
+| 09 — Electrostatics | `electrostatics/pages.js` | Russian learner-facing text and visual labels |
+| 10 — Gauss's Law | `gauss/pages.js` | Russian learner-facing text and visual labels |
+| 11 — Electric Potential | `potential/pages.js` | Russian learner-facing text and visual labels |
+| 12 — Capacitors | `capacitors/pages.js` | Russian learner-facing text and visual labels |
+| 13 — Electric Circuits | `circuits/pages.js` | Russian learner-facing text and visual labels |
+| 14 — Magnetism | `magnetism/pages.js` | Russian learner-facing text and visual labels |
+| 15 — Electromagnetic Induction | `induction/pages.js` | Russian learner-facing text and visual labels |
 
-The local modules preserve the source module structure and visual/chart-generation logic while translating learner-facing text, chart labels, axis units, figure names, and SVG accessible names into Russian. These changes are **Category B — Adapted** for the affected SVG/chart visual outputs, not merely a translation of surrounding page prose, because the labels and accessible names are part of the visual component. The code's upstream lineage and MIT licence must be recorded; retain Nathan Liow's copyright/licence notice.
+The modules retain the upstream page structure and chart/SVG generation patterns in the compared sections. Where Russian text is embedded in an SVG, chart, figure, or accessible visual label, that affected output is **B — Adapted**; translation of surrounding prose alone is localisation and is not enough to reclassify an unchanged visual. This comparison establishes source lineage for the 15 page modules, not a complete inventory or approval of every individual scene, chart, or visual state.
 
-The corresponding `world.js` and `model.js` files in the three sampled chapters are not byte-identical to upstream. Their differences have not yet been classified line by line, so do not call those 3D scenes unchanged A or independently created C. Keep them **B/PENDING comparison** until the differences are reviewed to determine whether they are translation/localisation, bug fixes, or substantive changes to the visual/physical model.
+The following non-translation differences were identified and require separate treatment:
 
-The sample confirms the upstream lineage for these modules; it does not yet constitute a complete asset-by-asset inventory of all 15 chapters.
+- In `energy/pages.js`, the `bondU` chart domain changes from upstream `x0: 0.13, y1: 0.4` to `x0: 0.125, y1: 3.2`. Evaluating the unchanged Lennard–Jones potential in `energy/model.js`, (U(r)=\varepsilon[(r_0/r)^{12}-2(r_0/r)^6]), at (r=0.125\,\mathrm{nm}) gives approximately (2.94\,\mathrm{eV}). The previous 0.4 eV upper limit would clip the repulsive branch; the 3.2 eV limit includes it. This is a justified display-range correction, not a change to the physical model. Keep the graph's interpretation and axis labels in the scientific review.
+- In `magnetism/pages.js` / `magnetism/model.js`, `sinDeg` and `cosDeg` helpers remove floating-point residue at exact parallel/perpendicular orientations. This is a computational correction, not a new visual. The local `magnetism/checks.mjs` adds endpoint and Lorentz-force checks; retain this as a documented branch-specific fix.
+- The comparison of `magnetism/world.js`, `induction/world.js`, and all other `world.js`/3D scene modules is not yet complete. Do not classify every 3D scene as A or B until its labels, geometry, and behaviour have been compared with upstream.
 
-A second comparison of the Magnetism and Induction scene/model files found:
-
-- In `magnetism/world.js`, object names, scene titles, vector descriptions, field/current labels, and voltage labels are translated into Russian. The 3D geometry and scene construction are retained in the sampled sections. Because in-scene labels are part of the visual output, these scene visuals are **B — Adapted** (localised visual labels), not A.
-- In `induction/world.js`, the same pattern is present: the 3D scene structure is retained while names, magnetic-field/current labels, loop/coil labels, and explanatory text are translated. The affected scene visuals are **B — Adapted**.
-- In `induction/model.js`, the four magnet-pole movement case names are translated; the sampled change is learner-facing scenario text, not a new independent visual.
-- In `magnetism/model.js`, additional `sinDeg`/`cosDeg` helpers remove floating-point residue at exact parallel/perpendicular angles. This is a computational correction, not evidence of a newly authored visual. It should remain documented as a branch-specific physics/model fix and be covered by the chapter's numerical checks.
-- In `energy/pages.js`, Russian chart labels, axis units, figure names and accessible names are present. A chart range also differs from upstream (`bondU` y-range), so this is not a translation-only difference; the altered domain requires scientific/pedagogical verification before the corresponding chart is marked VERIFIED.
-
-These comparisons support Category B for the affected Russian-labelled scene/chart outputs. They do not establish that every scene in the modules has been reviewed, nor do they determine final per-visual counts.
+These findings support Category B for the affected Russian-labelled SVG/chart outputs. They do not establish final per-visual counts, item-level rights clearance, or full chapter visual verification.
 
 ### 1.4 Localisation review required
 
