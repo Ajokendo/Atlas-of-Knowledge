@@ -198,7 +198,11 @@
 
 Морены обычно состоят из несортированного материала, перенесённого и отложенного ледником; они могут образовывать боковые, конечные, срединные и донные гряды или покровы. **Друмлины** — вытянутые сглаженные холмы из ледниковых отложений, часто ориентированные по направлению движения льда. **Озы** — извилистые гряды песка и гравия, отложенные потоками талой воды внутри или под ледником. **Камы** — холмы слоистых песков и гравия, накопленных талыми водами у края или внутри ледника. **Зандровые равнины** формируются перед ледником из осадков талых вод. **Эрратические валуны** — крупные обломки, перенесённые ледником далеко от места их происхождения. Эти формы помогают реконструировать положение и динамику древних ледников.
 
-**Место для иллюстрации 4.7-A — Glacial Landforms.** Сравнить кар, троговую и висячую долины, арет, рог, моренные валы, оз, кам, друмлин и зандровую равнину.
+**Иллюстрация 4.7-A — Ледниковые формы рельефа / Glacial Landforms.**
+
+![Схематическое сопоставление кара, троговой долины, арета, рога, морены, оза и друмлина. / Schematic comparison of cirque, U-shaped valley, arête, horn, moraine, esker and drumlin.](../assets/04-7-A-glacial-landforms-bilingual.svg)
+
+*Условная схема; набор форм зависит от типа ледника, рельефа и истории оледенения. / Conceptual diagram; landforms depend on glacier type, terrain and glacial history.*
 
 ## 4.8. Эоловые формы рельефа / Aeolian Landforms
 
@@ -218,7 +222,11 @@
 
 Форма дюны зависит от режима ветров, доступности песка, влажности и растительности. **Бархан** обычно имеет серповидную форму; его «рога» направлены по ветру. Он формируется при ограниченном запасе песка и устойчивом преобладающем направлении ветра. **Поперечные дюны** располагаются грядами примерно поперёк преобладающего ветра и обычно требуют обильного запаса песка. **Продольные дюны** вытянуты примерно вдоль результирующего направления ветров. **Дефляционные котловины** возникают при выдувании рыхлого материала, а **лёсс** представляет собой накопления пылеватых частиц, перенесённых ветром.
 
-**Место для иллюстрации 4.8-A — Wind-Shaped Landscapes.** Схемы бархана, продольной и поперечной дюн, дефляционной котловины и лёссового покрова; показать направление ветра.
+**Иллюстрация 4.8-A — Эоловые формы рельефа / Aeolian Landforms.**
+
+![Схема бархана, продольной и поперечной дюн, дефляционной котловины и лёссового покрова с направлением ветра. / Diagram of barchan, longitudinal and transverse dunes, deflation hollow and loess cover with wind direction.](../assets/04-8-A-aeolian-landforms-bilingual.svg)
+
+*Форма дюн зависит от режима ветра, доступности песка и растительности. / Dune form depends on wind regime, sand supply and vegetation.*
 
 ## 4.9. Карстовый рельеф / Karst Landforms
 
@@ -239,7 +247,11 @@
 
 Карстовые территории могут быть уязвимы к загрязнению подземных вод, поскольку вода быстро проникает через трещины и полости.
 
-**Место для иллюстрации 4.9-A — Karst System.** Блок-диаграмма карстового массива с каррами, воронкой, понором, пещерой, подземным потоком, источником и натёчными образованиями; различить сталактиты и сталагмиты.
+**Иллюстрация 4.9-A — Карстовая система / Karst System.**
+
+![Блок-диаграмма карстового массива с воронкой, понором, пещерой, подземным потоком, источником, сталактитами и сталагмитами. / Karst block diagram showing sinkhole, swallow hole, cave, underground stream, spring, stalactites and stalagmites.](../assets/04-9-A-karst-system-bilingual.svg)
+
+*Карст развивается в растворимых породах; схема показывает типичные, но не обязательные элементы одной системы. / Karst develops in soluble rocks; the diagram shows typical, not compulsory, components of a system.*
 
 ## 4.10. Береговые и морские формы рельефа / Coastal and Marine Landforms
 
@@ -604,7 +616,11 @@ Glaciers move under gravity and transform the surface by erosion, transport and 
 
 **Depositional landforms** include moraines, drumlins, eskers, kames, outwash plains and erratic boulders. Moraines commonly consist of unsorted material transported and deposited by ice; they may form lateral, terminal, medial or ground accumulations. **Drumlins** are elongated, streamlined hills of glacial sediment, commonly aligned with ice flow. **Eskers** are winding ridges of sand and gravel deposited by meltwater streams within or beneath a glacier. **Kames** are mounds of layered sand and gravel deposited by meltwater at or within the ice margin. **Outwash plains** form in front of glaciers from sediment carried by meltwater. **Erratic boulders** are large rocks transported far from their source by moving ice. These landforms help reconstruct former glacier extent and dynamics.
 
-**[ILLUSTRATION PLACEHOLDER 4.7-A]** Show a cirque, U-shaped and hanging valleys, arête, horn, moraine, esker, kame, drumlin and outwash plain; distinguish erosional and depositional forms.
+**Illustration 4.7-A — Glacial Landforms.**
+
+![Schematic comparison of cirque, U-shaped valley, arête, horn, moraine, esker and drumlin. / Схематическое сопоставление кара, троговой долины, арета, рога, морены, оза и друмлина.](../assets/04-7-A-glacial-landforms-bilingual.svg)
+
+*Conceptual diagram; landforms depend on glacier type, terrain and glacial history. / Условная схема; набор форм зависит от типа ледника, рельефа и истории оледенения.*
 
 ### 4.8. Aeolian Landforms
 
@@ -614,7 +630,11 @@ The main processes are **deflation** (removal of loose material by wind), **abra
 
 Typical landforms include dunes, barchans, longitudinal and transverse sand ridges, deflation hollows and loess deposits. Dune shape depends on wind regime, sand supply, moisture and vegetation. A **barchan** is usually crescent-shaped, with its horns pointing downwind; it forms where sand supply is limited and one wind direction prevails. **Transverse dunes** form ridges roughly across the prevailing wind and commonly require abundant sand. **Longitudinal dunes** are elongated roughly parallel to the resultant wind direction. **Deflation hollows** form where loose material is removed by wind, while **loess** consists of wind-transported silt deposits.
 
-**[ILLUSTRATION PLACEHOLDER 4.8-A]** Compare a barchan, longitudinal and transverse dunes, a deflation hollow and a loess deposit; add prevailing-wind arrows and note the role of sand supply.
+**Illustration 4.8-A — Aeolian Landforms.**
+
+![Diagram of barchan, longitudinal and transverse dunes, deflation hollow and loess cover with wind direction. / Схема бархана, продольной и поперечной дюн, дефляционной котловины и лёссового покрова с направлением ветра.](../assets/04-8-A-aeolian-landforms-bilingual.svg)
+
+*Dune form depends on wind regime, sand supply and vegetation. / Форма дюн зависит от режима ветра, доступности песка и растительности.*
 
 ### 4.9. Karst Landforms
 
@@ -624,7 +644,11 @@ Surface karst features include **karren** (small grooves and runnels dissolved i
 
 Karst areas may be vulnerable to groundwater pollution because water can move rapidly through fractures and cavities.
 
-**[ILLUSTRATION PLACEHOLDER 4.9-A]** Show karren, a sinkhole, swallow hole, cave, underground flow, speleothems and spring; distinguish stalactites from stalagmites.
+**Illustration 4.9-A — Karst System.**
+
+![Karst block diagram showing sinkhole, swallow hole, cave, underground stream, spring, stalactites and stalagmites. / Блок-диаграмма карстового массива с воронкой, понором, пещерой, подземным потоком, источником, сталактитами и сталагмитами.](../assets/04-9-A-karst-system-bilingual.svg)
+
+*Karst develops in soluble rocks; the diagram shows typical, not compulsory, components of a system. / Карст развивается в растворимых породах; схема показывает типичные, но не обязательные элементы одной системы.*
 
 ### 4.10. Coastal and Marine Landforms
 
