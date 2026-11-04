@@ -511,3 +511,11 @@ These checks establish that the expected local files exist, the chapter source r
 - `3.5-A` *This Dynamic Planet* I-2800: the exact USGS media page identifies the image as Public Domain. It is a 2006 reference map and must not be represented as current hazard, earthquake or plate-motion data.
 - `3.9-A` ICS International Chronostratigraphic Chart v2026/06: the current ICS chart page identifies © ICS 2026 and CC BY 4.0. The chapter reuses the chart unchanged and provides a bilingual source credit. Rights PASS; Russian-language equivalent explanation of the English chart remains PENDING.
 - These are rights findings only; scientific, language/accessibility and technical review dimensions remain separately open as recorded in the per-asset table.
+
+
+### 7.7 Chapter 05 stable-ID anchors added
+
+To make the image-first audit traceable in the chapter itself, non-rendering HTML comments were added immediately before every Markdown image embed in both language sections. Verification after the commit found **37 anchors covering 16 distinct integrated visual IDs**:
+`5.1-A`, `5.2-A` (legacy alias `5-A`), `5.3-A`, `5.4-A`, `5.5-A`, `5.6-A`, `5.7-A`, `5.7-B`, `5.8-A`, `5.9-A`, `5.11-A`, `5.12-A`, `5.14-A`, `5.15-A`, `5.16-A` and `5.17-A`. Repeated anchors for the same ID are intentional: Russian and English placements share one asset ID, and 5.8-A groups the official front symbols/cross-section into one teaching visual set.
+
+The bilingual 5.18-A placeholder remains and is not counted as an integrated image. The chapter-level inventory still claims 20 IDs, while the visual source/integration register explicitly names 16 integrated IDs plus 5.18-A. **Three additional ID positions remain unaccounted for by name** and must be recovered from the original chapter brief/history or removed only after documented reconciliation; do not invent labels. The comments do not alter visible page content.
