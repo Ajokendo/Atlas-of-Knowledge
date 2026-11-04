@@ -589,6 +589,11 @@ if (!stoichiometryPage.includes("Math.max(Math.abs(xa),Math.abs(xb),Number.MIN_V
     !stoichiometryPage.includes("amountEpsB")) {
   errors.push("stoichiometry.html: limiting-reactant comparisons must use scale-relative tolerances for tiny amounts");
 }
+if (!stoichiometryPage.includes('raw.trim()!==""') ||
+    !stoichiometryPage.includes("Number.isFinite(percent)") ||
+    !stoichiometryPage.includes("amountEpsA,amountEpsB")) {
+  errors.push("stoichiometry.html: optional yield must trim whitespace and reject non-finite percentage results");
+}
 const virtualLabPage = fs.readFileSync(path.join(root, "virtual-lab.html"), "utf8");
 for (const [label, evidence] of [
   ["Russian monobasic-base scope", "сильного одноосновного основания (например, NaOH)"],
