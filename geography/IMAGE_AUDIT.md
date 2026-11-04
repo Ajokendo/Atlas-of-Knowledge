@@ -427,7 +427,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 02 | 21 | Includes both zero-padded and unpadded forms (for example, 02-A/2-A and 02-D/2-D); confirm alias equivalence before counting. |
 | 03 | 14 | Includes legacy 3-A in addition to the 13 numbered subsection IDs; resolve alias or duplicate status. |
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
-| 05 | 8 | Only eight chapter-prefixed ID tokens were found in the chapter text, while the production register claims 20 IDs and lists 17 asset rows (including three alias pairs). This is a material marker/register mismatch; do not infer that all 20 are present or uniquely mapped. |
+| 05 | 8 | Eight distinct ID-shaped tokens appear in the chapter source. A separate embed inventory found 20 distinct image URLs (37 embeds before correction); three bilingual SVGs were present only once, in the Russian section. They have now been added to the English section: 40 embeds, 20 unique URLs, every URL used twice. The visual-ID-to-file grouping and 20-ID register count still need semantic reconciliation. |
 | 06 | 15 | Matches the current 15-ID inventory. |
 | 07 | 9 | Matches the current inventory. |
 | 08 | 7 | Matches the current inventory. |
@@ -531,3 +531,12 @@ The bilingual 5.18-A placeholder remains and is not counted as an integrated ima
 ### 7.8 Marker repetition scan — Chapters 06–26
 
 A source scan of all chapter files 06–26 found **210 distinct visual IDs** across those 21 chapters. Every enumerated ID appears at least twice in its chapter file. This is consistent with repeated teaching-location/production-brief references, but repetition alone does not prove that the Russian and English contexts are semantically equivalent. The chapter files in this range still have zero Markdown image embeds except the four local SVG placements in Chapters 18–20 recorded above. Therefore the repeated IDs are not evidence of finished visuals; the relevant items remain placeholders/briefs pending actual asset integration and per-dimension review.
+
+
+### Chapter 05 — bilingual image parity correction — 5 November 2026
+
+- The chapter source contained 20 distinct image URLs and 37 Markdown image embeds. Three project-local bilingual SVGs — 5.12-A global climate belts, 5.14-A atmospheric hazards and 5.15-A climate change — appeared only once in the Russian section, despite the visual register claiming bilingual integration.
+- Added the same three assets to the corresponding English sections, with bilingual alt text, captions and the existing learning limitations preserved.
+- Rechecked the chapter: **40 image embeds, 20 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
+- RU/EN parity for 5.12-A, 5.14-A and 5.15-A is now **PASS** at the chapter-source level. Their creator/rightsholder, project licence, scientific review and rendered technical checks remain PENDING; none is VERIFIED.
+- The chapter's 5.18-A synoptic-map exercise remains a placeholder and is not counted as integrated.
