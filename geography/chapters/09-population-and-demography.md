@@ -36,9 +36,9 @@ After studying this chapter, readers will be able to explain core demographic co
 
 Численность населения территории изменяется под влиянием естественного движения и миграции. Базовое демографическое уравнение:
 
-`P_{t+1}=P_t+B-D+I-E`
+`P_{end}=P_{start}+B-D+I-E+A`
 
-где (P_t) — численность населения в начале периода, (B) — число рождений, (D) — число смертей, (I) — число прибывших, (E) — число выбывших. В реальной статистике могут учитываться также изменения границ, корректировки учёта и пересмотры оценок.
+где \(P_{start}\) и \(P_{end}\) — численность населения в начале и конце периода; \(B\) — число рождений; \(D\) — число смертей; \(I\) — число прибывших; \(E\) — число выбывших; \(A\) — статистические корректировки и прочие согласованные изменения (например, пересмотр оценок или изменение границ). В учебных примерах без таких корректировок принимают \(A=0\).
 
 **Естественный прирост** — разность между числом родившихся и умерших за период. Если смертей больше, возникает естественная убыль. **Миграционный прирост** — разность прибытий и выбытий. Общий прирост учитывает оба компонента.
 
@@ -60,7 +60,7 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 
 Общий коэффициент зависит не только от репродуктивного поведения, но и от возрастной структуры: в населении с большой долей людей репродуктивного возраста он может быть выше даже при сходных возрастных коэффициентах рождаемости.
 
-**Суммарный коэффициент рождаемости (СКР)** — расчётное среднее число детей, которое родила бы одна женщина на протяжении репродуктивного периода, если бы на неё в каждом возрасте действовали наблюдаемые в данном периоде возрастные коэффициенты рождаемости. Это периодический синтетический показатель, а не прогноз фактического числа детей у конкретной женщины.
+**Суммарный коэффициент рождаемости (СКР)** — расчётное среднее число детей, которое родила бы одна женщина на протяжении репродуктивного периода, если бы на неё в каждом возрасте действовали наблюдаемые в данном периоде возрастные коэффициенты рождаемости. Это периодический синтетический показатель, а не прогноз фактического числа детей у конкретной женщины. При использовании пятилетних возрастных групп его обычно рассчитывают как сумму возрастных коэффициентов рождаемости, умноженную на 5 и разделённую на 1 000, если коэффициенты выражены на 1 000 женщин. Возрастной коэффициент для каждой группы — число живорождений у женщин этой группы на 1 000 женщин соответствующего возраста.
 
 СКР около уровня простого воспроизводства часто оценивают примерно в 2,1 рождения на женщину в странах с низкой смертностью и без учёта миграции, однако точный уровень зависит от смертности, соотношения полов при рождении и других условий. Он не является универсальной неизменной константой для всех обществ.
 
@@ -74,7 +74,7 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 
 Он зависит от возрастной структуры: стареющее население может иметь более высокий общий коэффициент смертности даже при низких возрастных рисках смерти. Поэтому для сопоставления стран используют возрастные коэффициенты и стандартизованные показатели.
 
-Младенческая смертность обычно измеряется числом умерших детей в возрасте до одного года на 1 000 живорождений за соответствующий период. Важно точно указывать используемое определение и метод расчёта.
+Младенческая смертность — вероятность того, что новорождённый умрёт до достижения возраста одного года при сохранении возрастных уровней смертности данного периода; её выражают на 1 000 живорождений. Строго говоря, это вероятность, получаемая из таблицы смертности, а не просто отношение всех зарегистрированных в календарном году смертей младенцев к числу рождений в том же году. Национальные источники могут публиковать упрощённые текущие коэффициенты или оценки, поэтому необходимо указывать метод расчёта и источник.
 
 **Ожидаемая продолжительность жизни при рождении** — число лет, которое в среднем прожил бы условный новорождённый при сохранении возрастных уровней смертности данного периода на протяжении его жизни. Это показатель таблицы смертности, а не предсказание продолжительности жизни конкретного человека.
 
@@ -242,7 +242,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 Эффективная политика опирается на права человека, доступность услуг, достоверные данные и добровольный выбор. Принудительное вмешательство в репродуктивные решения нарушает права и может приводить к тяжёлым социальным последствиям.
 
-Человеческое развитие шире экономического роста. Оно включает здоровье, образование, достойный уровень жизни, возможности участия в общественной жизни и равенство возможностей. Индекс человеческого развития (ИЧР) сводит три измерения в один показатель: здоровье (ожидаемая продолжительность жизни при рождении), образование (ожидаемая продолжительность обучения детей школьного возраста и средняя продолжительность обучения взрослых от 25 лет) и уровень жизни (валовой национальный доход на душу населения с поправкой на паритет покупательной способности). Сначала рассчитываются нормированные индексы измерений, затем они объединяются как геометрическое среднее; для дохода применяется логарифмическое преобразование. ИЧР удобен для общего сравнения, но отражает средние достижения и сам по себе не показывает неравенство, бедность, безопасность, расширение прав и другие стороны благополучия.
+Человеческое развитие шире экономического роста. Оно включает здоровье, образование, достойный уровень жизни, возможности участия в общественной жизни и равенство возможностей. Индекс человеческого развития (ИЧР) сводит три измерения в один показатель: здоровье (ожидаемая продолжительность жизни при рождении), образование (ожидаемая продолжительность обучения детей школьного возраста и средняя продолжительность обучения взрослых от 25 лет) и уровень жизни (валовой национальный доход на душу населения с поправкой на паритет покупательной способности). Два показателя образования сначала переводятся в индексы, которые усредняются арифметически и образуют индекс образования. Затем индексы здоровья, образования и дохода объединяются как геометрическое среднее; для дохода применяется логарифмическое преобразование. ИЧР удобен для общего сравнения, но отражает средние достижения и сам по себе не показывает неравенство, бедность, безопасность, расширение прав и другие стороны благополучия.
 
 ## 9.15. Демографические прогнозы и неопределённость / Population Projections and Uncertainty
 
@@ -303,9 +303,9 @@ A census aims to enumerate the entire population during a specified period using
 
 The size of a population changes through natural change and migration. A basic demographic equation is:
 
-P(t+1) = P(t) + B − D + I − E
+P(end) = P(start) + B − D + I − E + A
 
-where P(t) is the population at the start of the period, B is births, D is deaths, I is arrivals and E is departures. In real statistics, boundary changes, accounting adjustments and revisions may also be relevant.
+where P(start) and P(end) are the population at the beginning and end of the period; B is births; D is deaths; I is arrivals; E is departures; and A represents statistical adjustments and other reconciled changes, such as revised estimates or boundary changes. In classroom examples without such adjustments, A is set to zero.
 
 **Natural increase** is the difference between births and deaths during a period. If deaths exceed births, natural decrease occurs. **Net migration** is arrivals minus departures. Total population change includes both components.
 
@@ -327,7 +327,7 @@ The result is expressed per thousand (‰).
 
 The crude rate depends not only on reproductive behaviour but also on age structure. A population with a large share of people of reproductive age may have a higher crude birth rate even when age-specific fertility rates are similar.
 
-The **total fertility rate (TFR)** is the hypothetical average number of children a woman would have over her reproductive lifetime if she experienced the age-specific fertility rates observed in the given period at every age. It is a synthetic period indicator, not a prediction of the actual number of children a particular woman will have.
+The **total fertility rate (TFR)** is the hypothetical average number of children a woman would have over her reproductive lifetime if she experienced the age-specific fertility rates observed in the given period at every age. It is a synthetic period indicator, not a prediction of the actual number of children a particular woman will have. When five-year age groups are used, it is commonly calculated as five times the sum of the age-specific fertility rates divided by 1,000, if those rates are expressed per 1,000 women. Each age-specific rate is the number of live births to women in an age group per 1,000 women in that same age group.
 
 A TFR of about 2.1 is often used as an approximate replacement-level benchmark in low-mortality populations without migration, but the precise level depends on mortality, the sex ratio at birth and other conditions. It is not a universal constant for every society.
 
@@ -341,7 +341,7 @@ CDR = (D / Pmid) × 1,000
 
 It depends on age structure. An ageing population may have a higher crude death rate even when age-specific mortality risks are low. Age-specific rates and standardised indicators are therefore used for comparisons between countries.
 
-Infant mortality is commonly measured as deaths of children under one year of age per 1,000 live births during the relevant period. The exact definition and calculation method must be stated.
+Infant mortality is the probability that a newborn will die before reaching age one if exposed to the age-specific mortality rates of the period, expressed per 1,000 live births. Strictly speaking, it is a life-table probability, not simply the number of infant deaths registered in a calendar year divided by the number of births in that same year. National sources may publish simplified period indicators or modelled estimates, so the calculation method and source must be stated.
 
 **Life expectancy at birth** is the average number of years a hypothetical newborn would live if the age-specific mortality rates of the observed period remained constant throughout their life. It is a life-table measure, not a prediction of how long a particular person will live.
 
@@ -453,7 +453,7 @@ Population policy is the set of public and social measures that influence demogr
 
 Effective policy is based on human rights, access to services, reliable evidence and voluntary choice. Coercive interference in reproductive decisions violates rights and may cause serious social harm.
 
-Human development is broader than economic growth. It includes health, education, a decent standard of living, opportunities for participation in society and equality of opportunity. The **Human Development Index (HDI)** combines three dimensions: health (life expectancy at birth); education (expected years of schooling for children of school-entry age and mean years of schooling among adults aged 25 and over); and standard of living (gross national income per capita adjusted for purchasing power parity). Each dimension is converted into a normalized index, and the three indices are combined using a geometric mean; income is transformed logarithmically. The HDI is useful for broad comparisons, but it measures average achievement and does not by itself show inequality, poverty, human security, empowerment or other aspects of well-being.
+Human development is broader than economic growth. It includes health, education, a decent standard of living, opportunities for participation in society and equality of opportunity. The **Human Development Index (HDI)** combines three dimensions: health (life expectancy at birth); education (expected years of schooling for children of school-entry age and mean years of schooling among adults aged 25 and over); and standard of living (gross national income per capita adjusted for purchasing power parity). The two education indicators are first converted into indices and averaged arithmetically to form the education index. The health, education and income indices are then combined using a geometric mean; income is transformed logarithmically. The HDI is useful for broad comparisons, but it measures average achievement and does not by itself show inequality, poverty, human security, empowerment or other aspects of well-being.
 
 ### 9.15. Population Projections and Uncertainty
 
@@ -470,6 +470,18 @@ Demographic maps and charts should show not only numbers but also definitions, r
 Choropleth maps of administrative units may visually exaggerate large, sparsely populated areas. Regular-grid or dot-density maps may better represent spatial concentration, but require assessment of geocoding quality and privacy protection.
 
 Data about small groups may make individuals indirectly identifiable. Detailed statistical publication must therefore consider privacy, consent, aggregation and statistical confidentiality rules. Geographic precision must not come at the cost of revealing personal information.
+
+### 9.16.1. Measuring Migration Without Confusing Indicators
+
+For international mobility statistics, the United Nations distinguishes international migration from international temporary mobility. The former involves a change of country of residence; the latter covers border crossings that do not result in such a change. The 2025 UN recommendations propose two possible residence-duration criteria: living in a place for most of the previous 12 months (at least six months and one day), or for at least 12 months; intended duration may also be considered. This is an international recommendation, not a claim that all countries already apply one identical rule. Publications should therefore state the national definition and whether population and migration-flow criteria are aligned.
+
+**Core indicators.** The numbers of arrivals and departures during a period are absolute migration flows. Depending on the registration system, statistics may count movement events rather than unique people: a person who moves more than once can contribute more than one event to a flow. Before comparing regions or countries, check the unit counted and the registration rules. Net migration equals arrivals minus departures. The migrant stock is the number of people classified as migrants under a source's definition and living in a territory on a specified date; it is a point-in-time measure, not the number of moves during a year. International datasets may define migrants by country of birth or citizenship, for example, so the operational definition must be checked. Rates are commonly calculated per 1,000 people using the mid-year population, allowing comparison between areas of different sizes. Always state whether the data come from residence registration, a census, a sample survey or administrative records.
+
+**Hypothetical example.** A region with a population of 100,000 records 2,400 arrivals and 1,900 departures in one year. Net migration is +500 people, and the net migration rate is 5 per 1,000 when the mid-year population is 100,000. This does not mean every arrival stayed permanently: the indicator depends on the definition of a migrant and the completeness of registration.
+
+**Data limitations.** Unregistered, seasonal, forced and repeat migration may be incompletely recorded. Changes in registration rules or territorial boundaries can create breaks in a time series. A net figure hides differences by age, sex, skills and reasons for moving; publication must protect personal data and avoid disclosing small groups that could identify individuals.
+
+**Activity.** Calculate net migration and the rate per 1,000 residents for two regions. Explain why the same net balance can have different effects on age structure and the labour market.
 
 ## 9.17. Итоги главы / Chapter Summary
 
@@ -548,18 +560,6 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 
 На основе открытых официальных данных выберите регион происхождения и регион назначения мигрантов. Проверьте период, определения и полноту данных. Сопоставьте возрастную структуру, занятость и доступность услуг; не делайте причинных выводов только на основании корреляции.
 
-### 9.16.1. Measuring Migration Without Confusing Indicators
-
-For international mobility statistics, the United Nations distinguishes international migration from international temporary mobility. The former involves a change of country of residence; the latter covers border crossings that do not result in such a change. The 2025 UN recommendations propose two possible residence-duration criteria: living in a place for most of the previous 12 months (at least six months and one day), or for at least 12 months; intended duration may also be considered. This is an international recommendation, not a claim that all countries already apply one identical rule. Publications should therefore state the national definition and whether population and migration-flow criteria are aligned.
-
-**Core indicators.** The numbers of arrivals and departures during a period are absolute migration flows. Depending on the registration system, statistics may count movement events rather than unique people: a person who moves more than once can contribute more than one event to a flow. Before comparing regions or countries, check the unit counted and the registration rules. Net migration equals arrivals minus departures. The migrant stock is the number of people classified as migrants under a source's definition and living in a territory on a specified date; it is a point-in-time measure, not the number of moves during a year. International datasets may define migrants by country of birth or citizenship, for example, so the operational definition must be checked. Rates are commonly calculated per 1,000 people using the mid-year population, allowing comparison between areas of different sizes. Always state whether the data come from residence registration, a census, a sample survey or administrative records.
-
-**Hypothetical example.** A region with a population of 100,000 records 2,400 arrivals and 1,900 departures in one year. Net migration is +500 people, and the net migration rate is 5 per 1,000 when the mid-year population is 100,000. This does not mean every arrival stayed permanently: the indicator depends on the definition of a migrant and the completeness of registration.
-
-**Data limitations.** Unregistered, seasonal, forced and repeat migration may be incompletely recorded. Changes in registration rules or territorial boundaries can create breaks in a time series. A net figure hides differences by age, sex, skills and reasons for moving; publication must protect personal data and avoid disclosing small groups that could identify individuals.
-
-**Activity.** Calculate net migration and the rate per 1,000 residents for two regions. Explain why the same net balance can have different effects on age structure and the labour market.
-
 ### English Summary
 
 1. Demography studies population size, composition and reproduction, while population geography explains the spatial differences in these processes.
@@ -621,6 +621,9 @@ For international mobility statistics, the United Nations distinguishes internat
 13. United Nations Statistics Division. **Recommendations on Statistics of International Migration and Temporary Mobility** (2025, unedited version; revisions noted through 24 March 2026) — revised statistical distinction between international migration and temporary mobility, residence-duration criteria, and alignment of population stocks and migration flows. https://unstats.un.org/go/migrrec
 14. United Nations Development Programme, Human Development Report Office. **Human Development Report 2025: Technical Note 1 — Human Development Index** — current definitions and calculation of the health, education and income dimensions, including the geometric mean and PPP-adjusted GNI per capita. https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf
 15. United Nations High Commissioner for Refugees. **IDP definition** — explains the distinction between internally displaced persons, who have not crossed an internationally recognised state border, and refugees. See also the UN Guiding Principles on Internal Displacement. https://emergency.unhcr.org/protection/legal-framework/idp-definition
+16. World Health Organization. **Infant mortality rate — indicator definition and measurement** — defines infant mortality as the probability of dying before age one, derived from life-table or other specified estimation methods, rather than simply a same-year count ratio. https://www.who.int/data/gho/data/indicators/indicator-details/GHO/infant-mortality-rate-%28probability-of-dying-between-birth-and-age-1-per-1000-live-births%29
+17. United Nations Department of Economic and Social Affairs, Population Division. **World Urbanization Prospects 2025: Methodology of the United Nations Urbanization Estimates and Projections** — details the Degree of Urbanization grid classification, two-stage method, level-1 thresholds and limitations of global spatial units. https://population.un.org/wup/assets/Publications/undesa_pd_2025_wup2025_methodological_report.pdf
+18. United Nations Department of Economic and Social Affairs, Population Division. **World Population Prospects 2024: Methodology Report** — definitions and calculation of crude rates, population change, demographic balancing and projection methods. https://www.un.org/development/desa/pd/content/world-population-prospects-2024-methodology-report
 
 ## Научные редакционные примечания / Scientific editorial notes
 
@@ -645,6 +648,13 @@ For international mobility statistics, the United Nations distinguishes internat
 **Конец главы 9 / End of Chapter 9**
 
 ## Focused scientific and editorial audit record — 5 November 2026
+- **Infant mortality:** corrected the definition in both languages. It is a probability of dying before age one derived from a life table or a specified estimation method, not simply the ratio of all infant deaths registered in a calendar year to births in that same year. Added the WHO indicator definition.
+- **Total fertility rate:** added the age-specific fertility-rate basis and the standard calculation for five-year age groups in RU and EN.
+- **HDI calculation:** clarified that the expected-years and mean-years-of-schooling indices are averaged arithmetically to form the education index before the three dimension indices are combined geometrically.
+- **Population balance:** made the start/end population notation explicit and added a term for statistical adjustments and other reconciled changes; the teaching examples assume this term is zero.
+- **English section structure:** moved the English 9.16.1 migration-measurement subsection into its correct position under English section 9.16, rather than leaving it between the Russian practical tasks and the English chapter.
+- **Source expansion:** added WHO infant-mortality metadata and the official WUP 2025 and WPP 2024 methodology reports.
+
 - **International migration and temporary mobility:** updated the bilingual text against the UN Statistics Division's 2025 revised recommendations. It now distinguishes a change of country of residence from other international border crossings and explains the two recommended residence-duration criteria (most of the preceding 12 months / at least 6 months and 1 day, or at least 12 months), including intended duration. The text does not imply universal adoption by national systems.
 - **Human Development Index:** specified the three current dimensions and component indicators in both languages: life expectancy at birth; expected and mean years of schooling; and PPP-adjusted GNI per capita. Added the geometric-mean aggregation and logarithmic income transformation, while retaining the limitations of a composite average.
 - **Current demographic evidence:** added the UN Population Division's DemoData portal, which reports data through 2026 and was last updated 3 November 2026, with an instruction to record series and extraction date. Added the 2025 UN migration recommendations and the 2025 UNDP HDI technical note to the bibliography.
