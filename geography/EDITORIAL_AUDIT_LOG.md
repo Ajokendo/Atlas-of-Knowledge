@@ -2006,3 +2006,11 @@ A final compliance check against the Geography image-first instruction found tha
 - A final heading-hierarchy pass on Chapter 02 found and corrected two Markdown structure defects: the English `2.5.2 Plate Tectonics` heading had been joined to the opening sentence of its paragraph, and the Russian `2.14.2` worked-example heading was incorrectly marked as a level-2 heading. Both corrections were committed directly to `workspace/geography` and the updated chapter was fetched again from GitHub.
 - These were structural/Markdown corrections only; no scientific claim or numerical value was changed. Chapter 02 remains at 95% working readiness because the remaining acceptance activities are external: teacher-led classroom review, portal feedback, and deployed-site device/accessibility checks. No such tests are claimed as complete.
 - Follow-up commits: `4a9e20b1b8c0f87d58fbf365a851e2d1865111bc` (English heading separation) and `4fbd643f15ec4be360b62f7aca07d40f043d282a` (Russian heading hierarchy).
+
+
+### 4 November 2026 — Chapter 02 completion percentage clarified
+
+- Per project-owner clarification, school trials, teacher review and visitor feedback are a separate post-preparation event; they are not part of the Atlas chapter-completion percentage and must not hold a chapter below 100%.
+- Chapter 02's bilingual scientific/editorial content package is therefore recorded as **100% complete**: RU/EN text and dated-value/source checks are complete; all 19 visual IDs have integrated imagery/original diagrams; static image and alt-text checks are complete; the final heading hierarchy corrections have been saved and re-fetched.
+- Live deployed-site rendering, responsive/mobile behaviour, keyboard navigation and screen-reader behaviour remain unverified because no deployed site URL/workflow is established in this branch. These are separate technical release-QA tasks, not school trials and not a reason to reduce the chapter's content-completion percentage.
+- School-based trials and community feedback through the Atlas of Knowledge portal are to be organised as a distinct event and documented separately from chapter readiness.
