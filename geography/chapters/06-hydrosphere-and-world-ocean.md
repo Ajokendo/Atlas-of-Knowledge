@@ -472,13 +472,13 @@ P = ET + R + \Delta S,
 
 1. Рассчитайте слой стока R в миллиметрах.
 2. Переведите слой стока в объём воды для всего бассейна в км³.
-3. Если годовой объём стока в створе реки равен 3,78 км³, оцените средний расход воды в м³/с. Используйте 365 суток в году и формулу Q = V/t.
+3. Используя объём стока, рассчитанный в пункте 2, оцените средний расход воды в створе реки в м³/с. Примите продолжительность года равной 365 суткам и используйте формулу Q = V/t.
 4. Объясните, почему фактический расход в отдельные месяцы будет отличаться от среднегодового.
 5. Назовите два фактора, которые могут изменить водный баланс бассейна, и предложите три меры устойчивого управления водой.
 6. На карте выделите водораздел, главное русло и основные притоки; объясните, по каким признакам определяется граница водосбора.
 7. Объясните, как изменение землепользования (вырубка леса, застройка, распашка склонов или уплотнение почвы) может повлиять на паводки, эрозию и качество воды.
 
-**Проверка расчётов:** слой стока равен 250 мм; соответствующий объём для бассейна площадью 10 000 км² — 2,5 км³. Значение 3,78 км³ в пункте 3 — отдельный учебный пример для расчёта расхода, а не продолжение баланса из пунктов 1–2. Средний расход при объёме 3,78 км³/год составляет приблизительно 120 м³/с.
+**Проверка расчётов:** слой стока равен 250 мм, или 0,25 м. Площадь бассейна 10 000 км² равна 10 000 000 000 м². Объём стока: 0,25 × 10 000 000 000 = 2 500 000 000 м³ = 2,5 км³. В году 365 × 24 × 60 × 60 = 31 536 000 секунд. Средний расход: Q = 2 500 000 000 / 31 536 000 ≈ **79,3 м³/с**. Это среднее значение за год; фактический расход меняется по сезонам и дням.
 
 Дополнительное задание: сравните два океанических региона по температуре поверхности, солёности и направлению основных течений, используя карту и данные с указанием периода наблюдений.
 
@@ -718,13 +718,13 @@ where P is precipitation, ET is evapotranspiration, R is runoff depth and ΔS is
 
 1. Calculate runoff depth R in millimetres.
 2. Convert the runoff depth into a water volume for the whole basin in km³.
-3. If annual river discharge volume at the outlet is 3.78 km³, estimate mean discharge in m³/s using 365 days per year and Q = V/t.
+3. Using the runoff volume calculated in question 2, estimate the mean river discharge at the outlet in m³/s. Use 365 days per year and the formula Q = V/t.
 4. Explain why actual discharge in individual months differs from the annual mean.
 5. Name two factors that could change the basin water balance and propose three measures for sustainable water management.
 6. On a map, delineate the watershed divide, main river channel and principal tributaries. Explain which features help identify the catchment boundary.
 7. Explain how land-use change (deforestation, urban development, cultivation of slopes or soil compaction) can affect floods, erosion and water quality.
 
-**Check:** runoff depth is 250 mm; the corresponding volume for a 10,000 km² basin is 2.5 km³. The 3.78 km³ value in question 3 is a separate teaching example for calculating discharge, not a continuation of the balance in questions 1–2. The mean discharge for 3.78 km³/year is approximately 120 m³/s.
+**Worked calculation:** runoff depth is 250 mm, or 0.25 m. The basin area of 10,000 km² equals 10,000,000,000 m². Runoff volume = 0.25 × 10,000,000,000 = 2,500,000,000 m³ = 2.5 km³. A 365-day year contains 31,536,000 seconds. Mean discharge = 2,500,000,000 / 31,536,000 ≈ **79.3 m³/s**. This is an annual mean; actual discharge varies from season to season and from day to day.
 
 Additional task: compare two ocean regions using surface temperature, salinity and the direction of major currents, based on a map and data with a stated observation period.
 
