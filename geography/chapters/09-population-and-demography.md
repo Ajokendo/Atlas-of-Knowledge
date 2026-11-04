@@ -588,6 +588,7 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 8. World Bank. **World Development Indicators** — population size, density and vital rates. Indicator metadata define EN.POP.DNST using land area, and SP.DYN.CBRT.IN and SP.DYN.CDRT.IN using mid-year population for crude birth and death rates. Consult the metadata for each series before comparison: https://data.worldbank.org/indicator/SP.POP.TOTL; https://data.worldbank.org/indicator/EN.POP.DNST; https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.DYN.CBRT.IN; https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.DYN.CDRT.IN
 9. United Nations Development Programme. **Human Development Data Center** — HDI methodology and country-level indicators. https://hdr.undp.org/data-center
 10. United Nations Population Division. **World Population Prospects 2024 Data Portal: Indicator Metadata** — definitions and calculation methods for population change, natural change and their rates. https://population.un.org/dataportal/
+11. United Nations Statistics Division. **Population and Vital Statistics Report, Vol. LXXVIII (January 2026)** — latest census and national population estimates, live births, deaths and vital rates; Tables 2 and 3 are updated periodically. Consult the technical notes and record the table update date. https://unstats.un.org/unsd/demographic/products/vitstats/default.htm
 
 ## Научные редакционные примечания / Scientific editorial notes
 
