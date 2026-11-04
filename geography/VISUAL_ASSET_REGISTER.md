@@ -83,3 +83,19 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 ## IMAGE-FIRST v1.1 inventory reconciliation warning — 5 November 2026
 
 The register's headline currently states **231 unique visual IDs**. However, the chapter-level counts in its inventory table sum to **283** after adding the verified Chapter 09 ID 09-G. The Chapter 05 line states 20 IDs but only 18 IDs can currently be enumerated safely from the available subsection sequence, Chapter 09's 09-G is present in the chapter itself and is now included in the inventory row. These figures must not be silently reconciled by inventing IDs or deleting valid ones. Until every chapter file, in-text marker, production brief and actual asset is reconciled, treat the register headline of 231 and the chapter-row sum of 283 as unverified competing totals. See [IMAGE_AUDIT.md](IMAGE_AUDIT.md). Do not calculate Image Coverage from either figure yet.
+
+
+## IMAGE-FIRST v1.1 integration scan — Chapters 06–26 (5 November 2026)
+
+A repository-tree and chapter-embed scan confirms that Chapters 06–26 contain 210 visual IDs, but only four of those IDs currently have a local visual embedded in the chapter files: 18-J, 19-H, 20-I and 20-K. The other 206 IDs have no matching image embed or asset file in the current Geography tree and are recorded as MISSING in `IMAGE_AUDIT.md`. A brief, placeholder or repeated ID marker does not count as an integrated visual.
+
+| Chapter range | Required visual IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 06–17 | 111 | 0 | 111 |
+| 18 | 10 | 1 | 9 |
+| 19 | 10 | 1 | 9 |
+| 20 | 11 | 2 | 9 |
+| 21–26 | 68 | 0 | 68 |
+| **Total** | **210** | **4** | **206** |
+
+This is a confirmed integration inventory, not a scientific, rights, language, accessibility or rendered-technical approval. The four existing SVGs remain INTEGRATED only; all applicable review dimensions are pending.
