@@ -38,6 +38,7 @@ The upstream source repository has now been identified and inspected:
 - Original work: Nathan Liow, **Atlas of Physics** — https://github.com/nathanliow/atlas-of-physics
 - Upstream README: https://github.com/nathanliow/atlas-of-physics/blob/main/README.md
 - Upstream licence: https://github.com/nathanliow/atlas-of-physics/blob/main/LICENSE
+- Reference snapshot used for the 15-module source comparisons: [upstream commit `bcd67d9b75425f4a78f5c7c1d17a2d0614727309`](https://github.com/nathanliow/atlas-of-physics/commit/bcd67d9b75425f4a78f5c7c1d17a2d0614727309), dated 2026-10-30. This pins the comparison reference; it does not by itself prove the exact commit from which every local file was originally imported.
 - The upstream repository declares the **MIT License**, with copyright notice **Copyright (c) 2026 Nathan Liow**. The licence grants rights to use, copy, modify, merge, publish, distribute, sublicense, and sell the software, subject to retaining the copyright and permission notice.
 - The Physics branch's `original-engine/README.md` explicitly identifies the upstream project and states that original interactive laboratories are integrated, while learning text, interface, labels, and explanations are adapted into Russian.
 
