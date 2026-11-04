@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
 <title id="title">Работа фермента / Enzyme action</title>
-<desc id="desc">Схема связывания субстрата активным центром, образования комплекса фермент–субстрат и высвобождения продуктов; enzyme binds substrate, forms a complex and releases products.</desc>
+<desc id="desc">Схема связывания субстрата активным центром, образования комплекса фермент–субстрат и высвобождения продуктов. / Diagram of substrate binding at the active site, formation of an enzyme–substrate complex, and release of products.</desc>
 <defs>
  <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#405d78"/></marker>
  <style>
