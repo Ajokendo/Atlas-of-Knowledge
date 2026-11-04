@@ -103,7 +103,7 @@ A site's general copyright statement is not a licence for every image on that si
 - Companion instructions: https://www.usgs.gov/media/files/plate-tectonics-globe-activity.
 - Accessed: 4 November 2026.
 
-These are candidate assets with recorded rights statements, not yet integrated site assets. The USGS Water Cycle diagram and USGS water-distribution chart are Public Domain; the latter's rounded quantities trace to the 1993 Shiklomanov estimate. NOAA's atmospheric-layer graphic is a specific candidate under NOAA's general public-domain reuse policy, pending confirmation of the image-specific credit line. The water-cycle diagram's 2022 human-influenced framing must be distinguished from a natural-only cycle in the chapter caption. The NASA asset requires credit and third-party checks; USGS material remains Public Domain as stated on the individual media pages.
+At the time this candidate list was first compiled, the assets had not yet been integrated. On 4 November 2026, four Chapter 02 visuals were added as remote image links and their current status is recorded in the section below. The USGS individual media pages state Public Domain; NOAA's official reuse guidance covers NOAA-produced images unless otherwise credited, and the two JetStream graphics are attributed to NOAA. The NASA Earth System Diagram and USGS plate-tectonics map remain candidates rather than integrated Chapter 02 images.
 
 
 ## Chapter 02 — assets integrated in source Markdown — 4 November 2026
