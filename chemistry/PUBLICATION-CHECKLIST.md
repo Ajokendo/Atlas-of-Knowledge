@@ -95,3 +95,15 @@ The internal technical audit is complete for its defined scope. This does not cl
 - [ ] External gates remain pending: physical Android/iOS, manual keyboard and 200%/400% zoom/reflow, NVDA/TalkBack/VoiceOver, independent chemistry review, and final publication approval.
 
 Do not interpret internal technical audit completion as external release acceptance.
+
+
+## Branch-head validation status — 2026-11-05
+
+The successful run above is historical evidence for commit 51fa0dcf9f66a256900c34d793e5e3d4e34bfac6. The Chemistry branch has advanced since that run, including source-code changes to the amount-of-substance calculator and virtual laboratory and subsequent audit/register updates. The available workflow-run lookup does not currently establish a push-triggered run for the current branch head. Therefore:
+
+- [ ] Fresh Chemistry CI for the current branch head — PENDING; do not carry the earlier PASS forward as current evidence.
+- [ ] Reconfirm all 21-page browser checks, 42 RU/EN axe scans, language switching, interactive workflows and 390/768/1280 CSS px overflow checks on the current head.
+- [ ] Manual Android/iOS, keyboard-only, NVDA/TalkBack/VoiceOver and 200%/400% zoom/reflow checks remain PENDING.
+- [ ] Independent chemistry review and final publication approval remain PENDING.
+
+The latest IMAGE-FIRST visual audit also identifies one required visual gap in Chapter 03 (periodic trends). Its Wikimedia Commons English/Russian candidate has item-level creator and licence evidence, but has not yet been imported, reviewed side-by-side or integrated. Do not mark the chapter visual component complete.
