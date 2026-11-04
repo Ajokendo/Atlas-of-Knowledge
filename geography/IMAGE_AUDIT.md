@@ -8,7 +8,7 @@
 
 ## 1. Purpose and interpretation
 
-This file is the Geography audit required by policy v1.1. It records every ID in the current 231-ID production inventory and separates presence from approval. It does not replace VISUAL_ASSET_REGISTER.md (production inventory) or IMAGE_SOURCES.md (provenance, creator, licence and attribution evidence). An ID or bilingual brief is not proof that an image exists. INTEGRATED means only that existing Geography records report integration; it is not verification. No item is marked VERIFIED in this baseline.
+This file is the Geography audit required by policy v1.1. It records the IDs that could be enumerated from the chapter-level inventory available for this baseline; the total conflicts with the register's stated 231-ID count and separates presence from approval. It does not replace VISUAL_ASSET_REGISTER.md (production inventory) or IMAGE_SOURCES.md (provenance, creator, licence and attribution evidence). An ID or bilingual brief is not proof that an image exists. INTEGRATED means only that existing Geography records report integration; it is not verification. No item is marked VERIFIED in this baseline.
 
 ## 2. Derivative and inherited material protocol — policy §8.1
 
@@ -34,7 +34,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 02 | 19 | 19 IDs with imagery reported (20 unique assets); not verified |
 | 03 | 13 | 13 IDs reported integrated (10 SVGs + 3 sourced images); not verified |
 | 04 | 16 | 16 local bilingual SVGs reported integrated; not verified |
-| 05 | 20 | 16 integrated reported; 5.18-A pending; ID mapping needs reconciliation |
+| 05 | 20 | 16 integrated reported; 5.18-A pending; two ID labels not safely reconstructed; ID mapping needs reconciliation |
 | 06 | 15 | Readiness matrix reports 0/15 integrated |
 | 07–08 | 16 | Actual files and embedding not reconciled |
 | 09 | 6 | Register lists 09-A–09-F; prior chapter notes mention 09-G |
@@ -44,13 +44,13 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 19 | 10 | At least 19-H listed as local SVG; remainder not reconciled |
 | 20 | 11 | At least 20-I and 20-K listed as local SVGs; remainder not reconciled |
 | 21–26 | 68 | Actual files and embedding not reconciled |
-| **Total** | **231** | **Provisional inventory; not a coverage calculation** |
+| **Register claim** | **231** | **Conflicts with the sum of chapter counts below** |
 
-Chapter 05's register reports 16 integrated visuals, but the 20-ID inventory uses subsection-specific IDs; the exact mapping is unresolved. Chapter 09's 09-G discrepancy is unresolved. Do not publish a percentage until these and all chapter file states are reconciled.
+Chapter 05's register reports 16 integrated visuals, but the 20-ID inventory only exposes 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated and the exact integrated-ID mapping is unresolved. Chapter 09's 09-G discrepancy is unresolved. Do not publish a percentage until these and all chapter file states are reconciled.
 
 ## 6. Per-asset audit register
 
-All five review dimensions are PENDING until checked against the actual visual, source evidence, bilingual presentation and technical behaviour. Existing register claims are noted but are not promoted to PASS.
+The explicit ID rows below are provisional. The chapter inventory lists 20 Chapter 05 assets but only 18 numbered IDs can be safely reconstructed from the available summary; the two remaining IDs are deliberately not invented. All five review dimensions are PENDING until checked against the actual visual, source evidence, bilingual presentation and technical behaviour. Existing register claims are noted but are not promoted to PASS.
 
 | Chapter | Visual ID | Lifecycle status | Scientific | Rights | RU/EN | Accessibility | Technical | Evidence / next action |
 |---|---|---|---|---|---|---|---|---|
@@ -297,8 +297,6 @@ All five review dimensions are PENDING until checked against the actual visual, 
 | 05 | 5.16-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
 | 05 | 5.17-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
 | 05 | 5.18-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Known pending synoptic-map/climate-analysis visual; insertion markers are not an image. |
-| 05 | 5.18.1-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 05 | 5.18.2-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-B | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-C | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -339,7 +337,7 @@ All five review dimensions are PENDING until checked against the actual visual, 
 
 ## 7. Metrics — baseline only
 
-- **Image Coverage:** provisional / not yet calculated. The required-visual inventory and actual integrated counts need reconciliation.
+- **Image Coverage:** provisional / not yet calculated. The register states 231 IDs, but the listed chapter counts sum to 282; Chapter 05 has two unenumerated IDs and Chapter 09 has an additional 09-G discrepancy in prior notes.
 - **Image Verification:** 0% confirmed in this audit baseline; no asset has yet been independently certified VERIFIED under v1.1. This does not mean that no assets are correct.
 - **Image Gaps:** 5.18-A and the seven Chapter 10 placeholders are known; Chapter 06 reports 15/15 not integrated. Other gaps remain to be reconciled.
 - **A/B/C counts:** pending asset-by-asset provenance classification.
