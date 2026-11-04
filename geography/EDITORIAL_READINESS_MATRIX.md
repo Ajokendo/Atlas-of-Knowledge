@@ -187,3 +187,8 @@ The four additional SVG files in `geography/assets/` are referenced from Chapter
 - Refined the Russian and English water-budget explanation to distinguish external inflows/outflows from internal water withdrawals and return flows. Clarified that an in-basin reservoir belongs to the storage term (ΔS), preventing double counting as a separate inflow/outflow. Added explicit examples of boundary-crossing fluxes and clarified when abstraction is a net loss from the selected catchment control volume.
 - This is a targeted conceptual correction, not a full source-by-source or bilingual line-by-line sign-off. Visual production and technical QA remain separate.
 - Commit: `59c525339d8b00dcedd08cb26a733ed1fa6b3ebf`.
+
+
+### Chapters 06–10 — focused bilingual corrections — 5 November 2026
+
+A further targeted correction pass was committed across all five chapters: catchment control-volume accounting (06), restoration-target interpretation (07), interpretation limits of electrical conductivity (08), migration-flow counting units (09), and contiguous-zone measurement geometry (10). The paired RU/EN passages were updated together. Detailed commit references are recorded in `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md`. **The chapter scores remain 73% each**: the corrections improve specific concepts but do not close the remaining source-to-claim audit, full bilingual line edit, planned visual integration, or release QA. No 80% milestone is claimed on this evidence alone.
