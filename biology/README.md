@@ -1369,3 +1369,8 @@ This count supersedes earlier visual-production checkpoints in this README; `IMA
 ## Corrected visual-production count — 4 November 2026
 
 A row-by-row recount of the 52 entries in `IMAGE_DISPOSITION_REGISTER.md` found **28 briefs marked Produced or Integrated (53.8%)**, not 25. The earlier 25/52 checkpoint undercounted the six fauna briefs already marked Integrated and some other integrated assets. This count is by visual brief, not by individual file. Three botanical plates are counted as produced/integrated but still carry focused browser-QA pending notes; those checks remain open and are not represented as passed. The register is the source of truth.
+
+
+## Visual production checkpoint — 4 November 2026
+
+The animal-cell ultrastructure brief has now been produced as an original bilingual SVG and integrated at its existing anchor in `chapters/cell-biology.html`. The authoritative disposition register now records **29 of 52 briefs produced or integrated (55.8%)**. This is a brief-level count, not a file count. Browser QA for the new animal-cell figure is pending until the Biology workflow completes.
