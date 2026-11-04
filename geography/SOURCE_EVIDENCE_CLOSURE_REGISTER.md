@@ -471,3 +471,6 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 07 — GBF Target 3 geographic scope — 5 November 2026
 
 - Clarified in both languages that the 30% conservation objective in Target 3 is a global target, not an automatic 30% national-territory quota for every country. Retained the distinction between effective conservation, strict protection and rights-compatible sustainable use. Commit: `44e95d29e79d5b8731c94ffd4a568c92e593b66a`.
+
+
+- Extended the geographic-scope clarification to GBF Target 2: the 30% restoration objective is global and applies to degraded ecosystem areas, not an automatic requirement to restore 30% of each country's total territory. RU/EN wording now distinguishes Targets 2 and 3 clearly. Commit: `d8892146b1d3d58a8bcd6bfc4e9c46d18a08802e`.
