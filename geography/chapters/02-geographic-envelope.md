@@ -1041,7 +1041,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 - The four-component educational model and the five-sphere Earth-system model use different levels of grouping; the cryosphere overlaps the hydrosphere, while the lithosphere is part of the geosphere.
 - The term “geographic envelope” should be distinguished from the broader concept of the “Earth system”.
 - The carbon-cycle description is qualitative; no annual global flux values are asserted in this chapter. Nitrogen and phosphorus pathways are simplified for school-level teaching and should not be used as a quantitative nutrient budget.
-- All geographic labels, numerical values, units and map scales in illustrations require separate verification.
+- Source-provided map legends, labels and spatial resolutions are retained as published; the chapter does not recalculate or reinterpret mapped classes. Original Atlas diagrams are conceptual and are marked as not to scale where appropriate. Final on-screen legibility and responsive display belong to the school/site acceptance stage.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
@@ -1052,8 +1052,8 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 5. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
 6. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
 7. Planetary Boundaries Science / Potsdam Institute for Climate Impact Research. (2026). *Planetary Health Check 2026*. https://doi.org/10.48485/pik.2026.25
-8. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
-9. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
+8. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean: 425.62 ± 0.05 ppm, preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
+9. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface CO₂ concentration: 426.8 ± 0.2 ppm; published 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
 10. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; table based on Shiklomanov's 1993 assessment; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
 11. NASA Science. *Earth System Science Research: Science Spheres*. https://science.nasa.gov/earth-science/research/
 12. U.S. Geological Survey. *The Water Cycle*. https://www.usgs.gov/special-topics/water-science-school/science/water-cycle
@@ -1089,6 +1089,6 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 - Высотные границы атмосферных слоёв зависят от широты, сезона и принятой классификации; таблица распределения воды USGS — округлённая глобальная оценка, основанная на опубликованной в 1993 году оценке И. Шикломанова, а не результат нового измерения в 2026 году.
 - Четырёхкомпонентная учебная схема оболочек и пятисферная схема науки о системе Земли используют разные уровни группировки; криосфера пересекается с гидросферой, а литосфера является частью геосферы.
 - Термин «географическая оболочка» следует отличать от более широкого понятия «система Земли».
-- Для иллюстраций необходимо отдельно проверить все географические подписи, численные значения, единицы измерения и масштаб.
+- Подписи, легенды и пространственное разрешение карт приводятся по первоисточникам; глава не пересчитывает и не переинтерпретирует картографические классы. Оригинальные схемы Atlas of Knowledge являются концептуальными и там, где это необходимо, помечены как выполненные не в масштабе. Читаемость подписей на экране и адаптивное отображение проверяются на этапе школьной приёмки.
 - Для глобальной концентрации CO₂ указывать измерительную сеть и показатель: среднегодовое значение NOAA по морским приповерхностным пунктам наблюдений (425,6 ppm в 2025 году, предварительно; 425,62 ± 0,05 ppm до округления) и глобальная поверхностная оценка WMO (426,8 ± 0,2 ppm в 2025 году) получены разными сетями и методами; эти значения не следует считать взаимозаменяемыми.
 - When reporting global CO₂ concentration, identify the observing network and metric: NOAA's marine-surface-site annual mean (425.6 ppm in 2025, preliminary; 425.62 ± 0.05 ppm before rounding) and WMO's global surface estimate (426.8 ± 0.2 ppm in 2025) use different networks and methods and should not be treated as interchangeable.
