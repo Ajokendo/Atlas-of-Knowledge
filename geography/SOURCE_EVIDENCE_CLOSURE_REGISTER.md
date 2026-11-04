@@ -299,3 +299,14 @@
 
 
 - **Chapter 06 clarification:** the worked catchment-balance example now explicitly states the assumptions behind the shortened storage-change equation and requires groundwater inflow/outflow, abstractions, discharges and transfers to be represented separately when relevant. Commit: `adcb61103b4724b1a9ee04cd317c2c6f34417432`.
+
+
+## Third focused follow-up — Chapters 06–10 — 5 November 2026
+
+- **Chapter 06:** refined the catchment control-volume explanation in both languages. External inflows/outflows are distinguished from internal withdrawals and return flows; reservoirs inside the catchment are assigned to storage change (ΔS), avoiding double counting. Commit: `59c525339d8b00dcedd08cb26a733ed1fa6b3ebf`.
+- **Chapter 07:** clarified in both languages that Kunming–Montreal Framework Target 2 is a target for the coverage of effective restoration measures, not a guarantee that all ecosystems covered will have returned to their original condition by 2030. Commit: `af85b5dccc24d78fc07caea2ae162f4883767ebe`.
+- **Chapter 08:** clarified that electrical conductivity reflects total dissolved ions but cannot by itself identify salt composition or diagnose sodicity; separate chemical and exchange-related measurements are required. The warning against transferring ECe thresholds to 1:5 extracts remains. Commit: `1979993d09b1885909e02bddf5c57c3b5b4da1c6`.
+- **Chapter 09:** clarified that migration-flow datasets may count movement events rather than unique persons, depending on registration rules; users must check the statistical unit before comparing populations. Commit: `e1d2d9474269e012440aa31fdb65b79836a0f95a`.
+- **Chapter 10:** clarified the geometry of the contiguous zone: the 24-nautical-mile limit is measured from baselines; where the territorial sea is 12 nautical miles, the contiguous zone may extend at most a further 12 nautical miles. Commit: `5ac1a2a5eab3aedde6332df29cae2af22b4bb223`.
+
+These are focused bilingual conceptual corrections. They do not close full claim-to-source mapping, complete sentence-level RU/EN proofreading, visual integration or deployment/device QA. Chapter scores therefore remain unchanged pending a rubric-based reassessment rather than being raised solely because edits were committed.
