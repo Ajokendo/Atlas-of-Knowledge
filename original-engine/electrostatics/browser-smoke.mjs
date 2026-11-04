@@ -48,7 +48,7 @@ async function checkLesson(mobile) {
       throw new Error(`3D electrostatics lab WebGL canvas did not initialize: ${JSON.stringify(labState)}`);
     }
 
-    const readout = async id => (await page.locator(id).innerText()).replace(/\\s+/g, ' ').trim();
+    const readout = async id => (await page.locator(id).innerText()).replace(/\s+/g, ' ').trim();
     if (!(await readout('#r0')).includes('5,3925 Н')) throw new Error(`default Coulomb force should be 5.3925 N, got ${await readout('#r0')}`);
     if (!(await readout('#r1')).includes('1797510 Н/Кл')) throw new Error(`default field should be about 1.79751e6 N/C, got ${await readout('#r1')}`);
     if (!(await readout('#r2')).includes('Отталкивание')) throw new Error('equal-sign charges should repel');
@@ -136,7 +136,7 @@ try {
   await browser.close();
 }
 if (failures.length) {
-  console.error(failures.join('\\n'));
+  console.error(failures.join('\n'));
   process.exit(1);
 }
 console.log('PASS electrostatics browser smoke: 4/4 desktop/mobile lesson and interactive-book runs');
