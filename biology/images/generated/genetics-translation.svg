@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Трансляция на рибосоме / Translation at the ribosome</title>
+<desc id="desc">Двуязычная схема: рибосома движется вдоль мРНК в направлении 5′ к 3′; тРНК сопоставляют антикодоны кодонам и доставляют аминокислоты в растущую полипептидную цепь.</desc>
+<defs>
+ <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10" fill="#496f59"/></marker>
+ <style>
+ .bg{fill:#fbf8ef}.ink{fill:#25352c}.muted{fill:#66736a}.green{fill:#dce9d9;stroke:#496f59;stroke-width:3}.blue{fill:#dce8f0;stroke:#52758b;stroke-width:3}.gold{fill:#f4e7c8;stroke:#a27b37;stroke-width:3}.purple{fill:#e9e0ee;stroke:#80658e;stroke-width:3}
+ .line{stroke:#496f59;stroke-width:5;fill:none;stroke-linecap:round}.thin{stroke:#52758b;stroke-width:3;fill:none}.label{font: bold 25px Arial,sans-serif;fill:#25352c}.small{font:20px Arial,sans-serif;fill:#25352c}.tiny{font:17px Arial,sans-serif;fill:#66736a}.codon{font:bold 25px monospace;fill:#25352c}.title{font:bold 34px Arial,sans-serif;fill:#25352c}
+ </style>
+</defs>
+<rect class="bg" width="1200" height="900" rx="24"/>
+<text x="600" y="58" text-anchor="middle" class="title">ТРАНСЛЯЦИЯ НА РИБОСОМЕ / TRANSLATION AT THE RIBOSOME</text>
+<text x="600" y="96" text-anchor="middle" class="small">Считывание мРНК и сборка полипептида / Reading mRNA and assembling a polypeptide</text>
+
+<!-- ribosome -->
+<path class="green" d="M190 330 Q190 205 365 205 H835 Q1010 205 1010 330 Q1010 390 945 410 H255 Q190 390 190 330Z"/>
+<path class="blue" d="M255 420 Q255 365 340 365 H860 Q945 365 945 420 V515 Q945 575 860 575 H340 Q255 575 255 515Z"/>
+<text x="600" y="270" text-anchor="middle" class="label">Большая субъединица / Large subunit</text>
+<text x="600" y="490" text-anchor="middle" class="label">Малая субъединица / Small subunit</text>
+
+<!-- mRNA strand and codons -->
+<path d="M95 625 H1105" class="line"/>
+<path d="M105 625 H1090" class="line" marker-end="url(#arrow)"/>
+<text x="95" y="674" class="label">5′</text><text x="1090" y="674" class="label">3′</text>
+<rect x="390" y="590" width="125" height="70" rx="12" class="gold"/>
+<rect x="525" y="590" width="125" height="70" rx="12" class="gold"/>
+<rect x="660" y="590" width="125" height="70" rx="12" class="gold"/>
+<text x="452" y="635" text-anchor="middle" class="codon">AUG</text>
+<text x="587" y="635" text-anchor="middle" class="codon">GGC</text>
+<text x="722" y="635" text-anchor="middle" class="codon">UUU</text>
+<text x="600" y="718" text-anchor="middle" class="small">Кодоны мРНК / mRNA codons</text>
+<text x="600" y="750" text-anchor="middle" class="tiny">Рибосома перемещается вдоль мРНК в направлении 5′ → 3′ / Ribosome moves along mRNA 5′ → 3′</text>
+
+<!-- tRNA in A/P sites -->
+<path d="M455 360 V300 M455 300 L415 255 M455 300 L495 255 M455 360 L415 405 M455 360 L495 405" class="thin"/>
+<path d="M455 255 L455 215" class="thin"/>
+<circle cx="455" cy="205" r="25" class="gold"/>
+<text x="455" y="213" text-anchor="middle" class="small">Met</text>
+<rect x="392" y="390" width="126" height="46" rx="10" class="purple"/>
+<text x="455" y="420" text-anchor="middle" class="codon">UAC</text>
+<text x="455" y="175" text-anchor="middle" class="tiny">тРНК / tRNA</text>
+
+<path d="M725 360 V300 M725 300 L685 255 M725 300 L765 255 M725 360 L685 405 M725 360 L765 405" class="thin"/>
+<circle cx="725" cy="205" r="25" class="gold"/>
+<text x="725" y="213" text-anchor="middle" class="small">Gly</text>
+<rect x="662" y="390" width="126" height="46" rx="10" class="purple"/>
+<text x="725" y="420" text-anchor="middle" class="codon">CCG</text>
+<text x="725" y="175" text-anchor="middle" class="tiny">тРНК / tRNA</text>
+
+<!-- peptide -->
+<path d="M455 180 C500 135 550 145 575 125 S640 115 665 135 S700 150 725 180" stroke="#a27b37" stroke-width="7" fill="none"/>
+<circle cx="575" cy="125" r="18" class="gold"/><circle cx="665" cy="135" r="18" class="gold"/>
+<text x="600" y="145" text-anchor="middle" class="tiny">Растущая цепь / Growing chain</text>
+
+<!-- callouts -->
+<rect x="55" y="790" width="510" height="75" rx="14" class="green"/>
+<text x="75" y="820" class="small">Антикодон тРНК комплементарен кодону мРНК.</text>
+<text x="75" y="847" class="tiny">The tRNA anticodon pairs with the mRNA codon.</text>
+<rect x="590" y="790" width="555" height="75" rx="14" class="blue"/>
+<text x="610" y="820" class="small">Рибосома образует пептидные связи между аминокислотами.</text>
+<text x="610" y="847" class="tiny">The ribosome catalyses peptide-bond formation.</text>
+</svg>
