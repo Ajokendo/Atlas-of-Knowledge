@@ -1109,3 +1109,11 @@ Reviewed source markup for ten generated Biology SVGs across anatomy, biochemist
 - Result is a source-markup and provenance-record check, not a fresh visual inspection of every original image or independent specialist certification.
 - The two Rufous-naped Tit candidates with unresolved taxonomic metadata conflict remain on hold and are not integrated.
 - Global Image Verification remains Pending audit; this batch does not close the visual or scientific review gates.
+
+
+## Deferred freshwater infographic marker and SVG accessibility batch — 5 November 2026
+
+- Added an explicit source comment and `data-image-followup="optional-enhanced-illustration-deferred"` marker to the existing freshwater figure. Image generation was deferred due to unavailable generation capacity; the existing original SVG remains the active illustration.
+- Reviewed ten further SVG sources covering cell structure, cell cycle, mitosis, homology/analogy, broad habitat zones, invertebrates, herpetofauna, mammals and regional Batken/Osh fauna.
+- Corrected three SVG accessibility metadata gaps: Russian description for `fauna-habitats.svg`; bilingual title/description for `fauna-herps-habitats.svg`; bilingual title/description and clearer separated-habitat qualification for `fauna-mammals-habitat-reconstruction.svg`.
+- No claim of rendered visual verification is made. Global Image Verification remains **Pending audit**.
