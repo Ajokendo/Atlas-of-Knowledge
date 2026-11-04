@@ -24,13 +24,13 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 | 5.7-B | Cloud formation and precipitation / Образование облаков и осадков | Original bilingual SVG `geography/visuals/chapter-05-cloud-formation-processes.svg`; redrawn from the process concepts in AMS Project Atmosphere: Clouds (2025), Figure 2, CC BY-SA 4.0 | Four mechanisms: convection, convergence, frontal lifting and orographic lifting. Conceptual, not to scale; ascent does not guarantee precipitation. Adapted material shared under CC BY-SA 4.0. Embedded in RU and EN chapter sections. |
 | 5.8-A | Atmospheric fronts / Атмосферные фронты | [NOAA JetStream — How to read Surface Weather Maps](https://www.noaa.gov/jetstream/wxmaps), four official front-symbol PNGs and a cold-occlusion cross-section | Symbols show map conventions; the cross-section illustrates a cold occlusion only, not all front profiles. NOAA federal educational material. Embedded in RU and EN chapter sections. |
 | 5.9-A | Weather versus climate / Погода и климат | Original bilingual SVG `geography/visuals/chapter-05-weather-vs-climate.svg`; conceptual framework checked against NOAA Climate.gov and WMO climatological normals guidance | Illustrative—not observed data. Contrasts short-term weather with long-term statistical climate, including mean and variability; identifies 30-year standard normals and warns that one cold day does not refute a long-term trend. Embedded in RU and EN chapter sections. |
+| 5.16-A | Weather observations to forecast / От метеорологических наблюдений к прогнозу | Original bilingual SVG `geography/visuals/chapter-05-weather-observations-to-forecast.svg`; process sequence checked against ECMWF data-assimilation and modelling guidance and WMO observing-system materials | Simplified operational workflow: observing platforms, quality control, data assimilation, numerical prediction, ensemble/forecaster interpretation, forecast products and verification. Explicitly states that satellites provide observations rather than independently producing forecasts. Embedded in RU and EN chapter sections. |
+| 5.17-A | Climate diagram exercise / Практика чтения климатограмм | Original bilingual SVG `geography/visuals/chapter-05-climate-diagram-exercise.svg` | Two synthetic monthly datasets illustrating continental and maritime patterns; all values are labelled as teaching data, not observations from real stations. Includes graph-reading and calculation tasks. Embedded in RU and EN chapter sections. |
 ## Pending / Ожидают подбора и проверки
 
 | Visual ID | Subject |
 |---|---|
 
-| 5.16-A | Weather observation to forecast / От наблюдений к прогнозу погоды |
-| 5.17-A | Climate diagram exercise / Практика чтения климатограмм |
 | 5.18-A | Synoptic map and climate analysis / Синоптическая карта и анализ климата |
 
 ## Acceptance criteria / Критерии приёмки
