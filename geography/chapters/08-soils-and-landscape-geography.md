@@ -157,7 +157,7 @@ This means that about half of the sample's total volume consists of pores. It is
 - **Минерализация** — разложение органических соединений до более простых неорганических форм.
 - **Элювиирование** — вынос растворимых или тонкодисперсных веществ из верхних горизонтов.
 - **Иллювиирование** — накопление вынесенных веществ в нижележащих горизонтах.
-- **Карбонатизация** — накопление и преобразование карбонатов кальция и магния.
+- **Кальцификация (накопление карбонатов)** — накопление и преобразование карбонатов кальция и магния в почвенном профиле.
 - **Оглеение** — восстановительные процессы при длительном переувлажнении и недостатке кислорода, часто сопровождающиеся характерными серовато-голубыми оттенками.
 - **Подзолообразование** — комплекс процессов выноса органо-минеральных соединений и формирования осветлённого горизонта в определённых кислых, промывных условиях.
 - **Ферраллитизация** — интенсивное выветривание и относительное накопление оксидов железа и алюминия в тёплых влажных условиях.
@@ -173,7 +173,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 Существуют различные системы классификации почв. Международная реферативная база почвенных ресурсов WRB (World Reference Base for Soil Resources; 4-е издание, 2022, с исправлениями 2024 года) используется для международного сопоставления. В национальных системах могут применяться другие диагностические горизонты, критерии и названия. Нельзя механически считать названия почв разных систем полными синонимами. Обозначения H, O, A, E, B, C и R в описании профиля — это главные символы горизонтов и слоёв, а не полный ключ классификации WRB и не универсальная последовательность для каждой почвы. Формальная классификация требует проверки диагностических горизонтов, свойств и материалов по правилам выбранной системы; одного внешнего сходства профиля недостаточно.
 
-В системе WRB 4-го издания выделяют 32 реферативные почвенные группы (Reference Soil Groups, RSG), а более точное название формируется с помощью квалификаторов. Среди RSG — Histosols, Cryosols, Podzols, Chernozems, Kastanozems, Solonchaks, Solonetz, Arenosols, Ferralsols, Fluvisols и Leptosols. Это названия единиц международной классификации, а не просто описания природных зон.
+В системе WRB 4-го издания выделяют 32 реферативные почвенные группы (Reference Soil Groups, RSG). Это первый уровень классификации; квалификаторы формируют более подробное название второго уровня. Среди RSG — Histosols, Cryosols, Podzols, Chernozems, Kastanozems, Solonchaks, Solonetz, Arenosols, Ferralsols, Fluvisols и Leptosols. Это названия единиц международной классификации, а не просто описания природных зон.
 
 В обзорных учебных материалах также встречаются описательные выражения вроде «тёмные гумусовые почвы степей», «засушливые почвы полупустынь», «аллювиальные почвы долин» или «горные почвы». Они полезны для объяснения географических закономерностей, но не всегда соответствуют одной конкретной RSG. Поэтому на карте и в легенде нельзя смешивать формальные единицы WRB, национальные названия и обобщённые ландшафтные описания. Если используется упрощённая карта, это должно быть прямо указано в заголовке и легенде.
 
@@ -200,7 +200,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 
 
-Деградация земель — снижение биологической продуктивности, экологических функций и/или хозяйственной ценности земель вследствие природных и антропогенных процессов.
+Деградация земель — снижение биологической продуктивности, экологических функций и/или хозяйственной ценности земель вследствие природных и антропогенных процессов. Это широкое учебное определение следует отличать от специального определения Конвенции ООН по борьбе с опустыниванием (UNCCD), применяемого к засушливым, полузасушливым и сухим субгумидным территориям.
 
 **Водная эрозия** возникает при отделении и переносе частиц дождевыми каплями и поверхностным стоком. Она проявляется плоскостным смывом, образованием промоин и оврагов. Риск возрастает при удалении растительного покрова, уплотнении почвы, крутых склонах и интенсивных осадках.
 
@@ -214,7 +214,7 @@ This means that about half of the sample's total volume consists of pores. It is
 - заболачивание при нарушении водного режима;
 - опустынивание — деградация земель в засушливых, полузасушливых и сухих субгумидных областях, обусловленная различными климатическими и антропогенными факторами.
 
-Опустынивание не означает простое «движение пустыни» и не тождественно естественному существованию пустынных экосистем. Это процесс деградации земель в уязвимых сухих районах.
+Опустынивание не означает простое «движение пустыни» и не тождественно естественному существованию пустынных экосистем. Согласно определению UNCCD, это деградация земель в аридных, полузасушливых и сухих субгумидных районах под воздействием различных факторов, включая климатические колебания и деятельность человека.
 
 **Рисунок 8.5 / Figure 8.5 — Формы почвенной эрозии / Types of soil erosion.**  
 Техническое задание: три панели — плоскостной смыв, овражная эрозия и дефляция; показать направление переноса частиц, роль растительного покрова и меры снижения риска; не преувеличивать масштабы для иллюстративной ясности.
@@ -260,8 +260,8 @@ This means that about half of the sample's total volume consists of pores. It is
 По ведущим природным условиям выделяют, например, равнинные, горные, прибрежные, речные, болотные, пустынные и лесные ландшафты. По степени преобразования различают природные, слабоизменённые, культурные, аграрные, городские и техногенные ландшафты. Эти категории не всегда взаимоисключающие: городской ландшафт может включать речные террасы, природные склоны и искусственные поверхности.
 
 В ландшафтном анализе применяют понятия:
-- **фация** — относительно однородный небольшой природный участок;
-- **урочище** — закономерно связанная группа фаций, часто приуроченная к определённой форме рельефа;
+- **ландшафтная фация** — относительно однородный небольшой природный участок; уточнение «ландшафтная» отличает эту единицу от геологической фации;
+- **урочище** — закономерно связанная группа ландшафтных фаций, часто приуроченная к определённой форме рельефа;
 - **местность** — более крупная морфологическая единица в ряде отечественных школ;
 - **ландшафт** — целостная территориальная система более высокого уровня.
 
@@ -313,7 +313,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 Полевые и лабораторные данные должны сопровождаться координатами, датой, глубиной отбора, методикой, единицами измерения и сведениями о качестве. Спутниковые индексы растительности не являются прямым измерением плодородия почвы: их интерпретация требует наземной проверки и учёта сезонности.
 
-**Цифровые почвенные карты.** SoilGrids — глобальный продукт цифрового картографирования, в котором свойства почв моделируются по данным почвенных профилей и экологическим переменным. Для версии SoilGrids 2.0 публикуются прогнозы с размером ячейки 250 м для шести стандартных интервалов глубины: 0–5, 5–15, 15–30, 30–60, 60–100 и 100–200 см; для ячеек приводятся оценки неопределённости. Размер ячейки характеризует пространственное разрешение, но не гарантирует точность прогноза на таком же расстоянии. Это модельные прогнозы, а не измерения в каждой точке и не замена местной почвенной съёмке. Плотность исходных наблюдений неодинакова: в документации ISRIC отдельно отмечены пробелы для Центральной Азии, поэтому для Кыргызстана нельзя трактовать пиксельную детализацию как подтверждённую точность на местности. При использовании таких карт нужно указывать версию, свойство, глубину, единицы, интервал неопределённости и дату доступа; для локальных решений результаты следует проверять полевыми пробами.
+**Цифровые почвенные карты.** SoilGrids — глобальный продукт цифрового картографирования, в котором свойства почв моделируются по данным почвенных профилей и экологическим переменным. Для версии SoilGrids 2.0 публикуются прогнозы с размером ячейки 250 м для шести стандартных интервалов глубины: 0–5, 5–15, 15–30, 30–60, 60–100 и 100–200 см. Неопределённость прогноза для каждого свойства и интервала глубины представлена 90%-м прогнозным интервалом (5-й–95-й процентили). Размер ячейки характеризует пространственное разрешение, но не гарантирует точность прогноза на таком же расстоянии. Это модельные прогнозы, а не измерения в каждой точке и не замена местной почвенной съёмке. Плотность исходных наблюдений неодинакова: в документации ISRIC отдельно отмечены пробелы для Центральной Азии, поэтому для Кыргызстана нельзя трактовать пиксельную детализацию как подтверждённую точность на местности. При использовании таких карт нужно указывать версию, свойство, глубину, единицы, интервал неопределённости и дату доступа; для локальных решений результаты следует проверять полевыми пробами.
 
 ### 8.15.1. Как выявлять и оценивать засоление почв / Identifying and Assessing Soil Salinity
 
@@ -449,7 +449,7 @@ Soils develop through combinations of processes that may reinforce or counteract
 - **Mineralisation:** the breakdown of organic compounds into simpler inorganic forms.
 - **Eluviation:** the removal of soluble or fine materials from upper horizons.
 - **Illuviation:** the accumulation of materials transported from upper horizons into lower ones.
-- **Carbonation:** the accumulation and transformation of calcium and magnesium carbonates.
+- **Calcification (carbonate accumulation):** the accumulation and transformation of calcium and magnesium carbonates within the soil profile.
 - **Gleying:** reducing processes under prolonged waterlogging and low oxygen, often associated with greyish-blue colours.
 - **Podzolisation:** a group of processes involving the removal of organic-mineral compounds and formation of a bleached horizon under certain acidic, leaching conditions.
 - **Ferralitisation:** intense weathering and relative accumulation of iron and aluminium oxides under warm, humid conditions.
@@ -462,7 +462,7 @@ Soil distribution is systematically related to climate, vegetation, relief, pare
 
 Different soil-classification systems exist. The World Reference Base for Soil Resources (WRB; 4th edition, 2022, with corrections published in 2024) is widely used for international comparison. National systems may use different diagnostic horizons, criteria and names. Soil names from different systems should not automatically be treated as exact synonyms. The H, O, A, E, B, C and R labels used in a general soil-profile description are master horizon and layer designations, not the complete WRB classification key and not a universal sequence present in every soil. Formal classification requires checking diagnostic horizons, properties and materials under the rules of the selected system; visual resemblance alone is insufficient.
 
-The fourth edition of WRB recognises 32 Reference Soil Groups (RSGs); more specific soil names are formed using qualifiers. Examples of RSGs include Histosols, Cryosols, Podzols, Chernozems, Kastanozems, Solonchaks, Solonetz, Arenosols, Ferralsols, Fluvisols and Leptosols. These are units of an international classification, not simply descriptions of natural zones.
+The fourth edition of WRB recognises 32 Reference Soil Groups (RSGs). These form the first classification level; qualifiers provide the more detailed second-level name. Examples of RSGs include Histosols, Cryosols, Podzols, Chernozems, Kastanozems, Solonchaks, Solonetz, Arenosols, Ferralsols, Fluvisols and Leptosols. These are units of an international classification, not simply descriptions of natural zones.
 
 Global teaching materials also use descriptive expressions such as “dark humus-rich steppe soils”, “dryland soils of semi-deserts”, “alluvial valley soils” and “mountain soils”. These are useful for explaining geographical patterns, but they do not always correspond to one specific RSG. A map legend must therefore not mix formal WRB units, national soil names and broad landscape descriptions. If a simplified map is used, this must be stated clearly in its title and legend.
 
@@ -482,7 +482,7 @@ Mountain soils are often patchy: slopes may have shallow soils, valleys accumula
 
 ### 8.9. Soil Erosion and Land Degradation
 
-Land degradation is a decline in the biological productivity, ecological functions and/or economic value of land caused by natural and human-driven processes.
+Land degradation is a decline in the biological productivity, ecological functions and/or economic value of land caused by natural and human-driven processes. This broad teaching definition should be distinguished from the specific UNCCD Convention definition, which applies to arid, semi-arid and dry sub-humid areas.
 
 **Water erosion** occurs when raindrops and surface runoff detach and transport soil particles. It may appear as sheet wash, rills and gullies. Risk increases when vegetation is removed, soil is compacted, slopes are steep and rainfall is intense.
 
@@ -490,7 +490,7 @@ Land degradation is a decline in the biological productivity, ecological functio
 
 Other forms of degradation include soil compaction by heavy machinery and excessive grazing; loss of organic matter and fertility; salinisation under inappropriate irrigation and inadequate drainage; contamination by heavy metals, petroleum products, pesticides and waste; waterlogging caused by altered water regimes; and **desertification**—land degradation in arid, semi-arid and dry sub-humid areas caused by various climatic and human factors.
 
-Desertification does not simply mean the “movement of the desert”, and it is not the same as the natural existence of desert ecosystems. It is a process of land degradation in vulnerable drylands.
+Desertification does not simply mean the “movement of the desert”, and it is not the same as the natural existence of desert ecosystems. Under the UNCCD definition, it is land degradation in arid, semi-arid and dry sub-humid areas resulting from various factors, including climatic variations and human activities.
 
 ### 8.10. Soil Conservation and Sustainable Management
 
@@ -517,8 +517,8 @@ Landscapes may be classified by origin, relief, climate, moisture, vegetation, s
 Depending on dominant natural conditions, examples include plains, mountains, coasts, river landscapes, wetlands, deserts and forests. By degree of transformation, landscapes may be natural, slightly modified, cultural, agricultural, urban or industrial. These categories are not always mutually exclusive: an urban landscape may include river terraces, natural slopes and artificial surfaces.
 
 Landscape analysis uses concepts such as:
-- **facies:** a relatively small, internally uniform natural site;
-- **urochishche:** a group of related facies, often associated with a particular landform;
+- **landscape facies:** a relatively small, internally uniform natural site; the qualifier “landscape” distinguishes this unit from geological facies;
+- **urochishche:** a group of related landscape facies, often associated with a particular landform;
 - **locality:** a larger morphological unit in some Eastern European schools; and
 - **landscape:** an integrated territorial system at a higher level.
 
@@ -551,7 +551,21 @@ Common methods include soil pits for describing horizons, structure and roots; s
 
 Field and laboratory data should include coordinates, date, sampling depth, method, units and quality information. Satellite vegetation indices are not direct measurements of soil fertility: interpretation requires ground validation and consideration of seasonality.
 
-**Digital soil maps.** SoilGrids is a global digital soil-mapping product in which soil properties are modelled from soil-profile observations and environmental covariates. SoilGrids 2.0 provides predictions at a 250 m grid-cell size for six standard depth intervals: 0–5, 5–15, 15–30, 30–60, 60–100 and 100–200 cm, with uncertainty estimates for map cells. Grid-cell size describes spatial resolution; it does not guarantee prediction accuracy at the same distance scale. These are model predictions, not measurements at every location and not a substitute for local soil surveys. Input observations are unevenly distributed; ISRIC documentation specifically identifies data gaps in Central Asia. Pixel-level detail must therefore not be mistaken for verified local accuracy in Kyrgyzstan. When using these maps, report the version, property, depth interval, units, prediction-uncertainty interval and access date; validate results with field samples before local decisions.
+**Digital soil maps.** SoilGrids is a global digital soil-mapping product in which soil properties are modelled from soil-profile observations and environmental covariates. SoilGrids 2.0 provides predictions at a 250 m grid-cell size for six standard depth intervals: 0–5, 5–15, 15–30, 30–60, 60–100 and 100–200 cm. Prediction uncertainty is represented by a 90% prediction interval (5th–95th percentiles) for each property and depth interval. Grid-cell size describes spatial resolution; it does not guarantee prediction accuracy at the same distance scale. These are model predictions, not measurements at every location and not a substitute for local soil surveys. Input observations are unevenly distributed; ISRIC documentation specifically identifies data gaps in Central Asia. Pixel-level detail must therefore not be mistaken for verified local accuracy in Kyrgyzstan. When using these maps, report the version, property, depth interval, units, prediction-uncertainty interval and access date; validate results with field samples before local decisions.
+
+### 8.15.1. Identifying and Assessing Soil Salinity
+
+Soil salinisation is the accumulation of soluble salts to levels that can impair plant growth and soil conditions. It often results from an interaction of natural conditions and water management: evaporation, poor drainage, shallow saline groundwater and inappropriate irrigation. A white surface crust may be an indicator, but it is not sufficient confirmation and does not show the degree of salinity.
+
+**How assessment is carried out:** describe topography, land use, irrigation and drainage; collect replicated soil samples at several depths; measure the electrical conductivity of a soil extract using a specified protocol; and, where needed, analyse salt composition, pH and groundwater properties. For comparable laboratory assessments, electrical conductivity of the saturated-paste extract (ECe), referenced to 25 °C and expressed in dS/m, is commonly used. Values from other soil-to-water extract ratios (for example, 1:5) and field apparent-conductivity readings are not interchangeable with ECe: results depend on dilution, texture, moisture and mineralogy. Reports must therefore state the extract or instrument method, soil-to-water ratio, temperature and units.
+
+**Spatial variability.** Salinity can change sharply over short distances, for example along an irrigation canal, in a depression or near a field edge. One sample therefore cannot represent an entire field. Sampling design should account for topography, soil type, irrigation regime and visible vegetation differences.
+
+**Do not confuse salinity with sodicity.** Salinity involves excess soluble salts; sodicity involves a high proportion of exchangeable sodium and changes in soil structure. The processes may occur together, but they require different diagnostic indicators and management measures.
+
+Salinity thresholds also depend on the classification and measurement method. An ECe value near 4 dS/m at 25 °C is often cited historically, but it is not a universal threshold for damage across all crops and soils: sensitive plants may respond at lower values, and crop tolerance varies. A threshold for ECe must not be applied directly to a 1:5 extract result without a conversion procedure validated for the relevant conditions. Electrical conductivity reflects the combined concentration of dissolved ions; by itself it does not identify which salts are present or establish the degree of sodicity. Those questions require separate chemical and exchange-related measurements.
+
+**Activity.** Design a sampling plan for an irrigated field: identify at least three micro-landscape positions and two sampling depths. State which irrigation and drainage data should be collected before recommending soil-improvement measures.
 
 ## 8.16. Итоги главы / Chapter Summary
 
@@ -565,9 +579,21 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 8. Ландшафтная экология анализирует мозаику пятен, коридоров и матрицы, а также связность и краевые эффекты.
 9. Сохранение почв и устойчивое управление ландшафтами необходимы для продовольственной безопасности, водного регулирования и биоразнообразия.
 
+### English Summary
+
+1. Soil is an independent natural body formed through interactions among mineral material, organic matter, water, air and organisms.
+2. Soil formation depends on climate, organisms, relief, parent material, time and human activity.
+3. Soil profiles contain genetic horizons whose development depends on formation conditions; formal classification requires diagnostic evidence under the selected system.
+4. Physical, chemical and biological properties jointly determine soil functions and suitability for different uses.
+5. Soil geography is related to latitudinal zonation, altitudinal belts and local conditions; digital soil-property maps show modelled estimates and their uncertainty, not field measurements at every location.
+6. Erosion, salinisation, compaction, pollution and loss of organic matter are major forms of land degradation.
+7. A landscape is a spatially organised system of interacting natural and human-modified components.
+8. Landscape ecology analyses patches, corridors and matrix, as well as connectivity and edge effects.
+9. Soil conservation and sustainable landscape management are essential for food security, water regulation and biodiversity.
+
 ## 8.17. Ключевые понятия / Key Terms
 
-Почва — Soil; почвообразование — Pedogenesis; материнская порода — Parent material; почвенный профиль — Soil profile; генетический горизонт — Soil horizon; органический горизонт H — H organic horizon; органический горизонт O — O organic horizon; гумус — Humus; гранулометрический состав — Soil texture; структура почвы — Soil structure; пористость — Porosity; плотность сложения — Bulk density; ёмкость катионного обмена — Cation exchange capacity; электропроводность вытяжки из насыщенной пасты (ECe) — Saturated-paste extract electrical conductivity (ECe); засоление — Salinization; осолонцевание — Sodification; эрозия — Erosion; дефляция — Wind erosion/deflation; опустынивание — Desertification; ландшафт — Landscape; фация — Facies (landscape unit); урочище — Urochishche (landscape unit); экотон — Ecotone; ландшафтная экология — Landscape ecology; связность — Connectivity; матрица — Matrix; коридор — Corridor.
+Почва — Soil; почвообразование — Pedogenesis; материнская порода — Parent material; почвенный профиль — Soil profile; генетический горизонт — Soil horizon; органический горизонт H — H organic horizon; органический горизонт O — O organic horizon; гумус — Humus; гранулометрический состав — Soil texture; структура почвы — Soil structure; пористость — Porosity; плотность сложения — Bulk density; ёмкость катионного обмена — Cation exchange capacity; электропроводность вытяжки из насыщенной пасты (ECe) — Saturated-paste extract electrical conductivity (ECe); засоление — Salinization; осолонцевание — Sodification; эрозия — Erosion; дефляция — Wind erosion/deflation; опустынивание — Desertification; ландшафт — Landscape; ландшафтная фация — Landscape facies; урочище — Urochishche (landscape unit); экотон — Ecotone; ландшафтная экология — Landscape ecology; связность — Connectivity; матрица — Matrix; коридор — Corridor.
 
 ## 8.18. Контрольные вопросы и задания / Review Questions and Activities
 
@@ -583,11 +609,29 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 8. Какие процессы вызывают водную и ветровую эрозию?
 9. Почему опустынивание не является синонимом естественной пустыни?
 10. Что такое ландшафт и почему важно указывать масштаб его анализа?
-11. Чем фация отличается от урочища в принятой ландшафтной классификации?
+11. Чем ландшафтная фация отличается от урочища в принятой ландшафтной классификации?
 12. Что означают пятно, коридор и матрица в ландшафтной экологии?
 13. В чём разница между структурной и функциональной связностью?
 14. Почему спутниковые индексы не заменяют полевые почвенные исследования?
 15. Какие меры помогают сохранять почвенное плодородие и снижать эрозию?
+
+### English Review Questions
+
+1. How does soil differ from its parent rock?
+2. Which soil-forming factors are identified by the classical model?
+3. What do the H, O, A, E, B, C and R master horizons and layers represent?
+4. How does soil texture affect water properties?
+5. How does salinisation differ from sodification?
+6. What are eluviation and illuviation?
+7. Why does soil geography not exactly reproduce climatic zonation?
+8. Which processes cause water and wind erosion?
+9. Why is desertification not a synonym for a natural desert?
+10. What is a landscape, and why should its analytical scale be stated?
+11. How does a landscape facies differ from an urochishche in the adopted landscape classification?
+12. What do patch, corridor and matrix mean in landscape ecology?
+13. What is the difference between structural and functional connectivity?
+14. Why do satellite indices not replace field soil studies?
+15. Which measures help conserve soil fertility and reduce erosion?
 
 ### Практическая работа 1. Описание почвенного профиля / Practical activity 1. Describing a soil profile
 
@@ -604,50 +648,6 @@ Field and laboratory data should include coordinates, date, sampling depth, meth
 ### Практическая работа 4. Оценка эрозионного риска / Practical activity 4. Assessing erosion risk
 
 Сопоставьте крутизну склона, растительный покров, тип поверхности и признаки стока на учебной карте или снимке. Предложите меры противоэрозионной защиты и укажите, какие полевые данные необходимы для проверки выводов.
-
-### 8.15.1. Identifying and Assessing Soil Salinity
-
-Soil salinisation is the accumulation of soluble salts to levels that can impair plant growth and soil conditions. It often results from an interaction of natural conditions and water management: evaporation, poor drainage, shallow saline groundwater and inappropriate irrigation. A white surface crust may be an indicator, but it is not sufficient confirmation and does not show the degree of salinity.
-
-**How assessment is carried out:** describe topography, land use, irrigation and drainage; collect replicated soil samples at several depths; measure the electrical conductivity of a soil extract using a specified protocol; and, where needed, analyse salt composition, pH and groundwater properties. For comparable laboratory assessments, electrical conductivity of the saturated-paste extract (ECe), referenced to 25 °C and expressed in dS/m, is commonly used. Values from other soil-to-water extract ratios (for example, 1:5) and field apparent-conductivity readings are not interchangeable with ECe: results depend on dilution, texture, moisture and mineralogy. Reports must therefore state the extract or instrument method, soil-to-water ratio, temperature and units.
-
-**Spatial variability.** Salinity can change sharply over short distances, for example along an irrigation canal, in a depression or near a field edge. One sample therefore cannot represent an entire field. Sampling design should account for topography, soil type, irrigation regime and visible vegetation differences.
-
-**Do not confuse salinity with sodicity.** Salinity involves excess soluble salts; sodicity involves a high proportion of exchangeable sodium and changes in soil structure. The processes may occur together, but they require different diagnostic indicators and management measures.
-
-Salinity thresholds also depend on the classification and measurement method. An ECe value near 4 dS/m at 25 °C is often cited historically, but it is not a universal threshold for damage across all crops and soils: sensitive plants may respond at lower values, and crop tolerance varies. A threshold for ECe must not be applied directly to a 1:5 extract result without a conversion procedure validated for the relevant conditions. Electrical conductivity reflects the combined concentration of dissolved ions; by itself it does not identify which salts are present or establish the degree of sodicity. Those questions require separate chemical and exchange-related measurements.
-
-**Activity.** Design a sampling plan for an irrigated field: identify at least three micro-landscape positions and two sampling depths. State which irrigation and drainage data should be collected before recommending soil-improvement measures.
-
-### English Summary
-
-1. Soil is an independent natural body formed through interactions among mineral material, organic matter, water, air and organisms.
-2. Soil formation depends on climate, organisms, relief, parent material, time and human activity.
-3. Soil profiles contain genetic horizons whose development depends on formation conditions; formal classification requires diagnostic evidence under the selected system.
-4. Physical, chemical and biological properties jointly determine soil functions and suitability for different uses.
-5. Soil geography is related to latitudinal zonation, altitudinal belts and local conditions; digital soil-property maps show modelled estimates and their uncertainty, not field measurements at every location.
-6. Erosion, salinisation, compaction, pollution and loss of organic matter are major forms of land degradation.
-7. A landscape is a spatially organised system of interacting natural and human-modified components.
-8. Landscape ecology analyses patches, corridors and matrix, as well as connectivity and edge effects.
-9. Soil conservation and sustainable landscape management are essential for food security, water regulation and biodiversity.
-
-### English Review Questions
-
-1. How does soil differ from its parent rock?
-2. Which soil-forming factors are identified by the classical model?
-3. What do the H, O, A, E, B, C and R master horizons and layers represent?
-4. How does soil texture affect water properties?
-5. How does salinisation differ from sodification?
-6. What are eluviation and illuviation?
-7. Why does soil geography not exactly reproduce climatic zonation?
-8. Which processes cause water and wind erosion?
-9. Why is desertification not a synonym for a natural desert?
-10. What is a landscape, and why should its analytical scale be stated?
-11. How does a facies differ from an urochishche in the adopted landscape classification?
-12. What do patch, corridor and matrix mean in landscape ecology?
-13. What is the difference between structural and functional connectivity?
-14. Why do satellite indices not replace field soil studies?
-15. Which measures help conserve soil fertility and reduce erosion?
 
 ### English Practical Activities
 
