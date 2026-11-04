@@ -212,7 +212,9 @@ const chapterEvidence = [
     ["mole exact entity count in Russian", "Один моль содержит ровно Nₐ заданных элементарных сущностей"],
     ["mole exact entity count in English", "One mole contains exactly Nₐ specified elementary entities"],
     ["particle identity depends on substance in Russian", "молекул, атомов, ионов или формульных единиц"],
-    ["particle identity depends on substance in English", "molecules, atoms, ions or formula units"]
+    ["particle identity depends on substance in English", "molecules, atoms, ions or formula units"],
+    ["precise entity-count result label in Russian", "Число элементарных сущностей"],
+    ["precise entity-count figure caption in English", "approximate number of specified entities"]
   ]]
 ];
 for (const [relative, evidenceList] of chapterEvidence) {
