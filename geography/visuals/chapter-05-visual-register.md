@@ -8,6 +8,7 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 
 ## Integrated / Интегрировано
 
+| 5.14-A | Atmospheric hazards / Опасные атмосферные явления | Original bilingual SVG `geography/visuals/chapter-05-atmospheric-hazards.svg` | Five hazard groups with concise general safety actions; explicitly directs readers to local official warnings and does not rank hazards. Embedded in RU and EN chapter sections. |
 | 5.12-A | Global climate belts / Климатические пояса мира | Original bilingual conceptual SVG `geography/visuals/chapter-05-global-climate-belts.svg` | Shows six broad latitudinal belts in both hemispheres; curved boundaries are schematic and reflect seasonal shifts and regional controls. Not a precise boundary map. Embedded in RU and EN chapter sections. |
 | Visual | Subject | Asset and rights | Use limitation |
 |---|---|---|---|
@@ -29,7 +30,6 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 | Visual ID | Subject |
 |---|---|
 
-| 5.14-A | Atmospheric hazards / Опасные атмосферные явления |
 | 5.15-A | Climate change: drivers, evidence and responses / Причины, свидетельства и ответы на изменение климата |
 | 5.16-A | Weather observation to forecast / От наблюдений к прогнозу погоды |
 | 5.17-A | Climate diagram exercise / Практика чтения климатограмм |
