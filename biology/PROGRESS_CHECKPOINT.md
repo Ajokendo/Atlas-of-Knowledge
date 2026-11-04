@@ -1126,3 +1126,6 @@ Reviewed source markup for ten generated Biology SVGs across anatomy, biochemist
 - Checked scientific qualifications in circulation, homeostasis, biomolecules, respiration, flower reproduction, plant transport, habitat separation, freshwater schematic labels, vegetation belts, DNA packaging, antimicrobial resistance, viral replication, cellular domains, taxonomy and phylogenetic trees.
 - No additional proven source-level scientific error was established in this batch. These checks do not constitute rendered visual QA or independent specialist certification.
 - Global Image Verification remains **Pending audit**.
+
+
+A final bilingual-equivalence refinement in this batch expanded the English descriptions in `biochem-enzyme.svg` and `biochem-respiration.svg`: the enzyme text now explicitly includes substrate binding at the active site and enzyme–substrate complex formation; the respiration text now fully states proton pumping from the matrix to the intermembrane space and return through ATP synthase. This avoids treating a short English summary as a full counterpart to the Russian description.
