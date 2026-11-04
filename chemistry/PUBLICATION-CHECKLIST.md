@@ -73,3 +73,13 @@ This is an internal audit milestone only; it is not external release acceptance.
 - [x] Reviewed targeted browser coverage for chemistry formula parsing, pH, Nernst equation, ideal-gas pressure, limiting reagent, reaction balancing and quiz workflows.
 - [x] Confirmed automated coverage for bilingual page rendering/accessibility scans, responsive widths, local assets, glossary, periodic-table data and SVG descriptions.
 - [ ] Remaining external device, assistive-technology and independent scientific checks are still pending and require human evidence/sign-off.
+
+
+## Latest automated evidence — 2026-11-04
+
+- [x] Latest branch-head CI run [41889220939](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41889220939), commit `73affc2476dc4f14d6f8b6bf569d8b546df57868`, completed successfully.
+- [x] Static validation: 22 HTML pages, 89 local links/assets, 21 inline scripts, and 18 bilingual dictionaries.
+- [x] Chromium: 21 pages loaded; 42 RU/EN axe-core scans passed without serious/critical findings; language switching and key interactive workflows passed; no uncaught page errors.
+- [x] Automated horizontal-overflow checks executed at 390, 768 and 1280 CSS px.
+- [ ] Manual physical-device, keyboard, screen-reader and 200%/400% zoom/reflow checks remain pending. Automated CI does not satisfy these gates.
+- [ ] Independent chemistry review and final publication approval remain pending.
