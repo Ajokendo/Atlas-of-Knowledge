@@ -131,8 +131,15 @@ async function checkInteractiveBook(mobile) {
     }
     if (initial.canvas[0] < 100 || initial.canvas[1] < 100) throw new Error(`WebGL canvas too small: ${initial.canvas.join('×')}`);
     if (initial.overflow) throw new Error('interactive book has horizontal overflow');
-    await page.locator('#dots button').nth(8).evaluate(button => button.click());
-    await page.waitForFunction(() => document.querySelector('#sheet h1')?.textContent?.trim() === 'Проводники', undefined, { timeout: 8000 });
+    const pageTitles = [
+      'Поток электрического поля', 'Закон Гаусса', 'Заряженная нить',
+      'Заряженные листы и пластины', 'Металлическая сфера', 'Диэлектрическая сфера',
+      'Заряженные стержни', 'Неравномерное распределение заряда', 'Проводники',
+    ];
+    for (let i = 0; i < pageTitles.length; i++) {
+      await page.locator('#dots button').nth(i).evaluate(button => button.click());
+      await page.waitForFunction(title => document.querySelector('#sheet h1')?.textContent?.trim() === title, pageTitles[i], { timeout: 8000 });
+    }
     if (errors.length) throw new Error(errors.join(' | '));
     console.log(`PASS Gauss-law interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 9 pages, WebGL ${initial.canvas.join('×')}, navigation to conductors`);
   } catch (error) {
