@@ -99,7 +99,7 @@ Do not interpret internal technical audit completion as external release accepta
 
 ## Branch-head validation status — 2026-11-05
 
-**Automated CI: PASS.** Current Chemistry branch head at commit `7a4d60cca9407e059be913cd390e4ea89ced8c41` passed GitHub Actions run [41911003011](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41911003011).
+**Automated CI: PASS.** Current Chemistry branch head at commit `96d4f3a035be77ced650b9c0520d1e3c4ebb27d2` passed GitHub Actions run [41912166802](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41911003011).
 
 - [x] Static Chemistry checks: 22 HTML pages, 90 local links/assets, 21 inline scripts and 18 bilingual pages checked.
 - [x] Chromium browser smoke: all 21 configured pages loaded; 42 axe-core WCAG 2.1 A/AA scans (RU + EN); 21 language toggles and key interactive workflows; no uncaught page errors.
