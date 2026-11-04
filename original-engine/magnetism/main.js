@@ -6,6 +6,7 @@ import * as M from './model.js';
 
 const f = (x, n = 2) => (x < -1e-9 ? '−' : '') + Math.abs(x).toFixed(n);
 const uT = x => f(x * 1e6, 1);
+const deg = Math.PI / 180;
 
 
 startBook({
