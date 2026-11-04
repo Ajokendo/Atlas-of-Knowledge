@@ -235,6 +235,12 @@ export function startBook(chapter) {
     }
     drag = null; $('gl').classList.remove('dragging');
   });
+  // Browsers may cancel a touch gesture when it becomes a page scroll or the OS takes over.
+  // Clear the drag latch so the next pointer interaction starts from a clean state.
+  $('gl').addEventListener('pointercancel', () => {
+    drag = null;
+    $('gl').classList.remove('dragging');
+  });
   $('gl').addEventListener('dblclick', () => { orbit.az = 0; orbit.el = 0; orbit.pan.set(0, 0, 0); });
   $('gl').addEventListener('pointermove', e => {
     if (drag) {
