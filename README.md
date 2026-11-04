@@ -65,6 +65,6 @@ python3 -m http.server 8137
 
 ## Atlas of Knowledge
 
-This repository hosts four coordinated subject atlases: Physics, Chemistry, Biology and Geography. The canonical project inventory is [PROJECT_REGISTRY.md](PROJECT_REGISTRY.md). The unified portal is [portal.html](portal.html).
+This repository hosts four coordinated subject atlases: Physics, Chemistry, Biology and Geography. The canonical project inventory is [PROJECT_REGISTRY.md](PROJECT_REGISTRY.md). The unified portal is [portal.html](portal.html). The universal visual-content requirements are maintained once in [IMAGE_FIRST_POLICY.md](IMAGE_FIRST_POLICY.md); each discipline keeps its own source register and audit.
 
 During the architecture transition, use the `atlas-of-knowledge-integration` branch as the integration workspace. Do not assume the repository has already been renamed; see the registry for current status.
