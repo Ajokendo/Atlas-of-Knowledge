@@ -6,7 +6,7 @@ This register mirrors the in-page illustration markers. Each marker is placed be
 
 ## Current disposition — 4 November 2026
 
-Thirty-three of 53 visual briefs are now produced or integrated (**62.3%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Twenty briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Thirty-four of 53 visual briefs are now produced or integrated (**64.2%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Nineteen briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
 
 ## Priority key
 
@@ -83,7 +83,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 - [x] **[P1] Высокогорные луга и степи Нарынской области / High-altitude meadows and steppes of Naryn Region** — three source-backed photographs: Chatyr-Kul shore, Son-Kul lakeshore meadow, and *Clematis songorica* documented in Ak-Tala District at 2,400 m; separate localities are captioned explicitly.
 - [x] **[P1] Кулун-Ата: речное местообитание / Kulun-Ata river habitat** — one source-backed local view of a river and riparian woody vegetation; not a complete flora or altitudinal survey of Osh Region.
 - [~] **[P1] Айгуль и дикие тюльпаны Баткена / Aygul and wild tulips of Batken** — separate, botanically accurate portraits of *Petilium eduardii* and other verified wild tulips; do not conflate species.
-- [~] **[P2] Растительность Таласского Ала-Тоо / Vegetation of Talas Ala-Too** — Besh-Tash spruce and juniper communities, river floodplain and subalpine meadows.
+- [x] **[P2] Растительность Таласского Ала-Тоо / Vegetation of Talas Ala-Too** — original bilingual SVG integrated at the existing anchor; distinguishes Besh-Tash spruce woodland, juniper communities, subalpine/alpine meadows and river floodplain without fixed elevation limits or unsupported species labels.
 - [~] **[P2] От долины Чуя к высокогорьям / From the Chuy Valley to high elevations** — valley steppe and semi-desert through Kyrgyz Range juniper slopes to alpine meadows; no invented elevation labels.
 
 ### Fauna of Kyrgyzstan — `chapters/fauna-kyrgyzstan.html`
