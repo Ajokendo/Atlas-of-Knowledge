@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t d">
+<title id="t">Транспорт веществ в растении / Transport in a plant</title>
+<desc id="d">Обобщённая схема растения: ксилема переносит воду и минеральные вещества преимущественно от корней вверх; флоэма переносит сахара от источников к потребителям и местам запаса, направление зависит от расположения источников и потребителей.</desc>
+<defs><marker id="blueArrow" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#1677b8"/></marker><marker id="purpleArrow" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#87449b"/></marker><style>
+.title{font:700 32px Arial;fill:white}.head{font:700 23px Arial;fill:#263c2b}.lab{font:19px Arial;fill:#263c2b}.sm{font:16px Arial;fill:#35483b}.blue{stroke:#1677b8;stroke-width:10;fill:none;marker-end:url(#blueArrow)}.purple{stroke:#87449b;stroke-width:9;fill:none;marker-end:url(#purpleArrow)}.panel{fill:#fbfcf6;stroke:#a6bd93;stroke-width:2}
+</style></defs>
+<rect width="1200" height="900" fill="#f4f8ef"/><rect x="20" y="18" width="1160" height="72" rx="18" fill="#285f3a"/>
+<text x="600" y="64" text-anchor="middle" class="title">Транспорт веществ в растении / Transport in a plant</text>
+<rect x="30" y="115" width="1140" height="555" rx="20" class="panel"/>
+<!-- plant -->
+<path d="M590 550C585 420 595 300 590 205" stroke="#56864b" stroke-width="25" fill="none" stroke-linecap="round"/>
+<path d="M590 330C485 250 390 245 300 285C355 375 475 390 590 330Z" fill="#91bd72" stroke="#4c8048" stroke-width="4"/>
+<path d="M590 330L325 292M590 330L470 360" stroke="#dcebd0" stroke-width="4" fill="none"/>
+<path d="M590 410C690 330 800 320 900 355C840 445 720 465 590 410Z" fill="#91bd72" stroke="#4c8048" stroke-width="4"/>
+<path d="M590 410L875 360M590 410L735 445" stroke="#dcebd0" stroke-width="4" fill="none"/>
+<!-- flower -->
+<g transform="translate(590 190)"><path d="M0 0C-65 -70 -105 -20 -65 25C-115 60 -55 100 0 42C55 100 115 60 65 25C105 -20 65 -70 0 0Z" fill="#e5a9a4" stroke="#a66e70" stroke-width="3"/><circle r="22" fill="#e4bf64" stroke="#9b7a36" stroke-width="3"/></g>
+<!-- roots -->
+<g stroke="#987c59" stroke-width="9" fill="none" stroke-linecap="round"><path d="M590 550C520 610 450 640 380 660M590 550C650 610 720 640 800 660M590 550C580 615 575 650 570 675M590 550C530 590 500 610 470 625M590 550C660 585 690 610 720 625"/></g>
+<!-- xylem arrow stem -->
+<path d="M565 610C565 490 565 370 565 245" class="blue"/>
+<path d="M565 300C500 285 440 285 385 300" class="blue"/>
+<path d="M565 370C650 350 725 355 800 375" class="blue"/>
+<!-- phloem source leaf to sink root and fruit/flower -->
+<path d="M720 405C770 470 720 545 640 620" class="purple"/>
+<path d="M470 340C425 405 450 500 520 620" class="purple"/>
+<path d="M640 620C675 520 670 360 620 235" class="purple"/>
+<!-- callouts -->
+<g class="lab"><text x="70" y="180" class="head">Лист — источник / Leaf — source</text><text x="70" y="210">Фотосинтез создаёт сахара</text><text x="70" y="235" class="sm">Photosynthesis produces sugars</text>
+<text x="845" y="175" class="head">Цветок и растущие органы</text><text x="845" y="204">Потребители / Sinks</text><text x="845" y="230" class="sm">Используют сахара для роста</text><text x="845" y="254" class="sm">Use sugars for growth</text>
+<text x="80" y="575" class="head">Корни — потребитель и запас</text><text x="80" y="605">Roots — sink and storage</text><text x="80" y="632" class="sm">Получают сахара; могут запасать их</text><text x="80" y="655" class="sm">Receive and may store sugars</text>
+<text x="820" y="565" class="head">Ксилема / Xylem</text><text x="820" y="595">Вода + минеральные вещества</text><text x="820" y="620" class="sm">Water + mineral nutrients</text><text x="820" y="645" class="sm">Преимущественно вверх / Mainly upward</text></g>
+<path d="M360 270L455 295" stroke="#344b3b" stroke-width="2" fill="none"/><path d="M825 530L690 500" stroke="#344b3b" stroke-width="2" fill="none"/>
+<rect x="30" y="700" width="555" height="150" rx="16" fill="#e6f2fa" stroke="#78afd1" stroke-width="2"/>
+<path d="M70 755H180" class="blue"/><text x="210" y="750" class="head" fill="#176b9e">Ксилема / Xylem</text><text x="70" y="795" class="sm">Вода движется от корней к побегам</text><text x="70" y="822" class="sm">Water moves from roots to shoots</text>
+<rect x="615" y="700" width="555" height="150" rx="16" fill="#f2e8f5" stroke="#b38bc0" stroke-width="2"/>
+<path d="M655 755H765" class="purple"/><text x="795" y="750" class="head" fill="#75428f">Флоэма / Phloem</text><text x="655" y="795" class="sm">От источника к потребителю / Source to sink</text><text x="655" y="822" class="sm">Поток может быть вверх или вниз*</text><text x="655" y="844" class="sm">Flow can be upward or downward*</text>
+<text x="600" y="885" text-anchor="middle" class="sm">* В разных ситовидных трубках возможны разные направления / Different sieve tubes may carry flow in different directions</text>
+</svg>
