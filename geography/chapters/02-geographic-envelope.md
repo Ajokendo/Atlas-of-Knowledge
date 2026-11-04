@@ -351,16 +351,26 @@
 
 ## 2.12. Устойчивость природных систем / Stability of Natural Systems
 
-Устойчивость природной системы — способность сохранять структуру и основные функции при внешних воздействиях. Она не означает неподвижности: экосистемы постоянно изменяются и могут переходить в новые состояния.
+Устойчивость природной системы описывает её способность сохранять важные свойства и функции при воздействиях. Это не означает неподвижности или обязательного возвращения к прежнему состоянию.
 
-Механизмы устойчивости включают биологическое разнообразие, круговорот веществ, естественное восстановление растительности, регулирование численности популяций и поддержание почвенных и водных процессов.
+Важно различать несколько связанных понятий:
+- **Сопротивляемость (resistance)** — насколько мало система изменяется во время воздействия.
+- **Восстановление (recovery)** — насколько и как быстро система возвращается к прежнему состоянию после нарушения.
+- **Экологическая устойчивость, или резильентность (resilience)**, — способность системы выдерживать нарушения, восстанавливаться или адаптироваться, не обязательно возвращаясь к прежнему состоянию. При сильном воздействии возможна реорганизация системы и переход к другому устойчивому состоянию.
+
+Биоразнообразие, круговорот веществ, восстановление растительности, взаимодействия видов и состояние почв и вод могут влиять на устойчивость. Однако ни один из этих факторов сам по себе не гарантирует восстановления: результат зависит от силы и длительности воздействия, исходного состояния системы и сочетания процессов.
 
 ### 2.12.1. Обратные связи / Feedback Mechanisms
 
-- **Отрицательная обратная связь** ослабляет первоначальное изменение.
+Обратная связь возникает, когда результат процесса влияет на его дальнейшее течение.
+- **Отрицательная обратная связь** противодействует первоначальному изменению и может сдерживать его.
 - **Положительная обратная связь** усиливает первоначальное изменение.
 
-Пример положительной обратной связи: при таянии снега и льда уменьшается альбедо поверхности, возрастает поглощение солнечной энергии и может ускоряться дальнейшее таяние.
+Пример положительной обратной связи: при таянии снега и льда уменьшается альбедо — доля солнечного излучения, отражаемая поверхностью. Более тёмная поверхность поглощает больше энергии, что может ускорять дальнейшее таяние.
+
+Упрощённый пример отрицательной обратной связи: при росте растений усиливается расход почвенной влаги на транспирацию. Если доступность воды снижается, дальнейший рост растений ограничивается. Такая связь может сдерживать изменение, но не обязательно возвращает систему к исходному состоянию.
+
+Положительная и отрицательная обратные связи не означают соответственно «плохую» и «хорошую»: первая усиливает изменения, вторая ослабляет их. В реальных природных системах несколько обратных связей действуют одновременно.
 
 **Место для иллюстрации 2.12-A — Positive and Negative Feedback Mechanisms.** Две сравнительные диаграммы обратных связей.
 
@@ -692,11 +702,24 @@ Natural geosystems are shaped mainly by natural processes. Anthropogenic geosyst
 
 ### 2.12. Stability of Natural Systems
 
-The stability of a natural system is its ability to maintain its structure and main functions under external pressures. Stability does not mean that a system is motionless: ecosystems change continuously and may shift into new states.
+The stability of a natural system concerns its ability to maintain important properties and functions under external pressures. It does not mean that the system is motionless or must always return to its previous state.
 
-Resilience mechanisms include biological diversity, nutrient cycling, natural vegetation recovery, regulation of population sizes and the maintenance of soil and water processes.
+Several related concepts should be distinguished:
+- **Resistance** describes how little a system changes while a disturbance is occurring.
+- **Recovery** describes the extent and speed with which a system returns towards its previous condition after a disturbance.
+- **Ecological resilience** is the capacity to withstand disturbance, recover or adapt without necessarily returning to the former state. Under sufficiently strong pressure, a system may reorganise and shift into a different persistent state.
 
-Negative feedback weakens an initial change; positive feedback amplifies it. For example, when snow and ice melt, surface albedo decreases, more solar energy is absorbed and further melting may accelerate.
+Biodiversity, nutrient cycling, vegetation recovery, species interactions, and soil and water conditions can all influence resilience. None guarantees recovery on its own: outcomes depend on the intensity and duration of the disturbance, the system's initial condition and the interaction of multiple processes.
+
+A **feedback** occurs when the result of a process influences how that process continues.
+- **Negative feedback** counteracts an initial change and can limit it.
+- **Positive feedback** amplifies an initial change.
+
+An example of positive feedback is snow and ice melt: as they melt, surface albedo—the fraction of incoming sunlight reflected by a surface—decreases. The darker surface absorbs more energy, which can accelerate further melting.
+
+A simplified example of negative feedback is plant growth and soil moisture. As plants grow, transpiration uses soil water. If water availability falls, further plant growth becomes limited. This can constrain the change, but it does not necessarily return the system to its original state.
+
+Positive and negative do not mean “bad” and “good”: the terms describe whether a feedback amplifies or counteracts a change. Real natural systems contain several feedbacks operating at the same time.
 
 ### 2.13. Human Impact
 
@@ -793,10 +816,12 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 24. U.S. Geological Survey. *Some Unanswered Questions: What drives the plates?* (explains mantle flow, ridge push and slab pull; notes that details of the driving mechanisms remain an active scientific question). https://pubs.usgs.gov/gip/dynamic/unanswered.html
 25. U.S. Geological Survey. *Where Do Earthquakes Occur?* (plate-boundary and intraplate earthquakes; spreading, transform and subduction settings). https://pubs.usgs.gov/gip/earthq1/where.html
 26. National Oceanic and Atmospheric Administration. *The Water Cycle* (water storage and fluxes, including evaporation, transpiration, sublimation, deposition, runoff, infiltration and atmospheric transport). https://www.noaa.gov/education/resource-collections/freshwater/water-cycle
+27. U.S. Geological Survey. *Mechanisms of Forest Resilience* (resilience as an emergent property involving persistence, recovery and ecosystem reorganisation). https://www.usgs.gov/publications/mechanisms-forest-resilience
+28. NASA My NASA Data. *Systems Thinking About Earth System* (introductory explanation and examples of positive and negative feedbacks, including ice–albedo feedback). https://mynasadata.larc.nasa.gov/basic-page/systems-thinking-about-earth-system
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
-Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; USGS (22) — обновление и переработка океанической коры; USGS (23) — ограничения интерпретации возраста древнейших пород; USGS (24) — сочетание mantle flow, ridge push и slab pull и научная неопределённость деталей механизма движения плит; USGS (25) — типы границ и внутриплитные землетрясения; USGS Water Cycle (11) и NOAA (26) — процессы переноса воды, временное хранение и влияние деятельности человека; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
+Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; USGS (22) — обновление и переработка океанической коры; USGS (23) — ограничения интерпретации возраста древнейших пород; USGS (24) — сочетание mantle flow, ridge push и slab pull и научная неопределённость деталей механизма движения плит; USGS (25) — типы границ и внутриплитные землетрясения; USGS Water Cycle (11) и NOAA (26) — процессы переноса воды, временное хранение и влияние деятельности человека; USGS (27) — различие устойчивости лесных экосистем, сохранения, восстановления и реорганизации; NASA My NASA Data (28) — базовые определения обратных связей и пример альбедо; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
 
 ## Редакционные и научные примечания
 
