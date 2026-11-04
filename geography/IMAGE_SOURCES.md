@@ -40,10 +40,10 @@ A site's general copyright statement is not a licence for every image on that si
 | 2-A | Geographic envelope; atmosphere, hydrosphere, lithosphere and biosphere; matter/energy flows | [NASA SVS Earth System Diagram](https://svs.gsfc.nasa.gov/30988) | Candidate asset located; NASA credit identified | Adapt only as a conceptual reference: the NASA graphic shows interacting Earth-system components, not the chapter's exact traditional four-component geographic-envelope model. Add explicit lithosphere/upper-geosphere clarification and retain NASA Goddard credit. |
 | 2.1-A | Earth cross-section / geographic envelope and overlapping spheres | NASA Earth Observatory; NASA My NASA Data | Pending search | Ensure lithosphere is not presented as synonymous with the entire geosphere. |
 | 2.2-A | Four interacting spheres and matter/energy exchange | [NASA SVS Earth System Diagram](https://svs.gsfc.nasa.gov/30988); [NASA Earth Systems: Matter and Energy Cycles](https://science.nasa.gov/learn/heat/resource/earth-systems-matter-and-energy-cycles/) | Candidate assets located; NASA credit identified | NASA's diagram is an Earth-system interaction reference, not a ready-made exact four-sphere diagram. Preserve the chapter's distinction between traditional four-component model and modern five-sphere framework. |
-| 2-B | Vertical atmospheric structure | NOAA JetStream; NASA educational resources | Pending search | Verify layer order and state that heights/boundaries are approximate and variable. |
-| 2.3-A | Atmospheric layers, temperature profile, ozone, clouds, meteors and satellites | NOAA JetStream; NASA | Pending search | Check vertical scale and avoid implying fixed layer boundaries. |
-| 2-C | Global water distribution | USGS Water Science School | Candidate source | Use the exact USGS table and clearly distinguish total groundwater from freshwater groundwater. |
-| 2.4-A | Global water cycle | USGS Water Cycle; NASA Earth Observatory | Candidate source | Verify arrows/processes; do not imply water moves only in a simple one-way sequence. |
+| 2-B | Vertical atmospheric structure | [NOAA JetStream layers graphic](https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere) | Integrated in Chapter 02 as a remote image; NOAA attribution recorded | Test remote loading in deployed reader; retain approximate-boundary caveat. |
+| 2.3-A | Atmospheric temperature profile | [NOAA JetStream temperature-profile graphic](https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere) | Integrated in Chapter 02 as a remote image; NOAA attribution recorded | Test remote loading and confirm bilingual alt text in reader. |
+| 2-C | Global water distribution | [USGS distribution chart](https://www.usgs.gov/media/images/distribution-water-and-above-earth) | Integrated in Chapter 02 as a remote image; individual page states Public Domain | Keep 1993 estimate date and denominator distinctions explicit. |
+| 2.4-A | Global water cycle | [USGS Water Cycle diagram (2022)](https://www.usgs.gov/media/images/water-cycle) | Integrated in Chapter 02 as a remote image; individual page states Public Domain | Retain note that diagram includes human water use and water-quality impacts; test remote loading. |
 | 2.5-A | Divergent, convergent and transform plate boundaries | [USGS Plate Tectonics Globe Activity — Map](https://www.usgs.gov/media/files/plate-tectonics-globe-activity-map); [USGS Plate Tectonics Globe Activity](https://www.usgs.gov/media/files/plate-tectonics-globe-activity) | Exact educational map asset located; USGS page states Public Domain | Suitable as a world-plate-location teaching base, not as a substitute for a boundary cross-section. If adapted, retain USGS provenance; make three boundary-process cross-sections separately and check their scientific geometry. |
 | 2.6-A | Biological organisation from organism to biosphere | USGS ecosystems resources; Wikimedia Commons | Pending search | Ensure hierarchy is accurate and avoid mixing population/community/ecosystem levels. |
 | 2.8-A | Solar, internal and gravitational energy and their processes | NASA Earth Observatory energy budget; USGS | Pending search | Distinguish primary energy sources from gravitational potential energy and feedbacks. |
@@ -62,10 +62,10 @@ A site's general copyright statement is not a licence for every image on that si
 |---|---:|---:|---:|
 | Distinct visual briefs | 3 | 18 | 21 |
 | Exact candidate assets located (rights status recorded) | 0 | 6 | 6 |
-| Approved and integrated assets | 0 | 0 | 0 |
+| Approved and integrated assets | 0 | 4 | 4 |
 | Remaining briefs | 3 | 18 | 21 |
 
-**Important:** the 21 entries are visual briefs, not 21 completed illustrations. Six exact candidate assets have now been located for Chapter 02. The NASA pages identify NASA Goddard as the credit source and NASA's reuse policy generally permits educational/informational reuse subject to third-party exceptions; the two USGS plate-tectonics media pages explicitly state Public Domain. None is yet counted as approved or integrated: final scientific-fit, crop/label, accessibility and repository embedding checks remain.
+**Important:** the 21 entries are visual briefs, not 21 completed illustrations. Four Chapter 02 visuals (2-B, 2.3-A, 2-C and 2.4-A) are now embedded by direct source-image links in the chapter Markdown. This is remote integration, not a locally stored repository asset; the deployed site must still test external-image loading, responsive display and accessibility. The two USGS images are individually marked Public Domain. The NOAA graphics are NOAA-produced and attributed to NOAA under its official reuse guidance; no third-party credit is shown on the source page.
 
 ## Required metadata for every approved asset
 
@@ -104,3 +104,35 @@ A site's general copyright statement is not a licence for every image on that si
 - Accessed: 4 November 2026.
 
 These are candidate assets with recorded rights statements, not yet integrated site assets. The USGS Water Cycle diagram and USGS water-distribution chart are Public Domain; the latter's rounded quantities trace to the 1993 Shiklomanov estimate. NOAA's atmospheric-layer graphic is a specific candidate under NOAA's general public-domain reuse policy, pending confirmation of the image-specific credit line. The water-cycle diagram's 2022 human-influenced framing must be distinguished from a natural-only cycle in the chapter caption. The NASA asset requires credit and third-party checks; USGS material remains Public Domain as stated on the individual media pages.
+
+
+## Chapter 02 — assets integrated in source Markdown — 4 November 2026
+
+### 2-B — NOAA atmospheric layers
+- Source page: https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
+- Direct image: https://www.noaa.gov/sites/default/files/2021-12/basic%20layers%20of%20the%20atmosphere.jpg
+- Publisher: NOAA National Weather Service, JetStream.
+- Rights: NOAA's official reuse guidance states that NOAA content is generally public domain unless otherwise credited; the page identifies NOAA/JetStream and displays no third-party credit. Credit NOAA.
+- Scientific fit: five atmospheric layers; the chapter states boundaries are approximate and troposphere height varies with latitude.
+
+### 2.3-A — NOAA atmospheric temperature profile
+- Source page: https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
+- Direct image: https://www.noaa.gov/media/image_download/4abff0ab-b122-4940-9629-0ae8d5f63a03
+- Publisher and rights: NOAA National Weather Service / JetStream; NOAA-produced media, credited to NOAA under the agency's public-domain reuse guidance.
+- Scientific fit: representative temperature profile across atmospheric layers; do not treat the curve or layer boundaries as identical at all locations and times.
+
+### 2-C — USGS distribution of Earth's water
+- Source page: https://www.usgs.gov/media/images/distribution-water-and-above-earth
+- Direct image: https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png
+- Creator/publisher: USGS Water Science School.
+- Rights: individual media page explicitly states Public Domain.
+- Scientific fit and data date: rounded global distribution estimates trace to Igor Shiklomanov (1993); the chapter explicitly labels these as historical estimates, not a 2026 measurement.
+
+### 2.4-A — USGS global water cycle
+- Source page: https://www.usgs.gov/media/images/water-cycle
+- Direct image: https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png
+- Creator: USGS VizLab with the USGS Water Resources Mission Area Web Communications Branch.
+- Rights: individual media page explicitly states Public Domain.
+- Scientific fit: 2022 global water-cycle diagram includes human water use and water-quality impacts; caption makes this scope explicit.
+
+**Integration limitation:** these four images are linked remotely from official source hosts; no binary copy has been added to the geography/assets directory. Remote loading, performance, responsive sizing and screen-reader behavior still require testing in the deployed reader. NOAA reuse guidance: https://www.noaa.gov/office-education/outreach-communication/faq.
