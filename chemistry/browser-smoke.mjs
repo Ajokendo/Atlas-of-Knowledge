@@ -595,6 +595,20 @@ try {
     }
 
     if (file === "chapters/chemical-formulae.html") {
+      const formulaTypesRu = await page.locator("[data-i=formulaTypes]").innerText();
+      if (!formulaTypesRu.includes("простейшее целочисленное соотношение") ||
+          !formulaTypesRu.includes("формульной единице") ||
+          !formulaTypesRu.includes("не показывает порядок соединения атомов")) {
+        errors.push(file + ": Russian formula explanation must distinguish empirical, molecular and ionic formulae and structural connectivity");
+      }
+      await page.locator("#lang").click();
+      const formulaTypesEn = await page.locator("[data-i=formulaTypes]").innerText();
+      if (!formulaTypesEn.includes("simplest whole-number ratio") ||
+          !formulaTypesEn.includes("formula unit") ||
+          !formulaTypesEn.includes("does not show how atoms are connected")) {
+        errors.push(file + ": English formula explanation must distinguish empirical, molecular and ionic formulae and structural connectivity");
+      }
+      await page.locator("#lang").click();
       const illustration = page.locator('img[data-svg-ru="../assets/formula-reading-ru.svg"]');
       if (await illustration.getAttribute("src") !== "../assets/formula-reading-ru.svg" ||
           !(await illustration.getAttribute("alt") || "").includes("Схема чтения химической формулы")) {
@@ -702,6 +716,35 @@ try {
     }
 
     if (file === "chapters/chemical-elements.html") {
+      const isotopeCases = [
+        ["12", "6", "12"], ["13", "7", "13"], ["14", "8", "14"]
+      ];
+      for (const [massNumber, neutrons, mass] of isotopeCases) {
+        await page.locator('[data-iso="' + massNumber + '"]').click();
+        if ((await page.locator("#neutrons").innerText()).trim() !== neutrons ||
+            (await page.locator("#mass").innerText()).trim() !== mass ||
+            await page.locator('[data-iso="' + massNumber + '"]').getAttribute("aria-pressed") !== "true") {
+          errors.push(file + ": carbon isotope model has incorrect neutron count, mass number or selected-state announcement for C-" + massNumber);
+        }
+      }
+      if ((await page.locator(".stats").getAttribute("aria-live")) !== "polite" ||
+          (await page.locator(".stats").getAttribute("aria-atomic")) !== "true") {
+        errors.push(file + ": isotope model updates are not announced as a complete polite live region");
+      }
+      const weightedAverageRu = await page.locator("[data-i=isotopicAverage]").innerText();
+      if (!weightedAverageRu.includes("взвешенное среднее") ||
+          !weightedAverageRu.includes("сумма всех долей равна 1") ||
+          !weightedAverageRu.includes("не простое среднее")) {
+        errors.push(file + ": Russian isotope abundance explanation must specify a normalized weighted mean");
+      }
+      await page.locator("#lang").click();
+      const weightedAverageEn = await page.locator("[data-i=isotopicAverage]").innerText();
+      if (!weightedAverageEn.includes("weighted mean") ||
+          !weightedAverageEn.includes("all fractions sum to 1") ||
+          !weightedAverageEn.includes("not a simple unweighted average")) {
+        errors.push(file + ": English isotope abundance explanation must specify a normalized weighted mean");
+      }
+      await page.locator("#lang").click();
       const illustration = page.locator('img[data-svg-ru="../assets/isotope-abundance-ru.svg"]');
       if (await illustration.getAttribute("src") !== "../assets/isotope-abundance-ru.svg" ||
           !(await illustration.getAttribute("alt") || "").includes("Изотопы углерода")) {
@@ -747,8 +790,47 @@ try {
       await page.locator("#lang").click();
     }
 
+    if (file === "chapters/chemistry-of-life.html") {
+      const lifeEvidence = [
+        ["carbohydrateNote", ["Не все углеводы", "(CH₂O)ₙ"]],
+        ["aminoAcidNote", ["цвиттерионная", "амфотерны"]],
+        ["proteinNote", ["рибосома", "активированные субстраты"]],
+        ["proteinStructureNote", ["четвертичная", "не у всех белков", "без обычного разрыва пептидных связей"]],
+        ["lipidNote", ["не образуют единого класса полимеров"]],
+        ["nucleicAcidDirectionNote", ["антипараллельно", "5′→3′", "3′-OH"]],
+        ["atpNote", ["−30,5 кДж/моль", "pH 7", "зависит от концентраций"]],
+        ["basePairingNote", ["аденин с тимином", "гуанин с цитозином", "урацил"]]
+      ];
+      for (const [key, phrases] of lifeEvidence) {
+        const value = await page.locator("[data-i=" + key + "]").innerText();
+        for (const phrase of phrases) if (!value.includes(phrase)) errors.push(file + ": Russian " + key + " is missing or changes key scientific qualification: " + phrase);
+      }
+      await page.locator("#lang").click();
+      const lifeEnglishEvidence = [
+        ["carbohydrateNote", ["Not all carbohydrates", "(CH₂O)ₙ"]],
+        ["aminoAcidNote", ["zwitterion", "amphoteric"]],
+        ["proteinNote", ["ribosome", "activated substrates"]],
+        ["proteinStructureNote", ["quaternary structure", "not present in every protein", "without normally breaking the peptide bonds"]],
+        ["lipidNote", ["not one class of polymers"]],
+        ["nucleicAcidDirectionNote", ["antiparallel", "5′→3′", "3′-OH"]],
+        ["atpNote", ["−30.5 kJ/mol", "pH 7", "depends on concentrations"]],
+        ["basePairingNote", ["adenine with thymine", "guanine with cytosine", "uracil"]]
+      ];
+      for (const [key, phrases] of lifeEnglishEvidence) {
+        const value = await page.locator("[data-i=" + key + "]").innerText();
+        for (const phrase of phrases) if (!value.includes(phrase)) errors.push(file + ": English " + key + " is missing or changes key scientific qualification: " + phrase);
+      }
+      await page.locator("#lang").click();
+    }
+
     if (file === "chapters/redox.html") {
       if (await page.locator('img[data-svg-ru="../assets/daniell-cell-ru.svg"]').getAttribute("src") !== "../assets/daniell-cell-ru.svg" || !(await page.locator('img[data-alt-i="daniellImageAlt"]').getAttribute("alt") || "").includes("гальванического элемента Даниэля")) errors.push(file + ": Russian Daniell-cell SVG or accessible description is missing");
+      const oxidationExceptionsRu = await page.locator("[data-i=stateExceptions]").innerText();
+      if (!oxidationExceptionsRu.includes("OF₂") || !oxidationExceptionsRu.includes("+2") ||
+          !oxidationExceptionsRu.includes("H₂O₂") || !oxidationExceptionsRu.includes("−1") ||
+          !oxidationExceptionsRu.includes("KO₂") || !oxidationExceptionsRu.includes("−½")) {
+        errors.push(file + ": Russian oxidation-state exceptions must distinguish oxygen in OF2, peroxides and superoxides");
+      }
       if (!(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("число отданных электронов должно равняться числу принятых") || !(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("суммарного заряда")) errors.push(file + ": Russian redox balancing note must conserve electrons, atoms and charge");
       if (!(await page.locator("[data-i=electronFlow]").innerText()).includes("одна вертикальная черта") || !(await page.locator("[data-i=electronFlow]").innerText()).includes("двойная") ||
           !(await page.locator("[data-i=anodeText]").innerText()).includes("анод отрицателен") ||
@@ -775,6 +857,12 @@ try {
       await page.locator("#activityZn").fill("1"); await page.locator("#activityCu").fill("1");
       await page.locator("#lang").click();
       if (await page.locator('img[data-svg-ru="../assets/daniell-cell-ru.svg"]').getAttribute("src") !== "../assets/daniell-cell.svg" || !(await page.locator('img[data-alt-i="daniellImageAlt"]').getAttribute("alt") || "").includes("Diagram of a Daniell galvanic cell")) errors.push(file + ": English Daniell-cell SVG or accessible description is missing");
+      const oxidationExceptionsEn = await page.locator("[data-i=stateExceptions]").innerText();
+      if (!oxidationExceptionsEn.includes("OF₂") || !oxidationExceptionsEn.includes("+2") ||
+          !oxidationExceptionsEn.includes("H₂O₂") || !oxidationExceptionsEn.includes("−1") ||
+          !oxidationExceptionsEn.includes("KO₂") || !oxidationExceptionsEn.includes("−½")) {
+        errors.push(file + ": English oxidation-state exceptions must distinguish oxygen in OF2, peroxides and superoxides");
+      }
       if (!(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("number of electrons lost must equal the number gained") || !(await page.locator("[data-i=electronBalanceNote]").innerText()).includes("total charge")) errors.push(file + ": English redox balancing note must conserve electrons, atoms and charge");
       if (!(await page.locator("[data-i=electronFlow]").innerText()).includes("single vertical line") || !(await page.locator("[data-i=electronFlow]").innerText()).includes("double line") ||
           !(await page.locator("[data-i=anodeText]").innerText()).includes("anode is negative") ||
