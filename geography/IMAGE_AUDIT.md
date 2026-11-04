@@ -3,7 +3,7 @@
 **Working branch:** `workspace/geography`  
 **Scope:** `geography/` only  
 **Audit date:** 5 November 2026  
-**Policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md), currently referenced on `atlas-of-knowledge-integration`; do not assume it is merged into `main`.  
+**Policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md), canonical source is now in `main` (commit `bd3deb97`).  
 **State:** Initial baseline; per-asset review is in progress, not complete.
 
 ## 1. Purpose and interpretation
