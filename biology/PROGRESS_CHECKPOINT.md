@@ -1184,3 +1184,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Latest CI passed: 13 pages at mobile and desktop widths, 30 language-toggle interactions, no uncaught page errors, 19,331 contrast-sampled text instances with 0 below threshold, and image-decode / SVG-geometry checks. Automated axe, keyboard/focus and overflow checks passed.
 - Page-render visual QA is recorded as completed for this pass. It does **not** certify detailed morphology or source/caption correctness for every individual image; Global Image Verification remains Pending audit. Independent specialist review and school/device QA remain separate stages.
 - Overall Biology editorial readiness remains **99/100**; no unsupported percentage increase is assigned while asset-specific verification remains open.
+
+
+### Documentary-photo preview review — 5 November 2026
+
+- Inspected Commons-rendered previews for 14 of the 15 accepted documentary photographs across Chüy, Jalal-Abad, Issyk-Kul, Naryn and Osh.
+- All 14 inspected previews are consistent with their broad scene/locality captions. Kept habitat photographs at landscape level; no species-level inference was added. The clematis and spruce captions remain source-supported identifications, not independent specialist determinations.
+- The Commons preview for the Chüy Halys pit viper returned HTTP 400 and could not be visually assessed in this pass; its visual check remains open.
+- This was preview-level review, not local full-resolution pixel review of every WebP. No image or chapter content changed. Global Image Verification remains **Pending audit** and editorial readiness remains **99/100**.
