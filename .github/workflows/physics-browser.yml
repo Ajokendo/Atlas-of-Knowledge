@@ -52,6 +52,10 @@ jobs:
         run: node original-engine/fluids/browser-smoke.mjs
       - name: Test Chapter 9 electrostatics on desktop and mobile viewports
         run: node original-engine/electrostatics/browser-smoke.mjs
+      - name: Test Chapter 14 magnetic fields on desktop and mobile viewports
+        run: node original-engine/magnetism/browser-smoke.mjs
+      - name: Test Chapter 15 electromagnetic induction on desktop and mobile viewports
+        run: node original-engine/induction/browser-smoke.mjs
       - name: Test Chapter 10 Gauss law on desktop and mobile viewports
         run: node original-engine/gauss/browser-smoke.mjs
 
