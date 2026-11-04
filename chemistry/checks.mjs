@@ -780,7 +780,7 @@ for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07"
 if (!imageSources.includes("IMAGE-FIRST POLICY v1.1") ||
     !imageAudit.includes("IMAGE-FIRST POLICY v1.1") ||
     !imageSources.includes("## IMAGE-FIRST POLICY v1.1 — per-ID metadata completeness supplement") ||
-    !imageSources.includes("## Derivative / inherited-atlas protocol") ||
+    !imageSources.includes("### Derivative / inherited-atlas protocol") ||
     !imageSources.includes("Not applicable at atlas level")) {
   errors.push("IMAGE-FIRST POLICY v1.1: Chemistry source register must expose required metadata and derivative-atlas applicability");
 }
