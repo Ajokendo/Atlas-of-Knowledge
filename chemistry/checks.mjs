@@ -514,6 +514,40 @@ for (const file of russianSvgFiles) {
   if (!fs.existsSync(englishPath)) errors.push(relative + ": matching English SVG is missing");
 }
 
+
+const imageSourcesPath = path.join(root, "IMAGE_SOURCES.md");
+const imageAuditPath = path.join(root, "IMAGE_AUDIT.md");
+if (!fs.existsSync(imageSourcesPath)) errors.push("IMAGE_SOURCES.md: required image source register is missing");
+if (!fs.existsSync(imageAuditPath)) errors.push("IMAGE_AUDIT.md: required image audit is missing");
+const imageSources = fs.existsSync(imageSourcesPath) ? fs.readFileSync(imageSourcesPath, "utf8") : "";
+const imageAudit = fs.existsSync(imageAuditPath) ? fs.readFileSync(imageAuditPath, "utf8") : "";
+for (const file of svgFiles) {
+  const basename = path.basename(file);
+  if (!imageSources.includes("`" + basename + "`")) errors.push("IMAGE_SOURCES.md: missing source-register record for " + basename);
+  if (!imageAudit.includes("`" + basename + "`")) errors.push("IMAGE_AUDIT.md: missing audit record for " + basename);
+  const paired = basename.endsWith("-ru.svg") ? basename.replace(/-ru\.svg$/i, ".svg") : basename.replace(/\.svg$/i, "-ru.svg");
+  if (!fs.existsSync(path.join(assetRoot, paired))) errors.push("assets/" + basename + ": matching bilingual SVG variant is missing");
+}
+if (imageSources && !/\| C — project SVG/.test(imageSources)) errors.push("IMAGE_SOURCES.md: project-created SVG category C must be recorded explicitly");
+if (imageAudit && !/\bPENDING\b/.test(imageAudit)) errors.push("IMAGE_AUDIT.md: unresolved checks must remain explicitly marked PENDING");
+for (const file of htmlFiles) {
+  const source = fs.readFileSync(file, "utf8");
+  const relative = path.relative(root, file);
+  for (const match of source.matchAll(/<img\b([^>]*)>/gi)) {
+    const attrs = match[1];
+    const alt = attrs.match(/\balt\s*=\s*(["'])([\s\S]*?)\1/i)?.[2];
+    if (alt === undefined || !alt.trim()) errors.push(relative + ": image alt text must be present and non-empty");
+    const ru = attrs.match(/\bdata-svg-ru=["']([^"']+)["']/i)?.[1];
+    const en = attrs.match(/\bdata-svg-en=["']([^"']+)["']/i)?.[1];
+    if (ru && !en) errors.push(relative + ": localized SVG image is missing data-svg-en");
+    if (en && !ru) errors.push(relative + ": localized SVG image is missing data-svg-ru");
+    for (const ref of [ru, en].filter(Boolean)) {
+      const resolved = path.resolve(path.dirname(file), ref.split("?")[0]);
+      if (!fs.existsSync(resolved)) errors.push(relative + ": localized SVG reference does not exist: " + ref);
+    }
+  }
+}
+
 const isotopeSvgPath = path.join(assetRoot, "isotope-abundance.svg");
 if (fs.existsSync(isotopeSvgPath)) {
   const isotopeSvg = fs.readFileSync(isotopeSvgPath, "utf8");
