@@ -114,3 +114,6 @@ CI can validate file existence, SVG metadata, local references, bilingual pairin
 ### Acid–base virtual laboratory — model scope clarified (2026-11-05)
 
 The neutralisation simulator uses a 1:1 molar reaction model. Its bilingual warning now explicitly limits the model to a strong monoprotic acid and a strong monobasic base (example: NaOH) at 25 °C. It also states the dilute/ideal-solution and additive-volume assumptions, and notes that ion activities and experimental effects are not modelled. This prevents the generic phrase “strong base” from implying that dibasic or polybasic bases are covered. Automated regression checks require these qualifications in both languages. This is a source-level correction; a manual browser/device review remains outstanding.
+### Reaction-balancing trainer — restart interaction corrected (2026-11-05)
+
+A source-code review found that the completion screen assigned a second onclick handler to the Next button while the original addEventListener handler remained attached. After restarting, one click could therefore advance two tasks and skip an exercise. The restart path now lives in the single existing next() handler; the localized Next label is restored when a new task renders. A regression guard checks that the competing handler is absent. Manual browser testing of the full six-task cycle remains pending.
