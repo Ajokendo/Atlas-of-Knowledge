@@ -640,16 +640,16 @@ Every study requires appropriate sampling design, replication, control of season
 
 1. Convention on Biological Diversity. **Convention on Biological Diversity** (1992) — international legal framework for biodiversity conservation. https://www.cbd.int/convention/
 2. Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). **Global Assessment Report on Biodiversity and Ecosystem Services** (2019) — global assessment of nature and drivers of change. https://www.ipbes.net/global-assessment
-3. IPBES. **Thematic Assessment Report on Invasive Alien Species and their Control** (2023) — assessment of invasive alien species impacts. https://www.ipbes.net/ias
-4. International Union for Conservation of Nature (IUCN). **The IUCN Red List of Threatened Species** — extinction-risk database; record the access date, assessment date and data version. https://www.iucnredlist.org/
-5. IUCN. **The IUCN Red List Categories and Criteria**, Version 3.1, Second edition (2012) — global standard for assigning extinction-risk categories. https://portals.iucn.org/library/node/10315
+3. IPBES. **Thematic Assessment Report on Invasive Alien Species and their Control** (2023) — assessment of invasive alien species impacts. Official report and open-access record: https://www.ipbes.net/ias and https://doi.org/10.5281/zenodo.7430682
+4. International Union for Conservation of Nature (IUCN). **The IUCN Red List of Threatened Species** — dynamic extinction-risk database; cite the individual assessment, assessment date, scope, criteria version and Red List data version. Assessment documentation: https://nrl.iucnredlist.org/assessment/supporting-information
+5. IUCN. **The IUCN Red List Categories and Criteria**, Version 3.1, Second edition (2012) — global standard for assigning extinction-risk categories. Official resource page: https://nrl.iucnredlist.org/resources/categories-and-criteria
 6. UNESCO. **Man and the Biosphere Programme** — resources on biosphere reserves and society–ecosystem relations. https://www.unesco.org/en/mab
 7. Olson, D. M. et al. **Terrestrial Ecoregions of the World: A New Map of Life on Earth**. *BioScience*, 2001 — foundational reference for mapping terrestrial ecoregions. https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2
 8. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being: Synthesis** (2005) — links between ecosystem processes and human well-being. https://www.millenniumassessment.org/en/Synthesis.html
 9. Chapin, F. S., Matson, P. A., & Vitousek, P. M. (2011). *Principles of Terrestrial Ecosystem Ecology* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4419-9504-9
 10. Convention on Biological Diversity. **Kunming–Montreal Global Biodiversity Framework** (2022), especially Target 2 (areas under effective restoration) and Target 3 (effective conservation and management). Official target guidance: https://www.cbd.int/gbf/targets/2 and https://www.cbd.int/gbf/targets/3
 11. Keith, D. A., Ferrer-Paris, J. R., Nicholson, E., & Kingsford, R. T. (eds.). **IUCN Global Ecosystem Typology 2.0: Descriptive Profiles for Biomes and Ecosystem Functional Groups** (2020). IUCN. https://doi.org/10.2305/IUCN.CH.2020.13.en
-12. IUCN Standards and Petitions Committee. **Guidelines for Using the IUCN Red List Categories and Criteria**, Version 16 (March 2024) — current guidance on applying the global extinction-risk criteria; check for a newer version before preparing a formal assessment. https://www.iucnredlist.org/resources/redlistguidelines
+12. IUCN Standards and Petitions Committee. **Guidelines for Using the IUCN Red List Categories and Criteria**, Version 16 (March 2024) — current guidance on applying the global extinction-risk criteria; check for a newer version before preparing a formal assessment. https://nrl.iucnredlist.org/resources/redlistguidelines
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
 
