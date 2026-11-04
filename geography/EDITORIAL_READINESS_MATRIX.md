@@ -233,3 +233,9 @@ A further targeted correction pass was committed across all five chapters: catch
 - Matched the bilingual wording to the official CBD guidance, including the distinction between areas under effective restoration (Target 2) and areas effectively conserved and managed (Target 3), plus the monitoring/resourcing and completion-time caveat. Commit: `9adc9ecaaf124cc1b91d0dc22b0a395495ec5a9b`.
 
 - Chapter 07 bibliography now points directly to the CBD's official Target 2 and Target 3 guidance pages. Commit: `33f2c927650531e92e8577480ed9863e3af3ea77`.
+
+
+### Chapters 06–10 — worked-example arithmetic audit — 5 November 2026
+
+- Independently recomputed the river-discharge and catchment-balance examples (06), energy-transfer examples (07), soil bulk-density/porosity examples (08), demographic ratios and balance examples (09), and nautical-mile and weighted-turnout examples (10). All stated results agree with the calculations. The examples using population and election data are explicitly hypothetical.
+- Detailed arithmetic is recorded in the Source and Evidence Closure Register. This closes the arithmetic recheck for the currently included worked examples, not the separate visual or final release QA.
