@@ -645,6 +645,49 @@ try {
           overflow.document + "px, body " + overflow.body + "px)");
       }
 
+      // Verify actual raster decoding and rendered inline-SVG geometry, not only file-path existence.
+      const visualAssetIssues = await page.locator("img").evaluateAll(async images => {
+        const results = [];
+        for (const img of images) {
+          img.loading = "eager";
+          try { await img.decode(); } catch (error) {
+            results.push({ src: img.getAttribute("src") || "", issue: "decode failed: " + error.message });
+            continue;
+          }
+          const rect = img.getBoundingClientRect();
+          const style = getComputedStyle(img);
+          const visible = style.display !== "none" && style.visibility !== "hidden" &&
+            Number(style.opacity) !== 0 && rect.width > 0 && rect.height > 0;
+          if (!img.naturalWidth || !img.naturalHeight) {
+            results.push({ src: img.getAttribute("src") || "", issue: "decoded image has no intrinsic dimensions" });
+          }
+          if (img.getAttribute("alt") === null) {
+            results.push({ src: img.getAttribute("src") || "", issue: "missing alt attribute" });
+          }
+          if (visible && (!rect.width || !rect.height)) {
+            results.push({ src: img.getAttribute("src") || "", issue: "visible image has zero rendered size" });
+          }
+        }
+        return results;
+      });
+      if (visualAssetIssues.length) {
+        errors.push(file + ": raster visual-asset checks failed: " + JSON.stringify(visualAssetIssues));
+      }
+      const svgGeometryIssues = await page.locator("svg").evaluateAll(elements =>
+        elements.flatMap(svg => {
+          const style = getComputedStyle(svg);
+          const rect = svg.getBoundingClientRect();
+          const visible = style.display !== "none" && style.visibility !== "hidden" &&
+            Number(style.opacity) !== 0;
+          return visible && (!rect.width || !rect.height)
+            ? [{ id: svg.id || "", viewBox: svg.getAttribute("viewBox") || "", width: rect.width, height: rect.height }]
+            : [];
+        })
+      );
+      if (svgGeometryIssues.length) {
+        errors.push(file + ": visible inline SVG has zero rendered geometry: " + JSON.stringify(svgGeometryIssues));
+      }
+
       // Dynamic model outputs and quiz feedback must expose an announcement mechanism.
       const dynamicOutputIssues = await page.locator(
         '[id$="-output"], #result, #feedback, #org-info, #photo-status'
