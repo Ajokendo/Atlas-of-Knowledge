@@ -762,7 +762,7 @@ if (!imageSources.includes("## Learning purpose and retrospective search record"
     !imageSources.includes("| Search date and outcome |")) {
   errors.push("IMAGE_SOURCES.md: canonical-policy learning-purpose and search-evidence fields are missing");
 }
-const imageSearchRegister = imageSources.split("## Learning purpose and retrospective search record")[1] || "";
+const imageSearchRegister = (imageSources.split("## Learning purpose and retrospective search record")[1] || "").split("## Targeted follow-up search outcomes")[0];
 for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11","CH-IV01","CH-IV02","CH-IV03","CH-IV04","CH-V12"]) {
   const lines = imageSearchRegister.split(/\r?\n/).filter(line => line.startsWith("| " + id + " |"));
   if (lines.length !== 1) errors.push("IMAGE_SOURCES.md: expected exactly one learning-purpose/search record for " + id);
