@@ -6,7 +6,10 @@ This register mirrors the in-page illustration markers. Each marker is placed be
 
 ## Current disposition — 4 November 2026
 
-Thirty-six of 53 visual briefs are now produced or integrated (**67.9%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Seventeen briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Thirty-seven of 53 visual briefs are now produced or integrated (**69.8%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Sixteen briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+
+## Terrestrial invertebrate plate — 4 November 2026
+The original `fauna-invertebrates.svg` plate is integrated at the existing `image-brief-fauna-invertebrates` anchor in `chapters/fauna-kyrgyzstan.html`. It compares a generalised insect, spider, butterfly and grasshopper, showing their body regions, appendages and wings. Spiders are distinguished from insects as arachnids; no species-level or locality claims are made.
 
 ## Priority key
 
