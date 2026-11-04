@@ -447,3 +447,17 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Added migration flow/stock, mid-year population and Degree of Urbanization to the Chapter 09 bilingual glossary. Commit: `67146954a2dd5e87a3ee03ca5d700b6f274756ba`.
+
+## Consolidated chapter findings log — Chapters 06–10 — 5 November 2026
+
+| Chapter | Findings documented and integrated | Verified visual brief parity | Structural RU/EN heading parity |
+|---|---|---:|---:|
+| 06 Hydrosphere and World Ocean | Runoff-depth unit consistency; catchment storage/residual; Southern Ocean classification caveat; glossary/review alignment | 15/15 | 29/29 |
+| 07 Biosphere and Natural Biomes | Trophic transfer not a universal 10% rule; GBF Target 2 interpretation; outcome-based restoration monitoring | 9/9 | 17/17 |
+| 08 Soils and Landscape Geography | WRB H/O horizons; porosity estimate assumptions; ECe versus 1:5/field EC; salinity versus sodicity | 7/7 | 17/17 |
+| 09 Population and Demography | Migration flow versus stock/event counts; worked rate calculation; dependency ratio interpretation; urban classification comparability | 6/6 | 18/18 |
+| 10 Political Geography | Maritime distances from baselines; legal status of maritime zones; boundary cartography and disputed-status neutrality | 7/7 | 17/17 |
+
+- Each chapter now contains its own focused audit record with findings and integration status. The detailed chapter commits are recorded in `SOURCE_EVIDENCE_CLOSURE_REGISTER.md`.
+- Heading parity and visual-brief parity are structural checks only. They do not constitute complete sentence-level translation proofreading, source-to-claim closure, image creation or release QA.
+- **Progress scores remain unchanged** pending closure of those remaining tasks. Do not treat audit-log documentation or placeholder briefs as completed visual integration.
