@@ -3,13 +3,43 @@
 - Subject: Physics
 - Working branch: `workspace/physics`
 - Audit date: 2026-11-05
-- Target policy: `IMAGE-FIRST POLICY v1.0` (AOK-IMG-001)
+- Target policy: `IMAGE-FIRST POLICY v1.1` (AOK-IMG-001)
 - Canonical policy observed at: `atlas-of-knowledge-integration:IMAGE_FIRST_POLICY.md`
 - Policy availability note: at audit time the canonical file is present in `atlas-of-knowledge-integration`, but was not present in the fetched `main` tree. The Physics branch still contains the older local `IMAGE_POLICY.md`. Do not create another copy of the universal policy; replace the local duplicate with a link after the canonical root document is integrated into the subject branch through the central project process.
 - Scope: all 15 standalone chapter pages under `chapters/`, the 15 corresponding interactive-book page modules under `original-engine/*/pages.js`, and the existing `IMAGE_SOURCES.md` register.
 - Audit type: preliminary structural and inventory audit. This document does not claim that every visual has passed expert scientific, rights, bilingual, accessibility, or manual visual review.
 
-## 1. Repository inventory findings
+## 1. Derivative-atlas protocol and provenance boundary
+
+The Physics atlas in this branch is a derivative/localised edition based on the pre-existing English *Atlas of Physics* by Nathan Liow. It is not being treated as an independently authored replacement atlas. The English source must remain unchanged.
+
+This audit therefore separates four things:
+1. **Inherited source visuals** — figures, diagrams, animations, interactive scenes, and other visuals carried over from the English source.
+2. **Russian-edition localisation** — translated page text, captions, labels, controls, alt text, descriptions, layout and rendering checks.
+3. **Actual visual adaptations** — edits to the visual content itself, such as translated text embedded in an image, changed labels/legends, crops, recolouring, annotations, redrawing or altered data.
+4. **New project-specific visuals** — assets independently created for this derivative edition and not simply inherited unchanged.
+
+The original creator/rightsholder for inherited material is Nathan Liow where that attribution is supported by the source-work context. The precise licence/permission applying to each visual and the derivative Russian edition has **not been established by this structural audit** and must remain **Unknown / PENDING** until item-specific evidence is checked. Do not infer permission from repository access or the existence of the translation.
+
+### 1.1 Classification rules for this branch
+
+- An inherited visual used without changing its visual content is **A — Original reuse**. Record its source lineage and original attribution; do not describe it as created by this project.
+- Translating surrounding chapter prose, captions, page controls, or alt text while leaving the visual itself unchanged is a localisation check; it does **not by itself** make the visual Category B.
+- Translating or replacing text inside the visual, changing labels/legends, adding callouts, cropping, recolouring, combining, simplifying, redrawing, or changing the visual's data or meaning is **B — Adapted**. Verify that the source licence/permission allows that adaptation before publication.
+- A genuinely new independent visual is **C — Created**. Record the actual method and creator/rightsholder; do not assign C merely because a visual is rendered by SVG, canvas, JavaScript, or WebGL.
+- If lineage or the nature of a change is unclear, mark **PENDING**. Do not guess.
+
+No blanket re-search is required for every unchanged inherited visual if its source identity is traceable and it remains suitable. Search for a replacement only where an inherited visual is missing, unsuitable, inaccurate, inaccessible, rights-restricted, or genuinely needs replacement.
+
+### 1.2 Rights and source-work evidence
+
+The current branch inventory and existing source register do not establish the item-specific licence or adaptation rights for every inherited figure or interactive scene. Those details must be checked against the original source work and any separate third-party components. Keep unknown rights visible as blockers; do not relabel inherited assets as project-created to avoid a provenance gap.
+
+### 1.3 Localisation review required
+
+The Russian edition must be checked for accurate terminology, labels, symbols, legends, units, formulas, vector directions, numerical values, layout after text expansion, readable mobile presentation, captions, alt text, long descriptions, and equivalent data/text for complex visuals. The English source is not to be edited as part of this work.
+
+## 2. Repository inventory findings
 
 | Check | Observed result | Interpretation |
 |---|---:|---|
@@ -22,9 +52,9 @@
 | External visual assets documented as integrated | 0 | No external image is claimed as integrated in the current register |
 | Interactive-book modules | 15 | Each contains a substantial set of programmatic figures/scenes; figure-label metadata was found across all modules, but each scene still needs individual asset IDs and checks |
 
-The absence of `<img>` elements is not a finding that the atlas lacks visual learning material. The Physics atlas relies heavily on code-authored SVG, canvas, charts, and WebGL/Three.js scenes. These are Category C assets under v1.0 and must be registered, reviewed, and counted separately by method.
+The absence of `<img>` elements is not a finding that the atlas lacks visual learning material. The Physics branch relies heavily on inline SVG, canvas, charts, and WebGL/Three.js scenes. Rendering technology alone does not establish authorship or category: each visual must first be traced to the English source or to a documented branch-specific addition. Unchanged inherited scenes are normally A; actual visual modifications are B; only genuinely new independent assets are C.
 
-## 2. Chapter-by-chapter preliminary visual audit
+## 3. Chapter-by-chapter preliminary visual audit
 
 Status meanings: **PENDING** = the visual requirement or asset still needs a complete evidence-based review; **INVENTORY** = code/markup presence observed, not approval. No chapter is declared visually VERIFIED by this preliminary audit.
 
@@ -46,39 +76,41 @@ Status meanings: **PENDING** = the visual requirement or asset still needs a com
 | 14 — Oscillations | Spring and pendulum geometry; x/v/a phase; energy exchange; damping and driven resonance | 3 canvas elements; interactive figures cover spring, pendulum, phase variables and energy | Add records; check phase relationships, equilibrium positions, small-angle assumptions and damping/drive distinctions; provide accessible graph summaries |
 | 15 — Rotation | Angular variables; torque arms; equilibrium; moment of inertia; parallel-axis theorem; rolling; angular momentum | 3 canvas elements; interactive figures cover torque, equilibrium, ladder, inertia, Steiner theorem, work/power and rolling | Add records; verify lever arms, torque signs, axes, mass distributions, rolling conditions and vector direction; include bilingual descriptions and mobile checks |
 
-## 3. Cross-atlas corrections required by IMAGE-FIRST v1.0
+## 4. Physics derivative-edition corrections required by IMAGE-FIRST v1.1
 
-### 3.1 Required governance and record files
-- **Create/maintain this `IMAGE_AUDIT.md`** as the Physics audit record.
-- Expand `IMAGE_SOURCES.md` from its Chapter 04-only register into a complete register for all distinct assets in standalone chapters and interactive-book modules.
-- Replace the old subject-level policy copy with a link to the canonical root `IMAGE_FIRST_POLICY.md` once that file is present in the Physics branch through the central integration process. Until then, preserve the current local policy and record this governance dependency; do not silently claim v1.0 is already implemented.
-- Add a Physics-specific checklist supplement only where needed (for example: vector directions, coordinate frames, sign conventions, idealisations, units, scale and measurement-vs-model distinctions). It must not redefine universal statuses or metrics.
+### 4.1 Required governance and record files
+- Maintain this `IMAGE_AUDIT.md` as the Physics derivative-edition audit, explicitly preserving source lineage.
+- Expand `IMAGE_SOURCES.md` to identify inherited visuals and branch-specific additions, but do not assume every canvas or figure label is a distinct asset. Use stable IDs only after the underlying visual and its source relationship are identified.
+- The universal standard was updated centrally to v1.1 on `atlas-of-knowledge-integration`. The subject branch should link to that canonical document when it is brought into this branch through the central integration process; do not create a competing local copy or claim the branch already contains the canonical file.
+- Keep Physics-specific review criteria (vector directions, coordinate frames, sign conventions, idealisations, units, scale and measurement-vs-model distinctions) as a supplement, without redefining universal statuses or metrics.
 
-### 3.2 Asset identity and classification
-- Give every distinct figure, diagram, chart, SVG, canvas visual, 3D scene, animation and infographic a stable Visual ID.
-- Classify each as A (unmodified external reuse), B (adapted external asset), or C (created). For C, state the exact method: hand-authored SVG, HTML/CSS, code-generated chart, canvas, Three.js/WebGL, AI-generated image, photograph, etc.
+### 4.2 Asset identity and classification
+- Identify each distinct learning visual and map it to the corresponding English-source figure/scene where possible.
+- Record whether the Russian branch uses it unchanged, localises only surrounding text/accessibility content, or modifies the visual itself.
+- Classify unchanged inherited visuals as A; actual visual adaptations as B; genuinely new independent visuals as C. For C, record the actual authoring method and creator/rightsholder. Do not infer authorship from SVG/canvas/WebGL implementation alone.
 - Do not treat a canvas element as a unique asset until its rendered visual and learning purpose have been identified. Do not count a multi-state interactive scene multiple times unless the states are separate learning assets.
-- The 15 interactive-book page modules have numerous figure labels and examples. These need an asset-level inventory, not one blanket record per chapter.
+- The 15 interactive-book page modules contain numerous figure labels and examples. Treat those labels as discovery clues, not as a verified count of unique visuals.
 
-### 3.3 Rights, creator and provenance
-- For existing project-created visuals, identify the actual creator/rightsholder from repository history or mark **Unknown**; do not infer an individual author.
-- Record the project licence and its exact evidence URL. A repository-level MIT licence is not a substitute for identifying creator/rightsholder or checking third-party components.
-- For every external candidate, document search date, search terms/collections, exact item page, creator, item-specific licence, licence evidence, permitted modifications and attribution. No external asset is approved merely because it appears on a reputable platform.
-- AI-generated visuals must be marked as illustrations/reconstructions, not real experiments or measured evidence.
+### 4.3 Rights, creator and provenance
+- For inherited visuals, preserve the source-work attribution to Nathan Liow where supported; verify the exact licence/permission for reproduction in this derivative edition and do not assume it is cleared.
+- Identify separate third-party components embedded in the source work where present; their rights may differ from the atlas-level rights.
+- For actual branch-specific additions, identify the creator/rightsholder from evidence or mark **Unknown**. A repository-level licence is not a substitute for asset-level provenance or third-party rights checks.
+- For any replacement candidate, document search date, terms/collections, exact item page, creator, item-specific licence, licence evidence, permitted modifications and attribution.
+- If AI-generated additions are ever made, label them as illustrations/reconstructions, not real experiments or measured evidence.
 
-### 3.4 Bilingual, accessibility and technical review
-- Add Russian and English captions and meaningful alt text for every non-decorative visual, including visuals embedded in the interactive-book system.
+### 4.4 Russian-edition localisation, accessibility and technical review
+- Check Russian captions and meaningful Russian alt text for every non-decorative visual; preserve the English source text and English assets unchanged. If the Russian edition has a separate interface/caption layer, localise that layer without changing the inherited visual file unless adaptation rights are established.
 - Add a nearby explanation or data/table equivalent for complex diagrams and charts.
 - Check that colour is not the only carrier of meaning; use arrows, labels, patterns, line styles and symbols.
 - For interactive diagrams: test keyboard operation, focus, accessible names/descriptions and screen-reader output where applicable.
 - For charts: check axis titles, units, ranges, assumptions, data/equation provenance and text alternatives.
-- For SVG: validate title/description, viewBox, geometry, scaling and accessible naming.
+- For SVG: validate title/description, viewBox, geometry, scaling and accessible naming; distinguish inherited SVG content from actual Russian-edition edits to embedded labels.
 - For canvas/WebGL: provide a meaningful accessible name and a text explanation of the essential state; test fallback when rendering is unavailable.
 - Verify actual phone, tablet and desktop rendering, zoom/reflow, labels, clipping, loading and fallback. Existing browser smoke evidence is useful but does not replace manual scientific, legal, language and assistive-technology review.
 
-## 4. Preliminary status and metrics
+## 5. Preliminary status and metrics
 
-These are inventory findings, **not readiness scores**:
+These are inventory findings, **not readiness scores**. They describe the audited branch structure only; they do not establish the complete visual inventory of Nathan Liow's English source atlas:
 
 - Required visual count: **PENDING** — complete visual requirement mapping and deduplication across standalone chapters and interactive-book scenes.
 - Integrated visual count: **PENDING** — existing code visuals must be individually identified and reconciled with source records before counting.
@@ -86,21 +118,21 @@ These are inventory findings, **not readiness scores**:
 - Image Verification: **NOT CALCULATED** — no complete asset-level evidence set exists.
 - Image Gaps: **PENDING INVENTORY** — four explicit placeholders are known (one in Chapter 12 and three in Chapter 13); additional gaps may be found during scene-by-scene review.
 - External assets found and integrated: **0 documented** in the current register.
-- Category C: **at least 3 documented** for Chapter 04; additional authored/code-generated visuals exist but are not yet fully registered.
-- Category A / B: **0 documented** in the current register; this is not proof that none exist elsewhere in the repository.
+- Category A / B / C: **not yet reliably counted** across the derivative atlas. The three Chapter 04 entries in the existing register label methods as SVG, code-generated canvas, and Three.js/WebGL; their source lineage and creator/rightsholder evidence must be checked before treating them as independently created Category C assets. The current register's zero A/B entries is not proof that inherited visuals are absent.
 - Scientific/factual, rights, language/accessibility and technical statuses: **PENDING at asset level**, except where individual test evidence is explicitly recorded in the register or CI logs.
 
-## 5. Prioritised action plan
+## 6. Prioritised action plan
 
-1. Resolve canonical-policy availability in the subject branch through the central integration process; remove the duplicate policy copy only when the canonical link will resolve.
-2. Build a deduplicated Visual ID inventory for all 15 interactive-book modules and all 15 standalone chapter pages.
-3. Repair the Chapter 04 source records to the v1.0 schema and add the remaining existing visuals before counting coverage.
-4. Complete the four already specified placeholders in Chapters 12–13 only after suitable-source search and rights/scientific review; if image generation is unavailable, retain explicit PENDING status.
-5. Add bilingual captions/alt text, accessibility alternatives and responsive checks to every inventoried visual.
-6. Add CI checks for local asset existence, register fields, statuses, language fields, SVG validity, dimensions and responsive/overflow checks. Keep expert science, licence and translation approvals as human-reviewed fields; CI must not mark them PASS merely because fields are populated.
-7. Recalculate chapter and subject Image Coverage, Image Verification, Image Gaps and A/B/C counts only after the denominator and asset inventory are complete.
+1. Establish source lineage for the three existing Chapter 04 register entries and representative visuals across the other chapters; do not assign C or creator attribution without evidence.
+2. Build a deduplicated inherited-visual map for the 15 standalone chapters and 15 interactive-book modules, linking each identifiable visual to the English source where possible.
+3. Audit the Russian edition's terminology, labels, formulas, symbols, units, directions, captions, alt text, long descriptions, layout, mobile rendering and interactive controls. Do not change the English original.
+4. Verify source-work reproduction rights and any separate adaptation rights for visual content changed in the Russian edition. Keep unknown rights PENDING.
+5. Preserve the four already specified visual placeholders (Chapter 12: one four-topic infographic; Chapter 13: three visual briefs). These are genuine outstanding visual needs; only search/create replacements if appropriate and rights-cleared. If image generation is unavailable, retain explicit PENDING status.
+6. Add or correct register records for inherited unchanged visuals, adapted visuals, and genuinely new additions, keeping those groups separate.
+7. Add CI checks for file/path existence, register structure, statuses, language fields, SVG validity, dimensions and responsive/overflow checks. Keep scientific, legal and translation approvals human-reviewed.
+8. Report source-work coverage, Russian-edition localisation coverage, rights verification and new-visual readiness separately; calculate only with a defined denominator.
 
-## 6. Boundary and exclusions
+## 7. Boundary and exclusions
 
 - All audit and implementation work is restricted to `workspace/physics`.
 - Do not edit `main`, the central policy, the portal, publishing settings or other subject branches.
@@ -110,4 +142,4 @@ These are inventory findings, **not readiness scores**:
 
 ---
 
-**Audit conclusion:** Physics has substantial programmatically created visual content, but its visual governance and provenance records are far behind the actual implementation. The main corrective work is not to indiscriminately add decorative pictures: it is to inventory and register the existing SVG/canvas/WebGL teaching visuals, validate their scientific and accessibility quality, document rights/creator accurately, close the four known placeholder needs, and only then calculate visual readiness.
+**Audit conclusion:** Physics is a derivative Russian-language edition of Nathan Liow's pre-existing English atlas, not a newly authored visual atlas. The correct work is to trace inherited visuals to the source, verify reproduction and adaptation rights, and audit the Russian edition's localisation, accessibility and rendering. Only genuinely modified visuals should be classified B, and only genuinely new independent visuals should be classified C. The four known placeholders remain separate outstanding visual needs. No blanket re-creation or indiscriminate re-search of unchanged inherited visuals is required.
