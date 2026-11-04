@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Animal adaptations to aquatic, terrestrial and aerial habitats / Адаптации животных к водной, наземной и воздушной среде</title>
+<desc id="desc">Three comparative panels show a fish with fins and streamlined body, a terrestrial mammal with weight-bearing limbs and protective fur, and a bird with wings and feathers. Adaptations are inherited population traits shaped over generations.</desc>
+<defs><style>
+.t{font: bold 27px Arial,sans-serif;fill:#20332b}.s{font:20px Arial,sans-serif;fill:#33443d}.small{font:17px Arial,sans-serif;fill:#46564e}.panel{fill:#fbfcf8;stroke:#bdc9bc;stroke-width:2}.water{fill:#dcecf0}.land{fill:#e9e4d5}.air{fill:#e7edf4}.animal{stroke:#344b42;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.label{font:bold 18px Arial,sans-serif;fill:#274c3a}
+</style></defs>
+<rect width="1200" height="900" fill="#f5f4ed"/>
+<text x="600" y="55" text-anchor="middle" class="t">СРЕДА И СТРОЕНИЕ / HABITAT AND FORM</text>
+<g transform="translate(35 95)">
+<rect class="panel water" width="355" height="745" rx="18"/>
+<text x="177" y="55" text-anchor="middle" class="t">ВОДА / AQUATIC</text>
+<path d="M30 300 Q90 280 150 300 T270 300 T340 300" fill="none" stroke="#77aebd" stroke-width="5"/>
+<ellipse cx="175" cy="275" rx="105" ry="55" fill="#8bb9b2" class="animal"/>
+<path d="M270 275 L335 225 L335 325 Z" fill="#6e9e96" class="animal"/>
+<path d="M155 225 L195 170 L220 235 Z M155 325 L195 380 L220 315 Z" fill="#6e9e96" class="animal"/>
+<path d="M105 260 Q145 235 175 260 Q145 285 105 260" fill="#d7e8d9" stroke="#344b42" stroke-width="3"/>
+<circle cx="105" cy="260" r="6" fill="#20332b"/>
+<path d="M160 245 Q175 275 160 305" fill="none" stroke="#456b63" stroke-width="4"/>
+<text x="177" y="445" text-anchor="middle" class="label">Обтекаемое тело /</text><text x="177" y="472" text-anchor="middle" class="s">Streamlined body</text>
+<text x="177" y="530" text-anchor="middle" class="s">Плавники создают тягу</text><text x="177" y="558" text-anchor="middle" class="s">и помогают управлять</text>
+<text x="177" y="590" text-anchor="middle" class="small">Fins provide propulsion</text><text x="177" y="615" text-anchor="middle" class="small">and control</text>
+<text x="177" y="690" text-anchor="middle" class="small">Жабры у многих рыб /</text><text x="177" y="716" text-anchor="middle" class="small">Gills in many fish</text>
+</g>
+<g transform="translate(422 95)">
+<rect class="panel land" width="355" height="745" rx="18"/>
+<text x="177" y="55" text-anchor="middle" class="t">СУША / TERRESTRIAL</text>
+<path d="M25 345 Q100 330 170 345 T330 345" fill="none" stroke="#a4a17e" stroke-width="5"/>
+<ellipse cx="170" cy="270" rx="95" ry="62" fill="#b98e68" class="animal"/>
+<path d="M90 260 Q55 230 65 190 Q95 180 115 225" fill="#b98e68" class="animal"/>
+<circle cx="70" cy="205" r="7" fill="#20332b"/>
+<path d="M115 315 L105 385 L90 390 M215 315 L230 385 L250 390" fill="none" class="animal"/>
+<path d="M250 255 Q300 225 310 260" fill="none" class="animal"/>
+<path d="M120 225 Q160 205 205 225" fill="none" stroke="#8d674e" stroke-width="8"/>
+<text x="177" y="445" text-anchor="middle" class="label">Опорные конечности /</text><text x="177" y="472" text-anchor="middle" class="s">Weight-bearing limbs</text>
+<text x="177" y="530" text-anchor="middle" class="s">Конечности поддерживают</text><text x="177" y="558" text-anchor="middle" class="s">тело на твёрдой опоре</text>
+<text x="177" y="590" text-anchor="middle" class="small">Limbs support the body</text><text x="177" y="615" text-anchor="middle" class="small">on solid ground</text>
+<text x="177" y="690" text-anchor="middle" class="small">Шерсть у многих млекопитающих /</text><text x="177" y="716" text-anchor="middle" class="small">Fur in many mammals</text>
+</g>
+<g transform="translate(809 95)">
+<rect class="panel air" width="355" height="745" rx="18"/>
+<text x="177" y="55" text-anchor="middle" class="t">ВОЗДУХ / AERIAL</text>
+<path d="M60 300 Q175 170 300 300 Q180 260 60 300" fill="#9fb5c8" class="animal"/>
+<ellipse cx="180" cy="300" rx="58" ry="35" fill="#788fa4" class="animal"/>
+<path d="M215 295 L280 275 L250 315 Z" fill="#788fa4" class="animal"/>
+<path d="M135 280 Q95 230 80 200 M150 275 Q125 220 120 185 M170 270 Q160 215 165 180" fill="none" stroke="#526e83" stroke-width="8"/>
+<path d="M235 300 L280 300" stroke="#344b42" stroke-width="5"/>
+<circle cx="210" cy="290" r="5" fill="#20332b"/>
+<text x="177" y="445" text-anchor="middle" class="label">Крылья и перья /</text><text x="177" y="472" text-anchor="middle" class="s">Wings and feathers</text>
+<text x="177" y="530" text-anchor="middle" class="s">Крылья создают подъёмную</text><text x="177" y="558" text-anchor="middle" class="s">силу при полёте</text>
+<text x="177" y="590" text-anchor="middle" class="small">Wings generate lift</text><text x="177" y="615" text-anchor="middle" class="small">during flight</text>
+<text x="177" y="690" text-anchor="middle" class="small">Перья формируют поверхность крыла /</text><text x="177" y="716" text-anchor="middle" class="small">Feathers shape the wing surface</text>
+</g>
+<text x="600" y="875" text-anchor="middle" class="small">Адаптации наследуются и формируются в популяциях за поколения · Adaptations are inherited and shaped in populations over generations</text>
+</svg>
