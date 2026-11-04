@@ -710,6 +710,24 @@ if (fs.existsSync(periodicTablePath)) {
   errors.push("periodic-table.html: interactive periodic table is missing");
 }
 
+const atomicStructurePath = path.join(root, "chapters", "atomic-structure.html");
+if (fs.existsSync(atomicStructurePath)) {
+  const atomicStructureSource = fs.readFileSync(atomicStructurePath, "utf8");
+  if (!/<img\\b[^>]*id=["']electronCloud["'][^>]*data-svg-ru=["'][^"']+["'][^>]*data-svg-en=["'][^"']+["'][^>]*alt=["'][^"']+["']/i.test(atomicStructureSource)) {
+    errors.push("chapters/atomic-structure.html: electron probability cloud needs bilingual SVG paths and non-empty alternative text");
+  }
+  if (!atomicStructureSource.includes("electronCloudAlt:") ||
+      !atomicStructureSource.includes('$("electronCloud").alt=t[lang].electronCloudAlt') ||
+      !atomicStructureSource.includes('$("electronCloud").src=lang==="ru"')) {
+    errors.push("chapters/atomic-structure.html: electron cloud alt text and source must switch with the page language");
+  }
+  for (const asset of ["electron-cloud-ru.svg","electron-cloud.svg"]) {
+    if (!fs.existsSync(path.join(assetRoot, asset))) errors.push("chapters/atomic-structure.html: missing electron-cloud language asset " + asset);
+  }
+} else {
+  errors.push("chapters/atomic-structure.html: atomic structure chapter is missing");
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
