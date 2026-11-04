@@ -327,3 +327,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — World Bank vital-rate metadata — 5 November 2026
 
 - Added direct World Bank metadata links for crude birth and death rate indicators; their definitions support use of mid-year population as the annual denominator. Population-density land-area metadata remains separately cited. Commit: `16649e8552437b4ed962f8f9410125bbd32220b3`.
+
+
+### Chapter 08 — soil pH measurement comparability — 5 November 2026
+
+- Added a bilingual explanation of the logarithmic pH scale and a protocol caveat for water versus salt extracts and soil-to-solution ratios; comparisons require compatible methods. Commit: `d4650bc368a48150168240b64056d32b879e8372`.
