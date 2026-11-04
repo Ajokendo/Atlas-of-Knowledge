@@ -530,3 +530,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 07 — bilingual visual production briefs — 5 November 2026
 
 - Added English production instructions for all nine Chapter 07 figure concepts: biosphere cross-section, tolerance curve, food web/energy pyramid, biogeographical realms, latitudinal/altitudinal zonation, biome panorama, aquatic zonation, ecological connectivity and carbon/nitrogen cycles. No images were created; placeholders remain for the next visual-production stage. Commit: `1452297ed18f0554cdf831bbebc4d238d72e8a33`.
+
+
+### Chapter 06 — bilingual visual production briefs — 5 November 2026
+
+- Added English production instructions for the four registered core visuals: hydrological cycle, five-ocean map, ocean-floor profile and ocean-motion diagrams. The ocean-map brief incorporates the revised non-universal Southern Ocean boundary caveat. No images were created. Commit: `4282a32dd93779c6635027748584c3d5ed686ca2`.
