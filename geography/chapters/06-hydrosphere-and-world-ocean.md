@@ -153,7 +153,7 @@
 
 ### 6.6.1. Волны / Waves
 
-Ветровые волны возникают при передаче энергии от ветра поверхности воды. Частицы воды в обычной волне преимущественно совершают орбитальные движения; сама форма волны и энергия распространяются дальше.
+Ветровые волны возникают при передаче энергии от ветра поверхности воды. Частицы воды в обычной волне преимущественно совершают орбитальные движения; на большой глубине их траектории близки к круговым, а на мелководье становятся более вытянутыми. Сама форма волны и энергия распространяются дальше, тогда как перенос воды на большие расстояния обычно намного меньше переноса энергии.
 
 Цунами — длинные волны, обычно вызванные внезапным смещением больших объёмов воды при подводных землетрясениях, оползнях или вулканических событиях. В открытом океане цунами могут иметь небольшую высоту, но большую длину волны и скорость; у побережья их высота может резко увеличиваться.
 
@@ -216,14 +216,14 @@
 
 Океанические экосистемы отличаются по освещённости, глубине, температуре, солёности, доступности питательных веществ и характеру субстрата.
 
-Основные экологические зоны:
+В одной из распространённых учебных схем выделяют следующие экологические зоны (границы и употребление терминов могут различаться в зависимости от дисциплины и принятой классификации):
 - литораль — область периодического воздействия приливов;
 - сублитораль — мелководная постоянно затопленная зона;
 - пелагиаль — толща открытой воды;
 - бенталь — дно водоёма;
 - абиссаль и хадаль — глубоководные области.
 
-**Фитопланктон** осуществляет фотосинтез в освещённой части океана и составляет основу многих морских пищевых сетей. Зоны апвеллинга, где глубинные богатые питательными веществами воды поднимаются к поверхности, часто характеризуются высокой биологической продуктивностью.
+**Фитопланктон** осуществляет фотосинтез в освещённом верхнем слое океана и составляет основу многих морских пищевых сетей. Зоны апвеллинга, где глубинные богатые питательными веществами воды поднимаются к поверхности, часто характеризуются высокой биологической продуктивностью; однако она зависит также от освещённости, устойчивости водной толщи и сезонного поступления питательных веществ.
 
 К важным экосистемам относятся коралловые рифы, мангровые леса, морские травяные луга, солёные марши, открытый океан и глубоководные сообщества.
 
@@ -293,7 +293,7 @@
 
 Река — естественный водный поток, движущийся по руслу от истока к устью. Реки получают воду из осадков, таяния снега и льда, подземного питания и притоков.
 
-**Речной бассейн** — территория, с которой вода стекает в определённую реку и её притоки. Граница бассейна обычно проходит по водоразделам.
+**Речной бассейн** — территория, с которой поверхностный сток направляется в определённую реку и её притоки. Граница поверхностного водосбора обычно проходит по топографическому водоразделу. Подземный водораздел может не совпадать с ним, поэтому границы поверхностного и подземного водосборов в некоторых геологических условиях различаются.
 
 Ключевые характеристики реки:
 - длина;
@@ -358,7 +358,7 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6.14-A / IMAGE PLACEHOLDER 6.14-A]** Типы озёрных котловин и разрез стратифицированного озера. / **EN:** Types of lake basins and a cross-section of a stratified lake.
 
-Озеро — естественный водоём в углублении суши, не имеющий прямого свободного соединения с океаном. Озёра различаются по происхождению, глубине, солёности, водному балансу и биологической продуктивности.
+Озеро — естественный водоём в углублении суши, не имеющий прямого свободного соединения с океаном. Искусственные водоёмы, созданные плотинами или выемкой грунта, корректнее называть водохранилищами или искусственными прудами, хотя в повседневной речи их иногда называют искусственными озёрами. Озёра различаются по происхождению, глубине, солёности, водному балансу и биологической продуктивности.
 
 По происхождению котловин выделяют:
 - тектонические;
@@ -648,9 +648,9 @@ Ocean deoxygenation is a decline in dissolved oxygen. It may result from warming
 
 Ocean ecosystems differ in light, depth, temperature, salinity, nutrient availability and substrate.
 
-Major ecological zones include the **littoral**, periodically affected by tides; the **sublittoral**, a shallow permanently submerged zone; the **pelagic zone**, the open-water column; the **benthic zone**, the seabed; and the **abyssal and hadal zones**, the deepest regions.
+One commonly used teaching classification distinguishes the **littoral**, periodically affected by tides; the **sublittoral**, a shallow permanently submerged zone; the **pelagic zone**, the open-water column; the **benthic zone**, the seabed; and the **abyssal and hadal zones**, the deepest regions. Exact boundaries and terminology vary among disciplines and classification systems.
 
-**Phytoplankton** photosynthesises in the sunlit ocean and forms the base of many marine food webs. Upwelling zones, where deep nutrient-rich water rises towards the surface, often have high biological productivity.
+**Phytoplankton** photosynthesises in the sunlit upper ocean and forms the base of many marine food webs. Upwelling zones, where deep nutrient-rich water rises towards the surface, often have high biological productivity; however, productivity also depends on light, water-column stability and the seasonal supply of nutrients.
 
 Important ecosystems include coral reefs, mangrove forests, seagrass meadows, salt marshes, the open ocean and deep-sea communities.
 
@@ -684,7 +684,7 @@ A **glacier** is a mass of land-based ice formed by the accumulation and compact
 
 A **river** is a natural flow of water moving in a channel from its source to its mouth. Rivers receive water from precipitation, snow and ice melt, groundwater and tributaries.
 
-A **drainage basin** is the area from which water drains into a particular river and its tributaries. Its boundary generally follows watersheds.
+A **drainage basin** is the area from which surface runoff drains into a particular river and its tributaries. Its surface boundary generally follows a topographic watershed divide. The groundwater divide may differ, so surface-water and groundwater catchment boundaries do not always coincide.
 
 Key river characteristics include length, basin area, discharge, flow regime, channel gradient, seasonality and extremes.
 
@@ -717,7 +717,7 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 
 ### 6.14. Lakes and Inland Waters
 
-Lakes are natural or artificial water bodies occupying depressions in the land surface. They differ in origin, depth, area, water balance, salinity and ecological condition.
+A **lake** is a natural inland water body occupying a depression in the land surface and lacking a direct, freely flowing connection to the ocean. Artificial water bodies created by dams or excavation are more precisely called reservoirs or artificial ponds, although they are sometimes referred to informally as artificial lakes. Lakes differ in origin, depth, area, water balance, salinity and ecological condition.
 
 By origin, lake basins may be tectonic, glacial, volcanic, karst, dammed, thermokarst or residual. By water balance, lakes may be outflowing or closed. In closed lakes, salts may accumulate through evaporation, producing saline water.
 
@@ -838,17 +838,20 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
-1. USGS Water Science School. **How Much Water Is There on Earth?** (2019; page accessed 5 November 2026) — estimates total water volume and distribution; the page identifies the global distribution figures as estimates and notes rounding. https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
-2. USGS Water Science School. *Water Basics Information by Topic*. https://www.usgs.gov/water-science-school/science/water-basics-information-topic
-3. NOAA National Ocean Service. *Ocean Facts*. https://oceanservice.noaa.gov/facts/
-4. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
-3b. NOAA National Ocean Service. **How Many Oceans Are There?** — explains the common five-ocean convention and notes that the 60°S Southern Ocean boundary has not been ratified by IHO members. https://oceanservice.noaa.gov/facts/howmanyoceans.html
-3a. International Hydrographic Organization. **S-23, Limits of Oceans and Seas, Draft 4th Edition (2002)** — explicitly marked by IHO as a working document only; it was not approved. https://legacy.iho.int/mtg_docs/com_wg/S-23WG/S-23WG_Misc/Draft_2002/Draft_2002.htm
-5. International Hydrographic Organization (IHO). **Standards and Specifications** — relevant publications listed in the current IHO catalogue: S-23 *Limits of Oceans and Seas* (1953); S-44 *Standards for Hydrographic Surveys*, Edition 6.2.0 (October 2024); S-102 *Bathymetric Surface Product Specification*, Edition 3.0.0 (December 2024); and S-100 *Universal Hydrographic Data Model*, Edition 5.2.1 (December 2025). Check the catalogue for later revisions before using these standards in a formal hydrographic product. https://iho.int/en/standards-and-specifications
-6. National Snow and Ice Data Center (NSIDC). *Glaciers*. https://nsidc.org/learn/parts-cryosphere/glaciers
-7. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). *The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties*. IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
-8. NOAA. *Ocean Acidification*. https://www.noaa.gov/ocean-acidification
-9. USDA Forest Service. *Technical Guide to Ground Water Resource Management* (FS-881, 2007), section on watershed water budgets and the inflow–outflow–storage balance. https://www.fs.usda.gov/geology/FINAL_Ground%20Water%20Technical%20Guide_FS-881_March2007.pdf
+1. USGS Water Science School. **How Much Water Is There on Earth?** — estimated global water volume and reservoir distribution; values are rounded and based on a cited global compilation. https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
+2. USGS Water Science School. **Streamflow and the Water Cycle** — explains the very small share of global water held in rivers and provides a global water-distribution table. https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle
+3. USGS Water Science School. **Aquifers and Groundwater** (17 September 2026) — aquifers, water table, recharge, permeability, groundwater movement and pumping effects. https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater
+4. USGS Water Science School. **Groundwater Flow and the Water Cycle** — groundwater movement, porosity, permeability, recharge and discharge. https://www.usgs.gov/water-science-school/science/groundwater-flow-and-water-cycle
+5. NASA Earth Observatory. **The Water Cycle** — evaporation, latent heat, atmospheric transport and precipitation. https://science.nasa.gov/earth/earth-observatory/the-water-cycle/
+6. NOAA National Ocean Service. **How Many Oceans Are There?** — explains the common five-ocean convention and notes that the 60°S Southern Ocean boundary has not been ratified by IHO members. https://oceanservice.noaa.gov/facts/howmanyoceans.html
+7. International Hydrographic Organization. **S-23, Limits of Oceans and Seas, Draft 4th Edition (2002)** — explicitly marked by IHO as a working document only; it was not approved. https://legacy.iho.int/mtg_docs/com_wg/S-23WG/S-23WG_Misc/Draft_2002/Draft_2002.htm
+8. International Hydrographic Organization (IHO). **Standards and Specifications** — catalogue of S-23, S-44, S-102 and S-100; check for later revisions before formal hydrographic use. https://iho.int/en/standards-and-specifications
+9. NOAA National Ocean Service. **What Is a Current?** — wind, density differences and tides as drivers of ocean currents. https://oceanservice.noaa.gov/facts/current.html
+10. NOAA. **Ocean Acidification** — ocean CO₂ uptake, pH decline and carbonate chemistry. https://www.noaa.gov/ocean-acidification
+11. National Snow and Ice Data Center (NSIDC). **Quick Facts About Sea Ice** — distinguishes sea ice from land-based glaciers and icebergs; explains sea-ice extent. https://nsidc.org/learn/parts-cryosphere/sea-ice/quick-facts-about-sea-ice
+12. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). **The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties.** IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
+13. USDA Forest Service. **Technical Guide to Ground Water Resource Management** (FS-881, 2007) — watershed water budgets and the inflow–outflow–storage balance. https://www.fs.usda.gov/geology/FINAL_Ground%20Water%20Technical%20Guide_FS-881_March2007.pdf
+14. UNESCO. **United Nations World Water Development Report** — global water-resource assessment and management context. https://www.unesco.org/reports/wwdr
 При использовании численных данных о запасах воды, океанических глубинах, ледниках и речном стоке следует фиксировать год, пространственный охват, методику оценки и единицы измерения. Данные о запасах (например, км³) нельзя смешивать с потоками за период (например, км³/год).
 
 ## Редакционные и научные примечания
@@ -861,7 +864,15 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 - В описании климатических воздействий отделять наблюдаемые тенденции от региональных прогнозов и сценариев.
 - Для карт рек, озёр и водоносных горизонтов использовать проверенные гидрографические и гидрогеологические данные; не упрощать трансграничные границы водосборов.
 
-## Focused scientific and editorial audit record — 5 November 2026
+## Final focused scientific and editorial closure pass — 5 November 2026
+
+- **Sentence-level RU/EN review:** reviewed all 17 numbered main sections and the paired examples, chapter summary, key terms, review questions and practical assignment. Corrected the lake/reservoir definition mismatch, qualified the particle-motion description for wind waves, clarified surface-water versus groundwater divides, and aligned the marine-zone terminology caveat in both languages.
+- **Source-to-claim sweep:** replaced the loosely ordered bibliography with 14 topic-specific institutional references covering global water distribution, streamflow, groundwater, the hydrological cycle, ocean classification, IHO standards, currents, ocean acidification, sea ice, TEOS-10 and catchment water budgets. The 2002 IHO S-23 draft remains explicitly labelled a working document, not an approved edition.
+- **Numerical controls:** recalculated the river-discharge example (3.6 m³/s) and basin exercise (250 mm; 2.5 km³; 79.3 m³/s); checked unit consistency and the stated 365-day conversion. The 600/350/220 mm example retains a 30 mm balance residual and explains why it is not automatically a measurement error.
+- **Visual inventory:** 15 unique bilingual visual IDs and matching production briefs remain registered. They are deliberately retained as placeholders; no image-generation or integration is claimed.
+- **Release boundary:** this closes the chapter's text/source editorial pass, not visual production, layout rendering, mobile/browser accessibility testing or deployment QA.
+
+## Earlier focused scientific and editorial audit record — 5 November 2026
 
 - **Water-balance units:** corrected the worked example so outlet discharge is explicitly converted to an equivalent runoff depth over the catchment area before it is compared with precipitation and evapotranspiration. The three terms now share the same unit (mm) and period (one year); the 30 mm residual is not automatically labelled an error or a separate store. Integrated in the worked example.
 - **Catchment accounting:** clarified the control-volume boundary, inflows, outflows and storage changes; retained the instruction to account for snow, glaciers, lakes, groundwater, abstractions and uncertainty. Integrated in the explanatory text and practical sequence.
