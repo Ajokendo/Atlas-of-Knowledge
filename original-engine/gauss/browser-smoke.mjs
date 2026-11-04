@@ -157,9 +157,10 @@ async function checkInteractiveBook(mobile) {
       const plate = document.querySelector('#plate');
       return plate && !plate.hidden && !!plate.querySelector('#scene-plate-title');
     });
-    if (!(await page.locator('#scene-plate-title').evaluate(el => document.activeElement === el))) {
-      throw new Error('keyboard scene selection did not move focus to the text explanation');
-    }
+    await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 2500 }).catch(async () => {
+      const active = await page.evaluate(() => ({ tag: document.activeElement?.tagName, id: document.activeElement?.id, className: document.activeElement?.className, text: document.activeElement?.textContent?.trim().slice(0, 80) }));
+      throw new Error(`keyboard scene selection did not move focus to the text explanation; active element: ${JSON.stringify(active)}`);
+    });
     await picker.selectOption('');
     if (!(await page.locator('#plate').evaluate(el => el.hidden))) throw new Error('empty picker option did not close the scene explanation');
 
