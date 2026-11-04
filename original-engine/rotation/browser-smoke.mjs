@@ -116,7 +116,7 @@ async function checkInteractiveBook(mobile) {
       const canvas = document.querySelector('#gl');
       return canvas && canvas.width > 0 && canvas.height > 0 &&
         document.querySelectorAll('#dots button').length === 15 &&
-        canvas.getContext('webgl2') !== null || canvas.getContext('webgl') !== null;
+        !!(canvas.getContext('webgl2') || canvas.getContext('webgl'));
     }, undefined, { timeout: 20000 });
     const initial = await page.evaluate(() => ({
       title: document.querySelector('#sheet h1')?.textContent?.trim(),
