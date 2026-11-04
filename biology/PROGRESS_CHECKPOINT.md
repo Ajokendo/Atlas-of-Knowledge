@@ -1054,3 +1054,14 @@ This closes the temporary missing-file and P1-register assertion failures encoun
 - Existing source audits, checksums, licences, chapter anchors and images were preserved. No new image was generated and no chapter image was replaced.
 - This pass is confined to `biology/` on `workspace/biology`; no other subject, `main`, shared portal or publishing settings were changed.
 - CI status for these new documentation commits: **pending** until the corresponding GitHub Actions run completes.
+
+
+## IMAGE-FIRST implementation — focused chapter remediation, 5 November 2026
+
+- A direct scan of all 12 chapter pages found no missing local generated-image target paths.
+- Three botanical figures (root/stem/leaf anatomy, xylem/phloem transport, and flower/pollination) had image alt text but no visible captions. Added concise Russian and English `figcaption` text to all three in `chapters/botany.html`.
+- Added a regression assertion in `checks.mjs`: every semantic `figure` containing an `img` must include a `figcaption`.
+- Post-edit check: 3/3 botanical image figures have captions and alt attributes. This is a focused structural fix; full per-asset scientific, rights and bilingual semantic verification remains pending.
+- Commits: `00c5b316` (botany captions), `e3d47e52` (caption regression check). CI for the combined branch head is pending.
+
+All changes remain confined to `biology/` on `workspace/biology`.
