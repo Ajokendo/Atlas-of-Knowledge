@@ -2,8 +2,12 @@
 
 **Snapshot:** 4 November 2026  
 **Branch:** `workspace/geography`  
-**Scope:** Chapters 01–02 only  
+**Scope:** Chapters 01–02 have detailed source records; Chapters 03–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
 **Policy:** search for an existing scientifically suitable image first; verify the individual asset's rights and attribution; create or generate a replacement only when no suitable reusable image is found.
+
+## Policy alignment — IMAGE-FIRST POLICY v1.1
+
+This source register is maintained under the universal root-level [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md). It does not replace IMAGE_AUDIT.md: this file records provenance and rights evidence; the audit records independent scientific, rights, bilingual, accessibility and technical results. Unknown values remain Unknown or PENDING; a source entry or integration note alone is not approval. Detailed asset records below cover Chapters 01–02 only; do not infer complete records for Chapters 03–26.
 
 ## Status key
 
