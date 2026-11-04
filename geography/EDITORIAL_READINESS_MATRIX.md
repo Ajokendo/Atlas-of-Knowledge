@@ -62,6 +62,8 @@ A focused scientific/editorial correction pass was saved across Chapters 06–10
 
 **Progress remains 73% for each of Chapters 06–10.** This pass improves specific scientific claims and bibliography traceability but does not close the full editorial scope: planned visual assets remain unintegrated, complete claim-to-source mapping and final RU/EN proofreading remain open. No browser/device/deployment QA is claimed.
 
+**Bilingual structure check completed:** numbered teaching-section headings match RU/EN counts in Chapters 06–10 (17/17, 15/15, 15/15, 16/16 and 15/15 respectively). Review-question counts also match (16/16, 15/15, 15/15, 15/15 and 14/14). This verifies section/question inventory only; it is not a line-by-line semantic translation audit.
+
 ## Priority queue
 
 1. Continue source-by-source review of Chapters 01–16, including dated data and bibliographic relevance. Initial targeted evidence pass completed for Chapters 01–10; see `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md` (2 Nov 2026).
