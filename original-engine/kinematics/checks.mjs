@@ -51,6 +51,7 @@ check('pull: v = ∫a dt (numeric) at 1, 2.5, 4, 5 s', [1, 2.5, 4, 5].every(t =>
 check('pull: x = ∫v dt (numeric) at 1, 2.5, 4, 5 s', [1, 2.5, 4, 5].every(t => near(integ(M.pv, 0, t), M.px(t), 1e-7)), `x(t1) = ${M.X1.toFixed(1)} m, x(5) = ${M.px(5).toFixed(1)} m`);
 check('pull: v = dx/dt and a = dv/dt', [0.5, 2, 3.5, 4.6].every(t => near(deriv(M.px, t), M.pv(t), 1e-6) && near(deriv(M.pv, t), M.pa(t), 1e-6)));
 check('pull: v1 = a0²/2k, x1 = a0³/3k²', near(M.V1, M.PULL.a0 ** 2 / (2 * M.PULL.k)) && near(M.X1, M.PULL.a0 ** 3 / (3 * M.PULL.k ** 2)));
+check('pull: after t1, a = 0, v = v1 and x continues linearly', [4.2, 5].every(t => near(M.pa(t), 0) && near(M.pv(t), M.V1) && near(M.px(t), M.X1 + M.V1 * (t - M.T1))));
 // ODE: step dv = a dt, dx = v dt from rest (semi-implicit Euler, fine step)
 { const dt = 1e-5; let v = 0, x = 0; for (let t = 0; t < 5 - dt / 2; t += dt) { const a = M.pa(t + dt / 2); x += (v + 0.5 * a * dt) * dt; v += a * dt; }
   check('pull: stepped from rest matches v(5), x(5)', near(v, M.pv(5), 1e-6) && near(x, M.px(5), 1e-6), `${v.toFixed(3)} m/s, ${x.toFixed(3)} m`); }
