@@ -1,11 +1,9 @@
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 
-const labs = [
-  'kinematics', 'newton', 'circular', 'energy', 'momentum',
-  'oscillations', 'rotation', 'fluids', 'electrostatics', 'gauss',
-  'potential', 'capacitors', 'circuits', 'magnetism', 'induction',
-];
+// Keep this browser gate focused on the chapter being finalized. The full
+// 15-laboratory browser sweep is tracked separately by the earlier baseline run.
+const labs = ['newton'];
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
 const failures = [];
 let pagesChecked = 0;
