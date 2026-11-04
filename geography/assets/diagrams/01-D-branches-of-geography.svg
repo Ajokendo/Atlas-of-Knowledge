@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="t d">
+<title id="t">Branches of geography / Направления географии</title>
+<desc id="d">Three overlapping fields: physical geography, human geography, and applied and technical geography; their overlap is integrative geography. / Три пересекающихся направления: физическая география, география человека, прикладная и техническая география; их пересечение образует интегративную географию.</desc>
+<rect width="1500" height="900" fill="#f7fafc"/>
+<text x="750" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#17324d">Branches of geography / Направления географии</text>
+<circle cx="520" cy="420" r="300" fill="#8fc1a2" fill-opacity=".58" stroke="#568b6a" stroke-width="4"/>
+<circle cx="980" cy="420" r="300" fill="#8fb8d6" fill-opacity=".58" stroke="#3979a8" stroke-width="4"/>
+<circle cx="750" cy="610" r="260" fill="#d9b78c" fill-opacity=".55" stroke="#a66b35" stroke-width="4"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#17324d">
+<text x="350" y="390" font-size="34" font-weight="700">Physical geography</text><text x="350" y="435" font-size="29">Физическая география</text><text x="350" y="490" font-size="22">Relief • climate • water • ecosystems</text><text x="350" y="523" font-size="22">Рельеф • климат • воды • экосистемы</text>
+<text x="1150" y="390" font-size="34" font-weight="700">Human geography</text><text x="1150" y="435" font-size="29">География человека</text><text x="1150" y="490" font-size="22">Population • cities • economy • culture</text><text x="1150" y="523" font-size="22">Население • города • экономика • культура</text>
+<text x="750" y="760" font-size="32" font-weight="700">Applied &amp; technical geography</text><text x="750" y="800" font-size="27">Прикладная и техническая география</text>
+<text x="750" y="845" font-size="20">GIS • planning • risk assessment / ГИС • планирование • оценка рисков</text>
+</g>
+<rect x="600" y="430" width="300" height="105" rx="22" fill="#17324d" stroke="#fff" stroke-width="4"/>
+<text x="750" y="475" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#fff">Integrated</text><text x="750" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#fff">Интегративная</text>
+<text x="750" y="885" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#52697c">Adapted conceptually from GeogSage (2026), CC BY 4.0; redrawn and translated / Концептуально переработано по GeogSage (2026), CC BY 4.0; перерисовано и переведено</text>
+</svg>
