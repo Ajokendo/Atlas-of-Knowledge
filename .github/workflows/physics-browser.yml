@@ -31,7 +31,7 @@ jobs:
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/physics-http.log 2>&1 &
           for attempt in $(seq 1 30); do
-            if curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/newton/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/oscillations/ >/dev/null; then
+            if curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/newton/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/oscillations/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/rotation/ >/dev/null; then
               exit 0
             fi
             sleep 1
