@@ -41,20 +41,20 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 |---|---:|---|
 | Required static visual topics | 12 | One planned static visual topic for each of 12 chapters; Chapter 12 uses two related figures within its chapter topic. |
 | Static Image Coverage | 11 / 12 = 91.7% | 11 static bilingual pairs are integrated; the Chapter 03 periodic-trends visual is found as a candidate but not integrated. Provisional chapter-plan coverage. |
-| Interactive visual systems | 4 / 4 integrated | Atomic model, subatomic-particle comparison, bonding models and periodic table. Presence does not imply verification. |
-| Combined visual plan | 15 / 16 = 93.75% integrated | 12 static topics + 4 interactive systems; 15 are present and one required static topic remains missing. Provisional. |
-| Image Verification | 0 / 15 = 0% VERIFIED | None of the 15 integrated visual records meets every applicable science, rights, language, accessibility and technical criterion. |
+| Interactive visual systems | 7 / 7 integrated | Four chapter-level systems plus molecular geometry, gas-particle count and the acid–base virtual beaker. Presence does not imply verification. |
+| Chapter-level visual plan | 15 / 16 = 93.75% integrated | 12 static topics + 4 chapter-level interactive systems; 15 are present and one required static topic remains missing. Provisional. |
+| Supplemental interactive tools | 3 / 3 integrated | Molecular laboratory, gas-laws particle-count visual and acid–base virtual beaker; all remain unverified. |\n| Atlas-wide visual plan | 18 / 19 = 94.74% integrated | 12 static topics + 7 interactive systems; 18 are present and the Chapter 03 static trend visual remains the only identified gap. Provisional. |\n| Image Verification | 0 / 18 = 0% VERIFIED | None of the 18 integrated visual records meets every applicable science, rights, language, accessibility and technical criterion. |
 | Image Gaps | 1 required visual | Chapter 03 periodic trends: candidate found; local integration and review pending. No other missing chapter-level visual identified in the current 12-chapter plan. |
 | Category A — external original reuse | 0 assigned | Existing local assets have not been proven to be unmodified external reuse. |
 | Category B — adapted external reuse | 0 assigned | No existing local asset has a verified external source/adaptation trail. |
 | Category C — created | 0 assigned | Local presence alone does not prove project authorship or method. |
-| Category / method pending | 15 / 15 integrated records | 11 static pairs + 4 interactive visual systems; provenance and creator/rightsholder evidence still needed. |
-| Rights on integrated records | 0 PASS / 15 PENDING / 0 FAIL | The 15 existing records remain unverified. Chapter 03 candidate sources are tracked separately below. |
-| Scientific/factual review | 10 PASS / 5 PENDING / 0 FAIL | First-pass static review: 10 PASS, CH-V01 PENDING; all four interactive systems still need documented expert/manual review. |
-| Language and accessibility | 11 static pairs have bilingual metadata; 4 interactive systems PENDING manual review | Presence of RU/EN titles/descriptions/captions/alt is not a substitute for translation-quality and assistive-technology sign-off. |
-| Technical evidence | 22 / 22 static SVG files pass recorded basic metadata checks | Historical CI evidence exists, but CI must be rerun after the latest branch changes. Responsive, keyboard and screen-reader manual checks remain pending. |
-| Retrospective search evidence | 16 / 16 records have dated search notes | The 15 existing integrated records plus the Chapter 03 candidate. This does not prove the original pre-creation search-first sequence. |
-| Search candidates | 7 FOUND / 16 searched | OpenStax titration, OpenStax Daniell-cell, PubChem interactive table, Wikimedia Commons periodic-trends pair, OpenStax functional-groups table, NASA carbon-cycle animation, and Wikimedia Commons particle-comparison SVG. None is adopted; the particle-comparison candidates were not selected for pedagogical fit. |
+| Category / method pending | 18 / 18 integrated records | 11 static pairs + 7 interactive visual systems; provenance and creator/rightsholder evidence still needed. |
+| Rights on integrated records | 0 PASS / 18 PENDING / 0 FAIL | All 18 integrated records remain unverified. Candidate source rights are tracked separately and do not count as integrated assets. |
+| Scientific/factual review | 10 PASS / 8 PENDING / 0 FAIL | First-pass static review: 10 PASS, CH-V01 PENDING; all seven interactive systems have source-level descriptions but still need documented expert/manual review. |
+| Language and accessibility | 11 static pairs have bilingual metadata; 7 interactive systems have localized names or text alternatives; all manual AT reviews PENDING | Metadata and accessible names are not a substitute for translation-quality, keyboard, screen-reader and device sign-off. |
+| Technical evidence | 22 / 22 static SVG files pass recorded basic metadata checks; 7 interactive systems inventoried | Current-branch CI is being rerun after source and accessibility updates. Responsive, keyboard and screen-reader manual checks remain pending. |
+| Retrospective search evidence | 19 / 19 records have dated search notes | The 18 integrated records plus the Chapter 03 candidate. This does not prove the original pre-creation search-first sequence. |
+| Search candidates | 10 FOUND / 19 searched | Earlier candidates plus PhET Molecule Shapes, Gas Properties and Acid-Base Solutions/pH Scale resources. None has been adopted; exact reuse terms and pedagogical fit are recorded in IMAGE_SOURCES.md. |
 
 ### Chapter-level visual metrics
 
@@ -75,6 +75,16 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 
 **Totals:** 16 required visual units, 15 integrated, 93.75% provisional Image Coverage; 0/15 integrated visuals VERIFIED; one known gap in Chapter 03. A chapter showing 100% coverage is not thereby verified: the rights, provenance, scientific, language, accessibility and technical checks may still be pending.
 
+### Supplemental interactive-tool visual metrics
+
+| Tool / visual | Required | Integrated | Image Coverage | Image Verification | Image Gaps |
+|---|---:|---:|---:|---:|---|
+| Molecular laboratory — four 3D molecule models | 1 system | 1 | 100% | 0 / 1 VERIFIED | None identified; creator/code rights and manual checks pending |
+| Gas laws — schematic particle-count visual | 1 system | 1 | 100% | 0 / 1 VERIFIED | None identified; creator/code rights and manual checks pending |
+| Acid–base virtual laboratory — beaker and pH indicator | 1 system | 1 | 100% | 0 / 1 VERIFIED | None identified; creator/code rights and manual checks pending |
+
+**Supplemental tools total:** 3 / 3 integrated (100% provisional coverage), 0 / 3 VERIFIED. Combined with the chapter-level plan, the whole atlas has 18 / 19 integrated visual units (94.74% provisional coverage) and 0 / 18 VERIFIED.
+
 ### Chapter 03 candidate rights finding
 
 A suitable bilingual candidate was located on Wikimedia Commons on 2026-11-05. The English original by Mirek2 is dedicated under CC0 1.0. The Russian derivative by Донор is licensed CC BY-SA 4.0 and identifies the English source; its file history records a later edit by Землеройкин. The exact source pages and licence deeds are recorded in IMAGE_SOURCES.md. These item-level source/licence checks are complete for the candidate files, but the candidate is not integrated and does not increase Image Coverage or Image Verification. Scientific, language, accessibility and local-file integration checks remain PENDING.
@@ -88,6 +98,9 @@ A suitable bilingual candidate was located on Wikimedia Commons on 2026-11-05. T
 | CH-IV03 | Ionic, covalent and metallic bonding models | PENDING — conceptual-model limitations need final manual sign-off | PENDING — source-code creator, authoring method and code rights Unknown | PENDING — localized names/live-region description exist; manual assistive-technology review outstanding | Three inline SVG models present; manual responsive/keyboard review pending | INTEGRATED, not VERIFIED |
 | CH-IV04 | Interactive periodic table | PENDING — element data provenance and property conventions need final expert review | PENDING — source-code/data creator, provenance and reuse rights Unknown | PENDING — localized element names and complete polite live region exist; manual AT review outstanding | Keyboard focus preservation and accessible names are source-guarded; manual device/zoom review pending | INTEGRATED, not VERIFIED |
 
+| CH-IV05 | Molecular laboratory — water, carbon dioxide, methane and ammonia 3D canvas models | PASS — source-level geometry check: water ≈104.6°, methane tetrahedral ≈109.5°, ammonia trigonal-pyramidal ≈107°, CO₂ linear; scale limitations are stated | PENDING — project code creator/rightsholder and code rights Unknown | PENDING — localized canvas accessible name and molecule descriptions exist; manual screen-reader review outstanding | Canvas and keyboard rotation present; responsive/device/zoom review pending | INTEGRATED, not VERIFIED |
+| CH-IV06 | Gas laws — schematic particle-count visual | PASS — count changes with amount of substance only; nearby note explicitly excludes density, speed, trajectories and collisions and states pressure is calculated separately | PENDING — project code creator/rightsholder and code rights Unknown | PENDING — new localized accessible name is linked to the bilingual explanatory note; manual screen-reader review outstanding | Source-level description added; browser/device/zoom review pending | INTEGRATED, not VERIFIED |
+| CH-IV07 | Acid–base virtual laboratory — beaker/liquid state and pH indicator | PASS — strong monoprotic/monobasic model, 25 °C, ideal dilute solution and additive-volume assumptions are stated; pH model includes water autoionisation approximation | PENDING — project code creator/rightsholder and code rights Unknown | PENDING — pH/status text is announced; new localized beaker name is linked to dynamic text; manual screen-reader review outstanding | Source-level accessibility improvement added; browser/device/zoom review pending | INTEGRATED, not VERIFIED |
 ## Static visual audit register
 
 | ID / visual | Files | Science | Licence / provenance | RU/EN | Technical | Integration | Result / findings |
@@ -235,3 +248,12 @@ CI evidence in the publication checklist predates the latest Chemistry branch co
 Targeted searches were added for the existing chapter visuals and interactive models. Additional candidate findings are recorded in IMAGE_SOURCES.md: OpenStax Organic Chemistry section 3.1 / Table 3.1 is a functional-groups reference under the book's CC BY-NC-SA 4.0 terms, subject to item-level image-credit checks; NASA SVS carbon-cycle animation 10494 is a conceptual candidate with NASA/GSFC/UMBC and creator credits, subject to the NASA third-party-content caveat; Wikimedia Commons particle-comparison diagrams were found but not selected because one uses equal-density sphere assumptions and the other includes antiparticles beyond the learning objective. OpenStax reference sections for isotopes, mole concept, chemical formulas, solubility and balancing equations were also checked; the surfaced examples did not match the local figure's precise teaching purpose closely enough to replace it.
 
 These targeted searches improve retrospective evidence but cannot prove that the search-first sequence occurred before the existing project-local visuals were authored. The original 11 SVG pairs and four interactive systems remain unclassified with rights PENDING until their actual creation history and project rights basis are confirmed.
+## 2026-11-05 follow-up: standalone interactive visuals added to scope
+
+A deeper page-by-page audit found three existing visual learning components that were not present in the original four-system inventory: the 3D molecular-geometry canvas, the gas-laws schematic particle-count display, and the acid–base virtual-lab beaker/pH indicator. They are now registered as CH-IV05 through CH-IV07, with per-ID audit rows, learning purposes and targeted image-first candidate searches. The whole-atlas denominator is therefore 19 visual units (12 chapter-level static topics + 7 interactive systems), of which 18 are integrated; the Chapter 03 periodic-trends diagram remains the only identified gap.
+
+Source-level science review found the molecular geometry coordinates consistent with the displayed approximate geometries: H₂O ≈104.6°, CH₄ ≈109.5°, NH₃ ≈107° and linear CO₂. The gas-laws dots are explicitly a schematic count tied only to amount of substance, not a kinetic-theory simulation. The virtual neutralisation model states its strong monoprotic/monobasic, 25 °C, dilute/ideal and additive-volume assumptions and uses a water-autoionisation approximation near equivalence. These are first-pass source reviews, not independent expert certification.
+
+Two accessibility improvements were made: the gas-laws particle visual now has a bilingual accessible name linked to its explanatory limitation note; the virtual beaker now has a bilingual accessible name linked to the live pH/status text. Manual screen-reader, keyboard, device and zoom checks remain pending.
+
+PhET alternatives were located for molecule geometry, gas properties and acid/base solutions. The official PhET licensing page states regular HTML simulations are CC BY-NC 4.0 and requires attribution; these are candidates only, not adopted assets. The exact fit and non-commercial condition must be assessed before any future embedding.
