@@ -138,6 +138,13 @@ async function checkInteractiveBook(mobile) {
     if (await page.locator('#gl').getAttribute('aria-describedby') !== 'scene-guide') {
       throw new Error('3D canvas is not programmatically associated with its text guide');
     }
+    const guideLayout = await guide.evaluate(el => {
+      const r = el.getBoundingClientRect();
+      return { position: getComputedStyle(el).position, width: r.width, height: r.height };
+    });
+    if (guideLayout.position !== 'absolute' || guideLayout.width < 100 || guideLayout.height < 20) {
+      throw new Error(`accessible scene guide is not visibly positioned over the 3D scene: ${JSON.stringify(guideLayout)}`);
+    }
 
     const picker = page.locator('.scene-picker');
     await picker.waitFor({ state: 'visible' });
