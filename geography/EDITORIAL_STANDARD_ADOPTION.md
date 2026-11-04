@@ -2,7 +2,7 @@
 
 **Working branch:** `workspace/geography`  
 **Discipline folder:** `geography/`  
-**Adopted reference:** root-level `EDITORIAL_STANDARD.md` in `atlas-of-knowledge-integration`  
+**Adopted reference:** root-level `EDITORIAL_STANDARD.md` in `main`  
 **Reference blob SHA:** `38294a18c47e8127fdd25669d5d15b10b1887256`  
 **Project-registry blob SHA:** `03537236951f30b0a6f3b79d011bcfd04cd5b652`  
 **Adoption record date:** 2 November 2026
@@ -58,9 +58,9 @@ Commit: `8ce1a147f3dfc1b07689355cd84658046501ae61`.
 ## IMAGE-FIRST POLICY v1.1 — mandatory adoption
 
 **Adopted:** 5 November 2026  
-**Policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
-**Reference branch:** `atlas-of-knowledge-integration`  
-**Canonical-main status:** The policy is currently referenced from the integration branch. Update this link to the root-level `main` location only after the central integration process merges it. Do not create a Geography copy.
+**Policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md)  
+**Reference branch:** `main`  
+**Canonical-main status:** The policy is now referenced from `main` (commit `bd3deb97`). Update this link to the root-level `main` location only after the central integration process merges it. Do not create a Geography copy.
 
 Geography adopts the complete mandatory workflow, status vocabulary, evidence requirements, metrics, CI principles and derivative/inherited-material protocol in sections 1–10, including section 8.1. This record supplements but does not redefine the universal policy.
 
