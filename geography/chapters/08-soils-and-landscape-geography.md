@@ -691,3 +691,13 @@ The numerical examples in this chapter are instructional; they are not results f
 
 ---
 **Конец главы 8 / End of Chapter 8**
+
+## Focused scientific and editorial audit record — 5 November 2026
+
+- **Soil profile classification:** revised the profile explanation to include the WRB H and O organic horizons and to avoid implying that every soil has a fixed, complete H–O–A–E–B–C–R sequence. The bilingual review question and glossary were aligned.
+- **Bulk density and porosity:** retained the worked example (1,300 g / 1,000 cm³ = 1.3 g/cm³; estimated porosity ≈50.9% using an assumed particle density of 2.65 g/cm³). The text identifies this as an estimate and states its assumptions; it must not be presented as a direct measurement of pore space.
+- **Salinity measurement:** clarified that ECe from a saturated-paste extract at 25 °C is not interchangeable with EC from a 1:5 extract or field apparent-conductivity readings. The method, ratio, temperature and units must be stated.
+- **Salinity versus sodicity:** clarified that electrical conductivity alone does not identify salt composition or diagnose exchangeable-sodium effects; separate chemical and exchange-related measurements are required. The historical ECe value near 4 dS/m is explicitly not a universal crop-damage threshold.
+- **Visual production:** checked seven unique bilingual visual IDs and production briefs, including the WRB profile and erosion/landscape concepts. All remain placeholders.
+- **Bilingual structure:** the previous heading-ID audit found 17 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
+
