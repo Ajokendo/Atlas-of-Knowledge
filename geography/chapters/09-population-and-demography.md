@@ -639,3 +639,14 @@ Migration is a change in a person's usual place of residence. A trip, daily comm
 
 ---
 **Конец главы 9 / End of Chapter 9**
+
+## Focused scientific and editorial audit record — 5 November 2026
+
+- **Migration measurement:** clarified that administrative flow datasets may count movement events rather than unique people; repeat moves can therefore appear more than once. The unit of count and registration rules must be checked before comparing places or periods.
+- **Flow versus stock:** distinguished arrivals/departures and net migration during a period from migrant stock measured at a specified date; the operational definition (for example, country of birth or citizenship) must be stated.
+- **Worked migration example:** verified 2,400 arrivals minus 1,900 departures = +500; with a mid-year population of 100,000, the net migration rate is +5 per 1,000. RU/EN examples and units agree.
+- **Demographic dependency:** clarified that the age dependency ratio is an age-structure indicator, not a direct measure of actual economic dependency; age bands and denominator must be stated.
+- **Urban statistics:** retained the distinction between the UN Degree of Urbanization and national definitions of urban/rural areas; do not combine unlike statistical units without explanation.
+- **Visual production:** checked six unique bilingual visual IDs and briefs, including data-source provenance, migration and density mapping. All remain placeholders.
+- **Bilingual structure:** the previous heading-ID audit found 18 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
+
