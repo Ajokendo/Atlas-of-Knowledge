@@ -83,6 +83,10 @@ const Pu = M.PUSH;
 const simpson = (fn, a, b, n = 2000) => { const hh = (b - a) / n; let s = fn(a) + fn(b); for (let i = 1; i < n; i++) s += (i % 2 ? 4 : 2) * fn(a + i * hh); return s * hh / 3; };
 check('push: ∫F dx (numeric) = closed form, 5/6 F0 L', [0.7, 1.9, Pu.L].every(x => near(simpson(M.pushF, 0, x), M.pushW(x), 1e-10)) && near(Pu.W, 5 / 6 * Pu.F0 * Pu.L), `${Pu.W.toFixed(2)} J`);
 check('push: strip sums close in on the integral', Math.abs(M.pushStrips(6) - Pu.W) > Math.abs(M.pushStrips(64) - Pu.W) && near(M.pushStrips(2000), Pu.W, 1e-6), `6 strips ${M.pushStrips(6).toFixed(2)} J, 64 strips ${M.pushStrips(64).toFixed(3)} J`);
+
+check('push: force curve starts at F0, peaks at L/4, and falls to zero at L', near(M.pushF(0), Pu.F0) && near(M.pushF(Pu.L / 4), 1.125 * Pu.F0) && near(M.pushF(Pu.L), 0) && [0, 0.25, 0.5, 0.75, 1].every(u => M.pushF(u * Pu.L) >= 0), `F(0) ${M.pushF(0).toFixed(1)} N, F(L/4) ${M.pushF(Pu.L / 4).toFixed(1)} N, F(L) ${M.pushF(Pu.L).toFixed(1)} N`);
+check('push: midpoint-strip values match independent numerical benchmarks', near(M.pushStrips(6), 40.2222222222, 1e-9) && near(M.pushStrips(64), 40.001953125, 1e-9) && near(M.pushStrips(2000), 40.000002, 1e-8), '6: 40.2222 J; 64: 40.00195 J; 2000: 40.000002 J');
+check('push: exact work and first-half work match the integrated polynomial', near(Pu.W, 40) && near(M.pushW(Pu.L / 2), 26) && near(M.pushW(Pu.L) - M.pushW(Pu.L / 2), 14), 'total 40 J; first half 26 J; second half 14 J');
 check('push: W = ΔK along the way (RK4)', [0.3, 0.8, Pu.tL - 1e-6, Pu.run].every(t => near(M.push(t).W, M.push(t).K, 1e-7)), `v_f ${Pu.vf.toFixed(3)} m/s`);
 check('push: m dv/dt = F(x), dx/dt = v', [0.25, 0.9].every(t => near(Pu.m * d(M.push, t, 'v'), M.push(t).F, 1e-4) && near(d(M.push, t, 'x'), M.push(t).v, 1e-6)));
 check('push: reaches x = L with v = √(2W/m), then coasts', near(M.push(Pu.tL).x, Pu.L, 1e-8) && near(Pu.vf, Math.sqrt(2 * Pu.W / Pu.m), 1e-8) && near(M.push(Pu.run).x, Pu.L + Pu.coast, 1e-8));
