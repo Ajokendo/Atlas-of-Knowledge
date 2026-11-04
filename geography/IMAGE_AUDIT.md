@@ -14,7 +14,7 @@ This file is the Geography audit required by policy v1.1. It records the IDs tha
 
 The atlas-wide source relationship and complete source-work inventory are not yet established. Determine provenance asset by asset. Record original work, creator/rightsholder, edition/version, source location, inheritance relationship, changes and the permission/licence for actual reproduction and adaptation. Classify A — Original reuse, B — Adapted or C — Created separately from rights status. Mark unknown values Unknown / PENDING. Do not infer authorship or permission from repository ownership, public availability or prior integration. Do not repeat discovery searches for an identifiable unchanged inherited visual solely to satisfy image-first; verify lineage, rights, scientific meaning, localisation, accessibility and rendering. Search for a replacement when an asset is missing, unsuitable, inaccurate, inaccessible, rights-restricted or needs replacement. Translating surrounding captions/alt text alone does not change the visual category; translating embedded labels or substantively editing the visual is adaptation.
 
-Source-work coverage is provisional because detailed IMAGE_SOURCES records currently cover Chapters 01–02 only. Chapters 03–26 are not source-verified by the existence of IDs or briefs.
+Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–04 (with unresolved creator/licence fields for project-local SVGs) and one MISSING gap record for Chapter 09-G. Chapter 05 has its separate visual register; its full source-register migration is still pending. Chapters 06–08 and 10–26 are not source-verified by the existence of IDs or briefs.
 
 ## 3. Geography-specific checks
 
@@ -349,7 +349,7 @@ Do not treat the above as an atlas-wide completion percentage.
 ## 8. Evidence inspected
 
 - VISUAL_ASSET_REGISTER.md — 231-ID inventory and existing integration claims.
-- IMAGE_SOURCES.md — detailed source records for Chapters 01–02; Chapters 03–26 remain to be completed.
+- IMAGE_SOURCES.md — detailed records for Chapters 01–04 plus the Chapter 09-G missing-asset record; remaining chapters still need per-asset provenance records.
 - EDITORIAL_STANDARD_ADOPTION.md — previous editorial adoption record, now extended with v1.1 adoption and Geography checks.
 - EDITORIAL_READINESS_MATRIX.md — chapter checkpoints and known technical-QA limitations.
 - visuals/chapter-05-visual-register.md — detailed Chapter 05 integration/pending list.
