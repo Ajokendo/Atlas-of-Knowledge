@@ -40,3 +40,5 @@ jobs:
           exit 1
       - name: Test Chapter 1 kinematics on desktop and mobile viewports
         run: node original-engine/browser-smoke.mjs
+      - name: Test Chapter 4 work and energy on desktop and mobile viewports
+        run: node original-engine/work-energy-smoke.mjs
