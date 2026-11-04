@@ -1,8 +1,8 @@
 # Глава 4. Рельеф Земли
 # Chapter 4. Earth's Landforms and Relief
 
-> **Статус:** текстовый научный и редакторский аудит завершён (100%). Основной текст RU/EN, сводные материалы, практические задания, терминология, численные примеры и библиография прошли финальную сверку. Иллюстрации пока представлены текстовыми заданиями; их производство и утверждение, финальная вёрстка и технические проверки остаются отдельными задачами.
-> **Status:** Textual scientific and editorial audit complete (100%). The RU/EN teaching text, summaries, practical assignments, terminology, numerical examples and bibliography have passed the final review. Illustrations remain production briefs; artwork creation and approval, final layout and technical checks are separate outstanding tasks.
+> **Статус:** текстовая научно-редакторская проверка завершена (100%); все 16 визуальных ID встроены в русскую и английскую части, включая двуязычный ключ к расчётному заданию по топографической карте. Финальное утверждение научных подписей и иллюстраций, вёрстка и отдельные браузерные/устройственные проверки остаются этапами контроля выпуска.
+> **Status:** Textual scientific/editorial audit complete (100%); all 16 visual IDs are integrated in both Russian and English sections, including a bilingual worked key for the topographic-map calculation task. Final scientific/editorial approval of artwork and captions, layout, and separate browser/device checks remain release-QA tasks.
 > **Языки:** русский / English.
 
 ## Введение / Introduction
