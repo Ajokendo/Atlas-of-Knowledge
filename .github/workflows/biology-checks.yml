@@ -38,3 +38,11 @@ jobs:
           python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/atlas-http.log 2>&1 &
       - name: Test every Biology page in Chromium
         run: node biology/browser-smoke.mjs
+      - name: Upload visual-review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: biology-visual-review
+          path: artifacts/biology-visual-review/
+          if-no-files-found: warn
+          retention-days: 7
