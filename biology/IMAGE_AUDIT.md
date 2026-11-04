@@ -264,3 +264,16 @@ Three accessibility metadata gaps were corrected:
 Other checked concepts included animal-cell organelles and not-to-scale caveat; G1/S/G2/M sequence and checkpoints; distinction between mitosis and cytokinesis; homologous forelimbs versus analogous bird/insect wings; insect versus arachnid body plans; and the bounded 2026 Batken marmot survey figure (4,146 recorded, not a permanent population estimate). No additional scientific correction was made where source markup already conveyed the necessary distinction.
 
 These were source-markup checks, not rendered visual QA. Global Image Verification remains **Pending audit**.
+
+
+## Biology SVG bilingual metadata and concept review — 5 November 2026
+
+A source-level review covered the remaining 26 generated SVG assets: `anatomy-circulation.svg`, `anatomy-homeostasis.svg`, `anatomy-systems.svg`, `biochem-enzyme.svg`, `biochem-molecules.svg`, `biochem-respiration.svg`, `biology-cover.svg`, `botany-anatomy.svg`, `botany-flower.svg`, `botany-transport.svg`, `fauna-birds-habitats.svg`, `fauna-freshwater-habitats.svg`, `fauna-issyk-habitats.svg`, `fauna-jalalabad-western-tien-shan.svg`, `fauna-naryn-highland-habitats.svg`, `flora-altitude.svg`, `flora-batken-aygul.svg`, `flora-chuy-vegetation-zones.svg`, `genetics-dna-packaging.svg`, `microbe-compare.svg`, `microbe-resistance.svg`, `microbe-virus-cycle.svg`, `systematics-domains.svg`, `systematics-ranks.svg`, `systematics-tree.svg` and `zoology-anatomy.svg`.
+
+Six bilingual accessibility metadata gaps were corrected:
+- `botany-anatomy.svg`, `botany-flower.svg` and `botany-transport.svg`: added English counterparts to Russian-only descriptions.
+- `fauna-birds-habitats.svg`, `fauna-freshwater-habitats.svg` and `fauna-naryn-highland-habitats.svg`: added Russian counterparts to English-only titles and descriptions.
+
+Conceptual source checks included circulation pathways and oxygenation labels; negative-feedback thermoregulation; enzyme-substrate framing; biomolecule distinctions (including the non-polymer nature of many lipids); cellular respiration compartmentation and proton movement; pollination versus fertilization; xylem/phloem transport; separation of bird, lake and mountain habitats; generic rather than species-identified freshwater fish; conceptual vegetation belts; DNA packaging; antimicrobial selection rather than directed adaptation; viral replication variability; cellular domains versus viruses; taxonomy ranks; and phylogenetic clade/branch-rotation interpretation.
+
+No further proven scientific error was established from the source markup in this batch. This is not rendered-image inspection, pixel-level review, independent specialist certification, or a legal licence audit. Global Image Verification remains **Pending audit**.
