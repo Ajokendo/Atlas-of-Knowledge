@@ -148,6 +148,19 @@ export function startBook(chapter) {
     // The empty option is also the keyboard-accessible way to dismiss a breakdown.
     select(scenePicker.value || null, true);
   });
+  // A native select may restore focus after its change handler. The keyup event
+  // occurs after Enter has committed the option, so make one final focus handoff.
+  scenePicker.addEventListener('keyup', event => {
+    if (event.key !== 'Enter' || !scenePicker.value) return;
+    const focusExplanation = () => {
+      const plate = $('plate');
+      const active = document.activeElement;
+      if (plate.hidden || (active !== scenePicker && active !== document.body && active !== document.documentElement)) return;
+      plate.querySelector('#scene-plate-title')?.focus({ preventScroll: true });
+    };
+    requestAnimationFrame(focusExplanation);
+    setTimeout(focusExplanation, 0);
+  });
 
   // Dynamic readouts change every frame, so do not put the readout itself in a live region.
   // Offer an explicit, on-demand announcement instead.
