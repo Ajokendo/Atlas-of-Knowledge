@@ -554,8 +554,8 @@ For precipitation, both absolute millimetres and the percentage of normal can be
 6. Погода описывает краткосрочное состояние атмосферы, климат — её статистические характеристики на длительном интервале.
 7. Климатообразующие факторы включают широту, высоту, океаны, рельеф и циркуляцию.
 8. Климатические аномалии следует сравнивать относительно согласованной нормы и сопоставимых периодов наблюдений.
-8. Современное глобальное потепление преимущественно обусловлено деятельностью человека.
-9. Метеорологические наблюдения и модели лежат в основе прогнозирования погоды и оценки климатических изменений.
+9. Современное глобальное потепление преимущественно обусловлено деятельностью человека.
+10. Метеорологические наблюдения и модели лежат в основе прогнозирования погоды и оценки климатических изменений.
 
 ## Контрольные вопросы / Review Questions
 
@@ -588,7 +588,10 @@ For precipitation, both absolute millimetres and the percentage of normal can be
 
 Дополнительное задание: по синоптической карте определите положение циклона, антициклона и фронтов, затем опишите вероятное изменение погоды.
 
-**Место для иллюстрации 5.18-A — Synoptic Map and Climate Analysis.** Учебная синоптическая карта с фронтами, изобарами, ветровыми стрелками и двумя климатограммами; данные должны быть учебными или снабжёнными проверяемым источником.
+**[МЕСТО ДЛЯ ИЛЛЮСТРАЦИИ 5.18-A / VISUAL PLACEHOLDER — ВСТАВИТЬ ПОСЛЕ СОЗДАНИЯ]**  
+**5.18-A. Синоптическая карта и климатический анализ / Synoptic Map and Climate Analysis.** Вставить двуязычную учебную инфографику: синоптическая карта с замкнутыми изобарами и значениями давления в гПа, центрами циклона и антициклона, холодным и тёплым фронтами с корректными условными знаками, направлением ветра и станционными символами; ниже — две климатограммы с месячными осадками (мм) и температурой (°C). Все данные должны быть явно обозначены как условные учебные данные; карта не является оперативной сводкой и не предназначена для прогноза реальной погоды.  
+**[VISUAL INSERTION POINT 5.18-A / INSERT AFTER CREATION]**  
+**5.18-A. Synoptic Map and Climate Analysis.** Insert the bilingual teaching infographic: a synoptic chart with closed isobars and pressure values in hPa, cyclone and anticyclone centres, correctly coded cold and warm fronts, wind direction and station models; below it, two climate graphs showing monthly precipitation (mm) and temperature (°C). Clearly label all data as synthetic teaching data; the chart is not an operational bulletin and must not be used to forecast actual weather.
 
 ## English-language chapter text
 
@@ -909,8 +912,8 @@ When analysing a climate graph:
 6. Weather describes the short-term state of the atmosphere; climate describes its long-term statistical characteristics.
 7. Climate controls include latitude, elevation, oceans, relief and circulation.
 8. Climate anomalies should be compared against a stated normal using comparable observation periods.
-8. Modern global warming is primarily caused by human activity.
-9. Meteorological observations and models underpin weather forecasting and climate assessment.
+9. Modern global warming is primarily caused by human activity.
+10. Meteorological observations and models underpin weather forecasting and climate assessment.
 
 ### Review Questions
 
@@ -940,6 +943,9 @@ Using two sets of climate data:
 - state the limitations of conclusions based on one weather station.
 
 Additional task: use a synoptic chart to locate a cyclone, anticyclone and fronts, then describe the likely change in weather.
+
+**[VISUAL PLACEHOLDER 5.18-A — INSERT AFTER CREATION]**  
+**5.18-A. Synoptic Map and Climate Analysis.** Insert the bilingual teaching infographic here: a synoptic chart with closed isobars and pressure values in hPa, cyclone and anticyclone centres, correctly coded cold and warm fronts, wind direction and station models; below it, two climate graphs showing monthly precipitation (mm) and temperature (°C). Clearly label all data as synthetic teaching data; the chart is not an operational bulletin and must not be used to forecast actual weather.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
