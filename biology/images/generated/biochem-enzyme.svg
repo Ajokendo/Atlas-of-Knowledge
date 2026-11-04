@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Работа фермента / Enzyme action</title>
+<desc id="desc">Схема связывания субстрата активным центром, образования комплекса фермент–субстрат и высвобождения продуктов; enzyme binds substrate, forms a complex and releases products.</desc>
+<defs>
+ <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#405d78"/></marker>
+ <style>
+ .h{font:700 28px Arial,sans-serif;fill:#18334b}.sub{font:20px Arial,sans-serif;fill:#35536b}
+ .label{font:700 23px Arial,sans-serif;fill:#18334b}.small{font:18px Arial,sans-serif;fill:#35536b}
+ .enzyme{fill:#b8d5e8;stroke:#356887;stroke-width:5}.substrate{fill:#e9b65c;stroke:#9a6419;stroke-width:4}
+ .product{fill:#9ac7a5;stroke:#36764a;stroke-width:4}.arrow{stroke:#405d78;stroke-width:5;fill:none;marker-end:url(#arrow)}
+ .panel{fill:#f6f9fb;stroke:#c7d6e0;stroke-width:2}
+ </style>
+</defs>
+<rect width="1200" height="800" rx="24" fill="#fff"/>
+<text x="600" y="54" text-anchor="middle" class="h">Как работает фермент / How an enzyme works</text>
+<text x="600" y="88" text-anchor="middle" class="sub">Схема процесса, не молекулярная структура / Process schematic, not a molecular structure</text>
+<g transform="translate(35 125)">
+ <rect class="panel" width="350" height="570" rx="20"/>
+ <text x="175" y="48" text-anchor="middle" class="label">1. Связывание / Binding</text>
+ <path class="enzyme" d="M65 245 C35 190 75 125 140 135 C170 90 245 112 258 164 C325 175 328 255 280 282 C252 315 200 300 180 275 C155 315 90 305 65 245Z"/>
+ <path d="M165 135 C180 170 210 170 225 145" fill="none" stroke="#356887" stroke-width="6" stroke-linecap="round"/>
+ <path class="substrate" d="M175 85 L205 65 L235 85 L235 118 L205 138 L175 118Z"/>
+ <path class="arrow" d="M205 145 L205 178"/>
+ <text x="175" y="360" text-anchor="middle" class="small">Субстрат подходит</text>
+ <text x="175" y="386" text-anchor="middle" class="small">к активному центру</text>
+ <text x="175" y="412" text-anchor="middle" class="small">Substrate fits the</text>
+ <text x="175" y="438" text-anchor="middle" class="small">active site</text>
+ <text x="175" y="510" text-anchor="middle" class="small">Фермент не расходуется</text>
+ <text x="175" y="536" text-anchor="middle" class="small">The enzyme is not consumed</text>
+</g>
+<path class="arrow" d="M395 410 L425 410"/>
+<g transform="translate(425 125)">
+ <rect class="panel" width="350" height="570" rx="20"/>
+ <text x="175" y="48" text-anchor="middle" class="label">2. Комплекс / Complex</text>
+ <path class="enzyme" d="M65 245 C35 190 75 125 140 135 C170 90 245 112 258 164 C325 175 328 255 280 282 C252 315 200 300 180 275 C155 315 90 305 65 245Z"/>
+ <path class="substrate" d="M165 133 L195 113 L225 133 L225 166 L195 186 L165 166Z"/>
+ <text x="175" y="360" text-anchor="middle" class="small">Фермент стабилизирует</text>
+ <text x="175" y="386" text-anchor="middle" class="small">переходное состояние</text>
+ <text x="175" y="412" text-anchor="middle" class="small">The enzyme stabilises</text>
+ <text x="175" y="438" text-anchor="middle" class="small">the transition state</text>
+ <text x="175" y="510" text-anchor="middle" class="small">Энергия активации ниже</text>
+ <text x="175" y="536" text-anchor="middle" class="small">Lower activation energy</text>
+</g>
+<path class="arrow" d="M785 410 L815 410"/>
+<g transform="translate(815 125)">
+ <rect class="panel" width="350" height="570" rx="20"/>
+ <text x="175" y="48" text-anchor="middle" class="label">3. Высвобождение / Release</text>
+ <path class="enzyme" d="M65 245 C35 190 75 125 140 135 C170 90 245 112 258 164 C325 175 328 255 280 282 C252 315 200 300 180 275 C155 315 90 305 65 245Z"/>
+ <path class="product" d="M145 105 L170 88 L195 105 L195 132 L170 149 L145 132Z"/>
+ <path class="product" d="M225 72 L250 55 L275 72 L275 99 L250 116 L225 99Z"/>
+ <path class="arrow" d="M200 150 L215 185"/>
+ <text x="175" y="360" text-anchor="middle" class="small">Продукты покидают</text>
+ <text x="175" y="386" text-anchor="middle" class="small">активный центр</text>
+ <text x="175" y="412" text-anchor="middle" class="small">Products leave</text>
+ <text x="175" y="438" text-anchor="middle" class="small">the active site</text>
+ <text x="175" y="510" text-anchor="middle" class="small">Фермент может работать снова</text>
+ <text x="175" y="536" text-anchor="middle" class="small">The enzyme can act again</text>
+</g>
+<text x="600" y="750" text-anchor="middle" class="small">Форма активного центра может немного изменяться при связывании / The active site may adjust shape during binding</text>
+</svg>
