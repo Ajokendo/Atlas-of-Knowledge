@@ -119,3 +119,11 @@ The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 an
 - **Chapter 02, crustal age:** revised the table to distinguish the age of rare preserved ancient continental rocks from the age of continental crust as a whole. Added USGS sources on oceanic-crust recycling and the limits of preserved primordial rocks; the text now explains that oceanic crust forms at mid-ocean ridges and is recycled at subduction zones.
 - **Chapter 02, plate-boundary processes:** replaced a broad list of associated landforms and hazards with a bilingual explanation distinguishing divergent spreading, oceanic subduction, continental collision and transform motion. Added a note that deformation can be distributed across broad boundary zones and that intraplate earthquakes also occur. The source note avoids presenting mantle convection as the single settled driver: USGS describes mantle flow, ridge push and slab pull while acknowledging that details remain under study.
 - **Scope limitation:** these are targeted checks of the named claims, not a complete source-by-source scientific audit of either chapter. No image has been approved or embedded for Chapters 01–02, and no browser/mobile/deployment test is claimed.
+
+
+### Chapter 02 — planetary boundaries update — 4 November 2026
+
+- Expanded section 2.14.1 in Russian and English to clarify that planetary boundaries are a global scientific risk framework, not a ready-made set of local or national legal standards; applying the framework below global scale requires appropriate regional data and methods.
+- Added the dated finding from *Planetary Health Check 2025*: seven of nine boundaries assessed as transgressed, with ocean acidification included among the transgressed boundaries for the first time in that assessment. The text explicitly warns that status is assessment-year- and method-dependent.
+- Added the 2025 report (Sakschewski et al., DOI 10.48485/PIK.2025.017) and the Stockholm Resilience Centre framework page to the chapter bibliography. The visual brief now requires source and assessment year wherever status is displayed.
+- Scope: targeted update and source alignment; not a full audit of all global-change indicators. Chapter 02 visual remains a brief only, not an integrated image.
