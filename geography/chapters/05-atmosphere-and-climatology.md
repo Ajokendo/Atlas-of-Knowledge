@@ -207,11 +207,14 @@
 - дождь;
 - морось;
 - снег;
-- мокрый снег;
+- дождь со снегом (мокрый снег);
+- ледяные крупинки;
 - ледяной дождь;
 - град.
 
-Осадки измеряют осадкомерами и другими приборами. Количество осадков обычно выражают в миллиметрах водного слоя.
+Английский термин *sleet* употребляется неодинаково в разных странах: в США обычно означает ледяные крупинки, а в Великобритании может означать смесь дождя и снега. Поэтому в учебном тексте точнее называть вид осадков, а не полагаться только на этот термин.
+
+Осадки измеряют осадкомерами и другими приборами. Их количество обычно выражают в миллиметрах водного эквивалента: твёрдые осадки при необходимости растапливают и измеряют полученную воду. Высоту свежевыпавшего снега измеряют отдельно, поскольку она зависит от плотности и структуры снежного покрова.
 
 ### 5.7.3. Орографические осадки / Orographic Precipitation
 
@@ -225,7 +228,7 @@
 
 **Воздушная масса** — крупный объём воздуха с относительно однородными характеристиками температуры и влажности, сформировавшийся над определённым районом.
 
-Воздушные массы классифицируют по широте источника и характеру подстилающей поверхности, например арктические, полярные, тропические, континентальные и морские. Терминология и классификационные схемы могут различаться между метеорологическими школами.
+Воздушные массы обычно обозначают сочетанием двух характеристик: широты района формирования (например, арктические, полярные или тропические) и типа подстилающей поверхности (континентальные или морские). Поэтому корректные примеры — континентальная полярная или морская тропическая воздушная масса. Конкретные названия и границы классов могут различаться между метеорологическими классификациями.
 
 **Атмосферный фронт** — наклонная переходная зона между воздушными массами с различающимися температурой, влажностью и плотностью; на приземной синоптической карте её положение показывают условной линией.
 
@@ -346,11 +349,17 @@
 
 ### 5.14.2. Сильный ветер и штормы / High Winds and Storms
 
-Штормовые ветры могут быть связаны с циклонами, фронтами, грозовыми системами и местными эффектами рельефа. Тропические циклоны возникают над достаточно тёплыми океаническими водами при благоприятных атмосферных условиях; их региональные названия различаются.
+Штормовые ветры могут быть связаны с циклонами, фронтами, грозовыми системами и местными эффектами рельефа. Тропические циклоны обычно развиваются над достаточно тёплой океанической водой (ориентировочно от 26,5–27 °C на достаточной глубине) при сочетании нескольких условий: влажного воздуха в средней тропосфере, неустойчивости для развития гроз, начального атмосферного возмущения, слабого вертикального сдвига ветра и достаточного удаления от экватора для действия силы Кориолиса. Один лишь тёплый океан не гарантирует образования циклона. В разных регионах такие системы называют ураганами, тайфунами или тропическими циклонами.
 
 ### 5.14.3. Засухи и волны жары / Droughts and Heatwaves
 
-Засуха — длительный дефицит воды относительно климатических условий территории. Различают метеорологическую, сельскохозяйственную, гидрологическую и социально-экономическую засуху.
+Засуха — продолжительный дефицит влаги или доступной воды относительно обычных условий территории. Различают несколько взаимосвязанных видов:
+- **метеорологическая** — длительный дефицит осадков относительно нормы;
+- **сельскохозяйственная** — недостаток влаги в почве, влияющий на растения и урожай;
+- **гидрологическая** — снижение запасов воды в реках, озёрах, водохранилищах и подземных водах;
+- **социально-экономическая** — ситуация, когда дефицит воды нарушает обеспечение населения и хозяйства и приводит к несоответствию спроса и доступного предложения.
+
+Эти виды могут развиваться последовательно, но не обязательно одновременно: последствия зависят от сезона, почв, водохранилищ, управления водой и уязвимости территории.
 
 Волна жары — период аномально высоких температур, определяемый относительно местного климата и принятого порога. Универсального температурного значения для всех регионов нет.
 
@@ -360,7 +369,7 @@
 
 ### 5.14.5. Туман и пыльные бури / Fog and Dust Storms
 
-Туман снижает видимость и опасен для транспорта. Пыльные и песчаные бури возникают при подъёме частиц сильным ветром на сухих и слабо защищённых поверхностях.
+Туман — скопление мельчайших капель воды, а при подходящих условиях и ледяных кристаллов у поверхности земли, которое снижает горизонтальную видимость менее чем до 1 км. Он может возникать, когда воздух охлаждается до точки росы или когда его влажность возрастает до насыщения. Пыльные и песчаные бури возникают, когда ветер поднимает частицы с сухой, рыхлой и слабо защищённой поверхности; они ухудшают видимость и могут быть опасны для здоровья.
 
 **Иллюстрация 5.14-A — Atmospheric Hazards / Опасные атмосферные явления.**
 
@@ -532,6 +541,28 @@ These values describe the annual cycles of temperature and precipitation, but th
 **Учебное задание.** Для трёх станций рассчитайте температурные аномалии одного и того же месяца относительно нормы каждой станции, используя общий базовый период (например, 1991–2020). Сравните знаки и величины отклонений. Затем объясните, почему один месяц не доказывает климатический тренд и какие данные нужны для оценки многолетнего изменения.
 
 Для оперативного описания современных условий обычно используют актуальную стандартную норму 1991–2020. В исследованиях долгосрочного изменения климата может применяться фиксированный базовый период 1961–1990, чтобы сравнения разных лет оставались привязаны к одной и той же исходной точке. Выбор зависит от задачи; базовый период всегда нужно указывать.
+
+*Источники:* ВМО, *Руководство по расчёту климатических норм* (WMO-No. 1203, 2017); ВМО, *Руководство по гомогенизации* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
+
+### 5.18.1. Как сравнивать климатические аномалии / Comparing Climate Anomalies
+
+Абсолютные значения температуры и осадков не всегда подходят для сравнения разных мест. Температура +5 °C может быть обычной для одного месяца и необычно высокой для другого района или сезона. Поэтому климатологи используют **аномалию** — отклонение наблюдаемого значения от выбранной климатической нормы.
+
+Для температуры простая аномалия рассчитывается так:
+
+`Аномалия = наблюдаемая температура − климатическая норма`
+
+Если средняя температура месяца составила +8 °C, а норма для того же месяца и станции равна +5 °C, аномалия составляет +3 °C. Это не означает, что каждый день был на 3 °C теплее: речь идёт о разнице месячных средних.
+
+**Сопоставимость обязательна.** Норма должна относиться к той же станции или корректно сопоставимой территории, тому же календарному периоду и явно указанному базовому интервалу. Изменения расположения станции, приборов или окружающей застройки могут создавать неоднородности; для долгосрочного анализа применяют контроль качества и гомогенизацию.
+
+Для осадков полезны как абсолютные значения в миллиметрах, так и процент от нормы. Однако относительное отклонение становится неустойчивым, если обычное количество осадков очень мало. В таких случаях лучше приводить абсолютную разницу и пояснять сезонный контекст.
+
+**Почему это важно для гор Кыргызстана.** Нельзя напрямую сравнивать аномалию высокогорной станции с абсолютной температурой в долине и делать вывод о пространственной картине потепления. Нужны сопоставимые периоды, высотный контекст, качество наблюдений и достаточно плотная сеть станций. Межгодовая изменчивость не равна долгосрочному тренду.
+
+**Учебное задание.** Рассчитайте температурные аномалии для трёх станций за один и тот же месяц, используя норму каждой станции и общий базовый период (например, 1991–2020). Сравните знаки и величины отклонений. Объясните, почему один месяц не доказывает климатический тренд и какие данные нужны для оценки многолетнего изменения.
+
+Для описания современных условий обычно используют актуальную стандартную норму 1991–2020. В исследованиях долгосрочного изменения климата может применяться фиксированный базовый период 1961–1990, чтобы сравнения разных лет оставались привязаны к одной исходной точке. Выбор зависит от задачи; базовый период всегда нужно указывать.
 
 *Источники:* ВМО, *Руководство по расчёту климатических норм* (WMO-No. 1203, 2017); ВМО, *Руководство по гомогенизации* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
 
@@ -750,7 +781,9 @@ The altitude boundaries vary with latitude and atmospheric conditions. A cloud g
 
 Cloud families are commonly described by their appearance and altitude and include cirrus, stratus, cumulus, cumulonimbus and mid-level cloud types.
 
-Precipitation includes rain, drizzle, snow, sleet, freezing rain and hail. The type reaching the surface depends on the temperature and moisture profile through the atmospheric column.
+Precipitation includes rain, drizzle, snow, a rain-and-snow mix, ice pellets, freezing rain and hail. The type reaching the surface depends on the temperature profile through the atmospheric column. The term *sleet* is used differently in different English-speaking countries, so naming the specific precipitation type avoids ambiguity.
+
+Precipitation amount is generally reported in millimetres of liquid-water equivalent. Solid precipitation can be melted before measurement; snow depth is measured separately because it depends on snow density and structure.
 
 **Orographic precipitation** occurs when moist air is forced to rise over mountains. Rising air cools and may produce clouds and precipitation on windward slopes. Leeward slopes may be drier because of the rain-shadow effect, although the pattern depends on wind direction, moisture supply and local relief.
 
@@ -857,10 +890,10 @@ Mitigation measures include increasing green space, creating shaded public areas
 Atmospheric phenomena may threaten health, infrastructure, agriculture and transport.
 
 - **Thunderstorms, lightning and hail:** thunderstorms are associated with strong updrafts and cumulonimbus clouds. Lightning can be dangerous even outside the area of heaviest precipitation. Hail forms when ice particles are repeatedly carried through strong updrafts.
-- **High winds and storms:** storm winds may be associated with cyclones, fronts, thunderstorm systems and local relief effects. Tropical cyclones form over sufficiently warm ocean water under favourable atmospheric conditions; their regional names differ.
-- **Droughts and heatwaves:** drought is a prolonged water deficit relative to local climatic conditions. Meteorological, agricultural, hydrological and socio-economic droughts are distinguished. A heatwave is a period of unusually high temperatures defined relative to local climate and an adopted threshold; there is no single universal temperature threshold for all regions.
+- **High winds and storms:** storm winds may be associated with cyclones, fronts, thunderstorm systems and local relief effects. Tropical cyclones generally develop over sufficiently warm ocean water (roughly 26.5–27°C through an adequate depth) when several conditions coincide: moist air in the middle troposphere, an atmosphere favourable to deep convection, a pre-existing disturbance, weak vertical wind shear and sufficient distance from the equator for the Coriolis effect. Warm water alone does not guarantee cyclone formation. Depending on the region, these systems are called hurricanes, typhoons or tropical cyclones.
+- **Droughts and heatwaves:** drought is a prolonged deficit of moisture or available water relative to local conditions. Several related types are distinguished: meteorological drought (a sustained precipitation deficit), agricultural drought (insufficient soil moisture for plants), hydrological drought (reduced water in rivers, lakes, reservoirs or groundwater), and socio-economic drought (when water shortages disrupt people and economic activity or create a mismatch between supply and demand). These types may develop in sequence but do not always occur at the same time. A heatwave is a period of unusually high temperatures defined relative to local climate and an adopted threshold; there is no single universal temperature threshold for all regions.
 - **Heavy snow, blizzards and ice:** heavy snowfall and blizzards reduce visibility, disrupt transport and increase loads on structures. Glaze ice forms when supercooled droplets freeze on cold surfaces.
-- **Fog and dust storms:** fog reduces visibility and creates transport hazards. Dust and sand storms occur when strong winds lift particles from dry, poorly protected surfaces.
+- **Fog and dust storms:** fog is a suspension of tiny water droplets, and sometimes ice crystals, at or near the ground that reduces horizontal visibility to less than 1 km. It can form when air cools to its dew point or when its moisture content increases to saturation. Dust and sand storms occur when wind lifts particles from dry, loose and poorly protected surfaces; they reduce visibility and can harm health.
 
 ### 5.15. Climate Change
 
@@ -951,6 +984,28 @@ When analysing a climate graph:
 
 **Learning activity:** For each diagram, identify the warmest and coldest months, calculate the annual temperature range, find the wettest and driest months, and add the monthly precipitation values. Then compare the seasonal patterns.
 
+### 5.18.1. Comparing Climate Anomalies
+
+Absolute temperature and precipitation values are not always suitable for comparing different places. A temperature of +5 °C may be normal in one month but unusually high in another region or season. Climatologists therefore use an **anomaly**: the difference between an observed value and a selected climate normal.
+
+For temperature, a simple anomaly is:
+
+\`Anomaly = observed temperature − climate normal\`
+
+If a month's mean temperature is +8 °C and the normal for the same month and station is +5 °C, the anomaly is +3 °C. This does not mean every day was 3 °C warmer; it is the difference between monthly means.
+
+**Comparability is essential.** The normal should refer to the same station, or a properly comparable area, the same calendar period and a clearly stated baseline interval. Changes in station location, instruments or surrounding development can introduce inhomogeneities; long-term analysis therefore uses quality control and homogenisation procedures.
+
+For precipitation, both absolute millimetres and the percentage of normal can be useful. However, relative departures become unstable where the normal precipitation amount is very small. In such cases, report the absolute difference and explain the seasonal context.
+
+**Why this matters in the mountains of Kyrgyzstan.** An anomaly at a high-elevation station cannot be directly compared with an absolute temperature in a valley to infer the spatial pattern of warming. Comparable periods, elevation context, observation quality and a sufficiently dense station network are needed. Year-to-year variability is not the same as a long-term trend.
+
+**Learning activity.** Calculate temperature anomalies for three stations for the same month using each station's own normal and a common baseline period (for example, 1991–2020). Compare the signs and sizes of the departures. Then explain why one month cannot establish a climate trend and identify the data needed to assess long-term change.
+
+For describing current conditions, the latest standard normal (1991–2020) is generally used. Long-term climate-change assessments may instead use the fixed 1961–1990 reference period so that comparisons across years retain the same baseline. The appropriate choice depends on the purpose; always state the reference period.
+
+*Sources:* WMO, *Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017); WMO, *Guidelines on Homogenisation* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
+
 ### 5.18.2. Reading a Synoptic Chart
 
 A synoptic chart shows the atmospheric situation over a large area at a specified time. Isobars connect places with the same atmospheric pressure, reduced to mean sea level. The closer the isobars, the stronger the horizontal pressure gradient and, usually, the wind; actual wind speed also depends on friction, stability and terrain. A cyclone is identified by a low-pressure centre and an anticyclone by a high-pressure centre. Front symbols show the type of boundary and its expected direction of movement.
@@ -1033,6 +1088,10 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 17. World Meteorological Organization (WMO). *Updated 30-year reference period reflects changing climate* (2021). https://wmo.int/media/news/updated-30-year-reference-period-reflects-changing-climate
 18. World Meteorological Organization (WMO). *International Cloud Atlas: Manual on the Observation of Clouds and Other Meteors (WMO-No. 407)*. https://cloudatlas.wmo.int/en/home.html
 19. NOAA National Weather Service. *How to read Surface Weather Maps*. https://www.noaa.gov/jetstream/wxmaps
+20. NOAA. *Global Atmospheric Circulations*. https://www.noaa.gov/jetstream/global/global-atmospheric-circulations
+21. NOAA. *How do tropical cyclones form?* https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes
+22. NOAA. *Types of Weather Phenomena* (fog, dust and sand). https://www.noaa.gov/jetstream/synoptic/types-of-weather-phenomena
+23. Beck, H. E. et al. *High-resolution (1 km) Köppen-Geiger maps for 1901–2099 based on constrained CMIP6 projections*. Scientific Data 10, 724 (2023). https://www.nature.com/articles/s41597-023-02549-6
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
