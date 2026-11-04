@@ -443,3 +443,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 10 — scope of current legal claims — 5 November 2026
 
 - Added a bilingual scope statement that the chapter presents general principles and does not assert current legal status for named disputed territories or pending delimitations. Any future country case study must cite primary legal instruments, applicable treaties/agreements and relevant court or tribunal decisions, with date and geographic scope. Commit: `f73567233ea467c5118c5bc5cd7b9c3ccdab10d2`.
+
+
+### Chapter 06 — scope of oceanographic data claims — 5 November 2026
+
+- Documented the source mapping for current numeric/technical claims: USGS global water distribution; TEOS-10 salinity and seawater properties; IHO S-23 ocean/sea limits, S-44 hydrographic surveys, S-102 bathymetric surfaces and S-100 data model; NSIDC glacier basics; NOAA ocean acidification; UNESCO WWDR and USDA watershed water budget. No specific trench-depth or mean-depth measurement is asserted in the current text; future bathymetry maps require product/survey, date, resolution and vertical datum metadata.
