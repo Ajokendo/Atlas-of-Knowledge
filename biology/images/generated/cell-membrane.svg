@@ -68,7 +68,7 @@
 <path d="M300 704 V794" stroke="#286b9b" stroke-width="8" stroke-dasharray="8 7"/>
 <text x="115" y="713" class="small">Больше растворённых</text><text x="115" y="735" class="en">More solute</text>
 <text x="340" y="713" class="small">Меньше растворённых</text><text x="340" y="735" class="en">Less solute</text>
-<path d="M220 760 H385" class="water"/>
+<path d="M385 760 H220" class="water"/>
 <g fill="#286b9b"><circle cx="135" cy="770" r="7"/><circle cx="175" cy="790" r="7"/><circle cx="230" cy="790" r="7"/></g>
 <text x="72" y="824" class="small">Вода движется к более концентрированному раствору</text>
 <!-- active transport -->
