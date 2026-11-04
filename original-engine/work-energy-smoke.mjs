@@ -50,6 +50,13 @@ async function check(viewport, mobile) {
     const missing = required.filter(title => !sectionHeadings.includes(title));
     if (missing.length) throw new Error(`Missing lesson sections: ${missing.join('; ')}`);
 
+    const workDiagram = page.locator('.work-diagram svg');
+    if (await workDiagram.count() !== 1 ||
+        !(await workDiagram.getAttribute('aria-labelledby')) ||
+        !(await page.locator('#work-diagram-caption').innerText()).includes('F cos α')) {
+      throw new Error('Accessible force/displacement diagram is missing or incomplete');
+    }
+
     const controls = page.locator('#p0, #p1, #p2');
     if (await controls.count() !== 3) throw new Error('Expected three energy-model sliders');
     await page.locator('#p0').evaluate(el => { el.value = '4'; el.dispatchEvent(new Event('input', { bubbles: true })); });
@@ -91,6 +98,12 @@ async function check(viewport, mobile) {
     if (lab.width < 100 || lab.height < 100 || !lab.webgl || !lab.accessibleName) {
       throw new Error('3D energy lab canvas is not drawable or lacks an accessible description');
     }
+
+    const phase = page.locator('[data-physics-lab] [data-phase]');
+    await phase.evaluate(el => { el.value = '100'; el.dispatchEvent(new Event('input', { bubbles: true })); });
+    await page.waitForFunction(() =>
+      document.querySelector('[data-physics-lab] [data-physics-formula]')?.textContent.includes('9,81 · 10,00')
+    );
 
     const axe = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
