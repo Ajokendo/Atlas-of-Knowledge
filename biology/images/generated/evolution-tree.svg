@@ -10,7 +10,7 @@
 <path d="M270 485H480L650 285H880M650 285L880 440" class="branch"/>
 <path d="M480 485L650 635L880 575M650 635L880 700" class="branch"/>
 <!-- Highlight the A+B clade -->
-<path d="M270 485H480L650 285L880 285M650 285L880 440" class="highlight"/>
+<path d="M480 485L650 285L880 285M650 285L880 440" class="highlight"/>
 <!-- nodes and terminal tips -->
 <circle cx="270" cy="485" r="14" class="node"/>
 <circle cx="480" cy="485" r="14" class="node"/>
