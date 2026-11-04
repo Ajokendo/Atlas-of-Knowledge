@@ -98,7 +98,7 @@ This is a first-pass map of the currently identified visual need, not a final de
 
 1. Improve targeted searches for records where the first retrospective search did not surface a suitable candidate; retain the exact queries and dated outcomes already recorded. The original pre-creation search sequence remains historically unverifiable.
 2. Confirm creator, authoring method, rightsholder and explicit licence or code/data rights basis for every project-created visual.
-3. Complete the chapter-level learning-need sign-off. Chapter 01 electron-cloud placement is integrated but still needs manual checks. Chapter 03 needs a bilingual periodic-trends visual covering atomic radius, first ionisation energy and electronegativity, with explicit scope/exception notes. The static visual coverage ratio is inventory-only, not curriculum completeness.
+3. Complete the chapter-level learning-need sign-off. Chapter 01 electron-cloud placement is integrated but still needs manual checks. Chapter 03 has a visible bilingual placeholder in `periodic-table.html`; the actual periodic-trends illustration remains PENDING due to the image-generation limit. It must cover atomic radius, first ionisation energy and electronegativity, with explicit scope/exception notes. The static visual coverage ratio is inventory-only, not curriculum completeness.
 4. Perform manual inspection at phone/tablet/desktop widths, zoom/reflow, keyboard and screen-reader checks. CI does not establish these.
 5. Re-run Chemistry CI after the register and checks changes; update metrics only from actual results.
 
