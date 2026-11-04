@@ -63,6 +63,7 @@ async function runDynamic(mobile) {
     if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
     await page.waitForSelector('#sheet h1');
     await page.waitForFunction(() => document.querySelector('#gl')?.width > 100);
+    await page.waitForFunction(() => window.__atlas && document.querySelector('#readout')?.textContent.trim().length > 0);
     
     await page.waitForTimeout(350);
     const before = await page.locator('#readout').innerText();
