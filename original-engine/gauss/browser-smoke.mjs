@@ -163,7 +163,8 @@ async function checkInteractiveBook(mobile) {
     if (!(await page.locator('#plate').evaluate(el => el.hidden))) throw new Error('empty picker option did not close the scene explanation');
 
     const announce = page.locator('.readout-announce');
-    await announce.click();
+    await announce.focus();
+    await announce.press('Enter');
     await page.waitForFunction(() => document.querySelector('#readout-announcement')?.textContent?.includes('Текущие значения'));
     if (!(await page.locator('#readout-announcement').innerText()).includes('Текущие значения')) {
       throw new Error('current model values were not announced on demand');
