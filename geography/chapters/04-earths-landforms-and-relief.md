@@ -1,8 +1,8 @@
 # Глава 4. Рельеф Земли
 # Chapter 4. Earth's Landforms and Relief
 
-> **Статус:** аудит главы в процессе (95%); завершена построчная научная и редакторская проверка основного текста, сводных материалов и двуязычных иллюстрационных заданий. Иллюстрации пока представлены текстовыми заданиями, финальная вёрстка и технические проверки впереди.
-> **Status:** Chapter audit in progress (95%); the main text, summaries and bilingual illustration briefs have undergone a line-by-line scientific and editorial review. Artwork, final layout and technical checks remain outstanding.
+> **Статус:** текстовый научный и редакторский аудит завершён (100%). Основной текст RU/EN, сводные материалы, практические задания, терминология, численные примеры и библиография прошли финальную сверку. Иллюстрации пока представлены текстовыми заданиями; их производство и утверждение, финальная вёрстка и технические проверки остаются отдельными задачами.
+> **Status:** Textual scientific and editorial audit complete (100%). The RU/EN teaching text, summaries, practical assignments, terminology, numerical examples and bibliography have passed the final review. Illustrations remain production briefs; artwork creation and approval, final layout and technical checks are separate outstanding tasks.
 > **Языки:** русский / English.
 
 ## Введение / Introduction
@@ -806,7 +806,7 @@ Using a prepared teaching map excerpt:
 14. British Geological Survey. *Landforms*. https://www.bgs.ac.uk/discovering-geology/geological-processes/landforms/
 15. U.S. National Park Service. *Glaciers and Glacial Landforms*. https://www.nps.gov/subjects/geology/glacial-landforms.htm
 16. U.S. Geological Survey. *Geomorphology, Sediment, and Habitat*. https://www.usgs.gov/centers/washington-water-science-center/science/science-topics/geomorphology-sediment-and-habitat
-17. U.S. Geological Survey. *Landslide Types and Processes*. https://pubs.usgs.gov/fs/2004/3072/fs-2004-3072.html
+17. Highland, L. (2004). *Landslide Types and Processes*. U.S. Geological Survey Fact Sheet 2004–3072. Official publication record and DOI: https://doi.org/10.3133/fs20043072
 18. U.S. National Park Service. *Mass Wasting*. https://www.nps.gov/subjects/erosion/mass-wasting.htm
 19. National Geographic Society. *Weathering*. https://education.nationalgeographic.org/resource/weathering/
 20. U.S. National Park Service. *Plateaus and Mesas*. https://www.nps.gov/subjects/nnlandmarks/plateaus-and-mesas.htm
