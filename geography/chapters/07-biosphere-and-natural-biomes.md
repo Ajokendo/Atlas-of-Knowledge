@@ -192,15 +192,16 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 
 
-Биом — крупная природная система, объединённая характерными климатическими условиями, растительностью и связанными с ними сообществами животных и микроорганизмов. Границы биомов переходные, а классификации могут отличаться по числу категорий и критериям. Важно учитывать цель классификации: традиционные наземные биомы часто выделяют по климату и структуре растительности, тогда как типология экосистем IUCN использует иерархию из шести уровней — от царств и биомов до локальных типов экосистем — и учитывает функциональные процессы, а также состав сообществ. Эти схемы дополняют друг друга, но их категории нельзя автоматически считать взаимозаменяемыми. Для карты или статистического сравнения всегда называйте систему, её версию и пространственный уровень.
+Биом — крупная природная система, объединённая характерными климатическими условиями, растительностью и связанными с ними сообществами животных и микроорганизмов. Границы биомов переходные, а классификации могут отличаться по числу категорий и критериям. Важно учитывать цель классификации: традиционные наземные биомы часто выделяют по климату и структуре растительности, тогда как Глобальная типология экосистем IUCN использует шесть уровней: царства, функциональные биомы, функциональные группы экосистем, биогеографические экотипы, глобальные типы экосистем и субглобальные типы экосистем. Верхние уровни группируют системы по крупным функциональным признакам, а нижние подробнее различают их географический и видовой состав. Эти схемы дополняют друг друга, но их категории нельзя автоматически считать взаимозаменяемыми. Для карты или статистического сравнения всегда называйте систему, её версию и пространственный уровень.
 
 | Биом / Biome | Климатические особенности / Climate | Характерная растительность / Typical vegetation |
 |---|---|---|
 | Влажные тропические леса / Tropical moist forests | Тепло и обильные осадки большую часть года / Warm, high rainfall | Многоярусные вечнозелёные леса / Multi-layered evergreen forests |
 | Сезонные тропические леса / Tropical seasonal forests | Выраженный влажный и сухой сезоны / Wet and dry seasons | Леса с сезонным листопадом / Seasonally deciduous forests |
-| Саванны / Savannas | Тёплый климат, сезонность осадков и пожаров / Warm, seasonal rainfall and fire | Травы с отдельными деревьями и кустарниками / Grasses with scattered trees and shrubs |
-| Тропические пустыни / Tropical deserts | Очень малое количество осадков / Very low precipitation | Разреженная ксерофитная растительность / Sparse xerophytic vegetation |
+| Саванны / Savannas | Тёплый климат с сезонностью осадков; режим пожаров различается / Warm climate with seasonal rainfall; fire regimes vary | Травы с отдельными деревьями и кустарниками / Grasses with scattered trees and shrubs |
+| Пустыни жарких и холодных регионов / Hot and cold deserts | Очень малое количество осадков; температура может быть высокой или низкой / Very low precipitation; temperatures may be high or low | Разреженная ксерофитная растительность / Sparse xerophytic vegetation |
 | Средиземноморские кустарники / Mediterranean shrublands | Сухое лето, мягкая влажная зима / Dry summers, mild wet winters | Жёстколистные кустарники и редколесья / Sclerophyll shrubs and open woodland |
+| Умеренные дождевые леса / Temperate rainforests | Мягкий климат и обильные осадки / Mild climate and high rainfall | Влажные леса из хвойных и/или широколиственных пород / Moist forests of coniferous and/or broadleaf trees |
 | Умеренные широколиственные и смешанные леса / Temperate broadleaf and mixed forests | Сезонность температур и осадков / Seasonal temperatures and precipitation | Лиственные и смешанные леса / Deciduous and mixed forests |
 | Умеренные травянистые экосистемы / Temperate grasslands | Умеренные осадки, засухи и пожары / Moderate rainfall, drought and fire | Степи, прерии, пампа / Steppes, prairies, pampas |
 | Тайга / Boreal forest | Долгая холодная зима / Long, cold winters | Преимущественно хвойные леса / Mainly coniferous forests |
@@ -210,7 +211,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 **Тропические леса.** Влажные тропические леса отличаются высокой структурной сложностью, большим числом экологических ниш и высоким видовым разнообразием. Почвы во многих районах интенсивно выветрены и не обязательно обладают высокой естественной плодородностью: значительная часть питательных веществ быстро циркулирует в биомассе и поверхностном слое.
 
-**Саванны.** Саванны поддерживаются сочетанием сезонности осадков, травоядных животных, пожаров и свойств почв. Деревья и травы конкурируют за свет и воду, а режим пожаров может менять соотношение древесной и травянистой растительности.
+**Саванны.** Саванны формируются под влиянием сезонности осадков, травоядных животных, свойств почв и, во многих регионах, пожаров. Роль огня различается: в одних саваннах он регулярно ограничивает древесный покров, в других его влияние слабее. Деревья и травы конкурируют за свет и воду, а сочетание водного режима, выпаса и пожаров меняет соотношение древесной и травянистой растительности.
 
 **Пустыни.** Пустыни определяются прежде всего дефицитом влаги, а не высокой температурой: холодные пустыни также широко распространены. Организмы используют стратегии экономии воды, ночной активности, глубоких корней, запасания влаги и короткого жизненного цикла после осадков.
 
@@ -316,7 +317,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 ## 7.14. Биосфера и глобальные циклы вещества / The Biosphere and Global Biogeochemical Cycles
 
-Живые организмы участвуют в глобальных циклах углерода, кислорода, азота, фосфора и воды. Фотосинтез связывает углекислый газ и выделяет кислород; дыхание и разложение возвращают углерод в атмосферу и воду. Океан, леса, почвы, болота и другие системы выступают резервуарами и потоками углерода.
+Живые организмы участвуют в глобальных циклах углерода, кислорода, азота, фосфора и воды. При кислородном фотосинтезе углекислый газ используется для фиксации углерода в органическом веществе, а молекулярный кислород образуется при расщеплении воды в световых реакциях. Дыхание и разложение возвращают углерод в атмосферу и воду. Океан, леса, почвы, болота и другие системы содержат запасы углерода, между которыми он перемещается в виде потоков.
 
 Азотфиксация переводит атмосферный молекулярный азот в биологически доступные соединения. Нитрификация, ассимиляция, аммонификация и денитрификация обеспечивают различные преобразования азота. Фосфорный цикл в значительной степени связан с горными породами, почвами, водой и организмами и не имеет крупного атмосферного резервуара, сопоставимого с азотным.
 
@@ -338,11 +339,11 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 | Учёты животных / Faunal surveys | Численность и активность / Abundance and activity | Мониторинг популяций / Population monitoring |
 | Камеры-ловушки / Camera trapping | Присутствие и активность животных / Animal presence and activity | Изучение скрытных видов / Monitoring elusive species |
 | Генетические методы / Genetic methods | Генетическое разнообразие и родство / Genetic diversity and relatedness | Оценка связности популяций / Population connectivity |
-| Экологический ДНК-анализ / Environmental DNA | Следы организмов в воде, почве и других пробах / Organismal DNA traces in samples | Обнаружение редких и водных видов / Detecting rare and aquatic species |
+| Экологический ДНК-анализ / Environmental DNA | Следы организмов в воде, почве и других пробах / Organismal DNA traces in samples | Обнаружение редких и водных видов / Detecting rare and aquatic species; результат требует контроля загрязнения и вероятности обнаружения / results require contamination and detection-probability controls |
 | ГИС и дистанционное зондирование / GIS and remote sensing | Покровы Земли и их изменения / Land cover and change | Мониторинг биомов и фрагментации / Biome and fragmentation monitoring |
 | Биоклиматическое моделирование / Bioclimatic modelling | Потенциальная пригодность местообитаний / Potential habitat suitability | Сценарии изменения ареалов / Range-change scenarios |
 
-Любое исследование требует корректного дизайна выборки, повторяемости, контроля сезонности и указания неопределённости. Отсутствие наблюдения не всегда доказывает отсутствие вида. Модели потенциального ареала показывают вероятную пригодность условий, а не гарантированное присутствие организма.
+Любое исследование требует корректного дизайна выборки, повторяемости, контроля сезонности и указания неопределённости. Отсутствие наблюдения не всегда доказывает отсутствие вида. Камеры-ловушки фиксируют активность и вероятность обнаружения животных; сами по себе отдельные снимки не дают надёжной оценки численности без специального дизайна и статистической модели. Экологическая ДНК может переноситься водой и сохраняться после присутствия организма, поэтому единичное обнаружение не всегда доказывает, что живой организм находится именно в точке отбора пробы; необходимы повторные пробы, отрицательные и положительные контроли и, где возможно, независимое подтверждение. Модели потенциального ареала показывают вероятную пригодность условий, а не гарантированное присутствие организма.
 
 ### 7.15.1. Как оценивать результат восстановления экосистемы / Evaluating Ecosystem Restoration
 
@@ -354,7 +355,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 **Участие местных пользователей.** Меры восстановления должны учитывать права и практики пастбищепользователей, доступ к воде, хозяйственные потребности и местные знания. Иначе технически успешная посадка может оказаться нежизнеспособной или вызвать перенос нагрузки на соседние участки.
 
-**Учебное задание.** Предложите три показателя для оценки восстановления деградированного горного пастбища через один, три и пять лет. Для каждого укажите метод измерения, сезон, возможный источник ошибки и критерий, по которому можно судить об улучшении.
+**Учебное задание.** Предложите три показателя для оценки восстановления деградированного горного пастбища через один, три и пять лет. Сначала опишите исходное состояние и выберите подходящую эталонную экосистему или несколько сопоставимых участков. Показатели должны охватывать не только растительный покров, но и состав местных видов, структуру сообщества, состояние почвы и водного режима, экологические функции и связность местообитаний. Для каждого укажите метод измерения, сезон, возможный источник ошибки и критерий, по которому можно судить об улучшении.
 
 Planting trees or increasing vegetation cover does not by itself demonstrate that an ecosystem has been restored. Outcomes must be assessed against the initial condition, the site's ecological context and a realistic project goal. It may not be possible or desirable to recreate a historical state fully, especially where climate and land use have changed.
 
@@ -364,7 +365,7 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 
 **Involve local land users.** Restoration measures should account for the rights and practices of pastoral communities, water access, livelihood needs and local knowledge. Otherwise, a technically successful planting effort may fail or shift grazing pressure to neighbouring areas.
 
-**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. For each, state the measurement method, season, possible source of error and criterion that would indicate improvement.
+**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. First describe the baseline condition and select an appropriate reference ecosystem or comparable reference sites. The indicators should cover not only vegetation cover but also native-species composition, community structure, soil and water conditions, ecological functions and habitat connectivity. For each indicator, state the measurement method, season, possible source of error and criterion that would indicate improvement.
 
 ## English-language chapter text
 
@@ -479,13 +480,13 @@ Windward slopes often receive more precipitation than leeward slopes. In the Nor
 
 ### 7.8. Major Terrestrial Biomes
 
-A **biome** is a large natural system characterised by climate, vegetation and associated animal and microbial communities. Biome boundaries are transitional, and classification systems differ in the number of categories and criteria used. The purpose of a classification matters: traditional terrestrial biomes are often distinguished by climate and vegetation structure, whereas the IUCN Global Ecosystem Typology uses a six-level hierarchy, from realms and biomes to local ecosystem types, and considers ecosystem functions as well as community composition. These frameworks complement one another, but their categories are not automatically interchangeable. Always name the system, its version and the spatial level used for a map or statistical comparison.
+A **biome** is a large natural system characterised by climate, vegetation and associated animal and microbial communities. Biome boundaries are transitional, and classification systems differ in the number of categories and criteria used. The purpose of a classification matters: traditional terrestrial biomes are often distinguished by climate and vegetation structure, whereas the IUCN Global Ecosystem Typology uses six levels: realms, functional biomes, ecosystem functional groups, biogeographic ecotypes, global ecosystem types and sub-global ecosystem types. Upper levels group systems by broad functional characteristics, while lower levels distinguish their geographic and compositional features in greater detail. These frameworks complement one another, but their categories are not automatically interchangeable. Always name the system, its version and the spatial level used for a map or statistical comparison.
 
-Major terrestrial biomes include tropical moist forests, tropical seasonal forests, savannas, tropical deserts, Mediterranean shrublands, temperate broadleaf and mixed forests, temperate grasslands, boreal forests (taiga), tundra, polar deserts and mountain biomes.
+Major terrestrial biomes include tropical moist forests, tropical seasonal forests, savannas, hot and cold deserts, Mediterranean shrublands, temperate rainforests, temperate broadleaf and mixed forests, temperate grasslands, boreal forests (taiga), tundra, polar deserts and mountain biomes.
 
 **Tropical forests** have high structural complexity, many ecological niches and high species diversity. In many regions their soils are strongly weathered and are not necessarily naturally fertile: much of the nutrient supply cycles rapidly through biomass and the surface soil.
 
-**Savannas** are maintained by the interaction of seasonal rainfall, herbivores, fire and soil properties. Trees and grasses compete for light and water, while fire regimes can alter the balance between woody and grassy vegetation.
+**Savannas** are shaped by seasonal rainfall, herbivores, soil properties and, in many regions, fire. The role of fire varies: it regularly limits woody cover in some savannas but has a weaker influence in others. Trees and grasses compete for light and water, while the combined effects of water availability, grazing and fire alter the balance between woody and grassy vegetation.
 
 **Deserts** are defined primarily by moisture deficit, not by high temperature; cold deserts are also widespread. Organisms use strategies such as water conservation, nocturnal activity, deep roots, water storage and rapid life cycles after rainfall.
 
@@ -555,7 +556,7 @@ Successful conservation requires not only protected areas but also landscape man
 
 ### 7.14. The Biosphere and Global Biogeochemical Cycles
 
-Living organisms participate in global cycles of carbon, oxygen, nitrogen, phosphorus and water. Photosynthesis fixes carbon dioxide and releases oxygen; respiration and decomposition return carbon to the atmosphere and water. Oceans, forests, soils, wetlands and other systems act as carbon reservoirs and pathways of exchange.
+Living organisms participate in global cycles of carbon, oxygen, nitrogen, phosphorus and water. In oxygenic photosynthesis, carbon dioxide is used to fix carbon into organic matter, while molecular oxygen is produced when water is split during the light-dependent reactions. Respiration and decomposition return carbon to the atmosphere and water. Oceans, forests, soils, wetlands and other systems store carbon, which moves between them through measurable flows.
 
 Nitrogen fixation converts atmospheric molecular nitrogen into biologically available compounds. Nitrification, assimilation, ammonification and denitrification transform nitrogen in different ways. The phosphorus cycle is strongly linked to rocks, soils, water and organisms and lacks a major atmospheric reservoir comparable to nitrogen.
 
@@ -565,7 +566,7 @@ Land-use change, fossil-fuel combustion, fertiliser use, peatland drainage and s
 
 Biosphere research combines field, laboratory, statistical and remote-sensing methods. Common approaches include transect surveys, quadrat sampling, faunal surveys, camera trapping, genetic methods, environmental DNA analysis, GIS and remote sensing, and bioclimatic modelling.
 
-Every study requires appropriate sampling design, replication, control of seasonality and explicit treatment of uncertainty. Failure to observe a species does not always prove its absence. Potential-range models show where conditions may be suitable, not where an organism is guaranteed to occur.
+Every study requires appropriate sampling design, replication, control of seasonality and explicit treatment of uncertainty. Failure to observe a species does not always prove its absence. Camera traps record animal activity and detection probability; photographs alone do not provide a reliable abundance estimate without a suitable survey design and statistical model. Environmental DNA can be transported and may persist after an organism has left, so a single detection does not always prove that a living organism is present at the exact sampling point. Replicate samples, positive and negative controls, and independent confirmation where possible are needed. Potential-range models show where conditions may be suitable, not where an organism is guaranteed to occur.
 
 ## 7.16. Итоги главы / Chapter Summary
 
@@ -629,7 +630,7 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 
 **Involve local land users.** Restoration measures should account for the rights and practices of pastoral communities, water access, livelihood needs and local knowledge. Otherwise, a technically successful planting effort may fail or shift grazing pressure to neighbouring areas.
 
-**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. For each, state the measurement method, season, possible source of error and criterion that would indicate improvement.
+**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. First describe the baseline condition and select an appropriate reference ecosystem or comparable reference sites. The indicators should cover not only vegetation cover but also native-species composition, community structure, soil and water conditions, ecological functions and habitat connectivity. For each indicator, state the measurement method, season, possible source of error and criterion that would indicate improvement.
 
 ### English Summary
 
@@ -681,6 +682,10 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 - Категории Красного списка МСОП описывают риск исчезновения оценённого таксона по указанной версии критериев; они не являются прямой оценкой численности всех видов и не заменяют локальный мониторинг. Категории Data Deficient и Not Evaluated нельзя трактовать как отсутствие угрозы. Для любого видового примера указывать точную страницу таксона, дату оценки и версию записи.
 - IUCN Red List categories describe extinction risk for an assessed taxon under a stated version of the criteria; they are not a census of all species and do not replace local population monitoring. Data Deficient and Not Evaluated must not be interpreted as evidence of low risk. Any species example should identify the exact taxon record, assessment date and record version.
 - Для диаграмм биогеохимических циклов строго различать резервуары (запасы) и потоки (скорости переноса), указывать единицы и временные интервалы.
+- При интерпретации камер-ловушек и экологической ДНК учитывать вероятность обнаружения, ложноположительные и ложноотрицательные результаты, перенос и сохранение ДНК; единичное обнаружение не следует автоматически приравнивать к подтверждённому присутствию живого организма в точке отбора.
+- Для проектов восстановления использовать подходящую эталонную экосистему или набор эталонных участков, исходное обследование и измеримые экологические и социальные показатели; оценивать траекторию восстановления, а не только площадь посадок или рост зелёной массы.
+- When interpreting camera-trap and environmental-DNA results, account for detection probability, false-positive and false-negative results, and the transport and persistence of DNA; a single detection should not automatically be treated as confirmation of a living organism at the sampling point.
+- Restoration projects should use an appropriate reference ecosystem or set of reference sites, a baseline survey and measurable ecological and social indicators; assess the recovery trajectory rather than only the planted area or increase in green cover.
 - Иллюстрации этой главы пока представлены техническими заданиями. Генерируемые карты и схемы должны пройти отдельную научную и языковую редактуру перед публикацией.
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
@@ -696,7 +701,10 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 9. Chapin, F. S., Matson, P. A., & Vitousek, P. M. (2011). *Principles of Terrestrial Ecosystem Ecology* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4419-9504-9
 10. Convention on Biological Diversity. **Kunming–Montreal Global Biodiversity Framework** (2022), especially Target 2 (areas under effective restoration) and Target 3 (effective conservation and management). Official target guidance: https://www.cbd.int/gbf/targets/2 and https://www.cbd.int/gbf/targets/3
 11. Keith, D. A., Ferrer-Paris, J. R., Nicholson, E., & Kingsford, R. T. (eds.). **IUCN Global Ecosystem Typology 2.0: Descriptive Profiles for Biomes and Ecosystem Functional Groups** (2020). IUCN. https://doi.org/10.2305/IUCN.CH.2020.13.en
-12. IUCN Standards and Petitions Committee. **Guidelines for Using the IUCN Red List Categories and Criteria**, Version 16 (March 2024) — current guidance on applying the global extinction-risk criteria; check for a newer version before preparing a formal assessment. https://nrl.iucnredlist.org/resources/redlistguidelines
+12. IUCN Standards and Petitions Committee. **Guidelines for Using the IUCN Red List Categories and Criteria**, Version 16 (March 2024) — guidance on applying the global extinction-risk criteria; check the official resource page for a newer version before preparing a formal assessment. https://nrl.iucnredlist.org/resources/redlistguidelines
+13. Society for Ecological Restoration (SER). **International Standards for the Practice of Ecological Restoration**, Third Edition (2026) — current principles, restorative continuum and guidance for planning, measuring and evaluating restoration. https://www.ser.org/page/serstandards
+14. Alberts, B. et al. **Molecular Biology of the Cell**, section “Chloroplasts and Photosynthesis” — explains that molecular oxygen is released when water is oxidised in the photosynthetic electron-transfer reactions, while carbon dioxide is fixed into organic molecules. NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK26819/
+15. Bajaffer, A. et al. (2026). **Addressing false negatives and positives in eDNA studies.** *Methods in Ecology and Evolution*, 17(7), 1977–2008 — reviews detection errors and the need for transparent reporting of sampling, laboratory and bioinformatic controls. https://doi.org/10.1111/2041-210x.70328
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
 
@@ -707,7 +715,17 @@ The current chapter does not assign individual IUCN Red List categories to named
 ---
 **Конец главы 7 / End of Chapter 7**
 
-## Focused scientific and editorial audit record — 5 November 2026
+## Final focused scientific and editorial closure pass — 5 November 2026
+
+- **Scientific accuracy:** corrected the oxygen-source explanation in oxygenic photosynthesis: carbon dioxide supplies the carbon fixed into organic matter, while molecular oxygen is released from water splitting in the light-dependent reactions. Rephrased carbon reservoirs versus carbon fluxes so stocks and transfers are not conflated.
+- **Biome classification:** enumerated the six IUCN Global Ecosystem Typology levels; added temperate rainforests to the comparative table; distinguished hot and cold deserts; and removed fire from the savanna climate descriptor, explaining that fire regimes vary among savannas.
+- **Methods and evidence:** clarified the limitations of camera-trap photographs as abundance evidence and the spatial/temporal and false-positive/false-negative limitations of environmental DNA. Added a current 2026 methods review.
+- **Conservation and restoration:** rechecked the exact CBD wording for Targets 2 and 3. Both are global 2030 targets, not automatic 30% national-territory quotas; Target 2 concerns degraded ecosystem areas under effective restoration, while Target 3 concerns areas effectively conserved and managed. Expanded restoration assessment to include reference ecosystems, baseline conditions, ecological functions and social indicators.
+- **Standards and sources:** added the current SER Third Edition (2026) standards page; retained the official IUCN Red List 2026-1 release record (9 July 2026) and the IUCN Global Ecosystem Typology source. Bibliography now has 15 references.
+- **Visual inventory:** nine unique bilingual visual IDs and matching production briefs remain placeholders. No images have been generated or integrated.
+- **Release boundary:** this closes the focused text/source correction pass; it does not claim visual production, layout/rendering, accessibility, device/browser or deployment QA.
+
+## Earlier focused scientific and editorial audit record — 5 November 2026
 
 - **Trophic energy transfer:** retained the worked 10% example but clarified that this is the calculated efficiency for the stated transfer and accounting method, not a universal fixed rule for every trophic step. Integrated in the worked example.
 - **Biodiversity framework:** clarified that Kunming–Montreal Global Biodiversity Framework Target 2 concerns at least 30% of degraded ecosystems being under effective restoration by 2030; it is not a requirement to complete restoration of 30% of every country's territory by that date. Integrated in the main text and bilingual review apparatus.
