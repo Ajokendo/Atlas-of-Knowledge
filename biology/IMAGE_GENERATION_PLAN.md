@@ -6,7 +6,7 @@ This register mirrors the in-page illustration markers. Each marker is placed be
 
 ## Current disposition — 3 November 2026
 
-Five of 52 planned visual briefs are now produced (**9.6%**): Chüy fauna (six licensed photographs), Jalal-Abad flora (one), Issyk-Kul flora (four), Naryn flora (three) and Osh flora (one). The other 47 briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the remaining 39 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
+Thirty-one of 53 visual briefs are now produced or integrated (**58.5%**); see `IMAGE_DISPOSITION_REGISTER.md` for the current per-brief status and evidence. Twenty-two briefs remain deferred or pending. See [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md) for the per-asset reason, source/licence status, review path and preserved insertion anchor. The 13 P1 briefs are reviewed in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md); the 40 P2/P3 briefs are reviewed in [`IMAGE_BRIEF_REVIEW.md`](IMAGE_BRIEF_REVIEW.md). No unlicensed third-party imagery has been inserted. Visual production resumes only when an exact asset can be created or sourced, reviewed and integrated.
 
 ## Priority key
 
@@ -14,7 +14,7 @@ Five of 52 planned visual briefs are now produced (**9.6%**): Chüy fauna (six l
 - **P2 — useful complement:** visuals that deepen explanation or connect concepts, but are not essential before the main scientific content is usable.
 - **P3 — lower priority:** concepts already substantially represented by an SVG plate or interactive model. Generate only if a different visual mode adds a clear benefit; do not recreate the existing diagram as a near-duplicate.
 
-Priorities are editorial sequencing, not scientific approval. The marker audit counted 22 inline SVG elements across the 13 pages carrying planned briefs (updated 1 November 2026). Since that audit, six source-backed Chüy fauna and habitat photographs have been packaged as local WebP assets and integrated, and one Arslanbob walnut-forest photograph has been added to the Jalal-Abad flora brief; this does not make unrelated SVGs substitutes for the remaining briefs. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 52 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 26 P2 and 13 P3**.
+Priorities are editorial sequencing, not scientific approval. The marker audit counted 22 inline SVG elements across the 13 pages carrying planned briefs (updated 1 November 2026). Since that audit, six source-backed Chüy fauna and habitat photographs have been packaged as local WebP assets and integrated, and one Arslanbob walnut-forest photograph has been added to the Jalal-Abad flora brief; this does not make unrelated SVGs substitutes for the remaining briefs. Priority labels are mirrored in the in-page markers. Exact insertion anchors, target asset filenames, formats and aspect ratios for all 53 briefs are documented in `IMAGE_INSERTION_MAP.md`. Current allocation: **13 P1, 27 P2 and 13 P3**.
 
 
 ## Landing page
@@ -47,7 +47,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 ### Ecology — `chapters/ecology.html`
 - [~] **[P3] Пищевая сеть горной экосистемы / Food web of a mountain ecosystem** — Central Asian mountain-meadow food web; arrows point from resource to consumer.
 - [~] **[P2] Экосистема горного водосбора / Mountain catchment ecosystem** — landscape from glaciers and alpine meadows through forest belt to river and valley, showing ecological connections.
-- [~] **[P2] Круговороты вещества в экосистеме / Matter cycles in an ecosystem** — carbon and nitrogen cycles across atmosphere, soil, organisms and microbes; labels require editorial review.
+- [x] **[P2] Круговороты вещества в экосистеме / Matter cycles in an ecosystem** — original bilingual SVG integrated in `chapters/ecology.html`; simplified carbon and nitrogen cycle models distinguish photosynthesis, respiration, decomposition, nitrogen fixation, ammonification, nitrification, assimilation and denitrification. Focused browser visual QA pending.
 
 ### Evolutionary biology — `chapters/evolution.html`
 - [~] **[P3] Филогенетическое дерево и общий предок / Phylogenetic tree and common ancestry** — branching tree with common-ancestry nodes and sister groups; avoid a ladder of progress.
