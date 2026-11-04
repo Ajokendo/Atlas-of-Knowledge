@@ -390,7 +390,7 @@ The following counts are from the actual chapter Markdown files in `workspace/ge
 | 02 | 40 | Twenty distinct source/local image assets across the bilingual chapter (19 visual IDs; one ID uses two separate cycle images). |
 | 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
 | 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
-| 05 | 37 | Images are embedded, including local SVGs and external source images. The chapter-specific register claims 16 integrated IDs and one pending ID; exact mapping of every embed to the 20-ID inventory still needs reconciliation. |
+| 05 | 37 | 20 distinct image URLs (8 local SVGs and 12 external source-image URLs); chapter register claims 16 integrated IDs and 5.18-A pending. Exact ID-to-image mapping still needs reconciliation. |
 | 06–17 | 0 | No Markdown image embeds found in these chapter files in this scan. In-text visual markers/briefs are present; treat these as unintegrated placeholders unless another rendering mechanism is independently demonstrated. |
 | 18 | 1 | Local SVG 18-J referenced. |
 | 19 | 1 | Local SVG 19-H referenced. |
