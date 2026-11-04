@@ -61,6 +61,23 @@
 <script>
 const cfg={"id":"09","controls":[["Модуль заряда q₁",0.1,10,0.1,2,"мкКл"],["Модуль заряда q₂",0.1,10,0.1,3,"мкКл"],["Расстояние r",0.02,0.5,0.01,0.1,"м"]]};
 const $=id=>document.getElementById(id),inputs=cfg.controls.map((_,i)=>$("p"+i)),sign2=$("sign2"),fmt=(n,d)=>Number.isFinite(n)?n.toFixed(d).replace(".",","):"—";
+function draw(values){
+ const canvas=$("visual");if(!canvas)return;
+ const rect=canvas.getBoundingClientRect(),w=Math.max(320,rect.width),h=180,dpr=Math.min(window.devicePixelRatio||1,2);
+ canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);
+ const ctx=canvas.getContext("2d");if(!ctx)return;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+ const [q1,q2,r]=values,s=Number(sign2.value),left=w*.31,right=w*.69,y=78;
+ canvas.dataset.distance=r.toFixed(2);canvas.dataset.interaction=s>0?"repulsion":"attraction";
+ ctx.strokeStyle="#a7a7a0";ctx.lineWidth=1;ctx.setLineDash([4,5]);ctx.beginPath();ctx.moveTo(left,y);ctx.lineTo(right,y);ctx.stroke();ctx.setLineDash([]);
+ const charge=(x,label,positive)=>{ctx.beginPath();ctx.arc(x,y,25,0,Math.PI*2);ctx.fillStyle=positive?"#b94b3c":"#426f9c";ctx.fill();ctx.fillStyle="#fff";ctx.font="600 22px Inter,Arial,sans-serif";ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText(positive?"+":"−",x,y);ctx.font="12px Inter,Arial,sans-serif";ctx.fillText(label,x,y+43);};
+ charge(left,"q₁",true);charge(right,"q₂",s>0);
+ const arrow=(x1,x2,color)=>{const dir=Math.sign(x2-x1);if(!dir)return;const end=x2;ctx.strokeStyle=color;ctx.fillStyle=color;ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(x1,y-37);ctx.lineTo(end,y-37);ctx.stroke();ctx.beginPath();ctx.moveTo(end,y-37);ctx.lineTo(end-dir*10,y-43);ctx.lineTo(end-dir*10,y-31);ctx.closePath();ctx.fill();};
+ if(s>0){arrow(left-28,left-65,"#b94b3c");arrow(right+28,right+65,"#426f9c");}
+ else{arrow(left+28,left+65,"#b94b3c");arrow(right-28,right-65,"#426f9c");}
+ ctx.strokeStyle="#777";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(left,y+72);ctx.lineTo(right,y+72);ctx.moveTo(left,y+66);ctx.lineTo(left,y+78);ctx.moveTo(right,y+66);ctx.lineTo(right,y+78);ctx.stroke();
+ ctx.fillStyle="#454545";ctx.font="12px Inter,Arial,sans-serif";ctx.textAlign="center";ctx.fillText("r = "+fmt(r,2)+" м",w/2,y+67);
+ ctx.textAlign="left";ctx.fillText(s>0?"Одноимённые заряды отталкиваются":"Разноимённые заряды притягиваются",12,16);
+}
 function update(){const x=inputs.map(el=>+el.value),s=Number(sign2.value);x.forEach((v,i)=>{const step=String(cfg.controls[i][3]),decimals=step.includes(".")?step.split(".")[1].length:0;$("o"+i).textContent=fmt(v,decimals)+" "+cfg.controls[i][5];});const [q1,q2,r]=x,F=8.9875517923e9*(q1*1e-6)*(q2*1e-6)/(r*r),E=8.9875517923e9*(q1*1e-6)/(r*r);$("r0").textContent=fmt(F,4)+" Н";$("r1").textContent=fmt(E,0)+" Н/Кл";$("r2").textContent=s>0?"Отталкивание":"Притяжение";draw(x,[[F,"Н",4],[E,"Н/Кл",0],[s,"",0]])}
 inputs.forEach(el=>el.addEventListener("input",update));sign2.addEventListener("change",update);window.addEventListener("resize",update);update();
 </script><script type="module" src="../physics-lab.js"></script><script type="module">document.querySelector(".physics-stage canvas")?.setAttribute("aria-label","Трёхмерная модель пары разноимённых зарядов и эквипотенциальных контуров вокруг положительного заряда; контуры не являются силовыми линиями.");</script>
