@@ -54,7 +54,7 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 | Language and accessibility | 11 static pairs have bilingual metadata; 4 interactive systems PENDING manual review | Presence of RU/EN titles/descriptions/captions/alt is not a substitute for translation-quality and assistive-technology sign-off. |
 | Technical evidence | 22 / 22 static SVG files pass recorded basic metadata checks | Historical CI evidence exists, but CI must be rerun after the latest branch changes. Responsive, keyboard and screen-reader manual checks remain pending. |
 | Retrospective search evidence | 16 / 16 records have dated search notes | The 15 existing integrated records plus the Chapter 03 candidate. This does not prove the original pre-creation search-first sequence. |
-| Search candidates | 4 FOUND / 16 searched | OpenStax titration, OpenStax Daniell-cell, PubChem interactive table, and Wikimedia Commons periodic-trends bilingual files. None of the first three has been adopted. |
+| Search candidates | 7 FOUND / 16 searched | OpenStax titration, OpenStax Daniell-cell, PubChem interactive table, Wikimedia Commons periodic-trends pair, OpenStax functional-groups table, NASA carbon-cycle animation, and Wikimedia Commons particle-comparison SVG. None is adopted; the particle-comparison candidates were not selected for pedagogical fit. |
 
 ### Chapter 03 candidate rights finding
 
@@ -211,3 +211,8 @@ A targeted image-first search located a bilingual periodic-trends candidate on W
 The four interactive visual systems now have explicit per-ID audit rows. All remain INTEGRATED, not VERIFIED, because creator/code rights and manual accessibility/device evidence are incomplete.
 
 CI evidence in the publication checklist predates the latest Chemistry branch commits. A fresh CI run is required before current technical status can be reported as PASS. No new CI success is claimed by this documentation update.
+## 2026-11-05 follow-up: targeted image-first search
+
+Targeted searches were added for the existing chapter visuals and interactive models. Additional candidate findings are recorded in IMAGE_SOURCES.md: OpenStax Organic Chemistry section 3.1 / Table 3.1 is a functional-groups reference under the book's CC BY-NC-SA 4.0 terms, subject to item-level image-credit checks; NASA SVS carbon-cycle animation 10494 is a conceptual candidate with NASA/GSFC/UMBC and creator credits, subject to the NASA third-party-content caveat; Wikimedia Commons particle-comparison diagrams were found but not selected because one uses equal-density sphere assumptions and the other includes antiparticles beyond the learning objective. OpenStax reference sections for isotopes, mole concept, chemical formulas, solubility and balancing equations were also checked; the surfaced examples did not match the local figure's precise teaching purpose closely enough to replace it.
+
+These targeted searches improve retrospective evidence but cannot prove that the search-first sequence occurred before the existing project-local visuals were authored. The original 11 SVG pairs and four interactive systems remain unclassified with rights PENDING until their actual creation history and project rights basis are confirmed.
