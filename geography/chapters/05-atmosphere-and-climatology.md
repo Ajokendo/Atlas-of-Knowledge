@@ -950,6 +950,21 @@ When analysing a climate graph:
 
 **Learning activity:** For each diagram, identify the warmest and coldest months, calculate the annual temperature range, find the wettest and driest months, and add the monthly precipitation values. Then compare the seasonal patterns.
 
+### 5.18.2. Reading a Synoptic Chart
+
+A synoptic chart shows the atmospheric situation over a large area at a specified time. Isobars connect places with the same atmospheric pressure, reduced to mean sea level. The closer the isobars, the stronger the horizontal pressure gradient and, usually, the wind; actual wind speed also depends on friction, stability and terrain. A cyclone is identified by a low-pressure centre and an anticyclone by a high-pressure centre. Front symbols show the type of boundary and its expected direction of movement.
+
+For a classroom analysis:
+1. read the chart date, time and units;
+2. locate high- and low-pressure areas from the isobars;
+3. identify front types and their direction of movement from the symbols;
+4. compare fronts with wind, cloud, precipitation and temperature shown by station models; and
+5. describe likely weather changes, distinguishing observations from a forecast.
+
+A synoptic chart is a snapshot of the atmosphere, not a guarantee of future weather. Forecasting requires successive observations and analysis of system movement; a teaching diagram with synthetic data is not a substitute for official warnings.
+
+*Sources:* NOAA, *How to read Surface Weather Maps*; WMO, *International Cloud Atlas*.
+
 ### Chapter Summary
 
 1. The atmosphere consists mainly of nitrogen and oxygen; water vapour and trace gases are also important to climate.
