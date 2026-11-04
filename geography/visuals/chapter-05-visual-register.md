@@ -19,13 +19,13 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 | 5.4-A | Global temperature patterns / Глобальное распределение температуры | [ERA5 global mean temperature, 1991–2020](https://commons.wikimedia.org/wiki/File:ERA5_global_mean_temperature.png), author S. Berghald, ERA5/Copernicus data, CC BY-SA 4.0 | Climate-period mean, not an anomaly map or forecast. Attribution and share-alike licence required. Embedded in RU and EN chapter sections. |
 | 5.7-A | Water cycle / Круговорот воды | [NOAA JetStream — The Hydrologic Cycle](https://www.noaa.gov/jetstream/atmosphere/hydro), image [download](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e) | Basic hydrologic-cycle schematic; groundwater exchange and other reservoirs are not fully represented. Embedded in RU and EN chapter sections. |
 | 5.11-A | World climate zones / Климатические зоны мира | [WorldKoppen.png](https://commons.wikimedia.org/wiki/File:WorldKoppen.png), author Nothda, Köppen–Geiger 1-km map for 1991–2020, CC0 1.0 | Shows climate classes, not latitudinal climate belts. Embedded in RU and EN chapter sections. |
+| 5.7-B | Cloud formation and precipitation / Образование облаков и осадков | Original bilingual SVG `geography/visuals/chapter-05-cloud-formation-processes.svg`; redrawn from the process concepts in AMS Project Atmosphere: Clouds (2025), Figure 2, CC BY-SA 4.0 | Four mechanisms: convection, convergence, frontal lifting and orographic lifting. Conceptual, not to scale; ascent does not guarantee precipitation. Adapted material shared under CC BY-SA 4.0. Embedded in RU and EN chapter sections. |
 | 5.8-A | Atmospheric fronts / Атмосферные фронты | [NOAA JetStream — How to read Surface Weather Maps](https://www.noaa.gov/jetstream/wxmaps), four official front-symbol PNGs and a cold-occlusion cross-section | Symbols show map conventions; the cross-section illustrates a cold occlusion only, not all front profiles. NOAA federal educational material. Embedded in RU and EN chapter sections. |
 
 ## Pending / Ожидают подбора и проверки
 
 | Visual ID | Subject |
 |---|---|
-| 5.7-B | Cloud formation and precipitation: convection, fronts and orography / Образование облаков и осадков: конвекция, фронты и орография |
 
 | 5.9-A | Weather versus climate / Погода и климат |
 | 5.12-A | Global climate belts / Климатические пояса мира |
