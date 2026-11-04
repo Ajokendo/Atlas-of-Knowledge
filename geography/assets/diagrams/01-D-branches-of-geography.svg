@@ -13,6 +13,6 @@
 <text x="750" y="845" font-size="20">GIS • planning • risk assessment / ГИС • планирование • оценка рисков</text>
 </g>
 <rect x="600" y="430" width="300" height="105" rx="22" fill="#17324d" stroke="#fff" stroke-width="4"/>
-<text x="750" y="475" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#fff">Integrated</text><text x="750" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#fff">Интегративная</text>
+<text x="750" y="475" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#fff">Integrated geography</text><text x="750" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#fff">Интегративная география</text>
 <text x="750" y="885" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#52697c">Adapted conceptually from GeogSage (2026), CC BY 4.0; redrawn and translated / Концептуально переработано по GeogSage (2026), CC BY 4.0; перерисовано и переведено</text>
 </svg>
