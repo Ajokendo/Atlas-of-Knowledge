@@ -221,3 +221,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — WUP 2025 bibliography clean-up — 5 November 2026
 
 - Removed a duplicate WUP 2025 methodology citation and corrected the methodology report publication date to 27 January 2026 using the official UN Population Division record. Commit: `f6615bc9f58bad6693cd87b9f0e8154f19e9c7fd`.
+
+
+### Chapter 10 — UNCLOS source precision — 5 November 2026
+
+- Added direct official UN links for UNCLOS Part VI (continental shelf) and Part VII (high seas), strengthening traceability for the chapter's legal distinctions between seabed rights, superjacent waters and high-seas freedoms. Commit: `aeecc0a1f4aff9e2f6adfca03c2abfa5ef13f59a`.
