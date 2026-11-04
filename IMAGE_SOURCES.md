@@ -193,6 +193,23 @@ This is a **page-level index**, not yet the final asset-level visual register. E
 | PHY-15-3D-09 | 15.8 — RL circuits | `rl` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
 | PHY-15-3D-10 | 15.9 — LC oscillations | `lc` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
 
+### Confirmed page-descriptor to assembly mappings
+
+These examples demonstrate why a page-level `scene` value must not automatically be counted as one visual asset:
+
+| Chapter / page | `pages.js` descriptor | Actual `asm()` group(s) in `world.js` |
+|---|---|---|
+| 12.1 — capacitor gap | `gap` | `pillbox` |
+| 12.5 — series/parallel | `circuits` | `series`, `parallel` |
+| 12.7 — battery state | `compare` | `battery`, `isolated` |
+| 13.5 — series/parallel circuits | `sp` | `series`, `parallel` |
+| 14.7 — parallel wires | `wires` | `same`, `opposite` |
+| 14.8 — solenoid and toroid | `solenoid` | `solenoid`, `toroid` |
+| 15.1 — Lenz's law | `lenz` | `core` |
+| 15.9 — LC oscillations | `lc` | `lcCap`, `lcCoil` |
+
+Other page descriptors still require the same explicit mapping. Do not infer the underlying assembly count from the number of page descriptors or from the number of `STATIONS` keys.
+
 **Review still required for all 71 page-index entries:** map each descriptor to the actual `asm()` group(s) in `world.js`; split any page that contains multiple distinct assemblies; then assign final asset IDs, confirm geometry at desktop/mobile sizes, inspect label contrast and accessible names, add complete RU/EN descriptions, and retain item-level rights evidence. This page index does not count as final Image Coverage and does not include the four missing static infographic requirements listed above.
 
 ## Integrated assets
