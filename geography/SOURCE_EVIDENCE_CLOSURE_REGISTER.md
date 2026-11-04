@@ -333,3 +333,8 @@ These are focused bilingual conceptual corrections. They do not close full claim
 ### Chapter 09 — urban/rural classification method — 5 November 2026
 
 - Expanded the bilingual explanation of the UN Degree of Urbanization used in World Urbanization Prospects 2025: 1 km² grid cells are classified using population density, contiguity and population-size thresholds; smaller administrative/statistical units are then assigned according to where most residents live. Clarified the first-level classes and that the harmonised method does not replace national legal definitions. Added the direct UN methodology-report link. Checked against the official WUP 2025 methodology report and UN Population Division summary. Commit: `5537ae858eecadda2bec2982ff9bfd7ace2bcdaa`.
+
+
+### Chapter 09 — WUP 2025 bibliography de-duplication — 5 November 2026
+
+- Consolidated duplicate World Urbanization Prospects 2025 methodology entries into the main WUP reference and corrected the methodology report's publication date to 27 January 2026, as shown on the official UN Population Division page. The WUP 2025 method report confirms the 1 km² grid-based Degree of Urbanization approach and its harmonised international comparison purpose. Commit: `f6615bc9f58bad6693cd87b9f0e8154f19e9c7fd`.
