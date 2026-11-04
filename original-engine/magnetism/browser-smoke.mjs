@@ -63,6 +63,7 @@ async function runDynamic(mobile) {
     if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
     await page.waitForSelector('#sheet h1');
     await page.waitForFunction(() => document.querySelector('#gl')?.width > 100);
+    await page.waitForFunction(() => window.__atlas && document.querySelector('#readout')?.textContent.trim().length > 0);
     if (mobile) await page.locator('#sheet .turn').click(); else await page.locator('#dots button').nth(1).click();
     await page.waitForFunction(() => location.hash === '#1');
     await page.waitForTimeout(350);
