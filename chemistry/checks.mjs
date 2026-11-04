@@ -334,6 +334,11 @@ if (!periodicData) {
 }
 
 const trainerSource = fs.readFileSync(path.join(root, "reaction-trainer.html"), "utf8");
+if (trainerSource.includes('$("next").onclick=next') ||
+    !trainerSource.includes('if(completed){completed=false;index=0;score=0;render(true);return}') ||
+    !trainerSource.includes('$("next").textContent=words[lang].next')) {
+  errors.push("reaction-trainer.html: restarting must use one click handler and restore the localized Next label without double-advancing");
+}
 const trainerTaskStart = trainerSource.indexOf("const tasks=");
 if (trainerTaskStart < 0) {
   errors.push("reaction-trainer.html: reaction task bank not found");
