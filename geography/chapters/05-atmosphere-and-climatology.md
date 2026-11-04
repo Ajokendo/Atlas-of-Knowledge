@@ -38,8 +38,9 @@
 
 ## 5.2. Вертикальное строение атмосферы / Vertical Structure of the Atmosphere
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 5-A / IMAGE PLACEHOLDER 5-A]** Вертикальный профиль атмосферы с температурными тенденциями и ориентировочными границами слоёв.
-> **EN:** Vertical atmospheric profile showing temperature trends and approximate boundaries between layers.
+![Слои атмосферы Земли / Layers of Earth's atmosphere](https://commons.wikimedia.org/wiki/Special:FilePath/Atmosphere_layers_edu.svg)
+
+*Слои атмосферы: схема CC0, авторство и описание файла — Wikimedia Commons, “Atmosphere layers edu.svg”. Используется как учебная схема; границы слоёв и высоты ориентировочны. / Atmospheric layers: CC0 diagram, file attribution and description on Wikimedia Commons, “Atmosphere layers edu.svg”. Layer boundaries and altitudes are approximate.* [Источник и лицензия / Source and licence](https://commons.wikimedia.org/wiki/File:Atmosphere_layers_edu.svg).
 
 Атмосферу делят на слои по изменению температуры с высотой. Границы слоёв не являются абсолютно постоянными: их высота зависит от широты, сезона и атмосферных условий.
 
@@ -63,7 +64,7 @@
 
 Экзосфера — крайне разреженная внешняя область атмосферы, постепенно переходящая в космическое пространство. Её нижняя граница в разных моделях определяется по-разному.
 
-**Место для иллюстрации 5.2-A — Atmospheric Layers.** Вертикальный разрез от поверхности до экзосферы с ориентировочными высотами, температурным профилем, озоновым максимумом и типичными явлениями. Подчеркнуть условность границ.
+
 
 ## 5.3. Солнечная радиация и тепловой баланс Земли / Solar Radiation and Earth's Energy Budget
 
@@ -144,8 +145,9 @@
 
 ## 5.6. Общая циркуляция атмосферы / General Atmospheric Circulation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 5-C / IMAGE PLACEHOLDER 5-C]** Глобальная схема ячеек Хэдли, Феррела и полярной циркуляции, пассатов, западных ветров и струйных течений.
-> **EN:** Global diagram of Hadley, Ferrel and polar circulation cells, trade winds, westerlies and jet streams.
+![Три ячейки общей циркуляции атмосферы / Three-cell model of global atmospheric circulation](https://www.noaa.gov/sites/default/files/2022-05/circ.jpg)
+
+*Трёхъячеечная модель общей циркуляции атмосферы. NOAA, JetStream: Global Atmospheric Circulations. Государственный образовательный ресурс США; схема иллюстрирует упрощённую модель, а не полную изменчивость реальной циркуляции. / Three-cell model of global atmospheric circulation. NOAA, JetStream: Global Atmospheric Circulations. U.S. government educational resource; the figure illustrates a simplified model, not the full variability of real circulation.* [Источник / Source](https://www.noaa.gov/jetstream/global/global-atmospheric-circulations).
 
 Глобальная циркуляция формируется из-за неравномерного нагрева Земли, вращения планеты, распределения суши и океана, сезонных изменений и взаимодействия с океанами.
 
@@ -167,7 +169,7 @@
 
 Струйные течения — узкие зоны сильных ветров в верхней тропосфере и нижней стратосфере. Они влияют на траектории циклонов, перенос воздушных масс и погодные условия в средних широтах.
 
-**Место для иллюстрации 5.6-A — Global Atmospheric Circulation.** Карта трёх циркуляционных ячеек, пассатов, западных ветров, полярных восточных ветров и основных струйных течений. Отметить сезонные смещения.
+
 
 ## 5.7. Влажность, облака и осадки / Humidity, Clouds and Precipitation
 
@@ -560,6 +562,10 @@ The atmosphere supplies oxygen for the respiration of most organisms and carbon 
 
 The atmosphere is divided into layers according to how temperature changes with altitude. Layer boundaries are not fixed: their heights vary with latitude, season and atmospheric conditions.
 
+![Слои атмосферы Земли / Layers of Earth's atmosphere](https://commons.wikimedia.org/wiki/Special:FilePath/Atmosphere_layers_edu.svg)
+
+*Слои атмосферы: схема CC0, авторство и описание файла — Wikimedia Commons, “Atmosphere layers edu.svg”. Используется как учебная схема; границы слоёв и высоты ориентировочны. / Atmospheric layers: CC0 diagram, file attribution and description on Wikimedia Commons, “Atmosphere layers edu.svg”. Layer boundaries and altitudes are approximate.* [Источник и лицензия / Source and licence](https://commons.wikimedia.org/wiki/File:Atmosphere_layers_edu.svg).
+
 - **Troposphere:** the lowest layer, containing most of the atmosphere's mass and almost all atmospheric water vapour. Clouds, precipitation, thunderstorms and most weather phenomena develop here. Its height is generally about 8–18 km, lower at high latitudes and higher in the tropics. Temperature usually decreases with altitude, although inversions may occur.
 - **Stratosphere:** extends from the tropopause to about 50 km. Most atmospheric ozone is found here. Absorption of ultraviolet radiation by ozone causes temperature to rise with altitude through much of this layer.
 - **Mesosphere:** lies approximately between 50 and 85 km. Temperature generally decreases with altitude and reaches very low values near the mesopause. Many small meteoroids burn up in this layer.
@@ -603,6 +609,10 @@ The direction of rotation of cyclones and anticyclones is influenced by the Cori
 ### 5.6. General Atmospheric Circulation
 
 Global circulation is shaped by uneven heating of Earth, planetary rotation, the distribution of land and ocean, seasonal changes and interactions with the oceans.
+
+![Три ячейки общей циркуляции атмосферы / Three-cell model of global atmospheric circulation](https://www.noaa.gov/sites/default/files/2022-05/circ.jpg)
+
+*Трёхъячеечная модель общей циркуляции атмосферы. NOAA, JetStream: Global Atmospheric Circulations. Государственный образовательный ресурс США; схема иллюстрирует упрощённую модель, а не полную изменчивость реальной циркуляции. / Three-cell model of global atmospheric circulation. NOAA, JetStream: Global Atmospheric Circulations. U.S. government educational resource; the figure illustrates a simplified model, not the full variability of real circulation.* [Источник / Source](https://www.noaa.gov/jetstream/global/global-atmospheric-circulations).
 
 An idealised model identifies three circulation cells in each hemisphere:
 - the **Hadley cell** in the tropics and subtropics;
