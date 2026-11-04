@@ -69,6 +69,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 
 **Рисунок 10.1 / Figure 10.1 — Типы государственных границ / Types of state borders.**  
 Техническое задание: четыре схематичных фрагмента — геометрическая линия, речная граница, водораздел и исторически сложившаяся граница; показать условные пограничные знаки, не использовать реальные спорные участки.
+**EN production brief:** Create four schematic panels showing a geometric line, a river boundary, a watershed boundary and a historically established boundary. Use illustrative boundary markers and do not depict real disputed areas.
 
 ## 10.5. Морские пространства и политическая география океана / Maritime Zones and the Political Geography of the Ocean
 > **[МЕТКА ИЛЛЮСТРАЦИИ 10-C / IMAGE PLACEHOLDER 10-C]** Схема морских зон по UNCLOS с расстояниями и различием суверенитета и юрисдикции. / UNCLOS maritime-zones diagram showing distances and distinguishing sovereignty from jurisdiction.
@@ -126,6 +127,7 @@ This is a unit conversion, not a method for independently drawing a legally vali
 > **[МЕТКА ИЛЛЮСТРАЦИИ 10-D / IMAGE PLACEHOLDER 10-D]** Схема унитарного, федеративного и регионализованного государства с разграничением конституционных полномочий. / **EN:** Diagram of unitary, federal and regionalised state models, distinguishing constitutional powers.
 **Рисунок 10.3 / Figure 10.3 — Территориальные модели государства / Territorial models of the state.**  
 Техническое задание: сравнить унитарную и федеративную схемы распределения полномочий; использовать условные блоки уровней управления, не изображать федерацию как простое административное деление.
+**EN production brief:** Compare unitary and federal arrangements of governmental powers using schematic blocks for levels of government. Do not portray a federation as merely an administrative subdivision.
 
 ## 10.7. Столицы, политические центры и территориальное управление / Capitals, Political Centres and Territorial Governance
 
@@ -151,6 +153,7 @@ This is a unit conversion, not a method for independently drawing a legally vali
 > **[МЕТКА ИЛЛЮСТРАЦИИ 10-E / IMAGE PLACEHOLDER 10-E]** Схема избирательных округов и принципов представительства; не использовать реальные электоральные данные без источника и даты. / **EN:** Diagram of electoral districts and representation principles; do not use real election data without a dated source.
 **Рисунок 10.4 / Figure 10.4 — География избирательного представительства / Geography of electoral representation.**  
 Техническое задание: условная карта округов с различной численностью населения и отдельная диаграмма долей голосов; наглядно показать разницу между территориальной площадью округа и числом избирателей.
+**EN production brief:** Create a hypothetical map of electoral districts with different population sizes and a separate chart of vote shares. Make clear that the land area of a district is not the same as its number of voters.
 
 ## 10.9. Геополитика и географические факторы / Geopolitics and Geographic Factors
 
@@ -186,6 +189,7 @@ This is a unit conversion, not a method for independently drawing a legally vali
 > **[МЕТКА ИЛЛЮСТРАЦИИ 10-F / IMAGE PLACEHOLDER 10-F]** Схема международного сотрудничества на глобальном, региональном, национальном и местном уровнях. / **EN:** Diagram of international cooperation at global, regional, national and local levels.
 **Рисунок 10.5 / Figure 10.5 — Масштабы международного сотрудничества / Scales of international cooperation.**  
 Техническое задание: схема от двустороннего соглашения к региональной организации и универсальной международной организации; показать, что компетенции и обязательность решений различаются.
+**EN production brief:** Diagram the progression from a bilateral agreement to a regional organisation and a universal international organisation. Show that their powers and the binding force of their decisions differ.
 
 ## 10.11. Политическая география ресурсов и инфраструктуры / Political Geography of Resources and Infrastructure
 
@@ -235,6 +239,7 @@ This is a unit conversion, not a method for independently drawing a legally vali
 > **[МЕТКА ИЛЛЮСТРАЦИИ 10-G / IMAGE PLACEHOLDER 10-G]** Инфографика критического чтения политической карты: дата, границы, статус территории, проекция, источник и спорные обозначения. / **EN:** Critical political-map reading checklist covering date, boundaries, territorial status, projection, source and disputed representations.
 **Рисунок 10.6 / Figure 10.6 — Как критически читать политическую карту / How to read a political map critically.**  
 Техническое задание: учебная карта с легендой и отдельной панелью проверки: дата, источник, статус границ, проекция, масштаб, названия и примечания о спорных участках.
+**EN production brief:** Create a teaching political map with a legend and a separate verification panel covering date, source, boundary status, projection, scale, place names and notes on disputed areas.
 
 ## 10.15. Геоинформационные методы в политической географии / Geospatial Methods in Political Geography
 
