@@ -478,7 +478,7 @@ A reduction in forest area alone does not prove that floods will necessarily bec
 
 **Пример положительной обратной связи:** потепление уменьшает площадь снежного покрова; более тёмная поверхность отражает меньше солнечной энергии; поглощение энергии возрастает и способствует дальнейшему нагреву. Сила эффекта зависит от сезона, облачности, высоты и свойств поверхности.
 
-**Пример отрицательной обратной связи:** увеличение испарения может способствовать облакообразованию; облака способны уменьшать поступление солнечной радиации к поверхности, но одновременно влияют на удержание тепла. Итог зависит от типа облаков, времени суток и сезона.
+**Пример отрицательной обратной связи в экосистеме:** если численность добычи возрастает, хищникам становится доступнее пища и их численность со временем может увеличиться. Усиление хищничества сокращает численность добычи; затем из-за уменьшения корма может снизиться и численность хищников. Такая связь способна сдерживать рост популяций, хотя временные задержки могут вызывать колебания численности.
 
 При анализе схемы обозначьте переменные и направление причинных связей, отметьте задержки во времени, различайте корреляцию и доказанный механизм, укажите внешние факторы. Схема не заменяет измерения и модель.
 
@@ -488,7 +488,7 @@ A feedback occurs when a change in one component of a system affects other compo
 
 **Positive feedback example:** warming reduces snow cover; the darker surface reflects less solar energy; energy absorption increases and contributes to further warming. The strength depends on season, cloud cover, elevation and surface properties.
 
-**Negative feedback example:** increased evaporation may support cloud formation; clouds can reduce incoming solar radiation at the surface but also affect heat retention. The net effect depends on cloud type, time of day and season.
+**Negative feedback example in an ecosystem:** when prey become more abundant, food becomes more available to predators, and predator numbers may rise after a time lag. Increased predation reduces the prey population; with less food available, predator numbers may then decline as well. This interaction can constrain population growth, although time lags may produce population cycles.
 
 When analysing a diagram, identify variables and causal links, note time lags, distinguish correlation from an established mechanism, and identify external factors. A diagram does not replace measurements or a model.
 
