@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
 <title id="title">Типы генетических мутаций / Types of genetic mutations</title>
-<desc id="desc">Сравнение исходной последовательности мРНК с заменой, вставкой и делецией нуклеотида / Comparison of an original mRNA sequence with a substitution, insertion and deletion.</desc>
+<desc id="desc">Учебная модель последствий изменений ДНК: показаны соответствующие кодоны мРНК до и после замены, вставки или делеции нуклеотида. / Teaching model of DNA sequence changes: the corresponding mRNA codons are shown before and after a nucleotide substitution, insertion or deletion.</desc>
 <defs><style>
 .bg{fill:#f7f8f4}.ink{fill:#243329}.muted{fill:#66736a}.green{fill:#426447}.line{stroke:#aab6a8;stroke-width:2}.panel{fill:#fff;stroke:#d7dfd5;stroke-width:2}.base{fill:#e8eee5;stroke:#718d72;stroke-width:1.5}.changed{fill:#f7e6c9;stroke:#b47a2b;stroke-width:2}.shift{fill:#f2e4ed;stroke:#9b6b8c;stroke-width:2}.head{font:600 26px Inter,Arial,sans-serif;fill:#243329}.sub{font:18px Inter,Arial,sans-serif;fill:#66736a}.label{font:600 19px Inter,Arial,sans-serif;fill:#243329}.small{font:15px Inter,Arial,sans-serif;fill:#536258}.mono{font:600 24px 'DejaVu Sans Mono',monospace;fill:#243329}.aa{font:16px Inter,Arial,sans-serif;fill:#426447}.tag{font:600 15px Inter,Arial,sans-serif;fill:#fff}.white{fill:#fff}
 </style></defs>
@@ -43,5 +43,5 @@
 </g>
 <text x="60" y="830" class="small">Важно / Important: вставки и делеции, кратные трём нуклеотидам, обычно не сдвигают рамку; эффект зависит от места и контекста мутации.</text>
 <text x="60" y="858" class="small">Insertions/deletions in multiples of three usually do not shift the frame; effects depend on mutation location and context.</text>
-<text x="60" y="886" class="sub">Схема мРНК для обучения; не в масштабе / mRNA teaching schematic; not to scale</text>
+<text x="60" y="886" class="sub">Показаны кодоны мРНК, полученной при транскрипции соответствующего варианта ДНК. / The displayed mRNA codons are transcribed from the corresponding DNA variant.</text>
 </svg>
