@@ -217,3 +217,14 @@ The 16 local bilingual SVGs below are embedded in both language sections. The pr
 | 4.15-B | `geography/assets/04-15-B-topographic-map-exercise-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
 
 **Geography-specific review flags:** 4.14-A and 4.15-B are conceptual topographic teaching diagrams, not georeferenced map products; do not invent a CRS or real-world coordinate accuracy. If any map panel is intended to represent real terrain, its projection, CRS, scale, north orientation, source data, vertical datum and date must be supplied. 4.14-B must distinguish DEM, DSM and DTM consistently. 4.13-A must preserve the source and uncertainty of the Everest and Challenger Deep values and avoid implying directly comparable measurement methods. Detailed scientific and data-provenance checks remain PENDING.
+
+
+### Chapter 04 — data provenance for 4.13-A (Earth’s vertical extremes)
+
+The diagram is a project-local SVG (provisional category C; individual creator/rightsholder, authoring method and project licence remain Unknown / PENDING). Its numerical claims are supported by the following sources:
+
+- **Mount Everest:** Xie et al. (2022), *Determining the new height of Mount Qomolangma based on the International Height Reference System*, DOI [10.1080/10095020.2022.2128901](https://doi.org/10.1080/10095020.2022.2128901). Reports the 2020 snow-surface orthometric height of 8,848.86 m ± 0.06 m in the IHRS.
+- **Challenger Deep, pressure-derived value:** Greenaway et al. (2021), *Revised depth of the Challenger Deep from submersible transects*, DOI [10.1016/j.dsr.2021.103644](https://doi.org/10.1016/j.dsr.2021.103644). Reports 10,935 m ± 6 m at 95% confidence below mean sea level.
+- **Challenger Deep, multibeam gridded estimate:** Fujii et al. (2026), *Full-ocean-depth EM124 mapping of the Challenger Deep by R/V Hakuho-maru and depth-estimate sensitivity tests*, DOI [10.1038/s41597-026-08267-z](https://doi.org/10.1038/s41597-026-08267-z). Reports a preferred eastern-basin gridded maximum of 10,927 m and a 10,914–10,932 m sensitivity range across five sound-speed models. The range is a model-sensitivity envelope, not a formal 95% confidence interval.
+
+The current chapter text and SVG preserve the key distinctions: 2021 pressure-derived versus 2026 multibeam-gridded methods; the 2026 preferred value is not presented as a definitive replacement; the sensitivity range is identified separately; and the graphic states that the vertical comparison is not drawn to one linear scale. Scientific/data-claim review for 4.13-A: **PASS** for the values and qualifications checked against these sources. Rights for the SVG itself and technical rendering remain PENDING.
