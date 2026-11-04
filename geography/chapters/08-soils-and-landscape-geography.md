@@ -173,19 +173,13 @@ This means that about half of the sample's total volume consists of pores. It is
 
 Существуют различные системы классификации почв. Международная реферативная база почвенных ресурсов WRB (World Reference Base for Soil Resources; 4-е издание, 2022, с исправлениями 2024 года) используется для международного сопоставления. В национальных системах могут применяться другие диагностические горизонты, критерии и названия. Нельзя механически считать названия почв разных систем полными синонимами. Обозначения H, O, A, E, B, C и R в описании профиля — это главные символы горизонтов и слоёв, а не полный ключ классификации WRB и не универсальная последовательность для каждой почвы. Формальная классификация требует проверки диагностических горизонтов, свойств и материалов по правилам выбранной системы; одного внешнего сходства профиля недостаточно.
 
-Крупные группы почв, часто встречающиеся в мировых обзорах:
-- органические почвы и торфяники;
-- почвы влажных тропиков с интенсивным выветриванием;
-- чернозёмные и другие тёмные гумусовые почвы степных областей;
-- каштановые и засушливые почвы сухих степей и полупустынь;
-- бурые и серо-бурые почвы аридных территорий;
-- подзолистые и подзолисто-глеевые почвы бореальных лесов;
-- тундровые почвы холодных областей;
-- аллювиальные почвы речных долин;
-- горные почвы, часто мозаичные и маломощные.
+В системе WRB 4-го издания выделяют 32 реферативные почвенные группы (Reference Soil Groups, RSG), а более точное название формируется с помощью квалификаторов. Среди RSG — Histosols, Cryosols, Podzols, Chernozems, Kastanozems, Solonchaks, Solonetz, Arenosols, Ferralsols, Fluvisols и Leptosols. Это названия единиц международной классификации, а не просто описания природных зон.
+
+В обзорных учебных материалах также встречаются описательные выражения вроде «тёмные гумусовые почвы степей», «засушливые почвы полупустынь», «аллювиальные почвы долин» или «горные почвы». Они полезны для объяснения географических закономерностей, но не всегда соответствуют одной конкретной RSG. Поэтому на карте и в легенде нельзя смешивать формальные единицы WRB, национальные названия и обобщённые ландшафтные описания. Если используется упрощённая карта, это должно быть прямо указано в заголовке и легенде.
 
 **Рисунок 8.4 / Figure 8.4 — Глобальная карта почв / Global soil map.**  
-Техническое задание: использовать актуальную геопространственную базу и чётко назвать классификацию; показать крупные почвенные группы с читаемой легендой; не смешивать единицы WRB с названиями из национальной классификации; обозначить области неопределённости и недостатка данных.
+Техническое задание: выбрать один из двух разных продуктов — карту почвенных групп по WRB (с указанием редакции классификации и происхождения данных) либо карту отдельных свойств почвы (например, pH или органического углерода) по SoilGrids; не объединять их в одну неразличимую легенду. Указать год/версию набора, пространственное разрешение, глубину, единицы, метод получения и неопределённость; показать пробелы и зоны низкой плотности полевых наблюдений.
+**EN production brief:** Choose one of two distinct products: a WRB soil-group map (identify the classification edition and data provenance) or a map of a specific soil property (for example, pH or organic carbon) from SoilGrids. Do not combine them in one ambiguous legend. State dataset version/date, spatial resolution, depth interval, units, method and uncertainty; show data gaps and areas with sparse field observations.
 **EN production brief:** Use a current geospatial dataset and name the classification system clearly. Show major soil groups with a legible legend; do not mix WRB units with names from national classifications. Mark areas of uncertainty and data gaps.
 
 ## 8.8. Почвы основных природных зон / Soils Across Major Natural Zones
@@ -319,6 +313,8 @@ This means that about half of the sample's total volume consists of pores. It is
 | ГИС-анализ / GIS analysis | Рельеф, почвы, землепользование / Terrain, soils, land use | Пространственное моделирование / Spatial modelling |
 
 Полевые и лабораторные данные должны сопровождаться координатами, датой, глубиной отбора, методикой, единицами измерения и сведениями о качестве. Спутниковые индексы растительности не являются прямым измерением плодородия почвы: их интерпретация требует наземной проверки и учёта сезонности.
+
+**Цифровые почвенные карты.** SoilGrids — глобальный продукт цифрового картографирования, в котором свойства почв моделируются по данным почвенных профилей и экологическим переменным. Для версии SoilGrids 2.0 публикуются прогнозы с пространственным разрешением 250 м для шести стандартных интервалов глубины от 0 до 200 см; для ячеек приводятся оценки неопределённости. Это модельные прогнозы, а не измерения в каждой точке и не замена местной почвенной съёмке. Плотность исходных наблюдений неодинакова: в документации ISRIC отдельно отмечены пробелы для Центральной Азии, поэтому для Кыргызстана нельзя трактовать пиксельную детализацию как подтверждённую точность на местности. При использовании таких карт нужно указывать версию, свойство, глубину, единицы, интервал неопределённости и дату доступа; для локальных решений результаты следует проверять полевыми пробами.
 
 ### 8.15.1. Как выявлять и оценивать засоление почв / Identifying and Assessing Soil Salinity
 
@@ -467,7 +463,9 @@ Soil distribution is systematically related to climate, vegetation, relief, pare
 
 Different soil-classification systems exist. The World Reference Base for Soil Resources (WRB; 4th edition, 2022, with corrections published in 2024) is widely used for international comparison. National systems may use different diagnostic horizons, criteria and names. Soil names from different systems should not automatically be treated as exact synonyms. The H, O, A, E, B, C and R labels used in a general soil-profile description are master horizon and layer designations, not the complete WRB classification key and not a universal sequence present in every soil. Formal classification requires checking diagnostic horizons, properties and materials under the rules of the selected system; visual resemblance alone is insufficient.
 
-Major soil groups commonly shown in global reviews include organic soils and peatlands; strongly weathered soils of humid tropics; chernozems and other dark humus-rich soils of steppe regions; chestnut and dryland soils of dry steppes and semi-deserts; brown and grey-brown soils of arid areas; podzolic and podzolic-gley soils of boreal forests; tundra soils; alluvial soils of river valleys; and mountain soils, which are often patchy and shallow.
+The fourth edition of WRB recognises 32 Reference Soil Groups (RSGs); more specific soil names are formed using qualifiers. Examples of RSGs include Histosols, Cryosols, Podzols, Chernozems, Kastanozems, Solonchaks, Solonetz, Arenosols, Ferralsols, Fluvisols and Leptosols. These are units of an international classification, not simply descriptions of natural zones.
+
+Global teaching materials also use descriptive expressions such as “dark humus-rich steppe soils”, “dryland soils of semi-deserts”, “alluvial valley soils” and “mountain soils”. These are useful for explaining geographical patterns, but they do not always correspond to one specific RSG. A map legend must therefore not mix formal WRB units, national soil names and broad landscape descriptions. If a simplified map is used, this must be stated clearly in its title and legend.
 
 ### 8.8. Soils Across Major Natural Zones
 
@@ -553,6 +551,8 @@ Soil and landscape research combines field observations, laboratory analyses, ma
 Common methods include soil pits for describing horizons, structure and roots; soil augering and sampling at specified depths; particle-size analysis of sand, silt and clay; chemical analysis of pH, organic carbon, salts and elements; infiltration measurements; vegetation surveys; remote sensing of surface spectral properties; and GIS analysis of relief, soils and land use.
 
 Field and laboratory data should include coordinates, date, sampling depth, method, units and quality information. Satellite vegetation indices are not direct measurements of soil fertility: interpretation requires ground validation and consideration of seasonality.
+
+**Digital soil maps.** SoilGrids is a global digital soil-mapping product in which soil properties are modelled from soil-profile observations and environmental covariates. SoilGrids 2.0 provides predictions at 250 m spatial resolution for six standard depth intervals from 0 to 200 cm, with uncertainty estimates for map cells. These are model predictions, not measurements at every location and not a substitute for local soil surveys. Input observations are unevenly distributed; ISRIC documentation specifically identifies data gaps in Central Asia. Pixel-level detail must therefore not be mistaken for verified local accuracy in Kyrgyzstan. When using these maps, report the version, property, depth interval, units, prediction-uncertainty interval and access date; validate results with field samples before local decisions.
 
 ## 8.16. Итоги главы / Chapter Summary
 
@@ -682,6 +682,8 @@ Salinity thresholds also depend on the classification and measurement method. An
 8. Turner, M. G., Gardner, R. H., & O'Neill, R. V. (2001). *Landscape Ecology in Theory and Practice: Pattern and Process* (1st ed.). Springer. https://doi.org/10.1007/b97434
 9. FAO. **Soil Salinity Assessment: Methods and Interpretation of Electrical Conductivity Measurements** — laboratory methods for saturated-paste extracts and interpretation of soil salinity. https://www.fao.org/4/x2002e/x2002e.pdf
 10. USDA Natural Resources Conservation Service. **Field Book for Describing and Sampling Soils**, Version 4.0 (2024) — distinguishes saturated-paste ECe from other extract ratios and field apparent EC. https://www.nrcs.usda.gov/sites/default/files/2025-04/Field-Book-for-Describing-and-Sampling-Soils-v4.pdf
+11. ISRIC — World Soil Information. **SoilGrids 2.0 documentation and FAQ** — global modelled soil-property maps at 250 m, six depth intervals and mapped prediction uncertainty; includes limitations in regions with sparse profile observations. https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html
+12. Poggio, L. et al. (2021). **SoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty.** *SOIL*, 7, 217–240. https://doi.org/10.5194/soil-7-217-2021
 
 **Примечание:** почвенные классификации, методы отбора проб и показатели деградации могут различаться между странами. В каждом практическом исследовании необходимо указывать применённую методику, глубину отбора проб, дату и источник данных.
 
