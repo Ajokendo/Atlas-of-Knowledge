@@ -103,7 +103,9 @@ async function checkInteractiveBook(mobile) {
     const response = await page.goto(`${base}/original-engine/fluids/`, { waitUntil: 'domcontentloaded', timeout: 15000 });
     if (!response || !response.ok()) throw new Error(`book HTTP ${response?.status() ?? 'missing'}`);
     await page.waitForSelector('#sheet h1', { timeout: 12000 });
-    const guide = await page.locator('#scene-guide').innerText();
+    const guideElement = page.locator('#scene-guide');
+    await guideElement.locator('summary').click();
+    const guide = await guideElement.innerText();
     const sceneTopics = ['Плотность', 'Давление.', 'Давление с глубиной', 'Закон Паскаля', 'Сила Архимеда', 'Плавание и погружение', 'Непрерывность потока', 'Уравнение Бернулли', 'Закон Торричелли'];
     const missingTopics = sceneTopics.filter(topic => !guide.includes(topic));
     if (missingTopics.length) throw new Error(`accessible scene guide is missing: ${missingTopics.join('; ')}`);
