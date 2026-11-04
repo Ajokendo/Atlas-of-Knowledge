@@ -605,6 +605,8 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 - For UN World Population Prospects 2024, identify the exact table or indicator, projection scenario (for example, medium, low or high), territory and extraction date. The 2024 revision provides estimates from 1950 and projections to 2100; projected values depend on the scenario and are not observations. Do not merge WPP estimates with national census counts without explaining the method.
 - When using World Urbanization Prospects 2025, distinguish the international Degree of Urbanization from national definitions of urban and rural areas; identical labels may refer to different statistical units.
 - Все реальные численные сравнения стран и регионов перед публикацией сверять с актуальными переписями и статистическими базами; не переносить условные учебные числа в фактические карты.
+- Числовые примеры в текущей главе являются условными учебными данными; они не описывают фактическое население конкретной страны или региона. Для реальных сравнений и карт указывать точную таблицу/индикатор, сценарий, территорию, базовый год и дату извлечения.
+- The numerical examples in the current chapter are hypothetical teaching data; they do not describe the actual population of a particular country or region. Real comparisons and maps must identify the exact table/indicator, scenario, territory, reference year and extraction date.
 
 ---
 **Конец главы 9 / End of Chapter 9**
