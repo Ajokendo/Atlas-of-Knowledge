@@ -99,11 +99,14 @@ Do not interpret internal technical audit completion as external release accepta
 
 ## Branch-head validation status — 2026-11-05
 
-The successful run above is historical evidence for commit 51fa0dcf9f66a256900c34d793e5e3d4e34bfac6. The Chemistry branch has advanced since that run, including source-code changes to the amount-of-substance calculator and virtual laboratory and subsequent audit/register updates. The available workflow-run lookup does not currently establish a push-triggered run for the current branch head. Therefore:
+<badge>Automated CI PASS</badge> Current Chemistry branch head at commit `7a4d60cca9407e059be913cd390e4ea89ced8c41` passed GitHub Actions run [41911003011](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41911003011).
 
-- [ ] Fresh Chemistry CI for the current branch head — PENDING; do not carry the earlier PASS forward as current evidence.
-- [ ] Reconfirm all 21-page browser checks, 42 RU/EN axe scans, language switching, interactive workflows and 390/768/1280 CSS px overflow checks on the current head.
+- [x] Static Chemistry checks: 22 HTML pages, 90 local links/assets, 21 inline scripts and 18 bilingual pages checked.
+- [x] Chromium browser smoke: all 21 configured pages loaded; 42 axe-core WCAG 2.1 A/AA scans (RU + EN); 21 language toggles and key interactive workflows; no uncaught page errors.
+- [x] Responsive overflow checks at 390, 768 and 1280 CSS px; keyboard focus, accessible control names, image alt attributes, image decoding and other scripted browser checks passed.
 - [ ] Manual Android/iOS, keyboard-only, NVDA/TalkBack/VoiceOver and 200%/400% zoom/reflow checks remain PENDING.
 - [ ] Independent chemistry review and final publication approval remain PENDING.
+- [ ] Visual rights/provenance verification remains PENDING for all 18 integrated visual records; Image Verification is still 0/18.
+- [ ] Chapter 03 periodic-trends candidate still requires local SVG integration and side-by-side scientific/language/accessibility review.
 
-The latest IMAGE-FIRST visual audit also identifies one required visual gap in Chapter 03 (periodic trends). Its Wikimedia Commons English/Russian candidate has item-level creator and licence evidence, but has not yet been imported, reviewed side-by-side or integrated. Do not mark the chapter visual component complete.
+CI PASS is evidence of automated structural and browser checks only. It does not certify legal rights, creator attribution, scientific correctness, translation quality, independent review or manual assistive-technology behaviour.
