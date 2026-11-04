@@ -56,6 +56,25 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 | Retrospective search evidence | 16 / 16 records have dated search notes | The 15 existing integrated records plus the Chapter 03 candidate. This does not prove the original pre-creation search-first sequence. |
 | Search candidates | 7 FOUND / 16 searched | OpenStax titration, OpenStax Daniell-cell, PubChem interactive table, Wikimedia Commons periodic-trends pair, OpenStax functional-groups table, NASA carbon-cycle animation, and Wikimedia Commons particle-comparison SVG. None is adopted; the particle-comparison candidates were not selected for pedagogical fit. |
 
+### Chapter-level visual metrics
+
+| Chapter | Required visuals | Integrated | Image Coverage | Image Verification | Image Gaps |
+|---|---:|---:|---:|---:|---|
+| 01 Atomic structure | 3 | 3 | 100% | 0 / 3 VERIFIED | None identified; rights and manual checks remain open |
+| 02 Chemical elements and isotopes | 1 | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 03 Periodic system | 2 | 1 | 50% | 0 / 1 VERIFIED | Periodic-trends diagram: candidate FOUND, not integrated |
+| 04 Chemical bonding | 1 system (3 models) | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 05 Amount of substance | 1 | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 06 Chemical formulae | 1 | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 07 Solutions | 1 | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 08 Acids and bases | 1 | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 09 Chemical reactions | 1 | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 10 Redox | 1 | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 11 Organic chemistry | 1 | 1 | 100% | 0 / 1 VERIFIED | None identified; rights and manual checks remain open |
+| 12 Chemistry of life and environment | 2 | 2 | 100% | 0 / 2 VERIFIED | None identified; rights and manual checks remain open |
+
+**Totals:** 16 required visual units, 15 integrated, 93.75% provisional Image Coverage; 0/15 integrated visuals VERIFIED; one known gap in Chapter 03. A chapter showing 100% coverage is not thereby verified: the rights, provenance, scientific, language, accessibility and technical checks may still be pending.
+
 ### Chapter 03 candidate rights finding
 
 A suitable bilingual candidate was located on Wikimedia Commons on 2026-11-05. The English original by Mirek2 is dedicated under CC0 1.0. The Russian derivative by Донор is licensed CC BY-SA 4.0 and identifies the English source; its file history records a later edit by Землеройкин. The exact source pages and licence deeds are recorded in IMAGE_SOURCES.md. These item-level source/licence checks are complete for the candidate files, but the candidate is not integrated and does not increase Image Coverage or Image Verification. Scientific, language, accessibility and local-file integration checks remain PENDING.
