@@ -676,3 +676,5 @@ The chapter-level audit records were added to each source chapter. Findings and 
 - Updated the Russian and English age-sex-pyramid practical activity references from Figure 9.3 to Figure 9.4.
 - The complete visual backlog is therefore **seven** assets: 09-A–09-G, with seven numbered figure captions 9.1–9.7. None has been generated or integrated. Readiness remains 90% pending those assets and their later scientific/accessibility review.
 - Chapter commits: `e7ffa637cc08292c6313e7041fae2938a6c937e6` (figure inventory and numbering); `c18fb8c999f4a815d5aecef9b7b90d5351ec9b6f` (corrected remaining-work count). Matrix commit: `769b4e4b67f798efe15aaba3147b6f2b84a3d4eb`.
+
+- Follow-up matrix correction: updated the visual-count column from 6 to **7** to match the seven distinct figure briefs and placeholders 09-A–09-G. Matrix commit: `0840b05e77a41a9b86954860d40ac54cffbe6511`.
