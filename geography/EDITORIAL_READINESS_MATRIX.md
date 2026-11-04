@@ -206,3 +206,8 @@ A further targeted correction pass was committed across all five chapters: catch
 - **Chapter 06:** made the basin practical assignment internally continuous: the mean-discharge calculation now uses the 2.5 km³ runoff volume derived from 250 mm over 10,000 km², yielding approximately 79.3 m³/s over a 365-day year. Russian and English steps and worked calculations are aligned. Commit: `3c2f61d1cca4add4f68974f7ca18edc374b2a23f`.
 - **Chapter 10:** strengthened the statehood and recognition explanation in both languages with the Montevideo Convention's four often-cited qualifications, its Article 3 position, the Convention's regional scope, and a concise distinction between declaratory and constitutive approaches without presenting either as a complete mechanical test. Added a treaty source and current scholarly reference. Commit: `6edda39164e53fbc7f68380135cd27d42c26bdde`.
 - These are substantive improvements to pedagogical coherence and legal accuracy. Chapter scores are not changed by this note; reassessment remains conditional on the complete rubric, not on the number of commits.
+
+
+### Chapter 07 — IUCN guidance reference update — 5 November 2026
+
+- Added the IUCN Red List Guidelines, Version 16 (March 2024), alongside the 2012 Categories and Criteria standard, so the chapter distinguishes the core category framework from current application guidance. Commit: `bb8dbba6a65c311b56902b171c6d538f12b96ac1`.
