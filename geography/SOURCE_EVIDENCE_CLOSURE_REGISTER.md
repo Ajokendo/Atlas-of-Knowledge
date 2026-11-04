@@ -403,3 +403,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 09 — population-density source definition — 5 November 2026
 
 - Added the direct World Bank EN.POP.DNST indicator page to the bibliography. Its label explicitly defines the denominator as land area (people per square kilometre of land area), supporting the chapter's instruction to distinguish land area from total or inhabited area. Commit: `9bc90598c64ad4dc6a75224abf9f604de3d51e1b`.
+
+
+### Chapter 09 — mid-year population denominator consistency — 5 November 2026
+
+- Harmonised the Russian and English wording and notation for crude birth, crude death, natural-change and migration rates. Both language versions now identify mid-year population as the denominator commonly used as an approximation to average annual population, while requiring the source's exact definition to be checked. Updated the hypothetical examples and practical task wording to match. Commit: `5c1bfc245381922f300ed1758618f7ddf75919d0`.
