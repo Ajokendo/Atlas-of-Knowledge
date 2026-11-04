@@ -1,6 +1,6 @@
 # Biology image insertion map
 
-> This is the production hand-off for the 52 in-page image notes. The note's exact position is the insertion anchor: when an asset is approved, replace the matching `<aside id="image-brief-ID">` with a semantic `<figure>` at the same location. Do not append a duplicate image elsewhere.
+> This is the production hand-off for the 53 in-page image notes. The note's exact position is the insertion anchor: when an asset is approved, replace the matching `<aside id="image-brief-ID">` with a semantic `<figure>` at the same location. Do not append a duplicate image elsewhere.
 
 ## Asset conventions
 
@@ -31,7 +31,7 @@
 | `image-brief-cell-cycle` | `chapters/cell-biology.html` | P2 | `../images/generated/cell-cycle.svg` | SVG · 4:3 viewBox | **Фазы клеточного цикла и контрольные точки / Cell-cycle phases and checkpoints.** Круговая схема G₁, S, G₂ и M, с контрольными точками G₁/S, G₂/M, веретена деления и ветвью выхода в G₀. |
 | `image-brief-ecology-web` | `chapters/ecology.html` | P3 | `../images/generated/ecology-web.webp` | 4:3 | **Пищевая сеть горной экосистемы / Food web of a mountain ecosystem.** Схематичная пищевая сеть горно-луговой экосистемы Центральной Азии: растения, травоядные, хищники и редуценты; стрелки направлены от ресурса к потребителю. |
 | `image-brief-ecology-cycles` | `chapters/ecology.html` | P2 | `../images/generated/ecology-cycles.svg` | SVG · 4:3 viewBox | **Круговороты вещества в экосистеме / Matter cycles in an ecosystem.** Двуязычная инфографика углеродного и азотного циклов; различать перенос углерода и микробные превращения азота. |
-| `image-brief-ecology-mountain` | `chapters/ecology.html` | P2 | `../images/generated/ecology-mountain.webp` | 4:3 | **Экосистема горного водосбора / Mountain catchment ecosystem.** Цельный ландшафтный разрез от ледников и альпийских лугов через лесной пояс к реке и долине; показать связи воды, почвы, растений и животных без вымышленных видов. |
+| `image-brief-ecology-mountain` | `chapters/ecology.html` | P2 | `../images/generated/ecology-mountain.svg` | SVG · 4:3 viewBox | **Экосистема горного водосбора / Mountain catchment ecosystem.** Цельный ландшафтный разрез от ледников и альпийских лугов через лесной пояс к реке и долине; показать связи воды, почвы, растений и животных без вымышленных видов. |
 | `image-brief-evolution-tree` | `chapters/evolution.html` | P3 | `../images/generated/evolution-tree.webp` | 4:3 | **Филогенетическое дерево и общий предок / Phylogenetic tree and common ancestry.** Научная схема ветвящегося дерева с узлами общего происхождения, сестринскими группами и корректным чтением эволюционного родства; не использовать лестничную модель прогресса. |
 | `image-brief-evolution-homology` | `chapters/evolution.html` | P2 | `../images/generated/evolution-homology.webp` | 4:3 | **Сравнение гомологичных и аналогичных органов / Homologous and analogous structures.** Сравнительная пластина конечностей позвоночных и функционально сходных структур разного происхождения; подчёркивать различие общего происхождения и сходной функции. |
 | `image-brief-evolution-timeline` | `chapters/evolution.html` | P2 | `../images/generated/evolution-timeline.webp` | 4:3 | **История жизни на геологической шкале / History of life on the geological timescale.** Хронологическая панорама ключевых этапов истории жизни с пропорциональной геологической шкалой и аккуратными временными границами; не изображать эволюцию как линейный ряд. |
@@ -71,10 +71,14 @@
 
 ## Completion status
 
-The map retains 52 planned visual briefs. Twenty-six briefs are produced or integrated (50.0%): 15 source-backed local WebP photographs and 21 original SVG schematics across anatomy, biochemistry, flora and fauna chapters; the other 26 briefs remain deferred in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The regional fauna SVGs include Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken and Talas; the Chüy fauna brief contains six locally licensed photographs, and the Batken flora brief now contains an original *Fritillaria eduardii* botanical SVG. This is a measured production update, not a claim that the full image programme is complete.
+The map retains 53 planned visual briefs. Thirty-two briefs are produced or integrated (60.4%): 15 source-backed local WebP photographs and 21 original SVG schematics across anatomy, biochemistry, flora and fauna chapters; the other 21 briefs remain deferred in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The regional fauna SVGs include Jalal-Abad, Issyk-Kul, Naryn, Osh, Batken and Talas; the Chüy fauna brief contains six locally licensed photographs, and the Batken flora brief now contains an original *Fritillaria eduardii* botanical SVG. This is a measured production update, not a claim that the full image programme is complete.
 
-All 52 in-page insertion anchors are present. The 14 regional flora/fauna anchors that had been missing were restored as bilingual planned markers, replacing references to absent image files. No substitute images were invented. The produced Chüy figure preserves its original insertion ID.
+All 53 in-page insertion anchors are present. The 14 regional flora/fauna anchors that had been missing were restored as bilingual planned markers, replacing references to absent image files. No substitute images were invented. The produced Chüy figure preserves its original insertion ID.
 
 An asset is considered produced only when the original source, creator and licence are verified, the local derivative exists, scientific/editorial review is complete, bilingual alt text and caption are integrated, and the focused browser check passes.
 
 **Latest validation (3 November 2026):** GitHub Actions run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41593844049 passed. Static checks: 13 HTML pages, 93 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Browser checks: 13 pages at mobile and desktop widths, 30 language-toggle interactions, no uncaught page errors, and 21,523 text instances sampled for contrast with zero below-threshold results. 
+
+## Ecology mountain catchment — 4 November 2026
+
+The original `ecology-mountain.svg` plate is integrated at the existing `image-brief-ecology-mountain` anchor in `chapters/ecology.html`. It is a generalized Central Asian mountain-watershed scene, not a named-site map. It shows glacier-fed runoff, streams, soil infiltration, subsurface flow, alpine meadow, forest and juniper slopes, and a river valley; it uses no species labels or fixed elevation claims.
