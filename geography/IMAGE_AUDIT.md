@@ -526,3 +526,8 @@ The bilingual 5.18-A placeholder remains and is not counted as an integrated ima
 - Checked Everest's 8,848.86 m ± 0.06 m IHRS snow-surface height against Xie et al. (2022); checked Challenger Deep's 10,935 m ± 6 m (95% CI) pressure-derived value against Greenaway et al. (2021); and checked the 10,927 m preferred gridded estimate plus 10,914–10,932 m model-sensitivity envelope against Fujii et al. (2026).
 - Confirmed that the sensitivity range is not labelled as a confidence interval, that the 2026 result is not presented as a definitive redetermination, and that the figure warns the vertical comparison is not one linear scale.
 - Scientific/data-claim result for 4.13-A: **PASS**. The SVG's creator/rightsholder, project licence, technical rendering and full accessibility review remain PENDING; therefore lifecycle status remains INTEGRATED, not VERIFIED.
+
+
+### 7.8 Marker repetition scan — Chapters 06–26
+
+A source scan of all chapter files 06–26 found **210 distinct visual IDs** across those 21 chapters. Every enumerated ID appears at least twice in its chapter file. This is consistent with repeated teaching-location/production-brief references, but repetition alone does not prove that the Russian and English contexts are semantically equivalent. The chapter files in this range still have zero Markdown image embeds except the four local SVG placements in Chapters 18–20 recorded above. Therefore the repeated IDs are not evidence of finished visuals; the relevant items remain placeholders/briefs pending actual asset integration and per-dimension review.
