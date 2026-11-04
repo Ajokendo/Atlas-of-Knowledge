@@ -257,3 +257,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 10 — ICJ Statute source-access issue resolved — 5 November 2026
 
 - Replaced the ICJ-hosted Statute URL, which returned HTTP 403, with the official UN full-text Statute page. The new source is part of the UN Charter resource set and provides the complete annexed Statute. Commit: `5f43b92078b7b9f7351dc95b293009e378889555`.
+
+
+### Chapter 10 — Montevideo Convention source cross-check — 5 November 2026
+
+- Separated treaty text references from treaty metadata by adding the U.S. Department of State and University of Oslo text records plus OAS and UN Treaty Collection metadata records. Articles 1 and 3 were checked against the treaty text. Commit: `f2a8d5c3f3845166700f11be255f1c59280967f4`.
