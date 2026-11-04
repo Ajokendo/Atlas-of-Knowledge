@@ -683,6 +683,7 @@ Salinity thresholds also depend on the classification and measurement method. An
 10. USDA Natural Resources Conservation Service. **Field Book for Describing and Sampling Soils**, Version 4.0 (2024) — distinguishes saturated-paste ECe from other extract ratios and field apparent EC. https://www.nrcs.usda.gov/sites/default/files/2025-04/Field-Book-for-Describing-and-Sampling-Soils-v4.pdf
 11. ISRIC — World Soil Information. **SoilGrids 2.0 documentation and FAQ** — global modelled soil-property maps at 250 m, six depth intervals and mapped prediction uncertainty; includes limitations in regions with sparse profile observations. https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html
 12. Poggio, L. et al. (2021). **SoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty.** *SOIL*, 7, 217–240. https://doi.org/10.5194/soil-7-217-2021
+13. United Nations Convention to Combat Desertification (UNCCD). **Convention text, Article 1: Use of terms** — formal definitions of desertification, land degradation and drylands. https://www.unccd.int/article-1-use-terms
 
 **Примечание:** почвенные классификации, методы отбора проб и показатели деградации могут различаться между странами. В каждом практическом исследовании необходимо указывать применённую методику, глубину отбора проб, дату и источник данных.
 
@@ -694,6 +695,11 @@ The numerical examples in this chapter are instructional; they are not results f
 **Конец главы 8 / End of Chapter 8**
 
 ## Focused scientific and editorial audit record — 5 November 2026
+
+- **UNCCD terminology:** distinguished the chapter's broad teaching description of land degradation from the Convention's formal dryland definition; aligned the desertification wording in both languages with UNCCD Article 1 and added the official Convention text to the bibliography.
+- **Bilingual structure and placement:** moved the English salinity subsection directly after English methods, the English summary after the Russian summary, English review questions alongside the Russian questions, and English practical activities alongside the Russian activities. The RU/EN sequence now follows the same section order.
+- **Terminology:** replaced the ambiguous soil-process label “carbonation” with “calcification (carbonate accumulation)” and qualified “landscape facies” in both languages to distinguish it from geological facies.
+- **SoilGrids uncertainty:** specified that the 90% prediction interval is represented by the 5th and 95th percentiles for each mapped property and depth interval.
 
 - **WRB classification versus descriptive soil geography:** added the 32 Reference Soil Groups (RSGs) framework and clarified that broad expressions such as “steppe soils” or “mountain soils” are not automatically formal WRB units. Revised the bilingual map brief to prevent mixing WRB groups, national classes and modelled soil-property layers.
 - **SoilGrids interpretation:** added the 250 m / six-depth-interval / prediction-uncertainty explanation in both languages, including the documented Central Asian observation gap and a requirement for field validation before local decisions.
