@@ -59,7 +59,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 В описании почвенных профилей широко используются обозначения главных горизонтов и слоёв. В системе WRB применяются, в частности, H, O, A, E, B, C и R; их наличие и последовательность зависят от почвы:
 - **H** — органический горизонт или слой, обычно связанный с длительным переувлажнением и торфяным материалом;
 - **O** — органический горизонт или слой, не относящийся к торфяным и лимническим отложениям, обычно состоящий из растительных остатков и другого органического материала;
-- **A** — минеральный верхний горизонт с накоплением гумуса и активной биологической переработкой;
+- **A** — верхний минеральный горизонт, часто с накоплением гумуса и активной биологической переработкой;
 - **E** — горизонт элювиального вымывания, часто более светлый из-за потери глины, железа, алюминия или органических соединений;
 - **B** — горизонт накопления или преобразования веществ, вынесенных из верхних горизонтов, либо формирования специфической структуры;
 - **C** — слабопреобразованный материал, из которого формируется почва;
@@ -267,7 +267,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 Точные определения и иерархия этих единиц зависят от научной школы. В атласе следует придерживаться одной терминологической системы и объяснять её читателю.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 08-F / IMAGE PLACEHOLDER 08-F]** Блок-диаграмма морфологической структуры ландшафта с урочищами, фациями и местоположениями согласно принятой классификации. / **EN:** Block diagram of landscape morphology showing land units and facies according to a stated classification.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 08-F / IMAGE PLACEHOLDER 08-F]** Блок-диаграмма морфологической структуры ландшафта с фациями, урочищами и местностями согласно принятой классификации. / **EN:** Block diagram of landscape morphology showing land units and facies according to a stated classification.
 **Рисунок 8.6 / Figure 8.6 — Морфологическая структура ландшафта / Morphological structure of a landscape.**  
 Техническое задание: схематический блок-диаграммный ландшафт с водоразделом, склоном, террасой, поймой и долиной; выделить фации и урочища условными контурами; подписать взаимосвязи стока и переноса вещества.
 **EN production brief:** Create a schematic block diagram of a landscape with a watershed divide, slope, terrace, floodplain and valley. Outline facies and landscape units schematically, and label runoff and material-transfer connections.
@@ -381,7 +381,7 @@ Soil-profile descriptions use symbols for master horizons and layers. The WRB sy
 
 - **H:** an organic horizon or layer generally associated with prolonged water saturation and peat material;
 - **O:** an organic horizon or layer that is not peat or limnic material, usually consisting of plant remains and other organic matter;
-- **A:** upper mineral horizon with humus accumulation and active biological processing;
+- **A:** upper mineral horizon, often with humus accumulation and active biological processing;
 - **E:** eluviated horizon, often lighter in colour because clay, iron, aluminium or organic compounds have been removed;
 - **B:** horizon where materials from upper layers accumulate or are transformed, or where a distinctive structure develops;
 - **C:** weakly altered material from which the soil develops; and
@@ -593,7 +593,7 @@ Salinity thresholds also depend on the classification and measurement method. An
 
 ## 8.17. Ключевые понятия / Key Terms
 
-Почва — Soil; почвообразование — Pedogenesis; материнская порода — Parent material; почвенный профиль — Soil profile; генетический горизонт — Soil horizon; органический горизонт H — H organic horizon; органический горизонт O — O organic horizon; гумус — Humus; гранулометрический состав — Soil texture; структура почвы — Soil structure; пористость — Porosity; плотность сложения — Bulk density; ёмкость катионного обмена — Cation exchange capacity; электропроводность вытяжки из насыщенной пасты (ECe) — Saturated-paste extract electrical conductivity (ECe); засоление — Salinization; осолонцевание — Sodification; эрозия — Erosion; дефляция — Wind erosion/deflation; опустынивание — Desertification; ландшафт — Landscape; ландшафтная фация — Landscape facies; урочище — Urochishche (landscape unit); экотон — Ecotone; ландшафтная экология — Landscape ecology; связность — Connectivity; матрица — Matrix; коридор — Corridor.
+Почва — Soil; почвообразование — Pedogenesis; кальцификация — Calcification; материнская порода — Parent material; почвенный профиль — Soil profile; генетический горизонт — Soil horizon; органический горизонт H — H organic horizon; органический горизонт O — O organic horizon; гумус — Humus; гранулометрический состав — Soil texture; структура почвы — Soil structure; пористость — Porosity; плотность сложения — Bulk density; ёмкость катионного обмена — Cation exchange capacity; электропроводность вытяжки из насыщенной пасты (ECe) — Saturated-paste extract electrical conductivity (ECe); засоление — Salinization; осолонцевание — Sodification; эрозия — Erosion; дефляция — Wind erosion/deflation; опустынивание — Desertification; ландшафт — Landscape; ландшафтная фация — Landscape facies; урочище — Urochishche (landscape unit); экотон — Ecotone; ландшафтная экология — Landscape ecology; связность — Connectivity; матрица — Matrix; коридор — Corridor.
 
 ## 8.18. Контрольные вопросы и задания / Review Questions and Activities
 
