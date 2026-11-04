@@ -293,3 +293,15 @@ A cross-check of the 12 Biology subject chapters matched all local image referen
 - Some flora figures group multiple documentary photographs in one captioned figure; image counts therefore exceed figure counts in that chapter. The grouping is intentional and was not misreported as missing captions.
 
 This is source-level integration/accessibility validation. It does not verify the rendered appearance, colour contrast, keyboard/screen-reader behaviour on actual devices, or the legal and taxonomic correctness of every photographic subject. Those gates remain separately tracked; Global Image Verification remains **Pending audit**.
+
+
+## Regional chapter-to-illustration semantic cross-check — 5 November 2026
+
+A focused cross-check covered the 18 figures in `chapters/fauna-kyrgyzstan.html` and the 8 figures in `chapters/flora-kyrgyzstan.html`. The HTML alternative text and bilingual captions were compared with the relevant SVG titles, descriptions and visible text labels where source text was available; the documentary-photo captions were checked for consistency with their stated role as local habitat examples rather than comprehensive regional inventories.
+
+- The regional SVG set distinguishes habitat reconstructions from range maps, censuses and single-site observations. Separate panels are explicitly described as separate ecological settings; generic fish and waterbird silhouettes are not presented as species identifications.
+- The Batken marmot panel retains the survey-specific 4,146 figure and the unspecified `Marmota spp.` identification. The Naryn and Osh panels distinguish habitat scenes from abundance estimates; the Kulun-Ata camera-trap source is dated and framed as evidence of presence, not population size.
+- The Aygul plate is identified as a schematic of `Fritillaria eduardii`, with `Petilium eduardii` labelled as a synonym. Vegetation diagrams consistently qualify altitudinal transitions as mosaics rather than universal fixed elevation bands.
+- The 15 documentary photographs remain captioned as specific local examples (for example, Arslanbob walnut forest, Issyk-Kul shoreline/foothill/sea-buckthorn/spruce settings, Naryn lake/meadow/plant examples, and Kulun-Ata riparian vegetation); captions do not claim to represent complete oblast-wide flora.
+
+No proven mismatch between the sampled SVG source labels/descriptions and the corresponding chapter alt/caption wording was found. This remains a source-text and semantic consistency review: it is not fresh pixel-level inspection of all WebP photographs, rendered-browser review, or independent taxonomic certification. Global Image Verification remains **Pending audit**.
