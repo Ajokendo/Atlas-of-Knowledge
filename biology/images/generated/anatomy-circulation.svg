@@ -37,7 +37,7 @@
 <text x="600" y="609" text-anchor="middle" class="small">Valves maintain one-way flow</text>
 <!-- flow arrows -->
 <path class="blue" marker-end="url(#blueArrow)" d="M510 455C400 470 350 390 330 270"/>
-<path class="blue" marker-end="url(#blueArrow)" d="M395 195C435 195 465 220 490 270"/>
+<path class="red" marker-end="url(#redArrow)" d="M395 195C435 195 465 220 490 270"/>
 <path class="red" marker-end="url(#redArrow)" d="M710 270C745 220 770 195 805 195"/>
 <path class="red" marker-end="url(#redArrow)" d="M890 270C860 420 790 470 690 455"/>
 <text x="405" y="505" class="small" fill="#397ba8">Лёгочная артерия / Pulmonary artery</text>
