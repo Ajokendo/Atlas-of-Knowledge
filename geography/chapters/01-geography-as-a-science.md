@@ -178,7 +178,7 @@
 
 ## 1.8. Карта как язык географии / The Map as the Language of Geography
 
-Карта передаёт пространственную информацию с помощью масштаба, проекции, условных знаков, цветов, подписей и легенды. Она не является нейтральной копией поверхности Земли: любой картографический продукт создаётся для определённой цели и неизбежно отбирает и обобщает информацию.
+Карта передаёт пространственную информацию с помощью масштаба, проекции, условных знаков, цветов, подписей и легенды. Она не является нейтральной копией поверхности Земли: любой картографический продукт создаётся для определённой цели и неизбежно отбирает и обобщает информацию. Проекция — это способ перенести координаты с кривой поверхности Земли на плоскость. При таком переносе неизбежно возникают искажения: разные проекции по-разному сохраняют площади, формы, расстояния или направления; ни одна плоская карта не сохраняет всё одновременно. Поэтому проекцию выбирают с учётом назначения карты и того свойства, которое особенно важно показать.
 
 При чтении карты задайте вопросы:
 
@@ -210,7 +210,7 @@
 
 Затем географические подходы применяются к Кыргызстану — горной стране в Центральной Азии. Её природные системы, население, хозяйство и транспорт невозможно понять изолированно: они связаны с Тянь-Шанем и Памиро-Алаем, речными бассейнами, климатом, соседними государствами, историческими маршрутами и международными экономическими отношениями.
 
-В энциклопедической части особое внимание уделяется всем семи областям Кыргызстана. Для каждой области важно рассматривать не только административные границы, но и природную основу, население, поселения, экономику, транспорт, культурное наследие, экологические проблемы и перспективы развития. Бишкек и Ош следует учитывать отдельно там, где их административный статус отличается от статуса областных центров.
+В энциклопедической части особое внимание уделяется всем семи областям Кыргызстана: Баткенской, Джалал-Абадской, Иссык-Кульской, Нарынской, Ошской, Таласской и Чуйской. Бишкек и Ош имеют статус городов республиканского значения и в административно-статистических материалах рассматриваются отдельно от областей. Для каждой области важно рассматривать не только административные границы, но и природную основу, население, поселения, экономику, транспорт, культурное наследие, экологические проблемы и перспективы развития.
 
 ## 1.10.1. Практический пример: как читать масштаб карты / Worked Example: Reading a Map Scale
 
@@ -439,7 +439,7 @@ These methods are explored in greater detail in Chapters 14–16. They do not re
 
 ### 1.8. The Map as the Language of Geography
 
-A map communicates spatial information through scale, projection, symbols, colours, labels and a legend. It is not a neutral copy of Earth's surface: every map is designed for a particular purpose and necessarily selects and generalises information.
+A map communicates spatial information through scale, projection, symbols, colours, labels and a legend. It is not a neutral copy of Earth's surface: every map is designed for a particular purpose and necessarily selects and generalises information. A projection is a method of transferring coordinates from Earth's curved surface to a plane. This transfer inevitably introduces distortion: different projections preserve area, shape, distance or direction in different ways, and no flat map preserves them all at once. A projection should therefore be selected according to the map's purpose and the property that matters most.
 
 When reading a map, ask:
 
@@ -471,7 +471,7 @@ This atlas moves from general principles to regional and country-level analysis.
 
 These approaches are then applied to Kyrgyzstan, a mountainous country in Central Asia. Its natural systems, population, economy and transport cannot be understood in isolation: they are connected with the Tien Shan and Pamir–Alay, river basins, climate, neighbouring states, historical routes and international economic relations.
 
-The encyclopaedic section gives particular attention to all seven regions of Kyrgyzstan. Each region should be examined not only through its administrative boundaries but also through its natural foundations, population, settlements, economy, transport, cultural heritage, environmental challenges and development prospects. Bishkek and Osh should be treated separately wherever their administrative status differs from that of oblast centres.
+The encyclopaedic section gives particular attention to all seven oblasts of Kyrgyzstan: Batken, Jalal-Abad, Issyk-Kul, Naryn, Osh, Talas and Chui. Bishkek and Osh have the status of cities of republican significance and are treated separately from the oblasts in administrative and statistical materials. Each oblast should be examined not only through its administrative boundaries but also through its natural foundations, population, settlements, economy, transport, cultural heritage, environmental challenges and development prospects.
 
 ### 1.11. Practical Activities
 
