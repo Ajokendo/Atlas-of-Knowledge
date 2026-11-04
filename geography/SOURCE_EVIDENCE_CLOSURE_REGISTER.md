@@ -458,3 +458,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 08 — soil pH measurement comparability — 5 November 2026
 
 - Expanded the bilingual pH explanation: logarithmic scale, approximate tenfold hydrogen-ion activity difference per pH unit, and the need to identify the extraction solution and soil-to-solution ratio. This prevents direct comparison of pH values obtained by different laboratory protocols without qualification. Commit: `d4650bc368a48150168240b64056d32b879e8372`.
+
+
+### Chapter 08 — WRB organic horizon coverage — 5 November 2026
+
+- Expanded the bilingual soil-profile overview to include the WRB H horizon for organic/peat material, distinguished from the O horizon; updated the profile illustration specification accordingly. Checked against WRB Fourth Edition 2022, Annex 3 (corrected 2024). Commit: `9bae5672e0a7568f098d1c590d72b72cbb8bfe33`.
