@@ -427,3 +427,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapters 06–10 — English-copy worked-example parity — 5 November 2026
 
 - Added the missing worked examples and methods subsections to the standalone English chapter copies: Ch06 6.13.1/6.17.1; Ch07 7.4.1/7.15.1; Ch08 8.4.1/8.15.1; Ch09 9.8.1/9.16.1; Ch10 10.5.1/10.15.1. Rechecked numbered teaching-heading parity: zero missing or extra IDs across all five chapters (29, 17, 17, 18 and 17 matched headings). This closes a structural bilingual gap, but does not replace sentence-level translation proofreading.
+
+
+### Chapter 06 — bilingual key-term glossary — 5 November 2026
+
+- Added a bilingual list of 25 key terms spanning hydrology, oceanography, groundwater and water scarcity to strengthen the chapter's independent study and review apparatus. Commit: `f827509fd7b9bba5c2d7ff441017fab4cd66a708`.
