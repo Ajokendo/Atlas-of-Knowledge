@@ -438,3 +438,6 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Aligned the bilingual review question with the revised WRB profile description by including H alongside O, A, E, B, C and R. Commit: `0b0bde34740ed99d720cfa54ece4080e83c81e91`.
+
+
+- Aligned the RU/EN review questions in Ch06 and Ch10 with the corrected ocean-boundary and UNCLOS maritime-zone content; the Ch10 question now explicitly distinguishes the Area from the high seas. Commits: `7c616f8cb2ea1fe3adb40286162897b37ff00eb7`, `e7f0577ac6598b0a9147a3a77d646878451d2d59`.
