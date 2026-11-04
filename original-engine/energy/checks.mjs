@@ -55,6 +55,8 @@ const Es = Array.from({ length: 200 }, (_, i) => { const p = M.pendulum(i * Pd.p
 check('pendulum: K + U_g constant (RK4, 1 ms)', Es.every(E => near(E, Pd.E, 1e-6)), `${Pd.E.toFixed(3)} J`);
 check('pendulum: Hermite interpolation preserves K + U between RK4 samples', (() => { let worst = 0; for (let i = 0; i <= 2000; i++) { const p = M.pendulum((i + 0.371) * Pd.period / 2000); worst = Math.max(worst, Math.abs(p.K + p.U - Pd.E) / Pd.E); } return worst < 1e-9; })());
 check('pendulum: returns to θ0 after the exact period', near(M.pendulum(Pd.period - 1e-9).th, Pd.th0, 1e-6), `T ${Pd.period.toFixed(4)} s`);
+check('pendulum: reaches the opposite turning point after half a period', (() => { const p = M.pendulum(Pd.period / 2); return near(p.th, -Pd.th0, 1e-6) && Math.abs(p.om) < 1e-6; })(), 'symmetric turning point');
+check('pendulum: starts from rest and returns to rest after one full period', Math.abs(M.pendulum(0).om) < 1e-12 && Math.abs(M.pendulum(Pd.period - 1e-9).om) < 1e-6, 'release and return');
 check('pendulum: period a little longer than 2π√(L/g)', Pd.period > 2 * Math.PI * Math.sqrt(Pd.L / M.G) && Pd.period < 1.04 * 2 * Math.PI * Math.sqrt(Pd.L / M.G));
 check('pendulum: bottom speed √(2gL(1−cos θ0))', near(Math.abs(M.pendulum(Pd.period / 4).v), Math.sqrt(2 * M.G * Pd.L * (1 - Math.cos(Pd.th0))), 1e-5));
 check('pendulum: dθ/dt = ω', [0.3, 1.1].every(t => near(d(M.pendulum, t, 'th'), M.pendulum(t).om, 1e-3)));
