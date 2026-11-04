@@ -194,3 +194,16 @@
 | CO₂ values | NOAA Global Monitoring Laboratory and WMO Greenhouse Gas Bulletin No. 22 | Keep the NOAA marine-site annual mean (425.6 ppm, preliminary for 2025) distinct from the WMO global surface estimate (426.8 ppm for 2025); they are not interchangeable series. |
 
 **Scope note:** These updates close specific source and terminology defects; they do not constitute exhaustive sentence-by-sentence verification of either chapter. Visual briefs, final artwork, full translation proofread and browser/device/accessibility checks remain separate workstreams.
+
+
+### Chapter 02 — additional claim-matched references — 4 November 2026
+
+| Claim group | Additional source | Evidence and limitation |
+|---|---|---|
+| Carbon reservoirs, photosynthesis, respiration, decomposition, ocean exchange and fossil-fuel emissions | NOAA, *Carbon Cycle* | Supports the qualitative pathways in the chapter; no annual flux values are imported from this page. |
+| Solar heating, atmospheric/ocean circulation and planetary energy balance | NASA Earth Observatory, *Climate and Earth's Energy Budget* | Supports the explanation that incoming solar energy is redistributed and balanced by outgoing thermal radiation. Numerical energy-budget fractions should retain their own source/date if later added to figures. |
+| Nitrogen fixation, nitrification and denitrification | UNEP, *Beat Nitrogen Pollution*; University of Missouri Extension, *Nitrogen in the Environment: Nitrogen Cycle* | Supports the school-level sequence and microbial role. The chapter's table is a simplified cycle, not an exhaustive list of all soil nitrogen transformations or fluxes. |
+| Phosphorus cycle and eutrophication | Open University, *Eutrophication: Phosphorus* | Supports phosphorus's sedimentary/biological pathway, lack of a major gaseous phase and eutrophication connection. |
+| Planetary-boundary status | Richardson et al. (2023), *Science Advances* | The “six of nine boundaries transgressed” result is a 2023 assessment. It must not be presented as the current 2026 status; chapter text currently names the framework's nine processes without assigning a present-day status. |
+
+**Outstanding scientific checks for Chapter 02:** verify detailed claims on lithosphere/tectonic processes against a named geology source; trace atmospheric composition percentages to a specific NOAA table or equivalent primary data page; ensure any future planetary-boundary graphic is explicitly labelled with the assessment publication/year and its own reuse terms.
