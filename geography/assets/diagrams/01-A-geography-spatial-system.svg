@@ -8,7 +8,7 @@
 <path d="M650 450 Q700 390 750 450 T850 450" fill="none" stroke="#397b73" stroke-width="8"/>
 <path d="M670 480 Q730 420 790 480 T850 480" fill="none" stroke="#397b73" stroke-width="6"/>
 <path d="M700 380l50-40 45 40" fill="none" stroke="#8a6b45" stroke-width="9" stroke-linejoin="round"/>
-<text x="750" y="550" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d">Place / Место</text>
+<text x="750" y="550" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d">Earth / Земля</text>
 <g font-family="Arial,sans-serif" text-anchor="middle">
 <rect x="70" y="150" width="390" height="155" rx="24" fill="#dcecf8" stroke="#3979a8" stroke-width="4"/>
 <text x="265" y="205" font-size="31" font-weight="700" fill="#174e78">Land &amp; water</text><text x="265" y="248" font-size="27" fill="#17324d">Рельеф и воды</text>
