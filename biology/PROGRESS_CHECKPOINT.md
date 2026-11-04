@@ -1175,3 +1175,12 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - All 13 Biology HTML pages passed at 390×844 and 1365×900; 30 language-toggle interactions; no uncaught page errors.
 - Preliminary contrast sampler: 19,373 visible text instances, 0 below threshold. Automated axe WCAG checks, keyboard/focus, skip-link, interaction, overflow, image decode/intrinsic-dimension/alt and inline-SVG geometry checks passed.
 - This closes the automated responsive browser-render/asset-loading check for that commit. It does not replace human pixel-level image/morphology review or physical school-device QA. Global Image Verification remains Pending audit.
+
+
+### Human visual review and correction pass — 5 November 2026
+
+- Generated and manually inspected full-page desktop screenshots for the Biology index and all 12 chapters (13 pages total); screenshot artifact from CI run [41910231926](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41910231926), commit `428fcd79932a9e85e182ba01285558435bc16428`.
+- Corrected visible issues in the regional index language spans; thermoregulation, biomolecule, DNA-packaging, membrane-transport and microbe-comparison label spacing; evolution homology key and geological timeline callouts; central-dogma caption clipping; ribosome peptide-chain label placement; and cellular-respiration diagram layout/proton-flow depiction.
+- Latest CI passed: 13 pages at mobile and desktop widths, 30 language-toggle interactions, no uncaught page errors, 19,331 contrast-sampled text instances with 0 below threshold, and image-decode / SVG-geometry checks. Automated axe, keyboard/focus and overflow checks passed.
+- Page-render visual QA is recorded as completed for this pass. It does **not** certify detailed morphology or source/caption correctness for every individual image; Global Image Verification remains Pending audit. Independent specialist review and school/device QA remain separate stages.
+- Overall Biology editorial readiness remains **99/100**; no unsupported percentage increase is assigned while asset-specific verification remains open.
