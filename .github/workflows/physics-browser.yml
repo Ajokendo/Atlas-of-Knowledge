@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: physics-browser-kinematics
+  group: physics-browser-${{ github.sha }}
   cancel-in-progress: true
 
 jobs:
