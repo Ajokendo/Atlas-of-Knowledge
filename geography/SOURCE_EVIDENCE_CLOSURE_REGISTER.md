@@ -1,6 +1,6 @@
 # Geography — Source and Evidence Closure Register
 
-**Snapshot:** 2 November 2026  
+**Snapshot:** 4 November 2026  
 **Canonical branch:** `workspace/geography`  
 **Purpose:** record source-link checks, bibliographic corrections and claim-to-source checks. This is a working evidence register, not a claim that every sentence or every bibliography entry has been exhaustively verified.
 
@@ -169,3 +169,28 @@
 - Final reference-by-reference pass completed for all 34 bibliography entries; each entry was checked for topical relevance to the chapter and publication identity. The USGS Fact Sheet 2004–3072 legacy URL was replaced with the canonical DOI record (10.3133/fs20043072).
 - Final numerical/terminology sweep completed. The contour-slope example and self-check calculations were independently recomputed; dated Everest and Challenger Deep measurements remain distinguished by method, reference and uncertainty; DEM/DSM/DTM wording retains the dataset-metadata caveat.
 - Textual scientific/editorial audit is closed at 100%. This does not close visual production, map-data licensing/validation, layout, accessibility, browser/device or deployment testing.
+
+
+### Chapter 01 — targeted evidence-map update — 4 November 2026
+
+| Claim group | Evidence checked | Result and remaining limitation |
+|---|---|---|
+| What geography studies; links between physical and human geography | RGS, *What is geography?*; National Geographic, *Geography* | Both sources support the interdisciplinary definition and the study of places, processes and human–environment relationships. |
+| Spatial thinking, maps and geospatial representations | National Geographic Geography Standards 1 and 3 | Standards directly support spatial thinking, map/representation literacy, scale and spatial-pattern analysis. They are educational standards, not empirical research sources. |
+| Geospatial information and public decision-making | UN-GGIM programme overview | Official UN description supports the role of geospatial information in policy, governance and sustainable development. |
+| Cartographic education | ICA Commission on Education and Training (2023–2027 terms) | Replaced the previously timing-out CartoBoK endpoint with the live official ICA education commission page. It supports education/training context; it does not independently validate every cartographic technical statement. |
+| GIS and spatial analysis textbook | Longley et al. (2015), 4th edition | Bibliographic metadata retained; use chapter/page-level citations in a final scholarly edition where a specific technical claim depends on it. |
+
+### Chapter 02 — targeted evidence-map update — 4 November 2026
+
+| Claim group | Evidence checked | Result and remaining limitation |
+|---|---|---|
+| Earth-system spheres | NASA Science, Earth System Science Research | NASA identifies five research spheres: atmosphere, biosphere, cryosphere, geosphere and hydrosphere. Chapter wording now distinguishes this model from the traditional four-component educational model. |
+| Four traditional components and cryosphere terminology | NASA Earth-system sphere classification; National Geographic, *Earth's Systems* | Clarified that ice/snow may be included in hydrosphere in a four-component model while cryosphere is separately named in Earth-system science; lithosphere is a part of geosphere. A textbook-specific definition of the geographic envelope may vary by curriculum tradition. |
+| Global water distribution | USGS, *How Much Water Is There on Earth?* | The displayed percentages match the USGS table; its cited underlying estimate is Shiklomanov (1993). Chapter notes now identify this as a rounded legacy global estimate, not a newly measured 2026 dataset. |
+| Atmospheric vertical structure | NOAA JetStream, *Layers of the Atmosphere* | Official NOAA source identifies five principal thermal layers and gives approximate, latitude-dependent layer boundaries. Exact heights in diagrams must remain approximate. |
+| Planetary boundaries | Richardson et al. (2023), *Science Advances*, DOI 10.1126/sciadv.adh2458 | Publication identity and nine-process framework verified. Its finding that six of nine boundaries were transgressed is specific to the 2023 assessment; do not label it as a 2026 status without a newer named assessment. |
+| Carbon, nitrogen and phosphorus cycles | Chapter explanations reviewed for internal scientific consistency; existing NASA/USGS and Earth-system references checked | Basic pathway descriptions are sound at school level. Dedicated process-level source mapping is still required before the chapter can be marked fully audited. |
+| CO₂ values | NOAA Global Monitoring Laboratory and WMO Greenhouse Gas Bulletin No. 22 | Keep the NOAA marine-site annual mean (425.6 ppm, preliminary for 2025) distinct from the WMO global surface estimate (426.8 ppm for 2025); they are not interchangeable series. |
+
+**Scope note:** These updates close specific source and terminology defects; they do not constitute exhaustive sentence-by-sentence verification of either chapter. Visual briefs, final artwork, full translation proofread and browser/device/accessibility checks remain separate workstreams.
