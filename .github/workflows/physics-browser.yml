@@ -38,5 +38,5 @@ jobs:
           done
           cat /tmp/physics-http.log
           exit 1
-      - name: Test all 15 laboratories on desktop and mobile viewports
+      - name: Test Newton chapter on desktop and mobile viewports
         run: node original-engine/browser-smoke.mjs
