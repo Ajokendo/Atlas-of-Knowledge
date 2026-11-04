@@ -529,10 +529,12 @@ When analysing a diagram, identify variables and causal links, note time lags, d
 
 Выберите природную территорию и составьте её системную модель. Для горного озера определите:
 - атмосферные процессы над озером;
-- реки и подземные воды, питающие его;
-- влияние геологического строения на форму котловины;
-- характерные водные и прибрежные организмы;
-- воздействие человека на экологическое состояние.
+- реки, осадки и подземные воды, питающие озеро, а также пути оттока воды;
+- влияние геологического строения на форму котловины и свойства берегов;
+- характерные водные и прибрежные организмы и их связи с условиями среды;
+- возможные воздействия человека и признаки изменения состояния озера.
+
+**Что нужно представить:** схему с озером в центре, четырьмя оболочками вокруг него и стрелками, показывающими потоки воды, вещества и энергии; краткое объяснение не менее трёх причинно-следственных связей; список трёх наблюдений или наборов данных, которые помогли бы проверить ваши выводы. Отметьте, какие связи подтверждены наблюдениями, а какие пока являются гипотезами. Не делайте вывод о загрязнении или ухудшении состояния озера только по внешнему виду воды.
 
 ## English-language chapter text
 
@@ -780,10 +782,12 @@ The main conclusions are:
 
 Choose a natural area and create a systems model. For a mountain lake, identify:
 - atmospheric processes above the lake;
-- rivers and groundwater that feed it;
-- the influence of geological structure on the shape of its basin;
-- characteristic aquatic and shoreline organisms; and
-- human impacts on its ecological condition.
+- rivers, precipitation and groundwater that supply the lake, as well as its water outlets;
+- how geological structure influences the shape of the basin and the properties of its shores;
+- characteristic aquatic and shoreline organisms and their relationships with environmental conditions;
+- possible human pressures and indicators of change in the lake's condition.
+
+**What to submit:** a diagram with the lake at the centre, the four spheres around it, and arrows showing flows of water, matter and energy; a short explanation of at least three cause-and-effect links; and a list of three observations or datasets that could test your conclusions. Mark which links are supported by observations and which remain hypotheses. Do not infer pollution or declining lake condition from water appearance alone.
 
 ### English scientific and editorial notes
 
