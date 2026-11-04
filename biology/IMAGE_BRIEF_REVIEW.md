@@ -1,10 +1,10 @@
-# Scientific review of all 52 Biology image briefs
+# Scientific review of all 53 Biology image briefs
 
 **Review date:** 1 November 2026  
-**Scope:** all 52 planned image anchors in `IMAGE_INSERTION_MAP.md`.  
+**Scope:** all 53 planned image anchors in `IMAGE_INSERTION_MAP.md`.  
 **Status:** brief-level review complete; the Chüy fauna brief now has six source-backed local photographs produced and browser-checked. Other briefs still require asset-level review.
 
-The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and conservation constraints in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md). The remaining 39 P2/P3 briefs are reviewed individually below. This review assesses the *brief*, not a rendered image. Actual image morphology, captions, bilingual alt text, source/licence and integration must be checked before any asset is activated.
+The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and conservation constraints in [`IMAGE_SCIENTIFIC_REVIEW.md`](IMAGE_SCIENTIFIC_REVIEW.md). The remaining 40 P2/P3 briefs are reviewed individually below. This review assesses the *brief*, not a rendered image. Actual image morphology, captions, bilingual alt text, source/licence and integration must be checked before any asset is activated.
 
 ## Review of all mapped briefs
 
