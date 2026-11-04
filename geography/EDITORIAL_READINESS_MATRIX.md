@@ -441,3 +441,6 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Aligned the RU/EN review questions in Ch06 and Ch10 with the corrected ocean-boundary and UNCLOS maritime-zone content; the Ch10 question now explicitly distinguishes the Area from the high seas. Commits: `7c616f8cb2ea1fe3adb40286162897b37ff00eb7`, `e7f0577ac6598b0a9147a3a77d646878451d2d59`.
+
+
+- Updated the Chapter 08 key-term list with H/O organic horizons and ECe, aligning the glossary with the WRB and salinity-method refinements. Commit: `3cf71c280f48410c92a0ddd3f9c4f818c861d3d9`.
