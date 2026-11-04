@@ -34,6 +34,13 @@ async function run(mobile) {
       if (!(await page.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i+1} has no title`);
       if (!(await page.locator('#readout').innerText()).trim()) throw new Error(`page ${i+1} has no live readout`);
     }
+    const picker = page.locator('select.scene-picker');
+    if (await picker.count() !== 1 || await picker.locator('option').count() < 2) throw new Error('accessible scene picker is missing usable objects');
+    await picker.selectOption({ index: 1 });
+    await page.waitForFunction(() => { const p = document.querySelector('#plate'); return p && !p.hidden; });
+    await page.waitForFunction(() => document.querySelectorAll('#facts tr').length > 0);
+    await page.locator('#plate .close').click();
+    await page.waitForFunction(() => document.querySelector('#plate')?.hidden);
     if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal overflow');
     const axe = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
