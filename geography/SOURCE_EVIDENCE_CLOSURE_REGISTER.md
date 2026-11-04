@@ -323,3 +323,8 @@ These are focused bilingual conceptual corrections. They do not close full claim
 
 - **Chapter 06:** revised the bilingual river-basin practical assignment so the mean-discharge calculation uses the runoff volume derived in the preceding water-balance steps. For 250 mm runoff over 10,000 km², the volume is 2.5 km³; divided by 31,536,000 seconds, the annual mean discharge is approximately 79.3 m³/s. This removes the unrelated 3.78 km³ example that had interrupted the exercise's logic. Commit: `3c2f61d1cca4add4f68974f7ca18edc374b2a23f`.
 - **Chapter 10:** expanded the bilingual statehood/recognition section with the four qualifications listed in Article 1 of the 1933 Montevideo Convention, its Article 3 statement on political existence and recognition, and a caveat that the Convention is regional and does not mechanically resolve every contested case. Added the treaty text and a 2024 Oxford University Press discussion of recognition theories. Treaty text checked against the U.S. Department of State historical document and University of Oslo Law Faculty treaty transcription; scholarly context checked against Kilibarda (2024). Commit: `6edda39164e53fbc7f68380135cd27d42c26bdde`.
+
+
+### Chapter 07 — IUCN assessment-guidance currency — 5 November 2026
+
+- Added the IUCN Standards and Petitions Committee's *Guidelines for Using the IUCN Red List Categories and Criteria*, Version 16 (March 2024), as a distinct source from the 2012 Version 3.1 criteria standard. The current guidance page was checked; it instructs users to verify for newer versions before formal assessments. The chapter's existing warning about Data Deficient and Not Evaluated remains consistent with IUCN category definitions. Commit: `bb8dbba6a65c311b56902b171c6d538f12b96ac1`.
