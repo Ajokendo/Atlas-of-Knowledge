@@ -1,15 +1,15 @@
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 
-// Keep this browser gate focused on the chapter being finalized. The full
-// 15-laboratory browser sweep is tracked separately by the earlier baseline run.
-const labs = ['newton'];
+// Chapter 1 (kinematics) is the current browser-validation target.
+// The complete 15-laboratory browser sweep remains a separate future gate.
+const labs = ['kinematics'];
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
 const failures = [];
 let pagesChecked = 0;
 let axeCritical = 0;
 let axeSerious = 0;
-let abortAfterBootstrap = false;
+let abortAfterDesktopBootstrap = false;
 
 const browser = await chromium.launch({
   headless: true,
@@ -120,7 +120,7 @@ async function checkLab(lab, mobile) {
     pagesChecked++;
     console.log(`PASS ${lab} ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — ${state.pages} pages, WebGL ${state.canvas.join('×')}, ${state.renderedFrames} renderer frames`);
   } catch (error) {
-    if (lab === 'kinematics' && !mobile) abortAfterBootstrap = true;
+    if (lab === 'kinematics' && !mobile) abortAfterDesktopBootstrap = true;
     failures.push(`${lab} ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
     console.error(`FAIL ${lab} ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
   } finally {
@@ -135,9 +135,9 @@ async function checkLab(lab, mobile) {
 try {
   for (const lab of labs) {
     await checkLab(lab, false);
-    if (abortAfterBootstrap) break;
+    if (abortAfterDesktopBootstrap) break;
     await checkLab(lab, true);
-    if (abortAfterBootstrap) break;
+    if (abortAfterDesktopBootstrap) break;
   }
 } finally {
   await browser.close();
