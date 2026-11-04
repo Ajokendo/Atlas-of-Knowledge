@@ -185,3 +185,8 @@
 - В матрице готовности отражены 220 визуальных ID. Глава 02 имеет 19 двуязычных визуальных ID и 40 показов изображений (20 уникальных материалов); четыре SVG глав 18–20 встроены, но ещё не прошли окончательное научное и редакционное утверждение.
 - В главе 01 добавлена английская таблица Key Terms (раздел 1.12), поскольку ранее англоязычный текст не содержал английских определений терминов.
 - Полная построчная научная проверка, проверка всех ссылок, двуязычная вычитка, визуальное утверждение и браузерное/мобильное тестирование остаются незавершёнными.
+
+
+### Chapter 05 production update — 5 November 2026
+
+- Chapter 05 reached **88%** in the content/visual production scope: 15 unique visuals integrated in RU/EN; two exercise visuals remain (5.17-A and 5.18-A). The new 5.16-A original bilingual SVG `visuals/chapter-05-weather-observations-to-forecast.svg` explains observation networks, quality control, data assimilation, numerical prediction, ensemble uncertainty, forecaster interpretation, forecast products and verification. The chapter text now explains these stages in both languages and distinguishes satellite remote sensing from forecast generation. ECMWF and WMO primary guidance is cited. Commits: SVG `92e3ebd88c1715a9574663be33a557e879849c86`; chapter `d213dec7d61c8ee835f76dc80b4f6fd28330d2fd`; visual register `dda6ef6d52575614384b746223861c8c1de7d882`; readiness matrix `230342f623281dbfa23ffe75072e2dfcd6a4a3b9`. Published desktop/mobile rendering and accessibility checks remain separate release QA and are not claimed complete.
