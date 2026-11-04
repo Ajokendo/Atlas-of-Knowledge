@@ -453,3 +453,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 09 — World Bank vital-rate metadata — 5 November 2026
 
 - Added direct metadata records for World Bank crude birth and death rate indicators. Both definitions specify mid-year population as the divisor when annual population changes, supporting the chapter's denominator wording. Retained the direct land-area definition for the population-density indicator. Commit: `16649e8552437b4ed962f8f9410125bbd32220b3`.
+
+
+### Chapter 08 — soil pH measurement comparability — 5 November 2026
+
+- Expanded the bilingual pH explanation: logarithmic scale, approximate tenfold hydrogen-ion activity difference per pH unit, and the need to identify the extraction solution and soil-to-solution ratio. This prevents direct comparison of pH values obtained by different laboratory protocols without qualification. Commit: `d4650bc368a48150168240b64056d32b879e8372`.
