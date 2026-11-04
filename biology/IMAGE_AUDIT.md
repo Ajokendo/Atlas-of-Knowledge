@@ -184,3 +184,15 @@ A repository-wide scan of the 12 Biology chapter HTML files checked every semant
 ## Inventory count clarification — 5 November 2026
 
 A fresh scan of the chapter directory corrected an earlier shorthand in the 5 November metrics: there are **59 semantic figure elements**, not 53. Of these, **57 contain an external `img` element** and **2 contain inline SVG**. All 57 image figures have an `alt` attribute and a visible `figcaption`; no generated-image target path was missing. The separate **53/53** count remains the insertion-map visual-brief coverage and must not be presented as the count of HTML figure elements or image files. This clarification changes the inventory description, not the production-coverage numerator or the pending verification status.
+
+
+## SVG accessibility and scientific-label spot check — 5 November 2026
+
+A focused source-level review covered ten generated teaching SVGs: `anatomy-circulation.svg`, `anatomy-homeostasis.svg`, `anatomy-systems.svg`, `biochem-enzyme.svg`, `biochem-molecules.svg`, `biochem-respiration.svg`, `botany-anatomy.svg`, `botany-flower.svg`, `botany-transport.svg` and `cell-membrane.svg`.
+
+- All ten contain an SVG `<title>` and `<desc>` with bilingual or bilingual-context descriptions.
+- The reviewed text labels include the oxygen-poor/oxygen-rich distinction in circulation; negative-feedback direction in thermoregulation; enzyme–substrate complex and activation-energy explanation; lipid distinction from conventional repeating polymers; cellular-respiration compartment locations and proton-gradient direction; generalized eudicot anatomy; pollination versus fertilization; source-to-sink phloem flow; and membrane transport mechanisms.
+- The source text in the sampled SVGs explicitly marks generalized/not-to-scale diagrams and avoids presenting schematic drawings as photographic evidence.
+- No specific scientific error was established in this source-level sample, so no SVG artwork was changed in this batch. This is not a rendered-visual inspection and does not close asset-level verification; SVG visual layout, label collisions, contrast in context, and scientific interpretation remain subject to browser/human review.
+
+**Batch result:** 10/10 sampled SVGs have title/description metadata; 10/10 sampled assets retain substantive explanatory labels. Global Image Verification remains **Pending audit**.
