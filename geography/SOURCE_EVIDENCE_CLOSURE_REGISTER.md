@@ -328,3 +328,8 @@ These are focused bilingual conceptual corrections. They do not close full claim
 ### Chapter 07 — IUCN assessment-guidance currency — 5 November 2026
 
 - Added the IUCN Standards and Petitions Committee's *Guidelines for Using the IUCN Red List Categories and Criteria*, Version 16 (March 2024), as a distinct source from the 2012 Version 3.1 criteria standard. The current guidance page was checked; it instructs users to verify for newer versions before formal assessments. The chapter's existing warning about Data Deficient and Not Evaluated remains consistent with IUCN category definitions. Commit: `bb8dbba6a65c311b56902b171c6d538f12b96ac1`.
+
+
+### Chapter 09 — urban/rural classification method — 5 November 2026
+
+- Expanded the bilingual explanation of the UN Degree of Urbanization used in World Urbanization Prospects 2025: 1 km² grid cells are classified using population density, contiguity and population-size thresholds; smaller administrative/statistical units are then assigned according to where most residents live. Clarified the first-level classes and that the harmonised method does not replace national legal definitions. Added the direct UN methodology-report link. Checked against the official WUP 2025 methodology report and UN Population Division summary. Commit: `5537ae858eecadda2bec2982ff9bfd7ace2bcdaa`.
