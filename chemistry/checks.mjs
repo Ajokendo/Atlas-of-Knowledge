@@ -611,8 +611,15 @@ for (const [label, evidence] of [
   if (!virtualLabPage.includes(evidence)) errors.push("virtual-lab.html: missing model-scope qualification: " + label);
 }
 
+if (!virtualLabPage.includes('id="beakerWrap" role="img" aria-label="Виртуальный сосуд') ||
+    !virtualLabPage.includes('setAttribute("aria-label",t.beakerVisualAlt)')) {
+  errors.push("virtual-lab.html: beaker visual needs a bilingual accessible name linked to dynamic text");
+}
+
 const gasLawsPage = fs.readFileSync(path.join(root, "gas-laws.html"), "utf8");
 if (!gasLawsPage.includes('particleNote:"Визуализация показывает только условное число частиц') ||
+    !gasLawsPage.includes('id="particleVisual" role="img" aria-label="Схема условного числа частиц') ||
+    !gasLawsPage.includes('setAttribute("aria-label",w.particleVisualAlt)') ||
     !gasLawsPage.includes('particleNote:"The animation shows only a schematic particle count') ||
     !gasLawsPage.includes('data-i="particleNote"') ||
     !gasLawsPage.includes("does not model density, speed, trajectories or collisions")) {
@@ -763,7 +770,7 @@ if (!imageSources.includes("## Learning purpose and retrospective search record"
   errors.push("IMAGE_SOURCES.md: canonical-policy learning-purpose and search-evidence fields are missing");
 }
 const imageSearchRegister = (imageSources.split("## Learning purpose and retrospective search record")[1] || "").split("## Targeted follow-up search outcomes")[0];
-for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11","CH-IV01","CH-IV02","CH-IV03","CH-IV04","CH-V12"]) {
+for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11","CH-IV01","CH-IV02","CH-IV03","CH-IV04","CH-IV05","CH-IV06","CH-IV07","CH-V12"]) {
   const lines = imageSearchRegister.split(/\r?\n/).filter(line => line.startsWith("| " + id + " |"));
   if (lines.length !== 1) errors.push("IMAGE_SOURCES.md: expected exactly one learning-purpose/search record for " + id);
   else if (!lines[0].includes("2026-11-05")) errors.push("IMAGE_SOURCES.md: dated search record is missing for " + id);
@@ -785,7 +792,10 @@ for (const [label, evidence] of [
 }
 if (!imageAudit.includes("## Latest policy-readiness checkpoint — 2026-11-05") ||
     !imageAudit.includes("11 / 12 = 91.7%") ||
-    !imageAudit.includes("0 / 15 = 0% VERIFIED") ||
+    !imageAudit.includes("0 / 18 = 0% VERIFIED") ||
+    !imageAudit.includes("18 / 19 = 94.74% integrated") ||
+    !imageAudit.includes("7 / 7 integrated") ||
+    !imageAudit.includes("13 PASS / 5 PENDING / 0 FAIL") ||
     !imageAudit.includes("## Interactive visual audit by ID") ||
     !imageAudit.includes("### Chapter-level visual metrics") ||
     !imageAudit.includes("16 required visual units, 15 integrated")) {
