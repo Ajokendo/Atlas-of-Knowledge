@@ -520,3 +520,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 09 — bilingual visual production briefs — 5 November 2026
 
 - Added English production counterparts for all six Chapter 09 figure briefs (data sources, demographic transition, population pyramids, migration, density mapping and urban agglomeration growth). Visual IDs remain placeholders; no images were created. Commit: `a600bebbc6a9ba290accf03ab9a6006a0f49ce9f`.
+
+
+### Chapter 08 — bilingual visual production briefs — 5 November 2026
+
+- Added English production instructions for all seven Chapter 08 visual concepts: soil/geosphere interface, soil-forming factors, WRB profile horizons, global soil map, erosion, landscape morphology and landscape mosaic/connectivity. Visuals remain placeholders. Commit: `b2e366f31e5af78e547a274278264a7eb1634718`.
