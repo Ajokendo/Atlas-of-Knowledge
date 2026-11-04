@@ -384,3 +384,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — current UN vital-statistics source — 5 November 2026
 
 - Added the 2026 UN Population and Vital Statistics Report as a source for current national estimates and vital-event data; the UNSD page showed Tables 2 and 3 updated 5 October 2026. Commit: `4c51e53870866cd5a6be2476228ec4151af5c82c`.
+
+
+### Chapter 10 — bilingual visual production briefs — 5 November 2026
+
+- Added English counterparts for the six figure-production specifications in Chapter 10, including the maritime-zones distinction. Visuals remain deferred and no image integration is claimed. Commit: `75fee48be53b237ed9fd78e8b2b79acbd19f5725`.
