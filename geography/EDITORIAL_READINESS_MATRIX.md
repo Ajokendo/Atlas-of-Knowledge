@@ -394,3 +394,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 09 — bilingual visual production briefs — 5 November 2026
 
 - Added English production instructions for all six figure briefs, matching the Russian requirements for data provenance, schematic status, scales and boundaries. Images remain deferred. Commit: `a600bebbc6a9ba290accf03ab9a6006a0f49ce9f`.
+
+
+### Chapter 08 — bilingual visual production briefs — 5 November 2026
+
+- Added English counterparts for all seven visual production briefs, including the revised H–O–A–E–B–C–R soil profile and the distinction between structural and functional landscape connectivity. Visual integration remains deferred. Commit: `b2e366f31e5af78e547a274278264a7eb1634718`.
