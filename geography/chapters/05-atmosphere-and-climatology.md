@@ -200,7 +200,7 @@
 - нижнего яруса: слоисто-кучевые, слоистые;
 - вертикального развития: кучевые и кучево-дождевые.
 
-Высотные границы ярусов зависят от широты и условий атмосферы. Название рода описывает форму и структуру облака, но само по себе не гарантирует определённый вид погоды.
+Высотные границы ярусов зависят от широты и условий атмосферы, а группы по высоте являются ориентировочными: некоторые облака охватывают несколько ярусов. Например, слоисто-дождевые облака могут простираться от нижнего яруса вверх, а кучево-дождевые имеют большое вертикальное развитие. Название рода описывает форму и структуру облака, но само по себе не гарантирует определённый вид погоды.
 
 ### 5.7.2. Виды осадков / Types of Precipitation
 
@@ -704,10 +704,6 @@ Air temperature describes the thermal state of the air. It is influenced by lati
 
 The **daily temperature cycle** is linked to Earth's rotation and changing solar input during the day. The **annual cycle** is related to seasonal changes in solar elevation and day length. Maximum temperature usually occurs after midday and minimum temperature near sunrise, although cloud, wind and surface properties can alter this pattern.
 
-#### 5.4.1. Daily and Annual Temperature Cycles
-
-#### 5.4.2. Vertical Temperature Gradient
-
 The temperature of the troposphere generally decreases with altitude, but the actual environmental lapse rate varies with place, time and weather conditions. The International Standard Atmosphere uses a model lapse rate of 6.5°C per kilometre through the troposphere up to about 11 km. This is a reference profile for calculations, not a universal description of the real atmosphere: the observed rate may be weaker, stronger, near zero or reversed in an inversion. [NASA atmospheric model](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/earth-atmosphere-equation-metric/).
 
 A **temperature inversion** occurs when temperature increases with height through a layer. Inversions can contribute to the accumulation of pollutants near the surface.
@@ -773,13 +769,11 @@ The WMO International Cloud Atlas recognises ten main cloud genera:
 - low clouds: Stratocumulus and Stratus; and
 - clouds with vertical development: Cumulus and Cumulonimbus.
 
-The altitude boundaries vary with latitude and atmospheric conditions. A cloud genus describes its form and structure; it does not by itself guarantee a particular weather outcome.
+The altitude boundaries vary with latitude and atmospheric conditions, and altitude groupings are approximate: some cloud genera span more than one level. Nimbostratus, for example, may extend from low levels upwards, while cumulonimbus has great vertical development. A cloud genus describes form and structure; it does not by itself guarantee a particular weather outcome.
 
 ![Cloud and precipitation formation: four lifting mechanisms](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
 
 *Original bilingual Atlas of Knowledge diagram: convection, convergence, frontal lifting and orographic lifting. Ascent alone does not guarantee precipitation: moist air must cool to saturation for a cloud to form. Conceptual source: Figure 2, AMS Project Atmosphere: Clouds (2025), CC BY-SA 4.0; the diagram has been redrawn and simplified for teaching.* [Source and licence](https://www.ametsoc.org/sites/ams/assets/ProjectAtmosphere_Module_Clouds_2025.pdf).
-
-Cloud families are commonly described by their appearance and altitude and include cirrus, stratus, cumulus, cumulonimbus and mid-level cloud types.
 
 Precipitation includes rain, drizzle, snow, a rain-and-snow mix, ice pellets, freezing rain and hail. The type reaching the surface depends on the temperature profile through the atmospheric column. The term *sleet* is used differently in different English-speaking countries, so naming the specific precipitation type avoids ambiguity.
 
