@@ -776,6 +776,15 @@ for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07"
   else if (!lines[0].includes("2026-11-05")) errors.push("IMAGE_SOURCES.md: dated search record is missing for " + id);
 }
 
+
+if (!imageSources.includes("IMAGE-FIRST POLICY v1.1") ||
+    !imageAudit.includes("IMAGE-FIRST POLICY v1.1") ||
+    !imageSources.includes("## IMAGE-FIRST POLICY v1.1 — per-ID metadata completeness supplement") ||
+    !imageSources.includes("## Derivative / inherited-atlas protocol") ||
+    !imageSources.includes("Not applicable at atlas level")) {
+  errors.push("IMAGE-FIRST POLICY v1.1: Chemistry source register must expose required metadata and derivative-atlas applicability");
+}
+
 const periodicTrendCandidate = imageSources.split("## Chapter 03 candidate visual — found, not integrated")[1]?.split("## Non-file interactive visuals")[0] || "";
 for (const [label, evidence] of [
   ["English Commons source page", "https://commons.wikimedia.org/wiki/File:Periodic_trends.svg"],
