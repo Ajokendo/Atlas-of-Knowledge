@@ -706,6 +706,13 @@ if (fs.existsSync(periodicTablePath)) {
   if (!periodicTableSource.includes('id="detail" aria-live="polite"')) {
     errors.push("periodic-table.html: selected-element details must be announced through a polite live region");
   }
+  if (!periodicTableSource.includes('id="detail" aria-live="polite" aria-atomic="true"')) {
+    errors.push("periodic-table.html: selected-element live region must announce the complete updated detail");
+  }
+  if (!periodicTableSource.includes('button.classList.toggle("selected",active)') ||
+      !periodicTableSource.includes('button.setAttribute("aria-pressed",String(active))')) {
+    errors.push("periodic-table.html: selection must update in place so keyboard focus is not lost when an element is activated");
+  }
 } else {
   errors.push("periodic-table.html: interactive periodic table is missing");
 }
@@ -713,7 +720,7 @@ if (fs.existsSync(periodicTablePath)) {
 const atomicStructurePath = path.join(root, "chapters", "atomic-structure.html");
 if (fs.existsSync(atomicStructurePath)) {
   const atomicStructureSource = fs.readFileSync(atomicStructurePath, "utf8");
-  if (!/<img\\b[^>]*id=["']electronCloud["'][^>]*data-svg-ru=["'][^"']+["'][^>]*data-svg-en=["'][^"']+["'][^>]*alt=["'][^"']+["']/i.test(atomicStructureSource)) {
+  if (!/<img\b[^>]*id=["']electronCloud["'][^>]*data-svg-ru=["'][^"']+["'][^>]*data-svg-en=["'][^"']+["'][^>]*alt=["'][^"']+["']/i.test(atomicStructureSource)) {
     errors.push("chapters/atomic-structure.html: electron probability cloud needs bilingual SVG paths and non-empty alternative text");
   }
   if (!atomicStructureSource.includes("electronCloudAlt:") ||
