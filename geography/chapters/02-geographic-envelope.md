@@ -6,9 +6,7 @@
 
 ## 2.1. Понятие географической оболочки / The Concept of the Geographic Envelope
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 2-A / IMAGE PLACEHOLDER 2-A]** Схема географической оболочки как системы взаимодействия атмосферы, гидросферы, литосферы и биосферы; показать потоки вещества и энергии.
-> **EN:** Diagram of the geographic envelope as an interacting system of atmosphere, hydrosphere, lithosphere and biosphere, showing matter and energy flows.
-> **Embedded conceptual reference (not a direct match to the four-sphere brief):** NASA Goddard Space Flight Center, [Earth System Diagram](https://svs.gsfc.nasa.gov/30988), credit NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller. Use as a conceptual reference only: adapt labels to the chapter's four-component model and do not imply that NASA's graphic itself depicts this exact classification.
+**Иллюстрация 2-A — Четыре оболочки Земли и система Земли / Four Earth Spheres and the Earth System.**
 
 ![Четыре взаимосвязанные оболочки Земли: атмосфера, гидросфера, литосфера и биосфера / Four interacting Earth spheres: atmosphere, hydrosphere, lithosphere and biosphere](../assets/diagrams/02-A-four-earth-spheres.svg)
 
@@ -66,12 +64,11 @@
 
 *Схема показывает примеры процессов; стрелки не задают их количественную величину. / The diagram shows process examples; arrows do not indicate quantitative magnitudes.*
 
-**Кандидат источника (не встроен):** NASA Goddard Space Flight Center, [Earth System Diagram](https://svs.gsfc.nasa.gov/30988), авторство/кредит указаны на странице NASA. Графика показывает взаимодействия компонентов системы Земли; перед использованием требуется адаптация подписей к четырёхкомпонентной учебной схеме.
+*Примечание к источнику: NASA Earth System Diagram выше приведена как дополнительный пример взаимодействий в пятисферной модели; основную четырёхкомпонентную схему Atlas of Knowledge показывает оригинальная диаграмма 2-A.*
 
 ## 2.3. Атмосфера: газовая оболочка планеты / Atmosphere: The Gaseous Envelope
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 2-B / IMAGE PLACEHOLDER 2-B]** Вертикальный разрез атмосферы с тропосферой, стратосферой, мезосферой, термосферой и экзосферой; высоты подписать как ориентировочные.
-> **EN:** Vertical section of the atmosphere showing the troposphere, stratosphere, mesosphere, thermosphere and exosphere; label heights as approximate.
+**Иллюстрация 2-B — Слои атмосферы / Layers of the Atmosphere.**
 
 ![Пять основных слоёв атмосферы / The five basic layers of the atmosphere](https://www.noaa.gov/sites/default/files/2021-12/basic%20layers%20of%20the%20atmosphere.jpg)
 
@@ -119,8 +116,7 @@
 
 ## 2.4. Гидросфера: водная оболочка Земли / Hydrosphere: Earth's Water Envelope
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 2-C / IMAGE PLACEHOLDER 2-C]** Инфографика распределения воды Земли между океаном, ледниками, подземными водами и поверхностными водоёмами; округлённые доли снабдить источником.
-> **EN:** Infographic of Earth's water distribution among oceans, glaciers, groundwater and surface waters; cite the source for rounded proportions.
+**Иллюстрация 2-C — Распределение воды Земли / Distribution of Earth's Water.**
 
 ![Распределение воды Земли: вся вода, пресная вода и поверхностные пресные воды / Distribution of Earth's water: all water, freshwater and surface freshwater](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
 
@@ -915,7 +911,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 5. Stockholm Resilience Centre. *The Planetary Boundaries Framework*. https://www.stockholmresilience.org/research/planetary-boundaries.html
 6. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
 7. Planetary Boundaries Science / Potsdam Institute for Climate Impact Research. (2026). *Planetary Health Check 2026*. https://doi.org/10.48485/pik.2026.25
-9. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
+8. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
 9. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
 10. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; table based on Shiklomanov's 1993 assessment; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
 11. NASA Science. *Earth System Science Research: Science Spheres*. https://science.nasa.gov/earth-science/research/
