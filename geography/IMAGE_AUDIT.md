@@ -415,3 +415,47 @@ The eight SVG files currently present in `geography/visuals/` were fetched from 
 The Chapter 05 Markdown contains 37 image embeds; all 37 have non-empty Markdown alt text. Chapters 18, 19 and 20 contain respectively 1, 1 and 2 local SVG embeds, and all four have non-empty bilingual alt text. These checks establish that alt text is present, not that every alternative is sufficiently descriptive or equivalent in both languages.
 
 **Chapter 05 current evidence state:** local SVG metadata = structural PASS; non-empty Markdown alt text = structural PASS; full scientific review, exact ID-to-asset mapping, rights/source verification for every embedded external image, bilingual semantic equivalence and deployed rendering/accessibility = PENDING.
+
+
+## Chapter-source ID token scan — 5 November 2026
+
+A source-level scan was run across all 26 Markdown chapter files in the current branch. It extracts chapter-prefixed visual-ID-shaped tokens from the full chapter text. This is a discovery scan, **not** a deduplicated count of visual assets: legacy aliases, production-brief references, repeated teaching markers and malformed/ambiguous tokens require semantic reconciliation.
+
+| Chapter | ID-shaped tokens found | Interpretation / follow-up |
+|---:|---:|---|
+| 01 | 5 | Matches the register's five IDs. |
+| 02 | 21 | Includes both zero-padded and unpadded forms (for example, 02-A/2-A and 02-D/2-D); confirm alias equivalence before counting. |
+| 03 | 14 | Includes legacy 3-A in addition to the 13 numbered subsection IDs; resolve alias or duplicate status. |
+| 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
+| 05 | 8 | Only eight chapter-prefixed ID tokens were found in the chapter text, while the production register claims 20 IDs and lists 17 asset rows (including three alias pairs). This is a material marker/register mismatch; do not infer that all 20 are present or uniquely mapped. |
+| 06 | 15 | Matches the current 15-ID inventory. |
+| 07 | 9 | Matches the current inventory. |
+| 08 | 7 | Matches the current inventory. |
+| 09 | 7 | Confirms 09-A–09-G; 09-G is a placeholder and is recorded as MISSING. |
+| 10 | 7 | Matches the current inventory. |
+| 11 | 7 | Matches the current inventory. |
+| 12 | 10 | Matches the current inventory. |
+| 13 | 11 | Matches the current inventory. |
+| 14 | 9 | Matches the current inventory. |
+| 15 | 11 | Matches the current inventory. |
+| 16 | 9 | Matches the current inventory. |
+| 17 | 9 | Matches the current inventory. |
+| 18 | 10 | Matches the current inventory. |
+| 19 | 10 | Matches the current inventory. |
+| 20 | 11 | Matches the current inventory. |
+| 21 | 10 | Matches the current inventory. |
+| 22 | 10 | Matches the current inventory. |
+| 23 | 12 | Matches the current inventory. |
+| 24 | 12 | Matches the current inventory. |
+| 25 | 12 | Matches the current inventory. |
+| 26 | 12 | Matches the current inventory. |
+| **Total** | **275** | Raw ID-shaped tokens across chapter sources; not a unique-asset denominator. The register's chapter-row sum is 283 and its legacy headline is 231. These three figures describe different counting scopes and are not reconciled. |
+
+### Immediate conclusions
+
+1. The Chapter 09 discrepancy is resolved: 09-G exists in the chapter and is a missing visual, not an invented ID.
+2. Chapters 02–04 contain legacy aliases or mixed ID formats; these must be mapped to canonical IDs without deleting source history.
+3. Chapter 05 needs a dedicated ID-to-figure reconciliation. Its chapter source does not expose the 20-ID inventory as 20 distinct, consistently marked needs. Existing embedded visuals and captions must be mapped individually before any coverage calculation.
+4. Chapters 06–26 (except the Chapter 09 gap status) have token counts matching the register's row counts in this scan. This confirms count-level consistency only, not actual file existence, provenance, scientific validity, rights, bilingual parity or accessibility.
+
+No Image Coverage or Image Verification percentage is calculated from this token scan.
