@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: physics-browser
+  group: physics-browser-newton
   cancel-in-progress: true
 
 jobs:
