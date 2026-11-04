@@ -40,6 +40,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 
 ### Cell biology — `chapters/cell-biology.html`
 - [~] **[P3] Животная клетка: ультраструктура / Animal cell ultrastructure** — detailed animal cell with membrane, nucleus, mitochondria, ER, Golgi, ribosomes and vesicles; not to scale.
+- [~] **[P2] Фазы клеточного цикла и контрольные точки / Cell-cycle phases and checkpoints** — G₁, S, G₂ and M phases, DNA replication, G₁/S and G₂/M checkpoints, spindle checkpoint and G₀ exit.
 - [~] **[P2] Мембранный транспорт / Membrane transport** — phospholipid bilayer, channels, carriers, diffusion, osmosis and active transport with correct gradients and ATP use.
 - [~] **[P2] Митоз: последовательность стадий / Mitosis: sequence of stages** — chromosomes, spindle and nuclear envelope across mitotic stages; distinguish mitosis from interphase and cytokinesis.
 
