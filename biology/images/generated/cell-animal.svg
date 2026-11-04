@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Животная клетка — Animal cell</title>
+<desc id="desc">Двуязычная схема типичной животной эукариотической клетки с ядром, ядрышком, митохондриями, шероховатой и гладкой эндоплазматической сетью, аппаратом Гольджи, рибосомами, лизосомой, везикулами, центросомой и плазматической мембраной. Схема не в масштабе.</desc>
+<defs>
+ <linearGradient id="cyto" x2="1" y2="1"><stop stop-color="#fff2d9"/><stop offset="1" stop-color="#e7d9f0"/></linearGradient>
+ <linearGradient id="nuc" x2="1" y2="1"><stop stop-color="#d9d0f0"/><stop offset="1" stop-color="#a99acb"/></linearGradient>
+ <marker id="dot" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5"><circle cx="3.5" cy="3.5" r="2.4" fill="#46576a"/></marker>
+ <style>
+ .label{font: bold 19px Arial,sans-serif;fill:#203247}.en{font:16px Arial,sans-serif;fill:#43566a}
+ .lead{fill:none;stroke:#52677b;stroke-width:2.2;marker-end:url(#dot)}
+ .org{stroke-width:3}.small{font:15px Arial,sans-serif;fill:#526174}
+ </style>
+</defs>
+<rect width="1200" height="900" rx="24" fill="#fbfcfe"/>
+<text x="600" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#203247">Животная клетка / Animal cell</text>
+<text x="600" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#607286">Типичная эукариотическая клетка · Typical eukaryotic cell · условная схема, не в масштабе / schematic, not to scale</text>
+<!-- cell body -->
+<path d="M260 455 C205 330 300 180 465 155 C620 105 840 160 920 300 C1000 440 920 650 770 710 C610 775 390 725 290 610 C250 565 235 510 260 455Z" fill="url(#cyto)" stroke="#397b78" stroke-width="9"/>
+<path d="M270 455 C218 335 308 190 468 166 C620 118 830 170 908 305 C985 440 910 638 760 695 C610 755 400 710 302 602 C265 560 248 510 270 455Z" fill="none" stroke="#8dc1b8" stroke-width="3"/>
+<!-- nucleus -->
+<ellipse cx="565" cy="435" rx="145" ry="125" fill="url(#nuc)" stroke="#685b91" stroke-width="6"/>
+<ellipse cx="565" cy="435" rx="133" ry="113" fill="none" stroke="#8878ad" stroke-width="3" stroke-dasharray="7 5"/>
+<circle cx="590" cy="435" r="39" fill="#76629a" stroke="#574878" stroke-width="3"/>
+<circle cx="579" cy="423" r="10" fill="#c9b8e3" opacity=".7"/>
+<!-- chromatin -->
+<g fill="none" stroke="#5e5289" stroke-width="5" stroke-linecap="round"><path d="M480 390q35-35 64 0t56-5"/><path d="M475 470q38-24 65 4t61-5"/><path d="M520 520q28-22 54 0"/></g>
+<!-- RER -->
+<g fill="none" stroke="#397f9c" stroke-width="9" stroke-linecap="round"><path d="M390 280q-45-32-75 5t-4 43"/><path d="M395 305q-48-24-76 16t-4 41"/><path d="M405 330q-43-18-67 22t-2 38"/><path d="M700 545q50 20 76-15t4-40"/><path d="M705 570q48 23 77-15t7-41"/></g>
+<g fill="#263d52"><circle cx="360" cy="278" r="5"/><circle cx="330" cy="314" r="5"/><circle cx="374" cy="319" r="5"/><circle cx="329" cy="354" r="5"/><circle cx="735" cy="548" r="5"/><circle cx="770" cy="530" r="5"/><circle cx="748" cy="586" r="5"/></g>
+<!-- SER -->
+<g fill="none" stroke="#4a9b91" stroke-width="7" stroke-linecap="round"><path d="M690 255q45-38 82 0t-4 44q-38 10-8 37"/><path d="M700 285q37-23 65 7t-7 34"/><path d="M700 315q34-18 54 10"/></g>
+<!-- Golgi -->
+<g fill="none" stroke="#c27c42" stroke-width="11" stroke-linecap="round"><path d="M750 390q42-32 82-8"/><path d="M744 414q52-30 98-5"/><path d="M744 440q55-24 102 0"/><path d="M752 465q46-15 88 8"/></g>
+<g fill="#d99b59"><circle cx="850" cy="365" r="13"/><circle cx="865" cy="490" r="10"/><circle cx="720" cy="375" r="9"/></g>
+<!-- mitochondria -->
+<g class="org" fill="#f4b56e" stroke="#a65d36">
+ <ellipse cx="390" cy="565" rx="66" ry="32" transform="rotate(-25 390 565)"/>
+ <ellipse cx="770" cy="625" rx="61" ry="29" transform="rotate(20 770 625)"/>
+</g>
+<g fill="none" stroke="#a65d36" stroke-width="4"><path d="M335 579q18-42 36-13t37-8t35-2"/><path d="M725 625q20-38 39-9t37-4t29-3"/></g>
+<!-- lysosome, vesicles -->
+<circle cx="480" cy="650" r="24" fill="#d98282" stroke="#9f4c5b" stroke-width="4"/><circle cx="475" cy="644" r="6" fill="#f8c5b9"/>
+<circle cx="870" cy="555" r="18" fill="#8fc6d8" stroke="#4e91a6" stroke-width="3"/>
+<circle cx="320" cy="440" r="14" fill="#8fc6d8" stroke="#4e91a6" stroke-width="3"/>
+<!-- centrosome -->
+<g transform="translate(500 230) rotate(35)"><rect x="-37" y="-9" width="74" height="18" rx="8" fill="#9d8a61" stroke="#65573c" stroke-width="3"/><path d="M-27-5v10m10-10v10m10-10v10m10-10v10m10-10v10" stroke="#fff1c9" stroke-width="2"/></g>
+<g transform="translate(535 255) rotate(-45)"><rect x="-34" y="-8" width="68" height="16" rx="8" fill="#9d8a61" stroke="#65573c" stroke-width="3"/></g>
+<!-- free ribosomes -->
+<g fill="#34485c"><circle cx="430" cy="390" r="5"/><circle cx="450" cy="375" r="5"/><circle cx="735" cy="440" r="5"/><circle cx="700" cy="475" r="5"/><circle cx="650" cy="620" r="5"/><circle cx="610" cy="650" r="5"/></g>
+<!-- callouts left -->
+<path class="lead" d="M420 190L250 125H65"/><text class="label" x="65" y="105">Центросома</text><text class="en" x="65" y="128">Centrosome</text>
+<path class="lead" d="M440 300L245 245H65"/><text class="label" x="65" y="220">Шероховатая ЭПС</text><text class="en" x="65" y="243">Rough ER</text>
+<path class="lead" d="M420 425L235 405H65"/><text class="label" x="65" y="380">Свободные рибосомы</text><text class="en" x="65" y="403">Free ribosomes</text>
+<path class="lead" d="M390 565L235 650H65"/><text class="label" x="65" y="640">Митохондрия</text><text class="en" x="65" y="663">Mitochondrion</text>
+<path class="lead" d="M480 650L330 760H65"/><text class="label" x="65" y="750">Лизосома</text><text class="en" x="65" y="773">Lysosome</text>
+<!-- callouts right -->
+<path class="lead" d="M610 350L900 145H1135"/><text class="label" x="925" y="112">Ядро</text><text class="en" x="925" y="135">Nucleus</text>
+<path class="lead" d="M590 435L915 260H1135"/><text class="label" x="925" y="228">Ядрышко</text><text class="en" x="925" y="251">Nucleolus</text>
+<path class="lead" d="M740 290L920 350H1135"/><text class="label" x="925" y="325">Гладкая ЭПС</text><text class="en" x="925" y="348">Smooth ER</text>
+<path class="lead" d="M815 425L930 470H1135"/><text class="label" x="925" y="445">Аппарат Гольджи</text><text class="en" x="925" y="468">Golgi apparatus</text>
+<path class="lead" d="M870 555L950 585H1135"/><text class="label" x="965" y="560">Транспортная везикула</text><text class="en" x="965" y="583">Transport vesicle</text>
+<path class="lead" d="M900 675L965 720H1135"/><text class="label" x="975" y="700">Цитоплазма</text><text class="en" x="975" y="723">Cytoplasm</text>
+<path class="lead" d="M285 520L185 535H65"/><text class="label" x="65" y="510">Плазматическая мембрана</text><text class="en" x="65" y="533">Plasma membrane</text>
+<text x="600" y="855" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#607286">Органоиды показаны условно, не в масштабе / Organelles are schematic, not to scale</text>
+</svg>
