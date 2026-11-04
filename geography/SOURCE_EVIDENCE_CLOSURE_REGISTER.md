@@ -492,3 +492,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 09 — WUP 2025 grid-level implementation nuance — 5 November 2026
 
 - Refined the bilingual description of the Degree of Urbanization: the full methodology has a two-stage process, but WUP 2025's global dataset relies primarily on the 1 km² grid classification because no open worldwide boundary dataset exists for small spatial units. This avoids implying that the global WUP dataset applies the second-stage administrative-unit assignment everywhere. Checked against the WUP 2025 methodology report, Box II.2. Commit: `12d32b88bbdf4f14f9be1eddeb927897c7daacc8`.
+
+
+### Chapter 10 — UNCLOS Area versus high seas — 5 November 2026
+
+- Added the UNCLOS “Area” (seabed and subsoil beyond national jurisdiction) as a separate concept from the high-seas water column. The bilingual text explains the common-heritage principle under Articles 136–137 and notes that the legal status of superjacent waters is not changed by the seabed's status (Article 135). Added official UN Part XI Sections 1 and 2 links. Commit: `c2412eed3ab7f6fb6f1acc6d8d0baf6b452fdcda`.
