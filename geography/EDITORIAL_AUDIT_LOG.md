@@ -2122,3 +2122,10 @@ A final compliance check against the Geography image-first instruction found tha
 - Chapter 03 source bibliography: `2a90d0ca6e9d12016ed77d972cd151c19cabd72c`.
 - Readiness matrix: `f15eace9094279f4762489ba73f7db07b9d1ccee`, `a62b01c53e0c648e7acdf717cfe40966d1e501fc`.
 - Visual register: `9790deb25501751edccccba9f6b8e28a06714179`, `7e34d36e9594d4001305fc1227932969a9dc529e`, `7b1c93335bf2907676e2f16d3e7ea0060b8afac8`.
+
+
+### Final bilingual section cleanup — 4 November 2026
+- Removed duplicate English-section embeds for 3.1-A, 3.3-A, 4.4-A and 4.14-A where the same image was already embedded at its correct teaching location.
+- Rechecked the two chapter files: Chapter 03 has 13 image embeds in RU and 13 in EN; Chapter 04 has 16 in RU and 16 in EN. No illustration placeholders remain in either chapter.
+- Updated each chapter's opening status note to reflect completed visual integration and to distinguish it from final release QA.
+- Commits: Chapter 03 duplicate cleanup `c6e6c645bb3d7da2be7b7cf69068f980dda00a27`, `f56b055b760d46f677aad5a4921a5db5e43ebb07`; Chapter 04 duplicate cleanup `7180a1066d4bdf3d5c52ca9f9de1a2f40a7d9683`, `dc9c403c2daea08d9526a944877f709c8bace464`; chapter status notes `e35e7e4c5f667f6f1f0bdcdb004e813eb0ec991b`, `1b8b2ce38229c41477a8780340137eb23d0f3303`.
