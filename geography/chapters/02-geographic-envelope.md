@@ -154,7 +154,7 @@
 
 **Иллюстрация 2.4-A — Глобальный круговорот воды / The Global Water Cycle.**
 
-![Глобальный круговорот воды с природными резервуарами, потоками и воздействием человека / Global water cycle with natural pools, fluxes and human impacts](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png)
+![Глобальный круговорот воды с природными резервуарами, потоками и воздействием человека / Global water cycle with natural pools, fluxes and human impacts](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png?itok=tAVM8IYl)
 
 *Источник / Source: USGS VizLab, “The Water Cycle” (2022), создано совместно с USGS Water Resources Mission Area Web Communications Branch. Public Domain. Диаграмма включает использование воды человеком и влияние на её качество; это не только естественный цикл. / Public Domain. The diagram includes human water use and water-quality impacts; it is not a natural-only cycle. [Описание и версия для изучения / Description and learning version](https://www.usgs.gov/media/images/water-cycle).*
 
