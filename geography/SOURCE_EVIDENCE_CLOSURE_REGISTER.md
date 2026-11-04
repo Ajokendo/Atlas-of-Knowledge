@@ -479,3 +479,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 09 — WUP 2025 Degree of Urbanization thresholds — 5 November 2026
 
 - Added the exact level-1 thresholds to both language versions: cities use contiguous 1 km² cells at ≥1,500 people/km² and cluster population ≥50,000; towns and semi-dense areas use ≥300 people/km² and cluster population ≥5,000; remaining cells are rural. Clarified that these are WUP 2025 international statistical thresholds, not national legal definitions, and that level 2 adds detail. Checked against the WUP 2025 methodology report. Commit: `e459800f4a7d7aa04a0cc9659b93048136858ca7`.
+
+
+### Chapter 06 — Southern Ocean boundary status — 5 November 2026
+
+- Replaced the overgeneralised phrase “current international practice” with a precise caveat: 60°S is a commonly used boundary in modern sources, but it is not a universally adopted IHO boundary. The current official IHO S-23 is the 1953 edition and excludes the Southern Ocean; the 2002 fourth-edition draft is explicitly a working document that was not approved. Added the direct IHO draft source. Checked against IHO S-23 catalogue, the 2002 draft and NOAA's explanation of the differing practices. Commit: `57e0739a6893b2377a05e2f7b1055c066f54f5e9`.
