@@ -298,7 +298,7 @@ Q = A \times v,
 **Условный пример.** Предположим, что ширина небольшого прямоугольного участка русла равна 8 м, средняя глубина — 0,75 м, а средняя скорость воды по всему сечению — 0,6 м/с.
 
 1. Оценим площадь сечения: A = 8 × 0,75 = 6 м².
-2. Рассчитаем расход: Q = 6 × 0,6 = **3,6 м³/с**.
+3. Рассчитаем расход: Q = 6 × 0,6 = **3,6 м³/с**.
 
 Это означает, что через выбранное сечение в среднем проходит около 3,6 кубического метра воды каждую секунду.
 
@@ -428,12 +428,12 @@ Inflows may include precipitation, surface-water and groundwater inflow, and wat
 
 1. Гидросфера включает океанические, поверхностные, подземные, атмосферные и замёрзшие воды.
 2. Основная часть воды Земли солёная; большая часть пресной воды сосредоточена в ледниках и подземных резервуарах.
-3. Круговорот воды связывает океан, сушу, атмосферу и криосферу.
-4. Мировой океан представляет собой единую взаимосвязанную систему бассейнов.
-5. Рельеф океанического дна отражает тектоническое строение и историю океанических бассейнов.
-6. Температура, солёность и плотность определяют многие особенности океанической циркуляции.
-7. Волны, приливы и течения переносят энергию и вещество.
-8. Морские и пресноводные экосистемы зависят от качества воды, питательных веществ и физических условий.
+4. Круговорот воды связывает океан, сушу, атмосферу и криосферу.
+5. Мировой океан представляет собой единую взаимосвязанную систему бассейнов.
+6. Рельеф океанического дна отражает тектоническое строение и историю океанических бассейнов.
+7. Температура, солёность и плотность определяют многие особенности океанической циркуляции.
+8. Волны, приливы и течения переносят энергию и вещество.
+9. Морские и пресноводные экосистемы зависят от качества воды, питательных веществ и физических условий.
 9. Реки, озёра и подземные воды обеспечивают население и хозяйство пресной водой.
 10. Устойчивое управление водными ресурсами требует бассейнового подхода и международного сотрудничества.
 
@@ -740,7 +740,8 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
-1. USGS Water Science School. *Water Basics Information by Topic*. https://www.usgs.gov/water-science-school/science/water-basics-information-topic
+1. USGS Water Science School. **How Much Water Is There on Earth?** (2019; page accessed 5 November 2026) — estimates total water volume and distribution; the page identifies the global distribution figures as estimates and notes rounding. https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
+2. USGS Water Science School. *Water Basics Information by Topic*. https://www.usgs.gov/water-science-school/science/water-basics-information-topic
 2. NOAA National Ocean Service. *Ocean Facts*. https://oceanservice.noaa.gov/facts/
 3. UNESCO. *United Nations World Water Development Report*. https://www.unesco.org/reports/wwdr
 4. International Hydrographic Organization (IHO). *Standards and Specifications*. https://iho.int/en/standards-and-specifications
