@@ -114,6 +114,34 @@ Record a requirement here before starting a search. Move it to the integrated-as
 | 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | The geometry and cross-product direction must be unambiguous; placeholder does not count as an integrated visual | Search for a reusable diagram or prepare a precise bilingual schematic; verify `B`, `v`, rod orientation, force and current directions |
 | 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | Several related concepts must be represented without conflating the RL transient with LC oscillations | Search for suitable separate diagrams/plots or prepare a bilingual composite; validate curves and initial conditions |
 
+## Interactive 3D scene inventory — Chapters 14 and 15
+
+This is a scene-level source-lineage index for the interactive-book scenes. It is not a claim that the scenes have passed manual visual review, item-level rights review, or final accessibility verification. Each scene is inherited from the upstream module and has Russian-localised in-scene names/labels; classify the affected rendered scene output as **B — Adapted**. The 3D geometry and executable scene construction were retained in the compared sections.
+
+| Visual ID | Chapter / page | Scene key | Local source | Upstream source | Status |
+|---|---|---|---|---|---|
+| PHY-14-3D-01 | 14 — Magnetism | `magnet` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-14-3D-02 | 14.1 — Magnetic force | `rhr` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-14-3D-03 | 14.2 — Circular motion in a field | `cyclo` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-14-3D-04 | 14.3 — Crossed electric and magnetic fields | `selector` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-14-3D-05 | 14.4 — Force on a current and torque on a loop | `loop` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-14-3D-06 | 14.5 — Ampère's law | `ampere` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-14-3D-07 | 14.6 — Biot–Savart law | `ring` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-14-3D-08 | 14.7 — Parallel wires | `wires` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-14-3D-09 | 14.8 — Solenoids and toroids | `solenoid` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-01 | 15 — Electromagnetic induction | `flux` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-02 | 15.1 — Lenz's law | `lenz` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-03 | 15.2 — Mutual induction | `mutual` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-04 | 15.3 — Loop near a current-carrying wire | `wire` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-05 | 15.4 — Motional EMF | `bar` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-06 | 15.5 — Loop crossing a magnetic-field boundary | `crossing` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-07 | 15.6 — Rod on rails | `rails` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-08 | 15.7 — Inductance | `solenoid` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-09 | 15.8 — RL circuits | `rl` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+| PHY-15-3D-10 | 15.9 — LC oscillations | `lc` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
+
+**Review still required for all 19 entries:** confirm rendered geometry at desktop/mobile sizes, inspect scene labels and their contrast, verify the canvas/scene accessible name and keyboard picker announcement, add complete RU/EN descriptions where needed, and retain asset-level rights evidence for any embedded non-code components. The scene index does not include the four missing static infographic requirements listed above.
+
 ## Integrated assets
 
 ## Chapter 04 visual records — source lineage pending
