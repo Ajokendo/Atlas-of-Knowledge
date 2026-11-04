@@ -39,7 +39,7 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 
 | Metric | Current result | Scope / interpretation |
 |---|---:|---|
-| Required static visual topics | 12 | One planned static visual topic for each of 12 chapters; Chapter 12 uses two related figures within its chapter topic. |
+| Required static visual units / SVG pairs | 12 | 11 integrated bilingual SVG pairs plus the missing Chapter 03 periodic-trends pair. Chapter 12 has two static figures; Chapter 04 is covered by an interactive model rather than a static pair. |
 | Static Image Coverage | 11 / 12 = 91.7% | 11 static bilingual pairs are integrated; the Chapter 03 periodic-trends visual is found as a candidate but not integrated. Provisional chapter-plan coverage. |
 | Interactive visual systems | 7 / 7 integrated | Four chapter-level systems plus molecular geometry, gas-particle count and the acid–base virtual beaker. Presence does not imply verification. |
 | Chapter-level visual plan | 15 / 16 = 93.75% integrated | 12 static topics + 4 chapter-level interactive systems; 15 are present and one required static topic remains missing. Provisional. |
