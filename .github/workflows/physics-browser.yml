@@ -50,3 +50,5 @@ jobs:
         run: node original-engine/rotation/browser-smoke.mjs
       - name: Test Chapter 8 fluids on desktop and mobile viewports
         run: node original-engine/fluids/browser-smoke.mjs
+      - name: Test Chapter 9 electrostatics on desktop and mobile viewports
+        run: node original-engine/electrostatics/browser-smoke.mjs
