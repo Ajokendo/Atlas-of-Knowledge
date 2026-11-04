@@ -180,3 +180,10 @@ The four additional SVG files in `geography/assets/` are referenced from Chapter
 - **Chapter 07 additional correction:** distinguished traditional climate/vegetation-based biome maps from the IUCN Global Ecosystem Typology's six-level, function-aware hierarchy; clarified that the frameworks complement but do not replace one another. Added the IUCN GET 2.0 reference. Commit: `15fa5a4`.
 
 - **Chapter 06 final consistency note:** clarified the assumptions behind the simplified catchment-balance example and made the English/Russian explanation consistent about groundwater exchange and external transfers. Commit: `adcb611` (source-register follow-up `2a56c83`).
+
+
+### Chapter 06 — catchment accounting clarification — 5 November 2026
+
+- Refined the Russian and English water-budget explanation to distinguish external inflows/outflows from internal water withdrawals and return flows. Clarified that an in-basin reservoir belongs to the storage term (ΔS), preventing double counting as a separate inflow/outflow. Added explicit examples of boundary-crossing fluxes and clarified when abstraction is a net loss from the selected catchment control volume.
+- This is a targeted conceptual correction, not a full source-by-source or bilingual line-by-line sign-off. Visual production and technical QA remain separate.
+- Commit: `59c525339d8b00dcedd08cb26a733ed1fa6b3ebf`.
