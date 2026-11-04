@@ -192,3 +192,10 @@ The four additional SVG files in `geography/assets/` are referenced from Chapter
 ### Chapters 06–10 — focused bilingual corrections — 5 November 2026
 
 A further targeted correction pass was committed across all five chapters: catchment control-volume accounting (06), restoration-target interpretation (07), interpretation limits of electrical conductivity (08), migration-flow counting units (09), and contiguous-zone measurement geometry (10). The paired RU/EN passages were updated together. Detailed commit references are recorded in `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md`. **The chapter scores remain 73% each**: the corrections improve specific concepts but do not close the remaining source-to-claim audit, full bilingual line edit, planned visual integration, or release QA. No 80% milestone is claimed on this evidence alone.
+
+
+### Chapter 06 — unit consistency follow-up — 5 November 2026
+
+- The worked catchment-balance example now explicitly states that outlet discharge is converted to runoff depth over the catchment area before it is compared with precipitation and evapotranspiration. Russian and English wording are paired; the arithmetic remains 600 − 350 − 220 = 30 mm.
+- This closes one dimensional-consistency ambiguity in the exercise, but does not by itself justify changing the Chapter 06 score. The existing 73% remains pending broader source-to-claim review, full bilingual line editing, visual integration and release QA.
+- Commit: `884fbdeeac9d07d6791a4bb172f66918a275198b`.
