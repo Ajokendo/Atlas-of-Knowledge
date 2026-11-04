@@ -55,8 +55,8 @@
 <rect x="300" y="448" width="72" height="108" rx="18" class="protein"/>
 <rect x="395" y="455" width="72" height="95" rx="18" class="protein"/>
 <text x="335" y="470" text-anchor="middle" class="small">Цепь переноса электронов / Electron transport chain</text>
-<path d="M245 405 L245 455" class="pflow"/><path d="M340 405 L340 448" class="pflow"/><path d="M435 405 L435 455" class="pflow"/>
-<text x="245" y="390" text-anchor="middle" class="small">H⁺</text><text x="340" y="390" text-anchor="middle" class="small">H⁺</text><text x="435" y="390" text-anchor="middle" class="small">H⁺</text>
+<path d="M245 565 L245 455" class="pflow"/><path d="M340 565 L340 448" class="pflow"/><path d="M435 565 L435 455" class="pflow"/>
+<text x="245" y="440" text-anchor="middle" class="small">H⁺</text><text x="340" y="440" text-anchor="middle" class="small">H⁺</text><text x="435" y="440" text-anchor="middle" class="small">H⁺</text>
 <text x="330" y="580" text-anchor="middle" class="small">NADH / FADH₂</text>
 <path d="M330 560 L330 540" class="arrow"/>
 <!-- ATP synthase -->
