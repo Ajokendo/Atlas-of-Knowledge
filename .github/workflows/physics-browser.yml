@@ -46,3 +46,5 @@ jobs:
         run: node original-engine/work-energy-smoke.mjs
       - name: Test Chapter 6 oscillations on desktop and mobile viewports
         run: node original-engine/oscillations/browser-smoke.mjs
+      - name: Test Chapter 7 rotation on desktop and mobile viewports
+        run: node original-engine/rotation/browser-smoke.mjs
