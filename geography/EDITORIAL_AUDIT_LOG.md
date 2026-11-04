@@ -2014,3 +2014,12 @@ A final compliance check against the Geography image-first instruction found tha
 - Chapter 02's bilingual scientific/editorial content package is therefore recorded as **100% complete**: RU/EN text and dated-value/source checks are complete; all 19 visual IDs have integrated imagery/original diagrams; static image and alt-text checks are complete; the final heading hierarchy corrections have been saved and re-fetched.
 - Live deployed-site rendering, responsive/mobile behaviour, keyboard navigation and screen-reader behaviour remain unverified because no deployed site URL/workflow is established in this branch. These are separate technical release-QA tasks, not school trials and not a reason to reduce the chapter's content-completion percentage.
 - School-based trials and community feedback through the Atlas of Knowledge portal are to be organised as a distinct event and documented separately from chapter readiness.
+
+
+### Chapter 01 — bilingual visual inventory reconciliation — 4 November 2026
+
+- Audited the chapter's actual visual instructions against the visual asset register. The earlier register listed only three assets (01-A–01-C), while the teaching text also contained separate briefs for the branches of geography and local-to-global scale.
+- Normalised the inventory to five distinct assets: 01-A (geography as a spatial system), 01-B (location/place/territory), 01-C (geographical research cycle), 01-D (branches of geography) and 01-E (local-to-global scale).
+- Added matching English-language visual placeholders at the corresponding English teaching sections and aligned the Russian production-brief IDs.
+- Updated the chapter, visual asset register, readiness matrix and README. Repository-wide visual inventory increases from 218 to 220 unique IDs. No image is claimed as created or integrated for Chapter 01; all five remain production tasks.
+- Saved to `workspace/geography`; chapter commit `d6f560abd4dbd651e4e077b9b4279d9b3367d049`; visual register commit `1be6c220268690070cbc7ab579905d9a843f6b09`; matrix commit `ee73a931be381e36ab684d326c205f2f76b076b3`; README commit `0602e9ac77724bd783e86b7be142730b6ee4cd8f`.
