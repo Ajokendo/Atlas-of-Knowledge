@@ -42,7 +42,7 @@ async function checkLesson(mobile) {
     if (!lessonText.includes('Гауссова поверхность — воображаемая замкнутая поверхность')) throw new Error('Gaussian surface is not clearly defined');
     if (!lessonText.includes('Для длинной равномерно заряженной нити')) throw new Error('cylindrical symmetry example is missing');
     if (!lessonText.includes('для большого равномерно заряженного листа')) throw new Error('planar symmetry example is missing');
-    if (!lessonText.includes('СРЕДНЯЯ НОРМАЛЬНАЯ СОСТАВЛЯЮЩАЯ')) throw new Error('average normal field component is not distinguished from local field');
+    if (!lessonText.includes('НАПРЯЖЁННОСТЬ ПОЛЯ НА СФЕРЕ E = Φ/A')) throw new Error('spherical-symmetry field value is not identified clearly');
 
     const labCanvas = page.locator('.physics-stage canvas');
     await labCanvas.waitFor({ state: 'visible' });
@@ -60,7 +60,7 @@ async function checkLesson(mobile) {
     if (!(await readout('#r2')).includes('112,94 Н·м²/Кл')) throw new Error(`default oriented flux incorrect: ${await readout('#r2')}`);
 
     await page.locator('#p1').evaluate(el => { el.value = '1'; el.dispatchEvent(new Event('input', { bubbles: true })); });
-    if (!(await readout('#r0')).includes('112,94 Н·м²/Кл') || !(await readout('#r1')).includes('112,94 Н/Кл')) throw new Error('changing area should preserve total flux and halve the mean normal field');
+    if (!(await readout('#r0')).includes('112,94 Н·м²/Кл') || !(await readout('#r1')).includes('112,94 Н/Кл')) throw new Error('changing spherical area should preserve total flux and update the exact field on the sphere');
     await page.locator('#p2').evaluate(el => { el.value = '90'; el.dispatchEvent(new Event('input', { bubbles: true })); });
     if (!(await readout('#r2')).includes('0,00 Н·м²/Кл')) throw new Error(`flux at 90° should be zero: ${await readout('#r2')}`);
     await page.locator('#p2').evaluate(el => { el.value = '180'; el.dispatchEvent(new Event('input', { bubbles: true })); });
