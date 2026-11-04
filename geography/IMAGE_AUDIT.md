@@ -37,20 +37,20 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 05 | 20 | 16 integrated reported; 5.18-A pending; two ID labels not safely reconstructed; ID mapping needs reconciliation |
 | 06 | 15 | Readiness matrix reports 0/15 integrated |
 | 07–08 | 16 | Actual files and embedding not reconciled |
-| 09 | 6 | Register lists 09-A–09-F; prior chapter notes mention 09-G |
+| 09 | 7 | Chapter source contains 09-A–09-G; 09-G was missing from the register and is now reconciled |
 | 10 | 7 | Prior checkpoint says 10-A–10-G are placeholders |
 | 11–17 | 56 | Actual files and embedding not reconciled |
 | 18 | 10 | At least 18-J listed as local SVG; remainder not reconciled |
 | 19 | 10 | At least 19-H listed as local SVG; remainder not reconciled |
 | 20 | 11 | At least 20-I and 20-K listed as local SVGs; remainder not reconciled |
 | 21–26 | 68 | Actual files and embedding not reconciled |
-| **Register claim** | **231** | **Conflicts with chapter-count sum: 282 (280 named IDs in this baseline plus two Chapter 05 IDs not enumerated)** |
+| **Register claim** | **231** | **Conflicts with chapter-count sum: 283 (281 named IDs in this baseline plus two Chapter 05 slots not yet safely named)** |
 
-Chapter 05's register reports 16 integrated visuals, but the 20-ID inventory only exposes 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated and the exact integrated-ID mapping is unresolved. All individual Chapter 05 lifecycle statuses remain PENDING except 5.18-A (MISSING); the aggregate claim of 16 integrated is not assigned to guessed IDs. Chapter 09's 09-G discrepancy is unresolved. Do not publish a percentage until these and all chapter file states are reconciled.
+Chapter 05's register reports 16 integrated visuals, but the 20-ID inventory only exposes 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated and the exact integrated-ID mapping is unresolved. All individual Chapter 05 lifecycle statuses remain PENDING except 5.18-A (MISSING); the aggregate claim of 16 integrated is not assigned to guessed IDs. Chapter 09's 09-G is confirmed in the chapter source and is added to the per-asset audit below; the chapter-level total is therefore 283. The two Chapter 05 slots remain unresolved. Do not publish a percentage until the Chapter 05 mapping and all chapter file states are reconciled.
 
 ## 6. Per-asset audit register
 
-The explicit ID rows below are provisional: 280 named IDs are enumerated, and two additional Chapter 05 inventory slots cannot yet be named from the available source. Those two slots are not assigned invented IDs; this audit cannot be considered a complete per-asset register until they are recovered. All five review dimensions are PENDING until checked against the actual visual, source evidence, bilingual presentation and technical behaviour. Existing register claims are noted but are not promoted to PASS.
+The explicit ID rows below are provisional: 281 named IDs are enumerated, and two additional Chapter 05 inventory slots cannot yet be named from the available source. Those two slots are not assigned invented IDs; this audit cannot be considered a complete per-asset register until they are recovered. All five review dimensions are PENDING until checked against the actual visual, source evidence, bilingual presentation and technical behaviour. Existing register claims are noted but are not promoted to PASS.
 
 | Chapter | Visual ID | Lifecycle status | Scientific | Rights | RU/EN | Accessibility | Technical | Evidence / next action |
 |---|---|---|---|---|---|---|---|---|
@@ -333,11 +333,11 @@ The explicit ID rows below are provisional: 280 named IDs are enumerated, and tw
 | 09 | 09-C | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 09 | 09-D | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 09 | 09-E | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 09 | 09-F | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 09 | 09-F | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |\n| 09 | 09-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter source line 28 identifies a placeholder for demographic data sources and indicator types; no finished asset or source record is evidenced. |
 
 ## 7. Metrics — baseline only
 
-- **Image Coverage:** provisional / not yet calculated. The register states 231 IDs, but the listed chapter counts sum to 282; Chapter 05 has two unenumerated IDs and Chapter 09 has an additional 09-G discrepancy in prior notes.
+- **Image Coverage:** provisional / not yet calculated. The register states 231 IDs, but the listed chapter counts sum to 283 after Chapter 09's confirmed 09-G is included; Chapter 05 still has two unnamed slots.
 - **Image Verification:** 0% confirmed in this audit baseline; no asset has yet been independently certified VERIFIED under v1.1. This does not mean that no assets are correct.
 - **Image Gaps:** 5.18-A and the seven Chapter 10 placeholders are known; Chapter 06 reports 15/15 not integrated. Other gaps remain to be reconciled.
 - **A/B/C counts:** pending asset-by-asset provenance classification.
@@ -357,7 +357,7 @@ This baseline is not a complete visual inspection of all chapter files and is no
 
 ## 9. Next audit sequence
 
-1. Reconcile chapter in-text IDs, production briefs, actual files and embedded paths; resolve Chapter 05 and Chapter 09 discrepancies first.
+1. Reconcile chapter in-text IDs, production briefs, actual files and embedded paths; Chapter 09's 09-G is now reconciled as MISSING, while Chapter 05's two unnamed slots remain first priority.
 2. Verify Chapters 01–02 against exact source pages, licences, attribution, files and bilingual alt text.
 3. Complete provenance/category/rights records for Chapters 03–26, prioritising existing integrated assets before any new search.
 4. Review scientific accuracy and pedagogical limitations.
