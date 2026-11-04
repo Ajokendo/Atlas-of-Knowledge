@@ -3,7 +3,7 @@
 Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Visual production checkpoint — 4 November 2026
-- 41 of 53 mapped illustration briefs are produced or integrated (77.4%); 12 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
+- 42 of 53 mapped illustration briefs are produced or integrated (79.2%); 11 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
 - Added the original bilingual `fauna-invertebrates.svg` comparison plate to the Kyrgyzstan fauna chapter. It distinguishes insect and arachnid body plans and does not claim to be a regional species inventory.
 
 ## Languages and design
@@ -1429,4 +1429,4 @@ Created and integrated the original bilingual SVG `images/generated/zoology-adap
 ## Visual production update — 4 November 2026
 - Added and integrated `images/generated/microbe-resistance.svg` in `chapters/microbiology.html`.
 - The bilingual figure demonstrates natural selection at population level: susceptible cells are suppressed under antimicrobial pressure, while heritably resistant variants survive and reproduce. It notes mutation or acquisition of resistance genes and rejects purposeful adaptation.
-- The visual programme now stands at **41 of 53 briefs (77.4%)**; 12 briefs remain. Focused browser visual QA for these new microbiology figures is pending.
+- The visual programme now stands at **42 of 53 briefs (79.2%)**; 11 briefs remain. Focused browser visual QA for these new microbiology figures is pending.
