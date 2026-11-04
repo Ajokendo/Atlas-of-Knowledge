@@ -418,3 +418,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 06 — IHO source specificity and edition check — 5 November 2026
 
 - Replaced the broad IHO standards portal citation with the relevant publication identifiers and current catalogue editions: S-23 (limits of oceans and seas, 1953), S-44 Edition 6.2.0 (October 2024), S-102 Edition 3.0.0 (December 2024) and S-100 Edition 5.2.1 (December 2025). Checked against the IHO Standards and Specifications catalogue, last modified 30 October 2026. Commit: `80cd391382cdeceddbb5f048938e904ddab1324c`.
+
+
+### Chapter 07 — IPBES and IUCN direct-source access — 5 November 2026
+
+- Added the DOI record for the 2023 IPBES Invasive Alien Species Assessment and replaced IUCN Red List root/library links with current official resource pages on the `nrl.iucnredlist.org` subdomain. The supporting-information page explicitly identifies the assessment date, scope, criteria version and publication details that should accompany a species-status claim. Current Red List guidance page confirms Version 16 (March 2024). Commit: `2b3c9e30926342edbc4c8e75800ec41550026171`.
