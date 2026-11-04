@@ -122,7 +122,7 @@ async function checkInteractiveBook(mobile) {
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
     if (serious.length) throw new Error(`book axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
     if (errors.length) throw new Error(errors.join(' | '));
-    console.log(`PASS fluids interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 9 pages, WebGL ${initial.canvas.join('×')}, page navigation to Torricelli`);
+    console.log(`PASS fluids interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 9 pages, WebGL ${initial.canvas.join('×')}, navigation across all page titles`);
   } catch (error) {
     failures.push(`book ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
     console.error(`FAIL fluids book ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
