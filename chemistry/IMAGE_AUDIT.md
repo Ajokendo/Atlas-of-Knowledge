@@ -117,3 +117,6 @@ The neutralisation simulator uses a 1:1 molar reaction model. Its bilingual warn
 ### Reaction-balancing trainer — restart interaction corrected (2026-11-05)
 
 A source-code review found that the completion screen assigned a second onclick handler to the Next button while the original addEventListener handler remained attached. After restarting, one click could therefore advance two tasks and skip an exercise. The restart path now lives in the single existing next() handler; the localized Next label is restored when a new task renders. A regression guard checks that the competing handler is absent. Manual browser testing of the full six-task cycle remains pending.
+### Stoichiometry calculator — scale-sensitive edge cases corrected (2026-11-05)
+
+The limiting-reactant comparison previously used an absolute tolerance with a floor of 1 mol, which could classify very small but materially different reactant amounts as stoichiometrically equal. The comparison now scales its floating-point tolerance to the actual reaction extents, and residual checks use amount-specific tolerances. Optional actual-yield input trims whitespace, and non-finite percentage results are rejected rather than displayed. Regression guards cover the scale-relative tolerance and yield-input safeguards. Manual browser tests and execution of the repository checks remain outstanding.
