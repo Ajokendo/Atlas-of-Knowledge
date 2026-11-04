@@ -740,6 +740,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 - Atmospheric layer boundaries vary with latitude, season and classification; the USGS water-distribution table is a rounded global estimate based on I. Shiklomanov's 1993 assessment, not a new measurement made in 2026.
 - The four-component educational model and the five-sphere Earth-system model use different levels of grouping; the cryosphere overlaps the hydrosphere, while the lithosphere is part of the geosphere.
 - The term “geographic envelope” should be distinguished from the broader concept of the “Earth system”.
+- The carbon-cycle description is qualitative; no annual global flux values are asserted in this chapter. Nitrogen and phosphorus pathways are simplified for school-level teaching and should not be used as a quantitative nutrient budget.
 - All geographic labels, numerical values, units and map scales in illustrations require separate verification.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
@@ -756,8 +757,15 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 10. NASA Science. *Earth System Science Research: Science Spheres*. https://science.nasa.gov/earth-science/research/
 11. U.S. Geological Survey. *The Water Cycle*. https://www.usgs.gov/special-topics/water-science-school/science/water-cycle
 12. National Oceanic and Atmospheric Administration. *Layers of the Atmosphere*. https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
+13. National Oceanic and Atmospheric Administration. *Carbon Cycle*. https://www.noaa.gov/education/resource-collections/climate/carbon-cycle
+14. NASA Earth Observatory. *Climate and Earth's Energy Budget*. https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/
+15. United Nations Environment Programme. *Beat Nitrogen Pollution: The Science*. https://www.unep.org/interactives/beat-nitrogen-pollution/
+16. University of Missouri Extension. *Nitrogen in the Environment: Nitrogen Cycle* (reviewed November 2022). https://extension.missouri.edu/publications/wq252
+17. The Open University. *Eutrophication: Phosphorus*. https://www.open.edu/openlearn/nature-environment/environmental-studies/eutrophication/content-section-3.1.1
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
+
+Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12) — вертикальную структуру и состав атмосферы; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
 
 ## Редакционные и научные примечания
 
