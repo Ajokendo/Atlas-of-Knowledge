@@ -138,3 +138,4 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Added RU/EN chemistry-of-life checks for carbohydrate classification, zwitterionic/amphoteric amino acids, ribosomal peptide-bond formation, protein structural levels/denaturation, lipid classification, antiparallel DNA and 5′→3′ polymerase extension, ATP thermodynamic qualifications, and base pairing.
 - [x] Added bilingual redox exception checks for oxygen in OF₂, peroxides, and superoxides.
 - [ ] Await the complete Chromium and static-validation run for this expanded suite; continue remaining chapters and formula/calculator checks.
+- [x] Chromium exposed a test-order dependency: the new C-12/C-13/C-14 sequence left C-14 selected before an older accessibility assertion that expected the default C-12 state. The test now explicitly restores C-12 between scenarios; the chemistry content and isotope model were not defective.
