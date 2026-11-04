@@ -97,7 +97,7 @@ async function runLesson(mobile) {
     await page.locator('#p0').evaluate((el, value) => { el.value = value; el.dispatchEvent(new Event('input', { bubbles: true })); }, '200');
     await page.waitForFunction(v => document.querySelector('#r0')?.textContent !== v, before);
     const after = await page.locator('#r0').innerText();
-    const number = v => Number(v.trim().split(/\\s+/)[0].replace(',', '.'));
+    const number = v => Number(v.trim().split(/\s+/)[0].replace(',', '.'));
     if (!(number(after) > number(before))) throw new Error(`calculator did not increase: ${before} → ${after}`);
     await page.locator('button[data-answer="b"]').click();
     await page.waitForFunction(() => document.querySelector('#feedback')?.textContent.includes('Верно!'));
