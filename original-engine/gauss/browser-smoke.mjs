@@ -122,6 +122,45 @@ async function checkInteractiveBook(mobile) {
         document.querySelectorAll('#dots button').length === 9 &&
         !!(canvas.getContext('webgl2') || canvas.getContext('webgl'));
     }, undefined, { timeout: 20000 });
+
+    const guide = page.locator('#scene-guide');
+    const sceneTopics = [
+      'Поток электрического поля', 'Закон Гаусса для точечного заряда',
+      'Бесконечная заряженная нить', 'Заряженный лист и металлическая пластина',
+      'Проводящая сфера', 'Равномерно заряженная диэлектрическая сфера',
+      'Заряженные стержни', 'Неравномерно заряженная изолирующая сфера',
+      'Полая проводящая оболочка',
+    ];
+    const guideText = await guide.innerText();
+    const missingTopics = sceneTopics.filter(topic => !guideText.includes(topic));
+    if (missingTopics.length) throw new Error(`accessible scene guide is missing: ${missingTopics.join('; ')}`);
+    if (await guide.locator('li').count() !== 9) throw new Error('accessible scene guide must describe all nine scenes');
+    if (await page.locator('#gl').getAttribute('aria-describedby') !== 'scene-guide') {
+      throw new Error('3D canvas is not programmatically associated with its text guide');
+    }
+
+    const picker = page.locator('.scene-picker');
+    await picker.waitFor({ state: 'visible' });
+    if (await picker.locator('option').count() < 2) throw new Error('keyboard scene picker has no selectable objects');
+    await picker.focus();
+    await picker.press('ArrowDown');
+    await picker.press('Enter');
+    await page.waitForFunction(() => {
+      const plate = document.querySelector('#plate');
+      return plate && !plate.hidden && !!plate.querySelector('#scene-plate-title');
+    });
+    if (!(await page.locator('#scene-plate-title').evaluate(el => document.activeElement === el))) {
+      throw new Error('keyboard scene selection did not move focus to the text explanation');
+    }
+    await picker.selectOption('');
+    if (!(await page.locator('#plate').evaluate(el => el.hidden))) throw new Error('empty picker option did not close the scene explanation');
+
+    const announce = page.locator('.readout-announce');
+    await announce.click();
+    await page.waitForFunction(() => document.querySelector('#readout-announcement')?.textContent?.includes('Текущие значения'));
+    if (!(await page.locator('#readout-announcement').innerText()).includes('Текущие значения')) {
+      throw new Error('current model values were not announced on demand');
+    }
     const initial = await page.evaluate(() => ({
       title: document.querySelector('#sheet h1')?.textContent?.trim(),
       pages: document.querySelectorAll('#dots button').length,
