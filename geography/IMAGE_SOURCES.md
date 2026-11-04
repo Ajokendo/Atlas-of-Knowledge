@@ -134,5 +134,6 @@ At the time this candidate list was first compiled, the assets had not yet been 
 - Creator: USGS VizLab with the USGS Water Resources Mission Area Web Communications Branch.
 - Rights: individual media page explicitly states Public Domain.
 - Scientific fit: 2022 global water-cycle diagram includes human water use and water-quality impacts; caption makes this scope explicit.
+- Performance caveat: the source PNG is approximately 14.9 MB. Before public release, create and host an optimised responsive derivative with preserved attribution/metadata, or use the USGS zoomable viewer as the primary link; do not leave a multi-megabyte image unoptimised for mobile.
 
 **Integration limitation:** these four images are linked remotely from official source hosts; no binary copy has been added to the geography/assets directory. Remote loading, performance, responsive sizing and screen-reader behavior still require testing in the deployed reader. NOAA reuse guidance: https://www.noaa.gov/office-education/outreach-communication/faq.
