@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Composition of dry air / Состав сухого воздуха</title>
+<desc id="desc">Approximate volume composition of dry air near Earth's surface. Nitrogen 78.08 percent, oxygen 20.95 percent, argon 0.93 percent, carbon dioxide approximately 0.0426 percent in the preliminary NOAA 2025 annual marine-surface mean, and other trace gases. / Приближённый объёмный состав сухого воздуха у поверхности Земли.</desc>
+<rect width="1200" height="650" fill="#ffffff"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#17324d">Composition of dry air / Состав сухого воздуха</text>
+<text x="600" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#425466">Approximate volume fractions near Earth's surface / Приближённые объёмные доли у поверхности Земли</text>
+<rect x="80" y="170" width="1040" height="105" rx="12" fill="#edf2f7"/>
+<rect x="80" y="170" width="812.0" height="105" rx="12" fill="#2878b5"/>
+<rect x="892" y="170" width="218" height="105" fill="#269b83"/>
+<text x="486" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#ffffff">N₂ 78.08%</text>
+<text x="486" y="247" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#ffffff">Nitrogen / Азот</text>
+<text x="1000" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#ffffff">O₂ 20.95%</text>
+<text x="1000" y="247" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#ffffff">Oxygen / Кислород</text>
+<text x="80" y="335" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#17324d">Minor components / Малые компоненты (shown separately, not to scale / отдельно, не в масштабе)</text>
+<rect x="80" y="365" width="1040" height="78" rx="10" fill="#f4f7fa" stroke="#cad5df"/>
+<circle cx="115" cy="404" r="12" fill="#e0a33a"/><text x="145" y="412" font-family="Arial,sans-serif" font-size="23" fill="#17324d">Argon / Аргон (Ar): about / около 0.93%</text>
+<circle cx="630" cy="404" r="12" fill="#9a6ab5"/><text x="660" y="412" font-family="Arial,sans-serif" font-size="23" fill="#17324d">Carbon dioxide / CO₂: 0.0426%*</text>
+<text x="80" y="500" font-family="Arial,sans-serif" font-size="19" fill="#425466">Other trace gases / Другие газы: very small amounts / следовые количества</text>
+<text x="80" y="545" font-family="Arial,sans-serif" font-size="17" fill="#425466">* CO₂: NOAA preliminary 2025 annual marine-surface mean, 425.62 ppm; not a universal instantaneous value.</text>
+<text x="80" y="575" font-family="Arial,sans-serif" font-size="17" fill="#425466">* CO₂: предварительное среднегодовое значение NOAA за 2025 г. по морским станциям; это не мгновенное универсальное значение.</text>
+<text x="80" y="620" font-family="Arial,sans-serif" font-size="15" fill="#657786">Values are rounded; fractions may not sum to exactly 100%. / Значения округлены; сумма долей может не равняться ровно 100%.</text>
+</svg>
