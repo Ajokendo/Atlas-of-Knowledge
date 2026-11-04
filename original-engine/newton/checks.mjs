@@ -133,7 +133,7 @@ keyed(12, 0, pint(u => M.linDrag(u).v, 0, 1), '∫v dt over 1 s, summed');
 {
   const q = PRACTICE[12][1];
   const expected = 'линейное сопротивление — в 4 раза, квадратичное — в 2 раза';
-  check('practice 12.2: terminal-speed scaling for fourfold mass is ×4 (linear) and ×2 (quadratic)', q.choices[q.answer] === expected && q.choices.length === 4 && new Set(q.choices).size === 4 && q.why.includes('v<sub>t</sub> ∝ <i>m</i>') && q.why.includes('v<sub>t</sub> ∝ √<i>m</i>'), q.choices[q.answer]);
+  check('practice 12.2: terminal-speed scaling for fourfold mass is ×4 (linear) and ×2 (quadratic)', q.choices[q.answer] === expected && q.choices.length === 4 && new Set(q.choices).size === 4 && q.why.includes('∝ <i>m</i>') && q.why.includes('∝ √<i>m</i>'), q.choices[q.answer]);
 }
 }
 
