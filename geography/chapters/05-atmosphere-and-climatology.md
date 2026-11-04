@@ -886,6 +886,13 @@ Climate belts should not be confused with specific climate types: one belt may c
 
 Equatorial regions generally receive substantial solar energy throughout the year. Subtropical areas often include zones of descending air and major deserts. Middle latitudes have pronounced seasonality and frequent changes in air masses. Polar regions receive little solar energy on an annual average and remain cold. Mountain areas show strong climatic differences with elevation and slope aspect.
 
+**Illustration 5.12-A — Global Climate Belts / Климатические пояса мира.**
+
+<!-- VISUAL ID: 5.12-A -->
+![Global climate belts: conceptual latitudinal model / Климатические пояса мира: условная широтная модель](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-global-climate-belts.svg)
+
+*Original bilingual conceptual diagram by Atlas of Knowledge. It shows equatorial, tropical, subtropical, temperate, subpolar and polar belts in both hemispheres. Curved boundaries emphasise that climate belts are not perfect parallel bands; their position is influenced by season, atmospheric circulation, land–ocean distribution and relief. The diagram is not intended for locating exact boundaries or classifying a specific place. / Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показаны экваториальный, тропический, субтропический, умеренный, субполярный и полярный пояса в обоих полушариях. Волнистые границы подчёркивают, что климатические пояса не являются идеальными параллельными полосами; их положение зависит от сезона, циркуляции атмосферы, распределения суши и океана и рельефа. Схема не предназначена для определения точных границ или классификации конкретного места.*
+
 ### 5.13. Microclimates and Urban Climate
 
 A **microclimate** is the climate of a small area shaped by local conditions such as relief, vegetation, soil moisture, water bodies, buildings and shade.
@@ -904,6 +911,13 @@ Atmospheric phenomena may threaten health, infrastructure, agriculture and trans
 - **Heavy snow, blizzards and ice:** heavy snowfall and blizzards reduce visibility, disrupt transport and increase loads on structures. Glaze ice forms when supercooled droplets freeze on cold surfaces.
 - **Fog and dust storms:** fog is a suspension of tiny water droplets, and sometimes ice crystals, at or near the ground that reduces horizontal visibility to less than 1 km. It can form when air cools to its dew point or when its moisture content increases to saturation. Dust and sand storms occur when wind lifts particles from dry, loose and poorly protected surfaces; they reduce visibility and can harm health. [Source: NOAA, types of weather phenomena and obscuration](https://www.noaa.gov/jetstream/synoptic/types-of-weather-phenomena).
 
+**Illustration 5.14-A — Atmospheric Hazards / Опасные атмосферные явления.**
+
+<!-- VISUAL ID: 5.14-A -->
+![Atmospheric hazards and basic safety actions / Опасные атмосферные явления и основные меры безопасности](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-atmospheric-hazards.svg)
+
+*Original bilingual Atlas of Knowledge educational infographic: thunderstorms and lightning, heatwaves and drought, high winds and cyclones, heavy snow and ice, fog and dust storms. Actions are general guidance; specific decisions should follow local official warnings and conditions. The diagram does not rank hazards by frequency or severity. / Оригинальная двуязычная учебная инфографика Atlas of Knowledge: грозы и молнии, жара и засуха, штормовой ветер и циклоны, сильный снег и гололёд, туман и пыльные бури. Меры приведены как общие рекомендации; конкретные действия должны соответствовать местным официальным предупреждениям и условиям. Схема не ранжирует явления по частоте или опасности.*
+
 ### 5.15. Climate Change
 
 Earth's climate has changed throughout geological history under the influence of natural factors such as orbital and axial variations, solar activity, volcanism, tectonics and internal climate variability.
@@ -915,6 +929,13 @@ Observed changes include rising global mean surface temperature, ocean warming, 
 Climate risks depend on the hazardous event, the exposure of people and infrastructure, and the vulnerability of the systems affected.
 
 Adaptation includes early-warning systems, sustainable water management, climate-resilient agriculture, coastal protection, urban cooling and infrastructure planning that accounts for future conditions. **Mitigation** reduces greenhouse-gas emissions or increases removals. **Adaptation** reduces harm and makes use of possible beneficial opportunities.
+
+**Illustration 5.15-A — Climate Change: Drivers, Evidence and Responses / Изменение климата: причины, свидетельства и ответы.**
+
+<!-- VISUAL ID: 5.15-A -->
+![Climate change drivers, evidence and responses / Причины, свидетельства и ответы на изменение климата](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-change-drivers-evidence-responses.svg)
+
+*Original bilingual causal diagram by Atlas of Knowledge. It shows the general sequence: human activities → greenhouse-gas emissions → higher concentrations and radiative forcing → warming of the climate system → observed changes. The lower panel distinguishes mitigation (cutting emissions and enhancing removals) from adaptation (reducing vulnerability and preparing for risks). Natural climate variability continues but does not explain the modern long-term warming trend. This is a qualitative, not quantitative, diagram; it does not quantify sector contributions or provide a regional forecast. / Оригинальная двуязычная причинно-следственная схема Atlas of Knowledge. Она показывает общую последовательность: деятельность человека → выбросы парниковых газов → рост их концентрации и радиационного воздействия → нагрев климатической системы → наблюдаемые изменения. Нижний блок разделяет смягчение изменения климата (сокращение выбросов и усиление поглощения) и адаптацию (снижение уязвимости и подготовка к рискам). Естественная изменчивость климата продолжается, но не объясняет современную долгосрочную тенденцию потепления. Схема качественная, не количественная; она не показывает величину вклада каждого сектора или прогноз для отдельного региона.*
 
 ### 5.16. Meteorology, Climate Data and Forecasting / Метеорология, климатические данные и прогнозирование
 
