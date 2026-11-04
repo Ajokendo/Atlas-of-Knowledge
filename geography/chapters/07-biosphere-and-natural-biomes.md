@@ -623,6 +623,8 @@ Every study requires appropriate sampling design, replication, control of season
 - Не приводить универсальный процент передачи энергии между трофическими уровнями: эффективность зависит от экосистемы и способа расчёта.
 - При использовании глобальных оценок числа видов, темпов вымирания и площадей экосистем указывать источник, год, методику и диапазон неопределённости.
 - Не смешивать чужеродные и инвазивные виды; инвазивность подразумевает негативное воздействие.
+- Категории Красного списка МСОП описывают риск исчезновения оценённого таксона по указанной версии критериев; они не являются прямой оценкой численности всех видов и не заменяют локальный мониторинг. Категории Data Deficient и Not Evaluated нельзя трактовать как отсутствие угрозы. Для любого видового примера указывать точную страницу таксона, дату оценки и версию записи.
+- IUCN Red List categories describe extinction risk for an assessed taxon under a stated version of the criteria; they are not a census of all species and do not replace local population monitoring. Data Deficient and Not Evaluated must not be interpreted as evidence of low risk. Any species example should identify the exact taxon record, assessment date and record version.
 - Для диаграмм биогеохимических циклов строго различать резервуары (запасы) и потоки (скорости переноса), указывать единицы и временные интервалы.
 - Иллюстрации этой главы пока представлены техническими заданиями. Генерируемые карты и схемы должны пройти отдельную научную и языковую редактуру перед публикацией.
 
@@ -631,7 +633,8 @@ Every study requires appropriate sampling design, replication, control of season
 1. Convention on Biological Diversity. **Convention on Biological Diversity** (1992) — international legal framework for biodiversity conservation. https://www.cbd.int/convention/
 2. Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). **Global Assessment Report on Biodiversity and Ecosystem Services** (2019) — global assessment of nature and drivers of change. https://www.ipbes.net/global-assessment
 3. IPBES. **Thematic Assessment Report on Invasive Alien Species and their Control** (2023) — assessment of invasive alien species impacts. https://www.ipbes.net/ias
-4. International Union for Conservation of Nature (IUCN). **The IUCN Red List of Threatened Species** — extinction-risk database; record the access date and data version. https://www.iucnredlist.org/
+4. International Union for Conservation of Nature (IUCN). **The IUCN Red List of Threatened Species** — extinction-risk database; record the access date, assessment date and data version. https://www.iucnredlist.org/
+5. IUCN. **The IUCN Red List Categories and Criteria**, Version 3.1, Second edition (2012) — global standard for assigning extinction-risk categories. https://portals.iucn.org/library/node/10315
 5. UNESCO. **Man and the Biosphere Programme** — resources on biosphere reserves and society–ecosystem relations. https://www.unesco.org/en/mab
 6. Olson, D. M. et al. **Terrestrial Ecoregions of the World: A New Map of Life on Earth**. *BioScience*, 2001 — foundational reference for mapping terrestrial ecoregions. https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2
 7. Millennium Ecosystem Assessment. **Ecosystems and Human Well-being: Synthesis** (2005) — links between ecosystem processes and human well-being. https://www.millenniumassessment.org/en/Synthesis.html
