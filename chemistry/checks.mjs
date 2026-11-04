@@ -548,6 +548,23 @@ for (const file of htmlFiles) {
   }
 }
 
+
+for (const id of ["CH-IV01", "CH-IV02", "CH-IV03", "CH-IV04"]) {
+  if (!imageSources.includes(id)) errors.push("IMAGE_SOURCES.md: missing interactive visual record " + id);
+  if (!imageAudit.includes(id)) errors.push("IMAGE_AUDIT.md: missing interactive visual audit " + id);
+}
+for (const [relative, minimum] of [["chapters/atomic-structure.html", 2], ["chapters/chemical-bonding.html", 3]]) {
+  const pagePath = path.join(root, relative);
+  if (!fs.existsSync(pagePath)) {
+    errors.push(relative + ": interactive visual page is missing");
+    continue;
+  }
+  const page = fs.readFileSync(pagePath, "utf8");
+  const count = (page.match(/<svg\\b/gi) || []).length;
+  if (count < minimum) errors.push(relative + ": expected at least " + minimum + " inline SVG visual models; found " + count);
+}
+if (!fs.existsSync(path.join(root, "periodic-table.html"))) errors.push("periodic-table.html: interactive periodic table visual is missing");
+
 const isotopeSvgPath = path.join(assetRoot, "isotope-abundance.svg");
 if (fs.existsSync(isotopeSvgPath)) {
   const isotopeSvg = fs.readFileSync(isotopeSvgPath, "utf8");
