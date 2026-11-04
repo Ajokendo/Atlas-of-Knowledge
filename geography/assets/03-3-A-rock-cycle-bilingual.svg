@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Круговорот горных пород / The rock cycle</title>
+<desc id="desc">Двуязычная схема переходов между магмой, магматическими, осадочными и метаморфическими породами и осадками. / Bilingual diagram of pathways among magma, igneous, sedimentary and metamorphic rocks and sediments.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#334155"/></marker></defs>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<text x="600" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#172554">КРУГОВОРОТ ГОРНЫХ ПОРОД / THE ROCK CYCLE</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="440" y="105" width="320" height="88" rx="16" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/><text x="600" y="143" font-size="24" font-weight="700" fill="#7f1d1d">МАГМА / MAGMA</text><text x="600" y="174" font-size="17" fill="#7f1d1d">расплавленная порода / molten rock</text>
+<rect x="70" y="310" width="300" height="112" rx="16" fill="#ffedd5" stroke="#c2410c" stroke-width="3"/><text x="220" y="351" font-size="23" font-weight="700" fill="#7c2d12">МАГМАТИЧЕСКИЕ</text><text x="220" y="379" font-size="20" font-weight="700" fill="#7c2d12">ПОРОДЫ / IGNEOUS</text><text x="220" y="405" font-size="16" fill="#7c2d12">гранит, базальт / granite, basalt</text>
+<rect x="830" y="310" width="300" height="112" rx="16" fill="#dcfce7" stroke="#15803d" stroke-width="3"/><text x="980" y="351" font-size="23" font-weight="700" fill="#14532d">ОСАДОЧНЫЕ</text><text x="980" y="379" font-size="20" font-weight="700" fill="#14532d">ПОРОДЫ / SEDIMENTARY</text><text x="980" y="405" font-size="16" fill="#14532d">песчаник, известняк / sandstone, limestone</text>
+<rect x="440" y="575" width="320" height="112" rx="16" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/><text x="600" y="616" font-size="23" font-weight="700" fill="#1e3a8a">МЕТАМОРФИЧЕСКИЕ</text><text x="600" y="644" font-size="20" font-weight="700" fill="#1e3a8a">ПОРОДЫ / METAMORPHIC</text><text x="600" y="670" font-size="16" fill="#1e3a8a">мрамор, гнейс / marble, gneiss</text>
+<rect x="440" y="330" width="320" height="90" rx="16" fill="#fef3c7" stroke="#a16207" stroke-width="3"/><text x="600" y="366" font-size="24" font-weight="700" fill="#713f12">ОСАДКИ / SEDIMENTS</text><text x="600" y="395" font-size="17" fill="#713f12">обломки, песок, ил / fragments, sand, silt</text>
+</g>
+<g fill="none" stroke="#334155" stroke-width="4" marker-end="url(#a)">
+<path d="M440 150 C320 160 250 210 220 305"/><path d="M370 365 L430 365"/><path d="M760 365 L820 365"/><path d="M980 425 C950 520 820 610 770 625"/><path d="M440 630 C320 600 250 500 220 430"/><path d="M600 575 L600 430"/><path d="M760 150 C880 170 960 230 980 300"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="17" fill="#334155" text-anchor="middle">
+<text x="290" y="190">охлаждение и кристаллизация</text><text x="290" y="213">cooling and crystallisation</text>
+<text x="400" y="340">выветривание, эрозия</text><text x="400" y="362">weathering, erosion</text>
+<text x="800" y="340">уплотнение и цементация</text><text x="800" y="362">compaction and cementation</text>
+<text x="895" y="530">тепло и давление</text><text x="895" y="553">heat and pressure</text>
+<text x="285" y="535">плавление / melting</text>
+<text x="600" y="480">захоронение, тепло и давление</text><text x="600" y="503">burial, heat and pressure</text>
+<text x="890" y="190">плавление / melting</text>
+</g>
+<text x="600" y="728" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#475569">Схема упрощена: пути преобразования не образуют обязательный замкнутый цикл. / Simplified: pathways are not a fixed closed loop.</text>
+</svg>
