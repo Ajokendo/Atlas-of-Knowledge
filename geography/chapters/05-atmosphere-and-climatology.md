@@ -525,7 +525,11 @@ These values describe the annual cycles of temperature and precipitation, but th
 
 **Почему это важно для гор Кыргызстана.** Нельзя напрямую сравнивать аномалию в высокогорной станции с абсолютной температурой в долине и делать вывод о пространственной картине потепления. Нужны сопоставимые периоды, высотный контекст, качество наблюдений и достаточная сеть станций. Межгодовая изменчивость также не равна долгосрочному тренду.
 
-**Учебное задание.** Для трёх станций рассчитайте температурные аномалии одного и того же месяца относительно одной и той же базовой нормы. Сравните знаки и величины отклонений. Затем объясните, почему один месяц не доказывает климатический тренд и какие данные нужны для оценки многолетнего изменения.
+**Учебное задание.** Для трёх станций рассчитайте температурные аномалии одного и того же месяца относительно нормы каждой станции, используя общий базовый период (например, 1991–2020). Сравните знаки и величины отклонений. Затем объясните, почему один месяц не доказывает климатический тренд и какие данные нужны для оценки многолетнего изменения.
+
+*Источники:* ВМО, *Руководство по расчёту климатических норм* (WMO-No. 1203, 2017); ВМО, *Руководство по гомогенизации* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
+
+Для оперативного описания современных условий обычно используют актуальную стандартную норму 1991–2020. В исследованиях долгосрочного изменения климата может применяться фиксированный базовый период 1961–1990, чтобы сравнения разных лет оставались привязаны к одной и той же исходной точке. Выбор зависит от задачи; базовый период всегда нужно указывать.
 
 Absolute temperature and precipitation values are not always suitable for comparing different places. A temperature of +5 °C may be normal in one month but unusually high in another region or season. Climatologists therefore use an **anomaly**: the difference between an observed value and a selected climate normal.
 
@@ -541,7 +545,11 @@ For precipitation, both absolute millimetres and the percentage of normal can be
 
 **Why this matters in the mountains of Kyrgyzstan.** An anomaly at a high-elevation station cannot be directly compared with an absolute temperature in a valley to infer the spatial pattern of warming. Comparable periods, elevation context, observation quality and a sufficiently dense station network are needed. Year-to-year variability is not the same as a long-term trend.
 
-**Learning activity.** Calculate temperature anomalies for three stations for the same month using the same baseline normal. Compare the signs and sizes of the departures. Then explain why one month cannot establish a climate trend and identify the data needed to assess long-term change.
+**Learning activity.** Calculate temperature anomalies for three stations for the same month using each station's own normal and a common baseline period (for example, 1991–2020). Compare the signs and sizes of the departures. Then explain why one month cannot establish a climate trend and identify the data needed to assess long-term change.
+
+For describing current conditions, the latest standard normal (1991–2020) is generally used. Long-term climate-change assessments may instead use the fixed 1961–1990 reference period so that comparisons across years retain the same baseline. The appropriate choice depends on the purpose; always state the reference period.
+
+*Sources:* WMO, *Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017); WMO, *Guidelines on Homogenisation* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
 
 *Sources / Источники:* WMO, *Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017), for standard 30-year normals; WMO, *Guidelines on Homogenization* (WMO-No. 1245, 2020), for quality control and adjustment of inhomogeneous climate records. / ВМО, *Руководство по расчёту климатических норм* (WMO-No. 1203, 2017) — стандартные 30-летние нормы; ВМО, *Руководство по гомогенизации* (WMO-No. 1245, 2020) — контроль качества и корректировка неоднородных климатических рядов.
 
