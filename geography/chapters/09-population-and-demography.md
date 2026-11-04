@@ -27,6 +27,7 @@ After studying this chapter, readers will be able to explain core demographic co
 
 **Рисунок 9.1 / Figure 9.1 — Источники демографических данных / Sources of demographic data.**  
 Техническое задание: центральный блок «население» соединить с переписью, регистрацией актов гражданского состояния, обследованиями, административными данными и геопространственными источниками; показать, какие показатели даёт каждый источник; все подписи двуязычные.
+**EN production brief:** Place “Population” in the centre and connect it to census data, civil registration, surveys, administrative records and geospatial sources. Show which indicators each source provides; all labels must be bilingual.
 
 ## 9.2. Численность населения и её изменение / Population Size and Change
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-A / IMAGE PLACEHOLDER 09-A]** График численности населения мира; наблюдения и прогнозы показать раздельно. / World population trend chart, separating observations from projections.
@@ -102,6 +103,7 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-D / IMAGE PLACEHOLDER 09-D]** Модель демографического перехода с кривыми рождаемости, смертности и естественного прироста; указать, что схема обобщённая. / **EN:** Demographic transition model with fertility, mortality and natural-increase curves; identify it as a generalised model.
 **Рисунок 9.2 / Figure 9.2 — Модель демографического перехода / Demographic transition model.**  
 Техническое задание: график с условными кривыми рождаемости, смертности и естественного прироста по стадиям; оси и легенда на двух языках; явно обозначить, что это концептуальная модель, а не данные конкретной страны.
+**EN production brief:** Draw a graph with illustrative curves for birth rate, death rate and natural increase across the stages. Use bilingual axes and legend, and label it clearly as a conceptual model rather than data from a particular country.
 
 ## 9.7. Возрастная и половая структура населения / Age and Sex Structure
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-B / IMAGE PLACEHOLDER 09-B]** Возрастно-половая пирамида с пояснением оснований, возрастных групп и единиц. / Population pyramid explaining its base, age groups and units.
@@ -122,6 +124,7 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 
 **Рисунок 9.3 / Figure 9.3 — Типы возрастно-половых пирамид / Types of age-sex pyramids.**  
 Техническое задание: три условные пирамиды — расширяющаяся, стационарная и сужающаяся; мужчины слева, женщины справа; возрастные группы снизу вверх; использовать одинаковую шкалу и объяснить, что формы схематические.
+**EN production brief:** Show three hypothetical population pyramids: expanding, stationary and contracting. Place males on the left and females on the right, arrange age groups from youngest at the bottom to oldest at the top, use the same scale for all three, and identify the shapes as schematic.
 
 ## 9.8. Старение населения и демографическая нагрузка / Population Ageing and Dependency
 
@@ -172,6 +175,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 **Рисунок 9.4 / Figure 9.4 — Формы миграции / Forms of migration.**  
 Техническое задание: схема внутренней и международной миграции, сезонного перемещения, возвратной миграции и вынужденного перемещения; не изображать стрелки как реальные маршруты без подтверждённых данных.
+**EN production brief:** Diagram internal and international migration, seasonal movement, return migration and forced displacement. Do not present arrows as real routes unless supported by verified data.
 
 ## 9.10. Причины и последствия миграции / Drivers and Consequences of Migration
 
@@ -207,6 +211,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-E / IMAGE PLACEHOLDER 09-E]** Карта глобальной плотности населения на сопоставимую дату с единицами, источником и проекцией. / **EN:** Global population-density map for a stated reference date, with units, source and projection.
 **Рисунок 9.5 / Figure 9.5 — Глобальная плотность населения / Global population density.**  
 Техническое задание: карта плотности населения на основе одной согласованной даты и пространственной сетки; использовать логарифмическую или категориальную шкалу, если диапазон значений велик; указать источник, год, проекцию и разрешение; не подменять плотность населения картой административных средних.
+**EN production brief:** Map population density using a consistent reference date and spatial grid. Use a logarithmic or categorical scale if the value range is large; state the source, year, projection and resolution. Do not substitute administrative-area averages for a gridded density surface.
 
 ## 9.12. Сельское и городское население / Rural and Urban Population
 
@@ -229,6 +234,7 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 09-F / IMAGE PLACEHOLDER 09-F]** Последовательность роста городской агломерации с ядром, пригородами и изменением застроенной территории по датированным данным. / **EN:** Urban-agglomeration growth sequence showing the core, suburbs and built-up-area change using dated data.
 **Рисунок 9.6 / Figure 9.6 — Рост городской агломерации / Growth of an urban agglomeration.**  
 Техническое задание: последовательные карты условной агломерации в три временных среза; показать ядро, пригородное расширение, транспортные связи и зелёные зоны; подчеркнуть, что административная граница и функциональная зона различаются.
+**EN production brief:** Create a sequence of three maps showing a hypothetical urban agglomeration at different dates. Show the urban core, suburban expansion, transport links and green spaces; emphasise that the administrative boundary and functional urban area are not the same.
 
 ## 9.14. Демографическая политика и человеческое развитие / Population Policy and Human Development
 
