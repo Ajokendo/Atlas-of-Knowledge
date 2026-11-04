@@ -1070,3 +1070,8 @@ All changes remain confined to `biology/` on `workspace/biology`.
 ## Figure inventory count clarification — 5 November 2026
 
 A fresh source scan of the 12 chapter HTML files found 59 semantic figure elements: 57 external-image figures and 2 inline-SVG figures. All 57 external-image figures now have alt attributes and visible captions; no local generated-image target was missing. The 53/53 measure refers only to mapped visual briefs, not the raw number of HTML figures. The audit wording has been corrected accordingly. Image Verification remains pending for the full human review gates.
+
+
+## SVG spot-check checkpoint — 5 November 2026
+
+Reviewed source markup for ten generated Biology SVGs across anatomy, biochemistry, botany and cell biology. All ten contain `<title>` and `<desc>`; explanatory labels were checked for key concepts and scientific qualifications. No proven error was found in this source-level sample, so no SVG artwork was altered. Rendered appearance and full human asset verification remain pending. Details recorded in `IMAGE_AUDIT.md`.
