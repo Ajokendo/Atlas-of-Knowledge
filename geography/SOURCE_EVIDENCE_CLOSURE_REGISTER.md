@@ -540,3 +540,6 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 06 — visual ID reconciliation — 5 November 2026
 
 - Reconciled the chapter's production briefs with its in-text markers: 11 previously unmarked visual concepts now have stable bilingual IDs and teaching-location markers; four redundant aliases were normalised to 6-A–6-D. The chapter now has 15 unique planned assets, all still placeholders. The visual register total is 231 across 26 chapters. Commits: `57ec4a27d8ba80b013a388e434df784b907b074b`, `57b7b9a6d59c1e3b070adf1d5d45c8e70e3f0b31`, `1bd3a384212a6ae893834e6ba5a748d30887dff4`.
+
+
+- Added the missing bilingual production brief for visual ID 10-A (world political map), specifying data date, projection, scale, boundary provenance, treatment of disputed territories and the distinction between de facto control and legal status. Commit: `ea7107c8b2c927b14927568e0e71539afd34dd82`.
