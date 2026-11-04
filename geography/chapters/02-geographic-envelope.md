@@ -1,7 +1,7 @@
 # Глава 2. Географическая оболочка Земли
 # Chapter 2. Earth's Geographic Envelope
 
-> **Статус:** текстовая редакция подготовлена; научная сверка источников, иллюстрации и финальная редактура остаются следующими этапами.
+ > **Статус:** текстовая редакция подготовлена; визуалы частично интегрированы (9 изображений/схем), 10 из 18 заданий ещё не имеют отдельной иллюстрации, а соответствие 2-A требованиям четырёхкомпонентной модели остаётся частичным. Научная приёмка, полная вычитка и веб-проверки не завершены.
 >
 > **Языки:** глава содержит русскую и английскую версии учебного текста, включая разобранный пример, контрольные вопросы и практическое задание.
 
@@ -9,7 +9,7 @@
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 2-A / IMAGE PLACEHOLDER 2-A]** Схема географической оболочки как системы взаимодействия атмосферы, гидросферы, литосферы и биосферы; показать потоки вещества и энергии.
 > **EN:** Diagram of the geographic envelope as an interacting system of atmosphere, hydrosphere, lithosphere and biosphere, showing matter and energy flows.
-> **Visual-source candidate (not yet embedded):** NASA Goddard Space Flight Center, [Earth System Diagram](https://svs.gsfc.nasa.gov/30988), credit NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller. Use as a conceptual reference only: adapt labels to the chapter's four-component model and do not imply that NASA's graphic itself depicts this exact classification.
+> **Embedded conceptual reference (not a direct match to the four-sphere brief):** NASA Goddard Space Flight Center, [Earth System Diagram](https://svs.gsfc.nasa.gov/30988), credit NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller. Use as a conceptual reference only: adapt labels to the chapter's four-component model and do not imply that NASA's graphic itself depicts this exact classification.
 
 ![Earth as a complex interrelated system: solar radiation, atmosphere, water cycle, carbon cycle, ecosystems and human influences / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
 
