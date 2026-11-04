@@ -553,3 +553,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapters 06–10 — English-copy worked-example parity — 5 November 2026
 
 - Restored the English-only chapter copies for the numbered worked examples and methods subsections that previously existed only in the paired bilingual teaching block: Ch06 6.13.1 and 6.17.1; Ch07 7.4.1 and 7.15.1; Ch08 8.4.1 and 8.15.1; Ch09 9.8.1 and 9.16.1; Ch10 10.5.1 and 10.15.1. The English-only versions now contain the corresponding full explanations, examples and activities rather than relying on the mixed-language block. Automated heading-ID comparison now has zero missing or extra teaching headings in all five chapters (29/29, 17/17, 17/17, 18/18 and 17/17 respectively). Commits: Ch06 `c3a1edc174e07675bf01d7652b849cc5710e8e2c`, `6712350daa8638657d27f17dc8294936932a8f14`; Ch07 `f409a4a858a225ee9c3df76b54e7a6ec196302f9`; Ch08 `4628c2a6b67e972b196d96973c626105f0d1a5d2`; Ch09 `922b4a88e8f6e559ac10a1178b3206fb42bd3dde`; Ch10 `099b6049041236519fe7b602ff53862a27bdba5b`.
+
+
+### Chapter 06 — bilingual key-term glossary — 5 November 2026
+
+- Added a bilingual glossary of 25 core terms covering water stores and cycle processes, catchment hydrology, oceanographic properties and circulation, marine chemistry, groundwater and water scarcity. The glossary is placed before the review questions and uses the terminology already defined in the chapter. Commit: `f827509fd7b9bba5c2d7ff441017fab4cd66a708`.
