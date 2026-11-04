@@ -180,7 +180,7 @@ All seven registered interactive systems were inspected in their current page so
 
 ### SVG dependency scan
 
-The 20 SVG files inspected in this pass contain no external `href` / `xlink:href` dependencies. The only URL found in each file is the standard W3C SVG namespace. The remaining two carbon-cycle files are not included in this scan result and must not be inferred from the 20-file sample. No embedded third-party image link was identified in the inspected files. This technical scan does not establish the absence of copied visual composition or unrecorded source influence.
+All 22 SVG files were inspected for `href` / `xlink:href` dependencies. No external asset dependencies or embedded linked images were found; the only URL in each file is the standard W3C SVG namespace. This technical scan does not establish the absence of copied visual composition or unrecorded source influence.
 
 ### External candidates versus adopted assets
 
