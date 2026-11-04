@@ -94,6 +94,12 @@ This is a first-pass map of the currently identified visual need, not a final de
 | 11 Organic chemistry | Recognise major functional groups and avoid overgeneralising R–NH₂ | Functional-groups SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
 | 12 Chemistry of life and environment | Compare biomolecule classes and explain major carbon reservoirs/flows | Biomolecule and carbon-cycle SVG pairs | INTEGRATED — first-pass science PASS; search and rights PENDING |
 
+## Additional interactive-tool review
+
+- `periodic-table.html`: a visible bilingual Chapter 03 placeholder now marks the missing periodic-trends illustration. The illustration itself is NOT integrated; image generation is deferred. The placeholder records the broad directions and explicitly qualifies them as trends with exceptions.
+- `molecule-lab.html`: molecule selector option names and the workspace accessible name now switch with RU/EN. The canvas has keyboard rotation and a language-dependent accessible name; manual assistive-technology review remains pending.
+- `gas-laws.html`: added a bilingual limitation note clarifying that particle dots only represent a schematic count based on amount of gas; they do not simulate density, speed, trajectories or collisions. Pressure remains calculated separately from the ideal-gas equation.
+
 ## Required follow-up before VERIFIED / publication-ready
 
 1. Improve targeted searches for records where the first retrospective search did not surface a suitable candidate; retain the exact queries and dated outcomes already recorded. The original pre-creation search sequence remains historically unverifiable.
