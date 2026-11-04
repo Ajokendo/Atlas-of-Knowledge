@@ -262,3 +262,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 10 — Montevideo Convention source cross-check — 5 November 2026
 
 - Separated treaty text references from treaty metadata by adding the U.S. Department of State and University of Oslo text records plus OAS and UN Treaty Collection metadata records. Articles 1 and 3 were checked against the treaty text. Commit: `f2a8d5c3f3845166700f11be255f1c59280967f4`.
+
+
+### Chapter 10 — M49 statistical/legal distinction — 5 November 2026
+
+- Added a bilingual statement that UN M49 is a statistical classification and does not establish sovereignty, statehood, recognition or legal boundary lines. Checked against the UN Statistics Division methodology overview. Commit: `cf70c9c4d7875dd643956b11811c9ccc73fb9f0c`.
