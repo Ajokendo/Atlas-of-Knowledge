@@ -61,7 +61,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 
 По характеру прохождения различают геометрические, астрономические, географические и исторически сложившиеся границы. Геометрическая граница может следовать прямой линии; географическая — реке, водоразделу или иной природной особенности. На практике границы часто сочетают несколько принципов.
 
-Граница выполняет разные функции: разграничивает юрисдикцию, регулирует перемещение людей и товаров, обеспечивает безопасность, определяет таможенные и налоговые режимы, а также может разделять сообщества и экосистемы. Граница не обязательно является непроницаемой стеной: режим пересечения зависит от договоров, политики и инфраструктуры.
+Граница выполняет разные функции: разграничивает юрисдикцию, регулирует перемещение людей и товаров, обеспечивает безопасность, определяет таможенные и налоговые режимы, а также может разделять сообщества и экосистемы. Граница не обязательно является непроницаемой стеной: режим пересечения зависит от договоров, политики и инфраструктуры. На мелкомасштабной карте юридическая линия часто обобщается из-за масштаба и толщины условного знака; такая картографическая линия не заменяет договорное описание, координаты согласованных точек или официальные демаркационные материалы. Особенно осторожно следует изображать речные и озёрные границы: их правовое положение и возможное изменение русла определяются соответствующими договорами и нормами, а не только текущей береговой линией на спутниковом снимке.
 
 **Рисунок 10.1 / Figure 10.1 — Типы государственных границ / Types of state borders.**  
 Техническое задание: четыре схематичных фрагмента — геометрическая линия, речная граница, водораздел и исторически сложившаяся граница; показать условные пограничные знаки, не использовать реальные спорные участки.
@@ -313,7 +313,7 @@ The main stages of establishing a border are:
 
 By their course, borders may be geometric, astronomical, geographic or historically established. A geometric border may follow a straight line; a geographic border may follow a river, watershed or other natural feature. In practice, borders often combine several principles.
 
-Borders perform different functions: they divide jurisdiction, regulate the movement of people and goods, support security, define customs and tax regimes, and may divide communities and ecosystems. A border is not necessarily an impermeable wall: crossing rules depend on treaties, policy and infrastructure.
+Borders perform different functions: they divide jurisdiction, regulate the movement of people and goods, support security, define customs and tax regimes, and may divide communities and ecosystems. A border is not necessarily an impermeable wall: crossing rules depend on treaties, policy and infrastructure. On a small-scale map, a legal boundary is often generalised because of map scale and symbol width; the cartographic line does not replace a treaty description, agreed coordinates or official demarcation records. River and lake boundaries require particular care: their legal position and any treatment of channel change are governed by the relevant treaties and rules, not simply by the current shoreline visible in a satellite image.
 
 ### 10.5. Maritime Zones and the Political Geography of the Ocean
 
