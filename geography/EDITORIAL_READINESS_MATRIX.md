@@ -435,3 +435,6 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Extended the Chapter 10 bilingual glossary with baseline, contiguous zone, the Area and high seas so the new UNCLOS distinction is reflected in the review vocabulary. Commit: `bb34acbf677af3a78ccffaa4d4ca30ebb195a6d4`.
+
+
+- Aligned the bilingual review question with the revised WRB profile description by including H alongside O, A, E, B, C and R. Commit: `0b0bde34740ed99d720cfa54ece4080e83c81e91`.
