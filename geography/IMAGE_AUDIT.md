@@ -333,7 +333,8 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 09 | 09-C | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 09 | 09-D | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 09 | 09-E | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 09 | 09-F | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |\n| 09 | 09-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter source line 28 identifies a placeholder for demographic data sources and indicator types; no finished asset or source record is evidenced. |
+| 09 | 09-F | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 09 | 09-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter source line 28 identifies a placeholder for demographic data sources and indicator types; no finished asset or source record is evidenced. |
 
 ## 7. Metrics — baseline only
 
