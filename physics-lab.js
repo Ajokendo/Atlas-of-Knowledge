@@ -94,7 +94,7 @@ function init(root){
  const startLoop=()=>{if(!rafId&&visible&&running){clock.getDelta();rafId=requestAnimationFrame(render);}};
  const stopLoop=()=>{if(rafId){cancelAnimationFrame(rafId);rafId=0;}clock.getDelta();renderer.render(scene,camera);};
  calc(+phase.value/100);renderer.render(scene,camera);startLoop();
- play.addEventListener("click",()=>{userChoice=!running;running=visible&&userChoice;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
+ play.addEventListener("click",()=>{userChoice=!running;running=userChoice;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
  motionPreference.addEventListener("change",e=>{running=visible&&(userChoice===null?!e.matches:userChoice);play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
  speed.addEventListener("input",()=>speedOut.textContent=(+speed.value).toFixed(1).replace(".",",")+"×");phase.addEventListener("input",()=>{phaseOut.textContent=phase.value+"%";calc(+phase.value/100);});
  const observer=new IntersectionObserver(entries=>{for(const e of entries){visible=e.isIntersecting;running=visible&&(userChoice===null?!motionPreference.matches:userChoice);play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();}},{threshold:.08});observer.observe(root);
