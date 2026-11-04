@@ -115,12 +115,64 @@ Record a requirement here before starting a search. Move it to the integrated-as
 | 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | The geometry and cross-product direction must be unambiguous; placeholder does not count as an integrated visual | Search for a reusable diagram or prepare a precise bilingual schematic; verify `B`, `v`, rod orientation, force and current directions |
 | 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | Several related concepts must be represented without conflating the RL transient with LC oscillations | Search for suitable separate diagrams/plots or prepare a bilingual composite; validate curves and initial conditions |
 
-## Interactive 3D scene inventory — Chapters 14 and 15
+## Interactive 3D scene inventory — Chapters 03, 05, 11–15
 
 This is a scene-level source-lineage index for the interactive-book scenes. It is not a claim that the scenes have passed manual visual review, item-level rights review, or final accessibility verification. Each scene is inherited from the upstream module and has Russian-localised in-scene names/labels; classify the affected rendered scene output as **B — Adapted**. The 3D geometry and executable scene construction were retained in the compared sections.
 
 | Visual ID | Chapter / page | Scene key | Local source | Upstream source | Status |
 |---|---|---|---|---|---|
+| PHY-03-3D-01 | 03 — 3 — Движение по окружности | `whirl` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-02 | 3.1 — Центростремительная сила | `double` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-03 | 3.2 — Автомобиль на повороте | `flatcar` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-04 | 3.3 — Конический маятник | `cone` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-05 | 3.4 — Движение по вертикальной окружности | `loop` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-06 | 3.5 — Виражи | `bank` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-07 | 3.6 — Угловая скорость | `disc` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-08 | 3.7 — Закон всемирного тяготения | `gravity` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-09 | 3.8 — Орбиты | `orbit` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-10 | 3.9 — Эллиптические орбиты | `kepler` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-11 | 3.10 — Энергия на орбите | `orbitE` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-12 | 3.11 · AP Physics C — Потенциальная энергия | `well` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-13 | 3.12 · AP Physics C — Вторая космическая скорость | `escape` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-01 | 05 — 5 — Импульс тела | `mom` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-02 | 5.1 — Импульс силы | `wall` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-03 | 5.2 — Меньшая сила | `eggs` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-04 | 5.3 — Закон сохранения импульса | `stick` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-05 | 5.4 — Упругие столкновения | `bounce` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-06 | 5.5 — Взрыв | `burst` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-07 | 5.6 — Баллистический маятник | `pend` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-08 | 5.7 — Движение в двух измерениях | `crash` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-09 | 5.8 — Центр масс | `shell` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-10 | 5.9 · AP Physics C — Сплошные тела | `rods` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-11 | 5.10 · AP Physics C — Пластины | `plates` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-05-3D-12 | 5.11 · AP Physics C — Составные тела и отверстия | `parts` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-01 | 11 — 11 — Потенциальная энергия электрического взаимодействия | `pair` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-02 | 11.1 — Сборка системы зарядов | `square` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-03 | 11.2 — Электрический потенциал | `uniform` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-04 | 11.3 — Потенциальный рельеф | `hill` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-05 | 11.4 — Электрический диполь | `dipole` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-06 | 11.5 — Заряженный стержень | `rod` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-07 | 11.6 — Кольцо, дуга и диск | `ring` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-08 | 11.7 — Заряженные сферы | `spheres` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-11-3D-09 | 11.8 — Электрон-вольт | `accel` | `original-engine/potential/world.js` | `potential/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-01 | 12 — 12 — Конденсаторы | `plates` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-02 | 12.1 — Плоский конденсатор | `gap` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-03 | 12.2 — Две сферы | `sphere` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-04 | 12.3 — Два цилиндра | `coax` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-05 | 12.4 — Запасённая энергия | `energy` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-06 | 12.5 — Последовательное и параллельное соединения | `circuits` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-07 | 12.6 — Диэлектрики | `slab` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-08 | 12.7 — Подключён или отключён | `compare` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-12-3D-09 | 12.8 — Проводники | `conductor` | `original-engine/capacitors/world.js` | `capacitors/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-01 | 13 — 13 — Электрический ток | `wire` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-02 | 13.1 — Сопротивление | `wires` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-03 | 13.2 — Закон Ома | `ohm` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-04 | 13.3 — Мощность | `bulb` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-05 | 13.4 — ЭДС | `cell` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-06 | 13.5 — Последовательное и параллельное соединения | `sp` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-07 | 13.6 — Смешанные соединения | `combo` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-08 | 13.7 — Правила Кирхгофа | `kirch` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
+| PHY-13-3D-09 | 13.8 — RC-цепи | `rc` | `original-engine/circuits/world.js` | `circuits/world.js` | INTEGRATED / visual review pending |
 | PHY-14-3D-01 | 14 — Magnetism | `magnet` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
 | PHY-14-3D-02 | 14.1 — Magnetic force | `rhr` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
 | PHY-14-3D-03 | 14.2 — Circular motion in a field | `cyclo` | `original-engine/magnetism/world.js` | `magnetism/world.js` | INTEGRATED / visual review pending |
