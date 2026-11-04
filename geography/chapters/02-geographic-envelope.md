@@ -631,6 +631,16 @@ When analysing a diagram, identify variables and causal links, note time lags, d
 
 The geographic envelope is Earth's integrated outer zone in which the atmosphere, hydrosphere, upper lithosphere and biosphere interact. It is where major natural processes occur, soils and ecosystems develop, water circulates, air masses move, and matter and energy are exchanged.
 
+**Illustration 2-A — Four Earth Spheres and the Earth System.**
+
+![Four interacting Earth spheres: atmosphere, hydrosphere, lithosphere and biosphere / Четыре взаимосвязанные оболочки Земли](../assets/diagrams/02-A-four-earth-spheres.svg)
+
+*Original bilingual Atlas of Knowledge diagram. Arrows show examples of interaction, not measured matter or energy fluxes. / Оригинальная двуязычная схема Atlas of Knowledge. Стрелки показывают примеры взаимодействия, а не измеренные потоки вещества или энергии.*
+
+![Earth as a complex interrelated system, including solar radiation, atmosphere, water and carbon cycles, ecosystems and human influence / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
+
+*Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. This five-sphere Earth-system illustration is supplementary; it is not a literal four-part geographic-envelope diagram. / Источник: NASA Goddard Space Flight Center, “Earth System Diagram”. Это дополнительная иллюстрация пятисферной системы, а не буквальная схема четырёхкомпонентной географической оболочки. [Source page / Страница источника](https://svs.gsfc.nasa.gov/30988).
+
 Key properties of the geographic envelope include:
 
 1. **Integrity:** a change in one component can affect others.
@@ -639,6 +649,12 @@ Key properties of the geographic envelope include:
 4. **Rhythmicity:** many processes follow daily, seasonal and multi-year cycles.
 5. **Zonation:** natural conditions change systematically with latitude and elevation.
 6. **Self-regulation:** natural systems can partly compensate for change, but their resilience has limits.
+
+**Illustration 2.1-A — Geographic Envelope Cross-section.**
+
+![Schematic cross-section of the geographic envelope: atmosphere, water, solid surface and living organisms / Схематичный разрез географической оболочки](../assets/diagrams/02-1A-geographic-envelope-cross-section.svg)
+
+*Original educational schematic, not to scale; sphere boundaries are conceptual and overlap. / Оригинальная учебная схема, не в масштабе; границы оболочек условны и перекрываются.*
 
 ### 2.2. The Four Major Spheres of Earth
 
@@ -651,6 +667,12 @@ The spheres do not have impermeable boundaries. They overlap and interact: water
 
 **Important clarification about the cryosphere.** The traditional educational model of the geographic envelope commonly identifies the four components listed above. Ice and snow are included within the hydrosphere, but their distinctive properties and climate role also justify treating them separately as the **cryosphere**. Modern Earth system science often uses a five-sphere model: atmosphere, hydrosphere, cryosphere, geosphere and biosphere. These models are compatible; they group interacting components at different levels of detail. The lithosphere is the rigid outer part of the geosphere, not a synonym for the entire geosphere.
 
+**Illustration 2.2-A — Interactions Between Four Earth Spheres.**
+
+![Examples of interaction: precipitation, evaporation, weathering, runoff and nutrient exchange / Примеры взаимодействия оболочек Земли](../assets/diagrams/02-2A-four-spheres-interactions.svg)
+
+*Original bilingual schematic. Arrows show process examples and do not indicate quantitative magnitudes. / Оригинальная двуязычная схема. Стрелки показывают примеры процессов и не обозначают их количественную величину.*
+
 | Sphere | Main environment | Characteristic processes |
 |---|---|---|
 | Atmosphere | Air and gases | Winds, precipitation, circulation |
@@ -661,6 +683,12 @@ The spheres do not have impermeable boundaries. They overlap and interact: water
 ### 2.3. Atmosphere: The Gaseous Envelope
 
 Earth's atmosphere is held by gravity. It regulates heat exchange, transports moisture, generates weather and protects the surface from a substantial part of harmful ultraviolet radiation.
+
+**Illustration 2-B — Layers of the Atmosphere.**
+
+![The five main layers of the atmosphere / Пять основных слоёв атмосферы](https://www.noaa.gov/sites/default/files/2021-12/basic%20layers%20of%20the%20atmosphere.jpg)
+
+*Source: NOAA National Weather Service, JetStream, “Layers of the Atmosphere”. Credit NOAA. Layer boundaries are approximate; troposphere height varies with latitude. / Источник: NOAA National Weather Service, JetStream. Границы слоёв приблизительны; высота тропосферы меняется с широтой.*
 
 **Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and less than 0.01% other trace gases (excluding CO₂). Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm. Water vapour is excluded because its concentration is highly variable.
 
@@ -677,6 +705,12 @@ Nitrogen is part of the global nitrogen cycle and becomes available to organisms
 | Exosphere | Upper hundreds of kilometres and beyond | Gradual transition to outer space |
 
 Boundaries are approximate and vary with latitude, season and solar activity. The troposphere contains most of the atmosphere's mass and almost all atmospheric water vapour. The stratospheric ozone layer absorbs a substantial part of the Sun's ultraviolet radiation.
+
+**Illustration 2.3-A — Atmospheric Temperature Profile.**
+
+![Temperature change with altitude and boundaries of atmospheric layers / Изменение температуры с высотой и границы слоёв атмосферы](https://www.noaa.gov/media/image_download/4abff0ab-b122-4940-9629-0ae8d5f63a03)
+
+*Source: NOAA JetStream, “Layers of the Atmosphere”. Credit NOAA. The profile is representative, not fixed for all latitudes and seasons. / Источник: NOAA JetStream. Профиль типичный, а не неизменный для всех широт и сезонов.*
 
 ### 2.4. Hydrosphere: Earth's Water Envelope
 
@@ -695,6 +729,12 @@ The hydrosphere includes the world ocean, continental surface water, groundwater
 
 Groundwater includes both fresh and saline water, so its total share must not be treated entirely as freshwater. According to the USGS estimate, about 68.7% of all freshwater is stored in glaciers and permanent snow, while about 30.1% is fresh groundwater. Values are rounded; percentages may not sum to exactly 100%.
 
+**Illustration 2-C — Distribution of Earth's Water.**
+
+![Distribution of Earth's water: all water, freshwater and surface freshwater / Распределение всей воды, пресной воды и поверхностных пресных вод](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
+
+*Source: USGS Water Science School, “The distribution of water on, in, and above the Earth” (2019). Public Domain. Rounded proportions are based on Shiklomanov's 1993 estimates, not a new 2026 measurement. The bars use different denominators. / Источник: USGS Water Science School (2019), Public Domain. Доли основаны на оценках Шикломанова 1993 года, а не на новом измерении 2026 года; столбцы используют разные знаменатели. [Original source / Источник](https://www.usgs.gov/media/images/distribution-water-and-above-earth).
+
 **The water cycle** is the continuous movement of water among the ocean, atmosphere, land and underground reservoirs. Its processes include:
 - **Evaporation** from oceans, lakes, rivers and soil.
 - **Transpiration** — water vapour released by plants; together with evaporation from land, it is often described as **evapotranspiration**.
@@ -707,6 +747,12 @@ Groundwater includes both fresh and saline water, so its total share must not be
 - **Sublimation**, when snow or ice changes directly into water vapour without first melting.
 
 These processes do not form a fixed sequence and can occur simultaneously. Water may be stored temporarily in the ocean, atmosphere, soil, lakes, snowpack, glaciers and aquifers. Water withdrawals, reservoirs, irrigation and wetland drainage also alter where water is stored and how it moves.
+
+**Illustration 2.4-A — The Global Water Cycle.**
+
+![Global water cycle with natural reservoirs, flows and human impacts / Глобальный круговорот воды с природными резервуарами, потоками и влиянием человека](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png?itok=tAVM8IYl)
+
+*Source: USGS VizLab, “The Water Cycle” (2022). Public Domain. The diagram includes human water use and water-quality impacts, not only natural processes. / Источник: USGS VizLab (2022), Public Domain. Схема показывает не только природные процессы, но и водопользование человеком и влияние на качество воды. [Source page / Страница источника](https://www.usgs.gov/media/images/water-cycle).*
 
 Water distribution depends on latitude, temperature, atmospheric circulation, relief, distance from oceans and geological structure. In mountains, windward slopes often receive more precipitation than leeward slopes because of orographic uplift and rain-shadow effects.
 
@@ -729,6 +775,12 @@ Continental crust is especially thick beneath many major mountain belts, includi
 
 Plate boundaries are not always represented by a single narrow line: broad deformation zones may distribute motion across several faults and crustal blocks. Earthquakes can also occur within plates, although they are especially common near plate boundaries.
 
+**Illustration 2.5-A — Plate Boundary Types.**
+
+![Divergent, convergent and transform plate boundaries / Дивергентные, конвергентные и трансформные границы плит](../assets/diagrams/02-5A-plate-boundary-types.svg)
+
+*Original schematic geological cross-sections, not to scale. A convergent boundary may involve subduction or continental collision. / Оригинальные условные геологические разрезы, не в масштабе. Конвергентная граница может включать субдукцию или столкновение континентальных плит.*
+
 ### 2.6. Biosphere: The Realm of Life
 
 The biosphere includes living organisms and the parts of Earth where life exists. It extends through the lower atmosphere, almost the entire hydrosphere and the upper lithosphere, including soils and some underground environments.
@@ -736,6 +788,12 @@ The biosphere includes living organisms and the parts of Earth where life exists
 Living organisms change the geographic envelope. Plants absorb CO₂ and release oxygen through photosynthesis; microorganisms decompose organic matter; animals disperse seeds and modify habitats; and soil organisms support nutrient cycling.
 
 Levels of biological organisation range from an individual organism to a population, community, ecosystem, biome and, ultimately, the biosphere. A forest ecosystem, for example, includes living organisms together with soil, water and climate.
+
+**Illustration 2.6-A — From Organism to Biosphere.**
+
+![Levels of biological organisation: organism, population, community, ecosystem, biome and biosphere / Уровни организации живой природы](../assets/diagrams/02-6A-organization-of-life.svg)
+
+*Original bilingual schematic. The levels are nested; a biome is not simply a collection of identical ecosystems. / Оригинальная двуязычная схема. Уровни вложены друг в друга; биом не является просто суммой одинаковых экосистем.*
 
 ### 2.7. Interactions Between Earth's Spheres
 
@@ -759,6 +817,12 @@ Three major energy sources and drivers shape the geographic envelope:
 - **Earth's internal energy** comes from residual heat from planetary formation and radioactive decay. It supports tectonic processes, mantle movement, volcanism and geothermal phenomena.
 - **Gravitational energy** contributes to river flow, water movement down slopes, landslides, rockfalls, glacier movement and the vertical distribution of matter.
 
+**Illustration 2.8-A — Energy Sources and Earth Processes.**
+
+![Solar, internal and gravitational energy and example processes / Солнечная, внутренняя и гравитационная энергия и примеры процессов](../assets/diagrams/02-8A-energy-flows.svg)
+
+*Original qualitative diagram; it does not compare energy fluxes in numerical units. / Оригинальная качественная схема; она не сравнивает энергетические потоки в численных единицах.*
+
 ### 2.9. Geographical Zonation
 
 Natural conditions change systematically across Earth's surface.
@@ -771,17 +835,41 @@ Major latitudinal natural zones include humid equatorial forests, savannas, trop
 
 In mountains, foothill steppes may give way to forests, subalpine and alpine meadows, mountain tundra and the nival zone of permanent snow and glaciers. The sequence depends on latitude, slope aspect, moisture and local climate.
 
+**Illustration 2.9-A — Latitudinal and Altitudinal Zonation.**
+
+![Comparison of latitudinal natural zones and mountain elevation belts / Сопоставление широтных природных зон и высотных поясов гор](../assets/diagrams/02-9A-zonation.svg)
+
+*Original schematic comparison, not a map or universal sequence; boundaries depend on climate, relief and slope aspect. / Оригинальное схематическое сравнение, не карта и не универсальная последовательность; границы зависят от климата, рельефа и экспозиции.*
+
 ### 2.10. Biogeochemical Cycles
 
 Biogeochemical cycles are the continuous movement of chemical elements between living organisms and non-living components of the environment.
 
+**Illustration 2-D — Biogeochemical Cycles Overview.**
+
+![Comparison of carbon, nitrogen and phosphorus cycles and their main reservoirs / Сравнение круговоротов углерода, азота и фосфора](../assets/diagrams/02-D-biogeochemical-cycles-overview.svg)
+
+*Original bilingual overview. Individual processes and reservoirs are detailed below; arrows do not represent quantified fluxes. / Оригинальная двуязычная схема. Отдельные процессы и резервуары рассмотрены ниже; стрелки не обозначают количественные потоки.*
+
 **Carbon cycle.** Carbon is the basis of organic compounds. Its main reservoirs include the atmosphere, ocean, vegetation, soils, sedimentary rocks and fossil organic matter. Photosynthesis absorbs CO₂; respiration returns CO₂ to the atmosphere and water; decomposition releases carbon; the ocean exchanges CO₂ with the atmosphere; sedimentation supports long-term burial; and burning fossil fuels rapidly returns geological carbon to the active cycle. Burning coal, oil and natural gas increases atmospheric CO₂ and strengthens human influence on climate.
+
+**Illustration 2.10-A — The Global Carbon Cycle.**
+
+![Carbon reservoirs and exchanges among the atmosphere, land biosphere, soils, ocean and geological stores, including human influence / Резервуары и обмен углеродом между атмосферой, биосферой суши, почвами, океаном и геологическими запасами](../assets/diagrams/02-10A-global-carbon-cycle.svg)
+
+*Original bilingual conceptual diagram by Atlas of Knowledge. It shows major reservoirs and pathways, but does not quantify fluxes or replace measurements. / Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Она показывает основные резервуары и пути обмена, но не задаёт количественные потоки и не заменяет измерения.*
 
 **Oxygen cycle.** Oxygen is essential for aerobic respiration. Its cycle includes photosynthesis, respiration, decomposition, mineral oxidation and the formation and destruction of ozone.
 
 **Nitrogen cycle.** Nitrogen makes up about 78% of dry atmospheric air, but most organisms cannot use molecular N₂ directly. The main stages are nitrogen fixation, nitrification, assimilation, ammonification and denitrification. Leguminous plants form symbioses with nitrogen-fixing bacteria, bringing atmospheric nitrogen into biological cycles.
 
 **Phosphorus cycle.** Phosphorus is essential for DNA, RNA, cell membranes and ATP. Unlike the carbon and nitrogen cycles, it has no major gaseous phase. Its main stages include weathering of phosphate-bearing rocks, movement of phosphates into soil and water, uptake by plants, transfer through food webs, return through decomposition and deposition in bottom sediments. Excess phosphorus entering water bodies can cause eutrophication.
+
+**Illustration 2.10-B — Nitrogen and Phosphorus Cycles.**
+
+![Comparison of nitrogen and phosphorus cycles: atmospheric nitrogen and microbial transformations; rock weathering, soils, water and organisms in the phosphorus cycle / Сравнение круговоротов азота и фосфора](../assets/diagrams/02-10B-nitrogen-phosphorus-cycles.svg)
+
+*Original bilingual conceptual diagram by Atlas of Knowledge. It highlights that the phosphorus cycle has no major gaseous phase; arrows do not represent quantified fluxes. / Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Она подчёркивает, что у фосфорного цикла нет значительной газовой фазы; стрелки не показывают количественные потоки.*
 
 ### 2.11. Natural Complexes and Geosystems
 
@@ -792,6 +880,12 @@ Natural complexes can be considered at different levels, from the global geograp
 The components of a natural complex include relief, climate, surface and groundwater, soils, and biota—plants, animals and microorganisms. Together they form an integrated natural geosystem.
 
 Natural geosystems are shaped mainly by natural processes. Anthropogenic geosystems are created or substantially transformed by human activity. Examples include natural forests and plantations, undisturbed steppes and cropland, natural lakes and artificial reservoirs, free-flowing and regulated rivers, and natural valleys and urban areas. Many modern landscapes are mixed systems.
+
+**Illustration 2.11-A — Structure of a Natural Geosystem.**
+
+![Interactions among climate, relief, water, soil and biota / Взаимосвязь климата, рельефа, воды, почвы и биоты](../assets/diagrams/02-11A-natural-geosystem.svg)
+
+*Original schematic showing core components, not an exhaustive model of all causal links. / Оригинальная схема основных компонентов, а не исчерпывающая модель всех причинных связей.*
 
 ### 2.12. Stability of Natural Systems
 
@@ -814,6 +908,12 @@ A simplified example of negative feedback is plant growth and soil moisture. As 
 
 Positive and negative do not mean “bad” and “good”: the terms describe whether a feedback amplifies or counteracts a change. Real natural systems contain several feedbacks operating at the same time.
 
+**Illustration 2.12-A — Positive and Negative Feedback.**
+
+![Examples of reinforcing and balancing feedback / Примеры усиливающей и ослабляющей обратной связи](../assets/diagrams/02-12A-feedback-loops.svg)
+
+*Original bilingual schematic. Examples are simplified; real systems include time lags and multiple interacting feedbacks. / Оригинальная двуязычная схема. Примеры упрощены; реальные системы включают временные задержки и несколько взаимодействующих обратных связей.*
+
 ### 2.13. Human Impact
 
 Human impact refers to changes in the natural environment caused by economic and other human activities.
@@ -827,6 +927,12 @@ Human impact refers to changes in the natural environment caused by economic and
 | Cryosphere | Shrinking glaciers and reduced snow storage |
 
 Global environmental challenges include climate change, desertification, biodiversity loss, freshwater scarcity, ocean pollution and soil degradation.
+
+**Illustration 2.13-A — Global Human Modification of Terrestrial Ecosystems (2022).**
+
+![Global map of cumulative human modification of terrestrial ecosystems in 2022, Figure 10 from the published article / Глобальная карта совокупной антропогенной модификации наземных экосистем в 2022 году](https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41597-025-04892-2/MediaObjects/41597_2025_4892_Fig10_HTML.png)
+
+*Source: Figure 10, Theobald et al. (2025), “Global extent and change in human modification of terrestrial ecosystems from 1990 to 2022”, *Scientific Data* 12, Article 606, DOI: [10.1038/s41597-025-04892-2](https://doi.org/10.1038/s41597-025-04892-2). Reproduced under CC BY 4.0; no changes made. The 0–1 index is modelled human modification, not a direct measure of ecosystem condition or biodiversity. / Источник: рисунок 10 из статьи Theobald et al. (2025), воспроизведён по лицензии CC BY 4.0 без изменений. Индекс 0–1 — модельная оценка антропогенной модификации, а не прямое измерение состояния экосистем или биоразнообразия. [Article / Статья](https://www.nature.com/articles/s41597-025-04892-2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 ### 2.14. Global Change and the Future of the Geographic Envelope
 
@@ -866,6 +972,12 @@ The geographic envelope is a complex natural system in which matter, energy, liv
 - Ecosystem persistence and recovery depend on many factors; a system does not always return to its previous state.
 - Human activity has become one of the major drivers of global change.
 - Every model simplifies reality: its conclusions must be compared with observations, measurements and the scale of the question.
+
+**Illustration 2.15-A — Earth as an Integrated System.**
+
+![Interactions among the atmosphere, hydrosphere, lithosphere, biosphere and cryosphere, with matter cycles, energy flows and human influence / Взаимосвязь атмосферы, гидросферы, литосферы, биосферы и криосферы, круговоротов вещества, потоков энергии и воздействия человека](../assets/diagrams/02-15A-integrated-earth-system.svg)
+
+*Original summary diagram by Atlas of Knowledge. Sphere boundaries overlap; arrows show example interactions, not measured quantities. / Оригинальная итоговая схема Atlas of Knowledge. Оболочки перекрываются; стрелки показывают примеры связей, а не измеренные величины.*
 
 ### Review Questions
 
