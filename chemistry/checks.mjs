@@ -697,6 +697,19 @@ if (!imageAudit.includes("## Chapter-level learning-need sign-off")) {
   errors.push("IMAGE_AUDIT.md: chapter-level learning-need sign-off is missing");
 }
 
+const periodicTablePath = path.join(root, "periodic-table.html");
+if (fs.existsSync(periodicTablePath)) {
+  const periodicTableSource = fs.readFileSync(periodicTablePath, "utf8");
+  if (!periodicTableSource.includes(`aria-label="'+e.n+' '+name(e)+' ('+e.sym+'), '+e.mass+' u"`)) {
+    errors.push("periodic-table.html: element buttons need an accessible name with atomic number, localized name, symbol and mass");
+  }
+  if (!periodicTableSource.includes('id="detail" aria-live="polite"')) {
+    errors.push("periodic-table.html: selected-element details must be announced through a polite live region");
+  }
+} else {
+  errors.push("periodic-table.html: interactive periodic table is missing");
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
