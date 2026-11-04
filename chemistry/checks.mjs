@@ -578,6 +578,13 @@ for (const [relative, minimum] of [["chapters/atomic-structure.html", 2], ["chap
   const count = (page.match(/<svg\b/gi) || []).length;
   if (count < minimum) errors.push(relative + ": expected at least " + minimum + " inline SVG visual models; found " + count);
 }
+const bondingPage = fs.readFileSync(path.join(root, "chapters/chemical-bonding.html"), "utf8");
+if (!bondingPage.includes('<div class="detail" aria-live="polite" aria-atomic="true">') ||
+    !bondingPage.includes('diagram.setAttribute("role","img")') ||
+    !bondingPage.includes('diagram.setAttribute("aria-label",d.title[lang]+". "+d.text[lang])')) {
+  errors.push("chapters/chemical-bonding.html: each dynamic bonding model needs a localized accessible name and atomic polite detail announcement");
+}
+
 if (!fs.existsSync(path.join(root, "periodic-table.html"))) errors.push("periodic-table.html: interactive periodic table visual is missing");
 
 const isotopeSvgPath = path.join(assetRoot, "isotope-abundance.svg");
