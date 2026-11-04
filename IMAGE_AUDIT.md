@@ -57,6 +57,16 @@ The corresponding `world.js` and `model.js` files in the three sampled chapters 
 
 The sample confirms the upstream lineage for these modules; it does not yet constitute a complete asset-by-asset inventory of all 15 chapters.
 
+A second comparison of the Magnetism and Induction scene/model files found:
+
+- In `magnetism/world.js`, object names, scene titles, vector descriptions, field/current labels, and voltage labels are translated into Russian. The 3D geometry and scene construction are retained in the sampled sections. Because in-scene labels are part of the visual output, these scene visuals are **B — Adapted** (localised visual labels), not A.
+- In `induction/world.js`, the same pattern is present: the 3D scene structure is retained while names, magnetic-field/current labels, loop/coil labels, and explanatory text are translated. The affected scene visuals are **B — Adapted**.
+- In `induction/model.js`, the four magnet-pole movement case names are translated; the sampled change is learner-facing scenario text, not a new independent visual.
+- In `magnetism/model.js`, additional `sinDeg`/`cosDeg` helpers remove floating-point residue at exact parallel/perpendicular angles. This is a computational correction, not evidence of a newly authored visual. It should remain documented as a branch-specific physics/model fix and be covered by the chapter's numerical checks.
+- In `energy/pages.js`, Russian chart labels, axis units, figure names and accessible names are present. A chart range also differs from upstream (`bondU` y-range), so this is not a translation-only difference; the altered domain requires scientific/pedagogical verification before the corresponding chart is marked VERIFIED.
+
+These comparisons support Category B for the affected Russian-labelled scene/chart outputs. They do not establish that every scene in the modules has been reviewed, nor do they determine final per-visual counts.
+
 ### 1.4 Localisation review required
 
 The Russian edition must be checked for accurate terminology, labels, symbols, legends, units, formulas, vector directions, numerical values, layout after text expansion, readable mobile presentation, captions, alt text, long descriptions, and equivalent data/text for complex visuals. The English source is not to be edited as part of this work.
@@ -130,7 +140,7 @@ Status meanings: **PENDING** = the visual requirement or asset still needs a com
 - For canvas/WebGL: provide a meaningful accessible name and a text explanation of the essential state; test fallback when rendering is unavailable.
 - Verify actual phone, tablet and desktop rendering, zoom/reflow, labels, clipping, loading and fallback. Existing browser smoke evidence is useful but does not replace manual scientific, legal, language and assistive-technology review.
 
-## 6. Preliminary status and metrics
+## 5. Preliminary status and metrics
 
 These are inventory findings, **not readiness scores**. They describe the audited branch structure only; they do not establish the complete visual inventory of Nathan Liow's English source atlas:
 
@@ -143,7 +153,7 @@ These are inventory findings, **not readiness scores**. They describe the audite
 - Category A / B / C: **not yet reliably counted** across the derivative atlas. The upstream source and MIT licence are now verified. The three sampled `pages.js` modules contain Russian-localised SVG/chart outputs and are Category B for the affected visuals; corresponding `world.js`/`model.js` scene differences remain B/PENDING pending line-level review. The three Chapter 04 root-page records remain PENDING source mapping and must not be counted as C yet.
 - Scientific/factual, rights, language/accessibility and technical statuses: **PENDING at asset level**, except where individual test evidence is explicitly recorded in the register or CI logs.
 
-## 7. Prioritised action plan
+## 6. Prioritised action plan
 
 1. Extend the source comparison to all 15 interactive-book modules; map SVG/chart outputs, 3D scenes, models, and embedded labels to their exact upstream files and classify changes.
 2. Establish source lineage for the three existing Chapter 04 root-page register entries; do not assign C or creator attribution without evidence.
@@ -155,7 +165,7 @@ These are inventory findings, **not readiness scores**. They describe the audite
 7. Add CI checks for file/path existence, register structure, statuses, language fields, SVG validity, dimensions and responsive/overflow checks. Keep scientific, legal and translation approvals human-reviewed.
 8. Report source-work coverage, Russian-edition localisation coverage, rights verification and new-visual readiness separately; calculate only with a defined denominator.
 
-## 8. Boundary and exclusions
+## 7. Boundary and exclusions
 
 - All audit and implementation work is restricted to `workspace/physics`.
 - Do not edit `main`, the central policy, the portal, publishing settings or other subject branches.
