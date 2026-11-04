@@ -35,6 +35,12 @@ for (const file of pages) {
       errors.push(rel + ": SVG must expose an accessible name");
     }
   }
+  // Every content image inside a semantic figure needs a visible bilingual caption.
+  for (const figure of html.matchAll(/<figure\b[\s\S]*?<\/figure>/gi)) {
+    if (/<img\b/i.test(figure[0]) && !/<figcaption\b/i.test(figure[0])) {
+      errors.push(rel + ": figure containing an image must include a figcaption");
+    }
+  }
   for (const anchor of html.matchAll(/<a\b([^>]*\bhref=["']https?:\/\/[^"']+["'][^>]*)>/gi)) {
     if (/\btarget=["']_blank["']/i.test(anchor[1]) && !/\brel=["'][^"']*noopener/i.test(anchor[1])) {
       errors.push(rel + ": external link opening a new tab must include rel=noopener");
