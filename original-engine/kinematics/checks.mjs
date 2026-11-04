@@ -18,8 +18,6 @@ check('area under v–t = displacement', [0.5, 1.5, 2.0].every(t => near(M.areaU
 // numeric area check by summation
 const n = 20000; let area = 0; for (let i = 0; i < n; i++) area += M.vy((i + 0.5) * (1.5 / n)) * (1.5 / n);
 check('Σ v·dt over 0–1.5 s = y(1.5)', near(area, M.y(1.5), 1e-6), `${area.toFixed(4)} m`);
-check('signed area under v–t over full flight = net displacement 0', near(integ(M.vy, 0, M.T), 0, 1e-9) && near(M.y(M.T), 0));
-check('signed area under a–t over full flight = Δv = −2v0', near(integ(M.ay, 0, M.T), M.vy(M.T) - M.vy(0), 1e-9) && near(M.vy(M.T) - M.vy(0), -2 * M.VY0));
 check('projectile: same height as the straight-up ball at every t', [0.2, 1.1, 1.9].every(t => near(M.y(t), M.VY0 * t - 0.5 * M.G * t * t)));
 check('projectile range = vx·T', near(M.RANGE, M.VX * M.T), `${M.RANGE.toFixed(1)} m`);
 check('average speed ≠ average velocity on the round trip', near(M.distance(M.T) / M.T, M.H) && near(M.y(M.T) / M.T, 0), `${(M.distance(M.T) / M.T).toFixed(2)} m/s vs 0`);
@@ -48,6 +46,8 @@ for (const [name, phi] of [['straight', 0], ['upstream', M.AIM_UP]]) {
 // ---------- calculus kinematics: a(t) not constant ----------
 const integ = (fn, a, b, n = 20000) => { let s = 0; const d = (b - a) / n; for (let i = 0; i < n; i++) s += fn(a + (i + 0.5) * d) * d; return s; };
 const deriv = (fn, t) => (fn(t + h) - fn(t - h)) / (2 * h);
+check('signed area under v–t over full flight = net displacement 0', near(integ(M.vy, 0, M.T), 0, 1e-9) && near(M.y(M.T), 0));
+check('signed area under a–t over full flight = Δv = −2v0', near(integ(M.ay, 0, M.T), M.vy(M.T) - M.vy(0), 1e-9) && near(M.vy(M.T) - M.vy(0), -2 * M.VY0));
 check('pull: a = a0 − kt reaches 0 at t1 = a0/k', near(M.pa(M.T1 - 1e-12), 0, 1e-9) && near(M.T1, 4), `t1 = ${M.T1.toFixed(2)} s`);
 check('pull: v = ∫a dt (numeric) at 1, 2.5, 4, 5 s', [1, 2.5, 4, 5].every(t => near(integ(M.pa, 0, t), M.pv(t), 1e-7)), `v(t1) = ${M.V1.toFixed(1)} m/s`);
 check('pull: x = ∫v dt (numeric) at 1, 2.5, 4, 5 s', [1, 2.5, 4, 5].every(t => near(integ(M.pv, 0, t), M.px(t), 1e-7)), `x(t1) = ${M.X1.toFixed(1)} m, x(5) = ${M.px(5).toFixed(1)} m`);
