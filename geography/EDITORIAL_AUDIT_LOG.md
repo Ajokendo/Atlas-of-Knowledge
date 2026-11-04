@@ -2023,3 +2023,10 @@ A final compliance check against the Geography image-first instruction found tha
 - Added matching English-language visual placeholders at the corresponding English teaching sections and aligned the Russian production-brief IDs.
 - Updated the chapter, visual asset register, readiness matrix and README. Repository-wide visual inventory increases from 218 to 220 unique IDs. No image is claimed as created or integrated for Chapter 01; all five remain production tasks.
 - Saved to `workspace/geography`; chapter commit `d6f560abd4dbd651e4e077b9b4279d9b3367d049`; visual register commit `1be6c220268690070cbc7ab579905d9a843f6b09`; matrix commit `ee73a931be381e36ab684d326c205f2f76b076b3`; README commit `0602e9ac77724bd783e86b7be142730b6ee4cd8f`.
+
+
+### Chapter 01 — reference retrieval follow-up — 4 November 2026
+
+- Rechecked the International Cartographic Association Commission on Education and Training source. The official page is accessible and confirms the Commission's 2023–2027 remit: monitoring cartographic/geospatial education, developing and sharing teaching materials, and supporting cartographic education. The earlier timeout is no longer an unresolved link issue.
+- The source's role is limited to supporting the chapter's discussion of cartographic/geospatial education; it is not treated as a scientific definition of geography.
+- Remaining Chapter 01 source work is claim-level evidence mapping and checking dated/quantitative country examples against the exact National Statistical Committee tables used.
