@@ -93,6 +93,8 @@ async function runLesson(mobile) {
     const response = await page.goto(`${base}/chapters/induction.html`, { waitUntil: 'domcontentloaded' });
     if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
     await page.waitForFunction(() => document.querySelector('#r0')?.textContent.trim().length > 0);
+    const equations = await page.locator('.equation').allInnerTexts();
+    if (!equations.some(x => x.includes('εср') && x.includes('ΔΦ/Δt') && x.includes('dΦ/dt'))) throw new Error('Faraday law must distinguish average and instantaneous emf');
     const before = await page.locator('#r0').innerText();
     await page.locator('#p0').evaluate((el, value) => { el.value = value; el.dispatchEvent(new Event('input', { bubbles: true })); }, '200');
     await page.waitForFunction(v => document.querySelector('#r0')?.textContent !== v, before);
