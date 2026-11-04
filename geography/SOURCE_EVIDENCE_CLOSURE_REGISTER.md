@@ -348,3 +348,5 @@ These are focused bilingual conceptual corrections. They do not close full claim
 ### Chapter 07 — CBD Target 2 and Target 3 wording — 5 November 2026
 
 - Refined both language versions to match the official CBD wording more closely: Target 3 concerns effective conservation and management of at least 30% of terrestrial/inland-water and coastal/marine areas, with governance, connectivity and rights safeguards; Target 2 concerns at least 30% of degraded ecosystem areas being **under effective restoration** by 2030. Added the distinction that effective restoration must be resourced and monitored but need not be completed by 2030. Checked against the official CBD Target 2 and Target 3 guidance pages. Commit: `9adc9ecaaf124cc1b91d0dc22b0a395495ec5a9b`.
+
+- Chapter 07 bibliography now links directly to the official CBD Target 2 and Target 3 guidance pages rather than only to the framework landing page. Commit: `33f2c927650531e92e8577480ed9863e3af3ea77`.
