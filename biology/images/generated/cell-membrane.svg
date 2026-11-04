@@ -37,10 +37,10 @@
 <rect x="780" y="203" width="76" height="85" rx="24" class="protein"/>
 <path d="M797 215 Q840 230 800 250 Q840 268 800 280" fill="none" stroke="#245b49" stroke-width="4"/>
 </g>
-<text x="610" y="190" class="tiny" text-anchor="middle">Гидрофильные головки / Hydrophilic heads</text>
+<text x="610" y="198" class="tiny" text-anchor="middle">Гидрофильные головки / Hydrophilic heads</text>
 <text x="610" y="309" class="tiny" text-anchor="middle">Гидрофобные хвосты обращены внутрь / Hydrophobic tails face inward</text>
-<text x="527" y="185" class="tiny" text-anchor="middle">Канал / Channel</text>
-<text x="818" y="185" class="tiny" text-anchor="middle">Переносчик / Carrier</text>
+<text x="527" y="176" class="tiny" text-anchor="middle">Канал / Channel</text>
+<text x="818" y="176" class="tiny" text-anchor="middle">Переносчик / Carrier</text>
 <!-- panels -->
 <g>
 <rect x="48" y="350" width="534" height="235" rx="18" class="panel"/>
