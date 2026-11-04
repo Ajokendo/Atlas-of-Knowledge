@@ -728,6 +728,12 @@ if (fs.existsSync(atomicStructurePath)) {
       !atomicStructureSource.includes('$("electronCloud").src=lang==="ru"')) {
     errors.push("chapters/atomic-structure.html: electron cloud alt text and source must switch with the page language");
   }
+  for (const [key, ru, en] of [["particleProton", "Протон", "Proton"], ["particleNeutron", "Нейтрон", "Neutron"], ["particleElectron", "Электрон", "Electron"]]) {
+    if (!atomicStructureSource.includes(key + ':"'+ru+'"') || !atomicStructureSource.includes(key + ':"'+en+'"') ||
+        !atomicStructureSource.includes('data-t="'+key+'"')) {
+      errors.push("chapters/atomic-structure.html: particle SVG label must be bilingual and switch with the page language: " + key);
+    }
+  }
   for (const asset of ["electron-cloud-ru.svg","electron-cloud.svg"]) {
     if (!fs.existsSync(path.join(assetRoot, asset))) errors.push("chapters/atomic-structure.html: missing electron-cloud language asset " + asset);
   }
