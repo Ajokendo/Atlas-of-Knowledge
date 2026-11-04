@@ -229,3 +229,10 @@
 | Visual-source candidate | USGS Educational Resources / Middle and High School Geology | USGS search records label the Plate Tectonics Globe Activity and its map/globe cut-out as Public Domain. | A strong candidate for 2.5-A, but the exact media record and required credit must be inspected before integration. |
 
 **Chapter 02 remaining source work:** detailed geologic processes and any regional examples; audit every other numerical claim against its exact source table/edition; final RU/EN proofreading; then individual asset rights checks and visual integration.
+
+
+## Chapter 01 follow-up — regional source and bibliography integrity (4 November 2026)
+
+- Added the National Statistical Committee of the Kyrgyz Republic's official Regional Statistics page as a country-level data portal for oblast-level examples: https://www.stat.gov.kg/ru/regionalnaya-statistika/ . The chapter does not yet introduce unsupported numeric regional claims; any future values must cite a specific table, period and update date.
+- Corrected duplicate bibliography numbering: National Research Council is now reference 9; the Kyrgyz NSC regional statistics portal is reference 10. This is a citation-structure correction, not a claim that all Kyrgyzstan examples have been fully sourced.
+- Remaining: trace each specific regional example to a dated official table/map; verify map projection examples and any technical claims individually; final bilingual proofread.
