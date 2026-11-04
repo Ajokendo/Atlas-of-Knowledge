@@ -50,14 +50,27 @@ async function checkLab(lab, mobile) {
         document.querySelectorAll('#dots button').length > 0;
     }, undefined, { timeout: 10000 });
 
+    await page.waitForFunction(() => {
+      const atlas = window.__atlas;
+      const renderer = atlas?.E?.renderer;
+      return !!renderer && renderer.info.render.calls > 0 &&
+        Object.keys(atlas.E.ASM || {}).length > 0;
+    }, undefined, { timeout: 15000 });
+
     const state = await page.evaluate(() => {
       const canvas = document.querySelector('#gl');
+      const atlas = window.__atlas;
+      const renderInfo = atlas?.E?.renderer?.info?.render;
+      const assemblyCount = Object.keys(atlas?.E?.ASM || {}).length;
       const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
       return {
         title: document.querySelector('#sheet h1')?.textContent?.trim(),
         pages: document.querySelectorAll('#dots button').length,
         canvas: [canvas.width, canvas.height],
         webgl: !!gl,
+        renderedFrames: renderInfo?.frame ?? 0,
+        drawCalls: renderInfo?.calls ?? 0,
+        sceneAssemblies: assemblyCount,
         horizontalOverflow: document.documentElement.scrollWidth > innerWidth + 2,
         statusRegion: !!document.querySelector('.page-announcement[role="status"][aria-live="polite"]'),
       };
@@ -65,6 +78,8 @@ async function checkLab(lab, mobile) {
     if (!state.title) throw new Error('Initial page heading is empty');
     if (state.pages < 2) throw new Error(`Page navigation missing (found ${state.pages})`);
     if (!state.webgl) throw new Error('WebGL context did not initialize');
+    if (state.drawCalls < 1) throw new Error('Three.js did not submit any draw calls');
+    if (state.sceneAssemblies < 1) throw new Error('Three.js scene contains no registered assemblies');
     if (state.horizontalOverflow) throw new Error('Horizontal page overflow at this viewport');
     if (!state.statusRegion) throw new Error('Accessible page status region is missing');
 
@@ -106,7 +121,7 @@ async function checkLab(lab, mobile) {
         document.querySelector('#sheet h1')?.textContent?.trim() === oldTitle, before, { timeout: 15000 });
     }
     pagesChecked++;
-    console.log(`PASS ${lab} ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — ${state.pages} pages, WebGL ${state.canvas.join('×')}`);
+    console.log(`PASS ${lab} ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — ${state.pages} pages, WebGL ${state.canvas.join('×')}, ${state.drawCalls} draw calls`);
   } catch (error) {
     if (lab === 'kinematics' && !mobile) abortAfterBootstrap = true;
     failures.push(`${lab} ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
