@@ -113,8 +113,14 @@ async function checkInteractiveBook(mobile) {
     if (initial.title !== 'Жидкости' || initial.pages !== 9 || !initial.webgl) throw new Error(`book did not initialize correctly: ${JSON.stringify(initial)}`);
     if (initial.canvas[0] < 100 || initial.canvas[1] < 100) throw new Error(`WebGL canvas too small: ${initial.canvas.join('×')}`);
     if (initial.overflow) throw new Error('interactive book has horizontal overflow');
-    await page.locator('#dots button').nth(8).evaluate(button => button.click());
-    await page.waitForFunction(() => document.querySelector('#sheet h1')?.textContent?.trim() === 'Закон Торричелли', undefined, { timeout: 8000 });
+    const pageTitles = ['Жидкости', 'Давление', 'Давление и глубина', 'Закон Паскаля', 'Архимедова сила', 'Плавание и погружение', 'Уравнение непрерывности', 'Уравнение Бернулли', 'Закон Торричелли'];
+    for (let i = 0; i < pageTitles.length; i++) {
+      await page.locator('#dots button').nth(i).evaluate(button => button.click());
+      await page.waitForFunction(title => document.querySelector('#sheet h1')?.textContent?.trim() === title, pageTitles[i], { timeout: 8000 });
+    }
+    const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
+    const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
+    if (serious.length) throw new Error(`book axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
     if (errors.length) throw new Error(errors.join(' | '));
     console.log(`PASS fluids interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 9 pages, WebGL ${initial.canvas.join('×')}, page navigation to Torricelli`);
   } catch (error) {
