@@ -1065,3 +1065,8 @@ This closes the temporary missing-file and P1-register assertion failures encoun
 - Commits: `00c5b316` (botany captions), `e3d47e52` (caption regression check). CI for the combined branch head is pending.
 
 All changes remain confined to `biology/` on `workspace/biology`.
+
+
+## Figure inventory count clarification — 5 November 2026
+
+A fresh source scan of the 12 chapter HTML files found 59 semantic figure elements: 57 external-image figures and 2 inline-SVG figures. All 57 external-image figures now have alt attributes and visible captions; no local generated-image target was missing. The 53/53 measure refers only to mapped visual briefs, not the raw number of HTML figures. The audit wording has been corrected accordingly. Image Verification remains pending for the full human review gates.
