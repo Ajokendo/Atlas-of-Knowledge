@@ -127,3 +127,6 @@ The four SVG files in `geography/assets/` are referenced from Chapters 18, 19 an
 - Added the dated finding from *Planetary Health Check 2025*: seven of nine boundaries assessed as transgressed, with ocean acidification included among the transgressed boundaries for the first time in that assessment. The text explicitly warns that status is assessment-year- and method-dependent.
 - Added the 2025 report (Sakschewski et al., DOI 10.48485/PIK.2025.017) and the Stockholm Resilience Centre framework page to the chapter bibliography. The visual brief now requires source and assessment year wherever status is displayed.
 - Scope: targeted update and source alignment; not a full audit of all global-change indicators. Chapter 02 visual remains a brief only, not an integrated image.
+
+
+- **Chapter 02, practical assignment — 4 November 2026:** strengthened the RU/EN mountain-lake systems task. Students now trace inflows and outflows, connect all four spheres, identify causal links and propose observations/datasets for testing. Added an explicit distinction between observed evidence and hypotheses, and a warning not to diagnose pollution from water appearance alone. This improves the assessment task but does not substitute for classroom testing.
