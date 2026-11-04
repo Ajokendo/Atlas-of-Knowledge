@@ -448,3 +448,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 06 — scope of oceanographic data claims — 5 November 2026
 
 - Documented the source mapping for current numeric/technical claims: USGS global water distribution; TEOS-10 salinity and seawater properties; IHO S-23 ocean/sea limits, S-44 hydrographic surveys, S-102 bathymetric surfaces and S-100 data model; NSIDC glacier basics; NOAA ocean acidification; UNESCO WWDR and USDA watershed water budget. No specific trench-depth or mean-depth measurement is asserted in the current text; future bathymetry maps require product/survey, date, resolution and vertical datum metadata.
+
+
+### Chapter 09 — World Bank vital-rate metadata — 5 November 2026
+
+- Added direct metadata records for World Bank crude birth and death rate indicators. Both definitions specify mid-year population as the divisor when annual population changes, supporting the chapter's denominator wording. Retained the direct land-area definition for the population-density indicator. Commit: `16649e8552437b4ed962f8f9410125bbd32220b3`.
