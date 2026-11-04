@@ -137,7 +137,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 ## 8.5. Химические и биологические свойства / Chemical and Biological Properties
 
-Почвенная реакция (pH) характеризует кислотность или щёлочность почвенного раствора. Она влияет на доступность элементов питания, активность микроорганизмов и токсичность некоторых соединений. Оптимальный диапазон pH зависит от культуры и типа экосистемы; универсального значения для всех почв нет.
+Почвенная реакция (pH) характеризует кислотность или щёлочность почвенной среды и связана с активностью ионов водорода. Шкала pH логарифмическая: разница в одну единицу соответствует примерно десятикратной разнице активности ионов водорода. pH влияет на доступность элементов питания, активность микроорганизмов и токсичность некоторых соединений. Оптимальный диапазон зависит от культуры и экосистемы; универсального значения для всех почв нет. Лабораторный результат зависит от метода: pH измеряют, например, в водной или солевой вытяжке при заданном отношении почвы к раствору. Поэтому сравнивать значения следует только при известной и сопоставимой методике.
 
 Ёмкость катионного обмена отражает способность почвы удерживать и обменивать положительно заряженные ионы, включая кальций, магний, калий и аммоний. Она зависит от содержания и типа глинистых минералов и органического вещества.
 
@@ -401,7 +401,7 @@ Humus is a complex mixture of transformed organic compounds in soil, not one spe
 
 ### 8.5. Chemical and Biological Properties
 
-Soil reaction (pH) describes the acidity or alkalinity of the soil solution. It affects nutrient availability, microbial activity and the toxicity of some compounds. The optimum pH range depends on the crop or ecosystem; there is no universal value for all soils.
+Soil reaction (pH) describes the acidity or alkalinity of the soil environment and is related to hydrogen-ion activity. The pH scale is logarithmic: a difference of one unit corresponds to an approximately tenfold difference in hydrogen-ion activity. Soil pH affects nutrient availability, microbial activity and the toxicity of some compounds. The optimum range depends on the crop or ecosystem; there is no universal value for all soils. Laboratory results depend on the method: pH may be measured, for example, in a water or salt extract at a specified soil-to-solution ratio. Values should therefore be compared only when the methods are known and comparable.
 
 Cation-exchange capacity describes the ability of soil to retain and exchange positively charged ions, including calcium, magnesium, potassium and ammonium. It depends on the amount and type of clay minerals and organic matter.
 
