@@ -46,6 +46,8 @@
 
 Границы оболочек не являются непроницаемыми. Они перекрываются и взаимодействуют: вода содержится в породах, а живые организмы существуют в воде, почве и атмосфере.
 
+**Важное уточнение о криосфере.** В традиционной учебной модели географической оболочки обычно выделяют четыре компонента, показанные выше. Лёд и снег включают в гидросферу, но из-за особых свойств и роли в климате их также рассматривают отдельно как **криосферу**. В современной науке о системе Земли часто используют пятисферную схему: атмосфера, гидросфера, криосфера, геосфера и биосфера. Эти схемы не противоречат друг другу: они группируют взаимосвязанные компоненты на разных уровнях детализации. Литосфера — жёсткая внешняя часть геосферы, а не синоним всей геосферы.
+
 **Место для иллюстрации 2.2-A — Four Interconnected Earth Systems.** Четыре взаимосвязанные сферы и стрелки обмена веществом и энергией.
 
 ## 2.3. Атмосфера: газовая оболочка планеты / Atmosphere: The Gaseous Envelope
@@ -535,6 +537,8 @@ Key properties of the geographic envelope include:
 
 The spheres do not have impermeable boundaries. They overlap and interact: water occurs within rocks, while living organisms inhabit water, soil and the atmosphere.
 
+**Important clarification about the cryosphere.** The traditional educational model of the geographic envelope commonly identifies the four components listed above. Ice and snow are included within the hydrosphere, but their distinctive properties and climate role also justify treating them separately as the **cryosphere**. Modern Earth system science often uses a five-sphere model: atmosphere, hydrosphere, cryosphere, geosphere and biosphere. These models are compatible; they group interacting components at different levels of detail. The lithosphere is the rigid outer part of the geosphere, not a synonym for the entire geosphere.
+
 | Sphere | Main environment | Characteristic processes |
 |---|---|---|
 | Atmosphere | Air and gases | Winds, precipitation, circulation |
@@ -733,7 +737,8 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 ### English scientific and editorial notes
 
 - All numerical values in this chapter are approximate and should be checked against current authoritative sources during final editing.
-- The altitude boundaries of atmospheric layers and the proportions of water reservoirs depend on the scientific classification and estimation method used.
+- Atmospheric layer boundaries vary with latitude, season and classification; the USGS water-distribution table is a rounded global estimate based on I. Shiklomanov's 1993 assessment, not a new measurement made in 2026.
+- The four-component educational model and the five-sphere Earth-system model use different levels of grouping; the cryosphere overlaps the hydrosphere, while the lithosphere is part of the geosphere.
 - The term “geographic envelope” should be distinguished from the broader concept of the “Earth system”.
 - All geographic labels, numerical values, units and map scales in illustrations require separate verification.
 
@@ -747,14 +752,18 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 6. Richardson, K. et al. (2023). Earth beyond six of nine planetary boundaries. *Science Advances*, 9(37). https://doi.org/10.1126/sciadv.adh2458
 7. NOAA Global Monitoring Laboratory. **Trends in CO₂: globally averaged marine-surface monthly and annual mean data** (2025 annual mean preliminary; data version 2026-10). https://gml.noaa.gov/ccgg/trends/gl_data.html
 8. World Meteorological Organization. **Greenhouse Gas Bulletin No. 22** (2025 global surface concentrations; 27 October 2026). https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
-9. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
+9. U.S. Geological Survey. *How Much Water Is There on Earth?* (global water-distribution estimate; table based on Shiklomanov's 1993 assessment; includes fresh and saline groundwater). https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
+10. NASA Science. *Earth System Science Research: Science Spheres*. https://science.nasa.gov/earth-science/research/
+11. U.S. Geological Survey. *The Water Cycle*. https://www.usgs.gov/special-topics/water-science-school/science/water-cycle
+12. National Oceanic and Atmospheric Administration. *Layers of the Atmosphere*. https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
 ## Редакционные и научные примечания
 
 - Все численные значения в этой главе являются ориентировочными и должны быть сверены с актуальными авторитетными источниками при финальной редактуре.
-- Высотные границы атмосферных слоёв и доли резервуаров воды зависят от используемой научной классификации и метода оценки.
+- Высотные границы атмосферных слоёв зависят от широты, сезона и принятой классификации; таблица распределения воды USGS — округлённая глобальная оценка, основанная на опубликованной в 1993 году оценке И. Шикломанова, а не результат нового измерения в 2026 году.
+- Четырёхкомпонентная учебная схема оболочек и пятисферная схема науки о системе Земли используют разные уровни группировки; криосфера пересекается с гидросферой, а литосфера является частью геосферы.
 - Термин «географическая оболочка» следует отличать от более широкого понятия «система Земли».
 - Для иллюстраций необходимо отдельно проверить все географические подписи, численные значения, единицы измерения и масштаб.
 - Для глобальной концентрации CO₂ указывать измерительную сеть и показатель: среднегодовое значение NOAA по морским станциям (425,6 ppm в 2025 году, предварительно) и глобальная поверхностная оценка WMO (426,8 ppm в 2025 году) относятся к разным сериям и не должны смешиваться.
