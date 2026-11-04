@@ -586,29 +586,45 @@ Ocean-floor relief is shaped by plate tectonics, volcanism, sedimentation, subma
 
 The physical properties of seawater influence vertical stability, mixing, circulation and the distribution of marine organisms.
 
-**Temperature** at the ocean surface depends on latitude, season, cloud cover, winds and currents. Temperature generally decreases with depth in most ocean regions, but the vertical profile varies between latitudes and basins. A **thermocline** is a layer in which temperature changes rapidly with depth; it is often more pronounced in tropical and subtropical waters than at high latitudes.
+### 6.5.1. Temperature
 
-**Salinity** describes dissolved material in seawater. Practical Salinity \(S_P\), defined on the PSS-78 scale, is dimensionless; the label “PSU” is common in teaching materials but is technically incorrect. For thermodynamic calculations, TEOS-10 uses Absolute Salinity \(S_A\), expressed in g/kg. Published values should therefore identify which salinity variable is being reported. A value near 35 is typical of open-ocean Practical Salinity, not a universal constant. Salinity tends to rise with strong evaporation and decrease with precipitation, river inflow and ice melt. Values vary among seas and ocean regions.
+Temperature at the ocean surface depends on latitude, season, cloud cover, winds and currents. Temperature generally decreases with depth in most ocean regions, but the vertical profile varies between latitudes and basins. A **thermocline** is a layer in which temperature changes rapidly with depth; it is often more pronounced in tropical and subtropical waters than at high latitudes.
 
-**Density** depends mainly on temperature, salinity and pressure. At comparable pressure, colder and saltier water is generally denser than warmer and less saline water. Density differences help drive deep-ocean circulation.
+### 6.5.2. Salinity
+
+Salinity describes dissolved material in seawater. Practical Salinity \(S_P\), defined on the PSS-78 scale, is dimensionless; the label “PSU” is common in teaching materials but is technically incorrect. For thermodynamic calculations, TEOS-10 uses Absolute Salinity \(S_A\), expressed in g/kg. Published values should therefore identify which salinity variable is being reported. A value near 35 is typical of open-ocean Practical Salinity, not a universal constant. Salinity tends to rise with strong evaporation and decrease with precipitation, river inflow and ice melt. Values vary among seas and ocean regions.
+
+### 6.5.3. Density
+
+Density depends mainly on temperature, salinity and pressure. At comparable pressure, colder and saltier water is generally denser than warmer and less saline water. Density differences help drive deep-ocean circulation.
 
 ### 6.6. Waves, Tides and Ocean Currents
 
-**Waves.** Wind waves form when energy is transferred from the wind to the water surface. Water particles in an ordinary wave mainly move in orbital paths, while the wave form and energy propagate onward.
+### 6.6.1. Waves
+
+Wind waves form when energy is transferred from the wind to the water surface. Water particles in an ordinary wave mainly move in orbital paths, while the wave form and energy propagate onward.
 
 A **tsunami** is a long wave usually caused by the sudden displacement of large volumes of water during submarine earthquakes, landslides or volcanic events. In the open ocean, a tsunami may have a small height but a very long wavelength and high speed; its height can increase sharply near a coast.
 
-**Tides** are caused mainly by the gravitational effects of the Moon and Sun and the motion of the Earth–Moon system. Basin geography, coastline shape, depth and resonance strongly influence local tidal range. Spring tides occur near new and full moons, when solar and lunar effects generally reinforce one another. Neap tides occur near the first and last quarter moons, when the tidal range is usually smaller.
+### 6.6.2. Tides
 
-**Ocean currents** are persistent or recurring directed movements of seawater. They are driven by winds, density differences, Earth's rotation, basin geometry, tidal forces and interactions with the ocean floor. Types include surface wind-driven currents, deep thermohaline circulation, tidal currents and coastal or local currents.
+Tides are caused mainly by the gravitational effects of the Moon and Sun and the motion of the Earth–Moon system. Basin geography, coastline shape, depth and resonance strongly influence local tidal range. Spring tides occur near new and full moons, when solar and lunar effects generally reinforce one another. Neap tides occur near the first and last quarter moons, when the tidal range is usually smaller.
+
+### 6.6.3. Ocean Currents
+
+Ocean currents are persistent or recurring directed movements of seawater. They are driven by winds, density differences, Earth's rotation, basin geometry, tidal forces and interactions with the ocean floor. Types include surface wind-driven currents, deep thermohaline circulation, tidal currents and coastal or local currents.
 
 ### 6.7. Global Ocean Circulation
 
 The ocean transports heat, salt, oxygen, carbon and nutrients. Surface currents are largely driven by winds and Earth's rotation, while deep circulation is associated with spatial differences in water density and the formation of water masses.
 
-Large subtropical **ocean gyres** form in the main ocean basins under the influence of prevailing winds and the Coriolis effect. They generally rotate clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere.
+### 6.7.1. Ocean Gyres
 
-**Thermohaline circulation** is associated with temperature and salinity differences that determine water density. Dense deep waters form in certain high-latitude regions. Modern global circulation is not a simple conveyor belt moving at a constant speed: it includes complex pathways, mixing, eddies and exchanges with the atmosphere.
+Large subtropical ocean gyres form in the main ocean basins under the influence of prevailing winds and the Coriolis effect. They generally rotate clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere.
+
+### 6.7.2. Thermohaline Circulation
+
+Thermohaline circulation is associated with temperature and salinity differences that determine water density. Dense deep waters form in certain high-latitude regions. Modern global circulation is not a simple conveyor belt moving at a constant speed: it includes complex pathways, mixing, eddies and exchanges with the atmosphere.
 
 ### 6.8. Seawater Chemistry and Gas Exchange
 
@@ -616,9 +632,13 @@ Seawater contains dissolved salts, gases, organic substances and nutrients. Its 
 
 The ocean exchanges carbon dioxide and oxygen with the atmosphere. The direction and intensity of exchange depend on temperature, wind, biological activity and differences in gas partial pressure between air and water.
 
-**Ocean acidification** occurs when the ocean absorbs part of human-caused CO₂ emissions, changing the carbonate system and lowering seawater pH. It does not mean that all seawater has become acidic in the everyday sense; it refers to a decline in pH relative to an earlier level. The chemical change reduces the availability of carbonate ions needed by many organisms to build shells and skeletons.
+### 6.8.1. Ocean Acidification
 
-**Ocean deoxygenation** is a decline in dissolved oxygen. It may result from warming, weaker ventilation of water masses and decomposition of organic matter. In coastal areas, excess nutrients can intensify eutrophication and lead to hypoxia.
+Ocean acidification occurs when the ocean absorbs part of human-caused CO₂ emissions, changing the carbonate system and lowering seawater pH. It does not mean that all seawater has become acidic in the everyday sense; it refers to a decline in pH relative to an earlier level. The chemical change reduces the availability of carbonate ions needed by many organisms to build shells and skeletons.
+
+### 6.8.2. Ocean Deoxygenation
+
+Ocean deoxygenation is a decline in dissolved oxygen. It may result from warming, weaker ventilation of water masses and decomposition of organic matter. In coastal areas, excess nutrients can intensify eutrophication and lead to hypoxia.
 
 ### 6.9. Marine Ecosystems and Productivity
 
