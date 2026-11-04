@@ -231,3 +231,5 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 07 — CBD Target 2 and Target 3 wording — 5 November 2026
 
 - Matched the bilingual wording to the official CBD guidance, including the distinction between areas under effective restoration (Target 2) and areas effectively conserved and managed (Target 3), plus the monitoring/resourcing and completion-time caveat. Commit: `9adc9ecaaf124cc1b91d0dc22b0a395495ec5a9b`.
+
+- Chapter 07 bibliography now points directly to the CBD's official Target 2 and Target 3 guidance pages. Commit: `33f2c927650531e92e8577480ed9863e3af3ea77`.
