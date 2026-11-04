@@ -159,7 +159,9 @@
 - **Конвергенция:** сближение плит.
 - **Трансформное движение:** горизонтальное смещение плит относительно друг друга.
 
-Взаимодействие плит связано с образованием гор, землетрясениями, вулканизмом, океаническими впадинами, разломами и складчатыми структурами.
+Последствия зависят от типа границы. При расхождении плит поднимается магма и формируется новая океаническая кора; при субдукции одна плита погружается под другую, что может сопровождаться глубоководными желобами, землетрясениями и вулканическими дугами; при столкновении континентальных плит кора сминается и утолщается, формируя горные пояса. Трансформные границы прежде всего связаны с горизонтальным смещением и землетрясениями; вулканизм для них не является типичным прямым следствием.
+
+Границы плит не всегда представлены одной узкой линией: существуют широкие зоны деформации, где движение распределено между несколькими разломами и блоками коры. Землетрясения возможны также внутри плит, хотя особенно часто они происходят в зонах границ.
 
 **Место для иллюстрации 2.5-A — Plate Tectonics.** Три геологических разреза: дивергентная, конвергентная и трансформная границы плит.
 
@@ -605,7 +607,9 @@ The lithosphere consists of Earth's crust and rigid upper mantle. It is divided 
 
 Continental crust is especially thick beneath many major mountain belts, including those formed by continental collision. The table gives approximate averages: actual thickness varies greatly from region to region and can exceed 60–70 km beneath some high mountain systems. The age entry refers to particular surviving ancient rocks, not to the continental crust as a single uniform block. Oceanic crust is much younger: it forms at mid-ocean ridges and is gradually recycled into the mantle at subduction zones.
 
-**Plate tectonics.** At divergent boundaries plates move apart; at convergent boundaries they move towards one another; at transform boundaries they slide horizontally past each other. Plate interactions are associated with mountain building, earthquakes, volcanism, ocean trenches, faults and folded structures.
+**Plate tectonics.** At divergent boundaries plates move apart; at convergent boundaries they move towards one another; at transform boundaries they slide horizontally past each other. The effects depend on the boundary type. At divergent boundaries, magma rises and new oceanic crust forms; at subduction zones, one plate descends beneath another, potentially producing deep-ocean trenches, earthquakes and volcanic arcs; when continents collide, the crust is shortened and thickened, building mountain belts. Transform boundaries are primarily associated with horizontal slip and earthquakes; volcanism is not a typical direct result of transform motion.
+
+Plate boundaries are not always represented by a single narrow line: broad deformation zones may distribute motion across several faults and crustal blocks. Earthquakes can also occur within plates, although they are especially common near plate boundaries.
 
 ### 2.6. Biosphere: The Realm of Life
 
@@ -771,10 +775,12 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 21. National Oceanic and Atmospheric Administration, Ocean Exploration. *What features form at plate tectonic boundaries?* https://oceanexplorer.noaa.gov/ocean-fact/tectonic-features/
 22. U.S. Geological Survey. *Before the break-up of Pangaea* (average and maximum ages of present-day oceanic crust; recycling at subduction zones). https://pubs.usgs.gov/gip/dynamic/Pangaea.html
 23. U.S. Geological Survey. *Geologic Time: Age of the Earth* (limits of preserved primordial rocks and radiometric dating context). https://pubs.usgs.gov/gip/geotime/age.html
+24. U.S. Geological Survey. *Some Unanswered Questions: What drives the plates?* (explains mantle flow, ridge push and slab pull; notes that details of the driving mechanisms remain an active scientific question). https://pubs.usgs.gov/gip/dynamic/unanswered.html
+25. U.S. Geological Survey. *Where Do Earthquakes Occur?* (plate-boundary and intraplate earthquakes; spreading, transform and subduction settings). https://pubs.usgs.gov/gip/earthq1/where.html
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
-Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; USGS (22) — обновление и переработка океанической коры; USGS (23) — ограничения интерпретации возраста древнейших пород; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
+Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; USGS (22) — обновление и переработка океанической коры; USGS (23) — ограничения интерпретации возраста древнейших пород; USGS (24) — сочетание mantle flow, ridge push и slab pull и научная неопределённость деталей механизма движения плит; USGS (25) — типы границ и внутриплитные землетрясения; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
 
 ## Редакционные и научные примечания
 
