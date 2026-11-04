@@ -822,8 +822,8 @@ if (!imageAudit.includes("10 FOUND / 19 searched") ||
 const periodicTablePath = path.join(root, "periodic-table.html");
 if (fs.existsSync(periodicTablePath)) {
   const periodicTableSource = fs.readFileSync(periodicTablePath, "utf8");
-  if (periodicTableSource.includes(`aria-label="'+e.n+' '+name(e)+' ('+e.sym+'), '+e.mass+' u"`) ||
-      !periodicTableSource.includes('<strong class="sym">'+e.sym+'</strong><span class="ename">'+name(e)+'</span>')) {
+  if (periodicTableSource.includes("aria-label=\"'+e.n+' '+name(e)+' ('+e.sym+'), '+e.mass+' u\"") ||
+      !periodicTableSource.includes("<strong class=\"sym\">'+e.sym+'</strong><span class=\"ename\">'+name(e)+'</span>")) {
     errors.push("periodic-table.html: visible atomic number, symbol, localized name and mass must provide the element button's accessible name without overriding visible text");
   }
   if (!periodicTableSource.includes('id="detail" aria-live="polite"')) {
