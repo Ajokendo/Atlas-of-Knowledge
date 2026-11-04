@@ -404,3 +404,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 07 — bilingual visual production briefs — 5 November 2026
 
 - Added English counterparts for all nine visual specifications, preserving conceptual-model caveats, flow/stock distinctions and regional ecological variation. Visual integration remains deferred. Commit: `1452297ed18f0554cdf831bbebc4d238d72e8a33`.
+
+
+### Chapter 06 — bilingual visual production briefs — 5 November 2026
+
+- Added English production counterparts for all four registered visual IDs, including the hydrological flux/stock distinction and Southern Ocean boundary caveat. Images remain deferred. Commit: `4282a32dd93779c6635027748584c3d5ed686ca2`.
