@@ -33,8 +33,9 @@
 <path d="M500 207 Q330 205 220 247" class="arrow"/><text x="340" y="215" class="small">Фотосинтез / Photosynthesis</text>
 <path d="M315 290H380" class="arrow"/>
 <path d="M610 290H680" class="arrow"/>
-<path d="M790 255 Q790 170 735 175" class="arrow"/><text x="845" y="190" class="small">Дыхание / Respiration</text>
-<path d="M490 365V337" class="arrow"/>
+<path d="M790 255 Q790 170 735 175" class="arrow"/><text x="860" y="225" class="small">Дыхание / Respiration</text>
+<path d="M500 327 Q500 345 490 357" class="arrow"/>
+<path d="M490 365 Q450 260 465 207" class="arrow"/>
 <path d="M615 392 Q890 420 1020 335" class="arrow"/><text x="850" y="408" class="small">Обмен с океаном / Ocean exchange</text>
 <path d="M1045 255 Q1040 210 740 180" class="arrow"/>
 <text x="600" y="438" class="note" text-anchor="middle">Горение биомассы и ископаемого топлива также возвращает CO₂ в атмосферу / Combustion also releases CO₂</text>
