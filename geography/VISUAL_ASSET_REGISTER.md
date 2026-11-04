@@ -1,7 +1,7 @@
 # Geography visual asset register
 **Audit date:** 1 November 2026  
 **Canonical branch:** `workspace/geography`  
-**Status:** production briefs and in-text placeholders; generated artwork is not yet available/verified.
+**Status:** production briefs and in-text placeholders; four Chapter 02 visuals are now linked remotely from official NOAA/USGS hosts. No new local binary assets are claimed.
 
 ## Purpose and production rule
 
@@ -66,5 +66,6 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 - **Indexed:** 217 unique visual IDs across 26 chapters (Chapter 20 now includes 20-K).
 - **Briefed:** all 217 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
 - **Created and embedded (pending final scientific/editorial review):** 4 assets — `20-K-national-water-use-2025.svg`, `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, and `20-I-glacier-anatomy.svg` (official 2025 NSC figures; SVG labels and figures checked against the source; wastewater subcategory discrepancy explicitly flagged).
+- **Remote source images integrated in Chapter 02 Markdown:** 4 visuals — 2-B and 2.3-A (NOAA atmospheric layers and temperature profile), 2-C (USGS water distribution chart) and 2.4-A (USGS water-cycle diagram). These are hotlinked, not stored under geography/assets; live-site loading, performance, responsive display and accessibility remain untested.
 - **Generated and fully approved:** none are claimed by this register.
 - **Next work:** check the older Chapters 01–06 and all regional/administrative map briefs against authoritative source datasets; then create and review the assets in production batches.
