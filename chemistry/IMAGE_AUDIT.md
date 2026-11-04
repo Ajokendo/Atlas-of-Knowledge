@@ -120,3 +120,10 @@ A source-code review found that the completion screen assigned a second onclick 
 ### Stoichiometry calculator — scale-sensitive edge cases corrected (2026-11-05)
 
 The limiting-reactant comparison previously used an absolute tolerance with a floor of 1 mol, which could classify very small but materially different reactant amounts as stoichiometrically equal. The comparison now scales its floating-point tolerance to the actual reaction extents, and residual checks use amount-specific tolerances. Optional actual-yield input trims whitespace, and non-finite percentage results are rejected rather than displayed. Regression guards cover the scale-relative tolerance and yield-input safeguards. Manual browser tests and execution of the repository checks remain outstanding.
+
+
+## 2026-11-05 follow-up: amount-of-substance terminology
+
+A focused review of the bilingual amount-of-substance calculator found that its explanatory note correctly defined the Avogadro count as a number of specified elementary entities, but the result label and figure caption still used the less precise generic word “particles”. Updated the Russian and English calculator copy, result label, caption and image alternative text to consistently refer to specified entities / элементарные сущности. This avoids implying that every mole count necessarily refers to molecules: depending on the substance, the counted entities may be atoms, ions or formula units.
+
+The numerical model remains (n=m/M) and (N=nN_A), with the Avogadro constant exact. Existing checks continue to assert the definition and examples of entity identity. The change is source-reviewed only; no browser or screen-reader test is claimed here.
