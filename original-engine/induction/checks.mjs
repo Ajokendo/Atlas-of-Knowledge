@@ -65,7 +65,8 @@ check('crossing: entering ε = −Bhv, leaving +Bhv', near(M.crossScene(0.3).emf
 }
 check('rails: F·v = I²R (mechanical power in = heat out)', [0, 0.7, 2.2].every(t => { const r = M.railScene(t); return near(r.F * r.v, r.P); }));
 check('rails: ε = dΦ/dt = d(BLx)/dt = BLv', [0.4, 1.9].every(t => near(ddt(s => M.railScene(s).Phi, t), M.railScene(t).emf, 1e-5)));
-check('rails: stops after travelling v₀τ', near(M.railScene(60).x - M.RAIL.x0, M.RAIL.v0 * M.RAIL.tau, 1e-9) && M.RAIL.x0 + M.RAIL.v0 * M.RAIL.tau < M.RAIL.len);
+check('rails: final displacement v₀τ is approached asymptotically, never reached at finite t', near(M.railScene(60).x - M.RAIL.x0, M.RAIL.v0 * M.RAIL.tau, 1e-9) && M.RAIL.x0 + M.RAIL.v0 * M.RAIL.tau < M.RAIL.len && [0, 1, 5, 20, 60].every(k => { const r = M.railScene(k * M.RAIL.tau); return r.v > 0 && near(r.v, M.RAIL.v0 * Math.exp(-k), 1e-10) && r.x < M.RAIL.x0 + M.RAIL.v0 * M.RAIL.tau; }));
+check('rails: kinetic energy plus Joule heat remains the initial kinetic energy', [0, 0.5, 1, 3, 10, 40].every(t => { const r = M.railScene(t * M.RAIL.tau); return near(r.K + r.heat, 0.5 * M.RAIL.m * M.RAIL.v0 ** 2, 1e-10); }));
 // ---- solenoid ----
 const ss = M.solScene(0.5);
 check('solenoid: L = NΦ/I = μ₀N²A/ℓ', near(ss.NPhi / ss.I, M.SOL.L), `${(M.SOL.L * 1e3).toFixed(2)} mH`);
