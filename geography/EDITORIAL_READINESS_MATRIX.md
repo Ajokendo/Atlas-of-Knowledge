@@ -267,3 +267,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 10 — M49 statistical/legal distinction — 5 November 2026
 
 - Added a bilingual statement that UN M49 is a statistical classification and does not establish sovereignty, statehood, recognition or legal boundary lines. Checked against the UN Statistics Division methodology overview. Commit: `cf70c9c4d7875dd643956b11811c9ccc73fb9f0c`.
+
+
+### Chapter 09 — population-density denominator clarification — 5 November 2026
+
+- Clarified in both languages that population-density comparisons must identify whether the denominator is land area, total area or inhabited area, and must align population, area and reference date. Commit: `63becbe6080cdd4adb21c198686312f02961bf05`.
