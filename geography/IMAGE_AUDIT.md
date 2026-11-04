@@ -481,3 +481,25 @@ Markdown alt-text checks:
 - Chapters 18–20: 4 embeds; zero empty alt attributes.
 
 **Result:** structural SVG metadata and non-empty Markdown alt text pass for the checked local assets and chapter embeds. Semantic alt-text quality, bilingual equivalence, scientific correctness, rights evidence and deployed accessibility remain separate and pending checks. No asset is promoted to VERIFIED.
+
+
+## Chapters 03–04 — source-path, SVG metadata and bilingual-alt validation — 5 November 2026
+
+### Chapter 03 — Lithosphere and geological processes
+
+- Confirmed 10/10 expected local SVG assets exist under `geography/assets/` and are referenced from the chapter: 03-1-A, 03-3-A, 03-4-A, 03-6-A, 03-7-A, 03-8-A, 03-10-A, 03-11-A, 03-12-A and 03-12-B.
+- Confirmed three distinct external image references are present: USGS mineral specimens (`OreSampleImages.png`), the USGS/Smithsonian *This Dynamic Planet* tectonic map (`DynamicPlanet.JPG`), and the International Commission on Stratigraphy chart (2026/06).
+- The 13 distinct visual references are each embedded twice in the Markdown source (Russian and English sections): 26 image embeds. All 26 image elements have meaningful alt text containing both language descriptions.
+- All 10 local SVG files have a `viewBox`, one bilingual `title`, one bilingual `desc`, and no detected `script`, `foreignObject` or embedded `image` element. This is source-pattern validation, not a full XML conformance or rendered-visual test.
+- **Still pending:** exact-file rights evidence for the three external images; provenance, creator/rightsholder and authoring-method evidence for the 10 project-local SVGs; detailed geological accuracy review; caption/attribution audit; responsive/rendered and assistive-technology checks.
+
+### Chapter 04 — Landforms and relief
+
+- Confirmed all 16 expected local SVG assets exist under `geography/assets/` and are referenced from the chapter: 04-2-A through 04-15-B, including the two 04-14 and two 04-15 visual pairs.
+- The 16 distinct visual references are each embedded twice (Russian and English sections): 32 image embeds. All 32 image elements have meaningful bilingual alt text.
+- All 16 SVG files have a `viewBox`, one bilingual `title`, one bilingual `desc`, and no detected `script`, `foreignObject` or embedded `image` element.
+- **Still pending:** creator/rightsholder and authoring-method evidence; scientific review of landform morphology, process direction, map conventions, vertical datum/scale where applicable, and the Everest/Challenger Deep comparison; captions/attribution; rendered and assistive-technology QA.
+
+### Status interpretation
+
+These checks establish that the expected local files exist, the chapter source references them, the bilingual alt text is populated, and the SVG source contains basic accessible metadata. They do **not** establish scientific accuracy, rights clearance, complete learner-facing captions, visual legibility after rendering, or VERIFIED status. All 26 local SVG assets remain lifecycle **INTEGRATED** at most; the five review dimensions remain **PENDING** pending evidence.
