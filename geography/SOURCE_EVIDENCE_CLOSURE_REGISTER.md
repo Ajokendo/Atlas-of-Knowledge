@@ -587,3 +587,13 @@ The chapter-level audit records were added to each source chapter. Findings and 
 **Structural bilingual check:** numbered teaching-heading IDs were previously checked with zero missing/extra IDs: Ch06 29, Ch07 17, Ch08 17, Ch09 18, Ch10 17 matched. This is structural parity, not final sentence-level translation proofing. Visual brief parity is Ch06 15/15, Ch07 9/9, Ch08 7/7, Ch09 6/6 and Ch10 7/7; assets have not yet been generated or integrated.
 
 **Remaining closure work:** sentence-level RU/EN proofread, source-to-claim verification for all numerical and legal statements, verify dates/current datasets before release, and visual generation/integration. These items remain open and chapter readiness percentages are not raised solely because the findings have been documented.
+
+
+### Chapter 06 — final bilingual text and source closure — 5 November 2026
+
+- Completed the sentence-level review of the 17 numbered teaching sections and paired examples, summary, glossary, review questions and practical assignment in Russian and English.
+- Corrected a RU/EN definition mismatch between natural lakes and artificial reservoirs; clarified that surface-water and groundwater divides can differ; qualified the orbital motion of water particles in deep- and shallow-water waves; and added the classification caveat for marine ecological zones.
+- Replaced the unevenly ordered bibliography with 14 topic-specific institutional references. Newly explicit source coverage includes USGS global water distribution, streamflow and aquifers; NASA's hydrological cycle; NOAA ocean classification, currents and acidification; NSIDC sea ice; IHO S-23 and current standards catalogue; TEOS-10; and the USDA watershed water-budget guide.
+- Verified calculations: river cross-section example = 3.6 m³/s; basin exercise = 250 mm runoff, 2.5 km³ annual volume and approximately 79.3 m³/s annual mean discharge; residual example = 30 mm. Units and time periods are stated consistently.
+- The 15 unique bilingual visual IDs and briefs remain placeholders. This entry does not claim image integration, browser/device accessibility QA or deployment validation.
+- Chapter content commit: `e8e6abe30366cf2d64844ace8c5ce0c8d421836a`.
