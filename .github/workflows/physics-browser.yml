@@ -31,7 +31,7 @@ jobs:
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/physics-http.log 2>&1 &
           for attempt in $(seq 1 30); do
-            if curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null; then
+            if curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/newton/ >/dev/null; then
               exit 0
             fi
             sleep 1
@@ -40,5 +40,7 @@ jobs:
           exit 1
       - name: Test Chapter 1 kinematics on desktop and mobile viewports
         run: node original-engine/browser-smoke.mjs
+      - name: Test Chapter 2 Newton laws on desktop and mobile viewports
+        run: node original-engine/newton-smoke.mjs
       - name: Test Chapter 4 work and energy on desktop and mobile viewports
         run: node original-engine/work-energy-smoke.mjs
