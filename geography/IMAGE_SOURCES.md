@@ -61,11 +61,11 @@ A site's general copyright statement is not a licence for every image on that si
 | Measure | Chapter 01 | Chapter 02 | Total |
 |---|---:|---:|---:|
 | Distinct visual briefs | 3 | 18 | 21 |
-| Exact candidate assets located (rights status recorded) | 0 | 3 | 3 |
+| Exact candidate assets located (rights status recorded) | 0 | 4 | 4 |
 | Approved and integrated assets | 0 | 0 | 0 |
 | Remaining briefs | 3 | 18 | 21 |
 
-**Important:** the 21 entries are visual briefs, not 21 completed illustrations. Three exact candidate assets have now been located for Chapter 02. The NASA pages identify NASA Goddard as the credit source and NASA's reuse policy generally permits educational/informational reuse subject to third-party exceptions; the two USGS plate-tectonics media pages explicitly state Public Domain. None is yet counted as approved or integrated: final scientific-fit, crop/label, accessibility and repository embedding checks remain.
+**Important:** the 21 entries are visual briefs, not 21 completed illustrations. Four exact candidate assets have now been located for Chapter 02. The NASA pages identify NASA Goddard as the credit source and NASA's reuse policy generally permits educational/informational reuse subject to third-party exceptions; the two USGS plate-tectonics media pages explicitly state Public Domain. None is yet counted as approved or integrated: final scientific-fit, crop/label, accessibility and repository embedding checks remain.
 
 ## Required metadata for every approved asset
 
@@ -93,7 +93,7 @@ A site's general copyright statement is not a licence for every image on that si
 - Accessed: 4 November 2026.
 - Sources: https://science.nasa.gov/earth/faq/ and https://www.nasa.gov/nasa-brand-center/images-and-media/.
 
-### Candidate 2.5-A — USGS Plate Tectonics Globe Activity map
+### Candidate 2.4-A — USGS Water Cycle diagram\n\n- Asset page: https://www.usgs.gov/media/images/water-cycle\n- Related diagram page: https://www.usgs.gov/special-topics/water-science-school/water-cycle-diagrams\n- Creator: USGS VizLab, in collaboration with the USGS Water Resources Mission Area Web Communications Branch.\n- Rights: the individual media record explicitly states “Public Domain”.\n- Scientific fit: the 2022 global water-cycle diagram includes major water stores and fluxes and human water use/quality effects. It is a strong source for a global-cycle visual, but it is not a simple natural-only cycle and must be captioned accordingly. The USGS also offers a natural-cycle diagram in many languages, including Russian and Kyrgyz; choose the variant that best matches the chapter's teaching objective.\n- Audience: USGS identifies the updated diagram as suitable for an 8th-grade audience.\n- Accessed: 4 November 2026.\n- Sources: https://www.usgs.gov/water-science-school/science/water-cycle-diagrams and https://www.usgs.gov/media/images/water-cycle.\n\n### Candidate 2.5-A — USGS Plate Tectonics Globe Activity map
 
 - Asset page: https://www.usgs.gov/media/files/plate-tectonics-globe-activity-map
 - File: `PT_Globe_Maps.pdf` (860.3 KB).
@@ -103,4 +103,4 @@ A site's general copyright statement is not a licence for every image on that si
 - Companion instructions: https://www.usgs.gov/media/files/plate-tectonics-globe-activity.
 - Accessed: 4 November 2026.
 
-These are candidate assets with recorded rights statements, not yet integrated site assets. The NASA asset requires credit and third-party checks; USGS material remains Public Domain as stated on the individual media pages.
+These are candidate assets with recorded rights statements, not yet integrated site assets. The USGS Water Cycle diagram is Public Domain and has a named institutional creator; its 2022 human-influenced framing must be distinguished from a natural-only cycle in the chapter caption. The NASA asset requires credit and third-party checks; USGS material remains Public Domain as stated on the individual media pages.
