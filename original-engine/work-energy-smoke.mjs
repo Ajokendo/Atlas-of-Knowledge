@@ -96,7 +96,22 @@ async function check(viewport, mobile) {
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
       .analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-    if (serious.length) throw new Error(`axe found serious/critical violations: ${serious.map(v => v.id).join(', ')}`);
+    if (serious.length) {
+      const details = serious.map(v => ({
+        id: v.id,
+        impact: v.impact,
+        nodes: v.nodes.slice(0, 12).map(n => ({
+          target: n.target,
+          summary: n.failureSummary,
+          html: n.html,
+          checks: [...(n.any || []), ...(n.all || []), ...(n.none || [])].map(c => ({
+            message: c.message,
+            data: c.data,
+          })),
+        })),
+      }));
+      throw new Error(`axe found serious/critical violations: ${JSON.stringify(details)}`);
+    }
     const hasOverflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (hasOverflow) throw new Error('Horizontal page overflow');
     if (errors.length) throw new Error(errors.join(' | '));
