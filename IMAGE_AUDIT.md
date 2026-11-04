@@ -4,8 +4,8 @@
 - Working branch: `workspace/physics`
 - Audit date: 2026-11-05
 - Target policy: `IMAGE-FIRST POLICY v1.1` (AOK-IMG-001)
-- Canonical policy observed at: `atlas-of-knowledge-integration:IMAGE_FIRST_POLICY.md`
-- Policy availability note: at audit time the canonical file is present in `atlas-of-knowledge-integration`, but was not present in the fetched `main` tree. The Physics branch still contains the older local `IMAGE_POLICY.md`. Do not create another copy of the universal policy; replace the local duplicate with a link after the canonical root document is integrated into the subject branch through the central project process.
+- Canonical policy: [`main:IMAGE_FIRST_POLICY.md`](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md)
+- Historical note: when this audit was first drafted on 2026-11-05, v1.1 was available only in `atlas-of-knowledge-integration`; it has since been installed and verified in `main` (commit `bd3deb97`). The old Physics-local `IMAGE_POLICY.md` is now a pointer to the canonical document, not a competing copy.
 - Scope: all 15 standalone chapter pages under `chapters/`, the 15 corresponding interactive-book page modules under `original-engine/*/pages.js`, and the existing `IMAGE_SOURCES.md` register.
 - Audit type: preliminary structural and inventory audit. This document does not claim that every visual has passed expert scientific, rights, bilingual, accessibility, or manual visual review.
 
@@ -95,7 +95,7 @@ Status meanings: **PENDING** = the visual requirement or asset still needs a com
 | 01 — Kinematics | Position/displacement vectors; velocity and acceleration; motion graphs; projectile path; relative motion/reference frames | Inline SVG and 3 canvas elements in standalone page; interactive-book figures include position, velocity, acceleration, stroboscopic sequence, graphs, projectile and river-crossing examples | Assign stable IDs to each distinct visual; verify vector directions, graph axes/units, projectile assumptions and bilingual descriptions; add a text/data alternative for graphs |
 | 02 — Newton's Laws | Free-body diagrams; action–reaction pairs on different bodies; friction/tension/normal-force cases; acceleration comparisons | 3 canvas elements; interactive figures cover all three laws, tension, friction, system selection and centre-of-mass acceleration | Audit each force diagram for body isolation, equal/opposite pair placement, vector direction and labels; ensure meaning is not colour-only |
 | 03 — Circular Motion | Tangential velocity and centripetal acceleration; force direction; turning, conical pendulum, vertical circle, banked turn and orbits | 1 canvas element; interactive-book figures cover these cases | Add separate records for distinct diagrams/scenes; verify instantaneous vector directions, radial direction, orbit scale/assumptions and non-uniform cases |
-| 04 — Work and Energy | Force/displacement angle; positive/negative/zero work; energy transformations; potential-energy profile | Inline SVG, 3 canvas elements; 3 assets already documented in register (force diagram, energy plot, 3D incline scene) | Retain existing records but migrate them to v1.0 fields; explicitly identify creator/rightsholder evidence, method, limitations, reviewer/date, bilingual captions/alt and technical evidence; confirm whether the three records cover every required visual |
+| 04 — Work and Energy | Force/displacement angle; positive/negative/zero work; energy transformations; potential-energy profile | Inline SVG, 3 canvas elements; 3 assets already documented in register (force diagram, energy plot, 3D incline scene) | Retain existing records but migrate them to v1.1 fields; explicitly identify creator/rightsholder evidence, method, limitations, reviewer/date, bilingual captions/alt and technical evidence; confirm whether the three records cover every required visual |
 | 05 — Momentum | Before/after collision states; momentum vectors; impulse over time; elastic/inelastic distinctions; centre of mass | 3 canvas elements; interactive figures cover impulse, collisions, explosion, ballistic pendulum and centre of mass | Record visual IDs; check vector conservation, system boundaries, mass/velocity labels and energy distinction; add accessible textual summary |
 | 06 — Oscillations | Spring and pendulum geometry; x/v/a phase; energy exchange; damping and driven resonance | 3 canvas elements; interactive figures cover spring, pendulum, phase variables and energy | Add records; check phase relationships, equilibrium positions, small-angle assumptions and damping/drive distinctions; provide accessible graph summaries |
 | 07 — Rotation | Angular variables; torque arms; equilibrium; moment of inertia; parallel-axis theorem; rolling; angular momentum | 3 canvas elements; interactive figures cover torque, equilibrium, ladder, inertia, Steiner theorem, work/power and rolling | Add records; verify lever arms, torque signs, axes, mass distributions, rolling conditions and vector direction; include bilingual descriptions and mobile checks |
@@ -114,7 +114,7 @@ Numbering note: chapter numbers follow Nathan Liow's original 15-chapter sequenc
 ### 4.1 Required governance and record files
 - Maintain this `IMAGE_AUDIT.md` as the Physics derivative-edition audit, explicitly preserving source lineage.
 - Expand `IMAGE_SOURCES.md` to identify inherited visuals and branch-specific additions, but do not assume every canvas or figure label is a distinct asset. Use stable IDs only after the underlying visual and its source relationship are identified.
-- The universal standard was updated centrally to v1.1 on `atlas-of-knowledge-integration`. The subject branch should link to that canonical document when it is brought into this branch through the central integration process; do not create a competing local copy or claim the branch already contains the canonical file.
+- The universal standard v1.1 is canonical in `main`. This branch links to it; do not maintain a competing local copy.
 - Keep Physics-specific review criteria (vector directions, coordinate frames, sign conventions, idealisations, units, scale and measurement-vs-model distinctions) as a supplement, without redefining universal statuses or metrics.
 
 ### 4.2 Asset identity and classification
@@ -151,7 +151,7 @@ These are inventory findings, **not readiness scores**. They describe the audite
 - Integrated visual count: **PENDING** — existing code visuals must be individually identified and reconciled with source records before counting.
 - Image Coverage: **PROVISIONAL / NOT CALCULATED** — the required-visual denominator is not yet complete.
 - Image Verification: **NOT CALCULATED** — no complete asset-level evidence set exists.
-- Image Gaps: **PENDING INVENTORY** — four explicit placeholders are known (one in Chapter 12 and three in Chapter 13); additional gaps may be found during scene-by-scene review.
+- Image Gaps: **PENDING INVENTORY** — four explicit placeholders are known (one in Chapter 14 and three in Chapter 15); additional gaps may be found during scene-by-scene review.
 - External assets found and integrated: **0 documented** in the current register.
 - Category A / B / C: **not yet reliably counted** across the derivative atlas. The upstream source and MIT licence are now verified. The three sampled `pages.js` modules contain Russian-localised SVG/chart outputs and are Category B for the affected visuals; corresponding `world.js`/`model.js` scene differences remain B/PENDING pending line-level review. The three Chapter 04 root-page records remain PENDING source mapping and must not be counted as C yet.
 - Scientific/factual, rights, language/accessibility and technical statuses: **PENDING at asset level**, except where individual test evidence is explicitly recorded in the register or CI logs.
@@ -161,12 +161,12 @@ These are inventory findings, **not readiness scores**. They describe the audite
 1. Extend the source comparison to all 15 interactive-book modules; map SVG/chart outputs, 3D scenes, models, and embedded labels to their exact upstream files and classify changes.
 2. Establish source lineage for the three existing Chapter 04 root-page register entries; do not assign C or creator attribution without evidence.
 3. Build a deduplicated inherited-visual map for the 15 standalone chapters and 15 interactive-book modules, linking each identifiable visual to the English source where possible.
-3. Audit the Russian edition's terminology, labels, formulas, symbols, units, directions, captions, alt text, long descriptions, layout, mobile rendering and interactive controls. Do not change the English original.
-4. Verify source-work reproduction rights and any separate adaptation rights for visual content changed in the Russian edition. Keep unknown rights PENDING.
-5. Preserve the four already specified visual placeholders (Chapter 12: one four-topic infographic; Chapter 13: three visual briefs). These are genuine outstanding visual needs; only search/create replacements if appropriate and rights-cleared. If image generation is unavailable, retain explicit PENDING status.
-6. Add or correct register records for inherited unchanged visuals, adapted visuals, and genuinely new additions, keeping those groups separate.
-7. Add CI checks for file/path existence, register structure, statuses, language fields, SVG validity, dimensions and responsive/overflow checks. Keep scientific, legal and translation approvals human-reviewed.
-8. Report source-work coverage, Russian-edition localisation coverage, rights verification and new-visual readiness separately; calculate only with a defined denominator.
+4. Audit the Russian edition's terminology, labels, formulas, symbols, units, directions, captions, alt text, long descriptions, layout, mobile rendering and interactive controls. Do not change the English original.
+5. Verify source-work reproduction rights and any separate adaptation rights for visual content changed in the Russian edition. Keep unknown rights PENDING.
+6. Preserve the four already specified visual placeholders (Chapter 14: one four-topic infographic; Chapter 15: three visual briefs). These are genuine outstanding visual needs; only search/create replacements if appropriate and rights-cleared. If image generation is unavailable, retain explicit PENDING status.
+7. Add or correct register records for inherited unchanged visuals, adapted visuals, and genuinely new additions, keeping those groups separate.
+8. Add CI checks for file/path existence, register structure, statuses, language fields, SVG validity, dimensions and responsive/overflow checks. Keep scientific, legal and translation approvals human-reviewed.
+9. Report source-work coverage, Russian-edition localisation coverage, rights verification and new-visual readiness separately; calculate only with a defined denominator.
 
 ## 7. Boundary and exclusions
 
