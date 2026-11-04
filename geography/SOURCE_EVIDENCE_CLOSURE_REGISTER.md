@@ -398,3 +398,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 09 — population-density denominator clarification — 5 November 2026
 
 - Added a bilingual note requiring users to distinguish land area, total area and inhabited area when comparing arithmetic population density. It also requires population, area and reference date to refer to the same territory and comparable period. Commit: `63becbe6080cdd4adb21c198686312f02961bf05`.
+
+
+### Chapter 09 — population-density source definition — 5 November 2026
+
+- Added the direct World Bank EN.POP.DNST indicator page to the bibliography. Its label explicitly defines the denominator as land area (people per square kilometre of land area), supporting the chapter's instruction to distinguish land area from total or inhabited area. Commit: `9bc90598c64ad4dc6a75224abf9f604de3d51e1b`.
