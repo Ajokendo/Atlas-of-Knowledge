@@ -350,3 +350,18 @@ These are focused bilingual conceptual corrections. They do not close full claim
 - Refined both language versions to match the official CBD wording more closely: Target 3 concerns effective conservation and management of at least 30% of terrestrial/inland-water and coastal/marine areas, with governance, connectivity and rights safeguards; Target 2 concerns at least 30% of degraded ecosystem areas being **under effective restoration** by 2030. Added the distinction that effective restoration must be resourced and monitored but need not be completed by 2030. Checked against the official CBD Target 2 and Target 3 guidance pages. Commit: `9adc9ecaaf124cc1b91d0dc22b0a395495ec5a9b`.
 
 - Chapter 07 bibliography now links directly to the official CBD Target 2 and Target 3 guidance pages rather than only to the framework landing page. Commit: `33f2c927650531e92e8577480ed9863e3af3ea77`.
+
+
+### Chapters 06–10 — worked-example arithmetic audit — 5 November 2026
+
+The numerical teaching examples in the five chapters were independently recomputed. Results agree with the working text:
+
+| Chapter | Recalculation | Result |
+|---|---|---|
+| 06 | 8 m × 0.75 m × 0.6 m/s; 600 − 350 − 220; 250 mm over 10,000 km²; 2.5 km³ over 31,536,000 seconds | 3.6 m³/s; 30 mm; 2.5 km³; 79.3 m³/s |
+| 07 | 1,200/12,000; 90/1,200; 60/800 | 10%; 7.5%; 7.5% |
+| 08 | 1,300 g/1,000 cm³; porosity using 2.65 g/cm³ particle density; 700 g/500 cm³ | 1.3 g/cm³; 50.9%; 1.4 g/cm³ |
+| 09 | Dependency ratio; migration balance; demographic balance; crude birth/death rates | 50 per 100 (36 child + 14 older); 5 per 1,000; final population 504,000; CBR 13‰ and CDR 8‰ |
+| 10 | 12 × 1.852; 200 × 1.852; 9,600/13,000 | 22.224 km; 370.4 km; 73.8% weighted regional turnout (not the unweighted 70%) |
+
+All population and election examples are explicitly hypothetical; they are not presented as current country statistics. The calculation continuity defect in Chapter 06 was corrected separately (commit `3c2f61d1cca4add4f68974f7ca18edc374b2a23f`).
