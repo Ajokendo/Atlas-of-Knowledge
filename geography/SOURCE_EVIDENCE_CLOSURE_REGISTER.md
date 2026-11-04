@@ -564,3 +564,6 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Updated the Russian and English self-check question on soil horizons to include the newly added WRB H horizon and to refer to master horizons/layers rather than imply a fixed sequence. Commit: `0b0bde34740ed99d720cfa54ece4080e83c81e91`.
+
+
+- Updated the Chapter 06 review question on ocean classification to reflect the non-universal Southern Ocean boundary and require students to identify the classification source. Updated the Chapter 10 maritime-law review question to cover internal waters, territorial sea, contiguous zone, EEZ, continental shelf, high seas and the Area. Both RU/EN question pairs now align with the corrected content. Commits: Ch06 `7c616f8cb2ea1fe3adb40286162897b37ff00eb7`; Ch10 `e7f0577ac6598b0a9147a3a77d646878451d2d59`.
