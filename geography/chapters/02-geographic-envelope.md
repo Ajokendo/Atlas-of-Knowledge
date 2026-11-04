@@ -938,7 +938,9 @@ Global environmental challenges include climate change, desertification, biodive
 
 The geographic envelope is affected by natural climate variability, volcanism, tectonics, solar activity and human activity. Planetary monitoring uses indicators such as global mean temperature, atmospheric CO₂ concentration, sea level, glacier mass, forest cover, biodiversity condition, freshwater quality and soil condition.
 
-**Planetary boundaries** are a scientific framework describing critical Earth-system processes and the limits of a safe operating space. The processes considered include climate change, biosphere integrity, land-system change, freshwater change, nitrogen and phosphorus flows, ocean acidification, stratospheric ozone depletion, atmospheric aerosols, and novel entities and forms of pollution.
+#### 2.14.1. Planetary Boundaries
+
+Planetary boundaries are a scientific framework describing critical Earth-system processes and the limits of a safe operating space. The processes considered include climate change, biosphere integrity, land-system change, freshwater change, nitrogen and phosphorus flows, ocean acidification, stratospheric ozone depletion, atmospheric aerosols, and novel entities and forms of pollution.
 
 Planetary boundaries are not one universal environmental-condition index. Each process requires its own assessment methods. The framework is a global scientific approach to assessing risks to the Earth system, not a ready-made set of legal standards for every country or locality. It cannot be transferred directly to an individual catchment, city or country without suitable regional data and a separate method.
 
