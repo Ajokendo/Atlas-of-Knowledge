@@ -44,13 +44,13 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 19 | 10 | At least 19-H listed as local SVG; remainder not reconciled |
 | 20 | 11 | At least 20-I and 20-K listed as local SVGs; remainder not reconciled |
 | 21–26 | 68 | Actual files and embedding not reconciled |
-| **Register claim** | **231** | **Conflicts with the sum of chapter counts below** |
+| **Register claim** | **231** | **Conflicts with chapter-count sum: 282 (280 named IDs in this baseline plus two Chapter 05 IDs not enumerated)** |
 
-Chapter 05's register reports 16 integrated visuals, but the 20-ID inventory only exposes 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated and the exact integrated-ID mapping is unresolved. Chapter 09's 09-G discrepancy is unresolved. Do not publish a percentage until these and all chapter file states are reconciled.
+Chapter 05's register reports 16 integrated visuals, but the 20-ID inventory only exposes 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated and the exact integrated-ID mapping is unresolved. All individual Chapter 05 lifecycle statuses remain PENDING except 5.18-A (MISSING); the aggregate claim of 16 integrated is not assigned to guessed IDs. Chapter 09's 09-G discrepancy is unresolved. Do not publish a percentage until these and all chapter file states are reconciled.
 
 ## 6. Per-asset audit register
 
-The explicit ID rows below are provisional. The chapter inventory lists 20 Chapter 05 assets but only 18 numbered IDs can be safely reconstructed from the available summary; the two remaining IDs are deliberately not invented. All five review dimensions are PENDING until checked against the actual visual, source evidence, bilingual presentation and technical behaviour. Existing register claims are noted but are not promoted to PASS.
+The explicit ID rows below are provisional: 280 named IDs are enumerated, and two additional Chapter 05 inventory slots cannot yet be named from the available source. Those two slots are not assigned invented IDs; this audit cannot be considered a complete per-asset register until they are recovered. All five review dimensions are PENDING until checked against the actual visual, source evidence, bilingual presentation and technical behaviour. Existing register claims are noted but are not promoted to PASS.
 
 | Chapter | Visual ID | Lifecycle status | Scientific | Rights | RU/EN | Accessibility | Technical | Evidence / next action |
 |---|---|---|---|---|---|---|---|---|
@@ -279,23 +279,23 @@ The explicit ID rows below are provisional. The chapter inventory lists 20 Chapt
 | 04 | 4.14-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.15-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.15-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 05 | 5.1-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.3-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.4-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.5-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.6-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.7-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.8-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.9-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.10-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.11-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.12-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.13-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.14-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.15-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.16-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.17-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.1-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated in aggregate; this ID's state is not individually mapped, so PENDING. |
+| 05 | 5.2-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.3-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.4-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.5-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.6-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.7-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.8-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.9-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.10-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.11-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.12-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.13-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.14-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.15-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.16-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.17-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
 | 05 | 5.18-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Known pending synoptic-map/climate-analysis visual; insertion markers are not an image. |
 | 06 | 6-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-B | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
