@@ -668,6 +668,29 @@ Key river characteristics include length, basin area, discharge, flow regime, ch
 
 Rivers have ecological, transport, energy and water-supply functions. Dams and water abstraction change natural flow regimes, sediment transport and the migration of aquatic organisms.
 
+### 6.13.1. Worked Example: Estimating River Discharge
+
+Discharge is the volume of water passing through a river cross-section each second. A simplified estimate uses:
+
+\[
+Q = A \times v,
+\]
+
+where Q is discharge (m³/s), A is the cross-sectional area of flow (m²), and v is the mean flow velocity (m/s).
+
+**Hypothetical example.** Suppose a small river section is approximated as rectangular, 8 m wide and 0.75 m deep on average. The mean velocity across the whole section is 0.6 m/s.
+
+1. Estimate the cross-sectional area: A = 8 × 0.75 = 6 m².
+2. Calculate discharge: Q = 6 × 0.6 = **3.6 m³/s**.
+
+This means that approximately 3.6 cubic metres of water pass through the selected cross-section each second, on average.
+
+**Why is this an approximation?** A natural channel is rarely rectangular, and depth and velocity vary across the channel and with depth. For a more accurate measurement, divide the cross-section into several subsections, measure depth and velocity in each, and add the partial discharges. Measurements must be made safely, with the date, water level and observation location recorded.
+
+**Check your understanding:** If the cross-sectional area is 4 m² and mean velocity is 0.5 m/s, what is the discharge?
+
+---
+
 ### 6.14. Lakes and Inland Waters
 
 Lakes are natural or artificial water bodies occupying depressions in the land surface. They differ in origin, depth, area, water balance, salinity and ecological condition.
@@ -708,6 +731,20 @@ Key tools include monitoring surface water and groundwater, water-saving technol
 Climate change affects the hydrological cycle through changes in evaporation, precipitation intensity, snow accumulation, glacier melt and the frequency of extreme events.
 
 Some regions may experience stronger intense rainfall and floods, longer droughts, seasonal changes in runoff, increased risks to glacial lakes and mountain valleys, and greater competition between sectors for water. Impacts depend on geography, infrastructure and society's capacity to adapt. Changes in precipitation and runoff should not be described as identical across all regions.
+
+### 6.17.1. Building a Simple Catchment Water Balance
+
+For a catchment over a selected period, the general mass-balance principle is:
+
+`All inflows − all outflows = change in storage (ΔS)`
+
+Inflows may include precipitation, surface-water and groundwater inflow, and water transferred into the catchment. Outflows may include evapotranspiration, streamflow at the outlet, groundwater outflow and water transferred beyond the catchment boundary. For a simplified natural catchment with no external transfers and negligible groundwater exchange, this is often written as `P = ET + R + ΔS`, where P is precipitation, ET is evapotranspiration and R is runoff. A water withdrawal within the catchment is not automatically a net loss: return flow to a river or aquifer must be counted, and only water consumed, evaporated or transferred beyond the catchment is a loss from the chosen control volume. A reservoir located inside the catchment is part of water storage, so its change belongs in ΔS rather than being counted again as an external inflow or outflow. All terms must refer to the same catchment boundary and period and use consistent units, such as millimetres of water depth or volume per period.
+
+**Worked example.** Annual precipitation over a catchment is 600 mm, estimated evapotranspiration is 350 mm, and the runoff depth at the catchment outlet is 220 mm. The discharge measured at the outlet has already been converted into an equivalent water depth over the catchment area; all three quantities are therefore expressed in millimetres for the same year. The balance residual is 30 mm. It should not automatically be labelled a measurement error or a new water store: it may reflect changes in soil moisture, snow, glaciers, lakes and groundwater, unaccounted flows, or uncertainty in the estimates.
+
+**Practical sequence:** delineate the catchment; define the period; collect precipitation and streamflow data; estimate evapotranspiration with an appropriate method; account for snow storage, glaciers, reservoirs and abstractions; calculate the residual and discuss uncertainty. In the mountains of Kyrgyzstan, snow and glacier ice must not be treated as constant stores: accumulation and melting vary by season and year.
+
+**Activity.** Calculate the residual from the data above and list at least four possible reasons why it is not zero. Explain why a one-year balance does not necessarily describe the long-term condition of a catchment.
 
 ### Chapter Summary
 
