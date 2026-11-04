@@ -39,10 +39,25 @@ The implementation technology (SVG, canvas, JavaScript, WebGL, Three.js) describ
 
 The upstream README describes the interactive 3D textbook architecture and the original chapter modules. The local integration README explicitly identifies Nathan Liow's repository as the source and states that the original interactive laboratories are integrated while learner-facing text, interface, labels, and explanations are adapted into Russian.
 
-Initial file-level comparisons have confirmed this relationship for:
-- Energy: `original-engine/energy/pages.js` ↔ upstream `energy/pages.js`
-- Magnetism: `original-engine/magnetism/pages.js` ↔ upstream `magnetism/pages.js`
-- Induction: `original-engine/induction/pages.js` ↔ upstream `induction/pages.js`
+Initial file-level comparisons have confirmed this relationship for all 15 interactive-book page modules (original chapter order):
+
+- Chapter 01: `kinematics/pages.js`
+- Chapter 02: `newton/pages.js`
+- Chapter 03: `circular/pages.js`
+- Chapter 04: `energy/pages.js`
+- Chapter 05: `momentum/pages.js`
+- Chapter 06: `oscillations/pages.js`
+- Chapter 07: `rotation/pages.js`
+- Chapter 08: `fluids/pages.js`
+- Chapter 09: `electrostatics/pages.js`
+- Chapter 10: `gauss/pages.js`
+- Chapter 11: `potential/pages.js`
+- Chapter 12: `capacitors/pages.js`
+- Chapter 13: `circuits/pages.js`
+- Chapter 14: `magnetism/pages.js`
+- Chapter 15: `induction/pages.js`
+
+Each local module differs from its upstream counterpart and contains Russian localisation. Embedded SVG/chart labels and accessible visual labels are Category B where those visual outputs are changed. This is a page-module lineage comparison, not a count or complete visual audit of every distinct scene. The Energy chart-domain correction and Magnetism numerical helper correction are documented separately in `IMAGE_AUDIT.md`.
 
 The Russian `pages.js` files translate chart/SVG labels, axis units, captions, and accessible names; the affected visual outputs are therefore Category B (adapted). The corresponding `world.js` and `model.js` files differ from upstream and require line-level review before final classification. This is a source-lineage note, not a count of distinct visuals.
 
