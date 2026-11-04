@@ -54,3 +54,59 @@ jobs:
         run: node original-engine/electrostatics/browser-smoke.mjs
       - name: Test Chapter 10 Gauss law on desktop and mobile viewports
         run: node original-engine/gauss/browser-smoke.mjs
+
+  fluids-isolated:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser test tools
+        run: npm install --no-save playwright @axe-core/playwright
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/physics-http.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/chapters/fluids.html >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/fluids/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/physics-http.log
+          exit 1
+      - name: Test Chapter 8 fluids on desktop and mobile viewports
+        run: node original-engine/fluids/browser-smoke.mjs
+
+  gauss-isolated:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser test tools
+        run: npm install --no-save playwright @axe-core/playwright
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/physics-http.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/chapters/gauss-law.html >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/gauss/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/physics-http.log
+          exit 1
+      - name: Test Chapter 10 Gauss law on desktop and mobile viewports
+        run: node original-engine/gauss/browser-smoke.mjs
