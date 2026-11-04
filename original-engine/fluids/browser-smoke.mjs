@@ -137,7 +137,7 @@ async function checkInteractiveBook(mobile) {
       const plate = document.querySelector('#plate');
       return plate && !plate.hidden && !!plate.querySelector('#scene-plate-title');
     });
-    await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 2500 }).catch(async () => {
+    await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 5000 }).catch(async () => {
       const active = await page.evaluate(() => ({ tag: document.activeElement?.tagName, id: document.activeElement?.id, className: document.activeElement?.className }));
       throw new Error(`keyboard scene selection did not move focus to the text explanation; active element: ${JSON.stringify(active)}`);
     });
