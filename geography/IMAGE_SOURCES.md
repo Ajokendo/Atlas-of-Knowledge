@@ -152,3 +152,12 @@ Chapter 01 has 10 Markdown image embeds representing five unique local bilingual
 - The source files and alt text have been checked in the branch, but live external loading, responsive rendering, keyboard navigation, screen-reader output and mobile performance remain untested.
 - GitHub Pages deploys from `main`; this Geography work remains in `workspace/geography` and has not been merged or deployed.
 
+
+
+## Chapter 09 — Population and Demography (initial gap record)
+
+| Visual ID | Learning purpose / required content | Filename / source | Category | Lifecycle | Rights / scientific / language / accessibility / technical evidence |
+|---|---|---|---|---|---|
+| 09-G | Explain the main sources of demographic data (census, civil registration, surveys, administrative records) and distinguish the types of indicators each can support. The chapter placeholder is bilingual and appears at the start of the chapter. | No asset selected or integrated. Search record: **PENDING**; no candidate or licence is claimed. | PENDING | MISSING | Creator/rightsholder: Unknown. Source/licence: Unknown. Caption/alt text: required brief exists in RU/EN but final asset text is not yet written. Scientific validation, rights, accessibility and technical integration: PENDING. Next action: define the data-source taxonomy and select authoritative, reusable examples; do not use national statistics without reference dates and coverage notes. |
+
+This is a gap record only, not a completed source record. The chapter's in-text placeholder confirms the required visual need; it does not establish an asset, source, search, licence or integration.
