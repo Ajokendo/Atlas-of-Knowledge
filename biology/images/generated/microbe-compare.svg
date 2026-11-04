@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Бактериальная клетка и вирусная частица / Bacterial cell and virus particle</title>
+<desc id="desc">Сравнение клеточной бактериальной организации с неклеточной вирусной частицей. Подписаны клеточная стенка, мембрана, цитоплазма, нуклеоид и рибосомы бактерии; геном, капсид и возможная липидная оболочка вируса. A comparison of cellular bacterial organisation with an acellular viral particle. Bacterial cell wall, membrane, cytoplasm, nucleoid and ribosomes are labelled; viral genome, capsid and optional lipid envelope are shown.</desc>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#43566b" stroke-width="1.3"/></marker></defs>
+<rect width="1200" height="800" rx="28" fill="#fbfcf8"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#24364b">ДВА РАЗНЫХ УРОВНЯ ОРГАНИЗАЦИИ / TWO DIFFERENT LEVELS OF ORGANISATION</text>
+<g font-family="Arial,sans-serif">
+<rect x="42" y="100" width="540" height="590" rx="22" fill="#eef5e9" stroke="#78966c" stroke-width="3"/>
+<text x="312" y="145" text-anchor="middle" font-size="27" font-weight="700" fill="#294d32">БАКТЕРИЯ / BACTERIUM</text>
+<text x="312" y="178" text-anchor="middle" font-size="18" fill="#405b46">Клетка / A cell</text>
+<rect x="125" y="270" width="370" height="205" rx="100" fill="#d9e8ce" stroke="#557b52" stroke-width="13"/>
+<rect x="138" y="283" width="344" height="179" rx="88" fill="#f2edcf" stroke="#83a77a" stroke-width="5"/>
+<path d="M220 355 C245 300 280 420 315 355 S385 300 415 365 S360 430 320 390 S260 430 220 355" fill="none" stroke="#8b6d9e" stroke-width="7" stroke-linecap="round"/>
+<g fill="#b77d3d"><circle cx="190" cy="330" r="7"/><circle cx="205" cy="410" r="7"/><circle cx="265" cy="310" r="7"/><circle cx="375" cy="315" r="7"/><circle cx="440" cy="405" r="7"/><circle cx="400" cy="440" r="7"/><circle cx="300" cy="435" r="7"/></g>
+<g stroke="#43566b" stroke-width="2" fill="none" marker-end="url(#arr)">
+<path d="M155 245L174 277"/><path d="M475 245L465 286"/><path d="M315 510L315 415"/><path d="M490 540L433 414"/>
+</g>
+<g fill="#26384a" font-size="19"><text x="65" y="230">Клеточная стенка / Cell wall</text><text x="355" y="230">Мембрана / Membrane</text><text x="220" y="545">Нуклеоид (ДНК) / Nucleoid (DNA)</text><text x="370" y="575">Рибосомы / Ribosomes</text></g>
+<text x="312" y="625" text-anchor="middle" font-size="18" fill="#405b46">Цитоплазма / Cytoplasm</text>
+<text x="312" y="657" text-anchor="middle" font-size="16" fill="#405b46">Схематично; не в масштабе / Schematic; not to scale</text>
+<rect x="618" y="100" width="540" height="590" rx="22" fill="#f1eff8" stroke="#887ba7" stroke-width="3"/>
+<text x="888" y="145" text-anchor="middle" font-size="27" font-weight="700" fill="#493d68">ВИРУС / VIRUS</text>
+<text x="888" y="178" text-anchor="middle" font-size="18" fill="#5a5074">Неклеточная частица / An acellular particle</text>
+<circle cx="888" cy="365" r="145" fill="#d8d1e8" stroke="#746596" stroke-width="5" stroke-dasharray="10 7"/>
+<circle cx="888" cy="365" r="112" fill="#eeeaf6" stroke="#8a79ad" stroke-width="15"/>
+<path d="M824 365q30-80 62 0t65 0t35 0" fill="none" stroke="#b34e69" stroke-width="8" stroke-linecap="round"/>
+<g stroke="#43566b" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M1000 240L970 270"/><path d="M1020 480L990 440"/><path d="M760 520L825 400"/></g>
+<g fill="#26384a" font-size="19"><text x="1000" y="220">Липидная оболочка</text><text x="1000" y="244">у некоторых вирусов /</text><text x="1000" y="268">Lipid envelope in some</text><text x="1000" y="292">viruses only</text><text x="1010" y="510">Капсид / Capsid</text><text x="650" y="550">Геном (ДНК или РНК) /</text><text x="650" y="575">Genome (DNA or RNA)</text></g>
+<text x="888" y="625" text-anchor="middle" font-size="18" fill="#5a5074">Нет цитоплазмы и рибосом / No cytoplasm or ribosomes</text>
+<text x="888" y="657" text-anchor="middle" font-size="16" fill="#5a5074">Схематично; не в масштабе / Schematic; not to scale</text>
+</g>
+<rect x="95" y="715" width="1010" height="55" rx="14" fill="#fff4dc" stroke="#c39a4d" stroke-width="2"/>
+<text x="600" y="739" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#634b22">Бактерии — клеточные организмы; вирусы не являются клетками.</text>
+<text x="600" y="760" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#634b22">Bacteria are cellular organisms; viruses are not cells.</text>
+</svg>
