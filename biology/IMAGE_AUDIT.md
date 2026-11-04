@@ -280,3 +280,16 @@ No further proven scientific error was established from the source markup in thi
 
 
 A final bilingual-equivalence refinement in this batch expanded the English descriptions in `biochem-enzyme.svg` and `biochem-respiration.svg`: the enzyme text now explicitly includes substrate binding at the active site and enzyme–substrate complex formation; the respiration text now fully states proton pumping from the matrix to the intermembrane space and return through ATP synthase. This avoids treating a short English summary as a full counterpart to the Russian description.
+
+
+## Chapter-to-asset integration and accessibility cross-check — 5 November 2026
+
+A cross-check of the 12 Biology subject chapters matched all local image references against the generated-assets directory and inspected the semantic figure markup.
+
+- 62 external images are referenced by the chapters: 47 SVG illustrations and 15 documentary WebP photographs. All 62 referenced filenames exist in `images/generated/`; no broken local image target was found.
+- The 48th SVG, `biology-cover.svg`, is intentionally not referenced as a chapter figure; it is a cover asset, not an orphaned chapter illustration.
+- Across the 12 chapters, 59 semantic figures were found. Every figure containing one or more `<img>` elements has a `<figcaption>` with both Russian and English content.
+- All 62 image elements have non-empty alternative text containing both Cyrillic and Latin-language content. No missing or one-language-only alt text was found.
+- Some flora figures group multiple documentary photographs in one captioned figure; image counts therefore exceed figure counts in that chapter. The grouping is intentional and was not misreported as missing captions.
+
+This is source-level integration/accessibility validation. It does not verify the rendered appearance, colour contrast, keyboard/screen-reader behaviour on actual devices, or the legal and taxonomic correctness of every photographic subject. Those gates remain separately tracked; Global Image Verification remains **Pending audit**.
