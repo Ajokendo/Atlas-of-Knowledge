@@ -639,3 +639,10 @@
 - Проверки дополняют существующие тесты сохранения энергии, точного периода, скорости в нижней точке, связи угловой скорости с производной угла и мощности силы тяжести. Они отдельно контролируют симметрию траектории и граничные состояния, которые не следуют автоматически из одного теста энергии.
 - Изменён только файл проверок; коммит: 20738aa87c9c5d11f5c715e14e781c43b176596c. Английский оригинал и сама модель маятника не изменялись.
 - CI для этого коммита будет засчитан только после проверки завершившихся запусков GitHub Actions. Процент главы 4 не повышается.
+
+
+### Chapter 4 — pendulum dynamics checks (2026-11-04)
+
+- Added regression checks in original-engine/energy/checks.mjs for angular acceleration and radial force balance at several points of the pendulum trajectory.
+- These complement energy conservation and turning-point checks by testing the tangential and radial equations of motion. No model equations or English source files were changed.
+- Test commit: cff91a4f17848ccd32d9d6c0e434d5da74f8af14. Chapter completion percentage is unchanged pending full review.
