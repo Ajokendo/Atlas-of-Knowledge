@@ -1091,3 +1091,11 @@ Reviewed source markup for ten generated Biology SVGs across anatomy, biochemist
 - Clarified the DNA-to-mRNA relationship in `images/generated/genetics-mutations.svg`: the displayed codons are mRNA transcribed from the corresponding DNA variant (commit `0767ffa`).
 - Checked cycle pathways, watershed and vegetation qualifications, DNA packaging, mutation framing, bacteria/virus structure, domain distinctions, wolf taxonomy and typical vertebrate traits.
 - No other proven source-level error was found in this sample. Full rendered and per-asset human verification remains pending.
+
+
+## Regional habitat and zoology SVG checkpoint — 5 November 2026
+
+- Reviewed six additional regional and zoology SVGs, including Batken marmot survey, Besh-Tash habitat scenes, Chuy/Talas vegetation, vertebrate groups and habitat adaptations.
+- Added the missing Russian equivalent to the description of `images/generated/flora-talas-vegetation.svg` (commit `6124fbb`).
+- Verified in source text that survey figures are not presented as permanent population estimates, habitat reconstructions are not represented as distribution maps, and the cladistic qualification for birds is explicit.
+- Global rendered-visual and per-asset human verification remains pending.
