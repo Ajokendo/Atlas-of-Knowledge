@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Покровы тела и дыхание позвоночных / Vertebrate body coverings and respiration</title>
+<desc id="desc">Пять обобщённых сравнительных панелей: рыбы, земноводные, пресмыкающиеся, птицы и млекопитающие. Показаны типичные покровы и основные органы дыхания с оговорками об исключениях. Five generalized comparison panels for fish, amphibians, reptiles, birds and mammals, showing typical coverings and main respiratory organs with exceptions noted.</desc>
+<defs>
+<style>
+.bg{fill:#f2f2ef}.card{fill:#fbfbfa;stroke:#d9ddd5;stroke-width:2}.ink{fill:#202923;font-family:Arial,sans-serif}.muted{fill:#657267;font-family:Arial,sans-serif}.accent{fill:#557c58}.outline{fill:none;stroke:#405747;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.soft{fill:#dce8da;stroke:#557c58;stroke-width:2}.warm{fill:#ead9b8;stroke:#8d7752;stroke-width:2}.blue{fill:#d7e8eb;stroke:#557b82;stroke-width:2}.label{font-size:27px;font-weight:bold}.sub{font-size:17px}.small{font-size:15px}.tiny{font-size:13px}
+</style>
+</defs>
+<rect class="bg" width="1200" height="900"/>
+<text class="ink" x="600" y="48" text-anchor="middle" font-size="31" font-weight="bold">ПОКРОВЫ ТЕЛА И ДЫХАНИЕ ПОЗВОНОЧНЫХ</text>
+<text class="muted" x="600" y="78" text-anchor="middle" font-size="20">BODY COVERINGS AND RESPIRATION IN VERTEBRATES</text>
+<text class="muted sub" x="600" y="108" text-anchor="middle">Типичные признаки групп, а не универсальные правила / Typical group patterns, not universal rules</text>
+<!-- fish -->
+<rect class="card" x="30" y="140" width="360" height="320" rx="18"/>
+<text class="ink label" x="55" y="180">Рыбы / Fish</text>
+<g transform="translate(0 0)">
+<path class="blue" d="M95 270 Q160 215 255 260 Q160 320 95 270Z"/><path class="soft" d="M255 260 L315 220 L312 300Z"/>
+<path class="outline" d="M142 235 Q160 205 183 230 M150 295 Q170 325 195 300"/>
+<path class="outline" d="M210 245 Q235 270 210 290"/>
+<circle cx="120" cy="260" r="6" fill="#202923"/>
+<path class="outline" d="M190 240 Q178 270 190 300"/>
+<path class="outline" d="M200 242 Q188 270 200 298"/>
+<path class="outline" d="M210 245 Q198 270 210 295"/>
+<g fill="none" stroke="#557b82" stroke-width="2"><path d="M135 252l12 7m8-16 10 12m10-15 9 13m-40 26 12-7m10 12 10-12m10 10 10-13"/></g>
+<path d="M320 260h30m-10-10 10 10-10 10" stroke="#557b82" stroke-width="3" fill="none"/>
+</g>
+<text class="ink sub" x="55" y="345">Покров / Covering</text>
+<text class="muted small" x="55" y="370">Чешуя и слизь у многих видов</text>
+<text class="muted small" x="55" y="392">Scales and mucus in many species</text>
+<text class="ink sub" x="55" y="422">Дыхание / Respiration</text>
+<text class="muted small" x="55" y="445">Обычно жабры / Usually gills</text>
+<!-- amphibians -->
+<rect class="card" x="420" y="140" width="360" height="320" rx="18"/>
+<text class="ink label" x="445" y="180">Земноводные / Amphibians</text>
+<g>
+<ellipse class="soft" cx="600" cy="270" rx="83" ry="42"/>
+<circle class="soft" cx="530" cy="253" r="31"/>
+<circle cx="520" cy="244" r="5" fill="#202923"/><circle cx="542" cy="244" r="5" fill="#202923"/>
+<path class="outline" d="M550 290l-38 38-25-4m126-3 38 35 25-6m-120-73-32-25-17 2m130 20 30-22 18 5"/>
+<g fill="none" stroke="#557c58" stroke-width="2"><path d="M565 238q-10 15 0 25m20-30q-10 15 0 25m20-25q-10 15 0 25"/></g>
+<path class="warm" d="M690 245q32 4 32 34q0 27-30 32q-18-18-2-66Z"/>
+<path class="outline" d="M700 251q20 20 0 50"/>
+</g>
+<text class="ink sub" x="445" y="345">Покров / Covering</text>
+<text class="muted small" x="445" y="370">Тонкая влажная кожа</text>
+<text class="muted small" x="445" y="392">Thin, moist skin</text>
+<text class="ink sub" x="445" y="422">Дыхание / Respiration</text>
+<text class="muted small" x="445" y="445">Кожа и лёгкие у взрослых; у личинок часто жабры</text>
+<!-- reptiles -->
+<rect class="card" x="810" y="140" width="360" height="320" rx="18"/>
+<text class="ink label" x="835" y="180">Пресмыкающиеся / Reptiles</text>
+<g>
+<path class="warm" d="M875 270q45-43 130-15q28 10 52 0l35-23-10 35 10 34-35-22q-23-8-52 8q-85 30-130-17Z"/>
+<path class="outline" d="M905 291l-18 35 30-12 15-20m65-1 20 35 18-5-15-34"/>
+<circle cx="892" cy="260" r="5" fill="#202923"/>
+<g fill="none" stroke="#8d7752" stroke-width="2"><path d="M930 245l10 18-10 18m28-37 10 18-10 18m28-14 10 18-10 18m-70-22 10 18-10 18"/></g>
+</g>
+<text class="ink sub" x="835" y="345">Покров / Covering</text>
+<text class="muted small" x="835" y="370">Сухая кожа с роговыми чешуями</text>
+<text class="muted small" x="835" y="392">Dry skin with keratinised scales</text>
+<text class="ink sub" x="835" y="422">Дыхание / Respiration</text>
+<text class="muted small" x="835" y="445">Лёгкие / Lungs</text>
+<!-- birds -->
+<rect class="card" x="225" y="490" width="360" height="320" rx="18"/>
+<text class="ink label" x="250" y="530">Птицы / Birds</text>
+<g>
+<path class="soft" d="M310 630q35-72 100-35q45 25 30 58q-38-20-72 5q-38 15-58-28Z"/>
+<path class="outline" d="M355 615q-12-55 30-76q25 22 8 58"/>
+<path class="warm" d="M430 622l42 10-40 12Z"/>
+<path class="outline" d="M340 660l-6 38m42-40 7 40m-58 0h25m22 0h25"/>
+<path class="outline" d="M325 620q-20-10-35 0"/>
+<path class="blue" d="M370 655q20-18 42 0q15 17-5 34q-30 3-37-34Z"/>
+<path class="outline" d="M382 658q12 10 0 22m10-22q12 10 0 22"/>
+</g>
+<text class="ink sub" x="250" y="705">Покров / Covering</text>
+<text class="muted small" x="250" y="730">Перья / Feathers</text>
+<text class="ink sub" x="250" y="760">Дыхание / Respiration</text>
+<text class="muted small" x="250" y="785">Лёгкие и воздушные мешки / Lungs and air sacs</text>
+<!-- mammals -->
+<rect class="card" x="615" y="490" width="360" height="320" rx="18"/>
+<text class="ink label" x="640" y="530">Млекопитающие / Mammals</text>
+<g>
+<ellipse class="warm" cx="780" cy="640" rx="88" ry="43"/>
+<circle class="warm" cx="690" cy="625" r="34"/>
+<path class="outline" d="M665 605l-10-24 26 12m5 60-12 45m55-50-4 50m70-50 8 50m35-55 20 45"/>
+<circle cx="678" cy="618" r="5" fill="#202923"/>
+<path class="outline" d="M866 635q45 10 45-18"/>
+<path class="blue" d="M750 620q-20 20-6 45q15 20 30 0q15-25-6-45Z"/>
+<path class="blue" d="M800 620q-20 20-6 45q15 20 30 0q15-25-6-45Z"/>
+<path class="outline" d="M780 610v-15m0 15q-20 10-25 25m25-25q20 10 25 25"/>
+</g>
+<text class="ink sub" x="640" y="705">Покров / Covering</text>
+<text class="muted small" x="640" y="730">Волосы или шерсть у большинства / Hair or fur in most</text>
+<text class="ink sub" x="640" y="760">Дыхание / Respiration</text>
+<text class="muted small" x="640" y="785">Лёгкие с альвеолами / Lungs with alveoli</text>
+<text class="muted small" x="600" y="850" text-anchor="middle">Внутри каждой группы есть исключения; схемы условны и не в масштабе. / Each group has exceptions; diagrams are simplified and not to scale.</text>
+</svg>
