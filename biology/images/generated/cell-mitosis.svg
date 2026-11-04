@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d">
+<title id="t">Митоз: стадии деления ядра / Mitosis: stages of nuclear division</title>
+<desc id="d">Пять последовательных стадий: профаза, прометафаза, метафаза, анафаза, телофаза. Цитокинез показан отдельно как разделение цитоплазмы после или во время поздней телофазы. / Five sequential stages: prophase, prometaphase, metaphase, anaphase and telophase. Cytokinesis is shown separately as cytoplasmic division during or after late telophase.</desc>
+<defs>
+ <style>
+ text{font-family:Arial,sans-serif;fill:#243a33}.ru{font-size:21px;font-weight:700}.en{font-size:17px;fill:#586b64}.small{font-size:16px}.tiny{font-size:13px}
+ .cell{fill:#fffdf8;stroke:#729487;stroke-width:3}.nucleus{fill:#e6e1f3;stroke:#77699c;stroke-width:2.5}
+ .chrom{fill:none;stroke:#694e91;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+ .spindle{stroke:#4d91a0;stroke-width:2.5;fill:none}.pole{fill:#d99c3c;stroke:#98651c;stroke-width:1.5}
+ .card{fill:#fffefa;stroke:#d1d9d0;stroke-width:2}.arrow{stroke:#527d68;stroke-width:3;fill:none}
+ </style>
+ <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#527d68"/></marker>
+</defs>
+<rect width="1200" height="820" fill="#f5f2e8"/>
+<text x="600" y="44" text-anchor="middle" class="ru" style="font-size:29px">МИТОЗ: ПОСЛЕДОВАТЕЛЬНОСТЬ СТАДИЙ</text>
+<text x="600" y="73" text-anchor="middle" class="en" style="font-size:22px">MITOSIS: SEQUENCE OF STAGES</text>
+<text x="600" y="111" text-anchor="middle" class="small">Митоз делит ядро; цитокинез разделяет цитоплазму / Mitosis divides the nucleus; cytokinesis divides the cytoplasm</text>
+<rect x="28" y="145" width="216" height="430" rx="15" class="card"/><text x="136" y="182" text-anchor="middle" class="ru">Профаза</text><text x="136" y="207" text-anchor="middle" class="en">Prophase</text><rect x="263" y="145" width="216" height="430" rx="15" class="card"/><text x="371" y="182" text-anchor="middle" class="ru">Прометафаза</text><text x="371" y="207" text-anchor="middle" class="en">Prometaphase</text><rect x="498" y="145" width="216" height="430" rx="15" class="card"/><text x="606" y="182" text-anchor="middle" class="ru">Метафаза</text><text x="606" y="207" text-anchor="middle" class="en">Metaphase</text><rect x="733" y="145" width="216" height="430" rx="15" class="card"/><text x="841" y="182" text-anchor="middle" class="ru">Анафаза</text><text x="841" y="207" text-anchor="middle" class="en">Anaphase</text><rect x="968" y="145" width="216" height="430" rx="15" class="card"/><text x="1076" y="182" text-anchor="middle" class="ru">Телофаза</text><text x="1076" y="207" text-anchor="middle" class="en">Telophase</text>
+<!-- prophase -->
+<ellipse cx="136" cy="355" rx="76" ry="92" class="cell"/><ellipse cx="136" cy="355" rx="47" ry="56" class="nucleus" stroke-dasharray="6 5"/>
+<path d="M116 330 l18 25 -18 25 M151 320 l-16 28 20 30 M103 370 l20 -18" class="chrom"/>
+<circle cx="75" cy="355" r="7" class="pole"/><circle cx="197" cy="355" r="7" class="pole"/>
+<text x="136" y="493" text-anchor="middle" class="small">Хромосомы уплотняются;</text><text x="136" y="516" text-anchor="middle" class="small">ядрышко исчезает</text><text x="136" y="540" text-anchor="middle" class="en">Chromosomes condense;</text><text x="136" y="560" text-anchor="middle" class="en">nucleolus disappears</text>
+<!-- prometaphase -->
+<ellipse cx="371" cy="355" rx="76" ry="92" class="cell"/><path d="M331 319 l18 25 -18 25 M373 315 l-15 30 20 29 M393 355 l-19 25 18 24" class="chrom"/>
+<circle cx="310" cy="355" r="7" class="pole"/><circle cx="432" cy="355" r="7" class="pole"/>
+<path d="M310 355 L350 342 L371 344 M432 355 L395 340 L371 344 M310 355 L351 375 L393 375 M432 355 L394 375" class="spindle"/>
+<text x="371" y="493" text-anchor="middle" class="small">Оболочка ядра распадается;</text><text x="371" y="516" text-anchor="middle" class="small">нити прикрепляются к кинетохорам</text><text x="371" y="540" text-anchor="middle" class="en">Nuclear envelope breaks down;</text><text x="371" y="560" text-anchor="middle" class="en">spindle attaches to kinetochores</text>
+<!-- metaphase -->
+<ellipse cx="606" cy="355" rx="76" ry="92" class="cell"/><circle cx="545" cy="355" r="7" class="pole"/><circle cx="667" cy="355" r="7" class="pole"/>
+<path d="M545 355 L596 320 M545 355 L596 355 M545 355 L596 390 M667 355 L616 320 M667 355 L616 355 M667 355 L616 390" class="spindle"/>
+<path d="M598 318 l16 18 -16 18 -16 -18Z M598 353 l16 18 -16 18 -16 -18Z M598 388 l16 18 -16 18 -16 -18Z" class="chrom"/>
+<path d="M606 260 V450" stroke="#bd8b38" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="606" y="493" text-anchor="middle" class="small">Хромосомы выстроены</text><text x="606" y="516" text-anchor="middle" class="small">по экватору клетки</text><text x="606" y="540" text-anchor="middle" class="en">Chromosomes align at</text><text x="606" y="560" text-anchor="middle" class="en">the cell equator</text>
+<!-- anaphase -->
+<ellipse cx="841" cy="355" rx="76" ry="92" class="cell"/><circle cx="780" cy="355" r="7" class="pole"/><circle cx="902" cy="355" r="7" class="pole"/>
+<path d="M780 355 L817 325 M780 355 L817 385 M902 355 L865 325 M902 355 L865 385" class="spindle"/>
+<path d="M817 325 l-14 -12 M817 325 l-14 12 M817 385 l-14 -12 M817 385 l-14 12 M865 325 l14 -12 M865 325 l14 12 M865 385 l14 -12 M865 385 l14 12" class="chrom"/>
+<text x="841" y="493" text-anchor="middle" class="small">Сестринские хроматиды</text><text x="841" y="516" text-anchor="middle" class="small">расходятся к полюсам</text><text x="841" y="540" text-anchor="middle" class="en">Sister chromatids</text><text x="841" y="560" text-anchor="middle" class="en">move to opposite poles</text>
+<!-- telophase -->
+<ellipse cx="1076" cy="355" rx="76" ry="92" class="cell"/><ellipse cx="1043" cy="355" rx="27" ry="37" class="nucleus"/><ellipse cx="1109" cy="355" rx="27" ry="37" class="nucleus"/>
+<path d="M1035 343 l9 10 -9 10 M1102 343 l9 10 -9 10" class="chrom"/>
+<text x="1076" y="493" text-anchor="middle" class="small">Формируются два ядра;</text><text x="1076" y="516" text-anchor="middle" class="small">хромосомы деконденсируются</text><text x="1076" y="540" text-anchor="middle" class="en">Two nuclei form;</text><text x="1076" y="560" text-anchor="middle" class="en">chromosomes decondense</text>
+<!-- cytokinesis -->
+<rect x="90" y="610" width="1020" height="160" rx="18" class="card"/>
+<text x="120" y="648" class="ru">Цитокинез — отдельный процесс разделения цитоплазмы</text>
+<text x="120" y="675" class="en">Cytokinesis — the separate process of cytoplasmic division</text>
+<ellipse cx="320" cy="720" rx="76" ry="36" class="cell"/><ellipse cx="295" cy="720" rx="19" ry="23" class="nucleus"/><ellipse cx="345" cy="720" rx="19" ry="23" class="nucleus"/>
+<path d="M320 686 Q290 720 320 754" stroke="#b36d5b" stroke-width="5" fill="none"/>
+<path d="M420 720 H505" class="arrow" marker-end="url(#a)"/>
+<ellipse cx="600" cy="720" rx="49" ry="36" class="cell"/><ellipse cx="720" cy="720" rx="49" ry="36" class="cell"/><ellipse cx="600" cy="720" rx="16" ry="20" class="nucleus"/><ellipse cx="720" cy="720" rx="16" ry="20" class="nucleus"/>
+<text x="825" y="711" class="small">У животных клеток — борозда деления;</text><text x="825" y="734" class="en">Animal cells — a cleavage furrow;</text><text x="825" y="756" class="en">plant cells — a cell plate forms</text>
+<text x="600" y="800" text-anchor="middle" class="tiny">Упрощённая схема; число хромосом условно / Simplified diagram; chromosome number is schematic</text>
+</svg>
