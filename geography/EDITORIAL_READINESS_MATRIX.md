@@ -7,7 +7,7 @@
 
 ## Quantitative chapter progress — 4 November 2026
 
-**Working production score: 76% average across all 26 chapters (equal chapter weighting).** This is a progress estimate for the editorial/content-production scope, not a publication-readiness or deployment score. Chapters 01–04 are recorded at 100% in that scope; Chapters 05–26 have been rescored using the rubric in `CHAPTER_PROGRESS_SCORING.md`. The 22 rescored chapters average 71.3%.
+**Working production score: 76% average across all 26 chapters (equal chapter weighting).** This is a progress estimate for the editorial/content-production scope, not a publication-readiness or deployment score. Chapters 01–04 are recorded at 100% in that scope; Chapters 05–26 have been rescored using a weighted rubric: content/structure 30 points; Russian/English development 20; pedagogical apparatus 15; sources/evidence 20; visual integration 15. The 22 rescored chapters average 71.3%. The bilingual component is 16/20 where substantial RU/EN material exists but line-by-line parity is not verified. Visual points are proportional to assets actually integrated in both language versions; briefs and placeholders earn zero. The evidence component reflects the depth of documented source checks, not a full sentence-by-sentence audit.
 
 ## Cross-chapter status
 
