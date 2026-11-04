@@ -860,3 +860,13 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 - В схемах круговорота воды различать объёмы запасов и скорости потоков.
 - В описании климатических воздействий отделять наблюдаемые тенденции от региональных прогнозов и сценариев.
 - Для карт рек, озёр и водоносных горизонтов использовать проверенные гидрографические и гидрогеологические данные; не упрощать трансграничные границы водосборов.
+
+## Focused scientific and editorial audit record — 5 November 2026
+
+- **Water-balance units:** corrected the worked example so outlet discharge is explicitly converted to an equivalent runoff depth over the catchment area before it is compared with precipitation and evapotranspiration. The three terms now share the same unit (mm) and period (one year); the 30 mm residual is not automatically labelled an error or a separate store. Integrated in the worked example.
+- **Catchment accounting:** clarified the control-volume boundary, inflows, outflows and storage changes; retained the instruction to account for snow, glaciers, lakes, groundwater, abstractions and uncertainty. Integrated in the explanatory text and practical sequence.
+- **Ocean classification:** clarified that the Southern Ocean boundary depends on the hydrographic classification used; the map and review question must identify the source rather than imply one universally ratified boundary.
+- **Maritime and ocean terminology:** aligned the bilingual review question and glossary with the chapter's classification caveat. Existing distinctions among ocean water stocks and annual fluxes are retained.
+- **Visual production:** reconciled 15 unique bilingual visual IDs and their briefs; four redundant aliases were normalised. All remain placeholders pending image production.
+- **Bilingual structure:** the previous heading-ID audit found 29 matched numbered teaching headings in Russian and English. This is structural parity only, not a substitute for final sentence-level proofreading.
+
