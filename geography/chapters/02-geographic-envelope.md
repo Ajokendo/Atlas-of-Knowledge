@@ -149,9 +149,9 @@
 | Типичная толщина | В среднем около 35–40 км, с большими вариациями | В среднем около 7 км |
 | Состав | Разнообразные породы, включая гранитоиды | Преимущественно базальтовые и габбровые породы |
 | Плотность | В среднем ниже | В среднем выше |
-| Возраст | Некоторые участки старше 4 млрд лет | Обычно значительно моложе |
+| Возраст | Отдельные древнейшие сохранившиеся породы датируются примерно 4 млрд лет | Обычно значительно моложе; океаническая кора постоянно обновляется |
 
-Толщина континентальной коры особенно велика под многими крупными горными поясами, в том числе сформированными при столкновении континентальных плит. Средние значения в таблице являются ориентировочными: реальная толщина сильно меняется от региона к региону, а под отдельными высокими горными системами может превышать 60–70 км.
+Толщина континентальной коры особенно велика под многими крупными горными поясами, в том числе сформированными при столкновении континентальных плит. Средние значения в таблице являются ориентировочными: реальная толщина сильно меняется от региона к региону, а под отдельными высокими горными системами может превышать 60–70 км. Возраст в таблице относится к отдельным сохранившимся древним породам, а не ко всей континентальной коре как единому массиву. Океаническая кора значительно моложе: она формируется у срединно-океанических хребтов и постепенно погружается в мантию в зонах субдукции.
 
 ### 2.5.2. Тектонические процессы / Plate Tectonics
 
@@ -601,9 +601,9 @@ The lithosphere consists of Earth's crust and rigid upper mantle. It is divided 
 | Typical thickness | About 35–40 km on average, with large variations | About 7 km on average |
 | Composition | Diverse rocks, including granitoids | Mainly basaltic and gabbroic rocks |
 | Density | Lower on average | Higher on average |
-| Age | Some areas are more than 4 billion years old | Generally much younger |
+| Age | Some of the oldest preserved rocks date to about 4 billion years ago | Generally much younger; oceanic crust is continually renewed |
 
-Continental crust is especially thick beneath many major mountain belts, including those formed by continental collision. The table gives approximate averages: actual thickness varies greatly from region to region and can exceed 60–70 km beneath some high mountain systems.
+Continental crust is especially thick beneath many major mountain belts, including those formed by continental collision. The table gives approximate averages: actual thickness varies greatly from region to region and can exceed 60–70 km beneath some high mountain systems. The age entry refers to particular surviving ancient rocks, not to the continental crust as a single uniform block. Oceanic crust is much younger: it forms at mid-ocean ridges and is gradually recycled into the mantle at subduction zones.
 
 **Plate tectonics.** At divergent boundaries plates move apart; at convergent boundaries they move towards one another; at transform boundaries they slide horizontally past each other. Plate interactions are associated with mountain building, earthquakes, volcanism, ocean trenches, faults and folded structures.
 
@@ -769,10 +769,12 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 19. U.S. Geological Survey. *Understanding Plate Motions* (This Dynamic Earth; divergent, convergent and transform boundaries). https://pubs.usgs.gov/gip/dynamic/understanding.html
 20. Mooney, W. D. (2025). *Secular Evolution of the Seismic Structure of Continental Crust, Archean to Present*. Journal of Geophysical Research: Solid Earth. https://doi.org/10.1029/2025JB031907
 21. National Oceanic and Atmospheric Administration, Ocean Exploration. *What features form at plate tectonic boundaries?* https://oceanexplorer.noaa.gov/ocean-fact/tectonic-features/
+22. U.S. Geological Survey. *Before the break-up of Pangaea* (average and maximum ages of present-day oceanic crust; recycling at subduction zones). https://pubs.usgs.gov/gip/dynamic/Pangaea.html
+23. U.S. Geological Survey. *Geologic Time: Age of the Earth* (limits of preserved primordial rocks and radiometric dating context). https://pubs.usgs.gov/gip/geotime/age.html
 
 Для концепции планетарных границ важно указывать конкретную публикацию и год оценки: научная оценка состояния границ обновляется, а диаграммы разных лет могут использовать разные методы и уровни детализации.
 
-Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
+Сопоставление тематических источников: NASA Earth System Science Research (10) обосновывает современную систему сфер; USGS (9) — численные доли водных резервуаров; NOAA (3, 4, 12, 18) — вертикальную структуру и состав атмосферы; USGS (19) — типы границ литосферных плит; Mooney (20) — диапазон и изменчивость толщины континентальной коры; NOAA Ocean Exploration (21) — процессы субдукции, образования океанической коры, желобов и вулканических дуг; USGS (22) — обновление и переработка океанической коры; USGS (23) — ограничения интерпретации возраста древнейших пород; NOAA Carbon Cycle (13) — резервуары и потоки углерода; NASA Energy Budget (14) — баланс солнечной энергии и её перераспределение; UNEP и University of Missouri Extension (15–16) — этапы азотного цикла; Open University (17) — отсутствие значимой газовой фазы у фосфорного цикла и связь фосфора с эвтрофикацией. Эти источники подтверждают базовые школьные объяснения, но не заменяют отдельные количественные оценки глобальных потоков и региональные данные.
 
 ## Редакционные и научные примечания
 
