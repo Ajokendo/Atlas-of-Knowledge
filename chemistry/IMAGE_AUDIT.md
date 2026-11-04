@@ -52,9 +52,9 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 | Category C — created | 0 assigned | Local presence alone does not prove project authorship or method. |
 | Category / method pending | 18 / 18 integrated records | 11 static pairs + 7 interactive visual systems; provenance and creator/rightsholder evidence still needed. |
 | Rights on integrated records | 0 PASS / 18 PENDING / 0 FAIL | All 18 integrated records remain unverified. Candidate source rights are tracked separately and do not count as integrated assets. |
-| Scientific/factual review | 13 PASS / 5 PENDING / 0 FAIL | First-pass review: 10 static PASS and three supplemental interactive systems PASS; CH-V01 and four earlier interactive systems remain PENDING for documented expert/manual review. |
-| Language and accessibility | 11 static pairs have bilingual metadata; 7 interactive systems have localized names or text alternatives; all manual AT reviews PENDING | Metadata and accessible names are not a substitute for translation-quality, keyboard, screen-reader and device sign-off. |
-| Technical evidence | 22 / 22 static SVG files pass metadata checks; 7 interactive systems inventoried; current branch-head CI PASS | Commit 7a4d60c passed 22 HTML / 90 local link-asset / 21 inline-script checks, plus 21 Chromium pages, 42 RU/EN axe scans, 21 language toggles and overflow checks at 390/768/1280 px. Manual assistive-technology and device checks remain pending. |
+| AI-assisted first-pass scientific review | 13 PASS / 5 PENDING / 0 FAIL | Source-level first pass: 10 static visuals and three supplemental interactive systems reviewed PASS; CH-V01 and four earlier interactive systems remain PENDING. This is not independent expert sign-off. |\n| Independent scientific/factual review | 0 PASS / 18 PENDING / 0 FAIL | A competent independent subject-matter reviewer has not signed off any integrated visual; all 18 remain PENDING for this formal policy dimension. |
+| Language and accessibility status | 0 PASS / 18 PENDING / 0 FAIL | Automated bilingual metadata, 42 axe scans and language toggles pass; full translation-quality, keyboard, screen-reader and device review remains PENDING for every integrated visual. |
+| Technical status | 0 full PASS / 18 PENDING / 0 FAIL | Automated CI passed on commit 7a4d60c: 22 HTML pages, 90 local links/assets, 21 inline scripts, 21 Chromium pages, 42 RU/EN axe scans, 21 language toggles and overflow checks at 390/768/1280 px. Full per-visual technical sign-off still awaits manual zoom/reflow, device and assistive-technology review. |
 | Retrospective search evidence | 19 / 19 records have dated search notes | The 18 integrated records plus the Chapter 03 candidate. This does not prove the original pre-creation search-first sequence. |
 | Search candidates | 10 FOUND / 19 searched | Earlier candidates plus PhET Molecule Shapes, Gas Properties and Acid-Base Solutions/pH Scale resources. None has been adopted; exact reuse terms and pedagogical fit are recorded in IMAGE_SOURCES.md. |
 
@@ -76,6 +76,27 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 | 12 Chemistry of life and environment | 2 | 2 | 100% | 0 / 2 VERIFIED | None identified; rights and manual checks remain open |
 
 **Totals:** 16 required visual units, 15 integrated, 93.75% provisional Image Coverage; 0/15 integrated visuals VERIFIED; one known gap in Chapter 03. A chapter showing 100% coverage is not thereby verified: the rights, provenance, scientific, language, accessibility and technical checks may still be pending.
+
+### Chapter-level policy-dimension status
+
+Counts below are for integrated visual units only; each cell uses PASS / PENDING / FAIL. A missing visual is reported separately in Image Gaps. No integrated visual is yet VERIFIED because rights and independent/manual checks remain open.
+
+| Chapter | Integrated units | Rights P/P/F | Independent science P/P/F | Language/accessibility P/P/F | Technical P/P/F | Category A/B/C/PENDING |
+|---|---:|---:|---:|---:|---:|---:|
+| 01 Atomic structure | 3 | 0/3/0 | 0/3/0 | 0/3/0 | 0/3/0 | 0/0/0/3 |
+| 02 Chemical elements and isotopes | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 03 Periodic system | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 04 Chemical bonding | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 05 Amount of substance | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 06 Chemical formulae | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 07 Solutions | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 08 Acids and bases | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 09 Chemical reactions | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 10 Redox | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 11 Organic chemistry | 1 | 0/1/0 | 0/1/0 | 0/1/0 | 0/1/0 | 0/0/0/1 |
+| 12 Chemistry of life and environment | 2 | 0/2/0 | 0/2/0 | 0/2/0 | 0/2/0 | 0/0/0/2 |
+
+**Chapter-level totals:** 15 integrated visual units; for each formal policy dimension, 0 PASS / 15 PENDING / 0 FAIL. The only missing chapter visual is the Chapter 03 periodic-trends pair.
 
 ### Supplemental interactive-tool visual metrics
 
