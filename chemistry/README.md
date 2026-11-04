@@ -185,3 +185,17 @@ This closes the defined internal automated/technical audit scope. It is not exte
 - [ ] External release gates remain open: physical Android/iOS testing; manual keyboard-only and 200%/400% zoom/reflow review; NVDA/TalkBack/VoiceOver testing; independent chemistry subject-matter review; final publication approval.
 
 The 100% result applies only to the defined internal technical audit. It must not be presented as a claim that the atlas is fully externally validated or publication-approved.
+
+### Image-first visual governance checkpoint — 2026-11-05
+
+- [x] Added `IMAGE_SOURCES.md`: source register for all 22 existing static SVG files (11 English/Russian pairs), plus the identified inline and interactive visual systems.
+- [x] Added `IMAGE_AUDIT.md`: first-pass scientific, bilingual, accessibility and technical audit; chapter-level visual inventory; coverage/verification metrics; and unresolved publication gates.
+- [x] Registered all 12 curriculum chapters and distinguished static illustrations from inline SVG models and the interactive periodic table.
+- [x] Extended `checks.mjs` to require source/audit records for every SVG file, enforce RU/EN SVG pairing, check non-empty image alt text and localized SVG references, and ensure the inline Chemistry visual systems remain inventoried.
+- [x] Corrected the Russian one-mole illustration to use “элементарные сущности” and “моль”.
+- [x] Clarified that the `R–NH₂` example in the organic functional-groups illustration is a **primary amine**, in both SVG languages and bilingual alternative text.
+- [x] Fixed the mobile horizontal overflow in the chemical-bonding comparison table found during the Chromium regression run.
+- [ ] Rights gate remains open: creator/rightsholder and explicit licence evidence for project-created SVGs and inline models are not established in repository metadata. These assets are therefore not marked VERIFIED.
+- [ ] Independent scientific/editorial sign-off, manual responsive/zoom review, and physical-device / assistive-technology testing remain external gates.
+
+**Checkpoint metrics (static SVG inventory only):** 11 visual topics / 22 files; 11 of 11 static topics integrated (100% provisional static coverage); 0 of 11 VERIFIED (0% image verification); 0 confirmed missing static assets; 1 chapter-level visual-need decision remains pending. Category C: 11 project SVG pairs; categories A/B: 0 evidenced assets. All 11 licence checks remain PENDING. The provisional static coverage figure does not mean the atlas is publication-ready or that every possible chapter visual need has been approved.
