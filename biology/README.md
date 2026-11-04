@@ -3,9 +3,10 @@
 Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Visual production checkpoint — 4 November 2026
-- 44 of 53 mapped illustration briefs are produced or integrated (83.0%); 9 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
+- 45 of 53 mapped illustration briefs are produced or integrated (84.9%); 8 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
 - Added the original bilingual `fauna-invertebrates.svg` comparison plate to the Kyrgyzstan fauna chapter. It distinguishes insect and arachnid body plans and does not claim to be a regional species inventory.
 - Added the bilingual `systematics-tree.svg` teaching diagram to the systematics chapter: nodes, branches, sister groups, the A+B clade, and a rotated equivalent tree.
+- Added `evolution-homology.svg` to the evolution chapter, comparing homologous tetrapod forelimbs and analogous bird/insect flight wings.
 
 ## Languages and design
 - Russian and English versions are available on every page.
