@@ -414,3 +414,6 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 06 — visual ID reconciliation — 5 November 2026
 
 - Corrected the visual inventory from four to 15 unique Chapter 06 assets. Eleven additional figure concepts received bilingual in-text markers; four redundant figure aliases were normalised to the existing core IDs. The geography-wide visual register now contains 231 unique IDs rather than 220. All Chapter 06 visuals remain uncreated placeholders and do not earn integration points. Register commit: `1bd3a384212a6ae893834e6ba5a748d30887dff4`.
+
+
+- Added a bilingual production specification for visual ID 10-A (world political map), including dated source data, projection, scale, boundary provenance and neutral treatment of disputed territories. Commit: `ea7107c8b2c927b14927568e0e71539afd34dd82`.
