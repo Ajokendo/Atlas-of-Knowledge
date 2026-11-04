@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Высотные местообитания и фауна Кыргызстана / Altitudinal habitats and fauna of Kyrgyzstan</title>
+<desc id="desc">Composite educational panorama from a valley wetland and riparian woodland through mountain forest and open meadow to alpine grassland and rocky cliffs. Generic animal silhouettes indicate habitat use, not species ranges or a census.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d8eaf1"/><stop offset="1" stop-color="#f5edda"/></linearGradient>
+ <linearGradient id="slope" x2="0" y2="1"><stop stop-color="#9cab83"/><stop offset="1" stop-color="#5e795c"/></linearGradient>
+ <style>
+ .h{font:700 18px sans-serif;fill:#20352d}.s{font:14px sans-serif;fill:#2d473b}.tiny{font:13px sans-serif;fill:#20352d}
+ </style>
+</defs>
+<rect width="1200" height="675" fill="url(#sky)"/>
+<circle cx="1050" cy="92" r="36" fill="#f2cf7a"/>
+<!-- distant high ridges -->
+<path d="M0 385 120 275 220 335 350 175 475 315 600 155 740 320 875 140 1010 300 1120 220 1200 300V675H0Z" fill="#84978b"/>
+<path d="M285 250 350 175 425 270 388 252 365 232 348 246 333 226Z M530 235 600 155 680 260 645 238 618 214 600 232 584 209Z M800 235 875 140 955 245 918 220 891 199 875 215 856 192Z" fill="#f1f2e9"/>
+<!-- land mosaic -->
+<path d="M0 420 Q150 355 280 410 Q420 455 560 385 Q700 340 825 415 Q980 470 1200 370V675H0Z" fill="url(#slope)"/>
+<!-- valley and riparian belt -->
+<path d="M0 490 Q160 450 310 500 Q430 535 560 485L560 675H0Z" fill="#a4a76d"/>
+<path d="M0 585 Q150 555 280 590 T560 580" stroke="#6eabb9" stroke-width="30" fill="none"/>
+<path d="M0 585 Q150 555 280 590 T560 580" stroke="#d8eff0" stroke-width="3" fill="none"/>
+<g fill="#52764c"><circle cx="75" cy="510" r="18"/><circle cx="102" cy="497" r="22"/><circle cx="130" cy="512" r="17"/><circle cx="225" cy="500" r="18"/><circle cx="252" cy="489" r="22"/><circle cx="280" cy="505" r="17"/></g>
+<!-- forest slope -->
+<path d="M330 430 Q450 355 600 390 L720 500 330 520Z" fill="#6e865d"/>
+<g fill="#315b4b"><path d="M375 450l24-66 24 66h-14l24 44h-68l24-44z"/><path d="M445 425l22-60 22 60h-13l22 42h-62l22-42z"/><path d="M515 435l25-68 25 68h-14l23 46h-68l23-46z"/><path d="M585 455l20-55 20 55h-11l18 36h-54l18-36z"/></g>
+<!-- open juniper patches -->
+<g fill="#496a45"><path d="M670 440q18-40 35-8 18-31 34 5 18-15 27 10-26 19-96-7z"/><path d="M740 470q15-33 29-6 15-25 29 4 15-12 22 8-22 16-80-6z"/></g>
+<!-- alpine meadow -->
+<path d="M730 425 Q850 335 980 390 L1100 475 800 510Z" fill="#9eae70"/>
+<g stroke="#e5d99c" stroke-width="3" fill="none"><path d="M840 465l-4-16m4 16 9-13m-9 13-10-9M910 448l-3-17m3 17 9-12m-9 12-10-9M970 464l-3-16m3 16 9-12"/></g>
+<!-- rocky cliffs -->
+<path d="M930 400 1000 280 1035 330 1080 210 1120 295 1160 255 1200 330V455Q1080 425 930 460Z" fill="#78857e"/>
+<path d="M1000 280 1035 330 1012 322 1000 345 985 323Z M1080 210 1120 295 1098 278 1080 294 1065 272Z" fill="#edf0e9"/>
+<!-- generic wildlife silhouettes -->
+<g fill="#273b31">
+ <!-- bird soaring -->
+ <path d="M160 320q28-23 55-2 25-22 54-4-25-2-51 15-27-13-58-9z"/>
+ <!-- marmot-like small mammal -->
+ <ellipse cx="390" cy="496" rx="18" ry="10"/><circle cx="407" cy="488" r="8"/><path d="M372 500l-8 8m22-7-2 9m20-15 6 6" stroke="#273b31" stroke-width="5" fill="none"/>
+ <!-- mountain ungulate silhouette -->
+ <path d="M860 430q18-18 42-7l15 13 22-2 9 9-4 7-18-4-13 11-5 25h-7l-2-24-20 0-8 24h-7l3-29-15-12z"/><path d="M890 421q-3-18 8-23m0 0q9-10 16-1" stroke="#273b31" stroke-width="4" fill="none"/>
+ <!-- cliff bird -->
+ <path d="M1080 350q17-15 32-2 15-14 33-3-18-1-33 12-16-10-32-7z"/>
+</g>
+<!-- habitat labels -->
+<g>
+ <g transform="translate(22 35)"><rect width="395" height="70" rx="12" fill="#fffdf4" opacity=".95"/><text x="16" y="29" class="h">Местообитания Кыргызстана</text><text x="16" y="52" class="s">Habitats of Kyrgyzstan · composite panorama</text></g>
+ <g transform="translate(24 420)"><rect width="230" height="58" rx="10" fill="#fffdf3" opacity=".93"/><text x="13" y="24" class="h">Долины и поймы</text><text x="13" y="45" class="s">Valleys and floodplains</text></g>
+ <g transform="translate(405 330)"><rect width="230" height="58" rx="10" fill="#fffdf3" opacity=".93"/><text x="13" y="24" class="h">Лесные склоны</text><text x="13" y="45" class="s">Forested slopes</text></g>
+ <g transform="translate(700 365)"><rect width="230" height="58" rx="10" fill="#fffdf3" opacity=".93"/><text x="13" y="24" class="h">Горные луга</text><text x="13" y="45" class="s">Mountain meadows</text></g>
+ <g transform="translate(963 155)"><rect width="218" height="58" rx="10" fill="#fffdf3" opacity=".93"/><text x="13" y="24" class="h">Скалы и осыпи</text><text x="13" y="45" class="s">Cliffs and scree</text></g>
+</g>
+<rect x="20" y="635" width="1160" height="28" rx="8" fill="#fffdf2" opacity=".94"/>
+<text x="600" y="654" text-anchor="middle" class="tiny">Составная учебная иллюстрация: не карта ареалов, не перепись видов и не единый реальный ландшафт · Composite teaching illustration, not a range map, species census or single real site</text>
+</svg>
