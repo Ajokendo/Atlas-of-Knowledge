@@ -97,9 +97,8 @@ async function check(viewport, mobile) {
       .analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
     if (serious.length) throw new Error(`axe found serious/critical violations: ${serious.map(v => v.id).join(', ')}`);
-    if (document.documentElement?.scrollWidth > viewport.width + 2) {
-      throw new Error('Horizontal page overflow');
-    }
+    const hasOverflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
+    if (hasOverflow) throw new Error('Horizontal page overflow');
     if (errors.length) throw new Error(errors.join(' | '));
 
     console.log(`PASS work-energy ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — 9 sections, live energy calculations, canvas chart, quiz, WebGL lab ${lab.width}×${lab.height}, serious/critical axe violations: 0`);
