@@ -1,10 +1,10 @@
 # Chemistry Atlas — Image and visual audit
 
-**Canonical standard:** [IMAGE-FIRST POLICY v1.0](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
+**Canonical standard:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
 **Branch:** `workspace/chemistry`  
 **Audit date:** 2026-11-05  
-**Policy version:** IMAGE-FIRST POLICY v1.0  
-**Scope of this checkpoint:** all 22 existing static SVG files (11 RU/EN pairs), their chapter integrations, and four identified interactive visual systems. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification. The repository does not contain a historical search log proving that ready-made licensed sources were considered before these project SVGs were created; compliance with the search-first sequence for past assets remains PENDING.
+**Policy version:** IMAGE-FIRST POLICY v1.1  
+**Scope of this checkpoint:** all 22 static SVG files (11 RU/EN pairs), seven interactive visual systems across chapter pages and standalone tools, their learner-facing language/accessibility metadata, and the unintegrated Chapter 03 candidate. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification. The repository does not contain a historical search log proving that ready-made licensed sources were considered before these project SVGs were created; compliance with the search-first sequence for past assets remains PENDING.
 
 ## Audit method
 
