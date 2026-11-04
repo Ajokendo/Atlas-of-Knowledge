@@ -24,7 +24,8 @@ Use the canonical policy for status definitions, audit result values, evidence r
 | Category A — external original reuse | 0 | No external image-source records established |
 | Category B — adapted external reuse | 0 | No external adapted image-source records established |
 | Category C — project-created SVG pairs | 11 | Provenance method and rightsholder still need confirmation |
-| Search-first evidence | 0 / 15 documented searches | No historical search log exists; retrospective searches for all 15 visual records remain PENDING and must not be backdated |\n| Rights / licence checks | 0 PASS / 15 PENDING | File-specific creator/rightsholder and licence evidence is not recorded for the 11 SVG pairs or four interactive systems |
+| Search-first evidence | 0 / 15 documented searches | No historical search log exists; retrospective searches for all 15 visual records remain PENDING and must not be backdated |
+| Rights / licence checks | 0 PASS / 15 PENDING | File-specific creator/rightsholder and licence evidence is not recorded for the 11 SVG pairs or four interactive systems |
 | Scientific first-pass checks | 10 PASS / 1 PENDING | See detailed table; first-pass source-code review only |
 | RU/EN metadata presence | 11 PASS / 0 FAIL | Paired SVG files and localized title/description elements exist; this is not a complete translation-quality or manual accessibility review |
 | Technical source checks | 22 PASS for basic SVG metadata | CI checks viewBox, role, title, description and local asset paths; responsive/device review remains pending. Four interactive systems still need manual keyboard, zoom and screen-reader checks |
