@@ -2,11 +2,11 @@
 
 **Decision date:** 3 November 2026  
 **Branch:** `workspace/biology`  
-**Current disposition (4 November 2026):** **48 of 53 mapped briefs are produced or integrated (90.6%)**. This count includes original SVG schematics and locally stored photographs; some integrated assets still require focused browser visual QA. The other 6 briefs remain deferred. The percentage counts briefs, not individual image files.
+**Current disposition (4 November 2026):** **53 of 53 mapped briefs are produced or integrated (100%)**: 47 are labelled Produced and 6 are labelled Integrated in the per-asset table. **0 of 53 are deferred.** This count includes original SVG schematics and locally stored photographs; production status does not mean that every asset has passed focused browser visual QA. The percentage counts briefs, not individual image files.
 
 ## Common deferral rationale
 
-Several local-only visual concept drafts remain unapproved and are not counted as completed illustrations. Rejected or ambiguous drafts are documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. The produced set includes source-backed, locally packaged WebP photographs and original SVG schematics. Regional fauna schematics now include Naryn, Osh, Batken, Talas and a composite national habitat panorama; the Talas SVG uses Ministry camera-trap evidence from Besh-Tash and keeps aquatic fauna unlabelled where species identification is inconsistent. Other briefs retain their exact insertion markers until approved assets are integrated. No third-party image is accepted without a verified source and licence.
+Historical concept drafts and rejected alternatives are not counted as assets. The current 53-row register records an asset or integration for every mapped brief; rejected or ambiguous drafts remain documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md` and are not substitutes for the accepted assets. The produced set includes source-backed, locally packaged WebP photographs and original SVG schematics. Regional fauna schematics include Naryn, Osh, Batken, Talas and a composite national habitat panorama; the Talas SVG uses Ministry camera-trap evidence from Besh-Tash and keeps aquatic fauna unlabelled where species identification is inconsistent. Focused browser visual QA remains outstanding for entries explicitly marked pending. No third-party image is accepted without a verified source and licence.
 
 For every deferred item:
 
