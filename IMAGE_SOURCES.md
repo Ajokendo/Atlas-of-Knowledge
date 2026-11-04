@@ -24,6 +24,28 @@ For every inherited visual, record the English source location/identifier where 
 
 The implementation technology (SVG, canvas, JavaScript, WebGL, Three.js) describes how a visual is rendered; it does not establish who authored the underlying educational visual or whether it is inherited.
 
+
+## Verified upstream source for inherited interactive visuals
+
+- Original work: Nathan Liow, *Atlas of Physics*
+- Repository: https://github.com/nathanliow/atlas-of-physics
+- Upstream description and architecture: https://github.com/nathanliow/atlas-of-physics/blob/main/README.md
+- Licence: MIT License — https://github.com/nathanliow/atlas-of-physics/blob/main/LICENSE
+- Copyright notice required by the upstream licence: Copyright (c) 2026 Nathan Liow
+- Local integration record: `original-engine/README.md`
+
+The upstream README describes the interactive 3D textbook architecture and the original chapter modules. The local integration README explicitly identifies Nathan Liow's repository as the source and states that the original interactive laboratories are integrated while learner-facing text, interface, labels, and explanations are adapted into Russian.
+
+Initial file-level comparisons have confirmed this relationship for:
+- Energy: `original-engine/energy/pages.js` ↔ upstream `energy/pages.js`
+- Magnetism: `original-engine/magnetism/pages.js` ↔ upstream `magnetism/pages.js`
+- Induction: `original-engine/induction/pages.js` ↔ upstream `induction/pages.js`
+
+The Russian `pages.js` files translate chart/SVG labels, axis units, captions, and accessible names; the affected visual outputs are therefore Category B (adapted). The corresponding `world.js` and `model.js` files differ from upstream and require line-level review before final classification. This is a source-lineage note, not a count of distinct visuals.
+
+Retain the upstream copyright and MIT licence notice in distributed copies/substantial portions. The MIT grant covers the upstream software as licensed; any separately embedded third-party assets, if identified, require their own rights review.
+
+
 ## Asset record template
 
 Copy this block for each integrated asset:
