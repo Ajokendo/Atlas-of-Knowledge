@@ -97,7 +97,7 @@ async function runLesson(mobile) {
     await page.waitForFunction(() => document.querySelector('#r0')?.textContent.trim().length > 0);
     const equations = await page.locator('.equation').allInnerTexts();
     if (!equations.some(x => x.includes('|q|E') && x.includes('|q|vB'))) throw new Error('velocity-selector balance must compare force magnitudes');
-    if (equations.some(x => /(^|\\s)qE\\s*=/.test(x))) throw new Error('signed qE notation is invalid for the magnitude balance');
+    if (equations.some(x => x.includes('qE = |q|vB'))) throw new Error('signed qE notation is invalid for the magnitude balance');
     const before = await page.locator('#r0').innerText();
     await page.locator('#p1').evaluate((el, value) => { el.value = value; el.dispatchEvent(new Event('input', { bubbles: true })); }, '2000');
     await page.waitForFunction(v => document.querySelector('#r0')?.textContent !== v, before);
