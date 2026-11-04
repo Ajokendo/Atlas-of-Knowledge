@@ -331,3 +331,17 @@ This is a source-text structural/accessibility-metadata check, not standards-com
 
 
 The repository's `checks.mjs` now enforces the same repeatable SVG source checks for every file in `images/generated/`: bilingual title/description metadata, an SVG root, `viewBox`, closing tag, and absence of detected scripts, `foreignObject`, embedded raster images, and external/data URI references. This turns the corrected metadata condition into a continuing CI guard rather than a one-time audit observation.
+
+
+## Full responsive Chromium visual-asset and page-render validation — 5 November 2026
+
+GitHub Actions run [41905128510](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41905128510) completed successfully on commit `c0f31471ac1fbee556d214487dbd55b18256e60c`. The existing `browser-smoke.mjs` exercised all 13 Biology HTML pages at mobile (390×844) and desktop (1365×900) viewports.
+
+The successful run recorded:
+- 13/13 pages at both viewport widths, with no uncaught page errors.
+- 30 language-toggle interactions.
+- 19,373 sampled visible text instances for preliminary contrast; zero fell below the script's WCAG contrast thresholds. Background-image/gradient and translucent layered cases remain outside that sampler's scope.
+- Automated axe WCAG 2.0/2.1/2.2 A/AA checks, skip-link and landmark checks, bilingual state checks, interactive-model and keyboard activation checks, focus-indicator traversal, horizontal-overflow checks, and dynamic-output semantics.
+- Every page image was asked to decode; raster assets were checked for intrinsic dimensions and alt-attribute presence, and visible inline SVGs were checked for non-zero rendered geometry. No issue was reported.
+
+This is now evidence of successful responsive browser rendering, asset loading/decoding and automated accessibility checks. It is not a human pixel-level judgement of every illustration's biological morphology, scene composition, label collisions, crop or caption-to-image semantic match. The screenshot-artifact workflow is being added for a subsequent focused human visual pass. Global Image Verification therefore remains **Pending audit** until that per-asset review is recorded.
