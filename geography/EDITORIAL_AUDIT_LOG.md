@@ -1868,3 +1868,40 @@ Continued the separate source/evidence workstream with a targeted pass over Chap
   - Commit: `06bc62dceb298435ad1b683a1b787403d124b43a`.
 
 **Milestone:** initial targeted source/evidence pass covers Chapters 01–10 (10/26, approximately 40%). This is not an exhaustive sentence-by-sentence citation audit. Next block: Chapters 11–15.
+
+
+## Chapter 02 — bilingual visual closure and final static pass — 4 November 2026
+
+**Scope:** Completed the missing visual integrations and made the Russian and English teaching sections consistent. Work remained confined to `workspace/geography`.
+
+### Changes saved
+
+- Replaced the unfinished 2.10-A and 2.10-B visual markers with original bilingual SVG diagrams for the global carbon cycle and the nitrogen/phosphorus cycles.
+- Refined the nitrogen-cycle diagram to show microbial nitrogen fixation, ammonium production, nitrification, plant assimilation, ammonification and denitrification without implying that plants directly absorb atmospheric N₂.
+- Refined the phosphorus-cycle diagram to show weathering, soil phosphate, plant uptake, runoff/erosion, decomposition, sedimentation and geological uplift; explicitly notes the absence of a major gaseous phase.
+- Created and integrated 2.15-A, a bilingual summary diagram of the integrated Earth system, including the atmosphere, hydrosphere, lithosphere, biosphere, cryosphere, matter cycles, energy flows and human influence.
+- Added the illustrations and bilingual captions to the English-language chapter text as well as the Russian text. All 19 Chapter 02 visual IDs are now illustrated in both language versions.
+- Removed the superseded remote carbon-, nitrogen- and phosphorus-cycle images from the chapter. The diagrams are now stored in the Geography branch rather than relying on external image delivery for those teaching visuals.
+- Updated the chapter status, visual asset register, readiness matrix and Geography README. The Geography visual register now contains 218 unique IDs across 26 chapters.
+
+### Static verification
+
+- 40 Markdown image embeds represent 20 unique image assets: six external images and 14 original bilingual SVG files.
+- All 40 image embeds have non-empty bilingual alt text.
+- All 14 unique local SVG files were fetched from the branch and checked for an SVG root, `title`, `desc` and `role="img"` metadata.
+- No remaining Chapter 02 image placeholders, TODO/FIXME/TBD markers or obsolete KGEO-01 placeholder remain.
+- The PIK Planetary Health Check 2026 source supports the chapter's statement that seven of nine planetary boundaries are transgressed and that pressure is increasing across all seven (DOI 10.48485/pik.2026.25).
+- Figure 10 used for 2.13-A remains attributed to Theobald et al. (2025), DOI 10.1038/s41597-025-04892-2, with CC BY 4.0 terms and a no-changes statement.
+
+### Remaining limits and readiness
+
+- **Working readiness estimate: 90%.** This is not final scientific acceptance or publication approval.
+- Remaining work: sentence-by-sentence scientific and bilingual copy-edit, a final dated-value/source check, and live rendering, responsive, keyboard and screen-reader tests.
+- The repository's GitHub Pages workflow deploys only on pushes to `main` or manual workflow dispatch. This work is deliberately restricted to `workspace/geography`; no change was made to `main`, and the branch's new visuals have therefore not been verified on a deployed site. No live browser/device or assistive-technology test is claimed.
+
+### Saved commits
+
+- Chapter 02 and bilingual image embeds: `e2d2d3060508aabe12ba0ee30f3dd91bbc92683b`.
+- Readiness matrix: `0bee0db9c487683aaeb40c4ce4632f30f3483d75`.
+- Visual asset register: `424bb515c4454fb7b04cfe435e1bb2f17ba549c3`.
+- Geography README: `c0c46e106b04db55bb736fd7bed49a778e17a28d`.
