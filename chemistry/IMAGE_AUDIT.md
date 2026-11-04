@@ -54,7 +54,7 @@ This checkpoint supersedes the earlier provisional 11/11 static-only coverage fi
 | Rights on integrated records | 0 PASS / 18 PENDING / 0 FAIL | All 18 integrated records remain unverified. Candidate source rights are tracked separately and do not count as integrated assets. |
 | Scientific/factual review | 13 PASS / 5 PENDING / 0 FAIL | First-pass review: 10 static PASS and three supplemental interactive systems PASS; CH-V01 and four earlier interactive systems remain PENDING for documented expert/manual review. |
 | Language and accessibility | 11 static pairs have bilingual metadata; 7 interactive systems have localized names or text alternatives; all manual AT reviews PENDING | Metadata and accessible names are not a substitute for translation-quality, keyboard, screen-reader and device sign-off. |
-| Technical evidence | 22 / 22 static SVG files pass recorded basic metadata checks; 7 interactive systems inventoried | Current-branch CI is being rerun after source and accessibility updates. Responsive, keyboard and screen-reader manual checks remain pending. |
+| Technical evidence | 22 / 22 static SVG files pass metadata checks; 7 interactive systems inventoried; current branch-head CI PASS | Commit 7a4d60c passed 22 HTML / 90 local link-asset / 21 inline-script checks, plus 21 Chromium pages, 42 RU/EN axe scans, 21 language toggles and overflow checks at 390/768/1280 px. Manual assistive-technology and device checks remain pending. |
 | Retrospective search evidence | 19 / 19 records have dated search notes | The 18 integrated records plus the Chapter 03 candidate. This does not prove the original pre-creation search-first sequence. |
 | Search candidates | 10 FOUND / 19 searched | Earlier candidates plus PhET Molecule Shapes, Gas Properties and Acid-Base Solutions/pH Scale resources. None has been adopted; exact reuse terms and pedagogical fit are recorded in IMAGE_SOURCES.md. |
 
@@ -261,3 +261,10 @@ PhET alternatives were located for molecule geometry, gas properties and acid/ba
 ## 2026-11-05 follow-up: periodic-table visible-label accessibility
 
 Chromium/axe identified a serious label-content-name-mismatch on all 118 periodic-table element buttons in both languages. The buttons had an aria-label override that did not satisfy axe's visible-label-in-accessible-name check. Removed the redundant aria-label from the element buttons so the visible atomic number, chemical symbol, localized element name and mass provide the computed accessible name directly. The selected state remains exposed through aria-pressed, and selection updates in place to preserve keyboard focus. Static source validation passes after the correction; the updated Chromium/axe run is pending. Manual screen-reader testing remains outstanding.
+## 2026-11-05 follow-up: current branch-head automated validation PASS
+
+GitHub Actions run 41911003011 passed on branch workspace/chemistry at commit 7a4d60cca9407e059be913cd390e4ea89ced8c41. Static validation checked 22 HTML pages, 90 local links/assets, 21 inline scripts and 18 bilingual pages. Chromium smoke checks loaded all 21 configured pages, ran 42 axe-core WCAG 2.1 A/AA audits in Russian and English, toggled language on 21 pages, exercised key interactive workflows, and found no uncaught page errors. Responsive overflow checks at 390, 768 and 1280 CSS px passed.
+
+This CI PASS includes the periodic-table accessible-name correction: element buttons now use their visible atomic number, symbol, localized name and mass as the computed accessible name rather than overriding it with aria-label. It also includes the bilingual accessible names added to the gas-laws particle visual and acid–base beaker.
+
+Automated CI does not close the remaining manual screen-reader/device/zoom checks, independent scientific review, creator/rightsholder confirmation or licence verification. Therefore the whole-atlas Image Verification metric remains 0/18 despite the technical CI PASS.
