@@ -43,5 +43,32 @@ async function run(mobile) {
   } catch(e) { failures.push(`${mobile?'mobile':'desktop'}: ${e.message}`); console.error(`FAIL induction ${mobile?'mobile':'desktop'}: ${e.message}`); }
   finally { await context.close(); }
 }
-await run(false); await run(true); await browser.close();
+
+async function runDynamic(mobile) {
+  const context = await browser.newContext({
+    viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 },
+    deviceScaleFactor: mobile ? 2 : 1, isMobile: mobile, hasTouch: mobile,
+    reducedMotion: 'no-preference'
+  });
+  const page = await context.newPage(); page.setDefaultTimeout(15000);
+  try {
+    const response = await page.goto(`${base}/original-engine/induction/`, { waitUntil: 'domcontentloaded' });
+    if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
+    await page.waitForSelector('#sheet h1');
+    await page.waitForFunction(() => document.querySelector('#gl')?.width > 100);
+    
+    await page.waitForTimeout(350);
+    const before = await page.locator('#readout').innerText();
+    const cursorBefore = await page.locator('circle[data-cursor="phi0"]').first().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
+    await page.waitForTimeout(1200);
+    const after = await page.locator('#readout').innerText();
+    const cursorAfter = await page.locator('circle[data-cursor="phi0"]').first().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
+    if (before === after) throw new Error('animated readout did not change with time');
+    if (cursorBefore.join(',') === cursorAfter.join(',')) throw new Error('live graph cursor did not move with time');
+    console.log(`PASS induction flux dynamic ${mobile?'mobile':'desktop'} — readout and graph cursor update`);
+  } catch(e) { failures.push(`dynamic ${mobile?'mobile':'desktop'}: ${e.message}`); console.error(`FAIL induction flux dynamic ${mobile?'mobile':'desktop'}: ${e.message}`); }
+  finally { await context.close(); }
+}
+
+await run(false); await run(true); await runDynamic(false); await runDynamic(true); await browser.close();
 if (failures.length) process.exit(1);
