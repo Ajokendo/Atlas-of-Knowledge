@@ -566,15 +566,14 @@ Data about small groups may make individuals indirectly identifiable. Detailed s
 ## Источники и дальнейшее чтение / Selected References
 
 1. United Nations Department of Economic and Social Affairs, Population Division. **World Population Prospects 2024** — official estimates from 1950 and projections to 2100 for 237 countries and areas; use the named dataset, table and projection scenario. https://population.un.org/wpp/
-1a. United Nations Department of Economic and Social Affairs, Population Division. **World Population Prospects 2024: Methodology Report** — methods and assumptions underlying the estimates and projections. https://www.un.org/development/desa/pd/content/world-population-prospects-2024-methodology-report
 2. United Nations Department of Economic and Social Affairs, Population Division. **World Population Prospects 2024: Methodology Report** — methods and assumptions underlying the estimates and projections. https://www.un.org/development/desa/pd/content/world-population-prospects-2024-methodology-report
-2. United Nations Department of Economic and Social Affairs, Population Division. **World Urbanization Prospects 2025** — urban, town and rural population estimates and projections; includes the Degree of Urbanization approach and national definitions. https://www.un.org/development/desa/pd/world-urbanization-prospects-2025
-3. United Nations Statistics Division. **Principles and Recommendations for Population and Housing Censuses, Revision 3** (2017); see also **Revision 4** (2025, English unedited and not-typeset edition), adopted by the UN Statistical Commission at its 56th session in 2025 and recommended as the international standard for the 2030 census round. https://unstats.un.org/unsd/demographic-social/census/
-4. United Nations Statistics Division. **Demographic and Social Statistics: Standards and Methods** — census, vital statistics, migration and demographic definitions. https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/
-5. International Organization for Migration. **World Migration Report 2024** — global migration data, concepts and policy context. https://worldmigrationreport.iom.int/
-6. UN-Habitat. **World Cities Report 2024: Cities and Climate Action** — urbanisation, city systems, vulnerability and urban development. https://unhabitat.org/world-cities-report-2024-cities-and-climate-action
-7. World Bank. **World Development Indicators: Population** — population size, growth and urban indicators; check metadata and source definitions for each series. https://data.worldbank.org/indicator/SP.POP.TOTL
-8. United Nations Development Programme. **Human Development Data Center** — HDI methodology and country-level indicators. https://hdr.undp.org/data-center
+3. United Nations Department of Economic and Social Affairs, Population Division. **World Urbanization Prospects 2025** — urban, town and rural population estimates and projections; includes the Degree of Urbanization approach and national definitions. https://www.un.org/development/desa/pd/world-urbanization-prospects-2025
+4. United Nations Statistics Division. **Principles and Recommendations for Population and Housing Censuses, Revision 3** (2017); see also **Revision 4** (2025, English unedited and not-typeset edition), adopted by the UN Statistical Commission at its 56th session in 2025 and recommended as the international standard for the 2030 census round. https://unstats.un.org/unsd/demographic-social/census/
+5. United Nations Statistics Division. **Demographic and Social Statistics: Standards and Methods** — census, vital statistics, migration and demographic definitions. https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/
+6. International Organization for Migration. **World Migration Report 2024** — global migration data, concepts and policy context. https://worldmigrationreport.iom.int/
+7. UN-Habitat. **World Cities Report 2024: Cities and Climate Action** — urbanisation, city systems, vulnerability and urban development. https://unhabitat.org/world-cities-report-2024-cities-and-climate-action
+8. World Bank. **World Development Indicators: Population** — population size, growth and urban indicators; check metadata and source definitions for each series. https://data.worldbank.org/indicator/SP.POP.TOTL
+9. United Nations Development Programme. **Human Development Data Center** — HDI methodology and country-level indicators. https://hdr.undp.org/data-center
 
 ## Научные редакционные примечания / Scientific editorial notes
 
