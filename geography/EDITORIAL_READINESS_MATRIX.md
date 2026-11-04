@@ -252,3 +252,8 @@ A further targeted correction pass was committed across all five chapters: catch
 - Review-question counts match in both languages: 06 (16/16), 07 (15/15), 08 (15/15), 09 (15/15), 10 (14/14).
 - Practical activity inventories match: 06 (1/1), 07 (4/4), 08 (4/4), 09 (5/5), 10 (5/5).
 - This verifies heading, question and activity inventory; it is not a claim that every sentence has passed semantic translation proofreading.
+
+
+### Chapter 10 — ICJ Statute source-access issue resolved — 5 November 2026
+
+- Replaced the ICJ-hosted Statute URL, which returned HTTP 403, with the official UN full-text Statute page. The new source is part of the UN Charter resource set and provides the complete annexed Statute. Commit: `5f43b92078b7b9f7351dc95b293009e378889555`.
