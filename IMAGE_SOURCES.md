@@ -115,13 +115,13 @@ Record a requirement here before starting a search. Move it to the integrated-as
 | 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | The geometry and cross-product direction must be unambiguous; placeholder does not count as an integrated visual | Search for a reusable diagram or prepare a precise bilingual schematic; verify `B`, `v`, rod orientation, force and current directions |
 | 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | Several related concepts must be represented without conflating the RL transient with LC oscillations | Search for suitable separate diagrams/plots or prepare a bilingual composite; validate curves and initial conditions |
 
-## Interactive 3D scene inventory — Chapters 03, 05, 11–15
+## Interactive-book page-scene index — Chapters 03, 05, 11–15
 
-This is a scene-level source-lineage index for the interactive-book scenes. It is not a claim that the scenes have passed manual visual review, item-level rights review, or final accessibility verification. Each scene is inherited from the upstream module and has Russian-localised in-scene names/labels; classify the affected rendered scene output as **B — Adapted**. The 3D geometry and executable scene construction were retained in the compared sections.
+This is a **page-level index**, not yet the final asset-level visual register. Each row records a `scene` descriptor in `pages.js`; a page descriptor does not always map one-to-one to an underlying `asm()` group in `world.js` (some pages combine multiple assemblies or use a different assembly key). The source comparison indicates inherited scene code with Russian-localised in-scene names/labels; affected rendered labels are Category B. Before treating an entry as a distinct visual asset, map it to the actual assembly group(s), then complete individual captions/alt text, rights, and manual review.
 
-| Visual ID | Chapter / page | Scene key | Local source | Upstream source | Status |
+| Page index ID | Chapter / page | `pages.js` scene descriptor | Local source | Upstream source | Status |
 |---|---|---|---|---|---|
-| PHY-03-3D-01 | 03 — 3 — Движение по окружности | `whirl` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-01 | 03 — 3 — Движение по окружности | `whirl` | `original-engine/circular/world.js` | `circular/world.js` | PAGE INDEXED / asset-level mapping pending |
 | PHY-03-3D-02 | 3.1 — Центростремительная сила | `double` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
 | PHY-03-3D-03 | 3.2 — Автомобиль на повороте | `flatcar` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
 | PHY-03-3D-04 | 3.3 — Конический маятник | `cone` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
@@ -193,7 +193,7 @@ This is a scene-level source-lineage index for the interactive-book scenes. It i
 | PHY-15-3D-09 | 15.8 — RL circuits | `rl` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
 | PHY-15-3D-10 | 15.9 — LC oscillations | `lc` | `original-engine/induction/world.js` | `induction/world.js` | INTEGRATED / visual review pending |
 
-**Review still required for all 71 indexed entries:** confirm rendered geometry at desktop/mobile sizes, inspect scene labels and their contrast, verify the canvas/scene accessible name and keyboard picker announcement, add complete RU/EN descriptions where needed, and retain asset-level rights evidence for any embedded non-code components. The scene index does not include the four missing static infographic requirements listed above.
+**Review still required for all 71 page-index entries:** map each descriptor to the actual `asm()` group(s) in `world.js`; split any page that contains multiple distinct assemblies; then assign final asset IDs, confirm geometry at desktop/mobile sizes, inspect label contrast and accessible names, add complete RU/EN descriptions, and retain item-level rights evidence. This page index does not count as final Image Coverage and does not include the four missing static infographic requirements listed above.
 
 ## Integrated assets
 
