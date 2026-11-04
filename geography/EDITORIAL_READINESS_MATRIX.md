@@ -340,3 +340,8 @@ A further targeted correction pass was committed across all five chapters: catch
 
 
 - Bilingual QA after the H-horizon addition caught and corrected a duplicated English symbol and aligned the classification caveat. The RU/EN lists now match and explicitly distinguish master horizon/layer designations from WRB diagnostic criteria. Commits: `616affb021a9729a8355d51048a622348f3547f8`, `6727ea73c466ab38ed0b9b192c67cfee6ae856c3`.
+
+
+### Chapter 07 — GBF Target 3 geographic scope — 5 November 2026
+
+- Added the distinction that Target 3's 30% objective is global, not an automatic quota for 30% of every country's territory. RU/EN wording also retains the distinction between effective conservation and strict protection. Commit: `44e95d29e79d5b8731c94ffd4a568c92e593b66a`.
