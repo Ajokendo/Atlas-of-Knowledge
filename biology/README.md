@@ -1341,3 +1341,12 @@ The Osh flora figure is integrated at the original anchor in `chapters/flora-kyr
 Full Biology CI passed after the Naryn assets and audit updates in [run 41611232412](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611232412): 13 HTML pages, 102 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions; browser smoke passed for all 13 pages at mobile and desktop widths, 30 language toggles and no uncaught page errors. Contrast sampling covered 21,533 text instances with zero below threshold, and keyboard Tab-sequence focus indicators were checked. A new full CI run is required after the Osh image and register commits.
 
 Controlled editorial readiness remains 95/100. Offline caching is not implemented or verified.
+
+
+## Full Biology CI confirmation — 4 November 2026
+
+The complete Biology workflow passed on commit `afbe0bd2c9afecdac162fa78f0cbf5102bbf893d`: [run 41774678633](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41774678633). Static validation covered 13 HTML pages, 121 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Chromium smoke tests passed on all 13 pages at mobile and desktop widths; 30 language-toggle interactions passed; no uncaught page errors were reported. Preliminary contrast sampling covered 20,701 text instances with zero below-threshold instances, and keyboard Tab-sequence focus indicators were checked.
+
+The current `IMAGE_DISPOSITION_REGISTER.md` contains 52 mapped briefs: 20 are marked produced or integrated (**38.5%**), and 32 remain deferred. This is the authoritative brief-level count; individual briefs may contain multiple photographs or SVGs. The older 16/52 figure in the preceding image-map summary is superseded by this register count. The 52-row register is the source of truth where older narrative checkpoints or the abbreviated checkbox list in `IMAGE_GENERATION_PLAN.md` differ.
+
+The Biochemistry responsive-image fix is included in the tested commit. Full physical-device, screen-reader and offline-cache testing remains pending; successful CI does not claim those manual checks are complete. Controlled editorial readiness remains 95/100 and is reported separately from visual production.
