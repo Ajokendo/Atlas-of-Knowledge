@@ -133,7 +133,7 @@ export const PAGES = [
       <div class="eq"><i>B</i> = μ<sub>0</sub><i>IR</i>² / 2(<i>R</i>² + <i>z</i>²)<sup>3/2</sup></div>
       <p>В центре кольца μ<sub>0</sub><i>I</i>/2<i>R</i> = ${uT(M.RING.Bc)} мкТл. На большом расстоянии поле равно μ<sub>0</sub><i>IR</i>²/2<i>z</i>³ и убывает как 1/<i>z</i>³, как поле диполя.</p>
       <div class="charts">${chart({ ...R.ring, xlabel: 'координата z вдоль оси (см)', ylabel: 'B (мкТл)', cursor: 'ring', label: 'Магнитное поле вдоль оси кольцевого витка',
-        series: [{ cls: 'trend', pts: curve(z => M.ringFar(z / 100) * 1e6, 12, 36), tag: [24, 13, 'μ₀IR²/2z³'] }, { pts: curve(z => M.ringAxis(z / 100) * 1e6, 0, 36) }] })}</div>
+        series: [{ pts: curve(z => M.ringAxis(z / 100) * 1e6, 0, 36) }] })}</div>
       <p class="hintline">Нажмите на виток, чтобы увидеть ${M.RING.pieces} элементов d<b>l</b> и создаваемые ими d<b>B</b> (стрелки увеличены в 5 раз). Масштаб <b>B</b>: 1 клетка на 20 мкТл.</p>`,
     cam: { target: [STATIONS.ring + 1.0, 2.5, 0], az: -38, el: 14, dist: 22 }, lit: 'ring', scene: 'ring', look: {},
     fig: `R = ${f(M.RING.R * 100, 0)} см, I = ${f(M.RING.I, 0)} А`,
