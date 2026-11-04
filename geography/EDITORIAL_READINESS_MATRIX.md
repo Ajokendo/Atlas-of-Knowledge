@@ -56,6 +56,12 @@
 | 25 | Cities, Economy, Transport and Natural Resources of Kyrgyzstan | 12 | **71%** — основной RU/EN текст и учебный аппарат готовы; статус инфраструктурных проектов требует проверки; 0/12 визуалов интегрировано | GDP, road transport, energy import planning and mining indicators checked | Verify operational status of each infrastructure project |
 | 26 | Environmental Challenges and Future of Kyrgyzstan | 12 | **71%** — основной RU/EN текст и учебный аппарат готовы; требуется сверка станционных данных по воздуху и инвентаризации ледников; 0/12 визуалов интегрировано | NDC 3.0, Climate Law, water, wastewater, forests, pastures and waste figures checked; visual IDs normalised | Air-quality station data and glacier-inventory reconciliation |
 
+## Chapters 06–10 — focused follow-up — 5 November 2026
+
+A focused scientific/editorial correction pass was saved across Chapters 06–10: Chapter 06 now distinguishes dimensionless Practical Salinity (PSS-78) from Absolute Salinity (g/kg) under TEOS-10; Chapter 07 explains the limits of IUCN Red List categories and the meaning of Data Deficient / Not Evaluated; Chapter 08 identifies the 2026 FAO global soil assessment and its Europe/Central Asia regional chapter; Chapter 09 requires WPP table/scenario/extraction-date metadata and distinguishes international from national urban definitions; Chapter 10 expands the UNCLOS EEZ explanation to distinguish coastal-state sovereign rights/jurisdiction from other states' retained freedoms. The source-by-source findings are in `SOURCE_EVIDENCE_CLOSURE_REGISTER.md`.
+
+**Progress remains 73% for each of Chapters 06–10.** This pass improves specific scientific claims and bibliography traceability but does not close the full editorial scope: planned visual assets remain unintegrated, complete claim-to-source mapping and final RU/EN proofreading remain open. No browser/device/deployment QA is claimed.
+
 ## Priority queue
 
 1. Continue source-by-source review of Chapters 01–16, including dated data and bibliographic relevance. Initial targeted evidence pass completed for Chapters 01–10; see `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md` (2 Nov 2026).
