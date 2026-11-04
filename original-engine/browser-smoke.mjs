@@ -391,7 +391,7 @@ async function checkMomentumChapterPage() {
         if (!(await next.count())) throw new Error('mobile page-turn control is missing');
         await next.click();
       } else {
-        await page.locator('#dots button').nth(1).click();
+        await page.locator('#dots button').nth(1).evaluate(button => button.click());
       }
       await page.waitForFunction(old => document.querySelector('#sheet h1')?.textContent?.trim() !== old, before, { timeout: 15000 });
       // Let the scroll cue's 600 ms fade finish before checking its final accessible state.
