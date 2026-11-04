@@ -578,6 +578,22 @@ for (const [relative, minimum] of [["chapters/atomic-structure.html", 2], ["chap
   const count = (page.match(/<svg\b/gi) || []).length;
   if (count < minimum) errors.push(relative + ": expected at least " + minimum + " inline SVG visual models; found " + count);
 }
+const moleculeLabPage = fs.readFileSync(path.join(root, "molecule-lab.html"), "utf8");
+for (const [key, ru, en] of [
+  ["waterOption", "H₂O · Вода", "H₂O · Water"],
+  ["co2Option", "CO₂ · Углекислый газ", "CO₂ · Carbon dioxide"],
+  ["methaneOption", "CH₄ · Метан", "CH₄ · Methane"],
+  ["ammoniaOption", "NH₃ · Аммиак", "NH₃ · Ammonia"]
+]) {
+  if (!moleculeLabPage.includes(key + ':"' + ru + '"') || !moleculeLabPage.includes(key + ':"' + en + '"') ||
+      !moleculeLabPage.includes('data-i="' + key + '"')) {
+    errors.push("molecule-lab.html: molecule selector option must switch RU/EN: " + key);
+  }
+}
+if (!moleculeLabPage.includes('setAttribute("aria-label",t.workspaceLabel)')) {
+  errors.push("molecule-lab.html: molecular workspace accessible name must switch RU/EN");
+}
+
 const bondingPage = fs.readFileSync(path.join(root, "chapters/chemical-bonding.html"), "utf8");
 if (!bondingPage.includes('<div class="detail" aria-live="polite" aria-atomic="true">') ||
     !bondingPage.includes('diagram.setAttribute("role","img")') ||
