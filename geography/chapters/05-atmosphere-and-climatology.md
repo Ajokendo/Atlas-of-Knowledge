@@ -34,7 +34,9 @@
 - способствует сгоранию многих небольших метеороидов;
 - поддерживает естественный парниковый эффект.
 
-**Место для иллюстрации 5.1-A — Composition of Dry Air.** Круговая или горизонтальная диаграмма состава сухого воздуха с отдельно вынесенными малыми компонентами, чтобы они оставались читаемыми.
+![Состав сухого воздуха / Composition of dry air](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-dry-air-composition.svg)
+
+*Оригинальная двуязычная схема Atlas of Knowledge. Объёмные доли основных компонентов сухого воздуха приблизительны; малые компоненты вынесены отдельно и не показаны в масштабе. CO₂ — предварительное среднегодовое значение NOAA за 2025 год по морским поверхностным станциям (425,62 ppm). Значения округлены. / Original bilingual Atlas of Knowledge diagram. Volume fractions of the main components of dry air are approximate; minor components are shown separately and not to scale. CO₂ is NOAA's preliminary 2025 annual marine-surface mean (425.62 ppm). Values are rounded.* [Данные NOAA / NOAA data](https://gml.noaa.gov/ccgg/trends/gl_data.html).
 
 ## 5.2. Вертикальное строение атмосферы / Vertical Structure of the Atmosphere
 
@@ -113,7 +115,9 @@
 
 **Температурная инверсия** — состояние, при котором температура с высотой повышается в некотором слое. Инверсии могут способствовать накоплению загрязняющих веществ у поверхности.
 
-**Место для иллюстрации 5.4-A — Global Temperature Patterns.** Карта среднегодовой температуры с изотермами, легендой, периодом климатических норм и указанием источника данных.
+![Средняя температура за 1991–2020 годы по данным ERA5 / Mean temperature, 1991–2020, ERA5](https://commons.wikimedia.org/wiki/Special:FilePath/ERA5_global_mean_temperature.png)
+
+*Пространственное распределение средней температуры за 30-летний период 1991–2020 по данным реанализа ERA5. Это климатическая характеристика периода, а не карта температурных аномалий и не прогноз. Автор изображения: S. Berghald; источник данных: ERA5 monthly averaged data, Copernicus Climate Data Store. Лицензия изображения CC BY-SA 4.0. / Spatial distribution of mean temperature for the 30-year period 1991–2020 based on ERA5 reanalysis. This is a climatological field, not an anomaly map or forecast. Image author: S. Berghald; data source: ERA5 monthly averaged data, Copernicus Climate Data Store. Image licence: CC BY-SA 4.0.* [Файл и лицензия / File and licence](https://commons.wikimedia.org/wiki/File:ERA5_global_mean_temperature.png).
 
 ## 5.5. Атмосферное давление и ветер / Atmospheric Pressure and Wind
 
@@ -207,7 +211,9 @@
 
 При подъёме влажного воздуха по наветренному склону он охлаждается, что может усиливать облакообразование и осадки. На подветренной стороне часто формируется более сухая область — дождевая тень. Реальный эффект зависит от направления ветра, устойчивости атмосферы, высоты хребта и влажности воздушной массы.
 
-**Место для иллюстрации 5.7-A — Water Vapour, Clouds and Precipitation.** Схема подъёма воздуха, охлаждения, конденсации, выпадения осадков и образования дождевой тени за горным хребтом.
+![Круговорот воды в природе / The hydrologic cycle](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e)
+
+*Схема круговорота воды: испарение, транспирация, конденсация, осадки, снеготаяние и поверхностный сток. NOAA JetStream. Это базовая учебная схема: она не показывает все резервуары и потоки воды, например подземный водообмен. / Diagram of the water cycle: evaporation, transpiration, condensation, precipitation, snowmelt and surface runoff. NOAA JetStream. This is a basic educational schematic; it does not show every water reservoir and flow, such as groundwater exchange.* [Источник / Source](https://www.noaa.gov/jetstream/atmosphere/hydro).
 
 ## 5.8. Воздушные массы и атмосферные фронты / Air Masses and Fronts
 
@@ -273,7 +279,9 @@
 
 Помимо Кёппена — Гейгера применяются генетические классификации, классификации по водному балансу, биоклиматические схемы и региональные системы. Для прикладных задач выбирают метод, соответствующий цели исследования.
 
-**Место для иллюстрации 5.11-A — World Climate Zones.** Карта климатических классов с легендой и указанным периодом исходных данных; не смешивать классификационные версии.
+![Климатическая классификация Кёппена — Гейгера, 1991–2020 / Köppen–Geiger climate classification, 1991–2020](https://commons.wikimedia.org/wiki/Special:FilePath/WorldKoppen.png)
+
+*Карта климатических классов Кёппена — Гейгера с пространственным разрешением 1 км; период исходных климатических данных — 1991–2020. Карта показывает типы климата, а не широтные климатические пояса. Автор: Nothda; лицензия CC0 1.0. / Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Author: Nothda; licence: CC0 1.0.* [Файл и лицензия / File and licence](https://commons.wikimedia.org/wiki/File:WorldKoppen.png).
 
 ## 5.12. Климатические пояса и региональные различия / Climate Belts and Regional Patterns
 
@@ -559,6 +567,10 @@ Dry air near Earth's surface consists mainly of nitrogen and oxygen. Its approxi
 
 The atmosphere supplies oxygen for the respiration of most organisms and carbon dioxide for photosynthesis; transports heat and moisture; forms clouds and precipitation; reduces some ultraviolet radiation through the ozone layer; causes many small meteoroids to burn up; and supports the natural greenhouse effect.
 
+![Composition of dry air / Состав сухого воздуха](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-dry-air-composition.svg)
+
+*Original bilingual Atlas of Knowledge diagram. Volume fractions of the main components of dry air are approximate; minor components are shown separately and not to scale. CO₂ is NOAA's preliminary 2025 annual marine-surface mean (425.62 ppm). Values are rounded.* [NOAA data](https://gml.noaa.gov/ccgg/trends/gl_data.html).
+
 ### 5.2. Vertical Structure of the Atmosphere
 
 The atmosphere is divided into layers according to how temperature changes with altitude. Layer boundaries are not fixed: their heights vary with latitude, season and atmospheric conditions.
@@ -598,6 +610,10 @@ The **daily temperature cycle** is linked to Earth's rotation and changing solar
 In the troposphere, temperature generally decreases with altitude, but the actual rate varies. The often-quoted mean value of about 6.5°C per kilometre is a standard average lapse rate in a particular atmospheric model, not a universal rule for every slope or day.
 
 A **temperature inversion** occurs when temperature increases with height through a layer. Inversions can contribute to the accumulation of pollutants near the surface.
+
+![Mean temperature, 1991–2020, ERA5](https://commons.wikimedia.org/wiki/Special:FilePath/ERA5_global_mean_temperature.png)
+
+*Spatial distribution of mean temperature for the 30-year period 1991–2020 based on ERA5 reanalysis. This is a climatological field, not an anomaly map or forecast. Image author: S. Berghald; data source: ERA5 monthly averaged data, Copernicus Climate Data Store. Image licence: CC BY-SA 4.0.* [File and licence](https://commons.wikimedia.org/wiki/File:ERA5_global_mean_temperature.png).
 
 ### 5.5. Atmospheric Pressure and Wind
 
@@ -652,6 +668,10 @@ Precipitation includes rain, drizzle, snow, sleet, freezing rain and hail. The t
 
 **Orographic precipitation** occurs when moist air is forced to rise over mountains. Rising air cools and may produce clouds and precipitation on windward slopes. Leeward slopes may be drier because of the rain-shadow effect, although the pattern depends on wind direction, moisture supply and local relief.
 
+![The hydrologic cycle / Круговорот воды в природе](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e)
+
+*Diagram of the water cycle: evaporation, transpiration, condensation, precipitation, snowmelt and surface runoff. NOAA JetStream. This is a basic educational schematic; it does not show every water reservoir and flow, such as groundwater exchange.* [Source](https://www.noaa.gov/jetstream/atmosphere/hydro).
+
 ### 5.8. Air Masses and Fronts
 
 An **air mass** is a large body of air with relatively uniform temperature and humidity characteristics, formed over a particular source region.
@@ -688,6 +708,10 @@ No single factor acts in isolation. The climate of a coast, for example, depends
 ### 5.11. Climate Classification and Climate Types
 
 Climate classifications organise climate conditions according to temperature, precipitation, seasonality and other indicators.
+
+![Köppen–Geiger climate classification, 1991–2020](https://commons.wikimedia.org/wiki/Special:FilePath/WorldKoppen.png)
+
+*Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Author: Nothda; licence: CC0 1.0.* [File and licence](https://commons.wikimedia.org/wiki/File:WorldKoppen.png).
 
 The widely used **Köppen–Geiger classification** identifies five major letter groups:
 - A — tropical;
