@@ -413,7 +413,7 @@
 
 Климатические модели отличаются от краткосрочных прогнозов: они исследуют статистические характеристики системы и её реакцию на сценарии внешнего воздействия, а не пытаются предсказать точную погоду на конкретный день через десятилетия.
 
-**Место для иллюстрации 5.16-A — From Weather Observation to Forecast.** Цепочка наблюдений, ассимиляции данных, численного моделирования, проверки прогноза и выпуска предупреждений.
+![От метеорологических наблюдений к прогнозу погоды / From weather observations to a forecast](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-observations-to-forecast.svg)
 
 ## 5.16.1. Практический пример: анализ годового хода температуры и осадков / Worked Example: Analysing Annual Temperature and Precipitation
 
@@ -959,7 +959,11 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 8. World Meteorological Organization. *WMO Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017). https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals
 9. World Meteorological Organization. **WMO Climatological Normals** — definition of standard 30-year periods and the current 1991–2020 collection. https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals
 10. World Meteorological Organization. **Provisional 2026 Edition of the Guide to Instruments and Methods of Observation (WMO-No. 8)** (5 October 2026). This is a provisional edition submitted for approval at INFCOM-4, scheduled for 23–27 November 2026; do not cite it as an already approved standard. https://wmo.int/media/news/provisional-2026-edition-of-guide-instruments-and-methods-of-observation-wmo-no-8
-11. Intergovernmental Panel on Climate Change (IPCC). *Climate Change 2023: Synthesis Report — Summary for Policymakers*. https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/\n12. European Centre for Medium-Range Weather Forecasts (ECMWF). *Data Assimilation*. https://www.ecmwf.int/en/research/data-assimilation\n13. ECMWF. *Modelling and Prediction*. https://www.ecmwf.int/en/research/modelling-and-prediction\n14. World Meteorological Organization (WMO). *Global Observing System*. https://wmo.int/activities/global-observing-system-gos/global-observing-system-gos\n15. WMO. *WMO Integrated Processing and Prediction System (WIPPS)*. https://public.wmo.int/activities/wmo-integrated-processing-and-prediction-system-wipps
+11. Intergovernmental Panel on Climate Change (IPCC). *Climate Change 2023: Synthesis Report — Summary for Policymakers*. https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/
+12. European Centre for Medium-Range Weather Forecasts (ECMWF). *Data Assimilation*. https://www.ecmwf.int/en/research/data-assimilation
+13. ECMWF. *Modelling and Prediction*. https://www.ecmwf.int/en/research/modelling-and-prediction
+14. World Meteorological Organization (WMO). *Global Observing System*. https://wmo.int/activities/global-observing-system-gos/global-observing-system-gos
+15. WMO. *WMO Integrated Processing and Prediction System (WIPPS)*. https://public.wmo.int/activities/wmo-integrated-processing-and-prediction-system-wipps
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
