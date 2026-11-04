@@ -383,3 +383,8 @@ All population and election examples are explicitly hypothetical; they are not p
 ### Chapter 10 — ICJ Statute alternate-access closure — 5 November 2026
 
 - The original ICJ-hosted Statute URL returned HTTP 403 during direct retrieval. Replaced it with the official UN full-text page for the Statute of the International Court of Justice, which is annexed to the UN Charter and forms an integral part of it under Article 92. The UN page was checked and provides the complete Statute text. Commit: `5f43b92078b7b9f7351dc95b293009e378889555`.
+
+
+### Chapter 10 — Montevideo Convention source cross-check — 5 November 2026
+
+- Added separate links for the treaty text (U.S. Department of State historical record; University of Oslo Law Faculty treaty library) and treaty metadata (OAS record; UN Treaty Collection record). Articles 1 and 3 were checked against the text. Commit: `f2a8d5c3f3845166700f11be255f1c59280967f4`.
