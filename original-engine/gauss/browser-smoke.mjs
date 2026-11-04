@@ -72,10 +72,13 @@ async function checkLesson(mobile) {
 
     const play = page.locator('.physics-lab-controls button');
     if ((await play.innerText()).trim() !== 'Продолжить') throw new Error('reduced-motion mode should begin with the 3D lab paused');
-    await play.click();
-    if ((await play.innerText()).trim() !== 'Пауза') throw new Error('3D lab play control did not start animation');
+    // Keep the reduced-motion assertion, then switch to the normal preference to test both controls.
+    await page.emulateMedia({ reducedMotion: 'no-preference' });
+    await page.waitForFunction(() => document.querySelector('.physics-lab-controls button')?.textContent?.trim() === 'Пауза');
     await play.click();
     if ((await play.innerText()).trim() !== 'Продолжить') throw new Error('3D lab pause control did not stop animation');
+    await play.click();
+    if ((await play.innerText()).trim() !== 'Пауза') throw new Error('3D lab play control did not resume animation');
 
     const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
