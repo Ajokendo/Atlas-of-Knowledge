@@ -582,7 +582,7 @@ Particular attention should be paid to differences between statistical and admin
 2. United Nations. **United Nations Convention on the Law of the Sea** (1982). United Nations Treaty Collection, Chapter XXI, No. 6; see Part V, especially Articles 55–58 on the EEZ. https://treaties.un.org/Pages/ViewDetailsIII.aspx?chapter=21&mtdsg_no=XXI-6&src=IND
 3. United Nations. **Vienna Convention on the Law of Treaties** (1969). https://treaties.un.org/pages/ViewDetailsIII.aspx?chapter=23&mtdsg_no=XXIII-1&src=IND
 4. United Nations General Assembly. **Declaration on the Granting of Independence to Colonial Countries and Peoples**, Resolution 1514 (XV) (1960). https://digitallibrary.un.org/record/206145
-5. International Court of Justice. **Statute of the International Court of Justice** (1945). https://www.icj-cij.org/statute
+5. United Nations. **Statute of the International Court of Justice** (annexed to the UN Charter, 1945) — official full text. https://www.un.org/en/about-us/un-charter/statute-of-the-international-court-of-justice
 6. Agnew, J. (2004). *Geopolitics: Re-Visioning World Politics* (2nd ed.). Routledge. ISBN 978-0-415-31007-9.
 7. Flint, C. (2021). *Introduction to Geopolitics* (4th ed.). Routledge. ISBN 978-0-367-68675-8.
 8. Taylor, P. J., & Flint, C. (2014). *Political Geography: World-Economy, Nation-State and Locality* (6th ed.). Routledge. ISBN 978-1-138-83708-9.
