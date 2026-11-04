@@ -1,7 +1,7 @@
 # Geography visual asset register
-**Audit date:** 1 November 2026  
+**Audit date:** 4 November 2026  
 **Canonical branch:** `workspace/geography`  
-**Status:** production briefs and in-text placeholders; four Chapter 02 visuals are now linked remotely from official NOAA/USGS hosts. No new local binary assets are claimed.
+**Status:** 217 unique visual IDs indexed across 26 chapters. Chapter 02 has 8 remote source images and one original bilingual SVG; visual coverage is partial and technical acceptance is still open.
 
 ## Purpose and production rule
 
@@ -14,7 +14,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 | Chapter | Unique asset IDs | Count | Main visual themes |
 |---:|---|---:|---|
 | 01 | 01-A–01-C | 3 | Geography as a science; Earth systems; spatial scales |
-| 02 | 2-A–2-D | 4 | Geographic envelope; atmosphere; global water; biogeochemical cycles |
+| 02 | 18 IDs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A, 2.14-A | 18 | Geographic envelope; Earth spheres; atmosphere; global water; plate tectonics; biosphere; energy; zonation; biogeochemical cycles; geosystems; feedbacks; human pressure; planetary boundaries |
 | 03 | 3-A–3-D | 4 | Earth structure; rock cycle; plate boundaries; earthquakes |
 | 04 | 4-A–4-D | 4 | Landform hierarchy; mountain relief; river valleys; glacial landforms |
 | 05 | 5-A–5-D | 4 | Atmospheric layers; radiation balance; circulation; cloud and precipitation formation |
@@ -66,6 +66,6 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 - **Indexed:** 217 unique visual IDs across 26 chapters (Chapter 20 now includes 20-K).
 - **Briefed:** all 217 unique IDs have Russian and English production instructions in the chapter files; a chapter-by-chapter parity scan found no missing English counterpart.
 - **Created and embedded (pending final scientific/editorial review):** 4 assets — `20-K-national-water-use-2025.svg`, `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, and `20-I-glacier-anatomy.svg` (official 2025 NSC figures; SVG labels and figures checked against the source; wastewater subcategory discrepancy explicitly flagged).
-- **Remote source images integrated in Chapter 02 Markdown:** 8 visuals — 2-A (NASA Earth System Diagram), 2-B and 2.3-A (NOAA atmospheric layers and temperature profile), 2-C (USGS water distribution chart), 2.4-A (USGS water-cycle diagram), and carbon-, nitrogen- and phosphorus-cycle diagrams under 2-D (My NASA Data / DOE-adapted; NCAR; Entropyrider via Wikimedia Commons, CC0 1.0). These are hotlinked, not stored under geography/assets; live-site loading, performance, responsive display and accessibility remain untested. The planetary-boundaries infographic remains outstanding; a PIK 2025 CC BY figure candidate is identified, but the exact downloadable image and embedded asset have not yet been verified.
+- **Chapter 02 image integration:** 9 images are now referenced: 8 remote source images and one locally stored original SVG. Remote images: NASA Earth System Diagram (2-A, conceptual reference only); NOAA atmospheric layers (2-B) and temperature profile (2.3-A); USGS water distribution (2-C) and water-cycle diagram (2.4-A); My NASA Data carbon cycle (2.10-A), NCAR nitrogen cycle and Entropyrider/Wikimedia Commons phosphorus cycle (2.10-B). The local bilingual infographic `geography/assets/diagrams/02-14A-planetary-boundaries-2025.svg` covers 2.14-A. The 18-brief audit records 7 IDs with suitable images, 2-A as partial (the NASA figure is five-sphere rather than the requested four-component model), and 10 IDs still without dedicated visuals. Browser image checks rendered NASA, both NOAA images, USGS water-distribution and both My NASA Data images; the USGS water-cycle and Wikimedia phosphorus URLs could not be retrieved by the checking tool, so their live availability is not confirmed. The SVG is committed locally in the branch; live-site loading, responsive rendering, performance, keyboard navigation and screen-reader output remain untested because no deployed site URL or deployment workflow is established in this branch.
 - **Generated and fully approved:** none are claimed by this register.
 - **Next work:** check the older Chapters 01–06 and all regional/administrative map briefs against authoritative source datasets; then create and review the assets in production batches.
