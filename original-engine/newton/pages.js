@@ -159,7 +159,7 @@ export const PAGES = [
         <tr><td><b>система</b>: <i>F</i>/(<i>m</i> + <i>M</i><sub>доски</sub>)</td><td>${f(BD.aCm)} м/с²</td></tr>
       </table>
       <p>Проверка: (${f(BD.m, 1)} × ${f(BD.aBlock)} + ${f(BD.Mb, 1)} × ${f(BD.aBoard)}) / ${f(BD.M, 1)} = ${f(BD.aCm)} м/с². Сила трения не влияет на <i>a</i><sub>cm</sub> всей системы. Аналогичный пример — резкое вытягивание скатерти из-под посуды: именно трение увлекает посуду, но может сообщить ей ускорение не больше μ<i>g</i>.</p>
-      <div class="charts">${chart({ x0: 0, x1: BD.run, y0: 0, y1: BD.aCm * BD.run, xlabel: 'время (с)', ylabel: 'скорость (м/с)', cursor: 'board', label: 'Скорости блока, доски и центра масс во времени',
+      <div class="charts">${chart({ x0: 0, x1: BD.run, y0: 0, y1: Math.max(BD.aBoard, BD.aCm) * BD.run * 1.1, xlabel: 'время (с)', ylabel: 'скорость (м/с)', cursor: 'board', label: 'Скорости блока, доски и центра масс во времени',
         series: [{ pts: [[0, 0], [BD.run, BD.aBoard * BD.run]], tag: [0.86, BD.aBoard * 0.86 + 0.2, 'доска'] }, { cls: 'curve total', pts: [[0, 0], [BD.run, BD.aCm * BD.run]], tag: [0.92, BD.aCm * 0.92 - 0.95, 'центр масс'] }, { pts: [[0, 0], [BD.run, BD.aBlock * BD.run]], tag: [0.8, BD.aBlock * 0.8 - 0.75, 'блок'] }] })}</div>
       <p class="hintline">Масштаб стрелок: ${(F_SCALE * 100).toFixed(0)} см на ньютон. Нажмите, чтобы приподнять блок и увидеть пару сил трения.</p>`,
     cam: { target: [STATIONS.board + 0.4, 0.5, 0], az: -16, el: 15, dist: 13.5 }, lit: 'board', scene: 'board', look: {},
