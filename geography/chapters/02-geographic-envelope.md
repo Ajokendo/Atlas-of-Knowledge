@@ -283,25 +283,15 @@
 
 **Углеродный цикл / Carbon cycle**
 
-![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg)
-
-*Источник / Source: My NASA Data, “Energy and Matter Cycles”; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System. The diagram distinguishes natural fluxes, human contributions and stored carbon; numerical values belong to the source's stated units and reference context. / Схема различает природные потоки, вклад человека и запасы углерода; численные значения следует читать в единицах и контексте источника. [Страница источника / Source page](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
-
-**Азотный цикл / Nitrogen cycle**
-
-![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
-
-*Источник / Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [Страница источника / Source page](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
-
-**Фосфорный цикл / Phosphorus cycle**
-
-![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
-
-*Источник / Source: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons. CC0 1.0 Universal Public Domain Dedication; no attribution is legally required, but credit is retained for provenance. The diagram distinguishes biological cycling (assimilation into DNA and ATP, decomposition) from geological cycling (runoff, burial, rocks, uplift and mining). It is a simplified conceptual flowchart, not a quantitative flux model. / Схема различает биологический цикл (включение фосфора в ДНК и АТФ, разложение) и геологический цикл (сток, захоронение, горные породы, поднятие и добыча). Это упрощённая концептуальная схема, а не количественная модель потоков. [Страница файла и лицензия / File page and licence](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png).
+*Индивидуальные иллюстрации углеродного, азотного и фосфорного циклов размещены в соответствующих подразделах 2.10.1–2.10.4. Общая сравнительная схема трёх циклов для этого обзорного задания пока не подготовлена. / Individual carbon, nitrogen and phosphorus diagrams are placed in sections 2.10.1–2.10.4. A combined comparative overview for this visual brief has not yet been prepared.*
 
 Биогеохимические циклы — непрерывное перемещение химических элементов между живыми организмами и компонентами неживой природы.
 
 ### 2.10.1. Углеродный цикл / Carbon Cycle
+
+![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg)
+
+*Источник / Source: My NASA Data, “Energy and Matter Cycles”; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System. The diagram distinguishes natural fluxes, human contributions and stored carbon; numerical values belong to the source's stated units and reference context. / Схема различает природные потоки, вклад человека и запасы углерода; численные значения следует читать в единицах и контексте источника. [Страница источника / Source page](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
 
 Углерод — основа органических соединений. Его главные резервуары: атмосфера, океан, растительность, почвы, осадочные породы и ископаемое органическое вещество.
 
@@ -323,6 +313,10 @@
 
 ### 2.10.3. Азотный цикл / Nitrogen Cycle
 
+![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
+
+*Источник / Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [Страница источника / Source page](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
+
 Азот составляет около 78% сухого атмосферного воздуха, но большинство организмов не могут непосредственно использовать молекулярный N₂.
 
 | Этап | Содержание |
@@ -336,6 +330,10 @@
 Бобовые растения вступают в симбиоз с азотфиксирующими бактериями, благодаря чему атмосферный азот включается в биологический круговорот.
 
 ### 2.10.4. Фосфорный цикл / Phosphorus Cycle
+
+![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
+
+*Источник / Source: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons. CC0 1.0 Universal Public Domain Dedication; no attribution is legally required, but credit is retained for provenance. The diagram distinguishes biological cycling (assimilation into DNA and ATP, decomposition) from geological cycling (runoff, burial, rocks, uplift and mining). It is a simplified conceptual flowchart, not a quantitative flux model. / Схема различает биологический цикл (включение фосфора в ДНК и АТФ, разложение) и геологический цикл (сток, захоронение, горные породы, поднятие и добыча). Это упрощённая концептуальная схема, а не количественная модель потоков. [Страница файла и лицензия / File page and licence](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png).*
 
 Фосфор необходим для ДНК, РНК, клеточных мембран и АТФ. В отличие от углеродного и азотного циклов, у него нет значительной газовой фазы.
 
