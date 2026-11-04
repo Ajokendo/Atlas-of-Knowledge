@@ -379,3 +379,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 07 — IUCN Red List release date check — 5 November 2026
 
 - Updated the dynamic Red List source to version 2026-1 (published 9 July 2026), the latest available release on the audit date; the planned 2026-2 release is not yet published. Added IUCN's official update-history page. Commit: `25ed8d2b4929f6b02e15eb4955a322b4890a2cd7`.
+
+
+### Chapter 09 — current UN vital-statistics source — 5 November 2026
+
+- Added the 2026 UN Population and Vital Statistics Report as a source for current national estimates and vital-event data; the UNSD page showed Tables 2 and 3 updated 5 October 2026. Commit: `4c51e53870866cd5a6be2476228ec4151af5c82c`.
