@@ -37,7 +37,7 @@ A site's general copyright statement is not a licence for every image on that si
 
 | Visual ID | Required content | Candidate search route | Status | Next action |
 |---|---|---|---|---|
-| 2-A | Geographic envelope; atmosphere, hydrosphere, lithosphere and biosphere; matter/energy flows | [NASA SVS Earth System Diagram](https://svs.gsfc.nasa.gov/30988) | Candidate asset located; NASA credit identified | Adapt only as a conceptual reference: the NASA graphic shows interacting Earth-system components, not the chapter's exact traditional four-component geographic-envelope model. Add explicit lithosphere/upper-geosphere clarification and retain NASA Goddard credit. |
+| 2-A | Geographic envelope and interacting Earth-system spheres | [NASA Goddard Earth System Diagram](https://svs.gsfc.nasa.gov/30988) | Integrated remotely in Chapter 02; NASA Goddard credit recorded | Use as a conceptual five-sphere interaction image, not an exact four-component geographic-envelope classification. |
 | 2.1-A | Earth cross-section / geographic envelope and overlapping spheres | NASA Earth Observatory; NASA My NASA Data | Pending search | Ensure lithosphere is not presented as synonymous with the entire geosphere. |
 | 2.2-A | Four interacting spheres and matter/energy exchange | [NASA SVS Earth System Diagram](https://svs.gsfc.nasa.gov/30988); [NASA Earth Systems: Matter and Energy Cycles](https://science.nasa.gov/learn/heat/resource/earth-systems-matter-and-energy-cycles/) | Candidate assets located; NASA credit identified | NASA's diagram is an Earth-system interaction reference, not a ready-made exact four-sphere diagram. Preserve the chapter's distinction between traditional four-component model and modern five-sphere framework. |
 | 2-B | Vertical atmospheric structure | [NOAA JetStream layers graphic](https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere) | Integrated in Chapter 02 as a remote image; NOAA attribution recorded | Test remote loading in deployed reader; retain approximate-boundary caveat. |
@@ -48,8 +48,8 @@ A site's general copyright statement is not a licence for every image on that si
 | 2.6-A | Biological organisation from organism to biosphere | USGS ecosystems resources; Wikimedia Commons | Pending search | Ensure hierarchy is accurate and avoid mixing population/community/ecosystem levels. |
 | 2.8-A | Solar, internal and gravitational energy and their processes | NASA Earth Observatory energy budget; USGS | Pending search | Distinguish primary energy sources from gravitational potential energy and feedbacks. |
 | 2.9-A | Latitudinal zonation and mountain altitudinal belts | Wikimedia Commons; NASA/USGS educational material | Pending search | Avoid presenting idealised zones as universal; show local climatic/relief variation. |
-| 2-D | Carbon, nitrogen and phosphorus cycles | NOAA Carbon Cycle; UNEP; University of Missouri Extension; Open University | Candidate source | Prefer separately sourced cycle diagrams or an original composite; verify reservoirs and fluxes. |
-| 2.10-A | Global carbon cycle | NOAA Carbon Cycle; NASA Earth Observatory | Candidate source | Match reservoirs/fluxes to a named source and avoid mixing incompatible estimates. |
+| 2-D | Carbon, nitrogen and phosphorus cycles | [NASA carbon-cycle diagram](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles); [NCAR nitrogen-cycle diagram hosted by My NASA Data](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) | Carbon and nitrogen diagrams integrated remotely; phosphorus visual still not located/verified | Keep separate source credits; do not imply two figures cover phosphorus. |
+| 2.10-A | Global carbon cycle | [My NASA Data / DOE-adapted fast carbon-cycle diagram](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) | Integrated remotely in Chapter 02; source credit recorded | Preserve distinction between natural fluxes, human contributions and stored carbon; verify units/context before teaching numeric values. |
 | 2.10-B | Nitrogen and phosphorus cycles | UNEP; University of Missouri Extension; Open University | Candidate source | Preserve distinction: phosphorus cycle has no major atmospheric gas phase. |
 | 2.11-A | Structure of a natural geosystem | USGS educational resources; Wikimedia Commons | Pending search | Define system boundaries and show abiotic/biotic relationships accurately. |
 | 2.12-A | Positive and negative feedback | NASA Earth-system educational resources | Pending search | Use paired examples and avoid implying all negative feedbacks are stabilising in every context. |
@@ -137,3 +137,26 @@ At the time this candidate list was first compiled, the assets had not yet been 
 - Performance caveat: the source PNG is approximately 14.9 MB. Before public release, create and host an optimised responsive derivative with preserved attribution/metadata, or use the USGS zoomable viewer as the primary link; do not leave a multi-megabyte image unoptimised for mobile.
 
 **Integration limitation:** these four images are linked remotely from official source hosts; no binary copy has been added to the geography/assets directory. Remote loading, performance, responsive sizing and screen-reader behavior still require testing in the deployed reader. NOAA reuse guidance: https://www.noaa.gov/office-education/outreach-communication/faq.
+
+
+## Additional Chapter 02 visuals integrated — 4 November 2026
+
+### 2-A — NASA Earth System Diagram
+- Source page: https://svs.gsfc.nasa.gov/30988
+- Direct image: https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg
+- Credit required: NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller (Global Science and Technology, Inc.).
+- Scientific fit: depicts an integrated Earth system, including water and carbon cycles, human contributions, climate and ecosystems. It is not a literal diagram of the chapter's four-component geographic-envelope model; the caption states this limitation and notes cryosphere components.
+
+### 2-D / 2.10-A — NASA-hosted carbon-cycle diagram
+- Source page: https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles
+- Direct image: https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg
+- Credit/provenance: My NASA Data; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System.
+- Scientific fit: fast carbon cycle, natural fluxes, human contributions and reservoirs. Numeric values should be interpreted only with the units and context of the original source.
+
+### 2-D — Nitrogen-cycle diagram
+- Source page: https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles
+- Direct image: https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg
+- Credit: NCAR (as credited on the My NASA Data page).
+- Scientific fit: fixation, nitrification, plant uptake, mineralisation and denitrification.
+
+**Outstanding for 2-D:** a separate phosphorus-cycle diagram has not yet been located and verified. Carbon and nitrogen visuals are not presented as a complete three-cycle set.
