@@ -42,7 +42,6 @@
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-A / IMAGE PLACEHOLDER 6-A]** Глобальный круговорот воды: испарение, транспирация, конденсация, осадки, инфильтрация, сток и подземное движение.
 > **EN:** Global water cycle showing evaporation, transpiration, condensation, precipitation, infiltration, runoff and groundwater movement.
-> **EN production brief:** Create a global hydrological-cycle diagram with directional arrows linking ocean, land, atmosphere, cryosphere and groundwater. Distinguish evaporation, transpiration, condensation, precipitation, infiltration, runoff and groundwater flow; do not mix reservoir volumes with annual fluxes.
 
 Круговорот воды — непрерывное перемещение воды между океаном, сушей, атмосферой, криосферой и подземными резервуарами под воздействием солнечной энергии и силы тяжести.
 
@@ -79,7 +78,6 @@
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-B / IMAGE PLACEHOLDER 6-B]** Карта пяти океанов с указанием используемой гидрографической классификации и границы Южного океана.
 > **EN:** Map of the five oceans identifying the hydrographic classification used and the boundary of the Southern Ocean.
-> **EN production brief:** Prepare a neutral physical map of the five commonly recognised oceans. Name the hydrographic classification and source used; show the Southern Ocean boundary as a convention that may differ among sources, not as a universally ratified IHO line.
 
 Мировой океан образует непрерывную водную систему, хотя традиционно его разделяют на отдельные океаны и моря. Границы между океанами условны и определяются географической и гидрографической традицией.
 
@@ -105,7 +103,6 @@
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-C / IMAGE PLACEHOLDER 6-C]** Профиль океанического дна с шельфом, материковым склоном, абиссальной равниной, срединно-океаническим хребтом и глубоководным желобом.
 > **EN:** Ocean-floor profile showing the continental shelf, continental slope, abyssal plain, mid-ocean ridge and deep-sea trench.
-> **EN production brief:** Draw a cross-section of an ocean basin from the continental margin through the abyssal plain and mid-ocean ridge to a deep-sea trench. Label each landform and state any vertical exaggeration.
 
 Океаническое дно имеет сложное строение и включает формы, сопоставимые по масштабу с крупнейшими формами рельефа суши.
 
@@ -153,7 +150,6 @@
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-D / IMAGE PLACEHOLDER 6-D]** Схемы ветровых волн, приливов и поверхностных/глубинных течений с раздельными причинами формирования.
 > **EN:** Diagrams of wind waves, tides and surface/deep currents, with their distinct generating mechanisms.
-> **EN production brief:** Create separate, clearly labelled diagrams for wind-generated waves, astronomical tides and surface/deep currents. Show their different driving mechanisms and do not imply that all ocean motion has the same cause.
 
 ### 6.6.1. Волны / Waves
 
