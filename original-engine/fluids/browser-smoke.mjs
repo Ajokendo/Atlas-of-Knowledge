@@ -126,7 +126,7 @@ async function checkInteractiveBook(mobile) {
     }
     const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-    if (serious.length) throw new Error(`book axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
+    if (serious.length) throw new Error(`book axe found ${serious.length} serious/critical violation groups: ${serious.map(v => `${v.id} [${v.nodes.map(n => `${n.target.join(' ')}: ${n.failureSummary?.replace(/\\s+/g, ' ').slice(0, 240)}`).join('; ')}]`).join(' | ')}`);
     if (errors.length) throw new Error(errors.join(' | '));
     console.log(`PASS fluids interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 9 pages, WebGL ${initial.canvas.join('×')}, navigation across all page titles`);
   } catch (error) {
