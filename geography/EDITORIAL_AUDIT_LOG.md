@@ -2061,3 +2061,20 @@ A final compliance check against the Geography image-first instruction found tha
 - Confirmed the adapted 01-D visual identifies GeogSage as source, CC BY 4.0, and records translation/redrawing. Original diagrams 01-A, 01-B, 01-C and 01-E are identified as original Atlas of Knowledge schematics. The image-source table now distinguishes embedded assets from formally approved assets; the register and README reflect the five integrations.
 - Chapter 01 content and editorial package is closed at **100%**. This percentage excludes teacher/community trials and post-deployment rendering, responsive/mobile, keyboard and screen-reader QA, in accordance with the project's separation of content completion from release testing. No claim is made that those technical tests have been performed.
 - Final status commits: chapter 819f149044cdb4f528d3caee632f3c689528c994; readiness matrix dcf91b6c32970d9cfb3e1a29f6afba8910279f99; README 20dd5d500885c40f975c854b62352240644a70b8.
+
+
+## Chapter 03–04 visual production tranche — 4 November 2026
+
+- Rechecked the current Chapter 03 and Chapter 04 Markdown files and the visual register on `workspace/geography`. The existing textual scientific/editorial audits remain complete; visual production is a separate outstanding workstream.
+- **Chapter 03:** created `assets/03-3-A-rock-cycle-bilingual.svg`, a bilingual educational schematic showing magma, igneous rocks, sediments, sedimentary rocks and metamorphic rocks, with weathering/erosion, deposition, compaction/cementation, heat/pressure, melting and crystallisation pathways. The note explicitly warns that the rock cycle is not a compulsory closed loop. The diagram is a simplified adaptation informed by USGS Open-File Report 94-636 (1994). Embedded at the teaching location in both Russian and English chapter sections.
+- **Chapter 04:** created `assets/04-14-A-topographic-map-bilingual.svg`, a bilingual schematic showing contour lines, a stream, spot height, a drainage divide and an A–B profile line. It is explicitly labelled as a non-georeferenced teaching example, not a real navigation map. Contour-reading principles and the illustrative 20 m contour interval are grounded in the chapter's cited USGS topographic-mapping guidance. Embedded in both Russian and English chapter sections.
+- Updated `VISUAL_ASSET_REGISTER.md`: corrected the chapter-level visual inventory to 13 IDs for Chapter 03 and 16 for Chapter 04; the register now lists 11 created/embedded local SVGs across the atlas, including the two new assets. Updated the readiness matrix to show 1/13 visual IDs integrated in Chapter 03 and 1/16 in Chapter 04. The textual audit remains 100% for both chapters; neither chapter's full content/visual package is marked complete.
+- Static source review still required for final scientific/editorial sign-off of both new diagrams. No live-browser, mobile, keyboard, screen-reader or deployment test is claimed.
+
+**Commits**
+- Chapter 03 SVG: `d0790fb55efa97a80d4b1ced84a7bdd57d7a830b`
+- Chapter 04 SVG: `a06e0c6c55d7d1f13cc26cc8bc77a8c9ad0fc8f3`
+- Chapter 03 integration: `ce9378c9ce5bfcd07f037ca4a20b48dcbdb6b76e`
+- Chapter 04 integration: `8669ecc8ddb983bcb4fe812efb0028ebdd78f283`
+- Visual register: `6a69f7fca7eade86f7cca94452ed7a71b013846c`
+- Readiness matrix: `d2bfd0480792ca96c232918f892ac73847c1d8a9`
