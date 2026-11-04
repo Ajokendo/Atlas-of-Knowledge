@@ -1083,3 +1083,11 @@ Reviewed source markup for ten generated Biology SVGs across anatomy, biochemist
 - Corrected a Russian-only `<desc>` in `images/generated/genetics-translation.svg` by adding a scientifically equivalent English description (commit `a9f264b`).
 - Checked key scientific statements and qualifications in food-web direction, evolutionary branching, geological dates, antimicrobial resistance, viral replication, translation direction and vertebrate classification.
 - No other proven source-level scientific error was found in this sample. Rendered visual review and full asset-level legal/scientific/bilingual verification remain pending.
+
+
+## Additional SVG source-review checkpoint — 5 November 2026
+
+- Reviewed ten further SVGs across ecology, botany, genetics, microbiology, systematics and zoology.
+- Clarified the DNA-to-mRNA relationship in `images/generated/genetics-mutations.svg`: the displayed codons are mRNA transcribed from the corresponding DNA variant (commit `0767ffa`).
+- Checked cycle pathways, watershed and vegetation qualifications, DNA packaging, mutation framing, bacteria/virus structure, domain distinctions, wolf taxonomy and typical vertebrate traits.
+- No other proven source-level error was found in this sample. Full rendered and per-asset human verification remains pending.
