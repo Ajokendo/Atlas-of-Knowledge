@@ -293,12 +293,12 @@ async function checkMomentumChapterPage() {
     const page = await context.newPage();
     page.setDefaultTimeout(12000);
     const errors = [];
-    page.on('response', response => { if (response.status() >= 400) errors.push(\`HTTP \${response.status()} \${response.url()}\`); });
+    page.on('response', response => { if (response.status() >= 400) errors.push(`HTTP ${response.status()} ${response.url()}`); });
     page.on('pageerror', error => errors.push(error.message));
     page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
     try {
-      const response = await page.goto(\`\${base}/chapters/momentum.html\`, { waitUntil: 'domcontentloaded', timeout: 15000 });
-      if (!response || !response.ok()) throw new Error(\`chapter HTTP \${response?.status() ?? 'missing'}\`);
+      const response = await page.goto(`${base}/chapters/momentum.html`, { waitUntil: 'domcontentloaded', timeout: 15000 });
+      if (!response || !response.ok()) throw new Error(`chapter HTTP ${response?.status() ?? 'missing'}`);
       await page.getByRole('heading', { name: 'Импульс', exact: true }).waitFor();
       const required = [
         'Введение',
@@ -310,7 +310,7 @@ async function checkMomentumChapterPage() {
       ];
       const headings = await page.locator('main h2').allTextContents();
       const missing = required.filter(h => !headings.includes(h));
-      if (missing.length) throw new Error(\`missing lesson sections: \${missing.join('; ')}\`);
+      if (missing.length) throw new Error(`missing lesson sections: ${missing.join('; ')}`);
 
       const labCanvas = page.locator('.physics-stage canvas');
       await labCanvas.waitFor({ state: 'visible' });
@@ -321,9 +321,9 @@ async function checkMomentumChapterPage() {
       if (!labState.webgl || labState.width < 100 || labState.height < 100) throw new Error('3D laboratory WebGL canvas did not initialize');
 
       const readout = async id => (await page.locator(id).innerText()).replace(/\s+/g, ' ').trim();
-      if (!(await readout('#r0')).includes('4,00')) throw new Error(\`default total momentum should be 4.00 kg·m/s, got \${await readout('#r0')}\`);
-      if (!(await readout('#r1')).includes('1,00')) throw new Error(\`default joined velocity should be 1.00 m/s, got \${await readout('#r1')}\`);
-      if (!(await readout('#r2')).includes('2,00')) throw new Error(\`default final kinetic energy should be 2.00 J, got \${await readout('#r2')}\`);
+      if (!(await readout('#r0')).includes('4,00')) throw new Error(`default total momentum should be 4.00 kg·m/s, got ${await readout('#r0')}`);
+      if (!(await readout('#r1')).includes('1,00')) throw new Error(`default joined velocity should be 1.00 m/s, got ${await readout('#r1')}`);
+      if (!(await readout('#r2')).includes('2,00')) throw new Error(`default final kinetic energy should be 2.00 J, got ${await readout('#r2')}`);
 
       await page.locator('#p1').evaluate(el => { el.value = '2'; el.dispatchEvent(new Event('input', { bubbles: true })); });
       if (!(await readout('#r0')).includes('0,00') || !(await readout('#r1')).includes('0,00') || !(await readout('#r2')).includes('0,00')) {
@@ -337,13 +337,13 @@ async function checkMomentumChapterPage() {
       if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal page overflow');
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
       const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-      if (serious.length) throw new Error(\`axe found \${serious.length} serious/critical violation groups: \${serious.map(v => v.id).join(', ')}\`);
+      if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
       if (errors.length) throw new Error(errors.join(' | '));
-      console.log(\`PASS momentum chapter page \${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — \${required.length} sections, live collision calculations, zero-momentum edge case, quiz, WebGL \${labState.width}×\${labState.height}, WCAG serious/critical: 0\`);
+      console.log(`PASS momentum chapter page ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${required.length} sections, live collision calculations, zero-momentum edge case, quiz, WebGL ${labState.width}×${labState.height}, WCAG serious/critical: 0`);
     } catch (error) {
-      failures.push(\`momentum chapter page \${mobile ? 'mobile' : 'desktop'}: \${error.message}\`);
-      console.error(\`FAIL momentum chapter page \${mobile ? 'mobile' : 'desktop'}: \${error.message}\`);
-      if (errors.length) failures.push(\`momentum chapter page errors: \${errors.join(' | ')}\`);
+      failures.push(`momentum chapter page ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
+      console.error(`FAIL momentum chapter page ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
+      if (errors.length) failures.push(`momentum chapter page errors: ${errors.join(' | ')}`);
     } finally {
       await context.close();
     }
@@ -360,12 +360,12 @@ async function checkMomentumChapterPage() {
     const page = await context.newPage();
     page.setDefaultTimeout(12000);
     const errors = [];
-    page.on('response', response => { if (response.status() >= 400) errors.push(\`HTTP \${response.status()} \${response.url()}\`); });
+    page.on('response', response => { if (response.status() >= 400) errors.push(`HTTP ${response.status()} ${response.url()}`); });
     page.on('pageerror', error => errors.push(error.message));
     page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
     try {
-      const response = await page.goto(\`\${base}/original-engine/momentum/\`, { waitUntil: 'domcontentloaded', timeout: 15000 });
-      if (!response || !response.ok()) throw new Error(\`interactive book HTTP \${response?.status() ?? 'missing'}\`);
+      const response = await page.goto(`${base}/original-engine/momentum/`, { waitUntil: 'domcontentloaded', timeout: 15000 });
+      if (!response || !response.ok()) throw new Error(`interactive book HTTP ${response?.status() ?? 'missing'}`);
       await page.waitForSelector('#sheet h1', { timeout: 12000 });
       await page.waitForFunction(() => {
         const canvas = document.querySelector('#gl');
@@ -382,7 +382,7 @@ async function checkMomentumChapterPage() {
         assemblies: Object.keys(window.__atlas?.E?.ASM || {}).length,
         overflow: document.documentElement.scrollWidth > innerWidth + 2,
       }));
-      if (state.pages !== 12) throw new Error(\`expected 12 interactive-book pages, found \${state.pages}\`);
+      if (state.pages !== 12) throw new Error(`expected 12 interactive-book pages, found ${state.pages}`);
       if (!state.title || state.width < 100 || state.height < 100 || state.assemblies < 1) throw new Error('interactive Three.js/WebGL scene did not initialize');
       if (state.overflow) throw new Error('interactive book has horizontal overflow');
       const before = state.title;
@@ -396,13 +396,13 @@ async function checkMomentumChapterPage() {
       await page.waitForFunction(old => document.querySelector('#sheet h1')?.textContent?.trim() !== old, before, { timeout: 15000 });
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
       const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-      if (serious.length) throw new Error(\`axe found \${serious.length} serious/critical violation groups: \${serious.map(v => v.id).join(', ')}\`);
+      if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
       if (errors.length) throw new Error(errors.join(' | '));
-      console.log(\`PASS momentum interactive book \${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 12 pages, WebGL \${state.width}×\${state.height}, \${state.assemblies} scene assemblies, page navigation, WCAG serious/critical: 0\`);
+      console.log(`PASS momentum interactive book ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — 12 pages, WebGL ${state.width}×${state.height}, ${state.assemblies} scene assemblies, page navigation, WCAG serious/critical: 0`);
     } catch (error) {
-      failures.push(\`momentum interactive book \${mobile ? 'mobile' : 'desktop'}: \${error.message}\`);
-      console.error(\`FAIL momentum interactive book \${mobile ? 'mobile' : 'desktop'}: \${error.message}\`);
-      if (errors.length) failures.push(\`momentum interactive book errors: \${errors.join(' | ')}\`);
+      failures.push(`momentum interactive book ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
+      console.error(`FAIL momentum interactive book ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
+      if (errors.length) failures.push(`momentum interactive book errors: ${errors.join(' | ')}`);
     } finally {
       await context.close();
     }
