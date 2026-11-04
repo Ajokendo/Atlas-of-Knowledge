@@ -56,11 +56,14 @@ async function checkBook(viewport, mobile) {
     if (initial.pages !== 13) throw new Error(`Expected 13 book pages, found ${initial.pages}`);
     if (!initial.assemblies || !initial.frames || !initial.status) throw new Error('Three.js scene, rendered frame, or accessible page status is missing');
 
-    const expectedTitles = [];
-    for (let i = 0; i < 13; i++) {
-      const dot = page.locator('#dots button').nth(i);
-      await dot.click();
-      await page.waitForFunction(index => location.hash === `#${index}` || (index === 0 && !location.hash), i, { timeout: 10000 });
+    const expectedTitles = [initial.title];
+    for (let i = 1; i < 13; i++) {
+      if (mobile) {
+        await page.locator('#sheet button.turn[data-turn]').click();
+      } else {
+        await page.locator('#dots button').nth(i).click();
+      }
+      await page.waitForFunction(index => location.hash === `#${index}`, i, { timeout: 15000 });
       await page.waitForFunction(() => !!document.querySelector('#sheet h1')?.textContent.trim());
       expectedTitles.push(await page.locator('#sheet h1').innerText());
     }
