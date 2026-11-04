@@ -649,7 +649,7 @@ for (const rel of imagePages) {
 if (new Set(imageBriefIds).size !== imageBriefIds.length) errors.push("Image-generation brief IDs must be unique across all Biology pages");
 if (imageBriefCount !== 53) errors.push("Expected 53 in-page planned or produced image briefs, found " + imageBriefCount);
 const geneticsImageBriefFile = fs.readFileSync(path.join(root, "chapters/genetics.html"), "utf8");
-if (!geneticsImageBriefFile.includes('id="image-brief-genetics-dna-packaging"') || !geneticsImageBriefFile.includes("genetics-dna-packaging.webp") || geneticsImageBriefFile.includes("genetics-central-dogma.webp")) {
+if (!geneticsImageBriefFile.includes('id="image-brief-genetics-dna-packaging"') || (!geneticsImageBriefFile.includes("genetics-dna-packaging.webp") && !geneticsImageBriefFile.includes("genetics-dna-packaging.svg")) || geneticsImageBriefFile.includes("genetics-central-dogma.webp")) {
   errors.push("chapters/genetics.html: DNA-packaging image brief ID and target filename must match its actual subject");
 }
 const imageInsertionMap = fs.readFileSync(path.join(root, "IMAGE_INSERTION_MAP.md"), "utf8");
