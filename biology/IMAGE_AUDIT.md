@@ -208,3 +208,15 @@ A second focused source-level batch covered ten generated diagrams spanning ecol
 - No further proven scientific error was established from source markup. This batch is a source-level check, not a rendered visual or independent specialist review.
 
 **Batch result:** 10 SVG source files reviewed; 1 bilingual description corrected. Global Image Verification remains **Pending audit**.
+
+
+## Third focused SVG source batch — 5 November 2026
+
+A further ten SVGs were reviewed across ecology, botany, genetics, microbiology, systematics and zoology: `ecology-cycles.svg`, `ecology-mountain.svg`, `flora-altitude.svg`, `flora-batken-aygul.svg`, `genetics-dna-packaging.svg`, `genetics-mutations.svg`, `microbe-compare.svg`, `systematics-domains.svg`, `systematics-ranks.svg` and `zoology-anatomy.svg`.
+
+- Reviewed bilingual descriptions and explanatory labels for carbon and nitrogen cycle pathways, mountain-watershed zonation, vegetation mosaics, the Aygul botanical plate, DNA packaging, mutation consequences, bacteria/virus distinctions, the three domains, wolf taxonomy and vertebrate respiration/coverings.
+- One clarity issue was corrected in `genetics-mutations.svg`: the heading described DNA sequence changes while the displayed triplets were mRNA codons. The description and footer now explicitly explain that the displayed mRNA codons are transcribed from the corresponding DNA variant. This preserves the teaching model while making the DNA → mRNA relationship explicit (commit `0767ffa`).
+- The sampled DNA-packaging figure correctly avoids presenting a 30-nm fibre as a universal obligatory structure; the taxonomy plate uses a consistent grey-wolf hierarchy; the vertebrate comparison qualifies group traits as typical rather than universal.
+- No further proven source-level scientific error was established in this batch. This remains a source-markup review, not rendered visual inspection or independent specialist certification.
+
+**Batch result:** 10 SVGs reviewed; 1 explanatory clarification committed. Global Image Verification remains **Pending audit**.
