@@ -132,3 +132,9 @@ The successful CI run is automated testing on GitHub-hosted Chromium. It is not 
 - [x] Added static regression evidence checks for atomic structure, the limits of shell/orbital diagrams, ionic lattices, bond versus molecular polarity, acid strength versus concentration, temperature-dependent neutral pH, buffer approximation/capacity limits, Henry's law, equilibrium solubility versus dissolution rate, Qₛₚ/Kₛₚ and nucleation, and the mole/entity distinction.
 - [x] Corrected two test expectations to match the published Russian wording in the amount-of-substance chapter; no content defect was found there.
 - [x] Re-ran full CI after correcting the two assertion expectations; the latest branch-head run completed successfully, including Chromium checks for all 21 pages.
+
+- [x] Expanded Chromium regression coverage for all three carbon isotope model states (C-12/C-13/C-14), live-region announcements, and the weighted-average explanation in RU/EN.
+- [x] Added RU/EN formula-theory assertions distinguishing empirical formulae, molecular formulae, ionic formula units, and the limits of structural information in a molecular formula.
+- [x] Added RU/EN chemistry-of-life checks for carbohydrate classification, zwitterionic/amphoteric amino acids, ribosomal peptide-bond formation, protein structural levels/denaturation, lipid classification, antiparallel DNA and 5′→3′ polymerase extension, ATP thermodynamic qualifications, and base pairing.
+- [x] Added bilingual redox exception checks for oxygen in OF₂, peroxides, and superoxides.
+- [ ] Await the complete Chromium and static-validation run for this expanded suite; continue remaining chapters and formula/calculator checks.
