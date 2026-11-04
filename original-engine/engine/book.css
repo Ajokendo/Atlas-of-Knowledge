@@ -2,7 +2,9 @@
 .book-body { overflow-x: hidden; }
 .scroll-space { width: 1px; }
 
+.book { --muted: #55565a; }
 .topbar {
+  color: #55565a;
   position: fixed; inset: 0 0 auto 0; height: 56px; z-index: 5;
   display: flex; align-items: center; gap: 18px; padding: 0 28px;
   font: 500 12px/1 var(--mono); letter-spacing: .06em; color: var(--muted);
