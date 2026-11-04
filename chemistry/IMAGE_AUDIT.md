@@ -10,7 +10,7 @@
 
 Use the canonical policy for status definitions, audit result values, evidence requirements, and verification rules. This file contains only Chemistry-specific findings and metrics; it does not redefine the universal standard.
 
-## Summary metrics — current checkpoint
+## Summary metrics — historical checkpoint (superseded by the 2026-11-05 policy re-audit below)
 
 | Metric | Current result | Interpretation |
 |---|---:|---|
@@ -32,6 +32,42 @@ Use the canonical policy for status definitions, audit result values, evidence r
 | Technical source checks | 22 PASS for basic SVG metadata | CI checks viewBox, role, title, description and local asset paths; responsive/device review remains pending. Four interactive systems still need manual keyboard, zoom and screen-reader checks |
 
 **Important:** the 11/11 ratio measures only whether the currently inventoried static topics exist and are integrated. It is not a measure of curriculum visual coverage or readiness. A learning-purpose and visual-need decision is still required for every chapter. Retrospective searches cover 15/15 records; the original search-first sequence cannot be proven retrospectively. Rights verification is 0/15; none of the visual records may be described as VERIFIED or publication-ready.
+
+## Latest policy-readiness checkpoint — 2026-11-05
+
+This checkpoint supersedes the earlier provisional 11/11 static-only coverage figure. It uses the chapter-level visual plan, counts the unintegrated Chapter 03 trend diagram as a required gap, and keeps image readiness separate from editorial and general website readiness.
+
+| Metric | Current result | Scope / interpretation |
+|---|---:|---|
+| Required static visual topics | 12 | One planned static visual topic for each of 12 chapters; Chapter 12 uses two related figures within its chapter topic. |
+| Static Image Coverage | 11 / 12 = 91.7% | 11 static bilingual pairs are integrated; the Chapter 03 periodic-trends visual is found as a candidate but not integrated. Provisional chapter-plan coverage. |
+| Interactive visual systems | 4 / 4 integrated | Atomic model, subatomic-particle comparison, bonding models and periodic table. Presence does not imply verification. |
+| Combined visual plan | 15 / 16 = 93.75% integrated | 12 static topics + 4 interactive systems; 15 are present and one required static topic remains missing. Provisional. |
+| Image Verification | 0 / 15 = 0% VERIFIED | None of the 15 integrated visual records meets every applicable science, rights, language, accessibility and technical criterion. |
+| Image Gaps | 1 required visual | Chapter 03 periodic trends: candidate found; local integration and review pending. No other missing chapter-level visual identified in the current 12-chapter plan. |
+| Category A — external original reuse | 0 assigned | Existing local assets have not been proven to be unmodified external reuse. |
+| Category B — adapted external reuse | 0 assigned | No existing local asset has a verified external source/adaptation trail. |
+| Category C — created | 0 assigned | Local presence alone does not prove project authorship or method. |
+| Category / method pending | 15 / 15 integrated records | 11 static pairs + 4 interactive visual systems; provenance and creator/rightsholder evidence still needed. |
+| Rights on integrated records | 0 PASS / 15 PENDING / 0 FAIL | The 15 existing records remain unverified. Chapter 03 candidate sources are tracked separately below. |
+| Scientific/factual review | 10 PASS / 5 PENDING / 0 FAIL | First-pass static review: 10 PASS, CH-V01 PENDING; all four interactive systems still need documented expert/manual review. |
+| Language and accessibility | 11 static pairs have bilingual metadata; 4 interactive systems PENDING manual review | Presence of RU/EN titles/descriptions/captions/alt is not a substitute for translation-quality and assistive-technology sign-off. |
+| Technical evidence | 22 / 22 static SVG files pass recorded basic metadata checks | Historical CI evidence exists, but CI must be rerun after the latest branch changes. Responsive, keyboard and screen-reader manual checks remain pending. |
+| Retrospective search evidence | 16 / 16 records have dated search notes | The 15 existing integrated records plus the Chapter 03 candidate. This does not prove the original pre-creation search-first sequence. |
+| Search candidates | 4 FOUND / 16 searched | OpenStax titration, OpenStax Daniell-cell, PubChem interactive table, and Wikimedia Commons periodic-trends bilingual files. None of the first three has been adopted. |
+
+### Chapter 03 candidate rights finding
+
+A suitable bilingual candidate was located on Wikimedia Commons on 2026-11-05. The English original by Mirek2 is dedicated under CC0 1.0. The Russian derivative by Донор is licensed CC BY-SA 4.0 and identifies the English source; its file history records a later edit by Землеройкин. The exact source pages and licence deeds are recorded in IMAGE_SOURCES.md. These item-level source/licence checks are complete for the candidate files, but the candidate is not integrated and does not increase Image Coverage or Image Verification. Scientific, language, accessibility and local-file integration checks remain PENDING.
+
+### Interactive visual audit by ID
+
+| ID | Visual | Scientific / factual | Rights / provenance | Language / accessibility | Technical / integration | Overall |
+|---|---|---|---|---|---|---|
+| CH-IV01 | Interactive atom and electron-shell model | PENDING — teaching-model simplifications need final manual sign-off | PENDING — source-code creator, authoring method and code rights Unknown | PENDING — localized accessible name exists; manual screen-reader check outstanding | Source present; manual keyboard, zoom and device review pending | INTEGRATED, not VERIFIED |
+| CH-IV02 | Inline proton, neutron and electron comparison | PENDING — visual proportions/model limits need final manual sign-off | PENDING — source-code creator, authoring method and code rights Unknown | PENDING — accessible label exists; manual RU/EN and screen-reader review outstanding | Source present; manual display and keyboard review pending | INTEGRATED, not VERIFIED |
+| CH-IV03 | Ionic, covalent and metallic bonding models | PENDING — conceptual-model limitations need final manual sign-off | PENDING — source-code creator, authoring method and code rights Unknown | PENDING — localized names/live-region description exist; manual assistive-technology review outstanding | Three inline SVG models present; manual responsive/keyboard review pending | INTEGRATED, not VERIFIED |
+| CH-IV04 | Interactive periodic table | PENDING — element data provenance and property conventions need final expert review | PENDING — source-code/data creator, provenance and reuse rights Unknown | PENDING — localized element names and complete polite live region exist; manual AT review outstanding | Keyboard focus preservation and accessible names are source-guarded; manual device/zoom review pending | INTEGRATED, not VERIFIED |
 
 ## Static visual audit register
 
@@ -83,7 +119,7 @@ This is a first-pass map of the currently identified visual need, not a final de
 |---|---|---|---|
 | 01 Atomic structure | Distinguish nucleus, electron probability distribution and subatomic particles; explain model limits | Interactive atom and particle SVGs; bilingual electron-cloud SVG embedded in chapter and landing page; particle names and SVG accessible labels switch RU/EN | INTEGRATED — complementary visual roles covered; scientific wording, rights and manual screen-reader/device review remain pending |
 | 02 Chemical elements | Compare isotopes and explain weighted atomic mass | Carbon isotope SVG pair | INTEGRATED — science first-pass PASS; search and rights PENDING |
-| 03 Periodic system | Relate element position to groups, periods and periodic trends | Interactive periodic table displays position, group, period, symbol and mass; selected-element updates preserve keyboard focus and are announced in a complete polite live region | PENDING — a separate bilingual periodic-trends visual is pedagogically justified; it must show broad trends with clear exceptions/qualifications, not imply every element follows a perfectly uniform rule. PubChem remains reference-only; no asset selected or copied |
+| 03 Periodic system | Relate element position to groups, periods and periodic trends | Interactive periodic table displays position, group, period, symbol and mass; selected-element updates preserve keyboard focus and are announced in a complete polite live region. Wikimedia Commons bilingual trend-diagram candidate located; exact creator and licence records are documented in IMAGE_SOURCES.md | PENDING — candidate is FOUND, not integrated. English original: Mirek2, CC0 1.0; Russian derivative: Донор, CC BY-SA 4.0. Scientific, RU/EN, accessibility and local integration checks remain pending; placeholder stays until these checks pass |
 | 04 Chemical bonding | Compare ionic, covalent and metallic bonding without presenting models as literal structure | Three inline SVG models; each receives a language-dependent accessible name; model explanation is announced through an atomic polite live region | INTEGRATED — model limitations are described in page text; manual keyboard/screen-reader and rights review PENDING |
 | 05 Amount of substance | Connect mole, Avogadro constant and molar mass | One-mole SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
 | 06 Chemical formulae | Read subscripts, brackets and coefficients | Formula-reading SVG pair | INTEGRATED — first-pass science PASS; search and rights PENDING |
@@ -165,3 +201,13 @@ Reviewed all 12 instructional chapter pages, the Chemistry landing page, and the
 **No additional missing marker was found in the existing visual plan.** Chapter 03 remains the one explicitly deferred chapter illustration, and its marker is visible in both Russian and English. All chapter image references inspected in this sweep resolve to SVG filenames present in `chemistry/assets/`; the asset directory contains 11 bilingual SVG pairs. The interactive and inline-SVG visuals in Chapters 01 and 04 are accounted for separately.
 
 This is a source/asset-reference audit only. It does not mean that the Chapter 03 illustration has been generated, that the SVG pairs have completed legal-rights verification, or that every visual has passed manual rendering, responsive-layout and assistive-technology review.
+
+## 2026-11-05 follow-up: policy metrics corrected and candidate search completed
+
+The earlier 11/11 static-only Image Coverage figure is retained above as historical evidence but is superseded for current readiness reporting. The chapter-level plan contains 12 static visual topics; 11 are integrated and Chapter 03 remains one required gap. Current provisional static coverage is therefore 11/12 (91.7%), not 100%. With four integrated interactive systems, the combined visual plan is 15/16 (93.75%). Image Verification remains 0/15 because no integrated record has passed all applicable dimensions.
+
+A targeted image-first search located a bilingual periodic-trends candidate on Wikimedia Commons. The English file is attributed to Mirek2 and dedicated under CC0 1.0. The Russian derivative is attributed to Донор, is derived from the English work, and is licensed CC BY-SA 4.0; a later edit by Землеройкин is recorded in its file history. Exact source URLs, direct asset URLs, licence deeds, dates and conditional attribution are now recorded in IMAGE_SOURCES.md. The candidate is FOUND, not integrated. It does not close the Chapter 03 gap.
+
+The four interactive visual systems now have explicit per-ID audit rows. All remain INTEGRATED, not VERIFIED, because creator/code rights and manual accessibility/device evidence are incomplete.
+
+CI evidence in the publication checklist predates the latest Chemistry branch commits. A fresh CI run is required before current technical status can be reported as PASS. No new CI success is claimed by this documentation update.
