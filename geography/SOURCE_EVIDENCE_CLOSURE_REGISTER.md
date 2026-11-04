@@ -343,3 +343,8 @@ These are focused bilingual conceptual corrections. They do not close full claim
 ### Chapter 10 — UNCLOS claim-level source precision — 5 November 2026
 
 - Added direct official UN texts for UNCLOS Part VI (continental shelf, Articles 76–78) and Part VII (high seas, Articles 86–89). These provide section-level support for the chapter's distinction between seabed/subsoil rights, the legal status of superjacent waters, high-seas freedoms and the prohibition on sovereignty claims over the high seas. Both official UN texts were checked. Commit: `aeecc0a1f4aff9e2f6adfca03c2abfa5ef13f59a`.
+
+
+### Chapter 07 — CBD Target 2 and Target 3 wording — 5 November 2026
+
+- Refined both language versions to match the official CBD wording more closely: Target 3 concerns effective conservation and management of at least 30% of terrestrial/inland-water and coastal/marine areas, with governance, connectivity and rights safeguards; Target 2 concerns at least 30% of degraded ecosystem areas being **under effective restoration** by 2030. Added the distinction that effective restoration must be resourced and monitored but need not be completed by 2030. Checked against the official CBD Target 2 and Target 3 guidance pages. Commit: `9adc9ecaaf124cc1b91d0dc22b0a395495ec5a9b`.
