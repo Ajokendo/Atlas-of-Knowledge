@@ -110,9 +110,18 @@ These searches refine the earlier grouped retrospective searches. A found textbo
 | CH-IV07 | PhET “Acid-Base Solutions” (English and Russian pages) and “pH Scale: Basics”; official PhET licensing page. | Candidate FOUND as related interactive acid/base and beaker/pH resources. Regular HTML simulations are CC BY-NC 4.0 with required PhET attribution. Their learning scope differs from the Atlas strong-acid/strong-base neutralisation model; no embedding or copying selected. |
 | CH-V12 | Wikimedia Commons “Periodic trends.svg” by Mirek2 (CC0 1.0) and Russian derivative “Periodic trends-rus.svg” by Донор (CC BY-SA 4.0). | Candidate FOUND with item-level source, creator, direct-file and licence evidence recorded above. Best current candidate for Chapter 03; local integration and scientific/language/accessibility review remain pending. |
 
+
+## PhET candidate source and licence details — not adopted
+
+| Visual ID | Official simulation page(s) | Licence evidence | Required attribution / conditions |
+|---|---|---|---|
+| CH-IV05 | [Molecule Shapes](https://phet.colorado.edu/en/simulations/molecule-shapes) | [Official PhET licensing](https://phet.colorado.edu/en/licensing): regular HTML simulations are CC BY-NC 4.0 | “PhET Interactive Simulations, University of Colorado Boulder” and https://phet.colorado.edu; keep PhET logo visible and unaltered; non-commercial use only. |
+| CH-IV06 | [Gas Properties](https://phet.colorado.edu/en/simulations/gas-properties) | [Official PhET licensing](https://phet.colorado.edu/en/licensing): regular HTML simulations are CC BY-NC 4.0 | Same required attribution and non-commercial condition; do not imply that the current schematic dot-count visual is a kinetic-theory simulation. |
+| CH-IV07 | [Acid-Base Solutions](https://phet.colorado.edu/en/simulations/acid-base-solutions), [Russian page](https://phet.colorado.edu/ru/simulations/acid-base-solutions), and [pH Scale: Basics](https://phet.colorado.edu/en/simulations/ph-scale-basics) | [Official PhET licensing](https://phet.colorado.edu/en/licensing): regular HTML simulations are CC BY-NC 4.0 | Same required attribution and non-commercial condition. PhET models address related acid/base and pH learning goals but are not exact substitutes for the Atlas neutralisation model. |
+
 ## Required next provenance actions
 
-1. Complete and document the retrospective search for each ID in the table above. Record the actual date, exact queries/collections, candidate URLs, file-specific rights evidence, and the reason for retaining, adapting, replacing, or rejecting each candidate. A retrospective search does not prove that the original asset was created in compliance with the search-first sequence.
+1. Retrospective search evidence is now recorded for all 19 visual records, with dated targeted searches, surfaced candidates and suitability decisions in the tables above. This does not prove that the original assets were created in compliance with the search-first sequence. For all future visuals, search and record candidate sources before creating or adapting an asset.
 2. Confirm the actual creator(s), authoring method and rightsholder for every project SVG and interactive visual from source history or explicit project-owner confirmation.
 3. Confirm the explicit licence or other documented rights basis for each project-created visual and code-based interactive. Add exact licence evidence and attribution wording only after confirmation.
 4. If any visual was based on an external reference, record its exact source page, direct asset URL, file-specific licence and material adaptations.
