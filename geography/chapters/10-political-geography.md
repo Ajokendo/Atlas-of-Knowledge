@@ -354,6 +354,15 @@ Key concepts include:
 
 Archipelagic states have a special legal regime for archipelagic waters when the conditions of the Convention are met. Maritime boundaries between neighbouring states may require delimitation by agreement or through judicial and arbitration procedures.
 
+### 10.5.1. Worked Example: Converting Nautical Miles to Kilometres
+
+One nautical mile is exactly 1.852 km. For a classroom calculation, if the baseline is treated as the reference point, the maximum breadths can be converted as follows:
+
+- territorial sea, up to 12 nautical miles: 12 × 1.852 = **22.224 km**;
+- exclusive economic zone, whose outer limit may extend up to 200 nautical miles from the baselines: 200 × 1.852 = **370.4 km**.
+
+This is a unit conversion, not a method for independently drawing a legally valid boundary on a map. In practice, distances are measured from established baselines; coastal geography, islands, overlapping claims involving neighbouring or opposite states, and applicable international agreements must also be considered. An EEZ does not mean that all waters out to 200 nautical miles become the state's territory.
+
 ### 10.6. Administrative and Territorial Organisation
 
 States organise territory for governance, representation, service delivery and resource allocation. Administrative units may be called oblasts, provinces, states, lands, regions, districts, counties or municipalities.
@@ -543,6 +552,18 @@ Particular attention should be paid to differences between statistical and admin
 **Главный вывод:** абсолютное число голосовавших и процент явки отвечают на разные вопросы. В округе А проголосовало больше людей, но сравнение активности корректнее проводить по доле от числа зарегистрированных избирателей. Даже явка сама по себе не объясняет причины поведения людей: для этого нужны дополнительные исследования.
 
 **Worked example in English.** Imagine a region with two fictional electoral districts. District A has 9,000 registered voters and 7,200 voters who cast a ballot; turnout is 80%. District B has 4,000 registered voters and 2,400 voters who cast a ballot; turnout is 60%. Across the region, turnout is (7,200 + 2,400) ÷ (9,000 + 4,000) × 100% ≈ 73.8%. A simple average of 80% and 60% gives 70%, which is misleading because the districts have different numbers of registered voters. Calculate the regional rate from the combined totals, not by averaging district percentages without weights.
+
+### 10.15.1. Reading a Map of an International Boundary
+
+A line on a political map may represent a boundary with a particular legal and cartographic status. Correct interpretation requires distinguishing **delimitation**—the description of a boundary in a treaty or other legal document—from **demarcation**—marking the line on the ground—and from subsequent maintenance and joint management.
+
+**What to check on a map:** publication date and source; scale and accuracy of source data; legend; line type and explanatory notes; any disputed or unsettled segments; and consistency with current official documents. A line on a general reference map does not replace a treaty, protocol or official coordinate documentation.
+
+**Boundaries and everyday life.** A boundary may intersect transport, water, pasture and family networks. Analysis of service access and livelihood routes should separately consider official crossing points, operating schedules, permitted crossing types and seasonal restrictions. Actual accessibility cannot be inferred from geometric proximity to a border alone.
+
+**Neutrality and accuracy.** When describing segments whose status is disputed or interpreted differently by parties, identify whose position the source represents, give the date and avoid presenting a contested line as an undisputed fact. A map should communicate uncertainty and data status rather than conceal them.
+
+**Activity.** Compare two maps of the same border area published in different years. Identify differences in legend, sources, scale and boundary depiction. List the documents and official data needed to verify each difference.
 
 ### English Summary
 
