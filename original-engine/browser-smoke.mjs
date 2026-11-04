@@ -240,6 +240,39 @@ async function checkChapterPage() {
   }
 }
 
+async function checkCircularChapterPage() {
+  const context = await browser.newContext({ viewport: { width: 1280, height: 900 }, reducedMotion: 'reduce' });
+  const page = await context.newPage();
+  page.setDefaultTimeout(10000);
+  const errors = [];
+  page.on('response', response => { if (response.status() >= 400) errors.push(`HTTP ${response.status()} ${response.url()}`); });
+  page.on('pageerror', error => errors.push(error.message));
+  page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
+  try {
+    const response = await page.goto(`${base}/chapters/circular-motion.html`, { waitUntil: 'domcontentloaded', timeout: 15000 });
+    if (!response || !response.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
+    await page.getByRole('heading', { name: 'Движение по окружности', exact: true }).waitFor();
+    const required = ['1. Линейная и угловая скорость','Угловые величины и радианная мера','Связь периода, частоты и скорости','2. Центростремительное ускорение','Направление скорости и ускорения','Неравномерное движение по окружности','3. Сила, обеспечивающая поворот','Применение: повороты, вращение и орбиты'];
+    const headings = await page.locator('main h2').allTextContents();
+    const missing = required.filter(h => !headings.includes(h));
+    if (missing.length) throw new Error(`Missing lesson sections: ${missing.join('; ')}`);
+    await page.locator('#p0').evaluate(el => { el.value = '12'; el.dispatchEvent(new Event('input', { bubbles: true })); });
+    if (!(await page.locator('#o0').innerText()).includes('12')) throw new Error('Speed control did not update its readout');
+    if (!(await page.locator('#r0').innerText()).includes('7,20')) throw new Error('Centripetal acceleration did not recalculate for v=12 m/s and r=20 m');
+    await page.locator('.answers button[data-answer="b"]').click();
+    if (!(await page.locator('#feedback').innerText()).includes('Верно')) throw new Error('Circular-motion quiz rejected the correct answer');
+    const axe = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
+    const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
+    if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v=>v.id).join(', ')}`);
+    if (errors.length) throw new Error(errors.join(' | '));
+    console.log(`PASS circular-motion chapter — ${required.length} sections, live calculation controls, quiz, WCAG serious/critical: 0`);
+  } catch (error) {
+    failures.push(`circular-motion chapter: ${error.message}`);
+    console.error(`FAIL circular-motion chapter: ${error.message}`);
+    if (errors.length) failures.push(`circular-motion page errors: ${errors.join(' | ')}`);
+  } finally { await context.close(); }
+}
+
 try {
   for (const lab of labs) {
     await checkLab(lab, false);
@@ -248,6 +281,7 @@ try {
     if (abortAfterDesktopBootstrap) break;
   }
   await checkChapterPage();
+  await checkCircularChapterPage();
 } finally {
   await browser.close();
 }
