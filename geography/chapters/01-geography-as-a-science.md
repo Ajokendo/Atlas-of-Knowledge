@@ -518,13 +518,15 @@ The encyclopaedic section gives particular attention to all seven regions of Kyr
 
 1. American Association of Geographers (AAG). *Geography Awareness Week: Tools for Teaching, Learning, and Exploration.* https://www.aag.org/program/geoweek/
 2. Royal Geographical Society (with IBG). *What is geography?* https://www.rgs.org/about-us/what-is-geography
-3. National Geographic Society. *What Is Geography?* (Grades 6–12; updated 19 October 2023). https://education.nationalgeographic.org/resource/what-geography/
-4. United Nations Statistics Division. *Geospatial Information*. https://unstats.un.org/unsd/ggim/index.html
-5. International Cartographic Association (ICA) Working Group. *The Cartographic Body of Knowledge*. https://bok.cartography.no/
-6. Longley, P. A., Goodchild, M. F., Maguire, D. J., & Rhind, D. W. (2015). *Geographic Information Science and Systems* (4th ed.). Wiley. ISBN 978-1-118-67695-0.
+3. National Geographic Society. *Geography*. (Grades 9–12+; revised resource page, accessed 4 November 2026). https://education.nationalgeographic.org/resource/geography-article/
+4. National Geographic Society. *Geography Standard 1: The World in Spatial Terms*. https://education.nationalgeographic.org/resource/geography-standard-1/
+5. National Geographic Society. *Geography Standard 3: Spatial Organization*. https://education.nationalgeographic.org/resource/geography-standard-3/
+6. United Nations Global Geospatial Information Management (UN-GGIM). *About the UN-GGIM programme*. https://www.un.org/globalgeospatial/en/about
+7. International Cartographic Association, Commission on Education and Training. *Mission and Terms of Reference 2023–2027*. https://education.icaci.org/
+8. Longley, P. A., Goodchild, M. F., Maguire, D. J., & Rhind, D. W. (2015). *Geographic Information Science and Systems* (4th ed.). Wiley. ISBN 978-1-118-67695-0.
 7. National Research Council. *Rediscovering Geography: New Relevance for Science and Society*. National Academies Press, 1997. https://doi.org/10.17226/4913
 
-Ссылки и библиографические сведения следует повторно проверить перед выпуском финальной редакции. Перечень служит стартовой научной и методической опорой, а не исчерпывающей библиографией.
+Источники 2–3 обосновывают междисциплинарное определение географии; стандарты National Geographic (4–5) — пространственное мышление, чтение карт и анализ пространственной организации; UN-GGIM (6) — роль геопространственной информации; ICA (7) — картографическое образование. Учебник Longley et al. (8) поддерживает разделы о ГИС и пространственном анализе. GeoWeek (1) является образовательным ресурсом, а не научным определением дисциплины. Для отдельных примеров и утверждений о Кыргызстане необходимы страновые источники соответствующих глав.
 
 ---
 
