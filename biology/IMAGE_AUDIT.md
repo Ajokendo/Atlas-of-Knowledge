@@ -168,3 +168,14 @@ These three measures are deliberately separate. The 53/53 figure count establish
 This audit is an author-side project audit, not independent specialist certification. It does not alter the scientific content or claim new expert review. All changes in this pass are confined to `biology/` on `workspace/biology`; no main branch, other subject, shared portal or publishing configuration is changed.
 
 **Next action:** close the focused per-asset review queue in batches, updating the source register and this audit with dated evidence. Do not generate replacement images merely to clear a pending status; reuse suitable existing assets or correct the record where appropriate.
+
+
+## Focused caption remediation — 5 November 2026
+
+A repository-wide scan of the 12 Biology chapter HTML files checked every semantic figure for local image references, alternative text and captions. No missing generated-image targets were found. Three figures in `chapters/botany.html` contained informative images and bilingual alt descriptions but lacked visible `figcaption` elements. This was a real presentation/accessibility gap: users who do not rely on alt text had no visible explanation, and the figures did not meet the image-caption acceptance rule.
+
+**Correction committed:** added paired Russian and English captions to the root/stem/leaf anatomy plate, plant transport diagram, and generalized angiosperm flower/pollination diagram. Captions preserve scientific qualifications: generalized structures are not to a common scale; phloem flow depends on source–sink positions; pollination is distinct from fertilization.
+
+**Regression guard committed:** `checks.mjs` now fails if a semantic `figure` containing an `img` has no `figcaption`. Inline SVG teaching diagrams without an external `img` are not incorrectly caught by this specific rule.
+
+**Post-edit source scan:** Botany figures with images: 3; figures with captions: 3; figures with alt attributes: 3. All local generated-image references checked across the 12 chapter pages resolved to existing files. This is structural/source-level evidence, not a substitute for visual or semantic bilingual review. The global Image Verification status remains **Pending audit**.
