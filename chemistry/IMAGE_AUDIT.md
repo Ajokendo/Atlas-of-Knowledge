@@ -1,22 +1,13 @@
 # Chemistry Atlas — Image and visual audit
 
-**Standard:** IMAGE-FIRST POLICY v1.0  
+**Canonical standard:** [IMAGE-FIRST POLICY v1.0](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
 **Branch:** `workspace/chemistry`  
 **Audit date:** 2026-11-05  
 **Scope of this checkpoint:** all 22 existing static SVG files (11 RU/EN pairs), their chapter integrations, and four identified interactive visual systems. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification. The repository does not contain a historical search log proving that ready-made licensed sources were considered before these project SVGs were created; compliance with the search-first sequence for past assets remains PENDING.
 
-## Status vocabulary
+## Audit method
 
-- **MISSING** — required visual not yet available.
-- **FOUND** — candidate visual located, not yet checked.
-- **LICENSE_CHECK** — file-specific rights evidence is being checked.
-- **SCIENTIFIC_CHECK** — scientific content requires review.
-- **ADAPTED** — source visual has been modified; adaptation details must be recorded.
-- **INTEGRATED** — visual is present in the subject atlas.
-- **VERIFIED** — all applicable scientific, rights, bilingual and technical checks pass.
-- **REJECTED** — visual must not be published.
-
-Audit result values: **PASS**, **FAIL**, **PENDING**, **NOT APPLICABLE** (with reason). A visual is not VERIFIED if any applicable check is pending.
+Use the canonical policy for status definitions, audit result values, evidence requirements, and verification rules. This file contains only Chemistry-specific findings and metrics; it does not redefine the universal standard.
 
 ## Summary metrics — current checkpoint
 
@@ -45,7 +36,7 @@ Audit result values: **PASS**, **FAIL**, **PENDING**, **NOT APPLICABLE** (with r
 |---|---|---|---|---|---|---|---|
 | CH-V01 Electron probability cloud | `electron-cloud.svg` + `electron-cloud-ru.svg` | PENDING | PENDING | PASS — paired title/description | PASS — viewBox, role, title, desc | PASS — landing page | PENDING. Descriptive illustration; ensure text makes clear that the cloud represents probability distribution, not a literal orbit or solid shell. Chapter 01 placement not confirmed. |
 | CH-V02 Carbon isotopes | `isotope-abundance.svg` + `isotope-abundance-ru.svg` | PASS — 6 p⁺/6 n⁰ for C-12; 6 p⁺/7 n⁰ for C-13; abundance-weighted mean ≈12.011 | PENDING | PASS — paired title/description and labels | PASS — existing CI also checks nucleus counts | PASS — chapter 02 | PENDING due rights evidence. Natural abundance values are rounded approximations, as labelled. |
-| CH-V03 One mole | `one-mole-scale.svg` + `one-mole-scale-ru.svg` | PASS — Avogadro constant exact; Russian label says “elementary entities”; water molar mass shown approximately | PENDING | PASS — paired files | PASS — SVG metadata and local reference | PASS — chapter 05 | PENDING due rights evidence. Russian label should use “элементарных сущностей” rather than the narrower “частиц” for the SI definition; fix is queued in this checkpoint. |
+| CH-V03 One mole | `one-mole-scale.svg` + `one-mole-scale-ru.svg` | PASS — Avogadro constant exact; Russian label says “elementary entities”; water molar mass shown approximately | PENDING | PASS — paired files | PASS — SVG metadata and local reference | PASS — chapter 05 | PENDING due rights evidence. Russian wording now uses “элементарных сущностей” and the unit label “моль”. |
 | CH-V04 Reading chemical formulae | `formula-reading.svg` + `formula-reading-ru.svg` | PASS — subscripts, bracket multiplier and coefficient are distinguished | PENDING | PASS — paired files | PASS — SVG metadata and local reference | PASS — chapter 06 | PENDING due rights evidence. |
 | CH-V05 Solution saturation | `solution-saturation-particles.svg` + `solution-saturation-particles-ru.svg` | PASS — distinguishes unsaturated, saturated equilibrium and metastable supersaturated solution | PENDING | PASS — paired files | PASS — SVG metadata and local reference | PASS — chapter 07 | PENDING due rights evidence. Keep same-temperature condition visible. |
 | CH-V06 Acid–base neutralisation | `acid-base-neutralisation.svg` + `acid-base-neutralisation-ru.svg` | PASS — net ionic reaction and qualified equivalence pH for strong acid/strong base at 25 °C | PENDING | PASS — paired files | PASS — SVG metadata and local reference | PASS — chapter 08 | PENDING due rights evidence. Existing CI checks the equivalence-curve marker. |
