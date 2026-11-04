@@ -604,11 +604,7 @@ Parts of mountain relief include a **summit** (the highest point of a mountain o
 
 **Absolute elevation** describes the position of a point relative to a reference surface, usually mean sea level. **Local relief (relative elevation)** is the height difference between two points, such as a summit and the valley at its foot. A high absolute elevation does not necessarily mean a steep or highly dissected landscape; both measures are needed.
 
-**Illustration 4.4-A — Anatomy of a Mountain Landscape.**
 
-![Bilingual mountain profile showing summit, ridge, pass, slope, valley, mountain foot and local relief. / Двуязычный профиль горного ландшафта с вершиной, гребнем, перевалом, склоном, долиной, подножием и относительным превышением.](../assets/04-4-A-mountain-landscape-bilingual.svg)
-
-*Conceptual profile with no specified elevations; it shows relationships among landforms, not a specific mountain range. / Концептуальный профиль без заданных высот; он показывает взаимное положение форм, а не конкретную горную систему.*
 
 ### 4.5. Plains, Lowlands and Plateaus
 
