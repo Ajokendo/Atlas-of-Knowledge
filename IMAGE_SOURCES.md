@@ -68,7 +68,7 @@ The comparison was extended to the matching `world.js` and `model.js` modules fo
 
 The module comparison is source-lineage evidence, not a substitute for individual visual IDs, item-level rights evidence, manual visual review, or final verification.
 
-The Russian `pages.js` files translate chart/SVG labels, axis units, captions, and accessible names; the affected visual outputs are therefore Category B (adapted). The corresponding `world.js` and `model.js` files differ from upstream and require line-level review before final classification. This is a source-lineage note, not a count of distinct visuals.
+The Russian `pages.js` files translate chart/SVG labels, axis units, captions, and accessible names; the affected visual outputs are therefore Category B (adapted). All 15 `world.js` and all 15 `model.js` files have now been compared with upstream at the code level; the specific rendering and calculation differences are documented in this register and `IMAGE_AUDIT.md`. This is source-lineage evidence, not a count of distinct visuals.
 
 Retain the upstream copyright and MIT licence notice in distributed copies/substantial portions. The MIT grant covers the upstream software as licensed; any separately embedded third-party assets, if identified, require their own rights review.
 
@@ -108,17 +108,17 @@ Record a requirement here before starting a search. Move it to the integrated-as
 
 | Chapter | Required visual | Search / review status | Reason unresolved | Next action |
 |---|---|---|---|---|
-| 04 — Work and Energy | Force direction and displacement; energy comparison; height-dependent potential energy | Resolved with original SVG, code-generated plot and interactive 3D scene; no external image required | No specific learning objective requires a third-party photograph or illustration; original visuals communicate the relevant vectors and equations directly | Keep responsive/accessibility verification in CI; reopen only if classroom feedback identifies a visual gap |
+| 04 — Work and Energy | Force direction and displacement; energy comparison; height-dependent potential energy | Three local implementations are present (inline SVG, canvas plot, Three.js scene); source lineage and item-level rights are still pending | The visuals may be suitable as local explanatory models, but the current evidence does not prove independent authorship or clear all inherited content rights | Map each implementation to upstream source; complete A/B/C classification and rights review before marking VERIFIED |
 
 ## Integrated assets
 
-## Independently created visuals
+## Chapter 04 visual records — source lineage pending
 
 ### Chapter 04 — Force and displacement diagram
 - Chapter: 04 — Work and Energy
 - Learning objective: Show the angle between a constant force and displacement, and identify the force component that contributes to mechanical work
 - File: chapters/work-energy.html (inline SVG in the section “1. Механическая работа”)
-- Original source: Original SVG authored directly in the chapter; no external source
+- Local implementation: Inline SVG in `chapters/work-energy.html`; source relationship to the upstream work has not yet been established. Do not treat it as independently authored.
 - Author / creator: **PENDING** — compare against the English source; do not infer authorship from the in-repository SVG implementation
 - Source-work attribution: Nathan Liow (inherited source attribution; exact figure-level lineage pending)
 - Licence / permission: **Unknown / PENDING** for the inherited source and Russian derivative use
@@ -128,7 +128,7 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - EN caption: The component of force along the displacement is F cos α
 - Alt RU: Ящик перемещается горизонтально вправо; сила направлена вверх под углом α, её горизонтальная составляющая F cos α показана отдельно
 - Alt EN: A box moves horizontally to the right; the applied force points upward at angle α, with its horizontal component F cos α shown separately
-- Modified: Original SVG; no external asset modified
+- Modified: **Unknown / PENDING** — compare visual content with the upstream/source material before classifying A, B, or C.
 - Scientific review: Formula and vector geometry correspond to A = Fs cos α; included as a schematic, not to scale
 - Rights review: **PENDING** — the repository MIT licence alone does not establish the right to reproduce or adapt inherited source visuals
 - Integration: chapters/work-energy.html, immediately below the work formula
@@ -139,7 +139,7 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Chapter: 04 — Work and Energy
 - Learning objective: Compare kinetic, gravitational potential and total mechanical energy as mass, speed and height change
 - File: `chapters/work-energy.html`
-- Original source: Original in-repository JavaScript canvas drawing (`draw()`); no external image source
+- Local implementation: JavaScript canvas drawing (`draw()`) in `chapters/work-energy.html`; source relationship to the upstream/source material has not yet been established.
 - Author / creator: **PENDING** — compare the scene and code lineage with the English source before attributing authorship
 - Source-work attribution: Nathan Liow (inherited source attribution; exact figure/scene lineage pending)
 - Licence / permission: **Unknown / PENDING** for inherited source and derivative use
@@ -149,7 +149,7 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - EN caption: Comparison of kinetic, potential and total energy
 - Alt RU: Столбчатая диаграмма трёх значений энергии, пересчитываемых при изменении массы, скорости и высоты
 - Alt EN: Bar chart of three energy values recalculated when mass, speed and height change
-- Modified: No external asset; generated dynamically from the chapter's equations
+- Modified: **PENDING source mapping** — chart is generated from equations, but the implementation and educational visual lineage still need comparison.
 - Scientific review: Formula-based; browser smoke confirmed live recalculation, chart rendering and slider interaction on desktop and mobile.
 - Rights review: **PENDING** — source lineage and any inherited/third-party components must be checked before claiming rights clearance
 - Integration: Interactive model in `chapters/work-energy.html`
@@ -159,7 +159,7 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - Chapter: 04 — Work and Energy
 - Learning objective: Show an object moving along an inclined plane and relate its height to gravitational potential energy per unit mass
 - File: `physics-lab.js`
-- Original source: Original in-repository Three.js scene code; no external image source
+- Local implementation: Three.js scene in `physics-lab.js`; source relationship to the upstream/source material has not yet been established.
 - Author / creator: **Unknown / PENDING** — the code is in the derivative repository, but its relationship to Nathan Liow's upstream scene has not yet been compared line by line; do not infer independent authorship.
 - License: Repository-level MIT License is present, with Nathan Liow's copyright notice; applicability to this exact inherited visual and any embedded third-party components remains **PENDING**.
 - License URL: https://opensource.org/license/mit/
@@ -168,7 +168,7 @@ Record a requirement here before starting a search. Move it to the integrated-as
 - EN caption: Three-dimensional model of an object moving along an inclined surface
 - Alt RU: Шар на наклонной плоскости; модель предназначена для иллюстрации движения и изменения высоты
 - Alt EN: A sphere on an inclined plane; the model illustrates motion and changing height
-- Modified: No external asset; rendered programmatically with Three.js
+- Modified: Rendered programmatically with Three.js; this describes the rendering method, not authorship or source lineage.
 - Scientific review: Conceptual model; the phase slider moves the sphere down the incline and updates Eп/m = gh. It illustrates the height dependence of potential energy, not a complete quantitative energy-conservation simulation
 - Rights review: **PENDING** — confirm source lineage and whether any separately licensed or third-party components are embedded; repository-level MIT notice alone is not a visual-by-visual rights determination.
 - Integration: Shared 3D laboratory component in `chapters/work-energy.html`
