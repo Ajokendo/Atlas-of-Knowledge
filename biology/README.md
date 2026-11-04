@@ -1429,4 +1429,4 @@ Created and integrated the original bilingual SVG `images/generated/zoology-adap
 ## Visual production update — 4 November 2026
 - Added and integrated `images/generated/microbe-resistance.svg` in `chapters/microbiology.html`.
 - The bilingual figure demonstrates natural selection at population level: susceptible cells are suppressed under antimicrobial pressure, while heritably resistant variants survive and reproduce. It notes mutation or acquisition of resistance genes and rejects purposeful adaptation.
-- The visual programme now stands at **40 of 53 briefs (75.5%)**; 13 remain. Focused browser visual QA for these new microbiology figures is pending.
+- The visual programme now stands at **40 of 53 briefs (75.5%)**; 13 briefs remain. Focused browser visual QA for these new microbiology figures is pending.
