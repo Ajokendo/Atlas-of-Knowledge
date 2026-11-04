@@ -87,7 +87,7 @@ Priorities are editorial sequencing, not scientific approval. The marker audit c
 - [~] **[P2] От долины Чуя к высокогорьям / From the Chuy Valley to high elevations** — valley steppe and semi-desert through Kyrgyz Range juniper slopes to alpine meadows; no invented elevation labels.
 
 ### Fauna of Kyrgyzstan — `chapters/fauna-kyrgyzstan.html`
-- [~] **[P3] Высотные местообитания и фауна Кыргызстана / Altitudinal habitats and fauna of Kyrgyzstan** — valley and riparian habitats through forests, alpine meadows and cliffs; not a precise range map.
+- [x] **[P3] Высотные местообитания и фауна Кыргызстана / Altitudinal habitats and fauna of Kyrgyzstan** — original bilingual composite SVG integrated at the preserved anchor; generic fauna silhouettes only, explicitly not a range map, census or single real site.
 - [x] **[P1] Крупные млекопитающие гор Кыргызстана / Large mammals of the Kyrgyz mountains** — integrated schematic SVG habitat reconstruction; species are shown in separate ecological niches. Final browser visual QA and detailed morphology review remain pending.
 - [x] **[P1] Птицы гор, озёр и водно-болотных угодий / Birds of mountains, lakes and wetlands** — integrated schematic SVG: golden eagle by cliffs, documented Himalayan snowcock on a separate alpine slope, and unlabelled waterfowl by a lake. Browser visual QA and final morphology review remain pending.
 - [x] **[P1] Пресноводная фауна Кыргызстана / Freshwater fauna of Kyrgyzstan** — original bilingual-captioned SVG schematic integrated: separate Issyk-Kul littoral and cold mountain-stream scenes; generic unlabelled fish forms only. Browser/device visual QA remains pending.
