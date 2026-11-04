@@ -34,6 +34,7 @@
 - Поверхностное натяжение и капиллярные свойства важны для почв и живых организмов.
 
 **Место для иллюстрации 6.1-A — Earth's Water Distribution.** Диаграмма распределения всей воды и отдельная детализация пресной воды по основным резервуарам. Подписать, что проценты округлены и относятся к разным уровням общей схемы.
+**EN production brief:** Create a diagram of all Earth's water, with a separate breakdown of freshwater by major reservoir. State that percentages are rounded and that the freshwater breakdown is a nested part of the total-water diagram.
 
 ## 6.2. Круговорот воды в природе / The Hydrological Cycle
 
@@ -70,6 +71,7 @@
 - Континентальный цикл: повторное испарение и выпадение осадков внутри материка.
 
 **Место для иллюстрации 6.2-A — Global Water Cycle.** Схема потоков между океаном, атмосферой, сушей, ледниками, реками и подземными водами. Не смешивать запасы (км³) и годовые потоки (км³/год).
+**EN production brief:** Diagram water flows among the ocean, atmosphere, land, glaciers, rivers and groundwater. Keep stored volumes (km³) separate from annual fluxes (km³/year).
 
 ## 6.3. Мировой океан: единая система / The World Ocean as an Integrated System
 
@@ -95,6 +97,7 @@
 При публикации точных площадей и средних глубин необходимо использовать одну согласованную гидрографическую классификацию: оценки меняются в зависимости от того, какие моря и окраинные бассейны включены в расчёт.
 
 **Место для иллюстрации 6.3-A — The Five Oceans.** Политически нейтральная физическая карта океанов с границами выбранной гидрографической системы, ключевыми морями и основными проливами.
+**EN production brief:** Prepare a politically neutral physical map of the oceans, showing the boundaries of the selected hydrographic system, major seas and principal straits.
 
 ## 6.4. Рельеф океанического дна / Ocean-Floor Relief
 
@@ -117,6 +120,7 @@
 Рельеф океанического дна формируется тектоникой плит, вулканизмом, осадконакоплением, оползнями подводных склонов и эрозионными процессами.
 
 **Место для иллюстрации 6.4-A — Ocean Basin Cross-Section.** Поперечный профиль океанического бассейна от континентальной окраины через абиссальную равнину и срединный хребет к глубоководному желобу.
+**EN production brief:** Draw an ocean-basin cross-section from the continental margin through an abyssal plain and mid-ocean ridge to a deep-sea trench.
 
 ## 6.5. Температура, солёность и плотность морской воды / Seawater Temperature, Salinity and Density
 
@@ -139,6 +143,7 @@
 Плотность морской воды зависит прежде всего от температуры, солёности и давления. Холодная и более солёная вода обычно плотнее тёплой и менее солёной при сопоставимом давлении. Различия плотности участвуют в формировании глубинной циркуляции.
 
 **Место для иллюстрации 6.5-A — Ocean Temperature and Salinity Profiles.** Сопоставить температурный и солёностный профили в тропическом, умеренном и полярном океанических районах.
+**EN production brief:** Compare temperature and salinity profiles for tropical, temperate and polar ocean regions. Identify depth and units, and state that the profiles are illustrative rather than universal.
 
 ## 6.6. Волны, приливы и морские течения / Waves, Tides and Ocean Currents
 
@@ -170,6 +175,7 @@
 - прибрежные и локальные течения.
 
 **Место для иллюстрации 6.6-A — Ocean Motion.** Схема ветровых волн, приливов и поверхностных/глубинных течений с раздельными условными обозначениями.
+**EN production brief:** Show wind waves, tides and surface/deep currents using distinct symbols and separate panels or clearly separated layers.
 
 ## 6.7. Глобальная океаническая циркуляция / Global Ocean Circulation
 
@@ -184,6 +190,7 @@
 Термохалинная циркуляция связана с различиями температуры и солёности, определяющими плотность воды. Образование плотных глубинных вод происходит в отдельных высокоширотных районах, но современная глобальная циркуляция не является простым конвейером с постоянной скоростью: она включает сложные пути, перемешивание, вихри и обмен с атмосферой.
 
 **Место для иллюстрации 6.7-A — Global Ocean Circulation.** Карта основных поверхностных течений и отдельная упрощённая схема глубинного переноса водных масс; различать наблюдаемые течения и концептуальную модель.
+**EN production brief:** Map major surface currents and provide a separate simplified diagram of deep-water mass transport. Distinguish observed currents from the conceptual global circulation model.
 
 ## 6.8. Морская вода, химический состав и газообмен / Seawater Chemistry and Gas Exchange
 
@@ -217,6 +224,7 @@
 К важным экосистемам относятся коралловые рифы, мангровые леса, морские травяные луга, солёные марши, открытый океан и глубоководные сообщества.
 
 **Место для иллюстрации 6.9-A — Ocean Ecosystems.** Разрез от побережья до открытого океана с литоралью, рифом, пелагиалью, бенталью и глубоководной зоной.
+**EN production brief:** Create a coastal-to-open-ocean cross-section showing the littoral zone, reef, pelagic realm, benthic realm and deep-sea zone. Do not imply that zone boundaries occur at universal depths.
 
 ## 6.10. Морские ресурсы и хозяйственное использование океана / Marine Resources and Ocean Uses
 
@@ -254,6 +262,7 @@
 - международное сотрудничество.
 
 **Место для иллюстрации 6.11-A — Ocean Pollution Pathways.** Схема путей поступления загрязнителей с суши, судов и атмосферного переноса; показать меры предотвращения на каждом этапе.
+**EN production brief:** Diagram pollutant pathways from land, ships and atmospheric transport. Show prevention or mitigation measures at each stage.
 
 ## 6.12. Ледники, морской лёд и криосфера / Glaciers, Sea Ice and the Cryosphere
 
@@ -268,6 +277,7 @@
 Баланс массы — разность между накоплением снега и льда и потерями вследствие таяния, сублимации, откалывания айсбергов и других процессов. Положительный баланс означает увеличение массы за рассматриваемый период, отрицательный — её уменьшение.
 
 **Место для иллюстрации 6.12-A — Cryosphere Components.** Карта и разрез, показывающие ледники, ледяные щиты, морской лёд, сезонный снег и многолетнюю мерзлоту; визуально различать наземный и морской лёд.
+**EN production brief:** Use a map and cross-section to show glaciers, ice sheets, sea ice, seasonal snow and permafrost. Visually distinguish land ice from floating sea ice.
 
 ## 6.13. Реки и речные бассейны / Rivers and Drainage Basins
 
@@ -288,6 +298,7 @@
 Реки выполняют экологические, транспортные, энергетические и водоснабженческие функции. Плотины и водозаборы меняют естественный режим стока, перенос наносов и миграцию водных организмов.
 
 **Место для иллюстрации 6.13-A — River Basin Anatomy.** Схема бассейна с водоразделом, истоком, притоками, главным руслом, поймой и устьем.
+**EN production brief:** Diagram a drainage basin with the watershed divide, source, tributaries, main channel, floodplain and river mouth.
 
 ### 6.13.1. Практический пример: оценка расхода воды в реке / Worked Example: Estimating River Discharge
 
@@ -351,6 +362,7 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 **Эвтрофикация** — обогащение водоёма питательными веществами, прежде всего соединениями азота и фосфора. Чрезмерная эвтрофикация может вызывать цветение воды, снижение прозрачности и дефицит кислорода.
 
 **Место для иллюстрации 6.14-A — Lake Types and Lake Structure.** Сравнить тектоническую, ледниковую, вулканическую и карстовую котловины; дополнить разрезом стратифицированного озера.
+**EN production brief:** Compare tectonic, glacial, volcanic and karst lake basins, and add a cross-section of a stratified lake.
 
 ## 6.15. Подземные воды / Groundwater
 
@@ -366,6 +378,7 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 Подземные воды важны для питьевого водоснабжения, сельского хозяйства и поддержания речного стока в засушливые сезоны. Их уязвимость зависит от глубины, проницаемости пород, времени обновления и характера землепользования.
 
 **Место для иллюстрации 6.15-A — Groundwater System.** Геологический разрез с зоной аэрации, уровнем грунтовых вод, водоносными горизонтами, водоупорами, скважинами и источником.
+**EN production brief:** Draw a geological cross-section showing the unsaturated zone, water table, aquifers, aquitards, wells and a spring.
 
 ## 6.16. Водные ресурсы, дефицит и управление / Water Resources, Scarcity and Management
 
@@ -401,6 +414,7 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 Последствия зависят от географии, инфраструктуры и способности общества адаптироваться. Изменение осадков и стока не следует описывать как одинаковое для всех регионов.
 
 **Место для иллюстрации 6.17-A — Climate Change and the Water Cycle.** Причинно-следственная схема влияния потепления на снег, ледники, испарение, осадки, сток и экстремальные гидрологические явления.
+**EN production brief:** Create a cause-and-effect diagram showing how warming can affect snow, glaciers, evaporation, precipitation, runoff and hydrological extremes. Distinguish observed trends from projections where data are shown.
 
 ### 6.17.1. Как составить простой водный баланс водосбора / Building a Simple Catchment Water Balance
 
@@ -487,6 +501,7 @@ P = ET + R + \Delta S,
 Дополнительное задание: сравните два океанических региона по температуре поверхности, солёности и направлению основных течений, используя карту и данные с указанием периода наблюдений.
 
 **Место для иллюстрации 6.18-A — Hydrological Basin Exercise.** Учебная карта бассейна, таблица водного баланса и график сезонного расхода реки.
+**EN production brief:** Prepare a teaching basin map, a water-balance table and a seasonal river-discharge graph. Label all data as hypothetical unless they are taken from a named, dated source.
 
 ## English-language chapter text
 
