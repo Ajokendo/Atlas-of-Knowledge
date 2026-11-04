@@ -560,7 +560,7 @@ for (const [relative, minimum] of [["chapters/atomic-structure.html", 2], ["chap
     continue;
   }
   const page = fs.readFileSync(pagePath, "utf8");
-  const count = (page.match(/<svg\\b/gi) || []).length;
+  const count = (page.match(/<svg\b/gi) || []).length;
   if (count < minimum) errors.push(relative + ": expected at least " + minimum + " inline SVG visual models; found " + count);
 }
 if (!fs.existsSync(path.join(root, "periodic-table.html"))) errors.push("periodic-table.html: interactive periodic table visual is missing");
