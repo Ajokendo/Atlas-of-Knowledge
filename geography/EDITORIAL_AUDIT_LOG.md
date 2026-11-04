@@ -1999,3 +1999,10 @@ A final compliance check against the Geography image-first instruction found tha
 - Geography README: `fdf2a04b6f399d8e640796e1121c5ea9ddd002d8`.
 
 - Final Chapter 02 status metadata commit (after the copy-edit commit): `0d93217b96f9c3b6a69e5ac4462553be443aa3c8`; final verified chapter blob: `240730711a52280d790ebedc1c5909a12b6537f9`.
+
+
+### 4 November 2026 — final structural follow-up
+
+- A final heading-hierarchy pass on Chapter 02 found and corrected two Markdown structure defects: the English `2.5.2 Plate Tectonics` heading had been joined to the opening sentence of its paragraph, and the Russian `2.14.2` worked-example heading was incorrectly marked as a level-2 heading. Both corrections were committed directly to `workspace/geography` and the updated chapter was fetched again from GitHub.
+- These were structural/Markdown corrections only; no scientific claim or numerical value was changed. Chapter 02 remains at 95% working readiness because the remaining acceptance activities are external: teacher-led classroom review, portal feedback, and deployed-site device/accessibility checks. No such tests are claimed as complete.
+- Follow-up commits: `4a9e20b1b8c0f87d58fbf365a851e2d1865111bc` (English heading separation) and `4fbd643f15ec4be360b62f7aca07d40f043d282a` (Russian heading hierarchy).
