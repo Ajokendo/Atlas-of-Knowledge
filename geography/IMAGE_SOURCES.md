@@ -191,3 +191,29 @@ The chapter embeds these 10 local SVGs in both language sections. The production
 | 3.9-A | [International Commission on Stratigraphy — current chart](https://stratigraphy.org/chart/); embedded file: [ChronostratChart2026-06.jpg](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg) | International Commission on Stratigraphy (ICS), version 2026/06. The current chart page states © ICS 2026 and makes the chart available under CC BY 4.0. | Suggested credit: International Commission on Stratigraphy, International Chronostratigraphic Chart v2026/06, CC BY 4.0; cite Cohen, Harper, Gibbard & Car (2025). No modification recorded. | Rights PASS for unchanged reuse. Scientific age/scale caveat present. The chart's embedded labels are English-only; Russian-language equivalent explanation remains PENDING. Other accessibility and rendered technical checks PENDING. |
 
 **Source checks accessed 5 November 2026.** USGS exact media pages identify the relevant Public Domain status; the USGS general copyright guidance also warns that some third-party material hosted on USGS pages may carry separate rights, which is why the Ore/Mineral composite remains under review. The ICS current-chart page identifies the exact version and CC BY 4.0 terms.
+
+
+## Chapter 04 — Earth’s landforms and relief (initial asset-level records)
+
+The 16 local bilingual SVGs below are embedded in both language sections. The production register describes them as original project artwork; they are provisionally classified C — Created. For each file, the individual creator/rightsholder, authoring tool/workflow, project licence and documented prior image-first search remain Unknown / PENDING. The SVG format and repository path do not by themselves establish authorship or rights.
+
+| Visual ID | Filename | Category / method | Creator and rights basis | Search record | Current state |
+|---|---|---|---|---|---|
+| 4.2-A | `geography/assets/04-2-A-endogenic-exogenic-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.3-A | `geography/assets/04-3-A-landform-classification-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.4-A | `geography/assets/04-4-A-mountain-landscape-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.5-A | `geography/assets/04-5-A-plains-plateaus-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.6-A | `geography/assets/04-6-A-river-landforms-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.7-A | `geography/assets/04-7-A-glacial-landforms-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.8-A | `geography/assets/04-8-A-aeolian-landforms-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.9-A | `geography/assets/04-9-A-karst-system-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.10-A | `geography/assets/04-10-A-coastal-ocean-floor-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.11-A | `geography/assets/04-11-A-slope-processes-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.12-A | `geography/assets/04-12-A-weathering-processes-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.13-A | `geography/assets/04-13-A-earth-vertical-extremes-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.14-A | `geography/assets/04-14-A-topographic-map-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.14-B | `geography/assets/04-14-B-dem-dsm-dtm-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.15-A | `geography/assets/04-15-A-human-modification-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 4.15-B | `geography/assets/04-15-B-topographic-map-exercise-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+
+**Geography-specific review flags:** 4.14-A and 4.15-B are conceptual topographic teaching diagrams, not georeferenced map products; do not invent a CRS or real-world coordinate accuracy. If any map panel is intended to represent real terrain, its projection, CRS, scale, north orientation, source data, vertical datum and date must be supplied. 4.14-B must distinguish DEM, DSM and DTM consistently. 4.13-A must preserve the source and uncertainty of the Everest and Challenger Deep values and avoid implying directly comparable measurement methods. Detailed scientific and data-provenance checks remain PENDING.
