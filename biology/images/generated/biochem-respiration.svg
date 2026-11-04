@@ -57,8 +57,7 @@
 <!-- ATP synthase -->
 <rect x="825" y="455" width="86" height="95" rx="22" class="atp"/>
 <circle cx="868" cy="445" r="28" class="atp"/>
-<path d="M868 410V435" class="pflow"/>
-<path d="M868 565V505" class="pflow"/>
+<path d="M868 410V600" class="pflow"/>
 <text x="980" y="480" class="head">АТФ-синтаза</text>
 <text x="980" y="506" class="small">ATP synthase</text>
 <text x="980" y="535" class="small">H⁺ возвращаются</text>
