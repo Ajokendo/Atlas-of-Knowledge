@@ -3,7 +3,7 @@
 Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Visual production checkpoint — 4 November 2026
-- 38 of 53 mapped illustration briefs are produced or integrated (71.7%); 15 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
+- 39 of 53 mapped illustration briefs are produced or integrated (73.6%); 14 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
 - Added the original bilingual `fauna-invertebrates.svg` comparison plate to the Kyrgyzstan fauna chapter. It distinguishes insect and arachnid body plans and does not claim to be a regional species inventory.
 
 ## Languages and design
@@ -1417,4 +1417,10 @@ Created and integrated the original bilingual SVG `images/generated/zoology-adap
 ## Visual production update — 4 November 2026
 - Added and integrated `images/generated/zoology-anatomy.svg`, an original bilingual comparison of typical body coverings and respiratory structures across the five familiar vertebrate teaching groups.
 - The figure explicitly qualifies group-level patterns: gills occur in most fish but are not universal; amphibian respiration changes through development; and within-group exceptions exist. It is a simplified teaching comparison, not a species-level diagnostic chart.
-- The visual programme now stands at **38 of 53 briefs (71.7%)**; 15 briefs remain. This is a brief-level production count and does not imply that focused browser QA or manual device/accessibility testing is complete.
+- The visual programme now stands at **39 of 53 briefs (73.6%)**; 14 briefs remain. This is a brief-level production count and does not imply that focused browser QA or manual device/accessibility testing is complete.
+
+
+## Visual production update — 4 November 2026
+- Added and integrated `images/generated/microbe-virus-cycle.svg` in `chapters/microbiology.html`.
+- The bilingual plate presents a five-stage generalised viral replication sequence and explicitly avoids implying that entry, genome replication or release follows one universal mechanism across virus families.
+- The visual programme now stands at **39 of 53 briefs (73.6%)**; 14 remain. Focused browser visual QA for this new figure is still pending.
