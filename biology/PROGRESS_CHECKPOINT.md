@@ -1156,3 +1156,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - The caption parser was corrected to recognise `figcaption` elements with attributes (such as `class="caption"`); classed captions are valid and were not missing.
 - Combined 12-chapter totals remain 59 semantic figures, 57 image-containing figures and 62 external image elements; all image figures have bilingual captions and all image elements have non-empty alt text.
 - This is structural source validation only. No claim of new rendered-image inspection or school/device QA. Image Verification remains Pending audit. Editorial readiness remains **99/100**; no score increase is assigned for this bounded revalidation.
+
+
+### SVG metadata and source-structure sweep — 5 November 2026
+
+- Rechecked all 48 original SVG assets in `images/generated/` (47 chapter illustrations plus the separate cover asset).
+- Corrected bilingual `<desc>` metadata in `cell-animal.svg` and `zoology-adaptation.svg`; all 48 assets now have Russian/English `<title>` and `<desc>` content and a `viewBox` under the checked source patterns.
+- No embedded script, `foreignObject`, external/data URI reference or embedded raster `<image>` element was detected in this sweep.
+- This is a bounded source-pattern check, not full XML conformance validation, rendered visual QA, or device/screen-reader testing. Global Image Verification remains Pending audit.
