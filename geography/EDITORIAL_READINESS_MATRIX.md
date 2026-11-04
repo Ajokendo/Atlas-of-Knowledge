@@ -322,3 +322,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 06 — scope of oceanographic data claims — 5 November 2026
 
 - Current numerical global-water claims are tied to the USGS distribution table; salinity/thermodynamic terminology is tied to TEOS-10; ocean/sea classification and hydrographic/bathymetric products are tied to IHO S-23, S-44, S-102 and S-100. The current text does not assert specific trench-depth or mean-depth measurements. Future bathymetry maps require a named survey/product, date, resolution and vertical datum.
+
+
+### Chapter 09 — World Bank vital-rate metadata — 5 November 2026
+
+- Added direct World Bank metadata links for crude birth and death rate indicators; their definitions support use of mid-year population as the annual denominator. Population-density land-area metadata remains separately cited. Commit: `16649e8552437b4ed962f8f9410125bbd32220b3`.
