@@ -522,30 +522,6 @@
 
 **Проверьте себя:** почему по одному лишь факту сокращения площади леса нельзя точно рассчитать изменение паводкового стока?
 
-### Worked Example: Vegetation Change in a Mountain Catchment
-
-Consider a hypothetical mountain catchment covering 10 km². Forest cover has declined on some slopes. The task is to trace which parts of the natural system may respond and identify the data needed to test the expected effects.
-
-**Step 1. Identify the initial change.**  
-Suppose comparable satellite images show that forest area declined from 6 to 4 km². The loss is 2 km²: forest cover fell from 60% to 40% of the catchment area. That is a decrease of 20 percentage points, or about 33% relative to the original forest area: (6 − 4) / 6 × 100%.
-
-**Step 2. Trace possible links between Earth's spheres.**
-
-| Component | Possible change | What to measure |
-|---|---|---|
-| Biosphere | Reduction in forest habitat | Area and condition of vegetation cover |
-| Soil and lithosphere | Under some conditions, greater soil vulnerability to erosion | Soil loss, exposed ground, slope stability |
-| Atmosphere | Changes in shading, evaporation and transpiration | Temperature, humidity, precipitation |
-| Hydrosphere | The balance between infiltration and surface runoff may change | Streamflow, turbidity, infiltration |
-
-**Step 3. Do not draw a conclusion without testing it.**  
-A reduction in forest area alone does not prove that floods will necessarily become more severe or river flow will increase. The outcome also depends on rainfall intensity, slope steepness, soil type, road conditions, seasonality, frozen ground and other factors. Testing the hypothesis requires observations before and after the change and, where possible, comparison with a similar catchment where forest cover has not changed substantially.
-
-**Conclusion.** A change in one component of the geographic envelope may affect others, but the direction and magnitude of the effect must be supported by evidence. A systems diagram helps formulate hypotheses and select measurements; it does not replace observation.
-
-**Check your understanding:** Why can the change in flood runoff not be calculated precisely from the reduction in forest area alone?
-
----
 
 ### 2.14.3. Как распознавать обратные связи в природной системе / Recognising Feedbacks in a Natural System
 
@@ -558,16 +534,6 @@ A reduction in forest area alone does not prove that floods will necessarily bec
 При анализе схемы обозначьте переменные и направление причинных связей, отметьте задержки во времени, различайте корреляцию и доказанный механизм, укажите внешние факторы. Схема не заменяет измерения и модель.
 
 **Задание.** Постройте причинную схему «снег — альбедо — поглощение солнечной энергии — температура». Обозначьте знак каждой связи и объясните, какие данные нужны для оценки силы обратной связи в конкретном горном районе.
-
-A feedback occurs when a change in one component of a system affects other components, whose response then amplifies or weakens the initial change. **Positive feedback** amplifies the initial influence; **negative feedback** counteracts it and may stabilise the system. These terms describe the direction of an effect, not whether it is good or bad.
-
-**Positive feedback example:** warming reduces snow cover; the darker surface reflects less solar energy; energy absorption increases and contributes to further warming. The strength depends on season, cloud cover, elevation and surface properties.
-
-**Negative feedback example in an ecosystem:** when prey become more abundant, food becomes more available to predators, and predator numbers may rise after a time lag. Increased predation reduces the prey population; with less food available, predator numbers may then decline as well. This interaction can constrain population growth, although time lags may produce population cycles.
-
-When analysing a diagram, identify variables and causal links, note time lags, distinguish correlation from an established mechanism, and identify external factors. A diagram does not replace measurements or a model.
-
-**Activity.** Draw a causal diagram linking snow cover, albedo, absorbed solar energy and temperature. Mark the sign of each link and explain what data are needed to estimate feedback strength in a particular mountain area.
 
 ## 2.15. Итоговая модель географической оболочки / Integrated Model
 
