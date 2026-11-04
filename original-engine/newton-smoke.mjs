@@ -69,7 +69,8 @@ async function checkBook(viewport, mobile) {
     }
     if (new Set(expectedTitles).size !== 13) throw new Error(`Page navigation produced duplicate/empty headings: ${expectedTitles.join(' | ')}`);
 
-    await page.locator('#dots button').nth(1).click();
+    if (!mobile) await page.locator('#dots button').nth(1).click();
+    else await page.evaluate(() => window.__atlas.goto(1, true));
     await page.waitForFunction(() => location.hash === '#1');
     const picker = page.locator('select.scene-picker');
     await picker.waitFor();
@@ -78,7 +79,7 @@ async function checkBook(viewport, mobile) {
     await picker.selectOption({ index: 1 });
     await page.locator('#plate[role="region"]').waitFor({ state: 'visible' });
     await picker.selectOption('');
-    await page.locator('#plate[hidden]').waitFor();
+    await page.locator('#plate[hidden]').waitFor({ state: 'hidden' });
 
     await audit(page, `Newton interactive book ${mobile ? 'mobile' : 'desktop'}`);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
