@@ -1389,3 +1389,8 @@ Created and integrated `images/generated/ecology-cycles.svg` at the original `im
 ## Ecology mountain catchment visual checkpoint — 4 November 2026
 
 Created and integrated the original bilingual-accessible SVG `images/generated/ecology-mountain.svg` at the existing `image-brief-ecology-mountain` anchor in `chapters/ecology.html`. The generalized landscape links glacier melt and surface runoff with stream channels, soil infiltration, subsurface flow, vegetation roots and river-valley habitats. It contains no named species, fixed elevation labels or claim that vegetation belts occur at identical elevations on every slope. The visual register now records **32 of 53 briefs produced or integrated (60.4%)**: 15 locally packaged WebP photographs and 21 original SVG schematics. Focused browser image-decode QA is pending.
+
+
+## Ecology food-web visual checkpoint — 4 November 2026
+
+Created and integrated the original `images/generated/ecology-web.svg` at the existing `image-brief-ecology-web` anchor in `chapters/ecology.html`. The diagram uses generalized organism groups and resource-to-consumer arrows; decomposers return mineral nutrients, while energy is not depicted as cycling. The visual register now records **33 of 53 briefs produced or integrated (62.3%)**: 15 locally packaged WebP photographs and 22 original SVG schematics. Focused browser image-decode QA is pending.
