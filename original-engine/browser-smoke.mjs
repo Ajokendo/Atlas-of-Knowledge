@@ -394,6 +394,8 @@ async function checkMomentumChapterPage() {
         await page.locator('#dots button').nth(1).click();
       }
       await page.waitForFunction(old => document.querySelector('#sheet h1')?.textContent?.trim() !== old, before, { timeout: 15000 });
+      // Let the scroll cue's 600 ms fade finish before checking its final accessible state.
+      await page.waitForTimeout(700);
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
       const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
       if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => `${v.id}: ${v.nodes.map(n => `${n.target.join(' ')} [${n.failureSummary || n.html}]`).join(' | ')}`).join(' ; ')}`);
