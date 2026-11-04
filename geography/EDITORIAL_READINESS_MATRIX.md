@@ -91,7 +91,7 @@
 ## Chapter 01–02 visual inventory correction — 4 November 2026
 
 - Chapter 01 contains **3** distinct visual briefs: 01-A, 01-B and 01-C.
-- Chapter 02 contains **18** distinct visual briefs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A and 2.14-A.
+- Chapter 02 contains **19** distinct visual IDs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A and 2.14-A.
 - The earlier figure of 9 for Chapter 02 was an undercount caused by counting only a subset of the placeholder naming patterns. The correct total is **18**, pending a repository-wide cross-check of visual IDs.
 - None of these 21 briefs is counted as an image found, licensed, generated or integrated. Image status is tracked separately in `geography/IMAGE_SOURCES.md`.
 
