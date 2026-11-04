@@ -83,7 +83,7 @@
 | Углекислый газ (CO₂) | около 0,0426% (425,6 ppm — глобальное среднегодовое значение 2025 года, предварительная оценка NOAA) |
 | Другие следовые газы (без CO₂) | менее 0,01% |
 
-Значения округлены. Концентрация CO₂ меняется во времени и зависит от места измерения. По данным NOAA, глобальное среднегодовое значение для сухого воздуха в сети морских приповерхностных пунктов наблюдений составило 425,6 ppm в 2025 году (предварительная оценка; исходное значение — 425,62 ppm). Водяной пар не включён, поскольку его содержание сильно варьируется.
+Значения округлены. Концентрация CO₂ меняется во времени и зависит от места измерения. По данным NOAA, глобальное среднегодовое значение для сухого воздуха в сети морских приповерхностных пунктов наблюдений составило 425,6 ppm в 2025 году (предварительная оценка; исходное значение — 425,62 ± 0,05 ppm). Водяной пар не включён, поскольку его содержание сильно варьируется.
 
 - Азот участвует в глобальном азотном цикле и становится доступен организмам после биологического или абиотического связывания.
 - Кислород необходим для аэробного дыхания.
@@ -516,7 +516,7 @@
 | Гидросфера | Может измениться соотношение инфильтрации и поверхностного стока | Расход воды, мутность, инфильтрация |
 
 **Шаг 3. Не делаем вывод без проверки.**  
-Уменьшение лесной площади само по себе не доказывает, что паводки обязательно станут сильнее или что речной сток увеличится. Результат зависит также от интенсивности осадков, крутизны склонов, типа почвы, состояния дорог, сезонности, мерзлоты и других факторов. Для проверки нужны наблюдения до и после изменения, а по возможности — сравнение с похожим водосбором, где лесной покров существенно не менялся.
+Уменьшение лесной площади само по себе не доказывает, что паводки обязательно станут сильнее или что речной сток увеличится. Результат зависит также от интенсивности осадков, крутизны склонов, типа почвы, состояния дорог, сезонности, сезонного промерзания грунта и наличия многолетней мерзлоты, а также других факторов. Для проверки нужны наблюдения до и после изменения, а по возможности — сравнение с похожим водосбором, где лесной покров существенно не менялся.
 
 **Вывод.** Изменение одного компонента географической оболочки может повлиять на другие, но направление и сила воздействия должны подтверждаться данными. Системная схема помогает сформулировать гипотезы и выбрать измерения, а не заменяет наблюдения.
 
@@ -654,7 +654,7 @@ Earth's atmosphere is held by gravity. It regulates heat exchange, transports mo
 
 #### 2.3.1. Atmospheric Composition
 
-The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and less than 0.01% other trace gases (excluding CO₂). Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm (425.62 ppm before rounding). Water vapour is excluded because its concentration is highly variable.
+The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and less than 0.01% other trace gases (excluding CO₂). Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm (425.62 ± 0.05 ppm before rounding). Water vapour is excluded because its concentration is highly variable.
 
 Nitrogen is part of the global nitrogen cycle and becomes available to organisms after biological or abiotic fixation. Oxygen is essential for aerobic respiration. Argon is chemically inert. Carbon dioxide is used in photosynthesis and contributes to the natural greenhouse effect. Water vapour forms clouds and precipitation and transports latent heat.
 
@@ -961,7 +961,7 @@ Suppose comparable satellite images show that forest area declined from 6 to 4 k
 | Hydrosphere | The balance between infiltration and surface runoff may change | Streamflow, turbidity, infiltration |
 
 **Step 3. Do not draw a conclusion without testing it.**  
-A reduction in forest area alone does not prove that floods will necessarily become more severe or river flow will increase. The outcome also depends on rainfall intensity, slope steepness, soil type, road conditions, seasonality, frozen ground and other factors. Testing the hypothesis requires observations before and after the change and, where possible, comparison with a similar catchment where forest cover has not changed substantially.
+A reduction in forest area alone does not prove that floods will necessarily become more severe or river flow will increase. The outcome also depends on rainfall intensity, slope steepness, soil type, road conditions, seasonality, seasonal soil freezing, permafrost conditions and other factors. Testing the hypothesis requires observations before and after the change and, where possible, comparison with a similar catchment where forest cover has not changed substantially.
 
 **Conclusion.** A change in one component of the geographic envelope may affect others, but the direction and magnitude of the effect must be supported by evidence. A systems diagram helps formulate hypotheses and select measurements; it does not replace observation.
 
@@ -1090,5 +1090,5 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 - Четырёхкомпонентная учебная схема оболочек и пятисферная схема науки о системе Земли используют разные уровни группировки; криосфера пересекается с гидросферой, а литосфера является частью геосферы.
 - Термин «географическая оболочка» следует отличать от более широкого понятия «система Земли».
 - Для иллюстраций необходимо отдельно проверить все географические подписи, численные значения, единицы измерения и масштаб.
-- Для глобальной концентрации CO₂ указывать измерительную сеть и показатель: среднегодовое значение NOAA по морским приповерхностным пунктам наблюдений (425,6 ppm в 2025 году, предварительно) и глобальная поверхностная оценка WMO (426,8 ppm в 2025 году) получены разными сетями и методами; эти значения не следует считать взаимозаменяемыми.
-- When reporting global CO₂ concentration, identify the observing network and metric: NOAA's marine-surface-site annual mean (425.6 ppm in 2025, preliminary) and WMO's global surface estimate (426.8 ppm in 2025) use different networks and methods and should not be treated as interchangeable.
+- Для глобальной концентрации CO₂ указывать измерительную сеть и показатель: среднегодовое значение NOAA по морским приповерхностным пунктам наблюдений (425,6 ppm в 2025 году, предварительно; 425,62 ± 0,05 ppm до округления) и глобальная поверхностная оценка WMO (426,8 ± 0,2 ppm в 2025 году) получены разными сетями и методами; эти значения не следует считать взаимозаменяемыми.
+- When reporting global CO₂ concentration, identify the observing network and metric: NOAA's marine-surface-site annual mean (425.6 ppm in 2025, preliminary; 425.62 ± 0.05 ppm before rounding) and WMO's global surface estimate (426.8 ± 0.2 ppm in 2025) use different networks and methods and should not be treated as interchangeable.
