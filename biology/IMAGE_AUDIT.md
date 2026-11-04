@@ -155,7 +155,13 @@ Report these separately:
 - **Image Verification:** assets marked VERIFIED / integrated assets × 100%.
 - **Image Gaps:** number of required briefs still missing or requiring replacement.
 
-At this baseline, production/integration coverage is 53/53 (100%). A defensible Image Verification percentage is **not yet established** because the complete per-asset human legal/scientific/bilingual visual gate has not been closed. Keep it as `Pending audit` rather than substituting the 100% production figure.
+**Current measured values (5 November 2026):**
+
+- **Image Coverage: 100% (53/53).** A direct scan of all 13 Biology HTML pages found 53 semantic `<figure>` elements at the mapped image anchors and zero remaining image placeholders.
+- **Image Verification: Pending audit (percentage not yet defensible).** The register still contains 33 rows with explicit pending final visual, morphology or browser-review notes. No 100% verification claim is permitted until every applicable per-asset human check is recorded.
+- **Image Gaps: 0 confirmed missing required briefs/assets.** This is a production-gap count only; an asset may still require correction or replacement if its pending scientific or visual review fails.
+
+These three measures are deliberately separate. The 53/53 figure count establishes integration coverage, not scientific/legal/bilingual verification.
 
 ## 10. Audit history and scope boundary
 
