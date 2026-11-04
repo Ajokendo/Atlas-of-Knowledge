@@ -3,7 +3,8 @@
 <desc id="desc">Сравнение клеточной бактериальной организации с неклеточной вирусной частицей. Подписаны клеточная стенка, мембрана, цитоплазма, нуклеоид и рибосомы бактерии; геном, капсид и возможная липидная оболочка вируса. A comparison of cellular bacterial organisation with an acellular viral particle. Bacterial cell wall, membrane, cytoplasm, nucleoid and ribosomes are labelled; viral genome, capsid and optional lipid envelope are shown.</desc>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#43566b" stroke-width="1.3"/></marker></defs>
 <rect width="1200" height="800" rx="28" fill="#fbfcf8"/>
-<text x="600" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#24364b">ДВА РАЗНЫХ УРОВНЯ ОРГАНИЗАЦИИ / TWO DIFFERENT LEVELS OF ORGANISATION</text>
+<text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#24364b">ДВА РАЗНЫХ УРОВНЯ ОРГАНИЗАЦИИ</text>
+<text x="600" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#24364b">TWO DIFFERENT LEVELS OF ORGANISATION</text>
 <g font-family="Arial,sans-serif">
 <rect x="42" y="100" width="540" height="590" rx="22" fill="#eef5e9" stroke="#78966c" stroke-width="3"/>
 <text x="312" y="145" text-anchor="middle" font-size="27" font-weight="700" fill="#294d32">БАКТЕРИЯ / BACTERIUM</text>
@@ -25,7 +26,7 @@
 <circle cx="888" cy="365" r="112" fill="#eeeaf6" stroke="#8a79ad" stroke-width="15"/>
 <path d="M824 365q30-80 62 0t65 0t35 0" fill="none" stroke="#b34e69" stroke-width="8" stroke-linecap="round"/>
 <g stroke="#43566b" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M1000 240L970 270"/><path d="M1020 480L990 440"/><path d="M760 520L825 400"/></g>
-<g fill="#26384a" font-size="19"><text x="1000" y="220">Липидная оболочка</text><text x="1000" y="244">у некоторых вирусов /</text><text x="1000" y="268">Lipid envelope in some</text><text x="1000" y="292">viruses only</text><text x="1010" y="510">Капсид / Capsid</text><text x="650" y="550">Геном (ДНК или РНК) /</text><text x="650" y="575">Genome (DNA or RNA)</text></g>
+<g fill="#26384a" font-size="15"><text x="1000" y="220">Липидная оболочка</text><text x="1000" y="240">у некоторых вирусов</text><text x="1000" y="260">Lipid envelope in</text><text x="1000" y="280">some viruses only</text><text x="1000" y="510">Капсид / Capsid</text><text x="650" y="550">Геном (ДНК или РНК) /</text><text x="650" y="575">Genome (DNA or RNA)</text></g>
 <text x="888" y="625" text-anchor="middle" font-size="18" fill="#5a5074">Нет цитоплазмы и рибосом / No cytoplasm or ribosomes</text>
 <text x="888" y="657" text-anchor="middle" font-size="16" fill="#5a5074">Схематично; не в масштабе / Schematic; not to scale</text>
 </g>
