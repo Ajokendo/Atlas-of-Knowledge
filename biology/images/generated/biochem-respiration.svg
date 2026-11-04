@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
 <title id="title">Клеточное дыхание / Cellular respiration</title>
-<desc id="desc">Гликолиз показан в цитозоле; цикл лимонной кислоты — в матриксе митохондрии; дыхательная цепь и АТФ-синтаза — во внутренней мембране. Протоны перекачиваются из матрикса в межмембранное пространство и возвращаются через АТФ-синтазу. Glycolysis in cytosol, citric acid cycle in matrix, electron transport chain and ATP synthase in inner membrane.</desc>
+<desc id="desc">Гликолиз показан в цитозоле; цикл лимонной кислоты — в матриксе митохондрии; дыхательная цепь и АТФ-синтаза — во внутренней мембране. Протоны перекачиваются из матрикса в межмембранное пространство и возвращаются через АТФ-синтазу. / Glycolysis is shown in the cytosol; the citric acid cycle in the mitochondrial matrix; and the electron transport chain and ATP synthase in the inner membrane. Protons are pumped from the matrix into the intermembrane space and flow back through ATP synthase.</desc>
 <defs>
  <marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#405d78"/></marker>
  <marker id="proton" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#b36b22"/></marker>
