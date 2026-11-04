@@ -570,3 +570,6 @@ All population and election examples are explicitly hypothetical; they are not p
 
 
 - Extended the Chapter 08 bilingual glossary with H and O organic horizons and saturated-paste extract electrical conductivity (ECe), matching the revised WRB profile and salinity-measurement sections. Commit: `3cf71c280f48410c92a0ddd3f9c4f818c861d3d9`.
+
+
+- Extended the Chapter 09 bilingual key-term list with migration flow, migrant stock, mid-year population and Degree of Urbanization, matching the revised indicator and WUP methodology sections. Commit: `67146954a2dd5e87a3ee03ca5d700b6f274756ba`.
