@@ -11,6 +11,10 @@
 > **EN:** Diagram of the geographic envelope as an interacting system of atmosphere, hydrosphere, lithosphere and biosphere, showing matter and energy flows.
 > **Embedded conceptual reference (not a direct match to the four-sphere brief):** NASA Goddard Space Flight Center, [Earth System Diagram](https://svs.gsfc.nasa.gov/30988), credit NASA's Goddard Space Flight Center; graphic designer Kevin W. Miller. Use as a conceptual reference only: adapt labels to the chapter's four-component model and do not imply that NASA's graphic itself depicts this exact classification.
 
+![Четыре взаимосвязанные оболочки Земли: атмосфера, гидросфера, литосфера и биосфера / Four interacting Earth spheres: atmosphere, hydrosphere, lithosphere and biosphere](../assets/diagrams/02-A-four-earth-spheres.svg)
+
+*Оригинальная двуязычная схема Atlas of Knowledge. Стрелки показывают взаимосвязь компонентов, а не количественные потоки вещества и энергии. / Original bilingual Atlas of Knowledge diagram. Arrows indicate interactions, not quantified matter or energy fluxes.*
+
 ![Earth as a complex interrelated system: solar radiation, atmosphere, water cycle, carbon cycle, ecosystems and human influences / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
 
 *Источник / Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. This is a five-sphere Earth-system illustration with visible cryosphere components, not a literal four-part geographic-envelope diagram. Use it to discuss interactions; the chapter's model groups components differently. / Это иллюстрация пятисферной системы Земли с элементами криосферы, а не буквальная схема четырёхкомпонентной географической оболочки. Используйте её для обсуждения связей; группировка компонентов в главе отличается. [Страница источника / Source page](https://svs.gsfc.nasa.gov/30988).
@@ -26,7 +30,11 @@
 5. **Зональность (zonation):** природные условия закономерно изменяются по широте и высоте.
 6. **Саморегуляция (self-regulation):** природные системы способны частично компенсировать изменения, но их устойчивость имеет пределы.
 
-**Место для иллюстрации 2.1-A — The Geographic Envelope of Earth.** Разрез планеты с атмосферой, гидросферой, биосферой и верхней частью литосферы; показать области перекрытия и обмен веществом и энергией.
+**Иллюстрация 2.1-A — Разрез географической оболочки / Geographic Envelope Cross-section.**
+
+![Схематичный разрез географической оболочки: атмосфера, вода, твёрдая поверхность и живые организмы / Schematic cross-section of the geographic envelope](../assets/diagrams/02-1A-geographic-envelope-cross-section.svg)
+
+*Оригинальная учебная схема, не в масштабе; границы оболочек условны и перекрываются. / Original educational schematic, not to scale; sphere boundaries are conceptual and overlap.*
 
 ## 2.2. Четыре основные оболочки Земли / The Four Major Spheres of Earth
 
@@ -53,7 +61,11 @@
 
 **Важное уточнение о криосфере.** В традиционной учебной модели географической оболочки обычно выделяют четыре компонента, показанные выше. Лёд и снег включают в гидросферу, но из-за особых свойств и роли в климате их также рассматривают отдельно как **криосферу**. В современной науке о системе Земли часто используют пятисферную схему: атмосфера, гидросфера, криосфера, геосфера и биосфера. Эти схемы не противоречат друг другу: они группируют взаимосвязанные компоненты на разных уровнях детализации. Литосфера — жёсткая внешняя часть геосферы, а не синоним всей геосферы.
 
-**Место для иллюстрации 2.2-A — Four Interconnected Earth Systems.** Четыре взаимосвязанные сферы и стрелки обмена веществом и энергией.
+**Иллюстрация 2.2-A — Взаимодействие четырёх оболочек / Interactions Between Four Earth Spheres.**
+
+![Примеры взаимодействия: осадки, испарение, выветривание, сток и обмен питательными веществами / Examples of interaction: precipitation, evaporation, weathering, runoff and nutrient exchange](../assets/diagrams/02-2A-four-spheres-interactions.svg)
+
+*Схема показывает примеры процессов; стрелки не задают их количественную величину. / The diagram shows process examples; arrows do not indicate quantitative magnitudes.*
 
 **Кандидат источника (не встроен):** NASA Goddard Space Flight Center, [Earth System Diagram](https://svs.gsfc.nasa.gov/30988), авторство/кредит указаны на странице NASA. Графика показывает взаимодействия компонентов системы Земли; перед использованием требуется адаптация подписей к четырёхкомпонентной учебной схеме.
 
