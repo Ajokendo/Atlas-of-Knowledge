@@ -318,7 +318,12 @@ export function startBook(chapter) {
       // select after its popup closes, so retry after the interaction has settled.
       scenePicker.blur();
       const focusTitle = () => {
-        if (!plate.hidden) plate.querySelector('#scene-plate-title')?.focus({ preventScroll: true });
+        if (plate.hidden) return;
+        const active = document.activeElement;
+        // Never steal focus if the learner has already moved to another control.
+        if (active !== scenePicker && active !== document.body && active !== document.documentElement) return;
+        scenePicker.blur();
+        plate.querySelector('#scene-plate-title')?.focus({ preventScroll: true });
       };
       requestAnimationFrame(() => requestAnimationFrame(focusTitle));
       // Mobile native-select popups can restore focus later than desktop browsers.
