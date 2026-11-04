@@ -1945,3 +1945,55 @@ A final compliance check against the Geography image-first instruction found tha
 - Geography README commit: `d9ca7bb265654962263d2720b68fe77bda7105e1`.
 
 **Readiness remains 90%.** Remaining work is the final sentence-by-sentence scientific and bilingual copy-edit, dated-value/source verification, and live-site, mobile, keyboard and screen-reader testing. The Pages workflow deploys only from `main`; the work remains isolated in `workspace/geography`, and no deployed rendering test is claimed.
+
+
+### Chapter 02 — final bilingual scientific copy-edit and dated-value verification — 4 November 2026
+
+**Scope:** final text audit of `geography/chapters/02-geographic-envelope.md`, limited to `workspace/geography`. No merge, deployment or changes to other subjects were made.
+
+#### Scientific and numerical checks completed
+
+- **Atmospheric structure:** corrected the troposphere's approximate altitude range in both languages from 8–18 km to 6–20 km, matching NOAA's documented range from high-latitude/polar conditions to the equator. Other layer boundaries remain explicitly approximate and variable with latitude, season and solar activity.
+- **Dry-air composition and CO₂:** confirmed rounded dry-air fractions (N₂ 78.08%, O₂ 20.95%, Ar 0.93%) and distinguished the 2025 NOAA marine-surface-site annual mean from the WMO global surface estimate. NOAA's version 2026-10 file reports 425.62 ± 0.05 ppm for 2025 and warns that the latest year may change after recalibration/quality control; the chapter reports 425.6 ppm as preliminary. WMO Bulletin No. 22 (27 October 2026) reports 426.8 ± 0.2 ppm. The chapter explicitly says the two estimates use different networks/methods and are not interchangeable.
+- **Water distribution:** rechecked the 96.54% ocean, 1.74% ice/glacier/permanent snow, 1.69% total groundwater (0.76% fresh; 0.93% saline), 68.7% of freshwater in ice/snow and 30.1% as fresh groundwater against the USGS table. The text states that these are rounded historical estimates based on Shiklomanov (1993), not new 2026 measurements.
+- **Atmospheric layers:** checked the troposphere/stratosphere/mesosphere boundaries against NOAA JetStream; the table now uses a 6–20 km troposphere range and retains approximate limits.
+- **Crust thickness:** checked the school-level averages against USGS and Mooney et al. (2025). The text now clarifies that Mooney et al. estimate mean continental crust thickness of 40.4 km above sea level and 36.5 km including continental margins, with orogenic crust reaching about 60–80 km. The broad table values (35–40 km continental; about 7 km oceanic) remain explicitly approximate. The “about 4 billion years” age applies to particular surviving ancient rocks, not all continental crust.
+- **Human modification map:** checked Figure 10 of Theobald et al. (2025): 2022 cumulative human modification, 300 m dataset, 16 threat classes and a modelled 0–1 index; Antarctica is excluded. The caption now notes that the 7 August 2025 correction fixed Figure 2 only, not Figure 10, and links the correction DOI. CC BY 4.0 attribution remains.
+- **Planetary boundaries:** checked the 2026 PIK report (published 21 September 2026): seven of nine boundaries transgressed, with all seven showing trends of increasing pressure. The chapter and diagram use that exact formulation. The diagram note now describes the Antarctic ozone hole as a regional phenomenon without implying that the global ozone boundary is transgressed.
+- **Worked example:** checked the arithmetic for a hypothetical 10 km² catchment with forest area decreasing from 6 to 4 km²: forest cover falls from 60% to 40% of the catchment (20 percentage points), a 33.3% relative reduction. Both language versions now explain all three quantities. Russian wording distinguishes seasonal soil freezing from permafrost, matching the broader English meaning.
+- **Bibliography:** corrected the full Mooney et al. author list and publication details; added the 2025 correction record for Theobald et al. References are sequentially numbered 1–33. NOAA and WMO references now include the exact 2025 values and uncertainty ranges.
+
+#### Bilingual and structural edits
+
+- Removed an accidental duplicate of the English worked example and English feedback explanation from the Russian section; each appears once in the proper language section.
+- Aligned English subsection numbering with the Russian hierarchy for atmospheric composition/structure, water distribution/cycle, crust and plate tectonics, biological organisation, biogeochemical cycles, geosystem hierarchy/components and feedback mechanisms.
+- Replaced the obsolete blanket note that all illustration labels and numerical values still require verification with a precise statement about source-provided map legends/resolutions and the remaining on-screen legibility checks.
+- Rephrased the Chapter 02 status block: scientific and bilingual text review and dated-value/source checks are complete; school acceptance is the next stage.
+
+#### Static validation after edits
+
+- 19 unique visual IDs appear in both language sections.
+- 40 Markdown image embeds represent 20 unique assets (nine remote science images and 11 local original SVGs); all have non-empty alt text.
+- All 11 local SVGs exist in the branch and include `title`, `desc` and `role="img"` metadata.
+- No duplicate heading strings; all 33 bibliography entries are sequential.
+- The English worked example and feedback section each occur once; neither remains duplicated in the Russian text.
+- The corrected Chapter 02 content was re-fetched and checked after saving.
+
+**Working readiness: 95%.** The textual scientific/bilingual audit and dated-value verification are complete. The remaining 5% is reserved for school-based acceptance by teachers and feedback through the Atlas of Knowledge portal, plus checking the published site on devices and with assistive technologies after deployment. No live-site or teacher test is claimed at this stage.
+
+#### Primary sources checked
+
+- NOAA GML, *Trends in CO₂*, version 2026-10: https://gml.noaa.gov/ccgg/trends/gl_data.html
+- WMO, *Greenhouse Gas Bulletin No. 22*, 27 October 2026: https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/no-22
+- NOAA JetStream, atmospheric layers: https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
+- USGS, global water distribution: https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
+- Mooney, Barrera-Lopez & Suárez (2025), DOI: https://doi.org/10.1029/2025JB031907
+- Caesar et al. (2026), *Planetary Health Check 2026*, DOI: https://doi.org/10.48485/pik.2026.25
+- Theobald et al. (2025), DOI: https://doi.org/10.1038/s41597-025-04892-2; correction DOI: https://doi.org/10.1038/s41597-025-05710-5
+
+#### Saved commits
+
+- Chapter 02 final copy-edit and dated-value updates: `a307e5ec9e8e22cdabe266f35434c9d79e3ea241`.
+- Chapter 02 duplicate removal and bilingual structure: `962eebfcaab2c533f554239b97051a81eb194dde`.
+- Readiness matrix: `be26b6e8755b6ce2a5f402d8c6d5977a4f2da28c`.
+- Geography README: `fdf2a04b6f399d8e640796e1121c5ea9ddd002d8`.
