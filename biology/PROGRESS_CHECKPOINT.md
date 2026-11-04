@@ -1075,3 +1075,11 @@ A fresh source scan of the 12 chapter HTML files found 59 semantic figure elemen
 ## SVG spot-check checkpoint — 5 November 2026
 
 Reviewed source markup for ten generated Biology SVGs across anatomy, biochemistry, botany and cell biology. All ten contain `<title>` and `<desc>`; explanatory labels were checked for key concepts and scientific qualifications. No proven error was found in this source-level sample, so no SVG artwork was altered. Rendered appearance and full human asset verification remain pending. Details recorded in `IMAGE_AUDIT.md`.
+
+
+## SVG source-review checkpoint — 5 November 2026
+
+- Reviewed ten additional SVGs across ecology, evolution, microbiology, genetics, systematics and zoology.
+- Corrected a Russian-only `<desc>` in `images/generated/genetics-translation.svg` by adding a scientifically equivalent English description (commit `a9f264b`).
+- Checked key scientific statements and qualifications in food-web direction, evolutionary branching, geological dates, antimicrobial resistance, viral replication, translation direction and vertebrate classification.
+- No other proven source-level scientific error was found in this sample. Rendered visual review and full asset-level legal/scientific/bilingual verification remain pending.
