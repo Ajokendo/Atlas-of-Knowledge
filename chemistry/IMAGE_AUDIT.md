@@ -127,3 +127,8 @@ The limiting-reactant comparison previously used an absolute tolerance with a fl
 A focused review of the bilingual amount-of-substance calculator found that its explanatory note correctly defined the Avogadro count as a number of specified elementary entities, but the result label and figure caption still used the less precise generic word “particles”. Updated the Russian and English calculator copy, result label, caption and image alternative text to consistently refer to specified entities / элементарные сущности. This avoids implying that every mole count necessarily refers to molecules: depending on the substance, the counted entities may be atoms, ions or formula units.
 
 The numerical model remains (n=m/M) and (N=nN_A), with the Avogadro constant exact. Existing checks continue to assert the definition and examples of entity identity. The change is source-reviewed only; no browser or screen-reader test is claimed here.
+
+
+## 2026-11-05 follow-up: virtual-lab bilingual model scope
+
+A bilingual parity review found that the English virtual-lab warning stated the full mathematical assumptions (dilute ideal solutions, additive volumes, and omission of ion activities and experimental effects), while the Russian warning only named the strong-acid/strong-base model and temperature. Expanded the Russian warning to match the English scientific scope and explicitly identify a strong monobasic base (for example, NaOH). The existing source-level regression checks already require the key assumptions in both languages. This is a copy correction; browser interaction and assistive-technology testing remain outstanding.
