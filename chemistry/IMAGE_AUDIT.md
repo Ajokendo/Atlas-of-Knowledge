@@ -268,3 +268,8 @@ GitHub Actions run 41911003011 passed on branch workspace/chemistry at commit 7a
 This CI PASS includes the periodic-table accessible-name correction: element buttons now use their visible atomic number, symbol, localized name and mass as the computed accessible name rather than overriding it with aria-label. It also includes the bilingual accessible names added to the gas-laws particle visual and acid–base beaker.
 
 Automated CI does not close the remaining manual screen-reader/device/zoom checks, independent scientific review, creator/rightsholder confirmation or licence verification. Therefore the whole-atlas Image Verification metric remains 0/18 despite the technical CI PASS.
+## 2026-11-05 follow-up: learner-facing visual captions
+
+A targeted caption audit found three actual omissions/defects and one false alarm. In Chapter 01, the electron-cloud caption existed but was not connected to the RU/EN language dictionary; it now switches in both languages. The reaction-rearrangement visual in Chapter 09 had alt text but no separate learner-facing caption; a bilingual caption was added. The Chemistry landing-page hero electron-cloud image had alt text but no caption; a bilingual caption was added. The Chapter 12 carbon-cycle image already had a separate bilingual `image-caption` paragraph keyed to `carbonCycleCaption`; an earlier scan that searched only for `figcaption` missed it, so no change was needed there.
+
+The 10 chapter image pairs now have a caption or equivalent explanatory text in both languages; the landing-page hero visual also has a bilingual caption. The static regression checks now guard the three corrected caption cases and preserve the existing carbon-cycle caption.
