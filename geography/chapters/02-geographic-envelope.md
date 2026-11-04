@@ -83,7 +83,7 @@
 | Углекислый газ (CO₂) | около 0,0426% (425,6 ppm — глобальное среднегодовое значение 2025 года, предварительная оценка NOAA) |
 | Другие следовые газы (без CO₂) | менее 0,01% |
 
-Значения округлены. Концентрация CO₂ меняется во времени и зависит от места измерения. По данным NOAA, глобальное среднегодовое значение для сухого воздуха на морских станциях составило 425,6 ppm в 2025 году (предварительная оценка). Водяной пар не включён, поскольку его содержание сильно варьируется.
+Значения округлены. Концентрация CO₂ меняется во времени и зависит от места измерения. По данным NOAA, глобальное среднегодовое значение для сухого воздуха в сети морских приповерхностных пунктов наблюдений составило 425,6 ppm в 2025 году (предварительная оценка; исходное значение — 425,62 ppm). Водяной пар не включён, поскольку его содержание сильно варьируется.
 
 - Азот участвует в глобальном азотном цикле и становится доступен организмам после биологического или абиотического связывания.
 - Кислород необходим для аэробного дыхания.
@@ -95,7 +95,7 @@
 
 | Слой | Приблизительные высоты | Основные особенности |
 |---|---:|---|
-| Тропосфера | от поверхности до примерно 8–18 км | Основные погодные явления |
+| Тропосфера | от поверхности до примерно 6–20 км | Основные погодные явления |
 | Стратосфера | до примерно 50 км | Озоновый слой |
 | Мезосфера | примерно 50–85 км | Очень низкие температуры у мезопаузы |
 | Термосфера | примерно от 85 км до нескольких сотен километров и выше | Ионосферные явления, полярные сияния |
@@ -457,7 +457,7 @@
 
 ![Глобальная карта совокупной модификации наземных экосистем человеком за 2022 год; рисунок 10 опубликованной научной статьи / Global map of cumulative human modification of terrestrial ecosystems in 2022; Figure 10 from the published research article](https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41597-025-04892-2/MediaObjects/41597_2025_4892_Fig10_HTML.png)
 
-*Источник / Source: Figure 10, Theobald, D. M., Oakleaf, J. R., Moncrieff, G., Voigt, M., Kiesecker, J. & Kennedy, C. M. (2025), “Global extent and change in human modification of terrestrial ecosystems from 1990 to 2022”, *Scientific Data* 12, Article 606, DOI: [10.1038/s41597-025-04892-2](https://doi.org/10.1038/s41597-025-04892-2). Reproduced from the open-access article under the Creative Commons Attribution 4.0 International licence (CC BY 4.0); no changes made. The article's Rights and permissions statement applies CC BY 4.0 to its images and other third-party material unless a separate credit line states otherwise; no separate restrictive credit line is given for Figure 10. The figure maps the overall cumulative human modification of terrestrial land for 2022 at 300 m resolution; Antarctica is excluded. The model combines 16 human threats. Its 0–1 index is a modelled measure of human modification, not a direct measurement of ecosystem condition or biodiversity. / Воспроизведено из статьи открытого доступа по лицензии Creative Commons Attribution 4.0 International (CC BY 4.0); изменения не вносились. Условия раздела Rights and permissions распространяют лицензию на изображения статьи, если в отдельной подписи не указано иное; для рисунка 10 отдельного ограничительного указания нет. Карта показывает совокупную модификацию наземных территорий в 2022 году с разрешением 300 м; Антарктида исключена. Индекс 0–1 является модельной оценкой антропогенной модификации, а не прямым измерением состояния экосистем или биоразнообразия. [Статья, рисунок 10 и условия лицензии / Article, Figure 10 and licence terms](https://www.nature.com/articles/s41597-025-04892-2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Источник / Source: Figure 10, Theobald, D. M., Oakleaf, J. R., Moncrieff, G., Voigt, M., Kiesecker, J. & Kennedy, C. M. (2025), “Global extent and change in human modification of terrestrial ecosystems from 1990 to 2022”, *Scientific Data* 12, Article 606, DOI: [10.1038/s41597-025-04892-2](https://doi.org/10.1038/s41597-025-04892-2). Reproduced from the open-access article under the Creative Commons Attribution 4.0 International licence (CC BY 4.0); no changes made. The article's Rights and permissions statement applies CC BY 4.0 to its images and other third-party material unless a separate credit line states otherwise; no separate restrictive credit line is given for Figure 10. The figure maps overall cumulative human modification for 2022; Figure 10 represents the 300 m dataset. Antarctica is excluded. The article's correction published on 7 August 2025 corrected Figure 2 only; Figure 10 was not the figure identified in that correction. The model combines 16 human threats. Its 0–1 index is a modelled measure of human modification, not a direct measurement of ecosystem condition or biodiversity. / Воспроизведено из статьи открытого доступа по лицензии Creative Commons Attribution 4.0 International (CC BY 4.0); изменения не вносились. Условия раздела Rights and permissions распространяют лицензию на изображения статьи, если в отдельной подписи не указано иное; для рисунка 10 отдельного ограничительного указания нет. Карта показывает совокупную модификацию наземных территорий в 2022 году; рисунок 10 представляет набор данных с разрешением 300 м. Антарктида исключена. В исправлении статьи от 7 августа 2025 года была заменена только иллюстрация 2; рисунок 10 не относился к исправленной иллюстрации. Индекс 0–1 является модельной оценкой антропогенной модификации, а не прямым измерением состояния экосистем или биоразнообразия. [Статья, рисунок 10 и условия лицензии / Article, Figure 10 and licence terms](https://www.nature.com/articles/s41597-025-04892-2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 ## 2.14. Глобальные изменения и будущее географической оболочки / Global Change
 
@@ -491,7 +491,7 @@
 
 Это не один универсальный индекс экологического состояния: каждый процесс требует отдельных методов оценки. Планетарные границы — глобальная научная рамка оценки рисков для системы Земли, а не готовый набор юридических нормативов для каждой страны или местности. Их нельзя напрямую переносить на отдельный водосбор, город или государство без подходящих региональных данных и отдельной методики.
 
-**Состояние по оценке 2026 года.** В *Planetary Health Check 2026* сообщается, что семь из девяти планетарных границ пересечены, причём состояние всех семи продолжает ухудшаться. Две границы — стратосферное истощение озона и атмосферная аэрозольная нагрузка — не пересечены на глобальном уровне. Это не исключает региональных рисков: аэрозольное загрязнение может быть опасным локально. Статус зависит от года, контрольных переменных и методов оценки, поэтому всегда указывайте источник и год.
+**Состояние по оценке 2026 года.** В *Planetary Health Check 2026* сообщается, что семь из девяти планетарных границ пересечены, причём по всем семи фиксируется тенденция к усилению давления. Две границы — стратосферное истощение озона и атмосферная аэрозольная нагрузка — не пересечены на глобальном уровне. Это не исключает региональных рисков: аэрозольное загрязнение может быть опасным локально. Статус зависит от года, контрольных переменных и методов оценки, поэтому всегда указывайте источник и год.
 
 **Иллюстрация 2.14-A — Планетарные границы / Planetary Boundaries (оценка 2026 года).**
 
@@ -686,7 +686,7 @@ Earth's atmosphere is held by gravity. It regulates heat exchange, transports mo
 
 *Source: NOAA National Weather Service, JetStream, “Layers of the Atmosphere”. Credit NOAA. Layer boundaries are approximate; troposphere height varies with latitude. / Источник: NOAA National Weather Service, JetStream. Границы слоёв приблизительны; высота тропосферы меняется с широтой.*
 
-**Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and less than 0.01% other trace gases (excluding CO₂). Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm. Water vapour is excluded because its concentration is highly variable.
+**Composition.** The approximate volume composition of dry air near Earth's surface is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean) and less than 0.01% other trace gases (excluding CO₂). Values are rounded. CO₂ concentration changes over time and varies by measurement location. NOAA's preliminary 2025 global annual mean for dry air at marine surface sites was 425.6 ppm (425.62 ppm before rounding). Water vapour is excluded because its concentration is highly variable.
 
 Nitrogen is part of the global nitrogen cycle and becomes available to organisms after biological or abiotic fixation. Oxygen is essential for aerobic respiration. Argon is chemically inert. Carbon dioxide is used in photosynthesis and contributes to the natural greenhouse effect. Water vapour forms clouds and precipitation and transports latent heat.
 
@@ -694,7 +694,7 @@ Nitrogen is part of the global nitrogen cycle and becomes available to organisms
 
 | Layer | Approximate altitude | Main features |
 |---|---:|---|
-| Troposphere | Surface to about 8–18 km | Most weather phenomena |
+| Troposphere | Surface to about 6–20 km | Most weather phenomena |
 | Stratosphere | Up to about 50 km | Ozone layer |
 | Mesosphere | About 50–85 km | Very low temperatures near the mesopause |
 | Thermosphere | About 85 km to several hundred kilometres and above | Ionospheric phenomena and auroras |
@@ -944,7 +944,7 @@ Planetary boundaries are a scientific framework describing critical Earth-system
 
 Planetary boundaries are not one universal environmental-condition index. Each process requires its own assessment methods. The framework is a global scientific approach to assessing risks to the Earth system, not a ready-made set of legal standards for every country or locality. It cannot be transferred directly to an individual catchment, city or country without suitable regional data and a separate method.
 
-**Status in the 2026 assessment.** *Planetary Health Check 2026* reports that seven of the nine planetary boundaries are transgressed and that all seven are continuing to deteriorate. Stratospheric ozone depletion and atmospheric aerosol loading are not transgressed at the global level. This does not rule out regional risks: aerosol pollution can still be harmful locally. Boundary status depends on the assessment year, control variables and methods, so an infographic must name its source and year rather than simply say “currently”.
+**Status in the 2026 assessment.** *Planetary Health Check 2026* reports that seven of the nine planetary boundaries are transgressed and that all seven show trends of increasing pressure. Stratospheric ozone depletion and atmospheric aerosol loading are not transgressed at the global level. This does not rule out regional risks: aerosol pollution can still be harmful locally. Boundary status depends on the assessment year, control variables and methods, so an infographic must name its source and year rather than simply say “currently”.
 
 **Illustration 2.14-A — Planetary Boundaries (2026 assessment).**
 
@@ -1044,7 +1044,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 
 ### English scientific and editorial notes
 
-- All numerical values in this chapter are approximate and should be checked against current authoritative sources during final editing.
+- Numerical values are rounded where appropriate. Dated observations identify their source, year, metric and provisional/final status; historical estimates are not presented as current measurements.
 - Atmospheric layer boundaries vary with latitude, season and classification; the USGS water-distribution table is a rounded global estimate based on I. Shiklomanov's 1993 assessment, not a new measurement made in 2026.
 - The four-component educational model and the five-sphere Earth-system model use different levels of grouping; the cryosphere overlaps the hydrosphere, while the lithosphere is part of the geosphere.
 - The term “geographic envelope” should be distinguished from the broader concept of the “Earth system”.
@@ -1092,7 +1092,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 
 ## Редакционные и научные примечания
 
-- Все численные значения в этой главе являются ориентировочными и должны быть сверены с актуальными авторитетными источниками при финальной редактуре.
+- Численные значения округлены там, где это уместно. Для датированных наблюдений указаны источник, год, показатель и предварительный/окончательный статус; исторические оценки не выдаются за современные измерения.
 - Высотные границы атмосферных слоёв зависят от широты, сезона и принятой классификации; таблица распределения воды USGS — округлённая глобальная оценка, основанная на опубликованной в 1993 году оценке И. Шикломанова, а не результат нового измерения в 2026 году.
 - Четырёхкомпонентная учебная схема оболочек и пятисферная схема науки о системе Земли используют разные уровни группировки; криосфера пересекается с гидросферой, а литосфера является частью геосферы.
 - Термин «географическая оболочка» следует отличать от более широкого понятия «система Земли».
