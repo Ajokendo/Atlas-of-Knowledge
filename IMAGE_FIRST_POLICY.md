@@ -2,7 +2,7 @@
 ## Universal visual-content standard for Atlas of Knowledge
 
 **Document ID:** AOK-IMG-001  
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** Mandatory  
 **Applies to:** Every current and future subject atlas, chapter, language edition, interactive lesson, and visual learning component in the Atlas of Knowledge project  
 **Owner:** Atlas of Knowledge central project governance  
@@ -299,6 +299,97 @@ These are examples only. Apply the relevant expert review for the subject and as
 
 Any special source restrictions or authorship obligations for a particular atlas must be recorded as a local extension. Such an extension supplements, but does not replace, this universal policy.
 
+
+### 8.1 Derivative, translated, and inherited atlases
+
+Some subject atlases may be based on a pre-existing atlas, textbook, course, dataset, or other source created by an external author or organisation. Such an atlas must follow this policy, but its audit must distinguish inherited material from new project work. The workflow must be proportionate to the actual changes; it must not falsely present a derivative translation as an independently authored atlas.
+
+**A. Establish the source relationship before auditing**
+
+Record:
+- the original work's title, author/rightsholder, edition or version, source location, and date where known;
+- the relationship between the source and the derivative atlas (for example, translation, localisation, adaptation, or partial reuse);
+- which chapters, text, diagrams, figures, interactive models, code, and other components are inherited;
+- what the project has and has not changed;
+- the permission, licence, or other documented legal basis for reproducing and distributing the source material and any translations or adaptations.
+
+Do not infer permission from public availability, repository access, possession of source files, or the fact that a translation has already been made. If authorship, licence, or permission cannot be established, mark it **Unknown / PENDING** and do not claim that rights have been cleared. Preserve the original creator's attribution and any source notices. Never relabel inherited material as project-created.
+
+**B. Audit inherited visuals without treating them as newly created assets**
+
+For an unchanged inherited visual:
+- retain its original creator, source, attribution, and rights status;
+- identify the corresponding source visual or source location where possible;
+- verify that the project's actual use and distribution are permitted;
+- check that the visual still renders correctly in the derivative atlas;
+- review its educational meaning and scientific/factual accuracy where appropriate;
+- complete the derivative edition's language and accessibility checks.
+
+An unchanged inherited visual is normally recorded as **A — Original reuse**, with the original creator/rightsholder and source clearly identified. Its status as inherited must be explicit in the register. The fact that it is embedded in a project-owned page or repository does not make it project-created.
+
+A complete re-audit does **not** require repeating discovery searches for every inherited visual when the source work and the visual are already identifiable and no replacement is being considered. Instead, record the source lineage and verify the rights, accuracy, localisation, accessibility, and technical condition relevant to the derivative edition. Conduct a new image-first search when a visual is missing, unsuitable, inaccurate, inaccessible, rights-restricted, or genuinely needs replacement.
+
+**C. Distinguish language localisation from modification of the visual asset**
+
+The audit must distinguish changes to the surrounding page/interface from changes to the visual itself.
+
+- Translating surrounding page text, captions, controls, or alternative text while leaving the visual file and its visual content unchanged does not, by itself, turn that visual into category B. Keep the visual classified according to the underlying asset, and record the language-localisation checks separately.
+- Translating labels or annotations inside the image, replacing embedded text, changing a legend, adding language-specific callouts, or otherwise editing the visual content is an adaptation: **B — Adapted**.
+- Cropping, recolouring, redrawing, simplifying, combining, changing data, or changing the scientific/geographic meaning or presentation is also **B — Adapted**, even if the change appears minor.
+- A newly authored visual that is not derived from an existing protected visual is **C — Created**. Record its actual authoring method and creator/rightsholder.
+- If the original visual is replaced by a new independent visual, record the new asset separately; do not overwrite or erase the inherited asset's provenance.
+
+Where it is unclear whether a change is merely technical or is a substantive adaptation, mark the classification **PENDING** and resolve it with evidence rather than guessing.
+
+**D. Verify adaptation rights before modifying inherited material**
+
+A right to reproduce an original work does not automatically establish a right to translate, crop, annotate, recolour, or otherwise adapt every component. Check the exact licence or written permission for the source work and the relevant visual. Pay particular attention to no-derivatives conditions and to separate rights that may apply to figures, photographs, diagrams, datasets, or embedded third-party assets.
+
+If adaptation rights are not established, do not publish the modified visual. Use the unchanged source visual only if its reproduction is permitted, seek permission, or find/create a rights-cleared alternative. Record the decision and evidence.
+
+**E. Apply a derivative-edition localisation review**
+
+For every supported language edition, check:
+- labels, symbols, legends, units, and embedded text for accurate translation;
+- terminology consistency with the chapter and discipline;
+- preservation of formulas, numerical values, directions, scale, relationships, and scientific meaning;
+- readability and layout after translation, including text expansion and right-to-left layout where relevant;
+- captions, alternative text, long descriptions, and equivalent tables or data in the target language;
+- accessible names, instructions, and feedback for interactive visual controls.
+
+Do not assume that a visually unchanged source asset is automatically understandable or accessible in the translated edition. Conversely, do not classify a visual as adapted solely because the surrounding page and its accessibility text have been translated.
+
+**F. Report inherited and project-created work separately**
+
+For derivative atlases, report at least these separate groups:
+1. inherited visuals reused unchanged;
+2. inherited visuals adapted for the derivative edition;
+3. new project-created visuals;
+4. visuals with unknown or unresolved source lineage;
+5. missing or replacement visuals.
+
+Report rights clearance separately from category counts. A category A label does not mean rights have been cleared; a category B label does not mean adaptation rights have been granted. Unknown provenance or rights must remain visible as unresolved blockers and must never be converted into a pass merely because the visual is already present.
+
+The audit must also distinguish:
+- **source-work coverage** — how much of the inherited visual material has been identified and mapped to the original work;
+- **derivative-edition localisation coverage** — how much of that material has passed language, accessibility, and rendering checks in the target edition;
+- **rights verification** — how much has documented permission for the actual reproduction and any adaptations;
+- **new-visual readiness** — the normal Image Coverage and Image Verification for newly required or newly created visuals.
+
+Do not combine these measures into one percentage. Where the original work's complete visual inventory is unavailable, state that the source-work coverage is provisional and define the audited scope.
+
+**G. Record a subject-specific derivative protocol**
+
+A derivative atlas must include a short protocol in its `IMAGE_AUDIT.md` identifying:
+- the original work and its author/rightsholder, or explicitly Unknown;
+- the source version and exact scope used;
+- which components are inherited and which are new;
+- the classification rules applied to unchanged and modified visuals;
+- the evidence available for reproduction and adaptation rights;
+- any areas where the source inventory is incomplete.
+
+This protocol supplements the normal `IMAGE_SOURCES.md` and `IMAGE_AUDIT.md`; it does not waive either record or any requirement of this policy.
+
 ## 9. Maintenance, versioning, and governance
 
 - This root-level document is the single canonical policy. Subject branches must link to it rather than maintain copied versions.
@@ -326,6 +417,6 @@ Every visual audit or implementation checkpoint must report:
 
 ---
 
-**End of IMAGE-FIRST POLICY v1.0**
+**End of IMAGE-FIRST POLICY v1.1**
 
 This policy is a project governance standard. It does not itself grant copyright permission, prove scientific accuracy, or certify any particular visual asset. Those decisions must be evidenced in the relevant subject's source register and audit.
