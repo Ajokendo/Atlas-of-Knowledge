@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Филогенетическое дерево и общий предок / Phylogenetic tree and common ancestry</title>
+<desc id="desc">Ветвящееся дерево с корнем, общим предком, двумя парами сестринских групп и выделенной кладой A+B. Длина ветвей не обозначает время или степень прогресса. / A branching tree with a root, common ancestor, two pairs of sister groups and a highlighted A+B clade. Branch length does not represent time or progress.</desc>
+<defs><style>
+.bg{fill:#f7f8f4}.panel{fill:#fff;stroke:#d9e0d6;stroke-width:2}.branch{fill:none;stroke:#557c58;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.highlight{fill:none;stroke:#b47a46;stroke-width:11;stroke-linecap:round;stroke-linejoin:round}.node{fill:#fff;stroke:#557c58;stroke-width:5}.tip{fill:#557c58}.head{font:600 27px Inter,Arial,sans-serif;fill:#243329}.label{font:600 22px Inter,Arial,sans-serif;fill:#243329}.small{font:16px Inter,Arial,sans-serif;fill:#536258}.tiny{font:14px Inter,Arial,sans-serif;fill:#617066}.tag{font:600 15px Inter,Arial,sans-serif;fill:#fff}
+</style></defs>
+<rect width="1200" height="900" class="bg"/>
+<text x="60" y="62" class="head">ДРЕВО ЭВОЛЮЦИОННОГО РОДСТВА / EVOLUTIONARY TREE</text>
+<text x="60" y="96" class="small">Родство определяется общими предками, а не сходством «ступеней прогресса» / Relatedness is defined by common ancestry, not by a ladder of progress</text>
+<rect x="55" y="130" width="1090" height="610" rx="18" class="panel"/>
+<!-- Clade A+B highlighted -->
+<path d="M300 640V500H470V340H640V235H860" class="highlight"/>
+<path d="M470 500V575H640V650H860" class="highlight"/>
+<!-- other sister pair C+D -->
+<path d="M300 640V500H470V590H640V650H860" class="branch" opacity="0"/>
+<path d="M300 640V500H470V590H640V690H860" class="branch"/>
+<path d="M470 590V520H640V450H860" class="branch"/>
+<!-- root and shared branch -->
+<path d="M300 640V700" class="branch"/>
+<path d="M300 640V500H470" class="branch"/>
+<!-- nodes -->
+<circle cx="300" cy="640" r="13" class="node"/>
+<circle cx="470" cy="500" r="13" class="node"/>
+<circle cx="640" cy="340" r="13" class="node"/>
+<circle cx="640" cy="590" r="13" class="node"/>
+<!-- tips -->
+<g class="tip"><circle cx="860" cy="235" r="10"/><circle cx="860" cy="650" r="10"/><circle cx="860" cy="450" r="10"/><circle cx="860" cy="690" r="10"/></g>
+<g class="label"><text x="895" y="243">Таксон A / Taxon A</text><text x="895" y="658">Таксон B / Taxon B</text><text x="895" y="458">Таксон C / Taxon C</text><text x="895" y="698">Таксон D / Taxon D</text></g>
+<g class="small"><text x="80" y="635">Корень дерева</text><text x="80" y="660">Root of the tree</text><text x="490" y="475">Общий предок</text><text x="490" y="498">Common ancestor</text></g>
+<path d="M310 640L410 640" stroke="#557c58" stroke-width="2" fill="none"/>
+<rect x="75" y="190" width="260" height="72" rx="12" fill="#f4eadc" stroke="#d6b78c" stroke-width="2"/>
+<text x="95" y="220" class="small">Выделенная клада A+B</text><text x="95" y="245" class="tiny">Highlighted A+B clade</text>
+<path d="M335 226L405 226L405 370L470 370" stroke="#b47a46" stroke-width="2" fill="none" stroke-dasharray="6 5"/>
+<rect x="75" y="770" width="1050" height="85" rx="14" fill="#e9eee6" stroke="#cbd7c9" stroke-width="2"/>
+<text x="100" y="804" class="small">Узлы обозначают общих предков; концы ветвей — изучаемые группы. Поворот ветвей вокруг узла не меняет родство.</text>
+<text x="100" y="832" class="tiny">Nodes represent common ancestors; branch tips represent groups. Rotating branches around a node does not change relationships.</text>
+<text x="100" y="878" class="tiny">Длины ветвей условны и не показывают время, «сложность» или эволюционный ранг. / Branch lengths are schematic, not time, complexity or evolutionary rank.</text>
+</svg>
