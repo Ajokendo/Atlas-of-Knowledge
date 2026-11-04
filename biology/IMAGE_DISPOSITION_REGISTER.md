@@ -93,3 +93,8 @@ A row may change from **Deferred** to **Produced** only when the exact target fi
 **Historical G6 milestone (superseded):** at the prior production milestone, five local WebP assets have been produced and integrated; this statement records the then-current milestone and is superseded by the six-image total below. The current verified total is six local WebP photographs within the single completed Chüy fauna brief.
 
 **G6 baseline disposition:** the original 52-asset plan was deferred pending selection. That baseline is now superseded for the Chüy fauna item: six local WebP photographs have been produced and integrated under one visual brief; the remaining 50 briefs retain their recorded individual statuses.
+
+
+## Automated asset QA update — 4 November 2026
+
+The latest full run [41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607) passed on commit `9d4b79ff0297d95fcdb1998c58f6e973fd81ecc6`. The expanded Chromium smoke test now checks raster image decoding, intrinsic dimensions, alt-attribute presence and non-zero inline-SVG geometry across the Biology pages. This closes the automated asset-loading/geometry check for the tested branch revision. It does not establish detailed visual correctness, species-morphology approval or hands-on device compatibility. Individual scientific holds and genuinely manual review notes below remain in force.
