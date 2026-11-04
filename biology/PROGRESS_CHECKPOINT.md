@@ -1117,3 +1117,12 @@ Reviewed source markup for ten generated Biology SVGs across anatomy, biochemist
 - Reviewed ten further SVG sources covering cell structure, cell cycle, mitosis, homology/analogy, broad habitat zones, invertebrates, herpetofauna, mammals and regional Batken/Osh fauna.
 - Corrected three SVG accessibility metadata gaps: Russian description for `fauna-habitats.svg`; bilingual title/description for `fauna-herps-habitats.svg`; bilingual title/description and clearer separated-habitat qualification for `fauna-mammals-habitat-reconstruction.svg`.
 - No claim of rendered visual verification is made. Global Image Verification remains **Pending audit**.
+
+
+## Remaining SVG metadata and concept review — 5 November 2026
+
+- Reviewed source markup for the remaining 26 generated SVGs across anatomy, biochemistry, botany, regional fauna/flora, genetics, microbiology, systematics and zoology.
+- Corrected six bilingual accessibility gaps: English descriptions for three botany SVGs; Russian titles and descriptions for three fauna SVGs (birds, freshwater habitats and Naryn highlands).
+- Checked scientific qualifications in circulation, homeostasis, biomolecules, respiration, flower reproduction, plant transport, habitat separation, freshwater schematic labels, vegetation belts, DNA packaging, antimicrobial resistance, viral replication, cellular domains, taxonomy and phylogenetic trees.
+- No additional proven source-level scientific error was established in this batch. These checks do not constitute rendered visual QA or independent specialist certification.
+- Global Image Verification remains **Pending audit**.
