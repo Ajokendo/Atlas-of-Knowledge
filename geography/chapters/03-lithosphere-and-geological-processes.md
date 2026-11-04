@@ -451,7 +451,11 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 Рифтинг может привести к растяжению и расколу континентальной коры, затем к формированию нового океанического бассейна. При субдукции океаническая литосфера погружается в мантию; при столкновении континентов океанический бассейн может исчезнуть, а континентальные массы образуют складчатые горные пояса.
 
-**Место для иллюстрации 3.10-A — The Supercontinent Cycle.** Последовательность рифтинга, открытия океана, субдукции, столкновения континентов и формирования гор.
+**Иллюстрация 3.10-A — Цикл суперконтинента / The Supercontinent Cycle.**
+
+![Упрощённая последовательность рифтинга, раскрытия океана, субдукции, столкновения континентов и горообразования. / Simplified sequence of rifting, ocean opening, subduction, continental collision and mountain building.](../assets/03-10-A-supercontinent-cycle-bilingual.svg)
+
+*Концептуальная модель: циклы имеют разную длительность и не являются точным периодическим механизмом. / Conceptual model: cycles vary in duration and are not a precise periodic mechanism.*
 **EN:** Sequence illustrating continental rifting, ocean-basin opening, subduction, continental collision and mountain building.
 
 ## 3.11. Геологические ресурсы и полезные ископаемые / Geological Resources and Mineral Resources
@@ -505,7 +509,11 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 Опасность, подверженность воздействию и уязвимость — разные составляющие риска. Наличие опасного процесса не означает автоматически катастрофу: последствия зависят от того, кто и что находится в зоне воздействия и насколько хорошо защищены объекты.
 
-**Место для иллюстрации 3.12-A — Geological Hazards.** Четыре панели: землетрясение, оползень, сель и обвал; показать факторы возникновения и меры снижения риска.
+**Иллюстрация 3.12-A — Геологические опасности / Geological Hazards.**
+
+![Четыре панели: землетрясение, оползень, сель и обвал; указаны примеры мер снижения риска. / Four panels: earthquake, landslide, debris flow and rockfall, with examples of risk-reduction measures.](../assets/03-12-A-geological-hazards-bilingual.svg)
+
+*Схема показывает типы процессов и общие меры снижения риска, но не предсказывает точное место и время события. / The diagram shows process types and general risk reduction, not the precise location or timing of an event.*
 **EN:** Four panels showing an earthquake, landslide, debris flow and rockfall, with key triggering factors and practical risk-reduction measures.
 
 ## Итоги главы / Chapter Summary
@@ -1001,13 +1009,21 @@ On a schematic geological cross-section, identify:
 **[ILLUSTRATION PLACEHOLDER 3.9-A — Geological Time Scale]** Vertical time scale from Earth's formation to the present. Use the current ICS chart, show the unequal duration of intervals honestly, and label the non-linear scale clearly.
 
 
-**[ILLUSTRATION PLACEHOLDER 3.10-A — The Supercontinent Cycle]** Sequence showing rifting, ocean opening, subduction, continental collision and mountain building. Make clear this is a simplified cycle, not a fixed repeating clock.
+**Illustration 3.10-A — The Supercontinent Cycle.**
+
+![Simplified sequence of rifting, ocean opening, subduction, continental collision and mountain building. / Упрощённая последовательность рифтинга, раскрытия океана, субдукции, столкновения континентов и горообразования.](../assets/03-10-A-supercontinent-cycle-bilingual.svg)
+
+*Conceptual model: cycles vary in duration and are not a precise periodic mechanism. / Концептуальная модель: циклы имеют разную длительность и не являются точным периодическим механизмом.*
 
 
 **[ILLUSTRATION PLACEHOLDER 3.11-A — From Geological Deposit to Resource Management]** Cross-section of a mineral deposit plus a process sequence for exploration, extraction, processing, waste management and land rehabilitation.
 
 
-**[ILLUSTRATION PLACEHOLDER 3.12-A — Geological Hazards]** Four-panel educational visual: earthquake, landslide, debris flow and rockfall. For each, identify typical triggers and practical risk-reduction measures; avoid implying that hazards can be predicted exactly.
+**Illustration 3.12-A — Geological Hazards.**
+
+![Four panels: earthquake, landslide, debris flow and rockfall, with examples of risk-reduction measures. / Четыре панели: землетрясение, оползень, сель и обвал; указаны примеры мер снижения риска.](../assets/03-12-A-geological-hazards-bilingual.svg)
+
+*The diagram shows process types and general risk reduction, not the precise location or timing of an event. / Схема показывает типы процессов и общие меры снижения риска, но не предсказывает точное место и время события.*
 
 
 **[ILLUSTRATION PLACEHOLDER 3.12-B — Interpreting a Geological Cross-Section]** Educational cross-section with a legend, rock layers of different relative ages, a fold, a fault and an intrusive body. Provide a separate exercise key; ensure the cross-cutting and superposition relationships are internally consistent.
