@@ -662,6 +662,25 @@ if (!feedbackTemplate) {
   }
 }
 
+
+const canonicalImagePolicyUrl = "https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md";
+if (!imageSources.includes(canonicalImagePolicyUrl) || !imageAudit.includes(canonicalImagePolicyUrl)) {
+  errors.push("IMAGE-FIRST POLICY: both Chemistry visual records must link to the canonical root policy");
+}
+if (!imageSources.includes("## Learning purpose and retrospective search record") ||
+    !imageSources.includes("| Learning purpose |") ||
+    !imageSources.includes("| Search date and outcome |")) {
+  errors.push("IMAGE_SOURCES.md: canonical-policy learning-purpose and search-evidence fields are missing");
+}
+for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11","CH-IV01","CH-IV02","CH-IV03","CH-IV04"]) {
+  const lines = imageSources.split(/\\r?\\n/).filter(line => line.startsWith("| " + id + " |"));
+  if (lines.length !== 1) errors.push("IMAGE_SOURCES.md: expected exactly one learning-purpose/search record for " + id);
+  else if (!lines[0].includes("PENDING — not yet searched")) errors.push("IMAGE_SOURCES.md: do not claim undocumented search completion for " + id);
+}
+if (!imageAudit.includes("## Chapter-level learning-need sign-off")) {
+  errors.push("IMAGE_AUDIT.md: chapter-level learning-need sign-off is missing");
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
