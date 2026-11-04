@@ -287,3 +287,8 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 06 — global water-share distinction corrected — 5 November 2026
 
 - Corrected the bilingual statement to distinguish ocean and sea water (~96.5% of total) from all saline reservoirs combined (~97.5%, including saline groundwater and lakes); freshwater remains ~2.5%. Verified against the direct USGS distribution table. Commit: `1d91a7bc57da482095fb0f5541a6ea1387bcc316`.
+
+
+### Chapter 06 — IHO standard edition check — 5 November 2026
+
+- Replaced the generic IHO reference with specific publications and editions: S-23, S-44 Edition 6.2.0, S-102 Edition 3.0.0 and S-100 Edition 5.2.1, checked against the current IHO catalogue (last modified 30 October 2026). Commit: `80cd391382cdeceddbb5f048938e904ddab1324c`.
