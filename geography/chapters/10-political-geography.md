@@ -241,6 +241,8 @@ This is a unit conversion, not a method for independently drawing a legally vali
 
 Международные статистические классификации, например стандарт ООН M49, группируют страны и территории для статистических публикаций и сопоставлений. Они не устанавливают суверенитет, государственность, международное признание или юридическое прохождение государственной границы.
 
+Глава рассматривает общие принципы и не делает утверждений о текущем правовом статусе конкретных спорных территорий или незавершённых делимитаций. Если в дальнейшем будет добавлен страновой кейс, он должен опираться на первичные правовые документы, действующие договоры и соглашения, а также применимые решения компетентных судов или трибуналов; необходимо указывать дату и точный географический охват. Картографическая линия сама по себе не заменяет юридический анализ.
+
 Особое внимание следует уделять:
 - несовпадению границ статистических и административных единиц;
 - изменению границ во времени;
@@ -445,6 +447,8 @@ Geographic information systems can combine administrative boundaries, population
 Data sources may include official statistical services, government geoportals, international organisations, open mapping projects and scientific research. Every source requires checking for accuracy, date, licence, methodology and coverage.
 
 International statistical classifications, such as the UN M49 standard, group countries and areas for statistical publication and comparison. They do not determine sovereignty, statehood, international recognition or the legal course of a state boundary.
+
+This chapter addresses general principles and makes no claim about the current legal status of any particular disputed territory or pending delimitation. Any future country case study must rely on primary legal documents, applicable treaties and agreements, and relevant decisions of competent courts or tribunals; it must state the date and precise geographic scope. A line on a map does not by itself replace legal analysis.
 
 Particular attention should be paid to differences between statistical and administrative boundaries; boundary changes over time; spatial aggregation and the ecological fallacy; incomplete data in remote regions; personal-data protection; and political neutrality in classifications and visualisations.
 
