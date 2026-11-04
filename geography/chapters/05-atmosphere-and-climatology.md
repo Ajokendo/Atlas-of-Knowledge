@@ -880,15 +880,24 @@ Climate datasets and reanalyses serve different purposes from a daily weather fo
 
 ### 5.17. Reading Climate Graphs
 
-A climate graph usually shows mean monthly temperature and precipitation for a stated period. It helps compare the seasonality of temperature and moisture but does not represent the full range of extreme events.
+A climate graph usually shows mean monthly temperature and precipitation for a stated period. In this chapter, bars show precipitation in millimetres and the line shows mean temperature in degrees Celsius. Before comparing diagrams, check that their observation periods are comparable.
+
+![5.17-A. Climate diagrams for continental and maritime teaching examples / Климатограммы континентального и морского учебных примеров](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-diagram-exercise.svg)
+
+*Original bilingual Atlas of Knowledge teaching diagram. Both datasets are synthetic and intended only for graph-reading practice; they do not represent real weather stations and must not be used to classify the climate of a real location. / Оригинальная двуязычная учебная схема Atlas of Knowledge. Оба набора данных условные, не относятся к реальным метеостанциям и предназначены только для тренировки чтения графиков.*
 
 When analysing a climate graph:
 1. Check the station name, elevation, coordinates and observation period.
 2. Identify the warmest and coldest months.
 3. Determine the seasonal distribution of precipitation.
-4. Calculate the annual temperature range.
-5. Compare annual precipitation totals and seasonal moisture patterns.
-6. Do not infer long-term climate change from one graph without a time series.
+4. Calculate the annual temperature range by subtracting the lowest monthly mean from the highest.
+5. Add monthly precipitation values to calculate the annual total.
+6. Compare temperature and precipitation seasonality and note whether their maxima coincide.
+7. Do not infer long-term climate change from one graph without a comparable time series.
+
+**Reading the examples.** Diagram A has a large annual temperature range and relatively low precipitation, with a warm-season precipitation maximum. Diagram B has a smaller annual temperature range and precipitation in every month. These patterns illustrate continental and maritime influences, but a climate type cannot be assigned from a graph alone without location, elevation, a sufficiently long observation period and a stated classification method.
+
+**Learning activity:** For each diagram, identify the warmest and coldest months, calculate the annual temperature range, find the wettest and driest months, and add the monthly precipitation values. Then compare the seasonal patterns.
 
 ### Chapter Summary
 
