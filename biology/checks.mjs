@@ -1066,6 +1066,29 @@ if (!regionalSpeciesAudit.includes("Suusamyr Valley fish survey (fieldwork 2024;
   errors.push("KYRGYZSTAN_SPECIES_AUDIT.md: Suusamyr fish evidence must retain its count discrepancy, osman synonym and specimen-review requirement");
 }
 
+// Check generated SVG assets for bilingual accessible metadata and unexpected embedded content.
+const generatedDir = path.join(root, "images/generated");
+if (fs.existsSync(generatedDir)) {
+  const svgFiles = fs.readdirSync(generatedDir).filter(name => name.toLowerCase().endsWith(".svg"));
+  if (svgFiles.length === 0) errors.push("images/generated: no SVG assets found");
+  for (const name of svgFiles) {
+    const svgPath = path.join(generatedDir, name);
+    const source = fs.readFileSync(svgPath, "utf8");
+    const title = (source.match(/<title\\b[^>]*>([\\s\\S]*?)<\\/title>/i) || [])[1] || "";
+    const desc = (source.match(/<desc\\b[^>]*>([\\s\\S]*?)<\\/desc>/i) || [])[1] || "";
+    const bilingual = value => /[А-Яа-яЁё]/.test(value) && /[A-Za-z]/.test(value);
+    if (!/<svg\\b/i.test(source) || !/\\bviewBox\\s*=/.test(source) || !/<\\/svg>\\s*$/i.test(source)) {
+      errors.push("images/generated/" + name + ": missing SVG root, viewBox or closing tag");
+    }
+    if (!bilingual(title)) errors.push("images/generated/" + name + ": SVG title must contain Russian and English");
+    if (!bilingual(desc)) errors.push("images/generated/" + name + ": SVG description must contain Russian and English");
+    if (/<script\\b|<foreignObject\\b|<image\\b/i.test(source) ||
+        /\\b(?:href|xlink:href)\\s*=\\s*["'](?:https?:|\\/\\/|data:)/i.test(source)) {
+      errors.push("images/generated/" + name + ": unexpected script, embedded object/image or external/data reference");
+    }
+  }
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
