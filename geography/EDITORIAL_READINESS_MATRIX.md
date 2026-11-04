@@ -17,7 +17,7 @@
 | Numbering integrity | No duplicate numbered section identifiers across 26 chapters | Normalise Chapter 17's distinct label 17.14а during final style pass |
 | Repository structure | One active Geography branch: `workspace/geography` | Keep using this branch only |
 | Website | Bilingual RU/EN landing-page toggle and 26 chapter links | In-chapter language filter, rendered Markdown reader, accessibility and deployment tests |
-| Created and embedded visuals | 9 local SVG assets are embedded in both language versions: five Chapter 01 visuals (01-A–01-E) and four assets in Chapters 18–20 (18-J, 19-H, 20-I, 20-K). Chapter 01 includes four original bilingual diagrams and one adapted CC BY 4.0 diagram. | Final scientific/editorial sign-off for these nine assets; create and integrate the remaining planned visuals; deployed accessibility/rendering QA remains separate |
+| Created and embedded visuals | 20 local SVG assets are embedded in both language versions: five in Chapter 01, eleven in Chapter 02 and four in Chapters 18–20. Chapter 02 also includes nine remote source images. Chapter 01 includes four original bilingual diagrams and one adapted CC BY 4.0 diagram. | Final scientific/editorial sign-off for the integrated assets; create and integrate the remaining planned visuals; deployed accessibility/rendering QA remains separate |
 
 ## Chapter-by-chapter matrix
 
