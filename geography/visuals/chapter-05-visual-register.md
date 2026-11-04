@@ -8,6 +8,7 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 
 ## Integrated / Интегрировано
 
+| 5.12-A | Global climate belts / Климатические пояса мира | Original bilingual conceptual SVG `geography/visuals/chapter-05-global-climate-belts.svg` | Shows six broad latitudinal belts in both hemispheres; curved boundaries are schematic and reflect seasonal shifts and regional controls. Not a precise boundary map. Embedded in RU and EN chapter sections. |
 | Visual | Subject | Asset and rights | Use limitation |
 |---|---|---|---|
 | 5-A / 5.2-A | Atmospheric layers / Слои атмосферы | [Atmosphere layers edu.svg](https://commons.wikimedia.org/wiki/File:Atmosphere_layers_edu.svg), CC0 | Educational schematic; heights and boundaries are approximate. Embedded in RU and EN chapter sections. |
@@ -28,7 +29,6 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 | Visual ID | Subject |
 |---|---|
 
-| 5.12-A | Global climate belts / Климатические пояса мира |
 | 5.14-A | Atmospheric hazards / Опасные атмосферные явления |
 | 5.15-A | Climate change: drivers, evidence and responses / Причины, свидетельства и ответы на изменение климата |
 | 5.16-A | Weather observation to forecast / От наблюдений к прогнозу погоды |
