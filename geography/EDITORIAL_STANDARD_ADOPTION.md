@@ -60,7 +60,7 @@ Commit: `8ce1a147f3dfc1b07689355cd84658046501ae61`.
 **Adopted:** 5 November 2026  
 **Policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md)  
 **Reference branch:** `main`  
-**Canonical-main status:** The policy is now referenced from `main` (commit `bd3deb97`). Update this link to the root-level `main` location only after the central integration process merges it. Do not create a Geography copy.
+**Canonical-main status:** The policy is already canonical at the repository root on `main` (commit `bd3deb97`). This Geography document links to that source; do not copy or edit the universal policy in this subject branch.
 
 Geography adopts the complete mandatory workflow, status vocabulary, evidence requirements, metrics, CI principles and derivative/inherited-material protocol in sections 1–10, including section 8.1. This record supplements but does not redefine the universal policy.
 
