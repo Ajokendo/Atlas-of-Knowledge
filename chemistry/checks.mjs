@@ -786,7 +786,9 @@ for (const [label, evidence] of [
 if (!imageAudit.includes("## Latest policy-readiness checkpoint — 2026-11-05") ||
     !imageAudit.includes("11 / 12 = 91.7%") ||
     !imageAudit.includes("0 / 15 = 0% VERIFIED") ||
-    !imageAudit.includes("## Interactive visual audit by ID")) {
+    !imageAudit.includes("## Interactive visual audit by ID") ||
+    !imageAudit.includes("### Chapter-level visual metrics") ||
+    !imageAudit.includes("16 required visual units, 15 integrated")) {
   errors.push("IMAGE_AUDIT.md: current policy metrics or per-ID interactive visual audit is missing");
 }
 
