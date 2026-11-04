@@ -231,7 +231,18 @@
 
 Фронты связаны с изменением температуры, ветра, облачности и осадков. Однако характер погоды зависит от динамики конкретной системы и местных условий.
 
-**Место для иллюстрации 5.8-A — Atmospheric Fronts.** Четыре вертикальных разреза фронтов с направлением движения, облачностью и типичными осадками.
+**Иллюстрация 5.8-A — Atmospheric Fronts.** Условные обозначения четырёх основных фронтов на синоптических картах и вертикальный разрез холодной окклюзии. Разрез показан как пример одного типа окклюзии; он не заменяет отдельные профили холодного, тёплого и стационарного фронтов.
+
+![Обозначение холодного фронта на синоптической карте / Cold-front symbol](https://www.noaa.gov/sites/default/files/2022-06/cold_front_sym.png)
+![Обозначение тёплого фронта на синоптической карте / Warm-front symbol](https://www.noaa.gov/sites/default/files/2022-06/warm_front_sym.png)
+![Обозначение стационарного фронта / Stationary-front symbol](https://www.noaa.gov/sites/default/files/2022-06/stationary_front_sym.png)
+![Обозначение фронта окклюзии / Occluded-front symbol](https://www.noaa.gov/sites/default/files/2022-06/occ_front_sym.png)
+
+*Условные знаки холодного, тёплого, стационарного и окклюдированного фронтов на приземных синоптических картах. Треугольники и полукружия указывают направление движения фронта; у стационарного фронта символы направлены в разные стороны. Источник: NOAA JetStream. / Standard symbols for cold, warm, stationary and occluded fronts on surface weather maps. Triangles and semicircles indicate the direction of frontal movement; on a stationary front, symbols point in opposite directions. Source: NOAA JetStream.* [Источник / Source](https://www.noaa.gov/jetstream/wxmaps).
+
+![Вертикальный разрез холодной окклюзии / Vertical cross-section of a cold occlusion](https://www.noaa.gov/sites/default/files/2022-06/cold_occ.png)
+
+*Упрощённый вертикальный разрез холодной окклюзии: более холодный воздух позади холодного фронта подтекает под более прохладный воздух впереди тёплого фронта, поднимая тёплый воздух над поверхностью. Это пример одного типа окклюзии, а не универсальная схема всех фронтов. / Simplified vertical cross-section of a cold occlusion: colder air behind the cold front undercuts the cooler air ahead of the warm front, lifting the warm air above the surface. This illustrates one type of occlusion, not a universal cross-section for all fronts.* [Источник / Source](https://www.noaa.gov/jetstream/wxmaps).
 
 ## 5.9. Погода и климат: различия и наблюдения / Weather and Climate
 
@@ -679,6 +690,19 @@ An **air mass** is a large body of air with relatively uniform temperature and h
 Air masses may be classified by source latitude and the underlying surface—for example, Arctic, polar, tropical, continental and maritime. Terminology and classification schemes vary between meteorological traditions.
 
 An **atmospheric front** is a transition zone between air masses with different properties. Main types include cold, warm, occluded and stationary fronts. Fronts are associated with changes in temperature, wind, cloud cover and precipitation, but the actual weather depends on the dynamics of the system and local conditions.
+
+**Illustration 5.8-A — Atmospheric Fronts.** Standard map symbols for the four main fronts and a vertical cross-section of a cold occlusion. The cross-section illustrates one type of occlusion; it does not replace separate profiles of cold, warm and stationary fronts.
+
+![Cold-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/cold_front_sym.png)
+![Warm-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/warm_front_sym.png)
+![Stationary-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/stationary_front_sym.png)
+![Occluded-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/occ_front_sym.png)
+
+*Standard symbols for cold, warm, stationary and occluded fronts on surface weather maps. Triangles and semicircles indicate the direction of frontal movement; on a stationary front, symbols point in opposite directions. Source: NOAA JetStream.* [Source](https://www.noaa.gov/jetstream/wxmaps).
+
+![Vertical cross-section of a cold occlusion](https://www.noaa.gov/sites/default/files/2022-06/cold_occ.png)
+
+*Simplified vertical cross-section of a cold occlusion: colder air behind the cold front undercuts the cooler air ahead of the warm front, lifting the warm air above the surface. This illustrates one type of occlusion, not a universal cross-section for all fronts.* [Source](https://www.noaa.gov/jetstream/wxmaps).
 
 ### 5.9. Weather and Climate
 
