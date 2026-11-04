@@ -98,3 +98,13 @@ A row may change from **Deferred** to **Produced** only when the exact target fi
 ## Automated asset QA update — 4 November 2026
 
 The latest full run [41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607) passed on commit `9d4b79ff0297d95fcdb1998c58f6e973fd81ecc6`. The expanded Chromium smoke test now checks raster image decoding, intrinsic dimensions, alt-attribute presence and non-zero inline-SVG geometry across the Biology pages. This closes the automated asset-loading/geometry check for the tested branch revision. It does not establish detailed visual correctness, species-morphology approval or hands-on device compatibility. Individual scientific holds and genuinely manual review notes below remain in force.
+
+
+## IMAGE-FIRST POLICY v1.0 — consolidated audit links (5 November 2026)
+
+The mandatory image standard has been applied to the Biology documentation baseline. The consolidated records are:
+
+- `IMAGE_SOURCES.md` — source/rights index for 15 documentary photographs and original project artwork, with links to the individual audit reports and machine-readable manifests.
+- `IMAGE_AUDIT.md` — consolidated scientific, legal, bilingual and technical audit, current metrics, open remediation queue and acceptance rules.
+
+The 53/53 figure remains production/integration coverage only. It must not be interpreted as 100% Image Verification. The new audit records that 33 register rows still explicitly retain pending visual, morphology or browser-review notes; this is a triage count, not proof that the other 20 passed every manual gate. Existing detailed per-asset evidence and historical records are preserved.
