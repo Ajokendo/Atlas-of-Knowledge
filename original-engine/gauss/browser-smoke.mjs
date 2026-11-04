@@ -38,6 +38,11 @@ async function checkLesson(mobile) {
     const headings = await page.locator('main h2').allTextContents();
     const missing = required.filter(title => !headings.includes(title));
     if (missing.length) throw new Error(`missing lesson sections: ${missing.join('; ')}`);
+    const lessonText = await page.locator('main').innerText();
+    if (!lessonText.includes('Гауссова поверхность — воображаемая замкнутая поверхность')) throw new Error('Gaussian surface is not clearly defined');
+    if (!lessonText.includes('Для длинной равномерно заряженной нити')) throw new Error('cylindrical symmetry example is missing');
+    if (!lessonText.includes('для большого равномерно заряженного листа')) throw new Error('planar symmetry example is missing');
+    if (!lessonText.includes('СРЕДНЯЯ НОРМАЛЬНАЯ СОСТАВЛЯЮЩАЯ')) throw new Error('average normal field component is not distinguished from local field');
 
     const labCanvas = page.locator('.physics-stage canvas');
     await labCanvas.waitFor({ state: 'visible' });
@@ -54,8 +59,12 @@ async function checkLesson(mobile) {
     if (!(await readout('#r1')).includes('225,88 Н/Кл')) throw new Error(`default average field incorrect: ${await readout('#r1')}`);
     if (!(await readout('#r2')).includes('112,94 Н·м²/Кл')) throw new Error(`default oriented flux incorrect: ${await readout('#r2')}`);
 
+    await page.locator('#p1').evaluate(el => { el.value = '1'; el.dispatchEvent(new Event('input', { bubbles: true })); });
+    if (!(await readout('#r0')).includes('112,94 Н·м²/Кл') || !(await readout('#r1')).includes('112,94 Н/Кл')) throw new Error('changing area should preserve total flux and halve the mean normal field');
     await page.locator('#p2').evaluate(el => { el.value = '90'; el.dispatchEvent(new Event('input', { bubbles: true })); });
     if (!(await readout('#r2')).includes('0,00 Н·м²/Кл')) throw new Error(`flux at 90° should be zero: ${await readout('#r2')}`);
+    await page.locator('#p2').evaluate(el => { el.value = '180'; el.dispatchEvent(new Event('input', { bubbles: true })); });
+    if (!(await readout('#r2')).includes('−112,94 Н·м²/Кл')) throw new Error(`flux at 180° should be negative: ${await readout('#r2')}`);
     await page.locator('#p0').evaluate(el => { el.value = '2'; el.dispatchEvent(new Event('input', { bubbles: true })); });
     if (!(await readout('#r0')).includes('225,88 Н·м²/Кл')) throw new Error(`doubling enclosed charge should double total flux: ${await readout('#r0')}`);
     await page.locator('.answers button[data-answer="a"]').click();
