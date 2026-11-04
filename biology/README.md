@@ -3,8 +3,10 @@
 Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Visual production checkpoint — 4 November 2026
-- 47 of 53 mapped illustration briefs are produced or integrated (88.7%); 6 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
+- New milestone: 48/53 briefs produced or integrated (90.6%). Five remain deferred. The new genetics mutation plate is integrated; the latest browser CI failure also identified horizontal overflow on the Microbiology and Zoology pages, now patched for re-test.
+- 48 of 53 mapped illustration briefs are produced or integrated (90.6%); 5 remain deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
 - Added `genetics-translation.svg`, a bilingual ribosome diagram showing 5′→3′ mRNA reading, complementary codon–anticodon pairing, tRNA delivery and peptide-bond formation.
+- Added `genetics-mutations.svg`, a bilingual comparison of synonymous substitution, single-nucleotide insertion and deletion, with reading-frame effects explained.
 - Added the original bilingual `fauna-invertebrates.svg` comparison plate to the Kyrgyzstan fauna chapter. It distinguishes insect and arachnid body plans and does not claim to be a regional species inventory.
 - Added the bilingual `systematics-tree.svg` teaching diagram to the systematics chapter: nodes, branches, sister groups, the A+B clade, and a rotated equivalent tree.
 - Added `evolution-homology.svg` to the evolution chapter, comparing homologous tetrapod forelimbs and analogous bird/insect flight wings.
