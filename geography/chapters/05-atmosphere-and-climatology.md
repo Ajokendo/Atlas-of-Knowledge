@@ -527,9 +527,9 @@ These values describe the annual cycles of temperature and precipitation, but th
 
 **Учебное задание.** Для трёх станций рассчитайте температурные аномалии одного и того же месяца относительно нормы каждой станции, используя общий базовый период (например, 1991–2020). Сравните знаки и величины отклонений. Затем объясните, почему один месяц не доказывает климатический тренд и какие данные нужны для оценки многолетнего изменения.
 
-*Источники:* ВМО, *Руководство по расчёту климатических норм* (WMO-No. 1203, 2017); ВМО, *Руководство по гомогенизации* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
-
 Для оперативного описания современных условий обычно используют актуальную стандартную норму 1991–2020. В исследованиях долгосрочного изменения климата может применяться фиксированный базовый период 1961–1990, чтобы сравнения разных лет оставались привязаны к одной и той же исходной точке. Выбор зависит от задачи; базовый период всегда нужно указывать.
+
+*Источники:* ВМО, *Руководство по расчёту климатических норм* (WMO-No. 1203, 2017); ВМО, *Руководство по гомогенизации* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
 
 Absolute temperature and precipitation values are not always suitable for comparing different places. A temperature of +5 °C may be normal in one month but unusually high in another region or season. Climatologists therefore use an **anomaly**: the difference between an observed value and a selected climate normal.
 
@@ -550,8 +550,6 @@ For precipitation, both absolute millimetres and the percentage of normal can be
 For describing current conditions, the latest standard normal (1991–2020) is generally used. Long-term climate-change assessments may instead use the fixed 1961–1990 reference period so that comparisons across years retain the same baseline. The appropriate choice depends on the purpose; always state the reference period.
 
 *Sources:* WMO, *Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017); WMO, *Guidelines on Homogenisation* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
-
-*Sources / Источники:* WMO, *Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017), for standard 30-year normals; WMO, *Guidelines on Homogenization* (WMO-No. 1245, 2020), for quality control and adjustment of inhomogeneous climate records. / ВМО, *Руководство по расчёту климатических норм* (WMO-No. 1203, 2017) — стандартные 30-летние нормы; ВМО, *Руководство по гомогенизации* (WMO-No. 1245, 2020) — контроль качества и корректировка неоднородных климатических рядов.
 
 
 ## Итоги главы / Chapter Summary
@@ -974,6 +972,7 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 13. ECMWF. *Modelling and Prediction*. https://www.ecmwf.int/en/research/modelling-and-prediction
 14. World Meteorological Organization (WMO). *Global Observing System*. https://wmo.int/activities/global-observing-system-gos/global-observing-system-gos
 15. WMO. *WMO Integrated Processing and Prediction System (WIPPS)*. https://public.wmo.int/activities/wmo-integrated-processing-and-prediction-system-wipps
+17. World Meteorological Organization (WMO). *Updated 30-year reference period reflects changing climate* (2021). https://wmo.int/media/news/updated-30-year-reference-period-reflects-changing-climate
 16. World Meteorological Organization (WMO). *Guidelines on Homogenization* (WMO-No. 1245, 2020). https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/climate-data
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
