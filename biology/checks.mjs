@@ -681,13 +681,13 @@ const p2p3DispositionRows = dispositionTableRows.filter(line => line.includes("|
 if (p1DispositionRows.length !== 13 || p1DispositionRows.some(line => !line.includes("IMAGE_SCIENTIFIC_REVIEW.md"))) {
   errors.push("IMAGE_DISPOSITION_REGISTER.md: all 13 P1 assets must link to the detailed scientific review");
 }
-if (p2p3DispositionRows.length !== 39 || p2p3DispositionRows.some(line => !line.includes("IMAGE_BRIEF_REVIEW.md"))) {
-  errors.push("IMAGE_DISPOSITION_REGISTER.md: all 39 P2/P3 assets must link to the individual brief review");
+if (p2p3DispositionRows.length !== 40 || p2p3DispositionRows.some(line => !line.includes("IMAGE_BRIEF_REVIEW.md"))) {
+  errors.push("IMAGE_DISPOSITION_REGISTER.md: all 40 P2/P3 assets must link to the individual brief review");
 }
 const imageBriefReview = fs.readFileSync(path.join(root, "IMAGE_BRIEF_REVIEW.md"), "utf8");
 const imageBriefReviewIds = [...imageBriefReview.matchAll(/^\| `(image-brief-[^ `]+)` \| P[23] \|/gm)].map(m => m[1]);
-if (imageBriefReviewIds.length !== 39 || new Set(imageBriefReviewIds).size !== 39) {
-  errors.push("IMAGE_BRIEF_REVIEW.md must individually review 39 unique P2/P3 briefs; found " + imageBriefReviewIds.length);
+if (imageBriefReviewIds.length !== 40 || new Set(imageBriefReviewIds).size !== 40) {
+  errors.push("IMAGE_BRIEF_REVIEW.md must individually review 40 unique P2/P3 briefs; found " + imageBriefReviewIds.length);
 }
 for (const line of p2p3DispositionRows) {
   const id = (line.match(/^\| `(image-brief-[^ `]+)`/) || [])[1];
@@ -705,8 +705,8 @@ const priorityCounts = {
   P2: (imagePlanFile.match(/^- \[(?:~|x)\] \*\*\[P2\]/gm) || []).length,
   P3: (imagePlanFile.match(/^- \[(?:~|x)\] \*\*\[P3\]/gm) || []).length
 };
-if (priorityCounts.P1 !== 13 || priorityCounts.P2 !== 26 || priorityCounts.P3 !== 13) {
-  errors.push("IMAGE_GENERATION_PLAN.md priority allocation must remain 13 P1, 26 P2 and 13 P3; found " + JSON.stringify(priorityCounts));
+if (priorityCounts.P1 !== 13 || priorityCounts.P2 !== 27 || priorityCounts.P3 !== 13) {
+  errors.push("IMAGE_GENERATION_PLAN.md priority allocation must remain 13 P1, 27 P2 and 13 P3; found " + JSON.stringify(priorityCounts));
 }
 if (!imagePlanFile.includes("P1 — highest value") || !imagePlanFile.includes("P2 — useful complement") || !imagePlanFile.includes("P3 — lower priority")) {
   errors.push("IMAGE_GENERATION_PLAN.md must define all three image-production priority levels");
