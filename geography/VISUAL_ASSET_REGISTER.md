@@ -13,7 +13,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 | Chapter | Unique asset IDs | Count | Main visual themes |
 |---:|---|---:|---|
-| 01 | 01-A–01-C | 3 | Geography as a science; Earth systems; spatial scales |
+| 01 | 01-A–01-E | 5 | Geography as a spatial system; branches of geography; absolute and relative location; scale levels; research cycle |
 | 02 | 19 IDs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A, 2.14-A, 2.15-A | 19 | Geographic envelope; Earth spheres; atmosphere; global water; plate tectonics; biosphere; energy; zonation; biogeochemical cycles; geosystems; feedbacks; human pressure; planetary boundaries; integrated Earth system |
 | 03 | 3-A–3-D | 4 | Earth structure; rock cycle; plate boundaries; earthquakes |
 | 04 | 4-A–4-D | 4 | Landform hierarchy; mountain relief; river valleys; glacial landforms |
