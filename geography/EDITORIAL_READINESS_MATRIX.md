@@ -345,3 +345,6 @@ A further targeted correction pass was committed across all five chapters: catch
 ### Chapter 07 — GBF Target 3 geographic scope — 5 November 2026
 
 - Added the distinction that Target 3's 30% objective is global, not an automatic quota for 30% of every country's territory. RU/EN wording also retains the distinction between effective conservation and strict protection. Commit: `44e95d29e79d5b8731c94ffd4a568c92e593b66a`.
+
+
+- Clarified that GBF Target 2 is a global objective measured against degraded ecosystem areas, not a 30% restoration quota for every country's total territory. RU/EN distinction between Targets 2 and 3 now explicit. Commit: `d8892146b1d3d58a8bcd6bfc4e9c46d18a08802e`.
