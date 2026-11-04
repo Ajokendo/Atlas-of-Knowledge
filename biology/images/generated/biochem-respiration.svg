@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Клеточное дыхание / Cellular respiration</title>
+<desc id="desc">Гликолиз показан в цитозоле; цикл лимонной кислоты — в матриксе митохондрии; дыхательная цепь и АТФ-синтаза — во внутренней мембране. Протоны перекачиваются из матрикса в межмембранное пространство и возвращаются через АТФ-синтазу. Glycolysis in cytosol, citric acid cycle in matrix, electron transport chain and ATP synthase in inner membrane.</desc>
+<defs>
+ <marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#405d78"/></marker>
+ <marker id="proton" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#b36b22"/></marker>
+ <style>
+ .title{font:700 30px Arial,sans-serif;fill:#18334b}.head{font:700 23px Arial,sans-serif;fill:#18334b}
+ .txt{font:19px Arial,sans-serif;fill:#29465d}.small{font:17px Arial,sans-serif;fill:#35536b}
+ .cell{fill:#f7fafc;stroke:#7d9aaf;stroke-width:4}.mito{fill:#f7e8d5;stroke:#b8793e;stroke-width:5}
+ .mem{fill:none;stroke:#a85f35;stroke-width:12;stroke-linecap:round}.inner{fill:none;stroke:#d18a4d;stroke-width:7;stroke-linecap:round}
+ .gly{fill:#d9eaf6;stroke:#4c83a7;stroke-width:3}.cycle{fill:#dceedd;stroke:#4d8b60;stroke-width:3}
+ .protein{fill:#8bb7d2;stroke:#356887;stroke-width:3}.atp{fill:#f6d88b;stroke:#a97820;stroke-width:3}
+ .arrow{fill:none;stroke:#405d78;stroke-width:4;marker-end:url(#arr)}.pflow{fill:none;stroke:#b36b22;stroke-width:4;marker-end:url(#proton)}
+ .divider{stroke:#c6d5df;stroke-width:2}
+ </style>
+</defs>
+<rect width="1200" height="900" rx="24" fill="#fff"/>
+<text x="600" y="48" text-anchor="middle" class="title">Где идут этапы клеточного дыхания / Where cellular respiration takes place</text>
+<rect x="35" y="85" width="1130" height="755" rx="34" class="cell"/>
+<text x="65" y="125" class="head">Цитозоль / Cytosol</text>
+<rect x="75" y="155" width="280" height="145" rx="20" class="gly"/>
+<text x="215" y="192" text-anchor="middle" class="head">Гликолиз / Glycolysis</text>
+<text x="215" y="229" text-anchor="middle" class="txt">Глюкоза → 2 пирувата</text>
+<text x="215" y="258" text-anchor="middle" class="small">Glucose → 2 pyruvate</text>
+<text x="215" y="282" text-anchor="middle" class="small">Чистый выход: 2 АТФ и NADH / Net: 2 ATP and NADH</text>
+<path d="M355 230 L430 230" class="arrow"/>
+<text x="392" y="205" text-anchor="middle" class="small">Пируват / Pyruvate</text>
+<rect x="430" y="155" width="280" height="145" rx="20" class="gly"/>
+<text x="570" y="192" text-anchor="middle" class="head">Окисление пирувата</text>
+<text x="570" y="222" text-anchor="middle" class="head">Pyruvate oxidation</text>
+<text x="570" y="255" text-anchor="middle" class="small">Ацетил-КоА + CO₂ + NADH</text>
+<text x="570" y="280" text-anchor="middle" class="small">Acetyl-CoA + CO₂ + NADH</text>
+<path d="M710 230 L780 230" class="arrow"/>
+<text x="744" y="205" text-anchor="middle" class="small">Ацетил-КоА</text>
+<text x="744" y="224" text-anchor="middle" class="small">Acetyl-CoA</text>
+<rect x="780" y="155" width="330" height="145" rx="20" class="cycle"/>
+<text x="945" y="192" text-anchor="middle" class="head">Цикл лимонной кислоты</text>
+<text x="945" y="222" text-anchor="middle" class="head">Citric acid cycle</text>
+<text x="945" y="255" text-anchor="middle" class="small">CO₂, NADH, FADH₂ и GTP/АТФ</text>
+<text x="945" y="280" text-anchor="middle" class="small">CO₂, NADH, FADH₂ and GTP/ATP</text>
+<text x="600" y="350" text-anchor="middle" class="small">У эукариот пируват окисляется, а цикл проходит в матриксе митохондрии / In eukaryotes, pyruvate is oxidised and the cycle occurs in the mitochondrial matrix</text>
+<!-- mitochondrion -->
+<path class="mito" d="M130 430 C190 365 400 365 555 415 C720 470 960 390 1060 475 C1155 555 1040 730 870 755 C680 785 500 735 330 770 C170 800 70 680 95 540 C102 485 110 455 130 430Z"/>
+<path class="mem" d="M160 490 C270 425 430 445 555 490 C690 540 900 455 1025 510 C1100 545 1030 675 885 700 C710 730 520 680 345 720 C200 750 120 650 135 550"/>
+<path class="inner" d="M160 490 C270 425 430 445 555 490 C690 540 900 455 1025 510 C1100 545 1030 675 885 700 C710 730 520 680 345 720 C200 750 120 650 135 550"/>
+<text x="600" y="420" text-anchor="middle" class="head">Межмембранное пространство / Intermembrane space</text>
+<text x="600" y="800" text-anchor="middle" class="head">Матрикс митохондрии / Mitochondrial matrix</text>
+<rect x="360" y="545" width="320" height="110" rx="20" class="cycle"/>
+<text x="520" y="580" text-anchor="middle" class="head">Цикл лимонной кислоты</text>
+<text x="520" y="610" text-anchor="middle" class="txt">Citric acid cycle</text>
+<text x="520" y="638" text-anchor="middle" class="small">Ацетил-КоА → CO₂ + переносчики электронов</text>
+<!-- ETC complex -->
+<rect x="205" y="455" width="72" height="95" rx="18" class="protein"/>
+<rect x="300" y="448" width="72" height="108" rx="18" class="protein"/>
+<rect x="395" y="455" width="72" height="95" rx="18" class="protein"/>
+<text x="335" y="470" text-anchor="middle" class="small">Цепь переноса электронов / Electron transport chain</text>
+<path d="M245 405 L245 455" class="pflow"/><path d="M340 405 L340 448" class="pflow"/><path d="M435 405 L435 455" class="pflow"/>
+<text x="245" y="390" text-anchor="middle" class="small">H⁺</text><text x="340" y="390" text-anchor="middle" class="small">H⁺</text><text x="435" y="390" text-anchor="middle" class="small">H⁺</text>
+<text x="330" y="580" text-anchor="middle" class="small">NADH / FADH₂</text>
+<path d="M330 560 L330 540" class="arrow"/>
+<!-- ATP synthase -->
+<rect x="820" y="635" width="76" height="92" rx="24" class="atp"/>
+<circle cx="858" cy="625" r="28" class="atp"/>
+<path d="M858 510 L858 605" class="pflow"/>
+<text x="858" y="495" text-anchor="middle" class="head">H⁺</text>
+<text x="930" y="635" class="small">АТФ-синтаза</text><text x="930" y="660" class="small">ATP synthase</text>
+<path d="M900 690 L1010 690" class="arrow"/>
+<text x="1010" y="665" text-anchor="middle" class="small">АДФ + Pi → АТФ</text>
+<text x="1010" y="715" text-anchor="middle" class="small">ADP + Pi → ATP</text>
+<text x="600" y="865" text-anchor="middle" class="small">O₂ — конечный акцептор электронов; образуется вода / O₂ is the final electron acceptor; water is formed</text>
+</svg>
