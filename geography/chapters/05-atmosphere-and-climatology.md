@@ -255,7 +255,11 @@
 
 Метеорологические наблюдения проводят на наземных станциях, морских платформах, метеорологических радарах, воздушных шарах, самолётах и спутниках.
 
-**Место для иллюстрации 5.9-A — Weather vs Climate.** Сравнить краткосрочный ряд ежедневной температуры с многолетним распределением и климатической нормой; показать, почему отдельный холодный день не опровергает долгосрочный тренд.
+**Иллюстрация 5.9-A — Weather vs Climate.**
+
+![Погода и климат: два временных масштаба / Weather and climate: two time scales](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-vs-climate.svg)
+
+*Оригинальная двуязычная схема Atlas of Knowledge. Левая панель показывает условные краткосрочные изменения погоды; правая — статистическое описание климата: среднее и диапазон изменчивости на длинном ряду наблюдений. Иллюстративные точки и линии не являются измеренными данными. Климатические нормы ВМО рассчитываются для стандартных последовательных 30-летних периодов; используемый период необходимо указывать. Один холодный день не опровергает долгосрочную тенденцию. / Original bilingual Atlas of Knowledge diagram. The left panel shows conceptual short-term weather changes; the right shows a statistical description of climate: an average and a range of variability across a long observation record. The plotted points and lines are illustrative, not measured data. WMO climatological standard normals use consecutive 30-year periods; the reference period must be stated. A single cold day does not disprove a long-term trend.* [NOAA: Climate Compared to Weather](https://www.climate.gov/climate-and-energy-topics/climate-compared-weather) · [WMO: Climate Normals](https://wmo.int/wmo-climatological-normals).
 
 ## 5.10. Климатообразующие факторы / Climate Controls
 
@@ -718,6 +722,12 @@ An **atmospheric front** is a transition zone between air masses with different 
 The World Meteorological Organization defines climatological standard normals as averages for consecutive 30-year periods ending in a year ending with zero; the current standard period is 1991–2020. WMO recommends decadal updating. A climate normal is not interchangeable with any arbitrary 30-year average, and the baseline must be stated. Climate data should always identify the specific observation period.
 
 Meteorological observations are collected by land stations, marine platforms, weather radars, radiosondes, aircraft and satellites.
+
+**Illustration 5.9-A — Weather vs Climate.**
+
+![Weather and climate: two time scales](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-vs-climate.svg)
+
+*Original bilingual Atlas of Knowledge diagram. The left panel shows conceptual short-term weather changes; the right shows a statistical description of climate: an average and a range of variability across a long observation record. The plotted points and lines are illustrative, not measured data. WMO climatological standard normals use consecutive 30-year periods; the reference period must be stated. A single cold day does not disprove a long-term trend.* [NOAA: Climate Compared to Weather](https://www.climate.gov/climate-and-energy-topics/climate-compared-weather) · [WMO: Climate Normals](https://wmo.int/wmo-climatological-normals).
 
 ### 5.10. Climate Controls
 
