@@ -972,8 +972,8 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 13. ECMWF. *Modelling and Prediction*. https://www.ecmwf.int/en/research/modelling-and-prediction
 14. World Meteorological Organization (WMO). *Global Observing System*. https://wmo.int/activities/global-observing-system-gos/global-observing-system-gos
 15. WMO. *WMO Integrated Processing and Prediction System (WIPPS)*. https://public.wmo.int/activities/wmo-integrated-processing-and-prediction-system-wipps
-17. World Meteorological Organization (WMO). *Updated 30-year reference period reflects changing climate* (2021). https://wmo.int/media/news/updated-30-year-reference-period-reflects-changing-climate
 16. World Meteorological Organization (WMO). *Guidelines on Homogenization* (WMO-No. 1245, 2020). https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/climate-data
+17. World Meteorological Organization (WMO). *Updated 30-year reference period reflects changing climate* (2021). https://wmo.int/media/news/updated-30-year-reference-period-reflects-changing-climate
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
