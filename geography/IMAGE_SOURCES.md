@@ -27,11 +27,23 @@ A site's general copyright statement is not a licence for every image on that si
 
 ## Chapter 01 — Geography as a Science
 
-| Visual ID | Required content | Candidate search route | Status | Next action |
+| Visual ID | Required content | Source / asset | Status | Rights, scientific fit and review |
 |---|---|---|---|---|
-| 01-A | Geography as a spatial science: nature, population, economy and connections | USGS educational geography media; Wikimedia Commons | Pending search | Find a scientifically neutral diagram or build an original bilingual vector graphic; verify all labels. |
-| 01-B | Absolute/relative location, place, territory and spatial relationships | Wikimedia Commons; USGS educational geography media | Pending search | Select a diagram with correct coordinate/location concepts or create a new schematic. |
-| 01-C | Geographic research cycle: question, data, analysis, map and conclusion | USGS educational resources; ICA education materials | Pending search | Prefer an original flow diagram if no fully reusable, accurate diagram exists. |
+| 01-A | Geography as a spatial science: nature, population, economy and connections | Original bilingual SVG: `01-A-geography-spatial-system.svg` | Integrated locally in RU and EN | Original Atlas of Knowledge schematic; systems are linked conceptually, not quantitatively. |
+| 01-B | Absolute/relative location, place, territory and spatial relationships | Original bilingual SVG: `01-B-location-place-territory.svg` | Integrated locally in RU and EN | Original schematic; coordinate grid and settlements are illustrative, not real geodata. |
+| 01-C | Geographic research cycle: question, data, analysis, map and conclusion | Original bilingual SVG: `01-C-geographical-research-cycle.svg` | Integrated locally in RU and EN | Original diagram based on the inquiry sequence described in National Geographic Geo-Inquiry resources; not a universal mandatory protocol. |
+| 01-D | Physical, human and applied/technical branches of geography | Adapted bilingual SVG: `01-D-branches-of-geography.svg`; based on GeogSage, `BranchesOfGeography.png` | Integrated locally in RU and EN | CC BY 4.0. Redrawn and translated; attribution and changes are stated in the chapter and in the SVG. |
+| 01-E | Local, regional, national, international and global levels of analysis | Original bilingual SVG: `01-E-local-to-global-scales.svg` | Integrated locally in RU and EN | Original schematic; clearly distinguished from cartographic map scale and not presented as real boundary maps. |
+
+### Chapter 01 original and adapted visuals — 4 November 2026
+
+- **01-A — Geography as a spatial system:** original bilingual SVG, `geography/assets/diagrams/01-A-geography-spatial-system.svg`. It is an educational conceptual model linking natural components, population, settlements, economy, culture and transport. It contains no third-party image or quantitative data.
+- **01-B — Absolute and relative location:** original bilingual SVG, `geography/assets/diagrams/01-B-location-place-territory.svg`. The coordinate grid and settlement network are explicitly schematic; they do not encode real coordinates or settlement locations.
+- **01-C — Geographic research cycle:** original bilingual SVG, `geography/assets/diagrams/01-C-geographical-research-cycle.svg`. The six-stage cycle is an original visual adaptation of the iterative inquiry process described by National Geographic Society's Geo-Inquiry educator resources: https://education.nationalgeographic.org/resource/geo-inquiry-educator-resources/. No third-party diagram image was copied.
+- **01-D — Branches of geography:** `geography/assets/diagrams/01-D-branches-of-geography.svg`, redrawn and translated from GeogSage, *BranchesOfGeography.png*: https://commons.wikimedia.org/wiki/File:BranchesOfGeography.png. Creator: GeogSage. Licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Changes: the graphic was redrawn as a bilingual SVG and the third circle was labelled “Applied & technical geography” to match the chapter's applied-geography framing; source credit and changes are recorded in the SVG and caption.
+- **01-E — Local-to-global analytical scales:** original bilingual SVG, `geography/assets/diagrams/01-E-local-to-global-scales.svg`. It shows local, regional, national, international and global levels of analysis. Panels are schematic, not actual administrative boundary maps; this is deliberately distinct from cartographic map scale.
+
+The image-first search considered NASA Earth-system imagery, Wikimedia Commons location/coordinate diagrams, Commons research-cycle and geography-branches diagrams, National Geographic educational material and USGS mapping-scale graphics. The exact candidates did not meet all of the chapter's requirements for bilingual labels, the full conceptual scope and distinction between map scale and scale of analysis. Four visuals were therefore drawn as original bilingual teaching schematics; 01-D adapts a CC BY 4.0 source with attribution and modification notice. No AI-generated image is used for Chapter 01.
 
 ## Chapter 02 — Earth's Geographic Envelope
 
@@ -61,12 +73,12 @@ A site's general copyright statement is not a licence for every image on that si
 
 | Measure | Chapter 01 | Chapter 02 | Total |
 |---|---:|---:|---:|
-| Distinct visual IDs | 3 | 19 | 22 |
-| Unique source/local image assets integrated | 0 | 20 | 20 |
-| Approved and integrated visual IDs | 0 | 19 | 19 |
-| Remaining visual briefs without an integrated image | 3 | 0 | 3 |
+| Distinct visual IDs | 5 | 19 | 24 |
+| Unique source/local image assets integrated | 5 | 20 | 25 |
+| Approved and integrated visual IDs | 5 | 19 | 24 |
+| Remaining visual briefs without an integrated image | 0 | 0 | 0 |
 
-Chapter 02 has 40 Markdown image embeds representing 20 unique assets: nine remote science images and 11 original local bilingual SVGs. Each of the 19 visual IDs appears in both the Russian and English chapter sections. The 2.10-B visual ID intentionally uses two separate source images (nitrogen and phosphorus). All 40 image embeds have non-empty bilingual alt text. All 11 local SVGs include a title, description and `role="img"` metadata. The three Chapter 01 briefs remain unintegrated. Live external-image loading, responsive display, keyboard navigation and screen-reader behavior still require testing in a deployed reader.
+Chapter 01 has 10 Markdown image embeds representing five unique local bilingual SVGs; all five visual IDs appear in both Russian and English sections. Chapter 02 has 40 Markdown image embeds representing 20 unique assets: nine remote science images and 11 original local bilingual SVGs. The 2.10-B visual ID intentionally uses two separate source images (nitrogen and phosphorus). Across Chapters 01–02, all 50 image embeds have non-empty bilingual alt text. The 16 local SVGs include a title, description and `role="img"` metadata. Live external-image loading, responsive display, keyboard navigation and screen-reader behavior still require testing in a deployed reader.
 
 ## Required metadata for every approved asset
 
