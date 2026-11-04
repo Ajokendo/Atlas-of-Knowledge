@@ -583,6 +583,12 @@ for (const [relative, minimum] of [["chapters/atomic-structure.html", 2], ["chap
   const count = (page.match(/<svg\b/gi) || []).length;
   if (count < minimum) errors.push(relative + ": expected at least " + minimum + " inline SVG visual models; found " + count);
 }
+const stoichiometryPage = fs.readFileSync(path.join(root, "stoichiometry.html"), "utf8");
+if (!stoichiometryPage.includes("Math.max(Math.abs(xa),Math.abs(xb),Number.MIN_VALUE)") ||
+    !stoichiometryPage.includes("amountEpsA") ||
+    !stoichiometryPage.includes("amountEpsB")) {
+  errors.push("stoichiometry.html: limiting-reactant comparisons must use scale-relative tolerances for tiny amounts");
+}
 const virtualLabPage = fs.readFileSync(path.join(root, "virtual-lab.html"), "utf8");
 for (const [label, evidence] of [
   ["Russian monobasic-base scope", "сильного одноосновного основания (например, NaOH)"],
