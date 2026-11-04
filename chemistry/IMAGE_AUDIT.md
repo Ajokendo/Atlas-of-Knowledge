@@ -28,7 +28,7 @@ Audit result values: **PASS**, **FAIL**, **PENDING**, **NOT APPLICABLE** (with r
 | Static visuals integrated | 11 / 11 | All inventoried static visual pairs are used on the landing page or in a chapter |
 | Provisional static Image Coverage | 11 / 11 = 100% | **Only for the 11 currently inventoried static visual topics; not a claim that every chapter has all required visuals** |
 | Static Image Verification | 0 / 11 = 0% VERIFIED | All 11 pairs still lack file-specific creator/rightsholder and licence confirmation |
-| Static Image Gaps | 0 confirmed; 2 editorial decisions pending | Chapter 01 already has two inline SVG models; decide whether chapter 03 needs a separate periodic-trend diagram beyond its interactive periodic table. Full visual-need sign-off remains pending |
+| Static Image Gaps | 0 confirmed; 1 editorial decision pending | Chapter 01 has two inline SVG models; decide whether chapter 03 needs a separate periodic-trend diagram beyond its interactive periodic table. Full visual-need sign-off remains pending |
 | Category A — external original reuse | 0 | No external image-source records established |
 | Category B — adapted external reuse | 0 | No external adapted image-source records established |
 | Category C — project-created SVG pairs | 11 | Provenance method and rightsholder still need confirmation |
@@ -68,9 +68,9 @@ Audit result values: **PASS**, **FAIL**, **PENDING**, **NOT APPLICABLE** (with r
 
 | Chapter | Existing visual evidence | Current assessment | Next action |
 |---|---|---|---|
-| 01 Atomic structure | Electron-cloud image on landing page; interactive atom model in chapter page | INTEGRATED at atlas level; chapter figure placement and scientific wording require confirmation | Decide whether the electron-cloud figure should also be embedded in chapter 01; avoid implying electron paths are classical orbits |
+| 01 Atomic structure | Two inline SVG models in the chapter (atom/electron-shell model and subatomic-particle comparison); electron-cloud image on landing page | INTEGRATED with two chapter-level models; no confirmed missing figure | Verify model limitations and accessible labels; avoid implying electron paths are classical orbits |
 | 02 Chemical elements | Isotope abundance figure | INTEGRATED | Keep |
-| 03 Periodic system | Interactive periodic table | INTEGRATED as an interactive visual, not a static figure | Decide whether a separate periodic-trend diagram is pedagogically required |
+| 03 Periodic system | Interactive periodic table | INTEGRATED as an interactive visual, not a static figure | Editorial decision: determine whether a separate periodic-trend diagram is pedagogically required |
 | 04 Chemical bonding | Three interactive inline SVG models | INTEGRATED as interactive visual | Review model limitations and add static fallback only if needed |
 | 05 Amount of substance | One-mole figure | INTEGRATED | Correct Russian “particles” wording to “elementary entities” |
 | 06 Chemical formulae | Formula-reading figure | INTEGRATED | Keep |
