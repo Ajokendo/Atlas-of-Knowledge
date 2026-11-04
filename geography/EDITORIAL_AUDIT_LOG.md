@@ -2078,3 +2078,19 @@ A final compliance check against the Geography image-first instruction found tha
 - Chapter 04 integration: `8669ecc8ddb983bcb4fe812efb0028ebdd78f283`
 - Visual register: `6a69f7fca7eade86f7cca94452ed7a71b013846c`
 - Readiness matrix: `d2bfd0480792ca96c232918f892ac73847c1d8a9`
+
+
+## Chapter 03–04 visual production tranche 2 — 4 November 2026
+
+- **Chapter 03, asset 3.1-A:** created `assets/03-1-A-earth-interior-bilingual.svg` and embedded it in both language sections. The schematic distinguishes compositional layers (crust, mantle, core) from mechanical layers (lithosphere and asthenosphere), identifies the liquid outer core and solid inner core, and explicitly states that it is not to scale. The labels and explanatory note preserve the scientific distinction that the mantle/asthenosphere are predominantly solid and deform over geological timescales. Static source review removed an erroneous sector overlay before integration.
+- **Chapter 04, asset 4.4-A:** created `assets/04-4-A-mountain-landscape-bilingual.svg` and embedded it in both language sections. It labels summit, ridge, pass, slope, valley, mountain foot and local relief; it is explicitly a conceptual profile with no invented elevations and is not presented as a specific real mountain range.
+- Updated the visual register and readiness matrix: Chapter 03 now has 2/13 visual IDs integrated; Chapter 04 has 2/16. Their textual scientific/editorial audits remain 100%; neither chapter's complete content/visual package is marked complete. The register now lists 13 created/embedded SVG assets across the Geography atlas.
+- No browser-rendering, mobile, keyboard, screen-reader or deployment tests are claimed.
+
+**Commits**
+- Chapter 03 Earth-interior SVG: `b9b66165f50471f2a40e6bb1c872da957011854c`; correction: `36160301a0bbe4f1b633e988e49b786be9cddbba`
+- Chapter 04 mountain-profile SVG: `89c2ca320f7492738416ad5bacf076cd6c7c95dd`
+- Chapter 03 integration: `5a5a76b02b065dc993f246fa5fd617068ac84860`
+- Chapter 04 integration: `c6de78327ab8f041a419ac22a198d2d767151eb6`
+- Visual register: `f0f4bdd47fd07ef8e8b3e49de450d48751168dbc`
+- Readiness matrix: `c45ad0881bb011254b23bd7f2040418a7a1d2402`
