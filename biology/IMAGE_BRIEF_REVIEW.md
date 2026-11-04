@@ -63,6 +63,8 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 | `image-brief-fauna-talas` | P2 | **Produced:** original bilingual SVG integrated in `chapters/fauna-kyrgyzstan.html`. Three separate scenes show (1) snow leopard and Siberian ibex grounded in the Ministry's September 2025 Besh-Tash camera-trap notice, (2) maral on a spruce-juniper slope, with the chapter clarifying the introduced Altai animals, and (3) Besh-Tash River as an aquatic habitat with a generic unlabelled fish because sources differ on fish naming. No range map, census claim or implied co-occurrence. Browser visual QA and detailed morphology review pending. |
 | `image-brief-fauna-chuy` | P2 | Six source-backed local photographs: red squirrel (*Sciurus vulgaris*) and Halys pit viper (*Gloydius halys*) from Ala-Archa (Nikolai Bulykin), plus Ak-Suu Gorge, an Ala-Archa mountain-forest view, a Chong-Kemin stream-valley view and the red-sandstone canyon at Chong-Kuurchak Botanical Reserve (Vilya Shoni). All are geographically grounded in Chüy Region and licensed CC BY-SA 4.0. Captions distinguish individual fauna records from habitat views; none implies a complete fauna survey or species-distribution map. |
 
+| `image-brief-cell-cycle` | P2 | Show G₁, S, G₂ and M in the correct order. DNA replication occurs in S phase; distinguish interphase (G₁ + S + G₂) from mitosis and cytokinesis. Show G₁/S, G₂/M and spindle checkpoints as regulatory pauses, not extra phases. G₀ is an exit from the cycle, not a mandatory stage. |
+
 ## Cross-cutting production rules
 
 1. Do not add scientific labels, exact localities, range boundaries, abundance figures or conservation categories that are not supported by the relevant chapter.
