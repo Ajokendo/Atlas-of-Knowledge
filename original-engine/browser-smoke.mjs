@@ -217,6 +217,12 @@ async function checkChapterPage() {
     const serious = axe.violations.filter(v => v.impact === 'serious');
     axeCritical += critical.length;
     axeSerious += serious.length;
+    for (const violation of [...critical, ...serious]) {
+      console.error(`AXE chapter page ${violation.impact}: ${violation.id} — ${violation.help} (${violation.nodes.length} nodes)`);
+      for (const node of violation.nodes) {
+        console.error(`AXE NODE chapter page: ${JSON.stringify({ target: node.target, html: node.html, summary: node.failureSummary })}`);
+      }
+    }
     if (critical.length || serious.length) {
       throw new Error(`chapter page axe found ${critical.length} critical and ${serious.length} serious violation group(s)`);
     }
