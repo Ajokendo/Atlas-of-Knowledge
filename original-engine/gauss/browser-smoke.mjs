@@ -70,6 +70,9 @@ async function checkLesson(mobile) {
     await page.locator('.answers button[data-answer="a"]').click();
     if (!(await readout('#feedback')).includes('Верно')) throw new Error('Gauss-law quiz rejected the correct answer');
 
+    // Bring the lab into the viewport so its IntersectionObserver permits animation.
+    await page.locator('[data-physics-lab]').scrollIntoViewIfNeeded();
+    await page.waitForTimeout(150);
     const play = page.locator('.physics-lab-controls button');
     if ((await play.innerText()).trim() !== 'Продолжить') throw new Error('reduced-motion mode should begin with the 3D lab paused');
     // Keep the reduced-motion assertion, then switch to the normal preference to test both controls.
