@@ -47,7 +47,7 @@ async function checkLesson(mobile) {
     const missing = required.filter(title => !headings.includes(title));
     if (missing.length) throw new Error(`missing lesson sections: ${missing.join('; ')}`);
 
-    const readout = async id => (await page.locator(id).innerText()).replace(/\\s+/g, ' ').trim();
+    const readout = async id => (await page.locator(id).innerText()).replace(/\s+/g, ' ').trim();
     if (!(await readout('#r0')).includes('19600 Па')) throw new Error(`default gauge pressure should be 19600 Pa, got ${await readout('#r0')}`);
     if (!(await readout('#r1')).includes('196,00 Н')) throw new Error(`default buoyancy should be 196 N, got ${await readout('#r1')}`);
     await page.locator('#p0').evaluate(el => { el.value = '4'; el.dispatchEvent(new Event('input', { bubbles: true })); });
