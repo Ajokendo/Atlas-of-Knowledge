@@ -26,7 +26,7 @@
 <circle cx="888" cy="365" r="112" fill="#eeeaf6" stroke="#8a79ad" stroke-width="15"/>
 <path d="M824 365q30-80 62 0t65 0t35 0" fill="none" stroke="#b34e69" stroke-width="8" stroke-linecap="round"/>
 <g stroke="#43566b" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M1000 240L970 270"/><path d="M1020 480L990 440"/><path d="M760 520L825 400"/></g>
-<g fill="#26384a" font-size="15"><text x="1000" y="220">Липидная оболочка</text><text x="1000" y="240">у некоторых вирусов</text><text x="1000" y="260">Lipid envelope in</text><text x="1000" y="280">some viruses only</text><text x="1000" y="510">Капсид / Capsid</text><text x="650" y="550">Геном (ДНК или РНК) /</text><text x="650" y="575">Genome (DNA or RNA)</text></g>
+<g fill="#26384a" font-size="15"><text x="888" y="198" text-anchor="middle">Липидная оболочка у некоторых вирусов</text><text x="888" y="216" text-anchor="middle">Lipid envelope in some viruses only</text><text x="888" y="540" text-anchor="middle">Капсид / Capsid</text><text x="650" y="550">Геном (ДНК или РНК) /</text><text x="650" y="575">Genome (DNA or RNA)</text></g>
 <text x="888" y="625" text-anchor="middle" font-size="18" fill="#5a5074">Нет цитоплазмы и рибосом / No cytoplasm or ribosomes</text>
 <text x="888" y="657" text-anchor="middle" font-size="16" fill="#5a5074">Схематично; не в масштабе / Schematic; not to scale</text>
 </g>
