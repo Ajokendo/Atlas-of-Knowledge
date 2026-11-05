@@ -667,7 +667,7 @@ if (fs.existsSync(isotopeSvgPath)) {
   const isotopeSvg = fs.readFileSync(isotopeSvgPath, "utf8");
   for (const [x, expectedNeutrons] of [[205, 6], [470, 7]]) {
     const start = isotopeSvg.indexOf('<g transform="translate(' + x + ' 185)">');
-    const end = start < 0 ? -1 : isotopeSvg.indexOf("</g>", start);
+    const end = start < 0 ? -1 : isotopeSvg.indexOf("</g></g>", start);
     const nucleus = start < 0 || end < 0 ? "" : isotopeSvg.slice(start, end);
     const protons = (nucleus.match(/fill="#238b70"/g) || []).length;
     const neutrons = (nucleus.match(/fill="#e0a64d"/g) || []).length;
@@ -679,7 +679,7 @@ if (fs.existsSync(isotopeSvgPath)) {
 const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
 if (fs.existsSync(neutralisationSvgPath)) {
   const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
-  if (!neutralisationSvg.includes('d="M20 132 C90 132 120 130 145 112 C160 100 164 75 185 75 C206 75 210 50 225 35 C250 18 300 20 350 20"')) {
+  if (!/d="M20 132 C90 132 120 130 145 112 C160 100 164 75 185 75 C206 75 210 50 225 35 C250 18 300 20 350 20"/.test(neutralisationSvg)) {
     errors.push("assets/acid-base-neutralisation.svg: expected rising curve crossing pH 7 at the equivalence marker (x=185, y=75)");
   }
 }
