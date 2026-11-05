@@ -464,15 +464,15 @@ No Image Coverage or Image Verification percentage is calculated from this token
 
 ### 7.6 Static SVG structure and Markdown alt-text checks — Chapters 01–05 and 18–20
 
-A direct fetch-and-inspect pass covered all **54 local SVG assets** currently found in the Geography branch:
+A direct fetch-and-inspect pass covered all **55 local SVG assets** currently found in the Geography branch:
 - 5 Chapter 01 SVGs in `assets/diagrams/`;
 - 11 Chapter 02 SVGs in `assets/diagrams/`;
 - 10 Chapter 03 SVGs in `assets/`;
 - 16 Chapter 04 SVGs in `assets/`;
-- 8 Chapter 05 SVGs in `visuals/`;
+- 9 Chapter 05 SVGs in `visuals/`;
 - 4 Chapter 18–20 SVGs in `assets/`.
 
-All 54 fetched SVG files contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
+All 55 fetched SVG files contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
 
 Markdown alt-text checks:
 - Chapters 01–02: the source register records 50 embeds with non-empty bilingual alt text (10 + 40).
@@ -720,3 +720,6 @@ The prior embed was a UCAR-hosted reproduction of IPCC AR6 WGI Figure 7.2. The I
 Replaced it with the NASA / My NASA Data “Earth's Energy Budget” diagram, whose exact source page credits NASA and whose image contains data citations to Loeb et al. (2009) and Trenberth et al. (2009). NASA's current media guidance generally permits factual educational/informational reuse on websites when NASA is credited and no third-party copyright notice applies. The chapter caption now states that the flux values are a ten-year average, not current measurements. The image is reused unchanged.
 
 **Result:** rights PASS for educational/informational reuse with NASA credit; RU/EN caption and alt-text parity PASS. Scientific review of the historic ten-year data context is recorded; full scientific verification of each numeric flux, detailed accessibility and deployed rendering remain PENDING.
+
+
+The newly integrated Chapter 05 visual 5.18-A was also fetched and checked for the same five structural SVG elements; all are present. This brings the current local SVG inventory checked in this pass to 55.
