@@ -1039,3 +1039,11 @@ After adding a brief bilingual introduction to the key-term glossaries in Chapte
 - Gerlitz et al. (2018), *Journal of Climate*, identify distinct Central Asian cold-season weather types and their extratropical/tropical drivers; the study supports the role of westerly moisture transport and mid-latitude disturbances.
 - A 2020 *Frontiers in Earth Science* study analyses winter/summer moisture transport and the seasonal influence of westerly versus northerly flow.
 - The diagram is deliberately conceptual and avoids precise circulation frequencies, mapped wind vectors or forecast claims. Local conditions in Kyrgyzstan vary with month, elevation and terrain.
+
+
+### Chapter 13 — IPBES / IPCC / OECD source checks for visuals — 5 November 2026
+
+- IPBES official conceptual framework confirms six linked elements: nature, nature's contributions to people, anthropogenic assets, institutions/indirect drivers, direct drivers and quality of life.
+- IPCC AR6 WGII assesses observed and projected impacts on ecosystems, water/food security, settlements/infrastructure, health, well-being and economies. The new matrix is qualitative and does not convert global findings into unsupported Kyrgyzstan-specific claims.
+- OECD guidance notes that adaptation indicators are context-dependent and that no single final universal indicator set has been agreed. The chapter visual therefore labels its metrics as examples, not a standard mandatory set.
+- New assets 13-E, 13-F and 13-H passed static source and embed checks; specialist review, project licensing and live accessibility/render QA remain open.
