@@ -33,7 +33,7 @@ Use the canonical policy for status definitions, audit result values, evidence r
 
 **Important:** the 11/11 ratio measures only whether the currently inventoried static topics exist and are integrated. It is not a measure of curriculum visual coverage or readiness. A learning-purpose and visual-need decision is still required for every chapter. Retrospective searches cover 15/15 records; the original search-first sequence cannot be proven retrospectively. Rights verification is 0/15; none of the visual records may be described as VERIFIED or publication-ready.
 
-## Latest policy-readiness checkpoint — 2026-11-05
+## Superseded policy-readiness checkpoint — 2026-11-05 (before CH-V12 integration)
 
 This checkpoint supersedes the earlier provisional 11/11 static-only coverage figure. It uses the chapter-level visual plan, counts the unintegrated Chapter 03 trend diagram as a required gap, and keeps image readiness separate from editorial and general website readiness.
 
@@ -319,3 +319,45 @@ The repository and prior work-history review found evidence that was not reflect
 - OpenStax, PubChem, PhET and Wikimedia results in the retrospective search register remain **candidates only**; no evidence was found that they were imported into the current local assets or interactive systems.
 
 **Metrics interpretation:** the existing atlas-wide counts (18 integrated visual units, 1 planned gap, 0/18 fully VERIFIED) are unchanged. The earlier 0/18 category assignments should be read as “no complete visual unit/pair yet has fully evidenced category and rights,” not as “there is no evidence of AI generation anywhere.” The new file-level evidence is recorded separately and does not change the 0/18 full-verification result. Independent scientific review, manual accessibility review, and explicit rights/legal review remain outstanding.
+
+
+## Latest visual checkpoint — 2026-11-05 (after CH-V12 integration)
+
+The Chapter 03 periodic-trends gap is now closed for **Image Coverage**. A bilingual, project-specific SVG pair has been created in this session and integrated into the periodic-table page. The separate generated raster draft was rejected because it contained incorrect element symbols; it is not stored or used in the atlas. The previously found Wikimedia candidate was reviewed but not adopted because its Russian derivative adds metallic/non-metallic character arrows and a denser layout beyond the three-property learning objective.
+
+| Metric | Current result | Scope / interpretation |
+|---|---:|---|
+| Required static visual units / bilingual SVG pairs | 12 | All 12 required static visual topics now have local RU/EN files integrated. |
+| Static Image Coverage | 12 / 12 = 100% | Chapter 03 CH-V12 closes the only identified static-visual gap in the current 12-topic plan. |
+| Chapter-level visual plan | 16 / 16 = 100% | 12 static topics + 4 chapter-level interactive systems are present. |
+| Interactive visual systems | 7 / 7 integrated | Four chapter-level systems plus three supplemental tools; presence does not imply verification. |
+| Atlas-wide visual plan | 19 / 19 = 100% | 12 static topics + 7 interactive systems are integrated; no known required visual gap remains in the current plan. |
+| Image Verification | 0 / 19 = 0% VERIFIED | All 19 integrated units still lack one or more required rights, independent science, manual accessibility or technical sign-offs. |
+| Image Gaps | 0 identified in current plan | This is not a claim that future audits cannot identify additional learning needs. |
+| Rights status | 0 PASS / 19 PENDING / 0 FAIL | CH-V12 creator and method are recorded, but its rightsholder/project licence basis remains Unknown/PENDING; other assets retain their existing open rights issues. |
+| Independent scientific review | 0 PASS / 19 PENDING / 0 FAIL | CH-V12 received an AI-assisted first-pass direction/qualification check only; no independent reviewer has signed it off. |
+| Language/accessibility | 0 PASS / 19 PENDING / 0 FAIL | CH-V12 has separate RU/EN SVGs, localized captions and alt text; manual translation, screen-reader and device review remain pending. |
+| Technical full sign-off | 0 PASS / 19 PENDING / 0 FAIL | CH-V12 files and language switching are integrated in source; branch-head CI has not yet been rerun after these changes, and manual zoom/device checks remain pending. |
+| AI-assisted first-pass science review | 14 PASS / 5 PENDING / 0 FAIL | Includes a first-pass check of CH-V12 trend directions and explicit caveats; not independent certification. |
+| Category A / B / C / pending | 0 / 0 / 1 / 18 | CH-V12 is category C (new code-authored SVG pair); its rights status is still pending. Other records remain unclassified pending provenance evidence. |
+| Retrospective search records | 19 / 19 | Candidate search is documented; this cannot prove historical search-first sequencing before older assets were authored. |
+
+### Chapter 03 — periodic system: updated visual status
+
+| Required visual | Integrated | Image Coverage | Image Verification | Gap |
+|---|---:|---:|---:|---|
+| Interactive periodic table (CH-IV04) | Yes | — | 0 / 1 VERIFIED | None identified |
+| Periodic trends bilingual diagram (CH-V12) | Yes | — | 0 / 1 VERIFIED | None identified |
+| **Chapter 03 total** | **2 / 2** | **100%** | **0 / 2 VERIFIED** | **None identified** |
+
+**CH-V12 review record**
+- **Files:** `assets/periodic-trends.svg`, `assets/periodic-trends-ru.svg`; integrated in `periodic-table.html`.
+- **Category / method:** C — new project-specific bilingual SVG diagrams, authored as SVG source with AI assistance.
+- **Scientific first pass:** PASS for the three broad directions: atomic radius generally increases down/left; first ionisation energy and electronegativity generally increase up/right. Caveats explicitly state that these are trends with exceptions and that electronegativity is generally not assigned to noble gases.
+- **Independent scientific review:** PENDING.
+- **Rights / rightsholder / project licence:** PENDING; creator/method documentation does not itself establish a complete rights basis.
+- **Language/accessibility:** localized SVG title/description, alt text and caption exist in RU and EN; manual translation-quality, keyboard (not applicable to static image), screen-reader and device checks remain PENDING.
+- **Technical:** local files referenced by the page and image source switches with the language control; branch-head CI and manual responsive/zoom checks PENDING.
+- **Generated raster draft:** REJECTED and not integrated because several element symbols were incorrect.
+
+The 100% figure above is **Image Coverage only**. It does not mean the visual set is legally, scientifically, linguistically, accessibly or technically VERIFIED.
