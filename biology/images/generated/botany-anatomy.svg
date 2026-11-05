@@ -58,19 +58,19 @@
 <circle cx="720" cy="430" r="112" fill="#edf2d7" stroke="#b4c98e" stroke-width="2"/>
 <!-- vascular bundles around ring; phloem outer, cambium, xylem inner -->
 <g>
- <g transform="translate(720 292)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
- <g transform="translate(818 333) rotate(55)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
- <g transform="translate(850 430) rotate(90)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
- <g transform="translate(818 527) rotate(125)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
- <g transform="translate(720 568) rotate(180)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
- <g transform="translate(622 527) rotate(235)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
- <g transform="translate(590 430) rotate(270)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
- <g transform="translate(622 333) rotate(305)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/></g>
+ <g transform="translate(720 292)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/><path d="M-18 28Q0 17 18 28" fill="none" stroke="#d49a35" stroke-width="4"/></g>
+ <g transform="translate(818 333) rotate(55)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/><path d="M-18 28Q0 17 18 28" fill="none" stroke="#d49a35" stroke-width="4"/></g>
+ <g transform="translate(850 430) rotate(90)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/><path d="M-18 28Q0 17 18 28" fill="none" stroke="#d49a35" stroke-width="4"/></g>
+ <g transform="translate(818 527) rotate(125)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/><path d="M-18 28Q0 17 18 28" fill="none" stroke="#d49a35" stroke-width="4"/></g>
+ <g transform="translate(720 568) rotate(180)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/><path d="M-18 28Q0 17 18 28" fill="none" stroke="#d49a35" stroke-width="4"/></g>
+ <g transform="translate(622 527) rotate(235)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/><path d="M-18 28Q0 17 18 28" fill="none" stroke="#d49a35" stroke-width="4"/></g>
+ <g transform="translate(590 430) rotate(270)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/><path d="M-18 28Q0 17 18 28" fill="none" stroke="#d49a35" stroke-width="4"/></g>
+ <g transform="translate(622 333) rotate(305)"><path d="M-23 0Q0 -15 23 0L20 28Q0 40 -20 28Z" class="p"/><path d="M-16 28Q0 17 16 28L13 68Q0 80 -13 68Z" class="x"/><path d="M-18 28Q0 17 18 28" fill="none" stroke="#d49a35" stroke-width="4"/></g>
 </g>
 <g class="lab">
  <text x="520" y="222">Эпидерма / Epidermis</text><path d="M630 228L612 278" class="line"/>
  <text x="760" y="222">Основная ткань</text><text x="760" y="244" class="small">Ground tissue</text><path d="M780 250L760 320" class="line"/>
- <text x="720" y="625" text-anchor="middle">Пучки по кольцу / Bundles in a ring</text>
+ <text x="720" y="604" text-anchor="middle" class="small">Камбий между флоэмой и ксилемой / Cambium between phloem and xylem</text><text x="720" y="625" text-anchor="middle">Пучки по кольцу / Bundles in a ring</text>
  <text x="720" y="650" text-anchor="middle" fill="#75428f">Флоэма снаружи / Phloem outside</text>
  <text x="720" y="672" text-anchor="middle" fill="#176b9e">Ксилема внутри / Xylem inside</text>
 </g>
