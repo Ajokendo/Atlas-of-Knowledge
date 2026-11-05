@@ -281,7 +281,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 04 | 4.15-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.15-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 05 | 5.1-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual SVG embedded in RU/EN; static SVG structure checked. Scientific content, creator/licence, accessibility and rendered QA remain open. |
-| 05 | 5.2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Commons atmosphere-layers SVG embedded in RU/EN; exact CC0 file-page evidence and English-label localisation still require final review. |
+| 05 | 5.2-A | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | German CC0 candidate rejected (wrong language and W3C errors); replaced with original bilingual local SVG. NOAA layer ranges, boundary values and Kármán-line convention checked. Project licence, accessibility and rendered QA remain open. |
 | 05 | 5.3-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | Replaced the UCAR-hosted IPCC Figure 7.2 with the NASA / My NASA Data energy-budget diagram. NASA page credits NASA; reuse for educational/informational website use is permitted with credit under NASA media guidance. Caption identifies ten-year average data and Loeb/Trenberth sources. |
 | 05 | 5.4-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | ERA5 1991–2020 map embedded in RU/EN; exact CC BY-SA file revision, legend localisation and scientific review remain open. |
 | 05 | 5.5-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | NWS image on official weather.gov training page; NOAA public-domain guidance applies absent a third-party credit. NOAA/NWS Louisville attribution recorded. Northern Hemisphere limitation remains in bilingual caption. |
@@ -391,7 +391,7 @@ The following counts are from the actual chapter Markdown files in `workspace/ge
 | 02 | 40 | Twenty distinct source/local image assets across the bilingual chapter (19 visual IDs; one ID uses two separate cycle images). |
 | 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
 | 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
-| 05 | 42 | 21 distinct image URLs (9 local SVGs and 12 external source-image URLs); 17 named visual IDs now have integrated imagery. Exact ID-to-image mapping and two unnamed inventory slots still need reconciliation. |
+| 05 | 42 | 21 distinct image URLs (10 local SVGs and 11 external source-image URLs); 17 named visual IDs now have integrated imagery. Exact ID-to-image mapping and two unnamed inventory slots still need reconciliation. |
 | 06–17 | 0 | No Markdown image embeds found in these chapter files in this scan. In-text visual markers/briefs are present; treat these as unintegrated placeholders unless another rendering mechanism is independently demonstrated. |
 | 18 | 1 | Local SVG 18-J referenced. |
 | 19 | 1 | Local SVG 19-H referenced. |
@@ -583,7 +583,7 @@ This is a source-tree and chapter-embed finding, not a judgment that these visua
 ## 7. Chapter 05 provenance migration checkpoint — 5 November 2026
 
 - Consolidated the 16 pre-existing integrated Chapter 05 visual IDs into `IMAGE_SOURCES.md`, preserving aliases (5-A / 5.2-A and 5-C / 5.6-A); added 5.18-A as a newly integrated 17th named visual ID.
-- After 5.18-A integration, the chapter has 42 Markdown image embeds and 21 unique image URLs (9 local SVGs and 12 external source-image URLs).
+- After 5.18-A integration, the chapter has 42 Markdown image embeds and 21 unique image URLs (10 local SVGs and 11 external source-image URLs).
 - The migration does **not** promote the 17 named integrated assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components. The former UCAR-hosted IPCC Figure 7.2 has been removed and replaced by the NASA / My NASA Data diagram with rights PASS.
 - Chapter Markdown parity remains a source-level check only: 42 image embeds, 21 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
 - Chapter 05 source-register coverage is now documented; overall Geography image coverage is still not calculable because the 231-versus-283 inventory discrepancy and two unnamed Chapter 05 inventory slots remain unresolved.
@@ -723,3 +723,10 @@ Replaced it with the NASA / My NASA Data “Earth's Energy Budget” diagram, wh
 
 
 The newly integrated Chapter 05 visual 5.18-A was also fetched and checked for the same five structural SVG elements; all are present. This brings the current local SVG inventory checked in this pass to 55.
+
+
+### Chapter 05 — 5.2-A replacement checkpoint — 5 November 2026
+
+The previous Commons CC0 file was inspected directly. Despite its filename, `Atmosphere layers edu.svg` is a German-language diagram, and its file page reports two W3C SVG validation errors. It was not suitable for the Russian/English atlas. A new original bilingual SVG now replaces it. The new diagram's layer ranges and temperature trends were checked against NOAA JetStream; the ionosphere is explicitly shown as an overlapping region, not a sixth thermal layer. The 100-km Kármán line is labelled as a convention, not a physical boundary.
+
+The new local SVG passed static source checks (`viewBox`, bilingual title/description, `role="img"`, no script/foreignObject/embedded image). Its creator/rightsholder and project licence remain Unknown / PENDING; visual rendering and accessibility QA remain open.
