@@ -222,3 +222,24 @@ Two additional assets are integrated: 11-F (energy system and 2025 Kyrgyzstan ex
 | **Total** | **97** | **44** | **53** |
 
 All 36 newly authored local SVG assets in the November tranches (24 across Chapters 11–16 and 12 across Chapters 18–20) are integrated. This count is limited to new local SVGs created in these tranches; it excludes pre-existing project visuals that were only re-audited and the supplementary CC BY 4.0 research figure in Chapter 20.6.7. The 44/97 planned-ID coverage is scoped to Chapters 11–20 only.
+
+
+## Ninth-tranche update — Chapter 11-G — 5 November 2026
+
+Chapter 11-G (tourism destination system) is now integrated; Chapter 11 has all 7/7 planned visual IDs embedded. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 4 | 6 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **45** | **52** |
+
+Total new local SVG assets authored in the November tranches: 37 (25 across Chapters 11–16 and 12 across Chapters 18–20). Chapter 11's complete visual set is integrated but remains subject to scientific/editorial sign-off, project licence assignment, accessibility and rendered-browser QA. This is scoped planned-ID coverage, not a repository-wide percentage.
