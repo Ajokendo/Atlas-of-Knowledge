@@ -1073,3 +1073,30 @@ Both new SVGs were re-fetched and passed static structure and RU/EN checks; both
 | **Total** | **97** | **44** | **53** |
 
 This 44/97 table supersedes the previous 42/97 count. Original SVG licensing and final scientific/editorial approval remain outstanding.
+
+
+### Chapter 11-G — tourism destination system
+
+| Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|
+| INTEGRATED | PASS as a conceptual destination-system model; no site-specific carrying capacity or visitor statistics are asserted | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Connects natural/cultural assets, infrastructure, service providers, visitors, host communities, management/monitoring and environmental/social limits. UNESCO and UN Tourism references added. |
+
+The diagram is a conceptual system, not an assessment of a named tourism destination. The 11-G embed and SVG structure passed static checks.
+
+### Superseding scoped coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 4 | 6 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **45** | **52** |
+
+This 45/97 table supersedes the previous 44/97 count. Chapter 11's seven planned visuals are all now integrated, but scientific, rights, accessibility and browser verification remain outstanding.
