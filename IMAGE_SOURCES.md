@@ -446,6 +446,12 @@ Other page descriptors still require the same explicit mapping. Do not infer the
 
 No third-party external image is currently claimed as integrated for Chapter 04. However, this does not establish that the listed SVG, canvas plot, or Three.js scene are independently authored in the Russian derivative. Their source lineage and rights basis remain pending comparison with the English atlas. Do not count them as Category C or rights-cleared until that comparison is complete.
 
+## Superseded discovery search — Chapter 14 infographic (2026-11-05)
+
+The Wikimedia Commons candidates listed in the historical discovery note below were not selected or integrated. They were superseded by the four original project-created SVG panels recorded as `PHY-14-001` in the current asset register. Do not treat the old candidate search as the current implementation or as a publication blocker. The four-panel visual has passed internal scientific review, rights/licence documentation, bilingual/accessibility review and current desktop/mobile browser checks. External subject-matter review remains a separate post-publication activity.
+
+<!-- Historical discovery notes retained below for provenance; candidates were not integrated. -->
+
 ## Documented discovery search — Chapter 14 infographic (2026-11-05)
 
 Search scope: Wikimedia Commons, using queries for magnetic-field diagrams of a straight current-carrying wire, a current loop, a solenoid, and a toroid. These are **discovery candidates only**. None is integrated or approved by this entry; scientific suitability, exact file rendering, and the final four-panel consistency check remain pending.
