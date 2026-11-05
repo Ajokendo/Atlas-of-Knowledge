@@ -1,6 +1,6 @@
 # Biology image audit
 
-**Policy:** Atlas of Knowledge IMAGE-FIRST POLICY v1.0  
+**Policy:** Atlas of Knowledge IMAGE-FIRST POLICY v1.2  
 **Branch:** `workspace/biology`  
 **Audit baseline:** 5 November 2026  
 **Scope:** all 53 mapped visual briefs and the currently integrated image assets.
@@ -485,3 +485,48 @@ Asset: `images/generated/flora-batken-aygul-botanical-plate.webp`, displayed at 
 **Binary implementation note:** the committed repository derivative is recorded in the disposition register as 320 × 292 px / 7,196 bytes. A higher-resolution 1,199 × 1,312 px WebP working candidate is available in the current working container (353,604 bytes; SHA-256 `6a0d714c30d70856b29bebc699a1cff77e97d502a5ea455560bfa2ddede53b0c`), but it has not been committed to the Biology branch in this operation. Therefore the repository page must continue to use the already committed asset; do not claim that the high-resolution candidate is live.
 
 **Procedure dependency:** `IMAGE_FIRST_POLICY.md v1.2`, `AUTHOR_CREATED_VISUALS_STANDARD.md v1.1` and `VISUAL_IMPLEMENTATION_GUIDE.md` are not present at the root of the inspected `workspace/biology` branch. This record applies the four requested tracking dimensions conservatively, but does not claim a complete clause-by-clause pass of those versioned standards. The standards must be made available to this branch or supplied for an exact stage mapping before the new plate can receive a formal VERIFIED status.
+
+
+## Governing-standard alignment — IMAGE-FIRST v1.2 / AUTHOR-CREATED v1.1 — 5 November 2026
+
+This section supersedes older policy-version references and any historical wording that treats external specialist review as a universal mandatory gate. The controlling documents are `IMAGE_FIRST_POLICY.md` v1.2, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1 and `VISUAL_IMPLEMENTATION_GUIDE.md` v1.1.
+
+### Current measured baseline (not a verification claim)
+
+| Measure | Current evidence | Interpretation |
+|---|---:|---|
+| Mapped visual briefs produced/integrated | 53/53 (100%) | Production/integration coverage only; denominator is visual briefs, not individual files |
+| Documentary photographs | 15 | Source pages, authors, licence records and manifests are documented across five regional briefs; live caption/source revalidation remains a separate check |
+| Project-created SVG and other artwork | Recorded in the disposition register | Category C must be supported by creation evidence; a project label alone does not prove a named human author or legal rights authority |
+| Explicit pending visual/morphology/browser-review notes | 33 register rows at the recorded baseline | Triage count; it is not proof that the other 20 have passed every gate |
+| Full automated Biology workflow | PASS — run [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829), branch head `fb4b581f0cf23e86b8a093280ba0846fc01a345f` | Automated page/link/script and Chromium smoke validation only; not detailed scientific, legal or manual accessibility certification |
+| Internal `VERIFIED` visual units | Not established by the available consolidated register | Do not infer from 53/53 coverage or CI |
+| External specialist verification | Not recorded as completed | Optional additional designation; not a universal release gate |
+
+### Seven-gate disposition
+
+| Gate | Current disposition | What is established / what remains |
+|---|---|---|
+| 1. Identity and provenance | PARTIALLY DOCUMENTED — overall PENDING | The 15 documentary photos have individual source-page and author records; the Aygul supplementary plate has an explicit ChatGPT generation record. Per-asset creation/contributor/rightsholder evidence for all original SVGs and other generated artwork must be reconciled; commit authorship alone is insufficient. |
+| 2. Rights and licence | PARTIALLY DOCUMENTED — overall PENDING | Documentary-photo licences are recorded with source pages and manifests. For original/AI-assisted artwork, legal rightsholder, authority to license and approved asset-level rights basis must be confirmed. The Aygul plate has no third-party source, but its project rights/licensing decision remains PENDING. Unknown rights block public release. |
+| 3. Scientific/factual/morphology review | PARTIALLY DOCUMENTED — overall PENDING | Author-side P1 constraints and scientific audits exist, but not every final rendered asset has a documented PASS from a competent reviewer other than its creator. A qualified internal team reviewer is acceptable; an external specialist is optional. |
+| 4. Language and terminology | PARTIALLY DOCUMENTED — overall PENDING | Bilingual captions/alt text and automated parity checks exist. Manual semantic equivalence, embedded labels, taxonomy, units and captions must be recorded per asset where applicable. |
+| 5. Accessibility and learner usability | PARTIALLY DOCUMENTED — overall PENDING | Automated axe/contrast/keyboard and alt-presence checks provide evidence. Actual assistive-technology, zoom/reflow and physical-device checks remain distinct; complete per-asset acceptance is not evidenced. |
+| 6. Technical integrity | AUTOMATED SUBSET PASS; FULL GATE PENDING | Run 41968952829 passed the automated workflow. It does not replace focused rendered inspection, manual device/zoom testing or offline tests where applicable. |
+| 7. Integration and final approval | INTEGRATION COVERAGE 53/53; FINAL GATE PENDING | All 53 mapped briefs have a produced/integrated disposition. Final approval requires all applicable internal gates to pass and rights to be cleared; no blanket `VERIFIED` status is inferred. |
+
+### Internal and external verification terminology
+
+- `VERIFIED` is the machine-readable status for internal verification after every applicable gate passes, including competent second-person scientific/factual review by someone other than the creator. That reviewer may be a qualified member of the project team.
+- `EXTERNALLY VERIFIED` is a separate narrative designation, used only after internal verification and a documented positive review by an independent external specialist.
+- The absence of an external specialist does not itself block internal verification or publication. It must not be reported as completed external verification.
+- Author-side review, AI-assisted review and automated CI are useful evidence but cannot be presented as the required second-person scientific review.
+- Rights clearance is independent of scientific verification: unknown or unresolved rights block public release even if scientific and technical checks pass.
+
+### Aygul supplementary plate — current disposition
+
+The new `flora-batken-aygul-botanical-plate.webp` is included within the existing Batken flora visual brief, not counted as a 54th brief. It is Category C, AI-generated educational artwork, not documentary evidence. The source register records its prompt/session origin, repository derivative checksum, morphology scope and limitations. Gate 2 (project rights/licensing authority), Gate 3 (competent second-person botanical review), Gate 5 (manual learner/accessibility review), Gate 6 (focused rendered review) and Gate 7 (final approval) remain PENDING unless separately evidenced. Automated CI run 41968952829 passed after its integration, but that alone does not close those gates.
+
+### Reporting rule
+
+Continue to report visual production coverage, internal verification, external verification and rights clearance as separate metrics. Do not publish a single blended “visual progress” percentage. Keep the 53/53 (100%) production figure, but report Image Verification as **Pending audit / not yet defensibly quantifiable** until the register contains asset-level gate outcomes. Do not convert historical Produced/Integrated labels into `VERIFIED`.
