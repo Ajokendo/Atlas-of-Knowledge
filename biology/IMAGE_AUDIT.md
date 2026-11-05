@@ -541,3 +541,22 @@ The supplementary `flora-batken-aygul-botanical-plate.webp` has now been compare
 **Current branch-policy check:** the three controlling documents named in the governing-standard section — `IMAGE_FIRST_POLICY.md` v1.2, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1 and `VISUAL_IMPLEMENTATION_GUIDE.md` v1.1 — are not present in the root tree of `workspace/biology` (direct root-path lookups return 404; recursive branch-tree lookup found no matching paths). The latest audit records their versions but the actual policy texts are unavailable in this branch. Accordingly, no claim of clause-by-clause compliance is made; the recorded seven-gate dispositions remain conservative.
 
 **Binary resolution remains unchanged:** the high-resolution working candidate is not uploaded to this branch. The page must continue to use the committed 320 × 292 derivative; no new binary integration is claimed.
+
+
+## Botany anatomy and transport diagrams — focused source review — 5 November 2026
+
+Assets reviewed: `images/generated/botany-anatomy.svg` and `images/generated/botany-transport.svg`, integrated in `chapters/botany.html`.
+
+### Scientific/source-level findings
+
+- The root panel uses a generalized eudicot root pattern: central star-shaped xylem with phloem between the xylem arms, surrounded by pericycle/endodermis/cortex/outer epidermal tissue. This is consistent with the OpenStax Biology 2e root description; it is not a universal root pattern for monocots.
+- The stem panel correctly places vascular bundles in a ring and xylem toward the inside with phloem toward the outside. However, it described these as **open** bundles while the original drawing did not visibly show the vascular cambium between the two tissues. This was a real teaching omission.
+- Corrected `botany-anatomy.svg`: added a narrow cambium marker to each of the eight illustrated stem bundles and a bilingual explanatory label. Updated the corresponding figure alt text and caption in `chapters/botany.html` to state the cambium's position.
+- The leaf panel retains the typical dorsiventral teaching arrangement: palisade tissue below the upper epidermis, spongy mesophyll below it, and xylem above phloem in the depicted vascular bundle. The diagram remains explicitly generalized and not to scale.
+- `botany-transport.svg` was checked at source level: xylem arrows show the predominant root-to-shoot water/mineral flow; phloem arrows are presented as source-to-sink paths, including both upward and downward routes. No source-level directionality correction was required.
+
+### Evidence and limits
+
+Reference checks: OpenStax Biology 2e, The Plant Body (https://openstax.org/books/biology-2e/pages/30-1-the-plant-body), Roots (https://openstax.org/books/biology-2e/pages/30-3-roots), and Stems (https://openstax.org/books/biology/pages/30-2-stems). These support the generalized tissue arrangement and transport concepts; they do not certify every drawn cell or proportion.
+
+**Disposition:** source-level scientific/editorial correction committed. This is an author-side/AI-assisted review, not the required competent second-person scientific approval. Detailed rendered browser review, manual device/zoom/accessibility checks and rights-holder/licence reconciliation remain open. Do not mark either asset `VERIFIED` on the basis of this source pass alone.
