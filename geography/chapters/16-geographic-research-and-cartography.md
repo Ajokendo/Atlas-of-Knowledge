@@ -116,6 +116,29 @@ Instruments must be calibrated and checked. Measurements without units, accuracy
 
 Точность не следует путать с разрешением. Высокодетальная карта может иметь позиционные смещения, а статистика с большим числом знаков после запятой — низкую фактическую точность.
 
+
+Geographic data include both spatial referencing and descriptive characteristics. They may be primary (collected during a study) or secondary (obtained from existing sources).
+
+Main types include:
+- coordinates and point, line and polygon geometries;
+- raster images and digital models;
+- statistical tables with territorial codes;
+- time series;
+- textual and qualitative observations; and
+- administrative, cadastral and infrastructure data.
+
+Data quality is assessed across several dimensions:
+- **accuracy:** closeness of a value to the true or accepted reference value;
+- **precision:** consistency among repeated measurements;
+- **completeness:** whether the required features and attributes are present;
+- **logical consistency:** absence of contradictions and structural errors;
+- **currency:** how well the data match the period of the study;
+- **positional accuracy:** reliability of geographic location;
+- **thematic accuracy:** correctness of assigned classes and values; and
+- **lineage:** the history of data creation, transformation and use.
+
+Accuracy should not be confused with resolution. A highly detailed map may still contain positional shifts, while statistics reported to many decimal places may have low actual accuracy.
+
 ## 16.5. Выборка и дизайн наблюдений / Sampling and Study Design
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 16-C / IMAGE PLACEHOLDER 16-C]** Случайная, систематическая, стратифицированная и кластерная выборки на условной карте; различать совокупность, страты и отобранные точки.
@@ -172,6 +195,15 @@ This allocation preserves the proportions of the three zones in the sample, but 
 
 Выбор метода определяется вопросом исследования, а не модой или доступностью программного обеспечения.
 
+
+**Quantitative methods** work with measurable quantities and numerical data. They are used to calculate density, rates of change, distances, correlations, indices and spatial models.
+
+**Qualitative methods** help researchers understand motives, practices, perceptions of place, historical context and institutional processes. They include interviews, focus groups, document analysis, observation and thematic coding.
+
+**Mixed methods** combine both approaches. For example, a map of access to healthcare facilities can be supplemented with interviews about actual barriers experienced by residents, such as travel costs, seasonal road conditions, language and social factors.
+
+The research question should determine the method, not fashion or the availability of particular software.
+
 ## 16.7. Основы географической статистики / Fundamentals of Geographic Statistics
 
 Описательная статистика помогает обобщать распределение данных:
@@ -219,6 +251,20 @@ Correlation shows a statistical association but does not prove causation. Spatia
 Индекс Морана (Moran's I) — один из показателей глобальной пространственной автокорреляции. Локальные статистики позволяют выявлять локальные кластеры и пространственные выбросы. Результаты зависят от определения соседства или матрицы пространственных весов.
 
 Карта статистически значимых кластеров должна сопровождаться описанием метода, параметров, уровня значимости и множественного тестирования, если оно применялось.
+
+
+Spatial statistics examines how values and features are distributed across space.
+
+Key concepts include:
+- **spatial autocorrelation:** similarity among values in neighbouring features or areas;
+- **clustering:** concentration of features or high/low values;
+- **spatial heterogeneity:** differences in characteristics among parts of a territory;
+- **point density:** the number of features per unit area; and
+- **hot and cold spots:** statistically significant areas of higher or lower concentration relative to a selected model.
+
+Moran's I is one measure of global spatial autocorrelation. Local statistics can identify local clusters and spatial outliers. Results depend on how neighbourhoods or spatial weights are defined.
+
+A map of statistically significant clusters should describe the method, parameters, significance level and any multiple-testing correction that was applied.
 
 ## 16.9. Картография как наука и язык пространства / Cartography as a Science and Language of Space
 
