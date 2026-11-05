@@ -271,7 +271,7 @@ For 01-D (Category B), exact source identity, creator, CC BY 4.0 licence, attrib
 | 02 | 2.3-A | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | NOAA temperature profile is representative, not a fixed global profile. NOAA attribution/reuse basis recorded; live reader rendering pending. |
 | 02 | 2-C | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | USGS media page identifies Public Domain; Shiklomanov 1993 estimate and nested denominators are disclosed. Live reader rendering pending. |
 | 02 | 2.4-A | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | USGS 2022 diagram; Public Domain. Caption identifies human water use and water-quality/climate influences. Live reader rendering pending. |
-| 02 | 2.5-A | INTEGRATED | PASS | PASS — Public Domain in the United States (two language-specific USGS files) | PASS | PARTIAL | PARTIAL PASS | English and Russian variants by Jose F. Vigil/USGS show divergent, convergent, transform, subduction and rifting settings. Exact file records and jurisdiction caveat are linked in captions; deployed-reader and assistive-technology QA pending. |
+| 02 | 2.5-A | INTEGRATED | PASS | PASS — CC BY-SA 4.0 International (three figures; Fabio Crameri) | PASS | PARTIAL | PARTIAL PASS | Three S-INK figures separately show divergent, convergent and transform boundaries. Exact source pages, creator, version, citation and licence are linked in bilingual captions; deployed-reader and assistive-technology QA pending. |
 | 02 | 2.6-A | INTEGRATED | PASS | NOT CLEARED — NO PUBLIC LICENCE | PASS | PARTIAL | PARTIAL PASS | Biological hierarchy from organism through biosphere; nested levels distinguished. No public licence asserted; reuse requires permission from verified rights holder. |
 | 02 | 2.8-A | INTEGRATED | PASS | NOT CLEARED — NO PUBLIC LICENCE | PASS | PARTIAL | PARTIAL PASS | Qualitative solar, internal and gravitational energy roles; not a quantitative flux comparison. No public licence asserted; reuse requires permission from verified rights holder. |
 | 02 | 2.9-A | INTEGRATED | PASS | NOT CLEARED — NO PUBLIC LICENCE | PASS | PARTIAL | PARTIAL PASS | Schematic latitudinal and altitudinal patterns; non-universal sequence caveat retained. No public licence asserted; reuse requires permission from verified rights holder. |
@@ -570,7 +570,7 @@ A source scan of all chapter files 06–26 found **210 distinct visual IDs** acr
 
 ### Chapter 05 — bilingual image parity correction — 5 November 2026
 
-- The chapter source contains 21 distinct image URLs and 42 Markdown image embeds. A previous scan incorrectly reported three project-local SVGs as Russian-only because it misclassified English headings; a fresh section-boundary-aware scan confirms every URL appears once in each language section.
+- The chapter source contains 21 distinct image URLs and 46 Markdown image embeds. A previous scan incorrectly reported three project-local SVGs as Russian-only because it misclassified English headings; a fresh section-boundary-aware scan confirms every URL appears once in each language section.
 - Added the same three assets to the corresponding English sections, with bilingual alt text, captions and the existing learning limitations preserved.
 - Rechecked the chapter: **42 image embeds, 21 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
 - RU/EN parity for 5.12-A, 5.14-A and 5.15-A is now **PASS** at the chapter-source level. Their creator/rightsholder, project licence, scientific review and rendered technical checks remain PENDING; none is VERIFIED.
@@ -596,7 +596,7 @@ A refreshed chapter-by-chapter source scan confirms 210 planned visual IDs in Ch
 Chapter 07-D is a bilingual adapted SVG under CC BY 4.0 and is integrated. Chapter 07-A, 07-B, 07-C, 07-E, 07-F, 07-G, 07-H and 07-I remain open. Integrated assets remain INTEGRATED until all applicable review dimensions are supported by evidence.
 ### 7.10 Chapter 05 bilingual embed parity rechecked
 
-A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **42 Markdown image embeds: 21 in Russian and 21 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 42 alt-text fields is empty. All 42 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
+A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **46 Markdown image embeds: 21 in Russian and 21 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 42 alt-text fields is empty. All 42 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
 
 
 ### Chapter 05 — static SVG structure check — 5 November 2026
@@ -1478,7 +1478,7 @@ The first feedback-image candidate considered from SERC's separate *Carbon on th
 - The exact Commons file pages identify the source as USGS material and state Public Domain in the United States. Both captions name Jose F. Vigil/USGS, link the exact file page, and explicitly limit the rights statement to the United States; no worldwide public-domain claim is made.
 - Both files were opened and visually inspected. The Russian graphic includes labels for transform motion, spreading, subduction and rifting; the English graphic shows convergent, transform, divergent and continental-rift settings. Bilingual alt text and source/rights captions are present.
 - Removed `geography/assets/diagrams/02-5A-plate-boundary-types.svg` from `workspace/geography` after replacement. The unlicensed local SVG is no longer present as a Chapter 02 asset.
-- Chapter 02 inventory is now 44 Markdown embeds across both languages, 22 unique assets: 14 remote images and 8 remaining local SVGs. The 2.5-A and 2.12-A visual IDs each use two image files per language.
+- Chapter 02 inventory is now 44 Markdown embeds across both languages, 22 unique assets: 15 remote images and 8 remaining local SVGs. The 2.5-A and 2.12-A visual IDs each use two image files per language.
 - Rights result for 2.5-A: PASS on the source-recorded U.S. Public Domain basis, with jurisdiction caveat. Technical result remains PARTIAL: source files and captions are checked, but deployed reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
 
 
@@ -1488,5 +1488,14 @@ The first feedback-image candidate considered from SERC's separate *Carbon on th
 - The official downloads page explicitly permits reuse of its figures under CC BY 4.0 and requires the credit “Planetary Boundaries Science (PBScience), 2026”. Both captions include that credit, the source page, the licence and the warning that the figure represents a global assessment, not a country-level score.
 - The exact JPEG was opened and visually inspected. The figure is the 2026 edition and matches the chapter's 2026 framing; no older year or boundary count has been substituted.
 - Removed `geography/assets/diagrams/02-14A-planetary-boundaries-2026.svg` from `workspace/geography` after replacement. The unlicensed local SVG is no longer present as a Chapter 02 asset.
-- Chapter 02 image inventory remains 42 Markdown embeds and 22 unique assets, now 14 remote images and 8 remaining local SVGs. The 2.14-A visual ID continues to have one image in each language.
+- Chapter 02 image inventory remains 42 Markdown embeds and 22 unique assets, now 15 remote images and 8 remaining local SVGs. The 2.14-A visual ID continues to have one image in each language.
 - Rights result for 2.14-A: PASS under CC BY 4.0. Technical result remains PARTIAL: the source image and captions were checked, but deployed reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
+
+
+## Chapter 02 — plate-boundary licence upgrade — 5 November 2026
+
+- The first 2.5-A integration used language-specific USGS images whose file pages stated Public Domain in the United States. Because this was a jurisdiction-limited status rather than an international licence, those two images were superseded.
+- Current 2.5-A uses three separate S-INK figures: divergent, convergent and transform boundaries. Each exact page identifies Fabio Crameri as creator, version 23 August 2021, cites Crameri, Shephard & Conrad (2019), and states CC BY-SA 4.0 International.
+- The three image files were opened and visually inspected. Bilingual alt text identifies each boundary process. Both language sections carry creator, source, date, citation and licence attribution. The images are used without modification.
+- The earlier USGS images are no longer embedded in the chapter. The current rights result for 2.5-A is PASS under CC BY-SA 4.0 International, replacing the earlier U.S.-only Public Domain basis.
+- Chapter 02 now has 46 Markdown image embeds, 23 unique assets: 15 remote images and 8 remaining local SVGs. This increase reflects three boundary figures in each language instead of one figure per language.
