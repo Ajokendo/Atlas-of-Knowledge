@@ -804,3 +804,19 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 | RU/EN | PASS — bilingual labels, descriptions, captions and alt text. |
 | Accessibility / technical | PENDING — contrast, reading order, screen-reader and live browser/mobile rendering not tested. |
 | Lifecycle | INTEGRATED; not VERIFIED |
+
+
+## Chapter 08 — Original bilingual soil and landscape visuals
+
+The six assets below are Category C original vector diagrams created after reviewing the chapter's cited authoritative guidance. They are conceptual teaching diagrams, not third-party artwork or site-specific soil surveys.
+
+| Visual ID / asset | Image-first and scientific basis | Rights / lifecycle |
+|---|---|---|
+| 08-A — `geography/assets/diagrams/08-A-soil-profile-horizons-bilingual.svg` | USDA NRCS soil-profile guidance and FAO master-horizon designations H, O, A, E, B, C and R. The sequence is expressly non-universal and not a WRB diagnostic key. https://www.nrcs.usda.gov/resources/education-and-teaching-materials/a-soil-profile ; https://www.fao.org/4/W8594E/w8594e0g.htm | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 08-C — `geography/assets/diagrams/08-C-soil-degradation-processes-bilingual.svg` | USDA NRCS Soil Survey Manual and National Agronomy Manual distinguish water-erosion forms and wind erosion; FAO explains limits of USLE. Salinisation and compaction are shown separately. https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual ; https://www.fao.org/land-water/land/land-governance-and-planning/land-resources-planning-toolbox/detail/universal-soil-loss-equation/en | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 08-D — `geography/assets/diagrams/08-D-soil-earth-spheres-interface-bilingual.svg` | Based on USDA NRCS definition of soil as a natural body shaped by additions, losses, transfers and transformations of matter and energy. Arrows are qualitative only. https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-facts | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 08-E — `geography/assets/diagrams/08-E-soil-forming-factors-bilingual.svg` | USDA NRCS describes parent material, climate, topography, biological factors and time; the chapter additionally distinguishes human activity. https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-facts | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 08-F — `geography/assets/diagrams/08-F-landscape-morphology-block-bilingual.svg` | Based on the geomorphology and landscape-description scope of USDA NRCS Soil Survey Manual, Chapter 2; the graphic marks terminology as school-dependent. https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 08-G — `geography/assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg` | Based on the chapter's definitions of patches, corridors, matrix and structural/functional connectivity; no real habitat network is represented. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+
+All six SVGs contain bilingual text and `<title>` / `<desc>`. Rights remain PENDING until the project-level creator/rightsholder and redistribution-licence policy is formally applied. Rendered browser/mobile, contrast, keyboard and screen-reader QA remain PENDING.

@@ -12,6 +12,11 @@ After studying this chapter, readers will be able to explain soil formation and 
 ## 8.1. Почва как природное тело / Soil as a Natural Body
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-A / IMAGE PLACEHOLDER 08-A]** Почвенный профиль с горизонтами и материнской породой; обозначения адаптировать к типу почвы. / Soil profile showing horizons and parent material; adapt labels to the soil type.
 
+![Схематический почвенный профиль с горизонтами H, O, A, E, B, C и R; последовательность условна. / Schematic soil profile with H, O, A, E, B, C horizons and R bedrock; sequence is illustrative.](../assets/diagrams/08-A-soil-profile-horizons-bilingual.svg)
+
+*08-A. Авторская двуязычная схема; обозначения описывают горизонты и не заменяют классификацию WRB. / Original bilingual diagram; horizon symbols describe layers and do not replace WRB classification.*
+
+
 
 
 Почва — природное тело, которое формируется у поверхности Земли при длительном взаимодействии минерального материала, органического вещества, воды, воздуха и живых организмов. У неё есть собственные свойства, строение и способность поддерживать рост растений. Почва не равна горной породе: порода может быть её исходным материалом, но почва развивается благодаря выветриванию, накоплению и преобразованию органического вещества, перемещению веществ и деятельности организмов.
@@ -27,6 +32,11 @@ After studying this chapter, readers will be able to explain soil formation and 
 Почвоведение — наука о происхождении, свойствах, классификации, географии и рациональном использовании почв. В становлении генетического почвоведения важную роль сыграли исследования Василия Докучаева, рассматривавшего почву как самостоятельное природное тело, формирующееся под воздействием комплекса факторов.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-D / IMAGE PLACEHOLDER 08-D]** Схема почвы как интерфейса литосферы, атмосферы, гидросферы и биосферы с потоками вещества и энергии. / **EN:** Diagram of soil as an interface among the lithosphere, atmosphere, hydrosphere and biosphere, showing matter and energy flows.
+
+![Почва как интерфейс атмосферы, биосферы, гидросферы и литосферы; потоки показаны качественно. / Soil as an interface among atmosphere, biosphere, hydrosphere and lithosphere; flows are qualitative.](../assets/diagrams/08-D-soil-earth-spheres-interface-bilingual.svg)
+
+*08-D. Авторская двуязычная схема; стрелки обозначают взаимодействия, а не измеренные потоки. / Original bilingual diagram; arrows indicate interactions, not measured fluxes.*
+
 **Рисунок 8.1 / Figure 8.1 — Почва как зона взаимодействия геосфер / Soil as an interface among Earth's spheres.**  
 Техническое задание: показать почвенный профиль между атмосферой, растительным покровом, водами и материнской породой; отобразить корни, почвенную фауну, поры с водой и воздухом, органические остатки и минеральные частицы; все элементы подписать на двух языках.
 **EN production brief:** Show a soil profile as an interface among the atmosphere, vegetation, water and parent material. Include roots, soil fauna, pores containing water and air, organic remains and mineral particles; label every element in both languages.
@@ -48,6 +58,11 @@ After studying this chapter, readers will be able to explain soil formation and 
 **Человек** меняет почвы распашкой, орошением, осушением, выпасом, строительством, загрязнением, внесением удобрений и лесовосстановлением. Антропогенные воздействия могут как ухудшать, так и улучшать отдельные свойства почвы, но часто создают долгосрочные последствия.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-E / IMAGE PLACEHOLDER 08-E]** Схема факторов почвообразования: климат, организмы, рельеф, материнская порода, время и деятельность человека. / **EN:** Soil-forming factors diagram showing climate, organisms, relief, parent material, time and human activity.
+
+![Шесть взаимодействующих факторов почвообразования: климат, организмы, рельеф, материнская порода, время и деятельность человека. / Six interacting soil-forming factors: climate, organisms, relief, parent material, time and human activity.](../assets/diagrams/08-E-soil-forming-factors-bilingual.svg)
+
+*08-E. Авторская двуязычная схема; факторы показаны как взаимосвязанная система. / Original bilingual diagram; factors are shown as an interacting system.*
+
 **Рисунок 8.2 / Figure 8.2 — Факторы почвообразования / Soil-forming factors.**  
 Техническое задание: центральная схема «почва» и шесть связанных блоков: климат, организмы, рельеф, материнская порода, время, человек; показать взаимодействие факторов двунаправленными стрелками, не изображать их как независимые причины.
 **EN production brief:** Place “Soil” at the centre and connect it to six interacting factors: climate, organisms, relief, parent material, time and human activity. Use two-way arrows and do not depict the factors as independent causes.
@@ -198,6 +213,11 @@ This means that about half of the sample's total volume consists of pores. It is
 ## 8.9. Почвенная эрозия и деградация земель / Soil Erosion and Land Degradation
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-C / IMAGE PLACEHOLDER 08-C]** Схема водной и ветровой эрозии, засоления и уплотнения почв, включая меры защиты. / Diagram of water and wind erosion, salinisation and soil compaction, including conservation measures.
 
+![Схема водной и ветровой эрозии, засоления, уплотнения и мер охраны почв. / Diagram of water and wind erosion, salinisation, compaction and soil-conservation measures.](../assets/diagrams/08-C-soil-degradation-processes-bilingual.svg)
+
+*08-C. Авторская двуязычная схема; процессы показаны концептуально, не в масштабе и без количественных оценок. / Original bilingual diagram; processes are conceptual, not to scale and not quantified.*
+
+
 
 
 Деградация земель — снижение биологической продуктивности, экологических функций и/или хозяйственной ценности земель вследствие природных и антропогенных процессов. Это широкое учебное определение следует отличать от специального определения Конвенции ООН по борьбе с опустыниванием (UNCCD), применяемого к засушливым, полузасушливым и сухим субгумидным территориям.
@@ -268,6 +288,11 @@ This means that about half of the sample's total volume consists of pores. It is
 Точные определения и иерархия этих единиц зависят от научной школы. В атласе следует придерживаться одной терминологической системы и объяснять её читателю.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-F / IMAGE PLACEHOLDER 08-F]** Блок-диаграмма морфологической структуры ландшафта с ландшафтными фациями, урочищами и местностями согласно принятой классификации. / **EN:** Block diagram of landscape morphology showing landscape facies and larger landscape units according to a stated classification.
+
+![Условный профиль ландшафта с водоразделом, склоном, террасой, поймой и долиной; морфологические единицы схематичны. / Conceptual landscape profile with divide, slope, terrace, floodplain and valley; morphological units are schematic.](../assets/diagrams/08-F-landscape-morphology-block-bilingual.svg)
+
+*08-F. Авторская двуязычная схема; рельеф и границы не обозначают конкретную территорию, терминологическая иерархия зависит от научной школы. / Original bilingual diagram; relief and boundaries do not represent a real location, and terminology varies by scholarly tradition.*
+
 **Рисунок 8.6 / Figure 8.6 — Морфологическая структура ландшафта / Morphological structure of a landscape.**  
 Техническое задание: схематический блок-диаграммный ландшафт с водоразделом, склоном, террасой, поймой и долиной; выделить фации и урочища условными контурами; подписать взаимосвязи стока и переноса вещества.
 **EN production brief:** Create a schematic block diagram of a landscape with a watershed divide, slope, terrace, floodplain and valley. Outline facies and landscape units schematically, and label runoff and material-transfer connections.
@@ -292,6 +317,11 @@ This means that about half of the sample's total volume consists of pores. It is
 Краевой эффект проявляется в изменении условий на границе двух типов местообитаний: освещённости, ветра, влажности, температуры, состава видов и давления хищников. Сильная фрагментация увеличивает долю краевых участков и может уменьшать площадь внутреннего местообитания.
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 08-G / IMAGE PLACEHOLDER 08-G]** Мозаика ландшафта с пятнами, коридорами и матрицей; показать фрагментацию и связность. / **EN:** Landscape mosaic showing patches, corridors and matrix, with fragmentation and connectivity.
+
+![Ландшафтная мозаика с природными пятнами, речным коридором, аграрной матрицей и дорожным барьером. / Landscape mosaic with habitat patches, a river corridor, agricultural matrix and road barrier.](../assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg)
+
+*08-G. Авторская двуязычная схема; структурная и функциональная связность различаются, конкретные маршруты видов не изображены. / Original bilingual diagram; structural and functional connectivity are distinguished, with no species-specific routes represented.*
+
 **Рисунок 8.7 / Figure 8.7 — Мозаика ландшафта: пятна, коридоры и матрица / Landscape mosaic: patches, corridors and matrix.**  
 Техническое задание: плановая схема природной территории с лесными пятнами, речным коридором, аграрной матрицей и дорогой-барьером; показать структурную и функциональную связность разными условными обозначениями.
 **EN production brief:** Create a plan-view diagram of a natural area with forest patches, a river corridor, an agricultural matrix and a road acting as a barrier. Use different symbols to distinguish structural from functional connectivity.

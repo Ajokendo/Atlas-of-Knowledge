@@ -39,7 +39,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 05 | 18 named + 2 unresolved legacy slots | 17 | 1 named + 2 unresolved | Seventeen named assets are embedded; 18 named IDs are enumerated. Two old inventory positions remain unidentifiable and are not counted as assets until recovered. |
 | 06 | 15 | 5 | 10 | 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A integrated; 6-B has a licensed candidate dataset but no finished map. |
 | 07 | 9 | 7 | 2 | 07-A, 07-B, 07-F, 07-G, 07-H and 07-I are original bilingual SVGs; 07-D remains an adapted CC BY 4.0 figure. Accessibility and rendered technical QA remain pending. 07-C and 07-E remain open pending usable map geometry. |
-| 08 | 7 | 0 | 7 | Production briefs/placeholders only; no actual image embeds or matching asset files confirmed. |
+| 08 | 7 | 6 | 1 | 08-A, 08-C, 08-D, 08-E, 08-F and 08-G are original bilingual SVGs; 08-B remains open pending a validated global WRB map. Rights and rendered/accessibility QA remain pending. |
 | 09 | 7 | 0 | 7 | All seven visual needs remain placeholders, including 09-G. |
 | 10 | 7 | 0 | 7 | All seven visual needs remain placeholders. |
 | 11 | 7 | 7 | 0 | Seven local SVG assets embedded in chapter source. |
@@ -53,12 +53,12 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 0 | 68 | No planned visual IDs have confirmed image embeds in the chapter source scan. |
-| **Total named inventory** | **281** | **147** | **134** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
+| **Total named inventory** | **281** | **159** | **122** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 153/281 named IDs have an image embedded in the relevant chapter source. This measures presence only.
-- **Image Verification:** 0/153 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 128 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 159/281 named IDs have an image embedded in the relevant chapter source (56.6%). This measures presence only.
+- **Image Verification:** 0/159 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 122 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -335,13 +335,13 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 07 | 07-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 07 | 07-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 07 | 07-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 08 | 08-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 08 | 08-A | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual soil-profile SVG embedded; horizon sequence is explicitly illustrative, not universal. Rights, accessibility and rendered QA remain pending. |
 | 08 | 08-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 08 | 08-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 08 | 08-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 08 | 08-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 08 | 08-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 08 | 08-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 08 | 08-C | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual soil-degradation SVG embedded; erosion, salinisation and compaction are conceptual. Rights, accessibility and rendered QA remain pending. |
+| 08 | 08-D | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual soil–Earth-spheres interface SVG embedded; flows are qualitative, not measured. Rights, accessibility and rendered QA remain pending. |
+| 08 | 08-E | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual soil-forming-factors SVG embedded; six interacting factors shown. Rights, accessibility and rendered QA remain pending. |
+| 08 | 08-F | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual landscape-morphology SVG embedded; relief and hierarchy are schematic and school-dependent. Rights, accessibility and rendered QA remain pending. |
+| 08 | 08-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual landscape-mosaic SVG embedded; patches, corridor, matrix and barrier are conceptual. Rights, accessibility and rendered QA remain pending. |
 | 09 | 09-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 09 | 09-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 09 | 09-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
