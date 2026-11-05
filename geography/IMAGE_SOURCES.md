@@ -473,3 +473,13 @@ Both files passed static SVG source checks and their chapter embeds resolve to e
 - Category C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING.
 - Status: INTEGRATED; conceptual source check PASS; no georeferenced basin boundaries or quantified allocation are claimed.
 - Remaining: project licence, browser rendering, accessibility and future update if formal agreements/operating schedules change.
+
+
+## Chapters 11 and 19 — eighth visual integration tranche — 5 November 2026
+
+| Visual ID | Source discovery / decision | Category / rights | Status |
+|---|---|---|---|
+| 11-F | Official Kyrgyz National Investment Agency energy-sector guide (June 2026) confirms the sector separation between generation, transmission, distribution and retail supply. Ministry of Energy 2025 results and CAWater-Info Yearbook 2025 provide the actual 2025 generation/consumption/import figures. The new diagram uses the published rounded values and explicitly avoids presenting them as a complete balance. | C — original hand-coded SVG; sources cited in Chapter 11. Project redistribution licence PENDING. | INTEGRATED; figures/source check PASS; live render and rights PENDING. |
+| 19-J | Kyrgyz Republic BTR1 (2025) identifies adaptation priority sectors; UNDP climate-risk infographic provides examples of adaptation actions. The diagram summarises six grouped sectors and illustrative measures without making local forecasts or a one-size-fits-all plan. | C — original hand-coded SVG; sources cited in Chapter 19. Project licence PENDING. | INTEGRATED; source alignment PASS; live render and rights PENDING. |
+
+Both assets passed static SVG and chapter-embed checks. No external figure is reproduced. Public release remains conditional on project licence assignment, accessibility and rendered QA.
