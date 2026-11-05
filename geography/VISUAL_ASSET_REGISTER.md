@@ -395,3 +395,8 @@ Coverage only. Verification remains separate; external image rendering and acces
 ### Chapter 17 — supplementary regional seismicity figure
 
 A CC BY 4.0 reproduction of Figure 1 from Poggi et al. (2024) was added as regional context. It covers five Central Asian countries plus a 300 km buffer and depicts the input earthquake catalogues used for the HECCA backbone. It is not a Kyrgyzstan-only map and does not show active-fault traces; therefore it is recorded as supplementary and does not increase planned 17-F coverage. The required Kyrgyzstan-specific active-fault/seismicity map remains MISSING pending data-package inspection, filter selection and boundary validation.
+
+
+### Chapter 20 — 20-G hydrograph source checkpoint
+
+A historical Naryn River gauge candidate was identified: UNH Water Systems Analysis Group station 16055, at 41.430° N, 76.000° E, drainage area 10,500 km², reported long-term mean 92.117 m³/s and graph coverage 1931–2006. The source page exposes graphs but raw reusable observations and item-specific licence terms are not yet confirmed. Visual 20-G remains MISSING; no values have been digitised from the displayed graph.
