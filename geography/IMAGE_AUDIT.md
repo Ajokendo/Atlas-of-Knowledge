@@ -785,7 +785,7 @@ Integrated two complementary visuals in both language sections. The surface-curr
 
 ## Chapter 17 — detailed visual audit — 5 November 2026
 
-**Scope:** all nine required Chapter 17 visual IDs; branch `workspace/geography`; IMAGE-FIRST POLICY v1.1.  
+**Scope:** all nine required Chapter 17 visual IDs; branch `workspace/geography`; IMAGE-FIRST POLICY v1.2.  
 **Search record:** see `geography/IMAGE_SOURCES.md`, Chapter 17. Candidate searches included the Kyrgyz State Agency/Geoportal and Water Information System, CIA country maps, peer-reviewed Tien Shan tectonic figures, and the Ministry of Natural Resources' 2026 geological-atlas announcement.
 
 | Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
