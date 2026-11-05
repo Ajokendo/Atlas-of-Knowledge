@@ -55,10 +55,10 @@ Commit: `8ce1a147f3dfc1b07689355cd84658046501ae61`.
 - Source links and claims still require systematic verification; a bibliography heading is not proof that every citation supports its adjacent statement.
 
 
-## IMAGE-FIRST POLICY v1.1 — mandatory adoption
+## IMAGE-FIRST POLICY v1.2 — mandatory adoption
 
 **Adopted:** 5 November 2026  
-**Policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md)  
+**Policy:** [IMAGE-FIRST POLICY v1.2](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md)  
 **Reference branch:** `main`  
 **Canonical-main status:** The policy is already canonical at the repository root on `main` (commit `bd3deb97`). This Geography document links to that source; do not copy or edit the universal policy in this subject branch.
 
