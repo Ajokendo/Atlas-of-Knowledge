@@ -788,13 +788,13 @@ Integrated two complementary visuals in both language sections. The surface-curr
 | Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
 |---|---|---|---|---|---|---|---|
 | 17-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Current boundary geometry and political-map provenance not established; do not use 2005 CIA map as a current border map. |
-| 17-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Need DEM lineage, resolution, CRS, vertical datum and licence before a national hypsometric map/profile can be approved. |
+| 17-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | AF NWRMP's 2017 terrain map is an image, not the underlying DEM; vertical datum/accuracy and image reuse terms remain unknown. |
 | 17-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Academic tectonic figures are study-specific; choose a regional classification and document rights before reuse or redraw. |
-| 17-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | National water-project map catalogue is a lead only; exact valley/basin layer metadata and reuse terms remain unknown. |
+| 17-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | AF NWRMP has river-basin maps uploaded in 2022, but these are hydrological catchments, not the intermontane-valley geomorphology requested; reuse terms remain unknown. |
 | 17-E | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual timeline integrated; creator/rightsholder, project licence and rendered/technical checks remain pending. |
-| 17-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | No approved national active-fault/seismicity dataset; catalogue period, magnitude threshold/scale and positional accuracy required. |
+| 17-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | AF NWRMP's 2017 seismic-hazard map is a historical hazard-zonation image, not an active-fault map/current catalogue; source image rights and current dataset remain unverified. |
 | 17-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual relief-process schematic integrated; creator/rightsholder, project licence and rendered/technical checks remain pending. |
-| 17-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Await published national geological atlas or verified open layers; do not invent mineral districts, resource classes or operating status. |
+| 17-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | AF NWRMP's 2017 geology map cites a 1988 source and is not a current mineral-district map; await the national atlas or verified open layers. |
 | 17-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Open Data classifier is 2019, licence unspecified and not geometry; Kyrgyzmap/nsdi.kg current access not confirmed on 5 Nov 2026; obtain a current official boundary dataset and reuse terms. |
 
 **Results and controls**
@@ -804,7 +804,7 @@ Integrated two complementary visuals in both language sections. The surface-curr
 - Rights: no Chapter 17 asset has passed. Scientific/conceptual fit and RU/EN parity PASS for 17-C, 17-E and 17-G within their stated limits; rights, rendered accessibility and technical QA remain PENDING. The other six assets remain MISSING.
 - Candidate CIA maps (2005) were rejected for current administrative/border use because of age; their public-domain status does not cure geographic obsolescence. Peer-reviewed tectonic figures remain literature candidates only; their exact figure rights and scope must be checked.
 - The Ministry's 11 March 2026 geological-atlas announcement describes a project in preparation; it is not evidence that the atlas or its maps are already published or reusable. The 2019 open-data classifier and historical Kyrgyzmap/nsdi.kg announcement do not provide a current licensed administrative-boundary layer.
-- The 2018 WIS boundary layer is an archival GIS record in WGS 84, not proof of a current legal boundary. It must not be used to derive modern extreme points without original geometry and legal verification.
+- The 2018 WIS boundary layer is an archival GIS record in WGS 84, not proof of a current legal boundary. The AF NWRMP catalogue adds 2017 terrain/admin/seismic/geology images and 2022 basin maps, but no individual reuse terms; these dated images are historical references, not current source data.
 - No item is VERIFIED. This audit does not certify rendered site behaviour, mobile layout or screen-reader output.
 
 **Audit status:** chapter visual component remains incomplete. The nine production briefs and IDs are aligned one-to-one. Three assets (17-C, 17-E and 17-G) are integrated; six map/data-dependent assets remain placeholders and are not counted as coverage.
