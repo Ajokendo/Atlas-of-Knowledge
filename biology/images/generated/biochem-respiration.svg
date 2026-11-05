@@ -76,7 +76,8 @@
 <text x="730" y="750" text-anchor="middle" class="head" style="font-size:18px">Citric acid cycle</text>
 <text x="730" y="786" text-anchor="middle" class="txt">Ацетил-КоА → CO₂</text>
 <text x="730" y="813" text-anchor="middle" class="small">Acetyl-CoA → CO₂</text>
-<text x="730" y="836" text-anchor="middle" class="tiny">NADH, FADH₂ и GTP/АТФ образуются здесь</text>
+<text x="730" y="824" text-anchor="middle" class="tiny">Здесь образуются NADH, FADH₂ и GTP/АТФ</text>
+<text x="730" y="841" text-anchor="middle" class="tiny">NADH, FADH₂ and GTP/ATP are produced here</text>
 
 <!-- ATP and oxygen output -->
 <path d="M910 720H1000" class="arrow"/>
