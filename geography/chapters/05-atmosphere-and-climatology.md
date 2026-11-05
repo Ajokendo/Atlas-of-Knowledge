@@ -42,9 +42,9 @@
 ## 5.2. Вертикальное строение атмосферы / Vertical Structure of the Atmosphere
 
 <!-- VISUAL ID: 5.2-A (legacy alias 5-A) -->
-![Слои атмосферы Земли / Layers of Earth's atmosphere](https://commons.wikimedia.org/wiki/Special:FilePath/Atmosphere_layers_edu.svg)
+![Пять основных слоёв атмосферы, ориентировочные высоты границ, озоновый слой, ионосфера и линия Кармана. / Five main atmospheric layers, approximate boundary altitudes, ozone layer, ionosphere and Kármán line.](../visuals/chapter-05-atmosphere-layers-bilingual.svg)
 
-*Слои атмосферы: схема CC0, авторство и описание файла — Wikimedia Commons, “Atmosphere layers edu.svg”. Используется как учебная схема; границы слоёв и высоты ориентировочны. / Atmospheric layers: CC0 diagram, file attribution and description on Wikimedia Commons, “Atmosphere layers edu.svg”. Layer boundaries and altitudes are approximate.* [Источник и лицензия / Source and licence](https://commons.wikimedia.org/wiki/File:Atmosphere_layers_edu.svg).
+*Оригинальная двуязычная схема создана для Atlas of Knowledge с помощью ChatGPT. Высоты приблизительны и показаны не в масштабе; тропопауза меняется примерно от 8 до 18 км. Ионосфера — область ионизации, перекрывающая несколько слоёв, а линия Кармана на 100 км является условной границей, не физической стеной. Научная основа: NOAA JetStream, Layers of the Atmosphere. / Original bilingual diagram created for Atlas of Knowledge with ChatGPT assistance. Altitudes are approximate and not to scale; the tropopause varies roughly from 8 to 18 km. The ionosphere is an ionised region overlapping several layers, while the Kármán line at 100 km is a convention, not a physical wall. Scientific basis: NOAA JetStream, Layers of the Atmosphere.* [Источник данных / Scientific source](https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere).
 
 Атмосферу делят на слои по изменению температуры с высотой. Границы слоёв не являются абсолютно постоянными: их высота зависит от широты, сезона и атмосферных условий.
 
