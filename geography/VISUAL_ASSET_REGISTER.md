@@ -87,18 +87,18 @@ The register's headline currently states **231 unique visual IDs**. However, the
 
 ## IMAGE-FIRST v1.1 integration scan — Chapters 06–26 (5 November 2026)
 
-A repository-tree and chapter-embed scan confirms that Chapters 06–26 contain 210 visual IDs, but only four of those IDs currently have a local visual embedded in the chapter files: 18-J, 19-H, 20-I and 20-K. The other 206 IDs have no matching image embed or asset file in the current Geography tree and are recorded as MISSING in `IMAGE_AUDIT.md`. A brief, placeholder or repeated ID marker does not count as an integrated visual.
+**HISTORICAL SNAPSHOT — SUPERSEDED.** The initial 5 November scan found only four embedded assets. Subsequent chapter-by-chapter integrations made that result obsolete. Use the later superseding updates and the latest chapter-level table below; do not quote the four-asset result as current.
 
 | Chapter range | Required visual IDs | Integrated | Missing |
 |---|---:|---:|---:|
 | 06–17 | 111 | 57 | 54 |
-| 18 | 10 | 1 | 9 |
-| 19 | 10 | 1 | 9 |
-| 20 | 11 | 2 | 9 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
 | 21–26 | 68 | 0 | 68 |
 | **Total** | **210** | **76** | **134** |
 
-This is a confirmed integration inventory, not a scientific, rights, language, accessibility or rendered-technical approval. The four existing SVGs remain INTEGRATED only; all applicable review dimensions are pending.
+This is a confirmed integration inventory, not a scientific, rights, language, accessibility or rendered-technical approval. Integrated assets remain INTEGRATED only; all applicable review dimensions are assessed separately.
 
 
 - **5.18-A integration:** created `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg`, a bilingual schematic with synthetic pressure systems, fronts, station plots and climate graphs. It is a teaching exercise, not an operational weather chart. Static SVG structure and bilingual source placement were checked; scientific convention/data review passed. Project rights/licence, accessibility and rendered QA remain pending.
