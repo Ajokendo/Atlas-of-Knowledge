@@ -1026,3 +1026,22 @@ Static SVG structure and chapter embed were checked. The schematic does not repl
 ### Superseding Chapter 11–20 count — 5 November 2026
 
 Chapter 20 now has 8/11 planned IDs integrated (20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J, 20-K); three remain open (20-A, 20-B and 20-G). Total scoped integration is 42/97; 55 remain missing. The 41/97 table above is superseded.
+
+
+## Current scoped visual count — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 5 | 2 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **42** | **55** |
+
+This table supersedes all earlier scoped counts in this audit. Chapter 20's supplementary 2019 CC BY 4.0 glacial-lake map is additional and not counted in the 20-A–20-K inventory. The count records integration only, not full verification.
