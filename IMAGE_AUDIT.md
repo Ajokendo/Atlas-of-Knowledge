@@ -198,6 +198,9 @@ The four assets are Category C. There are eight responsive SVG files (four deskt
 
 The Russian standalone pages for Chapters 14–15 have also been improved: generic canvas drawings that only displayed a circle and line with the caption “Модель физических величин” were removed because they did not represent the stated physics. They were replaced with explanatory text describing the assumptions and equations of each calculator. Contextual Russian accessible names were added to the remaining 3D and plot canvases.
 
+- Standalone chapter HTML: all 15 chapter pages were scanned on 2026-11-05; no explicit IMAGE PLACEHOLDER / visual TODO markers remain. The four former gaps in Chapters 14–15 are integrated as four Category C visuals with eight responsive SVG files.
+- Canvas and lab accessibility names: a static audit of all 15 pages found no remaining generic canvas/lab/phase/formula labels. Generic labels were replaced with chapter-specific descriptions; the new automated 15/15 regression test is pending CI.
+
 These are inventory findings, **not readiness scores**. They describe the audited branch structure only; they do not establish the complete visual inventory of Nathan Liow's English source atlas:
 
 - Required visual count: **PENDING** — complete visual requirement mapping and deduplication across standalone chapters and interactive-book scenes.
