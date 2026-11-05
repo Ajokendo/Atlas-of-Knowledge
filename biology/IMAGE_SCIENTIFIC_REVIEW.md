@@ -80,3 +80,16 @@ A separate Category C AI-generated teaching plate is integrated at `chapters/flo
 ### Disposition
 
 **Internal scientific review: PARTIAL — NOT VERIFIED.** The broad habit and flower architecture are source-consistent, but the bulb/capsule details and species-level proportions require a competent second-person botanical review before the asset can be marked `VERIFIED`. No independent external specialist review has been recorded. No documentary or herbarium specimen status is implied.
+
+
+## Follow-up browser and targeted screenshot review — 5 November 2026
+
+This section supersedes the older 4 November status note above for the latest branch state; historical asset-level cautions remain applicable.
+
+- Workflow `42018020811` passed on commit `d95e9639314df119b995dc2e68a5cdbeda08e3f4`. Its Chromium screenshot artifact was downloaded and the full fauna page was inspected. An enlarged crop of the integrated mountain-mammal SVG confirms that the argali's large curled horns and added transverse corrugation cues are visible in the rendered page.
+- The browser screenshot also confirms the snow-leopard, argali and Siberian-ibex habitat reconstruction remains present in the intended card. The silhouettes are deliberately schematic; the screenshot confirms rendering and the presence of the intended visual cues, not zoological specimen-level accuracy.
+- The same successful later workflow re-tests the freshwater prose correction that removed the literal escaped newline artifact. The previously clipped right-hand mountain-stream panel remains corrected, as confirmed in the earlier follow-up screenshot review.
+- IUCN Red List and CMS/CAMI references support the broad argali taxon, Kyrgyzstan occurrence and mountain/open-habitat context. They do not amount to independent validation of the exact stylised horn shape or the entire illustration. Relevant references: https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T15733A22146397.en and https://www.cms.int/species/ovis-ammon.
+- **Disposition unchanged:** internal source-level review is documented, but independent zoologist review and complete human visual acceptance of all P1 assets remain pending. Do not change any asset to `VERIFIED` solely because CI or screenshot rendering passed. Rights/licence clearance remains a separate gate.
+
+Current counts: P1 review-register entries **13/13**; visual coverage **53/53 (100%)**; overall editorial readiness **99/100**. These are different measures and must not be conflated.
