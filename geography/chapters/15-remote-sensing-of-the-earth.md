@@ -108,7 +108,7 @@ This chapter introduces the physical principles of remote sensing, the electroma
 - **ICESat-2** — спутниковая лазерная альтиметрия;
 - **WorldView и другие коммерческие системы** — высокодетальные данные с условиями доступа, зависящими от поставщика.
 
-Названия миссий, статус работы, доступность каналов и технические параметры необходимо проверять по актуальной документации операторов.
+По состоянию на 5 ноября 2026 года важно учитывать изменение состава группировки Sentinel-1: Sentinel-1B завершил работу в 2022 году, Sentinel-1A — 30 июня 2026 года; Sentinel-1C и Sentinel-1D введены в эксплуатацию и обеспечивают продолжение радарной миссии. Поэтому название «Sentinel-1» обозначает программу/группировку, а не означает, что все её спутники действуют одновременно. Статус, доступность каналов и технические параметры необходимо проверять по актуальной документации операторов.
 
 ## 15.6. Четыре вида разрешения / Four Types of Resolution
 
@@ -142,7 +142,7 @@ This chapter introduces the physical principles of remote sensing, the electroma
 7. приведение данных к общей сетке, проекции и пространственному разрешению;
 8. контроль качества и документирование параметров.
 
-Не все продукты требуют одинаковой обработки. Например, готовый продукт поверхностного отражения уже прошёл определённые этапы коррекции. Повторная обработка без понимания уровня продукта может ухудшить данные.
+Не все продукты требуют одинаковой обработки. Например, готовый продукт поверхностного отражения уже прошёл определённые этапы коррекции. Повторная обработка без понимания уровня продукта может ухудшить данные. Для конкретного примера: в продуктах Landsat Collection 2 Level-2 Surface Reflectance цифровые значения преобразуют в отражательную способность по формуле `SR = DN × 0,0000275 − 0,2`; также необходимо использовать соответствующие каналы контроля качества (QA_PIXEL, QA_RADSAT и предусмотренные для данного сенсора дополнительные QA-слои). Эти коэффициенты и битовые маски относятся к указанному продукту Landsat и не должны автоматически переноситься на другие сенсоры или коллекции.
 
 ## 15.8. Цветовые композиции и визуальная интерпретация / Colour Composites and Visual Interpretation
 
@@ -467,7 +467,7 @@ Main types include:
 
 Widely used missions include Landsat, a long-term land-observation archive operated by NASA and USGS; Sentinel, a family of missions within the European Union's Copernicus programme and the European Space Agency; MODIS on Terra and Aqua, which provides frequent global observations; VIIRS, used to observe the surface, clouds, temperature and night lights; Sentinel-1 for SAR; Sentinel-2 for optical multispectral land imaging; Sentinel-3 for ocean, land and surface-temperature observations; ICESat-2 for satellite laser altimetry; and commercial high-resolution systems such as WorldView.
 
-Mission names, operational status, band availability and technical parameters must be checked against current operator documentation.
+As of 5 November 2026, the Sentinel-1 constellation has changed: Sentinel-1B ended operations in 2022 and Sentinel-1A ended operations on 30 June 2026; Sentinel-1C and Sentinel-1D are operational and continue the radar mission. “Sentinel-1” therefore refers to the mission/constellation, not to every satellite in the series being active at the same time. Always check current status, band availability and technical parameters against operator documentation.
 
 ### 15.6. Four Types of Resolution
 
@@ -487,7 +487,7 @@ High resolution in one dimension does not guarantee high resolution in another. 
 
 Raw satellite data may contain geometric and radiometric distortions. Preprocessing commonly includes checking metadata, acquisition date, sensor and processing level; geometric correction and orthorectification where needed; radiometric calibration of digital values; atmospheric correction to obtain comparable surface-reflectance estimates; masking clouds, shadows and unwanted areas; terrain correction for mountainous areas where necessary; alignment to a common grid, projection and spatial resolution; and quality control with documentation of parameters.
 
-Not all products require the same processing. For example, a surface-reflectance product has already undergone certain correction steps. Reprocessing without understanding the product level may degrade the data.
+Not all products require the same processing. For example, a surface-reflectance product has already undergone certain correction steps. Reprocessing without understanding the product level may degrade the data. As a specific example, Landsat Collection 2 Level-2 Surface Reflectance digital values are converted to reflectance using `SR = DN × 0.0000275 − 0.2`; the appropriate quality-assessment bands (QA_PIXEL, QA_RADSAT and sensor-specific additional QA layers) must also be used. These scale factors and bit masks apply to the specified Landsat product and must not be transferred automatically to other sensors or collections.
 
 ### 15.8. Colour Composites and Visual Interpretation
 
@@ -809,6 +809,9 @@ NDVI \approx 0.67
 9. European Space Agency. **Sentinel-1 Mission Overview and Radar Instrument** — mission characteristics and all-weather, day-and-night radar imaging. https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1
 10. International Society for Photogrammetry and Remote Sensing (ISPRS). **ISPRS Journal of Photogrammetry and Remote Sensing** — научные исследования методов фотограмметрии и ДЗЗ.
 11. NASA Science. **Landsat Calibration and Validation** — documentation of radiometric and geometric calibration, independent verification and validation of higher-level data products. https://science.nasa.gov/mission/landsat/calibration-validation/
+
+12. Copernicus Data Space Ecosystem. **Sentinel-1 constellation update (30 June 2026)** — end of operations of Sentinel-1A and operational status of Sentinel-1C and Sentinel-1D. https://dataspace.copernicus.eu/news/2026-6-30-copernicus-sentinel-1a-satellite-end-operations-after-12-years-service
+13. United States Geological Survey (USGS). **Landsat Collection 2 Level-2 Science Products and Quality Assessment Bands** — surface-reflectance scaling, product metadata and QA layers. https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products
 
 ---
 **Конец главы 15 / End of Chapter 15**
