@@ -189,3 +189,24 @@ Pinned upstream snapshot: Nathan Liow, Atlas of Physics, commit `bcd67d9b75425f4
 Updated `IMAGE_SOURCES.md` with **13 stable visual IDs, PHY-02-001–PHY-02-013**, one for each scene assembly, including English source concept, Russian visual meaning, local/upstream source path, category and current lifecycle status. The scene-to-page-to-PLATES mapping is exact: 13/13, with no orphaned or missing top-level scene IDs.
 
 **60% gate: complete.** Provenance and rights basis are documented for the 13 inherited code-rendered scenes. This is not yet visual verification: per-scene scientific appearance, labels, alternative descriptions and screenshot review remain in the 70%/80% gates.
+
+
+## 70% — внутренняя научная проверка 13 визуальных сцен
+
+Все 13 scene assemblies проверены на уровне исходного построения и соответствующих учебных объяснений:
+- направление и смысл каждой силы;
+- точка приложения и правильная пара сил;
+- соотношение длин/масштабов в модели там, где они выражают физическую величину;
+- совпадение динамики сцены с `model.js`;
+- согласованность текста страницы и `PLATES`-разбора.
+
+Особое внимание уделено силам трения и переходу к скольжению, третьему закону Ньютона, разложению веса на наклонной плоскости, равновесию натянутых нитей, центру масс двух систем, сопротивлению воздуха и силе Архимеда. Все 13 конструкций согласуются с моделью и физическими объяснениями; source-level review завершён без выявленных ошибок в направлениях сил или механике.
+
+В `IMAGE_SOURCES.md` для PHY-02-001–PHY-02-013 записаны отдельные результаты source-level проверки. Все строки имеют статус **source-level geometry/force-vector/physics PASS; screenshot review pending**, а не VERIFIED.
+
+### Улучшение визуального QA
+Расширен `original-engine/newton-smoke.mjs`: он теперь сохраняет скриншоты всех 13 страниц интерактивной книги для desktop и mobile, экран с открытым разбором сцены, а также standalone-страницу в обоих viewport. В `.github/workflows/physics-browser.yml` добавлена загрузка артефакта `chapter2-newton-visual-review`.
+
+Это даёт воспроизводимый набор кадров для визуального осмотра, а не только PASS/FAIL в логе. Реальный screenshot/browser review остаётся открытым до завершения workflow на актуальном HEAD и проверки полученного артефакта.
+
+**70% gate: source-level visual/scientific review complete.** Screenshot-level and responsive visual verification remain under the 80% gate.
