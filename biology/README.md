@@ -2,8 +2,9 @@
 
 Third subject area of the unified **Atlas of Knowledge** portal.
 
-## Visual production checkpoint — 4 November 2026
-- New milestone: 53/53 briefs produced or integrated (100%). All mapped illustration briefs now have an asset or integration. The genetics mutation and DNA-packaging plates are integrated. Browser CI next identified horizontal overflow on the Genetics page; a responsive media/figure guard has been added for re-test.
+## Visual production checkpoint — updated 5 November 2026
+- 53/53 mapped illustration briefs have produced or integrated assets (100% production/integration coverage). The Genetics-page horizontal-overflow issue found during an earlier browser run was addressed with a responsive media/figure guard; the latest full Biology Chromium CI run [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829) passed all validation and browser-smoke steps across the Biology pages. This automated result does not replace detailed human review of every illustration or hands-on device/screen-reader testing.
+- The dated 4 November and earlier production notes below are retained as historical development records; their interim counts and pending-CI statements are superseded by this update.
 - 53 of 53 mapped illustration briefs are produced or integrated (100%); no mapped brief remains deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
 - Added `genetics-translation.svg`, a bilingual ribosome diagram showing 5′→3′ mRNA reading, complementary codon–anticodon pairing, tRNA delivery and peptide-bond formation.
 - Added `genetics-mutations.svg`, a bilingual comparison of synonymous substitution, single-nucleotide insertion and deletion, with reading-frame effects explained.
@@ -41,7 +42,7 @@ Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Current foundation
 - Biology has been added as Subject 03 to `portal.html`.
-- Ten bilingual chapter pages have been created.
+- Twelve bilingual chapter pages are present: ten core subject chapters plus the dedicated Kyrgyzstan flora and fauna chapters.
 - Each chapter has a topic outline, explanatory text, bilingual learning objectives, a five-term field glossary, and a bilingual multiple-choice knowledge check.
 - The landing page includes a selectable SVG cell model and a bilingual self-check question.
 - Original responsive vector science plates have been added to Botany (flowering plant morphology), Zoology (major vertebrate groups), Cell Biology (prokaryote/eukaryote comparison), and Genetics (DNA double helix).
@@ -1472,3 +1473,10 @@ The Biology branch now has the two required consolidated image-control documents
 **Metric interpretation:** 53/53 (100%) is visual-brief production/integration coverage only. It is not 100% Image Verification. The consolidated audit identifies 33 rows with explicit pending visual, morphology or browser-review notes; full human review of bilingual semantics and current live attribution remains open. Automated CI passing does not close those manual checks. The current defensible Image Verification percentage is therefore recorded as **Pending audit**, not guessed.
 
 The implementation pass is documentation and audit reconciliation only. It does not replace images, consume image-generation quota, change chapter content, or alter other branches, the shared portal or publishing settings.
+
+
+## Repository hygiene and latest validation — 5 November 2026
+
+The Biology-only repository inventory was checked on `workspace/biology`. The 14 HTML pages, 64 referenced visual assets (48 SVG and 16 WebP), five regional asset manifests and five corresponding build scripts were accounted for. No zero-byte files, conventional backup/temp files, or duplicate file contents were found in the Biology folder. The five JSON manifests are build/audit inputs, not unused web assets.
+
+The latest full Biology workflow, [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829), completed successfully. Its validation job passed local-page/link/script validation, Chromium installation, local server startup, browser smoke tests for every Biology page and screenshot artifact upload. Detailed human visual review, independent specialist review, and physical-device/screen-reader sessions remain distinct and are not claimed complete.
