@@ -168,13 +168,6 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 
 Итак, на каждые 100 жителей в возрасте 15–64 лет приходится 50 человек младших и старших возрастов вместе. Это не означает, что каждый из этих 100 человек работает и содержит 50 иждивенцев: расчёт основан только на возрасте. Для оценки реальной экономической нагрузки нужны сведения о занятости, безработице, доходах и участии людей разных возрастов в уходе и оплачиваемом труде.
 
-Consider a hypothetical population with 18,000 people aged 0–14, 50,000 aged 15–64, and 7,000 aged 65 and over.
-
-1. Population in the conventionally dependent age groups: 18,000 + 7,000 = **25,000 people**.
-2. Age dependency ratio: (25,000 / 50,000) × 100 = **50 people per 100 people aged 15–64**.
-3. Child dependency ratio: (18,000 / 50,000) × 100 = **36 per 100**; old-age dependency ratio: (7,000 / 50,000) × 100 = **14 per 100**.
-
-Thus, for every 100 people aged 15–64, there are 50 people in the younger and older age groups combined. This does not mean that all 100 people are employed or that they financially support 50 dependants: the calculation is based on age alone. Assessing the actual economic burden also requires information on employment, unemployment, income, and participation in paid work and care across age groups.
 
 ## 9.9. Миграция: понятия и виды / Migration: Concepts and Types
 <!-- VISUAL ID 09-C — integrated bilingual SVG below -->
@@ -306,15 +299,6 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 **Учебное задание.** Для двух регионов рассчитайте миграционное сальдо и коэффициент на 1 000 жителей. Затем объясните, почему одинаковое сальдо может иметь разные последствия для возрастной структуры и рынка труда.
 
-For international mobility statistics, the United Nations distinguishes international migration from international temporary mobility. The former involves a change of country of residence; the latter covers border crossings that do not result in such a change. The 2025 UN recommendations propose two possible residence-duration criteria: living in a place for most of the previous 12 months (at least six months and one day), or for at least 12 months; intended duration may also be considered. This is an international recommendation, not a claim that all countries already apply one identical rule. Publications should therefore state the national definition and whether population and migration-flow criteria are aligned.
-
-**Core indicators.** The numbers of arrivals and departures during a period are absolute migration flows. Depending on the registration system, statistics may count movement events rather than unique people: a person who moves more than once can contribute more than one event to a flow. Before comparing regions or countries, check the unit counted and the registration rules. Net migration equals arrivals minus departures. The migrant stock is the number of people classified as migrants under a source's definition and living in a territory on a specified date; it is a point-in-time measure, not the number of moves during a year. International datasets may define migrants by country of birth or citizenship, for example, so the operational definition must be checked. Rates are commonly calculated per 1,000 people using the mid-year population, allowing comparison between areas of different sizes. Always state whether the data come from residence registration, a census, a sample survey or administrative records.
-
-**Hypothetical example.** A region with a population of 100,000 records 2,400 arrivals and 1,900 departures in one year. Net migration is +500 people, and the net migration rate is 5 per 1,000 when the mid-year population is 100,000. This does not mean every arrival stayed permanently: the indicator depends on the definition of a migrant and the completeness of registration.
-
-**Data limitations.** Unregistered, seasonal, forced and repeat migration may be incompletely recorded. Changes in registration rules or territorial boundaries can create breaks in a time series. A net figure hides differences by age, sex, skills and reasons for moving; publication must protect personal data and avoid disclosing small groups that could identify individuals.
-
-**Activity.** Calculate net migration and the rate per 1,000 residents for two regions. Explain why the same net balance can have different effects on age structure and the labour market.
 
 ## English-language chapter text
 
