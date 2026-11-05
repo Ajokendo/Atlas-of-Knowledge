@@ -47,7 +47,9 @@ This chapter introduces spatial data, coordinate reference systems, geographic d
 
 ## 14.3. Векторная и растровая модели / Vector and Raster Data Models
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-A / IMAGE PLACEHOLDER 14-A]** Сравнительная схема векторных точек, линий и полигонов и растровой сетки с примерами задач.
+![Векторная и растровая модели: точки, линии, полигоны и сетка ячеек / Vector and raster models: points, lines, polygons and a cell grid](../assets/diagrams/14-A-vector-raster-models-bilingual.svg)
+
+*Оригинальная двуязычная схема типов пространственных данных; она не сравнивает точность или качество конкретных наборов данных. / Original bilingual diagram of spatial-data models; it does not compare the accuracy or quality of particular datasets.*
 
 ### Векторная модель / Vector model
 
