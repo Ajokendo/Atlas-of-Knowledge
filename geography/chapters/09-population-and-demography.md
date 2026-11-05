@@ -11,7 +11,7 @@ After studying this chapter, readers will be able to explain core demographic co
 
 ## 9.1. Население как объект географического изучения / Population as an Object of Geographical Study
 
-Население — совокупность людей, проживающих на определённой территории в конкретный момент времени. Демография изучает численность, состав, размещение и воспроизводство населения, а география населения исследует пространственные различия этих процессов и их связь с природными, социальными, экономическими и политическими условиями.
+Население территории — люди, относимые к ней по определённым правилам учёта на конкретную дату. Демография изучает численность, состав, размещение и воспроизводство населения. География населения рассматривает, как эти характеристики и процессы различаются между территориями и как они связаны с природными, социальными, экономическими и политическими условиями.
 
 Демографические данные всегда относятся к определённой территории, дате и статистическому определению населения. Постоянное население, наличное население, граждане страны, зарегистрированные жители и фактически присутствующие люди — не обязательно одна и та же совокупность. При сравнении стран и регионов важно проверять методологию учёта.
 
@@ -295,7 +295,7 @@ For international mobility statistics, the United Nations distinguishes internat
 
 ### 9.1. Population as an Object of Geographical Study
 
-Population is the group of people living in a particular territory at a specific point in time. Demography studies population size, composition, distribution and reproduction. Population geography examines the spatial differences in these processes and their relationships with natural, social, economic and political conditions.
+A population is the group of people counted within a defined territory at a specified date, according to stated statistical rules. Demography studies population size, composition, distribution and change through births, deaths and migration. Population geography examines how these characteristics and processes vary from place to place and how they relate to natural, social, economic and political conditions.
 
 Demographic data always refer to a defined territory, date and statistical definition of population. Usual residents, present population, citizens, registered residents and people physically present are not necessarily the same group. Comparisons between countries and regions require checking the methods used.
 
