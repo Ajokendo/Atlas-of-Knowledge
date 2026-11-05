@@ -379,6 +379,13 @@ async function checkChapterPage(mobile = false) {
     if (!(await page.locator('#feedback').innerText()).includes('Верно')) {
       throw new Error('Chapter knowledge-check did not accept the correct answer');
     }
+    const correctAnswerState = await page.locator('.answers button[data-answer="b"]').evaluate(el => ({
+      pressed: el.getAttribute('aria-pressed'),
+      result: el.dataset.result,
+    }));
+    if (correctAnswerState.pressed !== 'true' || correctAnswerState.result !== 'correct') {
+      throw new Error('Chapter 1 quiz did not expose a clear accessible correct-answer state');
+    }
 
     const axe = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
@@ -398,7 +405,10 @@ async function checkChapterPage(mobile = false) {
     }
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (overflow) throw new Error('Standalone Chapter 1 page has horizontal overflow at this viewport');
-    await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}.png`, fullPage: false, animations: 'disabled', timeout: 30000 });
+    await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}-quiz.png`, animations: 'disabled', timeout: 30000 });
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await page.waitForTimeout(150);
+    await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}.png`, animations: 'disabled', timeout: 30000 });
     if (runtimeErrors.length) throw new Error(`Chapter page console/runtime errors: ${runtimeErrors.join(' | ')}`);
     console.log(`PASS chapter page ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${required.length} ordered sections, accessible canvas/SVG descriptions, embedded Three.js/WebGL 2 frame, motion sliders, projectile slider, quiz; ${headings.length} headings`);
   } catch (error) {
