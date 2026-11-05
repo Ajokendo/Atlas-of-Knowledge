@@ -227,6 +227,8 @@
 - бенталь — дно водоёма;
 - абиссаль и хадаль — глубоководные области.
 
+Эти термины описывают разные признаки среды и не образуют единого ряда взаимоисключающих зон: «пелагиаль» и «бенталь» различают толщу воды и дно, литораль и сублитораль характеризуют положение относительно береговой зоны, а абиссаль и хадаль — глубинные области океана. Поэтому одна и та же глубина может относиться, например, к пелагической толще и соответствующей бентальной области дна.
+
 **Фитопланктон** осуществляет фотосинтез в освещённом верхнем слое океана и составляет основу многих морских пищевых сетей. Зоны апвеллинга, где глубинные богатые питательными веществами воды поднимаются к поверхности, часто характеризуются высокой биологической продуктивностью; однако она зависит также от освещённости, устойчивости водной толщи и сезонного поступления питательных веществ.
 
 К важным экосистемам относятся коралловые рифы, мангровые леса, морские травяные луга, солёные марши, открытый океан и глубоководные сообщества.
@@ -683,6 +685,8 @@ Ocean deoxygenation is a decline in dissolved oxygen. It may result from warming
 Ocean ecosystems differ in light, depth, temperature, salinity, nutrient availability and substrate.
 
 One commonly used teaching classification distinguishes the **littoral**, periodically affected by tides; the **sublittoral**, a shallow permanently submerged zone; the **pelagic zone**, the open-water column; the **benthic zone**, the seabed; and the **abyssal and hadal zones**, the deepest regions. Exact boundaries and terminology vary among disciplines and classification systems.
+
+These terms describe different dimensions of the marine environment and are not one mutually exclusive series: “pelagic” and “benthic” distinguish the water column from the seabed, littoral and sublittoral describe position relative to the shore, and abyssal and hadal refer to deep-ocean depth zones. Thus, a given depth can include both a pelagic water column and its corresponding benthic seafloor.
 
 **Phytoplankton** photosynthesises in the sunlit upper ocean and forms the base of many marine food webs. Upwelling zones, where deep nutrient-rich water rises towards the surface, often have high biological productivity; however, productivity also depends on light, water-column stability and the seasonal supply of nutrients.
 
