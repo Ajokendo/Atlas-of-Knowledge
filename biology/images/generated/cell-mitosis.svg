@@ -49,6 +49,6 @@
 <path d="M320 686 Q290 720 320 754" stroke="#b36d5b" stroke-width="5" fill="none"/>
 <path d="M420 720 H505" class="arrow" marker-end="url(#a)"/>
 <ellipse cx="600" cy="720" rx="49" ry="36" class="cell"/><ellipse cx="720" cy="720" rx="49" ry="36" class="cell"/><ellipse cx="600" cy="720" rx="16" ry="20" class="nucleus"/><ellipse cx="720" cy="720" rx="16" ry="20" class="nucleus"/>
-<text x="825" y="711" class="small">У животных клеток — борозда деления;</text><text x="825" y="734" class="en">Animal cells — a cleavage furrow;</text><text x="825" y="756" class="en">plant cells — a cell plate forms</text>
+<text x="825" y="711" class="small">У животных клеток — борозда деления;</text><text x="825" y="734" class="en">Animal cells — a cleavage furrow;</text><text x="825" y="756" class="small">У растений формируется клеточная пластинка.</text><text x="825" y="778" class="en">Plant cells form a cell plate.</text>
 <text x="600" y="800" text-anchor="middle" class="tiny">Упрощённая схема; число хромосом условно / Simplified diagram; chromosome number is schematic</text>
 </svg>
