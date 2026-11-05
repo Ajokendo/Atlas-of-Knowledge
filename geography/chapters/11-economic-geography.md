@@ -374,9 +374,9 @@ The **digital divide** refers to differences in access to the internet and devic
 
 Устойчивое управление туризмом включает мониторинг посещаемости, участие местных сообществ, защиту природных и культурных объектов, управление отходами, водопользованием и транспортом, а также распределение экономических выгод.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 11-G / IMAGE PLACEHOLDER 11-G]** Модель туристской системы территории: ресурсы, инфраструктура, посетители, местные сообщества, услуги и экологические ограничения. / **EN:** Destination tourism-system model showing resources, infrastructure, visitors, local communities, services and environmental limits.
-**Рисунок 11.7 / Figure 11.7 — Туристская система территории / Tourism system of a destination.**  
-Техническое задание: связать туристские ресурсы, транспорт, размещение, услуги, местное население, посетителей и природоохранные ограничения; показать обратные связи и сезонные пики.
+![Туристская система территории / Tourism destination system](../assets/diagrams/11-G-tourism-destination-system-bilingual.svg)
+
+*Схема связывает ресурсы, инфраструктуру, услуги, посетителей, местные сообщества и экологические ограничения; это концептуальная модель, а не оценка конкретной дестинации. / The diagram links assets, infrastructure, services, visitors, local communities and environmental limits; it is a conceptual model, not an assessment of a specific destination.*
 
 
 Tourism involves temporary travel outside a person's usual environment for a range of purposes, including leisure, business, visiting friends and relatives, education and medical treatment. Tourism geography studies tourism resources, flows, infrastructure, seasonality, territorial impacts and destination sustainability.
