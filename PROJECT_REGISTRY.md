@@ -95,9 +95,10 @@
 1. Сначала прочитать этот реестр.
 2. Затем прочитать корневой `EDITORIAL_STANDARD.md`.
 3. До любых действий с визуалами прочитать корневой `IMAGE_FIRST_POLICY.md` из `main` и проверить актуальную версию.
-4. Затем прочитать корневой `VISUAL_IMPLEMENTATION_GUIDE.md` из `main` и применять его как практическую инструкцию.
-5. Работать в назначенной рабочей ветке и папке дисциплины; не редактировать другие предметы и общие файлы без отдельного поручения.
-6. В своей папке дисциплины вести собственные `IMAGE_SOURCES.md` и `IMAGE_AUDIT.md` по требованиям универсального стандарта.
+4. Если визуал создаётся проектом (Category C) или его происхождение заявлено как авторское, прочитать корневой `AUTHOR_CREATED_VISUALS_STANDARD.md` из `main` и выполнить все его требования.
+5. Затем прочитать корневой `VISUAL_IMPLEMENTATION_GUIDE.md` из `main` и применять его как практическую инструкцию.
+6. Работать в назначенной рабочей ветке и папке дисциплины; не редактировать другие предметы и общие файлы без отдельного поручения.
+7. В своей папке дисциплины вести собственные `IMAGE_SOURCES.md` и `IMAGE_AUDIT.md` по требованиям универсальных документов.
 
 ### Принцип единого источника
 - Обязательные правила, определения категорий A/B/C, статусы, проверки, метрики и критерии готовности устанавливаются корневым `IMAGE_FIRST_POLICY.md`.
@@ -108,5 +109,6 @@
 - Изменения универсальной политики и руководства проводятся через центральный интеграционный процесс. Самостоятельно создавать или обновлять их копии в рабочих ветках запрещено.
 
 **Нормативный документ:** [IMAGE_FIRST_POLICY.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md) — IMAGE-FIRST POLICY v1.1.  
+**Стандарт авторских визуалов:** [AUTHOR_CREATED_VISUALS_STANDARD.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/AUTHOR_CREATED_VISUALS_STANDARD.md) — AUTHOR-CREATED VISUALS STANDARD v1.0.  
 **Практическое руководство:** [VISUAL_IMPLEMENTATION_GUIDE.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/VISUAL_IMPLEMENTATION_GUIDE.md) — VISUAL IMPLEMENTATION GUIDE v1.0.  
-**Канонический файл:** `main:IMAGE_FIRST_POLICY.md`.  
+**Канонические файлы:** `main:IMAGE_FIRST_POLICY.md`, `main:AUTHOR_CREATED_VISUALS_STANDARD.md`, `main:VISUAL_IMPLEMENTATION_GUIDE.md`.  
