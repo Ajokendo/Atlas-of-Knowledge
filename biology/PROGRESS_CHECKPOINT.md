@@ -1227,3 +1227,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Completed the missing English half of the eukaryotic-cell size caveat in `systematics-domains.svg`.
 - Commits: `61f94fccd099b8323d0ef99db93e7899ab6ae762` (circulation), `31d0566a4bebf45fcb96644c5048ccc84f24b45e` (domain comparison).
 - CI and screenshot review for these updates are pending. Editorial readiness remains 99/100; no percentage increase based solely on these source edits.
+
+
+### Circulatory circuit directional audit — 5 November 2026
+
+- Extended the circulation-diagram repair after checking the full route: pulmonary artery RV→lungs (blue), pulmonary veins lungs→LA (red), systemic artery LV→body (red), systemic venous return body→RA (blue).
+- Removed the erroneous red body→LV arrow and connected the pulmonary-vein route to the left atrium.
+- Main SVG correction commit: `6a80db54454f302976851f61aed8add9bb2c3e6b`; audit record: `e5817080db58a372320eb581aace03a6eac5e640`.
+- Refreshed CI/screenshot review is pending. No readiness percentage increase.
