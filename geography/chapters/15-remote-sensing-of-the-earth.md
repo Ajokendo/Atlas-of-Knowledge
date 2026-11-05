@@ -16,8 +16,9 @@ This chapter introduces the physical principles of remote sensing, the electroma
 
 ## 15.1. Понятие и значение ДЗЗ / Concept and Importance of Remote Sensing
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-E / IMAGE PLACEHOLDER 15-E]** Принцип ДЗЗ: спутник, атмосфера, поверхность, падающее и отражённое излучение, собственное тепловое излучение и наземная обработка.
-> **EN:** Remote-sensing principle showing satellite, atmosphere, surface, incoming and reflected radiation, emitted thermal radiation and ground processing.
+![Принцип пассивного оптического ДЗЗ / Principle of passive optical remote sensing](../assets/diagrams/15-E-remote-sensing-principle-bilingual.svg)
+
+*Показан пассивный оптический путь; тепловое ДЗЗ и активный SAR используют иные физические режимы регистрации. / The passive optical pathway is shown; thermal remote sensing and active SAR use different sensing modes.*
 
 
 Дистанционное зондирование основано на регистрации электромагнитного излучения, отражённого, испускаемого или рассеянного объектами и атмосферой. По измеренным сигналам можно получать сведения о свойствах поверхности, растительности, воде, снегу, льде, облачности, температуре и изменениях землепользования.
