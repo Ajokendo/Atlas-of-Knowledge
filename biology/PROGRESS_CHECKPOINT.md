@@ -1325,3 +1325,15 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - At the separate evaluation event, school subject teachers will assess the completed atlas. Their findings can be captured as a post-development evaluation report and used for a later revision cycle if requested.
 - This clarification changes the governance and milestone interpretation only; it does not erase genuine technical, editorial, source, attribution or licensing work still outstanding. No percentage is changed solely by this clarification.
 - This instruction applies to Biology and the Atlas of Knowledge development process generally; this checkpoint update itself is committed only to `workspace/biology`.
+
+
+## Continued development update — regional visual source pass — 5 November 2026
+
+- Re-read seven existing SVGs on `workspace/biology`: Naryn, Osh, Batken, Talas, Jalal-Abad and Issyk-Kul fauna habitats, plus the Aygul botanical plate. This was a source-text/metadata/claim review, not a pixel-level visual acceptance of all seven.
+- Found and corrected an actual bilingual presentation gap in `fauna-naryn-highland-habitats.svg`: its visible panel labels and footer were English-only. The heading, three habitat panels, species labels and caveat now show Russian and English. Commit: `e0f62375417388ee160782b40419b9afa847f827`.
+- Recorded the seven-asset source pass in `IMAGE_AUDIT.md` (commit `87d7b10dd6fa1421f481458bab9e5e83afac334c`) and updated the Naryn row in `IMAGE_DISPOSITION_REGISTER.md` (commit `ef5ee47c06716f10b3d7af6caad920eb3a5dc966`).
+- Checked that the Batken figure's 4,146 total equals 759 + 3,387 and that the figure labels the animals only as `Marmota spp.`, with a dated 2026 spring-survey caveat. This is an arithmetic/source-record consistency check, not an independent census audit.
+- The Aygul plate's accepted-name/synonym wording matches the recorded Kew POWO reference; existing morphology and rights limitations remain open.
+- Latest relevant CI: governance-document runs `42023892098`, `42023907065` and `42023916450` all completed successfully. The new Naryn visual correction run `42023957290` and audit-document run `42024392159` were still in progress at the time of this checkpoint; poll before claiming their results.
+- Metrics unchanged: visual production/integration coverage **53/53 (100%)**; P1 source-review register **13/13**. Image Verification remains **Pending audit / not yet defensibly quantifiable**. Editorial readiness remains **99/100** as a conservative author-side score; the future school-teacher evaluation is explicitly post-development and is not a development blocker. The outstanding manual accessibility/device evidence is not claimed as passed.
+- All changes remain confined to `biology/` on `workspace/biology`; no other subject, `main`, portal or publishing settings were changed.
