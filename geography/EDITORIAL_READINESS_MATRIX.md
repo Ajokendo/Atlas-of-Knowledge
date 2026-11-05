@@ -468,7 +468,7 @@ A further targeted correction pass was committed across all five chapters: catch
 - The earlier 4 November inventory notes that Chapter 01 visual briefs had not yet been integrated are historical and are superseded by this update.
 - All five planned visual IDs (01-A–01-E) are now integrated in both Russian and English chapter sections: 10 image embeds, five unique local SVG files, Image Coverage 5/5 (100%).
 - The five SVGs were re-composed with portrait-oriented viewBoxes and larger bilingual labels to improve readability at narrow screen widths. Static source checks confirm SVG root, viewBox, bilingual title/description metadata, both writing systems and closing SVG element.
-- Internal conceptual review: PASS for all five. Rights: 01-D PASS under CC BY 4.0 with attribution and changes disclosed; the other four project-created assets remain PENDING owner assignment of creator/rightsholder and redistribution licence.
+- Internal conceptual screening: preliminary AI-assisted screening only for all five; formal competent internal review remains PENDING. Rights: 01-D PASS under CC BY 4.0 with attribution and changes disclosed; 01-A, 01-B, 01-C and 01-E have owner-confirmed authority to apply CC BY-NC 4.0 (owner representation; attribution: Atlas of Knowledge project). Identity/provenance and final review gates remain pending.
 - Accessibility and technical verification remain PENDING until rendered browser/device and assistive-technology checks can be performed. No asset is marked VERIFIED; Image Verification is 0/5 (0%).
 - No external teacher review or independent expert assessment was performed or included in this development stage.
 
