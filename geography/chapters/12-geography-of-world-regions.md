@@ -100,7 +100,7 @@ Regional geography studies major parts of the world as complex territorial syste
 
 ### Природная основа / Physical geography
 
-В Азии находятся Гималаи, Каракорум, Памир, Тянь-Шань, Алтай, Кавказ в некоторых региональных классификациях и обширные нагорья. Тибетское нагорье является одним из наиболее высоких и крупных высокогорных регионов планеты. Крупные равнины и низменности связаны с бассейнами Ганга, Инда, Янцзы, Хуанхэ, Меконга, Обь-Иртыша и других рек.
+В Азии находятся Гималаи, Каракорум, Памир, Тянь-Шань, Алтай и обширные нагорья; Кавказ включают в Азию в некоторых региональных классификациях, тогда как в других его рассматривают как пограничную область Европы и Азии. Тибетское нагорье является одним из наиболее высоких и крупных высокогорных регионов планеты. Крупные равнины и низменности связаны с бассейнами Ганга, Инда, Янцзы, Хуанхэ, Меконга, Обь-Иртыша и других рек.
 
 Природные зоны включают арктические пустыни и тундру, тайгу, степи, пустыни, муссонные леса, влажные тропические леса и горные высотные пояса. Важнейшие природные опасности — землетрясения, цунами, тропические циклоны, наводнения, засухи и оползни.
 
@@ -185,7 +185,7 @@ Regional geography studies major parts of the world as complex territorial syste
 
 ## 12.9. Австралия и Океания / Australia and Oceania
 
-Австралия — материк и государство, тогда как Океания — более широкий регион островов Тихого океана, включающий Меланезию, Микронезию и Полинезию в распространённой культурно-географической схеме. Новая Зеландия обычно рассматривается в составе Океании.
+Австралия — материк и государство, тогда как Океания — более широкий регион островов Тихого океана. В культурно-географической схеме часто выделяют Меланезию, Микронезию и Полинезию. В статистической классификации ООН M49 Океания дополнительно делится на Австралию и Новую Зеландию, Меланезию, Микронезию и Полинезию. Новую Зеландию обычно включают в Океанию.
 
 ### Природная основа / Physical geography
 
@@ -207,7 +207,7 @@ Regional geography studies major parts of the world as complex territorial syste
 
 Антарктика — полярный регион вокруг Южного полюса, ядром которого является материк Антарктида. Большая часть материка покрыта мощным ледниковым щитом. Постоянного коренного населения нет; присутствуют научные станции и сезонный персонал.
 
-Антарктический договор 1959 года и связанная с ним система договоров устанавливают особый международно-правовой режим. Договор предусматривает использование Антарктики в мирных целях, свободу научных исследований и международное сотрудничество; вопросы территориальных претензий регулируются специальными положениями договора. Антарктика не является обычным государством или территорией, разделённой на признанные национальные владения.
+Антарктический договор 1959 года и связанная с ним система договоров устанавливают особый международно-правовой режим. Договор предусматривает использование Антарктики исключительно в мирных целях, продолжение свободы научных исследований и международное сотрудничество. Статья IV сохраняет позиции сторон по ранее заявленным территориальным претензиям: договор не признаёт и не отвергает их, запрещает использовать деятельность в период его действия как основание для новых претензий или расширения существующих и тем самым сохраняет статус-кво. Договорная территория охватывает район южнее 60° ю. ш.; её нельзя автоматически отождествлять с континентом Антарктида или с любой выбранной границей Южного океана. Антарктика не является обычным государством или территорией, разделённой на признанные национальные владения.
 
 Южный океан окружает Антарктиду и играет важную роль в глобальной циркуляции вод, климатической системе и морских экосистемах. Ключевые экологические вопросы включают изменение ледникового покрова, морского льда, океаническое потепление, подкисление океана и состояние популяций криля и других организмов.
 
@@ -376,7 +376,7 @@ The **European Union** is a political and economic organisation of member states
 
 Asia is the world's largest continent by area and population. It extends from Arctic coasts to equatorial islands and includes an enormous range of climates, landforms, languages, religions, political systems and levels of economic development.
 
-**Physical geography.** Asia contains the Himalayas, Karakoram, Pamir, Tien Shan, Altai, and extensive high plateaus. The Tibetan Plateau is one of the largest and highest highland regions on Earth. Major plains and lowlands are associated with the Ganges, Indus, Yangtze, Huang He, Mekong, Ob–Irtysh and other river basins.
+**Physical geography.** Asia contains the Himalayas, Karakoram, Pamir, Tien Shan, Altai and extensive high plateaus; the Caucasus is included in Asia in some regional schemes, while others treat it as a boundary region between Europe and Asia. The Tibetan Plateau is one of the largest and highest highland regions on Earth. Major plains and lowlands are associated with the Ganges, Indus, Yangtze, Huang He, Mekong, Ob–Irtysh and other river basins.
 
 Natural zones range from Arctic deserts and tundra to taiga, steppes, deserts, monsoon forests, humid tropical forests and mountain belts. Major natural hazards include earthquakes, tsunamis, tropical cyclones, floods, droughts and landslides.
 
@@ -424,7 +424,7 @@ The Amazon River and its tributaries are central to the continent's water balanc
 
 ### 12.9. Australia and Oceania
 
-Australia is both a continent and a state, while **Oceania** is a broader region of Pacific islands, commonly including Melanesia, Micronesia and Polynesia. New Zealand is usually included in Oceania.
+Australia is both a continent and a country, while **Oceania** is a broader region of Pacific islands. Cultural-geographical schemes often distinguish Melanesia, Micronesia and Polynesia. In the UN M49 statistical classification, Oceania is further divided into Australia and New Zealand, Melanesia, Micronesia and Polynesia. New Zealand is usually included in Oceania.
 
 **Physical geography.** Australia's interior is predominantly arid, while much of its population is concentrated in coastal cities. The Great Dividing Range and humid forest areas lie in the east; the Great Barrier Reef is off the north-eastern coast. Oceania's islands include volcanic islands, raised limestone formations and low coral atolls.
 
@@ -436,7 +436,7 @@ Australia is both a continent and a state, while **Oceania** is a broader region
 
 Antarctica is the polar region around the South Pole, centred on the continent of Antarctica. Most of the continent is covered by a thick ice sheet. There is no permanent Indigenous population; scientific stations and seasonal personnel are present.
 
-The **Antarctic Treaty** of 1959 and the associated treaty system establish a special international legal regime. The Treaty provides for peaceful use, freedom of scientific research and international cooperation; territorial claims are addressed by special provisions. Antarctica is not an ordinary state or a territory divided into recognised national possessions.
+The **Antarctic Treaty** of 1959 and the associated treaty system establish a special international legal regime. The Treaty provides for peaceful use, continued freedom of scientific research and international cooperation. Article IV preserves the positions of the Parties on previously asserted territorial claims: the Treaty neither recognises nor rejects them, prohibits activities during its operation from serving as a basis for new claims or enlargements of existing claims, and thereby maintains the status quo. The Treaty Area covers the region south of 60° S; it should not automatically be equated with the Antarctic continent or with any chosen boundary of the Southern Ocean. Antarctica is not an ordinary state or a territory divided into recognised national possessions.
 
 The Southern Ocean surrounds Antarctica and plays an important role in global water circulation, the climate system and marine ecosystems. Major environmental issues include changes in ice sheets and sea ice, ocean warming, ocean acidification and the condition of krill and other populations.
 
@@ -617,7 +617,7 @@ Do not simply average the two national indicators: (20,000 + 10,000) / 2 = USD 1
 5. World Meteorological Organization. **State of the Global Climate** reports — climate observations and assessments. https://wmo.int/publication-series/state-of-global-climate
 6. Intergovernmental Panel on Climate Change. **Assessment Reports** — scientific assessments of climate change and regional risks. https://www.ipcc.ch/reports/
 7. Food and Agriculture Organization of the United Nations. **FAOSTAT** — agricultural statistics and land use. https://www.fao.org/faostat/en/#data
-8. United Nations. **Antarctic Treaty System** — treaty texts and related documents. https://www.ats.aq/e/ats.htm
+8. Antarctic Treaty Secretariat. **The Antarctic Treaty** — official treaty text and summary of Articles I–IV, including peaceful use, scientific cooperation and the status of territorial claims. https://www.ats.aq/e/antarctictreaty.html
 9. National Geographic Society. **Encyclopedic and educational geography resources** — справочные материалы по физической и региональной географии.
 10. Knox, P., Marston, S., Imort, M. **Human Geography: Places and Regions in Global Context**. Pearson.
 
