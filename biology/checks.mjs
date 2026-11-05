@@ -35,10 +35,17 @@ for (const file of pages) {
       errors.push(rel + ": SVG must expose an accessible name");
     }
   }
-  // Every content image inside a semantic figure needs a visible bilingual caption.
+  // Every content image inside a semantic figure needs non-empty alt text and a visible bilingual caption.
   for (const figure of html.matchAll(/<figure\b[\s\S]*?<\/figure>/gi)) {
-    if (/<img\b/i.test(figure[0]) && !/<figcaption\b/i.test(figure[0])) {
-      errors.push(rel + ": figure containing an image must include a figcaption");
+    if (!/<img\b/i.test(figure[0])) continue;
+    const caption = (figure[0].match(/<figcaption\b[\s\S]*?<\/figcaption>/i) || [])[0] || "";
+    if (!caption) errors.push(rel + ": figure containing an image must include a figcaption");
+    if (!/<span\s+class=["'][^"']*\bru\b/i.test(caption) || !/<span\s+class=["'][^"']*\ben\b/i.test(caption)) {
+      errors.push(rel + ": image figcaption must contain Russian and English spans");
+    }
+    for (const img of figure[0].matchAll(/<img\b([^>]*)>/gi)) {
+      const alt = img[1].match(/\balt=["']([^"']*)["']/i);
+      if (!alt || !alt[1].trim()) errors.push(rel + ": content image inside figure must have non-empty alt text");
     }
   }
   for (const anchor of html.matchAll(/<a\b([^>]*\bhref=["']https?:\/\/[^"']+["'][^>]*)>/gi)) {
@@ -1046,18 +1053,29 @@ if (!systematicsPage.includes('<div class="output" id="name-output" aria-live="p
   errors.push("chapters/systematics.html: dynamic species-name output must expose a polite live region");
 }
 
-const externalReviewPacket = fs.readFileSync(path.join(root, "EXTERNAL_REVIEW_PACKET.md"), "utf8");
-for (const phrase of [
-  "### G4 — Scientific review",
-  "### G5 — Bilingual editorial and release review",
-  "Son-Kul fish survey (Sarieva, Konurbaev & Osmonov, 2023)",
-  "Kempir-Abad basin expedition",
-  "Argali genomic study and Dryad metadata",
-  "Tibetan Snowcock occurrence",
-  "Black-necked Crane candidate near Soek Pass",
-  "G4 and G5 internal audit gates are complete under the agreed project model"
-]) {
-  if (!externalReviewPacket.includes(phrase)) errors.push("EXTERNAL_REVIEW_PACKET.md: missing independent-review scope or sign-off requirement: " + phrase);
+// Historical external-review templates are archived and must not become active CI gates.
+const archivedReviewDocs = [
+  "EXTERNAL_REVIEW_PACKET.md",
+  "INDEPENDENT_REVIEW_BUNDLE.md",
+  "INDEPENDENT_REVIEW_HANDOFF.md",
+  "INDEPENDENT_REVIEW_PAGE_MATRIX.md",
+  "INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md",
+  "INDEPENDENT_REVIEW_TRACKING_REGISTER.md"
+];
+for (const name of archivedReviewDocs) {
+  const file = path.join(root, name);
+  if (!fs.existsSync(file)) {
+    errors.push(name + ": archived historical record is missing");
+    continue;
+  }
+  const opening = fs.readFileSync(file, "utf8").slice(0, 900);
+  if (!/ARCHIVED[\s\S]{0,160}OUTSIDE THE ATLAS PROJECT SCOPE/i.test(opening)) {
+    errors.push(name + ": historical external-review document must be clearly archived outside project scope");
+  }
+}
+const imageAuditGovernance = fs.readFileSync(path.join(root, "IMAGE_AUDIT.md"), "utf8");
+if (!imageAuditGovernance.includes("all external checking, review, assessment, peer review, specialist expertise, certification and expert sign-off are excluded")) {
+  errors.push("IMAGE_AUDIT.md: definitive no-external-review project boundary must remain documented");
 }
 
 if (!regionalSpeciesAudit.includes("Suusamyr Valley fish survey (fieldwork 2024; published 2025)") ||
@@ -1084,6 +1102,22 @@ if (fs.existsSync(generatedDir)) {
     }
     if (!bilingual(title)) errors.push("images/generated/" + name + ": SVG title must contain Russian and English");
     if (!bilingual(desc)) errors.push("images/generated/" + name + ": SVG description must contain Russian and English");
+    const vb = source.match(/\bviewBox=["']\s*(-?[\d.]+)[ ,]+(-?[\d.]+)[ ,]+([\d.]+)[ ,]+([\d.]+)\s*["']/i);
+    if (vb) {
+      const [, minX, minY, width, height] = vb.map(Number);
+      for (const node of source.matchAll(/<(?:text|tspan)\b([^>]*)>/gi)) {
+        for (const axis of ["x", "y"]) {
+          const coordinate = node[1].match(new RegExp("\\\\b" + axis + "=[\\\\\"'](-?[\\\\d.]+)"));
+          if (!coordinate) continue;
+          const value = Number(coordinate[1]);
+          const min = axis === "x" ? minX : minY;
+          const max = min + (axis === "x" ? width : height);
+          if (value < min - 1 || value > max + 1) {
+            errors.push("images/generated/" + name + ": " + axis + " text anchor lies outside viewBox (" + value + ")");
+          }
+        }
+      }
+    }
     if (/<script\b|<foreignObject\b|<image\b/i.test(source) ||
         /\b(?:href|xlink:href)\s*=\s*["'](?:https?:|\/\/|data:)/i.test(source)) {
       errors.push("images/generated/" + name + ": unexpected script, embedded object/image or external/data reference");
