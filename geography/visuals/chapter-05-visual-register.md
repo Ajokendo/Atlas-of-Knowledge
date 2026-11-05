@@ -54,7 +54,6 @@ No named visual needs remain in this short production list. The chapter inventor
 - Rechecked the chapter Markdown after the RU/EN repair: 20 distinct image URLs are used in 40 image embeds, with every URL appearing once in each language section.
 - Restored the English-section embeds for 5.12-A (global climate belts), 5.14-A (atmospheric hazards) and 5.15-A (climate change). Their SVGs are bilingual and the chapter now provides bilingual alt text and explanatory captions in both sections.
 - Do not confuse the number of distinct files with the number of visual IDs: a single visual ID may group several files (for example, the front-symbol set under 5.8-A). Keep the ID-to-file mapping explicit in future updates.
-- 5.18-A remains a planned synoptic-map/climate-analysis exercise; it is still a placeholder and does not count as integrated.
 - This is source-level parity verification, not final scientific sign-off, licence clearance for project-created SVGs, deployed rendering, or device/accessibility QA.
 
 
