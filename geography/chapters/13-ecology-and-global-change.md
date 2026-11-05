@@ -125,6 +125,19 @@ The **planetary boundaries** framework describes nine interconnected Earth-syste
 
 Климатические изменения проявляются не только в росте средней температуры, но и в изменении вероятности и интенсивности экстремальных явлений, режима осадков, снежного покрова, ледников, уровня моря и океанической циркуляции. Воздействия различаются по регионам и сезонам.
 
+
+Earth's climate changes under the influence of both natural factors and human activities. The rapid global warming observed today is primarily caused by the increase in greenhouse-gas concentrations resulting from human activity.
+
+The main greenhouse gases are:
+- **carbon dioxide (CO₂):** mainly from fossil-fuel combustion, cement production and land-use change;
+- **methane (CH₄):** associated, among other sources, with energy production, agriculture and waste;
+- **nitrous oxide (N₂O):** largely associated with agricultural and industrial processes; and
+- **fluorinated gases:** used in some industrial and technical systems.
+
+The greenhouse effect is a natural physical process through which the atmosphere absorbs and re-emits part of the Earth's outgoing thermal radiation. An enhanced greenhouse effect, caused by rising greenhouse-gas concentrations, increases the energy imbalance of the climate system.
+
+Climate change is expressed not only in rising average temperatures but also in changes in the likelihood and intensity of extreme events, precipitation regimes, snow cover, glaciers, sea level and ocean circulation. Impacts differ among regions and seasons.
+
 ## 13.5. Последствия изменения климата / Impacts of Climate Change
 
 ### Криосфера и горные территории / Cryosphere and mountain regions
@@ -142,6 +155,23 @@ The **planetary boundaries** framework describes nine interconnected Earth-syste
 ### Продовольствие и здоровье / Food and health
 
 Изменение температур и осадков влияет на урожайность, вредителей, водную обеспеченность и условия выпаса. Жара повышает риски для здоровья, особенно для пожилых людей, детей, работников на открытом воздухе и жителей районов с недостаточным доступом к охлаждению и медицинской помощи.
+
+
+### Cryosphere and mountain regions
+
+The retreat of glaciers and changes in seasonal snow cover affect the timing of river runoff, water supply, hydropower, agriculture and natural hazards. In high mountains, monitoring glacial lakes, debris flows, landslides and permafrost degradation becomes increasingly important.
+
+### Oceans and coasts
+
+The ocean absorbs a substantial part of the excess heat in the climate system and some of the anthropogenic CO₂. This contributes to ocean warming, sea-level rise and ocean acidification. Coastal risks include inundation of low-lying areas, erosion, salinisation of groundwater and damage to infrastructure.
+
+### Extreme events
+
+Warming changes the conditions under which some extreme events develop. Heatwaves and extreme precipitation are intensifying in many regions, but trends in droughts, storms and other events are not uniform. An individual weather event should not automatically be attributed to climate change; event-attribution methods are used for that purpose.
+
+### Food and health
+
+Changes in temperature and precipitation affect crop yields, pests, water availability and grazing conditions. Heat increases health risks, especially for older people, children, outdoor workers and residents of areas with limited access to cooling and medical care.
 
 ## 13.6. Биоразнообразие и изменение экосистем / Biodiversity and Ecosystem Change
 
@@ -161,6 +191,21 @@ The **planetary boundaries** framework describes nine interconnected Earth-syste
 Оценка биоразнообразия должна учитывать не только число видов, но и их численность, генетическую изменчивость, функциональные роли, состояние местообитаний и связность ландшафта.
 
 Охраняемые территории являются важным инструментом сохранения природы, но их эффективность зависит от управления, финансирования, экологической связности, участия местных сообществ и справедливого распределения выгод и ограничений.
+
+
+Biodiversity includes genetic diversity, species diversity and ecosystem diversity. Its loss is associated with habitat conversion, overexploitation of resources, pollution, climate change and invasive alien species.
+
+Ecological consequences may include:
+- declining population sizes and local extinction of species;
+- disruption of ecological corridors;
+- changes in the timing of flowering, reproduction and migration;
+- shifts in species' geographic ranges;
+- simplification of food webs; and
+- loss of pollination, pest regulation and other ecosystem functions.
+
+Biodiversity assessment should consider not only the number of species but also their abundance, genetic variation, functional roles, habitat condition and landscape connectivity.
+
+Protected areas are an important tool for nature conservation, but their effectiveness depends on management, funding, ecological connectivity, participation by local communities and a fair distribution of benefits and restrictions.
 
 ## 13.7. Землепользование, леса и деградация земель / Land Use, Forests and Land Degradation
 
