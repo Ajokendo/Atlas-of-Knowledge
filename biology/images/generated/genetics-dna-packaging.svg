@@ -35,9 +35,10 @@
 <path d="M115 575 C150 545 180 605 215 575 S280 545 315 575 S380 605 415 575 S480 545 515 575" stroke="#b17a3c" stroke-width="3" fill="none" stroke-dasharray="7 5"/>
 <g fill="#dce7d8" stroke="#557c58" stroke-width="2"><circle cx="180" cy="575" r="10"/><circle cx="315" cy="575" r="10"/><circle cx="450" cy="575" r="10"/></g>
 <text x="560" y="558" class="label" style="font-size:18px">Более высокий уровень упаковки</text>
-<text x="560" y="590" class="tiny">Нуклеосомная нить образует петли и домены</text>
-<text x="560" y="610" class="tiny">Loops and domains are associated with scaffold proteins</text>
-<text x="950" y="552" class="tiny">Не одна обязательная</text><text x="950" y="570" class="tiny">«30-нм спираль»:</text><text x="950" y="588" class="tiny">укладка динамична</text><text x="950" y="606" class="tiny">и зависит от контекста</text><text x="950" y="624" class="tiny">Context-dependent</text>
+<text x="560" y="578" class="tiny">Higher-order packaging</text>
+<text x="560" y="600" class="tiny">Нуклеосомная нить образует петли и домены</text>
+<text x="560" y="620" class="tiny">The nucleosome fibre forms loops and domains</text>
+<text x="950" y="550" class="tiny" style="font-size:11px">Нет единственной обязательной</text><text x="950" y="566" class="tiny" style="font-size:11px">30-нм фибриллы; укладка</text><text x="950" y="582" class="tiny" style="font-size:11px">динамична и зависит от контекста</text><text x="950" y="600" class="tiny" style="font-size:11px">No single obligatory 30-nm fibre;</text><text x="950" y="616" class="tiny" style="font-size:11px">chromatin packing is dynamic</text><text x="950" y="632" class="tiny" style="font-size:11px">and context-dependent</text>
 </g>
 <g>
 <rect x="55" y="660" width="1090" height="180" rx="16" class="panel"/>
