@@ -57,7 +57,9 @@
 
 **Иллюстрация 2.2-A — Взаимодействие четырёх оболочек / Interactions Between Four Earth Spheres.**
 
-![Примеры взаимодействия: осадки, испарение, выветривание, сток и обмен питательными веществами / Examples of interaction: precipitation, evaporation, weathering, runoff and nutrient exchange](../assets/diagrams/02-2A-four-spheres-interactions.svg)
+![Four Earth spheres — lithosphere, atmosphere, biosphere and hydrosphere — connected by conceptual exchange arrows, with solar energy entering the system / Четыре оболочки Земли — литосфера, атмосфера, биосфера и гидросфера — связаны условными стрелками обмена; показана солнечная энергия](https://www.thephysicalenvironment.com/Book/hydrosphere/spheres3.jpg)
+
+*Источник / Source: Michael E. Ritter, *The Physical Environment*, Figure 2.3.1, “The Earth System” (after Christopherson, 2005), distributed via LibreTexts. Лицензия страницы и рисунка / Page and figure licence: CC BY-SA 4.0. Стрелки показывают качественные связи и обмен, а не измеренные потоки. / Arrows show conceptual relationships and exchanges, not measured fluxes. [Страница рисунка / Figure page](https://geo.libretexts.org/Bookshelves/Geography_%28Physical%29/The_Physical_Environment_%28Ritter%29/02%3A_The_Earth_System/2.03%3A_Natural_Systems/2.3.01%3A_Components_of_the_Earth_System) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/4.0/).
 
 *Схема показывает примеры процессов; стрелки не задают их количественную величину. / The diagram shows process examples; arrows do not indicate quantitative magnitudes.*
 
@@ -654,7 +656,9 @@ The spheres do not have impermeable boundaries. They overlap and interact: water
 
 **Illustration 2.2-A — Interactions Between Four Earth Spheres.**
 
-![Examples of interaction: precipitation, evaporation, weathering, runoff and nutrient exchange / Примеры взаимодействия оболочек Земли](../assets/diagrams/02-2A-four-spheres-interactions.svg)
+![Four Earth spheres — lithosphere, atmosphere, biosphere and hydrosphere — connected by conceptual exchange arrows, with solar energy entering the system / Четыре оболочки Земли — литосфера, атмосфера, биосфера и гидросфера — связаны условными стрелками обмена; показана солнечная энергия](https://www.thephysicalenvironment.com/Book/hydrosphere/spheres3.jpg)
+
+*Источник / Source: Michael E. Ritter, *The Physical Environment*, Figure 2.3.1, “The Earth System” (after Christopherson, 2005), distributed via LibreTexts. Лицензия страницы и рисунка / Page and figure licence: CC BY-SA 4.0. Стрелки показывают качественные связи и обмен, а не измеренные потоки. / Arrows show conceptual relationships and exchanges, not measured fluxes. [Страница рисунка / Figure page](https://geo.libretexts.org/Bookshelves/Geography_%28Physical%29/The_Physical_Environment_%28Ritter%29/02%3A_The_Earth_System/2.03%3A_Natural_Systems/2.3.01%3A_Components_of_the_Earth_System) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/4.0/).
 
 *Original bilingual schematic. Arrows show process examples and do not indicate quantitative magnitudes. / Оригинальная двуязычная схема. Стрелки показывают примеры процессов и не обозначают их количественную величину.*
 
