@@ -48,7 +48,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 14 | 9 | 8 | 1 | 14-A, 14-B, 14-C, 14-D, 14-E, 14-F, 14-H and 14-I embedded; 14-G remains open. |
 | 15 | 11 | 11 | 0 | Eleven local SVG assets embedded. |
 | 16 | 9 | 9 | 0 | Nine local SVG assets embedded. |
-| 17 | 9 | 3 | 6 | 17-C, 17-E and 17-G embedded; remaining six planned assets open. |
+| 17 | 9 | 6 | 3 | 17-B, 17-C, 17-E, 17-F, 17-G and 17-I integrated; 17-A (verified regional locator/border date), 17-D (valleys/profile) and 17-H (geology/mineral districts) remain open. |
 | 18 | 10 | 5 | 5 | 18-B, 18-C (three-photo set), 18-D, 18-H and 18-J embedded. Supplementary Blue Green Atlas relief image does not close 18-A. |
 | 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
