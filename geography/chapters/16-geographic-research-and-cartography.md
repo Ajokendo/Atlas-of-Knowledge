@@ -37,6 +37,23 @@ This chapter concludes the general geography section of the atlas. It brings tog
 
 Хорошее исследование различает описание, объяснение и причинный вывод. Пространственное совпадение двух явлений само по себе не доказывает, что одно вызвало другое.
 
+
+Research begins with a clearly formulated problem. A topic should be turned into a research question that can be answered using observations, data and an appropriate method.
+
+A typical sequence is:
+1. **Define the problem:** identify the phenomenon, territory, period and scientific or practical significance.
+2. **Review literature and sources:** analyse previous studies, maps, statistics and available datasets.
+3. **Set the aim and objectives:** define what needs to be established, measured or explained.
+4. **Formulate a hypothesis or research questions:** propose a preliminary explanation or a set of questions that can be tested.
+5. **Choose the scale and spatial units:** define the territory, period and units of observation.
+6. **Select the methodology:** choose field, remote-sensing, statistical, cartographic and qualitative methods.
+7. **Collect and check data:** document provenance, accuracy, limitations and missing values.
+8. **Analyse:** carry out statistical, spatial and substantive analysis.
+9. **Interpret:** compare results with the hypothesis, theory and wider context.
+10. **Present results:** communicate maps, graphs, tables, text and uncertainty.
+
+Good research distinguishes description, explanation and causal inference. A spatial coincidence between two phenomena does not by itself prove that one caused the other.
+
 ## 16.2. Пространственный масштаб и территориальные единицы / Spatial Scale and Areal Units
 
 ![Уровни географического анализа: местный, региональный, национальный и глобальный / Geographic levels of analysis: local, regional, national and global](../assets/diagrams/16-B-geographic-scales-bilingual.svg)
@@ -305,6 +322,13 @@ A map should answer a specific question. Excessive detail, inconsistent symbols 
 
 **Картографическая генерализация** — отбор, упрощение, объединение и смещение объектов ради читаемости карты на выбранном масштабе. Небольшие реки, дороги и населённые пункты могут быть опущены или условно смещены. Генерализация должна сохранять смысл и не создавать ложного впечатления.
 
+
+A map projection transforms coordinates on the Earth's surface onto a plane. Every flat map projection distorts at least one property—area, shape, distance or direction. The choice depends on the purpose of the map and the territory being represented.
+
+**Map scale** is the ratio between a distance on the map and the corresponding distance on the ground. At a scale of 1:100,000, one centimetre on the map represents one kilometre on the ground, subject to the adopted projection model.
+
+**Cartographic generalisation** is the selection, simplification, combination and displacement of features to keep a map readable at a chosen scale. Small rivers, roads and settlements may be omitted or symbolically displaced. Generalisation should preserve meaning and must not create a misleading impression.
+
 ## 16.11. Тематическая картография / Thematic Cartography
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 16-E / IMAGE PLACEHOLDER 16-E]** Сравнение хороплетной карты, пропорциональных символов, изолиний, точечной карты и карты потоков с подходящими типами данных.
@@ -358,6 +382,31 @@ A projection choice cannot correct an inappropriate thematic map type. Absolute 
 
 Цветовая шкала должна соответствовать смыслу данных. Равные визуальные интервалы не всегда соответствуют равным числовым интервалам, особенно при логарифмической классификации.
 
+
+Cartographic design directs the reader's attention and helps distinguish classes, directions, magnitudes and categories.
+
+Important visual variables include:
+- position;
+- size;
+- shape;
+- orientation;
+- hue;
+- lightness;
+- saturation; and
+- texture.
+
+Recommendations:
+- use sequential colour schemes for ordered values from low to high;
+- use diverging schemes for values relative to a meaningful centre, such as zero or a regulatory threshold;
+- use qualitative palettes for categories without a natural order;
+- do not encode a single distinction only with red and green;
+- ensure sufficient contrast between text and background;
+- test legibility at small sizes and in print;
+- use symbols that are understandable to the target audience; and
+- avoid overloading the map with decorative elements.
+
+A colour scale should match the meaning of the data. Equal visual intervals do not always correspond to equal numerical intervals, especially when logarithmic classification is used.
+
 ## 16.13. Классификация данных для карт / Data Classification for Mapping
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 16-G / IMAGE PLACEHOLDER 16-G]** Один условный набор значений в равных интервалах, квантилях и естественных границах; показать, как меняется карта при разных классах.
@@ -376,6 +425,20 @@ A projection choice cannot correct an inappropriate thematic map type. Absolute 
 Ни один метод не является универсально лучшим. Квантили обеспечивают одинаковое число территориальных единиц в каждом классе, но могут объединить близкие значения или разделить похожие. Равные интервалы просты, но при асимметричном распределении могут создавать пустые классы. Естественные границы оптимизируют внутриклассовую однородность в рамках алгоритма, но затрудняют сравнение карт разных лет, если границы классов пересчитываются каждый раз.
 
 Для временного сравнения часто целесообразно фиксировать границы классов, чтобы изменение цвета отражало изменение показателя, а не изменение метода классификации.
+
+
+Numerical data on choropleth and other thematic maps are often grouped into classes. The choice of classification method affects the visual message.
+
+Common methods include:
+- equal intervals;
+- quantile intervals;
+- natural breaks (Jenks);
+- standard deviations; and
+- predefined regulatory or meaningful thresholds.
+
+No method is universally best. Quantiles place the same number of geographic units in each class, but may group quite different values or separate similar ones. Equal intervals are simple, but can create empty classes when the distribution is highly skewed. Natural breaks optimise within-class similarity under the algorithm, but make comparisons between maps from different years more difficult if class boundaries are recalculated each time.
+
+For comparisons over time, it is often useful to keep class boundaries fixed so that a change in colour reflects a change in the indicator rather than a change in the classification method.
 
 ## 16.14. Карта как аргумент: подписи, легенда и источники / Map as an Argument: Labels, Legend and Sources
 
@@ -397,6 +460,22 @@ A projection choice cannot correct an inappropriate thematic map type. Absolute 
 Стрелка севера не обязательна на каждой карте, особенно если ориентация очевидна или карта снабжена координатной сеткой. Декоративные элементы не должны подменять недостающие метаданные.
 
 Подписи должны быть иерархичны и не перекрывать важные объекты. При необходимости применяются выноски и смещение знаков, но расположение должно оставаться географически понятным.
+
+
+A map should contain enough information for the reader to interpret it correctly:
+- a clear title;
+- a legend with units of measurement;
+- a scale or scale bar, where needed;
+- the projection and coordinate reference system for technical maps;
+- the date of the data and the date the map was created;
+- the source and licence;
+- the author or organisation;
+- an explanation of the classification method; and
+- an indication of uncertainty and limitations when these are important.
+
+A north arrow is not required on every map, especially when orientation is obvious or a coordinate grid is provided. Decorative elements must not replace missing metadata.
+
+Labels should have a clear hierarchy and should not cover important features. Callouts and symbol displacement may be used when necessary, but the geographic location should remain understandable.
 
 ## 16.15. Картографическая генерализация и мультимасштабные карты / Generalisation and Multiscale Mapping
 
