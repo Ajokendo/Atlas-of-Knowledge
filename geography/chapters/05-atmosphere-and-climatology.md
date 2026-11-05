@@ -627,6 +627,10 @@ For describing current conditions, the latest standard normal (1991–2020) is g
 9. Современное глобальное потепление преимущественно обусловлено деятельностью человека.
 10. Метеорологические наблюдения и модели лежат в основе прогнозирования погоды и оценки климатических изменений; синоптические карты помогают анализировать текущее состояние атмосферы и вероятное развитие погоды.
 
+## Ключевые понятия / Key Terms
+
+Атмосфера — Atmosphere; атмосферное давление — Atmospheric pressure; радиационный баланс — Radiation budget; альбедо — Albedo; естественный парниковый эффект — Natural greenhouse effect; влажность воздуха — Air humidity; относительная влажность — Relative humidity; точка росы — Dew point; конденсация — Condensation; осадки — Precipitation; воздушная масса — Air mass; атмосферный фронт — Atmospheric front; циклон — Cyclone; антициклон — Anticyclone; общая циркуляция атмосферы — General atmospheric circulation; температурная инверсия — Temperature inversion; климат — Climate; климатическая норма — Climate normal; климатическая аномалия — Climate anomaly; климатограмма — Climate graph; синоптическая карта — Synoptic chart; прогноз погоды — Weather forecast.
+
 ## Контрольные вопросы / Review Questions
 
 1. Каков приблизительный состав сухого воздуха?
