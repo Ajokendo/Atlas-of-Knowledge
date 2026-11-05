@@ -124,7 +124,7 @@ Any external evaluation, consultation, expert review, school-teacher assessment,
 - The latest full Chromium workflow available before the current regression-test changes is [run 42041825012](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42041825012), commit `79b512de`, **PASS**. All 13 Biology pages were exercised at desktop (1365×900) and narrow mobile (390×844) widths. The run checks raster decoding and intrinsic dimensions, visible inline-SVG geometry, horizontal overflow, accessibility and language switching; desktop screenshots were uploaded.
 - This automated browser result supersedes older statements that the entire site has not yet had a Chromium smoke run. It does **not** close manual pixel-level inspection, species/anatomical morphology, source-to-image identity, rights clearance or hands-on assistive-technology checks.
 - The disposition table has 53 mapped briefs. A row may still carry an open morphology, rights or detailed visual note despite a successful browser smoke test. Do not change a row to `VERIFIED` on CI evidence alone.
-- Current note-count reconciliation: 45/53 rows in this register contain at least one pending/open note; 33/53 rows in `IMAGE_BRIEF_REVIEW.md` contain explicit pending visual/browser/morphology notes. These are different triage views, not completion percentages.
+- Current note-count reconciliation: 45/53 rows in this register contain at least one pending/open note; 37/53 rows in `IMAGE_BRIEF_REVIEW.md` contain explicit pending visual/browser/morphology notes. These are different triage views, not completion percentages.
 - Archived external-review files are historical only. External specialists, independent assessment, teachers, schools and institutional sign-off are excluded from this project and must not appear as pending tasks or acceptance gates.
 
 
@@ -137,3 +137,6 @@ Any external evaluation, consultation, expert review, school-teacher assessment,
 - Botany anatomy, transport and flower diagrams: missing English labels/explanation added.
 - Latest full Chromium pass: [run 42041825012](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42041825012), commit `670edf0f`, success; all 13 pages tested at 390×844 and 1365×900; 26 full-page screenshots uploaded as `biology-visual-review` (~42.5 MB).
 - Targeted required-label regression checks were then added in commit `670edf0f`; their static validation step passed in run `42041825012`. The full Chromium step for that run was still in progress at this checkpoint.
+
+
+Triage count correction: the current `IMAGE_BRIEF_REVIEW.md` table contains 37/53 rows with explicit pending visual/browser/morphology notes (the previous 33/53 count predated four newly documented botany/ecology corrections). This is an open-note count, not a verification rate.
