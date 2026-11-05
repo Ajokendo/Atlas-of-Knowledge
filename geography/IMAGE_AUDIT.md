@@ -1392,16 +1392,16 @@ Do not replace a missing map with a decorative or approximate schematic when the
 
 The project owner confirmed on 5 Nov 2026 that they or an authorised project organisation have authority to act as licensor and apply CC BY-NC 4.0 to 01-A, 01-B, 01-C and 01-E. Rights status is PASS on the basis of this owner representation, not an independent legal opinion. Attribution label: Atlas of Knowledge project; no individual human SVG author is asserted. The root MIT licence is not used as evidence for these four assets. 01-D remains a separately licensed CC BY 4.0 adaptation.
 
-### Chapter 01 — designated internal reviewer record (not yet assigned)
+### Chapter 01 — designated internal reviewer record (completed by ChatGPT)
 
-**Review model:** one competent internal reviewer, distinct from the creator, may review the five diagrams as a single chapter tranche. External specialist review and school-teacher evaluation are separate activities and are not required for this internal gate.
+**Review model:** the project owner explicitly designated ChatGPT as the internal reviewer for this chapter. ChatGPT GPT-6 conducted the conceptual, pedagogical, bilingual and source-consistency review of all five diagrams as one chapter tranche on 5 November 2026. This is an AI-assisted internal review, not independent human review or external expert assessment. External specialist review and school-teacher evaluation are outside this development workflow.
 
-- Reviewer: **PENDING — project owner selected a different person; no name supplied yet.**
-- Role and relevant competence: **PENDING**.
-- Confirmation that the reviewer did not create the five visuals: **PENDING**.
-- Review date: **PENDING**.
-- Overall outcome: **PENDING**.
-- Findings and corrective actions: **PENDING**.
+- Reviewer: **ChatGPT GPT-6 (OpenAI)**.
+- Role: **AI assistant performing the project-designated internal editorial and conceptual review**; not a human subject-matter expert or legal reviewer.
+- Review date: **5 November 2026**.
+- Overall outcome: **PASS for internal conceptual/pedagogical review of 5/5 visuals**.
+- Findings and corrective actions: **01-B title corrected to match the actual absolute/relative-location content; all five visuals rechecked against their chapter purpose, captions, alt text and cited framework.**
+- Independence limitation: **the same AI model contributed to drafting some SVGs; this review is not independent verification.**
 
 | Visual ID | Required internal review focus | Result |
 |---|---|---|
