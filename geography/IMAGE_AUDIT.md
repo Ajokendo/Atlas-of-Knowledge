@@ -1504,3 +1504,8 @@ The first feedback-image candidate considered from SERC's separate *Carbon on th
 ### 2.8-A delivery limitation — 5 November 2026
 
 The Open University OpenLearn Figure 1.7 remains the strongest subject-fit candidate for solar, gravitational/tidal and internal terrestrial energy sources. The course page and course reuse terms are documented, and the figure is not listed among the course's separately identified proprietary exceptions. However, the exact image endpoint returned HTTP 403 during retrieval. It has therefore **not** been embedded and is not counted as an integrated replacement. Keep 2.8-A conditional until a stable, accessible image endpoint or a properly obtained local copy is available.
+
+
+### 2.2-A discovery update — 5 November 2026
+
+A stronger rights-documented candidate was identified in LibreTexts *The Physical Environment* (Michael E. Ritter), Figure 2.3.1, “The Earth System” (after Christopherson, 2005). The page explicitly carries CC BY-SA 4.0 and describes flows of energy and matter among the four spheres, with solar energy, Earth's internal heat and lunar gravity. The figure is credited to Michael E. Ritter via *The Physical Environment*. The image file is `spheres3.jpg` (23,607 bytes), but the stable file endpoint redirects to a signed storage URL that the verification client cannot retrieve; direct download also failed. This is therefore a conditional candidate only, not an integrated replacement. Do not embed until a stable asset endpoint or properly obtained local copy is available.
