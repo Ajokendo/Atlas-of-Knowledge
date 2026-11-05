@@ -75,7 +75,7 @@ export function buildWorld(E) {
   const g3 = asm('friction', root, { title: 'Сила трения', sub: 'сначала трение покоя, затем скольжения' });
   const b3 = block(g3, S1);
   const fg3 = force(g3), fn3 = force(g3), fa3 = force(g3), ff3 = force(g3), net3 = force(g3, true);
-  label('vec', 'F<sub>app</sub>', () => tip(fa3)); label('vec', 'f', () => tip(ff3));
+  label('vec', 'F<sub>прил</sub>', () => tip(fa3)); label('vec', 'f', () => tip(ff3));
   label('vec', 'F<sub>g</sub>', () => tip(fg3)); label('vec', 'F<sub>N</sub>', () => tip(fn3)); label('vec red', 'ΣF', () => tip(net3));
 
   // ---------- 5 · third law: A pushes B ----------
@@ -202,7 +202,7 @@ export function buildWorld(E) {
   { const t = [XD - 1.0, 0.02, 0, XD - 1.0, DR.y0 + 0.2, 0];
     for (let y = 0; y <= DR.y0; y += 0.5) t.push(XD - 1.0, y, 0, XD - (y % 1 ? 0.92 : 0.84), y, 0);
     lines(root, t, '#8a8a8f'); }
-  label('axis', '5 m', () => V(XD - 1.05, 5, 0)); label('axis', '0', () => V(XD - 1.05, 0.05, 0));
+  label('axis', '5 м', () => V(XD - 1.05, 5, 0)); label('axis', '0', () => V(XD - 1.05, 0.05, 0));
   const gD = asm('drag', root, { title: 'Падение с сопротивлением ∝ v', sub: 'сопротивление растёт до равенства с силой тяжести' });
   const ballD = part(gD, new THREE.SphereGeometry(RB, 32, 20), { tone: 'hi', name: 'Шар · 0,50 кг' });
   const wD = force(gD), dD = force(gD), netD = force(gD, true);
