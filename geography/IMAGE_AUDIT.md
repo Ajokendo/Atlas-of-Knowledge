@@ -791,9 +791,9 @@ Integrated two complementary visuals in both language sections. The surface-curr
 | 17-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Need DEM lineage, resolution, CRS, vertical datum and licence before a national hypsometric map/profile can be approved. |
 | 17-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Academic tectonic figures are study-specific; choose a regional classification and document rights before reuse or redraw. |
 | 17-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | National water-project map catalogue is a lead only; exact valley/basin layer metadata and reuse terms remain unknown. |
-| 17-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Original conceptual bilingual timeline can be authored from ICS and chapter evidence; it must not imply a precise local reconstruction. |
+| 17-E | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual timeline integrated; creator/rightsholder, project licence and rendered/technical checks remain pending. |
 | 17-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | No approved national active-fault/seismicity dataset; catalogue period, magnitude threshold/scale and positional accuracy required. |
-| 17-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Original not-to-scale conceptual cross-section can be authored; distinguish tectonic uplift from surface processes. |
+| 17-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual relief-process schematic integrated; creator/rightsholder, project licence and rendered/technical checks remain pending. |
 | 17-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Await published national geological atlas or verified open layers; do not invent mineral districts, resource classes or operating status. |
 | 17-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Current official administrative geometry and reuse conditions not confirmed; show Manas and seven oblasts correctly when source is obtained. |
 
