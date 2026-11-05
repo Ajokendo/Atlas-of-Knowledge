@@ -998,6 +998,7 @@ NDVI \approx 0.67
 18. McFeeters, S. K. (1996). **The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features.** *International Journal of Remote Sensing*, 17(7), 1425–1432. https://doi.org/10.1080/01431169608948714
 19. Gao, B.-C. (1996). **NDWI—A normalized difference water index for remote sensing of vegetation liquid water from space.** *Remote Sensing of Environment*, 58(3), 257–266. https://doi.org/10.1016/S0034-4257(96)00067-3. This is a different NIR–SWIR index; always state the formula to avoid ambiguity.
 20. Zha, Y., Gao, J., & Ni, S. (2003). **Use of normalized difference built-up index in automatically mapping urban areas from TM imagery.** *International Journal of Remote Sensing*, 24(3), 583–594. https://doi.org/10.1080/01431160304987
+21. NASA Applied Remote Sensing Training Program. **Fundamentals of Remote Sensing.** Training material on passive/active sensing, atmospheric interactions and sensor observations. https://appliedsciences.nasa.gov/sites/default/files/2020-11/conservationpart2.pdf
 
 ---
 **Конец главы 15 / End of Chapter 15**
