@@ -829,7 +829,7 @@ All six SVG files were re-fetched from the working branch and passed the followi
 
 ### Coverage and remaining gaps
 
-- Chapters 11–16: 6 of 53 registered visual IDs now have an integrated asset in this tranche; the remaining IDs are still production gaps and must not be counted as complete.
+- Chapters 11–16: 6 of 57 registered visual IDs now have an integrated asset in this tranche; the remaining IDs are still production gaps and must not be counted as complete.
 - Chapter 12-A uses an external image dependency inside its SVG; offline availability and remote loading must be tested before release.
 - No asset in this tranche is marked VERIFIED. The five original SVGs require an explicit project rights/licence decision; all six require scientific/editorial review, and browser/accessibility QA remains outstanding.
 
