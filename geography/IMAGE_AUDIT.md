@@ -14,7 +14,7 @@ This file is the Geography audit required by policy v1.1. It records the IDs tha
 
 The atlas-wide source relationship and complete source-work inventory are not yet established. Determine provenance asset by asset. Record original work, creator/rightsholder, edition/version, source location, inheritance relationship, changes and the permission/licence for actual reproduction and adaptation. Classify A — Original reuse, B — Adapted or C — Created separately from rights status. Mark unknown values Unknown / PENDING. Do not infer authorship or permission from repository ownership, public availability or prior integration. Do not repeat discovery searches for an identifiable unchanged inherited visual solely to satisfy image-first; verify lineage, rights, scientific meaning, localisation, accessibility and rendering. Search for a replacement when an asset is missing, unsuitable, inaccurate, inaccessible, rights-restricted or needs replacement. Translating surrounding captions/alt text alone does not change the visual category; translating embedded labels or substantively editing the visual is adaptation.
 
-Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–05 (with unresolved creator/licence fields for project-local SVGs and several external images) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 pre-existing integrated IDs plus 5.18-A are mapped in IMAGE_SOURCES.md; the separate register is retained as production history. Chapters 07–08 and 10–26 are not source-verified by the existence of IDs or briefs. Chapter 06 now has two sourced, integrated assets (6-A and 6.1-A); its other 13 visual IDs remain open.
+Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–05 (with unresolved creator/licence fields for project-local SVGs and several external images) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 pre-existing integrated IDs plus 5.18-A are mapped in IMAGE_SOURCES.md; the separate register is retained as production history. Chapters 07–08 and 10–26 are not source-verified by the existence of IDs or briefs. Chapter 06 now has three integrated assets (6-A, 6-C and 6.1-A); 6-B has a candidate dataset with confirmed CC BY 4.0 terms, and the remaining 12 visual IDs are still open.
 
 ## 3. Geography-specific checks
 
@@ -35,7 +35,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 03 | 13 | 13 IDs reported integrated (10 SVGs + 3 sourced images); not verified |
 | 04 | 16 | 16 local bilingual SVGs reported integrated; not verified |
 | 05 | 20 | 17 named visual IDs now have integrated imagery, including 5.18-A; two inventory ID positions remain unaccounted for by name and ID mapping needs reconciliation |
-| 06 | 15 | 2/15 integrated (6-A and 6.1-A, each embedded in both languages); 13 visual needs remain unfilled |
+| 06 | 15 | 3/15 integrated (6-A, 6-C and 6.1-A, each embedded in both languages); 6-B has a licensed candidate dataset but no finished map; 12 visual needs remain unfilled |
 | 07 | 9 | 0/9 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
 | 08 | 7 | 0/7 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
 | 09 | 7 | 0/7 integrated; all seven in-text visual needs are placeholders, including 09-G |
@@ -300,8 +300,8 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 05 | 5.17-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-graph exercise embedded in RU/EN; static SVG structure checked. Synthetic data/arithmetic, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.18-A | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Synthetic values and map conventions checked against NOAA: cold front SW of low, warm front east/northeast, symbols point toward movement; isobars at 4 hPa intervals; station pressure codes decode correctly. RU/EN embed and text data table present. Project rights/licence, accessibility and rendered QA remain open. |
 | 06 | 6-A | INTEGRATED | PASS | PASS | PASS | PENDING | PENDING | Exact USGS Water Cycle Diagram is Public Domain and reused unchanged with credit; diagram's pools/fluxes and human influences are described in bilingual keys; arrows are identified as qualitative, not measured flow rates. Screen-reader/rendered QA remains open. |
-| 06 | 6-B | FOUND | PENDING | PENDING | PENDING | PENDING | PENDING | Flanders Marine Institute Global Oceans and Seas v1 (2021) identified as a candidate boundary dataset; exact file, licence, geometry, bathymetry background and final bilingual map not yet checked or integrated. Southern Ocean boundary requires an explicit convention note. |
-| 06 | 6-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 06 | 6-B | FOUND | PENDING | PASS | PENDING | PENDING | PENDING | Flanders Marine Institute Global Oceans and Seas v1 (2021) candidate data licence confirmed as CC BY 4.0; attribution required and source requests that raw downloads not be redistributed. Geometry, map design, separate bathymetry background and bilingual integration remain unchecked; Southern Ocean boundary requires an explicit convention note. |
+| 06 | 6-C | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | New bilingual schematic SVG committed and embedded in both language sections; scientific review is limited to conceptual feature relationships and explicit not-to-scale caveat. Creator/rightsholder and project licence unresolved; rendered and assistive-technology QA pending. |
 | 06 | 6-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6.1-A | INTEGRATED | PASS | PASS | PASS | PENDING | PENDING | Exact USGS chart is public domain and reused unchanged with credit; nested percentages and 1993 data basis are stated; bilingual alt text and translation key added. Screen-reader/rendered QA remains open. |
 | 06 | 6.5-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -532,7 +532,7 @@ The 5.18-A placeholder has been replaced by a bilingual SVG and the chapter now 
 
 ### 7.8 Marker repetition scan — Chapters 06–26
 
-A source scan of all chapter files 06–26 found **210 distinct visual IDs** across those 21 chapters. Every enumerated ID appears at least twice in its chapter file. This is consistent with repeated teaching-location/production-brief references, but repetition alone does not prove that the Russian and English contexts are semantically equivalent. The chapter files in this range now contain eight Markdown image embeds representing six integrated visual IDs: 6-A and 6.1-A in both languages, plus the four local SVG placements in Chapters 18–20 (18-J, 19-H, 20-I and 20-K). The remaining 204 IDs remain missing; repeated IDs are not evidence of finished visuals and still require source, rights, scientific, language, accessibility and technical review.
+A source scan of all chapter files 06–26 found **210 distinct visual IDs** across those 21 chapters. Every enumerated ID appears at least twice in its chapter file. This is consistent with repeated teaching-location/production-brief references, but repetition alone does not prove that the Russian and English contexts are semantically equivalent. The chapter files in this range now contain **ten Markdown image embeds** representing seven integrated visual IDs: 6-A, 6-C and 6.1-A in both languages, plus the four local SVG placements in Chapters 18–20 (18-J, 19-H, 20-I and 20-K). The remaining 203 IDs are MISSING; 6-B is FOUND but not integrated. Repeated IDs are not evidence of finished visuals and still require source, rights, scientific, language, accessibility and technical review.
 
 
 ### Chapter 05 — bilingual image parity correction — 5 November 2026
@@ -551,7 +551,7 @@ The static content review of `chapter-05-climate-diagram-exercise.svg` found tha
 
 ### Confirmed integration gaps — Chapters 06–26 — 5 November 2026
 
-The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **eight Markdown image embeds** in this range, representing six integrated visual IDs: 6-A and 6.1-A (one embed each in Russian and English), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks the remaining 204 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
+The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **ten Markdown image embeds** in this range, representing seven integrated visual IDs: 6-A, 6-C and 6.1-A (one embed each in Russian and English), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks the remaining 203 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
 
 | Chapter | Required IDs | Integrated assets confirmed | Missing |
 |---:|---:|---:|---:|
@@ -759,3 +759,9 @@ The chapter now credits USGS, reuses the image unchanged and provides bilingual 
 **Result:** scientific/conceptual fit PASS for the stated teaching purpose; exact-image rights PASS under the USGS Public Domain statement; RU/EN explanatory parity PASS. Screen-reader behaviour, contrast at rendered sizes, responsive display and deployed loading remain PENDING.
 
 Sources: USGS, [exact image record](https://www.usgs.gov/media/images/wcd-1png), [GIP 221 publication and creators](https://pubs.usgs.gov/publication/gip221), [poster PDF and detailed diagram text](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/USGS_WaterCycle_English_PRINT_20221013_508.pdf).
+
+### Chapter 06 — Visual 6-C: ocean-floor relief — 5 November 2026
+
+Created and integrated a bilingual schematic SVG (geography/assets/06-4-C-ocean-floor-cross-section-bilingual.svg) in both language sections. It labels the continent, continental shelf, continental slope, continental rise, abyssal plain, mid-ocean ridge and deep-sea trench. The graphic explicitly states that horizontal and vertical scales are not proportional and that the depicted features do not necessarily occur together in one real transect. It is a conceptual teaching profile, not measured bathymetry.
+
+**Result:** conceptual scientific review PASS for the limited explanatory purpose; RU/EN parity PASS; source lineage is identified as a new ChatGPT-assisted local SVG, but creator/rightsholder and project licence remain PENDING. Rendered display, contrast, screen-reader behaviour and device QA remain PENDING. The file's structural metadata should be checked in the automated SVG scan before any technical PASS is assigned.
