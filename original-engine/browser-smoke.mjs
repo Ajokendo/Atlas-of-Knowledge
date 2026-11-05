@@ -364,7 +364,7 @@ async function checkChapterPage(mobile = false) {
     }
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (overflow) throw new Error('Standalone Chapter 1 page has horizontal overflow at this viewport');
-    await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}.png`, fullPage: true, animations: 'disabled' });
+    await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}.png`, fullPage: false, animations: 'disabled' });
     if (runtimeErrors.length) throw new Error(`Chapter page console/runtime errors: ${runtimeErrors.join(' | ')}`);
     console.log(`PASS chapter page ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${required.length} ordered sections, accessible canvas/SVG descriptions, embedded Three.js/WebGL 2 frame, motion sliders, projectile slider, quiz; ${headings.length} headings`);
   } catch (error) {
