@@ -1,5 +1,8 @@
 # Optional external consultation plan — Atlas of Biology
 
+> **ARCHIVED — OUTSIDE THE ATLAS PROJECT SCOPE (5 November 2026).** Recruitment and outreach are expressly excluded from Atlas of Knowledge. Do not contact institutions or candidates, send invitation letters, maintain a shortlist, collect reviewer details, or execute any step in this plan as project work. No external reviewer, specialist or editor is to be recruited for this project. The contents below are historical only; any external work the owner may arrange separately is outside this repository, schedule, progress metrics and acceptance criteria.
+
+
 **Scope:** Biology atlas only  
 **Canonical branch:** `workspace/biology`  
 **Repository:** `Ajokendo/Atlas-of-Knowledge`  
