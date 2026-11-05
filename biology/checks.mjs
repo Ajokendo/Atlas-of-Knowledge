@@ -1140,7 +1140,8 @@ const requiredBilingualLabels = {
   "fauna-issyk-habitats.svg": ["Иссык-Кульская область", "01 · БОЛОТНЫЙ БЕРЕГ", "02 · ВОДЫ ОЗЕРА", "03 · ВЫСОКОГОРЬЕ"],
   "fauna-jalalabad-western-tien-shan.svg": ["Западный Тянь-Шань", "01 · САРЫ-ЧЕЛЕК", "02 · БЕШ-АРАЛ", "03 · СУБАЛЬПИЙСКИЙ ЛУГ"],
   "anatomy-circulation.svg": ["Pulmonary veins", "Systemic arteries", "systemic veins"],
-  "evolution-timeline.svg": ["Кайнозой / Cenozoic"]
+  "evolution-timeline.svg": ["Кайнозой / Cenozoic"],
+  "evolution-homology.svg": ["У человека, летучей мыши и кита показаны пять пальцев", "The human, bat and whale hands/flippers show five digits"]
 };
 for (const [name, labels] of Object.entries(requiredBilingualLabels)) {
   const file = path.join(generatedDir, name);
