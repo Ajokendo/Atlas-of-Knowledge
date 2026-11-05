@@ -102,7 +102,7 @@ const conceptualKeys = [
   [2, 1, 3, s => s.includes('Одинаковые модули, противоположные направления'), 'velocity at equal height'],
   [3, 0, 2, s => s.includes('При падении') && s.includes('одинаковые знаки'), 'speed increases during descent'],
   [4, 1, 0, s => s.includes('наклон графика'), 'zero slope of y–t at the apex'],
-  [5, 1, 2, s => s.includes('Δ<i>y</i>') && s.includes('<i>at</i>'), 'kinematic equation containing time but not final velocity'],
+  [5, 1, 2, s => s.includes('Δ<i>y</i>') && s.includes('½<i>a</i><i>t</i>²'), 'kinematic equation containing time but not final velocity'],
   [7, 1, 0, s => s.includes('м/с назад'), 'road velocity relative to passenger'],
 ];
 for (const [page, item, answer, predicate, label] of conceptualKeys) {
