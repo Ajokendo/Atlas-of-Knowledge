@@ -1139,7 +1139,8 @@ const requiredBilingualLabels = {
   "flora-batken-aygul.svg": ["Drooping bell-shaped flowers", "Lance-shaped leaves", "Upright stem"],
   "fauna-issyk-habitats.svg": ["Иссык-Кульская область", "01 · БОЛОТНЫЙ БЕРЕГ", "02 · ВОДЫ ОЗЕРА", "03 · ВЫСОКОГОРЬЕ"],
   "fauna-jalalabad-western-tien-shan.svg": ["Западный Тянь-Шань", "01 · САРЫ-ЧЕЛЕК", "02 · БЕШ-АРАЛ", "03 · СУБАЛЬПИЙСКИЙ ЛУГ"],
-  "anatomy-circulation.svg": ["Pulmonary veins", "Systemic arteries", "systemic veins"]
+  "anatomy-circulation.svg": ["Pulmonary veins", "Systemic arteries", "systemic veins"],
+  "evolution-timeline.svg": ["Кайнозой / Cenozoic"]
 };
 for (const [name, labels] of Object.entries(requiredBilingualLabels)) {
   const file = path.join(generatedDir, name);
