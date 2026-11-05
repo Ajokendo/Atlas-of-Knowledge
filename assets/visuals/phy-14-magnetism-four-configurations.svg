@@ -56,5 +56,5 @@
 <text class="formula" x="1280" y="865">B = μ₀NI / (2πr)</text>
 <text class="small" x="1280" y="910">• I к наблюдателю; × I от него</text><text class="en" x="1280" y="940">• I out of page; × I into page</text>
 <text class="lab" x="1280" y="970">у идеального тороида снаружи поле ≈ 0</text><text class="en" x="1280" y="998">ideal toroid: external field ≈ 0</text>
-<text class="small" x="70" y="1090">μ₀ — магнитная постоянная вакуума; n — число витков на единицу длины; N — число витков тороида. / μ₀ — permeability of free space; n — turns per unit length; N — toroid turns.</text>
+<text class="small" x="70" y="1090">Формулы для воздушного сердечника. Для линейного материала с относительной магнитной проницаемостью μᵣ используйте μ = μ₀μᵣ. μ₀ — магнитная постоянная вакуума; n — число витков на единицу длины; N — число витков тороида. / Formulas assume an air core. For a linear core material with relative permeability μᵣ, use μ = μ₀μᵣ. μ₀ is the permeability of free space; n is turns per unit length; N is the number of toroid turns.</text>
 </svg>
