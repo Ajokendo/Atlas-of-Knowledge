@@ -31,6 +31,18 @@ This chapter introduces spatial data, coordinate reference systems, geographic d
 
 ГИС применяется в кадастре, городском планировании, природоохранной деятельности, транспорте, сельском хозяйстве, управлении водными ресурсами, чрезвычайных ситуациях, здравоохранении и бизнесе.
 
+
+A GIS is more than an electronic map. It is an information system in which geographic location is linked to descriptive characteristics and data can be analysed through spatial relationships.
+
+The main components of a GIS are:
+1. **Data:** coordinates, geometry, attributes, imagery, tables and metadata.
+2. **Software:** tools for data entry, editing, analysis, storage and visualisation.
+3. **Hardware and infrastructure:** computers, servers, GNSS receivers, mobile devices, sensors and network resources.
+4. **Methods and procedures:** standards, data models, processing rules and quality checks.
+5. **People and organisations:** specialists, users, data owners and public authorities.
+
+GIS is used in cadastre, urban planning, nature conservation, transport, agriculture, water-resource management, emergency response, healthcare and business.
+
 ## 14.2. Пространственные объекты и атрибутивные данные / Spatial Features and Attribute Data
 
 Географический объект обычно описывается геометрией и набором атрибутов.
@@ -95,6 +107,39 @@ It is important to distinguish a real-world feature from its digital representat
 - значения ячеек зависят от способа измерения и агрегирования.
 
 **Разрешение растра** — размер ячейки на местности или пространственный масштаб пикселя. Более мелкая ячейка не гарантирует более высокую фактическую точность: важны качество сенсора, метод обработки и исходные данные.
+
+
+### Vector model
+
+Vector data represent features as points, lines and polygons. They are useful for roads, boundaries, buildings, parcels and networks.
+
+Advantages include:
+- precise representation of individual feature geometry;
+- convenient links to attribute tables;
+- efficient representation of discrete features; and
+- support for topology and network operations.
+
+Limitations include:
+- complex surfaces and continuous fields may require very large numbers of features;
+- quality depends on the scale and accuracy of the source geometry; and
+- topology errors can create gaps, overlaps and incorrect connections.
+
+### Raster model
+
+A raster represents space as a grid of cells (pixels). Each cell stores a value such as elevation, temperature, reflectance, land-cover class or the probability of a phenomenon.
+
+Advantages include:
+- natural representation of continuous fields;
+- convenient mathematical operations on cells; and
+- wide use in remote sensing and spatial modelling.
+
+Limitations include:
+- resolution affects the level of detail;
+- data volumes can be large;
+- feature boundaries appear stepped; and
+- cell values depend on the measurement and aggregation methods.
+
+**Raster resolution** is the ground size of a cell or the spatial size of a pixel. A smaller cell does not guarantee higher actual accuracy: sensor quality, processing methods and source data also matter.
 
 ## 14.4. Координаты и системы координат / Coordinates and Coordinate Reference Systems
 
@@ -237,6 +282,20 @@ For service-accessibility analysis, a geocoded address point is not necessarily 
 - **наложение слоёв (overlay):** совместный анализ нескольких тематических слоёв.
 
 Пример: для оценки доступности медицинских учреждений можно построить зоны расстояния или времени поездки, сопоставить их с населением и определить территории с ограниченным доступом. Простая круговая зона не учитывает дорожную сеть, рельеф, реку или фактические барьеры.
+
+
+Spatial analysis answers questions about the relative locations of features, distances, intersections, neighbourhoods and the distribution of phenomena.
+
+Common operations include:
+- **buffer:** create a zone at a specified distance around a feature;
+- **intersection:** identify the shared area of spatial features;
+- **union:** combine geometries and attributes;
+- **difference:** identify the part of one feature outside another;
+- **spatial join:** transfer attributes based on a spatial relationship;
+- **select by location:** select features that meet a spatial condition; and
+- **overlay:** analyse several thematic layers together.
+
+For example, to assess access to healthcare facilities, an analyst can create zones based on distance or travel time, compare them with population data and identify areas with limited access. A simple circular buffer does not account for road networks, relief, rivers or actual barriers.
 
 ## 14.9. Сетевой анализ и транспорт / Network Analysis and Transport
 
