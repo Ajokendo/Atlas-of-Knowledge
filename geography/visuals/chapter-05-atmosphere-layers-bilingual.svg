@@ -89,7 +89,7 @@ text{font-family:Arial,Helvetica,sans-serif;fill:#203241}
 <text x="1150" y="440" class="small">часть мезосферы,</text>
 <text x="1150" y="460" class="small">термосферу; верхняя граница меняется. /</text>
 <text x="1150" y="480" class="small">Overlaps the upper</text>
-<text x="1150" y="500" class="small">mesosphere, the</text>
+<text x="1150" y="500" class="small">mesosphere and the</text>
 <text x="1150" y="520" class="small">thermosphere; the upper limit varies.</text>
 
 <!-- Temperature trend -->
