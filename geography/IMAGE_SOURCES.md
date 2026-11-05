@@ -2,7 +2,7 @@
 
 **Snapshot:** 5 November 2026  
 **Branch:** `workspace/geography`  
-**Scope:** Chapters 01–05 now have detailed or provisional asset records; Chapter 09 includes a documented MISSING gap record. Chapters 06–08 and 10–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
+**Scope:** Chapters 01–05 have detailed or provisional asset records; Chapter 06 now has one sourced and integrated record (6.1-A); Chapter 09 includes a documented MISSING gap record. The remaining Chapter 06 assets, Chapters 07–08 and 10–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
 **Policy:** search for an existing scientifically suitable image first; verify the individual asset's rights and attribution; create or generate a replacement only when no suitable reusable image is found.
 
 ## Policy alignment — IMAGE-FIRST POLICY v1.1
@@ -270,3 +270,15 @@ The former chapter-specific register at `visuals/chapter-05-visual-register.md` 
 - 5.18-A is now INTEGRATED as an original bilingual synthetic SVG. NOAA synoptic-map and station-plot teaching resources were consulted for conventions; no third-party map image was copied.
 - Source-level RU/EN embed parity was checked; deployed image loading, responsive rendering, keyboard/screen-reader accessibility and mobile performance remain untested.
 
+## Chapter 06 — Hydrosphere and the World Ocean
+
+| Visual ID | Source / asset | Category and provenance | Rights and attribution | Scientific fit and bilingual treatment | Status |
+|---|---|---|---|---|---|
+| 6.1-A | [USGS Water Science School — The distribution of water on, in, and above the Earth](https://www.usgs.gov/media/images/distribution-water-and-above-earth); exact image: [EarthsWater-BarChart.png](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png) | A — unchanged external USGS educational chart. The USGS media record is dated 25 October 2019. Underlying data source: Igor Shiklomanov, “World fresh water resources,” in Peter H. Gleick (ed.), *Water in Crisis: A Guide to the World's Fresh Water Resources* (1993). | The exact USGS media page labels the image **Public Domain**. Credit U.S. Geological Survey / Water Science School and identify Shiklomanov (1993) as the data source. Image reused unchanged; no claim of project ownership. | Three nested bars: total global water; all freshwater; surface and other freshwater only. Percentages are rounded. The 1993 estimate is explicitly identified as historical, not a current measurement. English labels are translated in matching Russian and English keys; both sections have descriptive alt text. | INTEGRATED in RU and EN; scientific/data interpretation PASS for the cited estimate; exact-image rights PASS; RU/EN explanatory parity PASS; screen-reader, contrast and rendered technical QA PENDING. |
+
+### Chapter 06 source-register notes
+
+- 6.1-A is the first visual integrated in Chapter 06. Fourteen other visual IDs remain open; this record does not imply that the chapter's other briefs have been sourced or approved.
+- The source chart's three bars represent nested categories. The third bar breaks down only “surface and other freshwater” from the second bar; its percentages must not be added to the first or second bar.
+- The data are attributed to Shiklomanov (1993), as stated by USGS. The figure is suitable here as a clearly dated, rounded teaching estimate, not as a current global water inventory.
+- Rights are recorded for the exact USGS image page, not inferred from the institution's general identity.
