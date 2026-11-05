@@ -60,7 +60,7 @@ async function run(mobile) {
     const book = await context.newPage();
     const bookResponse = await book.goto(`${base}/original-engine/circular/`, { waitUntil: 'domcontentloaded' });
     if (!bookResponse?.ok()) throw new Error(`interactive book HTTP ${bookResponse?.status() ?? 'missing'}`);
-    await book.waitForSelector('.scene-picker');
+    await book.waitForFunction(() => !!document.querySelector('.scene-picker'));
     await book.waitForFunction(() => {
       const canvas = document.querySelector('#gl');
       return canvas && canvas.width > 100 && canvas.height > 100;
@@ -69,12 +69,14 @@ async function run(mobile) {
       const rect = el => { const r = el.getBoundingClientRect(); return { top: r.top, bottom: r.bottom, left: r.left, right: r.right }; };
       return {
         hintDisplay: getComputedStyle(document.querySelector('#hint')).display,
+        pickerDisplay: getComputedStyle(document.querySelector('.scene-picker')).display,
         title: rect(document.querySelector('#figtitle')),
         picker: rect(document.querySelector('.scene-picker')),
         figure: rect(document.querySelector('.figure'))
       };
     });
     if (mobile && chrome.hintDisplay !== 'none') throw new Error('mobile mouse hint should be hidden');
+    if (mobile && chrome.pickerDisplay === 'none') throw new Error('mobile scene picker should be visible');
     if (mobile && chrome.picker.top < chrome.title.bottom - 2) throw new Error('mobile scene picker overlaps the scene title');
     if (await book.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('interactive book horizontal overflow');
     const dots = book.locator('#dots button');
