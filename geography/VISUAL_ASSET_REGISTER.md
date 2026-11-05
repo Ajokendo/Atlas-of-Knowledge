@@ -402,7 +402,7 @@ A CC BY 4.0 reproduction of Figure 1 from Poggi et al. (2024) was added as regio
 A historical Naryn River gauge candidate was identified: UNH Water Systems Analysis Group station 16055, at 41.430° N, 76.000° E, drainage area 10,500 km², reported long-term mean 92.117 m³/s and graph coverage 1931–2006. The source page exposes graphs but raw reusable observations and item-specific licence terms are not yet confirmed. Visual 20-G remains MISSING; no values have been digitised from the displayed graph.
 
 
-## Latest scoped snapshot — Chapters 11–20 — 5 November 2026
+## Historical scoped checkpoint — Chapters 11–20 — 5 November 2026 (62/97; superseded by the later 71/97 snapshot)
 
 | Chapter | Unique IDs | Integrated | Missing |
 |---|---:|---:|---:|
@@ -418,10 +418,10 @@ A historical Naryn River gauge candidate was identified: UNH Water Systems Analy
 | 20 | 11 | 8 | 3 |
 | **Total** | **97** | **62** | **35** |
 
-- **Image Coverage:** 62/97 (64%) of planned IDs integrated in Chapters 11–20.
+- **Historical Image Coverage at this checkpoint:** 62/97 (64%). This checkpoint is superseded by the later 71/97 snapshot below.
 - **Image Verification:** report separately; integration does not imply VERIFIED. Newly authored SVGs still require formal project creator/licence assignment, independent scientific sign-off, accessibility review and rendered browser/device checks. External images also require deployed load/responsive checks.
 - Supplementary research figures in Chapters 17 and 20 are not counted among planned IDs.
-- The repository-wide unique-asset total remains unreconciled (legacy headline 231 vs chapter inventory sum 283); do not extrapolate the 62/97 scoped result to the whole repository.
+- The repository-wide inventory was reconciled later in this branch: 281 named IDs plus two unresolved Chapter 05 legacy positions. Do not extrapolate this historical scoped checkpoint to the whole repository.
 
 
 ## Latest scoped snapshot — Chapters 11–20 — 5 November 2026 (after Chapters 14–15 integration)

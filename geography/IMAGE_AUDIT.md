@@ -562,47 +562,18 @@ A source scan of all chapter files 06–26 found **210 distinct visual IDs** acr
 The static content review of `chapter-05-climate-diagram-exercise.svg` found that all 24 month labels (12 months in each of two climate diagrams) were Russian-only despite the asset being presented as bilingual. Replaced them with stacked Russian/English abbreviations. A post-update fetch confirms 24/24 month-label groups now contain both scripts. The dataset remains explicitly labelled as synthetic teaching data, not observations from real weather stations. This fixes the language-parity defect for the month labels only; the full visual and scientific review remains pending.
 
 
-### Confirmed integration gaps — Chapters 06–26 — 5 November 2026
+### Current integration snapshot — Chapters 06–26 — 5 November 2026
 
-The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **sixteen Markdown image embeds** in this range, representing nine integrated visual IDs: 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A (one embed each in Russian and English), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks 201 IDs as **MISSING**; 6-B is separately recorded as FOUND, with source rights checked but no completed map.
+A refreshed chapter-by-chapter source scan confirms 210 planned visual IDs in Chapters 06–26. Seventy-seven are embedded in their relevant chapter source; 133 remain open. This counts actual chapter embeds only and does not imply scientific, rights, language, accessibility or rendered technical approval.
 
-| Chapter | Required IDs | Integrated assets confirmed | Missing |
-|---:|---:|---:|---:|
-| 06 | 15 | 5 | 10 |
-| 07 | 9 | 1 | 8 |
-| 08 | 7 | 0 | 7 |
-| 09 | 7 | 0 | 7 |
-| 10 | 7 | 0 | 7 |
-| 11 | 7 | 0 | 7 |
-| 12 | 10 | 0 | 10 |
-| 13 | 11 | 0 | 11 |
-| 14 | 9 | 0 | 9 |
-| 15 | 11 | 0 | 11 |
-| 16 | 9 | 0 | 9 |
-| 17 | 9 | 0 | 9 |
-| 18 | 10 | 1 (18-J) | 9 |
-| 19 | 10 | 1 (19-H) | 9 |
-| 20 | 11 | 2 (20-I, 20-K) | 9 |
-| 21 | 10 | 0 | 10 |
-| 22 | 10 | 0 | 10 |
-| 23 | 12 | 0 | 12 |
-| 24 | 12 | 0 | 12 |
-| 25 | 12 | 0 | 12 |
-| 26 | 12 | 0 | 12 |
-| **Total** | **210** | **4** | **206** |
+| Chapter range | Required IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 06–17 | 111 | 58 | 53 |
+| 18–20 | 31 | 19 | 12 |
+| 21–26 | 68 | 0 | 68 |
+| **Total** | **210** | **77** | **133** |
 
-This is a source-tree and chapter-embed finding, not a judgment that these visuals are unnecessary. These 206 gaps require image-first discovery and/or creation after the learning need and source requirements are defined. No visual is counted as integrated merely because a placeholder or bilingual brief exists.
-
-
-## 7. Chapter 05 provenance migration checkpoint — 5 November 2026
-
-- Consolidated the 16 pre-existing integrated Chapter 05 visual IDs into `IMAGE_SOURCES.md`, preserving aliases (5-A / 5.2-A and 5-C / 5.6-A); added 5.18-A as a newly integrated 17th named visual ID.
-- After 5.18-A integration, the chapter has 42 Markdown image embeds and 21 unique image URLs (10 local SVGs and 11 external source-image URLs).
-- The migration does **not** promote the 17 named integrated assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components. The former UCAR-hosted IPCC Figure 7.2 has been removed and replaced by the NASA / My NASA Data diagram with rights PASS.
-- Chapter Markdown parity remains a source-level check only: 42 image embeds, 21 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
-- Chapter 05 source-register coverage is now documented; overall Geography image coverage is still not calculable because the 231-versus-283 inventory discrepancy and two unnamed Chapter 05 inventory slots remain unresolved.
-
-
+Chapter 07-D is a bilingual adapted SVG under CC BY 4.0 and is integrated. Chapter 07-A, 07-B, 07-C, 07-E, 07-F, 07-G, 07-H and 07-I remain open. Integrated assets remain INTEGRATED until all applicable review dimensions are supported by evidence.
 ### 7.10 Chapter 05 bilingual embed parity rechecked
 
 A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **42 Markdown image embeds: 21 in Russian and 21 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 42 alt-text fields is empty. All 42 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
