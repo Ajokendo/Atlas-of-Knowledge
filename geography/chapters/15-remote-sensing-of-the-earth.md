@@ -273,8 +273,9 @@ The same object may look different depending on the sensor, composite and acquis
 
 ## 15.9. Спектральные индексы / Spectral Indices
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-C / IMAGE PLACEHOLDER 15-C]** Схема спектральных индексов NDVI, NDWI, NDMI, NDBI и NBR с формулами и обозначением используемых полос.
-> **EN:** Diagram of NDVI, NDWI, NDMI, NDBI and NBR spectral indices, including formulas and the bands used.
+![Спектральные индексы и соответствие полос сенсоров / Spectral indices and sensor-band mapping](../assets/diagrams/15-C-spectral-indices-bilingual.svg)
+
+*Формулы приведены для Landsat 8–9 и Sentinel-2; NDWI здесь означает индекс Макфитерса Green–NIR. / Formulas are shown for Landsat 8–9 and Sentinel-2; NDWI here means the McFeeters Green–NIR index.*
 
 Спектральные индексы — математические комбинации каналов, предназначенные для усиления определённых различий в данных. Они помогают предварительно оценивать состояние растительности, водных объектов, застроенных территорий и другие характеристики.
 
