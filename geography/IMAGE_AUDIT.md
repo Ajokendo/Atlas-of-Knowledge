@@ -1100,3 +1100,30 @@ The diagram is a conceptual system, not an assessment of a named tourism destina
 | **Total** | **97** | **45** | **52** |
 
 This 45/97 table supersedes the previous 44/97 count. Chapter 11's seven planned visuals are all now integrated, but scientific, rights, accessibility and browser verification remain outstanding.
+
+
+### Chapter 19-F — seasonal atmospheric circulation
+
+| Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|
+| INTEGRATED | PASS as a simplified regional model grounded in peer-reviewed Central Asian circulation studies; it does not claim a single uniform seasonal pattern for all Kyrgyzstan | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Contrasts cold-season westerlies/mid-latitude disturbances with warm-season continental heating, anticyclonic conditions and northerly intrusions; caveat states that flow varies by month, elevation and locality. |
+
+The asset and chapter embed passed static SVG checks. This is not a daily forecast or a georeferenced circulation map.
+
+### Current scoped visual coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **46** | **51** |
+
+This 46/97 table supersedes the previous 45/97 count.
