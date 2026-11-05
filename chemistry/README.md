@@ -199,3 +199,15 @@ The 100% result applies only to the defined internal technical audit. It must no
 - [ ] Independent scientific/editorial sign-off, manual responsive/zoom review, and physical-device / assistive-technology testing remain external gates.
 
 **Checkpoint metrics (static SVG inventory only):** 11 visual topics / 22 files; 11 of 11 static topics integrated (100% provisional static coverage); 0 of 11 VERIFIED (0% image verification); 0 confirmed missing static assets; 1 chapter-level visual-need decision remains pending. Category C: 11 project SVG pairs; categories A/B: 0 evidenced assets. All 11 licence checks remain PENDING. The provisional static coverage figure does not mean the atlas is publication-ready or that every possible chapter visual need has been approved.
+
+
+### Chemistry continuation checkpoint — 2026-11-05
+
+- [x] Reconciled the automated provenance assertions with the current file-level Category C mapping for the 12 bilingual static SVG families. The checks now require documented provenance mapping while keeping rightsholder, licensing authority and licence evidence explicitly PENDING; Category C is not treated as automatic rights clearance.
+- [x] Full branch-head CI run [42034196615](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42034196615) passed on commit `03497d8ed64dd5e9891639c8c9808979a823afcf`.
+- [x] Static validation passed; Chromium smoke checks loaded all 21 Chemistry pages at 390 CSS px, completed 42 axe-core scans (RU + EN), checked 21 language toggles and key interactive workflows, and reported no uncaught page errors.
+- [x] Current visual inventory: 12 bilingual static families / 24 SVG files and 7 interactive visual systems. Coverage/integration is recorded separately from verification; no static family or interactive system is labelled `VERIFIED` while applicable rights and review gates remain open.
+- [ ] Continue the targeted bilingual and scientific source review, starting with the carbon-isotope SVG pair. The English figure has been updated with natural-abundance values and the weighted-mean expression; complete manual semantic/rendered pair review remains open.
+- [ ] Rights/licence records remain PENDING. Internal second-person scientific review and manual visual/accessibility review are not yet recorded as complete. External specialist review is optional and is not a project blocker.
+
+This checkpoint records automated CI evidence only. It is not legal clearance, independent scientific certification, physical-device testing, or final publication approval.
