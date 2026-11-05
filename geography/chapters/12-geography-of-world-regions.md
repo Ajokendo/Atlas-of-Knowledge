@@ -656,6 +656,8 @@ Regional comparisons benefit from combining thematic maps, time series, charts a
 
 ## 12.15. Ключевые понятия / Key Terms
 
+Ниже приведены ключевые термины главы и их английские эквиваленты. / The glossary below pairs the chapter's key terms with their English equivalents.
+
 Регион — Region; регионализация — Regionalisation; макрорегион — Macro-region; субрегион — Subregion; физико-географический регион — Physical-geographical region; функциональный регион — Functional region; трансграничный регион — Transboundary region; региональная интеграция — Regional integration; межрегиональные связи — Interregional connections; статистическая классификация — Statistical classification; глобальная взаимозависимость — Global interdependence; региональное неравенство — Regional inequality.
 
 ## 12.16. Контрольные вопросы и практические задания / Review Questions and Practical Activities
