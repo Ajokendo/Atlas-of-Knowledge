@@ -91,12 +91,12 @@ The register's headline currently states **231 unique visual IDs**. However, the
 
 | Chapter range | Required visual IDs | Integrated | Missing |
 |---|---:|---:|---:|
-| 06–17 | 111 | 57 | 54 |
+| 06–17 | 111 | 58 | 53 |
 | 18 | 10 | 5 | 5 |
 | 19 | 10 | 6 | 4 |
 | 20 | 11 | 8 | 3 |
 | 21–26 | 68 | 0 | 68 |
-| **Total** | **210** | **76** | **134** |
+| **Total** | **210** | **77** | **133** |
 
 This is a confirmed integration inventory, not a scientific, rights, language, accessibility or rendered-technical approval. Integrated assets remain INTEGRATED only; all applicable review dimensions are assessed separately.
 
@@ -475,3 +475,18 @@ Blue Green Atlas's Kyrgyzstan relief map (CC BY 4.0) has been embedded as a supp
 ### Chapter 12 — supplementary North America relief image
 
 NASA/JPL Photojournal PIA03377 has been added as a supplementary shaded-relief image. SRTM source data were acquired in February 2000, reduced to 30 arcseconds (~1 km), and resampled to Mercator. It is not a named drainage map; therefore it does not close planned visual 12-F or change planned-ID coverage.
+
+
+## Ninth-tranche update — Chapter 07 visual 07-D — 5 November 2026
+
+Visual 07-D, Shelford's ecological tolerance curve, is now integrated as a bilingual SVG adaptation. The source was located on Wikimedia Commons and its individual file page confirms CC BY 4.0, author credit and the originating DOI. The diagram was redrawn and translated; no numeric data were copied. It distinguishes the lower/upper tolerance limits, intolerance zones, pessimum/physiological-stress zones and central optimum. The curve is explicitly conceptual and has no numerical scale.
+
+- **Source file:** https://commons.wikimedia.org/wiki/File:Shelford%27s_Law_of_Tolerance.png
+- **File author credit:** Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos and Călin Baciu.
+- **Originating article:** Olenici et al. (2025), “Effects of Water Pollution on Diatom Communities of Roșia Montană Mining Area, Romania,” Sustainability 17(10), 4592. https://doi.org/10.3390/su17104592
+- **Licence:** CC BY 4.0. Changes: redrawn as a bilingual SVG, translated and simplified for school-level teaching; no endorsement implied.
+- **Asset:** geography/assets/diagrams/07-D-shelford-tolerance-curve-bilingual.svg
+- **Chapter embed:** geography/chapters/07-biosphere-and-natural-biomes.md, section 7.3.
+- **Review:** scientific concept PASS; rights PASS; RU/EN PASS; accessibility PENDING; live browser/mobile rendering PENDING. Therefore lifecycle is INTEGRATED, not VERIFIED.
+
+Chapter 07 visual coverage is now 1/9; 07-A, 07-B, 07-C, 07-E, 07-F, 07-G, 07-H and 07-I remain open. Atlas-wide named-ID Image Coverage is 147/281; Image Verification remains 0/147 fully VERIFIED; Image Gaps are 134 named IDs plus two unresolved historical Chapter 05 positions.
