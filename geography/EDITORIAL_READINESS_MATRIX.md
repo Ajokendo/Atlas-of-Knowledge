@@ -16,8 +16,8 @@
 | Chapter inventory | 26/26 numbered chapters present | None for chapter count |
 | Structural audit | 26/26 received an initial structural pass; Chapter 19 subsection-order defect found and corrected on 2 Nov | Final copyedit and depth review |
 | Russian/English structure | 26/26 contain substantial Russian and English teaching material; some chapters use parallel blocks, others section-by-section pairs | Full line-by-line translation parity and proofreading |
-| Visual planning | 231/231 unique IDs indexed | Create, label, source-check and approve each asset |
-| Visual brief language | 231/231 IDs have Russian and English production instructions | Final design and typesetting |
+| Visual planning | Unreconciled: legacy headline 231; chapter inventory rows sum to 283; unique IDs and duplicate aliases not yet reconciled | Reconcile chapter files, in-text markers, production briefs and assets before calculating repository-wide coverage |
+| Visual brief language | Bilingual briefs are present across the indexed chapters, but full unique-ID coverage cannot be certified until the 231/283 inventory discrepancy is resolved | Reconcile all IDs and verify RU/EN briefs; then complete design and typesetting |
 | Bibliography presence | Reference section present in all 26 chapters; Chapter 09 gap closed | Open and verify every citation against each adjacent claim |
 | Bibliography placeholder scan | No explicit TODO/TBD/incomplete DOI/URL instruction found in reference sections | Link availability and source relevance still require review |
 | Numbering integrity | No duplicate numbered section identifiers across 26 chapters | Chapter 17 uses the numbered subsection 17.14.1; no duplicate section identifiers found in the current heading scan |
