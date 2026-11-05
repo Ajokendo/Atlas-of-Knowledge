@@ -898,6 +898,9 @@ Consider a fictional settlement beside a river. For this learning example, the e
 11. Richardson, K. et al. **Earth beyond six of nine planetary boundaries.** *Science Advances*, 9(37), eadh2458 (2023). https://doi.org/10.1126/sciadv.adh2458
 12. Sakschewski, B. et al. **Planetary Health Check 2025: A Scientific Assessment of the State of the Planet.** Potsdam Institute for Climate Impact Research / Planetary Boundaries Science (2025). The assessment reports that seven of nine planetary boundaries have been breached. https://doi.org/10.48485/PIK.2025.017
 13. Caesar, L. et al. **Planetary Health Check 2026: A Scientific Assessment of the State of the Planet.** Potsdam Institute for Climate Impact Research (published 21 September 2026; 120 pp.). The publisher's record confirms that seven of nine planetary boundaries were breached, with all seven showing increasing pressure. Gold Open Access; CC BY 4.0 unless otherwise credited. https://doi.org/10.48485/pik.2026.25
+14. IPBES. **Conceptual Framework.** Six interlinked elements connecting nature, nature's contributions to people, anthropogenic assets, institutions/indirect drivers, direct drivers and quality of life. https://www.ipbes.net/conceptual-framework
+15. IPCC. (2022). **Climate Change 2022: Impacts, Adaptation and Vulnerability.** Working Group II contribution to the Sixth Assessment Report; observed and projected impacts across ecosystems and human systems. https://www.ipcc.ch/report/ar6/wg2/
+16. OECD. **Effective Results Frameworks for Sustainable Development**, section 8.4: Selecting adequate indicators to measure climate adaptation and resilience. Notes the context-dependent nature of adaptation metrics and the absence of one universally agreed final indicator set. https://www.oecd.org/en/publications/effective-results-frameworks-for-sustainable-development_aaa4bb52-en/full-report/component-13.html
 
 ---
 **Конец главы 13 / End of Chapter 13**
