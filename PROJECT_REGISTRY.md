@@ -108,9 +108,9 @@
 - Новая дисциплина автоматически наследует актуальные версии обоих документов; до отчёта о готовности визуалов она обязана создать собственные реестр и аудит.
 - Изменения универсальной политики и руководства проводятся через центральный интеграционный процесс. Самостоятельно создавать или обновлять их копии в рабочих ветках запрещено.
 
-**Нормативный документ:** [IMAGE_FIRST_POLICY.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md) — IMAGE-FIRST POLICY v1.1.  
-**Стандарт авторских визуалов:** [AUTHOR_CREATED_VISUALS_STANDARD.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/AUTHOR_CREATED_VISUALS_STANDARD.md) — AUTHOR-CREATED VISUALS STANDARD v1.0.  
-**Практическое руководство:** [VISUAL_IMPLEMENTATION_GUIDE.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/VISUAL_IMPLEMENTATION_GUIDE.md) — VISUAL IMPLEMENTATION GUIDE v1.0.  
+**Нормативный документ:** [IMAGE_FIRST_POLICY.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md) — IMAGE-FIRST POLICY v1.2.  
+**Стандарт авторских визуалов:** [AUTHOR_CREATED_VISUALS_STANDARD.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/AUTHOR_CREATED_VISUALS_STANDARD.md) — AUTHOR-CREATED VISUALS STANDARD v1.1.  
+**Практическое руководство:** [VISUAL_IMPLEMENTATION_GUIDE.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/VISUAL_IMPLEMENTATION_GUIDE.md) — VISUAL IMPLEMENTATION GUIDE v1.1.  
 
 ### Уровни верификации визуалов
 - `VERIFIED` в машинно-читаемом аудите означает **INTERNALLY VERIFIED**: все применимые внутренние проверки пройдены, включая научную/фактическую проверку компетентным рецензентом, который не является автором визуала.
