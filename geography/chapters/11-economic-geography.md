@@ -253,9 +253,9 @@ Food security includes the physical and economic availability of sufficient, saf
 
 Энергетическая безопасность включает надёжность поставок, доступность цен, устойчивость инфраструктуры, диверсификацию источников и способность системы выдерживать кризисы. Энергетический переход предполагает изменение технологий, инфраструктуры, структуры потребления и институтов, а не только замену одного вида электростанций другим.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 11-F / IMAGE PLACEHOLDER 11-F]** Схема энергетической системы от первичных ресурсов и генерации до передачи, распределения и потребления; различать фактические и проектные мощности. / **EN:** Energy-system diagram from primary resources and generation to transmission, distribution and consumption; distinguish operating from planned capacity.
-**Рисунок 11.4 / Figure 11.4 — Энергетическая система / Energy system.**  
-Техническое задание: схема «ресурс — генерация — передача — распределение — потребитель», показать накопители, импорт/экспорт и потери; обозначить разные типы генерации отдельными условными знаками.
+![Энергетическая система и пример Кыргызстана за 2025 год / Energy system and Kyrgyzstan example for 2025](../assets/diagrams/11-F-energy-system-bilingual.svg)
+
+*Схема отделяет генерацию, передачу, распределение и снабжение. Показатели 2025 года округлены и не являются полным энергетическим балансом. / The diagram separates generation, transmission, distribution and supply. 2025 indicators are rounded and do not constitute a full energy balance.*
 
 
 Energy geography studies the location of energy sources, production, conversion, transmission and consumption. Energy systems include fuel extraction, power plants, networks, storage, markets and end users.
