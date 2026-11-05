@@ -1145,7 +1145,7 @@ const requiredBilingualLabels = {
   "zoology-vertebrates.svg": ["translate(0,-20)", "Feathers and beak", "Hair or fur · young fed with milk"]
 };
 const vertebratePlate = fs.readFileSync(path.join(generatedDir, "zoology-vertebrates.svg"), "utf8");
-if ((vertebratePlate.match(/transform="translate\\(0,-20\\)"/g) || []).length !== 2) {
+if ((vertebratePlate.match(/transform="translate\(0,-20\)"/g) || []).length !== 2) {
   errors.push("zoology-vertebrates.svg: bird and mammal illustrations must remain lifted clear of caption baselines");
 }
 
