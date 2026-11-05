@@ -376,6 +376,30 @@ The Chatkal forms in the Western Tien Shan and is connected downstream with the 
 
 Термины «половодье» и «паводок» не взаимозаменяемы. Половодье — относительно регулярная сезонная фаза повышения водности; паводок — кратковременный подъём уровня и расхода воды, часто вызванный дождём или интенсивным таянием.
 
+
+### English translation — 20.5 (introduction and 20.5.1)
+
+Mountain rivers receive water from several sources:
+- **snowmelt:** melting of seasonal snow cover;
+- **glacier melt:** melting of multi-year ice;
+- **rainfall:** direct input of precipitation; and
+- **groundwater:** discharge from groundwater and fractured-rock systems.
+
+Most large mountain catchments have mixed sources of flow. The contribution of each source changes with elevation, season and catchment characteristics.
+
+Many rivers experience higher discharge during the warm part of the year, when snow melts and glacier ablation increases. However, the timing and magnitude of high flow differ. In catchments dominated by low- and middle-elevation snowmelt, peak discharge may occur earlier than in high-mountain glacier-fed systems.
+
+#### 20.5.1 Main hydrological phases
+
+| Phase | Characteristics | Main processes |
+|---|---|---|
+| Winter low flow | Minimum discharge in many rivers | Water is stored as snow; groundwater provides part of the flow |
+| Spring rise | Increasing discharge | Snowmelt at low and middle elevations, spring rainfall |
+| Summer high water or flood period | Often high discharge in mountain rivers | Melt of high-mountain snow and glaciers, intense rainfall |
+| Autumn recession | Gradual decrease in discharge | Cooling, reduced melt and, in some areas, lower precipitation |
+
+The terms **seasonal high water** and **flood event** are not interchangeable. Seasonal high water is a relatively regular phase of increased flow; a flood event is a short-term rise in water level and discharge, often caused by rainfall or rapid melting.
+
 ### 20.5.2. Как читать сезонный гидрограф горной реки / Reading the Seasonal Hydrograph of a Mountain River
 
 Гидрограф — график изменения расхода воды в реке во времени. Для горных рек Кыргызстана он помогает понять, когда формируется основной сток, насколько важны снеговое и ледниковое питание и в какой сезон могут возникать периоды повышенной водности или дефицита воды.
