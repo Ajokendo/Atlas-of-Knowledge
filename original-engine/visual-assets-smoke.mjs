@@ -61,7 +61,7 @@ for (const mobile of [false, true]) {
       if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal overflow');
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
       const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-      if (serious.length) throw new Error(`axe serious/critical: ${serious.map(v => v.id).join(', ')}`);
+      if (serious.length) throw new Error(`axe serious/critical: ${serious.map(v => `${v.id} [${v.nodes.map(n => `${n.target.join(' ')}: ${n.failureSummary || n.any?.[0]?.message || ''}`).join(' ; ')}]`).join(' | ')}`);
       if (errors.length) throw new Error(errors.join(' | '));
       console.log(`PASS ${item.title} visuals ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${states.length} SVG(s) loaded, bilingual captions, meaningful alt text, no overflow, axe serious/critical 0`);
     } catch (error) {
