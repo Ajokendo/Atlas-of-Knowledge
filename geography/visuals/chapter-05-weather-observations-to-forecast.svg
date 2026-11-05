@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
 <title id="title">From weather observations to forecast / От наблюдений к прогнозу погоды</title>
-<desc id="desc">Bilingual educational flow diagram showing observing systems, quality control, data assimilation, numerical prediction, forecaster interpretation, forecast products and verification.</desc>
+<desc id="desc">Двуязычная учебная блок-схема показывает системы наблюдений, контроль качества, усвоение данных, численное прогнозирование, интерпретацию прогнозистом, выпуск прогнозов и проверку качества. / Bilingual educational flow diagram showing observing systems, quality control, data assimilation, numerical prediction, forecaster interpretation, forecast products and verification.</desc>
 <defs>
  <style>
  .bg{fill:#f7fafc}.panel{fill:#fff;stroke:#31536b;stroke-width:2.5}.head{fill:#173e59}.headtxt{font:700 25px Arial,sans-serif;fill:#fff}.h1{font:700 31px Arial,sans-serif;fill:#173e59}.sub{font:20px Arial,sans-serif;fill:#29485d}.txt{font:19px Arial,sans-serif;fill:#18384d}.small{font:16px Arial,sans-serif;fill:#38566a}.step{fill:#eaf3f8;stroke:#39718f;stroke-width:2}.gold{fill:#fff4d9;stroke:#a8751b;stroke-width:2}.green{fill:#e8f4ec;stroke:#4b8260;stroke-width:2}.purple{fill:#f0ecf8;stroke:#76619b;stroke-width:2}.arrow{stroke:#31536b;stroke-width:4;fill:none;marker-end:url(#arr)}.dash{stroke-dasharray:8 7}
