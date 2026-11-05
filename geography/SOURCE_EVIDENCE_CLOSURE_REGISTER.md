@@ -1011,3 +1011,8 @@ The two new visuals are original conceptual/data graphics. They do not close the
 - Existing UNECE material on the Chu–Talas basin, CAWater-Info's Chu–Talas Water Commission yearbook and AF NWRMP Naryn–Syr Darya basin documentation were used to distinguish two different governance settings.
 - The visual is a conceptual side-by-side schematic, not a basin map, treaty diagram or quantitative water-allocation chart. It does not invent seasonal release volumes, national shares or legal obligations.
 - The chapter embed and source-level SVG structure were checked. Rights, live rendering and accessibility review remain open.
+
+
+### Bilingual structural recheck — Chapters 11–20 — 5 November 2026
+
+After adding a brief bilingual introduction to the key-term glossaries in Chapters 12, 13, 14, 16 and 17, all numbered sections in Chapters 11–20 pass the structural language-presence heuristic. Counts: Ch11 20/20; Ch12 16/16; Ch13 18/18; Ch14 20/20; Ch15 18/18; Ch16 21/21; Ch17 18/18; Ch18 19/19; Ch19 19/19; Ch20 19/19. No numbered section was flagged by this pass. This remains a heuristic check only; sentence-level semantic equivalence, terminology consistency and final bilingual proofreading are not certified.
