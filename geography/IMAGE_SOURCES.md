@@ -851,3 +851,15 @@ Six Category C original vector diagrams were produced after image-first review. 
 | 10-G — `geography/assets/diagrams/10-G-political-map-reading-checklist-bilingual.svg` | Editorial checklist derived from the chapter's map-literacy requirements: date, source, territorial status, projection, scale, place names and legend. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
 
 All six SVGs contain bilingual text and `<title>` / `<desc>`. Rights remain PENDING until the project-level creator/rightsholder and redistribution-licence policy is formally applied. Rendered browser/mobile, contrast, keyboard and screen-reader QA remain PENDING.
+
+
+### Chapter 11 — visual reconciliation and evidence update — 5 November 2026
+
+The seven Chapter 11 visual IDs (11-A–11-G) are all present as bilingual SVG assets and embedded in the chapter source. The earlier detailed audit rows for 11-D–11-G were stale and have now been reconciled against the actual files. This is a documentation correction, not a new integration and does not change the atlas-wide coverage denominator or numerator.
+
+- **11-D:** UNSD defines global value chains as production processes fragmented across national economies, with intermediate goods and services crossing borders; the diagram is a conceptual multi-stage flow, not a real supply-chain map. Source: https://unstats.un.org/unsd/business-stat/GVC/ ; https://doi.org/10.18356/8ad97673-en
+- **11-E:** Conceptual landscape profile only; no crop suitability, land capability or real territorial data is claimed. The SVG labels climate, soils, relief, water, labour, markets and transport as interacting factors, not a universal weighted formula.
+- **11-F:** Existing Chapter 11 source notes cite the Kyrgyz National Investment Agency sector guide, Ministry of Energy 2025 results and CAWater-Info Yearbook 2025. The figure labels rounded values and warns that it is not a full energy balance.
+- **11-G:** UN Tourism's sustainable-destination monitoring framework includes local satisfaction, destination economic benefits, employment, seasonality, energy, water, wastewater, solid waste and governance; the SVG's destination components and feedback model are conceptual, not a prescribed universal formula. Source: https://insto.unwto.org/wp-content/uploads/2022/07/INSTO_Framework-Operation-and-Management-Rules.pdf ; https://tourism-villages.unwto.org/wp-content/uploads/2025/02/Guidelines-for-Applications_2025_EN.pdf
+
+All four SVGs contain bilingual labels plus SVG title/description metadata and have no script, foreignObject or embedded external image. Source-level structural review is PASS; live browser/mobile rendering, keyboard/screen-reader accessibility and formal project creator/licence assignment remain PENDING. Therefore none is promoted to VERIFIED.
