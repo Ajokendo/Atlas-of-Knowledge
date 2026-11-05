@@ -29,7 +29,7 @@ for (const mobile of [false, true]) {
   page.on('pageerror', error => errors.push(error.message));
   for (const item of pages) {
     try {
-      const response = await page.goto(base + item.path, { waitUntil: 'networkidle', timeout: 25000 });
+      const response = await page.goto(base + item.path, { waitUntil: 'domcontentloaded', timeout: 25000 });
       if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
       const images = page.locator('figure.visual-figure img');
       if (await images.count() !== item.count) throw new Error(`expected ${item.count} visual images, got ${await images.count()}`);
