@@ -15,10 +15,10 @@ The Physics branch is a derivative Russian-language edition of Nathan Liow's pre
 | Inherited visuals mapped to English source | PENDING | Requires source-to-derivative comparison |
 | Inherited visuals reused unchanged (A) | PENDING | Count only after visual identity and unchanged status are verified |
 | Inherited visuals adapted (B) | PENDING | Count only after the visual-content changes and adaptation rights are checked |
-| Genuinely new project-created visuals (C) | PENDING | Do not infer from SVG/canvas/Three.js implementation alone |
+| Genuinely new project-created visuals (C) | 4 integrated | Four new hand-authored SVG teaching diagrams; asset-level review and project licence assignment remain pending |
 | Rights / reproduction permission verified | PENDING | Requires evidence for the exact source work and applicable components |
 | Russian-edition localisation verified | PENDING | Requires per-visual Russian labels, captions, alt text, descriptions and rendering checks |
-| Known visual placeholders | 4 | One planned infographic in Chapter 14 and three visual briefs in Chapter 15 |
+| Known visual placeholders | 0 | The four previously specified gaps now have SVG assets integrated; other unrecorded gaps may still emerge during the full inventory |
 
 **Important:** the three existing Chapter 04 entries are retained as discovery records, not certified Category C assets. Their relationship to the English source, actual creator/rightsholder, and rights basis must be checked before assigning a final A/B/C category or reporting readiness. A repository licence must not be treated as proof that third-party inherited material may be reproduced or adapted.
 
@@ -103,6 +103,127 @@ Copy this block for each integrated asset:
 - Mobile check: [Passed / Pending]
 ```
 
+
+## New project-created vector assets — 2026-11-05
+
+The four known placeholders have been replaced with original, hand-authored SVG schematics. The SVG markup was produced with AI assistance from the chapter-specific physics briefs; no OpenStax figure or raster artwork was copied. OpenStax pages were searched and consulted as scientific references only. OpenStax textbook content is generally CC BY-NC-SA 4.0; that licence is not being applied to these original diagrams because no OpenStax artwork or expressive text was adapted. A project licence for the new SVG assets has not yet been assigned, so their rights status remains PENDING and none is marked VERIFIED.
+
+### PHY-14-001 — Four magnetic-field configurations
+
+- Visual ID: PHY-14-001
+- Chapter: 14 — Magnetism
+- Source relationship: New independent project-created diagram
+- Category: C
+- Learning objective: Compare field geometry and idealised field-strength relations for a long straight wire, a circular current loop, a long solenoid, and an ideal toroid.
+- File: assets/visuals/phy-14-magnetism-four-configurations.svg
+- Search record: 2026-11-05; searched OpenStax College Physics 2e §22.9 and University Physics Volume 2 §§12.5–12.6 for straight-wire, loop, solenoid, and toroid field geometry, right-hand-rule directions, and equations. Candidate textbook figures were not reused; the SVG was drawn independently from the stated learning requirements.
+- Source page / scientific references: https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law ; https://openstax.org/books/university-physics-volume-2/pages/12-6-solenoids-and-toroids
+- Direct asset URL: Not applicable — original local SVG.
+- Creator / rightsholder: OpenAI ChatGPT (AI-assisted SVG authoring); project maintainer/editor: Atlas of Knowledge project. Formal asset-rights assignment: Unknown / PENDING.
+- Method: Hand-authored vector SVG markup with labels, formulas, and arrow geometry.
+- Licence / permission: Unknown / PENDING — project owner must assign the licence applicable to new assets.
+- Licence evidence: Not applicable to external artwork; no third-party image is embedded.
+- Checked/accessed date: 2026-11-05.
+- Changes: Original diagram; no source image adapted.
+- Attribution: Original AI-assisted vector diagram created for Atlas of Knowledge, 2026. Scientific relations cross-checked against OpenStax references listed in this record; no OpenStax figure reused.
+- RU caption: Четыре конфигурации магнитного поля: прямой проводник, круговой виток, соленоид и тороид.
+- EN caption: Four magnetic-field configurations: straight wire, circular loop, solenoid, and toroid.
+- Alt RU: Четыре схемы магнитного поля с направлениями тока и магнитной индукции, формулами и условиями идеализации.
+- Alt EN: Four magnetic-field schematics showing current and magnetic-field directions, equations, and idealisation limits.
+- Limitations: Long straight wire; field at the centre of a single circular loop; long-solenoid approximation; ideal toroid approximation. Not to scale.
+- Scientific review: PENDING — internal vector/equation consistency checked; independent subject-matter review not recorded.
+- Rights review: PENDING — project licence assignment required.
+- Language/accessibility review: PENDING — bilingual labels, captions and alt text present; final visual comprehension review outstanding.
+- Integration: chapters/magnetism.html, section “Визуальные материалы главы”.
+- Mobile check: PENDING — awaiting CI after integration.
+
+### PHY-15-001 — Lenz's law: approaching and receding magnet
+
+- Visual ID: PHY-15-001
+- Chapter: 15 — Electromagnetic Induction
+- Source relationship: New independent project-created diagram
+- Category: C
+- Learning objective: Distinguish the induced field that opposes increasing flux from the induced field that sustains decreasing flux.
+- File: assets/visuals/phy-15-01-lenz-law.svg
+- Search record: 2026-11-05; searched OpenStax University Physics Volume 2 §13.2 and College Physics §23.2 for the approaching/receding north-pole case and induced-current direction. No textbook figure was reused; the two-panel vector schematic was drawn independently.
+- Source page / scientific references: https://openstax.org/books/university-physics-volume-2/pages/13-2-lenzs-law ; https://openstax.org/books/college-physics/pages/23-2-faradays-law-of-induction-lenzs-law
+- Direct asset URL: Not applicable — original local SVG.
+- Creator / rightsholder: OpenAI ChatGPT (AI-assisted SVG authoring); project maintainer/editor: Atlas of Knowledge project. Formal asset-rights assignment: Unknown / PENDING.
+- Method: Hand-authored vector SVG; paired approach/withdrawal states.
+- Licence / permission: Unknown / PENDING — project owner must assign the licence applicable to new assets.
+- Licence evidence: No third-party artwork embedded.
+- Checked/accessed date: 2026-11-05.
+- Changes: Original diagram; no source image adapted.
+- Attribution: Original AI-assisted vector diagram created for Atlas of Knowledge, 2026; scientific cross-check references are listed in the Physics image register.
+- RU caption: Закон Ленца: магнит приближается к катушке и удаляется от неё.
+- EN caption: Lenz's law: a magnet approaches and recedes from a coil.
+- Alt RU: Два состояния катушки с северным полюсом магнита: при приближении поле катушки направлено против роста потока, при удалении — в сторону исходного поля.
+- Alt EN: Two coil states with a north pole facing the coil: the induced field opposes increasing flux during approach and supports the original field during recession.
+- Limitations: Assumes the north pole faces the coil and the coil axis is aligned with the magnet; current direction is viewed from the magnet side.
+- Scientific review: PENDING — internal polarity and flux-change directions checked; independent subject-matter review not recorded.
+- Rights review: PENDING — project licence assignment required.
+- Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
+- Integration: chapters/induction.html, visual item 15.1.
+- Mobile check: PENDING — awaiting CI after integration.
+
+### PHY-15-002 — Motional EMF in a moving rod
+
+- Visual ID: PHY-15-002
+- Chapter: 15 — Electromagnetic Induction
+- Source relationship: New independent project-created diagram
+- Category: C
+- Learning objective: Relate mutually perpendicular velocity, magnetic field, rod orientation, charge separation, motional EMF, and the distinction between closed and open circuits.
+- File: assets/visuals/phy-15-02-motional-emf-rod.svg
+- Search record: 2026-11-05; searched OpenStax College Physics §23.3 and University Physics Volume 2 §13.3 for the moving-rod-on-rails arrangement, polarity, induced current, and magnetic braking force. No source figure was reused; the two circuit states were drawn independently.
+- Source page / scientific references: https://openstax.org/books/college-physics/pages/23-3-motional-emf ; https://openstax.org/books/university-physics-volume-2/pages/13-3-motional-emf
+- Direct asset URL: Not applicable — original local SVG.
+- Creator / rightsholder: OpenAI ChatGPT (AI-assisted SVG authoring); project maintainer/editor: Atlas of Knowledge project. Formal asset-rights assignment: Unknown / PENDING.
+- Method: Hand-authored vector SVG with explicit right-hand-rule geometry.
+- Licence / permission: Unknown / PENDING — project owner must assign the licence applicable to new assets.
+- Licence evidence: No third-party artwork embedded.
+- Checked/accessed date: 2026-11-05.
+- Changes: Original diagram; no source image adapted.
+- Attribution: Original AI-assisted vector diagram created for Atlas of Knowledge, 2026; scientific cross-check references are listed in the Physics image register.
+- RU caption: ЭДС движения: замкнутая и разомкнутая цепи со стержнем на рельсах.
+- EN caption: Motional EMF: closed and open circuits with a sliding rod on rails.
+- Alt RU: Стержень движется вправо в поле, направленном в плоскость рисунка; положительные заряды смещаются вверх. Показаны ток в замкнутой цепи, тормозящая сила и отсутствие тока в разомкнутой цепи.
+- Alt EN: A rod moves right in a field directed into the page; positive charges move upward. The closed circuit shows current and magnetic braking, while the open circuit shows charge separation without current.
+- Limitations: Assumes uniform B into the page and mutually perpendicular B, v, and rod; the ideal magnitude is |ε| = BLv.
+- Scientific review: PENDING — internal cross-product, current-loop, and force directions checked; independent subject-matter review not recorded.
+- Rights review: PENDING — project licence assignment required.
+- Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
+- Integration: chapters/induction.html, visual item 15.2.
+- Mobile check: PENDING — awaiting CI after integration.
+
+### PHY-15-003 — Self-induction, RL transient, and LC oscillations
+
+- Visual ID: PHY-15-003
+- Chapter: 15 — Electromagnetic Induction
+- Source relationship: New independent project-created diagram
+- Category: C
+- Learning objective: Separate the self-induction law, exponential current rise/decay in an RL circuit, and ideal energy exchange in an LC circuit.
+- File: assets/visuals/phy-15-03-self-induction-rl-lc.svg
+- Search record: 2026-11-05; searched OpenStax University Physics Volume 2 §§14.4–14.5 for RL time constant/current response and LC charge/current/energy relations. No source graph or figure was reused; the composite was drawn independently from the equations.
+- Source page / scientific references: https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits ; https://openstax.org/books/university-physics-volume-2/pages/14-5-oscillations-in-an-lc-circuit
+- Direct asset URL: Not applicable — original local SVG.
+- Creator / rightsholder: OpenAI ChatGPT (AI-assisted SVG authoring); project maintainer/editor: Atlas of Knowledge project. Formal asset-rights assignment: Unknown / PENDING.
+- Method: Hand-authored vector SVG with original schematic curves and formula labels.
+- Licence / permission: Unknown / PENDING — project owner must assign the licence applicable to new assets.
+- Licence evidence: No third-party artwork embedded.
+- Checked/accessed date: 2026-11-05.
+- Changes: Original diagram; no source image adapted.
+- Attribution: Original AI-assisted vector diagram created for Atlas of Knowledge, 2026; scientific cross-check references are listed in the Physics image register.
+- RU caption: Самоиндукция, переходный процесс в RL-цепи и колебания в LC-контуре.
+- EN caption: Self-induction, an RL transient, and oscillations in an LC circuit.
+- Alt RU: Показаны ЭДС самоиндукции, экспоненциальный рост и спад тока с постоянной времени L/R, а также сдвинутые по фазе заряд и ток и обмен энергией в идеальном LC-контуре.
+- Alt EN: The diagram shows self-induced EMF, exponential RL current rise and decay with time constant L/R, and phase-shifted charge/current with energy exchange in an ideal LC circuit.
+- Limitations: RL plots are schematic; LC assumes ideal components, zero resistance, constant L and C, and initial conditions q(0)=Q₀ and I(0)=0.
+- Scientific review: PENDING — internal equation/phase/energy consistency checked; independent subject-matter review not recorded.
+- Rights review: PENDING — project licence assignment required.
+- Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
+- Integration: chapters/induction.html, visual item 15.3.
+- Mobile check: PENDING — awaiting CI after integration.
+
 ## Visual requirement review
 
 Record a requirement here before starting a search. Move it to the integrated-asset section only after all checks are complete.
@@ -110,10 +231,10 @@ Record a requirement here before starting a search. Move it to the integrated-as
 | Chapter / Visual ID | Required visual | Search / review status | Reason unresolved | Next action |
 |---|---|---|---|---|
 | 04 — Work and Energy | Force direction and displacement; energy comparison; height-dependent potential energy | Three local implementations are present (inline SVG, canvas plot, Three.js scene); source lineage and item-level rights are still pending | The visuals may be suitable as local explanatory models, but the current evidence does not prove independent authorship or clear all inherited content rights | Map each implementation to upstream source; complete A/B/C classification and rights review before marking VERIFIED |
-| 14 / PHY-14-001 | Four-topic infographic: straight wire (concentric field, B = μ₀I/2πr), circular loop (axis field and centre value), solenoid (nearly uniform interior field), and toroid (field mainly inside the core); current and B directions, right-hand rule, units, and idealisation limits | **MISSING** — a descriptive placeholder is present in `chapters/magnetism.html`; no image is integrated | Image generation is currently unavailable; the placeholder is not visual coverage and no item-specific source/licence has been approved | Search for a suitable rights-cleared scientific visual first; otherwise prepare a bilingual independent diagram when authoring capacity is available |
-| 15.1 / PHY-15-001 | Magnet and coil: increasing/decreasing magnetic flux, induced current, field direction, and Lenz's law | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | Need a clear paired comparison of approach/withdrawal without implying that induced current directly opposes magnet motion | Search for a reusable scientific diagram; verify flux and current directions, then localise captions/alt text |
-| 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | The geometry and cross-product direction must be unambiguous; placeholder does not count as an integrated visual | Search for a reusable diagram or prepare a precise bilingual schematic; verify `B`, `v`, rod orientation, force and current directions |
-| 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **MISSING** — placeholder present in `chapters/induction.html`; no image integrated | Several related concepts must be represented without conflating the RL transient with LC oscillations | Search for suitable separate diagrams/plots or prepare a bilingual composite; validate curves and initial conditions |
+| 14 / PHY-14-001 | Four-topic infographic: straight wire, circular loop, solenoid, and toroid | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/magnetism.html` | Project licence and independent scientific review remain pending; responsive browser check not yet complete | Complete browser QA, asset-level rights assignment, and independent review before VERIFIED |
+| 15.1 / PHY-15-001 | Magnet and coil: increasing/decreasing magnetic flux, induced current, field direction, and Lenz's law | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Project licence and independent scientific review remain pending; responsive browser check not yet complete | Complete browser QA, asset-level rights assignment, and independent review before VERIFIED |
+| 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Project licence and independent scientific review remain pending; responsive browser check not yet complete | Complete browser QA, asset-level rights assignment, and independent review before VERIFIED |
+| 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Project licence and independent scientific review remain pending; responsive browser check not yet complete | Complete browser QA, asset-level rights assignment, and independent review before VERIFIED |
 
 ## Interactive-book page-scene index — Chapters 03, 05, 11–15
 
