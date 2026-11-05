@@ -153,8 +153,11 @@ export function buildWorld(E) {
     const at = V(phi ? X4 + RL + 0.7 : X4 + RL + 1.4, phi ? C4.y + 0.45 : C4.y - 0.75, 0);
     const dot = ball(gL, 0.045, phi ? 'Верхняя точка' : 'Нижняя точка', 'ink'); dot.position.copy(at);
     const o = { phi, at, dot, N: vec(gL, 'ink', 'm'), W: vec(gL, 'ink', 'm'), net: vec(gL, 'red', 'm') };
-    const sh = (a, dx) => () => o.N.visible ? tip(a).add(V(phi ? dx : 0, 0, 0)) : null;
-    label('vec', 'F<sub>N</sub>', sh(o.N, -0.1)); label('vec', '<i>mg</i>', sh(o.W, 0.1)); label('vec red', 'ΣF', () => tip(o.net));
+    const sh = (a, dx, dy) => () => o.N.visible ? tip(a).add(V(dx, dy, 0)) : null;
+    // Separate the three collinear force labels so they remain legible on narrow screens.
+    label('vec', 'F<sub>N</sub>', sh(o.N, -0.28, 0.16));
+    label('vec', '<i>mg</i>', sh(o.W, 0.28, 0.16));
+    label('vec red', 'ΣF', () => o.net.visible ? tip(o.net).add(V(0, -0.2, 0)) : null);
     label('board', phi ? 'верх' : 'низ', () => dot.visible ? at.clone().add(phi ? V(-0.1, 0.22, 0) : V(0.25, 0, 0)) : null);
     return o;
   });
