@@ -296,6 +296,59 @@ It is important to distinguish the short-term effect of accelerated melting from
 
 Чаткал формируется в горной системе Западного Тянь-Шаня и далее связан с бассейном Сырдарьи. Реки юго-запада Кыргызстана, включая притоки Карадарьи, имеют важное значение для орошения, водоснабжения и гидроэнергетики. Их режим зависит от сочетания снегового, ледникового, дождевого и подземного питания.
 
+
+### English translation — 20.4
+
+#### 20.4.1 River network
+
+The rivers of Kyrgyzstan have a mountain character: steep gradients, fast flow in their upper reaches, deep valleys, rapids and waterfalls. Snowmelt and glacier melt are important in the upper catchments; rainfall and groundwater become more significant in foothills and valleys.
+
+National sources give different estimates of the number of rivers and watercourses, ranging from several thousand to tens of thousands when small temporary streams are included. An atlas should state the counting criterion: watercourse length, permanence of flow and the cartographic scale used.
+
+#### 20.4.2 Main drainage directions
+
+The rivers of Kyrgyzstan belong to several major basin systems:
+1. the Syr Darya basin, mainly through the Naryn and Kara Darya;
+2. the Chu basin;
+3. the Talas basin;
+4. the Ili–Balkhash basin;
+5. the Tarim basin; and
+6. the internal, endorheic Issyk-Kul basin.
+
+Official and research sources may give different numbers of basin units because they use different levels of hierarchy and grouping methods. An atlas should show the main drainage directions and identify sub-basins separately.
+
+#### 20.4.3 The Naryn River
+
+The Naryn is one of the most important rivers in Kyrgyzstan for national hydrography and hydropower. It forms in the high-mountain areas of the Inner Tien Shan through the joining of major headwater streams, including the Big Naryn and Small Naryn. It then flows west and south-west through deep mountain valleys towards the Fergana Valley, where it joins the Kara Darya to form the Syr Darya.
+
+The Naryn is mainly snow-fed and glacier-snow-fed, with substantial seasonal variation. Its regime depends on the elevation distribution of precipitation, temperature, snow and glacier melt, and reservoir regulation.
+
+#### 20.4.4 The Kara Darya and the Syr Darya basin
+
+The Kara Darya forms in the eastern part of the Fergana region and is fed by rivers draining the Alay and Fergana mountain slopes. After the Naryn and Kara Darya join, the Syr Darya begins. It is one of the major rivers of Central Asia and has historically been a vital waterway for irrigated lands in the region.
+
+The basin's water regime is linked to transboundary water use, reservoirs, irrigation canals and return flows. A geographic description must therefore consider not only natural runoff but also human modification of the river system.
+
+#### 20.4.5 The Chu River
+
+The Chu rises in the mountain areas of northern Kyrgyzstan and flows through the Chu Valley before continuing towards Kazakhstan. Snow and glacier-snow melt are important in its upper reaches and tributaries; farther downstream, discharge is strongly affected by water abstraction and irrigation regulation.
+
+The river is important for water supply and irrigation in the Chu Valley. Water management requires coordination between Kyrgyzstan and Kazakhstan.
+
+#### 20.4.6 The Talas River
+
+The Talas forms through the joining of mountain rivers fed by the slopes of the Talas Ala-Too and adjacent ranges. It crosses the Talas Valley and then flows into Kazakhstan, where its water is gradually lost in arid areas and water-management systems.
+
+The river is important for irrigation and regional water supply. The Kirov Reservoir plays a regulating role in the basin.
+
+#### 20.4.7 Sary-Jaz and rivers of the Eastern Tien Shan
+
+The Sary-Jaz is one of the largest rivers in the eastern part of the country. Its catchment lies in a high-mountain region where snow and glacier melt are important. The river flows towards China and belongs to the Tarim system. Its regime depends on the condition of the high-mountain cryosphere and summer melt.
+
+#### 20.4.8 Chatkal and rivers of the south-west
+
+The Chatkal forms in the Western Tien Shan and is connected downstream with the Syr Darya basin. Rivers in south-western Kyrgyzstan, including tributaries of the Kara Darya, are important for irrigation, water supply and hydropower. Their regimes reflect a combination of snowmelt, glacier melt, rainfall and groundwater.
+
 ## 20.5. Питание рек и сезонный режим стока / River Regimes and Sources of Flow
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-G / IMAGE PLACEHOLDER 20-G]** Гидрограф сезонного стока горной реки с вкладом снегового, ледникового и дождевого питания; данные должны относиться к указанному створу и периоду.
@@ -522,6 +575,20 @@ These results apply to the Kyrgyz Range and the 1968–2021 study period; they m
 Подземные воды важны для питьевого водоснабжения, сельского хозяйства и поддержания базисного стока рек. Родники особенно значимы в горных поселениях, где централизованная инфраструктура ограничена.
 
 Качество подземной воды зависит от геологического строения, глубины, времени контакта с породами, природного химического состава и антропогенной нагрузки. Наличие прозрачной воды не гарантирует её микробиологическую и химическую безопасность. Для питьевого использования необходимы лабораторные анализы и санитарная защита источника.
+
+
+### English translation — 20.7
+
+Groundwater forms when precipitation, river water and lake water infiltrate rocks and unconsolidated deposits. Main types in Kyrgyzstan include:
+- alluvial aquifers in river valleys;
+- interlayer groundwater in sedimentary basins;
+- groundwater in fractures in mountain rocks;
+- karst groundwater; and
+- mineral and thermal waters.
+
+Groundwater is important for drinking-water supply, agriculture and the maintenance of river baseflow. Springs are especially important in mountain settlements where centralised infrastructure is limited.
+
+Groundwater quality depends on geological structure, depth, contact time with rocks, natural chemical composition and human pressures. Clear-looking water is not necessarily safe microbiologically or chemically. Laboratory testing and sanitary protection of the source are required before water is used for drinking.
 
 ## 20.8. Водохранилища и ирригационные системы / Reservoirs and Irrigation Systems
 
