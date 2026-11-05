@@ -101,10 +101,6 @@ async function run(mobile) {
       await book.waitForTimeout(120);
       if (mobile) {
         await book.screenshot({ path: `${dir}/mobile-book-page-${String(i + 1).padStart(2, '0')}.png`, fullPage: false, timeout: 60000, animations: 'disabled' });
-      } else if (i === 0) {
-        // Capture the desktop lesson text separately; the WebGL scene is covered by
-        // the desktop browser smoke, while full scene screenshots are captured on mobile.
-        await book.locator('#sheet').screenshot({ path: `${dir}/desktop-book-page-01.png`, timeout: 60000, animations: 'disabled' });
       }
     }
     await book.close();
