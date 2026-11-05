@@ -143,7 +143,9 @@ Other indicators include labour productivity; employment and unemployment; infla
 No single indicator describes an economy in full. GDP measures production, not the distribution of its benefits, and it is not a direct measure of environmental sustainability or subjective well-being.
 ## 11.5. Факторы размещения производства / Factors Influencing the Location of Economic Activity
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 11-B / IMAGE PLACEHOLDER 11-B]** Схема факторов размещения предприятия: сырьё, энергия, вода, труд, транспорт, рынок, агломерация, институты и экология.
+![Факторы размещения предприятия: ресурсы, энергия, вода, труд, транспорт, рынок, агломерация и институты / Firm location factors: resources, energy, water, labour, transport, markets, agglomeration and institutions](../assets/diagrams/11-B-economic-location-factors-bilingual.svg)
+
+*Оригинальная двуязычная схема; значимость факторов зависит от отрасли, технологии и конкретного места. / Original bilingual diagram; factor importance depends on industry, technology and place.*
 > **EN:** Diagram of business-location factors: raw materials, energy, water, labour, transport, markets, agglomeration, institutions and environmental constraints.
 
 Размещение предприятия зависит от сочетания затрат, доступа к рынкам и рабочей силе, инфраструктуры, регулирования, технологий и экологических ограничений.
