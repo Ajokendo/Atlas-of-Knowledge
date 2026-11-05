@@ -895,5 +895,7 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 14. National Investment Agency of the Kyrgyz Republic. **Energy Sector — Invest Compass** (data current to June 2026). Sector structure, licensing and separation of generation, transmission, distribution and retail supply. https://invest.gov.kg/en/invest-compass/sectors/energy
 15. Ministry of Energy of the Kyrgyz Republic. **2025 energy-sector results and 2026 work plan.** Published 2026; electricity generation and consumption indicators. https://minenergo.gov.kg/ru/news/936
 16. CAWater-Info. **Key Water Developments in the Countries of Central Asia, 2025: Kyrgyz Republic.** Electricity production, consumption and import indicators for 2025. https://www.cawater-info.net/yearbook/2025/05_yearbook2025_kg_en.htm
+17. UNESCO World Heritage Centre. **Guide 1: Understanding Tourism at Your Destination.** Destination supply, demand, infrastructure and community context. https://whc.unesco.org/en/sustainabletourismtoolkit/guide1/
+18. UN Tourism. **Mountain Tourism.** Definition and sustainable-development context for mountain destinations. https://www.untourism.int/mountain-tourism
 ---
 **Конец главы 11 / End of Chapter 11**
