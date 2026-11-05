@@ -435,7 +435,11 @@
 
 **Иллюстрация 2.12-A — Положительная и отрицательная обратная связь / Positive and Negative Feedback.**
 
-![Примеры усиливающей и ослабляющей обратной связи / Examples of reinforcing and balancing feedback](../assets/diagrams/02-12A-feedback-loops.svg)
+![Уравновешивающая обратная связь: испарение, водяной пар, облачность и альбедо / Balancing feedback: evaporation, water vapour, cloud cover and albedo](https://cdn.serc.carleton.edu/images/earthlabs/climate_intro/balancing_feedback_loop.webp)
+
+![Усиливающая обратная связь: испарение, водяной пар, парниковый эффект и температура / Reinforcing feedback: evaporation, water vapour, greenhouse effect and temperature](https://cdn.serc.carleton.edu/images/earthlabs/climate_intro/reinforcing_feedback_loop_744.webp)
+
+*Источник обеих схем / Source for both diagrams: Nick Haddad, TERC, SERC EarthLabs, “Climate Series Introduction”, section “Climate and Feedback Loops”. Лицензия / Licence: CC BY-NC-SA 3.0. Схемы показывают конкретные климатические примеры, а не все возможные обратные связи. / These diagrams show specific climate examples, not every possible feedback process. [Источник / Source page](https://serc.carleton.edu/earthlabs/climate_intro/science_notes.html) · [Лицензия / Licence](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 *Примеры упрощены; реальные системы включают временные задержки и несколько взаимодействующих обратных связей. / Examples are simplified; real systems include time lags and multiple interacting feedbacks.*
 
@@ -919,7 +923,11 @@ Positive and negative do not mean “bad” and “good”: the terms describe w
 
 **Illustration 2.12-A — Positive and Negative Feedback.**
 
-![Examples of reinforcing and balancing feedback / Примеры усиливающей и ослабляющей обратной связи](../assets/diagrams/02-12A-feedback-loops.svg)
+![Уравновешивающая обратная связь: испарение, водяной пар, облачность и альбедо / Balancing feedback: evaporation, water vapour, cloud cover and albedo](https://cdn.serc.carleton.edu/images/earthlabs/climate_intro/balancing_feedback_loop.webp)
+
+![Усиливающая обратная связь: испарение, водяной пар, парниковый эффект и температура / Reinforcing feedback: evaporation, water vapour, greenhouse effect and temperature](https://cdn.serc.carleton.edu/images/earthlabs/climate_intro/reinforcing_feedback_loop_744.webp)
+
+*Источник обеих схем / Source for both diagrams: Nick Haddad, TERC, SERC EarthLabs, “Climate Series Introduction”, section “Climate and Feedback Loops”. Лицензия / Licence: CC BY-NC-SA 3.0. Схемы показывают конкретные климатические примеры, а не все возможные обратные связи. / These diagrams show specific climate examples, not every possible feedback process. [Источник / Source page](https://serc.carleton.edu/earthlabs/climate_intro/science_notes.html) · [Лицензия / Licence](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 *Original bilingual schematic. Examples are simplified; real systems include time lags and multiple interacting feedbacks. / Оригинальная двуязычная схема. Примеры упрощены; реальные системы включают временные задержки и несколько взаимодействующих обратных связей.*
 
