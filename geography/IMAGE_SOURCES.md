@@ -835,3 +835,19 @@ Five conceptual Category C SVGs were created after reviewing UN demographic defi
 | 09-G — `geography/assets/diagrams/09-G-demographic-data-sources-bilingual.svg` | UN WPP 2024 documents use of censuses, vital registration systems and nationally representative sample surveys; the diagram also separates administrative and geospatial sources. https://population.un.org/wpp ; https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2024_summary_of_results_final_web.pdf | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
 
 All five SVGs contain bilingual text and `<title>` / `<desc>`. Rights remain PENDING until the project-level creator/rightsholder and redistribution-licence policy is formally applied. Rendered browser/mobile, contrast, keyboard and screen-reader QA remain PENDING.
+
+
+## Chapter 10 — Original bilingual political-geography visuals
+
+Six Category C original vector diagrams were produced after image-first review. They are conceptual teaching aids, not political boundary datasets or real election maps.
+
+| Visual ID / asset | Scientific / legal basis | Rights / lifecycle |
+|---|---|---|
+| 10-B — `geography/assets/diagrams/10-B-border-types-landscapes-bilingual.svg` | Schematic comparison of geometric, river, watershed and historical boundary concepts. No real disputed segment is depicted; legal delimitation requires authoritative treaties and coordinates. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 10-C — `geography/assets/diagrams/10-C-UNCLOS-maritime-zones-bilingual.svg` | United Nations Convention on the Law of the Sea: territorial sea up to 12 nm (Art. 3), contiguous zone up to 24 nm from baselines (Art. 33), EEZ up to 200 nm (Art. 57), continental shelf definition and possible extension (Art. 76), high seas (Art. 86) and the Area (Part XI). The diagram notes overlap of contiguous zone and EEZ and separates water-column from seabed regimes. https://www.un.org/depts/los/convention_agreements/texts/unclos/part2.htm ; https://www.un.org/depts/los/convention_agreements/texts/unclos/part5.htm ; https://www.un.org/depts/los/convention_agreements/texts/unclos/part7.htm | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 10-D — `geography/assets/diagrams/10-D-state-structures-bilingual.svg` | Conceptual comparison of unitary, federal and regionalised arrangements; captions explicitly state that powers are country- and constitution-specific. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 10-E — `geography/assets/diagrams/10-E-electoral-districts-representation-bilingual.svg` | Fictional teaching example distinguishing district area from electorate size and vote shares; no real boundaries or election results. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 10-F — `geography/assets/diagrams/10-F-international-cooperation-levels-bilingual.svg` | Conceptual comparison of bilateral, regional, universal and local cooperation; no claim that these form a single hierarchy. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 10-G — `geography/assets/diagrams/10-G-political-map-reading-checklist-bilingual.svg` | Editorial checklist derived from the chapter's map-literacy requirements: date, source, territorial status, projection, scale, place names and legend. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+
+All six SVGs contain bilingual text and `<title>` / `<desc>`. Rights remain PENDING until the project-level creator/rightsholder and redistribution-licence policy is formally applied. Rendered browser/mobile, contrast, keyboard and screen-reader QA remain PENDING.

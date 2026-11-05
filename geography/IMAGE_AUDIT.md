@@ -41,7 +41,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 07 | 9 | 7 | 2 | 07-A, 07-B, 07-F, 07-G, 07-H and 07-I are original bilingual SVGs; 07-D remains an adapted CC BY 4.0 figure. Accessibility and rendered technical QA remain pending. 07-C and 07-E remain open pending usable map geometry. |
 | 08 | 7 | 6 | 1 | 08-A, 08-C, 08-D, 08-E, 08-F and 08-G are original bilingual SVGs; 08-B remains open pending a validated global WRB map. Rights and rendered/accessibility QA remain pending. |
 | 09 | 7 | 5 | 2 | 09-B, 09-C, 09-D, 09-F and 09-G are original bilingual conceptual SVGs. 09-A (WPP 2024 time series) and 09-E (gridded population-density map) remain open pending source-data extraction and documented chart/map metadata. |
-| 10 | 7 | 0 | 7 | All seven visual needs remain placeholders. |
+| 10 | 7 | 6 | 1 | 10-B–10-G are original bilingual conceptual SVGs; 10-A remains open pending a current, source-backed world political map and documented boundary-status policy. Rights and rendered/accessibility QA remain pending. |
 | 11 | 7 | 7 | 0 | Seven local SVG assets embedded in chapter source. |
 | 12 | 10 | 3 | 7 | 12-A, 12-B and 12-D embedded; NASA North America relief is supplementary and does not close a separate planned ID. |
 | 13 | 11 | 11 | 0 | Eleven local SVG assets embedded. |
@@ -53,12 +53,12 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 0 | 68 | No planned visual IDs have confirmed image embeds in the chapter source scan. |
-| **Total named inventory** | **281** | **164** | **117** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
+| **Total named inventory** | **281** | **170** | **111** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 164/281 named IDs have an image embedded in the relevant chapter source (58.4%). This measures presence only.
-- **Image Verification:** 0/164 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 117 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 170/281 named IDs have an image embedded in the relevant chapter source (60.5%). This measures presence only.
+- **Image Verification:** 0/170 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 111 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -68,12 +68,12 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | Chapter | Visual ID | Lifecycle status | Scientific | Rights | RU/EN | Accessibility | Technical | Evidence / next action |
 |---|---|---|---|---|---|---|---|---|
 | 10 | 10-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 10 | 10-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 10 | 10-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 10 | 10-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 10 | 10-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 10 | 10-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 10 | 10-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 10 | 10-B | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual conceptual SVG compares geometric, river, watershed and historical boundary types; no real disputed border is depicted. Rights, accessibility and rendered QA pending. |
+| 10 | 10-C | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual UNCLOS cross-section; correctly distinguishes baseline distances, contiguous-zone overlap with EEZ, water-column zones and continental-shelf seabed rights. Not to scale. Rights, accessibility and rendered QA pending. |
+| 10 | 10-D | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual conceptual comparison of unitary, federal and regionalised structures; actual powers remain constitution-specific. Rights, accessibility and rendered QA pending. |
+| 10 | 10-E | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual hypothetical district/representation diagram; all boundaries and values are fictional, not election results. Rights, accessibility and rendered QA pending. |
+| 10 | 10-F | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual cooperation-level diagram; no universal hierarchy or binding force is implied. Rights, accessibility and rendered QA pending. |
+| 10 | 10-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual political-map reading checklist; supports critical source/date/status/projection/scale/legend review. Rights, accessibility and rendered QA pending. |
 | 11 | 11-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual sector-structure SVG; project licence and scientific review remain open. |
 | 11 | 11-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual location-factors SVG; project licence and scientific review remain open. |
 | 11 | 11-C | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original multimodal supply-chain schematic; explicitly not a real transport-corridor map. Project licence pending. |

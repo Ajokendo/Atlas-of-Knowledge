@@ -60,7 +60,12 @@ After studying this chapter, readers will be able to explain the scope of politi
 В учебной и картографической работе важно не смешивать фактический контроль над территорией, международно-правовой статус, признание и заявленные притязания. Эти характеристики могут не совпадать.
 
 ## 10.4. Государственные границы / International and State Borders
-> **[МЕТКА ИЛЛЮСТРАЦИИ 10-B / IMAGE PLACEHOLDER 10-B]** Схема типов государственных границ и пограничных ландшафтов; не подменять ею юридическую линию границы. / Diagram of border types and border landscapes; do not substitute it for a legally precise boundary.
+<!-- VISUAL ID 10-B — integrated bilingual SVG below -->
+
+![Схематические типы государственных границ: геометрическая, речная, по водоразделу и историческая. / Schematic types of state boundaries: geometric, river, watershed and historical.](../assets/diagrams/10-B-border-types-landscapes-bilingual.svg)
+
+*10-B. Авторская двуязычная концептуальная схема; примеры не обозначают реальные или спорные границы и не заменяют юридические документы. / Original bilingual conceptual diagram; examples do not represent real or disputed boundaries and do not replace legal documents.*
+
 
 
 
@@ -80,7 +85,12 @@ After studying this chapter, readers will be able to explain the scope of politi
 **EN production brief:** Create four schematic panels showing a geometric line, a river boundary, a watershed boundary and a historically established boundary. Use illustrative boundary markers and do not depict real disputed areas.
 
 ## 10.5. Морские пространства и политическая география океана / Maritime Zones and the Political Geography of the Ocean
-> **[МЕТКА ИЛЛЮСТРАЦИИ 10-C / IMAGE PLACEHOLDER 10-C]** Схема морских зон по UNCLOS с расстояниями и различием суверенитета и юрисдикции. / UNCLOS maritime-zones diagram showing distances and distinguishing sovereignty from jurisdiction.
+<!-- VISUAL ID 10-C — integrated bilingual SVG below -->
+
+![Схема морских зон по UNCLOS: территориальное море, прилежащая зона, ИЭЗ, континентальный шельф, открытое море и Район. / UNCLOS maritime-zones diagram: territorial sea, contiguous zone, EEZ, continental shelf, high seas and the Area.](../assets/diagrams/10-C-UNCLOS-maritime-zones-bilingual.svg)
+
+*10-C. Авторская двуязычная схема по UNCLOS; не в масштабе. Прилежащая зона (12–24 морские мили) перекрывается с ИЭЗ; континентальный шельф может выходить за 200 морских миль при условиях статьи 76. / Original bilingual diagram based on UNCLOS; not to scale. The contiguous zone (12–24 nautical miles) overlaps the EEZ; the continental shelf may extend beyond 200 nautical miles under Article 76.*
+
 
 
 
@@ -132,7 +142,12 @@ This is a unit conversion, not a method for independently drawing a legally vali
 
 **Децентрализация** — передача полномочий, ресурсов и ответственности от центрального уровня к региональным или местным органам. В рамках децентрализации часто различают **деконцентрацию**, когда центральная власть распределяет задачи между своими территориальными подразделениями без передачи самостоятельных полномочий, и **деволюцию**, при которой полномочия передаются избранным субнациональным органам в пределах, установленных конституцией или законом. Терминология и правовые последствия зависят от национальной системы. Децентрализация может улучшать адаптацию решений к местным условиям, но требует прозрачного финансирования, подотчётности и достаточной административной компетенции.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 10-D / IMAGE PLACEHOLDER 10-D]** Схема унитарного, федеративного и регионализованного государства с разграничением конституционных полномочий. / **EN:** Diagram of unitary, federal and regionalised state models, distinguishing constitutional powers.
+<!-- VISUAL ID 10-D — integrated bilingual SVG below -->
+
+![Сравнение унитарной, федеративной и регионализованной моделей территориального устройства государства. / Comparison of unitary, federal and regionalised models of territorial organisation.](../assets/diagrams/10-D-state-structures-bilingual.svg)
+
+*10-D. Авторская двуязычная концептуальная схема; реальные полномочия определяются конституцией и законами каждой страны. / Original bilingual conceptual diagram; actual powers are defined by each country's constitution and laws.*
+
 **Рисунок 10.4 / Figure 10.4 — Территориальные модели государства / Territorial models of the state.**  
 Техническое задание: сравнить унитарную и федеративную схемы распределения полномочий; использовать условные блоки уровней управления, не изображать федерацию как простое административное деление.
 **EN production brief:** Compare unitary and federal arrangements of governmental powers using schematic blocks for levels of government. Do not portray a federation as merely an administrative subdivision.
@@ -158,7 +173,12 @@ This is a unit conversion, not a method for independently drawing a legally vali
 - корреляция между характеристикой территории и голосованием не доказывает индивидуальные мотивы избирателей;
 - карты должны указывать дату, уровень выборов и метод агрегирования.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 10-E / IMAGE PLACEHOLDER 10-E]** Схема избирательных округов и принципов представительства; не использовать реальные электоральные данные без источника и даты. / **EN:** Diagram of electoral districts and representation principles; do not use real election data without a dated source.
+<!-- VISUAL ID 10-E — integrated bilingual SVG below -->
+
+![Условная схема избирательных округов и представительства с вымышленными значениями. / Hypothetical diagram of electoral districts and representation using fictional values.](../assets/diagrams/10-E-electoral-districts-representation-bilingual.svg)
+
+*10-E. Авторская двуязычная схема; геометрия округов и значения вымышлены, не являются электоральными данными. / Original bilingual diagram; district geometry and values are fictional, not electoral data.*
+
 **Рисунок 10.5 / Figure 10.5 — География избирательного представительства / Geography of electoral representation.**  
 Техническое задание: условная карта округов с различной численностью населения и отдельная диаграмма долей голосов; наглядно показать разницу между территориальной площадью округа и числом избирателей.
 **EN production brief:** Create a hypothetical map of electoral districts with different population sizes and a separate chart of vote shares. Make clear that the land area of a district is not the same as its number of voters.
@@ -194,7 +214,12 @@ This is a unit conversion, not a method for independently drawing a legally vali
 - членство, статус наблюдателя и партнёрство;
 - региональное сотрудничество и передачу части полномочий наднациональным институтам.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 10-F / IMAGE PLACEHOLDER 10-F]** Схема международного сотрудничества на глобальном, региональном, национальном и местном уровнях. / **EN:** Diagram of international cooperation at global, regional, national and local levels.
+<!-- VISUAL ID 10-F — integrated bilingual SVG below -->
+
+![Уровни международного сотрудничества: двусторонний, региональный, универсальный и местный. / Levels of international cooperation: bilateral, regional, universal and local.](../assets/diagrams/10-F-international-cooperation-levels-bilingual.svg)
+
+*10-F. Авторская двуязычная схема; масштабы сотрудничества не образуют единую иерархию полномочий. / Original bilingual diagram; cooperation scales do not form a single hierarchy of authority.*
+
 **Рисунок 10.6 / Figure 10.6 — Масштабы международного сотрудничества / Scales of international cooperation.**  
 Техническое задание: схема от двустороннего соглашения к региональной организации и универсальной международной организации; показать, что компетенции и обязательность решений различаются.
 **EN production brief:** Diagram the progression from a bilateral agreement to a regional organisation and a universal international organisation. Show that their powers and the binding force of their decisions differ.
@@ -244,7 +269,12 @@ This is a unit conversion, not a method for independently drawing a legally vali
 
 Цветовое выделение территории может создавать впечатление единого статуса, даже если её правовое положение сложнее. Карта должна содержать ясные пояснения и не скрывать неопределённость.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 10-G / IMAGE PLACEHOLDER 10-G]** Инфографика критического чтения политической карты: дата, границы, статус территории, проекция, источник и спорные обозначения. / **EN:** Critical political-map reading checklist covering date, boundaries, territorial status, projection, source and disputed representations.
+<!-- VISUAL ID 10-G — integrated bilingual SVG below -->
+
+![Контрольный список критического чтения политической карты: дата, источник, статус, проекция, масштаб и легенда. / Checklist for critical reading of a political map: date, source, status, projection, scale and legend.](../assets/diagrams/10-G-political-map-reading-checklist-bilingual.svg)
+
+*10-G. Авторская двуязычная учебная схема; контрольный список не заменяет проверку первичных правовых и картографических источников. / Original bilingual teaching diagram; the checklist does not replace primary legal and cartographic source checks.*
+
 **Рисунок 10.7 / Figure 10.7 — Как критически читать политическую карту / How to read a political map critically.**  
 Техническое задание: учебная карта с легендой и отдельной панелью проверки: дата, источник, статус границ, проекция, масштаб, названия и примечания о спорных участках.
 **EN production brief:** Create a teaching political map with a legend and a separate verification panel covering date, source, boundary status, projection, scale, place names and notes on disputed areas.

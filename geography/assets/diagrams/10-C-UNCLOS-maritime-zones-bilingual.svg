@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="t d">
+<title id="t">Морские зоны по UNCLOS / UNCLOS maritime zones</title>
+<desc id="d">Схема не в масштабе. Территориальное море до 12 морских миль, прилежащая зона до 24 миль от исходной линии, ИЭЗ до 200 миль от исходной линии. Прилежащая зона находится внутри внешнего предела ИЭЗ. Континентальный шельф относится к морскому дну и может выходить за 200 миль при условиях статьи 76. Район — морское дно за пределами континентального шельфа.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#243447}.h{font-size:34px;font-weight:bold}.s{font-size:22px}.b{font-size:24px;font-weight:bold}.n{font-size:18px}.axis{stroke:#526579;stroke-width:3;fill:none}</style>
+<rect width="1400" height="800" fill="#fbfcfe"/>
+<text x="55" y="65" class="h">Морские зоны по UNCLOS / UNCLOS maritime zones</text>
+<text x="55" y="105" class="s">Не в масштабе; расстояния измеряются от исходной линии. / Not to scale; distances are measured from the baseline.</text>
+<path d="M55 400 L350 400 L350 690 L55 690Z" fill="#d9c5a4" stroke="#526579" stroke-width="3"/>
+<path d="M350 400 L1350 400 L1350 610 L350 610Z" fill="#d8edf4" stroke="#526579" stroke-width="2"/>
+<rect x="350" y="400" width="105" height="210" fill="#8ec7df" stroke="#526579" stroke-width="2"/>
+<rect x="455" y="400" width="95" height="210" fill="#b5d8e8" stroke="#526579" stroke-width="2"/>
+<rect x="455" y="400" width="745" height="210" fill="#d8edf4" opacity=".4" stroke="#557aa8" stroke-width="4" stroke-dasharray="12 8"/>
+<rect x="1200" y="400" width="150" height="210" fill="#e8f2f6" stroke="#526579" stroke-width="2"/>
+<path d="M350 350 V700 M455 350 V700 M550 350 V700 M1200 350 V700" class="axis" stroke-dasharray="8 7"/>
+<text x="55" y="355" class="b">Внутренние воды / Internal waters</text>
+<text x="350" y="320" class="n">Исходная линия / Baseline</text>
+<text x="360" y="455" class="n">Территориальное море</text><text x="360" y="485" class="n">Territorial sea ≤12 nm</text>
+<text x="470" y="535" class="n">Прилежащая зона</text><text x="470" y="565" class="n">Contiguous zone ≤24 nm</text>
+<text x="750" y="465" class="b">ИЭЗ / EEZ</text><text x="750" y="500" class="s">До 200 nm от исходной линии / Up to 200 nm from baseline</text>
+<text x="1210" y="360" class="b">Открытое море / High seas</text>
+<path d="M350 620 Q500 620 650 645 T950 680 T1200 690 L1350 690" fill="none" stroke="#8b725c" stroke-width="18"/>
+<path d="M350 620 Q500 620 650 645 T950 680 T1200 690" fill="none" stroke="#c59a68" stroke-width="12"/>
+<text x="590" y="655" class="n">Континентальный шельф — дно и недра / Continental shelf — seabed and subsoil</text>
+<text x="1080" y="730" class="n">Район / The Area</text>
+<text x="55" y="735" class="n">Шельф обычно не заканчивается автоматически на 200 nm; внешняя граница определяется ст. 76. / Shelf does not automatically end at 200 nm; its outer limit follows Art. 76.</text>
+<text x="55" y="770" class="n">Прилежащая зона 12–24 nm перекрывается с ИЭЗ; режим водной толщи и дна различается. / Contiguous zone (12–24 nm) overlaps the EEZ; water-column and seabed regimes differ.</text>
+</svg>
