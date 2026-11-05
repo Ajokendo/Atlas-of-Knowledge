@@ -329,7 +329,9 @@
 <!-- VISUAL ID: 5.11-A -->
 ![Климатическая классификация Кёппена — Гейгера, 1991–2020 / Köppen–Geiger climate classification, 1991–2020](https://commons.wikimedia.org/wiki/Special:FilePath/WorldKoppen.png)
 
-*Карта климатических классов Кёппена — Гейгера с пространственным разрешением 1 км; период исходных климатических данных — 1991–2020. Карта показывает типы климата, а не широтные климатические пояса. Автор: Nothda; лицензия CC0 1.0. / Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Author: Nothda; licence: CC0 1.0.* [Файл и лицензия / File and licence](https://commons.wikimedia.org/wiki/File:WorldKoppen.png).
+*Карта климатических классов Кёппена — Гейгера с пространственным разрешением 1 км; период исходных климатических данных — 1991–2020. Карта показывает типы климата, а не широтные климатические пояса. Автор карты: Nothda; лицензия CC0 1.0. Исходная научная работа: Beck et al. (2023), DOI: 10.1038/s41597-023-02549-6. / Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Map author: Nothda; licence CC0 1.0. Underlying research: Beck et al. (2023), DOI: 10.1038/s41597-023-02549-6.*
+
+**Ключ к подписи и легенде / Map-title and legend key:** Köppen–Geiger climate classification map — карта климатической классификации Кёппена — Гейгера. Буквенные обозначения классов (Af, Am, Aw и др.) являются стандартными кодами классификации и не переводятся. / The letter combinations (Af, Am, Aw, etc.) are standard classification codes and remain unchanged. [Файл и лицензия / File and licence](https://commons.wikimedia.org/wiki/File:WorldKoppen.png).
 
 ## 5.12. Климатические пояса и региональные различия / Climate Belts and Regional Patterns
 
