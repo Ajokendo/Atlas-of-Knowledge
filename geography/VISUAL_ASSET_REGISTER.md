@@ -1,7 +1,7 @@
 # Geography visual asset register
-**Audit date:** 4 November 2026  
+**Audit date:** 5 November 2026  
 **Canonical branch:** `workspace/geography`  
-**Status:** 231 is the legacy headline claim; the chapter inventory rows currently sum to 283 after Chapter 09 was corrected to seven IDs. The unique-ID total is not yet reconciled. Chapter 01 has five local bilingual SVGs embedded in both language versions; Chapter 02 has nine remote images and 11 original bilingual SVGs; all 19 visual IDs have integrated imagery. Chapters 03 and 04 now have all 13 and 16 visual IDs respectively integrated in both RU and EN sections. Chapter 03 uses ten local bilingual SVGs plus three source images (USGS minerals, USGS/Smithsonian This Dynamic Planet map, ICS v2026/06 chart); Chapter 04 uses 16 local bilingual SVGs. No visual placeholders remain in Chapters 03–04. Visuals in Chapters 01–04 and 18–20 remain subject to final scientific/editorial sign-off; 2.13-A uses Figure 10 from the CC BY 4.0 open-access article.
+**Status (5 November 2026):** 231 remains the legacy headline claim; chapter inventory rows sum to 283 after Chapter 09 was corrected to seven IDs. The unique-ID total is not yet reconciled. Within Chapters 11–20, 62 of 97 planned visual IDs are now integrated and 35 remain open; this is a scoped Image Coverage count, not an overall atlas percentage. Chapters 16 is at 9/9, Chapter 18 at 5/10, Chapter 19 at 6/10, Chapter 17 at 3/9, and Chapter 20 at 8/11. The separate Image Verification count remains lower because rights, scientific sign-off, accessibility and rendered browser/device checks are still pending for many assets. Chapters 01–04 and 18–20 remain subject to final scientific/editorial sign-off; 2.13-A uses Figure 10 from the CC BY 4.0 open-access article.
 
 ## Purpose and production rule
 
@@ -284,7 +284,7 @@ Chapter 13-E, 13-F and 13-H are now integrated. Chapter 13 has 7/11 planned visu
 | 20 | 11 | 8 | 3 |
 | **Total** | **97** | **49** | **48** |
 
-Total newly authored local SVG assets in the November tranches: 41 (28 across Chapters 11–16 and 13 across Chapters 18–20). The 49/97 count is scoped to planned IDs in Chapters 11–20; it does not represent a whole-repository completion percentage.
+Historical snapshot superseded by the latest status below. At the time of this tranche, the scoped coverage was 49/97.
 
 
 ## Twelfth-tranche update — Chapter 14 — 5 November 2026
@@ -400,3 +400,25 @@ A CC BY 4.0 reproduction of Figure 1 from Poggi et al. (2024) was added as regio
 ### Chapter 20 — 20-G hydrograph source checkpoint
 
 A historical Naryn River gauge candidate was identified: UNH Water Systems Analysis Group station 16055, at 41.430° N, 76.000° E, drainage area 10,500 km², reported long-term mean 92.117 m³/s and graph coverage 1931–2006. The source page exposes graphs but raw reusable observations and item-specific licence terms are not yet confirmed. Visual 20-G remains MISSING; no values have been digitised from the displayed graph.
+
+
+## Latest scoped snapshot — Chapters 11–20 — 5 November 2026
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **62** | **35** |
+
+- **Image Coverage:** 62/97 (64%) of planned IDs integrated in Chapters 11–20.
+- **Image Verification:** report separately; integration does not imply VERIFIED. Newly authored SVGs still require formal project creator/licence assignment, independent scientific sign-off, accessibility review and rendered browser/device checks. External images also require deployed load/responsive checks.
+- Supplementary research figures in Chapters 17 and 20 are not counted among planned IDs.
+- The repository-wide unique-asset total remains unreconciled (legacy headline 231 vs chapter inventory sum 283); do not extrapolate the 62/97 scoped result to the whole repository.
