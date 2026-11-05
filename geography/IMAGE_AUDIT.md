@@ -983,3 +983,33 @@ This 39/97 table supersedes earlier 28/97 and 34/97 snapshots. The supplementary
 
 - Chapter 14 visual 14-C was refined after source inspection: the intersection, A-minus-B and symmetric-difference panels now use clipping/masking rather than approximate overlap shapes. This improves the mathematical set-logic depiction. Static SVG source structure remains valid; visual rendering still requires browser inspection.
 - Removed obsolete placeholder labels for already integrated visuals 18-J, 19-H, 20-I and 20-K. Their image embeds and captions remain in place. This prevents a completed embed from appearing simultaneously as an unresolved placeholder.
+
+
+## Sixth visual integration tranche — Chapter 20 — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 20-C | INTEGRATED — partial scope stated | PASS for the displayed surface-area comparison; full morphometry remains PENDING | PENDING — original SVG project licence not assigned; data attribution recorded in Chapter 20 | PASS | PENDING | PASS — source-level SVG structure; live render pending | Compares Issyk-Kul (6,236 km²), Son-Kul (278 km²), Chatyr-Kul (175 km²) and Sary-Chelek (~4.9 km²). It is explicitly an area comparison, not a map. Depth and origin are omitted because sources and measurement dates require reconciliation. |
+| 20-D | INTEGRATED | PASS for the five-plant sequence and reported 2,870 MW total in the cited AF NWRMP source; individual plant capacities are not inferred | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Schematic Lower Naryn cascade sequence: Toktogul, Kurpsai, Tash-Kumyr, Shamaldy-Sai and Uch-Kurgan. Kambar-Ata projects are shown separately and excluded from the operating total. Not to scale. |
+
+### Static checks — sixth tranche
+
+Both new SVGs were re-fetched from the working branch and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element and Cyrillic/Latin text. Both chapter embeds resolve to existing files. This is not browser-render, responsive/mobile or assistive-technology QA.
+
+### Superseding scoped visual coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 5 | 2 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 7 | 4 |
+| **Total** | **97** | **41** | **56** |
+
+This 41/97 table supersedes earlier 39/97, 34/97 and 28/97 snapshots. The supplementary 2019 glacial-lake research figure in Chapter 20.6.7 remains additional and is not counted as a planned ID. Project licensing, specialist approval and rendered accessibility checks remain outstanding for original SVGs.
