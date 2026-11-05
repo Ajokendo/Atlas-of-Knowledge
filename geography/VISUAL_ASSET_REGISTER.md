@@ -306,3 +306,24 @@ Chapter 14-F, 14-H and 14-I are now integrated. Chapter 14 has 7/9 planned visua
 | **Total** | **97** | **52** | **45** |
 
 Total newly authored local SVG assets in the November tranches: 44 (31 across Chapters 11–16 and 13 across Chapters 18–20). Chapter 14's remaining 14-D colour-scale guidance and 14-G DEM/derivative map require further review; 14-G is dependent on a valid DEM source and metadata.
+
+
+## Thirteenth-tranche update — Chapter 15 — 5 November 2026
+
+Chapter 15-F, 15-G and 15-H are now integrated. Chapter 15 has 7/11 planned visuals; 15-D, 15-I, 15-J and 15-K remain open. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **55** | **42** |
+
+Total newly authored local SVG assets in the November tranches: 47 (34 across Chapters 11–16 and 13 across Chapters 18–20). Chapter 15's remaining visual IDs include validation/change-detection and sensor-specific analyses; they must be grounded in data rather than schematic values.
