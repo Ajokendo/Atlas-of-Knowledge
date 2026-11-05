@@ -445,3 +445,14 @@ In `ecology-cycles.svg`, the former arrow from the decomposition box to the ocea
 ## Vertebrate-comparison panel fit correction — 5 November 2026
 
 In `zoology-anatomy.svg`, the English amphibian respiration caption sat one pixel below the lower edge of its card. Increased that panel's height slightly so the full bilingual caption is contained within the panel, with clear separation from the next row. This is a source-geometry correction; refreshed browser screenshot review is pending.
+
+
+## Supplemental generated Aygul botanical plate — 5 November 2026
+
+A new author-side educational botanical plate for *Fritillaria eduardii* was generated specifically for the Biology Atlas. It depicts an upright leafy stem, elongated lanceolate leaves, nodding brownish-red bell-shaped flowers on downward-facing pedicels, and a leafy bract tuft above the flowers. Separate floral studies include a frontal flower view with six tepals and six stamens, plus isolated floral structures.
+
+- Classification: **Category C — generated/original illustration**, not a documentary photograph and not external-source material.
+- Intended use: supplementary educational artwork for the Aygul entry; no species-population estimate, fixed flower count, or invented precise locality is represented.
+- Provenance: generated in ChatGPT on 5 November 2026 at the user's explicit request. No third-party image source or external licence is claimed.
+- Working filename: `flora-batken-aygul-botanical-plate.webp` (optimized derivative of the generated PNG). The binary is present in the conversation workspace but has **not yet been committed to the GitHub branch**; therefore the chapter HTML continues to reference the existing verified SVG and must not point to the absent WebP.
+- Review status: morphological intent checked against the existing Aygul source review; this generated plate is illustrative, not a specimen record or independent botanical certification. Full browser rendering review is pending repository integration.
