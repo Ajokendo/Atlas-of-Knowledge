@@ -146,6 +146,38 @@ async function checkLab(lab, mobile) {
       await page.keyboard.press('ArrowLeft');
       await page.waitForFunction(oldTitle =>
         document.querySelector('#sheet h1')?.textContent?.trim() === oldTitle, before, { timeout: 15000 });
+
+      const firstQuestion = page.locator('#sheet .q[data-q="0"]');
+      await firstQuestion.locator('button[data-c="2"]').click();
+      if (!(await firstQuestion.locator('.feedback').innerText()).includes('Верно') ||
+          await firstQuestion.locator('.why').isHidden()) {
+        throw new Error('Chapter 1 practice does not mark a correct answer and reveal its explanation');
+      }
+      const secondQuestion = page.locator('#sheet .q[data-q="1"]');
+      await secondQuestion.locator('button[data-c="0"]').click();
+      if (!(await secondQuestion.locator('.feedback').innerText()).includes('Неверно') ||
+          !(await secondQuestion.locator('button[data-c="1"]').getAttribute('class') || '').includes('right') ||
+          await secondQuestion.locator('.why').isHidden()) {
+        throw new Error('Chapter 1 practice does not identify the correct answer after an incorrect choice');
+      }
+
+      await page.locator('#dots button').nth(9).click();
+      await page.waitForFunction(() => document.querySelector('#sheet h1')?.textContent?.includes('анализ'));
+      const pullSolution = page.locator('#sheet .q[data-q="1"]');
+      await pullSolution.locator('button.reveal').click();
+      const pullText = await pullSolution.locator('.why').innerText();
+      if (!pullText.includes('44.0 м') || await pullSolution.locator('.why').isHidden()) {
+        throw new Error('Chapter 1.9 free-response worked solution did not reveal the checked x(5) result');
+      }
+
+      await page.locator('#dots button').nth(10).click();
+      await page.waitForFunction(() => document.querySelector('#sheet h1')?.textContent?.includes('x(t)'));
+      const cubicSolution = page.locator('#sheet .q[data-q="1"]');
+      await cubicSolution.locator('button.reveal').click();
+      const cubicText = await cubicSolution.locator('.why').innerText();
+      if (!cubicText.includes('√3') || !cubicText.includes('6.00 м/с') || await cubicSolution.locator('.why').isHidden()) {
+        throw new Error('Chapter 1.10 free-response solution did not reveal the return time and velocity');
+      }
     }
     pagesChecked++;
     console.log(`PASS ${lab} ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — ${state.pages} pages visited, ${state.sceneAssemblies} scene assemblies and ${state.sceneOptions} keyboard-selectable breakdowns, WebGL ${state.canvas.join('×')}, ${state.renderedFrames} renderer frames`);
