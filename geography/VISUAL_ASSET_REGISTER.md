@@ -201,3 +201,24 @@ Chapter 20-C compares published lake surface areas only; it does not claim to be
 Chapter 20-E (transboundary water-management schematic) is now integrated. Current Chapter 20 coverage is 8/11 (20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K); 20-A, 20-B and 20-G remain open. Across Chapters 11–20 the current scoped total is **42/97 integrated; 55 missing**.
 
 20-E is a conceptual comparison of Chu–Talas cooperation and Naryn–Syr Darya reservoir/hydropower/irrigation coordination. It is not a georeferenced basin map or quantified allocation chart. Rights, browser rendering and accessibility review remain open.
+
+
+## Eighth-tranche update — Chapters 11 and 19 — 5 November 2026
+
+Two additional assets are integrated: 11-F (energy system and 2025 Kyrgyzstan example) and 19-J (climate impacts/adaptation sectors). Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 6 | 1 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 4 | 6 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **44** | **53** |
+
+All 36 newly authored local SVG assets in the November tranches (24 across Chapters 11–16 and 12 across Chapters 18–20) are integrated. This count is limited to new local SVGs created in these tranches; it excludes pre-existing project visuals that were only re-audited and the supplementary CC BY 4.0 research figure in Chapter 20.6.7. The 44/97 planned-ID coverage is scoped to Chapters 11–20 only.
