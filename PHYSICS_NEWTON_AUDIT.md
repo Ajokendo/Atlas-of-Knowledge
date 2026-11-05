@@ -232,3 +232,30 @@ Initial mobile screenshots showed the scene title, object selector and mouse hin
 The final artifact was inspected at page 2.1 and the scene-breakdown state: the figure number, scene title and selector are separately readable; the lesson text and breakdown remain legible. The standalone mobile initial viewport was also inspected. The title/selector overlap is resolved.
 
 **80% gate: complete.** All 13 book pages navigated on desktop and mobile; representative desktop/mobile screenshots and breakdown state inspected; standalone lesson interactions passed; no serious/critical axe violations. This is an automated axe smoke check, not a full WCAG certification or screen-reader certification.
+
+
+## 90% — интеграция, локальные ссылки и публикационная структура
+
+### Cross-page and asset paths
+Checked every local `href` and `src` reference in `chapters/newton-laws.html` and `original-engine/newton/index.html` against the current `workspace/physics` tree:
+- all referenced CSS, JS, HTML and notice files exist;
+- the interactive book route resolves to `original-engine/newton/index.html`;
+- chapter navigation to Kinematics and Circular Motion resolves to existing chapter pages;
+- root portal anchors `#mechanics`, `#em`, and `#lab` exist in `index.html`;
+- both Newton entry points declare `lang="ru"`;
+- no missing local path was found.
+
+### Integration checks
+- The standalone chapter and the 13-page book both load their required styles/scripts and WebGL dependencies in the isolated browser test.
+- All 13 page/scene/PLATES keys remain mapped 13/13.
+- All 26 practice items remain present; the Newton check suite now contains **54 explicit assertions** (the original 51 plus three new regressions: elevator distractor dimensions, speed-distractor unit, and radius/diameter clarity).
+- The full Physics engine workflow on commit `39fc724b32681ba09340516428ac3265ce03e2a5` completed `success`; the JavaScript workflow on commit `1007dc33abbdeccf12bb252f1127c7569d8a5494` completed `success`. The Newton-specific browser workflow on commit `de97e7f6316580448a3da4082fd6799ee278fa17` completed `success` with all four desktop/mobile book/standalone checks and screenshot upload.
+- Browser smoke output: all 13 book pages navigated on both viewports, scene picker and breakdown passed, both standalone-page viewports passed; axe reported 0 serious/critical violations.
+
+### Branch and publication boundary
+- Work remains confined to `workspace/physics`.
+- No changes were made to `main`, other subject branches, shared portal/catalog content, or production deployment configuration.
+- The new `newton-browser.yml` is an isolated Physics-only QA workflow; it does not publish or deploy.
+- GitHub Pages remains configured to deploy only from `main`; this work is publication-ready in the working branch, not deployed.
+
+**90% gate: complete.** Cross-page paths, asset references, language declarations, scene mapping and internal integration are checked. The last 100% gate is a final current-HEAD rerun of JavaScript, physics invariants and the Newton browser/screenshot workflow after this audit-log commit.
