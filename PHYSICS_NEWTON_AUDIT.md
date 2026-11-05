@@ -117,3 +117,31 @@ Reviewed learner-facing strings in the 13-page book, standalone lesson, practice
 Files changed in this pass: `original-engine/newton/world.js`, `original-engine/newton/pages.js`, `original-engine/newton/practice.js`, and the radius/diameter wording in `original-engine/newton/checks.mjs`.
 
 **30% gate: localisation pass complete.** Browser and JavaScript workflows for the latest content commits are queued/running; the gate will be re-opened if those tests reveal a rendering or string-integration regression.
+
+
+## 40% — интерактивные модели и структура сцен
+
+### Проверка связности
+Сопоставлены идентификаторы страниц в `pages.js`, ключи разборов `PLATES` и сборки `asm(...)` в `world.js`:
+- 13 страниц с 13 уникальными scene ID;
+- 13 соответствующих записей PLATES;
+- 13 соответствующих 3D-сборок;
+- 0 отсутствующих сцен, 0 отсутствующих разборов, 0 лишних ключей PLATES.
+
+### Поведение моделей
+Существующий набор проверок модели подтверждал:
+- непрерывность координаты и скорости в момент перехода от трения покоя к скольжению;
+- соответствие (m\,dv/dt=F-f_k) и (dx/dt=v);
+- равенство и противоположность контактных сил;
+- правильное разложение веса на наклонной плоскости;
+- равновесие самолёта и направление сил при разгоне автомобиля;
+- неизменность центра масс конькобежцев и корректное ускорение центра масс системы «блок + доска»;
+- аналитические решения линейного и квадратичного сопротивления против независимого RK4;
+- корректность предельной скорости и режима Стокса в модели шара в мёде.
+
+На контрольном workflow **42033660802** все 51 проверки Newton module прошли. Отдельная проверка актуальных изменений practice/distractors добавлена и будет подтверждена следующим CI-прогоном.
+
+### Граница этапа
+Статическая связность сцен и физические модели проверены. Реальное взаимодействие в Chromium (перелистывание всех страниц, выбор сцен, открытие разбора, WebGL и сенсорное управление) дополнительно проходит в браузерном smoke workflow и будет повторно подтверждено на финальном этапе responsive QA.
+
+**40% gate: complete.** Runtime/browser confirmation remains explicitly open under the 80% gate.
