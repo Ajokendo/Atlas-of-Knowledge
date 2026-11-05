@@ -647,8 +647,12 @@ For describing current conditions, the latest standard normal (1991–2020) is g
 
 Дополнительное задание: по синоптической карте определите положение циклона, антициклона и фронтов, затем опишите вероятное изменение погоды.
 
-**[МЕСТО ДЛЯ ИЛЛЮСТРАЦИИ 5.18-A / VISUAL PLACEHOLDER — ВСТАВИТЬ ПОСЛЕ СОЗДАНИЯ]**  
-**5.18-A. Синоптическая карта и климатический анализ / Synoptic Map and Climate Analysis.** Вставить двуязычную учебную инфографику: синоптическая карта с замкнутыми изобарами и значениями давления в гПа, центрами циклона и антициклона, холодным и тёплым фронтами с корректными условными знаками, направлением ветра и станционными символами; ниже — две климатограммы с месячными осадками (мм) и температурой (°C). Все данные должны быть явно обозначены как условные учебные данные; карта не является оперативной сводкой и не предназначена для прогноза реальной погоды.  
+<!-- VISUAL ID: 5.18-A -->
+![Схематическая синоптическая карта с циклоном, антициклоном, изобарами, фронтами и станционными моделями; ниже — две климатограммы с условными данными. / Schematic synoptic chart with a cyclone, anticyclone, isobars, fronts and station plots; below are two climate graphs with synthetic data.](../visuals/chapter-05-synoptic-map-climate-analysis.svg)
+
+*Оригинальная двуязычная учебная схема Atlas of Knowledge. Все значения синтетические: карта не относится к реальной территории или дате и не предназначена для прогноза. Изобары показаны с интервалом 4 гПа. В станционных моделях температура указана слева сверху, точка росы — слева снизу, код давления — справа сверху; например, 142 соответствует 1014,2 гПа. Штиль/линия показывает направление, откуда дует ветер; скорость здесь не кодируется. На климатограммах столбцы показывают осадки (мм), линия — температуру (°C). / Original bilingual Atlas of Knowledge teaching schematic. All values are synthetic: the map is not tied to a real place or date and must not be used for forecasting. Isobars are drawn at 4 hPa intervals. In the station plots, temperature is at upper left, dew point at lower left and coded pressure at upper right; for example, 142 represents 1014.2 hPa. The wind staff indicates the direction from which the wind blows; speed is not encoded here. In the climate graphs, bars show precipitation (mm) and the line shows temperature (°C).*
+
+**Учебные данные климатограмм / Climate-graph teaching data:** A — континентальный пример / continental example; B — морской пример / maritime example. Годовая амплитуда температуры: A — 32 °C, B — 14 °C. Годовая сумма осадков: A — 401 мм, B — 886 мм. Эти сочетания иллюстрируют два разных сезонных режима, но сами по себе не определяют климатический тип реального места. / Annual temperature range: A — 32 °C, B — 14 °C. Annual precipitation: A — 401 mm, B — 886 mm. These patterns illustrate different seasonal regimes but do not by themselves classify a real location.
 
 ## English-language chapter text
 
@@ -1096,8 +1100,12 @@ Using two sets of climate data:
 
 Additional task: use a synoptic chart to locate a cyclone, anticyclone and fronts, then describe the likely change in weather.
 
-**[VISUAL PLACEHOLDER 5.18-A — INSERT AFTER CREATION]**  
-**5.18-A. Synoptic Map and Climate Analysis.** Insert the bilingual teaching infographic here: a synoptic chart with closed isobars and pressure values in hPa, cyclone and anticyclone centres, correctly coded cold and warm fronts, wind direction and station models; below it, two climate graphs showing monthly precipitation (mm) and temperature (°C). Clearly label all data as synthetic teaching data; the chart is not an operational bulletin and must not be used to forecast actual weather.
+<!-- VISUAL ID: 5.18-A -->
+![Schematic synoptic chart with a cyclone, anticyclone, isobars, fronts and station plots; below are two climate graphs with synthetic data. / Схематическая синоптическая карта с циклоном, антициклоном, изобарами, фронтами и станционными моделями; ниже — две климатограммы с условными данными.](../visuals/chapter-05-synoptic-map-climate-analysis.svg)
+
+*Original bilingual Atlas of Knowledge teaching schematic. All values are synthetic: the map is not tied to a real place or date and must not be used for forecasting. Isobars are drawn at 4 hPa intervals. In station plots, temperature is at upper left, dew point at lower left and coded pressure at upper right; for example, 142 represents 1014.2 hPa. The wind staff indicates the direction from which the wind blows; speed is not encoded here. In the climate graphs, bars show precipitation (mm) and the line shows temperature (°C). / Оригинальная двуязычная учебная схема Atlas of Knowledge. Все значения синтетические: карта не относится к реальной территории или дате и не предназначена для прогноза. Изобары показаны с интервалом 4 гПа. В станционных моделях температура указана слева сверху, точка росы — слева снизу, код давления — справа сверху; например, 142 соответствует 1014,2 гПа. Линия показывает направление, откуда дует ветер; скорость здесь не кодируется. На климатограммах столбцы показывают осадки (мм), линия — температуру (°C).*
+
+**Climate-graph teaching data:** A — continental example; B — maritime example. Annual temperature range: A — 32 °C, B — 14 °C. Annual precipitation: A — 401 mm, B — 886 mm. These patterns illustrate different seasonal regimes but do not by themselves classify a real location. / **Учебные данные климатограмм:** A — континентальный пример; B — морской пример. Годовая амплитуда температуры: A — 32 °C, B — 14 °C. Годовая сумма осадков: A — 401 мм, B — 886 мм.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
