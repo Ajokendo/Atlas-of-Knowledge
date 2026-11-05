@@ -12,7 +12,7 @@
 | Milestone | Status | Evidence |
 |---|---|---|
 | 10% — inventory and branch guard | PASS | 13 book pages, 13 3D scenes, 13 scene/plate keys, standalone HTML lesson and visual-source entries located on the correct branch |
-| 20% — mathematical model and practice baseline | PASS | 63 existing physics/regression assertions; 26 practice items (24 multiple-choice and 2 free-response); current baseline Physics Engine workflow passed |
+| 20% — mathematical model and practice baseline | PASS | 65 physics/regression assertions (63 baseline + 2 new practice regressions); 26 practice items (24 multiple-choice and 2 free-response); current baseline Physics Engine workflow passed |
 | 30% — scene mapping and browser baseline | PASS | 13 pages map to 13 scenes; existing browser workflow passed desktop 1440×900 and mobile 390×844, with WebGL and scene picker |
 | 40% — upstream lineage and test coverage | IN PROGRESS | Upstream source compared; standalone lesson browser test added; new browser workflow run pending |
 | 50% — content and answer-key audit | PENDING | Check every explanation, numerical answer, distractor, units and model assumptions |
@@ -75,7 +75,7 @@ Compared the local files with Nathan Liow's upstream `circular/` module in `nath
 
 ## Outstanding items
 
-1. Finish all 24 practice-question checks and verify every distractor's units and answer explanation.
+1. Finish all 26 practice-item checks and verify every distractor's units and answer explanation.
 2. Review the wording and model assumptions for all 13 pages, including the distinction between idealised and real motion.
 3. Complete item-level provenance/attribution and scientific visual checks for the 13 inherited 3D scenes.
 4. Inspect standalone lesson and interactive-book screenshots on desktop and mobile.
