@@ -92,6 +92,18 @@ async function run(mobile) {
       }
       await book.waitForFunction(n => Number(document.querySelector('#folio')?.textContent) === n + 1, i);
       if (!(await book.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i + 1} has no title`);
+      await book.waitForTimeout(120);
+      if (mobile) {
+        const clipped = await book.evaluate(() => {
+          const f = document.querySelector('.figure').getBoundingClientRect();
+          return [...document.querySelectorAll('#labels .lbl')].filter(el => {
+            const style = getComputedStyle(el), r = el.getBoundingClientRect();
+            return style.display !== 'none' && Number(style.opacity) > 0.5 && el.textContent.trim() &&
+              (r.left < f.left - 1 || r.right > f.right + 1 || r.top < f.top - 1 || r.bottom > f.bottom + 1);
+          }).map(el => el.textContent.trim());
+        });
+        if (clipped.length) throw new Error(`mobile page ${i + 1} has clipped 3D labels: ${clipped.join(', ')}`);
+      }
       await book.screenshot({ path: `${dir}/${mobile ? 'mobile' : 'desktop'}-book-page-${String(i + 1).padStart(2, '0')}.png`, fullPage: false });
     }
     await book.close();
