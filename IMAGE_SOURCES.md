@@ -277,3 +277,27 @@ Other page descriptors still require the same explicit mapping. Do not infer the
 - Mobile check: Verified in GitHub Actions on 2026-11-04 at 390×844; the canvas chart / WebGL scene rendered without horizontal page overflow.
 
 No third-party external image is currently claimed as integrated for Chapter 04. However, this does not establish that the listed SVG, canvas plot, or Three.js scene are independently authored in the Russian derivative. Their source lineage and rights basis remain pending comparison with the English atlas. Do not count them as Category C or rights-cleared until that comparison is complete.
+
+## Documented discovery search — Chapter 14 infographic (2026-11-05)
+
+Search scope: Wikimedia Commons, using queries for magnetic-field diagrams of a straight current-carrying wire, a current loop, a solenoid, and a toroid. These are **discovery candidates only**. None is integrated or approved by this entry; scientific suitability, exact file rendering, and the final four-panel consistency check remain pending.
+
+| Required panel | Candidate and source | Creator / licence shown on source page | Preliminary suitability / unresolved checks |
+|---|---|---|---|
+| Straight wire | [Magnetic field produced by current.svg](https://commons.wikimedia.org/wiki/File:Magnetic_field_produced_by_current.svg) | Laurens R. Krol; CC0 1.0 | Relevant field/current diagram. Inspect arrow directions, orientation and scale before selection. |
+| Circular loop | [Magnetic field of wire loop.svg](https://commons.wikimedia.org/wiki/File:Magnetic_field_of_wire_loop.svg) | Chetvorno; CC0 1.0 | Relevant field-line pattern through the loop. Check current direction and field direction against the chapter convention. |
+| Solenoid | [VFPt cylindrical tightly-wound coil.svg](https://commons.wikimedia.org/wiki/File:VFPt_cylindrical_tightly-wound_coil.svg) | MikeRun (derived from Geek3); CC BY-SA 3.0 and GFDL | Physically computed ideal-coil field lines; visually suitable candidate, but adaptation/share-alike compatibility and full attribution must be assessed. |
+| Solenoid (alternative) | [Solenoid field lines rough vector.svg](https://commons.wikimedia.org/wiki/File:Solenoid_field_lines_rough_vector.svg) | Wikimedia Commons file page; CC0 1.0 indicated | Possible simpler alternative; do not select until author/source metadata and scientific quality are inspected. |
+| Toroid | [Magnetic Vector Potential Circular Toroid.svg](https://commons.wikimedia.org/wiki/File:Magnetic_Vector_Potential_Circular_Toroid.svg) | F=q(E+v^B); public domain dedication shown on file page | Shows toroidal geometry and magnetic-flux/current information; inspect whether its field representation adequately teaches the required toroid field direction and radial dependence. |
+
+Search also surfaced OpenStax *University Physics, Volume 2*, section 12.6, which explains the solenoid and toroid field models and identifies the finite-field limitations of the ideal toroid. Its book content and images are CC BY-NC-SA 4.0; do not incorporate or adapt them without checking the project-level licence compatibility and the required attribution/share-alike terms. The section explicitly notes that a real helical toroid can have a small external field, so a diagram must not imply perfect confinement without qualification.
+
+Sources reviewed:
+- https://openstax.org/books/university-physics-volume-2/pages/12-6-solenoids-and-toroids
+- https://commons.wikimedia.org/wiki/File:Magnetic_field_produced_by_current.svg
+- https://commons.wikimedia.org/wiki/File:Magnetic_field_of_wire_loop.svg
+- https://commons.wikimedia.org/wiki/File:VFPt_cylindrical_tightly-wound_coil.svg
+- https://commons.wikimedia.org/wiki/File:Solenoid_field_lines_rough_vector.svg
+- https://commons.wikimedia.org/wiki/File:Magnetic_Vector_Potential_Circular_Toroid.svg
+
+**Status after this search:** candidates found for all four panel topics, but no four-panel set has yet passed consistency and scientific review. The existing Chapter 14 placeholder remains **PENDING**; discovery is not integration, and no coverage or verification percentage is increased.
