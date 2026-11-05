@@ -167,7 +167,15 @@ async function checkLab(lab, mobile) {
       }
       if (i === 0) {
         await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 8000 });
-        await page.waitForTimeout(1800);
+        await page.waitForFunction(() => {
+          const E = window.__atlas.E, group = E.ASM.staff, box = new E.THREE.Box3();
+          group.updateMatrixWorld(true);
+          group.traverse(object => {
+            if (object.isMesh && object.userData.part !== undefined && object.visible) box.expandByObject(object);
+          });
+          const center = box.getBoundingSphere(new E.THREE.Sphere()).center.project(E.camera);
+          return Math.abs(center.x) < 0.55 && Math.abs(center.y) < 0.55 && center.z < 1;
+        }, undefined, { timeout: 10000 });
         const staffView = await page.evaluate(() => {
           const E = window.__atlas.E, group = E.ASM.staff, box = new E.THREE.Box3();
           let meshCount = 0, visibleMeshCount = 0;
@@ -180,7 +188,7 @@ async function checkLab(lab, mobile) {
           });
           const sphere = box.getBoundingSphere(new E.THREE.Sphere());
           const center = sphere.center.clone().project(E.camera);
-          return { meshCount, visibleMeshCount, groupVisible: group.visible, radius: sphere.radius, projectedCenter: [center.x, center.y, center.z], focusState: E && window.__atlas.focusState() };
+          return { meshCount, visibleMeshCount, groupVisible: group.visible, radius: sphere.radius, projectedCenter: [center.x, center.y, center.z] };
         });
         console.log(`KINEMATICS STAFF CAMERA ${JSON.stringify(staffView)}`);
         if (staffView.meshCount < 2 || staffView.visibleMeshCount < 2 || staffView.radius < 1 || Math.abs(staffView.projectedCenter[0]) > 0.55 || Math.abs(staffView.projectedCenter[1]) > 0.55 || staffView.projectedCenter[2] > 1) {
