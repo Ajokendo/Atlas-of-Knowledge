@@ -657,3 +657,10 @@ The bilingual SVG had two localisation/sequence clarity defects: the “control 
 ### Chapter 04 — Visual 4.10-A: coastal and ocean-floor relief
 
 Corrected a mixed-script typo in the Russian label for *tombolo* (“Тombolo” → “Томболо”). No change to the scientific content.
+
+
+### Chapter 04 — Visual 4.11-A: slope processes
+
+The diagram grouped *talus* with movement types, although talus is an accumulation/deposit of angular rock fragments rather than a movement mechanism. Corrected the label to “Осыпное отложение / Talus deposit”, revised the SVG description so it no longer classifies talus as a movement, and changed the footer to distinguish movements from their deposits. The adjacent chapter text already defines scree/talus as an accumulation at the foot of a slope.
+
+**Result:** scientific classification and bilingual label corrected; conceptual consistency PASS for this distinction. Rights/creator provenance, detailed accessibility and rendered technical checks remain PENDING.
