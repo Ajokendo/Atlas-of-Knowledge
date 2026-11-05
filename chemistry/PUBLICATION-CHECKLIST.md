@@ -110,3 +110,18 @@ Do not interpret internal technical audit completion as external release accepta
 - [ ] Chapter 03 periodic-trends candidate still requires local SVG integration and side-by-side scientific/language/accessibility review.
 
 CI PASS is evidence of automated structural and browser checks only. It does not certify legal rights, creator attribution, scientific correctness, translation quality, independent review or manual assistive-technology behaviour.
+
+## Visual inventory update — 2026-11-05
+
+The former statement that the Chapter 03 periodic-trends visual still needed integration is superseded. The current Chemistry visual inventory is:
+
+- [x] 24 static SVG files (12 bilingual pairs) are present in `chemistry/assets/`.
+- [x] All 12 planned static visual topics are integrated, including the new Chapter 03 periodic-trends pair (`periodic-trends.svg` / `periodic-trends-ru.svg`).
+- [x] Seven interactive visual systems are present in the subject atlas.
+- [x] SVG dependency scan: no external `href` / `xlink:href` image dependencies found in the 24 SVG files.
+- [x] Chapter 03 periodic-trends visual passes the automated branch-head CI run [41967264963](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41967264963), commit `4fd30ec4133a3cbef848478daa889d3d8cd1f42e`.
+- [ ] Creator, source lineage and rights remain Unknown/PENDING for 12 SVG files; Git introduction commits are documented but do not establish authorship or licensing.
+- [ ] The remaining seven interactive systems have local implementations and no identified external visualization-library imports, but creator/rightsholder and licence evidence remains PENDING.
+- [ ] Independent chemistry educator review, physical-device tests, manual keyboard/screen-reader checks and 200%/400% zoom/reflow remain external release gates.
+
+**Interpretation:** Image Coverage is 12/12 (100%) and all 19 planned visual units are integrated. Image Verification is not complete. Do not describe the atlas as legally cleared, independently scientifically approved or fully publication-ready until the outstanding gates have evidence and sign-off.
