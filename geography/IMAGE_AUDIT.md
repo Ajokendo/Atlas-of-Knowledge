@@ -297,7 +297,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 05 | 5.15-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-change SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.16-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual observations-to-forecast SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.17-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-graph exercise embedded in RU/EN; static SVG structure checked. Synthetic data/arithmetic, creator/licence, accessibility and rendered QA remain open. |
-| 05 | 5.18-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | New synthetic bilingual SVG embedded in RU/EN; static source structure checked. Scientific conventions, project rights/licence, accessibility and rendering remain open. |
+| 05 | 5.18-A | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Synthetic values and map conventions checked against NOAA: cold front SW of low, warm front east/northeast, symbols point toward movement; isobars at 4 hPa intervals; station pressure codes decode correctly. RU/EN embed and text data table present. Project rights/licence, accessibility and rendered QA remain open. |
 | 06 | 6-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -671,3 +671,18 @@ The diagram grouped *talus* with movement types, although talus is an accumulati
 The original SVG and chapter caption implied that the relative order of the intrusion and fault could be inferred from their cross-cutting relationships. Inspection of the actual geometry showed that both features cut the strata but do **not** intersect each other. Their relative order therefore cannot be established from this diagram. Corrected the SVG title description and footer, and updated both language sections of the chapter to state the limitation explicitly. Removed a learner-facing editorial instruction (“provide learner questions and a separate answer key”) that had been left in the Russian section.
 
 **Result:** scientific interpretation corrected; bilingual caveat now present in both language sections. The diagram supports dating each cross-cutting feature relative to the strata, but not dating the fault relative to the intrusion. Rights/creator provenance, detailed accessibility and rendered technical checks remain PENDING.
+
+
+### Chapter 05 — 5.18-A scientific convention review — 5 November 2026
+
+Scientific/data review for the synthetic exercise is **PASS** at the teaching-schematic level:
+- NOAA's surface-map guidance confirms that cold-front triangles and warm-front semicircles point in the direction of movement; the schematic follows this convention.
+- The low-pressure centre is shown with the cold front extending southwest and the warm front extending east/northeast, consistent with the standard Northern Hemisphere mid-latitude cyclone teaching pattern.
+- Isobars are closed and labelled at 4 hPa intervals; pressure increases outward from the low and decreases outward from the high.
+- The simplified station plots clearly distinguish temperature, dew point, three-digit sea-level pressure code and wind-from direction. The codes 142, 118 and 208 are decoded as 1014.2, 1011.8 and 1020.8 hPa, respectively.
+- Climate-graph values are explicitly synthetic. The data table gives all 12 monthly values; arithmetic checks confirm A = 401 mm annual precipitation and 32 °C annual temperature range, B = 886 mm and 14 °C.
+- The graphic is labelled as a Northern Hemisphere schematic with no geographic location/date; it is not an operational weather analysis or forecast.
+
+Sources checked: NOAA, [How to read Surface Weather Maps](https://www.noaa.gov/jetstream/wxmaps) and [Surface Weather Plot Symbols](https://www.noaa.gov/jetstream/wxmaps-max/jetstream-max-surface-weather-plot-symbols); Penn State METEO 3, [decoding sea-level pressure on a station model](https://courses.ems.psu.edu/meteo3/book/export/html/1998).
+
+This PASS is limited to the stated scientific conventions and synthetic data. It does not approve the unknown project licence/rightsholder, colour contrast at rendered sizes, full screen-reader usability, or deployed display.
