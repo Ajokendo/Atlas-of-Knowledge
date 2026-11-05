@@ -589,8 +589,8 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 ![Учебный разрез со слоями, складкой, разломом и интрузивным телом. / Teaching section with strata, fold, fault and intrusive body.](../assets/03-12-B-geological-cross-section-bilingual.svg)
 
-*Учебная модель; относительный возраст определяют по принципу суперпозиции и отношениям пересечения. / Teaching model; relative age is inferred from superposition and cross-cutting relationships.*
-**EN:** Teaching cross-section with a legend, rock layers of different ages, a fold, a fault and an igneous intrusion; provide learner questions and a separate answer key.
+*Оба объекта пересекают слои; поскольку разлом и интрузия не пересекают друг друга, их взаимный возраст по этой схеме определить нельзя. / Both features cut the strata; because the fault and intrusion do not intersect, their relative order cannot be determined from this diagram.*
+
 
 ## English-language chapter text
 
@@ -1106,4 +1106,4 @@ The main eons are Hadean (гадей), Archean (архей), Proterozoic (про
 
 ![Teaching section with strata, fold, fault and intrusive body. / Учебный разрез со слоями, складкой, разломом и интрузивным телом.](../assets/03-12-B-geological-cross-section-bilingual.svg)
 
-*Teaching model; relative age is inferred from superposition and cross-cutting relationships. / Учебная модель; относительный возраст определяют по принципу суперпозиции и отношениям пересечения.*
+*Both features cut the strata; because the fault and intrusion do not intersect, their relative order cannot be determined from this diagram. / Оба объекта пересекают слои; поскольку разлом и интрузия не пересекают друг друга, их взаимный возраст по этой схеме определить нельзя.*
