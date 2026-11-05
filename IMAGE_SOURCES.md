@@ -13,6 +13,9 @@ The Physics branch is a derivative Russian-language edition of Nathan Liow's pre
 
 | Metric | Count | Counting rule |
 |---|---:|---|
+| Image Coverage | PROVISIONAL / NOT CALCULATED | Full deduplicated denominator of required visuals is not established |
+| Image Verification | NOT CALCULATED | Count only assets whose required checks are all PASS and lifecycle is VERIFIED |
+| Image Gaps | 0 known explicit placeholders; full gap count PENDING | Do not treat zero known placeholders as zero total gaps; finish chapter/scene inventory |
 | Inherited visuals mapped to English source | PENDING | Requires source-to-derivative comparison |
 | Inherited visuals reused unchanged (A) | PENDING | Count only after visual identity and unchanged status are verified |
 | Inherited visuals adapted (B) | PENDING | Count only after the visual-content changes and adaptation rights are checked |
@@ -115,6 +118,8 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 14 — Magnetism
 - Title: Four magnetic-field configurations
 - Integration status: INTEGRATED (not VERIFIED)
+- Lifecycle: FOUND → LICENSE_CHECK (**PENDING**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
+- Verification gate: file/path and integration are recorded; rights assignment, independent scientific review, final bilingual/accessibility review, and current desktop/mobile browser evidence must each be PASS before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Compare field geometry and idealised field-strength relations for a long straight wire, a circular current loop, a long solenoid, and an ideal toroid.
@@ -148,6 +153,8 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Lenz's law — approaching and receding magnet
 - Integration status: INTEGRATED (not VERIFIED)
+- Lifecycle: FOUND → LICENSE_CHECK (**PENDING**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
+- Verification gate: file/path and integration are recorded; rights assignment, independent scientific review, final bilingual/accessibility review, and current desktop/mobile browser evidence must each be PASS before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Distinguish the induced field that opposes increasing flux from the induced field that sustains decreasing flux.
@@ -180,6 +187,8 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Motional EMF in a moving rod
 - Integration status: INTEGRATED (not VERIFIED)
+- Lifecycle: FOUND → LICENSE_CHECK (**PENDING**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
+- Verification gate: file/path and integration are recorded; rights assignment, independent scientific review, final bilingual/accessibility review, and current desktop/mobile browser evidence must each be PASS before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Relate mutually perpendicular velocity, magnetic field, rod orientation, charge separation, motional EMF, and the distinction between closed and open circuits.
@@ -212,6 +221,8 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Self-induction, RL transient, and LC oscillations
 - Integration status: INTEGRATED (not VERIFIED)
+- Lifecycle: FOUND → LICENSE_CHECK (**PENDING**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
+- Verification gate: file/path and integration are recorded; rights assignment, independent scientific review, final bilingual/accessibility review, and current desktop/mobile browser evidence must each be PASS before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Separate the self-induction law, exponential current rise/decay in an RL circuit, and ideal energy exchange in an LC circuit.
