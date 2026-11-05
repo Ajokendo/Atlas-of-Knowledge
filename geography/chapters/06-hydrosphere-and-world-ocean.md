@@ -6,9 +6,9 @@
 
 ## Введение / Introduction
 
-Гидросфера — водная оболочка Земли, включающая океаны и моря, реки и озёра, ледники и снежный покров, подземные воды, почвенную влагу, атмосферную воду и воду, содержащуюся в организмах. Вода присутствует на планете в жидком, твёрдом и газообразном состояниях и постоянно перемещается между резервуарами.
+Гидросфера — водная оболочка Земли. Она включает океаны и моря, реки и озёра, ледники и снежный покров, подземные воды, почвенную влагу, воду в атмосфере и воду, содержащуюся в организмах. Вода существует в жидком, твёрдом и газообразном состояниях и постоянно перемещается между этими резервуарами.
 
-Мировой океан — единая взаимосвязанная система океанических бассейнов, занимающая около 71% поверхности Земли. Он регулирует климат, поддерживает морские экосистемы, участвует в глобальных циклах углерода и воды и обеспечивает важнейшие транспортные и ресурсные функции.
+Мировой океан — единая взаимосвязанная система океанических бассейнов, покрывающая около 71% поверхности Земли. Он влияет на климат, служит средой обитания для морских организмов, участвует в круговоротах воды и углерода и имеет большое транспортное и хозяйственное значение.
 
 ## 6.1. Вода на Земле: распределение и свойства / Water on Earth: Distribution and Properties
 
@@ -539,9 +539,9 @@ P = ET + R + \Delta S,
 
 ### Introduction
 
-The hydrosphere is Earth's water envelope. It includes oceans and seas, rivers and lakes, glaciers and snow cover, groundwater, soil moisture, atmospheric water and water contained in organisms. Water occurs on the planet in liquid, solid and gaseous states and moves continuously between reservoirs.
+The hydrosphere is all the water found on, beneath and above Earth's surface. It includes oceans and seas, rivers and lakes, glaciers and snow cover, groundwater, soil moisture, water vapour in the atmosphere and water contained in living organisms. Water occurs in liquid, solid and gaseous states and continually moves between these reservoirs.
 
-The world ocean is one interconnected system of ocean basins, covering about 71% of Earth's surface. It regulates climate, supports marine ecosystems, participates in global carbon and water cycles, and provides important transport and resource functions.
+The world ocean is an interconnected system of ocean basins covering about 71% of Earth's surface. It influences climate, provides habitats for marine life, participates in the global water and carbon cycles, and supports transport and economic activities.
 
 ### 6.1. Water on Earth: Distribution and Properties
 
