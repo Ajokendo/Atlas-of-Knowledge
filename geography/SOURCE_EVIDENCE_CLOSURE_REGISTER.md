@@ -916,3 +916,31 @@ This tranche verifies selected high-impact methodological and dated claims. It i
 - Chapters 17–20 still require remaining national geospatial data, map provenance, glacier/lake geometry, station-level time series, vertical-reference and licence checks described in their chapter-specific audit notes.
 - Chapters 11–16 still have substantial visual-production gaps; the existence of bilingual visual IDs and briefs is not image integration.
 - The targeted source checks above do not establish complete sentence-level citation closure, final bilingual proofreading, scientific approval of visuals or release QA.
+
+
+### Chapter 16 — Geographic Research and Cartography
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| ICA Commission on Map Projections, “Choosing World Map Projections” (12 January 2026) | Verified — current ICA guidance | Supports the chapter's principle that there is no universally correct world projection and that equal-area projections are appropriate when communicating area or quantities tied to area. Added as a direct bibliography item. |
+| USGS, “How are different map projections used?” | Verified — official USGS guidance | Confirms that a flat map cannot preserve true directions, distances, areas and shapes simultaneously; projection selection depends on the map's purpose and extent. Added as a direct reference. |
+| UN Statistics Division, Principles and Recommendations for Population and Housing Censuses, Revision 4 | Verified — current official standard record | The revision was adopted by the Statistical Commission at its 56th session in 2025; the English publication is currently marked unedited/not typeset. Added as a current methodology reference; it must not be described as a final typeset edition. |
+| Cartographic Body of Knowledge and OGC/ISO references already in the chapter | Verified at the level of source relevance | They support cartographic terminology, geospatial standards and metadata. Individual software-version examples and every statistical/sampling exercise still need a separate methodological audit. |
+
+### Chapter 18 — Geology, Mountain Systems and Relief of Kyrgyzstan
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| Kyrgyz Republic Department of Tourism, “About Kyrgyzstan” | Verified — current official tourism page | The current page lists Jengish Chokusu at 7,439 m, Lenin Peak at 7,134 m and Khan Tengri at 6,995 m. Chapter 18 uses these values and explicitly distinguishes Khan Tengri's rock summit from the approximately 7,010 m ice-cap elevation. |
+| UK Permanent Committee on Geographical Names, Kyrgyzstan Toponymic Factfile, October 2025 | Verified — current gazetteer/toponymic reference | Confirms romanised Kyrgyz/Russian forms and cross-border feature naming for Jengish Chokusu, Khan Tengri and Lenin Peak / Lenin Atyndagy Choku / Abu Ali Ibn Sina Peak. Chapter bibliography link updated to the October 2025 edition. This is a toponymic source, not a source for precise elevation measurements. |
+| Wikimedia Commons, “Kyrgyzstan Topography.png” by Sadalmelik | Rights verified, scientific suitability insufficient for the required current base map | The file is dedicated to the public domain and describes a topographic map generated from public-domain SRT data. The map's creation date is unknown (file uploaded 8 July 2007) and it does not supply a current DEM specification, vertical datum or accuracy metadata. It is not substituted for the required validated physical map. |
+| Ministry of Natural Resources, Ecology and Technical Supervision, 11 March 2026 geological-atlas announcement | Verified as a project announcement only | It establishes that publication of a national geological map atlas was initiated; it does not establish that the atlas has been published or that its layers are available for reuse. The chapter correctly labels it as planned/in progress. |
+| CAIAG ASTER GDEM 30 m layer and RESILAND 3 m / 14-site DEM procurement | Metadata and project scope checked; not validated as a nationwide base | The 30 m layer has an unspecified licence and requires horizontal/vertical reference checks; the 3 m procurement concerns 14 sites, not nationwide coverage. Neither is represented as a complete validated national DEM. |
+
+### Bilingual parity and visual-integration check — Chapters 11–20 — 5 November 2026
+
+- Re-fetched all ten chapter files from workspace/geography after translation edits.
+- Checked each numbered chapter.section block for the presence of Russian and English text. Results: Chapter 11, 20/20; Chapter 12, 16/16; Chapter 13, 18/18; Chapter 14, 20/20; Chapter 15, 18/18; Chapter 16, 21/21; Chapter 17, 18/18; Chapter 18, 19/19; Chapter 19, 19/19; Chapter 20, 19/19. No numbered section failed this structural language-presence check.
+- This confirms section-level RU/EN presence, not sentence-by-sentence semantic equivalence, terminology consistency, proofreading or independent translation approval.
+- First-priority visuals integrated in Chapters 11–16: 11-A, 12-A, 13-A, 14-A, 15-A and 16-A. Chapters 18–20 now also include 18-D, 18-H, 18-J, 19-C, 19-H, 20-F, 20-H, 20-I, 20-J and 20-K, plus one supplementary CC BY 4.0 research figure in Chapter 20.6.7.
+- Remaining visual gaps are tracked in IMAGE_AUDIT.md; no original SVG in these tranches is marked VERIFIED because project rights/licence assignment, scientific review and browser/accessibility QA remain open.
