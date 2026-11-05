@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Геологическая эволюция Тянь-Шаня / Geological evolution of the Tien Shan</title>
+<desc id="desc">Концептуальная временная схема на русском и английском языках: древний докембрийский фундамент, палеозойские океанические бассейны и аккреция, мезозойское выветривание и осадконакопление, кайнозойское внутриконтинентальное сжатие и поднятие. Не является точной реконструкцией конкретного участка или датировкой отдельных пород. / Bilingual conceptual timeline showing ancient Precambrian basement, Palaeozoic ocean basins and accretion, Mesozoic weathering and sedimentation, and Cenozoic intracontinental compression and uplift. Not a site-specific reconstruction or dating of individual rocks.</desc>
+<rect width="1200" height="520" rx="24" fill="#f7f8fa"/>
+<text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#172b4d">Геологическая эволюция Тянь-Шаня / Geological evolution of the Tien Shan</text>
+<text x="600" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#46566b">Концептуальная схема · Conceptual model</text>
+<g font-family="Arial,sans-serif">
+<rect x="35" y="118" width="270" height="300" rx="16" fill="#e8e1d2" stroke="#8b7653" stroke-width="2"/>
+<rect x="330" y="118" width="270" height="300" rx="16" fill="#e3eef5" stroke="#477a9e" stroke-width="2"/>
+<rect x="625" y="118" width="270" height="300" rx="16" fill="#e8eee4" stroke="#66845d" stroke-width="2"/>
+<rect x="920" y="118" width="245" height="300" rx="16" fill="#f3e5dd" stroke="#a96c4e" stroke-width="2"/>
+<g fill="#26364a" font-size="19" font-weight="700">
+<text x="170" y="151" text-anchor="middle">Докембрий / Precambrian</text>
+<text x="465" y="151" text-anchor="middle">Палеозой / Palaeozoic</text>
+<text x="760" y="151" text-anchor="middle">Мезозой / Mesozoic</text>
+<text x="1042" y="151" text-anchor="middle">Кайнозой / Cenozoic</text>
+</g>
+<g fill="#46566b" font-size="15">
+<text x="170" y="180" text-anchor="middle">до ~538,8 млн лет</text><text x="170" y="200" text-anchor="middle">before ~538.8 Ma</text>
+<text x="465" y="180" text-anchor="middle">538,8–251,9 млн лет</text><text x="465" y="200" text-anchor="middle">538.8–251.9 Ma</text>
+<text x="760" y="180" text-anchor="middle">251,9–66,0 млн лет</text><text x="760" y="200" text-anchor="middle">251.9–66.0 Ma</text>
+<text x="1042" y="180" text-anchor="middle">66 млн лет — сейчас</text><text x="1042" y="200" text-anchor="middle">66 Ma — present</text>
+</g>
+<g stroke="#685c4c" stroke-width="2">
+<path d="M60 300 L100 260 L140 285 L180 245 L220 275 L280 235 L280 330 L60 330Z" fill="#a99779"/>
+<path d="M350 315 Q390 250 430 285 T510 275 T580 305 L580 330 L350 330Z" fill="#7fa9bd"/>
+<path d="M350 330 L350 300 L400 310 L440 280 L480 300 L530 270 L580 300 L580 330Z" fill="#b8a17a"/>
+<path d="M650 300 L700 285 L750 292 L800 280 L870 300 L870 330 L650 330Z" fill="#8fa77d"/>
+<path d="M650 315 L710 300 L760 308 L820 296 L870 315" fill="none" stroke="#b38b5c" stroke-width="8"/>
+<path d="M945 325 L980 270 L1015 235 L1050 270 L1080 220 L1125 275 L1140 325Z" fill="#a99779"/>
+<path d="M1005 248 L1015 235 L1028 252 L1018 262Z M1070 235 L1080 220 L1092 240 L1080 251Z" fill="#dce9f0" stroke="#68869a"/>
+</g>
+<g fill="#26364a" font-size="15" text-anchor="middle">
+<text x="170" y="360">Древние блоки</text><text x="170" y="381">фундамента</text><text x="170" y="401">Ancient basement blocks</text>
+<text x="465" y="360">Субдукция, дуги,</text><text x="465" y="381">аккреция и столкновения</text><text x="465" y="401">Subduction, arcs, accretion</text>
+<text x="760" y="360">Выветривание, денудация,</text><text x="760" y="381">осадочные бассейны</text><text x="760" y="401">Weathering, denudation, basins</text>
+<text x="1042" y="360">Реактивация разломов,</text><text x="1042" y="381">сжатие и поднятие</text><text x="1042" y="401">Fault reactivation, uplift</text>
+</g>
+<path d="M70 450 H1125" stroke="#53677d" stroke-width="3" stroke-linecap="round"/>
+<path d="M1125 450 l-16 -9 v18Z" fill="#53677d"/>
+<text x="600" y="480" text-anchor="middle" font-size="16" fill="#34465b">От древнего фундамента к современному горному рельефу / From ancient basement to modern mountain relief</text>
+<text x="600" y="504" text-anchor="middle" font-size="13" fill="#65758a">Границы эр — глобальная шкала ICS 2026/06; этапы упрощены и не датируют каждую местную породу. / Era boundaries follow ICS 2026/06; stages are simplified and do not date every local rock.</text>
+</g>
+</svg>
