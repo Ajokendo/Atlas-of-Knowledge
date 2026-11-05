@@ -284,10 +284,10 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 05 | 5.2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Commons atmosphere-layers SVG embedded in RU/EN; exact CC0 file-page evidence and English-label localisation still require final review. |
 | 05 | 5.3-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | UCAR-hosted IPCC energy-budget figure embedded in RU/EN; exact reuse terms and embedded-label localisation remain open. |
 | 05 | 5.4-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | ERA5 1991–2020 map embedded in RU/EN; exact CC BY-SA file revision, legend localisation and scientific review remain open. |
-| 05 | 5.5-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | NWS pressure-system image embedded in RU/EN; exact media rights/credit and visual-label localisation remain open. |
-| 05 | 5.6-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | NOAA global-circulation graphic embedded in RU/EN; exact media rights/credit and English-label localisation remain open. |
-| 05 | 5.7-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | NOAA hydrologic-cycle graphic embedded in RU/EN; exact media rights/credit and English-label localisation remain open. |
-| 05 | 5.8-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | NOAA front-symbol/cross-section set embedded in RU/EN; enumerate each component URL, confirm rights and review label localisation. |
+| 05 | 5.5-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | NWS image on official weather.gov training page; NOAA public-domain guidance applies absent a third-party credit. NOAA/NWS Louisville attribution recorded. Northern Hemisphere limitation remains in bilingual caption. |
+| 05 | 5.6-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | Exact NOAA JetStream image verified; public-domain guidance applies absent a third-party credit. Image uses only numbered cells; bilingual caption explains the simplified three-cell model. |
+| 05 | 5.7-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | Exact NOAA JetStream water-cycle image verified; public-domain guidance applies absent a third-party credit. Russian key now translates all six English process labels; groundwater limitation remains explicit. |
+| 05 | 5.8-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | Five NOAA JetStream components enumerated (four language-neutral front symbols plus cold-occlusion cross-section); public-domain guidance applies absent third-party credit. Russian key translates all English cross-section labels. |
 | 05 | 5.9-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual weather-versus-climate SVG embedded in RU/EN; static SVG structure checked. Scientific content, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.10-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 asset-to-ID mapping has been reconciled for this named visual; review dimensions remain pending. |
 | 05 | 5.11-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Köppen–Geiger 1991–2020 map embedded in RU/EN; exact CC0 file revision, legend/label localisation and methodology review remain open. |
@@ -700,3 +700,14 @@ A comparison of the SVG with the adjacent chapter text found that the text liste
 A content-level pass found that several SVG `<desc>` elements were English-only, while one was Russian-only. Updated the descriptions for 5.7-B, 5.9-A, 5.12-A, 5.14-A, 5.15-A, 5.16-A and 5.17-A to provide Russian and English descriptions; 5.1-A already contained both languages. A post-update fetch confirms **8/8 local Chapter 05 SVG descriptions contain both Cyrillic and Latin text**. The descriptions summarise each graphic's subject and relevant limits (including synthetic data for 5.17-A and the seven climate-belt types for 5.12-A).
 
 **Result:** presence of bilingual SVG descriptions PASS. Detailed semantic quality, screen-reader output, contrast and rendered layout remain PENDING.
+
+
+### Chapter 05 — NOAA media rights and bilingual-label check — 5 November 2026
+
+- 5.5-A: the NWS training page identifies the exact embedded image and provides the explanatory context. NOAA's public-domain guidance states that most NOAA material may be reused unless the individual credit/caption says otherwise; no third-party credit is shown. Attribution is recorded as NOAA/NWS Louisville.
+- 5.6-A: the exact NOAA `circ.jpg` asset was opened and visually inspected. It contains numbered circulation cells but no English prose labels; the bilingual chapter caption supplies the explanation. NOAA attribution recorded.
+- 5.7-A: the exact NOAA water-cycle image was opened. It contains six English labels; a bilingual key was added in the chapter to translate each process. NOAA attribution recorded. The caption continues to state that groundwater exchange and some reservoirs are omitted.
+- 5.8-A: all five exact NOAA components were enumerated and opened: cold, warm, stationary and occluded front symbols, plus the cold-occlusion cross-section. The four symbol files are language-neutral; a bilingual key now translates all English labels in the cross-section. NOAA attribution recorded.
+- For these unchanged NOAA/NWS assets, rights and RU/EN explanatory support are now PASS. Scientific review of each source figure, rendered accessibility and browser/device QA remain separate and pending.
+
+Source: NOAA [image reuse guidance](https://oceanservice.noaa.gov/about/faq.html) and [JetStream usage note](https://www.noaa.gov/jetstream).
