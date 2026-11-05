@@ -33,11 +33,12 @@
 <path d="M500 207 Q330 205 220 247" class="arrow"/><text x="340" y="215" class="small">Фотосинтез / Photosynthesis</text>
 <path d="M315 290H380" class="arrow"/>
 <path d="M610 290H680" class="arrow"/>
-<path d="M790 255 Q790 170 735 175" class="arrow"/><text x="860" y="225" class="small">Дыхание / Respiration</text>
+<path d="M790 255 Q790 170 735 175" class="arrow"/><text x="860" y="225" class="small">Почвенное дыхание / Soil respiration</text>
 <path d="M500 327 Q500 345 490 357" class="arrow"/>
 <path d="M490 365 Q450 260 465 207" class="arrow"/>
-<path d="M615 392 Q890 420 1020 335" class="arrow"/><text x="850" y="408" class="small">Обмен с океаном / Ocean exchange</text>
 <path d="M1045 255 Q1040 210 740 180" class="arrow"/>
+<path d="M740 190 Q850 225 955 275" class="arrow"/>
+<text x="870" y="355" class="small">Обмен CO₂ с океаном</text><text x="870" y="375" class="small">Ocean–atmosphere exchange</text>
 <text x="600" y="438" class="note" text-anchor="middle">Горение биомассы и ископаемого топлива также возвращает CO₂ в атмосферу / Combustion also releases CO₂</text>
 <rect x="35" y="470" width="1130" height="365" rx="22" fill="#f1edf4" stroke="#ded3e4" stroke-width="2"/>
 <text x="600" y="508" class="paneltitle" text-anchor="middle">АЗОТНЫЙ ЦИКЛ / NITROGEN CYCLE</text>
