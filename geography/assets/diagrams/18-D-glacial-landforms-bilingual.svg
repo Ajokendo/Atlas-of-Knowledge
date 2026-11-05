@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Ледниковые формы рельефа / Glacial landforms</title>
+<desc id="desc">Учебная блок-схема горного ледникового ландшафта: кар, рог, арет, висячая долина, трог, боковая и конечная морены, конус выноса. Не в масштабе. / Teaching block diagram of a glaciated mountain landscape showing a cirque, horn, arête, hanging valley, trough, lateral and terminal moraines, and an outwash fan. Not to scale.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:21px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.land{fill:#d9d0bf;stroke:#786b58;stroke-width:4}.ice{fill:#c7e8f4;stroke:#4e8eac;stroke-width:4}.line{stroke:#2f7898;stroke-width:5;fill:none}.mor{stroke:#9a7447;stroke-width:9;fill:none}.call{stroke:#3f5968;stroke-width:2.5;fill:none}</style>
+<rect width="1200" height="720" fill="#fff"/>
+<text x="600" y="50" text-anchor="middle" class="h">Ледниковые формы рельефа / Glacial landforms</text>
+<path class="land" d="M45 505 L145 360 L245 235 L325 330 L420 190 L525 335 L630 390 L745 435 L860 480 L1000 510 L1150 530 L1150 610 L45 610 Z"/>
+<path d="M230 250 Q285 160 365 250 Q395 310 330 340 Q260 330 230 250Z" class="ice"/>
+<path d="M365 250 L420 190 L470 270" fill="none" stroke="#786b58" stroke-width="5"/>
+<path d="M420 190 L450 130 L485 195" fill="none" stroke="#786b58" stroke-width="5"/>
+<path d="M500 340 Q610 380 745 435 Q850 480 970 505" class="ice"/>
+<path d="M500 340 Q600 360 680 400" class="line"/>
+<path d="M720 430 Q810 455 900 480" class="mor"/>
+<path d="M930 490 Q1010 510 1080 525" class="mor"/>
+<path d="M325 330 Q390 390 455 380" fill="none" stroke="#786b58" stroke-width="4"/>
+<path d="M325 330 Q360 360 410 360" class="ice"/>
+<path d="M105 530 Q150 520 190 535 L225 560" class="line"/>
+<path d="M960 510 Q1030 560 1120 565" fill="none" stroke="#9e805d" stroke-width="12" stroke-linecap="round"/>
+<g class="call"><path d="M270 200 L250 145"/><path d="M440 140 L500 105"/><path d="M380 280 L565 190"/><path d="M385 365 L170 430"/><path d="M700 405 L700 290"/><path d="M830 470 L870 340"/><path d="M1030 525 L1040 430"/></g>
+<text x="95" y="125" class="t">Кар / Cirque</text>
+<text x="480" y="100" class="t">Рог / Horn</text>
+<text x="575" y="190" class="t">Арет / Arête</text>
+<text x="80" y="460" class="t">Висячая долина / Hanging valley</text>
+<text x="650" y="270" class="t">Трог / Glacial trough</text>
+<text x="865" y="325" class="t">Боковая морена / Lateral moraine</text>
+<text x="955" y="415" class="t">Конечная морена / Terminal moraine</text>
+<text x="600" y="660" text-anchor="middle" class="s">Эрозионные формы и отложения показаны схематично; реальные размеры и взаимное положение различаются. / Erosional forms and deposits are schematic; real dimensions and arrangements vary.</text>
+</svg>
