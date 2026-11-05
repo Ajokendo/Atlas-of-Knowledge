@@ -56,7 +56,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 Почвенный профиль — вертикальный разрез от поверхности вниз, в котором различают генетические горизонты. Набор и выраженность горизонтов зависят от типа почвы и условий формирования.
 
-В описании почвенных профилей широко используются обозначения главных горизонтов и слоёв. В системе WRB применяются, в частности, H, O, A, E, B, C и R; их наличие и последовательность зависят от почвы:
+В описании почвенных профилей широко используются обозначения главных горизонтов и слоёв H, O, A, E, B, C и R. Эти символы помогают описывать строение профиля, но сами по себе не определяют классификационную группу почвы; наличие и последовательность горизонтов зависят от типа почвы:
 - **H** — органический горизонт или слой, обычно связанный с длительным переувлажнением и торфяным материалом;
 - **O** — органический горизонт или слой, не относящийся к торфяным и лимническим отложениям, обычно состоящий из растительных остатков и другого органического материала;
 - **A** — верхний минеральный горизонт, часто с накоплением гумуса и активной биологической переработкой;
@@ -377,7 +377,7 @@ The classical model identifies five main soil-forming factors: climate, organism
 
 A soil profile is a vertical section from the surface downwards in which genetic horizons can be distinguished. The number and expression of horizons depend on soil type and formation conditions.
 
-Soil-profile descriptions use symbols for master horizons and layers. The WRB system includes, among others, H, O, A, E, B, C and R; their presence and sequence depend on the soil:
+Soil-profile descriptions commonly use the master-horizon and layer symbols H, O, A, E, B, C and R. These symbols help describe profile structure, but they do not by themselves determine a soil's classification group; the presence and sequence of horizons depend on the soil:
 
 - **H:** an organic horizon or layer generally associated with prolonged water saturation and peat material;
 - **O:** an organic horizon or layer that is not peat or limnic material, usually consisting of plant remains and other organic matter;
