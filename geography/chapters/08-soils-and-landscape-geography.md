@@ -126,31 +126,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 **Проверьте себя:** образец объёмом 500 см³ после высушивания весит 700 г. Рассчитайте его плотность сложения.
 
-### Worked Example: Calculating Soil Bulk Density and Porosity
 
-Soil bulk density is the mass of dry soil per unit of the sample's total volume.
-
-**Hypothetical example.** An undisturbed soil sample has a dry mass of 1,300 g. The sampling cylinder has a volume of 1,000 cm³.
-
-**Step 1. Calculate bulk density.**
-
-Bulk density = dry mass / total sample volume.
-
-1,300 g / 1,000 cm³ = **1.3 g/cm³**.
-
-**Step 2. Estimate total porosity.**
-
-For an approximate calculation, assume a particle density of 2.65 g/cm³ for mineral soil. Then:
-
-Porosity = (1 − bulk density / particle density) × 100%.
-
-(1 − 1.3 / 2.65) × 100% ≈ **50.9%**.
-
-This means that about half of the sample's total volume consists of pores. It is an estimate based on the assumed particle density, not a direct measurement of every pore type.
-
-**Important limitations:** the calculation assumes predominantly mineral soil with few coarse stones. In soils rich in organic matter or volcanic material, particle density may differ substantially. Porosity alone also does not show how much water is available to plants; pore sizes, soil structure and moisture conditions matter.
-
-**Check your understanding:** An oven-dry sample has a volume of 500 cm³ and a mass of 700 g. Calculate its bulk density.
 
 ---
 
@@ -359,17 +335,6 @@ This means that about half of the sample's total volume consists of pores. It is
 
 **Учебное задание.** Разработайте схему отбора проб для орошаемого участка: обозначьте не менее трёх типов микроположений и две глубины. Укажите, какие данные о поливе и дренаже нужно собрать, прежде чем рекомендовать меры по улучшению почвы.
 
-Soil salinisation is the accumulation of soluble salts to levels that can impair plant growth and soil conditions. It often results from an interaction of natural conditions and water management: evaporation, poor drainage, shallow saline groundwater and inappropriate irrigation. A white surface crust may be an indicator, but it is not sufficient confirmation and does not show the degree of salinity.
-
-**How assessment is carried out:** describe topography, land use, irrigation and drainage; collect replicated soil samples at several depths; measure the electrical conductivity of a soil extract using a specified protocol; and, where needed, analyse salt composition, pH and groundwater properties. For comparable laboratory assessments, electrical conductivity of the saturated-paste extract (ECe), referenced to 25 °C and expressed in dS/m, is commonly used. Values from other soil-to-water extract ratios (for example, 1:5) and field apparent-conductivity readings are not interchangeable with ECe: results depend on dilution, texture, moisture and mineralogy. Reports must therefore state the extract or instrument method, soil-to-water ratio, temperature and units.
-
-**Spatial variability.** Salinity can change sharply over short distances, for example along an irrigation canal, in a depression or near a field edge. One sample therefore cannot represent an entire field. Sampling design should account for topography, soil type, irrigation regime and visible vegetation differences.
-
-**Do not confuse salinity with sodicity.** Salinity involves excess soluble salts; sodicity involves a high proportion of exchangeable sodium and changes in soil structure. The processes may occur together, but they require different diagnostic indicators and management measures.
-
-Salinity thresholds also depend on the classification and measurement method. An ECe value near 4 dS/m at 25 °C is often cited historically, but it is not a universal threshold for damage across all crops and soils: sensitive plants may respond at lower values, and crop tolerance varies. A threshold for ECe must not be applied directly to a 1:5 extract result without a conversion procedure validated for the relevant conditions. Electrical conductivity reflects the combined concentration of dissolved ions; by itself it does not identify which salts are present or establish the degree of sodicity. Those questions require separate chemical and exchange-related measurements.
-
-**Activity.** Design a sampling plan for an irrigated field: identify at least three micro-landscape positions and two sampling depths. State which irrigation and drainage data should be collected before recommending soil-improvement measures.
 
 ## English-language chapter text
 
