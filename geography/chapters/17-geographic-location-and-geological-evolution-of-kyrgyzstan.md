@@ -167,8 +167,7 @@ Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a
 
 ## 17.6. Геологическая летопись территории / Geological History of the Territory
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-E / IMAGE PLACEHOLDER 17-E]** Геологическая временная шкала формирования территории Кыргызстана: докембрийский фундамент, палеозойская аккреция, мезозойское осадконакопление, кайнозойское горообразование.
-> **EN:** Geological timeline of Kyrgyzstan's formation showing the Precambrian basement, Palaeozoic accretion, Mesozoic sedimentation and Cenozoic mountain building.
+![Геологическая эволюция Тянь-Шаня: от древнего фундамента через палеозойскую аккрецию и мезозойское осадконакопление к кайнозойскому поднятию. Схема концептуальная, не датирует отдельные местные породы.](../assets/diagrams/17-E-geological-evolution-tien-shan-bilingual.svg)
 
 Геологическая история Кыргызстана охватывает миллиарды лет и включает несколько крупных этапов. Возраст отдельных пород, время их образования и время последующей деформации — разные характеристики. Например, древняя порода могла быть поднята, метаморфизована или включена в складчатый пояс значительно позднее своего первоначального формирования.
 
@@ -212,6 +211,8 @@ Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a
 
 
 Kyrgyzstan's geological history spans billions of years and includes several major stages. The age of a rock, the time when it formed and the time when it was later deformed are different characteristics. For example, an ancient rock may have been uplifted, metamorphosed or incorporated into a fold belt long after its original formation.
+
+![Geological evolution of the Tien Shan: ancient basement, Palaeozoic accretion, Mesozoic sedimentation and Cenozoic uplift. Conceptual model; it does not date individual local rocks.](../assets/diagrams/17-E-geological-evolution-tien-shan-bilingual.svg)
 
 For a broad timeline, the major eras and eons of the International Commission on Stratigraphy (ICS) provide a useful framework: the Precambrian extends to the beginning of the Cambrian at about **538.8 million years ago**; the Palaeozoic spans approximately 538.8–251.9 million years ago; the Mesozoic, 251.9–66.0 million years ago; and the Cenozoic extends from 66.0 million years ago to the present. This is the geological timescale of Earth, not the dating of a specific event in Kyrgyzstan. The ages of local rocks and tectonic events must be established from regional geological evidence and can differ considerably even within one mountain range. Numerical boundaries are periodically refined; this chapter uses ICS Chart version 2026/06.
 
@@ -348,8 +349,7 @@ This is a conceptual model, not a universal formula for calculating monetary los
 
 ## 17.9. Формирование современного рельефа / Formation of the Modern Relief
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-G / IMAGE PLACEHOLDER 17-G]** Концептуальная схема формирования горного рельефа: поднятие, эрозия, оледенение, аккумуляция и современные склоновые процессы.
-> **EN:** Conceptual diagram of mountain landscape formation through uplift, erosion, glaciation, deposition and modern slope processes.
+![Формирование горного рельефа: тектоническое поднятие, складки и надвиги, ледниковая обработка, речное врезание, осыпи, морены и конус выноса. Концептуальный профиль не в масштабе.](../assets/diagrams/17-G-mountain-relief-processes-bilingual.svg)
 
 
 Современный рельеф создаётся взаимодействием эндогенных и экзогенных процессов.
@@ -374,6 +374,8 @@ This is a conceptual model, not a universal formula for calculating monetary los
 
 
 The modern relief of Kyrgyzstan is shaped by the interaction of endogenic and exogenic processes.
+
+![Mountain relief formation: tectonic uplift, folds and thrusts, glacial modification, river incision, scree, moraine and an alluvial fan. Conceptual profile, not to scale.](../assets/diagrams/17-G-mountain-relief-processes-bilingual.svg)
 
 **Endogenic processes include:**
 - tectonic uplift and subsidence;
