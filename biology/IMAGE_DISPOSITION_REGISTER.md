@@ -140,3 +140,10 @@ Any external evaluation, consultation, expert review, school-teacher assessment,
 
 
 Triage count correction: the current `IMAGE_BRIEF_REVIEW.md` table contains 37/53 rows with explicit pending visual/browser/morphology notes (the previous 33/53 count predated four newly documented botany/ecology corrections). This is an open-note count, not a verification rate.
+
+
+## Manual screenshot review outcome — 5 November 2026
+
+The latest artifact from successful run `42042559006` / commit `be2882b6` was retrieved directly from Actions and reviewed: 26 full-page screenshots, 13 pages × 2 widths (1365 px and 390 px). Page-level review found no obvious horizontal overflow, clipped columns, broken image placeholders or missing-media gaps in inspected views. Mobile card stacking and desktop two-column layout render as intended. Long regional Flora and Fauna pages received additional full-resolution crop review.
+
+This is a page-level rendering result, not blanket verification of the 53 mapped visual briefs. Asset-specific morphology, detailed scientific accuracy, fine label placement, source identity and rights remain open wherever the individual row says so.
