@@ -4,7 +4,7 @@
 **Branch:** `workspace/chemistry`  
 **Audit date:** 2026-11-05  
 **Policy version:** IMAGE-FIRST POLICY v1.1  
-**Scope of this checkpoint:** all 22 static SVG files (11 RU/EN pairs), seven interactive visual systems across chapter pages and standalone tools, their learner-facing language/accessibility metadata, and the unintegrated Chapter 03 candidate. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification. The repository does not contain a historical search log proving that ready-made licensed sources were considered before these project SVGs were created; compliance with the search-first sequence for past assets remains PENDING.
+**Scope of this checkpoint:** all 24 static SVG files (12 RU/EN pairs), seven interactive visual systems across chapter pages and standalone tools, their learner-facing language/accessibility metadata, and the integrated Chapter 03 periodic-trends replacement. This is an inventory and first-pass source-code review, not a complete independent scientific or legal certification. The repository does not contain a historical search log proving that ready-made licensed sources were considered before these project SVGs were created; compliance with the search-first sequence for past assets remains PENDING.
 
 ## Audit method
 
