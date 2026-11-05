@@ -107,11 +107,18 @@ async function runLesson(mobile) {
     if (!(number(after) > number(before))) throw new Error(`calculator did not increase: ${before} → ${after}`);
     await page.locator('button[data-answer="b"]').click();
     await page.waitForFunction(() => document.querySelector('#feedback')?.textContent.includes('Верно!'));
-    if (await page.locator('.note').filter({ hasText: 'IMAGE PLACEHOLDER' }).count() < 3) throw new Error('image-first placeholders are missing');
-    const imageFirst = await page.evaluate(() => { const marker = [...document.querySelectorAll('.note')].find(el => el.textContent.includes('IMAGE PLACEHOLDER 15.1')); const intro = [...document.querySelectorAll('section h2')].find(el => el.textContent.includes('Введение')); return !!marker && !!intro && !!(marker.compareDocumentPosition(intro) & Node.DOCUMENT_POSITION_FOLLOWING); });
-    if (!imageFirst) throw new Error('Chapter 15 illustration set must precede explanatory text');
+    const visuals = page.locator('figure.visual-figure img');
+    if (await visuals.count() !== 3) throw new Error('Chapter 15 must contain all three integrated induction visuals');
+    for (let i = 0; i < 3; i++) await visuals.nth(i).scrollIntoViewIfNeeded();
+    await page.waitForFunction(() => [...document.querySelectorAll('figure.visual-figure img')].length === 3 && [...document.querySelectorAll('figure.visual-figure img')].every(img => img.complete && img.naturalWidth > 0));
+    const visualStates = await visuals.evaluateAll(nodes => nodes.map(img => ({ alt: img.alt, currentSrc: img.currentSrc, caption: img.closest('figure')?.querySelector('figcaption')?.innerText || '', ru: !!img.closest('figure')?.querySelector('figcaption [lang="ru"]'), en: !!img.closest('figure')?.querySelector('figcaption [lang="en"]') })));
+    for (const visual of visualStates) {
+      if (!visual.alt || visual.alt.length < 40 || !visual.ru || !visual.en || !visual.caption) throw new Error('Chapter 15 visual needs meaningful alt text and bilingual caption');
+      if (mobile && !visual.currentSrc.includes('-mobile.svg')) throw new Error('Chapter 15 mobile layout was not selected');
+      if (!mobile && visual.currentSrc.includes('-mobile.svg')) throw new Error('Chapter 15 desktop layout was not selected');
+    }
     if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal overflow');
-    console.log(`PASS Chapter 15 Faraday calculator ${mobile?'mobile':'desktop'} — slider calculation, quiz, placeholders, overflow 0`);
+    console.log(`PASS Chapter 15 Faraday calculator ${mobile?'mobile':'desktop'} — slider, quiz, 3 responsive SVGs, bilingual captions, alt text, overflow 0`);
   } catch(e) { failures.push(`lesson ${mobile?'mobile':'desktop'}: ${e.message}`); console.error(`FAIL Chapter 15 Faraday calculator ${mobile?'mobile':'desktop'}: ${e.message}`); }
   finally { await context.close(); }
 }
