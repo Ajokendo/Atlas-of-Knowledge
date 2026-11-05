@@ -474,4 +474,4 @@ Sources reviewed:
 - https://commons.wikimedia.org/wiki/File:Solenoid_field_lines_rough_vector.svg
 - https://commons.wikimedia.org/wiki/File:Magnetic_Vector_Potential_Circular_Toroid.svg
 
-**Status after this search:** candidates found for all four panel topics, but no four-panel set has yet passed consistency and scientific review. The existing Chapter 14 placeholder remains **PENDING**; discovery is not integration, and no coverage or verification percentage is increased.
+**Historical status at the time of discovery only:** these candidates were not selected. The search was superseded by the four integrated original panels recorded as PHY-14-001. The former Chapter 14 placeholder is no longer present. Current internal scientific, rights, bilingual/accessibility and responsive browser checks are recorded in IMAGE_AUDIT.md; external expert review is a separate post-publication activity.
