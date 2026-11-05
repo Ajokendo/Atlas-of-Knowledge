@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
 <title id="title">Погода и климат / Weather and climate</title>
-<desc id="desc">Погода показана как изменяющиеся значения в конкретные часы и дни; климат — как статистическое распределение многолетних наблюдений, среднее и диапазон изменчивости за стандартный 30-летний период.</desc>
+<desc id="desc">Погода показана как изменяющиеся значения в конкретные часы и дни; климат — как статистическое распределение многолетних наблюдений, среднее и диапазон изменчивости за стандартный 30-летний период. / Weather is shown as changing values over specific hours and days; climate is a statistical distribution of long-term observations, including the average and range of variability over a standard 30-year period.</desc>
 <defs>
  <style>
  .bg{fill:#fff}.panel{fill:#f6f9fc;stroke:#9aabba;stroke-width:2}.h{font:700 27px Arial,sans-serif;fill:#173247}.sub{font:19px Arial,sans-serif;fill:#314d61}.axis{stroke:#4b6477;stroke-width:2}.grid{stroke:#d5dfe7;stroke-width:1;stroke-dasharray:5 6}.weather{fill:none;stroke:#d97706;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.point{fill:#d97706;stroke:#fff;stroke-width:2}.mean{stroke:#1476b8;stroke-width:4;stroke-dasharray:9 6}.band{fill:#9cc9e5;opacity:.42}.note{font:17px Arial,sans-serif;fill:#263e50}.small{font:15px Arial,sans-serif;fill:#425a6c}.cold{fill:#dceeff;stroke:#4385b8;stroke-width:2}.coldtxt{font:700 18px Arial,sans-serif;fill:#245a7e}
