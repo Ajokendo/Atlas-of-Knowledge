@@ -271,9 +271,12 @@ GNSS — общее название спутниковых навигацион
 - стандарты ISO серии 19100 по географической информации;
 - спецификации Open Geospatial Consortium (OGC);
 - форматы GeoPackage, GeoTIFF, GeoJSON и другие;
-- веб-сервисы карт и объектов, включая WMS и WFS в соответствующих реализациях.
+- традиционные веб-сервисы карт и объектов WMS и WFS;
+- современные веб-API OGC API — Features для доступа к пространственным объектам и OGC API — Maps для получения картографических изображений.
 
-Формат файла не гарантирует качество и совместимость. При обмене данными следует проверять кодировку, CRS, типы геометрии, систему идентификаторов, ограничения атрибутов и лицензию.
+WMS и WFS остаются широко используемыми стандартами, поэтому их необходимо уметь распознавать и документировать. Для новых веб-сервисов OGC рекомендует рассматривать современные OGC API: они используют ресурсно-ориентированную архитектуру и подходы REST/OpenAPI. При этом нельзя считать, что каждый существующий сервер уже поддерживает новые API или что все функции старых сервисов автоматически доступны в любой реализации новых стандартов.
+
+Формат файла и наличие стандартного интерфейса сами по себе не гарантируют качество и совместимость. При обмене данными следует проверять кодировку, CRS, типы геометрии, систему идентификаторов, ограничения атрибутов, реализацию конкретной версии стандарта и лицензию.
 
 ## 14.13. Картографическая визуализация и дизайн / Cartographic Visualisation and Design
 
@@ -533,9 +536,11 @@ Metadata describe the content, origin, quality, structure, spatial coverage, tim
 
 Without metadata, users may not know when and how a layer was created, which CRS it uses or which tasks it is suitable for.
 
-International standards and specifications support interoperability. These include the ISO 19100 series on geographic information; Open Geospatial Consortium (OGC) specifications; formats such as GeoPackage, GeoTIFF and GeoJSON; and map and feature web services, including WMS and WFS in relevant implementations.
+International standards and specifications support interoperability. These include the ISO 19100 series on geographic information; Open Geospatial Consortium (OGC) specifications; formats such as GeoPackage, GeoTIFF and GeoJSON; legacy map and feature services such as WMS and WFS; and modern web APIs such as OGC API – Features for accessing spatial features and OGC API – Maps for retrieving map images.
 
-A file format does not guarantee quality or interoperability. When exchanging data, check encoding, CRS, geometry types, identifier systems, attribute constraints and licence conditions.
+WMS and WFS remain widely used and should still be recognised and documented. For new web services, OGC encourages consideration of modern OGC APIs, which use resource-oriented architecture and REST/OpenAPI approaches. However, not every existing server supports the newer APIs, and capabilities of legacy services are not automatically available in every implementation of a newer standard.
+
+Neither a file format nor the presence of a standard interface guarantees data quality or interoperability. When exchanging data, check encoding, CRS, geometry types, identifier systems, attribute constraints, the specific standard version and implementation, and licence conditions.
 
 ### 14.13. Cartographic Visualisation and Design
 
@@ -786,5 +791,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 9. United Nations Committee of Experts on Global Geospatial Information Management (UN-GGIM). **Integrated Geospatial Information Framework (IGIF).** https://ggim.un.org/IGIF/
 10. National Geospatial-Intelligence Agency. **Department of Defense World Geodetic System 1984: Its Definition and Relationships with Local Geodetic Systems (TR8350.2).** https://earth-info.nga.mil/GandG/publications/tr8350.2/tr8350.2.html
 
+11. Open Geospatial Consortium. **OGC API – Features** — modern web API standard for accessing geospatial features; includes core and CRS-by-reference parts. https://www.ogc.org/standards/ogcapi-features/
+12. Open Geospatial Consortium. **OGC API – Maps** — standard API for serving styled, georeferenced maps. https://www.ogc.org/standards/ogcapi-maps/
 ---
 **Конец главы 14 / End of Chapter 14**
