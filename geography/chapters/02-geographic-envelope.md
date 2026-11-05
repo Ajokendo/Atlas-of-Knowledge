@@ -26,9 +26,9 @@
 
 **Иллюстрация 2.1-A — Разрез географической оболочки / Geographic Envelope Cross-section.**
 
-![Схематичный разрез географической оболочки: атмосфера, вода, твёрдая поверхность и живые организмы / Schematic cross-section of the geographic envelope](../assets/diagrams/02-1A-geographic-envelope-cross-section.svg)
+![Cross-section of Earth's spheres: atmosphere, hydrosphere, lithosphere, mantle and core; trees represent the biosphere and arrows show mantle convection / Разрез сфер Земли: атмосфера, гидросфера, литосфера, мантия и ядро; деревья обозначают биосферу, стрелки — конвекцию мантии](https://static.zpe.gov.pl/portal/f/res-minimized/R1H6RHKAGbKdX/1668782966/9QTCnJ7xkazuP4O5qrsqDlBYoByyrqFl.png)
 
-*Оригинальная учебная схема, не в масштабе; границы оболочек условны и перекрываются. / Original educational schematic, not to scale; sphere boundaries are conceptual and overlap.*
+*Источник / Source: “Spheres of the Earth”, Andrzej Bogusz and Michał Szymczak, ZPE (Polish national educational platform); exact page credits the authors and CC BY-SA 3.0. Дата создания изображения на странице не указана. / The source page does not state an image creation date. Изображение использовано без изменений. Подписи на изображении оставлены на польском языке: ATMOSFERA — атмосфера / atmosphere; HYDROSFERA — гидросфера / hydrosphere; LITOSFERA — литосфера / lithosphere; “prądy konwekcyjne wnętrza Ziemi” — конвекционные потоки внутри Земли / mantle convection currents; “Jądro ziemskie” — ядро Земли / Earth's core. Деревья обозначают биосферу; она не подписана отдельным словом на рисунке. / Trees represent the biosphere, which is not labelled as a separate word in the figure. Схема условная и не в масштабе; она показывает внутреннее строение Земли как контекст, а не точные толщины оболочек. / The diagram is schematic and not to scale; Earth's internal structure is shown as context, not as a representation of exact sphere thicknesses. [Страница источника / Source page](https://zpe.gov.pl/a/geografia-jako-nauka/DpWdUl81J) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/3.0/).*
 
 ## 2.2. Четыре основные оболочки Земли / The Four Major Spheres of Earth
 
@@ -638,9 +638,9 @@ Key properties of the geographic envelope include:
 
 **Illustration 2.1-A — Geographic Envelope Cross-section.**
 
-![Schematic cross-section of the geographic envelope: atmosphere, water, solid surface and living organisms / Схематичный разрез географической оболочки](../assets/diagrams/02-1A-geographic-envelope-cross-section.svg)
+![Cross-section of Earth's spheres: atmosphere, hydrosphere, lithosphere, mantle and core; trees represent the biosphere and arrows show mantle convection / Разрез сфер Земли: атмосфера, гидросфера, литосфера, мантия и ядро; деревья обозначают биосферу, стрелки — конвекцию мантии](https://static.zpe.gov.pl/portal/f/res-minimized/R1H6RHKAGbKdX/1668782966/9QTCnJ7xkazuP4O5qrsqDlBYoByyrqFl.png)
 
-*Original educational schematic, not to scale; sphere boundaries are conceptual and overlap. / Оригинальная учебная схема, не в масштабе; границы оболочек условны и перекрываются.*
+*Источник / Source: “Spheres of the Earth”, Andrzej Bogusz and Michał Szymczak, ZPE (Polish national educational platform); exact page credits the authors and CC BY-SA 3.0. Дата создания изображения на странице не указана. / The source page does not state an image creation date. Изображение использовано без изменений. Подписи на изображении оставлены на польском языке: ATMOSFERA — атмосфера / atmosphere; HYDROSFERA — гидросфера / hydrosphere; LITOSFERA — литосфера / lithosphere; “prądy konwekcyjne wnętrza Ziemi” — конвекционные потоки внутри Земли / mantle convection currents; “Jądro ziemskie” — ядро Земли / Earth's core. Деревья обозначают биосферу; она не подписана отдельным словом на рисунке. / Trees represent the biosphere, which is not labelled as a separate word in the figure. Схема условная и не в масштабе; она показывает внутреннее строение Земли как контекст, а не точные толщины оболочек. / The diagram is schematic and not to scale; Earth's internal structure is shown as context, not as a representation of exact sphere thicknesses. [Страница источника / Source page](https://zpe.gov.pl/a/geografia-jako-nauka/DpWdUl81J) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/3.0/).*
 
 ### 2.2. The Four Major Spheres of Earth
 
