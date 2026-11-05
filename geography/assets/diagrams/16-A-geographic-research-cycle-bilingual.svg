@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Цикл географического исследования / Geographic research cycle</title>
+<desc id="desc">Шесть этапов исследования связаны в цикл: вопрос, обзор источников и гипотеза, план и сбор данных, анализ, интерпретация и проверка, представление результатов. Обратная связь позволяет уточнить вопрос или метод. / Six linked stages: question, source review and hypothesis, design and data collection, analysis, interpretation and validation, and communication. Feedback can refine the question or method.</desc>
+<defs><marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#397a8d"/></marker><style>.h{font:700 30px Arial,sans-serif;fill:#172b36}.t{font:22px Arial,sans-serif;fill:#172b36}.s{font:18px Arial,sans-serif;fill:#344b56}.node{fill:#f1f6f7;stroke:#397a8d;stroke-width:2.5}.arrow{stroke:#397a8d;stroke-width:4;fill:none;marker-end:url(#arr)}</style></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<text x="600" y="55" text-anchor="middle" class="h">Цикл географического исследования / Geographic research cycle</text>
+<g>
+<rect x="415" y="110" width="370" height="82" rx="16" class="node"/><text x="600" y="145" text-anchor="middle" class="t">1. Вопрос / Question</text><text x="600" y="173" text-anchor="middle" class="s">Проблема, территория, период / Problem, place, period</text>
+<rect x="820" y="245" width="330" height="82" rx="16" class="node"/><text x="985" y="280" text-anchor="middle" class="t">2. Источники и гипотеза</text><text x="985" y="308" text-anchor="middle" class="s">Sources and hypothesis</text>
+<rect x="690" y="455" width="390" height="82" rx="16" class="node"/><text x="885" y="490" text-anchor="middle" class="t">3. Дизайн и данные</text><text x="885" y="518" text-anchor="middle" class="s">Design and data collection</text>
+<rect x="120" y="455" width="390" height="82" rx="16" class="node"/><text x="315" y="490" text-anchor="middle" class="t">4. Анализ / Analysis</text><text x="315" y="518" text-anchor="middle" class="s">Статистика и пространственные методы / Spatial methods</text>
+<rect x="50" y="245" width="330" height="82" rx="16" class="node"/><text x="215" y="280" text-anchor="middle" class="t">5. Интерпретация</text><text x="215" y="308" text-anchor="middle" class="s">Interpretation and validation</text>
+<rect x="415" y="575" width="370" height="82" rx="16" class="node"/><text x="600" y="610" text-anchor="middle" class="t">6. Представление результатов</text><text x="600" y="638" text-anchor="middle" class="s">Communication and reporting</text>
+</g>
+<path d="M785 150 Q900 150 960 235" class="arrow"/><path d="M985 327 Q985 390 920 445" class="arrow"/><path d="M690 495 H520" class="arrow"/><path d="M120 455 Q45 400 95 330" class="arrow"/><path d="M380 285 Q420 205 415 155" class="arrow"/>
+<path d="M315 537 Q315 615 405 615" class="arrow"/>
+<path d="M785 615 Q1110 680 1110 380 Q1110 160 790 150" stroke="#b16b37" stroke-width="4" stroke-dasharray="10 8" fill="none" marker-end="url(#arr)"/>
+<text x="1000" y="650" class="s">Обратная связь / Feedback</text>
+<text x="600" y="685" text-anchor="middle" class="s">Документируйте источники, неопределённость и ограничения на каждом этапе. / Record sources, uncertainty and limitations at every stage.</text>
+</svg>
