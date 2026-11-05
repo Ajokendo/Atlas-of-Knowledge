@@ -862,7 +862,7 @@ All visual materials must be based on verified geospatial data and statistics. G
 7. Национальное инвестиционное агентство Кыргызской Республики. Invest Compass: Mining Industry (данные по состоянию на июнь 2026 года). https://invest.gov.kg/en/invest-compass/sectors/mining
 8. Национальное инвестиционное агентство Кыргызской Республики. Why Kyrgyzstan? Priority sectors and investment environment. https://invest.gov.kg/en/why-kyrgyzstan
 9. Кабинет Министров Кыргызской Республики. Совещание по подготовке к осенне-зимнему периоду 2026–2027 годов, 9 октября 2026 года. https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-tapsyrmalardy-berdi
-10. International Monetary Fund. Kyrgyz Republic: 2026 Article IV Consultation, IMF Country Report No. 26/163, 2 July 2026. https://www.imf.org/
+10. International Monetary Fund. Kyrgyz Republic: 2026 Article IV Consultation, IMF Country Report No. 26/163, 2 July 2026. https://www.elibrary.imf.org/abstract/journals/002/2026/163/article-A001-en.xml
 11. World Bank. Kyrgyz Republic: Country Overview and country analytical work. https://www.worldbank.org/en/country/kyrgyzrepublic
 12. Asian Development Bank. Kyrgyz Republic: country partnership and sector assessments. https://www.adb.org/where-we-work/kyrgyz-republic
 13. International Energy Agency. Energy system analysis and energy statistics. https://www.iea.org/
@@ -886,7 +886,7 @@ All visual materials must be based on verified geospatial data and statistics. G
 7. National Investment Agency of the Kyrgyz Republic. *Invest Compass: Mining Industry* (information as of June 2026). https://invest.gov.kg/en/invest-compass/sectors/mining
 8. National Investment Agency of the Kyrgyz Republic. *Why Kyrgyzstan? Priority sectors and investment environment.* https://invest.gov.kg/en/why-kyrgyzstan
 9. Cabinet of Ministers of the Kyrgyz Republic. Meeting on preparations for the 2026–2027 autumn–winter period, 9 October 2026. https://www.gov.kg/ru/post/s/26666-ministrler-kabinetinin-toragasy-adylbek-kasymaliev-kuz-kys-mezgilderine-karata-dayardygy-boyunca-zyiyn-otkorup-bir-katar-tapsyrmalardy-berdi
-10. International Monetary Fund. *Kyrgyz Republic: 2026 Article IV Consultation*, IMF Country Report No. 26/163, 2 July 2026. https://www.imf.org/
+10. International Monetary Fund. *Kyrgyz Republic: 2026 Article IV Consultation*, IMF Country Report No. 26/163, 2 July 2026. https://www.elibrary.imf.org/abstract/journals/002/2026/163/article-A001-en.xml
 11. World Bank. Kyrgyz Republic: country overview and analytical work. https://www.worldbank.org/en/country/kyrgyzrepublic
 12. Asian Development Bank. Kyrgyz Republic: country partnership and sector assessments. https://www.adb.org/where-we-work/kyrgyz-republic
 13. International Energy Agency. Energy system analysis and energy statistics. https://www.iea.org/
