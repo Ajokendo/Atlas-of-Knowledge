@@ -1,5 +1,8 @@
 # Atlas of Biology
 
+> **Project boundary — external review excluded (5 November 2026):** Atlas of Knowledge uses internal project QA only. External review, independent assessment, specialist consultation, recruitment, sign-off and acceptance are outside this project's scope and must not be treated as pending tasks, blockers, milestones or completion criteria. Historical external-review documents retained in this folder are archived references only and are not to be executed. Any external work belongs to a separate process with separate records. Consulting published scientific literature, official datasets and authoritative sources for internal fact-checking remains permitted and necessary.
+
+
 Third subject area of the unified **Atlas of Knowledge** portal.
 
 ## Visual production checkpoint — updated 5 November 2026
