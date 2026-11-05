@@ -301,8 +301,9 @@ For example, to assess access to healthcare facilities, an analyst can create zo
 
 ## 14.9. Сетевой анализ и транспорт / Network Analysis and Transport
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-F / IMAGE PLACEHOLDER 14-F]** Сравнение кругового буфера и зоны доступности по дорожной сети с барьерами и реальными маршрутами.
-> **EN:** Compare a straight-line buffer with a road-network service area, showing barriers and realistic routes.
+![Круговой буфер и зона доступности по сети / Euclidean buffer and network service area](../assets/diagrams/14-F-buffer-vs-network-service-area-bilingual.svg)
+
+*Круговой буфер измеряет расстояние по прямой; сетевая зона учитывает связность дорог и стоимость пути. Схема условная. / A circular buffer measures straight-line distance; a network service area accounts for road connectivity and travel cost. Conceptual diagram.*
 
 
 Сетевой анализ изучает движение по связанным линиям и узлам: дорогам, улицам, железным дорогам, трубопроводам и другим сетям.
