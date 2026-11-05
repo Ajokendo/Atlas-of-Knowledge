@@ -1053,5 +1053,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 12. Open Geospatial Consortium. **OGC API – Maps** — standard API for serving styled, georeferenced maps. https://www.ogc.org/standards/ogcapi-maps/
 13. QGIS Documentation. **Vector Spatial Analysis (Buffers), including spatial overlay operations.** Official explanation of buffers, intersection, union, symmetrical difference and difference; operation details depend on geometry and CRS. https://docs.qgis.org/latest/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html
 14. QGIS Documentation. **Introducing GIS.** Overview of GIS data, hardware and software; the wider GIS system also involves people and methods. https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/introducing_gis.html
+15. QGIS Documentation. **Network Analysis: Service Area.** Explains reachable road-network edges by distance or time, shortest/fastest strategies and ellipsoid-based measurement. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/networkanalysis.html
+16. QGIS Documentation. **Topology Checker.** Rules for gaps, duplicates, invalid geometries and network connectivity. https://docs.qgis.org/3.44/en/docs/user_manual/plugins/core_plugins/plugins_topology_checker.html
+17. GDAL Documentation. **Geometry Validity.** Explains geometry validation and its limits, including the distinction between individual geometry validity and coverage gaps/overlaps. https://gdal.org/en/stable/user/geometry_validity.html
 ---
 **Конец главы 14 / End of Chapter 14**
