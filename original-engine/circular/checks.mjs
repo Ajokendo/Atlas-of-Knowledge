@@ -119,7 +119,7 @@ const NPAGES = 13;   // pages.js imports world.js (three.js, browser-only), so t
   }
   const extra = Object.keys(PRACTICE).filter(k => !(+k >= 0 && +k < NPAGES));
   check('practice: every page has 1–2 well-formed items', !bad.length && !extra.length, bad.concat(extra).join(', ') || `${Object.values(PRACTICE).flat().length} items`); }
-check('practice: exactly 24 questions across 13 pages', Object.values(PRACTICE).flat().length === 24 && Object.keys(PRACTICE).length === 13);
+check('practice: exactly 26 practice items (24 multiple-choice + 2 free-response) across 13 pages', Object.values(PRACTICE).flat().length === 26 && Object.keys(PRACTICE).length === 13);
 {
   const concepts = [
     [0, 0, 'к центру окружности'],
