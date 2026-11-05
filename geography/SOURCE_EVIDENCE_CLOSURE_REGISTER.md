@@ -1016,3 +1016,12 @@ The two new visuals are original conceptual/data graphics. They do not close the
 ### Bilingual structural recheck — Chapters 11–20 — 5 November 2026
 
 After adding a brief bilingual introduction to the key-term glossaries in Chapters 12, 13, 14, 16 and 17, all numbered sections in Chapters 11–20 pass the structural language-presence heuristic. Counts: Ch11 20/20; Ch12 16/16; Ch13 18/18; Ch14 20/20; Ch15 18/18; Ch16 21/21; Ch17 18/18; Ch18 19/19; Ch19 19/19; Ch20 19/19. No numbered section was flagged by this pass. This remains a heuristic check only; sentence-level semantic equivalence, terminology consistency and final bilingual proofreading are not certified.
+
+
+### Chapters 11 and 19 — energy and climate-adaptation visual sources — 5 November 2026
+
+| Chapter | Source / evidence | Result | Action / limitation |
+|---|---|---|---|
+| 11 | National Investment Agency of the Kyrgyz Republic, Energy Sector — Invest Compass (data current to June 2026) | Official sector guide checked | Confirms separation of generation, transmission, distribution and retail supply; the chapter visual uses this structural distinction. |
+| 11 | Ministry of Energy 2025 results; CAWater-Info Yearbook 2025 | Current published figures cross-checked | 2025 generation 15.4 billion kWh; consumption 19.3 billion kWh; imports about 3.8 billion kWh. Generation components: large HPPs 12.9; small HPPs 0.223; mini HPPs and renewables 0.234; thermal plants 2.01 billion kWh. Rounded values are shown as separate reported indicators, not forced into a full energy balance. |
+| 19 | Kyrgyz Republic Biennial Transparency Report 1 (2025) and UNDP climate-adaptation infographic (2024) | Official national reporting and UN development programme material checked | Support sectoral adaptation priorities and example measures across water, agriculture, energy, disaster risk, health, transport, ecosystems and cities. The visual is an overview, not a district-level adaptation plan or forecast. |
