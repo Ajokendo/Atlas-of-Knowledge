@@ -4,6 +4,22 @@
 > **Часть IV. Кыргызстан — природная и региональная энциклопедия / Part IV. Kyrgyzstan — A Natural and Regional Encyclopaedia**  
 > Научно-образовательный атлас географии / Scientific and Educational Geography Atlas
 
+## Цели главы / Chapter Objectives
+
+После изучения главы читатель сможет:
+- описывать географическое положение Кыргызстана и объяснять, как горный рельеф влияет на климат, водные ресурсы, расселение и транспорт;
+- различать физико-географическое, тектоническое и административное районирование;
+- объяснять основные этапы геологической эволюции Тянь-Шаня и связь современной тектоники с внутриконтинентальной деформацией;
+- различать сейсмическую опасность и риск, а также геологическое проявление, ресурс, запас и добычу;
+- оценивать надёжность географической карты по дате, масштабу, источнику, системе координат, вертикальной основе и правам использования.
+
+After studying this chapter, readers should be able to:
+- describe Kyrgyzstan's geographic location and explain how mountain relief affects climate, water resources, settlement and transport;
+- distinguish physical-geographical, tectonic and administrative regionalisation;
+- explain the main stages of Tien Shan geological evolution and relate modern tectonics to intracontinental deformation;
+- distinguish seismic hazard from risk, and a mineral occurrence from a resource, reserve and actual production; and
+- assess a geographic map by checking its date, scale, source, coordinate reference system, vertical reference and reuse conditions.
+
 ## Введение / Introduction
 
 Кыргызстан — горная страна в северо-восточной части Центральной Азии, расположенная преимущественно в пределах Тянь-Шаня и частично Памиро-Алая. Его географический облик определяется сочетанием высоких хребтов, межгорных впадин, плато, долин, озёр и речных бассейнов. Такое положение формирует выраженную высотную поясность, сложную климатическую мозаику, разнообразие природных ресурсов и значительные различия в расселении и хозяйственной деятельности.
