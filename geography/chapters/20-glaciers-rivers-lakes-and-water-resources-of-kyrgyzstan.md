@@ -552,8 +552,9 @@ Water quality should be assessed using a representative network of sampling site
 
 ## 20.11. Ледниковые озёра, паводки и селевые риски / Glacial Lakes, Floods and Debris-Flow Hazards
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-F / IMAGE PLACEHOLDER 20-F]** Схема риска прорыва ледникового озера: тип плотины, возможный путь волны, зона затопления, населённые пункты и инфраструктура ниже по течению; не выдавать учебную модель за оперативную карту.
-> **EN:** Glacial-lake outburst risk diagram showing dam type, possible flood-wave path, inundation zone and downstream settlements and infrastructure; do not present a teaching model as an operational hazard map.
+![Путь риска прорыва ледникового озера: плотина, поток, зона воздействия и объекты ниже по течению / Glacial-lake outburst risk pathway: dam, flow, impact zone and downstream assets](../assets/diagrams/20-F-glof-risk-pathway-bilingual.svg)
+
+*Оригинальная двуязычная учебная модель; она не является картой риска конкретного озера и не заменяет обследование плотины или моделирование потока. / Original bilingual teaching model; it is not a risk map for a specific lake and does not replace dam surveys or flow modelling.*
 
 Отступание ледников и перестройка морен могут приводить к появлению новых озёр или изменению уже существующих. Некоторые озёра удерживаются ледниковым льдом, другие — моренными валами или скальными порогами. При разрушении естественной плотины вода может быстро устремиться вниз по долине.
 
