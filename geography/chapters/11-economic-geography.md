@@ -27,6 +27,20 @@ Economic geography studies the spatial organisation of economic activity, the lo
 
 Экономическая карта постоянно меняется. Новые технологии, инфраструктурные проекты, торговые соглашения, изменение цен, конфликты, климатические риски и решения компаний могут изменить конкурентные преимущества регионов.
 
+Economic geography examines where and why economic activities are located, how they are connected, and how they change over time. Its subject is the economy in space: enterprises, industries, markets, labour, infrastructure, natural resources, and flows of goods, capital, information and services.
+
+Unlike general economic analysis, which often studies markets and decisions through abstract models, economic geography emphasises distance, accessibility, scale, local conditions, historical legacies and territorial institutions.
+
+Its main fields include:
+- the geography of industry, agriculture and services;
+- transport, trade and logistics;
+- regional economies and territorial development;
+- the geography of labour, innovation and finance;
+- resource and energy geography;
+- tourism geography; and
+- environmental economics and sustainable territorial development.
+
+The economic map is constantly changing. New technologies, infrastructure projects, trade agreements, price changes, conflicts, climate risks and business decisions can alter the competitive advantages of regions.
 ## 11.2. Экономическая система и территориальное разделение труда / Economic Systems and the Territorial Division of Labour
 
 Экономическая система включает производство, распределение, обмен и потребление товаров и услуг. Эти процессы организованы через рынки, государственные институты, предприятия, домохозяйства и общественные организации.
@@ -37,6 +51,13 @@ Economic geography studies the spatial organisation of economic activity, the lo
 
 **Экономический район** — территория, выделенная по сочетанию хозяйственной специализации, внутренних связей, ресурсов и исторически сложившейся организации экономики. Границы экономических районов не всегда совпадают с административными границами.
 
+An economic system includes the production, distribution, exchange and consumption of goods and services. These processes are organised through markets, public institutions, firms, households and civil-society organisations.
+
+**The territorial division of labour** is the specialisation of places in particular activities and the exchange of the results of those activities. It is shaped by natural conditions, resources, workers' skills, technology, infrastructure, demand, institutions and historical connections.
+
+Specialisation can raise productivity by concentrating knowledge and infrastructure. However, excessive dependence on a single industry makes a territory vulnerable to falling demand, technological change and external shocks. Economic diversification and the development of connected industries therefore matter.
+
+**An economic region** is an area identified through a combination of economic specialisation, internal connections, resources and historically developed economic organisation. Economic-region boundaries do not always coincide with administrative boundaries.
 ## 11.3. Отраслевая структура хозяйства / Sectoral Structure of the Economy
 
 ![Отраслевая структура: первичный, вторичный и третичный сектора; занятость и валовая добавленная стоимость / Sectoral structure: primary, secondary and tertiary sectors; employment and gross value added](../assets/diagrams/11-A-sectoral-structure-bilingual.svg)
@@ -105,6 +126,21 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 
 Ни один показатель не описывает экономику полностью. ВВП измеряет производство, а не распределение выгод и не является прямой мерой экологической устойчивости или субъективного благополучия.
 
+**Gross domestic product (GDP)** is the monetary value of final goods and services produced within a country's economic territory during a given period. GDP can be measured using the production, income and expenditure approaches. Under a consistent system of national accounts, the results should reconcile.
+
+GDP per capita is GDP divided by the population. It is useful for comparing the average scale of economic production, but it does not show how income is distributed, unpaid work, environmental quality or every aspect of well-being.
+
+Important distinctions include:
+- **Nominal GDP:** measured at current prices.
+- **Real GDP:** adjusted for price changes to estimate changes in the volume of production.
+- **GDP at purchasing power parity (PPP):** converted using PPP rates so that output or expenditure can be compared at a more comparable price level. PPP is a spatial conversion method, not a separate type of price: state whether the indicator is expressed in current or constant international dollars and identify the price-base year. Market exchange rates alone do not remove differences in price levels between countries.
+- **Gross national income (GNI):** includes primary income received by residents, including from abroad, minus the corresponding income received by non-residents.
+
+**Value added and GDP.** Value added measures the new value created by a producer: the value of output minus the value of intermediate goods and services used in production. In the national accounts, GDP by the production approach is calculated by summing the gross value added of all producers and adding taxes on products less subsidies on products. This avoids counting the value of raw materials and components repeatedly at successive production stages. The gross value of sales or exports therefore cannot automatically be treated as a firm's or country's contribution to GDP.
+
+Other indicators include labour productivity; employment and unemployment; inflation; investment and capital formation; exports and imports; poverty and income inequality; government revenue and expenditure; and the Human Development Index and multidimensional measures of quality of life.
+
+No single indicator describes an economy in full. GDP measures production, not the distribution of its benefits, and it is not a direct measure of environmental sustainability or subjective well-being.
 ## 11.5. Факторы размещения производства / Factors Influencing the Location of Economic Activity
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 11-B / IMAGE PLACEHOLDER 11-B]** Схема факторов размещения предприятия: сырьё, энергия, вода, труд, транспорт, рынок, агломерация, институты и экология.
@@ -139,6 +175,13 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 
 Деиндустриализация означает сокращение относительной роли промышленности в занятости или выпуске; она может быть связана с автоматизацией, переносом производства, ростом производительности и увеличением доли услуг. Реиндустриализация — попытка укрепить производственные компетенции и технологическую базу. Эти процессы не обязательно означают простое возвращение прежних заводов.
 
+Industry transforms raw materials and components into goods, equipment, energy and intermediate products. It includes extractive and manufacturing activities, energy production and utility infrastructure; exact statistical boundaries depend on the classification used.
+
+Industrial regions develop around resource bases, transport hubs, ports, large markets, research centres or historically established production clusters. Some regions specialise in heavy industry, while others focus on engineering, electronics, chemicals, food processing or high-technology manufacturing.
+
+An **industrial cluster** is a geographic concentration of interconnected firms, suppliers, research organisations and institutions that interact through both competition and cooperation. A cluster can encourage knowledge exchange and efficiency, but its advantages depend on workforce skills, innovation and links to external markets.
+
+Deindustrialisation is a decline in industry's relative share of employment or output. It may be associated with automation, relocation of production, productivity growth and an expanding services sector. Reindustrialisation seeks to strengthen manufacturing capabilities and the technological base. These processes do not necessarily mean simply reopening former factories.
 ## 11.7. Сельское хозяйство и аграрные системы / Agriculture and Agrarian Systems
 
 Сельское хозяйство зависит от климата, почв, рельефа, водных ресурсов, сезонности, технологий, земельных отношений, рынков и государственной политики. Его география включает растениеводство, животноводство, агролесоводство, рыболовство и связанные цепочки хранения и переработки.
@@ -247,6 +290,13 @@ This is a simplified example for one production stage. A full global value-chain
 
 Цифровой разрыв — различия в доступе к интернету, устройствам, навыкам и возможностям использования цифровых сервисов. Он может усиливать существующее региональное и социальное неравенство.
 
+The services sector includes activities whose output is often an intangible product or service: education, healthcare, trade, transport, tourism, finance, public administration, communications and professional services.
+
+Financial centres develop through the concentration of banks, capital markets, legal and business services, skilled workers and digital infrastructure. Financial flows can cross borders rapidly, but they are governed by national and international rules.
+
+The digital economy relies on telecommunications networks, data centres, software, digital platforms and data. Its geography is not entirely “placeless”: data centres require electricity, cooling, connectivity and physical security, while digital services depend on workforce skills, regulation and network access.
+
+The **digital divide** refers to differences in access to the internet and devices, digital skills and the ability to use digital services. It can reinforce existing regional and social inequalities.
 ## 11.12. Туризм и рекреационная география / Tourism and Recreation Geography
 
 Туризм связан с временными поездками за пределы обычной среды проживания с различными целями, включая отдых, деловые поездки, посещение родственников, образование и лечение. География туризма изучает туристские ресурсы, потоки, инфраструктуру, сезонность, воздействие на территории и устойчивость дестинаций.
@@ -278,6 +328,20 @@ This is a simplified example for one production stage. A full global value-chain
 
 Региональная политика может включать инвестиции в инфраструктуру, образование, инновации, местное предпринимательство, цифровую связь и межрегиональную связанность. Важно оценивать не только объём вложений, но и доступность выгод для населения, экологические последствия и долгосрочную устойчивость.
 
+Economic activity is unevenly distributed. Large cities and transport hubs often concentrate jobs, capital, universities and infrastructure, while peripheral areas may experience population loss, limited access to services and a narrow industrial base.
+
+Regional inequality can be measured using different indicators:
+- gross regional product per capita;
+- labour productivity;
+- household income and poverty;
+- employment and unemployment;
+- access to education, healthcare and transport;
+- investment and infrastructure provision; and
+- the Human Development Index and its components.
+
+**Gross regional product (GRP)** estimates the value added created in a region during a given period. Its calculation and comparability depend on national statistical methods. A high GRP per capita in a region dominated by extractive industries does not necessarily mean that most residents have high incomes.
+
+Regional policy may include investment in infrastructure, education, innovation, local enterprise, digital connectivity and links between regions. It is important to assess not only the volume of investment but also who benefits, the environmental consequences and long-term sustainability.
 ## 11.14. Агломерационные эффекты и пространственная концентрация / Agglomeration Economies and Spatial Concentration
 
 Агломерационные эффекты возникают, когда близость предприятий, работников, поставщиков и потребителей повышает эффективность экономической деятельности. Обычно выделяют:
@@ -287,6 +351,12 @@ This is a simplified example for one production stage. A full global value-chain
 
 Концентрация имеет и издержки: дорожные заторы, дорогую землю и жильё, загрязнение, перегрузку инфраструктуры и уязвимость к локальным кризисам. Поэтому экономическая эффективность агломерации зависит от качества планирования, транспорта, жилья и управления землепользованием.
 
+Agglomeration effects arise when the proximity of firms, workers, suppliers and consumers increases the efficiency of economic activity. Three common types are:
+- **sharing effects:** access to shared infrastructure, suppliers and specialised services;
+- **matching effects:** a larger labour market and a better match between workers and jobs; and
+- **learning effects:** the spread of knowledge, technologies and business practices.
+
+Concentration also creates costs: traffic congestion, expensive land and housing, pollution, overloaded infrastructure and vulnerability to local crises. The economic benefits of an agglomeration therefore depend on the quality of planning, transport, housing and land-use management.
 ## 11.15. Природные ресурсы, экономика и экологические ограничения / Natural Resources, Economy and Environmental Limits
 
 Природные ресурсы — компоненты и свойства природной среды, используемые или потенциально пригодные для удовлетворения потребностей общества. Их классифицируют по происхождению, степени возобновляемости, хозяйственному назначению и доступности.
@@ -303,6 +373,13 @@ This is a simplified example for one production stage. A full global value-chain
 
 **Циркулярная экономика** стремится уменьшить потребление первичных ресурсов и образование отходов через долговечный дизайн, ремонт, повторное использование, восстановление и переработку. Она не означает полного отсутствия отходов или воздействия.
 
+Natural resources are components and properties of the natural environment that society uses, or may potentially use, to meet its needs. They can be classified by origin, renewability, economic purpose and accessibility.
+
+The economic use of resources is constrained by environmental limits. Mineral extraction can create jobs and export revenue, but it can also damage land, pollute water, generate waste and cause land-use conflicts. Agriculture provides food while also affecting soils, biodiversity and water systems.
+
+Important approaches include life-cycle assessment; the polluter-pays principle; circular-economy practices and material reuse; environmental impact assessment of projects and strategic environmental assessment of plans; accounting for ecosystem services; and reducing resource and energy intensity.
+
+A **circular economy** seeks to reduce the use of virgin resources and the generation of waste through durable design, repair, reuse, refurbishment and recycling. It does not mean that waste or environmental impacts can be eliminated entirely.
 ## 11.16. Экономическая устойчивость и глобальные изменения / Economic Resilience and Global Change
 
 Экономическая устойчивость — способность предприятий, отраслей и территорий выдерживать потрясения, адаптироваться и восстанавливаться, сохраняя ключевые функции. Источники потрясений включают финансовые кризисы, пандемии, природные опасности, изменение климата, конфликты, сбои цепочек поставок и технологические сдвиги.
@@ -311,6 +388,11 @@ This is a simplified example for one production stage. A full global value-chain
 
 Изменение климата влияет на сельское хозяйство, энергетику, транспорт, туризм, страхование и инфраструктуру. Экономическая адаптация требует сценарного анализа, оценки рисков и учёта неопределённости.
 
+Economic resilience is the ability of firms, industries and territories to withstand shocks, adapt and recover while maintaining essential functions. Shocks may include financial crises, pandemics, natural hazards, climate change, conflicts, supply-chain disruptions and technological shifts.
+
+Resilience can be strengthened through diversification, reliable infrastructure, skilled workers, access to finance, effective institutions, social protection and cooperation among territories. There is no universal solution: measures must reflect the industrial structure, resources, vulnerabilities and opportunities of each region.
+
+Climate change affects agriculture, energy, transport, tourism, insurance and infrastructure. Economic adaptation requires scenario analysis, risk assessment and explicit consideration of uncertainty.
 ## 11.17. Методы экономико-географического исследования / Methods in Economic Geography
 
 Экономико-географические исследования используют количественные, качественные и пространственные методы.
@@ -582,6 +664,18 @@ Interpretation must account for analytical scale, data quality, changes in admin
 11. Экономическая устойчивость требует адаптации, диверсификации и надёжных институтов.
 12. Пространственные показатели необходимо интерпретировать с учётом методологии, масштаба и качества данных.
 
+1. Economic geography studies the spatial organisation of the economy and territorial differences in development.
+2. The territorial division of labour creates specialisation and economic links among regions.
+3. Sectoral categories help describe economic structure, but statistical classifications may differ.
+4. GDP measures output, but does not fully describe income distribution, quality of life or environmental sustainability.
+5. The location of firms depends on resources, labour, energy, markets, transport, institutions and environmental constraints.
+6. Industry, agriculture and services form complex, interdependent systems.
+7. Energy and transport networks shape access to resources and markets.
+8. Global value chains distribute stages of production among countries and regions.
+9. Tourism and the digital economy have their own spatial infrastructure and risks of inequality.
+10. Regional policy should consider agglomeration effects, peripherality, human capital and environmental limits.
+11. Economic resilience requires adaptation, diversification and reliable institutions.
+12. Spatial indicators must be interpreted in light of methodology, scale and data quality.
 ## 11.19. Ключевые понятия / Key Terms
 
 Экономическая география — Economic geography; территориальное разделение труда — Territorial division of labour; экономический район — Economic region; первичный сектор — Primary sector; вторичный сектор — Secondary sector; третичный сектор — Tertiary sector; валовой внутренний продукт — Gross domestic product; паритет покупательной способности — Purchasing power parity; производительность труда — Labour productivity; фактор размещения — Location factor; промышленный кластер — Industrial cluster; аграрная система — Agrarian system; продовольственная безопасность — Food security; энергетическая безопасность — Energy security; энергетический переход — Energy transition; логистика — Logistics; глобальная цепочка создания стоимости — Global value chain; региональное неравенство — Regional inequality; агломерационный эффект — Agglomeration effect; циркулярная экономика — Circular economy; экономическая устойчивость — Economic resilience; коэффициент локализации — Location quotient.
