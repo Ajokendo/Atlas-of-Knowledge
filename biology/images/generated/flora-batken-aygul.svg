@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
 <title id="t">Айгуль — Fritillaria eduardii / Aygul — Eduard's fritillary</title>
-<desc id="d">Ботаническая учебная пластина с одним растением Fritillaria eduardii: прямостоячий стебель, ланцетные листья и поникающие колокольчатые оранжево-красные цветки с листовидными прицветниками. Рядом увеличенная схема цветка. Не изображает точную численность или современное состояние популяции / Educational botanical plate of Fritillaria eduardii with an upright stem, lance-shaped leaves and nodding orange-red bell-shaped flowers with leafy bracts, plus an enlarged flower diagram. It does not depict population size or current population status.</desc>
+<desc id="d">Ботаническая учебная пластина с одним растением Fritillaria eduardii: прямостоячий стебель, ланцетные листья и поникающие колокольчатые оранжево-красные цветки с листовидными прицветниками. Рядом условная схема строения цветка с шестью листочками околоцветника и шестью тычинками. Не изображает точную численность или современное состояние популяции / Educational botanical plate of Fritillaria eduardii with an upright stem, lance-shaped leaves and nodding orange-red bell-shaped flowers with leafy bracts, plus a schematic flower detail showing six tepals and six stamens. It does not depict population size or current population status.</desc>
 <rect width="1200" height="675" fill="#f5f1e6"/>
 <path d="M0 535Q250 510 450 545T850 530T1200 540V675H0Z" fill="#e4e1d0"/>
 <text x="48" y="56" font-family="Georgia,serif" font-size="34" fill="#354b3e">Айгуль · Fritillaria eduardii</text>
@@ -47,11 +47,19 @@
  <path d="M-47 -83Q-68 -18 -38 61M-16 -97Q-28 -15 -14 85M16 -97Q28 -15 14 85M47 -83Q68 -18 38 61" stroke="#e9aa7e" stroke-width="3" fill="none"/>
  <path d="M0 -95V88" stroke="#f1d1a4" stroke-width="3"/>
  <path d="M0 -90Q-7 -25 -3 10" stroke="#6b8a50" stroke-width="4" fill="none"/>
- <g fill="#e5c66d" stroke="#8b7041" stroke-width="2"><ellipse cx="-35" cy="8" rx="7" ry="27" transform="rotate(-18 -35 8)"/><ellipse cx="35" cy="8" rx="7" ry="27" transform="rotate(18 35 8)"/></g>
+ <g fill="#e5c66d" stroke="#8b7041" stroke-width="2">
+  <ellipse cx="-48" cy="-18" rx="6" ry="24" transform="rotate(-34 -48 -18)"/>
+  <ellipse cx="-34" cy="20" rx="6" ry="25" transform="rotate(-18 -34 20)"/>
+  <ellipse cx="-17" cy="38" rx="6" ry="24" transform="rotate(-8 -17 38)"/>
+  <ellipse cx="17" cy="38" rx="6" ry="24" transform="rotate(8 17 38)"/>
+  <ellipse cx="34" cy="20" rx="6" ry="25" transform="rotate(18 34 20)"/>
+  <ellipse cx="48" cy="-18" rx="6" ry="24" transform="rotate(34 48 -18)"/>
+ </g>
 </g>
 <g font-family="Arial,sans-serif" font-size="16" fill="#48594b">
- <text x="720" y="470">Условная ботаническая схема;</text>
- <text x="720" y="494">не в масштабе / Schematic, not to scale</text>
+ <text x="720" y="452">6 тычинок / 6 stamens</text>
+ <text x="720" y="477">6 листочков околоцветника / 6 tepals</text>
+ <text x="720" y="502">Условно, не в масштабе / Schematic, not to scale</text>
 </g>
 <text x="48" y="585" font-family="Arial,sans-serif" font-size="17" fill="#4d5e50">Принятое имя / Accepted name: Fritillaria eduardii</text>
 <text x="48" y="614" font-family="Arial,sans-serif" font-size="15" fill="#68776a">Синоним / Synonym: Petilium eduardii</text>
