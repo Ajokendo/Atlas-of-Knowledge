@@ -168,6 +168,12 @@ async function checkLab(lab, mobile) {
       if (i === 0) {
         await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 8000 });
       }
+      if (i === 1) {
+        await picker.focus();
+        await page.waitForTimeout(1600);
+        const focusStayedOnPicker = await picker.evaluate(el => document.activeElement === el);
+        if (!focusStayedOnPicker) throw new Error('A delayed scene-focus retry stole focus after the learner returned to the scene picker');
+      }
       if (!mobile) {
         await page.waitForTimeout(450);
         await page.screenshot({ path: `${visualReviewDir}/${key}.png`, animations: 'disabled' });
