@@ -179,7 +179,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.1.
-- Mobile check: PASS — 390×844 browser smoke selected the mobile SVG, loaded the asset, confirmed captions/alt text and zero horizontal overflow (run 41985395056).
+- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 41989748138).
 
 ### PHY-15-002 — Motional EMF in a moving rod
 
@@ -213,7 +213,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.2.
-- Mobile check: PASS — 390×844 browser smoke selected the mobile SVG, loaded the asset, confirmed captions/alt text and zero horizontal overflow (run 41985395056).
+- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 41989748138).
 
 ### PHY-15-003 — Self-induction, RL transient, and LC oscillations
 
@@ -247,7 +247,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.3.
-- Mobile check: PASS — 390×844 browser smoke selected the mobile SVG, loaded the asset, confirmed captions/alt text and zero horizontal overflow (run 41985395056).
+- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 41989748138).
 
 ## Visual requirement review
 
