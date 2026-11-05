@@ -848,7 +848,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
-1. USGS Water Science School. **How Much Water Is There on Earth?** — estimated global water volume and reservoir distribution; values are rounded and based on a cited global compilation. https://www.usgs.gov/water-science-school/science/how-much-water-there-earth
+1. USGS Water Science School. **How Much Water Is There on Earth?** — estimated global water volume and reservoir distribution; values are rounded and based on a cited global compilation. https://www.usgs.gov/water-science-school/science/how-much-water-there-earth. Exact teaching chart used for visual 6.1-A: **The distribution of water on, in, and above the Earth** (Public Domain; underlying data credited to Shiklomanov, 1993): https://www.usgs.gov/media/images/distribution-water-and-above-earth
 2. USGS Water Science School. **Streamflow and the Water Cycle** — explains the very small share of global water held in rivers and provides a global water-distribution table. https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle
 3. USGS Water Science School. **Aquifers and Groundwater** (17 September 2026) — aquifers, water table, recharge, permeability, groundwater movement and pumping effects. https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater
 4. USGS Water Science School. **Groundwater Flow and the Water Cycle** — groundwater movement, porosity, permeability, recharge and discharge. https://www.usgs.gov/water-science-school/science/groundwater-flow-and-water-cycle
@@ -879,7 +879,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 - **Sentence-level RU/EN review:** reviewed all 17 numbered main sections and the paired examples, chapter summary, key terms, review questions and practical assignment. Corrected the lake/reservoir definition mismatch, qualified the particle-motion description for wind waves, clarified surface-water versus groundwater divides, and aligned the marine-zone terminology caveat in both languages.
 - **Source-to-claim sweep:** replaced the loosely ordered bibliography with 14 topic-specific institutional references covering global water distribution, streamflow, groundwater, the hydrological cycle, ocean classification, IHO standards, currents, ocean acidification, sea ice, TEOS-10 and catchment water budgets. The 2002 IHO S-23 draft remains explicitly labelled a working document, not an approved edition.
 - **Numerical controls:** recalculated the river-discharge example (3.6 m³/s) and basin exercise (250 mm; 2.5 km³; 79.3 m³/s); checked unit consistency and the stated 365-day conversion. The 600/350/220 mm example retains a 30 mm balance residual and explains why it is not automatically a measurement error.
-- **Visual inventory:** 15 unique bilingual visual IDs and matching production briefs remain registered. They are deliberately retained as placeholders; no image-generation or integration is claimed.
+- **Visual inventory:** 15 unique bilingual visual IDs are registered. Visual 6.1-A is now integrated in both language sections using an unchanged USGS public-domain chart; the other 14 visual needs remain placeholders. No AI-generated image is claimed.
 - **Release boundary:** this closes the chapter's text/source editorial pass, not visual production, layout rendering, mobile/browser accessibility testing or deployment QA.
 
 ## Earlier focused scientific and editorial audit record — 5 November 2026
@@ -888,6 +888,6 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 - **Catchment accounting:** clarified the control-volume boundary, inflows, outflows and storage changes; retained the instruction to account for snow, glaciers, lakes, groundwater, abstractions and uncertainty. Integrated in the explanatory text and practical sequence.
 - **Ocean classification:** clarified that the Southern Ocean boundary depends on the hydrographic classification used; the map and review question must identify the source rather than imply one universally ratified boundary.
 - **Maritime and ocean terminology:** aligned the bilingual review question and glossary with the chapter's classification caveat. Existing distinctions among ocean water stocks and annual fluxes are retained.
-- **Visual production:** reconciled 15 unique bilingual visual IDs and their briefs; four redundant aliases were normalised. All remain placeholders pending image production.
+- **Visual production:** reconciled 15 unique bilingual visual IDs and their briefs; four redundant aliases were normalised. Visual 6.1-A is integrated in both languages from an unchanged USGS public-domain chart; 14 other visual needs remain placeholders.
 - **Bilingual structure:** the previous heading-ID audit found 29 matched numbered teaching headings in Russian and English. This is structural parity only, not a substitute for final sentence-level proofreading.
 
