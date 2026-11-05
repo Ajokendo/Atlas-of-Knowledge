@@ -498,7 +498,7 @@ This section preserves an older reference to `IMAGE_FIRST_POLICY.md` v1.2, `AUTH
 | Mapped visual briefs produced/integrated | 53/53 (100%) | Production/integration coverage only; denominator is visual briefs, not individual files |
 | Documentary photographs | 15 | Source pages, authors, licence records and manifests are documented across five regional briefs; live caption/source revalidation remains a separate check |
 | Project-created SVG and other artwork | Recorded in the disposition register | Category C must be supported by creation evidence; a project label alone does not prove a named human author or legal rights authority |
-| Explicit pending/open notes | 45/53 disposition-register rows; 33/53 brief-review rows with visual/browser/morphology notes | Separate triage counts, not verification rates |
+| Explicit pending/open notes | 45/53 disposition-register rows; 37/53 brief-review rows with visual/browser/morphology notes | Separate triage counts, not verification rates |
 | Full automated Biology workflow | PASS — run [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829), branch head `fb4b581f0cf23e86b8a093280ba0846fc01a345f` | Automated page/link/script and Chromium smoke validation only; not detailed scientific, legal or manual accessibility certification |
 | Internal `VERIFIED` visual units | Not established by the available consolidated register | Do not infer from 53/53 coverage or CI |
 | External specialist verification | EXCLUDED | Not a project activity, status, task, gate or metric |
@@ -759,3 +759,8 @@ Source-text review identified four additional embedded-label omissions:
 - `botany-flower.svg`: added the English explanation that fertilization occurs later, after the pollen tube grows, and extended the callout background to contain the bilingual text.
 
 These are source-level bilingual corrections. The latest Chromium workflow will recheck page loading, image decoding, visible geometry, accessibility and responsive overflow; detailed pixel-level review remains a separate internal task.
+
+
+### Triage-count correction — 5 November 2026
+
+The current brief-review table now has **37/53** rows with explicit pending visual/browser/morphology notes, not 33/53. Four additional rows were made explicit during the latest source-label audit: botany anatomy, botany transport, botany flower and ecology food web. The disposition register remains at **45/53** rows with at least one pending/open note. These are open-note counts, not pass rates.
