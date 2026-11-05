@@ -539,7 +539,7 @@ if (imageSources && /\| C — project SVG/.test(imageSources)) errors.push("IMAG
 if (imageSources && !imageSources.includes("Unclassified — project-local SVG")) errors.push("IMAGE_SOURCES.md: local SVG provenance must remain PENDING until evidenced");
 if (imageSources && !imageSources.includes("A/B/C category PENDING; method PENDING")) errors.push("IMAGE_SOURCES.md: unproven local visuals must explicitly keep category and method PENDING");
 const staticAssetRegister = imageSources.split("## Asset register")[1]?.split("## Non-file interactive visuals")[0] || "";
-for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11"]) {
+for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11","CH-V12"]) {
   const rows = staticAssetRegister.split(/\r?\n/).filter(line => line.startsWith("| " + id + " |"));
   if (rows.length !== 1) errors.push("IMAGE_SOURCES.md: expected exactly one static asset row for " + id);
   else {
@@ -650,15 +650,15 @@ if (!bondingPage.includes('<div class="detail" aria-live="polite" aria-atomic="t
 }
 
 const periodicPage = fs.readFileSync(path.join(root, "periodic-table.html"), "utf8");
-for (const key of ["trendTitle", "trendBody", "trendPlaceholder"]) {
+for (const key of ["trendTitle", "trendBody", "trendEyebrow", "trendCaption"]) {
   if (!periodicPage.includes(key + ':"') || !periodicPage.includes('data-t="' + key + '"')) {
-    errors.push("periodic-table.html: Chapter 03 periodic-trends placeholder must be bilingual: " + key);
+    errors.push("periodic-table.html: Chapter 03 periodic-trends visual must be bilingual: " + key);
   }
 }
 if (!periodicPage.includes("atomic radius generally increases down and to the left") ||
     !periodicPage.includes("first ionisation energy and electronegativity generally increase up and to the right") ||
     !periodicPage.includes("electron configurations create exceptions")) {
-  errors.push("periodic-table.html: periodic-trends placeholder must preserve qualified scientific direction statements");
+  errors.push("periodic-table.html: periodic-trends alt text must preserve qualified scientific direction statements");
 }
 if (!fs.existsSync(path.join(root, "periodic-table.html"))) errors.push("periodic-table.html: interactive periodic table visual is missing");
 
