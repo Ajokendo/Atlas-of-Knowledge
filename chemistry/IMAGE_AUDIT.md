@@ -538,3 +538,16 @@ Changes saved on `workspace/chemistry`:
 - `checks.mjs`: added regression checks for the English probability-density description, explicit non-trajectory qualification, scale note and absence of the old orbit-like contour group.
 
 This is a source-level correction, not a rendered visual pass. Recheck the English and Russian hero/chapter variants in Chromium at desktop and narrow viewport before closing the visual gate. Scientific second-person review and rights evidence remain PENDING.
+
+
+## CH-V03 one-mole scale visual clarification — 5 November 2026
+
+Source review found that the seven decorative particle dots in the bilingual mole illustration could be misread as a literal representation of the number of particles in one mole. The exact Avogadro count was already printed, but the schematic nature of the dots was not explicit enough.
+
+Changes saved:
+- Both SVG descriptions now state the exact Avogadro count, and explicitly say the seven dots are illustrative symbols only, not a literal particle count.
+- The English and Russian visual footnotes now state that the dots are schematic / not to scale.
+- The source-register alt text was updated in both languages to convey the same limitation.
+- Automated checks now require the clarification in both SVG files.
+
+The exact SI value remains 6.022 140 76 × 10²³ mol⁻¹. The molar mass shown for water is approximate (18.015 g mol⁻¹). This source-level correction does not replace rendered review, second-person scientific review or rights clearance; those gates remain PENDING.
