@@ -122,12 +122,6 @@ After studying this chapter, readers will be able to explain the scope of politi
 
 Это перевод единиц, а не способ самостоятельно провести юридическую границу на карте. В реальности расстояния измеряются от установленных исходных линий, учитываются географические особенности побережья, острова, возможное перекрытие зон соседних или противолежащих государств и применимые международные соглашения. ИЭЗ не означает, что всё пространство до 200 морских миль становится государственной территорией.
 
-One nautical mile is exactly 1.852 km. For a classroom calculation, if the baseline is treated as the reference point, the maximum breadths can be converted as follows:
-
-- territorial sea, up to 12 nautical miles: 12 × 1.852 = **22.224 km**;
-- exclusive economic zone, whose outer limit may extend up to 200 nautical miles from the baselines: 200 × 1.852 = **370.4 km**.
-
-This is a unit conversion, not a method for independently drawing a legally valid boundary on a map. In practice, distances are measured from established baselines; coastal geography, islands, overlapping claims involving neighbouring or opposite states, and applicable international agreements must also be considered. An EEZ does not mean that all waters out to 200 nautical miles become the state's territory.
 
 ## 10.6. Административно-территориальное устройство / Administrative and Territorial Organisation
 
@@ -601,25 +595,6 @@ A line on a political map may represent a boundary with a particular legal and c
 **Главный вывод:** абсолютное число голосовавших и процент явки отвечают на разные вопросы. В округе А проголосовало больше людей, но сравнение активности корректнее проводить по доле от числа зарегистрированных избирателей. Даже явка сама по себе не объясняет причины поведения людей: для этого нужны дополнительные исследования.
 
 ### Worked example: comparing voter turnout across districts
-
-The figures below are hypothetical and do not describe a real election. For this exercise, turnout means the number of people who cast a ballot divided by the number of registered voters. In real datasets, check the election authority's exact definition and whether the numerator includes all ballots cast, including blank or invalid ballots.
-
-| Indicator | District A | District B | Total |
-|---|---:|---:|---:|
-| Registered voters | 9,000 | 4,000 | 13,000 |
-| People who cast a ballot | 7,200 | 2,400 | 9,600 |
-| Turnout | 80% | 60% | 73.8% |
-
-**Step 1.** Calculate turnout in each district by dividing the number of people who cast a ballot by the number of registered voters and multiplying by 100%.
-
-- District A: 7,200 ÷ 9,000 × 100% = 80%.
-- District B: 2,400 ÷ 4,000 × 100% = 60%.
-
-**Step 2.** Calculate regional turnout from the combined totals: 9,600 ÷ 13,000 × 100% ≈ 73.8%.
-
-**Why not simply average the percentages?** The unweighted average is (80% + 60%) ÷ 2 = 70%. It is not the regional turnout because the districts have different numbers of registered voters. Calculate the regional rate from the combined totals, or use a weighted average in which each district's contribution reflects its registered electorate.
-
-**Main lesson:** the absolute number of people who voted and the turnout percentage answer different questions. District A had more voters, but turnout is better compared as a share of registered voters. Turnout alone does not explain why people voted or abstained; further research is needed.
 
 
 
