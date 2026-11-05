@@ -150,3 +150,26 @@ Six additional original bilingual SVGs are now integrated: 11-E, 12-D, 13-D, 14-
 All six new chapter embeds and their matching SVG files were re-fetched from workspace/geography; each embed has non-empty bilingual alt text and each relative asset path resolves to an existing file. Static SVG source checks passed. These checks do not certify live rendering, mobile layout, keyboard/screen-reader behaviour, scientific sign-off or project redistribution rights.
 
 The repository-wide 231-versus-283 inventory discrepancy remains unresolved. The 34/97 count is scoped only to Chapters 11–20 and must not be extrapolated to the whole repository.
+
+
+## Fifth-tranche update — Chapters 11–20 — 5 November 2026
+
+The 39/97 table above is superseded by the following current scoped count after integrating 11-D, 13-B, 14-E, 15-E and 16-D:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 5 | 2 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 5 | 6 |
+| **Total** | **97** | **39** | **58** |
+
+Five additional original bilingual SVGs are now integrated: 11-D, 13-B, 14-E, 15-E and 16-D. Chapters 11–16 therefore contain 23 integrated planned IDs; Chapters 17–20 contain 15. Total scoped integration is 39/97. Chapter 20.6.7 still contains one supplementary CC BY 4.0 research figure outside the planned-ID count.
+
+All five new embeds and their relative asset paths were checked against the working branch. All five SVGs passed static structure checks. This does not certify specialist review, licence assignment, responsive rendering, keyboard navigation or screen-reader output. The repository-wide 231-versus-283 visual-ID discrepancy remains unresolved; this scoped 39/97 count must not be extrapolated to other chapters.
