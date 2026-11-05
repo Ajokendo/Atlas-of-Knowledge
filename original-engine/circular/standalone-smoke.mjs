@@ -110,7 +110,7 @@ async function run(mobile) {
         });
         if (clipped.length) throw new Error(`mobile page ${i + 1} has clipped 3D labels: ${clipped.join(', ')}`);
       }
-      await book.screenshot({ path: `${dir}/${mobile ? 'mobile' : 'desktop'}-book-page-${String(i + 1).padStart(2, '0')}.png`, fullPage: false });
+      await book.screenshot({ path: `${dir}/${mobile ? 'mobile' : 'desktop'}-book-page-${String(i + 1).padStart(2, '0')}.png`, fullPage: false, timeout: 60000, animations: 'disabled' });
     }
     await book.close();
     console.log(`PASS circular standalone ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — controls, recalculation, quiz, responsive book chrome, overflow 0, axe serious/critical 0`);
