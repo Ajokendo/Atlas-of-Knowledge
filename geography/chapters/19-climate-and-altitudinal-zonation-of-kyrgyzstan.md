@@ -419,8 +419,9 @@ Belt boundaries on a schematic map are generalisations, not exact lines for ever
 
 ## 19.11. Изменение климата: наблюдения и последствия / Climate Change: Observations and Impacts
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-E / IMAGE PLACEHOLDER 19-E]** График наблюдаемого изменения температуры с указанием периода 1960–2023, источника, базового периода и неопределённости; не смешивать разные климатические наборы данных.
-> **EN:** Observed temperature-change chart stating the 1960–2023 period, source, baseline period and uncertainty; do not combine different climate datasets.
+![Линейные тренды температуры по сезонам в Кыргызстане: данные Кыргызгидромета / Seasonal linear temperature trends in Kyrgyzstan: Kyrgyzhydromet data](../assets/diagrams/19-E-kyrgyzstan-temperature-trends-bilingual.svg)
+
+*Таблица источника приводит 0,28 °C/десятилетие для года и 0,59 °C/десятилетие для весны. Заголовок таблицы указывает 1981–2020 годы, тогда как текст страницы также упоминает 1981–2021; расхождение отмечено и требует уточнения. / The source table reports 0.28°C/decade annually and 0.59°C/decade in spring. Its table heading states 1981–2020, while the page narrative also mentions 1981–2021; this discrepancy is flagged for clarification.*
 
 Кыргызстан относится к горным странам, уязвимым к изменению климата. По данным Атласа экологических изменений Программы ООН по окружающей среде, среднегодовая температура в стране выросла примерно на **1,2 °C в период 1960–2023 годов**, что превышает приведённую в том же источнике глобальную оценку за сопоставимый период. Эти значения относятся к конкретному набору данных и периоду; другие исследования могут давать отличающиеся оценки из-за различий в базовом периоде, методе и пространственном покрытии.
 
