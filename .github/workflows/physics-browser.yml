@@ -83,6 +83,8 @@ jobs:
           MODULE: circuits
           EXPECTED_PAGES: "9"
         run: node original-engine/book-smoke.mjs
+      - name: Test standalone Chapter 13 circuit schematic on desktop and mobile viewports
+        run: node original-engine/circuits/standalone-smoke.mjs
 
   fluids-isolated:
     runs-on: ubuntu-latest
