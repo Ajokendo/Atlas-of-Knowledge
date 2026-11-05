@@ -880,7 +880,7 @@ The new 18-D, 18-H, 19-C, 20-F, 20-H and 20-J SVG files were re-fetched and pass
 | Chapter | Registered IDs | Integrated | Missing |
 |---|---:|---:|---:|
 | 11 | 7 | 2 | 5 |
-| 12 | 10 | 1 | 9 |
+| 12 | 10 | 2 | 8 |
 | 13 | 11 | 2 | 9 |
 | 14 | 9 | 2 | 7 |
 | 15 | 11 | 2 | 9 |
@@ -889,6 +889,13 @@ The new 18-D, 18-H, 19-C, 20-F, 20-H and 20-J SVG files were re-fetched and pass
 | 18 | 10 | 4 | 6 |
 | 19 | 10 | 3 | 7 |
 | 20 | 11 | 5 | 6 |
-| **Total** | **97** | **26** | **71** |
+| **Total** | **97** | **27** | **70** |
 
 All seven new SVGs were re-fetched from the working branch and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element, and Cyrillic and Latin text. This is not a browser-render or assistive-technology test. Their project licence, scientific review, accessibility and live rendering remain pending.
+
+
+### Chapter 12-B — Asia macro-regions map
+
+| Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|
+| INTEGRATED | PENDING — confirm that the map's regional groupings are not confused with UN M49; this distinction is stated in the chapter and caption | PASS for source attribution and CC BY 4.0 adaptation record | PASS — bilingual side key and caption; source map labels remain English | PENDING — screen-reader output and label legibility not tested | PENDING — SVG embeds a remote MDPI image; live loading and responsive rendering untested | Adapted from Dou et al. (2018), Figure 1. The source map's region boundaries follow the study's regionalisation and RESDC data, not an official UN M49 map. Do not remove the scope caveat. |
