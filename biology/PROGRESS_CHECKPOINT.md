@@ -1219,3 +1219,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Corrected the enlarged flower detail from two visible stamens to six; added bilingual labels for six tepals and six stamens.
 - Retained the schematic/not-to-scale caveat; no fixed flower-count or population claim was added.
 - SVG commit: `ae7cd9f3cd906a136b5fd085f65ff682dc2f2656`. Global Image Verification remains Pending audit; editorial readiness remains 99/100.
+
+
+### Additional diagram corrections — 5 November 2026
+
+- Fixed the disconnected systemic venous-return arrow in `anatomy-circulation.svg`; the blue path is now continuous from the body circuit to the right atrium.
+- Completed the missing English half of the eukaryotic-cell size caveat in `systematics-domains.svg`.
+- Commits: `61f94fccd099b8323d0ef99db93e7899ab6ae762` (circulation), `31d0566a4bebf45fcb96644c5048ccc84f24b45e` (domain comparison).
+- CI and screenshot review for these updates are pending. Editorial readiness remains 99/100; no percentage increase based solely on these source edits.
