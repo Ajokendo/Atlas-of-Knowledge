@@ -691,7 +691,7 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 - Для проектов восстановления использовать подходящую эталонную экосистему или набор эталонных участков, исходное обследование и измеримые экологические и социальные показатели; оценивать траекторию восстановления, а не только площадь посадок или рост зелёной массы.
 - When interpreting camera-trap and environmental-DNA results, account for detection probability, false-positive and false-negative results, and the transport and persistence of DNA; a single detection should not automatically be treated as confirmation of a living organism at the sampling point.
 - Restoration projects should use an appropriate reference ecosystem or set of reference sites, a baseline survey and measurable ecological and social indicators; assess the recovery trajectory rather than only the planted area or increase in green cover.
-- Иллюстрации этой главы пока представлены техническими заданиями. Генерируемые карты и схемы должны пройти отдельную научную и языковую редактуру перед публикацией.
+- Визуал 07-D интегрирован как двуязычная адаптация CC BY 4.0; остальные восемь визуальных потребностей пока представлены техническими заданиями. Новые карты и схемы должны пройти отдельную научную и языковую редактуру перед публикацией.
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
@@ -727,7 +727,7 @@ The current chapter does not assign individual IUCN Red List categories to named
 - **Methods and evidence:** clarified the limitations of camera-trap photographs as abundance evidence and the spatial/temporal and false-positive/false-negative limitations of environmental DNA. Added a current 2026 methods review.
 - **Conservation and restoration:** rechecked the exact CBD wording for Targets 2 and 3. Both are global 2030 targets, not automatic 30% national-territory quotas; Target 2 concerns degraded ecosystem areas under effective restoration, while Target 3 concerns areas effectively conserved and managed. Expanded restoration assessment to include reference ecosystems, baseline conditions, ecological functions and social indicators.
 - **Standards and sources:** updated the SER Third Edition (2026) citation to its exact *Restoration Ecology* DOI; clarified the distinction between broad ecosystem restoration, SER-defined ecological restoration of native ecosystems, and rehabilitation in both languages. Retained the official IUCN Red List 2026-1 release record (9 July 2026) and the IUCN Global Ecosystem Typology source. Bibliography now has 15 references.
-- **Visual inventory:** nine unique bilingual visual IDs and matching production briefs remain placeholders. No images have been generated or integrated.
+- **Visual inventory:** nine unique bilingual visual IDs; 07-D is integrated as an adapted bilingual SVG, while the other eight remain placeholders. Integration is not verification.
 - **Release boundary:** this closes the focused text/source correction pass; it does not claim visual production, layout/rendering, accessibility, device/browser or deployment QA.
 
 ## Earlier focused scientific and editorial audit record — 5 November 2026
@@ -736,6 +736,6 @@ The current chapter does not assign individual IUCN Red List categories to named
 - **Biodiversity framework:** clarified that Kunming–Montreal Global Biodiversity Framework Target 2 concerns at least 30% of degraded ecosystems being under effective restoration by 2030; it is not a requirement to complete restoration of 30% of every country's territory by that date. Integrated in the main text and bilingual review apparatus.
 - **Restoration assessment:** added emphasis on baseline conditions, repeated seasonal monitoring, ecological outcomes (not simply tree planting or increased greenness), reference sites and the rights and practices of local land users. Integrated in the practical restoration section.
 - **Biogeographical evidence:** retained the requirement to name the classification, scale and data year when comparing biome or ecoregion maps; species-level IUCN examples must carry the assessment scope, category, criteria and dates.
-- **Visual production:** checked nine unique bilingual visual IDs and production briefs. All remain placeholders pending image production.
+- **Visual production:** checked nine unique bilingual visual IDs and production briefs. 07-D is now integrated; eight visual needs remain open.
 - **Bilingual structure:** the previous heading-ID audit found 17 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
 
