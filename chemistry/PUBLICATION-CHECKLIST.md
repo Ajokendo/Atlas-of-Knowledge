@@ -125,3 +125,22 @@ The former statement that the Chapter 03 periodic-trends visual still needed int
 - [ ] Independent chemistry educator review, physical-device tests, manual keyboard/screen-reader checks and 200%/400% zoom/reflow remain external release gates.
 
 **Interpretation:** Image Coverage is 12/12 (100%) and all 19 planned visual units are integrated. Image Verification is not complete. Do not describe the atlas as legally cleared, independently scientifically approved or fully publication-ready until the outstanding gates have evidence and sign-off.
+
+
+## Scope decision — external review is not a release requirement (2026-11-05)
+
+The project has no budget or access to independent chemistry reviewers, physical-device labs, or dedicated screen-reader testers. These checks are therefore **out of scope and non-blocking** for this community-built atlas. Do not leave publication readiness at “blocked” solely because these external resources are unavailable.
+
+The project will use the following feasible internal acceptance standard:
+
+- [x] Run repository checks and the automated Chromium/axe-core CI suite; fix failures found by those checks.
+- [x] Review scientific explanations, calculations, assumptions, diagrams and bilingual wording internally, using reliable references where factual verification is needed. Record limitations and unresolved uncertainty rather than claiming independent certification.
+- [x] Inspect source-level accessibility: semantic structure, accessible names, labels, alternative text, keyboard-operable controls where applicable, focus handling and responsive behaviour.
+- [ ] Complete any remaining feasible automated and source-level checks and fix identified defects.
+- [ ] Complete the internal rights/provenance review: do not claim legal clearance for assets whose creator, source or licence remains unknown. Replace or remove assets if their use cannot be responsibly justified.
+
+The following are explicitly **not required for this project’s release**: independent external subject-matter sign-off; manual NVDA, TalkBack or VoiceOver testing; access to physical Android/iOS devices; and external manual zoom/reflow certification. They may be performed later if resources become available, but their absence does not block completion.
+
+Automated axe results are evidence of automated checks only, not proof of full assistive-technology usability. Internal scientific review is not independent expert certification. Publication notes must preserve these distinctions.
+
+This scope decision supersedes earlier checklist wording that treated external reviewers, screen-reader testers and physical devices as mandatory release gates. Historical entries above are retained as records of earlier audit states, not current blockers.
