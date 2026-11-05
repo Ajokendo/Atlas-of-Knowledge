@@ -68,7 +68,7 @@ A focused scientific/editorial correction pass was saved across Chapters 06–10
 
 ## Priority queue
 
-1. Continue source-by-source review of Chapters 01–16, including dated data and bibliographic relevance. Initial targeted evidence pass completed for Chapters 01–10; see `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md` (2 Nov 2026).
+1. Continue source-by-source review of Chapters 01–26, including dated data and bibliographic relevance. Targeted checks are now recorded for Chapters 01–16, with uneven depth and no claim of exhaustive claim-by-claim verification; see the current milestone in `geography/SOURCE_EVIDENCE_CLOSURE_REGISTER.md` (5 Nov 2026). Next block: Chapters 17–21.
 2. Finish the remaining map-source checks for Kyrgyzstan's administrative, geological, climate, hydrological, biodiversity and protected-area layers.
 3. Perform final Russian/English proofreading and resolve terminology/translation asymmetries.
 4. Build the bilingual web reader and test chapter navigation, accessibility and mobile layout.
