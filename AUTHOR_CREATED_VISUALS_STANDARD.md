@@ -2,7 +2,7 @@
 ## Authorship, provenance, licensing, and verification of original project visuals
 
 **Document ID:** AOK-IMG-C-001  
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** Mandatory companion standard  
 **Applies to:** Every current and future Atlas of Knowledge discipline and every project-created visual asset  
 **Governing policy:** `IMAGE_FIRST_POLICY.md`  
@@ -287,7 +287,8 @@ Suggested concise record:
 | Licensor authority | Evidence of authority to apply the licence |
 | Files covered | Every public variant and its path |
 | Attribution | Exact credit line |
-| Review gates | Seven check results with evidence |
+| Review gates | Seven internal gate results with evidence |
+| External review | Not requested / pending / PASS / FAIL; specialist, credentials, scope, date, report/evidence |
 | Final status | INTEGRATED or VERIFIED, as justified |
 
 ## 10. Versioning and change control
@@ -316,10 +317,10 @@ A retrospective search can help identify alternatives and sources, but it cannot
 
 ## 12. Final rule
 
-**A project-created visual is not verified because we made it. It is verified only when its origin is traceable, its rights are established, its educational content is independently reviewed, its language and accessibility are checked, its implementation works, and the evidence is recorded.**
+**A project-created visual is not verified because we made it. It is internally verified only when its origin is traceable, its rights are established, its educational content is reviewed by a competent reviewer distinct from the creator, its language and accessibility are checked, its implementation works, and the evidence is recorded. External specialist review may add a further level of assurance but is not a universal publication prerequisite.**
 
 The `VERIFIED` status is a project quality-control decision. It is not a legal opinion, a guarantee of copyright ownership, or a substitute for expert review.
 
 ---
 
-**End of AUTHOR-CREATED VISUALS STANDARD v1.0**
+**End of AUTHOR-CREATED VISUALS STANDARD v1.1**
