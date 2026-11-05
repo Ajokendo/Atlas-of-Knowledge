@@ -376,8 +376,9 @@ When analysing digital elevation models, consider resolution, vertical accuracy,
 
 ## 14.11. Топология и качество пространственных данных / Topology and Spatial Data Quality
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-H / IMAGE PLACEHOLDER 14-H]** Примеры топологических ошибок: зазор, наложение, разрыв линии, дубликат и неверная CRS; подписать каждый дефект.
-> **EN:** Illustrate topology errors such as gaps, overlaps, disconnected lines, duplicates and incorrect CRS; label each defect.
+![Типичные топологические ошибки / Common topology errors](../assets/diagrams/14-H-topology-errors-bilingual.svg)
+
+*Проверочные правила зависят от модели данных: не каждый зазор или висячий узел является ошибкой в каждом наборе. / Validation rules depend on the data model: not every gap or dangling node is an error in every dataset.*
 
 
 Топология описывает пространственные отношения между объектами: смежность, связность, вложенность и пересечение.
