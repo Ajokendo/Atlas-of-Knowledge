@@ -74,12 +74,12 @@ A separate Category C AI-generated teaching plate is integrated at `chapters/flo
 - The upright stem, elongated leaves, nodding campanulate flowers and upper leaf-like bract tuft are consistent with the cited descriptions at the level of a general educational plate.
 - The six-tepal/six-stamen floral detail is consistent with the basic floral plan of `Fritillaria`; it is a structural teaching view, not a claim that all details or proportions were measured from a local specimen.
 - The displayed red-brown/orange palette is plausible within the regional orange-red descriptions, but colour is variable and should not be used as a diagnostic claim.
-- The separate bulb and capsule studies are not yet independently checked against a species-specific voucher or authoritative detailed description. Treat them as generic supporting studies, not as verified diagnostic depictions of `F. eduardii`.
+- The separate bulb and capsule studies are not yet supported by a sufficiently specific source or specimen-level description. Treat them as generic supporting studies, not as diagnostic depictions of `F. eduardii`; do not add diagnostic claims without adequate published evidence.
 - Do not add a fixed flower count, exact plant height, precise locality, flowering date, population estimate or conservation-status label to the plate without a matching source and scope.
 
 ### Disposition
 
-**Internal scientific review: PARTIAL — NOT VERIFIED.** The broad habit and flower architecture are source-consistent, but the bulb/capsule details and species-level proportions require a competent second-person botanical review before the asset can be marked `VERIFIED`. No independent external specialist review has been recorded. No documentary or herbarium specimen status is implied.
+**Internal scientific review: PARTIAL.** The broad habit and flower architecture are consistent with cited published descriptions. Bulb/capsule details and species-level proportions are not sufficiently substantiated; keep them generic or remove them. No documentary or herbarium specimen status is implied. `VERIFIED` is not assigned because the applicable internal evidence and visual checks are not yet complete.
 
 
 ## Follow-up browser and targeted screenshot review — 5 November 2026
@@ -90,7 +90,7 @@ This section supersedes the older 4 November status note above for the latest br
 - The browser screenshot also confirms the snow-leopard, argali and Siberian-ibex habitat reconstruction remains present in the intended card. The silhouettes are deliberately schematic; the screenshot confirms rendering and the presence of the intended visual cues, not zoological specimen-level accuracy.
 - The same successful later workflow re-tests the freshwater prose correction that removed the literal escaped newline artifact. The previously clipped right-hand mountain-stream panel remains corrected, as confirmed in the earlier follow-up screenshot review.
 - IUCN Red List and CMS/CAMI references support the broad argali taxon, Kyrgyzstan occurrence and mountain/open-habitat context. They do not amount to independent validation of the exact stylised horn shape or the entire illustration. Relevant references: https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T15733A22146397.en and https://www.cms.int/species/ovis-ammon.
-- **Disposition unchanged:** internal source-level review is documented, but independent zoologist review and complete human visual acceptance of all P1 assets remain pending. Do not change any asset to `VERIFIED` solely because CI or screenshot rendering passed. Rights/licence clearance remains a separate gate.
+- **Disposition unchanged:** internal source-level review is documented, but internal rendered visual inspection and asset-specific evidence checks remain open for some P1 assets. Do not change any asset to `VERIFIED` solely because CI or screenshot rendering passed. Rights/licence clearance remains a separate gate.
 
 Current counts: P1 review-register entries **13/13**; visual coverage **53/53 (100%)**; overall editorial readiness **99/100**. These are different measures and must not be conflated.
 
