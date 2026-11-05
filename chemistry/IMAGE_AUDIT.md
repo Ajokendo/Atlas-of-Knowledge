@@ -551,3 +551,12 @@ Changes saved:
 - Automated checks now require the clarification in both SVG files.
 
 The exact SI value remains 6.022 140 76 × 10²³ mol⁻¹. The molar mass shown for water is approximate (18.015 g mol⁻¹). This source-level correction does not replace rendered review, second-person scientific review or rights clearance; those gates remain PENDING.
+
+
+## CH-V04 chemical-formula reading parity correction — 5 November 2026
+
+The first-pass bilingual comparison found that the Russian formula-reading visual expanded the leading coefficient example `2H₂O` into `4 H atoms + 2 O atoms`, while the English visual only stated that the coefficient multiplies every atom. The core rule was correct, but the English teaching example was less explicit.
+
+The English SVG now shows the same worked expansion as the Russian version: `2 × (2 H + 1 O) = 4 H atoms + 2 O atoms`. The regression checks require the corresponding example and the distinction between coefficient and subscript in both languages.
+
+This closes the identified source-level parity gap only. It does not constitute a rendered-layout pass; the revised English lower panel must be checked for clipping at desktop and mobile widths. Scientific second-person review and rights evidence remain PENDING.
