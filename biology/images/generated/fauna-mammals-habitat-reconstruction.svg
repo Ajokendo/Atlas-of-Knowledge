@@ -36,6 +36,10 @@
  <path d="M153 49 181 34 199 49 183 68 160 67Z" fill="#9b8a70"/>
  <path d="M169 42Q177 -5 218 2Q252 10 238 43Q230 58 215 47Q232 35 223 23Q210 10 197 27Q187 42 191 57" fill="none" stroke="#b5a27e" stroke-width="13"/>
  <path d="M171 43Q170 1 140 0Q108 1 116 34Q120 49 137 42Q124 33 133 21Q146 10 155 29Q160 42 155 54" fill="none" stroke="#b5a27e" stroke-width="11"/>
+ <g fill="none" stroke="#887451" stroke-width="2.5" stroke-linecap="round">
+  <path d="M174 28l10 2M180 12l11 3M193 0l10 4M211 -2l10 5M229 7l8 8M241 24l-2 10M233 43l-8 5"/>
+  <path d="M166 28l-9 2M161 12l-10 3M148 1l-9 4M130 4l-8 7M116 23l2 10M124 42l9 4"/>
+ </g>
  <path d="M191 51l22 2-8 12-17-2" fill="#6d6254"/>
  <circle cx="192" cy="45" r="3" fill="#211f1b" stroke="none"/>
 </g>
