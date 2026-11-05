@@ -40,6 +40,8 @@ jobs:
           exit 1
       - name: Test Chapter 14–15 new visual assets on desktop and mobile viewports
         run: node original-engine/visual-assets-smoke.mjs
+      - name: Check contextual canvas labels across all 15 chapters
+        run: node original-engine/canvas-accessibility-smoke.mjs
       - name: Upload Chapter 14–15 visual review screenshots
         if: always()
         uses: actions/upload-artifact@v4
