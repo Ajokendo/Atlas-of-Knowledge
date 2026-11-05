@@ -529,7 +529,7 @@ Integrated 16 original bilingual conceptual SVGs: Chapter 21 (five: vegetation b
 
 ## Chapter 01 — mobile-first visual revision — 5 November 2026
 
-The five existing Chapter 01 visual IDs remain unchanged and fully integrated in RU/EN. Their local SVG files were re-composed with portrait-oriented viewBoxes, larger bilingual text and vertically stacked layouts. This is a readability/layout revision, not an increase in Image Coverage. Current coverage remains 5/5 (100%); none is VERIFIED pending formal internal review, rights, accessibility and rendered technical checks listed in IMAGE_AUDIT.md.
+The five existing Chapter 01 visual IDs remain unchanged and fully integrated in RU/EN. Their local SVG files were re-composed with portrait-oriented viewBoxes, larger bilingual text and vertically stacked layouts. This is a readability/layout revision, not an increase in Image Coverage. Current coverage remains 5/5 (100%). Rights: PASS on the documented source licence for 01-D and the project owner's authority representation for CC BY-NC 4.0 on 01-A/B/C/E. Static SVG structure QA: PASS 5/5. None is VERIFIED pending formal competent internal review, rendered browser/device QA and assistive-technology output checks listed in IMAGE_AUDIT.md.
 
 
 ## Chapter 01 — licence authority confirmation — 5 November 2026
