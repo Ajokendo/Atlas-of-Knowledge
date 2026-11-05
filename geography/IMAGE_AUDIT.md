@@ -445,7 +445,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 06 | 15 | Matches the current 15-ID inventory. |
 | 07 | 9 | 7 integrated (07-A, 07-B, 07-D, 07-F, 07-G, 07-H, 07-I); two map needs remain open (07-C, 07-E). |
 | 08 | 7 | Matches the current inventory. |
-| 09 | 7 | Confirms 09-A–09-G; 09-G is a placeholder and is recorded as MISSING. |
+| 09 | 7 | Matches the current inventory: 09-B, 09-C, 09-D, 09-F and 09-G integrated; 09-A and 09-E remain open. |
 | 10 | 7 | Matches the current inventory. |
 | 11 | 7 | Matches the current inventory. |
 | 12 | 10 | Matches the current inventory. |
