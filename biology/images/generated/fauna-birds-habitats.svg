@@ -18,6 +18,7 @@
  <path d="M145 76Q95 52 28 7Q58 72 104 103Q57 99 0 76Q47 132 118 133L157 119 194 133Q265 130 310 76Q252 98 205 103Q250 72 282 7Q215 51 166 76Z"/>
  <path d="M144 77Q155 52 174 47L195 70 181 103 156 112 136 98Z" fill="#9b7544"/>
  <path d="m178 53 28-13 20 10-17 17-22-1z" fill="#8d6a3f"/>
+ <path d="M181 52q12-15 27-11l8 7q-13 0-24 13z" fill="#c39a4f" stroke="none"/>
  <path d="m223 50 20 8-18 9" fill="#d7b65d"/>
  <path d="M155 112 143 145 163 128 179 146 174 111" fill="#5d472e"/>
 </g>
@@ -26,8 +27,9 @@
  <path d="M30 68Q62 27 132 35Q178 43 195 77L175 101Q106 117 45 96Z" fill="#b9b8a9"/>
  <path d="M53 91 48 145 66 146 80 104M145 97 148 145 166 145 171 91" fill="#8c8879"/>
  <path d="M181 70 203 53 225 66 207 88 184 87Z" fill="#a6a18e"/>
- <path d="M200 54 211 38 224 55 217 70" fill="#b9b8a9"/>
+ <path d="M200 54 211 38 224 55 217 70" fill="#d8d5c9"/>
  <path d="M204 48 214 42 224 47" fill="none"/>
+ <path d="M184 67q8-9 18-7M188 77q8-8 17-7" fill="none" stroke="#9a6247" stroke-width="5" stroke-linecap="round"/>
  <path d="M223 64 240 69 225 77" fill="#b68a54"/>
  <circle cx="214" cy="58" r="3" fill="#222" stroke="none"/>
  <path d="M28 83Q5 76 0 61" fill="none" stroke="#d6d1bd" stroke-width="12"/>
