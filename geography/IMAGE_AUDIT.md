@@ -57,8 +57,8 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 
 **Separate metrics (5 November 2026):**
 - **Image Coverage:** 151/281 named IDs have an image embedded in the relevant chapter source. This measures presence only.
-- **Image Verification:** 0/149 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 132 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Verification:** 0/151 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 130 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -443,7 +443,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
 | 05 | 17 named IDs | Seventeen named visual IDs now have image assets embedded in both language sections, including 5.18-A. The chapter's legacy inventory still claims 20 positions; two labels remain unresolved, and provisional 5.10-A/5.13-A entries are not accepted as confirmed IDs. |
 | 06 | 15 | Matches the current 15-ID inventory. |
-| 07 | 9 | Matches the current inventory; 07-D is integrated and eight needs remain open. |
+| 07 | 9 | 5 integrated (07-A, 07-B, 07-D, 07-G, 07-I); four visual needs remain open. |
 | 08 | 7 | Matches the current inventory. |
 | 09 | 7 | Confirms 09-A–09-G; 09-G is a placeholder and is recorded as MISSING. |
 | 10 | 7 | Matches the current inventory. |
