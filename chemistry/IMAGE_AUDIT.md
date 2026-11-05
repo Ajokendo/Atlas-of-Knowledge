@@ -365,3 +365,16 @@ The 100% figure above is **Image Coverage only**. It does not mean the visual se
 ## Git-history review of unresolved original SVGs — 2026-11-05
 
 Path-specific history was checked for the 12 original SVG files that still lacked file-level authoring/source evidence. Their first repository commits are now recorded in the Git-history evidence table at the end of `IMAGE_SOURCES.md`. All 12 first-introduction commits identify the repository account `Ajokendo` as author and committer, with messages indicating addition or localization of illustrations. This proves repository introduction history only; it does not establish AI generation, human authorship, external-source independence, rightsholder identity or a licence. These 12 files therefore remain Unknown/PENDING. The previously documented 10/22 file-level AI-generation evidence remains unchanged; the newly integrated CH-V12 is separately documented as a code-authored SVG pair from this session.
+
+
+## Provenance remediation — 12 unresolved SVGs replaced (2026-11-05)
+
+The 12 SVG files whose creator/source history could not be established have now been replaced in place with newly authored project-specific SVG source created in this session. The replacements use no external image or SVG source artwork. Exact file paths and source commit IDs are recorded in `IMAGE_SOURCES.md`.
+
+- [x] Replaced all 12 files previously listed as Unknown/PENDING for source provenance.
+- [x] Kept filenames and existing page references stable.
+- [x] Added localized SVG title and description metadata to the replacements.
+- [ ] Re-run branch-head static and browser CI after the replacement commits.
+- [ ] Inspect rendered replacements at the page level and correct any clipping, overlap, or text-layout defects found.
+
+**Updated provenance interpretation:** the 12 replacement files have an explicit in-session creation record and are now Category C for creator/method tracking. The previous unknown-origin versions are superseded. The other pre-existing assets retain their own evidence; this remediation does not retroactively prove the provenance of those other assets, and it does not imply independent expert review.
