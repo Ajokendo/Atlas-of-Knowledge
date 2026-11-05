@@ -5,7 +5,7 @@
 **Anchor:** `image-brief-fauna-freshwater`  
 **Target:** `images/generated/fauna-freshwater.webp`  
 **Priority:** P1  
-**Disposition:** Original schematic SVG produced and integrated on 3 November 2026. The audit remains the scientific constraint record; browser/device visual QA is still pending.
+**Disposition (updated 5 November 2026):** Original schematic SVG produced and integrated on 3 November 2026. Initial automated image-decode/SVG-geometry checks passed in workflow `42015846138`, but manual inspection of its full-page screenshot exposed a clipped/blank right-hand mountain-stream panel. The clip-path origin was corrected in commit `9d510205ea6805ed0cd1409d7cd2e6eb61d5886a`. Inspect the new workflow screenshot before accepting the composition; automated decode alone did not catch this clipping issue.
 
 ## Evidence checked in the chapter
 
