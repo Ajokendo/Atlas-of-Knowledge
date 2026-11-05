@@ -616,3 +616,16 @@ All eight contain a `viewBox`, SVG `title`, `desc` and `role="img"`; both Cyrill
 The source chart is the official ICS version 2026/06, reused unchanged under CC BY 4.0. Its embedded labels are English-only. The Russian chapter section now includes a compact key translating the hierarchy and principal eons/eras; the English section now includes the equivalent bilingual guide. Both sections distinguish geochronological time units (eon, era, period, epoch, age) from chronostratigraphic rock units (eonothem, erathem, system, series, stage), and explain that the chart layout is non-linear. The previous editorial instruction beginning “Vertical geological time scale…” has been removed from the learner-facing text.
 
 **Result:** source rights PASS for unchanged reuse; bilingual explanatory parity PASS at the surrounding-text level; no claim of a complete translation of every label in the source chart. Scientific age-boundary verification, full alt-text quality and deployed rendering remain PENDING.
+
+
+### Chapter 04 — Visual 4.14-B: DEM, DSM and DTM
+
+The static content review found a misleading DTM depiction: the original graphic described it as a “terrain representation” and included a dashed subsurface line, while the adjacent chapter text correctly defines a DTM as a model intended to represent bare ground. Corrected the SVG description and labels to state that the DTM panel shows bare-earth terrain with buildings and vegetation removed, and removed the subsurface line so the figure no longer suggests that a DTM represents underground geology. The chapter text continues to warn that DEM/DTM terminology varies by provider and that dataset metadata must be checked.
+
+**Result:** conceptual definition now aligns with the chapter explanation; scientific concept check PASS for the distinction represented. Rights/creator provenance for the project-local SVG, detailed alt-text review and rendered layout remain PENDING.
+
+### Chapter 04 — Visual 4.15-B: topographic-map exercise
+
+Cross-checked the diagram's elevations and distances against the chapter's bilingual answer key. A–C: 40 m rise over 500 m horizontal distance = 8% gradient (about 4.6°); C–B: 20 m over 750 m = about 2.7% (about 1.5°). Spot heights A=100 m, C=140 m and B=160 m are internally consistent. The exercise is explicitly schematic and not for navigation.
+
+**Result:** arithmetic and diagram-label consistency PASS. Rights/creator provenance, full accessibility and rendered technical checks remain PENDING.
