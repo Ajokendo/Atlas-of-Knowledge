@@ -480,7 +480,7 @@ Asset: `images/generated/flora-batken-aygul-botanical-plate.webp`, displayed at 
 - **Visual Coverage — PRESENT (supplementary):** the Batken/Aygul-Tash section contains both the primary SVG schematic and a separate supplementary botanical plate. This confirms placement, not completeness of visual coverage for the whole chapter.
 - **Internal Verification — IN PROGRESS / NOT VERIFIED:** a visual inspection of the 1,199 × 1,312 working candidate shows an upright leafy plant, nodding reddish bell-shaped flowers, and separate flower, leaf, fruit and bulb studies. The six-tepal/six-stamen detail is a useful teaching representation, but this inspection alone does not establish all species-specific morphology, organ proportions, phenology or the exact depicted bulb/fruit morphology. Do not label this new plate VERIFIED. The existing species review for the SVG is not a substitute for review of this separate generated plate.
 - **External review:** excluded from project scope and not tracked as a pending task or verification metric.
-- **Rights Clearance — PARTIAL / PENDING:** provenance is recorded as generated in ChatGPT at the user's request and no third-party image source is claimed. No separate reuse licence has been assigned to this plate; do not infer CC BY, CC BY-NC or public-domain status from generation alone.
+- **Project-use authorization — PASS:** generated in ChatGPT at the project owner's explicit request for this Atlas. OpenAI Terms of Use effective 1 January 2026, Section “Content”, assign the Output to the user as between user and OpenAI, to the extent permitted by applicable law (https://openai.com/policies/terms-of-use/). No third-party image source is involved. No separate CC/public-domain licence is assigned; do not claim copyright exclusivity or a particular open licence. This is a documented project-use basis, not legal advice.
 
 **Binary implementation note:** the committed repository derivative is recorded in the disposition register as 320 × 292 px / 7,196 bytes. A higher-resolution 1,199 × 1,312 px WebP working candidate is available in the current working container (353,604 bytes; SHA-256 `6a0d714c30d70856b29bebc699a1cff77e97d502a5ea455560bfa2ddede53b0c`), but it has not been committed to the Biology branch in this operation. Therefore the repository page must continue to use the already committed asset; do not claim that the high-resolution candidate is live.
 
@@ -525,7 +525,7 @@ This section supersedes older policy-version references and any historical wordi
 
 ### Aygul supplementary plate — current disposition
 
-The new `flora-batken-aygul-botanical-plate.webp` is included within the existing Batken flora visual brief, not counted as a 54th brief. It is Category C, AI-generated educational artwork, not documentary evidence. The source register records its prompt/session origin, repository derivative checksum, morphology scope and limitations. The unresolved internal items are Gate 2 (project rights/licensing authority), Gate 5 (manual learner/accessibility review), Gate 6 (focused rendered review) and Gate 7 (internal final approval). No second-person or external review gate applies. Automated CI run 41968952829 passed after its integration, but that alone does not close those gates.
+The new `flora-batken-aygul-botanical-plate.webp` is included within the existing Batken flora visual brief, not counted as a 54th brief. It is Category C, AI-generated educational artwork, not documentary evidence. The source register records its prompt/session origin, repository derivative checksum, morphology scope and limitations. The remaining internal items are Gate 5 (project-team accessibility/device checks where feasible), Gate 6 (focused rendered inspection) and Gate 7 (internal final disposition). Project-use authorization is recorded as PASS; no separate open licence is assigned. No second-person or external review gate applies. Automated CI run 41968952829 passed after its integration, but that alone does not close those gates.
 
 ### Reporting rule
 
@@ -706,3 +706,12 @@ This section supersedes older status summaries and policy references in this fil
 - **Current remaining work:** resolve actual internal morphology/source/rights issues; complete screenshot-level visual inspection where screenshots are accessible to the project team; and complete internal accessibility/device checks where feasible. If an image detail cannot be supported, simplify or qualify it rather than inventing certainty.
 
 No blanket `VERIFIED` status or Image Verification percentage is claimed.
+
+
+## Aygul plate — rights and active-source clarification — 5 November 2026
+
+The prior rights hold is closed for **use within this Atlas**. The project owner requested the ChatGPT-generated artwork for this project. OpenAI Terms of Use effective 1 January 2026 state that, as between the user and OpenAI and to the extent permitted by applicable law, the user owns Output and OpenAI assigns its right, title and interest, if any, in Output (Section “Content”): https://openai.com/policies/terms-of-use/. No third-party source is used. The image remains identified as AI-generated; no CC or public-domain licence is claimed, and no guarantee of copyright exclusivity is implied.
+
+The committed 320 × 292 WebP derivative is the only active supplementary plate. The uncommitted 1199 × 1312 working PNG is not a release asset and must not be substituted without a separate source/morphology/rendered review. The source contains additional bulb/capsule studies that are not used as evidence in the chapter. The active derivative and bilingual caption are restricted to the general above-ground plant and flower illustration; no bulb/capsule claim, population estimate or exact locality is made.
+
+The remaining status is internal rendered inspection and detailed morphology/learner-accessibility review where feasible. External specialist or teacher review is excluded and is not a blocker.
