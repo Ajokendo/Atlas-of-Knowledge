@@ -262,6 +262,8 @@ The project owner confirmed on 5 Nov 2026 that they or an authorised project org
 
 For 01-D (Category B), exact source identity, creator, CC BY 4.0 licence, attribution and changes are documented and PASS. ChatGPT GPT-6 internal conceptual review is PASS. Actual screen-reader output and rendered browser/device checks remain untested. External expert review is outside this development workflow and is not required for this internal pass.
 
+**Deployment/test-environment check — 5 November 2026:** the `workspace/geography` branch's `.github/workflows/pages.yml` publishes only on pushes to `main` (or manual dispatch). No deployment of this working branch or branch-specific preview URL is established by that workflow. The main-branch deployment was not triggered or modified for this review. Consequently, live browser rendering, responsive breakpoints, keyboard operation and screen-reader output cannot be honestly marked PASS from the current branch state. Static source validation remains the only completed technical check for Chapter 01.
+
 | 02 | 2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 02 | 2.1-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 02 | 2.2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
