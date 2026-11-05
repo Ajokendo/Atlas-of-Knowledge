@@ -834,3 +834,9 @@ Reviewed the embedded titles, descriptions and visible bilingual labels in the f
 - `fauna-mammals-habitat-reconstruction.svg`: snow leopard, argali and Siberian ibex are shown in separate habitat scenes; the bilingual description explicitly rejects co-occurrence at one site, range-map and census interpretations.
 
 No source-text correction was justified in this batch. This is a targeted internal review of SVG metadata and embedded labels; it does not close detailed visual legibility, pixel-level layout, source-to-image identity, asset-specific rights, or fine morphology checks. No asset is marked `VERIFIED` solely from this source review.
+
+## Vertebrate comparison illustration overlap correction — 5 November 2026
+
+Manual inspection of the latest full-page Chromium screenshot at 1365 px found that the bird's feet and mammal's lower legs overlapped their explanatory caption lines in `zoology-vertebrates.svg`. The illustration paths were grouped and shifted upward by 20 SVG units, leaving the caption baselines unobstructed while retaining the original panel geometry and text positions. A targeted regression assertion now requires both illustration transforms to remain present.
+
+This is a confirmed rendered-layout defect and source-level correction. The new screenshot must still be inspected after the current commit's Chromium run; no post-fix visual pass is claimed yet.
