@@ -386,6 +386,15 @@ async function checkChapterPage(mobile = false) {
     if (correctAnswerState.pressed !== 'true' || correctAnswerState.result !== 'correct') {
       throw new Error('Chapter 1 quiz did not expose a clear accessible correct-answer state');
     }
+    await page.locator('.answers button[data-answer="a"]').click();
+    const incorrectAnswerState = await page.locator('.answers button[data-answer="a"]').evaluate(el => ({
+      pressed: el.getAttribute('aria-pressed'),
+      result: el.dataset.result,
+    }));
+    if (incorrectAnswerState.pressed !== 'true' || incorrectAnswerState.result !== 'incorrect') {
+      throw new Error('Chapter 1 quiz did not expose a clear accessible incorrect-answer state');
+    }
+    await page.locator('.answers button[data-answer="b"]').click();
 
     const axe = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
