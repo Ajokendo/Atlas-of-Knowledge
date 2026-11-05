@@ -14,7 +14,7 @@ This file is the Geography audit required by policy v1.1. It records the IDs tha
 
 The atlas-wide source relationship and complete source-work inventory are not yet established. Determine provenance asset by asset. Record original work, creator/rightsholder, edition/version, source location, inheritance relationship, changes and the permission/licence for actual reproduction and adaptation. Classify A — Original reuse, B — Adapted or C — Created separately from rights status. Mark unknown values Unknown / PENDING. Do not infer authorship or permission from repository ownership, public availability or prior integration. Do not repeat discovery searches for an identifiable unchanged inherited visual solely to satisfy image-first; verify lineage, rights, scientific meaning, localisation, accessibility and rendering. Search for a replacement when an asset is missing, unsuitable, inaccurate, inaccessible, rights-restricted or needs replacement. Translating surrounding captions/alt text alone does not change the visual category; translating embedded labels or substantively editing the visual is adaptation.
 
-Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–04 (with unresolved creator/licence fields for project-local SVGs) and one MISSING gap record for Chapter 09-G. Chapter 05 has its separate visual register; its full source-register migration is still pending. Chapters 06–08 and 10–26 are not source-verified by the existence of IDs or briefs.
+Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–04 (with unresolved creator/licence fields for project-local SVGs) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 integrated IDs are now represented in IMAGE_SOURCES.md; the separate register is retained as production history. Chapters 06–08 and 10–26 are not source-verified by the existence of IDs or briefs.
 
 ## 3. Geography-specific checks
 
@@ -578,3 +578,12 @@ The source scan of all 21 chapter files 06–26 identified 210 distinct visual I
 | **Total** | **210** | **4** | **206** |
 
 This is a source-tree and chapter-embed finding, not a judgment that these visuals are unnecessary. These 206 gaps require image-first discovery and/or creation after the learning need and source requirements are defined. No visual is counted as integrated merely because a placeholder or bilingual brief exists.
+
+
+## 7. Chapter 05 provenance migration checkpoint — 5 November 2026
+
+- Consolidated all 16 integrated Chapter 05 visual IDs into `IMAGE_SOURCES.md`, preserving aliases (5-A / 5.2-A and 5-C / 5.6-A) and distinguishing IDs from the 20 unique image URLs.
+- Kept 5.18-A as MISSING; it is a specified exercise placeholder, not an integrated asset.
+- The migration does **not** promote the 16 assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the UCAR-hosted IPCC energy-budget figure, NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components.
+- Chapter Markdown parity remains a source-level check only: 40 image embeds, 20 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
+- Chapter 05 source-register coverage is now documented; overall Geography image coverage is still not calculable because the 231-versus-283 inventory discrepancy and two unnamed Chapter 05 inventory slots remain unresolved.
