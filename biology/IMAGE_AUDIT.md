@@ -617,3 +617,17 @@ Asset: `images/generated/biochem-respiration.svg`, integrated in `chapters/bioch
 This is a source-level author-side/AI-assisted review. It is not a rendered-browser acceptance, competent second-person scientific approval, physical-device/accessibility test, or rights-holder/licence clearance. Keep these assets outside `VERIFIED` until the applicable gates have independent evidence. No new visual brief is counted.
 
 References: OpenStax Biology 2e — https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle ; https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation ; OpenStax Anatomy & Physiology 2e — https://openstax.org/books/anatomy-and-physiology-2e/pages/1-5-homeostasis ; https://openstax.org/books/anatomy-and-physiology/pages/24-6-energy-and-heat-balance .
+
+
+## Evolution diagrams — focused source-level review and corrections — 5 November 2026
+
+Assets: `images/generated/evolution-tree.svg`, `evolution-homology.svg`, and `evolution-timeline.svg`, mapped to the existing evolution visual briefs.
+
+- **Phylogenetic tree:** clarified the leftmost label as an ancestral lineage rather than implying that the root marker itself is the immediate branching node. The A+B clade remains correctly highlighted; branch lengths remain explicitly schematic.
+- **Homology and analogy:** corrected the horse forelimb schematic to show the reduced, partly fused ulna, dominant third metacarpal, reduced splint bones and one functional weight-bearing digit. The bilingual SVG description now states these qualifications. The plate remains a simplified comparative teaching diagram, not a specimen-level anatomical atlas; a qualified second reviewer should inspect the limb proportions and all other taxa before scientific approval.
+- **Geological timeline:** corrected the proportional eon-band widths and tick positions on the 4.54 Ga main axis. The 4.0 Ga, 2.5 Ga and 539 Ma boundaries now align with the elapsed-time scale; Phanerozoic is labelled bilingually. The lower Phanerozoic overview remains an explicitly magnified sequence, not a proportional timeline.
+- **No new visual brief was created.** These are corrections to existing Category C project diagrams.
+
+### Verification limits
+
+The edits were saved directly to `workspace/biology`. They are source-level corrections only. Re-fetch/hash verification, Chromium rendered review, bilingual visual inspection at mobile width, competent second-person scientific review and rights/authority confirmation remain separate gates. Do not mark these assets `VERIFIED` on the basis of these edits or CI alone.
