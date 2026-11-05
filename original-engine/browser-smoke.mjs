@@ -167,6 +167,25 @@ async function checkLab(lab, mobile) {
       }
       if (i === 0) {
         await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 8000 });
+        await page.waitForTimeout(1800);
+        const staffView = await page.evaluate(() => {
+          const E = window.__atlas.E, group = E.ASM.staff, box = new E.THREE.Box3();
+          let meshCount = 0, visibleMeshCount = 0;
+          group.updateMatrixWorld(true);
+          group.traverse(object => {
+            if (object.isMesh && object.userData.part !== undefined) {
+              meshCount++;
+              if (object.visible) { visibleMeshCount++; box.expandByObject(object); }
+            }
+          });
+          const sphere = box.getBoundingSphere(new E.THREE.Sphere());
+          const center = sphere.center.clone().project(E.camera);
+          return { meshCount, visibleMeshCount, radius: sphere.radius, projectedCenter: [center.x, center.y, center.z] };
+        });
+        console.log(`KINEMATICS STAFF CAMERA ${JSON.stringify(staffView)}`);
+        if (staffView.meshCount < 2 || staffView.visibleMeshCount < 2 || staffView.radius < 1 || Math.abs(staffView.projectedCenter[0]) > 0.55 || Math.abs(staffView.projectedCenter[1]) > 0.55 || staffView.projectedCenter[2] > 1) {
+          throw new Error('The selected position-axis assembly is not visibly framed by the 3D camera');
+        }
       }
       if (i === 1) {
         await picker.focus();
