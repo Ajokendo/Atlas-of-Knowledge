@@ -962,3 +962,19 @@ Expanded translations include:
 - Chapter 20: water balance, glaciers, rivers and basins, river regimes, groundwater, major lakes, reservoirs, transboundary management, glacial-lake hazards, water security and practical activities.
 
 **Result:** no numbered content section in Chapters 11–20 remains flagged by the word-coverage heuristic. The only flagged sections are bilingual glossaries, where paired Russian and English terms are expected rather than full English prose. This is a structural/coverage check, not a semantic translation review; sentence-by-sentence equivalence, terminology consistency and independent proofreading remain open. The readiness rubric therefore awards 18/20 for bilingual development in Chapters 11–20 and withholds two points for those remaining checks.
+
+
+### Chapters 11–16 — fourth visual integration tranche — 5 November 2026
+
+| Chapter | Source / evidence | Result | Action / limitation |
+|---|---|---|---|
+| 11 | Chapter 11 agricultural-location diagram | Conceptual model only | Climate, soils, relief, water, labour, markets and transport are shown as interacting location factors. It is not a crop-suitability map or evidence for a specific Kyrgyz region. |
+| 12 | Statistics Canada, **Spatial data quality elements** | Official methodological guidance checked | Lineage, positional accuracy, attribute accuracy, logical consistency and completeness inform the regional-comparability checklist. The diagram additionally flags boundaries, dates, classification, units/denominators, source/method and uncertainty. |
+| 13 | EIA / SEA / monitoring distinction | Conceptual and procedural distinction checked | The diagram separates project-level assessment, strategic assessment of policies/plans/programmes and repeated monitoring. It deliberately avoids claiming that legal procedures are identical across jurisdictions. Country-specific statutory terms require national primary-law sources. |
+| 14 | QGIS Documentation, **Vector Spatial Analysis (Buffers)** | Official software-method reference checked | Confirms the purpose and logic of buffers and polygon overlay, including intersection, union, symmetrical difference and difference. The diagram is conceptual, not a screenshot or a promise that every GIS package implements identical options. |
+| 15 | USGS Landsat NDVI, NDMI and NBR documentation; McFeeters (1996); Gao (1996); Zha, Gao & Ni (2003) | Formula and band mapping checked | NDVI: (NIR−Red)/(NIR+Red); NDMI: (NIR−SWIR1)/(NIR+SWIR1); McFeeters NDWI: (Green−NIR)/(Green+NIR); NDBI: (SWIR1−NIR)/(SWIR1+NIR); NBR: (NIR−SWIR2)/(NIR+SWIR2). Landsat 8–9 and Sentinel-2 band identifiers are shown separately. Gao's NIR–SWIR vegetation-water NDWI is explicitly identified as a different index, preventing the common same-name ambiguity. Formula definitions do not supply universal land-cover thresholds; local validation remains required. |
+| 16 | Statistics Canada spatial-data quality guidance and sampling-method definitions | Conceptual sampling definitions checked | Diagram distinguishes simple random, systematic (random start plus fixed interval), stratified (sample within each stratum) and cluster (select clusters, then survey their units). It does not prescribe sample size or replace design-effect/power calculations. |
+
+### New visual assets and source-to-claim status
+
+The six newly integrated diagrams 11-E, 12-D, 13-D, 14-C, 15-C and 16-C are original hand-coded teaching SVGs. External sources inform the relevant methods, but no third-party diagram is reproduced in these assets. Static SVG structure and bilingual labels/descriptions passed; project licence assignment, specialist review where applicable, assistive-technology review and live browser rendering remain open.
