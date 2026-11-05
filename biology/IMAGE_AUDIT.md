@@ -592,3 +592,28 @@ This pass is an author-side/AI-assisted inspection of SVG source and page text. 
 ### CI compatibility finding
 
 Workflow `42014176177` failed at `node biology/checks.mjs` before Chromium tests because the validator still requires the literal historical string `IMAGE-FIRST POLICY v1.0` in `IMAGE_SOURCES.md`. The current source register correctly declares v1.2. A compatibility note has been added to retain the old token while explicitly stating that v1.2 governs. This is a narrow documentation compatibility fix; it does not downgrade the policy or change the validator. A new workflow run is required before claiming CI passes.
+
+
+## Human anatomy plates and cellular-respiration diagram — focused source review — 5 November 2026
+
+### Human anatomy assets
+
+Assets: `images/generated/anatomy-systems.svg`, `anatomy-circulation.svg`, and `anatomy-homeostasis.svg`, integrated in `chapters/anatomy.html`.
+
+- **Organ systems overview:** the anterior body schematic locates the brain, lungs, heart, stomach/intestines, kidneys and urinary bladder and maps them to the named systems. The caption explicitly limits the plate to selected major organs and says it is simplified/not to scale. It should not be interpreted as a complete anatomical inventory: the spinal cord/peripheral nerves, major vessels, airways and several accessory organs are not drawn. No inaccurate organ placement was identified in this source pass. Keep the “selected organs” limitation visible.
+- **Circulatory circuits:** the diagram distinguishes pulmonary and systemic circulation and the right/left heart chambers. Arrow directions are consistent with the intended route: right ventricle to lungs, pulmonary veins to left atrium, left ventricle to body, and systemic venous return to the right atrium. The blue/red key correctly indicates relative oxygen content, not literal blood colour. The simplified chamber shapes are not a substitute for a detailed anatomical heart plate.
+- **Thermoregulation:** the diagram identifies thermoreceptors, hypothalamus and effectors; increased temperature is linked to skin vasodilation and sweating, while decreased temperature is linked to vasoconstriction and shivering. Both branches counter the initial deviation, matching the negative-feedback model. The caption correctly calls the model simplified; actual thermoregulation uses more complex integrated responses.
+
+### Cellular respiration asset
+
+Asset: `images/generated/biochem-respiration.svg`, integrated in `chapters/biochemistry.html`.
+
+- The source correctly locates glycolysis in the cytosol, pyruvate oxidation and the citric acid cycle in the mitochondrial matrix, and the electron transport chain/ATP synthase in the inner mitochondrial membrane. Proton pumping is directed from matrix to intermembrane space; proton return through ATP synthase is directed back into the matrix. Oxygen is identified as the terminal electron acceptor.
+- **Correction made:** the glycolysis output previously named “2 ATP and NADH” without the NADH count. It now states “2 ATP and 2 NADH” in both languages. The pyruvate-oxidation product label now also includes NADH alongside acetyl-CoA and CO₂. This makes the educational products more complete without adding a fixed total ATP yield.
+- Source basis: OpenStax Biology 2e, sections on pyruvate oxidation/citric acid cycle and oxidative phosphorylation; these support the compartment locations, products and proton-gradient direction. The simplified illustration does not depict every electron carrier, reaction intermediate or stoichiometric coefficient.
+
+### Disposition and limits
+
+This is a source-level author-side/AI-assisted review. It is not a rendered-browser acceptance, competent second-person scientific approval, physical-device/accessibility test, or rights-holder/licence clearance. Keep these assets outside `VERIFIED` until the applicable gates have independent evidence. No new visual brief is counted.
+
+References: OpenStax Biology 2e — https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle ; https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation ; OpenStax Anatomy & Physiology 2e — https://openstax.org/books/anatomy-and-physiology-2e/pages/1-5-homeostasis ; https://openstax.org/books/anatomy-and-physiology/pages/24-6-energy-and-heat-balance .
