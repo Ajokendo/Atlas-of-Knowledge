@@ -123,8 +123,9 @@ A region should not be reduced to a single stereotype. Differences within a regi
 
 ## 12.5. Азия / Asia
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-B / IMAGE PLACEHOLDER 12-B]** Карта макрорегионов Азии с условными границами выбранной классификации и основными физико-географическими объектами.
-> **EN:** Map of Asia's macro-regions with the boundaries of the selected classification and major physical-geographical features.
+![Макрорегионы Азии и рельеф: Западная, Центральная, Южная, Восточная и Юго-Восточная Азия / Asia's macro-regions and relief: West, Central, South, East and Southeast Asia](../assets/diagrams/12-B-asia-macroregions-map-bilingual.svg)
+
+*Основа: Dou et al. (2018), Figure 1, CC BY 4.0. Границы воспроизводят регионализацию этого исследования, а не официальную карту UN M49; используйте её как один пример макрорегионального деления. / Base: Dou et al. (2018), Figure 1, CC BY 4.0. Boundaries reproduce that study's regionalisation, not an official UN M49 map; use it as one example of macro-regional division.*
 
 Азия — крупнейшая часть света по площади и численности населения. Она простирается от арктических побережий до экваториальных островов и включает огромный диапазон климатов, рельефов, языков, религий, политических систем и уровней экономического развития.
 
