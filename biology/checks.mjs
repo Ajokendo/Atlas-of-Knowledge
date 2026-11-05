@@ -1142,8 +1142,17 @@ const requiredBilingualLabels = {
   "anatomy-circulation.svg": ["Pulmonary veins", "Systemic arteries", "systemic veins"],
   "evolution-timeline.svg": ["Кайнозой / Cenozoic"],
   "evolution-homology.svg": ["У человека, летучей мыши и кита показаны пять пальцев", "The human, bat and whale hands/flippers show five digits"],
-  "zoology-vertebrates.svg": ["translate(0,-20)", "Feathers and beak", "Hair or fur · young fed with milk"]
+  "zoology-vertebrates.svg": ["translate(0,-20)", "Feathers and beak", "Hair or fur · young fed with milk"],
+  "zoology-anatomy.svg": ["label-small", "translate(0,67.5) scale(1,.75)", "translate(0,124) scale(1,.8)"]
 };
+const vertebrateAnatomy = fs.readFileSync(path.join(generatedDir, "zoology-anatomy.svg"), "utf8");
+if ((vertebrateAnatomy.match(/transform="translate\\(0,124\\) scale\\(1,.8\\)"/g) || []).length !== 2) {
+  errors.push("zoology-anatomy.svg: bird and mammal illustrations must remain clear of caption rows");
+}
+if (!vertebrateAnatomy.includes('class="ink label-small" x="835" y="180">Пресмыкающиеся / Reptiles</text>')) {
+  errors.push("zoology-anatomy.svg: reptile heading must use the fitted label style");
+}
+
 const vertebratePlate = fs.readFileSync(path.join(generatedDir, "zoology-vertebrates.svg"), "utf8");
 if ((vertebratePlate.match(/transform="translate\(0,-20\)"/g) || []).length !== 2) {
   errors.push("zoology-vertebrates.svg: bird and mammal illustrations must remain lifted clear of caption baselines");
