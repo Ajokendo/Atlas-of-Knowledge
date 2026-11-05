@@ -64,10 +64,11 @@ After studying this chapter, readers will be able to explain the extent and func
 
 Закон толерантности Шелфорда описывает диапазон условий, в пределах которого организм способен существовать и размножаться. За пределами оптимума жизнедеятельность ухудшается, а при выходе за пределы толерантности существование популяции становится невозможным. Для каждого фактора различают минимум, максимум и оптимум; эти значения зависят от стадии развития и взаимодействия факторов.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-D / IMAGE PLACEHOLDER 07-D]** Кривая экологической толерантности с минимумом, максимумом, оптимумом и зонами пессимума; оси и условность модели подписать. / **EN:** Ecological tolerance curve showing minimum, maximum, optimum and pessimum zones; label axes and identify it as a conceptual model.
-**Рисунок 7.2 / Figure 7.2 — Кривая экологической толерантности / Ecological tolerance curve.**  
-Техническое задание: график с осью X «интенсивность экологического фактора», осью Y «жизненная активность»; отметить зоны пессимума, оптимум, нижний и верхний пределы толерантности; пояснить, что кривая концептуальная и не является универсальной числовой моделью.
-**EN production brief:** Plot environmental-factor intensity on the X-axis and organism performance or vital activity on the Y-axis. Mark pessimum zones, the optimum, and lower and upper tolerance limits. State that the curve is conceptual, not a universal numerical model.
+**Рисунок 7.2 / Figure 7.2 — Кривая экологической толерантности / Ecological tolerance curve.**
+
+![Кривая экологической толерантности Шелфорда: зоны непереносимости, пессимума и оптимума; концептуальная модель без числовой шкалы. / Shelford's ecological tolerance curve: intolerance, pessimum and optimum zones; a conceptual model without a numerical scale.](../assets/diagrams/07-D-shelford-tolerance-curve-bilingual.svg)
+
+*07-D. Двуязычная адаптация по схеме «Shelford's Law of Tolerance» авторов Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos и Călin Baciu. Источник: Wikimedia Commons; CC BY 4.0. Перерисовано и переведено; форма кривой и границы условны. / Bilingual adaptation of “Shelford's Law of Tolerance” by Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos and Călin Baciu. Source: Wikimedia Commons; CC BY 4.0. Redrawn and translated; curve shape and boundaries are illustrative.*
 
 ## 7.4. Трофическая структура и поток энергии / Trophic Structure and Energy Flow
 > **[МЕТКА ИЛЛЮСТРАЦИИ 07-B / IMAGE PLACEHOLDER 07-B]** Пищевая сеть с продуцентами, консументами и редуцентами; поток энергии обозначить стрелками. / Food web with producers, consumers and decomposers; show energy flow with arrows.
