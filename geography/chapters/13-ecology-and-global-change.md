@@ -61,6 +61,19 @@ Environmental problems occur at different spatial scales. Local air pollution ma
 
 Экосистемные услуги — выгоды, которые люди получают от природы. Часто выделяют обеспечивающие, регулирующие, культурные и поддерживающие процессы. В современной системе IPBES также используется понятие вкладов природы в жизнь людей, позволяющее учитывать разнообразие мировоззрений и ценностей.
 
+
+An ecosystem includes living organisms, the physical environment, and the flows of energy and matter between them. Its functioning depends on productivity, food webs, the decomposition of organic matter, water regimes, soil processes and biodiversity.
+
+**Ecological resilience** is the ability of a system to absorb disturbances, reorganise and retain its essential functions. It does not mean that the system remains unchanged: ecosystems are dynamic, and when certain thresholds are exceeded they may shift into another state.
+
+It is useful to distinguish:
+- **resistance:** how little a system changes under pressure;
+- **recovery:** how quickly it returns towards its previous state;
+- **adaptive capacity:** the ability to change structure and processes while retaining key functions; and
+- **transformative capacity:** the ability to move into a new viable state when the previous one is no longer sustainable.
+
+Ecosystem services are the benefits people obtain from nature. They are often grouped into provisioning, regulating, cultural and supporting processes. The IPBES framework also uses the concept of nature's contributions to people, which recognises a wider diversity of worldviews and values.
+
 ## 13.3. Антропогенное воздействие и планетарные изменения / Human Pressures and Planetary Change
 
 Хозяйственная деятельность преобразует природные системы через землепользование, добычу ресурсов, производство энергии, транспорт, строительство, сельское хозяйство и потребление.
@@ -77,6 +90,22 @@ Environmental problems occur at different spatial scales. Local air pollution ma
 Воздействия часто усиливают друг друга. Например, вырубка лесов может одновременно снижать запас углерода, усиливать эрозию почв, менять водный сток и фрагментировать местообитания.
 
 Концепция **планетарных границ** описывает девять взаимосвязанных процессов земной системы, для которых человечеству важно учитывать риск выхода за пределы безопасного диапазона изменений. Это научная рамка для анализа системных рисков, а не набор юридических нормативов. Результаты зависят от версии оценки, контрольных переменных и доступных данных. В исследовании 2023 года пересечёнными были признаны шесть из девяти границ. В оценках Planetary Health Check 2025 и 2026 годов — уже семь из девяти. По отчёту 2026 года это климатические изменения, утрата целостности биосферы, изменение земной системы, изменение пресноводной системы, нарушение биогеохимических потоков, появление новых веществ и форм загрязнения (novel entities) и подкисление океана. Две другие границы — истощение стратосферного озона и аэрозольная нагрузка — показывают улучшение по глобальной оценке за последнее десятилетие, однако глобальное улучшение аэрозольного показателя не исключает опасно высоких уровней загрязнения в отдельных регионах. Эти выводы относятся к конкретной научной оценке и не являются неизменными юридическими порогами.
+
+
+Economic activity transforms natural systems through land use, resource extraction, energy production, transport, construction, agriculture and consumption.
+
+Major pressures include:
+1. conversion of natural ecosystems to agricultural, urban and infrastructure areas;
+2. overexploitation of biological and mineral resources;
+3. greenhouse-gas and pollutant emissions;
+4. the release of nutrients and chemical compounds into soils and water;
+5. the spread of invasive alien species;
+6. habitat fragmentation by roads, dams and development; and
+7. waste generation and plastic pollution.
+
+These pressures often reinforce one another. For example, deforestation can reduce carbon storage, increase soil erosion, alter water runoff and fragment habitats at the same time.
+
+The **planetary boundaries** framework describes nine interconnected Earth-system processes for which humanity should consider the risk of moving beyond a safe range of change. It is a scientific framework for analysing systemic risks, not a set of legally binding limits. Results depend on the assessment version, control variables and available data. The 2023 assessment identified six of the nine boundaries as transgressed. The Planetary Health Check assessments for 2025 and 2026 identified seven of nine. The 2026 report lists climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, novel entities and ocean acidification. The other two boundaries—stratospheric ozone depletion and atmospheric aerosol loading—show improvement in the global assessment over the past decade. However, a global improvement in the aerosol indicator does not rule out dangerously high pollution levels in individual regions. These findings belong to a specific scientific assessment and are not fixed legal thresholds.
 
 ## 13.4. Изменение климата: причины и механизмы / Climate Change: Causes and Mechanisms
 
@@ -261,6 +290,22 @@ When interpreting maps and assessments, ask separately:
 Международные соглашения устанавливают рамки сотрудничества, но их практическая эффективность зависит от национального законодательства, финансирования, мониторинга, прозрачности и исполнения обязательств.
 
 Экологическое управление должно учитывать научные данные, принцип предосторожности, межпоколенческую справедливость, участие общественности и права местных и коренных сообществ.
+
+
+Environmental problems often require coordinated action by national governments, municipalities, businesses, research organisations and civil society.
+
+Important international frameworks include:
+- the UN Framework Convention on Climate Change and the Paris Agreement;
+- the Convention on Biological Diversity;
+- the UN Convention to Combat Desertification;
+- the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal;
+- the Ramsar Convention on Wetlands;
+- the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES); and
+- the UN Sustainable Development Goals.
+
+International agreements establish frameworks for cooperation, but their practical effectiveness depends on national legislation, funding, monitoring, transparency and implementation of commitments.
+
+Environmental governance should take account of scientific evidence, the precautionary principle, intergenerational justice, public participation, and the rights of local and Indigenous communities.
 
 ## 13.12. Смягчение изменения климата и адаптация / Climate Mitigation and Adaptation
 
