@@ -1180,6 +1180,9 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 27. NOAA Global Monitoring Laboratory. *What Is Climate?* (Teacher Background). https://gml.noaa.gov/outreach/info_activities/pdfs/TBI_what_is_climate.pdf
 28. NOAA JetStream Max. *Surface Weather Plot Symbols*. https://www.noaa.gov/jetstream/wxmaps-max/jetstream-max-surface-weather-plot-symbols
 29. Penn State METEO 3. *Surface Patterns of Pressure and Wind* — decoding the three-digit sea-level pressure code in a station model. https://courses.ems.psu.edu/meteo3/book/export/html/1998
+30. NOAA JetStream. *Layers of the Atmosphere* — approximate altitude ranges, thermal layers and atmospheric phenomena. https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere
+31. NOAA JetStream Max. *The Ionosphere* — ionised region and its variable extent. https://www.noaa.gov/jetstream/ionosphere-max
+32. NOAA Boulder. *Up, Up, Up in the Air* — educational use of the 100-km Kármán line as a conventional boundary of space. https://www.boulder.noaa.gov/wp-content/uploads/2021/11/Layers-of-the-Atmosphere.pdf
 
 Для климатических норм использовать стандартизированный период и указывать его явно; для оценки современных изменений отдельно обозначать период наблюдений, базовый уровень сравнения и неопределённость данных.
 
