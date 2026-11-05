@@ -870,6 +870,8 @@ A reproducible project should allow another specialist to understand which data,
 
 ## 14.19. Ключевые понятия / Key Terms
 
+Ниже приведены ключевые термины главы и их английские эквиваленты. / The glossary below pairs the chapter's key terms with their English equivalents.
+
 Геоинформационная система — Geographic Information System; пространственные данные — Spatial data; атрибутивные данные — Attribute data; векторная модель — Vector model; растровая модель — Raster model; координатная система — Coordinate reference system; геодезическая основа — Geodetic datum; картографическая проекция — Map projection; геокодирование — Geocoding; буферизация — Buffering; пространственное наложение — Spatial overlay; сетевой анализ — Network analysis; топология — Topology; пространственное разрешение — Spatial resolution; позиционная точность — Positional accuracy; метаданные — Metadata; интероперабельность — Interoperability; веб-ГИС — Web GIS; цифровая модель высот — Digital Elevation Model; дистанционное зондирование — Remote sensing.
 
 ## 14.20. Контрольные вопросы и практические задания / Review Questions and Practical Activities
