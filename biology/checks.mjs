@@ -1146,7 +1146,7 @@ const requiredBilingualLabels = {
   "zoology-anatomy.svg": ["label-small", "translate(0,67.5) scale(1,.75)", "translate(0,124) scale(1,.8)"]
 };
 const vertebrateAnatomy = fs.readFileSync(path.join(generatedDir, "zoology-anatomy.svg"), "utf8");
-if ((vertebrateAnatomy.match(/transform="translate\\(0,124\\) scale\\(1,.8\\)"/g) || []).length !== 2) {
+if ((vertebrateAnatomy.split('transform="translate(0,124) scale(1,.8)"').length - 1) !== 2) {
   errors.push("zoology-anatomy.svg: bird and mammal illustrations must remain clear of caption rows");
 }
 if (!vertebrateAnatomy.includes('class="ink label-small" x="835" y="180">Пресмыкающиеся / Reptiles</text>')) {
