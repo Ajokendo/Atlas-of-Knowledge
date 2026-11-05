@@ -686,3 +686,10 @@ Scientific/data review for the synthetic exercise is **PASS** at the teaching-sc
 Sources checked: NOAA, [How to read Surface Weather Maps](https://www.noaa.gov/jetstream/wxmaps) and [Surface Weather Plot Symbols](https://www.noaa.gov/jetstream/wxmaps-max/jetstream-max-surface-weather-plot-symbols); Penn State METEO 3, [decoding sea-level pressure on a station model](https://courses.ems.psu.edu/meteo3/book/export/html/1998).
 
 This PASS is limited to the stated scientific conventions and synthetic data. It does not approve the unknown project licence/rightsholder, colour contrast at rendered sizes, full screen-reader usability, or deployed display.
+
+
+### Chapter 05 — Visual 5.12-A: global climate belts
+
+A comparison of the SVG with the adjacent chapter text found that the text listed seven broad belt types, including the subequatorial belt, while the diagram omitted the subequatorial zones in both hemispheres. Added the missing northern and southern subequatorial bands and updated the SVG description. A post-update source scan confirms 13 labelled zones: six paired belt types (polar, subpolar, temperate, subtropical, tropical and subequatorial) plus the equatorial belt shared at the centre.
+
+**Result:** alignment with the chapter's seven belt types PASS at the conceptual classification level. Boundaries remain schematic and must not be presented as precise global boundaries; local/regional climate controls and seasonal shifts remain noted. Detailed scientific review of the exact geographic boundaries, rights/creator provenance, accessibility and rendered layout remain PENDING.
