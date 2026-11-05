@@ -1127,3 +1127,32 @@ The asset and chapter embed passed static SVG checks. This is not a daily foreca
 | **Total** | **97** | **46** | **51** |
 
 This 46/97 table supersedes the previous 45/97 count.
+
+
+## Eleventh visual integration tranche — Chapter 13 — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 13-E | INTEGRATED | PASS against the six elements in the official IPBES conceptual framework | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Shows nature, nature's contributions to people, anthropogenic assets, institutions/indirect drivers, direct drivers and quality of life. It is a simplified analytical framework, not a linear causal chain. |
+| 13-F | INTEGRATED | PASS as a qualitative IPCC-based teaching matrix; it does not claim local quantitative evidence or a forecast | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Separates observed impacts from potential future risks across cryosphere, water, ecosystems, agriculture, cities/infrastructure and health. Regional confidence and local applicability require separate evidence. |
+| 13-H | INTEGRATED | PASS for mitigation/adaptation distinction; adaptation metrics are explicitly context-dependent | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Compares goals, examples, time horizons and indicative metrics. It does not imply one universal adaptation indicator set. |
+
+All three SVGs were re-fetched and passed static source checks and their chapter embeds resolve. Live browser, accessibility and project-licence checks remain open.
+
+### Current scoped visual coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **49** | **48** |
+
+This 49/97 table supersedes the previous 46/97 count.
