@@ -626,3 +626,28 @@ The three source images are unchanged. For CC BY and CC BY-SA assets, author, li
 | Data access / licence | The page displays annual/monthly graph links and a metadata summary, but a raw data file with reusable values and item-specific licence terms have not been verified. Do not trace values from the raster graph and present them as exact observations. |
 | Current status | Candidate source FOUND; visual 20-G remains MISSING. |
 | Next steps | Obtain the actual monthly/daily data file or written permission; confirm station identity, datum, time step, missing-data flags, quality control and the exact observation period; then generate a bilingual chart with the source's units and caveats. |
+
+
+## Chapter 14 — Visual 14-D: cartographic colour schemes — 5 November 2026
+
+| Field | Record |
+|---|---|
+| Visual ID / file | 14-D — `assets/diagrams/14-D-map-colour-schemes-bilingual.svg` |
+| Purpose | Match sequential, diverging and qualitative palettes to the structure of the data. |
+| Category / method | C — original hand-coded bilingual SVG. |
+| Image-first review | Scottish Government Design System guidance on map colour and QGIS 3.44 colour-ramp documentation reviewed. These are guidance pages, not a suitable ready-to-reuse bilingual teaching graphic; no third-party image copied. |
+| References | https://designsystem.gov.scot/guidance/maps/using-colour-in-maps ; https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html |
+| Creator / licence | Creator/rightsholder: Unknown pending formal project assignment. Project redistribution licence: PENDING. |
+| Limitations | Palette swatches are illustrative, not a fixed universal colour standard. Contrast and colour-vision testing remain required. |
+| Status | INTEGRATED; content and static source checks PASS; project rights, accessibility and browser/device QA PENDING. |
+
+## Chapter 15 — Visuals 15-D, 15-I, 15-J and 15-K — 5 November 2026
+
+| Visual ID | Purpose | File | Image-first sources reviewed | Category / rights | Status |
+|---|---|---|---|---|---|
+| 15-D | Supervised/unsupervised classification, independent validation and confusion matrix | `assets/diagrams/15-D-classification-validation-bilingual.svg` | USGS Landsat calibration/validation and standard classification/accuracy-assessment guidance; existing examples did not provide a complete bilingual workflow suitable for reuse. | C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING. | INTEGRATED; conceptual content and static source checks PASS; independent scientific and accessibility QA PENDING. |
+| 15-I | Side-looking SAR geometry, pulse, range, incidence angle and backscatter | `assets/diagrams/15-I-sar-side-looking-geometry-bilingual.svg` | Natural Resources Canada “Viewing Geometry and Spatial Resolution”; Google Earth Engine “SAR Basics”; NASA SAR educational material. Textual explanations were used to author an original diagram; no third-party figure copied. | C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING. | INTEGRATED; source concept checked; static SVG checks PASS; scientific review and browser/accessibility QA PENDING. |
+| 15-J | LiDAR pulses, multiple returns, point cloud, DSM, DTM and CHM | `assets/diagrams/15-J-lidar-returns-dsm-dtm-bilingual.svg` | NSF NEON “What is a CHM, DSM and DTM?” (updated 2 Apr 2026); Esri LiDAR DEM/DSM documentation. Existing source imagery was not copied because item-specific reuse terms were not established. | C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING. | INTEGRATED; terminology and DSM−DTM relation checked; static SVG checks PASS; independent scientific/accessibility QA PENDING. |
+| 15-K | Multitemporal change-detection workflow and independent validation | `assets/diagrams/15-K-multitemporal-change-detection-bilingual.svg` | Belgian Platform on Earth Observation and Virginia Tech Pressbooks change-detection guidance. These pages support same-season acquisition, co-registration and atmospheric compatibility; no third-party figure copied. | C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING. | INTEGRATED; workflow concept checked; static SVG checks PASS; scientific/accessibility/browser QA PENDING. |
+
+All five new assets (14-D and 15-D/I/J/K) have bilingual captions/alt text in their chapters and pass source-level checks for SVG boundary, viewBox, title, description, role=img and Cyrillic/Latin text. These are not browser-render or screen-reader tests.
