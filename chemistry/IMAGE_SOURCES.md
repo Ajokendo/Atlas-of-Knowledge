@@ -218,3 +218,27 @@ A path-specific Git history review identified the first repository commit for ea
 | `carbon-cycle-ru.svg` | [882393cee7e36d4a4bfc153419892c1d6365457d](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/882393cee7e36d4a4bfc153419892c1d6365457d) | 2026-11-01 09:34:44 | Add Russian carbon cycle illustration |
 
 **Result:** repository introduction history is now recorded for all 22 original SVG files (10 files have the previously documented AI-generation evidence; these 12 have only repository-introduction evidence). No unsupported authorship, source or licence has been inferred.
+
+
+## Provenance remediation — replacement of unresolved SVG files (2026-11-05)
+
+The 12 files listed below were re-authored as new, project-specific SVG source in this work session and replaced in place. They were not copied from the former files, and no external image or SVG source was used as the source artwork for these replacements. Their educational purpose and public-facing filenames were retained so existing page references continue to work.
+
+| Replacement file | New source commit |
+|---|---|
+| `assets/electron-cloud-ru.svg` | `db3f46081e929ad37f3e271b85551363a7379ce9` |
+| `assets/isotope-abundance.svg` | `2a9130e7d13b91c8a098c72565f0541226f37ee4` |
+| `assets/one-mole-scale.svg` | `f0d8157d98d1ce029bc61c4e2654930c2551e243` |
+| `assets/formula-reading.svg` | `f3d8f3453bd51bead4c0a8a29bc92e8bdf7db447` |
+| `assets/solution-saturation-particles.svg` | `d0a4da54e63dab730b3aaa329c1767c397cc3d46` |
+| `assets/acid-base-neutralisation.svg` | `0d91736eee2cf7ece49040a141f9126fd77c2f47` |
+| `assets/daniell-cell.svg` | `3506075bd3a0687d1947876c53b8ffd9f5e7398d` |
+| `assets/daniell-cell-ru.svg` | `c8bf23e7ee716ed632b5c15a16d959767f174e5f` |
+| `assets/organic-functional-groups.svg` | `eacc171fc67cb615d5460bf19a4b31c73f718e51` |
+| `assets/biomolecule-overview.svg` | `bcfdad7ce8211cfffed331209d07fc5b6ae05e1a` |
+| `assets/biomolecule-overview-ru.svg` | `df2a66922b360e413009da3014a3c1c84decc712` |
+| `assets/carbon-cycle-ru.svg` | `96083cc3e85803df4b7bde29ab9f6b0ff6f69d3f` |
+
+**Current provenance status:** these 12 replacement files now have a documented in-session creation record and are classified as project-created (Category C) for source/method tracking. The prior unknown-origin versions have been superseded in the branch and are no longer the files served by the atlas. The other 10 pre-existing SVG files with earlier AI-generation evidence and the new CH-V12 pair retain their separately documented evidence. This resolves the previously identified 12-file source-history gap; it does not constitute legal advice or independent scientific certification.
+
+The replacement diagrams include localized titles/descriptions and retain the existing filenames. A full branch-head CI run and targeted rendered-image review are required before marking these replacements technically checked.
