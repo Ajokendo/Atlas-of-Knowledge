@@ -1,5 +1,8 @@
 # External review packet — Atlas of Biology
 
+> **ARCHIVED — OUTSIDE THE ATLAS PROJECT SCOPE (5 November 2026).** This packet is retained only as a historical record. No external review, consultation, specialist assessment, sign-off or acceptance is commissioned, planned or required within Atlas of Knowledge. Do not send, distribute, update as an active workflow, recruit reviewers, or track its blank/pending fields as project work. Any external activity, if separately initiated by the owner, belongs to a separate process and separate records. The Atlas project uses internal checks only; published scientific sources may still be consulted as evidence.
+
+
 **Status:** archived optional-consultation material; external review was not commissioned and is not required for project completion.  
 **Working branch:** `workspace/biology`  
 **Review scope:** 13 HTML pages (the Biology index and 12 chapters), with particular attention to the Kyrgyzstan flora and fauna chapters.
