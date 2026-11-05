@@ -535,10 +535,15 @@ for (const file of svgFiles) {
   const paired = basename.endsWith("-ru.svg") ? basename.replace(/-ru\.svg$/i, ".svg") : basename.replace(/\.svg$/i, "-ru.svg");
   if (!fs.existsSync(path.join(assetRoot, paired))) errors.push("assets/" + basename + ": matching bilingual SVG variant is missing");
 }
-if (imageSources && /\| C — project SVG/.test(imageSources)) errors.push("IMAGE_SOURCES.md: do not assign category C to local SVGs until creator, authoring method and rights are evidenced");
-if (imageSources && !imageSources.includes("Unclassified — project-local SVG")) errors.push("IMAGE_SOURCES.md: local SVG provenance must remain PENDING until evidenced");
-if (imageSources && !imageSources.includes("A/B/C category PENDING; method PENDING")) errors.push("IMAGE_SOURCES.md: unproven local visuals must explicitly keep category and method PENDING");
 const staticAssetRegister = imageSources.split("## Asset register")[1]?.split("## Non-file interactive visuals")[0] || "";
+const provenanceMapping = imageSources.split("## Retrospective provenance and Category C mapping")[1] || "";
+if (!provenanceMapping.includes("The current 24 files form 12 bilingual visual families")) {
+  errors.push("IMAGE_SOURCES.md: current file-level provenance mapping for all 12 bilingual SVG families is missing");
+}
+if (!imageSources.includes("rights fields remain **PENDING**") ||
+    !imageSources.includes("rightsholder, licensing authority and licence not established")) {
+  errors.push("IMAGE_SOURCES.md: Category C classification must not be treated as automatic rights clearance");
+}
 for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07","CH-V08","CH-V09","CH-V10","CH-V11","CH-V12"]) {
   const rows = staticAssetRegister.split(/\r?\n/).filter(line => line.startsWith("| " + id + " |"));
   if (rows.length !== 1) errors.push("IMAGE_SOURCES.md: expected exactly one static asset row for " + id);
