@@ -119,6 +119,23 @@ const NPAGES = 13;   // pages.js imports world.js (three.js, browser-only), so t
   }
   const extra = Object.keys(PRACTICE).filter(k => !(+k >= 0 && +k < NPAGES));
   check('practice: every page has 1–2 well-formed items', !bad.length && !extra.length, bad.concat(extra).join(', ') || `${Object.values(PRACTICE).flat().length} items`); }
+check('practice: exactly 24 questions across 13 pages', Object.values(PRACTICE).flat().length === 24 && Object.keys(PRACTICE).length === 13);
+{
+  const concepts = [
+    [0, 0, 'к центру окружности'],
+    [1, 1, 'по прямой, по касательной'],
+    [2, 1, 'одинаковое'],
+    [5, 1, 'смещается вверх по виражу'],
+    [6, 1, 'в 2 раза больше'],
+    [7, 0, '0.750'],
+    [7, 1, '2.45'],
+    [9, 1, 'момент импульса'],
+    [10, 1, 'K уменьшается'],
+  ];
+  check('practice: conceptual answer keys retain the correct Russian physics meaning',
+    concepts.every(([p, n, expected]) => PRACTICE[p]?.[n]?.choices?.[PRACTICE[p][n].answer]?.includes(expected)),
+    concepts.map(([p, n]) => `${p + 1}.${n + 1}`).join(', '));
+}
 // the first number in a choice's text (HTML stripped, − read as minus, a × 10ⁿ read as aEn)
 const pnum = c => { const s = c.replace(/\s*×\s*10<sup>([−-]?\d+)<\/sup>/g, 'e$1').replace(/<[^>]+>/g, ' ').replace(/−/g, '-'); return Number(s.match(/-?\d+(\.\d+)?(e-?\d+)?/)[0]); };
 // keyed choice equals the independent value (to its printed precision), every distractor is > 2 % away
