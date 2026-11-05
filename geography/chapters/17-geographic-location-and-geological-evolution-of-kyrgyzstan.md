@@ -301,6 +301,8 @@ Tectonic maps must distinguish geological boundaries, faults, currently active s
 
 Сейсмическая опасность (вероятность сильного сотрясения) и сейсмический риск (возможные потери) — разные понятия. Карта опасности не является точным прогнозом даты и места будущего землетрясения.
 
+Для Кыргызстана важным национальным научным источником является Институт сейсмологии Национальной академии наук: среди его работ указаны сейсмотектоническая карта территории страны масштаба 1:500 000, карта новейшей тектоники и исследования активных блоков Тянь-Шаня. Международное исследование 2024 года по гармонизации сведений о сейсмичности Центральной Азии объединяет каталоги землетрясений и данные об активных разломах для сопоставимого регионального анализа. Эти источники дополняют друг друга, но не являются взаимозаменяемыми: перед построением карты необходимо проверить охват, дату, масштаб, критерии включения разломов и полноту каталога. В легенде каталога указывают период наблюдений, минимальную магнитуду, тип магнитуды (например, Mw или локальную шкалу), глубину и точность определения эпицентров. Нельзя смешивать магнитуды разных шкал без процедуры пересчёта или считать отсутствие зарегистрированных событий доказательством отсутствия сейсмической опасности.
+
 
 Kyrgyzstan lies within an active intracontinental deformation belt associated with the interaction of the Indian and Eurasian plates. Crustal compression is expressed through thrusts, reverse faults, folding and local strike-slip movements.
 
@@ -315,6 +317,8 @@ Seismic risk depends not only on the magnitude of a possible earthquake but also
 - the preparedness of emergency services and the resilience of essential systems.
 
 Seismic **hazard** (the likelihood of strong ground shaking) and seismic **risk** (the potential for losses) are different concepts. A hazard map is not an exact prediction of the date and location of a future earthquake.
+
+An important national scientific source for Kyrgyzstan is the Institute of Seismology of the National Academy of Sciences. Its listed work includes a 1:500,000 seismotectonic map of the country, a neotectonic map and research on active blocks of the Tien Shan. A 2024 international study harmonising seismicity information in Central Asia combines earthquake catalogues and active-fault data for comparable regional analysis. These sources complement one another but are not interchangeable: before preparing a map, check its coverage, date, scale, fault-inclusion criteria and catalogue completeness. A catalogue legend should state the observation period, minimum magnitude, magnitude type (for example, Mw or a local scale), focal depth and epicentral-location accuracy. Magnitudes from different scales must not be mixed without conversion, and the absence of recorded events must not be treated as proof that seismic hazard is absent.
 
 ### 17.8.1. Практический пример: почему сейсмическая опасность не равна риску / Worked Example: Why Seismic Hazard Is Not the Same as Risk
 
