@@ -230,7 +230,9 @@
 <!-- VISUAL ID: 5.7-A -->
 ![Круговорот воды в природе / The hydrologic cycle](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e)
 
-*Схема круговорота воды: испарение, транспирация, конденсация, осадки, снеготаяние и поверхностный сток. NOAA JetStream. Это базовая учебная схема: она не показывает все резервуары и потоки воды, например подземный водообмен. / Diagram of the water cycle: evaporation, transpiration, condensation, precipitation, snowmelt and surface runoff. NOAA JetStream. This is a basic educational schematic; it does not show every water reservoir and flow, such as groundwater exchange.* [Источник / Source](https://www.noaa.gov/jetstream/atmosphere/hydro).
+*Схема круговорота воды: испарение, транспирация, конденсация, осадки, снеготаяние и поверхностный сток. NOAA JetStream. Это базовая учебная схема: она не показывает все резервуары и потоки воды, например подземный водообмен. / Diagram of the water cycle: evaporation, transpiration, condensation, precipitation, snowmelt and surface runoff. NOAA JetStream. This is a basic educational schematic; it does not show every water reservoir and flow, such as groundwater exchange.*
+
+**Ключ к английским подписям / Russian key to image labels:** evaporation — испарение; transpiration — транспирация; condensation — конденсация; precipitation — осадки; snowmelt runoff — сток талой воды; surface runoff — поверхностный сток. / **English labels:** evaporation, transpiration, condensation, precipitation, snowmelt runoff and surface runoff. [Источник / Source](https://www.noaa.gov/jetstream/atmosphere/hydro).
 
 ## 5.8. Воздушные массы и атмосферные фронты / Air Masses and Fronts
 
@@ -263,7 +265,9 @@
 <!-- VISUAL ID: 5.8-A -->
 ![Вертикальный разрез холодной окклюзии / Vertical cross-section of a cold occlusion](https://www.noaa.gov/sites/default/files/2022-06/cold_occ.png)
 
-*Упрощённый вертикальный разрез холодной окклюзии: более холодный воздух позади холодного фронта подтекает под более прохладный воздух впереди тёплого фронта, поднимая тёплый воздух над поверхностью. Это пример одного типа окклюзии, а не универсальная схема всех фронтов. / Simplified vertical cross-section of a cold occlusion: colder air behind the cold front undercuts the cooler air ahead of the warm front, lifting the warm air above the surface. This illustrates one type of occlusion, not a universal cross-section for all fronts.* [Источник / Source](https://www.noaa.gov/jetstream/wxmaps).
+*Упрощённый вертикальный разрез холодной окклюзии: более холодный воздух позади холодного фронта подтекает под более прохладный воздух впереди тёплого фронта, поднимая тёплый воздух над поверхностью. Это пример одного типа окклюзии, а не универсальная схема всех фронтов. / Simplified vertical cross-section of a cold occlusion: colder air behind the cold front undercuts the cooler air ahead of the warm front, lifting the warm air above the surface. This illustrates one type of occlusion, not a universal cross-section for all fronts.*
+
+**Ключ к английским подписям / Russian key to image labels:** Warm Air — тёплый воздух; Cold Air — холодный воздух; Cool Air — прохладный воздух; Increasing height — увеличение высоты. / **English labels:** Warm Air, Cold Air, Cool Air and Increasing height. [Источник / Source](https://www.noaa.gov/jetstream/wxmaps).
 
 ## 5.9. Погода и климат: различия и наблюдения / Weather and Climate
 
