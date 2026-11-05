@@ -909,6 +909,8 @@ When working with communities, explain who collects the data, for what purpose, 
 
 ## 16.20. Ключевые понятия / Key Terms
 
+Ниже приведены ключевые термины главы и их английские эквиваленты. / The glossary below pairs the chapter's key terms with their English equivalents.
+
 Географическое исследование — Geographic research; исследовательский вопрос — Research question; гипотеза — Hypothesis; пространственный масштаб — Spatial scale; проблема изменяемых территориальных единиц — Modifiable Areal Unit Problem (MAUP); экологическая ошибка — Ecological fallacy; полевые исследования — Fieldwork; выборка — Sampling; стратифицированная выборка — Stratified sampling; пространственная автокорреляция — Spatial autocorrelation; индекс Морана — Moran's I; картография — Cartography; тематическая карта — Thematic map; хороплетная карта — Choropleth map; изолинии — Isolines; картографическая генерализация — Cartographic generalisation; визуальная иерархия — Visual hierarchy; легенда — Legend; воспроизводимость — Reproducibility; происхождение данных — Data lineage; неопределённость — Uncertainty.
 
 ## 16.21. Контрольные вопросы и практические задания / Review Questions and Practical Activities
