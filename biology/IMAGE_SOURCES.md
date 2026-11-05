@@ -1,6 +1,6 @@
 # Biology image sources and rights register
 
-**Policy:** Atlas of Knowledge IMAGE-FIRST POLICY v1.0  
+**Policy:** Atlas of Knowledge IMAGE-FIRST POLICY v1.2  
 **Branch:** `workspace/biology`  
 **Last reconciled:** 5 November 2026  
 **Scope:** the 53 visual briefs in `IMAGE_DISPOSITION_REGISTER.md`.
@@ -113,3 +113,25 @@ Unknown rights are not presumed permissive. Mark the item `LICENSE_CHECK` or `RE
 - The source-backed photo audits document file-page details and checksum validation. They do not establish that every biological interpretation in every chapter has received independent specialist review.
 - Original SVG authorship does not itself establish scientific correctness; all original artwork remains subject to the scientific and visual audit.
 - Historical AI-generated concept drafts documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md` are not approved documentary evidence and must not be presented as real photographs or locality records.
+
+
+## 7. Governing-standard alignment and new author-created assets — 5 November 2026
+
+This register is governed by `IMAGE_FIRST_POLICY.md` v1.2 and `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1. The central standards supersede older v1.0 wording in historical Biology notes.
+
+### Aygul (*Fritillaria eduardii*) supplementary botanical plate
+
+- Visual brief: `image-brief-flora-batken` (existing brief; the supplementary plate does not create an additional brief).
+- Repository asset: `images/generated/flora-batken-aygul-botanical-plate.webp`, integrated alongside the existing bilingual SVG in `chapters/flora-kyrgyzstan.html`.
+- Source creation: generated in ChatGPT on 5 November 2026 at the user's explicit request; optimized WebP derivative committed to `workspace/biology`.
+- Classification: Category C — AI-generated/original educational illustration; not a documentary photograph, specimen record or source for population/locality claims.
+- File identity: 320 × 292 px; 7,196 bytes; SHA-256 `b79cc139c33b4b19b5c1e72fa79885688cdd9c0202d6d402ad3f13348badf4c9`. The higher-resolution source PNG remains in the conversation workspace and is not represented as a repository file.
+- Scientific scope: six tepals and six stamens are shown in the enlarged flower study; no fixed flower count, population estimate or precise locality is asserted. The plate is supplementary to the existing SVG and must not be presented as documentary evidence.
+- Rights status: no third-party image source or external licence is claimed. The project's legal rightsholder/authority-to-license and asset-level licence decision are not established by the generation record alone; record Gate 2 as PENDING until the project owner confirms the rights basis.
+- Review status: morphology constraints are linked to `IMAGE_SCIENTIFIC_REVIEW.md`; this does not constitute second-person scientific approval. Focused rendered visual review and competent second-person review remain PENDING unless separately documented.
+
+### General Category C control
+
+Category C records a documented project-creation method; it does not automatically establish a legal rightsholder, licensing authority, or approved licence. For every new original or AI-assisted asset, preserve the source prompt/brief, editable source where available, exact committed derivative, creator/contributor record, third-party component declarations, rights decision, RU/EN text, reviewer identity/qualification, gate results and integration evidence. Do not infer that a project-created image is automatically public domain or CC-licensed.
+
+Internal scientific review must be completed by a competent reviewer other than the creator; that reviewer may be an appropriately qualified member of the project team. External specialist review is an additional level, not a universal publication prerequisite. `VERIFIED` is the internal machine-readable status; `EXTERNALLY VERIFIED` is reserved for a documented positive independent external review after internal verification. Unknown rights block public release.
