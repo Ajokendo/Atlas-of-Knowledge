@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Формы речной долины / River-valley landforms</title>
+<desc id="desc">Поперечный профиль речной долины с надпойменными террасами, поймой, действующим руслом и аллювиальным конусом у бокового притока. Схема концептуальная. / Cross-section of a river valley showing river terraces, floodplain, active channel and an alluvial fan at a tributary. Conceptual diagram.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:21px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.earth{fill:#d9c5a0;stroke:#866b47;stroke-width:4}.water{fill:#7fc6e5;stroke:#287fa7;stroke-width:3}.terr{fill:#e6d9bd;stroke:#9c8059;stroke-width:3}.call{stroke:#3f5968;stroke-width:2;fill:none}</style>
+<rect width="1200" height="700" fill="#fff"/>
+<text x="600" y="52" text-anchor="middle" class="h">Речная долина и её формы / River valley and its landforms</text>
+<path class="earth" d="M50 250 L190 320 L300 385 L410 420 L520 440 L640 430 L750 390 L860 350 L990 300 L1150 245 L1150 570 L50 570 Z"/>
+<path class="terr" d="M50 250 L190 320 L300 385 L300 420 L210 370 L130 330 Z"/>
+<path class="terr" d="M860 350 L990 300 L1150 245 L1150 300 L1000 355 L900 390 Z"/>
+<path d="M300 420 Q430 455 520 440 Q640 430 750 390 L860 350 L900 390 Q780 450 650 480 Q470 510 330 465 Z" fill="#c8b18c" stroke="#9c8059" stroke-width="2"/>
+<path class="water" d="M470 455 Q535 420 600 445 Q650 462 700 430 Q735 415 760 405 Q720 465 650 480 Q560 500 470 455Z"/>
+<path d="M930 315 Q875 355 830 400 Q790 430 760 440" fill="none" stroke="#a47c4d" stroke-width="12" stroke-linecap="round"/>
+<path d="M900 315 Q850 350 810 390" fill="none" stroke="#7fc6e5" stroke-width="6"/>
+<g class="call"><path d="M165 285 L165 175"/><path d="M330 400 L330 220"/><path d="M580 455 L580 560"/><path d="M930 330 L1010 175"/><path d="M810 420 L900 550"/></g>
+<text x="70" y="155" class="t">Терраса / Terrace</text>
+<text x="255" y="200" class="t">Пойма / Floodplain</text>
+<text x="480" y="610" class="t">Русло / Active channel</text>
+<text x="925" y="145" class="t">Конус выноса / Alluvial fan</text>
+<text x="880" y="590" class="s">Боковой приток / Tributary</text>
+<text x="600" y="665" text-anchor="middle" class="s">Поперечный профиль условный; террасы и пойма могут быть асимметричными. / Conceptual cross-section; terraces and floodplains may be asymmetric.</text>
+</svg>
