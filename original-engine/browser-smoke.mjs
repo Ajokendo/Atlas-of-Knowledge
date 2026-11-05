@@ -111,14 +111,26 @@ async function checkLab(lab, mobile) {
 
     const visitedTitles = [];
     let previousTitle = (await page.locator('#sheet h1').innerText()).trim();
-    for (let i = 0; i < state.pages; i++) {
-      await page.locator('#dots button').nth(i).click();
-      await page.waitForFunction(oldTitle => {
-        const title = document.querySelector('#sheet h1')?.textContent?.trim();
-        return !!title && title !== oldTitle;
-      }, previousTitle, { timeout: 10000 });
+    if (mobile) {
+      await page.locator('.pager button').first().click();
+      await page.waitForFunction(oldTitle => document.querySelector('#sheet h1')?.textContent?.trim() !== oldTitle, previousTitle, { timeout: 10000 });
       previousTitle = (await page.locator('#sheet h1').innerText()).trim();
-      visitedTitles.push(previousTitle);
+      for (let i = 0; i < state.pages; i++) {
+        visitedTitles.push(previousTitle);
+        if (i === state.pages - 1) break;
+        const nextPage = page.locator('#sheet button[data-turn]').first();
+        if (!(await nextPage.count())) throw new Error(`Mobile next-page control missing after page ${i + 1}`);
+        await nextPage.click();
+        await page.waitForFunction(oldTitle => document.querySelector('#sheet h1')?.textContent?.trim() !== oldTitle, previousTitle, { timeout: 10000 });
+        previousTitle = (await page.locator('#sheet h1').innerText()).trim();
+      }
+    } else {
+      for (let i = 0; i < state.pages; i++) {
+        await page.locator('#dots button').nth(i).click();
+        await page.waitForFunction(oldTitle => document.querySelector('#sheet h1')?.textContent?.trim() !== oldTitle, previousTitle, { timeout: 10000 });
+        previousTitle = (await page.locator('#sheet h1').innerText()).trim();
+        visitedTitles.push(previousTitle);
+      }
     }
     if (visitedTitles.length !== 11 || new Set(visitedTitles).size !== 11) {
       throw new Error('Not all 11 kinematics pages rendered a distinct heading');
