@@ -913,3 +913,16 @@ All four SVGs contain bilingual labels plus SVG title/description metadata and h
 - **Status:** INTEGRATED; rights PASS; scientific and live remote-image/accessibility QA PENDING; not VERIFIED.
 
 All four maps are direct external image dependencies, not locally mirrored assets. Their source pages and image URLs were checked; deployed browser/mobile load and responsive behaviour still require testing.
+
+
+### Chapter 13 — reconciliation of eleven existing bilingual SVGs — 5 November 2026
+
+All 11 planned assets (13-A–13-K) are present and embedded in the chapter source. The earlier per-asset audit rows for 13-B and 13-D–13-K were stale; the rows have been reconciled against the actual SVG files and source records. This correction does not add new assets or change atlas-wide visual coverage.
+
+**Static source validation:** all 11 SVGs were checked for `<title>`, `<desc>`, `role="img"`, `aria-labelledby`, closing `</svg>`, Russian and English text, and absence of `<script>`, `foreignObject` and embedded external `<image>`. All 11 passed these source-level checks. This is not a rendered-browser or assistive-technology test.
+
+**Scientific/conceptual review status:**
+- **PASS:** 13-B (IPBES direct-driver framework); 13-E (six-element IPBES conceptual framework); 13-F (IPCC AR6 observed impacts versus projected risks); 13-G (UNCCD avoid–reduce–reverse land-degradation response); 13-H (mitigation/adaptation distinction); 13-I (EPA/UNEP monitoring and QA/QC workflow); 13-J (circular-economy value-retention hierarchy); 13-K (hypothetical environmental-justice dimensions, without transferring US index values to Kyrgyzstan).
+- **PENDING:** 13-A (detailed greenhouse-energy-flow scientific review); 13-C (full conceptual review of the hazard/exposure/vulnerability interaction); 13-D (legal terminology and jurisdiction-specific EIA/SEA procedures).
+
+For all 11: project creator/rightsholder and redistribution licence remain PENDING; accessibility and live browser/mobile rendering remain PENDING. None is promoted to VERIFIED.
