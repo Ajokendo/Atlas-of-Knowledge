@@ -267,6 +267,6 @@ The former chapter-specific register at `visuals/chapter-05-visual-register.md` 
 - For all project-local SVGs in Chapter 05, obtain creator/rightsholder, authoring workflow and project-licence evidence; do not assume repository ownership establishes rights or claim AI authorship without provenance.
 - For external assets, capture the exact file revision, individual creator/credit, licence or permission and all grouped component-file URLs. Highest-priority rights follow-up: 5.3-A (IPCC/UCAR figure), 5.5-A, 5.6-A, 5.7-A and the component files grouped under 5.8-A.
 - Recheck the exact Wikimedia file-page revisions and CC0 / CC BY-SA statements for 5.2-A, 5.4-A and 5.11-A before publication.
-- 5.18-A remains MISSING: a bilingual synthetic synoptic-chart/climate-graph exercise is specified in the chapter but no image has been selected or integrated.
+- 5.18-A is now INTEGRATED as an original bilingual synthetic SVG. NOAA synoptic-map and station-plot teaching resources were consulted for conventions; no third-party map image was copied.
 - Source-level RU/EN embed parity was checked; deployed image loading, responsive rendering, keyboard/screen-reader accessibility and mobile performance remain untested.
 
