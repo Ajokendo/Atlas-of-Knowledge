@@ -1391,3 +1391,24 @@ Do not replace a missing map with a decorative or approximate schematic when the
 ### Chapter 01 — licence selection record — 5 November 2026
 
 The project owner confirmed on 5 Nov 2026 that they or an authorised project organisation have authority to act as licensor and apply CC BY-NC 4.0 to 01-A, 01-B, 01-C and 01-E. Rights status is PASS on the basis of this owner representation, not an independent legal opinion. Attribution label: Atlas of Knowledge project; no individual human SVG author is asserted. The root MIT licence is not used as evidence for these four assets. 01-D remains a separately licensed CC BY 4.0 adaptation.
+
+### Chapter 01 — designated internal reviewer record (not yet assigned)
+
+**Review model:** one competent internal reviewer, distinct from the creator, may review the five diagrams as a single chapter tranche. External specialist review and school-teacher evaluation are separate activities and are not required for this internal gate.
+
+- Reviewer: **PENDING — project owner selected a different person; no name supplied yet.**
+- Role and relevant competence: **PENDING**.
+- Confirmation that the reviewer did not create the five visuals: **PENDING**.
+- Review date: **PENDING**.
+- Overall outcome: **PENDING**.
+- Findings and corrective actions: **PENDING**.
+
+| Visual ID | Required internal review focus | Result |
+|---|---|---|
+| 01-A | Whether natural and human systems are represented as interacting concepts without implying measured or one-way causal relationships; suitability of the systems model for the chapter's school level. | PENDING |
+| 01-B | Whether absolute and relative location are clearly distinguished; whether the coordinate grid, river, road and settlements are unmistakably schematic and not mistaken for real geodata. | PENDING |
+| 01-C | Whether the six stages form a coherent iterative research-learning cycle; whether data validation and the distinction between mapping and interpretation are clear; confirm it is presented as a project model, not a universal mandatory method. | PENDING |
+| 01-D | Whether the three geography fields and their overlap are conceptually defensible for this chapter; whether the applied/technical category is explained without implying the fields are mutually exclusive. Source rights are audited separately. | PENDING |
+| 01-E | Whether local, regional, national, international and global are correctly presented as analytical levels rather than cartographic map scales or fixed administrative boundaries. | PENDING |
+
+The reviewer must record specific findings, not only a general approval. Any correction must be made by the creator and rechecked by the reviewer. Until the reviewer record is completed, none of the five assets may be marked VERIFIED / INTERNALLY VERIFIED.
