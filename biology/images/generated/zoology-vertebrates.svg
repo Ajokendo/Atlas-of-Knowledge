@@ -44,11 +44,13 @@
 <g>
 <rect x="235" y="465" width="350" height="310" rx="16" class="panel"/>
 <text x="262" y="506" class="label">Птицы / Birds</text>
+<g transform="translate(0,-20)">
 <path d="M330 635Q350 565 425 580Q475 590 495 640Q450 680 390 665Q355 660 330 635Z" class="bird"/>
 <path d="M400 610Q365 550 345 545Q350 620 410 648Q445 650 460 630Z" fill="#b8c6d2" stroke="#596f82" stroke-width="4"/>
 <path d="M480 595L520 580L505 610Z" fill="#c28c52" stroke="#89633d" stroke-width="3"/>
 <circle cx="470" cy="595" r="5" fill="#243329"/>
 <path d="M385 665L380 700M420 665L430 700M365 700L395 700M415 700L445 700" fill="none" stroke="#89633d" stroke-width="5" stroke-linecap="round"/>
+</g>
 <text x="262" y="714" class="small">• Перья и клюв</text>
 <text x="262" y="739" class="small">• Передние конечности — крылья</text>
 <text x="262" y="761" class="tiny">Feathers and beak · forelimbs are wings</text>
@@ -56,11 +58,13 @@
 <g>
 <rect x="615" y="465" width="350" height="310" rx="16" class="panel"/>
 <text x="642" y="506" class="label">Млекопитающие / Mammals</text>
+<g transform="translate(0,-20)">
 <path d="M700 640Q710 580 780 575Q850 565 885 615L900 655L875 670L855 650L845 705L825 705L815 650L755 650L745 705L725 705L730 645Z" class="mammal"/>
 <path d="M850 580Q875 545 915 565L940 595L915 620L880 615Z" class="mammal"/>
 <path d="M885 568L890 540L910 565" class="mammal"/>
 <circle cx="920" cy="585" r="5" fill="#243329"/>
 <path d="M700 615Q670 595 665 570" fill="none" stroke="#6e5a49" stroke-width="9" stroke-linecap="round"/>
+</g>
 <text x="642" y="714" class="small">• Волосы или шерсть на теле</text>
 <text x="642" y="739" class="small">• Детёнышей кормят молоком</text>
 <text x="642" y="761" class="tiny">Hair or fur · young fed with milk</text>
