@@ -210,3 +210,25 @@ Updated `IMAGE_SOURCES.md` with **13 stable visual IDs, PHY-02-001–PHY-02-013*
 Это даёт воспроизводимый набор кадров для визуального осмотра, а не только PASS/FAIL в логе. Реальный screenshot/browser review остаётся открытым до завершения workflow на актуальном HEAD и проверки полученного артефакта.
 
 **70% gate: source-level visual/scientific review complete.** Screenshot-level and responsive visual verification remain under the 80% gate.
+
+
+## 80% — desktop/mobile browser and screenshot review
+
+### Isolated current-chapter browser run
+- Workflow **42038461514** completed `success` on commit `de97e7f6316580448a3da4082fd6799ee278fa17`.
+- Newton interactive book desktop 1440×900: **PASS**, all 13 pages navigated, WebGL 816×800, scene picker and breakdown panel passed, axe serious/critical violations: **0**.
+- Newton interactive book mobile 390×844 touch: **PASS**, all 13 pages navigated, WebGL 561×489, scene picker and breakdown panel passed, axe serious/critical violations: **0**.
+- Standalone lesson desktop 1440×900: **PASS**, all 5 sections, live F=ma model, force canvas, quiz and WebGL lab passed; axe serious/critical violations: **0**.
+- Standalone lesson mobile 390×844: **PASS**, same interaction checks; axe serious/critical violations: **0**.
+- Screenshot artifact `chapter2-newton-visual-review`, artifact ID **13418948794**, uploaded successfully.
+
+### Screenshot inspection and responsive correction
+Initial mobile screenshots showed the scene title, object selector and mouse hint colliding. The chapter-specific `newton.css` now:
+- separates the figure number and scene title into distinct top-row positions;
+- places the object selector on its own row beneath the title;
+- hides the desktop mouse hint on touch viewports (the canvas accessible name and selector provide the touch/object-selection instruction);
+- gives the live readout a constrained, wrapped, lightly backed panel so it does not obscure the diagram.
+
+The final artifact was inspected at page 2.1 and the scene-breakdown state: the figure number, scene title and selector are separately readable; the lesson text and breakdown remain legible. The standalone mobile initial viewport was also inspected. The title/selector overlap is resolved.
+
+**80% gate: complete.** All 13 book pages navigated on desktop and mobile; representative desktop/mobile screenshots and breakdown state inspected; standalone lesson interactions passed; no serious/critical axe violations. This is an automated axe smoke check, not a full WCAG certification or screen-reader certification.
