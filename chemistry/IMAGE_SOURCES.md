@@ -227,7 +227,7 @@ The 12 files listed below were re-authored as new, project-specific SVG source i
 | Replacement file | New source commit |
 |---|---|
 | `assets/electron-cloud-ru.svg` | `db3f46081e929ad37f3e271b85551363a7379ce9` |
-| `assets/isotope-abundance.svg` | `2a9130e7d13b91c8a098c72565f0541226f37ee4` |
+| `assets/isotope-abundance.svg` | `113985acda1b23e2fc27b4ca446a8eede881ba9f` (final isotope-count correction; initial replacement `2a9130e7d13b91c8a098c72565f0541226f37ee4`) |
 | `assets/one-mole-scale.svg` | `f0d8157d98d1ce029bc61c4e2654930c2551e243` |
 | `assets/formula-reading.svg` | `f3d8f3453bd51bead4c0a8a29bc92e8bdf7db447` |
 | `assets/solution-saturation-particles.svg` | `d0a4da54e63dab730b3aaa329c1767c397cc3d46` |
