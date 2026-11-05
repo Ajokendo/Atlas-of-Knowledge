@@ -39,8 +39,14 @@
 
 ## 6.2. Круговорот воды в природе / The Hydrological Cycle
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6-A / IMAGE PLACEHOLDER 6-A]** Глобальный круговорот воды: испарение, транспирация, конденсация, осадки, инфильтрация, сток и подземное движение.
-> **EN:** Global water cycle showing evaporation, transpiration, condensation, precipitation, infiltration, runoff and groundwater movement.
+![Глобальный круговорот воды: резервуары и потоки между океаном, атмосферой, сушей, криосферой и подземными водами; показано также влияние водопользования человека. Схема USGS, не в масштабе.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/WCD%201.png)
+
+*Источник: U.S. Geological Survey (USGS), Water Cycle Diagram (2022; изображение WCD 1, опубликовано в 2023 году). Создано USGS VizLab совместно с Water Resources Mission Area Web Communications Branch. Public Domain; изображение используется без изменений. Стрелки показывают направления движения воды качественно, а не измеренные годовые объёмы или скорости потоков.*
+
+**Перевод основных подписей диаграммы:**  
+- **Резервуары (pools):** океан; смешанный и глубинный слои океана; пресные и солёные озёра; пресные и солоноватые водно-болотные угодья; водохранилища; реки; ледяные щиты и ледники; снежный покров; вечная мерзлота; почвенная влага; подземные воды; атмосферная влага над океаном и сушей.
+- **Потоки (fluxes):** испарение океана; осадки над океаном и сушей; перенос влаги с океана на сушу; эвапотранспирация; снеготаяние; поверхностный сток; речной сток в замкнутые бассейны и в океан; пополнение запасов подземных вод; подземный сток в океан; океаническая циркуляция.
+- **Водопользование и воздействие человека:** бытовое, муниципальное, промышленное, сельскохозяйственное и пастбищное водопользование; городской сток; регулирование рек и водохранилища; осушение водно-болотных угодий; загрязнение вод.
 
 Круговорот воды — непрерывное перемещение воды между океаном, сушей, атмосферой, криосферой и подземными резервуарами под воздействием солнечной энергии и силы тяжести.
 
@@ -70,8 +76,6 @@
 - Океан-суша: перенос водяного пара с океана, осадки над сушей и возврат воды стоком.
 - Континентальный цикл: повторное испарение и выпадение осадков внутри материка.
 
-**Место для иллюстрации 6-A — Global Water Cycle.** Схема потоков между океаном, атмосферой, сушей, ледниками, реками и подземными водами. Не смешивать запасы (км³) и годовые потоки (км³/год).
-**EN production brief:** Diagram water flows among the ocean, atmosphere, land, glaciers, rivers and groundwater. Keep stored volumes (km³) separate from annual fluxes (km³/year).
 
 ## 6.3. Мировой океан: единая система / The World Ocean as an Integrated System
 
@@ -558,6 +562,15 @@ Important properties of water include:
 - **surface tension and capillarity**, which are important in soils and living organisms.
 
 ### 6.2. The Hydrological Cycle
+
+![Global water cycle: pools and fluxes among the ocean, atmosphere, land, cryosphere and groundwater, including human water use. USGS schematic, not to scale.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/WCD%201.png)
+
+*Source: U.S. Geological Survey (USGS), Water Cycle Diagram (2022; image WCD 1, published in 2023). Created by USGS VizLab with the Water Resources Mission Area Web Communications Branch. Public Domain; reused unchanged. Arrows show qualitative directions of water movement, not measured annual volumes or flow rates.*
+
+**Key translation of diagram labels:**
+- **Pools:** ocean; ocean mixed and deep-water zones; fresh and saline lakes; fresh and brackish wetlands; reservoirs; rivers; ice sheets and glaciers; snowpack; permafrost; soil moisture; groundwater; atmospheric moisture over ocean and land.
+- **Fluxes:** ocean evaporation; precipitation over ocean and land; transport of moisture from ocean to land; evapotranspiration; snowmelt; surface runoff; streamflow to closed basins and to the ocean; groundwater recharge; groundwater discharge to the ocean; ocean circulation.
+- **Human water use and impacts:** domestic, municipal, industrial, agricultural and grazing water use; urban runoff; river regulation and reservoirs; wetland drainage; water pollution.
 
 The hydrological cycle is the continuous movement of water among the ocean, land, atmosphere, cryosphere and underground reservoirs, driven by solar energy and gravity.
 
