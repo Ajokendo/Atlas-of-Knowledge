@@ -282,7 +282,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 04 | 4.15-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 05 | 5.1-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual SVG embedded in RU/EN; static SVG structure checked. Scientific content, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Commons atmosphere-layers SVG embedded in RU/EN; exact CC0 file-page evidence and English-label localisation still require final review. |
-| 05 | 5.3-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | UCAR-hosted IPCC energy-budget figure embedded in RU/EN; exact reuse terms and embedded-label localisation remain open. |
+| 05 | 5.3-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | Replaced the UCAR-hosted IPCC Figure 7.2 with the NASA / My NASA Data energy-budget diagram. NASA page credits NASA; reuse for educational/informational website use is permitted with credit under NASA media guidance. Caption identifies ten-year average data and Loeb/Trenberth sources. |
 | 05 | 5.4-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | ERA5 1991–2020 map embedded in RU/EN; exact CC BY-SA file revision, legend localisation and scientific review remain open. |
 | 05 | 5.5-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | NWS image on official weather.gov training page; NOAA public-domain guidance applies absent a third-party credit. NOAA/NWS Louisville attribution recorded. Northern Hemisphere limitation remains in bilingual caption. |
 | 05 | 5.6-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | Exact NOAA JetStream image verified; public-domain guidance applies absent a third-party credit. Image uses only numbered cells; bilingual caption explains the simplified three-cell model. |
@@ -428,7 +428,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 02 | 21 | Includes both zero-padded and unpadded forms (for example, 02-A/2-A and 02-D/2-D); confirm alias equivalence before counting. |
 | 03 | 14 | Includes legacy 3-A in addition to the 13 numbered subsection IDs; resolve alias or duplicate status. |
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
-| 05 | 8 | Eight distinct ID-shaped tokens appear in the chapter source. A separate embed inventory found 20 distinct image URLs and 40 embeds. A previous language-count scan misclassified three English headings because it relied on partial heading-name matching; the actual chapter file already contains 20 embeds in each language section, with every URL present once in RU and once in EN. The visual-ID-to-file grouping and 20-ID register count still need semantic reconciliation. |
+| 05 | 17 named IDs | Seventeen named visual IDs now have image assets embedded in both language sections, including 5.18-A. The chapter's legacy inventory still claims 20 positions; two labels remain unresolved, and provisional 5.10-A/5.13-A entries are not accepted as confirmed IDs. |
 | 06 | 15 | Matches the current 15-ID inventory. |
 | 07 | 9 | Matches the current inventory. |
 | 08 | 7 | Matches the current inventory. |
@@ -478,7 +478,7 @@ Markdown alt-text checks:
 - Chapters 01–02: the source register records 50 embeds with non-empty bilingual alt text (10 + 40).
 - Chapter 03: 26 embeds representing 13 unique assets; zero empty alt attributes.
 - Chapter 04: 32 embeds representing 16 unique assets; zero empty alt attributes.
-- Chapter 05: 40 embeds (20 RU + 20 EN; 20 distinct URLs in each language, exact parity); zero empty alt attributes.
+- Chapter 05: 42 embeds (21 RU + 21 EN; 21 distinct URLs in each language, exact parity); zero empty alt attributes.
 - Chapters 18–20: 4 embeds; zero empty alt attributes.
 
 **Result:** structural SVG metadata and non-empty Markdown alt text pass for the checked local assets and chapter embeds. Semantic alt-text quality, bilingual equivalence, scientific correctness, rights evidence and deployed accessibility remain separate and pending checks. No asset is promoted to VERIFIED.
@@ -516,8 +516,8 @@ These checks establish that the expected local files exist, the chapter source r
 
 ### 7.7 Chapter 05 stable-ID anchors added
 
-To make the image-first audit traceable in the chapter itself, non-rendering HTML comments were added immediately before every Markdown image embed in both language sections. Verification after the commit found **40 anchors covering 16 distinct integrated visual IDs**:
-`5.1-A`, `5.2-A` (legacy alias `5-A`), `5.3-A`, `5.4-A`, `5.5-A`, `5.6-A`, `5.7-A`, `5.7-B`, `5.8-A`, `5.9-A`, `5.11-A`, `5.12-A`, `5.14-A`, `5.15-A`, `5.16-A` and `5.17-A`. Repeated anchors for the same ID are intentional: Russian and English placements share one asset ID, and 5.8-A groups the official front symbols/cross-section into one teaching visual set.
+To make the image-first audit traceable in the chapter itself, non-rendering HTML comments were added immediately before every Markdown image embed in both language sections. Verification after the commit found **42 anchors covering 17 distinct integrated visual IDs**:
+`5.1-A`, `5.2-A` (legacy alias `5-A`), `5.3-A`, `5.4-A`, `5.5-A`, `5.6-A`, `5.7-A`, `5.7-B`, `5.8-A`, `5.9-A`, `5.11-A`, `5.12-A`, `5.14-A`, `5.15-A`, `5.16-A`, `5.17-A` and `5.18-A`. Repeated anchors for the same ID are intentional: Russian and English placements share one asset ID, and 5.8-A groups the official front symbols/cross-section into one teaching visual set.
 
 The 5.18-A placeholder has been replaced by a bilingual SVG and the chapter now embeds it once in each language section. The chapter-level inventory still claims 20 IDs, while the visual source/integration register explicitly names 16 integrated IDs plus 5.18-A. **Two inventory ID positions remain unaccounted for by name** and must be recovered from the original chapter brief/history or removed only after documented reconciliation; do not invent labels. The legacy label 5-A is an alias for 5.2-A, not a separate visual asset. The comments do not alter visible page content.
 
@@ -536,7 +536,7 @@ A source scan of all chapter files 06–26 found **210 distinct visual IDs** acr
 
 ### Chapter 05 — bilingual image parity correction — 5 November 2026
 
-- The chapter source contained 20 distinct image URLs and 40 Markdown image embeds. Three project-local bilingual SVGs — 5.12-A global climate belts, 5.14-A atmospheric hazards and 5.15-A climate change — appeared only once in the Russian section, despite the visual register claiming bilingual integration.
+- The chapter source contained 20 distinct image URLs and 42 Markdown image embeds. Three project-local bilingual SVGs — 5.12-A global climate belts, 5.14-A atmospheric hazards and 5.15-A climate change — appeared only once in the Russian section, despite the visual register claiming bilingual integration.
 - Added the same three assets to the corresponding English sections, with bilingual alt text, captions and the existing learning limitations preserved.
 - Rechecked the chapter: **42 image embeds, 21 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
 - RU/EN parity for 5.12-A, 5.14-A and 5.15-A is now **PASS** at the chapter-source level. Their creator/rightsholder, project licence, scientific review and rendered technical checks remain PENDING; none is VERIFIED.
@@ -591,7 +591,7 @@ This is a source-tree and chapter-embed finding, not a judgment that these visua
 
 ### 7.10 Chapter 05 bilingual embed parity rechecked
 
-A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **42 Markdown image embeds: 21 in Russian and 21 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 40 alt-text fields is empty. All 40 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
+A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **42 Markdown image embeds: 21 in Russian and 21 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 42 alt-text fields is empty. All 42 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
 
 
 ### Chapter 05 — static SVG structure check — 5 November 2026
@@ -711,3 +711,12 @@ A content-level pass found that several SVG `<desc>` elements were English-only,
 - For these unchanged NOAA/NWS assets, rights and RU/EN explanatory support are now PASS. Scientific review of each source figure, rendered accessibility and browser/device QA remain separate and pending.
 
 Source: NOAA [image reuse guidance](https://oceanservice.noaa.gov/about/faq.html) and [JetStream usage note](https://www.noaa.gov/jetstream).
+
+
+### Chapter 05 — Visual 5.3-A rights correction and source replacement
+
+The prior embed was a UCAR-hosted reproduction of IPCC AR6 WGI Figure 7.2. The IPCC copyright policy states that its figures may be reproduced only within its specified limited non-commercial terms and prohibits redistribution/alteration beyond those conditions; the chapter's public-site redistribution rights were not established. The IPCC figure was therefore removed rather than treating UCAR hosting as a licence.
+
+Replaced it with the NASA / My NASA Data “Earth's Energy Budget” diagram, whose exact source page credits NASA and whose image contains data citations to Loeb et al. (2009) and Trenberth et al. (2009). NASA's current media guidance generally permits factual educational/informational reuse on websites when NASA is credited and no third-party copyright notice applies. The chapter caption now states that the flux values are a ten-year average, not current measurements. The image is reused unchanged.
+
+**Result:** rights PASS for educational/informational reuse with NASA credit; RU/EN caption and alt-text parity PASS. Scientific review of the historic ten-year data context is recorded; full scientific verification of each numeric flux, detailed accessibility and deployed rendering remain PENDING.
