@@ -829,7 +829,7 @@ All six SVG files were re-fetched from the working branch and passed the followi
 
 ### Coverage and remaining gaps
 
-- Chapters 11–16: 6 of 57 registered visual IDs now have an integrated asset in this tranche; the remaining IDs are still production gaps and must not be counted as complete.
+- Chapters 11–16: 11 of 57 registered visual IDs now have an integrated asset in this tranche; the remaining IDs are still production gaps and must not be counted as complete.
 - Chapter 12-A uses an external image dependency inside its SVG; offline availability and remote loading must be tested before release.
 - No asset in this tranche is marked VERIFIED. The five original SVGs require an explicit project rights/licence decision; all six require scientific/editorial review, and browser/accessibility QA remains outstanding.
 
@@ -861,3 +861,34 @@ The new 18-D, 18-H, 19-C, 20-F, 20-H and 20-J SVG files were re-fetched and pass
 - Chapter 19: 2 of 10 planned visuals integrated (19-C, 19-H); maps and data plots still require validated climate datasets and station metadata.
 - Chapter 20: 5 of 11 planned visuals integrated (20-F, 20-H, 20-I, 20-J, 20-K); the supporting 2019 research figure is additional and does not count toward those 11.
 - None of the original project SVGs is marked VERIFIED. Scientific review, project licence assignment, accessibility review and browser testing remain open.
+
+
+## Third visual integration tranche — Chapters 11–16 and 18–19 — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 11-B | INTEGRATED | PENDING — review factor grouping and examples | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Location factors shown as interacting inputs; no universal factor weights asserted. |
+| 13-C | INTEGRATED | PENDING — risk framework terminology requires subject review | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Hazard, exposure and vulnerability are distinct; caption says conceptual model, not a universal equation. |
+| 14-B | INTEGRATED | PENDING — check h/H/N relationship and CRS terminology | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Separates Earth model, geographic CRS, projection and vertical reference. Verify formula H = h − N against the chapter's chosen sign convention. |
+| 15-B | INTEGRATED | PENDING — check sensor examples and all-weather caveat | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Passive optical/thermal and active SAR/LiDAR principles shown. Radar caveat is qualified by wavelength and conditions. |
+| 16-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Four spatial-analysis levels are shown; caption distinguishes them from map scale. |
+| 18-B | INTEGRATED | PENDING — orographic regionalisation must be checked against the selected classification | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Schematic regional classification only; not a georeferenced map or tectonic-terrane map. |
+| 19-D | INTEGRATED | PENDING — climate attribution and hazard categories require expert review | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Presents hazard families without inventing frequency, regional rankings or forecast values. |
+
+### Updated scoped visual coverage — Chapters 11–20
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 2 | 5 |
+| 12 | 10 | 1 | 9 |
+| 13 | 11 | 2 | 9 |
+| 14 | 9 | 2 | 7 |
+| 15 | 11 | 2 | 9 |
+| 16 | 9 | 2 | 7 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 5 | 6 |
+| **Total** | **97** | **26** | **71** |
+
+All seven new SVGs were re-fetched from the working branch and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element, and Cyrillic and Latin text. This is not a browser-render or assistive-technology test. Their project licence, scientific review, accessibility and live rendering remain pending.
