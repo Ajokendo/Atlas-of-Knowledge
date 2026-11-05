@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">Electron probability cloud</title><desc id="desc">A scientific editorial illustration of an atomic nucleus surrounded by translucent electron probability clouds.</desc>
+<title id="title">Electron probability cloud</title><desc id="desc">A schematic probability-density cloud surrounding an atomic nucleus. The diffuse overlapping regions represent where electrons are more likely to be detected; they are not electron trajectories, circular tracks or planetary orbits. Not to scale.</desc>
 <defs>
  <radialGradient id="paper"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#e9e8df"/></radialGradient>
  <radialGradient id="nucleus"><stop stop-color="#d88b69"/><stop offset=".62" stop-color="#b75e4d"/><stop offset="1" stop-color="#8e4b45"/></radialGradient>
