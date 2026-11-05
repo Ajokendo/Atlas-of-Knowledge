@@ -863,3 +863,14 @@ The seven Chapter 11 visual IDs (11-A–11-G) are all present as bilingual SVG a
 - **11-G:** UN Tourism's sustainable-destination monitoring framework includes local satisfaction, destination economic benefits, employment, seasonality, energy, water, wastewater, solid waste and governance; the SVG's destination components and feedback model are conceptual, not a prescribed universal formula. Source: https://insto.unwto.org/wp-content/uploads/2022/07/INSTO_Framework-Operation-and-Management-Rules.pdf ; https://tourism-villages.unwto.org/wp-content/uploads/2025/02/Guidelines-for-Applications_2025_EN.pdf
 
 All four SVGs contain bilingual labels plus SVG title/description metadata and have no script, foreignObject or embedded external image. Source-level structural review is PASS; live browser/mobile rendering, keyboard/screen-reader accessibility and formal project creator/licence assignment remain PENDING. Therefore none is promoted to VERIFIED.
+
+
+### Chapter 12-E — physical relief map of Europe — 5 November 2026
+
+- **Source:** Blue Green Atlas, “Free relief map of Europe” — https://bluegreenatlas.com/maps/relief_map_of_europe.html
+- **Direct image:** https://bluegreenatlas.com/maps/relief_map_of_europe.jpg
+- **Licence:** The creator's map page states CC BY 4.0. Attribution, source-page link and licence link are included in the chapter.
+- **Technical metadata:** 5,000 × 4,500 px; Albers Equal Area Conic projection. The page lists NASA SRTM3 for topography, GEBCO 2019 for bathymetry, and Natural Earth for lakes and rivers.
+- **Use:** External image embedded directly in the chapter, with bilingual alt text and a bilingual teaching key listing major plains, mountain ranges, peninsulas and seas. No claim is made that the map depicts an official or unique macroregional classification.
+- **Category:** A — external map, used unchanged; a bilingual explanatory key is added separately.
+- **Status:** INTEGRATED. Rights/attribution PASS. Scientific review and remote-image browser/mobile/responsive-load QA PENDING. Not VERIFIED.

@@ -43,7 +43,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 09 | 7 | 5 | 2 | 09-B, 09-C, 09-D, 09-F and 09-G are original bilingual conceptual SVGs. 09-A (WPP 2024 time series) and 09-E (gridded population-density map) remain open pending source-data extraction and documented chart/map metadata. |
 | 10 | 7 | 6 | 1 | 10-B–10-G are original bilingual conceptual SVGs; 10-A remains open pending a current, source-backed world political map and documented boundary-status policy. Rights and rendered/accessibility QA remain pending. |
 | 11 | 7 | 7 | 0 | Seven local SVG assets embedded in chapter source. |
-| 12 | 10 | 3 | 7 | 12-A, 12-B and 12-D embedded; NASA North America relief is supplementary and does not close a separate planned ID. |
+| 12 | 10 | 4 | 6 | 12-A, 12-B, 12-D and 12-E embedded; 12-E is a CC BY 4.0 external relief map with a bilingual feature key. 12-C and 12-F–12-J remain open. |
 | 13 | 11 | 11 | 0 | Eleven local SVG assets embedded. |
 | 14 | 9 | 8 | 1 | 14-A, 14-B, 14-C, 14-D, 14-E, 14-F, 14-H and 14-I embedded; 14-G remains open. |
 | 15 | 11 | 11 | 0 | Eleven local SVG assets embedded. |
@@ -56,9 +56,9 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | **Total named inventory** | **281** | **170** | **111** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 170/281 named IDs have an image embedded in the relevant chapter source (60.5%). This measures presence only.
-- **Image Verification:** 0/170 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 111 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 171/281 named IDs have an image embedded in the relevant chapter source (60.9%). This measures presence only.
+- **Image Verification:** 0/171 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 110 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -85,7 +85,7 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 12 | 12-B | INTEGRATED | PENDING | PASS — Dou et al. 2018 CC BY 4.0 attribution recorded | PASS | PENDING | PENDING — remote MDPI dependency | Adapted Asia relief/regionalisation map; explicitly not an official UN M49 boundary map. |
 | 12 | 12-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-D | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 12 | 12-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 12 | 12-E | INTEGRATED | PENDING | PASS — Blue Green Atlas page states CC BY 4.0; attribution and licence link added | PASS — bilingual alt text, feature key and caption | PENDING | PENDING — remote JPEG dependency; test deployed load/responsive rendering | External physical-relief map by Blue Green Atlas (SRTM3 / GEBCO 2019 / Natural Earth), Albers Equal Area Conic. Added bilingual key for major plains, ranges, peninsulas and seas; not an official macroregional-boundary map. Scientific review and live technical QA pending. |
 | 12 | 12-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |

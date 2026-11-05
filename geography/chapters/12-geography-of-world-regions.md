@@ -136,7 +136,13 @@ Major issues include aridity and variable rainfall, land degradation, access to 
 
 Среди значимых вопросов — энергетическая безопасность, климатическая адаптация, управление миграцией, региональное неравенство, демографическое старение, устойчивость транспортных систем и трансграничное загрязнение. Европа также является одним из важных мировых центров науки, образования, финансов, промышленности и культурного наследия.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-E / IMAGE PLACEHOLDER 12-E]** Физико-географическая карта Европы с основными равнинами, горами, полуостровами и морями; использовать единую классификацию регионов. / **EN:** Physical-geographical map of Europe showing major plains, mountains, peninsulas and seas under one consistent regional classification.
+![Физический рельеф Европы: равнины, горные системы, полуострова, побережья и моря. / Physical relief of Europe: plains, mountain systems, peninsulas, coasts and seas.](https://bluegreenatlas.com/maps/relief_map_of_europe.jpg)
+
+*12-E. Основа рельефа: Blue Green Atlas, «Free relief map of Europe», проекция Albers Equal Area Conic; топография — NASA SRTM3, батиметрия — GEBCO 2019, озёра и реки — Natural Earth. Лицензия CC BY 4.0. Дополнено учебной двуязычной легендой; карта не задаёт единственную официальную схему макрорегионов Европы. / Relief base: Blue Green Atlas, “Free relief map of Europe”, Albers Equal Area Conic projection; topography — NASA SRTM3, bathymetry — GEBCO 2019, lakes and rivers — Natural Earth. CC BY 4.0. Supplemented with a bilingual teaching key; the map does not establish a single official macroregional division of Europe.*  
+
+**Основные формы рельефа и ориентиры / Major landforms and reference features:** Северо-Европейская и Восточно-Европейская равнины; Скандинавские горы, Альпы, Пиренеи, Карпаты, Апеннины и Динарские Альпы; Скандинавский, Пиренейский, Апеннинский, Балканский и Ютландский полуострова; Норвежское, Северное, Балтийское, Средиземное, Чёрное и Баренцево моря. / North European and East European plains; Scandinavian Mountains, Alps, Pyrenees, Carpathians, Apennines and Dinaric Alps; Scandinavian, Iberian, Italian, Balkan and Jutland peninsulas; Norwegian, North, Baltic, Mediterranean, Black and Barents seas.
+
+*Источник и лицензия / Source and licence: [Blue Green Atlas — Europe relief map](https://bluegreenatlas.com/maps/relief_map_of_europe.html), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Изменение: добавлена двуязычная учебная легенда; исходное изображение не изменялось. / Change: a bilingual teaching key was added; the source image itself was not modified.*
 **Рисунок 12.2 / Figure 12.2 — Физико-географические регионы Европы / Europe's physical-geographical regions.**  
 Техническое задание: показать основные равнины, полуострова, горные системы, реки и моря; отдельно выделить условные макрорегионы Северной, Западной, Центральной, Южной и Восточной Европы, отметив, что схемы регионализации различаются.
 
