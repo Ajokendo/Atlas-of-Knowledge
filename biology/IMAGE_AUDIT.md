@@ -406,3 +406,10 @@ A scientific review found that the visual brief `fauna-freshwater-habitats.svg` 
 - Updated the image alt text and added a bilingual note explaining the lake’s salinity and why its ecology should not be conflated with freshwater river systems.
 
 The generic fish silhouettes remain explicitly unidentified. No species labels, distribution claims or population claims were added. This closes a clear terminology/science issue in this illustration; it does not certify the generic fish silhouettes as species-specific morphology.
+
+
+## Aygul flower-anatomy detail correction — 5 November 2026
+
+A closer review of `flora-batken-aygul.svg` found that its enlarged flower detail showed only two stamens, which could misrepresent the flower's androecium. The genus-level description in *Flora of China* states that Fritillaria flowers have six tepals and six stamens (Chen & Mordak, 2000, pp. 127–133): https://www.iplant.cn/foc/pdf/Fritillaria.pdf. The RHS profile independently describes the species' nodding orange-to-yellow flowers and leafy bract tuft: https://www.rhs.org.uk/plants/7364/fritillaria-eduardii/details. A Kyrgyzstan-focused phenology paper reports F. eduardii as a 50–130 cm plant with broad leaves and usually around six nodding orange-red flowers: https://applied-research.ru/en/article/view?id=13153.
+
+**Correction:** the enlarged schematic now depicts six stamens and explicitly labels six tepals and six stamens in both the visual description and its visible annotation. The main plant remains a simplified botanical plate, not a measured specimen or a claim about a fixed flower count per plant. The drawing's morphology was checked against published descriptions; it has not received independent botanist review.
