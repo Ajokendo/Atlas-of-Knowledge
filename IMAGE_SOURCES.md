@@ -140,7 +140,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Alt RU: Четыре схемы магнитного поля с направлениями тока и магнитной индукции, формулами и условиями идеализации.
 - Alt EN: Four magnetic-field schematics showing current and magnetic-field directions, equations, and idealisation limits.
 - Limitations: Long straight wire; field at the centre of a single circular loop; long-solenoid approximation; ideal toroid approximation. Not to scale.
-- Scientific review: PENDING — internal vector/equation consistency checked; independent subject-matter review not recorded.
+- Scientific review: Internal second-pass physics review: PASS (2026-11-05) — equations, directions, assumptions and graph relationships checked; identified notation/direction defects corrected in the SVGs. Independent external subject-matter expert sign-off: PENDING.
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual labels, captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/magnetism.html, section “Визуальные материалы главы”.
@@ -175,7 +175,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Alt RU: Два состояния катушки с северным полюсом магнита: при приближении поле катушки направлено против роста потока, при удалении — в сторону исходного поля.
 - Alt EN: Two coil states with a north pole facing the coil: the induced field opposes increasing flux during approach and supports the original field during recession.
 - Limitations: Assumes the north pole faces the coil and the coil axis is aligned with the magnet; current direction is viewed from the magnet side.
-- Scientific review: PENDING — internal polarity and flux-change directions checked; independent subject-matter review not recorded.
+- Scientific review: Internal second-pass physics review: PASS (2026-11-05) — equations, directions, assumptions and graph relationships checked; identified notation/direction defects corrected in the SVGs. Independent external subject-matter expert sign-off: PENDING. Lenz-law polarity and flux-change directions were rechecked.
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.1.
