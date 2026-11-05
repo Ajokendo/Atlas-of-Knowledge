@@ -1,4 +1,5 @@
 import { chromium } from 'playwright';
+import { mkdir } from 'node:fs/promises';
 import AxeBuilder from '@axe-core/playwright';
 
 // Chapter 1 (kinematics) is the current browser-validation target.
@@ -6,6 +7,8 @@ import AxeBuilder from '@axe-core/playwright';
 const labs = ['kinematics'];
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
 const failures = [];
+const visualReviewDir = '/tmp/physics-visual-review/chapter1';
+await mkdir(visualReviewDir, { recursive: true });
 let pagesChecked = 0;
 let axeCritical = 0;
 let axeSerious = 0;
@@ -163,6 +166,10 @@ async function checkLab(lab, mobile) {
       }
       if (i === 0) {
         await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 5000 });
+      }
+      if (!mobile) {
+        await page.waitForTimeout(450);
+        await page.screenshot({ path: `${visualReviewDir}/${key}.png`, animations: 'disabled' });
       }
     }
     await picker.selectOption('');
@@ -350,6 +357,7 @@ async function checkChapterPage(mobile = false) {
     }
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (overflow) throw new Error('Standalone Chapter 1 page has horizontal overflow at this viewport');
+    await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}.png`, fullPage: true, animations: 'disabled' });
     if (runtimeErrors.length) throw new Error(`Chapter page console/runtime errors: ${runtimeErrors.join(' | ')}`);
     console.log(`PASS chapter page ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${required.length} ordered sections, accessible canvas/SVG descriptions, embedded Three.js/WebGL 2 frame, motion sliders, projectile slider, quiz; ${headings.length} headings`);
   } catch (error) {
