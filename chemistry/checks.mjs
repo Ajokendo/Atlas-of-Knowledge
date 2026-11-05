@@ -876,8 +876,8 @@ for (const required of [
   'data-svg-en="assets/periodic-trends.svg"',
   'data-alt-ru=',
   'data-alt-en=',
-  'trendImage.alt=names[lang].trendAlt',
-  'trendImage.src=lang==="ru"',
+  '$("trendImage").alt=names[lang].trendAlt',
+  '$("trendImage").src=lang==="ru"',
   'data-t="trendCaption"',
   'data-t="trendBody"'
 ]) {
