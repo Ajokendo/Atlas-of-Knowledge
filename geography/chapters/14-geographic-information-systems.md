@@ -16,8 +16,9 @@ This chapter introduces spatial data, coordinate reference systems, geographic d
 
 ## 14.1. Понятие ГИС и её компоненты / The Concept of GIS and Its Components
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-E / IMAGE PLACEHOLDER 14-E]** Архитектура ГИС: данные, программное обеспечение, оборудование, методы, люди и результаты; показать цикл от сбора до принятия решений.
-> **EN:** GIS architecture showing data, software, hardware, methods, people and outputs; illustrate the workflow from data acquisition to decision-making.
+![Компоненты и рабочий цикл ГИС / GIS components and workflow](../assets/diagrams/14-E-gis-components-workflow-bilingual.svg)
+
+*ГИС включает людей, данные, программное обеспечение, оборудование и методы; схема не сводит ГИС к одной программе. / GIS includes people, data, software, hardware and methods; the diagram does not reduce GIS to a single application.*
 
 
 ГИС — не просто электронная карта. Это информационная система, в которой географическое положение связано с описательными характеристиками, а данные могут анализироваться с учётом пространственных отношений.
