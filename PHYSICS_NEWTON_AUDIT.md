@@ -259,3 +259,29 @@ Checked every local `href` and `src` reference in `chapters/newton-laws.html` an
 - GitHub Pages remains configured to deploy only from `main`; this work is publication-ready in the working branch, not deployed.
 
 **90% gate: complete.** Cross-page paths, asset references, language declarations, scene mapping and internal integration are checked. The last 100% gate is a final current-HEAD rerun of JavaScript, physics invariants and the Newton browser/screenshot workflow after this audit-log commit.
+
+
+## 100% — финальная внутренняя готовность к публикации
+
+### Final CI evidence
+- Current branch audit HEAD before this final record: `f8e15dd26066badddea337726a0c1aefcb3a6b2a`.
+- JavaScript workflow **42039055282** on that HEAD: `success`.
+- Full Physics engine workflow **42039055241** on that HEAD: `success`.
+- Newton-specific browser workflow **42038461514** on source/UI commit `de97e7f6316580448a3da4082fd6799ee278fa17`: `success`. The only later commit before final audit HEAD `f8e15dd` changed `PHYSICS_NEWTON_AUDIT.md` only; no chapter source, style, model, page, practice or browser-test code changed after the successful Newton browser run.
+- The Newton check module contains **54 explicit assertions**. The current Physics engine workflow completed successfully with no failed Newton assertion, including the 26-item practice structure and the two added dimensional-unit regressions.
+- Newton browser output: all 13 interactive pages navigated on desktop and mobile; WebGL, scene picker and breakdown panel passed; the standalone five-section chapter, F=ma model, force canvas, quiz and WebGL lab passed on both viewports; axe serious/critical violations: **0**.
+- Screenshot artifact **13418948794** was uploaded and inspected. The final mobile scene header keeps figure number, scene title and selector distinct; standalone mobile top and quiz states are legible.
+
+### Final inventory
+- 13 interactive book pages / 13 scene assemblies / 13 PLATES breakdowns.
+- 26 practice questions (25 multiple-choice and one worked-response problem).
+- 54 automated Newton assertions.
+- 13 item-level visual provenance records, PHY-02-001–PHY-02-013.
+- Standalone Russian chapter with five sections and interactive lab.
+- MIT attribution and third-party notices retained.
+- All local page/style/script/navigation references resolved.
+- Responsive desktop/mobile checks passed.
+
+**Status: 100% — Chapter 2 / Newton's Laws is internally ready for publication in `workspace/physics`.** This status means the chapter has passed the internal content, rights, localisation, visual-source, browser, accessibility-smoke, integration and CI gates. It is not an independent expert certification and does not mean the chapter has been merged or deployed.
+
+**Publication boundary:** `main` was not changed; no merge or production deployment was performed. GitHub Pages remains configured to publish from `main` only. External review by specialist school teachers remains a separate subsequent activity and does not block internal publication readiness.
