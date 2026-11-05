@@ -1107,6 +1107,7 @@ This is a learning example, not a complete assessment of healthcare access. The 
 12. U.S. Geological Survey. (1993). **Map Projections.** General Information Product; USGS Publications Warehouse, DOI 10.3133/70047422. Explains the properties, distortions and uses of major projection families. https://www.usgs.gov/publications/map-projections
 13. United Nations Statistics Division. (2025). **Principles and Recommendations for Population and Housing Censuses, Revision 4.** Adopted by the Statistical Commission at its 56th session in 2025; the current English text is marked unedited/not typeset. https://unstats.un.org/unsd/demographic/sources/census/wphc/default.htm
 14. Statistics Canada. **Spatial data quality elements.** Defines lineage, positional accuracy, attribute accuracy, logical consistency and completeness as components of spatial-data quality metadata. https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/other-autre/qua-eng.htm
+15. Ordnance Survey. **Generalisation.** Explains why smaller-scale maps require selection, simplification and prioritisation of geographic features. https://docs.os.uk/more-than-maps/geographic-data-visualisation/guide-to-cartography/generalisation
 
 ---
 **Конец главы 16 / End of Chapter 16**
