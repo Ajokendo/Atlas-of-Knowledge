@@ -630,7 +630,7 @@ Assets: `images/generated/evolution-tree.svg`, `evolution-homology.svg`, and `ev
 
 ### Verification limits
 
-The edits were saved directly to `workspace/biology`. They are source-level corrections only. Re-fetch/hash verification, Chromium rendered review, bilingual visual inspection at mobile width, competent second-person scientific review and rights/authority confirmation remain separate gates. Do not mark these assets `VERIFIED` on the basis of these edits or CI alone.
+The edits were saved directly to `workspace/biology`. They are source-level corrections only. Re-fetch/hash verification, Chromium rendered review, bilingual visual inspection at mobile width, internal source-based evidence review, rendered browser review, bilingual visual inspection at mobile width and rights/authority confirmation remain separate checks. Do not mark these assets `VERIFIED` on the basis of these edits or CI alone.
 
 
 ## Evaluation governance — school-teacher assessment after development — 5 November 2026
