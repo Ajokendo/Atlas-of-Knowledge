@@ -330,3 +330,8 @@ Continue technical review by examining each interactive model's state transition
 ## 2026-11-02 — audit-gate model correction
 
 The earlier entries in this report that describe independent G4/G5 sign-off as mandatory are historical planning notes and are superseded. The agreed completion model requires the project team to perform the internal scientific and editorial/bilingual audits. The final audit records document G4 4/4 blocks (100%) and G5 4/4 blocks (100%). Both internal gates are closed. External specialist/editor consultation is optional. Source gaps and uncertain identifications remain qualified/deferred rather than being treated as resolved. The 52 visual assets and remaining accessibility/device work are separate tracked tasks.
+
+
+## Governance supersession — 5 November 2026
+
+Older statements in this historical audit that independent/external review is required, pending or a release gate are superseded. External review, specialist assessment, teacher evaluation and outside sign-off are excluded from Atlas of Knowledge and must not be tracked as project tasks or blockers. The external-review packet and related handoff/recruitment/register files are archived outside project scope. Internal source-led checks remain valid and may use published scientific literature and official datasets as evidence. Any external activity belongs to a separate process with separate records.
