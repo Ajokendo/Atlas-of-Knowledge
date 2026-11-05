@@ -1063,3 +1063,11 @@ After adding a brief bilingual introduction to the key-term glossaries in Chapte
 - USGS Landsat glossary and NASA ARSET define the four independent resolution dimensions: spatial, spectral, radiometric and temporal.
 - USGS Landsat Collection 2 sources confirm that Level-2 surface reflectance products have undergone algorithmic atmospheric correction (LEDAPS/LaSRC depending on sensor generation) and require product-specific scale factors and QA layers. The diagram warns against applying corrections twice.
 - 15-F, 15-G and 15-H passed static SVG and embed checks; sensor-specific product testing, browser rendering and accessibility review remain open.
+
+
+### Chapter 17 — active faults and seismicity map source checkpoint
+
+- **World Bank Central Asia Earthquake Catalogue (0064167):** catalogue page reports CC BY 4.0; harmonized and declustered CSVs; regional scope is five Central Asian countries plus a 300 km buffer; underlying study describes historical and instrumental events through 2020 and discusses completeness limitations.
+- **World Bank Central Asia Seismic Fault Database (0064168):** catalogue page reports CC BY 4.0; selected active faults converted from AFEAD to OpenQuake/GEM format; regional scope is five Central Asian countries plus a 300 km buffer. It is not a complete inventory of every fault in Kyrgyzstan.
+- **Poggi et al. (2024), NHESS 24, 2597–2613, DOI 10.5194/nhess-24-2597-2024:** peer-reviewed open-access description of catalogue harmonisation and selected active-fault compilation; article licence CC BY 4.0.
+- **Decision:** record as suitable candidate data sources, not as a completed map. Before integration, inspect actual data files and fields, choose a defensible magnitude/time filter, record CRS and completeness, and use a boundary whose source/date/licence are independently documented. Visual 17-F remains MISSING.
