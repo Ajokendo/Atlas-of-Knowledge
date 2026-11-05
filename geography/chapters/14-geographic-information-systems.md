@@ -903,9 +903,9 @@ A reproducible project should allow another specialist to understand which data,
 
 **Шаг 1. Проверим систему координат.** Расчёт расстояния должен выполняться в подходящей проецированной системе координат с линейными единицами, например метрами. Если слой хранится в географических координатах широты и долготы, нельзя просто задать буфер «500» и считать, что это 500 м: единицы будут угловыми, а длина градуса долготы меняется с широтой.
 
-**Шаг 2. Создадим буфер радиусом 500 м.** В ГИС выбираем операцию Buffer и задаём расстояние 500 м. Для идеального круга его площадь можно проверить по формуле (S=\pi r^2):
+**Шаг 2. Создадим буфер радиусом 500 м.** В ГИС выбираем операцию Buffer и задаём расстояние 500 м. Для идеального круга его площадь можно проверить по формуле \(S=\pi r^2\):
 
-(S \approx 3{,}1416 \times 500^2 = 785\,400\ м^2 \approx 0{,}785\ км^2.)
+\(S \approx 3{,}1416 \times 500^2 = 785\,400\ м^2 \approx 0{,}785\ км^2\)
 
 **Шаг 3. Правильно истолкуем карту.** Буфер показывает геометрическую зону на расстоянии до 500 м по прямой от точки. Он не показывает реальное время ходьбы и не гарантирует доступность поликлиники: на пути могут быть река, железная дорога, закрытая территория, отсутствие перехода или крутой склон.
 
@@ -917,9 +917,9 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Step 1. Check the coordinate reference system.** Distance calculations should use a suitable projected coordinate system with linear units, such as metres. If the layer uses geographic latitude and longitude, do not enter “500” and assume it means 500 m: the units are angular, and the ground length of a degree of longitude varies with latitude.
 
-**Step 2. Create a 500 m buffer.** In GIS, choose the Buffer operation and set the distance to 500 m. The area of an ideal circle can be checked using (A=\pi r^2):
+**Step 2. Create a 500 m buffer.** In GIS, choose the Buffer operation and set the distance to 500 m. The area of an ideal circle can be checked using \(A=\pi r^2\):
 
-(A \approx 3.1416 \times 500^2 = 785,400\ m^2 \approx 0.785\ km^2.)
+\(A \approx 3.1416 \times 500^2 = 785,400\ m^2 \approx 0.785\ km^2\)
 
 **Step 3. Interpret the map correctly.** The buffer represents a geometric zone within 500 m in a straight line from the point. It does not show actual walking time or guarantee access to the clinic: a river, railway, restricted area, missing crossing or steep slope may lie along the route.
 
