@@ -313,8 +313,9 @@ A map should answer a specific question. Excessive detail, inconsistent symbols 
 
 ## 16.10. Картографическая проекция, масштаб и генерализация / Projection, Scale and Generalisation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-D / IMAGE PLACEHOLDER 16-D]** Одна территория на крупном, среднем и мелком масштабе; показать корректную генерализацию берегов, дорог и населённых пунктов.
-> **EN:** Show one area at large, medium and small scales, demonstrating appropriate generalisation of coastlines, roads and settlements.
+![Картографическая генерализация на трёх масштабах / Cartographic generalisation at three scales](../assets/diagrams/16-D-cartographic-generalisation-bilingual.svg)
+
+*Схема условная; генерализация зависит от цели карты, масштаба, аудитории и плотности объектов. / Conceptual diagram; generalisation depends on map purpose, scale, audience and feature density.*
 
 
 Картографическая проекция преобразует координаты поверхности Земли в плоскость. Любая плоская проекция искажает хотя бы одно из свойств — площадь, форму, расстояние или направление. Выбор зависит от назначения карты и территории.
