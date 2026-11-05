@@ -589,6 +589,19 @@ Biosphere research combines field, laboratory, statistical and remote-sensing me
 
 Every study requires appropriate sampling design, replication, control of seasonality and explicit treatment of uncertainty. Failure to observe a species does not always prove its absence. Camera traps record animal activity and detection probability; photographs alone do not provide a reliable abundance estimate without a suitable survey design and statistical model. Environmental DNA can be transported and may persist after an organism has left, so a single detection does not always prove that a living organism is present at the exact sampling point. Replicate samples, positive and negative controls, and independent confirmation where possible are needed. Potential-range models show where conditions may be suitable, not where an organism is guaranteed to occur.
 
+### 7.15.1. Evaluating Ecosystem Restoration
+
+Planting trees or increasing vegetation cover does not by itself demonstrate that an ecosystem has been restored. Outcomes must be assessed against the initial condition, the site's ecological context and a realistic project goal. It may not be possible or desirable to recreate a historical state fully, especially where climate and land use have changed.
+
+**What to measure:** survival and natural regeneration of native species; vegetation structure and diversity; soil and water conditions; presence of invasive species; habitat connectivity; and signs that characteristic animal species are returning. For rangelands, livestock pressure, grazing seasonality and ground cover are also important.
+
+**A baseline is essential.** Before work begins, document site conditions and, where possible, select comparable reference sites. Repeat observations in the same seasons using consistent methods. A short-term increase in green biomass does not necessarily indicate recovery of species composition, soil functions or drought resilience.
+
+**Involve local land users.** Restoration measures should account for the rights and practices of pastoral communities, water access, livelihood needs and local knowledge. Otherwise, a technically successful planting effort may fail or shift grazing pressure to neighbouring areas.
+
+**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. First describe the baseline condition and select an appropriate reference ecosystem or comparable reference sites. The indicators should cover not only vegetation cover but also native-species composition, community structure, soil and water conditions, ecological functions and habitat connectivity. For each indicator, state the measurement method, season, possible source of error and criterion that would indicate improvement.
+
+
 ## 7.16. Итоги главы / Chapter Summary
 
 1. Биосфера — глобальная область существования жизни и взаимодействия организмов с оболочками Земли.
@@ -640,18 +653,6 @@ Every study requires appropriate sampling design, replication, control of season
 ### Практическая работа 4. Экологический мониторинг / Practical activity 4. Ecological monitoring
 
 Разработайте план сезонного наблюдения за одним видом растений или животных: цель, место, периодичность, метод учёта, единицы измерения, возможные источники ошибки и этические ограничения. Не нарушайте охранный режим территории и не беспокойте животных.
-
-### 7.15.1. Evaluating Ecosystem Restoration
-
-Planting trees or increasing vegetation cover does not by itself demonstrate that an ecosystem has been restored. Outcomes must be assessed against the initial condition, the site's ecological context and a realistic project goal. It may not be possible or desirable to recreate a historical state fully, especially where climate and land use have changed.
-
-**What to measure:** survival and natural regeneration of native species; vegetation structure and diversity; soil and water conditions; presence of invasive species; habitat connectivity; and signs that characteristic animal species are returning. For rangelands, livestock pressure, grazing seasonality and ground cover are also important.
-
-**A baseline is essential.** Before work begins, document site conditions and, where possible, select comparable reference sites. Repeat observations in the same seasons using consistent methods. A short-term increase in green biomass does not necessarily indicate recovery of species composition, soil functions or drought resilience.
-
-**Involve local land users.** Restoration measures should account for the rights and practices of pastoral communities, water access, livelihood needs and local knowledge. Otherwise, a technically successful planting effort may fail or shift grazing pressure to neighbouring areas.
-
-**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. First describe the baseline condition and select an appropriate reference ecosystem or comparable reference sites. The indicators should cover not only vegetation cover but also native-species composition, community structure, soil and water conditions, ecological functions and habitat connectivity. For each indicator, state the measurement method, season, possible source of error and criterion that would indicate improvement.
 
 ### English Summary
 
