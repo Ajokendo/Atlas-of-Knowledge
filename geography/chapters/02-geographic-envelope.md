@@ -189,11 +189,15 @@
 
 Границы плит не всегда представлены одной узкой линией: существуют широкие зоны деформации, где движение распределено между несколькими разломами и блоками коры. Землетрясения возможны также внутри плит, хотя особенно часто они происходят в зонах границ.
 
-**Иллюстрация 2.5-A — Типы границ литосферных плит / Plate Boundary Types.**
+**Иллюстрация 2.5-A — Три основных типа границ литосферных плит / The Three Main Types of Plate Boundaries.**
 
-![Русскоязычная схема границ плит: сдвиг, спрединг, субдукция и рифтинг / Russian-language diagram of plate boundaries: transform motion, spreading, subduction and rifting](https://upload.wikimedia.org/wikipedia/commons/1/15/Plate_Tectonics_ru.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)
+![Дивергентная граница: плиты расходятся, формируя новую литосферу / Divergent boundary: plates move apart and new lithosphere forms](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/DivergentPlateBoundary_CrameriEtAl2019.png?resize=1000%2C717&ssl=1)
 
-*Источник / Source: Jose F. Vigil, U.S. Geological Survey (USGS), русскоязычная версия файла от 8 февраля 2012 года / Russian-language file version dated 8 February 2012. Public Domain in the United States; this is a U.S. jurisdictional status, not a universal international licence. Атрибуция сохранена; USGS не заявляет об одобрении Atlas of Knowledge. / Attribution retained; USGS does not endorse Atlas of Knowledge. [Страница файла / File page](https://commons.wikimedia.org/wiki/File:Plate_Tectonics_ru.png).
+![Конвергентная граница: плиты сближаются, одна может погружаться под другую / Convergent boundary: plates move together and one may subduct beneath the other](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/ConvergentPlateBoundary_CrameriEtAl2019.png?resize=1000%2C705&ssl=1)
+
+![Трансформная граница: плиты смещаются вдоль разлома / Transform boundary: plates slide past one another along a fault](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/TransformPlateBoundary_CrameriEtAl2019.png?resize=1000%2C643&ssl=1)
+
+*Автор всех трёх схем / Creator of all three diagrams: Fabio Crameri; версия / version 23 August 2021. Источник / Source: Accessible Science Graphics Collection, s-Ink; Crameri, Shephard & Conrad (2019), “Plate Tectonics”. Лицензия / Licence: CC BY-SA 4.0. Изображения использованы без изменений. / Images used without modification. [Дивергентная / Divergent](https://s-ink.org/divergent-plate-boundary) · [Конвергентная / Convergent](https://s-ink.org/convergent-plate-boundary) · [Трансформная / Transform](https://s-ink.org/transform-plate-boundary) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/4.0/).
 
 *Условные геологические разрезы, не в масштабе. Конвергентная граница может включать субдукцию или столкновение континентальных плит. / Schematic geological cross-sections, not to scale. A convergent boundary may involve subduction or continental collision.*
 
@@ -766,11 +770,15 @@ At divergent boundaries plates move apart; at convergent boundaries they move to
 
 Plate boundaries are not always represented by a single narrow line: broad deformation zones may distribute motion across several faults and crustal blocks. Earthquakes can also occur within plates, although they are especially common near plate boundaries.
 
-**Illustration 2.5-A — Plate Boundary Types.**
+**Illustration 2.5-A — The Three Main Types of Plate Boundaries.**
 
-![Diagram of plate boundaries: convergent, transform, divergent and continental rift settings](https://upload.wikimedia.org/wikipedia/commons/4/40/Tectonic_plate_boundaries.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)
+![Divergent boundary: plates move apart and new lithosphere forms](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/DivergentPlateBoundary_CrameriEtAl2019.png?resize=1000%2C717&ssl=1)
 
-*Source: Jose F. Vigil, U.S. Geological Survey (USGS), original English file dated 23 October 1997. Public Domain in the United States; this is a U.S. jurisdictional status, not a universal international licence. Attribution retained; USGS does not endorse Atlas of Knowledge. [File page](https://commons.wikimedia.org/wiki/File:Tectonic_plate_boundaries.png).*
+![Convergent boundary: plates move together and one may subduct beneath the other](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/ConvergentPlateBoundary_CrameriEtAl2019.png?resize=1000%2C705&ssl=1)
+
+![Transform boundary: plates slide past one another along a fault](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/TransformPlateBoundary_CrameriEtAl2019.png?resize=1000%2C643&ssl=1)
+
+*Creator of all three diagrams: Fabio Crameri; version 23 August 2021. Source: Accessible Science Graphics Collection, s-Ink; Crameri, Shephard & Conrad (2019), “Plate Tectonics”. Licence: CC BY-SA 4.0. Images used without modification. [Divergent](https://s-ink.org/divergent-plate-boundary) · [Convergent](https://s-ink.org/convergent-plate-boundary) · [Transform](https://s-ink.org/transform-plate-boundary) · [Licence](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 *Original schematic geological cross-sections, not to scale. A convergent boundary may involve subduction or continental collision. / Оригинальные условные геологические разрезы, не в масштабе. Конвергентная граница может включать субдукцию или столкновение континентальных плит.*
 
