@@ -198,8 +198,9 @@ The entire south-west of the country should not be labelled “subtropical” wi
 > **EN:** Elevation profile of climatic belts showing temperature, precipitation and snow regime; belt boundaries are approximate and regionally variable.
 
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-C / IMAGE PLACEHOLDER 19-C]** Поперечный климатический профиль от долины до нивально-ледникового пояса с изменением температуры, осадков и снежного режима; границы поясов показывать как ориентировочные.
-> **EN:** Cross-sectional climate profile from a valley to the nival-glacial belt, showing changes in temperature, precipitation and snow regime; belt boundaries are approximate.
+![Высотный климатический профиль от долины к нивально-ледниковой зоне / Altitudinal climate profile from valley to nival-glacial zone](../assets/diagrams/19-C-altitudinal-climate-profile-bilingual.svg)
+
+*Оригинальная двуязычная концептуальная схема; высотные границы не фиксированы и меняются по региону, экспозиции и увлажнению. / Original bilingual conceptual diagram; elevation limits are not fixed and vary by region, aspect and moisture.*
 
 Высотная поясность — закономерная смена климатических условий с высотой. В Кыргызстане она особенно выражена из-за значительных перепадов рельефа. При подъёме обычно снижается температура, изменяются количество и сезонность осадков, длительность снежного покрова и продолжительность периода с положительными температурами.
 
