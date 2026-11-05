@@ -242,3 +242,33 @@ The 12 files listed below were re-authored as new, project-specific SVG source i
 **Current provenance status:** these 12 replacement files now have a documented in-session creation record and are classified as project-created (Category C) for source/method tracking. The prior unknown-origin versions have been superseded in the branch and are no longer the files served by the atlas. The other 10 pre-existing SVG files with earlier AI-generation evidence and the new CH-V12 pair retain their separately documented evidence. This resolves the previously identified 12-file source-history gap; it does not constitute legal advice or independent scientific certification.
 
 The replacement diagrams include localized titles/descriptions and retain the existing filenames. A full branch-head CI run and targeted rendered-image review are required before marking these replacements technically checked.
+
+
+## Final disposition of the seven interactive visual systems — 2026-11-05
+
+The seven interactive systems were re-inspected in their current page source:
+
+| Visual ID | System | Source page | Implementation inspected |
+|---|---|---|---|
+| CH-IV01 | Selectable atom / electron-shell model | `chapters/atomic-structure.html` | Local inline JavaScript and SVG rendering |
+| CH-IV02 | Proton, neutron and electron comparison | `chapters/atomic-structure.html` | Local inline SVG |
+| CH-IV03 | Ionic, covalent and metallic bonding models | `chapters/chemical-bonding.html` | Local inline JavaScript-generated SVG |
+| CH-IV04 | Interactive periodic table | `periodic-table.html` | Local HTML/CSS/JavaScript |
+| CH-IV05 | Molecular laboratory / rotatable molecule models | `molecule-lab.html` | Local Canvas drawing and JavaScript interaction |
+| CH-IV06 | Ideal-gas particle-count model | `gas-laws.html` | Local HTML/CSS/JavaScript particle rendering |
+| CH-IV07 | Acid–base virtual beaker | `virtual-lab.html` | Local HTML/CSS/JavaScript simulation |
+
+**Findings:** all seven are functional code-based learning tools embedded in the project, not imported raster illustrations or linked third-party visual widgets. The inspected pages contain no third-party visualization-library imports and no external image-asset references; Google Fonts are the only observed external page dependency. The repository history records their first introduction (CH-IV01–CH-IV05 and CH-IV07 in `ede96643806cd1f83da27395908dc40e4a9b7518`; CH-IV06 in `4793914a73f788e92b63efe10c86762a61fe8455`). These facts support a finding that the current implementations are self-contained local code and are technically testable. They do **not** identify the original human/AI author or establish a separate licence for every code fragment.
+
+**Disposition:** retain the seven interactive tools as local application code; do not falsely attribute them to an external image source or claim independently proven authorship. Record the unresolved historical authoring attribution as a limitation, not as an unverified external image dependency. Their current operation is covered by the successful automated browser suite. The project has no external reviewer or assistive-technology testing resource; those checks are out of scope and non-blocking under the project decision recorded in `PUBLICATION-CHECKLIST.md`.
+
+## Current provenance summary — 2026-11-05
+
+- 12 bilingual static visual topics (24 SVG files): integrated; all 12 previously unresolved files have been replaced with newly authored project-specific SVG source, with file-level creation commits recorded above.
+- 10 earlier SVG files: retain the separate AI-generation evidence documented in the earlier register; this is not a blanket legal clearance.
+- CH-V12 periodic-trends pair: newly authored project-specific SVG source, recorded separately.
+- Seven interactive systems: local code implementations, no third-party visualization-library imports or external image references identified; exact original authoring process/rightsholder remains undocumented.
+- No external candidate located during retrospective searches has been adopted as source artwork for the current visuals.
+- No independent legal opinion, independent scientific certification, or manual screen-reader/device certification is claimed.
+
+For release notes, distinguish **static-image provenance remediation** from **interactive-code historical attribution**. Do not describe either as a legal opinion or warranty of exclusive copyright ownership.
