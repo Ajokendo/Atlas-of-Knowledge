@@ -352,6 +352,19 @@ When different seasons are compared, describe the result as a seasonal differenc
 
 ДЗЗ следует сочетать с наземными наблюдениями, метеорологическими данными, сообщениями служб и проверенными сведениями о населении и инфраструктуре.
 
+
+Remote-sensing data support work before, during and after emergencies. They can be used to:
+- map flooded areas;
+- identify the extent of forest and steppe fires;
+- assess the effects of landslides and earthquakes;
+- observe glacier movement and changes in glacial lakes;
+- monitor dust storms and volcanic emissions; and
+- assess damage to agriculture and infrastructure.
+
+For emergency response, the speed of data delivery, image availability, cloud cover, spatial resolution and classification reliability are important. A satellite map must state the acquisition time: an image captured after a flood wave has passed may not show the maximum inundated area.
+
+Remote sensing should be combined with ground observations, meteorological data, reports from emergency services and verified information about population and infrastructure.
+
 ## 15.15. Ограничения, неопределённость и этика ДЗЗ / Limitations, Uncertainty and Ethics
 
 Данные дистанционного зондирования имеют ограничения:
