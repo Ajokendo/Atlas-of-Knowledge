@@ -1186,9 +1186,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Overall Biology editorial readiness remains **99/100**; no unsupported percentage increase is assigned while asset-specific verification remains open.
 
 
-### Documentary-photo preview review — 5 November 2026
+### Documentary-photo preview review — 5 November 2026 (updated)
 
-- Inspected Commons-rendered previews for 14 of the 15 accepted documentary photographs across Chüy, Jalal-Abad, Issyk-Kul, Naryn and Osh.
-- All 14 inspected previews are consistent with their broad scene/locality captions. Kept habitat photographs at landscape level; no species-level inference was added. The clematis and spruce captions remain source-supported identifications, not independent specialist determinations.
-- The Commons preview for the Chüy Halys pit viper returned HTTP 400 and could not be visually assessed in this pass; its visual check remains open.
-- This was preview-level review, not local full-resolution pixel review of every WebP. No image or chapter content changed. Global Image Verification remains **Pending audit** and editorial readiness remains **99/100**.
+- Inspected individual Commons file pages and rendered previews for all **15/15 accepted documentary photographs** across Chüy, Jalal-Abad, Issyk-Kul, Naryn and Osh. The Chüy Halys pit-viper preview that previously failed to load was retrieved and inspected on the follow-up pass.
+- All 15 previews are consistent with their broad scene/locality captions. The squirrel and pit-viper frames contain the animals named by their source captions; landscape/habitat photos remain described at landscape level. No species-level inference was added from habitat scenes.
+- Sea-buckthorn, Schrenk spruce and *Clematis songorica* captions are supported by the individual source pages; preview review is not independent specialist taxonomic certification.
+- Source-page author/date/location/licence metadata was checked against the manifests. Existing manifests retain original-file SHA-1 comparisons and derivative WebP checksums; prior Chromium tests establish local image decoding, not morphology certification.
+- This was Commons-preview review, not a new full-resolution pixel-by-pixel comparison of all committed WebP files. The two Rufous-naped Tit candidates remain excluded because of the unresolved taxonomy metadata conflict.
+- No image or chapter content changed. Global Image Verification remains **Pending audit**; overall editorial readiness remains **99/100**.
