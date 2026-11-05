@@ -44,3 +44,10 @@ The brief has passed the production and integration steps: `images/generated/fau
 - FAO (13 December 2024), Issyk-Kul fish population study: https://www.fao.org/countryprofiles/news-archive/detail-news/en/c/1730494/
 - Institute of Biology, NAS KR (14 October 2026), international fish research in Kyrgyzstan: https://ibnaskr.org/amnh-fish-research-kyrgyzstan-2026/
 - Kustareva & Naseka (2015), *Fish diversity in Kyrgyzstan: Species composition, fisheries and management problems*: https://www.aehms-publications.org/index.php/AEHM/article/view/9614
+
+
+## Follow-up rendered-page inspection — 5 November 2026
+
+The full Biology Chromium workflow `42029110697` completed **SUCCESS** on commit `4037f08ca50c3d52eb353f16afa4d1710cf94d6d`. Its screenshot artifact (`biology-visual-review`, 13 full-page screenshots) was downloaded and the freshwater section of `chapters/fauna-kyrgyzstan.html` was inspected at rendered desktop width. Both panels are visible: Issyk-Kul littoral on the left and a cold mountain stream on the right. The right-hand panel is no longer clipped. The literal `\\n` text sequence previously found between paragraphs is also absent in this current screenshot following the source correction in commit `3adbf855123c8fd270be83dd61ea0dcf4ef46372`.
+
+**Internal browser-rendering result: PASS.** This closes the identified clipping and text-rendering defects for this revision. It does not convert the generic fish silhouettes into species-level depictions, establish a complete fish inventory, or close the remaining bilingual-semantic, rights, physical-device or broader image-audit items. External review is excluded from the Atlas of Knowledge project and is not a pending gate.
