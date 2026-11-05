@@ -57,6 +57,6 @@
 <text x="70" y="860" class="sub" text-anchor="start">Минеральные вещества возвращаются к растениям</text>
 <text x="70" y="885" class="sub" text-anchor="start">Nutrients return to plants</text>
 <text x="1030" y="410" class="sub" text-anchor="middle">Пищевая сеть</text><text x="1030" y="438" class="sub" text-anchor="middle">Food web</text>
-<text x="1030" y="470" class="sub" text-anchor="middle">Показаны основные</text><text x="1030" y="496" class="sub" text-anchor="middle">типы связей, а не</text><text x="1030" y="522" class="sub" text-anchor="middle">полный список видов</text>
+<text x="1030" y="470" class="sub" text-anchor="middle">Показаны основные</text><text x="1030" y="496" class="sub" text-anchor="middle">типы связей, а не</text><text x="1030" y="522" class="sub" text-anchor="middle">полный список видов</text><text x="1030" y="550" class="sub" text-anchor="middle">Shows the main</text><text x="1030" y="576" class="sub" text-anchor="middle">interaction types, not</text><text x="1030" y="602" class="sub" text-anchor="middle">a complete species list</text>
 <rect x="15" y="15" width="1170" height="870" rx="20" fill="none" stroke="#fff" stroke-width="5"/>
 </svg>
