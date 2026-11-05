@@ -406,9 +406,9 @@
 
 **Иллюстрация 2.11-A — Структура природной геосистемы / Structure of a Natural Geosystem.**
 
-![Взаимосвязь климата, рельефа, воды, почвы и биоты / Interactions among climate, relief, water, soil and biota](../assets/diagrams/02-11A-natural-geosystem.svg)
+![USGS ecosystem puzzle collage: sunlight, vegetation, drought, fire, wildlife, soil, precipitation, microbes and elevation represent interconnected ecosystem components / Коллаж USGS в виде пазла: солнечный свет, растительность, засуха, пожар, животные, почва, осадки, микроорганизмы и высота показывают взаимосвязанные компоненты экосистемы](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Ecosystem_puzzle.png)
 
-*Схема показывает основные компоненты, а не исчерпывающую модель всех причинных связей. / The diagram shows core components, not an exhaustive model of all causal links.*
+*Источник / Source: U.S. Geological Survey (USGS), Ecosystems Land Change Science Program, “Ecosystems like a Puzzle”, approximately February 2025. Правовой статус страницы / Page-stated rights: Public Domain. Изображение использовано без изменений. Коллаж показывает, как солнечный свет, температура, осадки, высота местности, нарушения, растительность, животные, микроорганизмы и почва совместно формируют экосистему. Это концептуальная иллюстрация компонентов, а не географическая карта, универсальная классификация геосистем или схема конкретного ландшафта Кыргызстана. / The collage shows how sunlight, temperature, precipitation, elevation, disturbance, vegetation, wildlife, microbes and soil together shape an ecosystem. It is a conceptual illustration of components, not a geographic map, universal geosystem classification or diagram of a specific Kyrgyz landscape. [Страница изображения / Image page](https://www.usgs.gov/media/images/ecosystems-a-puzzle).*
 
 ### 2.11.3. Природные и антропогенные геосистемы
 
@@ -924,9 +924,9 @@ Natural geosystems are shaped mainly by natural processes. Anthropogenic geosyst
 
 **Illustration 2.11-A — Structure of a Natural Geosystem.**
 
-![Interactions among climate, relief, water, soil and biota / Взаимосвязь климата, рельефа, воды, почвы и биоты](../assets/diagrams/02-11A-natural-geosystem.svg)
+![USGS ecosystem puzzle collage: sunlight, vegetation, drought, fire, wildlife, soil, precipitation, microbes and elevation represent interconnected ecosystem components / Коллаж USGS в виде пазла: солнечный свет, растительность, засуха, пожар, животные, почва, осадки, микроорганизмы и высота показывают взаимосвязанные компоненты экосистемы](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Ecosystem_puzzle.png)
 
-*Original schematic showing core components, not an exhaustive model of all causal links. / Оригинальная схема основных компонентов, а не исчерпывающая модель всех причинных связей.*
+*Источник / Source: U.S. Geological Survey (USGS), Ecosystems Land Change Science Program, “Ecosystems like a Puzzle”, approximately February 2025. Правовой статус страницы / Page-stated rights: Public Domain. Изображение использовано без изменений. Коллаж показывает, как солнечный свет, температура, осадки, высота местности, нарушения, растительность, животные, микроорганизмы и почва совместно формируют экосистему. Это концептуальная иллюстрация компонентов, а не географическая карта, универсальная классификация геосистем или схема конкретного ландшафта Кыргызстана. / The collage shows how sunlight, temperature, precipitation, elevation, disturbance, vegetation, wildlife, microbes and soil together shape an ecosystem. It is a conceptual illustration of components, not a geographic map, universal geosystem classification or diagram of a specific Kyrgyz landscape. [Страница изображения / Image page](https://www.usgs.gov/media/images/ecosystems-a-puzzle).*
 
 ### 2.12. Stability of Natural Systems
 
