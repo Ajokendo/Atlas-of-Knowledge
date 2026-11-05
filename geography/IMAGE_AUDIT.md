@@ -1499,3 +1499,8 @@ The first feedback-image candidate considered from SERC's separate *Carbon on th
 - The three image files were opened and visually inspected. Bilingual alt text identifies each boundary process. Both language sections carry creator, source, date, citation and licence attribution. The images are used without modification.
 - The earlier USGS images are no longer embedded in the chapter. The current rights result for 2.5-A is PASS under CC BY-SA 4.0 International, replacing the earlier U.S.-only Public Domain basis.
 - Chapter 02 now has 46 Markdown image embeds, 23 unique assets: 15 remote images and 8 remaining local SVGs. This increase reflects three boundary figures in each language instead of one figure per language.
+
+
+### 2.8-A delivery limitation — 5 November 2026
+
+The Open University OpenLearn Figure 1.7 remains the strongest subject-fit candidate for solar, gravitational/tidal and internal terrestrial energy sources. The course page and course reuse terms are documented, and the figure is not listed among the course's separately identified proprietary exceptions. However, the exact image endpoint returned HTTP 403 during retrieval. It has therefore **not** been embedded and is not counted as an integrated replacement. Keep 2.8-A conditional until a stable, accessible image endpoint or a properly obtained local copy is available.
