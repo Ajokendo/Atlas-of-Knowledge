@@ -393,3 +393,16 @@ A bounded visual review was completed against the individual Wikimedia Commons f
 A focused scientific-label check of `fauna-naryn-highland-habitats.svg` found that the caption named the animal as maral but used the overly broad taxonomic label `Cervus sp.`. The species-level name `Cervus elaphus` is supported by the Kyrgyzstan Red Book entry for the Tien Shan maral, which identifies it as *Cervus elaphus* (subspecies treated there as *C. e. asiaticus*): https://open.kg/en/about-kyrgyzstan/nature/red-book/animals/mammals/print%3Apage%2C1%2C31820-blagorodnyy-olen-tyanshanskiy-podvid-maral-bugu-erkegi-maral-urgaachysy-asiatic-red-deer-tien-shan-maral-tien-shan-stag.html. The regional CAMCA study also documents maral in the Naryn River valley: https://camcaproject.org/study-in-tien-shan-maral-in-kyrgyzstan/.
 
 **Correction:** changed the diagram label to `Maral habitat · Cervus elaphus`. This identifies the species without asserting a contested subspecies rank. The schematic continues to describe a habitat example, not a distribution map or census. No change was made to the chapter's cautious caption. This is a source-supported author-side correction, not independent specialist certification.
+
+
+## Issyk-Kul salinity correction in aquatic-habitat visual — 5 November 2026
+
+A scientific review found that the visual brief `fauna-freshwater-habitats.svg` and its chapter alt text incorrectly grouped Lake Issyk-Kul under “freshwater habitats”. Issyk-Kul is a closed-basin **brackish lake**; the FAO technical paper reports average salinity of about 5.9–6.1 g/L, with lower salinity near major river mouths (https://www.fao.org/docrep/018/i3268e/i3268e.pdf). A peer-reviewed 2023 study likewise classifies its waters as brackish (5.6–6.7 g/L; https://www.mdpi.com/2079-7737/12/5/642).
+
+**Corrections committed:**
+- Renamed the SVG title to “Inland waters of Kyrgyzstan: Issyk-Kul and a mountain stream”.
+- Revised the SVG description to distinguish brackish Lake Issyk-Kul from a freshwater mountain stream.
+- Changed the chapter section eyebrow from “Freshwater life” to “Inland waters”.
+- Updated the image alt text and added a bilingual note explaining the lake’s salinity and why its ecology should not be conflated with freshwater river systems.
+
+The generic fish silhouettes remain explicitly unidentified. No species labels, distribution claims or population claims were added. This closes a clear terminology/science issue in this illustration; it does not certify the generic fish silhouettes as species-specific morphology.
