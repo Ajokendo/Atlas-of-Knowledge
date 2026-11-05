@@ -657,7 +657,7 @@ for (const key of ["trendTitle", "trendBody", "trendEyebrow", "trendCaption"]) {
 }
 if (!periodicPage.includes("atomic radius generally increases down and to the left") ||
     !periodicPage.includes("first ionisation energy and electronegativity generally increase up and to the right") ||
-    !periodicPage.includes("electron configurations create exceptions")) {
+    !periodicPage.includes("not exception-free rules") || !periodicPage.includes("electron configuration")) {
   errors.push("periodic-table.html: periodic-trends alt text must preserve qualified scientific direction statements");
 }
 if (!fs.existsSync(path.join(root, "periodic-table.html"))) errors.push("periodic-table.html: interactive periodic table visual is missing");
