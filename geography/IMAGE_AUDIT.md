@@ -911,3 +911,37 @@ All seven new SVGs were re-fetched from the working branch and passed source-lev
 ### Chapter 11-C — technical source check
 
 The SVG was re-fetched from the working branch and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element, and Cyrillic and Latin text. Live browser rendering, legibility and assistive-technology output remain untested.
+
+
+## Fourth visual integration tranche — Chapters 11–16 — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 11-E | INTEGRATED | PENDING — review regional agricultural examples if any are later added | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Conceptual landscape profile links climate, soils, relief and water with agricultural land use; no local crop suitability or site-specific recommendation is implied. |
+| 12-D | INTEGRATED | PASS for checklist logic; PENDING for any future statistical application | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Six checks: boundary/territory, date/period, classification, units/denominator, source/method, comparability/uncertainty. |
+| 13-D | INTEGRATED | PENDING — confirm national legal terminology when country-specific legislation is discussed | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Distinguishes project-level EIA, strategic SEA and repeated environmental monitoring; notes that monitoring does not replace assessment and procedures vary by jurisdiction. |
+| 14-C | INTEGRATED | PASS for set-logic definitions; PENDING for live software-specific output comparison | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Illustrates intersection, union, difference and symmetric difference; QGIS bibliography now links to the official spatial-analysis guide. |
+| 15-C | INTEGRATED | PASS for formulas and Landsat/Sentinel-2 band mappings; local thresholds and product-specific processing remain PENDING | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Shows NDVI, NDMI, McFeeters NDWI, NDBI and NBR. Explicitly distinguishes McFeeters Green–NIR NDWI from Gao NIR–SWIR NDWI; states Landsat 8–9 and Sentinel-2 bands and warns against universal thresholds. |
+| 16-C | INTEGRATED | PASS for conceptual sampling definitions; actual sample design and sample-size calculations remain PENDING | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Compares simple random, systematic, stratified and cluster designs; includes random-start and within-cluster caveats. |
+
+### Static checks — fourth tranche
+
+All six new SVG files were re-fetched from the working branch and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element, and Cyrillic and Latin text. The six chapter files were re-fetched and the relevant placeholders were replaced by local Markdown image embeds with bilingual alt text and captions. This is not browser-render, mobile, keyboard, screen-reader or specialist scientific approval.
+
+### Superseding scoped visual coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 4 | 3 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 3 | 8 |
+| 14 | 9 | 3 | 6 |
+| 15 | 11 | 3 | 8 |
+| 16 | 9 | 3 | 6 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 5 | 6 |
+| **Total, Chapters 11–20** | **97** | **34** | **63** |
+
+The earlier 28/97 table is a historical snapshot and is superseded by this 34/97 table. The supplementary 2019 glacial-lake research figure in Chapter 20.6.7 remains additional and is not counted as a planned ID. Original SVG creator/rightsholder and project redistribution licence remain pending for this tranche; none is marked VERIFIED.
