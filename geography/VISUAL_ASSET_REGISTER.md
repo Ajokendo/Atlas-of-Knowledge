@@ -532,6 +532,6 @@ Integrated 16 original bilingual conceptual SVGs: Chapter 21 (five: vegetation b
 The five existing Chapter 01 visual IDs remain unchanged and fully integrated in RU/EN. Their local SVG files were re-composed with portrait-oriented viewBoxes, larger bilingual text and vertically stacked layouts. This is a readability/layout revision, not an increase in Image Coverage. Current coverage remains 5/5 (100%); none is VERIFIED pending formal internal review, rights, accessibility and rendered technical checks listed in IMAGE_AUDIT.md.
 
 
-## Chapter 01 — licence selection — 5 November 2026
+## Chapter 01 — licence authority confirmation — 5 November 2026
 
 The project owner confirmed on 5 Nov 2026 that they or an authorised project organisation have authority to act as licensor and apply CC BY-NC 4.0 to the four Category C visuals (01-A, 01-B, 01-C and 01-E). Rights status is PASS on the basis of this owner representation, not an independent legal opinion; attribution: Atlas of Knowledge project. 01-D remains a separate CC BY 4.0 adaptation.
