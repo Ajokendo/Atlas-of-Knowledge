@@ -84,7 +84,7 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 
 ## 17.4. Тянь-Шань и Памиро-Алай: крупные горные системы / Tien Shan and Pamir–Alay: Major Mountain Systems
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-F / IMAGE PLACEHOLDER 17-F]** Региональная схема Тянь-Шаня и Памиро-Алая с сопоставлением физико-географического и тектонического районирования.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-C / IMAGE PLACEHOLDER 17-C]** Региональная схема Тянь-Шаня и Памиро-Алая с сопоставлением физико-географического и тектонического районирования.
 > **EN:** Regional diagram of the Tien Shan and Pamir–Alay comparing physical-geographical and tectonic regionalisation.
 
 
@@ -134,7 +134,7 @@ The terms Northern, Central and Southern Tien Shan are used in physical geograph
 
 ## 17.5. Межгорные впадины, долины и плато / Intermontane Basins, Valleys and Plateaus
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-G / IMAGE PLACEHOLDER 17-G]** Карта и профиль главных межгорных впадин и долин Кыргызстана с корректным положением Чуйской, Таласской, Иссык-Кульской, Нарынской, Суусамырской, Ферганской и Алайской долин.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-D / IMAGE PLACEHOLDER 17-D]** Карта и профиль главных межгорных впадин и долин Кыргызстана с корректным положением Чуйской, Таласской, Иссык-Кульской, Нарынской, Суусамырской, Ферганской и Алайской долин.
 > **EN:** Map and profile of Kyrgyzstan’s main intermontane basins and valleys, with verified locations and labels.
 
 
@@ -167,7 +167,7 @@ Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a
 
 ## 17.6. Геологическая летопись территории / Geological History of the Territory
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-C / IMAGE PLACEHOLDER 17-C]** Геологическая временная шкала формирования территории Кыргызстана: докембрийский фундамент, палеозойская аккреция, мезозойское осадконакопление, кайнозойское горообразование.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-E / IMAGE PLACEHOLDER 17-E]** Геологическая временная шкала формирования территории Кыргызстана: докембрийский фундамент, палеозойская аккреция, мезозойское осадконакопление, кайнозойское горообразование.
 > **EN:** Geological timeline of Kyrgyzstan's formation showing the Precambrian basement, Palaeozoic accretion, Mesozoic sedimentation and Cenozoic mountain building.
 
 Геологическая история Кыргызстана охватывает миллиарды лет и включает несколько крупных этапов. Возраст отдельных пород, время их образования и время последующей деформации — разные характеристики. Например, древняя порода могла быть поднята, метаморфизована или включена в складчатый пояс значительно позднее своего первоначального формирования.
@@ -284,7 +284,7 @@ Tectonic maps must distinguish geological boundaries, faults, currently active s
 
 ## 17.8. Современная тектоника и сейсмичность / Active Tectonics and Seismicity
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-D / IMAGE PLACEHOLDER 17-D]** Схема активных разломов и сейсмичности Кыргызстана с указанием периода каталога землетрясений, порога магнитуды и источника геоданных.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-F / IMAGE PLACEHOLDER 17-F]** Схема активных разломов и сейсмичности Кыргызстана с указанием периода каталога землетрясений, порога магнитуды и источника геоданных.
 > **EN:** Map of active faults and seismicity in Kyrgyzstan, stating the earthquake-catalogue period, magnitude threshold and geodata source.
 
 Кыргызстан находится в активном внутриконтинентальном поясе деформаций, связанном с взаимодействием Индийской и Евразийской плит. Сжатие земной коры проявляется в надвигах, обратных разломах, складчатости и локальных сдвиговых движениях.
@@ -348,7 +348,7 @@ This is a conceptual model, not a universal formula for calculating monetary los
 
 ## 17.9. Формирование современного рельефа / Formation of the Modern Relief
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-H / IMAGE PLACEHOLDER 17-H]** Концептуальная схема формирования горного рельефа: поднятие, эрозия, оледенение, аккумуляция и современные склоновые процессы.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-G / IMAGE PLACEHOLDER 17-G]** Концептуальная схема формирования горного рельефа: поднятие, эрозия, оледенение, аккумуляция и современные склоновые процессы.
 > **EN:** Conceptual diagram of mountain landscape formation through uplift, erosion, glaciation, deposition and modern slope processes.
 
 
@@ -395,7 +395,7 @@ In high mountain areas, characteristic landforms include U-shaped glacial trough
 
 ## 17.10. Геологическое строение и природные ресурсы / Geological Structure and Natural Resources
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-I / IMAGE PLACEHOLDER 17-I]** Обзорная карта геологического строения и основных минеральных районов; не показывать запасы как доказанные без соответствующего статуса и источника.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-H / IMAGE PLACEHOLDER 17-H]** Обзорная карта геологического строения и основных минеральных районов; не показывать запасы как доказанные без соответствующего статуса и источника.
 > **EN:** Overview map of geological structure and major mineral districts; do not portray resources as proven reserves without a documented classification and source.
 
 
@@ -410,7 +410,7 @@ In high mountain areas, characteristic landforms include U-shaped glacial trough
 - строительные и облицовочные материалы;
 - минеральные и термальные подземные воды.
 
-Примеры известных горнорудных районов и месторождений включают Кумтор, Макмал, Джеруй, Талды-Булак, Кадамжай и Хайдаркан. Их геологическая природа, степень изученности, промышленный статус, запасы и экологические последствия различаются. Указание объекта на карте не должно создавать впечатления, что он действует или экономически рентабелен в настоящее время.
+Примеры известных горнорудных районов и месторождений включают Кумтор, Макмал, Джеруй, Талды-Булак, Кадамжай и Хайдаркан. В марте 2026 года Министерство природных ресурсов сообщило, что совместно с Институтом геологии имени М. М. Адышева НАН КР инициирована подготовка двухтомного «Атласа геологических, геофизических и минерагенических карт Кыргызской Республики» на русском и английском языках. Сообщение описывает проект и рабочее совещание, но не подтверждает, что атлас уже опубликован или что его карты открыты для свободного воспроизведения. Поэтому его следует рассматривать как перспективный национальный источник для последующего обновления этой главы, а не как уже доступный набор данных. Их геологическая природа, степень изученности, промышленный статус, запасы и экологические последствия различаются. Указание объекта на карте не должно создавать впечатления, что он действует или экономически рентабелен в настоящее время.
 
 ### Геологическое проявление, ресурс и запас / Occurrence, Resource and Reserve
 
@@ -442,7 +442,7 @@ Examples of mineral commodities include:
 - construction and dimension stone;
 - mineral and thermal groundwater.
 
-Well-known mining areas and deposits include Kumtor, Makmal, Jerooy, Taldy-Bulak, Kadamjay and Haidarkan. Their geological settings, level of exploration, operating status, reserves and environmental implications differ. Showing a site on a map must not imply that it is currently operating or economically viable.
+Well-known mining areas and deposits include Kumtor, Makmal, Jerooy, Taldy-Bulak, Kadamjay and Haidarkan. In March 2026, the Ministry of Natural Resources announced that it had initiated, together with the M. M. Adyshev Institute of Geology of the National Academy of Sciences of the Kyrgyz Republic, the preparation of a two-volume *Atlas of Geological, Geophysical and Mineral-Genetic Maps of the Kyrgyz Republic* in Russian and English. The announcement describes a project and a working meeting; it does not confirm that the atlas has already been published or that its maps are openly reusable. It should therefore be treated as a prospective national source for a future chapter update, not as an already available dataset. Their geological settings, level of exploration, operating status, reserves and environmental implications differ. Showing a site on a map must not imply that it is currently operating or economically viable.
 
 ### Occurrence, Resource and Reserve
 
@@ -480,7 +480,7 @@ The country's geographic position encouraged cultural exchange, trade, migration
 
 ## 17.12. Административно-территориальное устройство / Administrative and Territorial Organisation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-E / IMAGE PLACEHOLDER 17-E]** Карта действующего административно-территориального устройства с семью областями и отдельным обозначением Бишкека и Оша; использовать официальную сетку и утверждённые топонимы.
+> **[МЕТКА ИЛЛЮСТРАЦИИ 17-I / IMAGE PLACEHOLDER 17-I]** Карта действующего административно-территориального устройства с семью областями и отдельным обозначением Бишкека и Оша; использовать официальную сетку и утверждённые топонимы.
 > **EN:** Map of the current administrative-territorial structure showing the seven oblasts and separately identifying Bishkek and Osh; use official boundaries and approved place names.
 
 Современная административная структура включает **семь областей**:
@@ -687,12 +687,16 @@ Accessibility in mountain regions varies by season. Snow, avalanche danger, land
 
 Особое внимание следует уделять названиям хребтов, перевалов, ледников, рек, озёр и населённых пунктов. Ошибки транслитерации могут приводить к появлению на карте несуществующих объектов или дублированию одного и того же названия.
 
+Архивный пример показывает, почему одной отметки CRS недостаточно для принятия слоя как актуальной государственной границы. В отчёте Информационной системы по воде Департамента водного хозяйства (Бишкек, июнь 2018 года) описан линейный слой «Граница Республики» с системой GCS_WGS_1984 / Datum D_WGS_1984; источник данных указан как ЦАИИЗ, публикация слоя — март 2017 года. Это подтверждает существование конкретного исторического GIS-слоя в WGS 84, но не его юридическую актуальность, точность, полноту или соответствие последующим изменениям границы. Его нельзя использовать для расчёта современных крайних точек без проверки исходного файла, метаданных, геометрии и правового статуса.
+
 Для проверки названий и их написания следует учитывать государственную АИС «Географические названия Кыргызской Республики» (АИС ГН), владельцем и оператором которой в государственном реестре указана «Госкартография». Реестр информационных систем описывает базу как содержащую геопривязанные сведения о 10 281 географическом объекте и указывает портал Kyrgyzmap как точку доступа. При этом в реестровой записи указана дата последней модернизации 31 декабря 2022 года. Поэтому число объектов и статус системы следует цитировать именно как сведения реестра, а актуальность каждого названия, координаты и доступность конкретного слоя проверять непосредственно в Kyrgyzmap и по действующим национальным документам. Эта база является важным национальным справочным источником по топонимам, но сама по себе не подтверждает координаты крайних точек государства или юридическое положение государственной границы.
 
 Закон Кыргызской Республики от 29 апреля 2026 года № 58 «О геодезии, картографии и пространственных данных» устанавливает современную правовую рамку для сбора, хранения, обработки, предоставления и распространения пространственных данных. В нём определены, в частности, понятия атласа, базовых пространственных данных, высотной системы отсчёта, геопортала и геосервисов. При подготовке карт необходимо учитывать не только геометрию объектов, но и их метаданные, систему координат и высот, происхождение, дату и условия использования.
 
 11 ноября 2025 года Государственное агентство по земельным ресурсам, кадастру, геодезии и картографии сообщило о завершении пилотного проекта по переходу к всемирной системе координат WGS 84. По сообщению ведомства, в проекте выполнены геодезические, гравиметрические и нивелирные измерения, определены параметры преобразования координат, частично перепроецированы карты и внедрены системы преобразования государственной системы координат и управления геодезическими контрольными пунктами. Это важный этап развития национальной геопространственной инфраструктуры, но формулировка «частично перепроецированы» не позволяет считать все государственные карты и наборы данных уже переведёнными в WGS 84. Для каждого слоя по-прежнему необходимо проверять исходную и целевую CRS, параметры и точность преобразования, эпоху координат и вертикальную систему отсчёта. При этом в действующем с 6 августа 2026 года сборнике аэронавигационной информации Кыргызстана (AIP, раздел GEN 2.1) опубликованные в самом AIP координаты широты и долготы указаны в WGS 84. Для международной аэронавигации там же описана вертикальная привязка к среднему уровню моря; примечание указывает на использование среднемноголетнего уровня Балтийского моря и отсутствие применяемой модели геоида. Это характеристика аэронавигационной публикации и её вертикальной системы, а не доказательство того, что каждый национальный картографический слой уже переведён в WGS 84 или что одна и та же высотная система автоматически применима ко всем геоданным.
 
+
+An archival example shows why a CRS label alone is not enough to accept a layer as the current state boundary. A June 2018 report of the Water Information System of the Department of Water Management in Bishkek describes a linear “Republic Boundary” layer with GCS_WGS_1984 / D_WGS_1984; the data source is identified as CAIAG and the layer publication date as March 2017. This confirms that a specific historical GIS boundary layer in WGS 84 existed, but it does not establish its legal currentness, accuracy, completeness or consistency with subsequent border changes. It must not be used to calculate present-day extreme points without checking the original file, metadata, geometry and legal status.
 
 For name verification and spelling, the national Automated Information System “Geographical Names of the Kyrgyz Republic” (AIS GN) should be considered. The state information-systems register identifies Goskartografia as the system owner and operator and describes the database as containing georeferenced information on 10,281 geographical features, with Kyrgyzmap listed as the access portal. The registry entry records 31 December 2022 as the date of the last modernisation. The feature count and system status should therefore be cited as registry information; the currentness of an individual name, its coordinates and the availability of a specific layer must be checked directly in Kyrgyzmap and against current national records. This is an important national toponymic reference, but it does not by itself certify the coordinates of the country's extreme points or the legal position of the state border.
 
@@ -894,32 +898,34 @@ Compare the administrative map of the seven regions with maps of mountain system
 
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
-**Иллюстрация 17.1 / Figure 17.1 — Кыргызстан на карте Центральной Азии / Kyrgyzstan in Central Asia.**  
-Политико-географическая карта с соседними государствами, основными горными системами и крупными региональными ориентирами. Государственные границы сверить с официальным картографическим источником; не использовать устаревшие спорные линии.
+Все девять ID ниже соответствуют одноимённым меткам в тексте главы. Карты с государственной границей, административными линиями, геологическими районами и месторождениями нельзя публиковать по приблизительной схеме: для них нужны датированный источник геометрии, CRS, масштаб, происхождение и права использования. Концептуальные схемы должны быть явно помечены как модели, а не как точные пространственные реконструкции.
 
-**Иллюстрация 17.2 / Figure 17.2 — Физическая карта Кыргызстана / Physical map of Kyrgyzstan.**  
-Гипсометрическая карта с диапазонами высот, основными хребтами, долинами, озёрами и реками. Цветовая шкала должна быть последовательной и сопровождаться легендой.
+**17-A — Кыргызстан в Центральной Азии / Kyrgyzstan in Central Asia.**  
+Политико-географическая обзорная карта с соседними государствами и крупными региональными ориентирами. Требуется актуальная официальная государственная граница; до получения проверенной геометрии использовать только нейтральную схему расположения страны без спорных линий и без заявления о точности границы.
 
-**Иллюстрация 17.3 / Figure 17.3 — Тянь-Шань и Памиро-Алай / Tien Shan and Pamir–Alay.**  
-Региональная схема крупных горных систем и их взаимного положения. Показать, что границы физико-географического и тектонического районирования могут различаться.
+**17-B — Физическая карта и высотная структура / Physical Map and Elevation Structure.**  
+Гипсометрическая карта с основными хребтами, долинами, озёрами и реками; добавить отдельный условный высотный профиль от низкой долины к высокогорью. Указать источник DEM, пространственное разрешение, вертикальную систему, дату и ограничения; высотные пояса не задавать универсальными границами без региональной оговорки.
 
-**Иллюстрация 17.4 / Figure 17.4 — Межгорные впадины и долины / Intermontane basins and valleys.**  
-Схема Чуйской, Таласской, Иссык-Кульской, Нарынской, Суусамырской, Ферганской и Алайской долин. Проверить географическое положение и не упрощать сложную форму впадин до геометрических фигур.
+**17-C — Тянь-Шань и Памиро-Алай / Tien Shan and Pamir–Alay.**  
+Региональная схема крупных горных систем и их взаимного положения. Физико-географическое и тектоническое районирование показать разными слоями или панелями, не выдавая одну научную классификацию за единственную.
 
-**Иллюстрация 17.5 / Figure 17.5 — Геологическая эволюция Тянь-Шаня / Geological evolution of the Tien Shan.**  
-Четыре временные панели: докембрийский фундамент, палеозойские океанические бассейны и аккреция, мезозойская перестройка, кайнозойское сжатие и поднятие. Схема концептуальная; не изображать её как точную реконструкцию конкретного места.
+**17-D — Межгорные впадины и долины / Intermontane Basins and Valleys.**  
+Схема Чуйской, Таласской, Иссык-Кульской, Нарынской, Суусамырской, Ферганской и Алайской долин. Положение и очертания сверить с географическими источниками; не превращать сложные формы рельефа в геометрические прямоугольники.
 
-**Иллюстрация 17.6 / Figure 17.6 — Структурные блоки и разломы / Structural blocks and faults.**  
-Схема крупных тектонических подразделений и Таласо-Ферганского разлома. Обязательно указать используемую научную схему и её источник.
+**17-E — Геологическая эволюция Тянь-Шаня / Geological Evolution of the Tien Shan.**  
+Четыре временные панели: древний фундамент; палеозойские океанические бассейны и аккреция; мезозойская перестройка и осадконакопление; кайнозойское внутриконтинентальное сжатие и поднятие. Это концептуальная модель, а не точная реконструкция конкретного разреза.
 
-**Иллюстрация 17.7 / Figure 17.7 — Формирование горного рельефа / Mountain landscape formation.**  
-Разрез с надвигами, складками, поднятием, речной эрозией и ледниковой обработкой. Различить эндогенные и экзогенные процессы.
+**17-F — Тектонические структуры и сейсмичность / Tectonic Structures and Seismicity.**  
+Карта или схема активных структур и разломов только по научной схеме с указанными источником, масштабом и датой. Если используются землетрясения, обязательно указать период каталога, порог магнитуды, шкалу магнитуд и ограничения полноты; не изображать карту как прогноз.
 
-**Иллюстрация 17.8 / Figure 17.8 — Высотная структура территории / Elevation structure.**  
-Гипсометрический профиль от низкой долины до высокогорных вершин с примерными высотными поясами. Не привязывать универсальные границы поясов без учёта экспозиции и региона.
+**17-G — Формирование горного рельефа / Mountain Landscape Formation.**  
+Концептуальный разрез с поднятием, складками/надвигами, речной эрозией, ледниковой обработкой, осыпями и аккумуляцией. Различить эндогенные и экзогенные процессы; не задавать численные масштабы, если они не основаны на измерениях.
 
-**Иллюстрация 17.9 / Figure 17.9 — Семь областей и города республиканского значения / Seven oblasts and cities of republican significance.**  
-Административная карта с семью областями и отдельным обозначением Бишкека и Оша. Использовать действующую на дату публикации административную сетку.
+**17-H — Геологическое строение и минеральные районы / Geological Structure and Mineral Districts.**  
+Обзорная карта допускается только после получения опубликованных геологических/минерагенических слоёв с лицензией и метаданными. Отдельно различать проявления, ресурсы, запасы и действующую добычу; не использовать символы, создающие ложное впечатление о подтверждённых запасах или текущем статусе предприятия.
+
+**17-I — Административное устройство / Administrative Organisation.**  
+Карта семи областей с отдельным обозначением Бишкекa и Оша как городов республиканского значения; Манас показывать как город, ранее называвшийся Джалал-Абадом, не переименовывая Джалал-Абадскую область. Использовать действующую на дату карты официальную административную геометрию и топонимию.
 
 ## Научные редакционные примечания / Scientific Editorial Notes
 
@@ -976,7 +982,9 @@ Compare the administrative map of the seven regions with maps of mountain system
 22. Kabar. **Treaty between Kyrgyzstan, Tajikistan and Uzbekistan on junction of borders ratified**, 18 July 2025; reports Kyrgyzstan's ratification of the treaty signed on 31 March 2025. https://en.kabar.kg/news/treaty-between-kyrgyzstan-tajikistan-and-uzbekistan-on-junction-of-borders-ratified/ .
 23. Institute of Seismology of the National Academy of Sciences of the Kyrgyz Republic. **Laboratory for Seismic Hazard Assessment** — research scope and national-scale seismotectonic, active-block and seismic-hazard mapping. https://seismo.kg/structure/seismic_hazard_assessment.php .
 24. National Investment Agency under the President of the Kyrgyz Republic. **Brief Information about Kyrgyzstan**, data as of June 2026; reports the area as 199.9 thousand km² and the administrative division as seven regions plus Bishkek and Osh. https://invest.gov.kg/en/invest-compass/start/country .
-24. Poggi, V. et al. (2024). **Harmonizing seismicity information in Central Asian countries: earthquake catalogue and active faults.** Natural Hazards and Earth System Sciences, 24, 2597–2613. https://doi.org/10.5194/nhess-24-2597-2024 .
+25. Poggi, V. et al. (2024). **Harmonizing seismicity information in Central Asian countries: earthquake catalogue and active faults.** Natural Hazards and Earth System Sciences, 24, 2597–2613. https://doi.org/10.5194/nhess-24-2597-2024 .
+26. Department of Water Management and Melioration of the Kyrgyz Republic, National Water Resources Management Project, Phase 1. **Отчёт по метаданным Информационной Системы по Воде**, Bishkek, June 2018; metadata for the “Republic Boundary” line layer records GCS_WGS_1984 / D_WGS_1984, CAIAG as data source and March 2017 as layer publication date. This is an archival GIS metadata record, not proof of the current legal boundary. https://nwrmp.water.gov.kg/wp-content/uploads/2018/06/%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BC%D0%B5%D1%82%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5.pdf .
+27. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. **Минприроды совместно с Институтом геологии им. М. М. Адышева НАН КР инициирует издание Атласа геологических карт Кыргызстана**, 11 March 2026. Announcement of a planned two-volume Russian- and English-language geological, geophysical and mineral-genetic atlas; publication and reuse status of the maps are not established by the announcement. https://mnr.gov.kg/ky/posts/news/minprirody-iniciiruet-izdanie-atlasa-geologiceskix-kart-kyrgyzstana .
 
 ---
 **Конец главы 17 / End of Chapter 17**
