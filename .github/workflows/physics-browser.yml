@@ -51,6 +51,13 @@ jobs:
           if-no-files-found: warn
       - name: Test Chapter 1 kinematics on desktop and mobile viewports
         run: node original-engine/browser-smoke.mjs
+      - name: Upload Chapter 1 visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter1-visual-review
+          path: /tmp/physics-visual-review/chapter1/*.png
+          if-no-files-found: warn
       - name: Test Chapter 2 Newton laws on desktop and mobile viewports
         run: node original-engine/newton-smoke.mjs
       - name: Test Chapter 4 work and energy on desktop and mobile viewports
