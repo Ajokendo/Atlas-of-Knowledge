@@ -564,3 +564,22 @@ All five files have local relative paths and bilingual captions/alt text in the 
 | Attribution | “Data: Kyrgyzhydromet, Climate Products (accessed 5 November 2026); chart authored for Atlas of Geography. Period label discrepancy in source retained as a caveat.” |
 | Caption / alt text | Bilingual caption and descriptive bilingual SVG title/description. |
 | Status | INTEGRATED; source values match the official table; period caveat explicit. Rights, accessibility and browser/device rendering remain PENDING. |
+
+
+## Chapter 18 — Visual 18-C: three-peak photographic set — 5 November 2026
+
+| Field | Record |
+|---|---|
+| Visual ID | 18-C |
+| Learning purpose | Give learners documentary landscape views of Jengish Chokusu, Khan Tengri and Lenin Peak, while keeping summit-height claims separate from photographs. |
+| Files | Three unchanged Wikimedia Commons photographs embedded in Chapter 18; direct URLs and source pages are recorded in the chapter. |
+| Category | A — original reuse (no cropping, retouching, labels or substantive edits). |
+| Jengish Chokusu | Maryliflower, “Rock cairn on the South Inylchek Glacier, with Jengish Chokusu…”, photograph dated 2 Aug 2021; CC BY-SA 4.0. File page: https://commons.wikimedia.org/wiki/File:Rock_cairn_on_the_South_Inylchek_Glacier,_with_Jengish_Chokusu_(Victory_Peak)_in_the_background,_Khan_Tengri_Nature_Park,_Tien_Shan.jpg |
+| Khan Tengri | Chen Zhao, “Khan Tengri in the mist”, photograph dated 21 Jul 2009; CC BY 2.0. File page: https://commons.wikimedia.org/wiki/File:Khan_Tengri_in_the_mist.jpg |
+| Lenin Peak | Benoît Vicart, “Pic Lénine”, photograph dated 16 Aug 2019; CC0 1.0. File page: https://commons.wikimedia.org/wiki/File:Pic_L%C3%A9nine.jpg |
+| Creator / rights | Individual author and item-specific licence verified on each Commons file page. CC BY-SA 4.0, CC BY 2.0 and CC0 1.0 conditions recorded above. |
+| Language / accessibility | Bilingual alt text and bilingual credit captions added. |
+| Limitations | Three separate photographs, not a single stitched panorama. Photos do not establish summit elevations; heights remain sourced separately. The Jengish Chokusu photograph includes the South Inylchek Glacier and cairn in foreground; the Khan Tengri photo is partially obscured by cloud; Lenin Peak photo is a distant view from the Pamir Highway. |
+| Status | INTEGRATED; exact file-page licence checks PASS; language/caption checks PASS. Live site loading, responsive rendering and assistive-technology review PENDING. |
+
+The three source images are unchanged. For CC BY and CC BY-SA assets, author, licence and source links are retained in the chapter. The CC0 dedication is recorded for the Lenin Peak photograph.
