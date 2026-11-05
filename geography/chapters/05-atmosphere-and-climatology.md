@@ -6,9 +6,9 @@
 
 ## Введение / Introduction
 
-Атмосфера — газовая оболочка Земли, удерживаемая гравитацией. Она обеспечивает условия для существования жизни, участвует в круговороте воды и энергии, защищает поверхность от части опасного излучения и регулирует тепловой режим планеты.
+Атмосфера — газовая оболочка Земли, которую удерживает земное притяжение. Она необходима для жизни: содержит газы, используемые организмами, переносит тепло и водяной пар, участвует в круговороте воды и ослабляет часть опасного излучения. Вместе с океаном, сушей, льдом и живыми организмами атмосфера формирует климатическую систему Земли.
 
-Климатология изучает климат, его пространственные различия, закономерности формирования, изменчивость и изменения во времени. Погода описывает краткосрочное состояние атмосферы, тогда как климат характеризует статистические свойства погоды за длительные периоды.
+Погода — состояние атмосферы в определённом месте и в определённое время. Её описывают, например, температурой, облачностью, ветром и осадками. Климат — статистическая характеристика погодных условий за длительный период. Климатология изучает, почему климат различается между территориями, как он формируется, меняется и взаимодействует с другими компонентами природной среды.
 
 ## 5.1. Состав и значение атмосферы / Composition and Role of the Atmosphere
 
@@ -689,13 +689,13 @@ For describing current conditions, the latest standard normal (1991–2020) is g
 
 ### Introduction
 
-The atmosphere is Earth's gaseous envelope, held by gravity. It provides conditions for life, participates in the water and energy cycles, protects the surface from some harmful radiation and regulates the planet's thermal conditions.
+The atmosphere is the layer of gases surrounding Earth, held in place by gravity. It is essential to life: it contains gases used by organisms, transports heat and water vapour, takes part in the water cycle and reduces some harmful radiation. Together with the oceans, land, ice and living organisms, the atmosphere forms Earth's climate system.
 
-Climatology studies climate, its spatial differences, formation, variability and long-term change. Weather describes the short-term state of the atmosphere, while climate characterises the statistical properties of weather over long periods.
+Weather is the state of the atmosphere at a particular place and time. It is described using variables such as temperature, cloud cover, wind and precipitation. Climate is the statistical pattern of weather over a long period. Climatology studies why climates differ from place to place, how they form and change, and how they interact with other parts of the natural environment.
 
 ### 5.1. Composition and Role of the Atmosphere
 
-Dry air near Earth's surface consists mainly of nitrogen and oxygen. Its approximate volume composition is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide (425.6 ppm as NOAA's preliminary 2025 global annual mean; concentration changes over time) and trace amounts of other gases. Water vapour is not included in the dry-air table because its concentration varies greatly in space and time—from almost zero in cold, dry air to several per cent in warm, humid air.
+Dry air near Earth's surface consists mainly of nitrogen and oxygen. Its approximate volume composition is 78.08% nitrogen, 20.95% oxygen, 0.93% argon, about 0.0426% carbon dioxide and trace amounts of other gases. The 425.6 ppm value used in the table is NOAA's preliminary 2025 annual mean for its marine-surface observing network; it should not be described as a global mean from all observing sites. The World Meteorological Organization reports a separate global surface mean of 426.8 ± 0.2 ppm for 2025 using its Global Atmosphere Watch network. These values differ because the networks and averaging methods are not identical. Water vapour is not included in the dry-air table because its concentration varies greatly in space and time—from almost zero in cold, dry air to several per cent in warm, humid air.
 
 The atmosphere supplies oxygen for the respiration of most organisms and carbon dioxide for photosynthesis; transports heat and moisture; forms clouds and precipitation; reduces some ultraviolet radiation through the ozone layer; causes many small meteoroids to burn up; and supports the natural greenhouse effect.
 
