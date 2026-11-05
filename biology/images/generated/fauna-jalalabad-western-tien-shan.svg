@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
 <title id="title">Западный Тянь-Шань: отдельные местообитания / Western Tien Shan: distinct habitats</title>
-<desc id="desc">Три условные зоны: лесистые склоны у Сары-Челека, речное ущелье Беш-Арала и высокогорный каменистый склон с сурком Мензбира. Это не карта ареалов и не изображение совместного обитания / Three conceptual zones: forested Sary-Chelek slopes, the Besh-Aral river gorge, and a rocky highland slope with Menzbier's marmot. Not a range map or a claim of shared habitat.</desc>
+<desc id="desc">Три условные зоны: лесистые склоны у Сары-Челека, речное ущелье Беш-Арала и субальпийско-альпийский луг с каменистыми участками и сурком Мензбира. Это не карта ареалов и не изображение совместного обитания / Three conceptual zones: forested Sary-Chelek slopes, the Besh-Aral river gorge, and a subalpine–alpine meadow with scattered rocky patches and Menzbier's marmot. Not a range map or a claim of shared habitat.</desc>
 <defs>
  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d9e8e7"/><stop offset="1" stop-color="#f5eedb"/></linearGradient>
  <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#9eb89a"/><stop offset="1" stop-color="#526f58"/></linearGradient>
@@ -30,11 +30,13 @@
 <g transform="translate(960 95)">
  <path d="M0 380 70 290 135 320 230 115 320 240 400 160V500H0Z" fill="#9c9e91"/>
  <path d="M0 410 90 345 165 370 250 245 330 330 400 270V500H0Z" fill="#777f70"/>
- <path d="M0 455 90 425 160 445 250 380 330 430 400 400V500H0Z" fill="#b0a98e"/>
+ <path d="M0 455 90 440 160 448 250 420 330 438 400 425V500H0Z" fill="#9eaa78"/>
+ <g fill="#85877b"><ellipse cx="72" cy="446" rx="20" ry="8"/><ellipse cx="330" cy="435" rx="24" ry="9"/><ellipse cx="365" cy="430" rx="13" ry="6"/></g>
+ <g fill="none" stroke="#58764d" stroke-width="4" stroke-linecap="round"><path d="M35 468l-7-17m7 17 9-19m35 13-5-16m5 16 9-18m100 18-7-17m7 17 8-18m145 16-6-17m6 17 9-18m32 14-5-14m5 14 8-16"/></g>
  <g transform="translate(185 375)" fill="#39463c" stroke="#39463c" stroke-width="5" stroke-linecap="round">
   <ellipse cx="0" cy="0" rx="37" ry="22"/><circle cx="31" cy="-15" r="16"/><circle cx="35" cy="-28" r="5"/><path d="M-22 13l-8 23M5 16l4 21M-35 -3q-28 -18 -26 4" fill="none"/>
  </g>
- <text x="22" y="545" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#fff">03 · HIGH ALPINE</text>
+ <text x="22" y="545" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#fff">03 · SUBALPINE MEADOW</text>
  <text x="22" y="578" font-family="Arial,sans-serif" font-size="18" fill="#fff">Menzbier's marmot · Besh-Aral</text>
 </g>
 <rect x="30" y="620" width="1140" height="36" rx="8" fill="#fff" opacity=".9"/>
