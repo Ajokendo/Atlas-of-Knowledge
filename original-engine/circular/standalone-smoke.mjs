@@ -58,9 +58,15 @@ async function run(mobile) {
     // Also inspect the interactive-book chrome: on phones the mouse hint must
     // give way to the touch selector, and the selector must sit below the title.
     const book = await context.newPage();
+    book.setDefaultTimeout(20000);
     const bookResponse = await book.goto(`${base}/original-engine/circular/`, { waitUntil: 'domcontentloaded' });
     if (!bookResponse?.ok()) throw new Error(`interactive book HTTP ${bookResponse?.status() ?? 'missing'}`);
-    await book.waitForFunction(() => !!document.querySelector('.scene-picker'));
+    await book.waitForSelector('#sheet h1');
+    await book.waitForFunction(() => {
+      const canvas = document.querySelector('#gl');
+      return canvas && canvas.width > 100 && canvas.height > 100 && !!(canvas.getContext('webgl2') || canvas.getContext('webgl'));
+    }, null, { timeout: 30000 });
+    await book.waitForFunction(() => !!document.querySelector('.scene-picker'), null, { timeout: 15000 });
     await book.waitForFunction(() => {
       const canvas = document.querySelector('#gl');
       return canvas && canvas.width > 100 && canvas.height > 100;
