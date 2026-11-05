@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">Тянь-Шань и Памиро-Алай: схемы районирования / Tien Shan and Pamir–Alay: regionalisation schemes</title>
+<desc id="desc">Сравнительная двуязычная схема двух разных способов деления горного региона. Слева показаны физико-географические районы: Северный, Срединный и Южный Тянь-Шань, а также Памиро-Алай. Справа показаны крупные тектонические единицы, используемые в региональных научных схемах: Северный, Срединный и Южный Тянь-Шань, Северный Памир и северная окраина Таримской платформы. Схема не является картой и не задаёт точных границ; классификации зависят от источника. / Bilingual comparison of two ways to divide the mountain region. Left: physical-geographical regions—Northern, Central and Southern Tien Shan, and Pamir–Alay. Right: major tectonic units used in regional scientific schemes—Northern, Middle and Southern Tien Shan, Northern Pamir and the northern margin of the Tarim Platform. This is not a map and does not define precise boundaries; classifications depend on the source.</desc>
+<rect width="1200" height="560" rx="24" fill="#f7f9fb"/>
+<text x="600" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#172b4d">Тянь-Шань и Памиро-Алай / Tien Shan and Pamir–Alay</text>
+<text x="600" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#52647a">Два разных подхода к районированию / Two different approaches to regionalisation</text>
+<rect x="38" y="112" width="535" height="355" rx="18" fill="#e8f0f5" stroke="#5d8096" stroke-width="2"/>
+<rect x="627" y="112" width="535" height="355" rx="18" fill="#f2ece2" stroke="#9b805b" stroke-width="2"/>
+<g font-family="Arial,sans-serif" fill="#24384c">
+<text x="305" y="150" text-anchor="middle" font-size="22" font-weight="700">Физико-географическое</text>
+<text x="305" y="177" text-anchor="middle" font-size="20" font-weight="700">Physical-geographical</text>
+<text x="895" y="150" text-anchor="middle" font-size="22" font-weight="700">Тектоническое</text>
+<text x="895" y="177" text-anchor="middle" font-size="20" font-weight="700">Tectonic</text>
+</g>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="75" y="207" width="215" height="76" rx="12" fill="#d2e2eb" stroke="#5d8096" stroke-width="1.5"/>
+<text x="182" y="237" font-size="18" font-weight="700" fill="#1c3447">Северный Тянь-Шань</text><text x="182" y="261" font-size="16" fill="#1c3447">Northern Tien Shan</text>
+<rect x="320" y="207" width="215" height="76" rx="12" fill="#d2e2eb" stroke="#5d8096" stroke-width="1.5"/>
+<text x="427" y="237" font-size="18" font-weight="700" fill="#1c3447">Срединный Тянь-Шань</text><text x="427" y="261" font-size="16" fill="#1c3447">Central Tien Shan</text>
+<rect x="75" y="303" width="215" height="76" rx="12" fill="#d2e2eb" stroke="#5d8096" stroke-width="1.5"/>
+<text x="182" y="333" font-size="18" font-weight="700" fill="#1c3447">Южный Тянь-Шань</text><text x="182" y="357" font-size="16" fill="#1c3447">Southern Tien Shan</text>
+<rect x="320" y="303" width="215" height="76" rx="12" fill="#d2e2eb" stroke="#5d8096" stroke-width="1.5"/>
+<text x="427" y="333" font-size="18" font-weight="700" fill="#1c3447">Памиро-Алай</text><text x="427" y="357" font-size="16" fill="#1c3447">Pamir–Alay</text>
+<rect x="664" y="207" width="215" height="76" rx="12" fill="#e8dac5" stroke="#9b805b" stroke-width="1.5"/>
+<text x="771" y="237" font-size="18" font-weight="700" fill="#453621">Северный Тянь-Шань</text><text x="771" y="261" font-size="16" fill="#453621">Northern Tien Shan</text>
+<rect x="909" y="207" width="215" height="76" rx="12" fill="#e8dac5" stroke="#9b805b" stroke-width="1.5"/>
+<text x="1016" y="237" font-size="18" font-weight="700" fill="#453621">Срединный Тянь-Шань</text><text x="1016" y="261" font-size="16" fill="#453621">Middle Tien Shan</text>
+<rect x="664" y="303" width="215" height="76" rx="12" fill="#e8dac5" stroke="#9b805b" stroke-width="1.5"/>
+<text x="771" y="333" font-size="18" font-weight="700" fill="#453621">Южный Тянь-Шань</text><text x="771" y="357" font-size="16" fill="#453621">Southern Tien Shan</text>
+<rect x="909" y="303" width="215" height="76" rx="12" fill="#e8dac5" stroke="#9b805b" stroke-width="1.5"/>
+<text x="1016" y="333" font-size="18" font-weight="700" fill="#453621">Северный Памир</text><text x="1016" y="357" font-size="16" fill="#453621">Northern Pamir</text>
+</g>
+<text x="600" y="411" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#3f5268">Северная окраина Таримской платформы также выделяется в некоторых тектонических схемах</text>
+<text x="600" y="433" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#3f5268">The northern margin of the Tarim Platform is also distinguished in some tectonic schemes</text>
+<path d="M180 486 H1020" stroke="#61758a" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M1020 486 l-13 -7 v14Z" fill="#61758a"/>
+<text x="600" y="516" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#24384c">Границы и названия зависят от научной схемы</text>
+<text x="600" y="540" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#52647a">Boundaries and names depend on the classification used</text>
+</svg>
