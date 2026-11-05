@@ -23,6 +23,12 @@ After studying this chapter, readers should be able to explain the geological st
  > **[МЕТКА ИЛЛЮСТРАЦИИ 18-A / IMAGE PLACEHOLDER 18-A]** Физико-географическая карта Кыргызстана с высотной гипсометрией, главными хребтами, межгорными впадинами и вершинами; использовать проверенную цифровую модель рельефа.
 > **EN:** Physical-geographical map of Kyrgyzstan showing elevation hypsometry, major ranges, intermontane basins and peaks; use a validated digital elevation model.
 
+**Дополнительная обзорная карта рельефа / Supplementary relief overview**
+
+![Обзорная карта рельефа Кыргызстана с горными областями, озёрами, реками и населёнными пунктами / Relief overview of Kyrgyzstan showing mountain regions, lakes, rivers and settlements](https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg)
+
+*Blue Green Atlas, «Free relief map of Kyrgyzstan», CC BY 4.0. Проекция Меркатора; источники рельефа — NASA SRTM3 (около 90 м), батиметрии — GEBCO 2019, озёр — HydroLAKES, рек — HydroATLAS, городов — VMap0. На странице не указаны дата сборки карты, вертикальная система отсчёта и оценка точности. Поэтому это обзорная учебная карта, а не валидированная современная DEM и не источник для точных высот/юридических границ. / Blue Green Atlas, “Free relief map of Kyrgyzstan”, CC BY 4.0. Mercator projection; relief from NASA SRTM3 (~90 m), bathymetry from GEBCO 2019, lakes from HydroLAKES, rivers from HydroATLAS and cities from VMap0. The page does not state map compilation date, vertical reference or accuracy assessment. It is therefore a teaching overview, not a validated current DEM or an authority for exact elevations/legal boundaries. Source: [Blue Green Atlas](https://www.bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.html).
+
 Кыргызстан расположен в пределах двух крупных горных систем Центральной Азии — Тянь-Шаня и Памиро-Алая. Основная часть территории представляет собой горы, межгорные впадины, высокогорные плато и речные долины. Рельеф отличается резкими перепадами высот: от низких участков Ферганской долины до высочайших вершин Центрального Тянь-Шаня.
 
 Горный характер территории определяет не только ландшафты, но и размещение населения, транспортных коридоров, пастбищ, водных ресурсов, месторождений и зон природного риска. При этом горы нельзя рассматривать как единый однородный массив: отдельные хребты различаются возрастом пород, историей деформаций, высотой, оледенением и современными геоморфологическими процессами.
