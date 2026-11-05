@@ -612,3 +612,17 @@ The three source images are unchanged. For CC BY and CC BY-SA assets, author, li
 | Attribution | Poggi, V. et al. (2024), Figure 1, *Natural Hazards and Earth System Sciences*, 24, 2597–2613, https://doi.org/10.5194/nhess-24-2597-2024, CC BY 4.0. Reproduced unchanged. |
 | Limitations | Not a Kyrgyzstan-only map, not a final HECCA event map, and does not show active-fault traces. It is a supplementary context figure and is not counted as completion of planned visual 17-F. |
 | Status | INTEGRATED as supplementary research context; attribution/scope note PASS; live rendering and accessibility QA PENDING. |
+
+
+## Chapter 20 — Visual 20-G: Naryn River discharge hydrograph — source discovery checkpoint — 5 November 2026
+
+| Field | Record |
+|---|---|
+| Visual ID | 20-G |
+| Learning purpose | Show the seasonal or interannual flow regime at a named Naryn River gauge, with station, drainage area, period, units and data provenance. |
+| Candidate station | University of New Hampshire Water Systems Analysis Group, Stream Discharge Station 16055, “R. NARYN – G. NARYN”. |
+| Published metadata | Coordinates 41.430° N, 76.000° E; drainage area 10,500 km²; long-term mean discharge 92.117 m³/s; annual and monthly graph period 1931–2006. |
+| Source page | https://neespi.sr.unh.edu/cgi-bin/station/hydro_station.pl?id=16055 |
+| Data access / licence | The page displays annual/monthly graph links and a metadata summary, but a raw data file with reusable values and item-specific licence terms have not been verified. Do not trace values from the raster graph and present them as exact observations. |
+| Current status | Candidate source FOUND; visual 20-G remains MISSING. |
+| Next steps | Obtain the actual monthly/daily data file or written permission; confirm station identity, datum, time step, missing-data flags, quality control and the exact observation period; then generate a bilingual chart with the source's units and caveats. |
