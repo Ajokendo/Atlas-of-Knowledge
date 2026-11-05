@@ -209,7 +209,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Alt RU: Стержень движется вправо в поле, направленном в плоскость рисунка; положительные заряды смещаются вверх. Показаны ток в замкнутой цепи, тормозящая сила и отсутствие тока в разомкнутой цепи.
 - Alt EN: A rod moves right in a field directed into the page; positive charges move upward. The closed circuit shows current and magnetic braking, while the open circuit shows charge separation without current.
 - Limitations: Assumes uniform B into the page and mutually perpendicular B, v, and rod; the ideal magnitude is |ε| = BLv.
-- Scientific review: PENDING — internal cross-product, current-loop, and force directions checked; independent subject-matter review not recorded.
+- Scientific review: Internal second-pass physics review: PASS (2026-11-05) — B/v/rod geometry, q(v×B), charge separation, closed-loop current and magnetic drag checked. Independent external subject-matter expert sign-off: PENDING.
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.2.
@@ -243,7 +243,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Alt RU: Показаны ЭДС самоиндукции, экспоненциальный рост и спад тока с постоянной времени L/R, а также сдвинутые по фазе заряд и ток и обмен энергией в идеальном LC-контуре.
 - Alt EN: The diagram shows self-induced EMF, exponential RL current rise and decay with time constant L/R, and phase-shifted charge/current with energy exchange in an ideal LC circuit.
 - Limitations: RL plots are schematic; LC assumes ideal components, zero resistance, constant L and C, and initial conditions q(0)=Q₀ and I(0)=0.
-- Scientific review: PENDING — internal equation/phase/energy consistency checked; independent subject-matter review not recorded.
+- Scientific review: Internal second-pass physics review: PASS (2026-11-05) — εL, τ=L/R, LC phase/initial conditions and complementary energy curves checked; U_B notation clarified. Independent external subject-matter expert sign-off: PENDING.
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.3.
