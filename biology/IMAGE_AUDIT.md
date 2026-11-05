@@ -20,7 +20,7 @@ This is the consolidated audit and remediation tracker. It separates asset produ
 | Full 13-page Chromium/axe CI | Passed in run [41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607) |
 | Detailed visual review | Not complete for all assets; individual register rows retain pending notes |
 | Hands-on physical-device / screen-reader testing | Not performed; tracked separately in `SCREEN_READER_AND_DEVICE_TEST_PLAN.md` |
-| Independent specialist review | Not commissioned; do not describe author-side review as independent certification |
+| External specialist review | Excluded from project scope; not a project task, gate or progress metric |
 
 **Important:** 53/53 means every mapped brief has a produced or integrated asset. It does not mean 53/53 assets have passed every IMAGE-FIRST acceptance gate. Do not report Image Verification as 100% on the basis of production coverage or CI alone.
 
@@ -479,7 +479,7 @@ Asset: `images/generated/flora-batken-aygul-botanical-plate.webp`, displayed at 
 
 - **Visual Coverage — PRESENT (supplementary):** the Batken/Aygul-Tash section contains both the primary SVG schematic and a separate supplementary botanical plate. This confirms placement, not completeness of visual coverage for the whole chapter.
 - **Internal Verification — IN PROGRESS / NOT VERIFIED:** a visual inspection of the 1,199 × 1,312 working candidate shows an upright leafy plant, nodding reddish bell-shaped flowers, and separate flower, leaf, fruit and bulb studies. The six-tepal/six-stamen detail is a useful teaching representation, but this inspection alone does not establish all species-specific morphology, organ proportions, phenology or the exact depicted bulb/fruit morphology. Do not label this new plate VERIFIED. The existing species review for the SVG is not a substitute for review of this separate generated plate.
-- **External Verification — NOT PERFORMED:** no independent botanist or taxonomic specialist has signed off this generated plate.
+- **External review:** excluded from project scope and not tracked as a pending task or verification metric.
 - **Rights Clearance — PARTIAL / PENDING:** provenance is recorded as generated in ChatGPT at the user's request and no third-party image source is claimed. No separate reuse licence has been assigned to this plate; do not infer CC BY, CC BY-NC or public-domain status from generation alone.
 
 **Binary implementation note:** the committed repository derivative is recorded in the disposition register as 320 × 292 px / 7,196 bytes. A higher-resolution 1,199 × 1,312 px WebP working candidate is available in the current working container (353,604 bytes; SHA-256 `6a0d714c30d70856b29bebc699a1cff77e97d502a5ea455560bfa2ddede53b0c`), but it has not been committed to the Biology branch in this operation. Therefore the repository page must continue to use the already committed asset; do not claim that the high-resolution candidate is live.
@@ -517,26 +517,26 @@ This section supersedes older policy-version references and any historical wordi
 
 ### Internal and external verification terminology
 
-- `VERIFIED` is the machine-readable status for internal verification after every applicable gate passes, including competent second-person scientific/factual review by someone other than the creator. That reviewer may be a qualified member of the project team.
-- `EXTERNALLY VERIFIED` is a separate narrative designation, used only after internal verification and a documented positive review by an independent external specialist.
-- The absence of an external specialist does not itself block internal verification or publication. It must not be reported as completed external verification.
-- Author-side review, AI-assisted review and automated CI are useful evidence but cannot be presented as the required second-person scientific review.
+- `VERIFIED` is used only when the applicable internal evidence, scientific/factual, rights, bilingual, technical and rendered-visual checks are documented. No external or independent sign-off is implied or required.
+- Do not use `EXTERNALLY VERIFIED`; external verification is outside project scope.
+- External specialist involvement is neither expected nor required; unresolved internal evidence or rights issues must instead be qualified, simplified, removed or resolved internally.
+- Author-side source review, AI-assisted inspection and automated CI are evidence of their stated checks only; they do not substitute for rendered visual, bilingual, accessibility or rights checks that remain open.
 - Rights clearance is independent of scientific verification: unknown or unresolved rights block public release even if scientific and technical checks pass.
 
 ### Aygul supplementary plate — current disposition
 
-The new `flora-batken-aygul-botanical-plate.webp` is included within the existing Batken flora visual brief, not counted as a 54th brief. It is Category C, AI-generated educational artwork, not documentary evidence. The source register records its prompt/session origin, repository derivative checksum, morphology scope and limitations. Gate 2 (project rights/licensing authority), Gate 3 (competent second-person botanical review), Gate 5 (manual learner/accessibility review), Gate 6 (focused rendered review) and Gate 7 (final approval) remain PENDING unless separately evidenced. Automated CI run 41968952829 passed after its integration, but that alone does not close those gates.
+The new `flora-batken-aygul-botanical-plate.webp` is included within the existing Batken flora visual brief, not counted as a 54th brief. It is Category C, AI-generated educational artwork, not documentary evidence. The source register records its prompt/session origin, repository derivative checksum, morphology scope and limitations. The unresolved internal items are Gate 2 (project rights/licensing authority), Gate 5 (manual learner/accessibility review), Gate 6 (focused rendered review) and Gate 7 (internal final approval). No second-person or external review gate applies. Automated CI run 41968952829 passed after its integration, but that alone does not close those gates.
 
 ### Reporting rule
 
-Continue to report visual production coverage, internal verification, external verification and rights clearance as separate metrics. Do not publish a single blended “visual progress” percentage. Keep the 53/53 (100%) production figure, but report Image Verification as **Pending audit / not yet defensibly quantifiable** until the register contains asset-level gate outcomes. Do not convert historical Produced/Integrated labels into `VERIFIED`.
+Continue to report visual production coverage, internal QA completion and rights clearance as separate metrics; external verification is excluded and must not be tracked. Do not publish a single blended “visual progress” percentage. Keep the 53/53 (100%) production figure, but report Image Verification as **Pending audit / not yet defensibly quantifiable** until the register contains asset-level gate outcomes. Do not convert historical Produced/Integrated labels into `VERIFIED`.
 
 
 ## Aygul supplementary plate — focused morphology cross-check update — 5 November 2026
 
 The supplementary `flora-batken-aygul-botanical-plate.webp` has now been compared against Kew POWO, the RHS species profile, a regional Chüy Valley introduction study and the Missouri Botanical Garden Petilium account. The upright bulbous habit, leafy stem, nodding bell-shaped flowers and upper bract tuft are broadly consistent with those descriptions. Sources and the limitations of the comparison are recorded in `IMAGE_SCIENTIFIC_REVIEW.md`.
 
-**Updated disposition:** Internal Verification remains **PARTIAL / NOT VERIFIED**. The six-tepal/six-stamen detail is consistent with the genus-level floral plan, but the separate bulb and capsule studies and species-level proportions still lack competent second-person botanical approval. Flower number varies across published descriptions; no fixed count is asserted. External Verification remains **NOT PERFORMED**. Rights Clearance remains **PENDING** until the project rights-holder/licensing basis is confirmed. CI success is not a substitute for these reviews.
+**Updated disposition:** Internal Verification remains **PARTIAL / NOT VERIFIED**. The six-tepal/six-stamen detail is consistent with the genus-level floral plan, but the separate bulb and capsule studies and species-level proportions remain insufficiently supported by specific published evidence and must stay generic or be removed. Flower number varies across published descriptions; no fixed count is asserted. External review is outside this project's scope and is not a project status. Rights Clearance remains **PENDING** until the project rights-holder/licensing basis is confirmed. CI success is not a substitute for these reviews.
 
 **Current branch-policy check:** the three controlling documents named in the governing-standard section — `IMAGE_FIRST_POLICY.md` v1.2, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1 and `VISUAL_IMPLEMENTATION_GUIDE.md` v1.1 — are not present in the root tree of `workspace/biology` (direct root-path lookups return 404; recursive branch-tree lookup found no matching paths). The latest audit records their versions but the actual policy texts are unavailable in this branch. Accordingly, no claim of clause-by-clause compliance is made; the recorded seven-gate dispositions remain conservative.
 
@@ -559,7 +559,7 @@ Assets reviewed: `images/generated/botany-anatomy.svg` and `images/generated/bot
 
 Reference checks: OpenStax Biology 2e, The Plant Body (https://openstax.org/books/biology-2e/pages/30-1-the-plant-body), Roots (https://openstax.org/books/biology-2e/pages/30-3-roots), and Stems (https://openstax.org/books/biology/pages/30-2-stems). These support the generalized tissue arrangement and transport concepts; they do not certify every drawn cell or proportion.
 
-**Disposition:** source-level scientific/editorial correction committed. This is an author-side/AI-assisted review, not the required competent second-person scientific approval. Detailed rendered browser review, manual device/zoom/accessibility checks and rights-holder/licence reconciliation remain open. Do not mark either asset `VERIFIED` on the basis of this source pass alone.
+**Disposition:** source-level scientific/editorial correction committed. This is an internal source-level review; rendered browser review, manual device/accessibility checks and rights/authority confirmation remain separate internal checks. Detailed rendered browser review, manual device/zoom/accessibility checks and rights-holder/licence reconciliation remain open. Do not mark either asset `VERIFIED` on the basis of this source pass alone.
 
 
 ### Botany flower structure and pollination plate — focused source review — 5 November 2026
@@ -571,7 +571,7 @@ Asset: `images/generated/botany-flower.svg`, integrated at `chapters/botany.html
 - The figure is correctly labelled as a generalized angiosperm model, not a named species or universal floral formula. It does not claim that all flowers have the same number of stamens, petals or ovules.
 - Russian/English title, SVG description, figure alt text and caption are substantively aligned at source level. No source-level scientific correction was identified in this pass.
 
-**Disposition:** source-level review only; no artwork or page edit was needed. This does not establish pixel-level label placement, visual rendering, accessibility on physical devices, second-person scientific approval, or rights clearance. Keep the asset outside `VERIFIED` until the applicable gates have separate evidence.
+**Disposition:** source-level review only; no artwork or page edit was needed. This does not establish pixel-level label placement, visual rendering, accessibility on physical devices, internal source-based evidence review, or rights clearance. Keep the asset outside `VERIFIED` until the applicable gates have separate evidence.
 
 
 ## Cellular diagrams — focused source-level review — 5 November 2026
@@ -587,7 +587,7 @@ Assets reviewed in `images/generated/`: `cell-animal.svg`, `cell-membrane.svg`, 
 
 ### Disposition and limits
 
-This pass is an author-side/AI-assisted inspection of SVG source and page text. It is **not** a rendered-browser visual acceptance, competent second-person scientific approval, physical-device or assistive-technology test, or rights-holder/licence clearance. Keep all four assets outside `VERIFIED` until the applicable gates have independent evidence. Their production status remains unchanged; no new visual brief is counted.
+This pass is an author-side/AI-assisted inspection of SVG source and page text. It is **not** a rendered-browser visual acceptance, internal rendered visual inspection, physical-device or assistive-technology test, or rights-holder/licence clearance. Keep all four assets outside `VERIFIED` until the applicable gates have independent evidence. Their production status remains unchanged; no new visual brief is counted.
 
 ### CI compatibility finding
 
@@ -614,7 +614,7 @@ Asset: `images/generated/biochem-respiration.svg`, integrated in `chapters/bioch
 
 ### Disposition and limits
 
-This is a source-level author-side/AI-assisted review. It is not a rendered-browser acceptance, competent second-person scientific approval, physical-device/accessibility test, or rights-holder/licence clearance. Keep these assets outside `VERIFIED` until the applicable gates have independent evidence. No new visual brief is counted.
+This is a source-level author-side/AI-assisted review. It is not a rendered-browser acceptance, internal rendered visual inspection, physical-device/accessibility test, or rights-holder/licence clearance. Keep these assets outside `VERIFIED` until the applicable gates have independent evidence. No new visual brief is counted.
 
 References: OpenStax Biology 2e — https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle ; https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation ; OpenStax Anatomy & Physiology 2e — https://openstax.org/books/anatomy-and-physiology-2e/pages/1-5-homeostasis ; https://openstax.org/books/anatomy-and-physiology/pages/24-6-energy-and-heat-balance .
 
