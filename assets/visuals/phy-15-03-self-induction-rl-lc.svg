@@ -14,7 +14,7 @@
 <text class="lab" x="770" y="220">Катушка создаёт ЭДС, препятствующую изменению тока.</text><text class="en" x="770" y="252">The coil's induced EMF opposes the change in current.</text>
 <text class="formula" x="770" y="300">εL = −L dI/dt</text>
 <text class="lab" x="1110" y="220">Энергия магнитного поля</text><text class="en" x="1110" y="252">Magnetic-field energy</text>
-<text class="formula" x="1110" y="300">Um = ½ LI²</text>
+<text class="formula" x="1110" y="300">U_B = ½ LI²</text>
 <!-- RL panel -->
 <rect class="card" x="55" y="370" width="710" height="680" rx="22"/>
 <text class="h" x="90" y="425">2. RL-цепь / RL circuit</text>
