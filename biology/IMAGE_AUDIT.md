@@ -631,3 +631,12 @@ Assets: `images/generated/evolution-tree.svg`, `evolution-homology.svg`, and `ev
 ### Verification limits
 
 The edits were saved directly to `workspace/biology`. They are source-level corrections only. Re-fetch/hash verification, Chromium rendered review, bilingual visual inspection at mobile width, competent second-person scientific review and rights/authority confirmation remain separate gates. Do not mark these assets `VERIFIED` on the basis of these edits or CI alone.
+
+
+## Evaluation governance — school-teacher assessment after development — 5 November 2026
+
+Independent evaluation is **not part of the atlas development workflow**. The project owner has specified that it will take place as a separate event after development, with subject-specialist school teachers.
+
+Development-phase acceptance therefore relies on documented source-based review, honest scope and uncertainty statements, correct taxonomy and locality claims, attribution/rights checks, bilingual editorial quality, and technical/browser/accessibility testing. The development team must not claim school-teacher approval before that event, but must also not hold development completion open merely because the future evaluation has not yet occurred. Teacher findings belong in a separate post-development evaluation report and can guide later revisions.
+
+This does not waive any outstanding development-phase editorial, technical, source-traceability, attribution or licensing work.
