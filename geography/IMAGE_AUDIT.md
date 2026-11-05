@@ -14,7 +14,7 @@ This file is the Geography audit required by policy v1.1. It records the IDs tha
 
 The atlas-wide source relationship and complete source-work inventory are not yet established. Determine provenance asset by asset. Record original work, creator/rightsholder, edition/version, source location, inheritance relationship, changes and the permission/licence for actual reproduction and adaptation. Classify A — Original reuse, B — Adapted or C — Created separately from rights status. Mark unknown values Unknown / PENDING. Do not infer authorship or permission from repository ownership, public availability or prior integration. Do not repeat discovery searches for an identifiable unchanged inherited visual solely to satisfy image-first; verify lineage, rights, scientific meaning, localisation, accessibility and rendering. Search for a replacement when an asset is missing, unsuitable, inaccurate, inaccessible, rights-restricted or needs replacement. Translating surrounding captions/alt text alone does not change the visual category; translating embedded labels or substantively editing the visual is adaptation.
 
-Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–04 (with unresolved creator/licence fields for project-local SVGs) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 integrated IDs are now represented in IMAGE_SOURCES.md; the separate register is retained as production history. Chapters 06–08 and 10–26 are not source-verified by the existence of IDs or briefs.
+Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–05 (with unresolved creator/licence fields for project-local SVGs and several external images) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 pre-existing integrated IDs plus 5.18-A are mapped in IMAGE_SOURCES.md; the separate register is retained as production history. Chapters 06–08 and 10–26 are not source-verified by the existence of IDs or briefs.
 
 ## 3. Geography-specific checks
 
@@ -280,23 +280,23 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 04 | 4.14-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.15-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 04 | 4.15-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 05 | 5.1-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated in aggregate; this ID's state is not individually mapped, so PENDING. |
-| 05 | 5.2-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.3-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.4-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.5-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.6-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.7-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.8-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.9-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.10-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.11-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.12-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.1-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual SVG embedded in RU/EN; static SVG structure checked. Scientific content, creator/licence, accessibility and rendered QA remain open. |
+| 05 | 5.2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Commons atmosphere-layers SVG embedded in RU/EN; exact CC0 file-page evidence and English-label localisation still require final review. |
+| 05 | 5.3-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | UCAR-hosted IPCC energy-budget figure embedded in RU/EN; exact reuse terms and embedded-label localisation remain open. |
+| 05 | 5.4-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | ERA5 1991–2020 map embedded in RU/EN; exact CC BY-SA file revision, legend localisation and scientific review remain open. |
+| 05 | 5.5-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | NWS pressure-system image embedded in RU/EN; exact media rights/credit and visual-label localisation remain open. |
+| 05 | 5.6-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | NOAA global-circulation graphic embedded in RU/EN; exact media rights/credit and English-label localisation remain open. |
+| 05 | 5.7-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | NOAA hydrologic-cycle graphic embedded in RU/EN; exact media rights/credit and English-label localisation remain open. |
+| 05 | 5.8-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | NOAA front-symbol/cross-section set embedded in RU/EN; enumerate each component URL, confirm rights and review label localisation. |
+| 05 | 5.9-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual weather-versus-climate SVG embedded in RU/EN; static SVG structure checked. Scientific content, creator/licence, accessibility and rendered QA remain open. |
+| 05 | 5.10-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 asset-to-ID mapping has been reconciled for this named visual; review dimensions remain pending. |
+| 05 | 5.11-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Köppen–Geiger 1991–2020 map embedded in RU/EN; exact CC0 file revision, legend/label localisation and methodology review remain open. |
+| 05 | 5.12-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-belts SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.13-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.14-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.15-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.16-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.17-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
+| 05 | 5.14-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual atmospheric-hazards SVG embedded in RU/EN; static SVG structure checked. Safety/scientific review, creator/licence, accessibility and rendered QA remain open. |
+| 05 | 5.15-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-change SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
+| 05 | 5.16-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual observations-to-forecast SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
+| 05 | 5.17-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-graph exercise embedded in RU/EN; static SVG structure checked. Synthetic data/arithmetic, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.18-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | New synthetic bilingual SVG embedded in RU/EN; static source structure checked. Scientific conventions, project rights/licence, accessibility and rendering remain open. |
 | 06 | 6-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -413,7 +413,7 @@ The current `geography/visuals/` directory contains eight SVG assets plus the Ch
 
 The eight SVG files currently present in `geography/visuals/` were fetched from the working branch and checked for basic embedded accessibility metadata. All eight contain an SVG `viewBox`, `role="img"`, `aria-labelledby`, a `<title>` and a `<desc>`. This is a positive static structural check, not a full accessibility pass: title/description quality, reading order, contrast, small-screen legibility and screen-reader output still require content-level and rendered review.
 
-The Chapter 05 Markdown contains 40 image embeds; all 40 have non-empty Markdown alt text. Chapters 18, 19 and 20 contain respectively 1, 1 and 2 local SVG embeds, and all four have non-empty bilingual alt text. These checks establish that alt text is present, not that every alternative is sufficiently descriptive or equivalent in both languages.
+The Chapter 05 Markdown now contains 42 image embeds; all 42 have non-empty Markdown alt text. Chapters 18, 19 and 20 contain respectively 1, 1 and 2 local SVG embeds, and all four have non-empty bilingual alt text. These checks establish that alt text is present, not that every alternative is sufficiently descriptive or equivalent in both languages.
 
 **Chapter 05 current evidence state:** local SVG metadata = structural PASS; non-empty Markdown alt text = structural PASS; full scientific review, exact ID-to-asset mapping, rights/source verification for every embedded external image, bilingual semantic equivalence and deployed rendering/accessibility = PENDING.
 
@@ -538,7 +538,7 @@ A source scan of all chapter files 06–26 found **210 distinct visual IDs** acr
 
 - The chapter source contained 20 distinct image URLs and 40 Markdown image embeds. Three project-local bilingual SVGs — 5.12-A global climate belts, 5.14-A atmospheric hazards and 5.15-A climate change — appeared only once in the Russian section, despite the visual register claiming bilingual integration.
 - Added the same three assets to the corresponding English sections, with bilingual alt text, captions and the existing learning limitations preserved.
-- Rechecked the chapter: **40 image embeds, 20 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
+- Rechecked the chapter: **42 image embeds, 21 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
 - RU/EN parity for 5.12-A, 5.14-A and 5.15-A is now **PASS** at the chapter-source level. Their creator/rightsholder, project licence, scientific review and rendered technical checks remain PENDING; none is VERIFIED.
 - The chapter's 5.18-A synoptic-map exercise is now integrated in both language sections; scientific, rights, accessibility and rendered technical review remain pending.
 
@@ -584,14 +584,14 @@ This is a source-tree and chapter-embed finding, not a judgment that these visua
 
 - Consolidated the 16 pre-existing integrated Chapter 05 visual IDs into `IMAGE_SOURCES.md`, preserving aliases (5-A / 5.2-A and 5-C / 5.6-A); added 5.18-A as a newly integrated 17th named visual ID.
 - After 5.18-A integration, the chapter has 42 Markdown image embeds and 21 unique image URLs (9 local SVGs and 12 external source-image URLs).
-- The migration does **not** promote the 16 assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the UCAR-hosted IPCC energy-budget figure, NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components.
+- The migration does **not** promote the 17 named integrated assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the UCAR-hosted IPCC energy-budget figure, NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components.
 - Chapter Markdown parity remains a source-level check only: 40 image embeds, 20 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
 - Chapter 05 source-register coverage is now documented; overall Geography image coverage is still not calculable because the 231-versus-283 inventory discrepancy and two unnamed Chapter 05 inventory slots remain unresolved.
 
 
 ### 7.10 Chapter 05 bilingual embed parity rechecked
 
-A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **40 Markdown image embeds: 20 in Russian and 20 in English**. The same 20 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 40 alt-text fields is empty. All 40 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
+A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **40 Markdown image embeds: 20 in Russian and 20 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 40 alt-text fields is empty. All 40 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
 
 
 ### Chapter 05 — static SVG structure check — 5 November 2026
