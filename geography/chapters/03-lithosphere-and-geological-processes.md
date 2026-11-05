@@ -411,7 +411,22 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 ![Официальная международная хроностратиграфическая шкала ICS, версия 2026/06. / Official International Chronostratigraphic Chart, ICS version 2026/06.](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg)
 
 *Источник: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Численные возраста и границы могут уточняться; диаграмма использует неравномерный масштаб. / Source: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Numerical ages and boundaries may be revised; the chart uses a non-linear scale.*
-**EN:** Vertical geological time scale from Earth's formation to the present. Make the non-linear time spacing explicit and use the current ICS chart for boundary ages.
+
+**Как читать шкалу по-русски.** Оригинальная диаграмма ICS опубликована на английском языке. Для чтения её основных уровней используйте соответствия:
+
+| English on chart | Русский термин | Что обозначает |
+|---|---|---|
+| Eon | Эон | Крупнейшее подразделение геологического времени |
+| Era | Эра | Подразделение эона |
+| Period | Период | Подразделение эры |
+| Epoch | Эпоха | Подразделение периода |
+| Age | Век | Подразделение эпохи |
+
+Основные эоны: Hadean — гадей; Archean — архей; Proterozoic — протерозой; Phanerozoic — фанерозой. В фанерозое выделяют эры Paleozoic — палеозой, Mesozoic — мезозой и Cenozoic — кайнозой. Названия и численные границы на самой диаграмме оставлены в официальной английской версии ICS; приведённая таблица — краткий русскоязычный ключ, а не полный перевод всех подразделений.
+
+**Reading the chart.** The official ICS graphic is published in English. The table above is a concise Russian key to the hierarchy and the principal eons and eras; it is not a full translation of every period, epoch and age shown in the chart. Use the chart's current version for official names and boundary ages.
+
+**EN:** Vertical geological time scale from Earth's formation to the present. The chart uses non-linear spacing; use the current ICS chart for boundary ages.
 
 ### 3.9.4. Разобранный пример: определение относительного возраста слоёв и интрузии / Worked Example: Establishing the Relative Ages of Layers and an Intrusion
 
