@@ -1183,7 +1183,7 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Generated and manually inspected full-page desktop screenshots for the Biology index and all 12 chapters (13 pages total); screenshot artifact from CI run [41910231926](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41910231926), commit `428fcd79932a9e85e182ba01285558435bc16428`.
 - Corrected visible issues in the regional index language spans; thermoregulation, biomolecule, DNA-packaging, membrane-transport and microbe-comparison label spacing; evolution homology key and geological timeline callouts; central-dogma caption clipping; ribosome peptide-chain label placement; and cellular-respiration diagram layout/proton-flow depiction.
 - Latest CI passed: 13 pages at mobile and desktop widths, 30 language-toggle interactions, no uncaught page errors, 19,331 contrast-sampled text instances with 0 below threshold, and image-decode / SVG-geometry checks. Automated axe, keyboard/focus and overflow checks passed.
-- Page-render visual QA is recorded as completed for this pass. It does **not** certify detailed morphology or source/caption correctness for every individual image; Global Image Verification remains Pending audit. Independent specialist review and school/device QA remain separate stages.
+- Page-render visual QA is recorded as completed for this pass. It does **not** certify detailed morphology or source/caption correctness for every individual image; Global Image Verification remains Pending audit. External specialist review and school/teacher evaluation are excluded; any remaining device/accessibility checks are internal project-team tasks.
 - Overall Biology editorial readiness remains **99/100**; no unsupported percentage increase is assigned while asset-specific verification remains open.
 
 
@@ -1294,7 +1294,7 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Began a source-level morphology review of the integrated mammal reconstruction against the IUCN Cat Specialist Group snow-leopard description and Mammalian Species accounts for argali and Siberian ibex. Added pale centres to selected snow-leopard rosettes and transverse ridges to the ibex horns; recorded that the argali horn spirals remain stylised. No subspecies or precise locality claims added.
 - Updated the P1 scientific review, disposition register and legacy candidate audit to distinguish the integrated SVG from the unintegrated WebP candidate and to reflect the successful Chromium smoke-test run.
 - Commits: SVG `78dfe9fe39fa72c7b766c596284a979a5a1499d6`; scientific review `570e0461b94bd7a249cb27d35083b1966144804c`; disposition `9c578b193d299eaad30d230d9fa98662737287cc`; audit `fcbeeecb320e4e8e771604ced10789a726e04cbc`.
-- Because the SVG was refined after workflow `42015846138`, a new CI run is required before claiming the updated mammal image passed browser checks. Independent mammal-specialist review and human visual acceptance remain pending.
+- Because the SVG was refined after workflow `42015846138`, a new CI run is required before claiming the updated mammal image passed browser checks. Internal source-based species-morphology review and rendered visual acceptance remain pending; external mammal-specialist review is excluded from the project.
 - Overall editorial readiness remains **99/100**; no percentage increase is claimed.
 
 ### P1 fauna morphology and screenshot-level QA — 5 November 2026
@@ -1362,3 +1362,8 @@ Project QA is internal: editorial and bilingual checks; claim-level research aga
 - A focused source/caption consistency pass was completed for the P1 mountain-mammal, bird and freshwater-habitat SVGs. Their SVG descriptions match the current Russian/English chapter alt text and captions; species and locality limits remain explicit. Rendered visual acceptance, device/accessibility checks and rights checks remain separate where still pending.
 - No image was promoted to VERIFIED; production coverage remains 53/53. The 99/100 editorial-readiness estimate is unchanged and must not be used as an image-verification percentage.
 - All pending work remains internal to the project team. External assessment, specialist review and independent sign-off are excluded from scope.
+
+
+## Governance reconciliation — 5 November 2026
+
+Older checkpoint entries that list independent specialists, school/teacher review, outside acceptance or external sign-off as pending are historical and superseded. None is an active project task, blocker, deliverable or completion criterion. All remaining work is internal to the project team: source-based fact-checking, visual/rendered inspection, bilingual review, rights/attribution checks, accessibility and technical tests.
