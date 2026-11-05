@@ -14,12 +14,13 @@
 
 This guide explains how development teams implement the visual requirements of the universal `IMAGE_FIRST_POLICY.md`. It applies to all disciplines, not to any one subject.
 
-The two documents have different roles:
+The three canonical documents have different roles:
 
-- **`IMAGE_FIRST_POLICY.md` defines what is mandatory:** principles, rights, accuracy, accessibility, records, status definitions, metrics, and acceptance criteria.
-- **`VISUAL_IMPLEMENTATION_GUIDE.md` explains how to do the work efficiently:** the practical sequence for finding, assessing, replacing, creating, integrating, and verifying visuals.
+- **`IMAGE_FIRST_POLICY.md`** defines the universal mandatory rules for all visuals.
+- **`AUTHOR_CREATED_VISUALS_STANDARD.md`** adds the mandatory authorship, provenance, licensing, and verification gates for Category C — Created assets.
+- **`VISUAL_IMPLEMENTATION_GUIDE.md`** explains the practical workflow for finding, assessing, creating, adapting, integrating, and verifying all visual categories.
 
-The policy takes precedence if any wording in this guide appears inconsistent with it. Teams must use the current approved policy version and must not create local rules that weaken or contradict it.
+Read the applicable standards before work begins. The universal policy takes precedence over this guide; the author-created standard supplements the policy and is mandatory for Category C. Subject-level procedures may add stricter checks but must not weaken these canonical requirements.
 
 ## 2. Start with the learning need
 
