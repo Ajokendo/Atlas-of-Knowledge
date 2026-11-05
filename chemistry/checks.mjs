@@ -667,7 +667,7 @@ if (fs.existsSync(isotopeSvgPath)) {
   const isotopeSvg = fs.readFileSync(isotopeSvgPath, "utf8");
   for (const [x, expectedNeutrons] of [[205, 6], [470, 7]]) {
     const start = isotopeSvg.indexOf('<g transform="translate(' + x + ' 185)">');
-    const end = start < 0 ? -1 : isotopeSvg.indexOf("</g></g>", start);
+    const end = start < 0 ? -1 : isotopeSvg.indexOf("</text></g>", start);
     const nucleus = start < 0 || end < 0 ? "" : isotopeSvg.slice(start, end);
     const protons = (nucleus.match(/fill="#238b70"/g) || []).length;
     const neutrons = (nucleus.match(/fill="#e0a64d"/g) || []).length;
