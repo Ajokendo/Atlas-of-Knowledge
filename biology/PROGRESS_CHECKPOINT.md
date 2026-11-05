@@ -1354,3 +1354,11 @@ Any external evaluation, consultation, expert review, school-teacher assessment,
 The project owner's latest instruction supersedes every older checkpoint, milestone, score explanation or task list that describes external/independent review, specialist sign-off, teacher evaluation, recruitment, handoff, or outside acceptance as pending or required. **All external review, expertise, assessment, peer review, certification and sign-off are outside Atlas of Knowledge.** They are not project blockers, deliverables, progress dimensions or completion criteria. The archived external-review documents are not active workflows. Any external work is separate and must use separate records outside this project.
 
 Project QA is internal: editorial and bilingual checks; claim-level research against published primary/authoritative sources; taxonomy, locality, date and arithmetic checks; source/licence/provenance review; and internal code, browser, accessibility and rendering checks. External publications and databases remain valid research evidence; consulting them does not constitute external review of the Atlas. Do not describe any internal status as externally verified. Preserve uncertainty where the internal evidence is insufficient.
+
+
+## Internal visual QA triage — 5 November 2026
+
+- The consolidated image audit records **33 of 53 register rows with explicit pending notes** concerning visual rendering, morphology or browser review. This is a triage count, not a percentage of completed verification and not proof that the other 20 rows passed every internal gate.
+- A focused source/caption consistency pass was completed for the P1 mountain-mammal, bird and freshwater-habitat SVGs. Their SVG descriptions match the current Russian/English chapter alt text and captions; species and locality limits remain explicit. Rendered visual acceptance, device/accessibility checks and rights checks remain separate where still pending.
+- No image was promoted to VERIFIED; production coverage remains 53/53. The 99/100 editorial-readiness estimate is unchanged and must not be used as an image-verification percentage.
+- All pending work remains internal to the project team. External assessment, specialist review and independent sign-off are excluded from scope.
