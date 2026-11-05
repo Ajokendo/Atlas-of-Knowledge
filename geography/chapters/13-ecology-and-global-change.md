@@ -725,6 +725,8 @@ Technology alone does not guarantee sustainability. Outcomes depend on governanc
 
 ## 13.17. Ключевые понятия / Key Terms
 
+Ниже приведены ключевые термины главы и их английские эквиваленты. / The glossary below pairs the chapter's key terms with their English equivalents.
+
 Экология — Ecology; экологическая география — Environmental geography; экосистема — Ecosystem; устойчивость экосистемы — Ecosystem resilience; экосистемные услуги — Ecosystem services; биоразнообразие — Biodiversity; антропогенное воздействие — Human pressure; планетарные границы — Planetary boundaries; парниковый эффект — Greenhouse effect; смягчение изменения климата — Climate mitigation; адаптация — Adaptation; деградация земель — Land degradation; эвтрофикация — Eutrophication; циркулярная экономика — Circular economy; экологический риск — Environmental risk; подверженность — Exposure; уязвимость — Vulnerability; ОВОС — Environmental Impact Assessment (EIA); СЭО — Strategic Environmental Assessment (SEA); экологическая справедливость — Environmental justice; природоориентированные решения — Nature-based solutions.
 
 ## 13.18. Контрольные вопросы и практические задания / Review Questions and Practical Activities
