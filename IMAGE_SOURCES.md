@@ -553,20 +553,45 @@ The Chapter 02 interactive book contains **13 registered 3D scene assemblies**. 
 
 | Visual ID | Assembly key | EN source concept | RU local concept / learner-facing visual meaning | Local / upstream source | Category / status |
 |---|---|---|---|---|---|
-| PHY-02-001 | rest | A block at rest; weight and normal force balance | Неподвижный блок; сила тяжести и реакция опоры равны и противоположны | `original-engine/newton/world.js` / `newton/world.js` | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-002 | glide | A block gliding at constant velocity with zero resultant force | Скользящий блок; постоянная скорость при нулевой равнодействующей | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-003 | second | Equal applied force on blocks of different masses | Одинаковая сила для тел разной массы; сравнение ускорений по (a=F/m) | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-004 | friction | Static friction, breakaway and kinetic friction | Трение покоя, начало скольжения и трение скольжения | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-005 | third | Newton's third-law contact pair between two blocks | Пара сил взаимодействия двух блоков: (F_{A\to B}) и (F_{B\to A}) | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-006 | incline | Weight components on a frictionless inclined plane | Разложение силы тяжести на составляющие вдоль и перпендикулярно наклонной плоскости | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-007 | tension | One vertical string and two angled strings supporting a block | Натяжение одной нити и двух наклонных нитей; горизонтальные и вертикальные составляющие | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-008 | plane | Aircraft in level flight; lift/weight and thrust/drag balance | Самолёт в горизонтальном полёте; две пары уравновешенных сил | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-009 | car | Accelerating car; forward static friction and backward air drag | Разгон автомобиля; трение покоя со стороны дороги и сопротивление воздуха | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-010 | tug | Two skaters pulling a light rope; centre of mass remains fixed | Два конькобежца тянут верёвку; центр масс системы остаётся неподвижным | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-011 | board | A block on a pulled board; internal friction pair and centre-of-mass acceleration | Брусок на тянущейся доске; пара внутренних сил трения и ускорение центра масс | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-012 | drag | Falling ball with linear drag (F_d=bv) approaching terminal speed | Падающий шар с линейным сопротивлением; приближение к предельной скорости | same | B — source lineage and MIT basis mapped; internal scene review pending |
-| PHY-02-013 | honey | Steel ball sinking in honey; Stokes drag, buoyancy and terminal speed | Стальной шар в мёде; сопротивление Стокса, выталкивающая сила и предельная скорость | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-001 | rest | A block at rest; weight and normal force balance | Неподвижный блок; сила тяжести и реакция опоры равны и противоположны | `original-engine/newton/world.js` / `newton/world.js` | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-002 | glide | A block gliding at constant velocity with zero resultant force | Скользящий блок; постоянная скорость при нулевой равнодействующей | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-003 | second | Equal applied force on blocks of different masses | Одинаковая сила для тел разной массы; сравнение ускорений по (a=F/m) | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-004 | friction | Static friction, breakaway and kinetic friction | Трение покоя, начало скольжения и трение скольжения | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-005 | third | Newton's third-law contact pair between two blocks | Пара сил взаимодействия двух блоков: (F_{A\to B}) и (F_{B\to A}) | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-006 | incline | Weight components on a frictionless inclined plane | Разложение силы тяжести на составляющие вдоль и перпендикулярно наклонной плоскости | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-007 | tension | One vertical string and two angled strings supporting a block | Натяжение одной нити и двух наклонных нитей; горизонтальные и вертикальные составляющие | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-008 | plane | Aircraft in level flight; lift/weight and thrust/drag balance | Самолёт в горизонтальном полёте; две пары уравновешенных сил | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-009 | car | Accelerating car; forward static friction and backward air drag | Разгон автомобиля; трение покоя со стороны дороги и сопротивление воздуха | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-010 | tug | Two skaters pulling a light rope; centre of mass remains fixed | Два конькобежца тянут верёвку; центр масс системы остаётся неподвижным | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-011 | board | A block on a pulled board; internal friction pair and centre-of-mass acceleration | Брусок на тянущейся доске; пара внутренних сил трения и ускорение центра масс | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-012 | drag | Falling ball with linear drag (F_d=bv) approaching terminal speed | Падающий шар с линейным сопротивлением; приближение к предельной скорости | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
+| PHY-02-013 | honey | Steel ball sinking in honey; Stokes drag, buoyancy and terminal speed | Стальной шар в мёде; сопротивление Стокса, выталкивающая сила и предельная скорость | same | B — source lineage/MIT basis mapped; source-level geometry, force vectors and physics reviewed PASS; browser screenshot review pending |
 
 **Mapping integrity:** the 13 page descriptors in `pages.js`, the 13 `PLATES` breakdown keys, and the 13 literal `asm(...)` scene assemblies in `world.js` match exactly. There are no missing, orphaned or duplicated top-level scene IDs. Internal meshes, force arrows, labels, graph elements and stroboscopic ghost objects are components of these scene units and are not counted again as separate assets.
 
 **Do not mark VERIFIED yet:** each scene still requires visual/scientific inspection against its displayed explanation, confirmation of vector directions and scales, label/alt-text review, and desktop/mobile screenshot review.
+
+
+### Chapter 02 internal scene review — source-level pass (2026-11-05)
+
+All 13 scene constructions and corresponding page explanations/PLATES descriptions were reviewed against the Newton model and force-vector conventions. This is a source-level scientific/visual-construction pass; it does not certify pixel-level rendering or responsive appearance.
+
+| ID | Source-level review result |
+|---|---|
+| PHY-02-001 | Weight down and normal force up; equal magnitudes for the stationary block. |
+| PHY-02-002 | Same vertical force balance as rest; no horizontal force, constant velocity. |
+| PHY-02-003 | Equal rightward resultant force on 2 kg and 4 kg blocks; acceleration arrows/values are inversely proportional to mass. |
+| PHY-02-004 | Applied push to the right; friction opposes the impending/sliding motion; net force becomes positive after breakaway. |
+| PHY-02-005 | Contact-force pair points in opposite directions and is applied to different blocks; external push is distinguished from the pair. |
+| PHY-02-006 | Weight is vertical; (mg\sin\theta) is down the slope, (mg\cos\theta) is into the slope, normal force points outward; resultant points down the slope. |
+| PHY-02-007 | String tensions point along each string toward its anchor; horizontal components cancel and vertical components balance the weight. |
+| PHY-02-008 | Lift/weight and thrust/drag are opposing balanced pairs; all four forces act on the aircraft, not as third-law pairs. |
+| PHY-02-009 | Road's static friction on the tyres points forward; air drag points backward; their difference is the resultant. |
+| PHY-02-010 | Rope tension pulls the skaters toward one another; internal pair cancels for the combined system; centre-of-mass marker stays fixed. |
+| PHY-02-011 | Friction on the block points forward and friction on the board backward; the pair is internal; external pull determines system centre-of-mass acceleration. |
+| PHY-02-012 | Weight points down, linear drag points up and grows with speed; resultant decreases toward zero. |
+| PHY-02-013 | Weight down, buoyancy and Stokes drag up; terminal-speed force balance and equally spaced strobes are consistent with the model. |
+
+The page-to-scene, scene-to-assembly and scene-to-breakdown mapping is 13/13. The local `world.js` scene code has no non-textual geometry/vector changes from the pinned upstream snapshot. Scene explanations are present in `PLATES`; browser rendering, actual screenshots, contrast, canvas accessible-name quality and mobile clipping remain to be confirmed in the browser QA gate.
+
+**Lifecycle status:** source-level review PASS; not yet `VERIFIED`.
