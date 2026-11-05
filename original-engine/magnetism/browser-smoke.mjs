@@ -116,6 +116,8 @@ async function runLesson(mobile) {
     await visuals.first().scrollIntoViewIfNeeded();
     await page.waitForFunction(() => { const img = document.querySelector('figure.visual-figure img'); return !!img && img.complete && img.naturalWidth > 0; });
     const visual = await visuals.first().evaluate(img => ({ alt: img.alt, currentSrc: img.currentSrc, caption: img.closest('figure')?.querySelector('figcaption')?.innerText || '', ru: !!img.closest('figure')?.querySelector('figcaption [lang="ru"]'), en: !!img.closest('figure')?.querySelector('figcaption [lang="en"]') }));
+    const imageFirst = await page.evaluate(() => { const figure = document.querySelector('figure.visual-figure'); const firstTopic = [...document.querySelectorAll('section h2')].find(el => el.textContent.includes('1. Магнитное поле')); return !!figure && !!firstTopic && !!(figure.compareDocumentPosition(firstTopic) & Node.DOCUMENT_POSITION_FOLLOWING); });
+    if (!imageFirst) throw new Error('Chapter 14 visual must precede the detailed topic text');
     if (!visual.alt || visual.alt.length < 40 || !visual.ru || !visual.en || !visual.caption) throw new Error('Chapter 14 visual needs meaningful alt text and bilingual caption');
     if (mobile && !visual.currentSrc.includes('-mobile.svg')) throw new Error('Chapter 14 mobile layout was not selected');
     if (!mobile && visual.currentSrc.includes('-mobile.svg')) throw new Error('Chapter 14 desktop layout was not selected');
