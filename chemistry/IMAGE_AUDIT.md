@@ -560,3 +560,16 @@ The first-pass bilingual comparison found that the Russian formula-reading visua
 The English SVG now shows the same worked expansion as the Russian version: `2 × (2 H + 1 O) = 4 H atoms + 2 O atoms`. The regression checks require the corresponding example and the distinction between coefficient and subscript in both languages.
 
 This closes the identified source-level parity gap only. It does not constitute a rendered-layout pass; the revised English lower panel must be checked for clipping at desktop and mobile widths. Scientific second-person review and rights evidence remain PENDING.
+
+
+## CH-V05 solution saturation model parity and equilibrium correction — 5 November 2026
+
+The bilingual comparison identified a scientific distinction that was explicit in Russian but incomplete in English: the saturated state should be described as being in dynamic equilibrium with undissolved solute, not merely “at the solubility limit”. The supersaturated state should also say that seeding can trigger crystallisation. The English graphic did not show a separate solid phase in the saturated panel.
+
+The English SVG was corrected:
+- the description now fixes both temperature and solvent amount for the comparison;
+- saturated solution is described as being in dynamic equilibrium with undissolved solute;
+- a small solid-phase/crystal symbol is shown separately from dissolved particles;
+- the supersaturated state is described as metastable and potentially crystallising when seeded.
+
+The Russian SVG already carried these concepts. A regression check now requires the scientific distinctions in both language files. The visual remains schematic: particle counts are not measured concentrations. This is source-level review only; rendered inspection, competent second-person scientific review and rights clearance remain PENDING.
