@@ -168,7 +168,7 @@ async function checkChapterPage() {
     const headings = await page.locator('main h2').allTextContents();
     const required = [
       '1.1. Положение, путь и перемещение',
-      '1.2. Скорость и быстрота',
+      '1.2. Средняя скорость движения и векторная скорость',
       '1.3. Ускорение',
       '1.4. Графики движения',
       '1.5. Кинематические уравнения',
@@ -203,6 +203,24 @@ async function checkChapterPage() {
     });
     if (!(await page.locator('#klVOut').innerText()).includes('20')) {
       throw new Error('Projectile-motion speed slider did not update its readout');
+    }
+    const graphA11y = await page.locator('#klGraph').evaluate(el => {
+      const id = el.getAttribute('aria-describedby');
+      const description = id && document.getElementById(id);
+      return { width: el.width, height: el.height, id, text: description?.textContent || '' };
+    });
+    if (!graphA11y.id || !graphA11y.text.includes('две панели') || !graphA11y.width || !graphA11y.height) {
+      throw new Error('Projectile graph is missing its two-panel accessible description or rendered canvas');
+    }
+    const staticGraphs = page.locator('main svg[aria-labelledby="kin-graphs-title kin-graphs-desc"]');
+    const staticGraphText = await staticGraphs.innerText();
+    if (!(await staticGraphs.count()) || !staticGraphText.includes('Координата y') ||
+        !staticGraphText.includes('Скорость vᵧ') || !staticGraphText.includes('Ускорение aᵧ')) {
+      throw new Error('Chapter 1.4 static graphs do not expose three separately labelled physical quantities');
+    }
+    const lessonText = await page.locator('main').innerText();
+    if (!lessonText.includes('t ≥ 4,0 с:') || !lessonText.includes('x(t) = 32,0 м')) {
+      throw new Error('Chapter 1.9 does not explain the piecewise motion after acceleration reaches zero');
     }
 
     await page.locator('.answers button[data-answer="b"]').click();
