@@ -104,8 +104,9 @@
 
 ## 6.4. Рельеф океанического дна / Ocean-Floor Relief
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6-C / IMAGE PLACEHOLDER 6-C]** Профиль океанического дна с шельфом, материковым склоном, абиссальной равниной, срединно-океаническим хребтом и глубоководным желобом.
-> **EN:** Ocean-floor profile showing the continental shelf, continental slope, abyssal plain, mid-ocean ridge and deep-sea trench.
+![Схематический профиль океанического дна: материк, шельф, материковый склон и подножие, абиссальная равнина, срединно-океанический хребет и глубоководный желоб. Масштабы не пропорциональны.](../assets/06-4-C-ocean-floor-cross-section-bilingual.svg)
+
+*Учебная схема, созданная специально для атласа с помощью ChatGPT. Это не батиметрический профиль конкретного участка океана: формы и их размеры условны, вертикальный и горизонтальный масштабы не пропорциональны, не все элементы обязательно встречаются вместе. / Teaching schematic created specifically for the atlas with ChatGPT assistance. It is not a bathymetric profile of a specific ocean transect: shapes and dimensions are illustrative, vertical and horizontal scales are not proportional, and the features do not necessarily occur together.*
 
 Океаническое дно имеет сложное строение и включает формы, сопоставимые по масштабу с крупнейшими формами рельефа суши.
 
@@ -594,6 +595,10 @@ The Pacific is the largest ocean and one of the deepest on average. The Atlantic
 Exact areas and mean depths should be taken from one consistent hydrographic classification because estimates vary according to which seas and marginal basins are included.
 
 ### 6.4. Ocean-Floor Relief
+
+![Schematic ocean-floor profile: continent, continental shelf, continental slope and rise, abyssal plain, mid-ocean ridge and deep-sea trench. Scales are not proportional.](../assets/06-4-C-ocean-floor-cross-section-bilingual.svg)
+
+*Teaching schematic created specifically for the atlas with ChatGPT assistance. It is not a bathymetric profile of a specific ocean transect: shapes and dimensions are illustrative, vertical and horizontal scales are not proportional, and the features do not necessarily occur together.*
 
 The ocean floor has a complex structure and includes features comparable in scale to the largest landforms on continents.
 
