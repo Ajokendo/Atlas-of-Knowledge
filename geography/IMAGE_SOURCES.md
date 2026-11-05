@@ -431,3 +431,26 @@ These seven diagrams are original project-specific SVGs authored with ChatGPT as
 - Chapter 16: Statistics Canada spatial-data quality elements.
 
 All six SVGs passed static source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element and RU/EN text. They are INTEGRATED, not VERIFIED. Formal creator/rightsholder and project licence assignment is still required before public release.
+
+
+## Chapters 11 and 13–16 — fifth visual integration tranche — 5 November 2026
+
+**Image-first discovery record:** Search was completed before authoring. Results included a UNCTAD global-value-chain chapter, UNIDO EQuIP tool, IPBES biodiversity-driver framework, QGIS/UNEP GIS teaching material, NASA Applied Remote Sensing Training Program and Ordnance Survey cartographic-generalisation guidance. The search identified useful methodology but not a single ready-to-reuse figure that matched the atlas's bilingual labels, scope and intended school-level sequence. No third-party figure is reproduced in these five new assets.
+
+| Visual ID | Purpose | Search/source decision | Category / rights | Status |
+|---|---|---|---|---|
+| 11-D | Global value chain | UNCTAD and UNIDO sources support the value-chain stages and supporting conditions. An original conceptual flow was authored; it is not a real product or country-specific supply-chain map. | C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING. | INTEGRATED; conceptual review PASS; rights/accessibility/rendered QA PENDING. |
+| 13-B | Three biodiversity levels and five direct drivers | IPBES Global Assessment provides the established five-direct-driver framework. Original bilingual diagram separates direct drivers from indirect social/economic causes. | C — original hand-coded SVG; no third-party diagram copied. Project licence PENDING. | INTEGRATED; scientific framework PASS; rights/accessibility/rendered QA PENDING. |
+| 14-E | GIS components and workflow | QGIS and UNEP/GRID introductory GIS materials describe data, hardware, software, people and methods. Original workflow diagram includes iterative validation and decision-making. | C — original hand-coded SVG; sources cited in chapter. Project licence PENDING. | INTEGRATED; conceptual review PASS; rights/accessibility/rendered QA PENDING. |
+| 15-E | Passive optical remote-sensing principle | NASA ARSET training material explains solar illumination, atmospheric interaction, surface reflection and satellite observation. Original teaching diagram adds a clear distinction between passive optical sensing, thermal emission and active SAR. | C — original hand-coded SVG; NASA source used for methodology, not copied as a figure. Project licence PENDING. | INTEGRATED; conceptual review PASS; rights/accessibility/rendered QA PENDING. |
+| 16-D | Cartographic generalisation across scales | Ordnance Survey guidance explains selection and simplification at smaller scales. An original schematic shows the same conceptual area at three scales; it does not use real geographic data. | C — original hand-coded SVG; project licence PENDING. | INTEGRATED; conceptual review PASS; rights/accessibility/rendered QA PENDING. |
+
+### Supporting references added to chapter bibliographies
+
+- Chapter 11: UNCTAD (2014), *Global Value Chains and World Trade*; UNIDO EQuIP Tool 4 (2024).
+- Chapter 14: QGIS Documentation, *Introducing GIS*.
+- Chapter 15: NASA Applied Remote Sensing Training Program, *Fundamentals of Remote Sensing*.
+- Chapter 16: Ordnance Survey, *Generalisation*.
+- Chapter 13: the existing IPBES Global Assessment reference already supports the direct-driver framework.
+
+All five assets passed static source-level SVG checks and were embedded with bilingual alt text and captions. They are INTEGRATED, not VERIFIED. Formal project licence assignment remains required before public redistribution.
