@@ -18,9 +18,9 @@ text{font-family:Arial,Helvetica,sans-serif;fill:#1D2D3A}.title{font-size:29px;f
 <ellipse class="iso" cx="1000" cy="350" rx="220" ry="160"/><ellipse class="iso" cx="1000" cy="350" rx="165" ry="118"/><ellipse class="iso" cx="1000" cy="350" rx="112" ry="78"/>
 <text class="isotext" x="1185" y="270">1020</text><text class="isotext" x="1130" y="302">1024</text><text class="isotext" x="1060" y="333">1028</text><text class="isotext" x="1000" y="354" text-anchor="middle">1032</text><text x="1000" y="380" text-anchor="middle" class="small">H — антициклон / High</text>
 <!-- Cold front: triangles point SE -->
-<path class="cold" d="M 520 440 C 560 480, 585 525, 610 585"/><polygon points="545,470 566,467 553,488" fill="#2877B8"/><polygon points="574,516 596,513 582,535" fill="#2877B8"/><polygon points="594,558 616,555 602,577" fill="#2877B8"/>
+<path class="cold" d="M 520 440 C 560 480, 585 525, 610 585"/><polygon points="547,485 563,471 567,492" fill="#2877B8"/><polygon points="574,533 590,519 594,540" fill="#2877B8"/><polygon points="600,572 616,558 620,579" fill="#2877B8"/>
 <!-- Warm front: semicircles -->
-<path class="warm" d="M 490 320 C 570 285, 650 258, 740 242"/><path d="M 535 301 A 14 14 0 0 1 560 291 M 600 279 A 14 14 0 0 1 625 269 M 667 259 A 14 14 0 0 1 692 250" fill="none" stroke="#C94F4F" stroke-width="5"/>
+<path class="warm" d="M 490 320 C 580 305, 665 290, 760 275"/><path d="M 535 312 A 12 12 0 0 1 559 308 M 615 298 A 12 12 0 0 1 639 294 M 695 285 A 12 12 0 0 1 719 281" fill="none" stroke="#C94F4F" stroke-width="5"/>
 <!-- Simplified station plots -->
 <g transform="translate(210 220)"><circle class="station" r="15"/><text class="stxt" x="-42" y="-18">18</text><text class="stxt" x="-42" y="31">12</text><text class="stxt" x="22" y="-18">142</text><line class="wind" x1="0" y1="0" x2="-30" y2="-28"/><line class="wind" x1="-22" y1="-20" x2="-32" y2="-10"/></g>
 <g transform="translate(680 455)"><circle class="station" r="15"/><text class="stxt" x="-42" y="-18">11</text><text class="stxt" x="-42" y="31">8</text><text class="stxt" x="22" y="-18">118</text><line class="wind" x1="0" y1="0" x2="-35" y2="-4"/><line class="wind" x1="-26" y1="-3" x2="-23" y2="-14"/></g>
