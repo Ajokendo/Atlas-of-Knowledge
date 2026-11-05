@@ -178,6 +178,18 @@ GNSS — общее название спутниковых навигацион
 
 Для анализа доступности услуг точка геокодированного адреса не всегда равна фактическому входу или маршруту движения.
 
+
+**Geocoding** converts a textual description of a location, such as an address or place name, into coordinates. Reverse geocoding links coordinates to a nearby address or geographic description.
+
+A geocoding result may be ambiguous. An address may correspond to a building, an entrance, a parcel centroid or an approximate point on a street. It is therefore necessary to check:
+- the accuracy and type of the returned location;
+- whether the settlement and administrative unit match;
+- the quality and completeness of the address database;
+- the date when the data were updated; and
+- the rules for processing personal data.
+
+For service-accessibility analysis, a geocoded address point is not necessarily the actual entrance or a point on the route people use.
+
 ## 14.8. Пространственные запросы и операции / Spatial Queries and Operations
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 14-C / IMAGE PLACEHOLDER 14-C]** Наглядные схемы буфера, пересечения, объединения, разности и пространственного соединения.
@@ -323,6 +335,20 @@ WMS и WFS остаются широко используемыми станда
 
 Краудсорсинговые карты могут быстро обновляться, но качество отдельных объектов требует проверки. Для критической инфраструктуры и безопасности нельзя полагаться на непроверенный пользовательский ввод.
 
+
+Web GIS provides spatial data and tools through a browser or networked applications. Users can view layers, run queries, create maps and collaborate on data.
+
+A typical architecture includes:
+1. spatial data sources;
+2. a server or cloud storage;
+3. publication and processing services;
+4. a web client or mobile application; and
+5. authentication, access-control and backup mechanisms.
+
+Open geodata make research and information reuse easier, but licence conditions differ. “Open” does not mean that attribution requirements, non-commercial-use restrictions or protections for sensitive data disappear.
+
+Crowdsourced maps can be updated quickly, but individual features still require verification. Unverified user input should not be relied on for critical infrastructure or safety decisions.
+
 ## 14.15. ГИС и управление территориями / GIS in Territorial Management
 
 ГИС поддерживает принятие решений, когда необходимо сопоставить пространственные данные из разных отраслей.
@@ -339,6 +365,21 @@ WMS и WFS остаются широко используемыми станда
 
 ГИС помогает выявить пространственные закономерности, но не заменяет экспертную оценку, общественные консультации и правовые процедуры. Карта является моделью реальности и должна рассматриваться вместе с неопределённостью и ограничениями данных.
 
+
+GIS supports decision-making when spatial data from different sectors need to be compared.
+
+Examples include:
+- **urban planning:** zoning, infrastructure and green spaces;
+- **agriculture:** crop monitoring, irrigation and land assessment;
+- **water management:** basin management, water intakes and flood zones;
+- **nature conservation:** habitats, ecological corridors and change monitoring;
+- **transport:** accessibility, routes and transport safety;
+- **emergency management:** hazard assessment, evacuation and resource allocation;
+- **healthcare:** spatial access to services and epidemiological monitoring; and
+- **cadastre:** land and property records.
+
+GIS can reveal spatial patterns, but it does not replace expert judgement, public consultation or legal procedures. A map is a model of reality and must be considered together with the uncertainty and limitations of its data.
+
 ## 14.16. Этика, конфиденциальность и ответственное использование / Ethics, Privacy and Responsible Use
 
 Географические данные могут раскрывать местоположение людей, жилищ, медицинских учреждений, объектов критической инфраструктуры, редких видов и культурно значимых мест.
@@ -353,6 +394,20 @@ WMS и WFS остаются широко используемыми станда
 - не публиковать чувствительные координаты уязвимых видов и объектов без оценки риска.
 
 Пространственная агрегация может снижать риск раскрытия персональных данных, но не всегда гарантирует анонимность. Сочетание нескольких наборов данных иногда позволяет повторно идентифицировать людей.
+
+
+Geographic data may reveal the locations of people, homes, healthcare facilities, critical infrastructure, rare species and culturally significant places.
+
+The main principles of responsible use are:
+- collect only the data needed for a lawful and clearly stated purpose;
+- consider consent and the legal basis for processing personal data;
+- reduce spatial detail where it creates a risk of identification;
+- restrict access and protect data storage;
+- document sources and limitations;
+- check for bias and uneven data coverage; and
+- do not publish sensitive coordinates of vulnerable species or sites without assessing the risk.
+
+Spatial aggregation can reduce the risk of disclosing personal data, but it does not always guarantee anonymity. Combining several datasets may sometimes make it possible to re-identify individuals.
 
 ## 14.17. Практический рабочий процесс ГИС / A Practical GIS Workflow
 
@@ -616,6 +671,19 @@ A reproducible project should allow another specialist to understand which data,
 9. Картографический дизайн влияет на корректность восприятия данных.
 10. Этика и защита конфиденциальности являются обязательной частью ГИС-практики.
 11. Воспроизводимый рабочий процесс должен документировать данные и методы.
+
+
+1. GIS combines spatial data, software, methods, infrastructure and users.
+2. Geographic features are described through geometry and attributes.
+3. Vector and raster models are designed for different types of spatial information.
+4. The coordinate reference system and projection should suit the area and task.
+5. Spatial operations reveal relationships among features and layers.
+6. Network and raster analysis can address accessibility and modelling questions.
+7. Data quality includes accuracy, completeness, currency, consistency and lineage.
+8. Metadata and standards support interpretation and interoperability.
+9. Cartographic design affects how data are understood.
+10. Ethics and privacy protection are essential parts of GIS practice.
+11. A reproducible workflow must document its data and methods.
 
 ## 14.19. Ключевые понятия / Key Terms
 
