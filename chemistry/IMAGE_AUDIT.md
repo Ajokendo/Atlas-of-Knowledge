@@ -361,3 +361,7 @@ The Chapter 03 periodic-trends gap is now closed for **Image Coverage**. A bilin
 - **Generated raster draft:** REJECTED and not integrated because several element symbols were incorrect.
 
 The 100% figure above is **Image Coverage only**. It does not mean the visual set is legally, scientifically, linguistically, accessibly or technically VERIFIED.
+
+## Git-history review of unresolved original SVGs — 2026-11-05
+
+Path-specific history was checked for the 12 original SVG files that still lacked file-level authoring/source evidence. Their first repository commits are now recorded in the Git-history evidence table at the end of `IMAGE_SOURCES.md`. All 12 first-introduction commits identify the repository account `Ajokendo` as author and committer, with messages indicating addition or localization of illustrations. This proves repository introduction history only; it does not establish AI generation, human authorship, external-source independence, rightsholder identity or a licence. These 12 files therefore remain Unknown/PENDING. The previously documented 10/22 file-level AI-generation evidence remains unchanged; the newly integrated CH-V12 is separately documented as a code-authored SVG pair from this session.
