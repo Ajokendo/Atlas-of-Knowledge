@@ -676,3 +676,15 @@ A focused source-level pass compared the three integrated P1 fauna SVGs with the
 - **Freshwater habitats** (fauna-freshwater-habitats.svg): SVG description and chapter alt/caption consistently distinguish Lake Issyk-Kul from a cold flowing freshwater mountain stream. Fish remain generic and unlabelled; aquatic insect larvae are confined to the stream scene. The chapter separately states that Issyk-Kul is a closed-basin, slightly saline/brackish lake and cites the FAO technical report for its approximate salinity; it does not equate the lake with freshwater rivers.
 
 **Result:** no source-text contradiction was found between these three SVG descriptions and their current bilingual chapter alt text/captions in this pass. This is a source/caption consistency check only. It does not close detailed rendered visual inspection, mobile-width label/legibility checks, hands-on accessibility checks or asset-rights checks. No asset was marked VERIFIED, and no production count changed.
+
+
+## Rendered screenshot review — freshwater and regional flora photographs — 5 November 2026
+
+The current full-page Chromium screenshot artifact from workflow `42029110697` (13 Biology pages; branch revision `4037f08ca50c3d52eb353f16afa4d1710cf94d6d`) was inspected manually at desktop width for the freshwater section and selected regional flora photo groups.
+
+- **Freshwater fauna:** both separate scenes are visibly rendered: Issyk-Kul littoral at left and cold mountain stream at right. The former clipped right-hand panel is no longer blank. The literal escaped-newline artefact between adjacent paragraphs is absent. This rendered check is recorded in the freshwater-specific audit and disposition register.
+- **Issyk-Kul flora:** the Tamchy Bay wetland, dry gully above Tamchy and associated regional photo sequence are visibly loaded; their adjacent captions identify locality, photographer/date and source/licence links. The captions preserve the distinction between a landscape photograph and a plant-community/species record.
+- **Naryn flora:** the Son-Kul/Chatyr-Kul landscape sequence and the Alabuga tributary *Clematis songorica* photograph are visibly loaded; the caption confines the plant record to the stated Alabuga locality and altitude and identifies the creator/licence.
+- **Osh flora:** the Kulun-Ata river/riparian photograph is visibly loaded; the caption describes only the river corridor and visible riparian vegetation and includes creator/date/licence attribution.
+
+**Result:** the inspected raster groups have no apparent broken-image or blank-media defect in this desktop screenshot, and their visible captions/attribution are present. This is a targeted rendered-page inspection, not a full pixel-by-pixel review of every regional photograph, a mobile-width pass, a legal opinion on licence compatibility, or a biological verification of every plant identification. No blanket `VERIFIED` status or overall Image Verification percentage is inferred. The remaining asset-by-asset queue stays open.
