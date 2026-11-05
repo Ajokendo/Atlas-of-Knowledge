@@ -39,8 +39,9 @@ Economic geography studies the spatial organisation of economic activity, the lo
 
 ## 11.3. Отраслевая структура хозяйства / Sectoral Structure of the Economy
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 11-A / IMAGE PLACEHOLDER 11-A]** Диаграмма отраслевой структуры экономики с раздельными долями занятости и добавленной стоимости и указанием года.
-> **EN:** Diagram of the sectoral structure of an economy, separating employment shares from value-added shares and stating the reference year.
+![Отраслевая структура: первичный, вторичный и третичный сектора; занятость и валовая добавленная стоимость / Sectoral structure: primary, secondary and tertiary sectors; employment and gross value added](../assets/diagrams/11-A-sectoral-structure-bilingual.svg)
+
+*Оригинальная двуязычная учебная схема. Статистические значения не заданы: для реального сравнения используйте данные одной территории, одного года и сопоставимой классификации. / Original bilingual teaching diagram. No statistical values are supplied: for a real comparison, use data for the same territory and year under a comparable classification.*
 
 Для общего описания экономики используют деление на сектора. Классическая трёхсекторная схема включает:
 
