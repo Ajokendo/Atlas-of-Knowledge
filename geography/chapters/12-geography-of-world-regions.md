@@ -268,6 +268,21 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 **Рисунок 12.5 / Figure 12.5 — Центральноамериканский перешеек и Карибский бассейн / Central American isthmus and the Caribbean Basin.**  
 Техническое задание: обзорная карта перешейка, Карибского моря, крупных островов и Панамского канала; показать основные морские направления условными стрелками без численных объёмов перевозок.
 
+
+Central America connects North and South America through a narrow isthmus. The Caribbean Basin includes islands and coastal territories linked by the history of maritime trade, migration and cultural contact.
+
+### Physical geography
+
+The region is characterised by mountain ranges, volcanic arcs, tropical forests, coral reefs and low-lying coasts. It lies in an area of high tectonic and climatic activity. Tropical cyclones, earthquakes, volcanic activity, floods and landslides create significant risks.
+
+### Population and economy
+
+The economy combines agriculture, tourism, services, trade, logistics and manufacturing. The Panama Canal is globally important for maritime transport, connecting the Atlantic and Pacific oceans through a system of channels and locks. Caribbean island states differ in size, economic structure, languages and institutional arrangements.
+
+### Regional challenges
+
+Important issues include the vulnerability of islands and coastal territories to sea-level rise, extreme storms and coastal erosion, freshwater scarcity, dependence on tourism, and reliance on external food and energy supplies.
+
 ## 12.8. Южная Америка / South America
 
 Южная Америка включает крупнейшие влажные тропические леса планеты, высокогорные системы Анд, обширные равнины и засушливые области. Регион отличается высоким природным и культурным разнообразием.
@@ -290,6 +305,23 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 **Рисунок 12.6 / Figure 12.6 — Природные регионы Южной Америки / South America's natural regions.**  
 Техническое задание: показать Анды, Амазонию, Оринокскую низменность, Бразильское и Гвианское плоскогорья, Пампу, Патагонию и Атакаму; отдельно обозначить основные речные бассейны.
 
+
+South America includes the world's largest areas of humid tropical forest, the high mountain systems of the Andes, extensive plains and arid regions. The region has high natural and cultural diversity.
+
+### Physical geography
+
+The Andes extend along the western edge of the continent and create complex altitudinal belts. The Amazon lowland contains the world's largest tropical forest area and an extensive river system. In the south are the Pampas, Patagonia, and cold mountain and glacial landscapes. The Atacama Desert is one of the driest regions on Earth.
+
+The Amazon River and its tributaries play a key role in the continent's water balance and ecology. Other important systems include the Orinoco, Paraná–Paraguay and São Francisco.
+
+### Population and economy
+
+A large share of the population is concentrated in coastal and highland urban areas. Economic activity includes agriculture, mineral extraction, energy, manufacturing, services and tourism. The region has substantial freshwater, mineral resources and renewable-energy potential.
+
+### Regional challenges
+
+Key issues include deforestation and ecosystem degradation, changing rainfall regimes, fires, pollution from mining waste, land inequality, urban challenges and the protection of the rights of local and Indigenous peoples. Amazonia is important for regional and global climate and biogeochemical processes, but it should not be treated as a uniform area without internal differences.
+
 ## 12.9. Австралия и Океания / Australia and Oceania
 
 Австралия — материк и государство, тогда как Океания — более широкий регион островов Тихого океана. В культурно-географической схеме часто выделяют Меланезию, Микронезию и Полинезию. В статистической классификации ООН M49 Океания дополнительно делится на Австралию и Новую Зеландию, Меланезию, Микронезию и Полинезию. Новую Зеландию обычно включают в Океанию.
@@ -310,6 +342,21 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 **Рисунок 12.7 / Figure 12.7 — Океания: островные типы и пространственная удалённость / Oceania: island types and spatial remoteness.**  
 Техническое задание: схема вулканического острова, высокого известнякового острова и кораллового атолла; обзорная карта субрегионов Океании с указанием океанских расстояний и без преувеличения размеров малых островов.
 
+
+Australia is both a continent and a country, while Oceania is a broader region of Pacific islands. Cultural-geographical schemes often distinguish Melanesia, Micronesia and Polynesia. In the UN M49 statistical classification, Oceania is further divided into Australia and New Zealand, Melanesia, Micronesia and Polynesia. New Zealand is generally included in Oceania.
+
+### Physical geography
+
+The interior of Australia is predominantly arid, while much of the population is concentrated in coastal cities. The Great Dividing Range and humid forest areas lie in the east; the Great Barrier Reef is off the north-eastern coast. The islands of Oceania include volcanic islands, uplifted limestone formations and low coral atolls.
+
+### Population and economy
+
+Australia and New Zealand are highly urbanised and have developed services, agriculture, resource extraction and education sectors. The island states of Oceania differ in resource base, market size, transport connectivity and vulnerability to external shocks. Fisheries, tourism, remittances, marine resources and international assistance are important for many islands.
+
+### Regional challenges
+
+Low islands and atolls are vulnerable to sea-level rise, saltwater intrusion, storm surges and coastal erosion. Other important issues include coral-reef conservation, sustainable fisheries, freshwater access, transport isolation and protection of cultural heritage.
+
 ## 12.10. Антарктика и Южный океан / Antarctica and the Southern Ocean
 
 Антарктика — полярный регион вокруг Южного полюса, ядром которого является материк Антарктида. Большая часть материка покрыта мощным ледниковым щитом. Постоянного коренного населения нет; присутствуют научные станции и сезонный персонал.
@@ -321,6 +368,13 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-J / IMAGE PLACEHOLDER 12-J]** Карта Антарктики и Южного океана с научными станциями, ледниковым щитом и принятой границей океана; указать дату данных. / **EN:** Map of Antarctica and the Southern Ocean showing research stations, ice sheet and the adopted ocean boundary, with data date.
 **Рисунок 12.8 / Figure 12.8 — Антарктика и Южный океан / Antarctica and the Southern Ocean.**  
 Техническое задание: полярная проекция с континентом, ледниковым щитом, Южным океаном и научными станциями как условными точками; не изображать территориальные претензии без специального юридического пояснения.
+
+
+Antarctica is the polar region around the South Pole, with the continent of Antarctica at its core. Most of the continent is covered by a thick ice sheet. There is no permanent Indigenous population; scientific stations and seasonal personnel are present.
+
+The 1959 Antarctic Treaty and the related treaty system establish a special international legal regime. The Treaty provides for the use of Antarctica exclusively for peaceful purposes, the continuation of freedom of scientific research and international cooperation. Article IV preserves the positions of the parties regarding previously asserted territorial claims: the Treaty neither recognises nor rejects them, prohibits activities during its operation from serving as a basis for new claims or enlarging existing ones, and thereby maintains the status quo. The Treaty area covers the region south of 60° S; it should not automatically be equated with the continent of Antarctica or with any chosen boundary of the Southern Ocean. Antarctica is not an ordinary state or a territory divided into internationally recognised national possessions.
+
+The Southern Ocean surrounds Antarctica and plays an important role in global ocean circulation, the climate system and marine ecosystems. Key environmental issues include changes in the ice sheet, sea ice, ocean warming, ocean acidification and the condition of krill and other populations.
 
 ## 12.11. Трансграничные регионы и глобальные связи / Transboundary Regions and Global Connections
 
