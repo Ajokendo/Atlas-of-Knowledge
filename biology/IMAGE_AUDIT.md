@@ -715,3 +715,25 @@ The prior rights hold is closed for **use within this Atlas**. The project owner
 The committed 320 × 292 WebP derivative is the only active supplementary plate. The uncommitted 1199 × 1312 working PNG is not a release asset and must not be substituted without a separate source/morphology/rendered review. The source contains additional bulb/capsule studies that are not used as evidence in the chapter. The active derivative and bilingual caption are restricted to the general above-ground plant and flower illustration; no bulb/capsule claim, population estimate or exact locality is made.
 
 The remaining status is internal rendered inspection and detailed morphology/learner-accessibility review where feasible. External specialist or teacher review is excluded and is not a blocker.
+
+
+## Bilingual embedded-label and layout correction batch — 5 November 2026
+
+A source-level scan of all 48 generated SVG files found two diagrams whose visible text labels were entirely English despite bilingual `title`/`desc` metadata:
+
+- `fauna-issyk-habitats.svg`
+- `fauna-jalalabad-western-tien-shan.svg`
+
+It also found three Russian-only explanatory callouts in `flora-batken-aygul.svg`. These are now corrected:
+
+- Added Russian equivalents for the three regional habitat panels and the footer in the Issyk-Kul diagram.
+- Moved the Issyk-Kul panel labels into visible, high-contrast footer strips inside each panel; the previous label baselines fell below the panel and were partly covered by the bottom disclaimer strip.
+- Added Russian equivalents for the Western Tien Shan header, all three habitat panels and the footer.
+- Moved the Western Tien Shan panel labels inside each panel; the former label baselines were outside the viewBox and clipped/covered by the footer.
+- Added English equivalents for “drooping bell-shaped flowers”, “lance-shaped leaves” and “upright stem” in the Aygul SVG.
+
+The regression suite now checks that any generated SVG with visible Latin-script text also contains visible Cyrillic text, and checks `text`/`tspan` anchor coordinates against the SVG `viewBox`. This catches English-only diagrams and obvious out-of-canvas text anchors. It does not estimate glyph-width overflow or replace visual inspection.
+
+The exact committed Aygul WebP was inspected directly: 320 × 292 px; the active asset depicts the above-ground plant and flower detail, including the six-tepal/six-stamen diagram. It does not contain the separate bulb or capsule studies found in the uncommitted 1199 × 1312 working PNG. Those extra studies are not used on the page and must not be described as part of the active derivative.
+
+No external review was used or requested. These are internal source, content and rendering corrections.
