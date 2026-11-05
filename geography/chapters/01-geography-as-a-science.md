@@ -19,7 +19,7 @@
 ## 1.1. Что такое география? / What Is Geography?
 ![Схема географии как системы: природные компоненты, население, города, экономика, культура и транспорт взаимосвязаны. / Geography as a system: natural components, population, cities, economy, culture and transport are interconnected.](../assets/diagrams/01-A-geography-spatial-system.svg)
 
-*01-A. Авторская двуязычная схема для Atlas of Knowledge. Это концептуальная модель взаимосвязей, а не карта или статистическая визуализация. / Original bilingual schematic for Atlas of Knowledge. This is a conceptual model of connections, not a map or statistical visualisation.*
+*01-A. Авторская двуязычная схема для Atlas of Knowledge. Это концептуальная модель взаимосвязей, а не карта или статистическая визуализация. / Original bilingual schematic for Atlas of Knowledge. This is a conceptual model of connections, not a map or statistical visualisation. Лицензия / Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Атрибуция / Attribution: Atlas of Knowledge project.*
 
 
 
@@ -93,7 +93,7 @@
 ## 1.4. Географическое пространство, место и территория / Geographical Space, Place and Territory
 ![Координатная сетка показывает абсолютное положение; схема реки, дорог и поселений — относительное положение. / A coordinate grid shows absolute location; a schematic river, roads and settlements show relative location.](../assets/diagrams/01-B-location-place-territory.svg)
 
-*01-B. Авторская учебная схема; условные объекты не обозначают реальные координаты или поселения. / Original educational schematic; features do not represent real coordinates or settlements.*
+*01-B. Авторская учебная схема; условные объекты не обозначают реальные координаты или поселения. / Original educational schematic; features do not represent real coordinates or settlements. Лицензия / Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Атрибуция / Attribution: Atlas of Knowledge project.*
 
 
 
@@ -145,12 +145,12 @@
 
 ![Пять уровней анализа: местный, региональный, национальный, международный и глобальный. / Five levels of analysis: local, regional, national, international and global.](../assets/diagrams/01-E-local-to-global-scales.svg)
 
-*01-E. Авторская условная схема масштаба исследования; это не серия географических карт и не иллюстрация масштаба карты. / Original schematic of analytical scale; not a set of geographic boundary maps or an illustration of cartographic scale.*
+*01-E. Авторская условная схема масштаба исследования; это не серия географических карт и не иллюстрация масштаба карты. / Original schematic of analytical scale; not a set of geographic boundary maps or an illustration of cartographic scale. Лицензия / Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Атрибуция / Attribution: Atlas of Knowledge project.*
 
 ## 1.7. Методы географического исследования / Methods of Geographical Research
 ![Шесть этапов географического исследования: вопрос, сбор данных, проверка, пространственный анализ, карта, интерпретация и сообщение результатов. / Six stages of geographical research: question, data collection, validation, spatial analysis, mapping, interpretation and communication.](../assets/diagrams/01-C-geographical-research-cycle.svg)
 
-*01-C. Авторская двуязычная схема; последовательность отражает итеративный характер исследования. / Original bilingual schematic; the sequence reflects the iterative nature of research.*
+*01-C. Авторская двуязычная схема; последовательность отражает итеративный характер исследования. / Original bilingual schematic; the sequence reflects the iterative nature of research. Лицензия / Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Атрибуция / Attribution: Atlas of Knowledge project.*
 
 
 
@@ -338,7 +338,7 @@ The same process may look different at the scale of a household, neighbourhood, 
 ### 1.1. What Is Geography?
 ![Geography as a system: natural components, population, cities, economy, culture and transport are interconnected. / География как система: природные компоненты, население, города, экономика, культура и транспорт взаимосвязаны.](../assets/diagrams/01-A-geography-spatial-system.svg)
 
-*01-A. Original bilingual schematic for Atlas of Knowledge. It is a conceptual model, not a map or statistical visualisation. / Авторская двуязычная схема для Atlas of Knowledge. Это концептуальная модель, а не карта или статистическая визуализация.*
+*01-A. Original bilingual schematic for Atlas of Knowledge. It is a conceptual model, not a map or statistical visualisation. / Авторская двуязычная схема для Atlas of Knowledge. Это концептуальная модель, а не карта или статистическая визуализация. Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Attribution: Atlas of Knowledge project. / Лицензия: CC BY-NC 4.0. Атрибуция: Atlas of Knowledge project.*
 
 
 Geography is the study of Earth as humanity's shared home and of the spatial differences, connections and changes that shape natural and human phenomena. It asks **where** processes occur, **why** they take place in particular ways, **how** places are connected and **how** they change over time.
@@ -386,7 +386,7 @@ The English term *human geography* is broader than the literal translation “so
 ### 1.4. Geographical Space, Place and Territory
 ![A coordinate grid shows absolute location; a schematic river, roads and settlements show relative location. / Координатная сетка показывает абсолютное положение; схема реки, дорог и поселений — относительное положение.](../assets/diagrams/01-B-location-place-territory.svg)
 
-*01-B. Original educational schematic; features do not represent real coordinates or settlements. / Авторская учебная схема; объекты не обозначают реальные координаты или поселения.*
+*01-B. Original educational schematic; features do not represent real coordinates or settlements. / Авторская учебная схема; объекты не обозначают реальные координаты или поселения. Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Attribution: Atlas of Knowledge project. / Лицензия: CC BY-NC 4.0. Атрибуция: Atlas of Knowledge project.*
 
 
 These concepts are related but not identical.
@@ -422,7 +422,7 @@ Geography also examines flows and interactions: daily commuting, migration, trad
 ### 1.6. Geographical Scale and Levels of Analysis
 ![Five levels of analysis: local, regional, national, international and global. / Пять уровней анализа: местный, региональный, национальный, международный и глобальный.](../assets/diagrams/01-E-local-to-global-scales.svg)
 
-*01-E. Original schematic of analytical scale, not a set of geographic boundary maps or an illustration of map scale. / Авторская схема масштаба исследования, не серия карт границ и не иллюстрация масштаба карты.*
+*01-E. Original schematic of analytical scale, not a set of geographic boundary maps or an illustration of map scale. / Авторская схема масштаба исследования, не серия карт границ и не иллюстрация масштаба карты. Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Attribution: Atlas of Knowledge project. / Лицензия: CC BY-NC 4.0. Атрибуция: Atlas of Knowledge project.*
 
 
 Geographical scale is a key research tool. The same phenomenon may look different at different levels:
@@ -440,7 +440,7 @@ A pattern observed at one level cannot automatically be transferred to another. 
 ### 1.7. Methods of Geographical Research
 ![Six stages of geographical research: question, data collection, validation, spatial analysis, mapping, interpretation and communication. / Шесть этапов географического исследования: вопрос, сбор данных, проверка, пространственный анализ, карта, интерпретация и сообщение результатов.](../assets/diagrams/01-C-geographical-research-cycle.svg)
 
-*01-C. Original bilingual schematic; the sequence reflects the iterative nature of research. / Авторская двуязычная схема; последовательность отражает итеративный характер исследования.*
+*01-C. Original bilingual schematic; the sequence reflects the iterative nature of research. / Авторская двуязычная схема; последовательность отражает итеративный характер исследования. Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Attribution: Atlas of Knowledge project. / Лицензия: CC BY-NC 4.0. Атрибуция: Atlas of Knowledge project.*
 
 
 Geographical research begins with a clearly framed question and the selection of suitable evidence. No single method is appropriate for every task.
