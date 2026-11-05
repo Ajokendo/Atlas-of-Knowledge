@@ -97,6 +97,25 @@ A region should not be reduced to a single stereotype. Differences within a regi
 **Рисунок 12.1 / Figure 12.1 — Природное и региональное разнообразие Африки / Africa's physical and regional diversity.**  
 Техническое задание: физическая карта с Сахарой, Сахелем, бассейном Конго, Восточно-Африканским нагорьем, крупными озёрами и основными реками; отдельная схема пяти субрегионов; границы и названия сверить с современными атласами.
 
+
+Africa is the world's second-largest continent by both area and population. It contains highly diverse natural and human systems. Regional classifications commonly distinguish North, West, Central, East and Southern Africa, although the composition of individual subregions may vary.
+
+### Physical geography
+
+The Sahara, the world's largest hot desert, extends across the north of the continent. South of it lie the Sahel, savannas, the humid tropical forests of the Congo Basin and other natural systems. The East African Rift System forms zones of faulting, volcanism, high plateaus and deep lakes. In the south, important features include plateaus, the Namib and Kalahari deserts, and mountain and coastal landscapes.
+
+Major river systems include the Nile, Congo, Niger, Zambezi and Orange. Water resources are distributed very unevenly, and the seasonality of rainfall is important for agriculture and water supply.
+
+### Population and economy
+
+Africa has a young population structure and is undergoing rapid demographic change, but population growth rates and structures vary considerably among countries. Large cities and urban agglomerations are expanding quickly, creating demand for housing, transport, energy, water supply and jobs.
+
+Economic activity includes agriculture, mineral extraction, manufacturing, trade, services, tourism and rapidly developing digital industries. The export specialisation of some countries in minerals and agricultural commodities can increase their vulnerability to changes in world prices.
+
+### Regional challenges
+
+Major issues include aridity and variable rainfall, land degradation, access to safe water, food security, energy infrastructure, urban development and the consequences of armed conflict. At the same time, the continent has substantial potential for solar energy, a young workforce, natural and cultural heritage, and regional trade.
+
 ## 12.4. Европа / Europe
 
 Европа — западная часть материка Евразия, выделяемая как историко-географический и культурный регион. Её восточная граница условна и в разных географических традициях проводится по-разному. Европа включает разнообразные государства, природные зоны и экономические системы.
@@ -120,6 +139,25 @@ A region should not be reduced to a single stereotype. Differences within a regi
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-E / IMAGE PLACEHOLDER 12-E]** Физико-географическая карта Европы с основными равнинами, горами, полуостровами и морями; использовать единую классификацию регионов. / **EN:** Physical-geographical map of Europe showing major plains, mountains, peninsulas and seas under one consistent regional classification.
 **Рисунок 12.2 / Figure 12.2 — Физико-географические регионы Европы / Europe's physical-geographical regions.**  
 Техническое задание: показать основные равнины, полуострова, горные системы, реки и моря; отдельно выделить условные макрорегионы Северной, Западной, Центральной, Южной и Восточной Европы, отметив, что схемы регионализации различаются.
+
+
+Europe is the western part of the Eurasian landmass, distinguished as a historical-geographical and cultural region. Its eastern boundary is conventional and is drawn differently in different geographic traditions. Europe includes a wide range of states, natural zones and economic systems.
+
+### Physical geography
+
+The Scandinavian Mountains, lakes and glacial landscapes are found in the north. The Alps, Pyrenees, Carpathians, Apennines and other mountain systems cross central and southern Europe. Large plains and river valleys have supported the development of agriculture, industry and transport networks.
+
+Important rivers include the Volga, Danube, Rhine, Dnieper, Elbe, Po and Rhône. Climate ranges from Arctic and subarctic in the north to Mediterranean in the south; western areas are strongly influenced by the Atlantic Ocean.
+
+### Population, economy and integration
+
+Europe is characterised by high urbanisation, developed transport networks and a major services sector. Some countries face population ageing, low fertility and dependence on international migration in particular industries. Internal differences include contrasts between large urban agglomerations and peripheral territories, as well as between regions with different histories of industrialisation.
+
+The European Union is a political and economic union of member states based on treaties and common institutions. It does not include all of Europe, and Europe is not synonymous with the European Union. Other forms of regional cooperation include the Council of Europe, the European Free Trade Association and various cross-border programmes; their membership and powers differ.
+
+### Regional challenges
+
+Important issues include energy security, climate adaptation, migration management, regional inequality, population ageing, transport-system resilience and transboundary pollution. Europe is also a major global centre of science, education, finance, industry and cultural heritage.
 
 ## 12.5. Азия / Asia
 
@@ -148,6 +186,25 @@ A region should not be reduced to a single stereotype. Differences within a regi
 **Рисунок 12.3 / Figure 12.3 — Физические контрасты Азии / Asia's physical contrasts.**  
 Техническое задание: карта от арктических широт до экваториальных островов с Гималаями, Тибетским нагорьем, пустынями, крупными речными бассейнами и муссонными областями; не перегружать карту мелкими подписями.
 
+
+Asia is the largest continent by area and population. It extends from Arctic coasts to equatorial islands and includes an enormous range of climates, landforms, languages, religions, political systems and levels of economic development.
+
+### Physical geography
+
+Asia contains the Himalayas, Karakoram, Pamir, Tien Shan, Altai and extensive plateaus. The Caucasus is included in Asia in some regional classifications, while others treat it as a boundary region between Europe and Asia. The Tibetan Plateau is one of the world's largest and highest elevated regions. Major plains and lowlands are associated with the Ganges, Indus, Yangtze, Yellow River, Mekong, Ob-Irtysh and other river basins.
+
+Natural zones include Arctic deserts and tundra, taiga, steppes, deserts, monsoon forests, humid tropical forests and mountain altitudinal belts. Major natural hazards include earthquakes, tsunamis, tropical cyclones, floods, droughts and landslides.
+
+### Population and economy
+
+Asia contains some of the world's largest population concentrations, megacities and industrial regions. Economic systems range from high-technology and financial centres to agricultural regions and territories dependent on resource extraction. Global production chains, seaports, energy corridors and digital technologies play major roles.
+
+Subregions commonly include East, Southeast, South, Central and West Asia, while some classifications also distinguish North Asia. Their composition and boundaries depend on the scheme used.
+
+### Regional challenges
+
+Key issues include food and water security, air pollution, urbanisation, climate risks, the energy transition, population ageing in some countries and rapid growth of young populations in others. Transboundary river basins require coordination among states, while densely populated coastal areas are particularly vulnerable to sea-level rise and extreme weather.
+
 ## 12.6. Северная Америка / North America
 
 Северная Америка простирается от арктических островов до Центральной Америки в зависимости от принятой физико-географической границы. В региональных и статистических схемах Центральная Америка и Карибский бассейн часто рассматриваются отдельно.
@@ -171,6 +228,25 @@ A region should not be reduced to a single stereotype. Differences within a regi
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-F / IMAGE PLACEHOLDER 12-F]** Карта рельефа и крупнейших водных систем Северной Америки с корректными направлениями стока. / **EN:** Relief and major drainage-system map of North America with verified flow directions.
 **Рисунок 12.4 / Figure 12.4 — Рельеф и водные системы Северной Америки / North America's relief and water systems.**  
 Техническое задание: показать Кордильеры, Великие равнины, Аппалачи, Великие озёра и основные речные системы; отдельными символами обозначить климатические риски без утверждения, что они одинаковы на всей территории.
+
+
+North America extends from the Arctic islands to Central America, depending on the physical-geographical boundary used. In regional and statistical schemes, Central America and the Caribbean are often treated separately.
+
+### Physical geography
+
+The Cordillera stretches along the western side of the continent, including the Rocky Mountains and the mountain systems of the Pacific coast. The Great Plains and interior lowlands occupy the central part, while the Appalachians lie to the east. The largest freshwater lake system is the Great Lakes, connected to the St. Lawrence River. Important river systems include the Mississippi–Missouri, Mackenzie, St. Lawrence and Colorado.
+
+Climate ranges from Arctic to subtropical. The plains are exposed to droughts and severe storms, coasts to hurricanes and sea-level rise, and mountain areas to wildfires and landslides.
+
+### Population and economy
+
+The region has large urban agglomerations, high levels of car dependence in some countries, major agricultural areas, manufacturing, financial centres and technology hubs. Economic links are closely connected through trade, investment, migration and transport networks.
+
+Internal differences are substantial, from high-technology metropolitan areas and industrial corridors to rural territories, remote northern regions and areas with limited access to services.
+
+### Regional challenges
+
+Major challenges include water scarcity in the west, soil degradation, wildfires, hurricanes, spatial and social inequality, housing affordability and adaptation of infrastructure to climate change.
 
 ## 12.7. Центральная Америка и Карибский бассейн / Central America and the Caribbean
 
