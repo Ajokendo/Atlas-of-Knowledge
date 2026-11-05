@@ -43,7 +43,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 09 | 7 | 5 | 2 | 09-B, 09-C, 09-D, 09-F and 09-G are original bilingual conceptual SVGs. 09-A (WPP 2024 time series) and 09-E (gridded population-density map) remain open pending source-data extraction and documented chart/map metadata. |
 | 10 | 7 | 6 | 1 | 10-B–10-G are original bilingual conceptual SVGs; 10-A remains open pending a current, source-backed world political map and documented boundary-status policy. Rights and rendered/accessibility QA remain pending. |
 | 11 | 7 | 7 | 0 | Seven local SVG assets embedded in chapter source. |
-| 12 | 10 | 4 | 6 | 12-A, 12-B, 12-D and 12-E embedded; 12-E is a CC BY 4.0 external relief map with a bilingual feature key. 12-C and 12-F–12-J remain open. |
+| 12 | 10 | 8 | 2 | 12-A, 12-B, 12-D–12-I integrated; 12-C (transboundary systems) and 12-J (Antarctica with station coverage) remain open. |
 | 13 | 11 | 11 | 0 | Eleven local SVG assets embedded. |
 | 14 | 9 | 8 | 1 | 14-A, 14-B, 14-C, 14-D, 14-E, 14-F, 14-H and 14-I embedded; 14-G remains open. |
 | 15 | 11 | 11 | 0 | Eleven local SVG assets embedded. |
@@ -56,9 +56,9 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | **Total named inventory** | **281** | **170** | **111** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 171/281 named IDs have an image embedded in the relevant chapter source (60.9%). This measures presence only.
-- **Image Verification:** 0/171 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 110 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 175/281 named IDs have an image embedded in the relevant chapter source (62.3%). This measures presence only.
+- **Image Verification:** 0/175 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 106 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -86,10 +86,10 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 12 | 12-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-D | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-E | INTEGRATED | PENDING | PASS — Blue Green Atlas page states CC BY 4.0; attribution and licence link added | PASS — bilingual alt text, feature key and caption | PENDING | PENDING — remote JPEG dependency; test deployed load/responsive rendering | External physical-relief map by Blue Green Atlas (SRTM3 / GEBCO 2019 / Natural Earth), Albers Equal Area Conic. Added bilingual key for major plains, ranges, peninsulas and seas; not an official macroregional-boundary map. Scientific review and live technical QA pending. |
-| 12 | 12-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 12 | 12-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 12 | 12-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 12 | 12-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 12 | 12-F | INTEGRATED | PENDING | PASS — Blue Green Atlas page states CC BY 4.0; attribution and licence link added | PASS — bilingual alt text, drainage key and caption | PENDING | PENDING — remote JPEG dependency; test deployed load/responsive rendering | External physical-relief map, Lambert Azimuthal Equal Area; SRTM3 / GEBCO 2019 / Natural Earth. Bilingual key names five major drainage systems and approximate outlet directions. Scientific review and live QA pending. |
+| 12 | 12-G | INTEGRATED | PENDING | PASS — CIA source image is public domain; source credit recorded | PASS — bilingual alt text, island/strait/canal key and caption | PENDING | PENDING — remote Wikimedia image dependency; test deployed load/responsive rendering | CIA World Factbook 2021 shaded relief, Lambert Conformal Conic, 7°/24° N standard parallels; no text or borders. Key identifies Antilles, Bahamas, major passages and Panama Canal. Scientific/live QA pending. |
+| 12 | 12-H | INTEGRATED | PENDING | PASS — Blue Green Atlas page states CC BY 4.0; attribution and licence link added | PASS — bilingual alt text and physical-systems key | PENDING | PENDING — remote JPEG dependency; test deployed load/responsive rendering | External physical-relief map, Albers Equal Area Conic; SRTM3 / GEBCO 2019 / Natural Earth. Bilingual key identifies Andes, Amazon, Orinoco, highlands, plains and main drainage directions. Scientific/live QA pending. |
+| 12 | 12-I | INTEGRATED | PENDING | PASS — Blue Green Atlas page states CC BY 4.0; attribution and licence link added | PASS — bilingual alt text, island-origin key and caption | PENDING | PENDING — remote JPEG dependency; test deployed load/responsive rendering | External physical-relief map, Lambert Conformal Conic; SRTM3 / GEBCO 2019 / Natural Earth. Bilingual key distinguishes continental, volcanic and coral-island examples with mixed-origin caveat. Scientific/live QA pending. |
 | 12 | 12-J | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 13 | 13-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual greenhouse-effect diagram; project licence and scientific review remain open. |
 | 13 | 13-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |

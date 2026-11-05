@@ -874,3 +874,42 @@ All four SVGs contain bilingual labels plus SVG title/description metadata and h
 - **Use:** External image embedded directly in the chapter, with bilingual alt text and a bilingual teaching key listing major plains, mountain ranges, peninsulas and seas. No claim is made that the map depicts an official or unique macroregional classification.
 - **Category:** A — external map, used unchanged; a bilingual explanatory key is added separately.
 - **Status:** INTEGRATED. Rights/attribution PASS. Scientific review and remote-image browser/mobile/responsive-load QA PENDING. Not VERIFIED.
+
+
+### Chapter 12-F — North America physical relief and drainage — 5 November 2026
+
+- **Source:** Blue Green Atlas, https://bluegreenatlas.com/maps/relief_map_of_north_america.html
+- **Direct image:** https://bluegreenatlas.com/maps/relief_map_of_north_america.jpg
+- **Licence:** Creator's page states CC BY 4.0; attribution and licence link are included in the chapter.
+- **Metadata:** 4,500 × 4,500 px; Lambert Azimuthal Equal Area; NASA SRTM3 topography, GEBCO 2019 bathymetry and Natural Earth rivers/lakes.
+- **Use:** External image used unchanged, with bilingual key for Mississippi–Missouri, Mackenzie, St Lawrence, Colorado and Columbia drainage directions.
+- **Status:** INTEGRATED; rights PASS; scientific and live remote-image/accessibility QA PENDING; not VERIFIED.
+
+### Chapter 12-G — Central America and Caribbean relief — 5 November 2026
+
+- **Source:** CIA World Factbook shaded-relief map, 10 February 2021; Wikimedia Commons file page: https://commons.wikimedia.org/wiki/File:Central_America_and_the_Caribbean_Shaded_Relief_Map_No_Text_or_Borders.png
+- **Direct image:** https://upload.wikimedia.org/wikipedia/commons/3/31/Central_America_and_the_Caribbean_Shaded_Relief_Map_No_Text_or_Borders.png
+- **Licence:** Public domain as a US federal government work; source credit recorded.
+- **Metadata:** 2,306 × 1,730 px; Lambert Conformal Conic, standard parallels 7°N and 24°N.
+- **Use:** External relief image used unchanged, with bilingual key for Greater/Lesser Antilles, island arc, Yucatán Channel, Florida Strait, Windward Passage, Mona Passage and Panama Canal. No fabricated labels or boundaries were drawn onto the image.
+- **Status:** INTEGRATED; rights PASS; scientific and live remote-image/accessibility QA PENDING; not VERIFIED.
+
+### Chapter 12-H — South America physical relief — 5 November 2026
+
+- **Source:** Blue Green Atlas, https://bluegreenatlas.com/maps/relief_map_of_south_america.html
+- **Direct image:** https://bluegreenatlas.com/maps/relief_map_of_south_america.jpg
+- **Licence:** Creator's page states CC BY 4.0; attribution and licence link are included in the chapter.
+- **Metadata:** 3,800 × 4,200 px; Albers Equal Area Conic; NASA SRTM3 topography, GEBCO 2019 bathymetry and Natural Earth lakes/rivers.
+- **Use:** External image used unchanged, with bilingual key for the Andes, Amazon and Orinoco basins, Brazilian/Guiana Highlands, Gran Chaco, Pampas, Patagonia and major drainage directions.
+- **Status:** INTEGRATED; rights PASS; scientific and live remote-image/accessibility QA PENDING; not VERIFIED.
+
+### Chapter 12-I — Oceania physical relief and island types — 5 November 2026
+
+- **Source:** Blue Green Atlas, https://bluegreenatlas.com/maps/relief_map_of_oceania.html
+- **Direct image:** https://bluegreenatlas.com/maps/relief_map_of_oceania.jpg
+- **Licence:** Creator's page states CC BY 4.0; attribution and licence link are included in the chapter.
+- **Metadata:** 6,000 × 4,400 px; Lambert Conformal Conic; NASA SRTM3 topography, GEBCO 2019 bathymetry and Natural Earth lakes/rivers.
+- **Use:** External image used unchanged, with bilingual key distinguishing continental landmasses/fragments, volcanic island arcs and coral atolls; the key notes mixed-origin archipelagos.
+- **Status:** INTEGRATED; rights PASS; scientific and live remote-image/accessibility QA PENDING; not VERIFIED.
+
+All four maps are direct external image dependencies, not locally mirrored assets. Their source pages and image URLs were checked; deployed browser/mobile load and responsive behaviour still require testing.

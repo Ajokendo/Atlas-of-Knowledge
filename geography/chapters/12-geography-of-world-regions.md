@@ -231,7 +231,13 @@ Key issues include food and water security, air pollution, urbanisation, climate
 
 Среди вызовов — водный дефицит на западе, деградация почв, лесные пожары, ураганы, социально-территориальное неравенство, жилищная доступность и адаптация инфраструктуры к климатическим изменениям.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-F / IMAGE PLACEHOLDER 12-F]** Карта рельефа и крупнейших водных систем Северной Америки с корректными направлениями стока. / **EN:** Relief and major drainage-system map of North America with verified flow directions.
+![Физический рельеф Северной Америки и основные водосборные направления. / Physical relief of North America and major drainage directions.](https://bluegreenatlas.com/maps/relief_map_of_north_america.jpg)
+
+*12-F. Основа рельефа: Blue Green Atlas, проекция Lambert Azimuthal Equal Area; топография — NASA SRTM3, батиметрия — GEBCO 2019, реки и озёра — Natural Earth. Лицензия CC BY 4.0. / Relief base: Blue Green Atlas, Lambert Azimuthal Equal Area projection; topography — NASA SRTM3, bathymetry — GEBCO 2019, rivers and lakes — Natural Earth. CC BY 4.0.*
+
+**Крупные системы и направления стока / Major systems and drainage directions:** Миссисипи–Миссури — на юг к Мексиканскому заливу; Маккензи — на север к Северному Ледовитому океану; Святого Лаврентия — на северо-восток к Атлантике; Колорадо — на юго-запад к Калифорнийскому заливу; Колумбия — на запад к Тихому океану. / Mississippi–Missouri — south to the Gulf of Mexico; Mackenzie — north to the Arctic Ocean; St. Lawrence — northeast to the Atlantic; Colorado — southwest to the Gulf of California; Columbia — west to the Pacific.
+
+*Источник и лицензия / Source and licence: [Blue Green Atlas — North America relief map](https://bluegreenatlas.com/maps/relief_map_of_north_america.html), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Изменение: добавлена двуязычная легенда; исходное изображение не изменялось. / Change: a bilingual teaching key was added; the source image itself was not modified.*
 **Рисунок 12.4 / Figure 12.4 — Рельеф и водные системы Северной Америки / North America's relief and water systems.**  
 
 **Дополнительная карта рельефа / Supplementary relief map**
@@ -278,7 +284,13 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 
 Особое значение имеют уязвимость островных и прибрежных территорий к повышению уровня моря, экстремальным штормам, эрозии побережий, дефициту пресной воды, зависимости от туризма и внешних поставок продовольствия и энергии.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-G / IMAGE PLACEHOLDER 12-G]** Карта Центральноамериканского перешейка и Карибского бассейна с островными дугами, проливами и Панамским каналом. / **EN:** Map of the Central American isthmus and Caribbean Basin showing island arcs, straits and the Panama Canal.
+![Рельеф Центральной Америки и Карибского бассейна, включая Центральноамериканский перешеек и островные дуги. / Relief of Central America and the Caribbean, including the Central American isthmus and island arcs.](https://upload.wikimedia.org/wikipedia/commons/3/31/Central_America_and_the_Caribbean_Shaded_Relief_Map_No_Text_or_Borders.png)
+
+*12-G. Основа: CIA World Factbook, 2021; затенённый рельеф без подписей и государственных границ; проекция Lambert Conformal Conic, стандартные параллели 7° и 24° с. ш. Изображение находится в общественном достоянии США. / Base: CIA World Factbook, 2021; shaded relief without labels or national borders; Lambert Conformal Conic projection, standard parallels 7° and 24° N. The image is in the US public domain.*
+
+**Географические ориентиры / Geographic reference features:** Большие и Малые Антильские острова; Багамы; Малые Антильские острова образуют островную дугу; Юкатанский канал, Флоридский пролив, Наветренный проход, пролив Мона; Панамский канал соединяет Карибское море с Тихим океаном через перешеек. / Greater and Lesser Antilles; The Bahamas; the Lesser Antilles form an island arc; Yucatán Channel, Florida Strait, Windward Passage and Mona Passage; the Panama Canal connects the Caribbean side with the Pacific across the isthmus.
+
+*Источник / Source: [Wikimedia Commons — CIA shaded-relief map](https://commons.wikimedia.org/wiki/File:Central_America_and_the_Caribbean_Shaded_Relief_Map_No_Text_or_Borders.png). Public domain; the bilingual geographic key is an Atlas of Knowledge addition. / Общественное достояние; двуязычная географическая легенда добавлена Atlas of Knowledge.*
 **Рисунок 12.5 / Figure 12.5 — Центральноамериканский перешеек и Карибский бассейн / Central American isthmus and the Caribbean Basin.**  
 Техническое задание: обзорная карта перешейка, Карибского моря, крупных островов и Панамского канала; показать основные морские направления условными стрелками без численных объёмов перевозок.
 
@@ -315,7 +327,13 @@ Important issues include the vulnerability of islands and coastal territories to
 
 Ключевые вопросы — вырубка лесов и деградация экосистем, изменение режима осадков, пожары, загрязнение горнодобывающими отходами, земельное неравенство, урбанизационные проблемы и защита прав местных и коренных народов. Амазония важна для региональных и глобальных климатических и биогеохимических процессов, но её нельзя рассматривать как однородную территорию без внутренних различий.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-H / IMAGE PLACEHOLDER 12-H]** Карта природных регионов Южной Америки с Андами, Амазонией, Бразильским и Гвианским плоскогорьями и Патагонией. / **EN:** Map of South America's natural regions showing the Andes, Amazonia, Brazilian and Guiana Highlands and Patagonia.
+![Физический рельеф Южной Америки: Анды, Амазонская низменность, Бразильское и Гвианское плоскогорья и Патагония. / Physical relief of South America: the Andes, Amazon lowlands, Brazilian and Guiana Highlands, and Patagonia.](https://bluegreenatlas.com/maps/relief_map_of_south_america.jpg)
+
+*12-H. Основа рельефа: Blue Green Atlas, проекция Albers Equal Area Conic; топография — NASA SRTM3, батиметрия — GEBCO 2019, озёра и реки — Natural Earth. Лицензия CC BY 4.0. / Relief base: Blue Green Atlas, Albers Equal Area Conic projection; topography — NASA SRTM3, bathymetry — GEBCO 2019, lakes and rivers — Natural Earth. CC BY 4.0.*
+
+**Главные природные системы / Major physical systems:** Анды вдоль западной окраины; Амазонская низменность и бассейн Амазонки со стоком на восток к Атлантике; Оринокская низменность; Бразильское и Гвианское плоскогорья; Гран-Чако, Пампа и Патагония; бассейн Параны–Парагвая с выходом к эстуарию Ла-Плата. / The Andes along the western margin; the Amazon lowlands and east-flowing Amazon Basin to the Atlantic; the Orinoco lowlands; Brazilian and Guiana Highlands; Gran Chaco, Pampas and Patagonia; the Paraná–Paraguay basin draining toward the Río de la Plata estuary.
+
+*Источник и лицензия / Source and licence: [Blue Green Atlas — South America relief map](https://bluegreenatlas.com/maps/relief_map_of_south_america.html), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Изменение: добавлена двуязычная легенда; исходное изображение не изменялось. / Change: a bilingual teaching key was added; the source image itself was not modified.*
 **Рисунок 12.6 / Figure 12.6 — Природные регионы Южной Америки / South America's natural regions.**  
 Техническое задание: показать Анды, Амазонию, Оринокскую низменность, Бразильское и Гвианское плоскогорья, Пампу, Патагонию и Атакаму; отдельно обозначить основные речные бассейны.
 
@@ -352,7 +370,13 @@ Key issues include deforestation and ecosystem degradation, changing rainfall re
 
 Низкие острова и атоллы уязвимы к повышению уровня моря, солёной интрузии, штормовым нагонам и эрозии берегов. Для региона также важны сохранение коралловых рифов, устойчивость рыболовства, доступность пресной воды, транспортная изоляция и защита культурного наследия.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-I / IMAGE PLACEHOLDER 12-I]** Карта Океании с различением континентальных, вулканических и коралловых островов и указанием географических субрегионов. / **EN:** Map of Oceania distinguishing continental, volcanic and coral islands and identifying geographic subregions.
+![Физический рельеф Океании: Австралия, Новая Гвинея, Новая Зеландия и островные группы Тихого океана. / Physical relief of Oceania: Australia, New Guinea, New Zealand and Pacific island groups.](https://bluegreenatlas.com/maps/relief_map_of_oceania.jpg)
+
+*12-I. Основа рельефа: Blue Green Atlas, проекция Lambert Conformal Conic; топография — NASA SRTM3, батиметрия — GEBCO 2019, озёра и реки — Natural Earth. Лицензия CC BY 4.0. / Relief base: Blue Green Atlas, Lambert Conformal Conic projection; topography — NASA SRTM3, bathymetry — GEBCO 2019, lakes and rivers — Natural Earth. CC BY 4.0.*
+
+**Островные типы — обобщение / Island types — generalisation:** Крупные континентальные массивы и фрагменты континентальной коры: Австралия, Новая Гвинея и Новая Зеландия; острова вулканического происхождения и дуги: Вануату, Соломоновы острова и Тонга; коралловые атоллы: Кирибати, Тувалу, Токелау и Маршалловы острова. Отдельные архипелаги имеют смешанное происхождение. / Major continental landmasses and continental fragments: Australia, New Guinea and New Zealand; volcanic islands and arcs: Vanuatu, Solomon Islands and Tonga; coral atolls: Kiribati, Tuvalu, Tokelau and the Marshall Islands. Some archipelagos have mixed origins.
+
+*Источник и лицензия / Source and licence: [Blue Green Atlas — Oceania relief map](https://bluegreenatlas.com/maps/relief_map_of_oceania.html), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Изменение: добавлена двуязычная учебная легенда; исходное изображение не изменялось. / Change: a bilingual teaching key was added; the source image itself was not modified.*
 **Рисунок 12.7 / Figure 12.7 — Океания: островные типы и пространственная удалённость / Oceania: island types and spatial remoteness.**  
 Техническое задание: схема вулканического острова, высокого известнякового острова и кораллового атолла; обзорная карта субрегионов Океании с указанием океанских расстояний и без преувеличения размеров малых островов.
 
