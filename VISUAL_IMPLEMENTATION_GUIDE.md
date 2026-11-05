@@ -67,7 +67,7 @@ Do not choose category C simply because it is faster than checking whether a sui
 
 Check the visual's factual or scientific accuracy, educational suitability, source and rights, language requirements, accessibility, and technical quality. Apply the discipline-specific checks in section 6.
 
-If a required check is incomplete, keep it **PENDING**. Do not mark the asset verified based on appearance, filename, or successful upload alone.
+If a required internal check is incomplete, keep it **PENDING**. Do not mark the asset verified based on appearance, filename, or successful upload alone. The scientific/factual reviewer must be competent and distinct from the creator, but may be an internal project reviewer. External specialist review is an additional assurance level, not a publication prerequisite.
 
 ## 4. Integrate the visual correctly
 
@@ -99,9 +99,11 @@ For each visual, keep the following information aligned between the asset, sourc
 - scientific/factual, rights, language, accessibility, and technical review results;
 - reviewer, date, evidence, current status, and unresolved issues.
 
-Use only the status vocabulary defined in `IMAGE_FIRST_POLICY.md`: `MISSING`, `FOUND`, `LICENSE_CHECK`, `SCIENTIFIC_CHECK`, `ADAPTED`, `INTEGRATED`, `VERIFIED`, and `REJECTED`.
+Use only the lifecycle status vocabulary defined in `IMAGE_FIRST_POLICY.md`: `MISSING`, `FOUND`, `LICENSE_CHECK`, `SCIENTIFIC_CHECK`, `ADAPTED`, `INTEGRATED`, `VERIFIED`, and `REJECTED`.
 
-Use `PASS`, `FAIL`, `PENDING`, or justified `NOT APPLICABLE` for individual audit dimensions. Never change a status to `VERIFIED` until every applicable check has passed and evidence is recorded.
+In reports, describe `VERIFIED` as **INTERNALLY VERIFIED**. Record external specialist review separately; use **EXTERNALLY VERIFIED** only when that independent review has passed and is evidenced. External review is optional and does not block publication of an internally verified visual.
+
+Use `PASS`, `FAIL`, `PENDING`, or justified `NOT APPLICABLE` for individual audit dimensions. Never change a status to `VERIFIED` until every applicable internal check has passed and evidence is recorded.
 
 ## 6. Apply discipline-specific checks
 
@@ -176,7 +178,8 @@ A chapter's visual work is complete only when all applicable items are satisfied
 - [ ] All supported language versions, captions, labels, and alternative text have been checked.
 - [ ] Accessibility and responsive display have been checked.
 - [ ] Automated validation and relevant browser tests pass.
-- [ ] Manual review evidence, reviewer, and date are recorded.
+- [ ] Internal subject-matter review is completed by a competent reviewer distinct from the creator, with evidence, role, and date recorded.
+- [ ] External expert review, if commissioned, is recorded separately; its absence does not block internal verification or publication.
 - [ ] `IMAGE_SOURCES.md` and `IMAGE_AUDIT.md` are up to date.
 - [ ] Image Coverage, Image Verification, and Image Gaps are reported separately.
 
