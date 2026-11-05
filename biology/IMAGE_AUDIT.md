@@ -112,14 +112,14 @@ Full browser/axe/Chromium CI run [41822905607](https://github.com/Ajokendo/Atlas
 
 | Gap | Scope | Required action | Closure evidence |
 |---|---|---|---|
-| Focused final-art visual inspection | Assets with pending notes in `IMAGE_DISPOSITION_REGISTER.md` (33 rows explicitly retain pending visual/morphology/browser notes at this baseline) | Inspect actual rendered asset at desktop and narrow mobile widths; compare with approved scientific brief | Dated pass/fail entry per asset |
+| Focused final-art visual inspection | Assets with pending notes in `IMAGE_DISPOSITION_REGISTER.md` (45 of 53 disposition-register rows contain at least one explicit pending/open note; 33 of 53 brief-review rows contain an explicit pending visual, browser or morphology note) | Inspect actual rendered asset at desktop and narrow mobile widths; compare with approved scientific brief | Dated pass/fail entry per asset |
 | Scientific morphology / scene review | Species-specific and regional wildlife/plant visuals | Verify diagnostic features, locality claims and ecological relationships; keep generic labels where identification is uncertain | Reviewer, evidence/source and decision |
 | Bilingual semantic equivalence | All figures with RU/EN text | Compare caption, alt text, embedded labels, units and scientific names | RU/EN audit result per asset |
 | Live attribution comparison | Third-party photo figures | Compare visible credit/source/licence links with the individual source page and licence terms | Dated rights check per source |
 | Physical-device / assistive technology | 13 pages | Execute the separate manual test plan in the actual environments | Completed test record; never infer from CI |
 | Offline availability | Local images and any future remote assets | Test offline behaviour only if offline support is an intended feature | Explicit result; currently not tested |
 
-The count of 33 is derived from rows that explicitly retain pending visual, morphology or browser-validation notes in the current register. It is a triage count, not a claim that the remaining 20 have passed every manual gate.
+The counts are intentionally separate: 45/53 rows in the disposition register contain at least one explicit pending/open note (including rights and asset-specific QA), while 33/53 rows in the brief-review table contain an explicit pending visual, browser or morphology note. These are triage counts, not pass rates; absence of a note is not a PASS.
 
 ## 8. Status vocabulary and acceptance rule
 
@@ -158,7 +158,7 @@ Report these separately:
 **Current measured values (5 November 2026):**
 
 - **Image Coverage: 100% (53/53).** A scan of the 12 chapter HTML pages found 59 semantic `<figure>` elements in total: 57 figures containing external `<img>` elements and 2 figures containing inline SVG. The 57 image figures have alt attributes and visible captions; all local generated-image targets resolve. The 53/53 value is the number of mapped visual briefs, not the raw number of HTML figure elements.
-- **Image Verification: Pending audit (percentage not yet defensible).** The register still contains 33 rows with explicit pending final visual, morphology or browser-review notes. No 100% verification claim is permitted until every applicable per-asset human check is recorded.
+- **Image Verification: Pending audit (percentage not yet defensible).** The disposition register contains 45/53 rows with at least one explicit pending/open note; the brief-review table contains 33/53 rows with pending visual, browser or morphology notes. No 100% verification claim is permitted until every applicable per-asset human check is recorded.
 - **Image Gaps: 0 confirmed missing required briefs/assets.** This is a production-gap count only; an asset may still require correction or replacement if its pending scientific or visual review fails.
 
 These three measures are deliberately separate. The 53/53 figure count establishes integration coverage, not scientific/legal/bilingual verification.
@@ -362,7 +362,7 @@ The visual pass identified and corrected the following rendered-layout issues:
 
 The latest CI run [41910231926](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41910231926) completed successfully: 13/13 pages at mobile and desktop widths, 30 language-toggle interactions, no uncaught page errors, 19,331 sampled visible text instances with zero below the configured contrast thresholds, and successful page-image decode / inline-SVG geometry checks. Automated axe WCAG checks, keyboard/focus traversal and overflow checks also passed. This is responsive page-render and visible-layout evidence, not a substitute for detailed scientific review of every individual visual element.
 
-**Remaining distinction:** page-render visual QA has now been performed and the identified defects corrected, but Global Image Verification remains **Pending audit**. The remaining visual verification work is asset-specific: confirm fine biological morphology, scientific depiction, photo subject/caption match, and any source-specific caveats at image scale. Independent specialist review and the planned school/device feedback phase are also separate gates; they are not being falsely marked complete here.
+**Remaining distinction:** page-render visual QA has now been performed and the identified defects corrected, but Global Image Verification remains **Pending audit**. The remaining visual verification work is asset-specific: confirm fine biological morphology, scientific depiction, photo subject/caption match, and any source-specific caveats at image scale. External specialist review and school/teacher evaluation are excluded from this project and are not gates. Internal rendered visual, rights and accessibility checks remain separately tracked.
 
 
 ## Documentary-photo preview review — 5 November 2026 (updated)
@@ -385,7 +385,7 @@ A bounded visual review was completed against the individual Wikimedia Commons f
 - The visual inspection used Commons-rendered previews (typically 960 px), not a fresh full-resolution pixel-by-pixel comparison of every committed WebP derivative. It establishes broad scene/caption alignment, not expert species diagnosis or detailed morphology certification.
 - The two Rufous-naped Tit candidates remain excluded because of the previously documented taxonomy metadata conflict; they are not part of the 15-photo accepted denominator.
 
-**Result:** 15/15 accepted documentary-photo previews inspected; no proven broad scene-to-caption mismatch found. No image or chapter content was changed in this pass. Fine species morphology, independent specialist review and the separate school/device feedback phase remain open. Global Image Verification remains **Pending audit**; do not convert preview review into a VERIFIED status for every photograph.
+**Result:** 15/15 accepted documentary-photo previews inspected; no proven broad scene-to-caption mismatch found. No image or chapter content was changed in this pass. Fine species morphology and internal rights/rendered/accessibility checks remain open where specifically recorded. Independent specialist review and school/teacher evaluation are excluded. Global Image Verification remains **Pending audit**; do not convert preview review into a VERIFIED status for every photograph.
 
 
 ## Naryn maral taxonomy label — 5 November 2026
@@ -484,7 +484,7 @@ Asset: `images/generated/flora-batken-aygul-botanical-plate.webp`, displayed at 
 
 **Binary implementation note:** the committed repository derivative is recorded in the disposition register as 320 × 292 px / 7,196 bytes. A higher-resolution 1,199 × 1,312 px WebP working candidate is available in the current working container (353,604 bytes; SHA-256 `6a0d714c30d70856b29bebc699a1cff77e97d502a5ea455560bfa2ddede53b0c`), but it has not been committed to the Biology branch in this operation. Therefore the repository page must continue to use the already committed asset; do not claim that the high-resolution candidate is live.
 
-**Procedure dependency:** `IMAGE_FIRST_POLICY.md v1.2`, `AUTHOR_CREATED_VISUALS_STANDARD.md v1.1` and `VISUAL_IMPLEMENTATION_GUIDE.md` are not present at the root of the inspected `workspace/biology` branch. This record applies the four requested tracking dimensions conservatively, but does not claim a complete clause-by-clause pass of those versioned standards. The standards must be made available to this branch or supplied for an exact stage mapping before the new plate can receive a formal VERIFIED status.
+**Procedure dependency:** `IMAGE_FIRST_POLICY.md v1.2`, `AUTHOR_CREATED_VISUALS_STANDARD.md v1.1` and `VISUAL_IMPLEMENTATION_GUIDE.md` are not present at the root of the inspected `workspace/biology` branch. This record applies the four requested tracking dimensions conservatively, but does not claim a complete clause-by-clause pass of those versioned standards. The named policy files are not present in this branch and are not treated as active governing documents here. The in-branch controls are this audit, `EDITORIAL-AND-SCIENTIFIC-STANDARDS.md`, `IMAGE_SOURCES.md`, `IMAGE_BRIEF_REVIEW.md`, `IMAGE_DISPOSITION_REGISTER.md`, `IMAGE_INSERTION_MAP.md` and the automated checks. No compliance claim is made against absent documents.
 
 
 ## Governing-standard alignment — IMAGE-FIRST v1.2 / AUTHOR-CREATED v1.1 — 5 November 2026
@@ -498,10 +498,10 @@ This section supersedes older policy-version references and any historical wordi
 | Mapped visual briefs produced/integrated | 53/53 (100%) | Production/integration coverage only; denominator is visual briefs, not individual files |
 | Documentary photographs | 15 | Source pages, authors, licence records and manifests are documented across five regional briefs; live caption/source revalidation remains a separate check |
 | Project-created SVG and other artwork | Recorded in the disposition register | Category C must be supported by creation evidence; a project label alone does not prove a named human author or legal rights authority |
-| Explicit pending visual/morphology/browser-review notes | 33 register rows at the recorded baseline | Triage count; it is not proof that the other 20 have passed every gate |
+| Explicit pending/open notes | 45/53 disposition-register rows; 33/53 brief-review rows with visual/browser/morphology notes | Separate triage counts, not verification rates |
 | Full automated Biology workflow | PASS — run [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829), branch head `fb4b581f0cf23e86b8a093280ba0846fc01a345f` | Automated page/link/script and Chromium smoke validation only; not detailed scientific, legal or manual accessibility certification |
 | Internal `VERIFIED` visual units | Not established by the available consolidated register | Do not infer from 53/53 coverage or CI |
-| External specialist verification | Not recorded as completed | Optional additional designation; not a universal release gate |
+| External specialist verification | EXCLUDED | Not a project activity, status, task, gate or metric |
 
 ### Seven-gate disposition
 
@@ -509,9 +509,9 @@ This section supersedes older policy-version references and any historical wordi
 |---|---|---|
 | 1. Identity and provenance | PARTIALLY DOCUMENTED — overall PENDING | The 15 documentary photos have individual source-page and author records; the Aygul supplementary plate has an explicit ChatGPT generation record. Per-asset creation/contributor/rightsholder evidence for all original SVGs and other generated artwork must be reconciled; commit authorship alone is insufficient. |
 | 2. Rights and licence | PARTIALLY DOCUMENTED — overall PENDING | Documentary-photo licences are recorded with source pages and manifests. For original/AI-assisted artwork, legal rightsholder, authority to license and approved asset-level rights basis must be confirmed. The Aygul plate has no third-party source, but its project rights/licensing decision remains PENDING. Unknown rights block public release. |
-| 3. Scientific/factual/morphology review | PARTIALLY DOCUMENTED — overall PENDING | Author-side P1 constraints and scientific audits exist, but not every final rendered asset has a documented PASS from a competent reviewer other than its creator. A qualified internal team reviewer is acceptable; an external specialist is optional. |
+| 3. Scientific/factual/morphology review | PARTIALLY DOCUMENTED — overall PENDING | Author-side source checks and P1 constraints exist, but not every final rendered asset has a documented asset-specific PASS from the project team. No second-person, independent or external sign-off is required. Where morphology cannot be substantiated from published evidence, simplify, qualify or remove the claim. |
 | 4. Language and terminology | PARTIALLY DOCUMENTED — overall PENDING | Bilingual captions/alt text and automated parity checks exist. Manual semantic equivalence, embedded labels, taxonomy, units and captions must be recorded per asset where applicable. |
-| 5. Accessibility and learner usability | PARTIALLY DOCUMENTED — overall PENDING | Automated axe/contrast/keyboard and alt-presence checks provide evidence. Actual assistive-technology, zoom/reflow and physical-device checks remain distinct; complete per-asset acceptance is not evidenced. |
+| 5. Accessibility and learner usability | PARTIALLY DOCUMENTED — overall PENDING | Automated axe/contrast/keyboard and alt-presence checks provide evidence. Project-team assistive-technology, zoom/reflow and physical-device checks remain distinct where the team can perform them; no teacher, learner-panel or outside evaluation is part of this project. |
 | 6. Technical integrity | AUTOMATED SUBSET PASS; FULL GATE PENDING | Run 41968952829 passed the automated workflow. It does not replace focused rendered inspection, manual device/zoom testing or offline tests where applicable. |
 | 7. Integration and final approval | INTEGRATION COVERAGE 53/53; FINAL GATE PENDING | All 53 mapped briefs have a produced/integrated disposition. Final approval requires all applicable internal gates to pass and rights to be cleared; no blanket `VERIFIED` status is inferred. |
 
@@ -690,3 +690,19 @@ The current full-page Chromium screenshot artifact from workflow `42029110697` (
 - **Batken flora / Aygul:** the supplementary botanical illustration is visibly loaded with its bilingual-context caption and is explicitly described as educational artwork, not a documentary specimen or population record. Its internal morphology and project-rights decision remain open; screenshot rendering alone does not close either.
 
 **Result:** the inspected raster groups have no apparent broken-image or blank-media defect in this desktop screenshot, and their visible captions/attribution are present. This is a targeted rendered-page inspection, not a full pixel-by-pixel review of every regional photograph, a mobile-width pass, a legal opinion on licence compatibility, or a biological verification of every plant identification. No blanket `VERIFIED` status or overall Image Verification percentage is inferred. The remaining asset-by-asset queue stays open.
+
+
+## Current QA reconciliation — 5 November 2026
+
+This section supersedes older status summaries and policy references in this file.
+
+- **Branch:** `workspace/biology`; all work remains confined to `biology/`.
+- **Production coverage:** 53/53 mapped visual briefs (100%). This is not an Image Verification score.
+- **SVG source inventory:** 48 original SVG files. A source sweep found a valid SVG root, `viewBox`, closing tag and bilingual `title`/`desc` in all 48; no embedded script, `foreignObject`, external/data URI or embedded raster `image` element was detected.
+- **HTML figure inventory:** 59 semantic figures, 57 with external image elements and 2 with inline SVG. The 57 image figures have alt attributes and visible bilingual captions; local generated-image targets resolve.
+- **Pending-note reconciliation:** 45/53 disposition-register rows have at least one explicit pending/open note; 33/53 brief-review rows have explicit pending visual/browser/morphology notes. Neither count is a pass rate.
+- **Latest full browser workflow before the current regression-test changes:** run [42036806468](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42036806468), commit `79b512de`, passed. Its Chromium suite exercised all 13 Biology pages at 390×844 and 1365×900, image decoding/intrinsic dimensions, visible inline-SVG geometry, horizontal overflow, accessibility and language switching; desktop screenshots were uploaded. A successful automated run is not a substitute for manual pixel-level inspection of every screenshot.
+- **Governance correction:** archived external-review documents are historical records only. No external reviewer, specialist, teacher, school, institution, certification or sign-off is a project task, blocker, metric or acceptance gate. Published sources remain evidence for internal fact-checking.
+- **Current remaining work:** resolve actual internal morphology/source/rights issues; complete screenshot-level visual inspection where screenshots are accessible to the project team; and complete internal accessibility/device checks where feasible. If an image detail cannot be supported, simplify or qualify it rather than inventing certainty.
+
+No blanket `VERIFIED` status or Image Verification percentage is claimed.
