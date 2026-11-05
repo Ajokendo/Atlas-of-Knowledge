@@ -219,9 +219,9 @@ Deindustrialisation is a decline in industry's relative share of employment or o
 
 Продовольственная безопасность включает физическую и экономическую доступность достаточной, безопасной и питательной пищи, её использование организмом и стабильность этих условий во времени. Производство продовольствия в стране само по себе не гарантирует продовольственную безопасность всех домохозяйств.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 11-E / IMAGE PLACEHOLDER 11-E]** Схема географических факторов сельского хозяйства: климат, почвы, рельеф, вода, труд, рынки и транспорт. / **EN:** Diagram of agricultural location factors: climate, soils, relief, water, labour, markets and transport.
-**Рисунок 11.3 / Figure 11.3 — Географические факторы сельского хозяйства / Geographical factors of agriculture.**  
-Техническое задание: ландшафтный профиль с равниной, склонами, водным источником и различными аграрными практиками; подписать влияние рельефа, почвы, климата, орошения и транспортной доступности.
+![Географические факторы сельского хозяйства / Geographical factors of agriculture](../assets/diagrams/11-E-agricultural-location-factors-bilingual.svg)
+
+*Оригинальная учебная схема, не карта конкретного района; факторы взаимодействуют и не имеют универсальных весов. / Original teaching diagram, not a map of a specific area; factors interact and have no universal weights.*
 
 
 Agriculture depends on climate, soils, relief, water resources, seasonality, technology, land tenure, markets and public policy. Its geography includes crop production, livestock, agroforestry, fisheries, and the related storage and processing chains.
