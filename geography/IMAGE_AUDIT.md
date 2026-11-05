@@ -35,7 +35,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 03 | 13 | 13 IDs reported integrated (10 SVGs + 3 sourced images); not verified |
 | 04 | 16 | 16 local bilingual SVGs reported integrated; not verified |
 | 05 | 20 | 17 named visual IDs now have integrated imagery, including 5.18-A; two inventory ID positions remain unaccounted for by name and ID mapping needs reconciliation |
-| 06 | 15 | 1/15 integrated (6.1-A, embedded in both languages); 14 visual needs remain unfilled |
+| 06 | 15 | 2/15 integrated (6-A and 6.1-A, each embedded in both languages); 13 visual needs remain unfilled |
 | 07 | 9 | 0/9 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
 | 08 | 7 | 0/7 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
 | 09 | 7 | 0/7 integrated; all seven in-text visual needs are placeholders, including 09-G |
@@ -299,7 +299,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 05 | 5.16-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual observations-to-forecast SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.17-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-graph exercise embedded in RU/EN; static SVG structure checked. Synthetic data/arithmetic, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.18-A | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Synthetic values and map conventions checked against NOAA: cold front SW of low, warm front east/northeast, symbols point toward movement; isobars at 4 hPa intervals; station pressure codes decode correctly. RU/EN embed and text data table present. Project rights/licence, accessibility and rendered QA remain open. |
-| 06 | 6-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 06 | 6-A | INTEGRATED | PASS | PASS | PASS | PENDING | PENDING | Exact USGS Water Cycle Diagram is Public Domain and reused unchanged with credit; diagram's pools/fluxes and human influences are described in bilingual keys; arrows are identified as qualitative, not measured flow rates. Screen-reader/rendered QA remains open. |
 | 06 | 6-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -551,11 +551,11 @@ The static content review of `chapter-05-climate-diagram-exercise.svg` found tha
 
 ### Confirmed integration gaps — Chapters 06–26 — 5 November 2026
 
-The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **six Markdown image embeds** in this range, representing five integrated visual IDs: 6.1-A (one embed in each language), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks the remaining 205 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
+The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **eight Markdown image embeds** in this range, representing six integrated visual IDs: 6-A and 6.1-A (one embed each in Russian and English), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks the remaining 204 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
 
 | Chapter | Required IDs | Integrated assets confirmed | Missing |
 |---:|---:|---:|---:|
-| 06 | 15 | 1 | 14 |
+| 06 | 15 | 2 | 13 |
 | 07 | 9 | 0 | 9 |
 | 08 | 7 | 0 | 7 |
 | 09 | 7 | 0 | 7 |
@@ -749,3 +749,13 @@ The three bars are treated as nested categories: total global water; all freshwa
 **Result:** scientific/data interpretation PASS for faithful presentation of the cited 1993 estimate; exact-image rights PASS under the USGS Public Domain statement; RU/EN explanatory parity PASS. Alt text and a bilingual key are present, but screen-reader behaviour, contrast at rendered sizes, responsive display and deployed loading remain PENDING.
 
 Source: USGS, [exact image record and detailed description](https://www.usgs.gov/media/images/distribution-water-and-above-earth), [original image file](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png).
+
+### Chapter 06 — Visual 6-A: global water cycle — 5 November 2026
+
+Integrated the exact USGS Water Cycle Diagram (WCD 1) in both Russian and English sections. The USGS media record identifies the exact image as Public Domain; the diagram was created by USGS VizLab with the Water Resources Mission Area Web Communications Branch. The 2022 diagram (image record dated 2023) shows water pools and fluxes across ocean, atmosphere, land, cryosphere and groundwater, as well as human water use and impacts.
+
+The chapter now credits USGS, reuses the image unchanged and provides bilingual keys for the diagram's main pools, fluxes and human-use labels. The caption explicitly states that the schematic is not to scale and that arrows are qualitative directions, not measured annual fluxes. This avoids confusing reservoir stocks with flow rates and keeps the diagram's anthropogenic additions visible.
+
+**Result:** scientific/conceptual fit PASS for the stated teaching purpose; exact-image rights PASS under the USGS Public Domain statement; RU/EN explanatory parity PASS. Screen-reader behaviour, contrast at rendered sizes, responsive display and deployed loading remain PENDING.
+
+Sources: USGS, [exact image record](https://www.usgs.gov/media/images/wcd-1png), [GIP 221 publication and creators](https://pubs.usgs.gov/publication/gip221), [poster PDF and detailed diagram text](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/USGS_WaterCycle_English_PRINT_20221013_508.pdf).
