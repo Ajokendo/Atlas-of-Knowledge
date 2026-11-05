@@ -857,3 +857,62 @@ The project map catalogue was opened and six map items inspected. It materially 
 - **Hydrography map:** listed in the catalogue, but the linked image timed out during retrieval; no content or metadata is inferred from the link alone.
 
 **Decision:** retain these maps as dated historical/methodological references only. Do not embed or adapt them until image-specific reuse rights are confirmed and the source layers are assessed for currency and suitability. Do not treat the river-basin maps as the requested intermontane-valley map. Catalogue: https://nwrmp.water.gov.kg/?lang=en_US&page_id=1165 .
+
+
+## Third tranche — targeted source verification for Chapters 11–20 — 5 November 2026
+
+This tranche verifies selected high-impact methodological and dated claims. It is not a complete claim-by-claim audit of these ten chapters.
+
+### Chapter 11 — Economic Geography
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| UN Statistics Division, ISIC Revision 5 | Verified — official classification record | UNSD's classification record identifies ISIC Rev. 5 as operational and adopted in 2024. Chapter bibliography now links directly to the Rev. 5 record rather than a generic classification landing page. Rev. 4 remains separately identified for legacy series. |
+| UN Statistics Division, System of National Accounts 2025 | Verified — official methodology record | The 2025 SNA was adopted by the UN Statistical Commission at its 56th session in 2025. The chapter now links directly to the dedicated 2025 SNA page and separately to the general SNA page for 2008 and historical editions. This does not establish that every national series has transitioned to the new standard; the chapter correctly requires checking the version used by the national statistical authority and dataset metadata. |
+
+### Chapter 12 — Geography of World Regions
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| UN Statistics Division, M49 geographic regions | Verified — access and relevance | M49 describes statistical geographic regions used in UN publications and databases, with each country or area assigned to one region. It is correctly treated as a statistical grouping rather than a universal physical or cultural regionalisation. |
+| Antarctic Treaty Secretariat, Antarctic Treaty | Verified — official treaty source listed in chapter | Chapter text distinguishes the Treaty Area south of 60° S from the Antarctic continent and the Southern Ocean, and accurately summarises Article IV's preservation of the Parties' positions on territorial claims. |
+
+### Chapter 13 — Ecology and Global Change
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| Planetary Health Check 2026, PIK publication record | Verified — publisher record | The 2026 report was finally published on 21 September 2026; the publisher record confirms seven of nine planetary boundaries breached and increasing pressure across those seven. Chapter bibliography now states the publication date and distinguishes the 2026 assessment from the earlier 2023 and 2025 assessments. Publisher metadata identifies the report as Gold Open Access; the cited CC BY 4.0 condition remains subject to any separate credit line on a reused figure. |
+
+### Chapter 14 — Geographic Information Systems
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| OGC API — Features and OGC API — Maps | Verified — official standards pages | OGC lists both as current API standards and describes their different roles: feature-level access versus styled map output. Chapter wording appropriately retains implementation-specific capability and CRS caveats; a standard's existence does not prove that a particular national service implements it. |
+
+### Chapter 15 — Remote Sensing of the Earth
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| Copernicus Data Space Ecosystem, Sentinel-1A end-of-operations notice (30 June 2026) | Verified — official operator notice | The notice confirms Sentinel-1A ended operations on 30 June 2026 and Sentinel-1C/1D were fully operational. Chapter's dated constellation statement is supported. Sentinel-1B's 2022 end-of-mission status is retained as a separate historical event. |
+| USGS, Landsat Collection 2 Level-2 products and scale-factor FAQ | Verified — official technical documentation | The surface-reflectance conversion is DN × 0.0000275 − 0.2. The chapter's formula is correct and is now supported by a direct FAQ reference. Product-specific QA layers and scale factors must not be transferred to other collections or sensors. |
+
+### Chapter 19 — Climate and Altitudinal Zonation of Kyrgyzstan
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| Kyrgyzhydromet, Climate Products | Verified — official national source | The official page identifies homogenised monthly temperature and precipitation data from 22 stations for 1980–2021 and reports a countrywide annual temperature trend of +0.28 °C per decade for the stated analysis period. It also presents a separate 13-station climate-index analysis for 1980–2022. The chapter correctly keeps the station counts, periods and variables distinct; neither estimate should be generalised to every elevation belt. |
+
+### Chapter 20 — Glaciers, Rivers, Lakes and Water Resources of Kyrgyzstan
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| National Statistical Committee, “Protection and Rational Use of Water Resources” | Verified — official open-data table and licence | The live table includes 2025 values: abstraction 8,938.4 million m³; groundwater abstraction 326.4 million m³; water consumption 6,224.9 million m³; irrigation/agricultural supply 5,821.1 million m³; wastewater 188.5 million m³. The dataset page states CC BY-NC-SA 4.0 and requires attribution. Chapter bibliography now records the licence and attribution requirement. |
+| Piroton, Emmer and Havenith (2026), EGUsphere preprint | Verified — preprint record | The record reports 2,592 mapped lakes and 77.6 km² for 2024, with a reconstructed 2016–2017 comparison. It remains explicitly labelled a preprint; the chapter correctly warns that inventory thresholds and delineation methods must be compared before treating it as directly interchangeable with other lake inventories. |
+| 2026 *Natural Hazards and Earth System Sciences* Kyrgyz Range lake study | Needs follow-up for full dataset/figure reuse | The chapter scopes the reported 1968–2021 lake and glacier changes to the Kyrgyz Range and does not extrapolate them to all Kyrgyzstan. Any reuse of its maps or figures requires a separate item-specific rights check. |
+
+### Remaining scope for this tranche
+
+- Chapters 16 and 18 still require a focused method/source review before any completion claim.
+- Chapters 17–20 still require remaining national geospatial data, map provenance, glacier/lake geometry, station-level time series, vertical-reference and licence checks described in their chapter-specific audit notes.
+- Chapters 11–16 still have substantial visual-production gaps; the existence of bilingual visual IDs and briefs is not image integration.
+- The targeted source checks above do not establish complete sentence-level citation closure, final bilingual proofreading, scientific approval of visuals or release QA.
