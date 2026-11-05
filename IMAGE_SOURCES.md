@@ -144,8 +144,8 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual labels, captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/magnetism.html, section “Визуальные материалы главы”.
-- Technical review: PENDING — responsive browser run and manual visual inspection not yet recorded.
-- Mobile check: PENDING — awaiting CI after integration.
+- Technical review: PASS — desktop 1440×900 and mobile 390×844 browser checks confirm SVG loading, correct responsive source selection, bilingual captions, meaningful alt text, and zero horizontal overflow. WCAG contrast: FAIL — the page-level axe scan reports `color-contrast` on both Chapter 14 and Chapter 15; exact failing nodes are being isolated and must be corrected before VERIFIED.
+- Mobile check: PASS — 390×844 browser smoke selected the mobile SVG, loaded the asset, confirmed captions/alt text and zero horizontal overflow (run 41985395056).
 
 ### PHY-15-001 — Lenz's law: approaching and receding magnet
 
@@ -179,7 +179,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.1.
-- Mobile check: PENDING — awaiting CI after integration.
+- Mobile check: PASS — 390×844 browser smoke selected the mobile SVG, loaded the asset, confirmed captions/alt text and zero horizontal overflow (run 41985395056).
 
 ### PHY-15-002 — Motional EMF in a moving rod
 
@@ -213,7 +213,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.2.
-- Mobile check: PENDING — awaiting CI after integration.
+- Mobile check: PASS — 390×844 browser smoke selected the mobile SVG, loaded the asset, confirmed captions/alt text and zero horizontal overflow (run 41985395056).
 
 ### PHY-15-003 — Self-induction, RL transient, and LC oscillations
 
@@ -247,7 +247,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.3.
-- Mobile check: PENDING — awaiting CI after integration.
+- Mobile check: PASS — 390×844 browser smoke selected the mobile SVG, loaded the asset, confirmed captions/alt text and zero horizontal overflow (run 41985395056).
 
 ## Visual requirement review
 
