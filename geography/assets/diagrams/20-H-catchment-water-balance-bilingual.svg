@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Водный баланс бассейна / Catchment water balance</title>
+<desc id="desc">Схема упрощённого водного баланса бассейна: осадки поступают в систему, эвапотранспирация возвращает воду в атмосферу, поверхностный и подземный сток покидают бассейн, а снег, ледники, почва и озёра изменяют запасы. / Simplified catchment water balance: precipitation enters the system, evapotranspiration returns water to the atmosphere, surface and groundwater runoff leave the catchment, and snow, glaciers, soil and lakes change storage.</desc>
+<defs><marker id="blue" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#287fa7"/></marker><marker id="green" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#4f8a68"/></marker></defs>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:21px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.box{fill:#f3f8fb;stroke:#648391;stroke-width:2}.in{stroke:#287fa7;stroke-width:7;fill:none;marker-end:url(#blue)}.out{stroke:#4f8a68;stroke-width:7;fill:none;marker-end:url(#green)}</style>
+<rect width="1200" height="700" fill="#fff"/>
+<text x="600" y="52" text-anchor="middle" class="h">Водный баланс водосбора / Catchment water balance</text>
+<path d="M100 500 L220 365 L340 415 L465 260 L610 390 L760 320 L930 445 L1090 500 L1090 570 L100 570Z" fill="#e2e9dc" stroke="#82947d" stroke-width="4"/>
+<path d="M430 280 L465 260 L610 390 L560 410 L480 360Z" fill="#d9edf6" stroke="#5b9ab7" stroke-width="3"/>
+<rect x="370" y="430" width="330" height="90" rx="16" class="box"/><text x="535" y="465" text-anchor="middle" class="t">Запасы / Storage</text><text x="535" y="495" text-anchor="middle" class="s">Snow • glacier • soil • lake</text>
+<path d="M535 145 L535 405" class="in"/><text x="560" y="165" class="t">Осадки / Precipitation (P)</text>
+<path d="M250 430 Q200 300 160 190" class="out"/><text x="55" y="170" class="t">Эвапотранспирация</text><text x="55" y="198" class="s">Evapotranspiration (ET)</text>
+<path d="M710 480 Q880 520 1080 520" class="out"/><text x="850" y="475" class="t">Поверхностный сток / Surface runoff</text>
+<path d="M700 535 Q850 600 1080 600" class="out"/><text x="850" y="645" class="t">Подземный сток / Groundwater runoff</text>
+<rect x="110" y="585" width="540" height="65" rx="12" fill="#f7fafb" stroke="#9aabb3" stroke-width="2"/>
+<text x="380" y="625" text-anchor="middle" class="t">P = ET + Q + ΔS</text>
+<text x="600" y="680" text-anchor="middle" class="s">Упрощённая модель закрытого бассейна; водозаборы и переброски требуют дополнительных членов. / Simplified closed-catchment model; abstractions and transfers require additional terms.</text>
+</svg>
