@@ -102,3 +102,26 @@ This is a confirmed integration inventory, not a scientific, rights, language, a
 
 
 - **5.18-A integration:** created `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg`, a bilingual schematic with synthetic pressure systems, fronts, station plots and climate graphs. It is a teaching exercise, not an operational weather chart. Static SVG structure and bilingual source placement were checked; scientific convention/data review passed. Project rights/licence, accessibility and rendered QA remain pending.
+
+
+## Superseding integration update — Chapters 11–20 — 5 November 2026
+
+The earlier “Chapters 06–26 integration scan” above is a historical snapshot and is superseded for Chapters 11–20 by the verified updates below. Do not continue to quote its 4-integrated / 206-missing result as the current status for those chapters.
+
+| Chapter | Registered IDs | Integrated as of 5 Nov | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 1 (11-A) | 6 |
+| 12 | 10 | 1 (12-A) | 9 |
+| 13 | 11 | 1 (13-A) | 10 |
+| 14 | 9 | 1 (14-A) | 8 |
+| 15 | 11 | 1 (15-A) | 10 |
+| 16 | 9 | 1 (16-A) | 8 |
+| 17 | 9 | 3 (17-C, 17-E, 17-G) | 6 |
+| 18 | 10 | 3 (18-D, 18-H, 18-J) | 7 |
+| 19 | 10 | 2 (19-C, 19-H) | 8 |
+| 20 | 11 | 5 (20-F, 20-H, 20-I, 20-J, 20-K) | 6 |
+| **Total, Chapters 11–20** | **97** | **19** | **78** |
+
+Chapter 20.6.7 additionally embeds one supplementary CC BY 4.0 research figure showing the 2019 glacial-lake distribution in the Kyrgyz and Teskey ranges. It is not counted as one of the 20-A–20-K planned assets. Chapter 12-A's SVG embeds a remote Wikimedia relief map; this is a dependency, not a fully self-contained local map image.
+
+**Important:** the repository-wide headline of 231 unique IDs and chapter-row sum of 283 remain unreconciled. The table above is a scoped count for Chapters 11–20 only and does not resolve the repository-wide inventory. The full source, rights, scientific, accessibility and technical status is in IMAGE_SOURCES.md and IMAGE_AUDIT.md.
