@@ -110,17 +110,17 @@ The earlier “Chapters 06–26 integration scan” above is a historical snapsh
 
 | Chapter | Registered IDs | Integrated as of 5 Nov | Missing |
 |---|---:|---:|---:|
-| 11 | 7 | 1 (11-A) | 6 |
+| 11 | 7 | 2 (11-A, 11-B) | 5 |
 | 12 | 10 | 1 (12-A) | 9 |
-| 13 | 11 | 1 (13-A) | 10 |
-| 14 | 9 | 1 (14-A) | 8 |
-| 15 | 11 | 1 (15-A) | 10 |
-| 16 | 9 | 1 (16-A) | 8 |
+| 13 | 11 | 2 (13-A, 13-C) | 9 |
+| 14 | 9 | 2 (14-A, 14-B) | 7 |
+| 15 | 11 | 2 (15-A, 15-B) | 9 |
+| 16 | 9 | 2 (16-A, 16-B) | 7 |
 | 17 | 9 | 3 (17-C, 17-E, 17-G) | 6 |
-| 18 | 10 | 3 (18-D, 18-H, 18-J) | 7 |
-| 19 | 10 | 2 (19-C, 19-H) | 8 |
+| 18 | 10 | 4 (18-B, 18-D, 18-H, 18-J) | 6 |
+| 19 | 10 | 3 (19-C, 19-D, 19-H) | 7 |
 | 20 | 11 | 5 (20-F, 20-H, 20-I, 20-J, 20-K) | 6 |
-| **Total, Chapters 11–20** | **97** | **19** | **78** |
+| **Total, Chapters 11–20** | **97** | **26** | **71** |
 
 Chapter 20.6.7 additionally embeds one supplementary CC BY 4.0 research figure showing the 2019 glacial-lake distribution in the Kyrgyz and Teskey ranges. It is not counted as one of the 20-A–20-K planned assets. Chapter 12-A's SVG embeds a remote Wikimedia relief map; this is a dependency, not a fully self-contained local map image.
 
