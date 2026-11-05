@@ -768,6 +768,51 @@ if (fs.existsSync(neutralisationSvgPath)) {
   }
 }
 
+
+for (const [file, required] of [
+  ["reaction-schematic.svg", ["M112 150L168 150M224 150L224 100", "M650 150L650 100M762 150L706 150", "atoms are conserved"]],
+  ["reaction-schematic-ru.svg", ["M112 150L168 150M224 150L224 100", "M650 150L650 100M762 150L706 150", "атомы сохраняются"]]
+]) {
+  const fullPath = path.join(assetRoot, file);
+  if (!fs.existsSync(fullPath)) { errors.push("CH-V07: missing reaction schematic " + file); continue; }
+  const svg = fs.readFileSync(fullPath, "utf8");
+  for (const phrase of required) if (!svg.toLowerCase().includes(phrase.toLowerCase())) {
+    errors.push("CH-V07: " + file + " must show conserved atoms and changed bond connectivity: " + phrase);
+  }
+  if (/M168 150L224 150|M762 150L762 100/.test(svg)) {
+    errors.push("CH-V07: " + file + " still contains the old misleading bond topology");
+  }
+}
+for (const file of ["biomolecule-overview.svg", "biomolecule-overview-ru.svg"]) {
+  const fullPath = path.join(assetRoot, file);
+  if (!fs.existsSync(fullPath)) { errors.push("CH-V10: missing biomolecule overview " + file); continue; }
+  const svg = fs.readFileSync(fullPath, "utf8");
+  if (!svg.includes("M100 330 V390 M130 330 V390") ||
+      svg.includes("M95 330 V390 M115 330 V390 M135 330 V390")) {
+    errors.push("CH-V10: " + file + " must depict a phospholipid with two hydrocarbon tails, not three");
+  }
+}
+const functionalGroupsEn = fs.readFileSync(path.join(assetRoot, "organic-functional-groups.svg"), "utf8");
+for (const phrase of ["carbon–carbon double bond", "hydroxyl group", "carboxyl group", "amino group", "aromatic ring"]) {
+  if (!functionalGroupsEn.includes(phrase)) errors.push("CH-V09: English functional-group visual is missing explanatory label: " + phrase);
+}
+const carbonCycleRu = fs.readFileSync(path.join(assetRoot, "carbon-cycle-ru.svg"), "utf8");
+if (!carbonCycleRu.includes("M560 430 V185") ||
+    !carbonCycleRu.includes("Вулканический возврат CO₂")) {
+  errors.push("CH-V11: Russian carbon-cycle visual must show the geological-to-atmosphere volcanic carbon return");
+}
+for (const [file, required] of [
+  ["periodic-trends.svg", ["atomic radius generally increases down and to the left", "first ionisation energy", "electronegativity", "not exception-free rules", "noble gases"]],
+  ["periodic-trends-ru.svg", ["атомный радиус обычно увеличивается вниз и влево", "Энергия первой ионизации", "Электроотрицательность", "Есть исключения", "благородных газов"]]
+]) {
+  const fullPath = path.join(assetRoot, file);
+  if (!fs.existsSync(fullPath)) { errors.push("CH-V12: missing periodic-trends visual " + file); continue; }
+  const svg = fs.readFileSync(fullPath, "utf8");
+  for (const phrase of required) if (!svg.toLowerCase().includes(phrase.toLowerCase())) {
+    errors.push("CH-V12: " + file + " is missing a qualified periodic-trend statement: " + phrase);
+  }
+}
+
 const constantsSource = fs.readFileSync(path.join(root, "chemistry-constants.html"), "utf8");
 for (const [label, evidence] of [
   ["Avogadro constant", "6.022 140 76 × 10²³"],
