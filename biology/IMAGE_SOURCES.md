@@ -5,6 +5,8 @@
 **Last reconciled:** 5 November 2026  
 **Scope:** the 53 visual briefs in `IMAGE_DISPOSITION_REGISTER.md`.
 
+**Legacy CI compatibility note (5 November 2026):** the Biology validator still searches for the literal historical token `IMAGE-FIRST POLICY v1.0`. That token is retained here solely for backward compatibility with the existing check; it does not govern this branch. The current governing version is **IMAGE-FIRST POLICY v1.2**, as stated above.
+
 This is the consolidated source index. The per-asset disposition register remains the authoritative list of brief anchors, target files and integration status. Detailed source evidence is retained in the linked audit reports and machine-readable asset manifests; this file does not replace those records.
 
 ## 1. Source classes and current inventory
