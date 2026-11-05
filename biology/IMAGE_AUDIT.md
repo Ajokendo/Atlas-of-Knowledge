@@ -52,7 +52,7 @@ For every individual asset, confirm the actual rendered image against the releva
 - legends, symbols, colour scales and units;
 - whether the image could imply unsupported abundance, continuous distribution or a false real-world observation.
 
-**Current result:** author-side brief/scientific constraints are documented; this consolidated pass does not claim independent expert validation of all 53 final rendered assets. Rows with pending visual/morphology notes remain open for focused human review.
+**Current result:** internal brief/scientific constraints are documented; this consolidated pass does not claim completed internal acceptance of all 53 final rendered assets. Rows with pending visual/morphology notes remain open for focused project-team review.
 
 ## 4. Legal and provenance audit
 
