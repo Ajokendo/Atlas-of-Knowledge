@@ -180,7 +180,7 @@ async function checkLab(lab, mobile) {
           });
           const sphere = box.getBoundingSphere(new E.THREE.Sphere());
           const center = sphere.center.clone().project(E.camera);
-          return { meshCount, visibleMeshCount, radius: sphere.radius, projectedCenter: [center.x, center.y, center.z] };
+          return { meshCount, visibleMeshCount, groupVisible: group.visible, radius: sphere.radius, projectedCenter: [center.x, center.y, center.z], focusState: E && window.__atlas.focusState() };
         });
         console.log(`KINEMATICS STAFF CAMERA ${JSON.stringify(staffView)}`);
         if (staffView.meshCount < 2 || staffView.visibleMeshCount < 2 || staffView.radius < 1 || Math.abs(staffView.projectedCenter[0]) > 0.55 || Math.abs(staffView.projectedCenter[1]) > 0.55 || staffView.projectedCenter[2] > 1) {
