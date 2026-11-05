@@ -1235,3 +1235,9 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Removed the erroneous red body→LV arrow and connected the pulmonary-vein route to the left atrium.
 - Main SVG correction commit: `6a80db54454f302976851f61aed8add9bb2c3e6b`; audit record: `e5817080db58a372320eb581aace03a6eac5e640`.
 - Refreshed CI/screenshot review is pending. No readiness percentage increase.
+
+
+### Carbon-cycle diagram correction — 5 November 2026
+
+- Removed misleading decomposition→ocean arrow in `ecology-cycles.svg`; added bidirectional atmosphere–ocean CO₂ exchange and labelled the soil return path as soil respiration.
+- SVG commit: `4918192197f60958910b240c480f8d96a54c8465`. CI and refreshed screenshot review pending; readiness percentage unchanged.
