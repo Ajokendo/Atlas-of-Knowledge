@@ -2,7 +2,7 @@
 ## Practical workflow for visual content across Atlas of Knowledge
 
 **Document ID:** AOK-IMG-GUIDE-001  
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** Mandatory implementation guide  
 **Applies to:** Every current and future subject atlas, chapter, language edition, interactive lesson, and visual learning component in Atlas of Knowledge  
 **Governing standard:** `IMAGE_FIRST_POLICY.md` (currently v1.2)  
