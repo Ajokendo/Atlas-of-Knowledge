@@ -317,6 +317,21 @@ For example, to assess access to healthcare facilities, an analyst can create zo
 
 Результаты сетевого анализа зависят от полноты сети, направления движения, правил связности и актуальности атрибутов. Отсутствие дороги в базе не обязательно означает отсутствие реального пути.
 
+
+Network analysis studies movement through connected lines and nodes such as roads, streets, railways, pipelines and other networks.
+
+Common tasks include:
+- finding the shortest or fastest route;
+- analysing accessibility and travel time;
+- defining service areas;
+- locating facilities in relation to demand;
+- modelling flows and bottlenecks; and
+- assessing network connectivity and resilience.
+
+The “shortest” route is not always the “fastest”. A travel-cost model may take account of speed, turn restrictions, congestion, slope, road-surface quality, seasonality and other factors.
+
+Network-analysis results depend on network completeness, travel direction, connectivity rules and the currency of attributes. A road missing from a database does not necessarily mean that no real route exists.
+
 ## 14.10. Анализ растров и пространственное моделирование / Raster Analysis and Spatial Modelling
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 14-G / IMAGE PLACEHOLDER 14-G]** Цифровая модель рельефа и производные карты уклона и экспозиции; указать разрешение и ограничения исходного растра.
@@ -338,6 +353,23 @@ For example, to assess access to healthcare facilities, an analyst can create zo
 Интерполяция оценивает значения между точками наблюдений. Её результат зависит от пространственного распределения измерений, выбранного метода, структуры данных и предположений модели. Интерполированная поверхность не является прямым измерением в каждой ячейке.
 
 При анализе цифровых моделей рельефа следует учитывать разрешение, вертикальную точность, артефакты, заполнение ложных впадин и особенности алгоритма. Производные показатели, например уклон, могут усиливать ошибки исходной модели.
+
+
+Raster analysis is used for continuous fields and spatial models.
+
+Common methods include:
+- classification and reclassification;
+- arithmetic and logical operations on rasters;
+- density analysis;
+- interpolation of measurements;
+- analysis of slope, aspect and terrain curvature from a digital elevation model;
+- hydrological runoff modelling;
+- land-suitability assessment; and
+- change detection in time series.
+
+Interpolation estimates values between observation points. The result depends on the spatial distribution of measurements, the selected method, the data structure and model assumptions. An interpolated surface is not a direct measurement in every cell.
+
+When analysing digital elevation models, consider resolution, vertical accuracy, artefacts, the filling of spurious depressions and the selected algorithm. Derived measures such as slope can amplify errors in the source model.
 
 ## 14.11. Топология и качество пространственных данных / Topology and Spatial Data Quality
 
@@ -364,6 +396,26 @@ For example, to assess access to healthcare facilities, an analyst can create zo
 
 **Точность** и **разрешение** — разные характеристики. Набор данных может иметь высокое пространственное разрешение, но низкую позиционную точность или устаревшие атрибуты.
 
+
+Topology describes spatial relationships among features, including adjacency, connectivity, containment and intersection.
+
+Examples of topology rules include:
+- administrative polygons should not have unintended gaps or overlaps;
+- road-network lines should connect at nodes where movement is allowed;
+- buildings should not cross parcel boundaries when the data model prohibits this; and
+- streams should maintain logical connectivity within the adopted network model.
+
+Spatial-data quality includes:
+- positional accuracy;
+- thematic accuracy;
+- completeness;
+- logical consistency;
+- temporal currency;
+- provenance and traceability; and
+- fitness for the intended task.
+
+**Accuracy** and **resolution** are different characteristics. A dataset may have high spatial resolution but low positional accuracy or outdated attributes.
+
 ## 14.12. Метаданные, стандарты и совместимость / Metadata, Standards and Interoperability
 
 Метаданные описывают содержание, происхождение, качество, структуру, пространственный охват, временной период, лицензию и условия использования данных.
@@ -380,6 +432,22 @@ For example, to assess access to healthcare facilities, an analyst can create zo
 WMS и WFS остаются широко используемыми стандартами, поэтому их необходимо уметь распознавать и документировать. Для новых веб-сервисов OGC рекомендует рассматривать современные OGC API: они используют ресурсно-ориентированную архитектуру и подходы REST/OpenAPI. При этом нельзя считать, что каждый существующий сервер уже поддерживает новые API или что все функции старых сервисов автоматически доступны в любой реализации новых стандартов.
 
 Формат файла и наличие стандартного интерфейса сами по себе не гарантируют качество и совместимость. При обмене данными следует проверять кодировку, CRS, типы геометрии, систему идентификаторов, ограничения атрибутов, реализацию конкретной версии стандарта и лицензию.
+
+
+Metadata describe the content, provenance, quality, structure, spatial extent, time period, licence and conditions of use of a dataset.
+
+Without metadata, a user may not know when or how a layer was created, which coordinate reference system it uses or which tasks it is suitable for.
+
+International standards and specifications support interoperability:
+- the ISO 19100 series of geographic-information standards;
+- Open Geospatial Consortium (OGC) specifications;
+- GeoPackage, GeoTIFF, GeoJSON and other formats;
+- established web map and feature services, WMS and WFS; and
+- modern OGC API — Features for access to geographic features and OGC API — Maps for map images.
+
+WMS and WFS remain widely used and should be recognised and documented. For new web services, OGC recommends considering modern OGC APIs, which use resource-oriented architecture and REST/OpenAPI approaches. However, not every existing server supports the newer APIs, and functions available in older services are not automatically available in every implementation of the new standards.
+
+A file format or standard interface alone does not guarantee quality or interoperability. Data exchange should include checks of character encoding, CRS, geometry types, identifier systems, attribute constraints, the implemented standard version and the licence.
 
 ## 14.13. Картографическая визуализация и дизайн / Cartographic Visualisation and Design
 
@@ -408,6 +476,30 @@ WMS и WFS остаются широко используемыми станда
 Хороплетная карта должна использовать нормированные показатели, например долю или плотность, а не абсолютные величины, если площади территорий и численность населения существенно различаются. Для абсолютных значений могут лучше подходить пропорциональные символы.
 
 Следует избегать ложной точности, чрезмерного числа классов, визуально вводящих в заблуждение цветовых шкал и обрезания важных географических контекстов.
+
+
+A map communicates spatial information; it is not merely a picture of data. Its design should match the purpose, audience and scale.
+
+Key map elements include:
+- a title and statement of purpose;
+- a legend and units of measurement;
+- a scale bar, where appropriate;
+- source and date information;
+- a coordinate grid or orientation features, where needed;
+- a clear hierarchy of labels;
+- a colour scheme that fits the data type; and
+- an explanation of limitations.
+
+The choice of display method depends on the data:
+- qualitative categories — distinct hues or symbols;
+- quantitative values by area — a sequential colour scheme;
+- deviations around a reference value — a diverging scheme;
+- flows — lines or arrows with clear meaning; and
+- density — density maps or aggregated surfaces with the method explained.
+
+A choropleth map should normally use normalised indicators, such as a share or density, rather than absolute totals when areas and populations differ substantially. Proportional symbols may be more appropriate for absolute values.
+
+Avoid false precision, too many classes, visually misleading colour schemes and the removal of important geographic context.
 
 ## 14.14. Веб-ГИС, облачные платформы и открытые данные / Web GIS, Cloud Platforms and Open Data
 
