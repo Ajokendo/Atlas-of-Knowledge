@@ -14,6 +14,19 @@ check('vf² = v0² + 2aΔy', [0.4, 1.3].every(t => near(M.vy(t) ** 2, M.VY0 ** 2
 check('Δy = ½(v0 + vf)t', [0.4, 1.3].every(t => near(M.y(t), 0.5 * (M.VY0 + M.vy(t)) * t)));
 check('Δy = vf·t − ½at²', [0.4, 1.3].every(t => near(M.y(t), M.vy(t) * t - 0.5 * M.ay() * t * t)));
 check('round trip: displacement 0, distance 2H', near(M.y(M.T), 0) && near(M.distance(M.T), 2 * M.H), `${(2 * M.H).toFixed(1)} m`);
+
+const atLanding = M.flight(M.T / M.SLOW);
+const duringRest = M.flight((M.T + 0.1) / M.SLOW);
+const afterCycle = M.flight(M.CYCLE / M.SLOW);
+check('animation clock: exact landing keeps the final flight frame', near(atLanding.t, M.T) && !atLanding.resting);
+check('animation clock: rest interval freezes the ball at ground level', near(duringRest.t, M.T) && duringRest.resting);
+check('animation clock: a new cycle restarts at launch', near(afterCycle.t, 0) && !afterCycle.resting);
+const boatAEnd = M.boatPos(0, M.crossTime(0) + 5);
+const boatBEnd = M.boatPos(M.AIM_UP, M.crossTime(M.AIM_UP) + 5);
+check('river animation: boat positions clamp at opposite bank after crossing', near(boatAEnd[1], M.RIVER.w) && near(boatAEnd[0], M.drift(0)) && near(boatBEnd[1], M.RIVER.w) && near(boatBEnd[0], 0));
+const loopEnd = M.loop(M.RIVER_RUN + 0.1, M.RIVER_RUN, 1.5);
+const loopReset = M.loop(M.RIVER_RUN + 1.5, M.RIVER_RUN, 1.5);
+check('scene loop: pause freezes at the end and cycle wraps to zero', near(loopEnd.t, M.RIVER_RUN) && loopEnd.resting && near(loopReset.t, 0) && !loopReset.resting);
 check('area under v–t = displacement', [0.5, 1.5, 2.0].every(t => near(M.areaUnderV(t), M.y(t))));
 // numeric area check by summation
 const n = 20000; let area = 0; for (let i = 0; i < n; i++) area += M.vy((i + 0.5) * (1.5 / n)) * (1.5 / n);
