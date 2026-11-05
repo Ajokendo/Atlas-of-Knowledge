@@ -654,6 +654,25 @@ For describing current conditions, the latest standard normal (1991–2020) is g
 
 **Учебные данные климатограмм / Climate-graph teaching data:** A — континентальный пример / continental example; B — морской пример / maritime example. Годовая амплитуда температуры: A — 32 °C, B — 14 °C. Годовая сумма осадков: A — 401 мм, B — 886 мм. Эти сочетания иллюстрируют два разных сезонных режима, но сами по себе не определяют климатический тип реального места. / Annual temperature range: A — 32 °C, B — 14 °C. Annual precipitation: A — 401 mm, B — 886 mm. These patterns illustrate different seasonal regimes but do not by themselves classify a real location.
 
+**Таблица исходных данных / Climate-graph data table**
+
+| Месяц / Month | A: T (°C) | A: P (mm) | B: T (°C) | B: P (mm) |
+|---|---:|---:|---:|---:|
+| Янв / Jan | −8 | 18 | 6 | 95 |
+| Фев / Feb | −5 | 20 | 7 | 82 |
+| Мар / Mar | 2 | 28 | 9 | 76 |
+| Апр / Apr | 10 | 40 | 12 | 65 |
+| Май / May | 17 | 55 | 15 | 55 |
+| Июн / Jun | 22 | 65 | 18 | 45 |
+| Июл / Jul | 24 | 48 | 20 | 38 |
+| Авг / Aug | 22 | 32 | 20 | 42 |
+| Сен / Sep | 16 | 28 | 18 | 68 |
+| Окт / Oct | 8 | 25 | 14 | 100 |
+| Ноя / Nov | 0 | 22 | 10 | 112 |
+| Дек / Dec | −6 | 20 | 7 | 108 |
+
+Все значения условные и предназначены для учебных расчётов; это не наблюдения реальных метеостанций. / All values are synthetic and intended for classroom calculations; they are not observations from real weather stations.
+
 ## English-language chapter text
 
 ### Introduction
@@ -1106,6 +1125,25 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 *Original bilingual Atlas of Knowledge teaching schematic. All values are synthetic: the map is not tied to a real place or date and must not be used for forecasting. Isobars are drawn at 4 hPa intervals. In station plots, temperature is at upper left, dew point at lower left and coded pressure at upper right; for example, 142 represents 1014.2 hPa. The wind staff indicates the direction from which the wind blows; speed is not encoded here. In the climate graphs, bars show precipitation (mm) and the line shows temperature (°C). / Оригинальная двуязычная учебная схема Atlas of Knowledge. Все значения синтетические: карта не относится к реальной территории или дате и не предназначена для прогноза. Изобары показаны с интервалом 4 гПа. В станционных моделях температура указана слева сверху, точка росы — слева снизу, код давления — справа сверху; например, 142 соответствует 1014,2 гПа. Линия показывает направление, откуда дует ветер; скорость здесь не кодируется. На климатограммах столбцы показывают осадки (мм), линия — температуру (°C).*
 
 **Climate-graph teaching data:** A — continental example; B — maritime example. Annual temperature range: A — 32 °C, B — 14 °C. Annual precipitation: A — 401 mm, B — 886 mm. These patterns illustrate different seasonal regimes but do not by themselves classify a real location. / **Учебные данные климатограмм:** A — континентальный пример; B — морской пример. Годовая амплитуда температуры: A — 32 °C, B — 14 °C. Годовая сумма осадков: A — 401 мм, B — 886 мм.
+
+**Таблица исходных данных / Climate-graph data table**
+
+| Месяц / Month | A: T (°C) | A: P (mm) | B: T (°C) | B: P (mm) |
+|---|---:|---:|---:|---:|
+| Янв / Jan | −8 | 18 | 6 | 95 |
+| Фев / Feb | −5 | 20 | 7 | 82 |
+| Мар / Mar | 2 | 28 | 9 | 76 |
+| Апр / Apr | 10 | 40 | 12 | 65 |
+| Май / May | 17 | 55 | 15 | 55 |
+| Июн / Jun | 22 | 65 | 18 | 45 |
+| Июл / Jul | 24 | 48 | 20 | 38 |
+| Авг / Aug | 22 | 32 | 20 | 42 |
+| Сен / Sep | 16 | 28 | 18 | 68 |
+| Окт / Oct | 8 | 25 | 14 | 100 |
+| Ноя / Nov | 0 | 22 | 10 | 112 |
+| Дек / Dec | −6 | 20 | 7 | 108 |
+
+Все значения условные и предназначены для учебных расчётов; это не наблюдения реальных метеостанций. / All values are synthetic and intended for classroom calculations; they are not observations from real weather stations.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
