@@ -1,18 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="t d">
-<title id="t">Branches of geography / Направления географии</title>
-<desc id="d">Three overlapping fields: physical geography, human geography, and applied and technical geography; their overlap is integrative geography. / Три пересекающихся направления: физическая география, география человека, прикладная и техническая география; их пересечение образует интегративную географию.</desc>
-<rect width="1500" height="900" fill="#f7fafc"/>
-<text x="750" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#17324d">Branches of geography / Направления географии</text>
-<circle cx="520" cy="420" r="300" fill="#8fc1a2" fill-opacity=".58" stroke="#568b6a" stroke-width="4"/>
-<circle cx="980" cy="420" r="300" fill="#8fb8d6" fill-opacity=".58" stroke="#3979a8" stroke-width="4"/>
-<circle cx="750" cy="610" r="260" fill="#d9b78c" fill-opacity=".55" stroke="#a66b35" stroke-width="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1350" viewBox="0 0 900 1350" role="img" aria-labelledby="title desc">
+<title id="title">Branches of geography / Направления географии</title>
+<desc id="desc">Three overlapping fields represent physical geography, human geography, and applied and technical geography. Their shared area represents integrative geographical work. / Три пересекающихся направления: физическая география, география человека, прикладная и техническая география. Общая область показывает интегративную географическую работу.</desc>
+<rect width="900" height="1350" fill="#f7fafc"/>
 <g font-family="Arial,sans-serif" text-anchor="middle" fill="#17324d">
-<text x="350" y="390" font-size="34" font-weight="700">Physical geography</text><text x="350" y="435" font-size="29">Физическая география</text><text x="350" y="490" font-size="22">Relief • climate • water • ecosystems</text><text x="350" y="523" font-size="22">Рельеф • климат • воды • экосистемы</text>
-<text x="1150" y="390" font-size="34" font-weight="700">Human geography</text><text x="1150" y="435" font-size="29">География человека</text><text x="1150" y="490" font-size="22">Population • cities • economy • culture</text><text x="1150" y="523" font-size="22">Население • города • экономика • культура</text>
-<text x="750" y="760" font-size="32" font-weight="700">Applied &amp; technical geography</text><text x="750" y="800" font-size="27">Прикладная и техническая география</text>
-<text x="750" y="845" font-size="20">GIS • planning • risk assessment / ГИС • планирование • оценка рисков</text>
+<text x="450" y="70" font-size="42" font-weight="700">Branches of geography</text>
+<text x="450" y="118" font-size="38" font-weight="700">Направления географии</text>
+<circle cx="310" cy="455" r="275" fill="#8fc1a2" fill-opacity=".68" stroke="#568b6a" stroke-width="5"/>
+<circle cx="590" cy="455" r="275" fill="#8fb8d6" fill-opacity=".68" stroke="#3979a8" stroke-width="5"/>
+<circle cx="450" cy="760" r="275" fill="#d9b78c" fill-opacity=".68" stroke="#a66b35" stroke-width="5"/>
+<text x="250" y="385" font-size="34" font-weight="700">Physical</text>
+<text x="250" y="430" font-size="34" font-weight="700">geography</text>
+<text x="250" y="480" font-size="30">Физическая</text>
+<text x="250" y="520" font-size="30">география</text>
+<text x="650" y="385" font-size="34" font-weight="700">Human</text>
+<text x="650" y="430" font-size="34" font-weight="700">geography</text>
+<text x="650" y="480" font-size="30">География</text>
+<text x="650" y="520" font-size="30">человека</text>
+<text x="450" y="800" font-size="34" font-weight="700">Applied and technical</text>
+<text x="450" y="845" font-size="34" font-weight="700">geography</text>
+<text x="450" y="895" font-size="30">Прикладная и техническая</text>
+<text x="450" y="935" font-size="30">география</text>
+<rect x="235" y="600" width="430" height="115" rx="22" fill="#ffffff" fill-opacity=".94" stroke="#53677a" stroke-width="4"/>
+<text x="450" y="648" font-size="32" font-weight="700">Integrative geography</text>
+<text x="450" y="690" font-size="30" font-weight="700">Интегративная география</text>
+<text x="450" y="1135" font-size="30">Fields overlap and work together</text>
+<text x="450" y="1180" font-size="30">Направления пересекаются и взаимодействуют</text>
+<text x="450" y="1260" font-size="26" fill="#425466">Adapted from GeogSage (CC BY 4.0); redrawn and translated</text>
+<text x="450" y="1300" font-size="26" fill="#425466">Адаптировано по GeogSage (CC BY 4.0); перерисовано и переведено</text>
 </g>
-<rect x="600" y="430" width="300" height="105" rx="22" fill="#17324d" stroke="#fff" stroke-width="4"/>
-<text x="750" y="475" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#fff">Integrated geography</text><text x="750" y="510" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#fff">Интегративная география</text>
-<text x="750" y="885" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#52697c">Adapted conceptually from GeogSage (2026), CC BY 4.0; redrawn and translated / Концептуально переработано по GeogSage (2026), CC BY 4.0; перерисовано и переведено</text>
 </svg>
