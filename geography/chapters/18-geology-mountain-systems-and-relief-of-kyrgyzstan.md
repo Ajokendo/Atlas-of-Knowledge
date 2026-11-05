@@ -71,8 +71,6 @@ CAIAG also notes that the USSR Glacier Catalogue (1968–1982) and the 1:500,000
 
 Для Центрального Тянь-Шаня в научной литературе часто выделяют Северо-Тянь-Шаньский, Срединно-Тянь-Шаньский и Южно-Тянь-Шаньский террейны. Это тектонические блоки и пояса, сформированные в результате длительной палеозойской эволюции и последующего сближения континентальных фрагментов. Терминология в разных публикациях может различаться; при чтении геологических карт следует пользоваться легендой конкретного источника.
 
-Geographic subdivisions describe landscape position and morphology. Tectonic subdivisions instead distinguish rock assemblages, terranes, sutures, folds and faults. The two systems are related but not interchangeable. Geological maps must therefore be read together with their legends and explanatory notes.
-
 ### 18.2.2. Основные этапы геологической истории
 
 | Этап | Геологические события | Значение для современного рельефа |
@@ -85,8 +83,6 @@ Geographic subdivisions describe landscape position and morphology. Tectonic sub
 | Четвертичный период | Оледенения, речная эрозия, склоновые процессы и накопление рыхлых отложений | Создание значительной части современного микрорельефа и долинных форм |
 
 Палеозойская история Тянь-Шаня связана с развитием и закрытием океанических бассейнов, аккрецией островных дуг и столкновением континентальных блоков. В кайнозое столкновение Индийской и Евразийской плит вызвало перераспределение напряжений далеко к северу от Гималаев. Древние структуры Тянь-Шаня были повторно активизированы, а горные сооружения и межгорные впадины получили современное выражение.
-
-The Paleozoic evolution involved ocean-basin development and closure, arc accretion and terrane collision. During the Cenozoic, the India–Eurasia collision transmitted deformation into the continental interior, reactivating inherited structures and contributing to uplift of the Tien Shan.
 
 ### 18.2.3. Разломы и складчатые структуры
 
@@ -104,6 +100,46 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 - четвертичные рыхлые отложения — аллювий, пролювий, делювий, морены, лёссовидные и озёрные осадки.
 
 Литологический состав влияет на форму склонов, устойчивость пород, развитие карста, характер осыпей и условия залегания подземных вод.
+
+
+
+### English translation — 18.2
+
+#### 18.2.1 Geographic and tectonic regionalisation
+
+Geographic divisions describe the position and morphology of mountain systems: the Northern, Inner, Central and Western Tien Shan, as well as the Pamir-Alay. Geology uses different schemes based on rock age, fold structures, terranes, sutures and major faults. The boundaries of these regions do not always coincide.
+
+For the Central Tien Shan, scientific literature often distinguishes the Northern Tien Shan, Middle Tien Shan and Southern Tien Shan terranes. These are tectonic blocks and belts formed through long Paleozoic evolution and the subsequent convergence of continental fragments. Terminology may differ among publications; geological maps should therefore be interpreted using the legend of the specific source.
+
+#### 18.2.2 Main stages of geological history
+
+| Stage | Geological events | Significance for modern relief |
+|---|---|---|
+| Precambrian | Formation of ancient crystalline basement and continental blocks | Creation of stable basement fragments |
+| Early–Middle Paleozoic | Sedimentation, volcanism, opening and development of ocean basins, formation of island arcs | Formation of rock complexes of different ages |
+| Late Paleozoic | Terrane convergence, closure of ocean basins, folding, thrusting and granitoid magmatism | Formation of the folded and intrusive framework |
+| Mesozoic | Transformation and local denudation of the older mountain structure; sediment accumulation in basins | Formation of planation surfaces and sedimentary sequences |
+| Cenozoic | Reactivation of inherited structures, compression, uplift, faulting and development of intermontane basins | Development of the modern high-mountain Tien Shan |
+| Quaternary | Glaciations, river erosion, slope processes and accumulation of unconsolidated deposits | Formation of much of the present microrelief and valley landforms |
+
+The Paleozoic history of the Tien Shan involved the development and closure of ocean basins, accretion of island arcs and collision of continental blocks. During the Cenozoic, the collision of the Indian and Eurasian plates redistributed stresses far north of the Himalayas. Ancient Tien Shan structures were reactivated, and mountain ranges and intermontane basins acquired much of their modern expression.
+
+#### 18.2.3 Faults and fold structures
+
+The Tien Shan is crossed by a system of major faults. One of the best known is the Talas-Fergana Fault, which trends northwest and separates geological blocks of the Western and Central Tien Shan in some regional schemes. Its history includes substantial horizontal displacement; estimates of total displacement depend on the geological markers selected and on the interpretation of different movement stages.
+
+Thrust and reverse faults associated with horizontal compression are also widespread. Folded sedimentary sequences develop in intermontane basins, while active faults along basin margins may accompany uplift of basin edges and subsidence of individual blocks. Modern deformation is heterogeneous: it is concentrated in particular zones and does not imply that every range is rising at the same rate.
+
+#### 18.2.4 Rock types
+
+Kyrgyzstan contains:
+- metamorphic rocks of ancient basement, including gneiss, schist, quartzite and amphibolite;
+- sedimentary sequences, including limestone, dolomite, sandstone, siltstone, mudstone and conglomerate;
+- volcanic and volcaniclastic rocks;
+- intrusive igneous rocks, including granite, granodiorite and diorite; and
+- Quaternary unconsolidated deposits, including alluvium, proluvium, colluvium, moraines, loess-like deposits and lake sediments.
+
+Lithology influences slope form, rock stability, karst development, scree formation and groundwater conditions.
 
 ## 18.3. Основные горные районы / Major Mountain Regions
 
@@ -157,6 +193,56 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 **Заалайский хребет (Транс-Алай)** формирует северную границу Памира и южную горную стену Алайской долины. На его востоке расположен массив пика Ленина (в Таджикистане — пик Абу Али ибн Сино), одна из наиболее известных вершин региона. В западной части хребта высоты и морфология постепенно меняются.
 
 **Туркестанский хребет** и связанные с ним горные массивы юго-запада имеют выраженные скальные формы, глубокие ущелья и локальные ледниковые участки. Их географическое положение связывает Кыргызстан с горными районами Таджикистана и Узбекистана.
+
+
+
+### English translation — 18.3
+
+#### 18.3.1 Northern Tien Shan
+
+The Northern Tien Shan includes ranges facing the Chu and Talas valleys, as well as mountain massifs around the western and northern parts of the Issyk-Kul Basin. The region combines Paleozoic rocks, granitoid intrusions, folded structures and Cenozoic faults.
+
+The **Kyrgyz Ala-Too** extends south of the Chu Valley and forms a prominent mountain wall above Bishkek and neighbouring districts. Its slopes are deeply dissected by gorges carrying rivers and temporary streams. Upper elevations contain rocky ridges, cirques and small glacial landforms.
+
+The **Talas Ala-Too** forms the southern boundary of the Talas Valley and is an important orographic divide in the north-western part of the country. Its relief combines high ridges, steep slopes and intermontane valleys.
+
+The **Kungey Ala-Too** extends along the northern shore of Issyk-Kul. Its northern slopes face valleys and the Chu Basin, while its southern slopes descend towards the lake basin. Contrasts in slope aspect affect moisture, vegetation, snow conditions and erosion.
+
+#### 18.3.2 Inner and Central Tien Shan
+
+The Inner Tien Shan is a system of high intermontane valleys and ranges located between the outer mountain arcs. The Naryn, Suusamyr, Jumgal and other depressions are important features. High plateaus and broad valleys occur alongside narrow gorges and steep watersheds.
+
+The **Terskey Ala-Too** borders the Issyk-Kul Basin to the south. Its northern slope contains numerous gorges, glacial valleys and catchments feeding rivers that flow into the lake. The southern slope transitions towards the high-mountain interior.
+
+The **Suusamyr-Too**, **Moldo-Too** and **Jumgal-Too** form a complex system of ranges and watersheds in the Inner Tien Shan. Their significance is not determined by elevation alone: they also divide river basins, pasture areas and transport routes.
+
+**Ak-Shyyrak** is a high-mountain massif in the Central Tien Shan, known for glaciers, stony plateaus and the headwaters of major rivers. It is an important area where glacial, fluvial and slope processes interact.
+
+#### 18.3.3 Central Tien Shan
+
+The Central Tien Shan is the highest mountainous part of Kyrgyzstan. It contains major glacial centres, high peaks and massifs, including the Sary-Jaz and Inylchek areas, Kakshaal-Too and ranges surrounding the headwaters of the Naryn and its tributaries.
+
+**Kakshaal-Too** is a major range on the border between Kyrgyzstan and China. Its eastern and central sections include high glaciated peaks. Jengish Chokusu, the highest mountain in Kyrgyzstan, is located in this mountain area.
+
+The **Sary-Jaz area** is characterised by high rocky ridges, glacial valleys and a complex combination of tectonic structures. Large glacier systems are developed here, and the relief is strongly dissected vertically.
+
+#### 18.3.4 Western and Southern Tien Shan
+
+The Western Tien Shan has a more complex mosaic of medium-height ranges, deep river valleys and areas of forest vegetation. The Chatkal, Fergana and other ranges are important features. Geologically, the region includes Paleozoic sedimentary and volcanic sequences, intrusive bodies and later deformation structures.
+
+The **Chatkal Range** lies in the western Tien Shan and is associated with the Chatkal and Pskem river basins. Its slopes are dissected by deep gorges. Altitudinal zonation is expressed through a sequence of valley landscapes, forest belts, subalpine and alpine meadows, and higher rocky and nival areas.
+
+The **Fergana Range** separates the Fergana Valley from the inner Tien Shan. It is an important watershed and influences climatic contrasts between western valleys and higher interior areas.
+
+#### 18.3.5 Pamir-Alay
+
+The southern and south-western part of Kyrgyzstan is associated with the Pamir-Alay mountain system. Its northern foothills and ranges form a transition from the Fergana Valley to the highlands of Alay and the Trans-Alay Range.
+
+The **Alay Range** extends broadly east–west north of the Alay Valley. Its relief includes high ridges, deep valleys and areas shaped by ancient glaciation.
+
+The **Trans-Alay Range** forms the northern boundary of the Pamir and the southern mountain wall of the Alay Valley. The Lenin Peak massif (known in Tajikistan as Abu Ali Ibn Sina Peak) is located in its eastern part and is one of the region's best-known summits. Elevations and landforms gradually change towards the western part of the range.
+
+The **Turkestan Range** and associated mountain massifs in the south-west have pronounced rocky landforms, deep gorges and local glaciated areas. Their geographic position links Kyrgyzstan with the mountain regions of Tajikistan and Uzbekistan.
 
 ## 18.4. Главные хребты: сравнительная орографическая характеристика / Major Ranges: Comparative Orographic Overview
 
