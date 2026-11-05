@@ -747,3 +747,15 @@ Internal review of `anatomy-circulation.svg` found that the label “Pulmonary v
 - identifies systemic venous return in the bilingual explanatory line.
 
 The page caption continues to explain that red/blue indicate relative oxygen content, not literal blood colour. This is a source-level label correction; final page rendering is being rechecked by the current Chromium workflow.
+
+
+## Ecology and botany bilingual-label corrections — 5 November 2026
+
+Source-text review identified four additional embedded-label omissions:
+
+- `ecology-web.svg`: added English translation of the note that the diagram shows main interaction types rather than a complete species list.
+- `botany-anatomy.svg`: added English labels for palisade mesophyll and spongy mesophyll in the leaf cross-section.
+- `botany-transport.svg`: added the missing English heading “Flower and growing organs” above the sink/growth explanation.
+- `botany-flower.svg`: added the English explanation that fertilization occurs later, after the pollen tube grows, and extended the callout background to contain the bilingual text.
+
+These are source-level bilingual corrections. The latest Chromium workflow will recheck page loading, image decoding, visible geometry, accessibility and responsive overflow; detailed pixel-level review remains a separate internal task.
