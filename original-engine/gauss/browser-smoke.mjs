@@ -115,7 +115,7 @@ async function checkInteractiveBook(mobile) {
   try {
     const response = await page.goto(`${base}/original-engine/gauss/`, { waitUntil: 'domcontentloaded', timeout: 15000 });
     if (!response || !response.ok()) throw new Error(`book HTTP ${response?.status() ?? 'missing'}`);
-    await page.waitForSelector('#sheet h1', { timeout: 12000 });
+    await page.waitForSelector('#sheet h1', { timeout: 8000 });
     await page.waitForFunction(() => {
       const canvas = document.querySelector('#gl');
       return canvas && canvas.width > 0 && canvas.height > 0 &&
@@ -151,8 +151,9 @@ async function checkInteractiveBook(mobile) {
     await picker.waitFor({ state: 'visible' });
     if (await picker.locator('option').count() < 2) throw new Error('keyboard scene picker has no selectable objects');
     await picker.focus();
+    // In Chromium, ArrowDown commits a closed native select immediately; a follow-up Enter
+    // refocuses the locator and tests the browser popup rather than the focus handoff.
     await picker.press('ArrowDown');
-    await picker.press('Enter');
     await page.waitForFunction(() => {
       const plate = document.querySelector('#plate');
       return plate && !plate.hidden && !!plate.querySelector('#scene-plate-title');
