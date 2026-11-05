@@ -390,3 +390,8 @@ Visual 18-C is now integrated as a three-photo set: Jengish Chokusu / South Inyl
 | **Total, Chapters 11–20** | **97** | **62** | **35** |
 
 Coverage only. Verification remains separate; external image rendering and accessibility QA are still pending.
+
+
+### Chapter 17 — supplementary regional seismicity figure
+
+A CC BY 4.0 reproduction of Figure 1 from Poggi et al. (2024) was added as regional context. It covers five Central Asian countries plus a 300 km buffer and depicts the input earthquake catalogues used for the HECCA backbone. It is not a Kyrgyzstan-only map and does not show active-fault traces; therefore it is recorded as supplementary and does not increase planned 17-F coverage. The required Kyrgyzstan-specific active-fault/seismicity map remains MISSING pending data-package inspection, filter selection and boundary validation.
