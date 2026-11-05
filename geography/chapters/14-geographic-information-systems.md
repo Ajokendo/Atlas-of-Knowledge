@@ -267,8 +267,9 @@ For service-accessibility analysis, a geocoded address point is not necessarily 
 
 ## 14.8. Пространственные запросы и операции / Spatial Queries and Operations
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-C / IMAGE PLACEHOLDER 14-C]** Наглядные схемы буфера, пересечения, объединения, разности и пространственного соединения.
-> **EN:** Illustrations of buffer, intersection, union, difference and spatial-join operations.
+![Операции пространственного наложения / Spatial overlay operations](../assets/diagrams/14-C-vector-overlay-operations-bilingual.svg)
+
+*Схема логики множеств; фактические результаты зависят от геометрии, CRS и точности исходных данных. / Set-logic diagram; actual outputs depend on geometry, CRS and input-data precision.*
 
 Пространственный анализ отвечает на вопросы о взаимном расположении объектов, расстояниях, пересечениях, соседстве и распределении явлений.
 
