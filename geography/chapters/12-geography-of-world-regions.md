@@ -425,8 +425,9 @@ Global interdependence operates through trade, investment, migration, transport 
 
 ## 12.13. Как пользоваться региональными картами и статистикой / Reading Regional Maps and Statistics
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-D / IMAGE PLACEHOLDER 12-D]** Инфографика проверки региональных данных: границы, дата, классификация, единицы, источник и сопоставимость.
-> **EN:** Regional-data quality checklist covering boundaries, date, classification, units, source and comparability.
+![Проверка качества региональных данных / Regional data quality checks](../assets/diagrams/12-D-regional-data-quality-bilingual.svg)
+
+*Используйте контрольный список до сравнения регионов или построения рейтинга. / Use this checklist before comparing regions or building a ranking.*
 
 При анализе региональных карт необходимо проверять:
 - географический охват и принятую схему регионализации;
