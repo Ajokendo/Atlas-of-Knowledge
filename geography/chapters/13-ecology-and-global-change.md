@@ -849,8 +849,9 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 *Качественные примеры из оценок IPCC; не являются количественным прогнозом или локальной оценкой для Кыргызстана. / Qualitative examples from IPCC assessments; not a quantitative forecast or a local assessment for Kyrgyzstan.*
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-G / IMAGE PLACEHOLDER 13-G]** Схема процессов деградации земель и восстановительных мер: эрозия, засоление, уплотнение, утрата растительного покрова и рекультивация. / **EN:** Diagram of land-degradation processes and restoration measures, including erosion, salinisation, compaction, vegetation loss and rehabilitation.
-**Иллюстрация 13.4 / Figure 13.4 — Деградация земель и восстановление / Land degradation and restoration.**  
+![Процессы деградации земель: эрозия, засоление, уплотнение, утрата покрова и восстановление / Land degradation processes: erosion, salinisation, compaction, cover loss and restoration](../assets/diagrams/13-G-land-degradation-restoration-bilingual.svg)
+
+*Меры выбирают по причине деградации, почве, климату и землепользованию. / Choose measures according to the cause, soil, climate and land use.*
 Сравнение эрозии, засоления, уплотнения и восстановления почвенного покрова. Изображать разные процессы отдельно, не смешивать их визуально.
 
 **Иллюстрация 13.5 / Figure 13.5 — Экологический риск: опасность, подверженность, уязвимость / Environmental risk: hazard, exposure and vulnerability.**  
@@ -860,16 +861,19 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 *Смягчение сокращает источники выбросов или усиливает поглощение; адаптация снижает уязвимость и ущерб. Показатели должны соответствовать местному контексту. / Mitigation reduces emissions sources or increases removals; adaptation reduces vulnerability and harm. Indicators must fit the local context.*
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-I / IMAGE PLACEHOLDER 13-I]** Схема экологического мониторинга: наблюдения, лабораторные анализы, дистанционное зондирование, контроль качества и публикация данных. / **EN:** Environmental-monitoring workflow covering observations, laboratory analysis, remote sensing, quality control and data publication.
-**Иллюстрация 13.7 / Figure 13.7 — Мониторинг окружающей среды / Environmental monitoring.**  
+![Цикл экологического мониторинга: полевые наблюдения, лаборатория, ДЗЗ, QA/QC, анализ и публикация / Environmental monitoring cycle: field observations, laboratory, remote sensing, QA/QC, analysis and publication](../assets/diagrams/13-I-environmental-monitoring-workflow-bilingual.svg)
+
+*Контроль качества и прослеживаемость данных обязательны для надёжных выводов. / Quality control and data traceability are essential for reliable conclusions.*
 Схема объединения полевых измерений, лабораторных данных, спутников, GIS, моделей и общественного мониторинга.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-J / IMAGE PLACEHOLDER 13-J]** Цикл циркулярной экономики с предотвращением отходов, повторным использованием, ремонтом, переработкой и безопасным остаточным обращением. / **EN:** Circular-economy cycle showing waste prevention, reuse, repair, recycling and safe residual management.
-**Иллюстрация 13.8 / Figure 13.8 — Циркулярная экономика / Circular economy.**  
+![Циклы циркулярной экономики: совместное использование, обслуживание, ремонт, повторное использование и переработка / Circular-economy loops: sharing, maintenance, repair, reuse and recycling](../assets/diagrams/13-J-circular-economy-loops-bilingual.svg)
+
+*Сначала сохраняют ценность продукта; переработка — последняя опция. / Retain product value first; recycling is the last option.*
 Схема предотвращения отходов, долговечного дизайна, ремонта, повторного использования и переработки; показать, что приоритетом является сохранение ценности продукции и материалов.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-K / IMAGE PLACEHOLDER 13-K]** Концептуальная схема экологической справедливости: распределение экологических выгод и рисков, участие, доступ к информации и защита уязвимых групп. / **EN:** Conceptual environmental-justice diagram showing distribution of environmental benefits and risks, participation, information access and protection of vulnerable groups.
-**Иллюстрация 13.9 / Figure 13.9 — Экологическая справедливость / Environmental justice.**  
+![Экологическая справедливость: условная карта загрязнения и доступа к зелёным зонам / Environmental justice: illustrative map of pollution and access to green space](../assets/diagrams/13-K-environmental-justice-schematic-bilingual.svg)
+
+*Все районы и данные условные; схема не описывает реальный город. / All districts and data are hypothetical; the diagram does not depict a real city.*
 Карта-схема городской территории с различным доступом к зелёным зонам и неодинаковой нагрузкой загрязнения; использовать условные данные и ясно обозначить их как учебный пример.
 
 ## Научные редакционные примечания / Scientific Editorial Notes
@@ -901,6 +905,11 @@ Consider a fictional settlement beside a river. For this learning example, the e
 14. IPBES. **Conceptual Framework.** Six interlinked elements connecting nature, nature's contributions to people, anthropogenic assets, institutions/indirect drivers, direct drivers and quality of life. https://www.ipbes.net/conceptual-framework
 15. IPCC. (2022). **Climate Change 2022: Impacts, Adaptation and Vulnerability.** Working Group II contribution to the Sixth Assessment Report; observed and projected impacts across ecosystems and human systems. https://www.ipcc.ch/report/ar6/wg2/
 16. OECD. **Effective Results Frameworks for Sustainable Development**, section 8.4: Selecting adequate indicators to measure climate adaptation and resilience. Notes the context-dependent nature of adaptation metrics and the absence of one universally agreed final indicator set. https://www.oecd.org/en/publications/effective-results-frameworks-for-sustainable-development_aaa4bb52-en/full-report/component-13.html
+
+17. United Nations Convention to Combat Desertification (UNCCD). **Land Degradation Neutrality: Conceptual Framework.** Prevention-first response hierarchy: avoid, reduce and reverse land degradation. https://www.unccd.int/land-and-life/land-degradation-neutrality/ldn-conceptual-framework
+18. United States Environmental Protection Agency (US EPA). **Data Quality and Planning; Quality Assurance and Quality Control.** Guidance on sampling plans, laboratory procedures, data quality objectives, validation and traceability. https://www.epa.gov/emergency-response-research/data-quality-and-planning ; https://www.epa.gov/choose-fish-and-shellfish-wisely/quality-assurance-and-quality-control
+19. Ellen MacArthur Foundation. **The Technical Cycle of the Butterfly Diagram.** Guidance on prioritising sharing, maintenance, reuse, refurbishment, remanufacturing and recycling to retain product value. https://www.ellenmacarthurfoundation.org/articles/the-technical-cycle-of-the-butterfly-diagram
+20. University of California, Berkeley, Center for Environmental Public Policy. **Mapping for Environmental Justice.** Example of combining environmental, social and health indicators with community guidance; methodology is US-specific and is not transferred directly to Kyrgyzstan. https://gspp.berkeley.edu/research-and-impact/centers/cepp/projects/mapping-for-environmental-justice
 
 ---
 **Конец главы 13 / End of Chapter 13**
