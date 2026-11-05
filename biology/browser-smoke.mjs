@@ -94,23 +94,21 @@ try {
       const response = await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
       if (!response || !response.ok()) errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
 
-      // Capture one full-page visual-review image per page at desktop width.
-      // Mobile layout remains covered by the responsive browser checks below.
-      if (viewport.width === 1365) {
-        await page.evaluate(async () => {
-          const images = Array.from(document.images);
-          images.forEach(img => { img.loading = "eager"; });
-          await Promise.all(images.map(img => img.decode().catch(() => null)));
-        });
-        const screenshotDir = path.resolve("artifacts/biology-visual-review", String(viewport.width));
-        await mkdir(screenshotDir, { recursive: true });
-        const screenshotName = (file.startsWith("biology/") ? file.slice("biology/".length) : file).replaceAll("/", "__").replace(".html", "") + ".png";
-        await page.screenshot({
-          path: path.join(screenshotDir, screenshotName),
-          fullPage: true,
-          animations: "disabled"
-        });
-      }
+      // Capture a full-page visual-review image at each responsive breakpoint.
+      // Force lazy images to decode before capture so screenshots include all page assets.
+      await page.evaluate(async () => {
+        const images = Array.from(document.images);
+        images.forEach(img => { img.loading = "eager"; });
+        await Promise.all(images.map(img => img.decode().catch(() => null)));
+      });
+      const screenshotDir = path.resolve("artifacts/biology-visual-review", String(viewport.width));
+      await mkdir(screenshotDir, { recursive: true });
+      const screenshotName = (file.startsWith("biology/") ? file.slice("biology/".length) : file).replaceAll("/", "__").replace(".html", "") + ".png";
+      await page.screenshot({
+        path: path.join(screenshotDir, screenshotName),
+        fullPage: true,
+        animations: "disabled"
+      });
 
       await page.addScriptTag({ path: path.resolve("node_modules/axe-core/axe.min.js") });
       const runAxeAudit = async (languageState) => {
