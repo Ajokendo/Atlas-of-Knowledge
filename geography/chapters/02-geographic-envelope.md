@@ -199,7 +199,7 @@
 
 *Автор всех трёх схем / Creator of all three diagrams: Fabio Crameri; версия / version 23 August 2021. Источник / Source: Accessible Science Graphics Collection, s-Ink; Crameri, Shephard & Conrad (2019), “Plate Tectonics”. Лицензия / Licence: CC BY-SA 4.0. Изображения использованы без изменений. / Images used without modification. [Дивергентная / Divergent](https://s-ink.org/divergent-plate-boundary) · [Конвергентная / Convergent](https://s-ink.org/convergent-plate-boundary) · [Трансформная / Transform](https://s-ink.org/transform-plate-boundary) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/4.0/).
 
-*Условные геологические разрезы, не в масштабе. Конвергентная граница может включать субдукцию или столкновение континентальных плит. / Schematic geological cross-sections, not to scale. A convergent boundary may involve subduction or continental collision.*
+*Условные трёхмерные блок-схемы, не в масштабе. Дивергентные границы сопровождаются образованием литосферы, конвергентные — сближением плит и возможной субдукцией, трансформные — боковым смещением. / Conceptual three-dimensional block diagrams, not to scale. Divergent boundaries create lithosphere, convergent boundaries bring plates together and may involve subduction, and transform boundaries accommodate lateral motion.*
 
 ## 2.6. Биосфера: пространство жизни / Biosphere: The Realm of Life
 
@@ -780,7 +780,7 @@ Plate boundaries are not always represented by a single narrow line: broad defor
 
 *Creator of all three diagrams: Fabio Crameri; version 23 August 2021. Source: Accessible Science Graphics Collection, s-Ink; Crameri, Shephard & Conrad (2019), “Plate Tectonics”. Licence: CC BY-SA 4.0. Images used without modification. [Divergent](https://s-ink.org/divergent-plate-boundary) · [Convergent](https://s-ink.org/convergent-plate-boundary) · [Transform](https://s-ink.org/transform-plate-boundary) · [Licence](https://creativecommons.org/licenses/by-sa/4.0/).*
 
-*Original schematic geological cross-sections, not to scale. A convergent boundary may involve subduction or continental collision. / Оригинальные условные геологические разрезы, не в масштабе. Конвергентная граница может включать субдукцию или столкновение континентальных плит.*
+*Conceptual three-dimensional block diagrams, not to scale. Divergent boundaries create lithosphere, convergent boundaries bring plates together and may involve subduction, and transform boundaries accommodate lateral motion. / Условные трёхмерные блок-схемы, не в масштабе. Дивергентные границы сопровождаются образованием литосферы, конвергентные — сближением плит и возможной субдукцией, трансформные — боковым смещением.*
 
 ### 2.6. Biosphere: The Realm of Life
 
