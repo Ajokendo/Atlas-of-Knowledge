@@ -110,9 +110,9 @@ for (const [page, item, answer, predicate, label] of conceptualKeys) {
   check(`practice ${page}.${item + 1}: conceptual answer key — ${label}`, q.answer === answer && predicate(q.choices[answer]) && typeof q.why === 'string' && q.why.length > 40);
 }
 const solutionPull = PRACTICE[9][1].solution;
-check('practice 9.2: worked solution includes t1, v1, x1 and x(5)', solutionPull.includes(`${f(M.T1)}`) && solutionPull.includes(`${f(M.V1, 1)}`) && solutionPull.includes(`${f(M.X1, 1)}`) && solutionPull.includes(`${f(M.px(5), 1)} м`));
+check('practice 9.2: worked solution includes t1, v1, x1 and x(5)', solutionPull.includes(M.T1.toFixed(2)) && solutionPull.includes(M.V1.toFixed(1)) && solutionPull.includes(M.X1.toFixed(1)) && solutionPull.includes(`${M.px(5).toFixed(1)} м`));
 const solutionCubic = PRACTICE[10][1].solution;
-check('practice 10.2: worked solution includes x(t), return time and return velocity', solutionCubic.includes('√3') && solutionCubic.includes(`${f(Math.sqrt(3))}`) && solutionCubic.includes(`${f(M.cv(Math.sqrt(3)))} м/с`));
+check('practice 10.2: worked solution includes x(t), return time and return velocity', solutionCubic.includes('√3') && solutionCubic.includes(Math.sqrt(3).toFixed(2)) && solutionCubic.includes(`${M.cv(Math.sqrt(3)).toFixed(2)} м/с`));
 // the first number in a choice's text (HTML stripped, − read as minus, a × 10ⁿ read as aEn)
 const pnum = c => { const s = c.replace(/×\s*10<sup>([−-]?\d+)<\/sup>/g, 'e$1').replace(/<[^>]+>/g, ' ').replace(/−/g, '-'); return Number(s.match(/-?\d+(\.\d+)?(e-?\d+)?/)[0]); };
 // keyed choice equals the independent value (to its printed precision), every distractor is > 2 % away
