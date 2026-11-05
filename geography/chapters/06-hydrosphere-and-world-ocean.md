@@ -125,7 +125,9 @@
 
 ## 6.5. Температура, солёность и плотность морской воды / Seawater Temperature, Salinity and Density
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.5-A / IMAGE PLACEHOLDER 6.5-A]** Профили температуры и солёности в тропическом, умеренном и полярном океанических районах. / **EN:** Temperature and salinity profiles for tropical, temperate and polar ocean regions.
+![Качественные вертикальные профили температуры и солёности в субтропическом, умеренном и полярном океанических районах; глубина увеличивается вниз. Кривые иллюстративны, не являются численными измерениями.](../assets/06-5-A-seawater-temperature-salinity-profiles-bilingual.svg)
+
+*Схема показывает обобщённые закономерности, а не универсальные профили: реальные значения зависят от океанического бассейна, сезона, широты и водных масс. В дождливых экваториальных районах поверхностная солёность может быть ниже, чем в субтропических зонах испарительного максимума. / The diagram shows generalized patterns, not universal profiles: actual values depend on ocean basin, season, latitude and water masses. In rainy equatorial regions, surface salinity may be lower than in subtropical evaporation-dominated zones.*
 
 Физические свойства морской воды определяют вертикальную устойчивость океана, перемешивание, циркуляцию и распространение морских организмов.
 
@@ -145,8 +147,6 @@
 
 Плотность морской воды зависит прежде всего от температуры, солёности и давления. Холодная и более солёная вода обычно плотнее тёплой и менее солёной при сопоставимом давлении. Различия плотности участвуют в формировании глубинной циркуляции.
 
-**Место для иллюстрации 6.5-A — Ocean Temperature and Salinity Profiles.** Сопоставить температурный и солёностный профили в тропическом, умеренном и полярном океанических районах.
-**EN production brief:** Compare temperature and salinity profiles for tropical, temperate and polar ocean regions. Identify depth and units, and state that the profiles are illustrative rather than universal.
 
 ## 6.6. Волны, приливы и морские течения / Waves, Tides and Ocean Currents
 
@@ -621,6 +621,10 @@ Major features include:
 Ocean-floor relief is shaped by plate tectonics, volcanism, sedimentation, submarine slope failures and erosional processes.
 
 ### 6.5. Seawater Temperature, Salinity and Density
+
+![Qualitative vertical temperature and salinity profiles for subtropical, temperate and polar ocean regions; depth increases downward. Curves are illustrative, not numerical observations.](../assets/06-5-A-seawater-temperature-salinity-profiles-bilingual.svg)
+
+*The diagram shows generalized patterns, not universal profiles: actual values depend on ocean basin, season, latitude and water masses. In rainy equatorial regions, surface salinity may be lower than in subtropical evaporation-dominated zones.*
 
 The physical properties of seawater influence vertical stability, mixing, circulation and the distribution of marine organisms.
 
