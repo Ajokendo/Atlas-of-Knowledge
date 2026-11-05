@@ -750,3 +750,8 @@ The chapter-level audit records were added to each source chapter. Findings and 
 | USGS Landsat Collection 2 Level-2 Surface Reflectance | Verified — official product documentation | Chapter 15 now gives the Collection 2 Level-2 surface-reflectance scaling formula (SR = DN × 0.0000275 − 0.2) and requires use of product/sensor-specific quality bands. The text explicitly warns not to transfer scale factors or QA bit interpretations to other sensors or collections. [USGS product guide](https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products) [QA bands](https://www.usgs.gov/landsat-missions/landsat-collection-2-quality-assessment-bands) |
 
 **Chapter 15 corrections saved:** updated Sentinel-1 spacecraft status to the 5 November 2026 snapshot and added a concrete Landsat Collection 2 Level-2 reflectance scaling/QA example in both languages. This is a focused mission/product check; sensor-by-sensor metadata, band mapping, accuracy and complete source-to-claim review remain open.
+
+
+### Chapter 16 — Geographic Research and Cartography: thematic-map terminology correction — 5 November 2026
+
+The Russian terminology in Section 16.11 was aligned with the English method names: “картограмма потоков” was corrected to “карта потоков” (flow map), and “картограмма плотности” to “карта плотности” (density map). This avoids conflating flow/density mapping with a cartogram/choropleth. The correction is terminology-focused; the chapter's broader methodology, statistics and cartographic design review remains open.
