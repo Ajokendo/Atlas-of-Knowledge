@@ -944,3 +944,21 @@ This tranche verifies selected high-impact methodological and dated claims. It i
 - This confirms section-level RU/EN presence, not sentence-by-sentence semantic equivalence, terminology consistency, proofreading or independent translation approval.
 - First-priority visuals integrated in Chapters 11–16: 11-A, 11-B and 11-C; 12-A and 12-B; 13-A and 13-C; 14-A and 14-B; 15-A and 15-B; 16-A and 16-B. Chapters 18–20 now also include 18-B, 18-D, 18-H, 18-J; 19-C, 19-D, 19-H; 20-F, 20-H, 20-I, 20-J and 20-K, plus one supplementary CC BY 4.0 research figure in Chapter 20.6.7. Scoped integration count: 28/97 planned IDs in Chapters 11–20; 69 remain missing.
 - Remaining visual gaps are tracked in IMAGE_AUDIT.md; no original SVG in these tranches is marked VERIFIED because project rights/licence assignment, scientific review and browser/accessibility QA remain open.
+
+
+### Second-pass English translation completeness check — Chapters 11–20 — 5 November 2026
+
+After the initial section-presence check, a stronger word-coverage heuristic was applied to every numbered section in Chapters 11–20. It compared English and Russian word counts and checked for common English function words. The first pass identified several sections where English existed but was only a short summary; those sections have now been expanded.
+
+Expanded translations include:
+- Chapter 11: location factors, agriculture, energy, transport and tourism;
+- Chapter 12: all eight world-region descriptions (Africa, Europe, Asia, North America, Central America and the Caribbean, South America, Oceania and Antarctica);
+- Chapter 13: ecosystems, economic pressures, climate impacts, biodiversity and international environmental frameworks;
+- Chapter 14: GIS components, geometry models, spatial data collection, vector/raster models, analysis, networks, topology, metadata, standards and map design;
+- Chapter 15: remote-sensing platforms, electromagnetic spectrum, spectral signatures, active/passive sensors, resolution, preprocessing, composites, classification, SAR and LiDAR;
+- Chapter 16: research stages, data quality, quantitative/qualitative methods, spatial statistics, projections, visual variables, classification and map design;
+- Chapter 18: geological framework, tectonic history, mountain regions, ranges, peaks, geomorphic processes, hazards, altitudinal belts and mineral resources;
+- Chapter 19: climate setting, circulation, temperature, precipitation, local winds, altitudinal belts, climate change and sectoral impacts;
+- Chapter 20: water balance, glaciers, rivers and basins, river regimes, groundwater, major lakes, reservoirs, transboundary management, glacial-lake hazards, water security and practical activities.
+
+**Result:** no numbered content section in Chapters 11–20 remains flagged by the word-coverage heuristic. The only flagged sections are bilingual glossaries, where paired Russian and English terms are expected rather than full English prose. This is a structural/coverage check, not a semantic translation review; sentence-by-sentence equivalence, terminology consistency and independent proofreading remain open. The readiness rubric therefore awards 18/20 for bilingual development in Chapters 11–20 and withholds two points for those remaining checks.
