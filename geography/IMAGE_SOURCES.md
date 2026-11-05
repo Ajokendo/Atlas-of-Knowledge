@@ -126,11 +126,11 @@ The rights-based replacement matrix is maintained in [CHAPTER_02_VISUAL_REPLACEM
 | Measure | Chapter 01 | Chapter 02 | Total |
 |---|---:|---:|---:|
 | Distinct visual IDs | 5 | 19 | 24 |
-| Unique source/local image assets integrated | 5 | 20 | 25 |
+| Unique source/local image assets integrated | 5 | 22 | 27 |
 | Visual IDs with images embedded in both languages | 5 | 19 | 24 |
 | Remaining visual briefs without an integrated image | 0 | 0 | 0 |
 
-Chapter 01 has 10 Markdown image embeds representing five unique local bilingual SVGs; all five visual IDs appear in both Russian and English sections. Chapter 02 now has 44 Markdown image embeds representing 22 unique assets: 13 remote science images and 9 remaining local bilingual SVGs. The two 2.12-A feedback diagrams replace one unlicensed local SVG. The 2.10-B visual ID intentionally uses two separate source images (nitrogen and phosphorus). Across Chapters 01–02, all 54 image embeds have non-empty bilingual alt text. The 14 remaining local SVGs include a title, description and `role="img"` metadata. Live external-image loading, responsive display, keyboard navigation and screen-reader behavior still require testing in a deployed reader.
+Chapter 01 has 10 Markdown image embeds representing five unique local bilingual SVGs; all five visual IDs appear in both Russian and English sections. Chapter 02 now has 44 Markdown image embeds representing 22 unique assets: 13 remote science images and 9 remaining local bilingual SVGs. The two 2.12-A feedback diagrams and two language-specific 2.5-A plate-boundary images replace two unlicensed local SVGs. The 2.10-B visual ID intentionally uses two separate source images (nitrogen and phosphorus). Across Chapters 01–02, all 54 image embeds have non-empty bilingual alt text. The 14 remaining local SVGs include a title, description and `role="img"` metadata. Live external-image loading, responsive display, keyboard navigation and screen-reader behavior still require testing in a deployed reader.
 
 ## Required metadata for every approved asset
 
