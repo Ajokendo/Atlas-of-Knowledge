@@ -83,7 +83,7 @@ The Chüy fauna brief is **Produced** with six licensed local WebP photographs i
 
 The latest full Biology Chromium run available before the current regression-test changes is [42041825012](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42041825012), commit `79b512de`, and it passed. All 13 Biology pages were exercised at 1365×900 and 390×844. The browser workflow checks raster decoding and intrinsic dimensions, visible inline-SVG geometry, horizontal overflow, accessibility and language switching, and uploads desktop full-page screenshots.
 
-This closes the earlier blanket **automated browser-smoke / image-loading** pending notes for the tested branch revision. It does not close detailed human screenshot inspection, species/anatomical morphology, fine label collisions, source-to-image identity or asset-specific rights questions. Those must remain explicitly pending where not yet evidenced. The 33/53 count in this brief-review table is a triage count, not an Image Verification percentage. No asset is marked `VERIFIED` from the automated run alone.
+This closes the earlier blanket **automated browser-smoke / image-loading** pending notes for the tested branch revision. It does not close detailed human screenshot inspection, species/anatomical morphology, fine label collisions, source-to-image identity or asset-specific rights questions. Those must remain explicitly pending where not yet evidenced. The 37/53 count in this brief-review table is a triage count, not an Image Verification percentage. No asset is marked `VERIFIED` from the automated run alone.
 
 
 ## Latest correction and browser-smoke status — 5 November 2026
@@ -91,3 +91,6 @@ This closes the earlier blanket **automated browser-smoke / image-loading** pend
 The latest full Chromium pass is [run 42041825012](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42041825012), commit `670edf0f`, success. All 13 Biology pages were exercised at 390×844 and 1365×900; 26 full-page screenshots were uploaded as `biology-visual-review`. This updates automated browser/image-loading status but does not close manual screenshot-level inspection or asset-specific morphology/source review.
 
 Targeted regression assertions for the corrected bilingual labels were added in commit `670edf0f`. Full workflow `42041825012` passed, including static validation and Chromium tests of all 13 pages at both responsive breakpoints; 26 full-page screenshots were uploaded. No Image Verification percentage is claimed.
+
+
+Triage-count correction — 5 November 2026: the current table has 37/53 rows with explicit pending visual/browser/morphology notes. Four rows were added to the open-note count during the latest botany/ecology label audit. This is not a pass rate.
