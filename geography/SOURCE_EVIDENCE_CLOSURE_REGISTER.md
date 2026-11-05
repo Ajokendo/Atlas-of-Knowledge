@@ -843,3 +843,17 @@ The Russian terminology in Section 16.11 was aligned with the English method nam
 - A State Service announcement dated 17 January 2024 said interactive digital maps were being placed on Kyrgyzmap and a geoinformation/climate-data portal had been created at nsdi.kg. On 5 November 2026, nsdi.kg returned unrelated non-geospatial content and kyrgyzmap.kg could not be confirmed accessible. This is a current access-status observation, not proof of the portals' legal status or permanent unavailability.
 - Chapter 17 now warns readers not to rely on these historical addresses as current official access points until the competent agency confirms a valid endpoint. The current administrative-map visual 17-I remains MISSING; do not substitute a stale classifier or old CIA map.
 - Sources: https://data.gov.kg/ru/dataset/klassifikator-administrativno-territorialnyh-edinic ; https://gosreg.gov.kg/ru/?p=2002 .
+
+
+### Chapter 17 — AF NWRMP map catalogue review — 5 November 2026
+
+The project map catalogue was opened and six map items inspected. It materially improves source discovery but does not yet clear reuse or currency requirements:
+
+- **Digital terrain map:** published image dated 22 March 2017, WGS 84 / UTM Zone 43N, scale 1:6,000,000. It is a rendered map image, not the raw DEM; DEM version, vertical datum/accuracy and reuse licence are not stated in the inspected page.
+- **Administrative division map:** published image dated 22 March 2017, scale 1:3,000,000, WGS 84 / UTM Zone 43N. It predates the 2025 Manas renaming and cannot serve as the current administrative map; image-specific reuse terms are not stated.
+- **Seismic hazard map:** created 13 January 2017, scale 1:3,000,000; source identified as the Ministry of Emergency Situations. It is a historical hazard-zonation map, not an active-fault map or current earthquake catalogue.
+- **Geological formations map:** created 20 June 2017, scale 1:3,000,000; its stated source is a 1988 geological map. It is not a current mineral-district or reserve map.
+- **Main river-basin maps:** five basin maps are listed as 2022 uploads. They show hydrological catchments, not the geomorphological intermontane basins/valleys required by visual 17-D; map-specific scale, source geometry and reuse terms remain unverified.
+- **Hydrography map:** listed in the catalogue, but the linked image timed out during retrieval; no content or metadata is inferred from the link alone.
+
+**Decision:** retain these maps as dated historical/methodological references only. Do not embed or adapt them until image-specific reuse rights are confirmed and the source layers are assessed for currency and suitability. Do not treat the river-basin maps as the requested intermontane-valley map. Catalogue: https://nwrmp.water.gov.kg/?lang=en_US&page_id=1165 .
