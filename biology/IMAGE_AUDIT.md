@@ -816,3 +816,21 @@ No source-level bilingual or conceptual correction was justified in this batch. 
 ### Forelimb digit-count correction — 5 November 2026
 
 Full-resolution inspection of the rendered evolution homology plate found a morphology simplification that was too aggressive: the human, bat and whale forelimbs visibly showed only four digits. Added the fifth digit to the human hand, the short thumb to the bat wing, and the fifth digit to the whale flipper. The accessible SVG description now states the intended contrast: five digits in human/bat/whale and one functional digit in the horse. The Russian and English description text is bilingual. Regression checks require both language statements. Commits: `b4608ed0`, `359f3330`, `048ab123`. The corrected raster rendering must still be checked in the next Chromium artifact.
+
+## Additional internal source review — anatomy, biochemistry, ecology, genetics and fauna schematics — 5 November 2026
+
+Reviewed the embedded titles, descriptions and visible bilingual labels in the following generated SVGs on `workspace/biology`:
+
+- `anatomy-homeostasis.svg`: the negative-feedback sequence is internally coherent in both directions. Increased temperature is linked to skin-vessel dilation and sweating; decreased temperature to vasoconstriction and shivering. The diagram identifies the hypothalamus as control centre and explicitly notes that physiological responses are more complex and interconnected.
+- `anatomy-systems.svg`: the anterior body schematic labels the brain, lungs, heart, digestive tract, kidneys and bladder with their corresponding organ systems. The caption states that the drawing is simplified and not to scale.
+- `biochem-enzyme.svg`: the sequence correctly distinguishes substrate binding, enzyme–substrate complex, transition-state stabilisation, reduced activation energy and product release. It explicitly says the drawing is a process schematic, not a molecular structure.
+- `ecology-cycles.svg`: the carbon and nitrogen cycles are presented as separate simplified models. The nitrogen labels distinguish fixation, nitrification, ammonification, assimilation and denitrification; the note warns that real cycles include additional reservoirs, pathways and microbial processes. The carbon panel identifies ocean–atmosphere exchange and combustion as CO₂ pathways.
+- `genetics-mutations.svg`: the substitution example GCU → GCC is correctly identified as synonymous (both encode alanine); the insertion/deletion examples illustrate downstream reading-frame shifts. The note correctly qualifies that indels in multiples of three usually do not shift the frame. The figure labels the displayed triplets as mRNA codons transcribed from the corresponding DNA variants.
+- `genetics-translation.svg`: the accessible description states the 5′→3′ direction; the visible codon/anticodon pairs AUG/UAC and GGC/CCG are complementary, and the growing polypeptide is distinguished from the mRNA and tRNA.
+- `fauna-freshwater-habitats.svg`: the two panels are explicitly separate habitats (brackish Lake Issyk-Kul and a cold freshwater mountain stream); fish silhouettes are generic and unlabelled, and no species are inferred.
+- `fauna-habitats.svg`: the composite altitude panorama explicitly disclaims being a range map, census or single real landscape.
+- `fauna-herps-habitats.svg`: the amphibian and reptile scenes remain generic, with no unsupported species name or precise locality.
+- `fauna-invertebrates.svg`: the diagram correctly distinguishes insects (three pairs of legs) from spiders (arachnids, four pairs of legs and no antennae); the butterfly is shown with two pairs of wings.
+- `fauna-mammals-habitat-reconstruction.svg`: snow leopard, argali and Siberian ibex are shown in separate habitat scenes; the bilingual description explicitly rejects co-occurrence at one site, range-map and census interpretations.
+
+No source-text correction was justified in this batch. This is a targeted internal review of SVG metadata and embedded labels; it does not close detailed visual legibility, pixel-level layout, source-to-image identity, asset-specific rights, or fine morphology checks. No asset is marked `VERIFIED` solely from this source review.
