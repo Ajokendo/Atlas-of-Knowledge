@@ -50,7 +50,7 @@ Economic geography studies the spatial organisation of economic activity, the lo
 
 В расширенных моделях отдельно выделяют **четвертичный сектор**, связанный с информацией, исследованиями, разработками и высококвалифицированными интеллектуальными услугами, а иногда и **пятеричный сектор**, связанный с высшим управлением и принятием стратегических решений. Эти категории не являются универсальной статистической классификацией.
 
-Международные статистические системы, например Международная стандартная отраслевая классификация всех видов экономической деятельности ООН (ISIC), используют более детальную классификацию видов деятельности. При сравнении стран важно проверять, по какой классификации сгруппированы данные.
+Международная стандартная отраслевая классификация всех видов экономической деятельности ООН (ISIC) обеспечивает более детальное и сопоставимое описание видов деятельности. В 2024 году была принята пятая редакция (ISIC Rev. 5), которая учитывает новые виды экономической деятельности и изменения структуры мировой экономики. Однако многие национальные и международные статистические ряды по-прежнему основаны на ISIC Rev. 4 или национальных классификациях. Поэтому перед сравнением стран и лет необходимо проверить редакцию классификатора и таблицы соответствия: одинаковое название отрасли ещё не гарантирует одинаковый состав деятельности.
 
 Доля сектора в занятости и добавленной стоимости может различаться. Например, автоматизация способна уменьшать долю работников в промышленности при сохранении или росте промышленного выпуска.
 
@@ -87,8 +87,10 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 Необходимо различать:
 - **номинальный ВВП:** оценивается в текущих ценах;
 - **реальный ВВП:** скорректирован на изменение цен, чтобы оценивать динамику объёма производства;
-- **ВВП по паритету покупательной способности (ППС):** пересчитывается с учётом различий в уровнях цен между странами;
+- **ВВП по паритету покупательной способности (ППС):** пересчитывается с помощью коэффициентов ППС, чтобы привести расходы и выпуск к сопоставимому уровню цен. ППС — это способ пространственного пересчёта, а не отдельный тип цен: необходимо уточнять, выражен ли показатель в текущих или постоянных международных долларах и какой год принят за ценовую базу. Рыночный валютный курс сам по себе не устраняет различия в уровнях цен между странами;
 - **валовой национальный доход (ВНД):** учитывает первичные доходы, полученные резидентами, в том числе из-за рубежа, за вычетом соответствующих доходов нерезидентов.
+
+**Добавленная стоимость и ВВП.** Добавленная стоимость показывает, какую новую стоимость создаёт производитель: из стоимости выпуска вычитают стоимость промежуточных товаров и услуг, использованных при производстве. В системе национальных счетов ВВП производственным методом получают суммированием валовой добавленной стоимости всех производителей и добавлением налогов на продукты за вычетом субсидий на продукты. Это предотвращает повторный счёт стоимости сырья и компонентов на последовательных стадиях производства. Поэтому валовую стоимость продаж или экспорта нельзя автоматически считать вкладом предприятия или страны в ВВП.
 
 Дополнительные показатели:
 - производительность труда;
@@ -403,7 +405,7 @@ A common way to describe an economy is to divide it into sectors. The classical 
 
 Extended models sometimes identify a **quaternary sector**, associated with information, research, development and highly skilled knowledge services, and a **quinary sector**, associated with high-level management and strategic decision-making. These categories are not universal statistical classifications.
 
-International statistical systems, such as the UN International Standard Industrial Classification of All Economic Activities (ISIC), use more detailed activity classifications. Comparisons between countries must check how the data have been grouped.
+The UN International Standard Industrial Classification of All Economic Activities (ISIC) provides a more detailed and comparable description of economic activities. The fifth revision (ISIC Rev. 5) was adopted in 2024 to reflect new activities and changes in the structure of the world economy. However, many national and international statistical series still use ISIC Rev. 4 or national classifications. Before comparing countries or years, check the classification revision and any correspondence tables: an identical industry label does not necessarily represent an identical set of activities.
 
 A sector's share of employment may differ from its share of value added. Automation, for example, may reduce industry's share of workers while industrial output is maintained or increases.
 
@@ -416,8 +418,10 @@ GDP per capita is GDP divided by population. It is useful for comparing the aver
 Important distinctions include:
 - **nominal GDP:** measured at current prices;
 - **real GDP:** adjusted for price changes to measure changes in production volume;
-- **GDP at purchasing power parity (PPP):** adjusted for differences in price levels between countries; and
+- **GDP at purchasing power parity (PPP):** converted using PPPs to make output and expenditure comparable at a common price level. PPP is a spatial conversion method, not a separate price concept: specify whether the indicator is in current or constant international dollars and state the price-reference year. A market exchange rate alone does not remove differences in price levels between countries; and
 - **gross national income (GNI):** includes primary income received by residents, including from abroad, less relevant income paid to non-residents.
+
+**Value added and GDP.** Value added measures the new value created by a producer: the value of output minus the value of intermediate goods and services used in production. Under the production approach in the System of National Accounts, GDP is obtained by summing gross value added across producers and adding taxes on products less subsidies on products. This avoids counting the value of raw materials and components repeatedly at successive stages of production. Gross sales or exports therefore cannot automatically be treated as a firm's or country's contribution to GDP.
 
 Additional indicators include labour productivity; employment and unemployment rates; inflation; investment and capital formation; exports and imports; poverty and income inequality; public revenue and expenditure; and the Human Development Index and multidimensional quality-of-life measures.
 
@@ -704,16 +708,17 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. United Nations Statistics Division. **International Standard Industrial Classification of All Economic Activities (ISIC), Rev. 4** (2008). https://digitallibrary.un.org/record/641645
-2. United Nations Statistics Division. **System of National Accounts 2008 (2008 SNA)** and **System of National Accounts 2025 (2025 SNA)**. The 2025 SNA was adopted by the UN Statistical Commission at its 56th session in 2025; the UN Statistics Division's landing page provides the pre-edit text and the 2008 edition. Use the version specified by the national statistical authority and the metadata of each statistical series. https://unstats.un.org/unsd/Nationalaccount/sna.asp
-3. World Bank. **World Development Indicators** — international economic and social data series. https://databank.worldbank.org/source/world-development-indicators
-4. International Monetary Fund. **World Economic Outlook Database** — macroeconomic indicators and forecasts. https://www.imf.org/en/Publications/WEO/weo-database
-5. International Labour Organization. **ILOSTAT** — labour and employment statistics. https://ilostat.ilo.org/data/
-6. Food and Agriculture Organization of the United Nations. **FAOSTAT** — agriculture, food and land-use data. https://www.fao.org/faostat/en/#data
-7. International Energy Agency. **World Energy Outlook** and energy datasets. https://www.iea.org/reports/world-energy-outlook-2025
-8. UN Trade and Development (UNCTAD). **UNCTADstat** — trade, investment and development data. https://unctadstat.unctad.org/
-9. OECD. **Regional Statistics and Regional Development Policy** — regional development data and methods. https://www.oecd.org/en/data/datasets/oecd-regional-statistics.html
-10. Coe, N. M., Kelly, P. F., Yeung, H. W. C. **Economic Geography: A Contemporary Introduction**. Wiley.
+2. United Nations Statistics Division. **International Standard Industrial Classification of All Economic Activities (ISIC), Rev. 5** (adopted 2024). https://unstats.un.org/unsd/classifications/Econ/isic
+3. United Nations Statistics Division. **International Standard Industrial Classification of All Economic Activities (ISIC), Rev. 4** (2008; legacy edition used in many historical statistical series). https://digitallibrary.un.org/record/641645
+4. United Nations Statistics Division. **System of National Accounts 2008 (2008 SNA)** and **System of National Accounts 2025 (2025 SNA)**. The 2025 SNA was adopted by the UN Statistical Commission at its 56th session in 2025; the UN Statistics Division's landing page provides the pre-edit text and the 2008 edition. Use the version specified by the national statistical authority and the metadata of each statistical series. https://unstats.un.org/unsd/Nationalaccount/sna.asp
+4. World Bank. **World Development Indicators** — international economic and social data series. https://databank.worldbank.org/source/world-development-indicators
+5. International Monetary Fund. **World Economic Outlook Database** — macroeconomic indicators and forecasts. https://www.imf.org/en/Publications/WEO/weo-database
+6. International Labour Organization. **ILOSTAT** — labour and employment statistics. https://ilostat.ilo.org/data/
+7. Food and Agriculture Organization of the United Nations. **FAOSTAT** — agriculture, food and land-use data. https://www.fao.org/faostat/en/#data
+8. International Energy Agency. **World Energy Outlook** and energy datasets. https://www.iea.org/reports/world-energy-outlook-2025
+9. UN Trade and Development (UNCTAD). **UNCTADstat** — trade, investment and development data. https://unctadstat.unctad.org/
+10. OECD. **Regional Statistics and Regional Development Policy** — regional development data and methods. https://www.oecd.org/en/data/datasets/oecd-regional-statistics.html
+11. Coe, N. M., Kelly, P. F., Yeung, H. W. C. **Economic Geography: A Contemporary Introduction**. Wiley.
 
 ---
 **Конец главы 11 / End of Chapter 11**
