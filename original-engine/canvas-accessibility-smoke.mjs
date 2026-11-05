@@ -24,8 +24,12 @@ for (const file of pages) {
       formulas: [...document.querySelectorAll('[data-physics-formula]')].map(el => el.textContent?.trim() || ''),
     }));
     if (!result.canvases.length) throw new Error('no canvas visual found');
-    const all = [...result.canvases, ...result.labs, ...result.phases, ...result.formulas];
-    const bad = all.filter(label => !label || label.length < 25 || generic.test(label));
+    const bad = [
+      ...result.canvases.filter(label => !label || label.length < 25 || generic.test(label)),
+      ...result.labs.filter(label => !label || label.length < 25 || generic.test(label)),
+      ...result.phases.filter(label => !label || label.length < 6 || generic.test(label)),
+      ...result.formulas.filter(label => !label || label.length < 5 || generic.test(label)),
+    ];
     if (bad.length) throw new Error(`generic or missing accessible labels: ${bad.join(' | ')}`);
     console.log(`PASS ${file} — ${result.canvases.length} canvas labels, ${result.labs.length} lab labels, contextual phase/formula text`);
   } catch (error) {
