@@ -100,8 +100,9 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 
 ## 17.4. Тянь-Шань и Памиро-Алай: крупные горные системы / Tien Shan and Pamir–Alay: Major Mountain Systems
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-C / IMAGE PLACEHOLDER 17-C]** Региональная схема Тянь-Шаня и Памиро-Алая с сопоставлением физико-географического и тектонического районирования.
-> **EN:** Regional diagram of the Tien Shan and Pamir–Alay comparing physical-geographical and tectonic regionalisation.
+![Сравнение физико-географического и тектонического районирования Тянь-Шаня и Памиро-Алая. Это концептуальная схема, а не карта и не источник точных границ.](../assets/diagrams/17-C-regionalisation-tien-shan-pamir-alay-bilingual.svg)
+
+*Рис. 17-C. Сопоставление двух подходов к районированию; названия и границы зависят от конкретной научной схемы.*
 
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 17-B / IMAGE PLACEHOLDER 17-B]** Физическая карта Тянь-Шаня и Памиро-Алая с основными хребтами, межгорными впадинами и высотной гипсометрией.
@@ -125,7 +126,7 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 
 ### Почему классификации могут различаться
 
-Названия «Северный», «Срединный» и «Южный Тянь-Шань» могут использоваться в физической географии, тектонике и региональной геологии с неодинаковыми границами. В атласе необходимо обозначать, какая именно схема применяется на конкретной карте.
+Названия «Северный», «Срединный» и «Южный Тянь-Шань» могут использоваться в физической географии, тектонике и региональной геологии с неодинаковыми границами. В атласе необходимо обозначать, какая именно схема применяется на конкретной карте [28, 29].
 
 
 The territory of Kyrgyzstan includes parts of several major mountain regions.
@@ -146,7 +147,11 @@ The Pamir–Alay occupies a south-western position within the mountain system of
 
 ### Why classifications may differ
 
-The terms Northern, Central and Southern Tien Shan are used in physical geography, tectonics and regional geology, but their boundaries are not always identical. An atlas map should identify the specific classification scheme being used.
+The terms Northern, Central and Southern Tien Shan are used in physical geography, tectonics and regional geology, but their boundaries are not always identical. An atlas map should identify the specific classification scheme being used [28, 29].
+
+![Comparison of physical-geographical and tectonic regionalisation of the Tien Shan and Pamir–Alay. Conceptual diagram, not a map or source of precise boundaries.](../assets/diagrams/17-C-regionalisation-tien-shan-pamir-alay-bilingual.svg)
+
+*Figure 17-C. Comparison of two regionalisation approaches; names and boundaries depend on the scientific scheme used.*
 
 ## 17.5. Межгорные впадины, долины и плато / Intermontane Basins, Valleys and Plateaus
 
@@ -1011,6 +1016,8 @@ Compare the administrative map of the seven regions with maps of mountain system
 25. Poggi, V. et al. (2024). **Harmonizing seismicity information in Central Asian countries: earthquake catalogue and active faults.** Natural Hazards and Earth System Sciences, 24, 2597–2613. https://doi.org/10.5194/nhess-24-2597-2024 .
 26. Department of Water Management and Melioration of the Kyrgyz Republic, National Water Resources Management Project, Phase 1. **Отчёт по метаданным Информационной Системы по Воде**, Bishkek, June 2018; metadata for the “Republic Boundary” line layer records GCS_WGS_1984 / D_WGS_1984, CAIAG as data source and March 2017 as layer publication date. This is an archival GIS metadata record, not proof of the current legal boundary. https://nwrmp.water.gov.kg/wp-content/uploads/2018/06/%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BC%D0%B5%D1%82%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5.pdf .
 27. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. **Минприроды совместно с Институтом геологии им. М. М. Адышева НАН КР инициирует издание Атласа геологических карт Кыргызстана**, 11 March 2026. Announcement of a planned two-volume Russian- and English-language geological, geophysical and mineral-genetic atlas; publication and reuse status of the maps are not established by the announcement. https://mnr.gov.kg/ky/posts/news/minprirody-iniciiruet-izdanie-atlasa-geologiceskix-kart-kyrgyzstana .
+28. Huangfu, P. et al. (2021). **India–Tarim Lithospheric Mantle Collision Beneath Western Tibet Controls the Cenozoic Building of Tian Shan.** Geophysical Research Letters. https://doi.org/10.1029/2021GL094561 . Regional tectonic map and schematic cross-section; used as a literature reference, not reproduced.
+29. Glorie, S. et al. (2011). **Tectonic history of the Kyrgyz South Tien Shan (Atbashi–Inylchek) suture zone: The role of inherited structures during deformation-propagation.** Tectonics. https://doi.org/10.1029/2011TC002949 . Regional structural map and cross-section; used as a literature reference, not reproduced.
 
 ---
 **Конец главы 17 / End of Chapter 17**
