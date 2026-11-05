@@ -1032,3 +1032,10 @@ After adding a brief bilingual introduction to the key-term glossaries in Chapte
 - UNESCO World Heritage Centre destination guide supports the components of destination supply (attractions, accommodation, transport, food/services, retail and local community) and the need to understand demand and management context.
 - UN Tourism mountain-tourism guidance supports the interaction of mountain landscapes, biodiversity and host communities.
 - The integrated diagram is an original conceptual model; it does not assign numerical carrying capacity, seasonal visitor volumes or local economic multipliers.
+
+
+### Chapter 19-F — seasonal atmospheric circulation — 5 November 2026
+
+- Gerlitz et al. (2018), *Journal of Climate*, identify distinct Central Asian cold-season weather types and their extratropical/tropical drivers; the study supports the role of westerly moisture transport and mid-latitude disturbances.
+- A 2020 *Frontiers in Earth Science* study analyses winter/summer moisture transport and the seasonal influence of westerly versus northerly flow.
+- The diagram is deliberately conceptual and avoids precise circulation frequencies, mapped wind vectors or forecast claims. Local conditions in Kyrgyzstan vary with month, elevation and terrain.
