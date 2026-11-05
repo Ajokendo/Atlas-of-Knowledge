@@ -180,7 +180,7 @@ The chapter embeds these 10 local SVGs in both language sections. The production
 | 3.10-A | `geography/assets/03-10-A-supercontinent-cycle-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
 | 3.11-A | `geography/assets/03-11-A-mineral-resource-lifecycle-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; corrected bilingual control/monitoring label and lifecycle sequence note; introductory scientific sequence and label parity PASS; rights/creator, detailed accessibility and rendered technical checks PENDING |
 | 3.12-A | `geography/assets/03-12-A-geological-hazards-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
-| 3.12-B | `geography/assets/03-12-B-geological-cross-section-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 3.12-B | `geography/assets/03-12-B-geological-cross-section-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; corrected relative-dating caveat: intrusion and fault both cut strata but do not intersect, so their mutual order is undetermined; scientific interpretation PASS for this limitation; rights/creator, detailed accessibility and rendered technical checks PENDING |
 
 ### External images
 
