@@ -131,6 +131,35 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 
 Алайская долина расположена высоко над уровнем моря и окружена крупными хребтами. Климат холоднее, чем в низменной Ферганской долине: лето короткое, зима продолжительная, а ветровые условия могут быть суровыми. На Заалайском хребте климат переходит к условиям высокогорного оледенения.
 
+
+### 19.5.1. Chuy Valley and the northern foothills
+
+The Chuy Valley has hot summers, cold winters and a pronounced seasonal pattern of precipitation. Mountain slopes south of the valley receive different amounts of precipitation and have a cooler climate than the plain. Temperature inversions and episodes of poor air quality may occur in winter.
+
+### 19.5.2. Talas Valley
+
+The Talas Valley is surrounded by mountain ranges that influence atmospheric circulation and the distribution of precipitation. Its climate is moderately continental, with cold winters and warm summers; local conditions depend on the elevation of the valley floor and the openness of mountain passes.
+
+### 19.5.3. Issyk-Kul Basin
+
+Lake Issyk-Kul moderates temperatures in nearby coastal areas, although the effect is not uniform around the entire shoreline. The lake's influence interacts with the topography of the Kungey Ala-Too and Terskey Ala-Too, local winds and contrasts between the northern and southern shores. Temperature and precipitation change markedly from the lakeshore to the mountain slopes.
+
+### 19.5.4. Inner Tien Shan
+
+The high basins and syrts of the Inner Tien Shan have severe winters, short cool summers and large temperature ranges. Very low winter temperatures may occur on some plateaus and in valleys, and the growing season is short. Elevation and distance from wetter peripheral areas add to the climatic severity.
+
+### 19.5.5. Naryn and At-Bashy areas
+
+The high valleys of Naryn and At-Bashy have cold winters and relatively cool summers. Conditions differ substantially between valley floors, slopes and high plateaus. Temperature inversions, valley orientation and snow conditions are important controls.
+
+### 19.5.6. Fergana Valley and south-western Kyrgyzstan
+
+The south-western areas, including the Kyrgyz part of the Fergana Valley, have a warmer climate. Summers are often hot and dry, while many locations have a pronounced winter–spring precipitation maximum. Temperature decreases with elevation, and precipitation increases on some windward slopes.
+
+### 19.5.7. Alay Valley and the Pamir-Alay
+
+The Alay Valley lies at high elevation and is surrounded by major mountain ranges. Its climate is colder than that of the lowland Fergana Valley: summers are short, winters are long, and wind conditions can be severe. The Trans-Alay Range transitions towards conditions of high-mountain glaciation.
+
 ## 19.6. Типы климата и классификация / Climate Types and Classification
 
 Для описания климата применяются разные системы. Классификация Кёппена—Гейгера использует температурные и осадочные критерии и позволяет сопоставлять регионы мира. В Кыргызстане на картах могут выделяться холодные степные и пустынные типы, континентальные и влажные горные разновидности. Границы климатических классов зависят от периода наблюдений и исходного набора данных.
@@ -138,6 +167,13 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 Физико-географическое районирование, в отличие от классификации Кёппена—Гейгера, учитывает рельеф, высотные пояса, сезонность и региональную циркуляцию. Поэтому для школьного и университетского атласа целесообразно показывать обе перспективы: карту климатических типов и карту региональных климатических районов.
 
 Нельзя называть весь юго-запад страны «субтропическим» без оговорки. В некоторых классификациях отдельные низкие районы имеют переходные черты, но большая часть территории относится к климатам умеренных широт, а высокогорья обладают холодными горными и нивальными условиями.
+
+
+Different systems are used to describe climate. The Köppen–Geiger classification uses temperature and precipitation criteria and allows comparisons among world regions. In Kyrgyzstan, maps may identify cold steppe and desert climates, continental types and humid mountain variants. The boundaries of climate classes depend on the observation period and the underlying dataset.
+
+Unlike the Köppen–Geiger classification, physical-geographical regionalisation also considers relief, altitudinal belts, seasonality and regional atmospheric circulation. A school or university atlas should therefore show both perspectives where appropriate: a map of climate types and a map of regional climate areas.
+
+The entire south-west of the country should not be labelled “subtropical” without qualification. Some low-lying areas have transitional features in certain classifications, but most of the country belongs to mid-latitude climates, while high mountains have cold mountain and nival conditions.
 
 ## 19.7. Местные ветры и горно-долинная циркуляция / Local Winds and Mountain–Valley Circulation
 
@@ -200,6 +236,17 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 **Леса и биоразнообразие.** Изменение температурных и влажностных условий может сдвигать границы местообитаний, менять фенологию растений и повышать уязвимость отдельных видов к пожарам, засухам и вредителям.
 
 **Почвы.** Засушливость, интенсивные ливни и изменение растительного покрова влияют на эрозию, засоление и содержание органического вещества.
+
+
+Climate regulates the water balance, vegetation, soil formation, pasture productivity, seasonal river discharge and glacier conditions. In a mountainous country, climate impacts propagate through a chain: changes in temperature and precipitation affect snow and ice, then seasonal runoff, soil moisture, vegetation and economic activity.
+
+**Snow and glaciers.** Warmer conditions can accelerate melting and change the relative contributions of snowmelt and glacier melt to river flow. In the short term, increased melting from some glaciers may temporarily raise runoff. As glacier reserves shrink, however, their contribution during dry seasons and to long-term water supply may decline.
+
+**Pastures.** The timing of the growing season, water availability and the frequency of drought affect pasture productivity. Climate stress combined with excessive grazing pressure can intensify degradation.
+
+**Forests and biodiversity.** Changes in temperature and moisture may shift habitat boundaries, alter plant phenology and increase the vulnerability of some species to fires, drought and pests.
+
+**Soils.** Aridity, intense rainfall and changes in vegetation cover affect erosion, salinisation and soil organic matter.
 
 ## 19.10. Климатические опасности / Climate-Related Hazards
 
@@ -691,6 +738,20 @@ Altitudinal climatic zonation affects water resources, glaciers, pastures, fores
 8. **Карта высотной климатической поясности.** Показать пояса как зоны с изменчивыми границами; добавить оговорку об экспозиции и региональных различиях.
 9. **График наблюдаемого изменения температуры.** Использовать опубликованный временной ряд с указанием базового периода, доверительного интервала и источника. Не смешивать разные наборы данных.
 10. **Инфографика климатических рисков и адаптации.** Связать жару, засухи, экстремальные осадки, снег и ледниковые изменения с сельским хозяйством, водными ресурсами, энергетикой, дорогами и здоровьем населения.
+
+
+**General visual standard:** use the atlas palette of dark navy, white and gold accents. Climate maps and charts must use colour schemes accessible to people with colour-vision deficiencies. Every map must state the data period, source, projection, scale and uncertainty. Add labels and numerical values during vector editing rather than relying on text generated inside an image.
+
+1. **Map of Kyrgyzstan's climatic regions.** Show regional climate areas, major valleys, ranges and elevation belts. Do not conflate physical-geographical regionalisation with the Köppen–Geiger classification.
+2. **Mean annual temperature map.** Use a consistent climate-normal period, such as 1991–2020, and show elevation zones and meteorological stations. State the interpolation method separately.
+3. **Annual precipitation map.** Show orographic contrasts, windward slopes and rain shadows. Do not present interpolated values as direct measurements.
+4. **Climate diagrams for representative stations.** Select stations in the Chuy Valley, Issyk-Kul Basin, Inner Tien Shan, Fergana Valley and high mountains. Use a comparable period for all stations.
+5. **Seasonal atmospheric-circulation diagram.** Show westerly flow, cyclones, continental air incursions and orographic uplift. This is a conceptual diagram, not a synoptic map for a particular day.
+6. **Climate cross-section across a mountain system.** Extend from foothills through middle elevations to the nival-glacial zone; show changes in temperature, precipitation and snow conditions.
+7. **Temperature-inversion diagram.** Compare daytime and nighttime valley conditions, slope-wind directions and the accumulation of cold air.
+8. **Map of altitudinal climate belts.** Show belts as zones with variable boundaries and note the effects of slope aspect and regional differences.
+9. **Observed temperature-change graph.** Use a published time series and state its baseline period, confidence interval and source. Do not combine different datasets.
+10. **Climate-risk and adaptation infographic.** Link heat, drought, extreme precipitation, snow and glacier changes to agriculture, water resources, energy, roads and public health.
 
 ## 19.18. Научные редакционные примечания / Scientific Editorial Notes
 
