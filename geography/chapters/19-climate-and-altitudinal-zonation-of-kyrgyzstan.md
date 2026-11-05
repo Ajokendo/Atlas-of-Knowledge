@@ -472,8 +472,9 @@ Uncertainty is particularly important in mountain regions. Large-scale models ma
 
 ## 19.12. Климат и хозяйственная деятельность / Climate and Human Activities
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-J / IMAGE PLACEHOLDER 19-J]** Инфографика климатических воздействий и адаптации в сельском хозяйстве, энергетике, водоснабжении, транспорте и здравоохранении.
-> **EN:** Infographic linking climate impacts and adaptation in agriculture, energy, water supply, transport and public health.
+![Климатические воздействия и адаптация в Кыргызстане / Climate impacts and adaptation in Kyrgyzstan](../assets/diagrams/19-J-climate-impacts-adaptation-bilingual.svg)
+
+*Примеры мер не являются прогнозами или готовым планом для конкретной области; их нужно адаптировать по локальным рискам. / Measures are examples, not forecasts or a ready-made plan for a specific oblast; they must be adapted to local risks.*
 
 
 **Сельское хозяйство.** Температура и осадки определяют сроки сева, потребность в орошении, риск заморозков, засух и теплового стресса. В горных районах важны микроклиматические различия и продолжительность безморозного периода.
