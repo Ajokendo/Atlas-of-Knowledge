@@ -423,6 +423,6 @@ Every visual audit or implementation checkpoint must report:
 
 ---
 
-**End of IMAGE-FIRST POLICY v1.1**
+**End of IMAGE-FIRST POLICY v1.2**
 
 This policy is a project governance standard. It does not itself grant copyright permission, prove scientific accuracy, or certify any particular visual asset. Those decisions must be evidenced in the relevant subject's source register and audit.
