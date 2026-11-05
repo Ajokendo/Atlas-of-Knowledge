@@ -7,7 +7,7 @@
  <linearGradient id="stream" x2="0" y2="1"><stop stop-color="#9ed5d5"/><stop offset="1" stop-color="#286d7b"/></linearGradient>
  <linearGradient id="rock" x2="0" y2="1"><stop stop-color="#a8a69a"/><stop offset="1" stop-color="#686e6c"/></linearGradient>
  <clipPath id="left"><rect x="0" y="0" width="594" height="675"/></clipPath>
- <clipPath id="right"><rect x="606" y="0" width="594" height="675"/></clipPath>
+ <clipPath id="right"><rect x="0" y="0" width="594" height="675"/></clipPath>
  <g id="fish" fill="#d7e5df" stroke="#315b63" stroke-width="3" stroke-linejoin="round">
   <path d="M0 0 C22 -18 57 -20 82 -3 C91 3 96 8 102 13 C88 16 80 26 72 32 C49 39 19 27 0 10 C-8 7 -12 4 -17 2 C-10 0 -6 -1 0 0Z"/>
   <path d="M78 -2 L103 -18 L99 12 L105 30 L78 17Z"/>
