@@ -61,7 +61,7 @@ The image-first search considered NASA Earth-system imagery, Wikimedia Commons l
 **Inputs and originality:** existing Chapter 01 teaching text, the prior versions of the five SVG files, and the project visual brief/register. 01-A, 01-B, 01-C and 01-E are original conceptual diagrams; they contain no measured data and do not depict real geospatial boundaries or coordinates. 01-C is a project-specific six-stage research model; the National Geographic Geo-Inquiry resource is a related pedagogical reference, not a copied or stage-equivalent diagram.  
 **Source evidence and current revisions:**  
 - 01-A — `geography/assets/diagrams/01-A-geography-spatial-system.svg`; mobile-first revision commit `619743bada61460ba5ee01c2df4b4765f43fb1b3`.  
-- 01-B — `geography/assets/diagrams/01-B-location-place-territory.svg`; revision commit `d0b38825c1d4ed3306a01302d2e5bac218639520`.  
+- 01-B — `geography/assets/diagrams/01-B-location-place-territory.svg`; mobile-first revision commit `d0b38825c1d4ed3306a01302d2e5bac218639520`; title correction commit `e9614a1a327709c43f2228e3b027eccce8f77ceb`.  
 - 01-C — `geography/assets/diagrams/01-C-geographical-research-cycle.svg`; revision commit `e8e3e4b4edc5405e2d64524cf56ddd00c5eff380`.  
 - 01-E — `geography/assets/diagrams/01-E-local-to-global-scales.svg`; revision commit `07a68d38301b75dda1663117745b03e3370f6da1`.  
 The earlier source versions remain traceable in Git history. The full task and design direction are present in the conversation; no separate prompt archive or human approval record has been created.
