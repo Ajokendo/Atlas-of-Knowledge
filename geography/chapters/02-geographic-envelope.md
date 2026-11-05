@@ -792,7 +792,7 @@ Plate boundaries are not always represented by a single narrow line: broad defor
 
 ![Transform boundary: plates slide past one another along a fault](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/TransformPlateBoundary_CrameriEtAl2019.png?resize=1000%2C643&ssl=1)
 
-*Creator of all three diagrams: Fabio Crameri; version 23 August 2021. Source: Accessible Science Graphics Collection, s-Ink; Crameri, Shephard & Conrad (2019), “Plate Tectonics”. Licence: CC BY-SA 4.0. Images used without modification. [Divergent](https://s-ink.org/divergent-plate-boundary) · [Convergent](https://s-ink.org/convergent-plate-boundary) · [Transform](https://s-ink.org/transform-plate-boundary) · [Licence](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Creator of all three diagrams: Fabio Crameri; version 23 August 2021. Source: Accessible Science Graphics Collection, s-Ink; Crameri, Shephard & Conrad (2019), “Plate Tectonics”. Licence: CC BY-SA 4.0. 1000-pixel display renditions served by s-Ink/WordPress are embedded; diagram content was not altered. [Divergent](https://s-ink.org/divergent-plate-boundary) · [Convergent](https://s-ink.org/convergent-plate-boundary) · [Transform](https://s-ink.org/transform-plate-boundary) · [Licence](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 *Conceptual three-dimensional block diagrams, not to scale. Divergent boundaries create lithosphere, convergent boundaries bring plates together and may involve subduction, and transform boundaries accommodate lateral motion. / Условные трёхмерные блок-схемы, не в масштабе. Дивергентные границы сопровождаются образованием литосферы, конвергентные — сближением плит и возможной субдукцией, трансформные — боковым смещением.*
 
