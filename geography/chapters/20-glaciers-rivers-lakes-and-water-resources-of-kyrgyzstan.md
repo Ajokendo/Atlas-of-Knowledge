@@ -446,8 +446,9 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 ## 20.6. Озёра Кыргызстана / Lakes of Kyrgyzstan
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-C / IMAGE PLACEHOLDER 20-C]** Сравнительная карта и инфографика основных озёр: происхождение, высота, площадь и глубина с датой и источником морфометрии.
-> **EN:** Comparative map and infographic of major lakes, showing origin, elevation, area and depth with the date and source of morphometric data.
+![Крупнейшие озёра Кыргызстана: сравнение площади / Major lakes of Kyrgyzstan: area comparison](../assets/diagrams/20-C-major-lakes-area-comparison-bilingual.svg)
+
+*Сравнение опубликованных площадей, а не карта озёр. Глубины и происхождение не приведены: источники требуют дополнительного согласования по дате и методике. / Published surface areas are compared, not mapped. Depth and origin are omitted pending reconciliation of source dates and methods.*
 
 В Кыргызстане представлены озёра тектонического, ледникового, завального, карстового и смешанного происхождения. Они различаются по глубине, минерализации, площади, высоте расположения и степени связи с речной сетью.
 
