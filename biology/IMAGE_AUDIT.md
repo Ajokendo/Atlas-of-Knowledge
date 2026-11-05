@@ -386,3 +386,10 @@ A bounded visual review was completed against the individual Wikimedia Commons f
 - The two Rufous-naped Tit candidates remain excluded because of the previously documented taxonomy metadata conflict; they are not part of the 15-photo accepted denominator.
 
 **Result:** 15/15 accepted documentary-photo previews inspected; no proven broad scene-to-caption mismatch found. No image or chapter content was changed in this pass. Fine species morphology, independent specialist review and the separate school/device feedback phase remain open. Global Image Verification remains **Pending audit**; do not convert preview review into a VERIFIED status for every photograph.
+
+
+## Naryn maral taxonomy label — 5 November 2026
+
+A focused scientific-label check of `fauna-naryn-highland-habitats.svg` found that the caption named the animal as maral but used the overly broad taxonomic label `Cervus sp.`. The species-level name `Cervus elaphus` is supported by the Kyrgyzstan Red Book entry for the Tien Shan maral, which identifies it as *Cervus elaphus* (subspecies treated there as *C. e. asiaticus*): https://open.kg/en/about-kyrgyzstan/nature/red-book/animals/mammals/print%3Apage%2C1%2C31820-blagorodnyy-olen-tyanshanskiy-podvid-maral-bugu-erkegi-maral-urgaachysy-asiatic-red-deer-tien-shan-maral-tien-shan-stag.html. The regional CAMCA study also documents maral in the Naryn River valley: https://camcaproject.org/study-in-tien-shan-maral-in-kyrgyzstan/.
+
+**Correction:** changed the diagram label to `Maral habitat · Cervus elaphus`. This identifies the species without asserting a contested subspecies rank. The schematic continues to describe a habitat example, not a distribution map or census. No change was made to the chapter's cautious caption. This is a source-supported author-side correction, not independent specialist certification.
