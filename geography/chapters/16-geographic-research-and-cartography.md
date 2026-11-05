@@ -333,8 +333,9 @@ A map projection transforms coordinates on the Earth's surface onto a plane. Eve
 
 ## 16.11. Тематическая картография / Thematic Cartography
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-E / IMAGE PLACEHOLDER 16-E]** Сравнение хороплетной карты, пропорциональных символов, изолиний, точечной карты и карты потоков с подходящими типами данных.
-> **EN:** Compare choropleth, proportional-symbol, isoline, dot and flow maps, identifying suitable data types for each.
+![Сравнение типов тематических карт: хороплетная, пропорциональные символы, изолинии, точечная и потоковая / Comparison of thematic map types: choropleth, proportional symbols, isolines, dot density and flow maps](../assets/diagrams/16-E-thematic-map-types-bilingual.svg)
+
+*Условные примеры; тип карты выбирают по типу данных. / Schematic examples; choose map type to match the data.*
 
 
 Тематическая карта показывает распределение определённого явления: населения, осадков, температуры, землепользования, доходов, риска или доступности услуг.
@@ -356,8 +357,9 @@ A projection choice cannot correct an inappropriate thematic map type. Absolute 
 
 ## 16.12. Цвет, символы и визуальная иерархия / Colour, Symbols and Visual Hierarchy
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-F / IMAGE PLACEHOLDER 16-F]** Матрица визуальных переменных: положение, размер, форма, оттенок, светлота, насыщенность и текстура; показать корректные способы кодирования.
-> **EN:** Visual-variable matrix for position, size, shape, hue, lightness, saturation and texture, with appropriate encoding examples.
+![Картографические визуальные переменные: положение, размер, форма, ориентация, оттенок, светлота и текстура / Cartographic visual variables: position, size, shape, orientation, hue, lightness and texture](../assets/diagrams/16-F-cartographic-visual-variables-bilingual.svg)
+
+*Не кодируйте важные различия только цветом. / Never encode essential distinctions by colour alone.*
 
 
 Картографический дизайн управляет вниманием читателя и помогает различать классы, направления, величины и категории.
@@ -411,8 +413,9 @@ A colour scale should match the meaning of the data. Equal visual intervals do n
 
 ## 16.13. Классификация данных для карт / Data Classification for Mapping
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-G / IMAGE PLACEHOLDER 16-G]** Один условный набор значений в равных интервалах, квантилях и естественных границах; показать, как меняется карта при разных классах.
-> **EN:** Display one illustrative dataset using equal intervals, quantiles and natural breaks, showing how class boundaries change the map.
+![Сравнение равных интервалов, квантилей и естественных границ на одном условном наборе данных / Equal intervals, quantiles and natural breaks applied to one illustrative dataset](../assets/diagrams/16-G-map-classification-methods-bilingual.svg)
+
+*Учебный пример; точные границы Jenks вычисляют по исходным данным. / Teaching example; exact Jenks breaks must be calculated from source data.*
 
 
 Для хороплетных и других тематических карт числовые данные часто группируются в классы. Выбор метода классификации влияет на визуальный вывод.
@@ -444,8 +447,9 @@ For comparisons over time, it is often useful to keep class boundaries fixed so 
 
 ## 16.14. Карта как аргумент: подписи, легенда и источники / Map as an Argument: Labels, Legend and Sources
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-H / IMAGE PLACEHOLDER 16-H]** Пример качественной тематической карты с заголовком, легендой, масштабом, датой, источником, проекцией и иерархией подписей.
-> **EN:** A well-designed thematic map with title, legend, scale, date, source, projection and clear label hierarchy.
+![Макет тематической карты с заголовком, легендой, датой, источником и метаданными / Thematic map layout with title, legend, date, source and metadata](../assets/diagrams/16-H-thematic-map-layout-bilingual.svg)
+
+*Схема не геопривязана; масштабная линейка и CRS неприменимы. / Schematic is not georeferenced; scale bar and CRS are not applicable.*
 
 
 Карта должна содержать достаточно элементов, чтобы читатель мог правильно её интерпретировать:
@@ -539,8 +543,9 @@ Interactivity does not automatically make a map more accurate or easier to under
 
 ## 16.17. Воспроизводимость, открытая наука и управление проектом / Reproducibility, Open Science and Project Management
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-I / IMAGE PLACEHOLDER 16-I]** Воспроизводимый географический проект: исходные данные, метаданные, обработка, скрипты, версии, результаты, лицензии и контроль доступа.
-> **EN:** Reproducible geographic project showing source data, metadata, processing, scripts, versions, outputs, licences and access control.
+![Структура воспроизводимого географического проекта: данные, метаданные, скрипты, среда, обработка и результаты / Reproducible geographic project: data, metadata, scripts, environment, processing and outputs](../assets/diagrams/16-I-reproducible-geographic-project-bilingual.svg)
+
+*Документируйте версии, лицензии, параметры и контроль доступа. / Record versions, licences, parameters and access control.*
 
 
 Воспроизводимое исследование позволяет другому специалисту понять, откуда получены данные, какие преобразования выполнены и как получен результат.
