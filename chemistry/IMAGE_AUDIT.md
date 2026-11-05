@@ -351,7 +351,7 @@ The Chapter 03 periodic-trends gap is now closed for **Image Coverage**. A bilin
 | **Chapter 03 total** | **2 / 2** | **100%** | **0 / 2 VERIFIED** | **None identified** |
 
 **CH-V12 review record**
-- **Files:** `assets/periodic-trends.svg`, `assets/periodic-trends-ru.svg`; integrated in `periodic-table.html`.
+- **Files:** `periodic-trends.svg` and `periodic-trends-ru.svg` in `assets/`; integrated in `periodic-table.html`.
 - **Category / method:** C — new project-specific bilingual SVG diagrams, authored as SVG source with AI assistance.
 - **Scientific first pass:** PASS for the three broad directions: atomic radius generally increases down/left; first ionisation energy and electronegativity generally increase up/right. Caveats explicitly state that these are trends with exceptions and that electronegativity is generally not assigned to noble gases.
 - **Independent scientific review:** PENDING.
