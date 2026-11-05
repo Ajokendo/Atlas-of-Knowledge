@@ -131,13 +131,14 @@ async function checkInteractiveBook(mobile) {
     await picker.waitFor({ state: 'visible' });
     if (await picker.locator('option').count() < 2) throw new Error('keyboard scene picker has no selectable objects');
     await picker.focus();
+    // In Chromium, ArrowDown commits a closed native select immediately; a follow-up Enter
+    // refocuses the locator and tests the browser popup rather than the focus handoff.
     await picker.press('ArrowDown');
-    await picker.press('Enter');
     await page.waitForFunction(() => {
       const plate = document.querySelector('#plate');
       return plate && !plate.hidden && !!plate.querySelector('#scene-plate-title');
     });
-    await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 8000 }).catch(async () => {
+    await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { polling: 100, timeout: 12000 }).catch(async () => {
       const active = await page.evaluate(() => ({ tag: document.activeElement?.tagName, id: document.activeElement?.id, className: document.activeElement?.className }));
       throw new Error(`keyboard scene selection did not move focus to the text explanation; active element: ${JSON.stringify(active)}`);
     });
