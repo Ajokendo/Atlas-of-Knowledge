@@ -443,7 +443,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
 | 05 | 17 named IDs | Seventeen named visual IDs now have image assets embedded in both language sections, including 5.18-A. The chapter's legacy inventory still claims 20 positions; two labels remain unresolved, and provisional 5.10-A/5.13-A entries are not accepted as confirmed IDs. |
 | 06 | 15 | Matches the current 15-ID inventory. |
-| 07 | 9 | 5 integrated (07-A, 07-B, 07-D, 07-G, 07-I); four visual needs remain open. |
+| 07 | 9 | 7 integrated (07-A, 07-B, 07-D, 07-F, 07-G, 07-H, 07-I); two map needs remain open (07-C, 07-E). |
 | 08 | 7 | Matches the current inventory. |
 | 09 | 7 | Confirms 09-A–09-G; 09-G is a placeholder and is recorded as MISSING. |
 | 10 | 7 | Matches the current inventory. |
