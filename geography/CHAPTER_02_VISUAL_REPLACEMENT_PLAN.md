@@ -36,7 +36,7 @@
 1. **Completed replacements:** 2-A, 2.2-A, 2.5-A, 2.9-A, 2.12-A and 2.14-A are integrated in both language sections with exact source and licence records.
 2. **Final replacement:** 2.1-A is now integrated from ZPE under CC BY-SA 3.0; all 11 replacement slots are complete.
 3. **Conditional retrieval:** 2.8-A has a suitable Open University figure and CC BY-NC-SA 4.0 course terms, but the exact image endpoint returned HTTP 403. Do not embed until a stable file is obtained.
-4. **Targeted discovery:** 2.1-A. Find a complete, rights-cleared geographic-envelope cross-section; do not force an unsuitable image into this slot.
+4. **Targeted discovery:** 2.1-A is now integrated from ZPE under CC BY-SA 3.0. No unresolved visual-replacement slot remains.
 
 ## Important distinction
 
