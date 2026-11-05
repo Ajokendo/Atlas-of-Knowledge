@@ -43,8 +43,9 @@ Regional geography studies major parts of the world as complex territorial syste
 
 ## 12.3. Африка / Africa
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-A / IMAGE PLACEHOLDER 12-A]** Физико-географическая карта Африки с основными природными зонами, реками и горными системами.
-> **EN:** Physical-geographical map of Africa showing major natural zones, rivers and mountain systems.
+![Физический рельеф Африки с учебными метками природных областей и горных систем; основные реки указаны в легенде / Physical relief of Africa with teaching markers for natural regions and mountain systems; major rivers are named in the key](../assets/diagrams/12-A-africa-physical-map-bilingual.svg)
+
+*Основа рельефа и батиметрии: Atlas Abierto (2026), CC BY 4.0; исходные данные — ETOPO 2022 (NOAA NCEI, public domain) и Natural Earth (public domain). Изменения: добавлены двуязычные учебные подписи и ориентировочные метки; они не являются точной геопривязкой. / Relief and bathymetry base: Atlas Abierto (2026), CC BY 4.0; underlying data: ETOPO 2022 (NOAA NCEI, public domain) and Natural Earth (public domain). Changes: bilingual teaching labels and approximate markers added; they are not precise georeferencing.*
 
 <text>Африка — второй по площади и численности населения материк, включающий чрезвычайно разнообразные природные и общественные системы. В региональных классификациях обычно выделяют Северную, Западную, Центральную, Восточную и Южную Африку, однако состав отдельных субрегионов может различаться.</text>
 
