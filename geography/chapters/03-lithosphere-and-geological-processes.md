@@ -426,7 +426,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 **Reading the chart.** The official ICS graphic is published in English. The table above is a concise Russian key to the hierarchy and the principal eons and eras; it is not a full translation of every period, epoch and age shown in the chart. Use the chart's current version for official names and boundary ages.
 
-**EN:** Vertical geological time scale from Earth's formation to the present. The chart uses non-linear spacing; use the current ICS chart for boundary ages.
+
 
 ### 3.9.4. Разобранный пример: определение относительного возраста слоёв и интрузии / Worked Example: Establishing the Relative Ages of Layers and an Intrusion
 
@@ -1062,6 +1062,23 @@ On a schematic geological cross-section, identify:
 ![Official International Chronostratigraphic Chart, ICS version 2026/06. / Официальная международная хроностратиграфическая шкала ICS, версия 2026/06.](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg)
 
 *Source: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Numerical ages and boundaries may be revised; the chart uses a non-linear scale. / Источник: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Численные возраста и границы могут уточняться; диаграмма использует неравномерный масштаб.*
+
+**Reading the chart.** Time units decrease in duration as follows: eon → era → period → epoch → age. The adjacent chronostratigraphic units name the corresponding bodies of rock: eonothem → erathem → system → series → stage. These sequences are related but not interchangeable: the first names intervals of time, while the second names rock bodies formed during those intervals. The chart's layout is non-linear, so block size is not always proportional to duration.
+
+| English on chart | Russian equivalent | Meaning |
+|---|---|---|
+| Eon | Эон | Largest division of geological time |
+| Era | Эра | Subdivision of an eon |
+| Period | Период | Subdivision of an era |
+| Epoch | Эпоха | Subdivision of a period |
+| Age | Век | Subdivision of an epoch |
+| Eonothem | Эонотема | Rocks formed during an eon |
+| Erathem | Эратема | Rocks formed during an era |
+| System | Система | Rocks formed during a period |
+| Series | Отдел | Rocks formed during an epoch |
+| Stage | Ярус | Rocks formed during an age |
+
+The main eons are Hadean (гадей), Archean (архей), Proterozoic (протерозой) and Phanerozoic (фанерозой). The Phanerozoic is divided into the Paleozoic (палеозой), Mesozoic (мезозой) and Cenozoic (кайнозой) eras. This is a reading key, not a full translation of every label on the official chart.
 
 
 **Illustration 3.10-A — The Supercontinent Cycle.**
