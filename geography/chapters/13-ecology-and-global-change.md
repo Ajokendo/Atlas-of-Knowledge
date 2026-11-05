@@ -856,9 +856,9 @@ Consider a fictional settlement beside a river. For this learning example, the e
 **Иллюстрация 13.5 / Figure 13.5 — Экологический риск: опасность, подверженность, уязвимость / Environmental risk: hazard, exposure and vulnerability.**  
 Концептуальная диаграмма с примером одного природного явления и разными последствиями для двух территорий.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-H / IMAGE PLACEHOLDER 13-H]** Сравнение смягчения изменения климата и адаптации с примерами мер, временных горизонтов и показателей результата. / **EN:** Compare climate mitigation and adaptation with example measures, time horizons and outcome indicators.
-**Иллюстрация 13.6 / Figure 13.6 — Смягчение и адаптация / Mitigation and adaptation.**  
-Две взаимодополняющие дорожные карты с примерами мер в энергетике, транспорте, землепользовании, водном хозяйстве и городах.
+![Смягчение изменения климата и адаптация / Climate mitigation and adaptation](../assets/diagrams/13-H-climate-mitigation-adaptation-bilingual.svg)
+
+*Смягчение сокращает источники выбросов или усиливает поглощение; адаптация снижает уязвимость и ущерб. Показатели должны соответствовать местному контексту. / Mitigation reduces emissions sources or increases removals; adaptation reduces vulnerability and harm. Indicators must fit the local context.*
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 13-I / IMAGE PLACEHOLDER 13-I]** Схема экологического мониторинга: наблюдения, лабораторные анализы, дистанционное зондирование, контроль качества и публикация данных. / **EN:** Environmental-monitoring workflow covering observations, laboratory analysis, remote sensing, quality control and data publication.
 **Иллюстрация 13.7 / Figure 13.7 — Мониторинг окружающей среды / Environmental monitoring.**  
