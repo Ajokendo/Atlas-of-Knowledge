@@ -56,7 +56,8 @@
 <div class="kin-lab-readouts">
 <div><small>ВЫСОТА / HEIGHT</small><strong id="klY">0,00 м</strong></div><div><small>ДАЛЬНОСТЬ / RANGE</small><strong id="klX">0,00 м</strong></div><div><small>СКОРОСТЬ / SPEED</small><strong id="klS">14,00 м/с</strong></div><div><small>ВЕРТИКАЛЬНАЯ СКОРОСТЬ / vᵧ</small><strong id="klVy">9,90 м/с</strong></div>
 </div>
-<canvas id="klScene" class="kin-lab-canvas" aria-label="Траектория тела, брошенного под углом"></canvas>
+<canvas id="klScene" class="kin-lab-canvas" aria-label="Траектория тела, брошенного под углом" aria-describedby="klSceneDescription"></canvas>
+<p id="klSceneDescription" class="kin-lab-note">Траектория тела, запущенного с начальной скоростью v₀ под углом θ к горизонту. Горизонтальная составляющая скорости постоянна, вертикальная изменяется под действием ускорения свободного падения g. Сопротивление воздуха не учитывается; отметка показывает текущее положение тела. / Ideal projectile motion without air resistance.</p>
 <canvas id="klGraph" class="kin-lab-canvas kin-lab-graph" aria-label="Два графика с отдельными вертикальными шкалами: высота y в метрах и вертикальная скорость v y в метрах в секунду, оба от времени" aria-describedby="klGraphDescription"></canvas>
 <p id="klGraphDescription" class="kin-lab-note">График разделён на две панели с общей осью времени: сверху показана высота y(t) в метрах, снизу — вертикальная скорость vᵧ(t) в м/с. У каждой панели собственная вертикальная шкала; цветные точки показывают текущие значения. Модель не учитывает сопротивление воздуха. / Two separate vertical scales; air resistance is neglected.</p>
 </section>
@@ -71,7 +72,7 @@
 <p>Чтобы описать движение, нужно выбрать тело отсчёта, связать с ним систему координат и определить способ измерения времени. Движение всегда рассматривается относительно выбранной системы отсчёта.</p>
 <div class="note"><strong>Пример.</strong> Пассажир сидит в движущемся автобусе: относительно автобуса он покоится, а относительно дороги — движется.</div>
 <h3>Путь и перемещение — не одно и то же</h3>
-<p><strong>Путь</strong> — длина пройденной траектории. Это скалярная величина. <strong>Перемещение</strong> — вектор, направленный от начального положения к конечному. Его модуль не зависит от формы траектории. Его модуль не превышает пройденный путь.</p>
+<p><strong>Путь</strong> — длина пройденной траектории. Это скалярная величина. <strong>Перемещение</strong> — вектор от начального положения к конечному. Его модуль не зависит от формы траектории и не превышает пройденный путь.</p>
 </section>
 <section>
 <h2>1.2. Средняя скорость движения и векторная скорость</h2>
@@ -92,7 +93,8 @@
 <label for="v"><span>Скорость</span><output id="vout">5,0 м/с</output></label><input id="v" type="range" min="0" max="20" step=".5" value="5">
 <label for="t"><span>Время</span><output id="tout">10,0 с</output></label><input id="t" type="range" min="0" max="20" step=".5" value="10">
 <div class="stats"><div><small>ПУТЬ</small><strong id="distance">50 м</strong></div><div><small>КООРДИНАТА x</small><strong id="position">50 м</strong></div><div><small>СКОРОСТЬ</small><strong id="speed">5 м/с</strong></div></div>
-<canvas id="plot" aria-label="График координаты от времени"></canvas>
+<canvas id="plot" aria-label="График координаты от времени" aria-describedby="uniformGraphDescription"></canvas>
+<p id="uniformGraphDescription" class="note">Прямая x(t) = vt для равномерного движения из точки x₀ = 0. Наклон прямой равен постоянной скорости; маркер показывает координату в выбранный момент времени. / Uniform motion: constant slope equals velocity.</p>
 </div>
 </section>
 <section>
@@ -116,7 +118,7 @@
 <g><text class="kg-label" x="18" y="24">Координата y, м</text><path class="kg-grid" d="M70 42H640M70 70H640M70 98H640M70 126H640"/><path class="kg-axis" d="M70 38V132H640"/><g class="kg-small"><text x="43" y="130">0</text><text x="36" y="102">2</text><text x="36" y="74">4</text><text x="36" y="46">5</text></g><path class="kg-y" d="M70 126 Q355 -38 640 126"/><text class="kg-small" x="344" y="48" fill="#d95b43">максимум 4,90 м</text></g>
 <g><text class="kg-label" x="18" y="166">Скорость vᵧ, м/с</text><path class="kg-grid" d="M70 183H640M70 211H640M70 239H640M70 267H640"/><path class="kg-axis" d="M70 179V271H640"/><path d="M70 225H640" stroke="#777" stroke-dasharray="4 4"/><g class="kg-small"><text x="27" y="187">+10</text><text x="49" y="229">0</text><text x="31" y="269">−10</text></g><path class="kg-v" d="M70 184L640 266"/><text class="kg-small" x="342" y="203" fill="#287c9b">vᵧ = 0 на вершине</text></g>
 <g><text class="kg-label" x="18" y="304">Ускорение aᵧ, м/с²</text><path class="kg-grid" d="M70 321H640M70 349H640M70 377H640"/><path class="kg-axis" d="M70 317V381H640"/><g class="kg-small"><text x="49" y="325">0</text><text x="31" y="381">−10</text></g><path class="kg-a" d="M70 378H640"/><text class="kg-small" x="342" y="369" fill="#56865c">aᵧ = −9,80 м/с²</text></g>
-<g class="kg-small"><text x="70" y="410" text-anchor="middle">0</text><text x="355" y="410" text-anchor="middle">1,0</text><text x="640" y="410" text-anchor="end">2,0 с</text><text x="355" y="428" text-anchor="middle">Время t, с</text></g></svg>
+<g class="kg-small"><text x="70" y="410" text-anchor="middle">0</text><text x="355" y="410" text-anchor="middle">1,0</text><text x="640" y="410" text-anchor="end">2,0 с</text><text x="355" y="424" text-anchor="middle">Время t, с</text></g></svg>
 <p class="note">Для постоянного ускорения график a(t) — горизонтальная прямая, v(t) — прямая линия, а y(t) — парабола. На вершине траектории скорость равна нулю, но ускорение по-прежнему направлено вниз.</p>
 </section>
 <section>
