@@ -8,7 +8,7 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 
 ## Integrated / Интегрировано
 
-| 5.18-A | Synoptic map and climate analysis / Синоптическая карта и климатический анализ | Original bilingual synthetic SVG `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg` | Schematic low/high centres, closed isobars at 4 hPa intervals, cold/warm fronts, simplified station plots, and two synthetic climate graphs. No real place/date or observed data; not an operational weather map. Embedded in RU and EN sections. Project rightsholder/licence and final scientific/accessibility/rendered QA remain pending. |
+| 5.18-A | Synoptic map and climate analysis / Синоптическая карта и климатический анализ | Original bilingual synthetic SVG `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg` | Schematic low/high centres, closed isobars at 4 hPa intervals, cold/warm fronts, simplified station plots, and two synthetic climate graphs. No real place/date or observed data; not an operational weather map. Embedded in RU and EN sections. Scientific convention/data check PASS; project rightsholder/licence, accessibility and rendered QA remain pending. |
 
 | Visual | Subject | Asset and rights | Use limitation |
 |---|---|---|---|
@@ -60,4 +60,4 @@ No named visual needs remain in this short production list. The chapter inventor
 
 ## 5.18-A integration checkpoint — 5 November 2026
 
-The 5.18-A placeholder has been replaced in both language sections by the original bilingual synthetic SVG. The diagram was created for this atlas after reviewing NOAA educational resources on synoptic meteorology and surface station plots; no NOAA map or third-party artwork was copied. All weather and climate values are synthetic. The map is not georeferenced, not tied to a date and not suitable for operational interpretation or forecasting. The two climate datasets have been checked: A totals 401 mm with a 32 °C annual temperature range; B totals 886 mm with a 14 °C range. Static SVG source checks passed; project rights/licence, scientific sign-off, visual accessibility and deployed rendering remain open.
+The 5.18-A placeholder has been replaced in both language sections by the original bilingual synthetic SVG. The diagram was created for this atlas after reviewing NOAA educational resources on synoptic meteorology and surface station plots; no NOAA map or third-party artwork was copied. All weather and climate values are synthetic. The map is not georeferenced, not tied to a date and not suitable for operational interpretation or forecasting. The two climate datasets have been checked: A totals 401 mm with a 32 °C annual temperature range; B totals 886 mm with a 14 °C range. Static SVG source checks and the scientific convention/data review passed. Project rights/licence, visual accessibility and deployed rendering remain open.
