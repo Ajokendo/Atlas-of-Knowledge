@@ -1102,7 +1102,7 @@ if (fs.existsSync(generatedDir)) {
     }
     if (!bilingual(title)) errors.push("images/generated/" + name + ": SVG title must contain Russian and English");
     if (!bilingual(desc)) errors.push("images/generated/" + name + ": SVG description must contain Russian and English");
-    const visibleSvgText = [...source.matchAll(/<text\\b[^>]*>([\\s\\S]*?)<\\/text>/gi)]
+    const visibleSvgText = [...source.matchAll(/<text\b[^>]*>([\s\S]*?)<\/text>/gi)]
       .map(match => match[1].replace(/<[^>]+>/g, " ").trim()).filter(Boolean).join(" ");
     if (/[A-Za-z]/.test(visibleSvgText) && !/[А-Яа-яЁё]/.test(visibleSvgText)) {
       errors.push("images/generated/" + name + ": visible SVG labels are English-only; add Russian labels or remove embedded text");
