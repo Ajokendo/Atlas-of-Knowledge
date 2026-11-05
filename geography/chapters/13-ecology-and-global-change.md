@@ -206,7 +206,9 @@ Assessing circularity requires consideration of the product's full life cycle: r
 
 ## 13.10. Экологические риски и уязвимость территорий / Environmental Risks and Territorial Vulnerability
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-C / IMAGE PLACEHOLDER 13-C]** Схема экологического риска: опасность, экспозиция, уязвимость и возможные последствия.
+![Экологический риск: опасность, экспозиция и уязвимость / Environmental risk: hazard, exposure and vulnerability](../assets/diagrams/13-C-environmental-risk-model-bilingual.svg)
+
+*Концептуальная модель, не универсальная числовая формула; оценка требует сценария, периода, масштаба и данных. / Conceptual model, not a universal numerical formula; assessment requires a scenario, period, scale and data.*
 > **EN:** Environmental-risk diagram showing hazard, exposure, vulnerability and potential consequences.
 
 **Экологический риск** возникает при сочетании опасного явления, подверженности людей и активов воздействию и их уязвимости. Опасность сама по себе не равна риску: одинаковое природное явление может иметь разные последствия в зависимости от плотности населения, качества зданий, доступности предупреждения и готовности служб.
