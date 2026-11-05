@@ -391,7 +391,7 @@ The following counts are from the actual chapter Markdown files in `workspace/ge
 | 02 | 40 | Twenty distinct source/local image assets across the bilingual chapter (19 visual IDs; one ID uses two separate cycle images). |
 | 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
 | 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
-| 05 | 37 | 20 distinct image URLs (8 local SVGs and 12 external source-image URLs); chapter register claims 16 integrated IDs and 5.18-A pending. Exact ID-to-image mapping still needs reconciliation. |
+| 05 | 40 | 20 distinct image URLs (8 local SVGs and 12 external source-image URLs); chapter register claims 16 integrated IDs and 5.18-A pending. Exact ID-to-image mapping still needs reconciliation. |
 | 06–17 | 0 | No Markdown image embeds found in these chapter files in this scan. In-text visual markers/briefs are present; treat these as unintegrated placeholders unless another rendering mechanism is independently demonstrated. |
 | 18 | 1 | Local SVG 18-J referenced. |
 | 19 | 1 | Local SVG 19-H referenced. |
@@ -428,7 +428,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 02 | 21 | Includes both zero-padded and unpadded forms (for example, 02-A/2-A and 02-D/2-D); confirm alias equivalence before counting. |
 | 03 | 14 | Includes legacy 3-A in addition to the 13 numbered subsection IDs; resolve alias or duplicate status. |
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
-| 05 | 8 | Eight distinct ID-shaped tokens appear in the chapter source. A separate embed inventory found 20 distinct image URLs (40 embeds before correction); three bilingual SVGs were present only once, in the Russian section. They have now been added to the English section: 40 embeds, 20 unique URLs, every URL used twice. The visual-ID-to-file grouping and 20-ID register count still need semantic reconciliation. |
+| 05 | 8 | Eight distinct ID-shaped tokens appear in the chapter source. A separate embed inventory found 20 distinct image URLs and 40 embeds. A previous language-count scan misclassified three English headings because it relied on partial heading-name matching; the actual chapter file already contains 20 embeds in each language section, with every URL present once in RU and once in EN. The visual-ID-to-file grouping and 20-ID register count still need semantic reconciliation. |
 | 06 | 15 | Matches the current 15-ID inventory. |
 | 07 | 9 | Matches the current inventory. |
 | 08 | 7 | Matches the current inventory. |
