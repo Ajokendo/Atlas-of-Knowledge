@@ -13,7 +13,7 @@
  <text x="184" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#29423b">Кулун-Ата · лес / forest</text>
  <path d="M0 310 L65 205 115 258 178 150 235 252 300 190 368 280 V520 H0Z" fill="url(#ridge)"/>
  <path d="M0 355 Q90 315 165 360 T368 345 V520 H0Z" fill="#78927a"/>
- <path d="M15 520 Q80 415 140 520 M95 520 Q150 390 210 520 M230 520 Q285 405 350 520" fill="none" stroke="#315d49" stroke-width="18" stroke-linecap="round"/>
+ <path d="M15 520 Q80 500 140 520 M95 520 Q150 500 210 520 M230 520 Q285 500 350 520" fill="none" stroke="#315d49" stroke-width="18" stroke-linecap="round"/>
  <g transform="translate(95 300)" fill="#493e32" stroke="#302b25" stroke-width="3">
   <ellipse cx="78" cy="54" rx="69" ry="39"/><path d="M38 35Q59 2 96 24" fill="none" stroke="#302b25" stroke-width="10" stroke-linecap="round"/><circle cx="139" cy="35" r="27"/><circle cx="124" cy="12" r="9"/><circle cx="153" cy="12" r="9"/><path d="M28 75 L22 112 M65 82 L63 116 M111 82 L116 114 M145 56 L164 69" fill="none" stroke-width="12" stroke-linecap="round"/><path d="M9 45 Q-15 30 -18 47" fill="none" stroke-width="9" stroke-linecap="round"/>
  </g>
