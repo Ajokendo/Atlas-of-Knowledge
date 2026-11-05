@@ -258,7 +258,9 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 В водоёмах важны трофические состояния. Эвтрофикация — обогащение воды биогенными элементами, прежде всего соединениями азота и фосфора; чрезмерное поступление питательных веществ может вызывать цветение водорослей, дефицит кислорода и гибель водных организмов.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-G / IMAGE PLACEHOLDER 07-G]** Сопоставление вертикальных экологических зон озера и океана; глубины и названия зон не выдавать за универсальные границы. / **EN:** Compare vertical ecological zones in a lake and the ocean; do not present depths or zone names as universal boundaries.
+![Сопоставление зон озера и океана: фотическая и афотическая области, литораль, пелагиаль и бенталь; границы условны. / Lake and ocean zones: photic and aphotic waters, littoral, pelagic and benthic zones; boundaries are illustrative.](../assets/diagrams/07-G-lake-ocean-zonation-bilingual.svg)
+
+*07-G. Авторская двуязычная концептуальная схема Atlas of Knowledge. Существующие опубликованные схемы зональности были просмотрены; глубины намеренно не фиксированы, поскольку световая граница зависит от прозрачности и условий среды. / Original bilingual conceptual diagram by Atlas of Knowledge. Published zonation diagrams were reviewed; depths are not fixed because light penetration depends on transparency and local conditions.*
 **Рисунок 7.7 / Figure 7.7 — Вертикальная зональность озера и океана / Vertical zonation of a lake and the ocean.**  
 Техническое задание: сопоставить озеро и океан в разрезе; обозначить освещённую фотическую зону, глубоководную афотическую область, литораль/прибрежье, пелагиаль и бенталь; показать, что глубины зон изменяются в зависимости от прозрачности воды и условий среды.
 **EN production brief:** Compare a lake and the ocean in cross-section. Label the illuminated photic zone, deep aphotic zone, littoral/coastal area, pelagic zone and benthic zone. Show that zone depths vary with water transparency and environmental conditions.
@@ -330,7 +332,9 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 Изменение землепользования, сжигание ископаемого топлива, удобрения, осушение торфяников и деградация почв изменяют скорости и направления биогеохимических потоков. Экосистемы могут поглощать часть антропогенных выбросов, но их способность к поглощению ограничена и меняется со временем.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-I / IMAGE PLACEHOLDER 07-I]** Схема роли организмов в циклах углерода и азота с раздельным обозначением потоков вещества и энергии. / **EN:** Diagram of organism roles in the carbon and nitrogen cycles, distinguishing matter flows from energy flows.
+![Биологические процессы в циклах углерода и азота: фотосинтез, дыхание, разложение, фиксация, нитрификация, усвоение, аммонификация и денитрификация. Стрелки не обозначают величины потоков. / Biological processes in carbon and nitrogen cycles. Arrows do not quantify fluxes.](../assets/diagrams/07-I-carbon-nitrogen-cycles-bilingual.svg)
+
+*07-I. Авторская двуязычная схема, подготовленная после проверки открытых схем циклов углерода и азота; она не содержит количественных данных и не заменяет полный геохимический баланс. / Original bilingual diagram prepared after reviewing openly licensed carbon- and nitrogen-cycle diagrams; it contains no quantitative data and is not a complete geochemical budget.*
 **Рисунок 7.9 / Figure 7.9 — Биологическая роль в циклах углерода и азота / Biological roles in the carbon and nitrogen cycles.**  
 Техническое задание: две отдельные диаграммы с резервуарами и потоками; различать природные и антропогенные потоки; не смешивать запасы вещества и скорости потоков; все единицы и временные интервалы указывать явно.
 **EN production brief:** Create two separate diagrams showing reservoirs and flows. Distinguish natural from human-driven flows; do not mix stored quantities with flow rates. State all units and time intervals explicitly.

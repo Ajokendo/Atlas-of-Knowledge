@@ -38,7 +38,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 04 | 16 | 16 | 0 | Sixteen local bilingual SVGs embedded; source records identify remaining creator/licence and technical review work. |
 | 05 | 18 named + 2 unresolved legacy slots | 17 | 1 named + 2 unresolved | Seventeen named assets are embedded; 18 named IDs are enumerated. Two old inventory positions remain unidentifiable and are not counted as assets until recovered. |
 | 06 | 15 | 5 | 10 | 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A integrated; 6-B has a licensed candidate dataset but no finished map. |
-| 07 | 9 | 3 | 6 | 07-A and 07-B are newly integrated original bilingual SVGs; 07-D remains an adapted CC BY 4.0 figure. Accessibility and rendered technical QA remain pending. |
+| 07 | 9 | 5 | 4 | 07-A, 07-B, 07-G and 07-I are original bilingual SVGs; 07-D remains an adapted CC BY 4.0 figure. Accessibility and rendered technical QA remain pending. |
 | 08 | 7 | 0 | 7 | Production briefs/placeholders only; no actual image embeds or matching asset files confirmed. |
 | 09 | 7 | 0 | 7 | All seven visual needs remain placeholders, including 09-G. |
 | 10 | 7 | 0 | 7 | All seven visual needs remain placeholders. |
@@ -56,7 +56,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | **Total named inventory** | **281** | **147** | **134** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 149/281 named IDs have an image embedded in the relevant chapter source. This measures presence only.
+- **Image Coverage:** 151/281 named IDs have an image embedded in the relevant chapter source. This measures presence only.
 - **Image Verification:** 0/149 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
 - **Image Gaps:** 132 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
@@ -1349,3 +1349,10 @@ This is the active work queue after the latest integration tranche. A placeholde
 ### Closure rule
 
 Do not replace a missing map with a decorative or approximate schematic when the learning objective requires real spatial data. If a suitable dataset cannot be accessed or licensed, keep the item MISSING and record the exact blocker. Where a conceptual diagram is appropriate, author it separately and label it as conceptual rather than presenting it as measured geography.
+
+
+### Chapter 07 — Visuals 07-G and 07-I integrated — 5 November 2026
+
+- **07-G:** original bilingual SVG comparing lake and ocean cross-sections; photic/aphotic water, littoral/coastal, pelagic and benthic zones are labelled. No universal depth threshold is shown. Published lake/ocean zonation diagrams were reviewed; no third-party figure was copied. Scientific concept and RU/EN labels checked; project rights, accessibility and rendered browser/mobile QA remain PENDING.
+- **07-I:** original bilingual SVG summarising carbon and nitrogen pathways. It separates reservoirs from processes and gives no numerical stocks or flux rates. Public-domain Commons cycle diagrams were reviewed as references; no source artwork was copied. Scientific pathway and RU/EN checks completed; project rights, accessibility and rendered browser/mobile QA remain PENDING.
+- Chapter 07: **5/9 integrated** (07-A, 07-B, 07-D, 07-G, 07-I); four gaps remain. Atlas coverage: **151/281 (53.7%)**, with **130 named IDs** still lacking integrated images. Integrated does not mean VERIFIED.

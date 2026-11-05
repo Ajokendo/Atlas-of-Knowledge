@@ -750,3 +750,30 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 | Accessibility | PENDING; alt text and SVG title/description are present, but screen-reader and contrast review remain open |
 | Technical | PENDING; asset exists and is embedded; live browser/mobile rendering has not been tested |
 | Lifecycle | INTEGRATED; not VERIFIED |
+
+
+## Chapter 07 — Visual 07-G: lake and ocean vertical zonation
+
+| Field | Record |
+|---|---|
+| Asset | geography/assets/diagrams/07-G-lake-ocean-zonation-bilingual.svg |
+| Category | C — created separately after image-first review |
+| Image-first review | Reviewed the Commons “Primary zones of a lake” (CC BY-SA 3.0) and “Schematic representation of pelagic and benthic zones” (CC BY-SA 4.0). Their scopes differ; neither alone provides the chapter's bilingual lake/ocean comparison with explicit non-universal boundaries. No source figure copied or traced. https://commons.wikimedia.org/wiki/File:Primary_zones_of_a_lake.png ; https://commons.wikimedia.org/wiki/File:Schematic_representation_of_pelagic_and_benthic_zones.jpg |
+| Scientific review | PASS for conceptual photic/aphotic, littoral/coastal, pelagic and benthic distinctions; no universal depth asserted. |
+| Rights | PENDING — project creator/rightsholder and redistribution licence statement required. |
+| RU/EN | PASS — bilingual title, labels, description, caption and alt text. |
+| Accessibility / technical | PENDING — contrast, reading order, screen-reader and live browser/mobile rendering not tested. |
+| Lifecycle | INTEGRATED; not VERIFIED |
+
+## Chapter 07 — Visual 07-I: biological roles in carbon and nitrogen cycles
+
+| Field | Record |
+|---|---|
+| Asset | geography/assets/diagrams/07-I-carbon-nitrogen-cycles-bilingual.svg |
+| Category | C — created separately as a bilingual synthesis after image-first review |
+| Image-first review | Reviewed the public-domain Commons carbon-cycle diagram by Kevin Saff / FischX and public-domain nitrogen-cycle SVG by Sponk. Existing figures informed the process checklist; no source artwork copied or traced. https://commons.wikimedia.org/wiki/File:Carbon_cycle-cute_diagram.svg ; https://commons.wikimedia.org/wiki/File:Nitrogen_cycle.svg |
+| Scientific review | PASS for the labelled conceptual pathways: photosynthesis, respiration, decomposition, ocean exchange, burial, fixation, nitrification, assimilation, ammonification and denitrification. No quantitative stocks or flux rates asserted. |
+| Rights | PENDING — project creator/rightsholder and redistribution licence statement required. Reference works are identified as public domain on their file pages. |
+| RU/EN | PASS — bilingual title, labels, description, caption and alt text. |
+| Accessibility / technical | PENDING — contrast, reading order, screen-reader and live browser/mobile rendering not tested. |
+| Lifecycle | INTEGRATED; not VERIFIED |
