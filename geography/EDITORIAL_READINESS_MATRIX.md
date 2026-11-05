@@ -478,6 +478,6 @@ A further targeted correction pass was committed across all five chapters: catch
 The current audit distinguishes preliminary AI-assisted screening from formal internal verification. The latter requires a competent reviewer distinct from the creator, with role/competence, date and outcome recorded. This internal sign-off is still pending for 01-A–01-E. External expert/teacher review is optional under policy v1.2 and is not part of this development pass.
 
 
-### Chapter 01 — licence selection update — 5 November 2026
+### Chapter 01 — licence authority confirmation — 5 November 2026
 
 The project owner confirmed on 5 Nov 2026 that they or an authorised project organisation have authority to act as licensor and apply CC BY-NC 4.0 to 01-A, 01-B, 01-C and 01-E. Rights status is PASS on the basis of this owner representation (not an independent legal opinion); attribution: Atlas of Knowledge project. 01-D retains its separate source CC BY 4.0.
