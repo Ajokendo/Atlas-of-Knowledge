@@ -365,23 +365,24 @@ The latest CI run [41910231926](https://github.com/Ajokendo/Atlas-of-Knowledge/a
 **Remaining distinction:** page-render visual QA has now been performed and the identified defects corrected, but Global Image Verification remains **Pending audit**. The remaining visual verification work is asset-specific: confirm fine biological morphology, scientific depiction, photo subject/caption match, and any source-specific caveats at image scale. Independent specialist review and the planned school/device feedback phase are also separate gates; they are not being falsely marked complete here.
 
 
-## Documentary-photo preview review — 5 November 2026
+## Documentary-photo preview review — 5 November 2026 (updated)
 
-A bounded visual review was carried out against the individual Wikimedia Commons file pages and their rendered image previews for the 15 accepted documentary photographs listed in the five regional manifests. Fourteen previews rendered successfully and were inspected; the Commons preview request for the Halys pit viper file returned an HTTP 400 and could not be visually assessed in this pass.
+A bounded visual review was completed against the individual Wikimedia Commons file pages and their rendered image previews for **all 15 accepted documentary photographs** across the five regional briefs. The earlier attempt to open the Chüy Halys pit-viper preview had failed; the preview was subsequently retrieved and inspected successfully.
 
-### Images visually inspected (14/15)
+### Result: 15/15 previews inspected
 
-- **Chüy fauna:** red squirrel (*Sciurus vulgaris*) — the visible subject is consistent with the source caption; the animal occupies a relatively small part of the frame, so the photo is useful as a documentary example but not as a close diagnostic morphology plate.
-- **Chüy habitats:** Ak-Suu gorge, Ala-Archa mountain landscape, Chong-Kemin rocky stream/meadow/woodland, and Chunkurchak red-sandstone canyon — all four previews match their broad landscape/habitat captions. They do not support species-level claims or abundance/distribution inferences.
-- **Jalal-Abad flora:** Arslanbob walnut-forest landscape — the preview is consistent with a wooded Arslanbob landscape; it is not a close-up for identifying individual tree species. Keep the caption at habitat/landscape level.
-- **Issyk-Kul flora:** Tamchy Bay wetland, dry gully above Tamchy, lakeshore sea-buckthorn shrub, and Karakol Valley spruce forest — each preview matches the stated setting. The dry-gully frame must remain a terrain example, not evidence of a named plant community. The sea-buckthorn image visibly shows a shoreline shrub; the spruce identification remains source-supported rather than independently diagnosed from this landscape-scale view.
-- **Naryn flora:** Chatyr-Kul shoreline, Son-Kul lakeshore meadow, and *Clematis songorica* — the two lake photographs match their geographic landscape captions. The clematis preview shows flowering shoots consistent with the source's plant caption, but this visual review is not a specialist taxonomic determination.
-- **Osh flora:** Kulun-Ata river corridor — the preview matches the caption's mountain stream/riparian habitat description; no individual tree species should be inferred from it.
+- **Chüy fauna — 2 animal photographs:** the red-squirrel frame visibly contains a squirrel, consistent with the source caption, but the animal is relatively small and the photograph is not a diagnostic morphology plate. The Halys pit-viper frame visibly contains a snake on a trail, consistent with the source caption and file-page metadata; this preview-level check does not independently establish species identity.
+- **Chüy habitats — 4 photographs:** Ak-Suu gorge, Ala-Archa mountain landscape, Chong-Kemin rocky stream/meadow/woodland, and Chunkurchak red-sandstone canyon all match their broad habitat/landscape captions. None supports species-level, abundance or distribution claims.
+- **Jalal-Abad flora — 1 photograph:** Arslanbob walnut-forest landscape matches its regional landscape caption. It is not a close-up for diagnosing individual tree species.
+- **Issyk-Kul flora — 4 photographs:** Tamchy Bay wetland, dry gully above Tamchy, lakeshore sea-buckthorn shrub, and Karakol Valley spruce forest all match their broad scene captions. The dry-gully image remains a terrain example, not evidence of a named plant community. The sea-buckthorn and spruce identifications are supported by the individual source pages, not independently certified from landscape-scale morphology.
+- **Naryn flora — 3 photographs:** Chatyr-Kul shoreline and Son-Kul lakeshore meadow match their geographic landscape captions. The *Clematis songorica* preview shows flowering shoots consistent with the source's plant caption and exact Naryn locality; this is not a specialist taxonomic determination.
+- **Osh flora — 1 photograph:** Kulun-Ata river corridor matches the caption's mountain stream/riparian habitat description; no individual tree species should be inferred from it.
 
-### Still open
+### Evidence and remaining limits
 
-- fauna-chuy-pit-viper.webp: its source page identifies *Gloydius halys*, but the Commons image preview could not be retrieved in this pass. Do not mark its visual/morphology check complete until the actual image can be opened.
-- The 14 successful inspections used Commons-rendered previews, not a fresh local pixel-by-pixel comparison of every committed WebP derivative. Existing manifest checksums and prior Chromium decode/visibility tests establish provenance and technical loading, not taxonomic certification.
-- The two Rufous-naped Tit candidates remain excluded on the previously documented metadata conflict; they are not part of the 15 accepted-photo denominator.
+- Individual Commons file pages and rendered previews were inspected for all 15 accepted photographs. The checked page metadata was consistent with the recorded author/date/location and the licence recorded in the corresponding asset manifest.
+- The existing build manifests preserve source-original SHA-1 comparisons, source and derivative dimensions/byte counts, and local WebP SHA-256 values. Earlier Chromium runs confirmed local asset decoding and display.
+- The visual inspection used Commons-rendered previews (typically 960 px), not a fresh full-resolution pixel-by-pixel comparison of every committed WebP derivative. It establishes broad scene/caption alignment, not expert species diagnosis or detailed morphology certification.
+- The two Rufous-naped Tit candidates remain excluded because of the previously documented taxonomy metadata conflict; they are not part of the 15-photo accepted denominator.
 
-**Result:** 14/15 accepted documentary-photo previews inspected in this pass; 1/15 visual check blocked by preview retrieval. No proven caption-to-scene mismatch was found in the 14 inspected previews. No image, caption or chapter content was changed as a result. Global Image Verification remains **Pending audit**; this sample does not close the SVG morphology review or independent specialist review.
+**Result:** 15/15 accepted documentary-photo previews inspected; no proven broad scene-to-caption mismatch found. No image or chapter content was changed in this pass. Fine species morphology, independent specialist review and the separate school/device feedback phase remain open. Global Image Verification remains **Pending audit**; do not convert preview review into a VERIFIED status for every photograph.
