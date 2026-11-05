@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Высотный климатический профиль / Altitudinal climate profile</title>
+<desc id="desc">Концептуальный профиль от тёплой сухой долины к горным лесам и степям, субальпийским и альпийским лугам и нивально-ледниковой зоне. Температура обычно снижается с высотой; осадки зависят от экспозиции и региональной циркуляции. Границы приблизительны. / Conceptual profile from a warm dry valley through mountain forests and steppe, subalpine and alpine meadows, to the nival-glacial zone. Temperature generally decreases with elevation; precipitation depends on aspect and regional circulation. Boundaries are approximate.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:20px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.mount{fill:#d8d1c2;stroke:#8b8172;stroke-width:4}.line{stroke:#b45e39;stroke-width:5;fill:none;stroke-dasharray:10 8}</style>
+<rect width="1200" height="720" fill="#fff"/>
+<text x="600" y="52" text-anchor="middle" class="h">Высотная климатическая поясность / Altitudinal climate belts</text>
+<path class="mount" d="M70 570 L220 490 L350 405 L470 330 L590 220 L700 290 L825 380 L970 470 L1130 560 L1130 620 L70 620Z"/>
+<path d="M470 330 L590 220 L700 290 L650 275 L590 250 L520 350Z" fill="#f5f8fa"/>
+<path d="M70 570 L220 490 L350 405 L470 330 L590 220 L700 290 L825 380 L970 470 L1130 560" fill="none" stroke="#647f5c" stroke-width="8"/>
+<g>
+<rect x="85" y="110" width="200" height="90" rx="14" fill="#f2e4c9"/><text x="185" y="145" text-anchor="middle" class="t">Долина</text><text x="185" y="174" text-anchor="middle" class="s">Valley: dry / warm</text>
+<rect x="310" y="110" width="200" height="90" rx="14" fill="#e1edcf"/><text x="410" y="145" text-anchor="middle" class="t">Горные леса и степи</text><text x="410" y="174" text-anchor="middle" class="s">Montane forest / steppe</text>
+<rect x="535" y="110" width="200" height="90" rx="14" fill="#d8e9d4"/><text x="635" y="145" text-anchor="middle" class="t">Субальпийский пояс</text><text x="635" y="174" text-anchor="middle" class="s">Subalpine belt</text>
+<rect x="760" y="110" width="200" height="90" rx="14" fill="#d9e8ef"/><text x="860" y="145" text-anchor="middle" class="t">Альпийский пояс</text><text x="860" y="174" text-anchor="middle" class="s">Alpine belt</text>
+<rect x="985" y="110" width="170" height="90" rx="14" fill="#e8eef5"/><text x="1070" y="145" text-anchor="middle" class="t">Нивальный</text><text x="1070" y="174" text-anchor="middle" class="s">Nival / glacier</text>
+</g>
+<path class="line" d="M150 260 Q430 270 600 330 T1060 445"/>
+<text x="600" y="310" text-anchor="middle" class="t">Температура обычно снижается с высотой / Temperature generally decreases with elevation</text>
+<text x="600" y="665" text-anchor="middle" class="s">Схема не задаёт фиксированные высотные границы: они меняются по региону, экспозиции и влажности. / No fixed elevation limits are implied; belts vary by region, aspect and moisture.</text>
+</svg>
