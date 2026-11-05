@@ -1295,3 +1295,10 @@ A fresh fetch of all ten chapter files found 69 Markdown image embeds:
 - The five external images were located at their cited source pages; this does not substitute for deployed-site image-load, responsive-layout or accessibility testing.
 
 This is a repository path/source check, not a browser test. Image Verification remains separate from Image Coverage.
+
+
+## Chapter 14 — Visual 14-G — source discovery checkpoint — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 14-G | MISSING — no raster or derivative maps integrated | PENDING — NASA SRTM GL1 v003 (~30 m, 2000) and Copernicus GLO-30 (30 m DSM, 2011–2015) identified as candidates; no exact Kyrgyzstan tile or derived raster validated | Candidate terms identified; exact tile-level licence/attribution and public availability must be checked before use | PENDING | PENDING | PENDING | Do not use Copernicus DSM as bare-earth terrain; it includes vegetation/buildings. Obtain actual tile, verify CRS/vertical datum/NoData, then derive slope and aspect reproducibly. |
