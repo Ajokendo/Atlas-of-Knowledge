@@ -30,6 +30,17 @@ This chapter introduces the physical principles of remote sensing, the electroma
 
 ДЗЗ дополняет полевые исследования, а не заменяет их. Спутниковый сигнал требует интерпретации и проверки, особенно если речь идёт о конкретном виде растений, типе почвы, причине изменения или юридическом статусе территории.
 
+
+Remote sensing is based on recording electromagnetic radiation reflected, emitted or scattered by objects and the atmosphere. The measured signals can provide information about surface properties, vegetation, water, snow, ice, cloud cover, temperature and land-use change.
+
+The main platforms are:
+- **satellites:** provide regular observations over large areas and global coverage;
+- **aircraft:** allow surveys with flexible choices of altitude, sensor and timing;
+- **uncrewed aerial vehicles (UAVs):** provide detailed imagery of local areas but are limited by coverage, weather, flight permissions and operating time; and
+- **ground-based and stationary platforms:** support calibration, validation and local monitoring.
+
+Remote sensing complements field research; it does not replace it. Satellite signals require interpretation and validation, especially when identifying a particular plant species, soil type, cause of change or legal status of a territory.
+
 ## 15.2. Электромагнитное излучение и спектральные диапазоны / Electromagnetic Radiation and Spectral Regions
 
 ![Спектральные диапазоны ДЗЗ: видимый, ближний и коротковолновый ИК, тепловой ИК и микроволны / Remote-sensing spectral regions: visible, NIR, SWIR, thermal IR and microwave](../assets/diagrams/15-A-electromagnetic-spectrum-bilingual.svg)
@@ -46,6 +57,18 @@ This chapter introduces the physical principles of remote sensing, the electroma
 - **микроволновый:** радиодиапазон, применяемый в радиолокационных системах и некоторых пассивных наблюдениях.
 
 Границы диапазонов условны и зависят от принятой классификации и характеристик сенсора. Атмосфера поглощает излучение в определённых спектральных областях, поэтому спутниковые датчики часто используют атмосферные «окна», где передача сигнала сравнительно благоприятна.
+
+
+Electromagnetic radiation is characterised by wavelength and frequency. Remote sensing uses visible light, near-infrared and shortwave-infrared regions, thermal infrared radiation and microwaves.
+
+The main regions include:
+- **visible:** approximately 0.4–0.7 μm; the colours perceived by human vision;
+- **near-infrared (NIR):** approximately 0.7–1.3 μm; sensitive to vegetation structure and condition;
+- **shortwave infrared (SWIR):** approximately 1.3–3 μm; useful for analysing moisture, minerals, fires and some surface properties;
+- **thermal infrared (TIR):** wavelengths used to estimate the surface's own thermal emission; and
+- **microwave:** the radio-frequency region used by radar systems and some passive observations.
+
+Band boundaries are approximate and depend on the classification and sensor specifications. The atmosphere absorbs radiation in particular spectral regions, so satellite sensors often use atmospheric “windows” where transmission is relatively favourable.
 
 ## 15.3. Отражение, поглощение и спектральная сигнатура / Reflection, Absorption and Spectral Signature
 
@@ -65,6 +88,19 @@ This chapter introduces the physical principles of remote sensing, the electroma
 
 На спектральный сигнал влияют атмосфера, угол освещения, угол наблюдения, рельеф, тени, сезон и калибровка датчика. Поэтому сравнение снимков требует контроля условий съёмки.
 
+
+When radiation reaches a surface, some energy is reflected, some is absorbed and some may pass through the material. The proportions depend on wavelength, composition, moisture, structure and the condition of the object.
+
+A **spectral signature** is the characteristic variation of an object's reflectance or emission with wavelength. It helps distinguish surface types, but it is not a unique “fingerprint” under all conditions.
+
+Examples:
+- healthy green vegetation usually absorbs much of the red light through chlorophyll and reflects a substantial proportion of near-infrared radiation;
+- water usually has low reflectance in the near-infrared, although the result depends on turbidity, depth, suspended matter and sky reflection;
+- dry and wet soils often have different spectral responses, especially in infrared regions; and
+- snow and ice have characteristic spectral properties, but impurities, crystal size and liquid water alter reflectance.
+
+The atmospheric signal, illumination angle, viewing angle, relief, shadows, season and sensor calibration all affect the measured spectrum. Comparisons between images therefore require control of acquisition conditions.
+
 ## 15.4. Пассивные и активные сенсоры / Passive and Active Sensors
 
 ### Пассивное зондирование / Passive sensing
@@ -82,6 +118,23 @@ This chapter introduces the physical principles of remote sensing, the electroma
 Активный сенсор сам излучает сигнал и регистрирует его отражение или рассеяние. Примеры — радар с синтезированной апертурой (SAR) и лазерное сканирование LiDAR.
 
 Активные системы могут работать независимо от солнечного освещения. Радарные микроволны во многих случаях позволяют получать данные сквозь облачность, однако сигнал зависит от влажности, шероховатости, геометрии наблюдения и структуры объектов. LiDAR измеряет время прохождения лазерного импульса и позволяет получать трёхмерные сведения о поверхности и объектах.
+
+
+### Passive sensing
+
+Passive sensors record natural radiation: reflected sunlight or the Earth's own thermal emission. Optical multispectral and hyperspectral cameras are common examples of passive systems.
+
+Limitations of optical observations include:
+- clouds and smoke can obscure the surface;
+- illumination depends on time of day and season;
+- shadows and relief complicate comparisons; and
+- some spectral regions are strongly absorbed by the atmosphere.
+
+### Active sensing
+
+An active sensor transmits its own signal and records the reflected or scattered response. Examples include synthetic-aperture radar (SAR) and LiDAR laser scanning.
+
+Active systems can operate independently of sunlight. Radar microwaves often allow observations through cloud cover, but the signal depends on moisture, surface roughness, viewing geometry and the structure of objects. LiDAR measures the travel time of a laser pulse and can provide three-dimensional information about the surface and objects.
 
 ## 15.5. Типы спутниковых данных и сенсоров / Satellite Data and Sensor Types
 
@@ -131,6 +184,19 @@ This chapter introduces the physical principles of remote sensing, the electroma
 
 Высокое разрешение одного типа не гарантирует высокого разрешения другого. Для мониторинга быстро меняющихся процессов частые наблюдения могут быть важнее очень мелкого пикселя.
 
+
+Four characteristics are important when interpreting remote-sensing data.
+
+**Spatial resolution** is the ground size of an image element or the level of detail. A 10 m pixel represents an area on the ground; it does not necessarily represent a separate object exactly 10 m across.
+
+**Spectral resolution** is the number, width and position of spectral bands. Narrower and more numerous bands can reveal finer spectral differences.
+
+**Temporal resolution** is the interval between observations of the same area. The actual frequency of usable images also depends on cloud cover, orbit, acquisition mode and data availability.
+
+**Radiometric resolution** is the ability of a sensor to distinguish signal-intensity levels. It is commonly related to the number of bits used in digital representation and to the characteristics of the instrument.
+
+High resolution in one dimension does not guarantee high resolution in another. For monitoring rapidly changing processes, frequent observations may be more important than a very small pixel size.
+
 ## 15.7. Геометрическая и радиометрическая обработка / Geometric and Radiometric Preprocessing
 
 Исходные спутниковые данные могут содержать геометрические и радиометрические искажения. Перед анализом обычно выполняют подготовительные операции.
@@ -146,6 +212,21 @@ This chapter introduces the physical principles of remote sensing, the electroma
 8. контроль качества и документирование параметров.
 
 Не все продукты требуют одинаковой обработки. Например, готовый продукт поверхностного отражения уже прошёл определённые этапы коррекции. Повторная обработка без понимания уровня продукта может ухудшить данные. Для конкретного примера: в продуктах Landsat Collection 2 Level-2 Surface Reflectance цифровые значения преобразуют в отражательную способность по формуле `SR = DN × 0,0000275 − 0,2`; также необходимо использовать соответствующие каналы контроля качества (QA_PIXEL, QA_RADSAT и предусмотренные для данного сенсора дополнительные QA-слои). Эти коэффициенты и битовые маски относятся к указанному продукту Landsat и не должны автоматически переноситься на другие сенсоры или коллекции.
+
+
+Raw satellite data may contain geometric and radiometric distortions. A set of preprocessing operations is normally carried out before analysis.
+
+Common steps include:
+1. checking metadata, acquisition date, sensor and processing level;
+2. geometric correction and orthorectification, where required;
+3. radiometric calibration of digital values;
+4. atmospheric correction to obtain comparable surface-reflectance estimates;
+5. masking clouds, shadows and unwanted areas;
+6. correcting terrain effects in mountainous areas, where necessary;
+7. aligning data to a common grid, projection and spatial resolution; and
+8. quality control and documentation of parameters.
+
+Not all products require the same processing. For example, a surface-reflectance product has already undergone specific correction steps. Reprocessing without understanding the product level may degrade the data. In Landsat Collection 2 Level-2 Surface Reflectance products, digital values are converted to reflectance using the formula SR = DN × 0.0000275 − 0.2; the corresponding quality-assurance layers (QA_PIXEL, QA_RADSAT and any sensor-specific QA layers) must also be used. These coefficients and bit masks apply to the specified Landsat product and should not automatically be transferred to other sensors or collections.
 
 ## 15.8. Цветовые композиции и визуальная интерпретация / Colour Composites and Visual Interpretation
 
@@ -170,6 +251,25 @@ This chapter introduces the physical principles of remote sensing, the electroma
 - сезон и условия съёмки.
 
 Один и тот же объект может выглядеть по-разному в зависимости от сенсора, композиции и даты.
+
+
+Multispectral images are often displayed as colour composites by assigning individual spectral bands to the red, green and blue channels of a screen.
+
+A **true-colour composite** uses visible bands and approximates how human vision perceives a scene. A **false-colour composite** assigns selected bands to artificial display colours to emphasise particular surface properties.
+
+For example, assigning the near-infrared band to the red display channel can make vegetation appear bright because vegetation often strongly reflects NIR radiation. However, a colour in a false-colour composite is not the object's actual visible colour.
+
+Visual interpretation considers:
+- tone and colour;
+- texture;
+- shape;
+- size;
+- shadow;
+- pattern and spatial position;
+- the context of neighbouring features; and
+- season and acquisition conditions.
+
+The same object may look different depending on the sensor, composite and acquisition date.
 
 ## 15.9. Спектральные индексы / Spectral Indices
 
@@ -245,6 +345,23 @@ NBR = \frac{NIR - SWIR2}{NIR + SWIR2}
 
 Матрица ошибок (confusion matrix) показывает совпадения и расхождения между классификацией и эталонными данными. Общая точность не раскрывает все ошибки: важно анализировать точность пользователя и производителя по классам, а также учитывать дисбаланс классов и дизайн выборки.
 
+
+Classification assigns pixels or objects to land-cover categories or other thematic classes.
+
+Main approaches include:
+- **supervised classification:** the algorithm is trained using pre-labelled examples;
+- **unsupervised classification:** the algorithm groups pixels by similarity in spectral characteristics;
+- **object-based analysis:** segments or objects are classified rather than individual pixels; and
+- **machine learning:** algorithms such as Random Forest, Support Vector Machine and neural networks are used.
+
+Typical land-cover classes include forest, shrubland, cropland, pasture, built-up areas, water, snow and ice, and bare soil. The class scheme should match the purpose and scale of the project.
+
+### Training and validation data
+
+Training samples are used to fit the model, while independent validation data are used to assess classification quality. If the same areas are used for both training and validation, the estimated accuracy may be too high.
+
+A **confusion matrix** shows agreement and disagreement between the classification and reference data. Overall accuracy does not reveal every type of error: it is important to examine user's and producer's accuracy for each class and to account for class imbalance and the sampling design.
+
 ## 15.11. Радарное зондирование и SAR / Radar Remote Sensing and SAR
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 15-I / IMAGE PLACEHOLDER 15-I]** Геометрия SAR: боковой обзор, радиолокационный импульс, обратное рассеяние и угол падения; не изображать радар как фотокамеру.
@@ -271,6 +388,27 @@ NBR = \frac{NIR - SWIR2}{NIR + SWIR2}
 
 Радарное изображение не является фотографией в обычном смысле. Яркость пикселя отражает особенности обратного рассеяния и геометрии, поэтому интерпретация требует специальных знаний.
 
+
+Synthetic-aperture radar (SAR) uses microwave pulses and records the backscatter from the surface. Radar data are especially useful where optical observations are limited by cloud cover or the absence of sunlight.
+
+The SAR signal depends on:
+- surface roughness relative to the wavelength;
+- soil and vegetation moisture;
+- object geometry and viewing angle;
+- forest-canopy structure;
+- signal polarisation; and
+- wavelength and sensor parameters.
+
+SAR applications include:
+- flood mapping;
+- monitoring surface deformation using interferometry;
+- estimating soil moisture under suitable conditions;
+- observing forests and agricultural land;
+- monitoring glaciers and sea ice; and
+- detecting changes in infrastructure.
+
+A radar image is not a photograph in the usual sense. Pixel brightness reflects backscatter properties and geometry, so interpretation requires specialist knowledge.
+
 ## 15.12. LiDAR и трёхмерное зондирование / LiDAR and Three-dimensional Remote Sensing
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 15-J / IMAGE PLACEHOLDER 15-J]** Лазерные импульсы и облако точек с отражениями от кроны и поверхности; различить DSM и DTM.
@@ -286,6 +424,17 @@ LiDAR (Light Detection and Ranging) измеряет расстояние по �
 - профили и трёхмерные представления объектов.
 
 Лазерные импульсы могут частично проходить через промежутки в растительном покрове, позволяя получать отражения от разных уровней полога и поверхности земли. Однако плотность точек, характеристики сенсора и алгоритмы классификации определяют качество результата.
+
+
+LiDAR (Light Detection and Ranging) measures distance from the travel time of a laser pulse. Systems can be mounted on aircraft, UAVs, vehicles or satellites.
+
+The output is often represented as a point cloud in which each point has coordinates and additional attributes. Point clouds can be used to create:
+- a digital surface model (DSM);
+- a digital terrain model (DTM);
+- building and vegetation models; and
+- profiles and three-dimensional representations of features.
+
+Laser pulses may pass through gaps in vegetation and return signals from different canopy levels and the ground surface. However, point density, sensor characteristics and classification algorithms determine the quality of the result.
 
 ## 15.13. Мониторинг изменений и временные ряды / Change Detection and Time Series
 
@@ -619,6 +768,18 @@ Commercial availability of an image does not remove legal, licensing or responsi
 8. SAR и LiDAR расширяют возможности наблюдений за счёт радарных и лазерных методов.
 9. Мониторинг изменений требует сопоставимости снимков и учёта сезонности.
 10. ДЗЗ эффективно при сочетании со спутниковыми, полевыми и статистическими данными.
+
+
+1. Remote sensing provides information about the surface and atmosphere without direct contact with the object.
+2. Signals depend on surface spectral properties, the atmosphere and viewing geometry.
+3. Passive and active sensors use different physical principles.
+4. Spatial, spectral, temporal and radiometric resolution describe different properties of data.
+5. Before analysis, consider calibration, atmospheric effects, geometry, relief and the quality of the source product.
+6. Spectral indices help identify surface characteristics but do not replace full classification and validation.
+7. Classification quality is assessed using independent reference data and a confusion matrix.
+8. SAR and LiDAR expand observation capabilities through radar and laser methods.
+9. Change monitoring requires comparable images and consideration of seasonality.
+10. Remote sensing is most effective when combined with satellite, field and statistical data.
 
 ## 15.17. Ключевые понятия / Key Terms
 
