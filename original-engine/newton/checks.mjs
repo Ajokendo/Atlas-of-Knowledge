@@ -109,7 +109,10 @@ const G = M.G, rad = d => d * Math.PI / 180, TG = M.TUG, BD = M.BOARD, DR = M.DR
 { const forces = [[0, -M.W1], [0, -5.0]]; const N = -forces.reduce((s, F) => s + F[1], 0);   // Σ of the other vertical forces, balanced
   keyed(0, 0, N, 'normal force balances weight + press'); }
 keyed(1, 0, M.tension2(25), 'model tension2(25°)');
-{ const v = t => 3.0, a = pder(v, 1); keyed(2, 0, M.M1 * (G + a), 'T = m(g + a) with a = dv/dt of constant velocity'); }
+{ const v = t => 3.0, a = pder(v, 1); keyed(2, 0, M.M1 * (G + a), 'T = m(g + a) with a = dv/dt of constant velocity');
+{ const v = PRACTICE[2][0].choices.map(pnum);
+  check('practice 2.1: all elevator distractors are forces in newtons (no mass×velocity dimensional mix)', PRACTICE[2][0].choices.every(c => / Н$/.test(c)) && v.every((x, i) => near(x, [2 * M.W1, M.W1 / 2, 0, M.W1][i])), v.join(', ') + ' N');
+} }
 { const dt = 1e-3; const v1 = M.PLANE.v + (2400 - M.PLANE.D) / M.PLANE.m * dt; keyed(3, 0, (M.PLANE.m * v1 - M.PLANE.m * M.PLANE.v) / (M.PLANE.m * dt), 'impulse over a short dt ÷ m dt'); }
 keyed(4, 0, M.pushed(M.A1, M.PUSH_T).x, 'model pushed(a1, t).x');
 { const t30 = bisect(t => M.car(t).v - 30, 0, 200); keyed(5, 1, pder(u => M.car(u).v, t30), 'slope of the model’s v(t) at v = 30 m/s'); }
