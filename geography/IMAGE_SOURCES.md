@@ -464,3 +464,12 @@ All five assets passed static source-level SVG checks and were embedded with bil
 | 20-D | Lower Naryn hydropower cascade | AF NWRMP Naryn–Syr Darya basin page identifies the five-plant Lower Naryn cascade (Toktogul, Kurpsai, Tash-Kumyr, Shamaldy-Sai, Uch-Kurgan) and total installed capacity of 2,870 MW. Kambar-Ata projects are shown separately and excluded from the five-plant total. No individual plant capacity is inferred. | C — original hand-coded SVG; source attributed in Chapter 20. Project licence PENDING. | INTEGRATED; sequence and aggregate capacity checked against cited plan; current project status/plant-by-plant details remain outside the graphic. |
 
 Both files passed static SVG source checks and their chapter embeds resolve to existing assets. Neither has live browser or assistive-technology approval. The lake comparison is not a complete substitute for the requested lake map and full morphometric infographic; this limitation is explicit in its caption and description.
+
+
+### Chapter 20-E — transboundary water management
+
+**Source decision:** Existing Chapter 20 bibliography already includes UNECE's Chu–Talas cooperation page, CAWater-Info's Chu–Talas Water Commission yearbook and AF NWRMP basin information for Naryn–Syr Darya. These sources support the conceptual distinction between joint water allocation/infrastructure coordination in Chu–Talas and the wider reservoir–hydropower–irrigation coordination issues in Naryn–Syr Darya. An original bilingual schematic was authored rather than reusing a map whose basin boundaries, dates or licence had not been verified.
+
+- Category C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING.
+- Status: INTEGRATED; conceptual source check PASS; no georeferenced basin boundaries or quantified allocation are claimed.
+- Remaining: project licence, browser rendering, accessibility and future update if formal agreements/operating schedules change.
