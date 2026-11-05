@@ -783,3 +783,17 @@ Artifact retrieved directly from the GitHub Actions run [42042559006](https://gi
 This pass is a manual page-layout review of the 26 screenshots plus targeted full-resolution crops, not a pixel-by-pixel inspection of every scientific illustration. It does not certify species morphology, fine internal diagram labels, scientific correctness of every image, source-to-image identity, image rights for every asset, or screen-reader behavior. Those remain asset-specific internal checks where the register still says they are open. No blanket `VERIFIED` status is assigned.
 
 Latest CI evidence: run `42042559006`, commit `be2882b6`, all workflow steps successful, including static validation, Chromium test of every Biology page and screenshot upload.
+
+
+## Evolution and systematics diagram pass — 5 November 2026
+
+The latest page screenshots were inspected for the evolution, systematics, zoology and microbiology chapters at both responsive widths. Source-level review of the six evolution/systematics SVGs checked titles/descriptions, key labels and conceptual scope:
+
+- `evolution-tree.svg`: clade A+B is labelled in both languages; branch lengths are explicitly schematic and do not encode time or progress.
+- `evolution-homology.svg`: vertebrate forelimb homology and the distinct origin of insect wings are explained bilingually; the horse ulna is described as reduced/partly fused and the third metacarpal as load-bearing.
+- `evolution-timeline.svg`: the main eon scale is proportional and the Phanerozoic panel is explicitly magnified. The Cenozoic label lacked its English equivalent; corrected to “Кайнозой / Cenozoic” and added to targeted regression checks.
+- `systematics-domains.svg`: bacterial/archaeal/eukaryotic distinctions and the non-cellular status of viruses are stated bilingually; peptidoglycan is qualified as common rather than universal in bacterial walls.
+- `systematics-ranks.svg`: taxon names use conventional Latin nomenclature; the rank hierarchy and revision caveat are bilingual.
+- `systematics-tree.svg`: clade definition, sister-group relationships, branch rotation and the non-progressive vertical layout are described in both languages.
+
+The source-label correction is committed in `8c6982be`; regression assertion is in `05b4c59f`. This is a targeted source/content pass, not final certification of every rendered line or species image.
