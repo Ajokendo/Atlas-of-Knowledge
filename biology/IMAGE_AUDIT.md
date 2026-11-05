@@ -413,3 +413,13 @@ The generic fish silhouettes remain explicitly unidentified. No species labels, 
 A closer review of `flora-batken-aygul.svg` found that its enlarged flower detail showed only two stamens, which could misrepresent the flower's androecium. The genus-level description in *Flora of China* states that Fritillaria flowers have six tepals and six stamens (Chen & Mordak, 2000, pp. 127–133): https://www.iplant.cn/foc/pdf/Fritillaria.pdf. The RHS profile independently describes the species' nodding orange-to-yellow flowers and leafy bract tuft: https://www.rhs.org.uk/plants/7364/fritillaria-eduardii/details. A Kyrgyzstan-focused phenology paper reports F. eduardii as a 50–130 cm plant with broad leaves and usually around six nodding orange-red flowers: https://applied-research.ru/en/article/view?id=13153.
 
 **Correction:** the enlarged schematic now depicts six stamens and explicitly labels six tepals and six stamens in both the visual description and its visible annotation. The main plant remains a simplified botanical plate, not a measured specimen or a claim about a fixed flower count per plant. The drawing's morphology was checked against published descriptions; it has not received independent botanist review.
+
+
+## Circulation-flow and domain-comparison corrections — 5 November 2026
+
+A source-level review of two additional diagrams found two actionable issues:
+
+- `anatomy-circulation.svg`: the systemic venous-return route was split into two disconnected blue paths, leaving a visible gap between the body return and the segment entering the right atrium. Replaced them with one continuous, directional path from the body circuit back to the right atrium. This preserves the correct sequence: body → venae cavae/right atrium → right ventricle → pulmonary artery → lungs → pulmonary veins/left atrium → left ventricle → body.
+- `systematics-domains.svg`: the eukaryotic-cell size caveat ended with a Russian/English slash but had no complete English equivalent. Replaced it with two complete concise bilingual statements: eukaryotic cells are often larger, but sizes vary widely.
+
+These are source-level corrections. The updated screenshots and CI checks are pending; no claim of pixel-level visual verification is made yet.
