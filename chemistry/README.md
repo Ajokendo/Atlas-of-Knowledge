@@ -211,3 +211,20 @@ The 100% result applies only to the defined internal technical audit. It must no
 - [ ] Rights/licence records remain PENDING. Internal second-person scientific review and manual visual/accessibility review are not yet recorded as complete. External specialist review is optional and is not a project blocker.
 
 This checkpoint records automated CI evidence only. It is not legal clearance, independent scientific certification, physical-device testing, or final publication approval.
+
+
+### Chemistry visual audit continuation — 5 November 2026
+
+Current focused source-level review has advanced through static visual families CH-V01–CH-V06 (6 of 12 families; 50% of the static-family source-review sequence). This is a work-sequence measure only, not a verification or publication-readiness percentage.
+
+Corrections recorded in `IMAGE_AUDIT.md`:
+- CH-V01: clarified the electron probability-cloud meaning in English and removed orbit-like contour strokes; RU/EN alt text updated.
+- CH-V02: checked isotope particle counts and abundance-weighted mean in both language variants; regression checks guard the six-proton / six-versus-seven-neutron structure and values.
+- CH-V03: clarified that the seven dots are illustrative symbols, not a literal particle count; exact Avogadro count and not-to-scale caveat are explicit in both languages.
+- CH-V04: aligned the English worked coefficient example with the Russian version: `2 × (2 H + 1 O) = 4 H atoms + 2 O atoms`.
+- CH-V05: aligned the English saturated-state description with dynamic equilibrium and undissolved solute; added a distinct solid-phase symbol and explicit seeding-triggered crystallisation for the metastable supersaturated state.
+- CH-V06: added the missing English Brønsted–Lowry donor/acceptor definitions and pH / base-addition graph labels; retained the pH≈7 qualification only for ideal strong-acid/strong-base titration at 25 °C.
+
+Automated regression assertions were added for the corrected bilingual content. The current branch-head run is [42037108063](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42037108063), commit `78538a00195a966a9de3b95979c8540e476d7eb4`: static validation passed; pinned browser-tool installation is still running, so Chromium result is not yet available. Earlier failed runs corresponded to intermediate commits while the new checks were being corrected; do not treat them as the final branch-head result.
+
+Coverage remains 12/12 static families integrated and 7/7 interactive systems integrated. Full seven-gate verification remains 0/12 static families and 0/7 interactive systems; rights/licence evidence and competent second-person scientific review remain PENDING. Manual rendered review and final approval are also open. External specialist review is not an Atlas project requirement.
