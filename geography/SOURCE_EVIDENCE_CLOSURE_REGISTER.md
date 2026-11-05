@@ -831,7 +831,7 @@ The Russian terminology in Section 16.11 was aligned with the English method nam
 ### Chapter 17 — visual integration — 5 November 2026
 
 - The nine in-text IDs and numbered visual briefs have been aligned one-to-one: 17-A location; 17-B physical/elevation; 17-C mountain systems; 17-D basins; 17-E geological evolution; 17-F tectonics/seismicity; 17-G relief processes; 17-H geology/mineral districts; 17-I administrative organisation.
-- Two original bilingual SVGs were created and embedded in both language sections: 17-E geological-evolution timeline and 17-G mountain-relief process profile. Each has Russian and English title, description, labels and alt text. Both are explicitly conceptual and not to scale where applicable.
+- Three original bilingual SVGs were created and embedded in both language sections: 17-C regionalisation comparison, 17-E geological-evolution timeline and 17-G mountain-relief process profile. Each has Russian and English title, description, labels and alt text. Both are explicitly conceptual and not to scale where applicable.
 - Scientific/conceptual fit and RU/EN parity pass for the stated scope. Creator/rightsholder and project-licence evidence remain pending; SVG parsing, responsive display, screen-reader and device checks remain pending. Neither is VERIFIED.
 - Seven visuals remain missing because current national boundaries, administrative geometry, validated elevation data, geological layers or exact reuse terms are not yet established.
 - Image Coverage: 2/9 = 22.2%. Image Verification: 0/2 = 0%. Chapter editorial score remains 78% pending further evidence, proofreading and visual work.
