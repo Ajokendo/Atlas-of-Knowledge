@@ -846,3 +846,9 @@ This is a confirmed rendered-layout defect and source-level correction. The new 
 A full-resolution review of the zoology chapter screenshot found three layout defects in `zoology-anatomy.svg`: the long reptile-group heading reached the right edge of its card; the amphibian illustration extended into its first explanatory row; and the bird and mammal illustrations overlapped their covering/respiration captions. The correction uses a smaller fitted heading style for the reptile panel and proportionally compresses/repositions the amphibian, bird and mammal illustrations within their existing cards. Caption positions and panel boundaries remain unchanged. Targeted regression checks require the fitted heading and illustration transforms.
 
 This is a confirmed page-render defect corrected in source. The current Chromium run must still produce a fresh screenshot for post-fix inspection. The earlier successful browser run predates these corrections; no post-fix visual pass is claimed.
+
+## Biogeochemical-cycle footer clipping correction — 5 November 2026
+
+The latest desktop screenshot showed the bilingual explanatory footer at the bottom of `ecology-cycles.svg` extending beyond the visible right edge. Split the long combined sentence into separate Russian and English centered lines and reduced the footer font to 13 px, keeping both lines inside the existing viewBox. Added regression assertions for the two footer baselines and complete English sentence.
+
+This is a confirmed rendered clipping issue corrected in the SVG source. The new Chromium screenshot remains pending; the previous screenshot cannot be used as post-fix evidence.
