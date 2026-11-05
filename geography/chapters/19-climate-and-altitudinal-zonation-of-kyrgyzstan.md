@@ -435,6 +435,31 @@ Belt boundaries on a schematic map are generalisations, not exact lines for ever
 
 Нельзя автоматически заключать, что каждое отдельное наводнение, оползень или засуха вызваны изменением климата. Атрибуция конкретного события требует специальных исследований. Корректная формулировка: изменение климата может менять вероятность и интенсивность некоторых типов экстремальных явлений, тогда как последствия определяются также землепользованием, инфраструктурой и уязвимостью населения.
 
+### English translation — 19.11
+
+Kyrgyzstan is a mountainous country that is vulnerable to climate change. According to the United Nations Environment Programme's Environmental Change Atlas, the country's mean annual temperature increased by approximately **1.2 °C between 1960 and 2023**, exceeding the global estimate given by the same source for a comparable period. These values refer to a specific dataset and period; other studies may provide different estimates because of differences in baseline period, method and spatial coverage.
+
+Important directions of climate change include:
+1. an increase in mean temperature and in the frequency of hot extremes;
+2. changes in the seasonality of precipitation and greater variability in weather conditions;
+3. changes in the balance between snow and ice accumulation and melt;
+4. possible changes in the seasonal distribution of river runoff;
+5. increased pressure on irrigation, pastures and urban water supply; and
+6. changes in the frequency and intensity of some hazardous events.
+
+It should not be assumed automatically that every individual flood, landslide or drought is caused by climate change. Attribution of a specific event requires dedicated research. A more accurate statement is that climate change may alter the probability and intensity of some types of extreme events, while their impacts are also determined by land use, infrastructure and population vulnerability.
+
+#### 19.11.1 Climate scenarios
+
+Climate projections are produced using global and regional climate models and scenarios of future emissions. They are not exact weather forecasts for a particular year. Results should be presented as ranges and should state:
+- the baseline period;
+- the projection horizon;
+- the emissions scenario;
+- the model or model ensemble;
+- the spatial resolution; and
+- the range of uncertainty.
+
+Uncertainty is particularly important in mountain regions. Large-scale models may not describe local precipitation, wind effects, temperature inversions and complex topography with sufficient detail.
 ### 19.11.1. Климатические сценарии
 
 Климатические проекции строятся на основе глобальных и региональных климатических моделей и сценариев будущих выбросов. Они не являются точным прогнозом погоды на конкретный год. Результаты следует представлять диапазонами, указывая:
