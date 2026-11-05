@@ -551,7 +551,7 @@ The static content review of `chapter-05-climate-diagram-exercise.svg` found tha
 
 ### Confirmed integration gaps — Chapters 06–26 — 5 November 2026
 
-The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **six Markdown image embeds** in this range, representing five integrated visual IDs: 6.1-A (one embed in each language), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks the remaining 204 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
+The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **six Markdown image embeds** in this range, representing five integrated visual IDs: 6.1-A (one embed in each language), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks the remaining 205 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
 
 | Chapter | Required IDs | Integrated assets confirmed | Missing |
 |---:|---:|---:|---:|
