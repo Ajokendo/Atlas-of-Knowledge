@@ -44,7 +44,7 @@ After studying this chapter, readers will be able to explain the extent and func
 | Клеточный / Cellular | Структурная единица жизни / Basic unit of life | Физиологические ограничения организмов / Physiological limits |
 | Организменный / Organismal | Отдельный организм / Individual organism | Ареал и экологическая ниша / Range and ecological niche |
 | Популяционный / Population | Особи одного вида на территории / Individuals of one species in an area | Динамика численности и расселение / Population dynamics and dispersal |
-| Видовой / Species | Эволюционно самостоятельная группа / Evolutionary lineage | Видовое разнообразие / Species diversity |
+| Видовой / Species | Организмы, отнесённые к одному виду; критерии зависят от принятой концепции вида / Organisms classified as one species; criteria depend on the species concept used | Видовое разнообразие / Species diversity |
 | Сообщество / Community | Совокупность популяций разных видов / Interacting populations of different species | Структура биоценоза / Biotic community structure |
 | Экосистемный / Ecosystem | Сообщество и абиотическая среда / Community and abiotic environment | Потоки энергии и вещества / Energy and matter flows |
 | Биомный / Biome | Крупная природная система со сходными климатом и растительностью / Large region with characteristic climate and vegetation | Крупномасштабная зональность / Large-scale zonation |
@@ -121,29 +121,7 @@ After studying this chapter, readers will be able to explain the extent and func
 
 **Проверьте себя:** если хищники накопили 60 кДж из 800 кДж энергии в биомассе добычи, какова эффективность передачи?
 
-### Worked Example: Energy Transfer in a Food Chain
 
-Consider a hypothetical grassland ecosystem. During a selected period, producers (plants) store 12,000 kJ of energy in new biomass. Of this energy, 1,200 kJ is incorporated into the biomass of herbivores.
-
-**Step 1. Calculate the proportion of energy transferred.**
-
-\[
-\eta = \frac{E_{\text{next level}}}{E_{\text{previous level}}}\times 100\%
-\]
-
-\[
-\eta = \frac{1,200}{12,000}\times 100\% = 10\%
-\]
-
-In this hypothetical example, the transfer efficiency from producers to herbivores is **10%**.
-
-**Step 2. Interpret the result correctly.**  
-This does not mean that exactly 10% of energy is transferred at every successive level in all ecosystems. Some energy is not consumed, some is not assimilated, and a substantial share is used for respiration, movement and other processes and dissipated as heat. The calculated value applies only to the stated levels, period and accounting method.
-
-**Step 3. Compare another transfer.**  
-If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in herbivore biomass, the efficiency of this transfer is 90 / 1,200 × 100% = **7.5%**. Efficiencies can differ between transfers.
-
-**Check your understanding:** If predators incorporate 60 kJ from 800 kJ of energy in prey biomass, what is the transfer efficiency?
 
 ---
 
@@ -296,7 +274,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 - распространение инвазивных чужеродных видов;
 - изменение естественных режимов пожаров, паводков и других нарушений.
 
-Инвазивный чужеродный вид — организм, оказавшийся за пределами естественного ареала вследствие прямого или косвенного переноса человеком и вызывающий негативное воздействие на природу, экономику или здоровье. Не каждый чужеродный вид инвазивен: ключевое значение имеет доказанное или вероятное негативное воздействие.
+Инвазивный чужеродный вид — вид, перенесённый человеком за пределы естественного ареала, который закрепляется или распространяется на новой территории и оказывает либо может оказывать неблагоприятное воздействие на биоразнообразие, экосистемы и их услуги, экономику или здоровье человека. Не каждый чужеродный вид инвазивен: одного факта появления за пределами естественного ареала недостаточно.
 
 Фрагментация местообитаний уменьшает площадь пригодных территорий, создаёт барьерные эффекты и усиливает краевые условия. Малые изолированные популяции подвержены генетическому дрейфу, инбридингу и локальному вымиранию. Экологические коридоры могут облегчать перемещение организмов между фрагментами, однако их эффективность зависит от вида, ширины, качества и безопасности коридора.
 
@@ -372,15 +350,6 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 **Учебное задание.** Предложите три показателя для оценки восстановления деградированного горного пастбища через один, три и пять лет. Сначала опишите исходное состояние и выберите подходящую эталонную экосистему или несколько сопоставимых участков. Показатели должны охватывать не только растительный покров, но и состав местных видов, структуру сообщества, состояние почвы и водного режима, экологические функции и связность местообитаний. Для каждого укажите метод измерения, сезон, возможный источник ошибки и критерий, по которому можно судить об улучшении.
 
-Planting trees or increasing vegetation cover does not by itself demonstrate that an ecosystem has been restored. Outcomes must be assessed against the initial condition, the site's ecological context and a realistic project goal. It may not be possible or desirable to recreate a historical state fully, especially where climate and land use have changed.
-
-**What to measure:** survival and natural regeneration of native species; vegetation structure and diversity; soil and water conditions; presence of invasive species; habitat connectivity; and signs that characteristic animal species are returning. For rangelands, livestock pressure, grazing seasonality and ground cover are also important.
-
-**A baseline is essential.** Before work begins, document site conditions and, where possible, select comparable reference sites. Repeat observations in the same seasons using consistent methods. A short-term increase in green biomass does not necessarily indicate recovery of species composition, soil functions or drought resilience.
-
-**Involve local land users.** Restoration measures should account for the rights and practices of pastoral communities, water access, livelihood needs and local knowledge. Otherwise, a technically successful planting effort may fail or shift grazing pressure to neighbouring areas.
-
-**Activity.** Propose three indicators for evaluating restoration of a degraded mountain pasture after one, three and five years. First describe the baseline condition and select an appropriate reference ecosystem or comparable reference sites. The indicators should cover not only vegetation cover but also native-species composition, community structure, soil and water conditions, ecological functions and habitat connectivity. For each indicator, state the measurement method, season, possible source of error and criterion that would indicate improvement.
 
 ## English-language chapter text
 
@@ -561,7 +530,7 @@ Migration allows animals to use seasonal resources and avoid unfavourable condit
 
 Major threats to biodiversity and ecosystem function include habitat conversion and loss through agriculture, urbanisation, infrastructure and resource extraction; landscape fragmentation; overexploitation of biological resources; air, water and soil pollution; climate change and extreme events; invasive alien species; and changes to natural fire, flood and other disturbance regimes.
 
-An **invasive alien species** is an organism moved beyond its natural range through direct or indirect human activity that causes negative impacts on nature, the economy or human health. Not every alien species is invasive: demonstrated or likely harmful impact is the key distinction.
+An **invasive alien species** is a species moved by people, directly or indirectly, beyond its natural range that establishes or spreads in the new area and has, or is likely to have, adverse impacts on biodiversity, ecosystems and their services, the economy or human health. Not every alien species is invasive: occurrence outside its natural range alone is not sufficient.
 
 Habitat fragmentation reduces the area of suitable habitat, creates barriers and increases edge effects. Small isolated populations are vulnerable to genetic drift, inbreeding and local extinction. Ecological corridors may help organisms move between habitat fragments, but their effectiveness depends on species, width, quality and safety.
 
