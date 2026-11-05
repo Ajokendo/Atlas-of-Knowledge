@@ -16,7 +16,7 @@ After studying this chapter, readers will be able to explain the extent and func
 
 
 
-Биосфера — глобальная система Земли, в пределах которой существует жизнь и живые организмы взаимодействуют с атмосферой, гидросферой и верхней частью литосферы. Жизнь обнаруживается в почвах, океанах, пресных водах, на поверхности суши и в нижней части атмосферы. Отдельные микроорганизмы способны существовать в глубоких подземных породах и экстремальных средах, поэтому границы биосферы нельзя представить как одну тонкую и строго фиксированную оболочку.
+Биосфера — глобальная оболочка жизни на Земле. В ней организмы взаимодействуют с атмосферой, гидросферой и верхней частью литосферы. Жизнь существует в почвах, океанах и пресных водах, на поверхности суши и в нижней атмосфере. Некоторые микроорганизмы обитают глубоко в горных породах и в экстремальных условиях. Поэтому биосфера не имеет одной тонкой и строго очерченной границы.
 
 Термин «биосфера» получил научное развитие в работах Эдуарда Зюсса в XIX веке, а целостное учение о биосфере было глубоко разработано Владимиром Вернадским. Он подчёркивал геологическую роль живого вещества: организмы не просто населяют планету, но и преобразуют её химический состав, почвы, осадочные породы и глобальные циклы элементов.
 
@@ -378,7 +378,7 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 
 ### 7.1. The Biosphere: The Realm of Life
 
-The biosphere is Earth's global system in which life exists and living organisms interact with the atmosphere, hydrosphere and upper lithosphere. Life occurs in soils, oceans, fresh waters, on land and in the lower atmosphere. Some microorganisms can survive deep within rocks and in extreme environments, so the biosphere cannot be represented as one thin, precisely fixed shell.
+The biosphere is the global zone of life on Earth. Within it, organisms interact with the atmosphere, hydrosphere and upper lithosphere. Life occurs in soils, oceans and fresh waters, on land and in the lower atmosphere. Some microorganisms live deep within rocks and in extreme environments. The biosphere therefore has no single, sharply defined boundary.
 
 The term “biosphere” was developed scientifically in the work of Eduard Suess in the nineteenth century. Vladimir Vernadsky later developed a comprehensive theory of the biosphere and emphasised the geological role of living matter: organisms do not merely inhabit the planet; they transform its chemical composition, soils, sedimentary rocks and global element cycles.
 
