@@ -112,14 +112,14 @@ Full browser/axe/Chromium CI run [41822905607](https://github.com/Ajokendo/Atlas
 
 | Gap | Scope | Required action | Closure evidence |
 |---|---|---|---|
-| Focused final-art visual inspection | Assets with pending notes in `IMAGE_DISPOSITION_REGISTER.md` (45 of 53 disposition-register rows contain at least one explicit pending/open note; 33 of 53 brief-review rows contain an explicit pending visual, browser or morphology note) | Inspect actual rendered asset at desktop and narrow mobile widths; compare with approved scientific brief | Dated pass/fail entry per asset |
+| Focused final-art visual inspection | Assets with pending notes in `IMAGE_DISPOSITION_REGISTER.md` (45 of 53 disposition-register rows contain at least one explicit pending/open note; 37 of 53 brief-review rows contain an explicit pending visual, browser or morphology note) | Inspect actual rendered asset at desktop and narrow mobile widths; compare with approved scientific brief | Dated pass/fail entry per asset |
 | Scientific morphology / scene review | Species-specific and regional wildlife/plant visuals | Verify diagnostic features, locality claims and ecological relationships; keep generic labels where identification is uncertain | Reviewer, evidence/source and decision |
 | Bilingual semantic equivalence | All figures with RU/EN text | Compare caption, alt text, embedded labels, units and scientific names | RU/EN audit result per asset |
 | Live attribution comparison | Third-party photo figures | Compare visible credit/source/licence links with the individual source page and licence terms | Dated rights check per source |
 | Physical-device / assistive technology | 13 pages | Execute the separate manual test plan in the actual environments | Completed test record; never infer from CI |
 | Offline availability | Local images and any future remote assets | Test offline behaviour only if offline support is an intended feature | Explicit result; currently not tested |
 
-The counts are intentionally separate: 45/53 rows in the disposition register contain at least one explicit pending/open note (including rights and asset-specific QA), while 33/53 rows in the brief-review table contain an explicit pending visual, browser or morphology note. These are triage counts, not pass rates; absence of a note is not a PASS.
+The counts are intentionally separate: 45/53 rows in the disposition register contain at least one explicit pending/open note (including rights and asset-specific QA), while 37/53 rows in the brief-review table contain an explicit pending visual, browser or morphology note. These are triage counts, not pass rates; absence of a note is not a PASS.
 
 ## 8. Status vocabulary and acceptance rule
 
@@ -158,7 +158,7 @@ Report these separately:
 **Current measured values (5 November 2026):**
 
 - **Image Coverage: 100% (53/53).** A scan of the 12 chapter HTML pages found 59 semantic `<figure>` elements in total: 57 figures containing external `<img>` elements and 2 figures containing inline SVG. The 57 image figures have alt attributes and visible captions; all local generated-image targets resolve. The 53/53 value is the number of mapped visual briefs, not the raw number of HTML figure elements.
-- **Image Verification: Pending audit (percentage not yet defensible).** The disposition register contains 45/53 rows with at least one explicit pending/open note; the brief-review table contains 33/53 rows with pending visual, browser or morphology notes. No 100% verification claim is permitted until every applicable per-asset human check is recorded.
+- **Image Verification: Pending audit (percentage not yet defensible).** The disposition register contains 45/53 rows with at least one explicit pending/open note; the brief-review table contains 37/53 rows with pending visual, browser or morphology notes. No 100% verification claim is permitted until every applicable per-asset human check is recorded.
 - **Image Gaps: 0 confirmed missing required briefs/assets.** This is a production-gap count only; an asset may still require correction or replacement if its pending scientific or visual review fails.
 
 These three measures are deliberately separate. The 53/53 figure count establishes integration coverage, not scientific/legal/bilingual verification.
@@ -700,7 +700,7 @@ This section supersedes older status summaries and policy references in this fil
 - **Production coverage:** 53/53 mapped visual briefs (100%). This is not an Image Verification score.
 - **SVG source inventory:** 48 original SVG files. A source sweep found a valid SVG root, `viewBox`, closing tag and bilingual `title`/`desc` in all 48; no embedded script, `foreignObject`, external/data URI or embedded raster `image` element was detected.
 - **HTML figure inventory:** 59 semantic figures, 57 with external image elements and 2 with inline SVG. The 57 image figures have alt attributes and visible bilingual captions; local generated-image targets resolve.
-- **Pending-note reconciliation:** 45/53 disposition-register rows have at least one explicit pending/open note; 33/53 brief-review rows have explicit pending visual/browser/morphology notes. Neither count is a pass rate.
+- **Pending-note reconciliation:** 45/53 disposition-register rows have at least one explicit pending/open note; 37/53 brief-review rows have explicit pending visual/browser/morphology notes. Neither count is a pass rate.
 - **Latest full browser workflow before the current regression-test changes:** run [42041825012](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42041825012), commit `79b512de`, passed. Its Chromium suite exercised all 13 Biology pages at 390×844 and 1365×900, image decoding/intrinsic dimensions, visible inline-SVG geometry, horizontal overflow, accessibility and language switching; desktop screenshots were uploaded. A successful automated run is not a substitute for manual pixel-level inspection of every screenshot.
 - **Governance correction:** archived external-review documents are historical records only. No external reviewer, specialist, teacher, school, institution, certification or sign-off is a project task, blocker, metric or acceptance gate. Published sources remain evidence for internal fact-checking.
 - **Current remaining work:** resolve actual internal morphology/source/rights issues; complete screenshot-level visual inspection where screenshots are accessible to the project team; and complete internal accessibility/device checks where feasible. If an image detail cannot be supported, simplify or qualify it rather than inventing certainty.
