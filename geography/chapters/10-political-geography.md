@@ -597,6 +597,27 @@ A line on a political map may represent a boundary with a particular legal and c
 ### Worked example: comparing voter turnout across districts
 
 
+### Worked example: comparing voter turnout across districts
+
+The figures below are hypothetical and do not describe a real election. For this exercise, turnout means the number of people who cast a ballot divided by the number of registered voters. In real datasets, check the election authority's exact definition and whether the numerator includes all ballots cast, including blank or invalid ballots.
+
+| Indicator | District A | District B | Total |
+|---|---:|---:|---:|
+| Registered voters | 9,000 | 4,000 | 13,000 |
+| People who cast a ballot | 7,200 | 2,400 | 9,600 |
+| Turnout | 80% | 60% | 73.8% |
+
+**Step 1.** Calculate turnout in each district by dividing the number of people who cast a ballot by the number of registered voters and multiplying by 100%.
+
+- District A: 7,200 ÷ 9,000 × 100% = 80%.
+- District B: 2,400 ÷ 4,000 × 100% = 60%.
+
+**Step 2.** Calculate regional turnout from the combined totals: 9,600 ÷ 13,000 × 100% ≈ 73.8%.
+
+**Why not simply average the percentages?** The unweighted average is (80% + 60%) ÷ 2 = 70%. It is not the regional turnout because the districts have different numbers of registered voters. Calculate the regional rate from the combined totals, or use a weighted average in which each district's contribution reflects its registered electorate.
+
+**Main lesson:** the absolute number of people who voted and the turnout percentage answer different questions. District A had more voters, but turnout is better compared as a share of registered voters. Turnout alone does not explain why people voted or abstained; further research is needed.
+
 
 ### English Summary
 
