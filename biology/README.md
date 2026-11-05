@@ -5,21 +5,18 @@
 
 Third subject area of the unified **Atlas of Knowledge** portal.
 
-## Visual production checkpoint — updated 5 November 2026
-- 53/53 mapped illustration briefs have produced or integrated assets (100% production/integration coverage). The Genetics-page horizontal-overflow issue found during an earlier browser run was addressed with a responsive media/figure guard; the latest full Biology Chromium CI run [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829) passed all validation and browser-smoke steps across the Biology pages. This automated result does not replace detailed human review of every illustration or hands-on device/screen-reader testing.
-- The dated 4 November and earlier production notes below are retained as historical development records; their interim counts and pending-CI statements are superseded by this update.
-- 53 of 53 mapped illustration briefs are produced or integrated (100%); no mapped brief remains deferred or pending. The authoritative per-asset status and evidence are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
-- Added `genetics-translation.svg`, a bilingual ribosome diagram showing 5′→3′ mRNA reading, complementary codon–anticodon pairing, tRNA delivery and peptide-bond formation.
-- Added `genetics-mutations.svg`, a bilingual comparison of synonymous substitution, single-nucleotide insertion and deletion, with reading-frame effects explained.
-- Added `genetics-dna-packaging.svg`, showing the DNA double helix, nucleosomes, dynamic chromatin loops and the metaphase chromosome.
-- Added `biology-cover.svg` to the Biology landing page: an unlabelled panorama from DNA and cell to plant, animal and mountain ecosystem.
-- Added `zoology-vertebrates.svg`, comparing the five familiar school-level vertebrate groups and clarifying their cladistic relationship.
-- Added `evolution-tree.svg`, showing the common ancestor, highlighted A+B clade and sister-group relationships without implying an evolutionary ladder.
-- Added `flora-altitude.svg`, a bilingual Kyrgyzstan vegetation mosaic from foothill semi-desert to alpine meadows, without fixed elevation claims.
-- Added the original bilingual `fauna-invertebrates.svg` comparison plate to the Kyrgyzstan fauna chapter. It distinguishes insect and arachnid body plans and does not claim to be a regional species inventory.
-- Added the bilingual `systematics-tree.svg` teaching diagram to the systematics chapter: nodes, branches, sister groups, the A+B clade, and a rotated equivalent tree.
-- Added `evolution-homology.svg` to the evolution chapter, comparing homologous tetrapod forelimbs and analogous bird/insect flight wings.
-- Added `evolution-timeline.svg`, with a proportionate 4.54-billion-year eon scale and a separate magnified Phanerozoic timeline.
+## Current project status — updated 5 November 2026
+
+- **Visual production/integration coverage: 53/53 mapped briefs (100%).** This is asset coverage only, not 100% visual verification or whole-atlas completion. The per-asset evidence and dispositions are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
+- The Biology branch contains 13 bilingual HTML pages. The latest 13 governance/documentation CI runs on `workspace/biology` completed successfully. This confirms automated repository validation for those commits; it does not by itself establish scientific accuracy, complete image review or physical-device accessibility.
+- **Working editorial-readiness estimate: 99/100.** This is an internal staged estimate, not a completion percentage, external certification or proof that every claim and visual has been fully verified. It is retained pending completion of the remaining internal source, bilingual and visual QA; no score increase is claimed in this update.
+- **External review is outside project scope.** No external expert, reviewer, teacher or institution is to be recruited or asked to assess, approve or sign off the Atlas. Historical review packets are archived and inactive. Internal fact-checking against published scientific literature and official datasets remains part of the work.
+- Remaining internal QA is tracked by the relevant audit files: claim-level evidence and uncertainty; taxonomy/locality/date/numerical consistency; asset provenance and licence; detailed visual rendering; bilingual labels/captions; and hands-on accessibility/device checks where the project team has the required environment. Unavailable environments must be marked “not tested”, not inferred as passed.
+
+## Visual production record
+- The 53/53 register includes original bilingual diagrams and sourced photographs with local derivatives and attribution records.
+- Recent additions include genetics translation, mutations and DNA packaging diagrams; Biology cover art; zoology vertebrate comparison; evolution tree and timeline; and regional flora/fauna habitat illustrations.
+- Historical production notes below are retained as a dated development record. Their interim counts and scores do not supersede the current status above.
 
 ## Languages and design
 - Russian and English versions are available on every page.
