@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
 <title id="title">Global climate belts / Климатические пояса мира</title>
-<desc id="desc">Bilingual conceptual diagram showing mirrored latitudinal climate belts from the North Pole through the Equator to the South Pole, with schematic curved boundaries and seasonal shifts.</desc>
+<desc id="desc">Bilingual conceptual diagram showing seven broad climatic belts in each hemisphere: polar, subpolar, temperate, subtropical, tropical and subequatorial, with one equatorial belt; boundaries are schematic and seasonally shifting.</desc>
 <defs><linearGradient id="sea" x2="0" y2="1"><stop stop-color="#e7f1f7"/><stop offset="1" stop-color="#d5e6ef"/></linearGradient><clipPath id="clip"><rect x="80" y="150" width="1040" height="430" rx="22"/></clipPath><pattern id="texture" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.4" fill="#fff" opacity=".45"/></pattern></defs>
 <rect width="1200" height="760" fill="#fbfcfe"/>
 <text x="600" y="54" font-family="Arial,sans-serif" font-size="31" font-weight="700" text-anchor="middle" fill="#17324d">Климатические пояса мира</text>
@@ -8,33 +8,37 @@
 <text x="600" y="124" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#526879">Условная широтная модель обоих полушарий / Conceptual latitudinal model of both hemispheres</text>
 <g clip-path="url(#clip)">
 <rect x="80" y="150" width="1040" height="430" fill="url(#sea)"/>
-<path d="M80 150H1120V190C960 178 860 202 700 190S390 178 250 195S130 182 80 190Z" fill="#8eb6d8"/>
-<path d="M80 190C130 182 250 195 390 178S540 180 700 190S960 178 1120 190V230C960 218 860 242 700 230S390 218 250 235S130 222 80 230Z" fill="#a9c8df"/>
-<path d="M80 230C130 222 250 235 390 218S540 220 700 230S960 218 1120 230V270C960 258 860 282 700 270S390 258 250 275S130 262 80 270Z" fill="#c8d9c8"/>
-<path d="M80 270C130 262 250 275 390 258S540 260 700 270S960 258 1120 270V310C960 298 860 322 700 310S390 298 250 315S130 302 80 310Z" fill="#e5dcae"/>
-<path d="M80 310C130 302 250 315 390 298S540 300 700 310S960 298 1120 310V345C960 333 860 357 700 345S390 333 250 350S130 337 80 345Z" fill="#e8c08e"/>
-<path d="M80 345C130 337 250 350 390 333S540 335 700 345S960 333 1120 345V385C960 373 860 397 700 385S390 373 250 390S130 377 80 385Z" fill="#e7a77d"/>
-<path d="M80 385C130 377 250 390 390 373S540 375 700 385S960 373 1120 385V420C960 408 860 432 700 420S390 408 250 425S130 412 80 420Z" fill="#e8c08e"/>
-<path d="M80 420C130 412 250 425 390 408S540 410 700 420S960 408 1120 420V460C960 448 860 472 700 460S390 448 250 465S130 452 80 460Z" fill="#e5dcae"/>
-<path d="M80 460C130 452 250 465 390 448S540 450 700 460S960 448 1120 460V500C960 488 860 512 700 500S390 488 250 505S130 492 80 500Z" fill="#c8d9c8"/>
-<path d="M80 500C130 492 250 505 390 488S540 490 700 500S960 488 1120 500V540C960 528 860 552 700 540S390 528 250 545S130 532 80 540Z" fill="#a9c8df"/>
-<path d="M80 540C130 532 250 545 390 528S540 530 700 540S960 528 1120 540V580H80Z" fill="#8eb6d8"/>
+<path d="M80 150 C250 143 390 157 600 150 C810 143 950 157 1120 150 L1120 183 C950 190 810 176 600 183 C390 190 250 176 80 183 Z" fill="#8eb6d8"/>
+<path d="M80 183 C250 176 390 190 600 183 C810 176 950 190 1120 183 L1120 216 C950 223 810 209 600 216 C390 223 250 209 80 216 Z" fill="#a9c8df"/>
+<path d="M80 216 C250 209 390 223 600 216 C810 209 950 223 1120 216 L1120 249 C950 256 810 242 600 249 C390 256 250 242 80 249 Z" fill="#c8d9c8"/>
+<path d="M80 249 C250 242 390 256 600 249 C810 242 950 256 1120 249 L1120 282 C950 289 810 275 600 282 C390 289 250 275 80 282 Z" fill="#e5dcae"/>
+<path d="M80 282 C250 275 390 289 600 282 C810 275 950 289 1120 282 L1120 315 C950 322 810 308 600 315 C390 322 250 308 80 315 Z" fill="#e8c08e"/>
+<path d="M80 315 C250 308 390 322 600 315 C810 308 950 322 1120 315 L1120 348 C950 355 810 341 600 348 C390 355 250 341 80 348 Z" fill="#e7a77d"/>
+<path d="M80 348 C250 341 390 355 600 348 C810 341 950 355 1120 348 L1120 381 C950 388 810 374 600 381 C390 388 250 374 80 381 Z" fill="#d98f76"/>
+<path d="M80 381 C250 374 390 388 600 381 C810 374 950 388 1120 381 L1120 414 C950 421 810 407 600 414 C390 421 250 407 80 414 Z" fill="#e7a77d"/>
+<path d="M80 414 C250 407 390 421 600 414 C810 407 950 421 1120 414 L1120 447 C950 454 810 440 600 447 C390 454 250 440 80 447 Z" fill="#e8c08e"/>
+<path d="M80 447 C250 440 390 454 600 447 C810 440 950 454 1120 447 L1120 480 C950 487 810 473 600 480 C390 487 250 473 80 480 Z" fill="#e5dcae"/>
+<path d="M80 480 C250 473 390 487 600 480 C810 473 950 487 1120 480 L1120 513 C950 520 810 506 600 513 C390 520 250 506 80 513 Z" fill="#c8d9c8"/>
+<path d="M80 513 C250 506 390 520 600 513 C810 506 950 520 1120 513 L1120 546 C950 553 810 539 600 546 C390 553 250 539 80 546 Z" fill="#a9c8df"/>
+<path d="M80 546 C250 539 390 553 600 546 C810 539 950 553 1120 546 L1120 580 C950 587 810 573 600 580 C390 587 250 573 80 580 Z" fill="#8eb6d8"/>
 <rect x="80" y="150" width="1040" height="430" fill="url(#texture)"/>
-<g font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#17324d" text-anchor="middle">
-<text x="600" y="176">ПОЛЯРНЫЙ / POLAR</text>
-<text x="600" y="216">СУБПОЛЯРНЫЙ / SUBPOLAR</text>
-<text x="600" y="256">УМЕРЕННЫЙ / TEMPERATE</text>
-<text x="600" y="296">СУБТРОПИЧЕСКИЙ / SUBTROPICAL</text>
-<text x="600" y="331">ТРОПИЧЕСКИЙ / TROPICAL</text>
+<g font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#17324d" text-anchor="middle">
+<text x="600" y="172">ПОЛЯРНЫЙ / POLAR</text>
+<text x="600" y="205">СУБПОЛЯРНЫЙ / SUBPOLAR</text>
+<text x="600" y="238">УМЕРЕННЫЙ / TEMPERATE</text>
+<text x="600" y="271">СУБТРОПИЧЕСКИЙ / SUBTROPICAL</text>
+<text x="600" y="304">ТРОПИЧЕСКИЙ / TROPICAL</text>
+<text x="600" y="337">СУБЭКВАТОРИАЛЬНЫЙ / SUBEQUATORIAL</text>
 <text x="600" y="370">ЭКВАТОРИАЛЬНЫЙ / EQUATORIAL</text>
-<text x="600" y="406">ТРОПИЧЕСКИЙ / TROPICAL</text>
-<text x="600" y="446">СУБТРОПИЧЕСКИЙ / SUBTROPICAL</text>
-<text x="600" y="486">УМЕРЕННЫЙ / TEMPERATE</text>
-<text x="600" y="526">СУБПОЛЯРНЫЙ / SUBPOLAR</text>
-<text x="600" y="566">ПОЛЯРНЫЙ / POLAR</text>
+<text x="600" y="403">СУБЭКВАТОРИАЛЬНЫЙ / SUBEQUATORIAL</text>
+<text x="600" y="436">ТРОПИЧЕСКИЙ / TROPICAL</text>
+<text x="600" y="469">СУБТРОПИЧЕСКИЙ / SUBTROPICAL</text>
+<text x="600" y="502">УМЕРЕННЫЙ / TEMPERATE</text>
+<text x="600" y="535">СУБПОЛЯРНЫЙ / SUBPOLAR</text>
+<text x="600" y="568">ПОЛЯРНЫЙ / POLAR</text>
 </g>
-<path d="M80 365H1120" stroke="#fff" stroke-width="3" stroke-dasharray="9 6"/>
-<text x="1085" y="358" font-family="Arial,sans-serif" font-size="14" fill="#17324d" text-anchor="end">0° — экватор / Equator</text>
+<path d="M80 364H1120" stroke="#fff" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="1085" y="357" font-family="Arial,sans-serif" font-size="14" fill="#17324d" text-anchor="end">0° — экватор / Equator</text>
 </g>
 <rect x="80" y="150" width="1040" height="430" rx="22" fill="none" stroke="#56758a" stroke-width="2"/>
 <g font-family="Arial,sans-serif" fill="#334e62" font-size="15"><text x="80" y="610">90° с.ш. / N</text><text x="80" y="636">Северное полушарие / Northern Hemisphere</text><text x="1120" y="610" text-anchor="end">90° ю.ш. / S</text><text x="1120" y="636" text-anchor="end">Южное полушарие / Southern Hemisphere</text></g>
