@@ -52,7 +52,8 @@ async function checkLab(lab, mobile) {
       const atlas = window.__atlas;
       const renderer = atlas?.E?.renderer;
       return !!renderer && renderer.info.render.frame > 0 &&
-        Object.keys(atlas.E.ASM || {}).length > 0;
+        Object.keys(atlas.E.ASM || {}).length === 20 &&
+        document.querySelector('.scene-picker')?.options.length === 21;
     }, undefined, { timeout: 15000 });
 
     const state = await page.evaluate(() => {
@@ -109,13 +110,15 @@ async function checkLab(lab, mobile) {
       document.querySelector('#sheet h1')?.textContent?.trim() !== oldTitle, before, { timeout: 15000 });
 
     const visitedTitles = [];
+    let previousTitle = (await page.locator('#sheet h1').innerText()).trim();
     for (let i = 0; i < state.pages; i++) {
       await page.locator('#dots button').nth(i).click();
-      await page.waitForFunction(index => {
+      await page.waitForFunction(oldTitle => {
         const title = document.querySelector('#sheet h1')?.textContent?.trim();
-        return !!title && document.querySelectorAll('#dots button').length === index;
-      }, state.pages, { timeout: 10000 });
-      visitedTitles.push((await page.locator('#sheet h1').innerText()).trim());
+        return !!title && title !== oldTitle;
+      }, previousTitle, { timeout: 10000 });
+      previousTitle = (await page.locator('#sheet h1').innerText()).trim();
+      visitedTitles.push(previousTitle);
     }
     if (visitedTitles.length !== 11 || new Set(visitedTitles).size !== 11) {
       throw new Error('Not all 11 kinematics pages rendered a distinct heading');
