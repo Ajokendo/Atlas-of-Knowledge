@@ -85,7 +85,9 @@ This chapter introduces spatial data, coordinate reference systems, geographic d
 
 ## 14.4. Координаты и системы координат / Coordinates and Coordinate Reference Systems
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-B / IMAGE PLACEHOLDER 14-B]** Схема географических координат, эллипсоида, геоида и проекции; указать, что градусы не подходят для прямого измерения локальных расстояний.
+![Система координат: модель Земли, географические координаты и проекция; отдельная вертикальная система высот / Coordinate reference system: Earth model, geographic coordinates and projection; separate vertical height reference](../assets/diagrams/14-B-coordinate-reference-system-bilingual.svg)
+
+*Оригинальная двуязычная схема; геоид и эллипсоид не тождественны, а вертикальная система отсчёта выбирается отдельно. / Original bilingual diagram; the geoid and ellipsoid are not identical, and a vertical reference is selected separately.*
 > **EN:** Geographic-coordinate diagram showing the ellipsoid, geoid and map projection; explain that angular degrees are not suitable for directly measuring local distances.
 
 Координатная система позволяет определить положение объекта на Земле или на плоскости. Географические координаты обычно задаются широтой и долготой, а проецированные координаты — линейными величинами, например метрами.
