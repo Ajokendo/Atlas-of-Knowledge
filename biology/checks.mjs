@@ -779,7 +779,9 @@ for (const row of p1DispositionRows) {
   if (filename && !imageScientificReview.includes(filename)) errors.push("IMAGE_SCIENTIFIC_REVIEW.md is missing P1 asset " + filename);
 }
 if (!imageScientificReview.includes("13 P1") && !imageScientificReview.includes("13-item P1")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must document the complete P1 review scope");
-if ((imageScientificReview.match(/\b(?:flora|fauna)-[a-z-]+\.webp\b/g) || []).length !== 13) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must review all 13 P1 assets");
+const p1ScientificReviewSection = imageScientificReview.split("## Supplemental Aygul generated plate")[0];
+const reviewedP1WebpAssets = new Set(p1ScientificReviewSection.match(/\b(?:flora|fauna)-[a-z-]+\.webp\b/g) || []);
+if (reviewedP1WebpAssets.size !== 13) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must review all 13 P1 assets (supplemental non-P1 illustrations are excluded)");
 if (!imageScientificReview.includes("Fritillaria eduardii") || !imageScientificReview.includes("Petilium eduardii")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must preserve accepted Aygul name and synonym");
 if (!imageScientificReview.includes("Panthera uncia") || !imageScientificReview.includes("Uncia uncia")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must explain current and historical snow-leopard nomenclature");
 if (!imageScientificReview.includes("country-level presence is not") && !imageScientificReview.includes("country-level presence")) errors.push("IMAGE_SCIENTIFIC_REVIEW.md must prohibit unsupported oblast/locality inference");
