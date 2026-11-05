@@ -1,5 +1,8 @@
 # Independent review tracking register — Atlas of Biology
 
+> **ARCHIVED — OUTSIDE THE ATLAS PROJECT SCOPE (5 November 2026).** This register is retained as historical context only. All “Pending” reviewer fields and counts below are inactive legacy placeholders, not open Atlas tasks or blockers. Do not recruit, assign, chase, receive or record external reviews here. External assessment and sign-off are excluded from this project; any separate external activity must use separate records outside this repository. Internal verification is documented in the active project audit files.
+
+
 **Date created:** 1 November 2026  
 **Branch:** `workspace/biology`  
 **Purpose:** archived optional-consultation tracker. Internal G4/G5 are complete; this register is not an active completion requirement.  
