@@ -175,8 +175,9 @@ Changes in temperature and precipitation affect crop yields, pests, water availa
 
 ## 13.6. Биоразнообразие и изменение экосистем / Biodiversity and Ecosystem Change
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-B / IMAGE PLACEHOLDER 13-B]** Инфографика трёх уровней биоразнообразия и основных драйверов его утраты.
-> **EN:** Infographic showing the three levels of biodiversity and the main drivers of biodiversity loss.
+![Уровни биоразнообразия и факторы утраты / Levels of biodiversity and drivers of loss](../assets/diagrams/13-B-biodiversity-levels-drivers-bilingual.svg)
+
+*Пять прямых факторов изменений природы соответствуют рамке IPBES; косвенные социальные и экономические причины действуют через них. / The five direct drivers align with the IPBES framework; indirect social and economic causes act through them.*
 
 Биоразнообразие включает генетическое, видовое и экосистемное разнообразие. Его утрата связана с преобразованием местообитаний, чрезмерной эксплуатацией ресурсов, загрязнением, климатическими изменениями и инвазивными видами.
 
