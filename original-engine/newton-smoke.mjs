@@ -116,6 +116,7 @@ async function checkChapterPage(viewport, mobile) {
     const response = await page.goto(`${base}/chapters/newton-laws.html`, { waitUntil: 'domcontentloaded', timeout: 20000 });
     if (!response?.ok()) throw new Error(`Chapter page HTTP ${response?.status() ?? 'missing'}`);
     await page.getByRole('heading', { name: 'Законы Ньютона', exact: true }).waitFor();
+    await page.screenshot({ timeout: 60000, animations: 'disabled', scale: 'css', path: `${screenshotRoot}/chapter-page-${mobile ? 'mobile' : 'desktop'}-top.png` });
     const required = [
       '1. Первый закон: закон инерции',
       '2. Второй закон: связь силы и ускорения',
