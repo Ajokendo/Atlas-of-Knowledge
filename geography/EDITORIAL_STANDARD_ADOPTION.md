@@ -49,7 +49,7 @@ Commit: `8ce1a147f3dfc1b07689355cd84658046501ae61`.
 ## Current known limitations
 
 - The chapter-level inventory rows currently sum to 283 visual positions, but the exact unique-ID total remains unresolved because two Chapter 05 labels are not yet identified. These positions are briefs/slots, not completed illustrations.
-- A direct repository scan found 56 local SVG assets across Chapters 01–05 and 18–20. File presence and basic SVG accessibility structure do not establish authorship, licence, scientific approval or final accessibility; many individual creator/rightsholder and project-licence records remain Unknown / PENDING.
+- A direct repository scan found 57 local SVG assets across Chapters 01–06 and 18–20. File presence and basic SVG accessibility structure do not establish authorship, licence, scientific approval or final accessibility; many individual creator/rightsholder and project-licence records remain Unknown / PENDING.
 - The Markdown chapter files contain Russian and English material, but the landing-page language switch does not yet filter chapter content.
 - A rendered chapter reader, full browser testing, mobile-device testing, keyboard/contrast audit and final deployment verification remain separate tasks.
 - Source links and claims still require systematic verification; a bibliography heading is not proof that every citation supports its adjacent statement.
@@ -78,7 +78,7 @@ Geography adopts the complete mandatory workflow, status vocabulary, evidence re
 
 Classify each asset as A — Original reuse, B — Adapted or C — Created, separately from rights status. The atlas-wide source relationship is not yet established comprehensively; do not label the atlas wholly original, derivative or mixed without evidence. Record source lineage and creator/rightsholder per asset. Unknown provenance, permission or adaptation rights remain Unknown / PENDING. Repository ownership does not establish authorship or permission. Do not repeat discovery searches for identifiable unchanged inherited assets solely to satisfy image-first; verify lineage, rights, accuracy, localisation, accessibility and rendering. Search for replacements when assets are missing, unsuitable, inaccurate, inaccessible, rights-restricted or need replacement. Translation of surrounding captions/alt text alone does not change the visual category; translation of embedded labels or other substantive visual edits is an adaptation.
 
-**Current limitation (5 November 2026):** detailed or provisional IMAGE_SOURCES records now cover Chapters 01–05, plus a MISSING gap record for Chapter 09-G. Chapter 05's 42 embeds (21 per language, 21 unique URLs each) have source-level parity confirmed, but many rights/scientific checks remain pending. Chapters 06–08 and 10–26 must not be treated as source-verified until their individual records are completed.
+**Current limitation (5 November 2026):** detailed or provisional IMAGE_SOURCES records now cover Chapters 01–06, plus a MISSING gap record for Chapter 09-G. Chapter 06 has three integrated visuals and one candidate boundary dataset, but the chapter's visual inventory is not complete. Chapter 05's 42 embeds (21 per language, 21 unique URLs each) have source-level parity confirmed, but many rights/scientific checks remain pending. Chapter 06 is only partially source-documented; Chapters 07–08 and 10–26 must not be treated as source-verified until their individual records are completed.
 
 ### Required reporting
 
