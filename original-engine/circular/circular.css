@@ -43,3 +43,11 @@
     line-height: 1.3;
   }
 }
+
+@media (max-width: 900px) {
+  /* Keep projected force and orbit labels readable without collisions or clipping. */
+  .lbl.vec { font-size: 15px; }
+  .lbl.board { font-size: 13px; }
+  .lbl.axis { font-size: 12px; }
+  .lbl.tick { font-size: 10px; }
+}
