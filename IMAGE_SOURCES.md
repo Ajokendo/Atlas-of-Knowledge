@@ -2,6 +2,7 @@
 
 - Applicable universal standard: [`IMAGE-FIRST POLICY v1.1`](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md) (`AOK-IMG-001`).
 - Working branch: `workspace/physics`.
+- Physics-owned asset directory on this subject branch: `assets/visuals/` (not a shared cross-subject asset folder).
 - Upstream comparison snapshot: [Nathan Liow / Atlas of Physics, commit `bcd67d9b75425f4a78f5c7c1d17a2d0614727309`](https://github.com/nathanliow/atlas-of-physics/commit/bcd67d9b75425f4a78f5c7c1d17a2d0614727309) (2026-10-30).
 
 This register documents every visual asset integrated into the Physics atlas. Add one complete record per asset. Do not list search results or unverified candidates as integrated.
@@ -111,7 +112,9 @@ The four known placeholders have been replaced with four original, hand-authored
 ### PHY-14-001 — Four magnetic-field configurations
 
 - Visual ID: PHY-14-001
-- Chapter: 14 — Magnetism
+- Subject / chapter: Physics, Chapter 14 — Magnetism
+- Title: Four magnetic-field configurations
+- Integration status: INTEGRATED (not VERIFIED)
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Compare field geometry and idealised field-strength relations for a long straight wire, a circular current loop, a long solenoid, and an ideal toroid.
@@ -136,12 +139,15 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual labels, captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/magnetism.html, section “Визуальные материалы главы”.
+- Technical review: PENDING — responsive browser run and manual visual inspection not yet recorded.
 - Mobile check: PENDING — awaiting CI after integration.
 
 ### PHY-15-001 — Lenz's law: approaching and receding magnet
 
 - Visual ID: PHY-15-001
-- Chapter: 15 — Electromagnetic Induction
+- Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
+- Title: Lenz's law — approaching and receding magnet
+- Integration status: INTEGRATED (not VERIFIED)
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Distinguish the induced field that opposes increasing flux from the induced field that sustains decreasing flux.
@@ -171,7 +177,9 @@ The four known placeholders have been replaced with four original, hand-authored
 ### PHY-15-002 — Motional EMF in a moving rod
 
 - Visual ID: PHY-15-002
-- Chapter: 15 — Electromagnetic Induction
+- Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
+- Title: Motional EMF in a moving rod
+- Integration status: INTEGRATED (not VERIFIED)
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Relate mutually perpendicular velocity, magnetic field, rod orientation, charge separation, motional EMF, and the distinction between closed and open circuits.
@@ -201,7 +209,9 @@ The four known placeholders have been replaced with four original, hand-authored
 ### PHY-15-003 — Self-induction, RL transient, and LC oscillations
 
 - Visual ID: PHY-15-003
-- Chapter: 15 — Electromagnetic Induction
+- Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
+- Title: Self-induction, RL transient, and LC oscillations
+- Integration status: INTEGRATED (not VERIFIED)
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Separate the self-induction law, exponential current rise/decay in an RL circuit, and ideal energy exchange in an LC circuit.
