@@ -95,3 +95,25 @@ Files changed: `original-engine/newton/world.js`, `original-engine/newton/checks
 
 **20% gate: complete.** No blocking scientific or numerical error was found in the reviewed material. This is an internal content audit, not independent external expert certification.
 
+
+
+## 30% — Russian-language terminology and interface localisation
+
+### Localisation pass
+Reviewed learner-facing strings in the 13-page book, standalone lesson, practice explanations, scene labels and live readouts. Mathematical symbols and standard abbreviations (ΣF, (F_N), (v_t), WebGL, AP Physics C) were retained where they are meaningful; descriptive labels and explanations remain Russian.
+
+### Corrections
+- Scene force label `F_app` → `Fприл`.
+- Scene scale label `5 m` → `5 м`.
+- Practice explanation label `Check:` → `Проверка:`.
+- Advanced-course tags now read `углублённый курс AP Physics C`, preserving the official course name while localising the surrounding interface.
+
+### Consistency rules applied
+- Keep SI symbols and units consistent: Н, кг, м/с, м/с², кН, мН, с, мс, мкм.
+- Use decimal comma in learner-facing Russian numeric strings where the existing presentation format uses it.
+- Preserve standard mathematical notation and distinguish variable symbols from prose.
+- Do not translate source-code comments that are not exposed to learners.
+
+Files changed in this pass: `original-engine/newton/world.js`, `original-engine/newton/pages.js`, `original-engine/newton/practice.js`, and the radius/diameter wording in `original-engine/newton/checks.mjs`.
+
+**30% gate: localisation pass complete.** Browser and JavaScript workflows for the latest content commits are queued/running; the gate will be re-opened if those tests reveal a rendering or string-integration regression.
