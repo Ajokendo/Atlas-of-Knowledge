@@ -111,4 +111,11 @@
 **Нормативный документ:** [IMAGE_FIRST_POLICY.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md) — IMAGE-FIRST POLICY v1.1.  
 **Стандарт авторских визуалов:** [AUTHOR_CREATED_VISUALS_STANDARD.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/AUTHOR_CREATED_VISUALS_STANDARD.md) — AUTHOR-CREATED VISUALS STANDARD v1.0.  
 **Практическое руководство:** [VISUAL_IMPLEMENTATION_GUIDE.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/VISUAL_IMPLEMENTATION_GUIDE.md) — VISUAL IMPLEMENTATION GUIDE v1.0.  
+
+### Уровни верификации визуалов
+- `VERIFIED` в машинно-читаемом аудите означает **INTERNALLY VERIFIED**: все применимые внутренние проверки пройдены, включая научную/фактическую проверку компетентным рецензентом, который не является автором визуала.
+- **EXTERNALLY VERIFIED** — дополнительное обозначение для визуала, который уже прошёл внутреннюю верификацию и дополнительно получил положительное заключение независимого внешнего профильного специалиста.
+- Внешняя экспертиза рекомендуется по уровню риска и сложности, но не является универсальным условием внутренней верификации или публикации.
+- Неизвестные или неразрешённые права/лицензии блокируют публичный выпуск независимо от результата научной проверки. Внешнее заключение не заменяет внутренние проверки и проверку прав.
+- До внутренней верификации визуал нельзя представлять как проверенный; любые исключительные предварительные публикации требуют явной маркировки, очищенных прав, оценки риска и отдельного разрешения центрального координатора.
 **Канонические файлы:** `main:IMAGE_FIRST_POLICY.md`, `main:AUTHOR_CREATED_VISUALS_STANDARD.md`, `main:VISUAL_IMPLEMENTATION_GUIDE.md`.  
