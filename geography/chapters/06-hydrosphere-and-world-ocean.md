@@ -122,8 +122,6 @@
 
 Рельеф океанического дна формируется тектоникой плит, вулканизмом, осадконакоплением, оползнями подводных склонов и эрозионными процессами.
 
-**Место для иллюстрации 6-C — Ocean Basin Cross-Section.** Поперечный профиль океанического бассейна от континентальной окраины через абиссальную равнину и срединный хребет к глубоководному желобу.
-**EN production brief:** Draw an ocean-basin cross-section from the continental margin through an abyssal plain and mid-ocean ridge to a deep-sea trench.
 
 ## 6.5. Температура, солёность и плотность морской воды / Seawater Temperature, Salinity and Density
 
@@ -890,6 +888,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 12. Intergovernmental Oceanographic Commission, SCOR and IAPSO. (2010). **The International Thermodynamic Equation of Seawater—2010 (TEOS-10): Calculation and Use of Thermodynamic Properties.** IOC Manuals and Guides No. 56. https://www.teos-10.org/pubs/TEOS-10_Manual.pdf
 13. USDA Forest Service. **Technical Guide to Ground Water Resource Management** (FS-881, 2007) — watershed water budgets and the inflow–outflow–storage balance. https://www.fs.usda.gov/geology/FINAL_Ground%20Water%20Technical%20Guide_FS-881_March2007.pdf
 14. UNESCO. **United Nations World Water Development Report** — global water-resource assessment and management context. https://www.unesco.org/reports/wwdr
+15. Flanders Marine Institute (2021). **Global Oceans and Seas, version 1.** WGS84 boundaries for ten major ocean and sea regions; CC BY 4.0. DOI: https://doi.org/10.14284/542. Dataset download and current version: https://www.marineregions.org/downloads.php
 При использовании численных данных о запасах воды, океанических глубинах, ледниках и речном стоке следует фиксировать год, пространственный охват, методику оценки и единицы измерения. Данные о запасах (например, км³) нельзя смешивать с потоками за период (например, км³/год).
 
 ## Редакционные и научные примечания
@@ -907,7 +906,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 - **Sentence-level RU/EN review:** reviewed all 17 numbered main sections and the paired examples, chapter summary, key terms, review questions and practical assignment. Corrected the lake/reservoir definition mismatch, qualified the particle-motion description for wind waves, clarified surface-water versus groundwater divides, and aligned the marine-zone terminology caveat in both languages.
 - **Source-to-claim sweep:** replaced the loosely ordered bibliography with 14 topic-specific institutional references covering global water distribution, streamflow, groundwater, the hydrological cycle, ocean classification, IHO standards, currents, ocean acidification, sea ice, TEOS-10 and catchment water budgets. The 2002 IHO S-23 draft remains explicitly labelled a working document, not an approved edition.
 - **Numerical controls:** recalculated the river-discharge example (3.6 m³/s) and basin exercise (250 mm; 2.5 km³; 79.3 m³/s); checked unit consistency and the stated 365-day conversion. The 600/350/220 mm example retains a 30 mm balance residual and explains why it is not automatically a measurement error.
-- **Visual inventory:** 15 unique bilingual visual IDs are registered. Visuals 6-A and 6.1-A are now integrated in both language sections using unchanged USGS public-domain diagrams; the other 13 visual needs remain placeholders. No AI-generated image is claimed.
+- **Visual inventory:** 15 unique bilingual visual IDs are registered. Visuals 6-A, 6-C and 6.1-A are integrated in both language sections; 6-A and 6.1-A reuse unchanged USGS public-domain diagrams, while 6-C is a new ChatGPT-assisted schematic whose creator/rightsholder and project licence remain unresolved. Visual 6-B has a candidate boundary dataset with confirmed CC BY 4.0 terms, but its derived map is not yet integrated; 12 other visual needs remain open.
 - **Release boundary:** this closes the chapter's text/source editorial pass, not visual production, layout rendering, mobile/browser accessibility testing or deployment QA.
 
 ## Earlier focused scientific and editorial audit record — 5 November 2026
@@ -916,6 +915,6 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 - **Catchment accounting:** clarified the control-volume boundary, inflows, outflows and storage changes; retained the instruction to account for snow, glaciers, lakes, groundwater, abstractions and uncertainty. Integrated in the explanatory text and practical sequence.
 - **Ocean classification:** clarified that the Southern Ocean boundary depends on the hydrographic classification used; the map and review question must identify the source rather than imply one universally ratified boundary.
 - **Maritime and ocean terminology:** aligned the bilingual review question and glossary with the chapter's classification caveat. Existing distinctions among ocean water stocks and annual fluxes are retained.
-- **Visual production:** reconciled 15 unique bilingual visual IDs and their briefs; four redundant aliases were normalised. Visuals 6-A and 6.1-A are integrated in both languages from unchanged USGS public-domain diagrams; 13 other visual needs remain placeholders.
+- **Visual production:** reconciled 15 unique bilingual visual IDs and their briefs; four redundant aliases were normalised. Visuals 6-A and 6.1-A use unchanged USGS public-domain diagrams; 6-C is a new bilingual schematic integrated in both language sections. The 6-B boundary dataset is licensed CC BY 4.0, but map production and integration remain open; 12 other visual needs remain unfilled.
 - **Bilingual structure:** the previous heading-ID audit found 29 matched numbered teaching headings in Russian and English. This is structural parity only, not a substitute for final sentence-level proofreading.
 
