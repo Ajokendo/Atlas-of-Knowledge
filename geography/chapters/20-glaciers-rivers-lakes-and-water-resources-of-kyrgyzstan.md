@@ -112,8 +112,6 @@ Do not add glacier or lake storage to annual river runoff without stating that d
 
 ## 20.3. Ледники Кыргызстана / Glaciers of Kyrgyzstan
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-I / IMAGE PLACEHOLDER 20-I]** Строение горного ледника: область аккумуляции, фирновая линия, ELA, область абляции, язык, морены и трещины.
-> **EN:** Mountain-glacier anatomy showing accumulation area, firn line, ELA, ablation area, tongue, moraines and crevasses.
 
 ![Строение горного ледника / Anatomy of a mountain glacier](../assets/20-I-glacier-anatomy.svg)
 
