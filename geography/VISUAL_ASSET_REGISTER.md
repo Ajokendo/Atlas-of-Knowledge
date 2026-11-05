@@ -327,3 +327,24 @@ Chapter 15-F, 15-G and 15-H are now integrated. Chapter 15 has 7/11 planned visu
 | **Total** | **97** | **55** | **42** |
 
 Total newly authored local SVG assets in the November tranches: 47 (34 across Chapters 11–16 and 13 across Chapters 18–20). Chapter 15's remaining visual IDs include validation/change-detection and sensor-specific analyses; they must be grounded in data rather than schematic values.
+
+
+## Chapter 16 — final visual integration update — 5 November 2026
+
+The five remaining Chapter 16 assets are now integrated: 16-E thematic map types, 16-F cartographic visual variables, 16-G classification methods, 16-H thematic-map layout and 16-I reproducible project workflow. All are original hand-coded bilingual SVGs, Category C. They are integrated, not VERIFIED; project creator/licence assignment, independent scientific sign-off, accessibility review and browser/device QA remain pending.
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total, Chapters 11–20** | **97** | **60** | **37** |
+
+This is the current scoped integration count for Chapters 11–20 only. The additional Chapter 20.6.7 research figure is not counted among planned IDs. Image Verification must be reported separately and must not be inferred from these integration counts.
