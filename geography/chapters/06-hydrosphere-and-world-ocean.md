@@ -650,7 +650,7 @@ Density depends mainly on temperature, salinity and pressure. At comparable pres
 
 ### 6.6.1. Waves
 
-Wind waves form when energy is transferred from the wind to the water surface. Water particles in an ordinary wave mainly move in orbital paths, while the wave form and energy propagate onward.
+Wind waves form when energy is transferred from the wind to the water surface. Water particles in an ordinary wave mainly move in orbital paths: these paths are nearly circular in deep water and become more elongated in shallow water. The wave form and energy travel onward, while the net transport of water over long distances is usually much smaller than the energy transfer.
 
 A **tsunami** is a long wave usually caused by the sudden displacement of large volumes of water during submarine earthquakes, landslides or volcanic events. In the open ocean, a tsunami may have a small height but a very long wavelength and high speed; its height can increase sharply near a coast.
 
