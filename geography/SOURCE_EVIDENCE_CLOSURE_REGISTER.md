@@ -978,3 +978,16 @@ Expanded translations include:
 ### New visual assets and source-to-claim status
 
 The six newly integrated diagrams 11-E, 12-D, 13-D, 14-C, 15-C and 16-C are original hand-coded teaching SVGs. External sources inform the relevant methods, but no third-party diagram is reproduced in these assets. Static SVG structure and bilingual labels/descriptions passed; project licence assignment, specialist review where applicable, assistive-technology review and live browser rendering remain open.
+
+
+### Chapters 11 and 13–16 — fifth visual integration tranche — 5 November 2026
+
+| Chapter | Source / evidence | Result | Action / limitation |
+|---|---|---|---|
+| 11 | UNCTAD, *Global Value Chains and World Trade* (2014); UNIDO EQuIP Tool 4 (2024) | Verified as methodological sources | Support the idea that value-adding functions and supply-chain stages can be distributed among countries. The new diagram is generic and does not claim a real supply route or value-added share. |
+| 13 | IPBES Global Assessment | Existing chapter source supports the framework | The visual distinguishes genetic, species and ecosystem diversity from the five direct drivers of biodiversity loss. Indirect social and economic drivers are shown as interacting causes, not as an additional sixth direct driver. |
+| 14 | QGIS Documentation, *Introducing GIS* | Official GIS introduction checked | Supports the system concept beyond software alone: data, hardware, software, people and methods. The workflow is an original teaching synthesis, not a required universal sequence for all GIS projects. |
+| 15 | NASA Applied Remote Sensing Training Program, *Fundamentals of Remote Sensing* | Training source checked | Supports atmospheric scattering/absorption and passive remote-sensing principles. The visual explicitly separates passive optical reflection, thermal emission and active SAR transmission. |
+| 16 | Ordnance Survey, *Generalisation* | Official national mapping-agency guidance checked | Supports the principle that smaller-scale maps require feature selection and simplification. The visual uses synthetic geometry and makes no claim about a real map product. |
+
+The five new diagrams are original hand-coded bilingual SVGs. Source references support the underlying concepts; no third-party illustration is reproduced. Static SVG and embed checks passed. Creator/rightsholder assignment, project licence, rendered browser review and assistive-technology review remain open.
