@@ -677,3 +677,16 @@ All five new assets (14-D and 15-D/I/J/K) have bilingual captions/alt text in th
 | 13-K | Explain distributional, recognition and procedural dimensions of environmental justice using a hypothetical city | `assets/diagrams/13-K-environmental-justice-schematic-bilingual.svg` | Berkeley Mapping for Environmental Justice and ATSDR Environmental Justice Index methodology reviewed as examples of combining exposure, social and health indicators. US-specific methods are not transferred directly to Kyrgyzstan. | C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING. | INTEGRATED; hypothetical city explicitly labelled; static SVG PASS; accessibility/browser QA PENDING. |
 
 All four assets have bilingual titles/descriptions and bilingual captions/alt text in the chapter. The urban map uses fictional districts and no real pollution or population data. No visual is marked VERIFIED.
+
+
+### Chapter 18 — supplementary relief overview (not a replacement for 18-A)
+
+| Field | Record |
+|---|---|
+| Figure | Blue Green Atlas, “Free relief map of Kyrgyzstan”, 3000 × 1800 px. |
+| Image URL | https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg |
+| Source page | https://www.bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.html |
+| Category / rights | B — reproduced unchanged; page explicitly licenses the map under CC BY 4.0. Attribution retained. |
+| Map metadata | Mercator projection. Topography: NASA SRTM3 (~90 m); bathymetry: GEBCO 2019; lakes: HydroLAKES; rivers: HydroATLAS; cities: VMap0. |
+| Limitation | The page does not state map compilation date, vertical reference or accuracy assessment. It is a useful relief overview but not a validated current DEM, not a precise elevation source and not a legal boundary source. |
+| Status | INTEGRATED as supplementary overview; not counted as completion of 18-A. Browser/mobile rendering and accessibility review PENDING. |
