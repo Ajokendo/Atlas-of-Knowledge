@@ -268,7 +268,7 @@ On 2026-11-05, the local PLATES breakdown keys were compared with the correspond
 
 | Original chapter | Module | Assembly keys identified in world.js | Count | Status |
 |---|---|---|---:|---|
-| 01 — Kinematics | kinematics | staff; ball; vArrow; aArrow; proj; projV; shadow; rainRoad; rainCar; rainSum; river; pull; pullA; cubeLine; bead | 15 | INTEGRATED / source lineage indexed; scene-to-page mapping and visual review pending |
+| 01 — Kinematics | kinematics | staff; ball; vArrow; aArrow; boardX; boardV; boardA; proj; projV; shadow; rainRoad; rainCar; rainSum; river; boatA; boatB; pull; pullA; cubeLine; bead | 20 | INTEGRATED / source lineage indexed; scene-to-page mapping and visual review pending |
 | 02 — Newton's Laws | newton | rest; glide; second; friction; third; incline; tension; plane; car; tug; board; drag; honey | 13 | INTEGRATED / source lineage indexed; visual review pending |
 | 04 — Work and Energy | energy | pull; toss; whirl; car; drop; spring; push; bead; bond; pendulum; slide; lift | 12 | INTEGRATED / source lineage indexed; visual review pending |
 | 06 — Oscillations | oscillations | spring; hooke; trace; energy; hang; pendulum; springs4; pend4; amp; bobs; starts; string; rod; hoop; disc; car; swing | 17 | INTEGRATED / source lineage indexed; visual review pending |
@@ -279,7 +279,7 @@ On 2026-11-05, the local PLATES breakdown keys were compared with the correspond
 | **Total** | **8 modules** | **98 assembly keys** | **98** | **Inventory only; do not report as 98 VERIFIED visuals** |
 
 Special mapping notes:
-- Kinematics has additional PLATES keys boardX, boardV, boardA, boatA, and boatB that are not top-level 3D assembly keys in world.js. Keep these as unresolved graph/diagram breakdowns until their rendered source is mapped; do not count them as separate 3D scenes.
+- Kinematics has 20 top-level scene assemblies and 20 corresponding PLATES breakdown entries. The 15 dedicated assembly groups are created with literal `asm(...)` calls; `boardX`, `boardV`, and `boardA` are created by the `BOARDS.map(...)` factory, while `boatA` and `boatB` are created by the `boats.map(...)` factory. These five dynamically named groups are real rendered 3D assemblies, not unresolved extra diagrams. The three board groups are the interactive coordinate/velocity/acceleration graph panels; count each assembly once and do not double-count their internal lines, tangents, cursors or area fills as separate top-level scenes.
 - Gauss's Law has additional PLATES variants csphere, isphere, nsphere, crod, and irod that are not top-level assembly keys. They represent different charge-distribution/model breakdowns and must be mapped to the corresponding underlying scene before counting distinct visuals.
 - The module page descriptors and PLATES breakdowns use different identifiers in several chapters. Resolve each relationship explicitly before converting these candidate groups into final asset IDs.
 
