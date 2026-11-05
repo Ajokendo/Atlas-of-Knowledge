@@ -59,7 +59,6 @@ Good research distinguishes description, explanation and causal inference. A spa
 ![Уровни географического анализа: местный, региональный, национальный и глобальный / Geographic levels of analysis: local, regional, national and global](../assets/diagrams/16-B-geographic-scales-bilingual.svg)
 
 *Уровень пространственного анализа не следует смешивать с масштабом карты. / Do not confuse analytical scale with map scale.*
-> **EN:** Compare local, regional, national and global scales using a consistent example; do not imply universal fixed size thresholds.
 
 
 Масштаб — ключевая характеристика географического анализа. Он включает пространственный охват, уровень детализации и размер единиц, по которым собираются и агрегируются данные.
