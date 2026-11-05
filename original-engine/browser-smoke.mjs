@@ -136,6 +136,38 @@ async function checkLab(lab, mobile) {
       throw new Error('Not all 11 kinematics pages rendered a distinct heading');
     }
 
+    const expectedScenes = ['staff','ball','vArrow','aArrow','boardX','boardV','boardA','proj','projV','shadow','rainRoad','rainCar','rainSum','river','boatA','boatB','pull','pullA','cubeLine','bead'];
+    const picker = page.locator('.scene-picker');
+    const availableScenes = await picker.locator('option').evaluateAll(options => options.map(option => option.value).filter(Boolean));
+    if (availableScenes.length !== 20 || expectedScenes.some(key => !availableScenes.includes(key))) {
+      throw new Error(`Kinematics scene picker does not expose the 20 registered assemblies: ${availableScenes.join(', ')}`);
+    }
+    for (let i = 0; i < expectedScenes.length; i++) {
+      const key = expectedScenes[i];
+      await picker.selectOption(key);
+      await page.waitForFunction(expectedKey => {
+        const plate = document.querySelector('#plate');
+        return plate && !plate.hidden &&
+          plate.getAttribute('aria-labelledby') === 'scene-plate-title' &&
+          document.querySelector('#scene-plate-title')?.textContent?.trim() &&
+          document.querySelector('#plate p')?.textContent?.trim() &&
+          document.querySelectorAll('#facts tr').length > 0;
+      }, key, { timeout: 8000 });
+      const detail = await page.locator('#plate').evaluate(el => ({
+        title: el.querySelector('#scene-plate-title')?.textContent?.trim() || '',
+        description: el.querySelector('p')?.textContent?.trim() || '',
+        factRows: el.querySelectorAll('#facts tr').length,
+      }));
+      if (!detail.title || !detail.description || detail.factRows < 1) {
+        throw new Error(`Scene breakdown ${key} is missing its title, explanation or live facts`);
+      }
+      if (i === 0) {
+        await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 5000 });
+      }
+    }
+    await picker.selectOption('');
+    await page.waitForFunction(() => document.querySelector('#plate')?.hidden, undefined, { timeout: 5000 });
+
     if (!mobile) {
       await page.locator('#dots button').nth(0).click();
       await page.waitForFunction(() => location.hash === '' || location.hash === '#0', null, { timeout: 10000 });
