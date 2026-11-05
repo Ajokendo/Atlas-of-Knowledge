@@ -123,9 +123,9 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 17 | 17-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 17 | 17-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 17 | 17-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 17 | 17-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 17 | 17-E | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual conceptual timeline integrated in RU/EN; global ICS boundaries are distinguished from local event dating; creator/rightsholder and project licence pending. |
 | 17 | 17-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 17 | 17-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 17 | 17-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual not-to-scale relief-process schematic integrated in RU/EN; endogenic and exogenic processes distinguished; creator/rightsholder and project licence pending. |
 | 17 | 17-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 17 | 17-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -798,13 +798,13 @@ Integrated two complementary visuals in both language sections. The surface-curr
 | 17-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Current official administrative geometry and reuse conditions not confirmed; show Manas and seven oblasts correctly when source is obtained. |
 
 **Results and controls**
-- Required visuals: 9. Integrated: 0. **Image Coverage: 0/9 = 0%.**
-- Image Verification: not applicable because no Chapter 17 visual is integrated; do not report 0% as a verification rate for a non-existent asset set.
-- Categories A/B/C: 0/0/0 integrated. Planned C assets are not counted before files exist and creator/rightsholder, method and project licence are recorded.
-- Rights: no Chapter 17 asset has passed. Scientific/factual, bilingual, accessibility and technical checks remain PENDING for all nine because no files are integrated.
+- Required visuals: 9. Integrated: 2 (17-E and 17-G). **Image Coverage: 2/9 = 22.2%.**
+- Image Verification: 0/2 = 0%; neither integrated visual is VERIFIED because creator/rightsholder, project licence and rendered/technical/accessibility evidence remain pending.
+- Categories A/B/C: 0/0/2 integrated. Both integrated assets are Category C original bilingual SVGs authored with ChatGPT assistance; creator/rightsholder and explicit project licence remain Unknown / PENDING.
+- Rights: no Chapter 17 asset has passed. Scientific/conceptual fit and RU/EN parity PASS for 17-E and 17-G within their stated limits; rights, rendered accessibility and technical QA remain PENDING. The other seven assets remain MISSING.
 - Candidate CIA maps (2005) were rejected for current administrative/border use because of age; their public-domain status does not cure geographic obsolescence. Peer-reviewed tectonic figures remain literature candidates only; their exact figure rights and scope must be checked.
 - The Ministry's 11 March 2026 geological-atlas announcement describes a project in preparation; it is not evidence that the atlas or its maps are already published or reusable.
 - The 2018 WIS boundary layer is an archival GIS record in WGS 84, not proof of a current legal boundary. It must not be used to derive modern extreme points without original geometry and legal verification.
 - No item is VERIFIED. This audit does not certify rendered site behaviour, mobile layout or screen-reader output.
 
-**Audit status:** chapter visual component remains incomplete. Content placeholders and production briefs are aligned one-to-one in the Chapter 17 text; placeholders are not counted as coverage.
+**Audit status:** chapter visual component remains incomplete. The nine production briefs and IDs are aligned one-to-one. Two assets (17-E, 17-G) are integrated; seven map/data-dependent assets remain placeholders and are not counted as coverage.
