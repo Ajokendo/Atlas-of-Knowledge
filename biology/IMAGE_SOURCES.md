@@ -112,7 +112,7 @@ Unknown rights are not presumed permissive. Mark the item `LICENSE_CHECK` or `RE
 
 - The 53-row brief count is not a count of individual files.
 - Some older image-audit notes are historical checkpoints and contain earlier counts or dispositions. The current `IMAGE_DISPOSITION_REGISTER.md` supersedes those historical progress counts, but does not erase their source evidence.
-- The source-backed photo audits document file-page details and checksum validation. They do not establish that every biological interpretation in every chapter has received independent specialist review.
+- The source-backed photo audits document file-page details and checksum validation. They do not establish that every biological interpretation in every chapter has received external specialist review; such review is excluded from this project.
 - Original SVG authorship does not itself establish scientific correctness; all original artwork remains subject to the scientific and visual audit.
 - Historical AI-generated concept drafts documented in `IMAGE_DRAFT_REVIEW_2026-11-01.md` are not approved documentary evidence and must not be presented as real photographs or locality records.
 
@@ -130,10 +130,19 @@ This register is governed by `IMAGE_FIRST_POLICY.md` v1.2 and `AUTHOR_CREATED_VI
 - File identity: 320 × 292 px; 7,196 bytes; SHA-256 `b79cc139c33b4b19b5c1e72fa79885688cdd9c0202d6d402ad3f13348badf4c9`. The higher-resolution source PNG remains in the conversation workspace and is not represented as a repository file.
 - Scientific scope: six tepals and six stamens are shown in the enlarged flower study; no fixed flower count, population estimate or precise locality is asserted. The plate is supplementary to the existing SVG and must not be presented as documentary evidence.
 - Rights status: no third-party image source or external licence is claimed. The project's legal rightsholder/authority-to-license and asset-level licence decision are not established by the generation record alone; record Gate 2 as PENDING until the project owner confirms the rights basis.
-- Review status: morphology constraints are linked to `IMAGE_SCIENTIFIC_REVIEW.md`; this does not constitute second-person scientific approval. Focused rendered visual review and competent second-person review remain PENDING unless separately documented.
+- Review status: morphology constraints are linked to `IMAGE_SCIENTIFIC_REVIEW.md`; this does not constitute external scientific approval. External review is excluded from this project. Internal team review and focused rendered visual review remain development controls and must be documented.
 
 ### General Category C control
 
 Category C records a documented project-creation method; it does not automatically establish a legal rightsholder, licensing authority, or approved licence. For every new original or AI-assisted asset, preserve the source prompt/brief, editable source where available, exact committed derivative, creator/contributor record, third-party component declarations, rights decision, RU/EN text, reviewer identity/qualification, gate results and integration evidence. Do not infer that a project-created image is automatically public domain or CC-licensed.
 
-Internal scientific review must be completed by a competent reviewer other than the creator; that reviewer may be an appropriately qualified member of the project team. External specialist review is an additional level, not a universal publication prerequisite. `VERIFIED` is the internal machine-readable status; `EXTERNALLY VERIFIED` is reserved for a documented positive independent external review after internal verification. Unknown rights block public release.
+Scientific review within this project is internal to the project team; no external specialist review, independent assessment or external certification is to be commissioned or treated as a project gate. `VERIFIED`, where used, means only that the stated internal project checks are documented; it must never imply external approval. Do not use `EXTERNALLY VERIFIED` as a project status. Unknown rights block public release.
+
+
+## Project boundary: no external review or expertise during this project — 5 November 2026
+
+The project owner's definitive instruction is that **all external checking, review, assessment, peer review, specialist expertise, certification and expert sign-off are excluded from the Atlas of Knowledge project**. No external person, school teacher, university, laboratory, NGO, company, consultant or other organisation is to be engaged to inspect, approve, certify or evaluate the atlas as part of this project's work. Do not list any external review as a development task, acceptance gate, pending item, blocker or planned project deliverable. Do not create an EXTERNALLY VERIFIED status for project acceptance.
+
+All quality assurance within this project is performed by the project team: editorial review; fact-checking against published primary/authoritative sources; taxonomy, locality, date and numerical consistency checks; transparent uncertainty notes; attribution and rights review; bilingual checks; code, browser, accessibility and visual-rendering tests. These are internal development controls and must be described as such. Citing or consulting published external literature, datasets, standards, image licences or official records is permitted and remains necessary; this is evidence research, **not external expertise or an external review of the atlas**.
+
+Any external evaluation, consultation, expert review, school-teacher assessment, certification or other outside work is wholly separate from this project and must not be included in its scope, schedule, progress metrics or completion criteria. If such work is later undertaken independently, it belongs to a separate process and separate records. Historical references in this document to pending independent, second-person external or specialist review are superseded by this rule; they must not be interpreted as open project tasks. Genuine internal evidence gaps, unresolved rights questions, editorial defects and technical QA issues remain valid internal tasks.
