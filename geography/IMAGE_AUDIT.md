@@ -14,7 +14,7 @@ This file is the Geography audit required by policy v1.1. It records the IDs tha
 
 The atlas-wide source relationship and complete source-work inventory are not yet established. Determine provenance asset by asset. Record original work, creator/rightsholder, edition/version, source location, inheritance relationship, changes and the permission/licence for actual reproduction and adaptation. Classify A — Original reuse, B — Adapted or C — Created separately from rights status. Mark unknown values Unknown / PENDING. Do not infer authorship or permission from repository ownership, public availability or prior integration. Do not repeat discovery searches for an identifiable unchanged inherited visual solely to satisfy image-first; verify lineage, rights, scientific meaning, localisation, accessibility and rendering. Search for a replacement when an asset is missing, unsuitable, inaccurate, inaccessible, rights-restricted or needs replacement. Translating surrounding captions/alt text alone does not change the visual category; translating embedded labels or substantively editing the visual is adaptation.
 
-Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–05 (with unresolved creator/licence fields for project-local SVGs and several external images) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 pre-existing integrated IDs plus 5.18-A are mapped in IMAGE_SOURCES.md; the separate register is retained as production history. Chapters 06–08 and 10–26 are not source-verified by the existence of IDs or briefs.
+Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–05 (with unresolved creator/licence fields for project-local SVGs and several external images) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 pre-existing integrated IDs plus 5.18-A are mapped in IMAGE_SOURCES.md; the separate register is retained as production history. Chapters 07–08 and 10–26 are not source-verified by the existence of IDs or briefs. Chapter 06 now has one sourced, integrated asset (6.1-A); its other 14 visual IDs remain open.
 
 ## 3. Geography-specific checks
 
@@ -35,7 +35,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 03 | 13 | 13 IDs reported integrated (10 SVGs + 3 sourced images); not verified |
 | 04 | 16 | 16 local bilingual SVGs reported integrated; not verified |
 | 05 | 20 | 17 named visual IDs now have integrated imagery, including 5.18-A; two inventory ID positions remain unaccounted for by name and ID mapping needs reconciliation |
-| 06 | 15 | 0/15 integrated; no image embeds or matching assets found |
+| 06 | 15 | 1/15 integrated (6.1-A, embedded in both languages); 14 visual needs remain unfilled |
 | 07 | 9 | 0/9 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
 | 08 | 7 | 0/7 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
 | 09 | 7 | 0/7 integrated; all seven in-text visual needs are placeholders, including 09-G |
@@ -303,7 +303,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 06 | 6-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 06 | 6.1-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 06 | 6.1-A | INTEGRATED | PASS | PASS | PASS | PENDING | PENDING | Exact USGS chart is public domain and reused unchanged with credit; nested percentages and 1993 data basis are stated; bilingual alt text and translation key added. Screen-reader/rendered QA remains open. |
 | 06 | 6.5-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6.7-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6.9-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -551,11 +551,11 @@ The static content review of `chapter-05-climate-diagram-exercise.svg` found tha
 
 ### Confirmed integration gaps — Chapters 06–26 — 5 November 2026
 
-The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files contain **only four Markdown image embeds** in this range, all pointing to the four known local SVGs: 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table now marks the remaining 206 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
+The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **six Markdown image embeds** in this range, representing five integrated visual IDs: 6.1-A (one embed in each language), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks the remaining 204 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
 
 | Chapter | Required IDs | Integrated assets confirmed | Missing |
 |---:|---:|---:|---:|
-| 06 | 15 | 0 | 15 |
+| 06 | 15 | 1 | 14 |
 | 07 | 9 | 0 | 9 |
 | 08 | 7 | 0 | 7 |
 | 09 | 7 | 0 | 7 |
@@ -739,3 +739,13 @@ The newly integrated Chapter 05 local atmosphere-layer SVG (5.2-A) was fetched a
 ### Chapter 05 — consolidated local SVG source check — 5 November 2026
 
 The Chapter 05 local-SVG inventory now contains 10 files: the original eight checked above, plus the new 5.18-A synoptic/climate SVG and the replacement 5.2-A atmosphere-layers SVG. Static source checks on both new files confirm a `viewBox`, bilingual `title` and `desc`, `role="img"`, Cyrillic and Latin text, and no `script`, `foreignObject` or embedded `image` element. Together with the earlier eight-file check, all 10 local SVGs have passed this limited structural check. This is not XML schema validation, visual rendering, contrast/accessibility QA, or browser/device testing; technical and accessibility statuses remain PENDING.
+
+### Chapter 06 — Visual 6.1-A: distribution of Earth's water — 5 November 2026
+
+Integrated the exact USGS Water Science School chart “The distribution of water on, in, and above the Earth” in both Russian and English sections. The USGS media page identifies the image as Public Domain and credits the underlying estimate to Igor Shiklomanov's 1993 chapter in *Water in Crisis*. The chapter now credits USGS and the data source, and explicitly labels the values as rounded historical estimates rather than current measurements.
+
+The three bars are treated as nested categories: total global water; all freshwater; and only surface/other freshwater. The Russian and English sections include matching translations of every chart label. The figure's rounded percentages (96.5% ocean, 2.5% freshwater; 68.7% ice/glaciers, 30.1% groundwater and 1.2% surface/other freshwater) align with the chapter's stated estimates. The right-hand breakdown is not added to the first two bars.
+
+**Result:** scientific/data interpretation PASS for faithful presentation of the cited 1993 estimate; exact-image rights PASS under the USGS Public Domain statement; RU/EN explanatory parity PASS. Alt text and a bilingual key are present, but screen-reader behaviour, contrast at rendered sizes, responsive display and deployed loading remain PENDING.
+
+Source: USGS, [exact image record and detailed description](https://www.usgs.gov/media/images/distribution-water-and-above-earth), [original image file](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png).
