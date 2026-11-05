@@ -35,8 +35,9 @@ Kyrgyzstan’s mountainous terrain makes it a major headwater region of Central 
 
 ## 20.2. Водный баланс и основные понятия / Water Balance and Key Concepts
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-H / IMAGE PLACEHOLDER 20-H]** Схема водного баланса бассейна: осадки, эвапотранспирация, поверхностный и подземный сток, изменение запасов.
-> **EN:** Catchment water-balance diagram showing precipitation, evapotranspiration, surface and groundwater runoff, and storage change.
+![Водный баланс бассейна: осадки, эвапотранспирация, сток и изменение запасов / Catchment water balance: precipitation, evapotranspiration, runoff and storage change](../assets/diagrams/20-H-catchment-water-balance-bilingual.svg)
+
+*Упрощённая модель закрытого бассейна; водозаборы, возвратные воды и переброски требуют дополнительных членов баланса. / Simplified closed-catchment model; abstractions, return flows and transfers require additional balance terms.*
 
 
 Водный баланс описывает соотношение поступления, хранения и расходования воды на определённой территории за выбранный период.
