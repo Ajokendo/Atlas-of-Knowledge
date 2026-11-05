@@ -17,9 +17,9 @@
 <path class="rail" d="M140 350 H610 M140 500 H610"/>
 <path class="rod" d="M530 350 V500"/>
 <path d="M530 425 H675" class="arr"/><text class="lab" x="600" y="400">v →</text>
-<path d="M530 480 V365" class="barr"/><text class="lab" x="550" y="375">F = q(v × B)</text>
+<path d="M530 480 V365" class="barr"/><text class="lab" x="545" y="375">F = q(v × B)</text><path d="M535 430 H445" class="arr"/><text class="lab" x="395" y="415">Fмагн ←</text>
 <text class="lab" x="545" y="345" fill="#d65b43">+</text><text class="lab" x="545" y="525" fill="#2367a8">−</text>
-<path d="M520 490 H160 V360 H520" fill="none" stroke="#d65b43" stroke-width="5" stroke-dasharray="10 8" marker-end="url(#red)"/>
+<path d="M530 490 V360 H140 V500 H530" fill="none" stroke="#d65b43" stroke-width="5" stroke-dasharray="10 8" marker-end="url(#red)"/>
 <text class="lab" x="100" y="590">Положительные заряды смещаются вверх;</text><text class="en" x="100" y="620">positive charges move upward;</text>
 <text class="lab" x="100" y="650">ток в контуре — против часовой стрелки.</text><text class="en" x="100" y="680">conventional current is counterclockwise.</text>
 <text class="h" x="810" y="225">Разомкнутая цепь / Open circuit</text>
