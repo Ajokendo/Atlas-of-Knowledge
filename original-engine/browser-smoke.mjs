@@ -194,10 +194,12 @@ async function checkLab(lab, mobile) {
   }
 }
 
-async function checkChapterPage() {
+async function checkChapterPage(mobile = false) {
   const context = await browser.newContext({
-    viewport: { width: 1440, height: 900 },
-    deviceScaleFactor: 1,
+    viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 },
+    deviceScaleFactor: mobile ? 2 : 1,
+    isMobile: mobile,
+    hasTouch: mobile,
     reducedMotion: 'reduce',
   });
   const page = await context.newPage();
@@ -266,13 +268,19 @@ async function checkChapterPage() {
     if (!(await page.locator('#klVOut').innerText()).includes('20')) {
       throw new Error('Projectile-motion speed slider did not update its readout');
     }
-    const graphA11y = await page.locator('#klGraph').evaluate(el => {
-      const id = el.getAttribute('aria-describedby');
-      const description = id && document.getElementById(id);
-      return { width: el.width, height: el.height, id, text: description?.textContent || '' };
-    });
-    if (!graphA11y.id || !graphA11y.text.includes('две панели') || !graphA11y.width || !graphA11y.height) {
-      throw new Error('Projectile graph is missing its two-panel accessible description or rendered canvas');
+    for (const [id, phrase] of [
+      ['klScene', 'параболической траектории'],
+      ['klGraph', 'две панели'],
+      ['plot', 'равномерного движения'],
+    ]) {
+      const a11y = await page.locator(`#${id}`).evaluate(el => {
+        const descriptionId = el.getAttribute('aria-describedby');
+        const description = descriptionId && document.getElementById(descriptionId);
+        return { width: el.width, height: el.height, descriptionId, text: description?.textContent || '' };
+      });
+      if (!a11y.descriptionId || !a11y.text.includes(phrase) || !a11y.width || !a11y.height) {
+        throw new Error(`Canvas #${id} is missing a meaningful text alternative or rendered bitmap`);
+      }
     }
     const staticGraphs = page.locator('main svg[aria-labelledby="kin-graphs-title kin-graphs-desc"]');
     const staticGraphText = await staticGraphs.evaluate(el => el.textContent || '');
@@ -280,6 +288,8 @@ async function checkChapterPage() {
         !staticGraphText.includes('Скорость vᵧ') || !staticGraphText.includes('Ускорение aᵧ')) {
       throw new Error('Chapter 1.4 static graphs do not expose three separately labelled physical quantities');
     }
+    const svgA11y = await page.locator('main svg[aria-labelledby="kin-graphs-title kin-graphs-desc"]').evaluate(el => ({ role: el.getAttribute('role'), title: el.querySelector('title')?.textContent || '', desc: el.querySelector('desc')?.textContent || '' }));
+    if (svgA11y.role !== 'img' || !svgA11y.title || !svgA11y.desc.includes('отдельные вертикальные шкалы')) throw new Error('Chapter 1.4 SVG is missing its accessible title or detailed description');
     const lessonText = await page.locator('main').innerText();
     if (!lessonText.includes('t ≥ 4,0 с:') || !lessonText.includes('x(t) = 32,0 м')) {
       throw new Error('Chapter 1.9 does not explain the piecewise motion after acceleration reaches zero');
@@ -306,11 +316,13 @@ async function checkChapterPage() {
     if (critical.length || serious.length) {
       throw new Error(`chapter page axe found ${critical.length} critical and ${serious.length} serious violation group(s)`);
     }
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
+    if (overflow) throw new Error('Standalone Chapter 1 page has horizontal overflow at this viewport');
     if (runtimeErrors.length) throw new Error(`Chapter page console/runtime errors: ${runtimeErrors.join(' | ')}`);
-    console.log(`PASS chapter page — ${required.length} ordered sections, embedded Three.js/WebGL 2 frame, motion sliders, projectile slider, quiz; ${headings.length} headings`);
+    console.log(`PASS chapter page ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — ${required.length} ordered sections, accessible canvas/SVG descriptions, embedded Three.js/WebGL 2 frame, motion sliders, projectile slider, quiz; ${headings.length} headings`);
   } catch (error) {
-    failures.push(`chapter page: ${error.message}`);
-    console.error(`FAIL chapter page: ${error.message}`);
+    failures.push(`chapter page ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
+    console.error(`FAIL chapter page ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
     if (runtimeErrors.length) {
       failures.push(`chapter page console/runtime errors: ${runtimeErrors.join(' | ')}`);
       console.error(`RUNTIME chapter page: ${runtimeErrors.join(' | ')}`);
@@ -498,7 +510,8 @@ try {
     await checkLab(lab, true);
     if (abortAfterDesktopBootstrap) break;
   }
-  await checkChapterPage();
+  await checkChapterPage(false);
+  await checkChapterPage(true);
   await checkCircularChapterPage();
   await checkMomentumChapterPage();
 } finally {
