@@ -690,8 +690,9 @@ Losses during water transport and distribution can be substantial. Reducing them
 
 ## 20.9. Трансграничные водные системы / Transboundary Water Systems
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-E / IMAGE PLACEHOLDER 20-E]** Схема трансграничного водного управления Чу–Талас и Нарын–Сырдарья с обозначением верховых и низовых пользователей, сезонности и инфраструктуры.
-> **EN:** Diagram of transboundary water management in the Chu–Talas and Naryn–Syr Darya basins, showing upstream and downstream users, seasonality and infrastructure.
+![Трансграничное управление водами Чу–Талас и Нарын–Сырдарья / Transboundary water management in the Chu–Talas and Naryn–Syr Darya basins](../assets/diagrams/20-E-transboundary-water-management-bilingual.svg)
+
+*Схема сравнивает механизмы координации, но не является картой бассейнов и не показывает количественное распределение воды. / Conceptual comparison of coordination mechanisms; not a basin map and does not show quantitative water allocation.*
 
 Реки Кыргызстана связаны с водными системами Казахстана, Узбекистана, Таджикистана и Китая. Вода пересекает государственные границы, поэтому её использование требует сотрудничества по вопросам:
 - распределения и сезонного графика стока;
