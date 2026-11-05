@@ -596,8 +596,9 @@ Spatial aggregation can reduce the risk of disclosing personal data, but it does
 
 ## 14.17. Практический рабочий процесс ГИС / A Practical GIS Workflow
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-I / IMAGE PLACEHOLDER 14-I]** Воспроизводимый ГИС-процесс: постановка задачи, получение данных, анализ, проверка, метаданные и публикация.
-> **EN:** A reproducible GIS workflow from problem definition and data acquisition through analysis, validation, metadata and publication.
+![Воспроизводимый ГИС-проект / Reproducible GIS project](../assets/diagrams/14-I-reproducible-gis-workflow-bilingual.svg)
+
+*Сохраняйте источники, лицензии, CRS, версии ПО, параметры обработки, скрипты и результаты проверки. / Preserve sources, licences, CRS, software versions, processing parameters, scripts and validation results.*
 
 
 Типовой проект можно организовать поэтапно:
