@@ -45,7 +45,7 @@ for (const mobile of [false, true]) {
       })));
       if (!mobile) {
         for (let i = 0; i < states.length; i++) {
-          const file = states[i].src.split('/').pop().replace(/\\.svg$/i, '.png');
+          const file = states[i].src.split('/').pop().replace('.svg', '.png');
           await images.nth(i).screenshot({ path: `${screenshotDir}/${file}` });
         }
       }
