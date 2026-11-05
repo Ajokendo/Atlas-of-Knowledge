@@ -332,18 +332,26 @@ export function startBook(chapter) {
       scenePicker.blur();
       const focusTitle = () => {
         if (plate.hidden) return;
+        const title = plate.querySelector('#scene-plate-title');
         const active = document.activeElement;
-        // Never steal focus if the learner has already moved to another control.
+        if (!title || active === title) return;
+        // The native select popup may reclaim focus after its change event. Hand focus
+        // to the explanation only while focus is still on the picker or the page itself.
         if (active !== scenePicker && active !== document.body && active !== document.documentElement) return;
         scenePicker.blur();
-        plate.querySelector('#scene-plate-title')?.focus({ preventScroll: true });
+        title.focus({ preventScroll: true });
       };
       focusTitle();
       requestAnimationFrame(() => requestAnimationFrame(focusTitle));
-      // Mobile native-select popups can restore focus later than desktop browsers.
-      setTimeout(focusTitle, 500);
-      setTimeout(focusTitle, 1200);
-      setTimeout(focusTitle, 2000);
+      // Native mobile pickers can close asynchronously after the change event.
+      // Retry on window refocus and for a short settling period; never steal focus
+      // once the learner has moved to another interactive element.
+      addEventListener('focus', focusTitle, { once: true });
+      setTimeout(focusTitle, 250);
+      setTimeout(focusTitle, 750);
+      setTimeout(focusTitle, 1500);
+      setTimeout(focusTitle, 3000);
+      setTimeout(focusTitle, 5000);
     }
   }
 
