@@ -370,6 +370,21 @@ async function checkChapterPage(mobile = false) {
     if (!attribution.includes('Nathan Liow') || !attribution.includes('Atlas of Knowledge') || !attribution.includes('MIT License') || attributionLink !== 'https://github.com/nathanliow/atlas-of-physics') {
       throw new Error('Chapter 1 public footer is missing accurate upstream attribution and license reference');
     }
+    const footerLayout = await page.locator('footer').evaluate(el => {
+      const attributionEl = el.querySelector('.attribution');
+      const footerRect = el.getBoundingClientRect();
+      const attributionRect = attributionEl.getBoundingClientRect();
+      return {
+        footerRight: footerRect.right,
+        footerScrollWidth: el.scrollWidth,
+        footerClientWidth: el.clientWidth,
+        attributionRight: attributionRect.right,
+        attributionHeight: attributionRect.height,
+      };
+    });
+    if (footerLayout.footerRight > innerWidth + 2 || footerLayout.footerScrollWidth > footerLayout.footerClientWidth + 2 || footerLayout.attributionRight > innerWidth + 2 || footerLayout.attributionHeight < 12) {
+      throw new Error('Chapter 1 attribution footer does not wrap within the responsive viewport');
+    }
     const lessonText = await page.locator('main').innerText();
     if (!lessonText.includes('t ≥ 4,0 с:') || !lessonText.includes('x(t) = 32,0 м')) {
       throw new Error('Chapter 1.9 does not explain the piecewise motion after acceleration reaches zero');
@@ -415,6 +430,9 @@ async function checkChapterPage(mobile = false) {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (overflow) throw new Error('Standalone Chapter 1 page has horizontal overflow at this viewport');
     await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}-quiz.png`, animations: 'disabled', timeout: 30000 });
+    await page.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' }));
+    await page.waitForTimeout(150);
+    await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}-footer.png`, animations: 'disabled', timeout: 30000 });
     await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
     await page.waitForTimeout(150);
     await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}.png`, animations: 'disabled', timeout: 30000 });
