@@ -1302,3 +1302,15 @@ This is a repository path/source check, not a browser test. Image Verification r
 | Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
 |---|---|---|---|---|---|---|---|
 | 14-G | MISSING — no raster or derivative maps integrated | PENDING — NASA SRTM GL1 v003 (~30 m, 2000) and Copernicus GLO-30 (30 m DSM, 2011–2015) identified as candidates; no exact Kyrgyzstan tile or derived raster validated | Candidate terms identified; exact tile-level licence/attribution and public availability must be checked before use | PENDING | PENDING | PENDING | Do not use Copernicus DSM as bare-earth terrain; it includes vegetation/buildings. Obtain actual tile, verify CRS/vertical datum/NoData, then derive slope and aspect reproducibly. |
+
+
+## Chapter 13 — final four visuals — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 13-G | INTEGRATED | PASS — erosion, salinisation, compaction and vegetation-cover loss are shown as distinct processes; response hierarchy follows UNCCD avoid–reduce–reverse | PENDING — original project licence not assigned | PASS | PENDING — alt text and labels present; contrast review pending | PASS — static SVG and local embed; browser render pending | Measures are context-specific; no universal restoration prescription. |
+| 13-I | INTEGRATED | PASS — objective-setting, multiple data streams, QA/QC, analysis, publication and feedback shown | PENDING | PASS | PENDING | PASS — static SVG and local embed; browser render pending | Community observations are shown as a separate stream, not a substitute for standardised measurement. |
+| 13-J | INTEGRATED | PASS — technical and biological cycles separated; inner value-retention loops prioritised; recycling shown as last resort | PENDING | PASS | PENDING | PASS — static SVG and local embed; browser render pending | Original diagram is distinct from the Ellen MacArthur Foundation butterfly graphic; no tracing/copying. |
+| 13-K | INTEGRATED | PASS WITH SCOPE NOTE — fictional urban districts; pollution and green-space access are hypothetical; distributional, recognition and procedural dimensions distinguished | PENDING | PASS | PENDING | PASS — static SVG and local embed; browser render pending | Do not interpret as a real Kyrgyzstan map or as a single numerical environmental-justice index. |
+
+All four files pass source-level SVG checks for root, viewBox, title, description, role=img and Russian/English text. The local chapter embed paths resolve. No browser, responsive or assistive-technology test is claimed. None is VERIFIED.
