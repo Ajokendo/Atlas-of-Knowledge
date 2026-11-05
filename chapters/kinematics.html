@@ -57,8 +57,8 @@
 <div><small>ВЫСОТА / HEIGHT</small><strong id="klY">0,00 м</strong></div><div><small>ДАЛЬНОСТЬ / RANGE</small><strong id="klX">0,00 м</strong></div><div><small>СКОРОСТЬ / SPEED</small><strong id="klS">14,00 м/с</strong></div><div><small>ВЕРТИКАЛЬНАЯ СКОРОСТЬ / vᵧ</small><strong id="klVy">9,90 м/с</strong></div>
 </div>
 <canvas id="klScene" class="kin-lab-canvas" aria-label="Траектория тела, брошенного под углом"></canvas>
-<canvas id="klGraph" class="kin-lab-canvas kin-lab-graph" aria-label="Графики координаты и вертикальной скорости от времени"></canvas>
-<p class="kin-lab-note">Модель без сопротивления воздуха: x = v₀ cos(θ)t; y = v₀ sin(θ)t − gt²/2. Красная стрелка показывает ускорение свободного падения, синяя — мгновенную скорость. / Air resistance is neglected.</p>
+<canvas id="klGraph" class="kin-lab-canvas kin-lab-graph" aria-label="Два графика с отдельными вертикальными шкалами: высота y в метрах и вертикальная скорость v y в метрах в секунду, оба от времени" aria-describedby="klGraphDescription"></canvas>
+<p id="klGraphDescription" class="kin-lab-note">График разделён на две панели с общей осью времени: сверху показана высота y(t) в метрах, снизу — вертикальная скорость vᵧ(t) в м/с. У каждой панели собственная вертикальная шкала; цветные точки показывают текущие значения. Модель не учитывает сопротивление воздуха. / Two separate vertical scales; air resistance is neglected.</p>
 </section>
 <section class="kinematics-original-lab" aria-label="Оригинальная интерактивная 3D-лаборатория главы 1">
 <div class="physics-lab-head"><div><p class="eyebrow">ИНТЕРАКТИВНАЯ ЛАБОРАТОРИЯ · THREE.JS / WEBGL</p><h2>Исследуйте кинематику в трёхмерном пространстве</h2><p>Интерактивная модель перенесена из движка главы 1: анимация броска, векторы скорости и ускорения, графики, относительное движение, переправа через реку и кинематические модели.</p></div><span class="physics-lab-tag">ОРИГИНАЛЬНЫЙ ДВИЖОК</span></div>
@@ -109,12 +109,14 @@
 <p>Положение, скорость и ускорение можно представить графиками в зависимости от времени. Для вертикального броска при начале отсчёта в точке запуска:</p>
 <div class="equation">y(t) = 9,80t − 4,90t²<br>v<sub>y</sub>(t) = 9,80 − 9,80t<br>a<sub>y</sub>(t) = −9,80 м/с²</div>
 <p>Наклон графика координаты y(t) в выбранный момент равен вертикальной скорости. Наклон графика v(t) равен ускорению. Знаковая площадь под графиком скорости даёт перемещение, а площадь под графиком ускорения — изменение скорости.</p>
-<svg viewBox="0 0 640 220" role="img" aria-label="Графики координаты, скорости и ускорения мяча" style="width:100%;height:auto;background:#f8f8f5">
-<g stroke="#aaa" fill="none"><path d="M45 15V190H610M45 105H610"/></g>
-<path d="M45 105 Q327 -72 610 105" stroke="#d95b43" stroke-width="3" fill="none"/>
-<path d="M45 28L610 182" stroke="#287c9b" stroke-width="3" fill="none"/>
-<path d="M45 165H610" stroke="#56865c" stroke-width="3" fill="none"/>
-<g font-size="12" fill="currentColor"><text x="52" y="18">y(t)</text><text x="530" y="176">v(t)</text><text x="520" y="157">a(t)</text><text x="45" y="207">0 с</text><text x="590" y="207">2 с</text></g></svg>
+<svg viewBox="0 0 680 430" role="img" aria-labelledby="kin-graphs-title kin-graphs-desc" style="display:block;width:100%;height:auto;background:#f8f8f5">
+<title id="kin-graphs-title">Три отдельных графика вертикального броска</title>
+<desc id="kin-graphs-desc">Верхний график: координата y в метрах возрастает от нуля до 4,90 метра за одну секунду, затем возвращается к нулю за две секунды. Средний график: вертикальная скорость v y в метрах в секунду линейно уменьшается от плюс 9,80 до минус 9,80 и равна нулю на вершине. Нижний график: ускорение постоянно и равно минус 9,80 метра в секунду в квадрате. У всех графиков общая ось времени от нуля до двух секунд, но отдельные вертикальные шкалы.</desc>
+<defs><style>.kg-axis{stroke:#555;stroke-width:1.5;fill:none}.kg-grid{stroke:#d9d9d3;stroke-width:1;fill:none}.kg-label{font:13px Inter,Arial,sans-serif;fill:#333}.kg-small{font:11px Inter,Arial,sans-serif;fill:#555}.kg-y{stroke:#d95b43;stroke-width:3;fill:none}.kg-v{stroke:#287c9b;stroke-width:3;fill:none}.kg-a{stroke:#56865c;stroke-width:3;fill:none}</style></defs>
+<g><text class="kg-label" x="18" y="24">Координата y, м</text><path class="kg-grid" d="M70 42H640M70 70H640M70 98H640M70 126H640"/><path class="kg-axis" d="M70 38V132H640"/><g class="kg-small"><text x="43" y="130">0</text><text x="36" y="102">2</text><text x="36" y="74">4</text><text x="36" y="46">5</text></g><path class="kg-y" d="M70 126 Q355 -11 640 126"/><text class="kg-small" x="344" y="48" fill="#d95b43">максимум 4,90 м</text></g>
+<g><text class="kg-label" x="18" y="166">Скорость vᵧ, м/с</text><path class="kg-grid" d="M70 183H640M70 211H640M70 239H640M70 267H640"/><path class="kg-axis" d="M70 179V271H640"/><path d="M70 225H640" stroke="#777" stroke-dasharray="4 4"/><g class="kg-small"><text x="27" y="187">+10</text><text x="49" y="229">0</text><text x="31" y="269">−10</text></g><path class="kg-v" d="M70 184L640 266"/><text class="kg-small" x="342" y="203" fill="#287c9b">vᵧ = 0 на вершине</text></g>
+<g><text class="kg-label" x="18" y="304">Ускорение aᵧ, м/с²</text><path class="kg-grid" d="M70 321H640M70 349H640M70 377H640"/><path class="kg-axis" d="M70 317V381H640"/><g class="kg-small"><text x="49" y="325">0</text><text x="31" y="381">−10</text></g><path class="kg-a" d="M70 378H640"/><text class="kg-small" x="342" y="369" fill="#56865c">aᵧ = −9,80 м/с²</text></g>
+<g class="kg-small"><text x="70" y="410" text-anchor="middle">0</text><text x="355" y="410" text-anchor="middle">1,0</text><text x="640" y="410" text-anchor="end">2,0 с</text><text x="355" y="428" text-anchor="middle">Время t, с</text></g></svg>
 <p class="note">Для постоянного ускорения график a(t) — горизонтальная прямая, v(t) — прямая линия, а y(t) — парабола. На вершине траектории скорость равна нулю, но ускорение по-прежнему направлено вниз.</p>
 </section>
 <section>
@@ -159,8 +161,10 @@
 <section>
 <h2>1.9. Кинематика с помощью математического анализа: переменное ускорение</h2>
 <p>Уравнения для постоянного ускорения здесь неприменимы: ускорение автомобиля уменьшается со временем по закону a(t) = 6,0 − 1,5t м/с² и становится нулевым через 4,0 с. Автомобиль начинает движение из состояния покоя в точке x₀ = 0. Чтобы найти скорость, интегрируем ускорение; чтобы найти координату, интегрируем скорость.</p>
-<div class="equation">v(t) = ∫a(t)dt = 6,0t − 0,75t²<br>x(t) = ∫v(t)dt = 3,0t² − 0,25t³</div>
-<p>В момент t = 4,0 с ускорение становится нулевым. К этому моменту скорость равна 12,0 м/с, а пройденное расстояние — 32,0 м. Далее автомобиль движется с постоянной скоростью 12,0 м/с.</p>
+<p>Первые две формулы действуют только на участке <strong>0 ≤ t ≤ 4,0 с</strong>, пока ускорение уменьшается от 6,0 до 0 м/с²:</p>
+<div class="equation">v(t) = 6,0t − 0,75t²<br>x(t) = 3,0t² − 0,25t³</div>
+<p>При t = 4,0 с получаем v₁ = 12,0 м/с и x₁ = 32,0 м. После этого ускорение равно нулю, поэтому скорость остаётся постоянной, а координата растёт линейно:</p>
+<div class="equation">t ≥ 4,0 с: &nbsp; a(t) = 0<br>v(t) = 12,0 м/с<br>x(t) = 32,0 м + 12,0 м/с · (t − 4,0 с)</div>
 <p>На графике a(t) площадь даёт изменение скорости; площадь под v(t) — перемещение; наклон графика x(t) — скорость. Производная показывает мгновенную скорость изменения величины, интеграл накапливает её изменение.</p>
 </section>
 <section>
@@ -212,13 +216,23 @@ arrow(sx(x),sy(y),s.vx*3,-vy*3,"#287c9b");arrow(sx(x),sy(y),0,28,"#d95b43");
 c.fillStyle="#333";c.fillText("v",sx(x)+s.vx*3+4,sy(y)-vy*3);c.fillText("g",sx(x)+7,sy(y)+32);
 });
 paint(graph,(c,w,h)=>{
-const pad=35,tx=z=>pad+z/s.T*(w-pad-12),y0=h/2,ys=z=>y0-z/(Math.max(1,s.vy0*s.vy0/(2*s.G))*1.25)*(h/2-15);
-c.strokeStyle="#aaa";c.beginPath();c.moveTo(pad,8);c.lineTo(pad,h-22);c.lineTo(w-8,h-22);c.moveTo(pad,y0);c.lineTo(w-8,y0);c.stroke();
-c.font="10px sans-serif";c.fillStyle="#555";c.fillText("y(t), м",pad+5,12);c.fillText("vᵧ(t), м/с",w-85,12);
-c.strokeStyle="#d95b43";c.lineWidth=2;c.beginPath();for(let i=0;i<=100;i++){const q=s.T*i/100,z=s.vy0*q-.5*s.G*q*q;i?c.lineTo(tx(q),ys(z)):c.moveTo(tx(q),ys(z));}c.stroke();
-const vScale=(h/2-15)/Math.max(1,s.vy0);c.strokeStyle="#287c9b";c.beginPath();c.moveTo(tx(0),y0-s.vy0*vScale);c.lineTo(tx(s.T),y0+s.vy0*vScale);c.stroke();
-c.fillStyle="#222";c.fillText("0",pad-12,y0+12);c.fillText(fmt(s.T,1)+" s",w-45,h-5);
-c.fillStyle="#d95b43";c.beginPath();c.arc(tx(t),ys(y),4,0,Math.PI*2);c.fill();
+const left=42,right=w-12,top=22,upperBottom=Math.round(h*.47),lowerTop=Math.round(h*.57),lowerBottom=h-25;
+ const tx=z=>left+z/s.T*(right-left),maxH=Math.max(1,s.vy0*s.vy0/(2*s.G))*1.12;
+ const yTop=z=>upperBottom-z/maxH*(upperBottom-top),vMid=(lowerTop+lowerBottom)/2,vHalf=(lowerBottom-lowerTop)/2;
+ const yVel=z=>vMid-z/(Math.max(1,s.vy0)*1.12)*vHalf;
+ c.font="10px sans-serif";c.fillStyle="#444";
+ c.fillText("Высота y, м",left,13);c.fillText("Вертикальная скорость vᵧ, м/с",left,lowerTop-5);
+ c.strokeStyle="#d9d9d3";c.lineWidth=1;
+ for(let i=0;i<=2;i++){const xx=tx(s.T*i/2);c.beginPath();c.moveTo(xx,top);c.lineTo(xx,lowerBottom);c.stroke();}
+ c.strokeStyle="#999";c.beginPath();c.moveTo(left,top);c.lineTo(left,upperBottom);c.lineTo(right,upperBottom);c.moveTo(left,lowerTop);c.lineTo(left,lowerBottom);c.lineTo(right,lowerBottom);c.stroke();
+ c.setLineDash([3,3]);c.beginPath();c.moveTo(left,yVel(0));c.lineTo(right,yVel(0));c.stroke();c.setLineDash([]);
+ c.fillStyle="#555";c.fillText("0",left-16,upperBottom+4);c.fillText(fmt(maxH,1),left-31,top+4);c.fillText("+"+fmt(s.vy0,1),left-34,lowerTop+8);c.fillText("0",left-16,vMid+4);c.fillText("−"+fmt(s.vy0,1),left-34,lowerBottom);
+ c.strokeStyle="#d95b43";c.lineWidth=2;c.beginPath();for(let i=0;i<=100;i++){const q=s.T*i/100,z=s.vy0*q-.5*s.G*q*q;i?c.lineTo(tx(q),yTop(z)):c.moveTo(tx(q),yTop(z));}c.stroke();
+ c.strokeStyle="#287c9b";c.beginPath();c.moveTo(tx(0),yVel(s.vy0));c.lineTo(tx(s.T),yVel(-s.vy0));c.stroke();
+ c.strokeStyle="#666";c.setLineDash([3,3]);c.beginPath();c.moveTo(tx(t),top);c.lineTo(tx(t),lowerBottom);c.stroke();c.setLineDash([]);
+ c.fillStyle="#d95b43";c.beginPath();c.arc(tx(t),yTop(y),4,0,Math.PI*2);c.fill();
+ c.fillStyle="#287c9b";c.beginPath();c.arc(tx(t),yVel(vy),4,0,Math.PI*2);c.fill();
+ c.fillStyle="#444";c.fillText("0",tx(0)-3,h-8);c.fillText(fmt(s.T/2,1),tx(s.T/2)-5,h-8);c.fillText(fmt(s.T,1)+" с",tx(s.T)-18,h-8);
 });
 }
 function stop(){playing=false;if(raf)cancelAnimationFrame(raf);raf=0;$("klPlay").textContent="▶ Запустить / Play"}
