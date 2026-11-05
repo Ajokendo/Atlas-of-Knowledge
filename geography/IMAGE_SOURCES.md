@@ -651,3 +651,17 @@ The three source images are unchanged. For CC BY and CC BY-SA assets, author, li
 | 15-K | Multitemporal change-detection workflow and independent validation | `assets/diagrams/15-K-multitemporal-change-detection-bilingual.svg` | Belgian Platform on Earth Observation and Virginia Tech Pressbooks change-detection guidance. These pages support same-season acquisition, co-registration and atmospheric compatibility; no third-party figure copied. | C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING. | INTEGRATED; workflow concept checked; static SVG checks PASS; scientific/accessibility/browser QA PENDING. |
 
 All five new assets (14-D and 15-D/I/J/K) have bilingual captions/alt text in their chapters and pass source-level checks for SVG boundary, viewBox, title, description, role=img and Cyrillic/Latin text. These are not browser-render or screen-reader tests.
+
+
+## Chapter 14 — Visual 14-G: DEM, slope and aspect — source discovery checkpoint — 5 November 2026
+
+| Field | Record |
+|---|---|
+| Visual ID | 14-G |
+| Learning purpose | Show one actual elevation raster and its derived slope and aspect layers, with the source tile, spatial resolution, CRS, vertical reference and processing method recorded. |
+| Current status | Visual remains MISSING. Candidate global elevation products were found, but no Kyrgyzstan tile was downloaded and validated for this asset. |
+| Candidate 1 | NASA SRTM Global 1 arc-second V003, nominal spacing approximately 30 m; acquisition 11–21 February 2000; near-global coverage from 60°N to 56°S; public U.S. Government works terms. NASA data catalogue: https://catalog.data.gov/dataset/nasa-shuttle-radar-topography-mission-global-1-arc-second-v003 ; USGS access guide: https://www.usgs.gov/faqs/where-can-i-get-global-elevation-data |
+| Candidate 2 | Copernicus DEM GLO-30 Public, 1 arc-second / nominal 30 m, TanDEM-X acquisition period 2011–2015. It is a **DSM**, including vegetation and buildings, not a bare-earth DTM. Some tiles are withheld from public release; exact Kyrgyzstan tile availability must be checked. GLO-90 provides 90 m global coverage. Catalogue: https://registry.opendata.aws/copernicus-dem/ ; product documentation: https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM |
+| Image-first decision | Existing tutorials and map examples were reviewed, but their site-specific terrain and processing metadata do not constitute a valid Kyrgyzstan DEM derivative. Do not copy a hillshade image from a different region. |
+| Required before integration | Obtain the exact source tile; inspect NoData/void filling, horizontal CRS, vertical datum/geoid, pixel spacing, acquisition/product version and licence; clip to a documented study area; derive slope in degrees or percent and aspect with a stated algorithm; state edge effects and resampling. |
+| Decision | Keep 14-G MISSING until a real source raster and reproducible derivatives are produced. A schematic is not an acceptable substitute for this planned data map. |
