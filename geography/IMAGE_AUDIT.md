@@ -1214,3 +1214,18 @@ All three assets passed static SVG and chapter-embed checks. They are not live-b
 | **Total** | **97** | **55** | **42** |
 
 This 55/97 table supersedes the previous 52/97 count.
+
+
+## Chapter 16 — final five cartography visuals — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 16-E | INTEGRATED | PASS — map type/data matching aligned with UCGIS CV-04-011 | PENDING — original project licence not assigned | PASS — bilingual title, description and caption | PENDING — alt text present; manual comprehension/contrast review pending | PASS — static SVG structure and relative embed; live render pending | Five conceptual examples; fictional territory and data. |
+| 16-F | INTEGRATED | PASS — visual variables aligned with Penn State GEOG 486 and Roth (2017) | PENDING | PASS | PENDING | PASS — static SVG and embed | Position, size, shape, orientation, hue, lightness and texture; colour is not the only channel. |
+| 16-G | INTEGRATED | PASS with limitation — equal interval and quantile examples are explicit; natural-break ranges are illustrative, not computed Jenks results | PENDING | PASS | PENDING | PASS — static SVG and embed | Add/retain explicit warning that exact Jenks breaks must be calculated from source data. |
+| 16-H | INTEGRATED | PASS — mock-up distinguishes applicable metadata from non-applicable scale/CRS | PENDING | PASS | PENDING | PASS — static SVG and embed | Fictional map-layout example; no geospatial precision is implied. |
+| 16-I | INTEGRATED | PASS — includes source lineage, metadata, code, environment, processing, outputs, rights and access control | PENDING | PASS | PENDING | PASS — static SVG and embed | Conceptual workflow, not a prescribed software stack. |
+
+The five new assets were fetched from the working branch and passed source-level checks for SVG opening/closing elements, viewBox, title, description, role="img", and Russian/English text. Their chapter embeds resolve to local files and their Markdown captions are bilingual. No browser rendering, responsive layout, keyboard navigation or screen-reader test is claimed. No visual is VERIFIED.
+
+**Chapter 16 coverage:** 9/9 planned IDs are integrated (16-A–16-I). This is Image Coverage only; Image Verification remains 0/9 under the full policy because rights, accessibility and rendered technical QA are still pending.
