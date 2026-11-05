@@ -167,3 +167,25 @@ Files changed in this pass: `original-engine/newton/world.js`, `original-engine/
 - Задача 2.11.2 является задачей со свободным решением, а не тестом с вариантами. Проверено её решение: (a(t)=g e^{-t/\tau}), при (a=g/4) сила сопротивления равна (3mg/4=3.675\,Н), время (t=\tau\ln4\approx0.555\,с). В этой задаче нет ошибочных вариантов ответа.
 
 **50% gate: complete.** Все 26 заданий проверены; два обнаруженных дефекта размерностей исправлены и защищены регрессионными тестами. Финальный повторный CI для последнего изменения остаётся обязательным.
+
+
+## 60% — происхождение визуалов, лицензии и реестр источников
+
+### Source-lineage comparison
+Pinned upstream snapshot: Nathan Liow, Atlas of Physics, commit `bcd67d9b75425f4a78f5c7c1d17a2d0614727309`.
+- Local `original-engine/newton/model.js` is byte-identical to upstream `newton/model.js`.
+- `world.js` has 66 changed lines, but after normalising learner-facing quoted strings, there are **0 remaining code/geometry differences**. Scene geometry, transforms, force vectors and update logic are inherited unchanged; Russian titles, object names and labels are localised.
+- `pages.js`, `practice.js` and `main.js` contain the Russian-language edition and local learner-facing/technical adjustments.
+- The upstream `img/newton.jpg` cover image is not present in the local Physics branch and is not counted as an integrated asset.
+
+### Rights and dependencies
+- All 13 3D scenes are registered as inherited, Russian-localised Category B visuals, attributed to Nathan Liow.
+- The upstream MIT basis is recorded; the required Copyright (c) 2026 Nathan Liow notice remains in `LICENSE` and the third-party notice.
+- Three.js is separately identified as an MIT-licensed dependency in `THIRD_PARTY_NOTICES.md`.
+- No external raster image or texture artwork was identified in the local Newton `world.js` scene module.
+- MIT software licensing is not used as blanket permission for unrelated third-party artwork.
+
+### Saved source register
+Updated `IMAGE_SOURCES.md` with **13 stable visual IDs, PHY-02-001–PHY-02-013**, one for each scene assembly, including English source concept, Russian visual meaning, local/upstream source path, category and current lifecycle status. The scene-to-page-to-PLATES mapping is exact: 13/13, with no orphaned or missing top-level scene IDs.
+
+**60% gate: complete.** Provenance and rights basis are documented for the 13 inherited code-rendered scenes. This is not yet visual verification: per-scene scientific appearance, labels, alternative descriptions and screenshot review remain in the 70%/80% gates.
