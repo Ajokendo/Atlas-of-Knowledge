@@ -101,4 +101,4 @@ A repository-tree and chapter-embed scan confirms that Chapters 06–26 contain 
 This is a confirmed integration inventory, not a scientific, rights, language, accessibility or rendered-technical approval. The four existing SVGs remain INTEGRATED only; all applicable review dimensions are pending.
 
 
-- **5.18-A integration:** created `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg`, a bilingual schematic with synthetic pressure systems, fronts, station plots and climate graphs. It is a teaching exercise, not an operational weather chart. Static SVG structure and bilingual source placement were checked; scientific, rights, accessibility and rendered QA remain pending.
+- **5.18-A integration:** created `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg`, a bilingual schematic with synthetic pressure systems, fronts, station plots and climate graphs. It is a teaching exercise, not an operational weather chart. Static SVG structure and bilingual source placement were checked; scientific convention/data review passed. Project rights/licence, accessibility and rendered QA remain pending.
