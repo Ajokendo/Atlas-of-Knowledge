@@ -491,3 +491,11 @@ Both assets passed static SVG and chapter-embed checks. No external figure is re
 
 - Category C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING.
 - Status: INTEGRATED; conceptual content and RU/EN labels PASS; rights, accessibility and live rendering PENDING.
+
+
+### Chapter 19-F — seasonal atmospheric circulation
+
+**Image-first discovery record:** Peer-reviewed studies by Gerlitz et al. (2018) and a 2020 *Frontiers in Earth Science* study describe seasonal differences in Central Asian westerly moisture transport, mid-latitude disturbances, anticyclonic conditions and northerly flow. Their published figures are tied to specific study domains, datasets and methods; no source map was copied. An original bilingual conceptual diagram was authored and explicitly labelled as a simplified regional model, not a forecast or a uniform description of every Kyrgyz locality.
+
+- Category C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING.
+- Status: INTEGRATED; source-level concept review PASS; browser, accessibility and rights checks PENDING.
