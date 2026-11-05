@@ -547,3 +547,20 @@ Image-first review was performed before authoring. The UCGIS GIS&T Body of Knowl
 | 16-I | Explain data lineage and reproducibility in a geographic project | `assets/diagrams/16-I-reproducible-geographic-project-bilingual.svg` | C — original hand-coded bilingual SVG | Search date 5 Nov 2026; OGC standards and the chapter's metadata/reproducibility references reviewed. No existing external figure copied. | Creator/rightsholder: Unknown pending formal project assignment. Project redistribution licence: PENDING. | Bilingual title/description; workflow is conceptual and does not prescribe a specific folder structure or software stack. | INTEGRATED; workflow concept PASS; rights/accessibility/render PENDING. |
 
 All five files have local relative paths and bilingual captions/alt text in the chapter. Static SVG source checks passed for SVG boundary, viewBox, title, description, role=img and the presence of both Cyrillic and Latin text. These checks are not browser-render, mobile, keyboard or screen-reader verification.
+
+
+## Chapter 19 — Visual 19-E: observed temperature trends — 5 November 2026
+
+| Field | Record |
+|---|---|
+| Visual ID | 19-E |
+| Learning purpose | Compare annual and seasonal linear temperature trends reported for Kyrgyzstan; distinguish a trend rate from an absolute temperature or annual anomaly series. |
+| Filename | `assets/diagrams/19-E-kyrgyzstan-temperature-trends-bilingual.svg` |
+| Category / method | C — original hand-coded bilingual SVG bar chart; data values transcribed from the official Kyrgyzhydromet climate-products page. |
+| Source | Kyrgyzhydromet, “Climate Products”, official page: https://www.meteo.kg/ru/pages/ClimateProducts |
+| Data / scope | 22 meteorological stations; homogeneous, homogenised monthly temperature and precipitation series described as 1980–2021. Published trend table reports annual +0.28 °C/decade, winter +0.21, spring +0.59, summer +0.15 and autumn +0.15. |
+| Period caveat | The page's table heading labels the trend period 1981–2020, while the surrounding text describes the underlying series/trend period as 1980–2021 / 1981–2021. The chart reproduces the table's reported values and explicitly flags this period inconsistency. Do not silently treat the period as resolved. |
+| Creator / licence | Creator/rightsholder for original SVG: Unknown pending formal project assignment. Project redistribution licence: PENDING. Source data page provides no item-specific licence statement for the chart adaptation; underlying official values are attributed to Kyrgyzhydromet. |
+| Attribution | “Data: Kyrgyzhydromet, Climate Products (accessed 5 November 2026); chart authored for Atlas of Geography. Period label discrepancy in source retained as a caveat.” |
+| Caption / alt text | Bilingual caption and descriptive bilingual SVG title/description. |
+| Status | INTEGRATED; source values match the official table; period caveat explicit. Rights, accessibility and browser/device rendering remain PENDING. |
