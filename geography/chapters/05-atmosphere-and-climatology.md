@@ -547,8 +547,6 @@ These values describe the annual cycles of temperature and precipitation, but th
 6. Сравнить сезонность температуры и осадков; отметить, совпадают ли их максимумы.
 7. Не делать вывод о долгосрочном изменении климата по одной климатограмме без сопоставимого временного ряда.
 
-**Reading the diagrams.** Example A has a large annual temperature range and relatively low precipitation, with a warm-season precipitation maximum. Example B has a smaller annual temperature range and precipitation in every month. These patterns illustrate continental and maritime influences, but a climate type cannot be assigned from a graph alone without location, elevation, a sufficiently long observation period and a stated classification method.
-
 **Чтение диаграмм.** Пример A показывает большую годовую амплитуду температуры и сравнительно небольшое количество осадков с максимумом в тёплую часть года. Пример B характеризуется меньшей годовой амплитудой и осадками в течение всего года. Эти особенности иллюстрируют континентальное и морское влияние, однако одной диаграммы недостаточно для надёжного определения климатического типа: нужны местоположение, высота, достаточно продолжительный период наблюдений и указанная методика классификации.
 
 **Учебное задание / Learning activity:** для каждой диаграммы определите самый тёплый и холодный месяцы, рассчитайте годовую амплитуду температуры, найдите самый влажный и самый сухой месяцы и сложите осадки за год. Затем сравните сезонные особенности двух примеров.
@@ -593,25 +591,7 @@ These values describe the annual cycles of temperature and precipitation, but th
 
 *Источники:* NOAA, *How to read Surface Weather Maps*; WMO, *International Cloud Atlas*.
 
-Absolute temperature and precipitation values are not always suitable for comparing different places. A temperature of +5 °C may be normal in one month but unusually high in another region or season. Climatologists therefore use an **anomaly**: the difference between an observed value and a selected climate normal.
 
-For temperature, a simple anomaly is:
-
-`Anomaly = observed temperature − climate normal`
-
-If a month's mean temperature is +8 °C and the normal for the same month and station is +5 °C, the anomaly is +3 °C. This does not mean every day was 3 °C warmer; it is the difference between monthly means.
-
-**Comparability is essential.** The normal should refer to the same station, or a properly comparable area, the same calendar period and a clearly stated baseline interval. Changes in station location, instruments or surrounding development can introduce inhomogeneities; long-term analysis therefore uses quality control and homogenisation procedures.
-
-For precipitation, both absolute millimetres and the percentage of normal can be useful. However, relative departures become unstable where the normal precipitation amount is very small. In such cases, report the absolute difference and explain the seasonal context.
-
-**Why this matters in the mountains of Kyrgyzstan.** An anomaly at a high-elevation station cannot be directly compared with an absolute temperature in a valley to infer the spatial pattern of warming. Comparable periods, elevation context, observation quality and a sufficiently dense station network are needed. Year-to-year variability is not the same as a long-term trend.
-
-**Learning activity.** Calculate temperature anomalies for three stations for the same month using each station's own normal and a common baseline period (for example, 1991–2020). Compare the signs and sizes of the departures. Then explain why one month cannot establish a climate trend and identify the data needed to assess long-term change.
-
-For describing current conditions, the latest standard normal (1991–2020) is generally used. Long-term climate-change assessments may instead use the fixed 1961–1990 reference period so that comparisons across years retain the same baseline. The appropriate choice depends on the purpose; always state the reference period.
-
-*Sources:* WMO, *Guidelines on the Calculation of Climate Normals* (WMO-No. 1203, 2017); WMO, *Guidelines on Homogenisation* (WMO-No. 1245, 2020); WMO, *Updated 30-year reference period reflects changing climate* (2021).
 
 
 ## Итоги главы / Chapter Summary
