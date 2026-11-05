@@ -1270,3 +1270,16 @@ The 2024 NHESS paper is open access under CC BY 4.0 and documents the harmonisat
 | Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
 |---|---|---|---|---|---|---|---|
 | 20-G | MISSING — no chart integrated | PARTIAL SOURCE METADATA — Naryn station 16055, 41.430° N / 76.000° E, drainage area 10,500 km², long-term mean 92.117 m³/s, published graph period 1931–2006 | PENDING — raw data reuse terms not established | PENDING | PENDING | PENDING | UNH page displays annual/monthly graph but raw reusable values and item-specific licence are not yet confirmed. Do not digitise the displayed raster graph as exact data. Obtain raw data and document QC, time step and gaps before creating the chart. |
+
+
+## Chapters 14 and 15 — final conceptual visuals tranche — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 14-D | INTEGRATED | PASS — sequential/diverging/qualitative palettes matched to ordered, centred and categorical data | PENDING — original project licence not assigned | PASS | PENDING — labels present; contrast/colour-vision review pending | PASS — static SVG and local embed; browser/mobile render pending | Palette examples are illustrative; no universal colour standard is implied. |
+| 15-D | INTEGRATED | PASS WITH LIMITATION — independent validation is separated from training; confusion matrix is conceptual, no accuracy values invented | PENDING | PASS | PENDING | PASS — static SVG and local embed; browser render pending | Add real accuracy statistics only when a documented reference sample and sampling design exist. |
+| 15-I | INTEGRATED | PASS — side-looking geometry and incidence angle to local surface normal shown; not an optical camera | PENDING | PASS | PENDING | PASS — static SVG and local embed; browser render pending | Simplified geometry; actual incidence and distortions depend on orbit and terrain. |
+| 15-J | INTEGRATED | PASS — multiple returns, ground/canopy distinction, DSM, DTM and CHM=DSM−DTM shown | PENDING | PASS | PENDING | PASS — static SVG and local embed; browser render pending | Explicitly notes that not every pulse reaches ground; not site-specific LiDAR data. |
+| 15-K | INTEGRATED | PASS — co-registration, seasonal matching, analysis and independent validation shown | PENDING | PASS | PENDING | PASS — static SVG and local embed; browser render pending | Explicitly warns about clouds, shadows, seasonality and sensor differences. |
+
+The five SVG files were fetched and passed source-level structure and bilingual-text checks. Their relative embed paths exist in the relevant chapter files. No browser, responsive, keyboard or assistive-technology test is claimed. None is marked VERIFIED.
