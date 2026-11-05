@@ -665,3 +665,14 @@ Any external evaluation, consultation, expert review, school-teacher assessment,
 ## Governance supersession — internal visual QA only — 5 November 2026
 
 The project owner's definitive instruction excludes all external review, specialist expertise, independent assessment, certification and expert sign-off from Atlas of Knowledge. Any older wording in this audit that lists an external/independent specialist, second-person external approval, or outside review as a pending gate is superseded. Such work is not a project task, blocker or completion criterion. Visual QA in this project is performed internally through source inspection, evidence and licence checks, rendered-page/browser inspection, bilingual label/caption checks, and documented uncertainty. Where the internal team cannot substantiate a fine-grained species or anatomical detail, qualify or remove the claim rather than waiting for external sign-off or implying verification. Published scientific sources remain available for internal fact-checking.
+
+
+## Targeted source and bilingual-caption check — 5 November 2026
+
+A focused source-level pass compared the three integrated P1 fauna SVGs with their live chapter references, bilingual alt text and captions:
+
+- **Mountain mammals** (fauna-mammals-habitat-reconstruction.svg): SVG title/description and chapter alt/caption consistently identify three separate habitat scenes (snow leopard, argali and Siberian ibex). The figure is not described as a shared observation, range map or census. The chapter places the figure in the mountain-mammal section and preserves the same limitation in Russian and English.
+- **Birds** (fauna-birds-habitats.svg): SVG description and chapter alt/caption consistently distinguish a golden eagle near cliffs, a Himalayan snowcock on an alpine slope and generic, unlabelled waterfowl at a separate lake shore. No species identity is assigned to the waterfowl.
+- **Freshwater habitats** (fauna-freshwater-habitats.svg): SVG description and chapter alt/caption consistently distinguish Lake Issyk-Kul from a cold flowing freshwater mountain stream. Fish remain generic and unlabelled; aquatic insect larvae are confined to the stream scene. The chapter separately states that Issyk-Kul is a closed-basin, slightly saline/brackish lake and cites the FAO technical report for its approximate salinity; it does not equate the lake with freshwater rivers.
+
+**Result:** no source-text contradiction was found between these three SVG descriptions and their current bilingual chapter alt text/captions in this pass. This is a source/caption consistency check only. It does not close detailed rendered visual inspection, mobile-width label/legibility checks, hands-on accessibility checks or asset-rights checks. No asset was marked VERIFIED, and no production count changed.
