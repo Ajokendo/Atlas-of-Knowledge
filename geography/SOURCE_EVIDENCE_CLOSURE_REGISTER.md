@@ -1047,3 +1047,11 @@ After adding a brief bilingual introduction to the key-term glossaries in Chapte
 - IPCC AR6 WGII assesses observed and projected impacts on ecosystems, water/food security, settlements/infrastructure, health, well-being and economies. The new matrix is qualitative and does not convert global findings into unsupported Kyrgyzstan-specific claims.
 - OECD guidance notes that adaptation indicators are context-dependent and that no single final universal indicator set has been agreed. The chapter visual therefore labels its metrics as examples, not a standard mandatory set.
 - New assets 13-E, 13-F and 13-H passed static source and embed checks; specialist review, project licensing and live accessibility/render QA remain open.
+
+
+### Chapter 14 — QGIS/GDAL source checks for GIS workflow visuals — 5 November 2026
+
+- QGIS 3.44 network-analysis documentation defines service area in terms of network edges reachable within a specified distance or time and distinguishes shortest from fastest paths; the chapter visual contrasts this with straight-line buffering.
+- QGIS 3.44 topology documentation identifies polygon gaps/overlaps, line undershoots/overshoots and duplicate features. GDAL documentation clarifies that individual geometry validity does not itself test coverage gaps/overlaps.
+- The reproducible-workflow visual is a project-method checklist, not a claim that every GIS project follows an identical linear process.
+- Visuals 14-F, 14-H and 14-I are integrated and passed static source/embed checks; software execution, live browser and accessibility QA remain open.
