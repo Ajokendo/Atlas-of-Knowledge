@@ -1424,7 +1424,7 @@ The designated internal reviewer for this development pass is ChatGPT GPT-6. Spe
 - RU/EN visual parity: PASS 19/19. All 40 Markdown image embeds have non-empty bilingual alt text; the 19 visual IDs are present in both language sections. The section-heading inventory is now aligned 40/40 after adding the missing English subsection headings 2.2.1–2.2.4 and 2.9.1–2.9.2.
 - The review found that 2-D had three reservoir labels only in English. Added matching Russian labels in the SVG; commit `56efa613470a001472391dcc887434eaaca13957`. A second static text-node pass found no remaining unpaired labels in the 11 local Chapter 02 SVGs.
 - Static SVG QA: PASS 11/11 for root/viewBox, title/description, `role="img"`, unique IDs and valid ARIA targets; no scripts, foreignObject or externally embedded image content. This does not prove rendered legibility or screen-reader behaviour.
-- Rights: PASS where an exact source/reuse basis is recorded (NOAA, USGS, NCAR/Wikimedia CC0, Theobald et al. CC BY 4.0, NASA); 2.10-A is separately PASS on its U.S. Public Domain basis. The 3 remaining original project SVGs are NOT CLEARED — no public licence is asserted; their embedded rights notices and administrative closure are recorded below. The 2.5-A, 2.12-A and 2.14-A SVGs have since been removed and replaced by sourced diagrams with recorded reuse terms.
+- Rights: PASS where an exact source/reuse basis is recorded (NOAA, USGS, NCAR/Wikimedia CC0, Theobald et al. CC BY 4.0, NASA); 2.10-A is separately PASS on its U.S. Public Domain basis. The 2 remaining original project SVGs are NOT CLEARED — no public licence is asserted; their embedded rights notices and administrative closure are recorded below. The 2.5-A, 2.12-A and 2.14-A SVGs have since been removed and replaced by sourced diagrams with recorded reuse terms.
 - Accessibility: PARTIAL for all assets. Bilingual alt text and SVG title/description metadata are present; actual assistive-technology output has not been tested.
 - Technical integration: PARTIAL PASS for source/image retrieval and static SVG checks. Live deployed reader, responsive breakpoints, keyboard navigation and screen-reader checks remain PENDING because this branch has no established preview deployment. Do not mark the 19 assets fully VERIFIED.
 - School trials, teacher review and external expert assessment are excluded from this development-stage completion score, in accordance with the project owner's instruction.
@@ -1558,3 +1558,13 @@ A stronger rights-documented candidate was identified in LibreTexts *The Physica
 - The image is used unchanged. Removed `geography/assets/diagrams/02-6A-organization-of-life.svg` from the branch.
 - Chapter 02 remains at 52 Markdown image embeds and 26 unique assets: 23 remote images and 3 remaining local SVGs. Across Chapters 01–02 there are 62 image embeds.
 - Rights result: PASS under the composite CC BY-SA 3.0 and the recorded component licences. Deployed-reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
+
+
+## Chapter 02 — 2.11-A natural-geosystem visual replacement integrated — 5 November 2026
+
+- Replaced the local schematic with the exact USGS media asset “Ecosystems like a Puzzle”. The USGS page credits the Ecosystems Land Change Science Program, dates the image approximately February 2025, and explicitly states Public Domain.
+- The original image was opened and visually inspected. It is a puzzle-style collage of ecosystem components: sunlight, temperature, precipitation, elevation, disturbance, vegetation, wildlife, microbes and soil.
+- Both RU and EN chapter sections include bilingual alt text and a caption that names the USGS program, approximate date and Public Domain status. The caption clarifies that the image is a conceptual ecosystem-components illustration, not a geographic map, universal geosystem taxonomy or diagram of a specific Kyrgyz landscape.
+- Removed `geography/assets/diagrams/02-11A-natural-geosystem.svg` from the branch after replacement.
+- Chapter 02 remains at 52 Markdown image embeds and 26 unique assets: 24 remote images and 2 remaining local SVGs. Across Chapters 01–02 there are 62 image embeds.
+- Rights result: PASS — Public Domain status is explicitly stated on the exact USGS media page. Deployed-reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
