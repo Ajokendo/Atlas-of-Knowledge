@@ -892,5 +892,8 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 11. Coe, N. M., Kelly, P. F., Yeung, H. W. C. **Economic Geography: A Contemporary Introduction**. Wiley.
 12. United Nations Conference on Trade and Development (UNCTAD). **Global Value Chains and World Trade**, chapter “Mapping global value chains” (2014). https://doi.org/10.18356/8ad97673-en
 13. United Nations Industrial Development Organization (UNIDO). **EQuIP Tool 4 — Global Value Chains** (2024). https://www.unido.org/learning-resources/equip-tool-4-global-value-chains
+14. National Investment Agency of the Kyrgyz Republic. **Energy Sector — Invest Compass** (data current to June 2026). Sector structure, licensing and separation of generation, transmission, distribution and retail supply. https://invest.gov.kg/en/invest-compass/sectors/energy
+15. Ministry of Energy of the Kyrgyz Republic. **2025 energy-sector results and 2026 work plan.** Published 2026; electricity generation and consumption indicators. https://minenergo.gov.kg/ru/news/936
+16. CAWater-Info. **Key Water Developments in the Countries of Central Asia, 2025: Kyrgyz Republic.** Electricity production, consumption and import indicators for 2025. https://www.cawater-info.net/yearbook/2025/05_yearbook2025_kg_en.htm
 ---
 **Конец главы 11 / End of Chapter 11**
