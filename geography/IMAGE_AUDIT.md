@@ -1185,3 +1185,32 @@ All three SVGs passed static source and chapter-embed checks. Live browser, keyb
 | **Total** | **97** | **52** | **45** |
 
 This 52/97 table supersedes the previous 49/97 count.
+
+
+## Thirteenth visual integration tranche — Chapter 15 — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 15-F | INTEGRATED | PASS as a qualitative teaching illustration; not measured reflectance data | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Compares vegetation, clear water, dry soil and snow spectral signatures; explicitly notes dependence on moisture, composition, season and atmosphere. |
+| 15-G | INTEGRATED | PASS for the four resolution concepts | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Explains spatial, spectral, radiometric and temporal resolution and warns that they are distinct properties. |
+| 15-H | INTEGRATED | PASS for the Landsat processing sequence and Level-2 caveat | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Shows processing toward surface reflectance and QA masks; notes that Level-2 products already include algorithmic correction and product-specific scale/QA details. |
+
+All three assets passed static SVG and chapter-embed checks. They are not live-browser, mobile or assistive-technology verified.
+
+### Current scoped visual coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **55** | **42** |
+
+This 55/97 table supersedes the previous 52/97 count.
