@@ -40,6 +40,13 @@ jobs:
           exit 1
       - name: Test Chapter 14–15 new visual assets on desktop and mobile viewports
         run: node original-engine/visual-assets-smoke.mjs
+      - name: Upload Chapter 14–15 visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: physics-visual-review
+          path: /tmp/physics-visual-review/*.png
+          if-no-files-found: warn
       - name: Test Chapter 1 kinematics on desktop and mobile viewports
         run: node original-engine/browser-smoke.mjs
       - name: Test Chapter 2 Newton laws on desktop and mobile viewports
