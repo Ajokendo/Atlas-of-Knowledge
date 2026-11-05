@@ -1424,7 +1424,7 @@ The designated internal reviewer for this development pass is ChatGPT GPT-6. Spe
 - RU/EN visual parity: PASS 19/19. All 40 Markdown image embeds have non-empty bilingual alt text; the 19 visual IDs are present in both language sections. The section-heading inventory is now aligned 40/40 after adding the missing English subsection headings 2.2.1–2.2.4 and 2.9.1–2.9.2.
 - The review found that 2-D had three reservoir labels only in English. Added matching Russian labels in the SVG; commit `56efa613470a001472391dcc887434eaaca13957`. A second static text-node pass found no remaining unpaired labels in the 11 local Chapter 02 SVGs.
 - Static SVG QA: PASS 11/11 for root/viewBox, title/description, `role="img"`, unique IDs and valid ARIA targets; no scripts, foreignObject or externally embedded image content. This does not prove rendered legibility or screen-reader behaviour.
-- Rights: PASS where an exact source/reuse basis is recorded (NOAA, USGS, NCAR/Wikimedia CC0, Theobald et al. CC BY 4.0, NASA); 2.10-A is separately PASS on its U.S. Public Domain basis. The 5 remaining original project SVGs are NOT CLEARED — no public licence is asserted; their embedded rights notices and administrative closure are recorded below. The 2.5-A, 2.12-A and 2.14-A SVGs have since been removed and replaced by sourced diagrams with recorded reuse terms.
+- Rights: PASS where an exact source/reuse basis is recorded (NOAA, USGS, NCAR/Wikimedia CC0, Theobald et al. CC BY 4.0, NASA); 2.10-A is separately PASS on its U.S. Public Domain basis. The 4 remaining original project SVGs are NOT CLEARED — no public licence is asserted; their embedded rights notices and administrative closure are recorded below. The 2.5-A, 2.12-A and 2.14-A SVGs have since been removed and replaced by sourced diagrams with recorded reuse terms.
 - Accessibility: PARTIAL for all assets. Bilingual alt text and SVG title/description metadata are present; actual assistive-technology output has not been tested.
 - Technical integration: PARTIAL PASS for source/image retrieval and static SVG checks. Live deployed reader, responsive breakpoints, keyboard navigation and screen-reader checks remain PENDING because this branch has no established preview deployment. Do not mark the 19 assets fully VERIFIED.
 - School trials, teacher review and external expert assessment are excluded from this development-stage completion score, in accordance with the project owner's instruction.
@@ -1538,3 +1538,13 @@ A stronger rights-documented candidate was identified in LibreTexts *The Physica
 ### Updated inventory
 - Chapter 02: 48 Markdown image embeds, 24 unique assets, 19 remote images and 5 remaining local SVGs.
 - Across Chapters 01–02: 58 image embeds. Non-empty alt text and bilingual source captions will be rechecked after this update.
+
+
+## Chapter 02 — 2-D biogeochemical-cycle replacement integrated — 5 November 2026
+
+- Replaced the local overview SVG with three exact OpenStax image CDN assets: Figure 46.15 (carbon cycle), Figure 46.17 (nitrogen cycle) and Figure 46.18 (phosphorus cycle), from *Biology 2e*, section 46.3.
+- All three image files were opened and visually inspected. Each exact figure caption credits “modification of work by John M. Evans and Howard Perlman, USGS”. The official OpenStax reuse statement says OpenStax-copyrighted images are CC BY-NC-SA 4.0; the three OpenStax adaptations are used unchanged.
+- Both RU and EN sections include the three images, OpenStax book/section attribution, USGS source credit, and CC BY-NC-SA 4.0 licence link. The Atlas is noncommercial; attribution and ShareAlike conditions must be respected. This licence applies to the OpenStax figure material, not automatically to unrelated Atlas content.
+- Removed `geography/assets/diagrams/02-D-biogeochemical-cycles-overview.svg` from the branch.
+- Chapter 02 now has 52 Markdown image embeds, 26 unique assets: 22 remote images and 4 remaining local SVGs. Across Chapters 01–02 there are 62 image embeds.
+- Rights result: PASS under CC BY-NC-SA 4.0 for the OpenStax figure adaptations, with the underlying USGS source credited. Deployed-reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
