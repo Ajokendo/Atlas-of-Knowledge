@@ -1107,7 +1107,7 @@ if (fs.existsSync(generatedDir)) {
       const [, minX, minY, width, height] = vb.map(Number);
       for (const node of source.matchAll(/<(?:text|tspan)\b([^>]*)>/gi)) {
         for (const axis of ["x", "y"]) {
-          const coordinate = node[1].match(new RegExp("\\\\b" + axis + "=[\\\\\"'](-?[\\\\d.]+)"));
+          const coordinate = node[1].match(new RegExp("\\b" + axis + "\\s*=\\s*[\'\"](-?[\\d.]+)"));
           if (!coordinate) continue;
           const value = Number(coordinate[1]);
           const min = axis === "x" ? minX : minY;
