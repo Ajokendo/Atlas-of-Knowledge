@@ -107,7 +107,9 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 ## 18.3. Основные горные районы / Major Mountain Regions
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-B / IMAGE PLACEHOLDER 18-B]** Орографическая схема Тянь-Шаня и Памиро-Алая с Северным, Внутренним, Центральным и Западным Тянь-Шанем; географическое районирование не смешивать с тектоническими террейнами.
+![Орографические регионы: Северный, Западный, Внутренний и Центральный Тянь-Шань и Памиро-Алай / Orographic regions: Northern, Western, Inner and Central Tien Shan and Pamir-Alay](../assets/diagrams/18-B-orographic-regions-schematic-bilingual.svg)
+
+*Схема показывает учебную группировку горных систем, а не точные границы районов или тектонических террейнов. / Schematic teaching classification, not precise regional boundaries or tectonic terranes.*
 > **EN:** Orographic diagram of the Tien Shan and Pamir–Alay showing the Northern, Inner, Central and Western Tien Shan; do not conflate geographic regionalisation with tectonic terranes.
 
 ### 18.3.1. Северный Тянь-Шань / Northern Tien Shan
