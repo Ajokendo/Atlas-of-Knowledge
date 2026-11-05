@@ -5,7 +5,7 @@
 **Version:** 1.0  
 **Status:** Mandatory implementation guide  
 **Applies to:** Every current and future subject atlas, chapter, language edition, interactive lesson, and visual learning component in Atlas of Knowledge  
-**Governing standard:** `IMAGE_FIRST_POLICY.md` (currently v1.1)  
+**Governing standard:** `IMAGE_FIRST_POLICY.md` (currently v1.2)  
 **Canonical location:** Repository root — `VISUAL_IMPLEMENTATION_GUIDE.md`
 
 ---
