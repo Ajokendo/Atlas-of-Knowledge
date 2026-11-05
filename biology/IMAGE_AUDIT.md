@@ -764,3 +764,22 @@ These are source-level bilingual corrections. The latest Chromium workflow will 
 ### Triage-count correction — 5 November 2026
 
 The current brief-review table now has **37/53** rows with explicit pending visual/browser/morphology notes, not 33/53. Four additional rows were made explicit during the latest source-label audit: botany anatomy, botany transport, botany flower and ecology food web. The disposition register remains at **45/53** rows with at least one pending/open note. These are open-note counts, not pass rates.
+
+
+## Manual review of the latest Chromium screenshot artifact — 5 November 2026
+
+Artifact retrieved directly from the GitHub Actions run [42042559006](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42042559006), commit `be2882b6`: `biology-visual-review`, 26 full-page PNGs (13 Biology pages at 1365 px and 390 px widths).
+
+### Page-level visual review completed
+
+- Opened the desktop and mobile contact sheets covering all 13 pages (26 screenshots).
+- Inspected full-resolution crops from the long regional pages `fauna-kyrgyzstan` and `flora-kyrgyzstan`, including opening sections, middle content/cards, regional field dossiers, tables and source lists.
+- The visible page containers remain within the captured viewport width; no horizontal spill, cut-off page columns, broken image placeholders or obvious missing-media gaps were found in the inspected views.
+- At 390 px, the two-column desktop cards stack into a single column; text and tables wrap within the page. At 1365 px, the two-column card layout is retained and centered.
+- Regional dossier sections, image cards, captions and bibliography blocks are present in the inspected long-page sections. The very large fauna page height reflects the amount of regional dossier/reference content; it is not by itself evidence of a rendering defect.
+
+### Remaining limits
+
+This pass is a manual page-layout review of the 26 screenshots plus targeted full-resolution crops, not a pixel-by-pixel inspection of every scientific illustration. It does not certify species morphology, fine internal diagram labels, scientific correctness of every image, source-to-image identity, image rights for every asset, or screen-reader behavior. Those remain asset-specific internal checks where the register still says they are open. No blanket `VERIFIED` status is assigned.
+
+Latest CI evidence: run `42042559006`, commit `be2882b6`, all workflow steps successful, including static validation, Chromium test of every Biology page and screenshot upload.
