@@ -945,3 +945,35 @@ All six new SVG files were re-fetched from the working branch and passed source-
 | **Total, Chapters 11–20** | **97** | **34** | **63** |
 
 The earlier 28/97 table is a historical snapshot and is superseded by this 34/97 table. The supplementary 2019 glacial-lake research figure in Chapter 20.6.7 remains additional and is not counted as a planned ID. Original SVG creator/rightsholder and project redistribution licence remain pending for this tranche; none is marked VERIFIED.
+
+## Fifth visual integration tranche — Chapters 11 and 13–16 — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 11-D | INTEGRATED | PASS as a generic value-chain model; no specific product or country is asserted | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Stages run from research/design through inputs, production, assembly, logistics and market, with service/reuse feedback and supporting conditions. UNCTAD and UNIDO sources added. |
+| 13-B | INTEGRATED | PASS for the three biodiversity levels and five direct drivers in the IPBES framework | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Distinguishes genetic, species and ecosystem diversity; five direct drivers are separated from indirect social/economic causes. |
+| 14-E | INTEGRATED | PASS for five-component GIS concept and workflow; operational details vary by system | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | GIS includes people, data, software, hardware and methods; feedback loop shows iterative workflow. QGIS reference added. |
+| 15-E | INTEGRATED | PASS as a passive optical sensing concept; thermal and active radar modes are explicitly distinguished | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Shows solar path through atmosphere, surface interaction, reflected energy, satellite sensor and processing; caption warns that SAR is active. NASA ARSET reference added. |
+| 16-D | INTEGRATED | PASS as a conceptual generalisation example; no real geodata is implied | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Shows selection and simplification from large to small scales; OS generalisation guidance added. |
+
+### Static checks — fifth tranche
+
+All five new SVG files were re-fetched from the working branch and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element, and Cyrillic and Latin text. Their chapter embeds and matching relative asset paths were checked. This is not live browser rendering, responsive/mobile, keyboard or screen-reader QA.
+
+### Superseding scoped visual coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 5 | 2 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 5 | 6 |
+| **Total** | **97** | **39** | **58** |
+
+This 39/97 table supersedes earlier 28/97 and 34/97 snapshots. The supplementary 2019 glacial-lake research figure in Chapter 20.6.7 remains additional and is not counted as a planned ID. Original SVG creator/rightsholder and project redistribution licence remain pending; none is marked VERIFIED.
