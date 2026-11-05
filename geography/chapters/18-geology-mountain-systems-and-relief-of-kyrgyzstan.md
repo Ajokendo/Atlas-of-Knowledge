@@ -308,8 +308,9 @@ High plateaus and syrts are characteristic of the Inner Tien Shan. They are rela
 
 ## 18.9. Речные долины, террасы и конусы выноса / River Valleys, Terraces and Alluvial Fans
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-H / IMAGE PLACEHOLDER 18-H]** Геоморфологический профиль речной долины с террасами, поймой, конусом выноса и действующим руслом.
-> **EN:** Geomorphological cross-section of a river valley showing terraces, floodplain, alluvial fan and active channel.
+![Формы речной долины: террасы, пойма, действующее русло и конус выноса / River-valley landforms: terraces, floodplain, active channel and alluvial fan](../assets/diagrams/18-H-river-valley-landforms-bilingual.svg)
+
+*Оригинальная двуязычная концептуальная схема; поперечный профиль не в масштабе и не описывает конкретную долину Кыргызстана. / Original bilingual conceptual diagram; the cross-section is not to scale and does not represent a specific Kyrgyz valley.*
 
 
 Горные реки Кыргызстана обладают значительной энергией потока. В верховьях преобладает глубинная эрозия, формирующая узкие ущелья и каньоны. В средних и нижних частях долин расширяются поймы и накапливаются аллювиальные отложения.
