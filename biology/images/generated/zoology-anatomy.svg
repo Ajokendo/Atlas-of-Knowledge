@@ -3,7 +3,7 @@
 <desc id="desc">Пять обобщённых сравнительных панелей: рыбы, земноводные, пресмыкающиеся, птицы и млекопитающие. Показаны типичные покровы и основные органы дыхания с оговорками об исключениях. Five generalized comparison panels for fish, amphibians, reptiles, birds and mammals, showing typical coverings and main respiratory organs with exceptions noted.</desc>
 <defs>
 <style>
-.bg{fill:#f2f2ef}.card{fill:#fbfbfa;stroke:#d9ddd5;stroke-width:2}.ink{fill:#202923;font-family:Arial,sans-serif}.muted{fill:#657267;font-family:Arial,sans-serif}.accent{fill:#557c58}.outline{fill:none;stroke:#405747;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.soft{fill:#dce8da;stroke:#557c58;stroke-width:2}.warm{fill:#ead9b8;stroke:#8d7752;stroke-width:2}.blue{fill:#d7e8eb;stroke:#557b82;stroke-width:2}.label{font-size:27px;font-weight:bold}.sub{font-size:17px}.small{font-size:15px}.tiny{font-size:13px}
+.bg{fill:#f2f2ef}.card{fill:#fbfbfa;stroke:#d9ddd5;stroke-width:2}.ink{fill:#202923;font-family:Arial,sans-serif}.muted{fill:#657267;font-family:Arial,sans-serif}.accent{fill:#557c58}.outline{fill:none;stroke:#405747;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.soft{fill:#dce8da;stroke:#557c58;stroke-width:2}.warm{fill:#ead9b8;stroke:#8d7752;stroke-width:2}.blue{fill:#d7e8eb;stroke:#557b82;stroke-width:2}.label{font-size:27px;font-weight:bold}.label-small{font-size:22px;font-weight:bold}.sub{font-size:17px}.small{font-size:15px}.tiny{font-size:13px}
 </style>
 </defs>
 <rect class="bg" width="1200" height="900"/>
@@ -32,7 +32,7 @@
 <!-- amphibians -->
 <rect class="card" x="420" y="140" width="360" height="335" rx="18"/>
 <text class="ink label" x="445" y="180">Земноводные / Amphibians</text>
-<g>
+<g transform="translate(0,67.5) scale(1,.75)">
 <ellipse class="soft" cx="600" cy="270" rx="83" ry="42"/>
 <circle class="soft" cx="530" cy="253" r="31"/>
 <circle cx="520" cy="244" r="5" fill="#202923"/><circle cx="542" cy="244" r="5" fill="#202923"/>
@@ -49,7 +49,7 @@
 <text class="muted tiny" x="445" y="461">Skin and lungs in adults; many larvae have gills</text>
 <!-- reptiles -->
 <rect class="card" x="810" y="140" width="360" height="320" rx="18"/>
-<text class="ink label" x="835" y="180">Пресмыкающиеся / Reptiles</text>
+<text class="ink label-small" x="835" y="180">Пресмыкающиеся / Reptiles</text>
 <g>
 <path class="warm" d="M875 270q45-43 130-15q28 10 52 0l35-23-10 35 10 34-35-22q-23-8-52 8q-85 30-130-17Z"/>
 <path class="outline" d="M905 291l-18 35 30-12 15-20m65-1 20 35 18-5-15-34"/>
@@ -64,7 +64,7 @@
 <!-- birds -->
 <rect class="card" x="225" y="490" width="360" height="320" rx="18"/>
 <text class="ink label" x="250" y="530">Птицы / Birds</text>
-<g>
+<g transform="translate(0,124) scale(1,.8)">
 <path class="soft" d="M310 630q35-72 100-35q45 25 30 58q-38-20-72 5q-38 15-58-28Z"/>
 <path class="outline" d="M355 615q-12-55 30-76q25 22 8 58"/>
 <path class="warm" d="M430 622l42 10-40 12Z"/>
@@ -80,7 +80,7 @@
 <!-- mammals -->
 <rect class="card" x="615" y="490" width="360" height="320" rx="18"/>
 <text class="ink label" x="640" y="530">Млекопитающие / Mammals</text>
-<g>
+<g transform="translate(0,124) scale(1,.8)">
 <ellipse class="warm" cx="780" cy="640" rx="88" ry="43"/>
 <circle class="warm" cx="690" cy="625" r="34"/>
 <path class="outline" d="M665 605l-10-24 26 12m5 60-12 45m55-50-4 50m70-50 8 50m35-55 20 45"/>
