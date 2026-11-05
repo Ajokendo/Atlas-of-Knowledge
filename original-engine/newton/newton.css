@@ -1,0 +1,27 @@
+/* Chapter 02 — responsive controls for the interactive Newton scenes. */
+@media (max-width: 900px) {
+  /* Keep the scene title on its own line above the native object selector. */
+  .corner.tr {
+    top: 8px;
+    left: 12px;
+    right: 12px;
+    max-width: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.15;
+  }
+  .scene-picker {
+    top: 36px;
+    left: 12px;
+    right: 12px;
+    width: calc(100% - 24px);
+    max-width: none;
+    padding: 6px 30px 6px 10px;
+    font-size: 11px;
+  }
+  /* The desktop mouse/keyboard hint otherwise collides with the picker on phones.
+     Touch instructions are also exposed in the canvas accessible name and selector. */
+  .corner.bl {
+    display: none;
+  }
+}
