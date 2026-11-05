@@ -36,6 +36,7 @@ for (const mobile of [false, true]) {
       await page.waitForFunction(() => [...document.querySelectorAll('figure.visual-figure img')].every(img => img.complete && img.naturalWidth > 0 && img.naturalHeight > 0));
       const states = await images.evaluateAll(nodes => nodes.map(img => ({
         src: img.getAttribute('src'),
+        currentSrc: img.currentSrc,
         width: img.naturalWidth,
         height: img.naturalHeight,
         alt: img.getAttribute('alt')?.trim() || '',
@@ -50,6 +51,8 @@ for (const mobile of [false, true]) {
         }
       }
       for (const state of states) {
+        if (mobile && !state.currentSrc.includes('-mobile.svg')) throw new Error(`mobile viewport did not select mobile layout: ${state.currentSrc}`);
+        if (!mobile && state.currentSrc.includes('-mobile.svg')) throw new Error(`desktop viewport selected mobile layout: ${state.currentSrc}`);
         if (!state.alt || state.alt.length < 40) throw new Error(`missing meaningful alt text: ${state.src}`);
         if (!state.caption || !state.hasRu || !state.hasEn) throw new Error(`missing bilingual caption: ${state.src}`);
         if (state.width < 600 || state.height < 300) throw new Error(`unexpected SVG dimensions: ${state.src} ${state.width}×${state.height}`);
