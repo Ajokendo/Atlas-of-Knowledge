@@ -38,7 +38,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 04 | 16 | 16 | 0 | Sixteen local bilingual SVGs embedded; source records identify remaining creator/licence and technical review work. |
 | 05 | 18 named + 2 unresolved legacy slots | 17 | 1 named + 2 unresolved | Seventeen named assets are embedded; 18 named IDs are enumerated. Two old inventory positions remain unidentifiable and are not counted as assets until recovered. |
 | 06 | 15 | 5 | 10 | 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A integrated; 6-B has a licensed candidate dataset but no finished map. |
-| 07 | 9 | 0 | 9 | Production briefs/placeholders only; no actual image embeds or matching asset files confirmed. |
+| 07 | 9 | 1 | 8 | Production briefs/placeholders only; no actual image embeds or matching asset files confirmed. |
 | 08 | 7 | 0 | 7 | Production briefs/placeholders only; no actual image embeds or matching asset files confirmed. |
 | 09 | 7 | 0 | 7 | All seven visual needs remain placeholders, including 09-G. |
 | 10 | 7 | 0 | 7 | All seven visual needs remain placeholders. |
@@ -53,12 +53,12 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 0 | 68 | No planned visual IDs have confirmed image embeds in the chapter source scan. |
-| **Total named inventory** | **281** | **146** | **135** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
+| **Total named inventory** | **281** | **147** | **134** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 146/281 named IDs have an image embedded in the relevant chapter source. This measures presence only.
-- **Image Verification:** 0/146 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 135 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 147/281 named IDs have an image embedded in the relevant chapter source. This measures presence only.
+- **Image Verification:** 0/147 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 134 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -329,7 +329,7 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 07 | 07-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 07 | 07-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 07 | 07-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 07 | 07-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 07 | 07-D | INTEGRATED | PASS | PASS | PASS | PENDING | PENDING | Adapted bilingual SVG integrated; concept cross-checked against Chapter 07.3 and source figure; exact source file is CC BY 4.0 and attribution/changes recorded. Static SVG and live browser/mobile/accessibility QA remain pending. |
 | 07 | 07-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 07 | 07-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 07 | 07-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
