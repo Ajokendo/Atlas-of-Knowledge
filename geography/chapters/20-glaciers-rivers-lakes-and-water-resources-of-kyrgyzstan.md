@@ -347,8 +347,9 @@ These results apply to the Kyrgyz Range and the 1968–2021 study period; they m
 
 ## 20.7. Подземные воды и источники / Groundwater and Springs
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-J / IMAGE PLACEHOLDER 20-J]** Гидрогеологический разрез горной долины с водоносным горизонтом, водоупором, зоной питания и выходом источника; схема концептуальная.
-> **EN:** Conceptual hydrogeological cross-section of a mountain valley showing aquifer, aquitard, recharge zone and spring emergence.
+![Подземные воды горной долины: зона питания, водоносный горизонт, водоупор и источник / Groundwater in a mountain valley: recharge, aquifer, aquitard and spring](../assets/diagrams/20-J-groundwater-valley-cross-section-bilingual.svg)
+
+*Оригинальная двуязычная концептуальная схема; реальные геологические слои и направления потока должны подтверждаться полевыми данными. / Original bilingual conceptual diagram; actual geological layers and flow directions require field evidence.*
 
 
 Подземные воды формируются при просачивании осадков, речной и озёрной воды в породы и рыхлые отложения. В Кыргызстане выделяются:
