@@ -308,9 +308,13 @@
 
 **Иллюстрация 2-D — Обзор биогеохимических циклов / Biogeochemical Cycles Overview.**
 
-![Сравнение круговоротов углерода, азота и фосфора и основных резервуаров / Comparison of carbon, nitrogen and phosphorus cycles and their main reservoirs](../assets/diagrams/02-D-biogeochemical-cycles-overview.svg)
+![Круговорот углерода: обмен углеродом между атмосферой, сушей, океаном и геологическими резервуарами / Carbon cycle: exchange among the atmosphere, land, ocean and geological reservoirs](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/b4347e480f11f7bde955418c42a5250ac54f7448)
 
-*Оригинальная обобщающая схема; отдельные процессы и резервуары подробно показаны в подразделах 2.10.1–2.10.4. Стрелки не обозначают количественные потоки. / Original overview; individual processes and reservoirs are detailed in sections 2.10.1–2.10.4. Arrows do not represent quantified fluxes.*
+![Круговорот азота: фиксация атмосферного азота, превращения соединений азота и возвращение азота в атмосферу / Nitrogen cycle: fixation of atmospheric nitrogen, transformations of nitrogen compounds and return to the atmosphere](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/0aac6127fb141f645f9220b52e5fe80ff7e78a6a)
+
+![Круговорот фосфора: выветривание пород, перенос фосфатов, поглощение организмами и образование осадков / Phosphorus cycle: rock weathering, phosphate transport, biological uptake and sediment formation](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/fa919e501df6f3a1bfb6a70a71f19a5586b11589)
+
+*Источник / Source: OpenStax, *Biology 2e*, section 46.3, Figures 46.15 (carbon), 46.17 (nitrogen) and 46.18 (phosphorus); authors Mary Ann Clark, Matthew Douglas and Jung Choi. Each figure credits “modification of work by John M. Evans and Howard Perlman, USGS”. Лицензия адаптированных изображений OpenStax / Licence for the OpenStax-adapted figures: CC BY-NC-SA 4.0. Использованы без изменений; некоммерческое использование, атрибуция и условия ShareAlike обязательны. / Used unchanged; noncommercial use, attribution and ShareAlike terms apply. [Раздел OpenStax / OpenStax section](https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles) · [Условия лицензии / Licence terms](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
 
 **Углеродный цикл / Carbon cycle**
 
@@ -862,9 +866,13 @@ Biogeochemical cycles are the continuous movement of chemical elements between l
 
 **Illustration 2-D — Biogeochemical Cycles Overview.**
 
-![Comparison of carbon, nitrogen and phosphorus cycles and their main reservoirs / Сравнение круговоротов углерода, азота и фосфора](../assets/diagrams/02-D-biogeochemical-cycles-overview.svg)
+![Круговорот углерода: обмен углеродом между атмосферой, сушей, океаном и геологическими резервуарами / Carbon cycle: exchange among the atmosphere, land, ocean and geological reservoirs](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/b4347e480f11f7bde955418c42a5250ac54f7448)
 
-*Original bilingual overview. Individual processes and reservoirs are detailed below; arrows do not represent quantified fluxes. / Оригинальная двуязычная схема. Отдельные процессы и резервуары рассмотрены ниже; стрелки не обозначают количественные потоки.*
+![Круговорот азота: фиксация атмосферного азота, превращения соединений азота и возвращение азота в атмосферу / Nitrogen cycle: fixation of atmospheric nitrogen, transformations of nitrogen compounds and return to the atmosphere](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/0aac6127fb141f645f9220b52e5fe80ff7e78a6a)
+
+![Круговорот фосфора: выветривание пород, перенос фосфатов, поглощение организмами и образование осадков / Phosphorus cycle: rock weathering, phosphate transport, biological uptake and sediment formation](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/fa919e501df6f3a1bfb6a70a71f19a5586b11589)
+
+*Источник / Source: OpenStax, *Biology 2e*, section 46.3, Figures 46.15 (carbon), 46.17 (nitrogen) and 46.18 (phosphorus); authors Mary Ann Clark, Matthew Douglas and Jung Choi. Each figure credits “modification of work by John M. Evans and Howard Perlman, USGS”. Лицензия адаптированных изображений OpenStax / Licence for the OpenStax-adapted figures: CC BY-NC-SA 4.0. Использованы без изменений; некоммерческое использование, атрибуция и условия ShareAlike обязательны. / Used unchanged; noncommercial use, attribution and ShareAlike terms apply. [Раздел OpenStax / OpenStax section](https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles) · [Условия лицензии / Licence terms](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
 
 #### 2.10.1. Carbon Cycle
 
