@@ -560,3 +560,15 @@ Assets reviewed: `images/generated/botany-anatomy.svg` and `images/generated/bot
 Reference checks: OpenStax Biology 2e, The Plant Body (https://openstax.org/books/biology-2e/pages/30-1-the-plant-body), Roots (https://openstax.org/books/biology-2e/pages/30-3-roots), and Stems (https://openstax.org/books/biology/pages/30-2-stems). These support the generalized tissue arrangement and transport concepts; they do not certify every drawn cell or proportion.
 
 **Disposition:** source-level scientific/editorial correction committed. This is an author-side/AI-assisted review, not the required competent second-person scientific approval. Detailed rendered browser review, manual device/zoom/accessibility checks and rights-holder/licence reconciliation remain open. Do not mark either asset `VERIFIED` on the basis of this source pass alone.
+
+
+### Botany flower structure and pollination plate — focused source review — 5 November 2026
+
+Asset: `images/generated/botany-flower.svg`, integrated at `chapters/botany.html#image-brief-botany-flower`.
+
+- The generalized flower section distinguishes stamens/anthers from the pistil (stigma, style and ovary), and shows ovules inside the ovary. Petals and sepals are separately identified.
+- The adjacent pollination panel correctly shows pollen transfer from an anther to a stigma and explicitly distinguishes pollination from fertilisation. The note that fertilisation occurs later after pollen-tube growth is consistent with the intended school-level sequence.
+- The figure is correctly labelled as a generalized angiosperm model, not a named species or universal floral formula. It does not claim that all flowers have the same number of stamens, petals or ovules.
+- Russian/English title, SVG description, figure alt text and caption are substantively aligned at source level. No source-level scientific correction was identified in this pass.
+
+**Disposition:** source-level review only; no artwork or page edit was needed. This does not establish pixel-level label placement, visual rendering, accessibility on physical devices, second-person scientific approval, or rights clearance. Keep the asset outside `VERIFIED` until the applicable gates have separate evidence.
