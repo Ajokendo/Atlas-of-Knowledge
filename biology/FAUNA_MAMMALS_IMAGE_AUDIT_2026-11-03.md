@@ -5,7 +5,7 @@
 **Anchor:** `image-brief-fauna-mammals`  
 **Target:** `images/generated/fauna-mammals.webp`  
 **Priority:** P1  
-**Disposition:** Candidate generated and visually screened; repository integration and browser QA pending. The brief remains Deferred.
+**Disposition (supersedes initial 3 November candidate note):** The original SVG habitat reconstruction is integrated in the chapter and the complete Biology Chromium smoke-test workflow passed on 5 November 2026 (run `42015846138`). The old photorealistic WebP candidate remains unintegrated and is not the page asset. This audit's candidate-specific notes below are retained as history; they do not describe the current SVG integration state.
 
 ## Evidence and taxonomic scope
 
