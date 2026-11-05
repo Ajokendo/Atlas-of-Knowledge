@@ -390,3 +390,13 @@ The newly authored SVGs are project-specific hand-coded teaching diagrams made w
 ### Third-tranche licensing and verification note
 
 These seven diagrams are original project-specific SVGs authored with ChatGPT assistance; the search-result images were not copied. Their project creator/rightsholder and explicit redistribution licence remain Unknown / PENDING. All seven require specialist scientific/editorial review, browser rendering and accessibility review before they can be marked VERIFIED.
+
+
+### Chapter 12-B — Asia macro-regions and relief — 5 November 2026
+
+- **Source:** Dou, Y., Huang, Q., He, C., Meng, S., & Zhang, Q. (2018). “Rapid Population Growth throughout Asia’s Earthquake-Prone Areas: A Multiscale Analysis.” *International Journal of Environmental Research and Public Health*, 15(9), 1893. Figure 1, “Asia Elevation and Regional Divisions.” DOI: https://doi.org/10.3390/ijerph15091893.
+- **Exact source image:** https://www.mdpi.com/ijerph/ijerph-15-01893/article_deploy/html/images/ijerph-15-01893-g001.png
+- **Licence:** CC BY 4.0 (article is open access; attribution and notice of changes are provided in the chapter caption and this record).
+- **Category:** B — adapted existing scientific map. The base relief and regional divisions are reproduced from Figure 1; a bilingual side key and scope note were added.
+- **Important scope:** the regional boundaries follow the study's classification and underlying regional-boundary data from the Chinese Academy of Sciences' RESDC. They are not presented as an official UN M49 map. The chapter separately explains M49 as a statistical classification. The visual is one example of macro-regional division, not the only correct regionalisation.
+- **Status:** INTEGRATED. Source attribution/licence recorded. Review the remote image dependency, label legibility, regional boundary interpretation and responsive rendering before VERIFIED status.
