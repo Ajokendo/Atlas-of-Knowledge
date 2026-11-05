@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="t d">
+<title id="t">Операции пространственного наложения / Spatial overlay operations</title><desc id="d">Двуязычная схема показывает входные полигоны A и B и результаты пересечения, объединения, разности A минус B и симметрической разности. / Bilingual diagram showing input polygons A and B and outputs for intersection, union, difference A minus B, and symmetric difference.</desc>
+<style>.h{font:700 32px Arial;fill:#17324d}.t{font:700 22px Arial;fill:#17324d}.s{font:17px Arial;fill:#526879}.a{fill:#72b7d4;fill-opacity:.75;stroke:#287fa7;stroke-width:4}.b{fill:#e6a65f;fill-opacity:.72;stroke:#a76b2f;stroke-width:4}.both{fill:#8d80bc;fill-opacity:.85;stroke:#5d4b94;stroke-width:3}.panel{fill:#f5f8fa;stroke:#c4d1d8;stroke-width:2}.line{stroke:#526879;stroke-width:2;stroke-dasharray:6 6}</style>
+<rect width="1400" height="760" fill="#fff"/><text x="700" y="50" text-anchor="middle" class="h">Векторные операции наложения / Vector overlay operations</text>
+<rect x="35" y="90" width="300" height="290" rx="12" class="panel"/><text x="185" y="130" text-anchor="middle" class="t">Входные слои / Inputs</text>
+<circle cx="145" cy="245" r="75" class="a"/><rect x="160" y="185" width="120" height="120" rx="8" class="b"/><text x="95" y="345" class="s">A — синий / blue</text><text x="205" y="345" class="s">B — оранжевый / orange</text>
+<g transform="translate(365 90)">
+<rect width="480" height="290" rx="12" class="panel"/><text x="240" y="40" text-anchor="middle" class="t">Пересечение / Intersection (A ∩ B)</text>
+<circle cx="190" cy="160" r="75" class="a"/><rect x="205" y="100" width="120" height="120" rx="8" class="b"/><path d="M205 103 L265 103 Q265 220 205 220Z" class="both"/><text x="240" y="270" text-anchor="middle" class="s">Только общая площадь / Shared area only</text>
+</g>
+<g transform="translate(875 90)">
+<rect width="480" height="290" rx="12" class="panel"/><text x="240" y="40" text-anchor="middle" class="t">Объединение / Union (A ∪ B)</text>
+<circle cx="190" cy="160" r="75" class="a"/><rect x="205" y="100" width="120" height="120" rx="8" class="b"/><path d="M205 103 L265 103 Q265 220 205 220Z" class="both"/><text x="240" y="270" text-anchor="middle" class="s">Вся площадь A или B / All area in A or B</text>
+</g>
+<g transform="translate(365 405)">
+<rect width="480" height="290" rx="12" class="panel"/><text x="240" y="40" text-anchor="middle" class="t">Разность / Difference (A − B)</text>
+<circle cx="190" cy="160" r="75" class="a"/><rect x="205" y="100" width="120" height="120" rx="8" class="b"/><path d="M130 105 Q190 85 220 130 Q245 175 220 215 Q160 245 125 190Z" fill="#72b7d4" stroke="#287fa7" stroke-width="3"/><path d="M205 103 L265 103 Q265 220 205 220Z" fill="none" stroke="#a76b2f" stroke-width="3"/><text x="240" y="270" text-anchor="middle" class="s">Часть A вне B / A outside B</text>
+</g>
+<g transform="translate(875 405)">
+<rect width="480" height="290" rx="12" class="panel"/><text x="240" y="40" text-anchor="middle" class="t">Симметрическая разность / Symmetric difference</text>
+<circle cx="190" cy="160" r="75" class="a"/><rect x="205" y="100" width="120" height="120" rx="8" class="b"/><path d="M205 103 L265 103 Q265 220 205 220Z" fill="#fff" stroke="#5d4b94" stroke-width="2"/><text x="240" y="270" text-anchor="middle" class="s">A и B без общей части / A and B excluding overlap</text>
+</g>
+<text x="700" y="735" text-anchor="middle" class="s">Схема показывает логику множеств; реальные результаты зависят от геометрии, CRS, точности и правил обработки. / Set-logic illustration; real outputs depend on geometry, CRS, precision and processing rules.</text></svg>
