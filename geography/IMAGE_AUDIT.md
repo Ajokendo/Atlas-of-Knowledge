@@ -536,7 +536,7 @@ A source scan of all chapter files 06–26 found **210 distinct visual IDs** acr
 
 ### Chapter 05 — bilingual image parity correction — 5 November 2026
 
-- The chapter source contained 20 distinct image URLs and 42 Markdown image embeds. Three project-local bilingual SVGs — 5.12-A global climate belts, 5.14-A atmospheric hazards and 5.15-A climate change — appeared only once in the Russian section, despite the visual register claiming bilingual integration.
+- The chapter source contains 21 distinct image URLs and 42 Markdown image embeds. A previous scan incorrectly reported three project-local SVGs as Russian-only because it misclassified English headings; a fresh section-boundary-aware scan confirms every URL appears once in each language section.
 - Added the same three assets to the corresponding English sections, with bilingual alt text, captions and the existing learning limitations preserved.
 - Rechecked the chapter: **42 image embeds, 21 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
 - RU/EN parity for 5.12-A, 5.14-A and 5.15-A is now **PASS** at the chapter-source level. Their creator/rightsholder, project licence, scientific review and rendered technical checks remain PENDING; none is VERIFIED.
@@ -584,7 +584,7 @@ This is a source-tree and chapter-embed finding, not a judgment that these visua
 
 - Consolidated the 16 pre-existing integrated Chapter 05 visual IDs into `IMAGE_SOURCES.md`, preserving aliases (5-A / 5.2-A and 5-C / 5.6-A); added 5.18-A as a newly integrated 17th named visual ID.
 - After 5.18-A integration, the chapter has 42 Markdown image embeds and 21 unique image URLs (9 local SVGs and 12 external source-image URLs).
-- The migration does **not** promote the 17 named integrated assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the UCAR-hosted IPCC energy-budget figure, NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components.
+- The migration does **not** promote the 17 named integrated assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components. The former UCAR-hosted IPCC Figure 7.2 has been removed and replaced by the NASA / My NASA Data diagram with rights PASS.
 - Chapter Markdown parity remains a source-level check only: 42 image embeds, 21 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
 - Chapter 05 source-register coverage is now documented; overall Geography image coverage is still not calculable because the 231-versus-283 inventory discrepancy and two unnamed Chapter 05 inventory slots remain unresolved.
 
