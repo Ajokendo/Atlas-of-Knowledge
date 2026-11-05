@@ -1,0 +1,42 @@
+/* Chapter 03 — keep the scene title, selector and live values separate on touch screens. */
+@media (max-width: 900px) {
+  .corner.tl {
+    top: 8px;
+    left: 12px;
+    font-size: 10px;
+  }
+  .corner.tr {
+    top: 8px;
+    left: 76px;
+    right: 12px;
+    max-width: none;
+    text-align: right;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background: rgba(251, 251, 250, .94);
+  }
+  .corner.bl {
+    display: none;
+  }
+  .scene-picker {
+    top: 38px;
+    left: 12px;
+    right: 12px;
+    width: calc(100% - 24px);
+    max-width: none;
+    padding: 6px 30px 6px 10px;
+    font-size: 11px;
+  }
+  .corner.br {
+    max-width: min(74%, 280px);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    padding: 4px 6px;
+    border-radius: 4px;
+    background: rgba(251, 251, 250, .92);
+    font-size: 10px;
+    line-height: 1.3;
+  }
+}
