@@ -95,7 +95,7 @@ The earlier source versions remain traceable in Git history. The full task and d
 
 ## Chapter 02 replacement tracking
 
-The rights-based replacement matrix is maintained in [CHAPTER_02_VISUAL_REPLACEMENT_PLAN.md](CHAPTER_02_VISUAL_REPLACEMENT_PLAN.md). It distinguishes candidates ready for integration from conditional candidates and unresolved gaps. The 11 existing local SVGs remain NOT CLEARED FOR PUBLIC REUSE; candidate discovery does not change that status.
+The rights-based replacement matrix is maintained in [CHAPTER_02_VISUAL_REPLACEMENT_PLAN.md](CHAPTER_02_VISUAL_REPLACEMENT_PLAN.md). It distinguishes candidates ready for integration from conditional candidates and unresolved gaps. The 11 former local SVGs were NOT CLEARED FOR PUBLIC REUSE and have all been removed after sourced replacements were integrated; the replacement assets have separate source and licence records.
 
 ## Chapter 02 — Earth's Geographic Envelope
 
