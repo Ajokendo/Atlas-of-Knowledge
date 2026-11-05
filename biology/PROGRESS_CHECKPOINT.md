@@ -1256,3 +1256,6 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Classified as Category C (generated illustration), not a documentary photograph; no third-party image licence or source is claimed.
 - Optimized working derivative: `flora-batken-aygul-botanical-plate.webp`; source PNG remains in the conversation workspace. Binary upload to `workspace/biology` is still outstanding, so the existing HTML continues to use the committed SVG. Do not mark the new plate as integrated until the binary and HTML reference are committed and browser-tested.
 - Editorial readiness remains 99/100; no percentage increase for an unintegrated asset.
+
+
+**Generated-file technical record:** source PNG, 1312 × 1199 px, RGB; optimized WebP derivative, 1312 × 1199 px, 179,740 bytes, SHA-256 `956c21e15206f7a8d65629ae9bc1496bea39b117654a8f438bcff1c320124481`. The derivative is available in the current conversation workspace; this hash is a local provenance record, not a GitHub repository checksum.
