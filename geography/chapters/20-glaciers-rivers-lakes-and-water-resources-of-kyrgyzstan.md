@@ -345,6 +345,10 @@ A 2026 study in *Natural Hazards and Earth System Sciences* found that the numbe
 
 These results apply to the Kyrgyz Range and the 1968–2021 study period; they must not be extrapolated directly to the entire Tien Shan or Kyrgyzstan. They also show why outburst-flood risk assessment must consider more than lake area: dam type and condition, moraine and buried-ice stability, drainage geometry, potential flow paths and downstream exposure all matter. The presence of a lake alone does not establish a high GLOF risk.
 
+![Распределение ледниковых озёр в Кыргызском и Терскейском хребтах по данным спутниковых наблюдений 2017–2019 годов / Distribution of glacial lakes in the Kyrgyz and Teskey ranges from satellite observations in 2017–2019](https://www.frontiersin.org/files/Articles/850146/xml-images/feart-10-850146-g001.webp)
+
+*Рисунок 1 из Daiyrov et al. (2022): карта исследуемой территории и распределение ледниковых озёр в 2019 году. Охват ограничен Кыргызским и Терскейским хребтами; это не инвентаризация всех озёр Кыргызстана. Воспроизведено по лицензии CC BY 4.0. / Figure 1 from Daiyrov et al. (2022): study area and glacial-lake distribution in 2019. Coverage is limited to the Kyrgyz and Teskey ranges; it is not an inventory of all lakes in Kyrgyzstan. Reproduced under CC BY 4.0. Source: Daiyrov, M., Kattel, D.B., Narama, C. & Wang, W. (2022), Frontiers in Earth Science 10:850146, https://doi.org/10.3389/feart.2022.850146.*
+
 ## 20.7. Подземные воды и источники / Groundwater and Springs
 
 ![Подземные воды горной долины: зона питания, водоносный горизонт, водоупор и источник / Groundwater in a mountain valley: recharge, aquifer, aquitard and spring](../assets/diagrams/20-J-groundwater-valley-cross-section-bilingual.svg)
