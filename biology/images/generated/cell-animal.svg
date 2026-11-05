@@ -60,6 +60,6 @@
 <path class="lead" d="M815 425L930 470H1135"/><text class="label" x="925" y="445">Аппарат Гольджи</text><text class="en" x="925" y="468">Golgi apparatus</text>
 <path class="lead" d="M870 555L950 585H1135"/><text class="label" x="965" y="560">Транспортная везикула</text><text class="en" x="965" y="583">Transport vesicle</text>
 <path class="lead" d="M900 675L965 720H1135"/><text class="label" x="975" y="700">Цитоплазма</text><text class="en" x="975" y="723">Cytoplasm</text>
-<path class="lead" d="M285 520L185 535H65"/><text class="label" x="65" y="510">Плазматическая мембрана</text><text class="en" x="65" y="533">Plasma membrane</text>
+<path class="lead" d="M285 520L225 555H65"/><text class="label" x="65" y="490">Плазматическая</text><text class="label" x="65" y="512">мембрана</text><text class="en" x="65" y="535">Plasma membrane</text>
 <text x="600" y="855" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#607286">Органоиды показаны условно, не в масштабе / Organelles are schematic, not to scale</text>
 </svg>
