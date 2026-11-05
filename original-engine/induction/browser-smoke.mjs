@@ -112,6 +112,8 @@ async function runLesson(mobile) {
     for (let i = 0; i < 3; i++) await visuals.nth(i).scrollIntoViewIfNeeded();
     await page.waitForFunction(() => [...document.querySelectorAll('figure.visual-figure img')].length === 3 && [...document.querySelectorAll('figure.visual-figure img')].every(img => img.complete && img.naturalWidth > 0));
     const visualStates = await visuals.evaluateAll(nodes => nodes.map(img => ({ alt: img.alt, currentSrc: img.currentSrc, caption: img.closest('figure')?.querySelector('figcaption')?.innerText || '', ru: !!img.closest('figure')?.querySelector('figcaption [lang="ru"]'), en: !!img.closest('figure')?.querySelector('figcaption [lang="en"]') })));
+    const imageFirst = await page.evaluate(() => { const figure = document.querySelector('figure.visual-figure'); const intro = [...document.querySelectorAll('section h2')].find(el => el.textContent.includes('Введение')); return !!figure && !!intro && !!(figure.compareDocumentPosition(intro) & Node.DOCUMENT_POSITION_FOLLOWING); });
+    if (!imageFirst) throw new Error('Chapter 15 visual set must precede explanatory text');
     for (const visual of visualStates) {
       if (!visual.alt || visual.alt.length < 40 || !visual.ru || !visual.en || !visual.caption) throw new Error('Chapter 15 visual needs meaningful alt text and bilingual caption');
       if (mobile && !visual.currentSrc.includes('-mobile.svg')) throw new Error('Chapter 15 mobile layout was not selected');
