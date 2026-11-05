@@ -788,7 +788,7 @@ if (!feedbackTemplate) {
 }
 
 
-const canonicalImagePolicyUrl = "https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md";
+const canonicalImagePolicyUrl = "https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md";
 if (!imageSources.includes(canonicalImagePolicyUrl) || !imageAudit.includes(canonicalImagePolicyUrl)) {
   errors.push("IMAGE-FIRST POLICY: both Chemistry visual records must link to the canonical root policy");
 }
@@ -805,12 +805,12 @@ for (const id of ["CH-V01","CH-V02","CH-V03","CH-V04","CH-V05","CH-V06","CH-V07"
 }
 
 
-if (!imageSources.includes("IMAGE-FIRST POLICY v1.1") ||
-    !imageAudit.includes("IMAGE-FIRST POLICY v1.1") ||
+if (!imageSources.includes("IMAGE-FIRST POLICY v1.2") ||
+    !imageAudit.includes("IMAGE-FIRST POLICY v1.2") ||
     !imageSources.includes("## IMAGE-FIRST POLICY v1.1 — per-ID metadata completeness supplement") ||
     !imageSources.includes("### Derivative / inherited-atlas protocol") ||
     !imageSources.includes("Not applicable at atlas level")) {
-  errors.push("IMAGE-FIRST POLICY v1.1: Chemistry source register must expose required metadata and derivative-atlas applicability");
+  errors.push("IMAGE-FIRST POLICY v1.2: Chemistry source register must expose current policy version, required metadata and derivative-atlas applicability");
 }
 
 const periodicTrendCandidate = imageSources.split("## Chapter 03 image-first candidate review — found, not adopted")[1]?.split("## Non-file interactive visuals")[0] || "";
