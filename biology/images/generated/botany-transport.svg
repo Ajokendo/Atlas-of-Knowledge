@@ -27,7 +27,7 @@
 <path d="M640 620C675 520 670 360 620 235" class="purple"/>
 <!-- callouts -->
 <g class="lab"><text x="70" y="180" class="head">Лист — источник / Leaf — source</text><text x="70" y="210">Фотосинтез создаёт сахара</text><text x="70" y="235" class="sm">Photosynthesis produces sugars</text>
-<text x="845" y="175" class="head">Цветок и растущие органы</text><text x="845" y="204">Потребители / Sinks</text><text x="845" y="230" class="sm">Используют сахара для роста</text><text x="845" y="254" class="sm">Use sugars for growth</text>
+<text x="845" y="175" class="head">Цветок и растущие органы</text><text x="845" y="200" class="sm">Flower and growing organs</text><text x="845" y="224" class="sm">Потребители / Sinks</text><text x="845" y="248" class="sm">Используют сахара для роста</text><text x="845" y="272" class="sm">Use sugars for growth</text>
 <text x="80" y="575" class="head">Корни — потребитель и запас</text><text x="80" y="605">Roots — sink and storage</text><text x="80" y="632" class="sm">Получают сахара; могут запасать их</text><text x="80" y="655" class="sm">Receive and may store sugars</text>
 <text x="820" y="565" class="head">Ксилема / Xylem</text><text x="820" y="595">Вода + минеральные вещества</text><text x="820" y="620" class="sm">Water + mineral nutrients</text><text x="820" y="645" class="sm">Преимущественно вверх / Mainly upward</text></g>
 <path d="M360 270L455 295" stroke="#344b3b" stroke-width="2" fill="none"/><path d="M825 530L690 500" stroke="#344b3b" stroke-width="2" fill="none"/>
