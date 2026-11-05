@@ -2,8 +2,8 @@
 
 **Snapshot:** 5 November 2026  
 **Branch:** `workspace/geography`  
-**Scope:** Detailed provenance records cover Chapters 01–06, with a gap record for 09-G and partial source/rights notes elsewhere. The chapter-source scan now confirms embedded visuals in Chapters 01–06 and 11–20; provenance and internal review records by competent reviewers distinct from creators remain incomplete. See IMAGE_AUDIT.md for the reconciled presence counts. Embedding is not verification. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
-**Policy:** IMAGE-FIRST POLICY v1.2; search for suitable reusable material first, verify item-specific rights, and record internal verification by a competent reviewer distinct from the creator. External expert review is optional and tracked separately.
+**Scope:** Detailed provenance records cover Chapters 01–06, with a gap record for 09-G and partial source/rights notes elsewhere. The chapter-source scan now confirms embedded visuals in Chapters 01–06 and 11–20. Chapter 01's internal review is assigned to and completed by ChatGPT at the project owner's explicit instruction; other chapter provenance and review records remain subject to their own documented requirements. See IMAGE_AUDIT.md for the reconciled presence counts. Embedding is not verification. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
+**Policy:** IMAGE-FIRST POLICY v1.2; search for suitable reusable material first and verify item-specific rights. For Chapter 01 only, the project owner explicitly designated ChatGPT as the internal reviewer; this AI review is not independent human/expert validation. Other chapters retain their separately documented review requirements. External expert review is optional and tracked separately.
 
 ## Policy alignment — IMAGE-FIRST POLICY v1.2
 
