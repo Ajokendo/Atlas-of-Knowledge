@@ -62,15 +62,15 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 10 | 10-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 10 | 10-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 10 | 10-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 11 | 11-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 11 | 11-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 11 | 11-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual sector-structure SVG; project licence and scientific review remain open. |
+| 11 | 11-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual location-factors SVG; project licence and scientific review remain open. |
 | 11 | 11-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 11 | 11-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 11 | 11-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 11 | 11-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 11 | 11-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 12 | 12-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 12 | 12-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 12 | 12-A | INTEGRATED | PENDING | PASS — Atlas Abierto CC BY 4.0 attribution recorded | PASS | PENDING | PENDING — remote Wikimedia dependency | Adapted relief base with bilingual approximate markers; not a georeferenced river/boundary layer. |
+| 12 | 12-B | INTEGRATED | PENDING | PASS — Dou et al. 2018 CC BY 4.0 attribution recorded | PASS | PENDING | PENDING — remote MDPI dependency | Adapted Asia relief/regionalisation map; explicitly not an official UN M49 boundary map. |
 | 12 | 12-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -79,9 +79,9 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 12 | 12-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 12 | 12-J | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 13 | 13-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 13 | 13-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual greenhouse-effect diagram; project licence and scientific review remain open. |
 | 13 | 13-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 13 | 13-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 13 | 13-C | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual environmental-risk model; project licence and scientific review remain open. |
 | 13 | 13-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 13 | 13-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 13 | 13-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -90,8 +90,8 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 13 | 13-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 13 | 13-J | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 13 | 13-K | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 14 | 14-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 14 | 14-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 14 | 14-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual vector/raster model comparison; project licence pending. |
+| 14 | 14-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual CRS/vertical-reference diagram; project licence pending. |
 | 14 | 14-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 14 | 14-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 14 | 14-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -99,8 +99,8 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 14 | 14-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 14 | 14-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 14 | 14-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 15 | 15-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 15 | 15-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 15 | 15-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual electromagnetic-spectrum diagram; project licence pending. |
+| 15 | 15-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual active/passive sensor diagram; project licence pending. |
 | 15 | 15-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 15 | 15-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 15 | 15-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -110,8 +110,8 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 15 | 15-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 15 | 15-J | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 15 | 15-K | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 16 | 16-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 16 | 16-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 16 | 16-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual research-cycle diagram; project licence pending. |
+| 16 | 16-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual analytical-scale diagram; project licence pending. |
 | 16 | 16-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 16 | 16-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 16 | 16-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -129,19 +129,19 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 17 | 17-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 17 | 17-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 18 | 18-B | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 18 | 18-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original schematic orographic regionalisation; not georeferenced. Project licence pending. |
 | 18 | 18-C | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 18 | 18-D | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 18 | 18-D | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original conceptual glacial-landform diagram. Project licence pending. |
 | 18 | 18-E | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-F | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-G | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 18 | 18-H | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 18 | 18-H | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original conceptual river-valley cross-section. Project licence pending. |
 | 18 | 18-I | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-J | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Asset register lists a local SVG; final checks remain PENDING. |
 | 19 | 19-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 19 | 19-B | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 19 | 19-C | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 19 | 19-D | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 19 | 19-C | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original conceptual altitudinal climate profile; variable belt boundaries noted. Project licence pending. |
+| 19 | 19-D | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original climate-hazard infographic; no frequencies or regional rankings asserted. Project licence pending. |
 | 19 | 19-E | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 19 | 19-F | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 19 | 19-G | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -153,11 +153,11 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 20 | 20-C | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 20 | 20-D | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 20 | 20-E | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 20 | 20-F | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 20 | 20-F | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original conceptual GLOF pathway; not an operational risk map. Project licence pending. |
 | 20 | 20-G | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 20 | 20-H | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 20 | 20-H | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original catchment water-balance diagram; assumptions stated. Project licence pending. |
 | 20 | 20-I | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Asset register lists a local SVG; final checks remain PENDING. |
-| 20 | 20-J | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 20 | 20-J | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original conceptual groundwater section; not site-specific. Project licence pending. |
 | 20 | 20-K | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Asset register lists a local SVG; final checks remain PENDING. |
 | 21 | 21-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 21 | 21-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
