@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1120" role="img" aria-labelledby="t d">
+<title id="t">Четыре конфигурации магнитного поля / Four magnetic-field configurations</title>
+<desc id="d">Прямой проводник, круговой виток, соленоид и тороид с направлениями тока и магнитного поля, правилом правой руки и формулами идеализированных моделей.</desc>
+<defs>
+ <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d65b43"/></marker>
+ <marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2367a8"/></marker>
+ <style>
+ .bg{fill:#f7f8fa}.panel{fill:#fff;stroke:#d7dde5;stroke-width:3}.h{font:600 34px Inter,Arial,sans-serif;fill:#172b45}.en{font:500 21px Inter,Arial,sans-serif;fill:#68788c}.lab{font:24px Inter,Arial,sans-serif;fill:#26384d}.formula{font:600 27px 'DejaVu Sans',Arial,sans-serif;fill:#172b45}.small{font:20px Inter,Arial,sans-serif;fill:#526174}.wire{stroke:#26384d;stroke-width:13;stroke-linecap:round}.field{fill:none;stroke:#2367a8;stroke-width:6}.current{fill:none;stroke:#d65b43;stroke-width:5;marker-end:url(#arr)}.bvec{fill:none;stroke:#2367a8;stroke-width:6;marker-end:url(#blue)}
+ </style>
+</defs>
+<rect class="bg" width="1600" height="1120"/>
+<text x="70" y="70" class="h">Магнитное поле токов / Magnetic fields of currents</text>
+<text x="70" y="108" class="en">Направления задаются правилом правой руки · Directions follow the right-hand rule</text>
+<!-- panel 1 -->
+<rect class="panel" x="55" y="145" width="725" height="430" rx="22"/>
+<text class="h" x="90" y="200">1. Прямой проводник / Straight wire</text>
+<circle cx="265" cy="365" r="16" fill="#d65b43"/><circle cx="265" cy="365" r="43" class="field"/><circle cx="265" cy="365" r="86" class="field"/><circle cx="265" cy="365" r="129" class="field"/>
+<path d="M265 279 Q330 365 265 451" class="current"/><path d="M265 236 Q394 365 265 494" class="current"/>
+<text x="245" y="374" font-size="27" font-weight="700" fill="#fff">•</text>
+<text class="lab" x="430" y="300">I выходит к наблюдателю</text><text class="en" x="430" y="331">I out of the page</text>
+<text class="lab" x="430" y="380">B — концентрические окружности</text><text class="en" x="430" y="411">B — concentric circles</text>
+<text class="formula" x="430" y="475">B = μ₀I / (2πr)</text>
+<text class="small" x="430" y="515">Длинный прямой проводник</text><text class="en" x="430" y="543">Long straight wire</text>
+<!-- panel 2 -->
+<rect class="panel" x="820" y="145" width="725" height="430" rx="22"/>
+<text class="h" x="855" y="200">2. Круговой виток / Circular loop</text>
+<ellipse cx="1060" cy="370" rx="145" ry="76" fill="none" stroke="#26384d" stroke-width="13"/>
+<path d="M940 320 Q1000 260 1080 295" class="current"/><path d="M1180 416 Q1110 470 1040 445" class="current"/>
+<path d="M1060 470 L1060 245" class="bvec"/>
+<path d="M1000 400 Q1060 445 1120 400" fill="none" stroke="#2367a8" stroke-width="4" stroke-dasharray="9 8"/>
+<text class="lab" x="1240" y="295">Ось витка</text><text class="en" x="1240" y="325">Loop axis</text>
+<text class="lab" x="1240" y="370">B направлено по оси</text><text class="en" x="1240" y="400">B points along the axis</text>
+<text class="formula" x="1240" y="465">Bцентр = μ₀I / (2R)</text>
+<text class="small" x="1240" y="505">В центре одного витка</text><text class="en" x="1240" y="533">At the centre of one loop</text>
+<!-- panel 3 -->
+<rect class="panel" x="55" y="610" width="725" height="440" rx="22"/>
+<text class="h" x="90" y="665">3. Соленоид / Solenoid</text>
+<g fill="none" stroke="#26384d" stroke-width="7">
+ <path d="M160 790 C160 720 210 720 210 790 S260 860 260 790 S310 720 310 790 S360 860 360 790 S410 720 410 790 S460 860 460 790 S510 720 510 790"/>
+</g>
+<path d="M190 790 H500" class="bvec"/><path d="M500 750 C565 700 565 880 500 830" fill="none" stroke="#2367a8" stroke-width="4" stroke-dasharray="8 8"/>
+<path d="M180 740 Q200 710 220 740" class="current"/><path d="M330 850 Q350 880 370 850" class="current"/>
+<text class="lab" x="90" y="940">Внутри: почти однородное поле</text><text class="en" x="90" y="970">Inside: nearly uniform field</text>
+<text class="formula" x="90" y="1015">B ≈ μ₀nI</text>
+<text class="lab" x="455" y="740">Слабое поле снаружи</text><text class="en" x="455" y="770">Weak field outside</text>
+<text class="small" x="455" y="890">Длинный соленоид</text><text class="en" x="455" y="918">Long solenoid</text>
+<!-- panel 4 -->
+<rect class="panel" x="820" y="610" width="725" height="440" rx="22"/>
+<text class="h" x="855" y="665">4. Тороид / Toroid</text>
+<ellipse cx="1070" cy="830" rx="175" ry="115" fill="#e9eef4" stroke="#26384d" stroke-width="8"/>
+<ellipse cx="1070" cy="830" rx="92" ry="55" fill="#fff" stroke="#26384d" stroke-width="8"/>
+<ellipse cx="1070" cy="830" rx="132" ry="82" fill="none" stroke="#2367a8" stroke-width="7" stroke-dasharray="15 8"/>
+<path d="M1160 790 Q1200 830 1160 870" class="bvec"/>
+<g fill="#d65b43"><circle cx="935" cy="830" r="8"/><circle cx="1000" cy="733" r="8"/><circle cx="1140" cy="733" r="8"/><circle cx="1205" cy="830" r="8"/><circle cx="1140" cy="927" r="8"/><circle cx="1000" cy="927" r="8"/></g>
+<text class="lab" x="1280" y="760">B сосредоточено в сердечнике</text><text class="en" x="1280" y="790">B is mainly inside the core</text>
+<text class="formula" x="1280" y="865">B = μ₀NI / (2πr)</text>
+<text class="small" x="1280" y="910">Идеальный тороид:</text><text class="en" x="1280" y="940">Ideal toroid:</text>
+<text class="lab" x="1280" y="970">снаружи поле ≈ 0</text><text class="en" x="1280" y="998">external field ≈ 0</text>
+<text class="small" x="70" y="1090">μ₀ — магнитная постоянная; n — число витков на единицу длины; N — число витков тороида.</text>
+</svg>
