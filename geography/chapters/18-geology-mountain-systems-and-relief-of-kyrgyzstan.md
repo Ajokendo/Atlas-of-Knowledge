@@ -229,6 +229,22 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Высокогорные плато и сырты — характерная черта Внутреннего Тянь-Шаня. Они представляют собой относительно выровненные поверхности на больших высотах, расчленённые речными долинами и окружённые хребтами. Сырты имеют важное значение для сезонного выпаса, водосбора и сохранения холодных высокогорных экосистем.
 
+
+Intermontane basins are a major element of Kyrgyzstan's relief. They form through tectonic movements, erosion, sediment accumulation and changes in river networks. Their floors may contain thick sequences of lacustrine, fluvial, proluvial and glacial deposits.
+
+Important intermontane and valley areas include:
+- **Chuy Valley:** a broad northern foothill plain and an important area of settlement and agriculture;
+- **Talas Valley:** an intermontane depression in the north-west of the country;
+- **Issyk-Kul Basin:** a large intermontane depression containing the lake and bounded by the Kungey Ala-Too and Terskey Ala-Too ranges;
+- **Suusamyr Valley:** a high mountain valley with a seasonally severe climate and important pastures;
+- **Naryn depression and valley:** a system of high mountain valleys dissected by tributaries of the Naryn River;
+- **Jumgal Valley:** an intermontane area in the Inner Tien Shan;
+- **At-Bashy Valley:** a high mountain depression south of Naryn;
+- **Alay Valley:** a broad high-altitude valley between the Alay and Trans-Alay ranges; and
+- **Fergana Valley:** a large intermontane depression divided by the state borders of Kyrgyzstan, Uzbekistan and Tajikistan.
+
+High plateaus and syrts are characteristic of the Inner Tien Shan. They are relatively level surfaces at high elevations, dissected by river valleys and surrounded by mountain ranges. Syrts are important for seasonal grazing, water catchments and the conservation of cold high-mountain ecosystems.
+
 ## 18.7. Процессы формирования рельефа / Landform-Forming Processes
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 18-J / IMAGE PLACEHOLDER 18-J]** Блок-диаграмма горного склона с выветриванием, эрозией, оползанием, осыпанием и аккумуляцией материала.
@@ -732,6 +748,20 @@ The elevation limits of natural and geomorphological belts vary with latitude, s
 8. **Геоморфология речной долины.** V-образная верхняя долина, водопад/порог, пойма, террасы, конус выноса и селевой канал; показать направление потока и перенос осадков.
 9. **Карта природных геологических опасностей.** Землетрясения, оползни, сели, лавины, обвалы и ледниковые озёра. Отдельно показать опасность и экспозицию, не смешивать их в один индекс без методики.
 10. **Минерагеническая схема.** Крупные рудные районы и типы полезных ископаемых без заявления о точных запасах. Для каждого слоя указать дату, источник и статус данных.
+
+
+**General visual style:** premium scientific cartography; dark navy for title and overview panels, white or light backgrounds for main maps, and gold only for accent lines and key summits. All geographic names must be manually edited. Do not generate labels automatically inside images: add names, numbers, legends and scale bars during vector layout.
+
+1. **Physical-geographical map of Kyrgyzstan.** Use hillshade, elevation hypsometry, the state boundary, major ranges, basins, rivers and peaks. Include scale, north arrow, coordinate reference system and DEM source.
+2. **Tectonic diagram of the Tien Shan.** Show major terranes, sutures and large faults, including the Talas-Fergana Fault. Include a legend and a note that regional tectonic models may differ.
+3. **Geological map of Kyrgyzstan.** Show age-based rock units, intrusive bodies, Quaternary deposits and major structural lines. Use an official geological legend; do not reduce stratigraphy to arbitrary colours.
+4. **Geological cross-section of the Tien Shan.** Extend from the northern foothills through the inner ranges to the southern mountain belts; show folds, thrusts, basement rocks and intermontane basins. The section must be labelled conceptual and must not be presented as a precise geophysical model.
+5. **Orographic map of the main ranges.** Clearly distinguish the Northern, Inner, Central and Western Tien Shan and the Pamir-Alay. Verify all range names and highest peaks before labelling.
+6. **Panorama of the highest peaks.** Include Jengish Chokusu, Khan Tengri and Lenin Peak (Abo Ali ibn Sino in Tajikistan). State elevations and distinguish the rock summit from the ice cap; do not depict peaks at a common scale without a vertical scale.
+7. **Glacial landform diagram.** Show a cirque, trough, moraine, firn field, hanging valley, horn and rock step. Use a cross-section and perspective block diagram with correct labels.
+8. **River-valley geomorphology.** Show a V-shaped upper valley, waterfall or bedrock step, floodplain, river terraces, alluvial fan and debris-flow channel; indicate flow direction and sediment transport.
+9. **Natural geological-hazard map.** Show earthquakes, landslides, debris flows, avalanches, rockfalls and glacial lakes. Distinguish hazard from exposure; do not combine them into one index without a stated method.
+10. **Mineral-resource schematic.** Show major mineral districts and resource types without claiming exact reserves. State the date, source and data status for every layer.
 
 ## 18.18. Научные редакционные примечания / Scientific Editorial Notes
 
