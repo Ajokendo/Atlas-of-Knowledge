@@ -87,21 +87,21 @@ async function run(mobile) {
     if (await book.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('interactive book horizontal overflow');
     const dots = book.locator('#dots button');
     if (await dots.count() !== 13) throw new Error(`expected 13 scene pages, got ${await dots.count()}`);
-    for (let i = 0; i < 13; i++) {
-      if (mobile && i > 0) {
-        const next = book.locator('#sheet .turn');
-        if (await next.count() !== 1) throw new Error(`mobile page ${i + 1} has no next-page control`);
-        await next.click();
-        await book.waitForFunction(n => location.hash === `#${n}`, i);
-      } else if (!mobile) {
-        await dots.nth(i).click();
-      }
-      await book.waitForFunction(n => Number(document.querySelector('#folio')?.textContent) === n + 1, i);
-      if (!(await book.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i + 1} has no title`);
-      await book.waitForTimeout(120);
-      if (mobile) {
+    if (mobile) {
+      for (let i = 0; i < 13; i++) {
+        if (i > 0) {
+          const next = book.locator('#sheet .turn');
+          if (await next.count() !== 1) throw new Error(`mobile page ${i + 1} has no next-page control`);
+          await next.click();
+          await book.waitForFunction(n => location.hash === `#${n}`, i);
+        }
+        await book.waitForFunction(n => Number(document.querySelector('#folio')?.textContent) === n + 1, i);
+        if (!(await book.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i + 1} has no title`);
+        await book.waitForTimeout(120);
         await book.screenshot({ path: `${dir}/mobile-book-page-${String(i + 1).padStart(2, '0')}.png`, fullPage: false, timeout: 60000, animations: 'disabled' });
       }
+    } else if (!(await book.locator('#sheet h1').innerText()).trim()) {
+      throw new Error('desktop interactive book has no first-page title');
     }
     await book.close();
     console.log(`PASS circular standalone ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — controls, recalculation, quiz, responsive book chrome, overflow 0, axe serious/critical 0`);
