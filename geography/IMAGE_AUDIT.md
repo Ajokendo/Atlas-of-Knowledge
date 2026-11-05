@@ -639,3 +639,10 @@ Cross-checked the diagram's elevations and distances against the chapter's bilin
 - The climate graph arrays were checked: A has a 32 °C annual temperature range and 401 mm annual precipitation; B has a 14 °C range and 886 mm annual precipitation. These are synthetic values, not observations.
 - Image-first discovery consulted NOAA synoptic meteorology and surface-weather-plot teaching resources. No existing image was reused because the brief requires synthetic data and two climate graphs in one bilingual teaching visual.
 - Lifecycle is INTEGRATED; RU/EN parity is PASS at source level. Scientific convention review, project rightsholder/licence, visual/accessibility review and rendered browser/device QA remain PENDING. No CI pass is claimed.
+
+
+### Chapter 03 — Visual 3.9-A: external source verification
+
+The official ICS chart page and its 2026/06 release note were checked against the source record. The current chart is explicitly labelled v2026/06 and CC BY 4.0; the release note confirms that the version includes revised numerical ages for the Anisian, Olenekian and Wuchiapingian boundaries. The official translations page lists Russian as v2017/02, not as a current 2026/06 Russian chart. The atlas therefore keeps the current English original unchanged and provides its own bilingual explanatory key. This avoids silently substituting an outdated Russian chart for the current official version.
+
+Rights/licence and version provenance: PASS. Chapter-level RU/EN explanatory support: PASS. Scientific use limitation (ages may be revised; non-linear chart layout) is stated. The chart itself remains English-labelled; a full graphic translation is not claimed. Source evidence: [current chart](https://stratigraphy.org/chart/), [2026/06 update](https://stratigraphy.org/news/156), [official translations](https://stratigraphy.org/supplementary).
