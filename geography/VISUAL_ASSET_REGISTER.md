@@ -470,3 +470,8 @@ NASA SRTM Global 1 arc-second V003 (~30 m, acquisition 2000) and Copernicus DEM 
 ### Chapter 18 — supplementary relief overview
 
 Blue Green Atlas's Kyrgyzstan relief map (CC BY 4.0) has been embedded as a supplementary overview. Its source metadata lists Mercator projection, NASA SRTM3 (~90 m), GEBCO 2019, HydroLAKES, HydroATLAS and VMap0. Because compilation date, vertical reference and accuracy assessment are not stated, this map does **not** close planned visual 18-A or replace the required validated DEM.
+
+
+### Chapter 12 — supplementary North America relief image
+
+NASA/JPL Photojournal PIA03377 has been added as a supplementary shaded-relief image. SRTM source data were acquired in February 2000, reduced to 30 arcseconds (~1 km), and resampled to Mercator. It is not a named drainage map; therefore it does not close planned visual 12-F or change planned-ID coverage.
