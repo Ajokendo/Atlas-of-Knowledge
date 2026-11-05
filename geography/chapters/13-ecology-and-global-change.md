@@ -726,7 +726,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 10. Rockström, J. et al. **A safe operating space for humanity.** *Nature* (2009) — foundational paper on planetary boundaries; later assessments refine the framework. https://doi.org/10.1038/461472a
 11. Richardson, K. et al. **Earth beyond six of nine planetary boundaries.** *Science Advances*, 9(37), eadh2458 (2023). https://doi.org/10.1126/sciadv.adh2458
 12. Sakschewski, B. et al. **Planetary Health Check 2025: A Scientific Assessment of the State of the Planet.** Potsdam Institute for Climate Impact Research / Planetary Boundaries Science (2025). The assessment reports that seven of nine planetary boundaries have been breached. https://doi.org/10.48485/PIK.2025.017
-13. Caesar, L. et al. **Planetary Health Check 2026: A Scientific Assessment of the State of the Planet.** Potsdam Institute for Climate Impact Research (2026). Reports seven of nine planetary boundaries breached; CC BY 4.0 unless otherwise credited. https://doi.org/10.48485/pik.2026.25
+13. Caesar, L. et al. **Planetary Health Check 2026: A Scientific Assessment of the State of the Planet.** Potsdam Institute for Climate Impact Research (published 21 September 2026; 120 pp.). The publisher's record confirms that seven of nine planetary boundaries were breached, with all seven showing increasing pressure. Gold Open Access; CC BY 4.0 unless otherwise credited. https://doi.org/10.48485/pik.2026.25
 
 ---
 **Конец главы 13 / End of Chapter 13**
