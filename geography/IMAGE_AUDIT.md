@@ -352,9 +352,9 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 
 ## 7. Metrics — baseline only
 
-- **Image Coverage:** provisional / not yet calculated. The register states 231 IDs, but the listed chapter counts sum to 283 after Chapter 09's confirmed 09-G is included; Chapter 05 still has two unnamed slots.
-- **Image Verification:** 0% confirmed in this audit baseline; no asset has yet been independently certified VERIFIED under v1.1. This does not mean that no assets are correct.
-- **Image Gaps:** all visual IDs in Chapters 06–17 and 21–26 are currently MISSING (no image embed or matching asset found); Chapters 18–20 have only four integrated SVGs total, with 27 other IDs MISSING; Chapter 09 has seven missing needs; Chapter 05 now has 5.18-A integrated, while its ID mapping and per-asset verification remain incomplete. Chapters 01–05 require further per-asset verification.
+- **Image Coverage:** 147/281 named IDs have an image embedded in the relevant chapter source; two historical Chapter 05 positions remain unresolved and are excluded from the denominator.
+- **Image Verification:** 0/147 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 134 of 281 named IDs have no confirmed integrated image; two historical Chapter 05 inventory positions remain unresolved. Chapters 07–10 and 21–26 contain substantial remaining gaps. Chapters 01–06 and 11–20 have integrated assets, but most still require rights, scientific, accessibility and rendered technical review.
 - **A/B/C counts:** pending asset-by-asset provenance classification.
 - **Rights, scientific, language/accessibility and technical results:** pending; no unverified item is counted as PASS.
 
@@ -443,7 +443,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
 | 05 | 17 named IDs | Seventeen named visual IDs now have image assets embedded in both language sections, including 5.18-A. The chapter's legacy inventory still claims 20 positions; two labels remain unresolved, and provisional 5.10-A/5.13-A entries are not accepted as confirmed IDs. |
 | 06 | 15 | Matches the current 15-ID inventory. |
-| 07 | 9 | Matches the current inventory. |
+| 07 | 9 | Matches the current inventory; 07-D is integrated and eight needs remain open. |
 | 08 | 7 | Matches the current inventory. |
 | 09 | 7 | Confirms 09-A–09-G; 09-G is a placeholder and is recorded as MISSING. |
 | 10 | 7 | Matches the current inventory. |
@@ -569,7 +569,7 @@ The source scan of all 21 chapter files 06–26 identified 210 distinct visual I
 | Chapter | Required IDs | Integrated assets confirmed | Missing |
 |---:|---:|---:|---:|
 | 06 | 15 | 5 | 10 |
-| 07 | 9 | 0 | 9 |
+| 07 | 9 | 1 | 8 |
 | 08 | 7 | 0 | 7 |
 | 09 | 7 | 0 | 7 |
 | 10 | 7 | 0 | 7 |
