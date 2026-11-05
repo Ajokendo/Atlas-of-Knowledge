@@ -1315,3 +1315,13 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Automated browser success and a targeted screenshot check do not equal independent zoologist review, complete human visual acceptance of all 53 assets, or rights/licence clearance. These remain separate outstanding gates.
 - Visual coverage remains **53/53 (100%)**. Source-level P1 review register remains **13/13**. Editorial readiness remains **99/100**; no percentage increase is claimed.
 - All changes and checks recorded here concern only `workspace/biology`; no other subject branch, `main`, shared portal or publishing configuration was changed.
+
+
+### Governance clarification — independent school-teacher assessment is post-development — 5 November 2026
+
+- The user has clarified that **there will be no independent specialist assessment as part of Atlas of Knowledge development**. The independent evaluation is a separate event after development, conducted through subject-specialist school teachers.
+- Accordingly, do not treat external zoologist/botanist sign-off as an in-development task, a missing developer deliverable, or an automatic blocker to completing the atlas. Do not solicit or imply that an outside expert has approved the material during development.
+- During development, the team remains responsible for source-based fact checking, transparent uncertainty/caveats, accurate attribution and rights records, bilingual editorial quality, and technical/browser/accessibility QA. Record the evidence actually available and distinguish internal review from the future school-teacher evaluation.
+- At the separate evaluation event, school subject teachers will assess the completed atlas. Their findings can be captured as a post-development evaluation report and used for a later revision cycle if requested.
+- This clarification changes the governance and milestone interpretation only; it does not erase genuine technical, editorial, source, attribution or licensing work still outstanding. No percentage is changed solely by this clarification.
+- This instruction applies to Biology and the Atlas of Knowledge development process generally; this checkpoint update itself is committed only to `workspace/biology`.
