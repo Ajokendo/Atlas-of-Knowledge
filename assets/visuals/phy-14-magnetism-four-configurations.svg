@@ -15,7 +15,7 @@
 <rect class="panel" x="55" y="145" width="725" height="430" rx="22"/>
 <text class="h" x="90" y="200">1. Прямой проводник / Straight wire</text>
 <circle cx="265" cy="365" r="16" fill="#d65b43"/><circle cx="265" cy="365" r="43" class="field"/><circle cx="265" cy="365" r="86" class="field"/><circle cx="265" cy="365" r="129" class="field"/>
-<path d="M265 279 Q330 365 265 451" class="current"/><path d="M265 236 Q394 365 265 494" class="current"/>
+<path d="M265 451 Q200 365 265 279" fill="none" stroke="#2367a8" stroke-width="6" marker-end="url(#blue)"/><path d="M265 494 Q136 365 265 236" fill="none" stroke="#2367a8" stroke-width="6" marker-end="url(#blue)"/>
 <text x="245" y="374" font-size="27" font-weight="700" fill="#fff">•</text>
 <text class="lab" x="430" y="300">I выходит к наблюдателю</text><text class="en" x="430" y="331">I out of the page</text>
 <text class="lab" x="430" y="380">B — концентрические окружности</text><text class="en" x="430" y="411">B — concentric circles</text>
@@ -25,11 +25,11 @@
 <rect class="panel" x="820" y="145" width="725" height="430" rx="22"/>
 <text class="h" x="855" y="200">2. Круговой виток / Circular loop</text>
 <ellipse cx="1060" cy="370" rx="145" ry="76" fill="none" stroke="#26384d" stroke-width="13"/>
-<path d="M940 320 Q1000 260 1080 295" class="current"/><path d="M1180 416 Q1110 470 1040 445" class="current"/>
+<path d="M940 320 Q1000 260 1080 295" fill="none" stroke="#d65b43" stroke-width="5" marker-end="url(#arr)"/><path d="M1180 416 Q1110 470 1040 445" fill="none" stroke="#d65b43" stroke-width="5" marker-end="url(#arr)"/>
 <path d="M1060 470 L1060 245" class="bvec"/>
 <path d="M1000 400 Q1060 445 1120 400" fill="none" stroke="#2367a8" stroke-width="4" stroke-dasharray="9 8"/>
-<text class="lab" x="1240" y="295">Ось витка</text><text class="en" x="1240" y="325">Loop axis</text>
-<text class="lab" x="1240" y="370">B направлено по оси</text><text class="en" x="1240" y="400">B points along the axis</text>
+<text class="lab" x="1240" y="295">I — против часовой стрелки</text><text class="en" x="1240" y="325">I — counterclockwise (viewed from +axis)</text><text class="en" x="1240" y="325">Loop axis</text>
+<text class="lab" x="1240" y="370">B направлено по оси витка</text><text class="en" x="1240" y="400">B points along the loop axis</text>
 <text class="formula" x="1240" y="465">Bцентр = μ₀I / (2R)</text>
 <text class="small" x="1240" y="505">В центре одного витка</text><text class="en" x="1240" y="533">At the centre of one loop</text>
 <!-- panel 3 -->
