@@ -70,7 +70,7 @@
 <text x="340" y="713" class="small">Меньше растворённых</text><text x="340" y="735" class="en">Less solute</text>
 <path d="M385 760 H220" class="water"/>
 <g fill="#286b9b"><circle cx="135" cy="770" r="7"/><circle cx="175" cy="790" r="7"/><circle cx="230" cy="790" r="7"/></g>
-<text x="72" y="824" class="small">Вода движется к более концентрированному раствору</text>
+<text x="72" y="816" class="small">Вода движется к более концентрированному раствору</text><text x="72" y="838" class="en">Water moves toward the more concentrated solution.</text>
 <!-- active transport -->
 <text x="642" y="648" class="ru">4. Активный транспорт</text><text x="642" y="673" class="en">Active transport</text>
 <rect x="835" y="700" width="82" height="78" rx="24" class="protein"/>
