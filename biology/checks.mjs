@@ -1133,6 +1133,7 @@ if (fs.existsSync(generatedDir)) {
 // Keep known bilingual-label and diagram-specific corrections from regressing.
 const requiredBilingualLabels = {
   "ecology-web.svg": ["Shows the main", "interaction types, not", "a complete species list"],
+  "ecology-cycles.svg": ["y=\"850\"", "y=\"875\"", "Simplified models: real cycles include additional reservoirs, pathways and microbial processes."],
   "botany-anatomy.svg": ["Palisade mesophyll", "Spongy mesophyll"],
   "botany-transport.svg": ["Flower and growing organs"],
   "botany-flower.svg": ["Fertilization occurs later,", "after the pollen tube grows."],
