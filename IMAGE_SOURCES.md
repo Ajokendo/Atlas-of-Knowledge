@@ -19,7 +19,7 @@ The Physics branch is a derivative Russian-language edition of Nathan Liow's pre
 | Inherited visuals mapped to English source | PENDING | Requires source-to-derivative comparison |
 | Inherited visuals reused unchanged (A) | PENDING | Count only after visual identity and unchanged status are verified |
 | Inherited visuals adapted (B) | PENDING | Count only after the visual-content changes and adaptation rights are checked |
-| Genuinely new project-created visuals (C) | 4 integrated | Four new hand-authored SVG teaching diagrams with four stacked mobile variants (eight SVG files); asset-level review and project licence assignment remain pending |
+| Genuinely new project-created visuals (C) | 4 integrated | Four new AI-assisted, hand-authored SVG teaching diagrams with four stacked mobile variants (eight SVG files), published under CC BY-NC 4.0; independent scientific review remains pending |
 | Rights / reproduction permission verified | PENDING | Requires evidence for the exact source work and applicable components |
 | Russian-edition localisation verified | PENDING | Requires per-visual Russian labels, captions, alt text, descriptions and rendering checks |
 | Known visual placeholders | 0 | The four previously specified gaps now have SVG assets integrated; other unrecorded gaps may still emerge during the full inventory |
@@ -110,7 +110,7 @@ Copy this block for each integrated asset:
 
 ## New project-created vector assets — 2026-11-05
 
-The four known placeholders have been replaced with four original, hand-authored SVG schematics, each with a dedicated mobile layout (eight SVG files total). The SVG markup was produced with AI assistance from the chapter-specific physics briefs; no OpenStax figure or raster artwork was copied. OpenStax pages were searched and consulted as scientific references only. OpenStax textbook content is generally CC BY-NC-SA 4.0; that licence is not being applied to these original diagrams because no OpenStax artwork or expressive text was adapted. A project licence for the new SVG assets has not yet been assigned, so their rights status remains PENDING and none is marked VERIFIED.
+The four known placeholders have been replaced with four original, hand-authored SVG schematics, each with a dedicated mobile layout (eight SVG files total). The SVG markup was produced with AI assistance from the chapter-specific physics briefs; no OpenStax figure or raster artwork was copied. OpenStax pages were searched and consulted as scientific references only. OpenStax textbook content is generally CC BY-NC-SA 4.0; that licence is not applied to these independently created diagrams because no OpenStax artwork or expressive text was adapted. **Project licence decision (approved 2026-11-05): all eight SVG files belonging to PHY-14-001 and PHY-15-001–003 are published under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0): https://creativecommons.org/licenses/by-nc/4.0/.** This asset-specific licence applies to the extent the project has rights to license the material; it does not claim exclusive copyright in AI-generated elements or override third-party rights if any are later identified. The repository's root MIT licence continues to govern code as stated in its licence; it does not replace this asset-specific licence. Independent scientific review remains PENDING, so none of the four assets is marked VERIFIED.
 
 ### PHY-14-001 — Four magnetic-field configurations
 
@@ -118,7 +118,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 14 — Magnetism
 - Title: Four magnetic-field configurations
 - Integration status: INTEGRATED (not VERIFIED)
-- Lifecycle: FOUND → LICENSE_CHECK (**PENDING**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
 - Verification gate: file/path and integration are recorded; rights assignment, independent scientific review, final bilingual/accessibility review, and current desktop/mobile browser evidence must each be PASS before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
@@ -128,9 +128,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Search record: 2026-11-05; search terms: “magnetic field straight wire circular loop solenoid toroid diagram”, “right-hand rule current field”; searched OpenStax College Physics 2e §22.9 and University Physics Volume 2 §§12.5–12.6 for straight-wire, loop, solenoid, and toroid field geometry, right-hand-rule directions, and equations. Candidate OpenStax diagrams were considered but not reused: the section presents the configurations as separate figures rather than one integrated bilingual teaching plate with all four idealisations and a common right-hand-rule comparison. The new SVG was drawn independently to meet that combined learning need.
 - Source page / scientific references: https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law ; https://openstax.org/books/university-physics-volume-2/pages/12-6-solenoids-and-toroids
 - Direct asset URL: Not applicable — original local SVG.
-- Creator / rightsholder: OpenAI ChatGPT (AI-assisted SVG authoring); project maintainer/editor: Atlas of Knowledge project. Formal asset-rights assignment: Unknown / PENDING.
+- Creator / rightsholder: AI-assisted SVG authoring with ChatGPT; published by the Atlas of Knowledge project. Project publication licence: CC BY-NC 4.0 (approved 2026-11-05). No claim of exclusive copyright in AI-generated elements.
 - Method: Hand-authored vector SVG markup with labels, formulas, and arrow geometry.
-- Licence / permission: Unknown / PENDING — project owner must assign the licence applicable to new assets.
+- Licence / permission: CC BY-NC 4.0 — https://creativecommons.org/licenses/by-nc/4.0/ (project publication licence approved 2026-11-05; applies to the extent the project has licensable rights).
 - Licence evidence: Not applicable to external artwork; no third-party image is embedded.
 - Checked/accessed date: 2026-11-05.
 - Changes: Original diagram; no source image adapted.
@@ -141,7 +141,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Alt EN: Four magnetic-field schematics showing current and magnetic-field directions, equations, and idealisation limits.
 - Limitations: Long straight wire; field at the centre of a single circular loop; long-solenoid approximation; ideal toroid approximation. Not to scale.
 - Scientific review: PENDING — internal vector/equation consistency checked; independent subject-matter review not recorded.
-- Rights review: PENDING — project licence assignment required.
+- Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual labels, captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/magnetism.html, section “Визуальные материалы главы”.
 - Technical review: PASS — desktop 1440×900 and mobile 390×844 browser checks confirm SVG loading, correct responsive source selection, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 after correcting metric-label contrast (run 42006633285).
@@ -153,7 +153,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Lenz's law — approaching and receding magnet
 - Integration status: INTEGRATED (not VERIFIED)
-- Lifecycle: FOUND → LICENSE_CHECK (**PENDING**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
 - Verification gate: file/path and integration are recorded; rights assignment, independent scientific review, final bilingual/accessibility review, and current desktop/mobile browser evidence must each be PASS before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
@@ -163,9 +163,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Search record: 2026-11-05; search terms: “Lenz law magnet approaching coil receding magnet induced current”; searched OpenStax University Physics Volume 2 §13.2 and College Physics §23.2 for the approaching/receding north-pole case and induced-current direction. The OpenStax figure was considered but not reused: the selected figure focuses on the approaching magnet, while this requirement needs an explicit paired approach/recession comparison with bilingual direction labels. The two-panel vector schematic was drawn independently.
 - Source page / scientific references: https://openstax.org/books/university-physics-volume-2/pages/13-2-lenzs-law ; https://openstax.org/books/college-physics/pages/23-2-faradays-law-of-induction-lenzs-law
 - Direct asset URL: Not applicable — original local SVG.
-- Creator / rightsholder: OpenAI ChatGPT (AI-assisted SVG authoring); project maintainer/editor: Atlas of Knowledge project. Formal asset-rights assignment: Unknown / PENDING.
+- Creator / rightsholder: AI-assisted SVG authoring with ChatGPT; published by the Atlas of Knowledge project. Project publication licence: CC BY-NC 4.0 (approved 2026-11-05). No claim of exclusive copyright in AI-generated elements.
 - Method: Hand-authored vector SVG; paired approach/withdrawal states.
-- Licence / permission: Unknown / PENDING — project owner must assign the licence applicable to new assets.
+- Licence / permission: CC BY-NC 4.0 — https://creativecommons.org/licenses/by-nc/4.0/ (project publication licence approved 2026-11-05; applies to the extent the project has licensable rights).
 - Licence evidence: No third-party artwork embedded.
 - Checked/accessed date: 2026-11-05.
 - Changes: Original diagram; no source image adapted.
@@ -176,7 +176,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Alt EN: Two coil states with a north pole facing the coil: the induced field opposes increasing flux during approach and supports the original field during recession.
 - Limitations: Assumes the north pole faces the coil and the coil axis is aligned with the magnet; current direction is viewed from the magnet side.
 - Scientific review: PENDING — internal polarity and flux-change directions checked; independent subject-matter review not recorded.
-- Rights review: PENDING — project licence assignment required.
+- Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.1.
 - Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
@@ -187,7 +187,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Motional EMF in a moving rod
 - Integration status: INTEGRATED (not VERIFIED)
-- Lifecycle: FOUND → LICENSE_CHECK (**PENDING**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
 - Verification gate: file/path and integration are recorded; rights assignment, independent scientific review, final bilingual/accessibility review, and current desktop/mobile browser evidence must each be PASS before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
@@ -197,9 +197,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Search record: 2026-11-05; search terms: “motional EMF rod rails magnetic field open circuit closed circuit”; searched OpenStax College Physics §23.3 and University Physics Volume 2 §13.3 for the moving-rod-on-rails arrangement, polarity, induced current, and magnetic braking force. The OpenStax figure was considered but not reused: it illustrates the moving-rod closed-circuit case, while this requirement also needs a clear open-circuit charge-separation state and explicit q(v × B) geometry. The two circuit states were drawn independently.
 - Source page / scientific references: https://openstax.org/books/college-physics/pages/23-3-motional-emf ; https://openstax.org/books/university-physics-volume-2/pages/13-3-motional-emf
 - Direct asset URL: Not applicable — original local SVG.
-- Creator / rightsholder: OpenAI ChatGPT (AI-assisted SVG authoring); project maintainer/editor: Atlas of Knowledge project. Formal asset-rights assignment: Unknown / PENDING.
+- Creator / rightsholder: AI-assisted SVG authoring with ChatGPT; published by the Atlas of Knowledge project. Project publication licence: CC BY-NC 4.0 (approved 2026-11-05). No claim of exclusive copyright in AI-generated elements.
 - Method: Hand-authored vector SVG with explicit right-hand-rule geometry.
-- Licence / permission: Unknown / PENDING — project owner must assign the licence applicable to new assets.
+- Licence / permission: CC BY-NC 4.0 — https://creativecommons.org/licenses/by-nc/4.0/ (project publication licence approved 2026-11-05; applies to the extent the project has licensable rights).
 - Licence evidence: No third-party artwork embedded.
 - Checked/accessed date: 2026-11-05.
 - Changes: Original diagram; no source image adapted.
@@ -210,7 +210,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Alt EN: A rod moves right in a field directed into the page; positive charges move upward. The closed circuit shows current and magnetic braking, while the open circuit shows charge separation without current.
 - Limitations: Assumes uniform B into the page and mutually perpendicular B, v, and rod; the ideal magnitude is |ε| = BLv.
 - Scientific review: PENDING — internal cross-product, current-loop, and force directions checked; independent subject-matter review not recorded.
-- Rights review: PENDING — project licence assignment required.
+- Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.2.
 - Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
@@ -221,7 +221,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Self-induction, RL transient, and LC oscillations
 - Integration status: INTEGRATED (not VERIFIED)
-- Lifecycle: FOUND → LICENSE_CHECK (**PENDING**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**PENDING**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**PENDING; not approved for closure**).
 - Verification gate: file/path and integration are recorded; rights assignment, independent scientific review, final bilingual/accessibility review, and current desktop/mobile browser evidence must each be PASS before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
@@ -231,9 +231,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Search record: 2026-11-05; search terms: “RL circuit transient current rise decay”, “LC circuit charge current energy exchange”; searched OpenStax University Physics Volume 2 §§14.4–14.5 for RL time constant/current response and LC charge/current/energy relations. The OpenStax RL and LC figures were considered but not reused: they are separate topic figures, while this requirement needs a single bilingual comparison that keeps RL transients distinct from ideal LC oscillations and energy exchange. The composite was drawn independently from the equations.
 - Source page / scientific references: https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits ; https://openstax.org/books/university-physics-volume-2/pages/14-5-oscillations-in-an-lc-circuit
 - Direct asset URL: Not applicable — original local SVG.
-- Creator / rightsholder: OpenAI ChatGPT (AI-assisted SVG authoring); project maintainer/editor: Atlas of Knowledge project. Formal asset-rights assignment: Unknown / PENDING.
+- Creator / rightsholder: AI-assisted SVG authoring with ChatGPT; published by the Atlas of Knowledge project. Project publication licence: CC BY-NC 4.0 (approved 2026-11-05). No claim of exclusive copyright in AI-generated elements.
 - Method: Hand-authored vector SVG with original schematic curves and formula labels.
-- Licence / permission: Unknown / PENDING — project owner must assign the licence applicable to new assets.
+- Licence / permission: CC BY-NC 4.0 — https://creativecommons.org/licenses/by-nc/4.0/ (project publication licence approved 2026-11-05; applies to the extent the project has licensable rights).
 - Licence evidence: No third-party artwork embedded.
 - Checked/accessed date: 2026-11-05.
 - Changes: Original diagram; no source image adapted.
@@ -244,7 +244,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Alt EN: The diagram shows self-induced EMF, exponential RL current rise and decay with time constant L/R, and phase-shifted charge/current with energy exchange in an ideal LC circuit.
 - Limitations: RL plots are schematic; LC assumes ideal components, zero resistance, constant L and C, and initial conditions q(0)=Q₀ and I(0)=0.
 - Scientific review: PENDING — internal equation/phase/energy consistency checked; independent subject-matter review not recorded.
-- Rights review: PENDING — project licence assignment required.
+- Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.3.
 - Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
@@ -256,10 +256,10 @@ Record a requirement here before starting a search. Move it to the integrated-as
 | Chapter / Visual ID | Required visual | Search / review status | Reason unresolved | Next action |
 |---|---|---|---|---|
 | 04 — Work and Energy | Force direction and displacement; energy comparison; height-dependent potential energy | Three local implementations are present (inline SVG, canvas plot, Three.js scene); source lineage and item-level rights are still pending | The visuals may be suitable as local explanatory models, but the current evidence does not prove independent authorship or clear all inherited content rights | Map each implementation to upstream source; complete A/B/C classification and rights review before marking VERIFIED |
-| 14 / PHY-14-001 | Four-topic infographic: straight wire, circular loop, solenoid, and toroid | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/magnetism.html` | Responsive desktop/mobile browser QA and contrast PASS; project licence and independent scientific review remain pending | Complete asset-level rights assignment, final language/accessibility review, and independent scientific review before VERIFIED |
-| 15.1 / PHY-15-001 | Magnet and coil: increasing/decreasing magnetic flux, induced current, field direction, and Lenz's law | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Responsive desktop/mobile browser QA and contrast PASS; project licence and independent scientific review remain pending | Complete asset-level rights assignment, final language/accessibility review, and independent scientific review before VERIFIED |
-| 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Responsive desktop/mobile browser QA and contrast PASS; project licence and independent scientific review remain pending | Complete asset-level rights assignment, final language/accessibility review, and independent scientific review before VERIFIED |
-| 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Responsive desktop/mobile browser QA and contrast PASS; project licence and independent scientific review remain pending | Complete asset-level rights assignment, final language/accessibility review, and independent scientific review before VERIFIED |
+| 14 / PHY-14-001 | Four-topic infographic: straight wire, circular loop, solenoid, and toroid | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/magnetism.html` | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent scientific review remains pending | Complete final language/accessibility review and independent scientific review before VERIFIED |
+| 15.1 / PHY-15-001 | Magnet and coil: increasing/decreasing magnetic flux, induced current, field direction, and Lenz's law | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent scientific review remains pending | Complete final language/accessibility review and independent scientific review before VERIFIED |
+| 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent scientific review remains pending | Complete final language/accessibility review and independent scientific review before VERIFIED |
+| 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent scientific review remains pending | Complete final language/accessibility review and independent scientific review before VERIFIED |
 
 
 ## Interactive-book assembly inventory — Chapters 01, 02, 04, 06–10
