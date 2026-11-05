@@ -76,7 +76,7 @@ check('honey: terminal in milliseconds, v(10τ) = v_t to 0.01%', M.HONEY.tau < 0
 check('honey: at v_t, drag + buoyancy = weight', near(M.HONEY.b * M.HONEY.vt + M.HONEY.B, M.HONEY.W));
 check('honey: the ball sinks less than the jar in one loop', M.honey(M.HONEY.run).x < M.HONEY.jarH - 2 * M.HONEY.r);
 check('fog droplet (10 µm): Stokes valid (Re < 1)', M.drop(1e-5).Re < 1, `v_t = ${(M.drop(1e-5).vLin * 100).toFixed(1)} cm/s`);
-check('raindrop (1 mm): Stokes fails (Re ≫ 1); quadratic gives ~6.6 m/s', M.drop(1e-3).Re > 1000 && Math.abs(M.drop(1e-3).vQuad - 6.6) < 0.2);
+check('raindrop (radius 1 mm, diameter 2 mm): Stokes fails (Re ≫ 1); quadratic gives ~6.6 m/s', M.drop(1e-3).Re > 1000 && Math.abs(M.drop(1e-3).vQuad - 6.6) < 0.2);
 
 // ---------- practice (practice.js) ----------
 {
