@@ -510,3 +510,14 @@ Both assets passed static SVG and chapter-embed checks. No external figure is re
 | 13-H | IPCC/UNFCCC climate-policy sources and OECD guidance on adaptation indicators reviewed. Original comparison authored to avoid suggesting one universal adaptation metric set. | C — original hand-coded SVG; sources cited in Chapter 13, no third-party figure copied. Project licence PENDING. | INTEGRATED; conceptual distinction PASS; local indicators require contextual design. |
 
 All three assets passed static SVG checks and their chapter embeds resolve. They are INTEGRATED, not VERIFIED; project licence, rendered browser and accessibility QA remain open.
+
+
+## Chapter 14 — twelfth visual integration tranche — 5 November 2026
+
+| Visual ID | Source discovery / decision | Category / rights | Status |
+|---|---|---|---|
+| 14-F | QGIS 3.44 network-analysis documentation explains service areas as reachable road-network edges under distance/time cost and shortest/fastest strategies. A new schematic compares that with a Euclidean buffer and includes a barrier. | C — original hand-coded SVG; QGIS source cited, no screenshot copied. Project licence PENDING. | INTEGRATED; conceptual method check PASS; rendered QA PENDING. |
+| 14-H | QGIS 3.44 Topology Checker and GDAL geometry-validity documentation explain invalid geometries, gaps, overlaps, duplicates, dangles and the limits of validity tests. An original diagram shows common error types and warns that rules depend on the data model. | C — original hand-coded SVG; source docs cited, no external figure copied. Project licence PENDING. | INTEGRATED; terminology/method check PASS; rendered QA PENDING. |
+| 14-I | OGC/QGIS reproducibility and metadata guidance informed an original workflow for data provenance, licensing, CRS, software versions, processing parameters, scripts, validation and publication. | C — original hand-coded SVG. Project licence PENDING. | INTEGRATED; workflow completeness check PASS; live rendering/accessibility PENDING. |
+
+All three assets passed static SVG and chapter-embed checks. They are not yet VERIFIED for public release.
