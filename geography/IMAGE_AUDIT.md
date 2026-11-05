@@ -1287,12 +1287,12 @@ The five SVG files were fetched and passed source-level structure and bilingual-
 
 ## Cross-chapter Markdown asset-path audit — Chapters 11–20 — 5 November 2026
 
-A fresh fetch of all ten chapter files found 69 Markdown image embeds:
-- 64 local relative-path embeds; every referenced local file was fetched successfully from `workspace/geography` (64/64 paths resolve).
-- 5 external image embeds: three licensed Wikimedia mountain photographs in Chapter 18, one CC BY 4.0 regional seismicity figure in Chapter 17, and one CC BY 4.0 glacial-lake research figure in Chapter 20.
-- No Markdown image embed has an empty alt attribute (0/69).
+A fresh fetch of all ten chapter files found 80 Markdown image embeds:
+- 73 local relative-path embeds; the earlier 64/64 local path audit passed, and the nine subsequently added local SVGs (13-G/I/J/K, 14-D, 15-D/I/J/K) were each fetched and passed source-level checks (73/73 local paths resolve).
+- 7 external image embeds: NASA/JPL North America relief (Chapter 12), regional seismicity context (Chapter 17), Blue Green Atlas Kyrgyzstan relief (Chapter 18), three licensed Wikimedia peak photographs (Chapter 18), and the CC BY 4.0 glacial-lake research figure (Chapter 20).
+- No Markdown image embed has an empty alt attribute (0/80).
 - Six alt strings appear in one language only because the same local bilingual asset is embedded separately in the Russian and English sections of Chapter 17; each language version has a matching-language alt string. These are not six missing translations.
-- The five external images were located at their cited source pages; this does not substitute for deployed-site image-load, responsive-layout or accessibility testing.
+- The seven external images were located at their cited source pages; this does not substitute for deployed-site image-load, responsive-layout or accessibility testing.
 
 This is a repository path/source check, not a browser test. Image Verification remains separate from Image Coverage.
 
