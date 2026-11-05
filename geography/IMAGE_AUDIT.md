@@ -1156,3 +1156,32 @@ All three SVGs were re-fetched and passed static source checks and their chapter
 | **Total** | **97** | **49** | **48** |
 
 This 49/97 table supersedes the previous 46/97 count.
+
+
+## Twelfth visual integration tranche — Chapter 14 — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 14-F | INTEGRATED | PASS for the distinction between Euclidean buffer and network service area | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Shows straight-line radius versus reachable road-network segments and a barrier; QGIS 3.44 service-area documentation added. |
+| 14-H | INTEGRATED | PASS for common gap, overlap, undershoot, overshoot and duplicate examples; context caveat included | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Shows typical vector topology issues; rules must follow the data model. QGIS topology and GDAL geometry-validity sources added. |
+| 14-I | INTEGRATED | PASS as a reproducible project workflow | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Captures question, data provenance/licence, CRS/software versions, processing scripts/parameters, validation, metadata and publication. |
+
+All three SVGs passed static source and chapter-embed checks. Live browser, keyboard/screen-reader, project licensing and software-specific execution QA remain open.
+
+### Current scoped visual coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **52** | **45** |
+
+This 52/97 table supersedes the previous 49/97 count.
