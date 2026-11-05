@@ -1478,7 +1478,7 @@ The first feedback-image candidate considered from SERC's separate *Carbon on th
 - The exact Commons file pages identify the source as USGS material and state Public Domain in the United States. Both captions name Jose F. Vigil/USGS, link the exact file page, and explicitly limit the rights statement to the United States; no worldwide public-domain claim is made.
 - Both files were opened and visually inspected. The Russian graphic includes labels for transform motion, spreading, subduction and rifting; the English graphic shows convergent, transform, divergent and continental-rift settings. Bilingual alt text and source/rights captions are present.
 - Removed `geography/assets/diagrams/02-5A-plate-boundary-types.svg` from `workspace/geography` after replacement. The unlicensed local SVG is no longer present as a Chapter 02 asset.
-- Chapter 02 inventory is now 44 Markdown embeds across both languages, 22 unique assets: 13 remote images and 9 remaining local SVGs. The 2.5-A and 2.12-A visual IDs each use two image files per language.
+- Chapter 02 inventory is now 44 Markdown embeds across both languages, 22 unique assets: 14 remote images and 8 remaining local SVGs. The 2.5-A and 2.12-A visual IDs each use two image files per language.
 - Rights result for 2.5-A: PASS on the source-recorded U.S. Public Domain basis, with jurisdiction caveat. Technical result remains PARTIAL: source files and captions are checked, but deployed reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
 
 
