@@ -415,7 +415,7 @@ async function checkChapterPage(mobile = false) {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (overflow) throw new Error('Standalone Chapter 1 page has horizontal overflow at this viewport');
     await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}-quiz.png`, animations: 'disabled', timeout: 30000 });
-    await page.evaluate(() => window.scrollTo(0, 0));
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
     await page.waitForTimeout(150);
     await page.screenshot({ path: `${visualReviewDir}/standalone-${mobile ? 'mobile' : 'desktop'}.png`, animations: 'disabled', timeout: 30000 });
     if (runtimeErrors.length) throw new Error(`Chapter page console/runtime errors: ${runtimeErrors.join(' | ')}`);
