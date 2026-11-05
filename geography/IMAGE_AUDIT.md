@@ -1321,3 +1321,10 @@ All four files pass source-level SVG checks for root, viewBox, title, descriptio
 | Figure | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
 |---|---|---|---|---|---|---|---|
 | Kyrgyzstan relief overview | INTEGRATED — supplementary map | PASS WITH LIMITATION — projection and source datasets identified; map compilation date, vertical reference and accuracy are not stated | PASS — source page explicitly CC BY 4.0; attribution included | PASS — bilingual alt text/caption | PENDING — alt text present; manual accessibility review pending | PENDING — external image loading/responsive behaviour untested | Useful relief context only; does not close 18-A, which still requires a validated DEM with full metadata. |
+
+
+### Chapter 12 — supplementary NASA/JPL North America relief image
+
+| Figure | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| NASA/JPL PIA03377 | INTEGRATED — supplementary relief image | PASS WITH LIMITATION — SRTM acquisition, reduction, resampling, Mercator projection and date are documented; not a named hydrography layer | PASS subject to NASA media-use guidance; NASA/JPL credit retained, no third-party copyright notice shown | PASS — bilingual alt text and caption | PENDING — alt text present; manual accessibility review pending | PENDING — remote image load and responsive behaviour untested | Useful relief context only. Planned 12-F still requires a verified drainage-network map with named systems and flow directions. |
