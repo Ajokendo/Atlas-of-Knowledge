@@ -2,6 +2,7 @@ import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 
 // Dedicated Chapter 13 regression test: run independently from the full chapter matrix.
+// Re-run after the Russian metric-label contrast correction (WCAG AA).
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
 const browser = await chromium.launch({ headless: true, args: ['--enable-webgl', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--use-gl=angle', '--use-angle=swiftshader'] });
 const failures = [];
