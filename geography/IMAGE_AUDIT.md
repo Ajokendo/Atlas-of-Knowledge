@@ -259,7 +259,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 03 | 3.6-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.7-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.8-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 03 | 3.9-A | INTEGRATED | PENDING | PASS | PENDING | PENDING | PENDING | Exact ICS current chart v2026/06 page states CC BY 4.0. Embedded chart labels are English-only; Russian equivalent explanation remains open. |
+| 03 | 3.9-A | INTEGRATED | PENDING | PASS | PENDING | PENDING | PENDING | Exact ICS current chart v2026/06 page states CC BY 4.0. Chart labels remain English-only; a Russian key to the hierarchy and principal eons/eras was added, but a full translation of chart subdivisions remains open. |
 | 03 | 3.10-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.11-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.12-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
@@ -510,7 +510,7 @@ These checks establish that the expected local files exist, the chapter source r
 
 - `3.2-A` USGS Ore/Mineral Sample Images: the exact USGS media page identifies this complete composite as Public Domain. The page also discloses source imagery from USGS, Smithsonian Institution, Minerals Education Coalition and Adobe Stock. Rights are recorded PASS for reuse of the complete published composite under the page's item-level Public Domain statement; do not extract or reuse component specimens as separate files.
 - `3.5-A` *This Dynamic Planet* I-2800: the exact USGS media page identifies the image as Public Domain. It is a 2006 reference map and must not be represented as current hazard, earthquake or plate-motion data.
-- `3.9-A` ICS International Chronostratigraphic Chart v2026/06: the current ICS chart page identifies © ICS 2026 and CC BY 4.0. The chapter reuses the chart unchanged and provides a bilingual source credit. Rights PASS; Russian-language equivalent explanation of the English chart remains PENDING.
+- `3.9-A` ICS International Chronostratigraphic Chart v2026/06: the current ICS chart page identifies © ICS 2026 and CC BY 4.0. The chapter reuses the chart unchanged and provides a bilingual source credit. Rights PASS. A Russian companion key to the hierarchy and principal eons/eras was added; full translation of all chart subdivisions remains PENDING.
 - These are rights findings only; scientific, language/accessibility and technical review dimensions remain separately open as recorded in the per-asset table.
 
 
