@@ -583,3 +583,18 @@ All five files have local relative paths and bilingual captions/alt text in the 
 | Status | INTEGRATED; exact file-page licence checks PASS; language/caption checks PASS. Live site loading, responsive rendering and assistive-technology review PENDING. |
 
 The three source images are unchanged. For CC BY and CC BY-SA assets, author, licence and source links are retained in the chapter. The CC0 dedication is recorded for the Lenin Peak photograph.
+
+
+## Chapter 17 — Visual 17-F: active faults and earthquake catalogue — source discovery, 5 November 2026
+
+| Field | Record |
+|---|---|
+| Visual ID | 17-F |
+| Learning purpose | Show the spatial relationship between selected active fault traces and earthquake epicentres in Kyrgyzstan, with catalogue period, magnitude threshold and geographic scope stated. |
+| Current status | Visual asset remains MISSING. Suitable regional datasets have been found and their catalogue-level licences verified, but no map has been generated or integrated. |
+| Candidate fault dataset | World Bank, **Central Asia Seismic Fault Database** (dataset 0064168; last updated 21 Feb 2023; 675.5 KB OpenQuake-format ZIP). Five Central Asian countries plus a 300 km buffer. CC BY 4.0. Dataset is a selected subset derived from AFEAD, not a complete national inventory of all mapped lineaments. https://datacatalog.worldbank.org/search/dataset/0064168/central-asia-seismic-fault-database |
+| Candidate earthquake dataset | World Bank, **Central Asia Earthquake Catalogue** (dataset 0064167; harmonized and declustered CSVs; last updated 21 Feb 2023). Five Central Asian countries plus a 300 km buffer; historical and instrumental events collected through 2020. CC BY 4.0. Completeness varies by period, magnitude and source. https://datacatalog.worldbank.org/search/dataset/0064167/central-asia-earthquake-catalogue |
+| Peer-reviewed methodology | Poggi et al. (2024), *Natural Hazards and Earth System Sciences*, 24, 2597–2613, DOI 10.5194/nhess-24-2597-2024. Open access CC BY 4.0. Describes catalogue harmonisation, event selection and the selected active-fault compilation. https://doi.org/10.5194/nhess-24-2597-2024 |
+| Licence evidence | World Bank catalogue pages state CC BY 4.0 for both datasets; article page states CC BY 4.0. Exact source attribution and licence link must be included in any derivative map. |
+| Unresolved requirements | Download and inspect the exact data packages; document coordinate reference system and catalogue fields; choose and state a defensible magnitude threshold and time window; validate the country boundary used for clipping; inspect fault reliability classes and catalogue completeness; create the map and bilingual legend/alt text. |
+| Decision | Do not replace the missing Kyrgyzstan map with a generic Central Asia figure or imply that the selected fault database is exhaustive. The data are a promising candidate for a transparent regional map, not yet a validated finished asset. |
