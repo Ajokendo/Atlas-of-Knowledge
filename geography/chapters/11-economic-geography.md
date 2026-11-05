@@ -225,8 +225,9 @@ Deindustrialisation is a decline in industry's relative share of employment or o
 
 ## 11.9. Транспортная география и логистика / Transport Geography and Logistics
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 11-C / IMAGE PLACEHOLDER 11-C]** Карта транспортных узлов и коридоров с примерами мультимодальных цепочек и различием времени и расстояния.
-> **EN:** Map of transport hubs and corridors with multimodal-chain examples, distinguishing travel time from physical distance.
+![Мультимодальная цепочка поставок: производитель, консолидация, железная дорога, порт, судно, склад и рынок / Multimodal supply chain: producer, consolidation, rail, port, ship, warehouse and market](../assets/diagrams/11-C-multimodal-transport-chain-bilingual.svg)
+
+*Схематическая сеть, а не карта реальных транспортных коридоров; расстояния и время не заданы. / Schematic network, not a map of real transport corridors; distances and travel times are not specified.*
 
 Транспорт обеспечивает перемещение людей, сырья, товаров и услуг. География транспорта исследует сети, узлы, коридоры, доступность, стоимость и время перемещения, а также воздействие транспортной инфраструктуры на территорию.
 
