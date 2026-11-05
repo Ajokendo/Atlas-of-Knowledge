@@ -1,5 +1,8 @@
 # External reviewer bundle — Atlas of Biology
 
+> **ARCHIVED — OUTSIDE THE ATLAS PROJECT SCOPE (5 November 2026).** This bundle is a historical artifact, not an executable handoff. Do not freeze or distribute reviewer snapshots, invite reviewers, request reports, or treat any blank/pending field as an Atlas task. External review, consultation, specialist assessment, sign-off and acceptance are excluded from this project. Any such work belongs to a separate process with separate records. Internal project QA may consult published scientific sources; it does not involve external review of the Atlas.
+
+
 **Subject:** Biology only  
 **Canonical branch:** `workspace/biology`  
 **Repository:** `Ajokendo/Atlas-of-Knowledge`  
