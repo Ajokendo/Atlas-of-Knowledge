@@ -31,6 +31,22 @@ This chapter introduces core ecological concepts, the geography of human pressur
 
 Экологические проблемы имеют разные пространственные масштабы. Локальное загрязнение воздуха может воздействовать на городской район, речное загрязнение — распространяться по всему бассейну, а изменение климата — влиять на природные и социальные системы глобально.
 
+
+**Ecology** is the science of interactions among organisms and between organisms and their environment. It studies processes at the levels of individual organisms, populations, communities, ecosystems and the biosphere.
+
+**Environmental geography** examines the spatial organisation of these processes and their relationships with natural and socioeconomic conditions. It brings together approaches from physical geography, biology, geology, economics, sociology, demography and environmental science.
+
+Its main fields include:
+- population and community ecology;
+- ecosystem and landscape ecology;
+- biogeochemical cycles;
+- the geography of pollution and environmental risks;
+- nature conservation and ecosystem restoration;
+- environmental assessment of economic activity; and
+- climate adaptation and territorial resilience.
+
+Environmental problems occur at different spatial scales. Local air pollution may affect an urban district, river pollution may spread throughout a catchment, and climate change affects natural and social systems globally.
+
 ## 13.2. Экосистемы, устойчивость и экологические функции / Ecosystems, Resilience and Ecological Functions
 
 Экосистема включает живые организмы, физическую среду и потоки энергии и вещества между ними. Её функционирование зависит от продуктивности, пищевых сетей, разложения органического вещества, водного режима, почвенных процессов и биоразнообразия.
@@ -132,6 +148,20 @@ This chapter introduces core ecological concepts, the geography of human pressur
 
 Лесовосстановление не всегда означает восстановление исходной экосистемы. Посадка монокультурных плантаций не эквивалентна восстановлению естественного леса по видовому составу, структуре и экологическим функциям.
 
+
+Land-use change is one of the major drivers of landscape transformation. The expansion of farmland, urbanisation, mineral extraction, road construction and reservoirs changes the structure and functions of ecosystems.
+
+**Land degradation** is a decline in the biological or economic productivity of land, or a deterioration of its ecological functions. It may involve erosion, salinisation, compaction, loss of organic matter, pollution and desertification.
+
+Forests perform several important functions:
+- they support biodiversity;
+- they participate in the carbon and water cycles;
+- they protect soils from erosion;
+- they influence local microclimates; and
+- they provide materials and livelihoods.
+
+Reforestation does not always restore the original ecosystem. Planting monoculture plantations is not equivalent to restoring a natural forest in its species composition, structure and ecological functions.
+
 ## 13.8. Вода, загрязнение и изменение биогеохимических циклов / Water, Pollution and Biogeochemical Cycles
 
 Загрязнение воды может поступать из точечных источников — промышленных и коммунальных сбросов — и диффузных источников, например сельскохозяйственного стока. Избыточное поступление азота и фосфора способствует эвтрофикации, цветению водорослей и снижению содержания кислорода.
@@ -146,6 +176,19 @@ This chapter introduces core ecological concepts, the geography of human pressur
 
 Биогеохимические циклы углерода, азота, фосфора и воды связывают атмосферу, гидросферу, литосферу и биосферу. Изменение одного цикла может влиять на остальные. Например, интенсивное внесение азотных удобрений влияет на почвы, водоёмы, атмосферные выбросы и биоразнообразие.
 
+
+Water pollution can come from point sources, such as industrial and municipal discharges, and diffuse sources, such as agricultural runoff. Excess nitrogen and phosphorus can promote eutrophication, algal blooms and declining oxygen levels.
+
+Major water-quality problems include:
+- microbiological contamination;
+- heavy metals and persistent organic pollutants;
+- excess nutrients;
+- petroleum products;
+- plastics and microplastics; and
+- changes in water temperature and oxygen conditions.
+
+The biogeochemical cycles of carbon, nitrogen, phosphorus and water connect the atmosphere, hydrosphere, lithosphere and biosphere. A change in one cycle can affect the others. For example, intensive nitrogen fertiliser use influences soils, water bodies, atmospheric emissions and biodiversity.
+
 ## 13.9. География отходов и циркулярная экономика / Geography of Waste and the Circular Economy
 
 Отходы имеют пространственную географию: места производства и потребления часто отделены от мест сбора, переработки, захоронения и конечного воздействия. Трансграничное перемещение отходов требует правового контроля и экологической ответственности.
@@ -153,6 +196,13 @@ This chapter introduces core ecological concepts, the geography of human pressur
 **Циркулярная экономика** стремится сохранять ценность материалов и продукции дольше за счёт долговечного дизайна, ремонта, повторного использования, переработки и сокращения отходов. Она не означает полного отсутствия отходов или воздействия, но может снижать потребление первичных ресурсов.
 
 При оценке циркулярности важно учитывать полный жизненный цикл товара: добычу сырья, производство, транспорт, использование, ремонт и окончательное обращение с материалом. Переработка полезна, но предотвращение образования отходов и повторное использование часто позволяют избежать большего объёма воздействия.
+
+
+Waste has a spatial geography: places where products are made and consumed are often separate from the places where waste is collected, recycled, disposed of or causes environmental impacts. The transboundary movement of waste requires legal oversight and environmental responsibility.
+
+A **circular economy** seeks to keep materials and products valuable for longer through durable design, repair, reuse, recycling and waste prevention. It does not mean that waste or environmental impacts can be eliminated completely, but it can reduce the use of virgin resources.
+
+Assessing circularity requires consideration of the product's full life cycle: raw-material extraction, manufacturing, transport, use, repair and end-of-life management. Recycling is useful, but preventing waste and reusing products can often avoid a greater share of environmental impacts.
 
 ## 13.10. Экологические риски и уязвимость территорий / Environmental Risks and Territorial Vulnerability
 
@@ -361,6 +411,18 @@ The environmental impact of a product or infrastructure asset is not limited to 
 
 Здоровье человека зависит от качества воздуха и воды, безопасности пищи, температурных условий, городской среды, санитарии и доступа к зелёным пространствам. Экологическая география помогает выявлять территории, где несколько факторов риска накладываются друг на друга.
 
+
+Environmental benefits and risks are not distributed equally. Low-income communities, residents of industrial areas, rural and remote territories, and groups with limited access to healthcare and public services may face disproportionately high burdens.
+
+Environmental justice includes:
+- fair distribution of environmental benefits and harm;
+- meaningful participation of affected communities in decision-making;
+- access to environmental information and justice;
+- recognition of historical and cultural connections to places; and
+- protection of health and livelihoods.
+
+Human health depends on air and water quality, food safety, temperature conditions, the built environment, sanitation and access to green spaces. Environmental geography helps identify places where several risk factors overlap.
+
 ## 13.15. Устойчивое развитие и география будущего / Sustainable Development and the Geography of the Future
 
 Устойчивое развитие предполагает согласование экологических ограничений, социального благополучия и экономической деятельности с учётом потребностей нынешних и будущих поколений.
@@ -554,6 +616,18 @@ Technology alone does not guarantee sustainability. Outcomes depend on governanc
 8. Мониторинг, ОВОС и СЭО помогают учитывать последствия решений.
 9. Экологическая справедливость требует учитывать распределение рисков, выгод и возможностей участия.
 10. Устойчивое развитие должно опираться на научные данные и территориальные особенности.
+
+
+1. Ecology studies interactions between organisms and their environment; environmental geography examines the spatial dimensions of those interactions.
+2. Global change includes climatic, biospheric, hydrological, chemical and land-use processes.
+3. Modern global warming is primarily driven by human-caused greenhouse-gas emissions.
+4. Climate change affects the cryosphere, oceans, ecosystems, health, infrastructure and food systems.
+5. Biodiversity loss is associated with several interacting pressures.
+6. Environmental risk depends on hazards, exposure and vulnerability.
+7. Climate-change mitigation and adaptation address different but complementary tasks.
+8. Monitoring, environmental impact assessment and strategic environmental assessment help account for the consequences of decisions.
+9. Environmental justice requires attention to the distribution of risks, benefits and opportunities for participation.
+10. Sustainable development should be based on scientific evidence and territorial context.
 
 ## 13.17. Ключевые понятия / Key Terms
 
