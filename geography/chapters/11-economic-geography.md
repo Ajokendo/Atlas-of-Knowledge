@@ -186,7 +186,7 @@ The importance of these factors varies by industry. A steel mill, data centre, t
 
 ## 11.6. Промышленность и индустриальные районы / Industry and Industrial Regions
 
-Промышленность преобразует сырьё и материалы в товары, оборудование, энергию и промежуточную продукцию. В её составе выделяют добывающие и обрабатывающие производства, энергетику и коммунальную инфраструктуру; точные статистические границы зависят от классификации.
+В широком смысле промышленность охватывает добывающие и обрабатывающие производства, энергетику и коммунальную инфраструктуру; точные статистические границы зависят от используемой классификации. В трёхсекторной модели, рассмотренной выше, добывающие отрасли обычно относят к первичному сектору, а обрабатывающие производства и строительство — ко вторичному.
 
 Промышленные районы формируются вокруг ресурсных баз, транспортных узлов, портов, крупных рынков, научных центров или исторически сложившихся производственных кластеров. В одних регионах преобладают тяжёлые отрасли, в других — машиностроение, электроника, химическая промышленность, пищевая переработка или высокотехнологичные производства.
 
@@ -194,7 +194,7 @@ The importance of these factors varies by industry. A steel mill, data centre, t
 
 Деиндустриализация означает сокращение относительной роли промышленности в занятости или выпуске; она может быть связана с автоматизацией, переносом производства, ростом производительности и увеличением доли услуг. Реиндустриализация — попытка укрепить производственные компетенции и технологическую базу. Эти процессы не обязательно означают простое возвращение прежних заводов.
 
-Industry transforms raw materials and components into goods, equipment, energy and intermediate products. It includes extractive and manufacturing activities, energy production and utility infrastructure; exact statistical boundaries depend on the classification used.
+In a broad sense, industry includes extractive and manufacturing activities, energy production and utility infrastructure; exact statistical boundaries depend on the classification used. In the three-sector model described above, extractive activities are usually assigned to the primary sector, while manufacturing and construction are assigned to the secondary sector.
 
 Industrial regions develop around resource bases, transport hubs, ports, large markets, research centres or historically established production clusters. Some regions specialise in heavy industry, while others focus on engineering, electronics, chemicals, food processing or high-technology manufacturing.
 
