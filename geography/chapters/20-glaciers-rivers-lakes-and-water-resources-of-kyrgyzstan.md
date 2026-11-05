@@ -615,8 +615,9 @@ Groundwater quality depends on geological structure, depth, contact time with ro
 
 ## 20.8. Водохранилища и ирригационные системы / Reservoirs and Irrigation Systems
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-D / IMAGE PLACEHOLDER 20-D]** Схема Нарынского каскада ГЭС и основных водохранилищ с направлениями стока и ирригационными системами; различать проектные и фактические параметры.
-> **EN:** Diagram of the Naryn hydropower cascade and major reservoirs, showing flow directions and irrigation systems; distinguish planned from operating parameters.
+![Нижненарынский каскад ГЭС / Lower Naryn hydropower cascade](../assets/diagrams/20-D-naryn-hydropower-cascade-bilingual.svg)
+
+*Условная последовательность пяти ГЭС по течению Нарына; суммарная установленная мощность 2 870 МВт по AF NWRMP. Камбаратинские проекты показаны отдельно и не включены в этот итог. / Schematic downstream sequence of five Naryn plants; total installed capacity 2,870 MW per AF NWRMP. Kambar-Ata projects are separate and excluded from this total.*
 
 Водохранилища регулируют сезонный сток, обеспечивают орошение, водоснабжение и выработку электроэнергии. Они изменяют естественный гидрограф реки, задерживают наносы, влияют на температуру воды и экологические условия ниже плотины.
 
