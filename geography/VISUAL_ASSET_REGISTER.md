@@ -441,3 +441,8 @@ A historical Naryn River gauge candidate was identified: UNH Water Systems Analy
 | **Total** | **97** | **67** | **30** |
 
 **Image Coverage:** 67/97 (69%) of planned visual IDs in Chapters 11–20 are integrated. Chapter 15 is now 11/11; Chapter 14 is 8/9, with only 14-G (a source-backed DEM and derivatives) still open. Image Verification remains separate and must not be inferred from integration.
+
+
+### Chapter 14 — 14-G DEM source checkpoint
+
+NASA SRTM Global 1 arc-second V003 (~30 m, acquisition 2000) and Copernicus DEM GLO-30 Public (30 m DSM, TanDEM-X 2011–2015) have been identified as candidate sources. Copernicus GLO-30 is a surface model including vegetation/buildings and some tiles are not publicly released; it must not be described as bare-earth terrain. No Kyrgyzstan source tile has yet been downloaded and validated, so 14-G remains MISSING pending CRS/vertical-datum/NoData/licence checks and reproducible slope/aspect derivation.
