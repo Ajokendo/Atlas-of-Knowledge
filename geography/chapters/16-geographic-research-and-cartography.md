@@ -1105,6 +1105,7 @@ This is a learning example, not a complete assessment of healthcare access. The 
 11. International Cartographic Association (ICA), Commission on Map Projections. (12 January 2026). **Choosing World Map Projections: When Equal-Area Is Appropriate (and Why There Is No Single “Correct” Projection).** https://icaci.org/files/documents/factsheets/world_map_projections_2026-02-13.pdf
 12. U.S. Geological Survey. (1993). **Map Projections.** General Information Product; USGS Publications Warehouse, DOI 10.3133/70047422. Explains the properties, distortions and uses of major projection families. https://www.usgs.gov/publications/map-projections
 13. United Nations Statistics Division. (2025). **Principles and Recommendations for Population and Housing Censuses, Revision 4.** Adopted by the Statistical Commission at its 56th session in 2025; the current English text is marked unedited/not typeset. https://unstats.un.org/unsd/demographic/sources/census/wphc/default.htm
+14. Statistics Canada. **Spatial data quality elements.** Defines lineage, positional accuracy, attribute accuracy, logical consistency and completeness as components of spatial-data quality metadata. https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/other-autre/qua-eng.htm
 
 ---
 **Конец главы 16 / End of Chapter 16**
