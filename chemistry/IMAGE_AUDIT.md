@@ -573,3 +573,12 @@ The English SVG was corrected:
 - the supersaturated state is described as metastable and potentially crystallising when seeded.
 
 The Russian SVG already carried these concepts. A regression check now requires the scientific distinctions in both language files. The visual remains schematic: particle counts are not measured concentrations. This is source-level review only; rendered inspection, competent second-person scientific review and rights clearance remain PENDING.
+
+
+## CH-V06 acid–base visual bilingual terminology and graph-label correction — 5 November 2026
+
+The English and Russian versions shared the correct net ionic equation and the pH≈7 qualification for an ideal strong-acid/strong-base titration at 25 °C. However, the Russian visual additionally identified the Brønsted–Lowry model (acid as proton donor; base as proton acceptor) and labelled the titration graph's pH range and base-addition axis. These explanatory labels were missing from the English visual.
+
+The English SVG now includes the Brønsted–Lowry definitions, pH-axis endpoint labels (0 and 14), the base-addition direction and the same restricted equivalence-point condition. The graph group was shifted slightly upward to keep the added axis label within the SVG viewport. Regression checks now require the corresponding bilingual concepts and labels.
+
+This remains source-level review. The adjusted English graph and lower explanatory text still need rendered desktop/mobile inspection. The scientific second-person review and rights gates remain PENDING.
