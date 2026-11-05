@@ -144,6 +144,7 @@ export function startBook(chapter) {
     scenePicker.append(option);
   }
   $('gl').parentElement.append(scenePicker);
+  scenePicker.addEventListener('focus', () => { focusHandoffToken++; });
   scenePicker.addEventListener('change', () => {
     // The empty option is also the keyboard-accessible way to dismiss a breakdown.
     select(scenePicker.value || null, true);
@@ -152,7 +153,9 @@ export function startBook(chapter) {
   // occurs after Enter has committed the option, so make one final focus handoff.
   scenePicker.addEventListener('keyup', event => {
     if (event.key !== 'Enter' || !scenePicker.value) return;
+    const handoffToken = focusHandoffToken;
     const focusExplanation = () => {
+      if (handoffToken !== focusHandoffToken) return;
       const plate = $('plate');
       const active = document.activeElement;
       if (plate.hidden || (active !== scenePicker && active !== document.body && active !== document.documentElement)) return;
@@ -212,6 +215,8 @@ export function startBook(chapter) {
 
   // ---------- hover / click ----------
   let hovered = null, selected = null, pageLit = PAGES[0].lit;
+  // Invalidate delayed focus retries when the learner intentionally returns to the picker.
+  let focusHandoffToken = 0;
   const relight = () => E.setLit(hovered || selected || pageLit);
   // hover is re-checked every frame at the pointer's last spot, so moving things light up as they
   // pass under a still cursor and a click lands on whatever is lit at that moment
@@ -301,6 +306,7 @@ export function startBook(chapter) {
     return { target: s.center.toArray(), dist: Math.max(E.distFor(Math.max(s.radius, g.userData.minRadius ?? 1.2)), g.userData.minDist ?? 8) };   // a scene may allow a closer zoom
   }
   function select(k, moveFocus = false) {
+    const handoffToken = ++focusHandoffToken;
     selected = k;
     scenePicker.value = k || '';
     for (const [key, g] of Object.entries(E.ASM)) g.userData.target = key === k ? 1 : 0;
@@ -331,7 +337,7 @@ export function startBook(chapter) {
       // select after its popup closes, so retry after the interaction has settled.
       scenePicker.blur();
       const focusTitle = () => {
-        if (plate.hidden) return;
+        if (handoffToken !== focusHandoffToken || plate.hidden) return;
         const title = plate.querySelector('#scene-plate-title');
         const active = document.activeElement;
         if (!title || active === title) return;
