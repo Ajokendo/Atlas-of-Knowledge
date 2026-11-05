@@ -19,7 +19,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: newton-browser-${{ github.sha }}
+  group: newton-browser
   cancel-in-progress: true
 
 jobs:
