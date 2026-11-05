@@ -1,5 +1,6 @@
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
+import { mkdir } from 'node:fs/promises';
 
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
 const pages = [
@@ -7,6 +8,8 @@ const pages = [
   { path: '/chapters/induction.html', count: 3, title: 'Chapter 15' },
 ];
 const failures = [];
+const screenshotDir = '/tmp/physics-visual-review';
+await mkdir(screenshotDir, { recursive: true });
 const browser = await chromium.launch({
   headless: true,
   args: ['--enable-webgl', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--use-gl=angle', '--use-angle=swiftshader'],
@@ -40,6 +43,12 @@ for (const mobile of [false, true]) {
         hasRu: !!img.closest('figure')?.querySelector('figcaption [lang="ru"]'),
         hasEn: !!img.closest('figure')?.querySelector('figcaption [lang="en"]'),
       })));
+      if (!mobile) {
+        for (let i = 0; i < states.length; i++) {
+          const file = states[i].src.split('/').pop().replace(/\\.svg$/i, '.png');
+          await images.nth(i).screenshot({ path: `${screenshotDir}/${file}` });
+        }
+      }
       for (const state of states) {
         if (!state.alt || state.alt.length < 40) throw new Error(`missing meaningful alt text: ${state.src}`);
         if (!state.caption || !state.hasRu || !state.hasEn) throw new Error(`missing bilingual caption: ${state.src}`);
