@@ -1130,6 +1130,29 @@ if (fs.existsSync(generatedDir)) {
   }
 }
 
+// Keep known bilingual-label and diagram-specific corrections from regressing.
+const requiredBilingualLabels = {
+  "ecology-web.svg": ["Shows the main", "interaction types, not", "a complete species list"],
+  "botany-anatomy.svg": ["Palisade mesophyll", "Spongy mesophyll"],
+  "botany-transport.svg": ["Flower and growing organs"],
+  "botany-flower.svg": ["Fertilization occurs later,", "after the pollen tube grows."],
+  "flora-batken-aygul.svg": ["Drooping bell-shaped flowers", "Lance-shaped leaves", "Upright stem"],
+  "fauna-issyk-habitats.svg": ["Иссык-Кульская область", "01 · БОЛОТНЫЙ БЕРЕГ", "02 · ВОДЫ ОЗЕРА", "03 · ВЫСОКОГОРЬЕ"],
+  "fauna-jalalabad-western-tien-shan.svg": ["Западный Тянь-Шань", "01 · САРЫ-ЧЕЛЕК", "02 · БЕШ-АРАЛ", "03 · СУБАЛЬПИЙСКИЙ ЛУГ"],
+  "anatomy-circulation.svg": ["Pulmonary veins", "Systemic arteries", "systemic veins"]
+};
+for (const [name, labels] of Object.entries(requiredBilingualLabels)) {
+  const file = path.join(generatedDir, name);
+  if (!fs.existsSync(file)) {
+    errors.push("images/generated/" + name + ": required bilingual visual asset is missing");
+    continue;
+  }
+  const source = fs.readFileSync(file, "utf8");
+  for (const label of labels) {
+    if (!source.includes(label)) errors.push("images/generated/" + name + ": missing required correction label: " + label);
+  }
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
