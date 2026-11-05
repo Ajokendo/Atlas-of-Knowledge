@@ -14,11 +14,11 @@
 <text class="h" x="55" y="151">Земля: 4,54 млрд лет — настоящее время / Earth: 4.54 billion years — present</text>
 <text class="small" x="55" y="177">Основная шкала пропорциональна времени; ранние события отмечены приблизительно.</text>
 <text class="small" x="55" y="197">The main scale is proportional to time; early milestones are approximate.</text>
-<rect class="band1" x="90" y="220" width="121" height="46" rx="5"/><rect class="band2" x="211" y="220" width="335" height="46"/><rect class="band3" x="546" y="220" width="479" height="46"/><rect class="band4" x="1025" y="220" width="85" height="46" rx="5"/>
-<g class="label" text-anchor="middle"><text x="150" y="248">Гадей / Hadean</text><text x="378" y="248">Архей / Archean</text><text x="785" y="248">Протерозой / Proterozoic</text><text x="1067" y="248" style="font-size:13px">Фанерозой</text></g>
+<rect class="band1" x="90" y="220" width="121" height="46" rx="5"/><rect class="band2" x="211" y="220" width="337" height="46"/><rect class="band3" x="548" y="220" width="441" height="46"/><rect class="band4" x="989" y="220" width="121" height="46" rx="5"/>
+<g class="label" text-anchor="middle"><text x="150" y="248">Гадей / Hadean</text><text x="380" y="248">Архей / Archean</text><text x="768" y="248">Протерозой / Proterozoic</text><text x="1050" y="248" style="font-size:13px">Фанерозой / Phanerozoic</text></g>
 <path class="axis" d="M90 286 H1110"/>
-<g class="tick"><path d="M90 278 V296 M211 278 V296 M546 278 V296 M1025 278 V296 M1110 278 V296"/></g>
-<g class="small" text-anchor="middle"><text x="90" y="316">4,54 млрд / Ga</text><text x="211" y="316">4,0 млрд / Ga</text><text x="546" y="316">2,5 млрд / Ga</text><text x="1025" y="316">539 млн / Ma</text><text x="1110" y="316">0 · сейчас / now</text></g>
+<g class="tick"><path d="M90 278 V296 M211 278 V296 M548 278 V296 M989 278 V296 M1110 278 V296"/></g>
+<g class="small" text-anchor="middle"><text x="90" y="316">4,54 млрд / Ga</text><text x="211" y="316">4,0 млрд / Ga</text><text x="548" y="316">2,5 млрд / Ga</text><text x="989" y="316">539 млн / Ma</text><text x="1110" y="316">0 · сейчас / now</text></g>
 <g>
 <circle class="event" cx="90" cy="286" r="8"/><circle class="event" cx="258" cy="286" r="8"/><circle class="event" cx="570" cy="286" r="8"/><circle class="event" cx="705" cy="286" r="8"/>
 <rect class="card" x="55" y="333" width="255" height="82" rx="10"/>
