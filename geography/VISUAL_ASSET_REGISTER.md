@@ -125,3 +125,28 @@ The earlier “Chapters 06–26 integration scan” above is a historical snapsh
 Chapter 20.6.7 additionally embeds one supplementary CC BY 4.0 research figure showing the 2019 glacial-lake distribution in the Kyrgyz and Teskey ranges. It is not counted as one of the 20-A–20-K planned assets. Chapter 12-A's SVG embeds a remote Wikimedia relief map; this is a dependency, not a fully self-contained local map image.
 
 **Important:** the repository-wide headline of 231 unique IDs and chapter-row sum of 283 remain unreconciled. The table above is a scoped count for Chapters 11–20 only and does not resolve the repository-wide inventory. The full source, rights, scientific, accessibility and technical status is in IMAGE_SOURCES.md and IMAGE_AUDIT.md.
+
+
+## Superseding visual-integration update — Chapters 11–20 — 5 November 2026
+
+The 28/97 integration table recorded earlier in this register is a historical snapshot. After the fourth tranche, the current scoped status is:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 4 | 3 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 3 | 8 |
+| 14 | 9 | 3 | 6 |
+| 15 | 11 | 3 | 8 |
+| 16 | 9 | 3 | 6 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 5 | 6 |
+| **Total** | **97** | **34** | **63** |
+
+Six additional original bilingual SVGs are now integrated: 11-E, 12-D, 13-D, 14-C, 15-C and 16-C. The 11–16 first tranche therefore contains 18 integrated assets; Chapters 18–20 contain eight new assets in the November tranches, while existing SVGs 18-J, 19-H, 20-I and 20-K were also re-audited. Chapter 20.6.7 retains one supplementary CC BY 4.0 research figure outside the 20-A–20-K planned-ID count.
+
+All six new chapter embeds and their matching SVG files were re-fetched from workspace/geography; each embed has non-empty bilingual alt text and each relative asset path resolves to an existing file. Static SVG source checks passed. These checks do not certify live rendering, mobile layout, keyboard/screen-reader behaviour, scientific sign-off or project redistribution rights.
+
+The repository-wide 231-versus-283 inventory discrepancy remains unresolved. The 34/97 count is scoped only to Chapters 11–20 and must not be extrapolated to the whole repository.
