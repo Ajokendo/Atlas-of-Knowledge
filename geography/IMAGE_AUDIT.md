@@ -829,7 +829,7 @@ All six SVG files were re-fetched from the working branch and passed the followi
 
 ### Coverage and remaining gaps
 
-- Chapters 11–16: 11 of 57 registered visual IDs now have an integrated asset in this tranche; the remaining IDs are still production gaps and must not be counted as complete.
+- Chapters 11–16: 12 of 57 registered visual IDs now have an integrated asset in this tranche; the remaining IDs are still production gaps and must not be counted as complete.
 - Chapter 12-A uses an external image dependency inside its SVG; offline availability and remote loading must be tested before release.
 - No asset in this tranche is marked VERIFIED. The five original SVGs require an explicit project rights/licence decision; all six require scientific/editorial review, and browser/accessibility QA remains outstanding.
 
@@ -906,3 +906,8 @@ All seven new SVGs were re-fetched from the working branch and passed source-lev
 | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
 |---|---|---|---|---|---|---|
 | INTEGRATED | PENDING — review multimodal sequence and examples | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Schematic chain includes producer, consolidation, rail, port, ship, warehouse and market, with road and air alternatives. It contains no invented route distances or travel times. |
+
+
+### Chapter 11-C — technical source check
+
+The SVG was re-fetched from the working branch and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element, and Cyrillic and Latin text. Live browser rendering, legibility and assistive-technology output remain untested.
