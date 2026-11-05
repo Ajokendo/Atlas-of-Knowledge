@@ -60,7 +60,7 @@
 
 ## Supplemental Aygul generated plate — morphology source cross-check — 5 November 2026
 
-Asset: `images/generated/flora-batken-aygul-botanical-plate.webp`; separate Category C teaching illustration at `chapters/flora-kyrgyzstan.html#aygul-generated-plate`. This review is limited to the generated supplementary plate; it does not replace the primary SVG review above.
+A separate Category C AI-generated teaching plate is integrated at `chapters/flora-kyrgyzstan.html#aygul-generated-plate`. This review is limited to the supplementary plate; it does not replace the primary SVG review above.
 
 ### Reference comparison
 
