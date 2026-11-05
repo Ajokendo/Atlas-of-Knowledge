@@ -192,9 +192,10 @@ Chapter 01 has 10 Markdown image embeds representing five unique local bilingual
 - NASA image-use guidance: https://www.nasa.gov/nasa-brand-center/images-and-media/.
 - NOAA education/reuse guidance: https://www.noaa.gov/office-education/outreach-communication/faq.
 
-### Original local SVGs — Chapter 02
-- The 11 local Chapter 02 SVGs are original Atlas of Knowledge educational schematics, committed under `geography/assets/diagrams/`. Each has a bilingual caption/alt text and SVG `title`, `desc` and `role="img"` metadata. They are conceptual teaching aids, not third-party source reproductions or quantitative datasets.
-- **Rights/licence: PENDING project-owner authority confirmation.** The files are present in the project repository and their original schematic content is documented, but repository presence and AI-assisted drafting do not establish that the project owner or an authorised organisation holds all rights necessary to issue a public licence. No individual human SVG author is asserted. Do not attach CC BY-NC 4.0 metadata or mark these 11 items rights-approved until the owner confirms authority to license the human-authored/project-controlled contributions and selects the attribution identity.
+### Original local SVGs — Chapter 02 (11 assets)
+- The 11 local Chapter 02 SVGs are original Atlas of Knowledge educational schematics, committed under `geography/assets/diagrams/`. Each has bilingual visible labels, caption/alt text, and SVG `title`, `desc` and `role="img"` metadata. They are conceptual teaching aids, not third-party source reproductions or quantitative datasets.
+- **Rights-record status: CLOSED — NO PUBLIC LICENCE ASSERTED; REUSE NOT CLEARED.** The project record does not establish the identity of the rights holder or authority to license these 11 individual diagrams. Repository presence and AI-assisted drafting do not establish those rights. No individual human SVG author or project ownership is asserted by this notice. Each SVG now carries embedded rights-status metadata stating that no public reuse licence is asserted, that ownership/licensing authority has not been confirmed, and that reuse, redistribution, adaptation or application of a Creative Commons licence requires permission from the verified rights holder, except where permitted by applicable law.
+- **Do not mark these assets CC BY-NC 4.0.** The owner's earlier CC BY-NC 4.0 confirmation applies specifically to Chapter 01 visuals 01-A, 01-B, 01-C and 01-E; it has not been extended to Chapter 02. The Chapter 02 entries are administratively closed with a conservative no-licence position, not cleared for public reuse.
 
 ### Integration limits
 - External images are linked from their source hosts; no local binary copy is claimed.
