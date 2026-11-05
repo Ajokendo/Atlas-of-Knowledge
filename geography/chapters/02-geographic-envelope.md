@@ -296,7 +296,7 @@
 
 В горах с высотой могут последовательно сменяться предгорные степи, леса, субальпийские и альпийские луга, горная тундра и нивальный пояс снегов и ледников. Конкретная последовательность зависит от широты, экспозиции склонов, влажности и местного климата.
 
-**Иллюстрация 2.9-A — Широтная зональность и высотная поясность / Latitudinal and Altitudinal Zonation.**
+**Иллюстрация 2.9-A — Распределение биомов мира и высотная поясность гор / Global Biome Distribution and Mountain Altitudinal Belts.**
 
 ![Карта распределения наземных биомов мира по классификации RESOLVE 2017; цвета и легенда показывают 14 типов биомов и область скал и льда / Global terrestrial biome map using the RESOLVE 2017 classification; colours and legend show 14 biome types and rock and ice](https://atlasofmaps.com/maps/thematic/biomes-map/biomes-map.png)
 
@@ -848,7 +848,7 @@ Major latitudinal natural zones include humid equatorial forests, savannas, trop
 
 In mountains, foothill steppes may give way to forests, subalpine and alpine meadows, mountain tundra and the nival zone of permanent snow and glaciers. The sequence depends on latitude, slope aspect, moisture and local climate.
 
-**Illustration 2.9-A — Latitudinal and Altitudinal Zonation.**
+**Illustration 2.9-A — Global Biome Distribution and Mountain Altitudinal Belts.**
 
 ![Карта распределения наземных биомов мира по классификации RESOLVE 2017; цвета и легенда показывают 14 типов биомов и область скал и льда / Global terrestrial biome map using the RESOLVE 2017 classification; colours and legend show 14 biome types and rock and ice](https://atlasofmaps.com/maps/thematic/biomes-map/biomes-map.png)
 
