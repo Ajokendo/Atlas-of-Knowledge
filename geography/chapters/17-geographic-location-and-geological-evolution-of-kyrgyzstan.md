@@ -173,7 +173,15 @@ The terms Northern, Central and Southern Tien Shan are used in physical geograph
 
 ## 17.5. Межгорные впадины, долины и плато / Intermontane Basins, Valleys and Plateaus
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-D / IMAGE PLACEHOLDER 17-D]** Карта и профиль главных межгорных впадин и долин Кыргызстана с корректным положением Чуйской, Таласской, Иссык-Кульской, Нарынской, Суусамырской, Ферганской и Алайской долин.
+![Топографический контекст межгорных долин Кыргызстана; названия долин и опорные населённые пункты приведены в двуязычной легенде. / Topographic context of Kyrgyzstan's intermontane valleys; valley names and reference settlements are listed in the bilingual key.](https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg)
+
+![Условный поперечный профиль межгорной долины: склоны, боковая долина, конус выноса, террасы, пойма и русло. / Schematic transverse profile of an intermontane valley: slopes, tributary valley, alluvial fan, terraces, floodplain and channel.](../assets/diagrams/17-D-intermontane-valleys-profile-bilingual.svg)
+
+*17-D. Карта рельефа Blue Green Atlas используется как географический фон; долины не обведены условными полигонами. Опорные ориентиры для чтения: Чуйская долина — Бишкек/Кара-Балта; Таласская — Талас; Иссык-Кульская котловина — Чолпон-Ата/Каракол; Суусамырская — Суусамыр; Нарынская — Нарын; Ферганская — Ош и Джалал-Абад как ориентиры южной части долины; Алайская — Сары-Таш. Опорный населённый пункт не означает границу долины. / Blue Green Atlas relief map is used as geographic context; no invented valley polygons are drawn. Reference anchors: Chuy Valley — Bishkek/Kara-Balta; Talas Valley — Talas; Issyk-Kul Basin — Cholpon-Ata/Karakol; Suusamyr Valley — Suusamyr; Naryn Valley — Naryn; Fergana Valley — Osh and Jalal-Abad as reference points for its southern part; Alay Valley — Sary-Tash. A reference settlement does not define the valley boundary.*
+
+*Нижняя схема — авторская концептуальная поперечная модель, не в масштабе и не по измеренному профилю конкретной долины. Реальные долины различаются по высоте, ширине, осадконакоплению, ледниковому и речному воздействию. / Lower figure is an original conceptual transverse model, not to scale and not based on a measured profile of a specific valley. Actual valleys differ in elevation, width, sedimentation, glacial and fluvial processes.*
+
+*Источники / Sources: [Blue Green Atlas — Kyrgyzstan relief map](https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.html), CC BY 4.0; [Kyrgyz Alpine Club — orographic maps of Kyrgyzstan](https://kac.centralasia.kg/maps/orographic-maps/); [Kyrgyzstan Geoportal — geology overview](https://geoportal-kg.org/about-geology/). / Карта рельефа используется с указанием источника; поперечная схема создана для Atlas of Knowledge.*
 > **EN:** Map and profile of Kyrgyzstan’s main intermontane basins and valleys, with verified locations and labels.
 
 

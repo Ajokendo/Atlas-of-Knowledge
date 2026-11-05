@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 900" role="img" aria-labelledby="title desc">
+<title id="title">Межгорная долина: поперечный профиль / Intermontane valley: transverse profile</title>
+<desc id="desc">Условный поперечный разрез горной долины с хребтами, склонами, боковой долиной, конусом выноса, речными террасами, поймой, руслом и аллювиальной равниной. Схема не в масштабе и не представляет конкретную долину Кыргызстана.</desc>
+<style>
+text{font-family:Arial,sans-serif;fill:#243447}
+.h{font-size:34px;font-weight:700}
+.sub{font-size:21px}
+.lab{font-size:22px;font-weight:700}
+.sm{font-size:18px}
+.tiny{font-size:16px}
+.line{stroke:#34495e;stroke-width:3;fill:none}
+.dash{stroke:#34495e;stroke-width:2;stroke-dasharray:8 7;fill:none}
+</style>
+<rect width="1500" height="900" fill="#fbfcfe"/>
+<text x="55" y="58" class="h">Типичный поперечный профиль межгорной долины / Typical transverse profile of an intermontane valley</text>
+<text x="55" y="95" class="sub">Концептуальная схема, не в масштабе и не по измеренному профилю / Conceptual diagram, not to scale and not based on a measured transect</text>
+<rect x="55" y="135" width="1390" height="575" rx="18" fill="#eef3f5" stroke="#9aabb8" stroke-width="2"/>
+<!-- valley relief silhouette -->
+<path d="M80 605 L125 560 L175 500 L225 420 L280 350 L335 290 L380 250 L420 275 L465 355 L515 430 L565 485 L615 520 L660 540 L710 555 L770 560 L830 555 L890 535 L940 505 L985 465 L1030 415 L1080 345 L1135 285 L1190 250 L1235 270 L1280 345 L1330 435 L1385 520 L1420 585 L1420 690 L80 690 Z" fill="#d7e4d0" stroke="#536d5d" stroke-width="4"/>
+<!-- snow/ice on ridges -->
+<path d="M330 295 L380 250 L420 275 L405 292 L382 276 L360 300 Z M1130 292 L1190 250 L1235 270 L1210 291 L1188 275 L1165 300 Z" fill="#ffffff" stroke="#9eb4c6" stroke-width="2"/>
+<!-- tributary and alluvial fans -->
+<path d="M475 430 L540 525 L590 545" stroke="#5d9db8" stroke-width="10" fill="none"/>
+<path d="M500 480 L565 545 L640 560 L585 590 Z" fill="#e6d7b7" stroke="#a98d60" stroke-width="2"/>
+<path d="M1015 435 L960 525 L910 545" stroke="#5d9db8" stroke-width="9" fill="none"/>
+<path d="M1000 475 L940 545 L865 560 L925 590 Z" fill="#e6d7b7" stroke="#a98d60" stroke-width="2"/>
+<!-- terraces and floodplain -->
+<path d="M605 575 L675 575 L675 595 L730 595 L730 610 L845 610 L845 595 L900 595 L900 575 L965 575" fill="none" stroke="#a98d60" stroke-width="5"/>
+<path d="M650 622 Q760 612 865 622 L865 690 L650 690 Z" fill="#e9d7a8" opacity=".9"/>
+<!-- river -->
+<path d="M620 640 Q700 625 760 642 T900 638" stroke="#4c9fc6" stroke-width="18" fill="none" stroke-linecap="round"/>
+<path d="M620 640 Q700 625 760 642 T900 638" stroke="#d9f1fa" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- vegetation hints -->
+<g fill="#719b72" stroke="#4d7555" stroke-width="2">
+<path d="M155 530 l-14 25 h28z M205 470 l-14 25 h28z M275 390 l-14 25 h28z M1290 415 l-14 25 h28z M1345 500 l-14 25 h28z"/>
+</g>
+<!-- labels and leaders -->
+<text x="110" y="185" class="lab">Горный хребет / Mountain ridge</text>
+<path d="M300 195 L380 250" class="line"/>
+<text x="475" y="180" class="lab">Склон / Slope</text>
+<path d="M535 195 L555 470" class="line"/>
+<text x="75" y="670" class="lab">Коренные породы / Bedrock</text>
+<text x="510" y="320" class="lab">Боковая долина / Tributary valley</text>
+<path d="M650 330 L520 440" class="line"/>
+<text x="80" y="745" class="sm">Конус выноса / Alluvial fan</text>
+<path d="M330 735 L550 570" class="line"/>
+<text x="530" y="770" class="sm">Надпойменная терраса / River terrace</text>
+<path d="M760 745 L690 592" class="line"/>
+<text x="930" y="770" class="sm">Пойма и русло / Floodplain and channel</text>
+<path d="M1050 745 L830 640" class="line"/>
+<text x="1090" y="190" class="lab">Ледниково-снежная зона / Nival-glacial zone</text>
+<path d="M1250 205 L1200 260" class="line"/>
+<text x="1060" y="330" class="sm">Склоновые отложения / Slope deposits</text>
+<path d="M1135 345 L1040 455" class="line"/>
+<text x="740" y="560" class="sm">Аллювиальная равнина / Alluvial plain</text>
+<path d="M820 570 L820 612" class="line"/>
+<text x="55" y="835" class="sub">Долины Кыргызстана различаются по высоте, ширине, климату и истории развития; схема показывает общие формы, а не универсальный шаблон. / Kyrgyz valleys differ in elevation, width, climate and development; this diagram shows general forms, not a universal template.</text>
+</svg>

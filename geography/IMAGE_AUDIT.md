@@ -48,7 +48,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 14 | 9 | 8 | 1 | 14-A, 14-B, 14-C, 14-D, 14-E, 14-F, 14-H and 14-I embedded; 14-G remains open. |
 | 15 | 11 | 11 | 0 | Eleven local SVG assets embedded. |
 | 16 | 9 | 9 | 0 | Nine local SVG assets embedded. |
-| 17 | 9 | 7 | 2 | 17-A, 17-B, 17-C, 17-E, 17-F, 17-G and 17-I integrated; 17-D (valleys/profile) and 17-H (geology/mineral districts) remain open. 17-A is a provisional locator; OCHA source release date and legal-border validation remain pending. |
+| 17 | 9 | 8 | 1 | 17-A, 17-B, 17-C, 17-D, 17-E, 17-F, 17-G and 17-I integrated; 17-H (geology/mineral districts) remains open. 17-A is a provisional locator; OCHA source release date and legal-border validation remain pending. 17-D's valley anchors are not boundary polygons; spatial verification remains pending. |
 | 18 | 10 | 5 | 5 | 18-B, 18-C (three-photo set), 18-D, 18-H and 18-J embedded. Supplementary Blue Green Atlas relief image does not close 18-A. |
 | 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
@@ -56,9 +56,9 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | **Total named inventory** | **281** | **170** | **111** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 179/281 named IDs have an image embedded in the relevant chapter source (63.7%). This measures presence only.
-- **Image Verification:** 0/179 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 102 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 180/281 named IDs have an image embedded in the relevant chapter source (64.1%). This measures presence only.
+- **Image Verification:** 0/180 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 101 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -134,7 +134,7 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 17 | 17-A | INTEGRATED | PENDING | PASS — Blue Green Atlas CC BY 4.0; OCHA COD-AB CC BY-IGO; Natural Earth public domain; all credited | PASS — bilingual alt text, neighbour/landmark key and explicit boundary caveat | PENDING | PENDING — external JPEG and SVG dependencies; deployed load/responsive QA pending | Two-map locator: Blue Green Atlas relief map for regional context plus OCHA COD-AB / Ministry of Emergency Situations administrative outline with Natural Earth neighbours. OCHA release/version date is not exposed; the national-border line is explicitly not certified as legally current. |
 | 17 | 17-B | INTEGRATED | PENDING | PASS — Wikimedia Commons source page records public-domain dedication | PASS — bilingual alt text, physical-feature key and limitation note | PENDING | PENDING — external PNG dependency; browser/mobile responsive QA pending | SRTM-derived GMT topographic map (file uploaded 2007; exact raster date unknown), 0–4,000 m+ elevation scale. Bilingual key names principal Tien Shan/Pamir–Alay ranges and valleys without drawing invented boundaries. Scientific review of feature labels remains pending. |
 | 17 | 17-C | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual regionalisation comparison integrated; explicitly not a map or source of precise boundaries; creator/rightsholder and project licence pending. |
-| 17 | 17-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 17 | 17-D | INTEGRATED | PENDING | PASS — Blue Green Atlas CC BY 4.0 for map; project rights assignment for original profile pending | PASS — bilingual alt text, valley-anchor key and scale/outline caveats | PENDING | PASS — SVG source structure checked; external map load/responsive QA pending | Relief map plus original bilingual transverse valley profile. Seven named valleys are linked to reference settlements only; no valley-boundary polygons or precise measured transects are asserted. Spatial anchor verification remains pending. |
 | 17 | 17-E | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual conceptual timeline integrated in RU/EN; global ICS boundaries are distinguished from local event dating; creator/rightsholder and project licence pending. |
 | 17 | 17-F | INTEGRATED | PASS | PASS — Poggi et al. (2024) CC BY 4.0; author/DOI attribution and licence link added | PASS — bilingual alt text and captions for both panels | PENDING | PENDING — external figure dependencies; browser/mobile responsive QA pending | Two research maps: earthquake epicentres from harmonised source catalogues (catalogue selection M≥2, ~300 km buffer, historical/instrumental records through 2020) and selected AFEAD/GEM active faults (World Bank download updated 2023-02-21, classes A–D). Regional selection, not exhaustive or live. |
 | 17 | 17-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual not-to-scale relief-process schematic integrated in RU/EN; endogenic and exogenic processes distinguished; creator/rightsholder and project licence pending. |

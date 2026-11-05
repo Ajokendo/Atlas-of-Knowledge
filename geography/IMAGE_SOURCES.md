@@ -965,3 +965,13 @@ All three are external image dependencies. The direct URLs were checked, but dep
 - **Attribution:** Blue Green Atlas (CC BY 4.0); OCHA / Ministry of Emergency Situations (CC BY-IGO); blankmapof.com map rendering; Natural Earth public domain.
 - **Caveat:** the page does not expose the underlying OCHA release/version date. The administrative map is therefore integrated as a provisional reference, not verified as the current legal international boundary and not suitable for delimitation. No disputed lines are shown.
 - **Status:** INTEGRATED; rights and bilingual metadata PASS; source-date/legal boundary review and deployed external-image/accessibility QA PENDING. Not VERIFIED.
+
+
+### Chapter 17-D — intermontane valleys and a typical valley profile — 5 November 2026
+
+- **Relief map:** Blue Green Atlas, https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.html; direct image https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg; CC BY 4.0. Used as regional topographic context, not as a source of valley-boundary polygons.
+- **Original vector:** `geography/assets/diagrams/17-D-intermontane-valleys-profile-bilingual.svg`; bilingual conceptual transverse section of an intermontane valley showing mountain slopes, tributary valley, alluvial fan, river terraces, floodplain, channel and alluvial plain.
+- **Valley key:** Chuy (Bishkek/Kara-Balta), Talas (Talas), Issyk-Kul Basin (Cholpon-Ata/Karakol), Suusamyr (Suusamyr), Naryn (Naryn), Fergana (Osh/Jalal-Abad as reference points for its southern part), Alay (Sary-Tash). Reference settlements are locators only; they do not define valley extents.
+- **Supporting context:** Kyrgyz Alpine Club orographic map overview (https://kac.centralasia.kg/maps/orographic-maps/) and Kyrgyzstan Geoportal geology overview (https://geoportal-kg.org/about-geology/).
+- **Caveats:** The profile is conceptual, not to scale and not a measured transect. No arbitrary valley polygons are drawn. Exact geospatial verification of the seven reference anchors remains PENDING.
+- **Status:** INTEGRATED; external map rights PASS; original vector creator/licence assignment PENDING; bilingual alt/caption PASS; source-level SVG check PASS; deployed rendering/accessibility and spatial-anchor review PENDING. Not VERIFIED.
