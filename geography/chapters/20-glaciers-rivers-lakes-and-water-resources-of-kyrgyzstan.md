@@ -536,6 +536,20 @@ To compare two hypothetical operating regimes, prepare a table using four criter
 
 Оценка качества воды должна проводиться по репрезентативной сети пунктов и в разные сезоны. Разовый анализ не характеризует весь водный объект.
 
+
+Water quality is assessed using physical, chemical and biological indicators. Common monitoring parameters include:
+- temperature, turbidity, electrical conductivity and mineralisation;
+- pH and dissolved oxygen;
+- nutrients, including nitrogen and phosphorus compounds;
+- organic matter and microbiological indicators; and
+- heavy metals and specific pollutants in areas affected by industry.
+
+Sources of pollution may include inadequately treated municipal wastewater, agricultural runoff, livestock operations, mining enterprises, tailings storage facilities, dumps and transport infrastructure.
+
+In mountain catchments, monitoring tailings storage facilities and mining sites is especially important. Risk depends not only on the presence of a pollutant but also on its concentration, mobility, pathways of migration and the possibility that it will reach water intakes.
+
+Water quality should be assessed using a representative network of sampling sites and observations in different seasons. A single sample does not characterise an entire water body.
+
 ## 20.11. Ледниковые озёра, паводки и селевые риски / Glacial Lakes, Floods and Debris-Flow Hazards
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-F / IMAGE PLACEHOLDER 20-F]** Схема риска прорыва ледникового озера: тип плотины, возможный путь волны, зона затопления, населённые пункты и инфраструктура ниже по течению; не выдавать учебную модель за оперативную карту.
@@ -569,6 +583,20 @@ To compare two hypothetical operating regimes, prepare a table using four criter
 Ключевой риск заключается не только в возможном изменении годового объёма стока, но и в его сезонном перераспределении. Вода может поступать раньше, чем возникает максимальная потребность в орошении, а в конце лета и в засушливые годы доступность стока может снижаться.
 
 Влияние потепления неодинаково по бассейнам. Важны высота ледников, доля ледниковой площади в водосборе, сезонность осадков, площадь снежного покрова, геология и управление водохранилищами. Поэтому прогнозы должны строиться для отдельных бассейнов и представляться диапазонами неопределённости.
+
+
+Warming affects every part of the water cycle:
+1. it changes the proportion of precipitation falling as snow or rain;
+2. it shifts the timing of seasonal snowmelt;
+3. it changes glacier mass balance;
+4. it affects evaporation and soil moisture;
+5. it may alter the seasonal pattern of river discharge;
+6. it can promote the formation and reorganisation of proglacial lakes; and
+7. it increases uncertainty in water supply in some basins.
+
+The key risk is not only a possible change in annual runoff volume but also its seasonal redistribution. Water may arrive before peak irrigation demand, while late-summer availability and runoff during dry years may decline.
+
+The effects of warming differ among basins. Important factors include glacier elevation, the share of glacier area within a catchment, precipitation seasonality, snow-cover extent, geology and reservoir management. Projections should therefore be developed for individual basins and presented with ranges of uncertainty.
 
 ## 20.13. Водная безопасность и устойчивое управление / Water Security and Sustainable Management
 
