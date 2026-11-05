@@ -39,7 +39,9 @@ This chapter concludes the general geography section of the atlas. It brings tog
 
 ## 16.2. Пространственный масштаб и территориальные единицы / Spatial Scale and Areal Units
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-B / IMAGE PLACEHOLDER 16-B]** Сопоставление локального, регионального, национального и глобального уровней на согласованном примере; не задавать универсальные размеры масштабов.
+![Уровни географического анализа: местный, региональный, национальный и глобальный / Geographic levels of analysis: local, regional, national and global](../assets/diagrams/16-B-geographic-scales-bilingual.svg)
+
+*Уровень пространственного анализа не следует смешивать с масштабом карты. / Do not confuse analytical scale with map scale.*
 > **EN:** Compare local, regional, national and global scales using a consistent example; do not imply universal fixed size thresholds.
 
 
