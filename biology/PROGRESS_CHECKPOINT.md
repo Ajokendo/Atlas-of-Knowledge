@@ -1286,3 +1286,12 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - These are source/register consistency and habitat-accuracy corrections. They do **not** constitute independent specialist sign-off, final morphology approval or browser visual acceptance.
 - Latest observed workflow run `42015502001` predates these fixes (head `9920a15a870861b8a7be01067e1cfbcc1bf89815`) and failed on the two issues subsequently corrected. No workflow result for the later commits is yet available; CI/browser validation remains pending.
 - Overall editorial readiness remains **99/100**; no percentage increase is claimed.
+
+### Full Biology Chromium workflow pass and mammal morphology refinement — 5 November 2026
+
+- Full workflow `42015846138` completed successfully on head `f51aaa27e3f471ef3bf8367dc443e7b98e45ba69`: static validation, Chromium installation, local server, every Biology page at mobile and desktop viewports, axe WCAG audits in both languages, keyboard/contrast checks, image decoding and rendered SVG geometry checks, plus screenshot artifact upload. Artifact: `biology-visual-review` (7-day retention). This is automated QA, not human visual sign-off or external specialist verification.
+- Began a source-level morphology review of the integrated mammal reconstruction against the IUCN Cat Specialist Group snow-leopard description and Mammalian Species accounts for argali and Siberian ibex. Added pale centres to selected snow-leopard rosettes and transverse ridges to the ibex horns; recorded that the argali horn spirals remain stylised. No subspecies or precise locality claims added.
+- Updated the P1 scientific review, disposition register and legacy candidate audit to distinguish the integrated SVG from the unintegrated WebP candidate and to reflect the successful Chromium smoke-test run.
+- Commits: SVG `78dfe9fe39fa72c7b766c596284a979a5a1499d6`; scientific review `570e0461b94bd7a249cb27d35083b1966144804c`; disposition `9c578b193d299eaad30d230d9fa98662737287cc`; audit `fcbeeecb320e4e8e771604ced10789a726e04cbc`.
+- Because the SVG was refined after workflow `42015846138`, a new CI run is required before claiming the updated mammal image passed browser checks. Independent mammal-specialist review and human visual acceptance remain pending.
+- Overall editorial readiness remains **99/100**; no percentage increase is claimed.
