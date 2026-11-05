@@ -4,7 +4,7 @@
 **Scope:** `geography/` only  
 **Audit date:** 5 November 2026  
 **Policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md), canonical source is now in `main` (commit `bd3deb97`).  
-**State:** Initial baseline; per-asset review is in progress, not complete.
+**State:** Rolling audit; inventory and chapter-source presence counts reconciled on 5 November 2026. Per-asset review is in progress, not complete.
 
 ## 1. Purpose and interpretation
 
@@ -38,7 +38,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 04 | 16 | 16 | 0 | Sixteen local bilingual SVGs embedded; source records identify remaining creator/licence and technical review work. |
 | 05 | 18 named + 2 unresolved legacy slots | 17 | 1 named + 2 unresolved | Seventeen named assets are embedded; 18 named IDs are enumerated. Two old inventory positions remain unidentifiable and are not counted as assets until recovered. |
 | 06 | 15 | 5 | 10 | 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A integrated; 6-B has a licensed candidate dataset but no finished map. |
-| 07 | 9 | 1 | 8 | Production briefs/placeholders only; no actual image embeds or matching asset files confirmed. |
+| 07 | 9 | 1 | 8 | 07-D is integrated; the other eight visual needs remain open. |
 | 08 | 7 | 0 | 7 | Production briefs/placeholders only; no actual image embeds or matching asset files confirmed. |
 | 09 | 7 | 0 | 7 | All seven visual needs remain placeholders, including 09-G. |
 | 10 | 7 | 0 | 7 | All seven visual needs remain placeholders. |
@@ -350,7 +350,7 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 09 | 09-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 09 | 09-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter source line 28 identifies a placeholder for demographic data sources and indicator types; no finished asset or source record is evidenced. |
 
-## 7. Metrics — baseline only
+## 7. Current metrics — 5 November 2026
 
 - **Image Coverage:** 147/281 named IDs have an image embedded in the relevant chapter source; two historical Chapter 05 positions remain unresolved and are excluded from the denominator.
 - **Image Verification:** 0/147 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
