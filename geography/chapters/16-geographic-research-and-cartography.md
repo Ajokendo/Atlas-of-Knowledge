@@ -971,8 +971,8 @@ This is a learning example, not a complete assessment of healthcare access. The 
 9. International Organization for Standardization (ISO). **ISO/TC 211 Geographic information/Geomatics catalogue** — includes ISO 19115 metadata standards and current status. https://www.iso.org/committee/54904/x/catalogue/
 10. Open Geospatial Consortium (OGC). **Standards and Best Practices** — standards for geospatial data exchange and presentation. https://www.ogc.org/standards/
 11. International Cartographic Association (ICA), Commission on Map Projections. (12 January 2026). **Choosing World Map Projections: When Equal-Area Is Appropriate (and Why There Is No Single “Correct” Projection).** https://icaci.org/files/documents/factsheets/world_map_projections_2026-02-13.pdf
-12. U.S. Geological Survey. **How are different map projections used?** Official explanation of projection purpose and distortion trade-offs. https://www.usgs.gov/faqs/how-are-different-map-projections-used
-13. United Nations Statistics Division. (2025). **Principles and Recommendations for Population and Housing Censuses, Revision 4.** Adopted by the Statistical Commission at its 56th session in 2025; the current English text is marked unedited/not typeset. https://unstats.un.org/unsd/demographic-social/census/
+12. U.S. Geological Survey. (1993). **Map Projections.** General Information Product; USGS Publications Warehouse, DOI 10.3133/70047422. Explains the properties, distortions and uses of major projection families. https://www.usgs.gov/publications/map-projections
+13. United Nations Statistics Division. (2025). **Principles and Recommendations for Population and Housing Censuses, Revision 4.** Adopted by the Statistical Commission at its 56th session in 2025; the current English text is marked unedited/not typeset. https://unstats.un.org/unsd/demographic/sources/census/wphc/default.htm
 
 ---
 **Конец главы 16 / End of Chapter 16**
