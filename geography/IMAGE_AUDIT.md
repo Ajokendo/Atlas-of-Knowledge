@@ -1256,3 +1256,10 @@ The images were visually inspected from their Commons file pages. The source fil
 | 17-F | MISSING — no map generated or embedded | PENDING — candidate catalogue and fault data found; national clipping boundary, period, magnitude threshold and completeness must be checked | PASS for candidate source terms — World Bank earthquake catalogue and active-fault dataset pages state CC BY 4.0; derived map attribution still to be authored | PENDING | PENDING | PENDING | Candidate sources: HECCA earthquake catalogue and Central Asia Seismic Fault Database, both covering five countries plus 300 km buffer. Do not present selected faults as a complete national inventory. Next: inspect data package metadata and verify the country boundary and chosen event filter before map production. |
 
 The 2024 NHESS paper is open access under CC BY 4.0 and documents the harmonisation methods, data limitations and selected fault compilation. It does not remove the need to check the actual dataset fields, CRS, catalogue completeness and Kyrgyzstan clipping boundary. Visual 17-F remains MISSING until a map is generated and integrated.
+
+
+### Chapter 17 — supplementary Figure 1 from Poggi et al. (2024)
+
+| Figure | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| Regional seismicity context | INTEGRATED — remote research figure | PASS WITH SCOPE NOTE — five-country Central Asia region plus 300 km buffer; source-catalogue colours, not magnitude; input-source distribution, not final HECCA | PASS — article page states CC BY 4.0; author/article/DOI credit included | PASS — bilingual alt text and caption | PENDING — alt text present; manual assistive review pending | PENDING — external image loading and responsive behaviour untested | Supplementary context only; not a substitute for Kyrgyzstan-specific 17-F active-fault/seismicity map and not counted in planned visual coverage. |
