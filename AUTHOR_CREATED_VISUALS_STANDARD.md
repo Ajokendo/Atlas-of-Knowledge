@@ -174,7 +174,9 @@ A competent subject-matter reviewer must check:
 
 The reviewer must record concrete findings, not merely “looks correct”.
 
-**Independence:** the creator must not be the sole approver of their own visual. A second qualified reviewer must perform the scientific/factual review. If no suitable independent reviewer is available, record the review as PENDING and identify the required expertise. Any exceptional approval route must be explicitly authorised by the central project owner and documented; it must never be silently treated as an independent review.
+**Internal review:** the creator must not be the sole approver of their own visual. A second reviewer, distinct from the creator and competent in the relevant subject matter, must perform and document the scientific/factual review. This reviewer may be part of the Atlas of Knowledge team; an external appointment is not required for internal verification. If no suitably competent second reviewer is available, keep the scientific review PENDING and do not claim `INTERNALLY VERIFIED` or `VERIFIED`.
+
+**External review:** independent review by a qualified specialist who is not part of the asset's production/approval chain is an additional quality-assurance level. It is recommended for high-impact, technically complex, safety-relevant, or especially sensitive visuals, but it is not a universal prerequisite for internal verification or publication. Record the expert's identity/credentials, scope, date, findings, and outcome separately. External review must never be claimed unless it actually occurred.
 
 **Evidence:** review checklist or comments, reviewer identity/role, date, corrections, and outcome.
 
@@ -226,11 +228,11 @@ Confirm:
 - all six prior gates are PASS, or justified NOT APPLICABLE where genuinely relevant;
 - the final reviewer and approval date are recorded.
 
-Only after this gate may the visual be marked `VERIFIED`.
+Only after this gate may the visual be marked `VERIFIED` (the machine-readable lifecycle status for **internal verification**). External expert review is recorded separately and may support the additional designation `EXTERNALLY VERIFIED`; it is not a prerequisite for `VERIFIED`.
 
 ## 7. Statuses and review results
 
-Use the lifecycle statuses defined by `IMAGE_FIRST_POLICY.md`: `MISSING`, `FOUND`, `LICENSE_CHECK`, `SCIENTIFIC_CHECK`, `ADAPTED`, `INTEGRATED`, `VERIFIED`, and `REJECTED`.
+Use the lifecycle statuses defined by `IMAGE_FIRST_POLICY.md`: `MISSING`, `FOUND`, `LICENSE_CHECK`, `SCIENTIFIC_CHECK`, `ADAPTED`, `INTEGRATED`, `VERIFIED`, and `REJECTED`. In reporting, describe `VERIFIED` as **INTERNALLY VERIFIED**. Use **EXTERNALLY VERIFIED** only when a documented independent external specialist review has also passed; this is an additional assurance designation, not a replacement for the underlying lifecycle status.
 
 For Category C, also maintain separate check results in the audit:
 
@@ -246,9 +248,9 @@ For Category C, also maintain separate check results in the audit:
 
 Use `NOT APPLICABLE` only with a short reason. Do not use it to bypass a difficult check.
 
-A Category C visual may be `INTEGRATED` while checks remain open. It may not be `VERIFIED` unless every applicable check is PASS and evidence is recorded. A rights PASS does not prove scientific accuracy; scientific PASS does not establish licensing authority.
+A Category C visual may be `INTEGRATED` while checks remain open. It may not be `VERIFIED` / **INTERNALLY VERIFIED** unless every applicable internal gate is PASS and evidence is recorded, including a competent second reviewer distinct from the creator. External specialist review is an optional additional level: its absence does not block internal verification or publication. A visual may be designated **EXTERNALLY VERIFIED** only after that external review is documented as PASS. A rights PASS does not prove scientific accuracy; scientific PASS does not establish licensing authority.
 
-If a review finds a defect, correct the asset and repeat the affected checks. If provenance or rights cannot be established, do not publish it as an approved project-created asset; replace it, seek permission, or keep it rejected/pending.
+If a review finds a defect, correct the asset and repeat the affected checks. If provenance or rights cannot be established, do not publish it; replace it, seek permission, or keep it rejected/pending. External review is not a substitute for rights clearance or internal checks. An asset that has passed all internal gates may be published without waiting for external review. If internal scientific review is still PENDING, it must not be presented as verified; any exceptional preliminary/draft publication requires explicit central approval, clear provisional labelling, cleared rights, and documented risk assessment.
 
 ## 8. Asset families, language variants, and responsive versions
 
