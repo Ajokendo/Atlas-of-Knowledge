@@ -414,3 +414,63 @@ This section is the current status and supersedes earlier pending statements tha
 **Automated branch-head CI: PASS.**
 
 The internal visual/provenance remediation is complete for the feasible scope defined by the project. This result must not be represented as legal clearance, independent scientific certification, or manual assistive-technology certification.
+
+
+## AUTHOR-CREATED VISUALS STANDARD v1.0 — current seven-gate disposition
+**Audit date:** 2026-11-05  
+**Scope:** 12 static bilingual Category C visual families (24 SVG files), plus the seven interactive visual systems.  
+**Controlling documents:** `IMAGE_FIRST_POLICY.md`, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.0, and `VISUAL_IMPLEMENTATION_GUIDE.md`.
+
+This section is the current standard-aligned disposition and takes precedence over earlier checkpoint tables and statements that the 12 static topics remained wholly unclassified. The matching file-level provenance map is in `IMAGE_SOURCES.md`, section “Retrospective provenance and Category C mapping”.
+
+### Static visual families — seven gates
+
+| Gate | Result | Evidence and remaining condition |
+|---|---|---|
+| 1. Identity and provenance | **PENDING** | All 12 bilingual families are inventoried and classified C for project-created / AI-assisted production tracking. Replacement commits and earlier AI/work-history records are mapped in `IMAGE_SOURCES.md`. The human creative contribution, complete per-file production records and some original prompt/source records are incomplete; Git commit authorship is not treated as proof of creative authorship. |
+| 2. Rights and licence | **PENDING — 12/12** | No named legal rightsholder, authority-to-license record, or approved asset-level licence has been established for the 12 families. No Chemistry licence is inferred from the Physics CC BY-NC 4.0 decision. |
+| 3. Scientific, factual and pedagogical review | **PENDING — 12/12** | Earlier internal/AI-assisted first-pass checks and automated source checks are retained as preliminary evidence only. No independent qualified subject-matter reviewer has signed off these visuals. Under the new standard, lack of project resources does not convert this gate to PASS or NOT APPLICABLE. |
+| 4. Language and terminology | **PENDING — 12/12** | Separate RU/EN files, localized SVG titles/descriptions, captions and alt text are present. A documented manual bilingual terminology and rendered-label review for every family is not complete. |
+| 5. Accessibility and learner usability | **PENDING — 12/12** | Metadata and automated axe-core page scans provide partial evidence. Manual review of contrast, zoom/reflow, screen-reader output and device usability has not been recorded per family. |
+| 6. Technical integrity | **PENDING — 12/12 (full gate)** | Current SVG files were inspected for file presence, `viewBox`, title/description metadata and external asset references. The branch-head automated workflow passed on commit `113985acda1b23e2fc27b4ca446a8eede881ba9f` (run [41968413926](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968413926)); browser smoke and automated accessibility scans passed as recorded above. A per-asset rendered visual review and complete manual responsive/device check are not evidenced, so the full gate remains pending. |
+| 7. Integration and final approval | **PENDING — 12/12** | All 12 pairs are integrated and their public filenames/page references were retained. Final approval cannot pass while prior applicable gates remain pending; the source register and audit have now been reconciled to the same provenance map. |
+
+### Current Category C disposition
+
+| Measure | Current result |
+|---|---:|
+| Static visual families | 12 |
+| Static SVG files | 24 |
+| Category C production lineage recorded | 12 / 12 families |
+| Gate 1 fully passed | 0 / 12 |
+| Gate 2 rights/licence passed | 0 / 12 |
+| Gate 3 independent scientific review passed | 0 / 12 |
+| Gate 4 full language review passed | 0 / 12 |
+| Gate 5 full accessibility review passed | 0 / 12 |
+| Gate 6 full technical gate passed | 0 / 12 |
+| Gate 7 final approval passed | 0 / 12 |
+| Static visual families marked VERIFIED | **0 / 12** |
+
+**Image Coverage remains 12/12 (100%)** for the currently defined static visual plan. Coverage is not verification. The 12 families are Category C for production-lineage tracking, but none is VERIFIED.
+
+### Interactive visual systems — separate disposition
+
+The seven interactive systems (CH-IV01–CH-IV07) remain integrated local code implementations. Their current source pages and repository introduction commits are documented in `IMAGE_SOURCES.md`. The inspection found no third-party visualization-library imports or external image references, but the original human/AI authoring attribution and licensing authority for the code are not established.
+
+| Requirement | Result |
+|---|---|
+| Current implementation / integration inspected | PASS for the documented source inspection and automated workflow scope |
+| Original creator and complete provenance | PENDING |
+| Rights and licence authority | PENDING |
+| Independent scientific/factual review | PENDING where applicable |
+| Full manual accessibility/device review | PENDING |
+| Final VERIFIED status | Not assigned |
+
+### Corrective interpretation of earlier audit statements
+
+Earlier text described external scientific/legal review and manual assistive-technology testing as “out of scope and non-blocking”. That project-resource statement does **not** satisfy the mandatory gates in `AUTHOR_CREATED_VISUALS_STANDARD.md`. These checks remain PENDING unless they are completed or a specific exception is formally authorised by the central project owner and documented as the standard requires. No such exception is recorded in this audit.
+
+The historical checkpoints above are retained for traceability. Where they conflict with this current seven-gate disposition, this section and the current provenance mapping in `IMAGE_SOURCES.md` control.
+
+**Final current result:** static coverage 12/12; Category C production lineage recorded for 12/12 families; all seven full verification gates remain PENDING; **0/12 static families VERIFIED**. No legal clearance, independent expert certification, or complete manual accessibility certification is claimed.
+
