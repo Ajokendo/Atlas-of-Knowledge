@@ -1,6 +1,6 @@
 # Chemistry Atlas — Image and visual audit
 
-**Canonical standard:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
+**Canonical standard:** [IMAGE-FIRST POLICY v1.2](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
 **Branch:** `workspace/chemistry`  
 **Audit date:** 2026-11-05  
 **Policy version:** IMAGE-FIRST POLICY v1.1  
@@ -474,3 +474,45 @@ The historical checkpoints above are retained for traceability. Where they confl
 
 **Final current result:** static coverage 12/12; Category C production lineage recorded for 12/12 families; all seven full verification gates remain PENDING; **0/12 static families VERIFIED**. No legal clearance, independent expert certification, or complete manual accessibility certification is claimed.
 
+
+
+## Governing-standard alignment and current pilot baseline — 5 November 2026
+
+This section supersedes earlier wording in this audit wherever it conflicts with `IMAGE_FIRST_POLICY.md` v1.2, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1 or `VISUAL_IMPLEMENTATION_GUIDE.md` v1.1.
+
+### Correct interpretation of scientific review
+
+The applicable internal review is performed by a competent subject-matter reviewer who is different from the visual's creator. The reviewer may be a qualified member of the Atlas project team; an external specialist is not mandatory for the internal `VERIFIED` status. External review is an additional designation only. Existing AI-assisted first-pass checks and author-side checks are preliminary evidence and do not substitute for this second-person review.
+
+### Current evidence-based baseline
+
+| Workstream | Current result | Meaning |
+|---|---:|---|
+| Static bilingual visual families | 12/12 integrated (100% coverage of the currently defined static plan) | Coverage only; not a verification score |
+| Static SVG files | 24 | 12 RU/EN pairs |
+| Category C production-lineage tracking | 12/12 families | Does not establish legal ownership or licensing authority |
+| Interactive visual systems | 7/7 integrated | Tracked separately from static SVG families |
+| Static families with all seven internal gates passed | 0/12 | No `VERIFIED` assignment is currently supported |
+| Rights/licence clearance | 0/12 static families fully cleared; 0/7 interactive systems fully cleared | Rightsholder/authority/licence evidence remains open |
+| Competent second-person scientific review | 0/12 documented as complete | Internal qualified reviewer sign-off is required; external review is optional |
+| External specialist verification | Not recorded | Absence does not itself block internal verification |
+
+### Seven-gate disposition — static families
+
+| Gate | Current disposition | Closure evidence required |
+|---|---|---|
+| 1. Identity and provenance | PENDING | Preserve complete per-file creation/source evidence and distinguish creator, contributor, submitting account and rightsholder. |
+| 2. Rights and licence | PENDING — 12/12 | Identify rightsholder and authority to license; record an approved asset-level licence or other documented rights basis. Unknown rights block public release. |
+| 3. Scientific/factual/pedagogical review | PENDING — 12/12 | Obtain a documented PASS from a competent reviewer other than the creator. The reviewer may be internal; external review is optional. |
+| 4. Language and terminology | PENDING — full manual pair review not evidenced | Record RU/EN semantic equivalence, labels, captions, alt text, terminology and scientific-name checks per family. |
+| 5. Accessibility and learner usability | PENDING — full manual review not evidenced | Record relevant contrast, zoom/reflow, keyboard and assistive-technology/learner usability checks. |
+| 6. Technical integrity | PENDING — full gate | Existing metadata/source checks and automated CI are partial evidence; record rendered per-asset review and applicable responsive/device checks. |
+| 7. Integration and final approval | PENDING | Final approver records decision only after all applicable internal gates pass and rights are cleared. |
+
+### Interactive systems — separate seven-gate track
+
+The seven systems CH-IV01–CH-IV07 remain integrated local code implementations. Their technical operation and automated workflow evidence must not be confused with code provenance, code rights, scientific review, accessible interaction review or final approval. Their creator/rightsholder and licensing-authority evidence remains PENDING; no `VERIFIED` status is assigned.
+
+### Status vocabulary and release rule
+
+`VERIFIED` means internally verified after all applicable gates pass, including competent second-person review. `EXTERNALLY VERIFIED` is a separate narrative designation and requires a documented positive independent external specialist review in addition to internal verification. Lack of external review is not itself a blocker. Unknown rights remain a blocker regardless of review status. Historical notes that described external review as universally mandatory or all manual checks as out of scope are superseded by this section and the current central standards.
