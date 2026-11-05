@@ -417,7 +417,7 @@
 Важно различать несколько связанных понятий:
 - **Сопротивляемость (resistance)** — насколько мало система изменяется во время воздействия.
 - **Восстановление (recovery)** — насколько и как быстро система возвращается к прежнему состоянию после нарушения.
-- **Экологическая устойчивость, или резильентность (resilience)**, — способность системы выдерживать нарушения, восстанавливаться или адаптироваться, не обязательно возвращаясь к прежнему состоянию. При сильном воздействии возможна реорганизация системы и переход к другому устойчивому состоянию.
+- **Устойчивость экосистем (resilience)**, — способность системы выдерживать нарушения, восстанавливаться или адаптироваться, не обязательно возвращаясь к прежнему состоянию. При сильном воздействии возможна реорганизация системы и переход к другому устойчивому состоянию.
 
 Биоразнообразие, круговорот веществ, восстановление растительности, взаимодействия видов и состояние почв и вод могут влиять на устойчивость. Однако ни один из этих факторов сам по себе не гарантирует восстановления: результат зависит от силы и длительности воздействия, исходного состояния системы и сочетания процессов.
 
@@ -886,7 +886,7 @@ The stability of a natural system concerns its ability to maintain important pro
 Several related concepts should be distinguished:
 - **Resistance** describes how little a system changes while a disturbance is occurring.
 - **Recovery** describes the extent and speed with which a system returns towards its previous condition after a disturbance.
-- **Ecological resilience** is the capacity to withstand disturbance, recover or adapt without necessarily returning to the former state. Under sufficiently strong pressure, a system may reorganise and shift into a different persistent state.
+- **Ecosystem resilience** is the capacity to withstand disturbance, recover or adapt without necessarily returning to the former state. Under sufficiently strong pressure, a system may reorganise and shift into a different persistent state.
 
 Biodiversity, nutrient cycling, vegetation recovery, species interactions, and soil and water conditions can all influence resilience. None guarantees recovery on its own: outcomes depend on the intensity and duration of the disturbance, the system's initial condition and the interaction of multiple processes.
 
