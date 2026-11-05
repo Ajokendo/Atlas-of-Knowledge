@@ -25,6 +25,20 @@ Regional geography studies major parts of the world as complex territorial syste
 
 Региональные границы могут быть чёткими, как государственная граница, или переходными, как границы природных и культурных областей. Одно и то же место может относиться к разным регионам в зависимости от исследовательской задачи.
 
+
+A **region** is an area identified by one or more characteristics and treated as a relatively coherent spatial system. A region may be physical-geographical, historical-cultural, socioeconomic, political or functional.
+
+Regionalisation is the process of defining territorial units for research, administration, statistics or planning. There is no single universal way to divide the world: regional boundaries depend on the purpose and criteria used.
+
+Major types of regions include:
+- **physical-geographical regions:** continents, natural zones, mountain systems and river basins;
+- **historical-cultural regions:** areas linked by shared historical processes, cultural contacts or language connections;
+- **socioeconomic regions:** areas with similar economic structures, levels of development or economic relationships;
+- **political-geographical regions:** states, integration groupings and geopolitical spaces; and
+- **functional regions:** areas connected by flows of people, goods, services, information or daily travel.
+
+Regional boundaries may be clear, as with a state border, or transitional, as with natural and cultural regions. The same place may belong to different regions depending on the research question.
+
 ## 12.2. Принципы сравнительного регионального анализа / Principles of Comparative Regional Analysis
 
 Для сопоставления регионов используют общую систему вопросов:
@@ -40,6 +54,21 @@ Regional geography studies major parts of the world as complex territorial syste
 Сравнение должно опираться на сопоставимые показатели и одинаковые временные периоды. Различия в методах переписи, расчёта ВВП, определении городской территории и статистическом охвате могут создавать ложные контрасты.
 
 Регион нельзя сводить к одному стереотипному признаку. Внутренние различия между городами и сельскими районами, прибрежными и внутренними территориями, поколениями и социальными группами часто не меньше, чем различия между странами.
+
+
+Regions can be compared using a common set of questions:
+1. geographic location and neighbouring areas;
+2. natural conditions and resources;
+3. population, settlement and migration;
+4. historical processes and cultural diversity;
+5. political institutions and international relations;
+6. economic structure and infrastructure;
+7. environmental challenges and climate risks; and
+8. development prospects and uncertainties.
+
+Comparisons should use comparable indicators and the same reference periods. Differences in census methods, GDP calculations, definitions of urban areas and statistical coverage can create misleading contrasts.
+
+A region should not be reduced to a single stereotype. Differences within a region—between cities and rural areas, coastal and inland territories, generations and social groups—can be as large as differences between countries.
 
 ## 12.3. Африка / Africa
 
@@ -255,6 +284,13 @@ Analysis requires more than a map of political boundaries. A basin diagram shoul
 Для описания развития применяют несколько показателей: доход на душу населения, ИЧР, бедность, продолжительность жизни, образовательные результаты, производительность и доступ к базовым услугам. Каждый показатель отражает лишь часть реальности.
 
 Глобальная взаимозависимость проявляется через торговлю, инвестиции, миграцию, цифровые сети, туризм, распространение технологий, климатические процессы и международные институты. События в одном регионе могут иметь последствия для других через цепочки поставок, финансовые рынки, продовольственные цены и экологические системы.
+
+
+Regional differences appear in income, employment structure, demography, access to education and healthcare, infrastructure and environmental vulnerability. However, dividing the world into “developed” and “developing” areas should not become a rigid binary classification.
+
+Several indicators are used to describe development, including income per capita, the Human Development Index, poverty, life expectancy, educational outcomes, productivity and access to basic services. Each indicator captures only part of reality.
+
+Global interdependence operates through trade, investment, migration, transport and digital networks, tourism, technology transfer, climate processes and international institutions. Events in one region can affect others through supply chains, financial markets, food prices and environmental systems.
 
 ## 12.13. Как пользоваться региональными картами и статистикой / Reading Regional Maps and Statistics
 
@@ -475,6 +511,16 @@ Regional comparisons benefit from combining thematic maps, time series, charts a
 6. Глобальные торговые, миграционные, транспортные и экологические связи делают регионы взаимозависимыми.
 7. Сравнительный анализ требует сопоставимых данных и прозрачной методологии.
 8. Политические и статистические региональные классификации не следует путать с природными и культурными регионами.
+
+
+1. A region is an analytical territorial unit whose boundaries depend on the purpose of the study.
+2. There is no single universal system for dividing the world into regions.
+3. Each macro-region combines natural diversity, historical connections, cultural characteristics and economic systems.
+4. Internal differences within regions are often large and should not be hidden by broad generalisations.
+5. Natural conditions influence economic activity and settlement, but do not determine them completely.
+6. Global trade, migration, transport and environmental connections make regions interdependent.
+7. Comparative analysis requires comparable data and transparent methods.
+8. Political and statistical regional classifications should not be confused with physical or cultural regions.
 
 ## 12.15. Ключевые понятия / Key Terms
 
