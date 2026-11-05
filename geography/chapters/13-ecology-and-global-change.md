@@ -845,9 +845,9 @@ Consider a fictional settlement beside a river. For this learning example, the e
 **Иллюстрация 13.2 / Figure 13.2 — Парниковый эффект и энергетический баланс / Greenhouse effect and energy balance.**  
 Научная схема поступления коротковолновой солнечной радиации, отражения, поглощения и исходящего длинноволнового излучения. Не изображать парниковые газы как физический слой или «крышку» атмосферы.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-F / IMAGE PLACEHOLDER 13-F]** Матрица климатических воздействий на криосферу, воды, экосистемы, сельское хозяйство и города; различать наблюдения и прогнозы. / **EN:** Climate-impact matrix for the cryosphere, water, ecosystems, agriculture and cities, distinguishing observations from projections.
-**Иллюстрация 13.3 / Figure 13.3 — Климатические воздействия по природным системам / Climate impacts across natural systems.**  
-Инфографика по криосфере, океану, лесам, сельскому хозяйству и городам. Подписывать механизмы, не указывая неподтверждённые численные прогнозы.
+![Климатические воздействия: наблюдения и будущие риски / Climate impacts: observations and future risks](../assets/diagrams/13-F-climate-impact-observation-projection-matrix-bilingual.svg)
+
+*Качественные примеры из оценок IPCC; не являются количественным прогнозом или локальной оценкой для Кыргызстана. / Qualitative examples from IPCC assessments; not a quantitative forecast or a local assessment for Kyrgyzstan.*
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 13-G / IMAGE PLACEHOLDER 13-G]** Схема процессов деградации земель и восстановительных мер: эрозия, засоление, уплотнение, утрата растительного покрова и рекультивация. / **EN:** Diagram of land-degradation processes and restoration measures, including erosion, salinisation, compaction, vegetation loss and rehabilitation.
 **Иллюстрация 13.4 / Figure 13.4 — Деградация земель и восстановление / Land degradation and restoration.**  
