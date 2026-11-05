@@ -2,7 +2,7 @@
 ## Universal visual-content standard for Atlas of Knowledge
 
 **Document ID:** AOK-IMG-001  
-**Version:** 1.1  
+**Version:** 1.2  
 **Status:** Mandatory  
 **Applies to:** Every current and future subject atlas, chapter, language edition, interactive lesson, and visual learning component in the Atlas of Knowledge project  
 **Owner:** Atlas of Knowledge central project governance  
