@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080" role="img" aria-labelledby="title desc">
 <title id="title">Climate diagrams: continental and maritime examples / Климатограммы: континентальный и морской примеры</title>
-<desc id="desc">Two illustrative climate diagrams with monthly precipitation bars and temperature lines. Synthetic teaching data, not real stations.</desc>
+<desc id="desc">Две учебные климатограммы показывают месячные осадки столбцами и температуру линиями. Данные синтетические и не относятся к реальным метеостанциям. / Two illustrative climate diagrams show monthly precipitation as bars and temperature as lines. The data are synthetic teaching examples, not observations from real weather stations.</desc>
 <defs>
 <style>
 .bg{fill:#f7fafc}.panel{fill:#fff;stroke:#b8c8d6;stroke-width:2}.h{font:700 31px Arial,sans-serif;fill:#18324b}.sub{font:20px Arial,sans-serif;fill:#40566b}.axis{stroke:#526779;stroke-width:2}.grid{stroke:#dce5ec;stroke-width:1}.month{font:17px Arial,sans-serif;fill:#34495e}.lab{font:18px Arial,sans-serif;fill:#34495e}.small{font:17px Arial,sans-serif;fill:#536779}.temp{fill:none;stroke:#d34d35;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}.pt{fill:#d34d35;stroke:#fff;stroke-width:2}.bar{fill:#4b9bc2;opacity:.88}.legend{font:19px Arial,sans-serif;fill:#263d50}.note{font:18px Arial,sans-serif;fill:#34495e}
