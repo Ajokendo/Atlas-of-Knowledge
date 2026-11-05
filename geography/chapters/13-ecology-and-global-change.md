@@ -51,7 +51,7 @@ Environmental problems occur at different spatial scales. Local air pollution ma
 
 Экосистема включает живые организмы, физическую среду и потоки энергии и вещества между ними. Её функционирование зависит от продуктивности, пищевых сетей, разложения органического вещества, водного режима, почвенных процессов и биоразнообразия.
 
-**Экологическая устойчивость (resilience)** — способность системы поглощать возмущения, перестраиваться и сохранять основные функции. Она не означает неизменность: экосистемы динамичны, а при превышении определённых порогов могут переходить в другое состояние.
+**Устойчивость экосистем (resilience)** — способность системы поглощать возмущения, перестраиваться и сохранять основные функции. Она не означает неизменность: экосистемы динамичны, а при превышении определённых порогов могут переходить в другое состояние.
 
 Следует различать:
 - **сопротивляемость:** насколько мало система меняется под воздействием;
@@ -59,12 +59,12 @@ Environmental problems occur at different spatial scales. Local air pollution ma
 - **адаптивную способность:** возможность изменять структуру и процессы, сохраняя ключевые функции;
 - **трансформационную способность:** возможность перейти к новому устойчивому состоянию, когда прежнее становится нежизнеспособным.
 
-Экосистемные услуги — выгоды, которые люди получают от природы. Часто выделяют обеспечивающие, регулирующие, культурные и поддерживающие процессы. В современной системе IPBES также используется понятие вкладов природы в жизнь людей, позволяющее учитывать разнообразие мировоззрений и ценностей.
+Экосистемные услуги — выгоды, которые люди получают от природы. В классификации Millennium Ecosystem Assessment выделяют обеспечивающие, регулирующие, культурные и поддерживающие услуги. В современной системе IPBES также используется понятие вкладов природы в жизнь людей, позволяющее учитывать разнообразие мировоззрений и ценностей.
 
 
 An ecosystem includes living organisms, the physical environment, and the flows of energy and matter between them. Its functioning depends on productivity, food webs, the decomposition of organic matter, water regimes, soil processes and biodiversity.
 
-**Ecological resilience** is the ability of a system to absorb disturbances, reorganise and retain its essential functions. It does not mean that the system remains unchanged: ecosystems are dynamic, and when certain thresholds are exceeded they may shift into another state.
+**Ecosystem resilience** is the ability of a system to absorb disturbances, reorganise and retain its essential functions. It does not mean that the system remains unchanged: ecosystems are dynamic, and when certain thresholds are exceeded they may shift into another state.
 
 It is useful to distinguish:
 - **resistance:** how little a system changes under pressure;
@@ -72,7 +72,7 @@ It is useful to distinguish:
 - **adaptive capacity:** the ability to change structure and processes while retaining key functions; and
 - **transformative capacity:** the ability to move into a new viable state when the previous one is no longer sustainable.
 
-Ecosystem services are the benefits people obtain from nature. They are often grouped into provisioning, regulating, cultural and supporting processes. The IPBES framework also uses the concept of nature's contributions to people, which recognises a wider diversity of worldviews and values.
+Ecosystem services are the benefits people obtain from nature. In the Millennium Ecosystem Assessment classification, they are grouped into provisioning, regulating, cultural and supporting services. The IPBES framework also uses the concept of nature's contributions to people, which recognises a wider diversity of worldviews and values.
 
 ## 13.3. Антропогенное воздействие и планетарные изменения / Human Pressures and Planetary Change
 
