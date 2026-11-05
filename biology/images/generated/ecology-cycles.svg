@@ -63,5 +63,6 @@
 <path d="M1010 705 Q950 780 780 780" class="arrow"/>
 <path d="M430 782H390 Q330 782 330 730 Q330 670 340 670" class="arrow"/><text x="300" y="755" class="small">Аммонификация / Ammonification</text>
 <path d="M720 635 Q760 550 735 560" class="arrow"/><text x="850" y="565" class="small">Денитрификация / Denitrification</text>
-<text x="600" y="860" class="note" text-anchor="middle">Упрощённые модели: реальные циклы включают дополнительные резервуары, пути и микробные процессы. / Simplified models: real cycles include additional reservoirs, pathways and microbial processes.</text>
+<text x="600" y="850" class="note" font-size="13" text-anchor="middle">Упрощённые модели: реальные циклы включают дополнительные резервуары, пути и микробные процессы.</text>
+<text x="600" y="875" class="note" font-size="13" text-anchor="middle">Simplified models: real cycles include additional reservoirs, pathways and microbial processes.</text>
 </svg>
