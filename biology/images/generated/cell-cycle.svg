@@ -29,8 +29,8 @@
 <!-- direction arrows -->
 <path class="arrow" d="M900 170 Q960 190 980 245"/><path class="arrow" d="M1008 520 Q990 620 910 665"/><path class="arrow" d="M540 710 Q440 670 430 570"/><path class="arrow" d="M430 330 Q450 230 530 195"/>
 <!-- checkpoint labels -->
-<rect x="1000" y="180" width="260" height="78" rx="14" class="checkpoint"/><text x="1130" y="211" text-anchor="middle" class="cp">G₁/S checkpoint</text><text x="1130" y="237" text-anchor="middle" class="small">Проверка перед копированием ДНК</text>
-<rect x="1010" y="650" width="250" height="78" rx="14" class="checkpoint"/><text x="1135" y="681" text-anchor="middle" class="cp">G₂/M checkpoint</text><text x="1135" y="707" text-anchor="middle" class="small">ДНК скопирована и проверена?</text>
+<rect x="1000" y="180" width="260" height="78" rx="14" class="checkpoint"/><text x="1130" y="211" text-anchor="middle" class="cp">G₁/S checkpoint</text><text x="1130" y="234" text-anchor="middle" class="small">Проверка перед копированием ДНК</text><text x="1130" y="253" text-anchor="middle" class="en">Check before DNA replication</text>
+<rect x="1010" y="650" width="250" height="78" rx="14" class="checkpoint"/><text x="1135" y="677" text-anchor="middle" class="cp">G₂/M checkpoint</text><text x="1135" y="700" text-anchor="middle" class="small">ДНК скопирована и проверена?</text><text x="1135" y="719" text-anchor="middle" class="en">DNA copied and checked?</text>
 <rect x="170" y="650" width="245" height="78" rx="14" class="checkpoint"/><text x="292" y="681" text-anchor="middle" class="cp">Контроль веретена</text><text x="292" y="707" text-anchor="middle" class="small">Spindle checkpoint</text>
 <!-- G0 branch -->
 <path d="M900 245 Q1010 265 1060 350" fill="none" stroke="#73847b" stroke-width="3" stroke-dasharray="8 7"/>
