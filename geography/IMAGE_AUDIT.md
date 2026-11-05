@@ -34,7 +34,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 02 | 19 | 19 IDs with imagery reported (20 unique assets); not verified |
 | 03 | 13 | 13 IDs reported integrated (10 SVGs + 3 sourced images); not verified |
 | 04 | 16 | 16 local bilingual SVGs reported integrated; not verified |
-| 05 | 20 | 16 integrated reported; 5.18-A pending; two ID labels not safely reconstructed; ID mapping needs reconciliation |
+| 05 | 20 | 17 named visual IDs now have integrated imagery, including 5.18-A; two inventory ID positions remain unaccounted for by name and ID mapping needs reconciliation |
 | 06 | 15 | 0/15 integrated; no image embeds or matching assets found |
 | 07 | 9 | 0/9 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
 | 08 | 7 | 0/7 integrated; chapter source contains briefs/placeholders but no image embeds or asset files. |
@@ -47,7 +47,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 21–26 | 68 | 0/68 integrated; source scan found no chapter image embeds or matching assets. |
 | **Register claim** | **231** | **Conflicts with chapter-count sum: 283 (281 named IDs in this baseline plus two Chapter 05 slots not yet safely named)** |
 
-Chapter 05's register reports 16 integrated visuals, but the 20-ID inventory only exposes 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated and the exact integrated-ID mapping is unresolved. All individual Chapter 05 lifecycle statuses remain PENDING except 5.18-A (MISSING); the aggregate claim of 16 integrated is not assigned to guessed IDs. Chapter 09's 09-G is confirmed in the chapter source and is added to the per-asset audit below; the chapter-level total is therefore 283. The two Chapter 05 slots remain unresolved. Do not publish a percentage until the Chapter 05 mapping and all chapter file states are reconciled.
+Chapter 05's register previously reported 16 integrated visuals; 5.18-A has since been created and embedded in both languages. The 20-ID inventory still exposes only 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated and the exact ID mapping is unresolved. The 17 named integrated assets are not promoted to VERIFIED. Chapter 09's 09-G is confirmed in the chapter source and is added to the per-asset audit below; the chapter-level total is therefore 283. The two Chapter 05 slots remain unresolved. Do not publish a percentage until the Chapter 05 mapping and all chapter file states are reconciled.
 
 ## 6. Per-asset audit register
 
@@ -297,7 +297,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 05 | 5.15-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
 | 05 | 5.16-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
 | 05 | 5.17-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 register reports 16 integrated IDs; exact ID mapping needs reconciliation. |
-| 05 | 5.18-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Known pending synoptic-map/climate-analysis visual; insertion markers are not an image. |
+| 05 | 5.18-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | New synthetic bilingual SVG embedded in RU/EN; static source structure checked. Scientific conventions, project rights/licence, accessibility and rendering remain open. |
 | 06 | 6-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 06 | 6-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -341,7 +341,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 
 - **Image Coverage:** provisional / not yet calculated. The register states 231 IDs, but the listed chapter counts sum to 283 after Chapter 09's confirmed 09-G is included; Chapter 05 still has two unnamed slots.
 - **Image Verification:** 0% confirmed in this audit baseline; no asset has yet been independently certified VERIFIED under v1.1. This does not mean that no assets are correct.
-- **Image Gaps:** all visual IDs in Chapters 06–17 and 21–26 are currently MISSING (no image embed or matching asset found); Chapters 18–20 have only four integrated SVGs total, with 27 other IDs MISSING; Chapter 09 has seven missing needs; Chapter 05 still has 5.18-A missing. Chapters 01–05 require further per-asset verification.
+- **Image Gaps:** all visual IDs in Chapters 06–17 and 21–26 are currently MISSING (no image embed or matching asset found); Chapters 18–20 have only four integrated SVGs total, with 27 other IDs MISSING; Chapter 09 has seven missing needs; Chapter 05 now has 5.18-A integrated, while its ID mapping and per-asset verification remain incomplete. Chapters 01–05 require further per-asset verification.
 - **A/B/C counts:** pending asset-by-asset provenance classification.
 - **Rights, scientific, language/accessibility and technical results:** pending; no unverified item is counted as PASS.
 
@@ -391,7 +391,7 @@ The following counts are from the actual chapter Markdown files in `workspace/ge
 | 02 | 40 | Twenty distinct source/local image assets across the bilingual chapter (19 visual IDs; one ID uses two separate cycle images). |
 | 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
 | 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
-| 05 | 40 | 20 distinct image URLs (8 local SVGs and 12 external source-image URLs); chapter register claims 16 integrated IDs and 5.18-A pending. Exact ID-to-image mapping still needs reconciliation. |
+| 05 | 42 | 21 distinct image URLs (9 local SVGs and 12 external source-image URLs); 17 named visual IDs now have integrated imagery. Exact ID-to-image mapping and two unnamed inventory slots still need reconciliation. |
 | 06–17 | 0 | No Markdown image embeds found in these chapter files in this scan. In-text visual markers/briefs are present; treat these as unintegrated placeholders unless another rendering mechanism is independently demonstrated. |
 | 18 | 1 | Local SVG 18-J referenced. |
 | 19 | 1 | Local SVG 19-H referenced. |
@@ -519,7 +519,7 @@ These checks establish that the expected local files exist, the chapter source r
 To make the image-first audit traceable in the chapter itself, non-rendering HTML comments were added immediately before every Markdown image embed in both language sections. Verification after the commit found **40 anchors covering 16 distinct integrated visual IDs**:
 `5.1-A`, `5.2-A` (legacy alias `5-A`), `5.3-A`, `5.4-A`, `5.5-A`, `5.6-A`, `5.7-A`, `5.7-B`, `5.8-A`, `5.9-A`, `5.11-A`, `5.12-A`, `5.14-A`, `5.15-A`, `5.16-A` and `5.17-A`. Repeated anchors for the same ID are intentional: Russian and English placements share one asset ID, and 5.8-A groups the official front symbols/cross-section into one teaching visual set.
 
-The bilingual 5.18-A placeholder remains and is not counted as an integrated image. The chapter-level inventory still claims 20 IDs, while the visual source/integration register explicitly names 16 integrated IDs plus 5.18-A. **Two inventory ID positions remain unaccounted for by name** and must be recovered from the original chapter brief/history or removed only after documented reconciliation; do not invent labels. The legacy label 5-A is an alias for 5.2-A, not a separate visual asset. The comments do not alter visible page content.
+The 5.18-A placeholder has been replaced by a bilingual SVG and the chapter now embeds it once in each language section. The chapter-level inventory still claims 20 IDs, while the visual source/integration register explicitly names 16 integrated IDs plus 5.18-A. **Two inventory ID positions remain unaccounted for by name** and must be recovered from the original chapter brief/history or removed only after documented reconciliation; do not invent labels. The legacy label 5-A is an alias for 5.2-A, not a separate visual asset. The comments do not alter visible page content.
 
 
 ### Chapter 04 — focused scientific review: 4.13-A — 5 November 2026
@@ -540,7 +540,7 @@ A source scan of all chapter files 06–26 found **210 distinct visual IDs** acr
 - Added the same three assets to the corresponding English sections, with bilingual alt text, captions and the existing learning limitations preserved.
 - Rechecked the chapter: **40 image embeds, 20 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
 - RU/EN parity for 5.12-A, 5.14-A and 5.15-A is now **PASS** at the chapter-source level. Their creator/rightsholder, project licence, scientific review and rendered technical checks remain PENDING; none is VERIFIED.
-- The chapter's 5.18-A synoptic-map exercise remains a placeholder and is not counted as integrated.
+- The chapter's 5.18-A synoptic-map exercise is now integrated in both language sections; scientific, rights, accessibility and rendered technical review remain pending.
 
 
 ### 7.9 Chapter 05 visual defect corrected — climate diagram month labels
@@ -582,8 +582,8 @@ This is a source-tree and chapter-embed finding, not a judgment that these visua
 
 ## 7. Chapter 05 provenance migration checkpoint — 5 November 2026
 
-- Consolidated all 16 integrated Chapter 05 visual IDs into `IMAGE_SOURCES.md`, preserving aliases (5-A / 5.2-A and 5-C / 5.6-A) and distinguishing IDs from the 20 unique image URLs.
-- Kept 5.18-A as MISSING; it is a specified exercise placeholder, not an integrated asset.
+- Consolidated the 16 pre-existing integrated Chapter 05 visual IDs into `IMAGE_SOURCES.md`, preserving aliases (5-A / 5.2-A and 5-C / 5.6-A); added 5.18-A as a newly integrated 17th named visual ID.
+- After 5.18-A integration, the chapter has 42 Markdown image embeds and 21 unique image URLs (9 local SVGs and 12 external source-image URLs).
 - The migration does **not** promote the 16 assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the UCAR-hosted IPCC energy-budget figure, NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components.
 - Chapter Markdown parity remains a source-level check only: 40 image embeds, 20 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
 - Chapter 05 source-register coverage is now documented; overall Geography image coverage is still not calculable because the 231-versus-283 inventory discrepancy and two unnamed Chapter 05 inventory slots remain unresolved.
@@ -629,3 +629,13 @@ The static content review found a misleading DTM depiction: the original graphic
 Cross-checked the diagram's elevations and distances against the chapter's bilingual answer key. A–C: 40 m rise over 500 m horizontal distance = 8% gradient (about 4.6°); C–B: 20 m over 750 m = about 2.7% (about 1.5°). Spot heights A=100 m, C=140 m and B=160 m are internally consistent. The exercise is explicitly schematic and not for navigation.
 
 **Result:** arithmetic and diagram-label consistency PASS. Rights/creator provenance, full accessibility and rendered technical checks remain PENDING.
+
+
+### Chapter 05 — 5.18-A integration checkpoint — 5 November 2026
+
+- Created `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg` as a new bilingual synthetic teaching schematic. It contains a schematic low-pressure centre (1000 hPa) and high-pressure centre (1032 hPa), closed isobars at 4 hPa intervals, cold and warm fronts, simplified station plots and two synthetic monthly climate graphs.
+- Replaced the Russian and English placeholders with the same local SVG and bilingual alt text/captions. The chapter source now has 42 image embeds and 21 unique image URLs; the new asset appears once in each language section.
+- Static source inspection confirms `viewBox`, `title`, `desc`, `role="img"`, Cyrillic and Latin text; no script, foreignObject or embedded image element was detected.
+- The climate graph arrays were checked: A has a 32 °C annual temperature range and 401 mm annual precipitation; B has a 14 °C range and 886 mm annual precipitation. These are synthetic values, not observations.
+- Image-first discovery consulted NOAA synoptic meteorology and surface-weather-plot teaching resources. No existing image was reused because the brief requires synthetic data and two climate graphs in one bilingual teaching visual.
+- Lifecycle is INTEGRATED; RU/EN parity is PASS at source level. Scientific convention review, project rightsholder/licence, visual/accessibility review and rendered browser/device QA remain PENDING. No CI pass is claimed.
