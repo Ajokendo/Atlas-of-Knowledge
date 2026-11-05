@@ -5,7 +5,7 @@
  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dcebf0"/><stop offset="1" stop-color="#f5f0df"/></linearGradient>
  <linearGradient id="lake" x2="0" y2="1"><stop stop-color="#8fc5ce"/><stop offset="1" stop-color="#367f91"/></linearGradient>
  <style>
- .h{font:700 25px sans-serif;fill:#183744}.s{font:16px sans-serif;fill:#294d59}.small{font:14px sans-serif;fill:#294d59}
+ .h{font:700 25px sans-serif;fill:#183744}.s{font:16px sans-serif;fill:#294d59}.small{font:12px sans-serif;fill:#294d59}
  .panel{stroke:#b8c9c7;stroke-width:2}.ridge{fill:#829c9a}.snow{fill:#f7f7ed}.tree{fill:#426d59}.deer{fill:#9a6946}.dark{fill:#34434a}.bird{fill:#34434a}
  </style>
 </defs>
