@@ -111,11 +111,16 @@ async function runLesson(mobile) {
     if (!(number(after) > number(before))) throw new Error(`calculator did not increase: ${before} → ${after}`);
     await page.locator('button[data-answer="b"]').click();
     await page.waitForFunction(() => document.querySelector('#feedback')?.textContent.includes('Верно!'));
-    if (await page.locator('.note').filter({ hasText: 'IMAGE PLACEHOLDER' }).count() < 1) throw new Error('image-first placeholders are missing');
-    const imageFirst = await page.evaluate(() => { const marker = [...document.querySelectorAll('.note')].find(el => el.textContent.includes('IMAGE PLACEHOLDER')); const firstTopic = [...document.querySelectorAll('section h2')].find(el => el.textContent.includes('1. Магнитное поле')); return !!marker && !!firstTopic && !!(marker.compareDocumentPosition(firstTopic) & Node.DOCUMENT_POSITION_FOLLOWING); });
-    if (!imageFirst) throw new Error('Chapter 14 illustration marker must precede detailed topic text');
+    const visuals = page.locator('figure.visual-figure img');
+    if (await visuals.count() !== 1) throw new Error('Chapter 14 must contain its integrated four-topic visual');
+    await visuals.first().scrollIntoViewIfNeeded();
+    await page.waitForFunction(() => { const img = document.querySelector('figure.visual-figure img'); return !!img && img.complete && img.naturalWidth > 0; });
+    const visual = await visuals.first().evaluate(img => ({ alt: img.alt, currentSrc: img.currentSrc, caption: img.closest('figure')?.querySelector('figcaption')?.innerText || '', ru: !!img.closest('figure')?.querySelector('figcaption [lang="ru"]'), en: !!img.closest('figure')?.querySelector('figcaption [lang="en"]') }));
+    if (!visual.alt || visual.alt.length < 40 || !visual.ru || !visual.en || !visual.caption) throw new Error('Chapter 14 visual needs meaningful alt text and bilingual caption');
+    if (mobile && !visual.currentSrc.includes('-mobile.svg')) throw new Error('Chapter 14 mobile layout was not selected');
+    if (!mobile && visual.currentSrc.includes('-mobile.svg')) throw new Error('Chapter 14 desktop layout was not selected');
     if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal overflow');
-    console.log(`PASS Chapter 14 Lorentz-force calculator ${mobile?'mobile':'desktop'} — slider calculation, quiz, placeholders, overflow 0`);
+    console.log(`PASS Chapter 14 Lorentz-force calculator ${mobile?'mobile':'desktop'} — slider, quiz, integrated responsive SVG, bilingual caption, alt text, overflow 0`);
   } catch(e) { failures.push(`lesson ${mobile?'mobile':'desktop'}: ${e.message}`); console.error(`FAIL Chapter 14 Lorentz-force calculator ${mobile?'mobile':'desktop'}: ${e.message}`); }
   finally { await context.close(); }
 }
