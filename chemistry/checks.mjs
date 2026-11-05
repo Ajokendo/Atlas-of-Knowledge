@@ -927,6 +927,19 @@ if (!imageSources.includes("CH-V12 | Chapter 03") ||
   errors.push("CH-V12: source register and audit must document category, method and review status");
 }
 
+const electronCloudEnPath = path.join(assetRoot, "electron-cloud.svg");
+if (fs.existsSync(electronCloudEnPath)) {
+  const electronCloudEn = fs.readFileSync(electronCloudEnPath, "utf8");
+  const description = electronCloudEn.match(/<desc[^>]*>([\\s\\S]*?)<\\/desc>/i)?.[1] || "";
+  if (!/probability-density cloud/i.test(description) ||
+      !/not electron trajectories/i.test(description) ||
+      !/not to scale/i.test(description)) {
+    errors.push("assets/electron-cloud.svg: English description must identify a probability cloud, reject trajectory/orbit interpretation and state scale limitation");
+  }
+  if (/<g fill="none" stroke="#6f9e92"[^>]*>[\\s\\S]*?<\\/g>/.test(electronCloudEn)) {
+    errors.push("assets/electron-cloud.svg: remove orbit-like elliptical path outlines from the probability-cloud illustration");
+  }
+}
 const atomicStructurePath = path.join(root, "chapters", "atomic-structure.html");
 if (fs.existsSync(atomicStructurePath)) {
   const atomicStructureSource = fs.readFileSync(atomicStructurePath, "utf8");
