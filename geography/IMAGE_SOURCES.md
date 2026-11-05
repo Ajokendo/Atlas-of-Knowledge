@@ -2,7 +2,7 @@
 
 **Snapshot:** 5 November 2026  
 **Branch:** `workspace/geography`  
-**Scope:** Chapters 01–05 have detailed or provisional asset records; Chapter 06 now has five integrated visual records (6-A, 6-C, 6.1-A, 6.5-A and 6.7-A), plus the licensed candidate dataset for 6-B; Chapter 09 includes a documented MISSING gap record. The remaining Chapter 06 assets, Chapters 07–08 and 10–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
+**Scope:** Detailed provenance records cover Chapters 01–06, with a gap record for 09-G and partial source/rights notes elsewhere. The chapter-source scan now confirms embedded visuals in Chapters 01–06 and 11–20; provenance and independent review records for many later assets remain incomplete. See IMAGE_AUDIT.md for the reconciled presence counts. Embedding is not verification. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
 **Policy:** search for an existing scientifically suitable image first; verify the individual asset's rights and attribution; create or generate a replacement only when no suitable reusable image is found.
 
 ## Policy alignment — IMAGE-FIRST POLICY v1.1
@@ -703,3 +703,16 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 | Rights | NASA/JPL credit; NASA media-use guidance states NASA content is generally not subject to copyright unless a third-party notice is present. No third-party owner is identified on this image page. |
 | Limitation | Relief image only; it does not provide named rivers or an explicit drainage-direction layer. It is supplementary and does not close planned visual 12-F. |
 | Status | INTEGRATED as supplementary relief context; NASA/JPL attribution and metadata PASS; browser/mobile/accessibility QA PENDING. |
+
+
+### Chapter 01 — IMAGE-FIRST classification and verification snapshot (5 November 2026)
+
+| Visual ID | Category | Lifecycle | Scientific / factual | Rights / licence | RU/EN | Accessibility | Technical |
+|---|---|---|---|---|---|---|---|
+| 01-A | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+| 01-B | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+| 01-C | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented; National Geographic Geo-Inquiry is a method reference, not a copied figure | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+| 01-D | B — adapted | INTEGRATED | PENDING | PASS — GeogSage source and CC BY 4.0 licence identified; redrawing, translation and conceptual label change disclosed in SVG and chapter | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+| 01-E | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+
+**Chapter 01 decision:** all five files exist and are embedded in the shared bilingual chapter. The SVGs have bilingual title/description metadata; their chapter embeds have bilingual alternative text. 01-A, 01-B and 01-E explicitly identify their conceptual/schematic limitations. 01-C describes an iterative research cycle and cites the Geo-Inquiry method source. 01-D records the adapted CC BY 4.0 source and changes. No Chapter 01 asset is VERIFIED: creator/licence evidence for four project-local SVGs, scientific sign-off, detailed accessibility checks and live rendered browser/mobile tests remain open.
