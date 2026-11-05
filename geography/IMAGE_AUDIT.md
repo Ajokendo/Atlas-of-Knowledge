@@ -832,3 +832,32 @@ All six SVG files were re-fetched from the working branch and passed the followi
 - Chapters 11–16: 6 of 53 registered visual IDs now have an integrated asset in this tranche; the remaining IDs are still production gaps and must not be counted as complete.
 - Chapter 12-A uses an external image dependency inside its SVG; offline availability and remote loading must be tested before release.
 - No asset in this tranche is marked VERIFIED. The five original SVGs require an explicit project rights/licence decision; all six require scientific/editorial review, and browser/accessibility QA remains outstanding.
+
+
+## Chapters 18–20 — second integrated visual tranche — 5 November 2026
+
+| Visual ID / figure | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 18-A | MISSING | PENDING | Public-domain candidate identified but not used | N/A | N/A | N/A | The 2007 Commons topography map has unknown creation date and lacks a current DEM specification, vertical datum and accuracy statement. Do not substitute it for the required validated physical map. |
+| 18-D | INTEGRATED | PENDING — check landform terminology and spatial relationships | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Conceptual glacial-landform diagram added. Check arête spelling and the placement of moraine and outwash features in specialist review. |
+| 18-H | INTEGRATED | PENDING — check valley morphology and alluvial-fan depiction | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Conceptual river-valley cross-section added; explicitly not a site-specific Kyrgyz valley. |
+| 18-J | INTEGRATED | PENDING | PENDING | PASS — bilingual SVG title, labels and description | PENDING | PASS — existing SVG; live render pending | Mountain-slope processes diagram retained; description now includes Russian and English. |
+| 19-C | INTEGRATED | PENDING — elevation belts and vegetation/climate sequence vary regionally | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Conceptual altitudinal profile added; no fixed elevation boundaries are asserted. |
+| 19-H | INTEGRATED | PENDING — check wind directions and inversion conditions | PENDING | PASS — bilingual SVG labels and description | PENDING | PASS — existing SVG; live render pending | Mountain-valley circulation diagram retained; description now includes Russian and English. |
+| 20-F | INTEGRATED | PENDING — verify dam failure and downstream-flow sequence | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Conceptual GLOF pathway separates hazard, flow path and downstream exposure. It is not an operational risk map. |
+| 20-H | INTEGRATED | PENDING — verify sign convention and closed-basin assumptions | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Water-balance schematic shows P = ET + Q + ΔS and states that abstractions/transfers require additional terms. |
+| 20-I | INTEGRATED | PENDING — check glacier anatomy and ELA/firn-line wording | PENDING | PASS — bilingual SVG labels and description | PENDING | PASS — existing SVG; live render pending | Glacier-anatomy diagram retained; description now includes Russian and English. |
+| 20-J | INTEGRATED | PENDING — conceptual hydrogeology only | PENDING | PASS | PENDING | PASS — source-level SVG structure; live render pending | Groundwater cross-section added; explicitly not a geological section of a real valley. |
+| 20-K | INTEGRATED | PASS — numerical values checked against the 2025 NSC table | PENDING — NSC data CC BY-NC-SA 4.0; original SVG project licence not assigned | PASS — bilingual labels and description | PENDING | PASS — source-level SVG; live render pending | Chart retains distinct indicators, units, source, year and licence note. Check share-alike compatibility before release. |
+| 20.6.7 supporting figure | INTEGRATED | PASS with scope note — 2019 glacial lakes in Kyrgyz and Teskey ranges only | PASS — Frontiers CC BY 4.0 with author/article attribution | PASS — bilingual alt text and caption; labels within source figure remain English | PENDING | PENDING — remote image loading and responsive rendering untested | Reproduced Figure 1 from Daiyrov et al. (2022) as a supporting research map. It is not counted as a completed 20-C or 20-F asset. |
+
+### Static checks performed
+
+The new 18-D, 18-H, 19-C, 20-F, 20-H and 20-J SVG files were re-fetched and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element, and Cyrillic and Latin text. The existing 18-J, 19-H, 20-I and 20-K files now have bilingual descriptions. This is not a browser-render or assistive-technology test.
+
+### Coverage limits
+
+- Chapter 18: 3 of 10 planned visuals integrated (18-D, 18-H, 18-J); 18-A remains blocked by authoritative DEM and geospatial provenance.
+- Chapter 19: 2 of 10 planned visuals integrated (19-C, 19-H); maps and data plots still require validated climate datasets and station metadata.
+- Chapter 20: 5 of 11 planned visuals integrated (20-F, 20-H, 20-I, 20-J, 20-K); the supporting 2019 research figure is additional and does not count toward those 11.
+- None of the original project SVGs is marked VERIFIED. Scientific review, project licence assignment, accessibility review and browser testing remain open.
