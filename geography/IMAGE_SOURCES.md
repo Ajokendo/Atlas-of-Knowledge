@@ -690,3 +690,16 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 | Map metadata | Mercator projection. Topography: NASA SRTM3 (~90 m); bathymetry: GEBCO 2019; lakes: HydroLAKES; rivers: HydroATLAS; cities: VMap0. |
 | Limitation | The page does not state map compilation date, vertical reference or accuracy assessment. It is a useful relief overview but not a validated current DEM, not a precise elevation source and not a legal boundary source. |
 | Status | INTEGRATED as supplementary overview; not counted as completion of 18-A. Browser/mobile rendering and accessibility review PENDING. |
+
+
+### Chapter 12 — supplementary North America relief image (not a replacement for 12-F drainage map)
+
+| Field | Record |
+|---|---|
+| Figure | NASA/JPL Photojournal PIA03377, “Shaded Relief with Height as Color, North America”, image addition date 6 March 2003. |
+| Image URL | https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia03/pia03377/PIA03377.jpg |
+| Source page | https://science.nasa.gov/photojournal/shaded-relief-with-height-as-color-north-america/ |
+| Metadata | SRTM data acquired February 2000; original 1 arc-second (~30 m) reduced to 30 arcseconds (~1 km) and resampled to Mercator with approximately square pixels; north up. |
+| Rights | NASA/JPL credit; NASA media-use guidance states NASA content is generally not subject to copyright unless a third-party notice is present. No third-party owner is identified on this image page. |
+| Limitation | Relief image only; it does not provide named rivers or an explicit drainage-direction layer. It is supplementary and does not close planned visual 12-F. |
+| Status | INTEGRATED as supplementary relief context; NASA/JPL attribution and metadata PASS; browser/mobile/accessibility QA PENDING. |
