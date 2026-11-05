@@ -664,3 +664,10 @@ Corrected a mixed-script typo in the Russian label for *tombolo* (“Тombolo”
 The diagram grouped *talus* with movement types, although talus is an accumulation/deposit of angular rock fragments rather than a movement mechanism. Corrected the label to “Осыпное отложение / Talus deposit”, revised the SVG description so it no longer classifies talus as a movement, and changed the footer to distinguish movements from their deposits. The adjacent chapter text already defines scree/talus as an accumulation at the foot of a slope.
 
 **Result:** scientific classification and bilingual label corrected; conceptual consistency PASS for this distinction. Rights/creator provenance, detailed accessibility and rendered technical checks remain PENDING.
+
+
+### Chapter 03 — Visual 3.12-B: relative dating and cross-cutting relationships
+
+The original SVG and chapter caption implied that the relative order of the intrusion and fault could be inferred from their cross-cutting relationships. Inspection of the actual geometry showed that both features cut the strata but do **not** intersect each other. Their relative order therefore cannot be established from this diagram. Corrected the SVG title description and footer, and updated both language sections of the chapter to state the limitation explicitly. Removed a learner-facing editorial instruction (“provide learner questions and a separate answer key”) that had been left in the Russian section.
+
+**Result:** scientific interpretation corrected; bilingual caveat now present in both language sections. The diagram supports dating each cross-cutting feature relative to the strata, but not dating the fault relative to the intrusion. Rights/creator provenance, detailed accessibility and rendered technical checks remain PENDING.
