@@ -455,7 +455,7 @@ A new author-side educational botanical plate for *Fritillaria eduardii* was gen
 - Intended use: supplementary educational artwork for the Aygul entry; no species-population estimate, fixed flower count, or invented precise locality is represented.
 - Provenance: generated in ChatGPT on 5 November 2026 at the user's explicit request. No third-party image source or external licence is claimed.
 - Working filename: `flora-batken-aygul-botanical-plate.webp` (optimized derivative of the generated PNG). The binary is present in the conversation workspace but has **not yet been committed to the GitHub branch**; therefore the chapter HTML continues to reference the existing verified SVG and must not point to the absent WebP.
-- Review status: morphological intent checked against the existing Aygul source review; this generated plate is illustrative, not a specimen record or independent botanical certification. Full browser rendering review is pending repository integration.
+- Review status: morphological intent checked against the existing Aygul source review; this generated plate is illustrative, not a specimen record or botanical certification. The asset is now integrated; the active repository derivative has been inspected directly and the current Chromium workflow rechecks page rendering.
 
 
 **Generated-file technical record:** source PNG, 1312 × 1199 px, RGB; optimized WebP derivative, 1312 × 1199 px, 179,740 bytes, SHA-256 `956c21e15206f7a8d65629ae9bc1496bea39b117654a8f438bcff1c320124481`. The derivative is available in the current conversation workspace; this hash is a local provenance record, not a GitHub repository checksum.
