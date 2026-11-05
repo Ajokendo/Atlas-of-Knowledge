@@ -59,3 +59,39 @@ Progress is reported in 10% gates. A gate is closed only when its stated evidenc
 | 80% | Desktop/mobile browser, accessibility and screenshot review | Pending |
 | 90% | Cross-page integration, links, regression and publication build | Pending |
 | 100% | Final current-HEAD checks and internal publication readiness | Pending |
+
+
+## 20% — scientific content and numerical audit
+
+### Scope checked
+Reviewed all 13 interactive-book pages, the model assumptions/formulae, the standalone lesson's five teaching sections, and the full 26-item practice bank. Compared text statements with the underlying model and independently calculated checks already implemented in `checks.mjs`.
+
+### Verified scientific points
+- Newton I: zero resultant force means constant velocity, not necessarily rest; frictionless glide model has constant 1.5 m/s.
+- Newton II: equal 6.0 N resultants on 2.0 kg and 4.0 kg blocks give 3.0 and 1.5 m/s².
+- Tension: two equal strings at angle θ measured from the horizontal obey (2T\sin\theta=mg); flatter strings require larger tension.
+- Friction: static friction matches the applied force up to μ_sN; at breakaway the idealised model changes to kinetic friction μ_kN. Position and velocity remain continuous; acceleration changes at the transition.
+- Newton III: contact forces are equal/opposite and act on different blocks; they do not cancel on one selected block.
+- Inclined plane: (N=mg\cos\theta), frictionless (a=g\sin\theta), and constant-speed sliding under kinetic friction occurs at (\tan\theta=\mu_k).
+- Car and aircraft examples: force balances, drag direction, static tire-road friction and the distinction between internal engine forces and external road force were checked.
+- Centre of mass: skaters' internal rope forces cancel for the combined system; the block+board example satisfies (\sum F_{ext}=Ma_{cm}).
+- Linear drag: (v=v_t(1-e^{-t/\tau})), (v_t=mg/b), (\tau=m/b), and the integrated displacement are consistent with the model.
+- Quadratic drag: the model solution (v=v_t\tanh(gt/v_t)) agrees with numerical RK4 integration.
+- Honey/Stokes example: buoyancy is included, and the calculated Reynolds number is 0.049, consistent with the stated low-Reynolds-number regime.
+
+### Automated evidence
+Workflow **42033660802** on commit `87b915cce204cbb54d9519ab1f0f53c88365f73c` completed successfully. The Newton check block reported **51/51 PASS**:
+- 25+ model and physical-invariant checks (force balance, derivatives, continuity, centre of mass, drag and Stokes regime);
+- all 13 pages have exactly two well-formed practice items (26 total);
+- numerical answer keys checked against closed-form calculations, numerical differentiation/integration, bisection or time-stepped integration where appropriate;
+- no answer-key mismatch or failed assertion was reported.
+
+### Corrections made during this stage
+- Localised the visible scene force label `F_app` to Russian `Fприл`.
+- Localised the distance-axis label `5 m` to `5 м`.
+- Clarified the rain-drop regression check: its 1 mm value is the **radius** (2 mm diameter), matching the table and model input. This avoids confusing radius with diameter.
+
+Files changed: `original-engine/newton/world.js`, `original-engine/newton/checks.mjs`. The English upstream text was not rewritten. Follow-up CI for these localisation/test-label-only changes is queued/running on commit `1ff027c4243cad8d838620fd39e9891a55f6ede2`.
+
+**20% gate: complete.** No blocking scientific or numerical error was found in the reviewed material. This is an internal content audit, not independent external expert certification.
+
