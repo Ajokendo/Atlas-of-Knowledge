@@ -77,3 +77,10 @@ The 13 P1 Kyrgyzstan flora/fauna briefs receive detailed locality, taxonomic and
 ## Relationship to the image disposition register
 
 The Chüy fauna brief is **Produced** with six licensed local WebP photographs in [`IMAGE_DISPOSITION_REGISTER.md`](IMAGE_DISPOSITION_REGISTER.md). The other mapped briefs retain their recorded pending/deferred statuses. This brief-level review does not certify unreviewed images; every additional asset still requires its own scientific, source/licence and integration checks.
+
+
+## Automated browser-smoke reconciliation — 5 November 2026
+
+The latest full Biology Chromium run available before the current regression-test changes is [42036806468](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42036806468), commit `79b512de`, and it passed. All 13 Biology pages were exercised at 1365×900 and 390×844. The browser workflow checks raster decoding and intrinsic dimensions, visible inline-SVG geometry, horizontal overflow, accessibility and language switching, and uploads desktop full-page screenshots.
+
+This closes the earlier blanket **automated browser-smoke / image-loading** pending notes for the tested branch revision. It does not close detailed human screenshot inspection, species/anatomical morphology, fine label collisions, source-to-image identity or asset-specific rights questions. Those must remain explicitly pending where not yet evidenced. The 33/53 count in this brief-review table is a triage count, not an Image Verification percentage. No asset is marked `VERIFIED` from the automated run alone.
