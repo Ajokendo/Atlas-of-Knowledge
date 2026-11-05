@@ -975,3 +975,13 @@ All three are external image dependencies. The direct URLs were checked, but dep
 - **Supporting context:** Kyrgyz Alpine Club orographic map overview (https://kac.centralasia.kg/maps/orographic-maps/) and Kyrgyzstan Geoportal geology overview (https://geoportal-kg.org/about-geology/).
 - **Caveats:** The profile is conceptual, not to scale and not a measured transect. No arbitrary valley polygons are drawn. Exact geospatial verification of the seven reference anchors remains PENDING.
 - **Status:** INTEGRATED; external map rights PASS; original vector creator/licence assignment PENDING; bilingual alt/caption PASS; source-level SVG check PASS; deployed rendering/accessibility and spatial-anchor review PENDING. Not VERIFIED.
+
+
+### Chapter 19-I — seasonal snow and precipitation profile — 5 November 2026
+
+- **Asset:** `geography/assets/diagrams/19-I-seasonal-snow-precipitation-profile-bilingual.svg`
+- **Type:** Original bilingual conceptual vector diagram, created separately from 19-C.
+- **Distinct learning objective:** 19-C illustrates vegetation/climate belts; 19-I focuses on qualitative temperature lapse, aspect-dependent precipitation/rain shadow, snow-cover duration by elevation, and seasonal accumulation/melt/glacier runoff.
+- **Scientific safeguards:** no numerical lapse rate, precipitation total, fixed snowline or universal elevation threshold is asserted. The figure explicitly notes regional, aspect and circulation variability.
+- **Source-level QA:** `<title>`, `<desc>`, `role="img"`, `aria-labelledby`, bilingual text and valid closing SVG checked; no script, foreignObject or external image.
+- **Status:** INTEGRATED; scientific concept and bilingual parity PASS; formal project creator/licence assignment, accessibility and live browser/mobile rendering PENDING. Not VERIFIED.

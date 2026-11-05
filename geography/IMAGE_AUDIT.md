@@ -50,15 +50,15 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 16 | 9 | 9 | 0 | Nine local SVG assets embedded. |
 | 17 | 9 | 8 | 1 | 17-A, 17-B, 17-C, 17-D, 17-E, 17-F, 17-G and 17-I integrated; 17-H (geology/mineral districts) remains open. 17-A is a provisional locator; OCHA source release date and legal-border validation remain pending. 17-D's valley anchors are not boundary polygons; spatial verification remains pending. |
 | 18 | 10 | 5 | 5 | 18-B, 18-C (three-photo set), 18-D, 18-H and 18-J embedded. Supplementary Blue Green Atlas relief image does not close 18-A. |
-| 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
+| 19 | 10 | 7 | 3 | 19-C, 19-D, 19-E, 19-F, 19-H, 19-I and 19-J embedded; 19-I is a distinct qualitative seasonal snow/precipitation profile, not a duplicate of 19-C. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 0 | 68 | No planned visual IDs have confirmed image embeds in the chapter source scan. |
-| **Total named inventory** | **281** | **180** | **101** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
+| **Total named inventory** | **281** | **181** | **100** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 180/281 named IDs have an image embedded in the relevant chapter source (64.1%). This measures presence only.
-- **Image Verification:** 0/180 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 101 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 181/281 named IDs have an image embedded in the relevant chapter source (64.4%). This measures presence only.
+- **Image Verification:** 0/181 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 100 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -158,7 +158,7 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 19 | 19-F | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 19 | 19-G | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 19 | 19-H | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Asset register lists a local SVG; final checks remain PENDING. |
-| 19 | 19-I | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 19 | 19-I | INTEGRATED | PASS | PENDING — original SVG; formal project creator/licence assignment pending | PASS — bilingual alt text, labels and explicit qualitative/no-threshold caveats | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual conceptual profile distinguishes temperature decrease, aspect-dependent precipitation, increasing snow-cover duration and seasonal accumulation/melt. It complements 19-C rather than repeating its vegetation-belt sequence. No numeric values or universal altitude bands asserted. |
 | 19 | 19-J | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 20 | 20-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 20 | 20-B | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -1331,7 +1331,6 @@ This table lists only visual IDs that still lack a confirmed integrated asset. I
 | 19-A | Climate-region map | Climate classification is described, but spatial boundaries need station data, elevation and a stated classification method. | Official station normals, climate classification thresholds, period, elevation data and validated boundary method. |
 | 19-B | Annual precipitation and orographic rain-shadow map | Station summaries are documented; raw spatial data and a validated interpolation method are not yet available for a defensible national surface. | Station-level precipitation series, normal period, station metadata, quality flags, interpolation method/cross-validation and orographic interpretation. |
 | 19-G | Mean annual temperature map | A national trend chart is integrated, but it is not a spatial temperature surface. | Station-level normals for a single climate period, station locations/elevations, interpolation method, cross-validation and uncertainty. |
-| 19-I | Altitudinal climate-belt profile | Concept overlaps with 19-C (existing altitudinal climate profile); avoid duplicating the same learning objective. | Editorial decision to merge with 19-C or redefine 19-I as a distinct, source-backed seasonal/vegetation profile. |
 | 20-A | Current glacier inventory | Research inventory for the Kyrgyz/Teskey ranges and global inventories are candidates, but no complete dated national outline set and clipping boundary are validated. | Dated glacier outlines, minimum-area threshold, inventory method, CRS, uncertainty and national boundary source. |
 | 20-B | River basins and transboundary flow map | Historical AF NWRMP basin maps are located but are dated and item-level reuse rights/current geometry are unresolved. | Current basin/watershed boundaries, river network and direction, transboundary-flow evidence, CRS, source date and licence. |
 | 20-G | Naryn seasonal/interannual hydrograph | UNH station 16055 metadata identified (1931–2006; mean 92.117 m³/s), but raw reusable observations and item-specific licence are unconfirmed. | Raw daily/monthly series, station identity, time step, quality flags, missing-data treatment, licence and gauge metadata. |
@@ -1350,6 +1349,7 @@ This table lists only visual IDs that still lack a confirmed integrated asset. I
 | 17-D | Blue Green Atlas relief context + original bilingual valley profile | Verify the seven reference anchors geospatially; assign formal project creator/licence to original SVG; remote-image QA. |
 | 17-F | Poggi et al. (2024) earthquake-epicentre and active-fault maps, CC BY 4.0 | Remote figure rendering/responsive/accessibility QA; scientific scope caveat already recorded. |
 | 17-I | OCHA COD-AB labelled administrative map, CC BY-IGO | OCHA source release/version date; confirm Manas city toponym update; remote SVG and accessibility QA. |
+| 19-I | Original bilingual seasonal snow/precipitation profile SVG | Formal project creator/licence assignment and live render/accessibility QA; scientific concept reviewed as qualitative only. |
 
 ### Closure rule
 

@@ -255,7 +255,9 @@ Wind increases evaporation and soil drying, redistributes snow, affects perceive
 
 ## 19.8. Высотная климатическая поясность / Altitudinal Climatic Zonation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-I / IMAGE PLACEHOLDER 19-I]** Профиль высотных климатических поясов с температурой, осадками и снежным режимом; границы обозначить как ориентировочные и регионально изменчивые.
+![Качественная схема высотного распределения температуры, осадков и продолжительности снежного покрова в горах Кыргызстана. / Qualitative diagram of altitudinal temperature, precipitation and snow-cover duration in the mountains of Kyrgyzstan.](../assets/diagrams/19-I-seasonal-snow-precipitation-profile-bilingual.svg)
+
+*19-I. Авторская концептуальная схема дополняет 19-C: 19-C показывает смену растительно-климатических поясов, а 19-I — качественные зависимости температуры, осадков и длительности снежного покрова, а также сезонное накопление и таяние снега. Осадки не обязаны монотонно возрастать с высотой: важны экспозиция, циркуляция и дождевые тени. Численные значения и универсальные высотные границы не задаются. / Original conceptual diagram complements 19-C: 19-C shows vegetation/climate belts, while 19-I shows qualitative relationships for temperature, precipitation and snow-cover duration, plus seasonal snow accumulation and melt. Precipitation does not necessarily increase monotonically with elevation; aspect, circulation and rain shadows matter. No numerical values or universal elevation thresholds are asserted.*
 > **EN:** Elevation profile of climatic belts showing temperature, precipitation and snow regime; belt boundaries are approximate and regionally variable.
 
 
