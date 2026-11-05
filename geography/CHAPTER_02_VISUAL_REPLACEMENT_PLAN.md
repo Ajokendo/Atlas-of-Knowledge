@@ -33,10 +33,10 @@
 
 ## Replacement priority
 
-1. **First implementation batch:** 2-A, 2.2-A, 2.5-A, 2.9-A, 2.12-A and 2.14-A are integrated. 2.8-A remains conditional until the exact image file can be retrieved and its delivery verified.
-2. **Second implementation batch:** The first replacement batch is now integrated; continue with 2.6-A and 2-D rights closure.
-3. **Rights closure before implementation:** 2.6-A and 2-D. Verify the credited components and exact OpenStax image terms; do not rely only on the book-level licence.
-4. **Continue targeted discovery:** 2.1-A, 2.2-A and 2.11-A. Do not force an unsuitable image into these slots.
+1. **Completed replacements:** 2-A, 2.2-A, 2.5-A, 2.9-A, 2.12-A and 2.14-A are integrated in both language sections with exact source and licence records.
+2. **Next rights-closure batch:** 2.6-A and 2-D. Verify the credited components and exact OpenStax image terms; do not rely only on the book-level licence.
+3. **Conditional retrieval:** 2.8-A has a suitable Open University figure and CC BY-NC-SA 4.0 course terms, but the exact image endpoint returned HTTP 403. Do not embed until a stable file is obtained.
+4. **Targeted discovery:** 2.1-A and 2.11-A. Find a complete, rights-cleared geographic-envelope cross-section and landscape-geosystem diagram; do not force unsuitable images into these slots.
 
 ## Important distinction
 
