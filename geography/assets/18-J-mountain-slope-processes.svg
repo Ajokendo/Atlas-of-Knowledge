@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="t d">
-<title id="t">Горный склон: процессы формирования рельефа / Mountain slope processes</title><desc id="d">Conceptual cross-section showing weathering, surface runoff and erosion, landslide, rockfall and sediment accumulation.</desc>
+<title id="t">Горный склон: процессы формирования рельефа / Mountain slope processes</title><desc id="d">Концептуальный профиль горного склона с выветриванием, поверхностным стоком и эрозией, оползнем, осыпью и аккумуляцией осадков. / Conceptual mountain-slope cross-section showing weathering, surface runoff and erosion, landsliding, rockfall and sediment accumulation.</desc>
 <rect width="1400" height="820" fill="#f5f7fa"/><rect x="38" y="35" width="1324" height="750" rx="26" fill="#fff" stroke="#d8e0e8" stroke-width="2"/>
 <text x="78" y="100" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#17324d">Горный склон: процессы формирования рельефа</text><text x="78" y="143" font-family="Arial,sans-serif" font-size="23" fill="#587086">Mountain slope: landform-forming processes</text>
 <path d="M90 620 L300 470 L470 260 L610 330 L770 405 L920 505 L1120 570 L1300 620 L1300 700 L90 700 Z" fill="#d9c4a0" stroke="#8a6b43" stroke-width="4"/>
