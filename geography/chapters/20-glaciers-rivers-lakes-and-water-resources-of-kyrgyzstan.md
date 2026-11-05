@@ -652,6 +652,42 @@ Groundwater quality depends on geological structure, depth, contact time with ro
 
 Потери при транспортировке и распределении воды могут быть значительными. Их сокращение требует ремонта каналов, точного учёта, модернизации затворов, планирования графиков подачи и внедрения водосберегающих технологий. Однако эффективность нельзя оценивать только по сокращению фильтрации: часть инфильтрационной воды может пополнять подземные горизонты и возвращаться в речную систему.
 
+
+### English translation — 20.8
+
+Reservoirs regulate seasonal river flow, supply irrigation and water services, and generate electricity. They alter the natural river hydrograph, trap sediment, affect water temperature and change ecological conditions downstream of a dam.
+
+#### 20.8.1 Toktogul Reservoir
+
+Toktogul Reservoir on the Naryn River is the largest element of Kyrgyzstan's hydropower regulation system. It is connected to the operation of Toktogul Hydropower Plant and the Naryn cascade. The reservoir is strategically important for the country's electricity system and the regional water regime.
+
+Operation requires balancing electricity generation, seasonal water storage and releases, irrigation needs downstream and the safety of hydraulic structures.
+
+#### 20.8.2 Other major reservoirs
+
+Important facilities include:
+- Kurpsai and Uch-Kurgan reservoirs in the Naryn system;
+- Orto-Tokoy Reservoir on the Chu;
+- Kirov Reservoir in the Talas basin;
+- Papan Reservoir in the Ak-Buura basin; and
+- a number of smaller reservoirs and storage facilities for irrigation and water supply.
+
+Reference sources may report reservoir volume and area as design, gross, active or actual values measured on a particular date. These categories should be labelled separately in atlas tables.
+
+#### 20.8.3 Irrigation and water use
+
+Irrigated agriculture is the largest freshwater-use sector in Kyrgyzstan. Regional water-management materials indicate that agriculture accounts for about 90% of domestic water use; the share varies by year, treatment of return flows and the definition of water abstraction.
+
+Important elements of an irrigation system include:
+- water-intake structures;
+- main and distribution canals;
+- pumping stations;
+- hydraulic structures;
+- collector and drainage networks; and
+- gauging stations and water-accounting systems.
+
+Losses during water transport and distribution can be substantial. Reducing them requires canal repair, accurate accounting, modernised gates, delivery scheduling and water-saving technologies. However, efficiency should not be assessed only by reducing seepage: some infiltrated water may recharge aquifers and later return to the river system.
+
 ## 20.9. Трансграничные водные системы / Transboundary Water Systems
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 20-E / IMAGE PLACEHOLDER 20-E]** Схема трансграничного водного управления Чу–Талас и Нарын–Сырдарья с обозначением верховых и низовых пользователей, сезонности и инфраструктуры.
@@ -669,6 +705,22 @@ Groundwater quality depends on geological structure, depth, contact time with ro
 В верховьях бассейнов часто расположены водообразующие горные районы и гидроэнергетические объекты; ниже по течению находятся крупные орошаемые равнины. Это создаёт взаимозависимость между энергетическими и сельскохозяйственными интересами государств.
 
 Сотрудничество должно основываться на принципах справедливого и разумного использования, предотвращения значительного трансграничного ущерба, обмена информацией и совместного мониторинга. Гидрологические данные и договорённости необходимо рассматривать в контексте действующих межгосударственных соглашений, а не сводить к упрощённой формуле «верховья против низовьев».
+
+
+### English translation — 20.9
+
+The rivers of Kyrgyzstan are connected to water systems in Kazakhstan, Uzbekistan, Tajikistan and China. Because water crosses national borders, its use requires cooperation on:
+- allocation and seasonal flow schedules;
+- operation of reservoirs and hydropower facilities;
+- irrigation and return flows;
+- flood and debris-flow warning;
+- water-quality monitoring;
+- exchange of hydrometeorological data; and
+- protection of transboundary ecosystems.
+
+Headwater areas and hydropower facilities are often located in the upper parts of river basins, while large irrigated plains lie downstream. This creates interdependence between the energy and agricultural interests of states.
+
+Cooperation should be based on equitable and reasonable use, prevention of significant transboundary harm, information exchange and joint monitoring. Hydrological data and agreements should be considered in the context of current interstate arrangements, not reduced to a simplistic “upstream versus downstream” formula.
 
 ### 20.9.1. Бассейновое сотрудничество на примере Чу и Таласа / Basin Cooperation: The Chu and Talas Rivers
 
@@ -823,6 +875,23 @@ Water quality should be assessed using a representative network of sampling site
 
 Оценка риска требует дистанционного зондирования, полевых обследований, батиметрии, мониторинга уровня воды, геодезических измерений и моделирования распространения волны прорыва. Важно учитывать населённые пункты, дороги, мосты, пастбища и гидротехнические сооружения ниже по течению.
 
+
+### English translation — 20.11
+
+Glacier retreat and moraine reorganisation can create new lakes or change existing ones. Some lakes are dammed by glacier ice, others by moraine ridges or bedrock barriers. If a natural dam fails, water can rapidly flow down the valley.
+
+A **glacial lake outburst flood (GLOF)** is a sudden release of water from a glacial or proglacial lake that may generate a flood and debris flow.
+
+Hazard factors include:
+- instability of a moraine or ice dam;
+- increasing lake volume;
+- an ice or slope collapse into the lake;
+- intense precipitation and rapid melting;
+- earthquakes; and
+- internal drainage and changes in outflow channels.
+
+Risk assessment requires remote sensing, field surveys, bathymetry, water-level monitoring, geodetic measurements and modelling of the outburst wave. Settlements, roads, bridges, pastures and hydraulic structures downstream must be considered.
+
 ## 20.12. Изменение климата и будущее водных ресурсов / Climate Change and the Future of Water Resources
 
 Потепление воздействует на все звенья водного цикла:
@@ -869,6 +938,25 @@ The effects of warming differ among basins. Important factors include glacier el
 - развитие бассейнового планирования и общественного участия.
 
 Экологический сток — количество и режим воды, необходимые для поддержания речных экосистем и связанных с ними природных процессов. При планировании водозабора и регулирования важно учитывать не только хозяйственные потребности, но и состояние водных местообитаний.
+
+
+### English translation — 20.13
+
+Water security includes reliable access to sufficient quantities of water of acceptable quality for people, the economy and ecosystems, as well as protection from destructive water-related events.
+
+Priority actions include:
+- modernising irrigation canals and water accounting;
+- reducing losses and improving irrigation efficiency;
+- protecting drinking-water sources;
+- building and upgrading wastewater-treatment facilities;
+- monitoring glacial lakes and debris-flow catchments;
+- improving the safety of dams and hydraulic structures;
+- conserving wetlands and riparian ecosystems;
+- jointly managing transboundary basins;
+- openly exchanging hydrological and climate data; and
+- developing basin planning and public participation.
+
+**Environmental flow** is the quantity, timing and pattern of water needed to sustain river ecosystems and the natural processes that depend on them. Water abstraction and regulation plans should consider not only economic needs but also the condition of aquatic habitats.
 
 ### 20.13.1. Разобранный пример: перевод расхода реки в объём стока / Worked Example: Converting River Discharge into Runoff Volume
 
@@ -1159,24 +1247,6 @@ The Ministry of Emergency Situations' Unified System of Integrated Monitoring an
 
 ## 20.14. Практические работы / Practical Activities
 
-### English Practical Activities
-
-**1. River-basin map.** Prepare a map of the main river basins of Kyrgyzstan. Distinguish the Syr Darya, Chu, Talas, Ili–Balkhash, Tarim and internal Issyk-Kul systems. State the source of basin boundaries and the classification level used.
-
-**2. River hydrograph.** Obtain a multi-year monthly discharge series for a selected river. Plot the hydrograph, identify seasonal high and low flows and propose explanations using precipitation, snowmelt, glacier melt and reservoir operations. Separate hypotheses from confirmed causes.
-
-**3. Catchment water balance.** Use precipitation, evapotranspiration, runoff and storage-change data to calculate a simplified water balance. Check units and period consistency and identify missing terms.
-
-**4. Comparing lakes.** Compare Issyk-Kul, Son-Kul, Chatyr-Kul and Sary-Chelek by origin, elevation, area, depth, salinity, inflows/outflows and conservation value. State the source and date for morphometric data.
-
-**5. Glacier change.** Compare glacier outlines from two dated inventories or satellite images. Use consistent mapping thresholds and distinguish area change from changes in glacier number. Explain the limitations of the comparison.
-
-**6. Glacial-lake risk.** Select a glacial lake using satellite imagery. Identify the information required to assess dam stability, possible flow paths, downstream exposure and vulnerability. Do not approach hazardous terrain or present a single image as a risk assessment.
-
-**7. Water use in a basin.** Map settlements, irrigation infrastructure, reservoirs, water intakes and protected ecosystems in a selected basin. Identify possible competing demands and propose measures that consider environmental flows and downstream users.
-
-
-
 ### Практическая работа 1. Карта речных бассейнов
 
 На контурной карте обозначьте основные бассейны Кыргызстана: Сырдарьи, Чу, Таласа, Или, Тарима и Иссык-Куля. Нанесите главные водоразделы, реки и направления трансграничного стока. Отметьте, какие бассейны являются бессточными внутри страны.
@@ -1204,6 +1274,23 @@ The Ministry of Emergency Situations' Unified System of Integrated Monitoring an
 ### Практическая работа 7. Водопользование в бассейне
 
 Составьте схему водопользования выбранного бассейна: питьевое водоснабжение, орошение, гидроэнергетика, промышленность и экологические потребности. Обсудите конфликты и возможные компромиссы.
+
+
+### English translation — Practical Activities
+
+**Practical activity 1. River-basin map.** On an outline map, mark the main basins of Kyrgyzstan: the Syr Darya, Chu, Talas, Ili, Tarim and Issyk-Kul. Add major watershed divides, rivers and directions of transboundary flow. Identify which basins are endorheic within the country.
+
+**Practical activity 2. River hydrograph.** Use gauging-station data to plot mean monthly discharge. Identify the seasonal maximum and minimum, calculate the amplitude and discuss possible sources of river flow.
+
+**Practical activity 3. Catchment water balance.** Collect precipitation, evaporation and runoff data for a selected basin. Estimate the change in storage using the simplified water-balance equation. State which components were not included.
+
+**Practical activity 4. Comparing lakes.** Compare Issyk-Kul, Song-Kul and Sary-Chelek by origin, elevation, depth, water regime, biodiversity and economic use. Distinguish measured characteristics from qualitative assessments.
+
+**Practical activity 5. Glacier change.** Using satellite images from two dates, delineate one glacier. Calculate the change in area and state the acquisition season, spatial resolution and digitising uncertainty. Do not infer mass loss from area change alone.
+
+**Practical activity 6. Glacial-lake risk assessment.** Select a glacial lake and identify the location of its natural dam, the possible outburst-flow path and downstream assets. Prepare a diagram of hazard factors and monitoring measures.
+
+**Practical activity 7. Water use in a basin.** Prepare a water-use diagram for a selected basin, showing drinking-water supply, irrigation, hydropower, industry and environmental needs. Discuss conflicts and possible compromises.
 
 ## 20.15. Двуязычный словарь / Bilingual Glossary
 
@@ -1234,25 +1321,24 @@ The Ministry of Emergency Situations' Unified System of Integrated Monitoring an
 
 ### English Review Questions
 
-1. Why is Kyrgyzstan considered an important headwater region of Central Asia?
-2. How do water storage and annual river runoff differ?
-3. What are accumulation, ablation and glacier mass balance?
-4. Why can glacier melt temporarily increase runoff but reduce long-term water security?
-5. Which major transboundary river-basin systems originate or pass through Kyrgyzstan?
-6. How does the Naryn contribute to the Syr Darya system?
-7. Which sources of water feed mountain rivers?
-8. How does a seasonal hydrograph differ between snow-fed and glacier-influenced rivers?
-9. What are the main differences between Issyk-Kul, Son-Kul, Chatyr-Kul and Sary-Chelek?
-10. Why does groundwater require laboratory testing before drinking use?
-11. How do reservoirs change natural river regimes?
-12. Why is irrigation the largest water-use sector in Kyrgyzstan?
-13. Which issues require cooperation in transboundary basins?
-14. What indicators are used to assess water quality?
-15. Which factors influence the risk of a glacial lake outburst flood?
-16. How can climate change alter the seasonal distribution of river flow?
-17. What is an environmental flow, and why should it be considered in water allocation?
+### English translation — Review Questions
 
-
+1. Why is Kyrgyzstan important for the water balance of Central Asia?
+2. How do water storage and renewable water resources differ?
+3. How does glacier ice form?
+4. What does glacier mass balance show?
+5. Why does a negative balance in one year not mean that a glacier will disappear immediately?
+6. What are the main sources of water feeding mountain rivers?
+7. How does seasonal high water differ from a flood event?
+8. Which major river basins are represented in Kyrgyzstan?
+9. Why is the Naryn especially important for hydropower?
+10. How does an endorheic lake differ from a lake with an outlet?
+11. Which factors determine the level of Issyk-Kul?
+12. What role do reservoirs play in regulating river flow?
+13. Why does water use in the Chu, Talas and Syr Darya basins require interstate coordination?
+14. Which conditions can trigger a glacial-lake outburst?
+15. Why does increased runoff during intense melting not necessarily mean a long-term increase in water resources?
+16. Which measures can improve water security in Kyrgyzstan?
 
 1. Почему Кыргызстан имеет важное значение для водного баланса Центральной Азии?
 2. Чем водные запасы отличаются от возобновляемых водных ресурсов?
