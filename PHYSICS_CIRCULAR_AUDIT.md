@@ -14,11 +14,11 @@
 | 10% — inventory and branch guard | PASS | 13 book pages, 13 3D scenes, 13 scene/plate keys, standalone HTML lesson and visual-source entries located on the correct branch |
 | 20% — mathematical model and practice baseline | PASS | 65 physics/regression assertions (63 baseline + 2 new practice regressions); 26 practice items (24 multiple-choice and 2 free-response); current baseline Physics Engine workflow passed |
 | 30% — scene mapping and browser baseline | PASS | 13 pages map to 13 scenes; existing browser workflow passed desktop 1440×900 and mobile 390×844, with WebGL and scene picker |
-| 40% — upstream lineage and test coverage | IN PROGRESS | Upstream source compared; standalone lesson browser test added; new browser workflow run pending |
-| 50% — content and answer-key audit | PENDING | Check every explanation, numerical answer, distractor, units and model assumptions |
-| 60% — rights and visual provenance | PENDING | Complete per-scene records without treating MIT software licence as blanket rights to unrelated assets |
-| 70% — visual/scientific scene review | PENDING | Inspect all 13 scenes, vector directions, labels, scales and accessible descriptions |
-| 80% — desktop/mobile visual QA | PENDING | Dedicated screenshots, responsive review, axe smoke and correction of defects |
+| 40% — upstream lineage and test coverage | PASS | Upstream source compared; dedicated browser workflow passed all 13 pages and standalone lesson at desktop/mobile; screenshots uploaded |
+| 50% — content and answer-key audit | PASS | All 26 items inventoried (24 MCQ + 2 FRQ); 65 physics/practice assertions; conceptual answer-key regression added; Physics Engine passed on commit 4a78df44 |
+| 60% — rights and visual provenance | PASS | 13 individual scene records added to IMAGE_SOURCES.md; upstream Nathan Liow source, MIT code licence, Russian localisation and procedural-geometry boundary recorded; no external image files found in world.js |
+| 70% — visual/scientific scene review | IN PROGRESS | Scene/source mapping complete; manual visual inspection of every scene, vector direction, scale and caption remains |
+| 80% — desktop/mobile visual QA | IN PROGRESS | Dedicated desktop/mobile browser smoke and screenshots passed on run 42078922929; axe serious/critical findings = 0; screenshot-by-screenshot manual review and final rerun remain |
 | 90% — integration and regression | PENDING | Local links, navigation, iframe, keyboard/touch controls and all chapter-specific checks |
 | 100% — final internal readiness | PENDING | Final CI green on the final source commit; all audit evidence saved |
 
@@ -59,7 +59,7 @@ Compared the local files with Nathan Liow's upstream `circular/` module in `nath
 - The test captures desktop and mobile full-page screenshots under `/tmp/physics-visual-review/circular/`.
 - Added the standalone test and screenshot artifact upload to `.github/workflows/physics-browser.yml`.
 - Code and workflow commits: `32fb32229a97aecc0ea39c1e45ec0359f4fbec1b`, `8fe579525444ee97dc0c7f639e1c0d5068013934`.
-- The browser workflow triggered by the latest change is pending at the time of this record. Do not treat it as passed until the run and its chapter-specific step conclude successfully.
+- The dedicated Chapter 3 browser workflow passed on commit 9806e3e365df57fb39a7ed5e999dfb87921b8519 (run 42078922929): 13 interactive book pages at desktop/mobile, standalone lesson controls and quiz at desktop/mobile, and screenshot upload all succeeded. The practice-count assertion was subsequently corrected from 24 to 26; the Physics Engine check passed on commit 4a78df44b5908a5d4ef133d9dbc8d5a81fbcf987. Later commits in this audit updated documentation/visual provenance only. A final rerun on the final chapter commit is still required.
 
 ## Initial scientific review notes
 
@@ -85,3 +85,25 @@ Compared the local files with Nathan Liow's upstream `circular/` module in `nath
 ## Publication boundary
 
 “100%” in this audit will mean internally checked and ready for publication in the working branch. It will not mean independent external certification, specialist teacher approval, merge to `main`, or deployment. External teacher review is a separate later activity.
+
+
+## 50% — practice and answer-key audit
+
+- Counted the full practice set: 24 multiple-choice items and 2 free-response items, 26 total across 13 pages.
+- Numeric answer checks independently recompute values for circular acceleration, string tension, friction-limited speed, conical-pendulum speed/tension, vertical-loop normal force and minimum speed, banked-curve speed, turntable speed, gravity and orbital values, ellipse speeds/energies, gravitational work and potential-energy change, and escape speed.
+- Added regression assertions for the exact 26-item inventory and the Russian meaning of key conceptual answers: inward acceleration, tangent motion after string break, mass independence on a flat turn, motion up a bank above design speed, acceleration scaling with radius, inverse-square gravity, angular momentum conservation, and energy exchange on an ellipse.
+- One first run failed because the new inventory assertion incorrectly expected 24 total items. Inspection showed 24 MCQs plus two free-response solutions. The assertion and audit inventory were corrected; the Physics Engine workflow then passed.
+
+## 60% — rights and visual provenance
+
+- Added per-scene records for all 13 inherited Chapter 03 3D scenes (PHY-03-3D-01 through PHY-03-3D-13) in IMAGE_SOURCES.md.
+- Compared local and upstream model.js, world.js, pages.js, and practice.js; the model/world/practice executable structures match after excluding comments and string literals. The page module has localised content and adapted embedded chart/HTML text.
+- world.js builds scenes from procedural Three.js geometry/materials. No external raster/texture image assets were found in this module.
+- The upstream MIT software licence and Nathan Liow attribution are recorded. No claim is made that MIT covers unrelated third-party material.
+- Browser smoke status is not substituted for the still-pending manual scientific visual review.
+
+## Browser evidence
+
+- Dedicated workflow run: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42078922929
+- Screenshot artifact ID: 13439188475 (chapter3-circular-visual-review); desktop and mobile full-page screenshots were generated and uploaded.
+- The dedicated run reported success for all 13 interactive pages and for the standalone lesson's control recalculation, wrong/correct quiz response, horizontal overflow, browser errors and serious/critical axe checks.
