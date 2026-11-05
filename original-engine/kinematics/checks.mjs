@@ -86,7 +86,7 @@ const NPAGES = 11;   // pages.js imports world.js (three.js, browser-only), so t
 { const bad = [];
   for (let i = 0; i < NPAGES; i++) {
     const qs = PRACTICE[i];
-    if (!Array.isArray(qs) || qs.length < 1 || qs.length > 2) { bad.push(`page ${i}: ${qs ? qs.length : 0} items`); continue; }
+    if (!Array.isArray(qs) || qs.length !== 2) { bad.push(`page ${i}: expected 2 items, found ${qs ? qs.length : 0}`); continue; }
     qs.forEach((it, n) => {
       const mcq = Array.isArray(it.choices) && it.choices.length === 4 && new Set(it.choices).size === 4 && Number.isInteger(it.answer) && it.answer >= 0 && it.answer < 4 && typeof it.why === 'string' && it.why.trim();
       const frq = !it.choices && typeof it.solution === 'string' && it.solution.trim();
@@ -94,7 +94,25 @@ const NPAGES = 11;   // pages.js imports world.js (three.js, browser-only), so t
     });
   }
   const extra = Object.keys(PRACTICE).filter(k => !(+k >= 0 && +k < NPAGES));
-  check('practice: every page has 1–2 well-formed items', !bad.length && !extra.length, bad.concat(extra).join(', ') || `${Object.values(PRACTICE).flat().length} items`); }
+  check('practice: every page has exactly 2 well-formed items', !bad.length && !extra.length, bad.concat(extra).join(', ') || `${Object.values(PRACTICE).flat().length} items`); }
+
+const conceptualKeys = [
+  [0, 1, 1, s => s.includes('м/с² вниз'), 'apex acceleration remains downward'],
+  [1, 1, 2, s => s.includes('Перемещение не может быть больше пути'), 'path and displacement inequality'],
+  [2, 1, 3, s => s.includes('Одинаковые модули, противоположные направления'), 'velocity at equal height'],
+  [3, 0, 2, s => s.includes('При падении') && s.includes('одинаковые знаки'), 'speed increases during descent'],
+  [4, 1, 0, s => s.includes('наклон графика'), 'zero slope of y–t at the apex'],
+  [5, 1, 2, s => s.includes('Δ<i>y</i>') && s.includes('<i>at</i>'), 'kinematic equation containing time but not final velocity'],
+  [7, 1, 0, s => s.includes('м/с назад'), 'road velocity relative to passenger'],
+];
+for (const [page, item, answer, predicate, label] of conceptualKeys) {
+  const q = PRACTICE[page][item];
+  check(`practice ${page}.${item + 1}: conceptual answer key — ${label}`, q.answer === answer && predicate(q.choices[answer]) && typeof q.why === 'string' && q.why.length > 40);
+}
+const solutionPull = PRACTICE[9][1].solution;
+check('practice 9.2: worked solution includes t1, v1, x1 and x(5)', solutionPull.includes(`${f(M.T1)}`) && solutionPull.includes(`${f(M.V1, 1)}`) && solutionPull.includes(`${f(M.X1, 1)}`) && solutionPull.includes(`${f(M.px(5), 1)} м`));
+const solutionCubic = PRACTICE[10][1].solution;
+check('practice 10.2: worked solution includes x(t), return time and return velocity', solutionCubic.includes('√3') && solutionCubic.includes(`${f(Math.sqrt(3))}`) && solutionCubic.includes(`${f(M.cv(Math.sqrt(3)))} м/с`));
 // the first number in a choice's text (HTML stripped, − read as minus, a × 10ⁿ read as aEn)
 const pnum = c => { const s = c.replace(/×\s*10<sup>([−-]?\d+)<\/sup>/g, 'e$1').replace(/<[^>]+>/g, ' ').replace(/−/g, '-'); return Number(s.match(/-?\d+(\.\d+)?(e-?\d+)?/)[0]); };
 // keyed choice equals the independent value (to its printed precision), every distractor is > 2 % away
