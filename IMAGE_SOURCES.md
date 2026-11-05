@@ -533,3 +533,40 @@ Sources reviewed:
 - https://commons.wikimedia.org/wiki/File:Magnetic_Vector_Potential_Circular_Toroid.svg
 
 **Historical status at the time of discovery only:** these candidates were not selected. The search was superseded by the four integrated original panels recorded as PHY-14-001. The former Chapter 14 placeholder is no longer present. Current internal scientific, rights, bilingual/accessibility and responsive browser checks are recorded in IMAGE_AUDIT.md; external expert review is a separate post-publication activity.
+
+
+## Chapter 02 — Newton's Laws item-level visual register (2026-11-05)
+
+The Chapter 02 interactive book contains **13 registered 3D scene assemblies**. These are code-rendered interactive visual units, not 13 separate raster image files. Each assembly is mapped to one page descriptor and one PLATES breakdown entry.
+
+### B. Interactive 3D book — inherited scene assemblies with Russian-localised visual text
+
+- Original creator/rightsholder: Nathan Liow.
+- Pinned upstream source: [newton/world.js](https://github.com/nathanliow/atlas-of-physics/blob/bcd67d9b75425f4a78f5c7c1d17a2d0614727309/newton/world.js), [newton/pages.js](https://github.com/nathanliow/atlas-of-physics/blob/bcd67d9b75425f4a78f5c7c1d17a2d0614727309/newton/pages.js), and [newton/model.js](https://github.com/nathanliow/atlas-of-physics/blob/bcd67d9b75425f4a78f5c7c1d17a2d0614727309/newton/model.js).
+- Local implementation: `original-engine/newton/world.js`, `pages.js`, `model.js`, `main.js`.
+- File-level comparison at pinned upstream commit `bcd67d9b75425f4a78f5c7c1d17a2d0614727309`: `model.js` is byte-identical to upstream. In `world.js`, all line-level differences are learner-facing strings (titles, labels, object names, decimal/unit localisation); the geometry, transforms, force-vector construction and scene-update logic are unchanged. `pages.js` and `practice.js` contain the Russian text adaptation and local educational/formatting changes. `main.js` contains Russian readouts and a local chart-cursor range adjustment.
+- Source relationship: inherited 3D scene construction and scientific model, with Russian titles, object names, force labels, units and explanations. Because the rendered in-scene text is localised, classify the scene as **Category B (adapted/localised inherited visual)**, not Category C.
+- Rights basis: upstream MIT License; preserve Copyright (c) 2026 Nathan Liow and the complete MIT notice. Three.js 0.186.1 is a separate MIT-licensed dependency and is documented in `THIRD_PARTY_NOTICES.md`. The source module uses programmatic Three.js geometry/materials; no external raster image or texture artwork was identified in the local Newton scene module. The upstream cover image `img/newton.jpg` is not present in the local Physics branch and is not counted as an integrated visual.
+- The MIT software licence is not treated as blanket clearance for unrelated third-party assets. No such third-party artwork was identified in these 13 local scene assemblies.
+- Access date: 2026-11-05.
+- Internal scientific and visual review is still pending at this inventory point; no item is marked VERIFIED here.
+
+| Visual ID | Assembly key | EN source concept | RU local concept / learner-facing visual meaning | Local / upstream source | Category / status |
+|---|---|---|---|---|---|
+| PHY-02-001 | rest | A block at rest; weight and normal force balance | Неподвижный блок; сила тяжести и реакция опоры равны и противоположны | `original-engine/newton/world.js` / `newton/world.js` | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-002 | glide | A block gliding at constant velocity with zero resultant force | Скользящий блок; постоянная скорость при нулевой равнодействующей | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-003 | second | Equal applied force on blocks of different masses | Одинаковая сила для тел разной массы; сравнение ускорений по (a=F/m) | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-004 | friction | Static friction, breakaway and kinetic friction | Трение покоя, начало скольжения и трение скольжения | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-005 | third | Newton's third-law contact pair between two blocks | Пара сил взаимодействия двух блоков: (F_{A\to B}) и (F_{B\to A}) | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-006 | incline | Weight components on a frictionless inclined plane | Разложение силы тяжести на составляющие вдоль и перпендикулярно наклонной плоскости | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-007 | tension | One vertical string and two angled strings supporting a block | Натяжение одной нити и двух наклонных нитей; горизонтальные и вертикальные составляющие | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-008 | plane | Aircraft in level flight; lift/weight and thrust/drag balance | Самолёт в горизонтальном полёте; две пары уравновешенных сил | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-009 | car | Accelerating car; forward static friction and backward air drag | Разгон автомобиля; трение покоя со стороны дороги и сопротивление воздуха | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-010 | tug | Two skaters pulling a light rope; centre of mass remains fixed | Два конькобежца тянут верёвку; центр масс системы остаётся неподвижным | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-011 | board | A block on a pulled board; internal friction pair and centre-of-mass acceleration | Брусок на тянущейся доске; пара внутренних сил трения и ускорение центра масс | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-012 | drag | Falling ball with linear drag (F_d=bv) approaching terminal speed | Падающий шар с линейным сопротивлением; приближение к предельной скорости | same | B — source lineage and MIT basis mapped; internal scene review pending |
+| PHY-02-013 | honey | Steel ball sinking in honey; Stokes drag, buoyancy and terminal speed | Стальной шар в мёде; сопротивление Стокса, выталкивающая сила и предельная скорость | same | B — source lineage and MIT basis mapped; internal scene review pending |
+
+**Mapping integrity:** the 13 page descriptors in `pages.js`, the 13 `PLATES` breakdown keys, and the 13 literal `asm(...)` scene assemblies in `world.js` match exactly. There are no missing, orphaned or duplicated top-level scene IDs. Internal meshes, force arrows, labels, graph elements and stroboscopic ghost objects are components of these scene units and are not counted again as separate assets.
+
+**Do not mark VERIFIED yet:** each scene still requires visual/scientific inspection against its displayed explanation, confirmation of vector directions and scales, label/alt-text review, and desktop/mobile screenshot review.
