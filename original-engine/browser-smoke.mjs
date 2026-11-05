@@ -213,7 +213,7 @@ async function checkChapterPage() {
       throw new Error('Projectile graph is missing its two-panel accessible description or rendered canvas');
     }
     const staticGraphs = page.locator('main svg[aria-labelledby="kin-graphs-title kin-graphs-desc"]');
-    const staticGraphText = await staticGraphs.innerText();
+    const staticGraphText = await staticGraphs.evaluate(el => el.textContent || '');
     if (!(await staticGraphs.count()) || !staticGraphText.includes('Координата y') ||
         !staticGraphText.includes('Скорость vᵧ') || !staticGraphText.includes('Ускорение aᵧ')) {
       throw new Error('Chapter 1.4 static graphs do not expose three separately labelled physical quantities');
