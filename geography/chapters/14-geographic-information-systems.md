@@ -455,8 +455,9 @@ A file format or standard interface alone does not guarantee quality or interope
 
 ## 14.13. Картографическая визуализация и дизайн / Cartographic Visualisation and Design
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-D / IMAGE PLACEHOLDER 14-D]** Примеры последовательной, расходящейся и качественной цветовых шкал и корректного выбора тематического способа отображения.
-> **EN:** Examples of sequential, diverging and qualitative colour schemes, with appropriate thematic mapping choices.
+![Последовательная, расходящаяся и качественная цветовые шкалы и подходящие типы данных / Sequential, diverging and qualitative colour schemes and their suitable data types](../assets/diagrams/14-D-map-colour-schemes-bilingual.svg)
+
+*Выбирайте палитру по смыслу данных; цвет дополняйте подписями и контрастом. / Match the palette to the data meaning; supplement colour with labels and contrast.*
 
 Карта — средство передачи пространственной информации, а не просто изображение данных. Её оформление должно соответствовать цели, аудитории и масштабу.
 
@@ -1056,5 +1057,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 15. QGIS Documentation. **Network Analysis: Service Area.** Explains reachable road-network edges by distance or time, shortest/fastest strategies and ellipsoid-based measurement. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/networkanalysis.html
 16. QGIS Documentation. **Topology Checker.** Rules for gaps, duplicates, invalid geometries and network connectivity. https://docs.qgis.org/3.44/en/docs/user_manual/plugins/core_plugins/plugins_topology_checker.html
 17. GDAL Documentation. **Geometry Validity.** Explains geometry validation and its limits, including the distinction between individual geometry validity and coverage gaps/overlaps. https://gdal.org/en/stable/user/geometry_validity.html
+18. Scottish Government Design System. **Using colour in maps.** Guidance on choosing sequential, diverging and qualitative palettes and checking contrast/accessibility. https://designsystem.gov.scot/guidance/maps/using-colour-in-maps
+19. QGIS Documentation. **Setting a Colour Ramp.** Official description of sequential and other colour-ramp construction in QGIS. https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html
+
 ---
 **Конец главы 14 / End of Chapter 14**
