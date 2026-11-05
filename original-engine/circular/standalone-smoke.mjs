@@ -54,7 +54,32 @@ async function run(mobile) {
     const fs = await import('node:fs/promises');
     await fs.mkdir(dir, { recursive: true });
     await page.screenshot({ path: `${dir}/${mobile ? 'mobile' : 'desktop'}-model-and-quiz.png`, fullPage: true });
-    console.log(`PASS circular standalone ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — controls, recalculation, quiz, overflow 0, axe serious/critical 0`);
+
+    // Also inspect the interactive-book chrome: on phones the mouse hint must
+    // give way to the touch selector, and the selector must sit below the title.
+    const book = await context.newPage();
+    const bookResponse = await book.goto(`${base}/original-engine/circular/`, { waitUntil: 'domcontentloaded' });
+    if (!bookResponse?.ok()) throw new Error(`interactive book HTTP ${bookResponse?.status() ?? 'missing'}`);
+    await book.waitForSelector('.scene-picker');
+    await book.waitForFunction(() => {
+      const canvas = document.querySelector('#gl');
+      return canvas && canvas.width > 100 && canvas.height > 100;
+    });
+    const chrome = await book.evaluate(() => {
+      const rect = el => { const r = el.getBoundingClientRect(); return { top: r.top, bottom: r.bottom, left: r.left, right: r.right }; };
+      return {
+        hintDisplay: getComputedStyle(document.querySelector('#hint')).display,
+        title: rect(document.querySelector('#figtitle')),
+        picker: rect(document.querySelector('.scene-picker')),
+        figure: rect(document.querySelector('.figure'))
+      };
+    });
+    if (mobile && chrome.hintDisplay !== 'none') throw new Error('mobile mouse hint should be hidden');
+    if (mobile && chrome.picker.top < chrome.title.bottom - 2) throw new Error('mobile scene picker overlaps the scene title');
+    if (await book.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('interactive book horizontal overflow');
+    await book.screenshot({ path: `${dir}/${mobile ? 'mobile' : 'desktop'}-book-chrome.png`, fullPage: false });
+    await book.close();
+    console.log(`PASS circular standalone ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — controls, recalculation, quiz, responsive book chrome, overflow 0, axe serious/critical 0`);
   } catch (error) {
     failures.push(`circular standalone ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
   } finally {
