@@ -914,7 +914,7 @@ Flora and fauna are connected through pollination, seed dispersal, food webs and
 - Institute of Biology, National Academy of Sciences of the Kyrgyz Republic. **Подготовка новой Красной книги Кыргызской Республики**, 14 October 2026; agreement dated 5 June 2026, 24-month project, planned publication June 2028. https://ibnaskr.org/red-data-book-kyrgyzstan-project-2026-2028/
 - Kubanychbekov, Z. et al. (2026). **Snow Leopard (*Panthera uncia*) — Status in Kyrgyzstan.** *Snow Leopard Reports*, 5: 26–33. DOI: 10.56510/slr.v5.63883. The article reports the PASK 2020–2024 national assessment (approximately 300 adults; 95% CI 246–366; 905 camera traps at 589 locations) and states that it did not undergo external peer review.
 - Kabar. **Snow leopard population exceeds up to 550 individuals in Kyrgyzstan**, 9 March 2026; reports the Ministry's public estimate. https://en.kabar.kg/news/snow-leopard-population-exceeds-up-to-550-individuals-in-kyrgyzstan/
-- 24.kg. **Poaching contributed to decline in Kyrgyzstan’s snow leopard population**, 27 October 2026; quotes the head of the Ministry's biodiversity department giving an estimate of around 500–550. https://24.kg/biznes/
+- 24.kg. **Poaching contributed to decline in Kyrgyzstan’s snow leopard population**, 27 October 2026; quotes the head of the Ministry's biodiversity department giving an estimate of around 500–550. https://24kg.bemint.pro/en/article/poaching-contributed-to-decline-in-kyrgyzstans-snow-leopard-population
 - IUCN. **The IUCN Red List of Threatened Species**. https://www.iucnredlist.org/
 - CITES. **The CITES Appendices**. https://cites.org/eng/app/appendices.php
 - Convention on Biological Diversity. **Kunming–Montreal Global Biodiversity Framework**. https://www.cbd.int/gbf
