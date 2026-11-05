@@ -11,7 +11,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 
 ## 10.1. Предмет и задачи политической географии / Scope of Political Geography
 
-Политическая география — отрасль общественной географии, изучающая пространственную организацию политической жизни. Она исследует, как власть, государственные институты, границы, выборы, политические процессы и международные отношения связаны с территорией, населением, ресурсами, инфраструктурой и географическим положением.
+Политическая география — раздел географии, который изучает, как политическая жизнь организована в пространстве. Она рассматривает связи власти, государственных институтов, границ, выборов и международных отношений с территориями, населением, ресурсами, инфраструктурой и географическим положением.
 
 Политическая география рассматривает несколько взаимосвязанных масштабов:
 - **локальный:** муниципалитеты, районы, местные сообщества и доступность государственных услуг;
@@ -277,7 +277,7 @@ This is a unit conversion, not a method for independently drawing a legally vali
 
 ### 10.1. Scope of Political Geography
 
-Political geography is a branch of human geography that studies the spatial organisation of political life. It examines how power, state institutions, borders, elections, political processes and international relations are connected with territory, population, resources, infrastructure and geographic location.
+Political geography is a branch of human geography that studies how political life is organised across space. It examines how power, state institutions, borders, elections and international relations are connected with territories, populations, resources, infrastructure and geographic location.
 
 Political geography considers several interconnected scales:
 - **local:** municipalities, districts, local communities and access to public services;
