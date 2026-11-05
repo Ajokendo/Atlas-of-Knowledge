@@ -483,3 +483,11 @@ Both files passed static SVG source checks and their chapter embeds resolve to e
 | 19-J | Kyrgyz Republic BTR1 (2025) identifies adaptation priority sectors; UNDP climate-risk infographic provides examples of adaptation actions. The diagram summarises six grouped sectors and illustrative measures without making local forecasts or a one-size-fits-all plan. | C — original hand-coded SVG; sources cited in Chapter 19. Project licence PENDING. | INTEGRATED; source alignment PASS; live render and rights PENDING. |
 
 Both assets passed static SVG and chapter-embed checks. No external figure is reproduced. Public release remains conditional on project licence assignment, accessibility and rendered QA.
+
+
+### Chapter 11-G — tourism destination system
+
+**Image-first discovery record:** UNESCO's destination-management guide defines a destination through its attractions, accommodation, transport hubs, food/services, retail and resident community. UN Tourism's mountain-tourism material highlights the interaction of landscapes, biodiversity and local communities. These sources fit the educational objective, but no third-party figure was copied. An original bilingual systems diagram was authored to connect assets, infrastructure, services, visitors, communities, governance and environmental limits.
+
+- Category C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING.
+- Status: INTEGRATED; conceptual content and RU/EN labels PASS; rights, accessibility and live rendering PENDING.
