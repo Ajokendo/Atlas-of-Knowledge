@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 920" role="img" aria-labelledby="title desc">
+<title id="title">Макрорегионы Азии / Macro-regions of Asia</title>
+<desc id="desc">Карта рельефа Азии с пятью макрорегионами, показанными в исследовании Dou et al. 2018: Западная, Центральная, Южная, Восточная и Юго-Восточная Азия. Справа дан двуязычный список. Границы воспроизводят регионализацию исследования и не являются официальной картой UN M49. / Relief map of Asia with five macro-regions shown in the study by Dou et al. (2018): West, Central, South, East and Southeast Asia. A bilingual list is provided at right. Boundaries reproduce the study's regionalisation and are not an official UN M49 map.</desc>
+<style>.h{font:700 25px Arial,sans-serif;fill:#17324d}.t{font:21px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.panel{fill:#f7fafb;stroke:#617d89;stroke-width:2}</style>
+<rect width="1200" height="920" fill="#fff"/>
+<image href="https://www.mdpi.com/ijerph/ijerph-15-01893/article_deploy/html/images/ijerph-15-01893-g001.png" x="0" y="0" width="900" height="900" preserveAspectRatio="xMidYMid meet"/>
+<rect x="920" y="25" width="255" height="850" rx="18" class="panel"/>
+<text x="1047" y="70" text-anchor="middle" class="h">Макрорегионы Азии</text>
+<text x="1047" y="103" text-anchor="middle" class="s">Asia's macro-regions</text>
+<g>
+<text x="950" y="170" class="t">Западная Азия</text><text x="950" y="200" class="s">West Asia</text>
+<text x="950" y="285" class="t">Центральная Азия</text><text x="950" y="315" class="s">Central Asia</text>
+<text x="950" y="400" class="t">Южная Азия</text><text x="950" y="430" class="s">South Asia</text>
+<text x="950" y="515" class="t">Восточная Азия</text><text x="950" y="545" class="s">East Asia</text>
+<text x="950" y="630" class="t">Юго-Восточная Азия</text><text x="950" y="660" class="s">Southeast Asia</text>
+</g>
+<path d="M950 710 H1145" stroke="#91a5ad" stroke-width="2"/>
+<text x="950" y="755" class="s">Границы — по исследованию</text>
+<text x="950" y="780" class="s">Dou et al. (2018), не UN M49.</text>
+<text x="950" y="815" class="s">Boundaries follow the study,</text>
+<text x="950" y="840" class="s">not the official UN M49 map.</text>
+<text x="450" y="910" text-anchor="middle" class="s">Основа: Dou et al. (2018), Figure 1, CC BY 4.0; карта рельефа и регионов Азии. / Base: Dou et al. (2018), Figure 1, CC BY 4.0; Asia relief and regional divisions.</text>
+</svg>
