@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Орографические регионы Тянь-Шаня и Памиро-Алая / Orographic regions of the Tien Shan and Pamir-Alay</title>
+<desc id="desc">Схематическое районирование горных систем Кыргызстана с выделением Северного, Западного, Внутреннего и Центрального Тянь-Шаня и Памиро-Алая. Схема не является картой границ или тектонических террейнов. / Schematic regionalisation of Kyrgyzstan's mountain systems, distinguishing the Northern, Western, Inner and Central Tien Shan and the Pamir-Alay. This is not a boundary map or a tectonic-terrane map.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:21px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.panel{stroke:#fff;stroke-width:4}</style>
+<rect width="1200" height="650" fill="#fff"/><text x="600" y="52" text-anchor="middle" class="h">Орографическое районирование / Orographic regionalisation</text>
+<rect x="90" y="125" width="1020" height="430" rx="25" fill="#f4f7f8" stroke="#607e8b" stroke-width="2"/>
+<rect x="130" y="170" width="940" height="90" rx="15" fill="#d8e7ef" class="panel"/><text x="600" y="208" text-anchor="middle" class="t">Северный Тянь-Шань / Northern Tien Shan</text><text x="600" y="238" text-anchor="middle" class="s">Киргизский, Кунгей и Терскей Ала-Тоо / Kyrgyz, Kungey and Terskey Ala-Too</text>
+<rect x="130" y="275" width="455" height="100" rx="15" fill="#e4ecd8" class="panel"/><text x="357" y="315" text-anchor="middle" class="t">Западный Тянь-Шань</text><text x="357" y="345" text-anchor="middle" class="s">Western Tien Shan</text>
+<rect x="605" y="275" width="465" height="100" rx="15" fill="#eee4cf" class="panel"/><text x="837" y="315" text-anchor="middle" class="t">Внутренний Тянь-Шань</text><text x="837" y="345" text-anchor="middle" class="s">Inner Tien Shan</text>
+<rect x="130" y="390" width="455" height="100" rx="15" fill="#dce7e4" class="panel"/><text x="357" y="430" text-anchor="middle" class="t">Центральный Тянь-Шань</text><text x="357" y="460" text-anchor="middle" class="s">Central Tien Shan</text>
+<rect x="605" y="390" width="465" height="100" rx="15" fill="#e6dce9" class="panel"/><text x="837" y="430" text-anchor="middle" class="t">Памиро-Алай</text><text x="837" y="460" text-anchor="middle" class="s">Pamir-Alay</text>
+<text x="600" y="600" text-anchor="middle" class="s">Схема показывает учебную группировку; границы и состав хребтов уточняются по выбранной орографической классификации. / Teaching schematic only; boundaries and range membership depend on the selected orographic classification.</text>
+</svg>
