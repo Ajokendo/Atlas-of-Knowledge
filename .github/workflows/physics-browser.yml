@@ -59,6 +59,7 @@ jobs:
           path: /tmp/physics-visual-review/chapter1/*.png
           if-no-files-found: warn
       - name: Test Chapter 2 Newton laws on desktop and mobile viewports
+        if: always()
         run: node original-engine/newton-smoke.mjs
       - name: Upload Chapter 2 Newton visual review screenshots
         if: always()
