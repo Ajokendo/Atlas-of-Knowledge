@@ -16,6 +16,15 @@
 - критически читать карту и оценивать происхождение географических данных;
 - применять географический подход к повседневным и глобальным проблемам.
 
+After studying this chapter, readers will be able to:
+
+- explain what geography studies and why it connects the natural and social sciences;
+- distinguish geographical space, territory, place, scale and spatial process;
+- describe the relationship between physical and human geography;
+- explain the role of observation, fieldwork, statistics, maps, GIS and remote sensing;
+- read maps critically and assess the provenance of geographical data; and
+- apply geographical thinking to everyday and global issues.
+
 ## 1.1. Что такое география? / What Is Geography?
 ![Схема географии как системы: природные компоненты, население, города, экономика, культура и транспорт взаимосвязаны. / Geography as a system: natural components, population, cities, economy, culture and transport are interconnected.](../assets/diagrams/01-A-geography-spatial-system.svg)
 
@@ -148,7 +157,7 @@
 *01-E. Авторская условная схема масштаба исследования; это не серия географических карт и не иллюстрация масштаба карты. / Original schematic of analytical scale; not a set of geographic boundary maps or an illustration of cartographic scale. Лицензия / Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Атрибуция / Attribution: Atlas of Knowledge project.*
 
 ## 1.7. Методы географического исследования / Methods of Geographical Research
-![Шесть этапов географического исследования: вопрос, сбор данных, проверка, пространственный анализ, карта, интерпретация и сообщение результатов. / Six stages of geographical research: question, data collection, validation, spatial analysis, mapping, interpretation and communication.](../assets/diagrams/01-C-geographical-research-cycle.svg)
+![Шесть этапов географического исследования: постановка вопроса, сбор данных, проверка, пространственный анализ, картографическое представление, интерпретация и сообщение результатов. / Six stages of geographical research: framing a question, collecting evidence, validating data, analysing spatial relationships, mapping results, and interpreting and communicating findings.](../assets/diagrams/01-C-geographical-research-cycle.svg)
 
 *01-C. Авторская двуязычная схема; последовательность отражает итеративный характер исследования. / Original bilingual schematic; the sequence reflects the iterative nature of research. Лицензия / Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Атрибуция / Attribution: Atlas of Knowledge project.*
 
@@ -239,6 +248,8 @@
 
 **Проверьте себя:** чему соответствует 3 см на карте масштаба 1:100 000?
 
+**Ответ для самопроверки:** 3 км.
+
 ### Worked Example: Reading a Map Scale
 
 Suppose a map has a representative fraction of **1:50,000**. This means that one unit of length on the map represents 50,000 of the same units on the ground.
@@ -258,6 +269,8 @@ The 2 km is a straight-line distance, not the length of a road or travel time. T
 
 **Check your understanding:** What ground distance does 3 cm represent on a map with a scale of 1:100,000?
 
+**Self-check answer:** 3 km.
+
 ---
 
 ### 1.10.2. Как масштаб анализа меняет географический вывод / How the Scale of Analysis Changes a Geographic Conclusion
@@ -269,6 +282,8 @@ The 2 km is a straight-line distance, not the length of a road or travel time. T
 **Как избежать ошибки:** формулировать вывод на том же уровне, на котором собраны данные; сравнивать несколько вариантов территориального деления; показывать распределение, а не только среднее; не делать выводы об отдельных людях по агрегированной статистике районов (экологическая ошибка).
 
 **Задание.** Представьте данные о среднем времени поездки до школы по районам города. Объясните, какие выводы допустимы для районов и города, и почему районное среднее не определяет время поездки конкретного ученика.
+
+### 1.10.2. How the Scale of Analysis Changes a Geographic Conclusion
 
 The same process may look different at the scale of a household, neighbourhood, city, region or country. When scale changes, not only map detail but also units of observation, averages and visible relationships may change.
 
