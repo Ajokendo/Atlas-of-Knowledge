@@ -1136,3 +1136,8 @@ The previously noted Baydastann photograph `Ала-Арча улуттук жа�
 **Decision: do not integrate this candidate.** The original is a strongly backlit, underexposed vertical roadside view dominated by dark conifer silhouettes and a road edge. It adds little educational information beyond the already integrated Ala-Archa mountain-forest photograph and is visually weaker. This is an editorial-quality rejection, not a rights rejection. No original was downloaded, no WebP was produced, and no mapped brief or chapter was changed.
 
 This closes the current preselected Chüy image shortlist: six accepted photographs in one completed brief; two Rufous-naped Tit photos held for taxonomic resolution; one low-value redundant landscape candidate rejected. Do not reopen broad Chüy landscape searches merely to increase the photo count.
+
+
+## Governance clarification — 5 November 2026
+
+References in this historical source audit to an item needing “independent” or “expert” review describe an evidence limitation, not a task to obtain external expertise. External review and specialist sign-off are excluded from Atlas of Knowledge. The internal team must instead retain the record as unconfirmed/candidate, seek stronger published primary evidence where available, or omit/qualify the species identification. Do not promote an uncertain community identification to a confirmed record. Any external assessment is separate from this project and must not be tracked here.
