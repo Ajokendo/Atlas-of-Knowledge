@@ -1424,7 +1424,7 @@ The designated internal reviewer for this development pass is ChatGPT GPT-6. Spe
 - RU/EN visual parity: PASS 19/19. All 40 Markdown image embeds have non-empty bilingual alt text; the 19 visual IDs are present in both language sections. The section-heading inventory is now aligned 40/40 after adding the missing English subsection headings 2.2.1–2.2.4 and 2.9.1–2.9.2.
 - The review found that 2-D had three reservoir labels only in English. Added matching Russian labels in the SVG; commit `56efa613470a001472391dcc887434eaaca13957`. A second static text-node pass found no remaining unpaired labels in the 11 local Chapter 02 SVGs.
 - Static SVG QA: PASS 11/11 for root/viewBox, title/description, `role="img"`, unique IDs and valid ARIA targets; no scripts, foreignObject or externally embedded image content. This does not prove rendered legibility or screen-reader behaviour.
-- Rights: PASS where an exact source/reuse basis is recorded (NOAA, USGS, NCAR/Wikimedia CC0, Theobald et al. CC BY 4.0, NASA); 2.10-A is separately PASS on its U.S. Public Domain basis. The 8 remaining original project SVGs are NOT CLEARED — no public licence is asserted; their embedded rights notices and administrative closure are recorded below. The 2.5-A, 2.12-A and 2.14-A SVGs have since been removed and replaced by sourced diagrams with recorded reuse terms.
+- Rights: PASS where an exact source/reuse basis is recorded (NOAA, USGS, NCAR/Wikimedia CC0, Theobald et al. CC BY 4.0, NASA); 2.10-A is separately PASS on its U.S. Public Domain basis. The 7 remaining original project SVGs are NOT CLEARED — no public licence is asserted; their embedded rights notices and administrative closure are recorded below. The 2.5-A, 2.12-A and 2.14-A SVGs have since been removed and replaced by sourced diagrams with recorded reuse terms.
 - Accessibility: PARTIAL for all assets. Bilingual alt text and SVG title/description metadata are present; actual assistive-technology output has not been tested.
 - Technical integration: PARTIAL PASS for source/image retrieval and static SVG checks. Live deployed reader, responsive breakpoints, keyboard navigation and screen-reader checks remain PENDING because this branch has no established preview deployment. Do not mark the 19 assets fully VERIFIED.
 - School trials, teacher review and external expert assessment are excluded from this development-stage completion score, in accordance with the project owner's instruction.
@@ -1478,7 +1478,7 @@ The first feedback-image candidate considered from SERC's separate *Carbon on th
 - The exact Commons file pages identify the source as USGS material and state Public Domain in the United States. Both captions name Jose F. Vigil/USGS, link the exact file page, and explicitly limit the rights statement to the United States; no worldwide public-domain claim is made.
 - Both files were opened and visually inspected. The Russian graphic includes labels for transform motion, spreading, subduction and rifting; the English graphic shows convergent, transform, divergent and continental-rift settings. Bilingual alt text and source/rights captions are present.
 - Removed `geography/assets/diagrams/02-5A-plate-boundary-types.svg` from `workspace/geography` after replacement. The unlicensed local SVG is no longer present as a Chapter 02 asset.
-- Chapter 02 inventory is now 44 Markdown embeds across both languages, 22 unique assets: 15 remote images and 8 remaining local SVGs. The 2.5-A and 2.12-A visual IDs each use two image files per language.
+- Chapter 02 inventory is now 44 Markdown embeds across both languages, 22 unique assets: 16 remote images and 7 remaining local SVGs. The 2.5-A and 2.12-A visual IDs each use two image files per language.
 - Rights result for 2.5-A: PASS on the source-recorded U.S. Public Domain basis, with jurisdiction caveat. Technical result remains PARTIAL: source files and captions are checked, but deployed reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
 
 
@@ -1488,7 +1488,7 @@ The first feedback-image candidate considered from SERC's separate *Carbon on th
 - The official downloads page explicitly permits reuse of its figures under CC BY 4.0 and requires the credit “Planetary Boundaries Science (PBScience), 2026”. Both captions include that credit, the source page, the licence and the warning that the figure represents a global assessment, not a country-level score.
 - The exact JPEG was opened and visually inspected. The figure is the 2026 edition and matches the chapter's 2026 framing; no older year or boundary count has been substituted.
 - Removed `geography/assets/diagrams/02-14A-planetary-boundaries-2026.svg` from `workspace/geography` after replacement. The unlicensed local SVG is no longer present as a Chapter 02 asset.
-- Chapter 02 image inventory remains 42 Markdown embeds and 22 unique assets, now 15 remote images and 8 remaining local SVGs. The 2.14-A visual ID continues to have one image in each language.
+- Chapter 02 image inventory remains 42 Markdown embeds and 22 unique assets, now 16 remote images and 7 remaining local SVGs. The 2.14-A visual ID continues to have one image in each language.
 - Rights result for 2.14-A: PASS under CC BY 4.0. Technical result remains PARTIAL: the source image and captions were checked, but deployed reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
 
 
@@ -1498,7 +1498,7 @@ The first feedback-image candidate considered from SERC's separate *Carbon on th
 - Current 2.5-A uses three separate S-INK figures: divergent, convergent and transform boundaries. Each exact page identifies Fabio Crameri as creator, version 23 August 2021, cites Crameri, Shephard & Conrad (2019), and states CC BY-SA 4.0 International.
 - The three image files were opened and visually inspected. Bilingual alt text identifies each boundary process. Both language sections carry creator, source, date, citation and licence attribution. The images are used without modification.
 - The earlier USGS images are no longer embedded in the chapter. The current rights result for 2.5-A is PASS under CC BY-SA 4.0 International, replacing the earlier U.S.-only Public Domain basis.
-- Chapter 02 now has 46 Markdown image embeds, 23 unique assets: 15 remote images and 8 remaining local SVGs. This increase reflects three boundary figures in each language instead of one figure per language.
+- Chapter 02 now has 46 Markdown image embeds, 23 unique assets: 16 remote images and 7 remaining local SVGs. This increase reflects three boundary figures in each language instead of one figure per language.
 
 
 ### 2.8-A delivery limitation — 5 November 2026
@@ -1509,3 +1509,13 @@ The Open University OpenLearn Figure 1.7 remains the strongest subject-fit candi
 ### 2.2-A discovery update — 5 November 2026
 
 A stronger rights-documented candidate was identified in LibreTexts *The Physical Environment* (Michael E. Ritter), Figure 2.3.1, “The Earth System” (after Christopherson, 2005). The page explicitly carries CC BY-SA 4.0 and describes flows of energy and matter among the four spheres, with solar energy, Earth's internal heat and lunar gravity. The figure is credited to Michael E. Ritter via *The Physical Environment*. The image file is `spheres3.jpg` (23,607 bytes), but the stable file endpoint redirects to a signed storage URL that the verification client cannot retrieve; direct download also failed. This is therefore a conditional candidate only, not an integrated replacement. Do not embed until a stable asset endpoint or properly obtained local copy is available.
+
+
+## Chapter 02 — fourth rights-cleared replacement integrated — 5 November 2026
+
+- Replaced 2.2-A in both Russian and English chapter sections with Michael E. Ritter's *The Physical Environment* Figure 2.3.1, “The Earth System” (after Christopherson, 2005), distributed via LibreTexts.
+- The exact image file `spheres3.jpg` (23,607 bytes) was opened from the stable The Physical Environment endpoint and visually inspected. The corresponding LibreTexts figure page identifies the author/source and is explicitly CC BY-SA 4.0.
+- Both language captions credit Michael E. Ritter, *The Physical Environment*, Figure 2.3.1, and link the LibreTexts source page and licence. The caption clarifies that the arrows show conceptual exchanges, not measured fluxes.
+- Removed `geography/assets/diagrams/02-2A-four-spheres-interactions.svg` from `workspace/geography` after replacement. The unlicensed local SVG is no longer a public-facing Chapter 02 asset.
+- Chapter 02 now has 46 Markdown image embeds and 23 unique assets: 16 remote images and 7 remaining local SVGs. The number of embeds is unchanged because one image per language was replaced by one image per language.
+- Rights result for 2.2-A: PASS under CC BY-SA 4.0. Technical result remains PARTIAL: source and direct image file are checked, but deployed reader rendering, responsive behaviour, keyboard navigation and screen-reader output remain untested.
