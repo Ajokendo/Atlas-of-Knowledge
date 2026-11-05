@@ -194,3 +194,10 @@ The 39/97 scoped count above is superseded after integrating 20-C and 20-D:
 | **Total** | **97** | **41** | **56** |
 
 Chapter 20-C compares published lake surface areas only; it does not claim to be the required map or full morphometric comparison. Depth and origin are excluded because available sources differ. Chapter 20-D shows the five-plant Lower Naryn sequence and the cited 2,870 MW aggregate capacity; it does not infer individual plant capacities. Both embeds and SVG files were checked on the working branch and passed static source checks. Browser, mobile, accessibility, project licence and specialist sign-off remain open.
+
+
+## Seventh-tranche update — Chapter 20-E — 5 November 2026
+
+Chapter 20-E (transboundary water-management schematic) is now integrated. Current Chapter 20 coverage is 8/11 (20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K); 20-A, 20-B and 20-G remain open. Across Chapters 11–20 the current scoped total is **42/97 integrated; 55 missing**.
+
+20-E is a conceptual comparison of Chu–Talas cooperation and Naryn–Syr Darya reservoir/hydropower/irrigation coordination. It is not a georeferenced basin map or quantified allocation chart. Rights, browser rendering and accessibility review remain open.
