@@ -812,6 +812,7 @@ NDVI \approx 0.67
 
 12. Copernicus Data Space Ecosystem. **Sentinel-1 constellation update (30 June 2026)** — end of operations of Sentinel-1A and operational status of Sentinel-1C and Sentinel-1D. https://dataspace.copernicus.eu/news/2026-6-30-copernicus-sentinel-1a-satellite-end-operations-after-12-years-service
 13. United States Geological Survey (USGS). **Landsat Collection 2 Level-2 Science Products and Quality Assessment Bands** — surface-reflectance scaling, product metadata and QA layers. https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products
+14. United States Geological Survey (USGS). **How do I use a scale factor with Landsat Level-2 science products?** Official formula and worked examples for Collection 2 surface reflectance and surface temperature, including fill values and valid ranges. https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products
 
 ---
 **Конец главы 15 / End of Chapter 15**
