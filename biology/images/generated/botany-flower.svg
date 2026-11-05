@@ -56,10 +56,10 @@
 <path d="M925 345Q980 260 1045 345" stroke="#b77a28" stroke-width="4" fill="none" marker-end="url(#arr)" stroke-dasharray="8 7"/>
 <text x="980" y="445" text-anchor="middle" class="lab">Пыльца переносится</text><text x="980" y="470" text-anchor="middle" class="lab">на рыльце пестика</text>
 <text x="980" y="500" text-anchor="middle" class="sm">Pollen is transferred</text><text x="980" y="524" text-anchor="middle" class="sm">to the stigma</text>
-<rect x="820" y="570" width="325" height="180" rx="14" fill="#fff2d8" stroke="#d7b36d" stroke-width="2"/>
+<rect x="820" y="570" width="325" height="230" rx="14" fill="#fff2d8" stroke="#d7b36d" stroke-width="2"/>
 <text x="982" y="610" text-anchor="middle" class="head">Важно / Important</text>
 <text x="842" y="650" class="lab">Опыление ≠ оплодотворение</text>
 <text x="842" y="678" class="sm">Pollination ≠ fertilization</text>
-<text x="842" y="710" class="sm">Оплодотворение происходит позже,</text><text x="842" y="734" class="sm">после роста пыльцевой трубки.</text>
-<text x="982" y="775" text-anchor="middle" class="sm">Обобщённая схема, не в масштабе / Generalized, not to scale</text>
+<text x="842" y="710" class="sm">Оплодотворение происходит позже,</text><text x="842" y="734" class="sm">после роста пыльцевой трубки.</text><text x="842" y="758" class="sm">Fertilization occurs later,</text><text x="842" y="782" class="sm">after the pollen tube grows.</text>
+<text x="600" y="850" text-anchor="middle" class="sm">Обобщённая схема, не в масштабе / Generalized, not to scale</text>
 </svg>
