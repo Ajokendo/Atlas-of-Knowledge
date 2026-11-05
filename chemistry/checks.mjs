@@ -718,6 +718,20 @@ for (const [file, phrases] of [
     if (!svg.includes(phrase)) errors.push("CH-V03: " + file + " must clarify exact Avogadro count and illustrative particle symbols");
   }
 }
+for (const [file, required] of [
+  ["formula-reading.svg", ["Al₂(SO₄)₃", "2 × (2 H + 1 O)", "4 H atoms + 2 O atoms", "Coefficient ≠ subscript"]],
+  ["formula-reading-ru.svg", ["Al₂(SO₄)₃", "2H₂O", "4 атома H + 2 атома O", "Коэффициент и индекс"]]
+]) {
+  const fullPath = path.join(assetRoot, file);
+  if (!fs.existsSync(fullPath)) {
+    errors.push("CH-V04: missing formula-reading visual " + file);
+    continue;
+  }
+  const svg = fs.readFileSync(fullPath, "utf8");
+  for (const phrase of required) {
+    if (!svg.includes(phrase)) errors.push("CH-V04: " + file + " is missing the bilingual formula/coefficient explanation: " + phrase);
+  }
+}
 const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
 if (fs.existsSync(neutralisationSvgPath)) {
   const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
