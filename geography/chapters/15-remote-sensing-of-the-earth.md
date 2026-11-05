@@ -233,8 +233,9 @@ Not all products require the same processing. For example, a surface-reflectance
 
 ## 15.8. Цветовые композиции и визуальная интерпретация / Colour Composites and Visual Interpretation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-H / IMAGE PLACEHOLDER 15-H]** Одна территория в естественной и ложной цветовых композициях; пояснить соответствие спектральных каналов экранным цветам.
-> **EN:** Show the same area in true-colour and false-colour composites, explaining how spectral bands map to display colours.
+![Обработка данных до отражательной способности поверхности / Processing to surface reflectance](../assets/diagrams/15-H-surface-reflectance-processing-bilingual.svg)
+
+*Для готового Level-2 продукта часть обработки уже выполнена; всегда проверяйте коллекцию, масштабный коэффициент, смещение и QA-маски. / Some processing is already complete in Level-2 products; always check collection, scale factor, offset and QA masks.*
 
 
 Мультиспектральные снимки часто отображают как цветовые композиции, назначая отдельные спектральные каналы красному, зелёному и синему цветам экрана.
