@@ -227,6 +227,14 @@ Key issues include food and water security, air pollution, urbanisation, climate
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-F / IMAGE PLACEHOLDER 12-F]** Карта рельефа и крупнейших водных систем Северной Америки с корректными направлениями стока. / **EN:** Relief and major drainage-system map of North America with verified flow directions.
 **Рисунок 12.4 / Figure 12.4 — Рельеф и водные системы Северной Америки / North America's relief and water systems.**  
+
+**Дополнительная карта рельефа / Supplementary relief map**
+
+![Рельеф Северной Америки по данным SRTM: Кордильеры, Великие равнины, Великие озёра и Аппалачи / North American relief from SRTM: Cordillera, Great Plains, Great Lakes and Appalachians](https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia03/pia03377/PIA03377.jpg?crop=faces%2Cfocalpoint&fit=crop&h=1508&w=2000)
+
+*NASA/JPL, PIA03377, 6 March 2003. SRTM data acquired in February 2000; original 1 arc-second (~30 m) data reduced to 30 arcseconds and resampled to a Mercator grid of approximately 1 km pixels. North is up. NASA/JPL credit retained; image used factually without implying endorsement. This is a shaded-relief elevation image, not a named hydrography layer: river names and flow directions must be read from the chapter text or a separate verified hydrographic dataset. / NASA/JPL, PIA03377, 6 March 2003. SRTM data acquired in February 2000; original 1 arc-second (~30 m) data reduced to 30 arcseconds and resampled to a Mercator grid of approximately 1 km pixels. North is up. NASA/JPL is credited; the image is used factually without implying endorsement. This is a shaded-relief elevation image, not a named hydrography layer: river names and flow directions require the chapter text or a separate verified hydrographic dataset.*
+
+*Source: [NASA Photojournal — Shaded Relief with Height as Color, North America](https://science.nasa.gov/photojournal/shaded-relief-with-height-as-color-north-america/). NASA imagery generally may be reused for educational/informational purposes under NASA media-use guidance unless a third-party copyright notice is present.*
 Техническое задание: показать Кордильеры, Великие равнины, Аппалачи, Великие озёра и основные речные системы; отдельными символами обозначить климатические риски без утверждения, что они одинаковы на всей территории.
 
 
