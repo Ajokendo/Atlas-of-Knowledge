@@ -25,7 +25,7 @@
 <rect class="panel" x="820" y="145" width="725" height="430" rx="22"/>
 <text class="h" x="855" y="200">2. Круговой виток / Circular loop</text>
 <ellipse cx="1060" cy="370" rx="145" ry="76" fill="none" stroke="#26384d" stroke-width="13"/>
-<path d="M940 320 Q1000 260 1080 295" fill="none" stroke="#d65b43" stroke-width="5" marker-end="url(#arr)"/><path d="M1180 416 Q1110 470 1040 445" fill="none" stroke="#d65b43" stroke-width="5" marker-end="url(#arr)"/>
+<path d="M1080 295 Q1000 260 940 320" fill="none" stroke="#d65b43" stroke-width="5" marker-end="url(#arr)"/><path d="M1040 445 Q1110 470 1180 416" fill="none" stroke="#d65b43" stroke-width="5" marker-end="url(#arr)"/>
 <path d="M1060 470 L1060 245" class="bvec"/>
 <path d="M1000 400 Q1060 445 1120 400" fill="none" stroke="#2367a8" stroke-width="4" stroke-dasharray="9 8"/>
 <text class="lab" x="1240" y="295">I — против часовой стрелки</text><text class="en" x="1240" y="325">I — counterclockwise (viewed from +axis)</text><text class="en" x="1240" y="325">Loop axis</text>
