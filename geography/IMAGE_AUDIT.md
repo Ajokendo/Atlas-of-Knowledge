@@ -413,7 +413,7 @@ The current `geography/visuals/` directory contains eight SVG assets plus the Ch
 
 The eight SVG files currently present in `geography/visuals/` were fetched from the working branch and checked for basic embedded accessibility metadata. All eight contain an SVG `viewBox`, `role="img"`, `aria-labelledby`, a `<title>` and a `<desc>`. This is a positive static structural check, not a full accessibility pass: title/description quality, reading order, contrast, small-screen legibility and screen-reader output still require content-level and rendered review.
 
-The Chapter 05 Markdown contains 37 image embeds; all 37 have non-empty Markdown alt text. Chapters 18, 19 and 20 contain respectively 1, 1 and 2 local SVG embeds, and all four have non-empty bilingual alt text. These checks establish that alt text is present, not that every alternative is sufficiently descriptive or equivalent in both languages.
+The Chapter 05 Markdown contains 40 image embeds; all 40 have non-empty Markdown alt text. Chapters 18, 19 and 20 contain respectively 1, 1 and 2 local SVG embeds, and all four have non-empty bilingual alt text. These checks establish that alt text is present, not that every alternative is sufficiently descriptive or equivalent in both languages.
 
 **Chapter 05 current evidence state:** local SVG metadata = structural PASS; non-empty Markdown alt text = structural PASS; full scientific review, exact ID-to-asset mapping, rights/source verification for every embedded external image, bilingual semantic equivalence and deployed rendering/accessibility = PENDING.
 
@@ -428,7 +428,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 02 | 21 | Includes both zero-padded and unpadded forms (for example, 02-A/2-A and 02-D/2-D); confirm alias equivalence before counting. |
 | 03 | 14 | Includes legacy 3-A in addition to the 13 numbered subsection IDs; resolve alias or duplicate status. |
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
-| 05 | 8 | Eight distinct ID-shaped tokens appear in the chapter source. A separate embed inventory found 20 distinct image URLs (37 embeds before correction); three bilingual SVGs were present only once, in the Russian section. They have now been added to the English section: 40 embeds, 20 unique URLs, every URL used twice. The visual-ID-to-file grouping and 20-ID register count still need semantic reconciliation. |
+| 05 | 8 | Eight distinct ID-shaped tokens appear in the chapter source. A separate embed inventory found 20 distinct image URLs (40 embeds before correction); three bilingual SVGs were present only once, in the Russian section. They have now been added to the English section: 40 embeds, 20 unique URLs, every URL used twice. The visual-ID-to-file grouping and 20-ID register count still need semantic reconciliation. |
 | 06 | 15 | Matches the current 15-ID inventory. |
 | 07 | 9 | Matches the current inventory. |
 | 08 | 7 | Matches the current inventory. |
@@ -478,7 +478,7 @@ Markdown alt-text checks:
 - Chapters 01–02: the source register records 50 embeds with non-empty bilingual alt text (10 + 40).
 - Chapter 03: 26 embeds representing 13 unique assets; zero empty alt attributes.
 - Chapter 04: 32 embeds representing 16 unique assets; zero empty alt attributes.
-- Chapter 05: 37 embeds; zero empty alt attributes.
+- Chapter 05: 40 embeds (20 RU + 20 EN; 20 distinct URLs in each language, exact parity); zero empty alt attributes.
 - Chapters 18–20: 4 embeds; zero empty alt attributes.
 
 **Result:** structural SVG metadata and non-empty Markdown alt text pass for the checked local assets and chapter embeds. Semantic alt-text quality, bilingual equivalence, scientific correctness, rights evidence and deployed accessibility remain separate and pending checks. No asset is promoted to VERIFIED.
@@ -516,7 +516,7 @@ These checks establish that the expected local files exist, the chapter source r
 
 ### 7.7 Chapter 05 stable-ID anchors added
 
-To make the image-first audit traceable in the chapter itself, non-rendering HTML comments were added immediately before every Markdown image embed in both language sections. Verification after the commit found **37 anchors covering 16 distinct integrated visual IDs**:
+To make the image-first audit traceable in the chapter itself, non-rendering HTML comments were added immediately before every Markdown image embed in both language sections. Verification after the commit found **40 anchors covering 16 distinct integrated visual IDs**:
 `5.1-A`, `5.2-A` (legacy alias `5-A`), `5.3-A`, `5.4-A`, `5.5-A`, `5.6-A`, `5.7-A`, `5.7-B`, `5.8-A`, `5.9-A`, `5.11-A`, `5.12-A`, `5.14-A`, `5.15-A`, `5.16-A` and `5.17-A`. Repeated anchors for the same ID are intentional: Russian and English placements share one asset ID, and 5.8-A groups the official front symbols/cross-section into one teaching visual set.
 
 The bilingual 5.18-A placeholder remains and is not counted as an integrated image. The chapter-level inventory still claims 20 IDs, while the visual source/integration register explicitly names 16 integrated IDs plus 5.18-A. **Two inventory ID positions remain unaccounted for by name** and must be recovered from the original chapter brief/history or removed only after documented reconciliation; do not invent labels. The legacy label 5-A is an alias for 5.2-A, not a separate visual asset. The comments do not alter visible page content.
@@ -536,7 +536,7 @@ A source scan of all chapter files 06–26 found **210 distinct visual IDs** acr
 
 ### Chapter 05 — bilingual image parity correction — 5 November 2026
 
-- The chapter source contained 20 distinct image URLs and 37 Markdown image embeds. Three project-local bilingual SVGs — 5.12-A global climate belts, 5.14-A atmospheric hazards and 5.15-A climate change — appeared only once in the Russian section, despite the visual register claiming bilingual integration.
+- The chapter source contained 20 distinct image URLs and 40 Markdown image embeds. Three project-local bilingual SVGs — 5.12-A global climate belts, 5.14-A atmospheric hazards and 5.15-A climate change — appeared only once in the Russian section, despite the visual register claiming bilingual integration.
 - Added the same three assets to the corresponding English sections, with bilingual alt text, captions and the existing learning limitations preserved.
 - Rechecked the chapter: **40 image embeds, 20 unique URLs, every URL appears exactly twice** (one RU and one EN occurrence). The three SVGs each have a bilingual title, bilingual source text/labels, a viewBox, and no detected script, foreignObject or embedded image element.
 - RU/EN parity for 5.12-A, 5.14-A and 5.15-A is now **PASS** at the chapter-source level. Their creator/rightsholder, project licence, scientific review and rendered technical checks remain PENDING; none is VERIFIED.
@@ -587,3 +587,8 @@ This is a source-tree and chapter-embed finding, not a judgment that these visua
 - The migration does **not** promote the 16 assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the UCAR-hosted IPCC energy-budget figure, NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components.
 - Chapter Markdown parity remains a source-level check only: 40 image embeds, 20 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
 - Chapter 05 source-register coverage is now documented; overall Geography image coverage is still not calculable because the 231-versus-283 inventory discrepancy and two unnamed Chapter 05 inventory slots remain unresolved.
+
+
+### 7.10 Chapter 05 bilingual embed parity rechecked
+
+A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **40 Markdown image embeds: 20 in Russian and 20 in English**. The same 20 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 40 alt-text fields is empty. All 40 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
