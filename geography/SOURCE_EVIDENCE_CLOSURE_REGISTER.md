@@ -1004,3 +1004,10 @@ The five new diagrams are original hand-coded bilingual SVGs. Source references 
 | AF NWRMP, Naryn–Syr Darya basin hydropower section | Source lists five Lower Naryn HPPs and total installed capacity 2,870 MW; separately identifies Kambar-Ata projects | Integrated a not-to-scale sequence diagram. Individual plant capacities are not estimated or apportioned; project-status wording remains subject to later source update. |
 
 The two new visuals are original conceptual/data graphics. They do not close the need for a georeferenced lake map, consistent bathymetric inventory, full reservoir parameter table or plant-by-plant hydropower dataset.
+
+
+### Chapter 20-E — transboundary water-management visual — 5 November 2026
+
+- Existing UNECE material on the Chu–Talas basin, CAWater-Info's Chu–Talas Water Commission yearbook and AF NWRMP Naryn–Syr Darya basin documentation were used to distinguish two different governance settings.
+- The visual is a conceptual side-by-side schematic, not a basin map, treaty diagram or quantitative water-allocation chart. It does not invent seasonal release volumes, national shares or legal obligations.
+- The chapter embed and source-level SVG structure were checked. Rights, live rendering and accessibility review remain open.
