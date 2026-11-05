@@ -147,7 +147,10 @@ export function buildWorld(E) {
   const gL = asm('loop', root, { title: 'Тележка в петле', sub: 'реакция опоры максимальна внизу' });
   const cart = part(gL, box(0.36, CH, 0.24, 0.04), { tone: 'hi', name: 'Тележка' });
   const lN = vec(gL, 'ink', 'm'), lW = vec(gL, 'ink', 'm'), lNet = vec(gL, 'red', 'm'), lV = vec(gL, 'blue', 'm');
-  label('vec', 'F<sub>N</sub>', () => tip(lN)); label('vec', '<i>mg</i>', () => tip(lW)); label('vec red', 'ΣF', () => tip(lNet)); label('vec blue', 'v', () => tip(lV));
+  label('vec', 'F<sub>N</sub>', () => tip(lN).add(V(-0.38, 0.14, 0)));
+  label('vec', '<i>mg</i>', () => tip(lW).add(V(0.38, 0.14, 0)));
+  label('vec red', 'ΣF', () => tip(lNet).add(V(0, -0.28, 0)));
+  label('vec blue', 'v', () => tip(lV).add(V(0.12, 0.18, 0)));
   // opened: free-body diagrams at the top and the bottom, beside the loop
   const fbd = [Math.PI, 0].map(phi => {
     const at = V(phi ? X4 + RL + 0.7 : X4 + RL + 1.4, phi ? C4.y + 0.45 : C4.y - 0.75, 0);
