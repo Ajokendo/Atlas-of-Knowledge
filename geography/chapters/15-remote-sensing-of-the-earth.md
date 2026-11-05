@@ -85,7 +85,9 @@ This chapter introduces the physical principles of remote sensing, the electroma
 
 ## 15.5. Типы спутниковых данных и сенсоров / Satellite Data and Sensor Types
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-B / IMAGE PLACEHOLDER 15-B]** Схема спутниковых платформ и пассивных/активных сенсоров с примерами оптических, тепловых и радиолокационных данных.
+![Пассивные и активные сенсоры ДЗЗ: оптические и тепловые данные, SAR и LiDAR / Passive and active remote-sensing sensors: optical and thermal data, SAR and LiDAR](../assets/diagrams/15-B-active-passive-sensors-bilingual.svg)
+
+*Оригинальная двуязычная схема; возможности и ограничения сенсоров зависят от длины волны, прибора и условий наблюдения. / Original bilingual diagram; sensor capabilities and limitations depend on wavelength, instrument and observing conditions.*
 > **EN:** Diagram of satellite platforms and passive/active sensors, with examples of optical, thermal and radar data.
 
 Спутниковые сенсоры различаются по спектральным каналам, пространственному разрешению, полосе захвата, частоте повторного наблюдения и радиометрической чувствительности.
