@@ -499,3 +499,14 @@ Both assets passed static SVG and chapter-embed checks. No external figure is re
 
 - Category C — original hand-coded SVG; creator/rightsholder and project redistribution licence PENDING.
 - Status: INTEGRATED; source-level concept review PASS; browser, accessibility and rights checks PENDING.
+
+
+## Chapter 13 — eleventh visual integration tranche — 5 November 2026
+
+| Visual ID | Source discovery / decision | Category / rights | Status |
+|---|---|---|---|
+| 13-E | Official IPBES conceptual framework identifies six interlinked social-ecological elements. The original diagram follows the framework's structure but uses a simplified school-level layout. | C — original hand-coded SVG; IPBES is cited as conceptual source, no IPBES figure copied. Project licence PENDING. | INTEGRATED; framework alignment PASS; rights/render/accessibility PENDING. |
+| 13-F | IPCC AR6 WGII observed/projected impact assessments and the AR6 impact-assessment database provide the source framework. Search results included IPCC matrix figures, but these are complex, domain-specific and not reused; a bilingual qualitative matrix was authored with a clear scope caveat. | C — original hand-coded SVG; IPCC sources cited, no figure reproduced. Project licence PENDING. | INTEGRATED; distinction between observations and potential risks PASS; local data and confidence levels remain outside the schematic. |
+| 13-H | IPCC/UNFCCC climate-policy sources and OECD guidance on adaptation indicators reviewed. Original comparison authored to avoid suggesting one universal adaptation metric set. | C — original hand-coded SVG; sources cited in Chapter 13, no third-party figure copied. Project licence PENDING. | INTEGRATED; conceptual distinction PASS; local indicators require contextual design. |
+
+All three assets passed static SVG checks and their chapter embeds resolve. They are INTEGRATED, not VERIFIED; project licence, rendered browser and accessibility QA remain open.
