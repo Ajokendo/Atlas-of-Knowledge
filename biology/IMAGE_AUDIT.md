@@ -412,7 +412,7 @@ The generic fish silhouettes remain explicitly unidentified. No species labels, 
 
 A closer review of `flora-batken-aygul.svg` found that its enlarged flower detail showed only two stamens, which could misrepresent the flower's androecium. The genus-level description in *Flora of China* states that Fritillaria flowers have six tepals and six stamens (Chen & Mordak, 2000, pp. 127–133): https://www.iplant.cn/foc/pdf/Fritillaria.pdf. The RHS profile independently describes the species' nodding orange-to-yellow flowers and leafy bract tuft: https://www.rhs.org.uk/plants/7364/fritillaria-eduardii/details. A Kyrgyzstan-focused phenology paper reports F. eduardii as a 50–130 cm plant with broad leaves and usually around six nodding orange-red flowers: https://applied-research.ru/en/article/view?id=13153.
 
-**Correction:** the enlarged schematic now depicts six stamens and explicitly labels six tepals and six stamens in both the visual description and its visible annotation. The main plant remains a simplified botanical plate, not a measured specimen or a claim about a fixed flower count per plant. The drawing's morphology was checked against published descriptions; it has not received independent botanist review.
+**Correction:** the enlarged schematic now depicts six stamens and explicitly labels six tepals and six stamens in both the visual description and its visible annotation. The main plant remains a simplified botanical plate, not a measured specimen or a claim about a fixed flower count per plant. The drawing's morphology was checked internally against published descriptions; no external botanist review is part of this project.
 
 
 ## Circulation-flow and domain-comparison corrections — 5 November 2026
@@ -434,7 +434,7 @@ A deeper directional audit of `anatomy-circulation.svg` found that the initial r
 - systemic arterial outflow: left ventricle → body (red);
 - systemic venous return: body → right atrium (blue, continuous path).
 
-This is a source-level flow-direction correction. CI and refreshed screenshot review remain pending; the separate manual school-device QA phase is still planned for classroom testing.
+This is a source-level flow-direction correction. CI and refreshed screenshot review remain pending; any hands-on device/accessibility checks are internal project-team checks only. No school or classroom evaluation is planned within this project.
 
 
 ## Carbon-cycle arrow correction — 5 November 2026
@@ -470,7 +470,7 @@ The supplemental Category C botanical plate is now committed and referenced in `
 
 The pending-CI and pending-browser-smoke notes above record the state when the individual source corrections were made. They are superseded for automated validation by the full Biology workflow [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829), which completed successfully on `workspace/biology` head `fb4b581f0cf23e86b8a093280ba0846fc01a345f`. The `validate` job passed page/local-link/script validation, Chromium setup, local server startup, browser smoke tests for every Biology page, and screenshot artifact upload.
 
-This closes the outstanding **automated CI/browser-smoke rerun** for the corrections listed above. It does not close the separately tracked detailed human visual review of all assets, independent specialist review, or hands-on screen-reader/physical-device testing. The 53/53 metric remains production/integration coverage only; Image Verification is not reported as 100%.
+This closes the outstanding **automated CI/browser-smoke rerun** for the corrections listed above. It does not close the separately tracked detailed internal visual review of all assets or hands-on screen-reader/physical-device checks that the project team can perform. The 53/53 metric remains production/integration coverage only; Image Verification is not reported as 100%.
 
 
 ## Aygul supplementary botanical plate — immediate four-dimension intake — 5 November 2026
@@ -487,9 +487,9 @@ Asset: `images/generated/flora-batken-aygul-botanical-plate.webp`, displayed at 
 **Procedure dependency:** `IMAGE_FIRST_POLICY.md v1.2`, `AUTHOR_CREATED_VISUALS_STANDARD.md v1.1` and `VISUAL_IMPLEMENTATION_GUIDE.md` are not present at the root of the inspected `workspace/biology` branch. This record applies the four requested tracking dimensions conservatively, but does not claim a complete clause-by-clause pass of those versioned standards. The named policy files are not present in this branch and are not treated as active governing documents here. The in-branch controls are this audit, `EDITORIAL-AND-SCIENTIFIC-STANDARDS.md`, `IMAGE_SOURCES.md`, `IMAGE_BRIEF_REVIEW.md`, `IMAGE_DISPOSITION_REGISTER.md`, `IMAGE_INSERTION_MAP.md` and the automated checks. No compliance claim is made against absent documents.
 
 
-## Governing-standard alignment — IMAGE-FIRST v1.2 / AUTHOR-CREATED v1.1 — 5 November 2026
+## Historical policy-version reference — 5 November 2026
 
-This section supersedes older policy-version references and any historical wording that treats external specialist review as a universal mandatory gate. The controlling documents are `IMAGE_FIRST_POLICY.md` v1.2, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1 and `VISUAL_IMPLEMENTATION_GUIDE.md` v1.1.
+This section preserves an older reference to `IMAGE_FIRST_POLICY.md` v1.2, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1 and `VISUAL_IMPLEMENTATION_GUIDE.md` v1.1. Those files are not present in this branch and are not treated as active governing documents here; no clause-by-clause compliance claim is made. The operative in-branch controls are listed in the current QA reconciliation below.
 
 ### Current measured baseline (not a verification claim)
 
@@ -536,7 +536,7 @@ Continue to report visual production coverage, internal QA completion and rights
 
 The supplementary `flora-batken-aygul-botanical-plate.webp` has now been compared against Kew POWO, the RHS species profile, a regional Chüy Valley introduction study and the Missouri Botanical Garden Petilium account. The upright bulbous habit, leafy stem, nodding bell-shaped flowers and upper bract tuft are broadly consistent with those descriptions. Sources and the limitations of the comparison are recorded in `IMAGE_SCIENTIFIC_REVIEW.md`.
 
-**Updated disposition:** Internal Verification remains **PARTIAL / NOT VERIFIED**. The six-tepal/six-stamen detail is consistent with the genus-level floral plan, but the separate bulb and capsule studies and species-level proportions remain insufficiently supported by specific published evidence and must stay generic or be removed. Flower number varies across published descriptions; no fixed count is asserted. External review is outside this project's scope and is not a project status. Rights Clearance remains **PENDING** until the project rights-holder/licensing basis is confirmed. CI success is not a substitute for these reviews.
+**Updated disposition:** The active 320 × 292 repository derivative was inspected directly and shows the above-ground plant and flower detail, including six tepals and six stamens. It does not contain the separate bulb/capsule studies present in the uncommitted 1199 × 1312 working PNG; those studies are not used on the page. The image remains a schematic, not a specimen record, and no fixed flower count or population claim is made. Project-use authorization is **PASS** under the owner's request and the applicable OpenAI Terms of Use; no CC/public-domain licence is assigned. Remaining work is final page screenshot review and internal disposition after the current CI run.
 
 **Current branch-policy check:** the three controlling documents named in the governing-standard section — `IMAGE_FIRST_POLICY.md` v1.2, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1 and `VISUAL_IMPLEMENTATION_GUIDE.md` v1.1 — are not present in the root tree of `workspace/biology` (direct root-path lookups return 404; recursive branch-tree lookup found no matching paths). The latest audit records their versions but the actual policy texts are unavailable in this branch. Accordingly, no claim of clause-by-clause compliance is made; the recorded seven-gate dispositions remain conservative.
 
@@ -587,7 +587,7 @@ Assets reviewed in `images/generated/`: `cell-animal.svg`, `cell-membrane.svg`, 
 
 ### Disposition and limits
 
-This pass is an author-side/AI-assisted inspection of SVG source and page text. It is **not** a rendered-browser visual acceptance, internal rendered visual inspection, physical-device or assistive-technology test, or rights-holder/licence clearance. Keep all four assets outside `VERIFIED` until the applicable gates have independent evidence. Their production status remains unchanged; no new visual brief is counted.
+This pass is an author-side/AI-assisted inspection of SVG source and page text. It is **not** a rendered-browser visual acceptance, physical-device or assistive-technology test, or rights-holder/licence clearance. Keep all four assets outside `VERIFIED` until the applicable internal evidence is documented. Their production status remains unchanged; no new visual brief is counted.
 
 ### CI compatibility finding
 
@@ -614,7 +614,7 @@ Asset: `images/generated/biochem-respiration.svg`, integrated in `chapters/bioch
 
 ### Disposition and limits
 
-This is a source-level author-side/AI-assisted review. It is not a rendered-browser acceptance, internal rendered visual inspection, physical-device/accessibility test, or rights-holder/licence clearance. Keep these assets outside `VERIFIED` until the applicable gates have independent evidence. No new visual brief is counted.
+This is a source-level author-side/AI-assisted review. It is not a rendered-browser acceptance, internal rendered visual inspection, physical-device/accessibility test, or rights-holder/licence clearance. Keep these assets outside `VERIFIED` until the applicable internal evidence is documented. No new visual brief is counted.
 
 References: OpenStax Biology 2e — https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle ; https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation ; OpenStax Anatomy & Physiology 2e — https://openstax.org/books/anatomy-and-physiology-2e/pages/1-5-homeostasis ; https://openstax.org/books/anatomy-and-physiology/pages/24-6-energy-and-heat-balance .
 
@@ -633,11 +633,11 @@ Assets: `images/generated/evolution-tree.svg`, `evolution-homology.svg`, and `ev
 The edits were saved directly to `workspace/biology`. They are source-level corrections only. Re-fetch/hash verification, Chromium rendered review, bilingual visual inspection at mobile width, internal source-based evidence review, rendered browser review, bilingual visual inspection at mobile width and rights/authority confirmation remain separate checks. Do not mark these assets `VERIFIED` on the basis of these edits or CI alone.
 
 
-## Evaluation governance — school-teacher assessment after development — 5 November 2026
+## Evaluation governance — internal project acceptance — 5 November 2026
 
 All external evaluation and expertise are excluded from this project entirely. Any outside work is a separate process, not a project phase or deliverable.
 
-Development-phase acceptance therefore relies on documented source-based review, honest scope and uncertainty statements, correct taxonomy and locality claims, attribution/rights checks, bilingual editorial quality, and technical/browser/accessibility testing. The development team must not claim school-teacher approval before that event, but must also not hold development completion open merely because the future evaluation has not yet occurred. Teacher findings belong in a separate post-development evaluation report and can guide later revisions.
+Development acceptance relies on documented internal source-based review, honest scope and uncertainty statements, correct taxonomy and locality claims, attribution/rights checks, bilingual editorial quality, and technical/browser/accessibility testing. No school, teacher, institution or outside party is to evaluate or approve the atlas as part of this project. External evaluation is neither a future project phase nor a completion dependency; any separately initiated outside activity is outside this project's scope, records and metrics.
 
 This does not waive any outstanding development-phase editorial, technical, source-traceability, attribution or licensing work.
 
@@ -648,7 +648,7 @@ Seven existing SVG assets were re-read directly from `workspace/biology`: the Na
 
 - All seven files contain SVG `title` and `desc` metadata. The six regional-fauna illustrations keep their habitat panels distinct and avoid turning generic silhouettes into unsupported species records or range maps. Their chapter-level figure alt text/captions provide bilingual descriptions.
 - **Naryn bilingual-label correction:** the Naryn SVG's embedded panel labels were English-only even though its title, description and chapter caption were bilingual. Updated the heading, each of the three habitat panels, species/habitat labels and closing caveat so the visible SVG now carries Russian and English text. Saved in commit `e0f62375417388ee160782b40419b9afa847f827`. The change does not alter species claims or add a new visual brief.
-- **Batken arithmetic check:** the figure's 4,146 total is arithmetically consistent with the two cited components (759 + 3,387). The SVG correctly labels the animals only as `Marmota spp.` and describes the figure as the 2026 spring survey result, not a permanent population estimate. This check confirms arithmetic and consistency with the recorded source summary; it is not a fresh independent census-source audit.
+- **Batken arithmetic check:** the figure's 4,146 total is arithmetically consistent with the two cited components (759 + 3,387). The SVG correctly labels the animals only as `Marmota spp.` and describes the figure as the 2026 spring survey result, not a permanent population estimate. This check confirms arithmetic and consistency with the recorded source summary; it is not a fresh audit of the underlying census publication.
 - **Aygul taxonomy text:** the plate uses `Fritillaria eduardii` as the accepted name and `Petilium eduardii` as a synonym, consistent with the recorded Kew POWO reference. The illustration remains schematic; the existing cautions about bulb/capsule detail, proportions and rights clearance remain open.
 - No other asset was relabelled `VERIFIED`. Focused rendered review, detailed morphology acceptance, manual device/accessibility checks and rights clearance remain separate gates. No overall verification percentage is inferred from this batch.
 
