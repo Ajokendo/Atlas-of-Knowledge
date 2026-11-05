@@ -15,7 +15,7 @@ This source register is maintained under the universal root-level [IMAGE-FIRST P
 - **Candidate source:** a relevant institutional collection or educational resource has been identified, but no individual asset has passed rights and scientific review.
 - **Rights checked:** the exact asset's licence/terms and attribution requirements have been recorded.
 - **Approved:** science, rights, attribution, language and accessibility checks passed.
-- **Integrated:** approved asset is committed to the site and its source metadata is recorded.
+- **Integrated:** asset is committed to the site and its source metadata is recorded; this lifecycle state does not by itself mean every review dimension has passed or that the asset is VERIFIED.
 
 A site's general copyright statement is not a licence for every image on that site. Rights must be checked at the individual asset level. Public-domain status must also be confirmed for the exact media item, not inferred from the institution's name.
 
