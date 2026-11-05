@@ -718,6 +718,20 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 | Status | INTEGRATED as supplementary relief context; NASA/JPL attribution and metadata PASS; browser/mobile/accessibility QA PENDING. |
 
 
+## Chapter 07 — Original visuals 07-A and 07-B
+
+| Field | 07-A — Biosphere and Earth spheres | 07-B — Food web and energy pyramid |
+|---|---|---|
+| Asset | `geography/assets/diagrams/07-A-biosphere-earth-spheres-bilingual.svg` | `geography/assets/diagrams/07-B-food-web-energy-pyramid-bilingual.svg` |
+| Category | C — created separately | C — created separately |
+| Creator / provenance | Original project-specific teaching schematic prepared for Atlas of Knowledge; no third-party figure copied | Original project-specific teaching schematic prepared for Atlas of Knowledge; no third-party figure copied |
+| Licence / rights | PENDING — project-wide creator/rightsholder and reuse licence statement not yet recorded | PENDING — project-wide creator/rightsholder and reuse licence statement not yet recorded |
+| Scientific review | PASS for the conceptual representation: life is shown across atmosphere, hydrosphere and upper lithosphere; boundaries are explicitly approximate | PASS for food-web direction (resource → consumer), producer/consumer/decomposer roles and energy pyramid; 12,000 / 1,200 / 90 kJ values match the chapter's worked example and are labelled illustrative |
+| RU/EN | PASS — bilingual labels, title, description, caption and alt text | PASS — bilingual labels, title, description, caption and alt text |
+| Accessibility | PENDING — SVG title/description and alt text present; contrast, keyboard and screen-reader review not yet evidenced | PENDING — SVG title/description and alt text present; contrast, keyboard and screen-reader review not yet evidenced |
+| Technical | PENDING — static SVG source and Markdown path integrated; deployed browser/mobile rendering not tested | PENDING — static SVG source and Markdown path integrated; deployed browser/mobile rendering not tested |
+| Lifecycle | INTEGRATED; not VERIFIED | INTEGRATED; not VERIFIED |
+
 ## Chapter 07 — Visual 07-D: Shelford's ecological tolerance curve
 
 | Field | Record |

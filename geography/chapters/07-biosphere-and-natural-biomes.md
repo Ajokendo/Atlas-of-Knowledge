@@ -10,7 +10,9 @@
 After studying this chapter, readers will be able to explain the extent and functions of the biosphere, distinguish levels of biological organization, analyse ecosystem structure and energy flows, compare the major biomes, understand biogeographical patterns, and assess drivers of ecosystem degradation.
 
 ## 7.1. Биосфера: пространство жизни / The Biosphere: The Realm of Life
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-A / IMAGE PLACEHOLDER 07-A]** Схема биосферы и взаимодействия атмосферы, гидросферы, литосферы и организмов. / Diagram of the biosphere and interactions among atmosphere, hydrosphere, lithosphere and organisms.
+![Биосфера как область жизни в атмосфере, гидросфере и верхней литосфере; концептуальная схема, не в масштабе. / The biosphere as the realm of life in the atmosphere, hydrosphere and upper lithosphere; conceptual, not to scale.](../assets/diagrams/07-A-biosphere-earth-spheres-bilingual.svg)
+
+*07-A. Авторская двуязычная учебная схема Atlas of Knowledge. Границы биосферы показаны условно; схема не задаёт точную высоту или глубину распространения жизни. / Original bilingual teaching diagram by Atlas of Knowledge. Biosphere boundaries are illustrative; the diagram does not specify exact upper or lower limits.*
 
 
 
@@ -71,7 +73,9 @@ After studying this chapter, readers will be able to explain the extent and func
 *07-D. Двуязычная адаптация по схеме «Shelford's Law of Tolerance» авторов Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos и Călin Baciu. Источник: Wikimedia Commons; CC BY 4.0. Перерисовано и переведено; форма кривой и границы условны. / Bilingual adaptation of “Shelford's Law of Tolerance” by Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos and Călin Baciu. Source: Wikimedia Commons; CC BY 4.0. Redrawn and translated; curve shape and boundaries are illustrative.*
 
 ## 7.4. Трофическая структура и поток энергии / Trophic Structure and Energy Flow
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-B / IMAGE PLACEHOLDER 07-B]** Пищевая сеть с продуцентами, консументами и редуцентами; поток энергии обозначить стрелками. / Food web with producers, consumers and decomposers; show energy flow with arrows.
+![Луговая пищевая сеть со стрелками от ресурса к потребителю и условная пирамида энергии. / Grassland food web with arrows from resource to consumer and an illustrative energy pyramid.](../assets/diagrams/07-B-food-web-energy-pyramid-bilingual.svg)
+
+*07-B. Авторская двуязычная схема. Значения 12 000, 1 200 и 90 кДж взяты из условного примера в этой главе; они не являются универсальными коэффициентами передачи энергии. / Original bilingual diagram. The 12,000, 1,200 and 90 kJ values come from this chapter's worked example; they are not universal energy-transfer ratios.*
 
 
 
