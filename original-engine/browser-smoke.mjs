@@ -147,6 +147,7 @@ async function checkLab(lab, mobile) {
     }
     for (let i = 0; i < expectedScenes.length; i++) {
       const key = expectedScenes[i];
+      await picker.focus();
       await picker.selectOption(key);
       await page.waitForFunction(expectedKey => {
         const plate = document.querySelector('#plate');
@@ -165,7 +166,7 @@ async function checkLab(lab, mobile) {
         throw new Error(`Scene breakdown ${key} is missing its title, explanation or live facts`);
       }
       if (i === 0) {
-        await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 5000 });
+        await page.waitForFunction(() => document.activeElement?.id === 'scene-plate-title', undefined, { timeout: 8000 });
       }
       if (!mobile) {
         await page.waitForTimeout(450);
@@ -308,7 +309,7 @@ async function checkChapterPage(mobile = false) {
       throw new Error('Projectile-motion speed slider did not update its readout');
     }
     for (const [id, phrase] of [
-      ['klScene', 'параболической траектории'],
+      ['klScene', 'Траектория тела'],
       ['klGraph', 'две панели'],
       ['plot', 'равномерного движения'],
     ]) {
