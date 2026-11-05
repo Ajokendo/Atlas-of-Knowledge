@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 820" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="t d">
 <title id="t">Движущийся стержень и ЭДС движения / Moving rod and motional EMF</title>
 <desc id="d">Стержень движется вправо по двум рельсам в магнитном поле, направленном в плоскость рисунка. Сила q(v cross B) разделяет заряды вдоль стержня; показаны замкнутая цепь с током против часовой стрелки и разомкнутая цепь без тока.</desc>
 <defs><marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d65b43"/></marker><marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2367a8"/></marker><style>
