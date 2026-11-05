@@ -991,6 +991,12 @@ NDVI \approx 0.67
 12. Copernicus Data Space Ecosystem. **Sentinel-1 constellation update (30 June 2026)** — end of operations of Sentinel-1A and operational status of Sentinel-1C and Sentinel-1D. https://dataspace.copernicus.eu/news/2026-6-30-copernicus-sentinel-1a-satellite-end-operations-after-12-years-service
 13. United States Geological Survey (USGS). **Landsat Collection 2 Level-2 Science Products and Quality Assessment Bands** — surface-reflectance scaling, product metadata and QA layers. https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products
 14. United States Geological Survey (USGS). **How do I use a scale factor with Landsat Level-2 science products?** Official formula and worked examples for Collection 2 surface reflectance and surface temperature, including fill values and valid ranges. https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products
+15. USGS Landsat Missions. **Landsat Normalized Difference Vegetation Index (NDVI).** Formula, OLI band mapping and product details for Landsat 8–9. https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index
+16. USGS Landsat Missions. **Normalized Difference Moisture Index (NDMI).** Formula, Landsat band mapping and product details. https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
+17. USGS Landsat Missions. **Landsat Normalized Burn Ratio (NBR).** Formula, OLI band mapping and product details for Landsat 8–9. https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio
+18. McFeeters, S. K. (1996). **The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features.** *International Journal of Remote Sensing*, 17(7), 1425–1432. https://doi.org/10.1080/01431169608948714
+19. Gao, B.-C. (1996). **NDWI—A normalized difference water index for remote sensing of vegetation liquid water from space.** *Remote Sensing of Environment*, 58(3), 257–266. https://doi.org/10.1016/S0034-4257(96)00067-3. This is a different NIR–SWIR index; always state the formula to avoid ambiguity.
+20. Zha, Y., Gao, J., & Ni, S. (2003). **Use of normalized difference built-up index in automatically mapping urban areas from TM imagery.** *International Journal of Remote Sensing*, 24(3), 583–594. https://doi.org/10.1080/01431160304987
 
 ---
 **Конец главы 15 / End of Chapter 15**
