@@ -47,7 +47,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 | 21–26 | 68 | 0/68 integrated; source scan found no chapter image embeds or matching assets. |
 | **Register claim** | **231** | **Conflicts with chapter-count sum: 283 (281 named IDs in this baseline plus two Chapter 05 slots not yet safely named)** |
 
-Chapter 05's register previously reported 16 integrated visuals; 5.18-A has since been created and embedded in both languages. The 20-ID inventory still exposes only 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated and the exact ID mapping is unresolved. The 17 named integrated assets are not promoted to VERIFIED. Chapter 09's 09-G is confirmed in the chapter source and is added to the per-asset audit below; the chapter-level total is therefore 283. The two Chapter 05 slots remain unresolved. Do not publish a percentage until the Chapter 05 mapping and all chapter file states are reconciled.
+Chapter 05's register previously reported 16 integrated visuals; 5.18-A has since been created and embedded in both languages. The 20-ID inventory still exposes only 18 safely reconstructable IDs in the current source snapshot; two labels remain unenumerated. The 17 named integrated IDs are now mapped individually in the source register; the two unnamed slots remain unresolved. The 17 named integrated assets are not promoted to VERIFIED. Chapter 09's 09-G is confirmed in the chapter source and is added to the per-asset audit below; the chapter-level total is therefore 283. The two Chapter 05 slots remain unresolved. Do not publish a percentage until the Chapter 05 mapping and all chapter file states are reconciled.
 
 ## 6. Per-asset audit register
 
@@ -350,7 +350,7 @@ Do not treat the above as an atlas-wide completion percentage.
 ## 8. Evidence inspected
 
 - VISUAL_ASSET_REGISTER.md — 231-ID inventory and existing integration claims.
-- IMAGE_SOURCES.md — detailed records for Chapters 01–04 plus the Chapter 09-G missing-asset record; remaining chapters still need per-asset provenance records.
+- IMAGE_SOURCES.md — detailed records for Chapters 01–05 plus the Chapter 09-G missing-asset record; remaining chapters still need per-asset provenance records.
 - EDITORIAL_STANDARD_ADOPTION.md — previous editorial adoption record, now extended with v1.1 adoption and Geography checks.
 - EDITORIAL_READINESS_MATRIX.md — chapter checkpoints and known technical-QA limitations.
 - visuals/chapter-05-visual-register.md — detailed Chapter 05 integration/pending list.
@@ -585,13 +585,13 @@ This is a source-tree and chapter-embed finding, not a judgment that these visua
 - Consolidated the 16 pre-existing integrated Chapter 05 visual IDs into `IMAGE_SOURCES.md`, preserving aliases (5-A / 5.2-A and 5-C / 5.6-A); added 5.18-A as a newly integrated 17th named visual ID.
 - After 5.18-A integration, the chapter has 42 Markdown image embeds and 21 unique image URLs (9 local SVGs and 12 external source-image URLs).
 - The migration does **not** promote the 17 named integrated assets to VERIFIED. Project-local SVG creator/rightsholder and project-licence evidence remains Unknown / PENDING. Exact asset-level rights are also pending for several external graphics, especially the UCAR-hosted IPCC energy-budget figure, NWS pressure-system image, NOAA circulation and water-cycle images, and the individual NOAA front-symbol components.
-- Chapter Markdown parity remains a source-level check only: 40 image embeds, 20 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
+- Chapter Markdown parity remains a source-level check only: 42 image embeds, 21 unique URLs, each used once in RU and once in EN. It is not a substitute for visual rendering, scientific review, rights clearance or assistive-technology testing.
 - Chapter 05 source-register coverage is now documented; overall Geography image coverage is still not calculable because the 231-versus-283 inventory discrepancy and two unnamed Chapter 05 inventory slots remain unresolved.
 
 
 ### 7.10 Chapter 05 bilingual embed parity rechecked
 
-A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **40 Markdown image embeds: 20 in Russian and 20 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 40 alt-text fields is empty. All 40 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
+A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **42 Markdown image embeds: 21 in Russian and 21 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 40 alt-text fields is empty. All 40 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
 
 
 ### Chapter 05 — static SVG structure check — 5 November 2026
