@@ -170,8 +170,9 @@ Active systems can operate independently of sunlight. Radar microwaves often all
 
 ## 15.6. Четыре вида разрешения / Four Types of Resolution
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-G / IMAGE PLACEHOLDER 15-G]** Четыре вида разрешения: пространственное, спектральное, временное и радиометрическое; дать отдельный наглядный пример каждого.
-> **EN:** Explain spatial, spectral, temporal and radiometric resolution with a distinct visual example for each.
+![Четыре типа разрешения данных ДЗЗ / Four types of remote-sensing resolution](../assets/diagrams/15-G-remote-sensing-resolution-types-bilingual.svg)
+
+*Пространственное, спектральное, радиометрическое и временное разрешение — разные характеристики; улучшение одной не гарантирует улучшения остальных. / Spatial, spectral, radiometric and temporal resolution are distinct properties; improving one does not guarantee improvement in the others.*
 
 
 Для интерпретации данных важно различать четыре характеристики.
