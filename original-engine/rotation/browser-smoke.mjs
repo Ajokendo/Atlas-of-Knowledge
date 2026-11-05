@@ -128,7 +128,9 @@ async function checkInteractiveBook(mobile) {
     if (!initial.title || initial.pages !== 15 || !initial.webgl) throw new Error(`book did not initialize correctly: ${JSON.stringify(initial)}`);
     if (initial.canvas[0] < 100 || initial.canvas[1] < 100) throw new Error(`WebGL canvas too small: ${initial.canvas.join('×')}`);
     if (initial.overflow) throw new Error('interactive book has horizontal overflow');
-    await page.locator('#dots button').nth(1).click();
+    // The pager dots are hidden on narrow layouts; dispatch the same native click
+    // directly so the test exercises the book navigation on desktop and mobile.
+    await page.locator('#dots button').nth(1).evaluate(button => button.click());
     await page.waitForFunction(() => document.querySelector('#sheet h1')?.textContent?.trim() === 'Два пассажира', undefined, { polling: 100, timeout: 15000 }).catch(async error => {
       const state = await page.evaluate(() => ({
         title: document.querySelector('#sheet h1')?.textContent?.trim(),
