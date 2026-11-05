@@ -191,7 +191,9 @@
 
 **Иллюстрация 2.5-A — Типы границ литосферных плит / Plate Boundary Types.**
 
-![Дивергентная, конвергентная и трансформная границы плит / Divergent, convergent and transform plate boundaries](../assets/diagrams/02-5A-plate-boundary-types.svg)
+![Русскоязычная схема границ плит: сдвиг, спрединг, субдукция и рифтинг / Russian-language diagram of plate boundaries: transform motion, spreading, subduction and rifting](https://upload.wikimedia.org/wikipedia/commons/1/15/Plate_Tectonics_ru.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)
+
+*Источник / Source: Jose F. Vigil, U.S. Geological Survey (USGS), русскоязычная версия файла от 8 февраля 2012 года / Russian-language file version dated 8 February 2012. Public Domain in the United States; this is a U.S. jurisdictional status, not a universal international licence. Атрибуция сохранена; USGS не заявляет об одобрении Atlas of Knowledge. / Attribution retained; USGS does not endorse Atlas of Knowledge. [Страница файла / File page](https://commons.wikimedia.org/wiki/File:Plate_Tectonics_ru.png).
 
 *Условные геологические разрезы, не в масштабе. Конвергентная граница может включать субдукцию или столкновение континентальных плит. / Schematic geological cross-sections, not to scale. A convergent boundary may involve subduction or continental collision.*
 
@@ -764,7 +766,9 @@ Plate boundaries are not always represented by a single narrow line: broad defor
 
 **Illustration 2.5-A — Plate Boundary Types.**
 
-![Divergent, convergent and transform plate boundaries / Дивергентные, конвергентные и трансформные границы плит](../assets/diagrams/02-5A-plate-boundary-types.svg)
+![Diagram of plate boundaries: convergent, transform, divergent and continental rift settings](https://upload.wikimedia.org/wikipedia/commons/4/40/Tectonic_plate_boundaries.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)
+
+*Source: Jose F. Vigil, U.S. Geological Survey (USGS), original English file dated 23 October 1997. Public Domain in the United States; this is a U.S. jurisdictional status, not a universal international licence. Attribution retained; USGS does not endorse Atlas of Knowledge. [File page](https://commons.wikimedia.org/wiki/File:Tectonic_plate_boundaries.png).*
 
 *Original schematic geological cross-sections, not to scale. A convergent boundary may involve subduction or continental collision. / Оригинальные условные геологические разрезы, не в масштабе. Конвергентная граница может включать субдукцию или столкновение континентальных плит.*
 
