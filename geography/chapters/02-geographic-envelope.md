@@ -8,9 +8,9 @@
 
 **Иллюстрация 2-A — Четыре оболочки Земли и система Земли / Four Earth Spheres and the Earth System.**
 
-![Четыре взаимосвязанные оболочки Земли: атмосфера, гидросфера, литосфера и биосфера / Four interacting Earth spheres: atmosphere, hydrosphere, lithosphere and biosphere](../assets/diagrams/02-A-four-earth-spheres.svg)
+![The atmosphere, biosphere, hydrosphere and lithosphere shown in a simple landscape illustration / Атмосфера, биосфера, гидросфера и литосфера в простой схеме природного ландшафта](https://upload.wikimedia.org/wikipedia/commons/c/cd/Atmosphere-Biosphere-Hydrosphere-Lithosphere.png)
 
-*Оригинальная двуязычная схема Atlas of Knowledge. Стрелки показывают взаимосвязь компонентов, а не количественные потоки вещества и энергии. / Original bilingual Atlas of Knowledge diagram. Arrows indicate interactions, not quantified matter or energy fluxes.*
+*Источник / Source: CK-12 Foundation, *High School Earth Science*, p. 400; image dated 15 November 2010. Лицензия / Licence: CC BY-SA 3.0 Unported. Изображение использовано без изменений. / Image used unchanged. Схема показывает четыре компонента, но не их взаимодействия и не границы географической оболочки. / The diagram identifies the four components; it does not depict their interactions or the boundaries of the geographic envelope. [Страница файла / File page](https://commons.wikimedia.org/wiki/File:Atmosphere-Biosphere-Hydrosphere-Lithosphere.png) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/3.0/).*
 
 
 Географическая оболочка — целостная внешняя оболочка Земли, в пределах которой взаимодействуют атмосфера, гидросфера, верхняя часть литосферы и биосфера. Здесь происходят основные природные процессы, формируются почвы и экосистемы, циркулирует вода, перемещаются воздушные массы и осуществляется обмен веществом и энергией.
@@ -612,7 +612,7 @@ The geographic envelope is Earth's integrated outer zone in which the atmosphere
 
 **Illustration 2-A — Four Earth Spheres and the Earth System.**
 
-![Four interacting Earth spheres: atmosphere, hydrosphere, lithosphere and biosphere / Четыре взаимосвязанные оболочки Земли](../assets/diagrams/02-A-four-earth-spheres.svg)
+![The atmosphere, biosphere, hydrosphere and lithosphere shown in a simple landscape illustration / Атмосфера, биосфера, гидросфера и литосфера в простой схеме природного ландшафта](https://upload.wikimedia.org/wikipedia/commons/c/cd/Atmosphere-Biosphere-Hydrosphere-Lithosphere.png)
 
 *Original bilingual Atlas of Knowledge diagram. Arrows show examples of interaction, not measured matter or energy fluxes. / Оригинальная двуязычная схема Atlas of Knowledge. Стрелки показывают примеры взаимодействия, а не измеренные потоки вещества или энергии.*
 
