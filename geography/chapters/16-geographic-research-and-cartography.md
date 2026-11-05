@@ -276,6 +276,10 @@ A map should answer a specific question. Excessive detail, inconsistent symbols 
 
 Хороплетные карты обычно подходят для нормированных показателей — долей, плотности, коэффициентов. Использование абсолютных чисел может вводить в заблуждение, если территориальные единицы существенно различаются по площади или населению.
 
+Выбор проекции не исправляет неверный тип тематической карты. Для абсолютных итогов часто лучше подходят пропорциональные символы или картограммы, а не хороплетная окраска территорий. Равновеликая проекция сама по себе также не делает карту «справедливой»: важно проверить, соответствует ли способ отображения смыслу переменной и задаче сравнения.
+
+A projection choice cannot correct an inappropriate thematic map type. Absolute totals are often better shown with proportional symbols or cartograms than by colouring administrative areas as a choropleth. An equal-area projection does not automatically make a map “fair”: the display method must still match the meaning of the variable and the purpose of the comparison.
+
 ## 16.12. Цвет, символы и визуальная иерархия / Colour, Symbols and Visual Hierarchy
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 16-F / IMAGE PLACEHOLDER 16-F]** Матрица визуальных переменных: положение, размер, форма, оттенок, светлота, насыщенность и текстура; показать корректные способы кодирования.
