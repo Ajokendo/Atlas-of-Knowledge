@@ -598,3 +598,17 @@ The three source images are unchanged. For CC BY and CC BY-SA assets, author, li
 | Licence evidence | World Bank catalogue pages state CC BY 4.0 for both datasets; article page states CC BY 4.0. Exact source attribution and licence link must be included in any derivative map. |
 | Unresolved requirements | Download and inspect the exact data packages; document coordinate reference system and catalogue fields; choose and state a defensible magnitude threshold and time window; validate the country boundary used for clipping; inspect fault reliability classes and catalogue completeness; create the map and bilingual legend/alt text. |
 | Decision | Do not replace the missing Kyrgyzstan map with a generic Central Asia figure or imply that the selected fault database is exhaustive. The data are a promising candidate for a transparent regional map, not yet a validated finished asset. |
+
+
+### Chapter 17 — supplementary seismicity context figure (not a 17-F replacement)
+
+| Field | Record |
+|---|---|
+| Figure | Figure 1 from Poggi et al. (2024), “Harmonizing seismicity information in Central Asian countries: earthquake catalogue and active faults”, NHESS 24, 2597–2613. |
+| File URL | https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f01-web.png |
+| Purpose | Provide a regional visual context for the earthquake catalogues used in the HECCA backbone compilation. |
+| Category / rights | B — reproduced research figure, CC BY 4.0. Article page explicitly states the licence. |
+| Scope | Five Central Asian countries plus an approximately 300 km buffer; the map displays epicentres from input source catalogues. Colours identify catalogues, not magnitude. |
+| Attribution | Poggi, V. et al. (2024), Figure 1, *Natural Hazards and Earth System Sciences*, 24, 2597–2613, https://doi.org/10.5194/nhess-24-2597-2024, CC BY 4.0. Reproduced unchanged. |
+| Limitations | Not a Kyrgyzstan-only map, not a final HECCA event map, and does not show active-fault traces. It is a supplementary context figure and is not counted as completion of planned visual 17-F. |
+| Status | INTEGRATED as supplementary research context; attribution/scope note PASS; live rendering and accessibility QA PENDING. |
