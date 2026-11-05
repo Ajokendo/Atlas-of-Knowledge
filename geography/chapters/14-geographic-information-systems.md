@@ -1047,5 +1047,6 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 11. Open Geospatial Consortium. **OGC API – Features** — modern web API standard for accessing geospatial features; includes core and CRS-by-reference parts. https://www.ogc.org/standards/ogcapi-features/
 12. Open Geospatial Consortium. **OGC API – Maps** — standard API for serving styled, georeferenced maps. https://www.ogc.org/standards/ogcapi-maps/
 13. QGIS Documentation. **Vector Spatial Analysis (Buffers), including spatial overlay operations.** Official explanation of buffers, intersection, union, symmetrical difference and difference; operation details depend on geometry and CRS. https://docs.qgis.org/latest/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html
+14. QGIS Documentation. **Introducing GIS.** Overview of GIS data, hardware and software; the wider GIS system also involves people and methods. https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/introducing_gis.html
 ---
 **Конец главы 14 / End of Chapter 14**
