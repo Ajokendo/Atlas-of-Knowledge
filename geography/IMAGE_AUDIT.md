@@ -1238,3 +1238,12 @@ The five new assets were fetched from the working branch and passed source-level
 | 19-E | INTEGRATED | PASS WITH SOURCE CAVEAT — bar values reproduce Kyrgyzhydromet's published table (annual 0.28; winter 0.21; spring 0.59; summer/autumn 0.15 °C per decade). The source has a period inconsistency: table heading 1981–2020, narrative 1981–2021. The chart labels this explicitly. | PENDING — original SVG project licence not assigned; source data attribution included | PASS — bilingual chart title, labels, description and caption | PENDING — descriptive alt text present; manual contrast/comprehension review pending | PASS — static SVG structure and relative chapter embed; live browser/mobile rendering pending | Do not use as an annual anomaly time series. Resolve the source's period discrepancy before cross-study comparison. |
 
 Static source checks confirm SVG boundary, viewBox, title, description, role=img, bilingual text and local chapter path. No browser or assistive-technology test is claimed. No visual is VERIFIED.
+
+
+## Chapter 18 — Visual 18-C — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 18-C | INTEGRATED — three photographs | PASS WITH SCOPE NOTE — photographs identify the named mountains/landscape, but are not used to infer elevations | PASS — exact file pages confirm CC BY-SA 4.0 (Maryliflower), CC BY 2.0 (Chen Zhao) and CC0 1.0 (Benoît Vicart); attribution/links included | PASS — bilingual alt text and credit captions | PENDING — alt text present; visual contrast and assistive-tech review pending | PENDING — external Wikimedia thumbnail loading and responsive display not tested in deployed reader | Three separate images, not a stitched panorama. Height labels are supported by separate official sources. |
+
+The images were visually inspected from their Commons file pages. The source files are unchanged. Browser/mobile and screen-reader checks remain open; therefore 18-C is INTEGRATED, not VERIFIED.
