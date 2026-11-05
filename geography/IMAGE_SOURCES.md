@@ -2,7 +2,7 @@
 
 **Snapshot:** 5 November 2026  
 **Branch:** `workspace/geography`  
-**Scope:** Chapters 01–05 have detailed or provisional asset records; Chapter 06 now has three integrated visual records (6-A, 6-C and 6.1-A), plus the licensed candidate dataset for 6-B; Chapter 09 includes a documented MISSING gap record. The remaining Chapter 06 assets, Chapters 07–08 and 10–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
+**Scope:** Chapters 01–05 have detailed or provisional asset records; Chapter 06 now has five integrated visual records (6-A, 6-C, 6.1-A, 6.5-A and 6.7-A), plus the licensed candidate dataset for 6-B; Chapter 09 includes a documented MISSING gap record. The remaining Chapter 06 assets, Chapters 07–08 and 10–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
 **Policy:** search for an existing scientifically suitable image first; verify the individual asset's rights and attribution; create or generate a replacement only when no suitable reusable image is found.
 
 ## Policy alignment — IMAGE-FIRST POLICY v1.1
