@@ -49,6 +49,19 @@ A site's general copyright statement is not a licence for every image on that si
 
 The image-first search considered NASA Earth-system imagery, Wikimedia Commons location/coordinate diagrams, Commons research-cycle and geography-branches diagrams, National Geographic educational material and USGS mapping-scale graphics. The exact candidates did not meet all of the chapter's requirements for bilingual labels, the full conceptual scope and distinction between map scale and scale of analysis. Four visuals were therefore drawn as original bilingual teaching schematics; 01-D adapts a CC BY 4.0 source with attribution and modification notice. No AI-generated image is used for Chapter 01.
 
+### Chapter 01 — IMAGE-FIRST classification and verification snapshot (5 November 2026)
+
+| Visual ID | Category | Lifecycle | Scientific / factual | Rights / licence | RU/EN | Accessibility | Technical |
+|---|---|---|---|---|---|---|---|
+| 01-A | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+| 01-B | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+| 01-C | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented; National Geographic Geo-Inquiry is a method reference, not a copied figure | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+| 01-D | B — adapted | INTEGRATED | PENDING | PASS — GeogSage source and CC BY 4.0 licence identified; redrawing, translation and conceptual label change disclosed in SVG and chapter | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+| 01-E | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
+
+**Chapter 01 decision:** all five files exist and are embedded in the shared bilingual chapter. The SVGs have bilingual title/description metadata; their chapter embeds have bilingual alternative text. 01-A, 01-B and 01-E explicitly identify their conceptual/schematic limitations. 01-C describes an iterative research cycle and cites the Geo-Inquiry method source. 01-D records the adapted CC BY 4.0 source and changes. No Chapter 01 asset is VERIFIED: creator/licence evidence for four project-local SVGs, scientific sign-off, detailed accessibility checks and live rendered browser/mobile tests remain open.
+
+
 ## Chapter 02 — Earth's Geographic Envelope
 
 | Visual ID | Required content | Source / asset | Status | Rights, scientific fit and next action |
@@ -703,16 +716,3 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 | Rights | NASA/JPL credit; NASA media-use guidance states NASA content is generally not subject to copyright unless a third-party notice is present. No third-party owner is identified on this image page. |
 | Limitation | Relief image only; it does not provide named rivers or an explicit drainage-direction layer. It is supplementary and does not close planned visual 12-F. |
 | Status | INTEGRATED as supplementary relief context; NASA/JPL attribution and metadata PASS; browser/mobile/accessibility QA PENDING. |
-
-
-### Chapter 01 — IMAGE-FIRST classification and verification snapshot (5 November 2026)
-
-| Visual ID | Category | Lifecycle | Scientific / factual | Rights / licence | RU/EN | Accessibility | Technical |
-|---|---|---|---|---|---|---|---|
-| 01-A | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
-| 01-B | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
-| 01-C | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented; National Geographic Geo-Inquiry is a method reference, not a copied figure | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
-| 01-D | B — adapted | INTEGRATED | PENDING | PASS — GeogSage source and CC BY 4.0 licence identified; redrawing, translation and conceptual label change disclosed in SVG and chapter | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
-| 01-E | C — created separately | INTEGRATED | PENDING | PENDING — SVG creator/rightsholder and project licence not documented | PASS — bilingual title, labels, description and chapter embed | PENDING | PENDING — static file exists; live browser/mobile rendering not evidenced |
-
-**Chapter 01 decision:** all five files exist and are embedded in the shared bilingual chapter. The SVGs have bilingual title/description metadata; their chapter embeds have bilingual alternative text. 01-A, 01-B and 01-E explicitly identify their conceptual/schematic limitations. 01-C describes an iterative research cycle and cites the Geo-Inquiry method source. 01-D records the adapted CC BY 4.0 source and changes. No Chapter 01 asset is VERIFIED: creator/licence evidence for four project-local SVGs, scientific sign-off, detailed accessibility checks and live rendered browser/mobile tests remain open.
