@@ -607,3 +607,12 @@ Fetched and inspected all eight project-local Chapter 05 SVGs:
 - `chapter-05-climate-diagram-exercise.svg`
 
 All eight contain a `viewBox`, SVG `title`, `desc` and `role="img"`; both Cyrillic and Latin text are present. No `script`, `foreignObject` or embedded `image` element was detected. This is a static source-structure check only. It does not validate SVG rendering, visual contrast at display size, reading order, text scaling, scientific correctness of every label, creator/rightsholder or licence, keyboard interaction, or screen-reader output. Accordingly, accessibility and technical integration remain PENDING in the per-asset audit.
+
+
+## Chapters 03–04 — scientific and bilingual content review
+
+### Chapter 03 — Visual 3.9-A: International Chronostratigraphic Chart
+
+The source chart is the official ICS version 2026/06, reused unchanged under CC BY 4.0. Its embedded labels are English-only. The Russian chapter section now includes a compact key translating the hierarchy and principal eons/eras; the English section now includes the equivalent bilingual guide. Both sections distinguish geochronological time units (eon, era, period, epoch, age) from chronostratigraphic rock units (eonothem, erathem, system, series, stage), and explain that the chart layout is non-linear. The previous editorial instruction beginning “Vertical geological time scale…” has been removed from the learner-facing text.
+
+**Result:** source rights PASS for unchanged reuse; bilingual explanatory parity PASS at the surrounding-text level; no claim of a complete translation of every label in the source chart. Scientific age-boundary verification, full alt-text quality and deployed rendering remain PENDING.
