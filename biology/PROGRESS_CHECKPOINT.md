@@ -1247,3 +1247,12 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 
 - Extended the amphibian comparison card in `zoology-anatomy.svg` so the English respiration caption remains inside its panel.
 - Commit: `24fcc604d86cca9a435ed6a227a950ca6f18ef71`. CI/screenshot review pending; no readiness percentage change.
+
+
+### Supplemental Aygul botanical plate generated — 5 November 2026
+
+- Created an additional original educational plate for *Fritillaria eduardii*: upright leafy stem, lanceolate leaves, nodding brownish-red flowers, leafy bract tuft and enlarged floral studies.
+- The frontal floral study shows six tepals and six stamens. No fixed flower count, population size or exact locality is implied.
+- Classified as Category C (generated illustration), not a documentary photograph; no third-party image licence or source is claimed.
+- Optimized working derivative: `flora-batken-aygul-botanical-plate.webp`; source PNG remains in the conversation workspace. Binary upload to `workspace/biology` is still outstanding, so the existing HTML continues to use the committed SVG. Do not mark the new plate as integrated until the binary and HTML reference are committed and browser-tested.
+- Editorial readiness remains 99/100; no percentage increase for an unintegrated asset.
