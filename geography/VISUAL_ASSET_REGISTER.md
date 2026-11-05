@@ -173,3 +173,24 @@ The 39/97 table above is superseded by the following current scoped count after 
 Five additional original bilingual SVGs are now integrated: 11-D, 13-B, 14-E, 15-E and 16-D. Chapters 11–16 therefore contain 23 integrated planned IDs; Chapters 17–20 contain 15. Total scoped integration is 39/97. Chapter 20.6.7 still contains one supplementary CC BY 4.0 research figure outside the planned-ID count.
 
 All five new embeds and their relative asset paths were checked against the working branch. All five SVGs passed static structure checks. This does not certify specialist review, licence assignment, responsive rendering, keyboard navigation or screen-reader output. The repository-wide 231-versus-283 visual-ID discrepancy remains unresolved; this scoped 39/97 count must not be extrapolated to other chapters.
+
+
+## Sixth-tranche update — Chapter 20 — 5 November 2026
+
+The 39/97 scoped count above is superseded after integrating 20-C and 20-D:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 5 | 2 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 7 | 4 |
+| **Total** | **97** | **41** | **56** |
+
+Chapter 20-C compares published lake surface areas only; it does not claim to be the required map or full morphometric comparison. Depth and origin are excluded because available sources differ. Chapter 20-D shows the five-plant Lower Naryn sequence and the cited 2,870 MW aggregate capacity; it does not infer individual plant capacities. Both embeds and SVG files were checked on the working branch and passed static source checks. Browser, mobile, accessibility, project licence and specialist sign-off remain open.
