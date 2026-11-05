@@ -746,6 +746,20 @@ for (const [file, required] of [
     if (!svg.toLowerCase().includes(phrase.toLowerCase())) errors.push("CH-V05: " + file + " is missing scientific state distinction: " + phrase);
   }
 }
+for (const [file, required] of [
+  ["acid-base-neutralisation.svg", ["Brønsted–Lowry model", "Acid: proton donor", "Base: proton acceptor", "Base added →", "equivalence point near pH 7"]],
+  ["acid-base-neutralisation-ru.svg", ["Модель Бренстеда — Лоури", "Кислота: донор протона", "Основание: акцептор протона", "Добавление основания", "около pH 7"]]
+]) {
+  const fullPath = path.join(assetRoot, file);
+  if (!fs.existsSync(fullPath)) {
+    errors.push("CH-V06: missing neutralisation visual " + file);
+    continue;
+  }
+  const svg = fs.readFileSync(fullPath, "utf8");
+  for (const phrase of required) {
+    if (!svg.toLowerCase().includes(phrase.toLowerCase())) errors.push("CH-V06: " + file + " is missing the bilingual acid-base/titration explanation: " + phrase);
+  }
+}
 const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
 if (fs.existsSync(neutralisationSvgPath)) {
   const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
