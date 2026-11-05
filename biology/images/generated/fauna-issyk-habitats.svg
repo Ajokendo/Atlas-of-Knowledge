@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
 <title id="t">Иссык-Куль: три местообитания / Issyk-Kul: three habitats</title>
-<desc id="d">Три условные панели: водно-болотный берег с силуэтами птиц, подводная зона озера с обобщёнными рыбами, высокогорный склон с каменистыми вершинами. / Three conceptual panels: wetland shore with bird silhouettes, underwater lake zone with generic fish, and a rocky high-mountain slope.</desc>
+<desc id="d">Три условные панели: водно-болотный берег с силуэтами птиц, подводная зона солоноватого озера Иссык-Куль с обобщёнными рыбами, высокогорный склон с каменистыми вершинами. / Three conceptual panels: wetland shore with bird silhouettes, the underwater zone of brackish Lake Issyk-Kul with generic fish, and a rocky high-mountain slope.</desc>
 <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#cfe5ec"/><stop offset="1" stop-color="#f5efd9"/></linearGradient><linearGradient id="water" x2="0" y2="1"><stop stop-color="#62a9bc"/><stop offset="1" stop-color="#17546e"/></linearGradient></defs>
 <rect width="1200" height="675" fill="url(#sky)"/>
 <text x="42" y="52" font-family="Arial,sans-serif" font-size="22" letter-spacing="3" fill="#274b57">ISSYK-KUL REGION · ECOLOGICAL HABITATS</text>
