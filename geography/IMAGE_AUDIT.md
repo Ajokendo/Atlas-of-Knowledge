@@ -53,7 +53,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 0 | 68 | No planned visual IDs have confirmed image embeds in the chapter source scan. |
-| **Total named inventory** | **281** | **170** | **111** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
+| **Total named inventory** | **281** | **180** | **101** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
 - **Image Coverage:** 180/281 named IDs have an image embedded in the relevant chapter source (64.1%). This measures presence only.
@@ -1315,24 +1315,14 @@ All four files pass source-level SVG checks for root, viewBox, title, descriptio
 
 ## Consolidated open visual blockers — Chapters 11–20 — 5 November 2026
 
-This is the active work queue after the latest integration tranche. A placeholder is not counted as coverage. Supplementary figures listed elsewhere in this audit do not close these planned IDs.
+This table lists only visual IDs that still lack a confirmed integrated asset. Integrated visuals with outstanding scientific, rights, date, accessibility or rendered QA are listed separately below. A placeholder is not counted as coverage.
 
 | Visual ID | Required asset | Why it remains open | Evidence needed to close |
 |---|---|---|---|
-| 12-C | Central Asia/transboundary systems map | Requires a consistent regional layer set for basins, mountain systems, marine ecosystems and corridors; no single verified combined map found. | Documented boundary/basin datasets, dates, CRS, licences and a clear thematic scope; do not combine unrelated layers without metadata. |
-| 12-E | Europe physical-geography map | Relief candidates exist, but a complete bilingual teaching map with the chapter's chosen macroregional classification and named plains/peninsulas is not yet integrated. | A current licensed physical map or reproducible Natural Earth v6-based map; state projection and explain that Europe macroregional schemes differ. |
-| 12-F | North America relief and drainage map | NASA/JPL SRTM relief image is integrated as supplementary context, but it does not label major rivers or show verified flow directions. | A hydrography layer with named river systems and direction/flow evidence; document SRTM acquisition/reduction and map projection if used as the relief base. |
-| 12-G | Central America and Caribbean map | No verified combined map yet covers island arcs, straits and the Panama Canal under one consistent geographic extent. | Licensed coastline/island/tectonic layers and current canal/strait names; projection and date. |
-| 12-H | South America natural regions map | No complete integrated map yet distinguishes Andes, Amazonia, Orinoco, Brazilian/Guiana Highlands, Pampas, Patagonia and Atacama with major basins. | Licensed relief, drainage and named physiographic-region layers; document classification and source dates. |
-| 12-I | Oceania island types and subregions | Requires both a Pacific overview and defensible classification of continental, volcanic and coral islands; no suitable single map/diagram verified. | Geologically sourced island-type classification, named subregions, island coordinates and scale-aware overview. |
+| 12-C | Central Asia/transboundary systems map | Requires a consistent regional layer set for basins, mountain systems, marine ecosystems and corridors; no single verified combined map found. | Documented basin/mountain/marine/corridor datasets, dates, CRS, licences and clear thematic scope; do not combine unrelated layers without metadata. |
 | 12-J | Antarctica and Southern Ocean map | Needs a dated ice-sheet and research-station layer plus an explicit ocean-boundary convention; territorial claims must not be implied. | Current SCAR/BAS or equivalent layers, station data date, adopted Southern Ocean boundary and polar projection. |
 | 14-G | DEM, slope and aspect | NASA SRTM (~30 m) and Copernicus GLO-30/90 candidates found, but no exact Kyrgyzstan tile downloaded and validated. Copernicus GLO-30 is a DSM, not bare-earth DTM. | Exact raster tile, licence, CRS, vertical datum/geoid, NoData/void treatment, pixel spacing; reproducible slope/aspect derivation and stated units. |
-| 17-A | Kyrgyzstan location and current state boundary | Older locator maps exist; a current authoritative boundary geometry with source date/licence has not been confirmed. | Official or independently documented boundary layer, CRS, date, neighbouring states and checked extreme points. |
-| 17-B | Tien Shan and Pamir-Alay physical map | No validated national DEM and mountain-range layer combination ready for reuse. | DEM with horizontal/vertical metadata, range-name source, hypsometric method and clear regional boundaries. |
-| 17-D | Intermontane valleys and profiles | Named valleys are documented, but a single geospatial source for correct valley polygons/axes and profile lines is not validated. | Verified valley geometry, source/scale, profile transects and elevation data; do not draw approximate valley positions as measured data. |
-| 17-F | Active faults and seismicity | World Bank CC BY 4.0 fault and earthquake datasets found; raw package inspection, CRS, completeness, event filters and clipping boundary remain open. | Inspect actual packages; document time span, magnitude threshold, catalogue completeness, fault reliability class and boundary source; then render bilingual map. |
 | 17-H | Geological structure and mineral districts | National geological atlas is announced but not confirmed as published/open; older map images are dated or have unclear rights. | Published geological map layers with source, date, scale, licence and resource-status categories; distinguish occurrence, prospect, deposit and producing mine. |
-| 17-I | Current administrative map | A third-party tool reports OCHA/Ministry boundaries and CC BY-IGO, but exact source dataset/version and geometry metadata have not been independently checked. | Retrieve original OCHA/Ministry boundary package; verify seven oblasts, Bishkek/Osh status, names, date, CRS and licence. |
 | 18-A | Validated national physical map / DEM | Blue Green Atlas relief overview is integrated as supplementary context (SRTM3 ~90 m, Mercator) but lacks compilation date, vertical reference and accuracy statement. | Validated DEM and derived hypsometry/range/basin layers with CRS, vertical datum, source date and accuracy. |
 | 18-E | Multi-hazard map | No authoritative, consistently dated layers for seismicity, landslides, debris flows, rockfalls, avalanches and glacial lakes have been validated together. | Separate hazard layers, dates, scales and methods; keep hazard, exposure and vulnerability distinct; avoid implying a single comparable risk index. |
 | 18-F | Tectonic map | Candidate academic tectonic figures have been screened, but figure-level reuse rights and a consistent scientific model for the whole Tien Shan are unresolved. | A peer-reviewed regional tectonic model with explicit terranes/sutures/faults, source date and reuse terms; review by a geologist. |
@@ -1345,6 +1335,21 @@ This is the active work queue after the latest integration tranche. A placeholde
 | 20-A | Current glacier inventory | Research inventory for the Kyrgyz/Teskey ranges and global inventories are candidates, but no complete dated national outline set and clipping boundary are validated. | Dated glacier outlines, minimum-area threshold, inventory method, CRS, uncertainty and national boundary source. |
 | 20-B | River basins and transboundary flow map | Historical AF NWRMP basin maps are located but are dated and item-level reuse rights/current geometry are unresolved. | Current basin/watershed boundaries, river network and direction, transboundary-flow evidence, CRS, source date and licence. |
 | 20-G | Naryn seasonal/interannual hydrograph | UNH station 16055 metadata identified (1931–2006; mean 92.117 m³/s), but raw reusable observations and item-specific licence are unconfirmed. | Raw daily/monthly series, station identity, time step, quality flags, missing-data treatment, licence and gauge metadata. |
+
+### Integrated assets with outstanding verification
+
+| Visual ID | Integrated visual | Remaining verification |
+|---|---|---|
+| 12-E | Blue Green Atlas Europe physical-relief map, CC BY 4.0 | Scientific review of named plains/ranges/peninsulas and macroregional key; remote-image responsive/browser/accessibility QA. |
+| 12-F | Blue Green Atlas North America relief map, CC BY 4.0 | Scientific review of river-direction key and map interpretation; remote-image QA. |
+| 12-G | CIA Central America/Caribbean shaded-relief map, public domain | Scientific review of named island arcs/passages/canal key; remote-image QA. |
+| 12-H | Blue Green Atlas South America relief map, CC BY 4.0 | Scientific review of regional/drainage key; remote-image QA. |
+| 12-I | Blue Green Atlas Oceania relief map, CC BY 4.0 | Scientific review of island-origin examples and coverage; remote-image QA. |
+| 17-A | Blue Green Atlas locator + OCHA COD-AB administrative outline | OCHA source release/version date and current legal-border validation; remote JPEG/SVG QA. |
+| 17-B | SRTM/GMT topographic map of Kyrgyzstan, public domain | Exact source-raster date unknown; verify range/valley labels and caveat the red boundary line; remote-image QA. |
+| 17-D | Blue Green Atlas relief context + original bilingual valley profile | Verify the seven reference anchors geospatially; assign formal project creator/licence to original SVG; remote-image QA. |
+| 17-F | Poggi et al. (2024) earthquake-epicentre and active-fault maps, CC BY 4.0 | Remote figure rendering/responsive/accessibility QA; scientific scope caveat already recorded. |
+| 17-I | OCHA COD-AB labelled administrative map, CC BY-IGO | OCHA source release/version date; confirm Manas city toponym update; remote SVG and accessibility QA. |
 
 ### Closure rule
 
