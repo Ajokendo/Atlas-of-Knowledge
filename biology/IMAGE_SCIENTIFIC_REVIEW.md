@@ -1,6 +1,6 @@
 # Scientific review of priority Kyrgyzstan illustrations
 
-**Review date:** 1 November 2026  
+**Review date:** 5 November 2026  
 **Scope:** the 13 P1 image briefs in `IMAGE_INSERTION_MAP.md` for the Kyrgyzstan flora and fauna chapters.  
 **Purpose:** constrain future image generation and captions to evidence already represented in the chapter and to authoritative taxonomic or conservation references. This is an illustration-production review, not a complete national species checklist or a substitute for specialist review.
 
