@@ -820,3 +820,18 @@ The six assets below are Category C original vector diagrams created after revie
 | 08-G — `geography/assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg` | Based on the chapter's definitions of patches, corridors, matrix and structural/functional connectivity; no real habitat network is represented. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
 
 All six SVGs contain bilingual text and `<title>` / `<desc>`. Rights remain PENDING until the project-level creator/rightsholder and redistribution-licence policy is formally applied. Rendered browser/mobile, contrast, keyboard and screen-reader QA remain PENDING.
+
+
+## Chapter 09 — Original bilingual demographic visuals
+
+Five conceptual Category C SVGs were created after reviewing UN demographic definitions and data-source guidance. They do not assert country-specific data, dates, routes or observed urban boundaries.
+
+| Visual ID / asset | Image-first and scientific basis | Rights / lifecycle |
+|---|---|---|
+| 09-B — `geography/assets/diagrams/09-B-age-sex-pyramids-bilingual.svg` | UN World Population Prospects 2024 provides population by age and sex and single-age/five-year age groups; the three pyramid shapes are hypothetical. https://population.un.org/wpp ; https://unstats.un.org/unsd/demographic-social/products/dyb/dyb_2024/ | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 09-C — `geography/assets/diagrams/09-C-migration-types-schematic-bilingual.svg` | UN WPP methodology defines migration as a demographic component; the graphic classifies movement types without inventing routes or volumes. https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/files/documents/2024/Jul/undesa_pd_2024_wpp2024_methodology-report_web.pdf | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 09-D — `geography/assets/diagrams/09-D-demographic-transition-model-bilingual.svg` | UN WPP 2024 uses the demographic-transition framework but does not imply one universal country trajectory; curves are illustrative only. https://www.un.org/development/desa/pd/content/World-Population-Prospects-2024 | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 09-F — `geography/assets/diagrams/09-F-urban-agglomeration-growth-schematic-bilingual.svg` | The chapter production brief calls for a hypothetical three-time-slice sequence and distinction between administrative boundaries and functional urban areas; no remote-sensing data is claimed. | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+| 09-G — `geography/assets/diagrams/09-G-demographic-data-sources-bilingual.svg` | UN WPP 2024 documents use of censuses, vital registration systems and nationally representative sample surveys; the diagram also separates administrative and geospatial sources. https://population.un.org/wpp ; https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2024_summary_of_results_final_web.pdf | Original bilingual SVG; project creator/licence pending. INTEGRATED, not VERIFIED. |
+
+All five SVGs contain bilingual text and `<title>` / `<desc>`. Rights remain PENDING until the project-level creator/rightsholder and redistribution-licence policy is formally applied. Rendered browser/mobile, contrast, keyboard and screen-reader QA remain PENDING.

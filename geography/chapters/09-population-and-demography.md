@@ -25,7 +25,12 @@ After studying this chapter, readers will be able to explain core demographic co
 
 Перепись стремится охватить всё население в установленный период и по единым правилам. Между переписями численность обычно оценивается с учётом рождений, смертей и миграции. Качество статистики зависит от полноты охвата, своевременности регистрации, точности ответов и прозрачности методик.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 09-G / IMAGE PLACEHOLDER 09-G]** Схема источников демографических данных и типов показателей, получаемых из каждого источника. / Diagram of demographic data sources and the types of indicators obtained from each source.
+<!-- VISUAL ID 09-G — integrated bilingual SVG below -->
+
+![Схема источников демографических данных: переписи, регистрация актов гражданского состояния, обследования, административные записи и геоданные. / Diagram of demographic data sources: censuses, civil registration, surveys, administrative records and geospatial data.](../assets/diagrams/09-G-demographic-data-sources-bilingual.svg)
+
+*09-G. Авторская двуязычная схема; источники имеют разный охват и не являются взаимозаменяемыми. / Original bilingual diagram; sources have different coverage and are not interchangeable.*
+
 **Рисунок 9.1 / Figure 9.1 — Источники демографических данных / Sources of demographic data.**  
 Техническое задание: центральный блок «население» соединить с переписью, регистрацией актов гражданского состояния, обследованиями, административными данными и геопространственными источниками; показать, какие показатели даёт каждый источник; все подписи двуязычные.
 **EN production brief:** Place “Population” in the centre and connect it to census data, civil registration, surveys, administrative records and geospatial sources. Show which indicators each source provides; all labels must be bilingual.
@@ -104,13 +109,23 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 
 Число стадий и их названия различаются между версиями модели. Это аналитическая схема, а не универсальный закон: войны, эпидемии, миграция, государственная политика и культурные особенности могут менять траектории.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 09-D / IMAGE PLACEHOLDER 09-D]** Модель демографического перехода с кривыми рождаемости, смертности и естественного прироста; указать, что схема обобщённая. / **EN:** Demographic transition model with fertility, mortality and natural-increase curves; identify it as a generalised model.
+<!-- VISUAL ID 09-D — integrated bilingual SVG below -->
+
+![Обобщённая модель демографического перехода с кривыми рождаемости, смертности и естественного прироста. / Generalised demographic-transition model with birth, death and natural-increase curves.](../assets/diagrams/09-D-demographic-transition-model-bilingual.svg)
+
+*09-D. Авторская двуязычная концептуальная схема; стадии и траектории различаются между странами и версиями модели. / Original bilingual conceptual diagram; stages and trajectories vary across countries and model versions.*
+
 **Рисунок 9.3 / Figure 9.3 — Модель демографического перехода / Demographic transition model.**  
 Техническое задание: график с условными кривыми рождаемости, смертности и естественного прироста по стадиям; оси и легенда на двух языках; явно обозначить, что это концептуальная модель, а не данные конкретной страны.
 **EN production brief:** Draw a graph with illustrative curves for birth rate, death rate and natural increase across the stages. Use bilingual axes and legend, and label it clearly as a conceptual model rather than data from a particular country.
 
 ## 9.7. Возрастная и половая структура населения / Age and Sex Structure
-> **[МЕТКА ИЛЛЮСТРАЦИИ 09-B / IMAGE PLACEHOLDER 09-B]** Возрастно-половая пирамида с пояснением оснований, возрастных групп и единиц. / Population pyramid explaining its base, age groups and units.
+<!-- VISUAL ID 09-B — integrated bilingual SVG below -->
+
+![Три условные возрастно-половые пирамиды: расширяющаяся, стационарная и сужающаяся. / Three hypothetical age-sex pyramids: expansive, stationary and constrictive.](../assets/diagrams/09-B-age-sex-pyramids-bilingual.svg)
+
+*09-B. Авторская двуязычная схема; условные формы не описывают конкретную страну или год. / Original bilingual diagram; hypothetical shapes do not describe a particular country or year.*
+
 
 
 
@@ -162,7 +177,12 @@ Consider a hypothetical population with 18,000 people aged 0–14, 50,000 aged 1
 Thus, for every 100 people aged 15–64, there are 50 people in the younger and older age groups combined. This does not mean that all 100 people are employed or that they financially support 50 dependants: the calculation is based on age alone. Assessing the actual economic burden also requires information on employment, unemployment, income, and participation in paid work and care across age groups.
 
 ## 9.9. Миграция: понятия и виды / Migration: Concepts and Types
-> **[МЕТКА ИЛЛЮСТРАЦИИ 09-C / IMAGE PLACEHOLDER 09-C]** Карта миграционных потоков с различением внутренних и международных перемещений, потоков и запасов. / Migration-flow map distinguishing internal and international movement, flows and stocks.
+<!-- VISUAL ID 09-C — integrated bilingual SVG below -->
+
+![Типы миграции: внутренняя, международная, сезонная, возвратная и вынужденная; отдельно показаны поток и запас мигрантов. / Migration types: internal, international, seasonal, return and forced; flow and stock are distinguished.](../assets/diagrams/09-C-migration-types-schematic-bilingual.svg)
+
+*09-C. Авторская двуязычная схема; она не показывает реальные географические маршруты или объёмы миграции. / Original bilingual diagram; it does not show real geographic routes or migration volumes.*
+
 
 
 
@@ -235,7 +255,12 @@ Thus, for every 100 people aged 15–64, there are 50 people in the younger and 
 
 Планирование устойчивой урбанизации включает общественный транспорт, доступное жильё, смешанное землепользование, зелёную инфраструктуру, защиту водосборов, управление отходами и участие жителей.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 09-F / IMAGE PLACEHOLDER 09-F]** Последовательность роста городской агломерации с ядром, пригородами и изменением застроенной территории по датированным данным. / **EN:** Urban-agglomeration growth sequence showing the core, suburbs and built-up-area change using dated data.
+<!-- VISUAL ID 09-F — integrated bilingual SVG below -->
+
+![Три условных этапа роста городской агломерации с ядром и пригородами; административная и функциональная зоны различаются. / Three hypothetical stages of urban-agglomeration growth, showing the core and suburbs; administrative and functional areas are distinct.](../assets/diagrams/09-F-urban-agglomeration-growth-schematic-bilingual.svg)
+
+*09-F. Авторская двуязычная схема; временные срезы и границы условны, не являются результатом дистанционного мониторинга. / Original bilingual diagram; time slices and boundaries are hypothetical, not remote-sensing observations.*
+
 **Рисунок 9.7 / Figure 9.7 — Рост городской агломерации / Growth of an urban agglomeration.**  
 Техническое задание: последовательные карты условной агломерации в три временных среза; показать ядро, пригородное расширение, транспортные связи и зелёные зоны; подчеркнуть, что административная граница и функциональная зона различаются.
 **EN production brief:** Create a sequence of three maps showing a hypothetical urban agglomeration at different dates. Show the urban core, suburban expansion, transport links and green spaces; emphasise that the administrative boundary and functional urban area are not the same.

@@ -40,7 +40,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 06 | 15 | 5 | 10 | 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A integrated; 6-B has a licensed candidate dataset but no finished map. |
 | 07 | 9 | 7 | 2 | 07-A, 07-B, 07-F, 07-G, 07-H and 07-I are original bilingual SVGs; 07-D remains an adapted CC BY 4.0 figure. Accessibility and rendered technical QA remain pending. 07-C and 07-E remain open pending usable map geometry. |
 | 08 | 7 | 6 | 1 | 08-A, 08-C, 08-D, 08-E, 08-F and 08-G are original bilingual SVGs; 08-B remains open pending a validated global WRB map. Rights and rendered/accessibility QA remain pending. |
-| 09 | 7 | 0 | 7 | All seven visual needs remain placeholders, including 09-G. |
+| 09 | 7 | 5 | 2 | 09-B, 09-C, 09-D, 09-F and 09-G are original bilingual conceptual SVGs. 09-A (WPP 2024 time series) and 09-E (gridded population-density map) remain open pending source-data extraction and documented chart/map metadata. |
 | 10 | 7 | 0 | 7 | All seven visual needs remain placeholders. |
 | 11 | 7 | 7 | 0 | Seven local SVG assets embedded in chapter source. |
 | 12 | 10 | 3 | 7 | 12-A, 12-B and 12-D embedded; NASA North America relief is supplementary and does not close a separate planned ID. |
@@ -53,12 +53,12 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 0 | 68 | No planned visual IDs have confirmed image embeds in the chapter source scan. |
-| **Total named inventory** | **281** | **159** | **122** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
+| **Total named inventory** | **281** | **164** | **117** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 159/281 named IDs have an image embedded in the relevant chapter source (56.6%). This measures presence only.
-- **Image Verification:** 0/159 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 122 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 164/281 named IDs have an image embedded in the relevant chapter source (58.4%). This measures presence only.
+- **Image Verification:** 0/164 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 117 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -343,12 +343,12 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 08 | 08-F | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual landscape-morphology SVG embedded; relief and hierarchy are schematic and school-dependent. Rights, accessibility and rendered QA remain pending. |
 | 08 | 08-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual landscape-mosaic SVG embedded; patches, corridor, matrix and barrier are conceptual. Rights, accessibility and rendered QA remain pending. |
 | 09 | 09-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 09 | 09-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 09 | 09-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 09 | 09-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 09 | 09-B | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual age-sex-pyramid SVG with three hypothetical shapes on a shared age scale; no country/year data asserted. Rights, accessibility and rendered QA pending. |
+| 09 | 09-C | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual migration-types SVG; distinguishes internal/international, seasonal, return and forced movement, and flow versus stock. No real routes asserted. Rights, accessibility and rendered QA pending. |
+| 09 | 09-D | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual demographic-transition SVG; conceptual curves only, not a country-specific trajectory. Rights, accessibility and rendered QA pending. |
 | 09 | 09-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 09 | 09-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 09 | 09-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter source line 28 identifies a placeholder for demographic data sources and indicator types; no finished asset or source record is evidenced. |
+| 09 | 09-F | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual hypothetical urban-growth sequence; no real boundaries, dates or remote-sensing observations asserted. Rights, accessibility and rendered QA pending. |
+| 09 | 09-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual demographic-data-source SVG; distinguishes census, civil registration, surveys, administrative and geospatial sources. Rights, accessibility and rendered QA pending. |
 
 ## 7. Current metrics — 5 November 2026
 
