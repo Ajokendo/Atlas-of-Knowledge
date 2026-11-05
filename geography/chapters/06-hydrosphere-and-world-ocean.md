@@ -12,19 +12,20 @@
 
 ## 6.1. Вода на Земле: распределение и свойства / Water on Earth: Distribution and Properties
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.1-A / IMAGE PLACEHOLDER 6.1-A]** Диаграмма распределения всей воды Земли и отдельная детализация пресной воды по основным резервуарам. / **EN:** Diagram of all Earth's water, with a separate breakdown of freshwater by major reservoir.
+![Распределение воды на Земле: доля океанской, другой солёной и пресной воды; распределение пресной воды и поверхностных/прочих пресных вод. Значения округлены.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
+
+*Источник изображения: U.S. Geological Survey (USGS), Water Science School, «The distribution of water on, in, and above the Earth» (2019). Данные: оценка Игоря Шикломанова, опубликованная в 1993 году; проценты округлены. Изображение используется без изменений; источник и автор данных указаны по подписи USGS. Это оценка, основанная на историческом наборе данных, а не современное измерение.*
+
+**Перевод подписей диаграммы:**  
+- **Общий запас воды:** океаны — 96,5%; другая солёная вода — 0,9%; пресная вода — 2,5%.
+- **Весь запас пресной воды:** ледники и ледяные щиты — 68,7%; подземные воды — 30,1%; поверхностные и прочие пресные воды — 1,2%.
+- **Поверхностные и прочие пресные воды:** подземный лёд и многолетняя мерзлота — 69,0%; озёра — 20,9%; почвенная влага — 3,8%; атмосфера — 3,0%; болота и заболоченные территории — 2,6%; реки — 0,49%; вода в живых организмах — 0,26%.
+
+Важно: три столбца показывают вложенные уровни распределения, а не три независимых доли. Правый столбец раскрывает только категорию «поверхностные и прочие пресные воды» из среднего столбца; его проценты нельзя складывать с долями первого или второго столбца.
 
 Общий объём воды на Земле оценивается примерно в 1,386 млрд км³. Около 96,5% всего объёма приходится на океаны и моря, а приблизительно 2,5% — на пресную воду. Если учитывать также другие солёные резервуары, включая солёные подземные воды и озёра, доля всей солёной воды составляет около 97,5%. Эти оценки округлены; точные доли зависят от классификации резервуаров и используемых данных.
 
-Основные резервуары пресной воды:
-- ледники и ледяные щиты;
-- подземные воды;
-- озёра и реки;
-- почвенная влага;
-- атмосфера;
-- вода в организмах.
-
-Большая часть пресной воды заключена в ледниках и подземных водах. Доля воды в реках и озёрах относительно общего запаса воды планеты очень мала, хотя именно эти ресурсы имеют большое значение для экосистем и водоснабжения.
+Основные резервуары пресной воды включают ледники и ледяные щиты, подземные воды, озёра и реки, подземный лёд и многолетнюю мерзлоту, почвенную влагу, болота, атмосферную воду и воду в организмах. Большая часть пресной воды заключена в ледниках и подземных водах. Доля воды в реках и озёрах относительно общего запаса воды планеты очень мала, хотя именно эти ресурсы имеют большое значение для экосистем и водоснабжения.
 
 ### Важнейшие свойства воды / Key Properties of Water
 
@@ -35,8 +36,6 @@
 - При замерзании вода расширяется, поэтому лёд обычно менее плотный и плавает.
 - Поверхностное натяжение и капиллярные свойства важны для почв и живых организмов.
 
-**Место для иллюстрации 6.1-A — Earth's Water Distribution.** Диаграмма распределения всей воды и отдельная детализация пресной воды по основным резервуарам. Подписать, что проценты округлены и относятся к разным уровням общей схемы.
-**EN production brief:** Create a diagram of all Earth's water, with a separate breakdown of freshwater by major reservoir. State that percentages are rounded and that the freshwater breakdown is a nested part of the total-water diagram.
 
 ## 6.2. Круговорот воды в природе / The Hydrological Cycle
 
@@ -535,9 +534,20 @@ The world ocean is one interconnected system of ocean basins, covering about 71%
 
 ### 6.1. Water on Earth: Distribution and Properties
 
+![Distribution of Earth's water: ocean, other saline water and freshwater; breakdowns of freshwater and surface/other freshwater. Values are rounded.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
+
+*Image source: U.S. Geological Survey (USGS), Water Science School, “The distribution of water on, in, and above the Earth” (2019). Data source: Igor Shiklomanov's estimate published in 1993; percentages are rounded. The image is reused unchanged, with the USGS source and data author credited. This is a historical estimate, not a current measurement.*
+
+**Translation of diagram labels:**
+- **Total global water:** oceans — 96.5%; other saline water — 0.9%; freshwater — 2.5%.
+- **All freshwater:** glaciers and ice caps — 68.7%; groundwater — 30.1%; surface and other freshwater — 1.2%.
+- **Surface and other freshwater:** ground ice and permafrost — 69.0%; lakes — 20.9%; soil moisture — 3.8%; atmosphere — 3.0%; swamps and marshes — 2.6%; rivers — 0.49%; water in living things — 0.26%.
+
+The three bars show nested levels, not three independent shares. The right-hand bar breaks down only the “surface and other freshwater” category from the middle bar; its percentages must not be added to those in the first or second bar.
+
 The total volume of water on Earth is estimated at about 1.386 billion km³. About 96.5% of the total is held in oceans and seas, while approximately 2.5% is freshwater. When other saline reservoirs, including saline groundwater and lakes, are also counted, all saline water together makes up about 97.5%. These figures are rounded; exact proportions depend on how reservoirs are classified and on the data used.
 
-The main freshwater reservoirs are glaciers and ice sheets, groundwater, lakes and rivers, soil moisture, the atmosphere and water in living organisms. Most freshwater is stored in glaciers and groundwater. The share held in rivers and lakes is very small compared with the planet's total water, although these resources are highly important for ecosystems and water supply.
+The main freshwater reservoirs include glaciers and ice sheets, groundwater, lakes and rivers, ground ice and permafrost, soil moisture, wetlands, atmospheric water and water in living organisms. Most freshwater is stored in glaciers and groundwater. The share held in rivers and lakes is very small compared with the planet's total water, although these resources are highly important for ecosystems and water supply.
 
 Important properties of water include:
 - **high heat capacity:** water warms and cools relatively slowly;
