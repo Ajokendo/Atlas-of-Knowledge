@@ -56,9 +56,9 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | **Total named inventory** | **281** | **170** | **111** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
 
 **Separate metrics (5 November 2026):**
-- **Image Coverage:** 175/281 named IDs have an image embedded in the relevant chapter source (62.3%). This measures presence only.
-- **Image Verification:** 0/175 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 106 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+- **Image Coverage:** 178/281 named IDs have an image embedded in the relevant chapter source (63.3%). This measures presence only.
+- **Image Verification:** 0/178 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 103 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
@@ -132,14 +132,14 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 16 | 16-H | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 16 | 16-I | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 17 | 17-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 17 | 17-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 17 | 17-B | INTEGRATED | PENDING | PASS — Wikimedia Commons source page records public-domain dedication | PASS — bilingual alt text, physical-feature key and limitation note | PENDING | PENDING — external PNG dependency; browser/mobile responsive QA pending | SRTM-derived GMT topographic map (file uploaded 2007; exact raster date unknown), 0–4,000 m+ elevation scale. Bilingual key names principal Tien Shan/Pamir–Alay ranges and valleys without drawing invented boundaries. Scientific review of feature labels remains pending. |
 | 17 | 17-C | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual regionalisation comparison integrated; explicitly not a map or source of precise boundaries; creator/rightsholder and project licence pending. |
 | 17 | 17-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 17 | 17-E | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual conceptual timeline integrated in RU/EN; global ICS boundaries are distinguished from local event dating; creator/rightsholder and project licence pending. |
-| 17 | 17-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 17 | 17-F | INTEGRATED | PASS | PASS — Poggi et al. (2024) CC BY 4.0; author/DOI attribution and licence link added | PASS — bilingual alt text and captions for both panels | PENDING | PENDING — external figure dependencies; browser/mobile responsive QA pending | Two research maps: earthquake epicentres from harmonised source catalogues (catalogue selection M≥2, ~300 km buffer, historical/instrumental records through 2020) and selected AFEAD/GEM active faults (World Bank download updated 2023-02-21, classes A–D). Regional selection, not exhaustive or live. |
 | 17 | 17-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual not-to-scale relief-process schematic integrated in RU/EN; endogenic and exogenic processes distinguished; creator/rightsholder and project licence pending. |
 | 17 | 17-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 17 | 17-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 17 | 17-I | INTEGRATED | PENDING | PASS — OCHA COD-AB / Ministry of Emergency Situations boundaries CC BY-IGO; attribution added; map renderer credited | PASS — bilingual alt text, region/city key and caption | PENDING | PENDING — external SVG dependency; live render and keyboard/screen-reader QA pending | Labelled SVG identifies seven regions and separate Bishkek/Osh cities; Lambert azimuthal equal-area. Underlying OCHA release date is not exposed on source page, so date/version validation remains pending. |
 | 18 | 18-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original schematic orographic regionalisation; not georeferenced. Project licence pending. |
 | 18 | 18-C | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |

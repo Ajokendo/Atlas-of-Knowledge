@@ -105,7 +105,15 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 *Рис. 17-C. Сопоставление двух подходов к районированию; названия и границы зависят от конкретной научной схемы.*
 
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-B / IMAGE PLACEHOLDER 17-B]** Физическая карта Тянь-Шаня и Памиро-Алая с основными хребтами, межгорными впадинами и высотной гипсометрией.
+![Гипсометрическая карта Кыргызстана: цветовая шкала высот, горный рельеф и основные межгорные понижения. / Hypsometric map of Kyrgyzstan: elevation colour scale, mountain relief and major intermontane depressions.](https://upload.wikimedia.org/wikipedia/commons/3/37/Kyrgyzstan_Topography.png)
+
+*17-B. Топографическая карта из SRTM-данных; авторская сборка GMT, файл Wikimedia Commons, опубликован в 2007 году; точная дата исходного растра не указана. Шкала высот в исходнике: 0–4000 м и выше. Изображение находится в общественном достоянии. / SRTM-based topographic map; GMT compilation, Wikimedia Commons file uploaded in 2007; exact source-raster date is not stated. Original elevation scale: 0–4,000 m and above. Public domain.*
+
+**Ориентиры для чтения карты / Map-reading key:** Северный Тянь-Шань — Кыргызский, Кунгей-Ала-Тоо и Терскей-Ала-Тоо; внутренний и центральный Тянь-Шань — Нарын-Тоо, Молдо-Тоо, Ат-Башы и Какшаал-Тоо; юго-запад — Алайский хребет и Заалайский хребет Памиро-Алая. Межгорные понижения и долины: Чуйская, Таласская, Иссык-Кульская, Суусамырская, Нарынская, Ферганская и Алайская. / Northern Tien Shan — Kyrgyz, Kungey Ala-Too and Terskey Ala-Too ranges; Inner and Central Tien Shan — Naryn-Too, Moldo-Too, At-Bashy and Kakshaal-Too; southwest — Alay and Trans-Alay ranges of the Pamir–Alay. Intermontane depressions and valleys: Chuy, Talas, Issyk-Kul, Suusamyr, Naryn, Fergana and Alay.
+
+*Примечание: карта показывает высотный рельеф, но не является геологической картой или точной картой границ физико-географических районов; перечисленные ориентиры даны в легенде, а не нанесены как авторские линии. / Note: the map depicts elevation relief, not geology or precise boundaries of physical-geographical regions; the listed features are provided in the key, not drawn as invented boundary lines.*  
+
+*Источник / Source: [Wikimedia Commons — Kyrgyzstan Topography](https://commons.wikimedia.org/wiki/File:Kyrgyzstan_Topography.png). Public domain; no modification to the source image. / Общественное достояние; исходное изображение не изменялось.*
 > **EN:** Physical map of the Tien Shan and Pamir–Alay showing major ranges, intermontane basins and elevation hypsometry.
 
 Территория Кыргызстана включает части нескольких крупных горных районов.
@@ -310,7 +318,13 @@ Tectonic maps must distinguish geological boundaries, faults, currently active s
 
 ## 17.8. Современная тектоника и сейсмичность / Active Tectonics and Seismicity
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-F / IMAGE PLACEHOLDER 17-F]** Схема активных разломов и сейсмичности Кыргызстана с указанием периода каталога землетрясений, порога магнитуды и источника геоданных.
+![Распределение эпицентров землетрясений в Центральной Азии по основным каталогам-источникам, включая Кыргызстан. / Distribution of Central Asian earthquake epicentres in the main source catalogues, including Kyrgyzstan.](https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f01-web.png)
+
+![Выборка активных разломов Центральной Азии, включая территорию Кыргызстана; цветом показаны классы A–D. / Selected active faults in Central Asia, including Kyrgyzstan; colours indicate classes A–D.](https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f10-web.png)
+
+*17-F. Две карты из Poggi et al. (2024), NHESS 24, 2597–2613, CC BY 4.0. Верхняя карта показывает распределение эпицентров из нескольких каталогов, использованных при гармонизации; выборка для каталога исключала события ниже M 2 и включала буфер около 300 км вокруг пяти стран Центральной Азии. Каталог объединяет исторические и инструментальные записи вплоть до 2020 года; источники и полнота различаются по эпохам. Нижняя карта показывает отобранные активные разломы из региональной базы AFEAD/GEM (выгрузка World Bank обновлена 21.02.2023), классы A–D. Это региональная научная выборка, а не исчерпывающий кадастр всех разломов Кыргызстана и не оперативная карта текущей сейсмичности. / Two maps from Poggi et al. (2024), NHESS 24, 2597–2613, CC BY 4.0. The upper map shows epicentres from multiple catalogues used in harmonisation; the catalogue selection excluded events below M 2 and included an approximately 300 km buffer around the five Central Asian countries. The catalogue combines historical and instrumental records through 2020; source coverage and completeness vary by period. The lower map shows selected active faults from the regional AFEAD/GEM database (World Bank download updated 21 Feb 2023), classes A–D. This is a regional scientific selection, not an exhaustive inventory of all Kyrgyz faults or a live earthquake map.*
+
+*Источники / Sources: [Poggi et al. (2024), article and licence](https://doi.org/10.5194/nhess-24-2597-2024); [World Bank Central Asia seismic fault database](https://datacatalog.worldbank.org/search/dataset/0064168/central-asia-seismic-fault-database); [World Bank Central Asia earthquake catalogue](https://datacatalog.worldbank.org/search/dataset/0064167/central-asia-earthquake-catalogue). Изображения использованы без изменения; добавлены двуязычные пояснения. / Images used unchanged; bilingual explanations added.*
 > **EN:** Map of active faults and seismicity in Kyrgyzstan, stating the earthquake-catalogue period, magnitude threshold and geodata source.
 
 **Дополнительная региональная карта / Supplementary regional map**
@@ -517,7 +531,13 @@ The country's geographic position encouraged cultural exchange, trade, migration
 
 ## 17.12. Административно-территориальное устройство / Administrative and Territorial Organisation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-I / IMAGE PLACEHOLDER 17-I]** Карта действующего административно-территориального устройства с семью областями и отдельным обозначением Бишкека и Оша; использовать официальную сетку и утверждённые топонимы.
+![Административно-территориальное устройство Кыргызстана: семь областей и два города республиканского значения — Бишкек и Ош. / Administrative organisation of Kyrgyzstan: seven regions and two cities of republican significance — Bishkek and Osh.](https://blankmapof.com/maps/svg/blank-map-of-kyrgyzstan-labels.svg)
+
+*17-I. Векторная карта на основе административных границ OCHA / Министерства чрезвычайных ситуаций Кыргызской Республики; проекция Lambert azimuthal equal-area. Источник указывает семь областей и два города. Дата версии исходного набора OCHA на странице не раскрыта; карта и источник проверены 5 ноября 2026 года. / Vector map based on OCHA / Ministry of Emergency Situations of the Kyrgyz Republic administrative boundaries; Lambert azimuthal equal-area projection. The source identifies seven regions and two cities. The source page does not expose the underlying OCHA release date; map and source page checked 5 November 2026.*
+
+**Области / Regions:** Баткен / Batken; Чүй / Chüy; Талас / Talas; Ысык-Көл / Issyk-Kul; Нарын / Naryn; Жалал-Абад / Jalal-Abad; Ош / Osh. **Отдельные города / Separate cities:** Бишкек / Bishkek; Ош / Osh City.
+
+*Источник данных границ / Boundary data source: OCHA COD-AB, источник — Министерство чрезвычайных ситуаций Кыргызской Республики; лицензия CC BY-IGO. Отрисовка карты: blankmapof.com; соседние страны и береговые линии — Natural Earth. / OCHA COD-AB, source agency — Ministry of Emergency Situations of the Kyrgyz Republic; CC BY-IGO. Map rendering: blankmapof.com; neighbouring countries and coastlines: Natural Earth.*
 > **EN:** Map of the current administrative-territorial structure showing the seven oblasts and separately identifying Bishkek and Osh; use official boundaries and approved place names.
 
 Современная административная структура включает **семь областей**:

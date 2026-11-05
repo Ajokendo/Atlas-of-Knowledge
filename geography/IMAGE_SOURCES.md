@@ -926,3 +926,33 @@ All 11 planned assets (13-A–13-K) are present and embedded in the chapter sour
 - **PENDING:** 13-A (detailed greenhouse-energy-flow scientific review); 13-C (full conceptual review of the hazard/exposure/vulnerability interaction); 13-D (legal terminology and jurisdiction-specific EIA/SEA procedures).
 
 For all 11: project creator/rightsholder and redistribution licence remain PENDING; accessibility and live browser/mobile rendering remain PENDING. None is promoted to VERIFIED.
+
+
+### Chapter 17-B — topographic map of Kyrgyzstan — 5 November 2026
+
+- **Source:** Wikimedia Commons, “Kyrgyzstan Topography.png”; https://commons.wikimedia.org/wiki/File:Kyrgyzstan_Topography.png
+- **Direct image:** https://upload.wikimedia.org/wikipedia/commons/3/37/Kyrgyzstan_Topography.png
+- **Creator/licence:** Sadalmelik; creator has dedicated the work to the public domain.
+- **Data/method:** GMT topographic map made from public-domain SRTM data; file history records upload on 8 July 2007; exact raster acquisition date is unknown. Original elevation legend runs from 0 to 4,000 m and above.
+- **Use:** Image used unchanged. Added bilingual key for major Tien Shan/Pamir–Alay ranges and intermontane valleys. No unverified ridge/basin boundaries are drawn.
+- **Status:** INTEGRATED; rights PASS; bilingual/alt PASS; scientific review of named-feature key and map date PENDING; external-image render/accessibility QA PENDING. Not VERIFIED.
+
+### Chapter 17-F — active faults and earthquake epicentres — 5 November 2026
+
+- **Scientific source:** Poggi et al. (2024), “Harmonizing seismicity information in Central Asian countries: earthquake catalogue and active faults”, Natural Hazards and Earth System Sciences 24, 2597–2613. https://doi.org/10.5194/nhess-24-2597-2024
+- **Licence:** Article and figures CC BY 4.0; authors, DOI and licence credited.
+- **Figure 1:** https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f01-web.png — epicentres from source catalogues used in the harmonised regional compilation. Catalogue selection excludes events below M 2 and includes a ~300 km buffer around the five Central Asian states. The source material combines historical and instrumental records through 2020; completeness varies by period and source.
+- **Figure 10:** https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f10-web.png — selected active faults from the regional AFEAD/GEM dataset, classes A–D. World Bank file metadata records last update 21 February 2023.
+- **Scope caveat:** This is a regional Central Asian research product, not an exhaustive inventory of all Kyrgyzstan faults and not a live seismicity map.
+- **Status:** INTEGRATED; scientific source/limitations PASS; rights PASS; bilingual alt/captions PASS; external-image rendering/accessibility QA PENDING. Not VERIFIED.
+
+### Chapter 17-I — administrative map of Kyrgyzstan — 5 November 2026
+
+- **Map page:** https://blankmapof.com/kyrgyzstan
+- **Direct SVG:** https://blankmapof.com/maps/svg/blank-map-of-kyrgyzstan-labels.svg
+- **Boundary source:** OCHA Common Operational Dataset — Administrative Boundaries (COD-AB), sourced from the Ministry of Emergency Situations of the Kyrgyz Republic; CC BY-IGO. Coastlines and neighbouring countries from Natural Earth. Map projection: Lambert azimuthal equal-area.
+- **Coverage:** Seven oblasts plus Bishkek and Osh as separate cities. The page states that the OCHA dataset is the boundary source, but does not expose the underlying OCHA release/version date.
+- **Attribution:** OCHA / Ministry of Emergency Situations (CC BY-IGO); blankmapof.com map rendering.
+- **Status:** INTEGRATED; rights and bilingual key PASS; source-version/date review and external SVG rendering/accessibility QA PENDING. Not VERIFIED.
+
+All three are external image dependencies. The direct URLs were checked, but deployed site loading, responsive display, and assistive-technology behaviour remain pending.
