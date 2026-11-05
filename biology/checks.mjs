@@ -1141,8 +1141,14 @@ const requiredBilingualLabels = {
   "fauna-jalalabad-western-tien-shan.svg": ["Западный Тянь-Шань", "01 · САРЫ-ЧЕЛЕК", "02 · БЕШ-АРАЛ", "03 · СУБАЛЬПИЙСКИЙ ЛУГ"],
   "anatomy-circulation.svg": ["Pulmonary veins", "Systemic arteries", "systemic veins"],
   "evolution-timeline.svg": ["Кайнозой / Cenozoic"],
-  "evolution-homology.svg": ["У человека, летучей мыши и кита показаны пять пальцев", "The human, bat and whale hands/flippers show five digits"]
+  "evolution-homology.svg": ["У человека, летучей мыши и кита показаны пять пальцев", "The human, bat and whale hands/flippers show five digits"],
+  "zoology-vertebrates.svg": ["translate(0,-20)", "Feathers and beak", "Hair or fur · young fed with milk"]
 };
+const vertebratePlate = fs.readFileSync(path.join(generatedDir, "zoology-vertebrates.svg"), "utf8");
+if ((vertebratePlate.match(/transform="translate\\(0,-20\\)"/g) || []).length !== 2) {
+  errors.push("zoology-vertebrates.svg: bird and mammal illustrations must remain lifted clear of caption baselines");
+}
+
 for (const [name, labels] of Object.entries(requiredBilingualLabels)) {
   const file = path.join(generatedDir, name);
   if (!fs.existsSync(file)) {
