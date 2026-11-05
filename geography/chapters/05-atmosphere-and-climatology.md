@@ -494,38 +494,7 @@
 
 **Проверьте себя:** какова амплитуда температуры, если минимальная среднемесячная температура равна −5 °C, а максимальная — 24 °C?
 
-### Worked Example: Analysing Annual Temperature and Precipitation
 
-Consider hypothetical monthly mean data from one weather station. These figures are for practice only and do not describe a specific settlement.
-
-| Month | Temperature, °C | Precipitation, mm |
-|---|---:|---:|
-| January | −3 | 20 |
-| February | −1 | 22 |
-| March | 5 | 30 |
-| April | 12 | 45 |
-| May | 18 | 60 |
-| June | 23 | 40 |
-| July | 26 | 25 |
-| August | 25 | 20 |
-| September | 19 | 25 |
-| October | 11 | 35 |
-| November | 4 | 30 |
-| December | −1 | 25 |
-
-**Step 1. Calculate the annual temperature range.**  
-The highest monthly mean is 26 °C in July; the lowest is −3 °C in January. The range is 26 − (−3) = **29 °C**.
-
-**Step 2. Calculate annual precipitation.**  
-Add the monthly values: 20 + 22 + 30 + 45 + 60 + 40 + 25 + 20 + 25 + 35 + 30 + 25 = **377 mm**.
-
-**Step 3. Describe seasonality.**  
-In this hypothetical dataset, precipitation peaks in May (60 mm) and is lowest in August (20 mm). Temperature peaks in July. Therefore, the temperature and precipitation maxima do not occur in the same month.
-
-**Step 4. Limit the conclusion.**  
-These values describe the annual cycles of temperature and precipitation, but they are not sufficient on their own to assign a reliable climate type or identify a long-term trend. That requires the station's coordinates and elevation, a comparable long-term observational record and a stated climate classification.
-
-**Check your understanding:** What is the annual temperature range if the lowest monthly mean is −5 °C and the highest is 24 °C?
 
 ---
 
@@ -1012,6 +981,39 @@ Climate datasets and reanalyses serve different purposes from a daily weather fo
 Климатические наборы данных и реанализ решают иные задачи, чем ежедневный прогноз погоды. Реанализ объединяет исторические наблюдения с единой модельной системой, чтобы описать состояние атмосферы в прошлом. Климатические данные используют для изучения многолетних средних значений, изменчивости и тенденций. Климатические модели исследуют возможные долгосрочные реакции климатической системы на природные и антропогенные воздействия, но не предсказывают точную погоду в конкретный день через десятилетия.
 
 *Sources / Источники: ECMWF, [Data assimilation](https://www.ecmwf.int/en/research/data-assimilation) and [Modelling and Prediction](https://www.ecmwf.int/en/research/modelling-and-prediction); WMO, [Global Observing System](https://wmo.int/activities/global-observing-system-gos/global-observing-system-gos) and [WMO Integrated Processing and Prediction System](https://public.wmo.int/activities/wmo-integrated-processing-and-prediction-system-wipps).*
+
+### Worked Example: Analysing Annual Temperature and Precipitation
+
+Consider hypothetical monthly mean data from one weather station. These figures are for practice only and do not describe a specific settlement.
+
+| Month | Temperature, °C | Precipitation, mm |
+|---|---:|---:|
+| January | −3 | 20 |
+| February | −1 | 22 |
+| March | 5 | 30 |
+| April | 12 | 45 |
+| May | 18 | 60 |
+| June | 23 | 40 |
+| July | 26 | 25 |
+| August | 25 | 20 |
+| September | 19 | 25 |
+| October | 11 | 35 |
+| November | 4 | 30 |
+| December | −1 | 25 |
+
+**Step 1. Calculate the annual temperature range.**  
+The highest monthly mean is 26 °C in July; the lowest is −3 °C in January. The range is 26 − (−3) = **29 °C**.
+
+**Step 2. Calculate annual precipitation.**  
+Add the monthly values: 20 + 22 + 30 + 45 + 60 + 40 + 25 + 20 + 25 + 35 + 30 + 25 = **377 mm**.
+
+**Step 3. Describe seasonality.**  
+In this hypothetical dataset, precipitation peaks in May (60 mm) and is lowest in August (20 mm). Temperature peaks in July. Therefore, the temperature and precipitation maxima do not occur in the same month.
+
+**Step 4. Limit the conclusion.**  
+These values describe the annual cycles of temperature and precipitation, but they are not sufficient on their own to assign a reliable climate type or identify a long-term trend. That requires the station's coordinates and elevation, a comparable long-term observational record and a stated climate classification.
+
+**Check your understanding:** What is the annual temperature range if the lowest monthly mean is −5 °C and the highest is 24 °C?
 
 ### 5.17. Reading Climate Graphs
 
