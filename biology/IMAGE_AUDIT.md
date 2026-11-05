@@ -640,3 +640,14 @@ Independent evaluation is **not part of the atlas development workflow**. The pr
 Development-phase acceptance therefore relies on documented source-based review, honest scope and uncertainty statements, correct taxonomy and locality claims, attribution/rights checks, bilingual editorial quality, and technical/browser/accessibility testing. The development team must not claim school-teacher approval before that event, but must also not hold development completion open merely because the future evaluation has not yet occurred. Teacher findings belong in a separate post-development evaluation report and can guide later revisions.
 
 This does not waive any outstanding development-phase editorial, technical, source-traceability, attribution or licensing work.
+
+
+## Focused regional-fauna and Aygul source review — 5 November 2026
+
+Seven existing SVG assets were re-read directly from `workspace/biology`: the Naryn, Osh, Batken, Talas, Jalal-Abad and Issyk-Kul habitat illustrations, plus the Aygul botanical plate. This was a source-level review of embedded text, metadata and scene claims; it is not a pixel-level browser acceptance of all seven files.
+
+- All seven files contain SVG `title` and `desc` metadata. The six regional-fauna illustrations keep their habitat panels distinct and avoid turning generic silhouettes into unsupported species records or range maps. Their chapter-level figure alt text/captions provide bilingual descriptions.
+- **Naryn bilingual-label correction:** the Naryn SVG's embedded panel labels were English-only even though its title, description and chapter caption were bilingual. Updated the heading, each of the three habitat panels, species/habitat labels and closing caveat so the visible SVG now carries Russian and English text. Saved in commit `e0f62375417388ee160782b40419b9afa847f827`. The change does not alter species claims or add a new visual brief.
+- **Batken arithmetic check:** the figure's 4,146 total is arithmetically consistent with the two cited components (759 + 3,387). The SVG correctly labels the animals only as `Marmota spp.` and describes the figure as the 2026 spring survey result, not a permanent population estimate. This check confirms arithmetic and consistency with the recorded source summary; it is not a fresh independent census-source audit.
+- **Aygul taxonomy text:** the plate uses `Fritillaria eduardii` as the accepted name and `Petilium eduardii` as a synonym, consistent with the recorded Kew POWO reference. The illustration remains schematic; the existing cautions about bulb/capsule detail, proportions and rights clearance remain open.
+- No other asset was relabelled `VERIFIED`. Focused rendered review, detailed morphology acceptance, manual device/accessibility checks and rights clearance remain separate gates. No overall verification percentage is inferred from this batch.
