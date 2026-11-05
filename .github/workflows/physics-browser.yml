@@ -38,6 +38,8 @@ jobs:
           done
           cat /tmp/physics-http.log
           exit 1
+      - name: Test Chapter 14–15 new visual assets on desktop and mobile viewports
+        run: node original-engine/visual-assets-smoke.mjs
       - name: Test Chapter 1 kinematics on desktop and mobile viewports
         run: node original-engine/browser-smoke.mjs
       - name: Test Chapter 2 Newton laws on desktop and mobile viewports
