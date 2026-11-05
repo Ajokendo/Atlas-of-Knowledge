@@ -1202,3 +1202,12 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Replaced the underspecified `Cervus sp.` with `Cervus elaphus`; did not assign a subspecies because sources use differing subspecies treatments.
 - Kept the diagram's separate-habitat caveat and the chapter's non-census/non-range-map qualification.
 - Commit: `f1a4f7eb0a562123d38ef87228dbe7ec8bc3b34c`. Global Image Verification remains Pending audit; editorial readiness remains 99/100.
+
+
+### Issyk-Kul salinity correction — 5 November 2026
+
+- Corrected a scientific classification error: Issyk-Kul was previously described as a freshwater habitat even though it is a brackish lake (FAO reports mean salinity around 5.9–6.1 g/L).
+- Updated the SVG title/description, chapter section label, bilingual alt text and explanatory paragraph. The illustration now distinguishes brackish Issyk-Kul from the freshwater mountain stream.
+- Generic fish silhouettes remain unlabelled; no species-specific claims were introduced.
+- SVG commit: `7bb60e3b4173052ea150b905100ce9c17eed8a37`; chapter commit: `44bcfebaad4db2aa3a46e58adadc01e508b2f0f4`.
+- Global Image Verification remains Pending audit; editorial readiness remains 99/100.
