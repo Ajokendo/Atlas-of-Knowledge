@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
 <title id="t">Гомологичные и аналогичные структуры / Homologous and analogous structures</title>
-<desc id="d">Сравнение передних конечностей человека, летучей мыши, кита и лошади: общий план строения с плечевой костью, лучевой и локтевой костями, костями запястья, пясти и фалангами, изменённый под разные функции. Отдельно сопоставлены крыло птицы и крыло насекомого: сходная функция полёта, но разное происхождение и строение. / Comparison of human, bat, whale and horse forelimbs: a shared structural plan with humerus, radius and ulna, wrist, metacarpals and phalanges modified for different functions. Bird and insect wings are compared separately: similar flight function, different origin and structure.</desc>
+<desc id="d">Сравнение передних конечностей человека, летучей мыши, кита и лошади: общий план строения с плечевой костью, лучевой и локтевой костями, костями запястья, пясти и фалангами, изменённый под разные функции. У лошади локтевая кость уменьшена и частично срослась с лучевой; основную нагрузку несёт третий пястный элемент и один функциональный палец. Отдельно сопоставлены крыло птицы и крыло насекомого: сходная функция полёта, но разное происхождение и строение. / Comparison of human, bat, whale and horse forelimbs: a shared structural plan with humerus, radius and ulna, wrist, metacarpals and phalanges, modified for different functions. In the horse, the ulna is reduced and partly fused with the radius; the third metacarpal and one functional digit bear the main load. Bird and insect wings are compared separately: similar flight function, different origin and structure.</desc>
 <defs><style>
 .bg{fill:#f6f8fc}.head{fill:#164b7a}.title{font:700 29px Arial;fill:white}.sub{font:16px Arial;fill:#eaf3fb}.panel{fill:#fff;stroke:#c8d5e4;stroke-width:2}.h{font:700 21px Arial;fill:#183d60}.lab{font:16px Arial;fill:#344f69}.sm{font:14px Arial;fill:#536980}.bone{fill:#f3d7a4;stroke:#8a6330;stroke-width:2}.bone2{fill:#c6dff0;stroke:#426d91;stroke-width:2}.bone3{fill:#d9c8ed;stroke:#715c91;stroke-width:2}.bone4{fill:#d5e8d7;stroke:#54845b;stroke-width:2}.line{stroke:#73879b;stroke-width:2;fill:none}.green{fill:#e7f3e9;stroke:#64a078;stroke-width:2}.purple{fill:#eee9fb;stroke:#8c78bb;stroke-width:2}.orange{fill:#fff1d8;stroke:#d5a04b;stroke-width:2}.call{font:700 17px Arial;fill:#28583b}
 </style></defs>
@@ -41,10 +41,15 @@
 <g transform="translate(895 200)">
 <text class="h" x="50" y="0" text-anchor="middle">Лошадь / Horse</text>
 <path class="bone" d="M36 24 Q50 14 64 24 L61 95 Q50 104 39 95Z"/>
-<path class="bone2" d="M38 100 L48 185 L55 185 L49 100Z"/><path class="bone3" d="M53 100 L65 184 L72 183 L64 98Z"/>
-<g class="bone4"><ellipse cx="57" cy="194" rx="9" ry="10"/></g>
-<path class="bone4" d="M54 203 L58 260 L64 260 L63 203Z"/>
-<path d="M47 245 Q60 260 75 245" fill="none" stroke="#8a6330" stroke-width="6"/>
+<!-- Radius is the main forearm bone; ulna is reduced and fused alongside it. -->
+<path class="bone2" d="M42 100 L48 185 L58 185 L55 100Z"/>
+<path class="bone3" d="M59 105 Q68 125 62 151 L58 172 L64 174 L72 150 Q78 122 66 102Z"/>
+<g class="bone4"><ellipse cx="52" cy="194" rx="17" ry="10"/></g>
+<!-- Metacarpal III is weight-bearing; II and IV persist as splint bones. -->
+<path class="bone4" d="M48 203 L53 255 L61 255 L60 203Z"/>
+<path class="bone4" d="M39 205 L36 239 L40 240 L44 205Z M66 205 L69 239 L73 238 L71 204Z"/>
+<path class="bone4" d="M52 253 L48 270 L66 270 L62 253Z"/>
+<path d="M43 263 Q57 278 72 263" fill="none" stroke="#8a6330" stroke-width="6"/>
 <text class="sm" x="60" y="250" text-anchor="middle">Бег / Running</text>
 </g>
 <rect class="green" x="55" y="470" width="1090" height="42" rx="10"/>
