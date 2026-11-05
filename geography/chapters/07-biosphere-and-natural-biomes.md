@@ -232,7 +232,9 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 **Горные экосистемы.** Горы содержат множество изолированных местообитаний и часто отличаются высоким уровнем эндемизма. Климатические условия меняются на небольших расстояниях, а дороги, плотины, добыча полезных ископаемых и изменение климата могут нарушать связность местообитаний.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-F / IMAGE PLACEHOLDER 07-F]** Сравнительная панорама основных биомов с климатом, растительностью и характерными адаптациями организмов. / **EN:** Comparative panorama of major biomes showing climate, vegetation and characteristic organism adaptations.
+![Одиннадцать схематических ландшафтных сцен наземных биомов: влажные и сезонные тропические леса, тропические хвойные леса, саванна, пустыня, средиземноморское редколесье, умеренные леса, тайга, горные луга, затопляемые луга и мангры. / Eleven conceptual terrestrial-biome scenes.](../assets/diagrams/07-F-terrestrial-biome-panorama-bilingual.svg)
+
+*07-F. Авторская двуязычная векторная панорама. Сцены иллюстрируют общие экологические признаки, а не конкретные места или современный земной покров. Категории панорамы сгруппированы для учебного сравнения; для точной классификации используйте карту и легенду RESOLVE 2017. / Original bilingual vector panorama. Scenes illustrate general ecological features, not specific locations or current land cover. Categories are grouped for teaching; use the RESOLVE 2017 map and legend for formal classification.*
 **Рисунок 7.6 / Figure 7.6 — Панорама основных биомов планеты / Panorama of Earth's major biomes.**  
 Техническое задание: единая научная панорама из 10–11 ландшафтных секций с узнаваемыми признаками каждого биома; подписи на русском и английском; не использовать стереотипные изображения как замену реальным региональным различиям.
 **EN production brief:** Create one scientific panorama with 10–11 landscape sections, each showing recognisable features of a biome. Use Russian and English labels; do not let stereotypical imagery replace real regional variation.
@@ -319,7 +321,9 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 
 Успешная охрана природы требует не только создания охраняемых территорий, но и управления ландшафтом за их пределами, соблюдения прав местных сообществ, научно обоснованного планирования и долгосрочного финансирования.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-H / IMAGE PLACEHOLDER 07-H]** Схема экологической связности: ядра местообитаний, коридоры, барьеры и матрица ландшафта. / **EN:** Habitat-connectivity diagram showing core areas, corridors, barriers and the landscape matrix.
+![Схема связности местообитаний: два ядра природных территорий, буферные зоны, коридор, дорожный барьер, фрагменты и условный маршрут перемещения. / Habitat-connectivity diagram with two core areas, buffers, corridor, road barrier, fragments and a hypothetical movement route.](../assets/diagrams/07-H-habitat-connectivity-bilingual.svg)
+
+*07-H. Авторская двуязычная концептуальная схема. Пунктирная линия показывает возможное, а не наблюдённое перемещение; элементы не обозначают реальную сеть охраняемых территорий. / Original bilingual conceptual diagram. The dashed line shows potential, not observed movement; features do not represent an actual protected-area network.*
 **Рисунок 7.8 / Figure 7.8 — Экологическая сеть и связность местообитаний / Ecological network and habitat connectivity.**  
 Техническое задание: схематическая карта с ядрами природных территорий, буферными зонами, коридорами и участками фрагментации; показать условное перемещение животных; легенда должна различать существующие и предлагаемые элементы сети.
 **EN production brief:** Create a schematic map showing core natural areas, buffer zones, corridors and fragmented areas. Illustrate hypothetical animal movement and use a legend to distinguish existing from proposed network elements.
@@ -513,6 +517,10 @@ Major terrestrial biomes include tropical moist forests, tropical seasonal fores
 
 **Mountain ecosystems** contain many isolated habitats and often have high endemism. Conditions change over short distances, while roads, dams, mining and climate change can disrupt habitat connectivity.
 
+![Eleven conceptual terrestrial-biome scenes, including tropical forests, savanna, desert, Mediterranean scrub, temperate forests, taiga, montane grasslands, flooded grasslands and mangroves.](../assets/diagrams/07-F-terrestrial-biome-panorama-bilingual.svg)
+
+*07-F. Original bilingual vector panorama. Scenes illustrate general ecological features, not specific locations or current land cover. Categories are grouped for teaching; use the RESOLVE 2017 map and legend for formal classification.*
+
 ### 7.9. Freshwater and Marine Biomes
 
 Aquatic biomes are classified by salinity, depth, water movement, light, temperature, oxygen content and nutrient availability.
@@ -570,6 +578,10 @@ The Kunming–Montreal Global Biodiversity Framework (2022) sets four long-term 
 Target 2 is separate and sets a global objective: by 2030, at least 30% of areas of degraded terrestrial, inland-water, coastal and marine ecosystems are to be under effective restoration. It does not impose an automatic requirement to restore 30% of every country's territory. The wording “under effective restoration” matters: activities must be adequately resourced and monitored, but restoration of every such area does not have to be completed by 2030. Restoration is a long-term process, and its objectives and outcomes depend on the initial condition and ecosystem type.
 
 Successful conservation requires not only protected areas but also landscape management beyond their boundaries, respect for local communities' rights, evidence-based planning and long-term funding.
+
+![Habitat-connectivity diagram showing core areas, buffer zones, a corridor, a road barrier, fragments and a hypothetical movement route.](../assets/diagrams/07-H-habitat-connectivity-bilingual.svg)
+
+*07-H. Original bilingual conceptual diagram. The dashed line shows potential, not observed movement; features do not represent an actual protected-area network.*
 
 ### 7.14. The Biosphere and Global Biogeochemical Cycles
 

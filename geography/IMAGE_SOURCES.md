@@ -777,3 +777,30 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 | RU/EN | PASS — bilingual title, labels, description, caption and alt text. |
 | Accessibility / technical | PENDING — contrast, reading order, screen-reader and live browser/mobile rendering not tested. |
 | Lifecycle | INTEGRATED; not VERIFIED |
+
+
+## Chapter 07 — Visual 07-F: terrestrial-biome panorama
+
+| Field | Record |
+|---|---|
+| Asset | geography/assets/diagrams/07-F-terrestrial-biome-panorama-bilingual.svg |
+| Category | C — original vector panorama after image-first review |
+| Image-first review | Reviewed open RESOLVE 2017 biome classification and public biome maps. The maps provide geographic classification, not the requested comparative landscape scenes; no third-party scene artwork was copied. RESOLVE dataset and map overview: https://drawonamap.com/datasets/terrestrial-biomes-world/ ; https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017 |
+| Scientific review | PASS for broad visual cues and caveat that scenes are conceptual and not current land cover. This 11-scene teaching panorama is not a substitute for the 14-class RESOLVE map. |
+| Rights | PENDING — project creator/rightsholder and redistribution licence statement required. |
+| RU/EN | PASS — bilingual labels, descriptions, captions and alt text. |
+| Accessibility / technical | PENDING — contrast, reading order, screen-reader and live browser/mobile rendering not tested. |
+| Lifecycle | INTEGRATED; not VERIFIED |
+
+## Chapter 07 — Visual 07-H: habitat connectivity
+
+| Field | Record |
+|---|---|
+| Asset | geography/assets/diagrams/07-H-habitat-connectivity-bilingual.svg |
+| Category | C — original conceptual diagram after image-first review |
+| Image-first review | Reviewed NatureScot's habitat-network components guidance and open ecological-network diagrams. The original schematic was authored to clearly separate core areas, buffers, corridor, barrier, fragments and matrix, with an explicit hypothetical movement path. https://www.nature.scot/professional-advice/land-and-sea-management/managing-land/habitat-networks/habitat-network-parts-and-connections ; https://documents1.worldbank.org/curated/en/099730506282219089/pdf/P16730708ca58a0710953c0a4a292c46246.pdf |
+| Scientific review | PASS for conceptual representation of structural connectivity components; movement route is explicitly hypothetical and not a real network. |
+| Rights | PENDING — project creator/rightsholder and redistribution licence statement required. |
+| RU/EN | PASS — bilingual labels, descriptions, captions and alt text. |
+| Accessibility / technical | PENDING — contrast, reading order, screen-reader and live browser/mobile rendering not tested. |
+| Lifecycle | INTEGRATED; not VERIFIED |
