@@ -1,6 +1,6 @@
 # Глава 2. Географическая оболочка Земли
 # Chapter 2. Earth's Geographic Envelope
-> **Статус:** интегрированы 40 показов изображений (20 уникальных материалов), включая 11 оригинальных двуязычных SVG-схем; все 19 визуальных заданий представлены в обеих языковых версиях. Научная и двуязычная вычитка текста, проверка датированных значений и источников завершены 4 ноября 2026 года. Следующий этап — школьная приёмка учителями, отзывы через портал Atlas of Knowledge и проверка работы опубликованной версии.
+> **Статус:** содержательная и редакционная подготовка завершена 4 ноября 2026 года; все 19 визуальных идентификаторов интегрированы в обе языковые версии (40 показов, 20 уникальных материалов, включая 11 оригинальных двуязычных SVG). Школьные испытания и внешняя экспертиза не входят в этап разработки и не влияют на этот статус. Проверка опубликованной версии (отображение в браузерах и на мобильных экранах, клавиатурная навигация и работа со вспомогательными технологиями) относится к отдельному техническому этапу и пока не подтверждена.
 >
 > **Языки:** глава содержит русскую и английскую версии учебного текста, включая разобранный пример, контрольные вопросы и практическое задание.
 
@@ -620,10 +620,21 @@ Key properties of the geographic envelope include:
 
 ### 2.2. The Four Major Spheres of Earth
 
-- **Atmosphere:** Earth's gaseous envelope. It supports weather, helps shape climate, transports moisture and contributes to the planet's thermal balance.
-- **Hydrosphere:** all of Earth's water, including oceans, seas, rivers, lakes, groundwater, glaciers, seasonal snow and atmospheric moisture.
-- **Lithosphere:** Earth's rigid outer layer, comprising the crust and the rigid uppermost mantle. It forms the geological foundation of continents, ocean floors, mountains and plains.
-- **Biosphere:** the zone of life on Earth, including living organisms and their habitats in the lower atmosphere, hydrosphere and upper lithosphere.
+#### 2.2.1. Atmosphere
+
+Earth's gaseous envelope. It supports weather, helps shape climate, transports moisture and contributes to the planet's thermal balance.
+
+#### 2.2.2. Hydrosphere
+
+All of Earth's water, including oceans, seas, rivers, lakes, groundwater, glaciers, seasonal snow and atmospheric moisture.
+
+#### 2.2.3. Lithosphere
+
+Earth's rigid outer layer, comprising the crust and the rigid uppermost mantle. It forms the geological foundation of continents, ocean floors, mountains and plains.
+
+#### 2.2.4. Biosphere
+
+The zone of life on Earth, including living organisms and their habitats in the lower atmosphere, hydrosphere and upper lithosphere.
 
 The spheres do not have impermeable boundaries. They overlap and interact: water occurs within rocks, while living organisms inhabit water, soil and the atmosphere.
 
@@ -805,7 +816,11 @@ Natural conditions change systematically across Earth's surface.
 - **Altitudinal zonation** is the change in natural conditions with increasing elevation in mountains.
 - **Sectorality** describes differences between western, interior and eastern parts of continents associated with distance from oceans and atmospheric circulation.
 
+#### 2.9.1. Latitudinal Zonation
+
 Major latitudinal natural zones include humid equatorial forests, savannas, tropical deserts, subtropical forests and shrublands, temperate forests and steppes, taiga, tundra and polar deserts. Their boundaries do not always coincide with climatic-zone boundaries because relief, ocean currents, soils and the history of a region also matter.
+
+#### 2.9.2. Altitudinal Zonation
 
 In mountains, foothill steppes may give way to forests, subalpine and alpine meadows, mountain tundra and the nival zone of permanent snow and glaciers. The sequence depends on latitude, slope aspect, moisture and local climate.
 
@@ -1043,7 +1058,7 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 - The four-component educational model and the five-sphere Earth-system model use different levels of grouping; the cryosphere overlaps the hydrosphere, while the lithosphere is part of the geosphere.
 - The term “geographic envelope” should be distinguished from the broader concept of the “Earth system”.
 - The carbon-cycle description is qualitative; no annual global flux values are asserted in this chapter. Nitrogen and phosphorus pathways are simplified for school-level teaching and should not be used as a quantitative nutrient budget.
-- Source-provided map legends, labels and spatial resolutions are retained as published; the chapter does not recalculate or reinterpret mapped classes. Original Atlas diagrams are conceptual and are marked as not to scale where appropriate. Final on-screen legibility and responsive display belong to the school/site acceptance stage.
+- Source-provided map legends, labels and spatial resolutions are retained as published; the chapter does not recalculate or reinterpret mapped classes. Original Atlas diagrams are conceptual and are marked as not to scale where appropriate. Final on-screen legibility and responsive display belong to separate technical release QA and are not yet verified in this branch.
 
 ## Источники и дальнейшее чтение / Sources and Further Reading
 
@@ -1091,6 +1106,6 @@ Choose a natural area and create a systems model. For a mountain lake, identify:
 - Высотные границы атмосферных слоёв зависят от широты, сезона и принятой классификации; таблица распределения воды USGS — округлённая глобальная оценка, основанная на опубликованной в 1993 году оценке И. Шикломанова, а не результат нового измерения в 2026 году.
 - Четырёхкомпонентная учебная схема оболочек и пятисферная схема науки о системе Земли используют разные уровни группировки; криосфера пересекается с гидросферой, а литосфера является частью геосферы.
 - Термин «географическая оболочка» следует отличать от более широкого понятия «система Земли».
-- Подписи, легенды и пространственное разрешение карт приводятся по первоисточникам; глава не пересчитывает и не переинтерпретирует картографические классы. Оригинальные схемы Atlas of Knowledge являются концептуальными и там, где это необходимо, помечены как выполненные не в масштабе. Читаемость подписей на экране и адаптивное отображение проверяются на этапе школьной приёмки.
+- Подписи, легенды и пространственное разрешение карт приводятся по первоисточникам; глава не пересчитывает и не переинтерпретирует картографические классы. Оригинальные схемы Atlas of Knowledge являются концептуальными и там, где это необходимо, помечены как выполненные не в масштабе. Читаемость подписей на экране и адаптивное отображение относятся к отдельной технической проверке опубликованной версии и пока не подтверждены в этой ветке.
 - Для глобальной концентрации CO₂ указывать измерительную сеть и показатель: среднегодовое значение NOAA по морским приповерхностным пунктам наблюдений (425,6 ppm в 2025 году, предварительно; 425,62 ± 0,05 ppm до округления) и глобальная поверхностная оценка WMO (426,8 ± 0,2 ppm в 2025 году) получены разными сетями и методами; эти значения не следует считать взаимозаменяемыми.
 - When reporting global CO₂ concentration, identify the observing network and metric: NOAA's marine-surface-site annual mean (425.6 ppm in 2025, preliminary; 425.62 ± 0.05 ppm before rounding) and WMO's global surface estimate (426.8 ± 0.2 ppm in 2025) use different networks and methods and should not be treated as interchangeable.
