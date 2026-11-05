@@ -347,19 +347,19 @@ This is a **page-level index**, not yet the final asset-level visual register. E
 
 | Page index ID | Chapter / page | `pages.js` scene descriptor | Local source | Upstream source | Status |
 |---|---|---|---|---|---|
-| PHY-03-3D-01 | 03 — 3 — Движение по окружности | `whirl` | `original-engine/circular/world.js` | `circular/world.js` | PAGE INDEXED / asset-level mapping pending |
-| PHY-03-3D-02 | 3.1 — Центростремительная сила | `double` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-03 | 3.2 — Автомобиль на повороте | `flatcar` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-04 | 3.3 — Конический маятник | `cone` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-05 | 3.4 — Движение по вертикальной окружности | `loop` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-06 | 3.5 — Виражи | `bank` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-07 | 3.6 — Угловая скорость | `disc` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-08 | 3.7 — Закон всемирного тяготения | `gravity` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-09 | 3.8 — Орбиты | `orbit` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-10 | 3.9 — Эллиптические орбиты | `kepler` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-11 | 3.10 — Энергия на орбите | `orbitE` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-12 | 3.11 · AP Physics C — Потенциальная энергия | `well` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
-| PHY-03-3D-13 | 3.12 · AP Physics C — Вторая космическая скорость | `escape` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / visual review pending |
+| PHY-03-3D-01 | 03 — 3 — Движение по окружности | `whirl` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-02 | 3.1 — Центростремительная сила | `double` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-03 | 3.2 — Автомобиль на повороте | `flatcar` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-04 | 3.3 — Конический маятник | `cone` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-05 | 3.4 — Движение по вертикальной окружности | `loop` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-06 | 3.5 — Виражи | `bank` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-07 | 3.6 — Угловая скорость | `disc` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-08 | 3.7 — Закон всемирного тяготения | `gravity` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-09 | 3.8 — Орбиты | `orbit` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-10 | 3.9 — Эллиптические орбиты | `kepler` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-11 | 3.10 — Энергия на орбите | `orbitE` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-12 | 3.11 · AP Physics C — Потенциальная энергия | `well` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-13 | 3.12 · AP Physics C — Вторая космическая скорость | `escape` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
 | PHY-05-3D-01 | 05 — 5 — Импульс тела | `mom` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
 | PHY-05-3D-02 | 5.1 — Импульс силы | `wall` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
 | PHY-05-3D-03 | 5.2 — Меньшая сила | `eggs` | `original-engine/momentum/world.js` | `momentum/world.js` | INTEGRATED / visual review pending |
@@ -595,3 +595,26 @@ All 13 scene constructions and corresponding page explanations/PLATES descriptio
 The page-to-scene, scene-to-assembly and scene-to-breakdown mapping is 13/13. The local `world.js` scene code has no non-textual geometry/vector changes from the pinned upstream snapshot. Scene explanations are present in `PLATES`; browser rendering, actual screenshots, contrast, canvas accessible-name quality and mobile clipping remain to be confirmed in the browser QA gate.
 
 **Lifecycle status:** source-level review PASS; not yet `VERIFIED`.
+
+
+## Chapter 03 — inherited 3D scene provenance (2026-11-05)
+
+All thirteen Chapter 03 scene entries below are generated from the inherited Three.js implementation in Nathan Liow's `circular/world.js`, with page content and embedded labels localised in the Russian edition. The upstream comparison found the local and upstream `world.js` executable structure equivalent after stripping comments and string literals; no geometry or motion-logic rewrite was introduced in this audit. The `model.js` executable structure is also equivalent; four launch-type names are localised. The scenes are built from procedural Three.js geometry and materials; no external raster/texture image file or separately sourced illustration was found in `circular/world.js`.
+
+| Visual ID | Scene key | Russian learning visual | Implementation | Source relationship | Creator / source | Licence basis | Browser status |
+|---|---|---|---|---|---|---|---|
+| PHY-03-3D-01 | `whirl` | Шар на нити: касательная скорость и ускорение к центру | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow, upstream `circular/world.js` | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-02 | `double` | Удвоение скорости и учетверение натяжения | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-03 | `flatcar` | Автомобиль на горизонтальном повороте | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-04 | `cone` | Конический маятник и составляющие натяжения | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-05 | `loop` | Тележка на вертикальной петле | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-06 | `bank` | Автомобиль на наклонённом вираже | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-07 | `disc` | Угловая и линейная скорость диска | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-08 | `gravity` | Гравитационное взаимодействие двух сфер | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-09 | `orbit` | Сравнение круговых орбит спутников | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-10 | `kepler` | Эллиптическая орбита и закон площадей | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-11 | `orbitE` | Кинетическая и потенциальная энергия на орбите | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-12 | `well` | Гравитационная потенциальная энергия U(r) | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+| PHY-03-3D-13 | `escape` | Круговая, эллиптическая, параболическая и гиперболическая траектории | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
+
+**Rights boundary:** the MIT licence is recorded as the licence for the upstream software/scene implementation, not as a blanket licence for unrelated third-party assets. The scene source audit found procedural geometry and no external image assets in this module. Attribution remains to Nathan Liow. A browser smoke result confirms that the scenes load and are navigable; it does not replace the pending scene-by-scene manual scientific visual review.
