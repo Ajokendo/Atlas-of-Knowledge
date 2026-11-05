@@ -681,6 +681,29 @@ if (fs.existsSync(isotopeSvgPath)) {
     }
   }
 }
+const isotopeSvgRuPath = path.join(assetRoot, "isotope-abundance-ru.svg");
+if (fs.existsSync(isotopeSvgRuPath)) {
+  const isotopeSvgRu = fs.readFileSync(isotopeSvgRuPath, "utf8");
+  for (const [x, expectedNeutrons] of [[205, 6], [470, 7]]) {
+    const start = isotopeSvgRu.indexOf('<g transform="translate(' + x + ' 185)">');
+    const end = start < 0 ? -1 : isotopeSvgRu.indexOf("</text></g>", start);
+    const nucleus = start < 0 || end < 0 ? "" : isotopeSvgRu.slice(start, end);
+    const protons = (nucleus.match(/fill="#238b70"/g) || []).length;
+    const neutrons = (nucleus.match(/fill="#e0a64d"/g) || []).length;
+    if (protons !== 6 || neutrons !== expectedNeutrons) {
+      errors.push("assets/isotope-abundance-ru.svg: expected 6 protons and " + expectedNeutrons + " neutrons in nucleus at x=" + x);
+    }
+  }
+  for (const phrase of ["≈ 98,9%", "≈ 1,1%", "0,989 × 12 +", "0,011 × 13", "≈ 12,011"]) {
+    if (!isotopeSvgRu.includes(phrase)) errors.push("assets/isotope-abundance-ru.svg: missing bilingual isotope data or weighted-mean detail: " + phrase);
+  }
+}
+if (fs.existsSync(isotopeSvgPath)) {
+  const isotopeSvg = fs.readFileSync(isotopeSvgPath, "utf8");
+  for (const phrase of ["98.9% natural abundance", "1.1% natural abundance", "0.989 × 12 + 0.011 × 13 ≈ 12.011 u"]) {
+    if (!isotopeSvg.includes(phrase)) errors.push("assets/isotope-abundance.svg: missing English isotope data or weighted-mean detail: " + phrase);
+  }
+}
 const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
 if (fs.existsSync(neutralisationSvgPath)) {
   const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
