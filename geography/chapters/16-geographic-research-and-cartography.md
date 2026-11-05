@@ -1115,6 +1115,10 @@ This is a learning example, not a complete assessment of healthcare access. The 
 13. United Nations Statistics Division. (2025). **Principles and Recommendations for Population and Housing Censuses, Revision 4.** Adopted by the Statistical Commission at its 56th session in 2025; the current English text is marked unedited/not typeset. https://unstats.un.org/unsd/demographic/sources/census/wphc/default.htm
 14. Statistics Canada. **Spatial data quality elements.** Defines lineage, positional accuracy, attribute accuracy, logical consistency and completeness as components of spatial-data quality metadata. https://www150.statcan.gc.ca/n1/pub/92-195-x/2011001/other-autre/qua-eng.htm
 15. Ordnance Survey. **Generalisation.** Explains why smaller-scale maps require selection, simplification and prioritisation of geographic features. https://docs.os.uk/more-than-maps/geographic-data-visualisation/guide-to-cartography/generalisation
+16. University Consortium for Geographic Information Science (UCGIS). **GIS&T Body of Knowledge — Common Thematic Map Types (CV-04-011).** Definitions and suitable data structures for choropleth, proportional/graduated symbols, dot density, flow and isoline maps. https://gistbok-ltb.ucgis.org/current/concept/CV-04-011
+17. Roth, R. E. (2017). **Visual Variables.** Wiley Interdisciplinary Reviews: Computational Statistics / Major Reference Works. DOI: 10.1002/9781118786352.wbieg0761. https://onlinelibrary.wiley.com/doi/10.1002/9781118786352.wbieg0761
+18. University Consortium for Geographic Information Science (UCGIS). **GIS&T Body of Knowledge — Classification and Clustering (AM-02-009).** Overview of equal interval, quantile and natural-breaks classification. https://gistbok-ltb.ucgis.org/current/concept/AM-02-009
+19. Esri. **Map classification.** Documentation of natural breaks, equal interval and quantile methods and their limitations for comparing different datasets. https://doc.arcgis.com/en/insights/2024.1/create/map-classification.htm
 
 ---
 **Конец главы 16 / End of Chapter 16**
