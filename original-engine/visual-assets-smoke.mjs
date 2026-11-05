@@ -33,6 +33,7 @@ for (const mobile of [false, true]) {
       if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
       const images = page.locator('figure.visual-figure img');
       if (await images.count() !== item.count) throw new Error(`expected ${item.count} visual images, got ${await images.count()}`);
+      for (let i = 0; i < item.count; i++) await images.nth(i).scrollIntoViewIfNeeded();
       await page.waitForFunction(() => [...document.querySelectorAll('figure.visual-figure img')].every(img => img.complete && img.naturalWidth > 0 && img.naturalHeight > 0));
       const states = await images.evaluateAll(nodes => nodes.map(img => ({
         src: img.getAttribute('src'),
