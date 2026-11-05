@@ -1267,3 +1267,13 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Repository derivative: 320 × 292 px, 7,196 bytes; SHA-256 `b79cc139c33b4b19b5c1e72fa79885688cdd9c0202d6d402ad3f13348badf4c9`. The full-resolution source remains separately preserved in the conversation workspace.
 - Bilingual alt text/caption and scientific caveats are present. Existing original SVG remains intact.
 - The first CI attempt exposed a new anchor-map mismatch and a missing P1 scientific-review link; both metadata issues were corrected. Awaiting the follow-up CI/browser result. Overall readiness remains 99/100 pending the remaining gates.
+
+
+## Repository hygiene and superseding CI checkpoint — 5 November 2026
+
+- Biology-only inventory on `workspace/biology`: 14 HTML pages; 48 SVG and 16 WebP visual assets, all 64 referenced by the HTML pages; five regional JSON manifests and five corresponding Python build scripts.
+- No zero-byte Biology files, conventional backup/temp files, or duplicate file contents were found. The JSON manifests are required build/audit inputs and are not orphaned production images.
+- Latest full Biology CI: [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829), head `fb4b581f0cf23e86b8a093280ba0846fc01a345f`, completed successfully. The `validate` job passed local page/link/script checks, Chromium setup, local server startup, browser smoke tests for every Biology page, and screenshot artifact upload.
+- This run supersedes earlier entries in this checkpoint that say CI or refreshed browser checks for the circulation, carbon-cycle, vertebrate-comparison, or Aygul integration updates are pending. Those entries remain as historical records of the state at the time they were written.
+- The current source-controlled author-side editorial score remains **99/100** as previously defined; it is not raised merely because CI passed. Detailed human visual review, independent specialist review, and physical-device/screen-reader sessions remain separate. Do not describe automated CI as completing those tasks.
+- No files were deleted. No other subject, branch, `main`, portal or publishing configuration was changed.
