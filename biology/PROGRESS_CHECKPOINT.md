@@ -1241,3 +1241,9 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 
 - Removed misleading decomposition→ocean arrow in `ecology-cycles.svg`; added bidirectional atmosphere–ocean CO₂ exchange and labelled the soil return path as soil respiration.
 - SVG commit: `4918192197f60958910b240c480f8d96a54c8465`. CI and refreshed screenshot review pending; readiness percentage unchanged.
+
+
+### Vertebrate-comparison caption fit — 5 November 2026
+
+- Extended the amphibian comparison card in `zoology-anatomy.svg` so the English respiration caption remains inside its panel.
+- Commit: `24fcc604d86cca9a435ed6a227a950ca6f18ef71`. CI/screenshot review pending; no readiness percentage change.
