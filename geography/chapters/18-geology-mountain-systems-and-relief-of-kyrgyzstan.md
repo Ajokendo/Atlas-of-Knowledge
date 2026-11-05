@@ -291,6 +291,8 @@ The main mountain ranges of Kyrgyzstan form a complex system of ridges and water
 | Suusamyr-Too | A mountain range in the Inner Tien Shan, associated with high valleys and pasture landscapes. |
 | Moldo-Too | A range in the Inner Tien Shan that separates intermontane valleys and river catchments. |
 | Jumgal-Too | A mountain range in the Jumgal area, forming local watersheds and steep valley slopes. |
+| At-Bashy Range | Lies south of the Naryn Basin and forms part of the high mountain terrain of the Inner Tien Shan. |
+| Kakshaal-Too | A major range of the Central Tien Shan along the border with China; it includes Jengish Chokusu, Kyrgyzstan’s highest peak. |
 | Fergana Range | Separates the Fergana Valley from the Inner Tien Shan and forms a major watershed. |
 | Chatkal Range | Part of the Western Tien Shan, with deep river gorges, forested slopes and high-mountain meadows. |
 | Alay Range | Extends north of the Alay Valley and includes high ridges and glacially shaped valleys. |
