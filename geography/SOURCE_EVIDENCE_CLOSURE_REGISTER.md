@@ -740,3 +740,13 @@ The chapter-level audit records were added to each source chapter. Findings and 
 | OGC WFS and WMS | Verified — official OGC standard pages | OGC continues to document WFS and WMS and notes that newer API standards provide modern approaches to many of their functions. The text avoids claiming that all legacy services are already replaced or that every new API implementation exposes identical capabilities. [WFS](https://www.ogc.org/standards/wfs/) [WMS](https://www.ogc.org/standards/wms/) |
 
 **Chapter 14 correction saved:** the standards section now distinguishes legacy WMS/WFS services from modern OGC API – Features and OGC API – Maps, explains their respective roles, and warns that support and capabilities depend on the actual implementation. This is a focused standards update; the previously recorded CRS, national geodetic and software-version validation tasks remain open.
+
+
+### Chapter 15 — Remote Sensing of the Earth: mission status and product-processing check — 5 November 2026
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| Copernicus / ESA Sentinel-1 constellation status | Verified — official operational update dated 30 June 2026 | Sentinel-1A ended operations on 30 June 2026; Sentinel-1B ended in 2022; Sentinel-1C and Sentinel-1D are operational. Chapter 15 now distinguishes the mission/constellation name from the operational status of individual spacecraft. [Copernicus update](https://dataspace.copernicus.eu/news/2026-6-30-copernicus-sentinel-1a-satellite-end-operations-after-12-years-service) |
+| USGS Landsat Collection 2 Level-2 Surface Reflectance | Verified — official product documentation | Chapter 15 now gives the Collection 2 Level-2 surface-reflectance scaling formula (SR = DN × 0.0000275 − 0.2) and requires use of product/sensor-specific quality bands. The text explicitly warns not to transfer scale factors or QA bit interpretations to other sensors or collections. [USGS product guide](https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products) [QA bands](https://www.usgs.gov/landsat-missions/landsat-collection-2-quality-assessment-bands) |
+
+**Chapter 15 corrections saved:** updated Sentinel-1 spacecraft status to the 5 November 2026 snapshot and added a concrete Landsat Collection 2 Level-2 reflectance scaling/QA example in both languages. This is a focused mission/product check; sensor-by-sensor metadata, band mapping, accuracy and complete source-to-claim review remain open.
