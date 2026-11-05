@@ -150,12 +150,16 @@ Chapter 01 has 10 Markdown image embeds representing five unique local bilingual
 - Rights: NASA's media-use guidance generally permits educational/informational reuse of NASA imagery unless a third-party copyright notice is shown; credit NASA and do not imply agency endorsement. Guidance: https://www.nasa.gov/nasa-brand-center/images-and-media/.
 - Accessed: 4 November 2026.
 
-### My NASA Data carbon-cycle diagram — 2.10-A
-- Source page: https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles
-- Direct image: https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg
-- Provenance: My NASA Data; diagram adapted from the U.S. Department of Energy, Biological and Environmental Research Information System.
+### Carbon-cycle diagram — 2.10-A
+- NASA/My NASA Data source page: https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles
+- NASA-hosted image: https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg
+- Exact Commons media record: https://commons.wikimedia.org/wiki/File:Carbon_cycle.jpg
+- Provenance: the My NASA Data page credits the diagram as adapted from the U.S. Department of Energy, Biological and Environmental Research Information System. The exact Commons file record identifies it as a U.S. Government work and Public Domain in the United States.
+- Rights decision: **PASS for reuse as a U.S. Government work/Public Domain in the United States**, based on the exact file record and corroborating source-page credit. This is not a Creative Commons licence; do not label it CC BY or CC BY-NC. NASA's media guidance warns that third-party material hosted on NASA sites may have separate rights; the exact DOE provenance and Public Domain file record are therefore retained as the basis, rather than relying on NASA hosting alone.
+- Required attribution: “U.S. Department of Energy, Biological and Environmental Research Information System; adapted and presented by My NASA Data / NASA Earth Observatory” with links to the exact Commons file and My NASA Data page. No implication of NASA or DOE endorsement.
 - Scientific fit: fast carbon cycle, natural fluxes, human contributions and stored carbon. Numerical values must be interpreted only in the units and reference context supplied by the source.
-- Accessed: 4 November 2026.
+- Jurisdiction caveat: the file record establishes U.S. Public Domain status; it does not by itself constitute a legal opinion on every foreign jurisdiction. The Atlas uses it in a non-commercial educational context and preserves source attribution.
+- Checked: 5 November 2026.
 
 ### My NASA Data / NCAR nitrogen-cycle diagram — 2.10-B
 - Source page: https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles
@@ -188,8 +192,9 @@ Chapter 01 has 10 Markdown image embeds representing five unique local bilingual
 - NASA image-use guidance: https://www.nasa.gov/nasa-brand-center/images-and-media/.
 - NOAA education/reuse guidance: https://www.noaa.gov/office-education/outreach-communication/faq.
 
-### Original local SVGs
+### Original local SVGs — Chapter 02
 - The 11 local Chapter 02 SVGs are original Atlas of Knowledge educational schematics, committed under `geography/assets/diagrams/`. Each has a bilingual caption/alt text and SVG `title`, `desc` and `role="img"` metadata. They are conceptual teaching aids, not third-party source reproductions or quantitative datasets.
+- **Rights/licence: PENDING project-owner authority confirmation.** The files are present in the project repository and their original schematic content is documented, but repository presence and AI-assisted drafting do not establish that the project owner or an authorised organisation holds all rights necessary to issue a public licence. No individual human SVG author is asserted. Do not attach CC BY-NC 4.0 metadata or mark these 11 items rights-approved until the owner confirms authority to license the human-authored/project-controlled contributions and selects the attribution identity.
 
 ### Integration limits
 - External images are linked from their source hosts; no local binary copy is claimed.
