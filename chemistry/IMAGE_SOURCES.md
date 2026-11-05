@@ -1,10 +1,10 @@
 # Chemistry Atlas — Image and visual source register
 
-**Canonical policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
+**Canonical policy:** [IMAGE-FIRST POLICY v1.2](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
 **Subject branch:** `workspace/chemistry`  
 **Scope:** all 24 static SVG files (12 bilingual pairs), seven interactive visual systems, and the documented Chapter 03 candidate review (candidate not adopted; project-created replacement integrated). Policy metadata is cross-referenced by stable visual ID across the asset register, interactive register, learning/search register, metadata supplement and IMAGE_AUDIT.md.  
 **Last inventory pass:** 2026-11-05  
-**Policy version:** IMAGE-FIRST POLICY v1.1  
+**Policy version:** IMAGE-FIRST POLICY v1.2  
 **Provenance correction:** earlier inventory entries accidentally placed search notes in the English-file column. This revision restores the actual English filenames and moves search notes to the source-evidence column.
 
 ## Register scope
@@ -275,7 +275,7 @@ For release notes, distinguish **static-image provenance remediation** from **in
 
 
 ## Retrospective provenance and Category C mapping — 2026-11-05
-**Controlling standard:** [AUTHOR_CREATED_VISUALS_STANDARD.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/AUTHOR_CREATED_VISUALS_STANDARD.md), v1.0. This section is the current file-level provenance reconciliation and supersedes earlier row-level statements that the 12 visual topics were wholly unclassified. It does not close the rights or verification gates.
+**Controlling standard:** [AUTHOR_CREATED_VISUALS_STANDARD.md](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/AUTHOR_CREATED_VISUALS_STANDARD.md), v1.1. This section is the current file-level provenance reconciliation and supersedes earlier row-level statements that the 12 visual topics were wholly unclassified. It does not close the rights or verification gates.
 
 The current 24 files form 12 bilingual visual families. The evidence supports tracking these as project-created / AI-assisted Category C assets. It does **not** establish a named human copyright author, legal rightsholder, or authority to grant a licence. Repository commit authorship identifies the submitting account, not necessarily the underlying creative author.
 
@@ -301,3 +301,16 @@ The current 24 files form 12 bilingual visual families. The evidence supports tr
 - No asset-level licence is assigned to these 12 families. Do not copy the Physics CC BY-NC 4.0 decision into Chemistry.
 - The retrospective search notes remain retrospective and cannot prove that image-first search preceded the original creation.
 
+
+
+## Governing-standard alignment — 5 November 2026
+
+This register is now governed by `IMAGE_FIRST_POLICY.md` v1.2 and `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1. The v1.2 policy and v1.1 author-created standard control wherever older notes in this file use earlier wording.
+
+- Category C records production lineage; it is not proof of a named human author, legal rightsholder, or authority to license.
+- The 12 static bilingual families remain Category C for documented production-lineage tracking; rights and licence authority remain PENDING as recorded in the audit.
+- The seven interactive systems remain separate code-based visual units. Local code and absence of external visual-library imports do not establish creator identity or code rights.
+- Internal scientific verification requires a competent reviewer other than the asset's creator; that reviewer may be part of the project team. An external specialist review is an additional level, not a universal publication prerequisite.
+- `VERIFIED` is the machine-readable internal verification status. `EXTERNALLY VERIFIED` may be used only after documented positive external specialist review and completion of internal verification.
+- Unknown or unresolved rights remain a publication blocker. Do not treat the project's non-commercial purpose as a licence.
+- Retrospective search notes do not prove that image-first search preceded the original creation of historical assets.
