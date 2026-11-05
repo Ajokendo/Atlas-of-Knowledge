@@ -369,8 +369,6 @@ High plateaus and syrts are characteristic of the Inner Tien Shan. They are rela
 
 ## 18.7. Процессы формирования рельефа / Landform-Forming Processes
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-J / IMAGE PLACEHOLDER 18-J]** Блок-диаграмма горного склона с выветриванием, эрозией, оползанием, осыпанием и аккумуляцией материала.
-> **EN:** Mountain-slope block diagram illustrating weathering, erosion, landsliding, rockfall and sediment accumulation.
 
 ![Горный склон: процессы формирования рельефа / Mountain slope processes](../assets/18-J-mountain-slope-processes.svg)
 
