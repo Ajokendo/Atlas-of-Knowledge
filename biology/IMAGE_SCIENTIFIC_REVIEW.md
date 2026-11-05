@@ -97,10 +97,19 @@ Current counts: P1 review-register entries **13/13**; visual coverage **53/53 (1
 
 ## Governance note — future school-teacher evaluation is separate from development — 5 November 2026
 
-The project owner has clarified that no independent specialist assessment is planned during atlas development. Independent evaluation will be organised as a **separate post-development event through subject-specialist school teachers**. Therefore:
+The project owner has clarified that **all external assessment and expertise are excluded from the Atlas of Knowledge project entirely**. Any external work is separate and outside the project's scope, schedule and acceptance criteria. Therefore:
 
 - Do not list an external zoologist/botanist sign-off as a developer task or as a condition for completing the development phase.
 - The current source-level scientific review is an internal evidence-based check. It should continue to cite authoritative sources, document scope/uncertainty, and avoid claims beyond the evidence.
 - Preserve any genuine internal concerns (e.g. schematic rather than specimen-level morphology, unresolved taxonomic details, or unverified locality claims) as transparent limitations. Do not relabel them as externally approved.
 - The later school-teacher evaluation is a separate acceptance/feedback event after development; its results should be documented separately and may inform a subsequent revision cycle.
 - This governance clarification does not waive copyright/licence checks, attribution, bilingual editorial checks, or technical QA.
+
+
+## Project boundary: no external review or expertise during this project — 5 November 2026
+
+The project owner's definitive instruction is that **all external checking, review, assessment, peer review, specialist expertise, certification and expert sign-off are excluded from the Atlas of Knowledge project**. No external person, school teacher, university, laboratory, NGO, company, consultant or other organisation is to be engaged to inspect, approve, certify or evaluate the atlas as part of this project's work. Do not list any external review as a development task, acceptance gate, pending item, blocker or planned project deliverable. Do not create an EXTERNALLY VERIFIED status for project acceptance.
+
+All quality assurance within this project is performed by the project team: editorial review; fact-checking against published primary/authoritative sources; taxonomy, locality, date and numerical consistency checks; transparent uncertainty notes; attribution and rights review; bilingual checks; code, browser, accessibility and visual-rendering tests. These are internal development controls and must be described as such. Citing or consulting published external literature, datasets, standards, image licences or official records is permitted and remains necessary; this is evidence research, **not external expertise or an external review of the atlas**.
+
+Any external evaluation, consultation, expert review, school-teacher assessment, certification or other outside work is wholly separate from this project and must not be included in its scope, schedule, progress metrics or completion criteria. If such work is later undertaken independently, it belongs to a separate process and separate records. Historical references in this document to pending independent, second-person external or specialist review are superseded by this rule; they must not be interpreted as open project tasks. Genuine internal evidence gaps, unresolved rights questions, editorial defects and technical QA issues remain valid internal tasks.
