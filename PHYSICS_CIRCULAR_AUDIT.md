@@ -12,7 +12,7 @@
 | Milestone | Status | Evidence |
 |---|---|---|
 | 10% — inventory and branch guard | PASS | 13 book pages, 13 3D scenes, 13 scene/plate keys, standalone HTML lesson and visual-source entries located on the correct branch |
-| 20% — mathematical model and practice baseline | PASS | 63 existing physics/regression assertions; 24 practice items; current baseline Physics Engine workflow passed |
+| 20% — mathematical model and practice baseline | PASS | 63 existing physics/regression assertions; 26 practice items (24 multiple-choice and 2 free-response); current baseline Physics Engine workflow passed |
 | 30% — scene mapping and browser baseline | PASS | 13 pages map to 13 scenes; existing browser workflow passed desktop 1440×900 and mobile 390×844, with WebGL and scene picker |
 | 40% — upstream lineage and test coverage | IN PROGRESS | Upstream source compared; standalone lesson browser test added; new browser workflow run pending |
 | 50% — content and answer-key audit | PENDING | Check every explanation, numerical answer, distractor, units and model assumptions |
@@ -37,7 +37,7 @@
 
 - Files: `original-engine/circular/{index.html,main.js,pages.js,world.js,model.js,practice.js,checks.mjs}`
 - 13 pages, 13 scene keys, 13 corresponding PLATES entries.
-- 24 practice questions (one or two per page).
+- 26 practice items: 24 multiple-choice questions and 2 free-response questions (one or two per page).
 - 63 explicit regression assertions in `checks.mjs`.
 - The chapter covers circular motion, force roles, flat and banked curves, conical pendulum, vertical loop, angular velocity, Newtonian gravitation, circular and elliptical orbits, orbital energy, gravitational potential, and escape speed.
 
