@@ -236,6 +236,28 @@ Record a requirement here before starting a search. Move it to the integrated-as
 | 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Project licence and independent scientific review remain pending; responsive browser check not yet complete | Complete browser QA, asset-level rights assignment, and independent review before VERIFIED |
 | 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/induction.html` | Project licence and independent scientific review remain pending; responsive browser check not yet complete | Complete browser QA, asset-level rights assignment, and independent review before VERIFIED |
 
+
+## Interactive-book assembly inventory — Chapters 01, 02, 04, 06–10
+
+On 2026-11-05, the local PLATES breakdown keys were compared with the corresponding world.js assembly keys. The following 98 named assembly groups are now indexed as inherited interactive-scene candidates. This is an implementation inventory, **not** a count of unique approved visual assets: some groups are components of one composite scene, while some page-level breakdowns do not correspond one-to-one with a top-level assembly. The English source remains unchanged.
+
+| Original chapter | Module | Assembly keys identified in world.js | Count | Status |
+|---|---|---|---:|---|
+| 01 — Kinematics | kinematics | staff; ball; vArrow; aArrow; proj; projV; shadow; rainRoad; rainCar; rainSum; river; pull; pullA; cubeLine; bead | 15 | INTEGRATED / source lineage indexed; scene-to-page mapping and visual review pending |
+| 02 — Newton's Laws | newton | rest; glide; second; friction; third; incline; tension; plane; car; tug; board; drag; honey | 13 | INTEGRATED / source lineage indexed; visual review pending |
+| 04 — Work and Energy | energy | pull; toss; whirl; car; drop; spring; push; bead; bond; pendulum; slide; lift | 12 | INTEGRATED / source lineage indexed; visual review pending |
+| 06 — Oscillations | oscillations | spring; hooke; trace; energy; hang; pendulum; springs4; pend4; amp; bobs; starts; string; rod; hoop; disc; car; swing | 17 | INTEGRATED / source lineage indexed; visual review pending |
+| 07 — Rotation | rotation | wheel; disc; doors; plank; ladder; inertia; race; well; skater; integ; parallel; wrench; slip; impulse; particle | 15 | INTEGRATED / source lineage indexed; visual review pending |
+| 08 — Fluids | fluids | blocks; feet; diver; pascal; cube; float; pipe; bernoulli; tank | 9 | INTEGRATED / source lineage indexed; keyboard focus fix verified separately; visual review pending |
+| 09 — Electrostatics | electrostatics | atoms; induce; balloon; coulomb; line; point; dipole; rod; ring; plates | 10 | INTEGRATED / source lineage indexed; visual review pending |
+| 10 — Gauss's Law | gauss | flux; gauss; box; line; sheet; plate; cage | 7 | INTEGRATED / source lineage indexed; keyboard focus fix verified separately; visual review pending |
+| **Total** | **8 modules** | **98 assembly keys** | **98** | **Inventory only; do not report as 98 VERIFIED visuals** |
+
+Special mapping notes:
+- Kinematics has additional PLATES keys boardX, boardV, boardA, boatA, and boatB that are not top-level 3D assembly keys in world.js. Keep these as unresolved graph/diagram breakdowns until their rendered source is mapped; do not count them as separate 3D scenes.
+- Gauss's Law has additional PLATES variants csphere, isphere, nsphere, crod, and irod that are not top-level assembly keys. They represent different charge-distribution/model breakdowns and must be mapped to the corresponding underlying scene before counting distinct visuals.
+- The module page descriptors and PLATES breakdowns use different identifiers in several chapters. Resolve each relationship explicitly before converting these candidate groups into final asset IDs.
+
 ## Interactive-book page-scene index — Chapters 03, 05, 11–15
 
 This is a **page-level index**, not yet the final asset-level visual register. Each row records a `scene` descriptor in `pages.js`; a page descriptor does not always map one-to-one to an underlying `asm()` group in `world.js` (some pages combine multiple assemblies or use a different assembly key). The source comparison indicates inherited scene code with Russian-localised in-scene names/labels; affected rendered labels are Category B. Before treating an entry as a distinct visual asset, map it to the actual assembly group(s), then complete individual captions/alt text, rights, and manual review.
