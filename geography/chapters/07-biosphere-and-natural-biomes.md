@@ -517,6 +517,10 @@ Major terrestrial biomes include tropical moist forests, tropical seasonal fores
 
 Aquatic biomes are classified by salinity, depth, water movement, light, temperature, oxygen content and nutrient availability.
 
+![Lake and ocean zonation: photic and aphotic waters, littoral, pelagic and benthic zones. Boundaries are illustrative and vary with local conditions.](../assets/diagrams/07-G-lake-ocean-zonation-bilingual.svg)
+
+*07-G. Original bilingual conceptual diagram by Atlas of Knowledge. Published zonation diagrams were reviewed; no universal depth is implied because light penetration depends on water clarity and local conditions.*
+
 **Freshwater ecosystems** include:
 - rivers and streams, where flow velocity, oxygen conditions, sediment transport and catchment connections are important;
 - lakes and reservoirs, which may have vertical stratification and seasonal mixing;
@@ -570,6 +574,10 @@ Successful conservation requires not only protected areas but also landscape man
 ### 7.14. The Biosphere and Global Biogeochemical Cycles
 
 Living organisms participate in global cycles of carbon, oxygen, nitrogen, phosphorus and water. In oxygenic photosynthesis, carbon dioxide is used to fix carbon into organic matter, while molecular oxygen is produced when water is split during the light-dependent reactions. Respiration and decomposition return carbon to the atmosphere and water. Oceans, forests, soils, wetlands and other systems store carbon, which moves between them through measurable flows.
+
+![Biological pathways in the carbon and nitrogen cycles, including photosynthesis, respiration, decomposition, fixation, nitrification, assimilation, ammonification and denitrification. Arrows show processes, not measured fluxes.](../assets/diagrams/07-I-carbon-nitrogen-cycles-bilingual.svg)
+
+*07-I. Original bilingual conceptual diagram by Atlas of Knowledge, prepared after reviewing openly licensed cycle diagrams. It contains no quantitative data and is not a complete geochemical budget.*
 
 Nitrogen fixation converts atmospheric molecular nitrogen into biologically available compounds. Nitrification, assimilation, ammonification and denitrification transform nitrogen in different ways. The phosphorus cycle is strongly linked to rocks, soils, water and organisms and lacks a major atmospheric reservoir comparable to nitrogen.
 
