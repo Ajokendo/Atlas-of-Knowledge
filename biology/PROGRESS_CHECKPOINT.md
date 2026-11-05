@@ -1211,3 +1211,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Generic fish silhouettes remain unlabelled; no species-specific claims were introduced.
 - SVG commit: `7bb60e3b4173052ea150b905100ce9c17eed8a37`; chapter commit: `44bcfebaad4db2aa3a46e58adadc01e508b2f0f4`.
 - Global Image Verification remains Pending audit; editorial readiness remains 99/100.
+
+
+### Aygul flower-anatomy detail correction — 5 November 2026
+
+- Reviewed `flora-batken-aygul.svg` against *Flora of China*, the RHS species profile and a Kyrgyzstan-focused phenology paper.
+- Corrected the enlarged flower detail from two visible stamens to six; added bilingual labels for six tepals and six stamens.
+- Retained the schematic/not-to-scale caveat; no fixed flower-count or population claim was added.
+- SVG commit: `ae7cd9f3cd906a136b5fd085f65ff682dc2f2656`. Global Image Verification remains Pending audit; editorial readiness remains 99/100.
