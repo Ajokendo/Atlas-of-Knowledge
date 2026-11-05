@@ -521,3 +521,14 @@ All three assets passed static SVG checks and their chapter embeds resolve. They
 | 14-I | OGC/QGIS reproducibility and metadata guidance informed an original workflow for data provenance, licensing, CRS, software versions, processing parameters, scripts, validation and publication. | C — original hand-coded SVG. Project licence PENDING. | INTEGRATED; workflow completeness check PASS; live rendering/accessibility PENDING. |
 
 All three assets passed static SVG and chapter-embed checks. They are not yet VERIFIED for public release.
+
+
+## Chapter 15 — thirteenth visual integration tranche — 5 November 2026
+
+| Visual ID | Source discovery / decision | Category / rights | Status |
+|---|---|---|---|
+| 15-F | USGS aquatic remote-sensing material provides public-domain water spectra; standard remote-sensing references support vegetation, soil and snow spectral behaviour. A qualitative original curve set was authored, clearly labelled as schematic rather than measured data. | C — original hand-coded SVG; USGS sources cited, no source figure copied. Project licence PENDING. | INTEGRATED; conceptual spectral relationships PASS; measured site spectra not claimed. |
+| 15-G | USGS Landsat glossary and NASA ARSET training distinguish spatial, spectral, radiometric and temporal resolution. An original four-panel teaching diagram was authored. | C — original hand-coded SVG; methodology sources cited. Project licence PENDING. | INTEGRATED; definitions PASS; rights/render/accessibility PENDING. |
+| 15-H | USGS Landsat Collection 2 documentation explains Level-2 surface-reflectance generation, atmospheric correction algorithms, QA layers and product-specific scaling. An original processing-chain schematic was authored with a warning against reprocessing Level-2 data blindly. | C — original hand-coded SVG; USGS sources cited. Project licence PENDING. | INTEGRATED; process and Level-2 caveat PASS; live rendering and accessibility PENDING. |
+
+All three SVGs passed static source and embed checks. They are INTEGRATED, not VERIFIED.
