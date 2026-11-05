@@ -432,8 +432,9 @@ This is a simplified estimate of the direct effect of reduced electricity use. A
 
 ## 13.13. Экологическая оценка и мониторинг / Environmental Assessment and Monitoring
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-D / IMAGE PLACEHOLDER 13-D]** Сравнение EIA, SEA и экологического мониторинга: объект оценки, стадия принятия решения и тип данных.
-> **EN:** Comparison of EIA, SEA and environmental monitoring, showing the assessment object, decision-making stage and data type.
+![ОВОС, СЭО и экологический мониторинг / EIA, SEA and environmental monitoring](../assets/diagrams/13-D-eia-sea-monitoring-bilingual.svg)
+
+*Процедуры и юридические требования зависят от страны; мониторинг не заменяет оценку воздействия. / Procedures and legal requirements vary by country; monitoring does not replace impact assessment.*
 
 Экологический мониторинг — систематическое наблюдение за состоянием природных компонентов и воздействиями на них. Он включает полевые измерения, лабораторные анализы, спутниковые наблюдения, датчики, статистику и общественные наблюдения.
 
