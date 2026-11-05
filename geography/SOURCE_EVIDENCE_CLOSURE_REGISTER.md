@@ -784,3 +784,16 @@ The Russian terminology in Section 16.11 was aligned with the English method nam
 - The peer-reviewed NHESS 2026 study by Daiyrov and Narama remains a separate, geographically limited time series for the Kyrgyz Range (274 lakes in 1968; 412 in 2021; lake area +76%; glacier area −31%). These results are not extrapolated to the whole country.
 - **Scope:** this is a focused update to the glacial-lake inventory evidence, not a full audit of all hydrological claims, water-use statistics, lake morphometry or national discharge records.
 - **Sources:** https://egusphere.copernicus.org/preprints/2026/egusphere-2026-1442/ ; https://orbi.uliege.be/handle/2268/329829 ; https://nhess.copernicus.org/articles/26/1001/2026/ .
+
+
+### Chapter 17 — national geodetic transition pilot — 5 November 2026
+
+- The State Agency for Land Resources, Cadastre, Geodesy and Cartography reported on 11 November 2025 that a pilot project for transition towards WGS 84 had completed geodetic, gravimetric and levelling measurements, determined coordinate-transformation parameters, partially reprojected maps, and deployed systems for coordinate conversion and geodetic control-point management.
+- Chapter 17 now records this as a national geospatial-infrastructure milestone in both Russian and English. It explicitly preserves the source's limitation: **partial** reprojection does not establish that all national maps or datasets have migrated to WGS 84. Layer-level source/target CRS, transformation accuracy, coordinate epoch and vertical reference remain to be verified.
+- Official source: https://gosreg.gov.kg/ru/?p=8013 . The existing distinction between Kyrg-06/ITRF-2005, legacy SK-42 mapping and the 1977 Baltic height system remains; horizontal coordinate conversion is not treated as a vertical-datum transformation.
+
+### Chapter 19 — climate-index terminology correction — 5 November 2026
+
+- Corrected a duplicated Russian phrase in the national climate-index description: “число морозных и морозных дней” is now “число дней с заморозками и морозных дней”, corresponding to the distinction between frost days and ice/frost days in the source methodology.
+- The underlying Kyrgyzhydromet dataset description remains unchanged: homogenised monthly temperature/precipitation series from 22 stations (1980–2021) and a separate climate-index set from 13 stations (1980–2022). This was a terminology correction, not a new trend calculation or a full station-level audit.
+- Official source: https://www.meteo.kg/ru/pages/ClimateProducts .
