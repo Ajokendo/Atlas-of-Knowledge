@@ -18,7 +18,7 @@
 <circle cx="650" cy="635" r="14" class="node"/>
 <g class="tip"><circle cx="880" cy="285" r="10"/><circle cx="880" cy="440" r="10"/><circle cx="880" cy="575" r="10"/><circle cx="880" cy="700" r="10"/></g>
 <g class="label"><text x="910" y="293">Таксон A / Taxon A</text><text x="910" y="448">Таксон B / Taxon B</text><text x="910" y="583">Таксон C / Taxon C</text><text x="910" y="708">Таксон D / Taxon D</text></g>
-<text x="95" y="455" class="small">Общий предок всех групп</text><text x="95" y="480" class="tiny">Common ancestor of all groups</text>
+<text x="95" y="455" class="small">Предковая линия</text><text x="95" y="480" class="tiny">Ancestral lineage</text>
 <path d="M220 470L258 480" stroke="#557c58" stroke-width="2" fill="none"/>
 <rect x="80" y="205" width="270" height="76" rx="12" fill="#f4eadc" stroke="#d6b78c" stroke-width="2"/>
 <text x="100" y="237" class="small">Клада A+B</text><text x="100" y="261" class="tiny">Clade A+B</text>
