@@ -785,7 +785,7 @@ if (!imageSources.includes("IMAGE-FIRST POLICY v1.1") ||
   errors.push("IMAGE-FIRST POLICY v1.1: Chemistry source register must expose required metadata and derivative-atlas applicability");
 }
 
-const periodicTrendCandidate = imageSources.split("## Chapter 03 candidate visual — found, not integrated")[1]?.split("## Non-file interactive visuals")[0] || "";
+const periodicTrendCandidate = imageSources.split("## Chapter 03 image-first candidate review — found, not adopted")[1]?.split("## Non-file interactive visuals")[0] || "";
 for (const [label, evidence] of [
   ["English Commons source page", "https://commons.wikimedia.org/wiki/File:Periodic_trends.svg"],
   ["English direct SVG", "https://upload.wikimedia.org/wikipedia/commons/f/fe/Periodic_trends.svg"],
@@ -795,19 +795,19 @@ for (const [label, evidence] of [
   ["Russian direct SVG", "https://upload.wikimedia.org/wikipedia/commons/e/e8/Periodic_trends-rus.svg"],
   ["Russian CC BY-SA licence", "https://creativecommons.org/licenses/by-sa/4.0/"],
   ["Russian creator", "Донор"],
-  ["candidate remains unintegrated", "FOUND — item-specific licence and creator record checked"]
+  ["candidate considered but not adopted", "FOUND — item-specific licence and creator record checked"]
 ]) {
   if (!periodicTrendCandidate.includes(evidence)) errors.push("IMAGE_SOURCES.md: Chapter 03 periodic-trends candidate missing " + label);
 }
-if (!imageAudit.includes("## Latest policy-readiness checkpoint — 2026-11-05") ||
-    !imageAudit.includes("11 / 12 = 91.7%") ||
-    !imageAudit.includes("0 / 18 = 0% VERIFIED") ||
-    !imageAudit.includes("18 / 19 = 94.74% integrated") ||
+if (!imageAudit.includes("## Latest visual checkpoint — 2026-11-05 (after CH-V12 integration)") ||
+    !imageAudit.includes("12 / 12 = 100%") ||
+    !imageAudit.includes("0 / 19 = 0% VERIFIED") ||
+    !imageAudit.includes("19 / 19 = 100%") ||
     !imageAudit.includes("7 / 7 integrated") ||
-    !imageAudit.includes("13 PASS / 5 PENDING / 0 FAIL") ||
+    !imageAudit.includes("14 PASS / 5 PENDING / 0 FAIL") ||
     !imageAudit.includes("## Interactive visual audit by ID") ||
     !imageAudit.includes("### Chapter-level visual metrics") ||
-    !imageAudit.includes("16 required visual units, 15 integrated")) {
+    !imageAudit.includes("Chapter 03 — periodic system: updated visual status")) {
   errors.push("IMAGE_AUDIT.md: current policy metrics or per-ID interactive visual audit is missing");
 }
 
@@ -823,8 +823,8 @@ if (!imageSources.includes("## Targeted follow-up search outcomes — 2026-11-05
   errors.push("IMAGE_SOURCES.md: targeted image-first search outcomes are incomplete");
 }
 if (!imageAudit.includes("10 FOUND / 19 searched") ||
-    !imageAudit.includes("18 / 19 = 94.74% integrated") ||
-    !imageAudit.includes("1 required visual")) {
+    !imageAudit.includes("19 / 19 = 100%") ||
+    !imageAudit.includes("0 identified in current plan")) {
   errors.push("IMAGE_AUDIT.md: current search and coverage metrics are inconsistent or missing");
 }
 
@@ -861,6 +861,42 @@ if (fs.existsSync(periodicTablePath)) {
   }
 } else {
   errors.push("periodic-table.html: interactive periodic table is missing");
+}
+
+
+const periodicTrendEn = path.join(assetRoot, "periodic-trends.svg");
+const periodicTrendRu = path.join(assetRoot, "periodic-trends-ru.svg");
+if (!fs.existsSync(periodicTrendEn) || !fs.existsSync(periodicTrendRu)) {
+  errors.push("CH-V12: bilingual periodic-trends SVG assets must both exist");
+}
+const periodicTrendPage = fs.readFileSync(periodicTablePath, "utf8");
+for (const required of [
+  'id="trendImage"',
+  'data-svg-ru="assets/periodic-trends-ru.svg"',
+  'data-svg-en="assets/periodic-trends.svg"',
+  'data-alt-ru=',
+  'data-alt-en=',
+  'trendImage.alt=names[lang].trendAlt',
+  'trendImage.src=lang==="ru"',
+  'data-t="trendCaption"',
+  'data-t="trendBody"'
+]) {
+  if (!periodicTrendPage.includes(required)) errors.push("CH-V12: periodic-table.html is missing " + required);
+}
+for (const [file, language] of [[periodicTrendEn,"en"],[periodicTrendRu,"ru"]]) {
+  if (fs.existsSync(file)) {
+    const svg = fs.readFileSync(file,"utf8");
+    if (!svg.includes("<title") || !svg.includes("<desc") || !svg.includes("viewBox=") ||
+        !svg.includes("atomic radius") && language==="en" ||
+        !svg.includes("Атомный радиус") && language==="ru") {
+      errors.push("CH-V12: SVG title, description, geometry or language-specific trend labels are missing in " + path.basename(file));
+    }
+  }
+}
+if (!imageSources.includes("CH-V12 | Chapter 03") ||
+    !imageSources.includes("Category C") ||
+    !imageAudit.includes("CH-V12 review record")) {
+  errors.push("CH-V12: source register and audit must document category, method and review status");
 }
 
 const atomicStructurePath = path.join(root, "chapters", "atomic-structure.html");
