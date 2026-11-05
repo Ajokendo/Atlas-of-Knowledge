@@ -464,15 +464,15 @@ No Image Coverage or Image Verification percentage is calculated from this token
 
 ### 7.6 Static SVG structure and Markdown alt-text checks — Chapters 01–05 and 18–20
 
-A direct fetch-and-inspect pass covered all **55 local SVG assets** currently found in the Geography branch:
+A direct fetch-and-inspect pass covered all **56 local SVG assets** currently found in the Geography branch:
 - 5 Chapter 01 SVGs in `assets/diagrams/`;
 - 11 Chapter 02 SVGs in `assets/diagrams/`;
 - 10 Chapter 03 SVGs in `assets/`;
 - 16 Chapter 04 SVGs in `assets/`;
-- 9 Chapter 05 SVGs in `visuals/`;
+- 10 Chapter 05 SVGs in `visuals/`;
 - 4 Chapter 18–20 SVGs in `assets/`.
 
-All 55 fetched SVG files contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
+All 56 fetched SVG files contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
 
 Markdown alt-text checks:
 - Chapters 01–02: the source register records 50 embeds with non-empty bilingual alt text (10 + 40).
@@ -730,3 +730,6 @@ The newly integrated Chapter 05 visual 5.18-A was also fetched and checked for t
 The previous Commons CC0 file was inspected directly. Despite its filename, `Atmosphere layers edu.svg` is a German-language diagram, and its file page reports two W3C SVG validation errors. It was not suitable for the Russian/English atlas. A new original bilingual SVG now replaces it. The new diagram's layer ranges and temperature trends were checked against NOAA JetStream; the ionosphere is explicitly shown as an overlapping region, not a sixth thermal layer. The 100-km Kármán line is labelled as a convention, not a physical boundary.
 
 The new local SVG passed static source checks (`viewBox`, bilingual title/description, `role="img"`, no script/foreignObject/embedded image). Its creator/rightsholder and project licence remain Unknown / PENDING; visual rendering and accessibility QA remain open.
+
+
+The newly integrated Chapter 05 local atmosphere-layer SVG (5.2-A) was fetched and checked for the same five structural elements; all are present. The English section now uses the same local bilingual SVG as the Russian section, replacing the former German-language CC0 candidate. A fresh chapter scan confirms 21 image URLs in each language, exact URL parity, and 42 total embeds.
