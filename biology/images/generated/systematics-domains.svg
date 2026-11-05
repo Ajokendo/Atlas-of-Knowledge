@@ -51,7 +51,7 @@
 <g font-size="18">
 <text x="60" y="570">• Нет оформленного ядра</text><text x="60" y="596">• No membrane-bound nucleus</text><text x="60" y="630">• Стенка часто содержит</text><text x="60" y="654">  пептидогликан / Wall often</text><text x="60" y="678">  contains peptidoglycan</text>
 <text x="447" y="570">• Нет оформленного ядра</text><text x="447" y="596">• No membrane-bound nucleus</text><text x="447" y="630">• Нет пептидогликана;</text><text x="447" y="654">  оболочки разнообразны /</text><text x="447" y="678">  No peptidoglycan; diverse walls</text>
-<text x="834" y="570">• Есть ядро / Has a nucleus</text><text x="834" y="604">• Есть мембранные органеллы</text><text x="834" y="630">• Membrane-bound organelles</text><text x="834" y="664">• Часто крупнее, но размеры</text><text x="834" y="688">  клеток сильно различаются /</text>
+<text x="834" y="570">• Есть ядро / Has a nucleus</text><text x="834" y="604">• Есть мембранные органеллы</text><text x="834" y="630">• Membrane-bound organelles</text><text x="834" y="654">• Часто крупнее; размеры различаются</text><text x="834" y="678">• Often larger; sizes vary widely</text>
 </g>
 </g>
 <rect x="35" y="720" width="1130" height="135" rx="20" fill="#f7eeee" stroke="#b87979" stroke-width="3"/>
