@@ -202,6 +202,6 @@ The central project team should include this guide and the universal policy in t
 
 ---
 
-**End of VISUAL IMPLEMENTATION GUIDE v1.0**
+**End of VISUAL IMPLEMENTATION GUIDE v1.1**
 
 This guide describes an implementation workflow. It does not grant rights, prove factual accuracy, or certify any asset. Every visual must be supported by the evidence required in the relevant subject's source register and audit.
