@@ -454,3 +454,13 @@ All six SVGs passed static source-level checks for viewBox, title, description, 
 - Chapter 13: the existing IPBES Global Assessment reference already supports the direct-driver framework.
 
 All five assets passed static source-level SVG checks and were embedded with bilingual alt text and captions. They are INTEGRATED, not VERIFIED. Formal project licence assignment remains required before public redistribution.
+
+
+## Chapter 20 — sixth visual integration tranche — 5 November 2026
+
+| Visual ID | Learning purpose | Source discovery / decision | Category / rights | Status |
+|---|---|---|---|---|
+| 20-C | Comparative visual of major Kyrgyz lakes | Official/technical source checks found current CAIAG Issyk-Kul values (6,236 km²), the President's official Son-Kul page (278 km²), the AF NWRMP basin page for Chatyr-Kul (175 km²), and a peer-reviewed Sary-Chelek study (~4.9 km²). Published lake depths and even some areas vary by source/date/method; the visual therefore compares surface area only, states sources and warns that it is not a map. Depth and origin are deliberately omitted pending a consistent morphometric inventory. | C — original hand-coded SVG; data/source attribution in Chapter 20. Project licence PENDING. | INTEGRATED with limited scope; area values checked; full morphometry remains open. |
+| 20-D | Lower Naryn hydropower cascade | AF NWRMP Naryn–Syr Darya basin page identifies the five-plant Lower Naryn cascade (Toktogul, Kurpsai, Tash-Kumyr, Shamaldy-Sai, Uch-Kurgan) and total installed capacity of 2,870 MW. Kambar-Ata projects are shown separately and excluded from the five-plant total. No individual plant capacity is inferred. | C — original hand-coded SVG; source attributed in Chapter 20. Project licence PENDING. | INTEGRATED; sequence and aggregate capacity checked against cited plan; current project status/plant-by-plant details remain outside the graphic. |
+
+Both files passed static SVG source checks and their chapter embeds resolve to existing assets. Neither has live browser or assistive-technology approval. The lake comparison is not a complete substitute for the requested lake map and full morphometric infographic; this limitation is explicit in its caption and description.
