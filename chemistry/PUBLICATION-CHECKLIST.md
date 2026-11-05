@@ -144,3 +144,14 @@ The following are explicitly **not required for this project’s release**: inde
 Automated axe results are evidence of automated checks only, not proof of full assistive-technology usability. Internal scientific review is not independent expert certification. Publication notes must preserve these distinctions.
 
 This scope decision supersedes earlier checklist wording that treated external reviewers, screen-reader testers and physical devices as mandatory release gates. Historical entries above are retained as records of earlier audit states, not current blockers.
+
+
+## Visual provenance remediation — 2026-11-05
+
+- [x] Replaced all 12 SVG files for which creator/source provenance could not be established with newly authored project-specific SVG source.
+- [x] Preserved the existing filenames and page references.
+- [x] Recorded per-file replacement commits in `IMAGE_SOURCES.md`.
+- [ ] Run branch-head CI after the replacement batch.
+- [ ] Review the rendered replacements and fix any layout or content defects found.
+
+The replaced files are no longer the active assets served by the atlas. Their replacement provenance is documented as Category C / created in this work session. This does not retroactively establish the history of the other assets or substitute for the internal science, language, technical and rights checks applicable to the full visual set.
