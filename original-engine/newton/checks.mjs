@@ -115,6 +115,7 @@ keyed(1, 0, M.tension2(25), 'model tension2(25°)');
 } }
 { const dt = 1e-3; const v1 = M.PLANE.v + (2400 - M.PLANE.D) / M.PLANE.m * dt; keyed(3, 0, (M.PLANE.m * v1 - M.PLANE.m * M.PLANE.v) / (M.PLANE.m * dt), 'impulse over a short dt ÷ m dt'); }
 keyed(4, 0, M.pushed(M.A1, M.PUSH_T).x, 'model pushed(a1, t).x');
+check('practice 4.1: speed distractor is labelled with m/s, not metres', PRACTICE[4][0].choices[2].endsWith(' м/с'), PRACTICE[4][0].choices[2]);
 { const t30 = bisect(t => M.car(t).v - 30, 0, 200); keyed(5, 1, pder(u => M.car(u).v, t30), 'slope of the model’s v(t) at v = 30 m/s'); }
 keyed(6, 0, M.friction(8.0 / M.RAMP).f, 'model friction at an 8.0 N push');
 keyed(6, 1, pder(u => M.friction(u).v, 12.0 / M.RAMP), 'slope of the model’s sliding v(t) at a 12.0 N push');
