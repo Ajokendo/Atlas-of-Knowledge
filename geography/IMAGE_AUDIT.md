@@ -1455,3 +1455,8 @@ The designated internal reviewer for this development pass is ChatGPT GPT-6. Spe
 - No replacement images have been embedded in this milestone. The 11 local SVGs remain NOT CLEARED FOR PUBLIC REUSE. A candidate or a completed source record is not an integrated/verified replacement.
 - The Geography adoption record now cites IMAGE-FIRST POLICY v1.2 (commit `11ea6d8d032d42bbb6c64c2fd302ddf8a2742e2b`).
 - Next: implement the first replacement batch only after checking the actual image files, bilingual captions/alt text, attribution placement, and external image URLs; then remove the replaced local SVGs from public-facing chapter assets and update all registers.
+
+
+### Correction to the 2.12-A candidate record — 5 November 2026
+
+The first feedback-image candidate considered from SERC's separate *Carbon on the Move!* page displayed a Met Office credit on the actual image and was therefore not selected. The replacement plan now points instead to the SERC EarthLabs *Climate Series Introduction* page, where the two exact images are individually identified as “Balancing Feedback Loop” and “Reinforcing Feedback Loop”, credited to Nick Haddad, TERC, and each explicitly offered under CC BY-NC-SA 3.0. This pair is the current 2.12-A candidate. The earlier National Academies/2008 attribution must not be carried over to these two images.
