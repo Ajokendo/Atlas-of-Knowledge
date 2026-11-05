@@ -732,6 +732,20 @@ for (const [file, required] of [
     if (!svg.includes(phrase)) errors.push("CH-V04: " + file + " is missing the bilingual formula/coefficient explanation: " + phrase);
   }
 }
+for (const [file, required] of [
+  ["solution-saturation-particles.svg", ["same temperature and amount of solvent", "dynamic equilibrium with undissolved solute", "metastable", "crystallise when seeded", "Dynamic equilibrium with solid"]],
+  ["solution-saturation-particles-ru.svg", ["при одинаковой температуре и количестве растворителя", "в равновесии с нерастворённым веществом", "метастабилен", "после внесения затравки", "Динамическое равновесие"]]
+]) {
+  const fullPath = path.join(assetRoot, file);
+  if (!fs.existsSync(fullPath)) {
+    errors.push("CH-V05: missing saturation-state visual " + file);
+    continue;
+  }
+  const svg = fs.readFileSync(fullPath, "utf8");
+  for (const phrase of required) {
+    if (!svg.toLowerCase().includes(phrase.toLowerCase())) errors.push("CH-V05: " + file + " is missing scientific state distinction: " + phrase);
+  }
+}
 const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
 if (fs.existsSync(neutralisationSvgPath)) {
   const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
