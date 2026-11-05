@@ -778,3 +778,33 @@ Created and integrated a bilingual qualitative SVG (geography/assets/06-5-A-seaw
 Integrated two complementary visuals in both language sections. The surface-current map is NOAA/AOML's 2008 map by Rick Lumpkin, reused unchanged from Wikimedia Commons; the file page identifies it as Public Domain. It is labelled as a generalized teaching map, not real-time data. The second image is a new bilingual conceptual SVG created with ChatGPT assistance. It shows poleward surface transport, cooling and densification at high latitudes, sinking, deep spreading, mixing and upwelling. Its description explicitly rejects the idea of one continuous global pipe or an exact route for a single water mass.
 
 **Result:** scientific/conceptual fit PASS for the stated explanatory scope; map rights PASS as a NOAA public-domain work; RU/EN parity PASS. The new local SVG's creator/rightsholder and project licence remain PENDING. Screen-reader behaviour, contrast, responsive rendering and device QA remain PENDING.
+
+
+## Chapter 17 — detailed visual audit — 5 November 2026
+
+**Scope:** all nine required Chapter 17 visual IDs; branch `workspace/geography`; IMAGE-FIRST POLICY v1.1.  
+**Search record:** see `geography/IMAGE_SOURCES.md`, Chapter 17. Candidate searches included the Kyrgyz State Agency/Geoportal and Water Information System, CIA country maps, peer-reviewed Tien Shan tectonic figures, and the Ministry of Natural Resources' 2026 geological-atlas announcement.
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 17-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Current boundary geometry and political-map provenance not established; do not use 2005 CIA map as a current border map. |
+| 17-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Need DEM lineage, resolution, CRS, vertical datum and licence before a national hypsometric map/profile can be approved. |
+| 17-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Academic tectonic figures are study-specific; choose a regional classification and document rights before reuse or redraw. |
+| 17-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | National water-project map catalogue is a lead only; exact valley/basin layer metadata and reuse terms remain unknown. |
+| 17-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Original conceptual bilingual timeline can be authored from ICS and chapter evidence; it must not imply a precise local reconstruction. |
+| 17-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | No approved national active-fault/seismicity dataset; catalogue period, magnitude threshold/scale and positional accuracy required. |
+| 17-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Original not-to-scale conceptual cross-section can be authored; distinguish tectonic uplift from surface processes. |
+| 17-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Await published national geological atlas or verified open layers; do not invent mineral districts, resource classes or operating status. |
+| 17-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Current official administrative geometry and reuse conditions not confirmed; show Manas and seven oblasts correctly when source is obtained. |
+
+**Results and controls**
+- Required visuals: 9. Integrated: 0. **Image Coverage: 0/9 = 0%.**
+- Image Verification: not applicable because no Chapter 17 visual is integrated; do not report 0% as a verification rate for a non-existent asset set.
+- Categories A/B/C: 0/0/0 integrated. Planned C assets are not counted before files exist and creator/rightsholder, method and project licence are recorded.
+- Rights: no Chapter 17 asset has passed. Scientific/factual, bilingual, accessibility and technical checks remain PENDING for all nine because no files are integrated.
+- Candidate CIA maps (2005) were rejected for current administrative/border use because of age; their public-domain status does not cure geographic obsolescence. Peer-reviewed tectonic figures remain literature candidates only; their exact figure rights and scope must be checked.
+- The Ministry's 11 March 2026 geological-atlas announcement describes a project in preparation; it is not evidence that the atlas or its maps are already published or reusable.
+- The 2018 WIS boundary layer is an archival GIS record in WGS 84, not proof of a current legal boundary. It must not be used to derive modern extreme points without original geometry and legal verification.
+- No item is VERIFIED. This audit does not certify rendered site behaviour, mobile layout or screen-reader output.
+
+**Audit status:** chapter visual component remains incomplete. Content placeholders and production briefs are aligned one-to-one in the Chapter 17 text; placeholders are not counted as coverage.
