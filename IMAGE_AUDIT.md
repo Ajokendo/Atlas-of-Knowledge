@@ -172,6 +172,18 @@ Numbering note: chapter numbers follow Nathan Liow's original 15-chapter sequenc
 - For canvas/WebGL: provide a meaningful accessible name and a text explanation of the essential state; test fallback when rendering is unavailable.
 - Verify actual phone, tablet and desktop rendering, zoom/reflow, labels, clipping, loading and fallback. Existing browser smoke evidence is useful but does not replace manual scientific, legal, language and assistive-technology review.
 
+
+### Asset-level audit — newly integrated visual IDs
+
+| Visual ID | Integration | Scientific / factual | Rights / licence | Language / accessibility | Technical / responsive | Overall |
+|---|---|---|---|---|---|---|
+| PHY-14-001 | PASS — desktop and mobile variants integrated | PENDING — internal vector/equation check only; independent subject review not recorded | PENDING — project licence assignment required | PENDING — RU/EN captions and alt records present; final comprehension review pending | PENDING — CI and manual screenshot review pending | INTEGRATED, not VERIFIED |
+| PHY-15-001 | PASS — desktop and mobile variants integrated | PENDING — internal polarity/flux check only; independent subject review not recorded | PENDING — project licence assignment required | PENDING — RU/EN captions and alt records present; final comprehension review pending | PENDING — CI and manual screenshot review pending | INTEGRATED, not VERIFIED |
+| PHY-15-002 | PASS — desktop and mobile variants integrated | PENDING — internal vector/current/force check only; independent subject review not recorded | PENDING — project licence assignment required | PENDING — RU/EN captions and alt records present; final comprehension review pending | PENDING — CI and manual screenshot review pending | INTEGRATED, not VERIFIED |
+| PHY-15-003 | PASS — desktop and mobile variants integrated | PENDING — internal equation/phase/energy check only; independent subject review not recorded | PENDING — project licence assignment required | PENDING — RU/EN captions and alt records present; final comprehension review pending | PENDING — CI and manual screenshot review pending | INTEGRATED, not VERIFIED |
+
+The four assets are Category C. There are eight responsive SVG files (four desktop, four mobile). The four former placeholders are no longer present. A 0% verification rate for these four new assets is provisional until their pending checks pass; it is not the atlas-wide Image Verification metric.
+
 ## 5. Preliminary status and metrics
 
 The Russian standalone pages for Chapters 14–15 have also been improved: generic canvas drawings that only displayed a circle and line with the caption “Модель физических величин” were removed because they did not represent the stated physics. They were replaced with explanatory text describing the assumptions and equations of each calculator. Contextual Russian accessible names were added to the remaining 3D and plot canvases.
