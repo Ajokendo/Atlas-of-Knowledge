@@ -400,3 +400,12 @@ These seven diagrams are original project-specific SVGs authored with ChatGPT as
 - **Category:** B — adapted existing scientific map. The base relief and regional divisions are reproduced from Figure 1; a bilingual side key and scope note were added.
 - **Important scope:** the regional boundaries follow the study's classification and underlying regional-boundary data from the Chinese Academy of Sciences' RESDC. They are not presented as an official UN M49 map. The chapter separately explains M49 as a statistical classification. The visual is one example of macro-regional division, not the only correct regionalisation.
 - **Status:** INTEGRATED. Source attribution/licence recorded. Review the remote image dependency, label legibility, regional boundary interpretation and responsive rendering before VERIFIED status.
+
+
+### Chapter 11-C — multimodal transport chain — 5 November 2026
+
+- **Search:** image-first query for multimodal transport corridor, road/rail/port/shipping network diagrams. A World Bank multimodal transport infographic and several commercial/educational diagrams were found; the individual image reuse terms were not sufficiently clear or the image did not match the chapter's specific learning objective.
+- **Asset:** original hand-coded bilingual SVG, assets/diagrams/11-C-multimodal-transport-chain-bilingual.svg.
+- **Category / rights:** C — original project visual; no third-party diagram copied. Creator/rightsholder and explicit project licence remain PENDING.
+- **Scope:** schematic supply chain only (producer, consolidation, rail terminal, port, ship, warehouse, market, with road and air alternatives). It is not a map of actual transport corridors and contains no invented distances or travel times.
+- **Status:** INTEGRATED. Scientific, rights, accessibility and browser-render review PENDING.
