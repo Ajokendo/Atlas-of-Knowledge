@@ -16,8 +16,9 @@ This chapter concludes the general geography section of the atlas. It brings tog
 
 ## 16.1. Географическое исследование: логика и этапы / Geographic Research: Logic and Stages
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-A / IMAGE PLACEHOLDER 16-A]** Цикл географического исследования: вопрос, обзор источников, данные, анализ, интерпретация и публикация; показать возврат к уточнению гипотезы.
-> **EN:** Geographic research cycle from question and literature review to data, analysis, interpretation and publication, including feedback to refine the hypothesis.
+![Цикл географического исследования: вопрос, источники, сбор данных, анализ, интерпретация и публикация / Geographic research cycle: question, sources, data collection, analysis, interpretation and communication](../assets/diagrams/16-A-geographic-research-cycle-bilingual.svg)
+
+*Оригинальная двуязычная схема итеративного исследования; последовательность может повторяться при уточнении вопроса и метода. / Original bilingual diagram of iterative inquiry; stages may repeat as the question and method are refined.*
 
 
 Исследование начинается с чётко сформулированной проблемы. Тема должна быть преобразована в исследовательский вопрос, на который можно ответить с помощью наблюдений, данных и обоснованного метода.
