@@ -890,5 +890,7 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 9. UN Trade and Development (UNCTAD). **UNCTADstat** — trade, investment and development data. https://unctadstat.unctad.org/
 10. OECD. **Regional Statistics and Regional Development Policy** — regional development data and methods. https://www.oecd.org/en/data/datasets/oecd-regional-statistics.html
 11. Coe, N. M., Kelly, P. F., Yeung, H. W. C. **Economic Geography: A Contemporary Introduction**. Wiley.
+12. United Nations Conference on Trade and Development (UNCTAD). **Global Value Chains and World Trade**, chapter “Mapping global value chains” (2014). https://doi.org/10.18356/8ad97673-en
+13. United Nations Industrial Development Organization (UNIDO). **EQuIP Tool 4 — Global Value Chains** (2024). https://www.unido.org/learning-resources/equip-tool-4-global-value-chains
 ---
 **Конец главы 11 / End of Chapter 11**
