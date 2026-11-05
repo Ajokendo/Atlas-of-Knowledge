@@ -797,3 +797,17 @@ The latest page screenshots were inspected for the evolution, systematics, zoolo
 - `systematics-tree.svg`: clade definition, sister-group relationships, branch rotation and the non-progressive vertical layout are described in both languages.
 
 The source-label correction is committed in `8c6982be`; regression assertion is in `05b4c59f`. This is a targeted source/content pass, not final certification of every rendered line or species image.
+
+
+## Zoology and microbiology source review — 5 November 2026
+
+Reviewed the six generated SVGs referenced by `zoology.html` and `microbiology.html` against their embedded text and the rendered chapter screenshots:
+
+- `zoology-vertebrates.svg`: the five familiar vertebrate teaching groups are identified, with the cladistic caveat that birds are within Reptilia.
+- `zoology-anatomy.svg`: body coverings and respiration descriptions are qualified (for example, scales/mucus in many fish, moist skin in amphibians, and adult skin/lung respiration with many larvae having gills).
+- `zoology-adaptation.svg`: the captions distinguish aquatic propulsion, weight-bearing limbs, fur and feathered wings; wording is qualified with “many” where traits are not universal.
+- `microbe-compare.svg`: clearly distinguishes a cellular bacterium from an acellular virus and limits lipid envelopes to some viruses.
+- `microbe-virus-cycle.svg`: describes a generalised cycle and explicitly states that entry, genome replication and release differ among viruses.
+- `microbe-resistance.svg`: distinguishes pre-existing variation, antimicrobial selection and inheritance; includes both mutation and gene acquisition as sources of resistance.
+
+No source-level bilingual or conceptual correction was justified in this batch. The rendered chapter overview and mobile layout were checked in the latest screenshot artifact. Fine-grained morphology and every individual label's visual legibility remain asset-specific checks, not blanket-closed.
