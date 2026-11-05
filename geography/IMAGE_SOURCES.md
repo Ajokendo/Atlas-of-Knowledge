@@ -2,12 +2,12 @@
 
 **Snapshot:** 5 November 2026  
 **Branch:** `workspace/geography`  
-**Scope:** Chapters 01–05 have detailed or provisional asset records; Chapter 06 now has two sourced and integrated records (6-A and 6.1-A); Chapter 09 includes a documented MISSING gap record. The remaining Chapter 06 assets, Chapters 07–08 and 10–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
+**Scope:** Chapters 01–05 have detailed or provisional asset records; Chapter 06 now has three integrated visual records (6-A, 6-C and 6.1-A), plus the licensed candidate dataset for 6-B; Chapter 09 includes a documented MISSING gap record. The remaining Chapter 06 assets, Chapters 07–08 and 10–26 remain to be inventoried and verified. See IMAGE_AUDIT.md for the subject-wide audit scope and per-asset pending records.  
 **Policy:** search for an existing scientifically suitable image first; verify the individual asset's rights and attribution; create or generate a replacement only when no suitable reusable image is found.
 
 ## Policy alignment — IMAGE-FIRST POLICY v1.1
 
-This source register is maintained under the universal root-level [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md). It does not replace IMAGE_AUDIT.md: this file records provenance and rights evidence; the audit records independent scientific, rights, bilingual, accessibility and technical results. Unknown values remain Unknown or PENDING; a source entry or integration note alone is not approval. Detailed asset records below cover Chapters 01–05 plus the Chapter 09-G gap record. Chapter 05's earlier chapter-specific register remains as a production-history record; its source and rights information is consolidated below. Do not infer complete records for other chapters.
+This source register is maintained under the universal root-level [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md). It does not replace IMAGE_AUDIT.md: this file records provenance and rights evidence; the audit records independent scientific, rights, bilingual, accessibility and technical results. Unknown values remain Unknown or PENDING; a source entry or integration note alone is not approval. Detailed asset records below cover Chapters 01–06 plus the Chapter 09-G gap record. Chapter 05's earlier chapter-specific register remains as a production-history record; its source and rights information is consolidated below. Do not infer complete records for other chapters.
 
 ## Status key
 
