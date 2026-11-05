@@ -43,8 +43,7 @@
 <text x="405" y="505" class="small" fill="#397ba8">Лёгочная артерия / Pulmonary artery</text>
 <text x="770" y="505" class="small" fill="#b94d43">Лёгочные вены / Pulmonary veins</text>
 <!-- systemic return -->
-<path class="blue" marker-end="url(#blueArrow)" d="M805 245C760 650 650 690 535 690C420 690 300 650 230 520"/>
-<path class="blue" marker-end="url(#blueArrow)" d="M230 520C180 430 190 390 260 355C350 310 420 330 490 330"/>
+<path class="blue" marker-end="url(#blueArrow)" d="M890 270C880 420 820 570 680 610C540 650 370 610 275 520C220 470 220 405 275 365C335 325 415 330 490 330"/>
 <text x="600" y="690" text-anchor="middle" class="s">Венозная кровь возвращается к правой половине сердца</text>
 <text x="600" y="718" text-anchor="middle" class="s">Oxygen-poor blood returns to the right side of the heart</text>
 <rect x="95" y="760" width="1010" height="95" rx="18" fill="#f0eee8" stroke="#d8d3c8" stroke-width="2"/>
