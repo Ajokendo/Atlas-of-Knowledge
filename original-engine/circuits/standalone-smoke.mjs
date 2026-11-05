@@ -70,7 +70,7 @@ async function run(mobile) {
 
     const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
-    if (serious.length) throw new Error(`axe serious/critical: ${serious.map(v => v.id).join(', ')}`);
+    if (serious.length) throw new Error(`axe serious/critical: ${serious.map(v => `${v.id}: ${v.nodes.map(n => `${n.target.join(' ')} — ${n.failureSummary}`).join(' || ')}`).join(' ; ')}`);
     if (errors.length) throw new Error(errors.join(' | '));
 
     console.log(`PASS standalone Chapter 13 ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — schematic painted (${drawing.changed} pixels), Ohm recalculation, power, quiz, WebGL, keyboard, overflow 0, axe serious/critical 0`);
