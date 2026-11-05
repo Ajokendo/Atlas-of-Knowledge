@@ -1314,3 +1314,10 @@ This is a repository path/source check, not a browser test. Image Verification r
 | 13-K | INTEGRATED | PASS WITH SCOPE NOTE — fictional urban districts; pollution and green-space access are hypothetical; distributional, recognition and procedural dimensions distinguished | PENDING | PASS | PENDING | PASS — static SVG and local embed; browser render pending | Do not interpret as a real Kyrgyzstan map or as a single numerical environmental-justice index. |
 
 All four files pass source-level SVG checks for root, viewBox, title, description, role=img and Russian/English text. The local chapter embed paths resolve. No browser, responsive or assistive-technology test is claimed. None is VERIFIED.
+
+
+### Chapter 18 — supplementary Blue Green Atlas relief overview
+
+| Figure | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| Kyrgyzstan relief overview | INTEGRATED — supplementary map | PASS WITH LIMITATION — projection and source datasets identified; map compilation date, vertical reference and accuracy are not stated | PASS — source page explicitly CC BY 4.0; attribution included | PASS — bilingual alt text/caption | PENDING — alt text present; manual accessibility review pending | PENDING — external image loading/responsive behaviour untested | Useful relief context only; does not close 18-A, which still requires a validated DEM with full metadata. |
