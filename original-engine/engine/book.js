@@ -384,7 +384,8 @@ export function startBook(chapter) {
   let timeRate = 1, last = performance.now(), clock = chapter.clock0 || 0, orbitPage = 0, orbitHome = false;
   const lookAt = new E.THREE.Vector3();
   function frame(now) {
-    const dt = Math.min(Math.max((now - last) / 1000, 0), 1 / 20); last = now;   // a frame stamp can predate setup
+    const elapsed = Math.max((now - last) / 1000, 0); last = now;
+    const dt = Math.min(elapsed, 1 / 20); // cap physics integration after a delayed frame
     const s = Math.min(Math.max(scrollY / pageH, 0), N - 1);
     const i = Math.min(Math.floor(s), N - 1), f = s - i, j = Math.min(i + 1, N - 1);
     if (selected && Math.abs(scrollY - selectScroll) > pageH * 0.25) select(null);
@@ -413,8 +414,8 @@ export function startBook(chapter) {
     const page = Math.round(s);
     if (page !== orbitPage) { orbitPage = page; orbitHome = true; }
     if (drag && drag.moved) orbitHome = false;
-    if (orbitHome) { const k = Math.exp(-dt * 3); orbit.az *= k; orbit.el *= k; orbit.pan.multiplyScalar(k); }
-    focusAmt += ((selected ? 1 : 0) - focusAmt) * (1 - Math.exp(-dt * 4));
+    if (orbitHome) { const k = Math.exp(-elapsed * 3); orbit.az *= k; orbit.el *= k; orbit.pan.multiplyScalar(k); }
+    focusAmt += ((selected ? 1 : 0) - focusAmt) * (1 - Math.exp(-elapsed * 4));
     if (selected) lastFocus = focusOf(selected);
     if (focusAmt > 0.001 && lastFocus) {
       const F = lastFocus;
@@ -451,5 +452,5 @@ export function startBook(chapter) {
   { const k = fromHash(); if (k !== null) goto(k, true); }
   // the first frame drawn: the book can open now (cover.js)
   document.fonts.ready.then(() => requestAnimationFrame(t => { frame(t); dispatchEvent(new Event('bookready')); }));
-  window.__atlas = { E, select, goto, focusState: () => ({ selected, focusAmt, lastFocus, selectScroll, scrollY }) };
+  window.__atlas = { E, select, goto };
 }
