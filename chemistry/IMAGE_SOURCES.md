@@ -2,7 +2,7 @@
 
 **Canonical policy:** [IMAGE-FIRST POLICY v1.1](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md)  
 **Subject branch:** `workspace/chemistry`  
-**Scope:** all 22 static SVG files (11 bilingual pairs), seven interactive visual systems, and the unintegrated Chapter 03 candidate. Policy metadata is cross-referenced by stable visual ID across the asset register, interactive register, learning/search register, metadata supplement and IMAGE_AUDIT.md.  
+**Scope:** all 24 static SVG files (12 bilingual pairs), seven interactive visual systems, and the documented Chapter 03 candidate review (candidate not adopted; project-created replacement integrated). Policy metadata is cross-referenced by stable visual ID across the asset register, interactive register, learning/search register, metadata supplement and IMAGE_AUDIT.md.  
 **Last inventory pass:** 2026-11-05  
 **Policy version:** IMAGE-FIRST POLICY v1.1  
 **Provenance correction:** earlier inventory entries accidentally placed search notes in the English-file column. This revision restores the actual English filenames and moves search notes to the source-evidence column.
