@@ -668,6 +668,7 @@ Do not simply average the two national indicators: (20,000 + 10,000) / 2 = USD 1
 8. Antarctic Treaty Secretariat. **The Antarctic Treaty** — official treaty text and summary of Articles I–IV, including peaceful use, scientific cooperation and the status of territorial claims. https://www.ats.aq/e/antarctictreaty.html
 9. National Geographic Society. **Encyclopedic and educational geography resources** — справочные материалы по физической и региональной географии.
 10. Knox, P., Marston, S., Imort, M. **Human Geography: Places and Regions in Global Context**. Pearson.
+11. Dou, Y., Huang, Q., He, C., Meng, S., & Zhang, Q. (2018). **Rapid Population Growth throughout Asia’s Earthquake-Prone Areas: A Multiscale Analysis.** *International Journal of Environmental Research and Public Health*, 15(9), 1893. Figure 1: Asia elevation and regional divisions. https://doi.org/10.3390/ijerph15091893. Open access under CC BY 4.0.
 
 ---
 **Конец главы 12 / End of Chapter 12**
