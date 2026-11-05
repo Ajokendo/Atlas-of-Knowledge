@@ -840,3 +840,9 @@ No source-text correction was justified in this batch. This is a targeted intern
 Manual inspection of the latest full-page Chromium screenshot at 1365 px found that the bird's feet and mammal's lower legs overlapped their explanatory caption lines in `zoology-vertebrates.svg`. The illustration paths were grouped and shifted upward by 20 SVG units, leaving the caption baselines unobstructed while retaining the original panel geometry and text positions. A targeted regression assertion now requires both illustration transforms to remain present.
 
 This is a confirmed rendered-layout defect and source-level correction. The new screenshot must still be inspected after the current commit's Chromium run; no post-fix visual pass is claimed yet.
+
+## Vertebrate anatomy comparison-panel corrections — 5 November 2026
+
+A full-resolution review of the zoology chapter screenshot found three layout defects in `zoology-anatomy.svg`: the long reptile-group heading reached the right edge of its card; the amphibian illustration extended into its first explanatory row; and the bird and mammal illustrations overlapped their covering/respiration captions. The correction uses a smaller fitted heading style for the reptile panel and proportionally compresses/repositions the amphibian, bird and mammal illustrations within their existing cards. Caption positions and panel boundaries remain unchanged. Targeted regression checks require the fitted heading and illustration transforms.
+
+This is a confirmed page-render defect corrected in source. The current Chromium run must still produce a fresh screenshot for post-fix inspection. The earlier successful browser run predates these corrections; no post-fix visual pass is claimed.
