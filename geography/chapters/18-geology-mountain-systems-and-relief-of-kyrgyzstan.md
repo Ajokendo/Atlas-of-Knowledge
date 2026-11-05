@@ -411,6 +411,17 @@ It is important to distinguish **hazard** from **risk**. Hazard describes a pote
 
 Для воспроизводимости каждое наблюдение должно содержать дату, координаты, систему координат, метод измерения, автора, описание неопределённости и ссылку на исходные материалы. Отбор образцов из охраняемых территорий, археологических объектов и частных земель требует соблюдения соответствующих правил.
 
+
+Geological and geomorphological research in mountain areas combines several complementary methods.
+
+**Desk-based stage:** analyse topographic and geological maps, digital elevation models, satellite imagery, archive data and scientific literature.
+
+**Field stage:** describe outcrops, identify lithology, measure structural orientations, map faults and landforms, record GNSS coordinates, take photographs and collect samples in accordance with safety procedures and permit requirements.
+
+**Post-field stage:** prepare geological cross-sections, digital elevation models, slope and aspect maps; analyse river basins; interpret imagery; check field observations; and prepare metadata.
+
+For reproducibility, every observation should include its date, coordinates, coordinate reference system, measurement method, author, uncertainty description and a link to the source material. Sampling in protected areas, archaeological sites and private land must comply with the relevant rules.
+
 ## 18.13. Геоморфологические зоны по высоте / Elevation-Related Geomorphological Belts
 
 Высотные границы природных и геоморфологических поясов меняются в зависимости от широты, экспозиции склонов, континентальности климата и локальной орографии. Поэтому приведённая ниже схема является качественной, а не универсальной высотной классификацией.
