@@ -6,15 +6,14 @@
  <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#9eb89a"/><stop offset="1" stop-color="#526f58"/></linearGradient>
 </defs>
 <rect width="1200" height="675" fill="url(#sky)"/>
-<text x="48" y="55" font-family="Arial,sans-serif" font-size="22" fill="#314b45" letter-spacing="3">WESTERN TIEN SHAN · CONCEPTUAL HABITAT PANORAMA</text>
+<text x="48" y="55" font-family="Arial,sans-serif" font-size="22" fill="#314b45" letter-spacing="2">WESTERN TIEN SHAN · CONCEPTUAL HABITAT PANORAMA</text><text x="48" y="82" font-family="Arial,sans-serif" font-size="16" fill="#314b45">Западный Тянь-Шань · условная панорама местообитаний</text>
 <g transform="translate(0 95)">
  <path d="M0 370 120 240 210 300 345 105 470 270 580 180 700 365Z" fill="#a9b9a0"/>
  <path d="M0 405 145 290 255 350 380 190 500 320 610 235 720 410Z" fill="url(#hill)"/>
  <path d="M0 405 Q170 360 350 405T720 405V500H0Z" fill="#557b60"/>
  <g fill="#315c48"><path d="M95 395l22-95 22 95zM145 405l26-112 26 112zM235 390l24-105 24 105zM300 404l25-116 25 116zM480 402l22-94 22 94z"/></g>
  <path d="M0 475Q150 445 300 478T720 470V500H0Z" fill="#6e9874"/>
- <text x="45" y="545" font-family="Arial,sans-serif" font-size="27" font-weight="bold" fill="#fff">01 · SARY-CHELEK</text>
- <text x="45" y="578" font-family="Arial,sans-serif" font-size="19" fill="#fff">Forest and lake landscape</text>
+ <rect x="12" y="425" width="696" height="75" rx="10" fill="#29473c" opacity=".82"/><text x="28" y="445" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#fff">01 · САРЫ-ЧЕЛЕК</text><text x="28" y="464" font-family="Arial,sans-serif" font-size="15" fill="#fff">01 · SARY-CHELEK</text><text x="28" y="482" font-family="Arial,sans-serif" font-size="14" fill="#fff">Лесной склон и озёрный ландшафт</text><text x="28" y="497" font-family="Arial,sans-serif" font-size="13" fill="#fff">Forest and lake landscape</text>
 </g>
 <path d="M720 95V625" stroke="#fff" stroke-width="5" opacity=".9"/>
 <g transform="translate(720 95)">
@@ -23,8 +22,7 @@
  <path d="M0 430Q100 390 180 420T330 410T480 430V500H0Z" fill="#77a9b4"/>
  <path d="M0 455Q110 425 220 450T480 450" fill="none" stroke="#d9f0ec" stroke-width="9"/>
  <g fill="#476c55"><path d="M90 395l17-65 17 65zM125 400l17-72 17 72zM380 390l17-68 17 68z"/></g>
- <text x="35" y="545" font-family="Arial,sans-serif" font-size="27" font-weight="bold" fill="#fff">02 · BESH-ARAL</text>
- <text x="35" y="578" font-family="Arial,sans-serif" font-size="19" fill="#fff">River gorge and wooded slopes</text>
+ <rect x="12" y="425" width="456" height="75" rx="10" fill="#29473c" opacity=".82"/><text x="28" y="445" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#fff">02 · БЕШ-АРАЛ</text><text x="28" y="464" font-family="Arial,sans-serif" font-size="15" fill="#fff">02 · BESH-ARAL</text><text x="28" y="482" font-family="Arial,sans-serif" font-size="14" fill="#fff">Речное ущелье и лесистые склоны</text><text x="28" y="497" font-family="Arial,sans-serif" font-size="13" fill="#fff">River gorge and wooded slopes</text>
 </g>
 <path d="M960 95V625" stroke="#fff" stroke-width="5" opacity=".9"/>
 <g transform="translate(960 95)">
@@ -36,8 +34,7 @@
  <g transform="translate(185 375)" fill="#39463c" stroke="#39463c" stroke-width="5" stroke-linecap="round">
   <ellipse cx="0" cy="0" rx="37" ry="22"/><circle cx="31" cy="-15" r="16"/><circle cx="35" cy="-28" r="5"/><path d="M-22 13l-8 23M5 16l4 21M-35 -3q-28 -18 -26 4" fill="none"/>
  </g>
- <text x="22" y="545" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#fff">03 · SUBALPINE MEADOW</text>
- <text x="22" y="578" font-family="Arial,sans-serif" font-size="18" fill="#fff">Menzbier's marmot · Besh-Aral</text>
+ <rect x="12" y="425" width="376" height="75" rx="10" fill="#29473c" opacity=".82"/><text x="20" y="445" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#fff">03 · СУБАЛЬПИЙСКИЙ ЛУГ</text><text x="20" y="464" font-family="Arial,sans-serif" font-size="14" fill="#fff">03 · SUBALPINE MEADOW</text><text x="20" y="482" font-family="Arial,sans-serif" font-size="13" fill="#fff">Сурок Мензбира · Беш-Арал</text><text x="20" y="497" font-family="Arial,sans-serif" font-size="12" fill="#fff">Menzbier's marmot · Besh-Aral</text>
 </g>
 <rect x="30" y="620" width="1140" height="36" rx="8" fill="#fff" opacity=".9"/>
 <text x="50" y="645" font-family="Arial,sans-serif" font-size="17" fill="#34443b">SCHEMATIC · NOT TO SCALE · NO SPECIES-RANGE BOUNDARIES</text>
