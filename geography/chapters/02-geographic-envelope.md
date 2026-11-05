@@ -298,9 +298,11 @@
 
 **Иллюстрация 2.9-A — Широтная зональность и высотная поясность / Latitudinal and Altitudinal Zonation.**
 
-![Сопоставление широтных природных зон и высотных поясов гор / Comparison of latitudinal natural zones and mountain elevation belts](../assets/diagrams/02-9A-zonation.svg)
+![Карта распределения наземных биомов мира по классификации RESOLVE 2017; цвета и легенда показывают 14 типов биомов и область скал и льда / Global terrestrial biome map using the RESOLVE 2017 classification; colours and legend show 14 biome types and rock and ice](https://atlasofmaps.com/maps/thematic/biomes-map/biomes-map.png)
 
-*Схематическое сравнение, не карта и не универсальная последовательность природных зон; границы зависят от климата, рельефа и экспозиции. / Schematic comparison, not a map or universal sequence; boundaries depend on climate, relief and slope aspect.*
+![Высотные природные пояса Северных Предальп, Центральных Альп и Южных Предальп; высотные границы различаются между районами / Altitudinal natural belts of the Northern Prealps, Central Alps and Southern Prealps; elevation limits differ among regions](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Altitudinal_zones_of_Alps_mountains-extended_diagram.svg/3840px-Altitudinal_zones_of_Alps_mountains-extended_diagram.svg.png)
+
+*Панель 1: карта биомов по RESOLVE Ecoregions 2017 (Dinerstein et al.); карта подготовлена Atlas of Maps, CC BY 4.0, исходные данные RESOLVE — CC BY 4.0, Natural Earth — Public Domain. Классификация отражает экологические биомы, а не современный растительный покров и не строгие климатические пояса. Панель 2: высотная поясность Альп; автор Delphi234, 20 сентября 2014 года, CC BY-SA 4.0. Альпы приведены как региональный пример, а не универсальная модель гор и не схема Тянь-Шаня. Изображения использованы без изменений. / Panel 1: biome map based on RESOLVE Ecoregions 2017 (Dinerstein et al.); map design by Atlas of Maps, CC BY 4.0, RESOLVE source data CC BY 4.0, Natural Earth Public Domain. The classification shows ecological biomes, not current vegetation cover or strict climatic belts. Panel 2: Alpine altitudinal zonation; author Delphi234, 20 September 2014, CC BY-SA 4.0. The Alps are a regional example, not a universal mountain model or a diagram of the Tien Shan. Images used unchanged. [Карта / Map](https://atlasofmaps.com/biomes-map/) · [Источник данных / Data source](https://ecoregions.appspot.com/) · [Схема Альп / Alpine diagram](https://commons.wikimedia.org/wiki/File:Altitudinal_zones_of_Alps_mountains-extended_diagram.svg) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ## 2.10. Биогеохимические циклы / Biogeochemical Cycles
 
@@ -848,9 +850,11 @@ In mountains, foothill steppes may give way to forests, subalpine and alpine mea
 
 **Illustration 2.9-A — Latitudinal and Altitudinal Zonation.**
 
-![Comparison of latitudinal natural zones and mountain elevation belts / Сопоставление широтных природных зон и высотных поясов гор](../assets/diagrams/02-9A-zonation.svg)
+![Карта распределения наземных биомов мира по классификации RESOLVE 2017; цвета и легенда показывают 14 типов биомов и область скал и льда / Global terrestrial biome map using the RESOLVE 2017 classification; colours and legend show 14 biome types and rock and ice](https://atlasofmaps.com/maps/thematic/biomes-map/biomes-map.png)
 
-*Original schematic comparison, not a map or universal sequence; boundaries depend on climate, relief and slope aspect. / Оригинальное схематическое сравнение, не карта и не универсальная последовательность; границы зависят от климата, рельефа и экспозиции.*
+![Высотные природные пояса Северных Предальп, Центральных Альп и Южных Предальп; высотные границы различаются между районами / Altitudinal natural belts of the Northern Prealps, Central Alps and Southern Prealps; elevation limits differ among regions](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Altitudinal_zones_of_Alps_mountains-extended_diagram.svg/3840px-Altitudinal_zones_of_Alps_mountains-extended_diagram.svg.png)
+
+*Панель 1: карта биомов по RESOLVE Ecoregions 2017 (Dinerstein et al.); карта подготовлена Atlas of Maps, CC BY 4.0, исходные данные RESOLVE — CC BY 4.0, Natural Earth — Public Domain. Классификация отражает экологические биомы, а не современный растительный покров и не строгие климатические пояса. Панель 2: высотная поясность Альп; автор Delphi234, 20 сентября 2014 года, CC BY-SA 4.0. Альпы приведены как региональный пример, а не универсальная модель гор и не схема Тянь-Шаня. Изображения использованы без изменений. / Panel 1: biome map based on RESOLVE Ecoregions 2017 (Dinerstein et al.); map design by Atlas of Maps, CC BY 4.0, RESOLVE source data CC BY 4.0, Natural Earth Public Domain. The classification shows ecological biomes, not current vegetation cover or strict climatic belts. Panel 2: Alpine altitudinal zonation; author Delphi234, 20 September 2014, CC BY-SA 4.0. The Alps are a regional example, not a universal mountain model or a diagram of the Tien Shan. Images used unchanged. [Карта / Map](https://atlasofmaps.com/biomes-map/) · [Источник данных / Data source](https://ecoregions.appspot.com/) · [Схема Альп / Alpine diagram](https://commons.wikimedia.org/wiki/File:Altitudinal_zones_of_Alps_mountains-extended_diagram.svg) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ### 2.10. Biogeochemical Cycles
 
