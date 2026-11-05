@@ -530,3 +530,14 @@ The new `flora-batken-aygul-botanical-plate.webp` is included within the existin
 ### Reporting rule
 
 Continue to report visual production coverage, internal verification, external verification and rights clearance as separate metrics. Do not publish a single blended “visual progress” percentage. Keep the 53/53 (100%) production figure, but report Image Verification as **Pending audit / not yet defensibly quantifiable** until the register contains asset-level gate outcomes. Do not convert historical Produced/Integrated labels into `VERIFIED`.
+
+
+## Aygul supplementary plate — focused morphology cross-check update — 5 November 2026
+
+The supplementary `flora-batken-aygul-botanical-plate.webp` has now been compared against Kew POWO, the RHS species profile, a regional Chüy Valley introduction study and the Missouri Botanical Garden Petilium account. The upright bulbous habit, leafy stem, nodding bell-shaped flowers and upper bract tuft are broadly consistent with those descriptions. Sources and the limitations of the comparison are recorded in `IMAGE_SCIENTIFIC_REVIEW.md`.
+
+**Updated disposition:** Internal Verification remains **PARTIAL / NOT VERIFIED**. The six-tepal/six-stamen detail is consistent with the genus-level floral plan, but the separate bulb and capsule studies and species-level proportions still lack competent second-person botanical approval. Flower number varies across published descriptions; no fixed count is asserted. External Verification remains **NOT PERFORMED**. Rights Clearance remains **PENDING** until the project rights-holder/licensing basis is confirmed. CI success is not a substitute for these reviews.
+
+**Current branch-policy check:** the three controlling documents named in the governing-standard section — `IMAGE_FIRST_POLICY.md` v1.2, `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1 and `VISUAL_IMPLEMENTATION_GUIDE.md` v1.1 — are not present in the root tree of `workspace/biology` (direct root-path lookups return 404; recursive branch-tree lookup found no matching paths). The latest audit records their versions but the actual policy texts are unavailable in this branch. Accordingly, no claim of clause-by-clause compliance is made; the recorded seven-gate dispositions remain conservative.
+
+**Binary resolution remains unchanged:** the high-resolution working candidate is not uploaded to this branch. The page must continue to use the committed 320 × 292 derivative; no new binary integration is claimed.
