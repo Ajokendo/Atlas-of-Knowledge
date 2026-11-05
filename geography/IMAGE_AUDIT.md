@@ -264,25 +264,25 @@ For 01-D (Category B), exact source identity, creator, CC BY 4.0 licence, attrib
 
 **Deployment/test-environment check — 5 November 2026:** the `workspace/geography` branch's `.github/workflows/pages.yml` publishes only on pushes to `main` (or manual dispatch). No deployment of this working branch or branch-specific preview URL is established by that workflow. The main-branch deployment was not triggered or modified for this review. Consequently, live browser rendering, responsive breakpoints, keyboard operation and screen-reader output cannot be honestly marked PASS from the current branch state. Static source validation remains the only completed technical check for Chapter 01.
 
-| 02 | 2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.1-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.2-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.3-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2-C | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.4-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.5-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.6-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.8-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.9-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2-D | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.10-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.10-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.11-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.12-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.13-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.14-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 02 | 2.15-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
+| 02 | 2-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Original four-sphere model; conceptual arrows are not quantified flows. Original SVG licence authority not yet recorded. |
+| 02 | 2.1-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Conceptual cross-section; not to scale and overlapping sphere boundaries are explicit. Original SVG rights confirmation pending. |
+| 02 | 2.2-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Examples of cross-sphere exchanges; arrows are qualitative. Original SVG rights confirmation pending. |
+| 02 | 2-B | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | NOAA five-layer graphic; approximate boundaries and latitude-dependent troposphere retained. NOAA attribution/reuse basis recorded; live reader rendering and assistive-technology output pending. |
+| 02 | 2.3-A | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | NOAA temperature profile is representative, not a fixed global profile. NOAA attribution/reuse basis recorded; live reader rendering pending. |
+| 02 | 2-C | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | USGS media page identifies Public Domain; Shiklomanov 1993 estimate and nested denominators are disclosed. Live reader rendering pending. |
+| 02 | 2.4-A | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | USGS 2022 diagram; Public Domain. Caption identifies human water use and water-quality/climate influences. Live reader rendering pending. |
+| 02 | 2.5-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Conceptual divergent, convergent (subduction/collision) and transform sections; not to scale. Original SVG rights confirmation pending. |
+| 02 | 2.6-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Biological hierarchy from organism through biosphere; nested levels distinguished. Original SVG rights confirmation pending. |
+| 02 | 2.8-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Qualitative solar, internal and gravitational energy roles; not a quantitative flux comparison. Original SVG rights confirmation pending. |
+| 02 | 2.9-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Schematic latitudinal and altitudinal patterns; non-universal sequence caveat retained. Original SVG rights confirmation pending. |
+| 02 | 2-D | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | ChatGPT review passed after bilingual reservoir labels were added (commit 56efa613); pathway differences and phosphorus' lack of a major gaseous phase are correctly represented. Original SVG rights confirmation pending. |
+| 02 | 2.10-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | DOE-adapted My NASA Data carbon-cycle diagram; caption preserves source units/context and distinguishes natural fluxes, human contribution and storage. Item-specific reuse terms need closure. |
+| 02 | 2.10-B | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | NCAR nitrogen image has nonprofit/media reuse statement; phosphorus image is CC0 1.0. Separate credits and no-major-gaseous-phase caveat retained. Live reader rendering pending. |
+| 02 | 2.11-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Core abiotic/biotic geosystem components shown without claiming an exhaustive causal model. Original SVG rights confirmation pending. |
+| 02 | 2.12-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Positive feedback amplifies; negative feedback counteracts; examples and terminology distinguish direction from value judgement. Original SVG rights confirmation pending. |
+| 02 | 2.13-A | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | Theobald et al. (2025) Figure 10; CC BY 4.0, 2022 cumulative human modification at 300 m. Explicitly not a direct biodiversity/ecosystem-condition measure; Antarctica excluded. |
+| 02 | 2.14-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PARTIAL PASS | Original bilingual graphic correctly records PIK Planetary Health Check 2026: 7/9 transgressed; global—not country-level—scope and regional ozone/aerosol caveats retained. Original SVG rights confirmation pending. |
+| 02 | 2.15-A | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | NASA Goddard Earth System Diagram, five-sphere framing and designer credit recorded; NASA media-use guidance linked. Live reader rendering and assistive-technology output pending. |
 | 03 | 3.1-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.2-A | INTEGRATED | PENDING | PASS | PENDING | PENDING | PENDING | Exact USGS media page labels the complete Ore/Mineral Sample Images composite Public Domain; mixed component origins are disclosed. No standalone component reuse. |
 | 03 | 3.3-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
@@ -1416,3 +1416,15 @@ The project owner confirmed on 5 Nov 2026 that they or an authorised project org
 The designated internal reviewer for this development pass is ChatGPT GPT-6. Specific conceptual findings have been recorded above, and the 01-B title correction was rechecked after editing. This is an internal AI review, not an independent human or external expert assessment. Do not label the visuals independently VERIFIED. Browser/device rendering, keyboard operation and actual screen-reader output remain separate technical checks and are still untested.
 
 **Static source QA update — 5 November 2026:** all five Chapter 01 SVG files were re-fetched from `workspace/geography` and passed 10 source checks each (5/5): SVG root, `viewBox`, title, description, `role="img"`, valid `aria-labelledby` targets, unique IDs, balanced/nested tags, bilingual text, and absence of script, `foreignObject` or embedded external image elements. The 10 RU/EN chapter embeds also resolve to five distinct local files and all have non-empty alt text. This is not a browser render, device-layout, keyboard-navigation or screen-reader test; those remain untested.
+
+
+## Chapter 02 — ChatGPT internal visual review and bilingual recheck — 5 November 2026
+
+- ChatGPT GPT-6 completed an internal conceptual/scientific review of all 19 visual IDs (19/19 PASS). This is the project's internal AI review, not independent expert validation.
+- RU/EN visual parity: PASS 19/19. All 40 Markdown image embeds have non-empty bilingual alt text; the 19 visual IDs are present in both language sections. The section-heading inventory is now aligned 40/40 after adding the missing English subsection headings 2.2.1–2.2.4 and 2.9.1–2.9.2.
+- The review found that 2-D had three reservoir labels only in English. Added matching Russian labels in the SVG; commit `56efa613470a001472391dcc887434eaaca13957`. A second static text-node pass found no remaining unpaired labels in the 11 local Chapter 02 SVGs.
+- Static SVG QA: PASS 11/11 for root/viewBox, title/description, `role="img"`, unique IDs and valid ARIA targets; no scripts, foreignObject or externally embedded image content. This does not prove rendered legibility or screen-reader behaviour.
+- Rights: PASS where the exact source/reuse basis is recorded (NOAA, USGS, NCAR/Wikimedia CC0, Theobald et al. CC BY 4.0, NASA); PENDING for 2.10-A item-specific reuse terms and for 11 original project SVGs until project-owner licensing authority/terms are recorded for this chapter.
+- Accessibility: PARTIAL for all assets. Bilingual alt text and SVG title/description metadata are present; actual assistive-technology output has not been tested.
+- Technical integration: PARTIAL PASS for source/image retrieval and static SVG checks. Live deployed reader, responsive breakpoints, keyboard navigation and screen-reader checks remain PENDING because this branch has no established preview deployment. Do not mark the 19 assets fully VERIFIED.
+- School trials, teacher review and external expert assessment are excluded from this development-stage completion score, in accordance with the project owner's instruction.
