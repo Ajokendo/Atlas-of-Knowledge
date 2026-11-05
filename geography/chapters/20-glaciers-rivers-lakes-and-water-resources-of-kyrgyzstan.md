@@ -1040,6 +1040,21 @@ The Ministry of Emergency Situations' Unified System of Integrated Monitoring an
 10. **Схема водопользования и трансграничного управления.** Показать связь верховьев и низовьев, гидроэнергетики, орошения, водоснабжения, экологического стока и межгосударственного обмена данными.
 11. **Инфографика национального водопользования (20-K).** Готовый SVG-макет `../assets/20-K-national-water-use-2025.svg` встроен в текст. Основа — официальная таблица НСК за 2025 год; показатели даны раздельно, подземный забор обозначен как часть общего водозабора. Не трактовать как водный баланс. Сумма опубликованных подкатегорий сточных вод (185,6 + 1,4) не совпадает с общим значением 188,5 млн м³; остаток не выводить самостоятельно. Условия лицензии НСК CC BY-NC-SA 4.0 соблюдать.
 
+
+**General standard:** use the atlas palette of dark navy, white and gold accents. Hydrological maps must maintain a clear hierarchy of water features and remain legible in print. Add labels, values and boundaries during vector editing after scientific review. Every thematic map must state its source, date, scale, projection and data-processing method.
+
+1. **General hydrographic map of Kyrgyzstan.** Show major rivers, lakes, reservoirs, watersheds and flow directions into neighbouring countries. Highlight the endorheic Issyk-Kul Basin separately.
+2. **River-basin map.** Show the basins of the Syr Darya, Chu, Talas, Ili, Tarim and Issyk-Kul, including nested sub-basins and transboundary continuations.
+3. **Glacier inventory map.** Show the distribution of glaciers by major mountain region using a dated inventory. Do not combine data from different years without explanation.
+4. **Glacier anatomy diagram.** Label the accumulation area, firn line, equilibrium-line altitude (ELA), ablation area, glacier tongue, moraines and crevasses.
+5. **Seasonal runoff graph.** Compare hydrographs for the Naryn, Chu, Talas and one high-mountain river; provide the observation period and gauging-station locations.
+6. **Map of major lakes and reservoirs.** Show Issyk-Kul, Song-Kul, Chatyr-Kul, Sary-Chelek, Merzbacher Lake and key regulating reservoirs. Do not combine natural and artificial water bodies into one undifferentiated category.
+7. **Water-path profile.** Conceptually show water moving from snow- and glacier-fed headwaters through a mountain river, reservoir, irrigated valley and transboundary reach.
+8. **Water-balance infographic.** Separate precipitation, evapotranspiration, river runoff and storage change; do not add glacier storage to annual runoff.
+9. **Glacial-lake and hazardous-basin map.** Show known lakes, natural-dam type, possible outburst paths and downstream assets. Use risk classes only when supported by documented studies.
+10. **Water-use and transboundary-governance diagram.** Show the connections among headwaters and downstream users, hydropower, irrigation, water supply, environmental flows and interstate data exchange.
+11. **National water-use infographic (20-K).** The completed SVG layout at ../assets/20-K-national-water-use-2025.svg is embedded in the chapter. It is based on the National Statistical Committee's official 2025 table; indicators are shown separately, and groundwater abstraction is identified as part of total abstraction. Do not interpret the chart as a water balance. The published wastewater subcategories (185.6 + 1.4) do not equal the total of 188.5 million m³; do not calculate the residual independently. Follow the NSC CC BY-NC-SA 4.0 licence terms.
+
 ## 20.18. Научные редакционные примечания / Scientific Editorial Notes
 
 1. **Количество рек и озёр.** В источниках приводятся разные числа из-за различий в минимальной длине водотока, учёте временных ручьёв и критериях включения малых водоёмов. В итоговой карте необходимо указать источник и критерий инвентаризации.
