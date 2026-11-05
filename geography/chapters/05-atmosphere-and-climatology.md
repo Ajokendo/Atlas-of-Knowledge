@@ -91,9 +91,9 @@
 Неравномерный нагрев поверхности по широте создаёт температурные контрасты. Атмосферная циркуляция и океанические течения перераспределяют энергию от низких широт к высоким.
 
 <!-- VISUAL ID: 5.3-A -->
-![Энергетический баланс Земли: ясное небо и средние условия при наличии облаков / Earth's energy budget: clear-sky and all-sky conditions](https://scied.ucar.edu/sites/default/files/styles/extra_large/public/images/IPCC_AR6_WGI_Figure_7_2%20%281%29.png.webp?itok=BYh38dwb)
+![Схема энергетического баланса Земли с потоками солнечной и тепловой энергии и значениями в Вт/м² / NASA diagram of Earth's energy budget showing solar and thermal energy flows with values in W/m²](https://mynasadata.larc.nasa.gov/sites/default/files/2022-10/earth_energy_budget_storyboard_slide_7_labels_and_numbers.png)
 
-*Энергетический баланс в Вт/м²: входящая солнечная энергия, отражение, поглощение и исходящее тепловое излучение. Значения — оценка IPCC AR6 WGI (2021) для начала XXI века с диапазонами неопределённости; это не оперативные показатели текущего года. Источник изображения: UCAR Center for Science Education; научная основа и атрибуция: IPCC AR6 WGI, Figure 7.2. / Earth's energy budget in W/m²: incoming solar energy, reflection, absorption and outgoing thermal radiation. Values are IPCC AR6 WGI (2021) estimates for the early 21st century with uncertainty ranges; they are not current-year operational measurements. Image hosted by UCAR Center for Science Education; scientific basis and attribution: IPCC AR6 WGI, Figure 7.2.* [Источник / Source](https://scied.ucar.edu/learning-zone/earth-as-a-system/energy_budget_image).
+*Схема показывает потоки энергии в Вт/м²; значения основаны на среднем за десять лет и не являются текущими измерениями. Источники данных: Loeb et al., Journal of Climate (2009); Trenberth et al., Bulletin of the American Meteorological Society (2009). Изображение: NASA / My NASA Data. / The diagram shows energy fluxes in W/m²; values are based on a ten-year average and are not current measurements. Data sources: Loeb et al., Journal of Climate (2009); Trenberth et al., Bulletin of the American Meteorological Society (2009). Image credit: NASA / My NASA Data.* [Источник / Source](https://mynasadata.larc.nasa.gov/basic-page/earths-energy-budget).
 
 ## 5.4. Температура воздуха и её распределение / Air Temperature and Its Distribution
 
@@ -724,9 +724,9 @@ Some incoming energy is reflected by clouds, aerosols, the atmosphere and the su
 **Energy transport.** Uneven heating by latitude creates temperature contrasts. Atmospheric circulation and ocean currents redistribute energy from lower to higher latitudes.
 
 <!-- VISUAL ID: 5.3-A -->
-![Earth's energy budget: clear-sky and all-sky conditions](https://scied.ucar.edu/sites/default/files/styles/extra_large/public/images/IPCC_AR6_WGI_Figure_7_2%20%281%29.png.webp?itok=BYh38dwb)
+![NASA diagram of Earth's energy budget showing solar and thermal energy flows with values in W/m²](https://mynasadata.larc.nasa.gov/sites/default/files/2022-10/earth_energy_budget_storyboard_slide_7_labels_and_numbers.png)
 
-*Earth's energy budget in W/m²: incoming solar energy, reflection, absorption and outgoing thermal radiation. Values are IPCC AR6 WGI (2021) estimates for the early 21st century with uncertainty ranges; they are not current-year operational measurements. Image hosted by UCAR Center for Science Education; scientific basis and attribution: IPCC AR6 WGI, Figure 7.2.* [Source](https://scied.ucar.edu/learning-zone/earth-as-a-system/energy_budget_image).
+*The diagram shows energy fluxes in W/m²; values are based on a ten-year average and are not current measurements. Data sources: Loeb et al., Journal of Climate (2009); Trenberth et al., Bulletin of the American Meteorological Society (2009). Image credit: NASA / My NASA Data.* [Source](https://mynasadata.larc.nasa.gov/basic-page/earths-energy-budget).
 
 ### 5.4. Air Temperature and Its Distribution
 
