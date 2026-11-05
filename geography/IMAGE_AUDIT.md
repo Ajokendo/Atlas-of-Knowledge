@@ -646,3 +646,14 @@ Cross-checked the diagram's elevations and distances against the chapter's bilin
 The official ICS chart page and its 2026/06 release note were checked against the source record. The current chart is explicitly labelled v2026/06 and CC BY 4.0; the release note confirms that the version includes revised numerical ages for the Anisian, Olenekian and Wuchiapingian boundaries. The official translations page lists Russian as v2017/02, not as a current 2026/06 Russian chart. The atlas therefore keeps the current English original unchanged and provides its own bilingual explanatory key. This avoids silently substituting an outdated Russian chart for the current official version.
 
 Rights/licence and version provenance: PASS. Chapter-level RU/EN explanatory support: PASS. Scientific use limitation (ages may be revised; non-linear chart layout) is stated. The chart itself remains English-labelled; a full graphic translation is not claimed. Source evidence: [current chart](https://stratigraphy.org/chart/), [2026/06 update](https://stratigraphy.org/news/156), [official translations](https://stratigraphy.org/supplementary).
+
+
+### Chapter 03 — Visual 3.11-A: mineral-resource lifecycle
+
+The bilingual SVG had two localisation/sequence clarity defects: the “control and monitoring” line was English-only, and the diagram did not explain clearly that resource assessment precedes extraction while waste/water management spans the project lifecycle. Added the Russian equivalent and a concise bilingual sequence note; updated the SVG description to include resource assessment. This improves language parity and prevents readers from interpreting waste management as a single late-stage activity. The conceptual diagram is still simplified and does not replace a full mine-planning or closure framework.
+
+**Result:** bilingual label completeness PASS for the corrected labels and note; scientific sequence statement PASS at introductory teaching level. Rights/creator provenance, detailed visual legibility and rendered accessibility remain PENDING.
+
+### Chapter 04 — Visual 4.10-A: coastal and ocean-floor relief
+
+Corrected a mixed-script typo in the Russian label for *tombolo* (“Тombolo” → “Томболо”). No change to the scientific content.
