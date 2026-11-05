@@ -265,7 +265,7 @@ The former chapter-specific register at `visuals/chapter-05-visual-register.md` 
 - The 16 pre-existing integrated IDs plus the newly integrated 5.18-A are represented above as 17 named integrated visual IDs; the chapter inventory still contains two unnamed slots requiring reconciliation.
 - The original chapter-specific register remains as a production-history record, not a second competing source of truth.
 - For all project-local SVGs in Chapter 05, obtain creator/rightsholder, authoring workflow and project-licence evidence; do not assume repository ownership establishes rights or claim AI authorship without provenance.
-- For external assets, capture the exact file revision, individual creator/credit, licence or permission and all grouped component-file URLs. Highest-priority rights follow-up: 5.3-A (IPCC/UCAR figure), 5.5-A, 5.6-A, 5.7-A and the component files grouped under 5.8-A.
+- For external assets, capture the exact file revision, individual creator/credit, licence or permission and all grouped component-file URLs. Highest-priority rights follow-up: 5.5-A, 5.6-A, 5.7-A and the component files grouped under 5.8-A. 5.3-A now uses the NASA / My NASA Data diagram with rights PASS for educational/informational reuse and NASA credit.
 - Recheck the exact Wikimedia file-page revisions and CC0 / CC BY-SA statements for 5.2-A, 5.4-A and 5.11-A before publication.
 - 5.18-A is now INTEGRATED as an original bilingual synthetic SVG. NOAA synoptic-map and station-plot teaching resources were consulted for conventions; no third-party map image was copied.
 - Source-level RU/EN embed parity was checked; deployed image loading, responsive rendering, keyboard/screen-reader accessibility and mobile performance remain untested.
