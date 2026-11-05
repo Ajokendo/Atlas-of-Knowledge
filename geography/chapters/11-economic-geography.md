@@ -313,8 +313,9 @@ Territorial accessibility can be assessed not only by distance but also by trave
 
 ## 11.10. Международная торговля и глобальные цепочки создания стоимости / International Trade and Global Value Chains
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 11-D / IMAGE PLACEHOLDER 11-D]** Схема глобальной цепочки стоимости товара с географией сырья, производства, сборки, логистики и рынка.
-> **EN:** Diagram of a global value chain showing the geography of raw materials, production, assembly, logistics and markets.
+![Глобальная цепочка создания стоимости / Global value chain](../assets/diagrams/11-D-global-value-chain-bilingual.svg)
+
+*Схема концептуальная: конкретная цепочка может включать другие стадии и географию; она не изображает конкретный товар или торговый маршрут. / Conceptual diagram: an actual chain may include different stages and geographies; it does not depict a specific product or trade route.*
 
 Международная торговля включает обмен товарами и услугами между странами. Экспорт — поставки товаров и услуг за пределы экономической территории резидентами, импорт — приобретение соответствующих товаров и услуг из-за рубежа. Статистические определения и оценка потоков могут различаться, особенно для услуг, реэкспорта и цифровых продуктов.
 
