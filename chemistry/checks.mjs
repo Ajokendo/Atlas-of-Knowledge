@@ -958,13 +958,13 @@ if (!imageSources.includes("CH-V12 | Chapter 03") ||
 const electronCloudEnPath = path.join(assetRoot, "electron-cloud.svg");
 if (fs.existsSync(electronCloudEnPath)) {
   const electronCloudEn = fs.readFileSync(electronCloudEnPath, "utf8");
-  const description = electronCloudEn.match(/<desc[^>]*>([\\s\\S]*?)<\\/desc>/i)?.[1] || "";
+  const description = electronCloudEn.split("<desc")[1]?.split("</desc>")[0] || "";
   if (!/probability-density cloud/i.test(description) ||
       !/not electron trajectories/i.test(description) ||
       !/not to scale/i.test(description)) {
     errors.push("assets/electron-cloud.svg: English description must identify a probability cloud, reject trajectory/orbit interpretation and state scale limitation");
   }
-  if (/<g fill="none" stroke="#6f9e92"[^>]*>[\\s\\S]*?<\\/g>/.test(electronCloudEn)) {
+  if (electronCloudEn.includes('<g fill="none" stroke="#6f9e92"')) {
     errors.push("assets/electron-cloud.svg: remove orbit-like elliptical path outlines from the probability-cloud illustration");
   }
 }
