@@ -14,7 +14,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 
 
-Почва — верхняя рыхлая часть земной поверхности, сформированная в результате взаимодействия минерального материала, органического вещества, воды, воздуха и живых организмов во времени. Она обладает характерными свойствами, строением и плодородием. Почва не тождественна горной породе: порода служит одним из исходных материалов, но почва возникает в ходе длительных процессов выветривания, накопления и преобразования органики, миграции веществ и деятельности организмов.
+Почва — природное тело, которое формируется у поверхности Земли при длительном взаимодействии минерального материала, органического вещества, воды, воздуха и живых организмов. У неё есть собственные свойства, строение и способность поддерживать рост растений. Почва не равна горной породе: порода может быть её исходным материалом, но почва развивается благодаря выветриванию, накоплению и преобразованию органического вещества, перемещению веществ и деятельности организмов.
 
 Почва выполняет множество функций:
 - обеспечивает среду обитания для микроорганизмов, грибов, растений и почвенных животных;
@@ -345,7 +345,7 @@ Salinity thresholds also depend on the classification and measurement method. An
 
 ### 8.1. Soil as a Natural Body
 
-Soil is the loose upper layer of Earth's surface formed through the interaction of mineral material, organic matter, water, air and living organisms over time. It has characteristic properties, structure and fertility. Soil is not the same as rock: rock is one of its parent materials, but soil develops through long-term weathering, accumulation and transformation of organic matter, movement of substances and biological activity.
+Soil is a natural body that forms near Earth's surface through the long-term interaction of mineral material, organic matter, water, air and living organisms. It has its own properties and structure and can support plant growth. Soil is not the same as rock: rock may provide its parent material, but soil develops through weathering, the accumulation and transformation of organic matter, the movement of substances and biological activity.
 
 Soil performs many functions:
 - provides habitat for microorganisms, fungi, plants and soil animals;
