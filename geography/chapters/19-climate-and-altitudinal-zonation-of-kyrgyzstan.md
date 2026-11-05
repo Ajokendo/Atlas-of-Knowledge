@@ -29,8 +29,6 @@ This chapter examines Kyrgyzstan’s climate as the outcome of latitude, contine
 
 Однако континентальность не означает климатического однообразия. Тянь-Шань и Памиро-Алай создают сложную систему барьеров и высотных ступеней. На наветренных склонах воздушные массы поднимаются, охлаждаются и могут давать усиленные осадки; за хребтами формируются более сухие районы. В пределах небольшого расстояния могут соседствовать сухие предгорья, умеренно влажные горные склоны, холодные высокогорные долины и области современного оледенения.
 
-Kyrgyzstan lies deep within Eurasia, far from major oceanic moisture sources and close to the arid regions of Central Asia. This setting favours a strongly continental climate, but the country’s mountain systems create pronounced local contrasts. Windward slopes may receive enhanced precipitation, while leeward basins lie in rain shadows.
-
 ### 19.1.1. Основные климатообразующие факторы / Main Climate Controls
 
 1. **Географическая широта.** Солнечная радиация и продолжительность дня меняются по сезонам; летом приток энергии велик, зимой уменьшается.
@@ -40,6 +38,21 @@ Kyrgyzstan lies deep within Eurasia, far from major oceanic moisture sources and
 5. **Атмосферная циркуляция.** Западный перенос, циклоны, вторжения холодного воздуха и сухие континентальные массы определяют смену погодных режимов.
 6. **Подстилающая поверхность.** Снег, ледники, почвы, растительность, озёра и городская застройка влияют на отражение солнечной энергии, испарение и теплообмен.
 7. **Локальная топография.** Экспозиция склонов, форма долин, ширина котловин и высота перевалов создают микроклиматические различия.
+
+
+Kyrgyzstan lies deep within Eurasia, far from major oceanic moisture sources and close to the arid regions of Central Asia. This setting favours a strongly continental climate: large seasonal and daily temperature ranges, hot summers in valleys and cold winters in many interior and high-mountain areas.
+
+However, continentality does not mean climatic uniformity. The Tien Shan and Pamir-Alay form a complex system of barriers and elevation zones. Air masses rise and cool on windward slopes, which can enhance precipitation; drier areas form behind mountain ranges. Dry foothills, moderately humid mountain slopes, cold high-mountain valleys and modern glaciated areas may occur within short distances.
+
+#### 19.1.1 Main climate controls
+
+1. **Latitude.** Solar radiation and day length change with the seasons; incoming energy is high in summer and lower in winter.
+2. **Continentality.** Distance from the oceans reduces the moderating influence of maritime air masses and increases seasonal temperature contrasts.
+3. **Elevation.** Temperature usually decreases with height, while pressure, humidity, cloudiness, precipitation and growing-season length also change.
+4. **Orography.** Mountain ranges redirect and block airflow, enhance uplift on windward slopes and create rain shadows.
+5. **Atmospheric circulation.** Westerly flow, cyclones, cold-air incursions and dry continental air masses determine changes in weather regimes.
+6. **Surface properties.** Snow, glaciers, soils, vegetation, lakes and urban development affect solar reflection, evaporation and heat exchange.
+7. **Local topography.** Slope aspect, valley shape, basin width and pass elevation create microclimatic differences.
 
 ## 19.2. Атмосферная циркуляция и сезонность / Atmospheric Circulation and Seasonality
 
@@ -57,7 +70,16 @@ Kyrgyzstan lies deep within Eurasia, far from major oceanic moisture sources and
 
 **Осенью** постепенно усиливаются процессы охлаждения, возрастает вероятность ранних снегопадов в горах, а в отдельных долинах сохраняется сухая и относительно тёплая погода. Переход к зиме зависит от высоты и экспозиции.
 
-Seasonal circulation produces cold and often inversion-prone winters, changeable springs, hot and frequently dry summers in lower valleys, and a gradual autumn cooling. Mountain weather can differ sharply from conditions in nearby lowlands, and snowfall may occur at high elevations even during summer.
+
+Throughout the year, Central Asia is influenced by the interaction of mid-latitude westerlies, continental air masses, cyclones and anticyclonic systems. Their relative importance changes by season and from year to year.
+
+**Winter.** Persistent cold periods, temperature inversions and stagnant air may occur in basins and valleys. Cold continental air incursions can cause sharp temperature drops. Cyclonic systems from the south-west may bring precipitation, especially to western and south-western slopes.
+
+**Spring.** Weather becomes more variable. Passing cyclones and fronts may bring precipitation, sudden cold spells, mountain snowfall and rapid transitions to warmer conditions. A spring precipitation maximum occurs in a number of foothill and valley areas, although the seasonal pattern differs greatly across the country.
+
+**Summer.** Hot and dry weather is common in low and middle-elevation valleys. Daytime heating in the mountains promotes convection, local showers and thunderstorms. Summer is short and cool at high elevations, where snowfall may occur even during the warm season.
+
+**Autumn.** Cooling gradually becomes more pronounced, and early snowfall becomes more likely in the mountains, while some valleys remain dry and relatively warm. The transition to winter depends on elevation and slope aspect.
 
 ## 19.3. Температурный режим и высотный градиент / Temperature Regime and Vertical Gradient
 
@@ -80,6 +102,22 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 | Высокогорные долины и плато | Короткое прохладное лето, длительная холодная зима | Сезонное пастбищное использование, ограниченный вегетационный период |
 | Нивально-ледниковые высоты | Отрицательные температуры значительную часть года, снег и лёд | Накопление снега и льда, питание высокогорных водосборов |
 
+
+Air temperature generally decreases with elevation, but the actual rate depends on season, humidity, cloudiness, wind, slope aspect and surface conditions. A commonly used reference value for the free atmosphere is an average vertical lapse rate of about 6.5 °C per 1,000 m. It should not be applied mechanically to every slope or weather station.
+
+On clear, calm nights, cold dense air flows downslope and accumulates in depressions. Temperature inversions can then develop: the valley floor may be colder than a slope at a higher elevation. Inversions are especially important in winter because they can contribute to the accumulation of air pollutants in basins and cities.
+
+Slope aspect also matters. In the Northern Hemisphere, south-facing slopes usually receive more direct solar radiation than north-facing slopes of similar steepness. This affects snowmelt timing, soil moisture, vegetation and the length of the growing season.
+
+#### 19.3.1 Temperature contrasts by elevation
+
+| Elevation zone | General temperature characteristics | Climatic significance |
+|---|---|---|
+| Low valleys and foothills | Hot summers; winters range from mild to cold depending on location and inversions | Main zone of intensive agriculture and settlement |
+| Middle mountains | Cooler summers, colder winters and a greater role for seasonal snow cover | Pastures, forest and meadow belts, and catchment areas |
+| High-mountain valleys and plateaus | Short cool summers and long cold winters | Seasonal grazing and a limited growing season |
+| Nival and glacial elevations | Sub-zero temperatures for much of the year, with persistent snow and ice | Accumulation of snow and ice and feeding of high-mountain catchments |
+
 ## 19.4. Осадки и орографический эффект / Precipitation and Orographic Effects
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-B / IMAGE PLACEHOLDER 19-B]** Карта годовых осадков и схема орографического подъёма воздуха с наветренной стороной и дождевой тенью; интерполированные значения отличать от прямых измерений.
@@ -100,6 +138,23 @@ Seasonal circulation produces cold and often inversion-prone winters, changeable
 ### 19.4.2. Снеговой покров
 
 Снежный покров формируется неравномерно. На его устойчивость влияют высота, экспозиция, ветер, температура и особенности рельефа. Ветер переносит снег с наветренных поверхностей и накапливает его в ложбинах и за гребнями, создавая локальные зоны повышенной лавинной опасности. В высокогорье снег может сохраняться круглый год, переходя в фирн и ледниковый лёд при благоприятном балансе накопления и таяния.
+
+
+Precipitation is distributed very unevenly across Kyrgyzstan. Its pattern depends on airflow direction, the height and orientation of mountain ranges, whether a location is on a windward or leeward slope, the season and the type of precipitation.
+
+As moist air rises along a slope, it cools and water vapour condenses, increasing the likelihood of precipitation. Behind a mountain barrier, air may descend and warm, reducing relative humidity. This creates an orographic rain shadow.
+
+In general, wetter conditions occur on a number of western and south-western mountain slopes, while some interior basins and high-mountain syrts are relatively dry. This generalisation does not replace local observations: neighbouring catchments can have different precipitation regimes.
+
+The national average depends on the climate-normal period and the spatial dataset. The World Bank reports an area-average estimate of about **378 mm per year** for the 1991–2020 climate normal, while regional values may be substantially lower or higher. This average should not be treated as the normal for every district or weather station.
+
+#### 19.4.1 Seasonal precipitation
+
+In foothills and many valley areas, a substantial share of precipitation falls during the cold season and spring. In high mountains, much of the winter precipitation falls as snow, while summer may bring convective showers and thunderstorms. For glaciers, not only total precipitation but also the balance between solid and liquid precipitation, wind redistribution of snow, sublimation and summer melt are important.
+
+#### 19.4.2 Snow cover
+
+Snow cover forms unevenly. Its persistence depends on elevation, slope aspect, wind, temperature and local relief. Wind removes snow from exposed surfaces and deposits it in hollows and behind ridges, creating local areas of increased avalanche hazard. At high elevations, snow may persist throughout the year and gradually transform into firn and glacial ice when accumulation exceeds melt.
 
 ## 19.5. Региональные климатические различия / Regional Climate Differences
 
@@ -192,6 +247,13 @@ The entire south-west of the country should not be labelled “subtropical” wi
 
 Ветер усиливает испарение и иссушение почв, перераспределяет снег, влияет на ощущаемую температуру и может осложнять транспорт и альпинистские маршруты. На открытых высокогорных плато скорость ветра и его порывистость особенно важны для оценки условий пребывания людей и эксплуатации инфраструктуры.
 
+
+Local wind direction often changes during the day in mountain regions. During the day, heated air rises along slopes and valleys, producing an upslope or valley breeze. At night, cooled air flows downslope, producing a mountain breeze. These flows can influence the distribution of clouds, fog, air pollutants and local precipitation.
+
+Persistent local winds may develop in some basins and valleys due to pressure differences, terrain configuration and the passage of air masses through mountain passes. Their names and characteristics should be given only when supported by local meteorological observations.
+
+Wind increases evaporation and soil drying, redistributes snow, affects perceived temperature and can complicate transport and mountaineering. Wind speed and gustiness are especially important on exposed high-mountain plateaus when assessing human safety and infrastructure operation.
+
 ## 19.8. Высотная климатическая поясность / Altitudinal Climatic Zonation
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 19-I / IMAGE PLACEHOLDER 19-I]** Профиль высотных климатических поясов с температурой, осадками и снежным режимом; границы обозначить как ориентировочные и регионально изменчивые.
@@ -225,6 +287,31 @@ The entire south-west of the country should not be labelled “subtropical” wi
 - **линия равновесия ледника (ELA)** — высота, на которой годовой баланс массы ледника близок к нулю в конкретный год или усреднённый период.
 
 Эти линии не совпадают автоматически. Их высота зависит от экспозиции, осадков, ветрового переноса, облачности, радиации и формы ледникового бассейна.
+
+
+Altitudinal zonation is the systematic change in climatic conditions with elevation. It is particularly pronounced in Kyrgyzstan because of the large differences in relief. As elevation increases, temperature generally decreases, while the amount and seasonality of precipitation, duration of snow cover and length of the period with above-freezing temperatures also change.
+
+Elevation boundaries of climatic belts are not the same throughout the country. They are influenced by latitude, slope aspect, continentality, exposure to moist airflow, local circulation and valley shape. The north- and south-facing slopes of the same mountain range may have different climatic conditions at the same absolute elevation.
+
+#### 19.8.1 Generalised belt scheme
+
+| Approximate belt | General position | Climatic characteristics |
+|---|---|---|
+| Valley and foothill | Lower valleys and foothills; elevation varies greatly among regions | Hot summers, often seasonal precipitation, winters ranging from mild to cold |
+| Lower mountain | Transition from foothills to mountain slopes | Cooler summers; orographic precipitation increases on windward slopes |
+| Middle mountain | Middle elevations on mountain slopes | Moderately cool summers, cold winters and a longer snow season |
+| High mountain | High valleys, plateaus and ridges | Short cool summers, long winters and frequent frost |
+| Subnival | Upper slopes and ridges above the local climatic snow limit | Snow, ice, bare rock and scree are widespread |
+| Nival-glacial | Highest mountain areas | Persistent snow and ice, low temperatures and strong winds |
+
+#### 19.8.2 Climatic snow limit and glacier snowline
+
+Several terms should be distinguished:
+- **seasonal snow boundary:** the elevation above which snow may persist during a particular season;
+- **climatic snowline:** an approximate boundary associated with the long-term balance between snow accumulation and melt; and
+- **glacier equilibrium-line altitude (ELA):** the elevation where a glacier's annual mass balance is approximately zero for a particular year or averaged period.
+
+These lines do not automatically coincide. Their elevation depends on slope aspect, precipitation, wind redistribution, cloudiness, radiation and glacier-basin geometry.
 
 ## 19.9. Климат и природные системы / Climate and Natural Systems
 
@@ -375,6 +462,17 @@ Belt boundaries on a schematic map are generalisations, not exact lines for ever
 **Транспорт и строительство.** Снегопады, лавины, гололёд, сели, оползни и экстремальная жара влияют на безопасность дорог, мостов, линий электропередачи и зданий.
 
 **Здоровье населения.** Жара, холод, загрязнение воздуха, пыльные явления и изменение сезонности аллергенов могут создавать дополнительные риски. Городские планы адаптации должны учитывать уязвимые группы и доступ к охлаждению и питьевой воде.
+
+
+**Agriculture.** Temperature and precipitation determine sowing dates, irrigation demand and the risk of frost, drought and heat stress. In mountain areas, microclimatic differences and the length of the frost-free period are important.
+
+**Pastoral livestock farming.** Seasonal movement of livestock is linked to altitudinal zonation and the availability of forage. Early snowmelt, drought and extreme weather can change the timing of pasture use on jailoo and winter grazing grounds.
+
+**Hydropower.** Seasonal runoff, snow accumulation and glacier melt influence river discharge and reservoir operation. Water management must account for both long-term trends and year-to-year variability.
+
+**Transport and construction.** Snowfall, avalanches, ice, debris flows, landslides and extreme heat affect the safety of roads, bridges, power lines and buildings.
+
+**Public health.** Heat, cold, air pollution, dust events and changes in the seasonality of allergens can create additional health risks. Urban adaptation plans should consider vulnerable groups and access to cooling and safe drinking water.
 
 ## 19.13. Климатические наблюдения и данные / Climate Observations and Data
 
