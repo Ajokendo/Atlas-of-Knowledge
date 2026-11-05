@@ -15,7 +15,7 @@ The Physics branch is a derivative Russian-language edition of Nathan Liow's pre
 | Inherited visuals mapped to English source | PENDING | Requires source-to-derivative comparison |
 | Inherited visuals reused unchanged (A) | PENDING | Count only after visual identity and unchanged status are verified |
 | Inherited visuals adapted (B) | PENDING | Count only after the visual-content changes and adaptation rights are checked |
-| Genuinely new project-created visuals (C) | 4 integrated | Four new hand-authored SVG teaching diagrams; asset-level review and project licence assignment remain pending |
+| Genuinely new project-created visuals (C) | 4 integrated | Four new hand-authored SVG teaching diagrams with four stacked mobile variants (eight SVG files); asset-level review and project licence assignment remain pending |
 | Rights / reproduction permission verified | PENDING | Requires evidence for the exact source work and applicable components |
 | Russian-edition localisation verified | PENDING | Requires per-visual Russian labels, captions, alt text, descriptions and rendering checks |
 | Known visual placeholders | 0 | The four previously specified gaps now have SVG assets integrated; other unrecorded gaps may still emerge during the full inventory |
@@ -106,7 +106,7 @@ Copy this block for each integrated asset:
 
 ## New project-created vector assets — 2026-11-05
 
-The four known placeholders have been replaced with original, hand-authored SVG schematics. The SVG markup was produced with AI assistance from the chapter-specific physics briefs; no OpenStax figure or raster artwork was copied. OpenStax pages were searched and consulted as scientific references only. OpenStax textbook content is generally CC BY-NC-SA 4.0; that licence is not being applied to these original diagrams because no OpenStax artwork or expressive text was adapted. A project licence for the new SVG assets has not yet been assigned, so their rights status remains PENDING and none is marked VERIFIED.
+The four known placeholders have been replaced with four original, hand-authored SVG schematics, each with a dedicated mobile layout (eight SVG files total). The SVG markup was produced with AI assistance from the chapter-specific physics briefs; no OpenStax figure or raster artwork was copied. OpenStax pages were searched and consulted as scientific references only. OpenStax textbook content is generally CC BY-NC-SA 4.0; that licence is not being applied to these original diagrams because no OpenStax artwork or expressive text was adapted. A project licence for the new SVG assets has not yet been assigned, so their rights status remains PENDING and none is marked VERIFIED.
 
 ### PHY-14-001 — Four magnetic-field configurations
 
@@ -116,6 +116,7 @@ The four known placeholders have been replaced with original, hand-authored SVG 
 - Category: C
 - Learning objective: Compare field geometry and idealised field-strength relations for a long straight wire, a circular current loop, a long solenoid, and an ideal toroid.
 - File: assets/visuals/phy-14-magnetism-four-configurations.svg
+- Mobile variant file: assets/visuals/phy-14-magnetism-four-configurations-mobile.svg
 - Search record: 2026-11-05; searched OpenStax College Physics 2e §22.9 and University Physics Volume 2 §§12.5–12.6 for straight-wire, loop, solenoid, and toroid field geometry, right-hand-rule directions, and equations. Candidate textbook figures were not reused; the SVG was drawn independently from the stated learning requirements.
 - Source page / scientific references: https://openstax.org/books/college-physics-2e/pages/22-9-magnetic-fields-produced-by-currents-amperes-law ; https://openstax.org/books/university-physics-volume-2/pages/12-6-solenoids-and-toroids
 - Direct asset URL: Not applicable — original local SVG.
@@ -145,6 +146,7 @@ The four known placeholders have been replaced with original, hand-authored SVG 
 - Category: C
 - Learning objective: Distinguish the induced field that opposes increasing flux from the induced field that sustains decreasing flux.
 - File: assets/visuals/phy-15-01-lenz-law.svg
+- Mobile variant file: assets/visuals/phy-15-01-lenz-law-mobile.svg
 - Search record: 2026-11-05; searched OpenStax University Physics Volume 2 §13.2 and College Physics §23.2 for the approaching/receding north-pole case and induced-current direction. No textbook figure was reused; the two-panel vector schematic was drawn independently.
 - Source page / scientific references: https://openstax.org/books/university-physics-volume-2/pages/13-2-lenzs-law ; https://openstax.org/books/college-physics/pages/23-2-faradays-law-of-induction-lenzs-law
 - Direct asset URL: Not applicable — original local SVG.
@@ -174,6 +176,7 @@ The four known placeholders have been replaced with original, hand-authored SVG 
 - Category: C
 - Learning objective: Relate mutually perpendicular velocity, magnetic field, rod orientation, charge separation, motional EMF, and the distinction between closed and open circuits.
 - File: assets/visuals/phy-15-02-motional-emf-rod.svg
+- Mobile variant file: assets/visuals/phy-15-02-motional-emf-rod-mobile.svg
 - Search record: 2026-11-05; searched OpenStax College Physics §23.3 and University Physics Volume 2 §13.3 for the moving-rod-on-rails arrangement, polarity, induced current, and magnetic braking force. No source figure was reused; the two circuit states were drawn independently.
 - Source page / scientific references: https://openstax.org/books/college-physics/pages/23-3-motional-emf ; https://openstax.org/books/university-physics-volume-2/pages/13-3-motional-emf
 - Direct asset URL: Not applicable — original local SVG.
@@ -203,6 +206,7 @@ The four known placeholders have been replaced with original, hand-authored SVG 
 - Category: C
 - Learning objective: Separate the self-induction law, exponential current rise/decay in an RL circuit, and ideal energy exchange in an LC circuit.
 - File: assets/visuals/phy-15-03-self-induction-rl-lc.svg
+- Mobile variant file: assets/visuals/phy-15-03-self-induction-rl-lc-mobile.svg
 - Search record: 2026-11-05; searched OpenStax University Physics Volume 2 §§14.4–14.5 for RL time constant/current response and LC charge/current/energy relations. No source graph or figure was reused; the composite was drawn independently from the equations.
 - Source page / scientific references: https://openstax.org/books/university-physics-volume-2/pages/14-4-rl-circuits ; https://openstax.org/books/university-physics-volume-2/pages/14-5-oscillations-in-an-lc-circuit
 - Direct asset URL: Not applicable — original local SVG.
