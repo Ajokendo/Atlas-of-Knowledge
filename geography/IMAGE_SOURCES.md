@@ -236,7 +236,7 @@ The current chapter text and SVG preserve the key distinctions: 2021 pressure-de
 
 ## Chapter 05 — Atmosphere and climatology (source-register migration, 5 November 2026)
 
-The former chapter-specific register at `visuals/chapter-05-visual-register.md` remains available as the production history and integration index. The records below consolidate its 16 pre-existing integrated visual IDs and the newly created 5.18-A into this subject-wide provenance register. Aliases are retained to prevent duplicate counting. Integration and bilingual source parity were checked in the chapter Markdown (42 embeds, 21 unique image URLs, each URL present once in RU and once in EN); this does not establish scientific sign-off, complete rights clearance, or deployed rendering.
+The former chapter-specific register at `visuals/chapter-05-visual-register.md` remains available as the production history and integration index. The records below consolidate its 16 pre-existing integrated visual IDs and the newly created 5.18-A into this subject-wide provenance register. Aliases are retained to prevent duplicate counting. Integration and bilingual source parity were checked in the chapter Markdown (42 embeds, 21 unique image URLs, each URL present once in RU and once in EN); this does not establish scientific sign-off, complete rights clearance, or deployed rendering. Current breakdown: 10 project-local SVGs and 11 external image URLs.
 
 **Important rights rule:** a source page, institutional domain, or an existing embed is not by itself a licence. Where the exact media-file terms or project-SVG rightsholder are not established below, rights remain Unknown / PENDING.
 
