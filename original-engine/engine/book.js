@@ -451,5 +451,5 @@ export function startBook(chapter) {
   { const k = fromHash(); if (k !== null) goto(k, true); }
   // the first frame drawn: the book can open now (cover.js)
   document.fonts.ready.then(() => requestAnimationFrame(t => { frame(t); dispatchEvent(new Event('bookready')); }));
-  window.__atlas = { E, select, goto };
+  window.__atlas = { E, select, goto, focusState: () => ({ selected, focusAmt, lastFocus, selectScroll, scrollY }) };
 }
