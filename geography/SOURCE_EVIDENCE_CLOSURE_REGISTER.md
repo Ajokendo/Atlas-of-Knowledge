@@ -755,3 +755,12 @@ The chapter-level audit records were added to each source chapter. Findings and 
 ### Chapter 16 — Geographic Research and Cartography: thematic-map terminology correction — 5 November 2026
 
 The Russian terminology in Section 16.11 was aligned with the English method names: “картограмма потоков” was corrected to “карта потоков” (flow map), and “картограмма плотности” to “карта плотности” (density map). This avoids conflating flow/density mapping with a cartogram/choropleth. The correction is terminology-focused; the chapter's broader methodology, statistics and cartographic design review remains open.
+
+
+## Current evidence milestone — 5 November 2026
+
+- Chapters 01–10 retain the earlier targeted source/evidence tranche; its limits are documented above.
+- Focused, dated checks and corresponding text corrections have now also been recorded for Chapters 11–15: ISIC Rev. 5 and SNA/PPP/value-added methodology (11); UN M49 and Antarctic Treaty Article IV (12); Planetary Health Check 2026 (13); OGC API – Features/Maps and legacy WMS/WFS (14); Sentinel-1 spacecraft status and Landsat Collection 2 Level-2 scaling/QA (15).
+- Chapter 16 received a bilingual cartographic-terminology correction; this is not counted as a full external-source review.
+- **Coverage statement:** Chapters 01–16 now have at least a targeted evidence, methodology or terminology intervention recorded, but the depth is uneven and this does not mean every claim or bibliography entry in those chapters has been audited.
+- **Next block:** Chapters 17–21, prioritising official national geospatial datasets and CRS metadata (17–18), station-level climate series and high-mountain interpolation (19), glacier/lake/runoff datasets (20), and species taxonomy, dated conservation assessments and sensitive-location handling (21).
