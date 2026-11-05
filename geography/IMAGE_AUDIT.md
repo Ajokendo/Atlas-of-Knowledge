@@ -592,3 +592,18 @@ This is a source-tree and chapter-embed finding, not a judgment that these visua
 ### 7.10 Chapter 05 bilingual embed parity rechecked
 
 A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **40 Markdown image embeds: 20 in Russian and 20 in English**. The same 20 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 40 alt-text fields is empty. All 40 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
+
+
+### Chapter 05 — static SVG structure check — 5 November 2026
+
+Fetched and inspected all eight project-local Chapter 05 SVGs:
+- `chapter-05-dry-air-composition.svg`
+- `chapter-05-cloud-formation-processes.svg`
+- `chapter-05-weather-vs-climate.svg`
+- `chapter-05-global-climate-belts.svg`
+- `chapter-05-atmospheric-hazards.svg`
+- `chapter-05-climate-change-drivers-evidence-responses.svg`
+- `chapter-05-weather-observations-to-forecast.svg`
+- `chapter-05-climate-diagram-exercise.svg`
+
+All eight contain a `viewBox`, SVG `title`, `desc` and `role="img"`; both Cyrillic and Latin text are present. No `script`, `foreignObject` or embedded `image` element was detected. This is a static source-structure check only. It does not validate SVG rendering, visual contrast at display size, reading order, text scaling, scientific correctness of every label, creator/rightsholder or licence, keyboard interaction, or screen-reader output. Accordingly, accessibility and technical integration remain PENDING in the per-asset audit.
