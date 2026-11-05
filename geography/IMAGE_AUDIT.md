@@ -1045,3 +1045,31 @@ Chapter 20 now has 8/11 planned IDs integrated (20-C, 20-D, 20-E, 20-F, 20-H, 20
 | **Total** | **97** | **42** | **55** |
 
 This table supersedes all earlier scoped counts in this audit. Chapter 20's supplementary 2019 CC BY 4.0 glacial-lake map is additional and not counted in the 20-A–20-K inventory. The count records integration only, not full verification.
+
+
+## Eighth visual integration tranche — Chapters 11 and 19 — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 11-F | INTEGRATED | PASS for 2025 figures against Ministry of Energy / CAWater-Info sources; values are rounded and not presented as a full balance | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Separates primary resources, generation, transmission, distribution, consumption, storage and cross-border trade. 2025 Kyrgyzstan panel reports generation 15.4 bn kWh, consumption 19.3 bn kWh and imports about 3.8 bn kWh; generation components are listed separately. It does not imply a complete balance or mix planned capacity with operating output. |
+| 19-J | INTEGRATED | PASS as a sectoral impact/adaptation overview grounded in the 2025 BTR1 and UNDP examples; not a forecast or local plan | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Covers water, agriculture, energy, transport, health, ecosystems and cities; caption requires local risk assessment before applying measures. |
+
+Both new SVGs were re-fetched and passed static structure and RU/EN checks; both chapter embeds resolve. Live browser, responsive, keyboard and screen-reader checks remain pending.
+
+### Superseding scoped coverage — Chapters 11–20 — 5 November 2026
+
+| Chapter | Registered IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 6 | 1 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 4 | 6 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **44** | **53** |
+
+This 44/97 table supersedes the previous 42/97 count. Original SVG licensing and final scientific/editorial approval remain outstanding.
