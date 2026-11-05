@@ -39,7 +39,7 @@
 <text class="small" x="55" y="559">События расположены по геологической последовательности; шкала увеличена для читаемости.</text>
 <text class="small" x="55" y="579">Events are shown in geological order; this scale is magnified for readability.</text>
 <rect class="band2" x="90" y="600" width="543" height="35" rx="4"/><rect class="band3" x="633" y="600" width="352" height="35"/><rect class="band4" x="985" y="600" width="125" height="35" rx="4"/>
-<g class="label" text-anchor="middle"><text x="360" y="623">Палеозой / Paleozoic</text><text x="809" y="623">Мезозой / Mesozoic</text><text x="1047" y="623" style="font-size:13px">Кайнозой</text></g>
+<g class="label" text-anchor="middle"><text x="360" y="623">Палеозой / Paleozoic</text><text x="809" y="623">Мезозой / Mesozoic</text><text x="1047" y="623" style="font-size:13px">Кайнозой / Cenozoic</text></g>
 <path class="axis" d="M90 657 H1110"/>
 <g class="tick"><path d="M90 649V665 M220 649V665 M410 649V665 M675 649V665 M827 649V665 M985 649V665"/></g>
 <g class="small" text-anchor="middle"><text x="90" y="682">539 Ma</text><text x="220" y="682">470 Ma</text><text x="410" y="682">370 Ma</text><text x="675" y="682">230 Ma</text><text x="827" y="682">150 Ma</text><text x="985" y="682">66 Ma</text></g>
