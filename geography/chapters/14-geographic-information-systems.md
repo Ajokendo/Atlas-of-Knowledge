@@ -45,6 +45,19 @@ This chapter introduces spatial data, coordinate reference systems, geographic d
 
 Важно различать объект реального мира и его цифровую модель. Реальная река имеет ширину, глубину и изменяющееся русло, тогда как её представление на мелкомасштабной карте может быть одной линией.
 
+
+A geographic feature is usually described by its geometry and a set of attributes.
+
+Main geometry types include:
+- **point:** a water source, weather station, tree or bus stop;
+- **line:** a river, road, pipeline or route boundary;
+- **polygon:** a lake, administrative district, forest area or land parcel; and
+- **surface or volume:** terrain, a temperature field or a subsurface geological body.
+
+An attribute table stores feature characteristics such as name, category, observation date, area, length, population, condition or other parameters. Each record should be linked to its geographic feature through a stable identifier.
+
+It is important to distinguish a real-world feature from its digital representation. A real river has width and depth, and its channel may change over time, whereas on a small-scale map it may be represented by a single line.
+
 ## 14.3. Векторная и растровая модели / Vector and Raster Data Models
 
 ![Векторная и растровая модели: точки, линии, полигоны и сетка ячеек / Vector and raster models: points, lines, polygons and a cell grid](../assets/diagrams/14-A-vector-raster-models-bilingual.svg)
@@ -166,6 +179,21 @@ The coordinates 42° and 74° are illustrative and do not identify an exact addr
 При сборе данных следует фиксировать дату, метод, оборудование, координатную систему, масштаб или разрешение, точность и ограничения. Данные, собранные разными методами и в разные сезоны, могут быть несопоставимы без предварительной обработки.
 
 GNSS — общее название спутниковых навигационных систем. GPS — одна из таких систем; существуют также Galileo, GLONASS, BeiDou и другие. Точность позиционирования зависит от приёмника, условий приёма, геометрии спутников, коррекций и метода измерения.
+
+
+Sources of spatial data include:
+- geodetic surveys and GNSS;
+- topographic and thematic maps;
+- satellite and aerial imagery;
+- unmanned aerial vehicles;
+- laser scanning and LiDAR;
+- official statistics and cadastral records;
+- sensors and monitoring systems;
+- field surveys and crowdsourcing.
+
+When collecting data, record the date, method, equipment, coordinate reference system, scale or resolution, accuracy and limitations. Data collected using different methods or in different seasons may not be comparable without preprocessing.
+
+GNSS is the general term for satellite navigation systems. GPS is one such system; others include Galileo, GLONASS and BeiDou. Positioning accuracy depends on the receiver, signal conditions, satellite geometry, corrections and measurement method.
 
 ## 14.7. Геокодирование и адресные данные / Geocoding and Address Data
 
