@@ -313,6 +313,12 @@ Tectonic maps must distinguish geological boundaries, faults, currently active s
 > **[МЕТКА ИЛЛЮСТРАЦИИ 17-F / IMAGE PLACEHOLDER 17-F]** Схема активных разломов и сейсмичности Кыргызстана с указанием периода каталога землетрясений, порога магнитуды и источника геоданных.
 > **EN:** Map of active faults and seismicity in Kyrgyzstan, stating the earthquake-catalogue period, magnitude threshold and geodata source.
 
+**Дополнительная региональная карта / Supplementary regional map**
+
+![Распределение эпицентров землетрясений из основных каталогов, использованных для формирования регионального набора HECCA / Earthquake epicentres from the main catalogues used to assemble the regional HECCA backbone](https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f01-web.png)
+
+*Рисунок 1 из Poggi et al. (2024), воспроизведён без изменений по лицензии CC BY 4.0. Карта охватывает пять стран Центральной Азии и буфер около 300 км за их границами; цвета различают исходные каталоги событий, а не величину магнитуды. Это региональный контекст и карта входных источников для сборки каталога, а не карта только Кыргызстана и не окончательный каталог HECCA. / Figure 1 from Poggi et al. (2024), reproduced unchanged under CC BY 4.0. The map covers five Central Asian countries and an approximately 300 km buffer; colours distinguish source catalogues, not earthquake magnitude. It is regional context and shows input catalogues used in compilation, not a Kyrgyzstan-only map or the final HECCA catalogue.*
+
 Кыргызстан находится в активном внутриконтинентальном поясе деформаций, связанном с взаимодействием Индийской и Евразийской плит. Сжатие земной коры проявляется в надвигах, обратных разломах, складчатости и локальных сдвиговых движениях.
 
 Землетрясения происходят не только на границах океанических плит. Внутри континентов крупные землетрясения могут быть связаны с реактивацией древних разломов и накоплением напряжений в неоднородной земной коре.
