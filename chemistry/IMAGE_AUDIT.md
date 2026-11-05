@@ -525,3 +525,16 @@ The pilot began with CH-V01 and CH-V02. Source files were read directly from `wo
 - **CH-V01 Electron probability cloud:** both RU and EN variants describe an electron cloud around a nucleus. The Russian description explicitly distinguishes probability from trajectories; the English title names a probability cloud, but the English description is less explicit. Keep the scientific and bilingual review PENDING until the English description and both rendered variants receive a complete semantic/visual review. Rights remain PENDING.
 - **CH-V02 Carbon isotopes:** the English SVG showed the correct proton/neutron counts and mentioned weighted abundance, but omitted the explicit natural-abundance values and worked mean-mass expression shown in the Russian SVG. This was a real bilingual content-parity gap. The English asset was corrected in commit `f3c50140ccec6e1a1ee746685d10cda3d8f339fe`: it now includes approximately 98.9% `¹²C`, 1.1% `¹³C`, and `0.989 × 12 + 0.011 × 13 ≈ 12.011 u`, with a not-to-scale qualification.
 - **Verification boundary:** this correction resolves the identified missing English information at source level; it does not itself pass the complete manual language gate, competent second-person science review, rights gate, rendered visual review or final approval. Run the branch-head automated checks before treating the changed file as technically validated.
+
+
+## CH-V01 bilingual meaning and visual-shape correction — 5 November 2026
+
+A source-level review found that the English SVG description named translucent electron probability clouds but did not explicitly rule out trajectory/orbit interpretation. The English illustration also contained thin elliptical contour strokes that could be mistaken for classical orbital paths. The Russian SVG and chapter text already stated that the cloud represents probability rather than trajectories.
+
+Changes saved on `workspace/chemistry`:
+- `assets/electron-cloud.svg`: clarified the English SVG description: diffuse overlapping regions represent where electrons are more likely to be detected; they are not trajectories, circular tracks or planetary orbits; the drawing is not to scale. Removed the elliptical contour strokes that most strongly resembled orbital paths.
+- `index.html`: updated the English hero alt text and Russian hero alt text to identify the image as a probability cloud, not paths.
+- `chapters/atomic-structure.html`: updated the bilingual alternative text for the language-switched electron-cloud figure.
+- `checks.mjs`: added regression checks for the English probability-density description, explicit non-trajectory qualification, scale note and absence of the old orbit-like contour group.
+
+This is a source-level correction, not a rendered visual pass. Recheck the English and Russian hero/chapter variants in Chromium at desktop and narrow viewport before closing the visual gate. Scientific second-person review and rights evidence remain PENDING.
