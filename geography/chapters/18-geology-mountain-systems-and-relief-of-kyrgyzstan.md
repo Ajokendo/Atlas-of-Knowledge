@@ -288,8 +288,9 @@ High plateaus and syrts are characteristic of the Inner Tien Shan. They are rela
 
 ## 18.8. Ледниковые формы рельефа / Glacial Landforms
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-D / IMAGE PLACEHOLDER 18-D]** Геоморфологическая блок-диаграмма ледниковых форм: кар, цирк, трог, морена, ригель, висячая долина, рог и арête; подписи наносить в векторной вёрстке.
-> **EN:** Geomorphological block diagram of glacial landforms: cirque, trough, moraine, bedrock step, hanging valley, horn and arête; add labels during vector layout.
+![Ледниковые формы: кар, рог, арет, висячая долина, трог и морены / Glacial landforms: cirque, horn, arête, hanging valley, trough and moraines](../assets/diagrams/18-D-glacial-landforms-bilingual.svg)
+
+*Оригинальная двуязычная учебная схема, не в масштабе; формы показаны в концептуальном сочетании. / Original bilingual teaching diagram, not to scale; landforms are shown in a conceptual arrangement.*
 
 | Форма / Landform | Характеристика / Description |
 |---|---|
