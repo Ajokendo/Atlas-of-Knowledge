@@ -1,8 +1,11 @@
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
+import { mkdir } from 'node:fs/promises';
 
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
 const failures = [];
+const screenshotRoot = '/tmp/physics-visual-review/newton';
+await mkdir(screenshotRoot, { recursive: true });
 const browser = await chromium.launch({
   headless: true,
   args: ['--enable-webgl', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--use-gl=angle', '--use-angle=swiftshader'],
@@ -53,6 +56,7 @@ async function checkBook(viewport, mobile) {
       status: !!document.querySelector('.page-announcement[role="status"][aria-live="polite"]'),
     }));
     if (initial.title !== 'Законы Ньютона') throw new Error(`Unexpected opening page: ${initial.title}`);
+    await page.screenshot({ path: `${screenshotRoot}/book-${mobile ? 'mobile' : 'desktop'}-page-01.png` });
     if (initial.pages !== 13) throw new Error(`Expected 13 book pages, found ${initial.pages}`);
     if (!initial.assemblies || !initial.frames || !initial.status) throw new Error('Three.js scene, rendered frame, or accessible page status is missing');
 
@@ -66,6 +70,7 @@ async function checkBook(viewport, mobile) {
       await page.waitForFunction(index => location.hash === `#${index}`, i, { timeout: 15000 });
       await page.waitForFunction(() => !!document.querySelector('#sheet h1')?.textContent.trim());
       expectedTitles.push(await page.locator('#sheet h1').innerText());
+      await page.screenshot({ path: `${screenshotRoot}/book-${mobile ? 'mobile' : 'desktop'}-page-${String(i + 1).padStart(2, '0')}.png` });
     }
     if (new Set(expectedTitles).size !== 13) throw new Error(`Page navigation produced duplicate/empty headings: ${expectedTitles.join(' | ')}`);
 
@@ -78,6 +83,7 @@ async function checkBook(viewport, mobile) {
     if (optionCount < 2) throw new Error('Keyboard-accessible 3D scene object picker has no selectable objects');
     await picker.selectOption({ index: 1 });
     await page.locator('#plate[role="region"]').waitFor({ state: 'visible' });
+    await page.screenshot({ path: `${screenshotRoot}/book-${mobile ? 'mobile' : 'desktop'}-breakdown.png` });
     await picker.selectOption('');
     await page.locator('#plate[hidden]').waitFor({ state: 'hidden' });
 
@@ -148,6 +154,7 @@ async function checkChapterPage(viewport, mobile) {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2);
     if (overflow) throw new Error('Chapter page has horizontal page overflow');
     if (errors.length) throw new Error(errors.join(' | '));
+    await page.screenshot({ path: `${screenshotRoot}/chapter-page-${mobile ? 'mobile' : 'desktop'}.png`, fullPage: true });
     console.log(`PASS Newton chapter page ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — 5 sections, live F=ma model, force canvas, quiz, WebGL lab ${lab.w}×${lab.h}, serious/critical axe violations: 0`);
   } catch (e) {
     failures.push(`Newton chapter page ${mobile ? 'mobile' : 'desktop'}: ${e.message}`);
