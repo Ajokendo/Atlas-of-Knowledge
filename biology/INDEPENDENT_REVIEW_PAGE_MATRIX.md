@@ -1,5 +1,8 @@
 # Independent review page-by-page matrix — Atlas of Biology
 
+> **ARCHIVED — OUTSIDE THE ATLAS PROJECT SCOPE (5 November 2026).** This matrix is a historical planning artifact only. Its page assignments, reviewer competencies, blank records and “Pending” values are not active project work, completion gates or outstanding tasks. No independent external page review or sign-off is planned or required in Atlas of Knowledge. Any external evaluation belongs to a separate process outside this project. Internal editorial, scientific-source, bilingual and technical checks remain in scope.
+
+
 **Date:** 1 November 2026  
 **Branch:** `workspace/biology`  
 **Review scope:** all 13 bilingual HTML pages.  
