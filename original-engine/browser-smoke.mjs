@@ -68,15 +68,17 @@ async function checkLab(lab, mobile) {
         webgl: !!gl,
         renderedFrames: renderInfo?.frame ?? 0,
         sceneAssemblies: assemblyCount,
+        sceneOptions: Math.max(0, (document.querySelector('.scene-picker')?.options.length || 1) - 1),
         horizontalOverflow: document.documentElement.scrollWidth > innerWidth + 2,
         statusRegion: !!document.querySelector('.page-announcement[role="status"][aria-live="polite"]'),
       };
     });
     if (!state.title) throw new Error('Initial page heading is empty');
-    if (state.pages < 2) throw new Error(`Page navigation missing (found ${state.pages})`);
+    if (state.pages !== 11) throw new Error(`Expected 11 kinematics pages, found ${state.pages}`);
     if (!state.webgl) throw new Error('WebGL context did not initialize');
     if (state.renderedFrames < 1) throw new Error('Three.js did not render a frame');
-    if (state.sceneAssemblies < 1) throw new Error('Three.js scene contains no registered assemblies');
+    if (state.sceneAssemblies !== 20) throw new Error(`Expected 20 registered kinematics scene assemblies, found ${state.sceneAssemblies}`);
+    if (state.sceneOptions !== 20) throw new Error(`Expected 20 keyboard-selectable scene breakdowns, found ${state.sceneOptions}`);
     if (state.horizontalOverflow) throw new Error('Horizontal page overflow at this viewport');
     if (!state.statusRegion) throw new Error('Accessible page status region is missing');
 
@@ -106,6 +108,19 @@ async function checkLab(lab, mobile) {
     await page.waitForFunction(oldTitle =>
       document.querySelector('#sheet h1')?.textContent?.trim() !== oldTitle, before, { timeout: 15000 });
 
+    const visitedTitles = [];
+    for (let i = 0; i < state.pages; i++) {
+      await page.locator('#dots button').nth(i).click();
+      await page.waitForFunction(index => {
+        const title = document.querySelector('#sheet h1')?.textContent?.trim();
+        return !!title && document.querySelectorAll('#dots button').length === index;
+      }, state.pages, { timeout: 10000 });
+      visitedTitles.push((await page.locator('#sheet h1').innerText()).trim());
+    }
+    if (visitedTitles.length !== 11 || new Set(visitedTitles).size !== 11) {
+      throw new Error('Not all 11 kinematics pages rendered a distinct heading');
+    }
+
     if (!mobile) {
       await page.locator('#dots button').nth(0).click();
       await page.waitForFunction(() => location.hash === '' || location.hash === '#0', null, { timeout: 10000 });
@@ -118,7 +133,7 @@ async function checkLab(lab, mobile) {
         document.querySelector('#sheet h1')?.textContent?.trim() === oldTitle, before, { timeout: 15000 });
     }
     pagesChecked++;
-    console.log(`PASS ${lab} ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — ${state.pages} pages, WebGL ${state.canvas.join('×')}, ${state.renderedFrames} renderer frames`);
+    console.log(`PASS ${lab} ${mobile ? 'mobile 390×844 touch' : 'desktop 1440×900'} — ${state.pages} pages visited, ${state.sceneAssemblies} scene assemblies and ${state.sceneOptions} keyboard-selectable breakdowns, WebGL ${state.canvas.join('×')}, ${state.renderedFrames} renderer frames`);
   } catch (error) {
     if (lab === 'kinematics' && !mobile) abortAfterDesktopBootstrap = true;
     failures.push(`${lab} ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
