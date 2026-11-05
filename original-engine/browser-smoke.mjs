@@ -338,6 +338,11 @@ async function checkChapterPage(mobile = false) {
     }
     const svgA11y = await page.locator('main svg[aria-labelledby="kin-graphs-title kin-graphs-desc"]').evaluate(el => ({ role: el.getAttribute('role'), title: el.querySelector('title')?.textContent || '', desc: el.querySelector('desc')?.textContent || '' }));
     if (svgA11y.role !== 'img' || !svgA11y.title || !svgA11y.desc.includes('отдельные вертикальные шкалы')) throw new Error('Chapter 1.4 SVG is missing its accessible title or detailed description');
+    const attribution = await page.locator('footer .attribution').innerText();
+    const attributionLink = await page.locator('footer .attribution a').getAttribute('href');
+    if (!attribution.includes('Nathan Liow') || !attribution.includes('Atlas of Knowledge') || !attribution.includes('MIT License') || attributionLink !== 'https://github.com/nathanliow/atlas-of-physics') {
+      throw new Error('Chapter 1 public footer is missing accurate upstream attribution and license reference');
+    }
     const lessonText = await page.locator('main').innerText();
     if (!lessonText.includes('t ≥ 4,0 с:') || !lessonText.includes('x(t) = 32,0 м')) {
       throw new Error('Chapter 1.9 does not explain the piecewise motion after acceleration reaches zero');
