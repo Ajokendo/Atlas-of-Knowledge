@@ -1214,8 +1214,6 @@ Priorities include modernising irrigation canals and water accounting; reducing 
 
 
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-K / IMAGE PLACEHOLDER 20-K]** Инфографика национального водопользования по данным НСК за 2025 год: раздельно показать водозабор, подземный водозабор как компонент общего объёма, водопотребление (с акцентом на орошение) и сброс сточных вод; единицы — млн м³, источник и год обязательны.
-> **EN:** National water-use infographic based on 2025 NSC data: distinguish total abstraction, underground abstraction as a component of the total, water consumption (highlighting irrigation), and wastewater discharge; show units (million m³), source and year.
 
 ![Инфографика водопользования Кыргызстана за 2025 год / Kyrgyz Republic water use infographic, 2025](../assets/20-K-national-water-use-2025.svg)
 
