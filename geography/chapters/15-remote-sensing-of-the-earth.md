@@ -73,8 +73,9 @@ Band boundaries are approximate and depend on the classification and sensor spec
 
 ## 15.3. Отражение, поглощение и спектральная сигнатура / Reflection, Absorption and Spectral Signature
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-F / IMAGE PLACEHOLDER 15-F]** Схематические спектральные кривые растительности, воды, сухой и влажной почвы; обозначить их как учебные, не измеренные данные.
-> **EN:** Illustrative spectral curves for vegetation, water, dry soil and wet soil; clearly label them as conceptual, not measured data.
+![Спектральные характеристики поверхности / Spectral signatures of surface materials](../assets/diagrams/15-F-spectral-signatures-bilingual.svg)
+
+*Кривые качественные и не являются измеренными спектрами; реальные сигнатуры зависят от влажности, состава, сезона и атмосферы. / Curves are qualitative, not measured spectra; real signatures depend on moisture, composition, season and atmosphere.*
 
 
 Когда излучение достигает поверхности, часть энергии отражается, часть поглощается, а часть может проходить через материал. Соотношение зависит от длины волны, состава, влажности, структуры и состояния объекта.
