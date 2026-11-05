@@ -1051,6 +1051,8 @@ When analysing a climate graph:
 
 **Learning activity:** For each diagram, identify the warmest and coldest months, calculate the annual temperature range, find the wettest and driest months, and add the monthly precipitation values. Then compare the seasonal patterns.
 
+### 5.18. Climate Data Analysis and Synoptic Charts
+
 ### 5.18.1. Comparing Climate Anomalies
 
 Absolute temperature and precipitation values are not always suitable for comparing different places. A temperature of +5 °C may be normal in one month but unusually high in another region or season. Climatologists therefore use an **anomaly**: the difference between an observed value and a selected climate normal.
