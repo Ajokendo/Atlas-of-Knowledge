@@ -1229,3 +1229,12 @@ This 55/97 table supersedes the previous 52/97 count.
 The five new assets were fetched from the working branch and passed source-level checks for SVG opening/closing elements, viewBox, title, description, role="img", and Russian/English text. Their chapter embeds resolve to local files and their Markdown captions are bilingual. No browser rendering, responsive layout, keyboard navigation or screen-reader test is claimed. No visual is VERIFIED.
 
 **Chapter 16 coverage:** 9/9 planned IDs are integrated (16-A–16-I). This is Image Coverage only; Image Verification remains 0/9 under the full policy because rights, accessibility and rendered technical QA are still pending.
+
+
+## Chapter 19 — Visual 19-E — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 19-E | INTEGRATED | PASS WITH SOURCE CAVEAT — bar values reproduce Kyrgyzhydromet's published table (annual 0.28; winter 0.21; spring 0.59; summer/autumn 0.15 °C per decade). The source has a period inconsistency: table heading 1981–2020, narrative 1981–2021. The chart labels this explicitly. | PENDING — original SVG project licence not assigned; source data attribution included | PASS — bilingual chart title, labels, description and caption | PENDING — descriptive alt text present; manual contrast/comprehension review pending | PASS — static SVG structure and relative chapter embed; live browser/mobile rendering pending | Do not use as an annual anomaly time series. Resolve the source's period discrepancy before cross-study comparison. |
+
+Static source checks confirm SVG boundary, viewBox, title, description, role=img, bilingual text and local chapter path. No browser or assistive-technology test is claimed. No visual is VERIFIED.
