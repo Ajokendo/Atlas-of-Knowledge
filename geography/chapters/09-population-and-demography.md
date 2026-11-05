@@ -385,7 +385,11 @@ A population pyramid reflects not only fertility and mortality but also migratio
 
 Population ageing is an increase in the share and/or number of older people. It may result from declining fertility, rising life expectancy and migration of younger age groups.
 
-The **age dependency ratio** is often calculated as the population in younger and older conventionally dependent age groups divided by the population in the conventionally working-age group. It is expressed as the number of dependants per 100 people aged 15–64, using the selected age bands.
+The **age dependency ratio** is often calculated as the population in younger and older conventionally dependent age groups divided by the population in the conventionally working-age group. Using the age bands 0–14 and 65+ as the dependent groups and 15–64 as the working-age group:
+
+`DR = ((P_{0-14} + P_{65+}) / P_{15-64}) × 100`
+
+It is expressed as the number of dependants per 100 people aged 15–64. Other age bands may be used by national or international sources, so the selected limits must be stated.
 
 This is an age-based indicator, not a measure of actual economic dependency: not everyone of working age is employed, and some older people continue to work.
 
