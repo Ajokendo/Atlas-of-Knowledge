@@ -331,8 +331,9 @@ NBR = \frac{NIR - SWIR2}{NIR + SWIR2}
 
 ## 15.10. Классификация спутниковых изображений / Satellite Image Classification
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-D / IMAGE PLACEHOLDER 15-D]** Схема контролируемой и неконтролируемой классификации, обучающих и независимых проверочных выборок, матрицы ошибок.
-> **EN:** Diagram of supervised and unsupervised classification, training and independent validation samples, and a confusion matrix.
+![Контролируемая и неконтролируемая классификация, независимая проверка и матрица ошибок / Supervised and unsupervised classification, independent validation and confusion matrix](../assets/diagrams/15-D-classification-validation-bilingual.svg)
+
+*Проверочная выборка должна быть независимой от обучающих данных. / Validation samples must be independent of training data.*
 
 Классификация присваивает пикселям или объектам категории земного покрова или другие тематические классы.
 
@@ -369,8 +370,9 @@ A **confusion matrix** shows agreement and disagreement between the classificati
 
 ## 15.11. Радарное зондирование и SAR / Radar Remote Sensing and SAR
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-I / IMAGE PLACEHOLDER 15-I]** Геометрия SAR: боковой обзор, радиолокационный импульс, обратное рассеяние и угол падения; не изображать радар как фотокамеру.
-> **EN:** SAR geometry showing side-looking radar, transmitted pulse, backscatter and incidence angle; do not depict radar as an optical camera.
+![Боковая геометрия SAR: орбита, импульс, ближняя и дальняя дальность, угол падения и обратное рассеяние / Side-looking SAR geometry: orbit, pulse, near and far range, incidence angle and backscatter](../assets/diagrams/15-I-sar-side-looking-geometry-bilingual.svg)
+
+*Угол падения определяется между лучом и нормалью к поверхности. / Incidence angle is measured between the radar beam and the surface normal.*
 
 
 Радар с синтезированной апертурой (SAR) использует микроволновые импульсы и регистрирует обратное рассеяние от поверхности. Радарные данные особенно полезны там, где оптические наблюдения ограничены облачностью или отсутствием солнечного освещения.
@@ -416,8 +418,9 @@ A radar image is not a photograph in the usual sense. Pixel brightness reflects 
 
 ## 15.12. LiDAR и трёхмерное зондирование / LiDAR and Three-dimensional Remote Sensing
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-J / IMAGE PLACEHOLDER 15-J]** Лазерные импульсы и облако точек с отражениями от кроны и поверхности; различить DSM и DTM.
-> **EN:** Show laser pulses and a point cloud with canopy and ground returns; distinguish DSM from DTM.
+![LiDAR: лазерные отражения, облако точек, DSM, DTM и модель высоты кроны / LiDAR: laser returns, point cloud, DSM, DTM and canopy height model](../assets/diagrams/15-J-lidar-returns-dsm-dtm-bilingual.svg)
+
+*DSM описывает верхние поверхности; DTM — рельеф земли без объектов. / DSM represents top surfaces; DTM represents bare-earth terrain.*
 
 
 LiDAR (Light Detection and Ranging) измеряет расстояние по времени прохождения лазерного импульса. Системы могут быть установлены на самолётах, БПЛА, автомобилях или спутниках.
@@ -443,8 +446,9 @@ Laser pulses may pass through gaps in vegetation and return signals from differe
 
 ## 15.13. Мониторинг изменений и временные ряды / Change Detection and Time Series
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-K / IMAGE PLACEHOLDER 15-K]** Сопоставимые снимки двух дат, карта изменений и независимая проверка; отметить влияние сезонности, облаков и различий сенсоров.
-> **EN:** Compare co-registered images from two dates, a change map and independent validation; note seasonality, clouds and sensor differences.
+![Многовременное выявление изменений: снимки двух дат, регистрация, анализ, карта и независимая проверка / Multitemporal change detection: two-date imagery, co-registration, analysis, change map and independent validation](../assets/diagrams/15-K-multitemporal-change-detection-bilingual.svg)
+
+*Сопоставляйте сезон, сенсор и разрешение; проверяйте изменения независимыми данными. / Match season, sensor and resolution; validate change with independent data.*
 
 
 Мониторинг изменений сравнивает данные разных дат для выявления преобразований поверхности и природных процессов.
@@ -1005,6 +1009,12 @@ NDVI \approx 0.67
 22. USGS Landsat Missions. **Landsat Surface Reflectance.** Explains atmospheric correction and the use of surface-reflectance products for comparison through time. https://www.usgs.gov/landsat-missions/landsat-surface-reflectance
 23. USGS Landsat Missions. **Landsat Glossary: Resolution.** Defines spatial, spectral, radiometric and temporal resolution. https://www.usgs.gov/landsat-missions/landsat-glossary
 24. USGS Western Geographic Science Center. **Introduction to Aquatic Remote Sensing.** Public-domain example spectra for clear water, algal water and sediment-laden water. https://www.usgs.gov/centers/western-geographic-science-center/introduction-aquatic-remote-sensing
+
+25. National Ecological Observatory Network (NEON). **What is a CHM, DSM and DTM? About Gridded, Raster LiDAR Data.** Definitions of point clouds, ground and surface models and canopy height. https://www.neonscience.org/resources/learning-hub/tutorials/chm-dsm-dtm
+26. Natural Resources Canada. **Viewing Geometry and Spatial Resolution.** Side-looking radar geometry, range and incidence angle. https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/viewing-geometry-spatial-resolution
+27. Google Earth Engine. **Synthetic Aperture Radar (SAR) Basics.** Backscatter dependence on incidence angle, surface and terrain geometry. https://developers.google.com/earth-engine/tutorials/community/sar-basics
+28. Belgian Platform on Earth Observation. **Multi-temporal Analysis and Change Detection.** Image matching and temporal comparison considerations. https://eo.belspo.be/en/iv45-multi-temporal-analysis-and-change-detection
+29. Virginia Tech Pressbooks. **Change Detection using Landsat 9 Imagery.** Co-registration, same-season acquisition, atmospheric conditions and change interpretation. https://pressbooks.lib.vt.edu/remotesensing/chapter/chapter-20-change-detection-using-landsat-9-imagery/
 
 ---
 **Конец главы 15 / End of Chapter 15**
