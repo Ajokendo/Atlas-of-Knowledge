@@ -382,7 +382,8 @@ async function checkChapterPage(mobile = false) {
         attributionHeight: attributionRect.height,
       };
     });
-    if (footerLayout.footerRight > innerWidth + 2 || footerLayout.footerScrollWidth > footerLayout.footerClientWidth + 2 || footerLayout.attributionRight > innerWidth + 2 || footerLayout.attributionHeight < 12) {
+    const viewportWidth = page.viewportSize().width;
+    if (footerLayout.footerRight > viewportWidth + 2 || footerLayout.footerScrollWidth > footerLayout.footerClientWidth + 2 || footerLayout.attributionRight > viewportWidth + 2 || footerLayout.attributionHeight < 12) {
       throw new Error('Chapter 1 attribution footer does not wrap within the responsive viewport');
     }
     const lessonText = await page.locator('main').innerText();
