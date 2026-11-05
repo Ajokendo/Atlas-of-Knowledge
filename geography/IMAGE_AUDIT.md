@@ -14,7 +14,7 @@ This file is the Geography audit required by policy v1.1. It records the IDs tha
 
 The atlas-wide source relationship and complete source-work inventory are not yet established. Determine provenance asset by asset. Record original work, creator/rightsholder, edition/version, source location, inheritance relationship, changes and the permission/licence for actual reproduction and adaptation. Classify A — Original reuse, B — Adapted or C — Created separately from rights status. Mark unknown values Unknown / PENDING. Do not infer authorship or permission from repository ownership, public availability or prior integration. Do not repeat discovery searches for an identifiable unchanged inherited visual solely to satisfy image-first; verify lineage, rights, scientific meaning, localisation, accessibility and rendering. Search for a replacement when an asset is missing, unsuitable, inaccurate, inaccessible, rights-restricted or needs replacement. Translating surrounding captions/alt text alone does not change the visual category; translating embedded labels or substantively editing the visual is adaptation.
 
-Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–05 (with unresolved creator/licence fields for project-local SVGs and several external images) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 pre-existing integrated IDs plus 5.18-A are mapped in IMAGE_SOURCES.md; the separate register is retained as production history. Chapters 07–08 and 10–26 are not source-verified by the existence of IDs or briefs. Chapter 06 now has three integrated assets (6-A, 6-C and 6.1-A); 6-B has a candidate dataset with confirmed CC BY 4.0 terms, and the remaining 12 visual IDs are still open.
+Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–06 (with unresolved creator/licence fields for project-local SVGs and several external images) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 pre-existing integrated IDs plus 5.18-A are mapped in IMAGE_SOURCES.md; the separate register is retained as production history. Chapter 06 has records for 6-A, 6-B and 6-C but is not fully source-verified; Chapters 07–08 and 10–26 are not source-verified by the existence of IDs or briefs. Chapter 06 now has three integrated assets (6-A, 6-C and 6.1-A); 6-B has a candidate dataset with confirmed CC BY 4.0 terms, and the remaining 12 visual IDs are still open.
 
 ## 3. Geography-specific checks
 
@@ -551,11 +551,11 @@ The static content review of `chapter-05-climate-diagram-exercise.svg` found tha
 
 ### Confirmed integration gaps — Chapters 06–26 — 5 November 2026
 
-The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **ten Markdown image embeds** in this range, representing seven integrated visual IDs: 6-A, 6-C and 6.1-A (one embed each in Russian and English), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks the remaining 203 IDs as **MISSING**, while keeping their scientific, rights, language, accessibility and technical dimensions PENDING because no candidate asset exists to review.
+The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **ten Markdown image embeds** in this range, representing seven integrated visual IDs: 6-A, 6-C and 6.1-A (one embed each in Russian and English), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks 203 IDs as **MISSING**; 6-B is separately recorded as FOUND, with source rights checked but no completed map.
 
 | Chapter | Required IDs | Integrated assets confirmed | Missing |
 |---:|---:|---:|---:|
-| 06 | 15 | 2 | 13 |
+| 06 | 15 | 3 | 12 |
 | 07 | 9 | 0 | 9 |
 | 08 | 7 | 0 | 7 |
 | 09 | 7 | 0 | 7 |
