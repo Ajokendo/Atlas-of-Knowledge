@@ -977,3 +977,9 @@ All five new SVG files were re-fetched from the working branch and passed source
 | **Total** | **97** | **39** | **58** |
 
 This 39/97 table supersedes earlier 28/97 and 34/97 snapshots. The supplementary 2019 glacial-lake research figure in Chapter 20.6.7 remains additional and is not counted as a planned ID. Original SVG creator/rightsholder and project redistribution licence remain pending; none is marked VERIFIED.
+
+
+### Corrective cleanup — 5 November 2026
+
+- Chapter 14 visual 14-C was refined after source inspection: the intersection, A-minus-B and symmetric-difference panels now use clipping/masking rather than approximate overlap shapes. This improves the mathematical set-logic depiction. Static SVG source structure remains valid; visual rendering still requires browser inspection.
+- Removed obsolete placeholder labels for already integrated visuals 18-J, 19-H, 20-I and 20-K. Their image embeds and captions remain in place. This prevents a completed embed from appearing simultaneously as an unresolved placeholder.
