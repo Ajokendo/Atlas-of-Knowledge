@@ -64,8 +64,9 @@ This chapter introduces core ecological concepts, the geography of human pressur
 
 ## 13.4. Изменение климата: причины и механизмы / Climate Change: Causes and Mechanisms
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-A / IMAGE PLACEHOLDER 13-A]** Схема естественного и усиленного парникового эффекта с основными парниковыми газами и источниками выбросов.
-> **EN:** Diagram of the natural and enhanced greenhouse effect, showing major greenhouse gases and emission sources.
+![Естественный и усиленный парниковый эффект: солнечное излучение, поглощение и переизлучение тепла / Natural and enhanced greenhouse effect: solar radiation, heat absorption and re-emission](../assets/diagrams/13-A-greenhouse-effect-bilingual.svg)
+
+*Оригинальная двуязычная концептуальная схема; стрелки показывают качественные направления потоков энергии, а не их величину. / Original bilingual conceptual diagram; arrows show qualitative energy-flow directions, not magnitudes.*
 
 Климат Земли меняется под действием естественных факторов и антропогенных воздействий. Современное быстрое глобальное потепление преимущественно обусловлено увеличением концентраций парниковых газов в результате деятельности человека.
 
