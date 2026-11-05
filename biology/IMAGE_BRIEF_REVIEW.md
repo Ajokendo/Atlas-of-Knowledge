@@ -94,3 +94,10 @@ Targeted regression assertions for the corrected bilingual labels were added in 
 
 
 Triage-count correction — 5 November 2026: the current table has 37/53 rows with explicit pending visual/browser/morphology notes. Four rows were added to the open-note count during the latest botany/ecology label audit. This is not a pass rate.
+
+
+## Manual screenshot review — 5 November 2026
+
+Retrieved and reviewed the latest `biology-visual-review` artifact from run `42042559006` (commit `be2882b6`): all 13 pages at desktop 1365 px and mobile 390 px (26 full-page screenshots). Page-level review found no visible horizontal overflow, clipped page columns, broken image placeholders or missing-media gaps in the inspected views. The mobile layout stacks cards in one column; desktop retains the two-column layout. Long Flora and Fauna regional pages were additionally inspected in full-resolution crops across opening sections, middle dossiers, tables and source lists.
+
+This closes page-level screenshot-layout review for this CI artifact only. It does not close asset-specific morphology, scientific-content, fine label-placement, source identity or rights checks. Keep those pending on the individual brief rows until directly evidenced; do not infer asset-level acceptance from a successful page screenshot.
