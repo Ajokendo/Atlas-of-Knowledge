@@ -28,8 +28,8 @@
 <path d="M435 208H505" class="arrow"/>
 <text x="550" y="190" class="txt">Пируват поступает в митохондрию</text>
 <text x="550" y="216" class="small">Pyruvate enters the mitochondrion</text>
-<text x="550" y="250" class="small">Чистый выход гликолиза: 2 АТФ и NADH</text>
-<text x="550" y="270" class="small">Net glycolysis yield: 2 ATP and NADH</text>
+<text x="550" y="250" class="small">Чистый выход гликолиза: 2 АТФ и 2 NADH</text>
+<text x="550" y="270" class="small">Net glycolysis yield: 2 ATP and 2 NADH</text>
 
 <!-- Mitochondrion -->
 <rect x="45" y="325" width="1110" height="600" rx="95" class="matrix"/>
@@ -69,8 +69,8 @@
 <rect x="95" y="690" width="390" height="155" rx="20" class="card"/>
 <text x="290" y="725" text-anchor="middle" class="head">Окисление пирувата</text>
 <text x="290" y="750" text-anchor="middle" class="head" style="font-size:18px">Pyruvate oxidation</text>
-<text x="290" y="786" text-anchor="middle" class="txt">Пируват → ацетил-КоА + CO₂</text>
-<text x="290" y="813" text-anchor="middle" class="small">Pyruvate → acetyl-CoA + CO₂</text>
+<text x="290" y="786" text-anchor="middle" class="txt">Пируват → ацетил-КоА + CO₂ + NADH</text>
+<text x="290" y="813" text-anchor="middle" class="small">Pyruvate → acetyl-CoA + CO₂ + NADH</text>
 <rect x="535" y="690" width="390" height="155" rx="20" class="card"/>
 <text x="730" y="725" text-anchor="middle" class="head">Цикл лимонной кислоты</text>
 <text x="730" y="750" text-anchor="middle" class="head" style="font-size:18px">Citric acid cycle</text>
