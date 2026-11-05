@@ -11,7 +11,7 @@
 
 This file records Chemistry-specific assets and their evidence. Universal category definitions (A/B/C), search-first workflow, licence rules, status vocabulary, accessibility requirements, and verification criteria are defined only in the [canonical IMAGE-FIRST POLICY](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/atlas-of-knowledge-integration/IMAGE_FIRST_POLICY.md). Do not duplicate or redefine those rules here.
 
-The current static illustration set consists of project-local SVG files. A file's presence in the repository does not establish that it was created by the project. Until the authoring method, creator/rightsholder and rights basis are evidenced, the A/B/C category and method fields remain **PENDING**; do not assign category C merely because the files are local.
+The current static illustration set consists of 24 project-local SVG files grouped into 12 bilingual visual families. A file's presence in the repository does not by itself establish project creation. Following the retrospective provenance reconstruction dated 2026-11-05, all 12 families are classified Category C for production-lineage tracking, with file-level evidence and limitations recorded below. This classification does not establish a named human author, legal rightsholder, authority to license, or an approved licence; those rights fields remain **PENDING**.
 
 ## Asset register
 
