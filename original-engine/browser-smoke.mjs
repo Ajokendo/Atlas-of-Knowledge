@@ -175,7 +175,9 @@ async function checkLab(lab, mobile) {
         if (!focusStayedOnPicker) throw new Error('A delayed scene-focus retry stole focus after the learner returned to the scene picker');
       }
       if (!mobile) {
-        await page.waitForTimeout(450);
+        // The first selection moves the camera from the final chapter page to the
+        // beginning of the world; let that initial focus transition finish.
+        await page.waitForTimeout(i === 0 ? 1800 : 450);
         await page.screenshot({ path: `${visualReviewDir}/${key}.png`, animations: 'disabled' });
       }
     }
