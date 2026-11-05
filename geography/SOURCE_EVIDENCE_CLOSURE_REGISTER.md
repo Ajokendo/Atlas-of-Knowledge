@@ -991,3 +991,16 @@ The six newly integrated diagrams 11-E, 12-D, 13-D, 14-C, 15-C and 16-C are orig
 | 16 | Ordnance Survey, *Generalisation* | Official national mapping-agency guidance checked | Supports the principle that smaller-scale maps require feature selection and simplification. The visual uses synthetic geometry and makes no claim about a real map product. |
 
 The five new diagrams are original hand-coded bilingual SVGs. Source references support the underlying concepts; no third-party illustration is reproduced. Static SVG and embed checks passed. Creator/rightsholder assignment, project licence, rendered browser review and assistive-technology review remain open.
+
+
+### Chapter 20 — lake morphometry and hydropower visual source checks — 5 November 2026
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| CAIAG Issyk-Kul Monitoring System | Current technical reference checked; reports lake surface area 6,236 km², maximum depth 668 m, mean depth 278 m and volume 1,738 km³ | Used only the 6,236 km² area in 20-C. Other morphometric fields are not mixed into the comparison until source dates/methods are aligned. |
+| President of the Kyrgyz Republic, Son-Kul page | Official page reports area 278 km² and elevation 3,016 m; another secondary source reports a different maximum depth | Used area only. Conflicting depth values are excluded pending authoritative reconciliation. |
+| AF NWRMP, Issyk-Kul–Tarim basin page | National basin-plan source reports Chatyr-Kul area 175 km²; its description is basin-specific | Used area only; no unsupported depth or altitude is inferred. |
+| Gebhardt et al. / *Quaternary Research* Sary-Chelek study | Peer-reviewed study gives lake area around 4.9 km² and documents bathymetric measurements | Used approximate area only; the study reports sonar depths of about 210–220 m while older atlas data gives about 234 m, so depth is excluded from the infographic. |
+| AF NWRMP, Naryn–Syr Darya basin hydropower section | Source lists five Lower Naryn HPPs and total installed capacity 2,870 MW; separately identifies Kambar-Ata projects | Integrated a not-to-scale sequence diagram. Individual plant capacities are not estimated or apportioned; project-status wording remains subject to later source update. |
+
+The two new visuals are original conceptual/data graphics. They do not close the need for a georeferenced lake map, consistent bathymetric inventory, full reservoir parameter table or plant-by-plant hydropower dataset.
