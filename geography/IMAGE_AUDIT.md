@@ -465,7 +465,7 @@ No Image Coverage or Image Verification percentage is calculated from this token
 
 ### 7.6 Static SVG structure and Markdown alt-text checks — Chapters 01–06 and 18–20
 
-A direct fetch-and-inspect pass covered the **56 pre-existing local SVG assets** in Chapters 01–05 and 18–20. Two additional local SVGs were added for Chapter 06 visuals 6-C and 6.5-A; both were separately spot-checked for the required structural metadata:
+A direct fetch-and-inspect pass covered the **56 pre-existing local SVG assets** in Chapters 01–05 and 18–20. Three additional local SVGs were added for Chapter 06 visuals 6-C, 6.5-A and 6.7-A; all three were separately spot-checked for the required structural metadata:
 - 5 Chapter 01 SVGs in `assets/diagrams/`;
 - 11 Chapter 02 SVGs in `assets/diagrams/`;
 - 10 Chapter 03 SVGs in `assets/`;
@@ -473,7 +473,7 @@ A direct fetch-and-inspect pass covered the **56 pre-existing local SVG assets**
 - 10 Chapter 05 SVGs in `visuals/`;
 - 4 Chapter 18–20 SVGs in `assets/`.
 
-All 56 pre-existing fetched SVG files and both new Chapter 06 SVGs (6-C and 6.5-A) contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
+All 56 pre-existing fetched SVG files and all three new Chapter 06 SVGs (6-C, 6.5-A and 6.7-A) contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
 
 Markdown alt-text checks:
 - Chapters 01–02: the source register records 50 embeds with non-empty bilingual alt text (10 + 40).
@@ -481,7 +481,7 @@ Markdown alt-text checks:
 - Chapter 04: 32 embeds representing 16 unique assets; zero empty alt attributes.
 - Chapter 05: 42 embeds (21 RU + 21 EN; 21 distinct URLs in each language, exact parity); zero empty alt attributes.
 - Chapters 18–20: 4 embeds; zero empty alt attributes.
-- Chapter 06: 6-A, 6-C, 6.1-A and 6.5-A each appear once in RU and once in EN; all eight embeds have non-empty bilingual alt text.
+- Chapter 06: 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A each appear once in RU and once in EN; all ten embeds have non-empty bilingual alt text.
 
 **Result:** structural SVG metadata and non-empty Markdown alt text pass for the checked local assets and chapter embeds. Semantic alt-text quality, bilingual equivalence, scientific correctness, rights evidence and deployed accessibility remain separate and pending checks. No asset is promoted to VERIFIED.
 
