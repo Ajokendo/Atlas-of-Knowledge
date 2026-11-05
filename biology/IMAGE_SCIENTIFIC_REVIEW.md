@@ -93,3 +93,14 @@ This section supersedes the older 4 November status note above for the latest br
 - **Disposition unchanged:** internal source-level review is documented, but independent zoologist review and complete human visual acceptance of all P1 assets remain pending. Do not change any asset to `VERIFIED` solely because CI or screenshot rendering passed. Rights/licence clearance remains a separate gate.
 
 Current counts: P1 review-register entries **13/13**; visual coverage **53/53 (100%)**; overall editorial readiness **99/100**. These are different measures and must not be conflated.
+
+
+## Governance note — future school-teacher evaluation is separate from development — 5 November 2026
+
+The project owner has clarified that no independent specialist assessment is planned during atlas development. Independent evaluation will be organised as a **separate post-development event through subject-specialist school teachers**. Therefore:
+
+- Do not list an external zoologist/botanist sign-off as a developer task or as a condition for completing the development phase.
+- The current source-level scientific review is an internal evidence-based check. It should continue to cite authoritative sources, document scope/uncertainty, and avoid claims beyond the evidence.
+- Preserve any genuine internal concerns (e.g. schematic rather than specimen-level morphology, unresolved taxonomic details, or unverified locality claims) as transparent limitations. Do not relabel them as externally approved.
+- The later school-teacher evaluation is a separate acceptance/feedback event after development; its results should be documented separately and may inform a subsequent revision cycle.
+- This governance clarification does not waive copyright/licence checks, attribution, bilingual editorial checks, or technical QA.
