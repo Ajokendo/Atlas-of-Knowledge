@@ -464,3 +464,10 @@ A new author-side educational botanical plate for *Fritillaria eduardii* was gen
 ### Aygul generated plate — repository integration (5 November 2026)
 
 The supplemental Category C botanical plate is now committed and referenced in `chapters/flora-kyrgyzstan.html` as `images/generated/flora-batken-aygul-botanical-plate.webp`. It is displayed as a separate educational illustration beside the original SVG, not as documentary evidence. The repository derivative is 320 × 292 px, 7,196 bytes, SHA-256 `b79cc139c33b4b19b5c1e72fa79885688cdd9c0202d6d402ad3f13348badf4c9`; the higher-resolution source remains in the conversation workspace. Bilingual alt text and captions explicitly state the six tepals/six stamens detail and the limits of inference (no fixed flower count, population size or precise locality). Detailed P1 scope is linked through `IMAGE_SCIENTIFIC_REVIEW.md`. Initial CI run 41968857255 found two metadata/insertion-map guard issues; the extra figure anchor was renamed so it does not create a new brief, and the P1 register row now links to the scientific review. A subsequent CI run is required to establish pass/fail; browser rendering is not yet claimed as passed.
+
+
+## Superseding browser/CI update — 5 November 2026
+
+The pending-CI and pending-browser-smoke notes above record the state when the individual source corrections were made. They are superseded for automated validation by the full Biology workflow [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829), which completed successfully on `workspace/biology` head `fb4b581f0cf23e86b8a093280ba0846fc01a345f`. The `validate` job passed page/local-link/script validation, Chromium setup, local server startup, browser smoke tests for every Biology page, and screenshot artifact upload.
+
+This closes the outstanding **automated CI/browser-smoke rerun** for the corrections listed above. It does not close the separately tracked detailed human visual review of all assets, independent specialist review, or hands-on screen-reader/physical-device testing. The 53/53 metric remains production/integration coverage only; Image Verification is not reported as 100%.
