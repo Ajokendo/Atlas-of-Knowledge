@@ -718,3 +718,14 @@ The chapter-level audit records were added to each source chapter. Findings and 
 | RU/EN regional terminology | Corrected | The Russian text's qualification about the Caucasus as a Europe–Asia boundary region was missing from the English version; it has now been aligned in both languages. “Australia is a continent and a country” replaces the ambiguous English use of “state”. |
 
 **Chapter 12 corrections saved:** clarified M49 versus cultural-geographical regionalisation, aligned the Caucasus qualification in RU/EN, made the Oceania subregional scheme explicit, and replaced the vague Antarctic territorial-claims wording with the legal effect of Article IV and the Treaty Area's geographic scope. This was a focused classification/legal pass, not a full source-by-source audit of every regional claim or map boundary.
+
+
+### Chapter 13 — Ecology and Global Change: planetary-boundaries update — 5 November 2026
+
+| Source / evidence | Result | Action / limitation |
+|---|---|---|
+| Richardson et al. (2023), *Earth beyond six of nine planetary boundaries* | Verified — peer-reviewed historical assessment | Retained as a dated 2023 assessment, not as the latest state of the framework. |
+| Planetary Health Check 2025 | Verified — PIK report record | Reports seven of nine planetary boundaries transgressed; retained as the 2025 annual assessment. |
+| Planetary Health Check 2026 | Verified — final PIK publication record | The report was finally published on 21 September 2026 (DOI 10.48485/pik.2026.25) and reports seven of nine boundaries transgressed. It identifies climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, novel entities and ocean acidification. The report notes global improvement in stratospheric ozone depletion and atmospheric aerosol loading, while cautioning that regional aerosol hotspots may remain unsafe. Chapter 13 now presents 2026 as the latest assessment and preserves the 2023 result as historical. [PIK report record](https://publications.pik-potsdam.de/pubman/item/item_35009) [PIK release](https://www.pik-potsdam.de/en/news/latest-news/planetary-health-check-2026-finds-mounting-pressures-across-earth2019s-life-support-systems) |
+
+**Chapter 13 correction saved:** updated the Russian and English planetary-boundaries discussion from the dated 2023 “six of nine” finding to the latest 2026 “seven of nine” assessment; named all seven transgressed boundaries and qualified the two global indicators showing improvement. The chapter retains the 2023 and 2025 references as dated assessments. This is a targeted update, not a complete chapter audit.
