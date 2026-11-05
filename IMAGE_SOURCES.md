@@ -347,7 +347,7 @@ This is a **page-level index**, not yet the final asset-level visual register. E
 
 | Page index ID | Chapter / page | `pages.js` scene descriptor | Local source | Upstream source | Status |
 |---|---|---|---|---|---|
-| PHY-03-3D-01 | 03 — 3 — Движение по окружности | `whirl` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
+| PHY-03-3D-01 | 03 — 3 — Движение по окружности | `whirl` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / source-level visual review PASS; 13 mobile screenshots inspected; desktop/mobile browser smoke PASS |
 | PHY-03-3D-02 | 3.1 — Центростремительная сила | `double` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
 | PHY-03-3D-03 | 3.2 — Автомобиль на повороте | `flatcar` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
 | PHY-03-3D-04 | 3.3 — Конический маятник | `cone` | `original-engine/circular/world.js` | `circular/world.js` | INTEGRATED / desktop-mobile browser smoke PASS; manual scene review pending |
@@ -618,3 +618,11 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 | PHY-03-3D-13 | `escape` | Круговая, эллиптическая, параболическая и гиперболическая траектории | `original-engine/circular/world.js` | Inherited scene; Russian labels localised (B) | Nathan Liow | MIT software licence; retain copyright and notice | Desktop/mobile smoke PASS; manual review pending |
 
 **Rights boundary:** the MIT licence is recorded as the licence for the upstream software/scene implementation, not as a blanket licence for unrelated third-party assets. The scene source audit found procedural geometry and no external image assets in this module. Attribution remains to Nathan Liow. A browser smoke result confirms that the scenes load and are navigable; it does not replace the pending scene-by-scene manual scientific visual review.
+
+
+### Final visual review update — Chapter 03
+
+- All 13 mobile book-page screenshots were manually inspected from the dedicated browser artifact (workflow run 42085258562, artifact 13441464360).
+- Desktop and mobile interactive-book smoke tests passed for all 13 pages. The standalone lesson also passed at 1440×900 and 390×844, including the interactive model, quiz, overflow check and serious/critical axe checks.
+- The mobile scene header was separated into title, touch selector and readout. Mobile vector/board labels were reduced in size. The vertical-loop force labels were repositioned so F_N, mg and ΣF are distinct in the mobile rendering.
+- These are presentation-only adaptations. The Newtonian force model, loop dynamics, scene geometry and upstream English original were not changed.
