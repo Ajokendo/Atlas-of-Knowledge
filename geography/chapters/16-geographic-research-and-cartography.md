@@ -158,8 +158,9 @@ Accuracy should not be confused with resolution. A highly detailed map may still
 
 ## 16.5. Выборка и дизайн наблюдений / Sampling and Study Design
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 16-C / IMAGE PLACEHOLDER 16-C]** Случайная, систематическая, стратифицированная и кластерная выборки на условной карте; различать совокупность, страты и отобранные точки.
-> **EN:** Map random, systematic, stratified and cluster sampling; distinguish the population, strata and selected sample points.
+![Типы выборочного обследования / Sampling designs](../assets/diagrams/16-C-sampling-designs-bilingual.svg)
+
+*Схемы условные; выбор дизайна зависит от генеральной совокупности, вопроса исследования и требуемой точности. / Illustrative designs; selection depends on the population, research question and required precision.*
 
 
 Сплошное обследование всей территории часто невозможно, поэтому исследователь использует выборку. Её дизайн должен соответствовать вопросу и пространственной структуре явления.
