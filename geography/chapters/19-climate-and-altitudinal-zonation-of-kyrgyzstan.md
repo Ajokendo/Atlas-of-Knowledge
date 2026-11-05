@@ -232,8 +232,6 @@ The entire south-west of the country should not be labelled “subtropical” wi
 
 ## 19.7. Местные ветры и горно-долинная циркуляция / Local Winds and Mountain–Valley Circulation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-H / IMAGE PLACEHOLDER 19-H]** Схема дневной и ночной горно-долинной циркуляции и температурной инверсии; направление потоков подписать отдельно.
-> **EN:** Diagram of daytime and nighttime mountain–valley circulation and temperature inversion, with airflow directions labelled.
 
 ![Горно-долинная циркуляция / Mountain–valley circulation](../assets/19-H-mountain-valley-circulation.svg)
 
