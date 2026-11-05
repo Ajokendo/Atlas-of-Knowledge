@@ -181,7 +181,15 @@
 
 ## 6.7. Глобальная океаническая циркуляция / Global Ocean Circulation
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.7-A / IMAGE PLACEHOLDER 6.7-A]** Карта основных поверхностных течений и схема глубинного переноса водных масс. / **EN:** Map of major surface currents and a diagram of deep-water mass transport.
+![Карта основных поверхностных океанических течений с направлениями движения; карта NOAA/AOML, автор данных и карты Rick Lumpkin. Это обобщённая учебная карта, а не карта течений в реальном времени.](https://upload.wikimedia.org/wikipedia/commons/c/cc/Ocean_surface_currents.jpg)
+
+*Источник карты: Rick Lumpkin, NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML), 2008; Public Domain (работа NOAA). Карта показывает основные направления поверхностных течений и их названия, но не текущие скорости или состояние океана.*
+
+**Перевод основных названий на карте:** Gulf Stream — Гольфстрим; Kuroshio — Куросио; California Current — Калифорнийское течение; Peru Current — Перуанское (Гумбольдтово) течение; Brazil Current — Бразильское течение; Benguela Current — Бенгельское течение; Agulhas Current — течение Агульяс; Canary Current — Канарское течение; East Australian Current — Восточно-Австралийское течение; Antarctic Circumpolar Current — Антарктическое циркумполярное течение; North/South Equatorial Currents — Северное/Южное пассатные течения.
+
+![Концептуальная схема образования глубинных вод: перенос поверхностной воды к высоким широтам, охлаждение, повышение плотности, погружение, глубинное распространение, перемешивание и апвеллинг. Схема не показывает единую непрерывную глобальную трассу.](../assets/06-7-A-deep-ocean-circulation-schematic-bilingual.svg)
+
+*Вторая схема создана специально для атласа с помощью ChatGPT. Она иллюстрирует процессы, а не точный маршрут отдельной водной массы: реальная циркуляция включает разветвлённые пути, несколько типов глубинных вод, перемешивание и региональные зоны апвеллинга.*
 
 Океан переносит тепло, соль, кислород, углерод и питательные вещества. Поверхностные течения в значительной мере управляются ветрами и вращением Земли, а глубинная циркуляция связана с пространственными различиями плотности и процессами образования водных масс.
 
@@ -193,8 +201,6 @@
 
 Термохалинная циркуляция связана с различиями температуры и солёности, определяющими плотность воды. Образование плотных глубинных вод происходит в отдельных высокоширотных районах, но современная глобальная циркуляция не является простым конвейером с постоянной скоростью: она включает сложные пути, перемешивание, вихри и обмен с атмосферой.
 
-**Место для иллюстрации 6.7-A — Global Ocean Circulation.** Карта основных поверхностных течений и отдельная упрощённая схема глубинного переноса водных масс; различать наблюдаемые течения и концептуальную модель.
-**EN production brief:** Map major surface currents and provide a separate simplified diagram of deep-water mass transport. Distinguish observed currents from the conceptual global circulation model.
 
 ## 6.8. Морская вода, химический состав и газообмен / Seawater Chemistry and Gas Exchange
 
@@ -657,6 +663,16 @@ Tides are caused mainly by the gravitational effects of the Moon and Sun and the
 Ocean currents are persistent or recurring directed movements of seawater. They are driven by winds, density differences, Earth's rotation, basin geometry, tidal forces and interactions with the ocean floor. Types include surface wind-driven currents, deep thermohaline circulation, tidal currents and coastal or local currents.
 
 ### 6.7. Global Ocean Circulation
+
+![Map of major surface ocean currents and their directions; NOAA/AOML map by Rick Lumpkin. This is a generalized teaching map, not a real-time current map.](https://upload.wikimedia.org/wikipedia/commons/c/cc/Ocean_surface_currents.jpg)
+
+*Map source: Rick Lumpkin, NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML), 2008; Public Domain (NOAA work). It shows major surface-current directions and names, not current speeds or real-time ocean conditions.*
+
+**Key translations of current names:** Gulf Stream — Гольфстрим; Kuroshio — Куросио; California Current — Калифорнийское течение; Peru Current — Перуанское (Гумбольдтово) течение; Brazil Current — Бразильское течение; Benguela Current — Бенгельское течение; Agulhas Current — течение Агульяс; Canary Current — Канарское течение; East Australian Current — Восточно-Австралийское течение; Antarctic Circumpolar Current — Антарктическое циркумполярное течение; North/South Equatorial Currents — Северное/Южное пассатные течения.
+
+![Conceptual diagram of deep-water formation: surface-water transport toward high latitudes, cooling, increasing density, sinking, deep spreading, mixing and upwelling. The schematic does not show one continuous global route.](../assets/06-7-A-deep-ocean-circulation-schematic-bilingual.svg)
+
+*The second diagram was created specifically for the atlas with ChatGPT assistance. It illustrates processes, not the exact route of an individual water mass: real circulation includes branching pathways, several types of deep water, mixing and regional upwelling zones.*
 
 The ocean transports heat, salt, oxygen, carbon and nutrients. Surface currents are largely driven by winds and Earth's rotation, while deep circulation is associated with spatial differences in water density and the formation of water masses.
 
