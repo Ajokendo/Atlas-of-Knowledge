@@ -929,7 +929,7 @@ Positive and negative do not mean “bad” and “good”: the terms describe w
 
 *Источник обеих схем / Source for both diagrams: Nick Haddad, TERC, SERC EarthLabs, “Climate Series Introduction”, section “Climate and Feedback Loops”. Лицензия / Licence: CC BY-NC-SA 3.0. Схемы показывают конкретные климатические примеры, а не все возможные обратные связи. / These diagrams show specific climate examples, not every possible feedback process. [Источник / Source page](https://serc.carleton.edu/earthlabs/climate_intro/science_notes.html) · [Лицензия / Licence](https://creativecommons.org/licenses/by-nc-sa/3.0/).
 
-*Original bilingual schematic. Examples are simplified; real systems include time lags and multiple interacting feedbacks. / Оригинальная двуязычная схема. Примеры упрощены; реальные системы включают временные задержки и несколько взаимодействующих обратных связей.*
+*SERC source diagrams. Examples are simplified; real systems include time lags and multiple interacting feedbacks. / Схемы из источника SERC. Примеры упрощены; реальные системы включают временные задержки и несколько взаимодействующих обратных связей.*
 
 ### 2.13. Human Impact
 
