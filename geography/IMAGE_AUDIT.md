@@ -393,7 +393,7 @@ The following counts are from the actual chapter Markdown files in `workspace/ge
 | 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
 | 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
 | 05 | 42 | 21 distinct image URLs (10 local SVGs and 11 external source-image URLs); 17 named visual IDs now have integrated imagery. Exact ID-to-image mapping and two unnamed inventory slots still need reconciliation. |
-| 06–17 | 10 | Chapter 06 has five integrated visual IDs (6-A, 6-C, 6.1-A, 6.5-A and 6.7-A), each embedded once in RU and once in EN; Chapters 07–17 have no Markdown image embeds in this scan. |
+| 06–17 | 12 | Chapter 06 has five integrated visual IDs (6-A, 6-C, 6.1-A, 6.5-A and 6.7-A); 6.7-A contains two separate visuals, giving six embeds in RU and six in EN. Chapters 07–17 have no Markdown image embeds in this scan. |
 | 18 | 1 | Local SVG 18-J referenced. |
 | 19 | 1 | Local SVG 19-H referenced. |
 | 20 | 2 | Local SVGs 20-I and 20-K referenced. |
@@ -533,7 +533,7 @@ The 5.18-A placeholder has been replaced by a bilingual SVG and the chapter now 
 
 ### 7.8 Marker repetition scan — Chapters 06–26
 
-A source scan of all chapter files 06–26 found **210 distinct visual IDs** across those 21 chapters. Every enumerated ID appears at least twice in its chapter file. This is consistent with repeated teaching-location/production-brief references, but repetition alone does not prove that the Russian and English contexts are semantically equivalent. The chapter files in this range now contain **fourteen Markdown image embeds** representing nine integrated visual IDs: 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A in both languages, plus the four local SVG placements in Chapters 18–20 (18-J, 19-H, 20-I and 20-K). The remaining 201 IDs are MISSING; 6-B is FOUND but not integrated. Repeated IDs are not evidence of finished visuals and still require source, rights, scientific, language, accessibility and technical review.
+A source scan of all chapter files 06–26 found **210 distinct visual IDs** across those 21 chapters. Every enumerated ID appears at least twice in its chapter file. This is consistent with repeated teaching-location/production-brief references, but repetition alone does not prove that the Russian and English contexts are semantically equivalent. The chapter files in this range now contain **sixteen Markdown image embeds** representing nine integrated visual IDs: 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A in both languages, plus the four local SVG placements in Chapters 18–20 (18-J, 19-H, 20-I and 20-K). The remaining 201 IDs are MISSING; 6-B is FOUND but not integrated. Repeated IDs are not evidence of finished visuals and still require source, rights, scientific, language, accessibility and technical review.
 
 
 ### Chapter 05 — bilingual image parity correction — 5 November 2026
@@ -552,7 +552,7 @@ The static content review of `chapter-05-climate-diagram-exercise.svg` found tha
 
 ### Confirmed integration gaps — Chapters 06–26 — 5 November 2026
 
-The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **fourteen Markdown image embeds** in this range, representing nine integrated visual IDs: 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A (one embed each in Russian and English), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks 201 IDs as **MISSING**; 6-B is separately recorded as FOUND, with source rights checked but no completed map.
+The source scan of all 21 chapter files 06–26 identified 210 distinct visual IDs. The chapter files now contain **sixteen Markdown image embeds** in this range, representing nine integrated visual IDs: 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A (one embed each in Russian and English), 18-J, 19-H, 20-I and 20-K. The repository tree contains no other matching Geography visual assets for these chapters. The per-asset lifecycle table marks 201 IDs as **MISSING**; 6-B is separately recorded as FOUND, with source rights checked but no completed map.
 
 | Chapter | Required IDs | Integrated assets confirmed | Missing |
 |---:|---:|---:|---:|
