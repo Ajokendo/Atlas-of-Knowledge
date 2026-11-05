@@ -1025,3 +1025,10 @@ After adding a brief bilingual introduction to the key-term glossaries in Chapte
 | 11 | National Investment Agency of the Kyrgyz Republic, Energy Sector — Invest Compass (data current to June 2026) | Official sector guide checked | Confirms separation of generation, transmission, distribution and retail supply; the chapter visual uses this structural distinction. |
 | 11 | Ministry of Energy 2025 results; CAWater-Info Yearbook 2025 | Current published figures cross-checked | 2025 generation 15.4 billion kWh; consumption 19.3 billion kWh; imports about 3.8 billion kWh. Generation components: large HPPs 12.9; small HPPs 0.223; mini HPPs and renewables 0.234; thermal plants 2.01 billion kWh. Rounded values are shown as separate reported indicators, not forced into a full energy balance. |
 | 19 | Kyrgyz Republic Biennial Transparency Report 1 (2025) and UNDP climate-adaptation infographic (2024) | Official national reporting and UN development programme material checked | Support sectoral adaptation priorities and example measures across water, agriculture, energy, disaster risk, health, transport, ecosystems and cities. The visual is an overview, not a district-level adaptation plan or forecast. |
+
+
+### Chapter 11-G — tourism destination system — 5 November 2026
+
+- UNESCO World Heritage Centre destination guide supports the components of destination supply (attractions, accommodation, transport, food/services, retail and local community) and the need to understand demand and management context.
+- UN Tourism mountain-tourism guidance supports the interaction of mountain landscapes, biodiversity and host communities.
+- The integrated diagram is an original conceptual model; it does not assign numerical carrying capacity, seasonal visitor volumes or local economic multipliers.
