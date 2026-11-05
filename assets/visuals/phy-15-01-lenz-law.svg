@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" role="img" aria-labelledby="t d">
 <title id="t">Закон Ленца: приближение и удаление магнита / Lenz's law: approaching and receding magnet</title>
 <desc id="d">Две сопоставленные ситуации с северным полюсом магнита перед катушкой: при приближении катушка создаёт поле, противодействующее росту потока; при удалении поле катушки поддерживает уменьшающийся поток. Показаны направления тока и формула Фарадея–Ленца.</desc>
 <defs><marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d65b43"/></marker><marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2367a8"/></marker><style>
