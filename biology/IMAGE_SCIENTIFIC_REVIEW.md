@@ -56,3 +56,27 @@
 **Status (4 November 2026):** all 13 P1 briefs remain subject to the scientific review checklist below. Several corresponding assets have now been produced and integrated, as recorded in `IMAGE_DISPOSITION_REGISTER.md`; their browser visual QA and/or specialist morphology review is still pending. Integration status must not be confused with final scientific approval.
 
 **Filename traceability:** the original planned P1 target `fauna-naryn.webp` is superseded by the locally produced SVG `fauna-naryn-highland-habitats.svg`; the former name is retained here solely so the 13-item P1 source register remains traceable. The SVG is the active integrated asset.
+
+
+## Supplemental Aygul generated plate — morphology source cross-check — 5 November 2026
+
+Asset: `images/generated/flora-batken-aygul-botanical-plate.webp`; separate Category C teaching illustration at `chapters/flora-kyrgyzstan.html#aygul-generated-plate`. This review is limited to the generated supplementary plate; it does not replace the primary SVG review above.
+
+### Reference comparison
+
+- Kew Plants of the World Online accepts `Fritillaria eduardii A.Regel ex Regel`, records Central Asian native range including Kyrgyzstan, and lists `Petilium eduardii` as a homotypic synonym: https://powo.science.kew.org/taxon/535120-1.
+- The Royal Horticultural Society describes a robust upright bulbous perennial, whorled glossy leaves, clusters typically of 2–5 nodding orange-to-yellow flowers, and a tuft of small leaf-like bracts above the flowers: https://www.rhs.org.uk/plants/7364/fritillaria-eduardii/details.
+- A regional Chüy Valley introduction study reports plants 50–130 cm tall, broad leaves and usually about six nodding orange-red flowers in the inflorescence; the reported phenology is specific to the study's local introduction conditions and must not be universalised: https://applied-research.ru/en/article/view?id=13153.
+- Missouri Botanical Garden's Petilium account gives a broader range of 5–20 flowers, numerous lanceolate leaves arranged in whorls, and a dense umbel-like inflorescence: https://www.mobot.org/mobot/research/russia/petilium.shtml. This variation is a reason not to hard-code one flower count in the caption.
+
+### Asset-level findings
+
+- The upright stem, elongated leaves, nodding campanulate flowers and upper leaf-like bract tuft are consistent with the cited descriptions at the level of a general educational plate.
+- The six-tepal/six-stamen floral detail is consistent with the basic floral plan of `Fritillaria`; it is a structural teaching view, not a claim that all details or proportions were measured from a local specimen.
+- The displayed red-brown/orange palette is plausible within the regional orange-red descriptions, but colour is variable and should not be used as a diagnostic claim.
+- The separate bulb and capsule studies are not yet independently checked against a species-specific voucher or authoritative detailed description. Treat them as generic supporting studies, not as verified diagnostic depictions of `F. eduardii`.
+- Do not add a fixed flower count, exact plant height, precise locality, flowering date, population estimate or conservation-status label to the plate without a matching source and scope.
+
+### Disposition
+
+**Internal scientific review: PARTIAL — NOT VERIFIED.** The broad habit and flower architecture are source-consistent, but the bulb/capsule details and species-level proportions require a competent second-person botanical review before the asset can be marked `VERIFIED`. No independent external specialist review has been recorded. No documentary or herbarium specimen status is implied.
