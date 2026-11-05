@@ -28,8 +28,11 @@ function draw(x,res){
   q.beginPath();q.moveTo(left,top);q.lineTo(mid-34,top);
   const rz=mid-34,rz2=mid+34,steps=8,dx=(rz2-rz)/steps;
   for(let i=0;i<steps;i++)q.lineTo(rz+(i+1)*dx,top+(i%2===0?-9:9));
-  q.lineTo(right,top);q.lineTo(right,bottom);q.lineTo(left,bottom);q.stroke();
-  // Battery symbol: long plate is the positive terminal.
+  q.lineTo(right,top);q.lineTo(right,bottom);q.lineTo(left,bottom);
+  // Break the left-hand wire at the source: the long plate is the positive terminal.
+  q.moveTo(left,top);q.lineTo(left,top+22);
+  q.moveTo(left,top+50);q.lineTo(left,bottom);
+  q.stroke();
   q.beginPath();q.moveTo(left-13,top+28);q.lineTo(left+13,top+28);
   q.moveTo(left-7,top+43);q.lineTo(left+7,top+43);q.stroke();
   q.font="12px monospace";q.fillText("+",left+17,top+31);q.fillText("−",left+17,top+47);
