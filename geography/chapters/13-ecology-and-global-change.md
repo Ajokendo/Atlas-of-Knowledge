@@ -60,7 +60,7 @@ This chapter introduces core ecological concepts, the geography of human pressur
 
 Воздействия часто усиливают друг друга. Например, вырубка лесов может одновременно снижать запас углерода, усиливать эрозию почв, менять водный сток и фрагментировать местообитания.
 
-Концепция **планетарных границ** описывает ряд процессов, для которых человечество должно учитывать риск выхода за пределы безопасного диапазона изменений. Она является научной рамкой для анализа системных рисков, а не набором простых юридических нормативов. Оценки границ и методики продолжают развиваться. В обновлённой оценке 2023 года шесть из девяти границ были признаны пересечёнными; этот результат относится к конкретной версии методики и не должен восприниматься как неизменный юридический порог.
+Концепция **планетарных границ** описывает девять взаимосвязанных процессов земной системы, для которых человечеству важно учитывать риск выхода за пределы безопасного диапазона изменений. Это научная рамка для анализа системных рисков, а не набор юридических нормативов. Результаты зависят от версии оценки, контрольных переменных и доступных данных. В исследовании 2023 года пересечёнными были признаны шесть из девяти границ. В оценках Planetary Health Check 2025 и 2026 годов — уже семь из девяти. По отчёту 2026 года это климатические изменения, утрата целостности биосферы, изменение земной системы, изменение пресноводной системы, нарушение биогеохимических потоков, появление новых веществ и форм загрязнения (novel entities) и подкисление океана. Две другие границы — истощение стратосферного озона и аэрозольная нагрузка — показывают улучшение по глобальной оценке за последнее десятилетие, однако глобальное улучшение аэрозольного показателя не исключает опасно высоких уровней загрязнения в отдельных регионах. Эти выводы относятся к конкретной научной оценке и не являются неизменными юридическими порогами.
 
 ## 13.4. Изменение климата: причины и механизмы / Climate Change: Causes and Mechanisms
 
@@ -418,7 +418,7 @@ Major pressures include:
 
 Pressures often reinforce one another. Deforestation, for example, can simultaneously reduce carbon storage, increase soil erosion, alter runoff and fragment habitats.
 
-The **planetary boundaries** framework describes Earth-system processes for which humanity should consider the risk of moving beyond a safe range of change. It is a scientific framework for analysing systemic risks, not a set of simple legal limits. Assessments and methods continue to develop. The 2023 update assessed six of the nine boundaries as transgressed; this finding belongs to a specific methodological assessment and should not be treated as a fixed legal threshold.
+The **planetary boundaries** framework describes nine interconnected Earth-system processes for which humanity must consider the risk of moving beyond a safe range of change. It is a scientific framework for analysing systemic risks, not a set of legal limits. Results depend on the assessment version, control variables and available data. The 2023 study assessed six of the nine boundaries as transgressed. The 2025 and 2026 Planetary Health Check assessments report seven of nine. The 2026 report identifies these as climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, introduction of novel entities, and ocean acidification. The other two boundaries—stratospheric ozone depletion and atmospheric aerosol loading—show improvement in the global assessment over the past decade; however, global improvement in the aerosol indicator does not rule out dangerously high pollution levels in some regions. These findings belong to specific scientific assessments and are not fixed legal thresholds.
 
 ### 13.4. Climate Change: Causes and Mechanisms
 
@@ -726,6 +726,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 10. Rockström, J. et al. **A safe operating space for humanity.** *Nature* (2009) — foundational paper on planetary boundaries; later assessments refine the framework. https://doi.org/10.1038/461472a
 11. Richardson, K. et al. **Earth beyond six of nine planetary boundaries.** *Science Advances*, 9(37), eadh2458 (2023). https://doi.org/10.1126/sciadv.adh2458
 12. Sakschewski, B. et al. **Planetary Health Check 2025: A Scientific Assessment of the State of the Planet.** Potsdam Institute for Climate Impact Research / Planetary Boundaries Science (2025). The assessment reports that seven of nine planetary boundaries have been breached. https://doi.org/10.48485/PIK.2025.017
+13. Caesar, L. et al. **Planetary Health Check 2026: A Scientific Assessment of the State of the Planet.** Potsdam Institute for Climate Impact Research (2026). Reports seven of nine planetary boundaries breached; CC BY 4.0 unless otherwise credited. https://doi.org/10.48485/pik.2026.25
 
 ---
 **Конец главы 13 / End of Chapter 13**
