@@ -104,8 +104,8 @@
  <text x="1197" y="697" text-anchor="middle" class="small">Палисадная и губчатая мезофильная ткань / Palisade &amp; spongy mesophyll</text>
 </g>
 <g class="lab">
- <text x="1000" y="390" class="small">Палисадная</text><text x="1000" y="408" class="small">паренхима</text>
- <text x="1300" y="470" class="small">Губчатая</text><text x="1300" y="488" class="small">паренхима</text>
+ <text x="1000" y="390" class="small">Палисадная</text><text x="1000" y="408" class="small">паренхима</text><text x="1000" y="426" class="small">Palisade mesophyll</text>
+ <text x="1300" y="470" class="small">Губчатая</text><text x="1300" y="488" class="small">паренхима</text><text x="1300" y="506" class="small">Spongy mesophyll</text>
  <text x="1125" y="550" fill="#176b9e" class="small">Ксилема / Xylem</text><text x="1215" y="570" fill="#75428f" class="small">Флоэма / Phloem</text>
  <text x="1150" y="632" class="small">Устьице / Stoma</text>
 </g>
