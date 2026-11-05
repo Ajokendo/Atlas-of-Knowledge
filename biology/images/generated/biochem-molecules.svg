@@ -13,7 +13,7 @@
 <text x="138" y="331" font-size="12" fill="#526052">могут соединяться</text><text x="138" y="347" font-size="12" fill="#526052">can link to form</text>
 <text x="138" y="374" font-size="14" font-weight="700" fill="#365c3b">полисахариды</text><text x="138" y="392" font-size="13" font-weight="700" fill="#365c3b">polysaccharides</text>
 <text x="138" y="432" font-size="13" fill="#526052">Энергия и структура</text><text x="138" y="449" font-size="12" fill="#526052">Energy and structure</text>
-<text x="138" y="485" font-size="12" fill="#526052">glucose · starch · cellulose</text>
+<text x="138" y="485" font-size="12" fill="#526052">глюкоза · крахмал · целлюлоза</text><text x="138" y="503" font-size="12" fill="#526052">glucose · starch · cellulose</text>
 <rect x="270" y="80" width="220" height="500" rx="14" fill="#f3efe7" stroke="#c9b99b" stroke-width="2"/>
 <text x="380" y="109" font-size="17" font-weight="700" fill="#765d36">Липиды</text><text x="380" y="130" font-size="16" font-weight="700" fill="#765d36">Lipids</text>
 <circle cx="380" cy="190" r="13" fill="#b28b54"/>
