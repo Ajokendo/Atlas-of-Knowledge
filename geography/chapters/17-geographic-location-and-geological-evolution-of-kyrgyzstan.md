@@ -844,6 +844,8 @@ A geographical name is more than a map label. A feature may have an official for
 
 ## 17.16. Ключевые понятия / Key Terms
 
+Ниже приведены ключевые термины главы и их английские эквиваленты. / The glossary below pairs the chapter's key terms with their English equivalents.
+
 Центральная Азия — Central Asia; Тянь-Шань — Tien Shan; Памиро-Алай — Pamir–Alay; межгорная впадина — Intermontane basin; высотная поясность — Altitudinal zonation; тектонический блок — Tectonic block; микроконтинент — Microcontinent; субдукция — Subduction; аккреция — Accretion; складчатость — Folding; надвиг — Thrust fault; сдвиговый разлом — Strike-slip fault; орогенез — Orogeny; внутриконтинентальная деформация — Intracontinental deformation; сейсмическая опасность — Seismic hazard; сейсмический риск — Seismic risk; денудация — Denudation; аллювий — Alluvium; морена — Moraine; межгорная котловина — Intermontane depression.
 
 ## 17.17. Контрольные вопросы и практические задания / Review Questions and Practical Activities
