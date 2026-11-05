@@ -378,3 +378,39 @@ The 12 SVG files whose creator/source history could not be established have now 
 - [ ] Inspect rendered replacements at the page level and correct any clipping, overlap, or text-layout defects found.
 
 **Updated provenance interpretation:** the 12 replacement files have an explicit in-session creation record and are now Category C for creator/method tracking. The previous unknown-origin versions are superseded. The other pre-existing assets retain their own evidence; this remediation does not retroactively prove the provenance of those other assets, and it does not imply independent expert review.
+
+
+## Final internal visual audit disposition — 2026-11-05
+
+This section is the current status and supersedes earlier pending statements that are contradicted by the remediation and scope decisions below. Earlier checkpoint tables are retained as historical snapshots.
+
+### Completed within the project's available resources
+
+- [x] All 12 static visual topics are present in both Russian and English (24 SVG files).
+- [x] Replaced all 12 SVG files whose original source/creator could not be established. New project-specific SVG source and per-file commits are recorded in `IMAGE_SOURCES.md`.
+- [x] Preserved the public asset paths and page references.
+- [x] Added localized SVG title/description metadata to the replacement diagrams.
+- [x] Rechecked all seven interactive systems in their source pages. They are local HTML/SVG/CSS/JavaScript/Canvas implementations; no third-party visualization-library imports or external image references were identified. Their original human/AI authoring history remains undocumented, so no unsupported creator claim is made.
+- [x] Re-ran the branch-head automated workflow after the replacement batch: [GitHub Actions run 41968413926](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968413926), commit `113985acda1b23e2fc27b4ca446a8eede881ba9f`, completed successfully.
+- [x] Static validation passed.
+- [x] Chromium browser smoke passed: 21 pages loaded at 390 px; 42 axe-core scans (RU + EN); 21 language toggles and key interactive workflows checked; no uncaught page errors.
+- [x] Automated visual-asset loading and page integration are included in the successful browser run.
+- [x] No external image/SVG source artwork was adopted from the retrospective search candidates.
+
+### Scope and limitations
+
+- The previous 12 unknown-origin SVG files are no longer active; their replacements have a documented creation record.
+- Ten earlier SVG files retain their previously documented AI-generation evidence. That evidence is not a legal opinion or blanket licence grant.
+- The seven interactive systems are retained as self-contained local code tools. Their first repository commits and lack of external visual dependencies are documented, but original authoring attribution and a separate rights opinion are not established.
+- Internal first-pass science and bilingual review are not independent expert certification.
+- Browser automation and axe-core scans do not prove complete screen-reader usability or replace physical-device testing.
+- Independent external science/legal review, manual NVDA/TalkBack/VoiceOver testing and physical Android/iOS device testing are explicitly out of scope and non-blocking because the project has no resources for them. Do not list them as unfinished work required to complete this internal audit.
+
+### Final result
+
+**Static visual coverage: 12/12 topics (100%).**  
+**Static source-provenance remediation: 12/12 previously unresolved SVG files replaced.**  
+**Interactive visual systems: 7/7 inspected and retained as local code implementations; historical author attribution remains disclosed as a limitation.**  
+**Automated branch-head CI: PASS.**
+
+The internal visual/provenance remediation is complete for the feasible scope defined by the project. This result must not be represented as legal clearance, independent scientific certification, or manual assistive-technology certification.
