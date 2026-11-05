@@ -144,8 +144,8 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual labels, captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/magnetism.html, section “Визуальные материалы главы”.
-- Technical review: PASS — desktop 1440×900 and mobile 390×844 browser checks confirm SVG loading, correct responsive source selection, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 after correcting metric-label contrast (run 41989748138).
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 41989748138).
+- Technical review: PASS — desktop 1440×900 and mobile 390×844 browser checks confirm SVG loading, correct responsive source selection, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 after correcting metric-label contrast (run 42006633285).
+- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
 
 ### PHY-15-001 — Lenz's law: approaching and receding magnet
 
@@ -179,7 +179,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.1.
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 41989748138).
+- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
 
 ### PHY-15-002 — Motional EMF in a moving rod
 
@@ -213,7 +213,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.2.
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 41989748138).
+- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
 
 ### PHY-15-003 — Self-induction, RL transient, and LC oscillations
 
@@ -247,7 +247,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PENDING — project licence assignment required.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.3.
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 41989748138).
+- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
 
 ## Visual requirement review
 
