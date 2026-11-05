@@ -285,3 +285,24 @@ Chapter 13-E, 13-F and 13-H are now integrated. Chapter 13 has 7/11 planned visu
 | **Total** | **97** | **49** | **48** |
 
 Total newly authored local SVG assets in the November tranches: 41 (28 across Chapters 11–16 and 13 across Chapters 18–20). The 49/97 count is scoped to planned IDs in Chapters 11–20; it does not represent a whole-repository completion percentage.
+
+
+## Twelfth-tranche update — Chapter 14 — 5 November 2026
+
+Chapter 14-F, 14-H and 14-I are now integrated. Chapter 14 has 7/9 planned visuals; 14-D and 14-G remain open. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **52** | **45** |
+
+Total newly authored local SVG assets in the November tranches: 44 (31 across Chapters 11–16 and 13 across Chapters 18–20). Chapter 14's remaining 14-D colour-scale guidance and 14-G DEM/derivative map require further review; 14-G is dependent on a valid DEM source and metadata.
