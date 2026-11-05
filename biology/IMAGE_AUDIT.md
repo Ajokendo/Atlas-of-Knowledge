@@ -459,3 +459,8 @@ A new author-side educational botanical plate for *Fritillaria eduardii* was gen
 
 
 **Generated-file technical record:** source PNG, 1312 × 1199 px, RGB; optimized WebP derivative, 1312 × 1199 px, 179,740 bytes, SHA-256 `956c21e15206f7a8d65629ae9bc1496bea39b117654a8f438bcff1c320124481`. The derivative is available in the current conversation workspace; this hash is a local provenance record, not a GitHub repository checksum.
+
+
+### Aygul generated plate — repository integration (5 November 2026)
+
+The supplemental Category C botanical plate is now committed and referenced in `chapters/flora-kyrgyzstan.html` as `images/generated/flora-batken-aygul-botanical-plate.webp`. It is displayed as a separate educational illustration beside the original SVG, not as documentary evidence. The repository derivative is 320 × 292 px, 7,196 bytes, SHA-256 `b79cc139c33b4b19b5c1e72fa79885688cdd9c0202d6d402ad3f13348badf4c9`; the higher-resolution source remains in the conversation workspace. Bilingual alt text and captions explicitly state the six tepals/six stamens detail and the limits of inference (no fixed flower count, population size or precise locality). Detailed P1 scope is linked through `IMAGE_SCIENTIFIC_REVIEW.md`. Initial CI run 41968857255 found two metadata/insertion-map guard issues; the extra figure anchor was renamed so it does not create a new brief, and the P1 register row now links to the scientific review. A subsequent CI run is required to establish pass/fail; browser rendering is not yet claimed as passed.
