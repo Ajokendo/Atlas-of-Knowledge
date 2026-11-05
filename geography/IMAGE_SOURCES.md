@@ -1059,7 +1059,7 @@ The project owner selected **CC BY-NC 4.0** for the four Category C assets 01-A,
 - Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
 - Selection date: 5 November 2026.
 - Scope: the four named visual families; each has one local SVG file embedded in both language versions.
-- Attribution intent: identify the Atlas of Knowledge project and disclose AI assistance and modifications; final credit line awaits the authorised licensor/rightsholder decision.
+- Attribution: Atlas of Knowledge project; AI assistance and modifications are disclosed.
 - Restriction: noncommercial use only under the selected licence; adaptations are permitted under its conditions.
 - **Legal status:** project owner confirmed on 5 Nov 2026 that they or an authorised project organisation have authority to act as licensor and apply CC BY-NC 4.0. Rights status is PASS on that owner representation, not an independent legal opinion. The licence and attribution are stated in the chapter captions and SVG metadata.
 - The separate 01-D adaptation remains under its source's CC BY 4.0; no relicensing of GeogSage's source is implied.
