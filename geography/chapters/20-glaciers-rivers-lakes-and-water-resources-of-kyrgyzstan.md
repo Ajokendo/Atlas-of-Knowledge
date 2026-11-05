@@ -31,7 +31,16 @@ Water is one of Kyrgyzstan’s most important natural assets and a defining fact
 
 По данным национальных и региональных водохозяйственных материалов, средний многолетний речной сток, формирующийся на территории Кыргызстана, оценивается примерно в 44,5–51,9 км³ в год в зависимости от методики и периода. Для справки в региональном водном ежегоднике приводится оценка возобновляемых водных ресурсов около 46,5 км³ в год. Эти величины нельзя считать постоянным ежегодным объёмом: фактический сток меняется от года к году.
 
-Kyrgyzstan’s mountainous terrain makes it a major headwater region of Central Asia. Precipitation is stored seasonally as snow and over longer periods as firn and glacier ice. Meltwater, rainfall and groundwater discharge sustain rivers. Yet the label “water tower” should not obscure seasonal variability, downstream dependence, water quality, infrastructure constraints and transboundary governance.
+
+
+
+### English translation — 20.1
+
+Kyrgyzstan's high-mountain relief gives the country a special position in the hydrology of Central Asia. A substantial share of river runoff is generated in mountain areas, where precipitation is stored as seasonal snow, firn and glacier ice. Water then enters rivers through snowmelt, glacier melt, rainfall and groundwater discharge.
+
+Kyrgyzstan is often described as one of the region's important water-generating territories. However, the expression “water tower of Central Asia” does not mean that all water is available for use within the country's borders or that its distribution is independent of season. A significant share of runoff passes through transboundary basins, and water availability depends on the time of year, infrastructure, water quality and agreements among states.
+
+National and regional water-management materials provide different estimates of the long-term average river runoff generated within Kyrgyzstan, approximately 44.5–51.9 km³ per year, depending on method and period. A regional water yearbook gives an estimate of about 46.5 km³ per year for renewable water resources. These values are not a fixed annual volume: actual runoff varies from year to year.
 
 ## 20.2. Водный баланс и основные понятия / Water Balance and Key Concepts
 
@@ -69,6 +78,37 @@ P = ET + Q + \Delta S
 **Модуль стока** — расход воды, отнесённый к площади водосбора, обычно л/(с·км²).
 
 Важно не складывать запасы льда и озёр с ежегодным речным стоком без ясного указания, что сравниваются разные физические величины. Объём ледникового льда — многолетний запас; речной сток — поток за единицу времени.
+
+
+
+
+### English translation — 20.2
+
+The water balance describes the relationship between water input, storage and output within a defined area and period.
+
+A simplified water-balance equation for a catchment is:
+
+P = ET + Q + ΔS
+
+where:
+- **P** is precipitation;
+- **ET** is total evaporation and transpiration (evapotranspiration);
+- **Q** is runoff leaving the catchment; and
+- **ΔS** is the change in water storage in snow, glaciers, soil, lakes and groundwater.
+
+A real basin may require additional terms for inter-basin transfers, water abstraction, return flows, artificial regulation and exchange with neighbouring groundwater systems.
+
+**Water storage** is the amount of water held at a given time in glaciers, lakes, reservoirs, soil and groundwater.
+
+**Renewable water resources** are the volume of water replenished by the hydrological cycle over a defined period.
+
+**River runoff** is the volume of water passing through a river cross-section over a specified time.
+
+**River discharge** is the rate of water flow through a channel cross-section, usually expressed in cubic metres per second (m³/s).
+
+**Runoff depth or specific discharge** relates runoff to the area of a catchment; a common unit is litres per second per square kilometre (L/s/km²).
+
+Do not add glacier or lake storage to annual river runoff without stating that different physical quantities are being compared. Glacier-ice volume is a multi-year stock; river runoff is a flow over time.
 
 ## 20.3. Ледники Кыргызстана / Glaciers of Kyrgyzstan
 
@@ -139,6 +179,67 @@ P = ET + Q + \Delta S
 - изменения экосистем и высокогорных ландшафтов.
 
 Важно различать краткосрочный эффект усиленного таяния и долгосрочную устойчивость водоснабжения. На ранних стадиях ускоренного таяния сток некоторых рек может увеличиваться, но по мере истощения ледникового запаса вклад ледников в сухие сезоны может уменьшаться.
+
+
+
+
+### English translation — 20.3
+
+#### 20.3.1 Glacier formation and structure
+
+A glacier is a perennial mass of ice that forms where snow accumulation over a long period equals or exceeds losses through melting, evaporation and mechanical removal. Snow gradually compacts into firn and then into glacier ice.
+
+A glacier may contain:
+- an **accumulation area**, where snow builds up;
+- an **ablation area**, where mass losses dominate;
+- a **firn zone**, where snow is transformed into ice;
+- a **glacier tongue**, where one is developed;
+- crevasses, icefalls, moraines and proglacial water bodies.
+
+At the end of a mass-balance year, the boundary between accumulation and ablation approximately corresponds to the glacier equilibrium-line altitude (ELA). Its elevation changes from year to year and depends on temperature, precipitation, slope aspect, wind redistribution of snow and cloudiness.
+
+#### 20.3.2 Main glacier regions
+
+The largest glacier concentrations are associated with the high-mountain areas of the Tien Shan and Pamir-Alay:
+- the Central and Eastern Tien Shan, including the Kakshaal-Too, Ak-Shyyrak and Sary-Jaz areas;
+- the Terskey Ala-Too and Kungey Ala-Too ranges;
+- the Kyrgyz Range and its high mountain massifs;
+- the Alay and Trans-Alay ranges; and
+- high-mountain massifs of the Inner Tien Shan.
+
+Glacier distribution is determined not only by absolute elevation. The amount of solid precipitation, slope aspect, glacier-basin geometry, shading, wind redistribution of snow and summer temperature are also important.
+
+#### 20.3.3 Glacier types
+
+| Type | Characteristics | Typical landform |
+|---|---|---|
+| Valley glacier | Flows along a mountain valley | Long glacier tongue |
+| Cirque glacier | Occupies a bowl-shaped hollow near a valley head | Glacial cirque |
+| Hanging glacier | Lies on a steep slope above a main valley | Short ice mass |
+| Compound or network glacier | Several ice streams join within a valley system | Branched glacier network |
+| Ice cap or dome | Ice covers a substantial area of the surface | Ice dome or plateau |
+
+#### 20.3.4 Glacier mass balance
+
+Mass balance is the difference between accumulation and ice loss over a specified period. It is often expressed in metres of water equivalent per year (m w.e./yr).
+
+A positive balance means accumulation exceeds losses; a negative balance means the glacier loses mass. A negative balance in one year does not mean that a glacier will disappear immediately, but repeated negative values lead to a reduction in its thickness and area.
+
+A study of regional glacier mass balance in the Tien Shan and Pamir for 2000–2022 estimated an average loss of about −0.39 m water equivalent per year for the glaciers included in the analysis. This is a regional estimate, not a value for every glacier in Kyrgyzstan. Differences among massifs are substantial, and results depend on the method and dataset.
+
+#### 20.3.5 Glacier retreat and its consequences
+
+Air-temperature warming changes the balance between accumulation and melt. Many glaciers show area reduction, thinning and retreat of their termini. The rate of change is not uniform: individual glaciers may show complex behaviour because of avalanche nourishment, shading, relief and local precipitation.
+
+Consequences include:
+- changes in the seasonal distribution of river runoff;
+- formation and expansion of proglacial lakes;
+- changes in the stability of moraine and ice dams;
+- increased risk of some glacial-lake outburst floods;
+- reduction of long-term ice storage; and
+- changes in ecosystems and high-mountain landscapes.
+
+It is important to distinguish the short-term effect of accelerated melting from the long-term sustainability of water supply. During early stages of accelerated melt, runoff in some rivers may increase; as glacier storage is depleted, the contribution of glaciers during dry seasons may decline.
 
 ## 20.4. Реки и речные бассейны Кыргызстана / Rivers and River Basins of Kyrgyzstan
 
@@ -322,6 +423,61 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 | Мерцбахера | Ледниково-подпрудное | Высокогорье Иныльчека | Периодические прорывные сбросы |
 
 Высоты и морфометрические характеристики озёр могут различаться в справочниках из-за колебаний уровня, времени измерения и используемой системы высот. Перед выпуском картографических материалов значения следует привязать к конкретному источнику и дате.
+
+
+
+
+### English translation — 20.6
+
+Kyrgyzstan contains lakes of tectonic, glacial, landslide-dammed, karst and mixed origin. They differ in depth, mineralisation, surface area, elevation and degree of connection to the river network.
+
+#### 20.6.1 Issyk-Kul
+
+Issyk-Kul is the largest lake in Kyrgyzstan and one of the world's largest high-mountain lakes. It lies in an intermontane tectonic basin between the Kungey Ala-Too and Terskey Ala-Too ranges.
+
+Key characteristics include:
+- surface elevation of about 1,609 m above sea level, according to the National Water Resources Management Plan; the level fluctuates;
+- surface area of about 6,280 km² according to the same plan; area changes with lake level;
+- length of about 177 km;
+- maximum width of about 60 km;
+- maximum depth of about 668 m; and
+- brackish water; the lake is endorheic and has no natural surface outlet.
+
+Many rivers and streams flow into the lake, including the Tyup, Jergalan, Karakol, Juu-Ku and Barskoon. Groundwater exchange may also contribute to the lake's water balance. The absence of a surface outlet promotes the accumulation of dissolved substances.
+
+The level of Issyk-Kul has changed in historical and modern times under the influence of climate, river inflow, evaporation and water abstraction. Any description of its dynamics should state the observation period.
+
+#### 20.6.2 Song-Kul
+
+Song-Kul is a high-mountain freshwater lake in Naryn Region, located in an intermontane basin at about 3,016 m. It is important for high-mountain pastures, seasonal livestock farming, waterbirds and nature tourism.
+
+The lake is shallower than Issyk-Kul, and its level and area vary seasonally and over longer periods. Its shores and adjacent wetlands provide valuable habitats. Economic use should be coordinated with the conservation of wetland ecosystems.
+
+#### 20.6.3 Chatyr-Kul
+
+Chatyr-Kul lies in a high-mountain basin near the Chinese border at an elevation of about 3,530 m. It is an endorheic lake in a cold climate, with substantial seasonal changes in conditions. It is important for waterbirds and protected high-mountain ecosystems.
+
+#### 20.6.4 Sary-Chelek
+
+Sary-Chelek is a deep mountain lake in the Western Tien Shan, formed by natural damming of a valley. It lies within the Sary-Chelek Biosphere Reserve and is surrounded by forest and mountain ecosystems. The lake and its surroundings have exceptional conservation and scientific value.
+
+#### 20.6.5 Merzbacher Lake and high-mountain glacial lakes
+
+Merzbacher Lake is located in the Inylchek glacier area of the Central Tien Shan. It is known for periodic outburst events, when water accumulated in the ice-dammed lake is released. This natural phenomenon is important for glaciology and hazard monitoring.
+
+In addition to large lakes, high-mountain areas contain small cirque, moraine-dammed and glacier-dammed water bodies. Their number, area and stability change as glaciers retreat and moraine complexes are reorganised.
+
+#### 20.6.6 Comparison of major lakes
+
+| Lake | Origin / type | Approximate elevation | Main characteristics |
+|---|---|---:|---|
+| Issyk-Kul | Tectonic | about 1,609 m | Large, deep, endorheic, brackish lake |
+| Song-Kul | Intermontane; tectonic and glacial-geomorphic influence | 3,016 m | High-mountain freshwater lake, pastures and wetland habitats |
+| Chatyr-Kul | Intermontane, endorheic | 3,530 m | Cold high-mountain lake near the Chinese border |
+| Sary-Chelek | Landslide-dammed | about 1,873 m | Deep lake in the Western Tien Shan |
+| Merzbacher | Glacier-dammed | High-mountain Inylchek area | Periodic outburst events |
+
+Lake elevations and morphometric characteristics may differ among reference sources because of water-level fluctuations, measurement dates and vertical reference systems. Before publication, values on maps should be tied to a specific source and date.
 
 ### 20.6.7. Современная динамика малых ледниковых озёр / Recent Dynamics of Small Glacial Lakes
 
