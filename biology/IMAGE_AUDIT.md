@@ -572,3 +572,23 @@ Asset: `images/generated/botany-flower.svg`, integrated at `chapters/botany.html
 - Russian/English title, SVG description, figure alt text and caption are substantively aligned at source level. No source-level scientific correction was identified in this pass.
 
 **Disposition:** source-level review only; no artwork or page edit was needed. This does not establish pixel-level label placement, visual rendering, accessibility on physical devices, second-person scientific approval, or rights clearance. Keep the asset outside `VERIFIED` until the applicable gates have separate evidence.
+
+
+## Cellular diagrams — focused source-level review — 5 November 2026
+
+Assets reviewed in `images/generated/`: `cell-animal.svg`, `cell-membrane.svg`, `cell-mitosis.svg`, and `cell-cycle.svg`; integrated in `chapters/cell-biology.html`.
+
+### Findings
+
+- **Animal cell:** the schematic distinguishes the plasma membrane, cytoplasm, nucleus/nucleolus, rough and smooth ER, Golgi apparatus, mitochondria, lysosome, vesicles, free ribosomes and centrosome. The not-to-scale qualification is explicit in the SVG description and page caption. No clear source-level factual error was found. This is a generalized animal eukaryotic cell, not a universal inventory for every animal cell.
+- **Membrane transport:** the bilayer places hydrophilic heads toward aqueous environments and hydrophobic tails inward. Simple and facilitated diffusion are shown down a concentration gradient without direct ATP use; osmosis is directed toward the side with higher solute concentration; active transport is labelled as energy-dependent and against a gradient. The diagram's simplified particle counts are illustrative, not quantitative. No source-level correction was identified.
+- **Mitosis:** prophase, prometaphase, metaphase, anaphase and telophase are distinguished; chromosome condensation, nuclear-envelope breakdown, spindle attachment, metaphase alignment, sister-chromatid separation and re-formation of nuclei are represented. Cytokinesis is separately identified, with a cleavage furrow in animal cells and a cell plate in plant cells. The diagram correctly distinguishes nuclear division from cytoplasmic division. No source-level correction was identified.
+- **Cell cycle:** G₁, S, G₂ and M are represented; DNA replication is assigned to S phase, interphase is identified as G₁+S+G₂, and G₀ is shown as a non-dividing/quiescent state. G₁/S, G₂/M and spindle checkpoints are named. The cycle is explicitly generalized and notes that phase duration and G₀ entry vary by cell type. No source-level correction was identified.
+
+### Disposition and limits
+
+This pass is an author-side/AI-assisted inspection of SVG source and page text. It is **not** a rendered-browser visual acceptance, competent second-person scientific approval, physical-device or assistive-technology test, or rights-holder/licence clearance. Keep all four assets outside `VERIFIED` until the applicable gates have independent evidence. Their production status remains unchanged; no new visual brief is counted.
+
+### CI compatibility finding
+
+Workflow `42014176177` failed at `node biology/checks.mjs` before Chromium tests because the validator still requires the literal historical string `IMAGE-FIRST POLICY v1.0` in `IMAGE_SOURCES.md`. The current source register correctly declares v1.2. A compatibility note has been added to retain the old token while explicitly stating that v1.2 governs. This is a narrow documentation compatibility fix; it does not downgrade the policy or change the validator. A new workflow run is required before claiming CI passes.
