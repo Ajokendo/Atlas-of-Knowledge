@@ -596,9 +596,6 @@ A line on a political map may represent a boundary with a particular legal and c
 
 ### Worked example: comparing voter turnout across districts
 
-
-### Worked example: comparing voter turnout across districts
-
 The figures below are hypothetical and do not describe a real election. For this exercise, turnout means the number of people who cast a ballot divided by the number of registered voters. In real datasets, check the election authority's exact definition and whether the numerator includes all ballots cast, including blank or invalid ballots.
 
 | Indicator | District A | District B | Total |
