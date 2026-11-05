@@ -236,7 +236,7 @@ The current chapter text and SVG preserve the key distinctions: 2021 pressure-de
 
 ## Chapter 05 — Atmosphere and climatology (source-register migration, 5 November 2026)
 
-The former chapter-specific register at `visuals/chapter-05-visual-register.md` remains available as the production history and integration index. The records below consolidate its 16 integrated visual IDs into this subject-wide provenance register. Aliases are retained to prevent duplicate counting. Integration and bilingual source parity were checked in the chapter Markdown (40 embeds, 20 unique image URLs, each URL present once in RU and once in EN); this does not establish scientific sign-off, complete rights clearance, or deployed rendering.
+The former chapter-specific register at `visuals/chapter-05-visual-register.md` remains available as the production history and integration index. The records below consolidate its 16 pre-existing integrated visual IDs and the newly created 5.18-A into this subject-wide provenance register. Aliases are retained to prevent duplicate counting. Integration and bilingual source parity were checked in the chapter Markdown (42 embeds, 21 unique image URLs, each URL present once in RU and once in EN); this does not establish scientific sign-off, complete rights clearance, or deployed rendering.
 
 **Important rights rule:** a source page, institutional domain, or an existing embed is not by itself a licence. Where the exact media-file terms or project-SVG rightsholder are not established below, rights remain Unknown / PENDING.
 
@@ -262,7 +262,7 @@ The former chapter-specific register at `visuals/chapter-05-visual-register.md` 
 
 ### Chapter 05 source-register limitations and next actions
 
-- The chapter-level register's 16 integrated IDs are now represented above; 5.18-A is deliberately not counted as integrated.
+- The 16 pre-existing integrated IDs plus the newly integrated 5.18-A are represented above as 17 named integrated visual IDs; the chapter inventory still contains two unnamed slots requiring reconciliation.
 - The original chapter-specific register remains as a production-history record, not a second competing source of truth.
 - For all project-local SVGs in Chapter 05, obtain creator/rightsholder, authoring workflow and project-licence evidence; do not assume repository ownership establishes rights or claim AI authorship without provenance.
 - For external assets, capture the exact file revision, individual creator/credit, licence or permission and all grouped component-file URLs. Highest-priority rights follow-up: 5.3-A (IPCC/UCAR figure), 5.5-A, 5.6-A, 5.7-A and the component files grouped under 5.8-A.
