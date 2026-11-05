@@ -107,7 +107,7 @@ The mandatory image standard has been applied to the Biology documentation basel
 - `IMAGE_SOURCES.md` — source/rights index for 15 documentary photographs and original project artwork, with links to the individual audit reports and machine-readable manifests.
 - `IMAGE_AUDIT.md` — consolidated scientific, legal, bilingual and technical audit, current metrics, open remediation queue and acceptance rules.
 
-The 53/53 figure remains production/integration coverage only. It must not be interpreted as 100% Image Verification. The new audit records that 33 register rows still explicitly retain pending visual, morphology or browser-review notes; this is a triage count, not proof that the other 20 passed every manual gate. Existing detailed per-asset evidence and historical records are preserved.
+The 53/53 figure remains production/integration coverage only. It must not be interpreted as 100% Image Verification. The current counts are 45/53 disposition-register rows with at least one pending/open note and 37/53 brief-review rows with pending visual/browser/morphology notes; these are triage counts, not proof that other rows passed every manual gate. Existing detailed per-asset evidence and historical records are preserved.
 
 
 ## Project boundary: no external review or expertise during this project — 5 November 2026
