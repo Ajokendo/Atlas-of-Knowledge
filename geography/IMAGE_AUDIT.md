@@ -734,3 +734,8 @@ The new local SVG passed static source checks (`viewBox`, bilingual title/descri
 
 
 The newly integrated Chapter 05 local atmosphere-layer SVG (5.2-A) was fetched and checked for the same five structural elements; all are present. The English section now uses the same local bilingual SVG as the Russian section, replacing the former German-language CC0 candidate. A fresh chapter scan confirms 21 image URLs in each language, exact URL parity, and 42 total embeds.
+
+
+### Chapter 05 — consolidated local SVG source check — 5 November 2026
+
+The Chapter 05 local-SVG inventory now contains 10 files: the original eight checked above, plus the new 5.18-A synoptic/climate SVG and the replacement 5.2-A atmosphere-layers SVG. Static source checks on both new files confirm a `viewBox`, bilingual `title` and `desc`, `role="img"`, Cyrillic and Latin text, and no `script`, `foreignObject` or embedded `image` element. Together with the earlier eight-file check, all 10 local SVGs have passed this limited structural check. This is not XML schema validation, visual rendering, contrast/accessibility QA, or browser/device testing; technical and accessibility statuses remain PENDING.
