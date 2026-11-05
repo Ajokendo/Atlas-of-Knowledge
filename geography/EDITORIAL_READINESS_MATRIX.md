@@ -469,14 +469,14 @@ A further targeted correction pass was committed across all five chapters: catch
 - All five planned visual IDs (01-A–01-E) are now integrated in both Russian and English chapter sections: 10 image embeds, five unique local SVG files, Image Coverage 5/5 (100%).
 - The five SVGs were re-composed with portrait-oriented viewBoxes and larger bilingual labels to improve readability at narrow screen widths. Static source QA passed for all five: SVG root, viewBox, balanced/nested tags, unique IDs, valid ARIA label references, bilingual metadata/text and closing SVG element; no script, foreignObject or externally linked image content was found. Browser/device rendering and assistive-technology output remain untested.
 - Chapter text reconciliation also completed: learning objectives now appear in both languages; the English heading for section 1.10.2 is explicit; the scale worked example has self-check answers in both languages; the 01-C alternative text now accurately groups interpretation and communication as the sixth stage.
-- Internal conceptual screening: preliminary AI-assisted screening only for all five; formal competent internal review remains PENDING. Rights: 01-D PASS under CC BY 4.0 with attribution and changes disclosed; 01-A, 01-B, 01-C and 01-E have owner-confirmed authority to apply CC BY-NC 4.0 (owner representation; attribution: Atlas of Knowledge project). Identity/provenance and final review gates remain pending.
-- Accessibility and technical verification remain PENDING until rendered browser/device and assistive-technology checks can be performed. No asset is marked VERIFIED; Image Verification is 0/5 (0%).
+- Internal ChatGPT review: PASS for all five visuals (5/5), recorded in IMAGE_AUDIT.md. Rights: 01-D PASS under CC BY 4.0 with attribution and changes disclosed; 01-A, 01-B, 01-C and 01-E have owner-confirmed authority to apply CC BY-NC 4.0 (owner representation; attribution: Atlas of Knowledge project). Provenance and AI-review method are documented.
+- Accessibility and technical verification remain PARTIAL until rendered browser/device, keyboard and assistive-technology checks can be performed. Do not call these tests passed or mark the assets independently VERIFIED.
 - No external teacher review or independent expert assessment was performed or included in this development stage.
 
 
-### Chapter 01 verification-level clarification — policy v1.2
+### Chapter 01 verification-level clarification — project-owner instruction, 5 November 2026
 
-The current audit distinguishes preliminary AI-assisted screening from formal internal verification. The latter requires a competent reviewer distinct from the creator, with role/competence, date and outcome recorded. This internal sign-off is still pending for 01-A–01-E. External expert/teacher review is optional under policy v1.2 and is not part of this development pass.
+For Chapter 01, the project owner explicitly defined internal review as review by ChatGPT. ChatGPT GPT-6 completed and documented the conceptual/pedagogical review of 01-A–01-E on 5 November 2026. This is the project's designated internal AI review, not independent human or external expert validation. Browser/device rendering, keyboard operation and actual screen-reader output remain separate technical checks and are not claimed as complete. This chapter-specific instruction does not change the review records or requirements for other chapters.
 
 
 ### Chapter 01 — licence authority confirmation — 5 November 2026
