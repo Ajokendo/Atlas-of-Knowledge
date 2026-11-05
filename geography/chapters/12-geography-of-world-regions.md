@@ -505,7 +505,7 @@ Regional comparison begins with a question: what exactly is being compared, and 
 
 Сравнение стран по номинальному ВВП на душу населения не показывает само по себе, сколько товаров и услуг люди могут приобрести внутри каждой страны. Номинальные показатели переводят в общую валюту по рыночному обменному курсу, который меняется и может резко колебаться. Для сравнения материального уровня жизни часто используют показатели по паритету покупательной способности (ППС), учитывающие различия в уровнях цен.
 
-**Два вопроса — два показателя.** Номинальный ВВП удобен для анализа международных финансовых потоков и способности покупать товары на мировом рынке. ВВП на душу населения по ППС лучше подходит для приблизительного сравнения объёма внутреннего производства и покупательной способности в разных странах. Ни один из этих показателей не описывает распределение доходов, качество государственных услуг, неоплачиваемый труд или экологические издержки.
+**Два вопроса — два показателя.** Номинальный ВВП удобен для анализа международных финансовых потоков и способности покупать товары на мировом рынке. ВВП на душу населения по ППС лучше подходит для приблизительного сравнения объёма производства и общего уровня цен в разных странах. Для оценки материального потребления домохозяйств показатель фактического индивидуального потребления (AIC) на душу населения по ППС часто информативнее: он учитывает индивидуальные товары и услуги, оплаченные не только самими домохозяйствами, но и государством или некоммерческими организациями. Ни один из этих показателей не описывает распределение благ внутри страны, неоплачиваемый труд или все экологические издержки.
 
 **Условный пример.** Если номинальный ВВП на душу населения страны А равен 4 000 долларов, а показатель по ППС — 9 000 международных долларов, эти числа не противоречат друг другу: они отвечают на разные вопросы и выражены в разных единицах. Нельзя называть международный доллар обычной валютой или обменивать его по банковскому курсу.
 
@@ -515,7 +515,7 @@ Regional comparison begins with a question: what exactly is being compared, and 
 
 Comparing countries by nominal GDP per capita alone does not show how much people can buy within each country. Nominal values are converted into a common currency using market exchange rates, which change and may fluctuate sharply. For comparisons of material living standards, purchasing power parity (PPP) measures are often used to account for differences in price levels.
 
-**Two questions, two indicators.** Nominal GDP is useful for analysing international financial flows and the ability to purchase goods on world markets. GDP per capita at PPP is more suitable for an approximate comparison of domestic output and purchasing power across countries. Neither indicator describes income distribution, the quality of public services, unpaid work or environmental costs.
+**Two questions, two indicators.** Nominal GDP is useful for analysing international financial flows and the ability to purchase goods on world markets. GDP per capita at PPP is more suitable for an approximate comparison of output and overall price levels across countries. To assess the material consumption of households, PPP-based actual individual consumption (AIC) per capita is often more informative: it includes individual goods and services funded not only by households themselves but also by government and non-profit institutions. Neither indicator describes the distribution of benefits within a country, unpaid work or all environmental costs.
 
 **Hypothetical example.** If country A has nominal GDP per capita of 4,000 US dollars and GDP per capita at PPP of 9,000 international dollars, the figures do not contradict each other: they answer different questions and use different units. An international dollar is not an ordinary currency and cannot be exchanged at a bank rate.
 
@@ -839,6 +839,7 @@ Do not simply average the two national indicators: (20,000 + 10,000) / 2 = USD 1
 8. Antarctic Treaty Secretariat. **The Antarctic Treaty** — official treaty text and summary of Articles I–IV, including peaceful use, scientific cooperation and the status of territorial claims. https://www.ats.aq/e/antarctictreaty.html
 9. National Geographic Society. **Encyclopedic and educational geography resources** — справочные материалы по физической и региональной географии.
 10. Knox, P., Marston, S., Imort, M. **Human Geography: Places and Regions in Global Context**. Pearson.
+12. World Bank. **International Comparison Program (ICP) — FAQ and Concepts and Definitions.** Definitions of PPP-based GDP, household consumption and actual individual consumption (AIC). https://www.worldbank.org/en/programs/icp/faq
 11. Dou, Y., Huang, Q., He, C., Meng, S., & Zhang, Q. (2018). **Rapid Population Growth throughout Asia’s Earthquake-Prone Areas: A Multiscale Analysis.** *International Journal of Environmental Research and Public Health*, 15(9), 1893. Figure 1: Asia elevation and regional divisions. https://doi.org/10.3390/ijerph15091893. Open access under CC BY 4.0.
 
 ---
