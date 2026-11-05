@@ -422,3 +422,22 @@ A historical Naryn River gauge candidate was identified: UNH Water Systems Analy
 - **Image Verification:** report separately; integration does not imply VERIFIED. Newly authored SVGs still require formal project creator/licence assignment, independent scientific sign-off, accessibility review and rendered browser/device checks. External images also require deployed load/responsive checks.
 - Supplementary research figures in Chapters 17 and 20 are not counted among planned IDs.
 - The repository-wide unique-asset total remains unreconciled (legacy headline 231 vs chapter inventory sum 283); do not extrapolate the 62/97 scoped result to the whole repository.
+
+
+## Latest scoped snapshot — Chapters 11–20 — 5 November 2026 (after Chapters 14–15 integration)
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 8 | 1 |
+| 15 | 11 | 11 | 0 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **67** | **30** |
+
+**Image Coverage:** 67/97 (69%) of planned visual IDs in Chapters 11–20 are integrated. Chapter 15 is now 11/11; Chapter 14 is 8/9, with only 14-G (a source-backed DEM and derivatives) still open. Image Verification remains separate and must not be inferred from integration.
