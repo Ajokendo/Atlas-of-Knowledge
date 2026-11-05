@@ -1013,3 +1013,16 @@ Both new SVGs were re-fetched from the working branch and passed source-level ch
 | **Total** | **97** | **41** | **56** |
 
 This 41/97 table supersedes earlier 39/97, 34/97 and 28/97 snapshots. The supplementary 2019 glacial-lake research figure in Chapter 20.6.7 remains additional and is not counted as a planned ID. Project licensing, specialist approval and rendered accessibility checks remain outstanding for original SVGs.
+
+
+### Chapter 20-E — transboundary water management
+
+| Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|
+| INTEGRATED | PASS as a conceptual comparison; it is explicitly not a basin map or quantitative allocation diagram | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Separates Chu–Talas cooperation (Kyrgyzstan–Kazakhstan and the interstate commission) from Naryn–Syr Darya reservoir, hydropower and downstream irrigation coordination. Uses existing UNECE, CAWater-Info and AF NWRMP chapter sources. |
+
+Static SVG structure and chapter embed were checked. The schematic does not replace a georeferenced basin map, treaty/allocation table or seasonal flow dataset.
+
+### Superseding Chapter 11–20 count — 5 November 2026
+
+Chapter 20 now has 8/11 planned IDs integrated (20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J, 20-K); three remain open (20-A, 20-B and 20-G). Total scoped integration is 42/97; 55 remain missing. The 41/97 table above is superseded.
