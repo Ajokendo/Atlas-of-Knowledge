@@ -693,3 +693,10 @@ This PASS is limited to the stated scientific conventions and synthetic data. It
 A comparison of the SVG with the adjacent chapter text found that the text listed seven broad belt types, including the subequatorial belt, while the diagram omitted the subequatorial zones in both hemispheres. Added the missing northern and southern subequatorial bands and updated the SVG description. A post-update source scan confirms 13 labelled zones: six paired belt types (polar, subpolar, temperate, subtropical, tropical and subequatorial) plus the equatorial belt shared at the centre.
 
 **Result:** alignment with the chapter's seven belt types PASS at the conceptual classification level. Boundaries remain schematic and must not be presented as precise global boundaries; local/regional climate controls and seasonal shifts remain noted. Detailed scientific review of the exact geographic boundaries, rights/creator provenance, accessibility and rendered layout remain PENDING.
+
+
+### Chapter 05 — bilingual SVG accessibility descriptions
+
+A content-level pass found that several SVG `<desc>` elements were English-only, while one was Russian-only. Updated the descriptions for 5.7-B, 5.9-A, 5.12-A, 5.14-A, 5.15-A, 5.16-A and 5.17-A to provide Russian and English descriptions; 5.1-A already contained both languages. A post-update fetch confirms **8/8 local Chapter 05 SVG descriptions contain both Cyrillic and Latin text**. The descriptions summarise each graphic's subject and relevant limits (including synthetic data for 5.17-A and the seven climate-belt types for 5.12-A).
+
+**Result:** presence of bilingual SVG descriptions PASS. Detailed semantic quality, screen-reader output, contrast and rendered layout remain PENDING.
