@@ -577,7 +577,13 @@ The hydrological cycle is the continuous movement of water among the ocean, land
 
 Its main processes include evaporation from oceans, water bodies and soil; plant transpiration; condensation; atmospheric moisture transport; precipitation; infiltration into soil; percolation into aquifers; surface and groundwater runoff; storage in glaciers and snow cover; melting; and sublimation.
 
-**Evapotranspiration** combines evaporation from surfaces and transpiration by plants. A water balance for an area can be expressed through precipitation, evaporation and changes in water storage. Catchment analysis also accounts for inflows and outflows.
+**Evapotranspiration** combines evaporation from surfaces and transpiration by plants. For a catchment over a selected period, the general water-balance principle is:
+
+\[
+\text{Inflow} - \text{Outflow} = \Delta S,
+\]
+
+where \(\Delta S\) is the change in water storage. For a simplified natural catchment with no external transfers and negligible groundwater exchange, this is often written as \(P = ET + R + \Delta S\): precipitation equals evapotranspiration, runoff and the change in storage. This is not a universal formula for every basin. Where groundwater inflow or outflow, water withdrawals, return flows, canals or reservoirs are significant, those terms must be included separately with the correct sign. All terms must refer to the same catchment boundary and period and use consistent units (for example, millimetres per year).
 
 The cycle operates at different scales:
 - a **small oceanic cycle**, with evaporation and precipitation occurring over the ocean;
