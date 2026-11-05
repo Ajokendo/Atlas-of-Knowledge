@@ -1247,3 +1247,12 @@ Static source checks confirm SVG boundary, viewBox, title, description, role=img
 | 18-C | INTEGRATED — three photographs | PASS WITH SCOPE NOTE — photographs identify the named mountains/landscape, but are not used to infer elevations | PASS — exact file pages confirm CC BY-SA 4.0 (Maryliflower), CC BY 2.0 (Chen Zhao) and CC0 1.0 (Benoît Vicart); attribution/links included | PASS — bilingual alt text and credit captions | PENDING — alt text present; visual contrast and assistive-tech review pending | PENDING — external Wikimedia thumbnail loading and responsive display not tested in deployed reader | Three separate images, not a stitched panorama. Height labels are supported by separate official sources. |
 
 The images were visually inspected from their Commons file pages. The source files are unchanged. Browser/mobile and screen-reader checks remain open; therefore 18-C is INTEGRATED, not VERIFIED.
+
+
+## Chapter 17 — Visual 17-F — source discovery checkpoint — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 17-F | MISSING — no map generated or embedded | PENDING — candidate catalogue and fault data found; national clipping boundary, period, magnitude threshold and completeness must be checked | PASS for candidate source terms — World Bank earthquake catalogue and active-fault dataset pages state CC BY 4.0; derived map attribution still to be authored | PENDING | PENDING | PENDING | Candidate sources: HECCA earthquake catalogue and Central Asia Seismic Fault Database, both covering five countries plus 300 km buffer. Do not present selected faults as a complete national inventory. Next: inspect data package metadata and verify the country boundary and chosen event filter before map production. |
+
+The 2024 NHESS paper is open access under CC BY 4.0 and documents the harmonisation methods, data limitations and selected fault compilation. It does not remove the need to check the actual dataset fields, CRS, catalogue completeness and Kyrgyzstan clipping boundary. Visual 17-F remains MISSING until a map is generated and integrated.
