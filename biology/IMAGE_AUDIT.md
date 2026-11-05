@@ -635,7 +635,7 @@ The edits were saved directly to `workspace/biology`. They are source-level corr
 
 ## Evaluation governance — school-teacher assessment after development — 5 November 2026
 
-Independent evaluation is **not part of the atlas development workflow**. The project owner has specified that it will take place as a separate event after development, with subject-specialist school teachers.
+All external evaluation and expertise are excluded from this project entirely. Any outside work is a separate process, not a project phase or deliverable.
 
 Development-phase acceptance therefore relies on documented source-based review, honest scope and uncertainty statements, correct taxonomy and locality claims, attribution/rights checks, bilingual editorial quality, and technical/browser/accessibility testing. The development team must not claim school-teacher approval before that event, but must also not hold development completion open merely because the future evaluation has not yet occurred. Teacher findings belong in a separate post-development evaluation report and can guide later revisions.
 
@@ -651,3 +651,12 @@ Seven existing SVG assets were re-read directly from `workspace/biology`: the Na
 - **Batken arithmetic check:** the figure's 4,146 total is arithmetically consistent with the two cited components (759 + 3,387). The SVG correctly labels the animals only as `Marmota spp.` and describes the figure as the 2026 spring survey result, not a permanent population estimate. This check confirms arithmetic and consistency with the recorded source summary; it is not a fresh independent census-source audit.
 - **Aygul taxonomy text:** the plate uses `Fritillaria eduardii` as the accepted name and `Petilium eduardii` as a synonym, consistent with the recorded Kew POWO reference. The illustration remains schematic; the existing cautions about bulb/capsule detail, proportions and rights clearance remain open.
 - No other asset was relabelled `VERIFIED`. Focused rendered review, detailed morphology acceptance, manual device/accessibility checks and rights clearance remain separate gates. No overall verification percentage is inferred from this batch.
+
+
+## Project boundary: no external review or expertise during this project — 5 November 2026
+
+The project owner's definitive instruction is that **all external checking, review, assessment, peer review, specialist expertise, certification and expert sign-off are excluded from the Atlas of Knowledge project**. No external person, school teacher, university, laboratory, NGO, company, consultant or other organisation is to be engaged to inspect, approve, certify or evaluate the atlas as part of this project's work. Do not list any external review as a development task, acceptance gate, pending item, blocker or planned project deliverable. Do not create an EXTERNALLY VERIFIED status for project acceptance.
+
+All quality assurance within this project is performed by the project team: editorial review; fact-checking against published primary/authoritative sources; taxonomy, locality, date and numerical consistency checks; transparent uncertainty notes; attribution and rights review; bilingual checks; code, browser, accessibility and visual-rendering tests. These are internal development controls and must be described as such. Citing or consulting published external literature, datasets, standards, image licences or official records is permitted and remains necessary; this is evidence research, **not external expertise or an external review of the atlas**.
+
+Any external evaluation, consultation, expert review, school-teacher assessment, certification or other outside work is wholly separate from this project and must not be included in its scope, schedule, progress metrics or completion criteria. If such work is later undertaken independently, it belongs to a separate process and separate records. Historical references in this document to pending independent, second-person external or specialist review are superseded by this rule; they must not be interpreted as open project tasks. Genuine internal evidence gaps, unresolved rights questions, editorial defects and technical QA issues remain valid internal tasks.
