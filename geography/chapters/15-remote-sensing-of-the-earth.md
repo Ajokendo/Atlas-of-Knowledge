@@ -32,8 +32,9 @@ This chapter introduces the physical principles of remote sensing, the electroma
 
 ## 15.2. Электромагнитное излучение и спектральные диапазоны / Electromagnetic Radiation and Spectral Regions
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 15-A / IMAGE PLACEHOLDER 15-A]** Спектральная шкала видимого, ближнего ИК, коротковолнового ИК, теплового ИК и микроволнового диапазонов.
-> **EN:** Spectral-range scale showing visible, near-infrared, shortwave-infrared, thermal-infrared and microwave regions.
+![Спектральные диапазоны ДЗЗ: видимый, ближний и коротковолновый ИК, тепловой ИК и микроволны / Remote-sensing spectral regions: visible, NIR, SWIR, thermal IR and microwave](../assets/diagrams/15-A-electromagnetic-spectrum-bilingual.svg)
+
+*Оригинальная двуязычная схема; диапазоны приблизительны, границы зависят от принятой классификации и характеристик сенсора. / Original bilingual diagram; ranges are approximate and boundaries depend on classification and sensor specifications.*
 
 Электромагнитное излучение характеризуется длиной волны и частотой. В дистанционном зондировании применяют видимый свет, ближний и коротковолновый инфракрасный диапазоны, тепловое инфракрасное излучение и микроволны.
 
