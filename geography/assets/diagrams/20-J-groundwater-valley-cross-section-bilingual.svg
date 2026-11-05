@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Подземные воды горной долины / Groundwater in a mountain valley</title>
+<desc id="desc">Концептуальный разрез горной долины с зоной питания на склонах, безнапорным водоносным горизонтом в аллювии, водоупорным слоем, более глубоким водоносным горизонтом, скважиной и выходом источника. Не является геологическим разрезом конкретной местности. / Conceptual mountain-valley cross-section showing recharge on slopes, an unconfined alluvial aquifer, an aquitard, a deeper aquifer, a well and a spring. Not a geological section of a specific site.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:20px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.rock{fill:#d8c8ae;stroke:#8b7657;stroke-width:4}.aquifer{fill:#9ed3e5;stroke:#367f9e;stroke-width:3}.aquitard{fill:#d3c8a7;stroke:#927d54;stroke-width:2}.water{stroke:#287fa7;stroke-width:5;fill:none}.arrow{stroke:#287fa7;stroke-width:5;fill:none;marker-end:url(#ar)}</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#287fa7"/></marker></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<text x="600" y="52" text-anchor="middle" class="h">Подземные воды горной долины / Groundwater in a mountain valley</text>
+<path class="rock" d="M40 280 L200 130 L340 250 L470 350 L610 360 L760 330 L900 230 L1050 110 L1160 260 L1160 610 L40 610Z"/>
+<path class="aquifer" d="M300 420 Q450 460 600 445 Q780 420 900 365 L960 420 L900 520 Q700 565 520 555 L340 520Z"/>
+<path class="aquitard" d="M250 540 Q500 580 720 560 L980 520 L1040 570 L900 610 L300 610Z"/>
+<path class="aquifer" d="M330 580 Q580 610 850 585 L980 570 L1040 610 L300 640Z"/>
+<path d="M430 280 Q500 320 550 350" class="water" stroke-dasharray="9 8"/>
+<path d="M880 250 Q840 320 800 385" class="arrow"/>
+<path d="M650 440 Q700 420 750 410" class="arrow"/>
+<path d="M550 400 L550 565" stroke="#455d6a" stroke-width="9"/><path d="M535 400 H565" stroke="#455d6a" stroke-width="9"/>
+<path d="M900 345 Q950 335 980 360" class="water"/>
+<text x="90" y="115" class="t">Зона питания / Recharge zone</text>
+<text x="420" y="390" class="t">Аллювиальный горизонт / Alluvial aquifer</text>
+<text x="430" y="590" class="t">Водоупор / Aquitard</text>
+<text x="700" y="650" class="s">Глубокий водоносный горизонт / Deeper aquifer</text>
+<text x="560" y="300" class="t">Скважина / Well</text>
+<text x="950" y="315" class="t">Источник / Spring</text>
+<text x="600" y="680" text-anchor="middle" class="s">Слои и направления потока условны; строение реального водоносного горизонта требует полевых данных. / Layers and flow directions are schematic; a real aquifer requires field data.</text>
+</svg>
