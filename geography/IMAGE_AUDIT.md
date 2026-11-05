@@ -1443,3 +1443,15 @@ The designated internal reviewer for this development pass is ChatGPT GPT-6. Spe
 - Original local SVGs 2-A, 2.1-A, 2.2-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.11-A, 2.12-A and 2.14-A: no public licence asserted; rights-holder/licensing authority not established in the record; not cleared for public reuse. Embedded rights-status metadata has been added to all 11 files. Do not label these assets CC BY-NC 4.0.
 - The four Chapter 01 SVGs previously confirmed by the user for CC BY-NC 4.0 remain a separate, explicitly scoped group; that confirmation is not expanded by this record.
 - Administrative documentation is complete (12/12). Legal clearance for public reuse of the 11 Chapter 02 SVGs is not granted or implied. Technical browser/accessibility checks remain separate.
+
+
+## Chapter 02 — replacement discovery milestone — 5 November 2026
+
+- Created [CHAPTER_02_VISUAL_REPLACEMENT_PLAN.md](CHAPTER_02_VISUAL_REPLACEMENT_PLAN.md), a per-asset decision matrix for the 11 local SVGs whose records say NO PUBLIC LICENCE ASSERTED / NOT CLEARED FOR REUSE.
+- Four replacements have source/rights evidence strong enough to proceed to integration checks: 2.5-A (USGS Plate Boundary Types, explicit Public Domain statement), 2.8-A (Open University OpenLearn Figure 1.7; OU course material CC BY-NC-SA 4.0 and the figure is not listed among the proprietary exceptions), 2.12-A (SERC EarthLabs / National Academies positive-negative feedback diagram, item-level CC BY-NC-SA 3.0), and 2.14-A (Planetary Health Check 2026 Figure 3, explicit CC BY 4.0 with PBScience 2026 credit).
+- Additional candidates: 2-A (CK-12 four-sphere graphic, CC BY-SA 3.0) and 2.9-A (RESOLVE Ecoregions 2017, CC BY 4.0, paired with an Alpine altitudinal-zonation diagram, CC BY-SA 4.0). Both require a visual-fit/legibility check and careful captions.
+- Conditional candidates: 2.6-A and 2-D (OpenStax figures). The source pages and book-level CC BY-NC-SA 4.0 terms are identified, but figure-specific credited components must be checked before integration.
+- Still unresolved: 2.1-A (no exact cross-section candidate meeting the full geographic-envelope brief), 2.2-A (rights or duplication issue for available Earth-system interaction diagrams), and 2.11-A (no exact, rights-cleared natural-geosystem diagram yet).
+- No replacement images have been embedded in this milestone. The 11 local SVGs remain NOT CLEARED FOR PUBLIC REUSE. A candidate or a completed source record is not an integrated/verified replacement.
+- The Geography adoption record now cites IMAGE-FIRST POLICY v1.2 (commit `11ea6d8d032d42bbb6c64c2fd302ddf8a2742e2b`).
+- Next: implement the first replacement batch only after checking the actual image files, bilingual captions/alt text, attribution placement, and external image URLs; then remove the replaced local SVGs from public-facing chapter assets and update all registers.
