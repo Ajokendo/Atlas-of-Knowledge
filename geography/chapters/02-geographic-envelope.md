@@ -501,7 +501,9 @@
 
 **Иллюстрация 2.14-A — Планетарные границы / Planetary Boundaries (оценка 2026 года).**
 
-![Девять планетарных границ: семь пересечены, две находятся в безопасном пространстве по оценке 2026 года / Nine planetary boundaries: seven transgressed, two within the safe operating space in the 2026 assessment](../assets/diagrams/02-14A-planetary-boundaries-2026.svg)
+![Диаграмма девяти планетарных границ и их глобального статуса в оценке 2026 года / Diagram of the nine planetary boundaries and their global status in the 2026 assessment](https://www.planetaryhealthcheck.org/wp-content/uploads/FIGURE_03-Planetary_Boundaries_diagram_legend.jpeg)
+
+*Источник / Source: Planetary Boundaries Science (PBScience), *Planetary Health Check 2026*, Figure 3, “The iconic Planetary Boundaries diagram”. Обязательная атрибуция / Required credit: PBScience, 2026. Лицензия / Licence: CC BY 4.0. Диаграмма отражает глобальную оценку, а не состояние отдельной страны. / The diagram represents a global assessment, not the status of an individual country. [Источник / Source](https://www.planetaryhealthcheck.org/downloads/) · [Лицензия / Licence](https://creativecommons.org/licenses/by/4.0/).
 
 *Оригинальная учебная инфографика Atlas of Knowledge, подготовленная по данным Planetary Health Check 2026, PBScience / Potsdam Institute for Climate Impact Research. Научная основа: Caesar et al. (2026), DOI: 10.48485/pik.2026.25; оценка сообщает о пересечении семи из девяти границ. Графика создана редакцией Atlas of Knowledge и не является копией официальной диаграммы PIK. См. [официальный отчёт](https://publications.pik-potsdam.de/pubman/item/item_35009) и [описание PIK](https://www.pik-potsdam.de/en/output/infodesk/planetary-boundaries). / Original educational graphic by Atlas of Knowledge, based on Planetary Health Check 2026, PBScience / PIK. The 2026 assessment reports seven of nine boundaries transgressed. This is an original educational adaptation, not a reproduction of PIK's official figure.
 
@@ -969,7 +971,9 @@ Planetary boundaries are not one universal environmental-condition index. Each p
 
 **Illustration 2.14-A — Planetary Boundaries (2026 assessment).**
 
-![Nine planetary boundaries: seven transgressed and two not transgressed at the global level in the 2026 assessment / Девять планетарных границ: семь пересечены, две не пересечены на глобальном уровне по оценке 2026 года](../assets/diagrams/02-14A-planetary-boundaries-2026.svg)
+![Диаграмма девяти планетарных границ и их глобального статуса в оценке 2026 года / Diagram of the nine planetary boundaries and their global status in the 2026 assessment](https://www.planetaryhealthcheck.org/wp-content/uploads/FIGURE_03-Planetary_Boundaries_diagram_legend.jpeg)
+
+*Источник / Source: Planetary Boundaries Science (PBScience), *Planetary Health Check 2026*, Figure 3, “The iconic Planetary Boundaries diagram”. Обязательная атрибуция / Required credit: PBScience, 2026. Лицензия / Licence: CC BY 4.0. Диаграмма отражает глобальную оценку, а не состояние отдельной страны. / The diagram represents a global assessment, not the status of an individual country. [Источник / Source](https://www.planetaryhealthcheck.org/downloads/) · [Лицензия / Licence](https://creativecommons.org/licenses/by/4.0/).
 
 *Original bilingual educational graphic by Atlas of Knowledge, based on Planetary Health Check 2026, PBScience / Potsdam Institute for Climate Impact Research. DOI: 10.48485/pik.2026.25. [Official report](https://publications.pik-potsdam.de/pubman/item/item_35009). / Оригинальная двуязычная учебная схема Atlas of Knowledge по данным Planetary Health Check 2026. DOI: 10.48485/pik.2026.25. [Официальный отчёт](https://publications.pik-potsdam.de/pubman/item/item_35009).*
 
