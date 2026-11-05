@@ -1263,3 +1263,10 @@ The 2024 NHESS paper is open access under CC BY 4.0 and documents the harmonisat
 | Figure | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
 |---|---|---|---|---|---|---|---|
 | Regional seismicity context | INTEGRATED — remote research figure | PASS WITH SCOPE NOTE — five-country Central Asia region plus 300 km buffer; source-catalogue colours, not magnitude; input-source distribution, not final HECCA | PASS — article page states CC BY 4.0; author/article/DOI credit included | PASS — bilingual alt text and caption | PENDING — alt text present; manual assistive review pending | PENDING — external image loading and responsive behaviour untested | Supplementary context only; not a substitute for Kyrgyzstan-specific 17-F active-fault/seismicity map and not counted in planned visual coverage. |
+
+
+## Chapter 20 — Visual 20-G — source discovery checkpoint — 5 November 2026
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 20-G | MISSING — no chart integrated | PARTIAL SOURCE METADATA — Naryn station 16055, 41.430° N / 76.000° E, drainage area 10,500 km², long-term mean 92.117 m³/s, published graph period 1931–2006 | PENDING — raw data reuse terms not established | PENDING | PENDING | PENDING | UNH page displays annual/monthly graph but raw reusable values and item-specific licence are not yet confirmed. Do not digitise the displayed raster graph as exact data. Obtain raw data and document QC, time step and gaps before creating the chart. |
