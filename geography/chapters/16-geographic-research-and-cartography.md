@@ -73,6 +73,23 @@ This chapter concludes the general geography section of the atlas. It brings tog
 
 Приборы требуют калибровки и проверки. Измерения без указания единиц, точности и метода трудно сопоставлять и невозможно надёжно воспроизвести.
 
+
+Fieldwork allows researchers to observe processes and features directly, check maps and satellite interpretations, collect primary measurements and record local conditions.
+
+Common methods include:
+- route-based observation and description of an area;
+- measurement of coordinates, elevations, distances and directions;
+- sampling of soil, water, rocks and biological materials;
+- geomorphological description of landforms;
+- meteorological and hydrological measurements;
+- georeferenced photographs with time records;
+- interviews, questionnaires and observation of land use; and
+- inventories of infrastructure and land-use features.
+
+A field protocol should state the purpose, location, date and time, instruments, units, method, observer and conditions. Samples require clear procedures for collection, labelling, storage and transport.
+
+Instruments must be calibrated and checked. Measurements without units, accuracy and method details are difficult to compare and cannot be reliably reproduced.
+
 ## 16.4. Географические данные и их качество / Geographic Data and Data Quality
 
 Географические данные включают пространственную привязку и описательные характеристики. Они могут быть первичными (собранными в исследовании) и вторичными (полученными из существующих источников).
@@ -170,6 +187,22 @@ This allocation preserves the proportions of the three zones in the sample, but 
 
 Корреляция показывает статистическую связь, но не доказывает причинность. При пространственном анализе следует учитывать автокорреляцию, неоднородность территорий, смешивающие факторы и неопределённость измерений.
 
+
+Descriptive statistics help summarise data distributions:
+- arithmetic mean;
+- median;
+- mode;
+- minimum and maximum;
+- range and interquartile range;
+- variance and standard deviation; and
+- frequencies and proportions.
+
+The mean is sensitive to extreme values, whereas the median often describes a typical value better when a distribution is skewed.
+
+Territorial comparisons use both absolute and relative indicators. For example, the total number of residents is not the same as population density. Density is calculated by dividing population by area, and the choice of area—administrative, actually settled or suitable for habitation—affects interpretation.
+
+Correlation shows a statistical association but does not prove causation. Spatial analysis should also consider spatial autocorrelation, territorial heterogeneity, confounding factors and measurement uncertainty.
+
 ## 16.8. Пространственная статистика и закономерности размещения / Spatial Statistics and Patterns
 
 Пространственная статистика исследует, как значения и объекты распределены в пространстве.
@@ -198,6 +231,19 @@ This allocation preserves the proportions of the three zones in the sample, but 
 - элементы оформления и метаданные.
 
 Карта должна отвечать на конкретный вопрос. Перегруженность деталями, несогласованные символы и неясная легенда затрудняют чтение даже при точных исходных данных.
+
+
+Cartography studies the methods used to create, analyse and use maps. A map is not a neutral copy of a territory: it is a model in which information is selected and generalised according to purpose, scale and audience.
+
+Every map includes:
+- a mathematical framework: projection, coordinate reference system and scale;
+- geographic content: features and phenomena;
+- map symbols and visual variables;
+- generalisation;
+- a legend and explanatory information; and
+- layout elements and metadata.
+
+A map should answer a specific question. Excessive detail, inconsistent symbols and an unclear legend can make a map difficult to read even when the source data are accurate.
 
 ## 16.10. Картографическая проекция, масштаб и генерализация / Projection, Scale and Generalisation
 
@@ -315,6 +361,20 @@ This allocation preserves the proportions of the three zones in the sample, but 
 
 В цифровых веб-картах генерализация часто выполняется для разных уровней приближения. Необходимо следить, чтобы переходы между уровнями не создавали противоречивые представления и не меняли смысл тематических данных.
 
+
+The same dataset cannot be shown in the same way on a world map, a national map and a city map. As map scale becomes smaller, minor details disappear, lines are simplified and groups of features may be combined.
+
+Common generalisation operations include:
+- selection;
+- line simplification;
+- smoothing;
+- aggregation;
+- displacement;
+- exaggeration of important features;
+- aggregation of data and changes in symbolisation.
+
+In digital web maps, generalisation is often performed for different zoom levels. Transitions between levels should not create contradictory representations or change the meaning of thematic data.
+
 ## 16.16. Веб-картография и интерактивная визуализация / Web Cartography and Interactive Visualisation
 
 Веб-карты позволяют пользователю менять масштаб, включать слои, искать объекты и получать атрибутивную информацию. Они могут быть статическими, интерактивными или встроенными в аналитические панели.
@@ -329,6 +389,20 @@ This allocation preserves the proportions of the three zones in the sample, but 
 - защита персональной и чувствительной информации.
 
 Интерактивность не делает карту автоматически более точной или понятной. Она должна помогать исследовательскому вопросу, а не отвлекать от него.
+
+
+Web maps allow users to change scale, switch layers on and off, search for features and view attribute information. They may be static, interactive or embedded in analytical dashboards.
+
+Key principles include:
+- fast response and a reasonable volume of transmitted data;
+- understandable controls;
+- accessibility on mobile devices;
+- alternative text for important results;
+- a legend that remains correct as layers are switched on and off;
+- clear information about the date and currency of the data; and
+- protection of personal and sensitive information.
+
+Interactivity does not automatically make a map more accurate or easier to understand. It should support the research question rather than distract from it.
 
 ## 16.17. Воспроизводимость, открытая наука и управление проектом / Reproducibility, Open Science and Project Management
 
@@ -687,6 +761,18 @@ When working with communities, explain who collects the data, for what purpose, 
 8. Проекция, масштаб, генерализация, цвет и классификация должны соответствовать цели карты.
 9. Тематическая картография требует корректного выбора способа отображения и единиц измерения.
 10. Воспроизводимость, научная добросовестность и этика являются обязательными элементами современного географического исследования.
+
+
+1. Geographic research moves from formulating a question and collecting data to analysis, interpretation and communication.
+2. Spatial scale and territorial units influence the patterns that can be observed.
+3. Field observations and secondary data require protocols and quality control.
+4. A sample should fit the research question and the spatial structure of the phenomenon.
+5. Quantitative and qualitative methods complement one another.
+6. Spatial statistics reveal patterns of location but depend on the neighbourhood model and analysis parameters.
+7. A map is a model and a means of argument, not a neutral copy of a territory.
+8. Projection, scale, generalisation, colour and classification should fit the map's purpose.
+9. Thematic mapping requires an appropriate display method and units of measurement.
+10. Reproducibility, research integrity and ethics are essential elements of modern geographic research.
 
 ## 16.20. Ключевые понятия / Key Terms
 
