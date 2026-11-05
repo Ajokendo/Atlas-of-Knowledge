@@ -811,3 +811,8 @@ Reviewed the six generated SVGs referenced by `zoology.html` and `microbiology.h
 - `microbe-resistance.svg`: distinguishes pre-existing variation, antimicrobial selection and inheritance; includes both mutation and gene acquisition as sources of resistance.
 
 No source-level bilingual or conceptual correction was justified in this batch. The rendered chapter overview and mobile layout were checked in the latest screenshot artifact. Fine-grained morphology and every individual label's visual legibility remain asset-specific checks, not blanket-closed.
+
+
+### Forelimb digit-count correction — 5 November 2026
+
+Full-resolution inspection of the rendered evolution homology plate found a morphology simplification that was too aggressive: the human, bat and whale forelimbs visibly showed only four digits. Added the fifth digit to the human hand, the short thumb to the bat wing, and the fifth digit to the whale flipper. The accessible SVG description now states the intended contrast: five digits in human/bat/whale and one functional digit in the horse. The Russian and English description text is bilingual. Regression checks require both language statements. Commits: `b4608ed0`, `359f3330`, `048ab123`. The corrected raster rendering must still be checked in the next Chromium artifact.
