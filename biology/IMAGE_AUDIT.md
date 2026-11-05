@@ -440,3 +440,8 @@ This is a source-level flow-direction correction. CI and refreshed screenshot re
 ## Carbon-cycle arrow correction — 5 November 2026
 
 In `ecology-cycles.svg`, the former arrow from the decomposition box to the ocean incorrectly implied a direct one-way transfer from decomposition to the ocean. Removed it and replaced the ocean connection with two directional CO₂-exchange arrows between atmosphere and ocean. Also renamed the soil-to-atmosphere return arrow as soil respiration, rather than presenting it as an unspecified general respiration route. This is a conceptual diagram correction; it does not attempt to depict every carbon reservoir or pathway. The diagram itself states that the model is simplified. Updated CI and screenshot review are pending.
+
+
+## Vertebrate-comparison panel fit correction — 5 November 2026
+
+In `zoology-anatomy.svg`, the English amphibian respiration caption sat one pixel below the lower edge of its card. Increased that panel's height slightly so the full bilingual caption is contained within the panel, with clear separation from the next row. This is a source-geometry correction; refreshed browser screenshot review is pending.
