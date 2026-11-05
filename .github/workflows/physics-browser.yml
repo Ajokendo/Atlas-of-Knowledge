@@ -89,6 +89,15 @@ jobs:
           MODULE: circular
           EXPECTED_PAGES: "13"
         run: node original-engine/book-smoke.mjs
+      - name: Test Chapter 3 standalone lesson, controls and quiz on desktop and mobile
+        run: node original-engine/circular/standalone-smoke.mjs
+      - name: Upload Chapter 3 circular-motion visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter3-circular-visual-review
+          path: /tmp/physics-visual-review/circular/*.png
+          if-no-files-found: warn
       - name: Test Chapter 5 momentum on desktop and mobile viewports
         env:
           MODULE: momentum
