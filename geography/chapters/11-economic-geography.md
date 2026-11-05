@@ -167,6 +167,23 @@ No single indicator describes an economy in full. GDP measures production, not t
 **Рисунок 11.2 / Figure 11.2 — Факторы размещения предприятия / Location factors of a firm.**  
 Техническое задание: центральный блок «предприятие» и радиальные факторы размещения; для каждого фактора привести краткий пример отрасли; не ранжировать факторы как универсальные.
 
+
+A firm's location depends on a combination of costs, access to markets and labour, infrastructure, regulation, technology and environmental constraints.
+
+The main factors include:
+- **raw materials:** proximity to mineral deposits and agricultural sources;
+- **energy:** reliability and cost of energy supply;
+- **water:** access to water and the conditions governing its use;
+- **labour:** workforce size, skills and cost;
+- **transport:** access to roads, railways, ports, airports and logistics hubs;
+- **markets:** proximity to customers and sales markets;
+- **agglomeration:** benefits from being near suppliers, customers, research centres and specialised labour markets;
+- **institutions:** taxes, regulation, property rights, governance quality and trade regimes;
+- **environment:** requirements for emissions, water, land and waste management; and
+- **technology:** access to innovation, digital infrastructure and knowledge.
+
+The importance of these factors varies by industry. A steel mill, data centre, tourist complex and farm have different location requirements. Technological change can reduce the importance of some factors and increase that of others.
+
 ## 11.6. Промышленность и индустриальные районы / Industry and Industrial Regions
 
 Промышленность преобразует сырьё и материалы в товары, оборудование, энергию и промежуточную продукцию. В её составе выделяют добывающие и обрабатывающие производства, энергетику и коммунальную инфраструктуру; точные статистические границы зависят от классификации.
@@ -206,6 +223,23 @@ Deindustrialisation is a decline in industry's relative share of employment or o
 **Рисунок 11.3 / Figure 11.3 — Географические факторы сельского хозяйства / Geographical factors of agriculture.**  
 Техническое задание: ландшафтный профиль с равниной, склонами, водным источником и различными аграрными практиками; подписать влияние рельефа, почвы, климата, орошения и транспортной доступности.
 
+
+Agriculture depends on climate, soils, relief, water resources, seasonality, technology, land tenure, markets and public policy. Its geography includes crop production, livestock, agroforestry, fisheries, and the related storage and processing chains.
+
+Major types of agricultural systems include:
+- subsistence and smallholder farming;
+- intensive commercial crop production;
+- plantation agriculture;
+- pastoral livestock systems;
+- mixed crop-livestock systems;
+- greenhouse and protected cultivation;
+- irrigated agriculture; and
+- large-scale, highly mechanised production.
+
+Agricultural intensity is not determined only by the amount of fertiliser and machinery used. It also involves yields, water use, labour, knowledge and ecosystem impacts. High yields may coexist with soil and water degradation if management is unsustainable.
+
+Food security includes the physical and economic availability of sufficient, safe and nutritious food, the ability of people to use that food, and the stability of these conditions over time. Domestic food production alone does not guarantee food security for every household.
+
 ## 11.8. Энергетическая география / Energy Geography
 
 Энергетическая география изучает размещение источников энергии, производство, преобразование, передачу и потребление энергетических ресурсов. Энергетические системы включают добычу топлива, электростанции, сети, хранилища, рынки и конечных потребителей.
@@ -222,6 +256,18 @@ Deindustrialisation is a decline in industry's relative share of employment or o
 > **[МЕТКА ИЛЛЮСТРАЦИИ 11-F / IMAGE PLACEHOLDER 11-F]** Схема энергетической системы от первичных ресурсов и генерации до передачи, распределения и потребления; различать фактические и проектные мощности. / **EN:** Energy-system diagram from primary resources and generation to transmission, distribution and consumption; distinguish operating from planned capacity.
 **Рисунок 11.4 / Figure 11.4 — Энергетическая система / Energy system.**  
 Техническое задание: схема «ресурс — генерация — передача — распределение — потребитель», показать накопители, импорт/экспорт и потери; обозначить разные типы генерации отдельными условными знаками.
+
+
+Energy geography studies the location of energy sources, production, conversion, transmission and consumption. Energy systems include fuel extraction, power plants, networks, storage, markets and end users.
+
+Energy sources are commonly grouped as:
+- **fossil fuels:** coal, oil and natural gas;
+- **nuclear energy;** and
+- **renewables:** hydropower, solar, wind, geothermal energy and sustainably used bioenergy.
+
+A renewable source does not mean an absence of environmental impacts. Hydropower can alter river ecosystems and flow regimes; wind and solar facilities require land, materials, grid integration and balancing systems. Fossil fuels are associated with greenhouse-gas emissions and air pollution.
+
+Energy security includes reliability of supply, price affordability, infrastructure resilience, source diversification and the ability of the system to withstand crises. The energy transition involves changes in technology, infrastructure, consumption patterns and institutions—not simply replacing one type of power plant with another.
 
 ## 11.9. Транспортная география и логистика / Transport Geography and Logistics
 
@@ -247,6 +293,23 @@ Deindustrialisation is a decline in industry's relative share of employment or o
 
 **Рисунок 11.5 / Figure 11.5 — Транспортная сеть и логистические узлы / Transport network and logistics hubs.**  
 Техническое задание: условная сеть с узлами, магистралями, терминалами и потоками; толщина линий может отражать интенсивность только при наличии данных; добавить пример мультимодальной цепочки.
+
+
+Transport moves people, raw materials, goods and services. Transport geography studies networks, nodes, corridors, accessibility, cost and travel time, as well as the territorial impacts of transport infrastructure.
+
+Main transport modes include:
+- road;
+- rail;
+- maritime and inland waterway;
+- air;
+- pipeline; and
+- urban public transport and active mobility, including walking and cycling.
+
+Each mode has its own advantages and limitations in speed, capacity, cost, flexibility, energy use and environmental impact. Intermodal transport uses several modes within a single logistics chain.
+
+**Logistics** is the planning and management of goods, services, information and related resources from source to consumer. Logistics centres are often located at transport-network intersections, near markets, ports, industrial areas and customs infrastructure.
+
+Territorial accessibility can be assessed not only by distance but also by travel time, cost, service frequency, seasonality, reliability and accessibility for different population groups. Mountainous, island, desert and remote areas may face high transport costs even when their straight-line distance is relatively short.
 
 ## 11.10. Международная торговля и глобальные цепочки создания стоимости / International Trade and Global Value Chains
 
@@ -313,6 +376,15 @@ The **digital divide** refers to differences in access to the internet and devic
 > **[МЕТКА ИЛЛЮСТРАЦИИ 11-G / IMAGE PLACEHOLDER 11-G]** Модель туристской системы территории: ресурсы, инфраструктура, посетители, местные сообщества, услуги и экологические ограничения. / **EN:** Destination tourism-system model showing resources, infrastructure, visitors, local communities, services and environmental limits.
 **Рисунок 11.7 / Figure 11.7 — Туристская система территории / Tourism system of a destination.**  
 Техническое задание: связать туристские ресурсы, транспорт, размещение, услуги, местное население, посетителей и природоохранные ограничения; показать обратные связи и сезонные пики.
+
+
+Tourism involves temporary travel outside a person's usual environment for a range of purposes, including leisure, business, visiting friends and relatives, education and medical treatment. Tourism geography studies tourism resources, flows, infrastructure, seasonality, territorial impacts and destination sustainability.
+
+A destination's appeal may be based on natural landscapes, climate, cultural heritage, events, accessibility and service quality. Tourist flows depend on transport links, income, safety, visa rules, information and travel costs.
+
+Tourism can support employment and local businesses, encourage heritage conservation and improve infrastructure. At the same time, it can create seasonal pressure on water and energy, generate waste, damage ecosystems, increase housing costs and commercialise cultural practices.
+
+Sustainable tourism management includes monitoring visitor numbers, involving local communities, protecting natural and cultural sites, managing waste, water use and transport, and distributing economic benefits fairly.
 
 ## 11.13. Региональное развитие и экономическое неравенство / Regional Development and Economic Inequality
 
