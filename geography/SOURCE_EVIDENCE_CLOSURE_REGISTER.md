@@ -835,3 +835,11 @@ The Russian terminology in Section 16.11 was aligned with the English method nam
 - Scientific/conceptual fit and RU/EN parity pass for the stated scope. Creator/rightsholder and project-licence evidence remain pending; SVG parsing, responsive display, screen-reader and device checks remain pending. Neither is VERIFIED.
 - Seven visuals remain missing because current national boundaries, administrative geometry, validated elevation data, geological layers or exact reuse terms are not yet established.
 - Image Coverage: 3/9 = 33.3%. Image Verification: 0/3 = 0%. Chapter editorial score was recalculated from 78% to **83%** after three of nine planned visuals were integrated in both languages; further evidence, rights checks, proofreading and six missing visuals remain open.
+
+
+### Chapter 17 — national geospatial portal and administrative classifier access check — 5 November 2026
+
+- Open Data Kyrgyzstan's “Классификатор административно-территориальных единиц” is an XLSX classifier attributed to the State Customs Service. Portal metadata reports last update 4 November 2019 and no specified licence. It is not a boundary geometry dataset and is not suitable as a current administrative map source.
+- A State Service announcement dated 17 January 2024 said interactive digital maps were being placed on Kyrgyzmap and a geoinformation/climate-data portal had been created at nsdi.kg. On 5 November 2026, nsdi.kg returned unrelated non-geospatial content and kyrgyzmap.kg could not be confirmed accessible. This is a current access-status observation, not proof of the portals' legal status or permanent unavailability.
+- Chapter 17 now warns readers not to rely on these historical addresses as current official access points until the competent agency confirms a valid endpoint. The current administrative-map visual 17-I remains MISSING; do not substitute a stale classifier or old CIA map.
+- Sources: https://data.gov.kg/ru/dataset/klassifikator-administrativno-territorialnyh-edinic ; https://gosreg.gov.kg/ru/?p=2002 .
