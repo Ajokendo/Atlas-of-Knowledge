@@ -369,3 +369,24 @@ Visual 19-E (official Kyrgyzhydromet seasonal/annual temperature-trend chart) is
 | **Total, Chapters 11–20** | **97** | **61** | **36** |
 
 Image Coverage is 61/97. Image Verification is not the same metric: none of the newly authored project SVGs is marked VERIFIED while project licence assignment, manual accessibility and browser/device checks remain open.
+
+
+## Chapter 18 — additional integration update — 5 November 2026
+
+Visual 18-C is now integrated as a three-photo set: Jengish Chokusu / South Inylchek (CC BY-SA 4.0), Khan Tengri (CC BY 2.0) and Lenin Peak (CC0 1.0). Each exact Commons file page and licence was checked; attribution and bilingual alt text are in the chapter. The photographs are unchanged and are not treated as elevation evidence. Current Chapter 18 coverage is 5/10 (18-B, 18-C, 18-D, 18-H, 18-J); 18-A, 18-E, 18-F, 18-G and 18-I remain open.
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total, Chapters 11–20** | **97** | **62** | **35** |
+
+Coverage only. Verification remains separate; external image rendering and accessibility QA are still pending.
