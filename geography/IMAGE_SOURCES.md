@@ -716,3 +716,23 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 | Rights | NASA/JPL credit; NASA media-use guidance states NASA content is generally not subject to copyright unless a third-party notice is present. No third-party owner is identified on this image page. |
 | Limitation | Relief image only; it does not provide named rivers or an explicit drainage-direction layer. It is supplementary and does not close planned visual 12-F. |
 | Status | INTEGRATED as supplementary relief context; NASA/JPL attribution and metadata PASS; browser/mobile/accessibility QA PENDING. |
+
+
+## Chapter 07 — Visual 07-D: Shelford's ecological tolerance curve
+
+| Field | Record |
+|---|---|
+| Visual ID | 07-D |
+| Asset | geography/assets/diagrams/07-D-shelford-tolerance-curve-bilingual.svg |
+| Category | B — adapted |
+| Original work | “Shelford's Law of Tolerance.png,” Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Shelford%27s_Law_of_Tolerance.png |
+| Creator credit on file page | Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos and Călin Baciu |
+| Originating publication | Olenici et al. (2025), “Effects of Water Pollution on Diatom Communities of Roșia Montană Mining Area, Romania,” Sustainability 17(10), 4592, https://doi.org/10.3390/su17104592 |
+| Licence | CC BY 4.0, https://creativecommons.org/licenses/by/4.0/; exact file-page licence checked |
+| Changes | Redrawn as a bilingual SVG; labels translated; zone terminology aligned with Chapter 07.3; conceptual curve retained without numerical values |
+| Scientific / factual | PASS for the conceptual relationship and zone distinctions; not a measured response curve for a named species |
+| Rights / attribution | PASS; source, authors, licence and adaptation notice are recorded in the chapter caption and this register |
+| RU/EN | PASS; title, labels and description are bilingual |
+| Accessibility | PENDING; alt text and SVG title/description are present, but screen-reader and contrast review remain open |
+| Technical | PENDING; asset exists and is embedded; live browser/mobile rendering has not been tested |
+| Lifecycle | INTEGRATED; not VERIFIED |
