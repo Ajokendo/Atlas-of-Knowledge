@@ -243,3 +243,24 @@ Chapter 11-G (tourism destination system) is now integrated; Chapter 11 has all 
 | **Total** | **97** | **45** | **52** |
 
 Total new local SVG assets authored in the November tranches: 37 (25 across Chapters 11–16 and 12 across Chapters 18–20). Chapter 11's complete visual set is integrated but remains subject to scientific/editorial sign-off, project licence assignment, accessibility and rendered-browser QA. This is scoped planned-ID coverage, not a repository-wide percentage.
+
+
+## Tenth-tranche update — Chapter 19-F — 5 November 2026
+
+Chapter 19-F (seasonal Central Asian atmospheric circulation) is now integrated. Chapter 19 has 5/10 planned visuals. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **46** | **51** |
+
+Total new local SVG assets authored in the November tranches: 38 (25 across Chapters 11–16 and 13 across Chapters 18–20). The circulation diagram is conceptual, not a daily forecast or georeferenced map. Project licensing and final rendered/accessibility QA remain outstanding.
