@@ -23,6 +23,7 @@
  <path d="M178 22Q190 -5 214 7L229 31 210 46 187 41Z" fill="#d8d1bd"/>
  <path d="M191 18l5-17 13 15M217 19l10-10 2 22" fill="#b8ad98"/>
  <g fill="#625d53" stroke="none"><ellipse cx="76" cy="34" rx="8" ry="5"/><ellipse cx="111" cy="25" rx="9" ry="5"/><ellipse cx="151" cy="39" rx="8" ry="5"/><ellipse cx="86" cy="61" rx="8" ry="5"/><ellipse cx="143" cy="66" rx="8" ry="5"/><ellipse cx="196" cy="34" rx="6" ry="4"/></g>
+ <g fill="#d8d1bd" stroke="none"><circle cx="76" cy="34" r="2.4"/><circle cx="111" cy="25" r="2.8"/><circle cx="151" cy="39" r="2.3"/></g>
  <circle cx="218" cy="31" r="3" fill="#252724" stroke="none"/>
 </g>
 <!-- open grassy slope -->
@@ -48,6 +49,10 @@
  <path d="M134 60 156 44 176 57 159 78 138 78Z" fill="#8a7761"/>
  <path d="M150 47Q178 22 170 -18Q167 -43 188 -54Q206 -59 205 -39Q201 -29 190 -33Q188 -43 195 -42Q186 -51 181 -35Q177 -10 190 12Q197 30 184 48" fill="none" stroke="#c0a77d" stroke-width="12"/>
  <path d="M159 48Q176 19 163 -8Q151 -31 164 -47Q178 -57 183 -42" fill="none" stroke="#c0a77d" stroke-width="8"/>
+ <g fill="none" stroke="#8f7856" stroke-width="3" stroke-linecap="round">
+  <path d="M165 37l11 7M171 25l12 7M171 10l12 5M166 -5l12 2M162 -20l12 -2M165 -34l12 -5M175 -46l10 -5"/>
+  <path d="M172 30l8 4M167 14l9 3M160 -2l9 1"/>
+ </g>
  <path d="M142 79Q149 101 139 112" fill="none" stroke="#403a32" stroke-width="7"/>
  <circle cx="168" cy="57" r="3" fill="#211f1b" stroke="none"/>
 </g>
