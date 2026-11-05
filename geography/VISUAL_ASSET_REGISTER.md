@@ -520,3 +520,8 @@ Integrated a two-map locator set: Blue Green Atlas relief map for neighbouring-c
 ## Fourteenth-tranche update — Chapter 17-D — 5 November 2026
 
 Integrated a two-part valley visual: Blue Green Atlas relief map as regional topographic context plus a new original bilingual SVG transverse profile showing typical intermontane-valley landforms. The bilingual key names the Chuy, Talas, Issyk-Kul, Suusamyr, Naryn, Fergana and Alay valleys and gives reference settlements only; no invented basin polygons or measured profiles are presented. Spatial verification of anchors and formal rights assignment for the original SVG remain pending. Chapter 17 is now 8/9 integrated; 17-H remains open. Atlas-wide coverage is 180/281 (64.1%).
+
+
+## Sixteenth-tranche update — Chapters 21, 22, 23, 25 and 26 — 5 November 2026
+
+Integrated 16 original bilingual conceptual SVGs: Chapter 21 (five: vegetation belts, forest types, high-mountain food web, pressure–impact–response, monitoring methods); Chapter 22 (four: UNESCO MAB zonation, low-impact tourism route, protected-area management, management effectiveness); Chapter 23 (two: urban/rural settlement comparison and valley/mountain/jailoo settlement forms); Chapter 25 (two: natural capital and environmental costs, agri-food value chain); Chapter 26 (three: waste hierarchy, hazard–exposure–vulnerability–risk, green urban infrastructure). All passed static source checks for bilingual labels and SVG accessibility metadata; rights assignment, accessibility and live rendering remain pending. Atlas-wide visual coverage is 197/281 (70.1%).

@@ -155,8 +155,9 @@ Settlement patterns are shaped by natural factors (elevation, climate, relief, w
 
 
 ## 23.4. Городское и сельское население
+![Сравнение городского и сельского расселения по плотности, услугам, занятости, мобильности и землепользованию. / Comparison of urban and rural settlement by density, services, livelihoods, mobility and land use.](../assets/diagrams/23-E-urban-rural-settlement-comparison-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-E / IMAGE PLACEHOLDER 23-E]** Сравнительная схема городского и сельского расселения Кыргызстана с различиями плотности, функций и доступности услуг.
+*23-E. Идеальные типы для сравнения, а не жёсткая классификация населённых пунктов; реальные поселения образуют континуум. / Ideal types for comparison, not a rigid settlement classification; real places form a continuum.*
 > **EN:** Comparative diagram of urban and rural settlement in Kyrgyzstan, showing differences in density, functions and service access.
 
 ## Urban and Rural Population
@@ -634,8 +635,9 @@ An administrative city boundary does not always match the actual urban area. Bui
 **Learning activity.** Compare an administrative map of Bishkek with a map of its built-up area and any available data on commuting from surrounding settlements. Identify settlements functionally connected to the city and list the data needed for a precise delineation of the agglomeration. Do not infer population totals from a satellite image alone.
 
 ## 23.10. Сельское расселение, сезонная мобильность и джайлоо
+![Иллюстрация долинного села, горного поселения и сезонной стоянки на джайлоо. / Illustration of a valley village, mountain settlement and seasonal jailoo camp.](../assets/diagrams/23-J-valley-mountain-jailoo-settlement-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-J / IMAGE PLACEHOLDER 23-J]** Иллюстрация долинного села, горного поселения и сезонной стоянки на джайлоо; не смешивать временное и постоянное население.
+*23-J. Обобщённые ландшафтные ситуации; сезонное использование джайлоо различается между хозяйствами и регионами. / Generalised landscape settings; seasonal jailoo use varies among households and regions.*
 > **EN:** Illustration of a valley village, mountain settlement and seasonal jailoo camp, distinguishing temporary from permanent population.
 
 ## Rural Settlement, Seasonal Mobility and Jailoo

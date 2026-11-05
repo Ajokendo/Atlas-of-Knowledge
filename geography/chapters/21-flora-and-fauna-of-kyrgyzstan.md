@@ -67,8 +67,9 @@
 Генетическое разнообразие диких родичей может содержать признаки устойчивости к засухе, холоду, вредителям и болезням. Однако сохранение этих ресурсов требует защиты естественных местообитаний, а не только создания плантаций.
 
 ## 21.3. Высотная поясность растительности
+![Высотный профиль растительных сообществ от сухих предгорий до нивально-скального пояса. / Altitudinal profile of vegetation communities from dry foothills to the nival-rock belt.](../assets/diagrams/21-B-altitudinal-vegetation-profile-bilingual.svg)
 
- > **[МЕТКА ИЛЛЮСТРАЦИИ 21-B / IMAGE PLACEHOLDER 21-B]** Профиль высотной поясности растительности от сухих предгорий до нивально-скального пояса; границы показывать как ориентировочные и зависимые от экспозиции.
+*21-B. Концептуальная последовательность сообществ; высотные границы не фиксированы и меняются по экспозиции, влажности и региону. / Conceptual sequence of communities; elevation limits are not fixed and vary with aspect, moisture and region.*
 > **EN:** Vegetation altitudinal profile from dry foothills to the nival-rock belt; show boundaries as approximate and dependent on slope aspect.
 ## Altitudinal Zonation of Vegetation
 
@@ -94,8 +95,9 @@
 - Подземные органы (луковицы, корневища, клубни) обеспечивают переживание неблагоприятного периода.
 
 ## 21.4. Лесные экосистемы Кыргызстана
+![Сравнение еловых, арчовых, орехоплодовых и тугайных лесов Кыргызстана: примеры видов, функции и угрозы. / Comparison of spruce, juniper, walnut-fruit and tugai forests of Kyrgyzstan: example species, functions and pressures.](../assets/diagrams/21-C-forest-types-comparison-bilingual.svg)
 
- > **[МЕТКА ИЛЛЮСТРАЦИИ 21-C / IMAGE PLACEHOLDER 21-C]** Сравнительная инфографика еловых, арчовых, орехоплодовых и тугайных лесов с характерными видами, функциями и угрозами.
+*21-C. Сводная учебная схема, а не карта распространения. Виды приведены как примеры; состав лесов меняется по месту и высоте. / Summary teaching diagram, not a distribution map. Species are examples; forest composition varies by site and elevation.*
 > **EN:** Comparative infographic of spruce, juniper, walnut-fruit and tugai forests, showing characteristic species, ecosystem functions and threats.
 ## Forest Ecosystems of Kyrgyzstan
 
@@ -312,8 +314,9 @@
 - климатические изменения температуры воды, ледового режима и стока.
 
 ## 21.10. Экологические связи и функционирование экосистем
+![Пищевая сеть высокогорной экосистемы: продуценты, травоядные, хищники, падальщики и редуценты. / High-mountain food web: producers, herbivores, predators, scavengers and decomposers.](../assets/diagrams/21-H-high-mountain-food-web-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 21-H / IMAGE PLACEHOLDER 21-H]** Пищевая сеть высокогорной экосистемы: растения, травоядные, хищники, падальщики и редуценты; стрелки показывают передачу энергии.
+*21-H. Стрелки показывают передачу энергии и вещества в упрощённой сети; реальные пищевые связи сложнее и меняются по местообитаниям и сезонам. / Arrows show energy and matter transfer in a simplified web; real feeding relationships are more complex and vary by habitat and season.*
 > **EN:** Food web of a high-mountain ecosystem showing plants, herbivores, predators, scavengers and decomposers; arrows indicate energy transfer.
 
 ## Ecological Interactions and Ecosystem Function
@@ -347,8 +350,9 @@
 - культурная, научная, образовательная и рекреационная ценность.
 
 ## 21.11. Основные угрозы биоразнообразию
+![Связь экологического давления, последствий для экосистем и возможных мер управления. / Links between ecological pressures, ecosystem effects and possible management responses.](../assets/diagrams/21-I-pressure-impact-management-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 21-I / IMAGE PLACEHOLDER 21-I]** Инфографика «давление — экологический эффект — ответ управления» для перевыпаса, браконьерства, пожаров, фрагментации и климатических изменений.
+*21-I. Концептуальная схема для обсуждения причин и мер; она не доказывает причинность для конкретной территории и не оценивает эффективность мер без мониторинга. / Conceptual discussion framework; it does not prove causation at a specific site or assess management effectiveness without monitoring.*
 > **EN:** Pressure–ecological effect–management response infographic for overgrazing, poaching, fires, fragmentation and climate change.
 
 ## Major Threats to Biodiversity
@@ -396,8 +400,9 @@
 В 2025 году был представлен проект Государственной программы Кыргызской Республики по сохранению биоразнообразия до 2040 года, также известный как Национальная стратегия и план действий по сохранению биоразнообразия (NBSAP). На национальном семинаре 18 ноября 2025 года участники согласовали проект и рекомендовали его к утверждению; ПРООН сообщила, что до утверждения Кабинетом министров документ должен пройти дальнейшее рассмотрение. Поэтому в настоящем разделе NBSAP рассматривается как подготовленная стратегическая рамка, а не как доказанно вступивший в силу нормативный акт. Перед публикацией необходимо проверить окончательное решение Кабинета министров и утверждённые индикаторы.
 
 ## 21.13. Методы изучения флоры и фауны
+![Сравнение методов мониторинга биоразнообразия: трансекты, площадки, фотоловушки, GPS, eDNA и спутниковый анализ. / Comparison of biodiversity-monitoring methods: transects, plots, camera traps, GPS, eDNA and satellite analysis.](../assets/diagrams/21-J-biodiversity-monitoring-methods-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 21-J / IMAGE PLACEHOLDER 21-J]** Сравнительная схема мониторинга: трансекты, пробные площадки, фотоловушки, GPS, eDNA и спутниковый анализ; показать взаимодополняемость методов.
+*21-J. Методы взаимодополняемы; выбор зависит от таксона, вопроса, сезона, разрешений и контроля качества. Чувствительные координаты редких видов обобщают. / Methods are complementary; selection depends on taxa, question, season, permits and quality control. Generalise sensitive locations of rare species.*
 > **EN:** Comparative monitoring diagram showing transects, plots, camera traps, GPS, eDNA and satellite analysis as complementary methods.
 
 ## Methods for Studying Flora and Fauna

@@ -373,7 +373,9 @@ In its review of 2025, the Ministry of Natural Resources reported that eight maj
 **Water, land and biological resources.** Water is strategic for energy, agriculture, cities and ecosystems. Land resources include arable land, pastures, hayfields, forests and other categories. Biological resources—forests, medicinal plants, fish and wild species—must be managed according to regeneration rates and conservation limits. Pastures are not an unlimited resource: productivity depends on vegetation, soils, watering points, seasonal grazing pressure and climate change. Forests have ecological, water-protection, soil-protection and economic value.
 
 ## 25.8. Природный капитал и экологические издержки / Natural Capital and Environmental Costs
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-D / IMAGE PLACEHOLDER 25-D]** Инфографика природного капитала и экологических издержек: водные бассейны, пастбища, леса, горнодобывающие районы, карьеры и основные типы экологической нагрузки.
+![Связь природного капитала, хозяйственного использования, экологического давления и мер управления. / Links between natural capital, economic uses, environmental pressures and stewardship responses.](../assets/diagrams/25-D-natural-capital-environmental-costs-bilingual.svg)
+
+*25-D. Концептуальная схема без денежных оценок: экологические издержки зависят от места, технологии, состояния экосистем и масштаба воздействия. / Conceptual diagram without monetary valuation: environmental costs depend on location, technology, ecosystem condition and impact scale.*
 > **EN:** Infographic of natural capital and environmental costs, showing water basins, pastures, forests, mining districts, quarries and major types of environmental pressure.
 
 
@@ -718,7 +720,9 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 > **EN:** Sectoral GDP chart for a stated period, showing shares and growth rates separately and clearly marking preliminary data. / GDP-by-sector chart for a specified period: show shares and growth rates separately and label provisional data.
 
 5. **Экономическая структура.** Диаграмма ВВП по секторам за конкретный период; отдельные графики доли и темпа роста, с подписью «предварительные данные», если применимо.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-I / IMAGE PLACEHOLDER 25-I]** Схема агропродовольственной цепочки от фермы до рынка: хранение, сортировка, переработка и логистика с региональными примерами. / Agri-food value-chain diagram from farm to market: storage, sorting, processing and logistics, with regional examples.
+![Этапы агропродовольственной цепочки от производства и сбора до хранения, переработки, логистики и рынка. / Agri-food value-chain stages from production and collection through storage, processing, logistics and market.](../assets/diagrams/25-I-agri-food-value-chain-bilingual.svg)
+
+*25-I. Обобщённая цепочка; конкретные культуры, участники, маршруты и требования безопасности зависят от продукта и региона. / Generalised chain; crops, actors, routes and safety requirements vary by product and region.*
 
 6. **Агропромышленные цепочки.** От поля и фермы через хранение, сортировку, переработку и логистику к рынку; показать региональные примеры.
 7. **Транспортная сеть.** Автодороги международного, государственного и местного значения, железнодорожные участки, аэропорты и пограничные переходы; легенда статусов и дата данных.

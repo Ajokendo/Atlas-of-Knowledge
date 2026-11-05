@@ -411,8 +411,9 @@ Priority actions include:
 - developing markets for secondary raw materials.
 
 Waste incineration is not a universal solution. Without flue-gas cleaning and control of the waste composition, it can transfer pollution from the solid phase into the atmosphere.
+![Иерархия обращения с отходами от предотвращения и повторного использования до восстановления и безопасного удаления остатка. / Waste-management hierarchy from prevention and reuse to recovery and safe disposal of residuals.](../assets/diagrams/26-H-waste-hierarchy-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-H / IMAGE PLACEHOLDER 26-H]** Схема обращения с отходами: предотвращение, раздельный сбор, сортировка, переработка, компостирование и безопасное размещение остатка.
+*26-H. Приоритеты соответствуют общей иерархии предотвращения, повторного использования, переработки, восстановления и удаления; конкретные решения зависят от потока отходов и жизненного цикла. / Priorities follow the general hierarchy of prevention, reuse, recycling, recovery and disposal; specific choices depend on the waste stream and life-cycle impacts.*
 > **EN:** Waste-management diagram showing prevention, separate collection, sorting, recycling, composting and safe residual disposal.
 
 ## 26.9. Горнодобывающая промышленность и экологическое наследие / Mining and Environmental Legacy
@@ -452,8 +453,9 @@ For legacy industrial sites, priorities include inventories of contaminated loca
 > **EN:** Map of mining-related environmental liabilities: open pits, mines, tailings facilities, disturbed land, monitoring and rehabilitation.
 
 ## 26.10. Природные опасности и снижение риска бедствий / Natural Hazards and Disaster Risk Reduction
+![Концептуальная модель риска: опасность, подверженность, уязвимость и потенциал реагирования. / Conceptual risk model: hazard, exposure, vulnerability and coping capacity.](../assets/diagrams/26-I-hazard-exposure-vulnerability-risk-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-I / IMAGE PLACEHOLDER 26-I]** Инфографика «опасность — подверженность — уязвимость — риск» и карта примеров селевых, оползневых, паводковых и сейсмических опасностей; не выдавать схематическую карту за прогноз.
+*26-I. Риск возникает из взаимодействия факторов; схема не является численной формулой, картой опасностей или прогнозом конкретного события. / Risk emerges from interacting factors; this is not a numerical formula, hazard map or forecast of a specific event.*
 > **EN:** Hazard–exposure–vulnerability–risk infographic and map examples of debris-flow, landslide, flood and seismic hazards; do not present a schematic map as a forecast.
 
 
@@ -581,8 +583,9 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 **Learning activity.** Select two hypothetical assets in a mountain valley and compare the consequences of their damage during a flood or landslide. Prepare a qualitative hazard, exposure and vulnerability matrix, state uncertainties and propose two measures each for prevention, preparedness and recovery. Do not assign precise probabilities without supporting data.
 
 ## 26.11. Города, зелёная инфраструктура и качество жизни / Cities, Green Infrastructure and Quality of Life
+![Зелёная городская инфраструктура: деревья, парки, биоканавы, водопроницаемые покрытия, теневые маршруты и мониторинг. / Green urban infrastructure: trees, parks, bioswales, permeable surfaces, shaded routes and monitoring.](../assets/diagrams/26-K-green-urban-infrastructure-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-K / IMAGE PLACEHOLDER 26-K]** Схема зелёной городской инфраструктуры: деревья, парки, водоотвод, прохладные маршруты и общественный транспорт; показать взаимосвязь с жарой и качеством воздуха.
+*26-K. Концептуальная сеть решений; эффекты охлаждения, инфильтрации, качества воздуха и биоразнообразия зависят от местного проектирования и обслуживания. / Conceptual network of interventions; cooling, infiltration, air-quality and biodiversity benefits depend on local design and maintenance.*
 > **EN:** Green urban infrastructure diagram showing trees, parks, drainage, cool routes and public transport, linked to heat and air quality.
 > **EN:** Green urban infrastructure diagram showing trees, parks, drainage, cool routes and public transport, linked to heat and air quality.
 
@@ -865,8 +868,9 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Та же комплексная карта и инфографика водной безопасности, что отмечена в разделе 26.3: показать снег, ледники, бассейны, сезонный сток, водохранилища, ирригацию, экологический сток и потенциальные ледниково-озёрные опасности.
 > **EN:** The same integrated water-security map and infographic referenced in section 26.3, showing snow, glaciers, basins, seasonal runoff, reservoirs, irrigation, environmental flows and potential glacial-lake hazards.
+![Концептуальная модель риска: опасность, подверженность, уязвимость и потенциал реагирования. / Conceptual risk model: hazard, exposure, vulnerability and coping capacity.](../assets/diagrams/26-I-hazard-exposure-vulnerability-risk-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-I / IMAGE PLACEHOLDER 26-I]** Единая карта экологических рисков и природной уязвимости: сейсмические, селевые, оползневые и паводковые опасности, пастбища, леса, ООПТ и источники загрязнения; показывать только проверенные геоданные с датой и масштабом.
+*26-I. Риск возникает из взаимодействия факторов; схема не является численной формулой, картой опасностей или прогнозом конкретного события. / Risk emerges from interacting factors; this is not a numerical formula, hazard map or forecast of a specific event.*
 > **EN:** Integrated map of environmental risks and natural vulnerability, showing seismic, debris-flow, landslide and flood hazards, pastures, forests, protected areas and pollution sources; use only verified geodata with date and scale.
 
 
@@ -892,7 +896,9 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 > **EN:** Diagram of water intakes, treatment plants, sewerage, discharges and sensitive water bodies.
 
 7. **Вода и санитарная инфраструктура.** Водозаборы, очистные сооружения, канализация, сбросы и чувствительные водные объекты.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-H / IMAGE PLACEHOLDER 26-H]** Схема обращения с отходами: предотвращение, раздельный сбор, сортировка, переработка, компостирование и безопасное размещение остатка.
+![Иерархия обращения с отходами от предотвращения и повторного использования до восстановления и безопасного удаления остатка. / Waste-management hierarchy from prevention and reuse to recovery and safe disposal of residuals.](../assets/diagrams/26-H-waste-hierarchy-bilingual.svg)
+
+*26-H. Приоритеты соответствуют общей иерархии предотвращения, повторного использования, переработки, восстановления и удаления; конкретные решения зависят от потока отходов и жизненного цикла. / Priorities follow the general hierarchy of prevention, reuse, recycling, recovery and disposal; specific choices depend on the waste stream and life-cycle impacts.*
 > **EN:** Waste-management cycle showing prevention, separate collection, sorting, recycling, composting and safe residual disposal.
 
 8. **Цикл обращения с отходами.** Предотвращение, раздельный сбор, сортировка, переработка, компостирование и безопасное размещение остатка.
@@ -901,7 +907,9 @@ Develop an adaptation plan for a rural settlement that addresses water, pastures
 > **EN:** Map of mining-related environmental liabilities showing pits, mines, tailings, disturbed land, monitoring and rehabilitation.
 
 10. **Горнодобывающие экологические обязательства.** Карьеры, шахты, хвостохранилища, нарушенные земли, мониторинг и рекультивация.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-K / IMAGE PLACEHOLDER 26-K]** Схема зелёной городской инфраструктуры: деревья, парки, водоотвод, прохладные маршруты и общественный транспорт; показать взаимосвязь с жарой и качеством воздуха.
+![Зелёная городская инфраструктура: деревья, парки, биоканавы, водопроницаемые покрытия, теневые маршруты и мониторинг. / Green urban infrastructure: trees, parks, bioswales, permeable surfaces, shaded routes and monitoring.](../assets/diagrams/26-K-green-urban-infrastructure-bilingual.svg)
+
+*26-K. Концептуальная сеть решений; эффекты охлаждения, инфильтрации, качества воздуха и биоразнообразия зависят от местного проектирования и обслуживания. / Conceptual network of interventions; cooling, infiltration, air-quality and biodiversity benefits depend on local design and maintenance.*
 > **EN:** Green urban infrastructure diagram showing trees, parks, drainage, cool routes and public transport, linked to heat and air quality.
 
 11. **Зелёный город.** Схема общественного транспорта, зелёной инфраструктуры, чистого отопления, водоотведения и безопасных общественных пространств.

@@ -268,8 +268,9 @@ State nature parks combine the conservation of landscapes and biodiversity with 
 
 
 ## 22.6. Биосферные территории UNESCO
+![Условная зональная модель биосферного резервата: ядро, буферная и переходная зоны. / Schematic biosphere-reserve zoning model: core, buffer and transition areas.](../assets/diagrams/22-F-biosphere-reserve-zonation-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-F / IMAGE PLACEHOLDER 22-F]** Схема биосферного резервата с ядром, буферной и переходной зонами; использовать условный пример, если официальная геометрия не подтверждена.
+*22-F. Модель UNESCO MAB. Это не геометрия конкретного резервата: реальные границы и режимы определяются номинацией и национальным законодательством. / UNESCO MAB model. This is not the geometry of a specific reserve; real boundaries and rules are set by its nomination and national law.*
 > **EN:** Biosphere-reserve diagram showing core, buffer and transition zones; use a conceptual example if official geometry is unavailable.
 
 ## UNESCO Biosphere Reserves
@@ -400,8 +401,9 @@ An ecological corridor cannot be identified simply because two protected areas a
 **Learning activity.** Select two natural areas on a map and mark possible barriers between them. Design two hypothetical routes for a species: one based on shortest distance and another accounting for habitat quality and obstacles. Explain what field evidence would be needed to test both routes. Do not publish precise locations of breeding sites of rare species.
 
 ## 22.9. Управление ООПТ и участие местных сообществ
+![Модель управления ООПТ с участием администрации, органов власти, местных сообществ, научных партнёров и посетителей. / Protected-area management model involving the authority, public bodies, local communities, scientific partners and visitors.](../assets/diagrams/22-H-protected-area-management-system-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-H / IMAGE PLACEHOLDER 22-H]** Модель управления ООПТ: администрация, местные сообщества, научный мониторинг, посетители и механизмы обратной связи.
+*22-H. Схема сотрудничества и обратной связи; не устанавливает универсальную юридическую иерархию или полномочия участников. / Cooperation and feedback model; it does not establish a universal legal hierarchy or stakeholder powers.*
 > **EN:** Protected-area governance model linking park authorities, local communities, scientific monitoring, visitors and feedback mechanisms.
 
 ## Protected-Area Management and Community Participation
@@ -436,8 +438,9 @@ Protected-area designation alone does not guarantee conservation. Effectiveness 
 
 
 ## 22.10. Экологический туризм и рекреационная нагрузка
+![Схема устойчивого туристического маршрута с инструктажем, тропой, чувствительной зоной, сбором отходов и мониторингом эрозии. / Sustainable tourism route schematic with briefing, trail, sensitive zone, waste collection and erosion monitoring.](../assets/diagrams/22-G-low-impact-tourism-route-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-G / IMAGE PLACEHOLDER 22-G]** Схема устойчивого туристического маршрута с тропой, зонами ограничения доступа, местами сбора отходов и мониторингом эрозии.
+*22-G. Концептуальная схема управления посетителями; не обозначает реальную тропу или конкретную ООПТ. / Conceptual visitor-management diagram; it does not identify a real trail or protected area.*
 > **EN:** Sustainable visitor-route diagram showing trails, access restrictions, waste collection points and erosion monitoring.
 
 ## Ecotourism and Recreational Pressure
@@ -517,8 +520,9 @@ Cumulative impacts are particularly important: several individually moderate pre
 
 
 ## 22.12. Научный мониторинг и оценка эффективности
+![Цикл оценки эффективности управления ООПТ: контекст, планирование, ресурсы, процессы, результаты работы и итоги. / Protected-area management-effectiveness cycle: context, planning, inputs, processes, outputs and outcomes.](../assets/diagrams/22-J-protected-area-effectiveness-cycle-bilingual.svg)
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-J / IMAGE PLACEHOLDER 22-J]** Инфографика эффективности управления ООПТ: площадь, состояние экосистем, угрозы, меры управления и измеримые результаты.
+*22-J. Индикаторы выбирают под цели и условия конкретной территории; схема не содержит оценок или баллов реальных парков. / Indicators are selected for the objectives and context of each site; the diagram contains no scores for real parks.*
 > **EN:** Protected-area management effectiveness infographic linking area, ecosystem condition, threats, management actions and measurable outcomes.
 
 ## Scientific Monitoring and Effectiveness Assessment

@@ -985,3 +985,36 @@ All three are external image dependencies. The direct URLs were checked, but dep
 - **Scientific safeguards:** no numerical lapse rate, precipitation total, fixed snowline or universal elevation threshold is asserted. The figure explicitly notes regional, aspect and circulation variability.
 - **Source-level QA:** `<title>`, `<desc>`, `role="img"`, `aria-labelledby`, bilingual text and valid closing SVG checked; no script, foreignObject or external image.
 - **Status:** INTEGRATED; scientific concept and bilingual parity PASS; formal project creator/licence assignment, accessibility and live browser/mobile rendering PENDING. Not VERIFIED.
+
+
+## Chapters 21, 22, 23, 25 and 26 — sixteen original bilingual conceptual SVGs — 5 November 2026
+
+All sixteen visuals below are original Atlas of Knowledge SVGs. They are created as teaching models, not copied third-party illustrations. Each includes bilingual text, SVG `<title>` / `<desc>`, `role="img"` and `aria-labelledby`. Static source checks found no scripts, foreignObject or embedded external images. Formal project creator/licence assignment, assistive-technology review and deployed browser/mobile rendering remain PENDING.
+
+### Chapter 21 — Flora and fauna
+- **21-B** `assets/diagrams/21-B-altitudinal-vegetation-profile-bilingual.svg`: qualitative sequence from dry foothills through mountain steppe, spruce, subalpine/alpine and nival-rock communities. No fixed altitude boundaries. Context: FAO forest/ecology review of Kyrgyzstan, https://www.fao.org/4/j2603e/j2603e06.htm
+- **21-C** `assets/diagrams/21-C-forest-types-comparison-bilingual.svg`: spruce, juniper, walnut-fruit and tugai forest types; examples include Picea schrenkiana, Juniperus spp., Juglans regia, Malus spp., Prunus spp., Populus and Salix. FAO forest-sector review and Kyrgyzstan NFI#2 report support these groups: https://www.fao.org/4/j2603e/j2603e06.htm ; https://nfi2-kyrgyzstan.info/wp-content/uploads/2024/07/2022-09-30_NFI2-Report-Web-ENG.pdf
+- **21-H** `assets/diagrams/21-H-high-mountain-food-web-bilingual.svg`: simplified producer–herbivore–predator–scavenger–decomposer network; no claim to represent a complete species-specific web.
+- **21-I** `assets/diagrams/21-I-pressure-impact-management-bilingual.svg`: conceptual pressures, ecosystem effects and management responses; not a site-specific causal evaluation.
+- **21-J** `assets/diagrams/21-J-biodiversity-monitoring-methods-bilingual.svg`: complementary transect, plot, camera-trap, GPS, eDNA and satellite methods; limits and sensitive-location caveat included. NFI#2 provides national context for field inventory and forest monitoring.
+
+### Chapter 22 — Natural zones and protected areas
+- **22-F** `assets/diagrams/22-F-biosphere-reserve-zonation-bilingual.svg`: UNESCO MAB core, buffer and transition zones; schematic only, not an actual reserve boundary. Source: https://www.unesco.org/en/mab/wnbr/about
+- **22-G** `assets/diagrams/22-G-low-impact-tourism-route-bilingual.svg`: conceptual visitor-route management with sensitive habitat exclusion, waste collection and erosion monitoring. Source: UNEP/IUCN, *Sustainable Tourism in Protected Areas: Guidelines for Planning and Management*, https://wedocs.unep.org/items/29038038-4006-4b89-92b4-a83ed3b9c3ef
+- **22-H** `assets/diagrams/22-H-protected-area-management-system-bilingual.svg`: stakeholder cooperation and feedback model; no universal legal hierarchy asserted. UNESCO MAB stakeholder participation and CBD PAME framework reviewed.
+- **22-J** `assets/diagrams/22-J-protected-area-effectiveness-cycle-bilingual.svg`: six management-effectiveness components: context, planning, inputs, processes, outputs and outcomes. Sources: CBD, https://www.cbd.int/protected/pow/learnmore/goal42 ; FAO/IUCN PAME overview, https://www.fao.org/sustainable-forest-management/toolbox/tools/tool-detail/en/c/235922/
+
+### Chapter 23 — Population and settlement
+- **23-E** `assets/diagrams/23-E-urban-rural-settlement-comparison-bilingual.svg`: ideal-type comparison of density, services, livelihoods, mobility and land use; no rigid threshold or settlement-specific data.
+- **23-J** `assets/diagrams/23-J-valley-mountain-jailoo-settlement-bilingual.svg`: conceptual comparison of valley village, mountain settlement and seasonal jailoo camp; variation between households and regions is explicit.
+
+### Chapter 25 — Cities, economy and resources
+- **25-D** `assets/diagrams/25-D-natural-capital-environmental-costs-bilingual.svg`: natural-capital stocks, economic uses, environmental pressures and stewardship; no monetary valuation or depletion estimate. Source: World Bank natural-capital framework, https://www.worldbank.org/ext/en/topic/environment/natural-capital
+- **25-I** `assets/diagrams/25-I-agri-food-value-chain-bilingual.svg`: production, aggregation, storage, sorting, processing, distribution and market. Source: FAO Sustainable Food Value Chains, https://www.fao.org/sustainable-food-value-chains/what-is-it/en/
+
+### Chapter 26 — Environmental challenges and future
+- **26-H** `assets/diagrams/26-H-waste-hierarchy-bilingual.svg`: prevention, preparing for reuse, recycling/composting, other recovery and residual disposal. Source: waste hierarchy in Article 4 of the Waste Framework Directive, via UNEP Law and Environment Assistance Platform, https://leap.unep.org/en/akn/eu/act/directive/2008/98-ec/eng%402024-02-18
+- **26-I** `assets/diagrams/26-I-hazard-exposure-vulnerability-risk-bilingual.svg`: hazard, exposure, vulnerability and capacity; no literal multiplication or prediction. Sources: UNDRR terminology, https://www.undrr.org/terminology/disaster-risk ; https://www.undrr.org/terminology/exposure ; https://www.undrr.org/terminology/vulnerability
+- **26-K** `assets/diagrams/26-K-green-urban-infrastructure-bilingual.svg`: trees, parks, bioswales, permeable surfaces, shaded routes and monitoring; benefits depend on design and maintenance. Sources: UNEP urban ecosystem-based adaptation, https://www.unep.org/en/what-we-do/cities/cities-nature/urban-ecosystem-based-adaptation ; UNEP Central Asia nature-based solutions project, https://www.unep.org/en/where-we-work/europe/our-projects/promoting-nature-based-solutions-improved-urban-air-quality
+
+No numerical claims, local boundary polygons, species abundance estimates or site-specific performance scores are introduced by these conceptual diagrams.
