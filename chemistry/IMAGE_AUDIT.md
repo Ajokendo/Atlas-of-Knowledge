@@ -339,7 +339,7 @@ The Chapter 03 periodic-trends gap is now closed for **Image Coverage**. A bilin
 | Language/accessibility | 0 PASS / 19 PENDING / 0 FAIL | CH-V12 has separate RU/EN SVGs, localized captions and alt text; manual translation, screen-reader and device review remain pending. |
 | Technical full sign-off | 0 PASS / 19 PENDING / 0 FAIL | CH-V12 files and language switching are integrated in source. Branch-head CI run [41967144915](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41967144915) passed on commit `d9ed14dc463e946b301a4781780ac2b424ac22e9`: all 21 configured pages loaded, 42 axe-core RU/EN scans passed, 21 language toggles and key interactive workflows passed, with no uncaught page errors. Manual zoom/device and assistive-technology checks remain pending. |
 | AI-assisted first-pass science review | 14 PASS / 5 PENDING / 0 FAIL | Includes a first-pass check of CH-V12 trend directions and explicit caveats; not independent certification. |
-| Category A / B / C / pending | 0 / 0 / 1 / 18 | CH-V12 is category C (new code-authored SVG pair); its rights status is still pending. Other records remain unclassified pending provenance evidence. |
+| Category A / B / C / pending | 0 / 0 / 12 / 7 | The 12 static bilingual families are Category C for production-lineage tracking; the seven interactive systems remain pending for original creator/provenance classification. Rights remain pending for all 19 integrated visual units. |
 | Retrospective search records | 19 / 19 | Candidate search is documented; this cannot prove historical search-first sequencing before older assets were authored. |
 
 ### Chapter 03 — periodic system: updated visual status
