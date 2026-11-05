@@ -1194,3 +1194,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 - Source-page author/date/location/licence metadata was checked against the manifests. Existing manifests retain original-file SHA-1 comparisons and derivative WebP checksums; prior Chromium tests establish local image decoding, not morphology certification.
 - This was Commons-preview review, not a new full-resolution pixel-by-pixel comparison of all committed WebP files. The two Rufous-naped Tit candidates remain excluded because of the unresolved taxonomy metadata conflict.
 - No image or chapter content changed. Global Image Verification remains **Pending audit**; overall editorial readiness remains **99/100**.
+
+
+### Naryn maral taxonomy label — 5 November 2026
+
+- Reviewed the Naryn highland-fauna SVG label against the Kyrgyzstan Red Book entry and the CAMCA Naryn maral study.
+- Replaced the underspecified `Cervus sp.` with `Cervus elaphus`; did not assign a subspecies because sources use differing subspecies treatments.
+- Kept the diagram's separate-habitat caveat and the chapter's non-census/non-range-map qualification.
+- Commit: `f1a4f7eb0a562123d38ef87228dbe7ec8bc3b34c`. Global Image Verification remains Pending audit; editorial readiness remains 99/100.
