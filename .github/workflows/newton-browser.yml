@@ -1,0 +1,59 @@
+name: Newton chapter browser QA
+
+on:
+  push:
+    branches: [workspace/physics]
+    paths:
+      - 'chapters/newton-laws.html'
+      - 'original-engine/newton/**'
+      - 'original-engine/newton-smoke.mjs'
+      - 'original-engine/engine/**'
+      - 'original-engine/atlas.css'
+      - 'style.css'
+      - 'physics-lab.css'
+      - 'physics-lab.js'
+      - '.github/workflows/newton-browser.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: newton-browser-${{ github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser test tools
+        run: npm install --no-save playwright @axe-core/playwright
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/newton-http.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/chapters/newton-laws.html >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/newton/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/newton-http.log
+          exit 1
+      - name: Test Newton book and standalone chapter on desktop and mobile
+        run: node original-engine/newton-smoke.mjs
+      - name: Upload Newton visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter2-newton-visual-review
+          path: /tmp/physics-visual-review/newton/*.png
+          if-no-files-found: warn
