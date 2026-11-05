@@ -808,3 +808,27 @@ Integrated two complementary visuals in both language sections. The surface-curr
 - No item is VERIFIED. This audit does not certify rendered site behaviour, mobile layout or screen-reader output.
 
 **Audit status:** chapter visual component remains incomplete. The nine production briefs and IDs are aligned one-to-one. Three assets (17-C, 17-E and 17-G) are integrated; six map/data-dependent assets remain placeholders and are not counted as coverage.
+
+
+## Chapters 11–16 — first integrated visual tranche — 5 November 2026
+
+**Scope:** one first-priority visual per chapter (11-A, 12-A, 13-A, 14-A, 15-A, 16-A). This is a partial integration checkpoint, not a full chapter visual audit.
+
+| Visual ID | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|---|
+| 11-A | INTEGRATED | PENDING | PENDING | PASS — bilingual labels and caption | PENDING — semantic alt text and rendered screen-reader behaviour not manually checked | PASS — static SVG structure check; live render pending | Original sector-structure schematic has no fabricated percentages and distinguishes employment from GVA. Assign project creator/rightsholder and licence; inspect rendering and label legibility. |
+| 12-A | INTEGRATED | PENDING | PASS for the base and recorded CC BY 4.0 adaptation attribution | PASS — bilingual labels and caption | PENDING — semantic alt text and rendered behaviour not manually checked | PENDING — SVG uses a remote Wikimedia image dependency; live loading and responsive behaviour untested | Atlas Abierto 2026 relief/bathymetry base uses ETOPO 2022 and Natural Earth. Approximate numbered markers are orientation aids, not georeferenced boundaries. Confirm marker placement and the map's use as a relief base; river names are supplied in the side key, not digitised river lines. |
+| 13-A | INTEGRATED | PENDING — specialist review of radiative-transfer depiction remains necessary | PENDING — original visual's project licence not assigned | PASS — bilingual labels and caption | PENDING | PASS — static SVG structure check; live render pending | Original qualitative diagram shows shortwave input and longwave absorption/re-emission. It must not imply that heat is fully trapped or that greenhouse gases reflect incoming sunlight. Confirm the added emissions-source note remains legible. |
+| 14-A | INTEGRATED | PENDING | PENDING | PASS — bilingual labels and caption | PENDING | PASS — static SVG structure check; live render pending | Original vector/raster comparison correctly distinguishes geometries from a cell grid; it does not claim that one model is inherently more accurate. |
+| 15-A | INTEGRATED | PENDING — verify band boundaries and sensor-specific exceptions during specialist review | PENDING | PASS — bilingual labels and caption | PENDING | PASS — static SVG structure check; live render pending | Original spectrum schematic labels approximate bands and the 8–14 μm atmospheric window; ranges are not universal sensor specifications. |
+| 16-A | INTEGRATED | PENDING | PENDING | PASS — bilingual labels and caption | PENDING | PASS — static SVG structure check; live render pending | Original iterative research-cycle model contains a feedback loop; it is not presented as a mandatory universal protocol. |
+
+### Static checks performed
+
+All six SVG files were re-fetched from the working branch and passed the following source-level presence checks: viewBox, title, description, role="img", aria-labelledby, closing SVG element, and both Cyrillic and Latin text. This is not a rendered-browser test and does not certify XML parsing in every browser, visual legibility, contrast, meaningful screen-reader output or responsive behaviour.
+
+### Coverage and remaining gaps
+
+- Chapters 11–16: 6 of 53 registered visual IDs now have an integrated asset in this tranche; the remaining IDs are still production gaps and must not be counted as complete.
+- Chapter 12-A uses an external image dependency inside its SVG; offline availability and remote loading must be tested before release.
+- No asset in this tranche is marked VERIFIED. The five original SVGs require an explicit project rights/licence decision; all six require scientific/editorial review, and browser/accessibility QA remains outstanding.
