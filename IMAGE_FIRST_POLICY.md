@@ -70,7 +70,11 @@ A competent reviewer must check that the visual:
 
 The exact review checklist must be adapted to the discipline and visual type. For example, maps require geographic projection, scale, orientation, and data-date checks; charts require data provenance, units, axes, and statistical integrity; scientific diagrams require correct structures, processes, symbols, and model limitations.
 
-If a visual cannot be validated, mark it **PENDING** or reject it. Do not publish an unqualified inaccurate visual.
+**Internal verification:** the scientific/factual review must be performed by a competent reviewer distinct from the creator. This reviewer may be part of the project team; an external specialist is not mandatory for internal verification. The reviewer must record findings, role/competence, date, and outcome. The creator must never be the sole approver of their own visual.
+
+**External expert review:** an independent specialist review is an additional assurance level, recommended where appropriate, but it is not a universal publication prerequisite. Record it separately and claim it only when completed. Its absence does not invalidate a visual that has passed all internal checks.
+
+If a visual cannot be validated internally, mark it **PENDING** or reject it. Do not publish it as verified or imply that its accuracy has been established.
 
 ### Step 4 — Validate rights and licence for the exact asset
 
@@ -212,7 +216,7 @@ Use these status values consistently:
 - **SCIENTIFIC_CHECK** — scientific/factual validation is incomplete.
 - **ADAPTED** — a source has been modified and the adaptation record must be completed.
 - **INTEGRATED** — the visual is present in the atlas but not yet fully verified.
-- **VERIFIED** — all applicable scientific, rights, language, accessibility, and technical checks have passed and evidence is recorded.
+- **VERIFIED** — all applicable internal scientific, rights, language, accessibility, and technical checks have passed and evidence is recorded, including review by a competent person distinct from the creator. In narrative reporting this means **INTERNALLY VERIFIED**. External expert review is a separate, optional additional designation: use **EXTERNALLY VERIFIED** only when a documented independent external specialist review has also passed.
 - **REJECTED** — the visual must not be used.
 
 For each audit dimension use:
@@ -221,7 +225,7 @@ For each audit dimension use:
 - **PENDING** — not yet checked or evidence is incomplete;
 - **NOT APPLICABLE** — genuinely irrelevant, with a reason.
 
-A visual is **VERIFIED** only when every applicable dimension is PASS and all evidence is recorded. A placeholder is not an integrated or verified visual. A source register entry alone does not establish verification.
+A visual is **VERIFIED / INTERNALLY VERIFIED** only when every applicable internal dimension is PASS and all evidence is recorded. External review is not required for this status. Use **EXTERNALLY VERIFIED** only when internal verification is complete and a documented independent external specialist review has also passed. A placeholder is not an integrated or verified visual. A source register entry alone does not establish verification.
 
 ## 5. Metrics and readiness reporting
 
@@ -243,6 +247,8 @@ Rules:
 1. Do not claim 100% Image Coverage while a required visual is missing or represented only by a placeholder.
 2. Do not claim 100% Image Verification while any integrated visual remains unverified.
 3. Do not mark a visual VERIFIED while its rights are unknown or pending.
+4. External expert review is not a prerequisite for internal verification or publication; disclose whether it has or has not taken place.
+5. A visual with unresolved rights must not be publicly released, regardless of its scientific review status.
 4. If the required visual plan has not been completed, label coverage **provisional** and explain the scope.
 5. Never combine image readiness, editorial readiness, and technical readiness into one misleading percentage.
 
