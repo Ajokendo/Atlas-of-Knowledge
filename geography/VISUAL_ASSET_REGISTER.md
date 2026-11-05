@@ -348,3 +348,24 @@ The five remaining Chapter 16 assets are now integrated: 16-E thematic map types
 | **Total, Chapters 11–20** | **97** | **60** | **37** |
 
 This is the current scoped integration count for Chapters 11–20 only. The additional Chapter 20.6.7 research figure is not counted among planned IDs. Image Verification must be reported separately and must not be inferred from these integration counts.
+
+
+## Chapter 19 — additional integration update — 5 November 2026
+
+Visual 19-E (official Kyrgyzhydromet seasonal/annual temperature-trend chart) is now integrated. It reports the published linear trends for 22 station series and explicitly flags the source page's 1981–2020 versus 1981–2021 period inconsistency. It is not an annual temperature-anomaly series.
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total, Chapters 11–20** | **97** | **61** | **36** |
+
+Image Coverage is 61/97. Image Verification is not the same metric: none of the newly authored project SVGs is marked VERIFIED while project licence assignment, manual accessibility and browser/device checks remain open.
