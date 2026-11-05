@@ -173,6 +173,16 @@ Numbering note: chapter numbers follow Nathan Liow's original 15-chapter sequenc
 - Verify actual phone, tablet and desktop rendering, zoom/reflow, labels, clipping, loading and fallback. Existing browser smoke evidence is useful but does not replace manual scientific, legal, language and assistive-technology review.
 
 
+
+### Browser regression evidence — 2026-11-05
+
+- Workflow run: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41983167799
+- Tested commit: b5382a63ea83879bc6d74f9c2aa19a3cfd8deb94
+- Result: **SUCCESS** — all six workflow jobs completed successfully.
+- The Chromium job passed the existing desktop/mobile interactive-book and chapter smoke tests across all 15 chapters. Chapters 08 and 10 passed the strict isolated keyboard-focus checks (4/4 desktop/mobile lesson/book runs each); the shared native scene-picker focus handoff is therefore resolved for those tested flows.
+- Chapter 13 passed its standalone schematic test on desktop and mobile, including Ohm's-law recalculation, power, quiz, WebGL, keyboard operation, no horizontal overflow, and zero serious/critical axe findings.
+- Chapters 14 and 15 calculator/interactive lesson tests also passed in that run, but that commit predates the newly integrated SVG visuals. Those earlier results do **not** verify the new images; the updated visual-specific checks are being run separately.
+
 ### Asset-level audit — newly integrated visual IDs
 
 | Visual ID | Integration | Scientific / factual | Rights / licence | Language / accessibility | Technical / responsive | Overall |
