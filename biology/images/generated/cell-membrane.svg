@@ -50,7 +50,7 @@
 </g>
 <!-- simple diffusion -->
 <text x="72" y="388" class="ru">1. Простая диффузия</text><text x="72" y="413" class="en">Simple diffusion</text>
-<text x="82" y="450" class="small">Высокая концентрация / High</text>
+<text x="82" y="450" class="small">Высокая концентрация / High concentration</text>
 <g fill="#527e67"><circle cx="105" cy="480" r="7"/><circle cx="145" cy="470" r="7"/><circle cx="185" cy="488" r="7"/><circle cx="225" cy="468" r="7"/><circle cx="265" cy="485" r="7"/></g>
 <path d="M300 478 H430" class="flow"/>
 <g fill="#527e67"><circle cx="465" cy="470" r="7"/><circle cx="505" cy="486" r="7"/></g>
