@@ -838,9 +838,9 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 13-E / IMAGE PLACEHOLDER 13-E]** Схема системы глобальных изменений: климат, землепользование, биогеохимические циклы, биоразнообразие и общественные драйверы. / **EN:** Global-change systems diagram linking climate, land use, biogeochemical cycles, biodiversity and societal drivers.
-**Иллюстрация 13.1 / Figure 13.1 — Система глобальных экологических изменений / Global environmental change system.**  
-Схема взаимосвязей между климатом, землепользованием, биоразнообразием, биогеохимическими циклами, загрязнением и обществом. Стрелки должны обозначать причинные связи только там, где они научно обоснованы.
+![Глобальные изменения как социально-экологическая система / Global change as a social-ecological system](../assets/diagrams/13-E-global-change-socioecological-system-bilingual.svg)
+
+*Схема адаптирует шесть взаимосвязанных элементов рамки IPBES; это аналитическая модель, а не линейная причинная цепочка. / The diagram adapts six linked elements of the IPBES framework; it is an analytical model, not a linear causal chain.*
 
 **Иллюстрация 13.2 / Figure 13.2 — Парниковый эффект и энергетический баланс / Greenhouse effect and energy balance.**  
 Научная схема поступления коротковолновой солнечной радиации, отражения, поглощения и исходящего длинноволнового излучения. Не изображать парниковые газы как физический слой или «крышку» атмосферы.
