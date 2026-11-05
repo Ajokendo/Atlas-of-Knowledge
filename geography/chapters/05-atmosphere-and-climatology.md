@@ -701,9 +701,9 @@ The atmosphere supplies oxygen for the respiration of most organisms and carbon 
 The atmosphere is divided into layers according to how temperature changes with altitude. Layer boundaries are not fixed: their heights vary with latitude, season and atmospheric conditions.
 
 <!-- VISUAL ID: 5.2-A (legacy alias 5-A) -->
-![Слои атмосферы Земли / Layers of Earth's atmosphere](https://commons.wikimedia.org/wiki/Special:FilePath/Atmosphere_layers_edu.svg)
+![Пять основных слоёв атмосферы, ориентировочные высоты границ, озоновый слой, ионосфера и линия Кармана. / Five main atmospheric layers, approximate boundary altitudes, ozone layer, ionosphere and Kármán line.](../visuals/chapter-05-atmosphere-layers-bilingual.svg)
 
-*Слои атмосферы: схема CC0, авторство и описание файла — Wikimedia Commons, “Atmosphere layers edu.svg”. Используется как учебная схема; границы слоёв и высоты ориентировочны. / Atmospheric layers: CC0 diagram, file attribution and description on Wikimedia Commons, “Atmosphere layers edu.svg”. Layer boundaries and altitudes are approximate.* [Источник и лицензия / Source and licence](https://commons.wikimedia.org/wiki/File:Atmosphere_layers_edu.svg).
+*Схема показывает пять основных слоёв атмосферы и приблизительные высоты их границ. Ионосфера перекрывает несколько слоёв; линия Кармана на высоте 100 км условна. Высоты меняются с широтой, сезоном и состоянием атмосферы. / The diagram shows the five main atmospheric layers and approximate boundary altitudes. The ionosphere overlaps several layers; the 100-km Kármán line is conventional. Altitudes vary with latitude, season and atmospheric conditions.*
 
 - **Troposphere:** the lowest layer, containing most of the atmosphere's mass and almost all atmospheric water vapour. Clouds, precipitation, thunderstorms and most weather phenomena develop here. Its height is generally about 8–18 km, lower at high latitudes and higher in the tropics. Temperature usually decreases with altitude, although inversions may occur.
 - **Stratosphere:** extends from the tropopause to about 50 km. Most atmospheric ozone is found here. Absorption of ultraviolet radiation by ozone causes temperature to rise with altitude through much of this layer.
