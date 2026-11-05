@@ -423,3 +423,15 @@ A source-level review of two additional diagrams found two actionable issues:
 - `systematics-domains.svg`: the eukaryotic-cell size caveat ended with a Russian/English slash but had no complete English equivalent. Replaced it with two complete concise bilingual statements: eukaryotic cells are often larger, but sizes vary widely.
 
 These are source-level corrections. The updated screenshots and CI checks are pending; no claim of pixel-level visual verification is made yet.
+
+
+### Follow-up: full blood-flow sequence in the circulation diagram — 5 November 2026
+
+A deeper directional audit of `anatomy-circulation.svg` found that the initial return-path repair was not sufficient: the pulmonary-vein arrow entered the right-atrial side, the red systemic outflow began near the left atrium rather than the left ventricle, and an extra red arrow pointed from the body back toward the left ventricle. Corrected the complete set of large circuit arrows:
+
+- pulmonary artery: right ventricle → lungs (blue);
+- pulmonary veins: lungs → left atrium (red);
+- systemic arterial outflow: left ventricle → body (red);
+- systemic venous return: body → right atrium (blue, continuous path).
+
+This is a source-level flow-direction correction. CI and refreshed screenshot review remain pending; the separate manual school-device QA phase is still planned for classroom testing.
