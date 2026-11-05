@@ -930,6 +930,8 @@ Kyrgyzstan’s climate is shaped by its continental location, atmospheric circul
 11. Kyrgyz Hydrometeorological Service (Kyrgyzhydromet). **Climate Products: Analysis and Forecast of Temperature and Precipitation Changes in the Kyrgyz Republic, 1980–2021; Climate Products for the Territory of Kyrgyzstan: Analysis and Forecast, 1980–2022.** Official methodological and results pages. https://www.meteo.kg/ru/pages/ClimateProducts
 12. Kyrgyz Republic. **Biennial Transparency Report (BTR1)** (2025). Adaptation priorities across water, agriculture, energy, disaster risk reduction, health, transport, ecosystems/biodiversity and cities. https://unfccc.int/sites/default/files/resource/%28%D0%94%D0%94%D0%A2%29%20Eng_BTR1_Final.pdf
 13. United Nations Development Programme. **Adaptation to Climate Change in Kyrgyzstan** (2024). Sectoral adaptation measures and examples of community resilience actions. https://www.undp.org/sites/g/files/zskgke326/files/2024-03/infographics-climate-risks-krg-en.pdf
+14. Gerlitz, L., et al. (2018). **Variability of the Cold Season Climate in Central Asia. Part I: Weather Types and Their Tropical and Extratropical Drivers.** *Journal of Climate*, 31(18), 7185–7207. https://doi.org/10.1175/JCLI-D-17-0715.1
+15. **Frontiers in Earth Science.** (2020). **Spatiotemporal Variation in Precipitation and Water Vapor Transport Over Central Asia in Winter and Summer Under Global Warming.** https://doi.org/10.3389/feart.2020.00297
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена; перед финальной публикацией требуется сверить локальные климатические показатели с национальными метеорологическими рядами, унифицировать период норм и оформить карты на основе проверенных пространственных данных.  
