@@ -251,7 +251,9 @@ Climate regulates the water balance, vegetation, soil formation, pasture product
 
 ## 19.10. Климатические опасности / Climate-Related Hazards
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-D / IMAGE PLACEHOLDER 19-D]** Инфографика климатических опасностей Кыргызстана: засухи, жара, экстремальные осадки, сели, снегопады и лавины; отдельно показать опасность, экспозицию и уязвимость.
+![Климатические опасности Кыргызстана: жара, засуха, экстремальные осадки, сели, лавины и ледниковые озёра / Climate-related hazards in Kyrgyzstan: heat, drought, extreme precipitation, debris flows, avalanches and glacial lakes](../assets/diagrams/19-D-climate-hazards-and-risk-bilingual.svg)
+
+*Оригинальная двуязычная схема без рейтинга частоты или риска по областям; для таких оценок нужны датированные наблюдения и данные об экспозиции и уязвимости. / Original bilingual diagram without regional frequency or risk rankings; such assessments require dated observations and exposure/vulnerability data.*
 > **EN:** Infographic of climate-related hazards in Kyrgyzstan: droughts, heat, extreme precipitation, debris flows, heavy snowfall and avalanches; show hazard, exposure and vulnerability separately.
 
 К основным климатическим опасностям относятся:
