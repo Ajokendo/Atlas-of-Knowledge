@@ -1,5 +1,8 @@
 # Independent reviewer handoff and acceptance protocol — Atlas of Biology
 
+> **ARCHIVED — OUTSIDE THE ATLAS PROJECT SCOPE (5 November 2026).** This handoff is retained for historical traceability only and must not be used to initiate external work. No reviewer assignment, snapshot handoff, independent assessment, external sign-off or acceptance is part of Atlas of Knowledge. Do not interpret its instructions or blank/pending templates as project tasks. Any external work is separate and must be handled outside this project and repository. Internal QA remains the responsibility of the project team.
+
+
 **Date:** 1 November 2026  
 **Repository:** `Ajokendo/Atlas-of-Knowledge`  
 **Canonical branch:** `workspace/biology`  
