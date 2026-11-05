@@ -1259,3 +1259,11 @@ A final bilingual-equivalence refinement in this batch expanded the English desc
 
 
 **Generated-file technical record:** source PNG, 1312 × 1199 px, RGB; optimized WebP derivative, 1312 × 1199 px, 179,740 bytes, SHA-256 `956c21e15206f7a8d65629ae9bc1496bea39b117654a8f438bcff1c320124481`. The derivative is available in the current conversation workspace; this hash is a local provenance record, not a GitHub repository checksum.
+
+
+### Aygul generated plate integration — 5 November 2026
+
+- The generated plate is now in `workspace/biology` at `biology/images/generated/flora-batken-aygul-botanical-plate.webp` and referenced from `biology/chapters/flora-kyrgyzstan.html` as a supplementary Category C illustration.
+- Repository derivative: 320 × 292 px, 7,196 bytes; SHA-256 `b79cc139c33b4b19b5c1e72fa79885688cdd9c0202d6d402ad3f13348badf4c9`. The full-resolution source remains separately preserved in the conversation workspace.
+- Bilingual alt text/caption and scientific caveats are present. Existing original SVG remains intact.
+- The first CI attempt exposed a new anchor-map mismatch and a missing P1 scientific-review link; both metadata issues were corrected. Awaiting the follow-up CI/browser result. Overall readiness remains 99/100 pending the remaining gates.
