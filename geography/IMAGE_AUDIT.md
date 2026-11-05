@@ -49,7 +49,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 15 | 11 | 11 | 0 | Eleven local SVG assets embedded. |
 | 16 | 9 | 9 | 0 | Nine local SVG assets embedded. |
 | 17 | 9 | 3 | 6 | 17-C, 17-E and 17-G embedded; remaining six planned assets open. |
-| 18 | 10 | 5 | 5 | 18-A relief map, 18-B, 18-D, 18-H and 18-J embedded; rights/metadata review remains asset-specific. |
+| 18 | 10 | 5 | 5 | 18-B, 18-C (three-photo set), 18-D, 18-H and 18-J embedded. Supplementary Blue Green Atlas relief image does not close 18-A. |
 | 19 | 10 | 6 | 4 | 19-C, 19-D, 19-E, 19-F, 19-H and 19-J embedded. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 0 | 68 | No planned visual IDs have confirmed image embeds in the chapter source scan. |
@@ -140,9 +140,9 @@ The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 
 | 17 | 17-G | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual not-to-scale relief-process schematic integrated in RU/EN; endogenic and exogenic processes distinguished; creator/rightsholder and project licence pending. |
 | 17 | 17-H | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 17 | 17-I | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
-| 18 | 18-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 18 | 18-A | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original schematic orographic regionalisation; not georeferenced. Project licence pending. |
-| 18 | 18-C | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 18 | 18-C | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-D | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original conceptual glacial-landform diagram. Project licence pending. |
 | 18 | 18-E | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 18 | 18-F | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
