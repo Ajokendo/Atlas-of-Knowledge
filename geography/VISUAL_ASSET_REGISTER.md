@@ -465,3 +465,8 @@ NASA SRTM Global 1 arc-second V003 (~30 m, acquisition 2000) and Copernicus DEM 
 | **Total** | **97** | **71** | **26** |
 
 **Image Coverage:** 71/97 (73%) of planned visual IDs in Chapters 11–20 are integrated. Chapters 13, 15 and 16 are now 100% by planned-ID coverage; Chapter 14 remains 8/9, pending a validated DEM and derivatives. Image Verification is a separate measure; integration does not imply VERIFIED.
+
+
+### Chapter 18 — supplementary relief overview
+
+Blue Green Atlas's Kyrgyzstan relief map (CC BY 4.0) has been embedded as a supplementary overview. Its source metadata lists Mercator projection, NASA SRTM3 (~90 m), GEBCO 2019, HydroLAKES, HydroATLAS and VMap0. Because compilation date, vertical reference and accuracy assessment are not stated, this map does **not** close planned visual 18-A or replace the required validated DEM.
