@@ -956,3 +956,12 @@ For all 11: project creator/rightsholder and redistribution licence remain PENDI
 - **Status:** INTEGRATED; rights and bilingual key PASS; source-version/date review and external SVG rendering/accessibility QA PENDING. Not VERIFIED.
 
 All three are external image dependencies. The direct URLs were checked, but deployed site loading, responsive display, and assistive-technology behaviour remain pending.
+
+
+### Chapter 17-A — Kyrgyzstan in Central Asia: locator and boundary context — 5 November 2026
+
+- **Topographic context:** Blue Green Atlas, https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.html; direct image https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg; CC BY 4.0. Projection Mercator; source layers named by creator: NASA SRTM3, GEBCO 2019, HydroLAKES, HydroATLAS and VMap0. Used for regional context and neighbouring-country labels only; its border line is not treated as legal authority.
+- **Administrative outline:** https://blankmapof.com/kyrgyzstan; direct SVG https://blankmapof.com/maps/svg/blank-map-of-kyrgyzstan-borders.svg. Boundary provenance: OCHA COD-AB, source agency Ministry of Emergency Situations of the Kyrgyz Republic, CC BY-IGO; neighbouring land/coastlines from Natural Earth; Lambert azimuthal equal-area projection.
+- **Attribution:** Blue Green Atlas (CC BY 4.0); OCHA / Ministry of Emergency Situations (CC BY-IGO); blankmapof.com map rendering; Natural Earth public domain.
+- **Caveat:** the page does not expose the underlying OCHA release/version date. The administrative map is therefore integrated as a provisional reference, not verified as the current legal international boundary and not suitable for delimitation. No disputed lines are shown.
+- **Status:** INTEGRATED; rights and bilingual metadata PASS; source-date/legal boundary review and deployed external-image/accessibility QA PENDING. Not VERIFIED.
