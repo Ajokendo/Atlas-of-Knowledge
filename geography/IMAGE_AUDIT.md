@@ -64,7 +64,7 @@ The explicit ID rows below are provisional: 281 named IDs are enumerated, and tw
 | 10 | 10-G | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 11 | 11-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual sector-structure SVG; project licence and scientific review remain open. |
 | 11 | 11-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original bilingual location-factors SVG; project licence and scientific review remain open. |
-| 11 | 11-C | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
+| 11 | 11-C | INTEGRATED | PENDING | PENDING | PASS | PENDING | PASS — source-level SVG checks; live render pending | Original multimodal supply-chain schematic; explicitly not a real transport-corridor map. Project licence pending. |
 | 11 | 11-D | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 11 | 11-E | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 11 | 11-F | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
@@ -879,7 +879,7 @@ The new 18-D, 18-H, 19-C, 20-F, 20-H and 20-J SVG files were re-fetched and pass
 
 | Chapter | Registered IDs | Integrated | Missing |
 |---|---:|---:|---:|
-| 11 | 7 | 2 | 5 |
+| 11 | 7 | 3 | 4 |
 | 12 | 10 | 2 | 8 |
 | 13 | 11 | 2 | 9 |
 | 14 | 9 | 2 | 7 |
@@ -889,7 +889,7 @@ The new 18-D, 18-H, 19-C, 20-F, 20-H and 20-J SVG files were re-fetched and pass
 | 18 | 10 | 4 | 6 |
 | 19 | 10 | 3 | 7 |
 | 20 | 11 | 5 | 6 |
-| **Total** | **97** | **27** | **70** |
+| **Total** | **97** | **28** | **69** |
 
 All seven new SVGs were re-fetched from the working branch and passed source-level checks for viewBox, title, description, role="img", aria-labelledby, closing SVG element, and Cyrillic and Latin text. This is not a browser-render or assistive-technology test. Their project licence, scientific review, accessibility and live rendering remain pending.
 
@@ -899,3 +899,10 @@ All seven new SVGs were re-fetched from the working branch and passed source-lev
 | Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
 |---|---|---|---|---|---|---|
 | INTEGRATED | PENDING — confirm that the map's regional groupings are not confused with UN M49; this distinction is stated in the chapter and caption | PASS for source attribution and CC BY 4.0 adaptation record | PASS — bilingual side key and caption; source map labels remain English | PENDING — screen-reader output and label legibility not tested | PENDING — SVG embeds a remote MDPI image; live loading and responsive rendering untested | Adapted from Dou et al. (2018), Figure 1. The source map's region boundaries follow the study's regionalisation and RESDC data, not an official UN M49 map. Do not remove the scope caveat. |
+
+
+### Chapter 11-C — multimodal transport chain
+
+| Presence | Scientific / factual | Rights / licence | RU–EN parity | Accessibility | Technical | Finding / next action |
+|---|---|---|---|---|---|---|
+| INTEGRATED | PENDING — review multimodal sequence and examples | PENDING — original SVG project licence not assigned | PASS | PENDING | PASS — source-level SVG structure; live render pending | Schematic chain includes producer, consolidation, rail, port, ship, warehouse and market, with road and air alternatives. It contains no invented route distances or travel times. |
