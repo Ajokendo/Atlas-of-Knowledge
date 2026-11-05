@@ -196,3 +196,25 @@ The OpenStax, PubChem, PhET and Wikimedia candidates recorded above were located
 
 
 **Interactive-system Git introduction evidence:** the six systems embedded in `chapters/atomic-structure.html` (CH-IV01/02), `chapters/chemical-bonding.html` (CH-IV03), `periodic-table.html` (CH-IV04), `molecule-lab.html` (CH-IV05) and `virtual-lab.html` (CH-IV07) first appear in the Chemistry integration commit `ede96643806cd1f83da27395908dc40e4a9b7518` (2026-10-31). CH-IV06 in `gas-laws.html` was introduced in commit `4793914a73f788e92b63efe10c86762a61fe8455` (“Add interactive Chemistry Atlas learning resources”). The Git commit records repository-account submission and first appearance, not the human/AI authoring process. No prompt-level creation record or external source-code attribution was found in these commit records.
+
+
+## Git-history introduction evidence for 12 unresolved SVG files — 2026-11-05
+
+A path-specific Git history review identified the first repository commit for each of the 12 SVG files whose creation method/source was still unknown. All listed commits show the repository account `Ajokendo` as author and committer. This establishes when the files first appeared in this repository and the commit messages used at introduction; it does **not** establish whether the artwork was AI-generated, hand-authored, copied/adapted from an external source, or who holds the underlying rights. Therefore the files remain **Unknown / PENDING** for category, authoring method, source lineage and rights.
+
+| File | First introduction commit | Commit date (UTC) | Commit message |
+|---|---|---|---|
+| `electron-cloud-ru.svg` | [acdcdc0ddcb9036438a2ecb72a3c927bc7f7fab1](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/acdcdc0ddcb9036438a2ecb72a3c927bc7f7fab1) | 2026-11-01 10:18:37 | Localize chemistry atlas hero illustration |
+| `isotope-abundance.svg` | [00624f7cba0f7ac28ed9871921936e86616c9c94](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/00624f7cba0f7ac28ed9871921936e86616c9c94) | 2026-11-01 07:24:12 | Add chemistry illustration: isotope-abundance.svg |
+| `one-mole-scale.svg` | [0f7cd9308a12a06d506a13ada88b3ccfe5150b87](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/0f7cd9308a12a06d506a13ada88b3ccfe5150b87) | 2026-11-01 07:24:14 | Add chemistry illustration: one-mole-scale.svg |
+| `formula-reading.svg` | [eaf2e0294da0da5440935222fb0ba4e2efb0c62a](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/eaf2e0294da0da5440935222fb0ba4e2efb0c62a) | 2026-11-01 07:24:16 | Add chemistry illustration: formula-reading.svg |
+| `solution-saturation-particles.svg` | [388463ff36bbaf2303e1ad72bc30a0a577503564](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/388463ff36bbaf2303e1ad72bc30a0a577503564) | 2026-11-01 07:24:18 | Add chemistry illustration: solution-saturation-particles.svg |
+| `acid-base-neutralisation.svg` | [0ec271e7b94af2f4074d8edc9dc7d05fb2b3cf67](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/0ec271e7b94af2f4074d8edc9dc7d05fb2b3cf67) | 2026-11-01 07:24:20 | Add chemistry illustration: acid-base-neutralisation.svg |
+| `daniell-cell.svg` | [95f45c789ad8d6d66d6d3d0bf92f049b140d7caa](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/95f45c789ad8d6d6d3d0bf92f049b140d7caa) | 2026-11-01 07:24:22 | Add chemistry illustration: daniell-cell.svg |
+| `daniell-cell-ru.svg` | [c954d79c669b7d3b6e87091490a91a594fbd0910](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/c954d79c669b7d3b6e87091490a91a594fbd0910) | 2026-11-01 09:50:03 | Add Russian-localized Daniell cell illustration |
+| `organic-functional-groups.svg` | [559ce73c65b8751ef3236d526732d99c3f7d0947](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/559ce73c65b8751ef3236d526732d99c3f7d0947) | 2026-11-01 07:24:24 | Add chemistry illustration: organic-functional-groups.svg |
+| `biomolecule-overview.svg` | [9f597a9f38311004e9bb874ed259191e7c4a41d1](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/9f597a9f38311004e9bb874ed259191e7c4a41d1) | 2026-11-01 07:24:26 | Add chemistry illustration: biomolecule-overview.svg |
+| `biomolecule-overview-ru.svg` | [81ba9d768e588d30ceea828873d3abb5012cb5af](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/81ba9d768e588d30ceea828873d3abb5012cb5af) | 2026-11-01 09:34:42 | Add Russian biomolecule overview illustration |
+| `carbon-cycle-ru.svg` | [882393cee7e36d4a4bfc153419892c1d6365457d](https://github.com/Ajokendo/Atlas-of-Knowledge/commit/882393cee7e36d4a4bfc153419892c1d6365457d) | 2026-11-01 09:34:44 | Add Russian carbon cycle illustration |
+
+**Result:** repository introduction history is now recorded for all 22 original SVG files (10 files have the previously documented AI-generation evidence; these 12 have only repository-introduction evidence). No unsupported authorship, source or licence has been inferred.
