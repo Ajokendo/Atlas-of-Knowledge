@@ -295,8 +295,21 @@ These descriptions are geographic summaries, not a substitute for a georeference
 
 ## 18.5. Высочайшие вершины Кыргызстана / Highest Peaks of Kyrgyzstan
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-C / IMAGE PLACEHOLDER 18-C]** Панорама Жеңиш, Хан-Тенгри и пика Ленина (в Таджикистане — Абу Али ибн Сино) с раздельными подписями высоты скальной вершины и ледниковой шапки, где применимо; высоты сверить по официальным источникам.
-> **EN:** Panorama of Jengish Chokusu, Khan Tengri and Lenin Peak (Abu Ali Ibn Sina Peak in Tajikistan), with separate labels for rock-summit and ice-cap elevations where relevant; verify heights against authoritative sources.
+**Фотографическая подборка / Photo set**
+
+![Жеңиш чокусу на фоне ледника Южный Иныльчек; каменная тура на переднем плане / Jengish Chokusu above the South Inylchek Glacier, with a stone cairn in the foreground](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rock_cairn_on_the_South_Inylchek_Glacier%2C_with_Jengish_Chokusu_%28Victory_Peak%29_in_the_background%2C_Khan_Tengri_Nature_Park%2C_Tien_Shan.jpg/960px-Rock_cairn_on_the_South_Inylchek_Glacier%2C_with_Jengish_Chokusu_%28Victory_Peak%29_in_the_background%2C_Khan_Tengri_Nature_Park%2C_Tien_Shan.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org)
+
+*Автор: Maryliflower, 2021. CC BY-SA 4.0. Источник и лицензия: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rock_cairn_on_the_South_Inylchek_Glacier,_with_Jengish_Chokusu_(Victory_Peak)_in_the_background,_Khan_Tengri_Nature_Park,_Tien_Shan.jpg). Изображение не изменено. / Author: Maryliflower, 2021. CC BY-SA 4.0. Source and licence: Wikimedia Commons. Unmodified.*
+
+![Хан-Тенгри в облаках, виден характерный мраморный гребень / Khan Tengri in cloud, showing its distinctive marble ridge](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Khan_Tengri_in_the_mist.jpg/960px-Khan_Tengri_in_the_mist.jpg)
+
+*Автор: Chen Zhao, 2009. CC BY 2.0. Источник и лицензия: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Khan_Tengri_in_the_mist.jpg). Изображение не изменено. / Author: Chen Zhao, 2009. CC BY 2.0. Source and licence: Wikimedia Commons. Unmodified.*
+
+![Пик Ленина над Памирским трактом в Кыргызстане / Lenin Peak above the Pamir Highway in Kyrgyzstan](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pic_L%C3%A9nine.jpg/1280px-Pic_L%C3%A9nine.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org)
+
+*Автор: Benoît Vicart, 2019. CC0 1.0. Источник и статус общественного достояния: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pic_L%C3%A9nine.jpg). Изображение не изменено. / Author: Benoît Vicart, 2019. CC0 1.0. Source and public-domain dedication: Wikimedia Commons. Unmodified.*
+
+*Подписи высот в тексте главы относятся к отдельным официальным источникам; фотографии не являются измерительным или высотным доказательством. / Elevations stated in the chapter are supported by separate official references; photographs are not elevation evidence.*
 
 ### 18.5.1. Пик Жеңиш (Победы) / Jengish Chokusu (Victory Peak)
 
