@@ -737,3 +737,13 @@ The regression suite now checks that any generated SVG with visible Latin-script
 The exact committed Aygul WebP was inspected directly: 320 × 292 px; the active asset depicts the above-ground plant and flower detail, including the six-tepal/six-stamen diagram. It does not contain the separate bulb or capsule studies found in the uncommitted 1199 × 1312 working PNG. Those extra studies are not used on the page and must not be described as part of the active derivative.
 
 No external review was used or requested. These are internal source, content and rendering corrections.
+
+
+## Circulatory-path label correction — 5 November 2026
+
+Internal review of `anatomy-circulation.svg` found that the label “Pulmonary veins” sat beside the red heart-to-body path, where it could be read as describing systemic arteries. The correction now:
+- places “Pulmonary veins” beside the red lung-to-heart return path;
+- labels the red heart-to-body route “Systemic arteries”;
+- identifies systemic venous return in the bilingual explanatory line.
+
+The page caption continues to explain that red/blue indicate relative oxygen content, not literal blood colour. This is a source-level label correction; final page rendering is being rechecked by the current Chromium workflow.
