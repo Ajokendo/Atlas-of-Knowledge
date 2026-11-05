@@ -56,8 +56,9 @@ However, continentality does not mean climatic uniformity. The Tien Shan and Pam
 
 ## 19.2. Атмосферная циркуляция и сезонность / Atmospheric Circulation and Seasonality
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-F / IMAGE PLACEHOLDER 19-F]** Сезонная схема атмосферной циркуляции над Центральной Азией: западный перенос, циклоны и континентальные вторжения; схема не должна имитировать прогноз погоды.
-> **EN:** Seasonal atmospheric-circulation diagram for Central Asia showing westerlies, cyclones and continental air incursions; it is not a daily weather forecast.
+![Сезонная атмосферная циркуляция над Центральной Азией / Seasonal atmospheric circulation over Central Asia](../assets/diagrams/19-F-seasonal-circulation-central-asia-bilingual.svg)
+
+*Упрощённая региональная модель, а не ежедневный прогноз; циркуляция и осадки меняются по сезону, высоте и району. / Simplified regional model, not a daily forecast; circulation and precipitation vary by season, elevation and locality.*
 
 
 В течение года над Центральной Азией взаимодействуют западный перенос умеренных широт, континентальные воздушные массы, циклоны и антициклональные поля. Их относительная роль меняется по сезонам и годам.
