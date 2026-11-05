@@ -93,6 +93,10 @@ The earlier source versions remain traceable in Git history. The full task and d
 **Chapter 01 decision — 5 November 2026:** all five assets are integrated in both language versions (Image Coverage 5/5 = 100%). ChatGPT GPT-6 completed the designated internal conceptual/pedagogical review for 01-A–01-E; this is not independent human/expert validation. The title of 01-B was corrected to match its actual absolute/relative-location content. 01-D has exact-source CC BY 4.0 evidence and attribution. The four created assets have owner-confirmed authority to apply CC BY-NC 4.0 (owner representation; attribution: Atlas of Knowledge project). Static SVG source QA is PASS 5/5. Alt text and bilingual SVG metadata are checked; actual screen-reader output and rendered browser/device QA remain untested. Do not conflate internal review or image coverage with deployment/accessibility verification. External teacher/expert review is outside this development workflow.
 
 
+## Chapter 02 replacement tracking
+
+The rights-based replacement matrix is maintained in [CHAPTER_02_VISUAL_REPLACEMENT_PLAN.md](CHAPTER_02_VISUAL_REPLACEMENT_PLAN.md). It distinguishes candidates ready for integration from conditional candidates and unresolved gaps. The 11 existing local SVGs remain NOT CLEARED FOR PUBLIC REUSE; candidate discovery does not change that status.
+
 ## Chapter 02 — Earth's Geographic Envelope
 
 | Visual ID | Required content | Source / asset | Status | Rights, scientific fit and next action |
