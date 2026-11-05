@@ -22,13 +22,13 @@
 <path class="grid" d="M150 560 H690 M150 650 H690 M150 740 H690 M150 560 V760"/>
 <path class="axis" d="M150 760 V550 M150 760 H700"/>
 <path class="red" d="M150 760 C210 640 260 590 340 570 C430 550 560 550 680 550"/>
-<text class="lab" x="165" y="545">I₀ = V/R</text><text class="lab" x="480" y="785">t</text>
-<text class="lab" x="95" y="655">I</text>
+<text class="lab" x="165" y="545">I₀ = V/R</text><text class="lab" x="480" y="785">t (с / s)</text>
+<text class="lab" x="95" y="655">I (A)</text>
 <text class="lab" x="100" y="835">Спад тока после отключения</text><text class="en" x="100" y="865">Current decay after switching off</text>
 <path class="grid" d="M150 900 H690 M150 965 H690 M150 900 V990"/>
 <path class="axis" d="M150 990 V890 M150 990 H700"/>
 <path class="blue" d="M150 900 C220 900 260 930 320 955 C410 985 540 990 680 990"/>
-<text class="lab" x="165" y="890">I(0) = I₀</text><text class="lab" x="480" y="1015">t</text>
+<text class="lab" x="165" y="890">I(0) = I₀</text><text class="lab" x="480" y="1015">t (с / s)</text>
 <text class="formula" x="90" y="1030">τ = L/R</text>
 <!-- LC panel -->
 <rect class="card" x="800" y="370" width="745" height="680" rx="22"/>
@@ -38,8 +38,8 @@
 <path class="axis" d="M880 635 H1495 M880 545 V720"/>
 <path class="red" d="M880 565 C930 565 955 705 1005 705 S1080 565 1130 565 S1205 705 1255 705 S1330 565 1380 565 S1455 705 1490 705"/>
 <path class="blue" d="M880 635 C930 705 955 635 1005 565 S1080 635 1130 705 S1205 635 1255 565 S1330 635 1380 705 S1455 635 1490 565"/>
-<text class="lab" x="900" y="545" fill="#d65b43">q(t) = Q₀ cos(ωt)</text><text class="lab" x="1190" y="545" fill="#2367a8">I(t) = −ωQ₀ sin(ωt)</text>
-<text class="lab" x="1460" y="750">t</text>
+<text class="lab" x="900" y="545" fill="#d65b43">q(t) = Q₀ cos(ωt), q (Кл / C)</text><text class="lab" x="1190" y="545" fill="#2367a8">I(t) = −ωQ₀ sin(ωt), I (A)</text>
+<text class="lab" x="1460" y="750">t (с / s)</text>
 <text class="lab" x="850" y="805">Обмен энергией / Energy exchange</text>
 <path class="grid" d="M880 850 H1490 M880 930 H1490 M880 850 V960"/>
 <path class="axis" d="M880 960 H1495 M880 840 V965"/>
