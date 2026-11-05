@@ -1055,3 +1055,11 @@ After adding a brief bilingual introduction to the key-term glossaries in Chapte
 - QGIS 3.44 topology documentation identifies polygon gaps/overlaps, line undershoots/overshoots and duplicate features. GDAL documentation clarifies that individual geometry validity does not itself test coverage gaps/overlaps.
 - The reproducible-workflow visual is a project-method checklist, not a claim that every GIS project follows an identical linear process.
 - Visuals 14-F, 14-H and 14-I are integrated and passed static source/embed checks; software execution, live browser and accessibility QA remain open.
+
+
+### Chapter 15 — USGS source checks for spectral signatures, resolution and surface reflectance — 5 November 2026
+
+- USGS aquatic remote-sensing material confirms wavelength-dependent reflectance differences among clear water, algal water and sediment-laden water. The diagram's water curve is qualitative; vegetation, soil and snow curves are also schematic and not presented as measured field spectra.
+- USGS Landsat glossary and NASA ARSET define the four independent resolution dimensions: spatial, spectral, radiometric and temporal.
+- USGS Landsat Collection 2 sources confirm that Level-2 surface reflectance products have undergone algorithmic atmospheric correction (LEDAPS/LaSRC depending on sensor generation) and require product-specific scale factors and QA layers. The diagram warns against applying corrections twice.
+- 15-F, 15-G and 15-H passed static SVG and embed checks; sensor-specific product testing, browser rendering and accessibility review remain open.
