@@ -704,6 +704,20 @@ if (fs.existsSync(isotopeSvgPath)) {
     if (!isotopeSvg.includes(phrase)) errors.push("assets/isotope-abundance.svg: missing English isotope data or weighted-mean detail: " + phrase);
   }
 }
+for (const [file, phrases] of [
+  ["one-mole-scale.svg", ["6.02214076 times 10 to the 23", "seven dots shown are illustrative symbols only", "not a literal particle count"]],
+  ["one-mole-scale-ru.svg", ["6,022 140 76 × 10²³", "Семь точек на рисунке — условные символы", "не буквальное число частиц"]]
+]) {
+  const fullPath = path.join(assetRoot, file);
+  if (!fs.existsSync(fullPath)) {
+    errors.push("CH-V03: missing mole visual " + file);
+    continue;
+  }
+  const svg = fs.readFileSync(fullPath, "utf8");
+  for (const phrase of phrases) {
+    if (!svg.includes(phrase)) errors.push("CH-V03: " + file + " must clarify exact Avogadro count and illustrative particle symbols");
+  }
+}
 const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
 if (fs.existsSync(neutralisationSvgPath)) {
   const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
