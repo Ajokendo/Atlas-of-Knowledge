@@ -791,3 +791,24 @@ Inspected selected English/Russian 390 CSS px screenshots at full resolution:
 **Scope limitation:** these are four selected baseline screenshots, not a complete per-asset sign-off, not a check of every interactive state, and not a physical-device/assistive-technology test. The remaining 68 captures are available in the same artifact; visual review remains ongoing. No rights or licence gate is changed by this display review.
 
 CI status for the latest documentation commit: run [42176517754](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42176517754) **PASS** (static validation, Chromium page tests and screenshot upload).
+
+
+### Targeted rendered review — additional page families, 6 November 2026
+
+Latest baseline: CI run [42177642556](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42177642556), branch `workspace/chemistry`, commit `08fd8e709a2c97987662c95f487f500865d7e6ca`, artifact `13483827551` (72 PNG files; 12 pages × RU/EN × 390/768/1280 CSS px).
+
+Inspected the following full-resolution captures from that artifact:
+
+- [x] Atomic structure (RU, 390 px; EN, 1280 px): atom/shell sections, subatomic-particle comparison, electron-cloud illustration and quiz remain within the viewport; the model disclaimer is visible.
+- [x] Molecule laboratory (EN, 390 and 1280 px): the model canvas, molecule selector, reset/rotation controls and geometry explanation fit both layouts; no obvious overlap or clipping.
+- [x] Ideal-gas model (RU, 390 px): equation and units, all three parameter sliders, calculated pressure, particle vessel and model limitations are visible in a single-column layout.
+- [x] Acid/base virtual lab (EN, 390 px): numeric controls, base-addition slider, beaker, pH scale, net ionic equation and model assumptions fit the mobile layout.
+- [x] Redox chapter (EN, 1280 px): oxidation-state rules, worked example, Daniell-cell diagram, Nernst-equation explanation, calculator and knowledge check remain within the page layout.
+- [x] Periodic table (RU, 390 px): the horizontal overflow is intentional and accompanied by the localized instruction; the element detail panel and trend-diagram preview remain in the page flow.
+- [x] Chemical bonding (RU and EN, 390 px): selectors, bond models, equations and comparison table remain within the viewport. The three-column comparison is dense at phone width, but no clipping was visible in these baseline captures; it remains a candidate for a future mobile-card presentation if usability testing warrants it.
+- [x] Solutions (EN, 390 px): concentration calculator, saturated/unsaturated/supersaturated illustration, and solubility-product explanation fit the mobile column.
+- [x] Stoichiometry (RU, 390 px): reagent inputs, limiting-reagent result, theoretical yield, excess amount and calculation steps fit the mobile column.
+
+No new source defect was established from these selected baseline screenshots, so no page code was changed in this review pass. This is targeted full-resolution visual inspection, not a sign-off of every one of the 72 images, every widget state, all 12 visual families, physical devices, screen readers, or final publication readiness. The screenshots show default states. Provenance and licence gates are unaffected.
+
+CI run [42177642556](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42177642556) **PASS**: static validation, pinned browser-tool installation, Chromium checks for all Chemistry pages, and screenshot artifact upload all succeeded.
