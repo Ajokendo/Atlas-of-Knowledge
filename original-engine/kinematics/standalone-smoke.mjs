@@ -45,12 +45,14 @@ for (const mobile of [false, true]) {
       overflow: document.documentElement.scrollWidth > innerWidth + 2,
       initialSpeed: document.querySelector('#klVOut')?.textContent,
       initialRange: document.querySelector('#distance')?.textContent,
+      signedVelocityDefinition: document.querySelector('main')?.innerText.includes('v — проекция скорости на ось x'),
     }));
     if (initial.title !== 'Кинематика') throw new Error('Standalone chapter title is missing');
     if (initial.canvases.length < 3 || initial.canvases.some(c => c[1] < 1 || c[2] < 1)) throw new Error('One or more standalone canvases did not initialise');
     if (!initial.iframeTitle.includes('Кинематика')) throw new Error('The embedded 3D laboratory iframe has no descriptive title');
     if (initial.overflow) throw new Error('Horizontal overflow on the standalone chapter page');
     if (!initial.initialSpeed || !initial.initialRange) throw new Error('Initial model readouts are missing');
+    if (!initial.signedVelocityDefinition) throw new Error('Uniform-motion text does not identify v as the signed x-axis velocity projection');
 
     // Projectile model: change all physical parameters and verify derived values.
     const setRange = async (id, value) => page.locator('#' + id).evaluate((el, v) => {
