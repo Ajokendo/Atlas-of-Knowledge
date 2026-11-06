@@ -246,7 +246,8 @@ export function buildWorld(E) {
     for (const U of [3, 0, -1]) t.push(rx(rLo), uy(U * BD.eps), zN, rx(rLo) - 0.06, uy(U * BD.eps), zN);
     t.push(rx(BD.r1), yE, zN + 0.01, rx(BD.r2), yE, zN + 0.01);
     lines(root, t, '#6e6e74');
-    for (const r of [0.15, 0.2, 0.25, 0.3]) label('tick', small(r.toFixed(2), 13), () => V(rx(r * 1e-9) + 0.13, yBot - 0.13, zN));
+    // On narrow screens, label alternate ticks only: four decimal labels crowd one another in perspective.
+    for (const r of [0.15, 0.25]) label('tick', small(r.toFixed(2), 10), () => V(rx(r * 1e-9) + 0.08, yBot - 0.13, zN));
     label('tick', small('r (нм)', 13), () => V(rx(rHi) + 0.05, yBot - 0.13, zN));
     for (const U of [3, 0, -1]) label('tick', small(`${U} эВ`, 13), () => V(rx(rLo) - 0.08, uy(U * BD.eps), zN)); }
   dashLine(V(rx(rLo), yZ, zN), V(rx(rHi), yZ, zN), 26);
