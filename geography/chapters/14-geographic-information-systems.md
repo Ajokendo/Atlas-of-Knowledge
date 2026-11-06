@@ -660,6 +660,11 @@ A map or GIS layer may look highly detailed without being accurate. It is import
 
 ### 14.1. The Concept of GIS and Its Components
 
+![GIS components and workflow / Компоненты и рабочий цикл ГИС](../assets/diagrams/14-E-gis-components-workflow-bilingual.svg)
+
+*GIS includes people, data, software, hardware and methods. / ГИС включает людей, данные, программное обеспечение, оборудование и методы.*
+
+
 A Geographic Information System (GIS) is more than an electronic map. It is an information system in which geographic location is linked to descriptive characteristics and data can be analysed using spatial relationships.
 
 The main components of GIS are:
@@ -687,6 +692,11 @@ A real-world feature must be distinguished from its digital representation. A re
 
 ### 14.3. Vector and Raster Data Models
 
+![Vector and raster data models / Векторная и растровая модели](../assets/diagrams/14-A-vector-raster-models-bilingual.svg)
+
+*Conceptual comparison of spatial-data models. / Концептуальное сравнение моделей пространственных данных.*
+
+
 **Vector data** represent features as points, lines and polygons. They are useful for roads, boundaries, buildings, land parcels and networks. Advantages include precise geometry for individual features, links to attribute tables, efficient representation of discrete objects, and support for topological and network operations. Limitations include the difficulty of representing complex continuous surfaces, dependence on source scale and geometry accuracy, and the possibility of topology errors.
 
 **Raster data** represent space as a grid of cells or pixels. Each cell stores a value such as elevation, temperature, reflectance, land-cover class or event probability. Rasters are well suited to continuous fields, mathematical cell operations, remote sensing and spatial modelling. Limitations include dependence on resolution, potentially large file sizes, stair-step boundaries and sensitivity to measurement and aggregation methods.
@@ -694,6 +704,11 @@ A real-world feature must be distinguished from its digital representation. A re
 **Raster resolution** is the ground size of a cell or pixel. A smaller cell does not automatically guarantee greater actual accuracy: sensor quality, processing and source data also matter.
 
 ### 14.4. Coordinates and Coordinate Reference Systems
+
+![Coordinate reference systems / Системы координат](../assets/diagrams/14-B-coordinate-reference-system-bilingual.svg)
+
+*The ellipsoid, geoid, projection and vertical reference are distinct concepts. / Эллипсоид, геоид, проекция и вертикальная система отсчёта — разные понятия.*
+
 
 A coordinate system specifies the position of a feature on Earth or on a plane. Geographic coordinates are usually latitude and longitude; projected coordinates are linear values, such as metres.
 
@@ -733,6 +748,11 @@ For service-accessibility analysis, a geocoded address point is not necessarily 
 
 ### 14.8. Spatial Queries and Operations
 
+![Spatial overlay operations / Операции пространственного наложения](../assets/diagrams/14-C-vector-overlay-operations-bilingual.svg)
+
+*Actual overlay outputs depend on geometry, CRS and source-data precision. / Результат наложения зависит от геометрии, CRS и точности исходных данных.*
+
+
 Spatial analysis answers questions about the relative positions of features, distances, intersections, adjacency and spatial distribution.
 
 Common operations include:
@@ -748,6 +768,11 @@ For example, to assess access to medical facilities, analysts can create distanc
 
 ### 14.9. Network Analysis and Transport
 
+![Euclidean buffer and network service area / Буфер и зона доступности по сети](../assets/diagrams/14-F-buffer-vs-network-service-area-bilingual.svg)
+
+*Straight-line distance differs from network-based accessibility. / Расстояние по прямой отличается от доступности по дорожной сети.*
+
+
 Network analysis studies movement along connected lines and nodes, such as roads, streets, railways, pipelines and other networks.
 
 Common tasks include finding the shortest or fastest route; analysing accessibility and travel time; defining service areas; locating facilities according to demand; modelling flows and bottlenecks; and assessing network connectivity and resilience.
@@ -758,6 +783,11 @@ Network-analysis results depend on network completeness, direction of travel, co
 
 ### 14.10. Raster Analysis and Spatial Modelling
 
+![Digital elevation model, slope and aspect / Цифровая модель рельефа, уклон и экспозиция](../assets/diagrams/14-G-dem-slope-aspect-bilingual.svg)
+
+*Derived terrain layers depend on source DEM resolution and accuracy. / Производные карты рельефа зависят от разрешения и точности исходной DEM.*
+
+
 Raster analysis is used for continuous fields and spatial models. Common methods include classification and reclassification; raster arithmetic and logical operations; density analysis; interpolation; slope, aspect and curvature analysis from digital elevation models; hydrological flow modelling; land-suitability assessment; and change detection in time series.
 
 Interpolation estimates values between observation points. Its result depends on the spatial distribution of measurements, the selected method, data structure and model assumptions. An interpolated surface is not a direct measurement at every cell.
@@ -765,6 +795,11 @@ Interpolation estimates values between observation points. Its result depends on
 When analysing digital elevation models, consider resolution, vertical accuracy, artefacts, filling of spurious depressions and algorithm characteristics. Derived indicators such as slope may amplify errors in the source model.
 
 ### 14.11. Topology and Spatial Data Quality
+
+![Common topology errors / Типичные топологические ошибки](../assets/diagrams/14-H-topology-errors-bilingual.svg)
+
+*Validation rules depend on the data model; not every gap or dangling node is an error. / Правила проверки зависят от модели данных; не каждый зазор или висячий узел является ошибкой.*
+
 
 Topology describes spatial relationships among features, including adjacency, connectivity, containment and intersection.
 
@@ -787,6 +822,11 @@ WMS and WFS remain widely used and should still be recognised and documented. Fo
 Neither a file format nor the presence of a standard interface guarantees data quality or interoperability. When exchanging data, check encoding, CRS, geometry types, identifier systems, attribute constraints, the specific standard version and implementation, and licence conditions.
 
 ### 14.13. Cartographic Visualisation and Design
+
+![Sequential, diverging and qualitative map colour schemes / Цветовые шкалы карт](../assets/diagrams/14-D-map-colour-schemes-bilingual.svg)
+
+*Choose a colour scheme to match the data type and meaning. / Выбирайте цветовую шкалу в соответствии с типом и смыслом данных.*
+
 
 A map is a means of communicating spatial information, not simply a picture of data. Its design should fit the purpose, audience and scale.
 
@@ -830,6 +870,11 @@ Responsible use requires collecting only data necessary for a lawful and clearly
 Spatial aggregation may reduce privacy risks but does not always guarantee anonymity. Combining several datasets can sometimes make individuals identifiable again.
 
 ### 14.17. A Practical GIS Workflow
+
+![Reproducible GIS project / Воспроизводимый ГИС-проект](../assets/diagrams/14-I-reproducible-gis-workflow-bilingual.svg)
+
+*Preserve sources, licences, CRS, software versions and processing parameters. / Сохраняйте источники, лицензии, CRS, версии ПО и параметры обработки.*
+
 
 A typical project can be organised into stages:
 
