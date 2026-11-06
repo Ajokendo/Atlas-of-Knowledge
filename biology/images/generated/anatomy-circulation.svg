@@ -28,10 +28,6 @@
 <path class="chamber" fill="#397ba8" d="M500 395Q540 375 575 410L590 485Q550 470 520 445Q495 425 500 395Z"/>
 <path class="chamber" fill="#b94d43" d="M625 410Q660 375 700 395Q705 425 680 445Q650 470 610 485Z"/>
 <path d="M600 278V485" stroke="#fff" stroke-width="7"/>
-<text x="530" y="342" text-anchor="middle" class="small" fill="#fff">ПП / RA</text>
-<text x="670" y="342" text-anchor="middle" class="small" fill="#fff">ЛП / LA</text>
-<text x="540" y="440" text-anchor="middle" class="small" fill="#fff">ПЖ / RV</text>
-<text x="660" y="440" text-anchor="middle" class="small" fill="#fff">ЛЖ / LV</text>
 <text x="600" y="555" text-anchor="middle" class="t">СЕРДЦЕ / HEART</text>
 <text x="600" y="585" text-anchor="middle" class="small">Клапаны поддерживают однонаправленный ток</text>
 <text x="600" y="609" text-anchor="middle" class="small">Valves maintain one-way flow</text>
@@ -44,10 +40,15 @@
 <text x="770" y="505" class="small" fill="#b94d43">Системные артерии / Systemic arteries</text>
 <!-- systemic return -->
 <path class="blue" marker-end="url(#blueArrow)" d="M890 270C880 420 820 570 680 610C540 650 370 610 275 520C220 470 220 405 275 365C335 325 415 330 490 330"/>
+<!-- Chamber labels are drawn above the flow paths to remain legible. -->
+<text x="530" y="342" text-anchor="middle" class="small" fill="#fff">ПП / RA</text>
+<text x="670" y="342" text-anchor="middle" class="small" fill="#fff">ЛП / LA</text>
+<text x="540" y="440" text-anchor="middle" class="small" fill="#fff">ПЖ / RV</text>
+<text x="660" y="440" text-anchor="middle" class="small" fill="#fff">ЛЖ / LV</text>
 <text x="600" y="690" text-anchor="middle" class="s">Венозная кровь по системным венам возвращается к правой половине сердца</text>
 <text x="600" y="718" text-anchor="middle" class="s">Oxygen-poor blood returns via systemic veins to the right side of the heart</text>
 <rect x="95" y="760" width="1010" height="95" rx="18" fill="#f0eee8" stroke="#d8d3c8" stroke-width="2"/>
-<path d="M145 795H255" class="blue" marker-end="url(#blueArrow)"/><text x="280" y="802" class="s">Меньше O₂ / Lower O₂</text>
-<path d="M600 795H710" class="red" marker-end="url(#redArrow)"/><text x="735" y="802" class="s">Больше O₂ / Higher O₂</text>
+<path d="M145 795H245" class="blue" marker-end="url(#blueArrow)"/><text x="300" y="802" class="s">Меньше O₂ / Lower O₂</text>
+<path d="M600 795H700" class="red" marker-end="url(#redArrow)"/><text x="755" y="802" class="s">Больше O₂ / Higher O₂</text>
 <text x="600" y="835" text-anchor="middle" class="small">Цвета условны; схема упрощена и не в масштабе. / Colours are conventional; diagram simplified and not to scale.</text>
 </svg>
