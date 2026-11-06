@@ -188,7 +188,7 @@
 
 **Иллюстрация 3.4-A — Методы геологических исследований / Geological Research Toolkit.**
 
-![Полевые наблюдения, образец породы, тонкий шлиф, дифракционная диаграмма и геофизический профиль. / Field observations, rock specimen, thin section, diffraction pattern and geophysical profile.](../assets/03-4-A-geological-research-toolkit-bilingual.svg)
+![Полевые наблюдения, образец породы, тонкий шлиф, рентгеновская дифрактограмма с осями интенсивности и угла 2θ, а также геофизический профиль с аномалией. / Field observations, rock specimen, thin section, X-ray diffraction pattern with intensity and 2θ axes, and geophysical profile showing an anomaly.](../assets/03-4-A-geological-research-toolkit-bilingual.svg)
 
 *Методы дополняют друг друга; каждый отвечает на свой набор исследовательских вопросов. / Methods complement one another; each addresses a different set of research questions.*
 **EN:** Show a field geologist, a rock sample, a thin section under a microscope, an X-ray diffraction pattern and a geophysical profile.
@@ -253,7 +253,7 @@
 
 **Иллюстрация 3.6-A — Строение землетрясения / Anatomy of an Earthquake.**
 
-![Разрез с разломом, очагом, эпицентром и схематическими путями P- и S-волн. / Cross-section showing a fault, focus, epicentre and schematic P- and S-wave paths.](../assets/03-6-A-earthquake-anatomy-bilingual.svg)
+![Разрез с разломом, очагом, эпицентром и путями P- и S-волн; вставки показывают продольное движение частиц в P-волне и поперечное движение в S-волне. / Cross-section showing the fault, hypocentre, epicentre and P- and S-wave paths; insets distinguish particle motion parallel to P-wave travel and perpendicular to S-wave travel.](../assets/03-6-A-earthquake-anatomy-bilingual.svg)
 
 *Схема условна; магнитуда характеризует размер источника, а интенсивность — проявления сотрясений в конкретном месте. / Schematic; magnitude characterises source size, while intensity describes shaking effects at a location.*
 **EN:** Cross-section showing a fault, hypocentre (focus), epicentre and the main types of seismic waves.
@@ -512,7 +512,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 **Иллюстрация 3.11-A — От месторождения к управлению ресурсами / From Deposit to Resource Management.**
 
-![Разрез рудного тела и этапы геологоразведки, добычи, переработки, управления отходами и рекультивации. / Ore-body cross-section and stages of exploration, extraction, processing, waste management and rehabilitation.](../assets/03-11-A-mineral-resource-lifecycle-bilingual.svg)
+![Разрез рудного тела и три этапа проекта: разведка и оценка, добыча и переработка, закрытие и рекультивация; управление водой и отходами показано как непрерывная задача. / Ore-body cross-section and three project stages: exploration and assessment, extraction and processing, closure and rehabilitation; water and waste management are shown as continuous tasks.](../assets/03-11-A-mineral-resource-lifecycle-bilingual.svg)
 
 *Концептуальная схема; реальные методы и последовательность зависят от месторождения и законодательства. / Conceptual diagram; actual methods and sequence depend on deposit and regulation.*
 **EN:** Cross-section of a mineral deposit with the stages of exploration, extraction, processing, closure and land rehabilitation.
@@ -587,7 +587,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 
 **Иллюстрация 3.12-B — Чтение геологического разреза / Interpreting a Geological Cross-Section.**
 
-![Учебный разрез со слоями, складкой, разломом и интрузивным телом. / Teaching section with strata, fold, fault and intrusive body.](../assets/03-12-B-geological-cross-section-bilingual.svg)
+![Учебный разрез со складчатыми слоями, дайкой, пересекающей слои, и сбросом, смещающим их; взаимный возраст дайки и разлома по схеме не установлен. / Teaching section showing folded strata, a dyke cutting the layers, and a normal fault offsetting them; the mutual order of the dyke and fault is undetermined.](../assets/03-12-B-geological-cross-section-bilingual.svg)
 
 *Оба объекта пересекают слои; поскольку разлом и интрузия не пересекают друг друга, их взаимный возраст по этой схеме определить нельзя. / Both features cut the strata; because the fault and intrusion do not intersect, their relative order cannot be determined from this diagram.*
 
@@ -1024,7 +1024,7 @@ On a schematic geological cross-section, identify:
 
 **Illustration 3.4-A — Geological Research Toolkit.**
 
-![Field observations, rock specimen, thin section, diffraction pattern and geophysical profile. / Полевые наблюдения, образец породы, тонкий шлиф, дифракционная диаграмма и геофизический профиль.](../assets/03-4-A-geological-research-toolkit-bilingual.svg)
+![Field observations, rock specimen, thin section, X-ray diffraction pattern with intensity and 2θ axes, and geophysical profile showing an anomaly. / Полевые наблюдения, образец породы, тонкий шлиф, рентгеновская дифрактограмма с осями интенсивности и угла 2θ, а также геофизический профиль с аномалией.](../assets/03-4-A-geological-research-toolkit-bilingual.svg)
 
 *Methods complement one another; each addresses a different set of research questions. / Методы дополняют друг друга; каждый отвечает на свой набор исследовательских вопросов.*
 
@@ -1038,7 +1038,7 @@ On a schematic geological cross-section, identify:
 
 **Illustration 3.6-A — Anatomy of an Earthquake.**
 
-![Cross-section showing a fault, focus, epicentre and schematic P- and S-wave paths. / Разрез с разломом, очагом, эпицентром и схематическими путями P- и S-волн.](../assets/03-6-A-earthquake-anatomy-bilingual.svg)
+![Cross-section showing the fault, hypocentre, epicentre and P- and S-wave paths; insets distinguish particle motion parallel to P-wave travel and perpendicular to S-wave travel. / Разрез с разломом, очагом, эпицентром и путями P- и S-волн; вставки показывают продольное движение частиц в P-волне и поперечное движение в S-волне.](../assets/03-6-A-earthquake-anatomy-bilingual.svg)
 
 *Schematic; magnitude characterises source size, while intensity describes shaking effects at a location. / Схема условна; магнитуда характеризует размер источника, а интенсивность — проявления сотрясений в конкретном месте.*
 
@@ -1090,7 +1090,7 @@ The main eons are Hadean (гадей), Archean (архей), Proterozoic (про
 
 **Illustration 3.11-A — From Deposit to Resource Management.**
 
-![Ore-body cross-section and stages of exploration, extraction, processing, waste management and rehabilitation. / Разрез рудного тела и этапы геологоразведки, добычи, переработки, управления отходами и рекультивации.](../assets/03-11-A-mineral-resource-lifecycle-bilingual.svg)
+![Ore-body cross-section and three project stages: exploration and assessment, extraction and processing, closure and rehabilitation; water and waste management are shown as continuous tasks. / Разрез рудного тела и три этапа проекта: разведка и оценка, добыча и переработка, закрытие и рекультивация; управление водой и отходами показано как непрерывная задача.](../assets/03-11-A-mineral-resource-lifecycle-bilingual.svg)
 
 *Conceptual diagram; actual methods and sequence depend on deposit and regulation. / Концептуальная схема; реальные методы и последовательность зависят от месторождения и законодательства.*
 
@@ -1104,6 +1104,6 @@ The main eons are Hadean (гадей), Archean (архей), Proterozoic (про
 
 **Illustration 3.12-B — Interpreting a Geological Cross-Section.**
 
-![Teaching section with strata, fold, fault and intrusive body. / Учебный разрез со слоями, складкой, разломом и интрузивным телом.](../assets/03-12-B-geological-cross-section-bilingual.svg)
+![Teaching section showing folded strata, a dyke cutting the layers, and a normal fault offsetting them; the mutual order of the dyke and fault is undetermined. / Учебный разрез со складчатыми слоями, дайкой, пересекающей слои, и сбросом, смещающим их; взаимный возраст дайки и разлома по схеме не установлен.](../assets/03-12-B-geological-cross-section-bilingual.svg)
 
 *Both features cut the strata; because the fault and intrusion do not intersect, their relative order cannot be determined from this diagram. / Оба объекта пересекают слои; поскольку разлом и интрузия не пересекают друг друга, их взаимный возраст по этой схеме определить нельзя.*
