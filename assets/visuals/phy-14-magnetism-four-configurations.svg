@@ -54,8 +54,8 @@
 <g fill="#d65b43"><circle cx="935" cy="830" r="8"/><circle cx="1140" cy="733" r="8"/><circle cx="1140" cy="927" r="8"/></g><g fill="#2367a8" font-size="28" font-weight="700"><text x="986" y="744">×</text><text x="1192" y="840">×</text><text x="986" y="940">×</text></g>
 <text class="lab" x="1280" y="760">B внутри сердечника</text><text class="en" x="1280" y="790">B inside the core</text>
 <text class="formula" x="1280" y="865">B = μ₀NI / (2πr)</text>
-<text class="small" x="1280" y="910">• I к наблюдателю; × от него</text>
-<text class="en" x="1280" y="940">• I out of page;</text><text class="en" x="1280" y="965">× I into page</text>
+<text class="small" x="1280" y="910">• I наружу; × внутрь</text>
+<text class="en" x="1280" y="940" style="font-size:18px">• I out of page; × into page</text>
 <text class="lab" x="1280" y="990">У идеального тороида</text><text class="lab" x="1280" y="1015">снаружи поле ≈ 0</text>
 <text class="en" x="1280" y="1040">Ideal toroid:</text><text class="en" x="1280" y="1065">external field ≈ 0</text>
 <text class="small" x="70" y="1110">Формулы предполагают воздушный сердечник. Для линейного материала используйте μ = μ₀μᵣ.</text>
