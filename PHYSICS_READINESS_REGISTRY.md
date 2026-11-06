@@ -67,8 +67,8 @@
 | Workflow | Run | Состояние | Учитывается |
 |---|---:|---|---|
 | Validate JavaScript | — | не подтверждён на `a0ed0b0` | Нет |
-| Physics engine checks | — | не подтверждён на `8ac66d9` | Нет |
-| Physics browser and accessibility smoke | — | не подтверждён на `8ac66d9` | Нет |
+| Physics engine checks | — | не подтверждён на `a0ed0b0` | Нет |
+| Physics browser and accessibility smoke | — | не подтверждён на `a0ed0b0` | Нет |
 
 Результаты старых runs на других SHA не переносятся на эту контрольную точку. Не засчитывать проверки, пока для соответствующего SHA не появится завершённый результат `success`.
 
