@@ -117,9 +117,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Visual ID: PHY-14-001
 - Subject / chapter: Physics, Chapter 14 — Magnetism
 - Title: Four magnetic-field configurations
-- Integration status: INTEGRATED (not VERIFIED)
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**pending completion of internal publication QA**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: file/path and integration, internal scientific review, rights/licence evidence, final bilingual/accessibility review, and current desktop/mobile browser/CI evidence must each be PASS before VERIFIED. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: VERIFIED
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**all internal publication checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; project CC BY-NC 4.0 declaration recorded; bilingual labels/captions/alt text and manual visual comprehension review PASS; current desktop screenshot visually inspected (all four panels and footer fully visible, no clipping); current desktop/mobile browser checks PASS (390×844 responsive source selection, zero horizontal overflow, axe serious/critical 0; run 42193504505). External expert sign-off is optional follow-up and does not block publication.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Compare field geometry and idealised field-strength relations for a long straight wire, a circular current loop, a long solenoid, and an ideal toroid.
@@ -142,10 +142,10 @@ The four known placeholders have been replaced with four original, hand-authored
 - Limitations: Long straight wire; field at the centre of a single circular loop; long-solenoid approximation; ideal toroid approximation. Not to scale.
 - Scientific review: Internal second-pass physics review: PASS (2026-11-05) — equations, directions, assumptions and graph relationships checked; identified notation/direction defects corrected in the SVGs. Independent external subject-matter expert review: separate follow-up activity; not a publication gate.
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
-- Language/accessibility review: PENDING — bilingual labels, captions and alt text present; final visual comprehension review outstanding.
+- Language/accessibility review: PASS — bilingual labels/captions/alt text checked; manual desktop screenshot review confirms legibility, complete panel labels and uncut footer (artifact from run 42193504505).
 - Integration: chapters/magnetism.html, section “Визуальные материалы главы”.
-- Technical review: PASS — desktop 1440×900 and mobile 390×844 browser checks confirm SVG loading, correct responsive source selection, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 after correcting metric-label contrast (run 42006633285).
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
+- Technical review: PASS — current browser smoke on 2026-11-06 confirms chapter 14 lesson desktop 1440×900 and mobile 390×844, responsive SVG integration, bilingual caption, meaningful alt text, zero horizontal overflow, interactive calculator and quiz; magnetism engine desktop/mobile tests also PASS, axe serious/critical 0 (run 42193504505).
+- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, axe serious/critical 0 (run 42193504505). Desktop rendered asset manually inspected from fresh workflow artifact; all labels and footer fit.
 
 ### PHY-15-001 — Lenz's law: approaching and receding magnet
 
