@@ -67,9 +67,9 @@
 
 **Иллюстрация 2-B — Слои атмосферы / Layers of the Atmosphere.**
 
-![Пять основных слоёв атмосферы / The five basic layers of the atmosphere](https://www.noaa.gov/sites/default/files/2021-12/basic%20layers%20of%20the%20atmosphere.jpg)
+![Пять основных слоёв атмосферы / The five basic layers of the atmosphere](https://upload.wikimedia.org/wikipedia/commons/9/9e/1_atmosphere_layers.png)
 
-*Источник / Source: NOAA National Weather Service, JetStream, “Layers of the Atmosphere”. Указание источника: NOAA. Схема показывает ориентировочные границы слоёв; тропосфера заметно меняет высоту в зависимости от широты. / Credit: NOAA. The diagram shows approximate layer boundaries; troposphere height varies substantially with latitude.*
+*Источник / Source: NASA Goddard, “1 atmosphere layers.png” (20 July 2010); uploaded to Wikimedia Commons 22 April 2024 by Nsae Comp. Размер / Dimensions: 1,148 × 766 px. Public Domain in the United States (NASA government work); используемое изображение — без изменений. / Image used unchanged. На схеме показаны пять основных слоёв, высота, ионосфера и примеры наблюдаемых явлений; вертикальный масштаб ограничен 400 км и не показывает всю протяжённость экзосферы. / The diagram shows the five main layers, altitude, ionosphere and example phenomena; its vertical scale ends at 400 km and does not show the full extent of the exosphere. [Страница файла / File page](https://commons.wikimedia.org/wiki/File:1_atmosphere_layers.png) · [Исходная страница NASA / NASA source page](https://www.nccs.nasa.gov/news-events/nccs-highlights/global-ozone-profile).*
 
 Атмосфера удерживается гравитацией Земли. Она регулирует теплообмен, обеспечивает перенос влаги, формирует погоду и защищает поверхность планеты от значительной части вредного ультрафиолетового излучения.
 
@@ -107,9 +107,9 @@
 
 **Иллюстрация 2.3-A — Температурный профиль атмосферы / Atmospheric Temperature Profile.**
 
-![График изменения температуры с высотой и границы атмосферных слоёв / Atmospheric temperature profile and layer boundaries](https://www.noaa.gov/media/image_download/4abff0ab-b122-4940-9629-0ae8d5f63a03)
+![График изменения температуры с высотой и границы атмосферных слоёв / Atmospheric temperature profile and layer boundaries](https://upload.wikimedia.org/wikipedia/commons/f/f6/469649main_earths-atmosphere-orig_full.jpg)
 
-*Источник / Source: NOAA JetStream, “Layers of the Atmosphere” (temperature profile). Материал NOAA; указать NOAA в атрибуции. Высоты и профиль являются типичными, а не неизменными для всех широт и сезонов. / NOAA material; credit NOAA. Heights and profile are representative, not fixed for all latitudes and seasons.*
+*Источник / Source: NASA, “Properties of Earth’s Upper Atmosphere” (20 July 2010); graphic credit: John Emmert / Naval Research Laboratory. Wikimedia Commons file uploaded 19 June 2024. Размер / Dimensions: 1,041 × 732 px. Public Domain in the United States (NASA government work); изображение использовано без изменений. / Image used unchanged. График показывает температурные профили для солнечного минимума и максимума, а также плотность отдельных газов и диапазоны излучения; показаны четыре нижних слоя до термосферы, но не экзосфера. / The graphic shows temperature profiles for solar minimum and maximum, gas-density curves and radiation bands; it depicts the four lower layers through the thermosphere, not the exosphere. [Страница файла / File page](https://commons.wikimedia.org/wiki/File:469649main_earths-atmosphere-orig_full.jpg) · [Исходная страница NASA / NASA source page](https://www.nasa.gov/image-article/properties-of-earths-upper-atmosphere/).*
 
 ## 2.4. Гидросфера: водная оболочка Земли / Hydrosphere: Earth's Water Envelope
 
@@ -685,7 +685,7 @@ Earth's atmosphere is held by gravity. It regulates heat exchange, transports mo
 
 **Illustration 2-B — Layers of the Atmosphere.**
 
-![The five main layers of the atmosphere / Пять основных слоёв атмосферы](https://www.noaa.gov/sites/default/files/2021-12/basic%20layers%20of%20the%20atmosphere.jpg)
+![The five main layers of the atmosphere / Пять основных слоёв атмосферы](https://upload.wikimedia.org/wikipedia/commons/9/9e/1_atmosphere_layers.png)
 
 *Source: NOAA National Weather Service, JetStream, “Layers of the Atmosphere”. Credit NOAA. Layer boundaries are approximate; troposphere height varies with latitude. / Источник: NOAA National Weather Service, JetStream. Границы слоёв приблизительны; высота тропосферы меняется с широтой.*
 
@@ -709,7 +709,7 @@ Boundaries are approximate and vary with latitude, season and solar activity. Th
 
 **Illustration 2.3-A — Atmospheric Temperature Profile.**
 
-![Temperature change with altitude and boundaries of atmospheric layers / Изменение температуры с высотой и границы слоёв атмосферы](https://www.noaa.gov/media/image_download/4abff0ab-b122-4940-9629-0ae8d5f63a03)
+![Temperature change with altitude and boundaries of atmospheric layers / Изменение температуры с высотой и границы слоёв атмосферы](https://upload.wikimedia.org/wikipedia/commons/f/f6/469649main_earths-atmosphere-orig_full.jpg)
 
 *Source: NOAA JetStream, “Layers of the Atmosphere”. Credit NOAA. The profile is representative, not fixed for all latitudes and seasons. / Источник: NOAA JetStream. Профиль типичный, а не неизменный для всех широт и сезонов.*
 
