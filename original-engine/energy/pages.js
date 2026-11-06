@@ -149,7 +149,7 @@ export const PAGES = [
       <p>Маятник массой ${f(M.PEND.m, 1)} кг на нити длиной ${f(M.PEND.L, 1)} м отпускают из положения под углом ${M.PEND.deg0}°. В крайних точках энергия полностью потенциальная: <i>U</i><sub>g</sub> = ${f(M.PEND.E)} Дж. В нижней точке она полностью кинетическая, а скорость равна ${f(Math.sqrt(2 * M.PEND.E / M.PEND.m))} м/с. Натяжение нити перпендикулярно движению и работы не совершает. Совет: сначала исключите нулевые слагаемые (<i>v</i> = 0 в крайних точках, Δ<i>y</i> = 0 в нижней точке).</p>
             <div class="charts">${barChart('pend', [['K', 'K', BAR_COLORS.K], ['U', 'U<tspan dy="3" font-size="8">g</tspan>', BAR_COLORS.U], ['E', 'E', BAR_COLORS.E]], M.PEND.E)}</div>
       <p class="hintline">Нажмите на маятник, чтобы разложить силу тяжести на составляющие. Масштаб стрелок: ${SC.pendulum.F * 100} см/Н. Столбцы: ${SC.pendulum.E * 100} см/Дж.</p>`,
-    cam: { target: [ST.pendulum + 0.7, 1.8, 0], az: -10, el: 6, dist: 14 }, lit: 'pendulum', scene: 'pendulum', look: {},
+    cam: { target: [ST.pendulum + 0.7, 1.8, 0], az: -10, el: 6, dist: 14, mobileDist: 18.5 }, lit: 'pendulum', scene: 'pendulum', look: {},
     fig: 'Обмен кинетической и потенциальной энергией',
   },
   {
@@ -204,7 +204,7 @@ export const PAGES = [
             <div class="charts">${chart({ ...R.lift, xlabel: 'время (с)', ylabel: 'работа (Дж)', cursors: [['liftF'], ['liftS']], label: 'Работа во времени при быстром и медленном подъёме',
         series: [{ pts: [[0, 0], [M.LIFT.tFast, M.LIFT.work], [4.2, M.LIFT.work]], tag: [0.25, 160, 'быстро: наклон 98 Вт'] }, { cls: 'trend', pts: [[0, 0], [M.LIFT.tSlow, M.LIFT.work]], tag: [2.45, 95, 'медленно: 49 Вт'] }] })}</div>
       <p class="hintline">Короткими начальными и конечными участками пренебрегаем. Масштаб стрелок: ${SC.lift.F * 100} см на ньютон.</p>`,
-    cam: { target: [ST.lift, 1.7, 0], az: -12, el: 6, dist: 14 }, lit: 'lift', scene: 'lift', look: {},
+    cam: { target: [ST.lift, 1.7, 0], az: -12, el: 6, dist: 14, mobileDist: 18.5 }, lit: 'lift', scene: 'lift', look: {},
     fig: 'Одинаковая работа за половину времени',
   },
 ];
