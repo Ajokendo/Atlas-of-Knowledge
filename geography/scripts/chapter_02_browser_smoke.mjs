@@ -11,30 +11,26 @@ try {
     const page = await browser.newPage({ viewport });
     page.on("pageerror", e => errors.push(e.message));
     await page.goto(file, { waitUntil: "domcontentloaded" });
-    for (const language of ["ru", "en"]) {
-      const panel = page.locator(language === "ru" ? "#ru" : "#en");
-      if (!(await panel.isVisible())) {
-        await page.locator("#lang").click();
-      }
-      const images = panel.locator("img");
-      const count = await images.count();
-      if (count !== 28) errors.push(`${language}: expected 28 images, found ${count}`);
-      const missingAlt = await panel.locator("img:not([alt]), img[alt='']").count();
-      if (missingAlt) errors.push(`${language}: ${missingAlt} images lack alt text`);
-      const badWidths = await images.evaluateAll(nodes => nodes.filter(img => img.getBoundingClientRect().width > document.documentElement.clientWidth + 1).length);
-      if (badWidths) errors.push(`${language}: ${badWidths} images overflow viewport`);
-      const layout = await page.evaluate(() => ({scroll: document.documentElement.scrollWidth, client: document.documentElement.clientWidth}));
-      if (layout.scroll > layout.client + 1) errors.push(`${language}: horizontal page overflow ${layout.scroll}>${layout.client}`);
-      const loaded = await images.evaluateAll(nodes => nodes.filter(img => img.complete && img.naturalWidth > 0).length);
-      results.push(`${viewport.width}px ${language}: ${count} images in DOM, ${loaded} loaded, responsive width OK`);
-      if (language === "ru") await page.locator("#lang").click();
-    }
+    const images = page.locator("#visuals img");
+    const count = await images.count();
+    if (count !== 56) errors.push(`${viewport.width}px: expected 56 embeds, found ${count}`);
+    const missingAlt = await page.locator("#visuals img:not([alt]), #visuals img[alt='']").count();
+    if (missingAlt) errors.push(`${viewport.width}px: ${missingAlt} images lack alt text`);
+    const missingSrc = await images.evaluateAll(nodes => nodes.filter(img => !img.getAttribute("src")?.startsWith("https://")).length);
+    if (missingSrc) errors.push(`${viewport.width}px: ${missingSrc} images lack HTTPS src`);
+    const overflowImages = await images.evaluateAll(nodes => nodes.filter(img => img.getBoundingClientRect().width > document.documentElement.clientWidth + 1).length);
+    if (overflowImages) errors.push(`${viewport.width}px: ${overflowImages} images overflow viewport`);
+    const dimensions = await page.evaluate(() => ({ scroll: document.documentElement.scrollWidth, client: document.documentElement.clientWidth }));
+    if (dimensions.scroll > dimensions.client + 1) errors.push(`${viewport.width}px: horizontal page overflow ${dimensions.scroll}>${dimensions.client}`);
     await page.keyboard.press("Tab");
-    const focused = await page.evaluate(() => document.activeElement?.id || document.activeElement?.tagName);
-    if (!focused) errors.push("keyboard focus target missing");
+    const focus = await page.evaluate(() => ({ tag: document.activeElement?.tagName, href: document.activeElement?.getAttribute("href") }));
+    if (focus.tag !== "A" || focus.href !== "#visuals") errors.push(`${viewport.width}px: skip link is not first keyboard focus target`);
+    await page.keyboard.press("Enter");
+    if (await page.evaluate(() => location.hash) !== "#visuals") errors.push(`${viewport.width}px: skip link did not navigate to visual section`);
+    results.push(`${viewport.width}px: ${count} embeds, alt/HTTPS checks passed, no horizontal overflow, skip link keyboard test passed`);
     await page.close();
   }
 } finally { await browser.close(); }
 console.log(results.join("\n"));
 if (errors.length) { console.error("Browser QA failed:\n" + errors.join("\n")); process.exit(1); }
-console.log("PASS: mobile/desktop layout, language switching, image alt text and keyboard focus.");
+console.log("PASS: responsive DOM layout, all alt attributes, HTTPS sources and keyboard skip navigation.");
