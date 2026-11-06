@@ -181,7 +181,7 @@ check('text: power separates average and instantaneous forms and states the angl
   pageCopy.includes('P</i><sub>ср') && pageCopy.includes('cos α') && pageCopy.includes('угол между силой и скоростью'));
 const sharedLab = readFileSync(new URL('../../physics-lab.js', import.meta.url), 'utf8');
 check('lab: Chapter 4 uses the same g = 9.80 m/s² as the standalone calculator and energy model',
-  /case "energy":\{const h=1\+9\*p;val=9\.80\*h;/.test(sharedLab) && sharedLab.includes('9,80 · "+fmt(h)'));
+  /case "energy":\{const h=10-9\*p;val=9\.80\*h;/.test(sharedLab) && sharedLab.includes('9,80 · "+fmt(h)'));
 
 const energyWorld = readFileSync(new URL('./world.js', import.meta.url), 'utf8');
 check('bond visual: vertical axis reaches the expanded 3.2 eV graph limit',
