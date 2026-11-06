@@ -30,10 +30,10 @@
  <text x="220" y="482" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#9a3412">Сброс / Normal fault</text>
  <path d="M85 565 L160 565 L205 725 L85 725 Z" fill="#d6b38a" stroke="#92400e" stroke-width="3"/>
  <path d="M160 565 L355 600 L310 760 L205 725 Z" fill="#d6b38a" stroke="#92400e" stroke-width="3"/>
- <path d="M85 610 L192 610 L147 770 M85 655 L180 655 L135 770" fill="none" stroke="#2563eb" stroke-width="7"/>
- <path d="M205 610 L342 642 M192 655 L330 687" fill="none" stroke="#2563eb" stroke-width="7"/>
+ <path d="M85 610 L160 610 L205 650 L330 650 M85 655 L160 655 L205 695 L315 695" fill="none" stroke="#2563eb" stroke-width="7"/>
+ <path d="M205 650 L330 650 M205 695 L315 695" fill="none" stroke="#2563eb" stroke-width="7"/>
  <path d="M160 565 L205 725" stroke="#7c2d12" stroke-width="7"/>
- <path d="M120 535 L120 585 M105 570 L120 585 L135 570" fill="none" stroke="#dc2626" stroke-width="5"/>
+ <path d="M120 585 L120 535 M105 550 L120 535 L135 550" fill="none" stroke="#dc2626" stroke-width="5"/>
  <path d="M290 585 L290 645 M275 630 L290 645 L305 630" fill="none" stroke="#dc2626" stroke-width="5"/>
  <text x="110" y="520" font-family="Arial,sans-serif" font-size="16" fill="#334155">Лежачее крыло</text>
  <text x="110" y="539" font-family="Arial,sans-serif" font-size="14" fill="#334155">Footwall</text>
@@ -47,10 +47,10 @@
  <text x="600" y="482" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#991b1b">Взброс / Reverse fault</text>
  <path d="M465 565 L540 565 L585 725 L465 725 Z" fill="#d6b38a" stroke="#92400e" stroke-width="3"/>
  <path d="M540 565 L735 530 L690 690 L585 725 Z" fill="#d6b38a" stroke="#92400e" stroke-width="3"/>
- <path d="M465 610 L572 610 L527 770 M465 655 L560 655 L515 770" fill="none" stroke="#2563eb" stroke-width="7"/>
- <path d="M585 610 L722 578 M572 655 L710 623" fill="none" stroke="#2563eb" stroke-width="7"/>
+ <path d="M465 610 L540 610 L585 570 L720 570 M465 655 L540 655 L585 615 L710 615" fill="none" stroke="#2563eb" stroke-width="7"/>
+ <path d="M585 570 L720 570 M585 615 L710 615" fill="none" stroke="#2563eb" stroke-width="7"/>
  <path d="M540 565 L585 725" stroke="#7c2d12" stroke-width="7"/>
- <path d="M500 590 L500 530 M485 545 L500 530 L515 545" fill="none" stroke="#dc2626" stroke-width="5"/>
+ <path d="M500 530 L500 590 M485 575 L500 590 L515 575" fill="none" stroke="#dc2626" stroke-width="5"/>
  <path d="M675 650 L675 590 M660 605 L675 590 L690 605" fill="none" stroke="#dc2626" stroke-width="5"/>
  <text x="490" y="520" font-family="Arial,sans-serif" font-size="15" fill="#334155">Footwall</text>
  <text x="630" y="520" font-family="Arial,sans-serif" font-size="15" fill="#334155">Hanging wall</text>
