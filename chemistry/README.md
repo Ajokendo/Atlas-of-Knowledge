@@ -288,3 +288,13 @@ Static source-review progress: **12/12 (100%)**. Static coverage: **12/12 (100%)
 - [x] Branch-head CI [42173730531](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173730531) passed on a2e249fe431a688b46a427e68103e5d5193e1035: 22 HTML pages, 91 local links/assets, 21 inline scripts; 21 Chromium pages, 42 RU/EN axe-core scans, 21 language toggles, key interaction checks, no uncaught page errors.
 - [x] Latest screenshot artifact [13482580521](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173730531/artifacts/13482580521) contains 72 RU/EN screenshots at 390/768/1280 px. The periodic-table six-image set was rechecked for the scroll cue and responsive layout.
 - [ ] Complete manual visual/state review, rights/licence evidence and final publication approval remain open; CI success is not a VERIFIED designation.
+
+
+### Three-width rendered screenshot scan — 6 November 2026
+
+- [x] Latest CI run [42173984466](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173984466) passed and uploaded artifact [13482825136](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173984466/artifacts/13482825136).
+- [x] Confirmed and overview-scanned all 72 baseline screenshots (12 pages × RU/EN × 390/768/1280 px); no new obvious page-level clipping or off-canvas panel was identified in the contact-sheet pass.
+- [ ] This is not a full-resolution per-asset or all-interaction-state approval. Fine detail, all dynamic states, manual assistive-technology/device checks, rights evidence and final approval remain open.
+- [ ] Rights/licence clearance remains unresolved for 12 static visual families and 7 interactive systems. Do not treat source review or CI success as publication clearance.
+
+The older checkbox above stating that screenshots had not been published is superseded by this checkpoint: CI now publishes the 72-image artifact. The per-asset review and seven-gate status remain open.
