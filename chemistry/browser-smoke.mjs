@@ -1618,6 +1618,15 @@ try {
     }
 
     if (file === "virtual-lab.html") {
+      const beaker = page.locator("#beakerWrap");
+      if (await beaker.getAttribute("role") !== "img" ||
+          !(await beaker.getAttribute("aria-describedby") || "").split(/\\s+/).includes("ph") ||
+          !(await beaker.getAttribute("aria-describedby") || "").split(/\\s+/).includes("condition")) {
+        errors.push(file + ": beaker graphic must expose its live pH and solution-state descriptions");
+      }
+      if (!(await beaker.getAttribute("aria-label") || "").includes("Виртуальный сосуд")) {
+        errors.push(file + ": Russian beaker accessible name is missing");
+      }
       if (await page.locator("#ph").getAttribute("aria-live") !== "polite") {
         errors.push(file + ": changing pH output is not announced to assistive technology");
       }
@@ -1679,6 +1688,10 @@ try {
         errors.push(file + ": doubling base concentration should halve the equivalence volume");
       }
       await page.locator("#lang").click();
+      if (!(await beaker.getAttribute("aria-label") || "").includes("virtual beaker") ||
+          !(await beaker.getAttribute("aria-describedby") || "").split(/\\s+/).includes("ph")) {
+        errors.push(file + ": beaker accessible name and description must remain localized and connected in English");
+      }
       const englishEquivalence = (await page.locator("#status").innerText()).trim();
       if (!englishEquivalence.includes("Equivalence point") ||
           !(await page.locator("#baseOut").innerText()).trim().endsWith("mL")) {
