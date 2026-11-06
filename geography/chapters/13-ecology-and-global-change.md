@@ -233,7 +233,9 @@ Protected areas are an important tool for nature conservation, but their effecti
 
 Лесовосстановление не всегда означает восстановление исходной экосистемы. Посадка монокультурных плантаций не эквивалентна восстановлению естественного леса по видовому составу, структуре и экологическим функциям.
 
-Техническое задание 13-G: сравнить эрозию, засоление, уплотнение и восстановление почвенного покрова; изображать разные процессы отдельно, не смешивая их визуально. / Visual brief 13-G: compare erosion, salinisation, compaction and soil-cover restoration as distinct processes.
+![Процессы деградации земель: эрозия, засоление, уплотнение, утрата покрова и восстановление / Land degradation processes: erosion, salinisation, compaction, cover loss and restoration](../assets/diagrams/13-G-land-degradation-restoration-bilingual.svg)
+
+*Меры выбирают по причине деградации, почве, климату и землепользованию. / Choose measures according to the cause, soil, climate and land use.*
 
 
 Land-use change is one of the major drivers of landscape transformation. The expansion of farmland, urbanisation, mineral extraction, road construction and reservoirs changes the structure and functions of ecosystems.
@@ -284,7 +286,9 @@ The biogeochemical cycles of carbon, nitrogen, phosphorus and water connect the 
 
 При оценке циркулярности важно учитывать полный жизненный цикл товара: добычу сырья, производство, транспорт, использование, ремонт и окончательное обращение с материалом. Переработка полезна, но предотвращение образования отходов и повторное использование часто позволяют избежать большего объёма воздействия.
 
-Техническое задание 13-J: показать предотвращение отходов, долговечный дизайн, ремонт, повторное использование и переработку с приоритетом сохранения ценности продукции и материалов. / Visual brief 13-J: show waste prevention, durable design, repair, reuse and recycling, prioritising the retention of product and material value.
+![Циклы циркулярной экономики: совместное использование, обслуживание, ремонт, повторное использование и переработка / Circular-economy loops: sharing, maintenance, repair, reuse and recycling](../assets/diagrams/13-J-circular-economy-loops-bilingual.svg)
+
+*Сначала сохраняют ценность продукта; переработка — последняя опция. / Retain product value first; recycling is the last option.*
 
 
 Waste has a spatial geography: places where products are made and consumed are often separate from the places where waste is collected, recycled, disposed of or causes environmental impacts. The transboundary movement of waste requires legal oversight and environmental responsibility.
@@ -468,7 +472,9 @@ This is a simplified estimate of the direct effect of reduced electricity use. A
 - оценка жизненного цикла продукции;
 - моделирование экосистемных и климатических процессов.
 
-Техническое задание 13-I: показать связь полевых измерений, лабораторных данных, спутниковых наблюдений, GIS, моделей и общественного мониторинга, включая QA/QC и прослеживаемость. / Visual brief 13-I: connect field measurements, laboratory data, satellite observations, GIS, models and community monitoring, including QA/QC and traceability.
+![Цикл экологического мониторинга: полевые наблюдения, лаборатория, ДЗЗ, QA/QC, анализ и публикация / Environmental monitoring cycle: field observations, laboratory, remote sensing, QA/QC, analysis and publication](../assets/diagrams/13-I-environmental-monitoring-workflow-bilingual.svg)
+
+*Контроль качества и прослеживаемость данных обязательны для надёжных выводов. / Quality control and data traceability are essential for reliable conclusions.*
 
 **Оценка воздействия на окружающую среду (ОВОС / EIA)** рассматривает вероятные экологические последствия планируемого проекта до принятия решения о его реализации. **Стратегическая экологическая оценка (СЭО / SEA)** применяется на более раннем этапе к планам и программам, а в некоторых правовых системах — также к политикам и стратегиям. Она позволяет учитывать экологические и связанные со здоровьем последствия, разумные альтернативы и участие общественности до окончательного выбора направления развития. Конкретная область применения и юридические требования различаются по странам.
 
@@ -527,7 +533,9 @@ The environmental impact of a product or infrastructure asset is not limited to 
 
 Здоровье человека зависит от качества воздуха и воды, безопасности пищи, температурных условий, городской среды, санитарии и доступа к зелёным пространствам. Экологическая география помогает выявлять территории, где несколько факторов риска накладываются друг на друга.
 
-Техническое задание 13-K: показать условную городскую территорию с неодинаковым доступом к зелёным зонам и разной нагрузкой загрязнения; все данные должны быть явно обозначены как учебные. / Visual brief 13-K: show a hypothetical urban area with unequal access to green space and differing pollution burdens; label all data clearly as illustrative.
+![Экологическая справедливость: условная карта загрязнения и доступа к зелёным зонам / Environmental justice: illustrative map of pollution and access to green space](../assets/diagrams/13-K-environmental-justice-schematic-bilingual.svg)
+
+*Все районы и данные условные; схема не описывает реальный город. / All districts and data are hypothetical; the diagram does not depict a real city.*
 
 
 Environmental benefits and risks are not distributed equally. Low-income communities, residents of industrial areas, rural and remote territories, and groups with limited access to healthcare and public services may face disproportionately high burdens.
@@ -870,30 +878,18 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 Техническое задание 13-F: разделить наблюдаемые изменения и будущие риски; не использовать количественные шкалы или локальные выводы для Кыргызстана без соответствующих данных. / Visual brief 13-F: distinguish observed changes from future risks; do not imply quantitative scales or local conclusions for Kyrgyzstan without supporting data.
 
-![Процессы деградации земель: эрозия, засоление, уплотнение, утрата покрова и восстановление / Land degradation processes: erosion, salinisation, compaction, cover loss and restoration](../assets/diagrams/13-G-land-degradation-restoration-bilingual.svg)
-
-*Меры выбирают по причине деградации, почве, климату и землепользованию. / Choose measures according to the cause, soil, climate and land use.*
-Сравнение эрозии, засоления, уплотнения и восстановления почвенного покрова. Изображать разные процессы отдельно, не смешивать их визуально.
+Техническое задание 13-G: сравнить эрозию, засоление, уплотнение и восстановление почвенного покрова; изображать разные процессы отдельно, не смешивая их визуально. / Visual brief 13-G: compare erosion, salinisation, compaction and soil-cover restoration as distinct processes.
 
 **Визуал 13-C / Visual 13-C — Риск бедствий: четыре взаимосвязанных компонента / Disaster risk: four interacting components.**  
 Показывать опасность, экспозицию, уязвимость и возможности (capacity) как взаимодействующие компоненты, без линейной последовательности и универсальной числовой формулы. / Show hazard, exposure, vulnerability and capacity as interacting components, without a linear sequence or a universal numerical formula.
 
 Техническое задание 13-H: показать разные цели и примеры смягчения и адаптации; не представлять меры как взаимозаменяемые. / Visual brief 13-H: show the different aims and examples of mitigation and adaptation; do not present them as interchangeable.
 
-![Цикл экологического мониторинга: полевые наблюдения, лаборатория, ДЗЗ, QA/QC, анализ и публикация / Environmental monitoring cycle: field observations, laboratory, remote sensing, QA/QC, analysis and publication](../assets/diagrams/13-I-environmental-monitoring-workflow-bilingual.svg)
+Техническое задание 13-I: показать связь полевых измерений, лабораторных данных, спутниковых наблюдений, GIS, моделей и общественного мониторинга, включая QA/QC и прослеживаемость. / Visual brief 13-I: connect field measurements, laboratory data, satellite observations, GIS, models and community monitoring, including QA/QC and traceability.
 
-*Контроль качества и прослеживаемость данных обязательны для надёжных выводов. / Quality control and data traceability are essential for reliable conclusions.*
-Схема объединения полевых измерений, лабораторных данных, спутников, GIS, моделей и общественного мониторинга.
+Техническое задание 13-J: показать предотвращение отходов, долговечный дизайн, ремонт, повторное использование и переработку с приоритетом сохранения ценности продукции и материалов. / Visual brief 13-J: show waste prevention, durable design, repair, reuse and recycling, prioritising the retention of product and material value.
 
-![Циклы циркулярной экономики: совместное использование, обслуживание, ремонт, повторное использование и переработка / Circular-economy loops: sharing, maintenance, repair, reuse and recycling](../assets/diagrams/13-J-circular-economy-loops-bilingual.svg)
-
-*Сначала сохраняют ценность продукта; переработка — последняя опция. / Retain product value first; recycling is the last option.*
-Схема предотвращения отходов, долговечного дизайна, ремонта, повторного использования и переработки; показать, что приоритетом является сохранение ценности продукции и материалов.
-
-![Экологическая справедливость: условная карта загрязнения и доступа к зелёным зонам / Environmental justice: illustrative map of pollution and access to green space](../assets/diagrams/13-K-environmental-justice-schematic-bilingual.svg)
-
-*Все районы и данные условные; схема не описывает реальный город. / All districts and data are hypothetical; the diagram does not depict a real city.*
-Карта-схема городской территории с различным доступом к зелёным зонам и неодинаковой нагрузкой загрязнения; использовать условные данные и ясно обозначить их как учебный пример.
+Техническое задание 13-K: показать условную городскую территорию с неодинаковым доступом к зелёным зонам и разной нагрузкой загрязнения; все данные должны быть явно обозначены как учебные. / Visual brief 13-K: show a hypothetical urban area with unequal access to green space and differing pollution burdens; label all data clearly as illustrative.
 
 ## Научные редакционные примечания / Scientific Editorial Notes
 
