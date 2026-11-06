@@ -1246,6 +1246,9 @@ for (const [file, required, forbidden] of acidBaseDiagramRequirements) {
   if (!svg.includes("</g></svg>")) errors.push("assets/" + file + ": diagram groups must close before the SVG ends");
 }
 
+const redoxLanguageGuard = redoxSource.includes("if(window.updateModel)updateModel();calculateNernst()") && redoxSource.includes('lang==="ru"?"ЭДС элемента: ":"Cell EMF: "');
+if (!redoxLanguageGuard) errors.push("chapters/redox.html: Nernst output must refresh when RU/EN language changes");
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
