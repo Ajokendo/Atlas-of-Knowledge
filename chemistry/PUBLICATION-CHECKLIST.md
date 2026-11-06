@@ -15,7 +15,9 @@
 - [x] Localized title/description metadata is present in replacement SVGs.
 - [x] All seven interactive visual systems were inspected; no third-party visualization-library imports or external image-asset references were identified.
 - [x] Replacement commits, source references and known provenance limitations are documented in `IMAGE_SOURCES.md` and `IMAGE_AUDIT.md`.
-- [ ] Complete the remaining manual review of page-specific visuals and interactive states, including the 768 px screenshot set.
+- [x] Scanned all 36 retained 768 px screenshots (18 selected pages/resources × RU/EN) using a contact sheet; no obvious clipping or overlap was visible across the set.
+- [x] Performed focused full-size checks of Russian acid–base, chemical-reactions, periodic-table, molecular-lab and stoichiometry screenshots; layouts are readable, and the periodic-table horizontal scroll is intentional and explained.
+- [ ] Complete the remaining page-by-page full-size review of visuals and the manual review of interactive states.
 - [ ] Resolve any remaining content, bilingual-parity, visual, usability or accessibility defects found during that review.
 - [ ] Record the final internal editorial decision after the remaining in-scope checks and final regression run.
 
