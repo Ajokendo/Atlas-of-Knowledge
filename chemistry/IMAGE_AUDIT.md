@@ -700,7 +700,7 @@ Added static regression guards in `checks.mjs` for the gas-law units/Kelvin conv
 
 ## Rendered visual-evidence capture added to CI — 6 November 2026
 
-The Chromium browser suite now captures full-page baseline screenshots for 12 high-value visual pages at 390, 768 and 1280 CSS-pixel widths (36 PNG files per successful run). The captures are taken before interaction tests alter widget state; web fonts are awaited and image elements are decoded before capture. GitHub Actions uploads the files as the `chemistry-rendered-review` artifact with a 7-day retention period.
+The Chromium browser suite now captures full-page baseline screenshots for 12 high-value visual pages at 390, 768 and 1280 CSS-pixel widths (72 PNG files per successful run (12 pages × 3 widths × 2 languages)). The captures are taken before interaction tests alter widget state; web fonts are awaited and image elements are decoded before capture. GitHub Actions uploads the files as the `chemistry-rendered-review` artifact with a 7-day retention period.
 
 This change creates inspectable visual evidence for the internal review workflow; it does **not** itself constitute a manual visual review or sign-off. The first branch-head CI run after this change must be checked for successful screenshot creation and artifact upload. Review still needs to examine clipping, overlap, legibility, SVG proportions, chart labels and interactive states; the captured screenshots show baseline page states, not every possible state.
 
@@ -723,3 +723,10 @@ Inspected the first successful `chemistry-rendered-review` artifact from run [42
 A closer inspection of the acid/base chapter screenshot exposed a second diagram-layout defect. In the Russian SVG, the pH-equivalence qualification crossed the graph's x-axis caption. In the English SVG, the Brønsted–Lowry model labels were placed inside the translated graph group at coordinates outside the viewBox, so the explanatory panel was not visible. Both language variants have now been rebuilt with separate graph and explanatory-panel groups; the pH≈7 qualification is retained inside the panel and explicitly limited to the ideal strong-acid/strong-base model at 25 °C. Static regression checks require the bilingual panel labels, closed SVG groups and absence of the obsolete overlapping/off-canvas annotations.
 
 Commits: Russian correction `bcbcdc5`; English correction `270865e`; regression guard `6d626ce`. Fresh Chromium and SVG validation are pending. This is a source/rendered-layout correction, not a chemistry model change.
+
+
+### Bilingual screenshot coverage and arrowhead sizing follow-up — 6 November 2026
+
+Expanded the screenshot capture from Russian-only baselines to both RU and EN for every one of the 12 selected pages at 390, 768 and 1280 CSS-pixel widths: 72 images per successful CI run. The test switches the page language, waits for the document language and fonts, captures the second language, and restores Russian before the remaining checks. The periodic-table scroll hint is now hidden at desktop widths and retained on narrow screens.
+
+The first corrected periodic-trends screenshot revealed that SVG marker heads were scaled by the 9 px stroke width and visually dominated the short arrows. Both SVGs now use explicit `markerUnits="userSpaceOnUse"` with 14 px arrowheads; a source regression guard checks all three markers in both languages. Commits: `60f2d2c`, `c8199c6`, `fe45794`, `5374fe3`, and bilingual screenshot capture `f89525f`. A fresh successful run and inspection of its RU/EN artifacts are required before closing these visual fixes.
