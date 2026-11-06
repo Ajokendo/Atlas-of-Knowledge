@@ -51,6 +51,15 @@ jobs:
           if-no-files-found: warn
       - name: Test Chapter 1 kinematics on desktop and mobile viewports
         run: node original-engine/browser-smoke.mjs
+      - name: Test standalone Chapter 1 lesson, simulations and quiz on desktop and mobile
+        run: node original-engine/kinematics/standalone-smoke.mjs
+      - name: Upload standalone Chapter 1 review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter1-standalone-review
+          path: /tmp/physics-visual-review/chapter1-standalone/*.png
+          if-no-files-found: warn
       - name: Upload Chapter 1 visual review screenshots
         if: always()
         uses: actions/upload-artifact@v4
