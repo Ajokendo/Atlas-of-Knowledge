@@ -50,7 +50,7 @@ for (const mobile of [false, true]) {
       const response = await page.goto(base + path, { waitUntil: 'domcontentloaded', timeout: 25000 });
       if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'missing'}`);
       await page.locator('main').waitFor({ state: 'visible' });
-      await page.evaluate(() => document.fonts?.ready);
+      await page.evaluate(async () => { await document.fonts.ready; return true; });
       const targets = page.locator('main img, main canvas, main iframe');
       const count = await targets.count();
       for (let i = 0; i < count; i++) await targets.nth(i).scrollIntoViewIfNeeded();
