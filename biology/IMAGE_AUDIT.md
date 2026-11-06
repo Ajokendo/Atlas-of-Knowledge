@@ -892,3 +892,13 @@ Using the 26-page screenshot artifact from successful Chromium run [42153232519]
 - **Microbiology:** the bacterial growth curve, viral-cycle and antimicrobial-resistance plates render in the page; no broken-image placeholder or specific text/illustration collision was established in the inspected crop.
 
 This is a targeted desktop screenshot spot review, not a full asset-by-asset scientific, rights, bilingual or mobile legibility acceptance. No additional source changes were justified by this sample. The global Image Verification status remains **Pending audit**.
+
+## Mobile long-page and regional-figure spot review — 6 November 2026
+
+Reviewed additional full-resolution 390 px Chromium screenshot crops from successful run [42153779144](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42153779144), commit `58800b8f`, focusing on the long regional Biology pages.
+
+- **Fauna of Kyrgyzstan:** inspected the opening, regional conservation/evidence sections and Naryn reserve material. Text cards remain in a single column; headings and paragraphs wrap within the viewport. The reviewed passages distinguish local camera-trap observations from wider regional estimates and avoid presenting reserve detections as a complete population census. No broken image, horizontal spill or confirmed text/card collision was identified in these crops.
+- **Flora of Kyrgyzstan:** inspected the opening altitude-zonation illustration, regional photo captions and Naryn/Chatyr-Kul sections, plus a bibliography crop. The illustration and documentary photographs remain within the mobile content column; bilingual figure material is not clipped in the reviewed examples. Long linked references wrap across lines without creating horizontal page overflow in the inspected crop.
+- These findings are limited to the sampled mobile crops and do not certify every regional image, every source attribution or every line of bilingual text.
+
+**Result:** no new confirmed mobile layout defect was established in this batch. Global Image Verification remains **Pending audit**; no per-asset `VERIFIED` status is inferred from page-level screenshot sampling.
