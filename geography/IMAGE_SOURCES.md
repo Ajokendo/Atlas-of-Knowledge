@@ -1127,3 +1127,10 @@ Scientific concept and RU/EN label parity: PASS at source review. Detailed contr
 - **3.12-B — cross-cutting relationships:** U.S. National Park Service, [Geologic Principles—Cross-cutting Relationships](https://home.nps.gov/articles/geologic-principles-cross-cutting-relationships.htm). The redrawn diagram now visibly offsets the strata across a normal fault and shows a separate dyke cutting the strata. Because the two younger structures do not intersect, their relative order cannot be determined from this evidence alone.
 - **3.12-A — hazards:** the figure remains a conceptual hazard overview, not a prediction product. Its risk-reduction labels are examples, not substitutes for site-specific engineering, hazard maps or official warnings.
 - **Rights reminder:** all five above are project-local SVGs. The scientific sources do not establish their authorship or licence. Creator/rightsholder, creation record and project licence remain Unknown / PENDING; no rights are inferred from repository presence.
+
+
+### Licence boundary for Chapter 03 project-local SVGs — 6 November 2026
+
+The repository-root `LICENSE` is an MIT notice naming Nathan Liow. It does not, by itself, establish the licence or authorship of the separately created Geography SVGs. Do not extend that MIT notice to the 10 local SVGs without explicit rights evidence. The three external items have their own exact-source rights records (USGS Public Domain for 3.2-A and 3.5-A; ICS CC BY 4.0 for 3.9-A).
+
+OpenAI's current [Terms of Use](https://openai.com/policies/terms-of-use/) state that, as between the user and OpenAI and to the extent permitted by applicable law, the user owns Output from the Services. This may support the user's ownership of SVGs demonstrably generated as ChatGPT Output, but it does not prove the origin of every historical file in this repository and does not choose a public licence for downstream atlas users. Therefore the creator/provenance record and public licence for the 10 local SVGs remain PENDING until documented by the project owner. Do not mark rights PASS by inference.
