@@ -1229,7 +1229,7 @@ for (const file of pages) {
       errors.push(rel + ": scrollable regional diagram must have a visible bilingual mobile scroll hint");
     }
   }
-  if (regions.length && (!html.includes(".regional-figure__media--diagram{height:405px") || !html.includes("min-width:720px"))) {
+  if (regions.length && (!html.includes(".regional-figure__media--diagram{min-width:0;max-width:100%;width:100%;box-sizing:border-box;height:405px") && html.includes(".grid>*{min-width:0}") || !html.includes("min-width:720px"))) {
     errors.push(rel + ": mobile SVG inspection must retain the independently scrollable enlarged diagram viewport");
   }
 }
