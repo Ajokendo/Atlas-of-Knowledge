@@ -326,8 +326,9 @@
   .sheet .sub, .plate .sub { font-size: 17px; margin-bottom: 12px; }
   .corner.bl { display: none; }
 }
-/* the hint and the readout share the figure's bottom edge; on narrower figures the hint gives way */
-@media (max-width: 1240px) and (min-width: 901px) { .corner.bl { display: none; } }
+/* The page text already contains the interaction hint. Hide its duplicate overlay
+   on normal desktop widths so it cannot collide with the live numeric readout. */
+@media (max-width: 1600px) and (min-width: 901px) { .corner.bl { display: none; } }
 /* fingers: each swipe lands on a whole page */
 @media (pointer: coarse) { html { scroll-snap-type: y mandatory; } .scroll-space > div { scroll-snap-align: start; } }
 
