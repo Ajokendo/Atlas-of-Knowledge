@@ -110,6 +110,7 @@ for (const [page, item, answer, predicate, label] of conceptualKeys) {
   check(`practice ${page}.${item + 1}: conceptual answer key — ${label}`, q.answer === answer && predicate(q.choices[answer]) && typeof q.why === 'string' && q.why.length > 40);
 }
 check('practice 9.1: acceleration distractor retains m/s² units', PRACTICE[9][0].choices[3].includes('м/с²'));
+check('practice 0.1: explanation states the fourfold height increase from H to 4H', PRACTICE[0][0].why.includes(`с ${M.H.toFixed(2)} м до ${((2 * M.VY0) ** 2 / (2 * M.G)).toFixed(2)} м`) && PRACTICE[0][0].why.includes('увеличивается в 4 раза'));
 check('practice 10.1: coordinate distractor is labelled in metres', PRACTICE[10][0].choices[2].includes('м (координата)'));
 const solutionPull = PRACTICE[9][1].solution;
 check('practice 9.2: worked solution includes t1, v1, x1 and x(5)', solutionPull.includes(M.T1.toFixed(2)) && solutionPull.includes(M.V1.toFixed(1)) && solutionPull.includes(M.X1.toFixed(1)) && solutionPull.includes(`${M.px(5).toFixed(1)} м`));
