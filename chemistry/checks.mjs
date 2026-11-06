@@ -1178,6 +1178,7 @@ for (const [file, oldPath] of [
   }
   const svg = fs.readFileSync(svgPath, "utf8");
   if (svg.includes(oldPath) ||
+      (svg.match(/markerUnits="userSpaceOnUse"/g) || []).length !== 3 ||
       !svg.includes("M 1090 184 L 1055 244") ||
       !svg.includes("M 1055 374 L 1090 314") ||
       !svg.includes("M 1055 484 L 1090 424")) {
