@@ -974,7 +974,7 @@ try {
       }
       if (!(await page.locator("[data-i=nernst25]").innerText()).includes("0.05916 V / n") || !(await page.locator("[data-i=nernstDaniell]").innerText()).includes("a(Zn²⁺) / a(Cu²⁺)") || !(await page.locator("[data-i=nernstCaution]").innerText()).includes("activities")) errors.push(file + ": English Nernst checks failed");
       await page.locator("#activityZn").fill("0.1"); await page.locator("#activityCu").fill("1"); await page.locator("#nernstCalc").click();
-      if (!(await page.locator("#nernstResult").innerText()).includes("1,1296") || !(await page.locator("#nernstFeedback").innerText()).includes("For Zn + Cu²⁺")) errors.push(file + ": English Nernst calculator output or explanation is incorrect");
+      if (!(await page.locator("#nernstResult").innerText()).includes("1.1296") || !(await page.locator("#nernstFeedback").innerText()).includes("For Zn + Cu²⁺")) errors.push(file + ": English Nernst calculator output or explanation is incorrect");
       await page.locator("#activityZn").fill("1"); await page.locator("#activityCu").fill("0"); await page.locator("#nernstCalc").click();
       if ((await page.locator("#nernstResult").innerText()).trim() !== "E = —" || !(await page.locator("#nernstFeedback").innerText()).includes("positive activities")) errors.push(file + ": zero activity must be rejected with English feedback");
       await page.locator("#activityZn").fill(""); await page.locator("#nernstCalc").click();
