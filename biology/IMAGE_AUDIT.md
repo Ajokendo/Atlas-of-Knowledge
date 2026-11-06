@@ -968,3 +968,12 @@ A focused author-side visual pass inspected the 1365 px Chromium screenshots fro
 - `botany-anatomy.svg`: the original render showed an overlong stem subtitle, a crowded cambium label and leaf-layer labels printed over tissue detail. The subtitle and cambium note were split into shorter lines, and leaf labels were moved to a legend below the section in commits `5dc75490` and `8bb3209c`. The run-1561 screenshot confirms that the leaf tissue is no longer covered by those labels. Root-label spacing was refined again in commit `40ef2e87`; that final revision awaits a new screenshot inspection.
 
 These results are limited to the named desktop figures and revision evidence above. They do not close the broader per-asset queue: image verification remains pending, and no asset is promoted to `VERIFIED` by this screenshot-only pass.
+
+## Follow-up after full-page screenshot review — 6 November 2026
+
+The 1365 px full-page Biology screenshots from run 1566 were reviewed for the anatomy and botany plates. Two further label-placement defects were identified and corrected:
+
+- `anatomy-circulation.svg`: although the arrow geometry and marker proportions were improved, the chamber abbreviations were still crossed by flow paths in the rendered heart. The four abbreviations have now been moved into a separate bilingual chamber key below the heart. This is clearer than layering text over the flow arrows. Commit `e4b27f77d8b843af036e3da49cbf3651e6a3bc46`.
+- `botany-anatomy.svg`: the root stele label still sat inside the lower portion of the cross-section. It has been moved into the explanatory key below the root drawing, preserving space for the xylem and phloem notes. Commit `0f3581ae36e5b2dba36b993b09d20f3e38ee3acd`.
+
+The latest commits have passed static validation and Chromium installation/server setup; the full-page Chromium test and screenshot upload are still running as of this note. These two visual fixes remain **awaiting screenshot acceptance** until those runs complete and their updated images are inspected.
