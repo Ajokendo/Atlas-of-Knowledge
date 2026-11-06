@@ -1203,3 +1203,18 @@ Automated Chromium acceptance passed in GitHub Actions run [42215317460](https:/
 - **07-E — World biogeographical realms.** Use the same RESOLVE 2017 source and its `REALM` field for a consistent eight-realm classification; dataset licence and primary citation are the same as 07-C. The derived map must identify the classification as RESOLVE 2017 and explain that realm boundaries are biogeographic generalisations, not political borders.
 - These are **source selections only**. No map has yet been generated or embedded, and no geometry has been modified or redistributed by this note. The dataset is a 2017 reference classification, not a current land-cover map. Any derived 07-C/07-E map must retain appropriate CC BY 4.0 attribution and must not be placed under the Chapter 07 project-local CC BY-NC licence.
 - A separate, unnumbered production brief for **Figure 7.5** (latitudinal zonation and altitudinal belts) remains in the chapter but is not represented by any of the nine current visual IDs. It needs an explicit scope decision before asset creation (for example, assigning a new ID) and is not silently counted as an integrated visual.
+
+
+### Chapter 07 — full-size review and technical QA — 6 November 2026
+
+All seven integrated visual assets (07-A, 07-B, 07-D, 07-F, 07-G, 07-H and 07-I) have paired RU/EN Markdown embeds (14 total). Static XML/ARIA acceptance passed in [run 42218475981](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42218475981). Full-size Chromium review passed in [run 42218476031](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42218476031): all seven inline SVGs rendered at 390px and 1365px; no text was outside the viewBox; no text-to-text overlap; no horizontal overflow; axe WCAG 2.1 A/AA scan returned zero violations; all 14 live GitHub Markdown embeds decoded at both widths.
+
+Visual corrections made after inspecting the full-size screenshots:
+- 07-A: moved the hydrosphere label clear of the fish symbols and within the water region.
+- 07-B: split the energy-pyramid heading and separated feeding arrows from dashed detrital/decomposer arrows.
+- 07-D: replaced an overlong bilingual subtitle with two concise lines.
+- 07-H: wrapped the bilingual hypothetical-route disclaimer to prevent edge clipping.
+- 07-I: redrew the carbon and nitrogen pathways; clarified photosynthesis, respiration, litter, decomposition, ocean exchange and burial; moved the nitrogen-process labels and explicitly stated that nitrification is simplified and the nitrite intermediate is omitted.
+- 07-G: the caption now clarifies that benthic means the bottom habitat and is not synonymous with aphotic water.
+
+At 390px, the smallest effective SVG labels are 2.8–5.5 CSS px and require zoom for detailed reading. At 1365px, minimum labels are 10.0–19.5px. Automated axe scan does not replace manual screen-reader testing. Rights for original local SVGs 07-A, 07-B, 07-F, 07-G, 07-H and 07-I remain pending project-owner confirmation; 07-D retains its source CC BY 4.0 terms.
