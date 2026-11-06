@@ -14,7 +14,7 @@ This file is the Geography audit required by policy v1.2. It records the IDs tha
 
 The atlas-wide source relationship and complete source-work inventory are not yet established. Determine provenance asset by asset. Record original work, creator/rightsholder, edition/version, source location, inheritance relationship, changes and the permission/licence for actual reproduction and adaptation. Classify A — Original reuse, B — Adapted or C — Created separately from rights status. Mark unknown values Unknown / PENDING. Do not infer authorship or permission from repository ownership, public availability or prior integration. Do not repeat discovery searches for an identifiable unchanged inherited visual solely to satisfy image-first; verify lineage, rights, scientific meaning, localisation, accessibility and rendering. Search for a replacement when an asset is missing, unsuitable, inaccurate, inaccessible, rights-restricted or needs replacement. Translating surrounding captions/alt text alone does not change the visual category; translating embedded labels or substantively editing the visual is adaptation.
 
-Source-work coverage is provisional. Detailed IMAGE_SOURCES records now cover Chapters 01–06 (with unresolved creator/licence fields for project-local SVGs and several external images) and one MISSING gap record for Chapter 09-G. Chapter 05's 16 pre-existing integrated IDs plus 5.18-A are mapped in IMAGE_SOURCES.md; the separate register is retained as production history. Chapter 06 has records for 6-A, 6-B and 6-C but is not fully source-verified; Chapters 07–08 and 10–26 are not source-verified by the existence of IDs or briefs. Chapter 06 now has five integrated assets (6-A, 6-C, 6.1-A, 6.5-A and 6.7-A); 6-B has a candidate dataset with confirmed CC BY 4.0 terms but no finished map, and the remaining 10 visual IDs are still open.
+Source-work coverage remains provisional atlas-wide. Detailed IMAGE_SOURCES records now cover Chapters 01–06, including all 15 Chapter 06 visual IDs. The Chapter 06 asset-rights register distinguishes four third-party targets from 12 Atlas-local SVGs; project licensing for those local SVGs still requires owner confirmation. Chapters 07–08 and 10–26 are not source-verified merely because IDs or briefs exist. Chapter 09-G remains recorded as a missing source-work gap.
 
 ## 3. Geography-specific checks
 
@@ -425,7 +425,7 @@ The following counts are from the actual chapter Markdown files in `workspace/ge
 | 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
 | 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
 | 05 | 46 | 23 distinct image URLs (12 local SVGs and 11 external source-image URLs); all 19 unique visual IDs have integrated imagery in RU and EN. Exact ID-to-image mapping is reconciled; legacy 5-A is an alias of 5.2-A. |
-| 06–17 | 12 | Chapter 06 has 15/15 visual IDs integrated in both language sections; its current image inventory is 32 Markdown embeds across 16 distinct targets. Chapter 06's eight new local SVGs have static XML/ARIA checks, not rendered accessibility or device QA. Chapters 07–17 have no Markdown image embeds in this scan. |
+| 06–17 | 32 | Chapter 06 has 15/15 visual IDs integrated in both language sections; its current image inventory is 32 Markdown embeds across 16 distinct targets. Chapter 06 has 32 bilingual embeds across 16 targets; all 12 local SVGs pass XML/ARIA and rendered title/description/role/text checks. Chromium run 42215018276 decoded all 32 RU/EN embeds at 390px and 1365px, found no horizontal overflow, passed keyboard skip-link and axe gallery checks (0 violations). Chapters 07–17 have no Markdown image embeds in this scan. |
 | 18 | 1 | Local SVG 18-J referenced. |
 | 19 | 1 | Local SVG 19-H referenced. |
 | 20 | 2 | Local SVGs 20-I and 20-K referenced. |
@@ -497,7 +497,7 @@ No Image Coverage or Image Verification percentage is calculated from this token
 
 ### 7.6 Static SVG structure and Markdown alt-text checks — Chapters 01–06 and 18–20
 
-A direct fetch-and-inspect pass covered the **56 pre-existing local SVG assets** in Chapters 01–05 and 18–20. Three additional local SVGs were added for Chapter 06 visuals 6-C, 6.5-A and 6.7-A; all three were separately spot-checked for the required structural metadata:
+A direct fetch-and-inspect pass covered the **56 pre-existing local SVG assets** in Chapters 01–05 and 18–20. Twelve local SVGs are now present for Chapter 06; all 12 are included in the current static XML/ARIA checker and rendered Chromium checks:
 - 5 Chapter 01 SVGs in `assets/diagrams/`;
 - 11 Chapter 02 SVGs in `assets/diagrams/`;
 - 10 Chapter 03 SVGs in `assets/`;
@@ -505,7 +505,7 @@ A direct fetch-and-inspect pass covered the **56 pre-existing local SVG assets**
 - 10 Chapter 05 SVGs in `visuals/`;
 - 4 Chapter 18–20 SVGs in `assets/`.
 
-All 56 pre-existing fetched SVG files and all three new Chapter 06 SVGs (6-C, 6.5-A and 6.7-A) contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
+All 56 previously fetched SVG files and all 12 Chapter 06 SVGs contain the five structural elements checked: `viewBox`, `<title>`, `<desc>`, `role="img"` and `aria-labelledby`. This is a static structure check only; it does not certify that descriptions are sufficiently informative, labels are legible, colour contrast is adequate, or screen readers announce the content in a useful order.
 
 Markdown alt-text checks:
 - Chapters 01–02: the source register records 50 embeds with non-empty bilingual alt text (10 + 40).
@@ -513,7 +513,7 @@ Markdown alt-text checks:
 - Chapter 04: 32 embeds representing 16 unique assets; zero empty alt attributes.
 - Chapter 05: 46 embeds (23 RU + 23 EN; 23 distinct URLs in each language, exact parity); zero empty alt attributes.
 - Chapters 18–20: 4 embeds; zero empty alt attributes.
-- Chapter 06: 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A each appear once in RU and once in EN; all ten embeds have non-empty bilingual alt text.
+- Chapter 06: all 15 visual IDs are integrated in both RU and EN; 32 embeds across 16 distinct targets, all with non-empty alt text.
 
 **Result:** structural SVG metadata and non-empty Markdown alt text pass for the checked local assets and chapter embeds. Semantic alt-text quality, bilingual equivalence, scientific correctness, rights evidence and deployed accessibility remain separate and pending checks. No asset is promoted to VERIFIED.
 
@@ -1837,3 +1837,12 @@ A Chapter 05-specific GitHub Actions workflow and isolated Chromium preview have
 
 ### Chapter 06 image integration refresh — 6 November 2026
 A fresh chapter-level scan found **32 Markdown image embeds**, evenly split between the Russian and English sections (16 each), with **16 distinct image targets** and **zero empty alt attributes**. The 15 visual IDs are all integrated in both languages; ID 6.7-A intentionally comprises two separate targets (the NOAA surface-current map and the local deep-circulation schematic). Eight new local bilingual SVGs were fetched back from GitHub and passed XML/ARIA structure checks for `viewBox`, `<title>`, `<desc>`, `role="img"`, `aria-labelledby`, a closing SVG tag and absence of unescaped ampersands. This check does not replace XML parser validation, rendered browser/mobile QA, contrast review or screen-reader testing. The 6-B five-ocean illustration is an unchanged Wikimedia Commons map under CC BY-SA 3.0; its conventional boundaries are not universally authoritative.
+
+
+### Chapter 06 — updated visual concept and browser QA — 6 November 2026
+
+An internal concept review covered all 12 Atlas-local Chapter 06 SVGs against the chapter explanations and institutional references. It checked the stated schematic limits and the main concepts: ocean-floor relief; qualitative seawater profiles; wave/tide/current distinctions; branching deep-water pathways; marine spatial dimensions; pollution pathways; cryosphere components; drainage-basin anatomy; lake origins and stratification; groundwater system; climate-water responses; and the illustrative catchment balance. This is internal ChatGPT review, not independent expert validation.
+
+Visual 6.17-A and the matching RU/EN text were refined using IPCC AR6 WGI Chapter 8: the figure now labels atmospheric evaporative demand rather than implying that actual evaporation rises everywhere. The text distinguishes global-mean trends from regional and land-water-availability differences.
+
+Automated Chromium acceptance passed in run [42215018276](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42215018276): 32/32 RU/EN embeds decoded in GitHub Markdown and the isolated gallery at 390px and 1365px; no horizontal overflow; keyboard skip link passed; axe WCAG 2.1 A/AA gallery scan returned zero violations; all 12 local SVGs rendered with title, description, role=img and visible text. SVG text contrast, manual screen-reader output, independent scientific review, production deployment and local-SVG licensing remain separate open checks.
