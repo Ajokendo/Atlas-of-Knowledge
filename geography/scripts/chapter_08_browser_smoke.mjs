@@ -18,6 +18,7 @@ const localSvgNames = [
  "08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg"
 ];
 if (embeds.length !== 14) errors.push("Chapter Markdown: expected 14 image embeds, found " + embeds.length);
+if (embeds.some(x => !x.alt.trim())) errors.push("Chapter Markdown: one or more image embeds have empty alt text");
 for (const id of ids) {
  const occurrences = (chapter.match(new RegExp(id,"g")) || []).length;
  if (!occurrences) errors.push("Missing visual ID " + id);
@@ -66,11 +67,11 @@ try {
      const a=texts[i],b=texts[j],dx=Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x),dy=Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y);
      if(dx>2&&dy>2) overlaps.push({a:a.text,b:b.text});
     }
-    return {name:title?.textContent||"untitled",role:svg.getAttribute("role"),desc:!!desc?.textContent?.trim(),textCount:texts.length,outside,overlaps,minEffective:Math.min(...texts.map(t=>t.effective))};
+    const labelled=(svg.getAttribute("aria-labelledby")||"").split(/\\s+/).filter(Boolean);\n    const labelledValid=labelled.length>=2&&labelled.every(id=>svg.querySelector("#"+CSS.escape(id))?.textContent?.trim());\n    return {name:title?.textContent||"untitled",role:svg.getAttribute("role"),desc:!!desc?.textContent?.trim(),labelledValid,textCount:texts.length,outside,overlaps,minEffective:Math.min(...texts.map(t=>t.effective))};
    });
   });
   for(const d of data){
-   if(d.role!=="img"||!d.desc||!d.textCount) errors.push(viewport.width+"px "+d.name+": title/description/role/text missing");
+   if(d.role!=="img"||!d.desc||!d.labelledValid||!d.textCount) errors.push(viewport.width+"px "+d.name+": title/description/ARIA linkage/role/text missing");
    if(d.outside.length) errors.push(viewport.width+"px "+d.name+": text outside viewBox "+JSON.stringify(d.outside));
    if(d.overlaps.length) errors.push(viewport.width+"px "+d.name+": text-to-text overlap "+JSON.stringify(d.overlaps));
   }
