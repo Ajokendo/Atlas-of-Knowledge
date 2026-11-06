@@ -1695,3 +1695,16 @@ The Chapter 02 visual replacement milestone remains **11/11 complete**. Browser 
 - Re-fetched the updated chapter source and confirmed 56 embeds, 28 unique HTTPS URLs, all URLs paired twice, 56 non-empty alt texts, no local images and no retired SVG references.
 - The subsequent image-integrity workflow [run 42159039628](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42159039628) completed **SUCCESS**: **28 PASS, 0 WARN, 0 FAIL**. Both new NASA-derived Commons image endpoints returned HTTP 206 with image content type to the GitHub runner. This resolves the earlier three endpoint warnings at the source-probe level.
 - A strengthened browser workflow is now checking actual Chromium image decoding (56/56), in addition to responsive layout and keyboard navigation. Record its result in a further checkpoint; do not assume image decoding from HTTP status alone.
+
+
+## Chapter 02 — final isolated Chromium image-decode QA — 6 November 2026
+
+- Workflow: [Geography Chapter 02 visual browser QA](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42159094223) — **SUCCESS**; run 7, job `127700202425`.
+- The workflow checked out the current branch head `4279a8f2acf79333b0220acb2b39577c7b219f18` from `workspace/geography`, including the audit and script updates.
+- Generated the isolated HTML preview from `geography/chapters/02-geographic-envelope.md`; confirmed 56 embeds and 28 unique remote assets, each URL appearing twice.
+- Chromium passed at **390 × 844** and **1365 × 900**. The test forced eager loading, awaited image decoding and verified **56/56 images decoded successfully** (`naturalWidth > 0`). It also passed non-empty alt text, HTTPS source, no horizontal overflow, and keyboard skip-link navigation.
+- This is stronger evidence than the previous DOM-only smoke test: all current chapter image URLs loaded and decoded in Chromium in this isolated preview at both tested viewport sizes.
+- Combined with image-integrity run [42159039628](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42159039628), the current Chapter 02 source checks are **28 PASS / 0 WARN / 0 FAIL**, and the browser image decode is **56/56 PASS**.
+- **Remaining boundary:** this preview is generated directly from Markdown, not the production reader. The production Pages deployment still uses `main`; no deployment or publishing configuration was changed. Screen-reader announcement quality, zoom/reflow beyond the two tested widths, failure fallback and production performance remain untested.
+
+**Chapter 02 visual replacement:** 11/11 complete. **Isolated image and responsive browser QA:** PASS. **Production publication readiness:** not certified until the actual reader/deployed page and remaining accessibility checks are tested.
