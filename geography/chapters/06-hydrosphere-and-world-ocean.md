@@ -151,8 +151,9 @@
 
 ## 6.6. Волны, приливы и морские течения / Waves, Tides and Ocean Currents
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6-D / IMAGE PLACEHOLDER 6-D]** Схемы ветровых волн, приливов и поверхностных/глубинных течений с раздельными причинами формирования.
-> **EN:** Diagrams of wind waves, tides and surface/deep currents, with their distinct generating mechanisms.
+![Ветровые волны, приливы и океанические течения: орбитальное движение частиц воды, влияние Луны и Солнца и упрощённая схема поверхностного и глубинного потоков. Схема качественная, не в масштабе.](../assets/06-6-D-ocean-motion-bilingual.svg)
+
+*Оригинальная учебная схема, подготовленная с помощью ChatGPT; направления и формы условны, схема не является измерением или картой реальных течений. Лицензионное решение проекта для этого нового визуала ещё требуется. / Original teaching schematic prepared with ChatGPT assistance; directions and shapes are illustrative, not measurements or a map of actual currents. Project licensing decision for this new visual is still pending.*
 
 ### 6.6.1. Волны / Waves
 
@@ -618,6 +619,10 @@ Salinity describes dissolved material in seawater. Practical Salinity \(S_P\), d
 Density depends mainly on temperature, salinity and pressure. At comparable pressure, colder and saltier water is generally denser than warmer and less saline water. Density differences help drive deep-ocean circulation.
 
 ### 6.6. Waves, Tides and Ocean Currents
+
+![Wind waves, tides and ocean currents: orbital water-particle motion, lunar and solar tidal forcing, and a simplified surface and deep flow. Qualitative schematic, not to scale.](../assets/06-6-D-ocean-motion-bilingual.svg)
+
+*Original teaching schematic prepared with ChatGPT assistance; directions and shapes are illustrative, not measurements or a map of actual currents. Project licensing decision for this new visual is still pending.*
 
 ### 6.6.1. Waves
 
