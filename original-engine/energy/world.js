@@ -228,7 +228,7 @@ export function buildWorld(E) {
   const fgQ = force(gQ), alQ = thinArrow(gQ, 'Вдоль проволоки'), acQ = thinArrow(gQ, 'Поперёк проволоки');
   const tangentQ = liveDash(gQ, 18, '#b8343a');
   label('vec', 'F<sub>g</sub>', () => tip(fgQ));
-  label('vec', small('<i>F</i> = −d<i>U</i>/d<i>x</i>', 18), () => { if (!alQ.visible) return null; const t = tanQ(beadState.x); return wp(beadState.x).addScaledVector(t, beadState.F * SC.bead.F / 2).add(V(-t.y, t.x, 0).multiplyScalar(0.24)); });
+  label('vec', small('<i>F</i> = −d<i>U</i>/d<i>x</i>', 16), () => { if (!alQ.visible) return null; const t = tanQ(beadState.x); return wp(beadState.x).addScaledVector(t, beadState.F * SC.bead.F / 2).add(V(-t.y, t.x, 0).multiplyScalar(0.24)).add(V(-0.5, 0.42, 0)); });
   label('vec grey', small('поперечная составляющая', 15), () => acQ.visible ? tip(acQ).add(V(0, -0.1, 0)) : null);
   label('board', small('касательная: наклон графика <i>U</i>', 15), () => opened(gQ) > 0.3 ? wp(beadState.x).add(tanQ(beadState.x).multiplyScalar(0.75)).add(V(0.05, 0.08, 0)) : null);
   let beadState = M.bead(0);
