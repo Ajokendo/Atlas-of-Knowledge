@@ -1,4 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">ОТ ГЕОЛОГИЧЕСКОГО МЕСТОРОЖДЕНИЯ К УПРАВЛЕНИЮ РЕСУРСАМИ / FROM DEPOSIT TO RESOURCE MANAGEMENT</title><desc id="desc">Разрез рудного тела; показаны геологоразведка, оценка запасов, добыча, переработка, управление отходами и водой и рекультивация. / Ore-body cross-section showing exploration, resource assessment, extraction, processing, waste and water management, and rehabilitation.</desc><rect width="1200" height="760" rx="24" fill="#f8fafc"/><text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#172554">ОТ ГЕОЛОГИЧЕСКОГО МЕСТОРОЖДЕНИЯ К УПРАВЛЕНИЮ РЕСУРСАМИ / FROM DEPOSIT TO RESOURCE MANAGEMENT</text>
-<path d="M80 230 L1120 230 L1120 540 L80 540Z" fill="#e7d7bd" stroke="#64748b" stroke-width="3"/><path d="M430 230 L560 470 L680 470 L790 230" fill="#b45309" stroke="#78350f" stroke-width="4"/><path d="M450 230 L570 450 L670 450 L770 230" fill="#fbbf24" opacity=".7"/>
-<g font-family="Arial,sans-serif" font-size="20" fill="#1e293b"><text x="90" y="170">Геологоразведка / Exploration</text><text x="90" y="200">Картирование, бурение, анализ / Mapping, drilling, assays</text><text x="420" y="585">Рудное тело / Ore body</text><text x="790" y="170">Добыча / Extraction</text><text x="790" y="200">Открытая или подземная / Open-pit or underground</text><text x="820" y="585">Переработка / Processing</text></g>
-<g stroke="#475569" stroke-width="3" fill="none"><path d="M250 650 L400 650 M380 635 L400 650 L380 665"/><path d="M670 650 L820 650 M800 635 L820 650 L800 665"/></g><rect x="80" y="610" width="210" height="70" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/><text x="185" y="640" text-anchor="middle" font-size="18" fill="#1e3a8a">Оценка запасов</text><text x="185" y="662" text-anchor="middle" font-size="16" fill="#1e3a8a">Resource assessment</text><rect x="420" y="610" width="300" height="70" rx="12" fill="#ffedd5" stroke="#c2410c" stroke-width="2"/><text x="570" y="640" text-anchor="middle" font-size="18" fill="#7c2d12">Отходы и вода / Waste and water</text><text x="570" y="662" text-anchor="middle" font-size="16" fill="#7c2d12">Контроль и мониторинг / Control and monitoring</text><rect x="850" y="610" width="260" height="70" rx="12" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="980" y="640" text-anchor="middle" font-size="18" fill="#14532d">Рекультивация</text><text x="980" y="662" text-anchor="middle" font-size="16" fill="#14532d">Rehabilitation</text><text x="600" y="710" text-anchor="middle" font-size="16" fill="#475569">Разведка и оценка запасов предшествуют добыче; отходы и воду контролируют на всех этапах, рекультивацию проводят поэтапно.</text><text x="600" y="735" text-anchor="middle" font-size="16" fill="#475569">Exploration and resource assessment precede extraction; waste and water are managed throughout, with progressive rehabilitation.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">ОТ ГЕОЛОГИЧЕСКОГО МЕСТОРОЖДЕНИЯ К УПРАВЛЕНИЮ РЕСУРСАМИ / FROM DEPOSIT TO RESOURCE MANAGEMENT</title>
+<desc id="desc">Разрез рудного тела и три последовательных этапа: геологоразведка и оценка ресурса, добыча и переработка, закрытие и рекультивация. Управление водой, отходами и воздействием на окружающую среду необходимо на всех этапах. / Ore-body cross-section and three sequential stages: exploration and resource assessment, extraction and processing, and closure and rehabilitation. Water, waste and environmental management are required throughout.</desc>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#172554">ОТ ГЕОЛОГИЧЕСКОГО МЕСТОРОЖДЕНИЯ К УПРАВЛЕНИЮ РЕСУРСАМИ / FROM DEPOSIT TO RESOURCE MANAGEMENT</text>
+<path d="M80 230 L1120 230 L1120 540 L80 540Z" fill="#e7d7bd" stroke="#64748b" stroke-width="3"/>
+<path d="M430 230 L560 470 L680 470 L790 230" fill="#b45309" stroke="#78350f" stroke-width="4"/>
+<path d="M450 230 L570 450 L670 450 L770 230" fill="#fbbf24" opacity=".7"/>
+<g font-family="Arial,sans-serif" font-size="20" fill="#1e293b">
+ <text x="100" y="170">Геологоразведка / Exploration</text>
+ <text x="100" y="200" font-size="17">Картирование, бурение, анализ / Mapping, drilling, assays</text>
+ <text x="790" y="170">Добыча / Extraction</text>
+ <text x="790" y="200" font-size="17">Открытая или подземная / Open-pit or underground</text>
+ <text x="600" y="505" text-anchor="middle" font-weight="700">Рудное тело / Ore body</text>
+ <text x="880" y="505" text-anchor="middle">Переработка / Processing</text>
+</g>
+<g>
+ <rect x="55" y="585" width="315" height="92" rx="14" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+ <text x="212" y="618" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#1e3a8a">1. Разведка и оценка</text>
+ <text x="212" y="646" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#1e3a8a">Exploration and resource assessment</text>
+ <rect x="443" y="585" width="315" height="92" rx="14" fill="#ffedd5" stroke="#c2410c" stroke-width="3"/>
+ <text x="600" y="618" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#7c2d12">2. Добыча и переработка</text>
+ <text x="600" y="646" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#7c2d12">Extraction and processing</text>
+ <rect x="830" y="585" width="315" height="92" rx="14" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+ <text x="987" y="618" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#14532d">3. Закрытие и рекультивация</text>
+ <text x="987" y="646" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#14532d">Closure and rehabilitation</text>
+</g>
+<g stroke="#475569" stroke-width="4" fill="none"><path d="M370 630 L430 630 M414 614 L430 630 L414 646"/><path d="M758 630 L817 630 M801 614 L817 630 L801 646"/></g>
+<text x="600" y="710" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#334155">Вода, отходы и экологический мониторинг — на всех этапах / Water, waste and environmental monitoring — throughout</text>
+<text x="600" y="738" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#475569">Схема упрощена: рекультивация может идти поэтапно, ещё во время эксплуатации. / Simplified: rehabilitation can proceed progressively during operation.</text>
+</svg>
