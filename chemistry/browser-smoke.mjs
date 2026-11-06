@@ -55,7 +55,10 @@ const visualEvidencePages = new Set([
   "virtual-lab.html",
   "stoichiometry.html",
   "gas-laws.html",
-  "reaction-trainer.html"
+  "reaction-trainer.html",
+  "chemistry-constants.html",
+  "glossary.html",
+  "knowledge-check.html"
 ]);
 const screenshotDirectory = path.join(process.cwd(), "artifacts", "chemistry-rendered-review");
 fs.mkdirSync(screenshotDirectory, { recursive: true });
