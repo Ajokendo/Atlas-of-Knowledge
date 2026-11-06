@@ -1114,6 +1114,58 @@ if (fs.existsSync(moleculeLabPath)) {
   errors.push("molecule-lab.html: molecular geometry interactive is missing");
 }
 
+
+ // CH-IV06: guard the ideal-gas calculation's units, Kelvin conversion and learner input domain.
+const gasLawPath = path.join(root, "gas-laws.html");
+if (fs.existsSync(gasLawPath)) {
+  const gasSource = fs.readFileSync(gasLawPath, "utf8");
+  for (const required of [
+    'min="-100" max="300"',
+    'min=".1" max="3"',
+    'min="5" max="60"',
+    'const $=id=>document.getElementById(id);let lang="ru";',
+    'k=c+273.15',
+    'p=n*8.314462618*k/v',
+    'p.toFixed(2)',
+    'kPa·L·mol⁻¹·K⁻¹',
+    'кПа·л·моль⁻¹·К⁻¹'
+  ]) {
+    if (!gasSource.includes(required)) errors.push("gas-laws.html: ideal-gas calculation or stated input/unit contract changed or is missing: " + required);
+  }
+  if (!gasSource.includes('id="particleNote"') ||
+      !gasSource.includes('does not model density, speed, trajectories or collisions') ||
+      !gasSource.includes('не моделирует плотность, скорость, траектории или столкновения')) {
+    errors.push("gas-laws.html: schematic particle visual must retain its bilingual limitation note");
+  }
+} else {
+  errors.push("gas-laws.html: ideal-gas interactive is missing");
+}
+
+// CH-IV07: guard the strong monoprotic-acid / monobasic-base model and its numerical edge handling.
+const virtualLabPath = path.join(root, "virtual-lab.html");
+if (fs.existsSync(virtualLabPath)) {
+  const labSource = fs.readFileSync(virtualLabPath, "utf8");
+  for (const required of [
+    'ac>=.01&&ac<=2',
+    'av>=10&&av<=500',
+    'bc>=.01&&bc<=2',
+    'bv>=0&&bv<=200',
+    'acidMol=s.ac*s.av/1000',
+    'baseMol=s.bc*s.bv/1000',
+    'volume=(s.av+s.bv)/1000',
+    'Math.hypot(excess,2e-7)',
+    'if(diff>eps)p=-Math.log10(dominantIon)',
+    'else if(diff< -eps)p=14+Math.log10(dominantIon)',
+    'else p=7',
+    '25 °C',
+    'strong monoprotic acid'
+  ]) {
+    if (!labSource.includes(required)) errors.push("virtual-lab.html: neutralisation assumptions, input bounds or pH calculation guard missing: " + required);
+  }
+} else {
+  errors.push("virtual-lab.html: acid-base neutralisation interactive is missing");
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
