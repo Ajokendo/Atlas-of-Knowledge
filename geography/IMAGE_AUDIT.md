@@ -1818,3 +1818,15 @@ The project owner expressly authorised the Atlas of Knowledge project to designa
 **Explicit exclusion:** visual 5.7-B (`chapter-05-cloud-formation-processes.svg`) is adapted from AMS Project Atmosphere: Clouds (2025), Figure 2, under **CC BY-SA 4.0**. It is not included in the CC BY-NC 4.0 designation. AMS attribution, the licence link, a clear change statement and the ShareAlike condition are now recorded in the SVG and chapter caption; the adaptation is expressly shared under CC BY-SA 4.0. External images and other third-party media retain their own source-specific terms. This decision does not apply to the repository-root licence, Nathan Liow's work, other chapters or the Atlas as a whole.
 
 The licence scope and reuse-credit template are recorded in `geography/assets/CHAPTER_05_ASSET_LICENSE.md` and the 11 corresponding source rows in `geography/IMAGE_SOURCES.md`. Rights assignment for these 11 assets is no longer pending; accessibility and deployed technical QA remain separate and open.
+
+
+### Chapter 05 — dedicated technical acceptance harness added — 6 November 2026
+
+A Chapter 05-specific GitHub Actions workflow and isolated Chromium preview have been added on `workspace/geography`:
+
+- `.github/workflows/geography-chapter-05-browser-qa.yml` runs on Chapter 05 source/visual/script changes and supports manual dispatch.
+- `geography/scripts/check_chapter_05_assets.py` checks the 46 RU/EN image embeds, 23 bilingual-paired targets, the 12 local SVG XML/ARIA structures and the exact 11-file CC BY-NC scope, excluding adapted 5.7-B.
+- `geography/scripts/build_chapter_05_preview.py` builds a temporary image gallery from the Markdown source, resolving both raw GitHub URLs and chapter-relative local SVG references.
+- `geography/scripts/chapter_05_browser_smoke.mjs` tests the isolated preview in Chromium at 390 px and 1365 px, requiring all 46 images to decode, non-empty alt attributes, no horizontal overflow, and keyboard skip-link navigation. Screenshots are retained as a workflow artifact for 14 days.
+
+**Status at time of recording: HARNESS ADDED; hosted execution not yet verified.** This is a purpose-built QA preview, not the production chapter reader. No CI/browser PASS is claimed until the corresponding GitHub Actions run completes successfully. A passing isolated preview will still not replace a human screen-reader review, a formal contrast audit or a deployed-site check.
