@@ -1111,3 +1111,6 @@ Scientific concept and RU/EN label parity: PASS at source review. Detailed contr
 - U.S. Geological Survey, [Volcano Hazards Program Glossary](https://www.usgs.gov/glossary/volcano-hazards-program-glossary) and [Living With Volcano Hazards](https://pubs.usgs.gov/fs/2018/3075/fs2018-3075.pdf): distinguish ash fall, lava flows, pyroclastic density currents and lahars. USGS defines a lahar as a rapidly flowing mixture of water and volcanic debris originating on a volcano's slopes.
 - The SVG now includes a separate downslope lahar path and bilingual label. Its SVG description and RU/EN chapter alt text list the same visible hazards.
 - This source check supports the scientific terminology only. The local SVG's creator/rightsholder and project licence remain Unknown / PENDING.
+
+
+**3.8-A kinematic refinement — 6 November 2026:** the bedding horizons are offset across the fault planes; opposing arrows distinguish relative block motion. For the normal-fault example the hanging wall moves down relative to the footwall; for the reverse-fault example it moves up. This is the USGS classification criterion, not a claim that the footwall is fixed in an absolute reference frame. Source: [USGS fault types FAQ](https://www.usgs.gov/faqs/what-a-fault-and-what-are-different-types).
