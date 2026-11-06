@@ -490,7 +490,7 @@ Visual 07-D, Shelford's ecological tolerance curve, is now integrated as a bilin
 - **Chapter embed:** geography/chapters/07-biosphere-and-natural-biomes.md, section 7.3.
 - **Review:** scientific concept PASS; rights PASS; RU/EN PASS; accessibility PENDING; live browser/mobile rendering PENDING. Therefore lifecycle is INTEGRATED, not VERIFIED.
 
-Historical 5 November status superseded: Chapter 07 visual coverage is now 7/9 integrated; only 07-C and 07-E remain as named map gaps. The separate unnumbered Figure 7.5 brief is not included in the nine-ID count.
+Historical 5 November snapshot — superseded 6 November 2026: Chapter 07 then had 7/9 integrated; maps 07-C and 07-E have since been generated and integrated. The separate unnumbered Figure 7.5 brief is not included in the nine-ID count.
 
 
 ## Tenth-tranche update — Chapter 12-E — 5 November 2026
