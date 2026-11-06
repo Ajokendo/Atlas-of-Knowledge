@@ -567,7 +567,7 @@ Landscape planning aims to align economic activity with natural constraints and 
 <!-- VISUAL ID 08-G — integrated bilingual SVG below -->
 ![Landscape mosaic with habitat patches, a river corridor, agricultural matrix and road barrier; structural and functional connectivity are distinguished.](../assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg)
 
-*08-G. Original bilingual teaching diagram; no species-specific routes are represented. Licence: CC BY-NC 4.0; attribution: Atlas of Knowledge project.*
+*08-G. Original bilingual teaching diagram; structural and functional connectivity are distinguished; no species-specific routes are represented. Licence: CC BY-NC 4.0; attribution: Atlas of Knowledge project.*
 
 
 Landscape ecology studies how spatial structure influences ecological processes. Three common elements are:
@@ -754,4 +754,5 @@ The numerical examples in this chapter are instructional; they are not results f
 - **Salinity versus sodicity:** clarified that electrical conductivity alone does not identify salt composition or diagnose exchangeable-sodium effects; separate chemical and exchange-related measurements are required. The historical ECe value near 4 dS/m is explicitly not a universal crop-damage threshold.
 - **Visual production update — 6 November 2026:** all seven planned visual IDs (08-A–08-G) are now integrated in both Russian and English sections (14 embeds total). 08-B is the unchanged ISRIC WRB 2014 global map, derived from HWSD v1.2, with full source acknowledgement and an explicit warning that it is not a WRB 2022 map. The six original local SVGs are covered by the project owner's standing CC BY-NC 4.0 authorisation. The 08-A soil-profile diagram was moved from section 8.1 to its correct teaching location in section 8.3; obsolete production briefs for completed visuals were removed. Rendered browser/mobile and manual accessibility QA remain pending.
 - **Bilingual structure:** the previous heading-ID audit found 17 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
+- **Visual source preflight — 6 November 2026:** all six original SVGs passed static checks for `viewBox`, `role="img"`, `aria-labelledby`, non-empty `<title>` / `<desc>`, unique IDs, and no scripts, `foreignObject` or external image dependencies. Two overlong labels were shortened in 08-C; the 08-F English term was aligned with the glossary as “Mestnost”. These checks do not replace rendered browser/mobile or manual accessibility QA.
 
