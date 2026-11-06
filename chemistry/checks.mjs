@@ -479,6 +479,25 @@ for (const file of svgFiles) {
   if (!/<svg\b[^>]*\brole=["']img["']/i.test(source)) errors.push(relative + ": SVG missing role=img");
   if (!/<title\b[^>]*>[\s\S]*?<\/title>/i.test(source)) errors.push(relative + ": SVG missing accessible title");
   if (!/<desc\b[^>]*>[\s\S]*?<\/desc>/i.test(source)) errors.push(relative + ": SVG missing accessible description");
+
+  // Check XML element nesting; browser image decoding alone can hide malformed SVGs.
+  const stack = [];
+  const tagPattern = /<!--[\s\S]*?-->|<\?[\s\S]*?\?>|<!\[CDATA\[[\s\S]*?\]\]>|<\/?([A-Za-z_][\w:.-]*)\b[^>]*>/g;
+  for (const match of source.matchAll(tagPattern)) {
+    const token = match[0];
+    if (token.startsWith("<!--") || token.startsWith("<?") || token.startsWith("<![CDATA[")) continue;
+    const name = match[1].toLowerCase();
+    if (token.startsWith("</")) {
+      const open = stack.pop();
+      if (open !== name) {
+        errors.push(relative + ": mismatched SVG/XML closing tag </" + name + "> (expected </" + (open || "none") + ">)");
+        break;
+      }
+    } else if (!/\/\s*>$/.test(token)) {
+      stack.push(name);
+    }
+  }
+  if (stack.length) errors.push(relative + ": unclosed SVG/XML element <" + stack[stack.length - 1] + ">");
 }
 
 const lowContrastHtmlPatterns = [
