@@ -870,6 +870,14 @@ The six local SVGs below are Category C original vector diagrams created after r
 
 **Source-level QA — 6 November 2026:** all six SVGs were checked for a valid `viewBox`, `role="img"`, `aria-labelledby`, non-empty `<title>` and `<desc>`, unique IDs, and absence of scripts, `foreignObject` and external image dependencies. All six passed this static preflight. The 08-C degradation figure received two text-fit corrections; 08-F now uses the consistent transliteration “Mestnost”. This is source inspection only: it does not establish rendered browser/mobile layout, contrast, keyboard behaviour or screen-reader output.
 
+**Internal concept-to-text review — 6 November 2026 (not independent expert sign-off):**
+- **08-A:** H/O/A/E/B/C/R labels match the chapter's horizon overview; the graphic explicitly states that the sequence is illustrative and not a WRB classification key.
+- **08-C:** water erosion, wind erosion, salinisation and compaction are distinct concepts; the diagram is qualitative and its short conservation labels do not claim to be a complete management prescription.
+- **08-D:** atmosphere, biosphere, hydrosphere and lithosphere are shown as interacting with soil; arrows are explicitly qualitative rather than measured fluxes.
+- **08-E:** all five classical factors plus human activity are represented as interacting, with no single factor presented as sufficient.
+- **08-F:** divide, slope, terrace, floodplain and valley are schematic; facies, urochishche and mestnost are presented as a school-dependent hierarchy, not a universal global classification.
+- **08-G:** patch, corridor, matrix and road barrier are distinguished; structural connectivity is separated from species-specific functional connectivity. No actual species route or real habitat network is claimed.
+
 All six original SVGs contain bilingual text and `<title>` / `<desc>`. Their rights status is now PASS on the basis of the project owner's 6 November 2026 standing CC BY-NC 4.0 authorisation for eligible original Geography Atlas visuals; attribution is “Atlas of Knowledge project”. This is an owner representation, not independent legal verification. Rendered browser/mobile, contrast, keyboard and screen-reader QA remain PENDING.
 
 ### Chapter 08 — Visual 08-B: global soil map — source and reuse record
