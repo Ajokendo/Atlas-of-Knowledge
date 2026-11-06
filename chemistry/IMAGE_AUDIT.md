@@ -823,4 +823,15 @@ The first 72-image artifact covered only 12 of the 21 Chemistry pages. Expanded 
 - [x] Added a generic XML element-nesting check for every Chemistry SVG in `checks.mjs` (commit `35f55af`).
 - [x] Added RU and EN browser-capture assertions that every page image has loaded successfully and has a non-zero natural width; this prevents a broken localized image from being silently accepted by the screenshot job (commit `2e353a6`).
 
-The 108-image archive is the new baseline coverage. The earlier successful run validates the expanded capture list, but the SVG repair and new assertions still require a fresh branch-head CI run and inspection of the repaired EN screenshot before the defect can be closed.
+The 108-image archive is the new baseline coverage. Branch-head CI run [42194380670](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42194380670) **PASS** on commit `cad86d3a20706dc8d69978391512c666c3d69722`: static SVG XML-nesting validation, all 21 Chromium pages, RU/EN image-load assertions, axe-core scans, key interaction checks and 108 screenshot uploads all succeeded.
+
+Additional full-resolution captures reviewed from artifact `13490538190`:
+
+- [x] Chemical elements/isotopes (RU, 390 px): interactive carbon-isotope selector, particle counts, abundance illustration and isotope table remain in the mobile flow.
+- [x] Amount of substance (EN, 390 px): one-mole illustration, sample-mass calculator, amount and particle-count result, and explanatory equations fit the mobile layout.
+- [x] Chemical formulae (RU, 390 px): formula parser, atom-count table, formula-reading SVG, coefficient/subscript example and explanatory note fit the viewport.
+- [x] Chemical reactions (EN, 390 and 1280 px): atom-conservation schematic, reaction-pattern cards, equilibrium/enthalpy explanations and balancing exercise remain in the page layout.
+- [x] Organic chemistry (RU, 390 px; EN, 390 and 1280 px): the functional-groups visual now renders in both languages; the EN desktop screenshot confirms the nine-group SVG and its caption are present instead of a broken-image placeholder.
+- [x] Chemistry of life and environment (RU, 390 px; EN, 1280 px): biomolecule overview, lipid/phospholipid schematic, carbon-cycle diagram and CO₂ concentration model remain within their responsive sections. The enlarged desktop crop confirms two fatty-acid tails in the phospholipid symbol.
+
+The specific broken EN functional-groups image defect is closed by the corrected SVG and the passing browser image-load assertion. No additional confirmed layout defect was identified in these selected captures. This is still targeted review, not a sign-off of every individual asset at every viewport or every interactive state. Rights/licence and competent second-review gates remain separate and open.
