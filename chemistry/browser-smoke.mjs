@@ -2091,7 +2091,7 @@ try {
       await page.locator("#nb").fill("2");
       await page.locator("#na").dispatchEvent("input");
       if ((await page.locator("#limit").innerText()).trim() !== "A" ||
-          !(await page.locator("#left").innerText()).includes("2 mol")) {
+          !(await page.locator("#left").innerText()).includes("2 моль")) {
         errors.push(file + ": zero amount of one reactant did not identify it as limiting");
       }
 
@@ -2158,7 +2158,7 @@ try {
         errors.push(file + ": exact stoichiometric state was not restored after edge-case inputs");
       }
       await page.locator("#lang").click();
-      if ((await page.locator("#theory").innerText()).trim() !== russianTheory ||
+      if ((await page.locator("#theory").innerText()).trim() !== russianTheory.replace("моль", "mol") ||
           !(await page.locator("#left").innerText()).includes("No excess reactant remains")) {
         errors.push(file + ": language switching must preserve the exact stoichiometric result and translate its explanation");
       }
