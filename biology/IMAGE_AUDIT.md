@@ -933,3 +933,14 @@ Retrieved the fresh 26-screenshot artifact from successful Chromium workflow [42
 Corrected `fauna-osh-southern-habitats.svg`: aligned all three bilingual species-caption pairs at y=470/493; moved the foreground curves to y=514 and reduced their stroke width to 10 px so the strokes remain inside the panel and leave clear separation beneath the captions. Added source regression assertions for both caption baselines and the revised foreground geometry in `checks.mjs`.
 
 The source/check changes are committed in `2e900ed9` and `42bdcfec`. Follow-up Chromium screenshot inspection is pending in workflow [42161519371](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42161519371). Do not mark the Osh visual correction closed until the new desktop and mobile screenshots are inspected. Global Image Verification remains **Pending audit**.
+
+
+### Follow-up screenshot acceptance — Osh panel and responsive layout — 6 November 2026
+
+Inspected the fresh full-page desktop (1365 px) and mobile (390 px) Chromium screenshots from successful workflow [42161526691](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42161526691), HEAD `42bdcfec`.
+
+- The revised bear caption and lowered/thinner foreground strokes are now visually separated in the desktop screenshot; the three species captions remain inside their respective habitat panels.
+- The 390 px rendering retains all three panels in sequence and the bilingual labels remain present. This narrow screenshot is a full-page capture, so labels are small at page scale; no clipping was observed in the inspected figure crop.
+- The desktop crop exposed a second, distinct collision: the schematic-wide footer sentence at SVG y=632 sat too close to the three panel-specific source labels at y=620. Moved the footer to y=660 and reduced it to 13 px, retaining it inside the 675 px viewBox. Added a targeted regression assertion.
+
+The follow-up footer adjustment is committed in `92bc6fc6`; its check is in `ccc9ed64`. Await the new Chromium screenshot before closing the Osh visual item. Workflow [42161585774](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42161585774) is validating the preceding check commit; the newer code/check commits will trigger their own run. Global Image Verification remains **Pending audit**.
