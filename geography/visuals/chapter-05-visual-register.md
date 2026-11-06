@@ -11,6 +11,8 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 | 5.18-A | Synoptic map and climate analysis / Синоптическая карта и климатический анализ | Original bilingual synthetic SVG `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg` | Schematic low/high centres, closed isobars at 4 hPa intervals, cold/warm fronts, simplified station plots, and two synthetic climate graphs. No real place/date or observed data; not an operational weather map. Embedded in RU and EN sections. Scientific convention/data check PASS; project rightsholder/licence, accessibility and rendered QA remain pending. |
 
 | Visual | Subject | Asset and rights | Use limitation |
+| 5.10-A | Climate controls / Климатообразующие факторы | Original bilingual conceptual SVG `geography/visuals/chapter-05-climate-controls.svg` | Eight interacting factors; qualitative connectors only, no quantitative weights or single-factor causation. Embedded in RU and EN sections. |
+| 5.13-A | Microclimates and urban heat island / Микроклимат и городской остров тепла | Original bilingual conceptual SVG `geography/visuals/chapter-05-urban-microclimate-heat-island.svg` | Conceptual rural-to-urban cross-section; qualitative temperature profile, not measured data. Shows shade/evapotranspiration, heat storage, ventilation and mitigation. Embedded in RU and EN sections. |
 |---|---|---|---|
 | 5.12-A | Global climate belts / Климатические пояса мира | Original bilingual conceptual SVG `geography/visuals/chapter-05-global-climate-belts.svg` | Shows six broad latitudinal belts in both hemispheres; curved boundaries are schematic and reflect seasonal shifts and regional controls. Not a precise boundary map. Embedded in RU and EN chapter sections. |
 | 5.14-A | Atmospheric hazards / Опасные атмосферные явления | Original bilingual SVG `geography/visuals/chapter-05-atmospheric-hazards.svg` | Five hazard groups with concise general safety actions; explicitly directs readers to local official warnings and does not rank hazards. Embedded in RU and EN chapter sections. |
@@ -30,7 +32,7 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 | 5.17-A | Climate diagram exercise / Практика чтения климатограмм | Original bilingual SVG `geography/visuals/chapter-05-climate-diagram-exercise.svg` | Two synthetic monthly datasets illustrating continental and maritime patterns; all values are labelled as teaching data, not observations from real stations. Includes graph-reading and calculation tasks. Embedded in RU and EN chapter sections. |
 ## Pending / Ожидают подбора и проверки
 
-No named visual needs remain in this short production list. The chapter inventory still contains two unnamed visual-ID slots that must be reconciled before the chapter's full inventory can be called complete.
+All 19 unique named visual IDs are now integrated in both languages. The two former unassigned inventory positions are resolved as 5.10-A and 5.13-A. Legacy 5-A is an alias of 5.2-A and is not a separate visual.
 
 ## Acceptance criteria / Критерии приёмки
 
@@ -59,4 +61,12 @@ No named visual needs remain in this short production list. The chapter inventor
 
 ## 5.18-A integration checkpoint — 5 November 2026
 
-The 5.18-A placeholder has been replaced in both language sections by the original bilingual synthetic SVG. The diagram was created for this atlas after reviewing NOAA educational resources on synoptic meteorology and surface station plots; no NOAA map or third-party artwork was copied. All weather and climate values are synthetic. The map is not georeferenced, not tied to a date and not suitable for operational interpretation or forecasting. The two climate datasets have been checked: A totals 401 mm with a 32 °C annual temperature range; B totals 886 mm with a 14 °C range. Static SVG source checks and the scientific convention/data review passed. Project rights/licence, visual accessibility and deployed rendering remain open.
+The 5.18-A placeholder has been replaced in both language sections by the original bilingual synthetic SVG. The diagram was created for this atlas after reviewing NOAA educational resources on synoptic meteorology and surface station plots; no NOAA map or third-party artwork was copied. All weather and climate values are synthetic. The map is not georeferenced, not tied to a date and not suitable for operational interpretation or forecasting. The two climate datasets have been checked: A totals 364 mm with a 32 °C annual temperature range; B totals 925 mm with a 14 °C range. The precipitation bars were corrected on 6 November 2026 to match the monthly data table. Static SVG source checks and the scientific convention/data review passed. Project rights/licence, visual accessibility and deployed rendering remain open.
+
+
+## 6 November 2026 — final visual reconciliation
+
+- 5.10-A and 5.13-A are now integrated: original bilingual SVGs, embedded and captioned in both language sections.
+- 5.18-A precipitation bars were corrected against the tabulated monthly data. Correct annual sums are A 364 mm and B 925 mm; annual temperature ranges remain 32 °C and 14 °C.
+- The confirmed inventory is 19 unique IDs. The legacy label 5-A duplicates 5.2-A and is not a separate visual; the two formerly unassigned positions are resolved.
+- Rights for project-created SVGs, rendered contrast/assistive-technology review and production-reader desktop/mobile QA remain separate pending release tasks.
