@@ -662,3 +662,10 @@ Added a regression validator to chemistry/checks.mjs. It now checks:
 This is a structural integrity guard, not independent certification of each published atomic weight, isotope choice or chemical classification. Those values still need reconciliation against a named authoritative reference dataset, with source/version/date recorded. The periodic-table data review therefore remains open pending that provenance check and the fresh CI result.
 
 - Regression-check commit: 0a7e3d34d5bcce4e1b0beeae1a3d40eb4e6cef70.
+
+
+### CH-IV04 atomic-weight provenance follow-up — 6 November 2026
+
+Compared the periodic-table display against CIAAW *Standard Atomic Weights 2024* and IUPAC's explanatory periodic-table page. Three entries required correction: Ar 39.948 → 39.792–39.963; Pb 207.2 → 206.14–207.94; Zr 91.224 → 91.222 following the 2024 CIAAW revision. Gd (157.25) and Lu (174.97) were already consistent with rounding the revised values.
+
+The explanatory note now distinguishes natural-variation intervals from square-bracketed mass numbers. The data validator accepts decimal values, intervals and bracketed integer mass numbers. This is a targeted reconciliation, not a complete independent audit of all 118 isotope assignments or every uncertainty/footnote. Fresh branch-head CI remains necessary.
