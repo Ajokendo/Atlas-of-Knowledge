@@ -1,5 +1,6 @@
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
+import { mkdirSync } from 'node:fs';
 
 const moduleName = process.env.MODULE;
 const expectedPages = Number(process.env.EXPECTED_PAGES);
@@ -8,6 +9,8 @@ if (!moduleName || !Number.isInteger(expectedPages) || expectedPages < 2) {
 }
 
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
+const screenshotDir = process.env.SCREENSHOT_DIR;
+if (screenshotDir) mkdirSync(screenshotDir, { recursive: true });
 const browser = await chromium.launch({ headless: true, args: ['--enable-webgl', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--use-gl=angle', '--use-angle=swiftshader'] });
 const failures = [];
 
@@ -53,6 +56,10 @@ async function run(mobile) {
       }
       if (!(await page.locator('#sheet h1').innerText()).trim()) throw new Error(`page ${i + 1} has no title`);
       if (!(await page.locator('#readout').innerText()).trim()) throw new Error(`page ${i + 1} has no live readout`);
+      if (screenshotDir) {
+        const suffix = String(i + 1).padStart(2, '0');
+        await page.screenshot({ path: `${screenshotDir}/${moduleName}-${mobile ? 'mobile' : 'desktop'}-${suffix}.png`, fullPage: true });
+      }
     }
 
     const picker = page.locator('select.scene-picker');
