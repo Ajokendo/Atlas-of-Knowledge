@@ -1187,7 +1187,7 @@ for (const [file, oldPath] of [
 
 // Acid-base neutralisation figures: graph captions and model panel must be separate and visible in both languages.
 const acidBaseDiagramRequirements = [
-  ["acid-base-neutralisation-ru.svg", ["точка эквивалентности", "pH эквивалентности ≈ 7", "translate(550 260)", "Base added"], ["y=\"435\""]],
+  ["acid-base-neutralisation-ru.svg", ["точка эквивалентности", "pH эквивалентности ≈ 7", "translate(550 260)", "Добавление основания"], ["y=\"435\""]],
   ["acid-base-neutralisation.svg", ["Idealised titration curve", "Brønsted–Lowry model", "Ideal model: equivalence pH ≈ 7.", "translate(550 260)", "Base added"], ["x=\"535\" y=\"430\""]]
 ];
 for (const [file, required, forbidden] of acidBaseDiagramRequirements) {
