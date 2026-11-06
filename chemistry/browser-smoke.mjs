@@ -1620,8 +1620,8 @@ try {
     if (file === "virtual-lab.html") {
       const beaker = page.locator("#beakerWrap");
       if (await beaker.getAttribute("role") !== "img" ||
-          !(await beaker.getAttribute("aria-describedby") || "").split(/\\s+/).includes("ph") ||
-          !(await beaker.getAttribute("aria-describedby") || "").split(/\\s+/).includes("condition")) {
+          !(await beaker.getAttribute("aria-describedby") || "").split(/\s+/).includes("ph") ||
+          !(await beaker.getAttribute("aria-describedby") || "").split(/\s+/).includes("condition")) {
         errors.push(file + ": beaker graphic must expose its live pH and solution-state descriptions");
       }
       if (!(await beaker.getAttribute("aria-label") || "").includes("Виртуальный сосуд")) {
@@ -1689,7 +1689,7 @@ try {
       }
       await page.locator("#lang").click();
       if (!(await beaker.getAttribute("aria-label") || "").includes("virtual beaker") ||
-          !(await beaker.getAttribute("aria-describedby") || "").split(/\\s+/).includes("ph")) {
+          !(await beaker.getAttribute("aria-describedby") || "").split(/\s+/).includes("ph")) {
         errors.push(file + ": beaker accessible name and description must remain localized and connected in English");
       }
       const englishEquivalence = (await page.locator("#status").innerText()).trim();
