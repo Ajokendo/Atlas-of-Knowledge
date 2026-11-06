@@ -34,7 +34,7 @@ def main() -> int:
             ('<p>' + html.escape(credit) + '</p>' if credit else '') + '</figcaption></figure>'
         )
     counts = Counter(IMAGE.findall(source))
-    if len(blocks) != 56 or len(counts) != 28 or any(n != 2 for n in counts.values()):
+    if len(blocks) != 56 or len(counts) != 36 or any(n != 2 for n in counts.values()):
         print(f"FAIL: embeds={len(blocks)}, unique URLs={len(counts)}, frequencies={sorted(Counter(counts.values()).items())}")
         return 1
     output = Path(sys.argv[1] if len(sys.argv) > 1 else "/tmp/geography-chapter-02-preview.html")
