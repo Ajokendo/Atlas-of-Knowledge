@@ -232,16 +232,16 @@ The registered authored SVG collection contains seven responsive desktop/mobile 
 - A new `all-book-visual-capture` CI job now captures every interactive-book page and every standalone chapter page at desktop and mobile sizes. The current-HEAD workflow is pending; its artifacts must be manually inspected before any chapter-wide visual coverage claim is made.
 
 ### Findings and corrections
-- Chapter 2: several Newton-scene force labels collide with arrows/objects; the tension scene clips upper elements; the bottom hint can overlap the live readout. These remain open for a dedicated scene-layout correction.
+- Chapter 2: manual full-size review of desktop artifact 13504574911 confirms the tension scene clips the upper T₁/T₂ arrowheads and the bottom interaction hint overlaps the live readout. Corrected the camera framing (target/elevation/distance) in `f02f1a5d` and hid the redundant bottom hint on desktop widths up to 1600 px in `96e9d39a`; fresh screenshot verification is pending. Other Newton scenes still require scene-by-scene label review.
 - Chapter 4: mobile pages 4.7 and 4.10 frame their graph panels too tightly; axis labels and parts of the graph are clipped. These remain open.
-- Chapter 6: the new oscillation-regimes SVG pair is integrated, but manual desktop/mobile screenshots are pending. The latest isolated lesson check also reports that the damping/forced-oscillation explanation is missing the expected F₀ notation; this needs content/render reconciliation.
+- Chapter 6: the oscillation-regimes SVG pair is integrated. The isolated browser check's F₀ failure is a test-format mismatch: HTML `<sub>0</sub>` is extracted as `F0`, and the equation plus its definition are present in the lesson. Corrected the expected test token in `1911cd3d`; rerun pending.
 - Chapter 7: the torque/ring-disc/skater SVG pair is integrated, but no desktop/mobile screenshot review or project-owner publication-licence decision is recorded; scientific review by a competent second reviewer is also pending.
 - Chapters 5 and 8–13: no page-by-page manual screenshot review is recorded in this audit yet. Their interactive scenes are included in the newly added all-chapter capture job.
 - Chapter 14 / PHY-14-001: the desktop toroid current-direction note extended beyond its panel in artifact 13499898884. Corrected in `f45f8667`; fresh desktop/mobile rendering pending.
 - Chapter 15 / PHY-15-001: the desktop lower magnetic-field curve crossed explanatory text. Corrected in `4017d8d0`; fresh rendering pending.
 - Chapter 15 / PHY-15-002: the mobile introductory/explanatory lines were clipped and the q(v×B)/v labels were crowded. Corrected in `af5ec5fc`; fresh rendering pending.
 - Chapter 15 / PHY-15-003: desktop LC chart labels were crowded. Corrected in `02d57b74`; fresh rendering pending.
-- Chapter 14 / PHY-14-LORENTZ-RHR-RU-01: desktop and mobile screenshots were legible and correctly represented the force directions; visual/technical check passed in run 42214764837. A competent second reviewer distinct from the creator is not yet documented.
+- Chapter 14 / PHY-14-LORENTZ-RHR-RU-01: desktop and mobile screenshots were legible and correctly represented the force directions; visual/technical check passed in run 42214764837. The desktop dynamic test compared two rounded text snapshots and failed once although mobile passed; updated it to assert the animated SVG cursor instead (`c670ab7e`). Rerun pending. A competent second reviewer distinct from the creator is not yet documented.
 
 ### Verification boundary
 The visual checks performed in this audit are internal authoring/QA checks, not an independent scientific approval. Under `IMAGE_FIRST_POLICY.md` v1.2 and `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.1, Category C assets remain `INTEGRATED`, not `VERIFIED`, until a competent reviewer distinct from the creator is recorded. External specialist review remains optional; it is not a universal publication gate.
