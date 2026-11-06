@@ -1185,7 +1185,7 @@ const regionalFaunaSvgChecks = [
   { file: "fauna-osh-southern-habitats.svg", required: ["three separate habitat panels", "do not imply that the animals occur together at one site", "Tian Shan brown bear", "Snow leopard", "Siberian ibex"] },
   { file: "fauna-osh-southern-habitats.svg", required: ['y="470"', 'y="493"', "M15 514 Q80 498 140 514", 'stroke-width="10"'] },
   { file: "fauna-osh-southern-habitats.svg", required: ['y="660" text-anchor="middle"', 'font-size="13" fill="#455b55"'] },
-  { file: "fauna-talas-besh-tash.svg", required: ["Three separate scenes", "generic fish silhouette", "no species label", "not a distribution map"] },
+  { file: "fauna-talas-besh-tash.svg", required: ["Three separate scenes", "generic fish silhouette", "no species label", "not one photograph or a distribution map"] },
   { file: "fauna-herps-habitats.svg", required: ["Two separate natural-history habitat scenes", "Neither animal is assigned a species name or precise locality", "generic green toad", "generic lizard"] }
 ];
 for (const check of regionalFaunaSvgChecks) {
