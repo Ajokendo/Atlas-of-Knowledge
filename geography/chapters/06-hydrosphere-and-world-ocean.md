@@ -80,9 +80,9 @@
 
 ## 6.3. Мировой океан: единая система / The World Ocean as an Integrated System
 
-![Карта показывает расположение пяти океанов в обобщённом виде. Контуры материков и океанические подписи служат ориентиром; границы не являются точной гидрографической делимитацией и карта не предназначена для навигации.](../assets/06-3-B-five-oceans-bilingual.svg)
+![Карта океанов: Pinpin (2007), улучшения Wikigraphists; Wikimedia Commons, CC BY-SA 3.0. Подписи на карте даны по-английски и переведены в тексте; границы условны и не являются универсально согласованной делимитацией. / Ocean map by Pinpin (2007), later improvements by Wikigraphists; Wikimedia Commons, CC BY-SA 3.0. Map labels are in English and translated in the text; boundaries are conventional and not universally agreed.](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/World_map_ocean_locator-en.svg/960px-World_map_ocean_locator-en.svg.png)
 
-*Карта показывает расположение пяти океанов в обобщённом виде. Контуры материков и океанические подписи служат ориентиром; границы не являются точной гидрографической делимитацией и карта не предназначена для навигации. / Generalized orientation map of the five oceans. Continents and labels are schematic; boundaries are not a precise hydrographic delimitation and the map is not for navigation.*
+*Карта показывает расположение пяти океанов в обобщённом виде. Контуры материков и океанические подписи служат ориентиром; границы не являются точной гидрографической делимитацией и карта не предназначена для навигации. / Ocean map by Pinpin (2007), later improvements by Wikigraphists; Wikimedia Commons, CC BY-SA 3.0. Map labels are in English and translated in the text; boundaries are conventional and not universally agreed.*
 > **EN:** Map of the five oceans identifying the hydrographic classification used and the boundary of the Southern Ocean.
 
 *Картографическая основа-кандидат: Flanders Marine Institute, Global Oceans and Seas v1 (2021), DOI [10.14284/542](https://doi.org/10.14284/542), CC BY 4.0; слой `MarineRegions:goas` доступен через [WFS GeoServer VLIZ](https://geo.vliz.be/geoserver/MarineRegions/ows). Слой включает десять океанических и морских регионов, поэтому итоговая карта должна явно объяснить, как из этой классификации выделяются пять океанов. Линия Южного океана будет обозначена как конвенция набора данных, а не как универсально утверждённая граница IHO. Это пока источник геометрии-кандидат, а не готовая или проверенная карта. / **EN:** Candidate cartographic base: Flanders Marine Institute, Global Oceans and Seas v1 (2021), DOI [10.14284/542](https://doi.org/10.14284/542), CC BY 4.0; layer `MarineRegions:goas` is exposed through the [VLIZ WFS GeoServer](https://geo.vliz.be/geoserver/MarineRegions/ows). The layer contains ten ocean and sea regions, so the final map must explain how the five-ocean classification is derived from it. The Southern Ocean line will be identified as the dataset's convention, not a universally ratified IHO boundary. This is a candidate geometry source, not a completed or verified map.
@@ -579,7 +579,7 @@ The cycle operates at different scales:
 
 ### 6.3. The World Ocean as an Integrated System
 
-![Generalized orientation map of the five oceans. Continents and labels are schematic; boundaries are not a precise hydrographic delimitation and the map is not for navigation.](../assets/06-3-B-five-oceans-bilingual.svg)
+![Generalized orientation map of the five oceans. Continents and labels are schematic; boundaries are not a precise hydrographic delimitation and the map is not for navigation.](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/World_map_ocean_locator-en.svg/960px-World_map_ocean_locator-en.svg.png)
 
 *Generalized orientation map of the five oceans. Continents and labels are schematic; boundaries are not a precise hydrographic delimitation and the map is not for navigation.*
 
