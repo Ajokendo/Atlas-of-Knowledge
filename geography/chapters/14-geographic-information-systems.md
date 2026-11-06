@@ -265,7 +265,7 @@ GNSS is the general term for satellite navigation systems. GPS is one such syste
 - дату обновления данных;
 - правила обработки персональных данных.
 
-Для анализа доступности услуг точка геокодированного адреса не всегда равна фактическому входу или маршруту движения.
+Для анализа доступности услуг точка геокодированного адреса не всегда равна фактическому входу или маршруту движения. Оценка совпадения (match score) или метка «точный адрес» у конкретного сервиса не заменяет визуальную и полевую проверку: результат может быть интерполированной точкой на улице, центроидом здания или участком с неполной адресной нумерацией. При массовом геокодировании адресов людей проверьте условия сервиса, правовое основание передачи данных и возможность обработки персональных данных вне вашей организации.
 
 
 **Geocoding** converts a textual description of a location, such as an address or place name, into coordinates. Reverse geocoding links coordinates to a nearby address or geographic description.
@@ -277,7 +277,7 @@ A geocoding result may be ambiguous. An address may correspond to a building, an
 - the date when the data were updated; and
 - the rules for processing personal data.
 
-For service-accessibility analysis, a geocoded address point is not necessarily the actual entrance or a point on the route people use.
+For service-accessibility analysis, a geocoded address point is not necessarily the actual entrance or a point on the route people use. A match score or a provider's “exact address” label does not replace visual or field verification: a result may be an interpolated street point, a building centroid or a location in an area with incomplete address numbering. For bulk geocoding of people's addresses, check the provider's terms, the legal basis for transferring the data and whether personal data may be processed outside your organisation.
 
 ## 14.8. Пространственные запросы и операции / Spatial Queries and Operations
 
@@ -331,7 +331,7 @@ For example, to assess access to healthcare facilities, an analyst can create zo
 
 «Кратчайший» маршрут не всегда является «быстрейшим»: стоимость перемещения может учитывать скорость, ограничения поворотов, пробки, уклоны, качество покрытия, сезонность и другие факторы.
 
-Результаты сетевого анализа зависят от полноты сети, направления движения, правил связности и актуальности атрибутов. Отсутствие дороги в базе не обязательно означает отсутствие реального пути.
+Результаты сетевого анализа зависят от полноты сети, направления движения, правил связности и актуальности атрибутов. Отсутствие дороги в базе не обязательно означает отсутствие реального пути. Важно также проверить привязку начальных и конечных точек к сети: некоторые инструменты автоматически «прищёлкивают» удалённую точку к ближайшему сегменту. Если не задать допустимое максимальное расстояние, точка может оказаться привязанной к неверной дороге через реку, ограждение или другой барьер. Проверьте допуск привязки, направленность рёбер, запреты поворотов, непроходимые участки и объекты, которые алгоритм не смог включить в маршрут.
 
 
 Network analysis studies movement through connected lines and nodes such as roads, streets, railways, pipelines and other networks.
@@ -346,7 +346,7 @@ Common tasks include:
 
 The “shortest” route is not always the “fastest”. A travel-cost model may take account of speed, turn restrictions, congestion, slope, road-surface quality, seasonality and other factors.
 
-Network-analysis results depend on network completeness, travel direction, connectivity rules and the currency of attributes. A road missing from a database does not necessarily mean that no real route exists.
+Network-analysis results depend on network completeness, travel direction, connectivity rules and the currency of attributes. A road missing from a database does not necessarily mean that no real route exists. Also check how start and end points are connected to the network: some tools automatically snap a point to the nearest segment. Without a maximum permitted distance, a point may be attached to the wrong road across a river, fence or other barrier. Check the snapping tolerance, edge direction, turn restrictions, impassable segments and any input features that the algorithm could not route.
 
 ## 14.10. Анализ растров и пространственное моделирование / Raster Analysis and Spatial Modelling
 
@@ -422,6 +422,8 @@ Before processing, check the units of horizontal coordinates and elevation. If h
 
 **Точность** и **разрешение** — разные характеристики. Набор данных может иметь высокое пространственное разрешение, но низкую позиционную точность или устаревшие атрибуты.
 
+Оценка качества начинается с требований задачи: сначала определяют, какие ошибки допустимы для конкретного применения, затем выбирают показатели и контрольные данные. Универсального порога «хорошего качества» для всех задач нет. Например, слой масштаба района может подходить для регионального планирования, но быть непригодным для определения положения конкретного здания. Топологическое правило должно соответствовать назначению слоя: например, висячая линия может быть ошибкой в непрерывной дорожной сети, но допустимым концом тупика; зазор между полигонами может быть ошибкой покрытия территории, но допустимым водным объектом или исключённой зоной. Исправлять геометрию автоматически без проверки смысла нельзя.
+
 
 Topology describes spatial relationships among features, including adjacency, connectivity, containment and intersection.
 
@@ -441,6 +443,8 @@ Spatial-data quality includes:
 - fitness for the intended task.
 
 **Accuracy** and **resolution** are different characteristics. A dataset may have high spatial resolution but low positional accuracy or outdated attributes.
+
+Quality assessment starts with the requirements of the intended use: define which errors are tolerable, then select measures and reference data. There is no universal threshold for “good quality” across all applications. A dataset suitable for regional planning may be unsuitable for locating an individual building. A topology rule must match the purpose of the layer. A dangling line may be an error in a continuous road network but a valid dead end; a gap between polygons may indicate a coverage error or represent a water body or excluded area. Do not repair geometry automatically without checking its meaning.
 
 ## 14.12. Метаданные, стандарты и совместимость / Metadata, Standards and Interoperability
 
@@ -502,7 +506,7 @@ A file format or standard interface alone does not guarantee quality or interope
 
 Хороплетная карта должна использовать нормированные показатели, например долю или плотность, а не абсолютные величины, если площади территорий и численность населения существенно различаются. Для абсолютных значений могут лучше подходить пропорциональные символы.
 
-Следует избегать ложной точности, чрезмерного числа классов, визуально вводящих в заблуждение цветовых шкал и обрезания важных географических контекстов.
+Следует избегать ложной точности, чрезмерного числа классов, визуально вводящих в заблуждение цветовых шкал и обрезания важных географических контекстов. Для хороплетов укажите знаменатель нормирования (например, население, площадь или число домохозяйств), период и метод классификации. Квантили, равные интервалы и естественные разрывы по-разному распределяют территории по классам; смена метода или границ классов может изменить визуальный вывод, даже если исходные значения не изменились. Не сравнивайте карты разных лет или регионов без проверки сопоставимости показателя, границ и метода классификации.
 
 
 A map communicates spatial information; it is not merely a picture of data. Its design should match the purpose, audience and scale.
@@ -526,7 +530,7 @@ The choice of display method depends on the data:
 
 A choropleth map should normally use normalised indicators, such as a share or density, rather than absolute totals when areas and populations differ substantially. Proportional symbols may be more appropriate for absolute values.
 
-Avoid false precision, too many classes, visually misleading colour schemes and the removal of important geographic context.
+Avoid false precision, too many classes, visually misleading colour schemes and the removal of important geographic context. For a choropleth, state the normalisation denominator (for example, population, area or number of households), reference period and classification method. Quantiles, equal intervals and natural breaks distribute areas among classes differently; changing the method or class boundaries can change the visual message even when the underlying values have not changed. Do not compare maps from different years or regions without checking that the indicator, boundaries and classification method are comparable.
 
 ## 14.14. Веб-ГИС, облачные платформы и открытые данные / Web GIS, Cloud Platforms and Open Data
 
@@ -1160,6 +1164,9 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 26. QGIS Documentation. **Datum Transformations.** Explains available coordinate operations, stated accuracy, areas of use, required transformation grids and fallback settings. https://docs.qgis.org/3.44/en/docs/user_manual/working_with_projections/working_with_projections.html#datum-transformations
 27. Open Geospatial Consortium. **OGC API – Features Standard.** Part 1 Core uses WGS 84 longitude/latitude; Part 2 extends support to other CRSs. https://www.ogc.org/standards/ogcapi-features/
 28. International Organization for Standardization. **ISO 19115-1:2014 — Geographic information — Metadata — Part 1: Fundamentals.** Metadata schema for geographic information and services. https://www.iso.org/standard/53798.html
+29. International Organization for Standardization. **ISO 19157-1:2023 — Geographic information — Data quality — Part 1: General requirements.** Principles, components, evaluation procedures and reporting of geographic data quality. https://www.iso.org/standard/78900.html
+30. QGIS Documentation 3.44. **Network analysis.** Service-area and shortest-path algorithms; snapping tolerance and maximum distance from a network. https://documentation.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/networkanalysis.html
+31. QGIS Documentation 3.44. **Topology.** Topological relationships, digitising errors and data-model-dependent validation. https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/topology.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
