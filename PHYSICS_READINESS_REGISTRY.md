@@ -175,3 +175,10 @@ HEAD: `ffd170b707911db0500c5a442d1d4efc1df7f9f0`
 - Отредактированы основная страница, тексты 11 страниц интерактивной книги и 22 практических задания: определения, векторные величины и проекции, единицы коэффициентов, движение по вертикали и под углом, относительная скорость, переправа, переменное ускорение, производные и терминология средней скорости.
 - Готовность по прежней шкале остаётся **59%**. Ранее подтверждены JavaScript и physics invariants на SHA `1f79602`; более ранний desktop/mobile тест главы 1 на SHA `02b34be` прошёл и скриншоты были загружены. Новые изменения после этих SHA ещё ждут повторных проверок.
 - На текущем HEAD `3930bec` запущены общие проверки: Validate JavaScript `42223356071`, Physics engine checks `42223356194`, browser smoke `42223356072`; результаты ещё не получены.
+
+
+### CI update — Chapters 1 and 2
+
+- Code commit `3930bec1975443065d157fc0a8e0089049793f65`: Validate JavaScript run `42223356071` — success; Physics engine checks run `42223356194` — success, including Newton laws physics invariants. These checks also cover the unchanged kinematics model.
+- Browser smoke run `42223356072` remains queued. Dedicated Newton browser QA run `42223356189` remains queued with no jobs yet. No browser readiness points are added to either chapter.
+- Readiness unchanged: Chapter 1 **59%**; Chapter 2 **53%**.
