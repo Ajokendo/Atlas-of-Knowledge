@@ -897,3 +897,16 @@ CI run [42217107623](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs
 The browser assertion that previously expected a comma in the English Nernst result was corrected: English uses a decimal point and Russian uses a decimal comma. The current branch-head Chromium run now passes with that locale-specific assertion.
 
 **Disposition:** the latest code and browser regression suite are green, and the reviewed current screenshots show the targeted fixes rendered as intended. The 126-image archive is available for further per-image review; this entry does not claim manual pixel-level inspection of all 126 captures or every interactive state. Internal creator/provenance and licence evidence, any remaining in-scope science/source checks, final editorial approval and publication approval must be tracked on their own merits. External specialist/teacher assessment is a separate optional activity, not a project acceptance gate, as stated in the current project-boundary note at the top of this file.
+
+
+### Tablet-width rendered review — 6 November 2026
+
+Reviewed the 42 latest 768 CSS px screenshots (21 routes × RU/EN) from artifact `13503621473`.
+
+- [x] Scanned all 42 tablet captures in grouped overview sheets. No page-level horizontal overflow, missing section, broken illustration, or obvious language-layout divergence was identified in the overview.
+- [x] Inspected the Russian organic-chemistry chapter at full resolution: the nine-family functional-group diagram, comparison cards, explanatory notes and alkane-formula generator remain inside the page width; the formula output is visible.
+- [x] Inspected the English chemistry-of-life chapter at full resolution: biomolecule diagrams, explanatory notes, carbon-cycle figure and CO₂ slider/output remain in the page flow; no clipping or overlap was identified.
+- [x] Inspected the English chemical-reactions chapter at full resolution: atom-conservation schematic, reaction-pattern cards, equilibrium/enthalpy explanations and balancing exercise fit the tablet layout.
+- [x] Inspected the Russian glossary at full resolution: the two-column 102-entry layout remains within the viewport and the entries are not cut off. At 768 px the page is long and text is dense, but the two-column arrangement remains readable when viewed at normal page zoom; no confirmed layout defect was found.
+
+**Disposition:** tablet baseline visual review is complete at overview level for all 42 screenshots, with full-resolution checks of representative dense pages. This does not mean every text glyph in all 42 images has been proofread, and it does not certify physical tablets or every interactive state. No source changes were required by this review pass.
