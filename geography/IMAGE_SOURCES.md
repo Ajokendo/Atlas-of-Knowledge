@@ -1244,6 +1244,10 @@ Source: same RESOLVE Ecoregions 2017 layer; `REALM` field. All eight exact sourc
 **Generation workflow:** `.github/workflows/geography-chapter-07-resolve-maps.yml`; successful generation run: [42220904637](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42220904637). The workflow checks 14 biome categories and eight realm categories before committing generated maps to `workspace/geography`.
 
 
+## Geography Atlas-wide original-visual licence authority — 6 November 2026
+
+The project owner authorised CC BY-NC 4.0 for all original visual assets in the Geography Atlas that the project owns or is authorised to license, including future original visuals. This supersedes earlier asset-limited permissions. It does not change licences for third-party works, adaptations, source datasets or assets with unresolved provenance; those remain governed by their individual source terms and evidence. Apply the designation asset by asset only after confirming that the work is genuinely original and project-controlled.
+
 ## Chapter 07 — Visual 07-J: latitudinal zonation and altitudinal belts — 6 November 2026
 
 | Field | Record |
@@ -1254,5 +1258,5 @@ Source: same RESOLVE Ecoregions 2017 layer; `REALM` field. All eight exact sourc
 | Source basis | Original synthesis of the explanations in Chapter 07.7; no external map layer, measured elevation dataset, quantitative biome boundary or third-party artwork is embedded. |
 | Scientific scope | Generalised sequences only. The SVG states that boundaries are transitional and vary with latitude, moisture, aspect, relief and local circulation; it is not to scale and does not represent a specific mountain or region. |
 | Language/accessibility | Russian and English labels, bilingual title and description metadata, paired RU/EN chapter alt text. |
-| Rights | Original project-created asset. Asset-specific project licence designation is **PENDING**; it is not covered by the earlier six-asset CC BY-NC 4.0 authorisation. |
+| Rights | Original project-created asset, covered by the project owner's 6 November 2026 atlas-wide authorisation for eligible original Geography visuals: **CC BY-NC 4.0**, attribution “Atlas of Knowledge project”. Third-party source material is not relicensed by this standing authorisation. |
 | Technical status | Source-level XML/ARIA preflight completed; browser rendering, responsive/mobile, keyboard and screen-reader checks remain pending. |
