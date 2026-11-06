@@ -1390,3 +1390,12 @@ Older checkpoint entries that list independent specialists, school/teacher revie
 - The P1 mountain-mammal SVG was also inspected in the run #1575 desktop/mobile screenshots. Its responsive layout is accepted for those captures; its detailed species morphology and manual bilingual-semantic checks remain open. The asset audit and brief-review row now reflect the active SVG rather than the obsolete WebP candidate history.
 - These are asset-specific rendered-layout outcomes, not a new overall image-verification percentage. Production coverage remains 53/53; the internal editorial-readiness estimate remains 99/100. No blanket VERIFIED status is assigned.
 - Documentation-only follow-up CI runs #1578 and #1579 were still in progress at checkpoint time; #1577 completed successfully. Do not claim #1578/#1579 success until their conclusions are confirmed.
+
+
+## Bird habitat plate — internal responsive screenshot QA — 6 November 2026
+
+- SVG morphology refinement committed as `86ef1932` on `workspace/biology`: clearer soaring golden-eagle silhouette with golden nape and separated wing-feather cues; compact Himalayan snowcock silhouette with pale body and chestnut facial marks. No species labels were added to the generic lake waterfowl.
+- Full Biology Chromium workflow #1581 completed with `conclusion=success`: static validation, every-page browser smoke, and screenshot artifact upload all passed.
+- Retrieved and inspected the run #1581 desktop (1365 px) and mobile (390 px) fauna-page screenshots. The bird plate is legible at desktop scale, preserves the three separate habitats and bilingual explanatory caption, and has no page-level overflow. Mobile uses the intended horizontal-scroll viewport with bilingual hint; partial initial visibility is expected until the user scrolls the diagram.
+- Limited internal rendered-layout acceptance is recorded in `IMAGE_SCIENTIFIC_REVIEW.md`, `IMAGE_BRIEF_REVIEW.md` and `IMAGE_DISPOSITION_REGISTER.md`. This does not certify specimen-level morphology, diagnostic plumage, detailed feet/tarsi, rights clearance or all bilingual semantics. No asset was promoted to `VERIFIED`.
+- Continue with the next regional fauna visuals after targeted morphology/source notes; keep the global 53/53 production-coverage count, 99/100 editorial-readiness estimate and open image-review triage distinct.
