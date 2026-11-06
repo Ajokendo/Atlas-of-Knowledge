@@ -216,6 +216,14 @@ for (const chapter of coreChapters) {
   if (!/<span\s+class=["'][^"']*\bru\b/i.test(match[1])) errors.push("chapters/" + chapter + ": references missing Russian description");
   if (!/<span\s+class=["'][^"']*\ben\b/i.test(match[1])) errors.push("chapters/" + chapter + ": references missing English description");
 }
+const geneticsPage = fs.readFileSync(path.join(root, "chapters", "genetics.html"), "utf8");
+if (!geneticsPage.includes('M75 260q50-30 100 0t100 0') ||
+    !geneticsPage.includes('text x="500" y="272"') ||
+    !geneticsPage.includes('text x="500" y="289"') ||
+    !geneticsPage.includes("Simplified information flow; exceptions include reverse transcription")) {
+  errors.push("chapters/genetics.html: central-dogma replication curve and bilingual footer must remain spatially separated");
+}
+
 const floraKyrgyzstanFile = fs.readFileSync(path.join(root, "chapters", "flora-kyrgyzstan.html"), "utf8");
 if (!floraKyrgyzstanFile.includes("4 043 видов") || !floraKyrgyzstanFile.includes("4,043 species")) errors.push("chapters/flora-kyrgyzstan.html: the 2025 national vascular-plant total must be stated bilingually and with its scope");
 if (!floraKyrgyzstanFile.includes("Sennikov и соавторов (2025)") || !floraKyrgyzstanFile.includes("Sennikov and colleagues (2025)") || !floraKyrgyzstanFile.includes("doi.org/10.1002/njb.04731")) errors.push("chapters/flora-kyrgyzstan.html: the dated 2025 peer-reviewed vascular-flora checklist must be attributed and linked");
