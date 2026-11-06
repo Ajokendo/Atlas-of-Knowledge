@@ -1110,7 +1110,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 18. Scottish Government Design System. **Using colour in maps.** Guidance on choosing sequential, diverging and qualitative palettes and checking contrast/accessibility. https://designsystem.gov.scot/guidance/maps/using-colour-in-maps
 19. QGIS Documentation. **Setting a Colour Ramp.** Official description of sequential and other colour-ramp construction in QGIS. https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html
 20. QGIS Documentation. **Raster Terrain Analysis.** Official documentation of slope and aspect algorithms, output conventions and vertical scale factors. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html
-21. EPSG Geodetic Parameter Dataset. **WGS 84 (EPSG:4326).** CRS definition, axis order and area of use. https://epsg.org/crs_4326/WGS-84.html
+21. EPSG Geodetic Parameter Dataset. **WGS 84 (EPSG:4326).** CRS definition, formal latitude/longitude axis order and area of use; EPSG data record. https://epsg.io/4326
+22. Open Geospatial Consortium. **Web Map Service (WMS) Implementation Specification, Version 1.3.0.** Defines CRS axis-order requirements and explains the EPSG:4326 latitude/longitude order. https://docs.ogc.org/is/06-042/06-042.pdf
 
 ---
 **Конец главы 14 / End of Chapter 14**
