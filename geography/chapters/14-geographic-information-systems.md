@@ -172,6 +172,8 @@ Limitations include:
 
 **Порядок осей — отдельная проверка.** В официальном определении EPSG:4326 оси идут в порядке «широта, долгота», тогда как многие ГИС-интерфейсы, форматы и программные библиотеки для привычной пары x/y используют порядок «долгота, широта». Поведение зависит от формата и версии протокола или API. Поэтому нельзя определять порядок координат только по подписи EPSG:4326: нужно читать метаданные и документацию конкретного обменного формата или сервиса, а затем проверять контрольную точку. Перестановка осей может перенести объект в совершенно другой регион.
 
+**Преобразование между системами отсчёта.** Если исходная и целевая CRS основаны на разных геодезических датумах или реализациях, программное обеспечение должно применить координатную операцию (трансформацию), а не просто сменить подпись CRS. Между двумя CRS может существовать несколько допустимых операций с разной точностью и разными областями применения. Перед выбором проверьте область действия, заявленную точность, необходимые файлы сеток и эпоху координат, если система динамическая. Если требуемая сетка отсутствует, программа может предложить менее точный запасной вариант или предупредить о недоступности операции. Не принимайте автоматически первый вариант и не считайте перепроецирование «на лету» доказательством геодезической точности результата.
+
 **Axis order requires a separate check.** The formal EPSG:4326 definition lists its axes as latitude, longitude, while many GIS interfaces, formats and software libraries use longitude, latitude for the familiar x/y pair. Behaviour depends on the format and the version of the protocol or API. Do not infer coordinate order from the EPSG:4326 label alone: read the metadata and documentation for the specific exchange format or service, then test a known control point. Swapped axes can place a feature in a completely different region.
 
 ### Geographic and projected coordinate systems — English explanation
@@ -447,13 +449,13 @@ Spatial-data quality includes:
 Без метаданных пользователь может не знать, когда и каким методом получен слой, в какой системе координат он хранится и для каких задач пригоден.
 
 Международные стандарты и спецификации поддерживают совместимость:
-- стандарты ISO серии 19100 по географической информации;
+- стандарты ISO серии 19100 по географической информации; в частности, ISO 19115-1 описывает структуру метаданных для идентификации, охвата, качества, временных и пространственных характеристик, системы координат, представления и распространения геоданных;
 - спецификации Open Geospatial Consortium (OGC);
 - форматы GeoPackage, GeoTIFF, GeoJSON и другие;
 - традиционные веб-сервисы карт и объектов WMS и WFS;
 - современные веб-API OGC API — Features для доступа к пространственным объектам и OGC API — Maps для получения картографических изображений.
 
-WMS и WFS остаются широко используемыми стандартами, поэтому их необходимо уметь распознавать и документировать. Для новых веб-сервисов OGC рекомендует рассматривать современные OGC API: они используют ресурсно-ориентированную архитектуру и подходы REST/OpenAPI. При этом нельзя считать, что каждый существующий сервер уже поддерживает новые API или что все функции старых сервисов автоматически доступны в любой реализации новых стандартов.
+WMS и WFS остаются широко используемыми стандартами, поэтому их необходимо уметь распознавать и документировать. Для новых веб-сервисов OGC рекомендует рассматривать современные OGC API: они используют ресурсно-ориентированную архитектуру и подходы REST/OpenAPI. При этом нельзя считать, что каждый существующий сервер уже поддерживает новые API или что все функции старых сервисов автоматически доступны в любой реализации новых стандартов. При чтении OGC API — Features важно учитывать CRS: базовая часть Part 1 использует WGS 84 с порядком координат «долгота, широта», а Part 2 расширяет поддержку других систем координат. Это конкретный пример того, почему порядок осей следует проверять по спецификации API, а не выводить только из EPSG-кода.
 
 Формат файла и наличие стандартного интерфейса сами по себе не гарантируют качество и совместимость. При обмене данными следует проверять кодировку, CRS, типы геометрии, систему идентификаторов, ограничения атрибутов, реализацию конкретной версии стандарта и лицензию.
 
@@ -762,6 +764,8 @@ Latitude and longitude define a position on a reference ellipsoid and are usuall
 
 **Check axis order separately.** The formal EPSG:4326 definition lists latitude before longitude, while many GIS interfaces, data formats and software libraries use longitude, latitude for x/y coordinates. The order depends on the exchange format and protocol or API version. Read the relevant metadata and specification, and verify the order with a known control point rather than relying on the CRS label alone.
 
+**Coordinate transformations between reference systems.** When the source and target CRSs are based on different geodetic datums or realisations, software must apply a coordinate operation (transformation), not merely change the CRS label. More than one operation may be available, with different stated accuracies and areas of use. Before selecting one, check its area of use, stated accuracy, required grid files and coordinate epoch where a dynamic reference system is involved. If a required grid is unavailable, software may offer a less accurate fallback or warn that the operation cannot be used. Do not automatically accept the first option or treat on-the-fly reprojection as proof of geodetic accuracy.
+
 ### 14.5. Map Projections in GIS
 
 A map projection transforms coordinates on Earth's curved surface into a plane. Every projection distorts some properties, such as area, shape, distance or direction.
@@ -859,9 +863,9 @@ Metadata describe the content, origin, quality, structure, spatial coverage, tim
 
 Without metadata, users may not know when and how a layer was created, which CRS it uses or which tasks it is suitable for.
 
-International standards and specifications support interoperability. These include the ISO 19100 series on geographic information; Open Geospatial Consortium (OGC) specifications; formats such as GeoPackage, GeoTIFF and GeoJSON; legacy map and feature services such as WMS and WFS; and modern web APIs such as OGC API – Features for accessing spatial features and OGC API – Maps for retrieving map images.
+International standards and specifications support interoperability. These include the ISO 19100 series on geographic information, including ISO 19115-1, which defines a metadata schema for identification, extent, quality, temporal and spatial characteristics, coordinate reference, portrayal and distribution; Open Geospatial Consortium (OGC) specifications; formats such as GeoPackage, GeoTIFF and GeoJSON; legacy map and feature services such as WMS and WFS; and modern web APIs such as OGC API – Features for accessing spatial features and OGC API – Maps for retrieving map images.
 
-WMS and WFS remain widely used and should still be recognised and documented. For new web services, OGC encourages consideration of modern OGC APIs, which use resource-oriented architecture and REST/OpenAPI approaches. However, not every existing server supports the newer APIs, and capabilities of legacy services are not automatically available in every implementation of a newer standard.
+WMS and WFS remain widely used and should still be recognised and documented. For new web services, OGC encourages consideration of modern OGC APIs, which use resource-oriented architecture and REST/OpenAPI approaches. However, not every existing server supports the newer APIs, and capabilities of legacy services are not automatically available in every implementation of a newer standard. For OGC API – Features, the CRS detail matters: Part 1 (Core) uses WGS 84 with longitude/latitude axis order, while Part 2 extends support to other coordinate reference systems. This is a concrete example of why axis order must be checked against the API specification rather than inferred from an EPSG code alone.
 
 Neither a file format nor the presence of a standard interface guarantees data quality or interoperability. When exchanging data, check encoding, CRS, geometry types, identifier systems, attribute constraints, the specific standard version and implementation, and licence conditions.
 
@@ -1149,6 +1153,9 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 23. QGIS Documentation. **GDAL Raster Analysis.** Documents slope output in degrees or percent and the vertical-to-horizontal scale parameter. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/gdal/rasteranalysis.html
 24. Kyrgyz Republic. **Digital Code**, 31 July 2025, No. 178, Chapter 12, Articles 92–98. Official published text. https://reestr.dpa.gov.kg/ru/npa/59
 25. Kyrgyz Republic. **Law No. 58, On Geodesy, Cartography and Spatial Data**, 29 April 2026. Official Ministry of Justice legal database. https://cbd.minjust.gov.kg/230045410/edition/52293/ru
+26. QGIS Documentation. **Datum Transformations.** Explains available coordinate operations, stated accuracy, areas of use, required transformation grids and fallback settings. https://docs.qgis.org/3.44/en/docs/user_manual/working_with_projections/working_with_projections.html#datum-transformations
+27. Open Geospatial Consortium. **OGC API – Features Standard.** Part 1 Core uses WGS 84 longitude/latitude; Part 2 extends support to other CRSs. https://www.ogc.org/standards/ogcapi-features/
+28. International Organization for Standardization. **ISO 19115-1:2014 — Geographic information — Metadata — Part 1: Fundamentals.** Metadata schema for geographic information and services. https://www.iso.org/standard/53798.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
