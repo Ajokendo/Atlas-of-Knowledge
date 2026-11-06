@@ -1684,3 +1684,14 @@ This section supersedes the earlier **PENDING** hosted-CI and **BLOCKED** isolat
 - Screen-reader announcement quality, zoom/reflow beyond the tested widths, image fallback behaviour and production performance: **NOT TESTED**.
 
 The Chapter 02 visual replacement milestone remains **11/11 complete**. Browser QA has advanced from pending to passed for the isolated preview, but production publication readiness is not certified by this test alone.
+
+
+## Chapter 02 — NOAA atmospheric image endpoints replaced with verified NASA assets — 6 November 2026
+
+- Replaced both NOAA image endpoints that returned HTTP 403 to the hosted runner: visual 2-B (atmospheric layers) and 2.3-A (temperature profile).
+- **2-B:** NASA Goddard, “1 atmosphere layers.png”, 20 July 2010; Wikimedia Commons file uploaded 22 April 2024; 1,148 × 766 px. The exact Commons file page records NASA Goddard as author/source and Public Domain in the United States as a U.S. government work. The image was visually inspected. It labels the five major layers and the ionosphere and shows example phenomena; the visible altitude scale ends at 400 km, so the caption explicitly notes that it does not show the full extent of the exosphere. Used unchanged in the bilingual chapter.
+- **2.3-A:** NASA, “Properties of Earth’s Upper Atmosphere”, 20 July 2010; graphic credit John Emmert / Naval Research Laboratory; Wikimedia Commons file uploaded 19 June 2024; 1,041 × 732 px. The exact Commons page records NASA as author and Public Domain in the United States as a U.S. government work. The image was visually inspected. It shows temperature curves for solar minimum and maximum, gas-density curves and spectral bands; it depicts the four lower layers through the thermosphere, not the exosphere. Used unchanged in the bilingual chapter.
+- Both figures retain bilingual alt text and now link to exact Commons file pages and the NASA source pages. The U.S.-jurisdiction scope of the Public Domain determination is stated in each caption.
+- Re-fetched the updated chapter source and confirmed 56 embeds, 28 unique HTTPS URLs, all URLs paired twice, 56 non-empty alt texts, no local images and no retired SVG references.
+- The subsequent image-integrity workflow [run 42159039628](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42159039628) completed **SUCCESS**: **28 PASS, 0 WARN, 0 FAIL**. Both new NASA-derived Commons image endpoints returned HTTP 206 with image content type to the GitHub runner. This resolves the earlier three endpoint warnings at the source-probe level.
+- A strengthened browser workflow is now checking actual Chromium image decoding (56/56), in addition to responsive layout and keyboard navigation. Record its result in a further checkpoint; do not assume image decoding from HTTP status alone.
