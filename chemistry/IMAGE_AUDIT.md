@@ -775,3 +775,19 @@ This closes the periodic-table scroll-hint and focused-region keyboard-scroll re
 - [ ] Creator/rightsholder and licensing authority remain unresolved for all 12 static visual families and all 7 interactive code systems. No licence is inferred from repository commit authorship or non-commercial intent. The rights gate remains a publication blocker under the governing standard.
 
 **Disposition:** 72/72 screenshots captured and included in the overview scan; do not convert this capture count into 72/72 manually verified assets. Static source review remains 12/12; interactive source review remains 7/7 first-pass; full seven-gate VERIFIED count remains 0/12 static and 0/7 interactive until the outstanding evidence and sign-offs are recorded.
+
+
+## Targeted full-resolution mobile review — 6 November 2026
+
+Latest baseline screenshot set: CI run [42176517754](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42176517754), commit `7e45f979bdbd68acd629ff9284b233be3a429c2d`, artifact `13483631328` (72 PNGs).
+
+Inspected selected English/Russian 390 CSS px screenshots at full resolution:
+
+- [x] CH-IV03 chemical-bonding page (EN): all three model selectors, ionic diagram, equations and comparison table remain within the viewport; table is dense at phone width but no horizontal clipping is visible in the captured baseline.
+- [x] CH-V05 solution page (RU): concentration calculator, saturation-state SVG, explanatory cards and solubility-product equations remain within the viewport; no obvious clipping in the captured baseline.
+- [x] Stoichiometry tool (EN): coefficient/amount inputs, limiting-reactant result, excess amount and explanatory sequence are visible in a single-column layout without horizontal overflow.
+- [x] Reaction trainer (EN): all coefficient inputs and action buttons fit the task panel; progress and solved-count regions remain visible.
+
+**Scope limitation:** these are four selected baseline screenshots, not a complete per-asset sign-off, not a check of every interactive state, and not a physical-device/assistive-technology test. The remaining 68 captures are available in the same artifact; visual review remains ongoing. No rights or licence gate is changed by this display review.
+
+CI status for the latest documentation commit: run [42176517754](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42176517754) **PASS** (static validation, Chromium page tests and screenshot upload).
