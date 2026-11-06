@@ -669,3 +669,12 @@ This is a structural integrity guard, not independent certification of each publ
 Compared the periodic-table display against CIAAW *Standard Atomic Weights 2024* and IUPAC's explanatory periodic-table page. Three entries required correction: Ar 39.948 → 39.792–39.963; Pb 207.2 → 206.14–207.94; Zr 91.224 → 91.222 following the 2024 CIAAW revision. Gd (157.25) and Lu (174.97) were already consistent with rounding the revised values.
 
 The explanatory note now distinguishes natural-variation intervals from square-bracketed mass numbers. The data validator accepts decimal values, intervals and bracketed integer mass numbers. This is a targeted reconciliation, not a complete independent audit of all 118 isotope assignments or every uncertainty/footnote. Fresh branch-head CI remains necessary.
+
+
+### CH-IV06 / CH-IV07 focused calculation-boundary review — 6 November 2026
+
+**CH-IV06 — ideal-gas calculator:** rechecked the displayed equation and implementation. The constant 8.314462618 is dimensionally consistent with kPa·L·mol⁻¹·K⁻¹ when pressure is displayed in kPa and volume in litres. The calculation converts the slider's Celsius input to kelvin before evaluating (P=nRT/V). The permitted temperature range (−100 to 300 °C) stays above absolute zero; amount and volume controls remain positive. The particle graphic changes only its schematic count with amount of substance and explicitly disclaims density, speed, trajectories and collisions. No calculation defect was identified in this source pass.
+
+**CH-IV07 — acid/base virtual lab:** rechecked conversion of mL to L, stoichiometric mole comparison, total solution volume, and both sides of equivalence. The pH calculation uses the dominant-ion approximation ((C_{excess}+\sqrt{C_{excess}^{2}+4K_w})/2) with (K_w=10^{-14}) at 25 °C; at equivalence it returns pH 7 under the stated idealised assumptions. Numeric inputs are bounded and invalid values produce a guarded message instead of a numeric result. The model is explicitly limited to strong monoprotic acid + strong monobasic base, dilute ideal solutions, 25 °C and additive volumes. No source-level calculation defect was identified in this pass.
+
+Added static regression guards in `checks.mjs` for the gas-law units/Kelvin conversion/input domain/visual limitation text and for the neutralisation model's input bounds, mole/volume accounting, equivalence branch and water-autoionisation term. These are source-contract checks, not a substitute for a full independent numerical test matrix or hands-on browser/device review.
