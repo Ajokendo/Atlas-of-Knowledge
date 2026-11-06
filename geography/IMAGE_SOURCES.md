@@ -856,7 +856,7 @@ All four assets have bilingual titles/descriptions and bilingual captions/alt te
 
 ## Chapter 08 — Original bilingual soil and landscape visuals
 
-The six assets below are Category C original vector diagrams created after reviewing the chapter's cited authoritative guidance. They are conceptual teaching diagrams, not third-party artwork or site-specific soil surveys.
+The six local SVGs below are Category C original vector diagrams created after reviewing the chapter's cited authoritative guidance. They are conceptual teaching diagrams, not third-party artwork or site-specific soil surveys. The seventh asset, 08-B, is a separately sourced third-party ISRIC global map reproduced unchanged under its own acknowledgement terms.
 
 | Visual ID / asset | Image-first and scientific basis | Rights / lifecycle |
 |---|---|---|
