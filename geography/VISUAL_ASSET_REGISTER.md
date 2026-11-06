@@ -548,3 +548,7 @@ The project owner authorised CC BY-NC 4.0 for the ten local bilingual SVGs: 3.1-
 - Confirmed 19 unique visual IDs in Chapter 05. The old 20-position count included legacy alias 5-A for 5.2-A.
 - Corrected the 5.18-A climate graph precipitation bars to match the chapter's monthly source table (A 364 mm; B 925 mm).
 - Chapter 05 now has 46 Markdown image embeds, 23 unique image URLs and zero empty alt attributes. Rights, rendered accessibility and production-reader QA remain separate pending tasks.
+
+
+### Chapter 06 — integration update — 6 November 2026
+All 15 unique Chapter 06 visual IDs are now integrated in both Russian and English sections. The chapter contains 32 Markdown image embeds across 16 distinct image targets (the 6.7-A ID intentionally includes both a NOAA surface-current map and a separate deep-circulation schematic). Nine new bilingual SVGs were added: 6-B, 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A and 6.18-A. Their basic SVG structural metadata and non-empty alt text were checked. This is not a claim that rights, contrast, screen-reader behaviour, rendered browser/mobile presentation or deployment QA have passed. The 6-B illustration is an orientation schematic, not a GIS-derived boundary map; the candidate VLIZ dataset is not used in it. Project rights/licence decisions for original local SVGs remain pending.
