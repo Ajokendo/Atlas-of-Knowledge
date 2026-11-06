@@ -208,6 +208,6 @@
 ### Chapter 06 — browser QA and rights register — 6 November 2026
 
 - Added a dedicated Chromium workflow for the Chapter 06 visual gallery and the live GitHub Markdown chapter at 390px and 1365px viewports. It checks image decoding, horizontal overflow, keyboard skip-link navigation, axe WCAG 2.1 A/AA rules on the gallery, and rendered SVG title/description/role metadata and visible text bounds.
-- Static inventory/XML/ARIA validation passed in run 42214801979. Full bilingual Chromium acceptance passed in run 42215018276: 32/32 RU/EN embeds decoded at 390px and 1365px in the isolated gallery and GitHub Markdown; no horizontal overflow; keyboard skip link passed; axe WCAG 2.1 A/AA gallery scan had zero violations; all 12 SVGs rendered with title/description/role metadata and visible text.
+- Static inventory/XML/ARIA validation passed in run 42215317888. Full bilingual Chromium acceptance passed in run 42215317460: 32/32 RU/EN embeds decoded at 390px and 1365px in the isolated gallery and GitHub Markdown; no horizontal overflow; keyboard skip link passed; axe WCAG 2.1 A/AA gallery scan had zero violations; all 12 SVGs rendered with title/description/role metadata and visible text.
 - Added geography/assets/CHAPTER_06_ASSET_RIGHTS.md to separate third-party reuse bases from the 12 local SVGs whose project licence still requires owner confirmation. Linked it from the editorial readiness matrix.
 - Added the English “Glacier Mass Balance” subheading to mirror the Russian subsection structure.
