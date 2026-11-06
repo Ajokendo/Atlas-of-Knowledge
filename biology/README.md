@@ -5,10 +5,10 @@
 
 Third subject area of the unified **Atlas of Knowledge** portal.
 
-## Current project status — updated 5 November 2026
+## Current project status — updated 6 November 2026
 
 - **Visual production/integration coverage: 53/53 mapped briefs (100%).** This is asset coverage only, not 100% visual verification or whole-atlas completion. The per-asset evidence and dispositions are in [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md).
-- The Biology branch contains 13 bilingual HTML pages. The latest 13 governance/documentation CI runs on `workspace/biology` completed successfully. This confirms automated repository validation for those commits; it does not by itself establish scientific accuracy, complete image review or physical-device accessibility.
+- The Biology branch contains 13 bilingual HTML pages. The latest completed full Chromium run at the time of this checkpoint is [run #1530](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171199947), which completed `success` on `workspace/biology`; the dedicated mobile diagram keyboard-scroll test [#1531](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171211457) is still in progress. CI confirms automated repository validation for the tested commit; it does not by itself establish scientific accuracy, complete image verification or physical-device accessibility.
 - **Working editorial-readiness estimate: 99/100.** This is an internal staged estimate, not a completion percentage, external certification or proof that every claim and visual has been fully verified. It is retained pending completion of the remaining internal source, bilingual and visual QA; no score increase is claimed in this update.
 - **External review is outside project scope.** No external expert, reviewer, teacher or institution is to be recruited or asked to assess, approve or sign off the Atlas. Historical review packets are archived and inactive. Internal fact-checking against published scientific literature and official datasets remains part of the work.
 - Remaining internal QA is tracked by the relevant audit files: claim-level evidence and uncertainty; taxonomy/locality/date/numerical consistency; asset provenance and licence; detailed visual rendering; bilingual labels/captions; and hands-on accessibility/device checks where the project team has the required environment. Unavailable environments must be marked “not tested”, not inferred as passed.
