@@ -1084,7 +1084,7 @@ if (fs.existsSync(periodicTableDataPath)) {
       if (!/^[A-Z][a-z]?$/.test(symbol || "") || symbols.has(symbol)) errors.push("periodic-table.html: invalid or duplicate element symbol at record " + (i + 1));
       symbols.add(symbol);
       if (!ruName || !enName) errors.push("periodic-table.html: bilingual element names missing for atomic number " + number);
-      if (!/^(?:\d+(?:\.\d+)?|\[\d+\])$/.test(mass || "")) errors.push("periodic-table.html: invalid atomic-mass/mass-number format for " + symbol);
+      if (!/^(?:\d+(?:\.\d+)?|\[\d+\]|\d+(?:\.\d+)?[–-]\d+(?:\.\d+)?)$/.test(mass || "")) errors.push("periodic-table.html: invalid atomic-mass, interval or mass-number format for " + symbol);
       if (!categories.has(category)) errors.push("periodic-table.html: unknown element category for " + symbol);
       if (!Number.isInteger(+group) || +group < 1 || +group > 18 || !Number.isInteger(+period) || +period < 1 || +period > 7) errors.push("periodic-table.html: invalid group or period for " + symbol);
       if (["lanthanide","actinide"].includes(category) && ![6,7].includes(+period)) errors.push("periodic-table.html: f-block element assigned outside periods 6–7: " + symbol);
