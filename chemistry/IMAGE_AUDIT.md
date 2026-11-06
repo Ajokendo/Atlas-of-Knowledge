@@ -749,3 +749,8 @@ Commits: responsive implementation `7c0318e`; bilingual responsive browser tests
 - [ ] The 24 tablet-width (768 px) screenshots still need a separate visual scan. Interactive states beyond the captured baseline and the full per-visual manual review remain open.
 
 **Scope boundary:** this is an internal rendered-review and technical checkpoint. It is not external expert assessment, legal clearance, final publication approval, or a claim that every asset/state has been visually signed off.
+
+
+### Tablet-width follow-up — 6 November 2026
+
+The first 768 px contact-sheet scan showed that the periodic-table grid still required horizontal scrolling while its instruction was hidden by a breakpoint set too low. The hint is now shown through 1050 px and hidden only when the full table fits; the text now explains the condition rather than referring only to a narrow phone screen. Browser checks explicitly verify the scroll area and hint at 768 px, and the absence of the hint at 1280 px. The first tablet-width fix run [42171810358](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171810358) passed on commit `e3c3579`; its artifact confirms the hint is visible at 768 px. A follow-up wording assertion was then added; its fresh CI result is pending.
