@@ -62,6 +62,20 @@ async function run(mobile) {
       }
     }
 
+    if (moduleName === 'energy' && !mobile) {
+      const layout = await page.evaluate(() => {
+        const hint = document.querySelector('#hint');
+        const readout = document.querySelector('#readout');
+        return {
+          hintDisplay: getComputedStyle(hint).display,
+          hintRight: hint.getBoundingClientRect().right,
+          readoutLeft: readout.getBoundingClientRect().left
+        };
+      });
+      if (layout.hintDisplay !== 'none' && layout.hintRight > layout.readoutLeft - 4) {
+        throw new Error('desktop figure hint overlaps the live readout');
+      }
+    }
     if (moduleName === 'energy' && mobile) {
       const layout = await page.evaluate(() => {
         const rect = selector => {
