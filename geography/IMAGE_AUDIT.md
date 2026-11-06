@@ -463,7 +463,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
 | 05 | 17 named IDs | Seventeen named visual IDs now have image assets embedded in both language sections, including 5.18-A. The chapter's legacy inventory still claims 20 positions; two labels remain unresolved, and provisional 5.10-A/5.13-A entries are not accepted as confirmed IDs. |
 | 06 | 15 | Matches the current 15-ID inventory. |
-| 07 | 9 | 7 | 2 | 07-A, 07-B, 07-D, 07-F, 07-G, 07-H and 07-I are integrated and paired in RU/EN (14 embeds). Static XML/ARIA and full-size Chromium QA passed in run 42218476031; all 14 live GitHub Markdown embeds decoded at 390px and 1365px, with no overflow, text clipping or text-to-text overlap; axe WCAG 2.1 A/AA scan returned 0 violations. Manual screen-reader review and rights for six original SVGs remain pending; mobile labels require zoom. 07-C and 07-E maps remain open; Figure 7.5 has an unnumbered brief awaiting scope decision. RESOLVE 2017 (CC BY 4.0) selected as data source for both maps, not yet generated.
+**Historical 5 November snapshot — superseded 6 November:** 7/9 visuals integrated; maps 07-C and 07-E were still open at that point. Current status is 9/9 integrated; see the 6 November reconciliation above.
 | 08 | 7 | Matches the current inventory. |
 | 09 | 7 | Matches the current inventory: 09-B, 09-C, 09-D, 09-F and 09-G integrated; 09-A and 09-E remain open. |
 | 10 | 7 | Matches the current inventory. |
