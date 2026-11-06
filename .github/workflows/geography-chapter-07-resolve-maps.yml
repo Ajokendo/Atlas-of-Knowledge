@@ -1,0 +1,41 @@
+name: Geography Chapter 07 RESOLVE map generation
+
+on:
+  push:
+    branches: [workspace/geography]
+    paths:
+      - "geography/scripts/build_chapter_07_resolve_maps.py"
+      - ".github/workflows/geography-chapter-07-resolve-maps.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: geography-chapter-07-resolve-maps-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: workspace/geography
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate bilingual maps from RESOLVE 2017
+        run: python geography/scripts/build_chapter_07_resolve_maps.py
+      - name: Commit generated maps
+        run: |
+          if [[ -n "$(git status --porcelain geography/assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg geography/assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add geography/assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg geography/assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg
+            git commit -m "Generate Chapter 07 biome and realm maps from RESOLVE 2017"
+            git push origin HEAD:workspace/geography
+          else
+            echo "Generated maps are unchanged."
+          fi
