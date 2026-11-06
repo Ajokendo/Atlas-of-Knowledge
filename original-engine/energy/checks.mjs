@@ -179,6 +179,9 @@ check('text: work sign of one force is distinguished from net-work effect',
   pageCopy.includes('вклад отдельной силы') && pageCopy.includes('суммарной работой всех сил'));
 check('text: power separates average and instantaneous forms and states the angle condition',
   pageCopy.includes('P</i><sub>ср') && pageCopy.includes('cos α') && pageCopy.includes('угол между силой и скоростью'));
+const sharedLab = readFileSync(new URL('../../physics-lab.js', import.meta.url), 'utf8');
+check('lab: Chapter 4 uses the same g = 9.80 m/s² as the standalone calculator and energy model',
+  /case "energy":\{const h=1\+9\*p;val=9\.80\*h;/.test(sharedLab) && sharedLab.includes('9,80 · "+fmt(h)'));
 
 for (const r of rows) console.log(r.filter(Boolean).join('  '));
 process.exit(rows.every(r => r[0] === 'PASS') ? 0 : 1);
