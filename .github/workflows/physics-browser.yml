@@ -185,6 +185,15 @@ jobs:
           name: all-15-chapters-visual-review
           path: /tmp/physics-visual-review/all-books/**/*.png
           if-no-files-found: warn
+      - name: Capture all standalone chapter visuals on desktop and mobile
+        run: node original-engine/standalone-visual-capture.mjs
+      - name: Upload standalone chapter visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: all-15-standalone-visual-review
+          path: /tmp/physics-visual-review/all-standalone/*.png
+          if-no-files-found: warn
 
   fluids-isolated:
     runs-on: ubuntu-24.04
