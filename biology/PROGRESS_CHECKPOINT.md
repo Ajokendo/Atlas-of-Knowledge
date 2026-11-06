@@ -1,3 +1,17 @@
+## Current internal QA checkpoint — 6 November 2026
+
+- **Visual production/integration coverage:** 53/53 mapped briefs (100%). This remains production coverage only, not complete asset verification.
+- **Working editorial-readiness estimate:** 99/100, unchanged. Do not convert this staged estimate into a 100% completion claim.
+- **Latest completed full Chromium run:** [run #1530](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171199947), completed `success` on `workspace/biology`. The dedicated regional diagram keyboard-scroll test [run #1531](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171211457) is still in progress at this checkpoint.
+- **Regional mobile SVG remediation:** 12 fauna and 3 flora diagrams now use a keyboard-focusable, named horizontal scroll viewport with bilingual guidance. The 390 px page-width regression is closed in successful full Chromium runs #1528, #1529 and #1530. The separate interaction regression test is pending in #1531.
+- **Image QA remains open:** 45/53 disposition rows and 37/53 brief-review rows still contain explicit pending/open notes. The mobile viewport remediation does not mark these assets `VERIFIED`; detailed scientific morphology, bilingual semantic equivalence and provenance checks remain separate.
+- **Other mobile readability follow-up:** sampled opening diagrams in Anatomy, Biochemistry, Cell Biology, Microbiology, Systematics and Zoology still have small embedded labels at full-page mobile scale; these remain to be addressed.
+- **Hands-on accessibility:** NVDA, TalkBack, VoiceOver and physical-device tests remain pending/not performed. Do not infer a pass from headless Chromium or axe.
+- **External review:** excluded from project scope. No external specialist, teacher, independent reviewer or institution is a required gate.
+- **Scope:** all changes remain under `biology/` on `workspace/biology`; no changes to `main`, other subject areas, shared portal, catalogue or publishing configuration.
+
+---
+
 ## Current internal QA checkpoint — 5 November 2026
 
 - **Visual production/integration coverage:** 53/53 mapped briefs (100%). This is production coverage, not full verification of every image or completion of the entire atlas.
