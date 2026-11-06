@@ -285,7 +285,7 @@ For 01-D (Category B), exact source identity, creator, CC BY 4.0 licence, attrib
 | 02 | 2.15-A | INTEGRATED | PASS | PASS | PASS | PARTIAL | PARTIAL PASS | NASA Goddard Earth System Diagram, five-sphere framing and designer credit recorded; NASA media-use guidance linked. Live reader rendering and assistive-technology output pending. |
 | 03 | 3.1-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.2-A | INTEGRATED | PENDING | PASS | PENDING | PENDING | PENDING | Exact USGS media page labels the complete Ore/Mineral Sample Images composite Public Domain; mixed component origins are disclosed. No standalone component reuse. |
-| 03 | 3.3-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
+| 03 | 3.3-A | INTEGRATED | PASS | PENDING — provisional Category C; creator/rightsholder and project licence unknown | PASS | PARTIAL — SVG title/desc, role=img and bilingual alt; visual contrast/screen-reader output pending | PENDING — new isolated browser QA running | Corrected misleading rock-cycle arrows: sedimentary → metamorphic under heat/pressure/fluids; metamorphic → magma by melting; magma → igneous by cooling/crystallisation. UCAR and BGS process guidance checked; multiple pathways caveat retained. |
 | 03 | 3.4-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.5-A | INTEGRATED | PENDING | PASS | PENDING | PENDING | PENDING | Exact USGS media page for This Dynamic Planet I-2800 labels the image Public Domain; dated 2006 reference map. |
 | 03 | 3.6-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
@@ -459,7 +459,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 |---:|---:|---|
 | 01 | 5 | Matches the register's five IDs. |
 | 02 | 21 | Includes both zero-padded and unpadded forms (for example, 02-A/2-A and 02-D/2-D); confirm alias equivalence before counting. |
-| 03 | 14 | Includes legacy 3-A in addition to the 13 numbered subsection IDs; resolve alias or duplicate status. |
+| 03 | 13 | The historical unnumbered alias “3-A” has no in-text marker or matching asset; it is excluded from the confirmed inventory. The 13 numbered IDs are the current chapter count. |
 | 04 | 17 | Includes legacy 4-A in addition to the 16 numbered subsection IDs; resolve alias or duplicate status. |
 | 05 | 17 named IDs | Seventeen named visual IDs now have image assets embedded in both language sections, including 5.18-A. The chapter's legacy inventory still claims 20 positions; two labels remain unresolved, and provisional 5.10-A/5.13-A entries are not accepted as confirmed IDs. |
 | 06 | 15 | Matches the current 15-ID inventory. |
@@ -1708,3 +1708,13 @@ The Chapter 02 visual replacement milestone remains **11/11 complete**. Browser 
 - **Remaining boundary:** this preview is generated directly from Markdown, not the production reader. The production Pages deployment still uses `main`; no deployment or publishing configuration was changed. Screen-reader announcement quality, zoom/reflow beyond the two tested widths, failure fallback and production performance remain untested.
 
 **Chapter 02 visual replacement:** 11/11 complete. **Isolated image and responsive browser QA:** PASS. **Production publication readiness:** not certified until the actual reader/deployed page and remaining accessibility checks are tested.
+
+
+## Chapter 03 — initial focused visual audit and correction — 6 November 2026
+
+- Re-fetched the bilingual chapter and the current asset register. Confirmed **13 unique numbered visual IDs**, **26 Markdown image embeds** (13 RU + 13 EN), and **13 unique assets**: 10 local SVGs and 3 external images. Every asset appears once in each language section; all 26 embeds have bilingual non-empty alt text.
+- Resolved a stale inventory discrepancy: the historical unnumbered label “3-A” appears only in an older audit note; there is no corresponding in-text marker or asset. It is not a fourteenth visual. The confirmed inventory remains 13 IDs.
+- Rebuilt visual **3.3-A** after detecting incorrectly directed arrows in the previous rock-cycle diagram. The corrected path follows magma → igneous rock → sediments → sedimentary rock → metamorphic rock → magma, with the correct processes labelled in both languages. The chapter text and the diagram both state that this is not a compulsory closed route. Process direction checked against UCAR and British Geological Survey educational material.
+- External source checks: **3.2-A** is the USGS Minerals and Uses Activity composite, dated 14 July 2026; the exact USGS media page labels the complete image Public Domain but discloses mixed component origins (USGS, Smithsonian, Minerals Education Coalition and Adobe Stock), so do not crop or redistribute components separately. **3.5-A** is the USGS/Smithsonian *This Dynamic Planet* I-2800, third edition (2006), Public Domain; useful as a historical global overview, not a current seismicity or plate-motion dataset. **3.9-A** is the ICS International Chronostratigraphic Chart v2026/06, CC BY 4.0; its current version and licence are confirmed on the official chart page, and the chapter's age-revision caveat is appropriate.
+- The 10 local SVGs were individually inspected at source level. All contain SVG title/description, `role="img"`, a `viewBox`, and Russian/English text. This is a structural check, not proof of sufficient contrast, readable labels at phone size, or assistive-technology quality.
+- **Current status:** inventory and bilingual pairing PASS; 3.3-A scientific/process-direction PASS; external rights bases recorded for 3.2-A, 3.5-A and 3.9-A; rights for the 10 project-local SVGs remain Unknown / PENDING; technical browser QA is running; deployed-reader and screen-reader testing remain separate.
