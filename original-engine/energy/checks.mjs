@@ -183,5 +183,9 @@ const sharedLab = readFileSync(new URL('../../physics-lab.js', import.meta.url),
 check('lab: Chapter 4 uses the same g = 9.80 m/s² as the standalone calculator and energy model',
   /case "energy":\{const h=1\+9\*p;val=9\.80\*h;/.test(sharedLab) && sharedLab.includes('9,80 · "+fmt(h)'));
 
+const energyWorld = readFileSync(new URL('./world.js', import.meta.url), 'utf8');
+check('bond visual: vertical axis reaches the expanded 3.2 eV graph limit',
+  energyWorld.includes('rx(rLo), uy(3.2 * BD.eps), zN') && energyWorld.includes('uy(3.2 * BD.eps) - yBot'));
+
 for (const r of rows) console.log(r.filter(Boolean).join('  '));
 process.exit(rows.every(r => r[0] === 'PASS') ? 0 : 1);
