@@ -53,12 +53,12 @@ The chapter inventory contains **283 named visual IDs**. The two former unresolv
 | 19 | 10 | 7 | 3 | 19-C, 19-D, 19-E, 19-F, 19-H, 19-I and 19-J embedded; 19-I is a distinct qualitative seasonal snow/precipitation profile, not a duplicate of 19-C. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 16 | 52 | 21-B, 21-C, 21-H, 21-I, 21-J; 22-F, 22-G, 22-H, 22-J; 23-E, 23-J; 25-D, 25-I; 26-H, 26-I and 26-K are now embedded as original bilingual SVGs. 52 planned IDs remain open. |
-| **Total named inventory** | **283** | **199** | **84** | Chapter 05's two former unresolved positions are now named and integrated. |
+| **Total named inventory** | **283** | **201** | **82** | Chapter 05's two former unresolved positions are now named and integrated. |
 
 **Separate metrics (6 November 2026):**
-- **Image Coverage:** 199/283 named IDs have an image embedded in the relevant chapter source (70.3%). This measures presence only.
+- **Image Coverage:** 201/283 named IDs have an image embedded in the relevant chapter source (70.3%). This measures presence only.
 - **Image Verification:** 0/199 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 84 named IDs remain without a confirmed integrated image; no unresolved Chapter 05 inventory positions remain.
+- **Image Gaps:** 82 named IDs remain without a confirmed integrated image; no unresolved Chapter 05 inventory positions remain.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
