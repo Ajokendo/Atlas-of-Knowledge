@@ -902,3 +902,11 @@ Reviewed additional full-resolution 390 px Chromium screenshot crops from succes
 - These findings are limited to the sampled mobile crops and do not certify every regional image, every source attribution or every line of bilingual text.
 
 **Result:** no new confirmed mobile layout defect was established in this batch. Global Image Verification remains **Pending audit**; no per-asset `VERIFIED` status is inferred from page-level screenshot sampling.
+## Additional mobile opening-plate review — 6 November 2026
+
+Inspected the 390 px opening-page crops for Botany and Ecology from the successful Chromium screenshot artifact [42153779144](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42153779144).
+
+- **Botany:** the root/stem/leaf anatomy plate and generalized whole-plant illustration remain within the figure card. Captions and explanatory notes wrap within the mobile column. The artwork is reduced substantially at this viewport, so fine embedded labels are not comfortably readable at full-page scale; this is recorded as a legibility follow-up rather than a confirmed overlap or clipping defect.
+- **Ecology:** the ecosystem energy-flow/food-web plate and the producer–consumer–decomposer model remain inside the card. The explanatory caption wraps below the figure; no broken asset, horizontal overflow or confirmed text collision was identified in this crop. Fine labels within the diagrams remain small at mobile page scale and need asset-level readability assessment.
+
+These are observations of the sampled mobile opening plates only. They do not establish that every embedded label passes the project’s narrow-viewport readability requirement. Global Image Verification remains **Pending audit**.
