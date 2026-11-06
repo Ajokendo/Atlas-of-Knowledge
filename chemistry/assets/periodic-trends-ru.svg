@@ -2,9 +2,9 @@
 <svg lang="ru" xml:lang="ru" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
 <title id="title">Периодические тенденции химических элементов</title><desc id="desc">Схематическая форма периодической таблицы показывает общие направления: атомный радиус обычно увеличивается вниз и влево; энергия первой ионизации и электроотрицательность обычно увеличиваются вверх и вправо. Это тенденции, а не правила без исключений.</desc>
 <defs>
- <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2877a8"/></marker>
- <marker id="greenArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#237a55"/></marker>
- <marker id="goldArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#9a5a16"/></marker>
+ <marker id="blueArrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#2877a8"/></marker>
+ <marker id="greenArrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#237a55"/></marker>
+ <marker id="goldArrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#9a5a16"/></marker>
  <style>
   text{font-family:Inter,Arial,sans-serif;fill:#1e2c35}
   .heading{font-size:28px;font-weight:700;letter-spacing:.2px}
