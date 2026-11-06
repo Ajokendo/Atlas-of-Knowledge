@@ -211,3 +211,6 @@
 - Static inventory/XML/ARIA validation passed in run 42215317888. Full bilingual Chromium acceptance passed in run 42215317460: 32/32 RU/EN embeds decoded at 390px and 1365px in the isolated gallery and GitHub Markdown; no horizontal overflow; keyboard skip link passed; axe WCAG 2.1 A/AA gallery scan had zero violations; all 12 SVGs rendered with title/description/role metadata and visible text.
 - Added geography/assets/CHAPTER_06_ASSET_RIGHTS.md to separate third-party reuse bases from the 12 local SVGs whose project licence still requires owner confirmation. Linked it from the editorial readiness matrix.
 - Added the English “Glacier Mass Balance” subheading to mirror the Russian subsection structure.
+
+
+- **Chapter 06 asset licence confirmed — 6 November 2026:** project owner authorised the 12 specifically listed Atlas-local SVGs under CC BY-NC 4.0. Scope, attribution wording and third-party exclusions are documented in `geography/assets/CHAPTER_06_ASSET_LICENSE.md`; the separate rights register has been updated. This does not relicense the four external image targets or other chapter assets.
