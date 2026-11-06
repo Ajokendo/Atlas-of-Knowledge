@@ -567,3 +567,8 @@ All 15 unique Chapter 06 visual IDs are now integrated in both Russian and Engli
 - Seven integrated assets (07-A, 07-B, 07-D, 07-F, 07-G, 07-H, 07-I) are paired in both languages (14 embeds). Static QA run 42218475981 and full-size Chromium run 42218476031 passed. All seven render without viewBox clipping or text-to-text overlap; live GitHub Markdown decoded all 14 embeds at 390px and 1365px; axe WCAG 2.1 A/AA returned zero violations.
 - Mobile note: labels are small at 390px (minimum effective text 2.8–5.5 CSS px); readers need to zoom for detailed reading. Manual screen-reader and deployed-site checks remain pending.
 - Open map visuals 07-C and 07-E will use RESOLVE Ecoregions 2017 (14 biomes / 8 realms, CC BY 4.0) as their data source. Figure 7.5 has an additional unnumbered production brief; do not silently count it among the nine current IDs.
+
+
+### Chapter 07 — project-owner rights confirmation — 6 November 2026
+
+Rights are now confirmed for the six original local SVGs 07-A, 07-B, 07-F, 07-G, 07-H and 07-I under CC BY-NC 4.0, attributed to the Atlas of Knowledge project. 07-D is a separately sourced adaptation and remains CC BY 4.0. The planned 07-C and 07-E maps based on RESOLVE 2017 are explicitly excluded and must retain CC BY 4.0. See `geography/assets/CHAPTER_07_ASSET_LICENSE.md`. This decision closes only the rights gate for the six specified original SVGs; it does not change their accessibility status or the chapter's 7/9 visual coverage.
