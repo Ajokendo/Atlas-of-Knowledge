@@ -164,7 +164,7 @@ After studying this chapter, readers will be able to explain the extent and func
 
 ![Две концептуальные схемы: широтная смена природных комплексов от экватора к полюсам и высотные пояса горы от подножия к нивальной зоне. / Two conceptual diagrams: latitudinal changes in natural systems from the equator to the poles and mountain belts from the foothills to the nival zone.](../assets/diagrams/07-J-latitudinal-zonation-altitudinal-belts-bilingual.svg)
 
-*07-J. Авторская двуязычная учебная схема Atlas of Knowledge. Последовательности обобщены: широтные зоны и высотные пояса не имеют универсальных резких границ. Высота, состав поясов и положение границ зависят от широты, увлажнения, экспозиции, рельефа и местной циркуляции. Схема не в масштабе и не является картой конкретного региона. / Original bilingual teaching diagram by Atlas of Knowledge. The sequences are generalised: latitudinal zones and altitudinal belts do not have universal sharp boundaries. Elevation, belt composition and boundary positions depend on latitude, moisture, aspect, relief and local circulation. The diagram is not to scale and is not a map of a specific region.*
+*07-J. Авторская двуязычная учебная схема Atlas of Knowledge, CC BY-NC 4.0 (Attribution: Atlas of Knowledge project). Последовательности обобщены: широтные зоны и высотные пояса не имеют универсальных резких границ. Высота, состав поясов и положение границ зависят от широты, увлажнения, экспозиции, рельефа и местной циркуляции. Схема не в масштабе и не является картой конкретного региона. / Original bilingual teaching diagram by Atlas of Knowledge. The sequences are generalised: latitudinal zones and altitudinal belts do not have universal sharp boundaries. Elevation, belt composition and boundary positions depend on latitude, moisture, aspect, relief and local circulation. The diagram is not to scale and is not a map of a specific region.*
 
 **Рисунок 7.5 / Figure 7.5 — Широтная зональность и высотная поясность / Latitudinal zonation and altitudinal belts.**
 
@@ -472,7 +472,7 @@ Windward slopes often receive more precipitation than leeward slopes. In the Nor
 
 ![Two conceptual diagrams: latitudinal changes in natural systems from the equator to the poles and mountain belts from the foothills to the nival zone.](../assets/diagrams/07-J-latitudinal-zonation-altitudinal-belts-bilingual.svg)
 
-*07-J. Original bilingual teaching diagram by Atlas of Knowledge. The sequences are generalised: latitudinal zones and altitudinal belts do not have universal sharp boundaries. Elevation, belt composition and boundary positions depend on latitude, moisture, aspect, relief and local circulation. The diagram is not to scale and is not a map of a specific region.*
+*07-J. Original bilingual teaching diagram by Atlas of Knowledge, CC BY-NC 4.0 (attribution: Atlas of Knowledge project). The sequences are generalised: latitudinal zones and altitudinal belts do not have universal sharp boundaries. Elevation, belt composition and boundary positions depend on latitude, moisture, aspect, relief and local circulation. The diagram is not to scale and is not a map of a specific region.*
 
 **Figure 7.5. Latitudinal zonation and altitudinal belts.**
 
@@ -766,4 +766,4 @@ The current chapter does not assign individual IUCN Red List categories to named
 - Replaced the Russian/English production brief with matched captions and alt text. The diagram compares a generalised equator-to-pole sequence with a mountain-base-to-nival sequence; it explicitly states that boundaries are transitional, regional and not to scale.
 - The visual inventory is now **10/10 named IDs (07-A–07-J)**, with one embed in each language section (20 embeds total).
 - The new SVG passed source-level preflight for a single root SVG, title/description accessibility metadata, unique IDs and absence of script/foreignObject content. This is not a browser-rendering, screen-reader or deployed-reader test.
-- **Rights for 07-J remain pending an explicit asset-specific project-owner licence designation.** The prior CC BY-NC 4.0 authorisation for 07-A, 07-B, 07-F, 07-G, 07-H and 07-I is not extended by this record. 07-D, 07-C and 07-E retain their respective third-party CC BY 4.0 terms.
+- **Rights for 07-J — PASS:** on 6 November 2026, the project owner extended CC BY-NC 4.0 authorisation to all original project-controlled visuals in the Geography Atlas, including 07-J and future eligible original visuals. Attribution: Atlas of Knowledge project. Third-party 07-D, 07-C and 07-E retain their respective CC BY 4.0 terms.
