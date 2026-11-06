@@ -1,0 +1,28 @@
+name: Geography Chapter 03 image integrity
+on:
+  push:
+    branches: [workspace/geography]
+    paths:
+      - "geography/chapters/03-lithosphere-and-geological-processes.md"
+      - "geography/assets/03-*.svg"
+      - "geography/scripts/check_chapter_03_images.py"
+      - ".github/workflows/geography-chapter-03-image-checks.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: geography-chapter-03-image-checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  chapter-03-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: workspace/geography
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate Chapter 03 inventory, SVG structure and source endpoints
+        run: python geography/scripts/check_chapter_03_images.py
