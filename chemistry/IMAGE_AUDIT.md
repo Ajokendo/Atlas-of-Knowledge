@@ -835,3 +835,15 @@ Additional full-resolution captures reviewed from artifact `13490538190`:
 - [x] Chemistry of life and environment (RU, 390 px; EN, 1280 px): biomolecule overview, lipid/phospholipid schematic, carbon-cycle diagram and CO₂ concentration model remain within their responsive sections. The enlarged desktop crop confirms two fatty-acid tails in the phospholipid symbol.
 
 The specific broken EN functional-groups image defect is closed by the corrected SVG and the passing browser image-load assertion. No additional confirmed layout defect was identified in these selected captures. This is still targeted review, not a sign-off of every individual asset at every viewport or every interactive state. Rights/licence and competent second-review gates remain separate and open.
+
+
+### Complete responsive screenshot overview scan — 6 November 2026
+
+Performed an overview scan of the complete 108-image artifact `13491602961` from the passing branch-head CI run `42195180307` (18 visual pages × RU/EN × 390/768/1280 CSS px). All 36 mobile (390 px) captures were assembled into six contact sheets and scanned; all 36 desktop (1280 px) captures were assembled into six contact sheets and scanned; the 768 px set was overview-scanned in the corresponding contact sheets. The scan covered every captured page at all three breakpoints, including landing, 11 chapter pages, periodic table, molecule lab, gas laws, acid/base virtual lab, stoichiometry and reaction trainer.
+
+- [x] Mobile 390 px: no new obvious horizontal clipping, off-canvas panel, or collapsed visual section was found in the overview scan. Periodic-table horizontal scrolling is intentional and its localized cue remains visible.
+- [x] Tablet 768 px: no new obvious page-level clipping or off-canvas content was found in the overview scan.
+- [x] Desktop 1280 px: no new obvious page-level clipping or off-canvas content was found in the overview scan; the repaired EN functional-groups diagram is visible.
+- [x] Confirmed that the artifact contains the expected 108 responsive screenshots; an additional enlarged biomolecule crop is also present in the downloaded archive and is not counted as a baseline screenshot.
+
+**Scope:** this is a complete *overview/contact-sheet scan* of the 108 default-state captures, not pixel-level full-resolution review of every text line, not an inspection of every interaction state, and not physical-device or screen-reader certification. Full-resolution targeted reviews are separately itemised above. No new source defect was confirmed in this overview pass. Rights/licence, second-person scientific review and final publication approval remain open.
