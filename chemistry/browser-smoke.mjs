@@ -98,7 +98,7 @@ try {
         }));
       });
       const safeName = file.replaceAll("/", "__").replace(/\.html$/, "");
-      const languageToggle = page.locator("#lang");
+      const languageToggle = page.locator("#lang, #language");
       if (await languageToggle.count() !== 1) {
         errors.push(file + ": visual evidence capture requires a language toggle");
       } else {
