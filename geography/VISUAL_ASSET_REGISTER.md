@@ -508,6 +508,14 @@ Four additional physical-region maps were integrated: North America (Blue Green 
 Reconciled the detailed audit for all 11 existing bilingual SVGs. All 11 pass static source checks for title/description metadata, accessible image role and label reference, bilingual text, and absence of scripts/foreignObject/embedded external images. Scientific/conceptual review is PASS for 13-B, 13-E–13-K; remains PENDING for 13-A, 13-C and 13-D (including jurisdiction-specific legal review). Formal creator/licence assignment, accessibility and live rendering remain PENDING for every item. No new visual integration is claimed and atlas-wide coverage remains 175/281 (62.3%).
 
 
+## Chapter 13 follow-up — 6 November 2026
+
+All eleven planned bilingual visuals (13-A–13-K) are integrated beside their corresponding teaching sections; none remains only in the production-notes appendix. Scientific/conceptual review is PASS for all 11. The 13-A greenhouse-effect schematic explicitly states that greenhouse gases are mixed through the atmosphere rather than forming a separate layer and is labelled as a simplified diagram, not a complete energy budget. The 13-C disaster-risk model shows hazard, exposure, vulnerability and capacity as interacting components rather than a linear chain; the Russian label uses the established term «потенциал». The 13-D diagram distinguishes project-level EIA, strategic SEA and cross-cutting monitoring, with a note that legal procedures vary by jurisdiction.
+
+Static source checks for all 11 SVGs pass: title and description metadata, image role, valid ARIA label references, unique IDs, bilingual text, and no scripts, foreignObject elements or embedded external images. Markdown integration check: 11/11 IDs embedded once with non-empty bilingual alt text; production-notes appendix contains no image embeds.
+
+Still open: formal creator/licence assignment for each asset; jurisdiction-specific legal review of EIA/SEA terminology and requirements; independent scientific review; rendered-browser/mobile, keyboard and screen-reader QA. Static source checks do not substitute for rendered or accessibility acceptance.
+
 ## Twelfth-tranche update — Chapter 17-B, 17-F and 17-I — 5 November 2026
 
 Integrated three sourced map visuals for Kyrgyzstan: (17-B) a public-domain SRTM/GMT topographic map with a bilingual key to major ranges and intermontane valleys; (17-F) two CC BY 4.0 research maps from Poggi et al. (2024), one for regional earthquake epicentres and one for selected active faults; (17-I) an OCHA COD-AB-based labelled administrative map showing seven oblasts and Bishkek/Osh separately. These are external image dependencies; scientific/date validation and deployed rendering/accessibility checks remain pending where noted. Chapter 17 is now 6/9 integrated; 17-A, 17-D and 17-H remain open. Atlas-wide coverage is 178/281 (63.3%).
