@@ -2563,29 +2563,88 @@ try {
           if (!(await page.locator(selector).innerText()).includes(phrase)) errors.push(file + ": missing English advanced topic " + phrase);
         }
         await page.locator("#lang").click();
+
+        // An incomplete attempt must remain open and must not create a history entry.
+        await page.locator("#finish").click();
+        if (await page.locator("#finish").isDisabled() ||
+            (await page.locator("#result").evaluate(el => el.classList.contains("show"))) ||
+            !(await page.locator("#counter").innerText()).includes("Ответьте на все вопросы")) {
+          errors.push(file + ": incomplete quiz submission must be blocked with a localized prompt");
+        }
+        const historyBeforeCompletion = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
+        if (!Array.isArray(historyBeforeCompletion) || historyBeforeCompletion.length !== 0) {
+          errors.push(file + ": incomplete quiz submission must not be saved");
+        }
+
+        const correctAnswers = [2, 1, 2, 0, 1, 1, 2, 1, 1, 1, 0, 1, 1, 0, 2];
         for (let i = 0; i < questionCount; i++) {
-          await page.locator("#q" + i + ' input[type="radio"]').first().check();
+          await page.locator("#q" + i + ' input[type="radio"]').nth(correctAnswers[i]).check();
+        }
+        if (!(await page.locator("#counter").innerText()).includes("15 / 15")) {
+          errors.push(file + ": quiz progress must reach 15/15 after every question is answered");
         }
         await page.locator("#finish").click();
-        if (!(await page.locator("#score").innerText()).trim()) errors.push(file + ": quiz score was not produced");
-        if (!(await page.locator("#finish").isDisabled())) errors.push(file + ": completed quiz finish button was not locked");
+        if ((await page.locator("#score").innerText()).trim() !== "15 / 15" ||
+            !(await page.locator("#rating").innerText()).includes("Отличный результат!") ||
+            !(await page.locator("#result").evaluate(el => el.classList.contains("show")))) {
+          errors.push(file + ": all correct answers must produce the 15/15 excellent result");
+        }
+        if (!(await page.locator("#finish").isDisabled()) ||
+            await page.locator("#quiz .question:not(.answered)").count() !== 0 ||
+            await page.locator("#quiz .explain:visible").count() !== 15 ||
+            await page.locator('#quiz input[type="radio"]:not(:disabled)').count() !== 0) {
+          errors.push(file + ": completed quiz must lock answers and reveal all 15 explanations");
+        }
         const history = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
-        if (!Array.isArray(history) || history.length !== 1 || history[0].total !== 15) {
-          errors.push(file + ": completed quiz attempt was not saved exactly once");
+        if (!Array.isArray(history) || history.length !== 1 || history[0].total !== 15 || history[0].score !== 15) {
+          errors.push(file + ": perfect quiz attempt was not saved exactly once with its score");
         }
         await page.locator("#lang").click();
         if (!(await page.locator("#summary").innerText()).includes("Correct answers") ||
-            !(await page.locator("#rating").innerText()).trim() ||
-            !(await page.locator("#q0 .explain").isVisible())) {
-          errors.push(file + ": English translation must preserve the completed quiz review and explanations");
+            !(await page.locator("#rating").innerText()).includes("Excellent result!") ||
+            !(await page.locator("#q0 .explain").isVisible()) ||
+            (await page.locator("#score").innerText()).trim() !== "15 / 15") {
+          errors.push(file + ": English translation must preserve the completed perfect quiz and explanations");
         }
         const historyAfterTranslation = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
         if (!Array.isArray(historyAfterTranslation) || historyAfterTranslation.length !== 1) {
           errors.push(file + ": switching quiz language after completion must not save a duplicate attempt");
         }
+
+        // Restart, then exercise the opposite score boundary and its feedback.
+        await page.locator("#reset").click();
+        if (await page.locator("#finish").isDisabled() ||
+            await page.locator("#result").evaluate(el => el.classList.contains("show")) ||
+            await page.locator('#quiz input[type="radio"]:disabled').count() !== 0 ||
+            !(await page.locator("#counter").innerText()).includes("0 / 15")) {
+          errors.push(file + ": restarting must clear the result, unlock answers and reset progress");
+        }
+        const historyAfterReset = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
+        if (!Array.isArray(historyAfterReset) || historyAfterReset.length !== 1) {
+          errors.push(file + ": restarting must preserve history without recording a new attempt");
+        }
+        const wrongAnswers = correctAnswers.map(answer => answer === 0 ? 1 : 0);
+        for (let i = 0; i < questionCount; i++) {
+          await page.locator("#q" + i + ' input[type="radio"]').nth(wrongAnswers[i]).check();
+        }
+        await page.locator("#finish").click();
+        if ((await page.locator("#score").innerText()).trim() !== "0 / 15" ||
+            !(await page.locator("#rating").innerText()).includes("Some topics are worth revisiting.") ||
+            await page.locator("#quiz .explain:visible").count() !== 15) {
+          errors.push(file + ": all incorrect answers must produce the 0/15 review result and reveal explanations");
+        }
+        const historyAfterWrongAttempt = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
+        if (!Array.isArray(historyAfterWrongAttempt) || historyAfterWrongAttempt.length !== 2 || historyAfterWrongAttempt[1].score !== 0) {
+          errors.push(file + ": the second, zero-score attempt must be saved exactly once");
+        }
         await page.locator("#lang").click();
-        if (!(await page.locator("#summary").innerText()).includes("Правильных ответов")) {
-          errors.push(file + ": switching back to Russian must translate the completed quiz summary");
+        if (!(await page.locator("#summary").innerText()).includes("Correct answers") ||
+            !(await page.locator("#rating").innerText()).includes("Some topics are worth revisiting.")) {
+          errors.push(file + ": English translation must preserve the low-score feedback");
+        }
+        const historyAfterSecondTranslation = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
+        if (!Array.isArray(historyAfterSecondTranslation) || historyAfterSecondTranslation.length !== 2) {
+          errors.push(file + ": translating the second attempt must not duplicate quiz history");
         }
         await page.locator("#reset").click();
       }
