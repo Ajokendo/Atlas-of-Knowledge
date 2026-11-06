@@ -44,9 +44,9 @@
  <text x="300" y="225">Кора / Cortex</text>
  <text x="30" y="612">Эндодерма / Endodermis</text>
  <text x="300" y="612">Перицикл / Pericycle</text>
- <text x="242" y="552" text-anchor="middle">Центральный цилиндр</text><text x="242" y="572" text-anchor="middle" class="small">Stele (central cylinder)</text>
- <text x="242" y="648" text-anchor="middle" fill="#176b9e">Ксилема / Xylem — звезда</text>
- <text x="242" y="670" text-anchor="middle" fill="#75428f">Флоэма / Phloem — между лучами</text>
+ <text x="242" y="608" text-anchor="middle">Центральный цилиндр / Stele</text><text x="242" y="628" text-anchor="middle" class="small">(central cylinder)</text>
+ <text x="242" y="650" text-anchor="middle" class="small" fill="#176b9e">Ксилема / Xylem — звезда</text>
+ <text x="242" y="671" text-anchor="middle" class="small" fill="#75428f">Флоэма / Phloem — между лучами</text>
 </g>
 <!-- STEM -->
 <rect x="495" y="94" width="450" height="590" rx="18" class="panel"/>
