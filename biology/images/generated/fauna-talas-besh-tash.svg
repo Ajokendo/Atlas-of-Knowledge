@@ -15,12 +15,12 @@
  <path d="M0 390Q100 340 190 380T368 365V560H0Z" fill="#7e9271"/>
  <!-- ibex -->
  <g transform="translate(245 353)" fill="#7d6247" stroke="#453d32" stroke-width="4" stroke-linecap="round">
-  <ellipse cx="0" cy="0" rx="37" ry="17"/><path d="M25 -9L47 -27 59 -22 45 -3Z"/><path d="M47 -27Q58 -62 43 -72M50 -28Q73 -53 68 -69" fill="none" stroke="#453d32" stroke-width="5"/><path d="M-23 12L-28 52M-4 14L-3 52M20 11L26 49" fill="none"/>
+  <ellipse cx="0" cy="0" rx="37" ry="17"/><path d="M25 -9L47 -27 59 -22 45 -3Z"/><path d="M47 -27Q61 -47 56 -67Q53 -82 39 -91M50 -28Q76 -45 79 -63Q81 -77 72 -86" fill="none" stroke="#453d32" stroke-width="5" stroke-linecap="round"/><path d="M-23 12L-28 52M-4 14L-3 52M20 11L26 49" fill="none"/>
  </g>
  <!-- snow leopard simplified -->
  <g transform="translate(93 390)" fill="#d4d0c2" stroke="#4e554e" stroke-width="4" stroke-linecap="round">
-  <ellipse cx="0" cy="0" rx="42" ry="18"/><circle cx="37" cy="-11" r="13"/><path d="M-35 1Q-70 -10 -70 18Q-60 35 -44 24" fill="none" stroke-width="9"/><path d="M-22 13L-29 43M8 14L13 44M28 8L33 39" fill="none"/>
-  <g fill="#59615a" stroke="none"><circle cx="-18" cy="-4" r="4"/><circle cx="0" cy="6" r="4"/><circle cx="16" cy="-5" r="4"/><circle cx="40" cy="-15" r="2"/></g>
+  <ellipse cx="0" cy="0" rx="42" ry="18"/><circle cx="37" cy="-11" r="13"/><path d="M-35 1Q-67 -13 -91 -4Q-111 5 -107 22Q-101 39 -82 31" fill="none" stroke-width="13"/><path d="M-87 -1L-82 10M-99 7L-93 19" fill="none" stroke="#7d8278" stroke-width="3"/><path d="M-22 13L-29 43M8 14L13 44M28 8L33 39" fill="none"/>
+  <g fill="none" stroke="#59615a" stroke-width="2.5"><ellipse cx="-22" cy="-4" rx="6" ry="4"/><ellipse cx="-2" cy="5" rx="6" ry="4"/><ellipse cx="16" cy="-5" rx="6" ry="4"/><ellipse cx="39" cy="-14" rx="3" ry="2"/></g>
  </g>
  <text x="18" y="36" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#233a32">01 · ROCKY ALPINE HABITAT</text>
  <text x="18" y="62" font-family="Arial,sans-serif" font-size="15" fill="#314c42">Скалы · снежный барс · горный козёл</text>
@@ -33,7 +33,7 @@
  <path d="M0 390Q160 345 368 385V560H0Z" fill="#78906b"/>
  <use href="#spruce" x="48" y="308"/><use href="#spruce" x="105" y="284"/><use href="#spruce" x="300" y="300"/><use href="#spruce" x="342" y="322"/>
  <g transform="translate(193 392)" fill="#8c6848" stroke="#514232" stroke-width="4" stroke-linecap="round">
-  <ellipse cx="0" cy="0" rx="47" ry="22"/><path d="M30 -12L48 -39 60 -37 54 -9Z"/><circle cx="58" cy="-42" r="12"/><path d="M56 -51Q47 -83 27 -80M61 -52Q78 -80 91 -69M-27 16L-32 62M-4 19L-4 63M25 16L31 60" fill="none"/>
+  <ellipse cx="0" cy="0" rx="47" ry="22"/><path d="M30 -12L48 -39 60 -37 54 -9Z"/><circle cx="58" cy="-42" r="12"/><path d="M56 -51Q47 -83 27 -80M27 -80L17 -91M27 -80L32 -96M61 -52Q78 -80 91 -69M91 -69L103 -78M91 -69L91 -85M-27 16L-32 62M-4 19L-4 63M25 16L31 60" fill="none"/>
  </g>
  <text x="18" y="36" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#233a32">02 · SPRUCE–JUNIPER SLOPES</text>
  <text x="18" y="62" font-family="Arial,sans-serif" font-size="15" fill="#314c42">Ель и арча · марал</text>
