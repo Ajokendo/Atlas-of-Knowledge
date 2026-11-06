@@ -143,7 +143,10 @@ def main():
     biome_counts=Counter((f.get("properties") or {}).get("BIOME_NAME") for f in biome_features)
     realm_counts=Counter((f.get("properties") or {}).get("REALM") for f in realm_features)
     if len(biome_counts)!=14: raise RuntimeError(f"Expected 14 biome categories, got {len(biome_counts)}: {biome_counts}")
-    if len(realm_counts)!=8: raise RuntimeError(f"Expected 8 realm categories, got {len(realm_counts)}: {realm_counts}")
+    if len(realm_counts)!=8:
+        missing=[f for f in raw_features if (f.get("properties") or {}).get("REALM") not in realm_names]
+        print("DEBUG missing realm features:",[(f.get("properties"), (f.get("geometry") or {}).get("type"), str((f.get("geometry") or {}).get("coordinates",[]))[:1200]) for f in missing])
+        raise RuntimeError(f"Expected 8 realm categories, got {len(realm_counts)}: {realm_counts}")
     svg_map(biome_features,"biome",OUT/"07-C-world-terrestrial-biomes-bilingual.svg")
     svg_map(realm_features,"realm",OUT/"07-E-world-biogeographical-realms-bilingual.svg")
     print(f"PASS: generated 07-C from {len(biome_features)} classified ecoregions (14 biomes) and 07-E from {len(realm_features)} ecoregions (8 realms), including the N/A-biome Antarctic feature only in the realm map.")
