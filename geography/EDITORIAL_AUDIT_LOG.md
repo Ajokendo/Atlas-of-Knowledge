@@ -2129,3 +2129,77 @@ A final compliance check against the Geography image-first instruction found tha
 - Rechecked the two chapter files: Chapter 03 has 13 image embeds in RU and 13 in EN; Chapter 04 has 16 in RU and 16 in EN. No illustration placeholders remain in either chapter.
 - Updated each chapter's opening status note to reflect completed visual integration and to distinguish it from final release QA.
 - Commits: Chapter 03 duplicate cleanup `c6e6c645bb3d7da2be7b7cf69068f980dda00a27`, `f56b055b760d46f677aad5a4921a5db5e43ebb07`; Chapter 04 duplicate cleanup `7180a1066d4bdf3d5c52ca9f9de1a2f40a7d9683`, `dc9c403c2daea08d9526a944877f709c8bace464`; chapter status notes `e35e7e4c5f667f6f1f0bdcdb004e813eb0ec991b`, `1b8b2ce38229c41477a8780340137eb23d0f3303`.
+
+
+## Deep bilingual text editorial review — Chapters 05–10 — 6 November 2026
+
+**Working branch:** `workspace/geography`  
+**Scope:** Russian- and English-language chapter text, scientific terminology, numerical examples, source relevance, bilingual consistency, school-level clarity and learning apparatus. No visual asset, SVG, image URL, visual marker, figure caption, alt text or visual-production brief was changed. No other branch, subject, portal, catalogue or publishing setting was touched.
+
+### Chapter 05 — Atmosphere and Climatology — text editorial scope 100%
+
+- Re-fetched the current chapter and confirmed the bilingual teaching sections, summary, questions, practical activities and climate-data exercises.
+- Corrected the 5.17-A precipitation table in both language blocks. The previous table totals (A: 401 mm; B: 886 mm) did not match the unchanged chart bars. The chart's monthly bar values are now represented in the text: A = 18, 16, 22, 30, 45, 55, 48, 35, 28, 25, 22, 20 mm (total **364 mm**); B = 95, 80, 75, 65, 60, 55, 50, 55, 75, 100, 110, 105 mm (total **925 mm**). Both Russian/English teaching-data statements and both copies of the table were aligned. Temperature series and the visual itself were left unchanged.
+- Fixed the English inline-code formatting for the climate-anomaly formula; the previous escaped backticks prevented the formula from rendering as a code span.
+- Replaced the stale opening status note with a bilingual statement that text review is complete while visual production, layout and technical QA remain separate.
+- Recalculated the annual totals independently: 364 mm and 925 mm. The separate worked example remains 377 mm annual precipitation and a 29 °C annual temperature range.
+
+### Chapter 06 — Hydrosphere and the World Ocean — text editorial scope 100%
+
+- Re-fetched the current chapter and rechecked the 17 numbered main sections, paired worked examples, summary, key terms, questions and practical assignment.
+- Rechecked river discharge: 8 m × 0.75 m = 6 m²; 6 m² × 0.6 m/s = **3.6 m³/s**.
+- Rechecked the two distinct catchment examples: 600 − 350 − 220 = **30 mm** residual; and 800 − 500 − 50 = **250 mm** runoff depth, equivalent to **2.5 km³** over 10,000 km² and an annual mean discharge of **79.3 m³/s** over 365 days. Units and periods are consistent.
+- Updated the stale opening status note to reflect the completed sentence-level RU/EN, terminology, source and numerical pass. Visual production and release QA remain separate.
+
+### Chapter 07 — Biosphere and Natural Biomes — text editorial scope 100%
+
+- Re-fetched the current file and verified the bilingual core text, summary, glossary, review questions, practical activities and scientific notes.
+- Rechecked the oxygenic-photosynthesis explanation: carbon dioxide supplies carbon for organic matter; molecular oxygen is released from water splitting in the light-dependent reactions.
+- Rechecked the distinction between CBD Global Biodiversity Framework Target 2 (effective restoration of at least 30% of degraded ecosystem areas by 2030) and Target 3 (effective conservation and management of at least 30% of terrestrial, inland-water and marine/coastal areas).
+- Rechecked the six-level IUCN Global Ecosystem Typology reference, the 2026 third edition of the SER Standards, and the worked energy-transfer calculations (10% and 7.5%). No further text change was required.
+
+### Chapter 08 — Soils and Landscape Geography — text editorial scope 100%
+
+- Re-fetched the current file and verified the bilingual section order, definitions, examples, summary, glossary, questions, activities and source notes.
+- Rechecked the bulk-density/porosity example: 1,300 g / 1,000 cm³ = 1.3 g/cm³; with the stated assumed particle density of 2.65 g/cm³, estimated porosity is **about 50.9%**.
+- Rechecked the SoilGrids 2.0 description: 250 m grid cells, six depth intervals, and 90% prediction intervals represented by the 5th and 95th percentiles; the text correctly warns that grid resolution is not local measurement accuracy and identifies Central Asian data gaps.
+- Rechecked the distinction between ECe and 1:5 extract/field conductivity, salinity and sodicity, WRB formal Reference Soil Groups versus broad descriptive soil names, and the UNCCD Article 1 desertification definition.
+- Verified the FAO *Status of the World's Soil Resources 2026* source and its 27 August 2026 launch. No further text change was required.
+
+### Chapter 09 — Population and Demography — text editorial scope 100%
+
+- Re-fetched the current file and verified bilingual section placement, definitions, worked examples, summary, questions, practical activities and the 18/18 paired numbered teaching headings recorded in the chapter audit.
+- Rechecked the WHO infant-mortality definition as a probability of dying before age one, derived from age-specific mortality and expressed per 1,000 live births; it is not simply same-calendar-year infant deaths divided by births.
+- Rechecked the five-year age-group basis of the total fertility rate, the migration example (+500 people; +5 per 1,000), crude birth/death rate examples (13‰ and 8‰), and the population-balance assumptions.
+- Rechecked the 2025 UN Recommendations on Statistics of International Migration and Temporary Mobility, including the residence-duration criteria, and the distinct roles of WPP 2024 and WUP 2025. No further text change was required.
+
+### Chapter 10 — Political Geography — text editorial scope 100%
+
+- Re-fetched the current file and verified bilingual legal explanations, summaries, questions, activities, bibliography and the matched 17 numbered teaching headings.
+- Rechecked UNCLOS maritime-zone distinctions and baselines: territorial sea up to 12 nautical miles; contiguous-zone outer limit up to 24 nautical miles from baselines; EEZ up to 200 nautical miles from baselines; continental-shelf rights remain legally distinct from EEZ rights.
+- Rechecked conversions: 12 nautical miles = **22.224 km**; 200 nautical miles = **370.4 km**.
+- Rechecked the weighted turnout example: 9,600 / 13,000 × 100 = **73.8%**, not the unweighted 70%. No further text change was required.
+
+### Primary and authoritative sources rechecked
+
+- WMO Greenhouse Gas Bulletin No. 22 (27 October 2026): 2025 globally averaged surface CO₂ = 426.8 ± 0.2 ppm; kept distinct from NOAA's preliminary 2025 marine-surface-site annual mean of 425.62 ± 0.05 ppm.
+- WMO climatological normals: 1991–2020 is the current standard normal period; 1961–1990 remains a fixed reference period for long-term climate-change assessment.
+- WMO Provisional 2026 Guide to Instruments and Methods of Observation (WMO-No. 8): still provisional on 6 November 2026 and submitted to INFCOM-4 for approval on 23–27 November 2026.
+- IUCN Global Ecosystem Typology; CBD Global Biodiversity Framework Targets 2 and 3; Society for Ecological Restoration Third Edition Standards (June 2026).
+- FAO *Status of the World's Soil Resources 2026*; ISRIC SoilGrids 2.0 documentation; UNCCD Convention text.
+- UN World Population Prospects 2024; World Urbanization Prospects 2025 methodology and data; UN 2025 migration recommendations (with 2026 minor revisions); WHO infant-mortality metadata; UNDP Human Development Report 2025 technical notes.
+- IHO official S-23 third edition (1953) and the IHO notice that the 2002 fourth-edition draft is a working document only; official UNCLOS text.
+
+### Progress and release boundary
+
+- **Text-only editorial progress:** Chapters 05, 06, 07, 08, 09 and 10 each reached **100%** for this requested scope. The 10% checkpoints covered baseline/SHA capture, structure, scientific claims, terminology, calculations, source relevance, RU/EN alignment, school-level clarity, corrections and post-save verification.
+- **Overall chapter publication-readiness values:** retained as recorded in the current readiness matrix — Chapter 05: 90%; Chapter 06: 85%; Chapter 07: 85%; Chapter 08: 78%; Chapter 09: 90%; Chapter 10: 85%. These are not the text-only percentages and were not recalculated in this pass.
+- The readiness matrix's visual-status counts for Chapters 06–08 require a separate visual-inventory reconciliation against the chapter files and audit notes. This was not changed because visual work was explicitly outside this task.
+- Remaining release work includes outstanding visual production/review (including Chapter 05 visual 5.18-A), licensing/accessibility checks for visual assets, final layout/rendering, browser/mobile/keyboard/screen-reader QA and deployment checks. No external specialist review or independent peer review is claimed.
+
+### Saved chapter updates and verification
+
+- Chapter 05: commit `857dd4c8a091c43bde0d2be4974cf3a8df826152`; blob `098e9e9b367f2eb15bdb7918a1f8a88623a8d5d5`.
+- Chapter 06: commit `2c7a1cc4fdfcc556cd880ac1c97c3a8232fd617b`; blob `e6f5b7919bc3cda43efd65d461a3da42f3140da9`.
+- Both changed files were re-fetched after their writes; commit diffs contain only the stated text changes. Chapters 07–10 were re-fetched and checked; no further content edits were needed.
+- Latest branch head after these updates: `2c7a1cc4fdfcc556cd880ac1c97c3a8232fd617b`.
