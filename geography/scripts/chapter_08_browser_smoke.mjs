@@ -25,8 +25,15 @@ for (const id of ids) {
 if (!chapter.includes("https://files.isric.org/public/WRB/wrb2014.png")) errors.push("08-B ISRIC map source missing");
 const svgD = readFileSync(resolve("geography/assets/diagrams/08-D-soil-earth-spheres-interface-bilingual.svg"),"utf8");
 const svgG = readFileSync(resolve("geography/assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg"),"utf8");
-if (!svgD.includes('fill="#c3a27e"')) errors.push("08-D central soil panel must retain mobile-safe text contrast background #c3a27e");
-if (!svgG.includes('fill="#a3c19a"')) errors.push("08-G habitat patches must retain mobile-safe text contrast background #a3c19a");
+const channel = h => { const v=parseInt(h,16)/255; return v<=0.04045?v/12.92:((v+0.055)/1.055)**2.4; };
+const luminance = hex => { const h=hex.replace("#",""); return 0.2126*channel(h.slice(0,2))+0.7152*channel(h.slice(2,4))+0.0722*channel(h.slice(4,6)); };
+const contrastRatio = (a,b) => { const x=luminance(a),y=luminance(b); return (Math.max(x,y)+0.05)/(Math.min(x,y)+0.05); };
+const mobileText="#243447";
+for (const [id,svg,bg] of [["08-D",svgD,"#c3a27e"],["08-G",svgG,"#a3c19a"]]) {
+ if (!svg.includes('fill="'+bg+'"')) errors.push(id+" approved mobile-safe background "+bg+" missing");
+ const ratio=contrastRatio(mobileText,bg);
+ if (ratio<4.5) errors.push(id+" mobile text contrast below WCAG AA normal-text threshold: "+ratio.toFixed(2)+":1");
+}
 for (const name of localSvgNames) {
  if (!readFileSync(resolve("geography/assets/diagrams/" + name),"utf8").includes("<svg")) errors.push("Invalid/missing SVG root: " + name);
 }
