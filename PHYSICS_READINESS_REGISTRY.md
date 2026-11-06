@@ -62,14 +62,14 @@
 
 ## 4. Текущая техническая контрольная точка
 
-Кодовая контрольная точка главы 1 с отдельным SHA-scoped acceptance workflow: `d9a1f57e14d5dc07eb061163b12ec6f490727e73` (последующие коммиты — только журнал и реестр)
+Текущий branch HEAD: `cf01db22ef9a70f695e1bb573423d0cd1f0b7020`. Кодовая контрольная точка главы 1: `d9a1f57e14d5dc07eb061163b12ec6f490727e73`; после неё изменялись только документы аудита/реестра.
 
 | Workflow | Run | Состояние | Учитывается |
 |---|---:|---|---|
-| Validate JavaScript | — | не подтверждён на `d9a1f57` | Нет |
-| Physics engine checks | — | не подтверждён на `d9a1f57` | Нет |
-| Physics browser and accessibility smoke | — | глобальные runs отменялись последующими push; на `d9a1f57` не подтверждён | Нет |
-| Chapter 1 Kinematics acceptance | 42229717939 | queued | Нет, до завершения |
+| Validate JavaScript | 42229717979 | queued на `d9a1f57` | Нет, до завершения |
+| Physics engine checks | 42229717836 | queued на `d9a1f57` | Нет, до завершения |
+| Physics browser and accessibility smoke | 42229717826 | cancelled последующим push | Нет |
+| Chapter 1 Kinematics acceptance | 42229717939 | queued на `d9a1f57` | Нет, до завершения |
 
 Результаты старых runs на других SHA не переносятся на эту контрольную точку. Не засчитывать проверки, пока для соответствующего SHA не появится завершённый результат `success`.
 
