@@ -9,21 +9,21 @@
 <text x="70" y="137" font-size="23" font-weight="700" fill="#252b31">1. Момент силы зависит от плеча и направления силы</text>
 <line x1="180" y1="278" x2="760" y2="278" stroke="#8b8d8e" stroke-width="9" stroke-linecap="round"/>
 <circle cx="180" cy="278" r="15" fill="#343a40"/><text x="120" y="318" font-size="17" fill="#343a40">ось</text>
-<line x1="180" y1="278" x2="180" y2="158" stroke="#4779b8" stroke-width="3" stroke-dasharray="7 6"/>
-<text x="195" y="202" font-size="17" fill="#4779b8">r</text>
+<line x1="180" y1="248" x2="680" y2="248" stroke="#4779b8" stroke-width="3" marker-end="url(#blue)"/>
+<text x="420" y="238" font-size="17" fill="#4779b8">r</text>
 <line x1="180" y1="278" x2="690" y2="278" stroke="#343a40" stroke-width="2" marker-end="url(#dark)"/>
 <text x="410" y="306" font-size="17" fill="#343a40">плечо r</text>
 <circle cx="690" cy="278" r="8" fill="#c65b45"/>
 <line x1="690" y1="278" x2="690" y2="155" stroke="#c65b45" stroke-width="5" marker-end="url(#red)"/>
 <text x="710" y="165" font-size="19" font-weight="700" fill="#c65b45">F</text>
-<path d="M245 278 A65 65 0 0 0 245 213" fill="none" stroke="#4779b8" stroke-width="3"/>
-<text x="260" y="235" font-size="18" fill="#4779b8">φ</text>
+<path d="M245 278 A65 65 0 0 0 180 213" fill="none" stroke="#4779b8" stroke-width="3"/>
+<text x="232" y="230" font-size="18" fill="#4779b8">φ</text>
 <text x="815" y="205" font-size="27" font-weight="700" fill="#252b31">τ = rF sin φ</text>
 <text x="815" y="245" font-size="18" fill="#454b50">Максимум при φ = 90°</text>
 <text x="815" y="276" font-size="18" fill="#454b50">Ноль при φ = 0° или 180°</text>
 <text x="815" y="318" font-size="17" fill="#454b50">Плечо — перпендикуляр от оси</text>
 <text x="815" y="342" font-size="17" fill="#454b50">до линии действия силы.</text>
-<rect x="40" y="386" width="545" height="280" rx="18" fill="#fff" stroke="#d9d8d1"/>
+<rect x="40" y="386" width="545" height="300" rx="18" fill="#fff" stroke="#d9d8d1"/>
 <text x="70" y="428" font-size="23" font-weight="700" fill="#252b31">2. Где расположена масса?</text>
 <circle cx="190" cy="535" r="76" fill="none" stroke="#4779b8" stroke-width="18"/>
 <circle cx="190" cy="535" r="4" fill="#343a40"/>
