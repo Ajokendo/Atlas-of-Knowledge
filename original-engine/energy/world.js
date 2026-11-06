@@ -114,8 +114,8 @@ export function buildWorld(E) {
   { const ring = []; for (let i = 0; i < 48; i++) { const a = i / 48 * Math.PI * 2, b = (i + 1) / 48 * Math.PI * 2; ring.push(XB + Math.cos(a) * 0.24, 0.003, Math.sin(a) * 0.24, XB + Math.cos(b) * 0.24, 0.003, Math.sin(b) * 0.24); } lines(root, ring, '#6e6e74'); }
   const barsB = bars(gB, XB + 1.5, 0, 1.45, [['dark', 'K<sub>0</sub>'], ['ink', 'W<sub>g</sub>'], ['blue', 'K']], SC.toss.E, 1.45 - M.toss(0).K * SC.toss.E - 0.2);
   let tossState = M.toss(0);
-  label('board', small('сила тяжести: <b>отрицательная</b> работа', 16), () => tossState.v > 0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
-  label('board', small('сила тяжести: <b>положительная</b> работа', 16), () => tossState.v < -0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
+  label('board', small('<i>W</i><sub>g</sub> &lt; 0', 16), () => tossState.v > 0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
+  label('board', small('<i>W</i><sub>g</sub> &gt; 0', 16), () => tossState.v < -0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
 
   // ---------- 3 · no work: a ball whirled on a string over a smooth table ----------
   const XC = STATIONS.whirl, RC = 0.15, R0 = M.WHIRL.r;
