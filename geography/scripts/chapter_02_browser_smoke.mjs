@@ -18,6 +18,11 @@ try {
     if (missingAlt) errors.push(`${viewport.width}px: ${missingAlt} images lack alt text`);
     const missingSrc = await images.evaluateAll(nodes => nodes.filter(img => !img.getAttribute("src")?.startsWith("https://")).length);
     if (missingSrc) errors.push(`${viewport.width}px: ${missingSrc} images lack HTTPS src`);
+    const decoded = await images.evaluateAll(async nodes => {
+      await Promise.all(nodes.map(img => { img.loading = "eager"; return img.decode().catch(() => null); }));
+      return nodes.filter(img => img.complete && img.naturalWidth > 0).length;
+    });
+    if (decoded !== 56) errors.push(`${viewport.width}px: only ${decoded}/56 images decoded in Chromium`);
     const overflowImages = await images.evaluateAll(nodes => nodes.filter(img => img.getBoundingClientRect().width > document.documentElement.clientWidth + 1).length);
     if (overflowImages) errors.push(`${viewport.width}px: ${overflowImages} images overflow viewport`);
     const dimensions = await page.evaluate(() => ({ scroll: document.documentElement.scrollWidth, client: document.documentElement.clientWidth }));
@@ -33,4 +38,4 @@ try {
 } finally { await browser.close(); }
 console.log(results.join("\n"));
 if (errors.length) { console.error("Browser QA failed:\n" + errors.join("\n")); process.exit(1); }
-console.log("PASS: responsive DOM layout, all alt attributes, HTTPS sources and keyboard skip navigation.");
+console.log("PASS: responsive DOM layout, 56/56 real image decodes, alt attributes, HTTPS sources and keyboard skip navigation.");
