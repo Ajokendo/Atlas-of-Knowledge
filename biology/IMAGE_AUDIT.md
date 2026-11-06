@@ -852,3 +852,16 @@ This is a confirmed page-render defect corrected in source. The current Chromium
 The latest desktop screenshot showed the bilingual explanatory footer at the bottom of `ecology-cycles.svg` extending beyond the visible right edge. Split the long combined sentence into separate Russian and English centered lines and reduced the footer font to 13 px, keeping both lines inside the existing viewBox. Added regression assertions for the two footer baselines and complete English sentence.
 
 This is a confirmed rendered clipping issue corrected in the SVG source. The new Chromium screenshot remains pending; the previous screenshot cannot be used as post-fix evidence.
+
+
+## Post-fix rendered inspection — 6 November 2026
+
+Retrieved the fresh `biology-visual-review` artifact (26 full-page screenshots: 13 Biology pages at 1365 px and 390 px) from successful Chromium workflow [42058031381](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42058031381), commit `13b589ce`. The workflow completed static validation, Chromium testing of every Biology page and screenshot upload successfully. The preceding run [42058008667](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42058008667) also completed successfully.
+
+Re-opened the affected zoology and ecology pages at both desktop and mobile widths and inspected full-resolution page crops:
+
+- `zoology-vertebrates.svg`: bird feet and mammal legs now clear their explanatory caption rows in the desktop rendering. The plate is visible and contained within the mobile page; no page-width overflow or broken image was observed.
+- `zoology-anatomy.svg`: the reptile heading is contained within its card; amphibian, bird and mammal illustrations no longer intrude into the explanatory rows in the desktop rendering. The corresponding mobile page loads and the diagram remains within the page column.
+- `ecology-cycles.svg`: both Russian and English footer lines are visible inside the diagram at desktop width; the diagram also loads within the mobile column without horizontal spill.
+
+**Result:** the three previously documented rendered-layout defects are closed for the inspected desktop/mobile page renderings. The successful Chromium run plus these targeted screenshot inspections are evidence for these specific layout corrections only. They do not close scientific morphology, rights/provenance, full bilingual semantic review or all other pending asset checks. Global Image Verification remains **Pending audit**; no blanket `VERIFIED` status or percentage is inferred.
