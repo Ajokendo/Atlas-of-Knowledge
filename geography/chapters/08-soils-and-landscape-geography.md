@@ -156,7 +156,13 @@ After studying this chapter, readers will be able to explain soil formation and 
 - **Криотурбация** — перемешивание материала в результате процессов замерзания и оттаивания в холодных областях.
 
 ## 8.7. География и классификация почв / Soil Geography and Classification
-> **[МЕТКА ИЛЛЮСТРАЦИИ 08-B / IMAGE PLACEHOLDER 08-B]** Карта основных почвенных групп мира с указанием классификационной системы. / Map of major global soil groups identifying the classification system.
+
+<!-- VISUAL ID 08-B — ISRIC WRB 2014 global map, reproduced unchanged -->
+![Глобальная карта почв по WRB 2014, составленная на основе Harmonized World Soil Database v1.2; некоторые реферативные группы объединены в общие классы легенды. Это не карта по WRB 2022. / Global soil map according to WRB 2014, derived from Harmonized World Soil Database v1.2; some Reference Soil Groups are combined in shared legend classes. This is not a WRB 2022 map.](https://files.isric.org/public/WRB/wrb2014.png)
+
+*08-B. Карта ISRIC World Soil Information воспроизведена без изменений. Составители карты: Thomas Caspari и Peter Schad; исходная компиляция — 2015 год, публикация технической записки — 2023 год. © 2022 ISRIC. ISRIC разрешает воспроизведение и распространение при полном указании источника; этот сторонний материал не переводится на CC BY-NC 4.0. [Полный постер и техническая записка](https://files.isric.org/public/WRB/ISRIC_WRB-map_2015_final.pdf). / ISRIC World Soil Information map reproduced unchanged. Map compilers: Thomas Caspari and Peter Schad; original compilation: 2015; technical note published: 2023. © 2022 ISRIC. ISRIC permits reproduction and dissemination provided the source is fully acknowledged; this third-party material is not relicensed under CC BY-NC 4.0. [Full poster and technical note](https://files.isric.org/public/WRB/ISRIC_WRB-map_2015_final.pdf).*
+
+**Как читать карту / Reading the map.** Карта основана на HWSD v1.2 и показывает обобщённое распределение почв по WRB 2014. Несколько RSG объединены в общие классы легенды; карта не отображает все 32 группы отдельными цветами, не является полевой съёмкой и не представляет обновление WRB 2022. Дополнительные категории включают ледники и постоянный снег, внутренние воды и территории без данных. Используйте карту для глобального обзора, а не для оценки отдельного участка. / The map is based on HWSD v1.2 and presents a generalised distribution of soils according to WRB 2014. Several RSGs are combined in shared legend classes; the map does not display all 32 groups as separate colours, is not a field survey, and is not an update to WRB 2022. Ancillary categories include glaciers and permanent snow, inland water, and no-data areas. Use it for global overview, not site-level assessment.
 
 
 
@@ -454,6 +460,14 @@ Soils develop through combinations of processes that may reinforce or counteract
 - **Cryoturbation:** mixing of soil material through freezing and thawing in cold regions.
 
 ### 8.7. Soil Geography and Classification
+
+<!-- VISUAL ID 08-B — ISRIC WRB 2014 global map, reproduced unchanged -->
+![Global soil map according to WRB 2014, derived from Harmonized World Soil Database v1.2; some Reference Soil Groups are combined in shared legend classes. This is not a WRB 2022 map.](https://files.isric.org/public/WRB/wrb2014.png)
+
+*08-B. ISRIC World Soil Information map reproduced unchanged. Map compilers: Thomas Caspari and Peter Schad; original compilation: 2015; technical note published: 2023. © 2022 ISRIC. ISRIC permits reproduction and dissemination provided the source is fully acknowledged; this third-party material is not relicensed under CC BY-NC 4.0. [Full poster and technical note](https://files.isric.org/public/WRB/ISRIC_WRB-map_2015_final.pdf).*
+
+**Reading the map.** The map is based on HWSD v1.2 and presents a generalised distribution of soils according to WRB 2014. Several RSGs are combined in shared legend classes; the map does not display all 32 groups as separate colours, is not a field survey, and is not an update to WRB 2022. Ancillary categories include glaciers and permanent snow, inland water, and no-data areas. Use it for global overview, not site-level assessment.
+
 
 Soil distribution is systematically related to climate, vegetation, relief, parent material and regional history. In plains, latitudinal soil zonation may be evident; in mountains, soils often show altitudinal belts. However, soil maps do not simply reproduce climate-zone maps: local drainage, slope aspect, parent material and land use also matter.
 
