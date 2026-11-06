@@ -1653,3 +1653,34 @@ The Chapter 02 replacement milestone remains **11/11 complete**. The technical p
 - Remote endpoint probe: **25 PASS, 3 WARN, 0 FAIL**. No endpoint returned HTTP 404 or 410.
 - Warnings were: two NOAA image endpoints returned HTTP 403 to the GitHub Actions runner; the Wikimedia phosphorus-cycle image returned HTTP 429 (rate limiting). These are access/rate-limit responses, not evidence of missing files. The two NOAA images and the phosphorus-cycle image remain subject to a real-browser load check; do not mark them broken or replace them solely on these responses.
 - The workflow is a source/inventory and remote-endpoint check. It does not emulate a production reader or test responsive layout, keyboard operation or screen-reader output.
+
+
+## Chapter 02 — hosted browser QA and corrected inventory confirmation — 6 November 2026
+
+This section supersedes the earlier **PENDING** hosted-CI and **BLOCKED** isolated-browser-QA statements above. Those earlier statements were accurate at the time they were written; the following tests subsequently completed.
+
+### Current source inventory and image endpoint probe
+
+- Workflow: [Geography Chapter 02 image integrity](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42158901659) — **SUCCESS**.
+- Tested commit: `73581068492afc991a1e7152736408c066fd872e`; job: `127699570282`.
+- Confirmed 56 image embeds, 28 unique HTTPS image URLs, each URL appearing exactly twice (RU/EN), 56 non-empty alt attributes, zero local image references and zero retired Chapter 02 SVG references.
+- Remote endpoint results: **25 PASS, 3 WARN, 0 FAIL**. The two NOAA image endpoints returned HTTP 403 to the GitHub Actions runner; the Wikimedia phosphorus-cycle image returned HTTP 429. No URL returned HTTP 404/410. These three warnings remain unconfirmed for ordinary browser access and are not evidence that the images are missing.
+
+### Isolated responsive browser QA
+
+- Workflow: [Geography Chapter 02 visual browser QA](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42158898127) — **SUCCESS**.
+- Tested commit: `6d9af19196587adf18df66f1e1451dce3ab006e3`; job: `127699579266`.
+- The QA preview is generated from the current Chapter 02 Markdown source. Since Russian and English content is interleaved in one Markdown file, the preview correctly renders all 56 bilingual image embeds together rather than incorrectly splitting the file into two language blocks.
+- Chromium checks passed at **390 × 844** and **1365 × 900**: 56 image embeds present; all have non-empty alt attributes and HTTPS sources; no image or page horizontal overflow; keyboard Tab reaches the skip link first and Enter navigates to the visual section.
+- This validates the isolated QA harness and responsive image layout, not the production chapter reader. It does not test image naturalWidth/rendered success for each remote source, because endpoint access is independently constrained for three assets.
+
+### Updated technical status
+
+- Source inventory and bilingual pairing: **PASS**.
+- Static alt-text presence and HTTPS checks: **PASS**.
+- Hosted endpoint probe: **25 PASS / 3 WARN / 0 FAIL**.
+- Isolated Chromium responsive and keyboard smoke test: **PASS at mobile and desktop viewports**.
+- Production reader / deployed-page rendering: **NOT TESTED**; the existing Pages workflow still deploys only from `main`, and this work did not change publishing settings.
+- Screen-reader announcement quality, zoom/reflow beyond the tested widths, image fallback behaviour and production performance: **NOT TESTED**.
+
+The Chapter 02 visual replacement milestone remains **11/11 complete**. Browser QA has advanced from pending to passed for the isolated preview, but production publication readiness is not certified by this test alone.
