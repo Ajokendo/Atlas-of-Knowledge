@@ -1207,6 +1207,7 @@ for (const check of regionalFaunaSvgChecks) {
 
 
 let scrollableRegionalDiagrams = 0;
+let regionalDiagramHints = 0;
 for (const file of pages) {
   const html = fs.readFileSync(file, "utf8");
   const rel = path.relative(root, file);
@@ -1221,6 +1222,12 @@ for (const file of pages) {
     if (!/<img\b[^>]*\bsrc=["'][^"']+\.svg(?:[?#][^"']*)?["']/i.test(body)) {
       errors.push(rel + ": scrollable regional diagram region must contain its SVG image");
     }
+    const following = html.slice(region.index + region[0].length, region.index + region[0].length + 500);
+    if (/^\s*<p class=["']regional-figure__scroll-hint["'][\s\S]*?<span class=["']ru["'][\s\S]*?<\/span>[\s\S]*?<span class=["']en["']/i.test(following)) {
+      regionalDiagramHints++;
+    } else {
+      errors.push(rel + ": scrollable regional diagram must have a visible bilingual mobile scroll hint");
+    }
   }
   if (regions.length && (!html.includes(".regional-figure__media--diagram{height:405px") || !html.includes("min-width:720px"))) {
     errors.push(rel + ": mobile SVG inspection must retain the independently scrollable enlarged diagram viewport");
@@ -1229,9 +1236,12 @@ for (const file of pages) {
 if (scrollableRegionalDiagrams !== 15) {
   errors.push("Expected 15 keyboard-accessible scrollable regional SVG diagrams; found " + scrollableRegionalDiagrams);
 }
+if (regionalDiagramHints !== 15) {
+  errors.push("Expected 15 bilingual regional diagram scroll hints; found " + regionalDiagramHints);
+}
 
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
 }
-console.log("Biology checks passed: " + pages.length + " HTML pages, " + links + " local paths, " + scripts + " inline scripts, " + buttons + " typed buttons, " + dynamicRegions + " accessible dynamic output regions, " + scrollableRegionalDiagrams + " keyboard-accessible regional SVG viewports.");
+console.log("Biology checks passed: " + pages.length + " HTML pages, " + links + " local paths, " + scripts + " inline scripts, " + buttons + " typed buttons, " + dynamicRegions + " accessible dynamic output regions, " + scrollableRegionalDiagrams + " keyboard-accessible regional SVG viewports and " + regionalDiagramHints + " bilingual mobile hints.");
