@@ -174,6 +174,14 @@ Limitations include:
 
 **Axis order requires a separate check.** The formal EPSG:4326 definition lists its axes as latitude, longitude, while many GIS interfaces, formats and software libraries use longitude, latitude for the familiar x/y pair. Behaviour depends on the format and the version of the protocol or API. Do not infer coordinate order from the EPSG:4326 label alone: read the metadata and documentation for the specific exchange format or service, then test a known control point. Swapped axes can place a feature in a completely different region.
 
+### Geographic and projected coordinate systems — English explanation
+
+A coordinate reference system (CRS) defines how coordinate values are related to the Earth. Its definition includes a geodetic reference frame or datum, an ellipsoid, coordinate axes and units, and, for a projected CRS, a map projection and its parameters.
+
+WGS 84 is a widely used global geodetic reference system for satellite navigation and mapping. However, datasets may use different datums, realizations, coordinate epochs or national reference systems. An EPSG code identifies a registered CRS or geodetic object; it does not by itself prove that the selected transformation is appropriate for every dataset or location.
+
+Geographic coordinates are angular values, usually latitude and longitude. Projected coordinates are planar values, commonly expressed in metres. For distance, area and buffer analysis, choose a suitable projected CRS whose area of use and distortion characteristics fit the study region and task. A GIS may reproject layers for display “on the fly”, but this does not rewrite the source coordinates or remove errors in the source data.
+
 ## 14.5. Картографические проекции в ГИС / Map Projections in GIS
 
 Картографическая проекция преобразует координаты поверхности Земли в плоскую систему. Любая проекция искажает некоторые свойства — площадь, форму, расстояние или направление.
@@ -1102,6 +1110,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 18. Scottish Government Design System. **Using colour in maps.** Guidance on choosing sequential, diverging and qualitative palettes and checking contrast/accessibility. https://designsystem.gov.scot/guidance/maps/using-colour-in-maps
 19. QGIS Documentation. **Setting a Colour Ramp.** Official description of sequential and other colour-ramp construction in QGIS. https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html
 20. QGIS Documentation. **Raster Terrain Analysis.** Official documentation of slope and aspect algorithms, output conventions and vertical scale factors. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html
+21. EPSG Geodetic Parameter Dataset. **WGS 84 (EPSG:4326).** CRS definition, axis order and area of use. https://epsg.org/crs_4326/WGS-84.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
