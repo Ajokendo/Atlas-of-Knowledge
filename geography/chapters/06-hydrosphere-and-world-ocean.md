@@ -80,7 +80,9 @@
 
 ## 6.3. Мировой океан: единая система / The World Ocean as an Integrated System
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6-B / IMAGE PLACEHOLDER 6-B]** Карта пяти океанов с указанием используемой гидрографической классификации и границы Южного океана.
+![Карта показывает расположение пяти океанов в обобщённом виде. Контуры материков и океанические подписи служат ориентиром; границы не являются точной гидрографической делимитацией и карта не предназначена для навигации.](../assets/06-3-B-five-oceans-bilingual.svg)
+
+*Карта показывает расположение пяти океанов в обобщённом виде. Контуры материков и океанические подписи служат ориентиром; границы не являются точной гидрографической делимитацией и карта не предназначена для навигации. / Generalized orientation map of the five oceans. Continents and labels are schematic; boundaries are not a precise hydrographic delimitation and the map is not for navigation.*
 > **EN:** Map of the five oceans identifying the hydrographic classification used and the boundary of the Southern Ocean.
 
 *Картографическая основа-кандидат: Flanders Marine Institute, Global Oceans and Seas v1 (2021), DOI [10.14284/542](https://doi.org/10.14284/542), CC BY 4.0; слой `MarineRegions:goas` доступен через [WFS GeoServer VLIZ](https://geo.vliz.be/geoserver/MarineRegions/ows). Слой включает десять океанических и морских регионов, поэтому итоговая карта должна явно объяснить, как из этой классификации выделяются пять океанов. Линия Южного океана будет обозначена как конвенция набора данных, а не как универсально утверждённая граница IHO. Это пока источник геометрии-кандидат, а не готовая или проверенная карта. / **EN:** Candidate cartographic base: Flanders Marine Institute, Global Oceans and Seas v1 (2021), DOI [10.14284/542](https://doi.org/10.14284/542), CC BY 4.0; layer `MarineRegions:goas` is exposed through the [VLIZ WFS GeoServer](https://geo.vliz.be/geoserver/MarineRegions/ows). The layer contains ten ocean and sea regions, so the final map must explain how the five-ocean classification is derived from it. The Southern Ocean line will be identified as the dataset's convention, not a universally ratified IHO boundary. This is a candidate geometry source, not a completed or verified map.
@@ -102,7 +104,7 @@
 
 При публикации точных площадей и средних глубин необходимо использовать одну согласованную гидрографическую классификацию: оценки меняются в зависимости от того, какие моря и окраинные бассейны включены в расчёт.
 
-**Место для иллюстрации 6-B — The Five Oceans.** Политически нейтральная физическая карта океанов с границами выбранной гидрографической системы, ключевыми морями и основными проливами.
+
 **EN production brief:** Prepare a politically neutral physical map of the oceans, showing the boundaries of the selected hydrographic system, major seas and principal straits.
 
 ## 6.4. Рельеф океанического дна / Ocean-Floor Relief
@@ -180,8 +182,6 @@
 - приливные течения;
 - прибрежные и локальные течения.
 
-**Место для иллюстрации 6-D — Ocean Motion.** Схема ветровых волн, приливов и поверхностных/глубинных течений с раздельными условными обозначениями.
-**EN production brief:** Show wind waves, tides and surface/deep currents using distinct symbols and separate panels or clearly separated layers.
 
 ## 6.7. Глобальная океаническая циркуляция / Global Ocean Circulation
 
@@ -224,7 +224,9 @@
 
 ## 6.9. Морские экосистемы и биологическая продуктивность / Marine Ecosystems and Productivity
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.9-A / IMAGE PLACEHOLDER 6.9-A]** Разрез от побережья до открытого океана с литоралью, рифом, пелагиалью, бенталью и глубоководной зоной. / **EN:** Coastal-to-open-ocean cross-section showing the littoral zone, reef, pelagic realm, benthic realm and deep-sea zone.
+![Учебный разрез экологических зон; термины описывают разные пространственные признаки, а схема не является батиметрической съёмкой.](../assets/06-9-A-marine-zones-bilingual.svg)
+
+*Учебный разрез экологических зон; термины описывают разные пространственные признаки, а схема не является батиметрической съёмкой. / Teaching cross-section of marine ecological zones; terms describe different spatial dimensions and the figure is not a bathymetric survey.*
 
 Океанические экосистемы отличаются по освещённости, глубине, температуре, солёности, доступности питательных веществ и характеру субстрата.
 
@@ -241,7 +243,7 @@
 
 К важным экосистемам относятся коралловые рифы, мангровые леса, морские травяные луга, солёные марши, открытый океан и глубоководные сообщества.
 
-**Место для иллюстрации 6.9-A — Ocean Ecosystems.** Разрез от побережья до открытого океана с литоралью, рифом, пелагиалью, бенталью и глубоководной зоной.
+
 **EN production brief:** Create a coastal-to-open-ocean cross-section showing the littoral zone, reef, pelagic realm, benthic realm and deep-sea zone. Do not imply that zone boundaries occur at universal depths.
 
 ## 6.10. Морские ресурсы и хозяйственное использование океана / Marine Resources and Ocean Uses
@@ -260,7 +262,9 @@
 
 ## 6.11. Загрязнение океана и охрана морской среды / Ocean Pollution and Marine Protection
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.11-A / IMAGE PLACEHOLDER 6.11-A]** Пути поступления загрязнителей с суши, судов и атмосферного переноса, а также меры предотвращения. / **EN:** Pollutant pathways from land, ships and atmospheric transport, with prevention measures.
+![Концептуальная схема основных путей загрязнения и мер предотвращения; не количественная оценка вкладов источников.](../assets/06-11-A-ocean-pollution-pathways-bilingual.svg)
+
+*Концептуальная схема основных путей загрязнения и мер предотвращения; не количественная оценка вкладов источников. / Conceptual diagram of major pollution pathways and prevention measures; not a quantitative source-apportionment.*
 
 Основные источники загрязнения:
 - пластик и микропластик;
@@ -281,12 +285,14 @@
 - мониторинг качества воды и состояния экосистем;
 - международное сотрудничество.
 
-**Место для иллюстрации 6.11-A — Ocean Pollution Pathways.** Схема путей поступления загрязнителей с суши, судов и атмосферного переноса; показать меры предотвращения на каждом этапе.
+
 **EN production brief:** Diagram pollutant pathways from land, ships and atmospheric transport. Show prevention or mitigation measures at each stage.
 
 ## 6.12. Ледники, морской лёд и криосфера / Glaciers, Sea Ice and the Cryosphere
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.12-A / IMAGE PLACEHOLDER 6.12-A]** Компоненты криосферы: ледники, ледяные щиты, морской лёд, сезонный снег и многолетняя мерзлота. / **EN:** Cryosphere components: glaciers, ice sheets, sea ice, seasonal snow and permafrost.
+![Схема различает наземный лёд, сезонный снег, мерзлоту и плавающий морской лёд; географические положения условны.](../assets/06-12-A-cryosphere-components-bilingual.svg)
+
+*Схема различает наземный лёд, сезонный снег, мерзлоту и плавающий морской лёд; географические положения условны. / Schematic distinguishes land ice, seasonal snow, permafrost and floating sea ice; locations are illustrative.*
 
 Криосфера включает все компоненты Земли, где вода находится в твёрдом состоянии: ледники, ледяные щиты, морской лёд, сезонный снежный покров, многолетнюю мерзлоту и подземный лёд.
 
@@ -298,12 +304,14 @@
 
 Баланс массы — разность между накоплением снега и льда и потерями вследствие таяния, сублимации, откалывания айсбергов и других процессов. Положительный баланс означает увеличение массы за рассматриваемый период, отрицательный — её уменьшение.
 
-**Место для иллюстрации 6.12-A — Cryosphere Components.** Карта и разрез, показывающие ледники, ледяные щиты, морской лёд, сезонный снег и многолетнюю мерзлоту; визуально различать наземный и морской лёд.
+
 **EN production brief:** Use a map and cross-section to show glaciers, ice sheets, sea ice, seasonal snow and permafrost. Visually distinguish land ice from floating sea ice.
 
 ## 6.13. Реки и речные бассейны / Rivers and Drainage Basins
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.13-A / IMAGE PLACEHOLDER 6.13-A]** Строение речного бассейна: водораздел, исток, притоки, главное русло, пойма и устье. / **EN:** Drainage-basin anatomy showing the watershed divide, source, tributaries, main channel, floodplain and mouth.
+![Обобщённая схема водосбора; реальная сеть русел и границы бассейна зависят от рельефа и геологии.](../assets/06-13-A-river-basin-anatomy-bilingual.svg)
+
+*Обобщённая схема водосбора; реальная сеть русел и границы бассейна зависят от рельефа и геологии. / Generalized catchment schematic; actual channel networks and basin boundaries depend on topography and geology.*
 
 Река — естественный водный поток, движущийся по руслу от истока к устью. Реки получают воду из осадков, таяния снега и льда, подземного питания и притоков.
 
@@ -321,7 +329,7 @@
 
 Реки выполняют экологические, транспортные, энергетические и водоснабженческие функции. Плотины и водозаборы меняют естественный режим стока, перенос наносов и миграцию водных организмов.
 
-**Место для иллюстрации 6.13-A — River Basin Anatomy.** Схема бассейна с водоразделом, истоком, притоками, главным руслом, поймой и устьем.
+
 **EN production brief:** Diagram a drainage basin with the watershed divide, source, tributaries, main channel, floodplain and river mouth.
 
 ### 6.13.1. Практический пример: оценка расхода воды в реке / Worked Example: Estimating River Discharge
@@ -351,7 +359,9 @@ Q = A \times v,
 
 ## 6.14. Озёра и внутренние водоёмы / Lakes and Inland Waters
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.14-A / IMAGE PLACEHOLDER 6.14-A]** Типы озёрных котловин и разрез стратифицированного озера. / **EN:** Types of lake basins and a cross-section of a stratified lake.
+![Слева показаны условные формы четырёх типов котловин, справа — упрощённая сезонная стратификация; это не измеренные профили.](../assets/06-14-A-lake-types-structure-bilingual.svg)
+
+*Слева показаны условные формы четырёх типов котловин, справа — упрощённая сезонная стратификация; это не измеренные профили. / Illustrative forms of four basin types and a simplified seasonal stratification; not measured profiles.*
 
 Озеро — естественный водоём в углублении суши, не имеющий прямого свободного соединения с океаном. Искусственные водоёмы, созданные плотинами или выемкой грунта, корректнее называть водохранилищами или искусственными прудами, хотя в повседневной речи их иногда называют искусственными озёрами. Озёра различаются по происхождению, глубине, солёности, водному балансу и биологической продуктивности.
 
@@ -368,12 +378,14 @@ Q = A \times v,
 
 **Эвтрофикация** — обогащение водоёма питательными веществами, прежде всего соединениями азота и фосфора. Чрезмерная эвтрофикация может вызывать цветение воды, снижение прозрачности и дефицит кислорода.
 
-**Место для иллюстрации 6.14-A — Lake Types and Lake Structure.** Сравнить тектоническую, ледниковую, вулканическую и карстовую котловины; дополнить разрезом стратифицированного озера.
+
 **EN production brief:** Compare tectonic, glacial, volcanic and karst lake basins, and add a cross-section of a stratified lake.
 
 ## 6.15. Подземные воды / Groundwater
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.15-A / IMAGE PLACEHOLDER 6.15-A]** Геологический разрез водоносной системы с зоной аэрации, уровнем грунтовых вод, водоносными горизонтами, водоупорами, скважинами и источником. / **EN:** Geological cross-section of a groundwater system showing the unsaturated zone, water table, aquifers, aquitards, wells and a spring.
+![Концептуальный геологический разрез; положение горизонтов и скважин не соответствует конкретному месторождению.](../assets/06-15-A-groundwater-system-bilingual.svg)
+
+*Концептуальный геологический разрез; положение горизонтов и скважин не соответствует конкретному месторождению. / Conceptual geological section; aquifers and wells are not site-specific.*
 
 Подземные воды находятся в порах, трещинах и полостях горных пород. Они формируются преимущественно за счёт инфильтрации атмосферных осадков и поверхностных вод, хотя в отдельных геологических условиях возможны и другие источники.
 
@@ -386,7 +398,7 @@ Q = A \times v,
 
 Подземные воды важны для питьевого водоснабжения, сельского хозяйства и поддержания речного стока в засушливые сезоны. Их уязвимость зависит от глубины, проницаемости пород, времени обновления и характера землепользования.
 
-**Место для иллюстрации 6.15-A — Groundwater System.** Геологический разрез с зоной аэрации, уровнем грунтовых вод, водоносными горизонтами, водоупорами, скважинами и источником.
+
 **EN production brief:** Draw a geological cross-section showing the unsaturated zone, water table, aquifers, aquitards, wells and a spring.
 
 ## 6.16. Водные ресурсы, дефицит и управление / Water Resources, Scarcity and Management
@@ -411,7 +423,9 @@ Q = A \times v,
 
 ## 6.17. Вода и климатические изменения / Water and Climate Change
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.17-A / IMAGE PLACEHOLDER 6.17-A]** Причинно-следственная схема влияния потепления на снег, ледники, испарение, осадки, сток и гидрологические экстремумы. / **EN:** Cause-and-effect diagram showing how warming affects snow, glaciers, evaporation, precipitation, runoff and hydrological extremes.
+![Схема показывает возможные причинные связи; региональные реакции различаются, а направление и величина изменений зависят от условий.](../assets/06-17-A-climate-water-cycle-bilingual.svg)
+
+*Схема показывает возможные причинные связи; региональные реакции различаются, а направление и величина изменений зависят от условий. / Possible causal pathways; regional responses vary and direction and magnitude depend on local conditions.*
 
 Изменение климата воздействует на гидрологический цикл через изменение испарения, интенсивности осадков, снегового накопления, таяния ледников и частоты экстремальных событий.
 
@@ -424,7 +438,7 @@ Q = A \times v,
 
 Последствия зависят от географии, инфраструктуры и способности общества адаптироваться. Изменение осадков и стока не следует описывать как одинаковое для всех регионов.
 
-**Место для иллюстрации 6.17-A — Climate Change and the Water Cycle.** Причинно-следственная схема влияния потепления на снег, ледники, испарение, осадки, сток и экстремальные гидрологические явления.
+
 **EN production brief:** Create a cause-and-effect diagram showing how warming can affect snow, glaciers, evaporation, precipitation, runoff and hydrological extremes. Distinguish observed trends from projections where data are shown.
 
 ### 6.17.1. Как составить простой водный баланс водосбора / Building a Simple Catchment Water Balance
@@ -480,7 +494,9 @@ Q = A \times v,
 
 ## Практическая работа / Practical Assignment
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 6.18-A / IMAGE PLACEHOLDER 6.18-A]** Учебная карта речного бассейна, таблица водного баланса и график сезонного расхода реки. / **EN:** Teaching map of a river basin, water-balance table and seasonal river-discharge graph.
+![Учебные значения и сезонная кривая условны; для реального анализа нужны наблюдения конкретного бассейна.](../assets/06-18-A-catchment-exercise-bilingual.svg)
+
+*Учебные значения и сезонная кривая условны; для реального анализа нужны наблюдения конкретного бассейна. / Teaching values and seasonal curve are illustrative; real analysis requires observations from a specific basin.*
 
 **Задание: анализ водного баланса и речного бассейна.**
 
@@ -506,7 +522,7 @@ P = ET + R + \Delta S,
 
 Дополнительное задание: сравните два океанических региона по температуре поверхности, солёности и направлению основных течений, используя карту и данные с указанием периода наблюдений.
 
-**Место для иллюстрации 6.18-A — Hydrological Basin Exercise.** Учебная карта бассейна, таблица водного баланса и график сезонного расхода реки.
+
 **EN production brief:** Prepare a teaching basin map, a water-balance table and a seasonal river-discharge graph. Label all data as hypothetical unless they are taken from a named, dated source.
 
 ## English-language chapter text
