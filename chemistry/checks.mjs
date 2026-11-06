@@ -1065,6 +1065,23 @@ if (fs.existsSync(atomicStructurePath)) {
   errors.push("chapters/atomic-structure.html: atomic structure chapter is missing");
 }
 
+
+// CH-IV05: the molecular canvas should not run a permanent animation-frame loop while idle.
+const moleculeLabPath = path.join(root, "molecule-lab.html");
+if (fs.existsSync(moleculeLabPath)) {
+  const moleculeLabSource = fs.readFileSync(moleculeLabPath, "utf8");
+  if (!moleculeLabSource.includes('function animate(time){if(!spinning)return;') &&
+      !moleculeLabSource.includes('function animate(time){if(!spinning){lastFrame=0;return}')) {
+    errors.push("molecule-lab.html: animation loop must stop scheduling frames while auto-rotation is off");
+  }
+  if (!moleculeLabSource.includes('if(spinning){lastFrame=0;requestAnimationFrame(animate)}') ||
+      moleculeLabSource.includes('render();requestAnimationFrame(animate);')) {
+    errors.push("molecule-lab.html: animation frames should start only when the learner enables auto-rotation");
+  }
+} else {
+  errors.push("molecule-lab.html: molecular geometry interactive is missing");
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
