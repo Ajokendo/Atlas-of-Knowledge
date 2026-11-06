@@ -705,3 +705,15 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Rights review: PASS — project owner explicitly approved CC BY-NC 4.0 on 2026-11-06; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Integration: chapters/oscillations.html, section “6. Затухающие и вынужденные колебания”.
 - Mobile check: Pending current-HEAD browser smoke and screenshot review at 390×844.
+
+
+## PHY-07-001 — Chapter 07 «Вращение»
+
+- Desktop: `assets/visuals/phy-07-rotation-principles.svg` (1200×720).
+- Mobile: `assets/visuals/phy-07-rotation-principles-mobile.svg` (600×1320).
+- Placement: Russian standalone page `chapters/rotation.html`, immediately before the introduction.
+- Content: (1) moment of force and lever arm, including the angle dependence `τ = rF sin φ`; (2) comparison of a thin ring and solid disc, `I = MR²` and `I = ½MR²`; (3) conservation of angular momentum for a skater changing arm position, `L = Iω = const`.
+- Category: C — independently authored educational SVG diagram; no third-party visual source used. The two files are separate desktop/mobile compositions of the same visual.
+- Accessibility: SVG title and description included; the page supplies descriptive alternative text and a visible caption.
+- Rights / publication licence: **PENDING** — no publication licence is assigned by this entry. Obtain a separate project-owner decision before external redistribution under a named licence.
+- Rendering status: source dimensions and markup integrated; desktop/mobile browser rendering and screenshot review remain pending.
