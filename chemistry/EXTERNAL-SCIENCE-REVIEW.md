@@ -1,18 +1,21 @@
-# Chemistry Atlas — independent scientific review record
+# Chemistry Atlas — competent second-review record
 
-Purpose: provide an auditable, chapter-by-chapter acceptance record for an independent chemistry educator or subject-matter expert. This review is separate from repository CI and the automated accessibility audit.
+Purpose: provide an auditable, chapter-by-chapter scientific/factual review by a competent reviewer who is distinct from the creator of the assets being reviewed. The reviewer may be an appropriately qualified member of the Atlas project team; an external chemistry educator or subject-matter expert is optional additional assurance. This review is separate from repository CI and the automated accessibility audit.
 
 ## Reviewer details
 
-- Reviewer:
-- Qualifications / relevant teaching or research experience:
+- Reviewer name / identifier:
+- Project role and relationship to the assets:
+- Relevant chemistry competence (education, teaching, research, professional practice, or equivalent):
+- Evidence of competence / relevant experience:
+- External reviewer? Yes / No
 - Institution (optional):
 - Review date:
 - Version / commit reviewed:
 - Languages reviewed: Russian / English / both
 - Overall recommendation: Accept / Accept with corrections / Reject pending revision
 
-For every item, record **Pass**, **Correction required**, or **Not applicable**, with a page/section reference and evidence. Do not mark an item as passed solely because the page loads or a script test succeeds.
+For every item, record **Pass**, **Correction required**, or **Not applicable**, with a page/section reference and concrete evidence. The reviewer must be distinct from the creator of the asset under review and competent for the subject matter. Do not mark an item as passed solely because the page loads, a script test succeeds, or the creator approves their own work. If reviewer identity, competence, or separation from the creator is not established, leave the review PENDING.
 
 ## Chapter-by-chapter scientific review
 
@@ -68,6 +71,8 @@ Severity guide:
 
 ## Final sign-off
 
+- [ ] Reviewer is distinct from the creator(s) of the reviewed assets.
+- [ ] Reviewer competence is documented for the reviewed chemistry topics.
 - [ ] All 12 chapters reviewed.
 - [ ] All interactive resources reviewed.
 - [ ] RU/EN scientific parity reviewed.
