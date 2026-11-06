@@ -1,8 +1,11 @@
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
+import { mkdirSync } from 'node:fs';
 
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
 const failures = [];
+const screenshotDir = '/tmp/physics-visual-review/work-energy';
+mkdirSync(screenshotDir, { recursive: true });
 const browser = await chromium.launch({
   headless: true,
   args: ['--enable-webgl', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--use-gl=angle', '--use-angle=swiftshader'],
@@ -134,6 +137,7 @@ async function check(viewport, mobile) {
     if (hasOverflow) throw new Error('Horizontal page overflow');
     if (errors.length) throw new Error(errors.join(' | '));
 
+    await page.screenshot({ path: `${screenshotDir}/standalone-${mobile ? 'mobile' : 'desktop'}.png`, fullPage: true });
     console.log(`PASS work-energy ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — 9 sections, live energy calculations, canvas chart, quiz, WebGL lab ${lab.width}×${lab.height}, serious/critical axe violations: 0`);
   } catch (error) {
     failures.push(`work-energy ${mobile ? 'mobile' : 'desktop'}: ${error.message}`);
