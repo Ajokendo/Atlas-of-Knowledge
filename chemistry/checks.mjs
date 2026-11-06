@@ -1140,13 +1140,14 @@ if (fs.existsSync(periodicTableDataPath)) {
 const moleculeLabPath = path.join(root, "molecule-lab.html");
 if (fs.existsSync(moleculeLabPath)) {
   const moleculeLabSource = fs.readFileSync(moleculeLabPath, "utf8");
-  if (!moleculeLabSource.includes('function animate(time){if(!spinning)return;') &&
-      !moleculeLabSource.includes('function animate(time){if(!spinning){lastFrame=0;return}')) {
+  if (!moleculeLabSource.includes('function animate(time){animationFrame=0;if(!spinning){lastFrame=0;return}') ||
+      !moleculeLabSource.includes('animationFrame=requestAnimationFrame(animate)')) {
     errors.push("molecule-lab.html: animation loop must stop scheduling frames while auto-rotation is off");
   }
-  if (!moleculeLabSource.includes('if(spinning){lastFrame=0;requestAnimationFrame(animate)}') ||
+  if (!moleculeLabSource.includes('if(spinning){lastFrame=0;animationFrame=requestAnimationFrame(animate)}') ||
+      !moleculeLabSource.includes('cancelAnimationFrame(animationFrame)') ||
       moleculeLabSource.includes('render();requestAnimationFrame(animate);')) {
-    errors.push("molecule-lab.html: animation frames should start only when the learner enables auto-rotation");
+    errors.push("molecule-lab.html: animation frames should start only when enabled and be cancelled when disabled");
   }
 } else {
   errors.push("molecule-lab.html: molecular geometry interactive is missing");
