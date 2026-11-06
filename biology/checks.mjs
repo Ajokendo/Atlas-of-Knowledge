@@ -46,6 +46,9 @@ for (const file of pages) {
     for (const img of figure[0].matchAll(/<img\b([^>]*)>/gi)) {
       const alt = img[1].match(/\balt=["']([^"']*)["']/i);
       if (!alt || !alt[1].trim()) errors.push(rel + ": content image inside figure must have non-empty alt text");
+      else if (!/[А-Яа-яЁё]/.test(alt[1]) || !/[A-Za-z]/.test(alt[1])) {
+        errors.push(rel + ": content image alt text must describe the image in both Russian and English");
+      }
     }
   }
   for (const anchor of html.matchAll(/<a\b([^>]*\bhref=["']https?:\/\/[^"']+["'][^>]*)>/gi)) {
