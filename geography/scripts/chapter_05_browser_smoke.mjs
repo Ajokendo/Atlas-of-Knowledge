@@ -54,7 +54,7 @@ try {
    const selected=nodes.filter(img=>{if(!remaining[img.alt])return false;remaining[img.alt]--;return true;});
    await Promise.all(selected.map(img=>{img.loading="eager";return img.decode().catch(()=>null)}));
    return selected.filter(img=>img.complete&&img.naturalWidth>0).length;
-  },expectedAlts);
+  },expectedAltCounts);
   if(liveDecoded!==46){
    const broken=await allImages.evaluateAll((nodes,alts)=>nodes.filter(img=>alts[img.alt]>0&&(!img.complete||img.naturalWidth===0)).map(img=>({alt:img.alt,src:img.src})),expectedAlts);
    errors.push(viewport.width+"px GitHub Markdown: "+liveDecoded+"/46 decoded; broken="+JSON.stringify(broken)+"; Camo errors="+JSON.stringify(imageResponses.filter(x=>x.status>=400)));
