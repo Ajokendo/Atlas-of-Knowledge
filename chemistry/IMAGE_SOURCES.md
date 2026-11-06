@@ -314,3 +314,20 @@ This register is now governed by `IMAGE_FIRST_POLICY.md` v1.2 and `AUTHOR_CREATE
 - `VERIFIED` is the machine-readable internal verification status. `EXTERNALLY VERIFIED` may be used only after documented positive external specialist review and completion of internal verification.
 - Unknown or unresolved rights remain a publication blocker. Do not treat the project's non-commercial purpose as a licence.
 - Retrospective search notes do not prove that image-first search preceded the original creation of historical assets.
+
+
+## Periodic-table atomic-weight data provenance — 6 November 2026
+
+The interactive table's displayed atomic-weight values were checked against the Commission on Isotopic Abundances and Atomic Weights (CIAAW) current **Standard Atomic Weights 2024** table.
+
+Primary references:
+- CIAAW, *Standard Atomic Weights 2024*: https://www.ciaaw.org/atomic-weights.htm (accessed 2026-11-06).
+- CIAAW, *Abridged Standard Atomic Weights 2024*: https://ciaaw.org/abridged-atomic-weights.htm (five-significant-figure educational presentation; accessed 2026-11-06).
+- IUPAC, *Periodic Table of Elements*, release dated 4 May 2022: https://iupac.org/what-we-do/periodic-table-of-elements/ (explains bracketed mass numbers for elements without characteristic isotope abundance; accessed 2026-11-06).
+
+Corrections in `periodic-table.html`:
+- Ar: replaced 39.948 with the CIAAW standard atomic-weight interval 39.792–39.963.
+- Pb: replaced 207.2 with the CIAAW standard atomic-weight interval 206.14–207.94.
+- Zr: updated 91.224 to 91.222, reflecting the 2024 CIAAW revision (91.222(3)).
+
+Gd and Lu already display values rounded consistently with the 2024 revisions (157.249(2) → 157.25; 174.96669(5) → 174.97). Other decimal values remain rounded teaching-display values and do not reproduce all uncertainty digits or footnote qualifiers. The page note distinguishes natural-variation intervals from square-bracketed isotope mass numbers. This targeted reconciliation does not claim an isotope-by-isotope audit of every radioactive element's longest-lived nuclide.
