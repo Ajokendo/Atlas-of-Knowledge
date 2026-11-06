@@ -1408,3 +1408,11 @@ Older checkpoint entries that list independent specialists, school/teacher revie
 - Issyk-Kul: wetland shore, lake-water column and separate high-mountain panel render with bilingual footer labels contained. Generic silhouettes remain unlabelled; no species checklist or range boundary is implied.
 - Mobile: both figures use the horizontal-scroll viewport with the bilingual hint; the page itself does not overflow. Limited layout/label-containment acceptance recorded in the image brief and disposition register. Species morphology, habitat evidence and detailed bilingual semantics remain separate review items.
 - No global image-verification status or overall readiness percentage changed.
+
+
+## Osh and Batken regional fauna plates — internal screenshot QA — 6 November 2026
+
+- Reviewed the Osh and Batken SVG habitat plates in the successful all-page Chromium #1581 desktop/mobile artifact.
+- Osh: three separate habitat panels render in sequence; the earlier bear-caption vegetation obstruction is not present in the inspected desktop crop. Mobile horizontal scrolling works without page-level overflow.
+- Batken: the spring marmot census callout, dry-foothill panel and protected-mountain panel render within the plate; mobile horizontal scrolling works without page-level overflow.
+- Limited layout acceptance recorded in `IMAGE_BRIEF_REVIEW.md` and `IMAGE_DISPOSITION_REGISTER.md`. This does not verify every species feature, census methodology, claim-to-source chain or bilingual semantic equivalence. No asset status promoted to `VERIFIED`.
