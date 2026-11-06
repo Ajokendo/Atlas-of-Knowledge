@@ -1106,7 +1106,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Цель:** сравнить дискретные объекты и непрерывную поверхность, не смешивая размер ячейки с точностью данных.
 
-**Данные:** векторный слой водоёмов и цифровая модель высот (ЦМР/DEM). Для воспроизводимого упражнения скачайте официальный учебный набор QGIS 3.44 (ссылка приведена в источнике 47) и распакуйте архив: слой водоёмов — `exercise_data/shapefile/water.shp`, учебная ЦМР — `exercise_data/raster/SRTM/srtm_41_19.tif`. Это учебные данные района Свеллендам (ЮАР), а не данные Кыргызстана. Для местного исследования используйте открытые данные с известными происхождением, CRS и лицензией. Если растр недоступен, используйте небольшой учебный растр преподавателя с пометкой «условный».
+**Данные:** векторный слой водоёмов и цифровая модель высот (ЦМР/DEM). Для воспроизводимого упражнения скачайте официальный учебный набор QGIS 3.44 (ссылка приведена в источнике 47) и распакуйте архив: слой водоёмов — `exercise_data/shapefile/water.shp` (вместе с файлами `.dbf`, `.shx` и `.prj` из той же папки), учебная ЦМР — `exercise_data/raster/SRTM/srtm_41_19.tif`. Это учебные данные района Свеллендам (ЮАР), а не данные Кыргызстана. Для местного исследования используйте открытые данные с известными происхождением, CRS и лицензией. Если растр недоступен, используйте небольшой учебный растр преподавателя с пометкой «условный».
 
 **Порядок работы:**
 1. Откройте оба слоя в QGIS и проверьте их CRS, охват, формат и источник.
@@ -1120,7 +1120,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Goal:** compare discrete features with a continuous surface without confusing cell size with data accuracy.
 
-**Data:** a vector water-body layer and a digital elevation model (DEM). For a reproducible exercise, download the official QGIS 3.44 training dataset (see source 47) and extract it: the water-body layer is `exercise_data/shapefile/water.shp`, and the teaching DEM is `exercise_data/raster/SRTM/srtm_41_19.tif`. These are teaching data for the Swellendam area of South Africa, not data for Kyrgyzstan. For a local study, use open data with known provenance, CRS and licence. If no raster is available, use a small teacher-created raster clearly labelled **illustrative**.
+**Data:** a vector water-body layer and a digital elevation model (DEM). For a reproducible exercise, download the official QGIS 3.44 training dataset (see source 47) and extract it: the water-body layer is `exercise_data/shapefile/water.shp` (load the accompanying `.dbf`, `.shx` and `.prj` files from the same folder), and the teaching DEM is `exercise_data/raster/SRTM/srtm_41_19.tif`. These are teaching data for the Swellendam area of South Africa, not data for Kyrgyzstan. For a local study, use open data with known provenance, CRS and licence. If no raster is available, use a small teacher-created raster clearly labelled **illustrative**.
 
 **Steps:**
 1. Open both layers in QGIS and check their CRS, extent, format and source.
@@ -1156,7 +1156,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 1. Choose one service (for example, a school or health facility) and a limited study area.
 2. Check the CRS, measurement units and geometry validity of the points and lines.
 3. Create a buffer of a stated radius around the service locations using a suitable projected CRS. Record the radius and measurement method.
-4. If the road network is sufficiently complete and topologically connected, In the Processing Toolbox, use **Shortest path (point to point)** (`native:shortestpathpointtopoint`) for one route, or **Service area (from point)** (`native:serviceareafrompoint`) / **Service area (from layer)** (`native:serviceareafromlayer`) for a service area. With the Shortest strategy, cost is distance in network-layer units; with Fastest, cost is time, using a speed field or default speed. Check line direction, topology tolerance and `Maximum point distance from network`; retain the non-routable-points output if provided.
+4. If the road network is sufficiently complete and topologically connected, use **Shortest path (point to point)** in the Processing Toolbox (`native:shortestpathpointtopoint`) for one route, or **Service area (from point)** (`native:serviceareafrompoint`) / **Service area (from layer)** (`native:serviceareafromlayer`) for a service area. With the Shortest strategy, cost is distance in network-layer units; with Fastest, cost is time, using a speed field or default speed. Check line direction, topology tolerance and `Maximum point distance from network`; retain the non-routable-points output if provided.
 5. Compare settlements inside the buffer with those reachable through the network. Explain why a buffer is not an actual service catchment.
 6. If no suitable network is available, do not fabricate a network result: limit the exercise to buffers and state which data are missing.
 
