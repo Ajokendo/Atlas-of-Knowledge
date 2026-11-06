@@ -1259,12 +1259,16 @@ if (!stoichiometrySource.includes('molUnit:"моль"') ||
 
 const isotopeRuVisual = fs.readFileSync(path.join(root, "assets", "isotope-abundance-ru.svg"), "utf8");
 if (!isotopeRuVisual.includes('font-size="18"') ||
+    !isotopeRuVisual.includes("@media (max-width: 600px)") ||
+    !isotopeRuVisual.includes("class=\"abundance\"") ||
     !isotopeRuVisual.includes("ИЗОТОПЫ · ОДИНАКОВОЕ ЧИСЛО ПРОТОНОВ, РАЗНОЕ ЧИСЛО НЕЙТРОНОВ")) {
   errors.push("assets/isotope-abundance-ru.svg: long Russian heading must use the fitted full-width size");
 }
 const formulaEnVisual = fs.readFileSync(path.join(root, "assets", "formula-reading.svg"), "utf8");
 const formulaRuVisual = fs.readFileSync(path.join(root, "assets", "formula-reading-ru.svg"), "utf8");
-if (!formulaEnVisual.includes('x="520" y="232"') ||
+if (!formulaEnVisual.includes("@media (max-width: 600px)") ||
+    !formulaEnVisual.includes('class="annotation"') ||
+    !formulaEnVisual.includes('x="520" y="232"') ||
     !formulaEnVisual.includes('x="520" y="253"') ||
     !formulaEnVisual.includes('height="185"') ||
     !formulaRuVisual.includes('x="485" y="235"') ||
