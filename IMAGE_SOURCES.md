@@ -667,12 +667,12 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - License URL: Pending
 - Access date: 2026-11-06
 - RU caption: Сила Лоренца и правило правой руки.
-- EN caption: Not applicable — Russian-edition visual; English counterpart not yet prepared
+- EN caption: Lorentz force and the right-hand rule.
 - Alt RU: Магнитное поле направлено вправо, скорость положительных и отрицательных зарядов — в экран; сила для положительного заряда направлена вниз, для отрицательного — вверх.
-- Alt EN: Not applicable — English counterpart not yet prepared
+- Alt EN: Magnetic field points right and both charges move into the screen; force points down for a positive charge and up for a negative charge.
 - Modified: Yes — original vector schematic authored as SVG
-- Scientific review: Internal vector-product check PASS for the depicted configuration: (−z) × (+x) = −y for q > 0; force reverses for q < 0. Full page rendering review pending.
+- Scientific review: Internal vector-product check PASS for the depicted configuration: (−z) × (+x) = −y for q > 0; force reverses for q < 0. The three-finger convention is labelled index finger = velocity, middle finger = magnetic field, thumb = force for positive charge. Chapter 14 page and responsive integration passed current browser QA.
 - Rights review: Pending project-owner declaration and licence assignment
 - Integration: `chapters/magnetism.html`, section “Векторная схема силы Лоренца”
-- Mobile check: Responsive image sizing inherited from `.visual-figure img`; device-level visual check pending
+- Mobile check: PASS — responsive sizing and no horizontal overflow at 390×844; desktop 1440×900; current browser workflow run 42177393702. The SVG is retained as a supporting figure, separate from the primary four-topic visual inventory.
 
