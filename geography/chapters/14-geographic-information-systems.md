@@ -905,6 +905,16 @@ Applications include urban planning (zoning, infrastructure and green space); ag
 
 GIS helps identify spatial patterns, but it does not replace expert judgement, public consultation or legal procedures. A map is a model of reality and must be considered together with data uncertainty and limitations.
 
+#### Kyrgyzstan's National Spatial Data Framework
+
+Kyrgyzstan's legal framework for spatial data includes Chapter 12 (Articles 92–98) of the Digital Code of the Kyrgyz Republic, dated 31 July 2025, No. 178. The Code distinguishes digital geodetic data, digital cartographic data and location data (Article 92); establishes principles including data quality and personal privacy (Article 93); and provides for spatial metadata (Article 94).
+
+Article 95 provides for the National Spatial Data Resource, known as the Georesource. The access conditions require careful interpretation: no access fee is charged, but use is governed by a licence agreement and obligations concerning derived spatial data. A user must grant the Georesource owner rights to use derived data and submit those data together with their metadata within the prescribed period, which may not exceed one year. Free access therefore does not automatically mean unrestricted reuse without conditions.
+
+Article 96 describes the geosite as a portal for searching spatial data and metadata, obtaining open location data and accessing standards and formats. Articles 97–98 address data-subject rights, interoperability and portability. A separate Law of the Kyrgyz Republic dated 29 April 2026, No. 58, “On Geodesy, Cartography and Spatial Data”, also applies; it should not be conflated with the Digital Code.
+
+The legal establishment of a Georesource or geosite does not by itself prove that a particular dataset has been published, can be downloaded, is current, complete or validated, or may be freely reused. Each dataset must be checked separately for its actual source, metadata, licence, date, CRS, accuracy and restrictions.
+
 ### 14.16. Ethics, Privacy and Responsible Use
 
 Geographic data may reveal the locations of people, homes, medical facilities, critical infrastructure, rare species and culturally significant sites.
