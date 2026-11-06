@@ -1,8 +1,8 @@
 # Глава 5. Атмосфера и климатология
 # Chapter 5. The Atmosphere and Climatology
 
-> **Статус:** научно-редакторская проверка текста RU/EN и учебных расчётов завершена 6 ноября 2026 года. Визуальная подготовка, финальная вёрстка и техническая QA остаются отдельными этапами; текстовая готовность не означает полной готовности главы к публикации.
-> **Status:** Russian- and English-language text, scientific editing and worked calculations were reviewed and closed on 6 November 2026. Visual production, final layout and technical QA remain separate; text completion does not mean publication readiness.
+> **Статус:** редакционно-содержательная подготовка главы завершена (100%) 6 ноября 2026 года: текст RU/EN, учебные расчёты и все 19 уникальных визуальных материалов интегрированы. Проверка прав на авторские визуалы, финальная вёрстка, контраст, экранные дикторы и отображение опубликованной версии остаются отдельными этапами технической приёмки.
+> **Status:** the chapter's editorial/content-production package is complete (100%) as of 6 November 2026: RU/EN text, worked calculations and all 19 unique visuals are integrated. Rights clearance for project-created visuals, final layout, contrast, screen-reader and published-site rendering checks remain separate release-acceptance tasks.
 > **Языки:** русский / English.
 
 ## Введение / Introduction
