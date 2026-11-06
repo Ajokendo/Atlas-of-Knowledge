@@ -280,3 +280,11 @@ Coverage remains 12/12 static families integrated and 7/7 interactive systems in
 - [ ] Seven-gate verification and final approval remain distinct from coverage and automated CI. Do not mark assets VERIFIED based on CI alone.
 
 Static source-review progress: **12/12 (100%)**. Static coverage: **12/12 (100%)**. Automated branch-head CI: **PASS**. Full seven-gate verification: **0/12 static and 0/7 interactive marked VERIFIED**; applicable rights, review and manual-render evidence remain open.
+
+
+### Chemistry rendered-review follow-up — 6 November 2026
+
+- [x] Added keyboard horizontal scrolling to the focusable periodic-table region and a browser assertion for the ArrowRight interaction.
+- [x] Branch-head CI [42173730531](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173730531) passed on a2e249fe431a688b46a427e68103e5d5193e1035: 22 HTML pages, 91 local links/assets, 21 inline scripts; 21 Chromium pages, 42 RU/EN axe-core scans, 21 language toggles, key interaction checks, no uncaught page errors.
+- [x] Latest screenshot artifact [13482580521](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173730531/artifacts/13482580521) contains 72 RU/EN screenshots at 390/768/1280 px. The periodic-table six-image set was rechecked for the scroll cue and responsive layout.
+- [ ] Complete manual visual/state review, rights/licence evidence and final publication approval remain open; CI success is not a VERIFIED designation.
