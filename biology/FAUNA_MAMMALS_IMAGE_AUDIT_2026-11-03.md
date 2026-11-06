@@ -1,42 +1,44 @@
-# Mountain mammals illustration audit — 3 November 2026
+# Mountain mammals illustration audit — updated 6 November 2026
 
 **Branch:** `workspace/biology`  
 **Chapter:** `chapters/fauna-kyrgyzstan.html`  
 **Anchor:** `image-brief-fauna-mammals`  
-**Target:** `images/generated/fauna-mammals.webp`  
+**Active asset:** `images/generated/fauna-mammals-habitat-reconstruction.svg`  
 **Priority:** P1  
-**Disposition (supersedes initial 3 November candidate note):** The original SVG habitat reconstruction is integrated in the chapter and the complete Biology Chromium smoke-test workflow passed on 5 November 2026 (run `42015846138`). The old photorealistic WebP candidate remains unintegrated and is not the page asset. This audit's candidate-specific notes below are retained as history; they do not describe the current SVG integration state.
+**Current disposition:** Original bilingual-context SVG habitat reconstruction is integrated. The former photorealistic WebP candidate is not used and is not the active page asset.
 
 ## Evidence and taxonomic scope
 
-The chapter's three intended subjects are:
-- Snow leopard — `Panthera uncia`. The 2026 country status paper describes its distribution across Kyrgyz Tian Shan and Pamir–Alai ranges and gives a primary elevational range of 3,000–4,000 m, with camera-trap records lower and field evidence higher. It is a country-level synthesis, not a claim about one exact valley.
-- Argali — `Ovis ammon`. The chapter and Kyrgyzstan country material support its presence in high-mountain landscapes. Subspecies should not be assigned in the illustration without locality-specific confirmation.
-- Siberian ibex — `Capra sibirica`. The chapter describes this wild mountain goat as characteristic of rocky high-mountain terrain. Keep it distinct from argali by its long backward-curving, ridged horns and beard.
+The three subjects named in the illustration are:
+- Snow leopard — *Panthera uncia*. The 2026 country status paper describes its distribution across the Kyrgyz Tian Shan and Pamir–Alai ranges and gives a primary elevational range of 3,000–4,000 m, while noting records outside that band. This is country-level evidence, not a claim about one exact valley.
+- Argali — *Ovis ammon*. The chapter and Kyrgyzstan country material support its presence in high-mountain landscapes. The illustration does not assign a subspecies because argali subspecies treatment remains disputed and requires a stated taxonomic framework.
+- Siberian ibex — *Capra sibirica*. The chapter describes this wild mountain goat as characteristic of rocky high-mountain terrain. The drawing distinguishes it from argali through the long swept-back horns and beard rather than the argali's heavy curled horns.
 
-### Geographic evidence caution
+A spatial-modelling study in a specific Kyrgyzstan–Tajikistan study landscape reported local absence of argali from its Kyrgyz portion. This local finding must not be generalized to the whole country. The illustration is not captioned as a record from that landscape or as proof that all three animals were observed together.
 
-A separate recent spatial-modelling study examined a specific Kyrgyzstan–Tajikistan study landscape and reported argali as locally extinct in its Kyrgyz portion. This is a local finding, not a countrywide assessment; it must not be generalized to all of Kyrgyzstan. Accordingly, this broad habitat reconstruction must not be captioned as a record from that study landscape or as evidence that argali, ibex and snow leopard were documented together at one precise site. The image is illustrative, not a distribution map or a camera-trap record.
+## Current SVG and content inspection
 
-## Visual inspection
+The active vector plate is an original, unlabelled educational reconstruction. It shows:
+- a snow leopard on a separate rocky ledge, with a pale coat, dark rosette markings and a long thick tail;
+- an argali on an open grassy slope, with massive curled horns;
+- a Siberian ibex on a distinct steep crag, with swept-back ridged horns and a beard.
 
-A new 16:9 naturalistic landscape candidate was generated. It depicts:
-- a snow leopard on a rocky ledge, with pale coat, dark rosettes and long thick tail;
-- an argali on a more open grassy slope, with massive curled horns;
-- a Siberian ibex on a separate higher rocky outcrop, with long swept-back horns and beard.
+The three animals occupy visibly separate habitat sections. The image contains no map pins, range boundaries, counts, conservation symbols or claims of co-occurrence. Its bilingual alt text names the three subjects and explicitly says they occupy separate parts of a mountain landscape. Its bilingual caption says this is a schematic habitat reconstruction, not evidence of observation together at one site.
 
-The animals are spatially separated and are not shown fighting, hunting or forming an artificial group. The scene is an **illustrative habitat reconstruction**, not documentary evidence that all three individuals occupy the same site or were observed together. It contains no scientific labels, population counts, range boundaries or conservation-status symbols.
+## Rendered-page QA — 6 November 2026
 
-## Provenance and integration gate
+The current page was inspected in the successful full Biology Chromium screenshot artifact from run #1575:
+- **Desktop (1365 px):** the figure loads in the snow-leopard species card; the image and caption remain within the card, with no broken-media or page-overflow defect in the inspected rendering.
+- **Mobile (390 px):** the diagram is presented in a horizontally scrollable viewport; the bilingual scroll hint is visible, and the surrounding species card remains within the page column. The initial viewport shows the left portion of the wide diagram, as intended for this scrollable presentation.
+- The full Biology workflow completed successfully, including static validation, Chromium tests for every Biology page and screenshot upload.
 
-This is original AI-generated artwork, not a third-party photograph. It requires no external photo attribution; the atlas should identify it as an illustrative generated reconstruction in its bilingual caption. The generated candidate is currently stored in the working session only as `fauna-mammals-q55.webp` (WebP, 1,200 × 675 px, 172,214 bytes; SHA-256 `147335f70e34db9765080082f6fa3e8c372835707deb0bdc4f5d861e8779ab55`). It has **not** yet been committed to the repository or inserted into the chapter.
+**Rendered layout disposition: PASS for the inspected desktop and mobile page screenshots.** This is not a certification of every pixel or physical-device behavior.
 
-Before the brief can be marked Produced:
-1. copy the optimized WebP to `biology/images/generated/fauna-mammals.webp`;
-2. replace the existing marker at `image-brief-fauna-mammals` without changing its anchor;
-3. add concise Russian and English alt text and captions;
-4. verify image dimensions, decoding, visible rendering and local path;
-5. run the full Biology static checks and Chromium smoke tests.
+## Remaining internal checks
+
+- Compare the fine anatomical details of each animal silhouette with the cited species references; the broad distinguishing traits are present, but this audit does not claim exhaustive morphological verification.
+- Confirm semantic bilingual equivalence of the caption/alt text as part of the chapter-level language pass.
+- Retain the explicit habitat-reconstruction caveat; do not present the composition as a documentary photograph, distribution map, census or co-occurrence record.
 
 ## Sources
 
@@ -44,4 +46,4 @@ Before the brief can be marked Produced:
 - CMS / CAMI, Kyrgyzstan country profile: https://cami.cms.int/country/kyrgyzstan
 - Kyrgyz Republic Ministry of Natural Resources, 14 October 2026 field notice reporting snow leopard, argali and mountain goats in their natural mountain habitat in Issyk-Kul Region: https://www.mnr.gov.kg/ru/posts/news/v-issyk-kule-na-video-zapecatleny-sneznyi-bars-arxary-i-gornye-kozly
 
-**Decision:** Candidate visually acceptable as a broad educational habitat reconstruction, subject to repository integration and Chromium QA. Not counted as a completed visual brief yet.
+**Decision:** Production/integration and inspected responsive layout are complete for this asset. Fine-grained morphology and chapter-level bilingual semantic checks remain internal open items. No external review or sign-off is part of the project.
