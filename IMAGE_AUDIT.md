@@ -227,12 +227,13 @@ The registered authored SVG collection contains seven responsive desktop/mobile 
 ## Manual visual re-audit — 6 November 2026
 
 ### Scope and evidence
-- Screened contact sheets for Chapters 1–4, then inspected selected full-size desktop/mobile screenshots for Chapters 1, 2, 3, 4, 14 and 15, plus SVG source and responsive variants for Chapters 6–7.
+- Screened the full 26-image Chapter 1 artifact (run 42214764837), the 22-image Chapter 2 artifact (run 42223344730), and the 15-image Chapter 3 artifact (run 42214764837); inspected full-size Chapter 2 page 2 and Chapter 3 mobile page 2. Also inspected registered SVG source and responsive variants for Chapters 6–7 and desktop/mobile SVG screenshots for Chapters 14–15.
 - Chapters 1–4 have page-level screenshot artifacts; Chapters 14–15 have desktop/mobile SVG screenshot artifacts. This is not yet a complete scene-by-scene visual approval for all 15 chapters.
 - A new `all-book-visual-capture` CI job now captures every interactive-book page and every standalone chapter page at desktop and mobile sizes. The current-HEAD workflow is pending; its artifacts must be manually inspected before any chapter-wide visual coverage claim is made.
 
 ### Findings and corrections
 - Chapter 2: manual full-size review of desktop artifact 13504574911 confirms the tension scene clips the upper T₁/T₂ arrowheads and the bottom interaction hint overlaps the live readout. Corrected the camera framing (target/elevation/distance) in `f02f1a5d` and hid the redundant bottom hint on desktop widths up to 1600 px in `96e9d39a`; fresh screenshot verification is pending. Other Newton scenes still require scene-by-scene label review.
+- Chapter 3: full-size mobile page 2 in artifact 13500977678 shows the five force/velocity labels crowding around the two balls in the speed-comparison scene. Added individual vector-label offsets in `eceed78c` and null-safe placement in `1438f987`; fresh mobile/desktop screenshot verification is pending.
 - Chapter 4: mobile pages 4.7 and 4.10 frame their graph panels too tightly; axis labels and parts of the graph are clipped. These remain open.
 - Chapter 6: the oscillation-regimes SVG pair is integrated. The isolated browser check's F₀ failure is a test-format mismatch: HTML `<sub>0</sub>` is extracted as `F0`, and the equation plus its definition are present in the lesson. Corrected the expected test token in `1911cd3d`; rerun pending.
 - Chapter 7: the torque/ring-disc/skater SVG pair is integrated, but no desktop/mobile screenshot review or project-owner publication-licence decision is recorded; scientific review by a competent second reviewer is also pending.
