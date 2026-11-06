@@ -163,7 +163,7 @@
 ## 5.6. Общая циркуляция атмосферы / General Atmospheric Circulation
 
 <!-- VISUAL ID: 5.6-A -->
-![Три ячейки общей циркуляции атмосферы / Three-cell model of global atmospheric circulation](https://www.noaa.gov/sites/default/files/2022-05/circ.jpg)
+![Три ячейки общей циркуляции атмосферы / Three-cell model of global atmospheric circulation](../assets/chapter-05-noaa/noaa-global-atmospheric-circulation.jpg)
 
 *Трёхъячеечная модель общей циркуляции атмосферы. NOAA, JetStream: Global Atmospheric Circulations. Государственный образовательный ресурс США; схема иллюстрирует упрощённую модель, а не полную изменчивость реальной циркуляции. / Three-cell model of global atmospheric circulation. NOAA, JetStream: Global Atmospheric Circulations. U.S. government educational resource; the figure illustrates a simplified model, not the full variability of real circulation.* [Источник / Source](https://www.noaa.gov/jetstream/global/global-atmospheric-circulations).
 
@@ -235,7 +235,7 @@
 При подъёме влажного воздуха по наветренному склону он охлаждается, что может усиливать облакообразование и осадки. На подветренной стороне часто формируется более сухая область — дождевая тень. Реальный эффект зависит от направления ветра, устойчивости атмосферы, высоты хребта и влажности воздушной массы.
 
 <!-- VISUAL ID: 5.7-A -->
-![Круговорот воды в природе / The hydrologic cycle](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e)
+![Круговорот воды в природе / The hydrologic cycle](../assets/chapter-05-noaa/noaa-hydrologic-cycle.jpg)
 
 *Схема круговорота воды: испарение, транспирация, конденсация, осадки, снеготаяние и поверхностный сток. NOAA JetStream. Это базовая учебная схема: она не показывает все резервуары и потоки воды, например подземный водообмен. / Diagram of the water cycle: evaporation, transpiration, condensation, precipitation, snowmelt and surface runoff. NOAA JetStream. This is a basic educational schematic; it does not show every water reservoir and flow, such as groundwater exchange.*
 
@@ -259,18 +259,18 @@
 **Иллюстрация 5.8-A — Atmospheric Fronts.** Условные обозначения четырёх основных фронтов на синоптических картах и вертикальный разрез холодной окклюзии. Разрез показан как пример одного типа окклюзии; он не заменяет отдельные профили холодного, тёплого и стационарного фронтов.
 
 <!-- VISUAL ID: 5.8-A -->
-![Обозначение холодного фронта на синоптической карте / Cold-front symbol](https://www.noaa.gov/sites/default/files/2022-06/cold_front_sym.png)
+![Обозначение холодного фронта на синоптической карте / Cold-front symbol](../assets/chapter-05-noaa/noaa-cold-front-symbol.png)
 <!-- VISUAL ID: 5.8-A -->
-![Обозначение тёплого фронта на синоптической карте / Warm-front symbol](https://www.noaa.gov/sites/default/files/2022-06/warm_front_sym.png)
+![Обозначение тёплого фронта на синоптической карте / Warm-front symbol](../assets/chapter-05-noaa/noaa-warm-front-symbol.png)
 <!-- VISUAL ID: 5.8-A -->
-![Обозначение стационарного фронта / Stationary-front symbol](https://www.noaa.gov/sites/default/files/2022-06/stationary_front_sym.png)
+![Обозначение стационарного фронта / Stationary-front symbol](../assets/chapter-05-noaa/noaa-stationary-front-symbol.png)
 <!-- VISUAL ID: 5.8-A -->
-![Обозначение фронта окклюзии / Occluded-front symbol](https://www.noaa.gov/sites/default/files/2022-06/occ_front_sym.png)
+![Обозначение фронта окклюзии / Occluded-front symbol](../assets/chapter-05-noaa/noaa-occluded-front-symbol.png)
 
 *Условные знаки холодного, тёплого, стационарного и окклюдированного фронтов на приземных синоптических картах. Треугольники и полукружия указывают направление движения фронта; у стационарного фронта символы направлены в разные стороны. Источник: NOAA JetStream. / Standard symbols for cold, warm, stationary and occluded fronts on surface weather maps. Triangles and semicircles indicate the direction of frontal movement; on a stationary front, symbols point in opposite directions. Source: NOAA JetStream.* [Источник / Source](https://www.noaa.gov/jetstream/wxmaps).
 
 <!-- VISUAL ID: 5.8-A -->
-![Вертикальный разрез холодной окклюзии / Vertical cross-section of a cold occlusion](https://www.noaa.gov/sites/default/files/2022-06/cold_occ.png)
+![Вертикальный разрез холодной окклюзии / Vertical cross-section of a cold occlusion](../assets/chapter-05-noaa/noaa-cold-occlusion-cross-section.png)
 
 *Упрощённый вертикальный разрез холодной окклюзии: более холодный воздух позади холодного фронта подтекает под более прохладный воздух впереди тёплого фронта, поднимая тёплый воздух над поверхностью. Это пример одного типа окклюзии, а не универсальная схема всех фронтов. / Simplified vertical cross-section of a cold occlusion: colder air behind the cold front undercuts the cooler air ahead of the warm front, lifting the warm air above the surface. This illustrates one type of occlusion, not a universal cross-section for all fronts.*
 
@@ -737,7 +737,7 @@ The direction of rotation of cyclones and anticyclones is influenced by the Cori
 Global circulation is shaped by uneven heating of Earth, planetary rotation, the distribution of land and ocean, seasonal changes and interactions with the oceans.
 
 <!-- VISUAL ID: 5.6-A -->
-![Три ячейки общей циркуляции атмосферы / Three-cell model of global atmospheric circulation](https://www.noaa.gov/sites/default/files/2022-05/circ.jpg)
+![Три ячейки общей циркуляции атмосферы / Three-cell model of global atmospheric circulation](../assets/chapter-05-noaa/noaa-global-atmospheric-circulation.jpg)
 
 *Трёхъячеечная модель общей циркуляции атмосферы. NOAA, JetStream: Global Atmospheric Circulations. Государственный образовательный ресурс США; схема иллюстрирует упрощённую модель, а не полную изменчивость реальной циркуляции. / Three-cell model of global atmospheric circulation. NOAA, JetStream: Global Atmospheric Circulations. U.S. government educational resource; the figure illustrates a simplified model, not the full variability of real circulation.* [Источник / Source](https://www.noaa.gov/jetstream/global/global-atmospheric-circulations).
 
@@ -788,7 +788,7 @@ Precipitation amount is generally reported in millimetres of liquid-water equiva
 **Orographic precipitation** occurs when moist air is forced to rise over mountains. Rising air cools and may produce clouds and precipitation on windward slopes. Leeward slopes may be drier because of the rain-shadow effect, although the pattern depends on wind direction, moisture supply and local relief.
 
 <!-- VISUAL ID: 5.7-A -->
-![The hydrologic cycle / Круговорот воды в природе](https://www.noaa.gov/media/image_download/72476931-c7f9-4606-a1d8-61f4703d806e)
+![The hydrologic cycle / Круговорот воды в природе](../assets/chapter-05-noaa/noaa-hydrologic-cycle.jpg)
 
 *Diagram of the water cycle: evaporation, transpiration, condensation, precipitation, snowmelt and surface runoff. NOAA JetStream. This is a basic educational schematic; it does not show every water reservoir and flow, such as groundwater exchange.* [Source](https://www.noaa.gov/jetstream/atmosphere/hydro).
 
@@ -810,18 +810,18 @@ A front is not necessarily a narrow vertical wall: the transition zone has depth
 **Illustration 5.8-A — Atmospheric Fronts.** Standard map symbols for the four main fronts and a vertical cross-section of a cold occlusion. The cross-section illustrates one type of occlusion; it does not replace separate profiles of cold, warm and stationary fronts.
 
 <!-- VISUAL ID: 5.8-A -->
-![Cold-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/cold_front_sym.png)
+![Cold-front symbol on a surface weather map](../assets/chapter-05-noaa/noaa-cold-front-symbol.png)
 <!-- VISUAL ID: 5.8-A -->
-![Warm-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/warm_front_sym.png)
+![Warm-front symbol on a surface weather map](../assets/chapter-05-noaa/noaa-warm-front-symbol.png)
 <!-- VISUAL ID: 5.8-A -->
-![Stationary-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/stationary_front_sym.png)
+![Stationary-front symbol on a surface weather map](../assets/chapter-05-noaa/noaa-stationary-front-symbol.png)
 <!-- VISUAL ID: 5.8-A -->
-![Occluded-front symbol on a surface weather map](https://www.noaa.gov/sites/default/files/2022-06/occ_front_sym.png)
+![Occluded-front symbol on a surface weather map](../assets/chapter-05-noaa/noaa-occluded-front-symbol.png)
 
 *Standard symbols for cold, warm, stationary and occluded fronts on surface weather maps. Triangles and semicircles indicate the direction of frontal movement; on a stationary front, symbols point in opposite directions. Source: NOAA JetStream.* [Source](https://www.noaa.gov/jetstream/wxmaps).
 
 <!-- VISUAL ID: 5.8-A -->
-![Vertical cross-section of a cold occlusion](https://www.noaa.gov/sites/default/files/2022-06/cold_occ.png)
+![Vertical cross-section of a cold occlusion](../assets/chapter-05-noaa/noaa-cold-occlusion-cross-section.png)
 
 *Simplified vertical cross-section of a cold occlusion: colder air behind the cold front undercuts the cooler air ahead of the warm front, lifting the warm air above the surface. This illustrates one type of occlusion, not a universal cross-section for all fronts.* [Source](https://www.noaa.gov/jetstream/wxmaps).
 
