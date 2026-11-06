@@ -1118,6 +1118,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 20. QGIS Documentation. **Raster Terrain Analysis.** Official documentation of slope and aspect algorithms, output conventions and vertical scale factors. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html
 21. EPSG Geodetic Parameter Dataset. **WGS 84 (EPSG:4326).** CRS definition, formal latitude/longitude axis order and area of use; EPSG data record. https://epsg.io/4326
 22. Open Geospatial Consortium. **Web Map Service (WMS) Implementation Specification, Version 1.3.0.** Defines CRS axis-order requirements and explains the EPSG:4326 latitude/longitude order. https://docs.ogc.org/is/06-042/06-042.pdf
+23. QGIS Documentation. **GDAL Raster Analysis.** Documents slope output in degrees or percent and the vertical-to-horizontal scale parameter. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/gdal/rasteranalysis.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
