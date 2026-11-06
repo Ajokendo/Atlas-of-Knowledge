@@ -15,13 +15,13 @@
 
 The optional Flanders Marine Institute Global Oceans and Seas v1 dataset (DOI 10.14284/542, CC BY 4.0) is documented in the chapter as a possible future GIS source. It was **not** used to produce the current five-ocean map and is not included above as a source for that map.
 
-## Atlas-local SVGs — project licence not yet assigned
+## Atlas-local SVGs — authorised CC BY-NC 4.0
 
-The following 12 SVGs are original conceptual teaching diagrams prepared for the Atlas of Geography with ChatGPT assistance. The chapter captions identify them as schematics and state relevant not-to-scale, qualitative or non-site-specific limitations. Their presence in the repository and the repository-root MIT notice do **not** by themselves establish an open licence for these files.
+The project owner authorised the following 12 original conceptual teaching diagrams for CC BY-NC 4.0 on 6 November 2026. The chapter captions identify them as schematics and state relevant not-to-scale, qualitative or non-site-specific limitations. The exact licence scope and attribution notice are recorded in [CHAPTER_06_ASSET_LICENSE.md](CHAPTER_06_ASSET_LICENSE.md).
 
 | Visual ID | File | Current rights status |
 |---|---|---|
-| 6.4-C | 06-4-C-ocean-floor-cross-section-bilingual.svg | Project licence pending owner confirmation |
+| 6.4-C | 06-4-C-ocean-floor-cross-section-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
 | 6.5-A | 06-5-A-seawater-temperature-salinity-profiles-bilingual.svg | Project licence pending owner confirmation |
 | 6.6-D | 06-6-D-ocean-motion-bilingual.svg | Project licence pending owner confirmation |
 | 6.7-A (deep-circulation schematic) | 06-7-A-deep-ocean-circulation-schematic-bilingual.svg | Project licence pending owner confirmation |
@@ -34,7 +34,7 @@ The following 12 SVGs are original conceptual teaching diagrams prepared for the
 | 6.17-A | 06-17-A-climate-water-cycle-bilingual.svg | Project licence pending owner confirmation |
 | 6.18-A | 06-18-A-catchment-exercise-bilingual.svg | Project licence pending owner confirmation |
 
-**No licence is assigned to the 12 local SVGs by this register.** Before publishing a public reuse licence, the project owner must confirm authority to license these specific assets and select the licence. Until then, keep them clearly identified as Atlas project assets with reuse terms pending. Do not infer that the root MIT notice or any licence assigned to another chapter automatically covers them.
+**The 12 local SVGs listed above are designated CC BY-NC 4.0 under the project-owner authorisation recorded in CHAPTER_06_ASSET_LICENSE.md.** This designation is limited to those exact files and does not extend to third-party media, the chapter text, the repository-root MIT notice or any other chapter asset.
 
 ## Scope exclusions
 
