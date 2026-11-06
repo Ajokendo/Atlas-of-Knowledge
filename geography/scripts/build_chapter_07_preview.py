@@ -17,7 +17,7 @@ NAMES=[
 def main():
     output=Path(sys.argv[1]) if len(sys.argv)>1 else Path("/tmp/geography-chapter-07-preview.html")
     chapter=CHAPTER.read_text(encoding="utf-8")
-    embeds=re.findall(r"!\\[([^\\]]*)\\]\\(([^)\\s]+)\\)",chapter)
+    embeds=re.findall(r"!\[([^\]]*)\]\(([^)\s]+)\)",chapter)
     alts={}
     for alt,target in embeds:
         alts.setdefault(Path(target).name,[]).append(alt)
