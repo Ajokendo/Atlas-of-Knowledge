@@ -1179,11 +1179,36 @@ for (const [name, labels] of Object.entries(requiredBilingualLabels)) {
   }
 }
 
+let scrollableRegionalDiagrams = 0;
+for (const file of pages) {
+  const html = fs.readFileSync(file, "utf8");
+  const rel = path.relative(root, file);
+  const regions = [...html.matchAll(/<div\\b([^>]*class=["'][^"']*\\bregional-figure__media--diagram\\b[^"']*["'][^>]*)>([\\s\\S]*?)<\\/div>/gi)];
+  scrollableRegionalDiagrams += regions.length;
+  for (const region of regions) {
+    const attrs = region[1];
+    const body = region[2];
+    if (!/\\btabindex=["']0["']/i.test(attrs) || !/\\brole=["']region["']/i.test(attrs) || !/\\baria-label=["'][^"']*[А-Яа-яЁё][^"']*[A-Za-z][^"']*["']/i.test(attrs)) {
+      errors.push(rel + ": scrollable regional diagram must be keyboard-focusable, named and exposed as a region in both languages");
+    }
+    if (!/<img\\b[^>]*\\bsrc=["'][^"']+\\.svg(?:[?#][^"']*)?["']/i.test(body)) {
+      errors.push(rel + ": scrollable regional diagram region must contain its SVG image");
+    }
+  }
+  if (regions.length && (!html.includes(".regional-figure__media--diagram{height:405px") || !html.includes("min-width:720px"))) {
+    errors.push(rel + ": mobile SVG inspection must retain the independently scrollable enlarged diagram viewport");
+  }
+}
+if (scrollableRegionalDiagrams !== 15) {
+  errors.push("Expected 15 keyboard-accessible scrollable regional SVG diagrams; found " + scrollableRegionalDiagrams);
+}
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
 }
 console.log("Biology checks passed: " + pages.length + " HTML pages, " + links + " local paths, " + scripts + " inline scripts, " + buttons + " typed buttons, " + dynamicRegions + " accessible dynamic output regions.");
+
 
 // Regional fauna SVG safeguards: preserve habitat separation and avoid unsupported species/range/census claims.
 const regionalFaunaSvgChecks = [
