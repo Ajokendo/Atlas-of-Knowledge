@@ -191,7 +191,7 @@ check('lab: Chapter 4 uses the same g = 9.80 m/s² as the standalone calculator 
 
 const energyWorld = readFileSync(new URL('./world.js', import.meta.url), 'utf8');
 check('bond visual: vertical axis reaches the expanded 3.2 eV graph limit',
-  energyWorld.includes('rx(rLo), uy(3.2 * BD.eps), zN') && energyWorld.includes('uy(3.2 * BD.eps) - yBot'));
+  energyWorld.includes('rx(rLo), uy(3.2 * BD.eps), zN') && energyWorld.includes('uy(3.2 * BD.eps) - yBot') && energyWorld.includes('bond: { r: 1e10, U: 0.65, F: 0.08 }'));
 
 for (const r of rows) console.log(r.filter(Boolean).join('  '));
 process.exit(rows.every(r => r[0] === 'PASS') ? 0 : 1);
