@@ -2,7 +2,7 @@
 <title id="t">Самоиндукция, RL-переходный процесс и LC-колебания / Self-induction, RL transient and LC oscillations</title>
 <desc id="d">Три учебные панели: закон самоиндукции в катушке; экспоненциальный рост и спад тока в RL-цепи с постоянной времени L/R; гармонические колебания заряда и тока в LC-контуре и взаимный обмен энергией конденсатора и катушки.</desc>
 <defs><marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d65b43"/></marker><marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2367a8"/></marker><style>
-.bg{fill:#f7f8fa}.card{fill:#fff;stroke:#d7dde5;stroke-width:3}.h{font:600 34px Inter,Arial,sans-serif;fill:#172b45}.lab{font:23px Inter,Arial,sans-serif;fill:#26384d}.en{font:19px Inter,Arial,sans-serif;fill:#68788c}.formula{font:600 28px Inter,Arial,sans-serif;fill:#172b45}.axis{stroke:#526174;stroke-width:3}.grid{stroke:#dce2e9;stroke-width:2;stroke-dasharray:6 7}.red{fill:none;stroke:#d65b43;stroke-width:6}.blue{fill:none;stroke:#2367a8;stroke-width:6}.green{fill:none;stroke:#25805a;stroke-width:6}.purple{fill:none;stroke:#8055a5;stroke-width:6}
+.bg{fill:#f7f8fa}.card{fill:#fff;stroke:#d7dde5;stroke-width:3}.h{font:600 34px Inter,Arial,sans-serif;fill:#172b45}.lab{font:20px Inter,Arial,sans-serif;fill:#26384d}.en{font:17px Inter,Arial,sans-serif;fill:#68788c}.formula{font:600 26px Inter,Arial,sans-serif;fill:#172b45}.chartlabel{font:18px Inter,Arial,sans-serif;fill:#26384d}.axis{stroke:#526174;stroke-width:3}.grid{stroke:#dce2e9;stroke-width:2;stroke-dasharray:6 7}.red{fill:none;stroke:#d65b43;stroke-width:6}.blue{fill:none;stroke:#2367a8;stroke-width:6}.green{fill:none;stroke:#25805a;stroke-width:6}.purple{fill:none;stroke:#8055a5;stroke-width:6}
 </style></defs>
 <rect class="bg" width="1600" height="1120"/>
 <text class="h" x="65" y="70">Самоиндукция и колебательные процессы / Self-induction and transients</text>
@@ -11,10 +11,11 @@
 <text class="h" x="90" y="170">1. Самоиндукция / Self-induction</text>
 <path d="M150 250 H260 M260 250 C260 190 300 190 300 250 S340 310 340 250 S380 190 380 250 S420 310 420 250 S460 190 460 250 H560" fill="none" stroke="#26384d" stroke-width="8"/>
 <path d="M585 250 H710" class="red" marker-end="url(#red)"/>
-<text class="lab" x="770" y="220">Катушка создаёт ЭДС, препятствующую изменению тока.</text><text class="en" x="770" y="252">The coil's induced EMF opposes the change in current.</text>
-<text class="formula" x="770" y="300">εL = −L dI/dt</text>
-<text class="lab" x="1110" y="220">Энергия магнитного поля</text><text class="en" x="1110" y="252">Magnetic-field energy</text>
-<text class="formula" x="1110" y="300">U_B = ½ LI²</text>
+<text class="lab" x="770" y="205">ЭДС катушки противодействует</text><text class="lab" x="770" y="230">изменению тока.</text>
+<text class="en" x="770" y="260">The coil's EMF opposes a change</text><text class="en" x="770" y="282">in current.</text>
+<text class="formula" x="770" y="315">εL = −L dI/dt</text>
+<text class="lab" x="1190" y="205">Энергия магнитного поля</text><text class="en" x="1190" y="235">Magnetic-field energy</text>
+<text class="formula" x="1190" y="315">U_B = ½ LI²</text>
 <!-- RL panel -->
 <rect class="card" x="55" y="370" width="710" height="680" rx="22"/>
 <text class="h" x="90" y="425">2. RL-цепь / RL circuit</text>
@@ -38,7 +39,7 @@
 <path class="axis" d="M880 635 H1495 M880 545 V720"/>
 <path class="red" d="M880 565 C930 565 955 705 1005 705 S1080 565 1130 565 S1205 705 1255 705 S1330 565 1380 565 S1455 705 1490 705"/>
 <path class="blue" d="M880 635 C930 705 955 635 1005 565 S1080 635 1130 705 S1205 635 1255 565 S1330 635 1380 705 S1455 635 1490 565"/>
-<text class="lab" x="900" y="545" fill="#d65b43">q(t) = Q₀ cos(ωt), q (Кл / C)</text><text class="lab" x="1190" y="545" fill="#2367a8">I(t) = −ωQ₀ sin(ωt), I (A)</text>
+<text class="chartlabel" x="900" y="535" fill="#d65b43">q(t) = Q₀ cos(ωt), q (Кл / C)</text><text class="chartlabel" x="1190" y="535" fill="#2367a8">I(t) = −ωQ₀ sin(ωt), I (A)</text>
 <text class="lab" x="1460" y="750">t (с / s)</text>
 <text class="lab" x="850" y="805">Обмен энергией / Energy exchange</text>
 <path class="grid" d="M880 850 H1490 M880 930 H1490 M880 850 V960"/>
@@ -47,5 +48,5 @@
 <path class="purple" d="M880 950 C930 950 955 855 1005 855 S1080 950 1130 950 S1205 855 1255 855 S1330 950 1380 950 S1455 855 1490 855"/>
 <text class="lab" x="900" y="835" fill="#25805a">UE = ½CV²</text><text class="lab" x="1190" y="835" fill="#8055a5">UB = ½LI²</text>
 <text class="formula" x="850" y="1015">ω = 1/√(LC)</text>
-<text class="en" x="1120" y="1015">При t = 0: q = Q₀, I = 0 / Initially: q = Q₀, I = 0</text>
+<text class="en" x="1160" y="1015">At t = 0: q = Q₀, I = 0</text>
 </svg>
