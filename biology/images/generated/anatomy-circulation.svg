@@ -37,7 +37,7 @@
 <text x="405" y="135" class="small" fill="#b94d43">Лёгочные вены / Pulmonary veins</text>
 <text x="770" y="505" class="small" fill="#b94d43">Системные артерии / Systemic arteries</text>
 <!-- systemic return -->
-<path class="blue" marker-end="url(#blueArrow)" d="M890 270C880 420 820 570 680 610C540 650 370 610 275 520C220 470 220 405 275 365C335 325 400 320 455 320"/>
+<path class="blue" marker-end="url(#blueArrow)" d="M1090 270C1150 300 1160 360 1130 405C1100 450 1000 460 900 450C830 445 790 420 745 370"/>
 <!-- Chamber abbreviations are keyed below the heart so flow arrows never obscure them. -->
 <text x="600" y="625" text-anchor="middle" class="small">Камеры сердца / Heart chambers: ПП / RA · ПЖ / RV · ЛП / LA · ЛЖ / LV</text>
 <text x="600" y="650" text-anchor="middle" class="small">Клапаны поддерживают однонаправленный ток / Valves maintain one-way flow</text>
