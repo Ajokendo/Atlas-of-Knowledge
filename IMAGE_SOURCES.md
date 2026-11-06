@@ -9,7 +9,7 @@ This register documents every visual asset integrated into the Physics atlas. Ad
 
 ## Reporting metrics — provisional during source-lineage audit
 
-The Physics branch is a derivative Russian-language edition of Nathan Liow's pre-existing English atlas. The current three Chapter 04 records describe implementation forms found in this branch; they do **not yet prove** that those visuals were independently authored here.
+The Physics branch is a derivative Russian-language edition of Nathan Liow's pre-existing English atlas. The three standalone Chapter 04 visuals have been mapped to local project implementations (Category C, with project-owner creator/licence declaration still pending); the 12 interactive-book scenes have been mapped to Nathan Liow's upstream module and documented as Category B adaptations.
 
 | Metric | Count | Counting rule |
 |---|---:|---|
@@ -469,69 +469,65 @@ Comparison target: Nathan Liow, `nathanliow/atlas-of-physics`, commit `bcd67d9b7
 
 The table is a complete page-to-scene/source map for the 12 interactive-book figures. It is not a claim that the visual QA of every scene is complete; that is tracked in the Chapter 04 audit.
 
-## Chapter 04 standalone-page visuals — source/rights review
+## Chapter 04 standalone-page visuals — local source lineage confirmed
+
+The upstream repository snapshot contains the `energy/` interactive-book module but no root `chapters/` standalone lesson and no shared `physics-lab.js`. Git history for `chapters/work-energy.html` records the standalone lesson and its SVG/canvas components as local project additions. The three visuals below therefore have **local project lineage** rather than a located inherited figure. The commit history records Ajokendo as contributor; a separate explicit project creator/rightsholder and asset-licence declaration should be retained if formal rights documentation is required. No third-party external image file is identified in these implementations.
 
 ### Chapter 04 — Force and displacement diagram
+- Asset ID: `PHY-04-ROOT-01`
 - Chapter: 04 — Work and Energy
 - Learning objective: Show the angle between a constant force and displacement, and identify the force component that contributes to mechanical work
-- File: chapters/work-energy.html (inline SVG in the section “1. Механическая работа”)
-- Local implementation: Inline SVG in `chapters/work-energy.html`; source relationship to the upstream work has not yet been established. Do not treat it as independently authored.
-- Author / creator: **PENDING** — compare against the English source; do not infer authorship from the in-repository SVG implementation
-- Source-work attribution: Nathan Liow (inherited source attribution; exact figure-level lineage pending)
-- Licence / permission: **Unknown / PENDING** for the inherited source and Russian derivative use
-- Licence evidence: **PENDING** — repository-level MIT licence is not sufficient evidence for inherited source material
-- Checked date: 2026-11-05
+- File: `chapters/work-energy.html` (inline SVG in “1. Механическая работа”)
+- Local source evidence: standalone lesson history includes project commits `bf8f1d5239`, `7c24045d08`, and earlier initial lesson work; no standalone chapter counterpart exists in the pinned upstream repository.
+- Creator evidence: project-local implementation; Git history records Ajokendo as contributor. Exclusive creator/rightsholder declaration: project owner confirmation required if needed for formal licensing.
+- Source-work attribution: no matching external figure located; the surrounding atlas still retains Nathan Liow attribution for the inherited interactive book.
+- Category: **C — project-created local diagram** (simple vector decomposition; not a copied third-party figure).
+- Licence / permission: no third-party image licence identified; explicit licence for this new standalone visual should follow the project owner's selected policy.
 - RU caption: Работа совершается составляющей силы вдоль перемещения: F cos α
 - EN caption: The component of force along the displacement is F cos α
 - Alt RU: Ящик перемещается горизонтально вправо; сила направлена вверх под углом α, её горизонтальная составляющая F cos α показана отдельно
 - Alt EN: A box moves horizontally to the right; the applied force points upward at angle α, with its horizontal component F cos α shown separately
-- Modified: **Unknown / PENDING** — compare visual content with the upstream/source material before classifying A, B, or C.
-- Scientific review: Formula and vector geometry correspond to A = Fs cos α; included as a schematic, not to scale
-- Rights review: **PENDING** — the repository MIT licence alone does not establish the right to reproduce or adapt inherited source visuals
-- Integration: chapters/work-energy.html, immediately below the work formula
-- Mobile check: Verified in GitHub Actions browser smoke on 2026-11-04 at 390×844; the force-and-displacement SVG is present in the responsive chapter, with zero serious/critical axe violations and no horizontal page overflow.
-
+- Scientific review: vector geometry and formula A = Fs cos α are consistent; schematic is not to scale.
+- Technical review: browser smoke verifies SVG presence, responsive rendering, zero serious/critical axe violations and no horizontal overflow.
+- Integration: immediately below the work formula in `chapters/work-energy.html`.
 
 ### Chapter 04 — Energy comparison plot
+- Asset ID: `PHY-04-ROOT-02`
 - Chapter: 04 — Work and Energy
 - Learning objective: Compare kinetic, gravitational potential and total mechanical energy as mass, speed and height change
-- File: `chapters/work-energy.html`
-- Local implementation: JavaScript canvas drawing (`draw()`) in `chapters/work-energy.html`; source relationship to the upstream/source material has not yet been established.
-- Author / creator: **PENDING** — compare the scene and code lineage with the English source before attributing authorship
-- Source-work attribution: Nathan Liow (inherited source attribution; exact figure/scene lineage pending)
-- Licence / permission: **Unknown / PENDING** for inherited source and derivative use
-- Licence evidence: **PENDING** — repository-level MIT licence does not establish rights in inherited educational content
-- Checked date: 2026-11-05
+- File: `chapters/work-energy.html` (local JavaScript canvas drawing in `draw()`)
+- Local source evidence: canvas implementation and interactive controls are in the locally developed standalone lesson; no matching standalone asset is present in upstream `energy/`.
+- Creator evidence: project-local implementation; Git history records Ajokendo as contributor. Exclusive creator/rightsholder declaration: project owner confirmation required if needed for formal licensing.
+- Source-work attribution: no matching external chart located.
+- Category: **C — project-created local chart** (generated from the local equations and control values).
+- Licence / permission: no third-party image licence identified; explicit licence for this new standalone visual should follow the project owner's selected policy.
 - RU caption: Сравнение кинетической, потенциальной и суммарной энергии
 - EN caption: Comparison of kinetic, potential and total energy
 - Alt RU: Столбчатая диаграмма трёх значений энергии, пересчитываемых при изменении массы, скорости и высоты
 - Alt EN: Bar chart of three energy values recalculated when mass, speed and height change
-- Modified: **PENDING source mapping** — chart is generated from equations, but the implementation and educational visual lineage still need comparison.
-- Scientific review: Formula-based; browser smoke confirmed live recalculation, chart rendering and slider interaction on desktop and mobile.
-- Rights review: **PENDING** — source lineage and any inherited/third-party components must be checked before claiming rights clearance
-- Integration: Interactive model in `chapters/work-energy.html`
-- Mobile check: Verified in GitHub Actions on 2026-11-04 at 390×844; the canvas chart / WebGL scene rendered without horizontal page overflow.
+- Scientific review: bars are recalculated from K = mv²/2 and Ug = mgh; total is K + Ug. The chart is a comparison of the selected values, not a time-evolution graph.
+- Technical review: browser smoke checks control recalculation, chart dimensions/context, desktop/mobile rendering and horizontal overflow.
+- Integration: interactive model in `chapters/work-energy.html`.
 
-### Chapter 04 — Three-dimensional energy scene
+### Chapter 04 — Three-dimensional incline laboratory
+- Asset ID: `PHY-04-ROOT-03`
 - Chapter: 04 — Work and Energy
-- Learning objective: Show an object moving along an inclined plane and relate its height to gravitational potential energy per unit mass
-- File: `physics-lab.js`
-- Local implementation: Three.js scene in `physics-lab.js`; source relationship to the upstream/source material has not yet been established.
-- Author / creator: **Unknown / PENDING** — the code is in the derivative repository, but its relationship to Nathan Liow's upstream scene has not yet been compared line by line; do not infer independent authorship.
-- License: Repository-level MIT License is present, with Nathan Liow's copyright notice; applicability to this exact inherited visual and any embedded third-party components remains **PENDING**.
-- License URL: https://opensource.org/license/mit/
-- Access date: 2026-11-04
+- Learning objective: Illustrate motion down an inclined plane and the relation between height and gravitational potential energy per unit mass
+- File: `physics-lab.js`, energy branch selected by the standalone lesson
+- Local source evidence: no `physics-lab.js` or corresponding energy incline scene exists in the pinned upstream repository; the scene is a project-local Three.js implementation.
+- Creator evidence: project-local implementation; Git history records Ajokendo as contributor. Exclusive creator/rightsholder declaration: project owner confirmation required if needed for formal licensing.
+- Source-work attribution: no matching upstream scene located. Nathan Liow attribution remains attached to the separate inherited interactive-book module.
+- Category: **C — project-created local 3D scene**.
+- Licence / permission: no third-party artwork identified in the scene code; explicit licence for this new visual should follow the project owner's selected policy.
 - RU caption: Трёхмерная модель движения тела по наклонной поверхности
 - EN caption: Three-dimensional model of an object moving along an inclined surface
-- Alt RU: Шар на наклонной плоскости; модель предназначена для иллюстрации движения и изменения высоты
-- Alt EN: A sphere on an inclined plane; the model illustrates motion and changing height
-- Modified: Rendered programmatically with Three.js; this describes the rendering method, not authorship or source lineage.
-- Scientific review: Conceptual model; the phase slider moves the sphere down the incline and updates Eп/m = gh. It illustrates the height dependence of potential energy, not a complete quantitative energy-conservation simulation
-- Rights review: **PENDING** — confirm source lineage and whether any separately licensed or third-party components are embedded; repository-level MIT notice alone is not a visual-by-visual rights determination.
-- Integration: Shared 3D laboratory component in `chapters/work-energy.html`
-- Mobile check: Verified in GitHub Actions on 2026-11-04 at 390×844; the canvas chart / WebGL scene rendered without horizontal page overflow.
+- Alt RU: Шар движется вниз по наклонной плоскости; при уменьшении высоты уменьшается гравитационная потенциальная энергия на единицу массы.
+- Alt EN: A sphere moves down an inclined plane; as its height decreases, gravitational potential energy per unit mass decreases.
+- Scientific review: conceptual height model; phase slider changes the sphere's position and displays Eп/m = gh. It is not presented as a complete quantitative energy-conservation simulation.
+- Technical review: browser smoke checks WebGL canvas creation, accessible name, phase-slider update, formula readout, desktop/mobile layout and horizontal overflow. The gravity constant is now 9.80 m/s² to match the chapter model.
+- Integration: shared laboratory component in `chapters/work-energy.html`.
 
-No third-party external image is currently claimed as integrated for Chapter 04. However, this does not establish that the listed SVG, canvas plot, or Three.js scene are independently authored in the Russian derivative. Their source lineage and rights basis remain pending comparison with the English atlas. Do not count them as Category C or rights-cleared until that comparison is complete.
+**Chapter 04 standalone visual status:** source lineage is mapped as three local project-created visuals (Category C); no external image is claimed. The project-owner declaration of creator/rightsholder and explicit reuse licence remains a documentation item. Do not mark these three records as fully rights-verified until that declaration is recorded.
 
 ## Superseded discovery search — Chapter 14 infographic (2026-11-05)
 
