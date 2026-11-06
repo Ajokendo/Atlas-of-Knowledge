@@ -1423,3 +1423,11 @@ Older checkpoint entries that list independent specialists, school/teacher revie
 - Reviewed the corrected Western Tien Shan SVG in run #1581's desktop and mobile full-page screenshots.
 - The Sary-Chelek, Besh-Aral and alpine footer-label strips now remain inside their respective panels; the lower disclaimer no longer covers the text. Mobile horizontal scrolling is available and the page column remains within the viewport.
 - Limited rendered-layout acceptance recorded in the brief review and disposition register. It is not documentary evidence of species presence, a range map, or a specimen-level morphology approval.
+
+
+## Talas Besh-Tash regional fauna plate — screenshot QA — 6 November 2026
+
+- The morphology refinement in `fauna-talas-besh-tash.svg` (commit `5ae6322e`) completed successful Biology CI workflow [#1595](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42210570386).
+- Reviewed the fresh 1365 px desktop screenshot and the 390 px mobile screenshot. Desktop shows all three separate habitat panels and the bilingual caption without clipping; mobile shows the intended horizontal-scroll viewport and bilingual hint without page-level overflow.
+- The refined tail/rosette cues for the snow leopard, swept-back ibex horns and branched maral antlers are visible. This is limited internal visual QA, not a taxonomic or specimen-level morphology certification.
+- Recorded limited layout acceptance in the brief-review and disposition registers. Species identity, source-to-image evidence, generic fish taxonomy, rights/provenance and detailed bilingual semantics remain separate open checks. No image status promoted to `VERIFIED` and no overall readiness percentage changed.
