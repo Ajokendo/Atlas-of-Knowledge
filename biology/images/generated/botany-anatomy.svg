@@ -42,9 +42,9 @@
 <g class="lab">
  <text x="35" y="235">Ризодерма / Rhizodermis</text><text x="35" y="256" class="small">(эпидерма / epidermis)</text>
  <text x="300" y="225">Кора / Cortex</text>
- <text x="30" y="602">Эндодерма / Endodermis</text>
- <text x="300" y="602">Перицикл / Pericycle</text>
- <text x="242" y="574" text-anchor="middle">Центральный цилиндр</text><text x="242" y="594" text-anchor="middle" class="small">Stele (central cylinder)</text>
+ <text x="30" y="612">Эндодерма / Endodermis</text>
+ <text x="300" y="612">Перицикл / Pericycle</text>
+ <text x="242" y="552" text-anchor="middle">Центральный цилиндр</text><text x="242" y="572" text-anchor="middle" class="small">Stele (central cylinder)</text>
  <text x="242" y="648" text-anchor="middle" fill="#176b9e">Ксилема / Xylem — звезда</text>
  <text x="242" y="670" text-anchor="middle" fill="#75428f">Флоэма / Phloem — между лучами</text>
 </g>
