@@ -230,9 +230,9 @@ After studying this chapter, readers will be able to explain the extent and func
 **Морские экосистемы:**
 - прибрежная зона — область интенсивного взаимодействия суши и моря;
 - эстуарии — участки смешения речной и морской воды, часто высокопродуктивные;
-- мангровые леса и солёные марши — прибрежные экосистемы тропиков и умеренных широт соответственно;
+- мангровые леса и солёные марши — прибрежные экосистемы, распространённые в разных климатических поясах;
 - морские луга — подводные цветковые растения на мелководьях;
-- коралловые рифы — сложные сообщества тёплых мелководий, чувствительные к перегреву и закислению;
+- тропические рифообразующие кораллы создают сложные сообщества мелководий, чувствительные к перегреву и закислению; существуют также глубоководные холодноводные кораллы, живущие без солнечного света;
 - открытый океан — обширная пелагическая среда, где основную первичную продукцию в освещённом слое обеспечивают микроскопические фотосинтезирующие организмы;
 - глубоководные экосистемы — сообщества, существующие без солнечного света, в том числе вокруг гидротермальных источников.
 
@@ -504,7 +504,7 @@ Aquatic biomes are classified by salinity, depth, water movement, light, tempera
 - wetlands and peatlands, where waterlogging slows decomposition and promotes peat and carbon accumulation; and
 - temporary water bodies, which support organisms adapted to alternating inundation and drying.
 
-**Marine ecosystems** include coastal zones, estuaries where river and seawater mix, mangroves and salt marshes, seagrass meadows, coral reefs, the open ocean and deep-sea communities. Coral reefs are complex communities of warm shallow waters and are sensitive to overheating and acidification. In the sunlit open ocean, much primary production is carried out by microscopic photosynthetic organisms. Deep-sea ecosystems can exist without sunlight, including communities around hydrothermal vents.
+**Marine ecosystems** include coastal zones; estuaries, where river and seawater mix; mangroves and salt marshes, which occur across different climatic regions; seagrass meadows; tropical reef-building coral communities in shallow waters, which are sensitive to overheating and acidification; deep-sea cold-water corals; the open ocean; and other deep-sea communities. In the sunlit open ocean, much primary production is carried out by microscopic photosynthetic organisms. Deep-sea ecosystems can exist without sunlight, including communities around hydrothermal vents.
 
 The trophic state of water bodies is important. **Eutrophication** is enrichment with nutrients, especially nitrogen and phosphorus compounds. Excess nutrient input can cause algal blooms, oxygen depletion and the death of aquatic organisms.
 
@@ -710,6 +710,7 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 14. Alberts, B. et al. **Molecular Biology of the Cell**, section “Chloroplasts and Photosynthesis” — explains that molecular oxygen is released when water is oxidised in the photosynthetic electron-transfer reactions, while carbon dioxide is fixed into organic molecules. NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK26819/
 15. Bajaffer, A. et al. (2026). **Addressing false negatives and positives in eDNA studies.** *Methods in Ecology and Evolution*, 17(7), 1977–2008 — reviews detection errors and the need for transparent reporting of sampling, laboratory and bioinformatic controls. https://doi.org/10.1111/2041-210x.70328
 16. Dinerstein, E. et al. (2017). **An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm.** *BioScience*, 67(6), 534–545 — describes the RESOLVE 2017 map of 846 terrestrial ecoregions grouped into 14 biomes and 8 realms. https://doi.org/10.1093/biosci/bix014
+17. NOAA Ocean Exploration. **Deep-Sea Corals** — explains the occurrence of cold-water corals in deep, dark waters; see also NOAA's overview of coral reef ecosystems. https://oceanexplorer.noaa.gov/education/deep-sea-corals/ and https://www.noaa.gov/education/resource-collections/marine-life/coral-reef-ecosystems
 
 **Примечание:** классификации биомов и экорегионов различаются по назначению и методике. При сравнении карт необходимо указывать выбранную систему, масштаб и год данных.
 
