@@ -89,6 +89,11 @@ Ecosystem services are the benefits people obtain from nature. In the Millennium
 
 Воздействия часто усиливают друг друга. Например, вырубка лесов может одновременно снижать запас углерода, усиливать эрозию почв, менять водный сток и фрагментировать местообитания.
 
+![Глобальные изменения как социально-экологическая система / Global change as a social-ecological system](../assets/diagrams/13-E-global-change-socioecological-system-bilingual.svg)
+
+*Схема адаптирует шесть взаимосвязанных элементов рамки IPBES; это аналитическая модель, а не линейная причинная цепочка. / The diagram adapts six linked elements of the IPBES framework; it is an analytical model, not a linear causal chain.*
+
+
 Концепция **планетарных границ** описывает девять взаимосвязанных процессов земной системы, для которых человечеству важно учитывать риск выхода за пределы безопасного диапазона изменений. Это научная рамка для анализа системных рисков, а не набор юридических нормативов. Результаты зависят от версии оценки, контрольных переменных и доступных данных. В исследовании 2023 года пересечёнными были признаны шесть из девяти границ. В оценках Planetary Health Check 2025 и 2026 годов — уже семь из девяти. По отчёту 2026 года это климатические изменения, утрата целостности биосферы, изменение земной системы, изменение пресноводной системы, нарушение биогеохимических потоков, появление новых веществ и форм загрязнения (novel entities) и подкисление океана. Две другие границы — истощение стратосферного озона и аэрозольная нагрузка — показывают улучшение по глобальной оценке за последнее десятилетие, однако глобальное улучшение аэрозольного показателя не исключает опасно высоких уровней загрязнения в отдельных регионах. Эти выводы относятся к конкретной научной оценке и не являются неизменными юридическими порогами.
 
 
@@ -155,6 +160,11 @@ Climate change is expressed not only in rising average temperatures but also in 
 ### Продовольствие и здоровье / Food and health
 
 Изменение температур и осадков влияет на урожайность, вредителей, водную обеспеченность и условия выпаса. Жара повышает риски для здоровья, особенно для пожилых людей, детей, работников на открытом воздухе и жителей районов с недостаточным доступом к охлаждению и медицинской помощи.
+
+![Климатические воздействия: наблюдения и будущие риски / Climate impacts: observations and future risks](../assets/diagrams/13-F-climate-impact-observation-projection-matrix-bilingual.svg)
+
+*Качественные примеры из оценок IPCC; не являются количественным прогнозом или локальной оценкой для Кыргызстана. / Qualitative examples from IPCC assessments; not a quantitative forecast or a local assessment for Kyrgyzstan.*
+
 
 
 ### Cryosphere and mountain regions
@@ -223,6 +233,8 @@ Protected areas are an important tool for nature conservation, but their effecti
 
 Лесовосстановление не всегда означает восстановление исходной экосистемы. Посадка монокультурных плантаций не эквивалентна восстановлению естественного леса по видовому составу, структуре и экологическим функциям.
 
+Техническое задание 13-G: сравнить эрозию, засоление, уплотнение и восстановление почвенного покрова; изображать разные процессы отдельно, не смешивая их визуально. / Visual brief 13-G: compare erosion, salinisation, compaction and soil-cover restoration as distinct processes.
+
 
 Land-use change is one of the major drivers of landscape transformation. The expansion of farmland, urbanisation, mineral extraction, road construction and reservoirs changes the structure and functions of ecosystems.
 
@@ -271,6 +283,8 @@ The biogeochemical cycles of carbon, nitrogen, phosphorus and water connect the 
 **Циркулярная экономика** стремится сохранять ценность материалов и продукции дольше за счёт долговечного дизайна, ремонта, повторного использования, переработки и сокращения отходов. Она не означает полного отсутствия отходов или воздействия, но может снижать потребление первичных ресурсов.
 
 При оценке циркулярности важно учитывать полный жизненный цикл товара: добычу сырья, производство, транспорт, использование, ремонт и окончательное обращение с материалом. Переработка полезна, но предотвращение образования отходов и повторное использование часто позволяют избежать большего объёма воздействия.
+
+Техническое задание 13-J: показать предотвращение отходов, долговечный дизайн, ремонт, повторное использование и переработку с приоритетом сохранения ценности продукции и материалов. / Visual brief 13-J: show waste prevention, durable design, repair, reuse and recycling, prioritising the retention of product and material value.
 
 
 Waste has a spatial geography: places where products are made and consumed are often separate from the places where waste is collected, recycled, disposed of or causes environmental impacts. The transboundary movement of waste requires legal oversight and environmental responsibility.
@@ -376,6 +390,11 @@ Environmental governance should take account of scientific evidence, the precaut
 
 Меры должны оцениваться с учётом побочных эффектов, справедливости, стоимости, доступности технологий и долгосрочной эффективности. Непродуманная адаптация может создавать новые риски или переносить их на другие группы и территории.
 
+![Смягчение изменения климата и адаптация / Climate mitigation and adaptation](../assets/diagrams/13-H-climate-mitigation-adaptation-bilingual.svg)
+
+*Смягчение сокращает источники выбросов или усиливает поглощение; адаптация снижает уязвимость и ущерб. Показатели должны соответствовать местному контексту. / Mitigation reduces emissions sources or increases removals; adaptation reduces vulnerability and harm. Indicators must fit the local context.*
+
+
 
 ### 13.12.1. Практический пример: различение смягчения и адаптации / Worked Example: Distinguishing Mitigation from Adaptation
 
@@ -449,6 +468,8 @@ This is a simplified estimate of the direct effect of reduced electricity use. A
 - оценка жизненного цикла продукции;
 - моделирование экосистемных и климатических процессов.
 
+Техническое задание 13-I: показать связь полевых измерений, лабораторных данных, спутниковых наблюдений, GIS, моделей и общественного мониторинга, включая QA/QC и прослеживаемость. / Visual brief 13-I: connect field measurements, laboratory data, satellite observations, GIS, models and community monitoring, including QA/QC and traceability.
+
 **Оценка воздействия на окружающую среду (ОВОС / EIA)** рассматривает вероятные экологические последствия планируемого проекта до принятия решения о его реализации. **Стратегическая экологическая оценка (СЭО / SEA)** применяется на более раннем этапе к планам и программам, а в некоторых правовых системах — также к политикам и стратегиям. Она позволяет учитывать экологические и связанные со здоровьем последствия, разумные альтернативы и участие общественности до окончательного выбора направления развития. Конкретная область применения и юридические требования различаются по странам.
 
 Для качественной оценки необходимо описывать исходное состояние, альтернативы, прямые и косвенные воздействия, кумулятивные эффекты, меры предотвращения и смягчения, а также план последующего мониторинга.
@@ -505,6 +526,8 @@ The environmental impact of a product or infrastructure asset is not limited to 
 - защиту здоровья и средств к существованию.
 
 Здоровье человека зависит от качества воздуха и воды, безопасности пищи, температурных условий, городской среды, санитарии и доступа к зелёным пространствам. Экологическая география помогает выявлять территории, где несколько факторов риска накладываются друг на друга.
+
+Техническое задание 13-K: показать условную городскую территорию с неодинаковым доступом к зелёным зонам и разной нагрузкой загрязнения; все данные должны быть явно обозначены как учебные. / Visual brief 13-K: show a hypothetical urban area with unequal access to green space and differing pollution burdens; label all data clearly as illustrative.
 
 
 Environmental benefits and risks are not distributed equally. Low-income communities, residents of industrial areas, rural and remote territories, and groups with limited access to healthcare and public services may face disproportionately high burdens.
@@ -840,16 +863,12 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 ## Технические задания для будущих иллюстраций / Visual Briefs
 
-![Глобальные изменения как социально-экологическая система / Global change as a social-ecological system](../assets/diagrams/13-E-global-change-socioecological-system-bilingual.svg)
-
-*Схема адаптирует шесть взаимосвязанных элементов рамки IPBES; это аналитическая модель, а не линейная причинная цепочка. / The diagram adapts six linked elements of the IPBES framework; it is an analytical model, not a linear causal chain.*
+Техническое задание 13-E: показать шесть взаимосвязанных элементов концептуальной рамки IPBES без превращения схемы в линейную причинную цепочку. / Visual brief 13-E: show the six linked elements of the IPBES conceptual framework without turning it into a linear causal chain.
 
 **Иллюстрация 13.2 / Figure 13.2 — Парниковый эффект и энергетический баланс / Greenhouse effect and energy balance.**  
 Научная схема поступления коротковолновой солнечной радиации, отражения, поглощения и исходящего длинноволнового излучения. Не изображать парниковые газы как физический слой или «крышку» атмосферы.
 
-![Климатические воздействия: наблюдения и будущие риски / Climate impacts: observations and future risks](../assets/diagrams/13-F-climate-impact-observation-projection-matrix-bilingual.svg)
-
-*Качественные примеры из оценок IPCC; не являются количественным прогнозом или локальной оценкой для Кыргызстана. / Qualitative examples from IPCC assessments; not a quantitative forecast or a local assessment for Kyrgyzstan.*
+Техническое задание 13-F: разделить наблюдаемые изменения и будущие риски; не использовать количественные шкалы или локальные выводы для Кыргызстана без соответствующих данных. / Visual brief 13-F: distinguish observed changes from future risks; do not imply quantitative scales or local conclusions for Kyrgyzstan without supporting data.
 
 ![Процессы деградации земель: эрозия, засоление, уплотнение, утрата покрова и восстановление / Land degradation processes: erosion, salinisation, compaction, cover loss and restoration](../assets/diagrams/13-G-land-degradation-restoration-bilingual.svg)
 
@@ -859,9 +878,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 **Иллюстрация 13.5 / Figure 13.5 — Экологический риск: опасность, подверженность, уязвимость / Environmental risk: hazard, exposure and vulnerability.**  
 Концептуальная диаграмма с примером одного природного явления и разными последствиями для двух территорий.
 
-![Смягчение изменения климата и адаптация / Climate mitigation and adaptation](../assets/diagrams/13-H-climate-mitigation-adaptation-bilingual.svg)
-
-*Смягчение сокращает источники выбросов или усиливает поглощение; адаптация снижает уязвимость и ущерб. Показатели должны соответствовать местному контексту. / Mitigation reduces emissions sources or increases removals; adaptation reduces vulnerability and harm. Indicators must fit the local context.*
+Техническое задание 13-H: показать разные цели и примеры смягчения и адаптации; не представлять меры как взаимозаменяемые. / Visual brief 13-H: show the different aims and examples of mitigation and adaptation; do not present them as interchangeable.
 
 ![Цикл экологического мониторинга: полевые наблюдения, лаборатория, ДЗЗ, QA/QC, анализ и публикация / Environmental monitoring cycle: field observations, laboratory, remote sensing, QA/QC, analysis and publication](../assets/diagrams/13-I-environmental-monitoring-workflow-bilingual.svg)
 
