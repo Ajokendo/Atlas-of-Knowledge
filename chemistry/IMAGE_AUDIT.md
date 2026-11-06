@@ -764,3 +764,14 @@ The first 768 px contact-sheet scan showed that the periodic-table grid still re
 - [x] Latest rendered-review artifact: [chemistry-rendered-review, ID 13482580521](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173730531/artifacts/13482580521). The six periodic-table captures (RU/EN at 390/768/1280 px) were rechecked; the scroll hint is visible where the table overflows and absent at desktop width.
 
 This closes the periodic-table scroll-hint and focused-region keyboard-scroll regression. It does not close the complete manual review of every interactive state, every visual asset, physical-device/assistive-technology testing, rights/licence evidence, or final publication approval.
+
+
+## Three-width bilingual contact-sheet scan — 6 November 2026
+
+- [x] Retrieved the fresh branch-head screenshot artifact from CI run [42173984466](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173984466), commit `c39b57466aa9f97b3b8c7f8d0b53c257de17be43`, artifact ID `13482825136`.
+- [x] Confirmed the archive contains exactly 72 PNG files: 12 visual-evidence pages × RU/EN × 390/768/1280 CSS px.
+- [x] Scanned contact sheets for all 24 narrow (390 px), 24 tablet (768 px), and 24 desktop (1280 px) captures. This overview scan did not reveal a new obvious page-level clipping, off-canvas panel, or bilingual layout divergence requiring an immediate source correction.
+- [ ] This is a contact-sheet overview, not a full-resolution, per-asset visual sign-off. Text legibility, fine SVG geometry, contrast in every component, and all interaction states still require targeted inspection. Screenshots are baseline states, not a complete interaction-state capture.
+- [ ] Creator/rightsholder and licensing authority remain unresolved for all 12 static visual families and all 7 interactive code systems. No licence is inferred from repository commit authorship or non-commercial intent. The rights gate remains a publication blocker under the governing standard.
+
+**Disposition:** 72/72 screenshots captured and included in the overview scan; do not convert this capture count into 72/72 manually verified assets. Static source review remains 12/12; interactive source review remains 7/7 first-pass; full seven-gate VERIFIED count remains 0/12 static and 0/7 interactive until the outstanding evidence and sign-offs are recorded.
