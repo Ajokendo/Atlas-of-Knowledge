@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1080" viewBox="0 0 1800 1080" role="img" aria-labelledby="title desc">
 <title id="title">Наземные биомы мира — RESOLVE Ecoregions 2017 / World terrestrial biomes — RESOLVE Ecoregions 2017</title>
-<desc id="desc">Simplified teaching map of 846 terrestrial ecoregions grouped into 14 biomes. Русская и английская легенды приведены справа. Границы являются классификационными, а не политическими.</desc>
+<desc id="desc">Simplified teaching map of 845 classified terrestrial ecoregions grouped into 14 biomes; the single N/A biome record is excluded. Русская и английская легенды приведены справа. Границы являются классификационными, а не политическими.</desc>
 <rect width="100%" height="100%" fill="#f5f8fa"/>
 <text x="60" y="38" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="#183044">Наземные биомы мира — RESOLVE Ecoregions 2017</text>
 <text x="60" y="68" font-family="Arial,sans-serif" font-size="19" fill="#355166">World terrestrial biomes — RESOLVE Ecoregions 2017</text>
@@ -65810,5 +65810,6 @@
 <text x="60" y="900" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Источник данных / Data: RESOLVE Ecoregions 2017; Dinerstein et al. (2017), BioScience 67(6): 534–545. DOI: 10.1093/biosci/bix014.</text>
 <text x="60" y="925" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Данные / Data licence: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/ . Карта создана Atlas of Knowledge; геометрия упрощена для учебного масштаба.</text>
 <text x="60" y="950" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">This derivative map is attributed to RESOLVE / Dinerstein et al. and is distributed under CC BY 4.0.</text>
-<text x="60" y="985" font-family="Arial,sans-serif" font-size="13" fill="#526773">Четырнадцать биомов / Fourteen biomes.</text>
+<text x="60" y="975" font-family="Arial,sans-serif" font-size="13" fill="#526773">Проекция / Projection: equirectangular, WGS 84 (EPSG:4326), north-up; not to scale.</text>
+<text x="60" y="1000" font-family="Arial,sans-serif" font-size="13" fill="#526773">Четырнадцать биомов / Fourteen biomes.</text>
 </svg>
