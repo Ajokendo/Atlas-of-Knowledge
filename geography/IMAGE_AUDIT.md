@@ -28,7 +28,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 
 ## 5. Chapter baseline
 
-The chapter inventory contains **283 named visual IDs**. The two former unresolved Chapter 05 positions are now mapped to 5.10-A (climate controls) and 5.13-A (urban microclimate); legacy 5-A is an alias of 5.2-A and is not counted separately. The older headline value 231 is superseded and must not be used.
+The chapter inventory contains **284 named visual IDs**. The two former unresolved Chapter 05 positions are now mapped to 5.10-A (climate controls) and 5.13-A (urban microclimate); legacy 5-A is an alias of 5.2-A and is not counted separately. The older headline value 231 is superseded and must not be used.
 
 | Chapter | Planned IDs | Integrated in chapter source | Open / missing | Evidence / qualification |
 |---:|---:|---:|---:|---|
@@ -38,7 +38,7 @@ The chapter inventory contains **283 named visual IDs**. The two former unresolv
 | 04 | 16 | 16 | 0 | Sixteen local bilingual SVGs embedded; source records identify remaining creator/licence and technical review work. |
 | 05 | 19 | 19 | 0 | All 19 unique visual IDs are embedded in RU and EN. The two formerly unassigned positions are now 5.10-A and 5.13-A; legacy 5-A is an alias for 5.2-A, not a separate asset. Rights/accessibility/production QA remain asset-specific. |
 | 06 | 15 | 5 | 10 | 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A integrated; 6-B has a licensed candidate dataset but no finished map. |
-| 07 | 9 | 9 | 0 | All nine visual IDs (07-A–07-I) are integrated and paired in RU/EN (18 embeds). The two new maps are generated from RESOLVE Ecoregions 2017: 07-C groups classified terrestrial ecoregions into 14 biomes; 07-E groups them into eight biogeographical realms, including Antarctica. Source attribution and CC BY 4.0 are embedded in both maps. Expanded static QA passed in run 42222182335 and full-size Chromium QA passed in run 42222182340; all 18 live embeds decoded and axe WCAG 2.1 A/AA returned 0 violations. Manual screen-reader review remains pending; detailed map labels require zoom on phones. Project-owner CC BY-NC 4.0 authorisation remains limited to 07-A, 07-B, 07-F, 07-G, 07-H and 07-I; 07-D, 07-C and 07-E retain CC BY 4.0. Figure 7.5 still has an unnumbered brief awaiting scope/ID decision.
+| 07 | 10 | 10 | 0 | All ten visual IDs (07-A–07-J) are integrated and paired in RU/EN (20 embeds). 07-C groups RESOLVE Ecoregions 2017 into 14 terrestrial biomes; 07-E groups all eight biogeographical realms, including Antarctica; new original 07-J completes Figure 7.5 with a conceptual latitudinal/altitudinal zonation comparison. The 07-C/07-E maps retain CC BY 4.0. Prior nine-asset static/browser QA passed in runs 42222182335 and 42222182340; 07-J has source-level XML/ARIA preflight only and still needs rendered browser QA. Manual screen-reader review remains pending; detailed map labels require zoom on phones. Project-owner CC BY-NC 4.0 authorisation remains limited to 07-A, 07-B, 07-F, 07-G, 07-H and 07-I; 07-J rights designation is pending. 07-D, 07-C and 07-E retain their third-party CC BY 4.0 terms.
 | 08 | 7 | 6 | 1 | 08-A, 08-C, 08-D, 08-E, 08-F and 08-G are original bilingual SVGs; 08-B remains open pending a validated global WRB map. Rights and rendered/accessibility QA remain pending. |
 | 09 | 7 | 5 | 2 | 09-B, 09-C, 09-D, 09-F and 09-G are original bilingual conceptual SVGs. 09-A (WPP 2024 time series) and 09-E (gridded population-density map) remain open pending source-data extraction and documented chart/map metadata. |
 | 10 | 7 | 6 | 1 | 10-B–10-G are original bilingual conceptual SVGs; 10-A remains open pending a current, source-backed world political map and documented boundary-status policy. Rights and rendered/accessibility QA remain pending. |
@@ -53,17 +53,17 @@ The chapter inventory contains **283 named visual IDs**. The two former unresolv
 | 19 | 10 | 7 | 3 | 19-C, 19-D, 19-E, 19-F, 19-H, 19-I and 19-J embedded; 19-I is a distinct qualitative seasonal snow/precipitation profile, not a duplicate of 19-C. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 16 | 52 | 21-B, 21-C, 21-H, 21-I, 21-J; 22-F, 22-G, 22-H, 22-J; 23-E, 23-J; 25-D, 25-I; 26-H, 26-I and 26-K are now embedded as original bilingual SVGs. 52 planned IDs remain open. |
-| **Total named inventory** | **283** | **201** | **82** | Chapter 05's two former unresolved positions are now named and integrated. |
+| **Total named inventory** | **284** | **202** | **82** | Chapter 05's two former unresolved positions are now named and integrated. |
 
 **Separate metrics (6 November 2026):**
-- **Image Coverage:** 201/283 named IDs have an image embedded in the relevant chapter source (71.0%). This measures presence only.
+- **Image Coverage:** 202/284 named IDs have an image embedded in the relevant chapter source (71.1%). This measures presence only.
 - **Image Verification:** 0/201 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
 - **Image Gaps:** 82 named IDs remain without a confirmed integrated image; no unresolved Chapter 05 inventory positions remain.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
 
-The per-asset table enumerates 283 named IDs. Chapter 05's former unassigned positions are reconciled as 5.10-A and 5.13-A. Each review dimension is set independently from the evidence available; integration alone is not approval. No item is promoted to VERIFIED unless every applicable dimension is PASS with evidence.
+The per-asset table enumerates 284 named IDs. Chapter 05's former unassigned positions are reconciled as 5.10-A and 5.13-A. Each review dimension is set independently from the evidence available; integration alone is not approval. No item is promoted to VERIFIED unless every applicable dimension is PASS with evidence.
 
 | Chapter | Visual ID | Lifecycle status | Scientific | Rights | RU/EN | Accessibility | Technical | Evidence / next action |
 |---|---|---|---|---|---|---|---|---|
@@ -355,6 +355,7 @@ For 01-D (Category B), exact source identity, creator, CC BY 4.0 licence, attrib
 | 07 | 07-G | INTEGRATED | PASS — internal concept review, not independent expert sign-off | PASS — project-owner authorisation for CC BY-NC 4.0; Atlas of Knowledge attribution | PASS — paired RU/EN embeds and alt text | PARTIAL — axe WCAG 2.1 A/AA: 0 violations; manual screen-reader review pending | PASS — static XML/ARIA; Chromium run 42218476031; 14/14 live Markdown embeds | Original bilingual lake/ocean zonation; added clarification that benthic means bottom habitat and is not synonymous with aphotic water. |
 | 07 | 07-H | INTEGRATED | PASS — internal concept review, not independent expert sign-off | PASS — project-owner authorisation for CC BY-NC 4.0; Atlas of Knowledge attribution | PASS — paired RU/EN embeds and alt text | PARTIAL — axe WCAG 2.1 A/AA: 0 violations; manual screen-reader review pending | PASS — static XML/ARIA; Chromium run 42218476031; 14/14 live Markdown embeds | Original bilingual habitat-connectivity diagram; route is hypothetical; bilingual disclaimer split to avoid clipping. |
 | 07 | 07-I | INTEGRATED | PASS — internal concept review, not independent expert sign-off | PASS — project-owner authorisation for CC BY-NC 4.0; Atlas of Knowledge attribution | PASS — paired RU/EN embeds and alt text | PARTIAL — axe WCAG 2.1 A/AA: 0 violations; manual screen-reader review pending | PASS — static XML/ARIA; Chromium run 42218476031; 14/14 live Markdown embeds | Redrawn bilingual carbon/nitrogen pathways; corrected carbon routes (photosynthesis, respiration, litter, decomposition, ocean exchange, burial); nitrification simplified and nitrite omission stated. |
+| 07 | 07-J | INTEGRATED | PASS — conceptual sequence matches section 7.7; schematic explicitly avoids fixed altitude thresholds or exact biome boundaries; internal review, not independent expert sign-off | PENDING — original project-created SVG; asset-specific licence designation not yet authorised | PASS — paired RU/EN embeds, matched captions and bilingual alt text | PARTIAL — title/description/role metadata present; manual screen-reader review pending | PARTIAL — source-level XML/ID/metadata preflight; new-asset browser render and responsive checks pending | Original two-panel schematic for Figure 7.5: equator-to-pole zonation and mountain altitudinal belts; no measured regional data or fixed elevation bands implied. |
 | 08 | 08-A | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual soil-profile SVG embedded; horizon sequence is explicitly illustrative, not universal. Rights, accessibility and rendered QA remain pending. |
 | 08 | 08-B | MISSING | PENDING | PENDING | PENDING | PENDING | PENDING | Actual file, lineage/category and embedding not yet reconciled. |
 | 08 | 08-C | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING | Original bilingual soil-degradation SVG embedded; erosion, salinisation and compaction are conceptual. Rights, accessibility and rendered QA remain pending. |
@@ -1879,3 +1880,11 @@ The project owner confirmed that **07-A, 07-B, 07-F, 07-G, 07-H and 07-I** may b
 ### Chapter 07 — final nine-asset browser QA — 6 November 2026
 
 Static inventory/XML/ARIA acceptance passed in [run 42222182335](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42222182335). Full-size Chromium acceptance passed in [run 42222182340](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42222182340). The run rendered all nine SVGs at 390px and 1365px, decoded all 18 live GitHub Markdown embeds at both widths, found no horizontal overflow, no SVG text outside viewBox and no text-to-text overlap, and recorded zero axe WCAG 2.1 A/AA violations. Smallest effective text in the two maps is approximately 2.0 CSS px at 390px and 7.2 CSS px at 1365px; the map legend therefore requires zoom on phones and is not comfortably readable at normal mobile scale. axe results do not replace manual screen-reader testing or a human contrast/legibility review of map labels.
+
+
+### Chapter 07 — Figure 7.5 visual closure — 6 November 2026
+
+- Added **07-J** as the tenth named Chapter 07 visual ID and embedded it in RU and EN (two new embeds; 20 Chapter 07 embeds total).
+- The visual is an original conceptual teaching schematic. It shows a generalised latitudinal sequence and a separate mountain altitudinal sequence; it does not claim universal biome boundaries or fixed elevations.
+- Source-level preflight: one SVG root, title and description metadata, unique IDs, no script or foreignObject elements. Browser rendering, mobile reflow, manual screen-reader review and independent specialist sign-off remain pending.
+- Rights: 07-J is not included in the earlier six-asset CC BY-NC 4.0 authorisation; its asset-specific licence designation remains PENDING.
