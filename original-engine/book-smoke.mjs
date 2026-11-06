@@ -58,7 +58,7 @@ async function run(mobile) {
       if (!(await page.locator('#readout').innerText()).trim()) throw new Error(`page ${i + 1} has no live readout`);
       if (screenshotDir) {
         const suffix = String(i + 1).padStart(2, '0');
-        await page.screenshot({ path: `${screenshotDir}/${moduleName}-${mobile ? 'mobile' : 'desktop'}-${suffix}.png`, fullPage: true });
+        await page.screenshot({ path: `${screenshotDir}/${moduleName}-${mobile ? 'mobile' : 'desktop'}-${suffix}.png` });
       }
     }
 
