@@ -182,3 +182,10 @@ HEAD: `ffd170b707911db0500c5a442d1d4efc1df7f9f0`
 - Code commit `3930bec1975443065d157fc0a8e0089049793f65`: Validate JavaScript run `42223356071` — success; Physics engine checks run `42223356194` — success, including Newton laws physics invariants. These checks also cover the unchanged kinematics model.
 - Browser smoke run `42223356072` remains queued. Dedicated Newton browser QA run `42223356189` remains queued with no jobs yet. No browser readiness points are added to either chapter.
 - Readiness unchanged: Chapter 1 **59%**; Chapter 2 **53%**.
+
+
+## Глава 3 — редакторский checkpoint, 6 ноября 2026
+
+- Проверены основная русская HTML-страница и тексты всех 13 страниц интерактивной книги. Уточнены физический смысл полного ускорения и отсчёт угла наклона виража.
+- Оценка готовности пока **49%** без изменения: текущий browser QA ещё не завершён, а упражнения и остальные критерии требуют отдельного закрытия.
+- Physics engine checks на кодовом коммите `b96cbc66c41f61f0b3e8b5b78d31e5cd782c7203` — success (run `42223755137`). Chapter 3 browser QA run `42223755358`: desktop/mobile-проверка 13 страниц интерактивной книги выполняется; проверка standalone-страницы и quiz ожидает. Validate JavaScript run `42223755213` queued.
