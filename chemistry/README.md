@@ -2,6 +2,11 @@
 
 
 
+### Bilingual rendered screenshots
+
+- [x] Expanded the screenshot artifact to include both Russian and English baselines for all 12 selected pages at 390, 768 and 1280 CSS-pixel widths (72 images per successful run).
+- [x] Refined periodic-trend arrowhead scale and hid the mobile scroll hint at desktop widths; branch-head CI and artifact review are pending.
+
 ### Acid–base visual correction — 6 November 2026
 
 - [x] Repaired the Russian titration-curve note overlapping the x-axis caption.
@@ -17,7 +22,7 @@
 
 ### Rendered visual evidence in CI — 6 November 2026
 
-- [x] Added full-page baseline screenshots for 12 key Chemistry visual pages at 390, 768 and 1280 CSS-pixel widths (36 captures per successful run).
+- [x] Added full-page baseline screenshots for 12 key Chemistry visual pages at 390, 768 and 1280 CSS-pixel widths (72 captures per successful run (RU + EN × 12 pages × 3 widths)).
 - [x] GitHub Actions now uploads the screenshots as the `chemistry-rendered-review` artifact for 7 days.
 - [ ] Inspect the first successful artifact manually and record findings; screenshot generation is evidence capture, not visual approval, and it does not cover every interactive state.
 
