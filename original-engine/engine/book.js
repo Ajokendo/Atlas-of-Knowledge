@@ -408,7 +408,7 @@ export function startBook(chapter) {
     // camera: the scroll path, blended toward the opened thing
     const u = ease(smooth(0.3, 1, f));
     const A = PAGES[i].cam, B = PAGES[j].cam;
-    let cam = { target: A.target.map((v, k) => lerp(v, B.target[k], u)), az: lerp(A.az, B.az, u), el: lerp(A.el, B.el, u), dist: lerp(A.dist, B.dist, u) };
+    let cam = { target: A.target.map((v, k) => lerp(v, B.target[k], u)), az: lerp(A.az, B.az, u), el: lerp(A.el, B.el, u), dist: lerp(narrow() ? (A.mobileDist ?? A.dist) : A.dist, narrow() ? (B.mobileDist ?? B.dist) : B.dist, u) };
     cam.dist *= Math.max(1, 1.25 / E.camera.aspect);
     if (!reduced && !drag) cam.az += Math.sin(now / 5200) * 1.2;
     const page = Math.round(s);
