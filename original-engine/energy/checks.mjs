@@ -1,5 +1,6 @@
 // node energy/checks.mjs — invariants of the model. Exit 1 on any failure.
 import * as M from './model.js';
+import { readFileSync } from 'node:fs';
 
 const rows = [];
 const check = (name, ok, info = '') => rows.push([ok ? 'PASS' : 'FAIL', name, info]);
@@ -170,6 +171,14 @@ import { PRACTICE } from './practice.js';
   // 11: P = F v, F = mg at steady speed
   keyed(11, 0, 70 * g * (3.0 / 4.2), 'stair power, P = Fv');
 }
+
+// Russian learner-facing text regressions: keep one-force work distinct from net work,
+// and distinguish average from instantaneous power with its directional component.
+const pageCopy = readFileSync(new URL('./pages.js', import.meta.url), 'utf8');
+check('text: work sign of one force is distinguished from net-work effect',
+  pageCopy.includes('вклад отдельной силы') && pageCopy.includes('суммарной работой всех сил'));
+check('text: power separates average and instantaneous forms and states the angle condition',
+  pageCopy.includes('P</i><sub>ср') && pageCopy.includes('cos α') && pageCopy.includes('угол между силой и скоростью'));
 
 for (const r of rows) console.log(r.filter(Boolean).join('  '));
 process.exit(rows.every(r => r[0] === 'PASS') ? 0 : 1);
