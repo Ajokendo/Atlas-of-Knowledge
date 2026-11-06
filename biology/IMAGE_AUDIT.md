@@ -984,3 +984,13 @@ The latest commits have passed static validation and Chromium installation/serve
 - The run-1568 screenshot showed that moving the root stele note below the section caused it to collide with the endodermis/pericycle labels. The lower root legend was reorganised into distinct rows: endodermis/pericycle, stele, xylem and phloem (commit `e4a14fdb6d7e30609e1596b4ed4602e73efc1e75`). The updated screenshot is pending.
 
 The successful CI runs confirm that the previous commits render and pass the automated browser suite; they do not retroactively validate these newest follow-up edits. The final visual acceptance remains open until the latest screenshots are reviewed.
+
+
+### Post-fix screenshot acceptance — 6 November 2026
+
+The new desktop (1365 px) and mobile (390 px) screenshots from Biology Actions run #1575 were inspected for both figures. The full workflow completed with `conclusion=success`, including static validation, all-page Chromium tests and screenshot upload.
+
+- `anatomy-circulation.svg`: **desktop and mobile layout accepted**. The systemic venous-return arrow now routes around the right side of the heart rather than crossing the chamber/valve explanatory key. The mobile viewport intentionally crops the wide diagram and displays its horizontal-scroll hint; the automated keyboard-scroll regression check also passed.
+- `botany-anatomy.svg`: **desktop and mobile layout accepted**. The root cross-section's endodermis/pericycle labels and the separate stele, xylem and phloem key rows are now visually distinct. The mobile page retains the full diagram within its responsive image presentation.
+
+This closes the current *layout/rendering* follow-up for these two figures only. It does not certify all scientific details, source claims or every individual brief constraint; their broader morphology/content and source-provenance checks remain open. No global image-audit completion status is implied.
