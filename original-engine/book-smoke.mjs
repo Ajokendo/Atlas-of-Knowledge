@@ -62,6 +62,31 @@ async function run(mobile) {
       }
     }
 
+    if (moduleName === 'energy' && mobile) {
+      const layout = await page.evaluate(() => {
+        const rect = selector => {
+          const el = document.querySelector(selector);
+          if (!el) return null;
+          const r = el.getBoundingClientRect();
+          return { top: r.top, bottom: r.bottom, left: r.left, right: r.right };
+        };
+        return {
+          title: rect('#figtitle'),
+          picker: rect('.scene-picker'),
+          figure: rect('.figure'),
+          readout: rect('#readout'),
+          hintDisplay: getComputedStyle(document.querySelector('#hint')).display
+        };
+      });
+      if (!layout.title || !layout.picker || layout.picker.top < layout.title.bottom + 4) {
+        throw new Error('mobile scene selector overlaps the figure title');
+      }
+      if (layout.hintDisplay !== 'none') throw new Error('desktop mouse/keyboard hint remains on the mobile figure');
+      if (!layout.readout || layout.readout.left < layout.figure.left || layout.readout.right > layout.figure.right + 1) {
+        throw new Error('mobile live readout extends outside the figure');
+      }
+    }
+
     const picker = page.locator('select.scene-picker');
     if (await picker.count() !== 1 || await picker.locator('option').count() < 2) {
       throw new Error('accessible scene picker is missing usable objects');
