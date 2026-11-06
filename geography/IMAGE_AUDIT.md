@@ -1642,3 +1642,14 @@ The available visual inspection channel successfully retrieved and displayed 15 
 - Deployed rendering and responsive/accessibility QA: **BLOCKED — no branch preview/deployment available**.
 
 The Chapter 02 replacement milestone remains **11/11 complete**. The technical publication-readiness milestone is **not complete** and must not be reported as 100% until the pending checks above have evidence.
+
+
+### Hosted CI execution result — 6 November 2026
+
+- Workflow: [Geography Chapter 02 image integrity](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42158460241).
+- Run ID: `42158460241`; job ID: `127698123800`.
+- Tested commit: `81c85abea451c5f94b51c1ddf3ad61ce4010e50a` on `workspace/geography`.
+- **Conclusion: SUCCESS.** Python 3.12 static assertions passed: 56/56 embeds, 28/28 unique URLs, 28/28 URL pairs, 56/56 non-empty alt texts, all HTTPS, no local image references and no retired SVG references.
+- Remote endpoint probe: **25 PASS, 3 WARN, 0 FAIL**. No endpoint returned HTTP 404 or 410.
+- Warnings were: two NOAA image endpoints returned HTTP 403 to the GitHub Actions runner; the Wikimedia phosphorus-cycle image returned HTTP 429 (rate limiting). These are access/rate-limit responses, not evidence of missing files. The two NOAA images and the phosphorus-cycle image remain subject to a real-browser load check; do not mark them broken or replace them solely on these responses.
+- The workflow is a source/inventory and remote-endpoint check. It does not emulate a production reader or test responsive layout, keyboard operation or screen-reader output.
