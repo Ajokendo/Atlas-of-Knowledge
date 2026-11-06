@@ -113,6 +113,9 @@ try {
           await languageToggle.click();
           await page.waitForFunction(() => document.documentElement.lang === "en");
           await page.evaluate(() => document.fonts?.ready);
+          await page.locator("img").evaluateAll(async images => {
+            await Promise.all(images.map(image => image.decode().catch(() => null)));
+          });
           await page.screenshot({
             path: path.join(screenshotDirectory, safeName + "-en-" + width + "px.png"),
             fullPage: true,
@@ -817,6 +820,18 @@ try {
 
     if (file === "chapters/acids-and-bases.html") {
       const illustration = page.locator('img[data-svg-ru="../assets/acid-base-neutralisation-ru.svg"]');
+      const mobileDiagram = page.locator(".neutralisation-mobile");
+      if (!await mobileDiagram.isVisible() ||
+          !(await mobileDiagram.getAttribute("aria-label") || "").includes("гидроксоний передаёт протон") ||
+          !(await mobileDiagram.innerText()).includes("Идеализированная кривая титрования")) {
+        errors.push(file + ": Russian mobile neutralisation diagram must be visible, readable and labelled");
+      }
+      await page.setViewportSize({ width: 1280, height: 900 });
+      if (await mobileDiagram.isVisible() || !await illustration.isVisible()) {
+        errors.push(file + ": wide desktop neutralisation SVG should be visible while the mobile layout is hidden");
+      }
+      await page.setViewportSize({ width: 390, height: 844 });
+      if (await illustration.isVisible()) errors.push(file + ": wide neutralisation SVG must be hidden on a narrow screen");
       if (await illustration.getAttribute("src") !== "../assets/acid-base-neutralisation-ru.svg" ||
           !(await illustration.getAttribute("alt") || "").includes("Нейтрализация")) {
         errors.push(file + ": Russian acid-base illustration or accessible description is missing");
@@ -832,8 +847,10 @@ try {
       }
       await page.locator("#lang").click();
       if (await illustration.getAttribute("src") !== "../assets/acid-base-neutralisation.svg" ||
-          !(await illustration.getAttribute("alt") || "").includes("Acid–base neutralisation")) {
-        errors.push(file + ": English acid-base illustration or accessible description is missing");
+          !(await illustration.getAttribute("alt") || "").includes("Acid–base neutralisation") ||
+          !(await mobileDiagram.getAttribute("aria-label") || "").includes("hydronium transfers a proton") ||
+          !(await mobileDiagram.innerText()).includes("Idealised titration curve")) {
+        errors.push(file + ": English acid-base illustration and mobile accessible description are missing");
       }
       const strengthEn = await page.locator("[data-i=strengthNote]").innerText();
       const bufferEn = await page.locator("[data-i=bufferFormulaNote]").innerText();
