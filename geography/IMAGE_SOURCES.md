@@ -1097,3 +1097,10 @@ Scientific concept and RU/EN label parity: PASS at source review. Detailed contr
 - **3.10-A Supercontinent Cycle:** added a return arrow from the final assembly stage to renewed rifting. This makes the cycle explicit without implying a fixed period; the variable-duration caveat remains.
 - **Rights:** both remain provisionally Category C. Individual creator/rightsholder, creation workflow and project licence are Unknown / PENDING. No rights are inferred from repository presence.
 - **QA:** scientific concept and bilingual text review PASS at source level. The earlier Chapter 03 browser run 42161663137 succeeded but predates these edits; new image-integrity and browser runs must validate the updated files.
+
+
+#### Scientific references for the Chapter 03 revisions — 6 November 2026
+
+- **3.8-A folds and faults:** U.S. Geological Survey, [What is a fault and what are the different types?](https://www.usgs.gov/faqs/what-a-fault-and-what-are-different-types) — defines normal, reverse/thrust and strike-slip movement, including the hanging-wall/footwall relation. Cross-checked with British Geological Survey, [What causes earthquakes?](https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/), and U.S. National Park Service, [Faults and Fractures](https://home.nps.gov/articles/faults-and-fractures.htm). The diagram is an original conceptual teaching schematic, not a copied figure.
+- **3.10-A supercontinent cycle:** Nature Reviews Earth & Environment, [The supercontinent cycle](https://www.nature.com/articles/s43017-021-00160-0) — supports repeated continental assembly and breakup and notes that the geodynamic coupling remains an active research topic. The atlas schematic is deliberately introductory and does not claim a fixed duration or exact periodicity.
+- **Rights status unchanged:** these references support scientific interpretation only; they do not establish authorship or licensing of the local SVGs. Creator/rightsholder, creation workflow and project licence remain Unknown / PENDING.
