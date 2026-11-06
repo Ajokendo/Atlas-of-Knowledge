@@ -1416,3 +1416,10 @@ Older checkpoint entries that list independent specialists, school/teacher revie
 - Osh: three separate habitat panels render in sequence; the earlier bear-caption vegetation obstruction is not present in the inspected desktop crop. Mobile horizontal scrolling works without page-level overflow.
 - Batken: the spring marmot census callout, dry-foothill panel and protected-mountain panel render within the plate; mobile horizontal scrolling works without page-level overflow.
 - Limited layout acceptance recorded in `IMAGE_BRIEF_REVIEW.md` and `IMAGE_DISPOSITION_REGISTER.md`. This does not verify every species feature, census methodology, claim-to-source chain or bilingual semantic equivalence. No asset status promoted to `VERIFIED`.
+
+
+## Jalal-Abad regional fauna plate — internal screenshot QA — 6 November 2026
+
+- Reviewed the corrected Western Tien Shan SVG in run #1581's desktop and mobile full-page screenshots.
+- The Sary-Chelek, Besh-Aral and alpine footer-label strips now remain inside their respective panels; the lower disclaimer no longer covers the text. Mobile horizontal scrolling is available and the page column remains within the viewport.
+- Limited rendered-layout acceptance recorded in the brief review and disposition register. It is not documentary evidence of species presence, a range map, or a specimen-level morphology approval.
