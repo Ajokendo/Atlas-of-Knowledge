@@ -10,7 +10,6 @@ CHAPTER = Path("geography/chapters/06-hydrosphere-and-world-ocean.md")
 ASSETS = Path("geography/assets")
 IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)\)")
 EXPECTED_SVG = {
-    "06-3-B-five-oceans-bilingual.svg",
     "06-4-C-ocean-floor-cross-section-bilingual.svg",
     "06-5-A-seawater-temperature-salinity-profiles-bilingual.svg",
     "06-6-D-ocean-motion-bilingual.svg",
