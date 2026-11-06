@@ -440,7 +440,36 @@ Other page descriptors still require the same explicit mapping. Do not infer the
 
 ## Integrated assets
 
-## Chapter 04 visual records — source lineage pending
+## Chapter 04 — inherited interactive-book scene lineage (verified against upstream snapshot)
+
+Comparison target: Nathan Liow, `nathanliow/atlas-of-physics`, commit `bcd67d9b75425f4a78f5c7c1d17a2d0614727309` (2026-10-30), module `energy/`.
+
+- All 12 local `pages.js` scene descriptors map one-to-one to 12 `asm()` scene groups in `world.js`.
+- `model.js` has the same 239-line structure and executable content as the pinned upstream file; the only line difference is a clarifying comment on the display-time scale. No mathematical model equation was changed in the Russian derivative.
+- `world.js` retains the same 12 scene assemblies and their procedural Three.js construction. In-scene names, labels, units and explanatory strings are translated into Russian. One deliberate visual-domain correction affects the Lennard–Jones bond-potential scene: the repulsive branch is now shown to 3.2 eV (rather than clipping at 0.45 eV), with the left radius bound extended to 0.125 nm. The physical potential function in `model.js` is unchanged. This is a documented Category B adaptation.
+- `pages.js` is the Russian localisation of the upstream page module; the bond-potential chart domain was corrected consistently with the 3D scene. `practice.js` and `main.js` preserve their executable logic after string/comment normalisation; their learner-facing copy/readouts are localised.
+- The upstream `LICENSE` is MIT and names Nathan Liow as copyright holder. The repository retains that notice. This is the licence basis for the inherited software/scene code; it does not clear unrelated third-party material.
+- No external raster/texture assets were found in the Chapter 04 `world.js` scene module; scenes are constructed procedurally with Three.js geometry/materials.
+- Classification: **Category B** for the 12 Russian scene outputs because visible in-scene names/labels/units are adapted; the inherited geometry and core physical logic remain attributed to Nathan Liow. The bond-potential graph-range change is additionally documented as a visual adaptation.
+
+| Asset ID | Page / scene | Russian figure caption | Upstream English caption | Scene summary (RU / EN) | Local source | Upstream source | Status |
+|---|---|---|---|---|---|---|---|
+| PHY-04-3D-01 | 4.0 / `pull` | Сила тяги под углом 30° | A pull at 30° | Ящик тянут наклонной силой; показаны составляющие вдоль и поперёк перемещения / A box is pulled by an angled force; components parallel and perpendicular to displacement are shown | `original-engine/energy/world.js` | `energy/world.js` | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-02 | 4.1 / `toss` | Подъём против силы тяжести, падение по её направлению | Up against gravity, down with it | Мяч поднимается и падает; работа силы тяжести меняет знак / A ball rises and falls; gravity's work changes sign | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-03 | 4.2 / `whirl` | Сила натяжения перпендикулярна скорости | Tension across the velocity | Шар движется по окружности на нити; натяжение перпендикулярно скорости / A ball moves in a circle on a string; tension is perpendicular to velocity | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-04 | 4.3 / `car` | Работа равнодействующей превращается в кинетическую энергию | Net work in, kinetic energy out | Автомобиль разгоняется; работа равнодействующей равна приросту кинетической энергии / A car accelerates; net work equals the gain in kinetic energy | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-05 | 4.4 / `drop` | Потенциальная энергия превращается в скорость | Height becomes speed | Падающий шар обменивает гравитационную потенциальную и кинетическую энергию / A falling ball exchanges gravitational potential and kinetic energy | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-06 | 4.5 / `spring` | Сжатие пружины | Squeezing a spring | Брусок сжимает пружину; кинетическая энергия переходит в энергию упругой деформации / A block compresses a spring; kinetic energy becomes elastic potential energy | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-07 | 4.6 / `push` | Работа равна площади под графиком F(x) | Work is the area under F(x) | Переменная сила и накопленная площадь под графиком F(x) / A variable force and accumulated area under the F(x) graph | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-08 | 4.7 / `pendulum` | Обмен кинетической и потенциальной энергией | K and U trade places | Маятник обменивает кинетическую и гравитационную потенциальную энергию / A pendulum exchanges kinetic and gravitational potential energy | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-09 | 4.8 / `bead` | Движение вниз по графику U | Downhill on the U graph | Частица движется по профилю потенциальной энергии; сила связана с наклоном графика / A particle moves on a potential-energy profile; force is related to its slope | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-10 | 4.9 / `bond` | Частица в потенциальной яме | A particle in a well | Межатомное взаимодействие описано потенциалом Леннарда—Джонса; показана область связанного движения / Interatomic interaction is described by a Lennard–Jones potential; bound motion is shown | same | same | INHERITED / RU labels and graph range adapted / MIT attribution recorded |
+| PHY-04-3D-11 | 4.10 / `slide` | Кинетическая энергия превращается в тепло | Kinetic energy becomes heat | Трение тормозит брусок и увеличивает внутреннюю энергию / Friction slows a block and increases thermal/internal energy | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+| PHY-04-3D-12 | 4.11 / `lift` | Одинаковая работа за половину времени | Same work, half the time | Один груз поднимают с разной скоростью; работа одинакова, мощность различается / The same load is lifted at different speeds; work is equal, power differs | same | same | INHERITED / RU labels adapted / MIT attribution recorded |
+
+The table is a complete page-to-scene/source map for the 12 interactive-book figures. It is not a claim that the visual QA of every scene is complete; that is tracked in the Chapter 04 audit.
+
+## Chapter 04 standalone-page visuals — source/rights review
 
 ### Chapter 04 — Force and displacement diagram
 - Chapter: 04 — Work and Energy
