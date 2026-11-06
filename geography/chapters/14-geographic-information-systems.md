@@ -1106,7 +1106,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Цель:** сравнить дискретные объекты и непрерывную поверхность, не смешивая размер ячейки с точностью данных.
 
-**Данные:** векторный слой водоёмов и цифровая модель высот (ЦМР/DEM). Подойдут учебные данные из официального учебного набора QGIS; можно взять местные открытые данные, если известны их происхождение, CRS и лицензия. Если растр недоступен, используйте небольшой учебный растр, созданный преподавателем, с пометкой «условный».
+**Данные:** векторный слой водоёмов и цифровая модель высот (ЦМР/DEM). Для воспроизводимого упражнения скачайте официальный учебный набор QGIS 3.44 (ссылка приведена в источнике 47) и распакуйте архив: слой водоёмов — `exercise_data/shapefile/water.shp`, учебная ЦМР — `exercise_data/raster/SRTM/srtm_41_19.tif`. Это учебные данные района Свеллендам (ЮАР), а не данные Кыргызстана. Для местного исследования используйте открытые данные с известными происхождением, CRS и лицензией. Если растр недоступен, используйте небольшой учебный растр преподавателя с пометкой «условный».
 
 **Порядок работы:**
 1. Откройте оба слоя в QGIS и проверьте их CRS, охват, формат и источник.
@@ -1120,7 +1120,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Goal:** compare discrete features with a continuous surface without confusing cell size with data accuracy.
 
-**Data:** a vector water-body layer and a digital elevation model (DEM). Use the official QGIS training sample data or local open data whose provenance, CRS and licence are known. If no raster is available, use a small teacher-created raster clearly labelled **illustrative**.
+**Data:** a vector water-body layer and a digital elevation model (DEM). For a reproducible exercise, download the official QGIS 3.44 training dataset (see source 47) and extract it: the water-body layer is `exercise_data/shapefile/water.shp`, and the teaching DEM is `exercise_data/raster/SRTM/srtm_41_19.tif`. These are teaching data for the Swellendam area of South Africa, not data for Kyrgyzstan. For a local study, use open data with known provenance, CRS and licence. If no raster is available, use a small teacher-created raster clearly labelled **illustrative**.
 
 **Steps:**
 1. Open both layers in QGIS and check their CRS, extent, format and source.
@@ -1166,7 +1166,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Цель:** получить уклон и экспозицию склонов из ЦМР и научиться проверять параметры исходного растра.
 
-**Данные:** ЦМР с документированными CRS, размером ячейки, единицами высот, вертикальным масштабом, источником и датой. Для учебной работы подойдёт учебный DEM из набора QGIS или открытый DEM для выбранной территории. Не называйте учебный или груборазрешённый DEM точной моделью местности.
+**Данные:** ЦМР с документированными CRS, размером ячейки, единицами высот, вертикальным масштабом, источником и датой. Для воспроизводимого упражнения используйте `exercise_data/raster/SRTM/srtm_41_19.tif` из официального учебного набора QGIS 3.44 (источник 47). Это учебная ЦМР района Свеллендам (ЮАР), не модель рельефа Кыргызстана. Для местного исследования нужен отдельный DEM с проверенными источником, CRS, вертикальной системой, разрешением и лицензией. Не называйте учебный или груборазрешённый DEM точной моделью местности.
 
 **Порядок работы:**
 1. Загрузите ЦМР и проверьте, что горизонтальные и вертикальные единицы согласованы. При необходимости выберите подходящую проекцию и корректный вертикальный коэффициент масштаба.
@@ -1180,7 +1180,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Goal:** derive slope and aspect from a DEM and learn to check the input raster's properties.
 
-**Data:** a DEM with documented CRS, cell size, elevation units, vertical scale, source and date. Use the QGIS training DEM or an open DEM for a chosen area. Do not describe a teaching or coarse-resolution DEM as a precise terrain survey.
+**Data:** a DEM with documented CRS, cell size, elevation units, vertical scale, source and date. For a reproducible exercise, use `exercise_data/raster/SRTM/srtm_41_19.tif` from the official QGIS 3.44 training dataset (source 47). This is a teaching DEM for the Swellendam area of South Africa, not a terrain model of Kyrgyzstan. A local study requires a separate DEM with verified source, CRS, vertical reference, resolution and licence. Do not describe a teaching or coarse-resolution DEM as a precise terrain survey.
 
 **Steps:**
 1. Load the DEM and check that horizontal and vertical units are consistent. If needed, choose a suitable projection and a correct vertical scale factor.
@@ -1373,6 +1373,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 44. QGIS Documentation 3.44. **Join attributes by field value.** `native:joinattributestable`; matching fields, non-matching output and regenerated feature IDs. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html
 45. QGIS Documentation 3.44. **Network analysis.** Shortest path and service-area algorithms, travel-cost units, speed, topology tolerance and maximum point-to-network distance. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/networkanalysis.html
 46. QGIS Documentation 3.44. **Raster terrain analysis; Check validity; Topology Checker.** Slope/aspect algorithms, geometry validity and coverage topology rules. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html ; https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html ; https://docs.qgis.org/3.44/en/docs/user_manual/plugins/core_plugins/plugins_topology_checker.html
+47. QGIS Documentation 3.44. **Training data repository.** Official sample-data package accompanying the Training Manual; includes network, vector and raster exercises. https://github.com/qgis/QGIS-Training-Data/archive/refs/heads/release_3.44.zip
 
 ---
 **Конец главы 14 / End of Chapter 14**
