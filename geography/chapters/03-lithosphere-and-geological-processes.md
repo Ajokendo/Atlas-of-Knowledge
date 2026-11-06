@@ -345,7 +345,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 **Иллюстрация 3.7-A — Строение вулкана и опасности извержения / Volcano Anatomy and Eruption Hazards.**
 
-![Разрез вулкана с магматическим очагом, жерлом, кратером, пеплопадом, лавовым и пирокластическим потоками. / Volcano cross-section showing magma reservoir, conduit, crater, ash fall, lava flow and pyroclastic density current.](../assets/03-7-A-volcano-anatomy-bilingual.svg)
+![Разрез вулкана с магматическим очагом, жерлом, кратером, пеплопадом, лавовым и пирокластическим потоками и лахаром. / Volcano cross-section with magma reservoir, conduit, crater, ash fall, lava and pyroclastic flows, and a lahar.](../assets/03-7-A-volcano-anatomy-bilingual.svg)
 
 *Зоны опасностей схематичны; лахары — водонасыщенные потоки вулканического материала. / Hazard extents are schematic; lahars are water-rich flows of volcanic material.*
 **EN:** Volcano cross-section showing the magma reservoir, conduit, crater and zones affected by different volcanic hazards.
@@ -1045,7 +1045,7 @@ On a schematic geological cross-section, identify:
 
 **Illustration 3.7-A — Volcano Anatomy and Eruption Hazards.**
 
-![Volcano cross-section showing magma reservoir, conduit, crater, ash fall, lava flow and pyroclastic density current. / Разрез вулкана с магматическим очагом, жерлом, кратером, пеплопадом, лавовым и пирокластическим потоками.](../assets/03-7-A-volcano-anatomy-bilingual.svg)
+![Volcano cross-section with magma reservoir, conduit, crater, ash fall, lava and pyroclastic flows, and a lahar. / Разрез вулкана с магматическим очагом, жерлом, кратером, пеплопадом, лавовым и пирокластическим потоками и лахаром.](../assets/03-7-A-volcano-anatomy-bilingual.svg)
 
 *Hazard extents are schematic; lahars are water-rich flows of volcanic material. / Зоны опасностей схематичны; лахары — водонасыщенные потоки вулканического материала.*
 
