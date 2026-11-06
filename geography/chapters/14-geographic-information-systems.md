@@ -1074,27 +1074,183 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 ### Практическая работа 1. Создание тематической карты / Practical Activity 1. Creating a Thematic Map
 
-Загрузите открытые данные о населении и административных границах. Проверьте CRS, соедините таблицу с геометрией по идентификатору и создайте хороплетную карту нормированного показателя. Укажите год, источник и ограничения.
+**Цель:** построить хороплетную карту и показать, почему для сравнения территорий часто нужен относительный, а не абсолютный показатель.
+
+**Данные и программа:** бесплатная настольная ГИС QGIS; полигональный слой административных единиц и таблица с устойчивым общим идентификатором. Можно использовать собственные открытые данные с указанием источника и лицензии. Если подходящей статистики нет, создайте учебную таблицу с вымышленными значениями и обязательно подпишите её «синтетические данные — не статистика реальных территорий». Не соединяйте реальные границы с вымышленными числами так, чтобы карта выглядела как фактическая статистика.
+
+**Порядок работы:**
+1. Загрузите полигоны и таблицу CSV; проверьте, что идентификаторы имеют одинаковый формат и не содержат случайных пробелов.
+2. Проверьте CRS слоя и географический охват. Для самой операции соединения перепроецирование не обязательно, но для измерений и оформления карты CRS должен быть осмысленным.
+3. Соедините таблицу с полигонами по уникальному коду. Проверьте несколько записей вручную и найдите объекты без совпадения.
+4. Рассчитайте нормированный показатель, например население на 1 км², только если площадь и население относятся к сопоставимой территории и периоду. Не делите на нулевую или отсутствующую площадь.
+5. Создайте хороплету с последовательной цветовой шкалой; укажите единицы, год, источник, метод классификации и число классов.
+6. Сохраните проект и экспортируйте карту в PDF или изображение.
+
+**Результат:** карта, таблица соединения и короткое пояснение о том, почему выбранный показатель подходит для сравнения. **Проверка:** все ли полигоны получили ожидаемые значения; не перепутаны ли абсолютные и относительные величины; указаны ли год, единицы, источник, лицензия и ограничения. Если границы и статистика относятся к разным годам или уровням агрегации, это нужно явно отметить.
+
+**Goal:** create a choropleth and explain why a relative indicator is often more suitable than an absolute count for comparing areas.
+
+**Data and software:** the free QGIS desktop GIS; a polygon layer of administrative units and a table with a stable common identifier. Use open data with its source and licence recorded. If suitable statistics are unavailable, create a teaching table with invented values and label it clearly as **synthetic data — not statistics for real places**. Do not combine real boundaries with invented numbers in a way that makes the map look like factual statistics.
+
+**Steps:**
+1. Load the polygons and a CSV table. Check that the identifiers use the same format and contain no accidental spaces.
+2. Check the layer CRS and geographic extent. Reprojection is not required merely to join a table, but the CRS used for measurements and map presentation must be appropriate.
+3. Join the table to the polygons using a unique code. Manually inspect several records and identify features with no match.
+4. Calculate a normalised indicator, such as population per square kilometre, only if population and area refer to comparable territories and periods. Do not divide by zero or missing area.
+5. Create a choropleth with a sequential colour ramp. State the units, year, source, classification method and number of classes.
+6. Save the project and export the map as a PDF or image.
+
+**Deliverables:** the map, the joined attribute table and a short explanation of why the indicator is suitable for comparison. **Check:** did all expected polygons receive values; were absolute and relative quantities kept distinct; are the year, units, source, licence and limitations stated? If boundaries and statistics refer to different years or levels of aggregation, disclose this.
 
 ### Практическая работа 2. Вектор и растр / Practical Activity 2. Vector and Raster
 
-Создайте или загрузите векторный слой водоёмов и растровую модель высот. Сравните способы представления объектов и непрерывных поверхностей. Объясните влияние разрешения на результат.
+**Цель:** сравнить дискретные объекты и непрерывную поверхность, не смешивая размер ячейки с точностью данных.
+
+**Данные:** векторный слой водоёмов и цифровая модель высот (ЦМР/DEM). Подойдут учебные данные из официального учебного набора QGIS; можно взять местные открытые данные, если известны их происхождение, CRS и лицензия. Если растр недоступен, используйте небольшой учебный растр, созданный преподавателем, с пометкой «условный».
+
+**Порядок работы:**
+1. Откройте оба слоя в QGIS и проверьте их CRS, охват, формат и источник.
+2. Изучите таблицу атрибутов водоёмов: какие характеристики относятся к объекту целиком, а какие нельзя надёжно вывести только из геометрии?
+3. Изучите свойства ЦМР: размер ячейки, единицы высоты, NoData, дату и заявленную точность, если они документированы.
+4. Сравните изображение растра при исходном масштабе и при увеличении. Объясните, почему увеличение на экране не добавляет измерительной детализации.
+5. Сопоставьте границу водоёма с растром и перечислите возможные причины несовпадения: дата съёмки, разрешение, точность позиционирования, сезонность или различие источников.
+6. Сохраните снимок карты и таблицу сравнения двух моделей.
+
+**Результат:** карта двух слоёв и таблица «вектор / растр». **Проверка:** не названа ли мелкая ячейка доказательством высокой точности; указаны ли дата, разрешение, CRS и происхождение обоих слоёв?
+
+**Goal:** compare discrete features with a continuous surface without confusing cell size with data accuracy.
+
+**Data:** a vector water-body layer and a digital elevation model (DEM). Use the official QGIS training sample data or local open data whose provenance, CRS and licence are known. If no raster is available, use a small teacher-created raster clearly labelled **illustrative**.
+
+**Steps:**
+1. Open both layers in QGIS and check their CRS, extent, format and source.
+2. Inspect the water-body attribute table. Which attributes describe each feature as a whole, and which cannot reliably be inferred from geometry alone?
+3. Inspect the DEM properties: cell size, elevation units, NoData value, date and stated accuracy, where documented.
+4. Compare the raster at its native scale and when zoomed in. Explain why enlarging it on screen does not add measured detail.
+5. Compare a water-body boundary with the raster and list possible reasons for mismatch: acquisition date, resolution, positional accuracy, seasonality or different sources.
+6. Save a map screenshot and a comparison table for the two data models.
+
+**Deliverables:** a map containing both layers and a vector/raster comparison table. **Check:** have you avoided treating a smaller cell as proof of higher accuracy; are the date, resolution, CRS and provenance of both layers recorded?
 
 ### Практическая работа 3. Доступность услуг / Practical Activity 3. Service Accessibility
 
-Выберите населённые пункты и объекты социальной инфраструктуры. Сначала рассчитайте простые зоны расстояния, затем — зоны по дорожной сети, если доступна качественная сеть. Сравните различия и объясните их причины.
+**Цель:** увидеть разницу между расстоянием по прямой и доступностью по дорожной сети.
+
+**Данные:** точки населённых пунктов и объектов социальной инфраструктуры, а также дорожная сеть с известным источником и датой. Для первого знакомства можно создать небольшую учебную сеть из линий и точек вручную. Не используйте её для выводов о реальной доступности.
+
+**Порядок работы:**
+1. Выберите одну услугу (например, школу или медицинский пункт) и ограниченную территорию исследования.
+2. Проверьте CRS, единицы измерения и корректность геометрии точек и линий.
+3. Создайте буфер заданного радиуса вокруг объектов услуги в подходящей проецированной CRS. Запишите радиус и метод измерения.
+4. Если дорожная сеть достаточно полна и топологически связна, выполните анализ ближайшего маршрута или зоны обслуживания по расстоянию/времени. Зафиксируйте правила движения, скорость (если используется), направление дорог, допуск привязки точек к сети и максимальное расстояние привязки.
+5. Сравните населённые пункты, попавшие в буфер, с теми, которые достижимы по сети. Объясните, почему буфер не является зоной фактического обслуживания.
+6. Если пригодной сети нет, не имитируйте сетевой результат: ограничьтесь буфером и опишите, каких данных не хватает.
+
+**Результат:** две карты или одна карта сравнения и перечень допущений. **Проверка:** учтены ли разрывы сети, мосты, реки, рельеф, закрытые дороги и качество исходных данных? Зона обслуживания по сети может быть представлена достижимыми рёбрами, а её полигональная оболочка — лишь картографическим обобщением.
+
+**Goal:** understand the difference between straight-line distance and accessibility along a road network.
+
+**Data:** settlement points, social-service locations and a road network with a known source and date. For an introductory exercise, create a small teaching network from lines and points manually. Do not use it to draw conclusions about real-world accessibility.
+
+**Steps:**
+1. Choose one service (for example, a school or health facility) and a limited study area.
+2. Check the CRS, measurement units and geometry validity of the points and lines.
+3. Create a buffer of a stated radius around the service locations using a suitable projected CRS. Record the radius and measurement method.
+4. If the road network is sufficiently complete and topologically connected, run a shortest-route or distance/time service-area analysis. Record travel rules, speed (if used), one-way restrictions, point-snapping tolerance and maximum snapping distance.
+5. Compare settlements inside the buffer with those reachable through the network. Explain why a buffer is not an actual service catchment.
+6. If no suitable network is available, do not fabricate a network result: limit the exercise to buffers and state which data are missing.
+
+**Deliverables:** two maps or one comparison map, plus a list of assumptions. **Check:** have network breaks, bridges, rivers, terrain, restricted roads and source-data quality been considered? A network service area may consist of reachable edges; its polygon boundary is only a cartographic generalisation.
 
 ### Практическая работа 4. Анализ рельефа / Practical Activity 4. Terrain Analysis
 
-По цифровой модели высот постройте карту уклонов и экспозиций склонов. Проверьте разрешение и вертикальную точность исходного растра. Опишите возможное применение и ограничения.
+**Цель:** получить уклон и экспозицию склонов из ЦМР и научиться проверять параметры исходного растра.
+
+**Данные:** ЦМР с документированными CRS, размером ячейки, единицами высот, вертикальным масштабом, источником и датой. Для учебной работы подойдёт учебный DEM из набора QGIS или открытый DEM для выбранной территории. Не называйте учебный или груборазрешённый DEM точной моделью местности.
+
+**Порядок работы:**
+1. Загрузите ЦМР и проверьте, что горизонтальные и вертикальные единицы согласованы. При необходимости выберите подходящую проекцию и корректный вертикальный коэффициент масштаба.
+2. Запишите размер ячейки, диапазон высот, NoData, дату и заявленную точность (если опубликована).
+3. Инструментами анализа рельефа QGIS рассчитайте уклон и экспозицию. Укажите, в каких единицах выведен уклон — градусы или проценты.
+4. Проверьте легенду экспозиции: направление может быть задано азимутом, а плоские участки могут иметь специальное значение NoData/условный код.
+5. Сопоставьте результат с исходной ЦМР и объясните влияние разрешения, вертикальной ошибки и сглаживания.
+6. Сохраните карты уклона и экспозиции, параметры алгоритма и краткое описание ограничений.
+
+**Результат:** две производные карты и карточка параметров исходной ЦМР. **Проверка:** не трактуется ли экспозиция как измерение температуры или освещённости; указаны ли единицы уклона, вертикальный коэффициент и источник DEM?
+
+**Goal:** derive slope and aspect from a DEM and learn to check the input raster's properties.
+
+**Data:** a DEM with documented CRS, cell size, elevation units, vertical scale, source and date. Use the QGIS training DEM or an open DEM for a chosen area. Do not describe a teaching or coarse-resolution DEM as a precise terrain survey.
+
+**Steps:**
+1. Load the DEM and check that horizontal and vertical units are consistent. If needed, choose a suitable projection and a correct vertical scale factor.
+2. Record cell size, elevation range, NoData value, date and stated accuracy, if published.
+3. Use QGIS terrain-analysis tools to calculate slope and aspect. State whether slope is expressed in degrees or percent.
+4. Check the aspect legend: direction may be expressed as an azimuth, while flat cells may receive a special NoData value or code.
+5. Compare the outputs with the source DEM and explain the influence of resolution, vertical error and smoothing.
+6. Save the slope and aspect maps, algorithm parameters and a short limitations note.
+
+**Deliverables:** two derived maps and a source-DEM parameter sheet. **Check:** is aspect kept distinct from a direct measurement of temperature or sunlight; are slope units, vertical scale and DEM source stated?
 
 ### Практическая работа 5. Контроль качества данных / Practical Activity 5. Data Quality Control
 
-Проверьте набор административных полигонов на зазоры, наложения, самопересечения и пропущенные атрибуты. Подготовьте таблицу обнаруженных ошибок, способов исправления и оставшейся неопределённости.
+**Цель:** провести проверку геометрии и атрибутов, различая техническую ошибку и допустимую особенность модели данных.
+
+**Данные:** небольшой полигональный слой административных единиц или учебная копия. Если доступен только один полигон, можно создать несколько соседних тестовых полигонов и намеренно добавить учебные ошибки. Не исправляйте официальный набор данных без разрешения владельца.
+
+**Порядок работы:**
+1. Сохраните неизменённую копию исходного слоя и запишите его источник, дату, CRS и лицензию.
+2. Проверьте пустые обязательные атрибуты, дублирующиеся идентификаторы и неожиданные значения.
+3. Запустите проверку валидности геометрии: самопересечения, незамкнутые или некорректные кольца и другие ошибки.
+4. Если полигоны должны образовывать непрерывное покрытие, проверьте зазоры и наложения между ними. Сначала уточните правила модели: не всякое перекрытие является ошибкой.
+5. Создайте журнал: идентификатор объекта, тип проблемы, способ обнаружения, предполагаемая причина, предложенное исправление, кто и когда его подтвердил.
+6. Исправляйте только копию и только после проверки источника. Сравните число объектов и геометрию до и после обработки.
+
+**Результат:** отчёт проверки, журнал ошибок и отдельная исправленная копия (если исправления обоснованы). **Проверка:** сохранён ли оригинал; не удалены ли автоматически мелкие полигоны или фрагменты; отделены ли подтверждённые ошибки от подозрительных случаев?
+
+**Goal:** check geometry and attributes while distinguishing a technical error from a valid feature of the data model.
+
+**Data:** a small administrative polygon layer or a teaching copy. If only one polygon is available, create several adjacent test polygons and deliberately introduce practice errors. Do not edit an official dataset without the data owner's permission.
+
+**Steps:**
+1. Preserve an unchanged copy of the source layer and record its source, date, CRS and licence.
+2. Check for missing required attributes, duplicate identifiers and unexpected values.
+3. Run geometry-validity checks for self-intersections, unclosed or invalid rings and other geometry errors.
+4. If polygons are expected to form a continuous coverage, check for gaps and overlaps between them. First establish the data model's rules: not every overlap is an error.
+5. Create an issue log with feature ID, problem type, detection method, possible cause, proposed correction, and who confirmed it and when.
+6. Make corrections only in a copy and only after checking the source. Compare feature counts and geometry before and after processing.
+
+**Deliverables:** a validation report, an issue log and a separate corrected copy (if corrections are justified). **Check:** was the original preserved; were small polygons or fragments avoided being deleted automatically; are confirmed errors distinguished from suspicious cases?
 
 ### Практическая работа 6. Воспроизводимый ГИС-проект / Practical Activity 6. Reproducible GIS Project
 
-Подготовьте небольшой проект с исходными данными, описанием CRS, шагами обработки, итоговой картой, метаданными и перечнем ограничений. Другой участник должен иметь возможность повторить основные операции.
+**Цель:** подготовить проект, который другой учащийся сможет открыть и проверить без догадок о происхождении данных и шагах анализа.
+
+**Данные и программа:** QGIS и небольшие наборы открытых или учебных данных. Проект должен оставаться учебным; не включайте персональные сведения и точные координаты уязвимых объектов.
+
+**Порядок работы:**
+1. Создайте отдельную папку проекта с понятной структурой: `project.qgz`, `data/original`, `data/processed`, `outputs`, `metadata`, `README`.
+2. Сохраните неизменённые исходные файлы отдельно от обработанных. Не полагайтесь на то, что один файл QGZ автоматически включает все внешние наборы данных.
+3. Запишите для каждого слоя название, владельца/поставщика, URL или способ получения, дату загрузки, лицензию, CRS, охват, дату наблюдения и известные ограничения.
+4. Сохраните последовательность обработки: названия инструментов, входные и выходные слои, параметры, версии QGIS и важных дополнений, выбранные координатные операции и необходимые сеточные файлы.
+5. Создайте итоговую карту с заголовком, легендой, масштабом, источниками, датой и оговорками. Сохраните её в PDF.
+6. Передайте папку другому участнику или откройте её на другом компьютере. Проверьте, что слои не потеряли пути, а основные операции можно повторить.
+
+**Результат:** папка проекта, файл QGZ, итоговая карта, README и метаданные. **Проверка:** открывается ли проект после переноса; доступны ли все данные; можно ли восстановить шаги анализа; указаны ли версии, CRS, лицензии и ограничения? Отсутствующие внешние файлы и недоступные веб-сервисы должны быть явно отмечены.
+
+**Goal:** prepare a project that another learner can open and check without guessing where the data came from or how the analysis was performed.
+
+**Data and software:** QGIS and small open or teaching datasets. Keep the project educational; do not include personal information or exact coordinates of vulnerable sites.
+
+**Steps:**
+1. Create a dedicated project folder with a clear structure: `project.qgz`, `data/original`, `data/processed`, `outputs`, `metadata` and `README`.
+2. Keep unchanged source files separate from processed data. Do not assume that a single QGZ file automatically contains every external dataset.
+3. For each layer, record its title, owner/provider, URL or acquisition method, download date, licence, CRS, extent, observation date and known limitations.
+4. Record the processing sequence: tool names, input and output layers, parameters, QGIS and important plugin versions, selected coordinate operations and required grid files.
+5. Create a final map with title, legend, scale, sources, date and caveats. Export it as a PDF.
+6. Transfer the folder to another learner or open it on another computer. Check that layer paths still work and that the main operations can be repeated.
+
+**Deliverables:** the project folder, QGZ file, final map, README and metadata. **Check:** does the project open after transfer; are all data available; can the analysis steps be reconstructed; are versions, CRS, licences and limitations stated? Missing external files and unavailable web services must be clearly identified.
 
 ### English Summary
 
@@ -1213,6 +1369,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 40. International Organization for Standardization. **ISO 19131:2022 — Geographic information — Data product specifications.** Requirements and guidance for specifying geographic data products for their intended purpose. https://www.iso.org/standard/85092.html
 41. QGIS Documentation 3.44. **Working with Project Files.** Describes what QGIS project files store and the QGS/QGZ formats. https://docs.qgis.org/3.44/en/docs/user_manual/introduction/project_files.html
 42. QGIS Documentation 3.44. **Metadata tools.** Layer metadata history and metadata-copying tools introduced in QGIS 3.42. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/metadatatools.html
+43. QGIS Documentation 3.44. **Training Manual and sample data.** Free classroom exercises and sample datasets covering thematic mapping, vector and raster data, network analysis, topology and terrain analysis. https://docs.qgis.org/3.44/en/docs/training_manual/
 
 ---
 **Конец главы 14 / End of Chapter 14**
