@@ -22,17 +22,17 @@ The project owner authorised the following 12 original conceptual teaching diagr
 | Visual ID | File | Current rights status |
 |---|---|---|
 | 6.4-C | 06-4-C-ocean-floor-cross-section-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
-| 6.5-A | 06-5-A-seawater-temperature-salinity-profiles-bilingual.svg | Project licence pending owner confirmation |
-| 6.6-D | 06-6-D-ocean-motion-bilingual.svg | Project licence pending owner confirmation |
-| 6.7-A (deep-circulation schematic) | 06-7-A-deep-ocean-circulation-schematic-bilingual.svg | Project licence pending owner confirmation |
-| 6.9-A | 06-9-A-marine-zones-bilingual.svg | Project licence pending owner confirmation |
-| 6.11-A | 06-11-A-ocean-pollution-pathways-bilingual.svg | Project licence pending owner confirmation |
-| 6.12-A | 06-12-A-cryosphere-components-bilingual.svg | Project licence pending owner confirmation |
-| 6.13-A | 06-13-A-river-basin-anatomy-bilingual.svg | Project licence pending owner confirmation |
-| 6.14-A | 06-14-A-lake-types-structure-bilingual.svg | Project licence pending owner confirmation |
-| 6.15-A | 06-15-A-groundwater-system-bilingual.svg | Project licence pending owner confirmation |
-| 6.17-A | 06-17-A-climate-water-cycle-bilingual.svg | Project licence pending owner confirmation |
-| 6.18-A | 06-18-A-catchment-exercise-bilingual.svg | Project licence pending owner confirmation |
+| 6.5-A | 06-5-A-seawater-temperature-salinity-profiles-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.6-D | 06-6-D-ocean-motion-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.7-A (deep-circulation schematic) | 06-7-A-deep-ocean-circulation-schematic-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.9-A | 06-9-A-marine-zones-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.11-A | 06-11-A-ocean-pollution-pathways-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.12-A | 06-12-A-cryosphere-components-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.13-A | 06-13-A-river-basin-anatomy-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.14-A | 06-14-A-lake-types-structure-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.15-A | 06-15-A-groundwater-system-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.17-A | 06-17-A-climate-water-cycle-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
+| 6.18-A | 06-18-A-catchment-exercise-bilingual.svg | CC BY-NC 4.0 — owner-authorised 6 Nov 2026 |
 
 **The 12 local SVGs listed above are designated CC BY-NC 4.0 under the project-owner authorisation recorded in CHAPTER_06_ASSET_LICENSE.md.** This designation is limited to those exact files and does not extend to third-party media, the chapter text, the repository-root MIT notice or any other chapter asset.
 
