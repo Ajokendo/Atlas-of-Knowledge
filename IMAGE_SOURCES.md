@@ -658,14 +658,14 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Visual ID: PHY-14-LORENTZ-RHR-RU-01
 - Chapter: 14 — Магнитные поля
 - Source relationship: New independent project-created schematic; AI-assisted SVG authored for this Russian edition
-- Category: C (new project-created visual; final rights declaration remains subject to project-owner review)
+- Category: C (new project-created visual; project-owner-approved CC BY-NC 4.0)
 - Learning objective: Determine the direction of the magnetic Lorentz force for positive and negative charges using the vector product and right-hand rule.
 - File: `assets/visuals/phy-14-lorentz-force-right-hand-rule.svg`
 - Mobile variant: `assets/visuals/phy-14-lorentz-force-right-hand-rule-mobile.svg` (dedicated vertical layout, added 2026-11-06)
 - Original source: Not applicable — created for Atlas of Knowledge
 - Author / creator: Atlas of Knowledge project; SVG prepared with AI assistance
-- License: Pending project-owner confirmation; do not infer a licence from the upstream MIT licence
-- License URL: Pending
+- License: CC BY-NC 4.0 — explicitly approved by the project owner on 2026-11-06
+- License URL: https://creativecommons.org/licenses/by-nc/4.0/
 - Access date: 2026-11-06
 - RU caption: Сила Лоренца и правило правой руки.
 - EN caption: Lorentz force and the right-hand rule.
@@ -673,7 +673,7 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Alt EN: Magnetic field points right and both charges move into the screen; force points down for a positive charge and up for a negative charge.
 - Modified: Yes — original vector schematic authored as SVG
 - Scientific review: Internal vector-product check PASS for the depicted configuration: (−z) × (+x) = −y for q > 0; force reverses for q < 0. The three-finger convention is labelled index finger = velocity, middle finger = magnetic field, thumb = force for positive charge. Chapter 14 page and responsive integration passed current browser QA.
-- Rights review: Pending project-owner declaration and licence assignment
+- Rights review: PASS — project owner explicitly approved CC BY-NC 4.0 on 2026-11-06; this is an independent project-created SVG and does not inherit the upstream MIT licence
 - Integration: `chapters/magnetism.html`, section “Векторная схема силы Лоренца”
 - Mobile check: PENDING — dedicated mobile SVG added and integrated on 2026-11-06; await current browser workflow desktop/mobile screenshot and accessibility checks. Earlier responsive check covered the desktop SVG scaling, not the new dedicated mobile variant. The SVG is retained as a supporting figure, separate from the primary four-topic visual inventory.
 
