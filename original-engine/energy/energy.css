@@ -44,6 +44,23 @@
   }
 }
 
+/* The hint and live readout share the bottom edge; keep them in separate columns. */
+@media (min-width: 901px) {
+  .corner.bl {
+    max-width: 45%;
+    font-size: 10px;
+    line-height: 1.25;
+    white-space: normal;
+  }
+  .corner.br {
+    max-width: 45%;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font-size: 10px;
+    line-height: 1.25;
+  }
+}
+
 /* Keep projected vectors and board annotations legible at narrow widths. */
 @media (max-width: 900px) {
   .lbl.vec { font-size: 14px !important; }
