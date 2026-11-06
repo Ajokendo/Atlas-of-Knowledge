@@ -1,5 +1,6 @@
 import { chromium } from "playwright";
 import path from "node:path";
+import fs from "node:fs";
 import { createRequire } from "node:module";
 
 const require = createRequire(import.meta.url);
@@ -36,6 +37,23 @@ let languageChecks = 0;
 let axeAudits = 0;
 const checkedInternalLinks = new Set();
 const localOrigin = new URL(base).origin;
+const visualEvidencePages = new Set([
+  "index.html",
+  "chapters/atomic-structure.html",
+  "chapters/chemical-bonding.html",
+  "periodic-table.html",
+  "chapters/solutions.html",
+  "chapters/acids-and-bases.html",
+  "chapters/redox.html",
+  "molecule-lab.html",
+  "virtual-lab.html",
+  "stoichiometry.html",
+  "gas-laws.html",
+  "reaction-trainer.html"
+]);
+const screenshotDirectory = path.join(process.cwd(), "artifacts", "chemistry-rendered-review");
+fs.mkdirSync(screenshotDirectory, { recursive: true });
+let renderedScreenshots = 0;
 function contrastRatio(foreground, background) {
   const channels = value => {
     const rgb = value.match(/rgba?\(\s*([\d.]+)[, ]+([\d.]+)[, ]+([\d.]+)/i);
@@ -68,6 +86,28 @@ try {
     if (!response || !response.ok()) {
       errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
       continue;
+    }
+
+    // Capture baseline rendered evidence before tests alter widget state.
+    if (visualEvidencePages.has(file)) {
+      await page.evaluate(() => document.fonts?.ready);
+      await page.locator("img").evaluateAll(async images => {
+        await Promise.all(images.map(image => {
+          image.loading = "eager";
+          return image.decode().catch(() => null);
+        }));
+      });
+      for (const width of [390, 768, 1280]) {
+        await page.setViewportSize({ width, height: 900 });
+        const safeName = file.replaceAll("/", "__").replace(/\.html$/, "");
+        await page.screenshot({
+          path: path.join(screenshotDirectory, safeName + "-" + width + "px.png"),
+          fullPage: true,
+          animations: "disabled"
+        });
+        renderedScreenshots++;
+      }
+      await page.setViewportSize({ width: 390, height: 844 });
     }
 
     await page.addScriptTag({ path: axePath });
@@ -2483,4 +2523,4 @@ if (errors.length) {
   for (const error of errors) console.error(" - " + error);
   process.exit(1);
 }
-console.log("Chemistry browser smoke checks passed: " + pages.length + " pages loaded at 390px; " + axeAudits + " axe-core scans (RU + EN); " + languageChecks + " language toggles and key interactive workflows checked; no uncaught page errors.");
+console.log("Chemistry browser smoke checks passed: " + pages.length + " pages; " + axeAudits + " axe-core scans (RU + EN); " + languageChecks + " language toggles and key interactive workflows checked; " + renderedScreenshots + " rendered screenshots captured at 390/768/1280px; no uncaught page errors.");
