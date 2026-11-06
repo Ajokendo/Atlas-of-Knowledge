@@ -808,6 +808,7 @@ try {
         errors.push(file + ": isotope model updates are not announced as a complete polite live region");
       }
       const weightedAverageRu = await page.locator("[data-i=isotopicAverage]").innerText();
+      if (!(await page.locator("[data-i=isotopeAbundanceNote]").innerText()).includes("98,9%") || !(await page.locator("[data-i=isotopeAbundanceNote]").innerText()).includes("1,1%")) errors.push(file + ": readable Russian isotope abundance percentages are missing outside the SVG");
       if (!weightedAverageRu.includes("взвешенное среднее") ||
           !weightedAverageRu.includes("сумма всех долей равна 1") ||
           !weightedAverageRu.includes("не простое среднее")) {
@@ -815,6 +816,7 @@ try {
       }
       await page.locator("#lang").click();
       const weightedAverageEn = await page.locator("[data-i=isotopicAverage]").innerText();
+      if (!(await page.locator("[data-i=isotopeAbundanceNote]").innerText()).includes("98.9%") || !(await page.locator("[data-i=isotopeAbundanceNote]").innerText()).includes("1.1%")) errors.push(file + ": readable English isotope abundance percentages are missing outside the SVG");
       if (!weightedAverageEn.includes("weighted mean") ||
           !weightedAverageEn.includes("all fractions sum to 1") ||
           !weightedAverageEn.includes("not a simple unweighted average")) {
