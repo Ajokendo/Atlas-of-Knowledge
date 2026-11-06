@@ -76,7 +76,7 @@ A region should not be reduced to a single stereotype. Differences within a regi
 
 *Основа рельефа и батиметрии: Atlas Abierto (2026), CC BY 4.0; исходные данные — ETOPO 2022 (NOAA NCEI, public domain) и Natural Earth (public domain). Изменения: добавлены двуязычные учебные подписи и ориентировочные метки; они не являются точной геопривязкой. / Relief and bathymetry base: Atlas Abierto (2026), CC BY 4.0; underlying data: ETOPO 2022 (NOAA NCEI, public domain) and Natural Earth (public domain). Changes: bilingual teaching labels and approximate markers added; they are not precise georeferencing.*
 
-<text>Африка — второй по площади материк и второй по численности населения континент; она включает чрезвычайно разнообразные природные и общественные системы. В региональных классификациях обычно выделяют Северную, Западную, Центральную, Восточную и Южную Африку, однако состав отдельных субрегионов может различаться.</text>
+<text>Африка — второй по площади материк и второй по численности населения континент; она включает чрезвычайно разнообразные природные и общественные системы. В учебных региональных схемах часто выделяют Северную, Западную, Центральную, Восточную и Южную Африку, однако состав субрегионов может различаться. В UN M49 используется иная статистическая схема: Северная Африка и Африка к югу от Сахары; последняя делится на Восточную, Среднюю, Южную и Западную Африку.</text>
 
 ### Природная основа / Physical geography
 
@@ -183,7 +183,7 @@ Important issues include energy security, climate adaptation, migration manageme
 
 Азия включает крупнейшие мировые концентрации населения, мегаполисы и индустриальные районы. Экономические системы варьируются от высокотехнологичных и финансовых центров до аграрных регионов и территорий, зависящих от добычи сырья. Важную роль играют мировые производственные цепочки, морские порты, энергетические коридоры и цифровые технологии.
 
-Субрегионы обычно включают Восточную, Юго-Восточную, Южную, Центральную и Западную Азию, а также Северную Азию в ряде классификаций. Их состав и границы зависят от принятой схемы.
+В разных схемах выделяют Восточную, Юго-Восточную, Южную, Центральную и Западную Азию; некоторые авторы отдельно рассматривают Северную Азию. В UN M49 используются пять субрегионов — Восточная, Юго-Восточная, Южная, Центральная и Западная Азия; Северная Азия не выделена как отдельный субрегион. Состав и границы зависят от цели регионализации.
 
 ### Региональные вызовы / Regional challenges
 
@@ -205,7 +205,7 @@ Natural zones include Arctic deserts and tundra, taiga, steppes, deserts, monsoo
 
 Asia contains some of the world's largest population concentrations, megacities and industrial regions. Economic systems range from high-technology and financial centres to agricultural regions and territories dependent on resource extraction. Global production chains, seaports, energy corridors and digital technologies play major roles.
 
-Subregions commonly include East, Southeast, South, Central and West Asia, while some classifications also distinguish North Asia. Their composition and boundaries depend on the scheme used.
+Different schemes distinguish East, Southeast, South, Central and West Asia; some authors also identify North Asia separately. UN M49 uses five subregions—Eastern, South-eastern, Southern, Central and Western Asia—and does not identify North Asia as a separate subregion. Composition and boundaries depend on the purpose of regionalisation.
 
 ### Regional challenges
 
@@ -452,14 +452,14 @@ Analysis requires more than a map of political boundaries. A basin diagram shoul
 
 Региональные различия проявляются в доходах, структуре занятости, демографии, доступе к образованию и здравоохранению, инфраструктуре и экологической уязвимости. Однако деление мира на «развитые» и «развивающиеся» территории не должно превращаться в жёсткую бинарную схему.
 
-Для описания развития применяют несколько показателей: доход на душу населения, ИЧР, бедность, продолжительность жизни, образовательные результаты, производительность и доступ к базовым услугам. Каждый показатель отражает лишь часть реальности.
+Для описания развития применяют несколько показателей: доход на душу населения, ИЧР, бедность, продолжительность жизни, образовательные результаты, производительность и доступ к базовым услугам. Каждый показатель отражает лишь часть реальности. Термины «Глобальный Север» и «Глобальный Юг» используют как аналитические обозначения исторических и социально-экономических различий, а не как точное деление по полушариям или единую официальную классификацию стран.
 
 Глобальная взаимозависимость проявляется через торговлю, инвестиции, миграцию, цифровые сети, туризм, распространение технологий, климатические процессы и международные институты. События в одном регионе могут иметь последствия для других через цепочки поставок, финансовые рынки, продовольственные цены и экологические системы.
 
 
 Regional differences appear in income, employment structure, demography, access to education and healthcare, infrastructure and environmental vulnerability. However, dividing the world into “developed” and “developing” areas should not become a rigid binary classification.
 
-Several indicators are used to describe development, including income per capita, the Human Development Index, poverty, life expectancy, educational outcomes, productivity and access to basic services. Each indicator captures only part of reality.
+Several indicators are used to describe development, including income per capita, the Human Development Index, poverty, life expectancy, educational outcomes, productivity and access to basic services. Each indicator captures only part of reality. The terms “Global North” and “Global South” are analytical labels for historical and socioeconomic differences, not a precise division by hemispheres or a single official country classification.
 
 Global interdependence operates through trade, investment, migration, transport and digital networks, tourism, technology transfer, climate processes and international institutions. Events in one region can affect others through supply chains, financial markets, food prices and environmental systems.
 
@@ -479,7 +479,7 @@ Global interdependence operates through trade, investment, migration, transport 
 - источник и методологию;
 - наличие пропусков, оценок и пересмотров.
 
-Статистические регионы ООН M49 предназначены для статистической группировки стран и территорий. Они не устанавливают политический статус, не определяют культурную идентичность и не заменяют физико-географическую регионализацию.
+Статистические регионы ООН M49 предназначены для группировки стран и территорий в публикациях и базах данных ООН. Такое распределение служит статистическим целям и само по себе не означает признания или определения политической принадлежности территории; оно также не устанавливает культурную идентичность и не заменяет физико-географическую регионализацию.
 
 Для сравнения регионов полезно сочетать тематические карты, временные ряды, диаграммы и качественные описания. Не следует сравнивать показатели, рассчитанные по несовместимым определениям или разным временным периодам, без явного пояснения.
 
@@ -557,7 +557,7 @@ A region should not be reduced to one stereotypical characteristic. Internal dif
 
 ### 12.3. Africa
 
-Africa is the world's second-largest continent by area and its second-most populous continent. It contains exceptionally diverse natural and human systems. Regional classifications commonly distinguish North, West, Central, East and Southern Africa, although the composition of subregions may vary.
+Africa is the world's second-largest continent by area and its second-most populous continent. It contains exceptionally diverse natural and human systems. Teaching schemes commonly distinguish North, West, Central, East and Southern Africa, although the composition of subregions may vary. UN M49 uses a different statistical scheme: Northern Africa and Sub-Saharan Africa; the latter is divided into Eastern, Middle, Southern and Western Africa.
 
 **Physical geography.** The Sahara, the world's largest hot desert, extends across the north. South of it lie the Sahel, savannas, the humid tropical forests of the Congo Basin and other natural systems. The East African Rift System creates fault zones, volcanic landscapes, highlands and deep lakes. Southern Africa includes plateaus, the Namib and Kalahari deserts, and mountain and coastal landscapes.
 
@@ -671,7 +671,7 @@ Global interdependence operates through trade, investment, migration, digital ne
 
 When analysing regional maps, check the geographic coverage and regionalisation scheme; data date and boundary currency; map projection and scale; indicator definition and unit; source and methodology; and missing values, estimates and revisions.
 
-The UN M49 statistical regions are designed to group countries and areas for statistical purposes. They do not determine political status or cultural identity and do not replace physical-geographical regionalisation.
+The UN M49 regions are designed to group countries and areas in UN publications and databases. These assignments serve statistical purposes and do not in themselves imply recognition or determination of a territory's political affiliation; they also do not establish cultural identity or replace physical-geographical regionalisation.
 
 Regional comparisons benefit from combining thematic maps, time series, charts and qualitative descriptions. Indicators based on incompatible definitions or different periods should not be compared without an explicit explanation.
 
