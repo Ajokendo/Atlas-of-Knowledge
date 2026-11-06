@@ -812,3 +812,15 @@ Inspected the following full-resolution captures from that artifact:
 No new source defect was established from these selected baseline screenshots, so no page code was changed in this review pass. This is targeted full-resolution visual inspection, not a sign-off of every one of the 72 images, every widget state, all 12 visual families, physical devices, screen readers, or final publication readiness. The screenshots show default states. Provenance and licence gates are unaffected.
 
 CI run [42177642556](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42177642556) **PASS**: static validation, pinned browser-tool installation, Chromium checks for all Chemistry pages, and screenshot artifact upload all succeeded.
+
+
+### Expanded visual capture and SVG-loading defect — 6 November 2026
+
+The first 72-image artifact covered only 12 of the 21 Chemistry pages. Expanded the capture set to 18 pages so that all 12 static bilingual visual families are represented in rendered evidence, including the element/isotope, mole, formula-reading, reaction-schematic, organic-functional-groups and biomolecule/carbon-cycle chapter pages.
+
+- [x] CI run [42193951647](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42193951647) passed on commit `f15e37ba372573921c9efdd61558fe7786b89910`; artifact `13491371156` contains exactly 108 PNGs (18 pages × RU/EN × 390/768/1280 CSS px).
+- [x] Full-resolution review of the new organic-chemistry EN desktop capture exposed a broken functional-groups SVG. The English SVG had one unclosed outer `<g>` element; the Russian counterpart was well formed. Added the missing closing tag in `assets/organic-functional-groups.svg` (commit `1e91a7f`).
+- [x] Added a generic XML element-nesting check for every Chemistry SVG in `checks.mjs` (commit `35f55af`).
+- [x] Added RU and EN browser-capture assertions that every page image has loaded successfully and has a non-zero natural width; this prevents a broken localized image from being silently accepted by the screenshot job (commit `2e353a6`).
+
+The 108-image archive is the new baseline coverage. The earlier successful run validates the expanded capture list, but the SVG repair and new assertions still require a fresh branch-head CI run and inspection of the repaired EN screenshot before the defect can be closed.
