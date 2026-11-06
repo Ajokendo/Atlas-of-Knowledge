@@ -13,27 +13,31 @@
 <!-- rocky high alpine ground -->
 <path d="M0 450 170 400 300 445 420 370 550 430 650 395 700 675H0Z" fill="url(#stone)"/>
 <path d="m0 450 170-50 130 45 120-75 130 60" fill="none" stroke="#d8d8cc" stroke-width="7"/>
-<!-- golden eagle in flight -->
-<g transform="translate(120 185)" fill="#765b37" stroke="#493f32" stroke-width="5" stroke-linejoin="round">
- <path d="M145 76Q95 52 28 7Q58 72 104 103Q57 99 0 76Q47 132 118 133L157 119 194 133Q265 130 310 76Q252 98 205 103Q250 72 282 7Q215 51 166 76Z"/>
- <path d="M144 77Q155 52 174 47L195 70 181 103 156 112 136 98Z" fill="#9b7544"/>
- <path d="m178 53 28-13 20 10-17 17-22-1z" fill="#8d6a3f"/>
- <path d="M181 52q12-15 27-11l8 7q-13 0-24 13z" fill="#c39a4f" stroke="none"/>
- <path d="m223 50 20 8-18 9" fill="#d7b65d"/>
- <path d="M155 112 143 145 163 128 179 146 174 111" fill="#5d472e"/>
+<!-- golden eagle in soaring flight: long fingered primaries, hooked bill and feathered legs -->
+<g transform="translate(120 185)" stroke="#493f32" stroke-width="4.5" stroke-linejoin="round">
+ <path d="M154 82Q112 63 35 13Q51 62 91 91Q47 83 4 70Q34 116 104 119L151 104 183 112Q247 112 300 68Q251 84 211 91Q250 60 278 8Q211 54 169 78Z" fill="#765b37"/>
+ <path d="M154 82Q116 61 35 13M135 91 78 34M119 101 52 63M104 115 43 91M185 91 278 8M201 99 250 40M219 99 270 68" fill="none" stroke="#b18a53" stroke-width="3"/>
+ <path d="M145 78Q153 53 174 47L199 58 190 88 165 105 139 98Z" fill="#8f6c40"/>
+ <path d="M174 49Q190 31 210 38L225 50 210 66 188 67Z" fill="#a77d45"/>
+ <path d="M188 43Q202 30 216 40L221 49Q207 47 197 58Z" fill="#d0aa61" stroke="none"/>
+ <path d="M221 48 245 54 224 64Z" fill="#d7b65d"/>
+ <circle cx="211" cy="46" r="3.5" fill="#211d18" stroke="none"/>
+ <path d="M151 103 139 132 155 120 165 139 172 108" fill="#5d472e"/>
+ <path d="M145 127l-8 12 10-4m18 2 8 10-12-5" fill="none" stroke="#c19a56" stroke-width="4" stroke-linecap="round"/>
 </g>
-<!-- Himalayan snowcock on alpine slope -->
-<g transform="translate(430 385)" stroke="#4b4b43" stroke-width="5" stroke-linejoin="round">
- <path d="M30 68Q62 27 132 35Q178 43 195 77L175 101Q106 117 45 96Z" fill="#b9b8a9"/>
- <path d="M53 91 48 145 66 146 80 104M145 97 148 145 166 145 171 91" fill="#8c8879"/>
- <path d="M181 70 203 53 225 66 207 88 184 87Z" fill="#a6a18e"/>
- <path d="M200 54 211 38 224 55 217 70" fill="#d8d5c9"/>
- <path d="M204 48 214 42 224 47" fill="none"/>
- <path d="M184 67q8-9 18-7M188 77q8-8 17-7" fill="none" stroke="#9a6247" stroke-width="5" stroke-linecap="round"/>
- <path d="M223 64 240 69 225 77" fill="#b68a54"/>
- <circle cx="214" cy="58" r="3" fill="#222" stroke="none"/>
- <path d="M28 83Q5 76 0 61" fill="none" stroke="#d6d1bd" stroke-width="12"/>
- <path d="M75 43l12 9m9-14 12 10m12-9 11 10m-45 23 12 8m18-11 12 8" stroke="#77796f" stroke-width="4"/>
+<!-- Himalayan snowcock: compact alpine galliform with short bill, barred body and strong legs -->
+<g transform="translate(430 375)" stroke="#4b4b43" stroke-width="4.5" stroke-linejoin="round">
+ <path d="M27 91Q36 55 79 43Q122 27 164 49Q188 62 193 91Q165 111 119 112Q69 114 27 91Z" fill="#b9b8a9"/>
+ <path d="M49 84Q65 60 100 57Q137 55 160 81Q128 101 83 98Z" fill="#d3d0c3" stroke="none"/>
+ <path d="M41 86Q12 78 2 58Q25 66 49 69" fill="#aaa998"/>
+ <path d="M152 62Q164 37 176 23Q187 12 202 21Q215 31 205 47L190 69Z" fill="#b8b4a5"/>
+ <path d="M178 25Q190 12 203 22L211 37 198 48 181 43Z" fill="#e0ddd1"/>
+ <path d="M182 34Q193 27 204 34M184 42Q195 36 204 42" fill="none" stroke="#9a6247" stroke-width="5" stroke-linecap="round"/>
+ <path d="M207 37 226 43 208 51Z" fill="#b68a54"/>
+ <circle cx="199" cy="29" r="3.2" fill="#222" stroke="none"/>
+ <path d="M76 106 70 151M145 108 151 151" fill="none" stroke="#82755f" stroke-width="6" stroke-linecap="round"/>
+ <path d="M70 151l-9 4m9-4 1 5m80-5-8 4m8-4 3 5" fill="none" stroke="#82755f" stroke-width="3.5" stroke-linecap="round"/>
+ <path d="M71 52l13 11m6-17 13 12m8-15 13 12m9-7 12 11M61 77l14 10m14-15 14 10m15-10 14 10m11-7 12 10" stroke="#77796f" stroke-width="4" stroke-linecap="round"/>
 </g>
 <!-- lake and shore as separate habitat -->
 <path d="M690 430Q820 390 930 420T1200 405V675H690Z" fill="url(#lake)"/>
