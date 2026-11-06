@@ -1527,7 +1527,7 @@ try {
       const tableRegion = page.locator("#periodicTableRegion");
       if (!(await tableRegion.getAttribute("role"))?.includes("region") ||
           !(await tableRegion.getAttribute("aria-label"))?.includes("прокручивайте") ||
-          !(await page.locator("[data-t=scrollHint]").innerText()).includes("по горизонтали")) {
+          !(await page.locator("[data-t=scrollHint]").innerText()).includes("Если таблица шире экрана")) {
         errors.push(file + ": Russian horizontal-scroll guidance and labelled region are required");
       }
       if (!await tableRegion.evaluate(el => el.scrollWidth > el.clientWidth)) {
