@@ -306,7 +306,7 @@ After studying this chapter, readers will be able to explain the extent and func
 
 ![Биологические процессы в циклах углерода и азота: фотосинтез, дыхание, разложение, фиксация, нитрификация, усвоение, аммонификация и денитрификация. Стрелки не обозначают величины потоков. / Biological processes in carbon and nitrogen cycles. Arrows do not quantify fluxes.](../assets/diagrams/07-I-carbon-nitrogen-cycles-bilingual.svg)
 
-*07-I. Авторская двуязычная схема, подготовленная после проверки открытых схем циклов углерода и азота; она не содержит количественных данных и не заменяет полный геохимический баланс. / Original bilingual diagram prepared after reviewing openly licensed carbon- and nitrogen-cycle diagrams; it contains no quantitative data and is not a complete geochemical budget.*
+*07-I. Авторская двуязычная схема; она не содержит количественных данных и не заменяет полный геохимический баланс. Нитрификация показана упрощённо, промежуточный нитрит не показан. / Original bilingual diagram; it contains no quantitative data and is not a complete geochemical budget. Nitrification is simplified; the nitrite intermediate is omitted.
 **Рисунок 7.9 / Figure 7.9 — Биологическая роль в циклах углерода и азота / Biological roles in the carbon and nitrogen cycles.**  
 
 ## 7.15. Методы биогеографических и экологических исследований / Methods in Biogeographical and Ecological Research
@@ -496,7 +496,7 @@ Aquatic biomes are classified by salinity, depth, water movement, light, tempera
 
 ![Lake and ocean zonation: photic and aphotic waters, littoral, pelagic and benthic zones. Boundaries are illustrative and vary with local conditions.](../assets/diagrams/07-G-lake-ocean-zonation-bilingual.svg)
 
-*07-G. Original bilingual conceptual diagram by Atlas of Knowledge. Published zonation diagrams were reviewed; no universal depth is implied because light penetration depends on water clarity and local conditions.*
+*07-G. Original bilingual conceptual diagram by Atlas of Knowledge. Depths are not fixed because light penetration depends on water clarity and local conditions. The benthic zone is the bottom habitat, not a synonym for aphotic water; shallow bottoms may remain illuminated.*
 
 **Freshwater ecosystems** include:
 - rivers and streams, where flow velocity, oxygen conditions, sediment transport and catchment connections are important;
