@@ -31,3 +31,8 @@ Suggested attribution: **“Atlas of Knowledge project — CC BY-NC 4.0.”** Id
 - The repository-root `LICENSE`, Nathan Liow's work, Chapter 07 prose, other Geography assets, other chapters and the Atlas as a whole are outside this decision.
 
 This file records a narrow asset-level licence decision. It does not alter scientific, accessibility, technical, deployment or independent-review statuses.
+
+
+## Additional asset not covered by this authorisation
+
+- **07-J** — `geography/assets/diagrams/07-J-latitudinal-zonation-altitudinal-belts-bilingual.svg`. This asset was created after the original six-asset authorisation. Its licence designation is **PENDING** and must not be inferred from the authorisation for 07-A, 07-B, 07-F, 07-G, 07-H and 07-I. No public reuse licence is asserted for 07-J until separately confirmed.
