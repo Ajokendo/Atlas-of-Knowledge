@@ -130,6 +130,7 @@ def svg_map(features, mode, outpath):
       '<text x="60" y="950" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">This derivative map is attributed to RESOLVE / Dinerstein et al. and is distributed under CC BY 4.0.</text>',
       '<text x="60" y="975" font-family="Arial,sans-serif" font-size="13" fill="#526773">Проекция / Projection: equirectangular, WGS 84 (EPSG:4326), north-up; not to scale.</text>',
       '<text x="60" y="1000" font-family="Arial,sans-serif" font-size="13" fill="#526773">Восемь биогеографических областей / Eight realms.</text>' if mode=="realm" else '<text x="60" y="1000" font-family="Arial,sans-serif" font-size="13" fill="#526773">Четырнадцать биомов / Fourteen biomes.</text>',
+      '<text x="60" y="1025" font-family="Arial,sans-serif" font-size="12" fill="#526773">Антарктическая область: показаны только полигоны экорегионов из источника; ледниковый покров без полигонов не закрашен. / Antarctica: only source-defined ecoregion polygons are shown; ice-covered areas without polygons remain unfilled.</text>' if mode=="realm" else '',
       '</svg>']
     outpath.write_text("\n".join(parts),encoding="utf-8")
 
