@@ -1219,8 +1219,8 @@ for (const file of pages) {
   for (const region of regions) {
     const attrs = region[1];
     const body = region[2];
-    if (!/\btabindex=["']0["']/i.test(attrs) || !/\brole=["']region["']/i.test(attrs) || !/\baria-label=["'][^"']*[А-Яа-яЁё][^"']*[A-Za-z][^"']*["']/i.test(attrs)) {
-      errors.push(rel + ": scrollable regional diagram must be keyboard-focusable, named and exposed as a region in both languages");
+    if (!/\btabindex=["']0["']/i.test(attrs) || !/\brole=["']region["']/i.test(attrs) || !/\baria-label=["'][^"']*[А-Яа-яЁё][^"']*[A-Za-z][^"']*["']/i.test(attrs) || !/\baria-keyshortcuts=["']ArrowLeft ArrowRight["']/i.test(attrs)) {
+      errors.push(rel + ": scrollable regional diagram must be keyboard-focusable, named in both languages and advertise arrow-key scrolling");
     }
     if (!/<img\b[^>]*\bsrc=["'][^"']+\.svg(?:[?#][^"']*)?["']/i.test(body)) {
       errors.push(rel + ": scrollable regional diagram region must contain its SVG image");
@@ -1232,7 +1232,7 @@ for (const file of pages) {
       errors.push(rel + ": scrollable regional diagram must have a visible bilingual mobile scroll hint");
     }
   }
-  if (regions.length && (!html.includes(".regional-figure__media--diagram{min-width:0;max-width:100%;width:100%;box-sizing:border-box;height:405px") || !html.includes(".grid>*{min-width:0}") || !html.includes("min-width:720px"))) {
+  if (regions.length && (!html.includes(".regional-figure__media--diagram{min-width:0;max-width:100%;width:100%;box-sizing:border-box;height:405px") || !html.includes(".grid>*{min-width:0}") || !html.includes("min-width:720px") || !html.includes('<script src="../diagram-scroll.js" defer></script>'))) {
     errors.push(rel + ": mobile SVG inspection must retain the independently scrollable enlarged diagram viewport");
   }
 }
@@ -1253,8 +1253,8 @@ for (const file of pages) {
   for (const region of regions) {
     const attrs = region[1];
     const body = region[2];
-    if (!/\btabindex=["']0["']/i.test(attrs) || !/\brole=["']region["']/i.test(attrs) || !/\baria-label=["'][^"']*[А-Яа-яЁё][^"']*[A-Za-z][^"']*["']/i.test(attrs)) {
-      errors.push(rel + ": core SVG viewport must be keyboard-focusable, named and exposed as a region in both languages");
+    if (!/\btabindex=["']0["']/i.test(attrs) || !/\brole=["']region["']/i.test(attrs) || !/\baria-label=["'][^"']*[А-Яа-яЁё][^"']*[A-Za-z][^"']*["']/i.test(attrs) || !/\baria-keyshortcuts=["']ArrowLeft ArrowRight["']/i.test(attrs)) {
+      errors.push(rel + ": core SVG viewport must be keyboard-focusable, named in both languages and advertise arrow-key scrolling");
     }
     if (!/<img\b[^>]*\bsrc=["'][^"']+\.svg(?:[?#][^"']*)?["']/i.test(body)) {
       errors.push(rel + ": core SVG viewport region must contain its SVG image");
@@ -1268,7 +1268,7 @@ for (const file of pages) {
   }
   if (regions.length && (!html.includes('<style id="mobile-svg-diagram-viewports">') ||
       !html.includes(".diagram-scroll-viewport{width:100%;min-width:0;max-width:100%;box-sizing:border-box}") ||
-      !html.includes("min-width:720px"))) {
+      !html.includes("min-width:720px") || !html.includes('<script src="../diagram-scroll.js" defer></script>'))) {
     errors.push(rel + ": core SVG viewport is missing its responsive scroll styling");
   }
 }
