@@ -29,7 +29,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 - накапливает органический углерод и влияет на климатическую систему;
 - сохраняет природно-историческую информацию о развитии ландшафтов.
 
-Почвоведение — наука о происхождении, свойствах, классификации, географии и рациональном использовании почв. В становлении генетического почвоведения важную роль сыграли исследования Василия Докучаева, рассматривавшего почву как самостоятельное природное тело, формирующееся под воздействием комплекса факторов.
+Почвоведение — наука о почвах, их происхождении, строении, свойствах, классификации, географии и функциях. Рациональное использование и охрана почв относятся к важным прикладным направлениям почвоведения. В становлении генетического почвоведения важную роль сыграли исследования Василия Докучаева, рассматривавшего почву как самостоятельное природное тело, формирующееся под воздействием комплекса факторов.
 
 <!-- VISUAL ID 08-D — integrated bilingual SVG below -->
 
@@ -124,7 +124,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 **Важно учитывать:** расчёт предполагает преимущественно минеральную почву и незначительное содержание крупных камней. В почвах с большим количеством органического вещества или вулканического материала плотность твёрдых частиц может заметно отличаться. Пористость сама по себе также не показывает, сколько воды доступно растениям: важны размеры пор, структура и влажность.
 
-**Проверьте себя:** образец объёмом 500 см³ после высушивания весит 700 г. Рассчитайте его плотность сложения.
+**Проверьте себя:** образец объёмом 500 см³ после высушивания весит 700 г. Рассчитайте его плотность сложения. **Ответ для самопроверки:** 700 / 500 = 1,4 г/см³.
 
 
 
@@ -169,8 +169,8 @@ After studying this chapter, readers will be able to explain soil formation and 
 В обзорных учебных материалах также встречаются описательные выражения вроде «тёмные гумусовые почвы степей», «засушливые почвы полупустынь», «аллювиальные почвы долин» или «горные почвы». Они полезны для объяснения географических закономерностей, но не всегда соответствуют одной конкретной RSG. Поэтому на карте и в легенде нельзя смешивать формальные единицы WRB, национальные названия и обобщённые ландшафтные описания. Если используется упрощённая карта, это должно быть прямо указано в заголовке и легенде.
 
 **Рисунок 8.4 / Figure 8.4 — Глобальная карта почв / Global soil map.**  
-Техническое задание: выбрать один из двух разных продуктов — карту почвенных групп по WRB (с указанием редакции классификации и происхождения данных) либо карту отдельных свойств почвы (например, pH или органического углерода) по SoilGrids; не объединять их в одну неразличимую легенду. Указать год/версию набора, пространственное разрешение, глубину, единицы, метод получения и неопределённость; показать пробелы и зоны низкой плотности полевых наблюдений.
-**EN production brief:** Choose one of two distinct products: a WRB soil-group map (identify the classification edition and data provenance) or a map of a specific soil property (for example, pH or organic carbon) from SoilGrids. Do not combine them in one ambiguous legend. State dataset version/date, spatial resolution, depth interval, units, method and uncertainty; show data gaps and areas with sparse field observations.
+Техническое задание: выбрать один из двух разных продуктов — карту почвенных групп по WRB (с указанием редакции классификации и происхождения данных) либо карту отдельных свойств почвы (например, pH или органического углерода) по SoilGrids; не объединять их в одну неразличимую легенду. Указать год/версию набора, пространственное разрешение, глубину, единицы, метод получения и неопределённость; показать пробелы и зоны низкой плотности полевых наблюдений. Если используется слой почвенных групп SoilGrids 2.0, обязательно указать его отдельное происхождение: он основан на агрегированных прогнозах версии 2017 года и классификации WRB 2006, включает 30 групп и не эквивалентен новой классификации WRB 4-го издания (2022).
+**EN production brief:** Choose one of two distinct products: a WRB soil-group map (identify the classification edition and data provenance) or a map of a specific soil property (for example, pH or organic carbon) from SoilGrids. Do not combine them in one ambiguous legend. State dataset version/date, spatial resolution, depth interval, units, method and uncertainty; show data gaps and areas with sparse field observations. If using the SoilGrids 2.0 soil-group layers, state their separate provenance: they aggregate predictions from the 2017 release based on WRB 2006, cover 30 groups and are not a new map using the fourth edition of WRB (2022).
 
 ## 8.8. Почвы основных природных зон / Soils Across Major Natural Zones
 
@@ -235,7 +235,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ## 8.11. Ландшафт как географическая система / Landscape as a Geographical System
 
-Ландшафт — территориальная система взаимосвязанных природных компонентов, обладающая определённой структурой, функционированием и историей развития. В физической географии термин может использоваться в разных масштабах: от локального урочища до крупного регионального комплекса. Поэтому при анализе всегда следует указывать масштаб и принятую классификацию.
+Ландшафт — территориальная система взаимосвязанных природных и антропогенно изменённых компонентов, обладающая определённой структурой, функционированием и историей развития. В физической географии термин может использоваться в разных масштабах: от локального урочища до крупного регионального комплекса. Поэтому при анализе всегда следует указывать масштаб и принятую классификацию.
 
 Компоненты ландшафта:
 - геологическое основание и рельеф;
@@ -350,7 +350,7 @@ Soil performs many functions:
 - stores organic carbon and influences the climate system; and
 - preserves natural and historical information about landscape development.
 
-Pedology is the science of soil origin, properties, classification, geography and sustainable use. Vasily Dokuchaev played an important role in the development of genetic soil science by treating soil as an independent natural body formed through the combined influence of several factors.
+Pedology is the study of soil formation, morphology, properties, classification and geographical distribution. The sustainable use and conservation of soils are important applied fields of soil science. Vasily Dokuchaev played an important role in the development of genetic soil science by treating soil as an independent natural body formed through the combined influence of several factors.
 
 ### 8.2. Soil-Forming Factors
 
@@ -422,7 +422,7 @@ This means that about half of the sample's total volume consists of pores. It is
 
 **Important limitations:** the calculation assumes predominantly mineral soil with few coarse stones. In soils rich in organic matter or volcanic material, particle density may differ substantially. Porosity alone also does not show how much water is available to plants; pore sizes, soil structure and moisture conditions matter.
 
-**Check your understanding:** An oven-dry sample has a volume of 500 cm³ and a mass of 700 g. Calculate its bulk density.
+**Check your understanding:** An oven-dry sample has a volume of 500 cm³ and a mass of 700 g. Calculate its bulk density. **Answer:** 700 / 500 = 1.4 g/cm³.
 
 ---
 
@@ -497,7 +497,7 @@ No-till or reduced-tillage practices can reduce erosion in some conditions, but 
 
 ### 8.11. Landscape as a Geographical System
 
-A landscape is a territorial system of interacting natural components with a particular structure, functioning and developmental history. In physical geography, the term is used at different scales, from a local landscape unit to a large regional complex. The scale and classification used should therefore always be stated.
+A landscape is a territorial system of interacting natural and human-modified components with a particular structure, functioning and developmental history. In physical geography, the term is used at different scales, from a local landscape unit to a large regional complex. The scale and classification used should therefore always be stated.
 
 Landscape components include geological foundation and relief; climate and microclimate; surface and groundwater; soils; vegetation and wildlife; and human activity and infrastructure.
 
@@ -679,8 +679,17 @@ Salinity thresholds also depend on the classification and measurement method. An
 11. ISRIC — World Soil Information. **SoilGrids 2.0 documentation and FAQ** — global modelled soil-property maps at 250 m, six depth intervals and mapped prediction uncertainty; includes limitations in regions with sparse profile observations. https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html
 12. Poggio, L. et al. (2021). **SoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty.** *SOIL*, 7, 217–240. https://doi.org/10.5194/soil-7-217-2021
 13. United Nations Convention to Combat Desertification (UNCCD). **Convention text, Article 1: Use of terms** — formal definitions of desertification, land degradation and drylands. https://www.unccd.int/article-1-use-terms
+14. ISRIC — World Soil Information. **SoilGrids FAQ: soil classification maps** — documents that the SoilGrids 2.0 soil-group layers aggregate the 2017 predictions based on WRB 2006 and cover 30 Reference Soil Groups; they are not a new classification map based on WRB 2022. https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_03.html
+15. FAO and Global Soil Partnership. **Mapping of Salt-Affected Soils: Technical Manual** (2020) — explains why EC values from different soil-to-water extract ratios require locally validated conversion models before comparison with saturated-paste extract conductivity. https://fao-sid.github.io/GSSmap/methods-for-mapping-salt-affected-soils.html
+16. FAO and Intergovernmental Technical Panel on Soils. **Status of the World's Soil Resources 2026** — updated global assessment with regional chapters, including Europe and Central Asia. https://doi.org/10.4060/ce0792en
 
 **Примечание:** почвенные классификации, методы отбора проб и показатели деградации могут различаться между странами. В каждом практическом исследовании необходимо указывать применённую методику, глубину отбора проб, дату и источник данных.
+
+В 2026 году ФАО опубликовала обновлённую глобальную оценку состояния почв *Status of the World's Soil Resources 2026*, включающую отдельные региональные главы, в том числе по Европе и Центральной Азии. Глобальные выводы нельзя автоматически переносить на конкретную страну или участок: для региональной оценки следует обращаться к соответствующей главе и национальным данным.
+
+**Note:** soil classifications, sampling methods and land-degradation indicators may differ among countries. Every practical study should identify the method used, sampling depth, date and data source.
+
+In 2026, FAO published the updated global assessment *Status of the World's Soil Resources 2026*, which includes separate regional chapters, including one for Europe and Central Asia. Global findings should not automatically be transferred to a particular country or site; regional assessment should use the relevant chapter and national data.
 
 Численные примеры в этой главе являются учебными и не представляют результаты конкретного полевого исследования или статистику отдельной страны. При добавлении региональных почвенных карт и измерений необходимо указывать набор данных, год, масштаб, систему классификации, глубину и метод отбора проб.
 
@@ -689,7 +698,7 @@ The numerical examples in this chapter are instructional; they are not results f
 ---
 **Конец главы 8 / End of Chapter 8**
 
-## Focused scientific and editorial audit record — 5 November 2026
+## Focused scientific and editorial audit record — 6 November 2026
 
 - **UNCCD terminology:** distinguished the chapter's broad teaching description of land degradation from the Convention's formal dryland definition; aligned the desertification wording in both languages with UNCCD Article 1 and added the official Convention text to the bibliography.
 - **Bilingual structure and placement:** moved the English salinity subsection directly after English methods, the English summary after the Russian summary, English review questions alongside the Russian questions, and English practical activities alongside the Russian activities. The RU/EN sequence now follows the same section order.
@@ -702,6 +711,6 @@ The numerical examples in this chapter are instructional; they are not results f
 - **Bulk density and porosity:** retained the worked example (1,300 g / 1,000 cm³ = 1.3 g/cm³; estimated porosity ≈50.9% using an assumed particle density of 2.65 g/cm³). The text identifies this as an estimate and states its assumptions; it must not be presented as a direct measurement of pore space.
 - **Salinity measurement:** clarified that ECe from a saturated-paste extract at 25 °C is not interchangeable with EC from a 1:5 extract or field apparent-conductivity readings. The method, ratio, temperature and units must be stated.
 - **Salinity versus sodicity:** clarified that electrical conductivity alone does not identify salt composition or diagnose exchangeable-sodium effects; separate chemical and exchange-related measurements are required. The historical ECe value near 4 dS/m is explicitly not a universal crop-damage threshold.
-- **Visual production:** checked seven unique bilingual visual IDs and production briefs, including the WRB profile and erosion/landscape concepts. All remain placeholders.
+- **Visual production:** checked all seven unique bilingual visual IDs against the repository. Six SVG assets (08-A, 08-C, 08-D, 08-E, 08-F and 08-G) exist and are referenced as integrated; 08-B remains a placeholder because its referenced SVG is absent. No visual files or image references were changed.
 - **Bilingual structure:** the previous heading-ID audit found 17 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
 
