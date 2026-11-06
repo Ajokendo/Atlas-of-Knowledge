@@ -147,7 +147,6 @@ Limitations include:
 ![Система координат: модель Земли, географические координаты и проекция; отдельная вертикальная система высот / Coordinate reference system: Earth model, geographic coordinates and projection; separate vertical height reference](../assets/diagrams/14-B-coordinate-reference-system-bilingual.svg)
 
 *Оригинальная двуязычная схема; геоид и эллипсоид не тождественны, а вертикальная система отсчёта выбирается отдельно. / Original bilingual diagram; the geoid and ellipsoid are not identical, and a vertical reference is selected separately.*
-> **EN:** Geographic-coordinate diagram showing the ellipsoid, geoid and map projection; explain that angular degrees are not suitable for directly measuring local distances.
 
 Координатная система позволяет определить положение объекта на Земле или на плоскости. Географические координаты обычно задаются широтой и долготой, а проецированные координаты — линейными величинами, например метрами.
 
@@ -337,8 +336,9 @@ Network-analysis results depend on network completeness, travel direction, conne
 
 ## 14.10. Анализ растров и пространственное моделирование / Raster Analysis and Spatial Modelling
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 14-G / IMAGE PLACEHOLDER 14-G]** Цифровая модель рельефа и производные карты уклона и экспозиции; указать разрешение и ограничения исходного растра.
-> **EN:** Show a digital elevation model and derived slope and aspect maps; state raster resolution and source limitations.
+![Цифровая модель рельефа, уклон и экспозиция / Digital elevation model, slope and aspect](../assets/diagrams/14-G-dem-slope-aspect-bilingual.svg)
+
+*Учебная схема производных поверхностей. Реальные значения зависят от разрешения, вертикальной точности, источника и алгоритмов обработки DEM. / Educational diagram of derived surfaces. Actual values depend on DEM resolution, vertical accuracy, source and processing algorithms.*
 
 
 Растровый анализ применяется к непрерывным полям и пространственным моделям.
