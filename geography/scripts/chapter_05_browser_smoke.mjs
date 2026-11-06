@@ -65,6 +65,33 @@ try {
   reports.push(viewport.width+"px GitHub Markdown: "+liveDecoded+"/46 chapter images decoded; Camo HTTP errors="+imageResponses.filter(x=>x.status>=400).length);
   await live.close();
  }
+
+ const svgNames=[
+  "chapter-05-dry-air-composition.svg","chapter-05-atmosphere-layers-bilingual.svg",
+  "chapter-05-weather-vs-climate.svg","chapter-05-climate-controls.svg",
+  "chapter-05-global-climate-belts.svg","chapter-05-urban-microclimate-heat-island.svg",
+  "chapter-05-atmospheric-hazards.svg","chapter-05-climate-change-drivers-evidence-responses.svg",
+  "chapter-05-weather-observations-to-forecast.svg","chapter-05-climate-diagram-exercise.svg",
+  "chapter-05-synoptic-map-climate-analysis.svg","chapter-05-cloud-formation-processes.svg"
+ ];
+ for(const name of svgNames){
+  const svgPage=await browser.newPage({viewport:{width:1600,height:1200}});
+  const url="https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/"+name;
+  await svgPage.goto(url,{waitUntil:"domcontentloaded",timeout:60000});
+  await svgPage.addScriptTag({path:resolve("node_modules/axe-core/axe.min.js")});
+  const metadata=await svgPage.locator("svg").evaluate(svg=>({
+   role:svg.getAttribute("role"),
+   title:svg.querySelector(":scope > title")?.textContent?.trim()||"",
+   desc:svg.querySelector(":scope > desc")?.textContent?.trim()||"",
+   textNodes:svg.querySelectorAll("text").length
+  }));
+  if(metadata.role!=="img"||!metadata.title||!metadata.desc) errors.push(name+": rendered SVG accessible-name metadata incomplete");
+  if(!metadata.textNodes) errors.push(name+": no SVG text nodes found in rendered document");
+  const contrast=await svgPage.evaluate(async()=>await window.axe.run(document,{runOnly:{type:"rule",values:["color-contrast"]}}));
+  if(contrast.violations.length) errors.push(name+": axe color-contrast violations "+contrast.violations.map(v=>v.id+" ("+v.nodes.length+")").join(", "));
+  reports.push(name+": rendered text nodes="+metadata.textNodes+"; axe color-contrast violations="+contrast.violations.length);
+  await svgPage.close();
+ }
 } finally {await browser.close()}
 console.log(reports.join("\n"));
 if(errors.length){console.error("Chapter 05 browser QA failed:\n"+errors.join("\n"));process.exit(1)}
