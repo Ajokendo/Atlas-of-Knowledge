@@ -103,14 +103,11 @@
 <g class="lab">
  <text x="1015" y="235">Кутикула / Cuticle</text><path d="M1100 242L1100 274" class="line"/>
  <text x="1230" y="235">Верхняя эпидерма</text><text x="1230" y="256" class="small">Upper epidermis</text><path d="M1300 260L1300 294" class="line"/>
- <text x="1015" y="652">Нижняя эпидерма / Lower epidermis</text>
- <text x="1197" y="697" text-anchor="middle" class="small">Палисадная и губчатая мезофильная ткань / Palisade &amp; spongy mesophyll</text>
+ <text x="1197" y="628" text-anchor="middle" class="small">Палисадная паренхима / Palisade mesophyll</text>
+ <text x="1197" y="646" text-anchor="middle" class="small">Губчатая паренхима / Spongy mesophyll</text>
+ <text x="1197" y="664" text-anchor="middle" class="small">Ксилема / Xylem · Флоэма / Phloem</text>
+ <text x="1197" y="681" text-anchor="middle" class="small">Нижняя эпидерма / Lower epidermis · Устьице / Stoma</text>
 </g>
-<g class="lab">
- <text x="1000" y="390" class="small">Палисадная</text><text x="1000" y="408" class="small">паренхима</text><text x="1000" y="426" class="small">Palisade mesophyll</text>
- <text x="1300" y="470" class="small">Губчатая</text><text x="1300" y="488" class="small">паренхима</text><text x="1300" y="506" class="small">Spongy mesophyll</text>
- <text x="1125" y="550" fill="#176b9e" class="small">Ксилема / Xylem</text><text x="1215" y="570" fill="#75428f" class="small">Флоэма / Phloem</text>
- <text x="1150" y="632" class="small">Устьице / Stoma</text>
-</g>
+<!-- Layer and vascular-bundle labels are grouped below the section to avoid covering tissue details. -->
 <text x="720" y="733" text-anchor="middle" class="sub">Обобщённая схема, не в масштабе / Generalized diagram, not to scale</text>
 </svg>
