@@ -1,3 +1,5 @@
+> **Current project boundary — 6 November 2026:** External specialist, teacher or independent expert assessment is outside the Atlas of Knowledge development and acceptance process. If desired, it will be a separate activity after this project stage; it is not a project gate or blocker. Any older dated entries below that describe independent scientific review as pending are historical checkpoints and are superseded by this instruction. Internal scientific/source review, RU/EN consistency, accessibility, technical validation, visual inspection, creator/rightsholder and licence evidence, and project editorial approval remain in scope.
+
 # Chemistry Atlas — Image and visual audit
 
 **Canonical standard:** [IMAGE-FIRST POLICY v1.2](https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/IMAGE_FIRST_POLICY.md)  
