@@ -130,6 +130,62 @@ jobs:
           node original-engine/circuits/standalone-smoke.mjs
           MODULE=circuits EXPECTED_PAGES=9 node original-engine/book-smoke.mjs
 
+
+  all-book-visual-capture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser test tools
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/physics-http.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/induction/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/physics-http.log
+          exit 1
+      - name: Capture every interactive-book page on desktop and mobile
+        run: |
+          set -e
+          while read -r module pages; do
+            MODULE="$module" EXPECTED_PAGES="$pages" SCREENSHOT_DIR="/tmp/physics-visual-review/all-books/$module" node original-engine/book-smoke.mjs
+          done <<'EOF'
+          kinematics 11
+          newton 13
+          circular 13
+          energy 12
+          momentum 12
+          oscillations 12
+          rotation 15
+          fluids 9
+          electrostatics 9
+          gauss 9
+          potential 9
+          capacitors 9
+          circuits 9
+          magnetism 9
+          induction 10
+          EOF
+      - name: Upload all 15 chapters visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: all-15-chapters-visual-review
+          path: /tmp/physics-visual-review/all-books/**/*.png
+          if-no-files-found: warn
+
   fluids-isolated:
     runs-on: ubuntu-24.04
     timeout-minutes: 20
