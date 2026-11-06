@@ -661,6 +661,7 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Category: C (new project-created visual; final rights declaration remains subject to project-owner review)
 - Learning objective: Determine the direction of the magnetic Lorentz force for positive and negative charges using the vector product and right-hand rule.
 - File: `assets/visuals/phy-14-lorentz-force-right-hand-rule.svg`
+- Mobile variant: `assets/visuals/phy-14-lorentz-force-right-hand-rule-mobile.svg` (dedicated vertical layout, added 2026-11-06)
 - Original source: Not applicable — created for Atlas of Knowledge
 - Author / creator: Atlas of Knowledge project; SVG prepared with AI assistance
 - License: Pending project-owner confirmation; do not infer a licence from the upstream MIT licence
@@ -674,5 +675,5 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Scientific review: Internal vector-product check PASS for the depicted configuration: (−z) × (+x) = −y for q > 0; force reverses for q < 0. The three-finger convention is labelled index finger = velocity, middle finger = magnetic field, thumb = force for positive charge. Chapter 14 page and responsive integration passed current browser QA.
 - Rights review: Pending project-owner declaration and licence assignment
 - Integration: `chapters/magnetism.html`, section “Векторная схема силы Лоренца”
-- Mobile check: PASS — responsive sizing and no horizontal overflow at 390×844; desktop 1440×900; current browser workflow run 42177393702. The SVG is retained as a supporting figure, separate from the primary four-topic visual inventory.
+- Mobile check: PENDING — dedicated mobile SVG added and integrated on 2026-11-06; await current browser workflow desktop/mobile screenshot and accessibility checks. Earlier responsive check covered the desktop SVG scaling, not the new dedicated mobile variant. The SVG is retained as a supporting figure, separate from the primary four-topic visual inventory.
 
