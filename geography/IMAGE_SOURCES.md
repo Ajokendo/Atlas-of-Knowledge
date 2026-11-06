@@ -1291,3 +1291,6 @@ The project owner authorised CC BY-NC 4.0 for all original visual assets in the 
 The additional mobile-scale review found two low-contrast text/background pairs in original SVGs, despite the earlier axe scan returning zero DOM violations. Corrected 08-D's central soil-panel fill to `#c3a27e` (dark text `#243447`: approximately 5.30:1) and 08-G habitat-patch fill to `#a3c19a` (same text colour: approximately 6.43:1). The 08-G dark patch outline is retained. The Chapter 08 browser smoke test now checks these exact fills to prevent regression.
 
 The contrast ratios apply to the identified pairs only. The ISRIC WRB map (08-B) remains a third-party map with a small phone-scale legend; use the linked full-size poster for detailed legend reading. This review does not constitute screen-reader testing or independent scientific review.
+
+
+The Chapter 08 browser smoke test now checks that all 14 RU/EN Markdown image embeds have non-empty alternative text and that each SVG's `aria-labelledby` resolves to its title and description. The automated checks do not constitute a screen-reader test; manual assistive-technology review remains open, and the newly updated CI run must be confirmed separately.
