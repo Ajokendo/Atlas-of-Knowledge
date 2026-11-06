@@ -586,6 +586,24 @@ Examples include:
 
 GIS can reveal spatial patterns, but it does not replace expert judgement, public consultation or legal procedures. A map is a model of reality and must be considered together with the uncertainty and limitations of its data.
 
+### Пример: национальная система пространственных данных Кыргызстана / Example: Kyrgyzstan's National Spatial Data Framework
+
+В Кыргызстане правовая основа работы с пространственными данными включает Главу 12 Цифрового кодекса Кыргызской Республики от 31 июля 2025 года № 178 (статьи 92–98). Кодекс различает цифровые геодезические, картографические данные и данные о местоположении (статья 92), закрепляет принципы качества и защиты частной жизни (статья 93), а также устанавливает требования к пространственным метаданным (статья 94).
+
+Статья 95 предусматривает Национальный ресурс пространственных данных — Георесурс. Важно правильно понимать условия доступа: плата за доступ не взимается, однако использование данных связано с лицензионным договором и обязанностями в отношении производных пространственных данных. Пользователь должен предоставить владельцу Георесурса права на использование таких производных данных и передать их вместе с метаданными в установленный срок, не превышающий одного года. Поэтому «доступ без платы» не означает автоматически «неограниченное повторное использование без условий».
+
+Статья 96 описывает геосайт как портал для поиска пространственных данных и метаданных, получения открытых данных о местоположении и доступа к стандартам и форматам. Статьи 97–98 регулируют права субъектов данных, совместимость и переносимость пространственных записей. Отдельно действует Закон Кыргызской Республики от 29 апреля 2026 года № 58 «О геодезии, картографии и пространственных данных»; его не следует смешивать с положениями Цифрового кодекса.
+
+Наличие правовой нормы о Георесурсе или геосайте само по себе не доказывает, что конкретный слой уже опубликован, доступен для скачивания, актуален, полон, проверен или разрешён к свободному повторному использованию. Для каждого набора данных нужно отдельно проверить фактический источник, метаданные, лицензию, дату, CRS, точность и ограничения.
+
+Kyrgyzstan's legal framework for spatial data includes Chapter 12 (Articles 92–98) of the Digital Code of the Kyrgyz Republic, dated 31 July 2025, No. 178. The Code distinguishes digital geodetic data, digital cartographic data and location data (Article 92); establishes principles including data quality and personal privacy (Article 93); and provides for spatial metadata (Article 94).
+
+Article 95 provides for the National Spatial Data Resource, known as the Georesource. The access conditions require careful interpretation: no access fee is charged, but use is governed by a licence agreement and obligations concerning derived spatial data. A user must grant the Georesource owner rights to use derived data and submit those data together with their metadata within the prescribed period, which may not exceed one year. Therefore, “free access” does not automatically mean “unrestricted reuse without conditions”.
+
+Article 96 describes the geosite as a portal for searching spatial data and metadata, obtaining open location data and accessing standards and formats. Articles 97–98 address data-subject rights, interoperability and portability of spatial records. A separate Law of the Kyrgyz Republic dated 29 April 2026, No. 58, “On Geodesy, Cartography and Spatial Data”, also applies; it should not be conflated with the Digital Code.
+
+The legal establishment of a Georesource or geosite does not by itself prove that a particular dataset has been published, can be downloaded, is current, complete or validated, or may be freely reused. Each dataset must be checked separately for its actual source, metadata, licence, date, CRS, accuracy and restrictions.
+
 ## 14.16. Этика, конфиденциальность и ответственное использование / Ethics, Privacy and Responsible Use
 
 Географические данные могут раскрывать местоположение людей, жилищ, медицинских учреждений, объектов критической инфраструктуры, редких видов и культурно значимых мест.
@@ -1119,6 +1137,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 21. EPSG Geodetic Parameter Dataset. **WGS 84 (EPSG:4326).** CRS definition, formal latitude/longitude axis order and area of use; EPSG data record. https://epsg.io/4326
 22. Open Geospatial Consortium. **Web Map Service (WMS) Implementation Specification, Version 1.3.0.** Defines CRS axis-order requirements and explains the EPSG:4326 latitude/longitude order. https://docs.ogc.org/is/06-042/06-042.pdf
 23. QGIS Documentation. **GDAL Raster Analysis.** Documents slope output in degrees or percent and the vertical-to-horizontal scale parameter. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/gdal/rasteranalysis.html
+24. Kyrgyz Republic. **Digital Code**, 31 July 2025, No. 178, Chapter 12, Articles 92–98. Official published text. https://reestr.dpa.gov.kg/ru/npa/59
+25. Kyrgyz Republic. **Law No. 58, On Geodesy, Cartography and Spatial Data**, 29 April 2026. Official Ministry of Justice legal database. https://cbd.minjust.gov.kg/230045410/edition/52293/ru
 
 ---
 **Конец главы 14 / End of Chapter 14**
