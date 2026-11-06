@@ -425,7 +425,7 @@ The following counts are from the actual chapter Markdown files in `workspace/ge
 | 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
 | 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
 | 05 | 46 | 23 distinct image URLs (12 local SVGs and 11 external source-image URLs); all 19 unique visual IDs have integrated imagery in RU and EN. Exact ID-to-image mapping is reconciled; legacy 5-A is an alias of 5.2-A. |
-| 06–17 | 32 | Chapter 06 has 15/15 visual IDs integrated in both language sections; its current image inventory is 32 Markdown embeds across 16 distinct targets. Chapter 06 has 32 bilingual embeds across 16 targets; all 12 local SVGs pass XML/ARIA and rendered title/description/role/text checks. Chromium run 42215317460 decoded all 32 RU/EN embeds at 390px and 1365px, found no horizontal overflow, passed keyboard skip-link and axe gallery checks (0 violations). Chapters 07–17 have no Markdown image embeds in this scan. |
+| 06–17 | 32 | Chapter 06 has 15/15 visual IDs integrated in both language sections (32 Markdown embeds across 16 distinct targets); all 12 local SVGs pass XML/ARIA and rendered title/description/role/text checks. Chromium run 42215317460 decoded all 32 RU/EN embeds at 390px and 1365px, found no horizontal overflow, passed keyboard skip-link and axe gallery checks (0 violations). Chapters 07–17 have no Markdown image embeds in this scan. |
 | 18 | 1 | Local SVG 18-J referenced. |
 | 19 | 1 | Local SVG 19-H referenced. |
 | 20 | 2 | Local SVGs 20-I and 20-K referenced. |
@@ -515,7 +515,7 @@ Markdown alt-text checks:
 - Chapters 18–20: 4 embeds; zero empty alt attributes.
 - Chapter 06: all 15 visual IDs are integrated in both RU and EN; 32 embeds across 16 distinct targets, all with non-empty alt text.
 
-**Result:** structural SVG metadata and non-empty Markdown alt text pass for the checked local assets and chapter embeds. Semantic alt-text quality, bilingual equivalence, scientific correctness, rights evidence and deployed accessibility remain separate and pending checks. No asset is promoted to VERIFIED.
+**Result:** structural SVG metadata and non-empty Markdown alt text pass for the checked local assets and chapter embeds. Chapter 06's later internal concept review and browser acceptance are recorded in the 6 November 2026 addendum below. Semantic alt-text quality, bilingual equivalence, rights evidence and deployed accessibility remain separate checks; no asset is promoted to VERIFIED solely by this structural scan.
 
 
 ## Chapters 03–04 — source-path, SVG metadata and bilingual-alt validation — 5 November 2026
