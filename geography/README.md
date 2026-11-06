@@ -199,3 +199,5 @@
 - Corrected the 5.18-A climate-graph precipitation bars to match the tabulated values: continental example A = 364 mm; maritime example B = 925 mm.
 - Source-level checks confirm 46 Markdown image embeds, 23 unique image URLs, 12 local SVGs with basic bilingual accessibility metadata and zero empty alt attributes.
 - Rights/licence evidence for project-local visuals, contrast and screen-reader review, and deployed desktop/mobile reader QA remain separate release tasks; they are not claimed complete by the editorial 100% score.
+
+- Глава 6: 6 ноября добавлена и интегрирована в RU/EN оригинальная двуязычная схема 6-D о ветровых волнах, приливах и поверхностных/глубинных течениях. Теперь интегрированы 6 из 15 визуальных ID; девять остаются открытыми. Для нового SVG отдельно зафиксировано, что права и лицензия проекта ещё не подтверждены; автоматическая и ручная проверка контраста, скринридера и развёрнутого сайта не заявляются как выполненные.
