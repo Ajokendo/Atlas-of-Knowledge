@@ -58,7 +58,7 @@ export const PAGES = [
       <div class="charts">${chart({ x0: 10, x1: 90, y0: 0, y1: 60, xlabel: 'угол наклона нити θ (°)', ylabel: 'сила натяжения каждой нити (Н)', cursor: 'tension', label: 'Зависимость силы натяжения от угла наклона нити',
         series: [{ pts: Array.from({ length: 41 }, (_, i) => { const d = 12 + i * 1.95; return [d, Math.min(M.tension2(d), 60)]; }) }] })}</div>
       <p class="hintline">Нажмите на нити, чтобы увидеть разложение силы натяжения на составляющие.</p>`,
-    cam: { target: [STATIONS.tension, 1.5, 0], az: -10, el: 5, dist: 11 }, lit: 'tension', scene: 'tension', look: {},
+    cam: { target: [STATIONS.tension, 2.0, 0], az: -10, el: 12, dist: 14 }, lit: 'tension', scene: 'tension', look: {},
     fig: 'Одна нить и две нити',
   },
   {
