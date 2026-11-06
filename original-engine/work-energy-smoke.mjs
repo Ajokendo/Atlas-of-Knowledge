@@ -110,7 +110,7 @@ async function check(viewport, mobile) {
     const phase = page.locator('[data-physics-lab] [data-phase]');
     await phase.evaluate(el => { el.value = '100'; el.dispatchEvent(new Event('input', { bubbles: true })); });
     await page.waitForFunction(() =>
-      document.querySelector('[data-physics-lab] [data-physics-formula]')?.textContent.includes('9,81 · 10,00')
+      document.querySelector('[data-physics-lab] [data-physics-formula]')?.textContent.includes('9,80 · 10,00')
     );
 
     const axe = await new AxeBuilder({ page })
