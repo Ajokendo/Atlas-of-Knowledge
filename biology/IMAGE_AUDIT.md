@@ -922,3 +922,14 @@ Inspected the SVG source and bilingual accessible descriptions for four remainin
 No source-level change was justified in this pass. The review is limited to SVG structure, labels and scope statements; it is not a specimen-level morphology approval or a full-resolution visual acceptance.
 
 Added regression checks in `checks.mjs` to require these four assets, their accessible SVG title/description and key habitat/species-scope caveats. The validation step passed on the follow-up workflow commit; Chromium installation and full browser screenshot checks were still running at the time of this record.
+
+## Osh regional fauna figure — caption/foreground spacing correction — 6 November 2026
+
+Retrieved the fresh 26-screenshot artifact from successful Chromium workflow [42158918230](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42158918230), commit `f8cbae88`. Inspected the full-resolution 1365 px Fauna of Kyrgyzstan screenshot around the Naryn and Osh regional habitat plates.
+
+- **Naryn highland habitats:** the bilingual seasonal-waterbird label is contained within its panel in this fresh rendering after the earlier 12 px small-label adjustment. No new clipping was visible in this crop.
+- **Osh southern habitats:** the bear's English caption was technically visible, but the thick dark-green foreground strokes crowded its lower baseline and protruded beyond the panel's lower edge. This is a confirmed visual-spacing defect in the current screenshot, despite the earlier curve-lowering correction.
+
+Corrected `fauna-osh-southern-habitats.svg`: aligned all three bilingual species-caption pairs at y=470/493; moved the foreground curves to y=514 and reduced their stroke width to 10 px so the strokes remain inside the panel and leave clear separation beneath the captions. Added source regression assertions for both caption baselines and the revised foreground geometry in `checks.mjs`.
+
+The source/check changes are committed in `2e900ed9` and `42bdcfec`. Follow-up Chromium screenshot inspection is pending in workflow [42161519371](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42161519371). Do not mark the Osh visual correction closed until the new desktop and mobile screenshots are inspected. Global Image Verification remains **Pending audit**.
