@@ -73,8 +73,8 @@
  <text x="890" y="435" text-anchor="middle">Усвоение / Assimilation</text>
  <text x="885" y="600" text-anchor="middle">Опад и остатки / Litter and residues</text>
  <text x="845" y="475" text-anchor="middle">Аммонификация / Ammonification</text>
- <text x="1145" y="235" text-anchor="end">Денитрификация /</text>
- <text x="1145" y="253" text-anchor="end">Denitrification</text>
+ <text x="1145" y="278" text-anchor="end">Денитрификация /</text>
+ <text x="1145" y="296" text-anchor="end">Denitrification</text>
  <text x="900" y="635" text-anchor="middle" font-size="12">Нитрификация показана упрощённо; нитрит не показан.</text>
  <text x="900" y="652" text-anchor="middle" font-size="12">Nitrification is simplified; nitrite is not shown.</text>
 </g>
