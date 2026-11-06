@@ -1902,3 +1902,6 @@ A manual source-level contrast review identified two text-on-colour combinations
 - The browser smoke test now guards both approved fill values so a future colour regression fails CI.
 
 These calculations address the two identified SVG text/background pairs; they are not a full manual audit of every visual element, nor a substitute for screen-reader testing. The 08-B ISRIC map still has a small legend at phone scale and requires zoom or the linked full-size poster. Deployed-site verification and independent specialist sign-off remain open.
+
+
+The Chapter 08 browser test has also been strengthened to fail if any of the 14 bilingual Markdown image embeds has empty alt text, or if an SVG lacks a valid `aria-labelledby` reference to its title and description. These are automated source/DOM assertions; they do not replace a human screen-reader session. The updated workflow is configured to run on the SVG and test-script commits; its post-change result must be checked before recording a new PASS.
