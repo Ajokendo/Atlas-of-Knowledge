@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Три режима колебаний</title>
+  <desc id="desc">Сравнение незатухающих свободных, затухающих свободных и вынужденных колебаний вблизи резонанса.</desc>
+  <defs>
+    <style>
+      .panel{fill:#fbfbf8;stroke:#d7d8d2;stroke-width:2}
+      .head{fill:#263e63;font:600 25px Arial,sans-serif}
+      .sub{fill:#4d5158;font:18px Arial,sans-serif}
+      .axis{stroke:#555b64;stroke-width:2;fill:none}
+      .grid{stroke:#dfe1e5;stroke-width:1}
+      .wave{stroke:#276fc2;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .env{stroke:#c47a30;stroke-width:2;fill:none;stroke-dasharray:7 6}
+      .label{fill:#333943;font:17px Arial,sans-serif}
+      .small{fill:#60656d;font:15px Arial,sans-serif}
+      .accent{fill:#9a5424;font:600 17px Arial,sans-serif}
+    </style>
+  </defs>
+  <rect width="1200" height="520" rx="22" fill="#f1f3f6"/>
+  <g transform="translate(20 20)">
+    <rect class="panel" width="370" height="480" rx="16"/>
+    <text class="head" x="22" y="42">1. Свободные, без затухания</text>
+    <text class="sub" x="22" y="72">Энергия не теряется</text>
+    <path class="grid" d="M45 150H340 M45 230H340 M45 310H340 M120 105V355 M195 105V355 M270 105V355"/>
+    <path class="axis" d="M45 105V355 M45 230H345"/>
+    <path class="wave" d="M45 230 C64 145 83 145 102 230 S140 315 159 230 S197 145 216 230 S254 315 273 230 S311 145 330 230"/>
+    <text class="label" x="18" y="145">+A</text><text class="label" x="22" y="237">0</text><text class="label" x="18" y="319">−A</text>
+    <text class="small" x="333" y="252">t</text><text class="small" x="22" y="390">Амплитуда постоянна</text>
+    <text class="small" x="22" y="420">x(t) = A cos(ω₀t + φ)</text>
+  </g>
+  <g transform="translate(415 20)">
+    <rect class="panel" width="370" height="480" rx="16"/>
+    <text class="head" x="22" y="42">2. Свободные, затухающие</text>
+    <text class="sub" x="22" y="72">Часть энергии рассеивается</text>
+    <path class="grid" d="M45 150H340 M45 230H340 M45 310H340 M120 105V355 M195 105V355 M270 105V355"/>
+    <path class="axis" d="M45 105V355 M45 230H345"/>
+    <path class="env" d="M45 128 C120 170 230 213 335 225 M45 332 C120 290 230 247 335 235"/>
+    <path class="wave" d="M45 230 C56 118 68 118 80 230 S104 310 116 230 S140 163 152 230 S176 278 188 230 S212 194 224 230 S248 255 260 230 S284 213 296 230 S320 239 332 230"/>
+    <text class="label" x="18" y="145">+A</text><text class="label" x="22" y="237">0</text><text class="label" x="18" y="319">−A</text>
+    <text class="small" x="333" y="252">t</text><text class="small" x="22" y="390">Амплитуда уменьшается</text>
+    <text class="small" x="22" y="420">x(t) ≈ A₀e⁻ᵝᵗ cos(ω_dt + φ)</text>
+  </g>
+  <g transform="translate(810 20)">
+    <rect class="panel" width="370" height="480" rx="16"/>
+    <text class="head" x="22" y="42">3. Вынужденные колебания</text>
+    <text class="sub" x="22" y="72">Отклик на внешнюю периодическую силу</text>
+    <path class="grid" d="M55 120H340 M55 200H340 M55 280H340 M120 105V355 M195 105V355 M270 105V355"/>
+    <path class="axis" d="M55 105V355 M55 355H345"/>
+    <path d="M55 350 C110 345 130 330 160 260 C190 150 205 105 220 105 C235 105 250 150 280 260 C310 330 325 345 340 350" fill="none" stroke="#276fc2" stroke-width="4" stroke-linecap="round"/>
+    <path d="M220 105V355" stroke="#c47a30" stroke-width="2" stroke-dasharray="7 6"/>
+    <text class="label" x="15" y="125">A</text><text class="label" x="15" y="357">0</text>
+    <text class="small" x="190" y="385">Частота внешней силы →</text>
+    <text class="accent" x="235" y="132">Резонанс</text>
+    <text class="small" x="22" y="420">Максимум отклика около ω₀</text>
+  </g>
+</svg>
