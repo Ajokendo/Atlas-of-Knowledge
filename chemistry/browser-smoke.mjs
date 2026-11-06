@@ -2294,6 +2294,9 @@ try {
       if (!(await regions.first().getAttribute("aria-label")).includes("Scrollable")) {
         errors.push(file + ": reference-table region label did not switch to English");
       }
+      if (!(await scrollHints.first().innerText()).includes("Scroll the table horizontally")) {
+        errors.push(file + ": English mobile reference-table scroll instruction did not switch");
+      }
       if (!(await page.locator("[data-i=waterNote]").innerText()).includes("activities") ||
           !(await page.locator("[data-i=waterNote]").innerText()).includes("concentration form")) {
         errors.push(file + ": English water ionic-product note must distinguish concentration from activity");
