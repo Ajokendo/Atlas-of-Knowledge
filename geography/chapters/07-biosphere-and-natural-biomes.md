@@ -707,8 +707,8 @@ Planting trees or increasing vegetation cover does not by itself demonstrate tha
 - Для проектов восстановления использовать подходящую эталонную экосистему или набор эталонных участков, исходное обследование и измеримые экологические и социальные показатели; оценивать траекторию восстановления, а не только площадь посадок или рост зелёной массы.
 - When interpreting camera-trap and environmental-DNA results, account for detection probability, false-positive and false-negative results, and the transport and persistence of DNA; a single detection should not automatically be treated as confirmation of a living organism at the sampling point.
 - Restoration projects should use an appropriate reference ecosystem or set of reference sites, a baseline survey and measurable ecological and social indicators; assess the recovery trajectory rather than only the planted area or increase in green cover.
-- Все девять уникальных визуальных ID главы (07-A–07-I) интегрированы в русскую и английскую версии. Карты 07-C и 07-E основаны на RESOLVE Ecoregions 2017 и сохраняют CC BY 4.0. Интеграция не означает завершённой независимой научной, лицензионной или технической проверки; см. IMAGE_AUDIT.md.
-- All nine unique visual IDs (07-A–07-I) are integrated in both language sections. Maps 07-C and 07-E are based on RESOLVE Ecoregions 2017 and retain CC BY 4.0. Integration does not constitute completed independent scientific, licensing or technical verification; see IMAGE_AUDIT.md.
+- Все десять уникальных визуальных ID главы (07-A–07-J) интегрированы в русскую и английскую версии. Карты 07-C и 07-E основаны на RESOLVE Ecoregions 2017 и сохраняют CC BY 4.0. Интеграция не означает завершённой независимой научной, лицензионной или технической проверки; см. IMAGE_AUDIT.md.
+- All ten unique visual IDs (07-A–07-J) are integrated in both language sections. Maps 07-C and 07-E are based on RESOLVE Ecoregions 2017 and retain CC BY 4.0. Integration does not constitute completed independent scientific, licensing or technical verification; see IMAGE_AUDIT.md.
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
@@ -746,7 +746,7 @@ The current chapter does not assign individual IUCN Red List categories to named
 - **Methods and evidence:** clarified the limitations of camera-trap photographs as abundance evidence and the spatial/temporal and false-positive/false-negative limitations of environmental DNA. Added a current 2026 methods review.
 - **Conservation and restoration:** rechecked the exact CBD wording for Targets 2 and 3. Both are global 2030 targets, not automatic 30% national-territory quotas; Target 2 concerns degraded ecosystem areas under effective restoration, while Target 3 concerns areas effectively conserved and managed. Expanded restoration assessment to include reference ecosystems, baseline conditions, ecological functions and social indicators.
 - **Standards and sources:** updated the SER Third Edition (2026) citation to its exact *Restoration Ecology* DOI; clarified the distinction between broad ecosystem restoration, SER-defined ecological restoration of native ecosystems, and rehabilitation in both languages. Retained the official IUCN Red List 2026-1 release record (9 July 2026) and the IUCN Global Ecosystem Typology source. Bibliography now has 15 references.
-- **Visual inventory:** nine unique bilingual visual IDs; all nine are integrated (07-A–07-I), including the RESOLVE-derived maps 07-C and 07-E. Every integrated asset is embedded in both language sections; integration is not verification.
+- **Visual inventory:** ten unique bilingual visual IDs; all ten are integrated (07-A–07-J), including the RESOLVE-derived maps 07-C and 07-E. Every integrated asset is embedded in both language sections; integration is not verification.
 - **Release boundary:** this closes the focused text/source correction pass; it does not claim visual production, layout/rendering, accessibility, device/browser or deployment QA.
 
 ## Earlier focused scientific and editorial audit record — 5 November 2026
@@ -758,3 +758,12 @@ The current chapter does not assign individual IUCN Red List categories to named
 - **Visual production:** checked nine unique bilingual visual IDs and production briefs. All nine IDs (07-A–07-I) are integrated, including the RESOLVE-derived maps 07-C and 07-E.
 - **Bilingual structure:** the previous heading-ID audit found 17 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
 
+
+
+## Chapter 07 — Figure 7.5 closure — 6 November 2026
+
+- Added original bilingual SVG **07-J**, “Latitudinal zonation and altitudinal belts”, and embedded it in both language sections directly under section 7.7.
+- Replaced the Russian/English production brief with matched captions and alt text. The diagram compares a generalised equator-to-pole sequence with a mountain-base-to-nival sequence; it explicitly states that boundaries are transitional, regional and not to scale.
+- The visual inventory is now **10/10 named IDs (07-A–07-J)**, with one embed in each language section (20 embeds total).
+- The new SVG passed source-level preflight for a single root SVG, title/description accessibility metadata, unique IDs and absence of script/foreignObject content. This is not a browser-rendering, screen-reader or deployed-reader test.
+- **Rights for 07-J remain pending an explicit asset-specific project-owner licence designation.** The prior CC BY-NC 4.0 authorisation for 07-A, 07-B, 07-F, 07-G, 07-H and 07-I is not extended by this record. 07-D, 07-C and 07-E retain their respective third-party CC BY 4.0 terms.
