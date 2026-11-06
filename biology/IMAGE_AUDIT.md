@@ -879,3 +879,16 @@ This is a confirmed rendered text/line collision corrected in the inline SVG. Po
 Retrieved the fresh 26-screenshot artifact from successful Chromium workflow [42153232519](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42153232519), commit `59611e85`. Re-opened the Genetics page at 1365 px and 390 px and inspected the central-dogma figure at full resolution. The purple replication loop no longer intersects either bilingual footer line; both lines remain within the figure/page column. At 390 px the note is small at full-page scale but remains positioned clear of the loop and does not create horizontal overflow. The corrected desktop rendering also shows clear separation.
 
 **Result:** the specific central-dogma curve/footer collision is closed for the inspected Chromium desktop and mobile renderings. CI and screenshot evidence are specific to this correction; the broader image audit remains open. Global Image Verification remains **Pending audit**.
+
+
+## Additional rendered-page spot review after Genetics correction — 6 November 2026
+
+Using the 26-page screenshot artifact from successful Chromium run [42153232519](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42153232519), inspected full-resolution desktop crops from Evolution, Anatomy, Zoology, Cell Biology and Microbiology, alongside the Genetics desktop/mobile central-dogma figure.
+
+- **Evolution:** the opening phylogenetic tree, speciation/selection learning panels, homology/analogy plate and geological timeline are present in the captured page. The reviewed crop shows the bilingual labels and figure captions within their panels; no additional confirmed overlap or clipping was identified in this sample.
+- **Anatomy:** the organ-system overview, circulatory model and negative-feedback diagram are contained within their cards. The circulation diagram remains dense at page scale, but this inspection did not establish a specific clipped label or collision.
+- **Zoology:** the vertebrate body-covering/respiration comparison and its explanatory rows remain visible after the earlier layout corrections. The compact three-panel first row is tight but no new text collision was confirmed in the inspected rendering.
+- **Cell Biology:** the membrane-transport plate and mitosis sequence render with all four transport mechanisms and all five mitotic stages visible; no new confirmed collision was found in the inspected crop.
+- **Microbiology:** the bacterial growth curve, viral-cycle and antimicrobial-resistance plates render in the page; no broken-image placeholder or specific text/illustration collision was established in the inspected crop.
+
+This is a targeted desktop screenshot spot review, not a full asset-by-asset scientific, rights, bilingual or mobile legibility acceptance. No additional source changes were justified by this sample. The global Image Verification status remains **Pending audit**.
