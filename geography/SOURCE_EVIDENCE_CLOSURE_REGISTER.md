@@ -1129,3 +1129,9 @@ The Chapter 02 source-work notes dated 4 November 2026 above are retained as his
 - **ISO 19115-1 metadata scope — PASS.** The ISO catalogue confirms ISO 19115-1:2014 describes metadata for identification, extent, quality, spatial and temporal aspects, content, spatial reference, portrayal and distribution of geographic information and services. Chapter 14 now identifies these as examples of metadata content. Source: https://www.iso.org/standard/53798.html.
 - **Bilingual integration — structural PASS.** The coordinate-operation explanation, OGC API axis-order clarification and ISO metadata description have been added to both Russian and standalone English versions. The section numbering and review/activity counts are unchanged.
 - **Evidence boundary:** these checks verify the general teaching claims and software documentation, not the suitability of a particular coordinate operation or transformation grid for a Kyrgyzstan dataset. That requires the actual source/target CRS, coordinate epoch, geographic area, required grid availability and dataset accuracy requirements.
+
+
+## Chapter 14 — Worked buffer-area calculation — 6 November 2026
+
+- **Mathematical check — PASS.** For an ideal circle, (A=\pi r^2). At (r=500\,m), the area is approximately 785,398 m² = 0.7854 km² (rounded in the chapter to 785,400 m² and 0.785 km²). Doubling the radius to 1,000 m multiplies area by (2^2=4), giving approximately 3.1416 km². The Russian and English worked examples now state this answer explicitly.
+- **Interpretation caveat retained.** The buffer is a planar/geometric straight-line zone under the stated suitable projected CRS, not a pedestrian travel-time catchment and not a guarantee of service access.
