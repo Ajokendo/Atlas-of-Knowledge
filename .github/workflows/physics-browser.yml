@@ -72,6 +72,13 @@ jobs:
         run: node original-engine/work-energy-smoke.mjs
       - name: Test Chapter 6 oscillations on desktop and mobile viewports
         run: node original-engine/oscillations/browser-smoke.mjs
+      - name: Upload Chapter 6 oscillation visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter6-oscillations-visual-review
+          path: /tmp/physics-visual-review/oscillations/*.png
+          if-no-files-found: warn
       - name: Test Chapter 7 rotation on desktop and mobile viewports
         run: node original-engine/rotation/browser-smoke.mjs
       - name: Test Chapter 8 fluids on desktop and mobile viewports
