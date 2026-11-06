@@ -742,6 +742,8 @@ WGS 84 is a widely used global geodetic reference system. Geographic coordinates
 
 Latitude and longitude define a position on a reference ellipsoid and are usually expressed in angular units. Calculating areas, distances and buffers often requires an appropriate projected CRS whose distortion is acceptable for the study area. A degree of longitude has a different ground length at different latitudes, so distances should not be measured casually in geographic degrees.
 
+**Check axis order separately.** The formal EPSG:4326 definition lists latitude before longitude, while many GIS interfaces, data formats and software libraries use longitude, latitude for x/y coordinates. The order depends on the exchange format and protocol or API version. Read the relevant metadata and specification, and verify the order with a known control point rather than relying on the CRS label alone.
+
 ### 14.5. Map Projections in GIS
 
 A map projection transforms coordinates on Earth's curved surface into a plane. Every projection distorts some properties, such as area, shape, distance or direction.
@@ -813,6 +815,10 @@ Raster analysis is used for continuous fields and spatial models. Common methods
 Interpolation estimates values between observation points. Its result depends on the spatial distribution of measurements, the selected method, data structure and model assumptions. An interpolated surface is not a direct measurement at every cell.
 
 When analysing digital elevation models, consider resolution, vertical accuracy, artefacts, filling of spurious depressions and algorithm characteristics. Derived indicators such as slope may amplify errors in the source model.
+
+**State the slope and aspect conventions.** Slope may be expressed in degrees or percent. Percent slope is the vertical rise divided by horizontal distance, multiplied by 100; a 100% slope is an angle of 45°, not 100°. Aspect is commonly an azimuth measured clockwise from north (0°/360° north, 90° east, 180° south and 270° west), but algorithms may use other conventions. For nearly flat cells, aspect has no stable directional meaning and may be stored as NoData or a special value.
+
+Check the horizontal coordinate units and elevation units before processing. If horizontal distances and heights use different units, apply the correct vertical-to-horizontal conversion factor (often exposed as a Z factor or scale parameter). An incorrect factor distorts slope values.
 
 ### 14.11. Topology and Spatial Data Quality
 
