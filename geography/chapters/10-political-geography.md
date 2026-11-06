@@ -24,13 +24,9 @@ After studying this chapter, readers will be able to explain the scope of politi
 ## 10.2. Государство, нация и территория / State, Nation and Territory
 > **[МЕТКА ИЛЛЮСТРАЦИИ 10-A / IMAGE PLACEHOLDER 10-A]** Политическая карта мира с датой актуальности; спорные территории обозначить согласно редакционной политике. / Dated political map of the world; depict disputed territories according to the atlas editorial policy.
 
-**Техническое задание:** использовать актуальную политическую карту с указанием даты данных, проекции, масштаба, источника границ и правил обозначения спорных территорий; не представлять спорные границы как бесспорные и не смешивать де-факто контроль с международно-правовым статусом. Подписи и легенда должны быть двуязычными.
-
-**EN production brief:** Use a current world political map and state the data date, projection, scale, boundary source and editorial rules for depicting disputed territories. Do not present disputed boundaries as universally settled or confuse de facto control with international legal status. Labels and legend must be bilingual.
-
 **Рисунок 10.1 / Figure 10.1 — Политическая карта мира / World political map.**  
-Техническое задание: обзорная политическая карта с нейтральной и датированной легендой; отдельно различать международно признанные границы, спорные участки и линии фактического контроля. Указать источник данных, дату актуальности, проекцию и масштаб. Не использовать цвет как единственный способ кодирования статуса.
-**EN production brief:** Create a dated world political map with a neutral legend that distinguishes internationally recognised boundaries, disputed segments and lines of effective control. State the data source, reference date, projection and scale. Do not use colour as the only way to encode status.
+Техническое задание: обзорная политическая карта с нейтральной и датированной легендой; отдельно различать международно признанные границы, спорные участки и линии фактического контроля. Указать источник данных, дату актуальности, проекцию и масштаб. Не использовать цвет как единственный способ кодирования статуса; легенда и подписи должны быть двуязычными.
+**EN production brief:** Create a dated world political map with a neutral bilingual legend that distinguishes internationally recognised boundaries, disputed segments and lines of effective control. State the data source, reference date, projection and scale. Do not use colour as the only way to encode status.
 
 
 
@@ -89,7 +85,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 
 ![Схема морских зон по UNCLOS: территориальное море, прилежащая зона, ИЭЗ, континентальный шельф, открытое море и Район. / UNCLOS maritime-zones diagram: territorial sea, contiguous zone, EEZ, continental shelf, high seas and the Area.](../assets/diagrams/10-C-UNCLOS-maritime-zones-bilingual.svg)
 
-*10-C. Авторская двуязычная схема по UNCLOS; не в масштабе. Прилежащая зона (12–24 морские мили) перекрывается с ИЭЗ; континентальный шельф может выходить за 200 морских миль при условиях статьи 76. / Original bilingual diagram based on UNCLOS; not to scale. The contiguous zone (12–24 nautical miles) overlaps the EEZ; the continental shelf may extend beyond 200 nautical miles under Article 76.*
+*10-C. Авторская двуязычная схема по UNCLOS; не в масштабе. При территориальном море шириной 12 морских миль прилежащая зона может простираться от его внешней границы до 24 морских миль от исходных линий и перекрываться с ИЭЗ; континентальный шельф может выходить за 200 морских миль при условиях статьи 76. / Original bilingual diagram based on UNCLOS; not to scale. Where the territorial sea is 12 nautical miles wide, the contiguous zone may extend from its outer limit to 24 nautical miles from the baselines and overlaps the EEZ; the continental shelf may extend beyond 200 nautical miles under Article 76.*
 
 
 
