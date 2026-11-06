@@ -933,3 +933,16 @@ Reviewed the 42 latest 390 CSS px screenshots (21 routes × RU/EN) from artifact
 - [x] Compared the bilingual mobile overviews for the chapter routes and interactive tools. No additional specific visual defect was sufficiently confirmed to justify a code change in this pass.
 
 **Disposition:** mobile overview review is complete for all 42 captures, with full-resolution checks of the constants reference tables and Russian glossary. This is an overview-level visual scan, not line-by-line proofreading of every screenshot, exhaustive testing of every interactive state, or certification on physical phones and assistive technologies. The earlier tablet-width review remains a separate checkpoint.
+
+
+
+### Periodic-trends diagram mobile/tablet correction — 6 November 2026
+
+- [x] Corrected the Chapter 03 periodic-trends infographic on branch `workspace/chemistry`: at widths up to 850 CSS px the diagram retains an 800 px intrinsic display width inside its own horizontally scrollable, keyboard-focusable region instead of shrinking into an unreadable miniature.
+- [x] Added localized Russian and English scroll instructions and accessible region names. ArrowLeft / ArrowRight move the focused diagram region horizontally.
+- [x] Added Chromium regression assertions for the 390 px and 768 px layouts, region overflow, retained diagram width, visible localized hint, keyboard scrolling, RU/EN switching, and the 1280 px layout where the hint is hidden and the diagram does not overflow.
+- [x] CI workflows [42223982530](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42223982530), [42223988233](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42223988233) and final branch-head workflow [42224029715](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42224029715) all **PASS**. The final green run is for commit `8fe946d540ba4592bcba39bca2fb48c938a1c240`; its rendered-review artifact is `13504931844` (126 screenshots).
+- [x] Inspected the final artifact's Russian 390 px and Russian/English 768 px and English 390 px periodic-table captures. The localized instruction appears immediately above the trend diagram; the diagram preserves its intended wide layout and the surrounding explanatory text remains in the page flow. At narrow widths, only the diagram region is intended to scroll horizontally; this is not page-level overflow.
+- [x] Rechecked the English mobile capture and both-language tablet captures: the labels, periodic-table blocks and trend-direction panels render in the expected bilingual layout. The 800 px diagram is not fully visible at once on a narrow viewport by design; users can scroll its region to inspect the remaining labels and arrows.
+
+**Disposition:** this specific mobile/tablet readability defect is closed in source and by passing browser regressions. Evidence is browser-rendered at 390/768/1280 CSS px, not certification on every physical device or assistive technology. This visual fix does not change the separate rights/provenance, source-science, and full accessibility status of the infographic or other Chemistry visual records; those remain tracked in their respective audit rows.
