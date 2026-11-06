@@ -14,7 +14,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ![Схематический почвенный профиль с горизонтами H, O, A, E, B, C и R; последовательность условна. / Schematic soil profile with H, O, A, E, B, C horizons and R bedrock; sequence is illustrative.](../assets/diagrams/08-A-soil-profile-horizons-bilingual.svg)
 
-*08-A. Авторская двуязычная схема; обозначения описывают горизонты и не заменяют классификацию WRB. / Original bilingual diagram; horizon symbols describe layers and do not replace WRB classification.*
+*08-A. Авторская двуязычная схема; обозначения описывают горизонты и не заменяют классификацию WRB. / Original bilingual diagram; horizon symbols describe layers and do not replace WRB classification. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 
 
@@ -35,7 +35,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ![Почва как интерфейс атмосферы, биосферы, гидросферы и литосферы; потоки показаны качественно. / Soil as an interface among atmosphere, biosphere, hydrosphere and lithosphere; flows are qualitative.](../assets/diagrams/08-D-soil-earth-spheres-interface-bilingual.svg)
 
-*08-D. Авторская двуязычная схема; стрелки обозначают взаимодействия, а не измеренные потоки. / Original bilingual diagram; arrows indicate interactions, not measured fluxes.*
+*08-D. Авторская двуязычная схема; стрелки обозначают взаимодействия, а не измеренные потоки. / Original bilingual diagram; arrows indicate interactions, not measured fluxes. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 **Рисунок 8.1 / Figure 8.1 — Почва как зона взаимодействия геосфер / Soil as an interface among Earth's spheres.**  
 Техническое задание: показать почвенный профиль между атмосферой, растительным покровом, водами и материнской породой; отобразить корни, почвенную фауну, поры с водой и воздухом, органические остатки и минеральные частицы; все элементы подписать на двух языках.
@@ -61,7 +61,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ![Шесть взаимодействующих факторов почвообразования: климат, организмы, рельеф, материнская порода, время и деятельность человека. / Six interacting soil-forming factors: climate, organisms, relief, parent material, time and human activity.](../assets/diagrams/08-E-soil-forming-factors-bilingual.svg)
 
-*08-E. Авторская двуязычная схема; факторы показаны как взаимосвязанная система. / Original bilingual diagram; factors are shown as an interacting system.*
+*08-E. Авторская двуязычная схема; факторы показаны как взаимосвязанная система. / Original bilingual diagram; factors are shown as an interacting system. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 **Рисунок 8.2 / Figure 8.2 — Факторы почвообразования / Soil-forming factors.**  
 Техническое задание: центральная схема «почва» и шесть связанных блоков: климат, организмы, рельеф, материнская порода, время, человек; показать взаимодействие факторов двунаправленными стрелками, не изображать их как независимые причины.
@@ -199,7 +199,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ![Схема водной и ветровой эрозии, засоления, уплотнения и мер охраны почв. / Diagram of water and wind erosion, salinisation, compaction and soil-conservation measures.](../assets/diagrams/08-C-soil-degradation-processes-bilingual.svg)
 
-*08-C. Авторская двуязычная схема; процессы показаны концептуально, не в масштабе и без количественных оценок. / Original bilingual diagram; processes are conceptual, not to scale and not quantified.*
+*08-C. Авторская двуязычная схема; процессы показаны концептуально, не в масштабе и без количественных оценок. / Original bilingual diagram; processes are conceptual, not to scale and not quantified. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 
 
@@ -275,7 +275,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ![Условный профиль ландшафта с водоразделом, склоном, террасой, поймой и долиной; морфологические единицы схематичны. / Conceptual landscape profile with divide, slope, terrace, floodplain and valley; morphological units are schematic.](../assets/diagrams/08-F-landscape-morphology-block-bilingual.svg)
 
-*08-F. Авторская двуязычная схема; рельеф и границы не обозначают конкретную территорию, терминологическая иерархия зависит от научной школы. / Original bilingual diagram; relief and boundaries do not represent a real location, and terminology varies by scholarly tradition.*
+*08-F. Авторская двуязычная схема; рельеф и границы не обозначают конкретную территорию, терминологическая иерархия зависит от научной школы. / Original bilingual diagram; relief and boundaries do not represent a real location, and terminology varies by scholarly tradition. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 **Рисунок 8.6 / Figure 8.6 — Морфологическая структура ландшафта / Morphological structure of a landscape.**  
 Техническое задание: схематический блок-диаграммный ландшафт с водоразделом, склоном, террасой, поймой и долиной; выделить фации и урочища условными контурами; подписать взаимосвязи стока и переноса вещества.
@@ -304,7 +304,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ![Ландшафтная мозаика с природными пятнами, речным коридором, аграрной матрицей и дорожным барьером. / Landscape mosaic with habitat patches, a river corridor, agricultural matrix and road barrier.](../assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg)
 
-*08-G. Авторская двуязычная схема; структурная и функциональная связность различаются, конкретные маршруты видов не изображены. / Original bilingual diagram; structural and functional connectivity are distinguished, with no species-specific routes represented.*
+*08-G. Авторская двуязычная схема; структурная и функциональная связность различаются, конкретные маршруты видов не изображены. / Original bilingual diagram; structural and functional connectivity are distinguished, with no species-specific routes represented. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 **Рисунок 8.7 / Figure 8.7 — Мозаика ландшафта: пятна, коридоры и матрица / Landscape mosaic: patches, corridors and matrix.**  
 Техническое задание: плановая схема природной территории с лесными пятнами, речным коридором, аграрной матрицей и дорогой-барьером; показать структурную и функциональную связность разными условными обозначениями.
