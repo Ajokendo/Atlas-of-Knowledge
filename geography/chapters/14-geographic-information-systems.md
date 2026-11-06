@@ -784,7 +784,9 @@ Spatial data sources include geodetic surveys and GNSS; topographic and thematic
 
 When collecting data, record the date, method, equipment, coordinate system, scale or resolution, accuracy and limitations. Data collected using different methods or in different seasons may not be comparable without preprocessing.
 
-GNSS is the general term for satellite navigation systems. GPS is one such system; others include Galileo, GLONASS and BeiDou. Positioning accuracy depends on the receiver, signal conditions, satellite geometry, correction services and measurement method.
+GNSS is the general term for satellite navigation systems. GPS is one such system; others include Galileo, GLONASS and BeiDou. Positioning accuracy depends on the receiver, signal conditions, satellite geometry, correction services and measurement method. A single handheld GNSS reading is not automatically survey-grade: multipath reflections, buildings, tree cover, terrain obstruction, atmospheric conditions and observation time can affect the result. Record whether coordinates are autonomous, differential or RTK/PPK, the reference frame and epoch where relevant, estimated uncertainty, antenna setup and whether the point was averaged or independently reoccupied.
+
+When georeferencing a scanned map or image, distinguish control-point fit from independent accuracy assessment. Residuals at ground control points describe how well the chosen transformation fits those points; they do not by themselves prove accuracy elsewhere. Where possible, reserve independent checkpoints that were not used to fit the transformation, distribute them across the image and report the transformation, residuals and reference-data limitations.
 
 ### 14.7. Geocoding and Address Data
 
@@ -792,7 +794,7 @@ GNSS is the general term for satellite navigation systems. GPS is one such syste
 
 Geocoding results may be ambiguous. An address may be matched to a building, entrance, parcel centroid or approximate street point. Check the accuracy and type of returned location; the settlement and administrative unit; completeness of the address database; data-update date; and rules for handling personal data.
 
-For service-accessibility analysis, a geocoded address point is not necessarily the actual entrance or a point on the travel network.
+For service-accessibility analysis, a geocoded address point is not necessarily the actual entrance or a point on the travel network. A match score or a provider's “exact address” label does not replace visual or field verification: a result may be an interpolated street point, a building centroid or a location in an area with incomplete address numbering. For example, Google Maps Platform distinguishes ROOFTOP, RANGE_INTERPOLATED, GEOMETRIC_CENTER and APPROXIMATE result types. These are provider-specific labels, not universal categories; consult the documentation of the service actually used. For bulk geocoding of people's addresses, check the provider's terms, the legal basis for transferring the data and where personal data may be processed.
 
 ### 14.8. Spatial Queries and Operations
 
@@ -812,7 +814,7 @@ Common operations include:
 - **select by location:** selecting features that meet a spatial condition; and
 - **overlay:** analysing several thematic layers together.
 
-For example, to assess access to medical facilities, analysts can create distance or travel-time zones, compare them with population data and identify areas with limited access. A simple circular buffer does not account for roads, relief, rivers or actual barriers.
+For example, to assess access to medical facilities, analysts can create distance or travel-time zones, compare them with population data and identify areas with limited access. A simple circular buffer does not account for roads, relief, rivers or actual barriers. Overlay operations can also create slivers or tiny fragments when input boundaries are misaligned or have different positional accuracy. Before interpreting them, check geometry validity, CRS, precision and whether a documented snapping or tolerance rule is appropriate; do not silently delete small polygons because they may represent real features.
 
 ### 14.9. Network Analysis and Transport
 
@@ -827,7 +829,7 @@ Common tasks include finding the shortest or fastest route; analysing accessibil
 
 The “shortest” route is not always the “fastest”. Travel cost may account for speed, turn restrictions, congestion, gradients, road surface, seasonality and other factors.
 
-Network-analysis results depend on network completeness, direction of travel, connectivity rules and the currency of attributes. A road missing from a database does not necessarily mean that no real route exists.
+Network-analysis results depend on network completeness, direction of travel, connectivity rules and the currency of attributes. A road missing from a database does not necessarily mean that no real route exists. Also check how start and end points are connected to the network: some tools automatically snap a point to the nearest segment. Without a maximum permitted distance, a point may be attached to the wrong road across a river, fence or other barrier. Check snapping tolerance, edge direction, turn restrictions, impassable segments and input features that the algorithm could not route.
 
 ### 14.10. Raster Analysis and Spatial Modelling
 
@@ -840,9 +842,11 @@ Raster analysis is used for continuous fields and spatial models. Common methods
 
 Interpolation estimates values between observation points. Its result depends on the spatial distribution of measurements, the selected method, data structure and model assumptions. An interpolated surface is not a direct measurement at every cell.
 
-When analysing digital elevation models, consider resolution, vertical accuracy, artefacts, filling of spurious depressions and algorithm characteristics. Derived indicators such as slope may amplify errors in the source model.
+When analysing digital elevation models, consider resolution, vertical accuracy, artefacts, filling of spurious depressions and algorithm characteristics. Derived indicators such as slope may amplify errors in the source model. Resampling changes the raster grid and may change pixel values; it does not create new measured detail or improve source accuracy. Nearest-neighbour resampling is commonly appropriate for categorical classes because it preserves original class codes. Bilinear or cubic methods are often used for continuous surfaces, but they calculate new values from neighbouring cells and may smooth extremes. Choose and document the method according to data type and analysis purpose.
 
 **State the slope and aspect conventions.** Slope may be expressed in degrees or percent. Percent slope is the vertical rise divided by horizontal distance, multiplied by 100; a 100% slope is an angle of 45°, not 100°. Aspect is commonly an azimuth measured clockwise from north (0°/360° north, 90° east, 180° south and 270° west), but algorithms may use other conventions. For nearly flat cells, aspect has no stable directional meaning and may be stored as NoData or a special value.
+
+Resampling and grid alignment require particular care. Nearest-neighbour resampling preserves original class codes and is generally suitable for categorical rasters. Bilinear and cubic resampling calculate values from neighbouring cells and are commonly used for continuous data, but they can smooth or alter extremes. Resampling changes the grid and may change pixel values; it does not create new measured detail or improve source accuracy. Record the method and target cell size.
 
 Check the horizontal coordinate units and elevation units before processing. If horizontal distances and heights use different units, apply the correct vertical-to-horizontal conversion factor (often exposed as a Z factor or scale parameter). An incorrect factor distorts slope values.
 
@@ -859,7 +863,7 @@ Examples of topological rules include: administrative polygons should not contai
 
 Spatial data quality includes positional accuracy, thematic accuracy, completeness, logical consistency, temporal currency, lineage and fitness for purpose.
 
-**Accuracy** and **resolution** are different characteristics. A dataset may have high spatial resolution but low positional accuracy or outdated attributes.
+**Accuracy** and **resolution** are different characteristics. A dataset may have high spatial resolution but low positional accuracy or outdated attributes. A topology rule must match the purpose of the layer. A dangling line may be an error in a continuous road network but a valid dead end; a gap between polygons may indicate a coverage error or represent a water body or excluded area. Do not repair geometry automatically without checking its meaning.
 
 ### 14.12. Metadata, Standards and Interoperability
 
@@ -893,7 +897,7 @@ The method of representation depends on the data:
 
 A choropleth map should use normalised indicators, such as a share or density, rather than absolute values when areas and populations differ substantially. Proportional symbols may be more appropriate for absolute totals.
 
-Avoid false precision, too many classes, misleading colour schemes and the removal of important geographic context.
+Avoid false precision, too many classes, misleading colour schemes and the removal of important geographic context. For a choropleth, state the normalisation denominator (for example, population, area or households), reference period and classification method. Quantiles, equal intervals and natural breaks distribute areas among classes differently. When comparing years, use the same class boundaries and legend, or explain why the scale changes; classifying each year separately can conceal change.
 
 ### 14.14. Web GIS, Cloud Platforms and Open Data
 
@@ -929,7 +933,7 @@ Geographic data may reveal the locations of people, homes, medical facilities, c
 
 Responsible use requires collecting only data necessary for a lawful and clearly defined purpose; considering consent and legal grounds for processing personal data; reducing detail where it creates identification risks; restricting access and securing storage; documenting sources and limitations; checking bias and uneven data coverage; and avoiding publication of sensitive coordinates of vulnerable species and sites without risk assessment.
 
-Spatial aggregation may reduce privacy risks but does not always guarantee anonymity. Combining several datasets can sometimes make individuals identifiable again.
+Spatial aggregation may reduce privacy risks but does not always guarantee anonymity. Combining several datasets can sometimes make individuals identifiable again. For vulnerable species, exact coordinates can facilitate disturbance, collection or poaching; apply species-specific risk assessment, access controls or spatial generalisation before publication, and retain precise records only in appropriately protected systems.
 
 ### 14.17. A Practical GIS Workflow
 
@@ -1169,6 +1173,10 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 31. QGIS Documentation 3.44. **Topology.** Topological relationships, digitising errors and data-model-dependent validation. https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/topology.html
 32. Google Maps Platform. **Geocoding request and response.** Provider-specific result types distinguish rooftop, interpolated, geometric-centre and approximate locations. https://developers.google.com/maps/documentation/geocoding/guides-v3/requests-geocoding
 33. Esri. **Data classification methods — ArcGIS Pro.** Explains natural breaks, quantiles, equal intervals and the limits of comparing data-specific class breaks. https://doc.esri.com/en/arcgis-pro/latest/help/mapping/layer-properties/data-classification-methods.html
+
+34. QGIS Documentation 3.44. **Georeferencer.** Ground control points, transformation methods, residual reports and raster resampling options. https://docs.qgis.org/3.44/en/docs/user_manual/plugins/core_plugins/plugins_georeferencer.html
+35. QGIS Documentation 3.44. **Raster tools — Align rasters.** Resampling methods and raster grid alignment. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/rastertools.html
+36. U.S. Geological Survey. **Adopt updated accuracy standards.** Summary of changes in the ASPRS Positional Accuracy Standards, second edition, including terminology and confidence reporting. https://www.usgs.gov/ngp-standards-and-specifications/adopt-updated-accuracy-standards
 
 ---
 **Конец главы 14 / End of Chapter 14**
