@@ -9,7 +9,7 @@
 | Visual | Asset/source | Reuse basis | Attribution and limits |
 |---|---|---|---|
 | 6.1-A | USGS Water Science School, “The distribution of water on, in, and above the Earth” | USGS image marked Public Domain; underlying estimate attributed to Igor Shiklomanov (1993) | Reused unchanged. Retain USGS source credit and identify the underlying data as a historical estimate. |
-| 6.2-A | USGS Water Cycle Diagram, WCD 1 | USGS-created Public Domain image | Reused unchanged. Retain USGS/VizLab credit and the note that arrows are qualitative, not measured flow rates. |
+| 6-A | USGS Water Cycle Diagram, WCD 1 | USGS-created Public Domain image | Reused unchanged. Retain USGS/VizLab credit and the note that arrows are qualitative, not measured flow rates. |
 | 6-B | Pinpin (2007), later improvements by Wikigraphists, Wikimedia Commons, World_map_ocean_locator-en.svg | CC BY-SA 3.0, as recorded on the Commons file page | Reused unchanged via the 960px PNG preview. Credit Pinpin/Wikigraphists, link the licence, and retain the conventional-boundaries caveat. The map's English labels are translated in chapter text. |
 | 6.7-A (surface-current map) | NOAA/AOML, Rick Lumpkin (2008), “Ocean surface currents” | U.S. federal government work / Public Domain | Reused unchanged. Retain NOAA/AOML and Rick Lumpkin attribution. It is a generalized teaching map, not a real-time current product. |
 
