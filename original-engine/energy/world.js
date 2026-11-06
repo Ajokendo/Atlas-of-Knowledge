@@ -241,7 +241,7 @@ export function buildWorld(E) {
   const rLo = 0.125e-9, rHi = 0.34e-9, rClip = rLo, yBot = uy(-1.18 * BD.eps);
   part(root, box(rx(rHi) - rx(rLo) + 0.15, uy(3.2 * BD.eps) - yBot + 0.1, 0.03, 0.01), { tone: 'lo', pal: 'board', pos: [(rx(rLo) + rx(rHi)) / 2 + 0.05, (uy(3.2 * BD.eps) + yBot) / 2, zN - 0.03], name: 'График' });
   part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(160, r => V(rx(r), uy(M.bondU(r)), zN + 0.01), rClip, rHi)), 320, 0.014, 8, false), { tone: 'hi', pal: 'ink', name: 'Кривая U(r)' });
-  { const t = [rx(rLo), yBot, zN, rx(rHi), yBot, zN, rx(rLo), yBot, zN, rx(rLo), uy(0.45 * BD.eps), zN];
+  { const t = [rx(rLo), yBot, zN, rx(rHi), yBot, zN, rx(rLo), yBot, zN, rx(rLo), uy(3.2 * BD.eps), zN];
     for (const r of [0.15, 0.2, 0.25, 0.3]) t.push(rx(r * 1e-9), yBot, zN, rx(r * 1e-9), yBot - 0.06, zN);
     for (const U of [3, 0, -1]) t.push(rx(rLo), uy(U * BD.eps), zN, rx(rLo) - 0.06, uy(U * BD.eps), zN);
     t.push(rx(BD.r1), yE, zN + 0.01, rx(BD.r2), yE, zN + 0.01);
