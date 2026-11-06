@@ -65,7 +65,7 @@ export function buildWorld(E) {
     const ms = items.map(([pal, html], i) => {
       const bx = x0 + i * (w + gap);
       const m = part(parent, new THREE.BoxGeometry(w, 1, w), { tone: 'hi', pal, name: 'Столбцы энергии' });
-      label('vec', small(html), () => V(bx, labelY, z + w / 2));
+      label('board', small(html), () => V(bx, labelY, z + w / 2));
       return { m, bx };
     });
     lines(root, [x0 - w, base + 0.002, z, x0 + (items.length - 1) * (w + gap) + w, base + 0.002, z], '#6e6e74');
@@ -114,8 +114,8 @@ export function buildWorld(E) {
   { const ring = []; for (let i = 0; i < 48; i++) { const a = i / 48 * Math.PI * 2, b = (i + 1) / 48 * Math.PI * 2; ring.push(XB + Math.cos(a) * 0.24, 0.003, Math.sin(a) * 0.24, XB + Math.cos(b) * 0.24, 0.003, Math.sin(b) * 0.24); } lines(root, ring, '#6e6e74'); }
   const barsB = bars(gB, XB + 1.5, 0, 1.45, [['dark', 'K<sub>0</sub>'], ['ink', 'W<sub>g</sub>'], ['blue', 'K']], SC.toss.E, 1.45 - M.toss(0).K * SC.toss.E - 0.2);
   let tossState = M.toss(0);
-  label('board', small('<i>W</i><sub>g</sub> &lt; 0', 16), () => tossState.v > 0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
-  label('board', small('<i>W</i><sub>g</sub> &gt; 0', 16), () => tossState.v < -0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
+  label('board', small('δ<i>W</i><sub>g</sub> &lt; 0', 16), () => tossState.v > 0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
+  label('board', small('δ<i>W</i><sub>g</sub> &gt; 0', 16), () => tossState.v < -0.05 ? bB.position.clone().add(V(0.35, 0.05, 0)) : null);
 
   // ---------- 3 · no work: a ball whirled on a string over a smooth table ----------
   const XC = STATIONS.whirl, RC = 0.15, R0 = M.WHIRL.r;
@@ -316,8 +316,8 @@ export function buildWorld(E) {
   const tI = xs.map(() => force(gI)), wI = xs.map(() => force(gI)), dyI = xs.map(() => thinArrow(gI, 'Перемещение'));
   tI.forEach(a => label('vec', 'T', () => tip(a))); wI.forEach(a => label('vec', 'F<sub>g</sub>', () => tip(a)));
   dyI.forEach(a => label('vec', small('Δ<i>y</i>', 18), () => tip(a)));
-  label('tick', small(`быстро · ${M.LIFT.vFast.toFixed(1)} м/с`, 13), () => V(xs[0] + 0.45, -0.02, 0.5));
-  label('tick', small(`медленно · ${M.LIFT.vSlow.toFixed(1)} м/с`, 13), () => V(xs[1] + 0.5, -0.02, 0.5));
+  label('tick', small(`быстро · ${M.LIFT.vFast.toFixed(1)} м/с`, 13), () => V(xs[0] + 0.45, 0.42, 0.5));
+  label('tick', small(`медленно · ${M.LIFT.vSlow.toFixed(1)} м/с`, 13), () => V(xs[1] + 0.5, 0.42, 0.5));
   { const t = []; const ax = XI - 1.6; t.push(ax, 0, 0, ax, M.LIFT.h + SI + 0.1, 0); for (let i = 0; i <= 4; i++) t.push(ax, 0.02 + i * 0.5, 0, ax + (i % 2 ? 0.06 : 0.12), 0.02 + i * 0.5, 0); lines(root, t, '#6e6e74');
     dashLine(V(XI - 1.6, M.LIFT.h + 0.02, 0), V(XI + 1.5, M.LIFT.h + 0.02, 0), 24); }
   label('tick', '2,0 м', () => V(XI - 1.65, M.LIFT.h + 0.02, 0)); label('tick', '0', () => V(XI - 1.65, 0.02, 0));
