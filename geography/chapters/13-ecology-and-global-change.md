@@ -126,7 +126,7 @@ The **planetary boundaries** framework describes nine interconnected Earth-syste
 - закись азота (N₂O), в значительной степени связанная с сельскохозяйственными и промышленными процессами;
 - фторсодержащие газы, применяемые в отдельных промышленных и технических системах.
 
-Парниковый эффект — естественный физический процесс, благодаря которому атмосфера удерживает часть теплового излучения. Усиление парникового эффекта вследствие роста концентраций парниковых газов повышает энергетический дисбаланс климатической системы.
+Парниковый эффект — естественный физический процесс: парниковые газы поглощают часть исходящего от поверхности инфракрасного излучения и испускают излучение во всех направлениях, в том числе обратно к поверхности. Рост их концентраций усиливает этот эффект и создаёт дополнительное энергетическое воздействие на климатическую систему.
 
 Климатические изменения проявляются не только в росте средней температуры, но и в изменении вероятности и интенсивности экстремальных явлений, режима осадков, снежного покрова, ледников, уровня моря и океанической циркуляции. Воздействия различаются по регионам и сезонам.
 
@@ -139,7 +139,7 @@ The main greenhouse gases are:
 - **nitrous oxide (N₂O):** largely associated with agricultural and industrial processes; and
 - **fluorinated gases:** used in some industrial and technical systems.
 
-The greenhouse effect is a natural physical process through which the atmosphere absorbs and re-emits part of the Earth's outgoing thermal radiation. An enhanced greenhouse effect, caused by rising greenhouse-gas concentrations, increases the energy imbalance of the climate system.
+The greenhouse effect is a natural physical process: greenhouse gases absorb some of the infrared radiation emitted by Earth's surface and emit radiation in all directions, including back towards the surface. Rising concentrations of these gases strengthen this effect and add an energy imbalance to the climate system.
 
 Climate change is expressed not only in rising average temperatures but also in changes in the likelihood and intensity of extreme events, precipitation regimes, snow cover, glaciers, sea level and ocean circulation. Impacts differ among regions and seasons.
 
@@ -224,6 +224,8 @@ Protected areas are an important tool for nature conservation, but their effecti
 
 **Деградация земель** — снижение биологической или экономической продуктивности земли, а также ухудшение её экологических функций. Она может проявляться через эрозию, засоление, уплотнение, потерю органического вещества, загрязнение и опустынивание.
 
+В подходе Конвенции ООН по борьбе с опустыниванием к нейтральному балансу деградации земель действует иерархия мер: **предотвращать новую деградацию → сокращать уже существующую → обращать деградацию вспять** с помощью восстановления. Предотвращение и сокращение имеют приоритет; восстановление не следует считать автоматической компенсацией любого ущерба. Выбор мер требует учёта типа земель, исходного состояния и местных условий.
+
 Леса выполняют важные функции:
 - поддерживают биоразнообразие;
 - участвуют в круговороте углерода и воды;
@@ -241,6 +243,8 @@ Protected areas are an important tool for nature conservation, but their effecti
 Land-use change is one of the major drivers of landscape transformation. The expansion of farmland, urbanisation, mineral extraction, road construction and reservoirs changes the structure and functions of ecosystems.
 
 **Land degradation** is a decline in the biological or economic productivity of land, or a deterioration of its ecological functions. It may involve erosion, salinisation, compaction, loss of organic matter, pollution and desertification.
+
+The UN Convention to Combat Desertification's land-degradation-neutrality approach uses a response hierarchy: **avoid new degradation → reduce existing degradation → reverse degradation** through restoration. Avoidance and reduction take priority; restoration should not be treated as an automatic offset for every loss. Measures must reflect land type, baseline condition and local circumstances.
 
 Forests perform several important functions:
 - they support biodiversity;
@@ -302,8 +306,6 @@ Assessing circularity requires consideration of the product's full life cycle: r
 ![Риск бедствий: опасность, экспозиция, уязвимость и потенциал / Disaster risk: hazard, exposure, vulnerability and capacity](../assets/diagrams/13-C-environmental-risk-model-bilingual.svg)
 
 *Четыре взаимосвязанных компонента риска бедствий; схема не задаёт линейной последовательности или универсальной формулы. / Four interacting components of disaster risk; the diagram is neither a linear sequence nor a universal formula.*
-> **EN:** Environmental-risk diagram showing hazard, exposure, vulnerability and potential consequences.
-
 **Экологический риск** оценивают с учётом опасности, подверженности людей и активов воздействию, их уязвимости и имеющегося потенциала для предупреждения, подготовки и реагирования. В терминологии UNDRR **риск бедствий** определяется вероятностно как функция опасности, экспозиции, уязвимости и потенциала (capacity). Эти компоненты взаимодействуют: их нельзя представлять как простую линейную цепочку или сводить к одной универсальной арифметической формуле. Опасность сама по себе не равна риску: одинаковое явление может иметь разные последствия в зависимости от плотности населения, качества зданий, систем предупреждения и ресурсов для реагирования. Понятие экологического риска шире риска бедствий, поэтому для отдельных задач могут требоваться другие модели.
 
 Ключевые понятия:
@@ -319,7 +321,7 @@ Assessing circularity requires consideration of the product's full life cycle: r
 
 ### 13.10.1. От опасности к бедствию: почему последствия различаются / From Hazard to Disaster: Why Impacts Differ
 
-Опасное явление не всегда приводит к бедствию. Например, сильный дождь над незаселённой территорией может не вызвать значительного ущерба, тогда как дождь меньшей интенсивности в плотной застройке с недостаточным водоотводом способен привести к затоплению домов и нарушению работы транспорта. Значение имеют подверженность воздействию, уязвимость и возможности подготовки и реагирования.
+Опасное явление не всегда приводит к бедствию. Например, сильный дождь над незаселённой территорией может не вызвать значительного ущерба, тогда как дождь меньшей интенсивности в плотной застройке с недостаточным водоотводом способен привести к затоплению домов и нарушению работы транспорта. Значение имеют подверженность воздействию, уязвимость и потенциал подготовки и реагирования.
 
 **Бедствие** — серьёзное нарушение функционирования сообщества или общества, возникающее вследствие опасного события и взаимодействия воздействия с условиями подверженности, уязвимости и способности справляться с последствиями. Поэтому карта опасностей показывает, где и с какой вероятностью возможно явление, но сама по себе не является картой полного риска или ожидаемого ущерба.
 
@@ -590,7 +592,7 @@ Distinguish:
 - **adaptive capacity:** the ability to change structure and processes while retaining key functions; and
 - **transformative capacity:** the ability to move into a new viable state when the previous one is no longer sustainable.
 
-**Ecosystem services** are benefits people obtain from nature. They are often grouped into provisioning, regulating, cultural and supporting processes. The IPBES framework also uses the concept of **nature's contributions to people**, which can account for a wider range of worldviews and values.
+**Ecosystem services** are benefits people obtain from nature. They are often grouped into provisioning, regulating, cultural and supporting services. The IPBES framework also uses the concept of **nature's contributions to people**, which can account for a wider range of worldviews and values.
 
 ### 13.3. Human Pressures and Planetary Change
 
@@ -738,7 +740,7 @@ Technology alone does not guarantee sustainability. Outcomes depend on governanc
 3. Современное глобальное потепление преимущественно обусловлено антропогенными выбросами парниковых газов.
 4. Изменение климата воздействует на криосферу, океаны, экосистемы, здоровье, инфраструктуру и продовольственные системы.
 5. Утрата биоразнообразия связана с несколькими взаимосвязанными факторами давления.
-6. Оценка риска бедствий учитывает опасность, экспозицию, уязвимость и возможности предупреждения и реагирования.
+6. Оценка риска бедствий учитывает опасность, экспозицию, уязвимость и потенциал предупреждения, подготовки и реагирования.
 7. Смягчение изменения климата и адаптация решают разные, но взаимодополняющие задачи.
 8. Мониторинг, ОВОС и СЭО помогают учитывать последствия решений.
 9. Экологическая справедливость требует учитывать распределение рисков, выгод и возможностей участия.
@@ -750,7 +752,7 @@ Technology alone does not guarantee sustainability. Outcomes depend on governanc
 3. Modern global warming is primarily driven by human-caused greenhouse-gas emissions.
 4. Climate change affects the cryosphere, oceans, ecosystems, health, infrastructure and food systems.
 5. Biodiversity loss is associated with several interacting pressures.
-6. Disaster-risk assessment considers hazard, exposure, vulnerability and capacity.
+6. Disaster-risk assessment considers hazard, exposure, vulnerability and capacity; environmental-risk assessments may require additional factors.
 7. Climate-change mitigation and adaptation address different but complementary tasks.
 8. Monitoring, environmental impact assessment and strategic environmental assessment help account for the consequences of decisions.
 9. Environmental justice requires attention to the distribution of risks, benefits and opportunities for participation.
@@ -836,7 +838,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 3. Modern global warming is primarily driven by human greenhouse-gas emissions.
 4. Climate change affects the cryosphere, oceans, ecosystems, health, infrastructure and food systems.
 5. Biodiversity loss is associated with several interacting pressures.
-6. Environmental risk depends on hazard, exposure and vulnerability.
+6. Disaster risk depends on hazard, exposure, vulnerability and capacity; broader environmental-risk assessments may include additional factors.
 7. Climate mitigation and adaptation address different but complementary tasks.
 8. Monitoring, EIA and SEA help account for the consequences of decisions.
 9. Environmental justice requires attention to the distribution of risks, benefits and opportunities to participate.
