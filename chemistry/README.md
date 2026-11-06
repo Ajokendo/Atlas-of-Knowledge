@@ -321,3 +321,12 @@ The older checkbox above stating that screenshots had not been published is supe
 - [ ] Rights/licensing authority and explicit licence remain PENDING for 12 static families and 7 interactive systems; competent second-review evidence and final approval remain separate gates. See `PUBLICATION-CHECKLIST.md` and `IMAGE_AUDIT.md`.
 
 This closes the specific EN functional-groups rendering defect, not the full seven-gate verification or public-release decision.
+
+
+### Complete screenshot overview and release-checklist reconciliation — 6 November 2026
+
+- [x] Overview-scanned the full 108-image baseline artifact [13491602961](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42195180307/artifacts/13491602961): all 36 mobile (390 px), 36 tablet (768 px) and 36 desktop (1280 px) default-state captures. No new obvious page-level clipping or off-canvas content was identified. The detailed scope and limitations are recorded in `IMAGE_AUDIT.md`.
+- [x] Reconciled the older contradictory wording in `PUBLICATION-CHECKLIST.md`: rights-holder/licensing-authority research and an explicit licence/permission are mandatory open gates; external legal opinion and external chemistry-specialist review are optional resources; a competent internal second reviewer distinct from the creator is still mandatory.
+- [ ] Full-resolution per-asset review of every capture, dynamic interaction-state review, rights/licence evidence for 12 static families and 7 interactive systems, competent second-person review, and final approval remain open.
+
+**Status boundary:** all 108 default-state captures have an overview scan, but this does not mean all 108 have full-resolution review or that Chemistry is publication-ready.
