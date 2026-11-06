@@ -325,7 +325,7 @@ if (!periodicData) {
     const row = rows[i];
     if (row.length !== 8) errors.push("periodic-table.html: element record " + (i + 1) + " must have 8 fields");
     if (Number(row[0]) !== i + 1) errors.push("periodic-table.html: atomic numbers must form the sequence 1–118");
-    if (!/^\[?\d+(?:\.\d+)?\]?$/.test(row[4] || "")) errors.push("periodic-table.html: invalid atomic-mass notation for record " + (i + 1));
+    if (!/^(?:\d+(?:\.\d+)?|\[\d+\]|\d+(?:\.\d+)?[–-]\d+(?:\.\d+)?)$/.test(row[4] || "")) errors.push("periodic-table.html: invalid atomic-mass, interval or mass-number notation for record " + (i + 1));
     if (!categories.has(row[5])) errors.push("periodic-table.html: unknown element category for record " + (i + 1));
     if (!Number.isInteger(Number(row[6])) || !Number.isInteger(Number(row[7])) ||
         Number(row[6]) < 1 || Number(row[6]) > 18 || Number(row[7]) < 1 || Number(row[7]) > 7) {
