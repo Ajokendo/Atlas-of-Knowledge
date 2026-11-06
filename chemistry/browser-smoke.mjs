@@ -97,15 +97,31 @@ try {
           return image.decode().catch(() => null);
         }));
       });
-      for (const width of [390, 768, 1280]) {
-        await page.setViewportSize({ width, height: 900 });
-        const safeName = file.replaceAll("/", "__").replace(/\.html$/, "");
-        await page.screenshot({
-          path: path.join(screenshotDirectory, safeName + "-" + width + "px.png"),
-          fullPage: true,
-          animations: "disabled"
-        });
-        renderedScreenshots++;
+      const safeName = file.replaceAll("/", "__").replace(/\.html$/, "");
+      const languageToggle = page.locator("#lang");
+      if (await languageToggle.count() !== 1) {
+        errors.push(file + ": visual evidence capture requires a language toggle");
+      } else {
+        for (const width of [390, 768, 1280]) {
+          await page.setViewportSize({ width, height: 900 });
+          await page.screenshot({
+            path: path.join(screenshotDirectory, safeName + "-ru-" + width + "px.png"),
+            fullPage: true,
+            animations: "disabled"
+          });
+          renderedScreenshots++;
+          await languageToggle.click();
+          await page.waitForFunction(() => document.documentElement.lang === "en");
+          await page.evaluate(() => document.fonts?.ready);
+          await page.screenshot({
+            path: path.join(screenshotDirectory, safeName + "-en-" + width + "px.png"),
+            fullPage: true,
+            animations: "disabled"
+          });
+          renderedScreenshots++;
+          await languageToggle.click();
+          await page.waitForFunction(() => document.documentElement.lang === "ru");
+        }
       }
       await page.setViewportSize({ width: 390, height: 844 });
     }
@@ -2540,4 +2556,4 @@ if (errors.length) {
   for (const error of errors) console.error(" - " + error);
   process.exit(1);
 }
-console.log("Chemistry browser smoke checks passed: " + pages.length + " pages; " + axeAudits + " axe-core scans (RU + EN); " + languageChecks + " language toggles and key interactive workflows checked; " + renderedScreenshots + " rendered screenshots captured at 390/768/1280px; no uncaught page errors.");
+console.log("Chemistry browser smoke checks passed: " + pages.length + " pages; " + axeAudits + " axe-core scans (RU + EN); " + languageChecks + " language toggles and key interactive workflows checked; " + renderedScreenshots + " rendered screenshots captured for RU + EN at 390/768/1280px; no uncaught page errors.");
