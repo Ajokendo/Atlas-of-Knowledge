@@ -754,3 +754,13 @@ Commits: responsive implementation `7c0318e`; bilingual responsive browser tests
 ### Tablet-width follow-up — 6 November 2026
 
 The first 768 px contact-sheet scan showed that the periodic-table grid still required horizontal scrolling while its instruction was hidden by a breakpoint set too low. The hint is now shown through 1050 px and hidden only when the full table fits; the text now explains the condition rather than referring only to a narrow phone screen. Browser checks explicitly verify the scroll area and hint at 768 px, and the absence of the hint at 1280 px. The first tablet-width fix run [42171810358](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171810358) passed on commit `e3c3579`; its artifact confirms the hint is visible at 768 px. Added an exact Russian wording assertion; follow-up CI run [42172003249](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42172003249) passed on commit `2dfc46e8dc9315f8d665c3bc24af35b1d9cc9347`, with artifact `13482031253`. The updated 768 px screenshot displays the revised instruction; the 1280 px screenshot correctly hides it.
+
+
+### Keyboard-accessible periodic-table scrolling — 6 November 2026
+
+- [x] The focused periodic-table region now handles ArrowLeft and ArrowRight with 80 px horizontal increments; other keys and events originating from descendants are left untouched.
+- [x] The browser regression test focuses the region, presses ArrowRight, and asserts that scrollLeft becomes positive. The initial test run [42172298075](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42172298075) exposed the missing interaction; the page behavior was corrected in commit a2e249fe431a688b46a427e68103e5d5193e1035.
+- [x] Branch-head CI run [42173730531](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173730531) passed: 22 HTML pages, 91 local links/assets, 21 inline scripts; 21 pages in Chromium, 42 axe-core scans (RU + EN), 21 language toggles, key interactive workflows, and 72 RU/EN screenshots at 390/768/1280 px. No uncaught page errors.
+- [x] Latest rendered-review artifact: [chemistry-rendered-review, ID 13482580521](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42173730531/artifacts/13482580521). The six periodic-table captures (RU/EN at 390/768/1280 px) were rechecked; the scroll hint is visible where the table overflows and absent at desktop width.
+
+This closes the periodic-table scroll-hint and focused-region keyboard-scroll regression. It does not close the complete manual review of every interactive state, every visual asset, physical-device/assistive-technology testing, rights/licence evidence, or final publication approval.
