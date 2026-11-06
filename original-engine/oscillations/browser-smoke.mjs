@@ -80,8 +80,13 @@ async function checkLesson(mobile) {
       alt: img.alt,
       caption: img.closest('figure')?.querySelector('figcaption')?.textContent?.trim(),
     }));
-    if (!visual.complete || visual.width !== 1200 || visual.height !== 520) {
-      throw new Error(`oscillation-regimes infographic failed to load at its expected dimensions: ${JSON.stringify(visual)}`);
+    const expectedVisual = mobile ? [600, 1320] : [1200, 520];
+    if (!visual.complete || visual.width !== expectedVisual[0] || visual.height !== expectedVisual[1]) {
+      throw new Error(`oscillation-regimes infographic failed to load at its expected ${expectedVisual.join('×')} dimensions: ${JSON.stringify(visual)}`);
+    }
+    const currentSrc = await regimeImage.evaluate(img => img.currentSrc);
+    if (mobile !== currentSrc.includes('-mobile.svg')) {
+      throw new Error(`wrong responsive oscillation infographic selected: ${currentSrc}`);
     }
     if (!visual.alt.includes('затухающих') || !visual.caption?.includes('резонансный')) {
       throw new Error('oscillation-regimes infographic needs meaningful alt text and a resonance caption');
