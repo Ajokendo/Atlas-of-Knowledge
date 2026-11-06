@@ -1242,3 +1242,17 @@ Source: same RESOLVE Ecoregions 2017 layer; `REALM` field. All eight exact sourc
 **Attribution/licence for both derivative maps:** RESOLVE Ecoregions 2017; Dinerstein, E. et al. (2017), “An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm”, *BioScience* 67(6): 534–545, DOI: 10.1093/biosci/bix014. Source data licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. The SVGs carry the citation, source credit, licence link and a statement that the geometry has been simplified. They are not covered by the Chapter 07 CC BY-NC 4.0 owner authorisation.
 
 **Generation workflow:** `.github/workflows/geography-chapter-07-resolve-maps.yml`; successful generation run: [42220904637](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42220904637). The workflow checks 14 biome categories and eight realm categories before committing generated maps to `workspace/geography`.
+
+
+## Chapter 07 — Visual 07-J: latitudinal zonation and altitudinal belts — 6 November 2026
+
+| Field | Record |
+|---|---|
+| Visual ID | 07-J |
+| Asset | `geography/assets/diagrams/07-J-latitudinal-zonation-altitudinal-belts-bilingual.svg` |
+| Purpose | Two-panel conceptual teaching schematic: generalised latitudinal change from equator to poles and altitudinal change from mountain foothills to the nival zone. |
+| Source basis | Original synthesis of the explanations in Chapter 07.7; no external map layer, measured elevation dataset, quantitative biome boundary or third-party artwork is embedded. |
+| Scientific scope | Generalised sequences only. The SVG states that boundaries are transitional and vary with latitude, moisture, aspect, relief and local circulation; it is not to scale and does not represent a specific mountain or region. |
+| Language/accessibility | Russian and English labels, bilingual title and description metadata, paired RU/EN chapter alt text. |
+| Rights | Original project-created asset. Asset-specific project licence designation is **PENDING**; it is not covered by the earlier six-asset CC BY-NC 4.0 authorisation. |
+| Technical status | Source-level XML/ARIA preflight completed; browser rendering, responsive/mobile, keyboard and screen-reader checks remain pending. |
