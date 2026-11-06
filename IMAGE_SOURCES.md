@@ -684,12 +684,13 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Visual ID: PHY-06-001
 - Subject / chapter: Physics, Chapter 06 — Oscillations
 - Title: Free, damped, and forced oscillations
-- Integration status: INTEGRATED — added to the Russian lesson immediately after the explanation of damped and forced oscillations; responsive SVG sizing and accessible caption are in place. Browser verification on the new commit is pending.
+- Integration status: INTEGRATED — added to the Russian lesson immediately after the explanation of damped and forced oscillations; responsive desktop SVG and a vertically stacked mobile SVG are integrated through a responsive `<picture>` element; browser verification on the new commit is pending.
 - Lifecycle: FOUND → SCIENTIFIC_CHECK (**internal equation/relationship review PASS**) → CREATED → INTEGRATED → TECHNICAL_VERIFICATION (**pending**) → RIGHTS_REVIEW (**pending project licence decision**).
 - Source relationship: New independent project-created diagram; no source artwork adapted.
 - Category: C
 - Learning objective: Distinguish ideal free oscillations with constant amplitude, damped free oscillations with decreasing amplitude, and the frequency-response peak of a driven oscillator near resonance.
 - File: assets/visuals/phy-06-oscillation-regimes.svg
+- Mobile variant file: assets/visuals/phy-06-oscillation-regimes-mobile.svg
 - Original source: Not applicable — independently authored vector schematic.
 - Author / creator: AI-assisted vector authoring with ChatGPT; published by the Atlas of Knowledge project. No claim of exclusive copyright in AI-generated elements.
 - License: Pending explicit project decision for this asset. The repository's root MIT licence is not treated as an automatic asset-specific licence.
