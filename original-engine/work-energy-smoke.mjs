@@ -35,6 +35,11 @@ async function check(viewport, mobile) {
     if (!response || !response.ok()) throw new Error(`Chapter page HTTP ${response?.status() ?? 'missing'}`);
     await page.getByRole('heading', { name: 'Работа и энергия', exact: true }).waitFor();
 
+    const lessonText = await page.locator('main.lesson').innerText();
+    if (lessonText.includes('The component of force along the displacement')) {
+      throw new Error('Russian lesson contains an untranslated English force/displacement caption');
+    }
+
     const sectionHeadings = await page.locator('main.lesson > section h2').allTextContents();
     const required = [
       'Введение',
