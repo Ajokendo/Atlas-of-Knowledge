@@ -299,7 +299,7 @@ Assessing circularity requires consideration of the product's full life cycle: r
 
 ## 13.10. Экологические риски и уязвимость территорий / Environmental Risks and Territorial Vulnerability
 
-![Риск бедствий: опасность, экспозиция, уязвимость и возможности / Disaster risk: hazard, exposure, vulnerability and capacity](../assets/diagrams/13-C-environmental-risk-model-bilingual.svg)
+![Риск бедствий: опасность, экспозиция, уязвимость и потенциал / Disaster risk: hazard, exposure, vulnerability and capacity](../assets/diagrams/13-C-environmental-risk-model-bilingual.svg)
 
 *Четыре взаимосвязанных компонента риска бедствий; схема не задаёт линейной последовательности или универсальной формулы. / Four interacting components of disaster risk; the diagram is neither a linear sequence nor a universal formula.*
 > **EN:** Environmental-risk diagram showing hazard, exposure, vulnerability and potential consequences.
@@ -902,7 +902,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 - Не изображать природоориентированные решения как универсальную замену инженерным мерам; оценивать их эффективность в конкретном контексте.
 - При публикации карт рисков избегать ложной точности и стигматизации отдельных сообществ.
 - На схеме 13-A парниковые газы не должны выглядеть как отдельный слой атмосферы; схема качественная и не является полным энергетическим балансом Земли.
-- На схеме 13-C компоненты риска бедствий должны взаимодействовать, а не образовывать линейную последовательность; возможности (capacity) нельзя опускать.
+- На схеме 13-C компоненты риска бедствий должны взаимодействовать, а не образовывать линейную последовательность; потенциал (capacity) нельзя опускать.
 - На схеме 13-D ОВОС и СЭО показаны как виды оценки, а мониторинг — как сквозной процесс, который может сопровождать оценку и реализацию решений.
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
