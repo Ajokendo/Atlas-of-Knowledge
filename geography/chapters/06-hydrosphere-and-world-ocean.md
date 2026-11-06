@@ -736,6 +736,8 @@ A **glacier** is a mass of land-based ice formed by the accumulation and compact
 
 **Sea ice** forms when seawater freezes and floats on the ocean surface. It differs from land-based glacier ice in origin, salinity and dynamics.
 
+#### Glacier Mass Balance
+
 **Glacier mass balance** is the difference between accumulation of snow and ice and losses through melting, sublimation, iceberg calving and other processes. A positive balance means the glacier gained mass over the period considered; a negative balance means it lost mass.
 
 ### 6.13. Rivers and Drainage Basins
