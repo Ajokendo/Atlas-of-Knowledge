@@ -2637,10 +2637,14 @@ try {
         if (!Array.isArray(historyAfterWrongAttempt) || historyAfterWrongAttempt.length !== 2 || historyAfterWrongAttempt[1].score !== 0) {
           errors.push(file + ": the second, zero-score attempt must be saved exactly once");
         }
-        await page.locator("#lang").click();
         if (!(await page.locator("#summary").innerText()).includes("Correct answers") ||
             !(await page.locator("#rating").innerText()).includes("Some topics are worth revisiting.")) {
-          errors.push(file + ": English translation must preserve the low-score feedback");
+          errors.push(file + ": English low-score feedback must be displayed for the second attempt");
+        }
+        await page.locator("#lang").click();
+        if (!(await page.locator("#summary").innerText()).includes("Правильных ответов") ||
+            !(await page.locator("#rating").innerText()).includes("Есть темы для повторения.")) {
+          errors.push(file + ": Russian translation must preserve the low-score feedback");
         }
         const historyAfterSecondTranslation = await page.evaluate(() => JSON.parse(localStorage.getItem("atlas-chemistry-quiz-v1-history-v1") || "[]"));
         if (!Array.isArray(historyAfterSecondTranslation) || historyAfterSecondTranslation.length !== 2) {
