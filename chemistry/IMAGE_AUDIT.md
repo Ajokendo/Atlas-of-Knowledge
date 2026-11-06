@@ -686,3 +686,11 @@ Added static regression guards in `checks.mjs` for the gas-law units/Kelvin conv
 - Commit `2a16aa6` contains the bilingual text correction. Its workflow run `42154152132` was observed in progress at the time of this entry; no final CI result is claimed here.
 - A further browser regression guard was added for CH-IV07: the beaker graphic must expose its role, retain accessible descriptions linked to the live pH and solution-state text, and update its accessible name when switching RU/EN. The page already updates this name dynamically; the test now protects that behavior from regression.
 - This is an automated accessibility-name/description check, not a manual screen-reader or assistive-technology review. CH-IV07 remains INTEGRATED, not VERIFIED.
+
+
+## Follow-up — 2026-11-06: Chromium test-harness correction
+
+- The first CH-IV07 accessibility assertion failed because the new test used an over-escaped whitespace regular expression when tokenising `aria-describedby`. Inspection confirmed the page already had `role="img"` and references to `beakerLabel ph condition status`; the failure was in the test harness, not evidence of a missing page description.
+- Corrected the test to use the JavaScript whitespace-token expression `/\\s+/` in `chemistry/browser-smoke.mjs` (commit `f56d9b0`).
+- Static validation on that commit passed. Chromium run `42158452867` was still running at the time of this entry; its result is deliberately not assumed.
+- The beaker test remains an automated check of accessible role/name/description linkage and language switching, not a substitute for manual screen-reader testing.
