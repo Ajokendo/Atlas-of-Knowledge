@@ -1718,3 +1718,12 @@ The Chapter 02 visual replacement milestone remains **11/11 complete**. Browser 
 - External source checks: **3.2-A** is the USGS Minerals and Uses Activity composite, dated 14 July 2026; the exact USGS media page labels the complete image Public Domain but discloses mixed component origins (USGS, Smithsonian, Minerals Education Coalition and Adobe Stock), so do not crop or redistribute components separately. **3.5-A** is the USGS/Smithsonian *This Dynamic Planet* I-2800, third edition (2006), Public Domain; useful as a historical global overview, not a current seismicity or plate-motion dataset. **3.9-A** is the ICS International Chronostratigraphic Chart v2026/06, CC BY 4.0; its current version and licence are confirmed on the official chart page, and the chapter's age-revision caveat is appropriate.
 - The 10 local SVGs were individually inspected at source level. All contain SVG title/description, `role="img"`, a `viewBox`, and Russian/English text. This is a structural check, not proof of sufficient contrast, readable labels at phone size, or assistive-technology quality.
 - **Current status:** inventory and bilingual pairing PASS; 3.3-A scientific/process-direction PASS; external rights bases recorded for 3.2-A, 3.5-A and 3.9-A; rights for the 10 project-local SVGs remain Unknown / PENDING; technical browser QA is running; deployed-reader and screen-reader testing remain separate.
+
+
+### Chapter 03 hosted source-integrity CI result — 6 November 2026
+
+- Workflow [Geography Chapter 03 image integrity](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42161530875) completed **SUCCESS** on commit `dfc5aa0d1b14abe69e0b80e97b948b0d380d2971`; job `127708104770`.
+- Confirmed **26/26 embeds**, **13/13 unique assets**, each appearing twice for RU/EN; all alt text is non-empty and bilingual.
+- All **10/10 local SVGs** resolve and pass XML parsing, `viewBox`, `role="img"`, `title`, `desc`, and Russian/English text checks.
+- All three external endpoints returned image content successfully to the GitHub runner: USGS mineral composite **HTTP 206 image/png**; USGS *This Dynamic Planet* **HTTP 206 image/jpeg**; ICS 2026/06 chart **HTTP 206 image/jpeg**. Endpoint summary: **3 PASS / 0 WARN / 0 FAIL**.
+- Isolated Chromium browser QA run [42161535509](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42161535509) remains **QUEUED** at this checkpoint. Do not claim 26/26 image decoding or mobile/desktop browser success until it completes.
