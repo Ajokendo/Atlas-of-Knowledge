@@ -1176,3 +1176,10 @@ All 19 unique visual IDs have received an internal conceptual/data review. The r
 
 
 **Chapter 05 local mirror note — 6 November 2026.** Seven NOAA raster images used in visuals 5.6-A, 5.7-A and 5.8-A are mirrored byte-for-byte under `geography/assets/chapter-05-noaa/` because GitHub's Markdown proxy failed to decode those official NOAA URLs in the live chapter view. The original NOAA URLs, context pages, source-specific U.S. public-domain reuse basis and NOAA credit remain recorded above and in the folder README. These copies are unchanged third-party NOAA assets; they are not project-created works and are not included in the 11-SVG CC BY-NC 4.0 authorisation. SHA-256 hashes and byte sizes are recorded in the mirror README.
+
+
+### Chapter 06 — WFS service endpoint for visual 6-B — 6 November 2026
+
+The Flanders Marine Institute GeoServer exposes the Global Oceans and Seas v1 layer as `MarineRegions:goas` through its OGC WFS service at `https://geo.vliz.be/geoserver/MarineRegions/ows`. The service catalogue identifies the layer as Global Oceans and Seas (v1), with ten ocean/sea regions and WGS84 geometry; the service supports WFS 2.0.0. This is a discovery/access route to the same VLIZ dataset, not a separate dataset or a change in licence. Dataset attribution remains Flanders Marine Institute (2021), DOI [10.14284/542](https://doi.org/10.14284/542), CC BY 4.0. Marine Regions' request not to redistribute raw products still applies. A static derived atlas map has **not** yet been extracted, checked or committed; feature geometry, attributes, bilingual labels, projection/generalisation and cartographic QA remain open. The Southern Ocean boundary must be described as the dataset's convention, not a universally ratified IHO boundary.
+
+Service discovery references: [VLIZ GeoServer](https://geo.vliz.be/), [VLIZ WFS layer catalogue entry for Global Oceans and Seas v1](https://directory.spatineo.com/service/13971/).
