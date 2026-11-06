@@ -170,6 +170,12 @@ import { PRACTICE } from './practice.js';
   keyed(10, 1, M.slide(root(t => M.slide(t).x - 1.0, 0, M.SLIDE.run)).Eth, 'heat after 1.0 m (model slide)');
   // 11: P = F v, F = mg at steady speed
   keyed(11, 0, 70 * g * (3.0 / 4.2), 'stair power, P = Fv');
+  check('practice: conceptual answer keys and explanations for zero work, net work, speed scaling and spring compression',
+    PRACTICE[0][1].answer === 1 && PRACTICE[0][1].why.includes('θ = 90°') &&
+    PRACTICE[1][1].answer === 2 && PRACTICE[1][1].why.includes('Суммарная работа равна нулю') &&
+    PRACTICE[2][1].answer === 1 && PRACTICE[2][1].why.includes('увеличиваются в 4 раза') &&
+    PRACTICE[3][1].answer === 3 && PRACTICE[3][1].why.includes('3 ×') &&
+    PRACTICE[5][1].answer === 2 && PRACTICE[5][1].why.includes('пропорционально') && PRACTICE[5][1].why.includes('вдвое'));
 }
 
 // Russian learner-facing text regressions: keep one-force work distinct from net work,
