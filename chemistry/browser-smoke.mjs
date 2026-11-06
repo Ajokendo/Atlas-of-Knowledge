@@ -1687,6 +1687,39 @@ try {
       await page.locator("#spin").click();
       if (await page.locator("#spin").getAttribute("aria-pressed") !== "false") errors.push(file + ": disabling auto-rotation does not clear the pressed state");
 
+      // Auto-rotation must own exactly one pending animation frame and cancel it
+      // immediately when disabled; otherwise a rapid toggle can leave duplicate loops.
+      await page.evaluate(() => {
+        const nativeRequest = window.requestAnimationFrame.bind(window);
+        const nativeCancel = window.cancelAnimationFrame.bind(window);
+        window.__pendingMoleculeFrames = new Set();
+        window.requestAnimationFrame = callback => {
+          let id;
+          id = nativeRequest(time => {
+            window.__pendingMoleculeFrames.delete(id);
+            callback(time);
+          });
+          window.__pendingMoleculeFrames.add(id);
+          return id;
+        };
+        window.cancelAnimationFrame = id => {
+          window.__pendingMoleculeFrames.delete(id);
+          nativeCancel(id);
+        };
+      });
+      await page.locator("#spin").click();
+      await page.waitForFunction(() => window.__pendingMoleculeFrames?.size === 1);
+      await page.locator("#spin").click();
+      if (await page.evaluate(() => window.__pendingMoleculeFrames.size) !== 0) {
+        errors.push(file + ": disabling auto-rotation must cancel its pending animation frame");
+      }
+      await page.locator("#spin").click();
+      await page.waitForFunction(() => window.__pendingMoleculeFrames?.size === 1);
+      await page.locator("#spin").click();
+      if (await page.evaluate(() => window.__pendingMoleculeFrames.size) !== 0) {
+        errors.push(file + ": repeated auto-rotation toggles must not leave a pending animation loop");
+      }
+
       await page.locator("#reset").click();
       const initialDrawing = await canvas.evaluate(el => el.toDataURL());
       await canvas.focus();
