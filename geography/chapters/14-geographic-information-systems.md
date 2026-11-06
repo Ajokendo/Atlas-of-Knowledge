@@ -265,7 +265,7 @@ GNSS is the general term for satellite navigation systems. GPS is one such syste
 - дату обновления данных;
 - правила обработки персональных данных.
 
-Для анализа доступности услуг точка геокодированного адреса не всегда равна фактическому входу или маршруту движения. Оценка совпадения (match score) или метка «точный адрес» у конкретного сервиса не заменяет визуальную и полевую проверку: результат может быть интерполированной точкой на улице, центроидом здания или участком с неполной адресной нумерацией. При массовом геокодировании адресов людей проверьте условия сервиса, правовое основание передачи данных и возможность обработки персональных данных вне вашей организации.
+Для анализа доступности услуг точка геокодированного адреса не всегда равна фактическому входу или маршруту движения. Оценка совпадения (match score) или метка «точный адрес» у конкретного сервиса не заменяет визуальную и полевую проверку: результат может быть интерполированной точкой на улице, центроидом здания или участком с неполной адресной нумерацией. Например, один из коммерческих геокодеров различает типы результата ROOFTOP, RANGE_INTERPOLATED, GEOMETRIC_CENTER и APPROXIMATE. Это названия конкретного поставщика, а не универсальные категории всех геокодеров: всегда читайте документацию фактически используемого сервиса. При массовом геокодировании адресов людей проверьте условия сервиса, правовое основание передачи данных и возможность обработки персональных данных вне вашей организации.
 
 
 **Geocoding** converts a textual description of a location, such as an address or place name, into coordinates. Reverse geocoding links coordinates to a nearby address or geographic description.
@@ -277,7 +277,7 @@ A geocoding result may be ambiguous. An address may correspond to a building, an
 - the date when the data were updated; and
 - the rules for processing personal data.
 
-For service-accessibility analysis, a geocoded address point is not necessarily the actual entrance or a point on the route people use. A match score or a provider's “exact address” label does not replace visual or field verification: a result may be an interpolated street point, a building centroid or a location in an area with incomplete address numbering. For bulk geocoding of people's addresses, check the provider's terms, the legal basis for transferring the data and whether personal data may be processed outside your organisation.
+For service-accessibility analysis, a geocoded address point is not necessarily the actual entrance or a point on the route people use. A match score or a provider's “exact address” label does not replace visual or field verification: a result may be an interpolated street point, a building centroid or a location in an area with incomplete address numbering. For example, one commercial geocoder distinguishes ROOFTOP, RANGE_INTERPOLATED, GEOMETRIC_CENTER and APPROXIMATE result types. These are provider-specific labels, not universal categories for all geocoders; always consult the documentation of the service actually used. For bulk geocoding of people's addresses, check the provider's terms, the legal basis for transferring the data and whether personal data may be processed outside your organisation.
 
 ## 14.8. Пространственные запросы и операции / Spatial Queries and Operations
 
@@ -506,7 +506,7 @@ A file format or standard interface alone does not guarantee quality or interope
 
 Хороплетная карта должна использовать нормированные показатели, например долю или плотность, а не абсолютные величины, если площади территорий и численность населения существенно различаются. Для абсолютных значений могут лучше подходить пропорциональные символы.
 
-Следует избегать ложной точности, чрезмерного числа классов, визуально вводящих в заблуждение цветовых шкал и обрезания важных географических контекстов. Для хороплетов укажите знаменатель нормирования (например, население, площадь или число домохозяйств), период и метод классификации. Квантили, равные интервалы и естественные разрывы по-разному распределяют территории по классам; смена метода или границ классов может изменить визуальный вывод, даже если исходные значения не изменились. Не сравнивайте карты разных лет или регионов без проверки сопоставимости показателя, границ и метода классификации.
+Следует избегать ложной точности, чрезмерного числа классов, визуально вводящих в заблуждение цветовых шкал и обрезания важных географических контекстов. Для хороплетов укажите знаменатель нормирования (например, население, площадь или число домохозяйств), период и метод классификации. Квантили, равные интервалы и естественные разрывы по-разному распределяют территории по классам; смена метода или границ классов может изменить визуальный вывод, даже если исходные значения не изменились. Не сравнивайте карты разных лет или регионов без проверки сопоставимости показателя, границ и метода классификации. Если задача состоит именно в сравнении динамики, используйте одинаковые границы классов и одну легенду для всех карт либо явно объясните причину изменения шкалы. Отдельная классификация каждого года может визуально скрыть рост или снижение показателя.
 
 
 A map communicates spatial information; it is not merely a picture of data. Its design should match the purpose, audience and scale.
@@ -530,7 +530,7 @@ The choice of display method depends on the data:
 
 A choropleth map should normally use normalised indicators, such as a share or density, rather than absolute totals when areas and populations differ substantially. Proportional symbols may be more appropriate for absolute values.
 
-Avoid false precision, too many classes, visually misleading colour schemes and the removal of important geographic context. For a choropleth, state the normalisation denominator (for example, population, area or number of households), reference period and classification method. Quantiles, equal intervals and natural breaks distribute areas among classes differently; changing the method or class boundaries can change the visual message even when the underlying values have not changed. Do not compare maps from different years or regions without checking that the indicator, boundaries and classification method are comparable.
+Avoid false precision, too many classes, visually misleading colour schemes and the removal of important geographic context. For a choropleth, state the normalisation denominator (for example, population, area or number of households), reference period and classification method. Quantiles, equal intervals and natural breaks distribute areas among classes differently; changing the method or class boundaries can change the visual message even when the underlying values have not changed. Do not compare maps from different years or regions without checking that the indicator, boundaries and classification method are comparable. If the purpose is to compare change over time, use the same class boundaries and legend for all maps, or explicitly explain why the scale changes. Classifying each year separately can visually conceal an increase or decrease in the indicator.
 
 ## 14.14. Веб-ГИС, облачные платформы и открытые данные / Web GIS, Cloud Platforms and Open Data
 
@@ -1167,6 +1167,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 29. International Organization for Standardization. **ISO 19157-1:2023 — Geographic information — Data quality — Part 1: General requirements.** Principles, components, evaluation procedures and reporting of geographic data quality. https://www.iso.org/standard/78900.html
 30. QGIS Documentation 3.44. **Network analysis.** Service-area and shortest-path algorithms; snapping tolerance and maximum distance from a network. https://documentation.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/networkanalysis.html
 31. QGIS Documentation 3.44. **Topology.** Topological relationships, digitising errors and data-model-dependent validation. https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/topology.html
+32. Google Maps Platform. **Geocoding request and response.** Provider-specific result types distinguish rooftop, interpolated, geometric-centre and approximate locations. https://developers.google.com/maps/documentation/geocoding/guides-v3/requests-geocoding
+33. Esri. **Data classification methods — ArcGIS Pro.** Explains natural breaks, quantiles, equal intervals and the limits of comparing data-specific class breaks. https://doc.esri.com/en/arcgis-pro/latest/help/mapping/layer-properties/data-classification-methods.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
