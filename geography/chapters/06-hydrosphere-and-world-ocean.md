@@ -105,7 +105,6 @@
 При публикации точных площадей и средних глубин необходимо использовать одну согласованную гидрографическую классификацию: оценки меняются в зависимости от того, какие моря и окраинные бассейны включены в расчёт.
 
 
-**EN production brief:** Prepare a politically neutral physical map of the oceans, showing the boundaries of the selected hydrographic system, major seas and principal straits.
 
 ## 6.4. Рельеф океанического дна / Ocean-Floor Relief
 
@@ -244,7 +243,6 @@
 К важным экосистемам относятся коралловые рифы, мангровые леса, морские травяные луга, солёные марши, открытый океан и глубоководные сообщества.
 
 
-**EN production brief:** Create a coastal-to-open-ocean cross-section showing the littoral zone, reef, pelagic realm, benthic realm and deep-sea zone. Do not imply that zone boundaries occur at universal depths.
 
 ## 6.10. Морские ресурсы и хозяйственное использование океана / Marine Resources and Ocean Uses
 
@@ -286,7 +284,6 @@
 - международное сотрудничество.
 
 
-**EN production brief:** Diagram pollutant pathways from land, ships and atmospheric transport. Show prevention or mitigation measures at each stage.
 
 ## 6.12. Ледники, морской лёд и криосфера / Glaciers, Sea Ice and the Cryosphere
 
@@ -305,7 +302,6 @@
 Баланс массы — разность между накоплением снега и льда и потерями вследствие таяния, сублимации, откалывания айсбергов и других процессов. Положительный баланс означает увеличение массы за рассматриваемый период, отрицательный — её уменьшение.
 
 
-**EN production brief:** Use a map and cross-section to show glaciers, ice sheets, sea ice, seasonal snow and permafrost. Visually distinguish land ice from floating sea ice.
 
 ## 6.13. Реки и речные бассейны / Rivers and Drainage Basins
 
@@ -330,7 +326,6 @@
 Реки выполняют экологические, транспортные, энергетические и водоснабженческие функции. Плотины и водозаборы меняют естественный режим стока, перенос наносов и миграцию водных организмов.
 
 
-**EN production brief:** Diagram a drainage basin with the watershed divide, source, tributaries, main channel, floodplain and river mouth.
 
 ### 6.13.1. Практический пример: оценка расхода воды в реке / Worked Example: Estimating River Discharge
 
@@ -379,7 +374,6 @@ Q = A \times v,
 **Эвтрофикация** — обогащение водоёма питательными веществами, прежде всего соединениями азота и фосфора. Чрезмерная эвтрофикация может вызывать цветение воды, снижение прозрачности и дефицит кислорода.
 
 
-**EN production brief:** Compare tectonic, glacial, volcanic and karst lake basins, and add a cross-section of a stratified lake.
 
 ## 6.15. Подземные воды / Groundwater
 
@@ -399,7 +393,6 @@ Q = A \times v,
 Подземные воды важны для питьевого водоснабжения, сельского хозяйства и поддержания речного стока в засушливые сезоны. Их уязвимость зависит от глубины, проницаемости пород, времени обновления и характера землепользования.
 
 
-**EN production brief:** Draw a geological cross-section showing the unsaturated zone, water table, aquifers, aquitards, wells and a spring.
 
 ## 6.16. Водные ресурсы, дефицит и управление / Water Resources, Scarcity and Management
 
@@ -439,7 +432,6 @@ Q = A \times v,
 Последствия зависят от географии, инфраструктуры и способности общества адаптироваться. Изменение осадков и стока не следует описывать как одинаковое для всех регионов.
 
 
-**EN production brief:** Create a cause-and-effect diagram showing how warming can affect snow, glaciers, evaporation, precipitation, runoff and hydrological extremes. Distinguish observed trends from projections where data are shown.
 
 ### 6.17.1. Как составить простой водный баланс водосбора / Building a Simple Catchment Water Balance
 
@@ -523,7 +515,6 @@ P = ET + R + \Delta S,
 Дополнительное задание: сравните два океанических региона по температуре поверхности, солёности и направлению основных течений, используя карту и данные с указанием периода наблюдений.
 
 
-**EN production brief:** Prepare a teaching basin map, a water-balance table and a seasonal river-discharge graph. Label all data as hypothetical unless they are taken from a named, dated source.
 
 ## English-language chapter text
 
