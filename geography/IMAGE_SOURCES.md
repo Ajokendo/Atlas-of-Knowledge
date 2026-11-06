@@ -1233,11 +1233,11 @@ Licence deed: https://creativecommons.org/licenses/by-nc/4.0/ . Legal code: http
 
 **07-C — World terrestrial biomes**  
 Asset: `geography/assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg`  
-Source: RESOLVE Ecoregions 2017, ArcGIS FeatureServer layer 0; `BIOME_NAME` field. Fourteen biome categories are represented. One source record with `BIOME_NAME=N/A` is excluded rather than assigned to a biome without evidence. Geometry is simplified by the service using `maxAllowableOffset=0.12` degrees in WGS 84. The map explicitly states that it is a dated reference classification, not current land cover.
+Source: RESOLVE Ecoregions 2017, ArcGIS FeatureServer layer 0; `BIOME_NAME` field. Fourteen biome categories and 845 classified ecoregion features are represented. One source record with `BIOME_NAME=N/A` is excluded rather than assigned to a biome without evidence. Geometry is simplified by the service using `maxAllowableOffset=0.12` degrees in WGS 84 (EPSG:4326); the SVG uses an equirectangular, north-up world view and is not to scale. The map explicitly states that it is a dated reference classification, not current land cover.
 
 **07-E — World biogeographical realms**  
 Asset: `geography/assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg`  
-Source: same RESOLVE Ecoregions 2017 layer; `REALM` field. All eight exact source categories are included: Afrotropic, Antarctica, Australasia, Indomalayan, Nearctic, Neotropic, Oceania and Palearctic. The map explicitly distinguishes biogeographical from political boundaries.
+Source: same RESOLVE Ecoregions 2017 layer; `REALM` field. All eight exact source categories are included: Afrotropic, Antarctica, Australasia, Indomalayan, Nearctic, Neotropic, Oceania and Palearctic (846 source features). Geometry is simplified by the service using `maxAllowableOffset=0.12` degrees in WGS 84 (EPSG:4326); the SVG uses an equirectangular, north-up world view and is not to scale. The map explicitly distinguishes biogeographical from political boundaries.
 
 **Attribution/licence for both derivative maps:** RESOLVE Ecoregions 2017; Dinerstein, E. et al. (2017), “An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm”, *BioScience* 67(6): 534–545, DOI: 10.1093/biosci/bix014. Source data licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. The SVGs carry the citation, source credit, licence link and a statement that the geometry has been simplified. They are not covered by the Chapter 07 CC BY-NC 4.0 owner authorisation.
 
