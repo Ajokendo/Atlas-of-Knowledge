@@ -1284,3 +1284,13 @@ The project owner extended the CC BY-NC 4.0 authorisation from selected assets t
 **Chapter 08 editorial update:** added a bilingual explanation of the 2026 avoid–reduce–reverse framework and bibliography item 17 for the joint FAO–UNCCD guidance. The bilingual wording and technical terminology were aligned for the landscape-unit hierarchy, technogenic/industrial landscapes and the 08-G alt text. The 08-B English caption now carries the same small-legend warning as the Russian caption. These source checks do not constitute independent specialist sign-off or country-level field validation.
 
 - **Chapter 08 first full-size Chromium run — 6 November 2026:** workflow [42241673879](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42241673879) reached both 390px and 1365px and decoded all 14 RU/EN image embeds at both widths, with no horizontal overflow and zero axe WCAG 2.1 A/AA violations. It correctly failed the geometry checks: 08-A's long bilingual subtitle extended beyond the SVG viewBox, and two 08-D bilingual sphere labels overlapped slightly. Both source SVGs were corrected (08-A subtitle split into two shorter language lines; 08-D headings split into separate Russian/English lines). The corrected rerun is pending; the failed run is not counted as acceptance.
+
+
+### Chapter 08 — corrected full-size Chromium acceptance — 6 November 2026
+
+- **PASS:** [workflow 42242134605](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42242134605), commit `ce62398da3f31f7ef249442ca627715d75306b7c`.
+- All six original SVGs rendered in the full-size gallery at 390px and 1365px. No text extended outside the SVG viewBox and no text-to-text overlap remained after the 08-A and 08-D corrections.
+- The ISRIC WRB 2014 PNG (1537×886) decoded at both viewports. All 14 live RU/EN Markdown embeds decoded at both viewports. No horizontal overflow was detected.
+- axe WCAG 2.1 A/AA scan of the isolated gallery returned **zero violations** at both viewports.
+- **Usability limitation:** smallest effective SVG text at 390px is approximately 4.2 CSS px. The figures are structurally responsive but their fine labels require zoom on phones. The ISRIC map legend is also too small for comfortable phone reading; both language captions link to the full poster. Manual screen-reader and human contrast/legibility review and production/deployed-reader QA remain open.
+- Screenshots were uploaded as the workflow artifact `geography-chapter-08-browser-qa` (artifact ID `13517541123`, retained until 20 November 2026).
