@@ -227,13 +227,13 @@ The registered authored SVG collection contains seven responsive desktop/mobile 
 ## Manual visual re-audit — 6 November 2026
 
 ### Scope and evidence
-- Reviewed available desktop/mobile browser screenshots for Chapters 1–4, 14 and 15, plus the registered SVG source and responsive variants for Chapters 6–7.
+- Screened contact sheets for Chapters 1–4, then inspected selected full-size desktop/mobile screenshots for Chapters 1, 2, 3, 4, 14 and 15, plus SVG source and responsive variants for Chapters 6–7.
 - Chapters 1–4 have page-level screenshot artifacts; Chapters 14–15 have desktop/mobile SVG screenshot artifacts. This is not yet a complete scene-by-scene visual approval for all 15 chapters.
 - A new `all-book-visual-capture` CI job now captures every interactive-book page and every standalone chapter page at desktop and mobile sizes. The current-HEAD workflow is pending; its artifacts must be manually inspected before any chapter-wide visual coverage claim is made.
 
 ### Findings and corrections
 - Chapter 2: several Newton-scene force labels collide with arrows/objects; the tension scene clips upper elements; the bottom hint can overlap the live readout. These remain open for a dedicated scene-layout correction.
-- Chapter 4: mobile scenes 4.6 and 4.9 frame their graph panels too tightly; axis labels and parts of the graph are clipped. These remain open.
+- Chapter 4: mobile pages 4.7 and 4.10 frame their graph panels too tightly; axis labels and parts of the graph are clipped. These remain open.
 - Chapter 6: the new oscillation-regimes SVG pair is integrated, but manual desktop/mobile screenshots are pending. The latest isolated lesson check also reports that the damping/forced-oscillation explanation is missing the expected F₀ notation; this needs content/render reconciliation.
 - Chapter 7: the torque/ring-disc/skater SVG pair is integrated, but no desktop/mobile screenshot review or project-owner publication-licence decision is recorded; scientific review by a competent second reviewer is also pending.
 - Chapters 5 and 8–13: no page-by-page manual screenshot review is recorded in this audit yet. Their interactive scenes are included in the newly added all-chapter capture job.
