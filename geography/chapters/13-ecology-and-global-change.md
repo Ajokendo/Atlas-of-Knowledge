@@ -304,13 +304,13 @@ Assessing circularity requires consideration of the product's full life cycle: r
 *Четыре взаимосвязанных компонента риска бедствий; схема не задаёт линейной последовательности или универсальной формулы. / Four interacting components of disaster risk; the diagram is neither a linear sequence nor a universal formula.*
 > **EN:** Environmental-risk diagram showing hazard, exposure, vulnerability and potential consequences.
 
-**Экологический риск** оценивают с учётом опасности, подверженности людей и активов воздействию, их уязвимости и доступных возможностей предупреждения, подготовки и реагирования. В терминологии UNDRR **риск бедствий** определяется вероятностно как функция опасности, экспозиции, уязвимости и возможностей (capacity). Эти компоненты взаимодействуют: их нельзя представлять как простую линейную цепочку или сводить к одной универсальной арифметической формуле. Опасность сама по себе не равна риску: одинаковое явление может иметь разные последствия в зависимости от плотности населения, качества зданий, систем предупреждения и ресурсов для реагирования. Понятие экологического риска шире риска бедствий, поэтому для отдельных задач могут требоваться другие модели.
+**Экологический риск** оценивают с учётом опасности, подверженности людей и активов воздействию, их уязвимости и доступных потенциала предупреждения, подготовки и реагирования. В терминологии UNDRR **риск бедствий** определяется вероятностно как функция опасности, экспозиции, уязвимости и возможностей (capacity). Эти компоненты взаимодействуют: их нельзя представлять как простую линейную цепочку или сводить к одной универсальной арифметической формуле. Опасность сама по себе не равна риску: одинаковое явление может иметь разные последствия в зависимости от плотности населения, качества зданий, систем предупреждения и ресурсов для реагирования. Понятие экологического риска шире риска бедствий, поэтому для отдельных задач могут требоваться другие модели.
 
 Ключевые понятия:
-- **опасность (hazard):** потенциально разрушительное природное или техногенное явление;
+- **опасность (hazard):** процесс, явление или деятельность, которые могут причинить вред людям, имуществу, обществу или окружающей среде;
 - **подверженность (exposure):** наличие людей, инфраструктуры и ценностей в зоне возможного воздействия;
 - **уязвимость (vulnerability):** условия, повышающие вероятность ущерба;
-- **возможности (capacity):** ресурсы, знания, институты и навыки, помогающие предупреждать риск, готовиться и реагировать;
+- **потенциал (capacity):** совокупность ресурсов, знаний, институтов, навыков и других сильных сторон, помогающих предупреждать риск, готовиться и реагировать;
 - **риск (risk):** возможность неблагоприятных последствий с учётом вероятности и тяжести воздействия;
 - **устойчивость к бедствиям (disaster resilience):** способность готовиться, выдерживать воздействие, восстанавливаться и адаптироваться.
 
@@ -674,10 +674,10 @@ Assessment of circularity should consider the full life cycle of a product: raw-
 **Environmental risk** is assessed by considering hazards, the exposure of people and assets, their vulnerability, and the available capacity for warning, preparedness and response. In UNDRR terminology, **disaster risk** is determined probabilistically as a function of hazard, exposure, vulnerability and capacity. These components interact: they should not be presented as a simple linear chain or reduced to one universal arithmetic formula. A hazard alone is not the same as risk: the same event can have different consequences depending on population density, building quality, warning systems and response resources. Environmental risk is broader than disaster risk, so other models may be needed for particular questions.
 
 Key concepts include:
-- **hazard:** a potentially damaging natural or technological event;
+- **hazard:** a process, phenomenon or human activity that may cause harm;
 - **exposure:** the presence of people, infrastructure and assets in an area that may be affected;
 - **vulnerability:** conditions that increase the likelihood of harm;
-- **capacity:** resources, knowledge, institutions and skills that help prevent risk, prepare for events and respond;
+- **capacity:** the combination of resources, knowledge, institutions, skills and other strengths that help prevent risk, prepare for events and respond;
 - **risk:** the possibility of adverse consequences, taking account of probability and severity; and
 - **disaster resilience:** the ability to prepare for, withstand, recover from and adapt to impacts.
 
@@ -760,7 +760,7 @@ Technology alone does not guarantee sustainability. Outcomes depend on governanc
 
 Ниже приведены ключевые термины главы и их английские эквиваленты. / The glossary below pairs the chapter's key terms with their English equivalents.
 
-Экология — Ecology; экологическая география — Environmental geography; экосистема — Ecosystem; устойчивость экосистемы — Ecosystem resilience; экосистемные услуги — Ecosystem services; биоразнообразие — Biodiversity; антропогенное воздействие — Human pressure; планетарные границы — Planetary boundaries; парниковый эффект — Greenhouse effect; смягчение изменения климата — Climate mitigation; адаптация — Adaptation; деградация земель — Land degradation; эвтрофикация — Eutrophication; циркулярная экономика — Circular economy; экологический риск — Environmental risk; опасность — Hazard; экспозиция (подверженность) — Exposure; уязвимость — Vulnerability; возможности — Capacity; риск бедствий — Disaster risk; ОВОС — Environmental Impact Assessment (EIA); СЭО — Strategic Environmental Assessment (SEA); экологическая справедливость — Environmental justice; природоориентированные решения — Nature-based solutions.
+Экология — Ecology; экологическая география — Environmental geography; экосистема — Ecosystem; устойчивость экосистемы — Ecosystem resilience; экосистемные услуги — Ecosystem services; биоразнообразие — Biodiversity; антропогенное воздействие — Human pressure; планетарные границы — Planetary boundaries; парниковый эффект — Greenhouse effect; смягчение изменения климата — Climate mitigation; адаптация — Adaptation; деградация земель — Land degradation; эвтрофикация — Eutrophication; циркулярная экономика — Circular economy; экологический риск — Environmental risk; опасность — Hazard; экспозиция (подверженность) — Exposure; уязвимость — Vulnerability; потенциал — Capacity; риск бедствий — Disaster risk; ОВОС — Environmental Impact Assessment (EIA); СЭО — Strategic Environmental Assessment (SEA); экологическая справедливость — Environmental justice; природоориентированные решения — Nature-based solutions.
 
 ## 13.18. Контрольные вопросы и практические задания / Review Questions and Practical Activities
 
@@ -881,7 +881,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 Техническое задание 13-G: сравнить эрозию, засоление, уплотнение и восстановление почвенного покрова; изображать разные процессы отдельно, не смешивая их визуально. / Visual brief 13-G: compare erosion, salinisation, compaction and soil-cover restoration as distinct processes.
 
 **Визуал 13-C / Visual 13-C — Риск бедствий: четыре взаимосвязанных компонента / Disaster risk: four interacting components.**  
-Показывать опасность, экспозицию, уязвимость и возможности (capacity) как взаимодействующие компоненты, без линейной последовательности и универсальной числовой формулы. / Show hazard, exposure, vulnerability and capacity as interacting components, without a linear sequence or a universal numerical formula.
+Показывать опасность, экспозицию, уязвимость и потенциал (capacity) как взаимодействующие компоненты, без линейной последовательности и универсальной числовой формулы. / Show hazard, exposure, vulnerability and capacity as interacting components, without a linear sequence or a universal numerical formula.
 
 Техническое задание 13-H: показать разные цели и примеры смягчения и адаптации; не представлять меры как взаимозаменяемые. / Visual brief 13-H: show the different aims and examples of mitigation and adaptation; do not present them as interchangeable.
 
