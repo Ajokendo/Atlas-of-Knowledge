@@ -67,7 +67,7 @@ Specialisation can raise productivity by concentrating knowledge and infrastruct
 Для общего описания экономики используют деление на сектора. Классическая трёхсекторная схема включает:
 
 1. **Первичный сектор:** добыча природных ресурсов, сельское, лесное и рыбное хозяйство.
-2. **Вторичный сектор:** обрабатывающая промышленность, строительство и преобразование сырья в продукцию.
+2. **Вторичный сектор:** обрабатывающая промышленность, строительство и преобразование сырья в продукцию; в некоторых учебных моделях к нему также относят энергетику и коммунальные услуги.
 3. **Третичный сектор:** торговля и услуги — транспорт, связь, образование, здравоохранение, финансы, туризм и другие виды деятельности.
 
 В расширенных моделях отдельно выделяют **четвертичный сектор**, связанный с информацией, исследованиями, разработками и высококвалифицированными интеллектуальными услугами, а иногда и **пятеричный сектор**, связанный с высшим управлением и принятием стратегических решений. Эти категории не являются универсальной статистической классификацией.
@@ -102,7 +102,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 
 ## 11.4. Валовой внутренний продукт и другие экономические показатели / GDP and Other Economic Indicators
 
-**Валовой внутренний продукт (ВВП)** — денежная оценка конечных товаров и услуг, произведённых на экономической территории страны за определённый период. ВВП можно рассчитывать производственным, распределительным (по доходам) и методом конечного использования (по расходам); при согласованной системе национальных счетов результаты должны быть согласованы.
+**Валовой внутренний продукт (ВВП)** — показатель стоимости конечного производства на экономической территории страны за определённый период. Производственным методом он равен сумме валовой добавленной стоимости резидентных производителей и налогов на продукты за вычетом субсидий на продукты. В национальных счетах учитывается как рыночное, так и соответствующее правилам системы нерыночное производство. ВВП также можно рассчитать распределительным (по доходам) и методом конечного использования (по расходам); при согласованной системе национальных счетов результаты должны быть согласованы. Промежуточные товары не прибавляют к конечному выпуску отдельно, чтобы избежать двойного счёта.
 
 ВВП на душу населения — ВВП, делённый на численность населения. Он полезен для сопоставления среднего масштаба экономического производства, но не показывает распределение доходов, неоплачиваемый труд, качество окружающей среды или все аспекты благополучия.
 
@@ -126,7 +126,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 
 Ни один показатель не описывает экономику полностью. ВВП измеряет производство, а не распределение выгод и не является прямой мерой экологической устойчивости или субъективного благополучия.
 
-**Gross domestic product (GDP)** is the monetary value of final goods and services produced within a country's economic territory during a given period. GDP can be measured using the production, income and expenditure approaches. Under a consistent system of national accounts, the results should reconcile.
+**Gross domestic product (GDP)** measures the value of final production within a country's economic territory during a given period. Under the production approach, it equals the gross value added of resident producers plus taxes on products less subsidies on products. National accounts include both market output and non-market production that falls within the SNA production boundary. GDP can also be measured using the income and expenditure approaches; under a consistent system of national accounts, the results should reconcile. Intermediate goods are not added separately to final output, which avoids double counting.
 
 GDP per capita is GDP divided by the population. It is useful for comparing the average scale of economic production, but it does not show how income is distributed, unpaid work, environmental quality or every aspect of well-being.
 
@@ -186,7 +186,7 @@ The importance of these factors varies by industry. A steel mill, data centre, t
 
 ## 11.6. Промышленность и индустриальные районы / Industry and Industrial Regions
 
-В широком смысле промышленность охватывает добывающие и обрабатывающие производства, энергетику и коммунальную инфраструктуру; точные статистические границы зависят от используемой классификации. В трёхсекторной модели, рассмотренной выше, добывающие отрасли обычно относят к первичному сектору, а обрабатывающие производства и строительство — ко вторичному.
+В широком употреблении **промышленность** может охватывать добывающие и обрабатывающие производства, энергетику и коммунальную инфраструктуру; точные границы зависят от классификации. В трёхсекторной учебной модели добывающие отрасли обычно относят к первичному сектору, а обрабатывающие производства и строительство — ко вторичному; энергетику и коммунальные услуги разные модели могут группировать по-разному. Поэтому широкое понятие промышленности не следует автоматически отождествлять со вторичным сектором.
 
 Промышленные районы формируются вокруг ресурсных баз, транспортных узлов, портов, крупных рынков, научных центров или исторически сложившихся производственных кластеров. В одних регионах преобладают тяжёлые отрасли, в других — машиностроение, электроника, химическая промышленность, пищевая переработка или высокотехнологичные производства.
 
@@ -194,7 +194,7 @@ The importance of these factors varies by industry. A steel mill, data centre, t
 
 Деиндустриализация означает сокращение относительной роли промышленности в занятости или выпуске; она может быть связана с автоматизацией, переносом производства, ростом производительности и увеличением доли услуг. Реиндустриализация — попытка укрепить производственные компетенции и технологическую базу. Эти процессы не обязательно означают простое возвращение прежних заводов.
 
-In a broad sense, industry includes extractive and manufacturing activities, energy production and utility infrastructure; exact statistical boundaries depend on the classification used. In the three-sector model described above, extractive activities are usually assigned to the primary sector, while manufacturing and construction are assigned to the secondary sector.
+In broad usage, **industry** may include extractive and manufacturing activities, energy production and utility services; exact boundaries depend on the classification used. In the three-sector teaching model described above, extractive activities are usually assigned to the primary sector, while manufacturing and construction are assigned to the secondary sector. Different models may group energy and utility services differently. The broad term *industry* should therefore not automatically be equated with the secondary sector.
 
 Industrial regions develop around resource bases, transport hubs, ports, large markets, research centres or historically established production clusters. Some regions specialise in heavy industry, while others focus on engineering, electronics, chemicals, food processing or high-technology manufacturing.
 
@@ -217,11 +217,13 @@ Deindustrialisation is a decline in industry's relative share of employment or o
 
 Интенсивность земледелия определяется не только количеством удобрений и техники, но и урожайностью, использованием воды, трудом, знаниями и воздействием на экосистемы. Высокая урожайность может сочетаться с деградацией почв и водных ресурсов, если управление неустойчиво.
 
-Продовольственная безопасность включает физическую и экономическую доступность достаточной, безопасной и питательной пищи, её использование организмом и стабильность этих условий во времени. Производство продовольствия в стране само по себе не гарантирует продовольственную безопасность всех домохозяйств.
+**Продовольственная безопасность** существует, когда все люди в любое время имеют физический, социальный и экономический доступ к достаточному количеству безопасной и питательной пищи, соответствующей их потребностям и предпочтениям для активной и здоровой жизни. В анализе выделяют четыре взаимосвязанных измерения: наличие продовольствия (производство, запасы и торговля); физический и экономический доступ к нему; использование пищи (питательная ценность, безопасность, приготовление, вода, санитария и состояние здоровья); стабильность всех трёх измерений во времени. Производство продовольствия в стране само по себе не гарантирует продовольственную безопасность всех домохозяйств.
 
 ![Географические факторы сельского хозяйства / Geographical factors of agriculture](../assets/diagrams/11-E-agricultural-location-factors-bilingual.svg)
 
 *Оригинальная учебная схема, не карта конкретного района; факторы взаимодействуют и не имеют универсальных весов. / Original teaching diagram, not a map of a specific area; factors interact and have no universal weights.*
+
+**Рисунок 11.3 / Figure 11.3 — Географические факторы сельского хозяйства / Geographical factors of agriculture.** Схема показывает взаимодействие природных условий, водных ресурсов и землепользования; она не задаёт универсальные веса факторов. / The diagram shows the interaction of natural conditions, water resources and land use; it does not assign universal weights to the factors.
 
 
 Agriculture depends on climate, soils, relief, water resources, seasonality, technology, land tenure, markets and public policy. Its geography includes crop production, livestock, agroforestry, fisheries, and the related storage and processing chains.
@@ -238,7 +240,7 @@ Major types of agricultural systems include:
 
 Agricultural intensity is not determined only by the amount of fertiliser and machinery used. It also involves yields, water use, labour, knowledge and ecosystem impacts. High yields may coexist with soil and water degradation if management is unsustainable.
 
-Food security includes the physical and economic availability of sufficient, safe and nutritious food, the ability of people to use that food, and the stability of these conditions over time. Domestic food production alone does not guarantee food security for every household.
+**Food security** exists when all people, at all times, have physical, social and economic access to sufficient, safe and nutritious food that meets their dietary needs and preferences for an active and healthy life. Four interrelated dimensions are commonly identified: food availability (production, stocks and trade); physical and economic access to food; food utilisation (nutritional quality, safety, preparation, water, sanitation and health); and the stability of all three dimensions over time. Domestic food production alone does not guarantee food security for every household.
 
 ## 11.8. Энергетическая география / Energy Geography
 
@@ -256,6 +258,8 @@ Food security includes the physical and economic availability of sufficient, saf
 ![Энергетическая система и пример Кыргызстана за 2025 год / Energy system and Kyrgyzstan example for 2025](../assets/diagrams/11-F-energy-system-bilingual.svg)
 
 *Схема отделяет генерацию, передачу, распределение и снабжение. Показатели 2025 года округлены и не являются полным энергетическим балансом. / The diagram separates generation, transmission, distribution and supply. 2025 indicators are rounded and do not constitute a full energy balance.*
+
+**Рисунок 11.4 / Figure 11.4 — Энергетическая система и показатели Кыргызстана за 2025 год / Energy system and Kyrgyzstan's 2025 indicators.** Значения отражают опубликованные показатели производства, потребления и импорта; их нельзя трактовать как полный баланс без учёта экспорта, потерь и методики учёта. / Values show published generation, consumption and import indicators; they should not be treated as a complete balance without exports, losses and accounting methodology.
 
 
 Energy geography studies the location of energy sources, production, conversion, transmission and consumption. Energy systems include fuel extraction, power plants, networks, storage, markets and end users.
@@ -317,7 +321,7 @@ Territorial accessibility can be assessed not only by distance but also by trave
 
 *Схема концептуальная: конкретная цепочка может включать другие стадии и географию; она не изображает конкретный товар или торговый маршрут. / Conceptual diagram: an actual chain may include different stages and geographies; it does not depict a specific product or trade route.*
 
-Международная торговля включает обмен товарами и услугами между странами. Экспорт — поставки товаров и услуг за пределы экономической территории резидентами, импорт — приобретение соответствующих товаров и услуг из-за рубежа. Статистические определения и оценка потоков могут различаться, особенно для услуг, реэкспорта и цифровых продуктов.
+Международная торговля включает обмен товарами и услугами между странами. В статистике внешнего сектора экспорт отражает операции резидентов с нерезидентами, а импорт — обратные операции. При учёте товаров в платёжном балансе в общем случае важен переход экономической собственности, поэтому физическое пересечение границы и экспорт по платёжному балансу не всегда совпадают. Таможенная статистика может использовать критерий физического перемещения товаров через границу; услуги учитываются как операции между резидентами и нерезидентами. При сравнении данных необходимо проверять применяемую методологию, период и классификацию.
 
 Торговая география исследует направления потоков, специализацию стран, транспортные коридоры, тарифные и нетарифные барьеры, торговые соглашения и зависимость от внешних рынков.
 
@@ -335,7 +339,7 @@ Territorial accessibility can be assessed not only by distance but also by trave
 
 100 − 60 − 15 = **25 условных денежных единиц**.
 
-Эти 25 единиц включают оплату труда, валовой операционный излишек (в который уже входит потребление основного капитала, или амортизация) и другие налоги на производство за вычетом субсидий; валовая добавленная стоимость не равна прибыли предприятия. Расчёт показывает, почему стоимость экспорта нельзя автоматически приравнивать к доходу, созданному внутри страны: часть стоимости может быть сформирована импортными ресурсами и на предыдущих этапах цепочки.
+Эти 25 единиц включают оплату труда, валовой операционный излишек, смешанный доход некорпоративных предприятий и другие налоги на производство за вычетом субсидий. Валовой операционный излишек включает потребление основного капитала (амортизацию); валовая добавленная стоимость не равна прибыли предприятия. Расчёт показывает, почему стоимость экспорта нельзя автоматически приравнивать к доходу, созданному внутри страны: часть стоимости может быть сформирована импортными ресурсами и на предыдущих этапах цепочки.
 
 Это упрощённый пример для одного этапа производства. Для полноценного анализа глобальной цепочки нужны согласованные таблицы затрат-выпуска и данные о происхождении промежуточных ресурсов; нельзя просто суммировать валовую стоимость экспорта разных этапов, иначе возникает двойной счёт.
 
@@ -343,7 +347,7 @@ Assume a firm assembles a product and exports it for 100 monetary units. Importe
 
 100 − 60 − 15 = **25 monetary units**.
 
-This 25 includes compensation of employees, gross operating surplus (which already includes consumption of fixed capital), and other taxes on production less subsidies; gross value added is not the same as the firm's profit. The calculation shows why the gross value of exports cannot automatically be treated as income created domestically: part of the value may have been generated by imported inputs and at earlier stages of the chain.
+This 25 includes compensation of employees, gross operating surplus, gross mixed income of unincorporated enterprises, and other taxes on production less subsidies. Gross operating surplus includes consumption of fixed capital (depreciation); gross value added is not the same as the firm's profit. The calculation shows why the gross value of exports cannot automatically be treated as income created domestically: part of the value may have been generated by imported inputs and at earlier stages of the chain.
 
 This is a simplified example for one production stage. A full global value-chain analysis requires consistent input-output tables and information on the origin of intermediate inputs; simply adding the gross export values of different stages would create double counting.
 
@@ -377,6 +381,8 @@ The **digital divide** refers to differences in access to the internet and devic
 ![Туристская система территории / Tourism destination system](../assets/diagrams/11-G-tourism-destination-system-bilingual.svg)
 
 *Схема связывает ресурсы, инфраструктуру, услуги, посетителей, местные сообщества и экологические ограничения; это концептуальная модель, а не оценка конкретной дестинации. / The diagram links assets, infrastructure, services, visitors, local communities and environmental limits; it is a conceptual model, not an assessment of a specific destination.*
+
+**Рисунок 11.7 / Figure 11.7 — Туристская система территории / Tourism destination system.** Концептуальная схема показывает связи между туристскими ресурсами, доступом, предприятиями, посетителями, местными сообществами и экологическими пределами. / The conceptual diagram shows links among tourism assets, access, businesses, visitors, local communities and environmental limits.
 
 
 Tourism involves temporary travel outside a person's usual environment for a range of purposes, including leisure, business, visiting friends and relatives, education and medical treatment. Tourism geography studies tourism resources, flows, infrastructure, seasonality, territorial impacts and destination sustainability.
@@ -559,7 +565,7 @@ An **economic region** is a territory identified by a combination of economic sp
 A common way to describe an economy is to divide it into sectors. The classical three-sector model includes:
 
 1. **Primary sector:** extraction of natural resources, agriculture, forestry and fishing.
-2. **Secondary sector:** manufacturing, construction and the transformation of raw materials into products.
+2. **Secondary sector:** manufacturing, construction and the transformation of raw materials into products; some teaching models also include energy and utility services.
 3. **Tertiary sector:** trade and services, including transport, communications, education, health care, finance, tourism and other activities.
 
 Extended models sometimes identify a **quaternary sector**, associated with information, research, development and highly skilled knowledge services, and a **quinary sector**, associated with high-level management and strategic decision-making. These categories are not universal statistical classifications.
@@ -648,7 +654,7 @@ Accessibility can be assessed not only by distance but also by travel time, cost
 
 ### 11.10. International Trade and Global Value Chains
 
-International trade is the exchange of goods and services between countries. Exports are supplies of goods and services to non-residents by residents; imports are purchases from abroad. Statistical definitions and valuation may differ, particularly for services, re-exports and digital products.
+International trade is the exchange of goods and services between countries. In external-sector statistics, exports are transactions from residents to non-residents, while imports are the reverse. For goods recorded in the balance of payments, a change in economic ownership is generally central; physical movement across a border and balance-of-payments exports therefore do not always coincide. Customs statistics may instead use the physical movement of goods across the border. Services are recorded as transactions between residents and non-residents. When comparing data, check the applicable methodology, period and classification.
 
 Trade geography studies the direction of flows, national specialisation, transport corridors, tariff and non-tariff barriers, trade agreements and dependence on external markets.
 
@@ -865,8 +871,10 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 
 ## Научные редакционные примечания / Scientific editorial notes
 
-- При сравнении национальных счетов указывать версию СНС: 2008 SNA и 2025 SNA — разные редакции международного стандарта; переход национальных статистических систем может происходить поэтапно.
-- When comparing national accounts, state the SNA version: the 2008 SNA and 2025 SNA are distinct editions of the international standard, and national statistical systems may transition gradually.
+- При сравнении национальных счетов указывать версию СНС: 2008 SNA и 2025 SNA — разные редакции международного стандарта; переход национальных статистических систем может происходить поэтапно. Для сопоставления данных проверять, какая редакция фактически применена в конкретном национальном ряду.
+- When comparing national accounts, state the SNA version: the 2008 SNA and 2025 SNA are distinct editions of the international standard, and national statistical systems may transition gradually. Check which edition is actually applied in each national time series.
+- Для статистики платёжного баланса также указывать применяемую редакцию руководства МВФ: BPM6 или BPM7. Выпуск BPM7 в 2025 году не означает, что все страны уже перешли на него; международный целевой период внедрения — 2029–2030 годы.
+- For balance-of-payments statistics, also state the IMF manual edition used: BPM6 or BPM7. The release of BPM7 in 2025 does not mean that all countries have already adopted it; the international target implementation window is 2029–2030.
 
 - Все фактические экономические показатели должны иметь год, единицу измерения, источник и описание методологии.
 - При сравнении ВВП указывать, используются ли текущие цены, постоянные цены или ППС.
@@ -897,5 +905,7 @@ LQ = 0,20 ÷ 0,15 ≈ 1,33
 16. CAWater-Info. **Key Water Developments in the Countries of Central Asia, 2025: Kyrgyz Republic.** Electricity production, consumption and import indicators for 2025. https://www.cawater-info.net/yearbook/2025/05_yearbook2025_kg_en.htm
 17. UNESCO World Heritage Centre. **Guide 1: Understanding Tourism at Your Destination.** Destination supply, demand, infrastructure and community context. https://whc.unesco.org/en/sustainabletourismtoolkit/guide1/
 18. UN Tourism. **Mountain Tourism.** Definition and sustainable-development context for mountain destinations. https://www.untourism.int/mountain-tourism
+19. Food and Agriculture Organization of the United Nations. **An Introduction to the Basic Concepts of Food Security** (2008). Four dimensions: availability, access, utilisation and stability. https://www.fao.org/4/al936e/al936e00.pdf
+20. International Monetary Fund. **Integrated Balance of Payments and International Investment Position Manual, Seventh Edition (BPM7)** (White Cover, pre-edited version, March 2025). Use alongside the national statistical authority's stated implementation basis. https://data.imf.org/-/media/iData/External-Storage/Documents/5B776E0E552E4881AF24042EAE7D049B/en/1-BPM7-White-Cover.pdf
 ---
 **Конец главы 11 / End of Chapter 11**
