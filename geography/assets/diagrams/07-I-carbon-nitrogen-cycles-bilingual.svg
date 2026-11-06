@@ -38,7 +38,7 @@
  <text x="62" y="245">Фотосинтез / Photosynthesis</text>
  <text x="62" y="290">Дыхание растений / Plant respiration</text>
  <text x="290" y="400" text-anchor="middle">Опад / Litter</text>
- <text x="445" y="260">Разложение / Decomposition</text>
+ <text x="355" y="260">Разложение / Decomposition</text>
  <text x="50" y="465">Газообмен океан–</text><text x="50" y="484">атмосфера / Air–sea exchange</text>
  <text x="455" y="450">Захоронение /</text><text x="455" y="468">Burial</text>
 </g>
