@@ -31,5 +31,5 @@
 <text x="750" y="858" font-size="22" fill="#52697c">Low / Низкая</text><text x="1295" y="858" font-size="22" fill="#52697c">High / Высокая</text>
 </g>
 <text x="82" y="420" transform="rotate(-90 82 420)" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#17324d">Biological performance / Жизненная активность</text>
-<text x="750" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#52697c">Conceptual model — boundaries and curve are illustrative, not universal measured values / Концептуальная модель — границы и кривая условны, это не универсальные измеренные значения</text>
+<text x="750" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#52697c">Conceptual curve; no universal measured values are implied.</text><text x="750" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#52697c">Кривая условна; числовая шкала не задана.</text>
 </svg>
