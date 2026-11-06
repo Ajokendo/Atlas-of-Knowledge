@@ -11,7 +11,7 @@
 - [x] Automated responsive overflow checks at 390, 768 and 1280 CSS px pass.
 - [x] No uncaught browser page errors in the final branch-head run.
 - [x] All 12 bilingual static visual topics (24 SVG files) are integrated.
-- [x] Replaced all 12 static SVG files whose creator/source provenance could not be established; preserved filenames and page references.
+- [x] Completed the documented retrospective provenance reconstruction for all 12 bilingual static visual families (24 SVG files), preserving filenames and page references. All families are classified Category C for production-lineage tracking; this does not establish a named human author, legal rightsholder, licensing authority or approved licence. Rights remain PENDING.
 - [x] Localized title/description metadata is present in replacement SVGs.
 - [x] Inspected all seven interactive visual systems; no third-party visualization-library imports or external image-asset references were identified.
 - [x] Documented replacement commits, remaining provenance limitations and the interactive-system disposition in `IMAGE_SOURCES.md` and `IMAGE_AUDIT.md`.
@@ -75,3 +75,11 @@ The following mandatory gates remain open under the root policy and must not be 
 - **Per-asset visual/accessibility evidence and final approval:** automated scans and selected rendered screenshots do not replace the remaining manual checks and a recorded final approval under the seven-gate standard.
 
 The absence of external counsel, external subject-matter experts, physical-device labs or dedicated screen-reader testers is disclosed and non-blocking as a resource limitation. It must not be confused with the unresolved documentary rights gate or the mandatory internal second-review gate. Do not claim legal clearance, `VERIFIED` status, or publication readiness while those gates remain pending.
+
+
+## Latest branch-head evidence — 6 November 2026
+
+- [x] Branch-head CI run [42197379151](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42197379151) completed successfully on commit `3f0b4a45da54b41ea9f55670f5f092809ed54f54`.
+- [x] Repository validation, pinned browser-audit tool installation, local server startup, Chromium tests for all configured Chemistry pages, and rendered screenshot upload all succeeded.
+- [x] The `chemistry-rendered-review` artifact [13492128627](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42197379151/artifacts/13492128627) was uploaded successfully.
+- [ ] This CI run does not close rights/licence evidence, competent second-person review, complete per-asset/manual state review, or final approval.
