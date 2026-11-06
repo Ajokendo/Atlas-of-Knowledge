@@ -730,3 +730,10 @@ Commits: Russian correction `bcbcdc5`; English correction `270865e`; regression 
 Expanded the screenshot capture from Russian-only baselines to both RU and EN for every one of the 12 selected pages at 390, 768 and 1280 CSS-pixel widths: 72 images per successful CI run. The test switches the page language, waits for the document language and fonts, captures the second language, and restores Russian before the remaining checks. The periodic-table scroll hint is now hidden at desktop widths and retained on narrow screens.
 
 The first corrected periodic-trends screenshot revealed that SVG marker heads were scaled by the 9 px stroke width and visually dominated the short arrows. Both SVGs now use explicit `markerUnits="userSpaceOnUse"` with 14 px arrowheads; a source regression guard checks all three markers in both languages. Commits: `60f2d2c`, `c8199c6`, `fe45794`, `5374fe3`, and bilingual screenshot capture `f89525f`. A fresh successful run and inspection of its RU/EN artifacts are required before closing these visual fixes.
+
+
+### Mobile-first acid–base diagram — 6 November 2026
+
+The 390 px screenshot showed that scaling the wide 960×460 SVG made its labels too small to read comfortably. Added a separate vertical mobile layout using inline HTML/CSS/SVG in `chapters/acids-and-bases.html`, while retaining the detailed wide SVG pair for larger screens. The mobile version presents the net ionic reaction, an enlarged idealised titration curve, the equivalence marker, Brønsted–Lowry roles and the 25 °C strong-acid/strong-base qualification. All labels and the accessible group name switch between Russian and English. The mobile layout is displayed at ≤650 px; the desktop SVG remains in use above that breakpoint. Static and Chromium regression checks now protect the responsive switch and both language variants.
+
+Commits: responsive implementation `7c0318e`; bilingual responsive browser tests `b214979`; static regression guard `d43aba4`. Fresh full CI and inspection of both language screenshots remain pending.
