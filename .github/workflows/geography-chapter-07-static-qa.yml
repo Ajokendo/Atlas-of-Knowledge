@@ -1,4 +1,5 @@
 name: Geography Chapter 07 static visual acceptance
+# Current acceptance scope: nine bilingual SVGs, 18 Markdown embeds.
 
 on:
   push:
