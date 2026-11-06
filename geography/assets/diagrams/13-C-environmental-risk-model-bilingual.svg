@@ -25,7 +25,7 @@
 </g>
 <g>
 <rect x="925" y="135" width="250" height="225" rx="18" class="box"/>
-<text x="1050" y="190" text-anchor="middle" class="t">Возможности</text><text x="1050" y="222" text-anchor="middle" class="s">Capacity</text>
+<text x="1050" y="190" text-anchor="middle" class="t">Потенциал</text><text x="1050" y="222" text-anchor="middle" class="s">Capacity</text>
 <text x="1050" y="275" text-anchor="middle" class="s">Предупреждение,</text><text x="1050" y="301" text-anchor="middle" class="s">подготовка, ресурсы</text>
 <text x="1050" y="330" text-anchor="middle" class="s">Warning, preparedness</text><text x="1050" y="350" text-anchor="middle" class="s">and resources</text>
 </g>
