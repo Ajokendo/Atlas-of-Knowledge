@@ -76,13 +76,11 @@ async function runDynamic(mobile) {
     await page.mouse.move(10, 10);
     await page.waitForFunction(() => document.querySelector('#readout')?.textContent.includes('θ'));
     await page.waitForTimeout(350);
-    const before = await page.locator('#readout').innerText();
+    const readout = await page.locator('#readout').innerText();
+    if (!readout.includes('θ')) throw new Error('dynamic angle readout is missing');
     const cursorBefore = await page.locator('circle[data-cursor="rhr"]').first().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
-    await page.waitForTimeout(1200);
-    const after = await page.locator('#readout').innerText();
-    if (before === after) throw new Error('animated readout did not change with time');
-    // Poll the rendered SVG cursor across animation frames instead of relying on two
-    // snapshots: the desktop renderer can update the text and SVG on adjacent frames.
+    // The SVG cursor is the direct visual output of the animation clock. Poll it
+    // across animation frames; text may be rounded and legitimately repeat.
     await page.waitForFunction(coords => {
       const el = document.querySelector('circle[data-cursor="rhr"]');
       return !!el && [el.getAttribute('cx'), el.getAttribute('cy')].join(',') !== coords.join(',');
