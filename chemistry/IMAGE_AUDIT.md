@@ -716,3 +716,10 @@ Inspected the first successful `chemistry-rendered-review` artifact from run [42
 - The periodic-trends SVG pair had diagonal arrows crossing the text labels in all three trend cards. Moved all arrows into the clear right-hand lane in both Russian and English SVGs. Added a static regression guard to prevent the original overlapping coordinates from returning. Commits: `f7aa179`, `736b30a`, and `8a7448a`; fresh CI is required before accepting these SVG changes.
 
 **Other observations:** the inspected molecular-lab and virtual-neutralisation mobile layouts were legible in the baseline screenshots; no additional source correction is recorded from those two captures. This is a limited first manual screenshot review, not a review of all 36 images, all interactive states, all 12 visual pages, or every browser/device combination. The new branch-head artifact must be inspected after the arrow and scroll-hint corrections.
+
+
+### Acid–base neutralisation diagram — rendered-review correction, 6 November 2026
+
+A closer inspection of the acid/base chapter screenshot exposed a second diagram-layout defect. In the Russian SVG, the pH-equivalence qualification crossed the graph's x-axis caption. In the English SVG, the Brønsted–Lowry model labels were placed inside the translated graph group at coordinates outside the viewBox, so the explanatory panel was not visible. Both language variants have now been rebuilt with separate graph and explanatory-panel groups; the pH≈7 qualification is retained inside the panel and explicitly limited to the ideal strong-acid/strong-base model at 25 °C. Static regression checks require the bilingual panel labels, closed SVG groups and absence of the obsolete overlapping/off-canvas annotations.
+
+Commits: Russian correction `bcbcdc5`; English correction `270865e`; regression guard `6d626ce`. Fresh Chromium and SVG validation are pending. This is a source/rendered-layout correction, not a chemistry model change.
