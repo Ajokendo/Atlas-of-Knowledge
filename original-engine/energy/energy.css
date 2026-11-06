@@ -64,7 +64,7 @@
 /* Keep projected vectors and board annotations legible at narrow widths. */
 @media (max-width: 900px) {
   .lbl.vec { font-size: 14px !important; }
-  .lbl.board { font-size: 12px !important; }
-  .lbl.axis { font-size: 11px !important; }
-  .lbl.tick { font-size: 9px !important; }
+  .lbl.board { font-size: 10px !important; }
+  .lbl.axis { font-size: 10px !important; }
+  .lbl.tick { font-size: 7.5px !important; }
 }
