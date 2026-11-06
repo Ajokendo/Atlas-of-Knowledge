@@ -83,6 +83,8 @@
 > **[МЕТКА ИЛЛЮСТРАЦИИ 6-B / IMAGE PLACEHOLDER 6-B]** Карта пяти океанов с указанием используемой гидрографической классификации и границы Южного океана.
 > **EN:** Map of the five oceans identifying the hydrographic classification used and the boundary of the Southern Ocean.
 
+*Картографическая основа-кандидат: Flanders Marine Institute, Global Oceans and Seas v1 (2021), DOI [10.14284/542](https://doi.org/10.14284/542), CC BY 4.0; слой `MarineRegions:goas` доступен через [WFS GeoServer VLIZ](https://geo.vliz.be/geoserver/MarineRegions/ows). Слой включает десять океанических и морских регионов, поэтому итоговая карта должна явно объяснить, как из этой классификации выделяются пять океанов. Линия Южного океана будет обозначена как конвенция набора данных, а не как универсально утверждённая граница IHO. Это пока источник геометрии-кандидат, а не готовая или проверенная карта. / **EN:** Candidate cartographic base: Flanders Marine Institute, Global Oceans and Seas v1 (2021), DOI [10.14284/542](https://doi.org/10.14284/542), CC BY 4.0; layer `MarineRegions:goas` is exposed through the [VLIZ WFS GeoServer](https://geo.vliz.be/geoserver/MarineRegions/ows). The layer contains ten ocean and sea regions, so the final map must explain how the five-ocean classification is derived from it. The Southern Ocean line will be identified as the dataset's convention, not a universally ratified IHO boundary. This is a candidate geometry source, not a completed or verified map.
+
 Мировой океан образует непрерывную водную систему, хотя традиционно его разделяют на отдельные океаны и моря. Границы между океанами условны и определяются географической и гидрографической традицией.
 
 В современной распространённой классификации выделяют пять океанов:
