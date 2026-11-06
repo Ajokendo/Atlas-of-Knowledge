@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
 <title id="title">Образование облаков и осадков / Cloud and precipitation formation</title>
-<desc id="desc">Четыре механизма подъёма воздуха: конвекция, конвергенция, фронтальный подъём и орографический подъём. Поднимающийся воздух расширяется и охлаждается; облака могут образоваться при достижении насыщения. / Four mechanisms of air ascent: convection, convergence, frontal lifting and orographic lifting. Rising air expands and cools; clouds may form when saturation is reached.</desc>
+<desc id="desc">Адаптированная двуязычная схема по Figure 2 из AMS Project Atmosphere: Clouds (2025): четыре механизма подъёма воздуха — конвекция, конвергенция, фронтальный и орографический подъём. Схема перерисована, упрощена и снабжена двуязычными подписями. Поднимающийся воздух расширяется и охлаждается; облака могут образоваться при достижении насыщения. / Adapted bilingual diagram based on Figure 2 of AMS Project Atmosphere: Clouds (2025): four lifting mechanisms — convection, convergence, frontal and orographic lifting. Redrawn, simplified and relabelled bilingually. Rising air expands and cools; clouds may form when saturation is reached.</desc>
 <defs>
  <marker id="up" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1677b8"/></marker>
  <marker id="warm" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#d97706"/></marker>
@@ -53,5 +53,5 @@
 <ellipse class="cloud" cx="870" cy="490" rx="70" ry="20"/><circle class="cloud" cx="830" cy="486" r="22"/><circle class="cloud" cx="870" cy="468" r="28"/><circle class="cloud" cx="910" cy="486" r="22"/>
 <path d="M1000 545 Q1050 590 1080 620" stroke="#d97706" stroke-width="5" fill="none" stroke-dasharray="10 8"/>
 <text x="650" y="700" class="small">Рельеф заставляет поток подниматься по склону</text>
-<text x="600" y="748" text-anchor="middle" class="small">Схема качественная, не в масштабе; не каждый подъём приводит к осадкам. / Conceptual, not to scale; not every lifting process produces precipitation.</text>
+<text x="600" y="728" text-anchor="middle" class="small">Схема качественная, не в масштабе; не каждый подъём приводит к осадкам. / Conceptual, not to scale; not every lifting process produces precipitation.</text>\n<text x="600" y="750" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#334b5c">Adapted from AMS Project Atmosphere: Clouds (2025), Figure 2, CC BY-SA 4.0. Redrawn, simplified and relabelled bilingually.</text>
 </svg>
