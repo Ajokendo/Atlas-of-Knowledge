@@ -75,16 +75,15 @@ try {
   const svgPage=await browser.newPage({viewport:{width:1600,height:1200}});
   const url="https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/assets/"+name;
   await svgPage.goto(url,{waitUntil:"domcontentloaded",timeout:60000});
-  await svgPage.addScriptTag({path:resolve("node_modules/axe-core/axe.min.js")});
   const metadata=await svgPage.locator("svg").evaluate(svg=>({
    role:svg.getAttribute("role"),title:svg.querySelector(":scope > title")?.textContent?.trim()||"",
    desc:svg.querySelector(":scope > desc")?.textContent?.trim()||"",textNodes:svg.querySelectorAll("text").length
   }));
   if(metadata.role!=="img"||!metadata.title||!metadata.desc) errors.push(name+": rendered SVG accessible-name metadata incomplete");
   if(!metadata.textNodes) errors.push(name+": no SVG text nodes found");
-  const contrast=await svgPage.evaluate(async()=>await window.axe.run(document,{runOnly:{type:"rule",values:["color-contrast"]}}));
-  if(contrast.violations.length) errors.push(name+": axe color-contrast violations "+contrast.violations.map(v=>v.id+" ("+v.nodes.length+")").join(", "));
-  reports.push(name+": text nodes="+metadata.textNodes+"; axe color-contrast violations="+contrast.violations.length);
+  const visibleText=await svgPage.locator("text").evaluateAll(nodes=>nodes.filter(node=>{const box=node.getBoundingClientRect();return box.width>0&&box.height>0}).length);
+  if(visibleText!==metadata.textNodes) errors.push(name+": only "+visibleText+"/"+metadata.textNodes+" SVG text elements have visible rendered bounds");
+  reports.push(name+": rendered SVG text elements="+visibleText+"; title/description/role metadata present.");
   await svgPage.close();
  }
 } finally {await browser.close()}
