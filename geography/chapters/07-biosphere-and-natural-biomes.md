@@ -151,7 +151,7 @@ After studying this chapter, readers will be able to explain the extent and func
 
 ![Карта восьми биогеографических областей мира по RESOLVE Ecoregions 2017; границы экорегионов сгруппированы по биогеографической области. / Map of the eight biogeographical realms using RESOLVE Ecoregions 2017; ecoregion boundaries grouped by realm.](../assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg)
 
-*07-E. Карта по классификации RESOLVE Ecoregions 2017; показаны восемь областей, включая Антарктическую. Границы природно-биогеографические, не государственные. / Map based on RESOLVE Ecoregions 2017; all eight realms, including Antarctica, are shown. Boundaries are biogeographical, not political.*  
+*07-E. Карта по классификации RESOLVE Ecoregions 2017; показаны восемь областей, включая Антарктическую. Границы природно-биогеографические, не государственные. В Антарктике показаны только полигоны экорегионов из набора RESOLVE; территории ледникового покрова без полигонов не закрашены. / Map based on RESOLVE Ecoregions 2017; all eight realms are represented. Boundaries are biogeographical, not political. In Antarctica, only source-defined ecoregion polygons are shown; ice-covered areas without polygons remain unfilled.*  
 **Рисунок 7.4 / Figure 7.4 — Биогеографические области мира / World's biogeographical realms.**
 
 ## 7.7. Широтная зональность и высотная поясность / Latitudinal Zonation and Altitudinal Belts
@@ -454,7 +454,7 @@ Major biogeographical realms reflect long-term isolation and the evolutionary hi
 
 ![Map of the eight biogeographical realms using RESOLVE Ecoregions 2017; ecoregion boundaries grouped by realm. / Карта восьми биогеографических областей мира по RESOLVE Ecoregions 2017.](../assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg)
 
-*Figure 7.4. RESOLVE Ecoregions 2017 classification; all eight realms, including Antarctica. Boundaries are biogeographical, not political.*
+*Figure 7.4. RESOLVE Ecoregions 2017 classification; all eight realms are represented. Boundaries are biogeographical, not political. In Antarctica, only source-defined ecoregion polygons are shown; ice-covered areas without polygons remain unfilled.*
 
 Important patterns include latitudinal changes in climate and vegetation from the equator to the poles; altitudinal zonation in mountains; the island effect, with restricted dispersal and vulnerability of isolated populations; the influence of barriers and dispersal corridors; and shifts in species ranges during climatic fluctuations and human transformation of landscapes.
 
