@@ -32,14 +32,14 @@
 <text x="600" y="585" text-anchor="middle" class="small">Клапаны поддерживают однонаправленный ток</text>
 <text x="600" y="609" text-anchor="middle" class="small">Valves maintain one-way flow</text>
 <!-- flow arrows -->
-<path class="blue" marker-end="url(#blueArrow)" d="M510 455C400 470 350 390 330 270"/>
-<path class="red" marker-end="url(#redArrow)" d="M395 195C470 150 635 150 710 270"/>
-<path class="red" marker-end="url(#redArrow)" d="M675 455C760 420 790 320 805 195"/>
+<path class="blue" marker-end="url(#blueArrow)" d="M500 455C455 470 430 430 430 365C430 325 410 295 395 270"/>
+<path class="red" marker-end="url(#redArrow)" d="M395 195C470 120 625 120 625 260"/>
+<path class="red" marker-end="url(#redArrow)" d="M700 455C760 455 760 350 805 270"/>
 <text x="405" y="505" class="small" fill="#397ba8">Лёгочная артерия / Pulmonary artery</text>
 <text x="405" y="135" class="small" fill="#b94d43">Лёгочные вены / Pulmonary veins</text>
 <text x="770" y="505" class="small" fill="#b94d43">Системные артерии / Systemic arteries</text>
 <!-- systemic return -->
-<path class="blue" marker-end="url(#blueArrow)" d="M890 270C880 420 820 570 680 610C540 650 370 610 275 520C220 470 220 405 275 365C335 325 415 330 490 330"/>
+<path class="blue" marker-end="url(#blueArrow)" d="M890 270C880 420 820 570 680 610C540 650 370 610 275 520C220 470 220 405 275 365C335 325 400 320 455 320"/>
 <!-- Chamber labels are drawn above the flow paths to remain legible. -->
 <text x="530" y="342" text-anchor="middle" class="small" fill="#fff">ПП / RA</text>
 <text x="670" y="342" text-anchor="middle" class="small" fill="#fff">ЛП / LA</text>
