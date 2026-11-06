@@ -10,11 +10,6 @@
 After studying this chapter, readers will be able to explain soil formation and structure, distinguish soil-forming factors and processes, interpret soil profiles, understand the geographical distribution of soils, analyse landscape structure, and assess land degradation.
 
 ## 8.1. Почва как природное тело / Soil as a Natural Body
-<!-- VISUAL ID 08-A — integrated bilingual SVG below -->
-
-![Схематический почвенный профиль с горизонтами H, O, A, E, B, C и R; последовательность условна. / Schematic soil profile with H, O, A, E, B, C horizons and R bedrock; sequence is illustrative.](../assets/diagrams/08-A-soil-profile-horizons-bilingual.svg)
-
-*08-A. Авторская двуязычная схема; обозначения описывают горизонты и не заменяют классификацию WRB. / Original bilingual diagram; horizon symbols describe layers and do not replace WRB classification. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 
 
@@ -38,8 +33,6 @@ After studying this chapter, readers will be able to explain soil formation and 
 *08-D. Авторская двуязычная схема; стрелки обозначают взаимодействия, а не измеренные потоки. / Original bilingual diagram; arrows indicate interactions, not measured fluxes. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 **Рисунок 8.1 / Figure 8.1 — Почва как зона взаимодействия геосфер / Soil as an interface among Earth's spheres.**  
-Техническое задание: показать почвенный профиль между атмосферой, растительным покровом, водами и материнской породой; отобразить корни, почвенную фауну, поры с водой и воздухом, органические остатки и минеральные частицы; все элементы подписать на двух языках.
-**EN production brief:** Show a soil profile as an interface among the atmosphere, vegetation, water and parent material. Include roots, soil fauna, pores containing water and air, organic remains and mineral particles; label every element in both languages.
 
 ## 8.2. Почвообразующие факторы / Soil-Forming Factors
 
@@ -64,10 +57,14 @@ After studying this chapter, readers will be able to explain soil formation and 
 *08-E. Авторская двуязычная схема; факторы показаны как взаимосвязанная система. / Original bilingual diagram; factors are shown as an interacting system. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 **Рисунок 8.2 / Figure 8.2 — Факторы почвообразования / Soil-forming factors.**  
-Техническое задание: центральная схема «почва» и шесть связанных блоков: климат, организмы, рельеф, материнская порода, время, человек; показать взаимодействие факторов двунаправленными стрелками, не изображать их как независимые причины.
-**EN production brief:** Place “Soil” at the centre and connect it to six interacting factors: climate, organisms, relief, parent material, time and human activity. Use two-way arrows and do not depict the factors as independent causes.
 
 ## 8.3. Строение почвенного профиля / Soil Profile and Horizons
+
+<!-- VISUAL ID 08-A — integrated bilingual SVG below -->
+![Схематический почвенный профиль с горизонтами H, O, A, E, B, C и R; последовательность условна. / Schematic soil profile with H, O, A, E, B, C horizons and R bedrock; sequence is illustrative.](../assets/diagrams/08-A-soil-profile-horizons-bilingual.svg)
+
+*08-A. Авторская двуязычная схема; обозначения описывают горизонты и не заменяют классификацию WRB. / Original bilingual diagram; horizon symbols describe layers and do not replace WRB classification. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
+
 
 Почвенный профиль — вертикальный разрез от поверхности вниз, в котором различают генетические горизонты. Набор и выраженность горизонтов зависят от типа почвы и условий формирования.
 
@@ -85,8 +82,6 @@ After studying this chapter, readers will be able to explain soil formation and 
 Гумус — сложная совокупность преобразованных органических соединений почвы, а не одно конкретное химическое вещество. Органическое вещество влияет на агрегатную структуру, водоудержание, ёмкость катионного обмена и биологическую активность.
 
 **Рисунок 8.3 / Figure 8.3 — Типовой почвенный профиль / Typical soil profile.**  
-Техническое задание: вертикальный разрез с горизонтами H–O–A–E–B–C–R; обозначить корни, гумус, зоны вымывания и накопления, материнский материал и коренную породу; использовать условную цветовую шкалу и пояснить, что не каждая почва имеет все горизонты.
-**EN production brief:** Draw a vertical profile showing the H–O–A–E–B–C–R horizons/layers. Label roots, humus, zones of eluviation and accumulation, parent material and bedrock. Use a schematic colour key and state that not every soil contains all these horizons.
 
 ## 8.4. Физические свойства почв / Physical Properties of Soils
 
@@ -177,8 +172,6 @@ After studying this chapter, readers will be able to explain soil formation and 
 При использовании слоя почвенных групп SoilGrids 2.0 важно учитывать его отдельное происхождение: он основан на агрегированных прогнозах версии 2017 года и классификации WRB 2006, включает 30 групп и не является новой картой по WRB 4-го издания (2022). Эти данные нельзя подписывать как современную карту всех 32 групп WRB 2022.
 
 **Рисунок 8.4 / Figure 8.4 — Глобальная карта почв / Global soil map.**  
-Техническое задание: выбрать один из двух разных продуктов — карту почвенных групп по WRB (с указанием редакции классификации и происхождения данных) либо карту отдельных свойств почвы (например, pH или органического углерода) по SoilGrids; не объединять их в одну неразличимую легенду. Указать год/версию набора, пространственное разрешение, глубину, единицы, метод получения и неопределённость; показать пробелы и зоны низкой плотности полевых наблюдений.
-**EN production brief:** Choose one of two distinct products: a WRB soil-group map (identify the classification edition and data provenance) or a map of a specific soil property (for example, pH or organic carbon) from SoilGrids. Do not combine them in one ambiguous legend. State dataset version/date, spatial resolution, depth interval, units, method and uncertainty; show data gaps and areas with sparse field observations.
 
 ## 8.8. Почвы основных природных зон / Soils Across Major Natural Zones
 
@@ -221,8 +214,6 @@ After studying this chapter, readers will be able to explain soil formation and 
 Опустынивание не означает простое «движение пустыни» и не тождественно естественному существованию пустынных экосистем. Согласно определению UNCCD, это деградация земель в аридных, полузасушливых и сухих субгумидных районах под воздействием различных факторов, включая климатические колебания и деятельность человека.
 
 **Рисунок 8.5 / Figure 8.5 — Формы почвенной эрозии / Types of soil erosion.**  
-Техническое задание: три панели — плоскостной смыв, овражная эрозия и дефляция; показать направление переноса частиц, роль растительного покрова и меры снижения риска; не преувеличивать масштабы для иллюстративной ясности.
-**EN production brief:** Use three panels to show sheet erosion, gully erosion and wind deflation. Indicate particle movement, the role of vegetation cover and risk-reduction measures; do not exaggerate process scale for visual effect.
 
 ## 8.10. Охрана и устойчивое управление почвами / Soil Conservation and Sustainable Management
 
@@ -278,8 +269,6 @@ After studying this chapter, readers will be able to explain soil formation and 
 *08-F. Авторская двуязычная схема; рельеф и границы не обозначают конкретную территорию, терминологическая иерархия зависит от научной школы. / Original bilingual diagram; relief and boundaries do not represent a real location, and terminology varies by scholarly tradition. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 **Рисунок 8.6 / Figure 8.6 — Морфологическая структура ландшафта / Morphological structure of a landscape.**  
-Техническое задание: схематический блок-диаграммный ландшафт с водоразделом, склоном, террасой, поймой и долиной; выделить фации и урочища условными контурами; подписать взаимосвязи стока и переноса вещества.
-**EN production brief:** Create a schematic block diagram of a landscape with a watershed divide, slope, terrace, floodplain and valley. Outline facies and landscape units schematically, and label runoff and material-transfer connections.
 
 ## 8.13. Антропогенные ландшафты и землепользование / Human-Modified Landscapes and Land Use
 
@@ -307,8 +296,6 @@ After studying this chapter, readers will be able to explain soil formation and 
 *08-G. Авторская двуязычная схема; структурная и функциональная связность различаются, конкретные маршруты видов не изображены. / Original bilingual diagram; structural and functional connectivity are distinguished, with no species-specific routes represented. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
 **Рисунок 8.7 / Figure 8.7 — Мозаика ландшафта: пятна, коридоры и матрица / Landscape mosaic: patches, corridors and matrix.**  
-Техническое задание: плановая схема природной территории с лесными пятнами, речным коридором, аграрной матрицей и дорогой-барьером; показать структурную и функциональную связность разными условными обозначениями.
-**EN production brief:** Create a plan-view diagram of a natural area with forest patches, a river corridor, an agricultural matrix and a road acting as a barrier. Use different symbols to distinguish structural from functional connectivity.
 
 ## 8.15. Методы почвенных и ландшафтных исследований / Methods in Soil and Landscape Studies
 
@@ -348,6 +335,12 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ### 8.1. Soil as a Natural Body
 
+<!-- VISUAL ID 08-D — integrated bilingual SVG below -->
+![Soil as an interface among the atmosphere, biosphere, hydrosphere and lithosphere; flows are qualitative, not measured.](../assets/diagrams/08-D-soil-earth-spheres-interface-bilingual.svg)
+
+*08-D. Original bilingual teaching diagram; arrows indicate interactions, not measured fluxes. Licence: CC BY-NC 4.0; attribution: Atlas of Knowledge project.*
+
+
 Soil is a natural body that forms near Earth's surface through the long-term interaction of mineral material, organic matter, water, air and living organisms. It has its own properties and structure and can support plant growth. Soil is not the same as rock: rock may provide its parent material, but soil develops through weathering, the accumulation and transformation of organic matter, the movement of substances and biological activity.
 
 Soil performs many functions:
@@ -361,6 +354,12 @@ Soil performs many functions:
 Pedology is the study of soil formation, morphology, properties, classification and geographical distribution. The sustainable use and conservation of soils are important applied fields of soil science. Vasily Dokuchaev played an important role in the development of genetic soil science by treating soil as an independent natural body formed through the combined influence of several factors.
 
 ### 8.2. Soil-Forming Factors
+
+<!-- VISUAL ID 08-E — integrated bilingual SVG below -->
+![Six interacting soil-forming factors: climate, organisms, relief, parent material, time and human activity.](../assets/diagrams/08-E-soil-forming-factors-bilingual.svg)
+
+*08-E. Original bilingual teaching diagram; factors are shown as an interacting system. Licence: CC BY-NC 4.0; attribution: Atlas of Knowledge project.*
+
 
 The classical model identifies five main soil-forming factors: climate, organisms, relief, parent material and time. Modern models also emphasise human influence and the history of land use.
 
@@ -377,6 +376,12 @@ The classical model identifies five main soil-forming factors: climate, organism
 **People** alter soils through ploughing, irrigation, drainage, grazing, construction, pollution, fertiliser use and forest restoration. Human impacts can improve or worsen particular soil properties, but they often have long-term consequences.
 
 ### 8.3. Soil Profile and Horizons
+
+<!-- VISUAL ID 08-A — integrated bilingual SVG below -->
+![Schematic soil profile with H, O, A, E, B, C and R horizons/layers; the sequence is illustrative, not universal.](../assets/diagrams/08-A-soil-profile-horizons-bilingual.svg)
+
+*08-A. Original bilingual teaching diagram; horizon symbols describe layers and do not replace WRB classification. Licence: CC BY-NC 4.0; attribution: Atlas of Knowledge project.*
+
 
 A soil profile is a vertical section from the surface downwards in which genetic horizons can be distinguished. The number and expression of horizons depend on soil type and formation conditions.
 
@@ -495,6 +500,12 @@ Mountain soils are often patchy: slopes may have shallow soils, valleys accumula
 
 ### 8.9. Soil Erosion and Land Degradation
 
+<!-- VISUAL ID 08-C — integrated bilingual SVG below -->
+![Conceptual diagram of water and wind erosion, salinisation, compaction and soil-conservation measures.](../assets/diagrams/08-C-soil-degradation-processes-bilingual.svg)
+
+*08-C. Original bilingual teaching diagram; processes are conceptual, not to scale and not quantified. Licence: CC BY-NC 4.0; attribution: Atlas of Knowledge project.*
+
+
 Land degradation is a decline in the biological productivity, ecological functions and/or economic value of land caused by natural and human-driven processes. This broad teaching definition should be distinguished from the specific UNCCD Convention definition, which applies to arid, semi-arid and dry sub-humid areas.
 
 **Water erosion** occurs when raindrops and surface runoff detach and transport soil particles. It may appear as sheet wash, rills and gullies. Risk increases when vegetation is removed, soil is compacted, slopes are steep and rainfall is intense.
@@ -525,6 +536,12 @@ Natural landscapes are rarely completely isolated. Water and sediment move along
 
 ### 8.12. Landscape Classification and Morphology
 
+<!-- VISUAL ID 08-F — integrated bilingual SVG below -->
+![Conceptual landscape profile with divide, slope, terrace, floodplain and valley; morphological units are schematic.](../assets/diagrams/08-F-landscape-morphology-block-bilingual.svg)
+
+*08-F. Original bilingual teaching diagram; relief and boundaries do not represent a real location, and terminology varies by scholarly tradition. Licence: CC BY-NC 4.0; attribution: Atlas of Knowledge project.*
+
+
 Landscapes may be classified by origin, relief, climate, moisture, vegetation, soils and degree of human transformation.
 
 Depending on dominant natural conditions, examples include plains, mountains, coasts, river landscapes, wetlands, deserts and forests. By degree of transformation, landscapes may be natural, slightly modified, cultural, agricultural, urban or industrial. These categories are not always mutually exclusive: an urban landscape may include river terraces, natural slopes and artificial surfaces.
@@ -546,6 +563,12 @@ Agricultural landscapes provide food but may involve monocultures, habitat loss,
 Landscape planning aims to align economic activity with natural constraints and ecological functions. Important approaches include catchment-based planning, conservation of ecological corridors, protection of slopes and floodplains, and assessment of cumulative impacts from multiple projects.
 
 ### 8.14. Landscape Ecology and Spatial Processes
+
+<!-- VISUAL ID 08-G — integrated bilingual SVG below -->
+![Landscape mosaic with habitat patches, a river corridor, agricultural matrix and road barrier; structural and functional connectivity are distinguished.](../assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg)
+
+*08-G. Original bilingual teaching diagram; no species-specific routes are represented. Licence: CC BY-NC 4.0; attribution: Atlas of Knowledge project.*
+
 
 Landscape ecology studies how spatial structure influences ecological processes. Three common elements are:
 - **patches:** areas with relatively uniform cover;
@@ -680,7 +703,7 @@ Salinity thresholds also depend on the classification and measurement method. An
 - Для засоления и осолонцевания применять отдельные диагностические критерии.
 - Оценки темпов эрозии, запасов углерода и площадей деградированных земель должны сопровождаться источником, периодом и методикой.
 - В ландшафтных схемах обозначать масштаб и принятую иерархию морфологических единиц.
-- Все иллюстрации пока представлены техническими заданиями. Карты, профили и схемы перед публикацией должны пройти научную и языковую редактуру.
+- Все семь запланированных визуальных ID интегрированы в русскую и английскую части главы. Шесть оригинальных SVG имеют лицензию CC BY-NC 4.0 по разрешению владельца проекта; карта 08-B воспроизведена без изменений по условиям ISRIC с полной атрибуцией. Научная, визуальная, браузерная, мобильная и доступностная проверка остаются отдельными этапами.
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
@@ -693,6 +716,7 @@ Salinity thresholds also depend on the classification and measurement method. An
 7. European Commission Joint Research Centre. **European Soil Data Centre (ESDAC)** — open soil data and mapping products. https://esdac.jrc.ec.europa.eu/
 8. Turner, M. G., Gardner, R. H., & O'Neill, R. V. (2001). *Landscape Ecology in Theory and Practice: Pattern and Process* (1st ed.). Springer. https://doi.org/10.1007/b97434
 9. FAO. **Soil Salinity Assessment: Methods and Interpretation of Electrical Conductivity Measurements** — laboratory methods for saturated-paste extracts and interpretation of soil salinity. https://www.fao.org/4/x2002e/x2002e.pdf
+10. Caspari, T., & Schad, P. (2022). **World Soil Map according to WRB 2014, derived from the Harmonized World Soil Database.** Technical Note 2023/01. ISRIC – World Soil Information, Wageningen. DOI: https://doi.org/10.17027/isric-wdcssoils-h7aa-qm24. Map compiled in 2015; reproduced unchanged with full acknowledgement under ISRIC's stated reuse permission.
 10. USDA Natural Resources Conservation Service. **Field Book for Describing and Sampling Soils**, Version 4.0 (2024) — distinguishes saturated-paste ECe from other extract ratios and field apparent EC. https://www.nrcs.usda.gov/sites/default/files/2025-04/Field-Book-for-Describing-and-Sampling-Soils-v4.pdf
 11. ISRIC — World Soil Information. **SoilGrids 2.0 documentation and FAQ** — global modelled soil-property maps at 250 m, six depth intervals and mapped prediction uncertainty; includes limitations in regions with sparse profile observations. https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html
 12. Poggio, L. et al. (2021). **SoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty.** *SOIL*, 7, 217–240. https://doi.org/10.5194/soil-7-217-2021
@@ -729,6 +753,6 @@ The numerical examples in this chapter are instructional; they are not results f
 - **Bulk density and porosity:** retained the worked example (1,300 g / 1,000 cm³ = 1.3 g/cm³; estimated porosity ≈50.9% using an assumed particle density of 2.65 g/cm³). The text identifies this as an estimate and states its assumptions; it must not be presented as a direct measurement of pore space.
 - **Salinity measurement:** clarified that ECe from a saturated-paste extract at 25 °C is not interchangeable with EC from a 1:5 extract or field apparent-conductivity readings. The method, ratio, temperature and units must be stated.
 - **Salinity versus sodicity:** clarified that electrical conductivity alone does not identify salt composition or diagnose exchangeable-sodium effects; separate chemical and exchange-related measurements are required. The historical ECe value near 4 dS/m is explicitly not a universal crop-damage threshold.
-- **Visual production:** checked all seven unique bilingual visual IDs against the repository. Six SVG assets (08-A, 08-C, 08-D, 08-E, 08-F and 08-G) exist and are referenced as integrated; 08-B remains a placeholder because its referenced SVG is absent. No visual files or image references were changed.
+- **Visual production update — 6 November 2026:** all seven planned visual IDs (08-A–08-G) are now integrated in both Russian and English sections (14 embeds total). 08-B is the unchanged ISRIC WRB 2014 global map, derived from HWSD v1.2, with full source acknowledgement and an explicit warning that it is not a WRB 2022 map. The six original local SVGs are covered by the project owner's standing CC BY-NC 4.0 authorisation. The 08-A soil-profile diagram was moved from section 8.1 to its correct teaching location in section 8.3; obsolete production briefs for completed visuals were removed. Rendered browser/mobile and manual accessibility QA remain pending.
 - **Bilingual structure:** the previous heading-ID audit found 17 matched numbered teaching headings in Russian and English; sentence-level translation proofreading remains a separate release task.
 
