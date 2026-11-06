@@ -1,38 +1,37 @@
-# Chapter 07 — asset-specific licence notice
+# Geography Atlas — visual asset licence authority
 
 **Branch:** `workspace/geography`  
 **Decision date:** 6 November 2026  
-**Attribution party:** Atlas of Knowledge project
+**Attribution party for project-controlled original visuals:** Atlas of Knowledge project
 
-## Scope of CC BY-NC 4.0 authorisation
+## Project-owner authorisation — original Geography Atlas visuals
 
-The project owner expressly confirmed that the following six original project-local SVG assets may be designated under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**:
+On 6 November 2026, the project owner expressly authorised the application of **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** to **all original visual assets in the Geography Atlas that the project owner or Atlas of Knowledge project owns or is otherwise authorised to license**, including existing eligible original visuals and future original visuals created for this atlas.
 
-| Visual ID | Exact asset path |
-|---|---|
-| 07-A | `geography/assets/diagrams/07-A-biosphere-earth-spheres-bilingual.svg` |
-| 07-B | `geography/assets/diagrams/07-B-food-web-energy-pyramid-bilingual.svg` |
-| 07-F | `geography/assets/diagrams/07-F-terrestrial-biome-panorama-bilingual.svg` |
-| 07-G | `geography/assets/diagrams/07-G-lake-ocean-zonation-bilingual.svg` |
-| 07-H | `geography/assets/diagrams/07-H-habitat-connectivity-bilingual.svg` |
-| 07-I | `geography/assets/diagrams/07-I-carbon-nitrogen-cycles-bilingual.svg` |
+This is a standing, atlas-wide authorisation for eligible original visuals; it supersedes earlier lists that limited the owner's authorisation to selected asset IDs. It includes the original project-created visual **07-J**:
 
-Rights status for these exact files is **PASS based on the project-owner's representation of licensing authority**. This is not an independent legal opinion or external rights audit. No individual human creator or author-rightsholder is asserted.
+`geography/assets/diagrams/07-J-latitudinal-zonation-altitudinal-belts-bilingual.svg`
 
-Licence deed: https://creativecommons.org/licenses/by-nc/4.0/  
-Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+**Suggested attribution:** “Atlas of Knowledge project — CC BY-NC 4.0.” Retain the licence link and identify modifications when adapting the work. Licence deed: https://creativecommons.org/licenses/by-nc/4.0/ ; legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode.
 
-Suggested attribution: **“Atlas of Knowledge project — CC BY-NC 4.0.”** Identify any modifications when adapting the assets and retain the licence link. The licence permits non-commercial sharing and adaptation subject to its terms; commercial use is not granted by this designation.
+The rights PASS status for an eligible original asset is based on the project owner's representation that the project has authority to license it. This record is not an independent legal opinion or external rights audit. It does not assert an individual human creator where none is documented.
 
-## Explicit exclusions — do not apply CC BY-NC 4.0
+## Scope limits — third-party and adapted material
 
-- **07-D** — adapted from a third-party source; retain **CC BY 4.0**, original source attribution and change notice.
-- **07-C and 07-E** — planned maps derived from RESOLVE Ecoregions 2017; retain **CC BY 4.0** dataset attribution and terms. These maps are not yet generated or integrated.
-- The repository-root `LICENSE`, Nathan Liow's work, Chapter 07 prose, other Geography assets, other chapters and the Atlas as a whole are outside this decision.
+This authorisation **does not relicense third-party works** and does not override source-specific licences, attribution conditions, share-alike requirements, public-domain status, or restrictions. In particular:
 
-This file records a narrow asset-level licence decision. It does not alter scientific, accessibility, technical, deployment or independent-review statuses.
+- **07-C and 07-E** — RESOLVE Ecoregions 2017 derivative maps; retain the source dataset's **CC BY 4.0** terms and attribution.
+- **07-D** — adaptation of a third-party Shelford tolerance-curve source; retain **CC BY 4.0**, original creator/source attribution and change notice.
+- Any other Geography visual based on, incorporating, tracing, adapting or reproducing third-party material remains governed by the applicable upstream licence/permission for that material. A project-created layout or bilingual labels do not by themselves convert the underlying source into an original project asset.
+- Any asset whose ownership, provenance or authority to license is unknown or disputed remains **PENDING** until its individual source record establishes that it falls within this authorisation.
 
+The project-wide authorisation applies to the Geography Atlas only; it does not by itself alter the licence of the repository as a whole, other subject atlases, chapter prose, or the repository-root `LICENSE`.
 
-## Additional asset not covered by this authorisation
+## Chapter 07 status
 
-- **07-J** — `geography/assets/diagrams/07-J-latitudinal-zonation-altitudinal-belts-bilingual.svg`. This asset was created after the original six-asset authorisation. Its licence designation is **PENDING** and must not be inferred from the authorisation for 07-A, 07-B, 07-F, 07-G, 07-H and 07-I. No public reuse licence is asserted for 07-J until separately confirmed.
+- 07-A, 07-B, 07-F, 07-G, 07-H and 07-I: original project-local SVGs; covered by the standing CC BY-NC 4.0 authorisation.
+- 07-J: original project-created SVG; now covered by the standing CC BY-NC 4.0 authorisation.
+- 07-C and 07-E: third-party-data derivative maps; CC BY 4.0 retained.
+- 07-D: third-party-source adaptation; CC BY 4.0 retained.
+
+This licence record does not close scientific review, accessibility, browser/device rendering, deployment or other release gates.
