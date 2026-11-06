@@ -1,4 +1,5 @@
 import { chromium } from 'playwright';
+import { mkdir } from 'node:fs/promises';
 import AxeBuilder from '@axe-core/playwright';
 
 const base = process.env.BASE_URL || 'http://127.0.0.1:4173';
@@ -105,6 +106,8 @@ async function checkLesson(mobile) {
     await page.locator('.answers button[data-answer="a"]').click();
     if (!(await readout('#feedback')).includes('Верно')) throw new Error('oscillations quiz rejected the correct answer');
 
+    await mkdir('/tmp/physics-visual-review/oscillations', { recursive: true });
+    await regimeFigure.screenshot({ path: `/tmp/physics-visual-review/oscillations/${mobile ? 'mobile' : 'desktop'}.png` });
     const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
     const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
     if (serious.length) throw new Error(`axe found ${serious.length} serious/critical violation groups: ${serious.map(v => v.id).join(', ')}`);
