@@ -135,6 +135,51 @@ try {
         }
       }
 
+      if (viewport.width === 390) {
+        const coreViewport = page.locator(".diagram-scroll-viewport");
+        const coreStates = await coreViewport.evaluateAll(elements => elements.map(el => {
+          const hint = el.nextElementSibling;
+          const hintStyle = hint ? getComputedStyle(hint) : null;
+          return {
+            clientWidth: el.clientWidth,
+            scrollWidth: el.scrollWidth,
+            tabIndex: el.tabIndex,
+            role: el.getAttribute("role"),
+            label: el.getAttribute("aria-label") || "",
+            hintVisible: !!hint && !!hintStyle && hintStyle.display !== "none" && hint.getClientRects().length > 0,
+            hintBilingual: !!hint && !!hint.querySelector(".ru") && !!hint.querySelector(".en")
+          };
+        }));
+        const expectedCore = file.endsWith("anatomy.html") ? 3 :
+          file.endsWith("biochemistry.html") ? 3 :
+          file.endsWith("cell-biology.html") ? 4 :
+          file.endsWith("microbiology.html") ? 3 :
+          file.endsWith("systematics.html") ? 3 :
+          file.endsWith("zoology.html") ? 3 : 0;
+        if (coreStates.length !== expectedCore) {
+          errors.push(file + ": expected " + expectedCore + " core SVG viewport(s), found " + coreStates.length);
+        }
+        for (let i = 0; i < coreStates.length; i++) {
+          const state = coreStates[i];
+          if (state.scrollWidth <= state.clientWidth + 1 || state.clientWidth > 390 ||
+              state.tabIndex !== 0 || state.role !== "region" ||
+              !/[А-Яа-яЁё]/.test(state.label) || !/[A-Za-z]/.test(state.label) ||
+              !state.hintVisible || !state.hintBilingual) {
+            errors.push(file + ": core SVG viewport " + i +
+              " failed mobile scroll/accessibility guidance check: " + JSON.stringify(state));
+          }
+        }
+        if (coreStates.length) {
+          const firstCoreDiagram = coreViewport.first();
+          await firstCoreDiagram.focus();
+          await page.keyboard.press("ArrowRight");
+          const scrollLeft = await firstCoreDiagram.evaluate(el => el.scrollLeft);
+          if (scrollLeft <= 0) {
+            errors.push(file + ": ArrowRight did not horizontally scroll the focused core SVG viewport");
+          }
+        }
+      }
+
       // Capture a full-page visual-review image at each responsive breakpoint.
       // Force lazy images to decode before capture so screenshots include all page assets.
       await page.evaluate(async () => {
