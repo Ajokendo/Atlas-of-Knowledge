@@ -598,3 +598,21 @@ This second batch covers the remaining six static bilingual visual families (6/1
 Automated source regression checks were added for the corrected bond topology, two-tail phospholipid schematic, English functional-group annotations, Russian geological carbon return and bilingual periodic-trend qualifications.
 
 **Status boundary:** CH-V07–CH-V12 now have a source-level first pass; this does not mark them VERIFIED. All six still require rendered desktop/mobile inspection, bilingual visual/terminology review, rights/licence evidence, competent second-person scientific review and final approval. CH-V01–CH-V06 have their earlier source-level notes; the Chromium suite is being repaired after an English hero-alt assertion exposed a stale wording mismatch.
+
+
+## Latest branch-head checkpoint — 6 November 2026
+
+- [x] Source-level first pass completed for all 12 static bilingual families CH-V01–CH-V12 (12/12 = 100% of the defined source-review sequence). This is not a claim that the full seven-gate standard has passed.
+- [x] Corrected the English hero-image alternative text in `index.html` to match the actual electron probability-cloud concept and the browser assertion.
+- [x] Static source validation passed on the branch-head commit `06999206c3315d7060edfe3a55a68ba2c195c858`.
+- [x] GitHub Actions run [42039243308](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42039243308) completed successfully on that exact commit. The static validation and Chromium page test steps both passed; Chromium loaded all 21 Chemistry pages at 390 CSS px, completed 42 axe-core scans (RU + EN), checked 21 language toggles and key interactive workflows, and reported no uncaught page errors.
+- [x] Verified the workflow job conclusion and individual step conclusions directly. No workflow artifact or screenshot artifact was published by this run.
+
+### Remaining scope — do not conflate automated browser success with manual visual approval
+
+- [ ] Per-SVG rendered inspection at desktop and narrow/mobile dimensions, including text clipping, label collisions, stroke visibility and visual hierarchy. The current CI smoke test validates page loading, accessibility scans and interactions; it does not provide retained per-SVG screenshot evidence.
+- [ ] Seven interactive systems CH-IV01–CH-IV07: source-level scientific/pedagogical review and manual interaction/layout review against the current standard. Earlier inventory records are retained; browser smoke covers key workflows but is not a full visual review of every state.
+- [ ] Reconcile stale historical rows below: earlier CH-V01–CH-V06 notes refer to checks that were pending at the time; current branch-head CI now passes, but this does not itself close the manual rendered-review items.
+- [ ] Rights/creator/licence documentation and final approval remain governed by `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.0. Do not label any asset VERIFIED solely because its source is project-created or CI passed.
+
+**Progress definitions:** static source review 12/12 (100%); static coverage 12/12 (100%); branch-head automated technical checks PASS; retained rendered screenshot review not evidenced; seven-gate VERIFIED count remains 0/12 static and 0/7 interactive pending applicable evidence and sign-offs.
