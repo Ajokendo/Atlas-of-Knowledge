@@ -865,3 +865,10 @@ Re-opened the affected zoology and ecology pages at both desktop and mobile widt
 - `ecology-cycles.svg`: both Russian and English footer lines are visible inside the diagram at desktop width; the diagram also loads within the mobile column without horizontal spill.
 
 **Result:** the three previously documented rendered-layout defects are closed for the inspected desktop/mobile page renderings. The successful Chromium run plus these targeted screenshot inspections are evidence for these specific layout corrections only. They do not close scientific morphology, rights/provenance, full bilingual semantic review or all other pending asset checks. Global Image Verification remains **Pending audit**; no blanket `VERIFIED` status or percentage is inferred.
+
+
+## Central-dogma figure footer spacing correction — 6 November 2026
+
+Manual inspection of the latest 1365 px Genetics screenshot found that the purple DNA-replication loop intersected the bilingual explanatory footer beneath the central-dogma diagram. Shifted both footer lines right while retaining their vertical positions and the replication loop's original geometry. Added a targeted source regression assertion requiring the loop and both footer anchors to remain at their corrected coordinates.
+
+This is a confirmed rendered text/line collision corrected in the inline SVG. Post-fix Chromium screenshots must still be inspected before closing the visual defect. The global Image Verification status remains **Pending audit**.
