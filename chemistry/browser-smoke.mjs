@@ -1537,6 +1537,16 @@ try {
       if (!await tableRegion.evaluate(el => document.activeElement === el)) {
         errors.push(file + ": horizontal table region must be keyboard focusable");
       }
+      await page.setViewportSize({ width: 768, height: 900 });
+      if (!await page.locator("[data-t=scrollHint]").isVisible() ||
+          !await tableRegion.evaluate(el => el.scrollWidth > el.clientWidth)) {
+        errors.push(file + ": tablet-width periodic table must show its horizontal-scroll instruction");
+      }
+      await page.setViewportSize({ width: 1280, height: 900 });
+      if (await page.locator("[data-t=scrollHint]").isVisible()) {
+        errors.push(file + ": periodic-table scroll instruction should be hidden when the full table fits");
+      }
+      await page.setViewportSize({ width: 390, height: 844 });
       const elementButtons = page.locator("#table button[data-id], #lanth button[data-id], #act button[data-id]");
       const elementIds = await elementButtons.evaluateAll(items => items.map(button => Number(button.dataset.id)));
       if (elementIds.length !== 118 || new Set(elementIds).size !== 118 || Array.from({length:118}, (_, index) => index + 1).some(id => !elementIds.includes(id))) {
@@ -1554,7 +1564,7 @@ try {
       }
       await page.locator("#lang").click();
       if (!(await tableRegion.getAttribute("aria-label"))?.includes("scroll horizontally") ||
-          !(await page.locator("[data-t=scrollHint]").innerText()).includes("scroll the table horizontally")) {
+          !(await page.locator("[data-t=scrollHint]").innerText()).includes("scroll horizontally")) {
         errors.push(file + ": English horizontal-scroll guidance and accessible region name are required");
       }
       if (!(await page.locator("[data-t=classificationNote]").innerText()).includes("metalloid")) {
