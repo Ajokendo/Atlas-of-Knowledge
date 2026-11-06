@@ -651,3 +651,28 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Desktop and mobile interactive-book smoke tests passed for all 13 pages. The standalone lesson also passed at 1440×900 and 390×844, including the interactive model, quiz, overflow check and serious/critical axe checks.
 - The mobile scene header was separated into title, touch selector and readout. Mobile vector/board labels were reduced in size. The vertical-loop force labels were repositioned so F_N, mg and ΣF are distinct in the mobile rendering.
 - These are presentation-only adaptations. The Newtonian force model, loop dynamics, scene geometry and upstream English original were not changed.
+
+
+## Image: Lorentz force and right-hand rule — Russian teaching schematic
+
+- Visual ID: PHY-14-LORENTZ-RHR-RU-01
+- Chapter: 14 — Магнитные поля
+- Source relationship: New independent project-created schematic; AI-assisted SVG authored for this Russian edition
+- Category: C (new project-created visual; final rights declaration remains subject to project-owner review)
+- Learning objective: Determine the direction of the magnetic Lorentz force for positive and negative charges using the vector product and right-hand rule.
+- File: `assets/visuals/phy-14-lorentz-force-right-hand-rule.svg`
+- Original source: Not applicable — created for Atlas of Knowledge
+- Author / creator: Atlas of Knowledge project; SVG prepared with AI assistance
+- License: Pending project-owner confirmation; do not infer a licence from the upstream MIT licence
+- License URL: Pending
+- Access date: 2026-11-06
+- RU caption: Сила Лоренца и правило правой руки.
+- EN caption: Not applicable — Russian-edition visual; English counterpart not yet prepared
+- Alt RU: Магнитное поле направлено вправо, скорость положительных и отрицательных зарядов — в экран; сила для положительного заряда направлена вниз, для отрицательного — вверх.
+- Alt EN: Not applicable — English counterpart not yet prepared
+- Modified: Yes — original vector schematic authored as SVG
+- Scientific review: Internal vector-product check PASS for the depicted configuration: (−z) × (+x) = −y for q > 0; force reverses for q < 0. Full page rendering review pending.
+- Rights review: Pending project-owner declaration and licence assignment
+- Integration: `chapters/magnetism.html`, section “Векторная схема силы Лоренца”
+- Mobile check: Responsive image sizing inherited from `.visual-figure img`; device-level visual check pending
+
