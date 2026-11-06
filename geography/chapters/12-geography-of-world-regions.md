@@ -98,7 +98,7 @@ A region should not be reduced to a single stereotype. Differences within a regi
 Текущая SVG-карта содержит нумерованные подписи горных систем, пустынь, нагорий, рифтовой зоны, бассейна Конго и основных рек. Пять учебных субрегионов описаны в тексте; сама карта не является картой их границ. / The current SVG labels mountain systems, deserts, highlands, the rift zone, the Congo Basin and major rivers. The five teaching subregions are described in the text; the map itself does not delineate their boundaries.
 
 
-Africa is the world's second-largest continent by both area and population. It contains highly diverse natural and human systems. Regional classifications commonly distinguish North, West, Central, East and Southern Africa, although the composition of individual subregions may vary.
+Africa is the world's second-largest continent by area and its second-most populous continent. It contains highly diverse natural and human systems. Teaching schemes commonly distinguish North, West, Central, East and Southern Africa, although the composition of subregions may vary. UN M49 uses a different statistical scheme: Northern Africa and Sub-Saharan Africa; the latter is divided into Eastern, Middle, Southern and Western Africa.
 
 ### Physical geography
 
@@ -593,13 +593,13 @@ Natural zones range from Arctic deserts and tundra to taiga, steppes, deserts, m
 
 **Population and economy.** Asia contains some of the world's largest population concentrations, megacities and industrial regions. Economic systems range from high-technology and financial centres to agricultural regions and areas dependent on resource extraction. Global production chains, seaports, energy corridors and digital technologies are important.
 
-Subregions commonly include East, Southeast, South, Central and West Asia, and in some classifications North Asia. Their composition and boundaries depend on the scheme used.
+Different schemes distinguish East, Southeast, South, Central and West Asia; some authors also identify North Asia separately. UN M49 uses five subregions—Eastern, South-eastern, Southern, Central and Western Asia—and does not identify North Asia as a separate subregion. Composition and boundaries depend on the purpose of regionalisation.
 
 **Regional challenges.** Key issues include food and water security, air pollution, urbanisation, climate risks, the energy transition, ageing in some countries and rapid growth of young populations in others. Transboundary river basins require coordination among states, while densely populated coastal areas are especially vulnerable to sea-level rise and extreme weather.
 
 ### 12.6. North America
 
-North America extends from Arctic islands to Central America, depending on the physical-geographical boundary used. Central America and the Caribbean are often treated separately in regional and statistical classifications.
+The boundaries of the term “North America” depend on the physical-geographical or statistical scheme used. For ease of comparison, this chapter treats the northern part of the continent separately; Central America and the Caribbean are covered in section 12.7. This editorial division does not mean that Central America cannot be considered part of the North American continent in physical-geographical schemes. In the UN M49 classification, the statistical group North America (code 003) is broader: it includes Northern America (021), Central America (013) and the Caribbean (029).
 
 **Physical geography.** The Cordillera, including the Rocky Mountains and Pacific coastal ranges, extends along the west. The Great Plains and interior lowlands occupy the centre, while the Appalachians lie to the east. The Great Lakes form the largest freshwater lake system and are connected to the St. Lawrence River. Major river systems include the Mississippi–Missouri, Mackenzie, St. Lawrence and Colorado.
 
@@ -613,7 +613,7 @@ Internal differences are substantial, from high-technology metropolitan areas an
 
 ### 12.7. Central America and the Caribbean
 
-Central America connects North and South America through a narrow isthmus. The Caribbean includes islands and coastal territories linked by the history of maritime trade, migration and cultural contact.
+Central America connects the northern and southern parts of the Americas through a narrow isthmus. In broad geographical usage, the Caribbean Basin includes the islands of the Caribbean Sea and adjacent coastal territories; its extent does not fully coincide with the Caribbean statistical subregion in UN M49. These areas are linked by histories of maritime trade, migration and cultural contact.
 
 **Physical geography.** The region has mountain ranges, volcanic arcs, tropical forests, coral reefs and low-lying coasts. It lies in an area of high tectonic and climatic activity. Tropical cyclones, earthquakes, volcanism, floods and landslides create significant risks.
 
@@ -645,7 +645,7 @@ Australia is both a continent and a country, while **Oceania** is a broader regi
 
 ### 12.10. Antarctica and the Southern Ocean
 
-Antarctica is the polar region around the South Pole, centred on the continent of Antarctica. Most of the continent is covered by a thick ice sheet. There is no permanent Indigenous population; scientific stations and seasonal personnel are present.
+Antarctica is the polar region around the South Pole, centred on the continent of Antarctica. Most of the continent is covered by a thick ice sheet. It has no Indigenous or permanent civilian population; temporary personnel work at research stations, some of which operate year-round and others seasonally.
 
 The **Antarctic Treaty** of 1959 and the associated treaty system establish a special international legal regime. The Treaty provides for peaceful use, continued freedom of scientific research and international cooperation. Article IV preserves the positions of the Parties on previously asserted territorial claims: the Treaty neither recognises nor rejects them, prohibits activities during its operation from serving as a basis for new claims or enlargements of existing claims, and thereby maintains the status quo. Article VI applies the Treaty to the area south of 60° S, including all ice shelves; it does not prejudice states' rights under international law with regard to the high seas in that area. The Treaty Area should not automatically be equated with the Antarctic continent or with any chosen boundary of the Southern Ocean. Antarctica is not an ordinary state or a territory divided into recognised national possessions.
 
@@ -663,7 +663,7 @@ Managing these systems requires compatible data, agreed standards, information e
 
 Regional differences appear in income, employment structure, demography, access to education and health care, infrastructure and environmental vulnerability. However, dividing the world into “developed” and “developing” areas should not become a rigid binary classification.
 
-Development is described using several indicators, including income per capita, the Human Development Index, poverty, life expectancy, educational outcomes, productivity and access to basic services. Each indicator reflects only part of reality.
+Development is described using several indicators, including income per capita, the Human Development Index, poverty, life expectancy, educational outcomes, productivity and access to basic services. Each indicator reflects only part of reality. The terms “Global North” and “Global South” are analytical labels for historical and socioeconomic differences, not a precise division by hemispheres or a single official country classification.
 
 Global interdependence operates through trade, investment, migration, digital networks, tourism, technology transfer, climate processes and international institutions. Events in one region may affect others through supply chains, financial markets, food prices and environmental systems.
 
