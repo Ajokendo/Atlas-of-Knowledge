@@ -1232,3 +1232,13 @@ The Chapter 02 source-work notes dated 4 November 2026 above are retained as his
 - **Activity 6 — PASS for relative-path principle only.** A project-like manifest referring to `./data/input.csv` remained resolvable after the containing folder was copied to a new location. No QGZ file was opened in QGIS.
 - **Execution boundary:** runtime had GeoPandas 1.1.2, Shapely 2.1.2, Rasterio 1.5.0 and NetworkX 3.6.1, but no QGIS Desktop, `qgis_process`, PyQGIS or GDAL CLI. The official training archive and source project files were not downloaded/opened. Thus the six tests are synthetic computational smoke tests, not QGIS software acceptance tests.
 - **Decision:** all six conceptual smoke tests passed; chapter readiness remains **78%**. Required next gate: run the six activities in QGIS 3.44 using the official training package, retain outputs/screenshots and verify a moved QGZ project on a clean profile. No Kyrgyzstan-specific dataset was tested.
+
+
+## Chapter 07 — Figure 7.5 completed — 6 November 2026
+
+- The previously unassigned Figure 7.5 production brief (latitudinal zonation and altitudinal belts) has been completed as original bilingual SVG **07-J** and embedded in both the Russian and English sections.
+- The diagram contains two generalised panels: a broad equator-to-pole sequence and a mountain-base-to-nival sequence. It states that ecological boundaries are transitional and regional, and it does not assign universal elevations or depict a measured location.
+- Chapter 07 now has **10/10 named visual IDs integrated** (07-A–07-J; 20 RU/EN embeds). The former Figure 7.5 production brief is no longer open.
+- Source-level preflight passed for SVG root, title/description metadata, unique IDs and absence of script/foreignObject elements. This is not browser, device, screen-reader or deployed-reader QA.
+- **Rights limitation:** 07-J is outside the previous project-owner CC BY-NC 4.0 authorisation for six named assets. Its asset-specific licence designation remains pending; no permission is inferred.
+- Chapter 07 editorial/content-production readiness is therefore recorded at **100%**, while rights, independent specialist review and release QA remain separate open gates.
