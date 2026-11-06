@@ -19,6 +19,7 @@
 - [x] Captured and scanned 126 screenshots: 21 pages × RU/EN × 390/768/1280 px. Contact-sheet review found no obvious page-level clipping or overlap.
 - [x] Scanned all six RU/EN × 390/768/1280 px contact sheets from the latest 126-image artifact; no new page-level clipping, overlap or missing-page issue was identified. This remains a contact-sheet pass, not a full-size review of every image.
 - [x] Expanded the knowledge-check regression: incomplete submission is blocked; 15/15 and 0/15 outcomes, feedback, explanation visibility, answer locking, reset behaviour, RU/EN result translation and single-entry history persistence are checked in Chromium.
+- [x] Molecular-lab auto-rotation now schedules a single animation-frame loop only while enabled and cancels the pending frame when disabled; Chromium regression tests repeat the on/off cycle and verify no frame remains queued.
 - [x] Performed focused full-size checks of acid–base, chemical reactions, periodic table, molecular laboratory, stoichiometry, chemistry constants, glossary and knowledge check. The periodic-table horizontal scroll is intentional and explained.
 - [ ] Complete the remaining detailed page-by-page full-size review and manual review of interactive states.
 - [ ] Resolve any remaining content, bilingual-parity, visual, usability or accessibility defects found during that review.
@@ -26,12 +27,12 @@
 
 ## Automated evidence
 
-**Latest recorded branch-head GitHub Actions run:** [42210374860](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42210374860)  
+**Latest recorded branch-head GitHub Actions run:** [42214872732](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42214872732)  
 **Branch:** `workspace/chemistry`  
-**Commit:** `e59dcc73bebc978ff7dbc731162b902ec3bc24ca`  
+**Commit:** `eb524ea613deb72a900f1c8eb530753851523204`  
 **Result:** SUCCESS
 
-The run captured artifact [13497179956](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42210374860/artifacts/13497179956), containing 126 rendered screenshots (21 pages × RU/EN × 390/768/1280 px).
+The run captured artifact [13500133715](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42214872732/artifacts/13500133715), containing the latest 126 rendered screenshots (21 pages × RU/EN × 390/768/1280 px).
 
 Automated results establish only the checks actually run. They do not establish identical behaviour on every physical device or assistive technology.
 
