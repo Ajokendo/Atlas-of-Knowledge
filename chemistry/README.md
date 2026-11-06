@@ -39,8 +39,8 @@
 - [x] GitHub Actions now uploads the screenshots as the `chemistry-rendered-review` artifact for 7 days.
 - [x] Run [42171472363](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171472363) passed on `cf15ec1`; the artifact contains 72 RU/EN screenshots across 390/768/1280 px.
 - [x] Contact-sheet scan of all 390 px and 1280 px captures completed; focused full-size review corrected periodic-trend arrow overlap and acid/base mobile readability/contrast.
-- [x] Scanned all 36 screenshots at 768 px (18 selected pages/resources × RU/EN); the contact-sheet pass found no obvious clipping or overlap across the set. Full-size spot checks covered the Russian acid–base, chemical-reactions, periodic-table, molecular-lab and stoichiometry screens; the reviewed layouts remain readable and the intentional periodic-table horizontal scrolling is clearly explained.
-- [ ] Continue page-by-page full-size review of remaining visuals and inspect interactive states; screenshot generation and a contact-sheet scan do not equal complete manual visual approval.
+- [x] Captured and scanned 126 screenshots for all 21 Chemistry pages (RU/EN × 390/768/1280 px). The contact-sheet review found no obvious page-level clipping or overlap. Full-size spot checks covered acid–base, chemical reactions, periodic table, molecular laboratory, stoichiometry, chemistry constants, glossary and knowledge check; the periodic-table horizontal scroll is intentional and explained.
+- [ ] Finish the remaining detailed page-by-page full-size review and inspect interactive states; screenshot generation and contact-sheet review do not equal complete manual visual approval.
 
 ### Reproducible browser-audit toolchain
 
