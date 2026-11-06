@@ -17,6 +17,8 @@
 - [x] Replacement commits, source references and known provenance limitations are documented in `IMAGE_SOURCES.md` and `IMAGE_AUDIT.md`.
 - [x] Expanded visual capture to all 21 Chemistry pages (the three previously omitted pages were chemistry constants, glossary and knowledge check).
 - [x] Captured and scanned 126 screenshots: 21 pages × RU/EN × 390/768/1280 px. Contact-sheet review found no obvious page-level clipping or overlap.
+- [x] Scanned all six RU/EN × 390/768/1280 px contact sheets from the latest 126-image artifact; no new page-level clipping, overlap or missing-page issue was identified. This remains a contact-sheet pass, not a full-size review of every image.
+- [x] Expanded the knowledge-check regression: incomplete submission is blocked; 15/15 and 0/15 outcomes, feedback, explanation visibility, answer locking, reset behaviour, RU/EN result translation and single-entry history persistence are checked in Chromium.
 - [x] Performed focused full-size checks of acid–base, chemical reactions, periodic table, molecular laboratory, stoichiometry, chemistry constants, glossary and knowledge check. The periodic-table horizontal scroll is intentional and explained.
 - [ ] Complete the remaining detailed page-by-page full-size review and manual review of interactive states.
 - [ ] Resolve any remaining content, bilingual-parity, visual, usability or accessibility defects found during that review.
