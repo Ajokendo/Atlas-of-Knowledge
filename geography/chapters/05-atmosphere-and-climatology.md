@@ -308,6 +308,11 @@
 
 Ни один фактор не действует изолированно. Например, климат побережья определяется не только широтой, но и морскими течениями, ветрами и конфигурацией береговой линии. [Дополнительный учебный источник: NOAA, *What Is Climate?*](https://gml.noaa.gov/outreach/info_activities/pdfs/TBI_what_is_climate.pdf).
 
+<!-- VISUAL ID: 5.10-A -->
+![Восемь взаимодействующих климатообразующих факторов: широта, высота, суша и океан, течения, циркуляция, рельеф, покров и деятельность человека. / Eight interacting climate controls: latitude, elevation, land and ocean, currents, circulation, relief, surface cover and human activity.](../visuals/chapter-05-climate-controls.svg)
+
+*Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показаны восемь групп факторов, влияющих на климат совместно; соединительные линии обозначают взаимосвязь, а не количественную силу или единственное направление причинности. Влияние каждого фактора зависит от местных условий. / Original bilingual conceptual diagram by Atlas of Knowledge. It shows eight groups of interacting climate controls; connectors indicate relationships, not quantitative strength or a single direction of causation. The influence of each factor depends on local conditions.* [Научная основа / Scientific basis: NOAA, What Is Climate?](https://gml.noaa.gov/infodata/info_activities/pdfs/TBI_what_is_climate.pdf).
+
 ## 5.11. Климатические классификации и типы климата / Climate Classification and Climate Types
 
 Классификации климата систематизируют климатические условия по температуре, осадкам, сезонности и другим показателям.
@@ -369,6 +374,11 @@
 - эффективное управление водой и городской инфраструктурой.
 
 Эти меры воздействуют на разные механизмы городского острова тепла: затенение, испарительное охлаждение, отражение и накопление солнечной энергии, а также движение воздуха. Эффект зависит от местного климата, городской формы и материалов. [Источник: Агентство по охране окружающей среды США (EPA), Urban Heat Islands](https://www.epa.gov/heatislands/what-are-heat-islands).
+
+<!-- VISUAL ID: 5.13-A -->
+![Условный разрез сельской, пригородной и городской среды: качественный профиль острова тепла, влияние деревьев, покрытий, застройки и вентиляции. / Conceptual rural-to-urban cross-section: qualitative heat-island profile and the effects of trees, surfaces, buildings and ventilation.](../visuals/chapter-05-urban-microclimate-heat-island.svg)
+
+*Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показан возможный контраст между более озеленённой местностью и плотной застройкой; температурный профиль качественный, без измеренной шкалы. Тепловой остров может проявляться днём и ночью, но его интенсивность меняется с погодой, временем суток, сезоном, городской формой и материалами. Деревья и вода могут охлаждать за счёт тени и испарения; покрытия и здания способны накапливать и отдавать тепло, а плотная застройка — изменять вентиляцию. / Original bilingual conceptual diagram by Atlas of Knowledge. It shows a possible contrast between greener surroundings and dense built-up areas; the temperature profile is qualitative and has no measured scale. Heat islands can occur by day and night, but their intensity varies with weather, time of day, season, urban form and materials. Trees and water can cool through shade and evaporation; built surfaces can store and release heat, while dense urban geometry can alter ventilation.* [Научная основа / Scientific basis: U.S. EPA, What Are Heat Islands?](https://www.epa.gov/heatislands/what-are-heat-islands).
 
 ## 5.14. Опасные атмосферные явления / Atmospheric Hazards
 
@@ -847,6 +857,11 @@ The climate of an area is shaped by interacting factors:
 
 No single factor acts in isolation. The climate of a coast, for example, depends not only on latitude but also on ocean currents, winds and the shape of the coastline. [Additional educational source: NOAA, *What Is Climate?*](https://gml.noaa.gov/outreach/info_activities/pdfs/TBI_what_is_climate.pdf).
 
+<!-- VISUAL ID: 5.10-A -->
+![Eight interacting climate controls: latitude, elevation, land and ocean, currents, circulation, relief, surface cover and human activity. / Восемь взаимодействующих климатообразующих факторов: широта, высота, суша и океан, течения, циркуляция, рельеф, покров и деятельность человека.](../visuals/chapter-05-climate-controls.svg)
+
+*Original bilingual conceptual diagram by Atlas of Knowledge. It shows eight groups of interacting climate controls; connectors indicate relationships, not quantitative strength or a single direction of causation. The influence of each factor depends on local conditions. / Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показаны восемь групп факторов, влияющих на климат совместно; соединительные линии обозначают взаимосвязь, а не количественную силу или единственное направление причинности. Влияние каждого фактора зависит от местных условий.* [Scientific basis: NOAA, What Is Climate?](https://gml.noaa.gov/infodata/info_activities/pdfs/TBI_what_is_climate.pdf).
+
 ### 5.11. Climate Classification and Climate Types
 
 Climate classifications organise climate conditions according to temperature, precipitation, seasonality and other indicators.
@@ -889,6 +904,11 @@ A **microclimate** is the climate of a small area shaped by local conditions suc
 An **urban heat island** occurs when urban surfaces and buildings store and retain heat, while evaporative cooling and ventilation may be limited. Its intensity varies with time of day, season, weather, building density and vegetation cover.
 
 Mitigation measures include increasing green space, creating shaded public areas, using reflective and permeable surfaces, preserving ventilation corridors, and managing water and urban infrastructure effectively. These measures address different heat-island mechanisms: shade, evaporative cooling, solar reflection and heat storage, and airflow. Their effectiveness depends on local climate, urban form and materials. [Source: U.S. Environmental Protection Agency, Urban Heat Islands](https://www.epa.gov/heatislands/what-are-heat-islands).
+
+<!-- VISUAL ID: 5.13-A -->
+![Conceptual rural-to-urban cross-section: qualitative heat-island profile and the effects of trees, surfaces, buildings and ventilation. / Условный разрез сельской, пригородной и городской среды: качественный профиль острова тепла, влияние деревьев, покрытий, застройки и вентиляции.](../visuals/chapter-05-urban-microclimate-heat-island.svg)
+
+*Original bilingual conceptual diagram by Atlas of Knowledge. It shows a possible contrast between greener surroundings and dense built-up areas; the temperature profile is qualitative and has no measured scale. Heat islands can occur by day and night, but their intensity varies with weather, time of day, season, urban form and materials. Trees and water can cool through shade and evaporation; built surfaces can store and release heat, while dense urban geometry can alter ventilation. / Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показан возможный контраст между более озеленённой местностью и плотной застройкой; температурный профиль качественный, без измеренной шкалы. Тепловой остров может проявляться днём и ночью, но его интенсивность меняется с погодой, временем суток, сезоном, городской формой и материалами. Деревья и вода могут охлаждать за счёт тени и испарения; покрытия и здания способны накапливать и отдавать тепло, а плотная застройка — изменять вентиляцию.* [Scientific basis: U.S. EPA, What Are Heat Islands?](https://www.epa.gov/heatislands/what-are-heat-islands).
 
 ### 5.14. Atmospheric Hazards
 
@@ -1123,7 +1143,7 @@ Additional task: use a synoptic chart to locate a cyclone, anticyclone and front
 <!-- VISUAL ID: 5.18-A -->
 ![Schematic synoptic chart with a cyclone, anticyclone, isobars, fronts and station plots; below are two climate graphs with synthetic data. / Схематическая синоптическая карта с циклоном, антициклоном, изобарами, фронтами и станционными моделями; ниже — две климатограммы с условными данными.](../visuals/chapter-05-synoptic-map-climate-analysis.svg)
 
-*Original bilingual Atlas of Knowledge teaching schematic. All values are synthetic: the map is not tied to a real place or date and must not be used for forecasting. Isobars are drawn at 4 hPa intervals. In station plots, temperature is at upper left, dew point at lower left and coded pressure at upper right; for example, 142 represents 1014.2 hPa. The wind staff indicates the direction from which the wind blows; speed is not encoded here. In the climate graphs, bars show precipitation (mm) and the line shows temperature (°C). / Оригинальная двуязычная учебная схема Atlas of Knowledge. Все значения синтетические: карта не относится к реальной территории или дате и не предназначена для прогноза. Изобары показаны с интервалом 4 гПа. В станционных моделях температура указана слева сверху, точка росы — слева снизу, код давления — справа сверху; например, 142 соответствует 1014,2 гПа. Линия показывает направление, откуда дует ветер; скорость здесь не кодируется. На климатограммах столбцы показывают осадки (мм), линия — температуру (°C).*
+*Original bilingual Atlas of Knowledge teaching schematic. All values are synthetic: the map is not tied to a real place or date and must not be used for forecasting. Isobars are drawn at 4 hPa intervals. In station plots, temperature is at upper left, dew point at lower left and coded pressure at upper right; codes 142, 118 and 208 represent 1014.2, 1011.8 and 1020.8 hPa, respectively. The wind staff indicates the direction from which the wind blows; speed is not encoded here. In the climate graphs, bars show precipitation (mm) and the line shows temperature (°C). / Оригинальная двуязычная учебная схема Atlas of Knowledge. Все значения синтетические: карта не относится к реальной территории или дате и не предназначена для прогноза. Изобары показаны с интервалом 4 гПа. В станционных моделях температура указана слева сверху, точка росы — слева снизу, код давления — справа сверху; коды 142, 118 и 208 соответствуют 1014,2; 1011,8 и 1020,8 гПа соответственно. Линия показывает направление, откуда дует ветер; скорость здесь не кодируется. На климатограммах столбцы показывают осадки (мм), линия — температуру (°C).*
 
 **Climate-graph teaching data:** A — continental example; B — maritime example. Annual temperature range: A — 32 °C, B — 14 °C. Annual precipitation: A — 364 mm, B — 925 mm. These patterns illustrate different seasonal regimes but do not by themselves classify a real location. / **Учебные данные климатограмм:** A — континентальный пример; B — морской пример. Годовая амплитуда температуры: A — 32 °C, B — 14 °C. Годовая сумма осадков: A — 364 мм, B — 925 мм.
 
