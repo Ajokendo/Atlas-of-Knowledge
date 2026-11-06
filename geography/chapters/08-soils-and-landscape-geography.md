@@ -232,6 +232,8 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 Нулевая или минимальная обработка почвы может уменьшать эрозию в ряде условий, но её результат зависит от климата, почвы, севооборота, техники и управления остатками. Ни одна агротехнология не является универсальной для всех регионов.
 
+Современные подходы к нейтральному балансу деградации земель объединяют три направления: предотвращение деградации там, где она ещё не произошла; сокращение текущего давления; и восстановление уже деградированных земель. Эти меры следует включать в комплексное планирование землепользования и адаптировать к местным природным и социально-экономическим условиям.
+
 ## 8.11. Ландшафт как географическая система / Landscape as a Geographical System
 
 Ландшафт — территориальная система взаимосвязанных природных и антропогенно изменённых компонентов, обладающая определённой структурой, функционированием и историей развития. В физической географии термин может использоваться в разных масштабах: от локального урочища до крупного регионального комплекса. Поэтому при анализе всегда следует указывать масштаб и принятую классификацию.
@@ -257,7 +259,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 В ландшафтном анализе применяют понятия:
 - **ландшафтная фация** — относительно однородный небольшой природный участок; уточнение «ландшафтная» отличает эту единицу от геологической фации;
 - **урочище** — закономерно связанная группа ландшафтных фаций, часто приуроченная к определённой форме рельефа;
-- **местность** — более крупная морфологическая единица в ряде отечественных школ;
+- **местность** — более крупная морфологическая единица в ряде восточноевропейских научных традиций;
 - **ландшафт** — целостная территориальная система более высокого уровня.
 
 Точные определения и иерархия этих единиц зависят от научной школы. В атласе следует придерживаться одной терминологической системы и объяснять её читателю.
@@ -291,7 +293,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 <!-- VISUAL ID 08-G — integrated bilingual SVG below -->
 
-![Ландшафтная мозаика с природными пятнами, речным коридором, аграрной матрицей и дорожным барьером. / Landscape mosaic with habitat patches, a river corridor, agricultural matrix and road barrier.](../assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg)
+![Ландшафтная мозаика с природными пятнами, речным коридором, аграрной матрицей и дорожным барьером; структурная и функциональная связность различаются. / Landscape mosaic with habitat patches, a river corridor, agricultural matrix and road barrier; structural and functional connectivity are distinguished.](../assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg)
 
 *08-G. Авторская двуязычная схема; структурная и функциональная связность различаются, конкретные маршруты видов не изображены. / Original bilingual diagram; structural and functional connectivity are distinguished, with no species-specific routes represented. Лицензия / Licence: CC BY-NC 4.0; атрибуция / attribution: Atlas of Knowledge project.*
 
@@ -524,6 +526,8 @@ Effective measures include contour cultivation and terracing where appropriate; 
 
 No-till or reduced-tillage practices can reduce erosion in some conditions, but outcomes depend on climate, soil, crop rotation, machinery and residue management. No single agricultural technique is universal.
 
+Current approaches to land-degradation neutrality combine three directions: avoiding degradation where it has not yet occurred, reducing ongoing pressures, and reversing degradation where land is already affected. These measures should be integrated into broader land-use planning and adapted to local environmental and socio-economic conditions.
+
 ### 8.11. Landscape as a Geographical System
 
 A landscape is a territorial system of interacting natural and human-modified components with a particular structure, functioning and developmental history. In physical geography, the term is used at different scales, from a local landscape unit to a large regional complex. The scale and classification used should therefore always be stated.
@@ -544,11 +548,11 @@ Natural landscapes are rarely completely isolated. Water and sediment move along
 
 Landscapes may be classified by origin, relief, climate, moisture, vegetation, soils and degree of human transformation.
 
-Depending on dominant natural conditions, examples include plains, mountains, coasts, river landscapes, wetlands, deserts and forests. By degree of transformation, landscapes may be natural, slightly modified, cultural, agricultural, urban or industrial. These categories are not always mutually exclusive: an urban landscape may include river terraces, natural slopes and artificial surfaces.
+Depending on dominant natural conditions, examples include plains, mountains, coasts, river landscapes, wetlands, deserts and forests. By degree of transformation, landscapes may be natural, slightly modified, cultural, agricultural, urban or industrial/technogenic. These categories are not always mutually exclusive: an urban landscape may include river terraces, natural slopes and artificial surfaces.
 
 Landscape analysis uses concepts such as:
 - **landscape facies:** a relatively small, internally uniform natural site; the qualifier “landscape” distinguishes this unit from geological facies;
-- **urochishche:** a group of related landscape facies, often associated with a particular landform;
+- **urochishche:** a structurally related group of landscape facies, often associated with a particular landform;
 - **mestnost:** a larger landscape-morphological unit in some Eastern European schools; and
 - **landscape:** an integrated territorial system at a higher level.
 
@@ -723,6 +727,7 @@ Salinity thresholds also depend on the classification and measurement method. An
 14. United Nations Convention to Combat Desertification (UNCCD). **Convention text, Article 1: Use of terms** — formal definitions of desertification, land degradation and drylands. https://www.unccd.int/article-1-use-terms
 15. ISRIC — World Soil Information. **SoilGrids FAQ: soil classification maps** — documents that the SoilGrids 2.0 soil-group layers aggregate the 2017 predictions based on WRB 2006 and cover 30 Reference Soil Groups; they are not a new classification map based on WRB 2022. https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_03.html
 16. FAO and Global Soil Partnership. **Mapping of Salt-Affected Soils: Technical Manual** (2020) — explains why EC values from different soil-to-water extract ratios require locally validated conversion models before comparison with saturated-paste extract conductivity. https://fao-sid.github.io/GSSmap/methods-for-mapping-salt-affected-soils.html
+17. FAO and UNCCD. **Living Soils, Productive Lands, Resilient Landscapes: Guidance on Avoiding, Reducing and Reversing Agricultural Land and Soil Degradation** (2026) — integrated guidance for preventing, reducing and reversing degradation in agricultural landscapes. https://openknowledge.fao.org/items/cf6f3ffa-42a4-4fde-a0b3-4a739d7fbe8b
 
 **Примечание:** почвенные классификации, методы отбора проб и показатели деградации могут различаться между странами. В каждом практическом исследовании необходимо указывать применённую методику, глубину отбора проб, дату и источник данных.
 
