@@ -41,9 +41,9 @@ jobs:
         run: python geography/scripts/build_chapter_05_preview.py /tmp/geography-chapter-05-preview.html
       - name: Install Playwright and Chromium
         run: |
-          npm install --no-save playwright
+          npm install --no-save playwright axe-core
           npx playwright install --with-deps chromium
-      - name: Test mobile and desktop image rendering
+      - name: Test isolated preview and GitHub Markdown on mobile and desktop
         run: node geography/scripts/chapter_05_browser_smoke.mjs
       - name: Upload browser screenshots
         if: always()
