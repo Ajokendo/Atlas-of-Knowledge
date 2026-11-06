@@ -678,3 +678,11 @@ The explanatory note now distinguishes natural-variation intervals from square-b
 **CH-IV07 — acid/base virtual lab:** rechecked conversion of mL to L, stoichiometric mole comparison, total solution volume, and both sides of equivalence. The pH calculation uses the dominant-ion approximation ((C_{excess}+\sqrt{C_{excess}^{2}+4K_w})/2) with (K_w=10^{-14}) at 25 °C; at equivalence it returns pH 7 under the stated idealised assumptions. Numeric inputs are bounded and invalid values produce a guarded message instead of a numeric result. The model is explicitly limited to strong monoprotic acid + strong monobasic base, dilute ideal solutions, 25 °C and additive volumes. No source-level calculation defect was identified in this pass.
 
 Added static regression guards in `checks.mjs` for the gas-law units/Kelvin conversion/input domain/visual limitation text and for the neutralisation model's input bounds, mole/volume accounting, equivalence branch and water-autoionisation term. These are source-contract checks, not a substitute for a full independent numerical test matrix or hands-on browser/device review.
+
+
+## Follow-up — 2026-11-06: periodic-table note and virtual-lab accessibility
+
+- The Chromium run on commit `448316d` failed after static validation passed. The two browser failures were both exact-text expectations for the RU/EN explanation of bracketed isotope mass numbers. The localized note in `periodic-table.html` was clarified to state explicitly that bracketed values are mass numbers, not average relative atomic masses; the existing CIAAW range explanation is retained.
+- Commit `2a16aa6` contains the bilingual text correction. Its workflow run `42154152132` was observed in progress at the time of this entry; no final CI result is claimed here.
+- A further browser regression guard was added for CH-IV07: the beaker graphic must expose its role, retain accessible descriptions linked to the live pH and solution-state text, and update its accessible name when switching RU/EN. The page already updates this name dynamically; the test now protects that behavior from regression.
+- This is an automated accessibility-name/description check, not a manual screen-reader or assistive-technology review. CH-IV07 remains INTEGRATED, not VERIFIED.
