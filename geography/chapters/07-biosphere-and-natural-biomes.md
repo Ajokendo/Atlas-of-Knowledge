@@ -31,8 +31,6 @@ After studying this chapter, readers will be able to explain the extent and func
 - информационно-эволюционная — сохранение и изменение генетической информации в ходе эволюции.
 
 **Рисунок 7.1 / Figure 7.1 — Биосфера как область взаимодействия оболочек Земли / The biosphere as a zone of interaction among Earth's spheres.**  
-Техническое задание: создать научную разрезную схему от верхней тропосферы до океанического дна и верхней литосферы; показать лес, почвенный профиль, реку, океан, микроорганизмы в породах; обозначить атмосферу, гидросферу, литосферу и биосферу; не изображать границы биосферы как абсолютно точные.
-**EN production brief:** Create a scientific cross-section from the upper troposphere to the ocean floor and upper lithosphere. Show a forest, soil profile, river, ocean and microorganisms in rock; label the atmosphere, hydrosphere, lithosphere and biosphere. Do not depict the biosphere's boundaries as exact lines.
 
 ## 7.2. Уровни организации живого / Levels of Biological Organization
 
@@ -94,8 +92,6 @@ After studying this chapter, readers will be able to explain the extent and func
 Часто приводимое «правило 10 процентов» — лишь ориентир: доля энергии, переходящая на следующий трофический уровень, сильно различается между экосистемами и типами организмов. Поэтому пирамиды энергии, биомассы и численности могут иметь разную форму. Пирамида энергии всегда отражает уменьшение доступной энергии по трофическим уровням за выбранный интервал времени.
 
 **Рисунок 7.3 / Figure 7.3 — Пищевая сеть и пирамида энергии / Food web and energy pyramid.**  
-Техническое задание: слева показать сеть умеренной луговой экосистемы (травы, насекомые, грызуны, птицы, хищники, грибы и бактерии), справа — пирамиду энергии с условными единицами на каждом уровне; стрелки должны идти от пищевого ресурса к потребителю; не задавать универсальную эффективность передачи энергии.
-**EN production brief:** On the left, show a food web for a temperate grassland (grasses, insects, rodents, birds, predators, fungi and bacteria). On the right, show an energy pyramid with illustrative units at each trophic level. Arrows must point from food resource to consumer; do not imply a universal energy-transfer efficiency.
 
 ### 7.4.1. Практический пример: передача энергии в пищевой цепи / Worked Example: Energy Transfer in a Food Chain
 
@@ -214,8 +210,6 @@ After studying this chapter, readers will be able to explain the extent and func
 
 *07-F. Авторская двуязычная векторная панорама. Сцены иллюстрируют общие экологические признаки, а не конкретные места или современный земной покров. Категории панорамы сгруппированы для учебного сравнения; для точной классификации используйте карту и легенду RESOLVE 2017. / Original bilingual vector panorama. Scenes illustrate general ecological features, not specific locations or current land cover. Categories are grouped for teaching; use the RESOLVE 2017 map and legend for formal classification.*
 **Рисунок 7.6 / Figure 7.6 — Панорама основных биомов планеты / Panorama of Earth's major biomes.**  
-Техническое задание: единая научная панорама из 10–11 ландшафтных секций с узнаваемыми признаками каждого биома; подписи на русском и английском; не использовать стереотипные изображения как замену реальным региональным различиям.
-**EN production brief:** Create one scientific panorama with 10–11 landscape sections, each showing recognisable features of a biome. Use Russian and English labels; do not let stereotypical imagery replace real regional variation.
 
 ## 7.9. Пресноводные и морские биомы / Freshwater and Marine Biomes
 
@@ -240,10 +234,8 @@ After studying this chapter, readers will be able to explain the extent and func
 
 ![Сопоставление зон озера и океана: фотическая и афотическая области, литораль, пелагиаль и бенталь; границы условны. / Lake and ocean zones: photic and aphotic waters, littoral, pelagic and benthic zones; boundaries are illustrative.](../assets/diagrams/07-G-lake-ocean-zonation-bilingual.svg)
 
-*07-G. Авторская двуязычная концептуальная схема Atlas of Knowledge. Существующие опубликованные схемы зональности были просмотрены; глубины намеренно не фиксированы, поскольку световая граница зависит от прозрачности и условий среды. / Original bilingual conceptual diagram by Atlas of Knowledge. Published zonation diagrams were reviewed; depths are not fixed because light penetration depends on transparency and local conditions.*
+*07-G. Авторская двуязычная концептуальная схема Atlas of Knowledge. Глубины не фиксированы: световая граница зависит от прозрачности и условий среды. Бенталь — донная область, а не синоним афотической зоны; мелководное дно может оставаться освещённым. / Original bilingual conceptual diagram by Atlas of Knowledge. Depths are not fixed because light penetration depends on transparency and local conditions. The benthic zone is the bottom habitat, not a synonym for aphotic water; shallow bottoms may remain illuminated.*
 **Рисунок 7.7 / Figure 7.7 — Вертикальная зональность озера и океана / Vertical zonation of a lake and the ocean.**  
-Техническое задание: сопоставить озеро и океан в разрезе; обозначить освещённую фотическую зону, глубоководную афотическую область, литораль/прибрежье, пелагиаль и бенталь; показать, что глубины зон изменяются в зависимости от прозрачности воды и условий среды.
-**EN production brief:** Compare a lake and the ocean in cross-section. Label the illuminated photic zone, deep aphotic zone, littoral/coastal area, pelagic zone and benthic zone. Show that zone depths vary with water transparency and environmental conditions.
 
 ## 7.10. Экотоны и экологические переходы / Ecotones and Ecological Transitions
 
@@ -303,8 +295,6 @@ After studying this chapter, readers will be able to explain the extent and func
 
 *07-H. Авторская двуязычная концептуальная схема. Пунктирная линия показывает возможное, а не наблюдённое перемещение; элементы не обозначают реальную сеть охраняемых территорий. / Original bilingual conceptual diagram. The dashed line shows potential, not observed movement; features do not represent an actual protected-area network.*
 **Рисунок 7.8 / Figure 7.8 — Экологическая сеть и связность местообитаний / Ecological network and habitat connectivity.**  
-Техническое задание: схематическая карта с ядрами природных территорий, буферными зонами, коридорами и участками фрагментации; показать условное перемещение животных; легенда должна различать существующие и предлагаемые элементы сети.
-**EN production brief:** Create a schematic map showing core natural areas, buffer zones, corridors and fragmented areas. Illustrate hypothetical animal movement and use a legend to distinguish existing from proposed network elements.
 
 ## 7.14. Биосфера и глобальные циклы вещества / The Biosphere and Global Biogeochemical Cycles
 
@@ -318,8 +308,6 @@ After studying this chapter, readers will be able to explain the extent and func
 
 *07-I. Авторская двуязычная схема, подготовленная после проверки открытых схем циклов углерода и азота; она не содержит количественных данных и не заменяет полный геохимический баланс. / Original bilingual diagram prepared after reviewing openly licensed carbon- and nitrogen-cycle diagrams; it contains no quantitative data and is not a complete geochemical budget.*
 **Рисунок 7.9 / Figure 7.9 — Биологическая роль в циклах углерода и азота / Biological roles in the carbon and nitrogen cycles.**  
-Техническое задание: две отдельные диаграммы с резервуарами и потоками; различать природные и антропогенные потоки; не смешивать запасы вещества и скорости потоков; все единицы и временные интервалы указывать явно.
-**EN production brief:** Create two separate diagrams showing reservoirs and flows. Distinguish natural from human-driven flows; do not mix stored quantities with flow rates. State all units and time intervals explicitly.
 
 ## 7.15. Методы биогеографических и экологических исследований / Methods in Biogeographical and Ecological Research
 
@@ -361,6 +349,10 @@ The term “biosphere” was developed scientifically in the work of Eduard Sues
 
 The biosphere is not a closed system with respect to energy. Solar radiation is the main external energy source for most ecosystems. Matter, however, circulates repeatedly between organisms and environmental components. Some ecosystems, such as communities around hydrothermal vents, are based on chemical energy.
 
+![The biosphere as the realm of life in the atmosphere, hydrosphere and upper lithosphere; conceptual, not to scale.](../assets/diagrams/07-A-biosphere-earth-spheres-bilingual.svg)
+
+*07-A. Original bilingual teaching diagram by Atlas of Knowledge. Biosphere boundaries are illustrative; the diagram does not specify exact upper or lower limits.*
+
 The main functions of the biosphere include:
 - **gaseous:** organisms contribute to the formation and maintenance of atmospheric composition;
 - **concentration:** living organisms selectively accumulate chemical elements;
@@ -389,6 +381,10 @@ An **ecological niche** is the combination of conditions, resources and function
 
 Shelford's law of tolerance describes the range of conditions within which an organism can survive and reproduce. Performance declines outside the optimum, and a population cannot persist beyond its tolerance limits. Each factor has minimum, maximum and optimum values; these depend on life stage and interactions with other factors.
 
+![Shelford's ecological tolerance curve: intolerance, pessimum and optimum zones; a conceptual model without a numerical scale.](../assets/diagrams/07-D-shelford-tolerance-curve-bilingual.svg)
+
+*07-D. Bilingual adaptation of “Shelford's Law of Tolerance” by Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos and Călin Baciu. Source: Wikimedia Commons; CC BY 4.0. Redrawn and translated; curve shape and boundaries are illustrative.*
+
 ### 7.4. Trophic Structure and Energy Flow
 
 Organisms in ecosystems are connected through feeding relationships. Three main functional groups are recognised:
@@ -404,6 +400,10 @@ Energy flows through an ecosystem in one direction: it enters mainly from the Su
 **Primary production** is the rate at which autotrophs form organic matter. It may be expressed as carbon, dry mass or energy per unit area per unit time. In photosynthetic ecosystems, **gross primary production (GPP)** is the amount of carbon or energy fixed by photosynthesis before subtracting the producers' own respiratory costs. **Net primary production (NPP)** equals GPP minus those costs. NPP forms new biomass and becomes a resource for consumers and detrital food chains.
 
 The often-quoted “10 percent rule” is only a guide: the share of energy transferred to the next trophic level varies greatly among ecosystems and organism types. Therefore, pyramids of energy, biomass and numbers may have different shapes. An energy pyramid always represents the decline in available energy across trophic levels over a stated period.
+
+![Grassland food web with arrows from food to consumer and an illustrative energy pyramid using the chapter's worked-example values.](../assets/diagrams/07-B-food-web-energy-pyramid-bilingual.svg)
+
+*07-B. Original bilingual diagram. The 12,000, 1,200 and 90 kJ values come from this chapter's worked example; they are not universal energy-transfer ratios.*
 
 ### 7.4.1. Worked Example: Energy Transfer in a Food Chain
 
@@ -728,7 +728,7 @@ The current chapter does not assign individual IUCN Red List categories to named
 - **Methods and evidence:** clarified the limitations of camera-trap photographs as abundance evidence and the spatial/temporal and false-positive/false-negative limitations of environmental DNA. Added a current 2026 methods review.
 - **Conservation and restoration:** rechecked the exact CBD wording for Targets 2 and 3. Both are global 2030 targets, not automatic 30% national-territory quotas; Target 2 concerns degraded ecosystem areas under effective restoration, while Target 3 concerns areas effectively conserved and managed. Expanded restoration assessment to include reference ecosystems, baseline conditions, ecological functions and social indicators.
 - **Standards and sources:** updated the SER Third Edition (2026) citation to its exact *Restoration Ecology* DOI; clarified the distinction between broad ecosystem restoration, SER-defined ecological restoration of native ecosystems, and rehabilitation in both languages. Retained the official IUCN Red List 2026-1 release record (9 July 2026) and the IUCN Global Ecosystem Typology source. Bibliography now has 15 references.
-- **Visual inventory:** nine unique bilingual visual IDs; 07-D is integrated as an adapted bilingual SVG, while the other eight remain placeholders. Integration is not verification.
+- **Visual inventory:** nine unique bilingual visual IDs; seven are integrated (07-A, 07-B, 07-D, 07-F, 07-G, 07-H and 07-I), while map visuals 07-C and 07-E remain open. Every integrated asset is embedded in both language sections; integration is not verification.
 - **Release boundary:** this closes the focused text/source correction pass; it does not claim visual production, layout/rendering, accessibility, device/browser or deployment QA.
 
 ## Earlier focused scientific and editorial audit record — 5 November 2026
