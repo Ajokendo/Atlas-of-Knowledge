@@ -1166,6 +1166,25 @@ if (fs.existsSync(virtualLabPath)) {
   errors.push("virtual-lab.html: acid-base neutralisation interactive is missing");
 }
 
+// Periodic-trend diagrams: arrows must remain in the right-hand lane, clear of bilingual labels.
+for (const [file, oldPath] of [
+  ["periodic-trends-ru.svg", "M 1040 204 L 900 278"],
+  ["periodic-trends.svg", "M 1040 204 L 900 278"]
+]) {
+  const svgPath = path.join(root, "assets", file);
+  if (!fs.existsSync(svgPath)) {
+    errors.push("assets/" + file + ": periodic-trend visual is missing");
+    continue;
+  }
+  const svg = fs.readFileSync(svgPath, "utf8");
+  if (svg.includes(oldPath) ||
+      !svg.includes("M 1090 184 L 1055 244") ||
+      !svg.includes("M 1055 374 L 1090 314") ||
+      !svg.includes("M 1055 484 L 1090 424")) {
+    errors.push("assets/" + file + ": trend arrows must stay in the right-hand lane and not cross labels");
+  }
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
