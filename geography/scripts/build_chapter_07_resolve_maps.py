@@ -15,7 +15,7 @@ ENDPOINT = "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Re
 OUT = Path("geography/assets/diagrams")
 W, H = 1800, 1080
 MAP = (55, 55, 1260, 760)
-LEGEND_X, LEGEND_Y = 1350, 105
+LEGEND_X, LEGEND_Y = 1325, 105
 BIOMES = [
  ("Tropical & Subtropical Moist Broadleaf Forests","Влажные тропические и субтропические широколиственные леса","#167a45"),
  ("Tropical & Subtropical Dry Broadleaf Forests","Сухие тропические и субтропические широколиственные леса","#a6a63c"),
@@ -114,17 +114,17 @@ def svg_map(features, mode, outpath):
       '<text x="650" y="840" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#526773">0°</text>',
       '<text x="1270" y="840" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#526773">180°E</text>']
     parts.append(f'<text x="{LEGEND_X}" y="58" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#183044">Легенда / Legend</text>')
-    row=42 if len(palette)>9 else 62
+    row=48 if len(palette)>9 else 62
     for i,(en,ru,color) in enumerate(palette):
         y=LEGEND_Y+i*row
         parts.append(f'<rect x="{LEGEND_X}" y="{y}" width="24" height="24" rx="3" fill="{color}" stroke="#45545a"/>')
-        parts.append(f'<text x="{LEGEND_X+36}" y="{y+11}" font-family="Arial,sans-serif" font-size="15" fill="#183044">{html.escape(ru)}</text>')
-        parts.append(f'<text x="{LEGEND_X+36}" y="{y+29}" font-family="Arial,sans-serif" font-size="13" fill="#405966">{html.escape(en)}</text>')
+        parts.append(f'<text x="{LEGEND_X+36}" y="{y+11}" font-family="Arial,sans-serif" font-size="12" fill="#183044">{html.escape(ru)}</text>')
+        parts.append(f'<text x="{LEGEND_X+36}" y="{y+29}" font-family="Arial,sans-serif" font-size="11" fill="#405966">{html.escape(en)}</text>')
     note_y=LEGEND_Y+len(palette)*row+26
-    note_ru="Классификация наземных экорегионов; не карта современного землепользования."
-    note_en="A reference classification of terrestrial ecoregions; not a current land-cover map."
-    parts += [f'<text x="{LEGEND_X}" y="{note_y}" font-family="Arial,sans-serif" font-size="13" fill="#183044">{html.escape(note_ru)}</text>',
-      f'<text x="{LEGEND_X}" y="{note_y+22}" font-family="Arial,sans-serif" font-size="12" fill="#405966">{html.escape(note_en)}</text>',
+    note_ru="Классификация; не современный покров земель."
+    note_en="Reference classification; not current land cover."
+    parts += [f'<text x="{LEGEND_X}" y="{note_y}" font-family="Arial,sans-serif" font-size="12" fill="#183044">{html.escape(note_ru)}</text>',
+      f'<text x="{LEGEND_X}" y="{note_y+22}" font-family="Arial,sans-serif" font-size="11" fill="#405966">{html.escape(note_en)}</text>',
       '<text x="60" y="900" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Источник данных / Data: RESOLVE Ecoregions 2017; Dinerstein et al. (2017), BioScience 67(6): 534–545. DOI: 10.1093/biosci/bix014.</text>',
       '<text x="60" y="925" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Данные / Data licence: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/ . Карта создана Atlas of Knowledge; геометрия упрощена для учебного масштаба.</text>',
       '<text x="60" y="950" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">This derivative map is attributed to RESOLVE / Dinerstein et al. and is distributed under CC BY 4.0.</text>',
