@@ -271,7 +271,7 @@ On 2026-11-05, the local PLATES breakdown keys were compared with the correspond
 | 01 — Kinematics | kinematics | staff; ball; vArrow; aArrow; boardX; boardV; boardA; proj; projV; shadow; rainRoad; rainCar; rainSum; river; boatA; boatB; pull; pullA; cubeLine; bead | 20 | INTEGRATED / source lineage indexed; scene-to-page mapping and visual review pending |
 | 02 — Newton's Laws | newton | rest; glide; second; friction; third; incline; tension; plane; car; tug; board; drag; honey | 13 | INTEGRATED / source lineage indexed; visual review pending |
 | 04 — Work and Energy | energy | pull; toss; whirl; car; drop; spring; push; bead; bond; pendulum; slide; lift | 12 | INTEGRATED / source lineage indexed; visual review pending |
-| 06 — Oscillations | oscillations | spring; hooke; trace; energy; hang; pendulum; springs4; pend4; amp; bobs; starts; string; rod; hoop; disc; car; swing | 17 | INTEGRATED / source lineage indexed; visual review pending |
+| 06 — Oscillations | oscillations | spring; hooke; trace; energy; hang; pendulum; springs4; pend4; amp; bobs; starts; string; rod; hoop; disc; car; swing; PHY-06-001 | 18 | INTEGRATED / new oscillation-regimes visual added; desktop/mobile QA pending; publication licence decision pending |
 | 07 — Rotation | rotation | wheel; disc; doors; plank; ladder; inertia; race; well; skater; integ; parallel; wrench; slip; impulse; particle | 15 | INTEGRATED / source lineage indexed; visual review pending |
 | 08 — Fluids | fluids | blocks; feet; diver; pascal; cube; float; pipe; bernoulli; tank | 9 | INTEGRATED / source lineage indexed; keyboard focus fix verified separately; visual review pending |
 | 09 — Electrostatics | electrostatics | atoms; induce; balloon; coulomb; line; point; dipole; rod; ring; plates | 10 | INTEGRATED / source lineage indexed; visual review pending |
@@ -677,3 +677,30 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Integration: `chapters/magnetism.html`, section “Векторная схема силы Лоренца”
 - Mobile check: PASS — dedicated mobile SVG selected at 390×844 and desktop SVG selected at 1440×900; both rendered, bilingual captions and meaningful alt text verified, no horizontal overflow, axe serious/critical violations 0. Browser workflow run 42214764837, visual-assets-smoke step PASS; desktop/mobile screenshots manually inspected from artifact 13499898884 on 2026-11-06. The SVG is retained as a supporting figure, separate from the primary four-topic visual inventory.
 
+
+
+## PHY-06-001 — Three regimes of oscillation
+
+- Visual ID: PHY-06-001
+- Subject / chapter: Physics, Chapter 06 — Oscillations
+- Title: Free, damped, and forced oscillations
+- Integration status: INTEGRATED — added to the Russian lesson immediately after the explanation of damped and forced oscillations; responsive SVG sizing and accessible caption are in place. Browser verification on the new commit is pending.
+- Lifecycle: FOUND → SCIENTIFIC_CHECK (**internal equation/relationship review PASS**) → CREATED → INTEGRATED → TECHNICAL_VERIFICATION (**pending**) → RIGHTS_REVIEW (**pending project licence decision**).
+- Source relationship: New independent project-created diagram; no source artwork adapted.
+- Category: C
+- Learning objective: Distinguish ideal free oscillations with constant amplitude, damped free oscillations with decreasing amplitude, and the frequency-response peak of a driven oscillator near resonance.
+- File: assets/visuals/phy-06-oscillation-regimes.svg
+- Original source: Not applicable — independently authored vector schematic.
+- Author / creator: AI-assisted vector authoring with ChatGPT; published by the Atlas of Knowledge project. No claim of exclusive copyright in AI-generated elements.
+- License: Pending explicit project decision for this asset. The repository's root MIT licence is not treated as an automatic asset-specific licence.
+- License URL: Pending.
+- Access date: 2026-11-06.
+- RU caption: Три режима колебаний: постоянная амплитуда в идеальной системе, её уменьшение при потерях энергии и резонансный отклик на внешнюю периодическую силу.
+- EN caption: Not supplied — this asset is currently integrated only in the Russian chapter.
+- Alt RU: Сравнение свободных незатухающих, затухающих и вынужденных колебаний; справа показан резонансный максимум амплитуды.
+- Alt EN: Not supplied — this asset is currently integrated only in the Russian chapter.
+- Modified: Original vector diagram; no third-party image adapted.
+- Scientific review: Internal review PASS — exponential decay envelope is labelled as an approximate underdamped response; driven amplitude is shown peaking near the natural frequency. Diagram is qualitative and not to scale.
+- Rights review: Pending explicit project licence decision; no third-party artwork is embedded.
+- Integration: chapters/oscillations.html, section “6. Затухающие и вынужденные колебания”.
+- Mobile check: Pending current-HEAD browser smoke and screenshot review at 390×844.
