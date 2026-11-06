@@ -10,7 +10,7 @@ This register tracks the planned visuals in `05-atmosphere-and-climatology.md`. 
 
 The project owner has authorised the **11 original project-local SVGs** in `geography/assets/CHAPTER_05_ASSET_LICENSE.md` under **CC BY-NC 4.0**, with the Atlas of Knowledge project as the attribution party. This designation applies only to the exact 11 files listed in that notice. It does not apply to external media or adapted visual 5.7-B.
 
-**5.7-B remains separate:** it is adapted from AMS Project Atmosphere: Clouds (2025), Figure 2, under CC BY-SA 4.0. The derivative must retain AMS attribution, the licence link, a change statement and compatible ShareAlike terms. Do not label it CC BY-NC 4.0.
+**5.7-B remains separate:** it is adapted from AMS Project Atmosphere: Clouds (2025), Figure 2, under CC BY-SA 4.0. The SVG and chapter caption now include AMS attribution, the licence link, and a change statement (redrawn, simplified and relabelled bilingually). The adaptation is shared under CC BY-SA 4.0 and is not labelled CC BY-NC 4.0.
 
 ## Integrated / Интегрировано
 
