@@ -23,6 +23,10 @@ for (const id of ids) {
  if (!occurrences) errors.push("Missing visual ID " + id);
 }
 if (!chapter.includes("https://files.isric.org/public/WRB/wrb2014.png")) errors.push("08-B ISRIC map source missing");
+const svgD = readFileSync(resolve("geography/assets/diagrams/08-D-soil-earth-spheres-interface-bilingual.svg"),"utf8");
+const svgG = readFileSync(resolve("geography/assets/diagrams/08-G-landscape-mosaic-patches-corridors-matrix-bilingual.svg"),"utf8");
+if (!svgD.includes('fill="#c3a27e"')) errors.push("08-D central soil panel must retain mobile-safe text contrast background #c3a27e");
+if (!svgG.includes('fill="#a3c19a"')) errors.push("08-G habitat patches must retain mobile-safe text contrast background #a3c19a");
 for (const name of localSvgNames) {
  if (!readFileSync(resolve("geography/assets/diagrams/" + name),"utf8").includes("<svg")) errors.push("Invalid/missing SVG root: " + name);
 }
