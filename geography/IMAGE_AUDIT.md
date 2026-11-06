@@ -1890,3 +1890,15 @@ Static inventory/XML/ARIA acceptance passed in [run 42222182335](https://github.
 - The visual is an original conceptual teaching schematic. It shows a generalised latitudinal sequence and a separate mountain altitudinal sequence; it does not claim universal biome boundaries or fixed elevations.
 - Source-level preflight: one SVG root, title and description metadata, unique IDs, no script or foreignObject elements. Browser rendering, mobile reflow, manual screen-reader review and independent specialist sign-off remain pending.
 - Rights: PASS — project owner authorised CC BY-NC 4.0 for all original project-controlled visuals in the Geography Atlas on 6 November 2026; 07-J is an original project-created SVG and is covered. Third-party source assets retain their own licences.
+
+
+### Chapter 08 — mobile text-contrast remediation — 6 November 2026
+
+A manual source-level contrast review identified two text-on-colour combinations that were borderline or below the WCAG AA normal-text contrast threshold after the SVGs were scaled to a 390px-wide phone viewport. This is distinct from the earlier axe DOM scan, which reported zero automated violations but did not evaluate these SVG colour pairs as rendered graphic text.
+
+- **08-D:** the central soil panel background changed from `#b58b63` to `#c3a27e`; dark text `#243447` now has a contrast ratio of approximately **5.30:1**.
+- **08-G:** habitat-patch fill changed from `#5e8a55` to `#a3c19a`; dark text `#243447` now has a contrast ratio of approximately **6.43:1**.
+- The 08-G patch labels are bold and remain legible against the lighter green; the darker outline `#315c3b` is retained to preserve patch boundaries.
+- The browser smoke test now guards both approved fill values so a future colour regression fails CI.
+
+These calculations address the two identified SVG text/background pairs; they are not a full manual audit of every visual element, nor a substitute for screen-reader testing. The 08-B ISRIC map still has a small legend at phone scale and requires zoom or the linked full-size poster. Deployed-site verification and independent specialist sign-off remain open.
