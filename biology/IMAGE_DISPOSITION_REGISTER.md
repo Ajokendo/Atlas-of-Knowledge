@@ -147,3 +147,11 @@ Triage count correction: the current `IMAGE_BRIEF_REVIEW.md` table contains 37/5
 The latest artifact from successful run `42042559006` / commit `be2882b6` was retrieved directly from Actions and reviewed: 26 full-page screenshots, 13 pages × 2 widths (1365 px and 390 px). Page-level review found no obvious horizontal overflow, clipped columns, broken image placeholders or missing-media gaps in inspected views. Mobile card stacking and desktop two-column layout render as intended. Long regional Flora and Fauna pages received additional full-resolution crop review.
 
 This is a page-level rendering result, not blanket verification of the 53 mapped visual briefs. Asset-specific morphology, detailed scientific accuracy, fine label placement, source identity and rights remain open wherever the individual row says so.
+
+
+## Talas Besh-Tash plate — limited internal rendering acceptance — 6 November 2026
+
+- Successful Biology workflow [#1595](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42210570386), commit `5ae6322e`, supplied fresh desktop and mobile full-page screenshots.
+- Desktop: all three habitat panels and bilingual caption are contained; no clipping or visible panel overlap in the inspected crop.
+- Mobile: the plate uses its intended horizontal-scroll viewport and bilingual hint; the page itself remains within the viewport.
+- This closes only the targeted rendered-layout check for this revision. It does not close diagnostic morphology, source-to-image identity, fish taxonomy, asset rights/provenance or all bilingual-semantic review. Keep the asset below `VERIFIED` until those separate checks are evidenced.
