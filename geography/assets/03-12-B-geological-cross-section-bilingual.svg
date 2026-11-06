@@ -6,7 +6,7 @@
 <rect x="70" y="210" width="1060" height="390" fill="#e7d7bd" stroke="#475569" stroke-width="3"/>
 <!-- Folded, displaced strata: the right block is downthrown across the inclined fault -->
 <path d="M70 210 L700 210 L700 300 Q560 250 420 300 Q250 350 70 300 Z" fill="#fbbf24" stroke="#a16207" stroke-width="3"/>
-<path d="M820 250 L1130 250 L1130 340 L820 340 Q960 290 820 250 Z" fill="#fbbf24" stroke="#a16207" stroke-width="3"/>
+<path d="M820 210 L1130 210 L1130 340 Q960 390 820 340 Z" fill="#fbbf24" stroke="#a16207" stroke-width="3"/>
 <path d="M70 300 Q250 350 420 300 Q560 250 700 300 L700 380 Q560 330 420 380 Q250 430 70 380 Z" fill="#93c5fd" stroke="#1d4ed8" stroke-width="3"/>
 <path d="M820 340 Q960 390 1130 340 L1130 420 L820 420 Q960 470 820 420 Z" fill="#93c5fd" stroke="#1d4ed8" stroke-width="3"/>
 <path d="M70 380 Q250 430 420 380 Q560 330 700 380 L700 460 Q560 410 420 460 Q250 510 70 460 Z" fill="#86efac" stroke="#15803d" stroke-width="3"/>
@@ -15,7 +15,7 @@
 <path d="M455 600 L500 600 L570 255 L530 255 Z" fill="#c084fc" stroke="#6d28d9" stroke-width="5"/>
 <!-- Fault plane separates blocks; offset is visible in the matching layer boundaries -->
 <path d="M700 210 L820 600" stroke="#78350f" stroke-width="12"/>
-<path d="M682 265 L718 265 M705 250 L718 265 L705 280" stroke="#dc2626" stroke-width="4" fill="none"/>
+<path d="M665 335 L665 295 M650 310 L665 295 L680 310 M850 320 L850 365 M835 350 L850 365 L865 350" stroke="#dc2626" stroke-width="4" fill="none"/>
 <g font-family="Arial,sans-serif" font-size="20" fill="#1e293b">
  <text x="100" y="260">Слой A / Layer A</text>
  <text x="100" y="410">Слой B / Layer B</text>
