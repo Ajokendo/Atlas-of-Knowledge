@@ -1081,9 +1081,9 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Порядок работы:**
 1. Загрузите полигоны и таблицу CSV; проверьте, что идентификаторы имеют одинаковый формат и не содержат случайных пробелов.
 2. Проверьте CRS слоя и географический охват. Для самой операции соединения перепроецирование не обязательно, но для измерений и оформления карты CRS должен быть осмысленным.
-3. Соедините таблицу с полигонами по уникальному коду. Проверьте несколько записей вручную и найдите объекты без совпадения.
+3. В панели Processing Toolbox запустите **Join attributes by field value** (`native:joinattributestable`): выберите полигональный слой как входной, CSV как второй слой и соответствующие поля кода. Сохраните выходной слой и, если доступно, отдельный список `NON_MATCHING`. Проверьте несколько записей вручную; алгоритм может создать новые FID/первичные ключи, поэтому не используйте прежний FID как устойчивый идентификатор.
 4. Рассчитайте нормированный показатель, например население на 1 км², только если площадь и население относятся к сопоставимой территории и периоду. Не делите на нулевую или отсутствующую площадь.
-5. Создайте хороплету с последовательной цветовой шкалой; укажите единицы, год, источник, метод классификации и число классов.
+5. Для числового показателя выберите стиль **Graduated** (градуированная символика) и последовательную цветовую шкалу. Запишите метод классификации и число классов; при сравнении нескольких лет используйте одинаковые границы классов. Укажите единицы, год, источник и лицензию.
 6. Сохраните проект и экспортируйте карту в PDF или изображение.
 
 **Результат:** карта, таблица соединения и короткое пояснение о том, почему выбранный показатель подходит для сравнения. **Проверка:** все ли полигоны получили ожидаемые значения; не перепутаны ли абсолютные и относительные величины; указаны ли год, единицы, источник, лицензия и ограничения. Если границы и статистика относятся к разным годам или уровням агрегации, это нужно явно отметить.
@@ -1095,9 +1095,9 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Steps:**
 1. Load the polygons and a CSV table. Check that the identifiers use the same format and contain no accidental spaces.
 2. Check the layer CRS and geographic extent. Reprojection is not required merely to join a table, but the CRS used for measurements and map presentation must be appropriate.
-3. Join the table to the polygons using a unique code. Manually inspect several records and identify features with no match.
+3. In the Processing Toolbox, run **Join attributes by field value** (`native:joinattributestable`): choose the polygon layer as the input, the CSV as the second layer and the matching code fields. Save the output and, where available, the separate `NON_MATCHING` output. Inspect several records manually; the algorithm may regenerate FID/primary-key values, so do not treat the old FID as a stable identifier.
 4. Calculate a normalised indicator, such as population per square kilometre, only if population and area refer to comparable territories and periods. Do not divide by zero or missing area.
-5. Create a choropleth with a sequential colour ramp. State the units, year, source, classification method and number of classes.
+5. For the numeric indicator, choose the **Graduated** renderer and a sequential colour ramp. Record the classification method and number of classes; when comparing several years, keep class breaks identical. State units, year, source and licence.
 6. Save the project and export the map as a PDF or image.
 
 **Deliverables:** the map, the joined attribute table and a short explanation of why the indicator is suitable for comparison. **Check:** did all expected polygons receive values; were absolute and relative quantities kept distinct; are the year, units, source, licence and limitations stated? If boundaries and statistics refer to different years or levels of aggregation, disclose this.
@@ -1141,8 +1141,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Порядок работы:**
 1. Выберите одну услугу (например, школу или медицинский пункт) и ограниченную территорию исследования.
 2. Проверьте CRS, единицы измерения и корректность геометрии точек и линий.
-3. Создайте буфер заданного радиуса вокруг объектов услуги в подходящей проецированной CRS. Запишите радиус и метод измерения.
-4. Если дорожная сеть достаточно полна и топологически связна, выполните анализ ближайшего маршрута или зоны обслуживания по расстоянию/времени. Зафиксируйте правила движения, скорость (если используется), направление дорог, допуск привязки точек к сети и максимальное расстояние привязки.
+3. Запустите **Buffer** (`native:buffer`) для точек объектов услуги, задайте радиус и единицы в соответствии с проецированной CRS, при необходимости отключите объединение буферов, чтобы сохранить отдельные зоны. Зафиксируйте радиус, CRS и параметры. Это геометрическая зона по прямой, а не маршрутная доступность.
+4. Если дорожная сеть достаточно полна и топологически связна, в Processing Toolbox используйте **Shortest path (point to point)** (`native:shortestpathpointtopoint`) для одного маршрута либо **Service area (from point)** (`native:serviceareafrompoint`) / **Service area (from layer)** (`native:serviceareafromlayer`) для зоны обслуживания. Для стратегии Shortest стоимость задаётся расстоянием в единицах сети; для Fastest — временем, с полем скорости или заданной скоростью по умолчанию. Проверьте направление линий, топологический допуск и `Maximum point distance from network`; сохраните слой недостижимых точек, если алгоритм его предлагает. Зафиксируйте правила движения, скорость (если используется), направление дорог, допуск привязки точек к сети и максимальное расстояние привязки.
 5. Сравните населённые пункты, попавшие в буфер, с теми, которые достижимы по сети. Объясните, почему буфер не является зоной фактического обслуживания.
 6. Если пригодной сети нет, не имитируйте сетевой результат: ограничьтесь буфером и опишите, каких данных не хватает.
 
@@ -1156,7 +1156,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 1. Choose one service (for example, a school or health facility) and a limited study area.
 2. Check the CRS, measurement units and geometry validity of the points and lines.
 3. Create a buffer of a stated radius around the service locations using a suitable projected CRS. Record the radius and measurement method.
-4. If the road network is sufficiently complete and topologically connected, run a shortest-route or distance/time service-area analysis. Record travel rules, speed (if used), one-way restrictions, point-snapping tolerance and maximum snapping distance.
+4. If the road network is sufficiently complete and topologically connected, In the Processing Toolbox, use **Shortest path (point to point)** (`native:shortestpathpointtopoint`) for one route, or **Service area (from point)** (`native:serviceareafrompoint`) / **Service area (from layer)** (`native:serviceareafromlayer`) for a service area. With the Shortest strategy, cost is distance in network-layer units; with Fastest, cost is time, using a speed field or default speed. Check line direction, topology tolerance and `Maximum point distance from network`; retain the non-routable-points output if provided.
 5. Compare settlements inside the buffer with those reachable through the network. Explain why a buffer is not an actual service catchment.
 6. If no suitable network is available, do not fabricate a network result: limit the exercise to buffers and state which data are missing.
 
@@ -1171,7 +1171,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Порядок работы:**
 1. Загрузите ЦМР и проверьте, что горизонтальные и вертикальные единицы согласованы. При необходимости выберите подходящую проекцию и корректный вертикальный коэффициент масштаба.
 2. Запишите размер ячейки, диапазон высот, NoData, дату и заявленную точность (если опубликована).
-3. Инструментами анализа рельефа QGIS рассчитайте уклон и экспозицию. Укажите, в каких единицах выведен уклон — градусы или проценты.
+3. В Processing Toolbox откройте **Raster terrain analysis → Slope** (`native:slope`) и **Aspect** (`native:aspect`). Для обоих инструментов проверьте параметр `Z factor`; он должен учитывать отношение единиц высоты к горизонтальным единицам. `native:slope` выдаёт уклон в градусах; если нужны проценты, используйте алгоритм GDAL **Slope** (`gdal:slope`) и включите `Express slope as percent`. Не сравнивайте результаты в градусах и процентах без преобразования. Укажите, в каких единицах выведен уклон — градусы или проценты.
 4. Проверьте легенду экспозиции: направление может быть задано азимутом, а плоские участки могут иметь специальное значение NoData/условный код.
 5. Сопоставьте результат с исходной ЦМР и объясните влияние разрешения, вертикальной ошибки и сглаживания.
 6. Сохраните карты уклона и экспозиции, параметры алгоритма и краткое описание ограничений.
@@ -1185,7 +1185,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Steps:**
 1. Load the DEM and check that horizontal and vertical units are consistent. If needed, choose a suitable projection and a correct vertical scale factor.
 2. Record cell size, elevation range, NoData value, date and stated accuracy, if published.
-3. Use QGIS terrain-analysis tools to calculate slope and aspect. State whether slope is expressed in degrees or percent.
+3. In the Processing Toolbox, open **Raster terrain analysis → Slope** (`native:slope`) and **Aspect** (`native:aspect`). Check the `Z factor` in both tools; it must account for the ratio between elevation and horizontal units. `native:slope` outputs degrees; if percent slope is required, use GDAL **Slope** (`gdal:slope`) and enable `Express slope as percent`. Do not compare degree and percent outputs without conversion.
 4. Check the aspect legend: direction may be expressed as an azimuth, while flat cells may receive a special NoData value or code.
 5. Compare the outputs with the source DEM and explain the influence of resolution, vertical error and smoothing.
 6. Save the slope and aspect maps, algorithm parameters and a short limitations note.
@@ -1201,8 +1201,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Порядок работы:**
 1. Сохраните неизменённую копию исходного слоя и запишите его источник, дату, CRS и лицензию.
 2. Проверьте пустые обязательные атрибуты, дублирующиеся идентификаторы и неожиданные значения.
-3. Запустите проверку валидности геометрии: самопересечения, незамкнутые или некорректные кольца и другие ошибки.
-4. Если полигоны должны образовывать непрерывное покрытие, проверьте зазоры и наложения между ними. Сначала уточните правила модели: не всякое перекрытие является ошибкой.
+3. Запустите **Check validity** (`native:checkvalidity`) и сохраните три результата: корректные объекты, некорректные объекты и точки ошибок. Эта проверка оценивает валидность каждой геометрии отдельно; она сама по себе не выявляет все зазоры и перекрытия между соседними полигонами.
+4. Если по модели данных полигоны должны образовывать покрытие без зазоров и перекрытий, включите встроенный плагин **Topology Checker** (Plugins → Manage and Install Plugins) и задайте правила **Must not have gaps** и **Must not overlap**. Применяйте их только там, где это действительно требуется: острова, отверстия, перекрывающиеся тематические зоны и специальные административные модели могут требовать иных правил.
 5. Создайте журнал: идентификатор объекта, тип проблемы, способ обнаружения, предполагаемая причина, предложенное исправление, кто и когда его подтвердил.
 6. Исправляйте только копию и только после проверки источника. Сравните число объектов и геометрию до и после обработки.
 
@@ -1215,8 +1215,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Steps:**
 1. Preserve an unchanged copy of the source layer and record its source, date, CRS and licence.
 2. Check for missing required attributes, duplicate identifiers and unexpected values.
-3. Run geometry-validity checks for self-intersections, unclosed or invalid rings and other geometry errors.
-4. If polygons are expected to form a continuous coverage, check for gaps and overlaps between them. First establish the data model's rules: not every overlap is an error.
+3. Run **Check validity** (`native:checkvalidity`) and save its three outputs: valid features, invalid features and error points. This checks each geometry individually; it does not by itself identify every gap or overlap between neighbouring polygons.
+4. If the data model requires a polygon coverage without gaps or overlaps, enable the built-in **Topology Checker** plugin (Plugins → Manage and Install Plugins) and configure **Must not have gaps** and **Must not overlap** rules. Apply them only where the data model requires them: islands, holes, overlapping thematic zones or special administrative models may need different rules.
 5. Create an issue log with feature ID, problem type, detection method, possible cause, proposed correction, and who confirmed it and when.
 6. Make corrections only in a copy and only after checking the source. Compare feature counts and geometry before and after processing.
 
@@ -1229,7 +1229,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Данные и программа:** QGIS и небольшие наборы открытых или учебных данных. Проект должен оставаться учебным; не включайте персональные сведения и точные координаты уязвимых объектов.
 
 **Порядок работы:**
-1. Создайте отдельную папку проекта с понятной структурой: `project.qgz`, `data/original`, `data/processed`, `outputs`, `metadata`, `README`.
+1. Создайте отдельную папку проекта с понятной структурой: `project.qgz`, `data/original`, `data/processed`, `outputs`, `metadata`, `README`. Для файлов внутри этой папки используйте **относительные пути**; после переноса проверьте проект на другом компьютере.
 2. Сохраните неизменённые исходные файлы отдельно от обработанных. Не полагайтесь на то, что один файл QGZ автоматически включает все внешние наборы данных.
 3. Запишите для каждого слоя название, владельца/поставщика, URL или способ получения, дату загрузки, лицензию, CRS, охват, дату наблюдения и известные ограничения.
 4. Сохраните последовательность обработки: названия инструментов, входные и выходные слои, параметры, версии QGIS и важных дополнений, выбранные координатные операции и необходимые сеточные файлы.
@@ -1243,7 +1243,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Data and software:** QGIS and small open or teaching datasets. Keep the project educational; do not include personal information or exact coordinates of vulnerable sites.
 
 **Steps:**
-1. Create a dedicated project folder with a clear structure: `project.qgz`, `data/original`, `data/processed`, `outputs`, `metadata` and `README`.
+1. Create a dedicated project folder with a clear structure: `project.qgz`, `data/original`, `data/processed`, `outputs`, `metadata` and `README`. Set project data paths to **relative paths** for files inside this folder; after transfer, test the project on another computer.
 2. Keep unchanged source files separate from processed data. Do not assume that a single QGZ file automatically contains every external dataset.
 3. For each layer, record its title, owner/provider, URL or acquisition method, download date, licence, CRS, extent, observation date and known limitations.
 4. Record the processing sequence: tool names, input and output layers, parameters, QGIS and important plugin versions, selected coordinate operations and required grid files.
@@ -1370,6 +1370,9 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 41. QGIS Documentation 3.44. **Working with Project Files.** Describes what QGIS project files store and the QGS/QGZ formats. https://docs.qgis.org/3.44/en/docs/user_manual/introduction/project_files.html
 42. QGIS Documentation 3.44. **Metadata tools.** Layer metadata history and metadata-copying tools introduced in QGIS 3.42. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/metadatatools.html
 43. QGIS Documentation 3.44. **Training Manual and sample data.** Free classroom exercises and sample datasets covering thematic mapping, vector and raster data, network analysis, topology and terrain analysis. https://docs.qgis.org/3.44/en/docs/training_manual/
+44. QGIS Documentation 3.44. **Join attributes by field value.** `native:joinattributestable`; matching fields, non-matching output and regenerated feature IDs. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html
+45. QGIS Documentation 3.44. **Network analysis.** Shortest path and service-area algorithms, travel-cost units, speed, topology tolerance and maximum point-to-network distance. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/networkanalysis.html
+46. QGIS Documentation 3.44. **Raster terrain analysis; Check validity; Topology Checker.** Slope/aspect algorithms, geometry validity and coverage topology rules. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html ; https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html ; https://docs.qgis.org/3.44/en/docs/user_manual/plugins/core_plugins/plugins_topology_checker.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
