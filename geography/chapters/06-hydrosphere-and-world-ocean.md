@@ -588,6 +588,10 @@ The cycle operates at different scales:
 
 ### 6.3. The World Ocean as an Integrated System
 
+![Generalized orientation map of the five oceans. Continents and labels are schematic; boundaries are not a precise hydrographic delimitation and the map is not for navigation.](../assets/06-3-B-five-oceans-bilingual.svg)
+
+*Generalized orientation map of the five oceans. Continents and labels are schematic; boundaries are not a precise hydrographic delimitation and the map is not for navigation.*
+
 The world ocean is a continuous water system, although it is traditionally divided into individual oceans and seas. Boundaries between oceans are conventional and depend on geographical and hydrographic traditions.
 
 Many modern educational and scientific sources recognise five oceans: the Pacific, Atlantic, Indian, Southern and Arctic. The Southern Ocean surrounds Antarctica, and its northern boundary is often drawn at 60° S. However, this is not a universally adopted IHO boundary: the current official IHO publication S-23, *Limits of Oceans and Seas*, dates from 1953 and does not include the Southern Ocean, while the 2002 draft of the fourth edition remained a working document and was not approved. Maps should therefore identify the classification and boundary source used.
@@ -694,6 +698,10 @@ Ocean deoxygenation is a decline in dissolved oxygen. It may result from warming
 
 ### 6.9. Marine Ecosystems and Productivity
 
+![Teaching cross-section of marine ecological zones; terms describe different spatial dimensions and the figure is not a bathymetric survey.](../assets/06-9-A-marine-zones-bilingual.svg)
+
+*Teaching cross-section of marine ecological zones; terms describe different spatial dimensions and the figure is not a bathymetric survey.*
+
 Ocean ecosystems differ in light, depth, temperature, salinity, nutrient availability and substrate.
 
 One commonly used teaching classification distinguishes the **littoral**, periodically affected by tides; the **sublittoral**, a shallow permanently submerged zone; the **pelagic zone**, the open-water column; the **benthic zone**, the seabed; and the **abyssal and hadal zones**, the deepest regions. Exact boundaries and terminology vary among disciplines and classification systems.
@@ -714,6 +722,10 @@ Offshore energy includes oil and gas extraction, offshore wind farms and emergin
 
 ### 6.11. Ocean Pollution and Marine Protection
 
+![Conceptual diagram of major pollution pathways and prevention measures; not a quantitative source-apportionment.](../assets/06-11-A-ocean-pollution-pathways-bilingual.svg)
+
+*Conceptual diagram of major pollution pathways and prevention measures; not a quantitative source-apportionment.*
+
 Major sources of ocean pollution include plastics and microplastics, oil spills, wastewater and excess nutrients, heavy metals and persistent chemical pollutants, marine litter from ships and coasts, underwater noise and the transfer of invasive species.
 
 Plastic waste can injure marine animals, enter food webs and travel long distances. Microplastics have been found in different parts of the marine environment, although their effects on particular species and on human health remain an active area of research.
@@ -721,6 +733,10 @@ Plastic waste can injure marine animals, enter food webs and travel long distanc
 Protection measures include preventing litter and untreated wastewater from entering the ocean, reducing single-use plastics and improving waste management, controlling shipping and fishing, establishing marine protected areas, monitoring water quality and ecosystem condition, and strengthening international cooperation.
 
 ### 6.12. Glaciers, Sea Ice and the Cryosphere
+
+![Schematic distinguishes land ice, seasonal snow, permafrost and floating sea ice; locations are illustrative.](../assets/06-12-A-cryosphere-components-bilingual.svg)
+
+*Schematic distinguishes land ice, seasonal snow, permafrost and floating sea ice; locations are illustrative.*
 
 The cryosphere includes all parts of Earth where water is in a frozen state: glaciers, ice sheets, sea ice, seasonal snow cover, permafrost and ground ice.
 
@@ -731,6 +747,10 @@ A **glacier** is a mass of land-based ice formed by the accumulation and compact
 **Glacier mass balance** is the difference between accumulation of snow and ice and losses through melting, sublimation, iceberg calving and other processes. A positive balance means the glacier gained mass over the period considered; a negative balance means it lost mass.
 
 ### 6.13. Rivers and Drainage Basins
+
+![Generalized catchment schematic; actual channel networks and basin boundaries depend on topography and geology.](../assets/06-13-A-river-basin-anatomy-bilingual.svg)
+
+*Generalized catchment schematic; actual channel networks and basin boundaries depend on topography and geology.*
 
 A **river** is a natural flow of water moving in a channel from its source to its mouth. Rivers receive water from precipitation, snow and ice melt, groundwater and tributaries.
 
@@ -767,6 +787,10 @@ This means that approximately 3.6 cubic metres of water pass through the selecte
 
 ### 6.14. Lakes and Inland Waters
 
+![Illustrative forms of four basin types and a simplified seasonal stratification; not measured profiles.](../assets/06-14-A-lake-types-structure-bilingual.svg)
+
+*Illustrative forms of four basin types and a simplified seasonal stratification; not measured profiles.*
+
 A **lake** is a natural inland water body occupying a depression in the land surface and lacking a direct, freely flowing connection to the ocean. Artificial water bodies created by dams or excavation are more precisely called reservoirs or artificial ponds, although they are sometimes referred to informally as artificial lakes. Lakes differ in origin, depth, area, water balance, salinity and ecological condition.
 
 By origin, lake basins may be tectonic, glacial, volcanic, karst, dammed, thermokarst or residual. By water balance, lakes may be outflowing or closed. In closed lakes, salts may accumulate through evaporation, producing saline water.
@@ -774,6 +798,10 @@ By origin, lake basins may be tectonic, glacial, volcanic, karst, dammed, thermo
 **Eutrophication** is the enrichment of a water body with nutrients, especially nitrogen and phosphorus compounds. Excessive eutrophication can cause algal blooms, reduced water transparency and oxygen depletion.
 
 ### 6.15. Groundwater
+
+![Conceptual geological section; aquifers and wells are not site-specific.](../assets/06-15-A-groundwater-system-bilingual.svg)
+
+*Conceptual geological section; aquifers and wells are not site-specific.*
 
 Groundwater occurs in pores, fractures and cavities in rocks. It is replenished mainly by infiltration of precipitation and surface water, although other sources may contribute under particular geological conditions.
 
@@ -801,6 +829,10 @@ Integrated water-resources management treats a basin as one system and considers
 Key tools include monitoring surface water and groundwater, water-saving technologies, treatment and reuse, wetland restoration, environmental flows, transboundary agreements and data exchange.
 
 ### 6.17. Water and Climate Change
+
+![Possible causal pathways; regional responses vary and direction and magnitude depend on local conditions.](../assets/06-17-A-climate-water-cycle-bilingual.svg)
+
+*Possible causal pathways; regional responses vary and direction and magnitude depend on local conditions.*
 
 Climate change affects the hydrological cycle through changes in evaporation, precipitation intensity, snow accumulation, glacier melt and the frequency of extreme events.
 
@@ -853,6 +885,10 @@ Inflows may include precipitation, surface-water and groundwater inflow, and wat
 16. How does climate change affect the hydrological cycle?
 
 ### Practical Assignment: Analysing a Water Balance and River Basin
+
+![Teaching values and seasonal curve are illustrative; real analysis requires observations from a specific basin.](../assets/06-18-A-catchment-exercise-bilingual.svg)
+
+*Teaching values and seasonal curve are illustrative; real analysis requires observations from a specific basin.*
 
 Consider a hypothetical river basin with an area of 10,000 km². Annual mean precipitation is 800 mm, actual evapotranspiration is 500 mm, and water storage in soil, aquifers and water bodies increases by 50 mm.
 
