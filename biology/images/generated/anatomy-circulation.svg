@@ -2,10 +2,10 @@
 <title id="title">Два круга кровообращения / The two circulatory circuits</title>
 <desc id="desc">Учебная схема сердца, лёгочного и системного кругов кровообращения. Синяя стрелка показывает путь крови с низким содержанием кислорода к лёгким, красная — путь крови с высоким содержанием кислорода к органам тела. / Educational diagram of the heart, pulmonary and systemic circuits. Blue arrows show oxygen-poor blood travelling to the lungs; red arrows show oxygen-rich blood travelling to the body.</desc>
 <defs>
- <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#b94d43"/></marker>
- <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#397ba8"/></marker>
+ <marker id="redArrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L14 7L0 14Z" fill="#b94d43"/></marker>
+ <marker id="blueArrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L14 7L0 14Z" fill="#397ba8"/></marker>
  <style>
- .t{font: bold 25px Arial,sans-serif;fill:#222}.s{font:20px Arial,sans-serif;fill:#454545}.small{font:17px Arial,sans-serif;fill:#555}.red{stroke:#b94d43;fill:none;stroke-width:13;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#397ba8;fill:none;stroke-width:13;stroke-linecap:round;stroke-linejoin:round}.heart{stroke:#6c3b3a;stroke-width:4}.chamber{stroke:#fff;stroke-width:5}
+ .t{font: bold 25px Arial,sans-serif;fill:#222}.s{font:20px Arial,sans-serif;fill:#454545}.small{font:17px Arial,sans-serif;fill:#555}.red{stroke:#b94d43;fill:none;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#397ba8;fill:none;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.heart{stroke:#6c3b3a;stroke-width:4}.chamber{stroke:#fff;stroke-width:5}
  </style>
 </defs>
 <rect width="1200" height="900" rx="28" fill="#fbfaf6"/>
