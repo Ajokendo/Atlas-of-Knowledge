@@ -644,3 +644,21 @@ A direct source pass was completed across the seven integrated interactive syste
 - Corrective source change in this checkpoint: 1/7 systems (CH-IV05).
 - The seven systems are not marked VERIFIED: rendered desktop/mobile states, manual keyboard/touch/screen-reader testing, full element-data provenance, creator/rightsholder and code-licence evidence, and final project approval have not been closed by this source pass.
 - The successful Chromium workflow runs on the previous branch head predate the CH-IV05 correction and its new regression guard. A fresh branch-head workflow run is required before calling the new change technically validated.
+
+
+## CH-IV04 follow-up — periodic-table dataset integrity controls, 6 November 2026
+
+A second focused pass inspected the embedded 118-record periodic-table dataset and its interactive selection/filtering implementation. The record sequence contains the expected atomic-number range 1–118, bilingual names, unique symbols, category keys, group/period coordinates and either decimal standard atomic-weight values or bracketed isotope mass numbers for elements without standard atomic weights. The page explains the meaning of bracketed values and notes that metalloid boundaries can vary by source.
+
+Added a regression validator to chemistry/checks.mjs. It now checks:
+- exactly 118 records and consecutive atomic numbers 1–118;
+- unique, syntactically valid element symbols;
+- non-empty Russian and English names;
+- atomic-weight / bracketed mass-number field format;
+- category membership and valid group (1–18) / period (1–7) coordinates;
+- lanthanoid/actinoid records assigned to periods 6–7;
+- the existing polite live-region, selected-state and localized search-label accessibility hooks.
+
+This is a structural integrity guard, not independent certification of each published atomic weight, isotope choice or chemical classification. Those values still need reconciliation against a named authoritative reference dataset, with source/version/date recorded. The periodic-table data review therefore remains open pending that provenance check and the fresh CI result.
+
+- Regression-check commit: 0a7e3d34d5bcce4e1b0beeae1a3d40eb4e6cef70.
