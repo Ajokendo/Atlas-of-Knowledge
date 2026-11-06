@@ -56,6 +56,30 @@ for (const mobile of [false, true]) {
         if (!state.caption || !state.hasRu || !state.hasEn) throw new Error(`missing bilingual caption: ${state.src}`);
         if (state.width < 600 || state.height < 300) throw new Error(`unexpected SVG dimensions: ${state.src} ${state.width}×${state.height}`);
       }
+      if (item.title === 'Chapter 14') {
+        const supporting = page.locator('figure.supporting-figure img');
+        if (await supporting.count() !== 1) throw new Error(`expected 1 supporting visual, got ${await supporting.count()}`);
+        await supporting.scrollIntoViewIfNeeded();
+        await page.waitForFunction(() => [...document.querySelectorAll('figure.supporting-figure img')].every(img => img.complete && img.naturalWidth > 0 && img.naturalHeight > 0));
+        const state = await supporting.evaluate(img => ({
+          src: img.getAttribute('src'),
+          currentSrc: img.currentSrc,
+          width: img.naturalWidth,
+          height: img.naturalHeight,
+          alt: img.getAttribute('alt')?.trim() || '',
+          caption: img.closest('figure')?.querySelector('figcaption')?.innerText?.trim() || '',
+          hasRu: !!img.closest('figure')?.querySelector('figcaption [lang="ru"]'),
+          hasEn: !!img.closest('figure')?.querySelector('figcaption [lang="en"]'),
+        }));
+        const file = state.src.split('/').pop().replace('.svg', mobile ? '-mobile.png' : '.png');
+        await supporting.screenshot({ path: `${screenshotDir}/${file}` });
+        if (mobile && !state.currentSrc.includes('-mobile.svg')) throw new Error(`Lorentz mobile viewport did not select mobile layout: ${state.currentSrc}`);
+        if (!mobile && state.currentSrc.includes('-mobile.svg')) throw new Error(`Lorentz desktop viewport selected mobile layout: ${state.currentSrc}`);
+        if (!state.alt || state.alt.length < 40) throw new Error(`missing meaningful Lorentz alt text: ${state.src}`);
+        if (!state.caption || !state.hasRu || !state.hasEn) throw new Error(`missing bilingual Lorentz caption: ${state.src}`);
+        if (state.width < 600 || state.height < 300) throw new Error(`unexpected Lorentz SVG dimensions: ${state.src} ${state.width}×${state.height}`);
+        console.log(`PASS Chapter 14 Lorentz visual ${mobile ? 'mobile 390×844' : 'desktop 1440×900'} — responsive SVG loaded, bilingual caption, meaningful alt text`);
+      }
       if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)) throw new Error('horizontal overflow');
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
       const serious = axe.violations.filter(v => v.impact === 'critical' || v.impact === 'serious');
