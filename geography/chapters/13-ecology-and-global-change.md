@@ -621,7 +621,7 @@ Major greenhouse gases include:
 - nitrous oxide (N₂O), largely associated with agricultural and industrial processes; and
 - fluorinated gases used in some industrial and technical systems.
 
-The **greenhouse effect** is a natural physical process through which the atmosphere retains some outgoing heat radiation. An enhanced greenhouse effect caused by increasing greenhouse-gas concentrations raises the energy imbalance of the climate system.
+The **greenhouse effect** is a natural physical process: greenhouse gases absorb some of the infrared radiation emitted by Earth's surface and emit radiation in all directions, including back towards the surface. Rising concentrations of these gases strengthen this effect and add an energy imbalance to the climate system.
 
 Climate change is reflected not only in rising average temperature but also in changes to the probability and intensity of extreme events, precipitation regimes, snow cover, glaciers, sea level and ocean circulation. Impacts vary by region and season.
 
