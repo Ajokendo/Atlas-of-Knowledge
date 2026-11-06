@@ -290,9 +290,9 @@ For 01-D (Category B), exact source identity, creator, CC BY 4.0 licence, attrib
 | 03 | 3.5-A | INTEGRATED | PENDING | PASS | PENDING | PENDING | PENDING | Exact USGS media page for This Dynamic Planet I-2800 labels the image Public Domain; dated 2006 reference map. |
 | 03 | 3.6-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.7-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
-| 03 | 3.8-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
+| 03 | 3.8-A | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING — updated diagram awaits rerun of hosted browser QA | Rebuilt as two distinct fold profiles plus three fault panels; normal/reverse fault planes and hanging-wall arrows now agree; strike-slip shown in plan view. Project rights and assistive-technology review remain open. |
 | 03 | 3.9-A | INTEGRATED | PENDING | PASS | PENDING | PENDING | PENDING | Exact ICS current chart v2026/06 page states CC BY 4.0. Chart labels remain English-only; a Russian key to the hierarchy and principal eons/eras was added, but a full translation of chart subdivisions remains open. |
-| 03 | 3.10-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
+| 03 | 3.10-A | INTEGRATED | PASS | PENDING | PASS | PENDING | PENDING — updated diagram awaits rerun of hosted browser QA | Added a return path from mountain building/continental assembly to renewed rifting; explanatory note retains variable-duration, non-periodic caveat. Project rights and assistive-technology review remain open. |
 | 03 | 3.11-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.12-A | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
 | 03 | 3.12-B | INTEGRATED | PENDING | PENDING | PENDING | PENDING | PENDING | Existing register reports bilingual integration; five audit dimensions remain PENDING. |
@@ -1732,3 +1732,12 @@ The Chapter 02 visual replacement milestone remains **11/11 complete**. Browser 
 ### Chapter 03 — 3.1-A source-level correction — 6 November 2026
 
 The former Earth cutaway exaggerated crust thickness and had leader lines that did not clearly identify the named layers. The replacement now shows a thin outer crust ring and separates the compositional sequence (crust, mantle, outer core, inner core) from the mechanical concepts (lithosphere and asthenosphere). Scientific concept and bilingual label review PASS; rights for the provisional Category C SVG and full accessibility/rendered checks remain PENDING. This correction is included in the next Chapter 03 CI/browser run.
+
+
+### Chapter 03 — fold/fault geometry and supercontinent-cycle revisions — 6 November 2026
+
+**3.8-A — Folds and Faults.** Rebuilt the SVG to separate two fold profiles (anticline and syncline) from three fault examples. The normal and reverse fault panels now show inclined fault planes, distinct hanging-wall/footwall blocks, and arrows consistent with the relative vertical movement: hanging wall down for a normal fault, up for a reverse fault. Strike-slip motion is shown in plan view with opposing horizontal arrows, rather than being mixed into a cross-section. The footer states that the diagrams are conceptual and not to scale. Scientific concept and RU/EN label parity PASS at source review; rights and assistive-technology review remain PENDING.
+
+**3.10-A — Supercontinent Cycle.** Added an explicit return path from the final continental-assembly/mountain-building stage to renewed rifting, so the five stages read as a cycle rather than a one-way sequence. Updated the SVG description to explain that the cycle may begin again. The existing caveat remains: cycles vary in duration and are not a precise periodic mechanism. Scientific concept and RU/EN label parity PASS at source review; rights and assistive-technology review remain PENDING.
+
+**Hosted browser QA baseline.** Run [42161663137](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42161663137) completed SUCCESS on branch `workspace/geography`, commit `9b6011c5d494f11004689f4205429e01c4dbc884`. Its job completed all steps, including the isolated Chapter 03 preview, Chromium installation, and mobile/desktop rendering plus image decoding. This run predates the 3.8-A and 3.10-A revisions above; those latest SVG changes must pass the next triggered CI/browser run before their technical status can be promoted.
