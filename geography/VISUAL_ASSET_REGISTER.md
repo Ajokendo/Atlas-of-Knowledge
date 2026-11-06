@@ -516,6 +516,14 @@ Static source checks for all 11 SVGs pass: title and description metadata, image
 
 Still open: formal creator/licence assignment for each asset; jurisdiction-specific legal review of EIA/SEA terminology and requirements; independent scientific review; rendered-browser/mobile, keyboard and screen-reader QA. Static source checks do not substitute for rendered or accessibility acceptance.
 
+## Chapter 13 editorial follow-up — 6 November 2026
+
+The Chapter 13 text audit corrected the greenhouse-effect mechanism in both languages (infrared absorption and emission by greenhouse gases, not a vague “heat-trapping layer”); aligned the English Millennium Ecosystem Assessment service categories (“supporting services”); added the UNCCD land-degradation response hierarchy (avoid, reduce, reverse); aligned disaster-risk capacity terminology and summary statements; removed a duplicate English summary; and added UNECE Espoo Convention and UNEP Life Cycle Assessment references. The ocean section now gives the IPCC AR6 WGI estimate with its time windows: 23 ± 5% of anthropogenic carbon emissions stored by the ocean over the preceding 60 years, and more than 90% of excess heat accumulated in the Earth system since the 1970s. The 2026 Planetary Health Check claim remains dated and attributed to the report rather than presented as a legal threshold.
+
+Structural check: 18 RU main headings; 15 corresponding English main sections plus five paired subsections; 12/12 review questions in each language; 5/5 practical activities in each language; one bilingual summary; 26 sequential numbered references. All 11 visual IDs occur once in the instructional text with non-empty bilingual alt text; no visual embeds remain in the production-notes appendix.
+
+This is a text/source and static integration pass, not a complete source-to-claim audit. Remaining: verify all dated indicators and their extraction dates; inspect the complete evidence trail for each quantitative/scientific claim; independent scientific review; formal asset creator/licence assignment; jurisdiction-specific legal review of EIA/SEA; rendered-browser/mobile, keyboard and screen-reader QA.
+
 ## Twelfth-tranche update — Chapter 17-B, 17-F and 17-I — 5 November 2026
 
 Integrated three sourced map visuals for Kyrgyzstan: (17-B) a public-domain SRTM/GMT topographic map with a bilingual key to major ranges and intermontane valleys; (17-F) two CC BY 4.0 research maps from Poggi et al. (2024), one for regional earthquake epicentres and one for selected active faults; (17-I) an OCHA COD-AB-based labelled administrative map showing seven oblasts and Bishkek/Osh separately. These are external image dependencies; scientific/date validation and deployed rendering/accessibility checks remain pending where noted. Chapter 17 is now 6/9 integrated; 17-A, 17-D and 17-H remain open. Atlas-wide coverage is 178/281 (63.3%).
