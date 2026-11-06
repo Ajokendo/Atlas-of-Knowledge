@@ -7,7 +7,7 @@
 <path d="M45 285 Q180 250 300 282 T550 276 T820 285 T1155 270 L1155 400 L45 400Z" fill="#83b86d" stroke="#557f49" stroke-width="2"/>
 <path d="M45 400 Q250 370 420 405 T800 398 T1155 390 L1155 565 L45 565Z" fill="url(#rock)" stroke="#72583f" stroke-width="2"/>
 <path d="M690 310 Q790 285 900 310 T1155 305 L1155 425 Q1000 445 850 420 T690 425Z" fill="url(#sea)" stroke="#1e7198" stroke-width="2"/>
-<text x="75" y="445" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#fff">ЛИТОСФЕРА / LITHOSPHERE</text><text x="720" y="335" font-family="Arial,sans-serif" font-size="18 font-weight="700" fill="#fff">ГИДРОСФЕРА / HYDROSPHERE</text>
+<text x="75" y="445" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#fff">ЛИТОСФЕРА / LITHOSPHERE</text><text x="720" y="335" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">ГИДРОСФЕРА / HYDROSPHERE</text>
 <g stroke="#315b36" stroke-width="5" fill="none"><path d="M230 282V205M230 235l-34-28M230 248l35-34M340 280V195M340 225l-28-26M340 238l30-30"/></g><g fill="#4f9b58"><circle cx="230" cy="190" r="28"/><circle cx="198" cy="207" r="21"/><circle cx="262" cy="210" r="22"/><circle cx="340" cy="181" r="27"/><circle cx="309" cy="199" r="20"/><circle cx="371" cy="202" r="20"/></g>
 <g fill="#f6e5a7" stroke="#a67c2d" stroke-width="2"><ellipse cx="520" cy="280" rx="20" ry="9"/><path d="M520 272l-7-17 7-9 7 9z"/></g>
 <g fill="#fff" stroke="#226a8b" stroke-width="2"><path d="M805 350q-12-16 0-28q12 12 0 28z"/><path d="M845 370q-12-16 0-28q12 12 0 28z"/><path d="M930 389q-12-16 0-28q12 12 0 28z"/></g>
