@@ -30,7 +30,8 @@
 - [x] Inspected the first retained screenshot artifact from run [42158701555](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42158701555).
 - [x] Corrected the periodic-table mobile horizontal-scroll affordance and keyboard accessibility in both language modes; browser regression run [42170499572](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42170499572) passed.
 - [x] Corrected arrow/label overlap in the Russian and English periodic-trends SVGs and added a source regression guard.
-- [ ] Re-inspect the next screenshot artifact after these changes; review of all 36 baseline images and all interactive states remains incomplete.
+- [x] Re-inspected the 36-image 768 px set in the latest retained artifact; contact-sheet scan completed, with focused full-size spot checks on five representative pages/resources.
+- [ ] Full-size page-by-page review of all remaining visuals and review of all interactive states remain incomplete.
 
 ### Rendered visual evidence in CI — 6 November 2026
 
@@ -38,7 +39,8 @@
 - [x] GitHub Actions now uploads the screenshots as the `chemistry-rendered-review` artifact for 7 days.
 - [x] Run [42171472363](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171472363) passed on `cf15ec1`; the artifact contains 72 RU/EN screenshots across 390/768/1280 px.
 - [x] Contact-sheet scan of all 390 px and 1280 px captures completed; focused full-size review corrected periodic-trend arrow overlap and acid/base mobile readability/contrast.
-- [ ] Scan the 768 px captures and continue manual review of the remaining page-specific visuals and interactive states; screenshot generation is evidence capture, not full visual approval.
+- [x] Scanned all 36 screenshots at 768 px (18 selected pages/resources × RU/EN); the contact-sheet pass found no obvious clipping or overlap across the set. Full-size spot checks covered the Russian acid–base, chemical-reactions, periodic-table, molecular-lab and stoichiometry screens; the reviewed layouts remain readable and the intentional periodic-table horizontal scrolling is clearly explained.
+- [ ] Continue page-by-page full-size review of remaining visuals and inspect interactive states; screenshot generation and a contact-sheet scan do not equal complete manual visual approval.
 
 ### Reproducible browser-audit toolchain
 
