@@ -43,23 +43,26 @@ Automated results are evidence of the checks listed above only. They do not esta
 | Interactive visual systems | 7/7 inspected | Local code implementations; historical author attribution remains undocumented |
 | Automated branch-head CI | PASS | Run 41968413926 |
 
-## Disclosed limitations (not blockers for this project's internal release)
+## Disclosed resource limitations
 
-- The seven interactive systems are retained as self-contained local HTML/SVG/CSS/JavaScript/Canvas code. Their repository introduction history and absence of third-party visualization dependencies are documented, but original human/AI authoring attribution and a separate legal opinion are not established.
-- Earlier AI-generation evidence for ten SVG files does not by itself establish a comprehensive rights basis or exclusive ownership.
-- Internal scientific review is not independent expert certification.
+These limitations are reported transparently and do not, by themselves, prevent an internal review:
+
+- No external legal opinion or independent specialist chemistry review is claimed. External counsel and external subject-matter review are not universal prerequisites under the project standard; a competent internal second reviewer may satisfy the scientific-review gate.
+- The seven interactive systems are self-contained local HTML/SVG/CSS/JavaScript/Canvas implementations. Their repository history and lack of third-party visualization dependencies are documented, but this does not establish the original author, rightsholder or authority to license the code.
+- AI-generation evidence for ten earlier SVG files does not by itself establish a comprehensive rights basis or exclusive ownership.
 - Automated axe-core scans do not replace manual NVDA, TalkBack or VoiceOver testing.
 - No physical Android/iOS device certification or external 200%/400% zoom/reflow certification is claimed.
 - Do not describe the atlas as legally cleared or independently scientifically certified.
 
-## Optional future improvements
+## Optional accessibility and specialist enhancements
 
-These may be completed if resources become available, but they do not block the internal audit:
-- independent chemistry educator review;
+These may be completed if resources become available; they are not substitutes for the mandatory rights/licence and competent internal second-review gates:
+- external chemistry educator review;
 - manual keyboard and screen-reader testing (NVDA, TalkBack, VoiceOver);
 - physical Android/iOS device checks;
-- manual 200%/400% zoom and reflow review;
-- additional rights-holder research for older project assets and interactive-code history.
+- manual 200%/400% zoom and reflow review.
+
+Rights-holder research, confirmation of licensing authority and the explicit licence/permission decision are **mandatory open gates**, not optional future improvements.
 
 ## Internal completion decision
 
