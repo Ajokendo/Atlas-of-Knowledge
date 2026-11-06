@@ -13,9 +13,9 @@ export const A_SCALE = 0.08;       // arrow metres per м/с²
 const PZ = 1.3;                    // the projectile's pad sits in front of the first
 export const BOARD = { z: -1.0, w: 4.6, h: 5.75, pad: 0.35, tScale: 2.0, mid: Y0 + 2.6, vScale: 0.25 };
 export const BOARDS = [
-  { key: 'boardX', x0: -5.8, title: 'координата', unit: 'm' },
-  { key: 'boardV', x0: -10.8, title: 'скорость', unit: 'm/s' },
-  { key: 'boardA', x0: -15.8, title: 'ускорение', unit: 'm/s²' },
+  { key: 'boardX', x0: -5.8, title: 'координата', unit: 'м' },
+  { key: 'boardV', x0: -10.8, title: 'скорость', unit: 'м/с' },
+  { key: 'boardA', x0: -15.8, title: 'ускорение', unit: 'м/с²' },
 ];
 const tToX = (b, t) => b.x0 + BOARD.pad + t * BOARD.tScale;
 export const plotY = { boardX: q => Y0 + q, boardV: q => BOARD.mid + q * BOARD.vScale, boardA: q => BOARD.mid + q * BOARD.vScale };
@@ -349,7 +349,7 @@ function buildMore(root, asm) {
   const gP = asm('pull', root, { title: 'Разгоняющийся автомобиль', sub: 'ускорение уменьшается со временем: a = a₀ − kt' });
   const carP = carModel(gP, 'Car'); carP.scale.setScalar(S);
   const pV = arrow(gP, 'ink', { r: 0.02, head: 0.1, headR: 0.05, name: 'Скорость' });
-  const gPA = asm('pullA', root, { title: 'Ускорение автомобиля', sub: 'уменьшается на k = 1,5 м/с² каждую секунду' });
+  const gPA = asm('pullA', root, { title: 'Ускорение автомобиля', sub: 'уменьшается на k = 1,5 м/с³' });
   const pA = arrow(gPA, 'red', { r: 0.02, head: 0.1, headR: 0.05, name: 'Ускорение' });
   const ghostBox = (w, h, d) => { const l = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(w, h, d)), new THREE.LineBasicMaterial({ color: '#bdbdc2' })); l.userData = { noEdge: true }; root.add(l); return l; };
   const pGhosts = Array.from({ length: Math.round(M.PULL.run / 0.5) + 1 }, () => ghostBox(4.2 * S, 1.7 * S, 1.8 * S));
@@ -362,9 +362,9 @@ function buildMore(root, asm) {
   part(gL, xAxis(new THREE.ConeGeometry(0.05, 0.16, 20)), { tone: 'hi', pal: 'ink', pos: [CX + 3.48, 0.02, 0], name: 'Ось' });
   const lt = []; for (let q = -6; q <= 6; q++) lt.push(CX + q * 0.5, 0.02, 0, CX + q * 0.5, 0.02, q % 2 ? 0.08 : 0.16);
   lines(gL, lt, '#6e6e74');
-  for (let q = -3; q <= 3; q++) label('tick', q ? `${q < 0 ? '−' : ''}${Math.abs(q)} m` : '0', () => V(CX + q + 0.1, 0.02, 0.42));
+  for (let q = -3; q <= 3; q++) label('tick', q ? `${q < 0 ? '−' : ''}${Math.abs(q)} м` : '0', () => V(CX + q + 0.1, 0.02, 0.42));
   label('axis', '<i>x</i>', () => V(CX + 3.75, 0.05, 0.12));
-  const gB = asm('bead', root, { title: 'Материальная точка', sub: 'x(t) = t³ − 3t' });
+  const gB = asm('bead', root, { title: 'Материальная точка', sub: 'x(t) = (1 м/с³)·t³ − (3 м/с)·t' });
   part(gB, new THREE.SphereGeometry(0.15, 40, 28), { tone: 'hi', name: 'Материальная точка' });
   const cV = arrow(root, 'ink', { r: 0.024, head: 0.12, headR: 0.06, name: 'Скорость' });
   const cA = arrow(root, 'red', { r: 0.024, head: 0.12, headR: 0.06, name: 'Ускорение' });
