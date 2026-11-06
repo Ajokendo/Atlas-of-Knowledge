@@ -1589,3 +1589,13 @@ A stronger rights-documented candidate was identified in LibreTexts *The Physica
 - Removed `geography/assets/diagrams/02-1A-geographic-envelope-cross-section.svg` from the branch. This completes replacement of all 11 originally unlicensed Chapter 02 local SVGs; none remains in the branch or public-facing chapter. Their original no-public-licence records remain as historical rights documentation and do not imply permission to reuse the removed assets.
 - Final Chapter 02 inventory: 56 Markdown image embeds, 28 unique assets, 28 remote images and zero local SVGs. Across Chapters 01–02 there are 66 image embeds.
 - Rights result for 2.1-A: PASS under CC BY-SA 3.0. Overall replacement completion: 11/11 (100%). Technical/accessibility result remains PARTIAL: deployed-reader rendering, responsive behaviour, keyboard navigation and screen-reader output are not yet tested.
+
+
+## Consolidated Chapter 02 visual replacement verification — 6 November 2026
+
+- **Rights-cleared replacement coverage: 11/11 (100%).** The eleven formerly unlicensed local Chapter 02 SVGs have all been replaced with sourced images and removed from `workspace/geography`: 2-A, 2.1-A, 2.2-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.11-A, 2.12-A and 2.14-A.
+- **Current Chapter 02 inventory:** 56 Markdown image embeds, split evenly between Russian and English (28 each); 28 unique remote image assets; zero local SVG image references. The 2-D three-image set is present in both languages (six OpenStax image embeds total).
+- **Alt text/static source check:** 56/56 image embeds have non-empty alt text. No Chapter 02 Markdown image references point to the eleven removed local SVG files. The branch contains no remaining Chapter 02 local SVG assets.
+- **Rights and attribution:** the per-ID audit rows record the specific creator/source/licence basis. OpenStax cycle figures 46.15, 46.17 and 46.18 are CC BY-NC-SA 4.0 and require noncommercial use, attribution and ShareAlike compliance; this licence does not automatically apply to unrelated Atlas content. NASA-derived material with a U.S.-only Public Domain basis retains its jurisdiction caveat.
+- **Not yet verified:** production/deployed-page loading, responsive behaviour at mobile/tablet/desktop breakpoints, image failure fallbacks, keyboard navigation, screen-reader announcements and performance. These remain technical/accessibility tasks; source-level image checks must not be described as a completed browser audit.
+- Historical milestone entries below preserve the counts observed at their respective integration steps; the consolidated inventory above is the current state and supersedes those earlier interim totals.
