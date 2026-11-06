@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
 <title id="title">Широтная зональность и высотная поясность / Latitudinal zonation and altitudinal belts</title>
 <desc id="desc">Две сопоставимые концептуальные схемы: смена природных комплексов от экватора к полюсам и смена высотных поясов от подножия горы к нивальной зоне. Границы условны и зависят от региональных условий. / Two comparable conceptual diagrams: changes in natural systems from the equator to the poles and altitudinal belts from a mountain base to the nival zone. Boundaries are illustrative and depend on regional conditions.</desc>
+<metadata>Licence: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). Attribution: Atlas of Knowledge project. Licence deed: https://creativecommons.org/licenses/by-nc/4.0/</metadata>
 <defs>
  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f4f9fc"/><stop offset="1" stop-color="#fff"/></linearGradient>
  <linearGradient id="lat" x2="1" y2="0"><stop stop-color="#2c9b59"/><stop offset=".25" stop-color="#d8b85c"/><stop offset=".5" stop-color="#4e9b65"/><stop offset=".75" stop-color="#6b8794"/><stop offset="1" stop-color="#dce8ef"/></linearGradient>
