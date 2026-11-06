@@ -705,3 +705,14 @@ The Chromium browser suite now captures full-page baseline screenshots for 12 hi
 This change creates inspectable visual evidence for the internal review workflow; it does **not** itself constitute a manual visual review or sign-off. The first branch-head CI run after this change must be checked for successful screenshot creation and artifact upload. Review still needs to examine clipping, overlap, legibility, SVG proportions, chart labels and interactive states; the captured screenshots show baseline page states, not every possible state.
 
 Implementation: `chemistry/browser-smoke.mjs` and `.github/workflows/chemistry-checks.yml`, commit `a7a6d44` and `bc17b36`.
+
+
+## First manual review of rendered screenshots — 6 November 2026
+
+Inspected the first successful `chemistry-rendered-review` artifact from run [42158701555](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42158701555), including full-page 390 px and 1280 px captures of the periodic table, atomic structure, chemical bonding, molecular lab and acid/base virtual lab.
+
+**Findings and corrections:**
+- The periodic table intentionally uses a horizontally scrollable 18-column layout on narrow screens, but the original page gave no clear instruction that the table could be scrolled. Added a visible RU/EN horizontal-scroll hint, a labelled `role=region` scroll container, keyboard focusability and a visible focus outline. Added browser assertions for the scroll area, keyboard focus and bilingual accessible name/instruction. Commits: `3670f6e` and `17e9dd4`; the latter's Chromium workflow run [42170499572](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42170499572) passed.
+- The periodic-trends SVG pair had diagonal arrows crossing the text labels in all three trend cards. Moved all arrows into the clear right-hand lane in both Russian and English SVGs. Added a static regression guard to prevent the original overlapping coordinates from returning. Commits: `f7aa179`, `736b30a`, and `8a7448a`; fresh CI is required before accepting these SVG changes.
+
+**Other observations:** the inspected molecular-lab and virtual-neutralisation mobile layouts were legible in the baseline screenshots; no additional source correction is recorded from those two captures. This is a limited first manual screenshot review, not a review of all 36 images, all interactive states, all 12 visual pages, or every browser/device combination. The new branch-head artifact must be inspected after the arrow and scroll-hint corrections.
