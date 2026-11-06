@@ -1575,6 +1575,37 @@ try {
         errors.push(file + ": periodic-table scroll instruction should be hidden when the full table fits");
       }
       await page.setViewportSize({ width: 390, height: 844 });
+      const trendRegion = page.locator("#trendRegion");
+      const trendImage = page.locator("#trendImage");
+      const trendHint = page.locator("[data-t=trendScrollHint]");
+      if (!await trendHint.isVisible() || !(await trendHint.innerText()).includes("Прокрутите схему по горизонтали") ||
+          !(await trendRegion.getAttribute("role"))?.includes("region") ||
+          !(await trendRegion.getAttribute("aria-label"))?.includes("прокручивайте по горизонтали") ||
+          !await trendRegion.evaluate(el => el.scrollWidth > el.clientWidth) ||
+          !await trendImage.evaluate(el => el.getBoundingClientRect().width >= 790)) {
+        errors.push(file + ": mobile periodic-trends diagram must remain readable in a labelled horizontal-scroll region");
+      }
+      await trendRegion.evaluate(el => { el.scrollLeft = 0; });
+      await trendRegion.focus();
+      await trendRegion.press("ArrowRight");
+      if (!await trendRegion.evaluate(el => el.scrollLeft > 0)) {
+        errors.push(file + ": keyboard ArrowRight must scroll the periodic-trends diagram");
+      }
+      await page.locator("#lang").click();
+      if (!(await trendHint.innerText()).includes("Scroll the diagram horizontally") ||
+          !(await trendRegion.getAttribute("aria-label"))?.includes("scroll horizontally")) {
+        errors.push(file + ": periodic-trends scroll guidance and accessible region name must switch to English");
+      }
+      await page.setViewportSize({ width: 768, height: 900 });
+      if (!await trendHint.isVisible() || !await trendRegion.evaluate(el => el.scrollWidth > el.clientWidth)) {
+        errors.push(file + ": tablet periodic-trends diagram must retain its readable scroll layout");
+      }
+      await page.setViewportSize({ width: 1280, height: 900 });
+      if (await trendHint.isVisible() || await trendRegion.evaluate(el => el.scrollWidth > el.clientWidth)) {
+        errors.push(file + ": desktop periodic-trends diagram should fit without a scroll hint");
+      }
+      await page.setViewportSize({ width: 390, height: 844 });
+      await page.locator("#lang").click();
       const elementButtons = page.locator("#table button[data-id], #lanth button[data-id], #act button[data-id]");
       const elementIds = await elementButtons.evaluateAll(items => items.map(button => Number(button.dataset.id)));
       if (elementIds.length !== 118 || new Set(elementIds).size !== 118 || Array.from({length:118}, (_, index) => index + 1).some(id => !elementIds.includes(id))) {
