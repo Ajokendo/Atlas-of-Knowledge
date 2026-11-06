@@ -831,19 +831,6 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 Проследите жизненный цикл обычного товара: сырьё, производство, транспорт, использование и утилизация. Укажите, на каких этапах возникают основные воздействия и какие данные нужны для полноценной оценки.
 
-### English Summary
-
-1. Ecology studies interactions between organisms and their environment; environmental geography examines their spatial dimensions.
-2. Global change includes climatic, biospheric, hydrological, chemical and land-use processes.
-3. Modern global warming is primarily driven by human greenhouse-gas emissions.
-4. Climate change affects the cryosphere, oceans, ecosystems, health, infrastructure and food systems.
-5. Biodiversity loss is associated with several interacting pressures.
-6. Disaster risk depends on hazard, exposure, vulnerability and capacity; broader environmental-risk assessments may include additional factors.
-7. Climate mitigation and adaptation address different but complementary tasks.
-8. Monitoring, EIA and SEA help account for the consequences of decisions.
-9. Environmental justice requires attention to the distribution of risks, benefits and opportunities to participate.
-10. Sustainable development should be based on scientific evidence and territorial conditions.
-
 ### English Review Questions
 
 1. How does ecology differ from environmental geography?
@@ -933,6 +920,8 @@ Consider a fictional settlement beside a river. For this learning example, the e
 21. United Nations Office for Disaster Risk Reduction (UNDRR). **Disaster Risk Reduction Terminology** — definitions of hazard, exposure, vulnerability, capacity and disaster risk. https://www.undrr.org/drr-glossary
 22. United Nations Economic Commission for Europe (UNECE). **Protocol on Strategic Environmental Assessment to the Convention on Environmental Impact Assessment in a Transboundary Context (Kyiv, 2003)** — scope, assessment of plans and programmes, public participation and monitoring. https://unece.org/text-protocol
 23. Intergovernmental Panel on Climate Change (IPCC). **Frequently Asked Questions, Working Group I contribution to the Sixth Assessment Report** — physical basis of the greenhouse effect and infrared absorption and emission by atmospheric constituents. https://www.ipcc.ch/help/frequently-asked-questions/
+24. United Nations Economic Commission for Europe (UNECE). **Convention on Environmental Impact Assessment in a Transboundary Context (Espoo Convention)** — project-level EIA, early assessment, notification and consultation where significant transboundary impacts may occur. https://unece.org/environment-policy/publications/convention-environmental-impact-assessment-transboundary-context
+25. United Nations Environment Programme (UNEP) and Life Cycle Initiative. **A Policymakers' Guide to Life Cycle Assessment** (2024) — life-cycle stages, inputs, outputs, impacts and study-quality considerations. https://wedocs.unep.org/handle/20.500.11822/46469
 
 ---
 **Конец главы 13 / End of Chapter 13**
