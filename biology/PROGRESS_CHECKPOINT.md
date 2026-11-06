@@ -1399,3 +1399,12 @@ Older checkpoint entries that list independent specialists, school/teacher revie
 - Retrieved and inspected the run #1581 desktop (1365 px) and mobile (390 px) fauna-page screenshots. The bird plate is legible at desktop scale, preserves the three separate habitats and bilingual explanatory caption, and has no page-level overflow. Mobile uses the intended horizontal-scroll viewport with bilingual hint; partial initial visibility is expected until the user scrolls the diagram.
 - Limited internal rendered-layout acceptance is recorded in `IMAGE_SCIENTIFIC_REVIEW.md`, `IMAGE_BRIEF_REVIEW.md` and `IMAGE_DISPOSITION_REGISTER.md`. This does not certify specimen-level morphology, diagnostic plumage, detailed feet/tarsi, rights clearance or all bilingual semantics. No asset was promoted to `VERIFIED`.
 - Continue with the next regional fauna visuals after targeted morphology/source notes; keep the global 53/53 production-coverage count, 99/100 editorial-readiness estimate and open image-review triage distinct.
+
+
+## Regional fauna plates — Naryn and Issyk-Kul screenshot QA — 6 November 2026
+
+- Reused successful all-page Chromium artifact #1581 (1365 px desktop and 390 px mobile) for focused internal review of the Naryn highland and Issyk-Kul habitat SVGs.
+- Naryn: the three habitat panels (Naryn River valley/maral, high rocky mountains/snow leopard, Son-Kul wetland/waterbirds) render in the intended order. The long bilingual waterbird label, shortened to 12 px after an earlier clipping defect, now fits within its panel. The figure explicitly disclaims range-map/census/co-occurrence interpretation.
+- Issyk-Kul: wetland shore, lake-water column and separate high-mountain panel render with bilingual footer labels contained. Generic silhouettes remain unlabelled; no species checklist or range boundary is implied.
+- Mobile: both figures use the horizontal-scroll viewport with the bilingual hint; the page itself does not overflow. Limited layout/label-containment acceptance recorded in the image brief and disposition register. Species morphology, habitat evidence and detailed bilingual semantics remain separate review items.
+- No global image-verification status or overall readiness percentage changed.
