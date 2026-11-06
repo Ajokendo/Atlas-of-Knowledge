@@ -1381,3 +1381,12 @@ Project QA is internal: editorial and bilingual checks; claim-level research aga
 ## Governance reconciliation — 5 November 2026
 
 Older checkpoint entries that list independent specialists, school/teacher review, outside acceptance or external sign-off as pending are historical and superseded. None is an active project task, blocker, deliverable or completion criterion. All remaining work is internal to the project team: source-based fact-checking, visual/rendered inspection, bilingual review, rights/attribution checks, accessibility and technical tests.
+
+
+## Internal visual QA continuation — 6 November 2026
+
+- Full Biology Chromium run #1575 completed with `conclusion=success`: static validation, all-page browser smoke tests and desktop/mobile screenshot upload passed.
+- The post-fix 1365 px and 390 px screenshots were manually inspected for `anatomy-circulation.svg` and `botany-anatomy.svg`. Their specific layout defects are closed: the systemic return path clears the heart key, and the root legend rows are separated. The audit and disposition register record this limited acceptance.
+- The P1 mountain-mammal SVG was also inspected in the run #1575 desktop/mobile screenshots. Its responsive layout is accepted for those captures; its detailed species morphology and manual bilingual-semantic checks remain open. The asset audit and brief-review row now reflect the active SVG rather than the obsolete WebP candidate history.
+- These are asset-specific rendered-layout outcomes, not a new overall image-verification percentage. Production coverage remains 53/53; the internal editorial-readiness estimate remains 99/100. No blanket VERIFIED status is assigned.
+- Documentation-only follow-up CI runs #1578 and #1579 were still in progress at checkpoint time; #1577 completed successfully. Do not claim #1578/#1579 success until their conclusions are confirmed.
