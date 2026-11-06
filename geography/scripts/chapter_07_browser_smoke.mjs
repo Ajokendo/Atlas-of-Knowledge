@@ -38,7 +38,7 @@ try{
    const desc=svg.querySelector(":scope > desc")?.textContent?.trim()||"";
    const texts=[...svg.querySelectorAll("text")].map((node,i)=>{
     const b=node.getBBox(),cs=getComputedStyle(node);
-    return {i,text:(node.textContent||"").replace(/\\s+/g," ").trim().slice(0,90),x:b.x,y:b.y,w:b.width,h:b.height,font:parseFloat(cs.fontSize)};
+    return {i,text:(node.textContent||"").replace(/\s+/g," ").trim().slice(0,90),x:b.x,y:b.y,w:b.width,h:b.height,font:parseFloat(cs.fontSize)};
    });
    const outside=texts.filter(t=>t.x<vb.x-1||t.y<vb.y-1||t.x+t.w>vb.x+vb.width+1||t.y+t.h>vb.y+vb.height+1);
    const tiny=texts.filter(t=>t.font<12);
