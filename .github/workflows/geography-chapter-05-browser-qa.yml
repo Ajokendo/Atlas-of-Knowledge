@@ -7,6 +7,7 @@ on:
       - "geography/chapters/05-atmosphere-and-climatology.md"
       - "geography/visuals/chapter-05-*.svg"
       - "geography/assets/CHAPTER_05_ASSET_LICENSE.md"
+      - "geography/assets/chapter-05-noaa/**"
       - "geography/scripts/build_chapter_05_preview.py"
       - "geography/scripts/check_chapter_05_assets.py"
       - "geography/scripts/chapter_05_browser_smoke.mjs"
