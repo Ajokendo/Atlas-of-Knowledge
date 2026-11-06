@@ -66,6 +66,10 @@ async function checkLesson(mobile) {
     const missing = required.filter(title => !headings.includes(title));
     if (missing.length) throw new Error(`missing lesson sections: ${missing.join('; ')}`);
 
+    const dampingText = await page.locator('main').innerText();
+    for (const term of ['Fсопр', 'b', 'F₀', 'β', 'резонансного пика']) {
+      if (!dampingText.includes(term)) throw new Error(`damping/forced-oscillation explanation is missing: ${term}`);
+    }
     const regimeFigure = page.locator('.oscillation-figure');
     const regimeImage = regimeFigure.locator('img');
     await regimeImage.waitFor({ state: 'visible' });
