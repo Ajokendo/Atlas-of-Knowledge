@@ -1219,3 +1219,16 @@ The Chapter 02 source-work notes dated 4 November 2026 above are retained as his
 - **Activity 4 — terrain input path specified.** The chapter now names `exercise_data/raster/SRTM/srtm_41_19.tif`, consistent with the QGIS Training Manual's SRTM exercise-data structure: https://docs.qgis.org/3.44/en/docs/training_manual/appendix/preparing_data.html.
 - **Geographic-scope warning added.** The sample package is for Swellendam and its surroundings in South Africa. It is suitable for practising QGIS workflows only and must not be presented as Kyrgyzstan data or used to infer local accessibility/terrain conditions.
 - **Evidence boundary:** the official documentation and named paths were checked, but the ZIP package was not downloaded, the referenced files were not opened, and no live QGIS processing run was performed. This is a reproducibility-specification improvement, not execution verification. Chapter readiness remains 78%.
+
+
+## Chapter 14 — six practical-activity computational smoke tests — 6 November 2026
+
+- **Smoke-test report committed:** `geography/audits/CHAPTER_14_PRACTICAL_SMOKE_TESTS_2026-11-06.md`.
+- **Activity 1 — PASS for join logic only.** A synthetic three-polygon fixture joined to a CSV-like table by a stable key. Two records matched; unmatched polygon key C and unmatched table key X were both detected.
+- **Activity 2 — PASS for raster metadata fixture only.** A synthetic 2×2 GeoTIFF was inspected alongside a polygon. Dimensions, 1×1 cell size, EPSG:3857, bounds and NoData were read successfully. This does not test the official water shapefile or SRTM sample.
+- **Activity 3 — PASS for graph/buffer concepts only.** A synthetic weighted graph returned the expected route S–A–B–T with cost 3 and the expected reachable nodes at cost 2. A radius-1 buffer area was approximately 3.136548. This is not a QGIS network-analysis run and does not model actual roads.
+- **Activity 4 — PASS for analytical terrain formula only.** On the plane z=2x+y, the independently calculated slope is 65.905157° and downslope aspect azimuth 243.434949°. No real DEM or QGIS slope/aspect algorithm was run.
+- **Activity 5 — PASS for conceptual distinction.** Shapely detected a self-intersecting bow-tie polygon as invalid and separately detected a 0.1-unit gap and a 0.1-unit overlap between polygon fixtures. This supports, but does not replace, QGIS Check validity and Topology Checker execution.
+- **Activity 6 — PASS for relative-path principle only.** A project-like manifest referring to `./data/input.csv` remained resolvable after the containing folder was copied to a new location. No QGZ file was opened in QGIS.
+- **Execution boundary:** runtime had GeoPandas 1.1.2, Shapely 2.1.2, Rasterio 1.5.0 and NetworkX 3.6.1, but no QGIS Desktop, `qgis_process`, PyQGIS or GDAL CLI. The official training archive and source project files were not downloaded/opened. Thus the six tests are synthetic computational smoke tests, not QGIS software acceptance tests.
+- **Decision:** all six conceptual smoke tests passed; chapter readiness remains **78%**. Required next gate: run the six activities in QGIS 3.44 using the official training package, retain outputs/screenshots and verify a moved QGZ project on a clean profile. No Kyrgyzstan-specific dataset was tested.
