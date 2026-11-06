@@ -830,6 +830,14 @@ Do not simply average the two national indicators: (20,000 + 10,000) / 2 = USD 1
 - Для Антарктики отдельно проверять положения Договора об Антарктике и действующих природоохранных протоколов.
 - При описании природных ресурсов и экологических вызовов учитывать региональные различия и не переносить свойства одной страны на весь макрорегион.
 - Карты должны включать дату, проекцию, легенду и источники; названия и границы сверять с актуальными авторитетными данными.
+- Локальная схема 12-D имеет двуязычные заголовок и описание, но в самом SVG не указаны автор и лицензия; до публикации следует зафиксировать подтверждённое происхождение и правовое основание использования в реестре визуальных материалов.
+- В исходном файле после парных RU/EN блоков разделов 12.1–12.13 присутствует сводный англоязычный текст этих разделов. Перед выпуском проверить, что веб-ридер выбирает нужный языковой вариант и не показывает повторяющийся английский текст подряд; не удалять ни один блок до проверки логики публикации.
+- Внешние карты Blue Green Atlas, NASA/JPL и CIA имеют указанные в подписях основания повторного использования; перед выпуском отдельно проверить загрузку удалённых изображений в развёрнутом ридере и отображение атрибуции.
+
+**English editorial notes**
+- Local diagram 12-D has a bilingual title and description, but the SVG itself does not identify an author or licence; its verified provenance and legal basis for use should be recorded in the visual asset register before publication.
+- The source file contains a consolidated English text for sections 12.1–12.13 after the paired RU/EN blocks. Before release, verify that the web reader selects the intended language presentation and does not display the repeated English text consecutively; do not remove either block before the publishing logic is tested.
+- External maps from Blue Green Atlas, NASA/JPL and the CIA have reuse bases stated in their captions; remote-image loading in the deployed reader and display of attribution should be checked separately before release.
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
