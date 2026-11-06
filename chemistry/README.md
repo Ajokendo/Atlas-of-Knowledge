@@ -1,3 +1,5 @@
+> **Project review boundary (current instruction, 6 November 2026):** External expert/teacher assessment is **not part of the Chemistry Atlas development or internal acceptance workflow**. Any external assessment will be organised separately after this project stage. Older dated checkpoints below that list independent chemistry-teacher or subject-matter review as a pending “external gate” are historical wording and are superseded by this instruction; they must not be treated as active Atlas tasks or blockers. Internal source review, bilingual consistency checks, automated tests, accessibility checks, provenance and rights documentation, and the project's own final editorial decision remain in scope. Physical-device and assistive-technology checks are distinct operational checks; they are not external subject-matter certification.
+
 
 
 ### Reproducible browser-audit toolchain
