@@ -94,6 +94,47 @@ try {
       const response = await page.goto("http://127.0.0.1:4173/" + file, { waitUntil: "domcontentloaded" });
       if (!response || !response.ok()) errors.push(file + ": HTTP " + (response?.status() ?? "no response"));
 
+      if (viewport.width === 390) {
+        const diagramViewport = page.locator(".regional-figure__media--diagram");
+        const diagramStates = await diagramViewport.evaluateAll(elements => elements.map(el => {
+          const hint = el.nextElementSibling;
+          const hintStyle = hint ? getComputedStyle(hint) : null;
+          return {
+            clientWidth: el.clientWidth,
+            scrollWidth: el.scrollWidth,
+            tabIndex: el.tabIndex,
+            role: el.getAttribute("role"),
+            label: el.getAttribute("aria-label") || "",
+            hintVisible: !!hint && !!hintStyle && hintStyle.display !== "none" && hint.getClientRects().length > 0,
+            hintBilingual: !!hint && !!hint.querySelector(".ru") && !!hint.querySelector(".en")
+          };
+        }));
+        const expectedDiagrams = file.endsWith("fauna-kyrgyzstan.html") ? 12 :
+          file.endsWith("flora-kyrgyzstan.html") ? 3 : 0;
+        if (diagramStates.length !== expectedDiagrams) {
+          errors.push(file + ": expected " + expectedDiagrams + " mobile regional diagram viewport(s), found " + diagramStates.length);
+        }
+        for (let i = 0; i < diagramStates.length; i++) {
+          const state = diagramStates[i];
+          if (state.scrollWidth <= state.clientWidth + 1 || state.clientWidth > 390 ||
+              state.tabIndex !== 0 || state.role !== "region" ||
+              !/[А-Яа-яЁё]/.test(state.label) || !/[A-Za-z]/.test(state.label) ||
+              !state.hintVisible || !state.hintBilingual) {
+            errors.push(file + ": regional diagram viewport " + i +
+              " failed mobile scroll/accessibility guidance check: " + JSON.stringify(state));
+          }
+        }
+        if (diagramStates.length) {
+          const firstDiagram = diagramViewport.first();
+          await firstDiagram.focus();
+          await page.keyboard.press("ArrowRight");
+          const scrollLeft = await firstDiagram.evaluate(el => el.scrollLeft);
+          if (scrollLeft <= 0) {
+            errors.push(file + ": ArrowRight did not horizontally scroll the focused regional diagram viewport");
+          }
+        }
+      }
+
       // Capture a full-page visual-review image at each responsive breakpoint.
       // Force lazy images to decode before capture so screenshots include all page assets.
       await page.evaluate(async () => {
