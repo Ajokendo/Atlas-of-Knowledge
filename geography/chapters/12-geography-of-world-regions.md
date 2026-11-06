@@ -76,7 +76,7 @@ A region should not be reduced to a single stereotype. Differences within a regi
 
 *Основа рельефа и батиметрии: Atlas Abierto (2026), CC BY 4.0; исходные данные — ETOPO 2022 (NOAA NCEI, public domain) и Natural Earth (public domain). Изменения: добавлены двуязычные учебные подписи и ориентировочные метки; они не являются точной геопривязкой. / Relief and bathymetry base: Atlas Abierto (2026), CC BY 4.0; underlying data: ETOPO 2022 (NOAA NCEI, public domain) and Natural Earth (public domain). Changes: bilingual teaching labels and approximate markers added; they are not precise georeferencing.*
 
-<text>Африка — второй по площади и численности населения материк, включающий чрезвычайно разнообразные природные и общественные системы. В региональных классификациях обычно выделяют Северную, Западную, Центральную, Восточную и Южную Африку, однако состав отдельных субрегионов может различаться.</text>
+<text>Африка — второй по площади материк и второй по численности населения континент; она включает чрезвычайно разнообразные природные и общественные системы. В региональных классификациях обычно выделяют Северную, Западную, Центральную, Восточную и Южную Африку, однако состав отдельных субрегионов может различаться.</text>
 
 ### Природная основа / Physical geography
 
@@ -213,7 +213,7 @@ Key issues include food and water security, air pollution, urbanisation, climate
 
 ## 12.6. Северная Америка / North America
 
-Северная Америка простирается от арктических островов до Центральной Америки в зависимости от принятой физико-географической границы. В региональных и статистических схемах Центральная Америка и Карибский бассейн часто рассматриваются отдельно.
+Границы понятия «Северная Америка» зависят от принятой физико-географической или статистической схемы. В этом разделе под Северной Америкой рассматривается северная часть материка; Центральная Америка и Карибский бассейн вынесены в раздел 12.7. В классификации ООН M49 статистическая группа North America (код 003) шире: она включает Northern America (021), Центральную Америку (013) и Карибский бассейн (029).
 
 ### Природная основа / Physical geography
 
@@ -250,7 +250,7 @@ Key issues include food and water security, air pollution, urbanisation, climate
 Техническое задание: показать Кордильеры, Великие равнины, Аппалачи, Великие озёра и основные речные системы; отдельными символами обозначить климатические риски без утверждения, что они одинаковы на всей территории.
 
 
-North America extends from the Arctic islands to Central America, depending on the physical-geographical boundary used. In regional and statistical schemes, Central America and the Caribbean are often treated separately.
+The boundaries of the term “North America” depend on the physical-geographical or statistical scheme used. This section uses North America for the northern part of the continent; Central America and the Caribbean are covered separately in section 12.7. In the UN M49 classification, the statistical group North America (code 003) is broader: it includes Northern America (021), Central America (013) and the Caribbean (029).
 
 ### Physical geography
 
@@ -270,7 +270,7 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 
 ## 12.7. Центральная Америка и Карибский бассейн / Central America and the Caribbean
 
-Центральная Америка соединяет Северную и Южную Америку узким перешейком. Карибский бассейн включает острова и прибрежные территории, связанные историей морской торговли, миграции и культурных контактов.
+Центральная Америка соединяет северную и южную части Америки узким перешейком. Карибский бассейн в широком географическом смысле включает острова Карибского моря и прилегающие прибрежные территории; его состав не полностью совпадает со статистической группой Caribbean в UN M49. Эти территории связаны историей морской торговли, миграции и культурных контактов.
 
 ### Природная основа / Physical geography
 
@@ -278,7 +278,7 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 
 ### Население и хозяйство / Population and economy
 
-Экономика сочетает сельское хозяйство, туризм, услуги, торговлю, логистику и промышленность. Панамский канал имеет мировое значение для морских перевозок, соединяя Атлантический и Тихий океаны через систему каналов и шлюзов. Карибские островные государства различаются по размеру, экономической структуре, языкам и институциональному устройству.
+Экономика сочетает сельское хозяйство, туризм, услуги, торговлю, логистику и промышленность. Панамский канал — искусственный водный путь мирового значения для морских перевозок. Он соединяет Атлантический и Тихий океаны через систему судоходных каналов, озёр и шлюзов. Карибские островные государства различаются по размеру, экономической структуре, языкам и институциональному устройству.
 
 ### Региональные вызовы / Regional challenges
 
@@ -295,7 +295,7 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 Техническое задание: обзорная карта перешейка, Карибского моря, крупных островов и Панамского канала; показать основные морские направления условными стрелками без численных объёмов перевозок.
 
 
-Central America connects North and South America through a narrow isthmus. The Caribbean Basin includes islands and coastal territories linked by the history of maritime trade, migration and cultural contact.
+Central America connects the northern and southern parts of the Americas through a narrow isthmus. In broad geographical usage, the Caribbean Basin includes the islands of the Caribbean Sea and adjacent coastal territories; its extent does not fully coincide with the Caribbean statistical subregion in UN M49. These areas are linked by histories of maritime trade, migration and cultural contact.
 
 ### Physical geography
 
@@ -303,7 +303,7 @@ The region is characterised by mountain ranges, volcanic arcs, tropical forests,
 
 ### Population and economy
 
-The economy combines agriculture, tourism, services, trade, logistics and manufacturing. The Panama Canal is globally important for maritime transport, connecting the Atlantic and Pacific oceans through a system of channels and locks. Caribbean island states differ in size, economic structure, languages and institutional arrangements.
+The economy combines agriculture, tourism, services, trade, logistics and manufacturing. The Panama Canal is an artificial waterway of global importance for maritime transport. It connects the Atlantic and Pacific oceans through navigational channels, lakes and locks. Caribbean island states differ in size, economic structure, languages and institutional arrangements.
 
 ### Regional challenges
 
@@ -397,7 +397,7 @@ Low islands and atolls are vulnerable to sea-level rise, saltwater intrusion, st
 
 ## 12.10. Антарктика и Южный океан / Antarctica and the Southern Ocean
 
-Антарктика — полярный регион вокруг Южного полюса, ядром которого является материк Антарктида. Большая часть материка покрыта мощным ледниковым щитом. Постоянного коренного населения нет; присутствуют научные станции и сезонный персонал.
+Антарктика — полярный регион вокруг Южного полюса, ядром которого является материк Антарктида. Большая часть материка покрыта мощным ледниковым щитом. Коренного и постоянного гражданского населения здесь нет; на научных станциях работают временные сотрудники, причём часть станций действует круглый год, а часть — сезонно.
 
 Антарктический договор 1959 года и связанная с ним система договоров устанавливают особый международно-правовой режим. Договор предусматривает использование Антарктики исключительно в мирных целях, продолжение свободы научных исследований и международное сотрудничество. Статья IV сохраняет позиции сторон по ранее заявленным территориальным претензиям: договор не признаёт и не отвергает их, запрещает использовать деятельность в период его действия как основание для новых претензий или расширения существующих и тем самым сохраняет статус-кво. Договорная территория охватывает район южнее 60° ю. ш.; её нельзя автоматически отождествлять с континентом Антарктида или с любой выбранной границей Южного океана. Антарктика не является обычным государством или территорией, разделённой на признанные национальные владения.
 
@@ -408,7 +408,7 @@ Low islands and atolls are vulnerable to sea-level rise, saltwater intrusion, st
 Техническое задание: полярная проекция с континентом, ледниковым щитом, Южным океаном и научными станциями как условными точками; не изображать территориальные претензии без специального юридического пояснения.
 
 
-Antarctica is the polar region around the South Pole, with the continent of Antarctica at its core. Most of the continent is covered by a thick ice sheet. There is no permanent Indigenous population; scientific stations and seasonal personnel are present.
+Antarctica is the polar region around the South Pole, centred on the continent of Antarctica. Most of the continent is covered by a thick ice sheet. It has no Indigenous or permanent civilian population; temporary personnel work at research stations, some of which operate year-round and others seasonally.
 
 The 1959 Antarctic Treaty and the related treaty system establish a special international legal regime. The Treaty provides for the use of Antarctica exclusively for peaceful purposes, the continuation of freedom of scientific research and international cooperation. Article IV preserves the positions of the parties regarding previously asserted territorial claims: the Treaty neither recognises nor rejects them, prohibits activities during its operation from serving as a basis for new claims or enlarging existing ones, and thereby maintains the status quo. The Treaty area covers the region south of 60° S; it should not automatically be equated with the continent of Antarctica or with any chosen boundary of the Southern Ocean. Antarctica is not an ordinary state or a territory divided into internationally recognised national possessions.
 
@@ -418,6 +418,8 @@ The Southern Ocean surrounds Antarctica and plays an important role in global oc
 
 > **[МЕТКА ИЛЛЮСТРАЦИИ 12-C / IMAGE PLACEHOLDER 12-C]** Карта трансграничных речных бассейнов, горных систем, морских экосистем и транспортных коридоров.
 > **EN:** Map of transboundary river basins, mountain systems, marine ecosystems and transport corridors.
+>
+> **Рисунок 12.9 / Figure 12.9 — Трансграничные географические системы / Transboundary geographical systems.
 
 Многие географические процессы не ограничиваются государственными границами. Речные бассейны, горные системы, пустыни, морские экосистемы, транспортные коридоры и рынки формируют трансграничные регионы.
 
@@ -465,6 +467,8 @@ Global interdependence operates through trade, investment, migration, transport 
 
 ![Проверка качества региональных данных / Regional data quality checks](../assets/diagrams/12-D-regional-data-quality-bilingual.svg)
 
+**Рисунок 12.10 / Figure 12.10 — Проверка сопоставимости региональных данных / Checking the comparability of regional data.**
+
 *Используйте контрольный список до сравнения регионов или построения рейтинга. / Use this checklist before comparing regions or building a ranking.*
 
 При анализе региональных карт необходимо проверять:
@@ -505,7 +509,7 @@ Regional comparison begins with a question: what exactly is being compared, and 
 
 Сравнение стран по номинальному ВВП на душу населения не показывает само по себе, сколько товаров и услуг люди могут приобрести внутри каждой страны. Номинальные показатели переводят в общую валюту по рыночному обменному курсу, который меняется и может резко колебаться. Для сравнения материального уровня жизни часто используют показатели по паритету покупательной способности (ППС), учитывающие различия в уровнях цен.
 
-**Два вопроса — два показателя.** Номинальный ВВП удобен для анализа международных финансовых потоков и способности покупать товары на мировом рынке. ВВП на душу населения по ППС лучше подходит для приблизительного сравнения объёма производства и общего уровня цен в разных странах. Для оценки материального потребления домохозяйств показатель фактического индивидуального потребления (AIC) на душу населения по ППС часто информативнее: он учитывает индивидуальные товары и услуги, оплаченные не только самими домохозяйствами, но и государством или некоммерческими организациями. Ни один из этих показателей не описывает распределение благ внутри страны, неоплачиваемый труд или все экологические издержки.
+**Два вопроса — два показателя.** Номинальный ВВП, пересчитанный по рыночному обменному курсу, используют для сопоставления денежного масштаба экономик в общей валюте; показатель на душу населения не измеряет напрямую покупательную способность домохозяйств. ВВП на душу населения по ППС лучше подходит для приблизительного сравнения объёма производства с учётом различий в уровнях цен. Для оценки материального потребления домохозяйств показатель фактического индивидуального потребления (AIC) на душу населения по ППС часто информативнее: он учитывает индивидуальные товары и услуги, оплаченные не только самими домохозяйствами, но и государством или некоммерческими организациями. Ни один из этих показателей не описывает распределение благ внутри страны, неоплачиваемый труд или все экологические издержки.
 
 **Условный пример.** Если номинальный ВВП на душу населения страны А равен 4 000 долларов, а показатель по ППС — 9 000 международных долларов, эти числа не противоречат друг другу: они отвечают на разные вопросы и выражены в разных единицах. Нельзя называть международный доллар обычной валютой или обменивать его по банковскому курсу.
 
@@ -515,7 +519,7 @@ Regional comparison begins with a question: what exactly is being compared, and 
 
 Comparing countries by nominal GDP per capita alone does not show how much people can buy within each country. Nominal values are converted into a common currency using market exchange rates, which change and may fluctuate sharply. For comparisons of material living standards, purchasing power parity (PPP) measures are often used to account for differences in price levels.
 
-**Two questions, two indicators.** Nominal GDP is useful for analysing international financial flows and the ability to purchase goods on world markets. GDP per capita at PPP is more suitable for an approximate comparison of output and overall price levels across countries. To assess the material consumption of households, PPP-based actual individual consumption (AIC) per capita is often more informative: it includes individual goods and services funded not only by households themselves but also by government and non-profit institutions. Neither indicator describes the distribution of benefits within a country, unpaid work or all environmental costs.
+**Two questions, two indicators.** Nominal GDP converted at market exchange rates is used to compare the monetary size of economies in a common currency; the per-capita measure does not directly measure household purchasing power. GDP per capita at PPP is more suitable for an approximate comparison of output after accounting for differences in price levels. To assess the material consumption of households, PPP-based actual individual consumption (AIC) per capita is often more informative: it includes individual goods and services funded not only by households themselves but also by government and non-profit institutions. Neither indicator describes the distribution of benefits within a country, unpaid work or all environmental costs.
 
 **Hypothetical example.** If country A has nominal GDP per capita of 4,000 US dollars and GDP per capita at PPP of 9,000 international dollars, the figures do not contradict each other: they answer different questions and use different units. An international dollar is not an ordinary currency and cannot be exchanged at a bank rate.
 
@@ -553,7 +557,7 @@ A region should not be reduced to one stereotypical characteristic. Internal dif
 
 ### 12.3. Africa
 
-Africa is the world's second-largest continent by both area and population and contains exceptionally diverse natural and human systems. Regional classifications commonly distinguish North, West, Central, East and Southern Africa, although the composition of subregions may vary.
+Africa is the world's second-largest continent by area and its second-most populous continent. It contains exceptionally diverse natural and human systems. Regional classifications commonly distinguish North, West, Central, East and Southern Africa, although the composition of subregions may vary.
 
 **Physical geography.** The Sahara, the world's largest hot desert, extends across the north. South of it lie the Sahel, savannas, the humid tropical forests of the Congo Basin and other natural systems. The East African Rift System creates fault zones, volcanic landscapes, highlands and deep lakes. Southern Africa includes plateaus, the Namib and Kalahari deserts, and mountain and coastal landscapes.
 
@@ -613,7 +617,7 @@ Central America connects North and South America through a narrow isthmus. The C
 
 **Physical geography.** The region has mountain ranges, volcanic arcs, tropical forests, coral reefs and low-lying coasts. It lies in an area of high tectonic and climatic activity. Tropical cyclones, earthquakes, volcanism, floods and landslides create significant risks.
 
-**Population and economy.** Economies combine agriculture, tourism, services, trade, logistics and industry. The Panama Canal is globally important for maritime transport, connecting the Atlantic and Pacific oceans through a system of channels and locks. Caribbean island states differ in size, economic structure, languages and institutions.
+**Population and economy.** Economies combine agriculture, tourism, services, trade, logistics and industry. The Panama Canal is an artificial waterway of global importance for maritime transport. It connects the Atlantic and Pacific oceans through navigational channels, lakes and locks. Caribbean island states differ in size, economic structure, languages and institutions.
 
 **Regional challenges.** Island and coastal areas are particularly vulnerable to sea-level rise, extreme storms, coastal erosion and freshwater scarcity. Dependence on tourism and external food and energy supplies is also important.
 
@@ -696,7 +700,7 @@ Regional comparisons benefit from combining thematic maps, time series, charts a
 
 Ниже приведены ключевые термины главы и их английские эквиваленты. / The glossary below pairs the chapter's key terms with their English equivalents.
 
-Регион — Region; регионализация — Regionalisation; макрорегион — Macro-region; субрегион — Subregion; физико-географический регион — Physical-geographical region; функциональный регион — Functional region; трансграничный регион — Transboundary region; региональная интеграция — Regional integration; межрегиональные связи — Interregional connections; статистическая классификация — Statistical classification; глобальная взаимозависимость — Global interdependence; региональное неравенство — Regional inequality.
+Регион — Region; регионализация — Regionalisation; макрорегион — Macro-region; субрегион — Subregion; физико-географический регион — Physical-geographical region; функциональный регион — Functional region; трансграничный регион — Transboundary region; региональная интеграция — Regional integration; межрегиональные связи — Interregional connections; статистическая классификация — Statistical classification; паритет покупательной способности (ППС) — Purchasing power parity (PPP); фактическое индивидуальное потребление — Actual individual consumption (AIC); индекс человеческого развития (ИЧР) — Human Development Index (HDI); глобальная взаимозависимость — Global interdependence; региональное неравенство — Regional inequality.
 
 ## 12.16. Контрольные вопросы и практические задания / Review Questions and Practical Activities
 
@@ -829,18 +833,21 @@ Do not simply average the two national indicators: (20,000 + 10,000) / 2 = USD 1
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
-1. United Nations Statistics Division. **Standard Country or Area Codes for Statistical Use (M49)** — statistical grouping of countries and areas. https://unstats.un.org/unsd/methodology/m49/
+1. United Nations Statistics Division. **Standard Country or Area Codes for Statistical Use (M49)** — statistical grouping of countries and areas; includes the distinction between North America and Northern America. https://unstats.un.org/unsd/methodology/m49/
 2. United Nations Development Programme. **Human Development Reports** — human-development indicators and HDI methodology. https://hdr.undp.org/
 3. World Bank. **World Development Indicators** — comparable socioeconomic indicators. https://databank.worldbank.org/source/world-development-indicators
 4. United Nations Environment Programme. **Global Environment Outlook** — global and regional environmental assessments. https://www.unep.org/global-environment-outlook
 5. World Meteorological Organization. **State of the Global Climate** reports — climate observations and assessments. https://wmo.int/publication-series/state-of-global-climate
 6. Intergovernmental Panel on Climate Change. **Assessment Reports** — scientific assessments of climate change and regional risks. https://www.ipcc.ch/reports/
 7. Food and Agriculture Organization of the United Nations. **FAOSTAT** — agricultural statistics and land use. https://www.fao.org/faostat/en/#data
-8. Antarctic Treaty Secretariat. **The Antarctic Treaty** — official treaty text and summary of Articles I–IV, including peaceful use, scientific cooperation and the status of territorial claims. https://www.ats.aq/e/antarctictreaty.html
-9. National Geographic Society. **Encyclopedic and educational geography resources** — справочные материалы по физической и региональной географии.
+8. Antarctic Treaty Secretariat. **The Antarctic Treaty** — official treaty text, including Articles IV and VI on territorial claims and the geographic area of application. https://www.ats.aq/e/antarctictreaty.html
+9. National Geographic Society. **Encyclopedic and educational geography resources** — reference materials on physical and regional geography.
 10. Knox, P., Marston, S., Imort, M. **Human Geography: Places and Regions in Global Context**. Pearson.
-12. World Bank. **International Comparison Program (ICP) — FAQ and Concepts and Definitions.** Definitions of PPP-based GDP, household consumption and actual individual consumption (AIC). https://www.worldbank.org/en/programs/icp/faq
 11. Dou, Y., Huang, Q., He, C., Meng, S., & Zhang, Q. (2018). **Rapid Population Growth throughout Asia’s Earthquake-Prone Areas: A Multiscale Analysis.** *International Journal of Environmental Research and Public Health*, 15(9), 1893. Figure 1: Asia elevation and regional divisions. https://doi.org/10.3390/ijerph15091893. Open access under CC BY 4.0.
+12. World Bank. **International Comparison Program (ICP) — FAQ and Concepts and Definitions.** Definitions of purchasing power parities and related comparison concepts. https://www.worldbank.org/en/programs/icp/faq
+13. Blue Green Atlas. **Free relief maps of Europe, North America, South America and Oceania.** Source data and CC BY 4.0 attribution are specified on the individual map pages. https://bluegreenatlas.com/maps/
+14. NASA/JPL. **Shaded Relief with Height as Color, North America (PIA03377)** — SRTM-derived shaded-relief image, added to NASA Photojournal on 6 March 2003. https://science.nasa.gov/photojournal/shaded-relief-with-height-as-color-north-america/
+15. Central Intelligence Agency. **Central America and the Caribbean shaded-relief map** (The World Factbook, 2021); public-domain source file. https://commons.wikimedia.org/wiki/File:Central_America_and_the_Caribbean_Shaded_Relief_Map_No_Text_or_Borders.png
 
 ---
 **Конец главы 12 / End of Chapter 12**
