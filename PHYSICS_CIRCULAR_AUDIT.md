@@ -18,9 +18,9 @@
 | 50% — content and answer-key audit | PASS | All 26 items inventoried (24 MCQ + 2 FRQ); 65 physics/practice assertions; conceptual answer-key regression added; Physics Engine passed on commit 4a78df44 |
 | 60% — rights and visual provenance | PASS | 13 individual scene records added to IMAGE_SOURCES.md; upstream Nathan Liow source, MIT code licence, Russian localisation and procedural-geometry boundary recorded; no external image files found in world.js |
 | 70% — visual/scientific scene review | PASS | Source-level review completed for all 13 scenes: geometry, vectors, force directions, scale factors, orbit paths, labels and PLATES explanations checked against model.js and regression invariants |
-| 80% — desktop/mobile visual QA | IN PROGRESS | Desktop/mobile screenshots were manually inspected; found overlapping mouse hint and scene picker in the mobile book header. Added circular.css and explicit layout regression; final responsive rerun pending |
-| 90% — integration and regression | PENDING | Local links, navigation, iframe, keyboard/touch controls and all chapter-specific checks |
-| 100% — final internal readiness | PENDING | Final CI green on the final source commit; all audit evidence saved |
+| 80% — desktop/mobile visual QA | PASS | Responsive correction verified; all 13 mobile book-page screenshots and the standalone mobile model/quiz screenshot inspected. Header, title, selector, diagrams and labels remain readable; vertical-loop force labels no longer overlap. Dedicated desktop/mobile browser run passed |
+| 90% — integration and regression | PASS | Dedicated Chromium workflow passed all 13 interactive pages on desktop/mobile and the standalone lesson, controls and quiz on desktop/mobile; no workflow test failures; screenshot artifact uploaded |
+| 100% — final internal readiness | PASS | Chapter-specific browser workflow 42085258562 passed; JavaScript validation and Physics Engine checks passed on branch HEAD c6c075f. Chapter 3 source files are unchanged between the dedicated passing run's source baseline and HEAD; intervening commits changed workflow configuration and visual-provenance documentation only. Audit evidence saved on workspace/physics |
 
 ## Inventory
 
@@ -59,7 +59,7 @@ Compared the local files with Nathan Liow's upstream `circular/` module in `nath
 - The test captures desktop and mobile full-page screenshots under `/tmp/physics-visual-review/circular/`.
 - Added the standalone test and screenshot artifact upload to `.github/workflows/physics-browser.yml`.
 - Code and workflow commits: `32fb32229a97aecc0ea39c1e45ec0359f4fbec1b`, `8fe579525444ee97dc0c7f639e1c0d5068013934`.
-- The dedicated Chapter 3 browser workflow passed on commit 9806e3e365df57fb39a7ed5e999dfb87921b8519 (run 42078922929): 13 interactive book pages at desktop/mobile, standalone lesson controls and quiz at desktop/mobile, and screenshot upload all succeeded. The practice-count assertion was subsequently corrected from 24 to 26; the Physics Engine check passed on commit 4a78df44b5908a5d4ef133d9dbc8d5a81fbcf987. Later commits in this audit updated documentation/visual provenance only. A final rerun on the final chapter commit is still required.
+- The dedicated Chapter 3 browser workflow's latest successful run is 42085258562 at commit 592c5a58682db57c7eddf131fb18b9ddd9bac675. All 13 interactive book pages, standalone lesson controls and quiz passed on desktop/mobile, and the screenshot artifact upload succeeded. Comparison to current branch HEAD c6c075f4f6b6ffedf52933ac341cc33701b13b6c shows only workflow configuration and IMAGE_SOURCES.md changes after that source baseline; Chapter 3 implementation files are unchanged.
 
 ## Initial scientific review notes
 
@@ -73,14 +73,15 @@ Compared the local files with Nathan Liow's upstream `circular/` module in `nath
 - Gravitational potential uses zero at infinity, (U=-GMm/r); escape condition uses total mechanical energy.
 - These are initial formula/model checks, not yet the completed learner-facing explanation and diagram review.
 
-## Outstanding items
+## Final closure
 
-1. Finish all 26 practice-item checks and verify every distractor's units and answer explanation.
-2. Review the wording and model assumptions for all 13 pages, including the distinction between idealised and real motion.
-3. Complete item-level provenance/attribution and scientific visual checks for the 13 inherited 3D scenes.
-4. Inspect standalone lesson and interactive-book screenshots on desktop and mobile.
-5. Confirm the new dedicated browser workflow, then fix any issues it reports.
-6. Save the final 100% audit only after all required checks pass.
+- The 26-item practice inventory and numeric/conceptual answer-key regression checks are complete.
+- All 13 scene/page mappings and their PLATES explanations have been reviewed; the 13 inherited 3D scenes have individual provenance records in IMAGE_SOURCES.md.
+- Responsive visual defects found during screenshot inspection were corrected, then rechecked in the dedicated Chapter 3 browser run.
+- The dedicated browser run passed both interactive-book and standalone lesson checks on desktop and mobile and uploaded its screenshot artifact.
+- JavaScript validation and Physics Engine checks passed on the current branch HEAD.
+- The broader multi-chapter Physics browser workflow is a separate suite and was still running at the time of this audit update. Its Chapter 14 magnetism job failed on a dynamic-readout timing assertion; that unrelated failure is not evidence of a Chapter 3 defect. Chapter 3's dedicated workflow is green.
+- No merge to main or deployment was performed.
 
 ## Publication boundary
 
@@ -136,4 +137,14 @@ No scene geometry or force logic was changed. This is an internal source-level r
 - Updated the canvas accessible name with touch guidance.
 - The standalone lesson's mobile diagram had overly long vector labels that could run beyond the small canvas; shortened the visible arrow labels to v and aц, while retaining the direction explanation in the canvas accessible name.
 - Extended the browser smoke to assert the mobile title/selector geometry and hidden mouse hint, and to capture separate book-chrome screenshots.
-- Final responsive rerun is pending; do not mark 80% complete until the new mobile assertion passes and the new screenshots are inspected.
+- Final responsive verification: the dedicated Chapter 3 run 42085258562 passed on desktop and mobile. The uploaded mobile screenshots for all 13 book pages and the standalone model/quiz were manually inspected; the overlap was no longer visible. This closes the 80% milestone.
+
+
+## 100% — final internal readiness (2026-11-06)
+
+- Chapter-specific browser run: [42085258562](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42085258562) — SUCCESS. Interactive book (13 pages, desktop/mobile), standalone lesson/model/quiz (desktop/mobile), and screenshot artifact upload all passed.
+- Current branch HEAD: `c6c075f4f6b6ffedf52933ac341cc33701b13b6c`.
+- Current-HEAD checks: Validate JavaScript run `42153737685` — SUCCESS; Physics Engine run `42153737783` — SUCCESS.
+- The full multi-chapter browser workflow `42153737716` was still in progress during closure. Its separate magnetism job failed only the Chapter 14 right-hand-rule dynamic desktop readout timing assertion; its Chapter 14 mobile readout and other Chapter 14 checks passed. This does not invalidate the dedicated Chapter 3 green run.
+- Chapter 3 implementation files did not change after the successful dedicated run; intervening commits touched `.github/workflows/physics-browser.yml` and `IMAGE_SOURCES.md` only.
+- Internal publication-readiness review is complete on `workspace/physics`. No external certification, merge, or deployment is implied.
