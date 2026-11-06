@@ -616,3 +616,31 @@ Automated source regression checks were added for the corrected bond topology, t
 - [ ] Rights/creator/licence documentation and final approval remain governed by `AUTHOR_CREATED_VISUALS_STANDARD.md` v1.0. Do not label any asset VERIFIED solely because its source is project-created or CI passed.
 
 **Progress definitions:** static source review 12/12 (100%); static coverage 12/12 (100%); branch-head automated technical checks PASS; retained rendered screenshot review not evidenced; seven-gate VERIFIED count remains 0/12 static and 0/7 interactive pending applicable evidence and sign-offs.
+
+
+## Interactive systems CH-IV01–CH-IV07 — source-level review checkpoint, 6 November 2026
+
+A direct source pass was completed across the seven integrated interactive systems. This is a first-pass code/content review of the implementations, not a retained manual interaction or rendered-state sign-off.
+
+| ID | Implementation inspected | Source-level findings |
+|---|---|---|
+| CH-IV01 | chapters/atomic-structure.html — atom/shell model | Checked the five selectable neutral atoms (H, C, O, Na, Cl), proton/electron equality, neutron counts, shell populations and orbital-configuration strings. The chapter explicitly distinguishes energy-level shells from literal electron tracks and qualifies the first-20-elements school-level shell model. |
+| CH-IV02 | chapters/atomic-structure.html — proton/neutron/electron comparison | Checked the bilingual particle names and the explanatory charge/mass comparison. The nearby text states that proton and neutron masses are about 1,800 times the electron mass; manual inspection of the SVG's actual visual proportions remains open. |
+| CH-IV03 | chapters/chemical-bonding.html — ionic/covalent/metallic models | Checked the Na-to-Cl electron-transfer example, H₂ shared pair, metallic positive ion cores/delocalised electrons, and bilingual explanations. The page correctly cautions that real bonds can have mixed character and that bond polarity is not identical to molecular polarity. |
+| CH-IV04 | periodic-table.html — interactive periodic table | Inspected filtering, search, element selection, bilingual names, atomic-number/symbol/mass labels, selected-detail live region and aria-pressed state updates. The code keeps element-button focus in place after selection. The full 118-element dataset still needs a dedicated data/provenance reconciliation; this pass does not certify every mass/category entry. |
+| CH-IV05 | molecule-lab.html — 3D molecular geometry | Rechecked coordinates and displayed approximate geometries for H₂O, CO₂, CH₄ and NH₃; inspected pointer/touch drag, arrow-key rotation, molecule switching, reset and opt-in auto-rotation. Found an unnecessary permanent requestAnimationFrame loop even while auto-rotation was off. |
+| CH-IV06 | gas-laws.html — ideal-gas calculator and schematic particles | Checked P=nRT/V, the kPa·L gas-constant units, Celsius-to-kelvin conversion, positive-temperature range and bilingual limits on the particle-count illustration. The dots are not presented as a kinetic-theory simulation. |
+| CH-IV07 | virtual-lab.html — strong acid/strong base neutralisation | Checked mole accounting, equivalence condition, excess-ion calculation, water autoionisation approximation near equivalence, pH display bounds and stated 25 °C / ideal dilute / additive-volume assumptions. The model is correctly scoped to strong monoprotic acid and strong monobasic base. |
+
+### CH-IV05 corrective change
+
+- molecule-lab.html: removed the always-running animation-frame loop. The render loop now starts only when the learner explicitly enables auto-rotation and stops scheduling further frames after it is switched off. Manual pointer/touch and keyboard rotation continue to call draw() directly.
+- checks.mjs: added regression checks requiring the molecular animation loop to remain idle when auto-rotation is off and to start only on explicit activation.
+- Commits: implementation ae66fa2eb590d778cc66b5576e6ed6c5d6fbe0e4; regression guard 80978e714372444c9b44db63ac434a45f3189838.
+
+### Status boundary
+
+- Interactive source-level first pass: 7/7 systems (100% of the defined source-review sequence).
+- Corrective source change in this checkpoint: 1/7 systems (CH-IV05).
+- The seven systems are not marked VERIFIED: rendered desktop/mobile states, manual keyboard/touch/screen-reader testing, full element-data provenance, creator/rightsholder and code-licence evidence, and final project approval have not been closed by this source pass.
+- The successful Chromium workflow runs on the previous branch head predate the CH-IV05 correction and its new regression guard. A fresh branch-head workflow run is required before calling the new change technically validated.
