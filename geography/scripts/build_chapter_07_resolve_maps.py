@@ -134,18 +134,18 @@ def svg_map(features, mode, outpath):
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
     raw_features=fetch()
-    # RESOLVE includes one N/A Rock & Ice record; it is not one of the 14 classified biomes.
-    # Exclude records without both classification fields rather than inventing a 15th category.
+    # One source feature has BIOME_NAME=N/A (unclassified Rock & Ice) but still
+    # carries its Antarctic REALM. Exclude it only from the biome map, not the realm map.
     biome_names={item[0] for item in BIOMES}
     realm_names={item[0] for item in REALMS}
-    features=[f for f in raw_features if (f.get("properties") or {}).get("BIOME_NAME") in biome_names and (f.get("properties") or {}).get("REALM") in realm_names]
-    excluded=len(raw_features)-len(features)
-    biome_counts=Counter((f.get("properties") or {}).get("BIOME_NAME") for f in features)
-    realm_counts=Counter((f.get("properties") or {}).get("REALM") for f in features)
+    biome_features=[f for f in raw_features if (f.get("properties") or {}).get("BIOME_NAME") in biome_names]
+    realm_features=[f for f in raw_features if (f.get("properties") or {}).get("REALM") in realm_names]
+    biome_counts=Counter((f.get("properties") or {}).get("BIOME_NAME") for f in biome_features)
+    realm_counts=Counter((f.get("properties") or {}).get("REALM") for f in realm_features)
     if len(biome_counts)!=14: raise RuntimeError(f"Expected 14 biome categories, got {len(biome_counts)}: {biome_counts}")
     if len(realm_counts)!=8: raise RuntimeError(f"Expected 8 realm categories, got {len(realm_counts)}: {realm_counts}")
-    svg_map(features,"biome",OUT/"07-C-world-terrestrial-biomes-bilingual.svg")
-    svg_map(features,"realm",OUT/"07-E-world-biogeographical-realms-bilingual.svg")
-    print(f"PASS: generated 07-C and 07-E from {len(features)} classified RESOLVE 2017 ecoregions; 14 biomes and 8 realms; excluded {excluded} unclassified record(s).")
+    svg_map(biome_features,"biome",OUT/"07-C-world-terrestrial-biomes-bilingual.svg")
+    svg_map(realm_features,"realm",OUT/"07-E-world-biogeographical-realms-bilingual.svg")
+    print(f"PASS: generated 07-C from {len(biome_features)} classified ecoregions (14 biomes) and 07-E from {len(realm_features)} ecoregions (8 realms), including the N/A-biome Antarctic feature only in the realm map.")
     print("Source geometry simplified by ArcGIS maxAllowableOffset=0.12 degrees; attribution and CC BY 4.0 embedded in both maps.")
 if __name__=="__main__": main()
