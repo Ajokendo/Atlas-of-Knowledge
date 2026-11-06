@@ -1197,11 +1197,11 @@ The 6.17-A diagram and matching chapter text were refined using IPCC AR6 WGI Cha
 Automated Chromium acceptance passed in GitHub Actions run [42215317460](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42215317460): all 32 RU/EN Markdown image embeds decoded in both GitHub Markdown and an isolated gallery at 390px and 1365px; no horizontal overflow; keyboard skip link passed; axe WCAG 2.1 A/AA scan of the gallery returned zero violations; all 12 local SVGs rendered with title, description, role=img and visible text. This does **not** establish SVG text contrast, useful screen-reader reading order, deployed Atlas rendering, independent scientific review or project licensing of the local SVGs.
 
 
-## Chapter 07 — open map visuals 07-C and 07-E: source selection, not yet integrated
+## Chapter 07 — RESOLVE 2017 maps 07-C and 07-E — generated 6 November 2026
 
 - **07-C — World terrestrial biomes.** Preferred source dataset: RESOLVE Ecoregions 2017, which represents 846 terrestrial ecoregions grouped into 14 biomes and 8 biogeographic realms. Use the `BIOME_NAME` / `BIOME_NUM` fields to derive a simplified world biome map. Dataset licence: **CC BY 4.0**. Primary citation: Dinerstein et al. (2017), *An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm*, BioScience 67(6), 534–545, DOI: https://doi.org/10.1093/biosci/bix014. Dataset metadata: https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017.
 - **07-E — World biogeographical realms.** Use the same RESOLVE 2017 source and its `REALM` field for a consistent eight-realm classification; dataset licence and primary citation are the same as 07-C. The derived map must identify the classification as RESOLVE 2017 and explain that realm boundaries are biogeographic generalisations, not political borders.
-- These are **source selections only**. No map has yet been generated or embedded, and no geometry has been modified or redistributed by this note. The dataset is a 2017 reference classification, not a current land-cover map. Any derived 07-C/07-E map must retain appropriate CC BY 4.0 attribution and must not be placed under the Chapter 07 project-local CC BY-NC licence.
+- The reproducible generator `geography/scripts/build_chapter_07_resolve_maps.py` retrieves the RESOLVE ArcGIS FeatureServer layer and generates both SVG maps. 07-C groups classified features by `BIOME_NAME` (14 categories); one `BIOME_NAME=N/A` record is excluded from this biome map. 07-E groups by `REALM` and includes all eight exact source values, including `Antarctica`. The generated SVGs are embedded in both language sections (four Markdown embeds total). The dataset is a 2017 reference classification, not a current land-cover map. Both derivative maps retain CC BY 4.0 attribution and are explicitly excluded from the Chapter 07 project-local CC BY-NC designation.
 - A separate, unnumbered production brief for **Figure 7.5** (latitudinal zonation and altitudinal belts) remains in the chapter but is not represented by any of the nine current visual IDs. It needs an explicit scope decision before asset creation (for example, assigning a new ID) and is not silently counted as an integrated visual.
 
 
@@ -1227,3 +1227,18 @@ The project owner expressly confirmed that the six original Atlas-local Chapter 
 **Explicit exclusions:** 07-D is an adaptation of a third-party source and retains **CC BY 4.0**, including its source attribution and change notice. The planned maps 07-C and 07-E are based on RESOLVE Ecoregions 2017 and must retain **CC BY 4.0** attribution; they are not covered by this CC BY-NC designation. This decision does not apply to the repository-root licence, Nathan Liow's work, Chapter 07 text, any other Geography asset, or the Atlas as a whole.
 
 Licence deed: https://creativecommons.org/licenses/by-nc/4.0/ . Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode . Attribution label: **Atlas of Knowledge project**. Suggested credit for the six listed assets: “Atlas of Knowledge project, CC BY-NC 4.0; adapted only if modifications are made.” Preserve the licence link and identify changes when adapting.
+
+
+### Chapter 07 map production records — 6 November 2026
+
+**07-C — World terrestrial biomes**  
+Asset: `geography/assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg`  
+Source: RESOLVE Ecoregions 2017, ArcGIS FeatureServer layer 0; `BIOME_NAME` field. Fourteen biome categories are represented. One source record with `BIOME_NAME=N/A` is excluded rather than assigned to a biome without evidence. Geometry is simplified by the service using `maxAllowableOffset=0.12` degrees in WGS 84. The map explicitly states that it is a dated reference classification, not current land cover.
+
+**07-E — World biogeographical realms**  
+Asset: `geography/assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg`  
+Source: same RESOLVE Ecoregions 2017 layer; `REALM` field. All eight exact source categories are included: Afrotropic, Antarctica, Australasia, Indomalayan, Nearctic, Neotropic, Oceania and Palearctic. The map explicitly distinguishes biogeographical from political boundaries.
+
+**Attribution/licence for both derivative maps:** RESOLVE Ecoregions 2017; Dinerstein, E. et al. (2017), “An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm”, *BioScience* 67(6): 534–545, DOI: 10.1093/biosci/bix014. Source data licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. The SVGs carry the citation, source credit, licence link and a statement that the geometry has been simplified. They are not covered by the Chapter 07 CC BY-NC 4.0 owner authorisation.
+
+**Generation workflow:** `.github/workflows/geography-chapter-07-resolve-maps.yml`; successful generation run: [42220904637](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42220904637). The workflow checks 14 biome categories and eight realm categories before committing generated maps to `workspace/geography`.
