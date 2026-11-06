@@ -203,3 +203,11 @@
 - Глава 6: 6 ноября добавлена и интегрирована в RU/EN оригинальная двуязычная схема 6-D о ветровых волнах, приливах и поверхностных/глубинных течениях. Теперь интегрированы 6 из 15 визуальных ID; девять остаются открытыми. Для нового SVG отдельно зафиксировано, что права и лицензия проекта ещё не подтверждены; автоматическая и ручная проверка контраста, скринридера и развёрнутого сайта не заявляются как выполненные.
 
 - Глава 6: 6 ноября добавлены восемь оригинальных двуязычных SVG (6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A, 6.18-A); 6-B заменена на неизменённую карту пяти океанов с Wikimedia Commons (Pinpin / Wikigraphists, CC BY-SA 3.0), её границы обозначены как условные. Все 15 визуальных ID интегрированы в RU/EN: 32 Markdown-вставки, 16 различных графических целей, пустых alt-текстов нет. Статическая XML/ARIA-проверка всех 12 локальных SVG пройдена; GitHub Actions run 42213839539 — success. Это не закрывает права/лицензии, картографическую экспертизу, контраст, скринридер и browser/mobile/deployment QA. В матрице редакционно-визуальная готовность главы 6 закрыта на 100%; права/лицензии, ручная проверка доступности, browser/mobile и production QA ведутся отдельно и не объявляются завершёнными.
+
+
+### Chapter 06 — browser QA and rights register — 6 November 2026
+
+- Added a dedicated Chromium workflow for the Chapter 06 visual gallery and the live GitHub Markdown chapter at 390px and 1365px viewports. It checks image decoding, horizontal overflow, keyboard skip-link navigation, axe WCAG 2.1 A/AA rules on the gallery, and rendered SVG title/description/role metadata and visible text bounds.
+- Static inventory/XML/ARIA validation passed on commit 70147fd48a3a4b3b3f6cac26f8a3bb0430fce370 (workflow run 42214801979). Browser run 42214801992 is still in progress; no rendered/accessibility pass is claimed until it completes.
+- Added geography/assets/CHAPTER_06_ASSET_RIGHTS.md to separate third-party reuse bases from the 12 local SVGs whose project licence still requires owner confirmation. Linked it from the editorial readiness matrix.
+- Added the English “Glacier Mass Balance” subheading to mirror the Russian subsection structure.
