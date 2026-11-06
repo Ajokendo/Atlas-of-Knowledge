@@ -651,6 +651,8 @@ Land-use change is one of the major drivers of landscape transformation. Expansi
 
 **Land degradation** is a decline in biological or economic productivity and/or ecological functions of land. It may appear as erosion, salinisation, compaction, loss of organic matter, pollution and desertification.
 
+The UN Convention to Combat Desertification's land-degradation-neutrality approach uses a response hierarchy: **avoid new degradation → reduce existing degradation → reverse degradation** through restoration. Avoidance and reduction take priority; restoration should not be treated as an automatic offset for every loss. Measures must reflect land type, baseline condition and local circumstances.
+
 Forests perform important functions: they support biodiversity; participate in carbon and water cycles; protect soils from erosion; regulate local microclimates; and provide raw materials and livelihoods.
 
 Forest restoration does not always mean restoration of the original ecosystem. Planting monoculture plantations is not equivalent to restoring a natural forest in species composition, structure and ecological functions.
