@@ -138,7 +138,7 @@ export const PAGES = [
         under: `<path data-area="push" style="fill:#86868c;opacity:.35" d=""/>` + Array.from({ length: 6 }, (_, i) => { const dx = M.PUSH.L / 6, x = i * dx, F = M.pushF(x + dx / 2), X = v => CH.sx(v, R.push.x0, R.push.x1), Y = v => CH.sy(v, R.push.y0, R.push.y1, R.push.h); return `<rect class="trend" x="${X(x)}" y="${Y(F)}" width="${X(dx) - X(0)}" height="${Y(0) - Y(F)}"/>`; }).join(''),
         series: [{ pts: [...samples(60, 0, M.PUSH.L, M.pushF), [R.push.x1, 0]] }] })}</div>
       <p class="hintline">6 полос (пунктир): ${f(M.pushStrips(6))} Дж; 64 полосы: ${f(M.pushStrips(64), 3)} Дж. Масштаб: ${SC.push.F * 100} см/Н.</p>`,
-    cam: { target: [ST.push + 0.1, 0.8, 0], az: -12, el: 9, dist: 14.5 }, lit: 'push', scene: 'push', look: {},
+    cam: { target: [ST.push + 0.1, 0.8, 0], az: -12, el: 9, dist: 14.5, mobileDist: 18.5 }, lit: 'push', scene: 'push', look: {},
     fig: 'Работа равна площади под графиком F(x)',
   },
   {
@@ -179,7 +179,7 @@ export const PAGES = [
         series: [{ cls: 'trend', pts: [[R.bondU.x0, M.BOND.E / M.EV], [R.bondU.x1, M.BOND.E / M.EV]], tag: [0.315, M.BOND.E / M.EV + 0.06, 'E'] }, { pts: samples(120, R.bondU.x0, R.bondU.x1, r => M.bondU(r * 1e-9) / M.EV) }],
         marks: [[M.BOND.r1 * 1e9, M.BOND.E / M.EV, 'поворот', -32, 4], [M.BOND.r2 * 1e9, M.BOND.E / M.EV, 'поворот', 6, 14]] })}</div>
       <p class="hintline">Масштаб рисунка: 0,1 нм = 1 м; <i>F</i> — ${SC.bond.F * 100} см/нН. Анимация замедлена в ${(() => { const [a, e] = (1 / (M.SLOW * M.BOND.tscale)).toExponential(1).split('e+'); return `${a}×10<sup>${e}</sup>`; })()} раза.</p>`,
-    cam: { target: [ST.bond - 0.45, 1.25, 0], az: -10, el: 6, dist: 12.5 }, lit: 'bond', scene: 'bond', look: {},
+    cam: { target: [ST.bond - 0.45, 1.25, 0], az: -10, el: 6, dist: 12.5, mobileDist: 16.5 }, lit: 'bond', scene: 'bond', look: {},
     fig: 'Частица в потенциальной яме',
   },
   {
