@@ -288,3 +288,16 @@ These are inventory findings, **not readiness scores**. They describe the audite
 ---
 
 **Audit conclusion:** Physics is a derivative Russian-language edition of Nathan Liow's pre-existing English atlas, not a newly authored visual atlas. The correct work is to trace inherited visuals to the source, verify reproduction and adaptation rights, and audit the Russian edition's localisation, accessibility and rendering. Only genuinely modified visuals should be classified B, and only genuinely new independent visuals should be classified C. The four known placeholders have been replaced by original bilingual SVG schematics and are recorded as Category C. Their eight responsive SVG files are published under CC BY-NC 4.0 (project decision approved 2026-11-05); internal publication checks are complete for these four assets. Independent external expert review is a separate post-publication activity, not a publication gate. No blanket re-creation or indiscriminate re-search of unchanged inherited visuals is required.
+
+
+### Chapter 04 — targeted visual pass (2026-11-06)
+
+- Re-opened the existing full-size desktop/mobile capture set from browser run `42160523319` (artifact `13476263737`; 24 interactive-book screenshots plus standalone desktop/mobile captures).
+- Mobile page 4.6 (`energy-mobile-07.png`): the left graph axis and tick labels of the variable-force board were outside the visible figure area. Desktop framing was acceptable.
+- Page 4.9 (`energy-mobile-10.png`, and desktop counterpart): the upper repulsive branch of the potential curve and parts of the axis framing were clipped. The earlier graph-scale correction did not fully resolve camera framing.
+- Page 4.1 (`energy-mobile-02.png`): the long dynamic annotation describing positive/negative work crossed the ball and energy bars, reducing legibility.
+- Corrections committed on `workspace/physics`:
+  - `c2a1974d` and `21211072`: introduced optional per-page mobile camera distances in the shared book camera interpolation and widened the mobile framing for Chapter 4 pages 4.6 and 4.9 (18.5 and 16.5 world units respectively).
+  - `21836abb`: shortened the dynamic work-sign annotation to the compact signed-work notation `W_g < 0` / `W_g > 0`, avoiding collision with the energy bars.
+- **Re-render and acceptance pending.** The Chapter 4 browser workflow for the latest source is queued; do not mark these three scenes visually accepted until fresh desktop/mobile screenshots have been opened and checked.
+- Contact-sheet review covered all 12 desktop and 12 mobile book pages. This is a screening pass only; detailed full-size review remains necessary for any additional suspected collisions or clipping.
