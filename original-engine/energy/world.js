@@ -25,7 +25,7 @@ export const SC = {
   lift: { F: 0.008 },
   push: { F: 0.05, E: 0.03 },          // the F(x) board behind uses the same 5 cm per newton
   bead: { F: 0.3 },
-  bond: { r: 1e10, U: 0.65, F: 0.08 },  // drawn 0.1 nm = 1 m; 0.65 m per eV; 8 cm per nN
+  bond: { r: 1e10, U: 0.4, F: 0.08 },   // drawn 0.1 nm = 1 m; 0.4 m per eV; 8 cm per nN
 };
 
 export function buildWorld(E) {
