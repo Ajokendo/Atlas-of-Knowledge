@@ -1199,7 +1199,7 @@ for (const check of regionalFaunaSvgChecks) {
     continue;
   }
   const svg = fs.readFileSync(assetPath, "utf8");
-  if (!/<svg\\b[^>]*viewBox=/i.test(svg) || !/<title\\b/i.test(svg) || !/<desc\\b/i.test(svg)) {
+  if (!/<svg\b[^>]*viewBox=/i.test(svg) || !/<title\b/i.test(svg) || !/<desc\b/i.test(svg)) {
     errors.push("images/generated/" + check.file + ": SVG must retain viewBox, title and descriptive accessibility text");
   }
   for (const phrase of check.required) {
