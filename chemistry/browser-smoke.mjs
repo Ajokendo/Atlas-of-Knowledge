@@ -40,11 +40,17 @@ const localOrigin = new URL(base).origin;
 const visualEvidencePages = new Set([
   "index.html",
   "chapters/atomic-structure.html",
-  "chapters/chemical-bonding.html",
+  "chapters/chemical-elements.html",
   "periodic-table.html",
+  "chapters/chemical-bonding.html",
+  "chapters/amount-of-substance.html",
+  "chapters/chemical-formulae.html",
   "chapters/solutions.html",
   "chapters/acids-and-bases.html",
+  "chapters/chemical-reactions.html",
   "chapters/redox.html",
+  "chapters/organic-chemistry.html",
+  "chapters/chemistry-of-life.html",
   "molecule-lab.html",
   "virtual-lab.html",
   "stoichiometry.html",
@@ -2583,6 +2589,10 @@ if (languageChecks !== pages.length) {
 }
 if (axeAudits !== pages.length * 2) {
   errors.push("Expected exactly " + (pages.length * 2) + " axe-core scans (RU + EN); found " + axeAudits);
+}
+const expectedRenderedScreenshots = visualEvidencePages.size * 6;
+if (renderedScreenshots !== expectedRenderedScreenshots) {
+  errors.push("Expected exactly " + expectedRenderedScreenshots + " rendered screenshots for " + visualEvidencePages.size + " visual-evidence pages; found " + renderedScreenshots);
 }
 
 if (errors.length) {
