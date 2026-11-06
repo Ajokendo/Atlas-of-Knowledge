@@ -1249,6 +1249,30 @@ for (const [file, required, forbidden] of acidBaseDiagramRequirements) {
 const redoxLanguageGuard = redoxSource.includes("if(window.updateModel)updateModel();calculateNernst()") && redoxSource.includes('lang==="ru"?"ЭДС элемента: ":"Cell EMF: "');
 if (!redoxLanguageGuard) errors.push("chapters/redox.html: Nernst output must refresh when RU/EN language changes");
 
+const stoichiometrySource = fs.readFileSync(path.join(root, "stoichiometry.html"), "utf8");
+if (!stoichiometrySource.includes('molUnit:"моль"') ||
+    !stoichiometrySource.includes('molUnit:"mol"') ||
+    !stoichiometrySource.includes('fmt(p)+" "+w.molUnit+" P"') ||
+    stoichiometrySource.includes('fmt(p)+" mol P"')) {
+  errors.push("stoichiometry.html: product and excess-reactant mole units must follow the selected language");
+}
+
+const isotopeRuVisual = fs.readFileSync(path.join(root, "assets", "isotope-abundance-ru.svg"), "utf8");
+if (!isotopeRuVisual.includes('font-size="18"') ||
+    !isotopeRuVisual.includes("ИЗОТОПЫ · ОДИНАКОВОЕ ЧИСЛО ПРОТОНОВ, РАЗНОЕ ЧИСЛО НЕЙТРОНОВ")) {
+  errors.push("assets/isotope-abundance-ru.svg: long Russian heading must use the fitted full-width size");
+}
+const formulaEnVisual = fs.readFileSync(path.join(root, "assets", "formula-reading.svg"), "utf8");
+const formulaRuVisual = fs.readFileSync(path.join(root, "assets", "formula-reading-ru.svg"), "utf8");
+if (!formulaEnVisual.includes('x="520" y="232"') ||
+    !formulaEnVisual.includes('x="520" y="253"') ||
+    !formulaEnVisual.includes('height="185"') ||
+    !formulaRuVisual.includes('x="485" y="235"') ||
+    !formulaRuVisual.includes('x="485" y="255"') ||
+    !formulaRuVisual.includes('height="178"')) {
+  errors.push("formula-reading SVG pair: annotations must remain inside the figure frame in both languages");
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
