@@ -1016,6 +1016,8 @@ A reproducible project should allow another specialist to understand which data,
 
 **Проверьте себя:** что произойдёт с площадью идеального буфера, если радиус увеличить с 500 до 1 000 м? Во сколько раз изменится площадь и почему?
 
+**Ответ для проверки:** радиус увеличивается в 2 раза, а площадь круга пропорциональна квадрату радиуса. Поэтому площадь увеличится в 4 раза: примерно с 0,785 до 3,142 км².
+
 Suppose we need a preliminary estimate of the area within 500 m of a clinic. For this learning example, represent the clinic as a point and the buffer as a circle.
 
 **Step 1. Check the coordinate reference system.** Distance calculations should use a suitable projected coordinate system with linear units, such as metres. If the layer uses geographic latitude and longitude, do not enter “500” and assume it means 500 m: the units are angular, and the ground length of a degree of longitude varies with latitude.
@@ -1029,6 +1031,8 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 **Conclusion:** A circular buffer is useful for an initial spatial selection. To estimate actual accessibility, use network analysis based on pedestrian routes and verified data about entrances, crossings and barriers.
 
 **Check your understanding:** What happens to the area of an ideal buffer if its radius increases from 500 m to 1,000 m? By what factor does the area change, and why?
+
+**Answer:** The radius doubles, while a circle's area is proportional to the square of its radius. The area therefore becomes four times larger, increasing from approximately 0.785 to 3.142 km².
 
 ### Практическая работа 1. Создание тематической карты / Practical Activity 1. Creating a Thematic Map
 
