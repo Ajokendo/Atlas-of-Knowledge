@@ -226,7 +226,7 @@ The chapter embeds these 10 local SVGs in both language sections. The production
 | Visual ID | Filename | Category / method | Creator and rights basis | Search record | Current state |
 |---|---|---|---|---|---|
 | 3.1-A | `geography/assets/03-1-A-earth-interior-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
-| 3.3-A | `geography/assets/03-3-A-rock-cycle-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 3.3-A | `geography/assets/03-3-A-rock-cycle-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown / PENDING | UCAR Center for Science Education and British Geological Survey consulted for process accuracy; no third-party artwork reused | INTEGRATED; scientific accuracy PASS after correcting arrow direction; RU/EN parity PASS; rights and rendered/accessibility QA PENDING |
 | 3.4-A | `geography/assets/03-4-A-geological-research-toolkit-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
 | 3.6-A | `geography/assets/03-6-A-earthquake-anatomy-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
 | 3.7-A | `geography/assets/03-7-A-volcano-anatomy-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
@@ -1073,3 +1073,12 @@ The project owner selected **CC BY-NC 4.0** for the four Category C assets 01-A,
 - Restriction: noncommercial use only under the selected licence; adaptations are permitted under its conditions.
 - **Legal status:** project owner confirmed on 5 Nov 2026 that they or an authorised project organisation have authority to act as licensor and apply CC BY-NC 4.0. Rights status is PASS on that owner representation, not an independent legal opinion. The licence and attribution are stated in the chapter captions and SVG metadata.
 - The separate 01-D adaptation remains under its source's CC BY 4.0; no relicensing of GeogSage's source is implied.
+
+
+### Chapter 03 — focused correction to visual 3.3-A — 6 November 2026
+
+The original rock-cycle SVG contained misleading process arrows: the central burial/heat/pressure arrow pointed from metamorphic rock toward sediment, and the melting pathway did not lead to magma. Rebuilt the bilingual diagram so the displayed example pathway now reads in the correct direction: magma → cooling/crystallisation → igneous rock → weathering/erosion/transport/deposition → sediment → compaction/cementation → sedimentary rock → heat/pressure/fluids → metamorphic rock → melting → magma. The note explicitly says this is one simplified pathway, not a compulsory sequence.
+
+Scientific basis checked against the [UCAR Center for Science Education geosphere overview](https://scied.ucar.edu/learning-zone/earth-system/geosphere) and [British Geological Survey rocks and minerals guide](https://www.bgs.ac.uk/discovering-geology/rocks-and-minerals/). The chapter's existing explanation already states that the rock cycle has multiple pathways. No third-party figure was copied; the corrected SVG remains provisionally Category C. Creator/rightsholder and project licence are still Unknown / PENDING and must not be inferred from the correction or repository ownership.
+
+**Current visual result:** scientific/process-direction review PASS; bilingual labels and alt text PASS; SVG title/description and `role="img"` present; contrast, small-screen legibility, screen-reader output and production-reader rendering remain untested.
