@@ -15,20 +15,21 @@
 - [x] Localized title/description metadata is present in replacement SVGs.
 - [x] All seven interactive visual systems were inspected; no third-party visualization-library imports or external image-asset references were identified.
 - [x] Replacement commits, source references and known provenance limitations are documented in `IMAGE_SOURCES.md` and `IMAGE_AUDIT.md`.
-- [x] Scanned all 36 retained 768 px screenshots (18 selected pages/resources × RU/EN) using a contact sheet; no obvious clipping or overlap was visible across the set.
-- [x] Performed focused full-size checks of Russian acid–base, chemical-reactions, periodic-table, molecular-lab and stoichiometry screenshots; layouts are readable, and the periodic-table horizontal scroll is intentional and explained.
-- [ ] Complete the remaining page-by-page full-size review of visuals and the manual review of interactive states.
+- [x] Expanded visual capture to all 21 Chemistry pages (the three previously omitted pages were chemistry constants, glossary and knowledge check).
+- [x] Captured and scanned 126 screenshots: 21 pages × RU/EN × 390/768/1280 px. Contact-sheet review found no obvious page-level clipping or overlap.
+- [x] Performed focused full-size checks of acid–base, chemical reactions, periodic table, molecular laboratory, stoichiometry, chemistry constants, glossary and knowledge check. The periodic-table horizontal scroll is intentional and explained.
+- [ ] Complete the remaining detailed page-by-page full-size review and manual review of interactive states.
 - [ ] Resolve any remaining content, bilingual-parity, visual, usability or accessibility defects found during that review.
 - [ ] Record the final internal editorial decision after the remaining in-scope checks and final regression run.
 
 ## Automated evidence
 
-**Latest recorded branch-head GitHub Actions run:** [42197946416](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42197946416)  
+**Latest recorded branch-head GitHub Actions run:** [42210374860](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42210374860)  
 **Branch:** `workspace/chemistry`  
-**Commit:** `af98775365d6f831b3e68fad5874f3c071e82a9e`  
+**Commit:** `e59dcc73bebc978ff7dbc731162b902ec3bc24ca`  
 **Result:** SUCCESS
 
-The preceding rendered-review run [42197379151](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42197379151) uploaded artifact [13492128627](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42197379151/artifacts/13492128627). Its browser job covered the configured Chemistry pages and captured rendered screenshots.
+The run captured artifact [13497179956](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42210374860/artifacts/13497179956), containing 126 rendered screenshots (21 pages × RU/EN × 390/768/1280 px).
 
 Automated results establish only the checks actually run. They do not establish identical behaviour on every physical device or assistive technology.
 
@@ -40,7 +41,8 @@ Automated results establish only the checks actually run. They do not establish 
 | Replacement of previously unresolved static SVGs | 12/12 | New project-specific SVG sources and commits are documented |
 | Earlier SVGs with AI-generation evidence | 10 files | Evidence is recorded individually; not blanket legal clearance |
 | Interactive visual systems | 7/7 inspected | Local implementations; historical author attribution remains incompletely documented |
-| Automated branch-head CI | PASS | Run 42197946416 |
+| Automated branch-head CI | PASS | Run 42210374860 |
+| Rendered screenshot coverage | 21/21 pages — 100% | 126 images across both languages and three viewport widths |
 
 ## Separate follow-up activities — not publication blockers
 
