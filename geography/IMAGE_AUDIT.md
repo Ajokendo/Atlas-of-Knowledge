@@ -1599,3 +1599,46 @@ A stronger rights-documented candidate was identified in LibreTexts *The Physica
 - **Rights and attribution:** the per-ID audit rows record the specific creator/source/licence basis. OpenStax cycle figures 46.15, 46.17 and 46.18 are CC BY-NC-SA 4.0 and require noncommercial use, attribution and ShareAlike compliance; this licence does not automatically apply to unrelated Atlas content. NASA-derived material with a U.S.-only Public Domain basis retains its jurisdiction caveat.
 - **Not yet verified:** production/deployed-page loading, responsive behaviour at mobile/tablet/desktop breakpoints, image failure fallbacks, keyboard navigation, screen-reader announcements and performance. These remain technical/accessibility tasks; source-level image checks must not be described as a completed browser audit.
 - Historical milestone entries below preserve the counts observed at their respective integration steps; the consolidated inventory above is the current state and supersedes those earlier interim totals.
+
+
+## Chapter 02 — technical QA checkpoint and branch-specific CI — 6 November 2026
+
+**Working branch:** `workspace/geography`  
+**Scope:** Chapter 02 image references and a dedicated, non-publishing validation workflow. No changes to `main`, the portal, catalogue, publishing configuration or other subject folders.
+
+### Re-fetched source inventory
+
+- Re-parsed the current `geography/chapters/02-geographic-envelope.md` from GitHub after the latest branch commits.
+- Confirmed **56 image embeds / 28 unique HTTPS image URLs**. Every unique URL occurs exactly twice, matching the RU/EN chapter sections.
+- Confirmed **56/56 non-empty alt attributes**, zero local image references, zero non-HTTPS image URLs and zero references to the eleven retired Chapter 02 SVG files.
+- This independently reproduces the static inventory recorded above; it does not prove deployed rendering or assistive-technology behaviour.
+
+### Direct visual retrieval spot-check
+
+The available visual inspection channel successfully retrieved and displayed 15 of the 28 unique image URLs, including the CK-12, ZPE, Ritter/LibreTexts, NOAA, USGS, Wikimedia, NASA, SERC and Springer Nature image assets. Thirteen URLs could not be retrieved through that inspection channel: the three S-INK plate-boundary files, the Wikimedia thumbnail endpoints for the organisation/altitudinal-zone/SDO images, the Atlas of Maps biome map, the three OpenStax image-CDN files, the phosphorus-cycle file, the SERC reinforcing-feedback image and the Planetary Health Check figure.
+
+**Interpretation:** tool-level retrieval failure is not proof that an image URL returns an HTTP error to an ordinary browser. These 13 endpoints remain **UNCONFIRMED**, not marked broken. The inspection channel does not expose reliable HTTP status/header evidence for all image endpoints.
+
+### Automated validation added
+
+- Added `geography/scripts/check_chapter_02_images.py`. It validates the expected 56/28 inventory, non-empty alt text, HTTPS-only sources, two-language pairing, absence of local images and absence of retired Chapter 02 SVG references. It also probes remote endpoints.
+- The remote probe treats HTTP 404/410 as failures. Network exceptions, rate limits, access denials and non-image responses are warnings so that bot restrictions are not misreported as broken browser assets.
+- Added `.github/workflows/geography-image-checks.yml`, scoped to pushes on `workspace/geography` and manual dispatch. It does not publish the site and does not touch `main`.
+- Repeated the same static assertions against the current GitHub chapter source after adding the script: **56 embeds; 28 unique URLs; every URL appears twice; 0 empty alt attributes; 0 local image references; 0 retired SVG references**.
+- The GitHub Actions API currently reports **0 workflow runs** for `workspace/geography`; therefore the new workflow's first hosted execution and its remote endpoint results are **not yet confirmed**. Do not report CI as passed until a run completes successfully.
+
+### Publication and accessibility blockers still open
+
+- The existing `.github/workflows/pages.yml` deploys only on pushes to `main`. It does not build or publish `workspace/geography`; no branch preview was available for this audit.
+- `geography/index.html` links directly to Markdown chapter files. Its language toggle switches the landing-page labels only; the page itself states that an in-chapter language filter is not implemented. This audit did not introduce a renderer or alter publishing architecture.
+- No deployed-page test was possible for image loading, mobile/tablet/desktop reflow, image failure fallback, zoom, keyboard navigation, screen-reader announcements or performance. Alt-text presence is confirmed; alt-text quality and actual screen-reader output still require browser/assistive-technology testing.
+
+### Status
+
+- Static source inventory: **PASS**.
+- Bilingual image pairing and alt-text presence: **PASS**.
+- Direct visual retrieval: **15/28 retrieved; 13/28 unconfirmed by the inspection channel**.
+- Hosted branch CI: **PENDING — no run reported yet**.
+- Deployed rendering and responsive/accessibility QA: **BLOCKED — no branch preview/deployment available**.
+
+The Chapter 02 replacement milestone remains **11/11 complete**. The technical publication-readiness milestone is **not complete** and must not be reported as 100% until the pending checks above have evidence.
