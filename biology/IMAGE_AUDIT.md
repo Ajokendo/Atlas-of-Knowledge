@@ -910,3 +910,15 @@ Inspected the 390 px opening-page crops for Botany and Ecology from the successf
 - **Ecology:** the ecosystem energy-flow/food-web plate and the producer–consumer–decomposer model remain inside the card. The explanatory caption wraps below the figure; no broken asset, horizontal overflow or confirmed text collision was identified in this crop. Fine labels within the diagrams remain small at mobile page scale and need asset-level readability assessment.
 
 These are observations of the sampled mobile opening plates only. They do not establish that every embedded label passes the project’s narrow-viewport readability requirement. Global Image Verification remains **Pending audit**.
+## Regional fauna SVG source review — 6 November 2026
+
+Inspected the SVG source and bilingual accessible descriptions for four remaining regional teaching plates: Naryn highland habitats, Osh southern habitats, Besh-Tash/Talas habitats and generic amphibian/reptile habitats.
+
+- **Naryn:** maral, snow leopard and generic seasonal waterbirds remain in separate habitat panels. The description explicitly rejects range-map and population-count interpretations; no bird species is named.
+- **Osh:** the brown bear, snow leopard and Siberian ibex are separated into three habitat scenes. The description does not imply that the animals occur together at one site.
+- **Talas/Besh-Tash:** the river fish remains a generic silhouette with no species label; the plate is identified as habitat reconstruction rather than a distribution map.
+- **Amphibians/reptiles:** the toad and lizard are described as generic forms, with no species name or precise locality assigned.
+
+No source-level change was justified in this pass. The review is limited to SVG structure, labels and scope statements; it is not a specimen-level morphology approval or a full-resolution visual acceptance.
+
+Added regression checks in `checks.mjs` to require these four assets, their accessible SVG title/description and key habitat/species-scope caveats. The validation step passed on the follow-up workflow commit; Chromium installation and full browser screenshot checks were still running at the time of this record.
