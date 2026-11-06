@@ -21,3 +21,24 @@ Evidence: full-page Chromium screenshots, 390 px viewport, successful workflow r
 No new confirmed structural layout defect was established in these sampled opening plates. A recurring mobile legibility limitation is present for dense embedded SVG labels. This is an asset-level readability follow-up, not evidence that the figures are scientifically incorrect or that every label fails. Captions and surrounding prose remain readable but do not replace checking whether essential diagram labels can be read on a phone.
 
 This is a targeted sample, not complete asset-by-asset acceptance. It does not certify every label, caption, source attribution, licence, scientific claim or bilingual string. Global Image Verification remains **Pending audit**; no per-asset VERIFIED status is inferred.
+
+## Follow-up remediation — regional SVG inspection on mobile, 6 November 2026
+
+The full-page 390 px Chromium screenshots exposed a recurring limitation: dense embedded labels in the regional SVG diagrams were too small at their normal responsive fit. The captions remained readable, but that did not make the labels inside the artwork legible.
+
+**Implemented on `workspace/biology`:**
+- 12 regional fauna SVGs and 3 regional flora SVGs now use a 720 × 405 px horizontally scrollable inspection viewport at narrow mobile widths.
+- Each viewport is keyboard-focusable and exposed as a named region with a bilingual accessible label.
+- A visible Russian/English instruction now tells mobile readers to scroll horizontally to inspect the diagram labels.
+- Grid items and figure containers are constrained so the enlarged diagram does not widen the page itself.
+
+**Automated evidence:**
+- [Run #1528](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42170869929) — completed `success`; the 13-page Chromium smoke suite confirmed no page-level horizontal overflow after the viewport-width correction.
+- [Run #1529](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171194427) — completed `success`; fauna scroll guidance and responsive layout passed.
+- [Run #1530](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171199947) — completed `success`; flora scroll guidance and responsive layout passed.
+- [Run #1531](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171211457) — keyboard/scroll interaction regression test is still in progress at the time of this note.
+
+This closes the specific mobile page-overflow defect and adds a way to inspect the 15 regional SVG diagrams at a larger scale. It does **not** mark those 15 assets `VERIFIED`: detailed scientific morphology, caption/alt semantic equivalence, and all remaining per-asset checks still require their own evidence. The sampled core-chapter plates in Anatomy, Biochemistry, Cell Biology, Microbiology, Systematics and Zoology still have small embedded labels at full-page mobile scale and remain a separate follow-up.
+
+Global Image Verification remains **Pending audit**. The 53/53 count remains production/integration coverage only; no per-asset verification percentage or 100% whole-atlas readiness is inferred.
+
