@@ -1746,3 +1746,6 @@ The former Earth cutaway exaggerated crust thickness and had leader lines that d
 ### Chapter 03 — 3.7-A volcano-hazards visual alignment — 6 November 2026
 
 The original diagram footer defined lahars, but the figure did not actually depict or label one. Added a distinct lahar path down the volcano flank and labelled it in Russian and English. Updated the SVG description and both language versions of the chapter alt text so the listed hazards match the visible content. The lahar is distinguished from the pyroclastic density current and lava flow. Scientific concept and bilingual text parity PASS at source review; creator/rightsholder and project licence remain Unknown / PENDING, as do screen-reader and new browser checks.
+
+
+**3.8-A geometry refinement — 6 November 2026.** A second inspection tightened the fault kinematics: bedding layers are now visibly offset across each inclined plane, and paired arrows show opposite relative movement (footwall up / hanging wall down in the normal-fault example; footwall down / hanging wall up in the reverse-fault example). This makes the displacement relation easier to read and avoids implying that both blocks move in the same direction. The strike-slip example remains a plan view. New hosted checks are queued for commit `b99cde0d0c886610aac95f8be9e4d464f2f808b1`.
