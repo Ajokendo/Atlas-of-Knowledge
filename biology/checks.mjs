@@ -1229,7 +1229,7 @@ for (const file of pages) {
       errors.push(rel + ": scrollable regional diagram must have a visible bilingual mobile scroll hint");
     }
   }
-  if (regions.length && (!html.includes(".regional-figure__media--diagram{min-width:0;max-width:100%;width:100%;box-sizing:border-box;height:405px") && html.includes(".grid>*{min-width:0}") || !html.includes("min-width:720px"))) {
+  if (regions.length && (!html.includes(".regional-figure__media--diagram{min-width:0;max-width:100%;width:100%;box-sizing:border-box;height:405px") || !html.includes(".grid>*{min-width:0}") || !html.includes("min-width:720px"))) {
     errors.push(rel + ": mobile SVG inspection must retain the independently scrollable enlarged diagram viewport");
   }
 }
@@ -1240,8 +1240,45 @@ if (regionalDiagramHints !== 15) {
   errors.push("Expected 15 bilingual regional diagram scroll hints; found " + regionalDiagramHints);
 }
 
+let coreDiagramViewports = 0;
+let coreDiagramHints = 0;
+for (const file of pages) {
+  const html = fs.readFileSync(file, "utf8");
+  const rel = path.relative(root, file);
+  const regions = [...html.matchAll(/<div\b([^>]*class=["'][^"']*\bdiagram-scroll-viewport\b[^"']*["'][^>]*)>([\s\S]*?)<\/div>/gi)];
+  coreDiagramViewports += regions.length;
+  for (const region of regions) {
+    const attrs = region[1];
+    const body = region[2];
+    if (!/\btabindex=["']0["']/i.test(attrs) || !/\brole=["']region["']/i.test(attrs) || !/\baria-label=["'][^"']*[А-Яа-яЁё][^"']*[A-Za-z][^"']*["']/i.test(attrs)) {
+      errors.push(rel + ": core SVG viewport must be keyboard-focusable, named and exposed as a region in both languages");
+    }
+    if (!/<img\b[^>]*\bsrc=["'][^"']+\.svg(?:[?#][^"']*)?["']/i.test(body)) {
+      errors.push(rel + ": core SVG viewport region must contain its SVG image");
+    }
+    const following = html.slice(region.index + region[0].length, region.index + region[0].length + 500);
+    if (/^\s*<p class=["']diagram-scroll-hint["'][\s\S]*?<span class=["']ru["'][\s\S]*?<\/span>[\s\S]*?<span class=["']en["']/i.test(following)) {
+      coreDiagramHints++;
+    } else {
+      errors.push(rel + ": core SVG viewport must have a bilingual mobile scroll hint");
+    }
+  }
+  if (regions.length && (!html.includes('<style id="mobile-svg-diagram-viewports">') ||
+      !html.includes(".diagram-scroll-viewport{width:100%;min-width:0;max-width:100%;box-sizing:border-box}") ||
+      !html.includes("min-width:720px"))) {
+    errors.push(rel + ": core SVG viewport is missing its responsive scroll styling");
+  }
+}
+if (coreDiagramViewports !== 19) {
+  errors.push("Expected 19 keyboard-accessible core SVG viewports; found " + coreDiagramViewports);
+}
+if (coreDiagramHints !== 19) {
+  errors.push("Expected 19 bilingual core SVG scroll hints; found " + coreDiagramHints);
+}
+
+
 if (errors.length) {
   console.error("Biology checks failed:\n" + errors.map(x => " - " + x).join("\n"));
   process.exit(1);
 }
-console.log("Biology checks passed: " + pages.length + " HTML pages, " + links + " local paths, " + scripts + " inline scripts, " + buttons + " typed buttons, " + dynamicRegions + " accessible dynamic output regions, " + scrollableRegionalDiagrams + " keyboard-accessible regional SVG viewports and " + regionalDiagramHints + " bilingual mobile hints.");
+console.log("Biology checks passed: " + pages.length + " HTML pages, " + links + " local paths, " + scripts + " inline scripts, " + buttons + " typed buttons, " + dynamicRegions + " accessible dynamic output regions, " + scrollableRegionalDiagrams + " keyboard-accessible regional SVG viewports, " + regionalDiagramHints + " regional hints, " + coreDiagramViewports + " core SVG viewports and " + coreDiagramHints + " core hints.");
