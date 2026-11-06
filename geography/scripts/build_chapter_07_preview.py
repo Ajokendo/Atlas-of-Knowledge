@@ -7,7 +7,9 @@ ASSETS=Path("geography/assets/diagrams")
 NAMES=[
 "07-A-biosphere-earth-spheres-bilingual.svg",
 "07-B-food-web-energy-pyramid-bilingual.svg",
+"07-C-world-terrestrial-biomes-bilingual.svg",
 "07-D-shelford-tolerance-curve-bilingual.svg",
+"07-E-world-biogeographical-realms-bilingual.svg",
 "07-F-terrestrial-biome-panorama-bilingual.svg",
 "07-G-lake-ocean-zonation-bilingual.svg",
 "07-H-habitat-connectivity-bilingual.svg",
