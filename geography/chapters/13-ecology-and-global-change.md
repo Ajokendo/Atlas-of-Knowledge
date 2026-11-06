@@ -281,17 +281,18 @@ Assessing circularity requires consideration of the product's full life cycle: r
 
 ## 13.10. Экологические риски и уязвимость территорий / Environmental Risks and Territorial Vulnerability
 
-![Экологический риск: опасность, экспозиция и уязвимость / Environmental risk: hazard, exposure and vulnerability](../assets/diagrams/13-C-environmental-risk-model-bilingual.svg)
+![Риск бедствий: опасность, экспозиция, уязвимость и возможности / Disaster risk: hazard, exposure, vulnerability and capacity](../assets/diagrams/13-C-environmental-risk-model-bilingual.svg)
 
-*Концептуальная модель, не универсальная числовая формула; оценка требует сценария, периода, масштаба и данных. / Conceptual model, not a universal numerical formula; assessment requires a scenario, period, scale and data.*
+*Четыре взаимосвязанных компонента риска бедствий; схема не задаёт линейной последовательности или универсальной формулы. / Four interacting components of disaster risk; the diagram is neither a linear sequence nor a universal formula.*
 > **EN:** Environmental-risk diagram showing hazard, exposure, vulnerability and potential consequences.
 
-**Экологический риск** возникает при сочетании опасного явления, подверженности людей и активов воздействию и их уязвимости. Опасность сама по себе не равна риску: одинаковое природное явление может иметь разные последствия в зависимости от плотности населения, качества зданий, доступности предупреждения и готовности служб.
+**Экологический риск** оценивают с учётом опасности, подверженности людей и активов воздействию, их уязвимости и доступных возможностей предупреждения, подготовки и реагирования. В терминологии UNDRR **риск бедствий** определяется вероятностно как функция опасности, экспозиции, уязвимости и возможностей (capacity). Эти компоненты взаимодействуют: их нельзя представлять как простую линейную цепочку или сводить к одной универсальной арифметической формуле. Опасность сама по себе не равна риску: одинаковое явление может иметь разные последствия в зависимости от плотности населения, качества зданий, систем предупреждения и ресурсов для реагирования. Понятие экологического риска шире риска бедствий, поэтому для отдельных задач могут требоваться другие модели.
 
 Ключевые понятия:
 - **опасность (hazard):** потенциально разрушительное природное или техногенное явление;
 - **подверженность (exposure):** наличие людей, инфраструктуры и ценностей в зоне возможного воздействия;
 - **уязвимость (vulnerability):** условия, повышающие вероятность ущерба;
+- **возможности (capacity):** ресурсы, знания, институты и навыки, помогающие предупреждать риск, готовиться и реагировать;
 - **риск (risk):** возможность неблагоприятных последствий с учётом вероятности и тяжести воздействия;
 - **устойчивость к бедствиям (disaster resilience):** способность готовиться, выдерживать воздействие, восстанавливаться и адаптироваться.
 
@@ -448,7 +449,7 @@ This is a simplified estimate of the direct effect of reduced electricity use. A
 - оценка жизненного цикла продукции;
 - моделирование экосистемных и климатических процессов.
 
-**Оценка воздействия на окружающую среду (ОВОС / EIA)** рассматривает вероятные экологические последствия планируемой деятельности до принятия решения. **Стратегическая экологическая оценка (СЭО / SEA)** применяется к планам, программам и политикам на более высоком уровне планирования. Конкретные процедуры и юридические требования различаются по странам.
+**Оценка воздействия на окружающую среду (ОВОС / EIA)** рассматривает вероятные экологические последствия планируемого проекта до принятия решения о его реализации. **Стратегическая экологическая оценка (СЭО / SEA)** применяется на более раннем этапе к планам и программам, а в некоторых правовых системах — также к политикам и стратегиям. Она позволяет учитывать экологические и связанные со здоровьем последствия, разумные альтернативы и участие общественности до окончательного выбора направления развития. Конкретная область применения и юридические требования различаются по странам.
 
 Для качественной оценки необходимо описывать исходное состояние, альтернативы, прямые и косвенные воздействия, кумулятивные эффекты, меры предотвращения и смягчения, а также план последующего мониторинга.
 
@@ -639,12 +640,13 @@ Assessment of circularity should consider the full life cycle of a product: raw-
 
 ### 13.10. Environmental Risks and Territorial Vulnerability
 
-**Environmental risk** arises from the combination of a hazardous event, the exposure of people and assets, and their vulnerability. A hazard alone is not the same as risk: the same natural event can have different consequences depending on population density, building quality, warning access and emergency preparedness.
+**Environmental risk** is assessed by considering hazards, the exposure of people and assets, their vulnerability, and the available capacity for warning, preparedness and response. In UNDRR terminology, **disaster risk** is determined probabilistically as a function of hazard, exposure, vulnerability and capacity. These components interact: they should not be presented as a simple linear chain or reduced to one universal arithmetic formula. A hazard alone is not the same as risk: the same event can have different consequences depending on population density, building quality, warning systems and response resources. Environmental risk is broader than disaster risk, so other models may be needed for particular questions.
 
 Key concepts include:
 - **hazard:** a potentially damaging natural or technological event;
 - **exposure:** the presence of people, infrastructure and assets in an area that may be affected;
 - **vulnerability:** conditions that increase the likelihood of harm;
+- **capacity:** resources, knowledge, institutions and skills that help prevent risk, prepare for events and respond;
 - **risk:** the possibility of adverse consequences, taking account of probability and severity; and
 - **disaster resilience:** the ability to prepare for, withstand, recover from and adapt to impacts.
 
@@ -676,7 +678,7 @@ Environmental monitoring is the systematic observation of natural conditions and
 
 Main methods include air- and water-quality measurement; soil and sediment analysis; bioindication and species monitoring; remote sensing and GIS; inventories of emissions and pollution sources; product life-cycle assessment; and modelling of ecosystem and climate processes.
 
-An **Environmental Impact Assessment (EIA)** considers the likely environmental consequences of a proposed activity before a decision is made. A **Strategic Environmental Assessment (SEA)** is applied to plans, programmes and policies at a higher planning level. Specific procedures and legal requirements vary between countries.
+An **Environmental Impact Assessment (EIA)** considers the likely environmental consequences of a proposed project before a decision is made about its implementation. A **Strategic Environmental Assessment (SEA)** is applied earlier, to plans and programmes and, in some legal systems, also to policies and strategies. It can consider environmental and health effects, reasonable alternatives and public participation before the overall direction of development is settled. The scope and legal requirements vary between countries.
 
 A sound assessment describes baseline conditions, alternatives, direct and indirect impacts, cumulative effects, measures to avoid and reduce impacts, and a follow-up monitoring plan.
 
@@ -705,7 +707,7 @@ Technology alone does not guarantee sustainability. Outcomes depend on governanc
 3. Современное глобальное потепление преимущественно обусловлено антропогенными выбросами парниковых газов.
 4. Изменение климата воздействует на криосферу, океаны, экосистемы, здоровье, инфраструктуру и продовольственные системы.
 5. Утрата биоразнообразия связана с несколькими взаимосвязанными факторами давления.
-6. Экологический риск зависит от опасности, подверженности и уязвимости.
+6. Оценка риска бедствий учитывает опасность, экспозицию, уязвимость и возможности предупреждения и реагирования.
 7. Смягчение изменения климата и адаптация решают разные, но взаимодополняющие задачи.
 8. Мониторинг, ОВОС и СЭО помогают учитывать последствия решений.
 9. Экологическая справедливость требует учитывать распределение рисков, выгод и возможностей участия.
@@ -717,7 +719,7 @@ Technology alone does not guarantee sustainability. Outcomes depend on governanc
 3. Modern global warming is primarily driven by human-caused greenhouse-gas emissions.
 4. Climate change affects the cryosphere, oceans, ecosystems, health, infrastructure and food systems.
 5. Biodiversity loss is associated with several interacting pressures.
-6. Environmental risk depends on hazards, exposure and vulnerability.
+6. Disaster-risk assessment considers hazard, exposure, vulnerability and capacity.
 7. Climate-change mitigation and adaptation address different but complementary tasks.
 8. Monitoring, environmental impact assessment and strategic environmental assessment help account for the consequences of decisions.
 9. Environmental justice requires attention to the distribution of risks, benefits and opportunities for participation.
@@ -727,7 +729,7 @@ Technology alone does not guarantee sustainability. Outcomes depend on governanc
 
 Ниже приведены ключевые термины главы и их английские эквиваленты. / The glossary below pairs the chapter's key terms with their English equivalents.
 
-Экология — Ecology; экологическая география — Environmental geography; экосистема — Ecosystem; устойчивость экосистемы — Ecosystem resilience; экосистемные услуги — Ecosystem services; биоразнообразие — Biodiversity; антропогенное воздействие — Human pressure; планетарные границы — Planetary boundaries; парниковый эффект — Greenhouse effect; смягчение изменения климата — Climate mitigation; адаптация — Adaptation; деградация земель — Land degradation; эвтрофикация — Eutrophication; циркулярная экономика — Circular economy; экологический риск — Environmental risk; подверженность — Exposure; уязвимость — Vulnerability; ОВОС — Environmental Impact Assessment (EIA); СЭО — Strategic Environmental Assessment (SEA); экологическая справедливость — Environmental justice; природоориентированные решения — Nature-based solutions.
+Экология — Ecology; экологическая география — Environmental geography; экосистема — Ecosystem; устойчивость экосистемы — Ecosystem resilience; экосистемные услуги — Ecosystem services; биоразнообразие — Biodiversity; антропогенное воздействие — Human pressure; планетарные границы — Planetary boundaries; парниковый эффект — Greenhouse effect; смягчение изменения климата — Climate mitigation; адаптация — Adaptation; деградация земель — Land degradation; эвтрофикация — Eutrophication; циркулярная экономика — Circular economy; экологический риск — Environmental risk; опасность — Hazard; экспозиция (подверженность) — Exposure; уязвимость — Vulnerability; возможности — Capacity; риск бедствий — Disaster risk; ОВОС — Environmental Impact Assessment (EIA); СЭО — Strategic Environmental Assessment (SEA); экологическая справедливость — Environmental justice; природоориентированные решения — Nature-based solutions.
 
 ## 13.18. Контрольные вопросы и практические задания / Review Questions and Practical Activities
 
@@ -886,6 +888,9 @@ Consider a fictional settlement beside a river. For this learning example, the e
 - Для карт загрязнения обязательно указывать источник, дату, единицы, пространственное разрешение и пределы обнаружения.
 - Не изображать природоориентированные решения как универсальную замену инженерным мерам; оценивать их эффективность в конкретном контексте.
 - При публикации карт рисков избегать ложной точности и стигматизации отдельных сообществ.
+- На схеме 13-A парниковые газы не должны выглядеть как отдельный слой атмосферы; схема качественная и не является полным энергетическим балансом Земли.
+- На схеме 13-C компоненты риска бедствий должны взаимодействовать, а не образовывать линейную последовательность; возможности (capacity) нельзя опускать.
+- На схеме 13-D ОВОС и СЭО показаны как виды оценки, а мониторинг — как сквозной процесс, который может сопровождать оценку и реализацию решений.
 
 ## Основные источники и рекомендуемая литература / Core Sources and Further Reading
 
@@ -910,6 +915,8 @@ Consider a fictional settlement beside a river. For this learning example, the e
 18. United States Environmental Protection Agency (US EPA). **Data Quality and Planning; Quality Assurance and Quality Control.** Guidance on sampling plans, laboratory procedures, data quality objectives, validation and traceability. https://www.epa.gov/emergency-response-research/data-quality-and-planning ; https://www.epa.gov/choose-fish-and-shellfish-wisely/quality-assurance-and-quality-control
 19. Ellen MacArthur Foundation. **The Technical Cycle of the Butterfly Diagram.** Guidance on prioritising sharing, maintenance, reuse, refurbishment, remanufacturing and recycling to retain product value. https://www.ellenmacarthurfoundation.org/articles/the-technical-cycle-of-the-butterfly-diagram
 20. University of California, Berkeley, Center for Environmental Public Policy. **Mapping for Environmental Justice.** Example of combining environmental, social and health indicators with community guidance; methodology is US-specific and is not transferred directly to Kyrgyzstan. https://gspp.berkeley.edu/research-and-impact/centers/cepp/projects/mapping-for-environmental-justice
+21. United Nations Office for Disaster Risk Reduction (UNDRR). **Disaster Risk Reduction Terminology** — definitions of hazard, exposure, vulnerability, capacity and disaster risk. https://www.undrr.org/drr-glossary
+22. United Nations Economic Commission for Europe (UNECE). **Protocol on Strategic Environmental Assessment to the Convention on Environmental Impact Assessment in a Transboundary Context (Kyiv, 2003)** — scope, assessment of plans and programmes, public participation and monitoring. https://unece.org/text-protocol
 
 ---
 **Конец главы 13 / End of Chapter 13**
