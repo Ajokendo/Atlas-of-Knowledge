@@ -737,3 +737,15 @@ The first corrected periodic-trends screenshot revealed that SVG marker heads we
 The 390 px screenshot showed that scaling the wide 960×460 SVG made its labels too small to read comfortably. Added a separate vertical mobile layout using inline HTML/CSS/SVG in `chapters/acids-and-bases.html`, while retaining the detailed wide SVG pair for larger screens. The mobile version presents the net ionic reaction, an enlarged idealised titration curve, the equivalence marker, Brønsted–Lowry roles and the 25 °C strong-acid/strong-base qualification. All labels and the accessible group name switch between Russian and English. The mobile layout is displayed at ≤650 px; the desktop SVG remains in use above that breakpoint. Static and Chromium regression checks now protect the responsive switch and both language variants.
 
 Commits: responsive implementation `7c0318e`; bilingual responsive browser tests `b214979`; static regression guard `d43aba4`. Fresh full CI and inspection of both language screenshots remain pending.
+
+
+## Bilingual rendered-review checkpoint — 6 November 2026
+
+- [x] Full CI run [42171472363](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171472363) passed on commit `cf15ec1f14d14484571653a112020dd8d6c31144`: repository validation, pinned audit-tool installation, Chromium page suite, and screenshot-artifact upload all succeeded.
+- [x] Artifact `chemistry-rendered-review` (ID `13481337387`, 13.6 MB, seven-day retention) contains exactly 72 full-page PNG captures: 12 selected pages × 3 viewport widths (390/768/1280 CSS px) × 2 languages (RU/EN).
+- [x] Contact-sheet scan completed for all 24 mobile (390 px) and 24 desktop (1280 px) captures. Full-size review focused on acid/base, periodic table, atomic structure, chemical bonding, molecular lab, gas-law model, stoichiometry and landing-page views.
+- [x] Verified the acid/base mobile layout switches to a vertically stacked, readable bilingual diagram at 390 px while the wide SVG remains visible on desktop. The English desktop diagram now shows its model panel; the Russian axis-caption overlap is removed. The mobile reaction labels now pass the automated WCAG contrast scan.
+- [x] Verified the periodic-table horizontal-scroll cue appears on mobile and is hidden on desktop; the table region is keyboard-focusable and has a localized accessible name. The periodic-trend arrows no longer cross their labels and their arrowheads are now proportionate to the paths.
+- [ ] The 24 tablet-width (768 px) screenshots still need a separate visual scan. Interactive states beyond the captured baseline and the full per-visual manual review remain open.
+
+**Scope boundary:** this is an internal rendered-review and technical checkpoint. It is not external expert assessment, legal clearance, final publication approval, or a claim that every asset/state has been visually signed off.
