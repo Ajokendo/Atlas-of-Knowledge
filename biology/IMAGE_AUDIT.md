@@ -872,3 +872,10 @@ Re-opened the affected zoology and ecology pages at both desktop and mobile widt
 Manual inspection of the latest 1365 px Genetics screenshot found that the purple DNA-replication loop intersected the bilingual explanatory footer beneath the central-dogma diagram. Shifted both footer lines right while retaining their vertical positions and the replication loop's original geometry. Added a targeted source regression assertion requiring the loop and both footer anchors to remain at their corrected coordinates.
 
 This is a confirmed rendered text/line collision corrected in the inline SVG. Post-fix Chromium screenshots must still be inspected before closing the visual defect. The global Image Verification status remains **Pending audit**.
+
+
+## Central-dogma footer collision — post-fix visual closure — 6 November 2026
+
+Retrieved the fresh 26-screenshot artifact from successful Chromium workflow [42153232519](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42153232519), commit `59611e85`. Re-opened the Genetics page at 1365 px and 390 px and inspected the central-dogma figure at full resolution. The purple replication loop no longer intersects either bilingual footer line; both lines remain within the figure/page column. At 390 px the note is small at full-page scale but remains positioned clear of the loop and does not create horizontal overflow. The corrected desktop rendering also shows clear separation.
+
+**Result:** the specific central-dogma curve/footer collision is closed for the inspected Chromium desktop and mobile renderings. CI and screenshot evidence are specific to this correction; the broader image audit remains open. Global Image Verification remains **Pending audit**.
