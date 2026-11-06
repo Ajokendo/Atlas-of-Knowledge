@@ -309,3 +309,15 @@ The older checkbox above stating that screenshots had not been published is supe
 - [ ] Remaining: finish targeted rendered review of the not-yet-inspected visual families and selected interaction states; complete the second-person internal scientific review and record the explicit project rights/licence decision. External specialist review is optional and is not a project blocker.
 
 **Status boundary:** 12/12 static families have first-pass source review and 7/7 interactive systems have first-pass source review. The above rendered review is targeted, not complete per-asset sign-off. Do not label any family VERIFIED or describe Chemistry as publication-ready while its documented rights and review gates remain open.
+
+
+### Expanded visual evidence and SVG repair — 6 November 2026
+
+- [x] Expanded rendered screenshot coverage from 12 to 18 pages: 108 RU/EN PNGs across 390/768/1280 CSS px, including all 12 static visual families in their chapter contexts.
+- [x] The first expanded artifact exposed a malformed English functional-groups SVG (an unclosed outer `<g>`). Fixed the file and added XML element-nesting validation for all Chemistry SVGs.
+- [x] Added browser assertions for successful loading of every localized image before screenshots are accepted.
+- [x] Re-inspected the corrected organic-chemistry EN desktop/mobile captures: functional-groups diagram and caption now render correctly. Reviewed the newly included isotope, mole, formula-reading, atom-rearrangement, functional-groups, biomolecule and carbon-cycle visuals in selected full-resolution captures.
+- [x] Branch-head CI [42194380670](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42194380670) passed on commit `cad86d3a20706dc8d69978391512c666c3d69722`; artifact [13490538190](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42194380670/artifacts/13490538190) contains 108 screenshots.
+- [ ] Rights/licensing authority and explicit licence remain PENDING for 12 static families and 7 interactive systems; competent second-review evidence and final approval remain separate gates. See `PUBLICATION-CHECKLIST.md` and `IMAGE_AUDIT.md`.
+
+This closes the specific EN functional-groups rendering defect, not the full seven-gate verification or public-release decision.
