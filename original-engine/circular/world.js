@@ -110,11 +110,11 @@ export function buildWorld(E) {
     const o = { v, c, b: ball(gD, BR, k ? 'Быстрый шар' : 'Медленный шар'), s: thin(gD), vA: vec(gD, 'blue'), T: vec(gD), N: vec(gD), W: vec(gD), net: vec(gD, 'red') };
     // Keep the five vector labels distinct on the compact mobile figure as well as desktop.
     const side = k ? 1 : -1;
-    label('vec blue', 'v', () => tip(o.vA).add(V(0.12 * side, 0.24, 0)));
-    label('vec', 'T', () => tip(o.T).add(V(0.24 * side, 0.12, 0)));
-    label('vec red', 'ΣF', () => tip(o.net).add(V(0.22 * side, 0.28, 0.12)));
-    label('vec', 'F<sub>N</sub>', () => tip(o.N).add(V(-0.18 * side, 0.18, 0)));
-    label('vec', '<i>mg</i>', () => tip(o.W).add(V(0.18 * side, -0.18, 0)));
+    label('vec blue', 'v', () => { const p = tip(o.vA); return p && p.add(V(0.12 * side, 0.24, 0)); });
+    label('vec', 'T', () => { const p = tip(o.T); return p && p.add(V(0.24 * side, 0.12, 0)); });
+    label('vec red', 'ΣF', () => { const p = tip(o.net); return p && p.add(V(0.22 * side, 0.28, 0.12)); });
+    label('vec', 'F<sub>N</sub>', () => { const p = tip(o.N); return p && p.add(V(-0.18 * side, 0.18, 0)); });
+    label('vec', '<i>mg</i>', () => { const p = tip(o.W); return p && p.add(V(0.18 * side, -0.18, 0)); });
     label('tick', `${v.toFixed(1)} м/с`, () => V(c.x + 0.28, TY, M.BALL.r + 0.32));
     return o;
   });
