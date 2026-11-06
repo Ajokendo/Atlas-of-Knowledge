@@ -2,6 +2,12 @@
 
 
 
+### Acid–base visual correction — 6 November 2026
+
+- [x] Repaired the Russian titration-curve note overlapping the x-axis caption.
+- [x] Rebuilt the English SVG's Brønsted–Lowry explanation panel, which was positioned outside the SVG viewBox.
+- [x] Added static regression checks for both language variants; fresh branch-head CI is pending.
+
 ### First rendered screenshot review — 6 November 2026
 
 - [x] Inspected the first retained screenshot artifact from run [42158701555](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42158701555).
