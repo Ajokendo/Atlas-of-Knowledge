@@ -118,7 +118,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 14 — Magnetism
 - Title: Four magnetic-field configurations
 - Integration status: INTEGRATED — manual review of artifact 13499898884 found the desktop toroid current-direction annotation extending beyond its panel; shortened in commit `f45f8667`. Fresh desktop/mobile rerender and review are pending.
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED (**desktop toroid label corrected in `f45f8667`; fresh technical screenshot verification pending**). External expert review is tracked separately and is not a publication gate.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**PENDING — competent reviewer distinct from creator not recorded**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED (**desktop toroid label corrected in `f45f8667`; fresh technical screenshot verification pending**). External expert review is tracked separately and is not a publication gate.
 - Publication verification gate: PENDING — file/path, scientific review, rights and bilingual metadata remain documented; manual desktop artifact 13499898884 exposed a toroid label overrun, corrected in `f45f8667`; fresh desktop/mobile rendering and manual review are required before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
@@ -153,7 +153,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Lenz's law — approaching and receding magnet
 - Integration status: INTEGRATED — desktop magnetic-field arc geometry and explanatory text baselines adjusted to remove overlap (commit `4017d8d0`); fresh desktop/mobile rerender pending.
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED (**desktop label/field-line spacing corrected in `4017d8d0`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**PENDING — competent reviewer distinct from creator not recorded**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED (**desktop label/field-line spacing corrected in `4017d8d0`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
 - Publication verification gate: PENDING — scientific review, rights and bilingual metadata remain documented; manual desktop artifact 13499898884 showed the lower magnetic-field curve crossing explanatory text. The curve and text positions were corrected in `4017d8d0`; fresh desktop/mobile rendering and manual review are required before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
@@ -187,7 +187,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Motional EMF in a moving rod
 - Integration status: INTEGRATED — mobile explanatory text and force/velocity label positions corrected after a clipped-line/overlap finding (commit `af5ec5fc`); fresh desktop/mobile rerender pending.
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED (**mobile text and label layout corrected in `af5ec5fc`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**PENDING — competent reviewer distinct from creator not recorded**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED (**mobile text and label layout corrected in `af5ec5fc`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
 - Publication verification gate: PENDING — manual mobile artifact 13499898884 showed the long introductory/explanatory lines clipped at the right edge and the q(v×B)/v labels too close together. The mobile text sizing and label positions were corrected in `af5ec5fc`; fresh desktop/mobile rendering and manual review are required before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
@@ -221,7 +221,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Self-induction, RL transient, and LC oscillations
 - Integration status: INTEGRATED — desktop graph-label font size and right-column placement adjusted after a collision finding (commit `02d57b74`); fresh desktop/mobile rerender pending.
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED (**desktop chart-label spacing corrected in `02d57b74`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**PENDING — competent reviewer distinct from creator not recorded**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED (**desktop chart-label spacing corrected in `02d57b74`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
 - Publication verification gate: PENDING — manual desktop artifact 13499898884 showed the LC graph labels too close/overlapping. The chart-label font size and right-column placement were adjusted in `02d57b74`; fresh desktop/mobile rendering and manual review are required before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
@@ -667,6 +667,12 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - License: CC BY-NC 4.0 — explicitly approved by the project owner on 2026-11-06
 - License URL: https://creativecommons.org/licenses/by-nc/4.0/
 - Access date: 2026-11-06
+- Integration status: INTEGRATED — desktop/mobile SVG variants are present in the Russian Chapter 14 lesson; prior responsive visual check passed, but current source record is incomplete.
+- Lifecycle: FOUND → SEARCH (PENDING — no pre-creation visual-source search record documented) → SCIENTIFIC_CHECK (PENDING — competent reviewer distinct from creator not recorded) → CREATED → LICENSE_CHECK (PASS — project-owner CC BY-NC 4.0 decision recorded) → INTEGRATED → TECHNICAL_VERIFICATION (PASS on prior visual-assets step; current re-render not yet run).
+- Search record: PENDING — no dated pre-creation image-search record is attached to this asset entry.
+- Method: Hand-authored vector SVG with force arrows, field vectors, charge signs, and right-hand-rule instructions.
+- Attribution: Original AI-assisted vector schematic created for Atlas of Knowledge, 2026; no third-party artwork embedded.
+- Limitations: Depicts uniform magnetic field to the right and particle velocity into the page; not to scale. Force direction reverses with charge sign.
 - RU caption: Сила Лоренца и правило правой руки.
 - EN caption: Lorentz force and the right-hand rule.
 - Alt RU: Магнитное поле направлено вправо, скорость положительных и отрицательных зарядов — в экран; сила для положительного заряда направлена вниз, для отрицательного — вверх.
@@ -685,7 +691,7 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Subject / chapter: Physics, Chapter 06 — Oscillations
 - Title: Free, damped, and forced oscillations
 - Integration status: INTEGRATED — added to the Russian lesson immediately after the explanation of damped and forced oscillations; responsive desktop SVG and a vertically stacked mobile SVG are integrated through a responsive `<picture>` element; browser verification on the new commit is pending.
-- Lifecycle: FOUND → SCIENTIFIC_CHECK (**internal equation/relationship review PASS**) → CREATED → LICENSE_CHECK (**project publication licence declared, CC BY-NC 4.0; approved 2026-11-06**) → INTEGRATED → TECHNICAL_VERIFICATION (**pending current-HEAD CI and manual screenshot review**).
+- Lifecycle: FOUND → SCIENTIFIC_CHECK (**PENDING — competent reviewer distinct from creator not recorded; authoring-assistant equation/relationship check only**) → CREATED → LICENSE_CHECK (**project publication licence declared, CC BY-NC 4.0; approved 2026-11-06**) → INTEGRATED → TECHNICAL_VERIFICATION (**pending current-HEAD CI and manual screenshot review**).
 - Source relationship: New independent project-created diagram; no source artwork adapted.
 - Category: C
 - Learning objective: Distinguish ideal free oscillations with constant amplitude, damped free oscillations with decreasing amplitude, and the frequency-response peak of a driven oscillator near resonance.
