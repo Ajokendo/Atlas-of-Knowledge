@@ -2275,8 +2275,15 @@ try {
         errors.push(file + ": Russian mobile reference tables need a visible horizontal-scroll instruction");
       }
       const firstRegion = regions.first();
+      const horizontalMetrics = await firstRegion.evaluate(el => ({
+        clientWidth: el.clientWidth,
+        scrollWidth: el.scrollWidth
+      }));
+      if (horizontalMetrics.scrollWidth <= horizontalMetrics.clientWidth) {
+        errors.push(file + ": reference table should expose horizontal overflow on a 390px viewport");
+      }
       await firstRegion.evaluate(el => { el.scrollLeft = 0; el.focus(); });
-      await page.keyboard.press("ArrowRight");
+      await firstRegion.press("ArrowRight");
       if (await firstRegion.evaluate(el => el.scrollLeft) <= 0) {
         errors.push(file + ": reference table region does not respond to keyboard horizontal scrolling");
       }
