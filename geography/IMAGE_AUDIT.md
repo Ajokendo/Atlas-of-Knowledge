@@ -596,7 +596,7 @@ A refreshed chapter-by-chapter source scan confirms 210 planned visual IDs in Ch
 Chapter 07-D is a bilingual adapted SVG under CC BY 4.0 and is integrated. Chapter 07-A, 07-B, 07-C, 07-E, 07-F, 07-G, 07-H and 07-I remain open. Integrated assets remain INTEGRATED until all applicable review dimensions are supported by evidence.
 ### 7.10 Chapter 05 bilingual embed parity rechecked
 
-A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **46 Markdown image embeds: 21 in Russian and 21 in English**. The same 21 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 42 alt-text fields is empty. All 42 embeds have a preceding stable visual-ID anchor. This supersedes any earlier 37-embed counts in this audit, which came from an incomplete scan.
+A fresh section-boundary-aware scan (using the explicit `## English-language chapter text` heading, rather than guessing from bilingual subsection titles) confirms **46 Markdown image embeds: 23 in Russian and 23 in English**. The same 23 unique image URLs occur exactly once in each language section; no source URL is missing from either section and none of the 46 alt-text fields is empty. All 46 embeds have a preceding stable visual-ID anchor. The 19 unique visual IDs appear in both languages; 5.8-A intentionally groups several NOAA components under one ID.
 
 
 ### Chapter 05 — static SVG structure check — 5 November 2026
