@@ -685,7 +685,7 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Subject / chapter: Physics, Chapter 06 — Oscillations
 - Title: Free, damped, and forced oscillations
 - Integration status: INTEGRATED — added to the Russian lesson immediately after the explanation of damped and forced oscillations; responsive desktop SVG and a vertically stacked mobile SVG are integrated through a responsive `<picture>` element; browser verification on the new commit is pending.
-- Lifecycle: FOUND → SCIENTIFIC_CHECK (**internal equation/relationship review PASS**) → CREATED → INTEGRATED → TECHNICAL_VERIFICATION (**pending**) → RIGHTS_REVIEW (**pending project licence decision**).
+- Lifecycle: FOUND → SCIENTIFIC_CHECK (**internal equation/relationship review PASS**) → CREATED → LICENSE_CHECK (**project publication licence declared, CC BY-NC 4.0; approved 2026-11-06**) → INTEGRATED → TECHNICAL_VERIFICATION (**pending current-HEAD CI and manual screenshot review**).
 - Source relationship: New independent project-created diagram; no source artwork adapted.
 - Category: C
 - Learning objective: Distinguish ideal free oscillations with constant amplitude, damped free oscillations with decreasing amplitude, and the frequency-response peak of a driven oscillator near resonance.
@@ -693,8 +693,8 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Mobile variant file: assets/visuals/phy-06-oscillation-regimes-mobile.svg
 - Original source: Not applicable — independently authored vector schematic.
 - Author / creator: AI-assisted vector authoring with ChatGPT; published by the Atlas of Knowledge project. No claim of exclusive copyright in AI-generated elements.
-- License: Pending explicit project decision for this asset. The repository's root MIT licence is not treated as an automatic asset-specific licence.
-- License URL: Pending.
+- License: CC BY-NC 4.0 — explicitly approved by the project owner on 2026-11-06 as the project publication licence, to the extent the project has licensable rights; no claim of exclusive copyright in AI-generated elements.
+- License URL: https://creativecommons.org/licenses/by-nc/4.0/
 - Access date: 2026-11-06.
 - RU caption: Три режима колебаний: постоянная амплитуда в идеальной системе, её уменьшение при потерях энергии и резонансный отклик на внешнюю периодическую силу.
 - EN caption: Not supplied — this asset is currently integrated only in the Russian chapter.
@@ -702,6 +702,6 @@ All thirteen Chapter 03 scene entries below are generated from the inherited Thr
 - Alt EN: Not supplied — this asset is currently integrated only in the Russian chapter.
 - Modified: Original vector diagram; no third-party image adapted.
 - Scientific review: Internal review PASS — exponential decay envelope is labelled as an approximate underdamped response; driven amplitude is shown peaking near the natural frequency. Diagram is qualitative and not to scale.
-- Rights review: Pending explicit project licence decision; no third-party artwork is embedded.
+- Rights review: PASS — project owner explicitly approved CC BY-NC 4.0 on 2026-11-06; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Integration: chapters/oscillations.html, section “6. Затухающие и вынужденные колебания”.
 - Mobile check: Pending current-HEAD browser smoke and screenshot review at 390×844.
