@@ -1157,6 +1157,18 @@ const requiredBilingualLabels = {
   "zoology-vertebrates.svg": ["translate(0,-20)", "Feathers and beak", "Hair or fur · young fed with milk"],
   "zoology-anatomy.svg": ["label-small", "translate(0,67.5) scale(1,.75)", "translate(0,124) scale(1,.8)"]
 };
+const circulationPlate = fs.readFileSync(path.join(generatedDir, "anatomy-circulation.svg"), "utf8");
+if (!circulationPlate.includes('d="M1090 270C1150 300 1160 360 1130 405C1100 450 1000 460 900 450C830 445 790 420 745 370"')) {
+  errors.push("anatomy-circulation.svg: systemic venous return must route around, not through, the chamber and valve key");
+}
+const botanyAnatomyPlate = fs.readFileSync(path.join(generatedDir, "botany-anatomy.svg"), "utf8");
+if (!botanyAnatomyPlate.includes('width="450" height="620" rx="18" class="panel"/>') ||
+    !botanyAnatomyPlate.includes('y="636" text-anchor="middle" class="small">Центральный цилиндр / Stele') ||
+    !botanyAnatomyPlate.includes('y="666" text-anchor="middle" class="small" fill="#176b9e">Ксилема / Xylem') ||
+    !botanyAnatomyPlate.includes('y="696" text-anchor="middle" class="small" fill="#75428f">Флоэма / Phloem')) {
+  errors.push("botany-anatomy.svg: root anatomy key must retain separated, readable legend rows");
+}
+
 const vertebrateAnatomy = fs.readFileSync(path.join(generatedDir, "zoology-anatomy.svg"), "utf8");
 if ((vertebrateAnatomy.split('transform="translate(0,124) scale(1,.8)"').length - 1) !== 2) {
   errors.push("zoology-anatomy.svg: bird and mammal illustrations must remain clear of caption rows");
