@@ -847,3 +847,13 @@ Performed an overview scan of the complete 108-image artifact `13491602961` from
 - [x] Confirmed that the artifact contains the expected 108 responsive screenshots; an additional enlarged biomolecule crop is also present in the downloaded archive and is not counted as a baseline screenshot.
 
 **Scope:** this is a complete *overview/contact-sheet scan* of the 108 default-state captures, not pixel-level full-resolution review of every text line, not an inspection of every interaction state, and not physical-device or screen-reader certification. Full-resolution targeted reviews are separately itemised above. No new source defect was confirmed in this overview pass. Rights/licence, second-person scientific review and final publication approval remain open.
+
+
+### Molecular-lab animation lifecycle regression — 6 November 2026
+
+- [x] CH-IV05 now stores the active animation-frame identifier and cancels the pending frame immediately when auto-rotation is disabled. The idle canvas does not start an animation loop; enabling auto-rotation schedules one frame at a time.
+- [x] Added a Chromium regression that instruments the browser animation-frame queue, enables auto-rotation, verifies one pending frame, disables it, and verifies the queue is empty. Repeated the on/off cycle to guard against duplicate loops after rapid toggling.
+- [x] Updated the static source guard to require the cancellable frame lifecycle rather than the earlier non-cancellable implementation.
+- [x] Full branch-head CI run [42214872732](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42214872732) passed on commit `eb524ea613deb72a900f1c8eb530753851523204`, including static validation, all 21 Chromium pages, 42 axe-core scans, responsive checks and 126 screenshot captures. Artifact: [13500133715](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42214872732/artifacts/13500133715).
+
+This closes the identified animation-frame lifecycle defect and its regression coverage. It does not constitute a complete full-resolution sign-off of all 126 screenshots, all interactive states, external expert review, legal clearance or final editorial approval.
