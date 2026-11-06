@@ -170,6 +170,10 @@ Limitations include:
 
 Нельзя бездумно измерять расстояния в градусах: один градус долготы соответствует разной линейной длине на разных широтах. Перед пространственными измерениями следует проверить CRS и единицы.
 
+**Порядок осей — отдельная проверка.** В официальном определении EPSG:4326 оси идут в порядке «широта, долгота», тогда как многие ГИС-интерфейсы, форматы и программные библиотеки для привычной пары x/y используют порядок «долгота, широта». Поведение зависит от формата и версии протокола или API. Поэтому нельзя определять порядок координат только по подписи EPSG:4326: нужно читать метаданные и документацию конкретного обменного формата или сервиса, а затем проверять контрольную точку. Перестановка осей может перенести объект в совершенно другой регион.
+
+**Axis order requires a separate check.** The formal EPSG:4326 definition lists its axes as latitude, longitude, while many GIS interfaces, formats and software libraries use longitude, latitude for the familiar x/y pair. Behaviour depends on the format and the version of the protocol or API. Do not infer coordinate order from the EPSG:4326 label alone: read the metadata and documentation for the specific exchange format or service, then test a known control point. Swapped axes can place a feature in a completely different region.
+
 ## 14.5. Картографические проекции в ГИС / Map Projections in GIS
 
 Картографическая проекция преобразует координаты поверхности Земли в плоскую систему. Любая проекция искажает некоторые свойства — площадь, форму, расстояние или направление.
@@ -357,6 +361,10 @@ Network-analysis results depend on network completeness, travel direction, conne
 
 При анализе цифровых моделей рельефа следует учитывать разрешение, вертикальную точность, артефакты, заполнение ложных впадин и особенности алгоритма. Производные показатели, например уклон, могут усиливать ошибки исходной модели.
 
+**Уклон и экспозиция требуют явного указания соглашений.** Уклон может выражаться в градусах или процентах: процентный уклон — это отношение перепада высоты к горизонтальному расстоянию, умноженное на 100; например, 100% соответствует углу 45°, а не 100°. Экспозиция обычно задаётся азимутом от севера по часовой стрелке (0°/360° — север, 90° — восток, 180° — юг, 270° — запад), но конкретный алгоритм может использовать другое соглашение. Для почти горизонтальных ячеек направление склона не имеет устойчивого смысла и может кодироваться как NoData или специальное значение.
+
+Перед расчётом проверьте единицы горизонтальных координат и высот. Если горизонтальные расстояния заданы в метрах, а высоты — в футах (или наоборот), нужен корректный коэффициент преобразования вертикальных единиц; в некоторых инструментах он задаётся параметром Z factor или scale. Неверный коэффициент искажает уклон.
+
 
 Raster analysis is used for continuous fields and spatial models.
 
@@ -373,6 +381,10 @@ Common methods include:
 Interpolation estimates values between observation points. The result depends on the spatial distribution of measurements, the selected method, the data structure and model assumptions. An interpolated surface is not a direct measurement in every cell.
 
 When analysing digital elevation models, consider resolution, vertical accuracy, artefacts, the filling of spurious depressions and the selected algorithm. Derived measures such as slope can amplify errors in the source model.
+
+**Slope and aspect require explicit conventions.** Slope may be expressed in degrees or percent. Percent slope is the vertical rise divided by horizontal distance, multiplied by 100; for example, a 100% slope is an angle of 45°, not 100°. Aspect is commonly expressed as an azimuth measured clockwise from north (0°/360° north, 90° east, 180° south and 270° west), but a particular algorithm may use a different convention. For nearly flat cells, slope direction has no stable meaning and may be encoded as NoData or a special value.
+
+Before processing, check the units of horizontal coordinates and elevation. If horizontal distances are in metres but elevations are in feet (or vice versa), the vertical units must be converted correctly; some tools expose this through a Z factor or scale parameter. An incorrect factor distorts the slope values.
 
 ## 14.11. Топология и качество пространственных данных / Topology and Spatial Data Quality
 
@@ -1041,34 +1053,19 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **6. Reproducible GIS project.** Prepare a small project containing source data, CRS information, processing steps, a final map, metadata and a list of limitations. Another participant should be able to repeat the main operations.
 
-## Технические задания для будущих иллюстраций / Visual Briefs
+## Реестр иллюстраций главы / Chapter Visual Register
 
-**Иллюстрация 14.1 / Figure 14.1 — Архитектура ГИС / GIS architecture.**  
-Схема компонентов: данные, программное обеспечение, оборудование, методы, люди и результаты. Показать цикл от сбора данных до анализа и принятия решений.
+Все девять иллюстраций ниже уже встроены в русскую и английскую части главы. Это учебные схемы, а не геопривязанные измерительные данные; там, где это существенно, подписи прямо указывают на условный характер изображения. / All nine illustrations below are already embedded in the Russian and English parts of the chapter. They are educational diagrams, not georeferenced measurements; captions identify their conceptual status where relevant.
 
-**Иллюстрация 14.2 / Figure 14.2 — Векторная и растровая модели / Vector and raster models.**  
-Один участок местности показать как точки, линии и полигоны, а рядом — как сетку пикселей. Объяснить различие дискретных объектов и непрерывных полей.
-
-**Иллюстрация 14.3 / Figure 14.3 — Координатные системы и проекции / Coordinate reference systems and projections.**  
-Схема географических координат, референц-эллипсоида и проецированной сетки; не смешивать геоид, эллипсоид и картографическую проекцию.
-
-**Иллюстрация 14.4 / Figure 14.4 — Пространственное наложение слоёв / Spatial overlay.**  
-Пошаговая схема пересечения двух полигональных слоёв с атрибутами; геометрический результат должен соответствовать операции.
-
-**Иллюстрация 14.5 / Figure 14.5 — Сетевой анализ доступности / Network accessibility analysis.**  
-Сравнить круговой буфер и зону доступности по реальной дорожной сети, показав барьеры и различия маршрутов.
-
-**Иллюстрация 14.6 / Figure 14.6 — Цифровая модель рельефа / Digital elevation model.**  
-Показать исходный растр высот и производные карты уклона и экспозиции; подчеркнуть зависимость детализации от разрешения и качества.
-
-**Иллюстрация 14.7 / Figure 14.7 — Контроль качества геоданных / Spatial data quality control.**  
-Примеры зазора, наложения, разрыва линии, дубликата и ошибки CRS; каждому дефекту дать корректную подпись.
-
-**Иллюстрация 14.8 / Figure 14.8 — Картографическая визуализация / Cartographic visualisation.**  
-Сравнить корректную хороплетную карту нормированного показателя с вводящей в заблуждение картой абсолютных значений; показать легенду, источник и дату.
-
-**Иллюстрация 14.9 / Figure 14.9 — Воспроизводимый ГИС-процесс / Reproducible GIS workflow.**  
-Диаграмма этапов от постановки задачи и получения данных до проверки, документирования и публикации.
+- **14-A — Векторная и растровая модели / Vector and raster models.** Сопоставляет точки, линии и полигоны с растровой сеткой; не заявляет сравнительную точность наборов данных. / Compares points, lines and polygons with a raster grid; it does not claim comparative dataset accuracy.
+- **14-B — Система координат / Coordinate reference system.** Различает модель Земли, географические координаты, проекцию и вертикальную систему отсчёта. / Distinguishes the Earth model, geographic coordinates, map projection and vertical reference.
+- **14-C — Пространственное наложение / Spatial overlay.** Показывает логику геометрических операций; реальные результаты зависят от исходной геометрии и CRS. / Shows the logic of geometric overlay; actual results depend on source geometry and CRS.
+- **14-D — Цветовые шкалы карты / Map colour schemes.** Иллюстрирует последовательную, расходящуюся и качественную палитры и соответствующие типы данных. / Illustrates sequential, diverging and qualitative palettes and their suitable data types.
+- **14-E — Компоненты и рабочий цикл ГИС / GIS components and workflow.** Показывает взаимосвязь данных, программ, оборудования, методов и людей. / Shows how data, software, hardware, methods and people work together.
+- **14-F — Буфер и сетевая доступность / Buffer and network accessibility.** Сравнивает расстояние по прямой с зоной достижимости по сети; схема условная. / Compares straight-line distance with network reachability; the diagram is conceptual.
+- **14-G — Цифровая модель рельефа, уклон и экспозиция / DEM, slope and aspect.** Показывает производные поверхности; не является реальной моделью рельефа Кыргызстана. / Shows derived terrain surfaces; it is not a real elevation model of Kyrgyzstan.
+- **14-H — Топологические ошибки / Topology errors.** Иллюстрирует возможные зазоры, наложения и нарушения связности; допустимые правила определяются моделью данных. / Illustrates possible gaps, overlaps and connectivity errors; valid rules depend on the data model.
+- **14-I — Воспроизводимый ГИС-проект / Reproducible GIS project.** Показывает путь от постановки задачи и источников данных до проверки, документирования и публикации. / Shows the path from defining a task and sourcing data to validation, documentation and publication.
 
 ## Научные редакционные примечания / Scientific Editorial Notes
 
@@ -1104,6 +1101,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 17. GDAL Documentation. **Geometry Validity.** Explains geometry validation and its limits, including the distinction between individual geometry validity and coverage gaps/overlaps. https://gdal.org/en/stable/user/geometry_validity.html
 18. Scottish Government Design System. **Using colour in maps.** Guidance on choosing sequential, diverging and qualitative palettes and checking contrast/accessibility. https://designsystem.gov.scot/guidance/maps/using-colour-in-maps
 19. QGIS Documentation. **Setting a Colour Ramp.** Official description of sequential and other colour-ramp construction in QGIS. https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html
+20. QGIS Documentation. **Raster Terrain Analysis.** Official documentation of slope and aspect algorithms, output conventions and vertical scale factors. https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
