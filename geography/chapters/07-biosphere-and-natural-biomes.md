@@ -149,10 +149,10 @@ After studying this chapter, readers will be able to explain the extent and func
 
 Ареал может быть сплошным, разорванным (дизъюнктивным), очень узким или широко распространённым. Его границы динамичны и могут смещаться при изменении климата, землепользования и доступности местообитаний.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-E / IMAGE PLACEHOLDER 07-E]** Карта биогеографических областей мира с принятой классификацией и оговоркой о переходных зонах. / **EN:** Map of the world's biogeographical realms using a named classification and noting transitional zones.
-**Рисунок 7.4 / Figure 7.4 — Биогеографические области мира / World's biogeographical realms.**  
-Техническое задание: подготовить карту суши с основными биогеографическими областями по одной явно указанной научной классификации; показать условные границы, легенду и названия; не смешивать биогеографические области с климатическими поясами; островные территории подписывать отдельно при необходимости.
-**EN production brief:** Prepare a land map of the major biogeographical realms using one explicitly named scientific classification. Show schematic boundaries, a legend and labels. Do not confuse biogeographical realms with climatic belts; label island territories separately where necessary.
+![Карта восьми биогеографических областей мира по RESOLVE Ecoregions 2017; границы экорегионов сгруппированы по биогеографической области. / Map of the eight biogeographical realms using RESOLVE Ecoregions 2017; ecoregion boundaries grouped by realm.](../assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg)
+
+*07-E. Карта по классификации RESOLVE Ecoregions 2017; показаны восемь областей, включая Антарктическую. Границы природно-биогеографические, не государственные. / Map based on RESOLVE Ecoregions 2017; all eight realms, including Antarctica, are shown. Boundaries are biogeographical, not political.*  
+**Рисунок 7.4 / Figure 7.4 — Биогеографические области мира / World's biogeographical realms.**
 
 ## 7.7. Широтная зональность и высотная поясность / Latitudinal Zonation and Altitudinal Belts
 
@@ -167,7 +167,9 @@ After studying this chapter, readers will be able to explain the extent and func
 **EN production brief:** Create two comparable diagrams: a latitudinal profile from the equator to the poles and a mountain slope from its base to the nival zone. Label biomes schematically and note that real boundaries are transitional and depend on regional conditions.
 
 ## 7.8. Главные наземные биомы Земли / Major Terrestrial Biomes
-> **[МЕТКА ИЛЛЮСТРАЦИИ 07-C / IMAGE PLACEHOLDER 07-C]** Карта наземных биомов мира с климатическими поясами и примерами адаптаций. / World map of terrestrial biomes with climate belts and examples of adaptation.
+![Карта 14 наземных биомов мира по RESOLVE Ecoregions 2017; классификация показывает крупные природные области, а не современный покров земель. / Map of the 14 terrestrial biomes using RESOLVE Ecoregions 2017; a reference classification, not current land cover.](../assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg)
+
+*07-C. Наземные биомы сгруппированы по классификации RESOLVE Ecoregions 2017. Переходы между биомами постепенны; карта не отражает современную степень преобразования ландшафтов. / Terrestrial biomes grouped using RESOLVE Ecoregions 2017. Biome transitions are gradual; the map does not show current levels of landscape modification.*
 
 
 
@@ -450,6 +452,10 @@ Biogeography studies the spatial distribution of organisms and communities, as w
 
 Major biogeographical realms reflect long-term isolation and the evolutionary history of flora and fauna. Their boundaries do not necessarily coincide with national borders or climatic belts. The number and names of realms may differ among classification systems.
 
+![Map of the eight biogeographical realms using RESOLVE Ecoregions 2017; ecoregion boundaries grouped by realm. / Карта восьми биогеографических областей мира по RESOLVE Ecoregions 2017.](../assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg)
+
+*Figure 7.4. RESOLVE Ecoregions 2017 classification; all eight realms, including Antarctica. Boundaries are biogeographical, not political.*
+
 Important patterns include latitudinal changes in climate and vegetation from the equator to the poles; altitudinal zonation in mountains; the island effect, with restricted dispersal and vulnerability of isolated populations; the influence of barriers and dispersal corridors; and shifts in species ranges during climatic fluctuations and human transformation of landscapes.
 
 A species range may be continuous, disjunct, very narrow or widespread. Range boundaries are dynamic and may shift as climate, land use and habitat availability change.
@@ -464,7 +470,11 @@ Windward slopes often receive more precipitation than leeward slopes. In the Nor
 
 ### 7.8. Major Terrestrial Biomes
 
-A **biome** is a large natural system characterised by climate, vegetation and associated animal and microbial communities. Biome boundaries are transitional, and classification systems differ in the number of categories and criteria used. The purpose of a classification matters: traditional terrestrial biomes are often distinguished by climate and vegetation structure, whereas the IUCN Global Ecosystem Typology uses six levels: realms, functional biomes, ecosystem functional groups, biogeographic ecotypes, global ecosystem types and sub-global ecosystem types. Upper levels group systems by broad functional characteristics, while lower levels distinguish their geographic and compositional features in greater detail. These frameworks complement one another, but their categories are not automatically interchangeable. Always name the system, its version and the spatial level used for a map or statistical comparison.
+A **biome** is a large natural system characterised by climate, vegetation and associated animal and microbial communities. Biome boundaries are transitional, and classification systems differ in the number of categories and criteria used.
+
+![Map of the 14 terrestrial biomes using RESOLVE Ecoregions 2017; a reference classification, not current land cover. / Карта 14 наземных биомов мира по RESOLVE Ecoregions 2017.](../assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg)
+
+*Figure 7.8. Terrestrial biomes grouped using RESOLVE Ecoregions 2017. Biome transitions are gradual; the map does not show current levels of landscape modification.* The purpose of a classification matters: traditional terrestrial biomes are often distinguished by climate and vegetation structure, whereas the IUCN Global Ecosystem Typology uses six levels: realms, functional biomes, ecosystem functional groups, biogeographic ecotypes, global ecosystem types and sub-global ecosystem types. Upper levels group systems by broad functional characteristics, while lower levels distinguish their geographic and compositional features in greater detail. These frameworks complement one another, but their categories are not automatically interchangeable. Always name the system, its version and the spatial level used for a map or statistical comparison.
 
 Major terrestrial biomes include tropical moist forests, tropical seasonal forests, savannas, hot and cold deserts, Mediterranean shrublands, temperate rainforests, temperate broadleaf and mixed forests, temperate grasslands, boreal forests (taiga), tundra, polar deserts and mountain biomes.
 
