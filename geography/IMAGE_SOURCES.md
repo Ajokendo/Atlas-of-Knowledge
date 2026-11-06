@@ -341,7 +341,7 @@ The former chapter-specific register at `visuals/chapter-05-visual-register.md` 
 
 ### Chapter 06 source-register notes
 
-- 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A are integrated in both language sections. 6-B has a candidate boundary dataset with confirmed CC BY 4.0 terms, but no finished map yet. Twelve other visual IDs remain open; these records do not imply that the chapter's other briefs have been sourced or approved.
+- 6-A, 6-C, 6.1-A, 6.5-A, 6.7-A and 6-D are integrated in both language sections. 6-D is an original bilingual schematic whose project rights/licence remain pending. 6-B has a candidate boundary dataset with confirmed CC BY 4.0 terms, but no finished map yet. Nine other visual IDs remain open; these records do not imply that the chapter's other briefs have been sourced or approved.
 - For 6-B, Flanders Marine Institute's Global Oceans and Seas v1 (2021) has confirmed CC BY 4.0 terms in the exact VLIZ dataset record and Marine Regions download page. Attribute Flanders Marine Institute (2021), DOI 10.14284/542, link CC BY 4.0 and identify any adaptation. Marine Regions requests that raw products not be redistributed elsewhere, so keep the 88 MB source archive out of the repository and link to the current Marine Regions download page. The Southern Ocean line must be labelled as the dataset's selected convention, not as a universally ratified IHO boundary. The finished map and any separate bathymetry background still require review.
 
 - The 6-A diagram is a conceptual overview of pools, fluxes and human influence; it does not provide measured annual flow values.
