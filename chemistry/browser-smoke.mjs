@@ -915,6 +915,7 @@ try {
     }
 
     if (file === "chapters/redox.html") {
+      if (!(await page.locator("#nernstResult").innerText()).includes("ЭДС элемента: 1,1000 В")) errors.push(file + ": initial Russian Nernst output is not localised");
       if (await page.locator('img[data-svg-ru="../assets/daniell-cell-ru.svg"]').getAttribute("src") !== "../assets/daniell-cell-ru.svg" || !(await page.locator('img[data-alt-i="daniellImageAlt"]').getAttribute("alt") || "").includes("гальванического элемента Даниэля")) errors.push(file + ": Russian Daniell-cell SVG or accessible description is missing");
       const oxidationExceptionsRu = await page.locator("[data-i=stateExceptions]").innerText();
       if (!oxidationExceptionsRu.includes("OF₂") || !oxidationExceptionsRu.includes("+2") ||
@@ -947,6 +948,7 @@ try {
       if ((await page.locator("#nernstResult").innerText()).trim() !== "E = —" || !(await page.locator("#nernstFeedback").innerText()).includes("положительные активности")) errors.push(file + ": zero activity must be rejected with Russian feedback");
       await page.locator("#activityZn").fill("1"); await page.locator("#activityCu").fill("1");
       await page.locator("#lang").click();
+      if (!(await page.locator("#nernstResult").innerText()).includes("Cell EMF: 1.1000 V")) errors.push(file + ": Nernst result did not refresh in English after language switching");
       if (await page.locator('img[data-svg-ru="../assets/daniell-cell-ru.svg"]').getAttribute("src") !== "../assets/daniell-cell.svg" || !(await page.locator('img[data-alt-i="daniellImageAlt"]').getAttribute("alt") || "").includes("Diagram of a Daniell galvanic cell")) errors.push(file + ": English Daniell-cell SVG or accessible description is missing");
       const oxidationExceptionsEn = await page.locator("[data-i=stateExceptions]").innerText();
       if (!oxidationExceptionsEn.includes("OF₂") || !oxidationExceptionsEn.includes("+2") ||
