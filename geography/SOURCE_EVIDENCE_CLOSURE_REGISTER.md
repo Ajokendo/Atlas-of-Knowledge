@@ -1240,5 +1240,10 @@ The Chapter 02 source-work notes dated 4 November 2026 above are retained as his
 - The diagram contains two generalised panels: a broad equator-to-pole sequence and a mountain-base-to-nival sequence. It states that ecological boundaries are transitional and regional, and it does not assign universal elevations or depict a measured location.
 - Chapter 07 now has **10/10 named visual IDs integrated** (07-A–07-J; 20 RU/EN embeds). The former Figure 7.5 production brief is no longer open.
 - Source-level preflight passed for SVG root, title/description metadata, unique IDs and absence of script/foreignObject elements. This is not browser, device, screen-reader or deployed-reader QA.
-- **Rights limitation:** 07-J is outside the previous project-owner CC BY-NC 4.0 authorisation for six named assets. Its asset-specific licence designation remains pending; no permission is inferred.
+- **Rights — PASS:** on 6 November 2026 the project owner authorised CC BY-NC 4.0 for all original project-controlled visual assets in the Geography Atlas, including 07-J and future eligible original visuals. Attribution: Atlas of Knowledge project. Third-party and adapted assets retain their source-specific licences; this is not an independent legal opinion.
 - Chapter 07 editorial/content-production readiness is therefore recorded at **100%**, while rights, independent specialist review and release QA remain separate open gates.
+
+
+## Geography Atlas — standing visual licence authority — 6 November 2026
+
+The project owner extended the CC BY-NC 4.0 authorisation from selected assets to all original visual assets in the Geography Atlas that the project owns or is authorised to license, including future original visuals. The standing designation supersedes earlier asset-limited owner-authorisation lists. It does not relicense third-party images, maps, data, adaptations or composites; source-specific licence and attribution conditions continue to apply. Individual assets with unresolved provenance or ownership remain PENDING until their records establish eligibility. 07-J is confirmed as an original project-created SVG and its rights gate is now PASS.
