@@ -330,3 +330,9 @@ This closes the specific EN functional-groups rendering defect, not the full sev
 - [ ] Full-resolution per-asset review of every capture, dynamic interaction-state review, rights/licence evidence for 12 static families and 7 interactive systems, competent second-person review, and final approval remain open.
 
 **Status boundary:** all 108 default-state captures have an overview scan, but this does not mean all 108 have full-resolution review or that Chemistry is publication-ready.
+
+### Second-review workflow clarification — 6 November 2026
+
+- [x] Replaced the misleading `EXTERNAL-SCIENCE-REVIEW.md` template with `SECOND-REVIEW.md`. The form now accepts a competent internal project reviewer distinct from the creator, records the reviewer's chemistry competence and separation from the creator, and keeps external specialist review as optional additional assurance.
+- [x] The template remains intentionally unsigned and all review outcomes remain PENDING until a real reviewer completes it against an exact commit. No reviewer identity, qualification, review or approval has been fabricated.
+- [ ] Rights/licensing authority and explicit licence/permission remain unresolved for the 12 static visual families and 7 interactive systems. The competent second-review and final approval gates also remain open.
