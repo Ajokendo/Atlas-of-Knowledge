@@ -18,6 +18,7 @@ SVG_NAMES=[
 "chapter-05-weather-observations-to-forecast.svg","chapter-05-climate-diagram-exercise.svg",
 "chapter-05-synoptic-map-climate-analysis.svg","chapter-05-cloud-formation-processes.svg"]
 ORIGINALS=set(SVG_NAMES)-{"chapter-05-cloud-formation-processes.svg"}
+NOAA_NAMES=["noaa-global-atmospheric-circulation.jpg","noaa-hydrologic-cycle.jpg","noaa-cold-front-symbol.png","noaa-warm-front-symbol.png","noaa-stationary-front-symbol.png","noaa-occluded-front-symbol.png","noaa-cold-occlusion-cross-section.png"]
 def main():
     errors=[]
     if not CHAPTER.is_file() or not LICENSE.is_file():
@@ -28,9 +29,15 @@ def main():
     if len(embeds)!=46 or len(counts)!=23 or any(n!=2 for n in counts.values()):
         errors.append("expected 46 bilingual embeds, 23 unique targets, each paired twice")
     if any(not alt.strip() for alt,_ in embeds): errors.append("empty alt text found")
-    if any(not target.startswith(("https://","../visuals/")) for _,target in embeds): errors.append("unexpected image URL/path")
+    if any(not target.startswith(("https://","../visuals/","../assets/chapter-05-noaa/")) for _,target in embeds): errors.append("unexpected image URL/path")
     local={Path(urlparse(target).path).name for _,target in embeds if target.startswith("../visuals/") or "/geography/visuals/" in target}
     if local!=set(SVG_NAMES): errors.append(f"local SVG inventory mismatch: expected {len(SVG_NAMES)}, found {len(local)}")
+    local_noaa={Path(urlparse(target).path).name for _,target in embeds if target.startswith("../assets/chapter-05-noaa/")}
+    if local_noaa!=set(NOAA_NAMES): errors.append(f"local NOAA mirror inventory mismatch: expected {len(NOAA_NAMES)}, found {len(local_noaa)}")
+    for name in NOAA_NAMES:
+        asset=Path("geography/assets/chapter-05-noaa")/name
+        if not asset.is_file(): errors.append(f"missing local NOAA mirror: {name}")
+        elif asset.stat().st_size==0: errors.append(f"empty local NOAA mirror: {name}")
     for name in SVG_NAMES:
         path=VISUALS/name
         if not path.is_file(): errors.append(f"missing SVG {name}"); continue
@@ -60,6 +67,6 @@ def main():
     if errors:
         for item in errors: print("FAIL:",item)
         return 1
-    print(f"PASS: 46 embeds; 23 paired targets; {len(SVG_NAMES)}/12 SVG XML/ARIA checks; exact 11-original CC BY-NC scope; 5.7-B excluded.")
+    print(f"PASS: 46 embeds; 23 paired targets; {len(SVG_NAMES)}/12 SVG XML/ARIA checks; {len(NOAA_NAMES)}/7 unchanged NOAA mirrors present; exact 11-original CC BY-NC scope; 5.7-B excluded.")
     return 0
 if __name__=="__main__": sys.exit(main())
