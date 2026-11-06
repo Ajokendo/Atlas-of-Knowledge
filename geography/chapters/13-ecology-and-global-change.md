@@ -116,7 +116,7 @@ The **planetary boundaries** framework describes nine interconnected Earth-syste
 
 ![Естественный и усиленный парниковый эффект: солнечное излучение, поглощение и переизлучение тепла / Natural and enhanced greenhouse effect: solar radiation, heat absorption and re-emission](../assets/diagrams/13-A-greenhouse-effect-bilingual.svg)
 
-*Оригинальная двуязычная концептуальная схема; стрелки показывают качественные направления потоков энергии, а не их величину. / Original bilingual conceptual diagram; arrows show qualitative energy-flow directions, not magnitudes.*
+*Упрощённая двуязычная схема: стрелки показывают качественные направления потоков, а не их величину. Отражение солнечного излучения, облака, аэрозоли и полный энергетический баланс здесь не показаны. / Simplified bilingual diagram: arrows show qualitative directions, not magnitudes. Reflected sunlight, clouds, aerosols and the full energy budget are not shown.*
 
 Климат Земли меняется под действием естественных факторов и антропогенных воздействий. Современное быстрое глобальное потепление преимущественно обусловлено увеличением концентраций парниковых газов в результате деятельности человека.
 
@@ -861,7 +861,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 
 **5. Product life-cycle assessment.** Trace the life cycle of an everyday product: raw materials, production, transport, use and disposal. Identify the stages with the greatest impacts and the data required for a full assessment.
 
-## Технические задания для будущих иллюстраций / Visual Briefs
+## Технические задания и примечания к визуалам / Visual Briefs and Production Notes
 
 Техническое задание 13-E: показать шесть взаимосвязанных элементов концептуальной рамки IPBES без превращения схемы в линейную причинную цепочку. / Visual brief 13-E: show the six linked elements of the IPBES conceptual framework without turning it into a linear causal chain.
 
@@ -875,8 +875,8 @@ Consider a fictional settlement beside a river. For this learning example, the e
 *Меры выбирают по причине деградации, почве, климату и землепользованию. / Choose measures according to the cause, soil, climate and land use.*
 Сравнение эрозии, засоления, уплотнения и восстановления почвенного покрова. Изображать разные процессы отдельно, не смешивать их визуально.
 
-**Иллюстрация 13.5 / Figure 13.5 — Экологический риск: опасность, подверженность, уязвимость / Environmental risk: hazard, exposure and vulnerability.**  
-Концептуальная диаграмма с примером одного природного явления и разными последствиями для двух территорий.
+**Визуал 13-C / Visual 13-C — Риск бедствий: четыре взаимосвязанных компонента / Disaster risk: four interacting components.**  
+Показывать опасность, экспозицию, уязвимость и возможности (capacity) как взаимодействующие компоненты, без линейной последовательности и универсальной числовой формулы. / Show hazard, exposure, vulnerability and capacity as interacting components, without a linear sequence or a universal numerical formula.
 
 Техническое задание 13-H: показать разные цели и примеры смягчения и адаптации; не представлять меры как взаимозаменяемые. / Visual brief 13-H: show the different aims and examples of mitigation and adaptation; do not present them as interchangeable.
 
@@ -934,6 +934,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 20. University of California, Berkeley, Center for Environmental Public Policy. **Mapping for Environmental Justice.** Example of combining environmental, social and health indicators with community guidance; methodology is US-specific and is not transferred directly to Kyrgyzstan. https://gspp.berkeley.edu/research-and-impact/centers/cepp/projects/mapping-for-environmental-justice
 21. United Nations Office for Disaster Risk Reduction (UNDRR). **Disaster Risk Reduction Terminology** — definitions of hazard, exposure, vulnerability, capacity and disaster risk. https://www.undrr.org/drr-glossary
 22. United Nations Economic Commission for Europe (UNECE). **Protocol on Strategic Environmental Assessment to the Convention on Environmental Impact Assessment in a Transboundary Context (Kyiv, 2003)** — scope, assessment of plans and programmes, public participation and monitoring. https://unece.org/text-protocol
+23. Intergovernmental Panel on Climate Change (IPCC). **Frequently Asked Questions, Working Group I contribution to the Sixth Assessment Report** — physical basis of the greenhouse effect and infrared absorption and emission by atmospheric constituents. https://www.ipcc.ch/help/frequently-asked-questions/
 
 ---
 **Конец главы 13 / End of Chapter 13**
