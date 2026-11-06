@@ -2,7 +2,7 @@
 <title id="t">Движущийся стержень и ЭДС движения / Moving rod and motional EMF</title>
 <desc id="d">Стержень движется вправо по двум рельсам в магнитном поле, направленном в плоскость рисунка. Сила q(v cross B) разделяет заряды вдоль стержня; показаны замкнутая цепь с током против часовой стрелки и разомкнутая цепь без тока.</desc>
 <defs><marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d65b43"/></marker><marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2367a8"/></marker><style>
-.bg{fill:#f7f8fa}.card{fill:#fff;stroke:#d7dde5;stroke-width:3}.h{font:600 32px Inter,Arial,sans-serif;fill:#172b45}.lab{font:23px Inter,Arial,sans-serif;fill:#26384d}.en{font:19px Inter,Arial,sans-serif;fill:#68788c}.formula{font:600 29px Inter,Arial,sans-serif;fill:#172b45}.rail{stroke:#26384d;stroke-width:12;stroke-linecap:round}.rod{stroke:#d65b43;stroke-width:16;stroke-linecap:round}.arr{fill:none;stroke:#d65b43;stroke-width:6;marker-end:url(#red)}.barr{fill:none;stroke:#2367a8;stroke-width:5;marker-end:url(#blue)}
+.bg{fill:#f7f8fa}.card{fill:#fff;stroke:#d7dde5;stroke-width:3}.h{font:600 32px Inter,Arial,sans-serif;fill:#172b45}.lab{font:21px Inter,Arial,sans-serif;fill:#26384d}.en{font:19px Inter,Arial,sans-serif;fill:#68788c}.formula{font:600 29px Inter,Arial,sans-serif;fill:#172b45}.rail{stroke:#26384d;stroke-width:12;stroke-linecap:round}.rod{stroke:#d65b43;stroke-width:16;stroke-linecap:round}.arr{fill:none;stroke:#d65b43;stroke-width:6;marker-end:url(#red)}.barr{fill:none;stroke:#2367a8;stroke-width:5;marker-end:url(#blue)}
 </style></defs>
 <rect class="bg" width="1500" height="820"/>
 <text class="h" x="60" y="65">ЭДС движения / Motional EMF</text>
@@ -17,7 +17,7 @@
 <path class="rail" d="M140 350 H610 M140 500 H610"/>
 <path class="rod" d="M530 350 V500"/>
 <path d="M530 425 H675" class="arr"/><text class="lab" x="600" y="400">v →</text>
-<path d="M530 480 V365" class="barr"/><text class="lab" x="545" y="375">F = q(v × B)</text><path d="M535 430 H445" class="arr"/><text class="lab" x="395" y="415">Fмагн ←</text>
+<path d="M530 480 V365" class="barr"/><text class="lab" x="565" y="370">F = q(v × B)</text><path d="M535 430 H445" class="arr"/><text class="lab" x="395" y="415">Fмагн ←</text>
 <text class="lab" x="545" y="345" fill="#d65b43">+</text><text class="lab" x="545" y="525" fill="#2367a8">−</text>
 <path d="M530 490 V360 H140 V500 H530" fill="none" stroke="#d65b43" stroke-width="5" stroke-dasharray="10 8" marker-end="url(#red)"/>
 <text class="lab" x="100" y="590">Положительные заряды смещаются вверх;</text><text class="en" x="100" y="620">positive charges move upward;</text>
@@ -30,7 +30,7 @@
 <path class="rail" d="M880 350 H1330 M880 500 H1330"/>
 <path class="rod" d="M1240 350 V500"/>
 <path d="M1240 425 H1390" class="arr"/><text class="lab" x="1300" y="400">v →</text>
-<path d="M1240 480 V365" class="barr"/><text class="lab" x="1260" y="375">q(v × B)</text>
+<path d="M1240 480 V365" class="barr"/><text class="lab" x="1275" y="370">q(v × B)</text>
 <text class="lab" x="1255" y="345" fill="#d65b43">+</text><text class="lab" x="1255" y="525" fill="#2367a8">−</text>
 <path d="M880 350 H940 M980 350 H1240" stroke="#26384d" stroke-width="12" fill="none"/>
 <path d="M940 350 L980 350" stroke="#d65b43" stroke-width="5" stroke-dasharray="5 8"/>
