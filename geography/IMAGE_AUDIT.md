@@ -413,7 +413,7 @@ The actual file `chapters/09-population-and-demography.md` contains the bilingua
 
 ### 7.2 Chapter-count reconciliation
 
-The chapter-level inventory counts, with Chapter 09 corrected to seven IDs, sum to **283**. The register's headline claim of 231 is therefore not supported by its own chapter rows. Chapter 05 still needs exact ID-name reconciliation: its inventory says 20, while the source and subsection sequence has not yet been mapped into a verified, complete 20-ID list. Do not invent missing Chapter 05 labels. Until that mapping and the chapter-by-chapter marker/brief audit are complete, 283 is the sum of stated chapter counts, not a fully validated unique-ID total.
+Before adding Chapter 07 visual 07-J, the chapter-level inventory counts, with Chapter 09 corrected to seven IDs, summed to **283**. The register's headline claim of 231 is therefore not supported by its own chapter rows. Chapter 05 still needs exact ID-name reconciliation: its inventory says 20, while the source and subsection sequence has not yet been mapped into a verified, complete 20-ID list. Do not invent missing Chapter 05 labels. Until that mapping and the chapter-by-chapter marker/brief audit are complete, 283 is the sum of stated chapter counts, not a fully validated unique-ID total.
 
 ### 7.3 Direct Markdown embedding scan
 
@@ -439,7 +439,7 @@ The current `geography/visuals/` directory contains eight SVG assets plus the Ch
 - Markdown link presence and local file existence are confirmed for the items listed above.
 - This scan does not establish successful loading from external hosts, visual correctness, current source permissions, bilingual equivalence of every caption/alt text, or deployed/mobile rendering.
 - No asset is promoted to VERIFIED by this scan.
-- The Chapter 09 and Chapter 05 ID-count discrepancies are now resolved at the chapter-file level; the atlas-wide total is 283 named IDs.
+- The Chapter 09 and Chapter 05 ID-count discrepancies were resolved at the chapter-file level; the pre-07-J atlas-wide total was 283 named IDs. The current total is 284 after adding 07-J.
 - Progress percentage is intentionally withheld until the complete ID list and per-asset evidence are reconciled; counting Markdown embeds would overstate completed visual work.
 
 
@@ -484,7 +484,7 @@ A source-level scan was run across all 26 Markdown chapter files in the current 
 | 24 | 12 | Matches the current inventory. |
 | 25 | 12 | Matches the current inventory. |
 | 26 | 12 | Matches the current inventory. |
-| **Total** | **275** | Raw ID-shaped tokens across chapter sources; not a unique-asset denominator. The register's chapter-row sum is 283 and its legacy headline is 231. These three figures describe different counting scopes and are not reconciled. |
+| **Total** | **275** | Raw ID-shaped tokens across chapter sources; not a unique-asset denominator. The register's pre-07-J chapter-row sum was 283 and its legacy headline was 231. These three figures describe different counting scopes and are not reconciled. |
 
 ### Immediate conclusions
 
