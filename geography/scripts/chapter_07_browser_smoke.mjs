@@ -63,7 +63,7 @@ try{
    await Promise.all(selected.map(img=>{img.loading="eager";return img.decode().catch(()=>null)}));
    return selected.filter(img=>img.complete&&img.naturalWidth>0).length;
   },expectedAltCounts);
-  if(liveDecoded!==14)errors.push(viewport.width+"px GitHub Markdown: only "+liveDecoded+"/14 images decoded");
+  if(liveDecoded!==18)errors.push(viewport.width+"px GitHub Markdown: only "+liveDecoded+"/18 images decoded");
   const liveDims=await live.evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}));
   if(liveDims.scroll>liveDims.client+1)errors.push(viewport.width+"px GitHub Markdown horizontal overflow");
   reports.push(viewport.width+"px GitHub Markdown: "+liveDecoded+"/18 images decoded; overflow="+(liveDims.scroll>liveDims.client));
