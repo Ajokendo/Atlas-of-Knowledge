@@ -8,7 +8,9 @@ ASSETS=Path("geography/assets/diagrams")
 EXPECTED={
 "07-A-biosphere-earth-spheres-bilingual.svg",
 "07-B-food-web-energy-pyramid-bilingual.svg",
+"07-C-world-terrestrial-biomes-bilingual.svg",
 "07-D-shelford-tolerance-curve-bilingual.svg",
+"07-E-world-biogeographical-realms-bilingual.svg",
 "07-F-terrestrial-biome-panorama-bilingual.svg",
 "07-G-lake-ocean-zonation-bilingual.svg",
 "07-H-habitat-connectivity-bilingual.svg",
@@ -21,20 +23,20 @@ def main():
  source=CHAPTER.read_text(encoding="utf-8")
  embeds=IMAGE.findall(source)
  counts=Counter(Path(target).name for _,target in embeds)
- if len(embeds)!=14 or set(counts)!=EXPECTED or any(v!=2 for v in counts.values()):
-  errors.append(f"expected 14 RU/EN embeds across 7 paired SVGs; found {len(embeds)} embeds and {len(counts)} targets")
+ if len(embeds)!=18 or set(counts)!=EXPECTED or any(v!=2 for v in counts.values()):
+  errors.append(f"expected 18 RU/EN embeds across 9 paired SVGs; found {len(embeds)} embeds and {len(counts)} targets")
  if any(not alt.strip() for alt,_ in embeds): errors.append("empty Markdown alt text")
  by_target=defaultdict(list)
  for alt,target in embeds: by_target[Path(target).name].append(alt)
  for name,alts in by_target.items():
   if len(alts)==2 and not (any(re.search(r"[А-Яа-яЁё]",a) for a in alts) and any(re.search(r"[A-Za-z]",a) for a in alts)):
    errors.append(name+": Russian/English alt-text pair not evident")
- for ident in ["07-A","07-B","07-D","07-F","07-G","07-H","07-I"]:
+ for ident in ["07-A","07-B","07-C","07-D","07-E","07-F","07-G","07-H","07-I"]:
   if f"IMAGE PLACEHOLDER {ident}" in source or f"МЕТКА ИЛЛЮСТРАЦИИ {ident}" in source:
    errors.append(ident+": integrated visual still has a placeholder marker")
  for ident in ["07-C","07-E"]:
-  if f"IMAGE PLACEHOLDER {ident}" not in source and f"МЕТКА ИЛЛЮСТРАЦИИ {ident}" not in source:
-   errors.append(ident+": planned map gap marker unexpectedly missing")
+  if f"IMAGE PLACEHOLDER {ident}" in source or f"МЕТКА ИЛЛЮСТРАЦИИ {ident}" in source:
+   errors.append(ident+": integrated map still has a placeholder marker")
  chapter_lines=source.splitlines()
  for figure in ["7.1","7.3","7.6","7.7","7.8","7.9"]:
   idx=next((i for i,line in enumerate(chapter_lines) if line.startswith(f"**Рисунок {figure} / Figure")),None)
@@ -63,7 +65,7 @@ def main():
  if errors:
   for e in errors: print("FAIL:",e)
   return 1
- print("PASS: 14 RU/EN image embeds; 7 SVG targets paired exactly twice; bilingual alt text; 7 valid SVGs with title/description/ARIA and unique IDs; 07-C and 07-E remain explicit map gaps; no stale briefs for integrated figures.")
+ print("PASS: 18 RU/EN image embeds; 9 SVG targets paired exactly twice; bilingual alt text; 9 valid SVGs with title/description/ARIA and unique IDs; all nine planned IDs integrated; no stale briefs for integrated figures.")
  print("NOTE: rendered layout, screen-reader experience, project licensing and deployed-site QA are separate.")
  return 0
 if __name__=="__main__": sys.exit(main())
