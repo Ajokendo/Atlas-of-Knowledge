@@ -6,6 +6,7 @@ const liveUrl="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/workspace/geo
 const browser=await chromium.launch({headless:true});
 const errors=[],reports=[];
 let expectedAlts=[];
+let expectedAltCounts={};
 try {
  for(const viewport of [{width:390,height:844},{width:1365,height:900}]){
   const page=await browser.newPage({viewport,deviceScaleFactor:1});
@@ -14,7 +15,10 @@ try {
   await page.goto(preview,{waitUntil:"domcontentloaded"});
   await page.addScriptTag({path:resolve("node_modules/axe-core/axe.min.js")});
   const images=page.locator("#visuals img"),count=await images.count();
-  if(viewport.width===390) expectedAlts=await images.evaluateAll(nodes=>nodes.map(img=>img.alt));
+  if(viewport.width===390){
+   expectedAlts=await images.evaluateAll(nodes=>nodes.map(img=>img.alt));
+   expectedAltCounts=expectedAlts.reduce((counts,alt)=>{counts[alt]=(counts[alt]||0)+1;return counts;},{});
+  }
   if(count!==46) errors.push(viewport.width+"px preview: expected 46 images, found "+count);
   const decoded=await images.evaluateAll(async nodes=>{
    await Promise.all(nodes.map(img=>{img.loading="eager";return img.decode().catch(()=>null)}));
@@ -40,15 +44,19 @@ try {
   await live.goto(liveUrl,{waitUntil:"domcontentloaded",timeout:60000});
   await live.locator(".markdown-body").first().waitFor({state:"visible",timeout:60000});
   const allImages=live.locator(".markdown-body img");
-  const liveData=await allImages.evaluateAll((nodes,alts)=>nodes.filter(img=>alts.includes(img.alt)).map(img=>({alt:img.alt,src:img.src})),expectedAlts);
+  const liveData=await allImages.evaluateAll((nodes,counts)=>{
+   const remaining={...counts};
+   return nodes.filter(img=>{if(!remaining[img.alt])return false;remaining[img.alt]--;return true;}).map(img=>({alt:img.alt,src:img.src}));
+  },expectedAltCounts);
   if(liveData.length!==46) errors.push(viewport.width+"px GitHub Markdown: expected 46 chapter images, found "+liveData.length+"; all markdown-body imgs="+await allImages.count());
   const liveDecoded=await allImages.evaluateAll(async (nodes,alts)=>{
-   const selected=nodes.filter(img=>alts.includes(img.alt));
+   const remaining={...alts};
+   const selected=nodes.filter(img=>{if(!remaining[img.alt])return false;remaining[img.alt]--;return true;});
    await Promise.all(selected.map(img=>{img.loading="eager";return img.decode().catch(()=>null)}));
    return selected.filter(img=>img.complete&&img.naturalWidth>0).length;
   },expectedAlts);
   if(liveDecoded!==46){
-   const broken=await allImages.evaluateAll((nodes,alts)=>nodes.filter(img=>alts.includes(img.alt)&&(!img.complete||img.naturalWidth===0)).map(img=>({alt:img.alt,src:img.src})),expectedAlts);
+   const broken=await allImages.evaluateAll((nodes,alts)=>nodes.filter(img=>alts[img.alt]>0&&(!img.complete||img.naturalWidth===0)).map(img=>({alt:img.alt,src:img.src})),expectedAlts);
    errors.push(viewport.width+"px GitHub Markdown: "+liveDecoded+"/46 decoded; broken="+JSON.stringify(broken)+"; Camo errors="+JSON.stringify(imageResponses.filter(x=>x.status>=400)));
   }
   const liveDims=await live.evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}));
