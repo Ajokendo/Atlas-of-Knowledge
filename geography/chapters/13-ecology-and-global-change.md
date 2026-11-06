@@ -311,7 +311,7 @@ Assessing circularity requires consideration of the product's full life cycle: r
 Ключевые понятия:
 - **опасность (hazard):** процесс, явление или деятельность, которые могут причинить вред людям, имуществу, обществу или окружающей среде;
 - **подверженность (exposure):** наличие людей, инфраструктуры и ценностей в зоне возможного воздействия;
-- **уязвимость (vulnerability):** условия, повышающие вероятность ущерба;
+- **уязвимость (vulnerability):** физические, социальные, экономические и экологические условия, повышающие восприимчивость людей, сообществ, активов или систем к воздействию опасностей;
 - **потенциал (capacity):** совокупность ресурсов, знаний, институтов, навыков и других сильных сторон, помогающих предупреждать риск, готовиться и реагировать;
 - **риск (risk):** возможность неблагоприятных последствий с учётом вероятности и тяжести воздействия;
 - **устойчивость к бедствиям (disaster resilience):** способность готовиться, выдерживать воздействие, восстанавливаться и адаптироваться.
@@ -504,7 +504,7 @@ When reading a report, check baseline-data quality, seasonal coverage, alternati
 
 Экологическое воздействие продукта или инфраструктурного объекта не ограничивается местом его использования. Оно может возникать при добыче сырья, производстве материалов, строительстве, перевозке, эксплуатации и утилизации. Оценка жизненного цикла (ОЖЦ, life-cycle assessment) помогает системно учитывать эти этапы, но её результат зависит от границ исследования и исходных допущений.
 
-**Сначала задают цель и функциональную единицу.** Сравнивать следует одинаковую услугу или функцию: например, воздействие на производство и доставку одного кубометра очищенной воды, а не просто «одного сооружения». Затем определяют границы системы: от добычи сырья до выхода с завода, до конца срока службы или полный жизненный цикл.
+**Полная ОЖЦ включает четыре этапа:** определение цели и области исследования; анализ инвентаризации жизненного цикла; оценка воздействия; интерпретация результатов. **Сначала задают цель и функциональную единицу.** Сравнивать следует одинаковую услугу или функцию: например, воздействие на производство и доставку одного кубометра очищенной воды, а не просто «одного сооружения». Затем определяют границы системы: от добычи сырья до выхода с завода, до конца срока службы или полный жизненный цикл.
 
 **Что включают в инвентаризацию:** расход энергии и воды, сырьё, выбросы в воздух и воду, отходы, транспортные операции и изменения землепользования. Для каждого потока указывают источник данных, период, географический охват и способ расчёта. Воздействия могут оцениваться по нескольким категориям — например, изменение климата, закисление, эвтрофикация, использование воды и токсичность; один углеродный показатель не описывает весь экологический след.
 
@@ -514,7 +514,7 @@ When reading a report, check baseline-data quality, seasonal coverage, alternati
 
 The environmental impact of a product or infrastructure asset is not limited to the place where it is used. Impacts may arise during raw-material extraction, material production, construction, transport, operation and disposal. Life-cycle assessment (LCA) helps account for these stages systematically, but its results depend on the study boundaries and assumptions.
 
-**Start with a goal and a functional unit.** Compare the same service or function, such as the impacts associated with producing and delivering one cubic metre of treated water, rather than simply comparing “one facility” with another. Then define the system boundary: from raw-material extraction to the factory gate, to the end of service, or across the full life cycle.
+**A full LCA has four phases:** goal and scope definition; life-cycle inventory analysis; life-cycle impact assessment; and interpretation. **Start with a goal and a functional unit.** Compare the same service or function, such as the impacts associated with producing and delivering one cubic metre of treated water, rather than simply comparing “one facility” with another. Then define the system boundary: from raw-material extraction to the factory gate, to the end of service, or across the full life cycle.
 
 **What the inventory includes:** energy and water use, raw materials, emissions to air and water, waste, transport operations and land-use change. For each flow, state the data source, period, geographic coverage and calculation method. Impacts may be assessed across several categories, such as climate change, acidification, eutrophication, water use and toxicity; a single carbon indicator does not describe the entire environmental footprint.
 
@@ -524,7 +524,7 @@ The environmental impact of a product or infrastructure asset is not limited to 
 
 ## 13.14. Экологическая справедливость и здоровье / Environmental Justice and Health
 
-Экологические выгоды и риски распределены неравномерно. Низкодоходные сообщества, жители промышленных зон, сельские и удалённые территории, а также группы с ограниченным доступом к медицинским и коммунальным услугам могут испытывать непропорционально высокую нагрузку.
+Экологические выгоды и риски распределены неравномерно. Низкодоходные сообщества, жители промышленных зон, сельских и удалённых районов, а также группы с ограниченным доступом к медицинским и коммунальным услугам могут испытывать непропорционально высокую нагрузку.
 
 Экологическая справедливость включает:
 - справедливое распределение экологических выгод и ущерба;
@@ -540,7 +540,7 @@ The environmental impact of a product or infrastructure asset is not limited to 
 *Все районы и данные условные; схема не описывает реальный город. / All districts and data are hypothetical; the diagram does not depict a real city.*
 
 
-Environmental benefits and risks are not distributed equally. Low-income communities, residents of industrial areas, rural and remote territories, and groups with limited access to healthcare and public services may face disproportionately high burdens.
+Environmental benefits and risks are not distributed equally. Low-income communities, residents of industrial areas and rural or remote areas, and groups with limited access to healthcare and public services may face disproportionately high burdens.
 
 Environmental justice includes:
 - fair distribution of environmental benefits and harm;
@@ -678,7 +678,7 @@ Assessment of circularity should consider the full life cycle of a product: raw-
 Key concepts include:
 - **hazard:** a process, phenomenon or human activity that may cause harm;
 - **exposure:** the presence of people, infrastructure and assets in an area that may be affected;
-- **vulnerability:** conditions that increase the likelihood of harm;
+- **vulnerability:** physical, social, economic and environmental conditions that increase the susceptibility of people, communities, assets or systems to hazards;
 - **capacity:** the combination of resources, knowledge, institutions, skills and other strengths that help prevent risk, prepare for events and respond;
 - **risk:** the possibility of adverse consequences, taking account of probability and severity; and
 - **disaster resilience:** the ability to prepare for, withstand, recover from and adapt to impacts.
