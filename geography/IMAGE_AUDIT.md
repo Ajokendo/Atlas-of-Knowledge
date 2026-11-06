@@ -28,7 +28,7 @@ Lifecycle status uses the policy vocabulary: MISSING, FOUND, LICENSE_CHECK, SCIE
 
 ## 5. Chapter baseline
 
-The chapter inventory contains **281 named visual IDs** plus **two unresolved historical Chapter 05 inventory positions**. The older headline value 231 is superseded and must not be used. The two unnamed positions are not assigned invented IDs. The 281 named IDs are distinct chapter-prefixed labels; the two unresolved positions remain outside per-asset counts until recovered.
+The chapter inventory contains **283 named visual IDs**. The two former unresolved Chapter 05 positions are now mapped to 5.10-A (climate controls) and 5.13-A (urban microclimate); legacy 5-A is an alias of 5.2-A and is not counted separately. The older headline value 231 is superseded and must not be used.
 
 | Chapter | Planned IDs | Integrated in chapter source | Open / missing | Evidence / qualification |
 |---:|---:|---:|---:|---|
@@ -36,7 +36,7 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 02 | 19 | 19 | 0 | All 19 planned IDs have imagery in both language sections; one ID (2.10-B) uses two separate cycle images. Not all assets are fully verified. |
 | 03 | 13 | 13 | 0 | All 13 visual IDs are embedded in RU and EN (26 embeds); image-integrity and isolated Chromium checks passed. Rights, full accessibility and production-reader checks remain asset-specific and are not fully closed. |
 | 04 | 16 | 16 | 0 | Sixteen local bilingual SVGs embedded; source records identify remaining creator/licence and technical review work. |
-| 05 | 18 named + 2 unresolved legacy slots | 17 | 1 named + 2 unresolved | Seventeen named assets are embedded; 18 named IDs are enumerated. Two old inventory positions remain unidentifiable and are not counted as assets until recovered. |
+| 05 | 19 | 19 | 0 | All 19 unique visual IDs are embedded in RU and EN. The two formerly unassigned positions are now 5.10-A and 5.13-A; legacy 5-A is an alias for 5.2-A, not a separate asset. Rights/accessibility/production QA remain asset-specific. |
 | 06 | 15 | 5 | 10 | 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A integrated; 6-B has a licensed candidate dataset but no finished map. |
 | 07 | 9 | 7 | 2 | 07-A, 07-B, 07-F, 07-G, 07-H and 07-I are original bilingual SVGs; 07-D remains an adapted CC BY 4.0 figure. Accessibility and rendered technical QA remain pending. 07-C and 07-E remain open pending usable map geometry. |
 | 08 | 7 | 6 | 1 | 08-A, 08-C, 08-D, 08-E, 08-F and 08-G are original bilingual SVGs; 08-B remains open pending a validated global WRB map. Rights and rendered/accessibility QA remain pending. |
@@ -53,17 +53,17 @@ The chapter inventory contains **281 named visual IDs** plus **two unresolved hi
 | 19 | 10 | 7 | 3 | 19-C, 19-D, 19-E, 19-F, 19-H, 19-I and 19-J embedded; 19-I is a distinct qualitative seasonal snow/precipitation profile, not a duplicate of 19-C. |
 | 20 | 11 | 8 | 3 | 20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K embedded; the Frontiers glacial-lake figure is supporting source material, not counted as an additional planned ID. |
 | 21–26 | 68 | 16 | 52 | 21-B, 21-C, 21-H, 21-I, 21-J; 22-F, 22-G, 22-H, 22-J; 23-E, 23-J; 25-D, 25-I; 26-H, 26-I and 26-K are now embedded as original bilingual SVGs. 52 planned IDs remain open. |
-| **Total named inventory** | **281** | **197** | **84** | Plus two unresolved historical Chapter 05 positions; no invented IDs. |
+| **Total named inventory** | **283** | **199** | **84** | Chapter 05's two former unresolved positions are now named and integrated. |
 
-**Separate metrics (5 November 2026):**
-- **Image Coverage:** 197/281 named IDs have an image embedded in the relevant chapter source (70.1%). This measures presence only.
-- **Image Verification:** 0/197 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
-- **Image Gaps:** 84 named IDs remain without a confirmed integrated image, plus two unresolved historical Chapter 05 inventory positions.
+**Separate metrics (6 November 2026):**
+- **Image Coverage:** 199/283 named IDs have an image embedded in the relevant chapter source (70.3%). This measures presence only.
+- **Image Verification:** 0/199 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Gaps:** 84 named IDs remain without a confirmed integrated image; no unresolved Chapter 05 inventory positions remain.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
 ## 6. Per-asset audit register
 
-The per-asset table enumerates 281 named IDs. Two unresolved historical Chapter 05 positions remain unassigned. Each review dimension is set independently from the evidence available; integration alone is not approval. No item is promoted to VERIFIED unless every applicable dimension is PASS with evidence.
+The per-asset table enumerates 283 named IDs. Chapter 05's former unassigned positions are reconciled as 5.10-A and 5.13-A. Each review dimension is set independently from the evidence available; integration alone is not approval. No item is promoted to VERIFIED unless every applicable dimension is PASS with evidence.
 
 | Chapter | Visual ID | Lifecycle status | Scientific | Rights | RU/EN | Accessibility | Technical | Evidence / next action |
 |---|---|---|---|---|---|---|---|---|
@@ -322,10 +322,10 @@ For 01-D (Category B), exact source identity, creator, CC BY 4.0 licence, attrib
 | 05 | 5.7-B | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Local bilingual SVG adapted from AMS Project Atmosphere: Clouds (2025), Figure 2. Exact source CC BY-SA 4.0 verified; chapter attribution, licence link and change statement present. Derivative project licence decision and scientific review remain open. |
 | 05 | 5.8-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | Five NOAA JetStream components enumerated (four language-neutral front symbols plus cold-occlusion cross-section); public-domain guidance applies absent third-party credit. Russian key translates all English cross-section labels. |
 | 05 | 5.9-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual weather-versus-climate SVG embedded in RU/EN; static SVG structure checked. Scientific content, creator/licence, accessibility and rendered QA remain open. |
-| 05 | 5.10-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Chapter 05 asset-to-ID mapping has been reconciled for this named visual; review dimensions remain pending. |
+| 05 | 5.10-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PENDING | Original bilingual conceptual SVG created and embedded in RU/EN. Eight interacting controls are consistent with NOAA's climate-controls overview; connectors are explicitly qualitative. Static SVG structure and alt text PASS; project rights/licence, rendered contrast and assistive-technology review remain open. |
 | 05 | 5.11-A | INTEGRATED | PENDING | PASS | PASS | PENDING | PENDING | Commons file page confirms CC0 1.0; creator Nothda and Beck et al. (2023) data source/DOI credited. Russian key translates the English title; standard Köppen–Geiger codes remain unchanged. Methodology and rendered QA remain open. |
 | 05 | 5.12-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-belts SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
-| 05 | 5.13-A | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | Provisional audit label only: no corresponding in-text visual marker, selected asset or chapter-register source record found. Do not count as a confirmed ID. |
+| 05 | 5.13-A | INTEGRATED | PASS | PENDING | PASS | PARTIAL | PENDING | Original bilingual conceptual SVG created and embedded in RU/EN. Rural–suburban–urban cross-section distinguishes heat storage, reduced shade/evaporation, urban geometry/ventilation and mitigation options; no measured temperature scale is implied. EPA source checked; static SVG structure and alt text PASS; project rights/licence and rendered accessibility remain open. |
 | 05 | 5.14-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual atmospheric-hazards SVG embedded in RU/EN; static SVG structure checked. Safety/scientific review, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.15-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual climate-change SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
 | 05 | 5.16-A | INTEGRATED | PENDING | PENDING | PASS | PENDING | PENDING | Project-local bilingual observations-to-forecast SVG embedded in RU/EN; static SVG structure checked. Scientific review, creator/licence, accessibility and rendered QA remain open. |
@@ -424,7 +424,7 @@ The following counts are from the actual chapter Markdown files in `workspace/ge
 | 02 | 40 | Twenty distinct source/local image assets across the bilingual chapter (19 visual IDs; one ID uses two separate cycle images). |
 | 03 | 26 | Thirteen distinct visuals embedded in both language sections; local SVGs plus three external scientific source images. |
 | 04 | 32 | Sixteen distinct local bilingual SVGs embedded in both language sections. |
-| 05 | 42 | 21 distinct image URLs (10 local SVGs and 11 external source-image URLs); 17 named visual IDs now have integrated imagery. Exact ID-to-image mapping and two unnamed inventory slots still need reconciliation. |
+| 05 | 46 | 23 distinct image URLs (12 local SVGs and 11 external source-image URLs); all 19 unique visual IDs have integrated imagery in RU and EN. Exact ID-to-image mapping is reconciled; legacy 5-A is an alias of 5.2-A. |
 | 06–17 | 12 | Chapter 06 has five integrated visual IDs (6-A, 6-C, 6.1-A, 6.5-A and 6.7-A); 6.7-A contains two separate visuals, giving six embeds in RU and six in EN. Chapters 07–17 have no Markdown image embeds in this scan. |
 | 18 | 1 | Local SVG 18-J referenced. |
 | 19 | 1 | Local SVG 19-H referenced. |
@@ -438,17 +438,17 @@ The current `geography/visuals/` directory contains eight SVG assets plus the Ch
 - Markdown link presence and local file existence are confirmed for the items listed above.
 - This scan does not establish successful loading from external hosts, visual correctness, current source permissions, bilingual equivalence of every caption/alt text, or deployed/mobile rendering.
 - No asset is promoted to VERIFIED by this scan.
-- The earlier Chapter 09 discrepancy is resolved at the chapter-file level; the overall inventory discrepancy and Chapter 05 mapping remain open.
+- The Chapter 09 and Chapter 05 ID-count discrepancies are now resolved at the chapter-file level; the atlas-wide total is 283 named IDs.
 - Progress percentage is intentionally withheld until the complete ID list and per-asset evidence are reconciled; counting Markdown embeds would overstate completed visual work.
 
 
 ### 7.5 Chapter 05 local SVG and alt-text spot check
 
-The eight SVG files currently present in `geography/visuals/` were fetched from the working branch and checked for basic embedded accessibility metadata. All eight contain an SVG `viewBox`, `role="img"`, `aria-labelledby`, a `<title>` and a `<desc>`. This is a positive static structural check, not a full accessibility pass: title/description quality, reading order, contrast, small-screen legibility and screen-reader output still require content-level and rendered review.
+The twelve project-local Chapter 05 SVGs were fetched from the working branch and checked for basic embedded accessibility metadata. All twelve contain an SVG `viewBox`, `role="img"`, `aria-labelledby`, a `<title>` and a `<desc>`, bilingual Cyrillic/Latin content, and no detected `script`, `foreignObject` or embedded `image` element. This is a positive static structural check, not a full accessibility pass: reading order, contrast, small-screen legibility and screen-reader output still require rendered review.
 
-The Chapter 05 Markdown now contains 42 image embeds; all 42 have non-empty Markdown alt text. Chapters 18, 19 and 20 contain respectively 1, 1 and 2 local SVG embeds, and all four have non-empty bilingual alt text. These checks establish that alt text is present, not that every alternative is sufficiently descriptive or equivalent in both languages.
+The Chapter 05 Markdown now contains 46 image embeds; all 46 have non-empty bilingual Markdown alt text. Chapters 18, 19 and 20 contain respectively 1, 1 and 2 local SVG embeds, and all four have non-empty bilingual alt text. These checks establish that alt text is present, not that every alternative is sufficiently descriptive or equivalent in both languages.
 
-**Chapter 05 current evidence state:** local SVG metadata = structural PASS; non-empty Markdown alt text = structural PASS; full scientific review, exact ID-to-asset mapping, rights/source verification for every embedded external image, bilingual semantic equivalence and deployed rendering/accessibility = PENDING.
+**Chapter 05 current evidence state:** all 19 unique IDs are embedded in both languages; 12 local SVGs pass static structure checks; all 46 embeds have non-empty bilingual alt text; the 5.18-A graph bars now match the tabulated monthly data. The new 5.10-A and 5.13-A scientific concepts and bilingual captions pass internal source review. Rights for project-local assets, some external-source details, full screen-reader/accessibility review and deployed rendering remain PENDING.
 
 
 ## Chapter-source ID token scan — 5 November 2026
@@ -511,7 +511,7 @@ Markdown alt-text checks:
 - Chapters 01–02: the source register records 50 embeds with non-empty bilingual alt text (10 + 40).
 - Chapter 03: 26 embeds representing 13 unique assets; zero empty alt attributes.
 - Chapter 04: 32 embeds representing 16 unique assets; zero empty alt attributes.
-- Chapter 05: 42 embeds (21 RU + 21 EN; 21 distinct URLs in each language, exact parity); zero empty alt attributes.
+- Chapter 05: 46 embeds (23 RU + 23 EN; 23 distinct URLs in each language, exact parity); zero empty alt attributes.
 - Chapters 18–20: 4 embeds; zero empty alt attributes.
 - Chapter 06: 6-A, 6-C, 6.1-A, 6.5-A and 6.7-A each appear once in RU and once in EN; all ten embeds have non-empty bilingual alt text.
 
@@ -550,10 +550,10 @@ These checks establish that the expected local files exist, the chapter source r
 
 ### 7.7 Chapter 05 stable-ID anchors added
 
-To make the image-first audit traceable in the chapter itself, non-rendering HTML comments were added immediately before every Markdown image embed in both language sections. Verification after the commit found **42 anchors covering 17 distinct integrated visual IDs**:
-`5.1-A`, `5.2-A` (legacy alias `5-A`), `5.3-A`, `5.4-A`, `5.5-A`, `5.6-A`, `5.7-A`, `5.7-B`, `5.8-A`, `5.9-A`, `5.11-A`, `5.12-A`, `5.14-A`, `5.15-A`, `5.16-A`, `5.17-A` and `5.18-A`. Repeated anchors for the same ID are intentional: Russian and English placements share one asset ID, and 5.8-A groups the official front symbols/cross-section into one teaching visual set.
+To make the image-first audit traceable in the chapter itself, non-rendering HTML comments were added immediately before every Markdown image embed in both language sections. Verification after the 6 November update found **46 anchors covering 19 distinct integrated visual IDs**:
+`5.1-A`, `5.2-A` (legacy alias `5-A`), `5.3-A`, `5.4-A`, `5.5-A`, `5.6-A`, `5.7-A`, `5.7-B`, `5.8-A`, `5.9-A`, `5.10-A`, `5.11-A`, `5.12-A`, `5.13-A`, `5.14-A`, `5.15-A`, `5.16-A`, `5.17-A` and `5.18-A`. Repeated anchors for the same ID are intentional: Russian and English placements share one asset ID, and 5.8-A groups the official front symbols/cross-section into one teaching visual set.
 
-The 5.18-A placeholder has been replaced by a bilingual SVG and the chapter now embeds it once in each language section. The chapter-level inventory still claims 20 IDs, while the visual source/integration register explicitly names 16 integrated IDs plus 5.18-A. **Two inventory ID positions remain unaccounted for by name** and must be recovered from the original chapter brief/history or removed only after documented reconciliation; do not invent labels. The legacy label 5-A is an alias for 5.2-A, not a separate visual asset. The comments do not alter visible page content.
+The two previously missing visual needs are now resolved: 5.10-A (climate controls) and 5.13-A (urban microclimate) have original bilingual SVGs and matching RU/EN embeds. The current chapter contains 19 unique IDs and 23 unique image URLs, with 46 Markdown embeds. The old 20-position count included the legacy alias 5-A for 5.2-A; it is not a separate asset. The former unassigned positions are therefore reconciled. The comments do not alter visible page content.
 
 
 ### Chapter 04 — focused scientific review: 4.13-A — 5 November 2026
@@ -641,7 +641,7 @@ Cross-checked the diagram's elevations and distances against the chapter's bilin
 - Created `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg` as a new bilingual synthetic teaching schematic. It contains a schematic low-pressure centre (1000 hPa) and high-pressure centre (1032 hPa), closed isobars at 4 hPa intervals, cold and warm fronts, simplified station plots and two synthetic monthly climate graphs.
 - Replaced the Russian and English placeholders with the same local SVG and bilingual alt text/captions. The chapter source now has 42 image embeds and 21 unique image URLs; the new asset appears once in each language section.
 - Static source inspection confirms `viewBox`, `title`, `desc`, `role="img"`, Cyrillic and Latin text; no script, foreignObject or embedded image element was detected.
-- The climate graph arrays were checked: A has a 32 °C annual temperature range and 401 mm annual precipitation; B has a 14 °C range and 886 mm annual precipitation. These are synthetic values, not observations.
+- The climate graph arrays were checked: A has a 32 °C annual temperature range and 364 mm annual precipitation; B has a 14 °C range and 925 mm annual precipitation. These are synthetic values, not observations.
 - Image-first discovery consulted NOAA synoptic meteorology and surface-weather-plot teaching resources. No existing image was reused because the brief requires synthetic data and two climate graphs in one bilingual teaching visual.
 - Lifecycle is INTEGRATED; RU/EN parity is PASS at source level. Scientific convention review, project rightsholder/licence, visual/accessibility review and rendered browser/device QA remain PENDING. No CI pass is claimed.
 
@@ -685,7 +685,7 @@ Scientific/data review for the synthetic exercise is **PASS** at the teaching-sc
 - The low-pressure centre is shown with the cold front extending southwest and the warm front extending east/northeast, consistent with the standard Northern Hemisphere mid-latitude cyclone teaching pattern.
 - Isobars are closed and labelled at 4 hPa intervals; pressure increases outward from the low and decreases outward from the high.
 - The simplified station plots clearly distinguish temperature, dew point, three-digit sea-level pressure code and wind-from direction. The codes 142, 118 and 208 are decoded as 1014.2, 1011.8 and 1020.8 hPa, respectively.
-- Climate-graph values are explicitly synthetic. The data table gives all 12 monthly values; arithmetic checks confirm A = 401 mm annual precipitation and 32 °C annual temperature range, B = 886 mm and 14 °C.
+- Climate-graph values are explicitly synthetic. The data table gives all 12 monthly values; arithmetic checks confirm A = 364 mm annual precipitation and 32 °C annual temperature range, B = 925 mm and 14 °C. The SVG precipitation bars were corrected on 6 Nov 2026 to match the twelve monthly table values exactly.
 - The graphic is labelled as a Northern Hemisphere schematic with no geographic location/date; it is not an operational weather analysis or forecast.
 
 Sources checked: NOAA, [How to read Surface Weather Maps](https://www.noaa.gov/jetstream/wxmaps) and [Surface Weather Plot Symbols](https://www.noaa.gov/jetstream/wxmaps-max/jetstream-max-surface-weather-plot-symbols); Penn State METEO 3, [decoding sea-level pressure on a station model](https://courses.ems.psu.edu/meteo3/book/export/html/1998).
@@ -1797,3 +1797,15 @@ The project owner authorised the designation of **CC BY-NC 4.0** for the ten pro
 The designation does not cover external visuals 3.2-A, 3.5-A or 3.9-A; those retain their individually recorded Public Domain / CC BY 4.0 terms. It does not apply to Nathan Liow's work, the repository-root `LICENSE`, other Geography assets or any other Atlas chapter. Do not infer a repository-wide or chapter-wide licence from this limited designation.
 
 The licence notice, scope, attribution template, legal-code link and exclusions are recorded in `geography/assets/CHAPTER_03_ASSET_LICENSE.md`; the source/provenance register is reconciled in `geography/IMAGE_SOURCES.md`. This rights update does **not** close the remaining accessibility or production-reader QA gates: Chapter 03 remains not fully VERIFIED or publication-ready until those checks are completed.
+
+
+### Chapter 05 — completion of visual inventory and data correction — 6 November 2026
+
+- Added original bilingual conceptual SVGs for **5.10-A climate controls** and **5.13-A microclimates/urban heat island**, integrated each once in the Russian and English chapter sections, and added source-backed captions and descriptive bilingual alt text.
+- 5.10-A follows NOAA's climate-controls overview: latitude/solar radiation, elevation, land–ocean distribution, currents, atmospheric circulation, relief/aspect, snow/ice/vegetation and human-driven atmospheric/land-use change. The diagram states that factors interact and does not assign quantitative weights.
+- 5.13-A follows U.S. EPA heat-island explanations: reduced vegetation/shade/evapotranspiration, heat storage by built surfaces, urban geometry/ventilation and mitigation options. The temperature profile is explicitly qualitative, not measured.
+- Reconciled the Chapter 05 legacy count: **19 unique IDs** are now present (17 previously integrated + 5.10-A + 5.13-A). The old count of 20 positions double-counted the alias 5-A, which is the same asset as 5.2-A. No unnamed visual slots remain.
+- Chapter Markdown now has 46 embeds (23 RU + 23 EN), 23 unique image URLs (12 local SVGs + 11 external image URLs), 19 distinct visual IDs and zero empty alt attributes. RU/EN marker and URL parity pass at source level.
+- Corrected the 5.18-A precipitation bars to match the source table: A = 364 mm, B = 925 mm. Temperature series remain unchanged (ranges 32 °C and 14 °C). The previous SVG values (401 mm and 886 mm) were inconsistent with the chapter's monthly table and are superseded.
+- Static source checks pass for the three updated/new SVGs: `viewBox`, bilingual `title`/`desc`, `role="img"`, `aria-labelledby`; no script, `foreignObject` or embedded image.
+- Rights/licence assignment for project-local SVGs, screen-reader/contrast review and deployed reader/mobile rendering remain PENDING; this update does not claim those release gates passed.
