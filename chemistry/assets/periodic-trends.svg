@@ -2,9 +2,9 @@
 <svg lang="en" xml:lang="en" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
 <title id="title">Periodic trends of chemical elements</title><desc id="desc">Schematic periodic-table layout showing broad trends: atomic radius generally increases down and to the left; first ionisation energy and electronegativity generally increase up and to the right. These are trends, not exception-free rules.</desc>
 <defs>
- <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2877a8"/></marker>
- <marker id="greenArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#237a55"/></marker>
- <marker id="goldArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#9a5a16"/></marker>
+ <marker id="blueArrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#2877a8"/></marker>
+ <marker id="greenArrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#237a55"/></marker>
+ <marker id="goldArrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#9a5a16"/></marker>
  <style>
   text{font-family:Inter,Arial,sans-serif;fill:#1e2c35}
   .heading{font-size:28px;font-weight:700;letter-spacing:.2px}
