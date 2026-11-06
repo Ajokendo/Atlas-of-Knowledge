@@ -2,7 +2,7 @@
 # Chapter 5. The Atmosphere and Climatology
 
 > **Статус:** редакционно-содержательная подготовка главы завершена (100%) 6 ноября 2026 года: текст RU/EN, учебные расчёты и все 19 уникальных визуальных материалов интегрированы. Проверка прав на авторские визуалы, финальная вёрстка, контраст, экранные дикторы и отображение опубликованной версии остаются отдельными этапами технической приёмки.
-> **Status:** the chapter's editorial/content-production package is complete (100%) as of 6 November 2026: RU/EN text, worked calculations and all 19 unique visuals are integrated. Rights clearance for project-created visuals, final layout, contrast, screen-reader and published-site rendering checks remain separate release-acceptance tasks.
+> **Status:** the chapter's editorial/content-production package is complete (100%) as of 6 November 2026: RU/EN text, worked calculations and all 19 unique visuals are integrated. The project owner has authorised CC BY-NC 4.0 for the 11 original project-local SVGs (scope and attribution are recorded in `geography/assets/CHAPTER_05_ASSET_LICENSE.md`). Adapted visual 5.7-B remains separately subject to CC BY-SA 4.0 and its derivative-compliance review is still open. Final layout, contrast, screen-reader and published-site rendering checks remain separate release-acceptance tasks.
 > **Языки:** русский / English.
 
 ## Введение / Introduction
