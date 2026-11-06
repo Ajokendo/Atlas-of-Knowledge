@@ -72,4 +72,4 @@ try{
 }finally{await browser.close()}
 console.log(reports.join("\n"));
 if(errors.length){console.error("Chapter 07 browser QA failed:\n"+errors.join("\n"));process.exit(1)}
-console.log("PASS: all seven inline SVGs render at mobile/desktop; no clipping or text overlap; axe WCAG 2.1 A/AA clean.");
+console.log("PASS: all seven inline SVGs render at mobile/desktop; all 14 live GitHub Markdown embeds decode; no clipping or text overlap; axe WCAG 2.1 A/AA clean.");
