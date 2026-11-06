@@ -65,6 +65,30 @@ async function checkLesson(mobile) {
     const missing = required.filter(title => !headings.includes(title));
     if (missing.length) throw new Error(`missing lesson sections: ${missing.join('; ')}`);
 
+    const regimeFigure = page.locator('.oscillation-figure');
+    const regimeImage = regimeFigure.locator('img');
+    await regimeImage.waitFor({ state: 'visible' });
+    const visual = await regimeImage.evaluate(img => ({
+      complete: img.complete,
+      width: img.naturalWidth,
+      height: img.naturalHeight,
+      alt: img.alt,
+      caption: img.closest('figure')?.querySelector('figcaption')?.textContent?.trim(),
+    }));
+    if (!visual.complete || visual.width !== 1200 || visual.height !== 520) {
+      throw new Error(`oscillation-regimes infographic failed to load at its expected dimensions: ${JSON.stringify(visual)}`);
+    }
+    if (!visual.alt.includes('затухающих') || !visual.caption?.includes('резонансный')) {
+      throw new Error('oscillation-regimes infographic needs meaningful alt text and a resonance caption');
+    }
+    const svgText = await page.evaluate(async () => {
+      const response = await fetch('../assets/visuals/phy-06-oscillation-regimes.svg');
+      return response.ok ? response.text() : '';
+    });
+    for (const term of ['Свободные, без затухания', 'Свободные, затухающие', 'Вынужденные колебания', 'Резонанс']) {
+      if (!svgText.includes(term)) throw new Error(`oscillation-regimes infographic is missing label: ${term}`);
+    }
+
     const canvas = page.locator('#visual');
     await canvas.waitFor({ state: 'visible' });
     const graph = await canvas.evaluate(el => ({ width: el.width, height: el.height }));
