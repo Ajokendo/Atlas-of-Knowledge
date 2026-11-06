@@ -67,7 +67,9 @@ try {
      const a=texts[i],b=texts[j],dx=Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x),dy=Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y);
      if(dx>2&&dy>2) overlaps.push({a:a.text,b:b.text});
     }
-    const labelled=(svg.getAttribute("aria-labelledby")||"").split(/\s+).filter(Boolean);\n    const labelledValid=labelled.length>=2&&labelled.every(id=>svg.querySelector("#"+CSS.escape(id))?.textContent?.trim());\n    return {name:title?.textContent||"untitled",role:svg.getAttribute("role"),desc:!!desc?.textContent?.trim(),labelledValid,textCount:texts.length,outside,overlaps,minEffective:Math.min(...texts.map(t=>t.effective))};
+    const labelled=(svg.getAttribute("aria-labelledby")||"").split(/\s+).filter(Boolean);
+    const labelledValid=labelled.length>=2&&labelled.every(id=>svg.querySelector("#"+CSS.escape(id))?.textContent?.trim());
+    return {name:title?.textContent||"untitled",role:svg.getAttribute("role"),desc:!!desc?.textContent?.trim(),labelledValid,textCount:texts.length,outside,overlaps,minEffective:Math.min(...texts.map(t=>t.effective))};
    });
   });
   for(const d of data){
