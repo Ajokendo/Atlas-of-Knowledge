@@ -298,3 +298,14 @@ Static source-review progress: **12/12 (100%)**. Static coverage: **12/12 (100%)
 - [ ] Rights/licence clearance remains unresolved for 12 static visual families and 7 interactive systems. Do not treat source review or CI success as publication clearance.
 
 The older checkbox above stating that screenshots had not been published is superseded by this checkpoint: CI now publishes the 72-image artifact. The per-asset review and seven-gate status remain open.
+
+
+### Additional targeted rendered review — 6 November 2026
+
+- [x] Full-resolution captures reviewed from CI artifact [13483827551](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42177642556/artifacts/13483827551): atomic structure, molecule laboratory, ideal-gas model, acid/base virtual lab, redox chapter, periodic table, chemical bonding, solutions and stoichiometry, including selected RU/EN 390 px and EN 1280 px views.
+- [x] The review found no new confirmed clipping or overlap requiring a source change. The chemical-bonding comparison table is dense at 390 px but remains within the viewport; retain as a usability observation rather than claiming a defect.
+- [x] Recorded screenshot-by-screenshot scope and limitations in `IMAGE_AUDIT.md` (commit `6636bfa56f02605dbcb881a8f2501ece6bec230b`).
+- [x] Branch-head CI run [42193587602](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42193587602) passed on that commit: repository validation, all Chemistry-page Chromium tests, and 72-image screenshot artifact upload succeeded.
+- [ ] Remaining: finish targeted rendered review of the not-yet-inspected visual families and selected interaction states; complete the second-person internal scientific review and record the explicit project rights/licence decision. External specialist review is optional and is not a project blocker.
+
+**Status boundary:** 12/12 static families have first-pass source review and 7/7 interactive systems have first-pass source review. The above rendered review is targeted, not complete per-asset sign-off. Do not label any family VERIFIED or describe Chemistry as publication-ready while its documented rights and review gates remain open.
