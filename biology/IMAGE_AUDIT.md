@@ -977,3 +977,10 @@ The 1365 px full-page Biology screenshots from run 1566 were reviewed for the an
 - `botany-anatomy.svg`: the root stele label still sat inside the lower portion of the cross-section. It has been moved into the explanatory key below the root drawing, preserving space for the xylem and phloem notes. Commit `0f3581ae36e5b2dba36b993b09d20f3e38ee3acd`.
 
 The latest commits have passed static validation and Chromium installation/server setup; the full-page Chromium test and screenshot upload are still running as of this note. These two visual fixes remain **awaiting screenshot acceptance** until those runs complete and their updated images are inspected.
+
+### Screenshot findings and second-pass corrections
+
+- The run-1567 screenshot confirms that heart-chamber abbreviations no longer sit on top of the coloured chambers or flow paths. A second collision was then noticed: the valve note shared the lower return-arrow area. The key and note were separated vertically, and the explanatory return text and oxygen legend were shifted down to preserve clear spacing (commit `b4616b77bd066e63f9bc2cd93bf6d28baf556b95`). The updated screenshot is pending.
+- The run-1568 screenshot showed that moving the root stele note below the section caused it to collide with the endodermis/pericycle labels. The lower root legend was reorganised into distinct rows: endodermis/pericycle, stele, xylem and phloem (commit `e4a14fdb6d7e30609e1596b4ed4602e73efc1e75`). The updated screenshot is pending.
+
+The successful CI runs confirm that the previous commits render and pass the automated browser suite; they do not retroactively validate these newest follow-up edits. The final visual acceptance remains open until the latest screenshots are reviewed.
