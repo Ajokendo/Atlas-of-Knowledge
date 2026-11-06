@@ -1258,3 +1258,11 @@ The project owner extended the CC BY-NC 4.0 authorisation from selected assets t
 - **Bilingual integration:** 08-B is embedded in both language sections; bilingual alt text, captions and the classification/date caveat are present. The source map's internal legend remains in English.
 - **Outstanding:** verify external image loading in the deployed reader and complete responsive, mobile-legibility, keyboard and manual screen-reader checks. The image is INTEGRATED, not VERIFIED.
 - Sources: https://data.isric.org/srv/api/records/71203238-9817-4a4e-a626-6e89a47d501a ; https://files.isric.org/public/WRB/ISRIC_WRB-map_2015_final.pdf ; https://wrb.isric.org/documents.html.
+
+
+### Chapter 08 — SVG source-level visual preflight — 6 November 2026
+
+- Inspected all six original bilingual SVG assets (08-A, 08-C, 08-D, 08-E, 08-F and 08-G) on `workspace/geography`.
+- **PASS:** each file has a `viewBox`, `role="img"`, `aria-labelledby`, non-empty `<title>` and `<desc>`, and unique IDs; no `<script>`, `<foreignObject>` or external `<image>` dependency was found.
+- **Corrections saved:** shortened two overlong explanatory labels in 08-C to avoid likely panel overflow; changed the 08-F English label from “Local unit” to “Mestnost” to match the chapter glossary's transliteration and avoid presenting a loose gloss as an equivalent technical term.
+- **Limit:** this was static source inspection. No claim is made that the SVGs have passed rendered Chromium/browser/mobile, contrast, keyboard, manual screen-reader or deployed-site checks. The 08-B external ISRIC PNG likewise still needs deployed-reader/mobile legibility review.
