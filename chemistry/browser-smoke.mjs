@@ -103,6 +103,10 @@ try {
           return image.decode().catch(() => null);
         }));
       });
+      const brokenRuImages = await page.locator("img").evaluateAll(images =>
+        images.filter(image => !image.complete || image.naturalWidth === 0).map(image => image.currentSrc || image.src)
+      );
+      for (const src of brokenRuImages) errors.push(file + " (RU): image failed to load: " + src);
       const safeName = file.replaceAll("/", "__").replace(/\.html$/, "");
       const languageToggle = page.locator("#lang, #language");
       if (await languageToggle.count() !== 1) {
@@ -122,6 +126,10 @@ try {
           await page.locator("img").evaluateAll(async images => {
             await Promise.all(images.map(image => image.decode().catch(() => null)));
           });
+          const brokenEnImages = await page.locator("img").evaluateAll(images =>
+            images.filter(image => !image.complete || image.naturalWidth === 0).map(image => image.currentSrc || image.src)
+          );
+          for (const src of brokenEnImages) errors.push(file + " (EN): image failed to load: " + src);
           await page.screenshot({
             path: path.join(screenshotDirectory, safeName + "-en-" + width + "px.png"),
             fullPage: true,
