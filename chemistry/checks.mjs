@@ -760,6 +760,25 @@ for (const [file, required] of [
     if (!svg.toLowerCase().includes(phrase.toLowerCase())) errors.push("CH-V06: " + file + " is missing the bilingual acid-base/titration explanation: " + phrase);
   }
 }
+const acidBaseChapterPath = path.join(root, "chapters", "acids-and-bases.html");
+if (fs.existsSync(acidBaseChapterPath)) {
+  const acidBaseChapter = fs.readFileSync(acidBaseChapterPath, "utf8");
+  for (const required of [
+    'class="neutralisation-mobile"',
+    'data-i="mobileDiagramTitle"',
+    'data-i="mobileCurveTitle"',
+    'data-i="mobileQualification"',
+    'mobileDiagramAlt:',
+    '.chemistry-illustration>img{display:none!important}',
+    '.neutralisation-mobile{display:grid;gap:10px}',
+    'setAttribute("aria-label",copy[lang].mobileDiagramAlt)'
+  ]) {
+    if (!acidBaseChapter.includes(required)) errors.push("chapters/acids-and-bases.html: responsive bilingual mobile neutralisation diagram is incomplete: " + required);
+  }
+} else {
+  errors.push("chapters/acids-and-bases.html: responsive acid-base chapter is missing");
+}
+
 const neutralisationSvgPath = path.join(assetRoot, "acid-base-neutralisation.svg");
 if (fs.existsSync(neutralisationSvgPath)) {
   const neutralisationSvg = fs.readFileSync(neutralisationSvgPath, "utf8");
