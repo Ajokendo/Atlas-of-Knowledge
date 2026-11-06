@@ -162,9 +162,11 @@ After studying this chapter, readers will be able to explain the extent and func
 
 На наветренных склонах осадки часто выше, чем на подветренных. Южные и северные склоны в Северном полушарии различаются по освещённости и тепловому режиму. Поэтому две горные долины на одной высоте могут иметь разные экосистемы.
 
-**Рисунок 7.5 / Figure 7.5 — Широтная зональность и высотная поясность / Latitudinal zonation and altitudinal belts.**  
-Техническое задание: сделать две сопоставимые схемы: профиль Земли от экватора к полюсам и горный склон от подножия до нивального пояса; подписать биомы схематически, указать, что реальные границы переходные и зависят от региональных условий.
-**EN production brief:** Create two comparable diagrams: a latitudinal profile from the equator to the poles and a mountain slope from its base to the nival zone. Label biomes schematically and note that real boundaries are transitional and depend on regional conditions.
+![Две концептуальные схемы: широтная смена природных комплексов от экватора к полюсам и высотные пояса горы от подножия к нивальной зоне. / Two conceptual diagrams: latitudinal changes in natural systems from the equator to the poles and mountain belts from the foothills to the nival zone.](../assets/diagrams/07-J-latitudinal-zonation-altitudinal-belts-bilingual.svg)
+
+*07-J. Авторская двуязычная учебная схема Atlas of Knowledge. Последовательности обобщены: широтные зоны и высотные пояса не имеют универсальных резких границ. Высота, состав поясов и положение границ зависят от широты, увлажнения, экспозиции, рельефа и местной циркуляции. Схема не в масштабе и не является картой конкретного региона. / Original bilingual teaching diagram by Atlas of Knowledge. The sequences are generalised: latitudinal zones and altitudinal belts do not have universal sharp boundaries. Elevation, belt composition and boundary positions depend on latitude, moisture, aspect, relief and local circulation. The diagram is not to scale and is not a map of a specific region.*
+
+**Рисунок 7.5 / Figure 7.5 — Широтная зональность и высотная поясность / Latitudinal zonation and altitudinal belts.**
 
 ## 7.8. Главные наземные биомы Земли / Major Terrestrial Biomes
 ![Карта 14 наземных биомов мира по RESOLVE Ecoregions 2017; классификация показывает крупные природные области, а не современный покров земель. / Map of the 14 terrestrial biomes using RESOLVE Ecoregions 2017; a reference classification, not current land cover.](../assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg)
@@ -467,6 +469,12 @@ Latitudinal zonation is the systematic change in natural conditions from the equ
 Altitudinal zonation is the change in natural complexes with increasing elevation in mountains. Temperature usually decreases, while precipitation, growing-season length and soil properties change. The sequence of belts depends on latitude, slope aspect, distance from oceans, relief and local circulation.
 
 Windward slopes often receive more precipitation than leeward slopes. In the Northern Hemisphere, south- and north-facing slopes differ in solar exposure and thermal conditions. Two mountain valleys at the same elevation can therefore support different ecosystems.
+
+![Two conceptual diagrams: latitudinal changes in natural systems from the equator to the poles and mountain belts from the foothills to the nival zone.](../assets/diagrams/07-J-latitudinal-zonation-altitudinal-belts-bilingual.svg)
+
+*07-J. Original bilingual teaching diagram by Atlas of Knowledge. The sequences are generalised: latitudinal zones and altitudinal belts do not have universal sharp boundaries. Elevation, belt composition and boundary positions depend on latitude, moisture, aspect, relief and local circulation. The diagram is not to scale and is not a map of a specific region.*
+
+**Figure 7.5. Latitudinal zonation and altitudinal belts.**
 
 ### 7.8. Major Terrestrial Biomes
 
