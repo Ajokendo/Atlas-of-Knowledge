@@ -1247,3 +1247,14 @@ The Chapter 02 source-work notes dated 4 November 2026 above are retained as his
 ## Geography Atlas — standing visual licence authority — 6 November 2026
 
 The project owner extended the CC BY-NC 4.0 authorisation from selected assets to all original visual assets in the Geography Atlas that the project owns or is authorised to license, including future original visuals. The standing designation supersedes earlier asset-limited owner-authorisation lists. It does not relicense third-party images, maps, data, adaptations or composites; source-specific licence and attribution conditions continue to apply. Individual assets with unresolved provenance or ownership remain PENDING until their records establish eligibility. 07-J is confirmed as an original project-created SVG and its rights gate is now PASS.
+
+
+## Chapter 08 — Visual 08-B source and reuse verification — 6 November 2026
+
+- Integrated the ISRIC *World Soil Map according to WRB 2014*, compiled by Thomas Caspari and Peter Schad in 2015, published in Technical Note 2023/01 (© 2022 ISRIC – World Soil Information).
+- The source metadata identifies the underlying Harmonized World Soil Database (HWSD) v1.2 and WRB 2014. The technical note explains that soil associations were aggregated/reassigned to WRB 2014 map units and that several Reference Soil Groups are grouped in shared legend classes.
+- **Scope caveat:** this is a historical, generalized global overview. It is not a map updated to WRB 2022, does not display all 32 current WRB RSGs as separate classes, and is not suitable for parcel-level or field decisions.
+- **Reuse — PASS:** the ISRIC technical note expressly permits reproduction and dissemination without prior written approval provided the source is fully acknowledged. The PNG is embedded unchanged, with the full poster and DOI linked. This is source-specific permission, not CC BY-NC 4.0; the project-owner licence authorisation for original visuals does not apply to this third-party map.
+- **Bilingual integration:** 08-B is embedded in both language sections; bilingual alt text, captions and the classification/date caveat are present. The source map's internal legend remains in English.
+- **Outstanding:** verify external image loading in the deployed reader and complete responsive, mobile-legibility, keyboard and manual screen-reader checks. The image is INTEGRATED, not VERIFIED.
+- Sources: https://data.isric.org/srv/api/records/71203238-9817-4a4e-a626-6e89a47d501a ; https://files.isric.org/public/WRB/ISRIC_WRB-map_2015_final.pdf ; https://wrb.isric.org/documents.html.
