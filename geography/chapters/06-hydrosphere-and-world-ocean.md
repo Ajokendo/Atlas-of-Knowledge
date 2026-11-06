@@ -1,7 +1,8 @@
 # Глава 6. Гидросфера и Мировой океан
 # Chapter 6. The Hydrosphere and the World Ocean
 
-> **Статус:** рабочая текстовая редакция. Перед публикацией необходимы научная сверка, редактура, подготовка карт и иллюстраций, финальная вёрстка.
+> **Статус:** научно-редакторская проверка текста RU/EN, терминологии, источников и учебных расчётов завершена 6 ноября 2026 года. Визуальная подготовка, финальная вёрстка и техническая QA остаются отдельными этапами; текстовая готовность не означает полной готовности главы к публикации.
+> **Status:** Russian- and English-language text, terminology, sources and worked calculations were reviewed and closed on 6 November 2026. Visual production, final layout and technical QA remain separate; text completion does not mean publication readiness.
 > **Языки:** русский / English.
 
 ## Введение / Introduction
