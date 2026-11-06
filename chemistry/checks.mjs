@@ -1066,6 +1066,38 @@ if (fs.existsSync(atomicStructurePath)) {
 }
 
 
+// CH-IV04: validate the periodic-table dataset as a complete, internally consistent 118-element sequence.
+const periodicTableDataPath = path.join(root, "periodic-table.html");
+if (fs.existsSync(periodicTableDataPath)) {
+  const periodicSource = fs.readFileSync(periodicTableDataPath, "utf8");
+  const rawMatch = periodicSource.match(/const raw=\x60([\s\S]*?)\x60\.trim\(\);/);
+  if (!rawMatch) {
+    errors.push("periodic-table.html: embedded element dataset could not be parsed");
+  } else {
+    const rows = rawMatch[1].trim().split(/\r?\n/).map(line => line.split("|"));
+    const symbols = new Set();
+    const categories = new Set(["nonmetal","noble","alkali","alkaline","metalloid","halogen","transition","post","lanthanide","actinide"]);
+    if (rows.length !== 118) errors.push("periodic-table.html: dataset must contain exactly 118 element records");
+    rows.forEach((r, i) => {
+      const [number, symbol, ruName, enName, mass, category, group, period] = r;
+      if (+number !== i + 1) errors.push("periodic-table.html: atomic numbers must be consecutive at record " + (i + 1));
+      if (!/^[A-Z][a-z]?$/.test(symbol || "") || symbols.has(symbol)) errors.push("periodic-table.html: invalid or duplicate element symbol at record " + (i + 1));
+      symbols.add(symbol);
+      if (!ruName || !enName) errors.push("periodic-table.html: bilingual element names missing for atomic number " + number);
+      if (!/^(?:\d+(?:\.\d+)?|\[\d+\])$/.test(mass || "")) errors.push("periodic-table.html: invalid atomic-mass/mass-number format for " + symbol);
+      if (!categories.has(category)) errors.push("periodic-table.html: unknown element category for " + symbol);
+      if (!Number.isInteger(+group) || +group < 1 || +group > 18 || !Number.isInteger(+period) || +period < 1 || +period > 7) errors.push("periodic-table.html: invalid group or period for " + symbol);
+      if (["lanthanide","actinide"].includes(category) && ![6,7].includes(+period)) errors.push("periodic-table.html: f-block element assigned outside periods 6–7: " + symbol);
+    });
+    if (symbols.size !== rows.length) errors.push("periodic-table.html: element symbols are not unique");
+  }
+  for (const required of ['aria-live="polite" aria-atomic="true"', 'button.setAttribute("aria-pressed",String(active))', '$("search").setAttribute("aria-label",names[lang].searchLabel)']) {
+    if (!periodicSource.includes(required)) errors.push("periodic-table.html: required accessible interaction pattern missing: " + required);
+  }
+} else {
+  errors.push("periodic-table.html: interactive periodic table is missing");
+}
+
 // CH-IV05: the molecular canvas should not run a permanent animation-frame loop while idle.
 const moleculeLabPath = path.join(root, "molecule-lab.html");
 if (fs.existsSync(moleculeLabPath)) {
