@@ -951,3 +951,20 @@ A mobile inspection remediation has been implemented for the 15 regional SVG dia
 
 This closes the specific mobile page-width regression and improves access to embedded labels; it does not close the detailed visual/morphology audit or change any asset to `VERIFIED`. The six sampled core-chapter areas have now also received 19 enlarged scrollable SVG viewports (Anatomy 3, Biochemistry 3, Cell Biology 4, Microbiology 3, Systematics 3, Zoology 3). A shared keyboard handler supports ArrowLeft/ArrowRight on all 34 regional/core viewports. End-to-end browser verification is pending in [run #1554](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42172024322); no keyboard-interaction pass is inferred before its conclusion. The 45/53 disposition rows and 37/53 brief-review rows with open notes remain open until their individual checks are evidenced.
 
+## Screenshot-based internal visual review — 6 November 2026
+
+A focused author-side visual pass inspected the 1365 px Chromium screenshots from the `biology-visual-review` artifact for run [42172301509](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42172301509). This is a desktop screenshot review of the rendered page, not a substitute for mobile review, source/provenance checks, screen-reader testing or independent specialist certification.
+
+**Desktop visual spot-checks passed for this batch:**
+- `anatomy-systems.svg`: the organ groups and bilingual callouts are visually distinct; the simplified, not-to-scale nature is stated.
+- `anatomy-homeostasis.svg`: the two negative-feedback branches, direction arrows and bilingual labels are distinguishable without an apparent collision.
+- `evolution-tree.svg`: node/branch topology and the A+B clade callout are clear; the figure explicitly rejects a progress-ladder interpretation.
+- `systematics-domains.svg`: the three domain panels and their bilingual labels are visually separated; the virus qualification is retained below the visible crop.
+- `cell-animal.svg`: organelle callouts and leader lines are distinguishable in the desktop render; the not-to-scale qualification is visible.
+- `biochem-molecules.svg`: the four biomolecule panels and their explanatory notes are separated; the lipid/non-polymer qualification remains visible.
+
+**Defects found and remediation:**
+- `anatomy-circulation.svg`: the original desktop render showed flow arrows crossing chamber labels and arrowheads crowding the legend. Chamber labels were raised above the paths and legend spacing increased in commit `e8c2c674`; a further route change moves the arrows around the chamber labels in commit `c607a564`. The latter revision awaits its own Chromium screenshot inspection; do not close this item yet.
+- `botany-anatomy.svg`: the original render showed an overlong stem subtitle, a crowded cambium label and leaf-layer labels printed over tissue detail. The subtitle and cambium note were split into shorter lines, and leaf labels were moved to a legend below the section in commits `5dc75490` and `8bb3209c`. The run-1561 screenshot confirms that the leaf tissue is no longer covered by those labels. Root-label spacing was refined again in commit `40ef2e87`; that final revision awaits a new screenshot inspection.
+
+These results are limited to the named desktop figures and revision evidence above. They do not close the broader per-asset queue: image verification remains pending, and no asset is promoted to `VERIFIED` by this screenshot-only pass.
