@@ -1,5 +1,5 @@
 name: Geography Chapter 07 static visual acceptance
-# Current acceptance scope: nine bilingual SVGs, 18 Markdown embeds.
+# Current acceptance scope: nine bilingual SVGs, 18 Markdown embeds; regenerated RESOLVE maps include WGS 84 projection metadata.
 
 on:
   push:
