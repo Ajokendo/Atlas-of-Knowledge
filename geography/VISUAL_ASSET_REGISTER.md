@@ -48,7 +48,7 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 - Chapters 14–16 received missing in-text bilingual markers so each visual brief has a stable production reference.
 - Chapters 17–23 received additional bilingual markers for visual briefs that previously lacked an in-text ID.
-- The earlier marker-ID pass reported 231 assets; that is a superseded legacy count. The current chapter inventory has 283 named, chapter-prefixed IDs. Repeated teaching/brief references and aliases are counted once; Chapter 05's 5-A is an alias of 5.2-A. Chapter 26 intentionally repeats IDs A, B, D, I and K at both teaching locations and in the production-brief list; seven production-brief-only IDs (26-C, E, F, G, H, J and L) were restored as in-text bilingual markers at their relevant chapter sections.
+- The earlier marker-ID pass reported 231 assets; that is a superseded legacy count. The pre-07-J chapter inventory had 283 named, chapter-prefixed IDs; the current inventory has 284 after Figure 7.5 was assigned 07-J. Repeated teaching/brief references and aliases are counted once; Chapter 05's 5-A is an alias of 5.2-A. Chapter 26 intentionally repeats IDs A, B, D, I and K at both teaching locations and in the production-brief list; seven production-brief-only IDs (26-C, E, F, G, H, J and L) were restored as in-text bilingual markers at their relevant chapter sections.
 - Chapters 07–13 received markers for previously unmarked figure briefs.
 - Chapter 26 had reused IDs across different visual subjects. IDs were normalised to 26-A–26-L and the missing C, E, F, G, H, J and L markers were added. Repeated references to the same asset (e.g. a teaching placeholder and its production brief) intentionally retain the same ID.
 
@@ -78,12 +78,12 @@ A placeholder is an instruction, not a completed image. Do not mark an asset com
 
 ### Chapter 06 visual-ID reconciliation — 5 November 2026
 
-- Reconciled the four original core IDs (6-A–6-D) with eleven additional figure concepts that had production briefs but no in-text stable markers. Added bilingual teaching-location markers for 6.1-A, 6.5-A, 6.7-A, 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A and 6.18-A. The four duplicate aliases 6.2-A, 6.3-A, 6.4-A and 6.6-A were normalised to the corresponding core IDs rather than counted twice. Chapter 06 now has 15 unique visual IDs; 6-A, 6-C, 6.1-A, 6.5-A, 6.7-A and 6-D are integrated in both language sections. The new 6-D bilingual wave/tide/current schematic is integrated; its project rights/licence and rendered accessibility checks remain pending. 6-B has a candidate dataset with confirmed CC BY 4.0 terms but no finished map; nine other visual needs remain open. The repository-wide unique-ID total remains unreconciled (legacy headline 231; chapter-row sum 283).
+- Reconciled the four original core IDs (6-A–6-D) with eleven additional figure concepts that had production briefs but no in-text stable markers. Added bilingual teaching-location markers for 6.1-A, 6.5-A, 6.7-A, 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A and 6.18-A. The four duplicate aliases 6.2-A, 6.3-A, 6.4-A and 6.6-A were normalised to the corresponding core IDs rather than counted twice. Chapter 06 now has 15 unique visual IDs; 6-A, 6-C, 6.1-A, 6.5-A, 6.7-A and 6-D are integrated in both language sections. The new 6-D bilingual wave/tide/current schematic is integrated; its project rights/licence and rendered accessibility checks remain pending. 6-B has a candidate dataset with confirmed CC BY 4.0 terms but no finished map; nine other visual needs remain open. At that historical checkpoint, the repository-wide unique-ID total remained unreconciled (legacy headline 231; chapter-row sum 283). The 6 November 2026 current count is 284 after adding 07-J.
 
 
 ## IMAGE-FIRST v1.1 inventory reconciliation warning — 5 November 2026
 
-The register's headline currently states **231 unique visual IDs**. However, the chapter-level counts in its inventory table sum to **283** after adding the verified Chapter 09 ID 09-G. The Chapter 05 line states 20 IDs but only 18 IDs can currently be enumerated safely from the available subsection sequence, Chapter 09's 09-G is present in the chapter itself and is now included in the inventory row. These figures must not be silently reconciled by inventing IDs or deleting valid ones. Until every chapter file, in-text marker, production brief and actual asset is reconciled, treat the register headline of 231 and the chapter-row sum of 283 as unverified competing totals. See [IMAGE_AUDIT.md](IMAGE_AUDIT.md). Do not calculate Image Coverage from either figure yet.
+At the earlier audit checkpoint, the register's headline stated **231 unique visual IDs**. However, the chapter-level counts in its inventory table sum to **283** after adding the verified Chapter 09 ID 09-G. The Chapter 05 line states 20 IDs but only 18 IDs can currently be enumerated safely from the available subsection sequence, Chapter 09's 09-G is present in the chapter itself and is now included in the inventory row. These figures must not be silently reconciled by inventing IDs or deleting valid ones. Until every chapter file, in-text marker, production brief and actual asset is reconciled, treat the register headline of 231 and the chapter-row sum of 283 as unverified competing totals. See [IMAGE_AUDIT.md](IMAGE_AUDIT.md). Do not calculate Image Coverage from either figure yet.
 
 
 ## IMAGE-FIRST v1.1 integration scan — Chapters 06–26 (5 November 2026)
@@ -125,7 +125,7 @@ The earlier “Chapters 06–26 integration scan” above is a historical snapsh
 
 Chapter 20.6.7 additionally embeds one supplementary CC BY 4.0 research figure showing the 2019 glacial-lake distribution in the Kyrgyz and Teskey ranges. It is not counted as one of the 20-A–20-K planned assets. Chapter 12-A's SVG embeds a remote Wikimedia relief map; this is a dependency, not a fully self-contained local map image.
 
-**Important:** the repository-wide headline of 231 unique IDs and chapter-row sum of 283 remain unreconciled. The table above is a scoped count for Chapters 11–20 only and does not resolve the repository-wide inventory. The full source, rights, scientific, accessibility and technical status is in IMAGE_SOURCES.md and IMAGE_AUDIT.md.
+**Historical note:** the earlier repository-wide headline of 231 unique IDs and chapter-row sum of 283 were unreconciled. The table above is a scoped count for Chapters 11–20 only and does not resolve the repository-wide inventory. The full source, rights, scientific, accessibility and technical status is in IMAGE_SOURCES.md and IMAGE_AUDIT.md.
 
 
 ## Superseding visual-integration update — Chapters 11–20 — 5 November 2026
@@ -150,7 +150,7 @@ Six additional original bilingual SVGs are now integrated: 11-E, 12-D, 13-D, 14-
 
 All six new chapter embeds and their matching SVG files were re-fetched from workspace/geography; each embed has non-empty bilingual alt text and each relative asset path resolves to an existing file. Static SVG source checks passed. These checks do not certify live rendering, mobile layout, keyboard/screen-reader behaviour, scientific sign-off or project redistribution rights.
 
-The repository-wide inventory has been reconciled at 283 named IDs; Chapter 05's former 20-position count is now 19 unique IDs plus the 5-A alias. The 34/97 count is scoped only to Chapters 11–20 and must not be extrapolated to the whole repository.
+Before the addition of Chapter 07 visual 07-J, the repository-wide inventory had been reconciled at 283 named IDs; Chapter 05's former 20-position count is now 19 unique IDs plus the 5-A alias. The 34/97 count is scoped only to Chapters 11–20 and must not be extrapolated to the whole repository.
 
 
 ## Fifth-tranche update — Chapters 11–20 — 5 November 2026
@@ -173,7 +173,7 @@ The 39/97 table above is superseded by the following current scoped count after 
 
 Five additional original bilingual SVGs are now integrated: 11-D, 13-B, 14-E, 15-E and 16-D. Chapters 11–16 therefore contain 23 integrated planned IDs; Chapters 17–20 contain 15. Total scoped integration is 39/97. Chapter 20.6.7 still contains one supplementary CC BY 4.0 research figure outside the planned-ID count.
 
-All five new embeds and their relative asset paths were checked against the working branch. All five SVGs passed static structure checks. This does not certify specialist review, licence assignment, responsive rendering, keyboard navigation or screen-reader output. The repository-wide 231-versus-283 visual-ID discrepancy remains unresolved; this scoped 39/97 count must not be extrapolated to other chapters.
+All five new embeds and their relative asset paths were checked against the working branch. All five SVGs passed static structure checks. This does not certify specialist review, licence assignment, responsive rendering, keyboard navigation or screen-reader output. The historical 231-versus-283 visual-ID discrepancy remained unresolved at that checkpoint; this scoped 39/97 count must not be extrapolated to other chapters.
 
 
 ## Sixth-tranche update — Chapter 20 — 5 November 2026
