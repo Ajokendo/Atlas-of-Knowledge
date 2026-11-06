@@ -7,6 +7,12 @@
 - [x] Expanded the screenshot artifact to include both Russian and English baselines for all 12 selected pages at 390, 768 and 1280 CSS-pixel widths (72 images per successful run).
 - [x] Refined periodic-trend arrowhead scale and hid the mobile scroll hint at desktop widths; branch-head CI and artifact review are pending.
 
+### Mobile-first acid–base diagram — 6 November 2026
+
+- [x] Added a vertically stacked mobile version of the neutralisation visual so reaction labels, titration curve and model notes remain readable on narrow screens.
+- [x] Kept the wide RU/EN SVG pair for desktop and synchronised mobile labels/accessible name with the language toggle.
+- [x] Added static and browser assertions for the responsive layout and bilingual content; fresh CI is pending.
+
 ### Acid–base visual correction — 6 November 2026
 
 - [x] Repaired the Russian titration-curve note overlapping the x-axis caption.
