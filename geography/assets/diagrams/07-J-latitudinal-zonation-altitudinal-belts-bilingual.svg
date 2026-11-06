@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">Широтная зональность и высотная поясность / Latitudinal zonation and altitudinal belts</title>
+<desc id="desc">Две сопоставимые концептуальные схемы: смена природных комплексов от экватора к полюсам и смена высотных поясов от подножия горы к нивальной зоне. Границы условны и зависят от региональных условий. / Two comparable conceptual diagrams: changes in natural systems from the equator to the poles and altitudinal belts from a mountain base to the nival zone. Boundaries are illustrative and depend on regional conditions.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f4f9fc"/><stop offset="1" stop-color="#fff"/></linearGradient>
+ <linearGradient id="lat" x2="1" y2="0"><stop stop-color="#2c9b59"/><stop offset=".25" stop-color="#d8b85c"/><stop offset=".5" stop-color="#4e9b65"/><stop offset=".75" stop-color="#6b8794"/><stop offset="1" stop-color="#dce8ef"/></linearGradient>
+ <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#eaf5fa"/><stop offset=".4" stop-color="#8db7a0"/><stop offset="1" stop-color="#477d52"/></linearGradient>
+ <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#28485a"/></marker>
+</defs>
+<rect width="1400" height="900" rx="24" fill="url(#bg)"/>
+<text x="700" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#17384d">Широтная зональность и высотная поясность</text>
+<text x="700" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#31586c">Latitudinal zonation and altitudinal belts</text>
+
+<!-- Panel 1 -->
+<rect x="35" y="110" width="1330" height="330" rx="18" fill="#fff" stroke="#b6cbd6" stroke-width="2"/>
+<text x="65" y="150" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#20485c">1. От экватора к полюсам / From the equator towards the poles</text>
+<text x="700" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#456477">Схематическая последовательность природных комплексов / Schematic sequence of natural systems</text>
+<rect x="95" y="205" width="1210" height="115" rx="10" fill="url(#lat)" stroke="#456477" stroke-width="1.5"/>
+<path d="M95 205V320M337 205V320M579 205V320M821 205V320M1063 205V320M1305 205V320" stroke="#ffffff" stroke-width="2" stroke-dasharray="7 7" opacity=".9"/>
+<g font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#17384d">
+ <text x="216" y="248">Тропические</text><text x="216" y="273">леса</text>
+ <text x="458" y="248">Саванны и</text><text x="458" y="273">сухие области</text>
+ <text x="700" y="248">Умеренные</text><text x="700" y="273">леса и степи</text>
+ <text x="942" y="248">Бореальные</text><text x="942" y="273">леса (тайга)</text>
+ <text x="1184" y="248">Тундра и</text><text x="1184" y="273">полярные пустыни</text>
+</g>
+<path d="M110 345H1290" stroke="#28485a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g font-family="Arial,sans-serif" font-size="18" fill="#28485a">
+ <text x="110" y="373">Экватор / Equator</text><text x="700" y="373" text-anchor="middle">Широта увеличивается / Latitude increases</text><text x="1290" y="373" text-anchor="end">Полюс / Pole</text>
+</g>
+<text x="700" y="414" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#526c79">Показана общая закономерность, а не точная карта границ биомов. / General pattern only; not an exact map of biome boundaries.</text>
+
+<!-- Panel 2 -->
+<rect x="35" y="465" width="1330" height="380" rx="18" fill="#fff" stroke="#b6cbd6" stroke-width="2"/>
+<text x="65" y="505" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#20485c">2. От подножия горы к вершине / From mountain base to summit</text>
+<text x="700" y="538" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#456477">Примерная смена поясов; высоты и состав зависят от региона / Illustrative belt sequence; elevation and composition vary by region</text>
+<!-- mountain body -->
+<path d="M110 790 L270 710 L390 735 L555 600 L690 650 L850 555 L1030 690 L1180 645 L1300 790Z" fill="url(#mountain)" stroke="#547a68" stroke-width="3"/>
+<path d="M555 600L690 650L850 555L1030 690" fill="none" stroke="#fff" stroke-width="4" opacity=".8"/>
+<path d="M850 555L900 600L870 610L930 645L1030 690L970 660L930 668L890 630L860 640L820 615Z" fill="#eef6fa" stroke="#9bb4c2" stroke-width="2"/>
+<!-- forest symbols -->
+<g fill="#276747" stroke="#174a35" stroke-width="2">
+ <path d="M190 750l24-52 24 52h-15l15 26h-48l15-26z"/><path d="M265 720l22-48 22 48h-14l14 24h-44l14-24z"/>
+ <path d="M365 748l22-49 22 49h-14l14 24h-44l14-24z"/><path d="M455 675l24-52 24 52h-15l15 26h-48l15-26z"/>
+</g>
+<!-- labels and elevation arrow -->
+<path d="M1120 760V575" stroke="#28485a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1145" y="590" font-family="Arial,sans-serif" font-size="17" fill="#28485a">Высота растёт</text>
+<text x="1145" y="613" font-family="Arial,sans-serif" font-size="17" fill="#28485a">Elevation increases</text>
+<g font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#17384d">
+ <text x="120" y="820">Подножие / Foothills</text>
+ <text x="310" y="700">Горные леса</text><text x="310" y="721">Montane forests</text>
+ <text x="575" y="620">Субальпийские</text><text x="575" y="642">луга / Subalpine meadows</text>
+ <text x="790" y="565">Альпийские луга</text><text x="790" y="587">Alpine meadows</text>
+ <text x="965" y="655">Нивальная зона</text><text x="965" y="677">Nival zone</text>
+</g>
+<text x="700" y="830" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#526c79">Схема концептуальная, не в масштабе; границы поясов переходные. / Conceptual, not to scale; belt boundaries are transitional.</text>
+<text x="700" y="878" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#647b87">Atlas of Knowledge • Учебная схема / Teaching diagram • No fixed altitude thresholds are implied.</text>
+</svg>
