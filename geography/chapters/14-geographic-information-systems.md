@@ -692,6 +692,8 @@ Also check the coordinate reference system, units, topological errors, metadata 
 
 **Масштаб, разрешение и дата.** Крупный масштаб отображения не добавляет исходным данным точности. Разрешение растрового пикселя не равно точности положения границы объекта. Указывайте дату съёмки или обследования, масштаб исходной карты, систему координат, метод обработки и ограничения использования.
 
+**Связь со стандартами качества.** ISO 19157-1:2023 описывает компоненты качества географических данных, общие процедуры их оценки и принципы отчётности, но не устанавливает единый минимальный порог точности или полноты для всех наборов данных. Приёмочные пороги должны задаваться требованиями конкретной задачи или спецификацией продукта данных; ISO 19131:2022 описывает требования к таким спецификациям. Поэтому вывод «данные точны» без указания показателя, метода проверки, эталонных данных и допустимого порога недостаточен.
+
 **Учебное задание.** Для слоя дорог и карты земного покрова составьте отдельные планы контроля качества. Укажите, какие независимые данные нужны, как выбрать контрольные точки или участки и почему одну общую цифру точности нельзя использовать для обоих слоёв.
 
 A map or GIS layer may look highly detailed without being accurate. It is important to distinguish positional accuracy, thematic classification accuracy, data completeness and currency. These characteristics answer different questions and do not replace one another.
@@ -960,6 +962,30 @@ A typical project can be organised into stages:
 
 A reproducible project should allow another specialist to understand which data, parameters and operations produced the result. For practical reproducibility, preserve not only the project file but also copies of input data or stable links to versioned data, download dates, GIS and plugin versions, the selected coordinate operation and its grid files, processing parameters, environment settings and output files. If an algorithm uses random sampling or simulation, record the random seed where supported. Test relative paths and external services on another computer: a link may stop working or a remote layer may change.
 
+### 14.17.1. Assessing Spatial Data Quality
+
+Before analysis, assess not only a layer's file format but also its lineage, accuracy, completeness and currency. Ask: who created the data and by what method; how accurately are locations represented; are features classified correctly; which features or values are missing; and when were the data collected?
+
+Also inspect the coordinate reference system and units, geometry and topology, attribute domains, metadata, temporal coverage and licence restrictions. A high spatial resolution does not guarantee high accuracy: a detailed layer may still contain positional shifts, classification errors or outdated features.
+
+**Example.** A road network used to estimate travel time to a hospital should account for passability, traffic restrictions, seasonal closures and realistic speeds. If mountain passes are incorrectly represented as open throughout the year, the calculated accessibility may be overstated.
+
+**Activity.** Prepare a quality record for a road-network layer. Include its source and producer, collection/update date, scale or resolution where relevant, CRS and units, attribute definitions, known gaps, quality evidence, licence and appropriate uses.
+
+### 14.17.2. Assessing the Accuracy of Spatial Data
+
+A map or GIS layer may look highly detailed without being accurate. Distinguish at least four aspects: positional accuracy, thematic or classification accuracy, completeness and temporal currency. These characteristics answer different questions and cannot replace one another.
+
+**Positional accuracy.** Compare coordinates with independent reference measurements of higher accuracy. For georeferenced imagery, checkpoints must not be the same points used to fit the transformation. Distribute checkpoints across the study area, including its edges and interior; document their number, selection method, reference-data accuracy and the statistic used. Residuals calculated from the same ground control points used to fit a transformation describe fit to those points, not independent positional accuracy. Report the metric and confidence interpretation required by the project specification; do not treat one RMSE threshold as universal.
+
+**Thematic accuracy.** For a classified map, such as land-cover types, compare the classification with an independent reference sample and prepare an error or confusion matrix. Overall accuracy can conceal poor performance for rare classes, so examine omission and commission errors by class and consider whether the reference sample is representative.
+
+**Scale, resolution and date.** A large display scale does not add accuracy to source data. Raster cell size is not the same as the positional accuracy of a feature boundary. Record the acquisition or survey date, source-map scale where applicable, CRS, processing method and known limitations.
+
+**Quality standards and acceptance thresholds.** ISO 19157-1:2023 provides a framework for describing, evaluating and reporting geographic-data quality; it does not prescribe one minimum acceptable quality level for every dataset. The required threshold should come from the intended use, user requirements or a data-product specification. ISO 19131:2022 describes requirements for such specifications. A statement that data are “accurate” is incomplete unless it identifies the measure, evaluation method, reference data and applicable acceptance threshold.
+
+**Activity.** Prepare separate quality-control plans for a road layer and a land-cover map. Identify the independent reference data needed, how checkpoints or sample sites should be selected, which quality measures are relevant and why one overall accuracy figure cannot be used for both layers.
+
 ## 14.18. Итоги главы / Chapter Summary
 
 1. ГИС объединяет пространственные данные, программные средства, методы, инфраструктуру и пользователей.
@@ -1184,6 +1210,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 37. OpenStreetMap Foundation. **Attribution Guidelines** — ODbL attribution requirements for public maps, produced works and databases. https://osmfoundation.org/wiki/Attribution_Guidelines
 38. European Commission. **Legal Notice on the Use of Copernicus Sentinel Data and Service Information** — free, full and open access, permitted uses and warranty limitations. https://cds.climate.copernicus.eu/licences/ec-sentinel
 39. U.S. Geological Survey. **Restrictions on the Use or Redistribution of Landsat Data** — USGS Landsat public-domain status and requested source acknowledgement. https://www.usgs.gov/faqs/are-there-any-restrictions-use-or-redistribution-landsat-data?items_per_page=6&page=0
+40. International Organization for Standardization. **ISO 19131:2022 — Geographic information — Data product specifications.** Requirements and guidance for specifying geographic data products for their intended purpose. https://www.iso.org/standard/85092.html
 
 ---
 **Конец главы 14 / End of Chapter 14**
