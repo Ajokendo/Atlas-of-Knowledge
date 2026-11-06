@@ -65762,33 +65762,33 @@
 <text x="70" y="840" font-family="Arial,sans-serif" font-size="15" fill="#526773">180°W</text>
 <text x="650" y="840" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#526773">0°</text>
 <text x="1270" y="840" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#526773">180°E</text>
-<text x="1350" y="58" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#183044">Легенда / Legend</text>
-<rect x="1350" y="105" width="24" height="24" rx="3" fill="#d77a52" stroke="#45545a"/>
-<text x="1386" y="116" font-family="Arial,sans-serif" font-size="15" fill="#183044">Афротропическая область</text>
-<text x="1386" y="134" font-family="Arial,sans-serif" font-size="13" fill="#405966">Afrotropic</text>
-<rect x="1350" y="167" width="24" height="24" rx="3" fill="#d8e6ed" stroke="#45545a"/>
-<text x="1386" y="178" font-family="Arial,sans-serif" font-size="15" fill="#183044">Антарктическая область</text>
-<text x="1386" y="196" font-family="Arial,sans-serif" font-size="13" fill="#405966">Antarctica</text>
-<rect x="1350" y="229" width="24" height="24" rx="3" fill="#7d9c63" stroke="#45545a"/>
-<text x="1386" y="240" font-family="Arial,sans-serif" font-size="15" fill="#183044">Австралазийская область</text>
-<text x="1386" y="258" font-family="Arial,sans-serif" font-size="13" fill="#405966">Australasia</text>
-<rect x="1350" y="291" width="24" height="24" rx="3" fill="#c2a44b" stroke="#45545a"/>
-<text x="1386" y="302" font-family="Arial,sans-serif" font-size="15" fill="#183044">Индомалайская область</text>
-<text x="1386" y="320" font-family="Arial,sans-serif" font-size="13" fill="#405966">Indomalayan</text>
-<rect x="1350" y="353" width="24" height="24" rx="3" fill="#6596b5" stroke="#45545a"/>
-<text x="1386" y="364" font-family="Arial,sans-serif" font-size="15" fill="#183044">Неарктическая область</text>
-<text x="1386" y="382" font-family="Arial,sans-serif" font-size="13" fill="#405966">Nearctic</text>
-<rect x="1350" y="415" width="24" height="24" rx="3" fill="#8e75ad" stroke="#45545a"/>
-<text x="1386" y="426" font-family="Arial,sans-serif" font-size="15" fill="#183044">Неотропическая область</text>
-<text x="1386" y="444" font-family="Arial,sans-serif" font-size="13" fill="#405966">Neotropic</text>
-<rect x="1350" y="477" width="24" height="24" rx="3" fill="#d48bb0" stroke="#45545a"/>
-<text x="1386" y="488" font-family="Arial,sans-serif" font-size="15" fill="#183044">Океанийская область</text>
-<text x="1386" y="506" font-family="Arial,sans-serif" font-size="13" fill="#405966">Oceania</text>
-<rect x="1350" y="539" width="24" height="24" rx="3" fill="#70a58c" stroke="#45545a"/>
-<text x="1386" y="550" font-family="Arial,sans-serif" font-size="15" fill="#183044">Палеарктическая область</text>
-<text x="1386" y="568" font-family="Arial,sans-serif" font-size="13" fill="#405966">Palearctic</text>
-<text x="1350" y="627" font-family="Arial,sans-serif" font-size="13" fill="#183044">Классификация наземных экорегионов; не карта современного землепользования.</text>
-<text x="1350" y="649" font-family="Arial,sans-serif" font-size="12" fill="#405966">A reference classification of terrestrial ecoregions; not a current land-cover map.</text>
+<text x="1325" y="58" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#183044">Легенда / Legend</text>
+<rect x="1325" y="105" width="24" height="24" rx="3" fill="#d77a52" stroke="#45545a"/>
+<text x="1361" y="116" font-family="Arial,sans-serif" font-size="12" fill="#183044">Афротропическая область</text>
+<text x="1361" y="134" font-family="Arial,sans-serif" font-size="11" fill="#405966">Afrotropic</text>
+<rect x="1325" y="167" width="24" height="24" rx="3" fill="#d8e6ed" stroke="#45545a"/>
+<text x="1361" y="178" font-family="Arial,sans-serif" font-size="12" fill="#183044">Антарктическая область</text>
+<text x="1361" y="196" font-family="Arial,sans-serif" font-size="11" fill="#405966">Antarctica</text>
+<rect x="1325" y="229" width="24" height="24" rx="3" fill="#7d9c63" stroke="#45545a"/>
+<text x="1361" y="240" font-family="Arial,sans-serif" font-size="12" fill="#183044">Австралазийская область</text>
+<text x="1361" y="258" font-family="Arial,sans-serif" font-size="11" fill="#405966">Australasia</text>
+<rect x="1325" y="291" width="24" height="24" rx="3" fill="#c2a44b" stroke="#45545a"/>
+<text x="1361" y="302" font-family="Arial,sans-serif" font-size="12" fill="#183044">Индомалайская область</text>
+<text x="1361" y="320" font-family="Arial,sans-serif" font-size="11" fill="#405966">Indomalayan</text>
+<rect x="1325" y="353" width="24" height="24" rx="3" fill="#6596b5" stroke="#45545a"/>
+<text x="1361" y="364" font-family="Arial,sans-serif" font-size="12" fill="#183044">Неарктическая область</text>
+<text x="1361" y="382" font-family="Arial,sans-serif" font-size="11" fill="#405966">Nearctic</text>
+<rect x="1325" y="415" width="24" height="24" rx="3" fill="#8e75ad" stroke="#45545a"/>
+<text x="1361" y="426" font-family="Arial,sans-serif" font-size="12" fill="#183044">Неотропическая область</text>
+<text x="1361" y="444" font-family="Arial,sans-serif" font-size="11" fill="#405966">Neotropic</text>
+<rect x="1325" y="477" width="24" height="24" rx="3" fill="#d48bb0" stroke="#45545a"/>
+<text x="1361" y="488" font-family="Arial,sans-serif" font-size="12" fill="#183044">Океанийская область</text>
+<text x="1361" y="506" font-family="Arial,sans-serif" font-size="11" fill="#405966">Oceania</text>
+<rect x="1325" y="539" width="24" height="24" rx="3" fill="#70a58c" stroke="#45545a"/>
+<text x="1361" y="550" font-family="Arial,sans-serif" font-size="12" fill="#183044">Палеарктическая область</text>
+<text x="1361" y="568" font-family="Arial,sans-serif" font-size="11" fill="#405966">Palearctic</text>
+<text x="1325" y="627" font-family="Arial,sans-serif" font-size="12" fill="#183044">Классификация; не современный покров земель.</text>
+<text x="1325" y="649" font-family="Arial,sans-serif" font-size="11" fill="#405966">Reference classification; not current land cover.</text>
 <text x="60" y="900" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Источник данных / Data: RESOLVE Ecoregions 2017; Dinerstein et al. (2017), BioScience 67(6): 534–545. DOI: 10.1093/biosci/bix014.</text>
 <text x="60" y="925" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Данные / Data licence: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/ . Карта создана Atlas of Knowledge; геометрия упрощена для учебного масштаба.</text>
 <text x="60" y="950" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">This derivative map is attributed to RESOLVE / Dinerstein et al. and is distributed under CC BY 4.0.</text>

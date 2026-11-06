@@ -65762,51 +65762,51 @@
 <text x="70" y="840" font-family="Arial,sans-serif" font-size="15" fill="#526773">180°W</text>
 <text x="650" y="840" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#526773">0°</text>
 <text x="1270" y="840" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#526773">180°E</text>
-<text x="1350" y="58" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#183044">Легенда / Legend</text>
-<rect x="1350" y="105" width="24" height="24" rx="3" fill="#167a45" stroke="#45545a"/>
-<text x="1386" y="116" font-family="Arial,sans-serif" font-size="15" fill="#183044">Влажные тропические и субтропические широколиственные леса</text>
-<text x="1386" y="134" font-family="Arial,sans-serif" font-size="13" fill="#405966">Tropical &amp; Subtropical Moist Broadleaf Forests</text>
-<rect x="1350" y="147" width="24" height="24" rx="3" fill="#a6a63c" stroke="#45545a"/>
-<text x="1386" y="158" font-family="Arial,sans-serif" font-size="15" fill="#183044">Сухие тропические и субтропические широколиственные леса</text>
-<text x="1386" y="176" font-family="Arial,sans-serif" font-size="13" fill="#405966">Tropical &amp; Subtropical Dry Broadleaf Forests</text>
-<rect x="1350" y="189" width="24" height="24" rx="3" fill="#69a85c" stroke="#45545a"/>
-<text x="1386" y="200" font-family="Arial,sans-serif" font-size="15" fill="#183044">Тропические и субтропические хвойные леса</text>
-<text x="1386" y="218" font-family="Arial,sans-serif" font-size="13" fill="#405966">Tropical &amp; Subtropical Coniferous Forests</text>
-<rect x="1350" y="231" width="24" height="24" rx="3" fill="#26734d" stroke="#45545a"/>
-<text x="1386" y="242" font-family="Arial,sans-serif" font-size="15" fill="#183044">Умеренные широколиственные и смешанные леса</text>
-<text x="1386" y="260" font-family="Arial,sans-serif" font-size="13" fill="#405966">Temperate Broadleaf &amp; Mixed Forests</text>
-<rect x="1350" y="273" width="24" height="24" rx="3" fill="#7b9b72" stroke="#45545a"/>
-<text x="1386" y="284" font-family="Arial,sans-serif" font-size="15" fill="#183044">Умеренные хвойные леса</text>
-<text x="1386" y="302" font-family="Arial,sans-serif" font-size="13" fill="#405966">Temperate Conifer Forests</text>
-<rect x="1350" y="315" width="24" height="24" rx="3" fill="#4f7f9d" stroke="#45545a"/>
-<text x="1386" y="326" font-family="Arial,sans-serif" font-size="15" fill="#183044">Бореальные леса / тайга</text>
-<text x="1386" y="344" font-family="Arial,sans-serif" font-size="13" fill="#405966">Boreal Forests/Taiga</text>
-<rect x="1350" y="357" width="24" height="24" rx="3" fill="#d58a32" stroke="#45545a"/>
-<text x="1386" y="368" font-family="Arial,sans-serif" font-size="15" fill="#183044">Тропические и субтропические луга, саванны и кустарники</text>
-<text x="1386" y="386" font-family="Arial,sans-serif" font-size="13" fill="#405966">Tropical &amp; Subtropical Grasslands, Savannas &amp; Shrublands</text>
-<rect x="1350" y="399" width="24" height="24" rx="3" fill="#d6bd58" stroke="#45545a"/>
-<text x="1386" y="410" font-family="Arial,sans-serif" font-size="15" fill="#183044">Умеренные луга, саванны и кустарники</text>
-<text x="1386" y="428" font-family="Arial,sans-serif" font-size="13" fill="#405966">Temperate Grasslands, Savannas &amp; Shrublands</text>
-<rect x="1350" y="441" width="24" height="24" rx="3" fill="#7bb7c8" stroke="#45545a"/>
-<text x="1386" y="452" font-family="Arial,sans-serif" font-size="15" fill="#183044">Затопляемые луга и саванны</text>
-<text x="1386" y="470" font-family="Arial,sans-serif" font-size="13" fill="#405966">Flooded Grasslands &amp; Savannas</text>
-<rect x="1350" y="483" width="24" height="24" rx="3" fill="#b59b70" stroke="#45545a"/>
-<text x="1386" y="494" font-family="Arial,sans-serif" font-size="15" fill="#183044">Горные луга и кустарники</text>
-<text x="1386" y="512" font-family="Arial,sans-serif" font-size="13" fill="#405966">Montane Grasslands &amp; Shrublands</text>
-<rect x="1350" y="525" width="24" height="24" rx="3" fill="#9bb7ad" stroke="#45545a"/>
-<text x="1386" y="536" font-family="Arial,sans-serif" font-size="15" fill="#183044">Тундра</text>
-<text x="1386" y="554" font-family="Arial,sans-serif" font-size="13" fill="#405966">Tundra</text>
-<rect x="1350" y="567" width="24" height="24" rx="3" fill="#b66a58" stroke="#45545a"/>
-<text x="1386" y="578" font-family="Arial,sans-serif" font-size="15" fill="#183044">Средиземноморские леса, редколесья и кустарники</text>
-<text x="1386" y="596" font-family="Arial,sans-serif" font-size="13" fill="#405966">Mediterranean Forests, Woodlands &amp; Scrub</text>
-<rect x="1350" y="609" width="24" height="24" rx="3" fill="#c58a57" stroke="#45545a"/>
-<text x="1386" y="620" font-family="Arial,sans-serif" font-size="15" fill="#183044">Пустыни и ксерофитные кустарники</text>
-<text x="1386" y="638" font-family="Arial,sans-serif" font-size="13" fill="#405966">Deserts &amp; Xeric Shrublands</text>
-<rect x="1350" y="651" width="24" height="24" rx="3" fill="#55a9a0" stroke="#45545a"/>
-<text x="1386" y="662" font-family="Arial,sans-serif" font-size="15" fill="#183044">Мангровые леса</text>
-<text x="1386" y="680" font-family="Arial,sans-serif" font-size="13" fill="#405966">Mangroves</text>
-<text x="1350" y="719" font-family="Arial,sans-serif" font-size="13" fill="#183044">Классификация наземных экорегионов; не карта современного землепользования.</text>
-<text x="1350" y="741" font-family="Arial,sans-serif" font-size="12" fill="#405966">A reference classification of terrestrial ecoregions; not a current land-cover map.</text>
+<text x="1325" y="58" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#183044">Легенда / Legend</text>
+<rect x="1325" y="105" width="24" height="24" rx="3" fill="#167a45" stroke="#45545a"/>
+<text x="1361" y="116" font-family="Arial,sans-serif" font-size="12" fill="#183044">Влажные тропические и субтропические широколиственные леса</text>
+<text x="1361" y="134" font-family="Arial,sans-serif" font-size="11" fill="#405966">Tropical &amp; Subtropical Moist Broadleaf Forests</text>
+<rect x="1325" y="153" width="24" height="24" rx="3" fill="#a6a63c" stroke="#45545a"/>
+<text x="1361" y="164" font-family="Arial,sans-serif" font-size="12" fill="#183044">Сухие тропические и субтропические широколиственные леса</text>
+<text x="1361" y="182" font-family="Arial,sans-serif" font-size="11" fill="#405966">Tropical &amp; Subtropical Dry Broadleaf Forests</text>
+<rect x="1325" y="201" width="24" height="24" rx="3" fill="#69a85c" stroke="#45545a"/>
+<text x="1361" y="212" font-family="Arial,sans-serif" font-size="12" fill="#183044">Тропические и субтропические хвойные леса</text>
+<text x="1361" y="230" font-family="Arial,sans-serif" font-size="11" fill="#405966">Tropical &amp; Subtropical Coniferous Forests</text>
+<rect x="1325" y="249" width="24" height="24" rx="3" fill="#26734d" stroke="#45545a"/>
+<text x="1361" y="260" font-family="Arial,sans-serif" font-size="12" fill="#183044">Умеренные широколиственные и смешанные леса</text>
+<text x="1361" y="278" font-family="Arial,sans-serif" font-size="11" fill="#405966">Temperate Broadleaf &amp; Mixed Forests</text>
+<rect x="1325" y="297" width="24" height="24" rx="3" fill="#7b9b72" stroke="#45545a"/>
+<text x="1361" y="308" font-family="Arial,sans-serif" font-size="12" fill="#183044">Умеренные хвойные леса</text>
+<text x="1361" y="326" font-family="Arial,sans-serif" font-size="11" fill="#405966">Temperate Conifer Forests</text>
+<rect x="1325" y="345" width="24" height="24" rx="3" fill="#4f7f9d" stroke="#45545a"/>
+<text x="1361" y="356" font-family="Arial,sans-serif" font-size="12" fill="#183044">Бореальные леса / тайга</text>
+<text x="1361" y="374" font-family="Arial,sans-serif" font-size="11" fill="#405966">Boreal Forests/Taiga</text>
+<rect x="1325" y="393" width="24" height="24" rx="3" fill="#d58a32" stroke="#45545a"/>
+<text x="1361" y="404" font-family="Arial,sans-serif" font-size="12" fill="#183044">Тропические и субтропические луга, саванны и кустарники</text>
+<text x="1361" y="422" font-family="Arial,sans-serif" font-size="11" fill="#405966">Tropical &amp; Subtropical Grasslands, Savannas &amp; Shrublands</text>
+<rect x="1325" y="441" width="24" height="24" rx="3" fill="#d6bd58" stroke="#45545a"/>
+<text x="1361" y="452" font-family="Arial,sans-serif" font-size="12" fill="#183044">Умеренные луга, саванны и кустарники</text>
+<text x="1361" y="470" font-family="Arial,sans-serif" font-size="11" fill="#405966">Temperate Grasslands, Savannas &amp; Shrublands</text>
+<rect x="1325" y="489" width="24" height="24" rx="3" fill="#7bb7c8" stroke="#45545a"/>
+<text x="1361" y="500" font-family="Arial,sans-serif" font-size="12" fill="#183044">Затопляемые луга и саванны</text>
+<text x="1361" y="518" font-family="Arial,sans-serif" font-size="11" fill="#405966">Flooded Grasslands &amp; Savannas</text>
+<rect x="1325" y="537" width="24" height="24" rx="3" fill="#b59b70" stroke="#45545a"/>
+<text x="1361" y="548" font-family="Arial,sans-serif" font-size="12" fill="#183044">Горные луга и кустарники</text>
+<text x="1361" y="566" font-family="Arial,sans-serif" font-size="11" fill="#405966">Montane Grasslands &amp; Shrublands</text>
+<rect x="1325" y="585" width="24" height="24" rx="3" fill="#9bb7ad" stroke="#45545a"/>
+<text x="1361" y="596" font-family="Arial,sans-serif" font-size="12" fill="#183044">Тундра</text>
+<text x="1361" y="614" font-family="Arial,sans-serif" font-size="11" fill="#405966">Tundra</text>
+<rect x="1325" y="633" width="24" height="24" rx="3" fill="#b66a58" stroke="#45545a"/>
+<text x="1361" y="644" font-family="Arial,sans-serif" font-size="12" fill="#183044">Средиземноморские леса, редколесья и кустарники</text>
+<text x="1361" y="662" font-family="Arial,sans-serif" font-size="11" fill="#405966">Mediterranean Forests, Woodlands &amp; Scrub</text>
+<rect x="1325" y="681" width="24" height="24" rx="3" fill="#c58a57" stroke="#45545a"/>
+<text x="1361" y="692" font-family="Arial,sans-serif" font-size="12" fill="#183044">Пустыни и ксерофитные кустарники</text>
+<text x="1361" y="710" font-family="Arial,sans-serif" font-size="11" fill="#405966">Deserts &amp; Xeric Shrublands</text>
+<rect x="1325" y="729" width="24" height="24" rx="3" fill="#55a9a0" stroke="#45545a"/>
+<text x="1361" y="740" font-family="Arial,sans-serif" font-size="12" fill="#183044">Мангровые леса</text>
+<text x="1361" y="758" font-family="Arial,sans-serif" font-size="11" fill="#405966">Mangroves</text>
+<text x="1325" y="803" font-family="Arial,sans-serif" font-size="12" fill="#183044">Классификация; не современный покров земель.</text>
+<text x="1325" y="825" font-family="Arial,sans-serif" font-size="11" fill="#405966">Reference classification; not current land cover.</text>
 <text x="60" y="900" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Источник данных / Data: RESOLVE Ecoregions 2017; Dinerstein et al. (2017), BioScience 67(6): 534–545. DOI: 10.1093/biosci/bix014.</text>
 <text x="60" y="925" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Данные / Data licence: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/ . Карта создана Atlas of Knowledge; геометрия упрощена для учебного масштаба.</text>
 <text x="60" y="950" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">This derivative map is attributed to RESOLVE / Dinerstein et al. and is distributed under CC BY 4.0.</text>
