@@ -536,3 +536,7 @@ The five existing Chapter 01 visual IDs remain unchanged and fully integrated in
 ## Chapter 01 — licence authority confirmation — 5 November 2026
 
 The project owner confirmed on 5 Nov 2026 that they or an authorised project organisation have authority to act as licensor and apply CC BY-NC 4.0 to the four Category C visuals (01-A, 01-B, 01-C and 01-E). Rights status is PASS on the basis of this owner representation, not an independent legal opinion; attribution: Atlas of Knowledge project. 01-D remains a separate CC BY 4.0 adaptation.
+
+## Chapter 03 — project-local SVG licence designation — 6 November 2026
+
+The project owner authorised CC BY-NC 4.0 for the ten local bilingual SVGs: 3.1-A, 3.3-A, 3.4-A, 3.6-A, 3.7-A, 3.8-A, 3.10-A, 3.11-A, 3.12-A and 3.12-B. The designated attribution party is the Atlas of Knowledge project. This is a project-owner representation, not independent legal verification; no individual human creator or specific AI authoring workflow is claimed. The licence applies only to these ten files. External Chapter 03 images 3.2-A, 3.5-A and 3.9-A retain their separate source-specific rights. See `geography/assets/CHAPTER_03_ASSET_LICENSE.md`.
