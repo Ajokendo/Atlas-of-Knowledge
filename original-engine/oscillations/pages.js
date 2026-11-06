@@ -172,7 +172,8 @@ export const PAGES = [
       <p class="lede">Подставив закон Гука в Σ<i>F</i> = <i>ma</i>, получим дифференциальное уравнение для <i>x</i>(<i>t</i>):</p>
       <div class="eq">d²<i>x</i>/d<i>t</i>² = −(<i>k</i>/<i>m</i>) <i>x</i></div>
       <p>Проверим функцию <i>x</i> = <i>A</i> cos(ω<i>t</i> + φ): её вторая производная равна −<i>A</i>ω² cos(ω<i>t</i> + φ) = −ω²<i>x</i>. Она удовлетворяет уравнению при любых <i>A</i> и φ, если ω = √(<i>k</i>/<i>m</i>) = ${f(M.W, 1)} рад/с. Значения <i>A</i> и φ определяются начальными условиями: <i>x</i><sub>0</sub> = <i>A</i> cos φ и <i>v</i><sub>0</sub> = −<i>A</i>ω sin φ:</p>
-      <div class="eq"><i>A</i> = √(<i>x</i><sub>0</sub>² + (<i>v</i><sub>0</sub>/ω)²) &nbsp; tan φ = −<i>v</i><sub>0</sub>/ω<i>x</i><sub>0</sub></div>
+      <div class="eq"><i>A</i> = √(<i>x</i><sub>0</sub>² + (<i>v</i><sub>0</sub>/ω)²) &nbsp; φ = atan2(−<i>v</i><sub>0</sub>/ω, <i>x</i><sub>0</sub>)</div>
+      <p>Функция atan2 учитывает знаки обеих начальных величин и выбирает правильную четверть фазы. Одного значения tan φ недостаточно, чтобы однозначно определить угол.</p>
       <table class="data">
         <tr><th>условие запуска</th><th><i>x</i><sub>0</sub>, <i>v</i><sub>0</sub></th><th><i>A</i></th><th>φ</th></tr>
         ${M.STARTS.map((st, i) => `<tr><td>${i ? 'толчок' : 'отпущен'}</td><td>${f(st.x0)} м, ${f(st.v0, 1)} м/с</td><td>${f(st.A)} м</td><td>${f(st.phi / M.DEG, 1)}°</td></tr>`).join('')}
