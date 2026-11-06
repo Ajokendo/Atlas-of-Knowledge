@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 
 CHAPTER = Path("geography/chapters/06-hydrosphere-and-world-ocean.md")
 ASSETS = Path("geography/assets")
+LICENSE_NOTICE = ASSETS / "CHAPTER_06_ASSET_LICENSE.md"
 IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)\)")
 EXPECTED_SVG = {
     "06-4-C-ocean-floor-cross-section-bilingual.svg",
@@ -38,6 +39,17 @@ def main() -> int:
     local={Path(urlparse(target).path).name for _,target in embeds if target.startswith("../assets/")}
     if local!=EXPECTED_SVG:
         errors.append(f"local SVG inventory mismatch; expected {len(EXPECTED_SVG)}, found {len(local)}")
+    if not LICENSE_NOTICE.is_file():
+        errors.append("Chapter 06 local-SVG licence notice missing")
+    else:
+        notice=LICENSE_NOTICE.read_text(encoding="utf-8")
+        if "Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" not in notice:
+            errors.append("Chapter 06 licence notice does not declare CC BY-NC 4.0")
+        missing=[name for name in EXPECTED_SVG if f"`{name}`" not in notice]
+        if missing:
+            errors.append("Chapter 06 licence notice omits scoped SVGs: "+", ".join(sorted(missing)))
+        if "6-B" not in notice or "CC BY-SA 3.0" not in notice or "NOAA/AOML" not in notice:
+            errors.append("Chapter 06 licence notice must preserve separate third-party rights")
     for name in sorted(EXPECTED_SVG):
         path=ASSETS/name
         if not path.is_file():
@@ -64,7 +76,7 @@ def main() -> int:
     if errors:
         for error in errors: print("FAIL:",error)
         return 1
-    print(f"PASS: 32 bilingual embeds; 16 paired targets; all {len(EXPECTED_SVG)} SVG files parse as XML and pass title/description/ARIA/ID checks; all alt text non-empty.")
+    print(f"PASS: 32 bilingual embeds; 16 paired targets; all {len(EXPECTED_SVG)} SVG files parse as XML and pass title/description/ARIA/ID checks; all alt text non-empty; exact CC BY-NC 4.0 licence scope covers all 12 local SVGs and excludes third-party assets.")
     print("NOTE: this is static QA only; rendered contrast, screen-reader output, browser/mobile and deployed-site checks are separate.")
     return 0
 if __name__=="__main__":
