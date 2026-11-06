@@ -1114,3 +1114,6 @@ Scientific concept and RU/EN label parity: PASS at source review. Detailed contr
 
 
 **3.8-A kinematic refinement — 6 November 2026:** the bedding horizons are offset across the fault planes; opposing arrows distinguish relative block motion. For the normal-fault example the hanging wall moves down relative to the footwall; for the reverse-fault example it moves up. This is the USGS classification criterion, not a claim that the footwall is fixed in an absolute reference frame. Source: [USGS fault types FAQ](https://www.usgs.gov/faqs/what-a-fault-and-what-are-different-types).
+
+
+**3.10-A final label refinement — 6 November 2026:** the final panel now explicitly labels continental assembly alongside mountain building, clarifying the process represented by the return arrow to renewed rifting. The figure remains conceptual and does not assign a fixed cycle duration.
