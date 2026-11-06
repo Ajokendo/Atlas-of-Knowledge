@@ -177,7 +177,7 @@ export function buildWorld(E) {
   label('vec', 'F<sub>s</sub>', () => tip(fsF)); label('vec', 'Δ<i>x</i>', () => tip(dxF));
   dashLine(V(endX, 0.03, -0.75), V(endX, 0.03, 0.75), 10);
   label('tick', small('Δx = 0', 13), () => V(endX - 0.05, 0.05, 0.85));
-  const barsF = bars(gF, XF - 0.8, -1.4, 0.02, [['blue', 'K'], ['amber', 'U<sub>s</sub>'], ['paper', 'E']], SC.spring.E);
+  const barsF = bars(gF, XF - 0.8, -1.4, 0.02, [['blue', 'K'], ['amber', 'U<sub>s</sub>'], ['paper', 'E']], SC.spring.E, -0.58);
 
   // ---------- 6b · work by a changing force: a crate pushed with a force that fades ----------
   // Behind the crate, a board carries the F(x) graph at the arrow's own scale and lined up with
@@ -248,7 +248,7 @@ export function buildWorld(E) {
     lines(root, t, '#6e6e74');
     // On narrow screens, label alternate ticks only: four decimal labels crowd one another in perspective.
     for (const r of [0.15, 0.25]) label('tick', small(r.toFixed(2), 10), () => V(rx(r * 1e-9) + 0.08, yBot - 0.13, zN));
-    label('tick', small('r (нм)', 13), () => V(rx(rHi) + 0.05, yBot - 0.13, zN));
+    // The unit is stated in the accompanying lesson; omit the extra axis title on the compact 3D board.
     for (const U of [3, 0, -1]) label('tick', small(`${U} эВ`, 13), () => V(rx(rLo) - 0.08, uy(U * BD.eps), zN)); }
   dashLine(V(rx(rLo), yZ, zN), V(rx(rHi), yZ, zN), 26);
   label('board', small('<i>U</i>(<i>r</i>)', 18), () => V(rx(rLo) + 0.22, uy(1.75 * BD.eps), zN));
