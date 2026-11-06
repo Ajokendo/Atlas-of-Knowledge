@@ -52,7 +52,8 @@
 <rect x="495" y="94" width="450" height="590" rx="18" class="panel"/>
 <rect x="495" y="94" width="450" height="54" rx="16" fill="#4d843e"/>
 <text x="720" y="130" text-anchor="middle" class="h">Стебель / Stem</text>
-<text x="720" y="174" text-anchor="middle" class="sub">Травянистый стебель двудольного / Herbaceous eudicot</text>
+<text x="720" y="169" text-anchor="middle" class="sub">Травянистый стебель двудольного</text>
+<text x="720" y="191" text-anchor="middle" class="small">Herbaceous eudicot stem</text>
 <circle cx="720" cy="430" r="165" class="ep"/>
 <circle cx="720" cy="430" r="148" class="ground"/>
 <circle cx="720" cy="430" r="112" fill="#edf2d7" stroke="#b4c98e" stroke-width="2"/>
@@ -70,9 +71,11 @@
 <g class="lab">
  <text x="520" y="222">Эпидерма / Epidermis</text><path d="M630 228L612 278" class="line"/>
  <text x="760" y="222">Основная ткань</text><text x="760" y="244" class="small">Ground tissue</text><path d="M780 250L760 320" class="line"/>
- <text x="720" y="604" text-anchor="middle" class="small">Камбий между флоэмой и ксилемой / Cambium between phloem and xylem</text><text x="720" y="625" text-anchor="middle">Пучки по кольцу / Bundles in a ring</text>
- <text x="720" y="650" text-anchor="middle" fill="#75428f">Флоэма снаружи / Phloem outside</text>
- <text x="720" y="672" text-anchor="middle" fill="#176b9e">Ксилема внутри / Xylem inside</text>
+ <text x="720" y="598" text-anchor="middle" class="small">Камбий между флоэмой и ксилемой</text>
+ <text x="720" y="617" text-anchor="middle" class="small">Cambium between phloem and xylem</text>
+ <text x="720" y="640" text-anchor="middle">Пучки по кольцу / Bundles in a ring</text>
+ <text x="720" y="660" text-anchor="middle" fill="#75428f">Флоэма снаружи / Phloem outside</text>
+ <text x="720" y="679" text-anchor="middle" fill="#176b9e">Ксилема внутри / Xylem inside</text>
 </g>
 <!-- LEAF -->
 <rect x="972" y="94" width="450" height="590" rx="18" class="panel"/>
