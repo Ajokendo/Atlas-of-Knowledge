@@ -2269,6 +2269,20 @@ try {
 
     if (file === "chemistry-constants.html") {
       const regions = page.locator(".panel[role=region]");
+      const scrollHints = page.locator(".scroll-hint");
+      if (await scrollHints.count() !== 3 || !await scrollHints.first().isVisible() ||
+          !(await scrollHints.first().innerText()).includes("Прокрутите таблицу по горизонтали")) {
+        errors.push(file + ": Russian mobile reference tables need a visible horizontal-scroll instruction");
+      }
+      const firstRegion = regions.first();
+      await firstRegion.evaluate(el => { el.scrollLeft = 0; el.focus(); });
+      await page.keyboard.press("ArrowRight");
+      if (await firstRegion.evaluate(el => el.scrollLeft) <= 0) {
+        errors.push(file + ": reference table region does not respond to keyboard horizontal scrolling");
+      }
+      await page.setViewportSize({ width: 768, height: 844 });
+      if (await scrollHints.first().isVisible()) errors.push(file + ": mobile-only reference table hint should be hidden when the table fits");
+      await page.setViewportSize({ width: 390, height: 844 });
       if (await regions.count() !== 3 || await regions.first().getAttribute("tabindex") !== "0" || !(await regions.first().getAttribute("aria-label")).includes("Прокручиваемая")) {
         errors.push(file + ": reference tables are not keyboard-scrollable labeled regions in Russian");
       }
