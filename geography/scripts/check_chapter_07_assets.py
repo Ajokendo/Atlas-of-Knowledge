@@ -35,11 +35,13 @@ def main():
  for ident in ["07-C","07-E"]:
   if f"IMAGE PLACEHOLDER {ident}" not in source and f"МЕТКА ИЛЛЮСТРАЦИИ {ident}" not in source:
    errors.append(ident+": planned map gap marker unexpectedly missing")
+ chapter_lines=source.splitlines()
  for figure in ["7.1","7.3","7.6","7.7","7.8","7.9"]:
-  pattern=rf"\*\*Рисунок {re.escape(figure)} / Figure[^\\n]*\n(?:[^\n]*\n)?"
-  m=re.search(pattern,source)
-  if m and ("Техническое задание:" in m.group(0) or "EN production brief" in m.group(0)):
-   errors.append(f"Figure {figure}: stale production brief remains after integration")
+  idx=next((i for i,line in enumerate(chapter_lines) if line.startswith(f"**Рисунок {figure} / Figure")),None)
+  if idx is not None:
+   following=chapter_lines[idx+1:idx+4]
+   if any(line.startswith("Техническое задание:") or line.startswith("**EN production brief:**") for line in following):
+    errors.append(f"Figure {figure}: stale production brief remains after integration")
  ns="{http://www.w3.org/2000/svg}"
  for name in sorted(EXPECTED):
   path=ASSETS/name
