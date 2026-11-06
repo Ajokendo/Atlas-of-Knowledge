@@ -2601,7 +2601,10 @@ if (languageChecks !== pages.length) {
 if (axeAudits !== pages.length * 2) {
   errors.push("Expected exactly " + (pages.length * 2) + " axe-core scans (RU + EN); found " + axeAudits);
 }
-const expectedRenderedScreenshots = visualEvidencePages.size * 6;
+if (visualEvidencePages.size !== pages.length || pages.some(file => !visualEvidencePages.has(file))) {
+  errors.push("Every configured Chemistry page must be included in the RU/EN 390/768/1280px visual-evidence set; configured pages: " + pages.length + ", visual-evidence pages: " + visualEvidencePages.size);
+}
+const expectedRenderedScreenshots = pages.length * 6;
 if (renderedScreenshots !== expectedRenderedScreenshots) {
   errors.push("Expected exactly " + expectedRenderedScreenshots + " rendered screenshots for " + visualEvidencePages.size + " visual-evidence pages; found " + renderedScreenshots);
 }
