@@ -944,3 +944,10 @@ Inspected the fresh full-page desktop (1365 px) and mobile (390 px) Chromium scr
 - The desktop crop exposed a second, distinct collision: the schematic-wide footer sentence at SVG y=632 sat too close to the three panel-specific source labels at y=620. Moved the footer to y=660 and reduced it to 13 px, retaining it inside the 675 px viewBox. Added a targeted regression assertion.
 
 The follow-up footer adjustment is committed in `92bc6fc6`; its check is in `ccc9ed64`. Await the new Chromium screenshot before closing the Osh visual item. Workflow [42161585774](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42161585774) is validating the preceding check commit; the newer code/check commits will trigger their own run. Global Image Verification remains **Pending audit**.
+
+## Follow-up — regional mobile diagram access, 6 November 2026
+
+A mobile inspection remediation has been implemented for the 15 regional SVG diagrams (12 fauna, 3 flora): each has a keyboard-focusable, named horizontal scroll viewport, enlarged mobile rendering and visible bilingual scroll guidance. The page-level overflow correction passed full Chromium runs #1528, #1529 and #1530. The dedicated keyboard-scroll interaction test is recorded in run #1531 and was still in progress when this note was written.
+
+This closes the specific mobile page-width regression and improves access to embedded labels; it does not close the detailed visual/morphology audit or change any asset to `VERIFIED`. The six sampled core-chapter plates with small internal labels (Anatomy, Biochemistry, Cell Biology, Microbiology, Systematics and Zoology) remain a separate mobile-readability follow-up. The 45/53 disposition rows and 37/53 brief-review rows with open notes remain open until their individual checks are evidenced.
+
