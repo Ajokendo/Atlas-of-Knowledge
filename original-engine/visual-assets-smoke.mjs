@@ -45,11 +45,9 @@ for (const mobile of [false, true]) {
         hasRu: !!img.closest('figure')?.querySelector('figcaption [lang="ru"]'),
         hasEn: !!img.closest('figure')?.querySelector('figcaption [lang="en"]'),
       })));
-      if (!mobile) {
-        for (let i = 0; i < states.length; i++) {
-          const file = states[i].src.split('/').pop().replace('.svg', '.png');
-          await images.nth(i).screenshot({ path: `${screenshotDir}/${file}` });
-        }
+      for (let i = 0; i < states.length; i++) {
+        const file = states[i].src.split('/').pop().replace('.svg', mobile ? '-mobile.png' : '.png');
+        await images.nth(i).screenshot({ path: `${screenshotDir}/${file}` });
       }
       for (const state of states) {
         if (mobile && !state.currentSrc.includes('-mobile.svg')) throw new Error(`mobile viewport did not select mobile layout: ${state.currentSrc}`);
