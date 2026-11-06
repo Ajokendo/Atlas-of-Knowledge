@@ -696,3 +696,12 @@ Added static regression guards in `checks.mjs` for the gas-law units/Kelvin conv
 - Corrected the test to use the JavaScript whitespace-token expression `/\\s+/` in `chemistry/browser-smoke.mjs` (commit `f56d9b0`).
 - Static validation on that commit passed. Chromium run `42158452867` was still running at the time of this entry; its result is deliberately not assumed.
 - The beaker test remains an automated check of accessible role/name/description linkage and language switching, not a substitute for manual screen-reader testing.
+
+
+## Rendered visual-evidence capture added to CI — 6 November 2026
+
+The Chromium browser suite now captures full-page baseline screenshots for 12 high-value visual pages at 390, 768 and 1280 CSS-pixel widths (36 PNG files per successful run). The captures are taken before interaction tests alter widget state; web fonts are awaited and image elements are decoded before capture. GitHub Actions uploads the files as the `chemistry-rendered-review` artifact with a 7-day retention period.
+
+This change creates inspectable visual evidence for the internal review workflow; it does **not** itself constitute a manual visual review or sign-off. The first branch-head CI run after this change must be checked for successful screenshot creation and artifact upload. Review still needs to examine clipping, overlap, legibility, SVG proportions, chart labels and interactive states; the captured screenshots show baseline page states, not every possible state.
+
+Implementation: `chemistry/browser-smoke.mjs` and `.github/workflows/chemistry-checks.yml`, commit `a7a6d44` and `bc17b36`.
