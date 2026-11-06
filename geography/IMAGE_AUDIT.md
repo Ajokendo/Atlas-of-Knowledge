@@ -1749,3 +1749,16 @@ The original diagram footer defined lahars, but the figure did not actually depi
 
 
 **3.8-A geometry refinement — 6 November 2026.** A second inspection tightened the fault kinematics: bedding layers are now visibly offset across each inclined plane, and paired arrows show opposite relative movement (footwall up / hanging wall down in the normal-fault example; footwall down / hanging wall up in the reverse-fault example). This makes the displacement relation easier to read and avoids implying that both blocks move in the same direction. The strike-slip example remains a plan view. New hosted checks are queued for commit `b99cde0d0c886610aac95f8be9e4d464f2f808b1`.
+
+
+### Chapter 03 — final focused visual revisions and hosted validation — 6 November 2026
+
+The following additional source-level corrections are now included:
+- **3.7-A:** a separate lahar path is visible and labelled; SVG description and RU/EN Markdown alt text now include the same hazard list.
+- **3.8-A:** bedding layers are offset across the fault planes; opposing arrows show relative motion of footwall and hanging wall for normal and reverse fault examples; strike-slip remains a plan-view diagram.
+- **3.10-A:** the cycle return arrow links continental assembly/mountain building to renewed rifting; the assembly stage is explicitly labelled. The non-periodic/variable-duration caveat remains.
+
+**Latest hosted checks — same source commit `eee879ae07c37b34686932abc8a8061bbf7ba4ed`:**
+- Image integrity workflow [42162242910](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42162242910): **SUCCESS**. 26/26 bilingual embeds; 13 unique assets; 10/10 local SVGs passed XML/title/description/RU-EN checks; all three remote image endpoints returned HTTP 206 image content (3 PASS, 0 WARN, 0 FAIL).
+- Browser QA workflow [42162243263](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42162243263): **SUCCESS**. In the isolated preview, both 390 px mobile and 1365 px desktop layouts displayed all 26 embeds; 26/26 images decoded at each viewport; no horizontal overflow; alt attributes and keyboard skip-link navigation passed.
+- **Scope limitation:** this is a generated isolated preview, not the production reader. Screen-reader/assistive-technology output, zoom/reflow beyond the tested widths, and production deployment rendering remain PENDING. Local SVG creator/rightsholder and project licence evidence also remain PENDING; no item is promoted to fully VERIFIED solely from CI.
