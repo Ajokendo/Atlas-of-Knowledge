@@ -56,8 +56,8 @@ The chapter inventory contains **283 named visual IDs**. The two former unresolv
 | **Total named inventory** | **283** | **201** | **82** | Chapter 05's two former unresolved positions are now named and integrated. |
 
 **Separate metrics (6 November 2026):**
-- **Image Coverage:** 201/283 named IDs have an image embedded in the relevant chapter source (70.3%). This measures presence only.
-- **Image Verification:** 0/199 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
+- **Image Coverage:** 201/283 named IDs have an image embedded in the relevant chapter source (71.0%). This measures presence only.
+- **Image Verification:** 0/201 integrated IDs are fully VERIFIED in this audit. Individual PASS results do not imply full verification.
 - **Image Gaps:** 82 named IDs remain without a confirmed integrated image; no unresolved Chapter 05 inventory positions remain.
 - Browser/mobile/accessibility QA and any missing evidence remain PENDING; do not infer completion from integration.
 
