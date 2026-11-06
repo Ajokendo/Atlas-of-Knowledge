@@ -1185,6 +1185,27 @@ for (const [file, oldPath] of [
   }
 }
 
+// Acid-base neutralisation figures: graph captions and model panel must be separate and visible in both languages.
+const acidBaseDiagramRequirements = [
+  ["acid-base-neutralisation-ru.svg", ["точка эквивалентности", "pH эквивалентности ≈ 7", "translate(550 260)", "Base added"], ["y=\"435\""]],
+  ["acid-base-neutralisation.svg", ["Idealised titration curve", "Brønsted–Lowry model", "Ideal model: equivalence pH ≈ 7.", "translate(550 260)", "Base added"], ["x=\"535\" y=\"430\""]]
+];
+for (const [file, required, forbidden] of acidBaseDiagramRequirements) {
+  const diagramPath = path.join(root, "assets", file);
+  if (!fs.existsSync(diagramPath)) {
+    errors.push("assets/" + file + ": acid-base neutralisation visual is missing");
+    continue;
+  }
+  const svg = fs.readFileSync(diagramPath, "utf8");
+  for (const phrase of required) {
+    if (!svg.includes(phrase)) errors.push("assets/" + file + ": required diagram label or model panel missing: " + phrase);
+  }
+  for (const phrase of forbidden) {
+    if (svg.includes(phrase)) errors.push("assets/" + file + ": obsolete overlapping/off-canvas annotation remains: " + phrase);
+  }
+  if (!svg.includes("</g></svg>")) errors.push("assets/" + file + ": diagram groups must close before the SVG ends");
+}
+
 if (errors.length) {
   console.error("Chemistry atlas checks failed:");
   for (const error of errors) console.error(" - " + error);
