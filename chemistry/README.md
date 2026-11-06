@@ -6,7 +6,7 @@
 
 - [x] 768 px scan found that the periodic table needed horizontal scrolling but did not show its instruction at tablet widths.
 - [x] Hint now remains visible up to 1050 px; Chromium tests cover the 768 px scroll state and 1280 px fit state. Run [42171810358](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171810358) passed on `e3c3579`.
-- [ ] Follow-up assertion for the revised Russian instruction text awaits fresh CI.
+- [x] Exact Russian wording assertion passed in run [42172003249](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42172003249) on `2dfc46e`; updated 768 px screenshot confirms the tablet hint.
 
 ### Bilingual rendered screenshots
 
