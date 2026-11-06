@@ -17,8 +17,10 @@ try{
    return svgs.map(svg=>{
     const vb=svg.viewBox.baseVal,rect=svg.getBoundingClientRect();
     const texts=[...svg.querySelectorAll("text")].map((node,i)=>{
-     const b=node.getBBox(),cs=getComputedStyle(node),font=parseFloat(cs.fontSize);
-     return {i,text:(node.textContent||"").replace(/\s+/g," ").trim().slice(0,80),x:b.x,y:b.y,w:b.width,h:b.height,font,effective:font*rect.width/vb.width};
+     const b=node.getBBox(),cs=getComputedStyle(node),font=parseFloat(cs.fontSize),m=node.getScreenCTM(),inv=svg.getScreenCTM().inverse();
+     const corners=[[b.x,b.y],[b.x+b.width,b.y],[b.x,b.y+b.height],[b.x+b.width,b.y+b.height]].map(([x,y])=>new DOMPoint(x,y).matrixTransform(m).matrixTransform(inv));
+     const xs=corners.map(p=>p.x),ys=corners.map(p=>p.y),x=Math.min(...xs),y=Math.min(...ys),w=Math.max(...xs)-x,h=Math.max(...ys)-y;
+     return {i,text:(node.textContent||"").replace(/\s+/g," ").trim().slice(0,80),x,y,w,h,font,effective:font*rect.width/vb.width};
     });
     const outside=texts.filter(t=>t.x<vb.x-1||t.y<vb.y-1||t.x+t.w>vb.x+vb.width+1||t.y+t.h>vb.y+vb.height+1);
     const overlaps=[];
