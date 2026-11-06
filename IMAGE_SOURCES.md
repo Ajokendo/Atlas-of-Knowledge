@@ -152,9 +152,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Visual ID: PHY-15-001
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Lenz's law — approaching and receding magnet
-- Integration status: INTEGRATED (not VERIFIED)
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**pending completion of internal publication QA**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: file/path and integration, internal scientific review, rights/licence evidence, final bilingual/accessibility review, and current desktop/mobile browser/CI evidence must each be PASS before VERIFIED. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: VERIFIED
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**all internal publication checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; project CC BY-NC 4.0 declaration recorded; bilingual labels/captions/alt text PASS; manual desktop/mobile screenshot review PASS; responsive browser checks PASS on desktop and 390×844 mobile, zero horizontal overflow, axe serious/critical 0; isolated induction run 42213006777 and matching visual-review artifact. External expert sign-off is optional follow-up and does not block publication.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Distinguish the induced field that opposes increasing flux from the induced field that sustains decreasing flux.
@@ -186,9 +186,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Visual ID: PHY-15-002
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Motional EMF in a moving rod
-- Integration status: INTEGRATED (not VERIFIED)
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**pending completion of internal publication QA**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: file/path and integration, internal scientific review, rights/licence evidence, final bilingual/accessibility review, and current desktop/mobile browser/CI evidence must each be PASS before VERIFIED. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: VERIFIED
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**all internal publication checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; project CC BY-NC 4.0 declaration recorded; bilingual labels/captions/alt text PASS; manual desktop/mobile screenshot review PASS; responsive browser checks PASS on desktop and 390×844 mobile, zero horizontal overflow, axe serious/critical 0; isolated induction run 42213006777 and matching visual-review artifact. External expert sign-off is optional follow-up and does not block publication.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Relate mutually perpendicular velocity, magnetic field, rod orientation, charge separation, motional EMF, and the distinction between closed and open circuits.
@@ -220,9 +220,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Visual ID: PHY-15-003
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Self-induction, RL transient, and LC oscillations
-- Integration status: INTEGRATED (not VERIFIED)
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**pending completion of internal publication QA**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: file/path and integration, internal scientific review, rights/licence evidence, final bilingual/accessibility review, and current desktop/mobile browser/CI evidence must each be PASS before VERIFIED. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: VERIFIED
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**all internal publication checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; project CC BY-NC 4.0 declaration recorded; bilingual labels/captions/alt text PASS; manual desktop/mobile screenshot review PASS; responsive browser checks PASS on desktop and 390×844 mobile, zero horizontal overflow, axe serious/critical 0; isolated induction run 42213006777 and matching visual-review artifact. External expert sign-off is optional follow-up and does not block publication.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Separate the self-induction law, exponential current rise/decay in an RL circuit, and ideal energy exchange in an LC circuit.
