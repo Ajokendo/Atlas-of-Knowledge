@@ -1542,6 +1542,13 @@ try {
           !await tableRegion.evaluate(el => el.scrollWidth > el.clientWidth)) {
         errors.push(file + ": tablet-width periodic table must show its horizontal-scroll instruction");
       }
+      await tableRegion.evaluate(el => { el.scrollLeft = 0; });
+      await tableRegion.focus();
+      await tableRegion.press("ArrowRight");
+      if (!await tableRegion.evaluate(el => el.scrollLeft > 0)) {
+        errors.push(file + ": keyboard ArrowRight must scroll the focused periodic table region");
+      }
+      await tableRegion.evaluate(el => { el.scrollLeft = 0; });
       await page.setViewportSize({ width: 1280, height: 900 });
       if (await page.locator("[data-t=scrollHint]").isVisible()) {
         errors.push(file + ": periodic-table scroll instruction should be hidden when the full table fits");
