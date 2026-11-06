@@ -228,3 +228,15 @@ Corrections recorded in `IMAGE_AUDIT.md`:
 Automated regression assertions were added for the corrected bilingual content. The current branch-head run is [42037108063](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42037108063), commit `78538a00195a966a9de3b95979c8540e476d7eb4`: static validation passed; pinned browser-tool installation is still running, so Chromium result is not yet available. Earlier failed runs corresponded to intermediate commits while the new checks were being corrected; do not treat them as the final branch-head result.
 
 Coverage remains 12/12 static families integrated and 7/7 interactive systems integrated. Full seven-gate verification remains 0/12 static families and 0/7 interactive systems; rights/licence evidence and competent second-person scientific review remain PENDING. Manual rendered review and final approval are also open. External specialist review is not an Atlas project requirement.
+
+
+### Visual audit checkpoint — 2026-11-06
+
+- [x] Completed the source-level first pass for all 12 static bilingual visual families (CH-V01–CH-V12): 12/12 = 100% of the defined source-review sequence.
+- [x] Corrected the English landing-page electron-cloud alternative text after the Chromium assertion exposed a wording mismatch.
+- [x] Branch-head CI run [42039243308](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42039243308) passed on commit `06999206c3315d7060edfe3a55a68ba2c195c858`: static validation and Chromium page tests passed; 21 pages loaded at 390 CSS px, 42 axe-core scans (RU + EN), 21 language toggles and key interaction checks passed, with no uncaught page errors.
+- [ ] Retained per-SVG desktop/mobile screenshot review is still open; the successful browser run did not publish screenshot artifacts.
+- [ ] Complete the targeted source-level and manual state review of CH-IV01–CH-IV07, using the interactive audit register in `IMAGE_AUDIT.md`.
+- [ ] Seven-gate verification and final approval remain distinct from coverage and automated CI. Do not mark assets VERIFIED based on CI alone.
+
+Static source-review progress: **12/12 (100%)**. Static coverage: **12/12 (100%)**. Automated branch-head CI: **PASS**. Full seven-gate verification: **0/12 static and 0/7 interactive marked VERIFIED**; applicable rights, review and manual-render evidence remain open.
