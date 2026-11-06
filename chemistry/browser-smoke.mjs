@@ -1491,6 +1491,19 @@ try {
     }
 
     if (file === "periodic-table.html") {
+      const tableRegion = page.locator("#periodicTableRegion");
+      if (!(await tableRegion.getAttribute("role"))?.includes("region") ||
+          !(await tableRegion.getAttribute("aria-label"))?.includes("прокручивайте") ||
+          !(await page.locator("[data-t=scrollHint]").innerText()).includes("по горизонтали")) {
+        errors.push(file + ": Russian horizontal-scroll guidance and labelled region are required");
+      }
+      if (!await tableRegion.evaluate(el => el.scrollWidth > el.clientWidth)) {
+        errors.push(file + ": narrow viewport should expose the periodic table's horizontal scroll area");
+      }
+      await tableRegion.focus();
+      if (!await tableRegion.evaluate(el => document.activeElement === el)) {
+        errors.push(file + ": horizontal table region must be keyboard focusable");
+      }
       const elementButtons = page.locator("#table button[data-id], #lanth button[data-id], #act button[data-id]");
       const elementIds = await elementButtons.evaluateAll(items => items.map(button => Number(button.dataset.id)));
       if (elementIds.length !== 118 || new Set(elementIds).size !== 118 || Array.from({length:118}, (_, index) => index + 1).some(id => !elementIds.includes(id))) {
@@ -1507,6 +1520,10 @@ try {
         errors.push(file + ": Russian periodic-table note must explain bracketed isotope mass numbers");
       }
       await page.locator("#lang").click();
+      if (!(await tableRegion.getAttribute("aria-label"))?.includes("scroll horizontally") ||
+          !(await page.locator("[data-t=scrollHint]").innerText()).includes("scroll the table horizontally")) {
+        errors.push(file + ": English horizontal-scroll guidance and accessible region name are required");
+      }
       if (!(await page.locator("[data-t=classificationNote]").innerText()).includes("metalloid")) {
         errors.push(file + ": English periodic-table category note is missing");
       }
