@@ -192,7 +192,7 @@ export function buildWorld(E) {
     lines(root, t, '#6e6e74');
     for (const i of [0, 1, 2, 3]) label('tick', small(i ? `${i} м` : '0', 13), () => V(xP0 + i + 0.06, GB - 0.12, zP));
     for (const F of [10, 20]) label('tick', small(`${F} N`, 13), () => V(xP0 - 0.08, GB + F * FP, zP)); }
-  label('board', small('<i>F</i>(<i>x</i>)', 18), () => V(xP0 + 0.08, GB + 1.08, zP));
+  label('board', small('<i>F</i>(<i>x</i>)', 18), () => V(xP0 + 0.48, GB + 1.12, zP));
   part(root, new THREE.TubeGeometry(new THREE.CatmullRomCurve3(samplesV(80, x => V(xP0 + x, GB + M.pushF(x) * FP, zP + 0.01), 0, Lp)), 160, 0.014, 8, false), { tone: 'hi', pal: 'ink', name: 'Кривая F(x)' });
   const fillP = areaMesh(150, x => [xP0 + x, GB, GB + M.pushF(x) * FP], 0, Lp, zP + 0.005);
   const gP = asm('push', root, { title: 'Ящик под действием переменной силы', sub: 'работа равна площади под графиком F(x)' });
@@ -250,7 +250,7 @@ export function buildWorld(E) {
     label('tick', small('r (нм)', 13), () => V(rx(rHi) + 0.05, yBot - 0.13, zN));
     for (const U of [3, 0, -1]) label('tick', small(`${U} эВ`, 13), () => V(rx(rLo) - 0.08, uy(U * BD.eps), zN)); }
   dashLine(V(rx(rLo), yZ, zN), V(rx(rHi), yZ, zN), 26);
-  label('board', small('<i>U</i>(<i>r</i>)', 18), () => V(rx(rLo) + 0.08, uy(2.65 * BD.eps), zN));
+  label('board', small('<i>U</i>(<i>r</i>)', 18), () => V(rx(rLo) + 0.22, uy(1.75 * BD.eps), zN));
   label('board', '<i>E</i>', () => V(rx(rHi) + 0.08, yE, zN));
   // E line beyond the turning points is dashed: the atom can't go there (K would be negative)
   dashLine(V(rx(BD.r2), yE, zN + 0.01), V(rx(rHi), yE, zN + 0.01), 12);
@@ -258,7 +258,7 @@ export function buildWorld(E) {
     part(root, new THREE.SphereGeometry(0.035, 12, 8), { tone: 'hi', pal: 'ink', pos: [rx(r), yE, zN + 0.01], name: 'Точка поворота' });
     dashLine(V(rx(r), yE, zN), V(rx(r), yBot, zN), 10);
   }
-  label('board', small('точки поворота', 14), () => V(rx(BD.r2) + 0.1, yE + 0.15, zN));
+  label('board', small('точки поворота', 14), () => V(rx(BD.r2) + 0.12, yE + 0.42, zN));
   // the atoms sit below the board, lined up with its r axis: separation r is read straight up
   const yA = 0.32, zA = 0;
   const gN = asm('bond', root, { title: 'Два атома и связь между ними', sub: 'частица в потенциальной яме' });
