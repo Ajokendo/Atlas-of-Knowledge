@@ -80,8 +80,14 @@ async function runDynamic(mobile) {
     const cursorBefore = await page.locator('circle[data-cursor="rhr"]').first().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
     await page.waitForTimeout(1200);
     const after = await page.locator('#readout').innerText();
-    const cursorAfter = await page.locator('circle[data-cursor="rhr"]').first().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
     if (before === after) throw new Error('animated readout did not change with time');
+    // Poll the rendered SVG cursor across animation frames instead of relying on two
+    // snapshots: the desktop renderer can update the text and SVG on adjacent frames.
+    await page.waitForFunction(coords => {
+      const el = document.querySelector('circle[data-cursor="rhr"]');
+      return !!el && [el.getAttribute('cx'), el.getAttribute('cy')].join(',') !== coords.join(',');
+    }, cursorBefore, { timeout: 5000 });
+    const cursorAfter = await page.locator('circle[data-cursor="rhr"]').first().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
     if (cursorBefore.join(',') === cursorAfter.join(',')) throw new Error('live graph cursor did not move with time');
     console.log(`PASS magnetism RHR dynamic ${mobile?'mobile':'desktop'} — readout and graph cursor update`);
   } catch(e) { failures.push(`dynamic ${mobile?'mobile':'desktop'}: ${e.message}`); console.error(`FAIL magnetism RHR dynamic ${mobile?'mobile':'desktop'}: ${e.message}`); }
