@@ -117,9 +117,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Visual ID: PHY-14-001
 - Subject / chapter: Physics, Chapter 14 — Magnetism
 - Title: Four magnetic-field configurations
-- Integration status: INTEGRATED — fresh manual review found one clipped bilingual caption in the mobile SVG; the text was split into two shorter lines in commit `358ab45b`. Re-verification is pending.
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFICATION_PENDING (**mobile caption correction committed 2026-11-06; fresh screenshot/browser check pending**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: PENDING — previous desktop/mobile browser checks passed in run 42193504505, but a newer screenshot artifact from run 42214495792 exposed a clipped mobile caption. Correction committed as `358ab45b`; rerun browser and screenshot inspection before restoring VERIFIED. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: VERIFIED — mobile bilingual caption correction committed as `358ab45b`; fresh desktop/mobile screenshots manually inspected from browser artifact 13499898884 on 2026-11-06 with all four panels and footer visible and no clipping.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**desktop/mobile screenshot review and browser checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; CC BY-NC 4.0 recorded; bilingual labels/captions/alt text present; mobile caption correction manually verified in fresh desktop/mobile artifact 13499898884. Browser visual step passed in run 42214764837. External expert sign-off is optional follow-up and does not block publication.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Compare field geometry and idealised field-strength relations for a long straight wire, a circular current loop, a long solenoid, and an ideal toroid.
