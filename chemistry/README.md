@@ -2,6 +2,12 @@
 
 
 
+### Tablet-width periodic table follow-up — 6 November 2026
+
+- [x] 768 px scan found that the periodic table needed horizontal scrolling but did not show its instruction at tablet widths.
+- [x] Hint now remains visible up to 1050 px; Chromium tests cover the 768 px scroll state and 1280 px fit state. Run [42171810358](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171810358) passed on `e3c3579`.
+- [ ] Follow-up assertion for the revised Russian instruction text awaits fresh CI.
+
 ### Bilingual rendered screenshots
 
 - [x] Expanded the screenshot artifact to include both Russian and English baselines for all 12 selected pages at 390, 768 and 1280 CSS-pixel widths (72 images per successful run).
