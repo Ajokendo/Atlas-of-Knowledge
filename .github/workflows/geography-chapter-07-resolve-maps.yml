@@ -35,6 +35,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add geography/assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg geography/assets/diagrams/07-E-world-biogeographical-realms-bilingual.svg
             git commit -m "Generate Chapter 07 biome and realm maps from RESOLVE 2017"
+            git pull --rebase origin workspace/geography
             git push origin HEAD:workspace/geography
           else
             echo "Generated maps are unchanged."
