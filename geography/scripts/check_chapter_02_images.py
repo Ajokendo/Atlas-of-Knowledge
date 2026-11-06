@@ -12,7 +12,7 @@ from pathlib import Path
 
 CHAPTER = Path("geography/chapters/02-geographic-envelope.md")
 EXPECTED_EMBEDS = 56
-EXPECTED_UNIQUE = 36
+EXPECTED_UNIQUE = 28
 IMAGE_RE = re.compile(r"!\[([^\]]*)\]\((https?://[^)\s]+)\)")
 LOCAL_IMAGE_RE = re.compile(r"!\[([^\]]*)\]\((?!https?://)([^)\s]+)\)")
 
@@ -76,12 +76,17 @@ def main() -> int:
     if old_svg_refs:
         errors.append("retired Chapter 02 SVG references remain: " + ", ".join(old_svg_refs))
 
+    wrong_frequency = {url: count for url, count in counts.items() if count != 2}
+    if wrong_frequency:
+        errors.append("URLs must occur once in each language version (2 embeds each): " +
+                      "; ".join(f"{url} ×{count}" for url, count in wrong_frequency.items()))
+
     if errors:
         for error in errors:
             print(f"FAIL: {error}")
         return 1
 
-    print(f"PASS: all {len(matches)} embeds have non-empty alt text, HTTPS sources, bilingual content coverage, and no local image references.")
+    print(f"PASS: all {len(matches)} embeds have non-empty alt text, HTTPS sources, bilingual pairing, and no local image references.")
     print("Checking remote image endpoints (network failures other than 404/410 are warnings, not proof of broken assets)...")
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
