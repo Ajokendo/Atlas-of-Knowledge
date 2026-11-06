@@ -225,7 +225,7 @@ The chapter embeds these 10 local SVGs in both language sections. The production
 
 | Visual ID | Filename | Category / method | Creator and rights basis | Search record | Current state |
 |---|---|---|---|---|---|
-| 3.1-A | `geography/assets/03-1-A-earth-interior-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
+| 3.1-A | `geography/assets/03-1-A-earth-interior-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown / PENDING | USGS/standard geoscience layer model; no third-party artwork reused | INTEGRATED; scientific concept and bilingual labels PASS after redesign; rights and rendered/accessibility QA PENDING |
 | 3.3-A | `geography/assets/03-3-A-rock-cycle-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown / PENDING | UCAR Center for Science Education and British Geological Survey consulted for process accuracy; no third-party artwork reused | INTEGRATED; scientific accuracy PASS after correcting arrow direction; RU/EN parity PASS; rights and rendered/accessibility QA PENDING |
 | 3.4-A | `geography/assets/03-4-A-geological-research-toolkit-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
 | 3.6-A | `geography/assets/03-6-A-earthquake-anatomy-bilingual.svg` | C (provisional); SVG | Creator/rightsholder and project licence Unknown | Not documented | INTEGRATED; all review dimensions PENDING |
@@ -1082,3 +1082,10 @@ The original rock-cycle SVG contained misleading process arrows: the central bur
 Scientific basis checked against the [UCAR Center for Science Education geosphere overview](https://scied.ucar.edu/learning-zone/earth-system/geosphere) and [British Geological Survey rocks and minerals guide](https://www.bgs.ac.uk/discovering-geology/rocks-and-minerals/). The chapter's existing explanation already states that the rock cycle has multiple pathways. No third-party figure was copied; the corrected SVG remains provisionally Category C. Creator/rightsholder and project licence are still Unknown / PENDING and must not be inferred from the correction or repository ownership.
 
 **Current visual result:** scientific/process-direction review PASS; bilingual labels and alt text PASS; SVG title/description and `role="img"` present; contrast, small-screen legibility, screen-reader output and production-reader rendering remain untested.
+
+
+### Chapter 03 — focused correction to visual 3.1-A — 6 November 2026
+
+Redesigned the Earth-interior SVG after identifying that the earlier cutaway made the crust visually too thick and its leader lines did not clearly identify the layers. The new version renders the crust as a very thin outer shell, distinguishes mantle, liquid outer core and solid inner core, and explains lithosphere and asthenosphere separately as mechanical layers rather than additional compositional shells. The figure explicitly remains not to scale. No third-party artwork was copied; category C remains provisional and creator/rightsholder and project licence remain Unknown / PENDING.
+
+Scientific concept and RU/EN label parity: PASS at source review. Detailed contrast, label legibility at phone size, assistive-technology output and production-reader rendering remain PENDING.
