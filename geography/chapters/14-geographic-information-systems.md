@@ -658,7 +658,7 @@ Spatial aggregation can reduce the risk of disclosing personal data, but it does
 8. **Документирование:** сохранить метаданные, параметры обработки, версии данных и программ.
 9. **Публикация:** проверить права доступа, лицензию, конфиденциальность и доступность материалов.
 
-Воспроизводимый проект должен позволять другому специалисту понять, какие данные, параметры и операции привели к результату.
+Воспроизводимый проект должен позволять другому специалисту понять, какие данные, параметры и операции привели к результату. Для практического повторения полезно сохранять не только файл проекта, но и копии входных данных или устойчивые ссылки на их версии, дату загрузки, версии ГИС и подключаемых модулей, выбранную координатную операцию и её сетки, параметры обработки, настройки среды и итоговые файлы. Если алгоритм использует случайную выборку или случайное моделирование, зафиксируйте начальное значение генератора (seed), когда это поддерживается. Относительные пути и внешние сервисы следует проверить на другом компьютере: ссылка может перестать работать, а удалённый слой — измениться.
 
 ### 14.17.1. Как оценивать качество пространственных данных / Assessing Spatial Data Quality
 
@@ -950,7 +950,7 @@ A typical project can be organised into stages:
 8. **Document:** preserve metadata, processing parameters, data versions and software versions.
 9. **Publish:** check access rights, licence, privacy and accessibility.
 
-A reproducible project should allow another specialist to understand which data, parameters and operations produced the result.
+A reproducible project should allow another specialist to understand which data, parameters and operations produced the result. For practical reproducibility, preserve not only the project file but also copies of input data or stable links to versioned data, download dates, GIS and plugin versions, the selected coordinate operation and its grid files, processing parameters, environment settings and output files. If an algorithm uses random sampling or simulation, record the random seed where supported. Test relative paths and external services on another computer: a link may stop working or a remote layer may change.
 
 ## 14.18. Итоги главы / Chapter Summary
 
