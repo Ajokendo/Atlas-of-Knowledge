@@ -14,7 +14,7 @@ try {
   await page.goto(preview,{waitUntil:"domcontentloaded"});
   await page.addScriptTag({path:resolve("node_modules/axe-core/axe.min.js")});
   const images=page.locator("#visuals img"),count=await images.count();
-  if(count!==16) errors.push(viewport.width+"px preview: expected 16 unique images, found "+count);
+  if(count!==32) errors.push(viewport.width+"px preview: expected 32 bilingual images, found "+count);
   if(viewport.width===390){
    const alts=await images.evaluateAll(nodes=>nodes.map(img=>img.alt));
    expectedAltCounts=alts.reduce((counts,alt)=>{counts[alt]=(counts[alt]||0)+1;return counts;},{});
@@ -23,7 +23,7 @@ try {
    await Promise.all(nodes.map(img=>{img.loading="eager";return img.decode().catch(()=>null)}));
    return nodes.filter(img=>img.complete&&img.naturalWidth>0).length;
   });
-  if(decoded!==16) errors.push(viewport.width+"px preview: only "+decoded+"/16 images decoded");
+  if(decoded!==32) errors.push(viewport.width+"px preview: only "+decoded+"/32 images decoded");
   const dims=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}));
   if(dims.scroll>dims.client+1) errors.push(viewport.width+"px preview: horizontal overflow");
   await page.keyboard.press("Tab");
@@ -34,7 +34,7 @@ try {
   const axe=await page.evaluate(async()=>await window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21a","wcag21aa"]}}));
   if(axe.violations.length) errors.push(viewport.width+"px preview: axe violations "+axe.violations.map(v=>v.id).join(", "));
   await page.screenshot({path:"/tmp/chapter-06-preview-"+viewport.width+".png",fullPage:true});
-  reports.push(viewport.width+"px isolated gallery: "+decoded+"/16 decoded; axe WCAG violations="+axe.violations.length);
+  reports.push(viewport.width+"px bilingual gallery: "+decoded+"/32 decoded; axe WCAG violations="+axe.violations.length);
   await page.close();
 
   const live=await browser.newPage({viewport,deviceScaleFactor:1});
