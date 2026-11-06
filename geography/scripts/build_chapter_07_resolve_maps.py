@@ -89,7 +89,7 @@ def svg_map(features, mode, outpath):
     if unknown_names: raise RuntimeError(f"Unmapped {key} categories: {unknown_names}")
     title_en="World terrestrial biomes — RESOLVE Ecoregions 2017" if mode=="biome" else "World biogeographical realms — RESOLVE Ecoregions 2017"
     title_ru="Наземные биомы мира — RESOLVE Ecoregions 2017" if mode=="biome" else "Биогеографические области мира — RESOLVE Ecoregions 2017"
-    desc="Simplified teaching map of 846 terrestrial ecoregions grouped into 14 biomes." if mode=="biome" else "Simplified teaching map of terrestrial ecoregions grouped into eight biogeographical realms."
+    desc="Simplified teaching map of 845 classified terrestrial ecoregions grouped into 14 biomes; the single N/A biome record is excluded." if mode=="biome" else "Simplified teaching map of 846 terrestrial ecoregions grouped into eight biogeographical realms."
     x0,y0,mw,mh=MAP
     parts=[f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">']
     parts += [f'<title id="title">{html.escape(title_ru)} / {html.escape(title_en)}</title>',f'<desc id="desc">{html.escape(desc)} Русская и английская легенды приведены справа. Границы являются классификационными, а не политическими.</desc>']
@@ -128,7 +128,8 @@ def svg_map(features, mode, outpath):
       '<text x="60" y="900" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Источник данных / Data: RESOLVE Ecoregions 2017; Dinerstein et al. (2017), BioScience 67(6): 534–545. DOI: 10.1093/biosci/bix014.</text>',
       '<text x="60" y="925" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">Данные / Data licence: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/ . Карта создана Atlas of Knowledge; геометрия упрощена для учебного масштаба.</text>',
       '<text x="60" y="950" font-family="Arial,sans-serif" font-size="14" fill="#263e4b">This derivative map is attributed to RESOLVE / Dinerstein et al. and is distributed under CC BY 4.0.</text>',
-      '<text x="60" y="985" font-family="Arial,sans-serif" font-size="13" fill="#526773">Восемь биогеографических областей / Eight realms.</text>' if mode=="realm" else '<text x="60" y="985" font-family="Arial,sans-serif" font-size="13" fill="#526773">Четырнадцать биомов / Fourteen biomes.</text>',
+      '<text x="60" y="975" font-family="Arial,sans-serif" font-size="13" fill="#526773">Проекция / Projection: equirectangular, WGS 84 (EPSG:4326), north-up; not to scale.</text>',
+      '<text x="60" y="1000" font-family="Arial,sans-serif" font-size="13" fill="#526773">Восемь биогеографических областей / Eight realms.</text>' if mode=="realm" else '<text x="60" y="1000" font-family="Arial,sans-serif" font-size="13" fill="#526773">Четырнадцать биомов / Fourteen biomes.</text>',
       '</svg>']
     outpath.write_text("\n".join(parts),encoding="utf-8")
 
