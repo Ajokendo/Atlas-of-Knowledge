@@ -104,7 +104,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 
 **Валовой внутренний продукт (ВВП)** — показатель стоимости конечного производства на экономической территории страны за определённый период. Производственным методом он равен сумме валовой добавленной стоимости резидентных производителей и налогов на продукты за вычетом субсидий на продукты. В национальных счетах учитывается как рыночное, так и соответствующее правилам системы нерыночное производство. ВВП также можно рассчитать распределительным (по доходам) и методом конечного использования (по расходам); при согласованной системе национальных счетов результаты должны быть согласованы. Промежуточные товары не прибавляют к конечному выпуску отдельно, чтобы избежать двойного счёта.
 
-ВВП на душу населения — ВВП, делённый на численность населения. Он полезен для сопоставления среднего масштаба экономического производства, но не показывает распределение доходов, неоплачиваемый труд, качество окружающей среды или все аспекты благополучия.
+ВВП на душу населения — ВВП, делённый на численность населения; для годовых рядов обычно используют среднегодовую численность или другое значение, прямо указанное в метаданных показателя. При сравнении необходимо применять одинаковое определение знаменателя. Показатель полезен для сопоставления среднего масштаба экономического производства, но не показывает распределение доходов, неоплачиваемый труд, качество окружающей среды или все аспекты благополучия.
 
 Необходимо различать:
 - **номинальный ВВП:** оценивается в текущих ценах;
@@ -279,7 +279,7 @@ Energy security includes reliability of supply, price affordability, infrastruct
 
 *Схематическая сеть, а не карта реальных транспортных коридоров; расстояния и время не заданы. / Schematic network, not a map of real transport corridors; distances and travel times are not specified.*
 
-Транспорт обеспечивает перемещение людей, сырья, товаров и услуг. География транспорта исследует сети, узлы, коридоры, доступность, стоимость и время перемещения, а также воздействие транспортной инфраструктуры на территорию.
+Транспорт обеспечивает перемещение людей, сырья и товаров, а также предоставление транспортных услуг. География транспорта исследует сети, узлы, коридоры, доступность, стоимость и время перемещения, а также воздействие транспортной инфраструктуры на территорию.
 
 Основные виды транспорта:
 - автомобильный;
@@ -578,7 +578,7 @@ A sector's share of employment may differ from its share of value added. Automat
 
 **Gross domestic product (GDP)** is the monetary value of final goods and services produced within a country's economic territory during a given period. GDP can be calculated using the production, income and expenditure approaches. Within a consistent system of national accounts, the results should be reconciled.
 
-GDP per capita is GDP divided by population. It is useful for comparing the average scale of economic production, but does not show income distribution, unpaid work, environmental quality or every aspect of well-being.
+GDP per capita is GDP divided by population; annual series usually use average annual population or another denominator explicitly specified in the indicator metadata. Comparisons should use the same denominator definition. The indicator is useful for comparing the average scale of economic production, but does not show income distribution, unpaid work, environmental quality or every aspect of well-being.
 
 Important distinctions include:
 - **nominal GDP:** measured at current prices;
@@ -642,7 +642,7 @@ Renewability does not mean the absence of environmental impacts. Hydropower can 
 
 ### 11.9. Transport Geography and Logistics
 
-Transport enables the movement of people, raw materials, goods and services. Transport geography studies networks, nodes, corridors, accessibility, cost and travel time, as well as the effects of transport infrastructure on territories.
+Transport enables the movement of people, raw materials and goods, and provides transport services. Transport geography studies networks, nodes, corridors, accessibility, cost and travel time, as well as the effects of transport infrastructure on territories.
 
 Main transport modes include road, rail, maritime and inland waterway, air, pipeline, urban public transport and active mobility (walking and cycling).
 
