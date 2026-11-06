@@ -124,7 +124,7 @@ jobs:
           MODULE=circuits EXPECTED_PAGES=9 node original-engine/book-smoke.mjs
 
   fluids-isolated:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Checkout repository
@@ -134,7 +134,7 @@ jobs:
         with:
           node-version: 22
       - name: Install browser test tools
-        run: npm install --no-save playwright @axe-core/playwright
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Start local static server
@@ -152,7 +152,7 @@ jobs:
         run: node original-engine/fluids/browser-smoke.mjs
 
   gauss-isolated:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Checkout repository
@@ -162,7 +162,7 @@ jobs:
         with:
           node-version: 22
       - name: Install browser test tools
-        run: npm install --no-save playwright @axe-core/playwright
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Start local static server
@@ -180,7 +180,7 @@ jobs:
         run: node original-engine/gauss/browser-smoke.mjs
 
   magnetism-isolated:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Checkout repository
@@ -190,7 +190,7 @@ jobs:
         with:
           node-version: 22
       - name: Install browser test tools
-        run: npm install --no-save playwright @axe-core/playwright
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Start local static server
@@ -208,7 +208,7 @@ jobs:
         run: node original-engine/magnetism/browser-smoke.mjs
 
   induction-isolated:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Checkout repository
@@ -218,7 +218,7 @@ jobs:
         with:
           node-version: 22
       - name: Install browser test tools
-        run: npm install --no-save playwright @axe-core/playwright
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Start local static server
@@ -236,7 +236,7 @@ jobs:
         run: node original-engine/induction/browser-smoke.mjs
 
   circuits-isolated:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Checkout repository
@@ -246,7 +246,7 @@ jobs:
         with:
           node-version: 22
       - name: Install browser test tools
-        run: npm install --no-save playwright @axe-core/playwright
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Start local static server
