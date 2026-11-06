@@ -14,7 +14,7 @@ try{
   await page.goto(preview,{waitUntil:"load"});
   await page.addScriptTag({path:resolve("node_modules/axe-core/axe.min.js")});
   const count=await page.locator("article svg").count();
-  if(count!==7)errors.push(viewport.width+"px gallery: expected 7 inline SVGs, found "+count);
+  if(count!==9)errors.push(viewport.width+"px gallery: expected 9 inline SVGs, found "+count);
   const dims=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}));
   if(dims.scroll>dims.client+1)errors.push(viewport.width+"px gallery horizontal overflow "+dims.scroll+">"+dims.client);
   const data=await page.evaluate(()=>{
@@ -42,10 +42,10 @@ try{
    if(d.overlaps.length)errors.push(viewport.width+"px "+d.name+": text-to-text overlaps "+JSON.stringify(d.overlaps));
   }
   const axe=await page.evaluate(async()=>await window.axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21a","wcag21aa"]}}));
-  reports.push(viewport.width+"px: 7/7 SVGs; overflow="+(dims.scroll>dims.client)+"; axe violations="+axe.violations.length+"; "+data.map(d=>d.name.split("/")[0]+": min rendered text "+d.minEffective.toFixed(1)+"px; text overlap="+d.overlaps.length).join(" | "));
+  reports.push(viewport.width+"px: 9/9 SVGs; overflow="+(dims.scroll>dims.client)+"; axe violations="+axe.violations.length+"; "+data.map(d=>d.name.split("/")[0]+": min rendered text "+d.minEffective.toFixed(1)+"px; text overlap="+d.overlaps.length).join(" | "));
   if(axe.violations.length)errors.push(viewport.width+"px gallery axe violations "+axe.violations.map(v=>v.id+"("+v.nodes.length+")").join(","));
   await page.screenshot({path:"/tmp/chapter-07-gallery-"+viewport.width+".png",fullPage:true});
-  for(let i=0;i<7;i++)await page.locator("article").nth(i).screenshot({path:"/tmp/chapter-07-visual-"+(i+1)+".png"});
+  for(let i=0;i<9;i++)await page.locator("article").nth(i).screenshot({path:"/tmp/chapter-07-visual-"+(i+1)+".png"});
   await page.close();
 
   const live=await browser.newPage({viewport,deviceScaleFactor:1});
@@ -56,7 +56,7 @@ try{
    const remaining={...counts};
    return nodes.filter(img=>{if(!remaining[img.alt])return false;remaining[img.alt]--;return true;}).map(img=>({alt:img.alt,src:img.src}));
   },expectedAltCounts);
-  if(liveData.length!==14)errors.push(viewport.width+"px GitHub Markdown: expected 14 Chapter 07 images, found "+liveData.length);
+  if(liveData.length!==18)errors.push(viewport.width+"px GitHub Markdown: expected 18 Chapter 07 images, found "+liveData.length);
   const liveDecoded=await allImages.evaluateAll(async(nodes,counts)=>{
    const remaining={...counts};
    const selected=nodes.filter(img=>{if(!remaining[img.alt])return false;remaining[img.alt]--;return true;});
@@ -66,10 +66,10 @@ try{
   if(liveDecoded!==14)errors.push(viewport.width+"px GitHub Markdown: only "+liveDecoded+"/14 images decoded");
   const liveDims=await live.evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}));
   if(liveDims.scroll>liveDims.client+1)errors.push(viewport.width+"px GitHub Markdown horizontal overflow");
-  reports.push(viewport.width+"px GitHub Markdown: "+liveDecoded+"/14 images decoded; overflow="+(liveDims.scroll>liveDims.client));
+  reports.push(viewport.width+"px GitHub Markdown: "+liveDecoded+"/18 images decoded; overflow="+(liveDims.scroll>liveDims.client));
   await live.close();
  }
 }finally{await browser.close()}
 console.log(reports.join("\n"));
 if(errors.length){console.error("Chapter 07 browser QA failed:\n"+errors.join("\n"));process.exit(1)}
-console.log("PASS: all seven inline SVGs render at mobile/desktop; all 14 live GitHub Markdown embeds decode; no clipping or text overlap; axe WCAG 2.1 A/AA clean.");
+console.log("PASS: all nine inline SVGs render at mobile/desktop; all 18 live GitHub Markdown embeds decode; no clipping or text overlap; axe WCAG 2.1 A/AA clean.");
