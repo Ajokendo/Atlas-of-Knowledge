@@ -910,3 +910,14 @@ Reviewed the 42 latest 768 CSS px screenshots (21 routes × RU/EN) from artifact
 - [x] Inspected the Russian glossary at full resolution: the two-column 102-entry layout remains within the viewport and the entries are not cut off. At 768 px the page is long and text is dense, but the two-column arrangement remains readable when viewed at normal page zoom; no confirmed layout defect was found.
 
 **Disposition:** tablet baseline visual review is complete at overview level for all 42 screenshots, with full-resolution checks of representative dense pages. This does not mean every text glyph in all 42 images has been proofread, and it does not certify physical tablets or every interactive state. No source changes were required by this review pass.
+
+
+### Mobile reference-table guidance and keyboard scrolling — 6 November 2026
+
+- [x] On branch `workspace/chemistry`, commit `272546ffdbcf112b716edad3ee0fa7cfadb3febb`, added a visible horizontal-scroll hint above each of the three reference tables on the Chemistry constants page. The hint is localized: Russian `Прокрутите таблицу по горизонтали →`; English `Scroll the table horizontally →`. It is shown at narrow/mobile widths and hidden at tablet/desktop widths.
+- [x] Added explicit `ArrowLeft` / `ArrowRight` keyboard handling to each labeled table region, scrolling horizontally in 80 px steps. This makes the intended keyboard interaction explicit rather than relying on browser-native behavior that failed the first regression assertion.
+- [x] Chromium regression checks now verify that the table overflows at 390 px, the Russian and English hints are present and visible at mobile width, the hint is hidden at 768 px, and keyboard arrow keys move the focused table region horizontally.
+- [x] Workflow [42222815683](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42222815683) passed on `272546f`: static page/link/asset/script validation, all-page Chromium browser tests and screenshot-artifact upload succeeded.
+- [x] Retrieved the fresh 126-image artifact `13503503600` from that exact commit. Full-resolution checks of `chemistry-constants-ru-390px.png` and `chemistry-constants-en-390px.png` confirm that the localized hints appear directly above the tables; `chemistry-constants-ru-768px.png` and `chemistry-constants-en-768px.png` confirm that the hints are hidden at tablet width and the tables fit the viewport without page-level horizontal overflow.
+
+**Disposition:** the mobile table affordance and keyboard-scrolling regression are accepted by CI, and the current RU/EN mobile and tablet renderings match the intended responsive behavior. This is browser-based evidence, not certification on every physical device or assistive technology. The old tablet-review workflow `42221846652` remains unusually long-running and is not needed to establish this newer green result; the completed green run above is the authoritative check for commit `272546f`.
