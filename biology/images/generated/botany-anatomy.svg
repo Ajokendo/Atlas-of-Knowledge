@@ -15,7 +15,7 @@
 <rect x="18" y="14" width="1404" height="64" rx="16" fill="#285f3a"/>
 <text x="720" y="55" text-anchor="middle" class="h">Внутреннее строение растений / Internal Structure of Plants</text>
 <!-- ROOT -->
-<rect x="18" y="94" width="450" height="590" rx="18" class="panel"/>
+<rect x="18" y="94" width="450" height="620" rx="18" class="panel"/>
 <rect x="18" y="94" width="450" height="54" rx="16" fill="#a66a27"/>
 <text x="243" y="130" text-anchor="middle" class="h">Корень / Root</text>
 <text x="243" y="174" text-anchor="middle" class="sub">Поперечный срез / Cross-section</text>
@@ -42,11 +42,11 @@
 <g class="lab">
  <text x="35" y="235">Ризодерма / Rhizodermis</text><text x="35" y="256" class="small">(эпидерма / epidermis)</text>
  <text x="300" y="225">Кора / Cortex</text>
- <text x="30" y="602" class="small">Эндодерма / Endodermis</text>
- <text x="300" y="602" class="small">Перицикл / Pericycle</text>
- <text x="242" y="624" text-anchor="middle" class="small">Центральный цилиндр / Stele</text>
- <text x="242" y="649" text-anchor="middle" class="small" fill="#176b9e">Ксилема / Xylem — звезда</text>
- <text x="242" y="671" text-anchor="middle" class="small" fill="#75428f">Флоэма / Phloem — между лучами</text>
+ <text x="30" y="606" class="small">Эндодерма / Endodermis</text>
+ <text x="300" y="606" class="small">Перицикл / Pericycle</text>
+ <text x="242" y="636" text-anchor="middle" class="small">Центральный цилиндр / Stele</text>
+ <text x="242" y="666" text-anchor="middle" class="small" fill="#176b9e">Ксилема / Xylem — звезда</text>
+ <text x="242" y="696" text-anchor="middle" class="small" fill="#75428f">Флоэма / Phloem — между лучами</text>
 </g>
 <!-- STEM -->
 <rect x="495" y="94" width="450" height="590" rx="18" class="panel"/>
