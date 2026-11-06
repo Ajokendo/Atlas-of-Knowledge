@@ -131,8 +131,8 @@ export const PAGES = [
   {
     kicker: '4.6 · AP Physics C', title: 'Работа переменной силы', sub: 'площадь под графиком F(x)',
     body: `
-      <p class="lede">Если сила меняется вдоль пути, разделим перемещение на узкие участки, для каждого вычислим <i>F</i>Δ<i>x</i>, а затем будем уменьшать ширину участков. Сумма стремится к <b>площади под графиком F(x)</b>:</p>
-      <div class="eq"><i>W</i> = lim Σ <i>F</i>(<i>x</i><sub>i</sub>)Δ<i>x</i> = ∫ <i>F</i>(<i>x</i>) d<i>x</i></div>
+      <p class="lede">Если проекция силы на направление движения меняется вдоль пути, разделим перемещение на узкие участки, для каждого вычислим <i>F</i><sub>x</sub>Δ<i>x</i>, а затем будем уменьшать ширину участков. Сумма стремится к <b>площади под графиком проекции силы F<sub>x</sub>(x)</b>:</p>
+      <div class="eq"><i>W</i> = lim Σ <i>F</i><sub>x</sub>(<i>x</i><sub>i</sub>)Δ<i>x</i> = ∫ <i>F</i><sub>x</sub>(<i>x</i>) d<i>x</i></div>
       <p>На ящик массой ${f(M.PUSH.m, 1)} кг на гладком полу действует сила <i>F</i> = <i>F</i><sub>0</sub>(1 − <i>x</i>/<i>L</i>)(1 + 2<i>x</i>/<i>L</i>), которая сначала возрастает от ${M.PUSH.F0} Н до максимума ${f(M.PUSH.Fmax, 1)} Н при <i>x</i> = <i>L</i>/4, а затем уменьшается до нуля при <i>x</i> = <i>L</i> = ${f(M.PUSH.L, 1)} м. Интегрирование даёт <i>W</i> = ⅚<i>F</i><sub>0</sub><i>L</i> = ${f(M.PUSH.W, 1)} Дж; вся эта работа переходит в кинетическую энергию.</p>
       <div class="charts">${chart({ ...R.push, xlabel: 'координата x (м)', ylabel: 'сила F(x) (Н)', cursors: [['push']], label: 'Сила в зависимости от координаты; площадь до ящика заштрихована и разделена на шесть полос',
         under: `<path data-area="push" style="fill:#86868c;opacity:.35" d=""/>` + Array.from({ length: 6 }, (_, i) => { const dx = M.PUSH.L / 6, x = i * dx, F = M.pushF(x + dx / 2), X = v => CH.sx(v, R.push.x0, R.push.x1), Y = v => CH.sy(v, R.push.y0, R.push.y1, R.push.h); return `<rect class="trend" x="${X(x)}" y="${Y(F)}" width="${X(dx) - X(0)}" height="${Y(0) - Y(F)}"/>`; }).join(''),
