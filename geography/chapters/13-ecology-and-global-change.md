@@ -540,7 +540,7 @@ The environmental impact of a product or infrastructure asset is not limited to 
 *Все районы и данные условные; схема не описывает реальный город. / All districts and data are hypothetical; the diagram does not depict a real city.*
 
 
-Environmental benefits and risks are not distributed equally. Low-income communities, residents of industrial areas and rural or remote areas, and groups with limited access to healthcare and public services may face disproportionately high burdens.
+Environmental benefits and risks are not distributed equally. Low-income communities, residents of industrial areas, people living in rural or remote areas, and groups with limited access to healthcare and public services may face disproportionately high burdens.
 
 Environmental justice includes:
 - fair distribution of environmental benefits and harm;
