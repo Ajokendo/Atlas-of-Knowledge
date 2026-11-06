@@ -117,9 +117,9 @@ The four known placeholders have been replaced with four original, hand-authored
 - Visual ID: PHY-14-001
 - Subject / chapter: Physics, Chapter 14 — Magnetism
 - Title: Four magnetic-field configurations
-- Integration status: VERIFIED — mobile bilingual caption correction committed as `358ab45b`; fresh desktop/mobile screenshots manually inspected from browser artifact 13499898884 on 2026-11-06 with all four panels and footer visible and no clipping.
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**desktop/mobile screenshot review and browser checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; CC BY-NC 4.0 recorded; bilingual labels/captions/alt text present; mobile caption correction manually verified in fresh desktop/mobile artifact 13499898884. Browser visual step passed in run 42214764837. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: INTEGRATED — manual review of artifact 13499898884 found the desktop toroid current-direction annotation extending beyond its panel; shortened in commit `f45f8667`. Fresh desktop/mobile rerender and review are pending.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → INTEGRATED (**desktop toroid label corrected in `f45f8667`; fresh technical screenshot verification pending**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PENDING — file/path, scientific review, rights and bilingual metadata remain documented; manual desktop artifact 13499898884 exposed a toroid label overrun, corrected in `f45f8667`; fresh desktop/mobile rendering and manual review are required before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Compare field geometry and idealised field-strength relations for a long straight wire, a circular current loop, a long solenoid, and an ideal toroid.
@@ -133,7 +133,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Licence / permission: CC BY-NC 4.0 — https://creativecommons.org/licenses/by-nc/4.0/ (project publication licence approved 2026-11-05; applies to the extent the project has licensable rights).
 - Licence evidence: Not applicable to external artwork; no third-party image is embedded.
 - Checked/accessed date: 2026-11-05.
-- Changes: Original diagram; no source image adapted.
+- Changes: Original diagram; no source image adapted. On 2026-11-06 the desktop toroid current-direction note was shortened and the English note condensed to fit inside the panel (commit `f45f8667`).
 - Attribution: Original AI-assisted vector diagram created for Atlas of Knowledge, 2026. Scientific relations cross-checked against OpenStax references listed in this record; no OpenStax figure reused.
 - RU caption: Четыре конфигурации магнитного поля: прямой проводник, круговой виток, соленоид и тороид.
 - EN caption: Four magnetic-field configurations: straight wire, circular loop, solenoid, and toroid.
@@ -142,19 +142,19 @@ The four known placeholders have been replaced with four original, hand-authored
 - Limitations: Long straight wire; field at the centre of a single circular loop; long-solenoid approximation; ideal toroid approximation. Not to scale.
 - Scientific review: Internal second-pass physics review: PASS (2026-11-05) — equations, directions, assumptions and graph relationships checked; identified notation/direction defects corrected in the SVGs. Independent external subject-matter expert review: separate follow-up activity; not a publication gate.
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
-- Language/accessibility review: PASS — bilingual labels/captions/alt text checked; manual desktop screenshot review confirms legibility, complete panel labels and uncut footer (artifact from run 42193504505).
+- Language/accessibility review: PENDING — bilingual labels/captions/alt text are present; manual review of artifact 13499898884 found a desktop panel-label overrun. Corrected in `f45f8667`; fresh rendered review pending.
 - Integration: chapters/magnetism.html, section “Визуальные материалы главы”.
-- Technical review: PASS — current browser smoke on 2026-11-06 confirms chapter 14 lesson desktop 1440×900 and mobile 390×844, responsive SVG integration, bilingual caption, meaningful alt text, zero horizontal overflow, interactive calculator and quiz; magnetism engine desktop/mobile tests also PASS, axe serious/critical 0 (run 42193504505).
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, axe serious/critical 0 (run 42193504505). Desktop rendered asset manually inspected from fresh workflow artifact; all labels and footer fit.
+- Technical review: PENDING — earlier automated page checks passed, but manual desktop screenshot review exposed a label extending beyond the toroid panel. The layout was corrected in `f45f8667`; rerun on the current HEAD is pending.
+- Desktop/mobile check: PENDING — prior automated checks passed on an earlier HEAD; the manual screenshot review found desktop text overflow, corrected in `f45f8667`. New desktop/mobile screenshots and manual inspection are pending.
 
 ### PHY-15-001 — Lenz's law: approaching and receding magnet
 
 - Visual ID: PHY-15-001
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Lenz's law — approaching and receding magnet
-- Integration status: VERIFIED
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**all internal publication checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; project CC BY-NC 4.0 declaration recorded; bilingual labels/captions/alt text PASS; manual desktop/mobile screenshot review PASS; responsive browser checks PASS on desktop and 390×844 mobile, zero horizontal overflow, axe serious/critical 0; isolated induction run 42213006777 and matching visual-review artifact. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: INTEGRATED — desktop magnetic-field arc geometry and explanatory text baselines adjusted to remove overlap (commit `4017d8d0`); fresh desktop/mobile rerender pending.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → INTEGRATED (**desktop label/field-line spacing corrected in `4017d8d0`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PENDING — scientific review, rights and bilingual metadata remain documented; manual desktop artifact 13499898884 showed the lower magnetic-field curve crossing explanatory text. The curve and text positions were corrected in `4017d8d0`; fresh desktop/mobile rendering and manual review are required before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Distinguish the induced field that opposes increasing flux from the induced field that sustains decreasing flux.
@@ -168,7 +168,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Licence / permission: CC BY-NC 4.0 — https://creativecommons.org/licenses/by-nc/4.0/ (project publication licence approved 2026-11-05; applies to the extent the project has licensable rights).
 - Licence evidence: No third-party artwork embedded.
 - Checked/accessed date: 2026-11-05.
-- Changes: Original diagram; no source image adapted.
+- Changes: Original diagram; no source image adapted. On 2026-11-06 the lower field-line curves were raised and the explanatory text block moved down to prevent overlap (commit `4017d8d0`).
 - Attribution: Original AI-assisted vector diagram created for Atlas of Knowledge, 2026; scientific cross-check references are listed in the Physics image register.
 - RU caption: Закон Ленца: магнит приближается к катушке и удаляется от неё.
 - EN caption: Lenz's law: a magnet approaches and recedes from a coil.
@@ -179,16 +179,16 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.1.
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
+- Desktop/mobile check: PENDING — previous artifact 13499898884 showed the lower desktop field-line curve crossing explanatory copy; corrected in `4017d8d0`, with fresh desktop/mobile screenshots pending.
 
 ### PHY-15-002 — Motional EMF in a moving rod
 
 - Visual ID: PHY-15-002
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Motional EMF in a moving rod
-- Integration status: VERIFIED
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**all internal publication checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; project CC BY-NC 4.0 declaration recorded; bilingual labels/captions/alt text PASS; manual desktop/mobile screenshot review PASS; responsive browser checks PASS on desktop and 390×844 mobile, zero horizontal overflow, axe serious/critical 0; isolated induction run 42213006777 and matching visual-review artifact. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: INTEGRATED — mobile explanatory text and force/velocity label positions corrected after a clipped-line/overlap finding (commit `af5ec5fc`); fresh desktop/mobile rerender pending.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → INTEGRATED (**mobile text and label layout corrected in `af5ec5fc`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PENDING — manual mobile artifact 13499898884 showed the long introductory/explanatory lines clipped at the right edge and the q(v×B)/v labels too close together. The mobile text sizing and label positions were corrected in `af5ec5fc`; fresh desktop/mobile rendering and manual review are required before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Relate mutually perpendicular velocity, magnetic field, rod orientation, charge separation, motional EMF, and the distinction between closed and open circuits.
@@ -202,7 +202,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Licence / permission: CC BY-NC 4.0 — https://creativecommons.org/licenses/by-nc/4.0/ (project publication licence approved 2026-11-05; applies to the extent the project has licensable rights).
 - Licence evidence: No third-party artwork embedded.
 - Checked/accessed date: 2026-11-05.
-- Changes: Original diagram; no source image adapted.
+- Changes: Original diagram; no source image adapted. On 2026-11-06 the mobile introductory and explanatory lines were reduced to fit, the magnetic-force label moved left, and q(v×B)/v labels separated (commit `af5ec5fc`).
 - Attribution: Original AI-assisted vector diagram created for Atlas of Knowledge, 2026; scientific cross-check references are listed in the Physics image register.
 - RU caption: ЭДС движения: замкнутая и разомкнутая цепи со стержнем на рельсах.
 - EN caption: Motional EMF: closed and open circuits with a sliding rod on rails.
@@ -213,16 +213,16 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.2.
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
+- Desktop/mobile check: PENDING — prior manual mobile artifact 13499898884 exposed clipped long text and crowded labels; corrected in `af5ec5fc`; fresh desktop/mobile screenshots pending.
 
 ### PHY-15-003 — Self-induction, RL transient, and LC oscillations
 
 - Visual ID: PHY-15-003
 - Subject / chapter: Physics, Chapter 15 — Electromagnetic Induction
 - Title: Self-induction, RL transient, and LC oscillations
-- Integration status: VERIFIED
-- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → VERIFIED (**all internal publication checks PASS, 2026-11-06**). External expert review is tracked separately and is not a publication gate.
-- Publication verification gate: PASS — file/path and integration confirmed; internal scientific review PASS; project CC BY-NC 4.0 declaration recorded; bilingual labels/captions/alt text PASS; manual desktop/mobile screenshot review PASS; responsive browser checks PASS on desktop and 390×844 mobile, zero horizontal overflow, axe serious/critical 0; isolated induction run 42213006777 and matching visual-review artifact. External expert sign-off is optional follow-up and does not block publication.
+- Integration status: INTEGRATED — desktop graph-label font size and right-column placement adjusted after a collision finding (commit `02d57b74`); fresh desktop/mobile rerender pending.
+- Lifecycle: FOUND → LICENSE_CHECK (**PASS — project publication licence declared, CC BY-NC 4.0**) → SCIENTIFIC_CHECK (**internal review PASS**) → ADAPTED (**N/A — Category C, original independent asset**) → INTEGRATED → INTEGRATED (**desktop chart-label spacing corrected in `02d57b74`; fresh rendered verification pending**). External expert review is tracked separately and is not a publication gate.
+- Publication verification gate: PENDING — manual desktop artifact 13499898884 showed the LC graph labels too close/overlapping. The chart-label font size and right-column placement were adjusted in `02d57b74`; fresh desktop/mobile rendering and manual review are required before VERIFIED.
 - Source relationship: New independent project-created diagram
 - Category: C
 - Learning objective: Separate the self-induction law, exponential current rise/decay in an RL circuit, and ideal energy exchange in an LC circuit.
@@ -236,7 +236,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Licence / permission: CC BY-NC 4.0 — https://creativecommons.org/licenses/by-nc/4.0/ (project publication licence approved 2026-11-05; applies to the extent the project has licensable rights).
 - Licence evidence: No third-party artwork embedded.
 - Checked/accessed date: 2026-11-05.
-- Changes: Original diagram; no source image adapted.
+- Changes: Original diagram; no source image adapted. On 2026-11-06 the desktop LC chart labels were reduced from 18 px to 15 px and the right-hand column shifted right to separate the expressions (commit `02d57b74`).
 - Attribution: Original AI-assisted vector diagram created for Atlas of Knowledge, 2026; scientific cross-check references are listed in the Physics image register.
 - RU caption: Самоиндукция, переходный процесс в RL-цепи и колебания в LC-контуре.
 - EN caption: Self-induction, an RL transient, and oscillations in an LC circuit.
@@ -247,7 +247,7 @@ The four known placeholders have been replaced with four original, hand-authored
 - Rights review: PASS — project publication licence declared as CC BY-NC 4.0; no third-party artwork is embedded. This does not assert exclusive copyright in AI-generated elements.
 - Language/accessibility review: PENDING — bilingual captions and alt text present; final visual comprehension review outstanding.
 - Integration: chapters/induction.html, visual item 15.3.
-- Desktop/mobile check: PASS — 1440×900 and 390×844; responsive SVG source selection, loading, bilingual captions, meaningful alt text, zero horizontal overflow, and axe serious/critical 0 (run 42006633285).
+- Desktop/mobile check: PENDING — previous manual desktop artifact 13499898884 showed crowded LC graph labels; corrected in `02d57b74`; fresh desktop/mobile screenshots pending.
 
 ## Visual requirement review
 
@@ -256,8 +256,8 @@ Record a requirement here before starting a search. Move it to the integrated-as
 | Chapter / Visual ID | Required visual | Search / review status | Reason unresolved | Next action |
 |---|---|---|---|---|
 | 04 — Work and Energy | Force direction and displacement; energy comparison; height-dependent potential energy | Three local implementations are present (inline SVG, canvas plot, Three.js scene); source lineage and item-level rights are still pending | The visuals may be suitable as local explanatory models, but the current evidence does not prove independent authorship or clear all inherited content rights | Map each implementation to upstream source; complete A/B/C classification and rights review before marking VERIFIED |
-| 14 / PHY-14-001 | Four-topic infographic: straight wire, circular loop, solenoid, and toroid | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are in `chapters/magnetism.html` | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent external expert review is a separate post-publication activity, not a publication gate | Rerun responsive browser QA after the Chapter 14 footnote clarification; external expert sign-off is a separate post-publication activity and does not block publication |
-| 15.1 / PHY-15-001 | Magnet and coil: increasing/decreasing magnetic flux, induced current, field direction, and Lenz's law | **VERIFIED** — original bilingual desktop/mobile SVGs and RU/EN captions/alt text are integrated and passed current visual/browser review (run 42213006777) | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent external expert review is a separate post-publication activity, not a publication gate | Rerun responsive browser QA after the Chapter 14 footnote clarification; external expert sign-off is a separate post-publication activity and does not block publication |
+| 14 / PHY-14-001 | Four-topic infographic: straight wire, circular loop, solenoid, and toroid | **INTEGRATED** — original bilingual SVG and RU/EN captions/alt text are present; desktop toroid note overflow corrected in `f45f8667` | Rights and internal scientific review documented; manual desktop/mobile re-render and verification pending | Recheck panel fit, footer and all labels on fresh desktop/mobile screenshots |
+| 15.1 / PHY-15-001 | Magnet and coil: increasing/decreasing magnetic flux, induced current, field direction, and Lenz's law | **INTEGRATED** — original bilingual desktop/mobile SVGs are present; manual review found layout defects, corrected in `4017d8d0` / `af5ec5fc` / `02d57b74`; fresh visual/browser verification pending | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent external expert review is a separate post-publication activity, not a publication gate | Rerun responsive browser QA after the Chapter 14 footnote clarification; external expert sign-off is a separate post-publication activity and does not block publication |
 | 15.2 / PHY-15-002 | Moving conducting rod on rails in a uniform magnetic field; mutually perpendicular geometry, charge separation, motional EMF, and closed/open circuit cases | **VERIFIED** — original bilingual desktop/mobile SVGs and RU/EN captions/alt text are integrated and passed current visual/browser review (run 42213006777) | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent external expert review is a separate post-publication activity, not a publication gate | Rerun responsive browser QA after the Chapter 14 footnote clarification; external expert sign-off is a separate post-publication activity and does not block publication |
 | 15.3 / PHY-15-003 | Self-induction law; separate RL rise/decay curves with τ = L/R; LC charge/current oscillations with ω = 1/√(LC); energy exchange, labelled axes, units, and initial conditions | **VERIFIED** — original bilingual desktop/mobile SVGs and RU/EN captions/alt text are integrated and passed current visual/browser review (run 42213006777) | Responsive desktop/mobile browser QA and contrast PASS; CC BY-NC 4.0 publication licence declared; independent external expert review is a separate post-publication activity, not a publication gate | Rerun responsive browser QA after the Chapter 14 footnote clarification; external expert sign-off is a separate post-publication activity and does not block publication |
 
