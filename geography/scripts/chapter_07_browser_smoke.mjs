@@ -1,7 +1,12 @@
 import { chromium } from "playwright";
 import { pathToFileURL } from "node:url";
 import { resolve } from "node:path";
+import { readFileSync } from "node:fs";
 const preview=pathToFileURL(resolve("/tmp/geography-chapter-07-preview.html")).href;
+const liveUrl="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/workspace/geography/geography/chapters/07-biosphere-and-natural-biomes.md";
+const chapter=readFileSync(resolve("geography/chapters/07-biosphere-and-natural-biomes.md"),"utf8");
+const embeds=[...chapter.matchAll(/!\[([^\]]*)\]\(([^)\s]+)\)/g)].map(m=>m[1]);
+const expectedAltCounts=embeds.reduce((counts,alt)=>{counts[alt]=(counts[alt]||0)+1;return counts;},{});
 const browser=await chromium.launch({headless:true}),errors=[],reports=[];
 try{
  for(const viewport of [{width:390,height:844},{width:1365,height:900}]){
@@ -42,6 +47,27 @@ try{
   await page.screenshot({path:"/tmp/chapter-07-gallery-"+viewport.width+".png",fullPage:true});
   for(let i=0;i<7;i++)await page.locator("article").nth(i).screenshot({path:"/tmp/chapter-07-visual-"+(i+1)+".png"});
   await page.close();
+
+  const live=await browser.newPage({viewport,deviceScaleFactor:1});
+  await live.goto(liveUrl,{waitUntil:"domcontentloaded",timeout:60000});
+  await live.locator(".markdown-body").first().waitFor({state:"visible",timeout:60000});
+  const allImages=live.locator(".markdown-body img");
+  const liveData=await allImages.evaluateAll((nodes,counts)=>{
+   const remaining={...counts};
+   return nodes.filter(img=>{if(!remaining[img.alt])return false;remaining[img.alt]--;return true;}).map(img=>({alt:img.alt,src:img.src}));
+  },expectedAltCounts);
+  if(liveData.length!==14)errors.push(viewport.width+"px GitHub Markdown: expected 14 Chapter 07 images, found "+liveData.length);
+  const liveDecoded=await allImages.evaluateAll(async(nodes,counts)=>{
+   const remaining={...counts};
+   const selected=nodes.filter(img=>{if(!remaining[img.alt])return false;remaining[img.alt]--;return true;});
+   await Promise.all(selected.map(img=>{img.loading="eager";return img.decode().catch(()=>null)}));
+   return selected.filter(img=>img.complete&&img.naturalWidth>0).length;
+  },expectedAltCounts);
+  if(liveDecoded!==14)errors.push(viewport.width+"px GitHub Markdown: only "+liveDecoded+"/14 images decoded");
+  const liveDims=await live.evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}));
+  if(liveDims.scroll>liveDims.client+1)errors.push(viewport.width+"px GitHub Markdown horizontal overflow");
+  reports.push(viewport.width+"px GitHub Markdown: "+liveDecoded+"/14 images decoded; overflow="+(liveDims.scroll>liveDims.client));
+  await live.close();
  }
 }finally{await browser.close()}
 console.log(reports.join("\n"));
