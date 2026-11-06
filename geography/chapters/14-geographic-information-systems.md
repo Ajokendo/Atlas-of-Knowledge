@@ -1136,7 +1136,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Цель:** увидеть разницу между расстоянием по прямой и доступностью по дорожной сети.
 
-**Данные:** точки населённых пунктов и объектов социальной инфраструктуры, а также дорожная сеть с известным источником и датой. Для первого знакомства можно создать небольшую учебную сеть из линий и точек вручную. Не используйте её для выводов о реальной доступности.
+**Данные:** точки населённых пунктов и объектов социальной инфраструктуры, а также дорожная сеть с известным источником и датой. Для проверки алгоритма используйте проект `exercise_data/network_analysis/network.qgz` из официального учебного набора QGIS 3.44 (ссылка на набор приведена в источнике 47): в нём есть слои `network_points` и `network_lines`. Это демонстрационная сеть, не реальная сеть Кыргызстана и не доказательство доступности местных услуг. Для исследования конкретной территории нужны отдельно проверенные точки услуг и актуальная дорожная сеть. Не используйте учебную сеть для выводов о реальной доступности.
 
 **Порядок работы:**
 1. Выберите одну услугу (например, школу или медицинский пункт) и ограниченную территорию исследования.
@@ -1150,7 +1150,7 @@ Suppose we need a preliminary estimate of the area within 500 m of a clinic. For
 
 **Goal:** understand the difference between straight-line distance and accessibility along a road network.
 
-**Data:** settlement points, social-service locations and a road network with a known source and date. For an introductory exercise, create a small teaching network from lines and points manually. Do not use it to draw conclusions about real-world accessibility.
+**Data:** settlement points, social-service locations and a road network with a known source and date. To practise the algorithm, open `exercise_data/network_analysis/network.qgz` from the official QGIS 3.44 training dataset (the download is listed in source 47); it contains `network_points` and `network_lines`. This is a demonstration network, not a real Kyrgyzstan road network and not evidence of local service accessibility. A real territorial study requires separately verified service locations and a current road network. Do not use the teaching network for real-world accessibility conclusions.
 
 **Steps:**
 1. Choose one service (for example, a school or health facility) and a limited study area.
