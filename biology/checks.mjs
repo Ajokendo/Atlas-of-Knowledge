@@ -1184,3 +1184,27 @@ if (errors.length) {
   process.exit(1);
 }
 console.log("Biology checks passed: " + pages.length + " HTML pages, " + links + " local paths, " + scripts + " inline scripts, " + buttons + " typed buttons, " + dynamicRegions + " accessible dynamic output regions.");
+
+// Regional fauna SVG safeguards: preserve habitat separation and avoid unsupported species/range/census claims.
+const regionalFaunaSvgChecks = [
+  { file: "fauna-naryn-highland-habitats.svg", required: ["Naryn highland fauna in separate habitats", "not a range map or population count", "Cervus elaphus", "Panthera uncia", "Seasonal waterbirds"] },
+  { file: "fauna-osh-southern-habitats.svg", required: ["three separate habitat panels", "do not imply that the animals occur together at one site", "Tian Shan brown bear", "Snow leopard", "Siberian ibex"] },
+  { file: "fauna-talas-besh-tash.svg", required: ["Three separate scenes", "generic fish silhouette", "no species label", "not a distribution map"] },
+  { file: "fauna-herps-habitats.svg", required: ["Two separate natural-history habitat scenes", "Neither animal is assigned a species name or precise locality", "generic green toad", "generic lizard"] }
+];
+for (const check of regionalFaunaSvgChecks) {
+  const assetPath = path.join(root, "images", "generated", check.file);
+  if (!fs.existsSync(assetPath)) {
+    errors.push("images/generated/" + check.file + ": required regional fauna schematic is missing");
+    continue;
+  }
+  const svg = fs.readFileSync(assetPath, "utf8");
+  if (!/<svg\\b[^>]*viewBox=/i.test(svg) || !/<title\\b/i.test(svg) || !/<desc\\b/i.test(svg)) {
+    errors.push("images/generated/" + check.file + ": SVG must retain viewBox, title and descriptive accessibility text");
+  }
+  for (const phrase of check.required) {
+    if (!svg.toLowerCase().includes(phrase.toLowerCase())) {
+      errors.push("images/generated/" + check.file + ": required scientific scope/identity wording missing: " + phrase);
+    }
+  }
+}
