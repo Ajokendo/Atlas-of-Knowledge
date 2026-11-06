@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 CHAPTER = Path("geography/chapters/06-hydrosphere-and-world-ocean.md")
-IMAGE = re.compile(r"!\\[([^\\]]*)\\]\\(([^)\\s]+)\\)")
+IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)\)")
 BASE = "https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/"
 
 def main() -> int:
