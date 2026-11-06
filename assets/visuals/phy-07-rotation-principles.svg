@@ -9,8 +9,8 @@
 <text x="70" y="137" font-size="23" font-weight="700" fill="#252b31">1. Момент силы зависит от плеча и направления силы</text>
 <line x1="180" y1="278" x2="760" y2="278" stroke="#8b8d8e" stroke-width="9" stroke-linecap="round"/>
 <circle cx="180" cy="278" r="15" fill="#343a40"/><text x="120" y="318" font-size="17" fill="#343a40">ось</text>
-<line x1="180" y1="248" x2="680" y2="248" stroke="#4779b8" stroke-width="3" marker-end="url(#blue)"/>
-<text x="420" y="238" font-size="17" fill="#4779b8">r</text>
+<line x1="180" y1="278" x2="680" y2="278" stroke="#4779b8" stroke-width="3" marker-end="url(#blue)"/>
+<text x="420" y="265" font-size="17" fill="#4779b8">r</text>
 <line x1="180" y1="278" x2="690" y2="278" stroke="#343a40" stroke-width="2" marker-end="url(#dark)"/>
 <text x="410" y="306" font-size="17" fill="#343a40">плечо r</text>
 <circle cx="690" cy="278" r="8" fill="#c65b45"/>
