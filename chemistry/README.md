@@ -2,6 +2,13 @@
 
 
 
+### First rendered screenshot review — 6 November 2026
+
+- [x] Inspected the first retained screenshot artifact from run [42158701555](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42158701555).
+- [x] Corrected the periodic-table mobile horizontal-scroll affordance and keyboard accessibility in both language modes; browser regression run [42170499572](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42170499572) passed.
+- [x] Corrected arrow/label overlap in the Russian and English periodic-trends SVGs and added a source regression guard.
+- [ ] Re-inspect the next screenshot artifact after these changes; review of all 36 baseline images and all interactive states remains incomplete.
+
 ### Rendered visual evidence in CI — 6 November 2026
 
 - [x] Added full-page baseline screenshots for 12 key Chemistry visual pages at 390, 768 and 1280 CSS-pixel widths (36 captures per successful run).
