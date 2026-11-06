@@ -419,7 +419,7 @@ Q = A \times v,
 
 *Схема показывает возможные причинные связи; региональные реакции различаются, а направление и величина изменений зависят от условий. / Possible causal pathways; regional responses vary and direction and magnitude depend on local conditions.*
 
-Изменение климата воздействует на гидрологический цикл через изменение испарения, интенсивности осадков, снегового накопления, таяния ледников и частоты экстремальных событий.
+Изменение климата воздействует на гидрологический цикл через рост атмосферного испарительного спроса, изменения фактического испарения и интенсивности осадков, снегового накопления, таяния ледников и частоты экстремальных событий. Глобальные средние испарение и осадки в целом увеличиваются, но региональные изменения осадков и стока неодинаковы; фактическое испарение на суше зависит также от доступности влаги.
 
 В разных регионах могут усиливаться:
 - интенсивные ливни и паводки;
@@ -828,7 +828,7 @@ Key tools include monitoring surface water and groundwater, water-saving technol
 
 *Possible causal pathways; regional responses vary and direction and magnitude depend on local conditions.*
 
-Climate change affects the hydrological cycle through changes in evaporation, precipitation intensity, snow accumulation, glacier melt and the frequency of extreme events.
+Climate change affects the hydrological cycle through rising atmospheric evaporative demand and changes in actual evaporation, precipitation intensity, snow accumulation, glacier melt and the frequency of extreme events. Global-mean evaporation and precipitation generally increase, but regional precipitation and runoff responses differ; actual evaporation over land also depends on water availability.
 
 Some regions may experience stronger intense rainfall and floods, longer droughts, seasonal changes in runoff, increased risks to glacial lakes and mountain valleys, and greater competition between sectors for water. Impacts depend on geography, infrastructure and society's capacity to adapt. Changes in precipitation and runoff should not be described as identical across all regions.
 
@@ -935,6 +935,7 @@ Additional task: compare two ocean regions using surface temperature, salinity a
 15. Flanders Marine Institute (2021). **Global Oceans and Seas, version 1.** WGS84 boundaries for ten major ocean and sea regions; CC BY 4.0. DOI: https://doi.org/10.14284/542. Dataset download and current version: https://www.marineregions.org/downloads.php
 16. NOAA National Ocean Service. **What is the global ocean conveyor belt?** — explains the interaction of wind-driven surface currents, thermohaline deep circulation, sinking of cold dense water and upwelling. https://oceanservice.noaa.gov/facts/conveyor.html
 17. Lumpkin, Rick (NOAA/AOML). **Ocean surface currents** (2008). Generalized map of major surface-current directions; Public Domain. Original image: https://upload.wikimedia.org/wikipedia/commons/c/cc/Ocean_surface_currents.jpg
+18. IPCC. (2021). **Climate Change 2021: The Physical Science Basis**, Working Group I, Chapter 8: Water Cycle Changes. Supports the global increase in atmospheric moisture and evaporative demand, while emphasizing regional and seasonal differences in precipitation, evaporation and runoff. https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/
 При использовании численных данных о запасах воды, океанических глубинах, ледниках и речном стоке следует фиксировать год, пространственный охват, методику оценки и единицы измерения. Данные о запасах (например, км³) нельзя смешивать с потоками за период (например, км³/год).
 
 ## Редакционные и научные примечания
