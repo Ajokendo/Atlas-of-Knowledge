@@ -151,7 +151,7 @@ Climate change is expressed not only in rising average temperatures but also in 
 
 ### Океаны и побережья / Oceans and coasts
 
-Океан поглощает значительную часть избыточного тепла климатической системы и часть антропогенного CO₂. Это сопровождается нагреванием воды, повышением уровня моря и подкислением океана. Риски для побережий включают затопление низменных территорий, эрозию, засоление подземных вод и ущерб инфраструктуре.
+Океан поглощает значительную часть избыточного тепла климатической системы и часть антропогенного CO₂. По оценке IPCC AR6, за предшествующие 60 лет океан накопил около 23 ± 5% антропогенных выбросов углерода, а с 1970-х годов — более 90% избыточного тепла, накопившегося в системе Земли. Поглощение тепла способствует нагреванию океана и повышению уровня моря, а поглощение CO₂ снижает pH морской воды и вызывает её подкисление. Риски для побережий включают затопление низменных территорий, эрозию, засоление подземных вод и ущерб инфраструктуре.
 
 ### Экстремальные явления / Extreme events
 
@@ -173,7 +173,7 @@ The retreat of glaciers and changes in seasonal snow cover affect the timing of 
 
 ### Oceans and coasts
 
-The ocean absorbs a substantial part of the excess heat in the climate system and some of the anthropogenic CO₂. This contributes to ocean warming, sea-level rise and ocean acidification. Coastal risks include inundation of low-lying areas, erosion, salinisation of groundwater and damage to infrastructure.
+The ocean absorbs a substantial share of excess heat in the climate system and some anthropogenic CO₂. The IPCC Sixth Assessment Report estimates that over the preceding 60 years the ocean stored about 23 ± 5% of anthropogenic carbon emissions and, since the 1970s, more than 90% of the excess heat accumulated in the Earth system. Heat uptake contributes to ocean warming and sea-level rise, while CO₂ uptake lowers seawater pH and causes ocean acidification. Coastal risks include inundation of low-lying areas, erosion, salinisation of groundwater and damage to infrastructure.
 
 ### Extreme events
 
@@ -922,6 +922,7 @@ Consider a fictional settlement beside a river. For this learning example, the e
 23. Intergovernmental Panel on Climate Change (IPCC). **Frequently Asked Questions, Working Group I contribution to the Sixth Assessment Report** — physical basis of the greenhouse effect and infrared absorption and emission by atmospheric constituents. https://www.ipcc.ch/help/frequently-asked-questions/
 24. United Nations Economic Commission for Europe (UNECE). **Convention on Environmental Impact Assessment in a Transboundary Context (Espoo Convention)** — project-level EIA, early assessment, notification and consultation where significant transboundary impacts may occur. https://unece.org/environment-policy/publications/convention-environmental-impact-assessment-transboundary-context
 25. United Nations Environment Programme (UNEP) and Life Cycle Initiative. **A Policymakers' Guide to Life Cycle Assessment** (2024) — life-cycle stages, inputs, outputs, impacts and study-quality considerations. https://wedocs.unep.org/handle/20.500.11822/46469
+26. Intergovernmental Panel on Climate Change (IPCC). **Climate Change 2021: The Physical Science Basis**, Chapter 5, Cross-Chapter Box 5.3 — ocean uptake of anthropogenic carbon and excess heat. https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_05.pdf
 
 ---
 **Конец главы 13 / End of Chapter 13**
