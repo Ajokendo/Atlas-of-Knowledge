@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Глава 15. Дистанционное зондирование Земли — Атлас географии</title>
+<link rel="stylesheet" href="reader.css">
+</head>
+<body data-lang="ru">
+<header class="top">
+  <nav class="crumbs"><a href="../../portal.html">Atlas of Knowledge</a><span>/</span><a href="../index.html"><span class="ru">География</span><span class="en">Geography</span></a></nav>
+  <button class="langBtn" id="langBtn" type="button" aria-label="Switch language">EN</button>
+</header>
+<div class="layout">
+  <aside class="toc" id="toc" aria-label="Содержание главы"></aside>
+  <main class="chapter">
+    <p class="eyebrow"><span class="ru">Атлас географии · Глава 15</span><span class="en">Atlas of Geography · Chapter 15</span></p>
+    <article id="article">
+<h1 class="ru">Глава 15. Дистанционное зондирование Земли</h1>
+<h1 class="en">Chapter 15. Remote Sensing of the Earth</h1>
+<blockquote class="ru">
+<p><strong>Часть III. Современная география и технологии / Part III. Modern Geography and Technology</strong><br/>
+Научно-образовательный атлас географии / Scientific and Educational Geography Atlas</p>
+</blockquote>
+<h2 class="both" id="s3"><span class="ru">Цели главы</span><span class="en">Chapter objectives</span></h2>
+<p class="ru">Дистанционное зондирование Земли (ДЗЗ) — получение информации о поверхности и атмосфере без непосредственного контакта с исследуемым объектом, преимущественно с помощью датчиков на спутниках, самолётах и беспилотных летательных аппаратах. Данные ДЗЗ позволяют наблюдать большие территории, повторять измерения во времени и изучать процессы, труднодоступные для наземных обследований.</p>
+<p class="ru">Глава рассматривает физические основы дистанционного зондирования, электромагнитный спектр, активные и пассивные сенсоры, спутниковые программы, пространственное и временное разрешение, предварительную обработку, спектральные индексы, классификацию, радарные наблюдения, мониторинг изменений и ограничения интерпретации.</p>
+<p class="en">Remote sensing of the Earth is the acquisition of information about the surface and atmosphere without direct physical contact, primarily using sensors carried by satellites, aircraft and uncrewed aerial vehicles. Remote sensing data enable large-area observation, repeated measurements and the study of processes that are difficult to investigate through field surveys alone.</p>
+<p class="en">This chapter introduces the physical principles of remote sensing, the electromagnetic spectrum, active and passive sensors, satellite programmes, spatial and temporal resolution, preprocessing, spectral indices, classification, radar observations, change detection and interpretation limits.</p>
+<h2 class="both" id="s8"><span class="ru">15.1. Понятие и значение ДЗЗ</span><span class="en">Concept and Importance of Remote Sensing</span></h2>
+<p class="both fig"><img alt="Принцип пассивного оптического ДЗЗ" data-alt-en="Principle of passive optical remote sensing" decoding="async" loading="lazy" src="../assets/diagrams/15-E-remote-sensing-principle-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Показан пассивный оптический путь; тепловое ДЗЗ и активный SAR используют иные физические режимы регистрации.</em></span><span class="en">The passive optical pathway is shown; thermal remote sensing and active SAR use different sensing modes.</span></p>
+<p class="ru">Дистанционное зондирование основано на регистрации электромагнитного излучения, отражённого, испускаемого или рассеянного объектами и атмосферой. По измеренным сигналам можно получать сведения о свойствах поверхности, растительности, воде, снегу, льде, облачности, температуре и изменениях землепользования.</p>
+<p class="ru">Основные платформы:
+- <strong>спутники:</strong> обеспечивают регулярное наблюдение больших территорий и глобальный охват;
+- <strong>самолёты:</strong> позволяют выполнять съёмку с гибким выбором высоты, сенсора и времени;
+- <strong>беспилотные летательные аппараты (БПЛА):</strong> дают детальные изображения локальных участков, но имеют ограничения по площади, погоде, разрешениям на полёты и времени работы;
+- <strong>наземные и стационарные платформы:</strong> используются для калибровки, проверки и локального мониторинга.</p>
+<p class="ru">ДЗЗ дополняет полевые исследования, а не заменяет их. Спутниковый сигнал требует интерпретации и проверки, особенно если речь идёт о конкретном виде растений, типе почвы, причине изменения или юридическом статусе территории.</p>
+<p class="en">Remote sensing is based on recording electromagnetic radiation reflected, emitted or scattered by objects and the atmosphere. The measured signals can provide information about surface properties, vegetation, water, snow, ice, cloud cover, temperature and land-use change.</p>
+<p class="en">The main platforms are:
+- <strong>satellites:</strong> provide regular observations over large areas and global coverage;
+- <strong>aircraft:</strong> allow surveys with flexible choices of altitude, sensor and timing;
+- <strong>uncrewed aerial vehicles (UAVs):</strong> provide detailed imagery of local areas but are limited by coverage, weather, flight permissions and operating time; and
+- <strong>ground-based and stationary platforms:</strong> support calibration, validation and local monitoring.</p>
+<p class="en">Remote sensing complements field research; it does not replace it. Satellite signals require interpretation and validation, especially when identifying a particular plant species, soil type, cause of change or legal status of a territory.</p>
+<h2 class="both" id="s17"><span class="ru">15.2. Электромагнитное излучение и спектральные диапазоны</span><span class="en">Electromagnetic Radiation and Spectral Regions</span></h2>
+<p class="both fig"><img alt="Спектральные диапазоны ДЗЗ: видимый, ближний и коротковолновый ИК, тепловой ИК и микроволны" data-alt-en="Remote-sensing spectral regions: visible, NIR, SWIR, thermal IR and microwave" decoding="async" loading="lazy" src="../assets/diagrams/15-A-electromagnetic-spectrum-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Оригинальная двуязычная схема; диапазоны приблизительны, границы зависят от принятой классификации и характеристик сенсора.</em></span><span class="en">Original bilingual diagram; ranges are approximate and boundaries depend on classification and sensor specifications.</span></p>
+<p class="ru">Электромагнитное излучение характеризуется длиной волны и частотой. В дистанционном зондировании применяют видимый свет, ближний и коротковолновый инфракрасный диапазоны, тепловое инфракрасное излучение и микроволны.</p>
+<p class="ru">Основные диапазоны:
+- <strong>видимый:</strong> примерно 0,4–0,7 мкм; воспринимаемые человеком цвета;
+- <strong>ближний инфракрасный (NIR):</strong> примерно 0,7–1,3 мкм; чувствителен к структуре и состоянию растительности;
+- <strong>коротковолновый инфракрасный (SWIR):</strong> примерно 1,3–3 мкм; полезен для анализа влажности, минералов, пожаров и некоторых характеристик поверхности;
+- <strong>тепловой инфракрасный (TIR):</strong> диапазон длин волн, используемый для оценки собственного теплового излучения поверхности;
+- <strong>микроволновый:</strong> радиодиапазон, применяемый в радиолокационных системах и некоторых пассивных наблюдениях.</p>
+<p class="ru">Границы диапазонов условны и зависят от принятой классификации и характеристик сенсора. Атмосфера поглощает излучение в определённых спектральных областях, поэтому спутниковые датчики часто используют атмосферные «окна», где передача сигнала сравнительно благоприятна.</p>
+<p class="en">Electromagnetic radiation is characterised by wavelength and frequency. Remote sensing uses visible light, near-infrared and shortwave-infrared regions, thermal infrared radiation and microwaves.</p>
+<p class="en">The main regions include:
+- <strong>visible:</strong> approximately 0.4–0.7 μm; the colours perceived by human vision;
+- <strong>near-infrared (NIR):</strong> approximately 0.7–1.3 μm; sensitive to vegetation structure and condition;
+- <strong>shortwave infrared (SWIR):</strong> approximately 1.3–3 μm; useful for analysing moisture, minerals, fires and some surface properties;
+- <strong>thermal infrared (TIR):</strong> wavelengths used to estimate the surface's own thermal emission; and
+- <strong>microwave:</strong> the radio-frequency region used by radar systems and some passive observations.</p>
+<p class="en">Band boundaries are approximate and depend on the classification and sensor specifications. The atmosphere absorbs radiation in particular spectral regions, so satellite sensors often use atmospheric “windows” where transmission is relatively favourable.</p>
+<h2 class="both" id="s26"><span class="ru">15.3. Отражение, поглощение и спектральная сигнатура</span><span class="en">Reflection, Absorption and Spectral Signature</span></h2>
+<p class="both fig"><img alt="Спектральные характеристики поверхности" data-alt-en="Spectral signatures of surface materials" decoding="async" loading="lazy" src="../assets/diagrams/15-F-spectral-signatures-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Кривые качественные и не являются измеренными спектрами; реальные сигнатуры зависят от влажности, состава, сезона и атмосферы.</em></span><span class="en">Curves are qualitative, not measured spectra; real signatures depend on moisture, composition, season and atmosphere.</span></p>
+<p class="ru">Когда излучение достигает поверхности, часть энергии отражается, часть поглощается, а часть может проходить через материал. Соотношение зависит от длины волны, состава, влажности, структуры и состояния объекта.</p>
+<p class="ru"><strong>Спектральная сигнатура</strong> — характерная зависимость отражательной способности или излучения объекта от длины волны. Она помогает различать типы поверхности, но не является уникальным «отпечатком» при любых условиях.</p>
+<p class="ru">Примеры:
+- здоровая зелёная растительность обычно сильно поглощает красный свет хлорофиллом и отражает значительную долю ближнего инфракрасного излучения;
+- вода обычно имеет низкую отражательную способность в ближнем инфракрасном диапазоне, но результат зависит от мутности, глубины, взвесей и отражения неба;
+- сухая почва и влажная почва часто различаются по спектральному отклику, особенно в инфракрасных диапазонах;
+- снег и лёд имеют характерные спектральные свойства, но загрязнение, размер кристаллов и жидкая вода меняют отражение.</p>
+<p class="ru">На спектральный сигнал влияют атмосфера, угол освещения, угол наблюдения, рельеф, тени, сезон и калибровка датчика. Поэтому сравнение снимков требует контроля условий съёмки.</p>
+<p class="en">When radiation reaches a surface, some energy is reflected, some is absorbed and some may pass through the material. The proportions depend on wavelength, composition, moisture, structure and the condition of the object.</p>
+<p class="en">A <strong>spectral signature</strong> is the characteristic variation of an object's reflectance or emission with wavelength. It helps distinguish surface types, but it is not a unique “fingerprint” under all conditions.</p>
+<p class="en">Examples:
+- healthy green vegetation usually absorbs much of the red light through chlorophyll and reflects a substantial proportion of near-infrared radiation;
+- water usually has low reflectance in the near-infrared, although the result depends on turbidity, depth, suspended matter and sky reflection;
+- dry and wet soils often have different spectral responses, especially in infrared regions; and
+- snow and ice have characteristic spectral properties, but impurities, crystal size and liquid water alter reflectance.</p>
+<p class="en">The atmospheric signal, illumination angle, viewing angle, relief, shadows, season and sensor calibration all affect the measured spectrum. Comparisons between images therefore require control of acquisition conditions.</p>
+<h2 class="both" id="s37"><span class="ru">15.4. Пассивные и активные сенсоры</span><span class="en">Passive and Active Sensors</span></h2>
+<h3 class="both" id="s38"><span class="ru">Пассивное зондирование</span><span class="en">Passive sensing</span></h3>
+<p class="ru">Пассивные сенсоры регистрируют естественное излучение: отражённое солнечное или собственное тепловое излучение Земли. Оптические мультиспектральные и гиперспектральные камеры — распространённые примеры пассивных систем.</p>
+<p class="ru">Ограничения оптических наблюдений:
+- облака и дым закрывают поверхность;
+- освещение зависит от времени суток и сезона;
+- тени и рельеф усложняют сравнение;
+- часть спектральных диапазонов сильно поглощается атмосферой.</p>
+<h3 class="both" id="s41"><span class="ru">Активное зондирование</span><span class="en">Active sensing</span></h3>
+<p class="ru">Активный сенсор сам излучает сигнал и регистрирует его отражение или рассеяние. Примеры — радар с синтезированной апертурой (SAR) и лазерное сканирование LiDAR.</p>
+<p class="ru">Активные системы могут работать независимо от солнечного освещения. Радарные микроволны во многих случаях позволяют получать данные сквозь облачность, однако сигнал зависит от влажности, шероховатости, геометрии наблюдения и структуры объектов. LiDAR измеряет время прохождения лазерного импульса и позволяет получать трёхмерные сведения о поверхности и объектах.</p>
+<h3 class="en" id="s44">Passive sensing</h3>
+<p class="en">Passive sensors record natural radiation: reflected sunlight or the Earth's own thermal emission. Optical multispectral and hyperspectral cameras are common examples of passive systems.</p>
+<p class="en">Limitations of optical observations include:
+- clouds and smoke can obscure the surface;
+- illumination depends on time of day and season;
+- shadows and relief complicate comparisons; and
+- some spectral regions are strongly absorbed by the atmosphere.</p>
+<h3 class="en" id="s47">Active sensing</h3>
+<p class="en">An active sensor transmits its own signal and records the reflected or scattered response. Examples include synthetic-aperture radar (SAR) and LiDAR laser scanning.</p>
+<p class="en">Active systems can operate independently of sunlight. Radar microwaves often allow observations through cloud cover, but the signal depends on moisture, surface roughness, viewing geometry and the structure of objects. LiDAR measures the travel time of a laser pulse and can provide three-dimensional information about the surface and objects.</p>
+<h2 class="both" id="s50"><span class="ru">15.5. Типы спутниковых данных и сенсоров</span><span class="en">Satellite Data and Sensor Types</span></h2>
+<p class="both fig"><img alt="Пассивные и активные сенсоры ДЗЗ: оптические и тепловые данные, SAR и LiDAR" data-alt-en="Passive and active remote-sensing sensors: optical and thermal data, SAR and LiDAR" decoding="async" loading="lazy" src="../assets/diagrams/15-B-active-passive-sensors-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Оригинальная двуязычная схема; возможности и ограничения сенсоров зависят от длины волны, прибора и условий наблюдения.</em></span><span class="en">Original bilingual diagram; sensor capabilities and limitations depend on wavelength, instrument and observing conditions.</span></p>
+<blockquote class="en">
+<p><strong>EN:</strong> Diagram of satellite platforms and passive/active sensors, with examples of optical, thermal and radar data.</p>
+</blockquote>
+<p class="ru">Спутниковые сенсоры различаются по спектральным каналам, пространственному разрешению, полосе захвата, частоте повторного наблюдения и радиометрической чувствительности.</p>
+<p class="ru">Основные типы:
+- <strong>панхроматические:</strong> один широкий спектральный канал, часто с более высоким пространственным разрешением;
+- <strong>мультиспектральные:</strong> несколько относительно широких каналов;
+- <strong>гиперспектральные:</strong> десятки или сотни узких, смежных спектральных каналов;
+- <strong>тепловые:</strong> регистрируют тепловое излучение поверхности;
+- <strong>радиолокационные:</strong> измеряют обратное рассеяние микроволнового сигнала;
+- <strong>альтиметрические и лидарные:</strong> измеряют высоту поверхности, расстояния или структуру объектов.</p>
+<p class="ru">Примеры широко используемых программ и миссий:
+- <strong>Landsat</strong> — длительный архив наблюдений суши, совместная программа NASA и USGS;
+- <strong>Sentinel</strong> — семейство миссий программы Copernicus Европейского союза и Европейского космического агентства;
+- <strong>MODIS</strong> — приборы на спутниках Terra и Aqua, обеспечивающие частые глобальные наблюдения;
+- <strong>VIIRS</strong> — приборы для наблюдения поверхности, облаков, температуры и ночных огней;
+- <strong>Sentinel-1</strong> — радарная миссия SAR;
+- <strong>Sentinel-2</strong> — оптическая мультиспектральная съёмка суши;
+- <strong>Sentinel-3</strong> — наблюдения океана, суши и температуры поверхности;
+- <strong>ICESat-2</strong> — спутниковая лазерная альтиметрия;
+- <strong>WorldView и другие коммерческие системы</strong> — высокодетальные данные с условиями доступа, зависящими от поставщика.</p>
+<p class="ru">По состоянию на 5 ноября 2026 года важно учитывать изменение состава группировки Sentinel-1: Sentinel-1B завершил работу в 2022 году, Sentinel-1A — 30 июня 2026 года; Sentinel-1C и Sentinel-1D введены в эксплуатацию и обеспечивают продолжение радарной миссии. Поэтому название «Sentinel-1» обозначает программу/группировку, а не означает, что все её спутники действуют одновременно. Статус, доступность каналов и технические параметры необходимо проверять по актуальной документации операторов.</p>
+<h2 class="both" id="s58"><span class="ru">15.6. Четыре вида разрешения</span><span class="en">Four Types of Resolution</span></h2>
+<p class="both fig"><img alt="Четыре типа разрешения данных ДЗЗ" data-alt-en="Four types of remote-sensing resolution" decoding="async" loading="lazy" src="../assets/diagrams/15-G-remote-sensing-resolution-types-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Пространственное, спектральное, радиометрическое и временное разрешение — разные характеристики; улучшение одной не гарантирует улучшения остальных.</em></span><span class="en">Spatial, spectral, radiometric and temporal resolution are distinct properties; improving one does not guarantee improvement in the others.</span></p>
+<p class="ru">Для интерпретации данных важно различать четыре характеристики.</p>
+<p class="ru"><strong>Пространственное разрешение</strong> — размер элемента изображения на местности или степень детализации. Пиксель 10 м представляет участок поверхности, а не обязательно отдельный объект размером 10 м.</p>
+<p class="ru"><strong>Спектральное разрешение</strong> — число, ширина и расположение спектральных каналов. Узкие и многочисленные каналы позволяют анализировать тонкие спектральные различия.</p>
+<p class="ru"><strong>Временное разрешение</strong> — интервал повторного наблюдения одной территории. Фактическая частота пригодных снимков зависит от облачности, орбиты, режима съёмки и доступности данных.</p>
+<p class="ru"><strong>Радиометрическое разрешение</strong> — способность сенсора различать уровни интенсивности сигнала, обычно связанная с числом бит цифрового представления и характеристиками прибора.</p>
+<p class="ru">Высокое разрешение одного типа не гарантирует высокого разрешения другого. Для мониторинга быстро меняющихся процессов частые наблюдения могут быть важнее очень мелкого пикселя.</p>
+<p class="en">Four characteristics are important when interpreting remote-sensing data.</p>
+<p class="en"><strong>Spatial resolution</strong> is the ground size of an image element or the level of detail. A 10 m pixel represents an area on the ground; it does not necessarily represent a separate object exactly 10 m across.</p>
+<p class="en"><strong>Spectral resolution</strong> is the number, width and position of spectral bands. Narrower and more numerous bands can reveal finer spectral differences.</p>
+<p class="en"><strong>Temporal resolution</strong> is the interval between observations of the same area. The actual frequency of usable images also depends on cloud cover, orbit, acquisition mode and data availability.</p>
+<p class="en"><strong>Radiometric resolution</strong> is the ability of a sensor to distinguish signal-intensity levels. It is commonly related to the number of bits used in digital representation and to the characteristics of the instrument.</p>
+<p class="en">High resolution in one dimension does not guarantee high resolution in another. For monitoring rapidly changing processes, frequent observations may be more important than a very small pixel size.</p>
+<h2 class="both" id="s73"><span class="ru">15.7. Геометрическая и радиометрическая обработка</span><span class="en">Geometric and Radiometric Preprocessing</span></h2>
+<p class="ru">Исходные спутниковые данные могут содержать геометрические и радиометрические искажения. Перед анализом обычно выполняют подготовительные операции.</p>
+<p class="ru">Основные этапы:
+1. проверка метаданных, даты, сенсора и уровня обработки;
+2. геометрическая коррекция и ортотрансформирование, если они необходимы;
+3. радиометрическая калибровка цифровых значений;
+4. атмосферная коррекция для получения сопоставимых оценок отражения поверхности;
+5. маскирование облаков, теней и нежелательных областей;
+6. коррекция влияния рельефа для горных территорий, если это требуется;
+7. приведение данных к общей сетке, проекции и пространственному разрешению;
+8. контроль качества и документирование параметров.</p>
+<p class="ru">Не все продукты требуют одинаковой обработки. Например, готовый продукт поверхностного отражения уже прошёл определённые этапы коррекции. Повторная обработка без понимания уровня продукта может ухудшить данные. Для конкретного примера: в продуктах Landsat Collection 2 Level-2 Surface Reflectance цифровые значения преобразуют в отражательную способность по формуле <code>SR = DN × 0,0000275 − 0,2</code>; также необходимо использовать соответствующие каналы контроля качества (QA_PIXEL, QA_RADSAT и предусмотренные для данного сенсора дополнительные QA-слои). Эти коэффициенты и битовые маски относятся к указанному продукту Landsat и не должны автоматически переноситься на другие сенсоры или коллекции.</p>
+<p class="en">Raw satellite data may contain geometric and radiometric distortions. A set of preprocessing operations is normally carried out before analysis.</p>
+<p class="en">Common steps include:
+1. checking metadata, acquisition date, sensor and processing level;
+2. geometric correction and orthorectification, where required;
+3. radiometric calibration of digital values;
+4. atmospheric correction to obtain comparable surface-reflectance estimates;
+5. masking clouds, shadows and unwanted areas;
+6. correcting terrain effects in mountainous areas, where necessary;
+7. aligning data to a common grid, projection and spatial resolution; and
+8. quality control and documentation of parameters.</p>
+<p class="en">Not all products require the same processing. For example, a surface-reflectance product has already undergone specific correction steps. Reprocessing without understanding the product level may degrade the data. In Landsat Collection 2 Level-2 Surface Reflectance products, digital values are converted to reflectance using the formula SR = DN × 0.0000275 − 0.2; the corresponding quality-assurance layers (QA_PIXEL, QA_RADSAT and any sensor-specific QA layers) must also be used. These coefficients and bit masks apply to the specified Landsat product and should not automatically be transferred to other sensors or collections.</p>
+<h2 class="both" id="s80"><span class="ru">15.8. Цветовые композиции и визуальная интерпретация</span><span class="en">Colour Composites and Visual Interpretation</span></h2>
+<p class="both fig"><img alt="Обработка данных до отражательной способности поверхности" data-alt-en="Processing to surface reflectance" decoding="async" loading="lazy" src="../assets/diagrams/15-H-surface-reflectance-processing-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Для готового Level-2 продукта часть обработки уже выполнена; всегда проверяйте коллекцию, масштабный коэффициент, смещение и QA-маски.</em></span><span class="en">Some processing is already complete in Level-2 products; always check collection, scale factor, offset and QA masks.</span></p>
+<p class="ru">Мультиспектральные снимки часто отображают как цветовые композиции, назначая отдельные спектральные каналы красному, зелёному и синему цветам экрана.</p>
+<p class="ru"><strong>Естественная цветовая композиция</strong> использует каналы видимого диапазона и приближает изображение к привычному зрению. <strong>Ложная цветовая композиция</strong> назначает каналам условные цвета, чтобы выделить нужные свойства.</p>
+<p class="ru">Например, назначение ближнего инфракрасного канала красному экранному каналу позволяет сделать растительность яркой, поскольку она часто сильно отражает NIR. Но цвет на ложной композиции не является реальным цветом объекта.</p>
+<p class="ru">Визуальная интерпретация учитывает:
+- тон и цвет;
+- текстуру;
+- форму;
+- размер;
+- тень;
+- рисунок и пространственное положение;
+- контекст соседних объектов;
+- сезон и условия съёмки.</p>
+<p class="ru">Один и тот же объект может выглядеть по-разному в зависимости от сенсора, композиции и даты.</p>
+<p class="en">Multispectral images are often displayed as colour composites by assigning individual spectral bands to the red, green and blue channels of a screen.</p>
+<p class="en">A <strong>true-colour composite</strong> uses visible bands and approximates how human vision perceives a scene. A <strong>false-colour composite</strong> assigns selected bands to artificial display colours to emphasise particular surface properties.</p>
+<p class="en">For example, assigning the near-infrared band to the red display channel can make vegetation appear bright because vegetation often strongly reflects NIR radiation. However, a colour in a false-colour composite is not the object's actual visible colour.</p>
+<p class="en">Visual interpretation considers:
+- tone and colour;
+- texture;
+- shape;
+- size;
+- shadow;
+- pattern and spatial position;
+- the context of neighbouring features; and
+- season and acquisition conditions.</p>
+<p class="en">The same object may look different depending on the sensor, composite and acquisition date.</p>
+<h2 class="both" id="s93"><span class="ru">15.9. Спектральные индексы</span><span class="en">Spectral Indices</span></h2>
+<p class="both fig"><img alt="Спектральные индексы и соответствие полос сенсоров" data-alt-en="Spectral indices and sensor-band mapping" decoding="async" loading="lazy" src="../assets/diagrams/15-C-spectral-indices-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Формулы приведены для Landsat 8–9 и Sentinel-2; NDWI здесь означает индекс Макфитерса Green–NIR.</em></span><span class="en">Formulas are shown for Landsat 8–9 and Sentinel-2; NDWI here means the McFeeters Green–NIR index.</span></p>
+<p class="ru">Спектральные индексы — математические комбинации каналов, предназначенные для усиления определённых различий в данных. Они помогают предварительно оценивать состояние растительности, водных объектов, застроенных территорий и другие характеристики.</p>
+<h3 class="ru" id="s97">NDVI — нормализованный разностный вегетационный индекс</h3>
+<p class="en">[
+NDVI = \frac{NIR - Red}{NIR + Red}
+]</p>
+<p class="ru">NDVI широко применяется для оценки относительной активности зелёной растительности. Значения обычно лежат в диапазоне от −1 до +1, но интерпретация зависит от сенсора, поверхности, сезона и обработки.</p>
+<p class="ru">Ограничения NDVI:
+- насыщение в густой растительности;
+- влияние почвенного фона при редком растительном покрове;
+- чувствительность к атмосфере и теням;
+- невозможность напрямую определить вид растения или точную биомассу без дополнительных данных.</p>
+<h3 class="both" id="s101"><span class="ru">NDWI и водные индексы</span><span class="en">Water indices</span></h3>
+<p class="ru">Под названием NDWI используются разные формулы. Один вариант, предложенный для выделения открытой воды, сочетает зелёный и ближний инфракрасный каналы:</p>
+<p class="en">[
+NDWI = \frac{Green - NIR}{Green + NIR}
+]</p>
+<p class="ru">Другой индекс, часто называемый NDMI или вариантом NDWI для влажности растительности, использует NIR и SWIR:</p>
+<p class="en">[
+NDMI = \frac{NIR - SWIR1}{NIR + SWIR1}
+]</p>
+<p class="ru">В публикации индекса всегда указывать формулу и используемые каналы: одинаковое сокращение в разных источниках может обозначать разные показатели.</p>
+<h3 class="both" id="s107"><span class="ru">NDBI — индекс застроенных территорий</span><span class="en">Built-up Index</span></h3>
+<p class="en">[
+NDBI = \frac{SWIR1 - NIR}{SWIR1 + NIR}
+]</p>
+<p class="ru">NDBI может помогать выделять застроенные участки, но спектрально похожие сухие почвы, горные породы и другие поверхности могут давать сходный отклик. Индекс не является готовой картой зданий.</p>
+<h3 class="both" id="s110"><span class="ru">NBR — нормализованный индекс выгоревших территорий</span><span class="en">Burn Ratio</span></h3>
+<p class="en">[
+NBR = \frac{NIR - SWIR2}{NIR + SWIR2}
+]</p>
+<p class="ru">Разность NBR до и после пожара (dNBR) используется для оценки изменений, связанных с выгоранием. Интерпретация требует учитывать сезон, влажность, тип растительности и другие причины спектральных изменений. Для стандартной реализации NBR на Landsat обычно используют NIR и SWIR2; для NDMI и NDBI — соответствующие каналы NIR/SWIR1 и SWIR1/NIR. Для других сенсоров необходимо сверяться с руководством продукта и указывать номера полос.</p>
+<h2 class="both" id="s113"><span class="ru">15.10. Классификация спутниковых изображений</span><span class="en">Satellite Image Classification</span></h2>
+<p class="both fig"><img alt="Контролируемая и неконтролируемая классификация, независимая проверка и матрица ошибок" data-alt-en="Supervised and unsupervised classification, independent validation and confusion matrix" decoding="async" loading="lazy" src="../assets/diagrams/15-D-classification-validation-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Проверочная выборка должна быть независимой от обучающих данных.</em></span><span class="en">Validation samples must be independent of training data.</span></p>
+<p class="ru">Классификация присваивает пикселям или объектам категории земного покрова или другие тематические классы.</p>
+<p class="ru">Основные подходы:
+- <strong>контролируемая классификация:</strong> алгоритм обучается на заранее размеченных примерах;
+- <strong>неконтролируемая классификация:</strong> алгоритм группирует пиксели по сходству спектральных характеристик;
+- <strong>объектно-ориентированный анализ:</strong> классифицируются сегменты или объекты, а не отдельные пиксели;
+- <strong>машинное обучение:</strong> используются алгоритмы, например Random Forest, Support Vector Machine и нейронные сети.</p>
+<p class="ru">Типичные классы земного покрова: лес, кустарник, пашня, пастбище, застройка, вода, снег и лёд, голая почва. Схема классов должна соответствовать цели и масштабу проекта.</p>
+<h3 class="both" id="s119"><span class="ru">Обучающие и проверочные данные</span><span class="en">Training and validation data</span></h3>
+<p class="ru">Обучающие образцы используются для настройки модели, а независимые проверочные данные — для оценки качества классификации. Если одни и те же участки используются и для обучения, и для проверки, точность может быть завышена.</p>
+<p class="ru">Матрица ошибок (confusion matrix) показывает совпадения и расхождения между классификацией и эталонными данными. Общая точность не раскрывает все ошибки: важно анализировать точность пользователя и производителя по классам, а также учитывать дисбаланс классов и дизайн выборки.</p>
+<p class="en">Classification assigns pixels or objects to land-cover categories or other thematic classes.</p>
+<p class="en">Main approaches include:
+- <strong>supervised classification:</strong> the algorithm is trained using pre-labelled examples;
+- <strong>unsupervised classification:</strong> the algorithm groups pixels by similarity in spectral characteristics;
+- <strong>object-based analysis:</strong> segments or objects are classified rather than individual pixels; and
+- <strong>machine learning:</strong> algorithms such as Random Forest, Support Vector Machine and neural networks are used.</p>
+<p class="en">Typical land-cover classes include forest, shrubland, cropland, pasture, built-up areas, water, snow and ice, and bare soil. The class scheme should match the purpose and scale of the project.</p>
+<h3 class="en" id="s125">Training and validation data</h3>
+<p class="en">Training samples are used to fit the model, while independent validation data are used to assess classification quality. If the same areas are used for both training and validation, the estimated accuracy may be too high.</p>
+<p class="en">A <strong>confusion matrix</strong> shows agreement and disagreement between the classification and reference data. Overall accuracy does not reveal every type of error: it is important to examine user's and producer's accuracy for each class and to account for class imbalance and the sampling design.</p>
+<h2 class="both" id="s128"><span class="ru">15.11. Радарное зондирование и SAR</span><span class="en">Radar Remote Sensing and SAR</span></h2>
+<p class="both fig"><img alt="Боковая геометрия SAR: орбита, импульс, ближняя и дальняя дальность, угол падения и обратное рассеяние" data-alt-en="Side-looking SAR geometry: orbit, pulse, near and far range, incidence angle and backscatter" decoding="async" loading="lazy" src="../assets/diagrams/15-I-sar-side-looking-geometry-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Угол падения определяется между лучом и нормалью к поверхности.</em></span><span class="en">Incidence angle is measured between the radar beam and the surface normal.</span></p>
+<p class="ru">Радар с синтезированной апертурой (SAR) использует микроволновые импульсы и регистрирует обратное рассеяние от поверхности. Радарные данные особенно полезны там, где оптические наблюдения ограничены облачностью или отсутствием солнечного освещения.</p>
+<p class="ru">Сигнал SAR зависит от:
+- шероховатости поверхности относительно длины волны;
+- влажности почвы и растительности;
+- геометрии объекта и угла наблюдения;
+- структуры лесного покрова;
+- поляризации сигнала;
+- длины волны и параметров сенсора.</p>
+<p class="ru">Применения SAR:
+- картирование затоплений;
+- мониторинг деформаций поверхности методом интерферометрии;
+- оценка влажности и состояния почв при подходящих условиях;
+- наблюдение лесов и сельскохозяйственных угодий;
+- мониторинг ледников и морского льда;
+- обнаружение изменений инфраструктуры.</p>
+<p class="ru">Радарное изображение не является фотографией в обычном смысле. Яркость пикселя отражает особенности обратного рассеяния и геометрии, поэтому интерпретация требует специальных знаний.</p>
+<p class="en">Synthetic-aperture radar (SAR) uses microwave pulses and records the backscatter from the surface. Radar data are especially useful where optical observations are limited by cloud cover or the absence of sunlight.</p>
+<p class="en">The SAR signal depends on:
+- surface roughness relative to the wavelength;
+- soil and vegetation moisture;
+- object geometry and viewing angle;
+- forest-canopy structure;
+- signal polarisation; and
+- wavelength and sensor parameters.</p>
+<p class="en">SAR applications include:
+- flood mapping;
+- monitoring surface deformation using interferometry;
+- estimating soil moisture under suitable conditions;
+- observing forests and agricultural land;
+- monitoring glaciers and sea ice; and
+- detecting changes in infrastructure.</p>
+<p class="en">A radar image is not a photograph in the usual sense. Pixel brightness reflects backscatter properties and geometry, so interpretation requires specialist knowledge.</p>
+<h2 class="both" id="s139"><span class="ru">15.12. LiDAR и трёхмерное зондирование</span><span class="en">LiDAR and Three-dimensional Remote Sensing</span></h2>
+<p class="both fig"><img alt="LiDAR: лазерные отражения, облако точек, DSM, DTM и модель высоты кроны" data-alt-en="LiDAR: laser returns, point cloud, DSM, DTM and canopy height model" decoding="async" loading="lazy" src="../assets/diagrams/15-J-lidar-returns-dsm-dtm-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>DSM описывает верхние поверхности; DTM — рельеф земли без объектов.</em></span><span class="en">DSM represents top surfaces; DTM represents bare-earth terrain.</span></p>
+<p class="ru">LiDAR (Light Detection and Ranging) измеряет расстояние по времени прохождения лазерного импульса. Системы могут быть установлены на самолётах, БПЛА, автомобилях или спутниках.</p>
+<p class="ru">Результат часто представляется облаком точек, где каждая точка имеет координаты и дополнительные атрибуты. По облаку точек можно создавать:
+- цифровую модель поверхности (DSM);
+- цифровую модель рельефа (DTM);
+- модели зданий и растительности;
+- профили и трёхмерные представления объектов.</p>
+<p class="ru">Лазерные импульсы могут частично проходить через промежутки в растительном покрове, позволяя получать отражения от разных уровней полога и поверхности земли. Однако плотность точек, характеристики сенсора и алгоритмы классификации определяют качество результата.</p>
+<p class="en">LiDAR (Light Detection and Ranging) measures distance from the travel time of a laser pulse. Systems can be mounted on aircraft, UAVs, vehicles or satellites.</p>
+<p class="en">The output is often represented as a point cloud in which each point has coordinates and additional attributes. Point clouds can be used to create:
+- a digital surface model (DSM);
+- a digital terrain model (DTM);
+- building and vegetation models; and
+- profiles and three-dimensional representations of features.</p>
+<p class="en">Laser pulses may pass through gaps in vegetation and return signals from different canopy levels and the ground surface. However, point density, sensor characteristics and classification algorithms determine the quality of the result.</p>
+<h2 class="both" id="s148"><span class="ru">15.13. Мониторинг изменений и временные ряды</span><span class="en">Change Detection and Time Series</span></h2>
+<p class="both fig"><img alt="Многовременное выявление изменений: снимки двух дат, регистрация, анализ, карта и независимая проверка" data-alt-en="Multitemporal change detection: two-date imagery, co-registration, analysis, change map and independent validation" decoding="async" loading="lazy" src="../assets/diagrams/15-K-multitemporal-change-detection-bilingual.svg"/></p>
+<p class="both"><span class="ru"><em>Сопоставляйте сезон, сенсор и разрешение; проверяйте изменения независимыми данными.</em></span><span class="en">Match season, sensor and resolution; validate change with independent data.</span></p>
+<p class="ru">Мониторинг изменений сравнивает данные разных дат для выявления преобразований поверхности и природных процессов.</p>
+<p class="ru">Основные методы:
+- сравнение классифицированных карт;
+- вычитание и нормализация спектральных каналов;
+- анализ изменений индексов;
+- временные профили пикселей;
+- объектный анализ;
+- статистические методы обнаружения трендов и сезонности.</p>
+<p class="ru">Перед сравнением важно обеспечить:
+- сопоставимые сезоны и фенологические стадии;
+- одинаковую или согласованную систему координат;
+- сопоставимые пространственные разрешения;
+- радиометрическую и атмосферную согласованность;
+- одинаковую схему классов;
+- маскирование облаков, теней и снега, если они не являются предметом анализа.</p>
+<p class="ru">Изменение спектрального сигнала не всегда означает изменение земного покрова. Оно может быть вызвано влажностью, сезоном, углом наблюдения, атмосферой или различиями сенсоров.</p>
+<h3 class="both" id="s155"><span class="ru">15.13.1. Практический пример: сезонность или реальное изменение земного покрова?</span><span class="en">Worked Example: Seasonality or Actual Land-cover Change?</span></h3>
+<p class="ru">Предположим, на спутниковом снимке одного участка в июле растительность выглядит значительно зеленее, чем на снимке того же участка в марте. Нельзя сразу заключать, что площадь леса увеличилась или экосистема восстановилась: разница может объясняться сезонным развитием растений, сроками сельскохозяйственных работ, влажностью почвы, облачностью, тенями или различиями обработки изображений.</p>
+<p class="ru">Для проверки следует:</p>
+<ol class="ru">
+<li>Сопоставить снимки одного и того же сезона в разные годы, если задача — выявить долгосрочное изменение.</li>
+<li>Использовать одинаковые или сопоставимые сенсоры, пространственное разрешение и методы атмосферной коррекции.</li>
+<li>Проверить геометрическое совмещение снимков: смещение даже на несколько пикселей может создать ложные границы изменений.</li>
+<li>Маскировать облака, тени и снег, а также учитывать сезонные особенности территории.</li>
+<li>Сравнить результат с полевыми наблюдениями, более детальными изображениями или независимыми данными.</li>
+</ol>
+<p class="ru">Если сравниваются разные сезоны, вывод следует формулировать как сезонное различие спектрального отклика, пока нет дополнительных доказательств долговременного изменения земного покрова.</p>
+<p class="en">Suppose vegetation on a satellite image of a site appears much greener in July than in March. It is not safe to conclude immediately that forest area has increased or that an ecosystem has recovered. The difference may reflect seasonal plant growth, agricultural calendars, soil moisture, cloud cover, shadows or differences in image processing.</p>
+<p class="en">To investigate the change:</p>
+<ol class="en">
+<li>Compare images from the same season in different years when the goal is to detect long-term change.</li>
+<li>Use the same or comparable sensors, spatial resolution and atmospheric-correction methods.</li>
+<li>Check geometric co-registration: a shift of even a few pixels can create false change boundaries.</li>
+<li>Mask clouds, shadows and snow, and account for the seasonal characteristics of the area.</li>
+<li>Compare the result with field observations, higher-resolution imagery or independent datasets.</li>
+</ol>
+<p class="en">When different seasons are compared, describe the result as a seasonal difference in spectral response unless additional evidence supports a long-term land-cover change.</p>
+<h2 class="both" id="s164"><span class="ru">15.14. ДЗЗ для изучения природных опасностей и чрезвычайных ситуаций</span><span class="en">Remote Sensing for Hazards and Disasters</span></h2>
+<p class="ru">Данные ДЗЗ помогают до, во время и после чрезвычайных ситуаций:
+- картировать площади затопления;
+- выявлять следы лесных и степных пожаров;
+- оценивать последствия оползней и землетрясений;
+- наблюдать движение ледников и изменения ледниковых озёр;
+- отслеживать пыльные бури и вулканические выбросы;
+- оценивать ущерб сельскому хозяйству и инфраструктуре.</p>
+<p class="ru">Для оперативного реагирования важны скорость получения данных, доступность снимков, облачность, разрешение и надёжность классификации. Спутниковая карта должна сопровождаться временем съёмки: изображение, полученное после прохождения паводковой волны, может не отражать максимальную площадь затопления.</p>
+<p class="ru">ДЗЗ следует сочетать с наземными наблюдениями, метеорологическими данными, сообщениями служб и проверенными сведениями о населении и инфраструктуре.</p>
+<p class="en">Remote-sensing data support work before, during and after emergencies. They can be used to:
+- map flooded areas;
+- identify the extent of forest and steppe fires;
+- assess the effects of landslides and earthquakes;
+- observe glacier movement and changes in glacial lakes;
+- monitor dust storms and volcanic emissions; and
+- assess damage to agriculture and infrastructure.</p>
+<p class="en">For emergency response, the speed of data delivery, image availability, cloud cover, spatial resolution and classification reliability are important. A satellite map must state the acquisition time: an image captured after a flood wave has passed may not show the maximum inundated area.</p>
+<p class="en">Remote sensing should be combined with ground observations, meteorological data, reports from emergency services and verified information about population and infrastructure.</p>
+<h2 class="both" id="s171"><span class="ru">15.15. Ограничения, неопределённость и этика ДЗЗ</span><span class="en">Limitations, Uncertainty and Ethics</span></h2>
+<p class="ru">Данные дистанционного зондирования имеют ограничения:
+- облачность, дым, туман и атмосферные помехи;
+- различия сенсоров и алгоритмов;
+- смешанные пиксели на границах объектов;
+- сезонные и угловые эффекты;
+- недостаток эталонных наземных наблюдений;
+- неопределённость классификации и моделей;
+- задержки публикации и ограничения доступа.</p>
+<p class="ru">Этические вопросы включают наблюдение за частными территориями, защиту персональных данных, безопасность объектов, права коренных народов и местных сообществ, а также риск неверного использования карт и аналитики.</p>
+<p class="ru">Коммерческая доступность снимка не отменяет требований законодательства, лицензии и ответственного обращения с данными. Для публикации чувствительных координат следует оценивать возможный вред.</p>
+<h3 class="both" id="s175"><span class="ru">15.15.1. Как отличать реальное изменение от различий съёмки</span><span class="en">Separating Real Change from Image Differences</span></h3>
+<p class="ru">Разность двух спутниковых изображений не всегда означает изменение земной поверхности. Снимки могли быть получены в разные сезоны, при разной облачности, освещённости, влажности почвы, угле наблюдения или разными сенсорами.</p>
+<p class="ru">Перед сравнением проверяют геометрическую регистрацию, сопоставимость сезонов и дат, маски облаков и теней, атмосферную коррекцию, разрешение, спектральные диапазоны и радиометрическую калибровку. Необходимо документировать алгоритм и порог обнаружения изменений.</p>
+<p class="ru">В горах интерпретацию усложняют снег, тени склонов и различия сезонного развития растительности по высотным поясам. Например, снижение растительного индекса летом по сравнению с весной может отражать сезонную фенологию, а не деградацию пастбища.</p>
+<p class="ru"><strong>Проверка.</strong> Выборочные полевые наблюдения, геопривязанные фотографии и независимые данные помогают подтвердить интерпретацию. Для классификации используют матрицу ошибок по независимой выборке; общая точность может скрывать слабое распознавание редких классов.</p>
+<p class="ru"><strong>Задание.</strong> Сравните два условных снимка одного водосбора, сделанных весной и летом. Перечислите факторы, которые нужно контролировать, прежде чем объявлять снижение растительного индекса деградацией, и предложите способ проверки на местности.</p>
+<p class="en">A difference between two satellite images does not always indicate a change on the Earth's surface. Images may have been acquired in different seasons, under different cloud, illumination, soil-moisture or viewing-angle conditions, or by different sensors.</p>
+<p class="en">Before comparison, check geometric registration, comparable seasons and dates, cloud and shadow masks, atmospheric correction, resolution, spectral bands and radiometric calibration. Document the change-detection algorithm and threshold.</p>
+<p class="en">In mountain areas, snow, slope shadows and seasonal vegetation differences across elevation belts complicate interpretation. For example, a lower vegetation index in summer than in spring may reflect seasonal phenology rather than pasture degradation.</p>
+<p class="en"><strong>Validation.</strong> Sample field observations, georeferenced photographs and independent data help confirm an interpretation. Classification should be assessed with an error matrix based on an independent sample; overall accuracy may conceal poor detection of rare classes.</p>
+<p class="en"><strong>Activity.</strong> Compare two hypothetical images of the same catchment acquired in spring and summer. List the factors to control before interpreting a lower vegetation index as degradation, and propose a field-validation method.</p>
+<h3 class="en" id="s186">15.1. Concept and Importance of Remote Sensing</h3>
+<p class="en">Remote sensing is based on detecting electromagnetic radiation reflected, emitted or scattered by objects and the atmosphere. The measured signals can provide information about surface properties, vegetation, water, snow, ice, clouds, temperature and land-use change.</p>
+<p class="en">Main platforms include satellites, which provide regular observations over large areas and global coverage; aircraft, which allow flexible choices of altitude, sensor and timing; uncrewed aerial vehicles (UAVs), which provide detailed imagery of local areas but are limited by coverage, weather, flight permissions and operating time; and ground-based or stationary platforms used for calibration, validation and local monitoring.</p>
+<p class="en">Remote sensing complements field research rather than replacing it. Satellite signals require interpretation and validation, especially when identifying a particular plant species, soil type, cause of change or legal status of a territory.</p>
+<h3 class="en" id="s190">15.2. Electromagnetic Radiation and Spectral Regions</h3>
+<p class="en">Electromagnetic radiation is characterised by wavelength and frequency. Remote sensing uses visible light, near-infrared and shortwave-infrared regions, thermal infrared radiation and microwaves.</p>
+<p class="en">Approximate spectral regions include:
+- <strong>visible:</strong> about 0.4–0.7 μm, the colours perceived by the human eye;
+- <strong>near-infrared (NIR):</strong> about 0.7–1.3 μm, sensitive to vegetation structure and condition;
+- <strong>shortwave infrared (SWIR):</strong> about 1.3–3 μm, useful for analysing moisture, minerals, fires and some surface characteristics;
+- <strong>thermal infrared (TIR):</strong> wavelengths used to assess the surface's own thermal emission; and
+- <strong>microwave:</strong> the radio-frequency region used by radar systems and some passive observations.</p>
+<p class="en">Boundaries are approximate and depend on the classification and sensor characteristics. The atmosphere absorbs radiation in particular spectral regions, so satellite sensors often use atmospheric windows where transmission is relatively favourable.</p>
+<h3 class="en" id="s194">15.3. Reflection, Absorption and Spectral Signatures</h3>
+<p class="en">When radiation reaches a surface, some energy is reflected, some absorbed and some may pass through the material. The proportions depend on wavelength, composition, moisture, structure and surface condition.</p>
+<p class="en">A <strong>spectral signature</strong> is the characteristic variation of an object's reflectance or emission with wavelength. It helps distinguish surface types, but it is not a unique fingerprint under all conditions.</p>
+<p class="en">Examples:
+- healthy green vegetation usually absorbs red light strongly through chlorophyll and reflects a substantial share of near-infrared radiation;
+- water usually has low reflectance in the near-infrared, although turbidity, depth, suspended material and sky reflection affect the signal;
+- dry and wet soils often differ spectrally, particularly in infrared regions; and
+- snow and ice have characteristic spectral properties, but impurities, crystal size and liquid water change reflectance.</p>
+<p class="en">Atmosphere, illumination angle, viewing angle, relief, shadows, season and sensor calibration all affect the measured signal. Image comparison therefore requires control of acquisition conditions.</p>
+<h3 class="en" id="s199">15.4. Passive and Active Sensors</h3>
+<p class="en"><strong>Passive sensors</strong> detect natural radiation: reflected sunlight or Earth's own thermal emission. Optical multispectral and hyperspectral cameras are common examples.</p>
+<p class="en">Limitations of optical observations include cloud and smoke obstruction; illumination changes with time of day and season; shadows and relief complicate comparison; and some spectral regions are strongly absorbed by the atmosphere.</p>
+<p class="en"><strong>Active sensors</strong> emit their own signal and detect its reflection or scattering. Examples include Synthetic Aperture Radar (SAR) and laser scanning (LiDAR).</p>
+<p class="en">Active systems can operate independently of sunlight. Radar microwaves can often collect data through cloud cover, but the signal depends on moisture, surface roughness, viewing geometry and object structure. LiDAR measures the travel time of laser pulses and provides three-dimensional information about surfaces and objects.</p>
+<h3 class="en" id="s204">15.5. Satellite Data and Sensor Types</h3>
+<p class="en">Satellite sensors differ in spectral bands, spatial resolution, swath width, revisit frequency and radiometric sensitivity.</p>
+<p class="en">Main types include:
+- <strong>panchromatic:</strong> one broad spectral band, often with higher spatial resolution;
+- <strong>multispectral:</strong> several relatively broad bands;
+- <strong>hyperspectral:</strong> dozens or hundreds of narrow, contiguous bands;
+- <strong>thermal:</strong> sensors that detect thermal radiation from the surface;
+- <strong>radar:</strong> sensors that measure microwave backscatter; and
+- <strong>altimetric and LiDAR systems:</strong> sensors that measure surface height, distance or object structure.</p>
+<p class="en">Widely used missions include Landsat, a long-term land-observation archive operated by NASA and USGS; Sentinel, a family of missions within the European Union's Copernicus programme and the European Space Agency; MODIS on Terra and Aqua, which provides frequent global observations; VIIRS, used to observe the surface, clouds, temperature and night lights; Sentinel-1 for SAR; Sentinel-2 for optical multispectral land imaging; Sentinel-3 for ocean, land and surface-temperature observations; ICESat-2 for satellite laser altimetry; and commercial high-resolution systems such as WorldView.</p>
+<p class="en">As of 5 November 2026, the Sentinel-1 constellation has changed: Sentinel-1B ended operations in 2022 and Sentinel-1A ended operations on 30 June 2026; Sentinel-1C and Sentinel-1D are operational and continue the radar mission. “Sentinel-1” therefore refers to the mission/constellation, not to every satellite in the series being active at the same time. Always check current status, band availability and technical parameters against operator documentation.</p>
+<h3 class="en" id="s209">15.6. Four Types of Resolution</h3>
+<p class="en">Four characteristics should be distinguished when interpreting remote-sensing data.</p>
+<p class="en"><strong>Spatial resolution</strong> is the ground size of an image element or the level of detail. A 10 m pixel represents an area of the surface; it does not necessarily represent a separate object that is 10 m in size.</p>
+<p class="en"><strong>Spectral resolution</strong> is the number, width and position of spectral bands. Narrower and more numerous bands can reveal subtle spectral differences.</p>
+<p class="en"><strong>Temporal resolution</strong> is the interval between observations of the same area. The actual frequency of usable images depends on cloud cover, orbit, acquisition mode and data availability.</p>
+<p class="en"><strong>Radiometric resolution</strong> is the sensor's ability to distinguish signal-intensity levels, usually related to the number of digital bits and instrument characteristics.</p>
+<p class="en">High resolution in one dimension does not guarantee high resolution in another. For monitoring rapidly changing processes, frequent observations may be more important than very small pixels.</p>
+<h3 class="en" id="s216">15.7. Geometric and Radiometric Preprocessing</h3>
+<p class="en">Raw satellite data may contain geometric and radiometric distortions. Preprocessing commonly includes checking metadata, acquisition date, sensor and processing level; geometric correction and orthorectification where needed; radiometric calibration of digital values; atmospheric correction to obtain comparable surface-reflectance estimates; masking clouds, shadows and unwanted areas; terrain correction for mountainous areas where necessary; alignment to a common grid, projection and spatial resolution; and quality control with documentation of parameters.</p>
+<p class="en">Not all products require the same processing. For example, a surface-reflectance product has already undergone certain correction steps. Reprocessing without understanding the product level may degrade the data. As a specific example, Landsat Collection 2 Level-2 Surface Reflectance digital values are converted to reflectance using <code>SR = DN × 0.0000275 − 0.2</code>; the appropriate quality-assessment bands (QA_PIXEL, QA_RADSAT and sensor-specific additional QA layers) must also be used. These scale factors and bit masks apply to the specified Landsat product and must not be transferred automatically to other sensors or collections.</p>
+<h3 class="en" id="s219">15.8. Colour Composites and Visual Interpretation</h3>
+<p class="en">Multispectral images are often displayed as colour composites by assigning individual spectral bands to the red, green and blue channels of a screen.</p>
+<p class="en">A <strong>true-colour composite</strong> uses visible bands and approximates human vision. A <strong>false-colour composite</strong> assigns bands to artificial display colours to emphasise selected surface properties.</p>
+<p class="en">For example, assigning the near-infrared band to the screen's red channel can make vegetation appear bright because vegetation often strongly reflects NIR. The displayed colour in a false-colour composite is not the object's actual colour.</p>
+<p class="en">Visual interpretation considers tone and colour; texture; shape; size; shadow; pattern and spatial position; context of neighbouring features; season; and acquisition conditions.</p>
+<p class="en">The same feature may look different depending on sensor, band combination and acquisition date.</p>
+<h3 class="en" id="s225">15.9. Spectral Indices</h3>
+<p class="en">Spectral indices are mathematical combinations of bands designed to enhance particular differences in data. They can provide preliminary information about vegetation, water bodies, built-up areas and other surface characteristics.</p>
+<p class="en"><strong>NDVI — Normalized Difference Vegetation Index</strong></p>
+<p class="en">NDVI = (NIR − Red) / (NIR + Red)</p>
+<p class="en">NDVI is widely used to assess the relative activity of green vegetation. Values generally range from −1 to +1, but interpretation depends on sensor, surface, season and processing.</p>
+<p class="en">Limitations include saturation in dense vegetation; influence of soil background where vegetation is sparse; sensitivity to atmosphere and shadows; and inability to identify plant species or exact biomass directly without additional data.</p>
+<p class="en"><strong>NDWI and water indices.</strong> The name NDWI is used for different formulas. One version, designed to identify open water, combines green and near-infrared bands:</p>
+<p class="en">NDWI = (Green − NIR) / (Green + NIR)</p>
+<p class="en">Another index, often called NDMI or an NDWI variant for vegetation moisture, uses NIR and SWIR:</p>
+<p class="en">NDMI = (NIR − SWIR1) / (NIR + SWIR1)</p>
+<p class="en">Always state the formula and bands used: the same abbreviation may refer to different indicators in different sources.</p>
+<p class="en"><strong>NDBI — Normalized Difference Built-up Index</strong></p>
+<p class="en">NDBI = (SWIR1 − NIR) / (SWIR1 + NIR)</p>
+<p class="en">NDBI may help identify built-up areas, but spectrally similar dry soils, rocks and other surfaces can produce similar responses. It is not a ready-made building map.</p>
+<p class="en"><strong>NBR — Normalized Burn Ratio</strong></p>
+<p class="en">NBR = (NIR − SWIR2) / (NIR + SWIR2)</p>
+<p class="en">The difference between pre-fire and post-fire NBR (dNBR) is used to assess changes associated with burning. Interpretation must account for season, moisture, vegetation type and other causes of spectral change. A standard Landsat NBR commonly uses NIR and SWIR2; NDMI and NDBI use the corresponding NIR/SWIR1 and SWIR1/NIR bands. For other sensors, consult the product guide and state the exact band numbers.</p>
+<h3 class="en" id="s242">15.10. Satellite Image Classification</h3>
+<p class="en">Classification assigns pixels or objects to land-cover or other thematic classes.</p>
+<p class="en">Main approaches include supervised classification, in which an algorithm is trained using labelled examples; unsupervised classification, in which the algorithm groups pixels by spectral similarity; object-based analysis, which classifies segments or objects rather than individual pixels; and machine learning, using algorithms such as Random Forest, Support Vector Machine and neural networks.</p>
+<p class="en">Typical land-cover classes include forest, shrubland, cropland, pasture, built-up areas, water, snow and ice, and bare soil. The class scheme should match the purpose and scale of the project.</p>
+<p class="en"><strong>Training and validation data.</strong> Training samples are used to fit the model; independent validation data are used to assess classification quality. If the same sites are used for both training and validation, accuracy may be overstated.</p>
+<p class="en">A <strong>confusion matrix</strong> shows agreement and disagreement between the classification and reference data. Overall accuracy does not reveal all errors: producer's and user's accuracy by class should be examined, taking class imbalance and sampling design into account.</p>
+<h3 class="en" id="s248">15.11. Radar Remote Sensing and SAR</h3>
+<p class="en">Synthetic Aperture Radar (SAR) uses microwave pulses and records backscatter from the surface. Radar data are especially useful where optical observations are limited by cloud cover or lack of sunlight.</p>
+<p class="en">The SAR signal depends on surface roughness relative to wavelength; soil and vegetation moisture; object geometry and viewing angle; forest structure; signal polarisation; wavelength; and sensor parameters.</p>
+<p class="en">Applications include flood mapping; surface-deformation monitoring using interferometry; soil-moisture and condition assessment under suitable conditions; forest and agricultural monitoring; glacier and sea-ice observation; and infrastructure-change detection.</p>
+<p class="en">A radar image is not an ordinary photograph. Pixel brightness reflects backscatter and viewing geometry, so interpretation requires specialist knowledge.</p>
+<h3 class="en" id="s253">15.12. LiDAR and Three-dimensional Remote Sensing</h3>
+<p class="en">LiDAR (Light Detection and Ranging) measures distance from the travel time of a laser pulse. Systems may be carried by aircraft, UAVs, vehicles or satellites.</p>
+<p class="en">The output is often represented as a point cloud, in which each point has coordinates and additional attributes. Point clouds can be used to create a Digital Surface Model (DSM), a Digital Terrain Model (DTM), building and vegetation models, profiles and three-dimensional representations.</p>
+<p class="en">Laser pulses may pass through gaps in vegetation and return from different canopy levels and the ground surface. Point density, sensor characteristics and classification algorithms determine the quality of the result.</p>
+<h3 class="en" id="s257">15.13. Change Detection and Time Series</h3>
+<p class="en">Change detection compares data from different dates to identify surface transformations and natural processes.</p>
+<p class="en">Methods include comparison of classified maps; subtraction and normalisation of spectral bands; analysis of index changes; pixel time profiles; object-based analysis; and statistical methods for identifying trends and seasonality.</p>
+<p class="en">Before comparison, ensure comparable seasons and phenological stages; the same or harmonised coordinate reference system; comparable spatial resolutions; radiometric and atmospheric consistency; a consistent class scheme; and masking of clouds, shadows and snow where these are not the subject of the analysis.</p>
+<p class="en">A change in spectral signal does not always mean a change in land cover. It may result from moisture, season, viewing angle, atmosphere or sensor differences.</p>
+<h3 class="en" id="s262">15.14. Remote Sensing for Natural Hazards and Disasters</h3>
+<p class="en">Remote-sensing data support work before, during and after emergencies. They can be used to map flooded areas; identify traces of forest and grassland fires; assess landslide and earthquake impacts; observe glacier movement and changes in glacial lakes; track dust storms and volcanic emissions; and assess damage to agriculture and infrastructure.</p>
+<p class="en">Operational response depends on data delivery speed, image availability, cloud cover, resolution and classification reliability. A satellite map must state the acquisition time: an image collected after a flood wave has passed may not show the maximum flooded area.</p>
+<p class="en">Remote sensing should be combined with ground observations, meteorological data, reports from emergency services and verified information about population and infrastructure.</p>
+<h3 class="en" id="s266">15.15. Limitations, Uncertainty and Ethics of Remote Sensing</h3>
+<p class="en">Remote-sensing data have limitations, including cloud, smoke, fog and atmospheric interference; differences between sensors and algorithms; mixed pixels at feature boundaries; seasonal and angular effects; insufficient ground reference data; classification and model uncertainty; publication delays; and access restrictions.</p>
+<p class="en">Ethical issues include surveillance of private property, protection of personal data, security of sensitive sites, rights of Indigenous peoples and local communities, and the risk of misuse of maps and analytics.</p>
+<p class="en">Commercial availability of an image does not remove legal, licensing or responsible-use requirements. Before publishing sensitive coordinates, assess possible harm.</p>
+<h2 class="both" id="s270"><span class="ru">15.16. Итоги главы</span><span class="en">Chapter Summary</span></h2>
+<ol class="both">
+<li class="ru">ДЗЗ позволяет получать информацию о поверхности и атмосфере без непосредственного контакта с объектом.</li>
+<li class="ru">Сигналы зависят от спектральных свойств поверхности, атмосферы и геометрии наблюдения.</li>
+<li class="ru">Пассивные и активные сенсоры используют разные физические принципы.</li>
+<li class="ru">Пространственное, спектральное, временное и радиометрическое разрешение описывают разные свойства данных.</li>
+<li class="ru">Перед анализом необходимо учитывать калибровку, атмосферу, геометрию, рельеф и качество исходного продукта.</li>
+<li class="ru">Спектральные индексы помогают выделять особенности поверхности, но не заменяют полноценную классификацию и проверку.</li>
+<li class="ru">Качество классификации оценивается по независимым эталонным данным и матрице ошибок.</li>
+<li class="ru">SAR и LiDAR расширяют возможности наблюдений за счёт радарных и лазерных методов.</li>
+<li class="ru">Мониторинг изменений требует сопоставимости снимков и учёта сезонности.</li>
+<li class="ru">
+<p>ДЗЗ эффективно при сочетании со спутниковыми, полевыми и статистическими данными.</p>
+</li>
+<li class="en">
+<p>Remote sensing provides information about the surface and atmosphere without direct contact with the object.</p>
+</li>
+<li class="en">Signals depend on surface spectral properties, the atmosphere and viewing geometry.</li>
+<li class="en">Passive and active sensors use different physical principles.</li>
+<li class="en">Spatial, spectral, temporal and radiometric resolution describe different properties of data.</li>
+<li class="en">Before analysis, consider calibration, atmospheric effects, geometry, relief and the quality of the source product.</li>
+<li class="en">Spectral indices help identify surface characteristics but do not replace full classification and validation.</li>
+<li class="en">Classification quality is assessed using independent reference data and a confusion matrix.</li>
+<li class="en">SAR and LiDAR expand observation capabilities through radar and laser methods.</li>
+<li class="en">Change monitoring requires comparable images and consideration of seasonality.</li>
+<li class="en">Remote sensing is most effective when combined with satellite, field and statistical data.</li>
+</ol>
+<h2 class="both" id="s272"><span class="ru">15.17. Ключевые понятия</span><span class="en">Key Terms</span></h2>
+<p class="ru">Дистанционное зондирование Земли — Remote sensing of the Earth; электромагнитный спектр — Electromagnetic spectrum; спектральная сигнатура — Spectral signature; пассивный сенсор — Passive sensor; активный сенсор — Active sensor; мультиспектральная съёмка — Multispectral imaging; гиперспектральная съёмка — Hyperspectral imaging; пространственное разрешение — Spatial resolution; временное разрешение — Temporal resolution; радиометрическое разрешение — Radiometric resolution; NDVI — Normalized Difference Vegetation Index; SAR — Synthetic Aperture Radar; LiDAR — Light Detection and Ranging; облако точек — Point cloud; классификация — Classification; матрица ошибок — Confusion matrix; мониторинг изменений — Change detection; цифровая модель рельефа — Digital Terrain Model; поверхностное отражение — Surface reflectance.</p>
+<h2 class="both" id="s274"><span class="ru">15.18. Контрольные вопросы и практические задания</span><span class="en">Review Questions and Practical Activities</span></h2>
+<h3 class="both" id="s275"><span class="ru">Вопросы для самопроверки</span><span class="en">Review Questions</span></h3>
+<ol class="ru">
+<li>Что такое дистанционное зондирование и чем оно дополняет полевые наблюдения?</li>
+<li>Чем отражённое солнечное излучение отличается от собственного теплового излучения поверхности?</li>
+<li>Почему растительность обычно имеет высокий отклик в ближнем инфракрасном диапазоне?</li>
+<li>В чём разница между пассивным и активным сенсором?</li>
+<li>Чем отличаются четыре вида разрешения?</li>
+<li>Почему облачность ограничивает оптические наблюдения, но не всегда препятствует радарной съёмке?</li>
+<li>Для чего выполняется атмосферная коррекция?</li>
+<li>Что показывает NDVI и какие у него ограничения?</li>
+<li>Почему NDWI необходимо сопровождать формулой?</li>
+<li>Как устроена контролируемая классификация и зачем нужны независимые проверочные данные?</li>
+<li>Какие сведения можно получить с помощью SAR и LiDAR?</li>
+<li>Почему сезонность важна при сравнении снимков разных дат?</li>
+<li>Какие факторы могут привести к ложному обнаружению изменений?</li>
+<li>Какие этические ограничения следует учитывать при использовании детальных снимков?</li>
+</ol>
+<h3 class="both" id="s277"><span class="ru">Разобранный пример. Расчёт NDVI</span><span class="en">Worked example: Calculating NDVI</span></h3>
+<p class="ru">Рассмотрим условный пиксель спутникового снимка. После необходимой калибровки и атмосферной коррекции отражение в красном канале (Red) равно 0,10, а в ближнем инфракрасном канале (NIR) — 0,50. Эти числа условны и приведены только для обучения.</p>
+<p class="ru">Формула нормализованного разностного вегетационного индекса:</p>
+<p class="en">[
+NDVI = \frac{NIR-Red}{NIR+Red}
+]</p>
+<p class="ru"><strong>Шаг 1. Подставим значения:</strong></p>
+<p class="en">[
+NDVI = \frac{0{,}50-0{,}10}{0{,}50+0{,}10}
+= \frac{0{,}40}{0{,}60}
+]</p>
+<p class="ru"><strong>Шаг 2. Выполним деление:</strong></p>
+<p class="en">[
+NDVI \approx 0{,}67
+]</p>
+<p class="ru"><strong>Как понимать результат?</strong> Значение около 0,67 указывает на заметный контраст между низким отражением в красном канале и более высоким отражением в ближнем инфракрасном. Такое сочетание часто характерно для участков с зелёной растительностью. Однако по одному значению NDVI нельзя надёжно определить вид растений, урожайность или точное состояние экосистемы.</p>
+<p class="ru"><strong>Важно:</strong> для корректного сравнения нужно использовать данные одного сенсора или согласованные продукты, проверять дату и сезон съёмки, маскировать облака и тени и учитывать фон почвы. NDVI также может насыщаться в густой растительности.</p>
+<p class="ru"><strong>Проверьте себя:</strong> если Red = 0,20, а NIR = 0,40, чему будет равен NDVI? Почему он ниже, чем в первом примере?</p>
+<p class="en">Consider a hypothetical pixel in a satellite image. After the required calibration and atmospheric correction, reflectance in the red band is 0.10 and reflectance in the near-infrared band (NIR) is 0.50. These values are illustrative and are used for learning only.</p>
+<p class="en">The Normalized Difference Vegetation Index is calculated as:</p>
+<p class="en">[
+NDVI = \frac{NIR-Red}{NIR+Red}
+]</p>
+<p class="en"><strong>Step 1. Substitute the values:</strong></p>
+<p class="en">[
+NDVI = \frac{0.50-0.10}{0.50+0.10}
+= \frac{0.40}{0.60}
+]</p>
+<p class="en"><strong>Step 2. Divide:</strong></p>
+<p class="en">[
+NDVI \approx 0.67
+]</p>
+<p class="en"><strong>How should the result be interpreted?</strong> A value of about 0.67 indicates a clear contrast between low reflectance in the red band and higher reflectance in the near-infrared band. This combination is often characteristic of areas with green vegetation. However, a single NDVI value cannot reliably identify plant species, crop yield or the exact condition of an ecosystem.</p>
+<p class="en"><strong>Important:</strong> for valid comparisons, use data from the same sensor or harmonised products, check the acquisition date and season, mask clouds and shadows, and consider the soil background. NDVI can also become saturated in dense vegetation.</p>
+<p class="en"><strong>Check your understanding:</strong> If Red = 0.20 and NIR = 0.40, what is the NDVI? Why is it lower than in the first example?</p>
+<h3 class="both" id="s298"><span class="ru">Практическая работа 1. Спектральная сигнатура</span><span class="en">Practical Activity 1. Spectral Signature</span></h3>
+<p class="ru">Сравните спектральные кривые растительности, воды, сухой и влажной почвы. Объясните различия по диапазонам и укажите, почему кривые зависят от условий наблюдения.</p>
+<h3 class="both" id="s300"><span class="ru">Практическая работа 2. Расчёт NDVI</span><span class="en">Practical Activity 2. Calculating NDVI</span></h3>
+<p class="ru">Используйте мультиспектральный снимок с каналами Red и NIR. Рассчитайте NDVI, постройте карту и сравните несколько типов поверхности. Укажите сенсор, дату, формулу и ограничения.</p>
+<h3 class="both" id="s302"><span class="ru">Практическая работа 3. Классификация земного покрова</span><span class="en">Practical Activity 3. Land-cover Classification</span></h3>
+<p class="ru">Создайте схему классов и обучающие образцы для леса, воды, застройки, сельскохозяйственных угодий и открытой почвы. Проведите классификацию и оцените её по независимым проверочным точкам.</p>
+<h3 class="both" id="s304"><span class="ru">Практическая работа 4. Оптический и радарный снимки</span><span class="en">Practical Activity 4. Optical and Radar Comparison</span></h3>
+<p class="ru">Сопоставьте оптический снимок и изображение Sentinel-1 SAR одной территории. Выделите возможности и ограничения каждого источника, не интерпретируя яркость SAR как обычный цвет поверхности.</p>
+<h3 class="both" id="s306"><span class="ru">Практическая работа 5. Мониторинг изменений</span><span class="en">Practical Activity 5. Change Monitoring</span></h3>
+<p class="ru">Выберите два сопоставимых снимка разных дат. Проведите маскирование облаков, выровняйте данные и определите участки изменений. Проверьте несколько участков по независимым источникам.</p>
+<h3 class="both" id="s308"><span class="ru">Практическая работа 6. Мини-проект по природной опасности</span><span class="en">Practical Activity 6. Natural Hazard Mini-project</span></h3>
+<p class="ru">Используйте спутниковые данные для картирования одного события — например, паводка или пожара. Укажите дату съёмки, метод, ограничения и способы проверки результата.</p>
+<ol class="en">
+<li>Remote sensing provides information about Earth's surface and atmosphere without direct contact with the object.</li>
+<li>Signals depend on surface spectral properties, the atmosphere and viewing geometry.</li>
+<li>Passive and active sensors use different physical principles.</li>
+<li>Spatial, spectral, temporal and radiometric resolution describe different data characteristics.</li>
+<li>Before analysis, account for calibration, atmosphere, geometry, relief and source-product quality.</li>
+<li>Spectral indices help highlight surface properties but do not replace full classification and validation.</li>
+<li>Classification quality is assessed using independent reference data and a confusion matrix.</li>
+<li>SAR and LiDAR extend observation capabilities through radar and laser methods.</li>
+<li>Change monitoring requires comparable imagery and attention to seasonality.</li>
+<li>Remote sensing is most effective when combined with satellite, field and statistical data.</li>
+</ol>
+<ol class="en">
+<li>What is remote sensing, and how does it complement field observations?</li>
+<li>How does reflected solar radiation differ from the surface's own thermal emission?</li>
+<li>Why does vegetation usually have a strong response in the near-infrared?</li>
+<li>What is the difference between passive and active sensors?</li>
+<li>How do the four types of resolution differ?</li>
+<li>Why does cloud cover limit optical observations but not always prevent radar imaging?</li>
+<li>Why is atmospheric correction performed?</li>
+<li>What does NDVI show, and what are its limitations?</li>
+<li>Why should the formula be stated when using NDWI?</li>
+<li>How does supervised classification work, and why are independent validation data needed?</li>
+<li>What information can be obtained using SAR and LiDAR?</li>
+<li>Why is seasonality important when comparing images from different dates?</li>
+<li>Which factors may cause false change detection?</li>
+<li>Which ethical restrictions should be considered when using detailed imagery?</li>
+</ol>
+<p class="en"><strong>1. Spectral signature.</strong> Compare spectral curves for vegetation, water, dry soil and wet soil. Explain differences across spectral regions and why the curves depend on observation conditions.</p>
+<p class="en"><strong>2. Calculating NDVI.</strong> Use a multispectral image with Red and NIR bands. Calculate NDVI, create a map and compare several surface types. State the sensor, date, formula and limitations.</p>
+<p class="en"><strong>3. Land-cover classification.</strong> Design a class scheme and training samples for forest, water, built-up areas, agricultural land and bare soil. Perform a classification and assess it using independent validation points.</p>
+<p class="en"><strong>4. Optical and radar comparison.</strong> Compare an optical image with a Sentinel-1 SAR image of the same area. Identify the capabilities and limitations of each source; do not interpret SAR brightness as an ordinary surface colour.</p>
+<p class="en"><strong>5. Change monitoring.</strong> Select two comparable images from different dates. Mask clouds, align the data and identify areas of change. Validate several locations using independent sources.</p>
+<p class="en"><strong>6. Natural-hazard mini-project.</strong> Use satellite data to map one event, such as a flood or fire. State the acquisition date, method, limitations and ways to validate the result.</p>
+<h2 class="both" id="s318"><span class="ru">Основные источники и рекомендуемая литература</span><span class="en">Core Sources and Further Reading</span></h2>
+<ol class="both">
+<li class="en">NASA. <strong>Earthdata</strong> — access to Earth-observation data, documentation and learning resources. https://www.earthdata.nasa.gov/</li>
+<li class="en">United States Geological Survey (USGS). <strong>Landsat Missions and Landsat Collection Documentation</strong> — Landsat sensor characteristics, data collections and processing. https://www.usgs.gov/landsat-missions</li>
+<li class="en">European Space Agency (ESA). <strong>How to Access Data</strong> — official Earth-observation data access, including Sentinel products. https://www.esa.int/Applications/Observing_the_Earth/How_to_access_data</li>
+<li class="en">Copernicus Programme. <strong>Copernicus Data Space Ecosystem Documentation</strong> — Sentinel product access and technical documentation. https://documentation.dataspace.copernicus.eu/</li>
+<li class="en">NASA Earth Observatory. <strong>Remote Sensing</strong> — educational materials on observing Earth. https://earthobservatory.nasa.gov/features/RemoteSensing</li>
+<li class="en">Jensen, J. R. <strong>Remote Sensing of the Environment: An Earth Resource Perspective</strong>. Pearson.</li>
+<li class="en">Lillesand, T., Kiefer, R. W., Chipman, J. <strong>Remote Sensing and Image Interpretation</strong>. Wiley.</li>
+<li class="en">Richards, J. A. <strong>Remote Sensing Digital Image Analysis</strong>. Springer.</li>
+<li class="en">European Space Agency. <strong>Sentinel-1 Mission Overview and Radar Instrument</strong> — mission characteristics and all-weather, day-and-night radar imaging. https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1</li>
+<li class="both"><span class="ru"><strong>ISPRS Journal of Photogrammetry and Remote Sensing</strong> — научные исследования методов фотограмметрии и ДЗЗ.</span><span class="en">International Society for Photogrammetry and Remote Sensing (ISPRS).</span></li>
+<li class="en">
+<p>NASA Science. <strong>Landsat Calibration and Validation</strong> — documentation of radiometric and geometric calibration, independent verification and validation of higher-level data products. https://science.nasa.gov/mission/landsat/calibration-validation/</p>
+</li>
+<li class="en">
+<p>Copernicus Data Space Ecosystem. <strong>Sentinel-1 constellation update (30 June 2026)</strong> — end of operations of Sentinel-1A and operational status of Sentinel-1C and Sentinel-1D. https://dataspace.copernicus.eu/news/2026-6-30-copernicus-sentinel-1a-satellite-end-operations-after-12-years-service</p>
+</li>
+<li class="en">United States Geological Survey (USGS). <strong>Landsat Collection 2 Level-2 Science Products and Quality Assessment Bands</strong> — surface-reflectance scaling, product metadata and QA layers. https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products</li>
+<li class="en">United States Geological Survey (USGS). <strong>How do I use a scale factor with Landsat Level-2 science products?</strong> Official formula and worked examples for Collection 2 surface reflectance and surface temperature, including fill values and valid ranges. https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products</li>
+<li class="en">USGS Landsat Missions. <strong>Landsat Normalized Difference Vegetation Index (NDVI).</strong> Formula, OLI band mapping and product details for Landsat 8–9. https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index</li>
+<li class="en">USGS Landsat Missions. <strong>Normalized Difference Moisture Index (NDMI).</strong> Formula, Landsat band mapping and product details. https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index</li>
+<li class="en">USGS Landsat Missions. <strong>Landsat Normalized Burn Ratio (NBR).</strong> Formula, OLI band mapping and product details for Landsat 8–9. https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio</li>
+<li class="en">McFeeters, S. K. (1996). <strong>The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features.</strong> <em>International Journal of Remote Sensing</em>, 17(7), 1425–1432. https://doi.org/10.1080/01431169608948714</li>
+<li class="en">Gao, B.-C. (1996). <strong>NDWI—A normalized difference water index for remote sensing of vegetation liquid water from space.</strong> <em>Remote Sensing of Environment</em>, 58(3), 257–266. https://doi.org/10.1016/S0034-4257(96)00067-3. This is a different NIR–SWIR index; always state the formula to avoid ambiguity.</li>
+<li class="en">Zha, Y., Gao, J., &amp; Ni, S. (2003). <strong>Use of normalized difference built-up index in automatically mapping urban areas from TM imagery.</strong> <em>International Journal of Remote Sensing</em>, 24(3), 583–594. https://doi.org/10.1080/01431160304987</li>
+<li class="en">NASA Applied Remote Sensing Training Program. <strong>Fundamentals of Remote Sensing.</strong> Training material on passive/active sensing, atmospheric interactions and sensor observations. https://appliedsciences.nasa.gov/sites/default/files/2020-11/conservationpart2.pdf</li>
+<li class="en">USGS Landsat Missions. <strong>Landsat Surface Reflectance.</strong> Explains atmospheric correction and the use of surface-reflectance products for comparison through time. https://www.usgs.gov/landsat-missions/landsat-surface-reflectance</li>
+<li class="en">USGS Landsat Missions. <strong>Landsat Glossary: Resolution.</strong> Defines spatial, spectral, radiometric and temporal resolution. https://www.usgs.gov/landsat-missions/landsat-glossary</li>
+<li class="en">
+<p>USGS Western Geographic Science Center. <strong>Introduction to Aquatic Remote Sensing.</strong> Public-domain example spectra for clear water, algal water and sediment-laden water. https://www.usgs.gov/centers/western-geographic-science-center/introduction-aquatic-remote-sensing</p>
+</li>
+<li class="en">
+<p>National Ecological Observatory Network (NEON). <strong>What is a CHM, DSM and DTM? About Gridded, Raster LiDAR Data.</strong> Definitions of point clouds, ground and surface models and canopy height. https://www.neonscience.org/resources/learning-hub/tutorials/chm-dsm-dtm</p>
+</li>
+<li class="en">Natural Resources Canada. <strong>Viewing Geometry and Spatial Resolution.</strong> Side-looking radar geometry, range and incidence angle. https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/viewing-geometry-spatial-resolution</li>
+<li class="en">Google Earth Engine. <strong>Synthetic Aperture Radar (SAR) Basics.</strong> Backscatter dependence on incidence angle, surface and terrain geometry. https://developers.google.com/earth-engine/tutorials/community/sar-basics</li>
+<li class="en">Belgian Platform on Earth Observation. <strong>Multi-temporal Analysis and Change Detection.</strong> Image matching and temporal comparison considerations. https://eo.belspo.be/en/iv45-multi-temporal-analysis-and-change-detection</li>
+<li class="en">Virginia Tech Pressbooks. <strong>Change Detection using Landsat 9 Imagery.</strong> Co-registration, same-season acquisition, atmospheric conditions and change interpretation. https://pressbooks.lib.vt.edu/remotesensing/chapter/chapter-20-change-detection-using-landsat-9-imagery/</li>
+</ol>
+<p class="both"><span class="ru"><strong>Конец главы 15</strong></span><span class="en">End of Chapter 15</span></p>
+    </article>
+    <nav class="pager"><a class="prev" href="14-geographic-information-systems.html"><small><span class="ru">← Предыдущая глава</span><span class="en">← Previous chapter</span></small><span class="ru">Глава 14. Геоинформационные системы</span><span class="en">Chapter 14. Geographic Information Systems</span></a><a class="next" href="16-geographic-research-and-cartography.html"><small><span class="ru">Следующая глава →</span><span class="en">Next chapter →</span></small><span class="ru">Глава 16. Географические исследования и картография</span><span class="en">Chapter 16. Geographic Research and Cartography</span></a></nav>
+  </main>
+</div>
+<script>window.CHAPTER_TITLES={"ru": "Глава 15. Дистанционное зондирование Земли", "en": "Chapter 15. Remote Sensing of the Earth"};</script>
+<script src="reader.js"></script>
+</body>
+</html>
